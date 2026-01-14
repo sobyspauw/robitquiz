@@ -19,28 +19,7 @@
           { en: "Darius III", es: "Darío III", de: "Dareios III.", nl: "Darius III" },
           { en: "Cyrus the Great", es: "Ciro el Grande", de: "Kyros der Große", nl: "Cyrus de Grote" },
           { en: "Xerxes I", es: "Jerjes I", de: "Xerxes I.", nl: "Xerxes I" },
-          { en: "Artaxerxes I", es: "Artajerjes I", de: "Artaxerxes I.", nl: "Artaxerxes I" },
-        {
-            question: {
-                en: "Which medieval queen led the Third Crusade alongside Richard the Lionheart after divorcing the King of France?",
-                es: "¿Qué reina medieval lideró la Tercera Cruzada junto a Ricardo Corazón de León después de divorciarse del Rey de Francia?",
-                de: "Welche mittelalterliche Königin führte nach ihrer Scheidung vom König von Frankreich an der Seite von Richard Löwenherz den Dritten Kreuzzug an?",
-                nl: "Welke middeleeuwse koningin leidde de Derde Kruistocht naast Richard Leeuwenhart na haar scheiding van de Koning van Frankrijk?"
-            },
-            options: [
-                { en: "Eleanor of Aquitaine", es: "Leonor de Aquitania", de: "Eleonore von Aquitanien", nl: "Eleonora van Aquitanië" },
-                { en: "Berengaria of Navarre", es: "Berenguela de Navarra", de: "Berengaria von Navarra", nl: "Berengaria van Navarra" },
-                { en: "Matilda of England", es: "Matilde de Inglaterra", de: "Matilda von England", nl: "Mathilde van Engeland" },
-                { en: "Isabella of France", es: "Isabel de Francia", de: "Isabella von Frankreich", nl: "Isabella van Frankrijk" }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Eleanor of Aquitaine (1122-1204) was Queen of France, then Queen of England, and one of the wealthiest and most powerful women in medieval Europe. She accompanied Louis VII on the Second Crusade and later supported her son Richard I during the Third Crusade.",
-                es: "Leonor de Aquitania (1122-1204) fue Reina de Francia, luego Reina de Inglaterra, y una de las mujeres más ricas y poderosas de la Europa medieval. Acompañó a Luis VII en la Segunda Cruzada y más tarde apoyó a su hijo Ricardo I durante la Tercera Cruzada.",
-                de: "Eleonore von Aquitanien (1122-1204) war Königin von Frankreich, dann Königin von England und eine der reichsten und mächtigsten Frauen im mittelalterlichen Europa. Sie begleitete Ludwig VII. auf dem Zweiten Kreuzzug und unterstützte später ihren Sohn Richard I. während des Dritten Kreuzzugs.",
-                nl: "Eleonora van Aquitanië (1122-1204) was Koningin van Frankrijk, vervolgens Koningin van Engeland, en een van de rijkste en machtigste vrouwen in middeleeuws Europa. Ze vergezelde Lodewijk VII op de Tweede Kruistocht en steunde later haar zoon Richard I tijdens de Derde Kruistocht."
-            }
-        }
+          { en: "Artaxerxes I", es: "Artajerjes I", de: "Artaxerxes I.", nl: "Artaxerxes I" }
         ],
         correct: 0,
         explanation: {
@@ -48,6 +27,27 @@
           es: "Darío III fue derrotado decisivamente por Alejandro en Gaugamela en 331 a.C., terminando efectivamente la resistencia persa y abriendo el camino a Babilonia, Susa y Persépolis.",
           de: "Dareios III. wurde von Alexander bei Gaugamela 331 v.Chr. entscheidend besiegt, was den persischen Widerstand effektiv beendete und den Weg nach Babylon, Susa und Persepolis öffnete.",
           nl: "Darius III werd beslissend verslagen door Alexander bij Gaugamela in 331 v.Chr., wat effectief het Perzische verzet beëindigde en de weg opende naar Babylon, Susa en Persepolis."
+        }
+      },
+      {
+        question: {
+          en: "Which medieval queen led the Third Crusade alongside Richard the Lionheart after divorcing the King of France?",
+          es: "¿Qué reina medieval lideró la Tercera Cruzada junto a Ricardo Corazón de León después de divorciarse del Rey de Francia?",
+          de: "Welche mittelalterliche Königin führte nach ihrer Scheidung vom König von Frankreich an der Seite von Richard Löwenherz den Dritten Kreuzzug an?",
+          nl: "Welke middeleeuwse koningin leidde de Derde Kruistocht naast Richard Leeuwenhart na haar scheiding van de Koning van Frankrijk?"
+        },
+        options: [
+          { en: "Eleanor of Aquitaine", es: "Leonor de Aquitania", de: "Eleonore von Aquitanien", nl: "Eleonora van Aquitanië" },
+          { en: "Berengaria of Navarre", es: "Berenguela de Navarra", de: "Berengaria von Navarra", nl: "Berengaria van Navarra" },
+          { en: "Matilda of England", es: "Matilde de Inglaterra", de: "Matilda von England", nl: "Mathilde van Engeland" },
+          { en: "Isabella of France", es: "Isabel de Francia", de: "Isabella von Frankreich", nl: "Isabella van Frankrijk" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Eleanor of Aquitaine (1122-1204) was Queen of France, then Queen of England, and one of the wealthiest and most powerful women in medieval Europe. She accompanied Louis VII on the Second Crusade and later supported her son Richard I during the Third Crusade.",
+          es: "Leonor de Aquitania (1122-1204) fue Reina de Francia, luego Reina de Inglaterra, y una de las mujeres más ricas y poderosas de la Europa medieval. Acompañó a Luis VII en la Segunda Cruzada y más tarde apoyó a su hijo Ricardo I durante la Tercera Cruzada.",
+          de: "Eleonore von Aquitanien (1122-1204) war Königin von Frankreich, dann Königin von England und eine der reichsten und mächtigsten Frauen im mittelalterlichen Europa. Sie begleitete Ludwig VII. auf dem Zweiten Kreuzzug und unterstützte später ihren Sohn Richard I. während des Dritten Kreuzzugs.",
+          nl: "Eleonora van Aquitanië (1122-1204) was Koningin van Frankrijk, vervolgens Koningin van Engeland, en een van de rijkste en machtigste vrouwen in middeleeuws Europa. Ze vergezelde Lodewijk VII op de Tweede Kruistocht en steunde later haar zoon Richard I tijdens de Derde Kruistocht."
         }
       },
       {
@@ -426,6 +426,237 @@
           es: "Hisham ibn Abd al-Malik (691-743) gobernó durante el apogeo del poder omeya, cuando el imperio islámico se extendía desde España hasta Asia Central y el río Indo, su mayor extensión territorial.",
           de: "Hischam ibn Abd al-Malik (691-743) herrschte während des Höhepunkts der umayyadischen Macht, als das islamische Reich von Spanien bis Zentralasien und zum Indus reichte, seine größte territoriale Ausdehnung.",
           nl: "Hisham ibn Abd al-Malik (691-743) regeerde tijdens het hoogtepunt van de Omajjadse macht, toen het islamitische rijk zich uitstrekte van Spanje tot Centraal-Azië en de Indus, zijn grootste territoriale omvang."
+        }
+      },
+      {
+        question: {
+          en: "Which Mongol general conquered most of Eastern Europe in the 13th century?",
+          es: "¿Qué general mongol conquistó la mayor parte de Europa Oriental en el siglo XIII?",
+          de: "Welcher mongolische General eroberte im 13. Jahrhundert den größten Teil Osteuropas?",
+          nl: "Welke Mongoolse generaal veroverde het grootste deel van Oost-Europa in de 13e eeuw?"
+        },
+        options: [
+          { en: "Subutai", es: "Subutai", de: "Subutai", nl: "Subutai" },
+          { en: "Jebe", es: "Jebe", de: "Jebe", nl: "Jebe" },
+          { en: "Batu Khan", es: "Batu Khan", de: "Batu Khan", nl: "Batu Khan" },
+          { en: "Muqali", es: "Muqali", de: "Muqali", nl: "Muqali" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Subutai (1175-1248) was Genghis Khan's greatest general, who led the Mongol invasion of Eastern Europe and won more pitched battles than any other commander in history, conquering more territory than any other general.",
+          es: "Subutai (1175-1248) fue el más grande general de Gengis Kan, quien lideró la invasión mongola de Europa Oriental y ganó más batallas campales que cualquier otro comandante en la historia, conquistando más territorio que cualquier otro general.",
+          de: "Subutai (1175-1248) war Dschingis Khans größter General, der die mongolische Invasion Osteuropas anführte und mehr Feldschlachten gewann als jeder andere Kommandant in der Geschichte, eroberte mehr Territorium als jeder andere General.",
+          nl: "Subutai (1175-1248) was Dzjengis Khans grootste generaal, die de Mongoolse invasie van Oost-Europa leidde en meer veldslagen won dan enige andere commandant in de geschiedenis, veroverde meer territorium dan enige andere generaal."
+        }
+      },
+      {
+        question: {
+          en: "Who was the Carthaginian general who crossed the Alps with elephants to invade Rome?",
+          es: "¿Quién fue el general cartaginés que cruzó los Alpes con elefantes para invadir Roma?",
+          de: "Wer war der karthagische General, der mit Elefanten die Alpen überquerte, um Rom anzugreifen?",
+          nl: "Wie was de Carthaagse generaal die de Alpen overstak met olifanten om Rome binnen te vallen?"
+        },
+        options: [
+          { en: "Hannibal Barca", es: "Aníbal Barca", de: "Hannibal Barkas", nl: "Hannibal Barkas" },
+          { en: "Hamilcar Barca", es: "Amílcar Barca", de: "Hamilkar Barkas", nl: "Hamilcar Barkas" },
+          { en: "Hasdrubal Barca", es: "Asdrúbal Barca", de: "Hasdrubal Barkas", nl: "Hasdrubal Barkas" },
+          { en: "Scipio Africanus", es: "Escipión el Africano", de: "Scipio Africanus", nl: "Scipio Africanus" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hannibal Barca (247-183 BCE) led one of history's most famous military campaigns, crossing the Alps with war elephants in 218 BCE and defeating Roman armies for 15 years during the Second Punic War.",
+          es: "Aníbal Barca (247-183 a.C.) lideró una de las campañas militares más famosas de la historia, cruzando los Alpes con elefantes de guerra en 218 a.C. y derrotando a los ejércitos romanos durante 15 años durante la Segunda Guerra Púnica.",
+          de: "Hannibal Barkas (247-183 v.Chr.) führte eine der berühmtesten Militärkampagnen der Geschichte, überquerte 218 v.Chr. die Alpen mit Kriegselefanten und besiegte 15 Jahre lang römische Armeen während des Zweiten Punischen Krieges.",
+          nl: "Hannibal Barkas (247-183 v.Chr.) leidde een van de beroemdste militaire campagnes in de geschiedenis, stak de Alpen over met oorlogsolifanten in 218 v.Chr. en versloeg Romeinse legers gedurende 15 jaar tijdens de Tweede Punische Oorlog."
+        }
+      },
+      {
+        question: {
+          en: "Which Ethiopian emperor defeated Italian forces at the Battle of Adwa in 1896?",
+          es: "¿Qué emperador etíope derrotó a las fuerzas italianas en la Batalla de Adwa en 1896?",
+          de: "Welcher äthiopische Kaiser besiegte 1896 italienische Truppen in der Schlacht von Adwa?",
+          nl: "Welke Ethiopische keizer versloeg Italiaanse troepen in de Slag bij Adwa in 1896?"
+        },
+        options: [
+          { en: "Menelik II", es: "Menelik II", de: "Menelik II.", nl: "Menelik II" },
+          { en: "Tewodros II", es: "Tewodros II", de: "Tewodros II.", nl: "Tewodros II" },
+          { en: "Yohannes IV", es: "Yohannes IV", de: "Yohannes IV.", nl: "Yohannes IV" },
+          { en: "Haile Selassie I", es: "Haile Selassie I", de: "Haile Selassie I.", nl: "Haile Selassie I" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Menelik II (1844-1913) led Ethiopian forces to victory at Adwa, preserving Ethiopia's independence and making it the only African nation to successfully resist European colonization during the Scramble for Africa.",
+          es: "Menelik II (1844-1913) lideró las fuerzas etíopes a la victoria en Adwa, preservando la independencia de Etiopía y convirtiéndola en la única nación africana en resistir exitosamente la colonización europea durante el Reparto de África.",
+          de: "Menelik II. (1844-1913) führte äthiopische Truppen zum Sieg bei Adwa, bewahrte Äthiopiens Unabhängigkeit und machte es zur einzigen afrikanischen Nation, die während des Wettlaufs um Afrika der europäischen Kolonisierung erfolgreich widerstand.",
+          nl: "Menelik II (1844-1913) leidde Ethiopische troepen naar de overwinning bij Adwa, behield Ethiopië's onafhankelijkheid en maakte het de enige Afrikaanse natie die met succes de Europese kolonisatie tijdens de Scramble for Africa weerstond."
+        }
+      },
+      {
+        question: {
+          en: "Who was the Aztec emperor when the Spanish conquistadors arrived in Mexico?",
+          es: "¿Quién fue el emperador azteca cuando los conquistadores españoles llegaron a México?",
+          de: "Wer war der aztekische Kaiser, als die spanischen Konquistadoren in Mexiko ankamen?",
+          nl: "Wie was de Azteekse keizer toen de Spaanse conquistadores in Mexico aankwamen?"
+        },
+        options: [
+          { en: "Moctezuma II", es: "Moctezuma II", de: "Moctezuma II.", nl: "Moctezuma II" },
+          { en: "Cuauhtémoc", es: "Cuauhtémoc", de: "Cuauhtémoc", nl: "Cuauhtémoc" },
+          { en: "Cuitláhuac", es: "Cuitláhuac", de: "Cuitláhuac", nl: "Cuitláhuac" },
+          { en: "Axayacatl", es: "Axayácatl", de: "Axayacatl", nl: "Axayacatl" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Moctezuma II (1466-1520) ruled the Aztec Empire at its height when Hernán Cortés arrived in 1519. His initial hospitality to the Spanish proved fatal as it enabled the eventual conquest of Tenochtitlan.",
+          es: "Moctezuma II (1466-1520) gobernó el Imperio Azteca en su apogeo cuando Hernán Cortés llegó en 1519. Su hospitalidad inicial hacia los españoles resultó fatal ya que permitió la eventual conquista de Tenochtitlan.",
+          de: "Moctezuma II. (1466-1520) herrschte über das Aztekenreich auf seinem Höhepunkt, als Hernán Cortés 1519 ankam. Seine anfängliche Gastfreundschaft gegenüber den Spaniern erwies sich als fatal, da sie die spätere Eroberung von Tenochtitlan ermöglichte.",
+          nl: "Moctezuma II (1466-1520) regeerde het Azteekse Rijk op zijn hoogtepunt toen Hernán Cortés in 1519 aankwam. Zijn aanvankelijke gastvrijheid tegenover de Spanjaarden bleek fataal omdat het de uiteindelijke verovering van Tenochtitlan mogelijk maakte."
+        }
+      },
+      {
+        question: {
+          en: "Which Sultan of Delhi established the Tughlaq dynasty in India?",
+          es: "¿Qué sultán de Delhi estableció la dinastía Tughlaq en India?",
+          de: "Welcher Sultan von Delhi gründete die Tughlaq-Dynastie in Indien?",
+          nl: "Welke Sultan van Delhi vestigde de Tughlaq-dynastie in India?"
+        },
+        options: [
+          { en: "Ghiyasuddin Tughlaq", es: "Ghiyasuddin Tughlaq", de: "Ghiyasuddin Tughlaq", nl: "Ghiyasuddin Tughlaq" },
+          { en: "Muhammad bin Tughlaq", es: "Muhammad bin Tughlaq", de: "Muhammad bin Tughlaq", nl: "Muhammad bin Tughlaq" },
+          { en: "Firuz Shah Tughlaq", es: "Firuz Shah Tughlaq", de: "Firuz Schah Tughlaq", nl: "Firuz Shah Tughlaq" },
+          { en: "Alauddin Khalji", es: "Alauddin Khalji", de: "Alauddin Khalji", nl: "Alauddin Khalji" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ghiyasuddin Tughlaq (1320-1325) founded the Tughlaq dynasty after overthrowing the Khalji dynasty. He was a capable administrator and military commander who strengthened the Delhi Sultanate's infrastructure and defenses.",
+          es: "Ghiyasuddin Tughlaq (1320-1325) fundó la dinastía Tughlaq después de derrocar la dinastía Khalji. Fue un administrador y comandante militar capaz que fortaleció la infraestructura y las defensas del Sultanato de Delhi.",
+          de: "Ghiyasuddin Tughlaq (1320-1325) gründete die Tughlaq-Dynastie nach dem Sturz der Khalji-Dynastie. Er war ein fähiger Verwalter und Militärkommandant, der die Infrastruktur und Verteidigung des Sultanats von Delhi stärkte.",
+          nl: "Ghiyasuddin Tughlaq (1320-1325) stichtte de Tughlaq-dynastie na het omverwerpen van de Khalji-dynastie. Hij was een bekwame bestuurder en militaire commandant die de infrastructuur en verdediging van het Sultanaat van Delhi versterkte."
+        }
+      },
+      {
+        question: {
+          en: "Who was the Inca emperor captured by Francisco Pizarro in 1532?",
+          es: "¿Quién fue el emperador inca capturado por Francisco Pizarro en 1532?",
+          de: "Wer war der Inka-Kaiser, der 1532 von Francisco Pizarro gefangen genommen wurde?",
+          nl: "Wie was de Inca-keizer die in 1532 door Francisco Pizarro gevangen werd genomen?"
+        },
+        options: [
+          { en: "Atahualpa", es: "Atahualpa", de: "Atahualpa", nl: "Atahualpa" },
+          { en: "Huáscar", es: "Huáscar", de: "Huáscar", nl: "Huáscar" },
+          { en: "Pachacuti", es: "Pachacútec", de: "Pachacuti", nl: "Pachacuti" },
+          { en: "Túpac Amaru", es: "Túpac Amaru", de: "Túpac Amaru", nl: "Túpac Amaru" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Atahualpa (1502-1533) was the last sovereign Inca emperor before the Spanish conquest. He was captured at Cajamarca in 1532 and executed by Pizarro despite offering a room filled with gold and silver as ransom.",
+          es: "Atahualpa (1502-1533) fue el último emperador inca soberano antes de la conquista española. Fue capturado en Cajamarca en 1532 y ejecutado por Pizarro a pesar de ofrecer una habitación llena de oro y plata como rescate.",
+          de: "Atahualpa (1502-1533) war der letzte souveräne Inka-Kaiser vor der spanischen Eroberung. Er wurde 1532 in Cajamarca gefangen genommen und von Pizarro hingerichtet, obwohl er einen mit Gold und Silber gefüllten Raum als Lösegeld anbot.",
+          nl: "Atahualpa (1502-1533) was de laatste soevereine Inca-keizer vóór de Spaanse verovering. Hij werd in 1532 gevangen genomen in Cajamarca en geëxecuteerd door Pizarro ondanks het aanbieden van een kamer gevuld met goud en zilver als losgeld."
+        }
+      },
+      {
+        question: {
+          en: "Which Norman king conquered England in 1066 at the Battle of Hastings?",
+          es: "¿Qué rey normando conquistó Inglaterra en 1066 en la Batalla de Hastings?",
+          de: "Welcher normannische König eroberte 1066 England in der Schlacht von Hastings?",
+          nl: "Welke Normandische koning veroverde Engeland in 1066 in de Slag bij Hastings?"
+        },
+        options: [
+          { en: "William the Conqueror", es: "Guillermo el Conquistador", de: "Wilhelm der Eroberer", nl: "Willem de Veroveraar" },
+          { en: "Robert the Magnificent", es: "Roberto el Magnífico", de: "Robert der Prächtige", nl: "Robert de Prachtlievende" },
+          { en: "Richard I", es: "Ricardo I", de: "Richard I.", nl: "Richard I" },
+          { en: "Henry I", es: "Enrique I", de: "Heinrich I.", nl: "Hendrik I" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "William the Conqueror (1028-1087), Duke of Normandy, defeated King Harold II at Hastings on October 14, 1066, fundamentally transforming English society, language, and governance through Norman rule.",
+          es: "Guillermo el Conquistador (1028-1087), Duque de Normandía, derrotó al Rey Harold II en Hastings el 14 de octubre de 1066, transformando fundamentalmente la sociedad, el idioma y el gobierno inglés a través del dominio normando.",
+          de: "Wilhelm der Eroberer (1028-1087), Herzog der Normandie, besiegte König Harald II. bei Hastings am 14. Oktober 1066 und veränderte grundlegend die englische Gesellschaft, Sprache und Regierung durch normannische Herrschaft.",
+          nl: "Willem de Veroveraar (1028-1087), Hertog van Normandië, versloeg Koning Harold II bij Hastings op 14 oktober 1066, transformeerde fundamenteel de Engelse samenleving, taal en bestuur door Normandische heerschappij."
+        }
+      },
+      {
+        question: {
+          en: "Who was the Zulu king who created a powerful military state in southern Africa?",
+          es: "¿Quién fue el rey zulú que creó un poderoso estado militar en el sur de África?",
+          de: "Wer war der Zulu-König, der einen mächtigen Militärstaat im südlichen Afrika schuf?",
+          nl: "Wie was de Zoeloe-koning die een machtige militaire staat in zuidelijk Afrika creëerde?"
+        },
+        options: [
+          { en: "Shaka Zulu", es: "Shaka Zulú", de: "Shaka Zulu", nl: "Shaka Zulu" },
+          { en: "Cetshwayo", es: "Cetshwayo", de: "Cetshwayo", nl: "Cetshwayo" },
+          { en: "Dingane", es: "Dingane", de: "Dingane", nl: "Dingane" },
+          { en: "Mpande", es: "Mpande", de: "Mpande", nl: "Mpande" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Shaka Zulu (1787-1828) revolutionized warfare in southern Africa, transforming the Zulu into a formidable military power through innovative tactics like the 'buffalo horns' formation and the short stabbing spear (iklwa).",
+          es: "Shaka Zulú (1787-1828) revolucionó la guerra en el sur de África, transformando a los zulúes en un formidable poder militar a través de tácticas innovadoras como la formación de 'cuernos de búfalo' y la lanza corta de apuñalamiento (iklwa).",
+          de: "Shaka Zulu (1787-1828) revolutionierte die Kriegsführung im südlichen Afrika und verwandelte die Zulu durch innovative Taktiken wie die 'Büffelhörner'-Formation und den kurzen Stoßspeer (Iklwa) in eine beeindruckende Militärmacht.",
+          nl: "Shaka Zulu (1787-1828) revolutioneerde oorlogvoering in zuidelijk Afrika, transformeerde de Zoeloes in een formidabele militaire macht door innovatieve tactieken zoals de 'buffelhorens'-formatie en de korte steekspeer (iklwa)."
+        }
+      },
+      {
+        question: {
+          en: "Which Ottoman sultan conquered Constantinople in 1453, ending the Byzantine Empire?",
+          es: "¿Qué sultán otomano conquistó Constantinopla en 1453, terminando el Imperio Bizantino?",
+          de: "Welcher osmanische Sultan eroberte 1453 Konstantinopel und beendete das Byzantinische Reich?",
+          nl: "Welke Ottomaanse sultan veroverde Constantinopel in 1453, waarmee het Byzantijnse Rijk eindigde?"
+        },
+        options: [
+          { en: "Mehmed II", es: "Mehmed II", de: "Mehmed II.", nl: "Mehmed II" },
+          { en: "Suleiman the Magnificent", es: "Solimán el Magnífico", de: "Süleyman der Prächtige", nl: "Süleyman de Grote" },
+          { en: "Selim I", es: "Selim I", de: "Selim I.", nl: "Selim I" },
+          { en: "Bayezid I", es: "Bayezid I", de: "Bayezid I.", nl: "Bayezid I" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mehmed II 'the Conqueror' (1432-1481) captured Constantinople on May 29, 1453, ending the thousand-year Byzantine Empire and establishing Ottoman control over the strategic city that would become Istanbul.",
+          es: "Mehmed II 'el Conquistador' (1432-1481) capturó Constantinopla el 29 de mayo de 1453, terminando el Imperio Bizantino de mil años y estableciendo el control otomano sobre la ciudad estratégica que se convertiría en Estambul.",
+          de: "Mehmed II. 'der Eroberer' (1432-1481) eroberte Konstantinopel am 29. Mai 1453, beendete das tausendjährige Byzantinische Reich und etablierte osmanische Kontrolle über die strategische Stadt, die Istanbul werden sollte.",
+          nl: "Mehmed II 'de Veroveraar' (1432-1481) veroverde Constantinopel op 29 mei 1453, beëindigde het duizend jaar oude Byzantijnse Rijk en vestigde Ottomaanse controle over de strategische stad die Istanbul zou worden."
+        }
+      },
+      {
+        question: {
+          en: "Who was the Pharaoh of Egypt during the Exodus according to biblical tradition?",
+          es: "¿Quién fue el Faraón de Egipto durante el Éxodo según la tradición bíblica?",
+          de: "Wer war laut biblischer Tradition der Pharao von Ägypten während des Exodus?",
+          nl: "Wie was de Farao van Egypte tijdens de Exodus volgens de bijbelse traditie?"
+        },
+        options: [
+          { en: "Ramesses II", es: "Ramsés II", de: "Ramses II.", nl: "Ramses II" },
+          { en: "Tutankhamun", es: "Tutankamón", de: "Tutanchamun", nl: "Toetanchamon" },
+          { en: "Akhenaten", es: "Akenatón", de: "Echnaton", nl: "Achnaton" },
+          { en: "Thutmose III", es: "Tutmosis III", de: "Thutmosis III.", nl: "Thoetmosis III" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ramesses II 'the Great' (1303-1213 BCE) is most commonly identified as the pharaoh of the Exodus in traditional interpretations, though this remains debated among historians. He ruled for 66 years and built numerous monuments.",
+          es: "Ramsés II 'el Grande' (1303-1213 a.C.) es el faraón más comúnmente identificado del Éxodo en las interpretaciones tradicionales, aunque esto sigue siendo debatido entre los historiadores. Gobernó durante 66 años y construyó numerosos monumentos.",
+          de: "Ramses II. 'der Große' (1303-1213 v.Chr.) wird in traditionellen Interpretationen am häufigsten als Pharao des Exodus identifiziert, obwohl dies unter Historikern umstritten bleibt. Er regierte 66 Jahre und baute zahlreiche Monumente.",
+          nl: "Ramses II 'de Grote' (1303-1213 v.Chr.) wordt in traditionele interpretaties het meest geïdentificeerd als de farao van de Exodus, hoewel dit onder historici omstreden blijft. Hij regeerde 66 jaar en bouwde talrijke monumenten."
+        }
+      },
+      {
+        question: {
+          en: "Which Viking explorer is credited with discovering North America around 1000 CE?",
+          es: "¿Qué explorador vikingo es acreditado con descubrir América del Norte alrededor de 1000 d.C.?",
+          de: "Welchem Wikinger-Entdecker wird die Entdeckung Nordamerikas um 1000 n.Chr. zugeschrieben?",
+          nl: "Welke Viking-ontdekkingsreiziger wordt gecrediteerd met het ontdekken van Noord-Amerika rond 1000 n.Chr.?"
+        },
+        options: [
+          { en: "Leif Erikson", es: "Leif Erikson", de: "Leif Eriksson", nl: "Leif Erikson" },
+          { en: "Erik the Red", es: "Erik el Rojo", de: "Erik der Rote", nl: "Erik de Rode" },
+          { en: "Bjorn Ironside", es: "Bjorn Brazo de Hierro", de: "Bjorn Eisenseite", nl: "Bjorn IJzerzijde" },
+          { en: "Ragnar Lothbrok", es: "Ragnar Lothbrok", de: "Ragnar Lodbrok", nl: "Ragnar Lothbrok" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Leif Erikson (970-1020) sailed from Greenland and established a settlement in Vinland (likely Newfoundland, Canada) around 1000 CE, becoming the first known European to reach North America, 500 years before Columbus.",
+          es: "Leif Erikson (970-1020) navegó desde Groenlandia y estableció un asentamiento en Vinlandia (probablemente Terranova, Canadá) alrededor de 1000 d.C., convirtiéndose en el primer europeo conocido en llegar a América del Norte, 500 años antes que Colón.",
+          de: "Leif Eriksson (970-1020) segelte von Grönland aus und gründete um 1000 n.Chr. eine Siedlung in Vinland (wahrscheinlich Neufundland, Kanada), wurde der erste bekannte Europäer, der Nordamerika erreichte, 500 Jahre vor Kolumbus.",
+          nl: "Leif Erikson (970-1020) zeilde vanuit Groenland en vestigde rond 1000 n.Chr. een nederzetting in Vinland (waarschijnlijk Newfoundland, Canada), werd de eerste bekende Europeaan die Noord-Amerika bereikte, 500 jaar vóór Columbus."
         }
       }
     ]

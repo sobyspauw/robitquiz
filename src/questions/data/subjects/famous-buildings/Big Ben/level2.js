@@ -419,6 +419,426 @@
                 de: "Der Turm ist aus Ziegeln mit einer Verkleidung aus Anston-Stein aus Yorkshire gebaut. Der honigfarbene Anston-Kalkstein verleiht dem Turm sein charakteristisches Aussehen und wurde wegen seiner Haltbarkeit und ästhetischen Qualitäten im neugotischen Stil ausgewählt.",
                 nl: "De toren is gebouwd van baksteen met een bekleding van Anston-steen uit Yorkshire. De honingkleurige Anston-kalksteen geeft de toren zijn kenmerkende uiterlijk en werd gekozen vanwege zijn duurzaamheid en esthetische kwaliteiten in de neogotische stijl."
             }
+        },
+        {
+            question: {
+                en: "What caused the need to rebuild the Palace of Westminster?",
+                es: "¿Qué causó la necesidad de reconstruir el Palacio de Westminster?",
+                de: "Was verursachte die Notwendigkeit, den Palace of Westminster wieder aufzubauen?",
+                nl: "Wat veroorzaakte de noodzaak om het Palace of Westminster te herbouwen?"
+            },
+            options: {
+                en: ["Earthquake", "Fire in 1834", "War damage", "Structural collapse"],
+                es: ["Terremoto", "Incendio en 1834", "Daño de guerra", "Colapso estructural"],
+                de: ["Erdbeben", "Brand im Jahr 1834", "Kriegsschäden", "Struktureller Einsturz"],
+                nl: ["Aardbeving", "Brand in 1834", "Oorlogsschade", "Structurele instorting"]
+            },
+            correct: 1,
+            explanation: {
+                en: "A devastating fire in 1834 destroyed most of the old Palace of Westminster. This fire led to the decision to rebuild the palace and construct the new clock tower that would become home to Big Ben.",
+                es: "Un incendio devastador en 1834 destruyó la mayor parte del antiguo Palacio de Westminster. Este incendio llevó a la decisión de reconstruir el palacio y construir la nueva torre del reloj que se convertiría en el hogar de Big Ben.",
+                de: "Ein verheerender Brand im Jahr 1834 zerstörte den größten Teil des alten Palace of Westminster. Dieser Brand führte zur Entscheidung, den Palast wieder aufzubauen und den neuen Glockenturm zu errichten, der zum Zuhause von Big Ben werden sollte.",
+                nl: "Een verwoestende brand in 1834 verwoestte het grootste deel van het oude Palace of Westminster. Deze brand leidde tot de beslissing om het paleis te herbouwen en de nieuwe klokkentoren te bouwen die de thuisbasis van Big Ben zou worden."
+            }
+        },
+        {
+            question: {
+                en: "How many bells are in the entire tower, including Big Ben?",
+                es: "¿Cuántas campanas hay en toda la torre, incluyendo Big Ben?",
+                de: "Wie viele Glocken gibt es im gesamten Turm, einschließlich Big Ben?",
+                nl: "Hoeveel klokken zijn er in de hele toren, inclusief Big Ben?"
+            },
+            options: {
+                en: ["1 bell (just Big Ben)", "5 bells (Big Ben plus 4 quarter bells)", "10 bells", "20 bells"],
+                es: ["1 campana (solo Big Ben)", "5 campanas (Big Ben más 4 campanas de cuarto)", "10 campanas", "20 campanas"],
+                de: ["1 Glocke (nur Big Ben)", "5 Glocken (Big Ben plus 4 Viertelstundenglocken)", "10 Glocken", "20 Glocken"],
+                nl: ["1 klok (alleen Big Ben)", "5 klokken (Big Ben plus 4 kwartierklokken)", "10 klokken", "20 klokken"]
+            },
+            correct: 1,
+            explanation: {
+                en: "The tower contains 5 bells total: Big Ben itself (the hour bell) and 4 smaller quarter bells that play the Westminster Quarters melody every 15 minutes.",
+                es: "La torre contiene 5 campanas en total: Big Ben en sí (la campana de las horas) y 4 campanas de cuarto más pequeñas que tocan la melodía Westminster Quarters cada 15 minutos.",
+                de: "Der Turm enthält insgesamt 5 Glocken: Big Ben selbst (die Stundenglocke) und 4 kleinere Viertelstundenglocken, die alle 15 Minuten die Westminster Quarters-Melodie spielen.",
+                nl: "De toren bevat in totaal 5 klokken: Big Ben zelf (de uurklok) en 4 kleinere kwartierklokken die elke 15 minuten de Westminster Quarters-melodie spelen."
+            }
+        },
+        {
+            question: {
+                en: "What is the musical note that Big Ben chimes?",
+                es: "¿Cuál es la nota musical que suena Big Ben?",
+                de: "Welche Musiknote läutet Big Ben?",
+                nl: "Welke muzieknoot luidt Big Ben?"
+            },
+            options: {
+                en: ["C", "E", "G", "A"],
+                es: ["Do", "Mi", "Sol", "La"],
+                de: ["C", "E", "G", "A"],
+                nl: ["C", "E", "G", "A"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Big Ben strikes the note E, creating its distinctive deep, resonant tone. This note has become one of the most recognizable sounds in the world.",
+                es: "Big Ben toca la nota Mi, creando su tono profundo y resonante distintivo. Esta nota se ha convertido en uno de los sonidos más reconocibles del mundo.",
+                de: "Big Ben schlägt die Note E und erzeugt seinen charakteristischen tiefen, resonanten Ton. Diese Note ist zu einem der bekanntesten Klänge der Welt geworden.",
+                nl: "Big Ben slaat de noot E aan, waardoor zijn kenmerkende diepe, resonerende toon ontstaat. Deze noot is een van de meest herkenbare geluiden ter wereld geworden."
+            }
+        },
+        {
+            question: {
+                en: "What inscription appears below the clock faces?",
+                es: "¿Qué inscripción aparece debajo de las esferas del reloj?",
+                de: "Welche Inschrift erscheint unter den Zifferblättern?",
+                nl: "Welk opschrift verschijnt onder de wijzerplaten?"
+            },
+            options: {
+                en: ["God Save the Queen", "Domine Salvam Fac Reginam Nostram Victoriam Primam", "Tempus Fugit", "E Pluribus Unum"],
+                es: ["God Save the Queen", "Domine Salvam Fac Reginam Nostram Victoriam Primam", "Tempus Fugit", "E Pluribus Unum"],
+                de: ["God Save the Queen", "Domine Salvam Fac Reginam Nostram Victoriam Primam", "Tempus Fugit", "E Pluribus Unum"],
+                nl: ["God Save the Queen", "Domine Salvam Fac Reginam Nostram Victoriam Primam", "Tempus Fugit", "E Pluribus Unum"]
+            },
+            correct: 1,
+            explanation: {
+                en: "The Latin inscription 'Domine Salvam Fac Reginam Nostram Victoriam Primam' means 'O Lord, keep safe our Queen Victoria the First,' honoring the reigning monarch when Big Ben was built.",
+                es: "La inscripción latina 'Domine Salvam Fac Reginam Nostram Victoriam Primam' significa 'Oh Señor, mantén a salvo a nuestra Reina Victoria la Primera', honrando a la monarca reinante cuando se construyó Big Ben.",
+                de: "Die lateinische Inschrift 'Domine Salvam Fac Reginam Nostram Victoriam Primam' bedeutet 'O Herr, bewahre unsere Königin Victoria die Erste', zu Ehren der regierenden Monarchin, als Big Ben gebaut wurde.",
+                nl: "Het Latijnse opschrift 'Domine Salvam Fac Reginam Nostram Victoriam Primam' betekent 'O Heer, houd onze koningin Victoria de Eerste veilig', ter ere van de regerende monarch toen Big Ben werd gebouwd."
+            }
+        },
+        {
+            question: {
+                en: "Who was the clockmaker who built the mechanism with Denison?",
+                es: "¿Quién fue el relojero que construyó el mecanismo con Denison?",
+                de: "Wer war der Uhrmacher, der den Mechanismus mit Denison baute?",
+                nl: "Wie was de klokkenmaker die het mechanisme samen met Denison bouwde?"
+            },
+            options: {
+                en: ["John Harrison", "Edward John Dent", "Thomas Tompion", "George Graham"],
+                es: ["John Harrison", "Edward John Dent", "Thomas Tompion", "George Graham"],
+                de: ["John Harrison", "Edward John Dent", "Thomas Tompion", "George Graham"],
+                nl: ["John Harrison", "Edward John Dent", "Thomas Tompion", "George Graham"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Edward John Dent was the clockmaker who constructed the mechanism according to Edmund Denison's revolutionary design. After Dent's death, his stepson Frederick Dent completed the work.",
+                es: "Edward John Dent fue el relojero que construyó el mecanismo según el diseño revolucionario de Edmund Denison. Después de la muerte de Dent, su hijastro Frederick Dent completó el trabajo.",
+                de: "Edward John Dent war der Uhrmacher, der den Mechanismus nach Edmund Denisons revolutionärem Design konstruierte. Nach Dents Tod vollendete sein Stiefsohn Frederick Dent die Arbeit.",
+                nl: "Edward John Dent was de klokkenmaker die het mechanisme construeerde volgens Edmund Denisons revolutionaire ontwerp. Na Dents dood voltooide zijn stiefzoon Frederick Dent het werk."
+            }
+        },
+        {
+            question: {
+                en: "How much does the clock mechanism's largest gear weigh?",
+                es: "¿Cuánto pesa el engranaje más grande del mecanismo del reloj?",
+                de: "Wie viel wiegt das größte Zahnrad des Uhrmechanismus?",
+                nl: "Hoeveel weegt het grootste tandwiel van het klokmechanisme?"
+            },
+            options: {
+                en: ["250 kg", "500 kg", "1,250 kg", "2,000 kg"],
+                es: ["250 kg", "500 kg", "1.250 kg", "2.000 kg"],
+                de: ["250 kg", "500 kg", "1.250 kg", "2.000 kg"],
+                nl: ["250 kg", "500 kg", "1.250 kg", "2.000 kg"]
+            },
+            correct: 2,
+            explanation: {
+                en: "The largest gear in the clock mechanism weighs approximately 1,250 kg. This massive component is part of the intricate system that drives the four clock faces with remarkable precision.",
+                es: "El engranaje más grande del mecanismo del reloj pesa aproximadamente 1.250 kg. Este componente masivo es parte del intrincado sistema que impulsa las cuatro esferas del reloj con notable precisión.",
+                de: "Das größte Zahnrad im Uhrmechanismus wiegt etwa 1.250 kg. Dieses massive Bauteil ist Teil des komplexen Systems, das die vier Zifferblätter mit bemerkenswerter Präzision antreibt.",
+                nl: "Het grootste tandwiel in het klokmechanisme weegt ongeveer 1.250 kg. Dit massieve onderdeel maakt deel uit van het ingewikkelde systeem dat de vier wijzerplaten met opmerkelijke precisie aandrijft."
+            }
+        },
+        {
+            question: {
+                en: "When did BBC Radio first broadcast Big Ben's chimes?",
+                es: "¿Cuándo transmitió BBC Radio por primera vez las campanadas de Big Ben?",
+                de: "Wann übertrug BBC Radio zum ersten Mal Big Bens Glockenschläge?",
+                nl: "Wanneer zond BBC Radio voor het eerst de klokslagen van Big Ben uit?"
+            },
+            options: {
+                en: ["1900", "1923", "1945", "1959"],
+                es: ["1900", "1923", "1945", "1959"],
+                de: ["1900", "1923", "1945", "1959"],
+                nl: ["1900", "1923", "1945", "1959"]
+            },
+            correct: 1,
+            explanation: {
+                en: "The BBC first broadcast Big Ben's chimes on New Year's Eve 1923. This began a tradition that continues today, making the chimes familiar to millions of people worldwide through radio and television.",
+                es: "La BBC transmitió por primera vez las campanadas de Big Ben en Nochevieja de 1923. Esto comenzó una tradición que continúa hoy, haciendo que las campanadas sean familiares para millones de personas en todo el mundo a través de la radio y la televisión.",
+                de: "Die BBC übertrug Big Bens Glockenschläge zum ersten Mal an Silvester 1923. Dies begann eine Tradition, die bis heute fortbesteht und die Glockenschläge Millionen von Menschen weltweit über Radio und Fernsehen vertraut macht.",
+                nl: "De BBC zond de klokslagen van Big Ben voor het eerst uit op oudejaarsavond 1923. Dit begon een traditie die vandaag de dag nog steeds voortduurt, waardoor de klokslagen bekend zijn bij miljoenen mensen wereldwijd via radio en televisie."
+            }
+        },
+        {
+            question: {
+                en: "What happens to the clock during a leap second adjustment?",
+                es: "¿Qué sucede con el reloj durante un ajuste de segundo intercalar?",
+                de: "Was geschieht mit der Uhr während einer Schaltsekunden-Anpassung?",
+                nl: "Wat gebeurt er met de klok tijdens een schrikkelseconde aanpassing?"
+            },
+            options: {
+                en: ["It stops automatically", "Clockkeepers manually stop and adjust it", "It adjusts itself", "Nothing, it continues normally"],
+                es: ["Se detiene automáticamente", "Los relojeros lo detienen y ajustan manualmente", "Se ajusta solo", "Nada, continúa normalmente"],
+                de: ["Es stoppt automatisch", "Uhrmacher stoppen und justieren es manuell", "Es passt sich selbst an", "Nichts, es läuft normal weiter"],
+                nl: ["Het stopt automatisch", "Klokbewaarders stoppen en passen het handmatig aan", "Het past zich automatisch aan", "Niets, het gaat normaal door"]
+            },
+            correct: 1,
+            explanation: {
+                en: "During leap second adjustments, clockkeepers manually stop the pendulum for one second to keep Big Ben synchronized with atomic time. This rare adjustment ensures the clock remains accurate with modern timekeeping standards.",
+                es: "Durante los ajustes de segundo intercalar, los relojeros detienen manualmente el péndulo durante un segundo para mantener Big Ben sincronizado con el tiempo atómico. Este raro ajuste asegura que el reloj permanezca preciso con los estándares modernos de cronometraje.",
+                de: "Während Schaltsekunden-Anpassungen stoppen Uhrmacher das Pendel manuell für eine Sekunde, um Big Ben mit der Atomzeit synchronisiert zu halten. Diese seltene Anpassung stellt sicher, dass die Uhr mit modernen Zeitstandards genau bleibt.",
+                nl: "Tijdens schrikkelseconde-aanpassingen stoppen klokbewaarders de slinger handmatig gedurende één seconde om Big Ben gesynchroniseerd te houden met atoomtijd. Deze zeldzame aanpassing zorgt ervoor dat de klok nauwkeurig blijft met moderne tijdmetingsstandaarden."
+            }
+        },
+        {
+            question: {
+                en: "What metal are the clock hands made from?",
+                es: "¿De qué metal están hechas las manecillas del reloj?",
+                de: "Aus welchem Metall bestehen die Uhrzeiger?",
+                nl: "Van welk metaal zijn de klokwijzers gemaakt?"
+            },
+            options: {
+                en: ["Steel", "Copper", "Bronze", "Aluminum"],
+                es: ["Acero", "Cobre", "Bronce", "Aluminio"],
+                de: ["Stahl", "Kupfer", "Bronze", "Aluminium"],
+                nl: ["Staal", "Koper", "Brons", "Aluminium"]
+            },
+            correct: 1,
+            explanation: {
+                en: "The clock hands are made from hollow copper to keep them lightweight while maintaining their impressive size. The copper is gilded with gold leaf to create the distinctive golden appearance.",
+                es: "Las manecillas del reloj están hechas de cobre hueco para mantenerlas ligeras mientras mantienen su impresionante tamaño. El cobre está dorado con pan de oro para crear la apariencia dorada distintiva.",
+                de: "Die Uhrzeiger bestehen aus hohlem Kupfer, um sie leicht zu halten und gleichzeitig ihre beeindruckende Größe beizubehalten. Das Kupfer ist mit Blattgold vergoldet, um das charakteristische goldene Aussehen zu erzeugen.",
+                nl: "De klokwijzers zijn gemaakt van hol koper om ze licht te houden terwijl ze hun indrukwekkende grootte behouden. Het koper is verguld met bladgoud om het kenmerkende gouden uiterlijk te creëren."
+            }
+        },
+        {
+            question: {
+                en: "How far away can Big Ben's chimes be heard?",
+                es: "¿Desde qué distancia se pueden escuchar las campanadas de Big Ben?",
+                de: "Wie weit entfernt können Big Bens Glockenschläge gehört werden?",
+                nl: "Hoe ver weg kunnen de klokslagen van Big Ben worden gehoord?"
+            },
+            options: {
+                en: ["Up to 1 mile", "Up to 5 miles", "Up to 10 miles", "Up to 20 miles"],
+                es: ["Hasta 1 milla", "Hasta 5 millas", "Hasta 10 millas", "Hasta 20 millas"],
+                de: ["Bis zu 1 Meile", "Bis zu 5 Meilen", "Bis zu 10 Meilen", "Bis zu 20 Meilen"],
+                nl: ["Tot 1 mijl", "Tot 5 mijl", "Tot 10 mijl", "Tot 20 mijl"]
+            },
+            correct: 1,
+            explanation: {
+                en: "On a clear day with favorable wind conditions, Big Ben's chimes can be heard up to 5 miles away. The deep tone of the 13.7-ton bell carries well across London's urban landscape.",
+                es: "En un día claro con condiciones de viento favorables, las campanadas de Big Ben se pueden escuchar hasta 5 millas de distancia. El tono profundo de la campana de 13.7 toneladas se propaga bien a través del paisaje urbano de Londres.",
+                de: "An einem klaren Tag mit günstigen Windverhältnissen können Big Bens Glockenschläge bis zu 5 Meilen weit gehört werden. Der tiefe Ton der 13,7-Tonnen-Glocke trägt gut durch Londons städtische Landschaft.",
+                nl: "Op een heldere dag met gunstige windomstandigheden kunnen de klokslagen van Big Ben tot 5 mijl ver worden gehoord. De diepe toon van de 13,7 ton zware klok draagt goed over het stedelijke landschap van Londen."
+            }
+        },
+        {
+            question: {
+                en: "What is the largest face of any clock in the UK?",
+                es: "¿Cuál es la esfera más grande de cualquier reloj en el Reino Unido?",
+                de: "Was ist das größte Zifferblatt einer Uhr im Vereinigten Königreich?",
+                nl: "Wat is de grootste wijzerplaat van een klok in het VK?"
+            },
+            options: {
+                en: ["Big Ben", "Royal Liver Building clock", "Cumnock Town Hall clock", "St. Paul's Cathedral clock"],
+                es: ["Big Ben", "Reloj del Royal Liver Building", "Reloj del Ayuntamiento de Cumnock", "Reloj de la Catedral de San Pablo"],
+                de: ["Big Ben", "Royal Liver Building Uhr", "Cumnock Town Hall Uhr", "St. Paul's Cathedral Uhr"],
+                nl: ["Big Ben", "Royal Liver Building klok", "Cumnock Town Hall klok", "St. Paul's Cathedral klok"]
+            },
+            correct: 2,
+            explanation: {
+                en: "While Big Ben is the most famous, Cumnock Town Hall in Scotland actually has the largest clock faces in the UK at 7.6 meters diameter. Big Ben's faces are 7 meters, making it the second largest.",
+                es: "Aunque Big Ben es el más famoso, el Ayuntamiento de Cumnock en Escocia tiene las esferas de reloj más grandes del Reino Unido con 7.6 metros de diámetro. Las esferas de Big Ben miden 7 metros, lo que lo convierte en el segundo más grande.",
+                de: "Während Big Ben am berühmtesten ist, hat das Cumnock Town Hall in Schottland tatsächlich die größten Zifferblätter im Vereinigten Königreich mit 7,6 Metern Durchmesser. Big Bens Zifferblätter sind 7 Meter groß und damit die zweitgrößten.",
+                nl: "Hoewel Big Ben het beroemdste is, heeft Cumnock Town Hall in Schotland feitelijk de grootste wijzerplaten in het VK met een diameter van 7,6 meter. Big Ben's wijzerplaten zijn 7 meter, waardoor het de op één na grootste is."
+            }
+        },
+        {
+            question: {
+                en: "How many bricks were used in the tower's construction?",
+                es: "¿Cuántos ladrillos se usaron en la construcción de la torre?",
+                de: "Wie viele Ziegel wurden beim Bau des Turms verwendet?",
+                nl: "Hoeveel bakstenen werden gebruikt bij de bouw van de toren?"
+            },
+            options: {
+                en: ["500,000 bricks", "2.5 million bricks", "5 million bricks", "10 million bricks"],
+                es: ["500.000 ladrillos", "2.5 millones de ladrillos", "5 millones de ladrillos", "10 millones de ladrillos"],
+                de: ["500.000 Ziegel", "2,5 Millionen Ziegel", "5 Millionen Ziegel", "10 Millionen Ziegel"],
+                nl: ["500.000 bakstenen", "2,5 miljoen bakstenen", "5 miljoen bakstenen", "10 miljoen bakstenen"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Approximately 2.5 million bricks form the internal structure of the Elizabeth Tower. These bricks are hidden beneath the Anston stone cladding that gives the tower its distinctive honey-colored appearance.",
+                es: "Aproximadamente 2.5 millones de ladrillos forman la estructura interna de la Elizabeth Tower. Estos ladrillos están ocultos debajo del revestimiento de piedra Anston que le da a la torre su distintiva apariencia color miel.",
+                de: "Etwa 2,5 Millionen Ziegel bilden die innere Struktur des Elizabeth Tower. Diese Ziegel sind unter der Anston-Steinverkleidung verborgen, die dem Turm sein charakteristisches honigfarbenes Aussehen verleiht.",
+                nl: "Ongeveer 2,5 miljoen bakstenen vormen de interne structuur van de Elizabeth Tower. Deze bakstenen zijn verborgen onder de Anston-steenbekleding die de toren zijn kenmerkende honingkleurige uiterlijk geeft."
+            }
+        },
+        {
+            question: {
+                en: "What special feature prevents ice from forming on the clock faces?",
+                es: "¿Qué característica especial evita que se forme hielo en las esferas del reloj?",
+                de: "Welches besondere Merkmal verhindert die Eisbildung auf den Zifferblättern?",
+                nl: "Welke speciale functie voorkomt ijsvorming op de wijzerplaten?"
+            },
+            options: {
+                en: ["Electric heating elements", "Special coating", "Moving air from inside", "No special feature"],
+                es: ["Elementos de calefacción eléctrica", "Revestimiento especial", "Aire en movimiento desde el interior", "Sin característica especial"],
+                de: ["Elektrische Heizelemente", "Spezielle Beschichtung", "Bewegte Luft von innen", "Kein besonderes Merkmal"],
+                nl: ["Elektrische verwarmingselementen", "Speciale coating", "Bewegende lucht van binnenuit", "Geen speciale functie"]
+            },
+            correct: 0,
+            explanation: {
+                en: "Electric heating elements are installed behind the opal glass clock faces to prevent ice formation in winter. This ensures the clock remains visible and functional even in freezing weather conditions.",
+                es: "Se instalan elementos de calefacción eléctrica detrás de las esferas del reloj de vidrio opalino para evitar la formación de hielo en invierno. Esto asegura que el reloj permanezca visible y funcional incluso en condiciones de clima helado.",
+                de: "Elektrische Heizelemente sind hinter den Opalglas-Zifferblättern installiert, um Eisbildung im Winter zu verhindern. Dies stellt sicher, dass die Uhr auch bei frostigen Wetterbedingungen sichtbar und funktionsfähig bleibt.",
+                nl: "Elektrische verwarmingselementen zijn geïnstalleerd achter de opaalglazen wijzerplaten om ijsvorming in de winter te voorkomen. Dit zorgt ervoor dat de klok zichtbaar en functioneel blijft, zelfs bij vriezende weersomstandigheden."
+            }
+        },
+        {
+            question: {
+                en: "What was the original estimate for completing the clock tower?",
+                es: "¿Cuál fue la estimación original para completar la torre del reloj?",
+                de: "Was war die ursprüngliche Schätzung für die Fertigstellung des Glockenturms?",
+                nl: "Wat was de oorspronkelijke schatting voor het voltooien van de klokkentoren?"
+            },
+            options: {
+                en: ["3 years", "5 years", "10 years", "16 years"],
+                es: ["3 años", "5 años", "10 años", "16 años"],
+                de: ["3 Jahre", "5 Jahre", "10 Jahre", "16 Jahre"],
+                nl: ["3 jaar", "5 jaar", "10 jaar", "16 jaar"]
+            },
+            correct: 1,
+            explanation: {
+                en: "The tower was originally estimated to take 5 years to complete, but construction actually took 16 years (1843-1859). Delays were caused by design complexities, the innovative clock mechanism, and bell casting problems.",
+                es: "Originalmente se estimó que la torre tardaría 5 años en completarse, pero la construcción realmente tomó 16 años (1843-1859). Los retrasos fueron causados por complejidades de diseño, el innovador mecanismo del reloj y problemas de fundición de campanas.",
+                de: "Der Turm sollte ursprünglich 5 Jahre bis zur Fertigstellung dauern, aber der Bau dauerte tatsächlich 16 Jahre (1843-1859). Verzögerungen wurden durch Designkomplexitäten, den innovativen Uhrmechanismus und Glockengussprobleme verursacht.",
+                nl: "De toren zou oorspronkelijk 5 jaar in beslag nemen, maar de bouw duurde eigenlijk 16 jaar (1843-1859). Vertragingen werden veroorzaakt door ontwerpcomplexiteiten, het innovatieve klokmechanisme en problemen met het gieten van klokken."
+            }
+        },
+        {
+            question: {
+                en: "What is inscribed on the walls of the belfry?",
+                es: "¿Qué está inscrito en las paredes del campanario?",
+                de: "Was ist an den Wänden des Glockenstuhl eingraviert?",
+                nl: "Wat staat er gegraveerd op de muren van de klokkenkamer?"
+            },
+            options: {
+                en: ["Biblical verses", "Names of builders and workers", "Latin prayers", "Royal proclamations"],
+                es: ["Versículos bíblicos", "Nombres de constructores y trabajadores", "Oraciones latinas", "Proclamaciones reales"],
+                de: ["Bibelverse", "Namen von Baumeistern und Arbeitern", "Lateinische Gebete", "Königliche Proklamationen"],
+                nl: ["Bijbelse verzen", "Namen van bouwers en arbeiders", "Latijnse gebeden", "Koninklijke proclamaties"]
+            },
+            correct: 1,
+            explanation: {
+                en: "The names of builders and workers who constructed the tower in the 1850s are inscribed on the belfry walls. This Victorian graffiti was discovered during recent restoration work and provides a personal connection to the tower's history.",
+                es: "Los nombres de los constructores y trabajadores que construyeron la torre en la década de 1850 están inscritos en las paredes del campanario. Este grafiti victoriano fue descubierto durante trabajos de restauración recientes y proporciona una conexión personal con la historia de la torre.",
+                de: "Die Namen von Baumeistern und Arbeitern, die den Turm in den 1850er Jahren bauten, sind an den Wänden des Glockenstuhls eingraviert. Diese viktorianischen Graffiti wurden während jüngster Restaurierungsarbeiten entdeckt und bieten eine persönliche Verbindung zur Geschichte des Turms.",
+                nl: "De namen van bouwers en arbeiders die de toren in de jaren 1850 bouwden, zijn gegraveerd op de muren van de klokkenkamer. Deze Victoriaanse graffiti werd ontdekt tijdens recente restauratiewerkzaamheden en biedt een persoonlijke connectie met de geschiedenis van de toren."
+            }
+        },
+        {
+            question: {
+                en: "How does wind affect Big Ben's timekeeping?",
+                es: "¿Cómo afecta el viento al cronometraje de Big Ben?",
+                de: "Wie beeinflusst Wind Big Bens Zeitmessung?",
+                nl: "Hoe beïnvloedt wind de tijdmeting van Big Ben?"
+            },
+            options: {
+                en: ["No effect at all", "Can slow the clock by pushing against the hands", "Can speed it up", "Automatically compensated"],
+                es: ["Sin efecto alguno", "Puede ralentizar el reloj al empujar contra las manecillas", "Puede acelerarlo", "Compensado automáticamente"],
+                de: ["Keine Auswirkung", "Kann die Uhr verlangsamen, indem er gegen die Zeiger drückt", "Kann sie beschleunigen", "Automatisch kompensiert"],
+                nl: ["Geen effect", "Kan de klok vertragen door tegen de wijzers te duwen", "Kan het versnellen", "Automatisch gecompenseerd"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Strong winds pushing against the large clock hands can slow Big Ben by a few seconds. The Airy dials with ventilation holes were designed to reduce this wind resistance, but strong gusts can still affect timekeeping slightly.",
+                es: "Los vientos fuertes que empujan contra las grandes manecillas del reloj pueden ralentizar Big Ben unos segundos. Los diales Airy con orificios de ventilación fueron diseñados para reducir esta resistencia al viento, pero las ráfagas fuertes aún pueden afectar ligeramente el cronometraje.",
+                de: "Starke Winde, die gegen die großen Uhrzeiger drücken, können Big Ben um einige Sekunden verlangsamen. Die Airy-Zifferblätter mit Belüftungslöchern wurden entworfen, um diesen Windwiderstand zu reduzieren, aber starke Böen können die Zeitmessung immer noch leicht beeinflussen.",
+                nl: "Sterke wind die tegen de grote klokwijzers duwt, kan Big Ben een paar seconden vertragen. De Airy-wijzerplaten met ventilatieopeningen werden ontworpen om deze windweerstand te verminderen, maar sterke windstoten kunnen de tijdmeting nog steeds licht beïnvloeden."
+            }
+        },
+        {
+            question: {
+                en: "What is the total weight of the striking mechanism?",
+                es: "¿Cuál es el peso total del mecanismo de golpeo?",
+                de: "Was ist das Gesamtgewicht des Schlagmechanismus?",
+                nl: "Wat is het totale gewicht van het slagmechanisme?"
+            },
+            options: {
+                en: ["1 ton", "2.5 tons", "4 tons", "7 tons"],
+                es: ["1 tonelada", "2.5 toneladas", "4 toneladas", "7 toneladas"],
+                de: ["1 Tonne", "2,5 Tonnen", "4 Tonnen", "7 Tonnen"],
+                nl: ["1 ton", "2,5 ton", "4 ton", "7 ton"]
+            },
+            correct: 2,
+            explanation: {
+                en: "The striking mechanism that operates the bells weighs approximately 4 tons. This separate system from the timekeeping mechanism ensures the heavy bells don't interfere with the clock's precision.",
+                es: "El mecanismo de golpeo que opera las campanas pesa aproximadamente 4 toneladas. Este sistema separado del mecanismo de cronometraje asegura que las pesadas campanas no interfieran con la precisión del reloj.",
+                de: "Der Schlagmechanismus, der die Glocken betätigt, wiegt etwa 4 Tonnen. Dieses vom Zeitmessungsmechanismus getrennte System stellt sicher, dass die schweren Glocken die Präzision der Uhr nicht beeinträchtigen.",
+                nl: "Het slagmechanisme dat de klokken bedient, weegt ongeveer 4 ton. Dit gescheiden systeem van het tijdmetingsmechanisme zorgt ervoor dat de zware klokken niet interfereren met de precisie van de klok."
+            }
+        },
+        {
+            question: {
+                en: "How many times per year is Big Ben wound?",
+                es: "¿Cuántas veces al año se da cuerda a Big Ben?",
+                de: "Wie oft pro Jahr wird Big Ben aufgezogen?",
+                nl: "Hoeveel keer per jaar wordt Big Ben opgewonden?"
+            },
+            options: {
+                en: ["52 times (weekly)", "104 times (twice weekly)", "156 times (three times weekly)", "365 times (daily)"],
+                es: ["52 veces (semanalmente)", "104 veces (dos veces por semana)", "156 veces (tres veces por semana)", "365 veces (diariamente)"],
+                de: ["52 Mal (wöchentlich)", "104 Mal (zweimal wöchentlich)", "156 Mal (dreimal wöchentlich)", "365 Mal (täglich)"],
+                nl: ["52 keer (wekelijks)", "104 keer (twee keer per week)", "156 keer (drie keer per week)", "365 keer (dagelijks)"]
+            },
+            correct: 2,
+            explanation: {
+                en: "Big Ben is wound 156 times per year (three times per week on Monday, Wednesday, and Friday). Each winding session takes about 1.5 hours using an electric motor to raise the heavy driving weights.",
+                es: "A Big Ben se le da cuerda 156 veces al año (tres veces por semana los lunes, miércoles y viernes). Cada sesión de cuerda toma alrededor de 1.5 horas usando un motor eléctrico para elevar las pesadas pesas de accionamiento.",
+                de: "Big Ben wird 156 Mal pro Jahr aufgezogen (dreimal pro Woche am Montag, Mittwoch und Freitag). Jeder Aufziehvorgang dauert etwa 1,5 Stunden mit einem Elektromotor, um die schweren Antriebsgewichte anzuheben.",
+                nl: "Big Ben wordt 156 keer per jaar opgewonden (drie keer per week op maandag, woensdag en vrijdag). Elke opwindsessie duurt ongeveer 1,5 uur met behulp van een elektromotor om de zware aandrijvingsgewichten op te hijsen."
+            }
+        },
+        {
+            question: {
+                en: "What significant event occurred in 1949 regarding Big Ben?",
+                es: "¿Qué evento significativo ocurrió en 1949 con respecto a Big Ben?",
+                de: "Welches bedeutende Ereignis ereignete sich 1949 in Bezug auf Big Ben?",
+                nl: "Welke significante gebeurtenis vond plaats in 1949 met betrekking tot Big Ben?"
+            },
+            options: {
+                en: ["The bell cracked again", "A flock of starlings slowed the clock", "Major restoration began", "The tower was struck by lightning"],
+                es: ["La campana se agrietó nuevamente", "Una bandada de estorninos ralentizó el reloj", "Comenzó una restauración importante", "La torre fue alcanzada por un rayo"],
+                de: ["Die Glocke riss erneut", "Ein Starenschwarm verlangsamte die Uhr", "Große Restaurierung begann", "Der Turm wurde vom Blitz getroffen"],
+                nl: ["De klok scheurde opnieuw", "Een zwerm spreeuwen vertraagde de klok", "Grote restauratie begon", "De toren werd getroffen door bliksem"]
+            },
+            correct: 1,
+            explanation: {
+                en: "In 1949, a flock of starlings perched on the minute hand of Big Ben, causing the clock to slow by 4.5 minutes. This unusual incident demonstrates how even the massive clock can be affected by unexpected factors.",
+                es: "En 1949, una bandada de estorninos se posó en la manecilla de los minutos de Big Ben, causando que el reloj se ralentizara 4.5 minutos. Este incidente inusual demuestra cómo incluso el reloj masivo puede verse afectado por factores inesperados.",
+                de: "1949 ließ sich ein Starenschwarm auf dem Minutenzeiger von Big Ben nieder, was dazu führte, dass die Uhr um 4,5 Minuten langsamer lief. Dieser ungewöhnliche Vorfall zeigt, wie selbst die massive Uhr von unerwarteten Faktoren beeinflusst werden kann.",
+                nl: "In 1949 ging een zwerm spreeuwen op de minutenwijzer van Big Ben zitten, waardoor de klok 4,5 minuten vertraagde. Dit ongebruikelijke incident toont aan hoe zelfs de massieve klok kan worden beïnvloed door onverwachte factoren."
+            }
+        },
+        {
+            question: {
+                en: "What is the volume level inside the belfry when Big Ben strikes?",
+                es: "¿Cuál es el nivel de volumen dentro del campanario cuando Big Ben suena?",
+                de: "Wie laut ist es im Glockenstuhl, wenn Big Ben schlägt?",
+                nl: "Wat is het volumeniveau binnen de klokkenkamer wanneer Big Ben slaat?"
+            },
+            options: {
+                en: ["80 decibels", "100 decibels", "118 decibels", "140 decibels"],
+                es: ["80 decibelios", "100 decibelios", "118 decibelios", "140 decibelios"],
+                de: ["80 Dezibel", "100 Dezibel", "118 Dezibel", "140 Dezibel"],
+                nl: ["80 decibel", "100 decibel", "118 decibel", "140 decibel"]
+            },
+            correct: 2,
+            explanation: {
+                en: "Inside the belfry, the sound reaches 118 decibels when Big Ben strikes - loud enough to cause hearing damage. This is why visitors (when tours were available) were warned to cover their ears during chiming.",
+                es: "Dentro del campanario, el sonido alcanza 118 decibelios cuando Big Ben suena, lo suficientemente fuerte como para causar daño auditivo. Esta es la razón por la cual se advirtió a los visitantes (cuando había tours disponibles) que se cubrieran los oídos durante el repique.",
+                de: "Im Glockenstuhl erreicht der Klang 118 Dezibel, wenn Big Ben schlägt - laut genug, um Gehörschäden zu verursachen. Deshalb wurden Besucher (als Führungen verfügbar waren) gewarnt, ihre Ohren während des Läutens zu bedecken.",
+                nl: "Binnen de klokkenkamer bereikt het geluid 118 decibel wanneer Big Ben slaat - luid genoeg om gehoorschade te veroorzaken. Dit is waarom bezoekers (toen rondleidingen beschikbaar waren) werden gewaarschuwd hun oren te bedekken tijdens het luiden."
+            }
         }
     ];
 

@@ -427,6 +427,405 @@
           de: "Traditioneller griechischer Salat (Horiatiki) besteht aus Tomaten, Gurken, Kalamata-Oliven, roten Zwiebeln, Feta-Käse und Olivenöl mit Oregano. Er enthält typischerweise keinen Kopfsalat, trotz häufiger Missverständnisse in westlichen Adaptionen.",
           nl: "Traditionele Griekse salade (horiatiki) bestaat uit tomaten, komkommers, Kalamata olijven, rode uien, fetakaas en olijfolie met oregano. Het bevat meestal geen sla, ondanks veelvoorkomende misverstanden in westerse aanpassingen."
         }
+      },
+      {
+        question: {
+          en: "What is the classic ratio of oil to vinegar in a traditional vinaigrette?",
+          es: "¿Cuál es la proporción clásica de aceite a vinagre en una vinagreta tradicional?",
+          de: "Was ist das klassische Verhältnis von Öl zu Essig in einer traditionellen Vinaigrette?",
+          nl: "Wat is de klassieke verhouding van olie tot azijn in een traditionele vinaigrette?"
+        },
+        options: [
+          { en: "1:1 (equal parts)", es: "1:1 (partes iguales)", de: "1:1 (gleiche Teile)", nl: "1:1 (gelijke delen)" },
+          { en: "2:1 (two parts oil to one part vinegar)", es: "2:1 (dos partes de aceite a una parte de vinagre)", de: "2:1 (zwei Teile Öl zu einem Teil Essig)", nl: "2:1 (twee delen olie op één deel azijn)" },
+          { en: "3:1 (three parts oil to one part vinegar)", es: "3:1 (tres partes de aceite a una parte de vinagre)", de: "3:1 (drei Teile Öl zu einem Teil Essig)", nl: "3:1 (drie delen olie op één deel azijn)" },
+          { en: "4:1 (four parts oil to one part vinegar)", es: "4:1 (cuatro partes de aceite a una parte de vinagre)", de: "4:1 (vier Teile Öl zu einem Teil Essig)", nl: "4:1 (vier delen olie op één deel azijn)" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The classic vinaigrette ratio is 3:1, meaning three parts oil to one part vinegar or acidic component. This creates a balanced dressing that's neither too oily nor too acidic. However, this ratio can be adjusted to personal taste preferences.",
+          es: "La proporción clásica de vinagreta es 3:1, lo que significa tres partes de aceite a una parte de vinagre o componente ácido. Esto crea un aderezo equilibrado que no es ni demasiado aceitoso ni demasiado ácido. Sin embargo, esta proporción puede ajustarse según preferencias personales.",
+          de: "Das klassische Vinaigrette-Verhältnis ist 3:1, also drei Teile Öl zu einem Teil Essig oder saurer Komponente. Dies schafft ein ausgewogenes Dressing, das weder zu ölig noch zu sauer ist. Dieses Verhältnis kann jedoch an persönliche Geschmacksvorlieben angepasst werden.",
+          nl: "De klassieke vinaigrette verhouding is 3:1, wat betekent drie delen olie op één deel azijn of zure component. Dit creëert een gebalanceerde dressing die noch te olieachtig noch te zuur is. Deze verhouding kan echter worden aangepast aan persoonlijke smaakvoorkeuren."
+        }
+      },
+      {
+        question: {
+          en: "What gives blue cheese dressing its characteristic flavor?",
+          es: "¿Qué le da al aderezo de queso azul su sabor característico?",
+          de: "Was gibt Blauschimmelkäse-Dressing seinen charakteristischen Geschmack?",
+          nl: "Wat geeft blauwe kaas dressing zijn kenmerkende smaak?"
+        },
+        options: [
+          { en: "Crumbled blue cheese mixed into a creamy base", es: "Queso azul desmenuzado mezclado en una base cremosa", de: "Zerbröckelter Blauschimmelkäse in einer cremigen Basis", nl: "Verkruimelde blauwe kaas gemengd in een romige basis" },
+          { en: "Blue food coloring", es: "Colorante alimentario azul", de: "Blaue Lebensmittelfarbe", nl: "Blauwe voedselkleurstof" },
+          { en: "Blueberries", es: "Arándanos", de: "Blaubeeren", nl: "Blauwe bessen" },
+          { en: "Blue corn", es: "Maíz azul", de: "Blauer Mais", nl: "Blauwe maïs" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Blue cheese dressing gets its distinctive tangy, sharp flavor from crumbled blue cheese (like Roquefort or Gorgonzola) mixed into a creamy base typically made with mayonnaise, sour cream, or buttermilk. The blue veining in the cheese comes from beneficial mold cultures.",
+          es: "El aderezo de queso azul obtiene su distintivo sabor ácido y fuerte del queso azul desmenuzado (como Roquefort o Gorgonzola) mezclado en una base cremosa típicamente hecha con mayonesa, crema agria o suero de leche. Las vetas azules en el queso provienen de cultivos de moho beneficiosos.",
+          de: "Blauschimmelkäse-Dressing erhält seinen charakteristischen würzigen, scharfen Geschmack durch zerbröckelten Blauschimmelkäse (wie Roquefort oder Gorgonzola), der in eine cremige Basis gemischt wird, die typischerweise aus Mayonnaise, Sauerrahm oder Buttermilch besteht. Die blaue Maserung im Käse stammt von nützlichen Schimmelkulturen.",
+          nl: "Blauwe kaas dressing krijgt zijn kenmerkende pittige, scherpe smaak van verkruimelde blauwe kaas (zoals Roquefort of Gorgonzola) gemengd in een romige basis meestal gemaakt met mayonaise, zure room of karnemelk. De blauwe aderen in de kaas komen van gunstige schimmelculturen."
+        }
+      },
+      {
+        question: {
+          en: "What is the main herb used in ranch dressing?",
+          es: "¿Cuál es la hierba principal utilizada en el aderezo ranch?",
+          de: "Was ist das Hauptkraut in Ranch-Dressing?",
+          nl: "Wat is het belangrijkste kruid gebruikt in ranch dressing?"
+        },
+        options: [
+          { en: "Basil", es: "Albahaca", de: "Basilikum", nl: "Basilicum" },
+          { en: "Oregano", es: "Orégano", de: "Oregano", nl: "Oregano" },
+          { en: "Dill", es: "Eneldo", de: "Dill", nl: "Dille" },
+          { en: "Thyme", es: "Tomillo", de: "Thymian", nl: "Tijm" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Ranch dressing traditionally features dill as its main herb, along with other herbs like parsley and chives. The combination of buttermilk, mayonnaise, and herbs creates the distinctive creamy, tangy flavor that ranch dressing is known for.",
+          es: "El aderezo ranch tradicionalmente presenta eneldo como su hierba principal, junto con otras hierbas como perejil y cebollino. La combinación de suero de leche, mayonesa y hierbas crea el distintivo sabor cremoso y ácido por el que es conocido el aderezo ranch.",
+          de: "Ranch-Dressing enthält traditionell Dill als Hauptkraut, zusammen mit anderen Kräutern wie Petersilie und Schnittlauch. Die Kombination aus Buttermilch, Mayonnaise und Kräutern schafft den charakteristischen cremigen, würzigen Geschmack, für den Ranch-Dressing bekannt ist.",
+          nl: "Ranch dressing bevat traditioneel dille als hoofdkruid, samen met andere kruiden zoals peterselie en bieslook. De combinatie van karnemelk, mayonaise en kruiden creëert de kenmerkende romige, pittige smaak waar ranch dressing om bekend staat."
+        }
+      },
+      {
+        question: {
+          en: "What is the key ingredient that makes Thousand Island dressing pink?",
+          es: "¿Cuál es el ingrediente clave que hace que el aderezo Mil Islas sea rosado?",
+          de: "Was ist die Hauptzutat, die Thousand Island Dressing rosa macht?",
+          nl: "Wat is het belangrijkste ingrediënt dat Thousand Island dressing roze maakt?"
+        },
+        options: [
+          { en: "Tomato paste", es: "Pasta de tomate", de: "Tomatenmark", nl: "Tomatenpuree" },
+          { en: "Ketchup or chili sauce", es: "Ketchup o salsa de chile", de: "Ketchup oder Chilisauce", nl: "Ketchup of chilisaus" },
+          { en: "Beet juice", es: "Jugo de remolacha", de: "Rote-Bete-Saft", nl: "Bietensap" },
+          { en: "Paprika", es: "Pimentón", de: "Paprika", nl: "Paprika" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Thousand Island dressing gets its distinctive pink color from ketchup or chili sauce mixed with mayonnaise. The dressing also typically includes pickle relish, hard-boiled eggs, and various seasonings, creating a sweet and tangy flavor profile.",
+          es: "El aderezo Mil Islas obtiene su distintivo color rosado del ketchup o salsa de chile mezclado con mayonesa. El aderezo también típicamente incluye encurtido dulce, huevos duros y varios condimentos, creando un perfil de sabor dulce y ácido.",
+          de: "Thousand Island Dressing erhält seine charakteristische rosa Farbe durch Ketchup oder Chilisauce, die mit Mayonnaise gemischt wird. Das Dressing enthält typischerweise auch Gewürzgurken-Relish, hartgekochte Eier und verschiedene Gewürze, was ein süßes und würziges Geschmacksprofil schafft.",
+          nl: "Thousand Island dressing krijgt zijn kenmerkende roze kleur van ketchup of chilisaus gemengd met mayonaise. De dressing bevat meestal ook augurkenrelish, hardgekookte eieren en verschillende kruiden, wat een zoet en pittig smaakprofiel creëert."
+        }
+      },
+      {
+        question: {
+          en: "What type of vinegar is traditionally used in balsamic vinaigrette?",
+          es: "¿Qué tipo de vinagre se usa tradicionalmente en la vinagreta balsámica?",
+          de: "Welche Art von Essig wird traditionell in Balsamico-Vinaigrette verwendet?",
+          nl: "Welk type azijn wordt traditioneel gebruikt in balsamico vinaigrette?"
+        },
+        options: [
+          { en: "White wine vinegar", es: "Vinagre de vino blanco", de: "Weißweinessig", nl: "Witte wijn azijn" },
+          { en: "Apple cider vinegar", es: "Vinagre de sidra de manzana", de: "Apfelessig", nl: "Appelcider azijn" },
+          { en: "Balsamic vinegar from Modena, Italy", es: "Vinagre balsámico de Módena, Italia", de: "Balsamico-Essig aus Modena, Italien", nl: "Balsamico azijn uit Modena, Italië" },
+          { en: "Rice vinegar", es: "Vinagre de arroz", de: "Reisessig", nl: "Rijstazijn" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Balsamic vinaigrette uses balsamic vinegar, traditionally produced in Modena, Italy. This aged vinegar has a distinctive sweet-tart flavor and dark color. True aged balsamic vinegar is thick, complex, and made from grape must aged in wooden barrels for years.",
+          es: "La vinagreta balsámica usa vinagre balsámico, tradicionalmente producido en Módena, Italia. Este vinagre añejado tiene un distintivo sabor agridulce y color oscuro. El verdadero vinagre balsámico añejado es espeso, complejo y hecho de mosto de uva añejado en barriles de madera durante años.",
+          de: "Balsamico-Vinaigrette verwendet Balsamico-Essig, traditionell produziert in Modena, Italien. Dieser gealterte Essig hat einen charakteristischen süß-säuerlichen Geschmack und dunkle Farbe. Echter gealterter Balsamico-Essig ist dickflüssig, komplex und wird aus Traubenmost hergestellt, der jahrelang in Holzfässern gereift wird.",
+          nl: "Balsamico vinaigrette gebruikt balsamico azijn, traditioneel geproduceerd in Modena, Italië. Deze gerijpte azijn heeft een kenmerkende zoet-zure smaak en donkere kleur. Echte gerijpte balsamico azijn is dik, complex en gemaakt van druivenmost gerijpt in houten vaten gedurende jaren."
+        }
+      },
+      {
+        question: {
+          en: "What gives honey mustard dressing its distinctive sweet and tangy taste?",
+          es: "¿Qué le da al aderezo de miel y mostaza su distintivo sabor dulce y ácido?",
+          de: "Was gibt Honig-Senf-Dressing seinen charakteristischen süßen und würzigen Geschmack?",
+          nl: "Wat geeft honing mosterd dressing zijn kenmerkende zoete en pittige smaak?"
+        },
+        options: [
+          { en: "The combination of honey and mustard", es: "La combinación de miel y mostaza", de: "Die Kombination aus Honig und Senf", nl: "De combinatie van honing en mosterd" },
+          { en: "Sugar and vinegar only", es: "Solo azúcar y vinagre", de: "Nur Zucker und Essig", nl: "Alleen suiker en azijn" },
+          { en: "Maple syrup and horseradish", es: "Jarabe de arce y rábano picante", de: "Ahornsirup und Meerrettich", nl: "Esdoornsiroop en mierikswortel" },
+          { en: "Brown sugar and soy sauce", es: "Azúcar moreno y salsa de soja", de: "Brauner Zucker und Sojasoße", nl: "Bruine suiker en sojasaus" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Honey mustard dressing gets its signature sweet and tangy flavor from the combination of honey (providing sweetness) and mustard (providing tang and slight heat). This simple but effective pairing creates a versatile dressing popular for both salads and as a dipping sauce.",
+          es: "El aderezo de miel y mostaza obtiene su característico sabor dulce y ácido de la combinación de miel (proporcionando dulzura) y mostaza (proporcionando acidez y un ligero picor). Esta combinación simple pero efectiva crea un aderezo versátil popular tanto para ensaladas como para salsa para mojar.",
+          de: "Honig-Senf-Dressing erhält seinen charakteristischen süßen und würzigen Geschmack durch die Kombination von Honig (der Süße liefert) und Senf (der Würze und leichte Schärfe liefert). Diese einfache, aber effektive Paarung schafft ein vielseitiges Dressing, das sowohl für Salate als auch als Dip-Sauce beliebt ist.",
+          nl: "Honing mosterd dressing krijgt zijn kenmerkende zoete en pittige smaak van de combinatie van honing (die zoetheid biedt) en mosterd (die pittigheid en lichte scherpte biedt). Deze eenvoudige maar effectieve combinatie creëert een veelzijdige dressing populair voor zowel salades als dipsaus."
+        }
+      },
+      {
+        question: {
+          en: "What is the base ingredient in a traditional Caesar dressing?",
+          es: "¿Cuál es el ingrediente base en un aderezo César tradicional?",
+          de: "Was ist die Basiszutat in einem traditionellen Caesar-Dressing?",
+          nl: "Wat is het basisingrediënt in een traditionele Caesar dressing?"
+        },
+        options: [
+          { en: "Mayonnaise", es: "Mayonesa", de: "Mayonnaise", nl: "Mayonaise" },
+          { en: "Raw egg yolk", es: "Yema de huevo cruda", de: "Rohes Eigelb", nl: "Rauwe eidooier" },
+          { en: "Yogurt", es: "Yogur", de: "Joghurt", nl: "Yoghurt" },
+          { en: "Sour cream", es: "Crema agria", de: "Sauerrahm", nl: "Zure room" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Traditional Caesar dressing is made with raw egg yolk as the base, which is emulsified with oil to create a creamy texture. The dressing also includes anchovies, garlic, lemon juice, Dijon mustard, and Parmesan cheese. Modern versions often use pasteurized eggs for food safety.",
+          es: "El aderezo César tradicional se hace con yema de huevo cruda como base, que se emulsiona con aceite para crear una textura cremosa. El aderezo también incluye anchoas, ajo, jugo de limón, mostaza Dijon y queso parmesano. Las versiones modernas a menudo usan huevos pasteurizados por seguridad alimentaria.",
+          de: "Traditionelles Caesar-Dressing wird mit rohem Eigelb als Basis hergestellt, das mit Öl emulgiert wird, um eine cremige Textur zu schaffen. Das Dressing enthält auch Sardellen, Knoblauch, Zitronensaft, Dijon-Senf und Parmesan-Käse. Moderne Versionen verwenden oft pasteurisierte Eier aus Gründen der Lebensmittelsicherheit.",
+          nl: "Traditionele Caesar dressing wordt gemaakt met rauwe eidooier als basis, die geëmulgeerd wordt met olie om een romige textuur te creëren. De dressing bevat ook ansjovis, knoflook, citroensap, Dijon mosterd en Parmezaanse kaas. Moderne versies gebruiken vaak gepasteuriseerde eieren voor voedselveiligheid."
+        }
+      },
+      {
+        question: {
+          en: "What type of oil is most commonly used in Italian vinaigrette?",
+          es: "¿Qué tipo de aceite se usa más comúnmente en la vinagreta italiana?",
+          de: "Welche Art von Öl wird am häufigsten in italienischer Vinaigrette verwendet?",
+          nl: "Welk type olie wordt het meest gebruikt in Italiaanse vinaigrette?"
+        },
+        options: [
+          { en: "Canola oil", es: "Aceite de canola", de: "Rapsöl", nl: "Koolzaadolie" },
+          { en: "Vegetable oil", es: "Aceite vegetal", de: "Pflanzenöl", nl: "Plantaardige olie" },
+          { en: "Extra virgin olive oil", es: "Aceite de oliva extra virgen", de: "Natives Olivenöl extra", nl: "Extra vierge olijfolie" },
+          { en: "Peanut oil", es: "Aceite de maní", de: "Erdnussöl", nl: "Pindaolie" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Italian vinaigrette traditionally uses extra virgin olive oil, which provides a fruity, robust flavor characteristic of Italian cuisine. Combined with red wine vinegar, garlic, and Italian herbs like oregano and basil, it creates an authentic Mediterranean taste.",
+          es: "La vinagreta italiana tradicionalmente usa aceite de oliva extra virgen, que proporciona un sabor afrutado y robusto característico de la cocina italiana. Combinado con vinagre de vino tinto, ajo y hierbas italianas como orégano y albahaca, crea un auténtico sabor mediterráneo.",
+          de: "Italienische Vinaigrette verwendet traditionell natives Olivenöl extra, das einen fruchtigen, robusten Geschmack bietet, der für die italienische Küche charakteristisch ist. Kombiniert mit Rotweinessig, Knoblauch und italienischen Kräutern wie Oregano und Basilikum entsteht ein authentischer mediterraner Geschmack.",
+          nl: "Italiaanse vinaigrette gebruikt traditioneel extra vierge olijfolie, die een fruitige, robuuste smaak biedt kenmerkend voor de Italiaanse keuken. Gecombineerd met rode wijn azijn, knoflook en Italiaanse kruiden zoals oregano en basilicum, creëert het een authentieke mediterrane smaak."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes a creamy dressing from a vinaigrette?",
+          es: "¿Qué distingue un aderezo cremoso de una vinagreta?",
+          de: "Was unterscheidet ein cremiges Dressing von einer Vinaigrette?",
+          nl: "Wat onderscheidt een romige dressing van een vinaigrette?"
+        },
+        options: [
+          { en: "Creamy dressings contain dairy or mayonnaise, vinaigrettes are oil-based", es: "Los aderezos cremosos contienen lácteos o mayonesa, las vinagretas son a base de aceite", de: "Cremige Dressings enthalten Milchprodukte oder Mayonnaise, Vinaigrettes sind ölbasiert", nl: "Romige dressings bevatten zuivel of mayonaise, vinaigrettes zijn op oliebasis" },
+          { en: "Creamy dressings are always sweeter", es: "Los aderezos cremosos son siempre más dulces", de: "Cremige Dressings sind immer süßer", nl: "Romige dressings zijn altijd zoeter" },
+          { en: "Creamy dressings contain no acid", es: "Los aderezos cremosos no contienen ácido", de: "Cremige Dressings enthalten keine Säure", nl: "Romige dressings bevatten geen zuur" },
+          { en: "There is no real difference", es: "No hay diferencia real", de: "Es gibt keinen wirklichen Unterschied", nl: "Er is geen echt verschil" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Creamy dressings use dairy products like buttermilk, sour cream, yogurt, or mayonnaise as their base, creating a thick, opaque consistency. Vinaigrettes are emulsions of oil and vinegar or citrus juice, typically thinner and translucent. Both types can include various seasonings and flavorings.",
+          es: "Los aderezos cremosos usan productos lácteos como suero de leche, crema agria, yogur o mayonesa como su base, creando una consistencia espesa y opaca. Las vinagretas son emulsiones de aceite y vinagre o jugo cítrico, típicamente más delgadas y translúcidas. Ambos tipos pueden incluir varios condimentos y saborizantes.",
+          de: "Cremige Dressings verwenden Milchprodukte wie Buttermilch, Sauerrahm, Joghurt oder Mayonnaise als Basis und schaffen eine dicke, undurchsichtige Konsistenz. Vinaigrettes sind Emulsionen aus Öl und Essig oder Zitronensaft, typischerweise dünner und durchscheinend. Beide Typen können verschiedene Gewürze und Aromen enthalten.",
+          nl: "Romige dressings gebruiken zuivelproducten zoals karnemelk, zure room, yoghurt of mayonaise als basis, wat een dikke, ondoorzichtige consistentie creëert. Vinaigrettes zijn emulsies van olie en azijn of citroensap, meestal dunner en doorschijnend. Beide typen kunnen verschillende kruiden en smaakmakers bevatten."
+        }
+      },
+      {
+        question: {
+          en: "What gives Russian dressing its distinctive flavor?",
+          es: "¿Qué le da al aderezo ruso su sabor distintivo?",
+          de: "Was gibt Russian Dressing seinen charakteristischen Geschmack?",
+          nl: "Wat geeft Russische dressing zijn kenmerkende smaak?"
+        },
+        options: [
+          { en: "Horseradish and chili sauce", es: "Rábano picante y salsa de chile", de: "Meerrettich und Chilisauce", nl: "Mierikswortel en chilisaus" },
+          { en: "Vodka", es: "Vodka", de: "Wodka", nl: "Wodka" },
+          { en: "Caviar", es: "Caviar", de: "Kaviar", nl: "Kaviaar" },
+          { en: "Beets", es: "Remolachas", de: "Rote Bete", nl: "Bieten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Russian dressing gets its distinctive spicy-sweet flavor from horseradish and chili sauce (or ketchup) combined with mayonnaise. Despite its name, the dressing is actually American in origin. It's similar to Thousand Island but typically includes horseradish for extra kick.",
+          es: "El aderezo ruso obtiene su distintivo sabor picante-dulce del rábano picante y salsa de chile (o ketchup) combinados con mayonesa. A pesar de su nombre, el aderezo es en realidad de origen americano. Es similar a Mil Islas pero típicamente incluye rábano picante para un toque extra.",
+          de: "Russian Dressing erhält seinen charakteristischen würzig-süßen Geschmack durch Meerrettich und Chilisauce (oder Ketchup) kombiniert mit Mayonnaise. Trotz seines Namens ist das Dressing tatsächlich amerikanischen Ursprungs. Es ähnelt Thousand Island, enthält aber typischerweise Meerrettich für zusätzliche Schärfe.",
+          nl: "Russische dressing krijgt zijn kenmerkende pittig-zoete smaak van mierikswortel en chilisaus (of ketchup) gecombineerd met mayonaise. Ondanks de naam is de dressing eigenlijk van Amerikaanse oorsprong. Het lijkt op Thousand Island maar bevat meestal mierikswortel voor extra pit."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of using Dijon mustard in vinaigrettes?",
+          es: "¿Cuál es el propósito de usar mostaza Dijon en vinagretas?",
+          de: "Was ist der Zweck der Verwendung von Dijon-Senf in Vinaigrettes?",
+          nl: "Wat is het doel van het gebruik van Dijon mosterd in vinaigrettes?"
+        },
+        options: [
+          { en: "It acts as an emulsifier and adds flavor", es: "Actúa como emulsionante y añade sabor", de: "Es wirkt als Emulgator und fügt Geschmack hinzu", nl: "Het werkt als emulgator en voegt smaak toe" },
+          { en: "It makes the dressing sweeter", es: "Hace que el aderezo sea más dulce", de: "Es macht das Dressing süßer", nl: "Het maakt de dressing zoeter" },
+          { en: "It adds red color", es: "Añade color rojo", de: "Es fügt rote Farbe hinzu", nl: "Het voegt rode kleur toe" },
+          { en: "It thickens the dressing only", es: "Solo espesa el aderezo", de: "Es verdickt nur das Dressing", nl: "Het verdikt alleen de dressing" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dijon mustard serves two purposes in vinaigrettes: it acts as an emulsifier, helping oil and vinegar stay combined instead of separating, and it adds a tangy, slightly spicy flavor. The mustard contains natural compounds that stabilize the oil-vinegar emulsion.",
+          es: "La mostaza Dijon cumple dos propósitos en las vinagretas: actúa como emulsionante, ayudando a que el aceite y el vinagre permanezcan combinados en lugar de separarse, y añade un sabor ácido y ligeramente picante. La mostaza contiene compuestos naturales que estabilizan la emulsión de aceite y vinagre.",
+          de: "Dijon-Senf erfüllt zwei Zwecke in Vinaigrettes: Er wirkt als Emulgator und hilft, Öl und Essig zusammenzuhalten, anstatt sich zu trennen, und er fügt einen würzigen, leicht scharfen Geschmack hinzu. Der Senf enthält natürliche Verbindungen, die die Öl-Essig-Emulsion stabilisieren.",
+          nl: "Dijon mosterd dient twee doelen in vinaigrettes: het werkt als emulgator, waardoor olie en azijn gecombineerd blijven in plaats van te scheiden, en het voegt een pittige, licht pittige smaak toe. De mosterd bevat natuurlijke verbindingen die de olie-azijn emulsie stabiliseren."
+        }
+      },
+      {
+        question: {
+          en: "What type of vinegar is used in a traditional Asian sesame dressing?",
+          es: "¿Qué tipo de vinagre se usa en un aderezo asiático de sésamo tradicional?",
+          de: "Welche Art von Essig wird in einem traditionellen asiatischen Sesam-Dressing verwendet?",
+          nl: "Welk type azijn wordt gebruikt in een traditionele Aziatische sesamdressing?"
+        },
+        options: [
+          { en: "Balsamic vinegar", es: "Vinagre balsámico", de: "Balsamico-Essig", nl: "Balsamico azijn" },
+          { en: "Apple cider vinegar", es: "Vinagre de sidra de manzana", de: "Apfelessig", nl: "Appelcider azijn" },
+          { en: "Rice vinegar", es: "Vinagre de arroz", de: "Reisessig", nl: "Rijstazijn" },
+          { en: "Red wine vinegar", es: "Vinagre de vino tinto", de: "Rotweinessig", nl: "Rode wijn azijn" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Traditional Asian sesame dressing uses rice vinegar, which has a milder, slightly sweet flavor compared to Western vinegars. Combined with sesame oil, soy sauce, and sometimes ginger or garlic, it creates the characteristic nutty, umami-rich flavor of Asian-style dressings.",
+          es: "El aderezo asiático de sésamo tradicional usa vinagre de arroz, que tiene un sabor más suave y ligeramente dulce comparado con los vinagres occidentales. Combinado con aceite de sésamo, salsa de soja y a veces jengibre o ajo, crea el característico sabor a nuez y rico en umami de los aderezos de estilo asiático.",
+          de: "Traditionelles asiatisches Sesam-Dressing verwendet Reisessig, der einen milderen, leicht süßlichen Geschmack im Vergleich zu westlichen Essigen hat. Kombiniert mit Sesamöl, Sojasoße und manchmal Ingwer oder Knoblauch entsteht der charakteristische nussige, umami-reiche Geschmack asiatischer Dressings.",
+          nl: "Traditionele Aziatische sesamdressing gebruikt rijstazijn, die een mildere, licht zoete smaak heeft vergeleken met westerse azijnen. Gecombineerd met sesamolie, sojasaus en soms gember of knoflook, creëert het de karakteristieke nootachtige, umami-rijke smaak van Aziatische dressings."
+        }
+      },
+      {
+        question: {
+          en: "What makes a Green Goddess dressing green?",
+          es: "¿Qué hace que el aderezo Green Goddess sea verde?",
+          de: "Was macht Green Goddess Dressing grün?",
+          nl: "Wat maakt Green Goddess dressing groen?"
+        },
+        options: [
+          { en: "Food coloring", es: "Colorante alimentario", de: "Lebensmittelfarbe", nl: "Voedselkleurstof" },
+          { en: "Fresh herbs like parsley, tarragon, and chives", es: "Hierbas frescas como perejil, estragón y cebollino", de: "Frische Kräuter wie Petersilie, Estragon und Schnittlauch", nl: "Verse kruiden zoals peterselie, dragon en bieslook" },
+          { en: "Spinach juice", es: "Jugo de espinaca", de: "Spinatsaft", nl: "Spinaziesap" },
+          { en: "Matcha powder", es: "Polvo de matcha", de: "Matcha-Pulver", nl: "Matcha poeder" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Green Goddess dressing gets its vibrant green color from fresh herbs, traditionally parsley, tarragon, chives, and sometimes basil or watercress. These herbs are blended into a creamy base of mayonnaise, sour cream, and anchovies, creating both the color and distinctive herbaceous flavor.",
+          es: "El aderezo Green Goddess obtiene su vibrante color verde de hierbas frescas, tradicionalmente perejil, estragón, cebollino y a veces albahaca o berro. Estas hierbas se mezclan en una base cremosa de mayonesa, crema agria y anchoas, creando tanto el color como el distintivo sabor herbáceo.",
+          de: "Green Goddess Dressing erhält seine lebendige grüne Farbe durch frische Kräuter, traditionell Petersilie, Estragon, Schnittlauch und manchmal Basilikum oder Brunnenkresse. Diese Kräuter werden in eine cremige Basis aus Mayonnaise, Sauerrahm und Sardellen gemischt, wodurch sowohl die Farbe als auch der charakteristische krautige Geschmack entstehen.",
+          nl: "Green Goddess dressing krijgt zijn levendige groene kleur van verse kruiden, traditioneel peterselie, dragon, bieslook en soms basilicum of waterkers. Deze kruiden worden gemengd in een romige basis van mayonaise, zure room en ansjovis, wat zowel de kleur als de kenmerkende kruidachtige smaak creëert."
+        }
+      },
+      {
+        question: {
+          en: "What is the main difference between French vinaigrette and other vinaigrettes?",
+          es: "¿Cuál es la principal diferencia entre la vinagreta francesa y otras vinagretas?",
+          de: "Was ist der Hauptunterschied zwischen französischer Vinaigrette und anderen Vinaigrettes?",
+          nl: "Wat is het belangrijkste verschil tussen Franse vinaigrette en andere vinaigrettes?"
+        },
+        options: [
+          { en: "It often contains ketchup or tomato paste for sweetness and color", es: "A menudo contiene ketchup o pasta de tomate para dulzura y color", de: "Es enthält oft Ketchup oder Tomatenmark für Süße und Farbe", nl: "Het bevat vaak ketchup of tomatenpuree voor zoetheid en kleur" },
+          { en: "It uses only white wine", es: "Solo usa vino blanco", de: "Es verwendet nur Weißwein", nl: "Het gebruikt alleen witte wijn" },
+          { en: "It contains no oil", es: "No contiene aceite", de: "Es enthält kein Öl", nl: "Het bevat geen olie" },
+          { en: "It's always served hot", es: "Siempre se sirve caliente", de: "Es wird immer heiß serviert", nl: "Het wordt altijd warm geserveerd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "What Americans call 'French dressing' typically contains ketchup or tomato paste, giving it a sweet, tangy flavor and reddish-orange color. Interestingly, this style is not actually used in France. True French vinaigrette (vinaigrette française) is simply oil, vinegar, mustard, and seasonings.",
+          es: "Lo que los americanos llaman 'aderezo francés' típicamente contiene ketchup o pasta de tomate, dándole un sabor dulce y ácido y color rojo-naranja. Curiosamente, este estilo no se usa realmente en Francia. La verdadera vinagreta francesa (vinaigrette française) es simplemente aceite, vinagre, mostaza y condimentos.",
+          de: "Was Amerikaner 'French Dressing' nennen, enthält typischerweise Ketchup oder Tomatenmark, was ihm einen süßen, würzigen Geschmack und eine rötlich-orange Farbe verleiht. Interessanterweise wird dieser Stil in Frankreich nicht verwendet. Echte französische Vinaigrette (vinaigrette française) besteht einfach aus Öl, Essig, Senf und Gewürzen.",
+          nl: "Wat Amerikanen 'Franse dressing' noemen bevat meestal ketchup of tomatenpuree, wat het een zoete, pittige smaak en rood-oranje kleur geeft. Interessant genoeg wordt deze stijl niet daadwerkelijk in Frankrijk gebruikt. Echte Franse vinaigrette (vinaigrette française) is simpelweg olie, azijn, mosterd en kruiden."
+        }
+      },
+      {
+        question: {
+          en: "What ingredient gives tahini dressing its nutty flavor?",
+          es: "¿Qué ingrediente le da al aderezo de tahini su sabor a nuez?",
+          de: "Welche Zutat gibt Tahini-Dressing seinen nussigen Geschmack?",
+          nl: "Welk ingrediënt geeft tahini dressing zijn nootachtige smaak?"
+        },
+        options: [
+          { en: "Peanut butter", es: "Mantequilla de maní", de: "Erdnussbutter", nl: "Pindakaas" },
+          { en: "Almond butter", es: "Mantequilla de almendra", de: "Mandelbutter", nl: "Amandelboter" },
+          { en: "Ground sesame seeds (tahini paste)", es: "Semillas de sésamo molidas (pasta de tahini)", de: "Gemahlene Sesamsamen (Tahini-Paste)", nl: "Gemalen sesamzaad (tahini pasta)" },
+          { en: "Walnuts", es: "Nueces", de: "Walnüsse", nl: "Walnoten" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Tahini dressing gets its distinctive nutty flavor from tahini paste, which is made from ground sesame seeds. Popular in Middle Eastern cuisine, tahini dressing typically combines tahini with lemon juice, garlic, and water or yogurt to create a creamy, flavorful dressing.",
+          es: "El aderezo de tahini obtiene su distintivo sabor a nuez de la pasta de tahini, que está hecha de semillas de sésamo molidas. Popular en la cocina del Medio Oriente, el aderezo de tahini típicamente combina tahini con jugo de limón, ajo y agua o yogur para crear un aderezo cremoso y sabroso.",
+          de: "Tahini-Dressing erhält seinen charakteristischen nussigen Geschmack durch Tahini-Paste, die aus gemahlenen Sesamsamen hergestellt wird. In der nahöstlichen Küche beliebt, kombiniert Tahini-Dressing typischerweise Tahini mit Zitronensaft, Knoblauch und Wasser oder Joghurt, um ein cremiges, geschmackvolles Dressing zu schaffen.",
+          nl: "Tahini dressing krijgt zijn kenmerkende nootachtige smaak van tahini pasta, die gemaakt is van gemalen sesamzaad. Populair in de Midden-Oosterse keuken, combineert tahini dressing meestal tahini met citroensap, knoflook en water of yoghurt om een romige, smaakvolle dressing te creëren."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of adding sugar to some vinaigrettes?",
+          es: "¿Cuál es el propósito de agregar azúcar a algunas vinagretas?",
+          de: "Was ist der Zweck, Zucker zu einigen Vinaigrettes hinzuzufügen?",
+          nl: "Wat is het doel van het toevoegen van suiker aan sommige vinaigrettes?"
+        },
+        options: [
+          { en: "To balance the acidity of the vinegar", es: "Para equilibrar la acidez del vinagre", de: "Um die Säure des Essigs auszugleichen", nl: "Om de zuurgraad van de azijn te balanceren" },
+          { en: "To make it more colorful", es: "Para hacerlo más colorido", de: "Um es bunter zu machen", nl: "Om het kleurrijker te maken" },
+          { en: "To help it last longer", es: "Para que dure más tiempo", de: "Damit es länger hält", nl: "Om het langer te laten duren" },
+          { en: "Sugar is never added to vinaigrettes", es: "El azúcar nunca se agrega a las vinagretas", de: "Zucker wird nie zu Vinaigrettes hinzugefügt", nl: "Suiker wordt nooit toegevoegd aan vinaigrettes" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sugar is added to vinaigrettes to balance the sharp acidity of vinegar and create a more rounded, harmonious flavor. A small amount of sugar (or honey, maple syrup) helps mellow the tartness without making the dressing noticeably sweet, resulting in a more palatable dressing.",
+          es: "Se agrega azúcar a las vinagretas para equilibrar la acidez aguda del vinagre y crear un sabor más redondeado y armonioso. Una pequeña cantidad de azúcar (o miel, jarabe de arce) ayuda a suavizar la acidez sin hacer que el aderezo sea notablemente dulce, resultando en un aderezo más agradable al paladar.",
+          de: "Zucker wird zu Vinaigrettes hinzugefügt, um die scharfe Säure des Essigs auszugleichen und einen runderen, harmonischeren Geschmack zu schaffen. Eine kleine Menge Zucker (oder Honig, Ahornsirup) hilft, die Säure zu mildern, ohne das Dressing merklich süß zu machen, was zu einem schmackhafteren Dressing führt.",
+          nl: "Suiker wordt toegevoegd aan vinaigrettes om de scherpe zuurgraad van azijn te balanceren en een meer afgeronde, harmonieuze smaak te creëren. Een kleine hoeveelheid suiker (of honing, esdoornsiroop) helpt de zuurheid te verzachten zonder de dressing merkbaar zoet te maken, wat resulteert in een aangenamere dressing."
+        }
+      },
+      {
+        question: {
+          en: "What makes a poppy seed dressing distinctive?",
+          es: "¿Qué hace que un aderezo de semillas de amapola sea distintivo?",
+          de: "Was macht ein Mohnsamen-Dressing charakteristisch?",
+          nl: "Wat maakt een maanzaad dressing onderscheidend?"
+        },
+        options: [
+          { en: "The visible poppy seeds and slightly sweet flavor", es: "Las semillas de amapola visibles y sabor ligeramente dulce", de: "Die sichtbaren Mohnsamen und leicht süße Geschmack", nl: "De zichtbare maanzaad en licht zoete smaak" },
+          { en: "It's bright red in color", es: "Es de color rojo brillante", de: "Es ist leuchtend rot gefärbt", nl: "Het is felrood van kleur" },
+          { en: "It contains no oil", es: "No contiene aceite", de: "Es enthält kein Öl", nl: "Het bevat geen olie" },
+          { en: "It's served frozen", es: "Se sirve congelado", de: "Es wird gefroren serviert", nl: "Het wordt bevroren geserveerd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Poppy seed dressing is distinctive for its visible tiny black poppy seeds suspended throughout and its slightly sweet, tangy flavor. The dressing typically combines poppy seeds with a base of mayonnaise or oil and vinegar, sugar, and sometimes onion, creating a unique texture and appearance.",
+          es: "El aderezo de semillas de amapola es distintivo por sus diminutas semillas de amapola negras visibles suspendidas en todo el aderezo y su sabor ligeramente dulce y ácido. El aderezo típicamente combina semillas de amapola con una base de mayonesa o aceite y vinagre, azúcar y a veces cebolla, creando una textura y apariencia únicas.",
+          de: "Mohnsamen-Dressing ist charakteristisch für seine sichtbaren winzigen schwarzen Mohnsamen, die durchgehend suspendiert sind, und seinen leicht süßen, würzigen Geschmack. Das Dressing kombiniert typischerweise Mohnsamen mit einer Basis aus Mayonnaise oder Öl und Essig, Zucker und manchmal Zwiebeln, wodurch eine einzigartige Textur und Erscheinung entsteht.",
+          nl: "Maanzaad dressing is onderscheidend door zijn zichtbare kleine zwarte maanzaadjes die er doorheen zweven en zijn licht zoete, pittige smaak. De dressing combineert meestal maanzaad met een basis van mayonaise of olie en azijn, suiker en soms ui, wat een unieke textuur en uiterlijk creëert."
+        }
+      },
+      {
+        question: {
+          en: "What is a gastrique and how is it used in salad dressings?",
+          es: "¿Qué es un gastrique y cómo se usa en aderezos para ensaladas?",
+          de: "Was ist ein Gastrique und wie wird es in Salatdressings verwendet?",
+          nl: "Wat is een gastrique en hoe wordt het gebruikt in saladedressings?"
+        },
+        options: [
+          { en: "A caramelized sugar and vinegar reduction used to add sweet-tart flavor", es: "Una reducción de azúcar caramelizado y vinagre usado para añadir sabor agridulce", de: "Eine karamellisierte Zucker- und Essigreduktion, die verwendet wird, um süß-säuerlichen Geschmack hinzuzufügen", nl: "Een gekarameliseerde suiker en azijn reductie gebruikt om zoet-zure smaak toe te voegen" },
+          { en: "A type of lettuce", es: "Un tipo de lechuga", de: "Eine Art Kopfsalat", nl: "Een type sla" },
+          { en: "A French salad bowl", es: "Un tazón francés para ensalada", de: "Eine französische Salatschüssel", nl: "Een Franse saladekom" },
+          { en: "A vinegar made from grapes", es: "Un vinagre hecho de uvas", de: "Ein Essig aus Trauben", nl: "Een azijn gemaakt van druiven" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A gastrique is a French culinary technique involving caramelized sugar deglazed with vinegar, creating a sweet-tart syrup. When used in salad dressings, it adds complex depth and balanced sweetness. This technique is especially popular in fruit-based vinaigrettes and gourmet salad preparations.",
+          es: "Un gastrique es una técnica culinaria francesa que involucra azúcar caramelizado deglaseado con vinagre, creando un jarabe agridulce. Cuando se usa en aderezos para ensaladas, añade profundidad compleja y dulzura equilibrada. Esta técnica es especialmente popular en vinagretas a base de frutas y preparaciones de ensaladas gourmet.",
+          de: "Ein Gastrique ist eine französische Kochtechnik, bei der karamellisierter Zucker mit Essig abgelöscht wird, wodurch ein süß-säuerlicher Sirup entsteht. Bei Verwendung in Salatdressings fügt es komplexe Tiefe und ausgewogene Süße hinzu. Diese Technik ist besonders beliebt in fruchtbasierten Vinaigrettes und Gourmet-Salatzubereitungen.",
+          nl: "Een gastrique is een Franse kooktechniek waarbij gekarameliseerde suiker met azijn wordt gedeglaceerd, wat een zoet-zure siroop creëert. Wanneer gebruikt in saladedressings, voegt het complexe diepte en gebalanceerde zoetheid toe. Deze techniek is vooral populair in fruit-gebaseerde vinaigrettes en gourmet saladebereidingen."
+        }
+      },
+      {
+        question: {
+          en: "What ingredient distinguishes a buttermilk ranch dressing from regular ranch?",
+          es: "¿Qué ingrediente distingue un aderezo ranch de suero de leche del ranch regular?",
+          de: "Welche Zutat unterscheidet ein Buttermilch-Ranch-Dressing von normalem Ranch?",
+          nl: "Welk ingrediënt onderscheidt een karnemelk ranch dressing van gewone ranch?"
+        },
+        options: [
+          { en: "The use of cultured buttermilk instead of regular milk", es: "El uso de suero de leche cultivado en lugar de leche regular", de: "Die Verwendung von kultivierter Buttermilch statt normaler Milch", nl: "Het gebruik van gekweekte karnemelk in plaats van gewone melk" },
+          { en: "Real butter chunks", es: "Trozos de mantequilla real", de: "Echte Butterstücke", nl: "Echte boterklontjes" },
+          { en: "Yellow food coloring", es: "Colorante alimentario amarillo", de: "Gelbe Lebensmittelfarbe", nl: "Gele voedselkleurstof" },
+          { en: "Extra salt", es: "Sal extra", de: "Extra Salz", nl: "Extra zout" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Buttermilk ranch dressing specifically uses cultured buttermilk, which gives it a tangier, more authentic flavor compared to ranch dressing made with regular milk or sour cream thinned with milk. The buttermilk's natural acidity and thickness contribute to the dressing's characteristic taste and creamy texture.",
+          es: "El aderezo ranch de suero de leche usa específicamente suero de leche cultivado, lo que le da un sabor más ácido y auténtico comparado con el aderezo ranch hecho con leche regular o crema agria diluida con leche. La acidez natural y grosor del suero de leche contribuyen al sabor característico y textura cremosa del aderezo.",
+          de: "Buttermilch-Ranch-Dressing verwendet speziell kultivierte Buttermilch, die ihm einen würzigeren, authentischeren Geschmack verleiht im Vergleich zu Ranch-Dressing aus normaler Milch oder mit Milch verdünntem Sauerrahm. Die natürliche Säure und Dicke der Buttermilch tragen zum charakteristischen Geschmack und zur cremigen Textur des Dressings bei.",
+          nl: "Karnemelk ranch dressing gebruikt specifiek gekweekte karnemelk, wat het een pittigere, meer authentieke smaak geeft vergeleken met ranch dressing gemaakt met gewone melk of zure room verdund met melk. De natuurlijke zuurgraad en dikte van karnemelk dragen bij aan de karakteristieke smaak en romige textuur van de dressing."
+        }
       }
     ]
   };

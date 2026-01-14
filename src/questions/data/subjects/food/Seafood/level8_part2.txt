@@ -1,0 +1,422 @@
+// Seafood Level 8 - Part 2 (Questions 21-40)
+      {
+        question: {
+          en: "What is 'beurre blanc' and what are the keys to preventing it from breaking?",
+          es: "¿Qué es 'beurre blanc' y cuáles son las claves para evitar que se rompa?",
+          de: "Was ist 'Beurre Blanc' und was sind die Schlüssel um Trennung zu verhindern?",
+          nl: "Wat is 'beurre blanc' en wat zijn de sleutels om scheiding te voorkomen?"
+        },
+        options: [
+          { en: "White wine-shallot reduction whisked with cold butter creating emulsion; maintain 160-180°F, constant whisking, never boil - classic fish sauce", es: "Reducción de vino blanco-chalota batida con mantequilla fría creando emulsión; mantener 160-180°F, batido constante, nunca hervir - salsa clásica para pescado", de: "Weißwein-Schalotten-Reduktion mit kalter Butter geschlagen schafft Emulsion; halte 71-82°C, ständiges Schlagen, niemals kochen - klassische Fischsauce", nl: "Witte wijn-sjalot reductie geklopt met koude boter creërend emulsie; handhaaf 71-82°C, constant kloppen, nooit koken - klassieke vis saus" },
+          { en: "Tomato sauce", es: "Salsa de tomate", de: "Tomatensauce", nl: "Tomaten saus" },
+          { en: "Cream-based sauce", es: "Salsa a base de crema", de: "Sahnebasierte Sauce", nl: "Room-gebaseerde saus" },
+          { en: "Butter melted only", es: "Solo mantequilla derretida", de: "Nur geschmolzene Butter", nl: "Alleen gesmolten boter" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Beurre blanc ('white butter'): legendary French butter sauce. Reduce white wine, vinegar, shallots to 2 Tbsp. Cool slightly to 160-180°F (71-82°C). Whisk in cold butter cubes gradually - forms emulsion. Keys: moderate heat (too hot breaks), constant whisking, cold butter, proper reduction (provides lecithin for stability). If breaks: add ice cube or splash cold cream to re-emulsify. Classic with poached fish, especially pike. Sauce beurre rouge uses red wine.",
+          es: "Beurre blanc ('mantequilla blanca'): legendaria salsa francesa de mantequilla. Reducir vino blanco, vinagre, chalotas a 2 cucharadas. Enfriar ligeramente a 160-180°F (71-82°C). Batir cubos de mantequilla fría gradualmente - forma emulsión. Claves: calor moderado (demasiado caliente rompe), batido constante, mantequilla fría, reducción adecuada (proporciona lecitina para estabilidad). Si se rompe: añadir cubo de hielo o chorrito de crema fría para re-emulsionar. Clásica con pescado escalfado, especialmente lucio. Salsa beurre rouge usa vino tinto.",
+          de: "Beurre Blanc ('weiße Butter'): legendäre französische Buttersauce. Reduziere Weißwein, Essig, Schalotten auf 2 EL. Kühle leicht auf 71-82°C. Schlage kalte Butterwürfel allmählich ein - bildet Emulsion. Schlüssel: moderate Hitze (zu heiß trennt), ständiges Schlagen, kalte Butter, richtige Reduktion (liefert Lecithin für Stabilität). Wenn trennt: füge Eiswürfel oder Spritzer kalte Sahne hinzu zum Re-Emulgieren. Klassisch mit pochiertem Fisch, besonders Hecht. Sauce Beurre Rouge nutzt Rotwein.",
+          nl: "Beurre blanc ('witte boter'): legendarische Franse botersaus. Reduceer witte wijn, azijn, sjalotten tot 2 eetlepels. Koel licht af tot 71-82°C. Klop koude boterblokjes geleidelijk in - vormt emulsie. Sleutels: gematigde hitte (te heet scheidt), constant kloppen, koude boter, juiste reductie (levert lecithine voor stabiliteit). Als scheidt: voeg ijsblokje of scheutje koude room toe om te re-emulgeren. Klassiek met gepocheerde vis, vooral snoek. Saus beurre rouge gebruikt rode wijn."
+        }
+      },
+      {
+        question: {
+          en: "What is 'velouté' sauce and its role in classical seafood preparations?",
+          es: "¿Qué es la salsa 'velouté' y su papel en preparaciones clásicas de mariscos?",
+          de: "Was ist 'Velouté' Sauce und ihre Rolle bei klassischen Meeresfrüchte-Zubereitungen?",
+          nl: "Wat is 'velouté' saus en zijn rol bij klassieke zeevruchten bereidingen?"
+        },
+        options: [
+          { en: "Mother sauce made from fish stock and blonde roux, foundation for derivative sauces like vin blanc, Normande, Bercy - essential in classical French cuisine", es: "Salsa madre hecha de caldo de pescado y roux rubio, fundamento para salsas derivadas como vin blanc, Normande, Bercy - esencial en cocina francesa clásica", de: "Muttersauce aus Fischfond und blonder Roux, Grundlage für abgeleitete Saucen wie Vin Blanc, Normande, Bercy - wesentlich in klassischer französischer Küche", nl: "Moedersaus gemaakt van visbouillon en blonde roux, basis voor afgeleide sauzen zoals vin blanc, Normande, Bercy - essentieel in klassieke Franse keuken" },
+          { en: "Tomato-based sauce", es: "Salsa a base de tomate", de: "Tomatenbasierte Sauce", nl: "Tomaat-gebaseerde saus" },
+          { en: "Cream sauce only", es: "Solo salsa de crema", de: "Nur Sahnesauce", nl: "Alleen room saus" },
+          { en: "Butter sauce", es: "Salsa de mantequilla", de: "Buttersauce", nl: "Boter saus" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Velouté: one of five French mother sauces (Escoffier system). Make blonde roux (butter + flour, cooked until light blond). Whisk in hot fish stock or fumet. Simmer 20-30 min, skim impurities, strain. Result: smooth, velvety, light sauce. Foundation for: Vin blanc (white wine reduction), Normande (cream, mushroom), Bercy (shallots, lemon), Bretonne (leeks, celery). Fish velouté specifically for seafood. Chicken/veal velouté for poultry/meat. Essential technique.",
+          es: "Velouté: una de cinco salsas madres francesas (sistema Escoffier). Hacer roux rubio (mantequilla + harina, cocida hasta rubio claro). Batir en caldo de pescado caliente o fumet. Cocinar a fuego lento 20-30 min, espumar impurezas, colar. Resultado: salsa suave, aterciopelada, ligera. Fundamento para: Vin blanc (reducción de vino blanco), Normande (crema, champiñones), Bercy (chalotas, limón), Bretonne (puerros, apio). Velouté de pescado específicamente para mariscos. Velouté de pollo/ternera para aves/carne. Técnica esencial.",
+          de: "Velouté: eine von fünf französischen Muttersaucen (Escoffier-System). Mache blonde Roux (Butter + Mehl, gekocht bis hellblond). Schlage in heißen Fischfond oder Fumet ein. Köchle 20-30 Min, schäume Verunreinigungen ab, siebe. Ergebnis: glatte, samtige, leichte Sauce. Grundlage für: Vin Blanc (Weißwein-Reduktion), Normande (Sahne, Pilze), Bercy (Schalotten, Zitrone), Bretonne (Lauch, Sellerie). Fisch-Velouté speziell für Meeresfrüchte. Hühner-/Kalb-Velouté für Geflügel/Fleisch. Wesentliche Technik.",
+          nl: "Velouté: een van vijf Franse moedersauzen (Escoffier systeem). Maak blonde roux (boter + bloem, gekookt tot licht blond). Klop in hete visbouillon of fumet. Sudder 20-30 min, schum onzuiverheden af, zeef. Resultaat: gladde, fluwelen, lichte saus. Basis voor: Vin blanc (witte wijn reductie), Normande (room, champignons), Bercy (sjalotten, citroen), Bretonne (prei, selderij). Vis velouté specifiek voor zeevruchten. Kip/kalf velouté voor gevogelte/vlees. Essentiële techniek."
+        }
+      },
+      {
+        question: {
+          en: "What is 'américaine' (or armoricaine) sauce?",
+          es: "¿Qué es la salsa 'américaine' (o armoricaine)?",
+          de: "Was ist 'Américaine' (oder Armoricaine) Sauce?",
+          nl: "Wat is 'américaine' (of armoricaine) saus?"
+        },
+        options: [
+          { en: "Rich lobster sauce made from shells, tomatoes, white wine, cognac, aromatics - often flambéed, used for lobster américaine classic", es: "Rica salsa de langosta hecha de conchas, tomates, vino blanco, coñac, aromáticos - a menudo flambeada, usada para langosta américaine clásica", de: "Reiche Hummersauce aus Schalen, Tomaten, Weißwein, Cognac, Aromen - oft flambiert, für Hummer Américaine Klassiker verwendet", nl: "Rijke kreeft saus gemaakt van schalen, tomaten, witte wijn, cognac, aromaten - vaak geflambeerd, gebruikt voor kreeft américaine klassiek" },
+          { en: "Cream sauce only", es: "Solo salsa de crema", de: "Nur Sahnesauce", nl: "Alleen room saus" },
+          { en: "Butter sauce", es: "Salsa de mantequilla", de: "Buttersauce", nl: "Boter saus" },
+          { en: "Cheese sauce", es: "Salsa de queso", de: "Käsesauce", nl: "Kaas saus" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sauce américaine (debate: américaine vs armoricaine/Brittany): luxurious lobster sauce. Sauté lobster pieces in oil, add mirepoix, tomatoes, tomato paste. Flambé with cognac, add white wine, fish stock, tarragon. Simmer, extract lobster meat. Crush shells, return to sauce, simmer, strain, reduce. Finish with butter, cayenne. Rich, complex, tomato-forward. Classic dish: Lobster Américaine. Labor-intensive but spectacular. Shells provide deep crustacean flavor.",
+          es: "Salsa américaine (debate: américaine vs armoricaine/Bretaña): lujosa salsa de langosta. Saltear trozos de langosta en aceite, añadir mirepoix, tomates, pasta de tomate. Flambear con coñac, añadir vino blanco, caldo de pescado, estragón. Cocinar a fuego lento, extraer carne de langosta. Triturar conchas, devolver a salsa, cocinar a fuego lento, colar, reducir. Terminar con mantequilla, cayena. Rica, compleja, con tomate prominente. Plato clásico: Langosta Américaine. Laborioso pero espectacular. Conchas proporcionan sabor profundo de crustáceos.",
+          de: "Sauce Américaine (Debatte: Américaine vs Armoricaine/Bretagne): luxuriöse Hummersauce. Brate Hummerstücke in Öl, füge Mirepoix, Tomaten, Tomatenmark hinzu. Flambiere mit Cognac, füge Weißwein, Fischfond, Estragon hinzu. Köchle, extrahiere Hummerfleisch. Zerdrücke Schalen, gebe zurück zu Sauce, köchle, siebe, reduziere. Schließe mit Butter, Cayenne ab. Reich, komplex, tomaten-betont. Klassisches Gericht: Hummer Américaine. Arbeitsintensiv aber spektakulär. Schalen liefern tiefen Krustentier-Geschmack.",
+          nl: "Saus américaine (debat: américaine vs armoricaine/Bretagne): luxueuze kreeft saus. Fruit kreeft stukken in olie, voeg mirepoix, tomaten, tomatenpuree toe. Flambeer met cognac, voeg witte wijn, visbouillon, dragon toe. Sudder, extraheer kreeft vlees. Plet schalen, keer terug naar saus, sudder, zeef, reduceer. Werk af met boter, cayenne. Rijk, complex, tomaat-vooruit. Klassiek gerecht: Kreeft Américaine. Arbeidsintensief maar spectaculair. Schalen leveren diepe schaaldier smaak."
+        }
+      },
+      {
+        question: {
+          en: "What is 'cardinal' sauce and when is it used?",
+          es: "¿Qué es la salsa 'cardinal' y cuándo se usa?",
+          de: "Was ist 'Cardinal' Sauce und wann wird sie verwendet?",
+          nl: "Wat is 'cardinal' saus en wanneer wordt het gebruikt?"
+        },
+        options: [
+          { en: "Béchamel or velouté enriched with lobster butter, cream, sometimes truffle - pink color, rich, used for lobster, crab, elegant shellfish presentations", es: "Béchamel o velouté enriquecido con mantequilla de langosta, crema, a veces trufa - color rosa, rico, usado para langosta, cangrejo, presentaciones elegantes de mariscos", de: "Béchamel oder Velouté angereichert mit Hummerbutter, Sahne, manchmal Trüffel - rosa Farbe, reich, für Hummer, Krabbe, elegante Schalentier-Präsentationen verwendet", nl: "Béchamel of velouté verrijkt met kreeft boter, room, soms truffel - roze kleur, rijk, gebruikt voor kreeft, krab, elegante schaaldier presentaties" },
+          { en: "Tomato sauce", es: "Salsa de tomate", de: "Tomatensauce", nl: "Tomaten saus" },
+          { en: "Butter only", es: "Solo mantequilla", de: "Nur Butter", nl: "Alleen boter" },
+          { en: "Oil-based", es: "A base de aceite", de: "Ölbasiert", nl: "Olie-gebaseerd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sauce cardinal: luxurious pink sauce for shellfish. Traditional: make béchamel or fish velouté, whisk in lobster butter (made by pounding lobster shells, roe with butter, straining), add cream, sometimes truffle essence. Result: pale pink (cardinal's robes), rich, delicate. Used for: Lobster Cardinal (stuffed lobster gratinéed), crab dishes, elegant shellfish presentations. Alternative: Nantua sauce (crayfish butter instead of lobster). Shows mastery of compound butters.",
+          es: "Salsa cardinal: lujosa salsa rosa para mariscos. Tradicional: hacer béchamel o velouté de pescado, batir en mantequilla de langosta (hecha machacando conchas de langosta, huevas con mantequilla, colando), añadir crema, a veces esencia de trufa. Resultado: rosa pálido (túnicas de cardenal), rico, delicado. Usado para: Langosta Cardinal (langosta rellena gratinada), platos de cangrejo, presentaciones elegantes de mariscos. Alternativa: salsa Nantua (mantequilla de cangrejo de río en lugar de langosta). Muestra maestría de mantequillas compuestas.",
+          de: "Sauce Cardinal: luxuriöse rosa Sauce für Schalentiere. Traditionell: mache Béchamel oder Fisch-Velouté, schlage Hummerbutter ein (hergestellt durch Stampfen von Hummerschalen, Rogen mit Butter, Sieben), füge Sahne hinzu, manchmal Trüffelessenz. Ergebnis: blassrosa (Kardinals Roben), reich, zart. Verwendet für: Hummer Cardinal (gefüllter Hummer gratiniert), Krabbengerichte, elegante Schalentier-Präsentationen. Alternative: Nantua Sauce (Flusskrebsbutter statt Hummer). Zeigt Meisterschaft zusammengesetzter Butter.",
+          nl: "Saus cardinal: luxueuze roze saus voor schaaldieren. Traditioneel: maak béchamel of vis velouté, klop kreeft boter in (gemaakt door stampen van kreeft schalen, kuit met boter, zeven), voeg room toe, soms truffel essence. Resultaat: bleek roze (kardinaal gewaden), rijk, delicaat. Gebruikt voor: Kreeft Cardinal (gevulde kreeft gegratineerd), krab gerechten, elegante schaaldier presentaties. Alternatief: Nantua saus (rivierkreeft boter in plaats van kreeft). Toont meesterschap van samengestelde boters."
+        }
+      },
+      {
+        question: {
+          en: "What is 'hollandaise' sauce and why is it classic with fish?",
+          es: "¿Qué es la salsa 'holandesa' y por qué es clásica con pescado?",
+          de: "Was ist 'Hollandaise' Sauce und warum ist sie klassisch zu Fisch?",
+          nl: "Wat is 'hollandaise' saus en waarom is het klassiek bij vis?"
+        },
+        options: [
+          { en: "Emulsified egg yolk-butter sauce with lemon, rich but tangy, complements delicate fish without masking - classic for poached salmon, asparagus", es: "Salsa emulsionada de yema de huevo-mantequilla con limón, rica pero ácida, complementa pescado delicado sin enmascarar - clásica para salmón escalfado, espárragos", de: "Emulgierte Eigelb-Butter-Sauce mit Zitrone, reich aber säuerlich, ergänzt zarten Fisch ohne zu maskieren - klassisch für pochierten Lachs, Spargel", nl: "Geëmulgeerde eidooier-boter saus met citroen, rijk maar pittig, complementeert delicate vis zonder te maskeren - klassiek voor gepocheerde zalm, asperges" },
+          { en: "Tomato-based", es: "A base de tomate", de: "Tomatenbasiert", nl: "Tomaat-gebaseerd" },
+          { en: "Cream only", es: "Solo crema", de: "Nur Sahne", nl: "Alleen room" },
+          { en: "Stock reduction", es: "Reducción de caldo", de: "Fond-Reduktion", nl: "Bouillon reductie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hollandaise: classic French mother sauce, emulsified butter sauce family. Whisk egg yolks with water/lemon juice over gentle heat (bain-marie or double boiler) until thick, ribbon consistency. Gradually whisk in melted clarified butter to form stable emulsion. Season with lemon, cayenne, salt. Result: rich, creamy, buttery with bright acidity. Perfect for: poached salmon, halibut, eggs Benedict. Related: béarnaise (tarragon, shallots), mousseline (with whipped cream). Requires careful temp control.",
+          es: "Holandesa: salsa madre francesa clásica, familia de salsas de mantequilla emulsionada. Batir yemas de huevo con agua/jugo de limón sobre calor suave (baño maría o caldera doble) hasta espeso, consistencia de cinta. Batir gradualmente mantequilla clarificada derretida para formar emulsión estable. Sazonar con limón, cayena, sal. Resultado: rico, cremoso, mantecoso con acidez brillante. Perfecto para: salmón escalfado, halibut, huevos Benedict. Relacionado: béarnaise (estragón, chalotas), mousseline (con crema batida). Requiere control cuidadoso de temperatura.",
+          de: "Hollandaise: klassische französische Muttersauce, emulgierte Buttersauce-Familie. Schlage Eigelb mit Wasser/Zitronensaft über sanfter Hitze (Bain-Marie oder Wasserbad) bis dick, Bandkonsistenz. Schlage allmählich geschmolzene geklärte Butter ein um stabile Emulsion zu bilden. Würze mit Zitrone, Cayenne, Salz. Ergebnis: reich, cremig, buttrig mit heller Säure. Perfekt für: pochierten Lachs, Heilbutt, Eier Benedict. Verwandt: Béarnaise (Estragon, Schalotten), Mousseline (mit Schlagsahne). Erfordert sorgfältige Temp-Kontrolle.",
+          nl: "Hollandaise: klassieke Franse moedersaus, geëmulgeerde boter saus familie. Klop eidooiers met water/citroensap op zachte warmte (bain-marie of dubbele boiler) tot dik, lint consistentie. Klop geleidelijk gesmolten geklaarde boter in om stabiele emulsie te vormen. Kruid met citroen, cayenne, zout. Resultaat: rijk, romig, boterachtig met heldere zuurheid. Perfect voor: gepocheerde zalm, heilbot, eieren Benedict. Gerelateerd: béarnaise (dragon, sjalotten), mousseline (met slagroom). Vereist zorgvuldige temp controle."
+        }
+      },
+      {
+        question: {
+          en: "What is 'chaud-froid' sauce and its application?",
+          es: "¿Qué es la salsa 'chaud-froid' y su aplicación?",
+          de: "Was ist 'Chaud-Froid' Sauce und ihre Anwendung?",
+          nl: "Wat is 'chaud-froid' saus en zijn toepassing?"
+        },
+        options: [
+          { en: "Velouté or béchamel with aspic, coats cold seafood creating glossy finish for buffet presentations, set with gelatin - hot-cold sauce", es: "Velouté o béchamel con áspic, cubre mariscos fríos creando acabado brillante para presentaciones de buffet, fija con gelatina - salsa caliente-fría", de: "Velouté oder Béchamel mit Aspik, überzieht kalte Meeresfrüchte schafft glänzendes Finish für Buffet-Präsentationen, mit Gelatine gesetzt - heiß-kalt Sauce", nl: "Velouté of béchamel met aspic, bedekt koude zeevruchten creërend glanzend finish voor buffet presentaties, gezet met gelatine - warm-koud saus" },
+          { en: "Hot sauce only", es: "Solo salsa caliente", de: "Nur heiße Sauce", nl: "Alleen warme saus" },
+          { en: "Tomato sauce", es: "Salsa de tomate", de: "Tomatensauce", nl: "Tomaten saus" },
+          { en: "Oil-based dressing", es: "Aderezo a base de aceite", de: "Ölbasiertes Dressing", nl: "Olie-gebaseerde dressing" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Chaud-froid ('hot-cold'): classical French sauce for elaborate cold presentations. Make velouté or béchamel, add gelatin (or aspic), cream. While warm (chaud), coat poached/cooked fish multiple times, refrigerate between coats. Sets when cold (froid) creating smooth, glossy, ivory coating. Decorate with vegetable cutouts, herbs, truffle. Cover with clear aspic. Result: elegant buffet showpiece. Labor-intensive, requires skill. Common in classical catering, competition work. Name: prepared hot, served cold.",
+          es: "Chaud-froid ('caliente-frío'): salsa francesa clásica para presentaciones frías elaboradas. Hacer velouté o béchamel, añadir gelatina (o áspic), crema. Mientras tibio (chaud), cubrir pescado escalfado/cocido múltiples veces, refrigerar entre capas. Se fija cuando frío (froid) creando capa suave, brillante, marfil. Decorar con recortes de vegetales, hierbas, trufa. Cubrir con áspic claro. Resultado: pieza de exhibición elegante de buffet. Laborioso, requiere habilidad. Común en catering clásico, trabajo de competición. Nombre: preparado caliente, servido frío.",
+          de: "Chaud-Froid ('heiß-kalt'): klassische französische Sauce für aufwendige kalte Präsentationen. Mache Velouté oder Béchamel, füge Gelatine (oder Aspik), Sahne hinzu. Während warm (chaud), überziehe pochierten/gekochten Fisch mehrfach, kühle zwischen Schichten. Setzt wenn kalt (froid) schafft glatte, glänzende, elfenbeinfarbene Beschichtung. Dekoriere mit Gemüse-Ausschnitten, Kräutern, Trüffel. Bedecke mit klarem Aspik. Ergebnis: elegantes Buffet-Schaustück. Arbeitsintensiv, erfordert Können. Üblich in klassischem Catering, Wettbewerbsarbeit. Name: heiß zubereitet, kalt serviert.",
+          nl: "Chaud-froid ('warm-koud'): klassieke Franse saus voor uitgebreide koude presentaties. Maak velouté of béchamel, voeg gelatine (of aspic), room toe. Terwijl warm (chaud), bedek gepocheerde/gekookte vis meerdere keren, koel tussen lagen. Zet wanneer koud (froid) creërend gladde, glanzende, ivoor coating. Decoreer met groente uitsnedes, kruiden, truffel. Bedek met heldere aspic. Resultaat: elegant buffet showpiece. Arbeidsintensief, vereist vaardigheid. Gebruikelijk in klassieke catering, competitie werk. Naam: bereid warm, geserveerd koud."
+        }
+      },
+      {
+        question: {
+          en: "What is 'aspic' in seafood presentation?",
+          es: "¿Qué es 'áspic' en presentación de mariscos?",
+          de: "Was ist 'Aspik' in Meeresfrüchte-Präsentation?",
+          nl: "Wat is 'aspic' bij zeevruchten presentatie?"
+        },
+        options: [
+          { en: "Clear savory jelly from clarified fish stock with gelatin, used to coat/glaze cold seafood, create molded presentations - showcases ingredients suspended in gel", es: "Gelatina salada clara de caldo de pescado clarificado con gelatina, usada para cubrir/glasear mariscos fríos, crear presentaciones moldeadas - muestra ingredientes suspendidos en gel", de: "Klare herzhafte Gelee aus geklärtem Fischfond mit Gelatine, verwendet zum Überziehen/Glasieren kalter Meeresfrüchte, Schaffen geformter Präsentationen - zeigt Zutaten in Gel suspendiert", nl: "Heldere hartige gelei van geklaarde visbouillon met gelatine, gebruikt om koude zeevruchten te bedekken/glaceren, gevormde presentaties te creëren - toont ingrediënten gesuspendeerd in gel" },
+          { en: "Tomato sauce", es: "Salsa de tomate", de: "Tomatensauce", nl: "Tomaten saus" },
+          { en: "Cream sauce", es: "Salsa de crema", de: "Sahnesauce", nl: "Room saus" },
+          { en: "Butter only", es: "Solo mantequilla", de: "Nur Butter", nl: "Alleen boter" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Aspic: classical cold preparation technique. Clarify fish stock (see clarification process), add gelatin, season perfectly (gelatin dulls flavor). Cool until syrupy but liquid. Uses: brush over cold poached fish/shellfish for glossy glaze, line molds with aspic, arrange seafood/vegetables/herbs, pour aspic to suspend ingredients. Chill to set. Unmold for elaborate presentation. Popular for: salmon in aspic, seafood terrines, buffet displays. Requires crystal-clear stock, artistic arrangement. Time-consuming art form.",
+          es: "Áspic: técnica de preparación fría clásica. Clarificar caldo de pescado (ver proceso de clarificación), añadir gelatina, sazonar perfectamente (gelatina atenúa sabor). Enfriar hasta almibarado pero líquido. Usos: cepillar sobre pescado escalfado frío/mariscos para glaseado brillante, forrar moldes con áspic, organizar mariscos/vegetales/hierbas, verter áspic para suspender ingredientes. Enfriar para fijar. Desmoldar para presentación elaborada. Popular para: salmón en áspic, terrinas de mariscos, exhibiciones de buffet. Requiere caldo cristalino, arreglo artístico. Forma de arte que consume tiempo.",
+          de: "Aspik: klassische kalte Zubereitungstechnik. Kläre Fischfond (siehe Klärungsprozess), füge Gelatine hinzu, würze perfekt (Gelatine dämpft Geschmack). Kühle bis sirupartig aber flüssig. Verwendung: streiche über kalten pochierten Fisch/Schalentiere für glänzende Glasur, kleide Formen mit Aspik aus, arrangiere Meeresfrüchte/Gemüse/Kräuter, gieße Aspik um Zutaten zu suspendieren. Kühle zum Setzen. Stürze für aufwendige Präsentation. Beliebt für: Lachs in Aspik, Meeresfrüchte-Terrinen, Buffet-Displays. Erfordert kristallklaren Fond, künstlerische Anordnung. Zeitaufwändige Kunstform.",
+          nl: "Aspic: klassieke koude bereidings techniek. Klaar visbouillon (zie klaring proces), voeg gelatine toe, kruid perfect (gelatine dempt smaak). Koel tot siroop maar vloeibaar. Gebruik: borstel over koude gepocheerde vis/schaaldieren voor glanzend glazuur, bekleed vormen met aspic, rangschik zeevruchten/groenten/kruiden, giet aspic om ingrediënten te suspenderen. Koel om te zetten. Stort voor uitgebreide presentatie. Populair voor: zalm in aspic, zeevruchten terrines, buffet displays. Vereist kristalheldere bouillon, artistieke rangschikking. Tijdrovende kunstvorm."
+        }
+      },
+      {
+        question: {
+          en: "What is 'grenobloise' style and its components?",
+          es: "¿Qué es el estilo 'grenobloise' y sus componentes?",
+          de: "Was ist 'Grenobloise' Stil und seine Komponenten?",
+          nl: "Wat is 'grenobloise' stijl en zijn componenten?"
+        },
+        options: [
+          { en: "Pan-fried fish with beurre noisette, lemon segments, capers, croutons - Grenoble-style, bright, textured finish", es: "Pescado frito con beurre noisette, segmentos de limón, alcaparras, crutones - estilo Grenoble, acabado brillante, texturizado", de: "Gebratener Fisch mit Beurre Noisette, Zitronensegmente, Kapern, Croutons - Grenoble-Stil, helles, texturiertes Finish", nl: "Gebakken vis met beurre noisette, citroen segmenten, kappertjes, croutons - Grenoble-stijl, helder, getextureerd finish" },
+          { en: "Tomato sauce", es: "Salsa de tomate", de: "Tomatensauce", nl: "Tomaten saus" },
+          { en: "Cream sauce", es: "Salsa de crema", de: "Sahnesauce", nl: "Room saus" },
+          { en: "Stock reduction", es: "Reducción de caldo", de: "Fond-Reduktion", nl: "Bouillon reductie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Grenobloise (Grenoble-style): classic French preparation. Pan-fry fish (sole, skate, trout) meunière style. Remove fish. Make beurre noisette in same pan. Add: peeled lemon segments (supremes - no membrane), capers, small croutons, fresh parsley. Pour over fish. Result: rich brown butter, bright citrus, briny capers, crunchy croutons - textural contrast, multiple flavors. Named after Grenoble, France. Simple but elegant. The key: supreme the lemon properly (no pith, membrane).",
+          es: "Grenobloise (estilo Grenoble): preparación francesa clásica. Freír pescado (lenguado, raya, trucha) estilo meunière. Retirar pescado. Hacer beurre noisette en misma sartén. Añadir: segmentos de limón pelados (supremos - sin membrana), alcaparras, crutones pequeños, perejil fresco. Verter sobre pescado. Resultado: mantequilla marrón rica, cítricos brillantes, alcaparras salinas, crutones crujientes - contraste de textura, múltiples sabores. Nombrado por Grenoble, Francia. Simple pero elegante. La clave: supremar el limón correctamente (sin médula, membrana).",
+          de: "Grenobloise (Grenoble-Stil): klassische französische Zubereitung. Brate Fisch (Seezunge, Rochen, Forelle) Meunière-Stil. Entferne Fisch. Mache Beurre Noisette in gleicher Pfanne. Füge hinzu: geschälte Zitronensegmente (Supremes - keine Membran), Kapern, kleine Croutons, frische Petersilie. Gieße über Fisch. Ergebnis: reiche braune Butter, helle Zitrus, salzige Kapern, knusprige Croutons - texturaler Kontrast, mehrere Aromen. Benannt nach Grenoble, Frankreich. Einfach aber elegant. Der Schlüssel: supreme die Zitrone richtig (kein Mark, Membran).",
+          nl: "Grenobloise (Grenoble-stijl): klassieke Franse bereiding. Bak vis (tong, rog, forel) meunière stijl. Verwijder vis. Maak beurre noisette in zelfde pan. Voeg toe: geschilde citroen segmenten (supremes - geen membraan), kappertjes, kleine croutons, verse peterselie. Giet over vis. Resultaat: rijke bruine boter, heldere citrus, zilte kappertjes, knapperige croutons - textureel contrast, meerdere smaken. Genoemd naar Grenoble, Frankrijk. Simpel maar elegant. De sleutel: supreme de citroen correct (geen pit, membraan)."
+        }
+      },
+      {
+        question: {
+          en: "What is 'dugléré' style in seafood preparation?",
+          es: "¿Qué es el estilo 'dugléré' en preparación de mariscos?",
+          de: "Was ist 'Dugléré' Stil bei Meeresfrüchte-Zubereitung?",
+          nl: "Wat is 'dugléré' stijl bij zeevruchten bereiding?"
+        },
+        options: [
+          { en: "Fish poached with white wine, tomatoes, shallots, finished with velouté and butter - named after Chef Dugléré, classic French technique", es: "Pescado escalfado con vino blanco, tomates, chalotas, terminado con velouté y mantequilla - nombrado por Chef Dugléré, técnica francesa clásica", de: "Fisch pochiert mit Weißwein, Tomaten, Schalotten, mit Velouté und Butter abgeschlossen - benannt nach Chef Dugléré, klassische französische Technik", nl: "Vis gepocheerd met witte wijn, tomaten, sjalotten, afgewerkt met velouté en boter - genoemd naar Chef Dugléré, klassieke Franse techniek" },
+          { en: "Grilled fish only", es: "Solo pescado a la parrilla", de: "Nur gegrillter Fisch", nl: "Alleen gegrilde vis" },
+          { en: "Raw preparation", es: "Preparación cruda", de: "Rohe Zubereitung", nl: "Rauwe bereiding" },
+          { en: "Fried fish", es: "Pescado frito", de: "Frittierter Fisch", nl: "Gefrituurde vis" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sole Dugléré: named after 19th-century Chef Adolphe Dugléré (Café Anglais, Paris). Method: butter baking dish, add chopped shallots, peeled seeded diced tomatoes. Place fish fillets (sole, flounder), season. Add white wine, fish stock. Cover with parchment, bake. Remove fish, reduce cooking liquid, whisk in fish velouté, finish with butter, parsley. Sauce naps fish. Result: elegant, tomato-touched but refined (not tomato-forward), showcases delicate fish. Classic technique demonstrating French finesse.",
+          es: "Lenguado Dugléré: nombrado por Chef del siglo XIX Adolphe Dugléré (Café Anglais, París). Método: enmantecar plato de hornear, añadir chalotas picadas, tomates pelados sin semillas en cubos. Colocar filetes de pescado (lenguado, platija), sazonar. Añadir vino blanco, caldo de pescado. Cubrir con pergamino, hornear. Retirar pescado, reducir líquido de cocción, batir en velouté de pescado, terminar con mantequilla, perejil. Salsa napa pescado. Resultado: elegante, tocado de tomate pero refinado (no prominente en tomate), muestra pescado delicado. Técnica clásica demostrando fineza francesa.",
+          de: "Seezunge Dugléré: benannt nach Chef des 19. Jahrhunderts Adolphe Dugléré (Café Anglais, Paris). Methode: buttere Auflaufform, füge gehackte Schalotten, geschälte entkernte gewürfelte Tomaten hinzu. Platziere Fischfilets (Seezunge, Flunder), würze. Füge Weißwein, Fischfond hinzu. Decke mit Pergament, backe. Entferne Fisch, reduziere Kochflüssigkeit, schlage Fisch-Velouté ein, schließe mit Butter, Petersilie ab. Sauce nappt Fisch. Ergebnis: elegant, tomaten-berührt aber raffiniert (nicht tomaten-betont), zeigt zarten Fisch. Klassische Technik demonstriert französische Finesse.",
+          nl: "Tong Dugléré: genoemd naar 19e-eeuwse Chef Adolphe Dugléré (Café Anglais, Parijs). Methode: boter ovenschaal, voeg gehakte sjalotten toe, geschilde ontzaadde blokjes tomaten. Plaats visfilets (tong, bot), kruid. Voeg witte wijn, visbouillon toe. Bedek met perkament, bak. Verwijder vis, reduceer kookvloeistof, klop vis velouté in, werk af met boter, peterselie. Saus napeert vis. Resultaat: elegant, tomaat-aangeraakt maar verfijnd (niet tomaat-vooruit), toont delicate vis. Klassieke techniek demonstreert Franse finesse."
+        }
+      },
+      {
+        question: {
+          en: "What is 'normande' sauce and its traditional use?",
+          es: "¿Qué es la salsa 'normande' y su uso tradicional?",
+          de: "Was ist 'Normande' Sauce und ihre traditionelle Verwendung?",
+          nl: "Wat is 'normande' saus en zijn traditionele gebruik?"
+        },
+        options: [
+          { en: "Fish velouté enriched with cream, mushroom essence, egg yolks, finished with butter - Normandy-style for sole, turbot, elegant fish", es: "Velouté de pescado enriquecido con crema, esencia de champiñones, yemas de huevo, terminado con mantequilla - estilo Normandía para lenguado, rodaballo, pescado elegante", de: "Fisch-Velouté angereichert mit Sahne, Pilzessenz, Eigelb, mit Butter abgeschlossen - Normandie-Stil für Seezunge, Steinbutt, eleganter Fisch", nl: "Vis velouté verrijkt met room, champignon essence, eidooiers, afgewerkt met boter - Normandië-stijl voor tong, tarbot, elegante vis" },
+          { en: "Tomato-based", es: "A base de tomate", de: "Tomatenbasiert", nl: "Tomaat-gebaseerd" },
+          { en: "Butter only", es: "Solo mantequilla", de: "Nur Butter", nl: "Alleen boter" },
+          { en: "Stock reduction", es: "Reducción de caldo", de: "Fond-Reduktion", nl: "Bouillon reductie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sauce Normande: classical French derivative of fish velouté. Base: fish velouté + fish stock reduction + mushroom cooking liquid (mushroom essence). Enrich with cream and egg yolks (liaison), finish with butter. Result: luxurious, creamy, refined, pale ivory color. Traditional for: Sole Normande (with mussels, shrimp, mushrooms, fried oysters, croutons), turbot, elegant whole fish. Named after Normandy region. Showcases classical sauce technique - multiple enrichments for complex, velvety result.",
+          es: "Salsa Normande: derivado francés clásico de velouté de pescado. Base: velouté de pescado + reducción de caldo de pescado + líquido de cocción de champiñones (esencia de champiñones). Enriquecer con crema y yemas de huevo (ligazón), terminar con mantequilla. Resultado: lujoso, cremoso, refinado, color marfil pálido. Tradicional para: Lenguado Normande (con mejillones, camarones, champiñones, ostras fritas, crutones), rodaballo, pescado entero elegante. Nombrado por región de Normandía. Muestra técnica de salsa clásica - múltiples enriquecimientos para resultado complejo, aterciopelado.",
+          de: "Sauce Normande: klassisches französisches Derivat von Fisch-Velouté. Basis: Fisch-Velouté + Fischfond-Reduktion + Pilz-Kochflüssigkeit (Pilzessenz). Bereichere mit Sahne und Eigelb (Liaison), schließe mit Butter ab. Ergebnis: luxuriös, cremig, raffiniert, blasse Elfenbeinfarbe. Traditionell für: Seezunge Normande (mit Muscheln, Garnelen, Pilzen, frittierten Austern, Croutons), Steinbutt, eleganter ganzer Fisch. Benannt nach Normandie-Region. Zeigt klassische Saucen-Technik - mehrere Anreicherungen für komplexes, samtiges Ergebnis.",
+          nl: "Saus Normande: klassiek Frans afgeleid van vis velouté. Basis: vis velouté + visbouillon reductie + champignon kookvloeistof (champignon essence). Verrijk met room en eidooiers (liaison), werk af met boter. Resultaat: luxueus, romig, verfijnd, bleek ivoor kleur. Traditioneel voor: Tong Normande (met mosselen, garnalen, champignons, gefrituurde oesters, croutons), tarbot, elegante hele vis. Genoemd naar Normandië regio. Toont klassieke saus techniek - meerdere verrijkingen voor complex, fluweelachtig resultaat."
+        }
+      },
+      {
+        question: {
+          en: "What is 'beurre manié' and when is it used?",
+          es: "¿Qué es 'beurre manié' y cuándo se usa?",
+          de: "Was ist 'Beurre Manié' und wann wird es verwendet?",
+          nl: "Wat is 'beurre manié' en wanneer wordt het gebruikt?"
+        },
+        options: [
+          { en: "Equal parts soft butter and flour kneaded together, whisked into simmering liquid for last-minute thickening without raw flour taste", es: "Partes iguales de mantequilla blanda y harina amasadas juntas, batidas en líquido hirviendo para espesamiento de último minuto sin sabor a harina cruda", de: "Gleiche Teile weiche Butter und Mehl zusammengeknetet, in köchelnde Flüssigkeit geschlagen für Last-Minute-Verdickung ohne rohen Mehlgeschmack", nl: "Gelijke delen zachte boter en bloem samen gekneed, geklopt in sudderend vocht voor last-minute verdikking zonder rauw meel smaak" },
+          { en: "Melted butter only", es: "Solo mantequilla derretida", de: "Nur geschmolzene Butter", nl: "Alleen gesmolten boter" },
+          { en: "Flour in water", es: "Harina en agua", de: "Mehl in Wasser", nl: "Meel in water" },
+          { en: "Cream reduction", es: "Reducción de crema", de: "Sahne-Reduktion", nl: "Room reductie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Beurre manié ('kneaded butter'): finishing thickener. Mix equal parts soft butter and flour with fork or fingers into smooth paste. To use: whisk small amounts into simmering fish stew, soup, or sauce. Stir until dissolved, simmer 2-3 min to cook flour. Advantage over roux: can add at end without starting sauce from scratch, no raw flour taste (butter coats flour). Uses: adjust too-thin sauces, thicken fish stews (bouillabaisse, matelote), enrich pan sauces. Keep refrigerated, use as needed.",
+          es: "Beurre manié ('mantequilla amasada'): espesante final. Mezclar partes iguales de mantequilla blanda y harina con tenedor o dedos en pasta suave. Para usar: batir pequeñas cantidades en guiso de pescado hirviendo, sopa o salsa. Revolver hasta disolver, cocinar a fuego lento 2-3 min para cocinar harina. Ventaja sobre roux: puede añadir al final sin comenzar salsa desde cero, sin sabor a harina cruda (mantequilla cubre harina). Usos: ajustar salsas demasiado líquidas, espesar guisos de pescado (bouillabaisse, matelote), enriquecer salsas de sartén. Mantener refrigerado, usar según necesidad.",
+          de: "Beurre Manié ('geknetete Butter'): Finish-Verdicker. Mische gleiche Teile weiche Butter und Mehl mit Gabel oder Fingern zu glatter Paste. Verwendung: schlage kleine Mengen in köchelnden Fischeintopf, Suppe oder Sauce. Rühre bis aufgelöst, köchle 2-3 Min um Mehl zu kochen. Vorteil gegenüber Roux: kann am Ende hinzufügen ohne Sauce von vorne zu beginnen, kein roher Mehlgeschmack (Butter umhüllt Mehl). Verwendung: passe zu dünne Saucen an, verdicke Fischeintöpfe (Bouillabaisse, Matelote), bereichere Pfannensaucen. Im Kühlschrank aufbewahren, nach Bedarf verwenden.",
+          nl: "Beurre manié ('geknede boter'): afwerkings verdikker. Mix gelijke delen zachte boter en bloem met vork of vingers tot gladde pasta. Gebruik: klop kleine hoeveelheden in sudderend vis stoofschotel, soep of saus. Roer tot opgelost, sudder 2-3 min om meel te koken. Voordeel boven roux: kan aan eind toevoegen zonder saus vanaf begin te starten, geen rauw meel smaak (boter bedekt meel). Gebruik: pas te dunne sauzen aan, verdik vis stoofschotels (bouillabaisse, matelote), verrijk pan sauzen. Koel bewaren, gebruik naar behoefte."
+        }
+      },
+      {
+        question: {
+          en: "What is 'liaison' in sauce finishing?",
+          es: "¿Qué es 'ligazón' en terminación de salsas?",
+          de: "Was ist 'Liaison' beim Saucen-Finishing?",
+          nl: "Wat is 'liaison' bij saus afwerking?"
+        },
+        options: [
+          { en: "Egg yolk and cream mixture whisked into hot sauce for enrichment and silky finish, must not boil or will curdle - final thickening and enriching", es: "Mezcla de yema de huevo y crema batida en salsa caliente para enriquecimiento y acabado sedoso, no debe hervir o se cortará - espesamiento y enriquecimiento final", de: "Eigelb und Sahne Mischung in heiße Sauce geschlagen für Anreicherung und seidiges Finish, darf nicht kochen oder gerinnt - finale Verdickung und Bereicherung", nl: "Eidooier en room mengsel geklopt in warme saus voor verrijking en zijdeachtig finish, mag niet koken of zal schiften - finale verdikking en verrijking" },
+          { en: "Flour only", es: "Solo harina", de: "Nur Mehl", nl: "Alleen meel" },
+          { en: "Butter chunks", es: "Trozos de mantequilla", de: "Butterstücke", nl: "Boter stukken" },
+          { en: "Stock reduction", es: "Reducción de caldo", de: "Fond-Reduktion", nl: "Bouillon reductie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Liaison: classical French finishing technique. Mix egg yolks with heavy cream (ratio: 3 yolks per 1 cup cream). Temper: ladle hot sauce into liaison while whisking (raises temp gradually). Pour liaison back into sauce pot while stirring. Heat gently to 160-180°F (71-82°C) - DO NOT BOIL or eggs scramble. Result: velvety, enriched, slightly thickened, luxurious. Used in: Sauce Normande, Poulette, Allemande, bisques. Adds richness, smoothness, elegant finish.",
+          es: "Ligazón: técnica francesa clásica de terminación. Mezclar yemas de huevo con crema espesa (proporción: 3 yemas por 1 taza de crema). Templar: servir salsa caliente en ligazón mientras bate (sube temperatura gradualmente). Verter ligazón de vuelta en olla de salsa mientras revuelve. Calentar suavemente a 160-180°F (71-82°C) - NO HERVIR o huevos se revuelven. Resultado: aterciopelado, enriquecido, ligeramente espesado, lujoso. Usado en: Salsa Normande, Poulette, Allemande, bisques. Añade riqueza, suavidad, acabado elegante.",
+          de: "Liaison: klassische französische Finishing-Technik. Mische Eigelb mit Sahne (Verhältnis: 3 Eigelb pro 1 Tasse Sahne). Temperiere: schöpfe heiße Sauce in Liaison während Schlagen (erhöht Temp allmählich). Gieße Liaison zurück in Saucenpfanne während Rühren. Erhitze sanft auf 71-82°C - NICHT KOCHEN oder Eier stocken. Ergebnis: samtig, angereichert, leicht verdickt, luxuriös. Verwendet in: Sauce Normande, Poulette, Allemande, Bisques. Fügt Fülle, Geschmeidigkeit, elegantes Finish hinzu.",
+          nl: "Liaison: klassieke Franse afwerkings techniek. Mix eidooiers met slagroom (ratio: 3 eidooiers per 1 kopje room). Tempereer: schep warme saus in liaison tijdens kloppen (verhoogt temp geleidelijk). Giet liaison terug in saus pan tijdens roeren. Verhit zachtjes tot 71-82°C - NIET KOKEN of eieren stollen. Resultaat: fluweelachtig, verrijkt, licht verdikt, luxueus. Gebruikt in: Saus Normande, Poulette, Allemande, bisques. Voegt rijkdom, gladheid, elegant finish toe."
+        }
+      },
+      {
+        question: {
+          en: "What is 'compound butter' for seafood and examples?",
+          es: "¿Qué es 'mantequilla compuesta' para mariscos y ejemplos?",
+          de: "Was ist 'zusammengesetzte Butter' für Meeresfrüchte und Beispiele?",
+          nl: "Wat is 'samengestelde boter' voor zeevruchten en voorbeelden?"
+        },
+        options: [
+          { en: "Soft butter mixed with flavorings (herbs, shellfish roe, citrus), rolled in cylinder, chilled, sliced as garnish - beurre maître d'hôtel, beurre de homard", es: "Mantequilla blanda mezclada con saborizantes (hierbas, huevas de mariscos, cítricos), enrollada en cilindro, enfriada, rebanada como guarnición - beurre maître d'hôtel, beurre de homard", de: "Weiche Butter gemischt mit Aromen (Kräuter, Schalentier-Rogen, Zitrus), in Zylinder gerollt, gekühlt, geschnitten als Garnierung - Beurre Maître d'Hôtel, Beurre de Homard", nl: "Zachte boter gemengd met smaakmakers (kruiden, schaaldier kuit, citrus), gerold in cilinder, gekoeld, gesneden als garnering - beurre maître d'hôtel, beurre de homard" },
+          { en: "Plain melted butter", es: "Mantequilla derretida simple", de: "Einfache geschmolzene Butter", nl: "Gewoon gesmolten boter" },
+          { en: "Butter with flour", es: "Mantequilla con harina", de: "Butter mit Mehl", nl: "Boter met bloem" },
+          { en: "Clarified butter only", es: "Solo mantequilla clarificada", de: "Nur geklärte Butter", nl: "Alleen geklaarde boter" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Compound butters: flavored butter for finishing fish. Method: soften butter, beat in flavorings, shape into log on plastic wrap, roll tight, refrigerate/freeze. Slice and place on hot fish - melts into instant sauce. Examples: Beurre maître d'hôtel (parsley, lemon, most common), beurre de homard (lobster shells/roe), beurre Bercy (shallots, white wine reduction, parsley), beurre d'escargot (garlic, parsley - also for fish), beurre Colbert (tarragon, meat glaze). Professional, elegant, make-ahead convenience.",
+          es: "Mantequillas compuestas: mantequilla saborizada para terminar pescado. Método: ablandar mantequilla, batir en saborizantes, dar forma de tronco en envoltura de plástico, enrollar apretado, refrigerar/congelar. Rebanar y colocar en pescado caliente - se derrite en salsa instantánea. Ejemplos: Beurre maître d'hôtel (perejil, limón, más común), beurre de homard (conchas/huevas de langosta), beurre Bercy (chalotas, reducción de vino blanco, perejil), beurre d'escargot (ajo, perejil - también para pescado), beurre Colbert (estragón, glace de carne). Profesional, elegante, conveniencia de preparación anticipada.",
+          de: "Zusammengesetzte Butter: aromatisierte Butter zum Finishing von Fisch. Methode: erweiche Butter, schlage Aromen ein, forme zu Rolle auf Plastikfolie, rolle fest, kühle/friere. Schneide und platziere auf heißem Fisch - schmilzt zu sofortiger Sauce. Beispiele: Beurre Maître d'Hôtel (Petersilie, Zitrone, am häufigsten), Beurre de Homard (Hummerschalen/Rogen), Beurre Bercy (Schalotten, Weißwein-Reduktion, Petersilie), Beurre d'Escargot (Knoblauch, Petersilie - auch für Fisch), Beurre Colbert (Estragon, Fleischglasur). Professionell, elegant, Make-Ahead-Bequemlichkeit.",
+          nl: "Samengestelde boters: gearomatiseerde boter voor afwerking van vis. Methode: verwijk boter, klop smaakmakers in, vorm tot rol op plastic folie, rol strak, koel/vries. Snijd en plaats op warme vis - smelt tot instant saus. Voorbeelden: Beurre maître d'hôtel (peterselie, citroen, meest voorkomend), beurre de homard (kreeft schalen/kuit), beurre Bercy (sjalotten, witte wijn reductie, peterselie), beurre d'escargot (knoflook, peterselie - ook voor vis), beurre Colbert (dragon, vlees glazuur). Professioneel, elegant, make-ahead gemak."
+        }
+      },
+      {
+        question: {
+          en: "What is 'mousse' versus 'mousseline' in seafood preparations?",
+          es: "¿Qué es 'mousse' versus 'mousseline' en preparaciones de mariscos?",
+          de: "Was ist 'Mousse' versus 'Mousseline' bei Meeresfrüchte-Zubereitungen?",
+          nl: "Wat is 'mousse' versus 'mousseline' bij zeevruchten bereidingen?"
+        },
+        options: [
+          { en: "Mousse uses gelatin for cold preparations (aspic-based); mousseline uses cream/egg whites for hot (poached forcemeat) - different stabilizers", es: "Mousse usa gelatina para preparaciones frías (a base de áspic); mousseline usa crema/claras de huevo para caliente (relleno escalfado) - estabilizadores diferentes", de: "Mousse nutzt Gelatine für kalte Zubereitungen (Aspik-basiert); Mousseline nutzt Sahne/Eiweiß für heiß (pochierte Farce) - verschiedene Stabilisatoren", nl: "Mousse gebruikt gelatine voor koude bereidingen (aspic-gebaseerd); mousseline gebruikt room/eiwitten voor warm (gepocheerde farce) - verschillende stabilisatoren" },
+          { en: "Same preparation", es: "Misma preparación", de: "Gleiche Zubereitung", nl: "Zelfde bereiding" },
+          { en: "Mousse is sweet only", es: "Mousse es solo dulce", de: "Mousse ist nur süß", nl: "Mousse is alleen zoet" },
+          { en: "No difference", es: "Sin diferencia", de: "Kein Unterschied", nl: "Geen verschil" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mousse vs Mousseline - different techniques: MOUSSE: cold preparation. Purée cooked/smoked fish, fold in whipped cream, set with gelatin or aspic. Pipe into molds, chill. Serve cold as appetizer, terrine component. MOUSSELINE: hot preparation (see earlier). Purée raw fish, add egg whites, cream, poach or use as forcemeat for quenelles, paupiettes, stuffing. Key: mousse = cold/gelatin, mousseline = hot/cream-egg. Both light, airy, but different applications, stabilizers.",
+          es: "Mousse vs Mousseline - técnicas diferentes: MOUSSE: preparación fría. Hacer puré de pescado cocido/ahumado, incorporar crema batida, fijar con gelatina o áspic. Poner en moldes, enfriar. Servir frío como aperitivo, componente de terrina. MOUSSELINE: preparación caliente (ver anterior). Hacer puré de pescado crudo, añadir claras de huevo, crema, escalfar o usar como relleno para quenelles, paupiettes, relleno. Clave: mousse = frío/gelatina, mousseline = caliente/crema-huevo. Ambos ligeros, aireados, pero aplicaciones, estabilizadores diferentes.",
+          de: "Mousse vs Mousseline - verschiedene Techniken: MOUSSE: kalte Zubereitung. Püriere gekochten/geräucherten Fisch, falte Schlagsahne ein, setze mit Gelatine oder Aspik. Spritze in Formen, kühle. Serviere kalt als Vorspeise, Terrinen-Komponente. MOUSSELINE: heiße Zubereitung (siehe früher). Püriere rohen Fisch, füge Eiweiß, Sahne hinzu, pochiere oder nutze als Farce für Quenelles, Paupiettes, Füllung. Schlüssel: Mousse = kalt/Gelatine, Mousseline = heiß/Sahne-Ei. Beide leicht, luftig, aber verschiedene Anwendungen, Stabilisatoren.",
+          nl: "Mousse vs Mousseline - verschillende technieken: MOUSSE: koude bereiding. Pureer gekookte/gerookte vis, vouw slagroom in, zet met gelatine of aspic. Spuit in vormen, koel. Serveer koud als voorgerecht, terrine component. MOUSSELINE: warme bereiding (zie eerder). Pureer rauwe vis, voeg eiwitten, room toe, pocheer of gebruik als farce voor quenelles, paupiettes, vulling. Sleutel: mousse = koud/gelatine, mousseline = warm/room-ei. Beide licht, luchtig, maar verschillende toepassingen, stabilisatoren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'terrine' in seafood context?",
+          es: "¿Qué es 'terrina' en contexto de mariscos?",
+          de: "Was ist 'Terrine' im Meeresfrüchte-Kontext?",
+          nl: "Wat is 'terrine' in zeevruchten context?"
+        },
+        options: [
+          { en: "Layered seafood forcemeat/mousseline with whole pieces (scallops, shrimp, fish), baked in mold, served cold sliced - shows layers when cut", es: "Relleno de mariscos en capas/mousseline con piezas enteras (vieiras, camarones, pescado), horneado en molde, servido frío rebanado - muestra capas al cortar", de: "Geschichtete Meeresfrüchte-Farce/Mousseline mit ganzen Stücken (Jakobsmuscheln, Garnelen, Fisch), in Form gebacken, kalt geschnitten serviert - zeigt Schichten beim Schneiden", nl: "Gelaagde zeevruchten farce/mousseline met hele stukken (coquilles, garnalen, vis), gebakken in vorm, koud gesneden geserveerd - toont lagen bij snijden" },
+          { en: "Grilled fish", es: "Pescado a la parrilla", de: "Gegrillter Fisch", nl: "Gegrilde vis" },
+          { en: "Fried seafood", es: "Mariscos fritos", de: "Frittierte Meeresfrüchte", nl: "Gefrituurde zeevruchten" },
+          { en: "Raw fish only", es: "Solo pescado crudo", de: "Nur roher Fisch", nl: "Alleen rauwe vis" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Seafood terrine: elegant cold preparation. Line terrine mold with plastic. Layer mousseline (salmon, scallop, or mixed seafood), whole cooked/marinated seafood pieces (shrimp, lobster, scallops), herbs, vegetable strips for color. Alternate layers. Cover with foil, bake in water bath (bain-marie) until set. Cool, weight overnight, unmold, slice. Serve cold with sauce (beurre blanc, herb mayonnaise). Shows beautiful layers. Requires skill in mousseline preparation, artistic layering. Classic appetizer, buffet piece.",
+          es: "Terrina de mariscos: preparación fría elegante. Forrar molde de terrina con plástico. Capas de mousseline (salmón, vieira o mariscos mixtos), piezas enteras de mariscos cocidos/marinados (camarones, langosta, vieiras), hierbas, tiras de vegetales para color. Alternar capas. Cubrir con papel aluminio, hornear en baño de agua (baño maría) hasta que se fije. Enfriar, pesar durante la noche, desmoldar, rebanar. Servir frío con salsa (beurre blanc, mayonesa de hierbas). Muestra hermosas capas. Requiere habilidad en preparación de mousseline, capas artísticas. Aperitivo clásico, pieza de buffet.",
+          de: "Meeresfrüchte-Terrine: elegante kalte Zubereitung. Kleide Terrinen-Form mit Plastik aus. Schichte Mousseline (Lachs, Jakobsmuschel oder gemischte Meeresfrüchte), ganze gekochte/marinierte Meeresfrüchte-Stücke (Garnelen, Hummer, Jakobsmuscheln), Kräuter, Gemüsestreifen für Farbe. Alterniere Schichten. Decke mit Folie ab, backe im Wasserbad (Bain-Marie) bis gesetzt. Kühle, beschwere über Nacht, stürze, schneide. Serviere kalt mit Sauce (Beurre Blanc, Kräuter-Mayonnaise). Zeigt schöne Schichten. Erfordert Können in Mousseline-Zubereitung, künstlerischem Schichten. Klassische Vorspeise, Buffet-Stück.",
+          nl: "Zeevruchten terrine: elegante koude bereiding. Bekleed terrine vorm met plastic. Laag mousseline (zalm, coquille of gemengde zeevruchten), hele gekookte/gemarineerde zeevruchten stukken (garnalen, kreeft, coquilles), kruiden, groente strips voor kleur. Alterneer lagen. Bedek met folie, bak in waterbad (bain-marie) tot gezet. Koel, weeg overnight, stort, snijd. Serveer koud met saus (beurre blanc, kruiden mayonaise). Toont mooie lagen. Vereist vaardigheid in mousseline bereiding, artistieke laag. Klassiek voorgerecht, buffet stuk."
+        }
+      },
+      {
+        question: {
+          en: "What is 'quenelle' shaping technique and its uses?",
+          es: "¿Qué es la técnica de formar 'quenelle' y sus usos?",
+          de: "Was ist 'Quenelle' Formtechnik und ihre Verwendungen?",
+          nl: "Wat is 'quenelle' vorm techniek en zijn gebruik?"
+        },
+        options: [
+          { en: "Shaping mousseline/forcemeat with two spoons into elegant three-sided oval, poached in liquid or used as plating garnish - classic French presentation", es: "Dar forma a mousseline/relleno con dos cucharas en óvalo elegante de tres lados, escalfado en líquido o usado como guarnición de plato - presentación francesa clásica", de: "Mousseline/Farce mit zwei Löffeln zu elegantem dreiseitigem Oval formen, in Flüssigkeit pochiert oder als Plattier-Garnierung verwendet - klassische französische Präsentation", nl: "Mousseline/farce vormen met twee lepels tot elegante driezijdige ovaal, gepocheerd in vocht of gebruikt als bord garnering - klassieke Franse presentatie" },
+          { en: "Cube cutting", es: "Corte en cubos", de: "Würfel-Schneiden", nl: "Kubus snijden" },
+          { en: "Round balls only", es: "Solo bolas redondas", de: "Nur runde Bälle", nl: "Alleen ronde ballen" },
+          { en: "Flat shapes", es: "Formas planas", de: "Flache Formen", nl: "Platte vormen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Quenelle: elegant shaping technique. Uses: 1) Poached dumplings - scoop mousseline with spoon, shape with second spoon (pass between spoons 3-4 times), slide into simmering court bouillon/stock. Float to surface when done. Classic French dish. 2) Plating - shape soft ingredients (mousse, ice cream, mashed potatoes) into graceful oval for restaurant presentation. Technique requires practice - two spoons, smooth motion, clean shape. Shows technical skill, elevates presentation from rustic to refined.",
+          es: "Quenelle: técnica de formado elegante. Usos: 1) Albóndigas escalfadas - sacar mousseline con cuchara, dar forma con segunda cuchara (pasar entre cucharas 3-4 veces), deslizar en court bouillon/caldo hirviendo. Flotar en superficie cuando esté listo. Plato francés clásico. 2) Emplatado - dar forma a ingredientes suaves (mousse, helado, puré de papas) en óvalo elegante para presentación de restaurante. Técnica requiere práctica - dos cucharas, movimiento suave, forma limpia. Muestra habilidad técnica, eleva presentación de rústica a refinada.",
+          de: "Quenelle: elegante Formtechnik. Verwendung: 1) Pochierte Klöße - schöpfe Mousseline mit Löffel, forme mit zweitem Löffel (gebe zwischen Löffeln 3-4 mal), gleite in köchelndes Court Bouillon/Fond. Schwimme an Oberfläche wenn fertig. Klassisches französisches Gericht. 2) Plattieren - forme weiche Zutaten (Mousse, Eis, Kartoffelpüree) zu anmutigem Oval für Restaurant-Präsentation. Technik erfordert Übung - zwei Löffel, glatte Bewegung, saubere Form. Zeigt technisches Können, hebt Präsentation von rustikal zu raffiniert.",
+          nl: "Quenelle: elegante vorm techniek. Gebruik: 1) Gepocheerde dumplings - schep mousseline met lepel, vorm met tweede lepel (geef tussen lepels 3-4 keer), glijd in sudderend court bouillon/bouillon. Drijf naar oppervlak wanneer klaar. Klassiek Frans gerecht. 2) Plateren - vorm zachte ingrediënten (mousse, ijs, aardappelpuree) tot sierlijke ovaal voor restaurant presentatie. Techniek vereist oefening - twee lepels, gladde beweging, schone vorm. Toont technische vaardigheid, verheft presentatie van rustiek tot verfijnd."
+        }
+      },
+      {
+        question: {
+          en: "What is 'timbale' in seafood presentations?",
+          es: "¿Qué es 'timbal' en presentaciones de mariscos?",
+          de: "Was ist 'Timbale' in Meeresfrüchte-Präsentationen?",
+          nl: "Wat is 'timbale' bij zeevruchten presentaties?"
+        },
+        options: [
+          { en: "Molded seafood preparation in drum-shaped mold - can be mousseline-based or layered with rice, fish, sauce, unmolded for elegant presentation", es: "Preparación de mariscos moldeada en molde en forma de tambor - puede ser a base de mousseline o en capas con arroz, pescado, salsa, desmoldada para presentación elegante", de: "Geformte Meeresfrüchte-Zubereitung in trommelförmiger Form - kann Mousseline-basiert oder geschichtet mit Reis, Fisch, Sauce sein, gestürzt für elegante Präsentation", nl: "Gevormde zeevruchten bereiding in trommel-vormige vorm - kan mousseline-gebaseerd of gelaagd zijn met rijst, vis, saus, gestort voor elegante presentatie" },
+          { en: "Grilled fish", es: "Pescado a la parrilla", de: "Gegrillter Fisch", nl: "Gegrilde vis" },
+          { en: "Raw preparation", es: "Preparación cruda", de: "Rohe Zubereitung", nl: "Rauwe bereiding" },
+          { en: "Fried only", es: "Solo frito", de: "Nur frittiert", nl: "Alleen gefrituurd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Timbale ('drum'): molded preparation. Butter drum-shaped mold (or ring mold, ramekin). Options: 1) Fill with seafood mousseline, bake in water bath. 2) Layer: rice pilaf, sautéed seafood (shrimp, scallops), sauce, repeat. Press gently. 3) Mix cooked seafood with velouté/béchamel, vegetables. Bake until set. Unmold onto plate, sauce around. Result: tall, cylindrical, elegant individual portion. Classical technique for formal dinners. Modern: use ring mold, build layers on plate. Shows technical skill.",
+          es: "Timbal ('tambor'): preparación moldeada. Enmantecar molde en forma de tambor (o molde de anillo, ramequín). Opciones: 1) Llenar con mousseline de mariscos, hornear en baño de agua. 2) Capas: pilaf de arroz, mariscos salteados (camarones, vieiras), salsa, repetir. Presionar suavemente. 3) Mezclar mariscos cocidos con velouté/béchamel, vegetales. Hornear hasta que se fije. Desmoldar en plato, salsa alrededor. Resultado: alto, cilíndrico, porción individual elegante. Técnica clásica para cenas formales. Moderno: usar molde de anillo, construir capas en plato. Muestra habilidad técnica.",
+          de: "Timbale ('Trommel'): geformte Zubereitung. Buttere trommelförmige Form (oder Ringform, Förmchen). Optionen: 1) Fülle mit Meeresfrüchte-Mousseline, backe im Wasserbad. 2) Schichte: Reis-Pilaf, sautierte Meeresfrüchte (Garnelen, Jakobsmuscheln), Sauce, wiederhole. Drücke sanft. 3) Mische gekochte Meeresfrüchte mit Velouté/Béchamel, Gemüse. Backe bis gesetzt. Stürze auf Teller, Sauce herum. Ergebnis: hoch, zylindrisch, elegante Einzelportion. Klassische Technik für formelle Dinner. Modern: nutze Ringform, baue Schichten auf Teller. Zeigt technisches Können.",
+          nl: "Timbale ('trommel'): gevormde bereiding. Boter trommel-vormige vorm (of ring vorm, ramequin). Opties: 1) Vul met zeevruchten mousseline, bak in waterbad. 2) Laag: rijst pilaf, gesauteerde zeevruchten (garnalen, coquilles), saus, herhaal. Druk zachtjes. 3) Mix gekookte zeevruchten met velouté/béchamel, groenten. Bak tot gezet. Stort op bord, saus eromheen. Resultaat: hoog, cilindrisch, elegante individuele portie. Klassieke techniek voor formele diners. Modern: gebruik ring vorm, bouw lagen op bord. Toont technische vaardigheid."
+        }
+      },
+      {
+        question: {
+          en: "What is 'fumet reduction' technique and its uses?",
+          es: "¿Qué es la técnica de 'reducción de fumet' y sus usos?",
+          de: "Was ist 'Fumet-Reduktion' Technik und ihre Verwendungen?",
+          nl: "Wat is 'fumet reductie' techniek en zijn gebruik?"
+        },
+        options: [
+          { en: "Simmering fumet to concentrate flavors by evaporating water, creating intense seafood essence for sauces - foundation for professional sauce work", es: "Cocinar fumet a fuego lento para concentrar sabores evaporando agua, creando esencia intensa de mariscos para salsas - fundamento para trabajo profesional de salsas", de: "Fumet köcheln um Aromen durch Verdampfen von Wasser zu konzentrieren, intensive Meeresfrüchte-Essenz für Saucen schaffen - Grundlage für professionelle Saucenarbeit", nl: "Fumet sudderen om smaken te concentreren door water te verdampen, intense zeevruchten essence creërend voor sauzen - basis voor professioneel saus werk" },
+          { en: "Boiling water", es: "Agua hirviendo", de: "Kochendes Wasser", nl: "Kokend water" },
+          { en: "Adding cream", es: "Añadir crema", de: "Sahne hinzufügen", nl: "Room toevoegen" },
+          { en: "Thickening with flour", es: "Espesar con harina", de: "Mit Mehl andicken", nl: "Verdikken met meel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Fumet reduction: fundamental sauce technique. Simmer fumet in wide pan (increases surface area, faster evaporation). Reduce by 50-75% depending on intensity needed. As water evaporates, flavors concentrate. Uses: 1) Base for velouté-based sauces (add to velouté for vin blanc, Normande). 2) Deglaze pans after sautéing fish. 3) Add to beurre blanc for depth. 4) Fortify cream sauces. 5) Poaching liquid. Monitor closely - easy to over-reduce (too salty/intense). Professional kitchens keep reduced fumet on hand.",
+          es: "Reducción de fumet: técnica fundamental de salsa. Cocinar fumet a fuego lento en sartén ancha (aumenta área de superficie, evaporación más rápida). Reducir en 50-75% dependiendo de intensidad necesitada. A medida que agua se evapora, sabores se concentran. Usos: 1) Base para salsas a base de velouté (añadir a velouté para vin blanc, Normande). 2) Desglasar sartenes después de saltear pescado. 3) Añadir a beurre blanc para profundidad. 4) Fortificar salsas de crema. 5) Líquido de escalfado. Monitorear de cerca - fácil de sobre-reducir (demasiado salado/intenso). Cocinas profesionales mantienen fumet reducido a mano.",
+          de: "Fumet-Reduktion: fundamentale Saucen-Technik. Köchle Fumet in breiter Pfanne (erhöht Oberfläche, schnellere Verdunstung). Reduziere um 50-75% je nach benötigter Intensität. Wenn Wasser verdunstet, konzentrieren sich Aromen. Verwendung: 1) Basis für Velouté-basierte Saucen (füge zu Velouté für Vin Blanc, Normande hinzu). 2) Deglaciere Pfannen nach Sautieren von Fisch. 3) Füge zu Beurre Blanc für Tiefe hinzu. 4) Verstärke Sahnesaucen. 5) Pochierflüssigkeit. Überwache eng - leicht zu über-reduzieren (zu salzig/intensiv). Professionelle Küchen halten reduzierten Fumet bereit.",
+          nl: "Fumet reductie: fundamentele saus techniek. Sudder fumet in brede pan (vergroot oppervlakte, snellere verdamping). Reduceer met 50-75% afhankelijk van benodigde intensiteit. Als water verdampt, concentreren smaken. Gebruik: 1) Basis voor velouté-gebaseerde sauzen (voeg toe aan velouté voor vin blanc, Normande). 2) Deglaceer pannen na sauteren van vis. 3) Voeg toe aan beurre blanc voor diepte. 4) Versterk room sauzen. 5) Pocheer vloeistof. Monitor nauw - makkelijk om over te reduceren (te zout/intens). Professionele keukens houden gereduceerde fumet bij de hand."
+        }
+      },
+      {
+        question: {
+          en: "What is 'essence' in seafood cooking?",
+          es: "¿Qué es 'esencia' en cocina de mariscos?",
+          de: "Was ist 'Essenz' beim Meeresfrüchte-Kochen?",
+          nl: "Wat is 'essence' bij zeevruchten koken?"
+        },
+        options: [
+          { en: "Ultra-concentrated cooking liquid from specific ingredient (mushroom essence, shellfish essence) - add spoonful for intense flavor without volume", es: "Líquido de cocción ultra-concentrado de ingrediente específico (esencia de champiñones, esencia de mariscos) - añadir cucharada para sabor intenso sin volumen", de: "Ultra-konzentrierte Kochflüssigkeit von spezifischer Zutat (Pilzessenz, Schalentier-Essenz) - füge Löffel für intensiven Geschmack ohne Volumen hinzu", nl: "Ultra-geconcentreerde kookvloeistof van specifiek ingrediënt (champignon essence, schaaldier essence) - voeg lepel toe voor intense smaak zonder volume" },
+          { en: "Plain water", es: "Agua simple", de: "Einfaches Wasser", nl: "Gewoon water" },
+          { en: "Cream only", es: "Solo crema", de: "Nur Sahne", nl: "Alleen room" },
+          { en: "Oil-based", es: "A base de aceite", de: "Ölbasiert", nl: "Olie-gebaseerd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Essence: hyper-concentrated flavor extract. Common types: MUSHROOM ESSENCE: simmer chopped mushroom stems, trimmings in water, reduce by 90%. Intense mushroom flavor for Normande sauce. SHELLFISH ESSENCE: crush shells (lobster, crab, shrimp), simmer in water/wine, strain, reduce. Concentrated shellfish flavor. FISH ESSENCE: reduce fumet to syrup. Uses: add by spoonful to sauces for flavor burst without thinning. Professional technique for layered, complex sauces. Store refrigerated or freeze. Little goes long way.",
+          es: "Esencia: extracto de sabor hiper-concentrado. Tipos comunes: ESENCIA DE CHAMPIÑONES: cocinar a fuego lento tallos de champiñones picados, recortes en agua, reducir en 90%. Sabor intenso de champiñones para salsa Normande. ESENCIA DE MARISCOS: triturar conchas (langosta, cangrejo, camarones), cocinar a fuego lento en agua/vino, colar, reducir. Sabor concentrado de mariscos. ESENCIA DE PESCADO: reducir fumet a almíbar. Usos: añadir por cucharada a salsas para explosión de sabor sin diluir. Técnica profesional para salsas en capas, complejas. Almacenar refrigerado o congelar. Poco rinde mucho.",
+          de: "Essenz: hyper-konzentrierter Geschmacksextrakt. Häufige Arten: PILZESSENZ: köchle gehackte Pilzstiele, Abschnitte in Wasser, reduziere um 90%. Intensiver Pilzgeschmack für Normande Sauce. SCHALENTIER-ESSENZ: zerdrücke Schalen (Hummer, Krabbe, Garnelen), köchle in Wasser/Wein, siebe, reduziere. Konzentrierter Schalentier-Geschmack. FISCH-ESSENZ: reduziere Fumet zu Sirup. Verwendung: füge löffelweise zu Saucen für Geschmacksburst ohne Verdünnung hinzu. Professionelle Technik für geschichtete, komplexe Saucen. Im Kühlschrank lagern oder einfrieren. Wenig reicht weit.",
+          nl: "Essence: hyper-geconcentreerd smaak extract. Veelvoorkomende types: CHAMPIGNON ESSENCE: sudder gehakte champignon stelen, restjes in water, reduceer met 90%. Intense champignon smaak voor Normande saus. SCHAALDIER ESSENCE: plet schalen (kreeft, krab, garnalen), sudder in water/wijn, zeef, reduceer. Geconcentreerde schaaldier smaak. VIS ESSENCE: reduceer fumet tot siroop. Gebruik: voeg per lepel toe aan sauzen voor smaak burst zonder verdunning. Professionele techniek voor gelaagde, complexe sauzen. Koel bewaren of vriezen. Weinig gaat ver."
+        }
+      },
+      {
+        question: {
+          en: "What is 'monter au beurre' finishing technique?",
+          es: "¿Qué es la técnica de terminación 'monter au beurre'?",
+          de: "Was ist 'Monter au Beurre' Finishing-Technik?",
+          nl: "Wat is 'monter au beurre' afwerkings techniek?"
+        },
+        options: [
+          { en: "Whisking cold butter into finished sauce off heat to enrich, smooth, add shine - 'mounting' with butter, final touch for professional sauces", es: "Batir mantequilla fría en salsa terminada fuera del fuego para enriquecer, suavizar, añadir brillo - 'montar' con mantequilla, toque final para salsas profesionales", de: "Kalte Butter in fertige Sauce außerhalb der Hitze schlagen um zu bereichern, glätten, Glanz hinzuzufügen - 'Montieren' mit Butter, letzter Schliff für professionelle Saucen", nl: "Koude boter in afgewerkte saus buiten warmte kloppen om te verrijken, glad maken, glans toevoegen - 'monteren' met boter, laatste toets voor professionele sauzen" }
+,
+          { en: "Melting butter only", es: "Solo derretir mantequilla", de: "Nur Butter schmelzen", nl: "Alleen boter smelten" },
+          { en: "Adding flour", es: "Añadir harina", de: "Mehl hinzufügen", nl: "Meel toevoegen" },
+          { en: "Boiling sauce", es: "Hervir salsa", de: "Sauce kochen", nl: "Saus koken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Monter au beurre ('mount with butter'): final enrichment technique. Method: finish sauce (reduced stock, pan sauce, beurre blanc). Remove from heat. Whisk in cold butter cubes, few at a time, until emulsified and melted. DO NOT reheat or butter separates. Result: glossy, smooth, enriched, velvety texture, rich flavor. Used for: pan sauces, reductions, beurre blanc adjustment, finishing velouté. Professional signature move - elevates sauce from good to restaurant-quality. Shows mastery of emulsification.",
+          es: "Monter au beurre ('montar con mantequilla'): técnica de enriquecimiento final. Método: terminar salsa (caldo reducido, salsa de sartén, beurre blanc). Retirar del fuego. Batir cubos de mantequilla fría, pocos a la vez, hasta emulsionar y derretir. NO recalentar o mantequilla se separa. Resultado: brillante, suave, enriquecido, textura aterciopelada, sabor rico. Usado para: salsas de sartén, reducciones, ajuste de beurre blanc, terminación de velouté. Movimiento distintivo profesional - eleva salsa de buena a calidad de restaurante. Muestra maestría de emulsificación.",
+          de: "Monter au Beurre ('mit Butter montieren'): finale Anreicherungs-Technik. Methode: beende Sauce (reduzierter Fond, Pfannensauce, Beurre Blanc). Entferne von Hitze. Schlage kalte Butterwürfel ein, wenige auf einmal, bis emulgiert und geschmolzen. NICHT wiedererhitzen oder Butter trennt sich. Ergebnis: glänzend, glatt, angereichert, samtige Textur, reicher Geschmack. Verwendet für: Pfannensaucen, Reduktionen, Beurre Blanc Anpassung, Velouté beenden. Professioneller Signature-Move - hebt Sauce von gut zu Restaurant-Qualität. Zeigt Meisterschaft der Emulgierung.",
+          nl: "Monter au beurre ('monteren met boter'): finale verrijkings techniek. Methode: maak saus af (gereduceerde bouillon, pan saus, beurre blanc). Verwijder van warmte. Klop koude boter blokjes in, paar tegelijk, tot geëmulgeerd en gesmolten. NIET opnieuw verhitten of boter scheidt. Resultaat: glanzend, glad, verrijkt, fluweelachtige textuur, rijke smaak. Gebruikt voor: pan sauzen, reducties, beurre blanc aanpassing, velouté afwerken. Professionele handtekening move - verheft saus van goed naar restaurant-kwaliteit. Toont meesterschap van emulgering."
+        }
+      }

@@ -10,422 +10,737 @@
     questions: [
       {
         question: {
-          en: "What is the main difference between a green salad and a composed salad?",
-          es: "¿Cuál es la principal diferencia entre una ensalada verde y una ensalada compuesta?",
-          de: "Was ist der Hauptunterschied zwischen einem grünen Salat und einem komponierten Salat?",
-          nl: "Wat is het belangrijkste verschil tussen een groene salade en een samengestelde salade?"
+          en: "What is the main difference between shrimp and prawns?",
+          es: "¿Cuál es la principal diferencia entre camarones y langostinos?",
+          de: "Was ist der Hauptunterschied zwischen Garnelen und Riesengarnelen?",
+          nl: "Wat is het belangrijkste verschil tussen garnalen en king prawns?"
         },
         options: [
-          { en: "Green salads use only leafy greens, composed salads include various ingredients arranged together", es: "Las ensaladas verdes usan solo hojas verdes, las ensaladas compuestas incluyen varios ingredientes organizados juntos", de: "Grüne Salate verwenden nur Blattgrün, komponierte Salate enthalten verschiedene zusammen arrangierte Zutaten", nl: "Groene salades gebruiken alleen bladgroenten, samengestelde salades bevatten verschillende ingrediënten samen gerangschikt" },
-          { en: "Green salads are always cold, composed salads are warm", es: "Las ensaladas verdes siempre están frías, las ensaladas compuestas están calientes", de: "Grüne Salate sind immer kalt, komponierte Salate sind warm", nl: "Groene salades zijn altijd koud, samengestelde salades zijn warm" },
-          { en: "Green salads have dressing, composed salads don't", es: "Las ensaladas verdes tienen aderezo, las ensaladas compuestas no", de: "Grüne Salate haben Dressing, komponierte Salate nicht", nl: "Groene salades hebben dressing, samengestelde salades niet" },
-          { en: "There is no difference", es: "No hay diferencia", de: "Es gibt keinen Unterschied", nl: "Er is geen verschil" }
+          { en: "Prawns have branching gills, shrimp have lamellar gills", es: "Los langostinos tienen branquias ramificadas, los camarones tienen branquias lamelares", de: "Riesengarnelen haben verzweigte Kiemen, Garnelen haben lamellenartige Kiemen", nl: "King prawns hebben vertakte kieuwen, garnalen hebben plaatachtige kieuwen" },
+          { en: "Shrimp are always larger than prawns", es: "Los camarones son siempre más grandes que los langostinos", de: "Garnelen sind immer größer als Riesengarnelen", nl: "Garnalen zijn altijd groter dan king prawns" },
+          { en: "Prawns live in freshwater only", es: "Los langostinos viven solo en agua dulce", de: "Riesengarnelen leben nur im Süßwasser", nl: "King prawns leven alleen in zoetwater" },
+          { en: "There is no biological difference", es: "No hay diferencia biológica", de: "Es gibt keinen biologischen Unterschied", nl: "Er is geen biologisch verschil" }
         ],
         correct: 0,
         explanation: {
-          en: "Green salads primarily consist of leafy greens like lettuce, spinach, or arugula, while composed salads combine multiple ingredients like vegetables, proteins, fruits, nuts, and cheese arranged in an attractive presentation.",
-          es: "Las ensaladas verdes consisten principalmente en hojas verdes como lechuga, espinaca o rúcula, mientras que las ensaladas compuestas combinan múltiples ingredientes como verduras, proteínas, frutas, nueces y queso organizados en una presentación atractiva.",
-          de: "Grüne Salate bestehen hauptsächlich aus Blattgrün wie Kopfsalat, Spinat oder Rucola, während komponierte Salate mehrere Zutaten wie Gemüse, Proteine, Früchte, Nüsse und Käse in einer attraktiven Präsentation kombinieren.",
-          nl: "Groene salades bestaan voornamelijk uit bladgroenten zoals sla, spinazie of rucola, terwijl samengestelde salades meerdere ingrediënten zoals groenten, eiwitten, fruit, noten en kaas combineren in een aantrekkelijke presentatie."
+          en: "The main biological difference is that prawns have branching gills while shrimp have lamellar (plate-like) gills. Prawns also have claws on three pairs of legs, while shrimp have claws on only two pairs.",
+          es: "La principal diferencia biológica es que los langostinos tienen branquias ramificadas mientras que los camarones tienen branquias lamelares (en forma de placa). Los langostinos también tienen pinzas en tres pares de patas, mientras que los camarones tienen pinzas solo en dos pares.",
+          de: "Der hauptsächliche biologische Unterschied ist, dass Riesengarnelen verzweigte Kiemen haben, während Garnelen lamellenartige (plattenartige) Kiemen haben. Riesengarnelen haben auch Scheren an drei Beinpaaren, während Garnelen nur an zwei Paaren Scheren haben.",
+          nl: "Het belangrijkste biologische verschil is dat king prawns vertakte kieuwen hebben terwijl garnalen plaatachtige kieuwen hebben. King prawns hebben ook klauwen op drie paar poten, terwijl garnalen klauwen hebben op slechts twee paar."
         }
       },
       {
         question: {
-          en: "Which of these vegetables is NOT typically considered a salad green?",
-          es: "¿Cuál de estas verduras NO se considera típicamente una hoja verde para ensalada?",
-          de: "Welches dieser Gemüse gilt normalerweise NICHT als Salatgrün?",
-          nl: "Welke van deze groenten wordt meestal NIET beschouwd als slagroente?"
+          en: "Which cooking method is best for preserving the delicate texture of scallops?",
+          es: "¿Qué método de cocción es mejor para preservar la textura delicada de las vieiras?",
+          de: "Welche Kochmethode eignet sich am besten zum Erhalt der zarten Textur von Jakobsmuscheln?",
+          nl: "Welke kookmethode is het beste voor het behouden van de delicate textuur van coquilles?"
         },
         options: [
-          { en: "Lettuce", es: "Lechuga", de: "Kopfsalat", nl: "Sla" },
-          { en: "Spinach", es: "Espinaca", de: "Spinat", nl: "Spinazie" },
-          { en: "Broccoli", es: "Brócoli", de: "Brokkoli", nl: "Broccoli" },
-          { en: "Arugula", es: "Rúcula", de: "Rucola", nl: "Rucola" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Broccoli is a cruciferous vegetable that's typically cooked before eating and is not commonly used as a raw salad green. Lettuce, spinach, and arugula are all common leafy greens used fresh in salads.",
-          es: "El brócoli es una verdura crucífera que típicamente se cocina antes de comer y no se usa comúnmente como hoja verde cruda para ensalada. La lechuga, espinaca y rúcula son todas hojas verdes comunes usadas frescas en ensaladas.",
-          de: "Brokkoli ist ein Kreuzblütengewächs, das typischerweise vor dem Verzehr gekocht wird und nicht häufig als rohes Salatgrün verwendet wird. Kopfsalat, Spinat und Rucola sind alle gängige Blattgrüns, die frisch in Salaten verwendet werden.",
-          nl: "Broccoli is een kruisbloemige groente die gewoonlijk gekookt wordt voordat het gegeten wordt en wordt niet vaak gebruikt als rauwe slagroente. Sla, spinazie en rucola zijn allemaal veelgebruikte bladgroenten die vers in salades worden gebruikt."
-        }
-      },
-      {
-        question: {
-          en: "What is the primary purpose of washing salad greens before eating?",
-          es: "¿Cuál es el propósito principal de lavar las hojas verdes para ensalada antes de comer?",
-          de: "Was ist der Hauptzweck des Waschens von Salatgrün vor dem Essen?",
-          nl: "Wat is het hoofddoel van het wassen van slagroenten voor het eten?"
-        },
-        options: [
-          { en: "To make them taste better", es: "Para que sepan mejor", de: "Damit sie besser schmecken", nl: "Om ze beter te laten smaken" },
-          { en: "To remove dirt, bacteria, and pesticide residues", es: "Para quitar suciedad, bacterias y residuos de pesticidas", de: "Um Schmutz, Bakterien und Pestizidrückstände zu entfernen", nl: "Om vuil, bacteriën en pesticidenresten te verwijderen" },
-          { en: "To make them last longer", es: "Para que duren más tiempo", de: "Damit sie länger halten", nl: "Om ze langer te laten meegaan" },
-          { en: "To add moisture", es: "Para agregar humedad", de: "Um Feuchtigkeit hinzuzufügen", nl: "Om vocht toe te voegen" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Washing salad greens removes dirt, harmful bacteria like E. coli and Salmonella, and pesticide residues that may be present on the leaves. This is essential for food safety, especially since greens are eaten raw.",
-          es: "Lavar las hojas verdes para ensalada elimina suciedad, bacterias dañinas como E. coli y Salmonella, y residuos de pesticidas que pueden estar presentes en las hojas. Esto es esencial para la seguridad alimentaria, especialmente porque las hojas verdes se comen crudas.",
-          de: "Das Waschen von Salatgrün entfernt Schmutz, schädliche Bakterien wie E. coli und Salmonellen, sowie Pestizidrückstände, die auf den Blättern vorhanden sein können. Dies ist wesentlich für die Lebensmittelsicherheit, besonders da Grüns roh gegessen werden.",
-          nl: "Het wassen van slagroenten verwijdert vuil, schadelijke bacteriën zoals E. coli en Salmonella, en pesticidenresten die aanwezig kunnen zijn op de bladeren. Dit is essentieel voor voedselveiligheid, vooral omdat groenten rauw worden gegeten."
-        }
-      },
-      {
-        question: {
-          en: "Which of these is a root vegetable commonly used in salads?",
-          es: "¿Cuál de estas es una verdura de raíz comúnmente usada en ensaladas?",
-          de: "Welches davon ist ein Wurzelgemüse, das häufig in Salaten verwendet wird?",
-          nl: "Welke van deze is een wortelgroente die vaak in salades wordt gebruikt?"
-        },
-        options: [
-          { en: "Tomato", es: "Tomate", de: "Tomate", nl: "Tomaat" },
-          { en: "Cucumber", es: "Pepino", de: "Gurke", nl: "Komkommer" },
-          { en: "Carrot", es: "Zanahoria", de: "Karotte", nl: "Wortel" },
-          { en: "Bell pepper", es: "Pimiento", de: "Paprika", nl: "Paprika" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Carrots are root vegetables that grow underground and are commonly grated or julienned for use in salads. Tomatoes are fruits, cucumbers are fruits of a vine plant, and bell peppers are fruits that grow above ground.",
-          es: "Las zanahorias son verduras de raíz que crecen bajo tierra y comúnmente se rallan o se cortan en juliana para usar en ensaladas. Los tomates son frutas, los pepinos son frutas de una planta trepadora, y los pimientos son frutas que crecen sobre la tierra.",
-          de: "Karotten sind Wurzelgemüse, das unterirdisch wächst und häufig gerieben oder julienne geschnitten für Salate verwendet wird. Tomaten sind Früchte, Gurken sind Früchte einer Rankenpflanze, und Paprika sind Früchte, die oberirdisch wachsen.",
-          nl: "Wortels zijn wortelgroenten die ondergronds groeien en vaak geraspt of in julienne gesneden worden voor gebruik in salades. Tomaten zijn vruchten, komkommers zijn vruchten van een klimplant, en paprika's zijn vruchten die bovengronds groeien."
-        }
-      },
-      {
-        question: {
-          en: "What does 'julienne' mean in salad preparation?",
-          es: "¿Qué significa 'juliana' en la preparación de ensaladas?",
-          de: "Was bedeutet 'Julienne' bei der Salatzubereitung?",
-          nl: "Wat betekent 'julienne' bij saladebereiding?"
-        },
-        options: [
-          { en: "Cutting vegetables into thin, matchstick-like strips", es: "Cortar verduras en tiras delgadas como palillos", de: "Gemüse in dünne, streichholzähnliche Streifen schneiden", nl: "Groenten snijden in dunne, lucifer-achtige reepjes" },
-          { en: "Cutting vegetables into large chunks", es: "Cortar verduras en trozos grandes", de: "Gemüse in große Stücke schneiden", nl: "Groenten snijden in grote stukken" },
-          { en: "Mashing vegetables into a paste", es: "Machacar verduras hasta hacer una pasta", de: "Gemüse zu einer Paste stampfen", nl: "Groenten pletten tot een pasta" },
-          { en: "Cooking vegetables until soft", es: "Cocinar verduras hasta que estén suaves", de: "Gemüse weich kochen", nl: "Groenten koken tot ze zacht zijn" }
+          { en: "Quick searing over high heat", es: "Sellado rápido a fuego alto", de: "Schnelles Anbraten bei hoher Hitze", nl: "Snel dichtschroeien op hoog vuur" },
+          { en: "Slow boiling for 30 minutes", es: "Hervir lentamente durante 30 minutos", de: "Langsames Kochen für 30 Minuten", nl: "Langzaam koken gedurende 30 minuten" },
+          { en: "Deep frying at very high temperature", es: "Freír en aceite abundante a temperatura muy alta", de: "Frittieren bei sehr hoher Temperatur", nl: "Frituren op zeer hoge temperatuur" },
+          { en: "Microwaving on high power", es: "Calentar en microondas a máxima potencia", de: "Mikrowellen bei hoher Leistung", nl: "Magnetronverwarming op hoog vermogen" }
         ],
         correct: 0,
         explanation: {
-          en: "Julienne is a knife cut that creates thin, uniform strips about 1/8 inch thick and 2 inches long, resembling matchsticks. This technique is commonly used for carrots, bell peppers, and other vegetables in salads for both visual appeal and consistent texture.",
-          es: "Juliana es un corte con cuchillo que crea tiras delgadas y uniformes de aproximadamente 1/8 de pulgada de grosor y 2 pulgadas de largo, parecidas a palillos. Esta técnica se usa comúnmente para zanahorias, pimientos y otras verduras en ensaladas tanto por atractivo visual como por textura consistente.",
-          de: "Julienne ist ein Messerschnitt, der dünne, gleichmäßige Streifen von etwa 3 mm Dicke und 5 cm Länge erstellt, die Streichhölzern ähneln. Diese Technik wird häufig für Karotten, Paprika und anderes Gemüse in Salaten verwendet, sowohl für visuellen Reiz als auch für gleichmäßige Textur.",
-          nl: "Julienne is een messnede die dunne, uniforme reepjes van ongeveer 3 mm dik en 5 cm lang creëert, die op lucifers lijken. Deze techniek wordt vaak gebruikt voor wortels, paprika's en andere groenten in salades voor zowel visuele aantrekkelijkheid als consistente textuur."
+          en: "Scallops are best prepared by quick searing over high heat for 1-2 minutes per side. This creates a golden crust while keeping the interior tender and moist. Overcooking makes scallops rubbery and tough.",
+          es: "Las vieiras se preparan mejor con un sellado rápido a fuego alto durante 1-2 minutos por lado. Esto crea una corteza dorada mientras mantiene el interior tierno y húmedo. Cocinar demasiado hace que las vieiras queden gomosas y duras.",
+          de: "Jakobsmuscheln werden am besten durch schnelles Anbraten bei hoher Hitze für 1-2 Minuten pro Seite zubereitet. Dies erzeugt eine goldene Kruste, während das Innere zart und saftig bleibt. Überkochen macht Jakobsmuscheln gummiartig und zäh.",
+          nl: "Coquilles worden het beste bereid door snel dichtschroeien op hoog vuur gedurende 1-2 minuten per kant. Dit creëert een gouden korst terwijl de binnenkant mals en vochtig blijft. Te lang koken maakt coquilles rubberachtig en taai."
         }
       },
       {
         question: {
-          en: "Which herb is most commonly used to add fresh flavor to green salads?",
-          es: "¿Qué hierba se usa más comúnmente para agregar sabor fresco a las ensaladas verdes?",
-          de: "Welches Kraut wird am häufigsten verwendet, um grünen Salaten frischen Geschmack zu verleihen?",
-          nl: "Welk kruid wordt het meest gebruikt om verse smaak toe te voegen aan groene salades?"
+          en: "What is surimi commonly used to make?",
+          es: "¿Para qué se usa comúnmente el surimi?",
+          de: "Wofür wird Surimi üblicherweise verwendet?",
+          nl: "Waarvoor wordt surimi gewoonlijk gebruikt?"
         },
         options: [
-          { en: "Rosemary", es: "Romero", de: "Rosmarin", nl: "Rozemarijn" },
-          { en: "Basil", es: "Albahaca", de: "Basilikum", nl: "Basilicum" },
-          { en: "Oregano", es: "Orégano", de: "Oregano", nl: "Oregano" },
-          { en: "Thyme", es: "Tomillo", de: "Thymian", nl: "Tijm" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Basil is the most commonly used fresh herb in green salads due to its mild, sweet flavor that complements leafy greens without overpowering them. While other herbs can be used, basil's delicate taste makes it the most popular choice for everyday salads.",
-          es: "La albahaca es la hierba fresca más comúnmente usada en ensaladas verdes debido a su sabor suave y dulce que complementa las hojas verdes sin abrumarlas. Aunque se pueden usar otras hierbas, el sabor delicado de la albahaca la convierte en la opción más popular para ensaladas cotidianas.",
-          de: "Basilikum ist das am häufigsten verwendete frische Kraut in grünen Salaten aufgrund seines milden, süßen Geschmacks, der Blattgrün ergänzt, ohne es zu überwältigen. Während andere Kräuter verwendet werden können, macht Basilikums zarter Geschmack es zur beliebtesten Wahl für alltägliche Salate.",
-          nl: "Basilicum is het meest gebruikte verse kruid in groene salades vanwege zijn milde, zoete smaak die bladgroenten aanvult zonder ze te overheersen. Hoewel andere kruiden gebruikt kunnen worden, maakt de delicate smaak van basilicum het de populairste keuze voor dagelijkse salades."
-        }
-      },
-      {
-        question: {
-          en: "What is the best way to store fresh lettuce to keep it crisp?",
-          es: "¿Cuál es la mejor manera de almacenar lechuga fresca para mantenerla crujiente?",
-          de: "Was ist der beste Weg, frischen Kopfsalat zu lagern, um ihn knackig zu halten?",
-          nl: "Wat is de beste manier om verse sla te bewaren om het knapperig te houden?"
-        },
-        options: [
-          { en: "In the pantry at room temperature", es: "En la despensa a temperatura ambiente", de: "In der Speisekammer bei Raumtemperatur", nl: "In de voorraadkast bij kamertemperatuur" },
-          { en: "In the refrigerator wrapped in paper towels", es: "En el refrigerador envuelta en toallas de papel", de: "Im Kühlschrank in Papiertücher eingewickelt", nl: "In de koelkast gewikkeld in papieren handdoeken" },
-          { en: "In direct sunlight", es: "Bajo luz solar directa", de: "In direktem Sonnenlicht", nl: "In direct zonlicht" },
-          { en: "Completely submerged in water", es: "Completamente sumergida en agua", de: "Vollständig in Wasser eingetaucht", nl: "Volledig ondergedompeld in water" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Fresh lettuce should be stored in the refrigerator wrapped in paper towels to absorb excess moisture while maintaining humidity. This prevents wilting while avoiding the rot that can occur from too much moisture. The cool temperature also helps preserve crispness.",
-          es: "La lechuga fresca debe almacenarse en el refrigerador envuelta en toallas de papel para absorber el exceso de humedad mientras mantiene la humedad. Esto previene el marchitamiento mientras evita la putrefacción que puede ocurrir por demasiada humedad. La temperatura fría también ayuda a preservar la textura crujiente.",
-          de: "Frischer Kopfsalat sollte im Kühlschrank in Papiertücher eingewickelt gelagert werden, um überschüssige Feuchtigkeit zu absorbieren und gleichzeitig die Luftfeuchtigkeit zu erhalten. Dies verhindert das Welken und vermeidet die Fäulnis, die durch zu viel Feuchtigkeit entstehen kann. Die kühle Temperatur hilft auch, die Knackigkeit zu bewahren.",
-          nl: "Verse sla moet in de koelkast bewaard worden gewikkeld in papieren handdoeken om overtollig vocht te absorberen terwijl de vochtigheid behouden blijft. Dit voorkomt verwelking en vermijdt het bederf dat kan optreden door te veel vocht. De koele temperatuur helpt ook de knapperigheid te behouden."
-        }
-      },
-      {
-        question: {
-          en: "Which of these nuts is most commonly added to salads?",
-          es: "¿Cuál de estas nueces se agrega más comúnmente a las ensaladas?",
-          de: "Welche dieser Nüsse wird am häufigsten zu Salaten hinzugefügt?",
-          nl: "Welke van deze noten wordt het meest toegevoegd aan salades?"
-        },
-        options: [
-          { en: "Brazil nuts", es: "Nueces de Brasil", de: "Paranüsse", nl: "Paranoten" },
-          { en: "Walnuts", es: "Nueces", de: "Walnüsse", nl: "Walnoten" },
-          { en: "Macadamia nuts", es: "Nueces de macadamia", de: "Macadamianüsse", nl: "Macadamianoten" },
-          { en: "Chestnuts", es: "Castañas", de: "Kastanien", nl: "Kastanjes" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Walnuts are the most commonly used nuts in salads due to their mild flavor, pleasant crunch, and availability. They pair well with both sweet and savory ingredients and are particularly popular in green salads with fruits and cheese.",
-          es: "Las nueces son las nueces más comúnmente usadas en ensaladas debido a su sabor suave, textura crujiente agradable y disponibilidad. Se combinan bien con ingredientes dulces y salados y son particularmente populares en ensaladas verdes con frutas y queso.",
-          de: "Walnüsse sind die am häufigsten verwendeten Nüsse in Salaten aufgrund ihres milden Geschmacks, angenehmen Knirschen und Verfügbarkeit. Sie passen gut zu süßen und herzhaften Zutaten und sind besonders beliebt in grünen Salaten mit Früchten und Käse.",
-          nl: "Walnoten zijn de meest gebruikte noten in salades vanwege hun milde smaak, aangename knapperigheid en beschikbaarheid. Ze passen goed bij zowel zoete als hartige ingrediënten en zijn bijzonder populair in groene salades met fruit en kaas."
-        }
-      },
-      {
-        question: {
-          en: "What is the main function of oil in a salad dressing?",
-          es: "¿Cuál es la función principal del aceite en un aderezo para ensalada?",
-          de: "Was ist die Hauptfunktion von Öl in einem Salatdressing?",
-          nl: "Wat is de hoofdfunctie van olie in een saladedressing?"
-        },
-        options: [
-          { en: "To add sweetness", es: "Para agregar dulzura", de: "Um Süße hinzuzufügen", nl: "Om zoetheid toe te voegen" },
-          { en: "To provide body, richness, and help coat the salad ingredients", es: "Para proporcionar cuerpo, riqueza y ayudar a cubrir los ingredientes de la ensalada", de: "Um Körper und Reichhaltigkeit zu bieten und zu helfen, die Salatzutaten zu umhüllen", nl: "Om body, rijkheid te bieden en te helpen de salade-ingrediënten te bedekken" },
-          { en: "To make the salad crunchy", es: "Para hacer la ensalada crujiente", de: "Um den Salat knackig zu machen", nl: "Om de salade knapperig te maken" },
-          { en: "To preserve the vegetables", es: "Para conservar las verduras", de: "Um das Gemüse zu konservieren", nl: "Om de groenten te conserveren" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Oil in salad dressing provides body and richness while helping to coat and distribute flavors evenly across all salad ingredients. It also helps the dressing adhere to the leaves and vegetables, ensuring each bite is properly seasoned.",
-          es: "El aceite en el aderezo para ensalada proporciona cuerpo y riqueza mientras ayuda a cubrir y distribuir sabores uniformemente en todos los ingredientes de la ensalada. También ayuda a que el aderezo se adhiera a las hojas y verduras, asegurando que cada bocado esté apropiadamente sazonado.",
-          de: "Öl im Salatdressing bietet Körper und Reichhaltigkeit und hilft dabei, Geschmäcker gleichmäßig über alle Salatzutaten zu umhüllen und zu verteilen. Es hilft auch dabei, dass das Dressing an den Blättern und Gemüse haftet und gewährleistet, dass jeder Bissen richtig gewürzt ist.",
-          nl: "Olie in saladedressing biedt body en rijkheid terwijl het helpt om smaken gelijkmatig over alle salade-ingrediënten te bedekken en te verdelen. Het helpt ook de dressing te laten hechten aan de bladeren en groenten, waardoor elke hap goed op smaak is."
-        }
-      },
-      {
-        question: {
-          en: "Which cheese is most commonly used in Caesar salad?",
-          es: "¿Qué queso se usa más comúnmente en la ensalada César?",
-          de: "Welcher Käse wird am häufigsten in Caesar-Salat verwendet?",
-          nl: "Welke kaas wordt het meest gebruikt in Caesar salade?"
-        },
-        options: [
-          { en: "Cheddar", es: "Cheddar", de: "Cheddar", nl: "Cheddar" },
-          { en: "Mozzarella", es: "Mozzarella", de: "Mozzarella", nl: "Mozzarella" },
-          { en: "Parmesan", es: "Parmesano", de: "Parmesan", nl: "Parmezaan" },
-          { en: "Swiss", es: "Suizo", de: "Schweizer", nl: "Zwitserse kaas" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Parmesan cheese is the traditional and most commonly used cheese in Caesar salad. It's typically grated fresh over the salad, providing a sharp, nutty flavor that complements the garlic, anchovies, and lemon in the classic Caesar dressing.",
-          es: "El queso parmesano es el queso tradicional y más comúnmente usado en la ensalada César. Típicamente se ralla fresco sobre la ensalada, proporcionando un sabor fuerte y a nuez que complementa el ajo, anchoas y limón en el aderezo César clásico.",
-          de: "Parmesan-Käse ist der traditionelle und am häufigsten verwendete Käse in Caesar-Salat. Er wird typischerweise frisch über den Salat gerieben und bietet einen scharfen, nussigen Geschmack, der den Knoblauch, die Sardellen und die Zitrone im klassischen Caesar-Dressing ergänzt.",
-          nl: "Parmezaanse kaas is de traditionele en meest gebruikte kaas in Caesar salade. Het wordt meestal vers over de salade geraspt en biedt een scherpe, nootachtige smaak die de knoflook, ansjovis en citroen in de klassieke Caesar dressing aanvult."
-        }
-      },
-      {
-        question: {
-          en: "What is the purpose of salt in salad preparation?",
-          es: "¿Cuál es el propósito de la sal en la preparación de ensaladas?",
-          de: "Was ist der Zweck von Salz bei der Salatzubereitung?",
-          nl: "Wat is het doel van zout bij saladebereiding?"
-        },
-        options: [
-          { en: "To enhance flavors and draw out moisture from vegetables", es: "Para realzar sabores y extraer humedad de las verduras", de: "Um Geschmäcker zu verstärken und Feuchtigkeit aus Gemüse zu ziehen", nl: "Om smaken te versterken en vocht uit groenten te trekken" },
-          { en: "To make vegetables grow larger", es: "Para hacer que las verduras crezcan más grandes", de: "Um Gemüse größer wachsen zu lassen", nl: "Om groenten groter te laten groeien" },
-          { en: "To change the color of vegetables", es: "Para cambiar el color de las verduras", de: "Um die Farbe von Gemüse zu ändern", nl: "Om de kleur van groenten te veranderen" },
-          { en: "To make the salad last longer", es: "Para hacer que la ensalada dure más tiempo", de: "Um den Salat länger haltbar zu machen", nl: "Om de salade langer te laten meegaan" }
+          { en: "Imitation crab meat", es: "Carne de cangrejo imitación", de: "Imitiertes Krabbenfleisch", nl: "Imitatie krabvlees" },
+          { en: "Fish sauce", es: "Salsa de pescado", de: "Fischsauce", nl: "Vissaus" },
+          { en: "Caviar", es: "Caviar", de: "Kaviar", nl: "Kaviaar" },
+          { en: "Smoked salmon", es: "Salmón ahumado", de: "Räucherlachs", nl: "Gerookte zalm" }
         ],
         correct: 0,
         explanation: {
-          en: "Salt serves two main purposes in salad preparation: it enhances and balances flavors of all ingredients, and it draws out excess moisture from vegetables through osmosis, which can help concentrate flavors and improve texture, especially in tomatoes and cucumbers.",
-          es: "La sal sirve dos propósitos principales en la preparación de ensaladas: realza y equilibra los sabores de todos los ingredientes, y extrae el exceso de humedad de las verduras a través de ósmosis, lo que puede ayudar a concentrar sabores y mejorar la textura, especialmente en tomates y pepinos.",
-          de: "Salz dient zwei Hauptzwecken bei der Salatzubereitung: es verstärkt und balanciert die Geschmäcker aller Zutaten, und es zieht überschüssige Feuchtigkeit aus Gemüse durch Osmose, was helfen kann, Geschmäcker zu konzentrieren und die Textur zu verbessern, besonders bei Tomaten und Gurken.",
-          nl: "Zout dient twee hoofddoelen bij saladebereiding: het versterkt en balanceert de smaken van alle ingrediënten, en het trekt overtollig vocht uit groenten door osmose, wat kan helpen smaken te concentreren en textuur te verbeteren, vooral bij tomaten en komkommers."
+          en: "Surimi is a paste made from deboned, washed, and minced fish that is commonly used to make imitation crab meat and other seafood products. It is typically flavored, shaped, and colored to resemble more expensive seafood.",
+          es: "El surimi es una pasta hecha de pescado deshuesado, lavado y picado que se usa comúnmente para hacer carne de cangrejo imitación y otros productos del mar. Típicamente se le da sabor, forma y color para parecerse a mariscos más caros.",
+          de: "Surimi ist eine Paste aus entgrätetem, gewaschenem und gehacktem Fisch, die üblicherweise zur Herstellung von imitiertem Krabbenfleisch und anderen Meeresfrüchteprodukten verwendet wird. Es wird typischerweise gewürzt, geformt und gefärbt, um teurere Meeresfrüchte nachzuahmen.",
+          nl: "Surimi is een pasta gemaakt van ontgraat, gewassen en gehakt vis die gewoonlijk wordt gebruikt om imitatie krabvlees en andere zeevruchten te maken. Het wordt typisch op smaak gebracht, gevormd en gekleurd om duurdere zeevruchten na te bootsen."
         }
       },
       {
         question: {
-          en: "Which vegetable is the main ingredient in coleslaw?",
-          es: "¿Qué verdura es el ingrediente principal en la ensalada de col?",
-          de: "Welches Gemüse ist die Hauptzutat in Krautsalat?",
-          nl: "Welke groente is het hoofdingrediënt in koolsalade?"
+          en: "What does the term 'deveining' refer to when preparing shrimp?",
+          es: "¿A qué se refiere el término 'desvenar' al preparar camarones?",
+          de: "Was bedeutet der Begriff 'Entdarmen' bei der Garnelenzubereitung?",
+          nl: "Waar verwijst de term 'ontdarmen' naar bij het bereiden van garnalen?"
         },
         options: [
-          { en: "Lettuce", es: "Lechuga", de: "Kopfsalat", nl: "Sla" },
-          { en: "Cabbage", es: "Col", de: "Kohl", nl: "Kool" },
-          { en: "Spinach", es: "Espinaca", de: "Spinat", nl: "Spinazie" },
-          { en: "Kale", es: "Col rizada", de: "Grünkohl", nl: "Boerenkool" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Cabbage is the main ingredient in coleslaw. The name 'coleslaw' comes from the Dutch 'koolsla,' which literally means 'cabbage salad.' Traditional coleslaw is made primarily from shredded cabbage mixed with a dressing, often mayonnaise-based.",
-          es: "La col es el ingrediente principal en la ensalada de col. El nombre 'coleslaw' viene del holandés 'koolsla,' que literalmente significa 'ensalada de col.' La ensalada de col tradicional se hace principalmente de col rallada mezclada con un aderezo, a menudo a base de mayonesa.",
-          de: "Kohl ist die Hauptzutat in Krautsalat. Der Name 'Coleslaw' stammt vom niederländischen 'koolsla,' was wörtlich 'Kohlsalat' bedeutet. Traditioneller Krautsalat wird hauptsächlich aus geriebenem Kohl gemacht, der mit einem Dressing, oft auf Mayonnaise-Basis, gemischt wird.",
-          nl: "Kool is het hoofdingrediënt in koolsalade. De naam 'coleslaw' komt van het Nederlandse 'koolsla,' wat letterlijk 'koolsalade' betekent. Traditionele koolsalade wordt voornamelijk gemaakt van geraspte kool gemengd met een dressing, vaak op mayonaise-basis."
-        }
-      },
-      {
-        question: {
-          en: "What does it mean to 'dress' a salad?",
-          es: "¿Qué significa 'aderezar' una ensalada?",
-          de: "Was bedeutet es, einen Salat zu 'anmachen'?",
-          nl: "Wat betekent het om een salade te 'aankleden'?"
-        },
-        options: [
-          { en: "To add dressing or sauce to coat the ingredients", es: "Agregar aderezo o salsa para cubrir los ingredientes", de: "Dressing oder Sauce hinzufügen, um die Zutaten zu umhüllen", nl: "Dressing of saus toevoegen om de ingrediënten te bedekken" },
-          { en: "To arrange the salad in a decorative way", es: "Organizar la ensalada de manera decorativa", de: "Den Salat dekorativ anzurichten", nl: "De salade op een decoratieve manier arrangeren" },
-          { en: "To remove unwanted parts from vegetables", es: "Quitar partes no deseadas de las verduras", de: "Unerwünschte Teile von Gemüse entfernen", nl: "Ongewenste delen van groenten verwijderen" },
-          { en: "To cook the salad ingredients", es: "Cocinar los ingredientes de la ensalada", de: "Die Salatzutaten kochen", nl: "De salade-ingrediënten koken" }
+          { en: "Removing the digestive tract", es: "Quitar el tracto digestivo", de: "Entfernen des Verdauungstrakts", nl: "Verwijderen van het spijsverteringskanaal" },
+          { en: "Removing the shell", es: "Quitar la cáscara", de: "Entfernen der Schale", nl: "Verwijderen van de schaal" },
+          { en: "Cutting off the tail", es: "Cortar la cola", de: "Abschneiden des Schwanzes", nl: "Afsnijden van de staart" },
+          { en: "Washing in cold water", es: "Lavar en agua fría", de: "Waschen in kaltem Wasser", nl: "Wassen in koud water" }
         ],
         correct: 0,
         explanation: {
-          en: "To 'dress' a salad means to add dressing, vinaigrette, or sauce to coat and flavor the salad ingredients. This should typically be done just before serving to prevent the greens from becoming soggy and to ensure optimal flavor distribution.",
-          es: "Aderezar una ensalada significa agregar aderezo, vinagreta o salsa para cubrir y dar sabor a los ingredientes de la ensalada. Esto típicamente debe hacerse justo antes de servir para prevenir que las hojas verdes se pongan blandas y asegurar una distribución óptima del sabor.",
-          de: "Einen Salat 'anmachen' bedeutet, Dressing, Vinaigrette oder Sauce hinzuzufügen, um die Salatzutaten zu umhüllen und zu würzen. Dies sollte typischerweise kurz vor dem Servieren geschehen, um zu verhindern, dass das Grünzeug matschig wird und um optimale Geschmacksverteilung zu gewährleisten.",
-          nl: "Een salade 'aankleden' betekent dressing, vinaigrette of saus toevoegen om de salade-ingrediënten te bedekken en op smaak te brengen. Dit moet meestal vlak voor het serveren gebeuren om te voorkomen dat de groenten slap worden en om optimale smaakverdeling te waarborgen."
+          en: "Deveining shrimp refers to removing the dark digestive tract that runs along the back of the shrimp. This is done for aesthetic reasons and to remove any grit or impurities, though it is safe to eat if left in.",
+          es: "Desvenar camarones se refiere a quitar el tracto digestivo oscuro que corre a lo largo del dorso del camarón. Esto se hace por razones estéticas y para eliminar cualquier arenilla o impurezas, aunque es seguro comer si se deja.",
+          de: "Garnelen entdarmen bezieht sich auf das Entfernen des dunklen Verdauungstrakts, der entlang des Rückens der Garnele verläuft. Dies wird aus ästhetischen Gründen und zum Entfernen von Schmutz oder Unreinheiten durchgeführt, obwohl es sicher zu essen ist, wenn es drin bleibt.",
+          nl: "Garnalen ontdarmen verwijst naar het verwijderen van het donkere spijsverteringskanaal dat langs de rug van de garnaal loopt. Dit wordt gedaan om esthetische redenen en om zand of onzuiverheden te verwijderen, hoewel het veilig is om te eten als het erin blijft."
         }
       },
       {
         question: {
-          en: "Which of these ingredients adds protein to a salad?",
-          es: "¿Cuál de estos ingredientes agrega proteína a una ensalada?",
-          de: "Welche dieser Zutaten fügt einem Salat Protein hinzu?",
-          nl: "Welke van deze ingrediënten voegt eiwit toe aan een salade?"
+          en: "Which type of oyster is considered best for eating raw?",
+          es: "¿Qué tipo de ostra se considera mejor para comer cruda?",
+          de: "Welche Austernart gilt als am besten zum rohen Verzehr?",
+          nl: "Welk type oester wordt als beste beschouwd om rauw te eten?"
         },
         options: [
-          { en: "Croutons", es: "Picatostes", de: "Croutons", nl: "Croutons" },
-          { en: "Hard-boiled eggs", es: "Huevos duros", de: "Hartgekochte Eier", nl: "Hardgekookte eieren" },
-          { en: "Olive oil", es: "Aceite de oliva", de: "Olivenöl", nl: "Olijfolie" },
-          { en: "Balsamic vinegar", es: "Vinagre balsámico", de: "Balsamico-Essig", nl: "Balsamico azijn" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Hard-boiled eggs are an excellent source of complete protein in salads, containing all essential amino acids. While croutons contain some protein from bread, eggs provide significantly more high-quality protein. Olive oil and balsamic vinegar are primarily fat and acid respectively.",
-          es: "Los huevos duros son una excelente fuente de proteína completa en ensaladas, conteniendo todos los aminoácidos esenciales. Aunque los picatostes contienen algo de proteína del pan, los huevos proporcionan significativamente más proteína de alta calidad. El aceite de oliva y el vinagre balsámico son principalmente grasa y ácido respectivamente.",
-          de: "Hartgekochte Eier sind eine ausgezeichnete Quelle für vollständiges Protein in Salaten und enthalten alle essentiellen Aminosäuren. Während Croutons etwas Protein aus Brot enthalten, bieten Eier deutlich mehr hochwertiges Protein. Olivenöl und Balsamico-Essig sind hauptsächlich Fett bzw. Säure.",
-          nl: "Hardgekookte eieren zijn een uitstekende bron van compleet eiwit in salades, met alle essentiële aminozuren. Hoewel croutons wat eiwit uit brood bevatten, bieden eieren aanzienlijk meer hoogwaardig eiwit. Olijfolie en balsamico azijn zijn respectievelijk voornamelijk vet en zuur."
-        }
-      },
-      {
-        question: {
-          en: "What is the best time to add salt to tomatoes in a salad?",
-          es: "¿Cuál es el mejor momento para agregar sal a los tomates en una ensalada?",
-          de: "Wann ist der beste Zeitpunkt, um Salz zu Tomaten in einem Salat hinzuzufügen?",
-          nl: "Wat is het beste moment om zout toe te voegen aan tomaten in een salade?"
-        },
-        options: [
-          { en: "Right before serving", es: "Justo antes de servir", de: "Direkt vor dem Servieren", nl: "Vlak voor het serveren" },
-          { en: "10-15 minutes before serving to draw out juices", es: "10-15 minutos antes de servir para extraer jugos", de: "10-15 Minuten vor dem Servieren, um Säfte herauszuziehen", nl: "10-15 minuten voor het serveren om sappen eruit te trekken" },
-          { en: "Several hours ahead", es: "Varias horas antes", de: "Mehrere Stunden im Voraus", nl: "Enkele uren van tevoren" },
-          { en: "The day before", es: "El día anterior", de: "Am Tag zuvor", nl: "De dag ervoor" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Salting tomatoes 10-15 minutes before serving allows the salt to draw out some of the natural juices, which concentrates the tomato flavor and creates a light natural dressing that enhances the overall salad without making it too watery.",
-          es: "Salar los tomates 10-15 minutos antes de servir permite que la sal extraiga algunos de los jugos naturales, lo que concentra el sabor del tomate y crea un aderezo natural ligero que realza la ensalada general sin hacerla demasiado aguada.",
-          de: "Das Salzen von Tomaten 10-15 Minuten vor dem Servieren ermöglicht es dem Salz, einige der natürlichen Säfte herauszuziehen, was den Tomatengeschmack konzentriert und ein leichtes natürliches Dressing schafft, das den gesamten Salat verbessert, ohne ihn zu wässrig zu machen.",
-          nl: "Tomaten zouten 10-15 minuten voor het serveren zorgt ervoor dat het zout enkele natuurlijke sappen eruit trekt, wat de tomatensmaak concentreert en een lichte natuurlijke dressing creëert die de hele salade verbetert zonder deze te waterig te maken."
-        }
-      },
-      {
-        question: {
-          en: "Which leafy green has a slightly bitter, peppery taste?",
-          es: "¿Qué hoja verde tiene un sabor ligeramente amargo y picante?",
-          de: "Welches Blattgrün hat einen leicht bitteren, pfeffrigen Geschmack?",
-          nl: "Welke bladgroente heeft een licht bittere, peperige smaak?"
-        },
-        options: [
-          { en: "Iceberg lettuce", es: "Lechuga iceberg", de: "Eisbergsalat", nl: "IJsbergsla" },
-          { en: "Butter lettuce", es: "Lechuga mantequilla", de: "Buttersalat", nl: "Botersla" },
-          { en: "Arugula", es: "Rúcula", de: "Rucola", nl: "Rucola" },
-          { en: "Romaine lettuce", es: "Lechuga romana", de: "Römersalat", nl: "Romeinse sla" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Arugula (also called rocket) has a distinctive slightly bitter and peppery flavor that adds complexity to salads. Unlike mild lettuces, arugula's bold taste makes it popular in gourmet salads and as a garnish for its unique flavor profile.",
-          es: "La rúcula (también llamada rocket) tiene un sabor distintivo ligeramente amargo y picante que agrega complejidad a las ensaladas. A diferencia de las lechugas suaves, el sabor audaz de la rúcula la hace popular en ensaladas gourmet y como guarnición por su perfil de sabor único.",
-          de: "Rucola (auch Rocket genannt) hat einen charakteristischen leicht bitteren und pfeffrigen Geschmack, der Salaten Komplexität verleiht. Im Gegensatz zu milden Salaten macht Rucolas kräftiger Geschmack es beliebt in Gourmet-Salaten und als Garnierung für sein einzigartiges Geschmacksprofil.",
-          nl: "Rucola (ook wel rocket genoemd) heeft een kenmerkende licht bittere en peperige smaak die complexiteit toevoegt aan salades. In tegenstelling tot milde sla's maakt rucola's krachtige smaak het populair in gourmet salades en als garnering vanwege zijn unieke smaakprofiel."
-        }
-      },
-      {
-        question: {
-          en: "What is the main purpose of adding acid (like lemon juice or vinegar) to a salad?",
-          es: "¿Cuál es el propósito principal de agregar ácido (como jugo de limón o vinagre) a una ensalada?",
-          de: "Was ist der Hauptzweck, Säure (wie Zitronensaft oder Essig) zu einem Salat hinzuzufügen?",
-          nl: "Wat is het hoofddoel van het toevoegen van zuur (zoals citroensap of azijn) aan een salade?"
-        },
-        options: [
-          { en: "To balance flavors and brighten the taste", es: "Para equilibrar sabores y avivar el gusto", de: "Um Geschmäcker zu balancieren und den Geschmack zu beleben", nl: "Om smaken te balanceren en de smaak te verhelderen" },
-          { en: "To make the salad more filling", es: "Para hacer la ensalada más abundante", de: "Um den Salat sättigender zu machen", nl: "Om de salade meer verzadigend te maken" },
-          { en: "To change the color of vegetables", es: "Para cambiar el color de las verduras", de: "Um die Farbe von Gemüse zu ändern", nl: "Om de kleur van groenten te veranderen" },
-          { en: "To make the salad colder", es: "Para hacer la ensalada más fría", de: "Um den Salat kälter zu machen", nl: "Om de salade kouder te maken" }
+          { en: "Fresh, live oysters from clean waters", es: "Ostras frescas y vivas de aguas limpias", de: "Frische, lebende Austern aus sauberen Gewässern", nl: "Verse, levende oesters uit schoon water" },
+          { en: "Frozen oysters", es: "Ostras congeladas", de: "Gefrorene Austern", nl: "Bevroren oesters" },
+          { en: "Canned oysters", es: "Ostras enlatadas", de: "Austern aus der Dose", nl: "Oesters uit blik" },
+          { en: "Dried oysters", es: "Ostras secas", de: "Getrocknete Austern", nl: "Gedroogde oesters" }
         ],
         correct: 0,
         explanation: {
-          en: "Acid brightens and balances flavors in salads by providing contrast to rich ingredients like oils and cheese. It enhances the natural flavors of vegetables and helps create a well-rounded taste profile. Acid also helps preserve color in some vegetables and aids in nutrient absorption.",
-          es: "El ácido aviva y equilibra los sabores en las ensaladas proporcionando contraste a ingredientes ricos como aceites y queso. Realza los sabores naturales de las verduras y ayuda a crear un perfil de sabor bien equilibrado. El ácido también ayuda a preservar el color en algunas verduras y ayuda en la absorción de nutrientes.",
-          de: "Säure belebt und balanciert Geschmäcker in Salaten, indem sie Kontrast zu reichen Zutaten wie Ölen und Käse bietet. Sie verstärkt die natürlichen Geschmäcker von Gemüse und hilft, ein ausgewogenes Geschmacksprofil zu schaffen. Säure hilft auch, die Farbe einiger Gemüse zu bewahren und unterstützt die Nährstoffaufnahme.",
-          nl: "Zuur verheldert en balanceert smaken in salades door contrast te bieden met rijke ingrediënten zoals oliën en kaas. Het versterkt de natuurlijke smaken van groenten en helpt een goed afgerond smaakprofiel te creëren. Zuur helpt ook de kleur van sommige groenten te behouden en bevordert de opname van voedingsstoffen."
+          en: "Fresh, live oysters from clean, cold waters are best for eating raw. They should be alive when purchased, with tightly closed shells or shells that close when tapped. The meat should be plump and smell fresh like the ocean.",
+          es: "Las ostras frescas y vivas de aguas limpias y frías son mejores para comer crudas. Deben estar vivas cuando se compran, con conchas bien cerradas o conchas que se cierran al golpearlas. La carne debe ser carnosa y oler fresca como el océano.",
+          de: "Frische, lebende Austern aus sauberen, kalten Gewässern eignen sich am besten für den rohen Verzehr. Sie sollten beim Kauf lebendig sein, mit fest geschlossenen Schalen oder Schalen, die sich beim Klopfen schließen. Das Fleisch sollte prall sein und frisch nach Meer riechen.",
+          nl: "Verse, levende oesters uit schoon, koud water zijn het beste om rauw te eten. Ze moeten levend zijn bij aankoop, met strak gesloten schelpen of schelpen die sluiten wanneer erop getikt wordt. Het vlees moet vol zijn en fris ruiken naar de oceaan."
         }
       },
       {
         question: {
-          en: "Which tool is best for mixing a large salad without bruising delicate greens?",
-          es: "¿Qué herramienta es mejor para mezclar una ensalada grande sin magullar las hojas verdes delicadas?",
-          de: "Welches Werkzeug ist am besten zum Mischen eines großen Salats, ohne zarte Grüns zu beschädigen?",
-          nl: "Welk gereedschap is het best voor het mengen van een grote salade zonder delicate groenten te beschadigen?"
+          en: "What is the purpose of brining fish before smoking?",
+          es: "¿Cuál es el propósito de salar el pescado antes de ahumar?",
+          de: "Was ist der Zweck des Einpökelns von Fisch vor dem Räuchern?",
+          nl: "Wat is het doel van het pekelen van vis voor het roken?"
         },
         options: [
-          { en: "A fork", es: "Un tenedor", de: "Eine Gabel", nl: "Een vork" },
-          { en: "Salad tongs", es: "Pinzas para ensalada", de: "Salatzange", nl: "Saladetangen" },
-          { en: "A wooden spoon", es: "Una cuchara de madera", de: "Ein Holzlöffel", nl: "Een houten lepel" },
-          { en: "Your hands", es: "Tus manos", de: "Ihre Hände", nl: "Je handen" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Salad tongs are specifically designed for mixing salads gently and efficiently. They allow you to lift and toss ingredients without bruising delicate greens, provide good control for even distribution of dressing, and are long enough to reach all parts of a large salad bowl.",
-          es: "Las pinzas para ensalada están específicamente diseñadas para mezclar ensaladas suave y eficientemente. Te permiten levantar y mezclar ingredientes sin magullar hojas verdes delicadas, proporcionan buen control para distribución uniforme del aderezo, y son lo suficientemente largas para alcanzar todas las partes de un tazón grande de ensalada.",
-          de: "Salatzangen sind speziell zum sanften und effizienten Mischen von Salaten konzipiert. Sie ermöglichen es, Zutaten anzuheben und zu wenden, ohne zarte Grüns zu beschädigen, bieten gute Kontrolle für gleichmäßige Dressing-Verteilung und sind lang genug, um alle Teile einer großen Salatschüssel zu erreichen.",
-          nl: "Saladetangen zijn speciaal ontworpen voor het voorzichtig en efficiënt mengen van salades. Ze stellen je in staat ingrediënten op te tillen en te mengen zonder delicate groenten te beschadigen, bieden goede controle voor gelijkmatige verdeling van dressing, en zijn lang genoeg om alle delen van een grote saladeschaal te bereiken."
-        }
-      },
-      {
-        question: {
-          en: "What does 'blanching' vegetables mean in salad preparation?",
-          es: "¿Qué significa 'escaldar' verduras en la preparación de ensaladas?",
-          de: "Was bedeutet das 'Blanchieren' von Gemüse bei der Salatzubereitung?",
-          nl: "Wat betekent 'blancheren' van groenten bij saladebereiding?"
-        },
-        options: [
-          { en: "Briefly boiling then immediately cooling in ice water", es: "Hervir brevemente y luego enfriar inmediatamente en agua helada", de: "Kurz kochen und dann sofort in Eiswasser abkühlen", nl: "Kort koken en dan onmiddellijk afkoelen in ijswater" },
-          { en: "Soaking vegetables in salt water", es: "Remojar verduras en agua salada", de: "Gemüse in Salzwasser einweichen", nl: "Groenten weken in zout water" },
-          { en: "Cutting vegetables very thin", es: "Cortar verduras muy finamente", de: "Gemüse sehr dünn schneiden", nl: "Groenten heel dun snijden" },
-          { en: "Removing the color from vegetables", es: "Quitar el color de las verduras", de: "Die Farbe von Gemüse entfernen", nl: "De kleur van groenten verwijderen" }
+          { en: "To add flavor, preserve moisture, and firm up the texture", es: "Para agregar sabor, preservar la humedad y afirmar la textura", de: "Um Geschmack hinzuzufügen, Feuchtigkeit zu bewahren und die Textur zu festigen", nl: "Om smaak toe te voegen, vocht te behouden en de textuur te verstevigen" },
+          { en: "To change the color only", es: "Solo para cambiar el color", de: "Nur um die Farbe zu ändern", nl: "Alleen om de kleur te veranderen" },
+          { en: "To make the fish cook faster", es: "Para hacer que el pescado se cocine más rápido", de: "Damit der Fisch schneller gart", nl: "Om de vis sneller te laten koken" },
+          { en: "To remove all moisture", es: "Para eliminar toda la humedad", de: "Um alle Feuchtigkeit zu entfernen", nl: "Om al het vocht te verwijderen" }
         ],
         correct: 0,
         explanation: {
-          en: "Blanching involves briefly boiling vegetables for 1-3 minutes, then immediately plunging them into ice water to stop the cooking process. This technique preserves color, enhances flavor, and creates a tender-crisp texture perfect for salads while keeping vegetables safe to eat.",
-          es: "Escaldar involucra hervir brevemente las verduras por 1-3 minutos, luego sumergirlas inmediatamente en agua helada para detener el proceso de cocción. Esta técnica preserva el color, realza el sabor, y crea una textura tierna-crujiente perfecta para ensaladas mientras mantiene las verduras seguras para comer.",
-          de: "Blanchieren beinhaltet das kurze Kochen von Gemüse für 1-3 Minuten und das sofortige Eintauchen in Eiswasser, um den Kochprozess zu stoppen. Diese Technik bewahrt Farbe, verstärkt Geschmack und schafft eine zart-knackige Textur, die perfekt für Salate ist, während das Gemüse sicher zu essen bleibt.",
-          nl: "Blancheren houdt in dat groenten kort 1-3 minuten gekookt worden en dan onmiddellijk in ijswater gedompeld worden om het kookproces te stoppen. Deze techniek behoudt kleur, versterkt smaak en creëert een teder-knapperige textuur die perfect is voor salades terwijl groenten veilig blijven om te eten."
+          en: "Brining fish before smoking adds flavor through salt and seasonings, helps preserve moisture during the smoking process, and firms up the texture so the fish holds together better. It also creates a pellicle (a tacky surface) that helps smoke adhere.",
+          es: "Salar el pescado antes de ahumar agrega sabor a través de sal y condimentos, ayuda a preservar la humedad durante el proceso de ahumado, y afirma la textura para que el pescado se mantenga mejor junto. También crea una película (una superficie pegajosa) que ayuda a que el humo se adhiera.",
+          de: "Das Einpökeln von Fisch vor dem Räuchern fügt Geschmack durch Salz und Gewürze hinzu, hilft Feuchtigkeit während des Räucherprozesses zu bewahren und festigt die Textur, sodass der Fisch besser zusammenhält. Es erzeugt auch eine Pellicle (eine klebrige Oberfläche), die hilft, dass Rauch haftet.",
+          nl: "Het pekelen van vis voor het roken voegt smaak toe door zout en kruiden, helpt vocht te behouden tijdens het rookproces en verstevigt de textuur zodat de vis beter bij elkaar blijft. Het creëert ook een pellicle (een plakkerig oppervlak) dat helpt rook te laten hechten."
         }
       },
       {
         question: {
-          en: "What is the main difference between a green salad and a composed salad?",
-          es: "¿Cuál es la principal diferencia entre una ensalada verde y una ensalada compuesta?",
-          de: "Was ist der Hauptunterschied zwischen einem grünen Salat und einem komponierten Salat?",
-          nl: "Wat is het belangrijkste verschil tussen een groene salade en een samengestelde salade?"
+          en: "What is ceviche?",
+          es: "¿Qué es el ceviche?",
+          de: "Was ist Ceviche?",
+          nl: "Wat is ceviche?"
         },
         options: [
-          { en: "Green salads use only leafy greens, composed salads include various ingredients arranged together", es: "Las ensaladas verdes usan solo hojas verdes, las ensaladas compuestas incluyen varios ingredientes organizados juntos", de: "Grüne Salate verwenden nur Blattgrün, komponierte Salate enthalten verschiedene zusammen arrangierte Zutaten", nl: "Groene salades gebruiken alleen bladgroenten, samengestelde salades bevatten verschillende ingrediënten samen gerangschikt" },
-          { en: "Green salads are always cold, composed salads are warm", es: "Las ensaladas verdes siempre están frías, las ensaladas compuestas están calientes", de: "Grüne Salate sind immer kalt, komponierte Salate sind warm", nl: "Groene salades zijn altijd koud, samengestelde salades zijn warm" },
-          { en: "Green salads have dressing, composed salads don't", es: "Las ensaladas verdes tienen aderezo, las ensaladas compuestas no", de: "Grüne Salate haben Dressing, komponierte Salate nicht", nl: "Groene salades hebben dressing, samengestelde salades niet" },
-          { en: "There is no difference", es: "No hay diferencia", de: "Es gibt keinen Unterschied", nl: "Er is geen verschil" }
+          { en: "Raw fish 'cooked' by marinating in citrus juice", es: "Pescado crudo 'cocinado' marinando en jugo de cítricos", de: "Roher Fisch, der durch Marinieren in Zitronensaft 'gekocht' wird", nl: "Rauwe vis 'gekookt' door te marineren in citroensap" },
+          { en: "Fried fish in tomato sauce", es: "Pescado frito en salsa de tomate", de: "Gebratener Fisch in Tomatensauce", nl: "Gebakken vis in tomatensaus" },
+          { en: "Smoked fish salad", es: "Ensalada de pescado ahumado", de: "Geräucherter Fischsalat", nl: "Gerookte vissalade" },
+          { en: "Grilled whole fish", es: "Pescado entero a la parrilla", de: "Gegrillter ganzer Fisch", nl: "Gegrilde hele vis" }
         ],
         correct: 0,
         explanation: {
-          en: "Green salads primarily consist of leafy greens like lettuce, spinach, or arugula, while composed salads combine multiple ingredients like vegetables, proteins, fruits, nuts, and cheese arranged in an attractive presentation.",
-          es: "Las ensaladas verdes consisten principalmente en hojas verdes como lechuga, espinaca o rúcula, mientras que las ensaladas compuestas combinan múltiples ingredientes como verduras, proteínas, frutas, nueces y queso organizados en una presentación atractiva.",
-          de: "Grüne Salate bestehen hauptsächlich aus Blattgrün wie Kopfsalat, Spinat oder Rucola, während komponierte Salate mehrere Zutaten wie Gemüse, Proteine, Früchte, Nüsse und Käse in einer attraktiven Präsentation kombinieren.",
-          nl: "Groene salades bestaan voornamelijk uit bladgroenten zoals sla, spinazie of rucola, terwijl samengestelde salades meerdere ingrediënten zoals groenten, eiwitten, fruit, noten en kaas combineren in een aantrekkelijke presentatie."
+          en: "Ceviche is a Latin American dish of raw fish marinated in citrus juices, typically lime or lemon. The acid in the citrus denatures the proteins in the fish, effectively 'cooking' it without heat. It is often served with onions, cilantro, and chili peppers.",
+          es: "El ceviche es un plato latinoamericano de pescado crudo marinado en jugos de cítricos, típicamente lima o limón. El ácido en los cítricos desnaturaliza las proteínas en el pescado, efectivamente 'cocinándolo' sin calor. A menudo se sirve con cebollas, cilantro y chiles.",
+          de: "Ceviche ist ein lateinamerikanisches Gericht aus rohem Fisch, der in Zitrusäften, typischerweise Limette oder Zitrone, mariniert wird. Die Säure in den Zitrusfrüchten denaturiert die Proteine im Fisch und 'kocht' ihn effektiv ohne Hitze. Es wird oft mit Zwiebeln, Koriander und Chilischoten serviert.",
+          nl: "Ceviche is een Latijns-Amerikaans gerecht van rauwe vis gemarineerd in citroensappen, meestal limoen of citroen. Het zuur in de citrus denatureert de eiwitten in de vis, waardoor het effectief 'gekookt' wordt zonder warmte. Het wordt vaak geserveerd met uien, koriander en chilipepers."
+        }
+      },
+      {
+        question: {
+          en: "Which fish is traditionally used for British fish and chips?",
+          es: "¿Qué pescado se usa tradicionalmente para el fish and chips británico?",
+          de: "Welcher Fisch wird traditionell für britisches Fish and Chips verwendet?",
+          nl: "Welke vis wordt traditioneel gebruikt voor Britse fish and chips?"
+        },
+        options: [
+          { en: "Cod or haddock", es: "Bacalao o eglefino", de: "Kabeljau oder Schellfisch", nl: "Kabeljauw of schelvis" },
+          { en: "Salmon", es: "Salmón", de: "Lachs", nl: "Zalm" },
+          { en: "Tuna", es: "Atún", de: "Thunfisch", nl: "Tonijn" },
+          { en: "Trout", es: "Trucha", de: "Forelle", nl: "Forel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Traditional British fish and chips uses cod or haddock. These white fish have firm, flaky flesh that holds up well to deep frying in batter. Cod was historically the most popular, though haddock is also widely used, especially in Scotland.",
+          es: "El fish and chips británico tradicional usa bacalao o eglefino. Estos pescados blancos tienen carne firme y escamosa que resiste bien la fritura profunda en masa. El bacalao era históricamente el más popular, aunque el eglefino también se usa ampliamente, especialmente en Escocia.",
+          de: "Traditionelles britisches Fish and Chips verwendet Kabeljau oder Schellfisch. Diese Weißfische haben festes, schuppiges Fleisch, das dem Frittieren im Teig gut standhält. Kabeljau war historisch am beliebtesten, obwohl Schellfisch auch weit verbreitet ist, besonders in Schottland.",
+          nl: "Traditionele Britse fish and chips gebruikt kabeljauw of schelvis. Deze witte vis hebben stevig, schilferig vlees dat goed bestand is tegen frituren in beslag. Kabeljauw was historisch het meest populair, hoewel schelvis ook veel gebruikt wordt, vooral in Schotland."
+        }
+      },
+      {
+        question: {
+          en: "What is the black roe of sturgeon called?",
+          es: "¿Cómo se llama la hueva negra del esturión?",
+          de: "Wie heißt der schwarze Rogen des Störs?",
+          nl: "Hoe heet de zwarte kuit van de steur?"
+        },
+        options: [
+          { en: "Caviar", es: "Caviar", de: "Kaviar", nl: "Kaviaar" },
+          { en: "Tobiko", es: "Tobiko", de: "Tobiko", nl: "Tobiko" },
+          { en: "Masago", es: "Masago", de: "Masago", nl: "Masago" },
+          { en: "Ikura", es: "Ikura", de: "Ikura", nl: "Ikura" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Caviar is the salted roe (eggs) of sturgeon. True caviar comes specifically from sturgeon species like Beluga, Osetra, and Sevruga. It is considered a luxury delicacy and is prized for its delicate flavor and texture.",
+          es: "El caviar es la hueva salada (huevos) de esturión. El caviar verdadero proviene específicamente de especies de esturión como Beluga, Osetra y Sevruga. Se considera un manjar de lujo y es valorado por su delicado sabor y textura.",
+          de: "Kaviar ist der gesalzene Rogen (Eier) des Störs. Echter Kaviar stammt speziell von Störarten wie Beluga, Osetra und Sevruga. Er gilt als Luxusdelikatesse und wird für seinen zarten Geschmack und seine Textur geschätzt.",
+          nl: "Kaviaar is de gezouten kuit (eieren) van de steur. Echte kaviaar komt specifiek van steursoorten zoals Beluga, Osetra en Sevruga. Het wordt beschouwd als een luxe delicatesse en wordt gewaardeerd om zijn delicate smaak en textuur."
+        }
+      },
+      {
+        question: {
+          en: "How should fresh fish smell?",
+          es: "¿Cómo debe oler el pescado fresco?",
+          de: "Wie sollte frischer Fisch riechen?",
+          nl: "Hoe moet verse vis ruiken?"
+        },
+        options: [
+          { en: "Fresh and mild, like the ocean or seaweed", es: "Fresco y suave, como el océano o algas marinas", de: "Frisch und mild, wie das Meer oder Seetang", nl: "Fris en mild, zoals de oceaan of zeewier" },
+          { en: "Strongly fishy or ammonia-like", es: "Fuertemente a pescado o a amoníaco", de: "Stark fischig oder nach Ammoniak", nl: "Sterk visachtig of ammoniakachtig" },
+          { en: "Like rotten eggs", es: "Como huevos podridos", de: "Wie faule Eier", nl: "Zoals rotte eieren" },
+          { en: "Sour or acidic", es: "Agrio o ácido", de: "Sauer oder säuerlich", nl: "Zuur of zuurachtig" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Fresh fish should have a mild, ocean-like smell, similar to seaweed or a sea breeze. It should not smell strongly fishy, sour, or like ammonia. These unpleasant odors indicate the fish is not fresh or has begun to spoil.",
+          es: "El pescado fresco debe tener un olor suave, similar al océano, parecido a algas marinas o brisa marina. No debe oler fuertemente a pescado, agrio o a amoníaco. Estos olores desagradables indican que el pescado no está fresco o ha comenzado a descomponerse.",
+          de: "Frischer Fisch sollte einen milden, ozeanartigen Geruch haben, ähnlich wie Seetang oder eine Meeresbrise. Er sollte nicht stark fischig, sauer oder nach Ammoniak riechen. Diese unangenehmen Gerüche weisen darauf hin, dass der Fisch nicht frisch ist oder zu verderben begonnen hat.",
+          nl: "Verse vis moet een milde, oceaanachtige geur hebben, vergelijkbaar met zeewier of een zeebries. Het mag niet sterk visachtig, zuur of naar ammoniak ruiken. Deze onaangename geuren geven aan dat de vis niet vers is of begonnen is te bederven."
+        }
+      },
+      {
+        question: {
+          en: "What is the main characteristic of 'sashimi-grade' fish?",
+          es: "¿Cuál es la característica principal del pescado 'grado sashimi'?",
+          de: "Was ist das Hauptmerkmal von Fisch in 'Sashimi-Qualität'?",
+          nl: "Wat is het belangrijkste kenmerk van vis van 'sashimi-kwaliteit'?"
+        },
+        options: [
+          { en: "High quality and safe to eat raw", es: "Alta calidad y seguro para comer crudo", de: "Hohe Qualität und sicher roh zu essen", nl: "Hoge kwaliteit en veilig om rauw te eten" },
+          { en: "Must be cooked before eating", es: "Debe cocinarse antes de comer", de: "Muss vor dem Verzehr gekocht werden", nl: "Moet gekookt worden voor consumptie" },
+          { en: "Contains added preservatives", es: "Contiene conservantes añadidos", de: "Enthält zugesetzte Konservierungsstoffe", nl: "Bevat toegevoegde conserveringsmiddelen" },
+          { en: "Has been frozen for over a year", es: "Ha estado congelado por más de un año", de: "Wurde über ein Jahr lang eingefroren", nl: "Is langer dan een jaar ingevroren geweest" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sashimi-grade fish is of the highest quality and is safe to eat raw. It has been handled with extreme care, kept at proper temperatures, and typically flash-frozen to kill parasites. The term indicates freshness, quality handling, and safety for raw consumption.",
+          es: "El pescado grado sashimi es de la más alta calidad y es seguro para comer crudo. Ha sido manejado con extremo cuidado, mantenido a temperaturas apropiadas y típicamente congelado rápidamente para matar parásitos. El término indica frescura, manejo de calidad y seguridad para consumo crudo.",
+          de: "Fisch in Sashimi-Qualität ist von höchster Qualität und sicher roh zu essen. Er wurde mit äußerster Sorgfalt behandelt, bei richtigen Temperaturen gelagert und typischerweise schockgefroren, um Parasiten abzutöten. Der Begriff zeigt Frische, Qualitätsbehandlung und Sicherheit für rohen Verzehr an.",
+          nl: "Vis van sashimi-kwaliteit is van de hoogste kwaliteit en is veilig om rauw te eten. Het is met uiterste zorg behandeld, op de juiste temperaturen bewaard en meestal flash-frozen om parasieten te doden. De term duidt op versheid, kwaliteitsbehandeling en veiligheid voor rauw consumptie."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of scoring fish skin before cooking?",
+          es: "¿Cuál es el propósito de marcar la piel del pescado antes de cocinar?",
+          de: "Was ist der Zweck des Einritzens von Fischhaut vor dem Kochen?",
+          nl: "Wat is het doel van het inkerven van visvel voor het koken?"
+        },
+        options: [
+          { en: "To prevent curling and ensure even cooking", es: "Para prevenir que se enrolle y asegurar cocción uniforme", de: "Um Einrollen zu verhindern und gleichmäßiges Garen zu gewährleisten", nl: "Om krullen te voorkomen en gelijkmatig garen te waarborgen" },
+          { en: "To remove the scales", es: "Para quitar las escamas", de: "Um die Schuppen zu entfernen", nl: "Om de schubben te verwijderen" },
+          { en: "To add decorative patterns", es: "Para agregar patrones decorativos", de: "Um dekorative Muster hinzuzufügen", nl: "Om decoratieve patronen toe te voegen" },
+          { en: "To make the fish cook faster only", es: "Solo para hacer que el pescado se cocine más rápido", de: "Nur damit der Fisch schneller gart", nl: "Alleen om de vis sneller te laten koken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Scoring fish skin with shallow cuts prevents the fillet from curling up during cooking. As fish cooks, the skin contracts, which can cause curling. Scoring releases tension and allows the fillet to lay flat, ensuring even cooking and crispy skin.",
+          es: "Marcar la piel del pescado con cortes superficiales previene que el filete se enrolle durante la cocción. Mientras el pescado se cocina, la piel se contrae, lo que puede causar enrollamiento. Marcar libera tensión y permite que el filete se mantenga plano, asegurando cocción uniforme y piel crujiente.",
+          de: "Das Einritzen von Fischhaut mit flachen Schnitten verhindert, dass sich das Filet während des Garens zusammenrollt. Wenn Fisch gart, zieht sich die Haut zusammen, was Einrollen verursachen kann. Einritzen löst Spannung und ermöglicht, dass das Filet flach liegt, was gleichmäßiges Garen und knusprige Haut gewährleistet.",
+          nl: "Het inkerven van visvel met ondiepe sneden voorkomt dat het filet tijdens het koken opkrult. Wanneer vis kookt, trekt het vel samen, wat krullen kan veroorzaken. Inkerven geeft spanning vrij en zorgt ervoor dat het filet plat ligt, wat gelijkmatig garen en knapperig vel waarborgt."
+        }
+      },
+      {
+        question: {
+          en: "Which type of clam is commonly used in clam chowder?",
+          es: "¿Qué tipo de almeja se usa comúnmente en la sopa de almejas?",
+          de: "Welche Muschelart wird üblicherweise in Muschelsuppe verwendet?",
+          nl: "Welk type mossel wordt gewoonlijk gebruikt in mosselsoep?"
+        },
+        options: [
+          { en: "Quahog clams", es: "Almejas quahog", de: "Quahog-Muscheln", nl: "Quahog-mosselen" },
+          { en: "Razor clams", es: "Almejas navajas", de: "Scheidenmuscheln", nl: "Scheermessen" },
+          { en: "Giant clams", es: "Almejas gigantes", de: "Riesenmuscheln", nl: "Reuzenschelpen" },
+          { en: "Geoduck clams", es: "Almejas geoduck", de: "Geoduck-Muscheln", nl: "Geoduck-mosselen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Quahog clams (hard-shell clams) are traditionally used in New England clam chowder. These clams have a firm texture and sweet flavor that holds up well in the creamy soup. Smaller quahogs are called littlenecks and cherrystones.",
+          es: "Las almejas quahog (almejas de concha dura) se usan tradicionalmente en la sopa de almejas de Nueva Inglaterra. Estas almejas tienen una textura firme y sabor dulce que resiste bien en la sopa cremosa. Los quahogs más pequeños se llaman littlenecks y cherrystones.",
+          de: "Quahog-Muscheln (Hartschalenmuscheln) werden traditionell in der New England Muschelsuppe verwendet. Diese Muscheln haben eine feste Textur und süßen Geschmack, der in der cremigen Suppe gut standhält. Kleinere Quahogs werden Littlenecks und Cherrystones genannt.",
+          nl: "Quahog-mosselen (harde-schaal mosselen) worden traditioneel gebruikt in New England mosselsoep. Deze mosselen hebben een stevige textuur en zoete smaak die goed standhouden in de romige soep. Kleinere quahogs worden littlenecks en cherrystones genoemd."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between cold-smoked and hot-smoked salmon?",
+          es: "¿Cuál es la diferencia entre salmón ahumado en frío y salmón ahumado en caliente?",
+          de: "Was ist der Unterschied zwischen kaltgeräuchertem und heißgeräuchertem Lachs?",
+          nl: "Wat is het verschil tussen koudgerookte en heetgerookte zalm?"
+        },
+        options: [
+          { en: "Cold-smoked is silky and raw-like, hot-smoked is cooked and flaky", es: "El ahumado en frío es sedoso y similar a crudo, el ahumado en caliente está cocido y escamoso", de: "Kaltgeräucherter ist seidig und roh-ähnlich, heißgeräucherter ist gegart und schuppig", nl: "Koudgerookte is zijdeachtig en rauw-achtig, heetgerookte is gekookt en schilferig" },
+          { en: "Cold-smoked is always frozen, hot-smoked is fresh", es: "El ahumado en frío está siempre congelado, el ahumado en caliente es fresco", de: "Kaltgeräucherter ist immer gefroren, heißgeräucherter ist frisch", nl: "Koudgerookte is altijd bevroren, heetgerookte is vers" },
+          { en: "They taste exactly the same", es: "Saben exactamente igual", de: "Sie schmecken genau gleich", nl: "Ze smaken precies hetzelfde" },
+          { en: "Cold-smoked uses ice, hot-smoked uses fire", es: "El ahumado en frío usa hielo, el ahumado en caliente usa fuego", de: "Kaltgeräucherter nutzt Eis, heißgeräucherter nutzt Feuer", nl: "Koudgerookte gebruikt ijs, heetgerookte gebruikt vuur" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cold-smoked salmon is cured and smoked at low temperatures (below 90°F), resulting in a silky, raw-like texture similar to lox. Hot-smoked salmon is smoked at higher temperatures (above 120°F), which cooks the fish, giving it a flaky, cooked texture.",
+          es: "El salmón ahumado en frío se cura y ahúma a bajas temperaturas (bajo 90°F), resultando en una textura sedosa y similar a crudo parecida al lox. El salmón ahumado en caliente se ahúma a temperaturas más altas (sobre 120°F), lo que cocina el pescado, dándole una textura escamosa y cocida.",
+          de: "Kaltgeräucherter Lachs wird bei niedrigen Temperaturen (unter 32°C) gepökelt und geräuchert, was zu einer seidigen, roh-ähnlichen Textur ähnlich wie Lox führt. Heißgeräucherter Lachs wird bei höheren Temperaturen (über 49°C) geräuchert, was den Fisch gart und ihm eine schuppige, gegarte Textur gibt.",
+          nl: "Koudgerookte zalm wordt gezouten en gerookt op lage temperaturen (onder 32°C), wat resulteert in een zijdeachtige, rauw-achtige textuur vergelijkbaar met lox. Heetgerookte zalm wordt gerookt op hogere temperaturen (boven 49°C), wat de vis kookt en het een schilferige, gekookte textuur geeft."
+        }
+      },
+      {
+        question: {
+          en: "What is the white substance that appears on cooked salmon?",
+          es: "¿Qué es la sustancia blanca que aparece en el salmón cocido?",
+          de: "Was ist die weiße Substanz, die auf gekochtem Lachs erscheint?",
+          nl: "Wat is de witte substantie die verschijnt op gekookte zalm?"
+        },
+        options: [
+          { en: "Albumin, a harmless protein", es: "Albúmina, una proteína inofensiva", de: "Albumin, ein harmloses Protein", nl: "Albumine, een onschadelijk eiwit" },
+          { en: "Fat", es: "Grasa", de: "Fett", nl: "Vet" },
+          { en: "Bacteria", es: "Bacterias", de: "Bakterien", nl: "Bacteriën" },
+          { en: "Parasites", es: "Parásitos", de: "Parasiten", nl: "Parasieten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The white substance is albumin, a protein naturally present in salmon that coagulates when heated. It is completely harmless and safe to eat. Cooking salmon gently at lower temperatures helps minimize albumin appearance.",
+          es: "La sustancia blanca es albúmina, una proteína naturalmente presente en el salmón que se coagula al calentarse. Es completamente inofensiva y segura para comer. Cocinar el salmón suavemente a temperaturas más bajas ayuda a minimizar la aparición de albúmina.",
+          de: "Die weiße Substanz ist Albumin, ein Protein, das natürlich im Lachs vorkommt und beim Erhitzen gerinnt. Es ist völlig harmlos und sicher zu essen. Das sanfte Garen von Lachs bei niedrigeren Temperaturen hilft, das Auftreten von Albumin zu minimieren.",
+          nl: "De witte substantie is albumine, een eiwit dat natuurlijk aanwezig is in zalm en dat stolt bij verhitting. Het is volledig onschadelijk en veilig om te eten. Zalm voorzichtig koken op lagere temperaturen helpt het verschijnen van albumine te minimaliseren."
+        }
+      },
+      {
+        question: {
+          en: "Which crustacean has a flat body and walks sideways?",
+          es: "¿Qué crustáceo tiene un cuerpo plano y camina de lado?",
+          de: "Welches Krustentier hat einen flachen Körper und läuft seitwärts?",
+          nl: "Welk schaaldier heeft een plat lichaam en loopt zijwaarts?"
+        },
+        options: [
+          { en: "Crab", es: "Cangrejo", de: "Krabbe", nl: "Krab" },
+          { en: "Lobster", es: "Langosta", de: "Hummer", nl: "Kreeft" },
+          { en: "Shrimp", es: "Camarón", de: "Garnele", nl: "Garnaal" },
+          { en: "Crayfish", es: "Cangrejo de río", de: "Flusskrebs", nl: "Rivierkreeft" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Crabs have a flat, wide body and are famous for their sideways walking motion. Their legs are positioned in a way that makes sideways movement more efficient than forward movement. This unique locomotion is a distinctive characteristic of crabs.",
+          es: "Los cangrejos tienen un cuerpo plano y ancho y son famosos por su movimiento de caminar de lado. Sus patas están posicionadas de manera que el movimiento lateral es más eficiente que el movimiento hacia adelante. Esta locomoción única es una característica distintiva de los cangrejos.",
+          de: "Krabben haben einen flachen, breiten Körper und sind berühmt für ihre seitwärts laufende Bewegung. Ihre Beine sind so positioniert, dass seitwärts Bewegung effizienter ist als Vorwärtsbewegung. Diese einzigartige Fortbewegung ist ein charakteristisches Merkmal von Krabben.",
+          nl: "Krabben hebben een plat, breed lichaam en staan bekend om hun zijwaartse loop. Hun poten zijn zo gepositioneerd dat zijwaartse beweging efficiënter is dan voorwaartse beweging. Deze unieke voortbeweging is een kenmerkend kenmerk van krabben."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of the lemon wedge traditionally served with seafood?",
+          es: "¿Cuál es el propósito de la rodaja de limón tradicionalmente servida con mariscos?",
+          de: "Was ist der Zweck des Zitronenschnittchens, das traditionell mit Meeresfrüchten serviert wird?",
+          nl: "Wat is het doel van het citroenpartje dat traditioneel bij zeevruchten wordt geserveerd?"
+        },
+        options: [
+          { en: "To enhance flavor and cut through richness", es: "Para realzar el sabor y cortar la riqueza", de: "Um den Geschmack zu verbessern und Reichhaltigkeit zu durchbrechen", nl: "Om smaak te verbeteren en rijkheid te doorbreken" },
+          { en: "Only for decoration", es: "Solo para decoración", de: "Nur zur Dekoration", nl: "Alleen voor decoratie" },
+          { en: "To preserve the food", es: "Para preservar la comida", de: "Um das Essen zu konservieren", nl: "Om het voedsel te conserveren" },
+          { en: "To kill bacteria on the plate", es: "Para matar bacterias en el plato", de: "Um Bakterien auf dem Teller zu töten", nl: "Om bacteriën op het bord te doden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Lemon wedges enhance the natural flavors of seafood and provide acidity that cuts through richness and oils. The citrus also helps mask any overly fishy flavors. Additionally, lemon has antibacterial properties and aids in digestion.",
+          es: "Las rodajas de limón realzan los sabores naturales de los mariscos y proporcionan acidez que corta la riqueza y los aceites. Los cítricos también ayudan a enmascarar cualquier sabor excesivamente a pescado. Además, el limón tiene propiedades antibacterianas y ayuda en la digestión.",
+          de: "Zitronenschnittchen verbessern die natürlichen Geschmäcker von Meeresfrüchten und bieten Säure, die Reichhaltigkeit und Öle durchbricht. Die Zitrusfrüchte helfen auch, zu fischige Geschmäcker zu maskieren. Zusätzlich hat Zitrone antibakterielle Eigenschaften und unterstützt die Verdauung.",
+          nl: "Citroenpartjes verbeteren de natuurlijke smaken van zeevruchten en bieden zuurheid die rijkheid en oliën doorbreekt. De citrus helpt ook om overdreven visachtige smaken te maskeren. Bovendien heeft citroen antibacteriële eigenschappen en helpt bij de spijsvertering."
+        }
+      },
+      {
+        question: {
+          en: "Which fish is commonly preserved by salting and drying to make bacalao?",
+          es: "¿Qué pescado se preserva comúnmente salando y secando para hacer bacalao?",
+          de: "Welcher Fisch wird üblicherweise durch Salzen und Trocknen konserviert, um Bacalao herzustellen?",
+          nl: "Welke vis wordt gewoonlijk geconserveerd door zouten en drogen om bacalao te maken?"
+        },
+        options: [
+          { en: "Cod", es: "Bacalao", de: "Kabeljau", nl: "Kabeljauw" },
+          { en: "Salmon", es: "Salmón", de: "Lachs", nl: "Zalm" },
+          { en: "Tuna", es: "Atún", de: "Thunfisch", nl: "Tonijn" },
+          { en: "Mackerel", es: "Caballa", de: "Makrele", nl: "Makreel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bacalao is salt cod, made by heavily salting and drying cod fish. This preservation method has been used for centuries and is popular in Mediterranean, Caribbean, and Latin American cuisines. The dried fish must be rehydrated before cooking.",
+          es: "El bacalao es bacalao salado, hecho salando fuertemente y secando el pescado bacalao. Este método de preservación se ha usado durante siglos y es popular en las cocinas mediterránea, caribeña y latinoamericana. El pescado seco debe rehidratarse antes de cocinar.",
+          de: "Bacalao ist Salzfisch, hergestellt durch starkes Salzen und Trocknen von Kabeljau. Diese Konservierungsmethode wird seit Jahrhunderten verwendet und ist in mediterranen, karibischen und lateinamerikanischen Küchen beliebt. Der getrocknete Fisch muss vor dem Kochen rehydriert werden.",
+          nl: "Bacalao is gezouten kabeljauw, gemaakt door kabeljauw zwaar te zouten en te drogen. Deze conserveringsmethode wordt al eeuwenlang gebruikt en is populair in mediterrane, Caribische en Latijns-Amerikaanse keukens. De gedroogde vis moet gehydrateerd worden voor het koken."
+        }
+      },
+      {
+        question: {
+          en: "What is the correct internal temperature for safely cooked fish?",
+          es: "¿Cuál es la temperatura interna correcta para pescado cocido de forma segura?",
+          de: "Was ist die richtige Kerntemperatur für sicher gegarten Fisch?",
+          nl: "Wat is de juiste kerntemperatuur voor veilig gekookte vis?"
+        },
+        options: [
+          { en: "145°F (63°C)", es: "145°F (63°C)", de: "63°C (145°F)", nl: "63°C (145°F)" },
+          { en: "120°F (49°C)", es: "120°F (49°C)", de: "49°C (120°F)", nl: "49°C (120°F)" },
+          { en: "180°F (82°C)", es: "180°F (82°C)", de: "82°C (180°F)", nl: "82°C (180°F)" },
+          { en: "200°F (93°C)", es: "200°F (93°C)", de: "93°C (200°F)", nl: "93°C (200°F)" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The FDA recommends cooking fish to an internal temperature of 145°F (63°C). At this temperature, the flesh becomes opaque and separates easily with a fork. The fish should be cooked until it flakes easily and is no longer translucent.",
+          es: "La FDA recomienda cocinar el pescado a una temperatura interna de 145°F (63°C). A esta temperatura, la carne se vuelve opaca y se separa fácilmente con un tenedor. El pescado debe cocinarse hasta que se deshaga fácilmente y ya no sea translúcido.",
+          de: "Die FDA empfiehlt, Fisch auf eine Kerntemperatur von 63°C (145°F) zu garen. Bei dieser Temperatur wird das Fleisch undurchsichtig und lässt sich leicht mit einer Gabel trennen. Der Fisch sollte gegart werden, bis er leicht auseinanderfällt und nicht mehr durchscheinend ist.",
+          nl: "De FDA beveelt aan vis te koken tot een kerntemperatuur van 63°C (145°F). Op deze temperatuur wordt het vlees ondoorzichtig en scheidt gemakkelijk met een vork. De vis moet gekookt worden totdat het gemakkelijk uit elkaar valt en niet langer doorschijnend is."
+        }
+      },
+      {
+        question: {
+          en: "What is the term for fish eggs used as food?",
+          es: "¿Cuál es el término para los huevos de pescado usados como comida?",
+          de: "Was ist der Begriff für Fischeier, die als Nahrung verwendet werden?",
+          nl: "Wat is de term voor viseieren die als voedsel worden gebruikt?"
+        },
+        options: [
+          { en: "Roe", es: "Hueva", de: "Rogen", nl: "Kuit" },
+          { en: "Spawn", es: "Desove", de: "Laich", nl: "Kuit leggen" },
+          { en: "Fry", es: "Alevines", de: "Brut", nl: "Broed" },
+          { en: "Scales", es: "Escamas", de: "Schuppen", nl: "Schubben" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Roe is the term for fish eggs that are used as food. Different types include caviar (sturgeon roe), ikura (salmon roe), tobiko (flying fish roe), and masago (capelin roe). Roe is prized for its unique texture and flavor.",
+          es: "Hueva es el término para los huevos de pescado que se usan como comida. Los diferentes tipos incluyen caviar (hueva de esturión), ikura (hueva de salmón), tobiko (hueva de pez volador) y masago (hueva de capelán). La hueva es valorada por su textura y sabor únicos.",
+          de: "Rogen ist der Begriff für Fischeier, die als Nahrung verwendet werden. Verschiedene Arten umfassen Kaviar (Störrogen), Ikura (Lachsrogen), Tobiko (Fliegenfischrogen) und Masago (Loddrogen). Rogen wird für seine einzigartige Textur und Geschmack geschätzt.",
+          nl: "Kuit is de term voor viseieren die als voedsel worden gebruikt. Verschillende soorten omvatten kaviaar (steurkuit), ikura (zalmkuit), tobiko (vliegende viskuit) en masago (lodde-kuit). Kuit wordt gewaardeerd om zijn unieke textuur en smaak."
+        }
+      },
+      {
+        question: {
+          en: "Which mollusk has eight arms and three hearts?",
+          es: "¿Qué molusco tiene ocho brazos y tres corazones?",
+          de: "Welches Weichtier hat acht Arme und drei Herzen?",
+          nl: "Welk weekdier heeft acht armen en drie harten?"
+        },
+        options: [
+          { en: "Octopus", es: "Pulpo", de: "Oktopus", nl: "Octopus" },
+          { en: "Squid", es: "Calamar", de: "Tintenfisch", nl: "Inktvis" },
+          { en: "Cuttlefish", es: "Sepia", de: "Sepia", nl: "Zeekat" },
+          { en: "Clam", es: "Almeja", de: "Muschel", nl: "Mossel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Octopuses have eight arms and three hearts - two pump blood to the gills, while one pumps blood to the rest of the body. They are highly intelligent cephalopods and are eaten in many cuisines worldwide, especially in Mediterranean and Asian cooking.",
+          es: "Los pulpos tienen ocho brazos y tres corazones: dos bombean sangre a las branquias, mientras que uno bombea sangre al resto del cuerpo. Son cefalópodos altamente inteligentes y se comen en muchas cocinas del mundo, especialmente en la cocina mediterránea y asiática.",
+          de: "Oktopusse haben acht Arme und drei Herzen - zwei pumpen Blut zu den Kiemen, während eines Blut zum Rest des Körpers pumpt. Sie sind hochintelligente Kopffüßer und werden in vielen Küchen weltweit gegessen, besonders in der mediterranen und asiatischen Küche.",
+          nl: "Octopussen hebben acht armen en drie harten - twee pompen bloed naar de kieuwen, terwijl één bloed naar de rest van het lichaam pompt. Ze zijn zeer intelligente koppotigen en worden in veel keukens wereldwijd gegeten, vooral in mediterrane en Aziatische kookkunst."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of a fish poacher?",
+          es: "¿Cuál es el propósito de una pescadera?",
+          de: "Was ist der Zweck eines Fischpöttchens?",
+          nl: "Wat is het doel van een vispan?"
+        },
+        options: [
+          { en: "To gently cook whole fish in simmering liquid", es: "Para cocinar suavemente pescado entero en líquido hirviendo a fuego lento", de: "Um ganzen Fisch sanft in siedender Flüssigkeit zu garen", nl: "Om hele vis voorzichtig te koken in zacht kokende vloeistof" },
+          { en: "To steal fish from the ocean", es: "Para robar pescado del océano", de: "Um Fisch aus dem Meer zu stehlen", nl: "Om vis uit de oceaan te stelen" },
+          { en: "To fry fish at high temperature", es: "Para freír pescado a alta temperatura", de: "Um Fisch bei hoher Temperatur zu braten", nl: "Om vis te bakken op hoge temperatuur" },
+          { en: "To smoke fish", es: "Para ahumar pescado", de: "Um Fisch zu räuchern", nl: "Om vis te roken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A fish poacher is a specialized cooking vessel designed for gently cooking whole fish in simmering liquid (court-bouillon). The elongated shape accommodates whole fish, and the removable rack makes it easy to lift out the cooked fish without breaking it.",
+          es: "Una pescadera es un recipiente de cocina especializado diseñado para cocinar suavemente pescado entero en líquido hirviendo a fuego lento (court-bouillon). La forma alargada acomoda el pescado entero, y la rejilla removible facilita levantar el pescado cocido sin romperlo.",
+          de: "Ein Fischpöttchen ist ein spezialisiertes Kochgefäß, das zum sanften Garen von ganzen Fischen in siedender Flüssigkeit (Court-bouillon) entwickelt wurde. Die längliche Form nimmt ganze Fische auf, und der herausnehmbare Rost erleichtert das Herausheben des gegarten Fisches, ohne ihn zu zerbrechen.",
+          nl: "Een vispan is een gespecialiseerd kookgerei ontworpen voor het voorzichtig koken van hele vis in zacht kokende vloeistof (court-bouillon). De langwerpige vorm past hele vis, en het verwijderbare rooster maakt het gemakkelijk om de gekookte vis eruit te tillen zonder het te breken."
+        }
+      },
+      {
+        question: {
+          en: "Which seafood is traditionally used in Spanish paella?",
+          es: "¿Qué marisco se usa tradicionalmente en la paella española?",
+          de: "Welche Meeresfrüchte werden traditionell in spanischer Paella verwendet?",
+          nl: "Welke zeevruchten worden traditioneel gebruikt in Spaanse paella?"
+        },
+        options: [
+          { en: "Mussels, shrimp, and sometimes squid", es: "Mejillones, camarones y a veces calamar", de: "Muscheln, Garnelen und manchmal Tintenfisch", nl: "Mosselen, garnalen en soms inktvis" },
+          { en: "Only lobster", es: "Solo langosta", de: "Nur Hummer", nl: "Alleen kreeft" },
+          { en: "Only oysters", es: "Solo ostras", de: "Nur Austern", nl: "Alleen oesters" },
+          { en: "No seafood is used in traditional paella", es: "No se usa marisco en la paella tradicional", de: "In traditioneller Paella werden keine Meeresfrüchte verwendet", nl: "Er worden geen zeevruchten gebruikt in traditionele paella" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Seafood paella (paella de marisco) traditionally includes mussels, shrimp, and often squid or other shellfish. However, the original Valencian paella contains rabbit, chicken, and beans but no seafood. Mixed paella combines meat and seafood.",
+          es: "La paella de marisco tradicionalmente incluye mejillones, camarones y a menudo calamar u otros mariscos. Sin embargo, la paella valenciana original contiene conejo, pollo y judías pero no marisco. La paella mixta combina carne y marisco.",
+          de: "Meeresfrüchte-Paella (Paella de Marisco) enthält traditionell Muscheln, Garnelen und oft Tintenfisch oder andere Schalentiere. Die ursprüngliche valencianische Paella enthält jedoch Kaninchen, Huhn und Bohnen, aber keine Meeresfrüchte. Gemischte Paella kombiniert Fleisch und Meeresfrüchte.",
+          nl: "Zeevruchten paella (paella de marisco) bevat traditioneel mosselen, garnalen en vaak inktvis of andere schaaldieren. De originele Valenciaanse paella bevat echter konijn, kip en bonen maar geen zeevruchten. Gemengde paella combineert vlees en zeevruchten."
+        }
+      },
+      {
+        question: {
+          en: "What does MSC certification on seafood indicate?",
+          es: "¿Qué indica la certificación MSC en mariscos?",
+          de: "Was zeigt die MSC-Zertifizierung auf Meeresfrüchten an?",
+          nl: "Wat geeft MSC-certificering op zeevruchten aan?"
+        },
+        options: [
+          { en: "The seafood is from sustainable, well-managed fisheries", es: "El marisco proviene de pesquerías sostenibles y bien gestionadas", de: "Die Meeresfrüchte stammen aus nachhaltigen, gut verwalteten Fischereien", nl: "De zeevruchten komen uit duurzame, goed beheerde visserijen" },
+          { en: "The seafood is frozen", es: "El marisco está congelado", de: "Die Meeresfrüchte sind gefroren", nl: "De zeevruchten zijn bevroren" },
+          { en: "The seafood contains additives", es: "El marisco contiene aditivos", de: "Die Meeresfrüchte enthalten Zusatzstoffe", nl: "De zeevruchten bevatten additieven" },
+          { en: "The seafood is farm-raised only", es: "El marisco es solo de cultivo", de: "Die Meeresfrüchte sind nur aus Aquakultur", nl: "De zeevruchten zijn alleen gekweekt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "MSC (Marine Stewardship Council) certification indicates that seafood comes from fisheries that meet strict sustainability standards, including healthy fish populations, minimal environmental impact, and effective management practices. It helps consumers choose environmentally responsible seafood.",
+          es: "La certificación MSC (Consejo de Administración Marina) indica que el marisco proviene de pesquerías que cumplen con estrictos estándares de sostenibilidad, incluyendo poblaciones de peces saludables, impacto ambiental mínimo y prácticas de gestión efectivas. Ayuda a los consumidores a elegir mariscos ambientalmente responsables.",
+          de: "Die MSC-Zertifizierung (Marine Stewardship Council) zeigt an, dass Meeresfrüchte aus Fischereien stammen, die strenge Nachhaltigkeitsstandards erfüllen, einschließlich gesunder Fischbestände, minimaler Umweltauswirkungen und effektiver Bewirtschaftungspraktiken. Sie hilft Verbrauchern, umweltverantwortliche Meeresfrüchte zu wählen.",
+          nl: "MSC-certificering (Marine Stewardship Council) geeft aan dat zeevruchten afkomstig zijn uit visserijen die voldoen aan strikte duurzaamheidsnormen, waaronder gezonde vispopulaties, minimale milieu-impact en effectieve beheerpraktijken. Het helpt consumenten om milieuvriendelijke zeevruchten te kiezen."
+        }
+      },
+      {
+        question: {
+          en: "Which part of the lobster contains the green substance called tomalley?",
+          es: "¿Qué parte de la langosta contiene la sustancia verde llamada tomalley?",
+          de: "Welcher Teil des Hummers enthält die grüne Substanz namens Tomalley?",
+          nl: "Welk deel van de kreeft bevat de groene substantie genaamd tomalley?"
+        },
+        options: [
+          { en: "The digestive gland (hepatopancreas)", es: "La glándula digestiva (hepatopáncreas)", de: "Die Verdauungsdrüse (Hepatopankreas)", nl: "De spijsverteringsklier (hepatopancreas)" },
+          { en: "The claws", es: "Las pinzas", de: "Die Scheren", nl: "De scharen" },
+          { en: "The tail", es: "La cola", de: "Der Schwanz", nl: "De staart" },
+          { en: "The shell", es: "La cáscara", de: "Die Schale", nl: "De schaal" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tomalley is the soft, green digestive gland (hepatopancreas) found in the body cavity of lobsters. Some consider it a delicacy for its rich, creamy texture and intense flavor, though health authorities sometimes advise limiting consumption due to potential toxins.",
+          es: "El tomalley es la glándula digestiva blanda y verde (hepatopáncreas) que se encuentra en la cavidad corporal de las langostas. Algunos lo consideran un manjar por su textura rica y cremosa y su sabor intenso, aunque las autoridades sanitarias a veces aconsejan limitar el consumo debido a posibles toxinas.",
+          de: "Tomalley ist die weiche, grüne Verdauungsdrüse (Hepatopankreas), die sich in der Körperhöhle von Hummern befindet. Einige betrachten es als Delikatesse wegen seiner reichen, cremigen Textur und intensiven Geschmacks, obwohl Gesundheitsbehörden manchmal raten, den Konsum wegen möglicher Toxine zu begrenzen.",
+          nl: "Tomalley is de zachte, groene spijsverteringsklier (hepatopancreas) die zich in de lichaamsholte van kreeften bevindt. Sommigen beschouwen het als een delicatesse vanwege zijn rijke, romige textuur en intense smaak, hoewel gezondheidsautoriteiten soms adviseren consumptie te beperken vanwege mogelijke toxines."
+        }
+      },
+      {
+        question: {
+          en: "What is the main difference between prawns and langoustines?",
+          es: "¿Cuál es la principal diferencia entre langostinos y cigalas?",
+          de: "Was ist der Hauptunterschied zwischen Riesengarnelen und Kaisergranat?",
+          nl: "Wat is het belangrijkste verschil tussen king prawns en langoustines?"
+        },
+        options: [
+          { en: "Langoustines have claws, prawns do not have prominent claws", es: "Las cigalas tienen pinzas, los langostinos no tienen pinzas prominentes", de: "Kaisergranat hat Scheren, Riesengarnelen haben keine ausgeprägten Scheren", nl: "Langoustines hebben scharen, king prawns hebben geen prominente scharen" },
+          { en: "Prawns are always larger", es: "Los langostinos son siempre más grandes", de: "Riesengarnelen sind immer größer", nl: "King prawns zijn altijd groter" },
+          { en: "They are the same species", es: "Son la misma especie", de: "Sie sind die gleiche Art", nl: "Ze zijn dezelfde soort" },
+          { en: "Langoustines live in freshwater only", es: "Las cigalas viven solo en agua dulce", de: "Kaisergranat lebt nur im Süßwasser", nl: "Langoustines leven alleen in zoetwater" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Langoustines (also called Norway lobsters or scampi) have prominent claws similar to small lobsters, while prawns lack these distinctive claws. Langoustines are more delicate in flavor and texture, and are typically more expensive than prawns.",
+          es: "Las cigalas (también llamadas langostinos de Noruega o scampi) tienen pinzas prominentes similares a pequeñas langostas, mientras que los langostinos carecen de estas pinzas distintivas. Las cigalas tienen un sabor y textura más delicados, y típicamente son más caras que los langostinos.",
+          de: "Kaisergranat (auch norwegischer Hummer oder Scampi genannt) haben ausgeprägte Scheren ähnlich wie kleine Hummer, während Riesengarnelen diese charakteristischen Scheren nicht haben. Kaisergranat ist zarter im Geschmack und in der Textur und ist typischerweise teurer als Riesengarnelen.",
+          nl: "Langoustines (ook wel Noorse kreeften of scampi genoemd) hebben prominente scharen vergelijkbaar met kleine kreeften, terwijl king prawns deze kenmerkende scharen missen. Langoustines zijn delicater in smaak en textuur, en zijn meestal duurder dan king prawns."
+        }
+      },
+      {
+        question: {
+          en: "What is the black line that runs along a shrimp's back?",
+          es: "¿Qué es la línea negra que corre a lo largo del dorso de un camarón?",
+          de: "Was ist die schwarze Linie, die entlang des Rückens einer Garnele verläuft?",
+          nl: "Wat is de zwarte lijn die langs de rug van een garnaal loopt?"
+        },
+        options: [
+          { en: "The intestinal tract", es: "El tracto intestinal", de: "Der Darmtrakt", nl: "Het darmkanaal" },
+          { en: "A blood vessel", es: "Un vaso sanguíneo", de: "Ein Blutgefäß", nl: "Een bloedvat" },
+          { en: "A nerve", es: "Un nervio", de: "Ein Nerv", nl: "Een zenuw" },
+          { en: "A muscle", es: "Un músculo", de: "Ein Muskel", nl: "Een spier" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The black line along a shrimp's back is the intestinal tract. While safe to eat, it is often removed (deveined) for aesthetic reasons and to eliminate any gritty texture or slightly bitter taste. Larger shrimp tend to have more noticeable veins.",
+          es: "La línea negra a lo largo del dorso de un camarón es el tracto intestinal. Aunque es seguro comerlo, a menudo se elimina (desvena) por razones estéticas y para eliminar cualquier textura arenosa o sabor ligeramente amargo. Los camarones más grandes tienden a tener venas más notorias.",
+          de: "Die schwarze Linie entlang des Rückens einer Garnele ist der Darmtrakt. Obwohl sicher zu essen, wird er oft aus ästhetischen Gründen entfernt (entdarmt) und um jegliche körnige Textur oder leicht bitteren Geschmack zu eliminieren. Größere Garnelen haben tendenziell auffälligere Adern.",
+          nl: "De zwarte lijn langs de rug van een garnaal is het darmkanaal. Hoewel veilig om te eten, wordt het vaak verwijderd (ontdarmd) om esthetische redenen en om een korrelige textuur of licht bittere smaak te elimineren. Grotere garnalen hebben meestal opvallendere aders."
+        }
+      },
+      {
+        question: {
+          en: "Which cooking method uses dry heat and is ideal for thick fish steaks?",
+          es: "¿Qué método de cocción usa calor seco y es ideal para filetes de pescado gruesos?",
+          de: "Welche Kochmethode nutzt trockene Hitze und ist ideal für dicke Fischsteaks?",
+          nl: "Welke kookmethode gebruikt droge hitte en is ideaal voor dikke vissteaks?"
+        },
+        options: [
+          { en: "Grilling", es: "Asar a la parrilla", de: "Grillen", nl: "Grillen" },
+          { en: "Poaching", es: "Escalfar", de: "Pochieren", nl: "Pocheren" },
+          { en: "Steaming", es: "Cocinar al vapor", de: "Dämpfen", nl: "Stomen" },
+          { en: "Boiling", es: "Hervir", de: "Kochen", nl: "Koken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Grilling uses dry, direct heat and is ideal for thick fish steaks like tuna, salmon, or swordfish that can withstand high temperatures. The method creates attractive grill marks and adds smoky flavor while keeping the interior moist.",
+          es: "Asar a la parrilla usa calor directo y seco y es ideal para filetes de pescado gruesos como atún, salmón o pez espada que pueden resistir altas temperaturas. El método crea atractivas marcas de parrilla y agrega sabor ahumado mientras mantiene el interior húmedo.",
+          de: "Grillen nutzt trockene, direkte Hitze und ist ideal für dicke Fischsteaks wie Thunfisch, Lachs oder Schwertfisch, die hohe Temperaturen aushalten können. Die Methode erzeugt attraktive Grillspuren und fügt rauchigen Geschmack hinzu, während das Innere saftig bleibt.",
+          nl: "Grillen gebruikt droge, directe hitte en is ideaal voor dikke vissteaks zoals tonijn, zalm of zwaardvis die hoge temperaturen aankunnen. De methode creëert aantrekkelijke grillstrepen en voegt rokerige smaak toe terwijl de binnenkant vochtig blijft."
+        }
+      },
+      {
+        question: {
+          en: "What is aquaculture?",
+          es: "¿Qué es la acuicultura?",
+          de: "Was ist Aquakultur?",
+          nl: "Wat is aquacultuur?"
+        },
+        options: [
+          { en: "Farming fish and other aquatic organisms", es: "Cultivo de peces y otros organismos acuáticos", de: "Zucht von Fisch und anderen Wasserorganismen", nl: "Kweken van vis en andere aquatische organismen" },
+          { en: "Catching wild fish", es: "Capturar peces salvajes", de: "Wildfische fangen", nl: "Vangen van wilde vis" },
+          { en: "Studying ocean currents", es: "Estudiar corrientes oceánicas", de: "Meeresströmungen studieren", nl: "Bestuderen van oceaanstromingen" },
+          { en: "Building underwater structures", es: "Construir estructuras submarinas", de: "Unterwasserstrukturen bauen", nl: "Bouwen van onderwaterstructuren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Aquaculture is the controlled farming of aquatic organisms including fish, shellfish, and aquatic plants. It is a rapidly growing industry that helps meet global seafood demand while potentially reducing pressure on wild fish populations.",
+          es: "La acuicultura es el cultivo controlado de organismos acuáticos incluyendo peces, mariscos y plantas acuáticas. Es una industria de rápido crecimiento que ayuda a satisfacer la demanda global de mariscos mientras potencialmente reduce la presión sobre las poblaciones de peces salvajes.",
+          de: "Aquakultur ist die kontrollierte Zucht von Wasserorganismen einschließlich Fisch, Schalentieren und Wasserpflanzen. Es ist eine schnell wachsende Industrie, die hilft, die globale Nachfrage nach Meeresfrüchten zu decken und gleichzeitig potenziell den Druck auf wilde Fischpopulationen reduziert.",
+          nl: "Aquacultuur is het gecontroleerd kweken van aquatische organismen inclusief vis, schaaldieren en waterplanten. Het is een snel groeiende industrie die helpt te voldoen aan de wereldwijde vraag naar zeevruchten terwijl mogelijk de druk op wilde vispopulaties vermindert."
+        }
+      },
+      {
+        question: {
+          en: "Which type of tuna is most commonly used for canned tuna?",
+          es: "¿Qué tipo de atún se usa más comúnmente para atún enlatado?",
+          de: "Welche Thunfischart wird am häufigsten für Thunfisch aus der Dose verwendet?",
+          nl: "Welk type tonijn wordt het meest gebruikt voor tonijn uit blik?"
+        },
+        options: [
+          { en: "Skipjack and albacore", es: "Bonito listado y albacora", de: "Echter Bonito und Weißer Thun", nl: "Gestreepte tonijn en witte tonijn" },
+          { en: "Only bluefin", es: "Solo atún rojo", de: "Nur Blauflossen-Thun", nl: "Alleen blauwvintonijn" },
+          { en: "Only yellowfin", es: "Solo atún aleta amarilla", de: "Nur Gelbflossen-Thun", nl: "Alleen geelvintonijn" },
+          { en: "Tuna is never canned", es: "El atún nunca se enlata", de: "Thunfisch wird nie konserviert", nl: "Tonijn wordt nooit ingeblikt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Canned tuna is most commonly made from skipjack (often labeled as 'chunk light') and albacore (labeled as 'white tuna'). Skipjack is more abundant and less expensive, while albacore has milder flavor and firmer texture but is pricier.",
+          es: "El atún enlatado se hace más comúnmente de bonito listado (a menudo etiquetado como 'troceado claro') y albacora (etiquetado como 'atún blanco'). El bonito listado es más abundante y menos costoso, mientras que la albacora tiene sabor más suave y textura más firme pero es más cara.",
+          de: "Thunfisch aus der Dose wird am häufigsten aus Echtem Bonito (oft als 'helle Stücke' gekennzeichnet) und Weißem Thun (als 'weißer Thunfisch' gekennzeichnet) hergestellt. Echter Bonito ist häufiger und weniger teuer, während Weißer Thun milderen Geschmack und festere Textur hat, aber teurer ist.",
+          nl: "Tonijn uit blik wordt meestal gemaakt van gestreepte tonijn (vaak gelabeld als 'lichte brokken') en witte tonijn (gelabeld als 'witte tonijn'). Gestreepte tonijn is overvloediger en goedkoper, terwijl witte tonijn een mildere smaak en stevigere textuur heeft maar duurder is."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of soaking dried fish before cooking?",
+          es: "¿Cuál es el propósito de remojar pescado seco antes de cocinar?",
+          de: "Was ist der Zweck des Einweichens von getrocknetem Fisch vor dem Kochen?",
+          nl: "Wat is het doel van het weken van gedroogde vis voor het koken?"
+        },
+        options: [
+          { en: "To rehydrate it and remove excess salt", es: "Para rehidratarlo y quitar el exceso de sal", de: "Um ihn zu rehydrieren und überschüssiges Salz zu entfernen", nl: "Om het te rehydrateren en overtollig zout te verwijderen" },
+          { en: "To make it spoil faster", es: "Para hacer que se eche a perder más rápido", de: "Damit es schneller verdirbt", nl: "Om het sneller te laten bederven" },
+          { en: "Only to add flavor", es: "Solo para agregar sabor", de: "Nur um Geschmack hinzuzufügen", nl: "Alleen om smaak toe te voegen" },
+          { en: "To change the color", es: "Para cambiar el color", de: "Um die Farbe zu ändern", nl: "Om de kleur te veranderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dried fish, especially salted varieties like bacalao, must be soaked in multiple changes of water to rehydrate the flesh and remove excess salt. This process can take 24-48 hours depending on the thickness of the fish and degree of salting.",
+          es: "El pescado seco, especialmente las variedades saladas como el bacalao, debe remojarse en varios cambios de agua para rehidratar la carne y eliminar el exceso de sal. Este proceso puede tomar 24-48 horas dependiendo del grosor del pescado y el grado de salado.",
+          de: "Getrockneter Fisch, besonders gesalzene Sorten wie Bacalao, muss in mehreren Wasserwechseln eingeweicht werden, um das Fleisch zu rehydrieren und überschüssiges Salz zu entfernen. Dieser Prozess kann 24-48 Stunden dauern, abhängig von der Dicke des Fisches und dem Grad des Salzens.",
+          nl: "Gedroogde vis, vooral gezouten variëteiten zoals bacalao, moet geweekt worden in meerdere vervangingen van water om het vlees te rehydrateren en overtollig zout te verwijderen. Dit proces kan 24-48 uur duren afhankelijk van de dikte van de vis en de mate van zouten."
+        }
+      },
+      {
+        question: {
+          en: "Which country is the world's largest consumer of seafood per capita?",
+          es: "¿Qué país es el mayor consumidor de mariscos per cápita del mundo?",
+          de: "Welches Land ist der weltgrößte Verbraucher von Meeresfrüchten pro Kopf?",
+          nl: "Welk land is 's werelds grootste verbruiker van zeevruchten per hoofd van de bevolking?"
+        },
+        options: [
+          { en: "Maldives or Iceland", es: "Maldivas o Islandia", de: "Malediven oder Island", nl: "Maldiven of IJsland" },
+          { en: "United States", es: "Estados Unidos", de: "Vereinigte Staaten", nl: "Verenigde Staten" },
+          { en: "Brazil", es: "Brasil", de: "Brasilien", nl: "Brazilië" },
+          { en: "Australia", es: "Australia", de: "Australien", nl: "Australië" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Maldives and Iceland consistently rank as having the highest seafood consumption per capita in the world, with over 80-90 kg per person annually. This is due to their island geography, fishing traditions, and limited agricultural land for other protein sources.",
+          es: "Las Maldivas e Islandia constantemente se clasifican como los países con mayor consumo de mariscos per cápita en el mundo, con más de 80-90 kg por persona anualmente. Esto se debe a su geografía insular, tradiciones pesqueras y tierra agrícola limitada para otras fuentes de proteína.",
+          de: "Die Malediven und Island rangieren regelmäßig als die Länder mit dem höchsten Meeresfrüchteverbrauch pro Kopf weltweit, mit über 80-90 kg pro Person jährlich. Dies ist auf ihre Inselgeographie, Fischereitraditionen und begrenzte landwirtschaftliche Flächen für andere Proteinquellen zurückzuführen.",
+          nl: "De Maldiven en IJsland scoren consistent als landen met het hoogste zeevruchtenconsumptie per hoofd van de bevolking ter wereld, met meer dan 80-90 kg per persoon jaarlijks. Dit is te wijten aan hun eilandgeografie, vistraditie en beperkte landbouwgrond voor andere eiwitbronnen."
+        }
+      },
+      {
+        question: {
+          en: "What is the culinary term for squid in Italian cuisine?",
+          es: "¿Cuál es el término culinario para calamar en la cocina italiana?",
+          de: "Was ist der kulinarische Begriff für Tintenfisch in der italienischen Küche?",
+          nl: "Wat is de culinaire term voor inktvis in de Italiaanse keuken?"
+        },
+        options: [
+          { en: "Calamari", es: "Calamari", de: "Calamari", nl: "Calamari" },
+          { en: "Polpo", es: "Polpo", de: "Polpo", nl: "Polpo" },
+          { en: "Gamberi", es: "Gamberi", de: "Gamberi", nl: "Gamberi" },
+          { en: "Cozze", es: "Cozze", de: "Cozze", nl: "Cozze" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Calamari is the Italian term for squid, which has been adopted internationally especially for fried squid rings. Other Italian seafood terms include polpo (octopus), gamberi (shrimp), and cozze (mussels).",
+          es: "Calamari es el término italiano para calamar, que ha sido adoptado internacionalmente especialmente para anillos de calamar fritos. Otros términos italianos de mariscos incluyen polpo (pulpo), gamberi (camarones) y cozze (mejillones).",
+          de: "Calamari ist der italienische Begriff für Tintenfisch, der international besonders für frittierte Tintenfischringe übernommen wurde. Andere italienische Meeresfrüchte-Begriffe umfassen Polpo (Oktopus), Gamberi (Garnelen) und Cozze (Muscheln).",
+          nl: "Calamari is de Italiaanse term voor inktvis, die internationaal is overgenomen, vooral voor gefrituurde inktvissringen. Andere Italiaanse zeevruchtentermen zijn polpo (octopus), gamberi (garnalen) en cozze (mosselen)."
+        }
+      },
+      {
+        question: {
+          en: "Which fish has a distinctive sword-like bill?",
+          es: "¿Qué pescado tiene un pico distintivo en forma de espada?",
+          de: "Welcher Fisch hat einen charakteristischen schwertähnlichen Schnabel?",
+          nl: "Welke vis heeft een kenmerkende zwaardachtige snuit?"
+        },
+        options: [
+          { en: "Swordfish", es: "Pez espada", de: "Schwertfisch", nl: "Zwaardvis" },
+          { en: "Salmon", es: "Salmón", de: "Lachs", nl: "Zalm" },
+          { en: "Cod", es: "Bacalao", de: "Kabeljau", nl: "Kabeljauw" },
+          { en: "Halibut", es: "Halibut", de: "Heilbutt", nl: "Heilbot" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Swordfish are named for their long, flat, pointed bill (rostrum) that resembles a sword. This bill is used for hunting by slashing at prey. Swordfish are prized for their firm, meaty texture and mild flavor, making them popular for grilling and steaks.",
+          es: "El pez espada se llama así por su pico largo, plano y puntiagudo (rostro) que se asemeja a una espada. Este pico se usa para cazar cortando a la presa. El pez espada es valorado por su textura firme y carnosa y sabor suave, haciéndolo popular para asar y filetes.",
+          de: "Schwertfisch ist nach seinem langen, flachen, spitzen Schnabel (Rostrum) benannt, der einem Schwert ähnelt. Dieser Schnabel wird zur Jagd verwendet, indem er auf Beute schlägt. Schwertfisch wird für seine feste, fleischige Textur und milden Geschmack geschätzt, was ihn für Grillen und Steaks beliebt macht.",
+          nl: "Zwaardvis is vernoemd naar zijn lange, platte, puntige snuit (rostrum) die op een zwaard lijkt. Deze snuit wordt gebruikt om te jagen door naar prooi te slaan. Zwaardvis wordt gewaardeerd om zijn stevige, vlezige textuur en milde smaak, waardoor het populair is voor grillen en steaks."
+        }
+      },
+      {
+        question: {
+          en: "What does 'en papillote' mean in seafood cooking?",
+          es: "¿Qué significa 'en papillote' en la cocción de mariscos?",
+          de: "Was bedeutet 'en papillote' beim Kochen von Meeresfrüchten?",
+          nl: "Wat betekent 'en papillote' bij het koken van zeevruchten?"
+        },
+        options: [
+          { en: "Cooking in a sealed parchment paper or foil packet", es: "Cocinar en un paquete sellado de papel pergamino o aluminio", de: "Kochen in einem versiegelten Pergamentpapier- oder Folienpaket", nl: "Koken in een verzegeld pakketje van bakpapier of folie" },
+          { en: "Deep frying in batter", es: "Freír en aceite abundante con masa", de: "Frittieren im Teig", nl: "Frituren in beslag" },
+          { en: "Marinating in lemon juice", es: "Marinar en jugo de limón", de: "Marinieren in Zitronensaft", nl: "Marineren in citroensap" },
+          { en: "Grilling over open flame", es: "Asar sobre llama abierta", de: "Grillen über offener Flamme", nl: "Grillen boven open vuur" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "En papillote is a French cooking method where fish or seafood is baked in a sealed parchment paper or foil packet with vegetables, herbs, and liquids. The sealed packet traps steam, cooking the food gently while infusing it with flavors.",
+          es: "En papillote es un método de cocción francés donde el pescado o mariscos se hornean en un paquete sellado de papel pergamino o aluminio con verduras, hierbas y líquidos. El paquete sellado atrapa vapor, cocinando la comida suavemente mientras la infunde con sabores.",
+          de: "En papillote ist eine französische Kochmethode, bei der Fisch oder Meeresfrüchte in einem versiegelten Pergamentpapier- oder Folienpaket mit Gemüse, Kräutern und Flüssigkeiten gebacken werden. Das versiegelte Paket fängt Dampf ein und gart das Essen sanft, während es es mit Geschmäckern durchzieht.",
+          nl: "En papillote is een Franse kookmethode waarbij vis of zeevruchten worden gebakken in een verzegeld pakketje van bakpapier of folie met groenten, kruiden en vloeistoffen. Het verzegelde pakketje vangt stoom op, waardoor het voedsel voorzichtig kookt terwijl het doordrongen wordt van smaken."
         }
       }
     ]

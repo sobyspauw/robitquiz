@@ -426,7 +426,427 @@
           es: "Las redes de aprendizaje profundo entrenadas en grandes conjuntos de datos fósiles pueden reconocer patrones morfológicos sutiles, medir relaciones dimensionales y asignar especímenes a grupos taxonómicos con intervalos de confianza, revolucionando la velocidad y consistencia de identificación fósil.",
           de: "Deep-Learning-Netzwerke, die auf großen Fossildatensätzen trainiert wurden, können subtile morphologische Muster erkennen, dimensionale Beziehungen messen und Exemplare mit Vertrauensintervallen taxonomischen Gruppen zuordnen, was die Geschwindigkeit und Konsistenz der Fossilidentifikation revolutioniert.",
           nl: "Deep learning netwerken getraind op grote fossieldatasets kunnen subtiele morfologische patronen herkennen, dimensionale relaties meten en specimens toewijzen aan taxonomische groepen met betrouwbaarheidsintervallen, wat de snelheid en consistentie van fossielidentificatie revolutioneert."
-        }
+        }    },
+    {
+      question: {
+        en: "What is a fossil?",
+        es: "What is a fossil?",
+        de: "What is a fossil?",
+        nl: "What is a fossil?"
+      },
+      options: [
+        { en: "Preserved remains of ancient life", es: "Preserved remains of ancient life", de: "Preserved remains of ancient life", nl: "Preserved remains of ancient life" },
+        { en: "Type of rock", es: "Type of rock", de: "Type of rock", nl: "Type of rock" },
+        { en: "Ancient tool", es: "Ancient tool", de: "Ancient tool", nl: "Ancient tool" },
+        { en: "Dinosaur bone", es: "Dinosaur bone", de: "Dinosaur bone", nl: "Dinosaur bone" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A fossil is any preserved remains, impression, or trace of once-living organisms from a past geological age.",
+        es: "A fossil is any preserved remains, impression, or trace of once-living organisms from a past geological age.",
+        de: "A fossil is any preserved remains, impression, or trace of once-living organisms from a past geological age.",
+        nl: "A fossil is any preserved remains, impression, or trace of once-living organisms from a past geological age."
+      }
+    },
+    {
+      question: {
+        en: "What is fossilization?",
+        es: "What is fossilization?",
+        de: "What is fossilization?",
+        nl: "What is fossilization?"
+      },
+      options: [
+        { en: "Process of remains becoming fossils", es: "Process of remains becoming fossils", de: "Process of remains becoming fossils", nl: "Process of remains becoming fossils" },
+        { en: "Finding fossils", es: "Finding fossils", de: "Finding fossils", nl: "Finding fossils" },
+        { en: "Studying fossils", es: "Studying fossils", de: "Studying fossils", nl: "Studying fossils" },
+        { en: "Breaking fossils", es: "Breaking fossils", de: "Breaking fossils", nl: "Breaking fossils" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Fossilization is the process by which organic remains are preserved in rock over millions of years.",
+        es: "Fossilization is the process by which organic remains are preserved in rock over millions of years.",
+        de: "Fossilization is the process by which organic remains are preserved in rock over millions of years.",
+        nl: "Fossilization is the process by which organic remains are preserved in rock over millions of years."
+      }
+    },
+    {
+      question: {
+        en: "What is the most common way dinosaur fossils form?",
+        es: "What is the most common way dinosaur fossils form?",
+        de: "What is the most common way dinosaur fossils form?",
+        nl: "What is the most common way dinosaur fossils form?"
+      },
+      options: [
+        { en: "Permineralization", es: "Permineralization", de: "Permineralization", nl: "Permineralization" },
+        { en: "Freezing", es: "Freezing", de: "Freezing", nl: "Freezing" },
+        { en: "Mummification", es: "Mummification", de: "Mummification", nl: "Mummification" },
+        { en: "Amber preservation", es: "Amber preservation", de: "Amber preservation", nl: "Amber preservation" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Permineralization occurs when minerals fill spaces in bones and tissues, turning them to stone over time.",
+        es: "Permineralization occurs when minerals fill spaces in bones and tissues, turning them to stone over time.",
+        de: "Permineralization occurs when minerals fill spaces in bones and tissues, turning them to stone over time.",
+        nl: "Permineralization occurs when minerals fill spaces in bones and tissues, turning them to stone over time."
+      }
+    },
+    {
+      question: {
+        en: "What is a trace fossil?",
+        es: "What is a trace fossil?",
+        de: "What is a trace fossil?",
+        nl: "What is a trace fossil?"
+      },
+      options: [
+        { en: "Evidence of activity, not body parts", es: "Evidence of activity, not body parts", de: "Evidence of activity, not body parts", nl: "Evidence of activity, not body parts" },
+        { en: "Footprint only", es: "Footprint only", de: "Footprint only", nl: "Footprint only" },
+        { en: "Bone fragment", es: "Bone fragment", de: "Bone fragment", nl: "Bone fragment" },
+        { en: "Complete skeleton", es: "Complete skeleton", de: "Complete skeleton", nl: "Complete skeleton" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Trace fossils preserve evidence of activity like footprints, nests, or burrows rather than body parts.",
+        es: "Trace fossils preserve evidence of activity like footprints, nests, or burrows rather than body parts.",
+        de: "Trace fossils preserve evidence of activity like footprints, nests, or burrows rather than body parts.",
+        nl: "Trace fossils preserve evidence of activity like footprints, nests, or burrows rather than body parts."
+      }
+    },
+    {
+      question: {
+        en: "What are coprolites?",
+        es: "What are coprolites?",
+        de: "What are coprolites?",
+        nl: "What are coprolites?"
+      },
+      options: [
+        { en: "Fossilized feces", es: "Fossilized feces", de: "Fossilized feces", nl: "Fossilized feces" },
+        { en: "Fossilized eggs", es: "Fossilized eggs", de: "Fossilized eggs", nl: "Fossilized eggs" },
+        { en: "Fossilized teeth", es: "Fossilized teeth", de: "Fossilized teeth", nl: "Fossilized teeth" },
+        { en: "Fossilized skin", es: "Fossilized skin", de: "Fossilized skin", nl: "Fossilized skin" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Coprolites are fossilized feces that provide information about dinosaur diets and digestive systems.",
+        es: "Coprolites are fossilized feces that provide information about dinosaur diets and digestive systems.",
+        de: "Coprolites are fossilized feces that provide information about dinosaur diets and digestive systems.",
+        nl: "Coprolites are fossilized feces that provide information about dinosaur diets and digestive systems."
+      }
+    },
+    {
+      question: {
+        en: "What is the best environment for fossilization?",
+        es: "What is the best environment for fossilization?",
+        de: "What is the best environment for fossilization?",
+        nl: "What is the best environment for fossilization?"
+      },
+      options: [
+        { en: "Rapid burial in sediment", es: "Rapid burial in sediment", de: "Rapid burial in sediment", nl: "Rapid burial in sediment" },
+        { en: "Dry desert", es: "Dry desert", de: "Dry desert", nl: "Dry desert" },
+        { en: "Mountain peaks", es: "Mountain peaks", de: "Mountain peaks", nl: "Mountain peaks" },
+        { en: "Open plains", es: "Open plains", de: "Open plains", nl: "Open plains" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Rapid burial in sediment (like mud or sand) protects remains from scavengers and decay, ideal for fossilization.",
+        es: "Rapid burial in sediment (like mud or sand) protects remains from scavengers and decay, ideal for fossilization.",
+        de: "Rapid burial in sediment (like mud or sand) protects remains from scavengers and decay, ideal for fossilization.",
+        nl: "Rapid burial in sediment (like mud or sand) protects remains from scavengers and decay, ideal for fossilization."
+      }
+    },
+    {
+      question: {
+        en: "What is a cast fossil?",
+        es: "What is a cast fossil?",
+        de: "What is a cast fossil?",
+        nl: "What is a cast fossil?"
+      },
+      options: [
+        { en: "Mineral filling of a mold", es: "Mineral filling of a mold", de: "Mineral filling of a mold", nl: "Mineral filling of a mold" },
+        { en: "Bone turned to stone", es: "Bone turned to stone", de: "Bone turned to stone", nl: "Bone turned to stone" },
+        { en: "Fossilized impression", es: "Fossilized impression", de: "Fossilized impression", nl: "Fossilized impression" },
+        { en: "Amber-preserved organism", es: "Amber-preserved organism", de: "Amber-preserved organism", nl: "Amber-preserved organism" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A cast fossil forms when minerals fill a mold (hollow space) left by dissolved organic material.",
+        es: "A cast fossil forms when minerals fill a mold (hollow space) left by dissolved organic material.",
+        de: "A cast fossil forms when minerals fill a mold (hollow space) left by dissolved organic material.",
+        nl: "A cast fossil forms when minerals fill a mold (hollow space) left by dissolved organic material."
+      }
+    },
+    {
+      question: {
+        en: "Who was Mary Anning?",
+        es: "Who was Mary Anning?",
+        de: "Who was Mary Anning?",
+        nl: "Who was Mary Anning?"
+      },
+      options: [
+        { en: "Famous fossil collector from the 1800s", es: "Famous fossil collector from the 1800s", de: "Famous fossil collector from the 1800s", nl: "Famous fossil collector from the 1800s" },
+        { en: "First paleontologist", es: "First paleontologist", de: "First paleontologist", nl: "First paleontologist" },
+        { en: "Dinosaur namer", es: "Dinosaur namer", de: "Dinosaur namer", nl: "Dinosaur namer" },
+        { en: "Museum curator", es: "Museum curator", de: "Museum curator", nl: "Museum curator" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Mary Anning was a pioneering fossil collector and paleontologist who made significant discoveries in the early 1800s.",
+        es: "Mary Anning was a pioneering fossil collector and paleontologist who made significant discoveries in the early 1800s.",
+        de: "Mary Anning was a pioneering fossil collector and paleontologist who made significant discoveries in the early 1800s.",
+        nl: "Mary Anning was a pioneering fossil collector and paleontologist who made significant discoveries in the early 1800s."
+      }
+    },
+    {
+      question: {
+        en: "What does 'petrified' mean?",
+        es: "What does 'petrified' mean?",
+        de: "What does 'petrified' mean?",
+        nl: "What does 'petrified' mean?"
+      },
+      options: [
+        { en: "Turned to stone", es: "Turned to stone", de: "Turned to stone", nl: "Turned to stone" },
+        { en: "Very scared", es: "Very scared", de: "Very scared", nl: "Very scared" },
+        { en: "Very old", es: "Very old", de: "Very old", nl: "Very old" },
+        { en: "Well preserved", es: "Well preserved", de: "Well preserved", nl: "Well preserved" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Petrified literally means 'turned to stone' through the fossilization process.",
+        es: "Petrified literally means 'turned to stone' through the fossilization process.",
+        de: "Petrified literally means 'turned to stone' through the fossilization process.",
+        nl: "Petrified literally means 'turned to stone' through the fossilization process."
+      }
+    },
+    {
+      question: {
+        en: "What is taphonomy?",
+        es: "What is taphonomy?",
+        de: "What is taphonomy?",
+        nl: "What is taphonomy?"
+      },
+      options: [
+        { en: "Study of fossilization process", es: "Study of fossilization process", de: "Study of fossilization process", nl: "Study of fossilization process" },
+        { en: "Study of dinosaurs", es: "Study of dinosaurs", de: "Study of dinosaurs", nl: "Study of dinosaurs" },
+        { en: "Study of rocks", es: "Study of rocks", de: "Study of rocks", nl: "Study of rocks" },
+        { en: "Study of extinction", es: "Study of extinction", de: "Study of extinction", nl: "Study of extinction" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Taphonomy studies the processes that affect organisms from death to discovery as fossils.",
+        es: "Taphonomy studies the processes that affect organisms from death to discovery as fossils.",
+        de: "Taphonomy studies the processes that affect organisms from death to discovery as fossils.",
+        nl: "Taphonomy studies the processes that affect organisms from death to discovery as fossils."
+      }
+    },
+    {
+      question: {
+        en: "What percentage of organisms become fossils?",
+        es: "What percentage of organisms become fossils?",
+        de: "What percentage of organisms become fossils?",
+        nl: "What percentage of organisms become fossils?"
+      },
+      options: [
+        { en: "Less than 1%", es: "Less than 1%", de: "Less than 1%", nl: "Less than 1%" },
+        { en: "About 10%", es: "About 10%", de: "About 10%", nl: "About 10%" },
+        { en: "About 50%", es: "About 50%", de: "About 50%", nl: "About 50%" },
+        { en: "Most organisms", es: "Most organisms", de: "Most organisms", nl: "Most organisms" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Less than 1% of all organisms that ever lived become fossils - fossilization is extremely rare.",
+        es: "Less than 1% of all organisms that ever lived become fossils - fossilization is extremely rare.",
+        de: "Less than 1% of all organisms that ever lived become fossils - fossilization is extremely rare.",
+        nl: "Less than 1% of all organisms that ever lived become fossils - fossilization is extremely rare."
+      }
+    },
+    {
+      question: {
+        en: "What tool do paleontologists use most in the field?",
+        es: "What tool do paleontologists use most in the field?",
+        de: "What tool do paleontologists use most in the field?",
+        nl: "What tool do paleontologists use most in the field?"
+      },
+      options: [
+        { en: "Small picks and brushes", es: "Small picks and brushes", de: "Small picks and brushes", nl: "Small picks and brushes" },
+        { en: "Jackhammers", es: "Jackhammers", de: "Jackhammers", nl: "Jackhammers" },
+        { en: "Shovels", es: "Shovels", de: "Shovels", nl: "Shovels" },
+        { en: "Hammers", es: "Hammers", de: "Hammers", nl: "Hammers" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Paleontologists carefully use small picks, brushes, and dental tools to avoid damaging delicate fossils.",
+        es: "Paleontologists carefully use small picks, brushes, and dental tools to avoid damaging delicate fossils.",
+        de: "Paleontologists carefully use small picks, brushes, and dental tools to avoid damaging delicate fossils.",
+        nl: "Paleontologists carefully use small picks, brushes, and dental tools to avoid damaging delicate fossils."
+      }
+    },
+    {
+      question: {
+        en: "What is the oldest dinosaur fossil ever found?",
+        es: "What is the oldest dinosaur fossil ever found?",
+        de: "What is the oldest dinosaur fossil ever found?",
+        nl: "What is the oldest dinosaur fossil ever found?"
+      },
+      options: [
+        { en: "Approximately 230 million years old", es: "Approximately 230 million years old", de: "Approximately 230 million years old", nl: "Approximately 230 million years old" },
+        { en: "100 million years old", es: "100 million years old", de: "100 million years old", nl: "100 million years old" },
+        { en: "300 million years old", es: "300 million years old", de: "300 million years old", nl: "300 million years old" },
+        { en: "500 million years old", es: "500 million years old", de: "500 million years old", nl: "500 million years old" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The oldest known dinosaur fossils date to approximately 230 million years ago, from the Late Triassic.",
+        es: "The oldest known dinosaur fossils date to approximately 230 million years ago, from the Late Triassic.",
+        de: "The oldest known dinosaur fossils date to approximately 230 million years ago, from the Late Triassic.",
+        nl: "The oldest known dinosaur fossils date to approximately 230 million years ago, from the Late Triassic."
+      }
+    },
+    {
+      question: {
+        en: "What is a fossil matrix?",
+        es: "What is a fossil matrix?",
+        de: "What is a fossil matrix?",
+        nl: "What is a fossil matrix?"
+      },
+      options: [
+        { en: "Rock surrounding a fossil", es: "Rock surrounding a fossil", de: "Rock surrounding a fossil", nl: "Rock surrounding a fossil" },
+        { en: "Fossil classification system", es: "Fossil classification system", de: "Fossil classification system", nl: "Fossil classification system" },
+        { en: "Fossil museum display", es: "Fossil museum display", de: "Fossil museum display", nl: "Fossil museum display" },
+        { en: "Fossil database", es: "Fossil database", de: "Fossil database", nl: "Fossil database" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The matrix is the rock or sediment surrounding and encasing a fossil.",
+        es: "The matrix is the rock or sediment surrounding and encasing a fossil.",
+        de: "The matrix is the rock or sediment surrounding and encasing a fossil.",
+        nl: "The matrix is the rock or sediment surrounding and encasing a fossil."
+      }
+    },
+    {
+      question: {
+        en: "What is exceptional preservation?",
+        es: "What is exceptional preservation?",
+        de: "What is exceptional preservation?",
+        nl: "What is exceptional preservation?"
+      },
+      options: [
+        { en: "Preservation of soft tissues", es: "Preservation of soft tissues", de: "Preservation of soft tissues", nl: "Preservation of soft tissues" },
+        { en: "Perfect bone preservation", es: "Perfect bone preservation", de: "Perfect bone preservation", nl: "Perfect bone preservation" },
+        { en: "Large fossil size", es: "Large fossil size", de: "Large fossil size", nl: "Large fossil size" },
+        { en: "Complete skeletons", es: "Complete skeletons", de: "Complete skeletons", nl: "Complete skeletons" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Exceptional preservation occurs when rare conditions allow soft tissues, skin, or feathers to fossilize.",
+        es: "Exceptional preservation occurs when rare conditions allow soft tissues, skin, or feathers to fossilize.",
+        de: "Exceptional preservation occurs when rare conditions allow soft tissues, skin, or feathers to fossilize.",
+        nl: "Exceptional preservation occurs when rare conditions allow soft tissues, skin, or feathers to fossilize."
+      }
+    },
+    {
+      question: {
+        en: "What is the La Brea Tar Pits famous for?",
+        es: "What is the La Brea Tar Pits famous for?",
+        de: "What is the La Brea Tar Pits famous for?",
+        nl: "What is the La Brea Tar Pits famous for?"
+      },
+      options: [
+        { en: "Preserving Ice Age animals in asphalt", es: "Preserving Ice Age animals in asphalt", de: "Preserving Ice Age animals in asphalt", nl: "Preserving Ice Age animals in asphalt" },
+        { en: "Dinosaur fossils", es: "Dinosaur fossils", de: "Dinosaur fossils", nl: "Dinosaur fossils" },
+        { en: "Oldest fossils", es: "Oldest fossils", de: "Oldest fossils", nl: "Oldest fossils" },
+        { en: "Marine fossils", es: "Marine fossils", de: "Marine fossils", nl: "Marine fossils" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The La Brea Tar Pits in Los Angeles preserved numerous Ice Age animals in natural asphalt seeps.",
+        es: "The La Brea Tar Pits in Los Angeles preserved numerous Ice Age animals in natural asphalt seeps.",
+        de: "The La Brea Tar Pits in Los Angeles preserved numerous Ice Age animals in natural asphalt seeps.",
+        nl: "The La Brea Tar Pits in Los Angeles preserved numerous Ice Age animals in natural asphalt seeps."
+      }
+    },
+    {
+      question: {
+        en: "What is a type specimen?",
+        es: "What is a type specimen?",
+        de: "What is a type specimen?",
+        nl: "What is a type specimen?"
+      },
+      options: [
+        { en: "Individual fossil defining a species", es: "Individual fossil defining a species", de: "Individual fossil defining a species", nl: "Individual fossil defining a species" },
+        { en: "Typical fossil example", es: "Typical fossil example", de: "Typical fossil example", nl: "Typical fossil example" },
+        { en: "Largest fossil", es: "Largest fossil", de: "Largest fossil", nl: "Largest fossil" },
+        { en: "First fossil found", es: "First fossil found", de: "First fossil found", nl: "First fossil found" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A type specimen is the individual fossil on which the description and name of a new species is based.",
+        es: "A type specimen is the individual fossil on which the description and name of a new species is based.",
+        de: "A type specimen is the individual fossil on which the description and name of a new species is based.",
+        nl: "A type specimen is the individual fossil on which the description and name of a new species is based."
+      }
+    },
+    {
+      question: {
+        en: "What technology helps find fossils without digging?",
+        es: "What technology helps find fossils without digging?",
+        de: "What technology helps find fossils without digging?",
+        nl: "What technology helps find fossils without digging?"
+      },
+      options: [
+        { en: "Ground-penetrating radar", es: "Ground-penetrating radar", de: "Ground-penetrating radar", nl: "Ground-penetrating radar" },
+        { en: "Metal detectors", es: "Metal detectors", de: "Metal detectors", nl: "Metal detectors" },
+        { en: "Magnets", es: "Magnets", de: "Magnets", nl: "Magnets" },
+        { en: "X-rays", es: "X-rays", de: "X-rays", nl: "X-rays" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Ground-penetrating radar and other remote sensing technologies can detect fossil-bearing layers without excavation.",
+        es: "Ground-penetrating radar and other remote sensing technologies can detect fossil-bearing layers without excavation.",
+        de: "Ground-penetrating radar and other remote sensing technologies can detect fossil-bearing layers without excavation.",
+        nl: "Ground-penetrating radar and other remote sensing technologies can detect fossil-bearing layers without excavation."
+      }
+    },
+    {
+      question: {
+        en: "What is a fossil bed?",
+        es: "What is a fossil bed?",
+        de: "What is a fossil bed?",
+        nl: "What is a fossil bed?"
+      },
+      options: [
+        { en: "Layer of rock rich in fossils", es: "Layer of rock rich in fossils", de: "Layer of rock rich in fossils", nl: "Layer of rock rich in fossils" },
+        { en: "Museum display area", es: "Museum display area", de: "Museum display area", nl: "Museum display area" },
+        { en: "Excavation site", es: "Excavation site", de: "Excavation site", nl: "Excavation site" },
+        { en: "Fossil storage", es: "Fossil storage", de: "Fossil storage", nl: "Fossil storage" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A fossil bed is a layer or stratum of sedimentary rock especially rich in fossils.",
+        es: "A fossil bed is a layer or stratum of sedimentary rock especially rich in fossils.",
+        de: "A fossil bed is a layer or stratum of sedimentary rock especially rich in fossils.",
+        nl: "A fossil bed is a layer or stratum of sedimentary rock especially rich in fossils."
+      }
+    },
+    {
+      question: {
+        en: "What famous fossil hunter found the first Iguanodon teeth?",
+        es: "What famous fossil hunter found the first Iguanodon teeth?",
+        de: "What famous fossil hunter found the first Iguanodon teeth?",
+        nl: "What famous fossil hunter found the first Iguanodon teeth?"
+      },
+      options: [
+        { en: "Gideon Mantell (or his wife Mary Ann)", es: "Gideon Mantell (or his wife Mary Ann)", de: "Gideon Mantell (or his wife Mary Ann)", nl: "Gideon Mantell (or his wife Mary Ann)" },
+        { en: "Charles Darwin", es: "Charles Darwin", de: "Charles Darwin", nl: "Charles Darwin" },
+        { en: "Richard Owen", es: "Richard Owen", de: "Richard Owen", nl: "Richard Owen" },
+        { en: "William Buckland", es: "William Buckland", de: "William Buckland", nl: "William Buckland" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Gideon Mantell and possibly his wife Mary Ann discovered Iguanodon teeth in 1822, among the first dinosaur fossils recognized.",
+        es: "Gideon Mantell and possibly his wife Mary Ann discovered Iguanodon teeth in 1822, among the first dinosaur fossils recognized.",
+        de: "Gideon Mantell and possibly his wife Mary Ann discovered Iguanodon teeth in 1822, among the first dinosaur fossils recognized.",
+        nl: "Gideon Mantell and possibly his wife Mary Ann discovered Iguanodon teeth in 1822, among the first dinosaur fossils recognized."
+      }
+
       }
     ]
   };

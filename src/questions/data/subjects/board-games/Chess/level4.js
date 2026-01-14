@@ -826,6 +826,47 @@
           de: "Ein Zwischenzug ist ein dazwischen gespielter Zug vor einer erwarteten Antwort, oft ein Schach oder eine Drohung, die die Bewertung der Stellung ändert.",
           nl: "Een tussenzet (of zwischenzug) is een tussenliggende zet gespeeld voor een verwachte reactie, vaak een schaak of dreiging die de evaluatie van de positie verandert."
         }
+      },
+      {
+        question: {
+                  "en": "What is the '50-move rule' in chess?",
+                  "es": "¿Qué es la 'regla de las 50 jugadas' en ajedrez?",
+                  "de": "Was ist die '50-Züge-Regel' im Schach?",
+                  "nl": "Wat is de '50-zetten regel' in schaken?"
+        },
+        options: [
+                  {
+                            "en": "Draw can be claimed after 50 moves without capture or pawn move",
+                            "es": "Se pueden reclamar tablas después de 50 movimientos sin captura ni movimiento de peón",
+                            "de": "Remis kann nach 50 Zügen ohne Schlagzug oder Bauernzug beansprucht werden",
+                            "nl": "Remise kan worden geclaimd na 50 zetten zonder slag of pionzet"
+                  },
+                  {
+                            "en": "Game must end after 50 moves",
+                            "es": "El juego debe terminar después de 50 movimientos",
+                            "de": "Das Spiel muss nach 50 Zügen enden",
+                            "nl": "Het spel moet eindigen na 50 zetten"
+                  },
+                  {
+                            "en": "Each player gets 50 moves maximum",
+                            "es": "Cada jugador tiene un máximo de 50 movimientos",
+                            "de": "Jeder Spieler hat maximal 50 Züge",
+                            "nl": "Elke speler krijgt maximaal 50 zetten"
+                  },
+                  {
+                            "en": "Automatic draw after 50 checks",
+                            "es": "Empate automático después de 50 jaques",
+                            "de": "Automatisches Remis nach 50 Schachs",
+                            "nl": "Automatisch remise na 50 schaken"
+                  }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "The 50-move rule states that a player can claim a draw if no capture has been made and no pawn has been moved in the last 50 consecutive moves by each player.",
+                  "es": "La regla de las 50 jugadas establece que un jugador puede reclamar tablas si no se ha realizado ninguna captura y no se ha movido ningún peón en las últimas 50 jugadas consecutivas de cada jugador.",
+                  "de": "Die 50-Züge-Regel besagt, dass ein Spieler Remis beanspruchen kann, wenn in den letzten 50 aufeinanderfolgenden Zügen jedes Spielers kein Schlagzug ausgeführt und kein Bauer gezogen wurde.",
+                  "nl": "De 50-zetten regel stelt dat een speler remise kan claimen als er geen slag is gedaan en geen pion is bewogen in de laatste 50 opeenvolgende zetten door elke speler."
+        }
       }
     ]
   };

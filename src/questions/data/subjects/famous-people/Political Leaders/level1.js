@@ -426,6 +426,279 @@
           de: "Giorgia Meloni wurde im Oktober 2022 Premierministerin Italiens, führt die Partei Brüder Italiens an und wurde Italiens erste weibliche Premierministerin.",
           nl: "Giorgia Meloni werd in oktober 2022 Premier van Italië, leidt de partij Broeders van Italië en werd Italië's eerste vrouwelijke Premier."
         }
+      },
+      {
+        question: {
+          en: "Who is the current President of Poland?",
+          es: "¿Quién es el actual Presidente de Polonia?",
+          de: "Wer ist der aktuelle Präsident Polens?",
+          nl: "Wie is de huidige President van Polen?"
+        },
+        options: [
+          { en: "Andrzej Duda", es: "Andrzej Duda", de: "Andrzej Duda", nl: "Andrzej Duda" },
+          { en: "Donald Tusk", es: "Donald Tusk", de: "Donald Tusk", nl: "Donald Tusk" },
+          { en: "Lech Wałęsa", es: "Lech Wałęsa", de: "Lech Wałęsa", nl: "Lech Wałęsa" },
+          { en: "Bronisław Komorowski", es: "Bronisław Komorowski", de: "Bronisław Komorowski", nl: "Bronisław Komorowski" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Andrzej Duda has been President of Poland since 2015, representing the Law and Justice party and supporting conservative policies.",
+          es: "Andrzej Duda ha sido Presidente de Polonia desde 2015, representando al partido Ley y Justicia y apoyando políticas conservadoras.",
+          de: "Andrzej Duda ist seit 2015 Präsident Polens, vertritt die Partei Recht und Gerechtigkeit und unterstützt konservative Politik.",
+          nl: "Andrzej Duda is sinds 2015 President van Polen, vertegenwoordigt de partij Recht en Rechtvaardigheid en steunt conservatief beleid."
+        }
+      },
+      {
+        question: {
+          en: "Who is the current Prime Minister of Spain?",
+          es: "¿Quién es el actual Primer Ministro de España?",
+          de: "Wer ist der aktuelle Premierminister Spaniens?",
+          nl: "Wie is de huidige Premier van Spanje?"
+        },
+        options: [
+          { en: "Pedro Sánchez", es: "Pedro Sánchez", de: "Pedro Sánchez", nl: "Pedro Sánchez" },
+          { en: "Mariano Rajoy", es: "Mariano Rajoy", de: "Mariano Rajoy", nl: "Mariano Rajoy" },
+          { en: "José Luis Rodríguez Zapatero", es: "José Luis Rodríguez Zapatero", de: "José Luis Rodríguez Zapatero", nl: "José Luis Rodríguez Zapatero" },
+          { en: "Pablo Iglesias", es: "Pablo Iglesias", de: "Pablo Iglesias", nl: "Pablo Iglesias" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pedro Sánchez has been Prime Minister of Spain since 2018, leading the Spanish Socialist Workers' Party (PSOE) through coalition governments.",
+          es: "Pedro Sánchez ha sido Primer Ministro de España desde 2018, liderando el Partido Socialista Obrero Español (PSOE) a través de gobiernos de coalición.",
+          de: "Pedro Sánchez ist seit 2018 Premierminister Spaniens und führt die Spanische Sozialistische Arbeiterpartei (PSOE) durch Koalitionsregierungen.",
+          nl: "Pedro Sánchez is sinds 2018 Premier van Spanje en leidt de Spaanse Socialistische Arbeiderspartij (PSOE) door coalitieregeringen."
+        }
+      },
+      {
+        question: {
+          en: "Who is the current Prime Minister of the Netherlands?",
+          es: "¿Quién es el actual Primer Ministro de los Países Bajos?",
+          de: "Wer ist der aktuelle Premierminister der Niederlande?",
+          nl: "Wie is de huidige Minister-President van Nederland?"
+        },
+        options: [
+          { en: "Mark Rutte", es: "Mark Rutte", de: "Mark Rutte", nl: "Mark Rutte" },
+          { en: "Geert Wilders", es: "Geert Wilders", de: "Geert Wilders", nl: "Geert Wilders" },
+          { en: "Jan Peter Balkenende", es: "Jan Peter Balkenende", de: "Jan Peter Balkenende", nl: "Jan Peter Balkenende" },
+          { en: "Wim Kok", es: "Wim Kok", de: "Wim Kok", nl: "Wim Kok" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mark Rutte has been Prime Minister of the Netherlands since 2010, becoming the longest-serving Dutch Prime Minister and leading multiple coalition governments.",
+          es: "Mark Rutte ha sido Primer Ministro de los Países Bajos desde 2010, convirtiéndose en el Primer Ministro holandés con más tiempo en el cargo y liderando múltiples gobiernos de coalición.",
+          de: "Mark Rutte ist seit 2010 Premierminister der Niederlande, wurde der am längsten amtierende niederländische Premierminister und führte mehrere Koalitionsregierungen.",
+          nl: "Mark Rutte is sinds 2010 Minister-President van Nederland, werd de langst zittende Nederlandse premier en leidde meerdere coalitieregeringen."
+        }
+      },
+      {
+        question: {
+          en: "Who is the current Prime Minister of Israel?",
+          es: "¿Quién es el actual Primer Ministro de Israel?",
+          de: "Wer ist der aktuelle Premierminister Israels?",
+          nl: "Wie is de huidige Premier van Israël?"
+        },
+        options: [
+          { en: "Benjamin Netanyahu", es: "Benjamin Netanyahu", de: "Benjamin Netanyahu", nl: "Benjamin Netanyahu" },
+          { en: "Yair Lapid", es: "Yair Lapid", de: "Yair Lapid", nl: "Yair Lapid" },
+          { en: "Naftali Bennett", es: "Naftali Bennett", de: "Naftali Bennett", nl: "Naftali Bennett" },
+          { en: "Benny Gantz", es: "Benny Gantz", de: "Benny Gantz", nl: "Benny Gantz" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Benjamin Netanyahu returned as Prime Minister in December 2022, having previously served multiple terms, making him Israel's longest-serving Prime Minister.",
+          es: "Benjamin Netanyahu regresó como Primer Ministro en diciembre de 2022, habiendo servido previamente múltiples términos, convirtiéndolo en el Primer Ministro de Israel con más tiempo en el cargo.",
+          de: "Benjamin Netanyahu kehrte im Dezember 2022 als Premierminister zurück, nachdem er zuvor mehrere Amtszeiten gedient hatte, was ihn zu Israels am längsten amtierendem Premierminister macht.",
+          nl: "Benjamin Netanyahu keerde in december 2022 terug als Premier, na eerder meerdere termijnen te hebben gediend, wat hem Israëls langst dienende Premier maakt."
+        }
+      },
+      {
+        question: {
+          en: "Who is the current Prime Minister of New Zealand?",
+          es: "¿Quién es el actual Primer Ministro de Nueva Zelanda?",
+          de: "Wer ist der aktuelle Premierminister Neuseelands?",
+          nl: "Wie is de huidige Premier van Nieuw-Zeeland?"
+        },
+        options: [
+          { en: "Christopher Luxon", es: "Christopher Luxon", de: "Christopher Luxon", nl: "Christopher Luxon" },
+          { en: "Jacinda Ardern", es: "Jacinda Ardern", de: "Jacinda Ardern", nl: "Jacinda Ardern" },
+          { en: "Chris Hipkins", es: "Chris Hipkins", de: "Chris Hipkins", nl: "Chris Hipkins" },
+          { en: "John Key", es: "John Key", de: "John Key", nl: "John Key" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Christopher Luxon became Prime Minister of New Zealand in November 2023, leading the National Party and forming a coalition government.",
+          es: "Christopher Luxon se convirtió en Primer Ministro de Nueva Zelanda en noviembre de 2023, liderando el Partido Nacional y formando un gobierno de coalición.",
+          de: "Christopher Luxon wurde im November 2023 Premierminister Neuseelands, führt die National Party an und bildete eine Koalitionsregierung.",
+          nl: "Christopher Luxon werd in november 2023 Premier van Nieuw-Zeeland, leidt de Nationale Partij en vormde een coalitieregering."
+        }
+      },
+      {
+        question: {
+          en: "Who is the current President of Indonesia?",
+          es: "¿Quién es el actual Presidente de Indonesia?",
+          de: "Wer ist der aktuelle Präsident Indonesiens?",
+          nl: "Wie is de huidige President van Indonesië?"
+        },
+        options: [
+          { en: "Joko Widodo", es: "Joko Widodo", de: "Joko Widodo", nl: "Joko Widodo" },
+          { en: "Prabowo Subianto", es: "Prabowo Subianto", de: "Prabowo Subianto", nl: "Prabowo Subianto" },
+          { en: "Megawati Sukarnoputri", es: "Megawati Sukarnoputri", de: "Megawati Sukarnoputri", nl: "Megawati Sukarnoputri" },
+          { en: "Susilo Bambang Yudhoyono", es: "Susilo Bambang Yudhoyono", de: "Susilo Bambang Yudhoyono", nl: "Susilo Bambang Yudhoyono" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Joko Widodo has been President of Indonesia since 2014, known for infrastructure development and economic reforms in Southeast Asia's largest economy.",
+          es: "Joko Widodo ha sido Presidente de Indonesia desde 2014, conocido por el desarrollo de infraestructura y reformas económicas en la economía más grande del sudeste asiático.",
+          de: "Joko Widodo ist seit 2014 Präsident Indonesiens, bekannt für Infrastrukturentwicklung und Wirtschaftsreformen in Südostasiens größter Volkswirtschaft.",
+          nl: "Joko Widodo is sinds 2014 President van Indonesië, bekend om infrastructuurontwikkeling en economische hervormingen in de grootste economie van Zuidoost-Azië."
+        }
+      },
+      {
+        question: {
+          en: "Who is the current Prime Minister of Pakistan?",
+          es: "¿Quién es el actual Primer Ministro de Pakistán?",
+          de: "Wer ist der aktuelle Premierminister Pakistans?",
+          nl: "Wie is de huidige Premier van Pakistan?"
+        },
+        options: [
+          { en: "Shehbaz Sharif", es: "Shehbaz Sharif", de: "Shehbaz Sharif", nl: "Shehbaz Sharif" },
+          { en: "Imran Khan", es: "Imran Khan", de: "Imran Khan", nl: "Imran Khan" },
+          { en: "Nawaz Sharif", es: "Nawaz Sharif", de: "Nawaz Sharif", nl: "Nawaz Sharif" },
+          { en: "Bilawal Bhutto Zardari", es: "Bilawal Bhutto Zardari", de: "Bilawal Bhutto Zardari", nl: "Bilawal Bhutto Zardari" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Shehbaz Sharif has been Prime Minister of Pakistan since 2022, leading the Pakistan Muslim League (N) and navigating economic challenges.",
+          es: "Shehbaz Sharif ha sido Primer Ministro de Pakistán desde 2022, liderando la Liga Musulmana de Pakistán (N) y navegando desafíos económicos.",
+          de: "Shehbaz Sharif ist seit 2022 Premierminister Pakistans, führt die Pakistan Muslim League (N) an und bewältigt wirtschaftliche Herausforderungen.",
+          nl: "Shehbaz Sharif is sinds 2022 Premier van Pakistan, leidt de Pakistan Muslim League (N) en navigeert door economische uitdagingen."
+        }
+      },
+      {
+        question: {
+          en: "Who is the current President of Nigeria?",
+          es: "¿Quién es el actual Presidente de Nigeria?",
+          de: "Wer ist der aktuelle Präsident Nigerias?",
+          nl: "Wie is de huidige President van Nigeria?"
+        },
+        options: [
+          { en: "Bola Tinubu", es: "Bola Tinubu", de: "Bola Tinubu", nl: "Bola Tinubu" },
+          { en: "Muhammadu Buhari", es: "Muhammadu Buhari", de: "Muhammadu Buhari", nl: "Muhammadu Buhari" },
+          { en: "Goodluck Jonathan", es: "Goodluck Jonathan", de: "Goodluck Jonathan", nl: "Goodluck Jonathan" },
+          { en: "Atiku Abubakar", es: "Atiku Abubakar", de: "Atiku Abubakar", nl: "Atiku Abubakar" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bola Tinubu became President of Nigeria in May 2023, leading Africa's most populous nation and implementing economic reforms.",
+          es: "Bola Tinubu se convirtió en Presidente de Nigeria en mayo de 2023, liderando la nación más poblada de África e implementando reformas económicas.",
+          de: "Bola Tinubu wurde im Mai 2023 Präsident Nigerias, führt Afrikas bevölkerungsreichste Nation an und implementiert Wirtschaftsreformen.",
+          nl: "Bola Tinubu werd in mei 2023 President van Nigeria, leidt Afrika's dichtstbevolkte natie en implementeert economische hervormingen."
+        }
+      },
+      {
+        question: {
+          en: "Who is the current President of Iran?",
+          es: "¿Quién es el actual Presidente de Irán?",
+          de: "Wer ist der aktuelle Präsident des Iran?",
+          nl: "Wie is de huidige President van Iran?"
+        },
+        options: [
+          { en: "Ebrahim Raisi", es: "Ebrahim Raisi", de: "Ebrahim Raisi", nl: "Ebrahim Raisi" },
+          { en: "Hassan Rouhani", es: "Hassan Rouhani", de: "Hassan Rouhani", nl: "Hassan Rouhani" },
+          { en: "Mahmoud Ahmadinejad", es: "Mahmoud Ahmadinejad", de: "Mahmoud Ahmadinedschad", nl: "Mahmoud Ahmadinejad" },
+          { en: "Ali Khamenei", es: "Ali Khamenei", de: "Ali Chamenei", nl: "Ali Khamenei" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ebrahim Raisi has been President of Iran since 2021, representing conservative factions and maintaining hardline positions on foreign policy.",
+          es: "Ebrahim Raisi ha sido Presidente de Irán desde 2021, representando facciones conservadoras y manteniendo posiciones de línea dura en política exterior.",
+          de: "Ebrahim Raisi ist seit 2021 Präsident des Iran, vertritt konservative Fraktionen und behält harte Positionen in der Außenpolitik bei.",
+          nl: "Ebrahim Raisi is sinds 2021 President van Iran, vertegenwoordigt conservatieve facties en handhaaft hardlijnposities in buitenlands beleid."
+        }
+      },
+      {
+        question: {
+          en: "Who is the current President of Kenya?",
+          es: "¿Quién es el actual Presidente de Kenia?",
+          de: "Wer ist der aktuelle Präsident Kenias?",
+          nl: "Wie is de huidige President van Kenia?"
+        },
+        options: [
+          { en: "William Ruto", es: "William Ruto", de: "William Ruto", nl: "William Ruto" },
+          { en: "Uhuru Kenyatta", es: "Uhuru Kenyatta", de: "Uhuru Kenyatta", nl: "Uhuru Kenyatta" },
+          { en: "Raila Odinga", es: "Raila Odinga", de: "Raila Odinga", nl: "Raila Odinga" },
+          { en: "Mwai Kibaki", es: "Mwai Kibaki", de: "Mwai Kibaki", nl: "Mwai Kibaki" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "William Ruto became President of Kenya in September 2022, after serving as Deputy President and winning a closely contested election.",
+          es: "William Ruto se convirtió en Presidente de Kenia en septiembre de 2022, después de servir como Vice Presidente y ganar una elección muy reñida.",
+          de: "William Ruto wurde im September 2022 Präsident Kenias, nachdem er als stellvertretender Präsident gedient und eine hart umkämpfte Wahl gewonnen hatte.",
+          nl: "William Ruto werd in september 2022 President van Kenia, na als Vice-President te hebben gediend en een nauw bevochten verkiezing te hebben gewonnen."
+        }
+      },
+      {
+        question: {
+          en: "Who is the current President of Colombia?",
+          es: "¿Quién es el actual Presidente de Colombia?",
+          de: "Wer ist der aktuelle Präsident Kolumbiens?",
+          nl: "Wie is de huidige President van Colombia?"
+        },
+        options: [
+          { en: "Gustavo Petro", es: "Gustavo Petro", de: "Gustavo Petro", nl: "Gustavo Petro" },
+          { en: "Iván Duque", es: "Iván Duque", de: "Iván Duque", nl: "Iván Duque" },
+          { en: "Juan Manuel Santos", es: "Juan Manuel Santos", de: "Juan Manuel Santos", nl: "Juan Manuel Santos" },
+          { en: "Álvaro Uribe", es: "Álvaro Uribe", de: "Álvaro Uribe", nl: "Álvaro Uribe" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gustavo Petro became President of Colombia in August 2022, becoming the country's first leftist president and promising social reforms.",
+          es: "Gustavo Petro se convirtió en Presidente de Colombia en agosto de 2022, convirtiéndose en el primer presidente de izquierda del país y prometiendo reformas sociales.",
+          de: "Gustavo Petro wurde im August 2022 Präsident Kolumbiens, wurde der erste linke Präsident des Landes und versprach Sozialreformen.",
+          nl: "Gustavo Petro werd in augustus 2022 President van Colombia, werd de eerste linkse president van het land en beloofde sociale hervormingen."
+        }
+      },
+      {
+        question: {
+          en: "Who is the current Prime Minister of Sweden?",
+          es: "¿Quién es el actual Primer Ministro de Suecia?",
+          de: "Wer ist der aktuelle Premierminister Schwedens?",
+          nl: "Wie is de huidige Premier van Zweden?"
+        },
+        options: [
+          { en: "Ulf Kristersson", es: "Ulf Kristersson", de: "Ulf Kristersson", nl: "Ulf Kristersson" },
+          { en: "Magdalena Andersson", es: "Magdalena Andersson", de: "Magdalena Andersson", nl: "Magdalena Andersson" },
+          { en: "Stefan Löfven", es: "Stefan Löfven", de: "Stefan Löfven", nl: "Stefan Löfven" },
+          { en: "Fredrik Reinfeldt", es: "Fredrik Reinfeldt", de: "Fredrik Reinfeldt", nl: "Fredrik Reinfeldt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ulf Kristersson became Prime Minister of Sweden in October 2022, leading a center-right coalition government and marking a shift in Swedish politics.",
+          es: "Ulf Kristersson se convirtió en Primer Ministro de Suecia en octubre de 2022, liderando un gobierno de coalición de centro-derecha y marcando un cambio en la política sueca.",
+          de: "Ulf Kristersson wurde im Oktober 2022 Premierminister Schwedens, führt eine Mitte-Rechts-Koalitionsregierung an und markiert einen Wandel in der schwedischen Politik.",
+          nl: "Ulf Kristersson werd in oktober 2022 Premier van Zweden, leidt een centrum-rechtse coalitieregering en markeert een verschuiving in de Zweedse politiek."
+        }
+      },
+      {
+        question: {
+          en: "Who is the current Prime Minister of Norway?",
+          es: "¿Quién es el actual Primer Ministro de Noruega?",
+          de: "Wer ist der aktuelle Premierminister Norwegens?",
+          nl: "Wie is de huidige Premier van Noorwegen?"
+        },
+        options: [
+          { en: "Jonas Gahr Støre", es: "Jonas Gahr Støre", de: "Jonas Gahr Støre", nl: "Jonas Gahr Støre" },
+          { en: "Erna Solberg", es: "Erna Solberg", de: "Erna Solberg", nl: "Erna Solberg" },
+          { en: "Jens Stoltenberg", es: "Jens Stoltenberg", de: "Jens Stoltenberg", nl: "Jens Stoltenberg" },
+          { en: "Kjell Magne Bondevik", es: "Kjell Magne Bondevik", de: "Kjell Magne Bondevik", nl: "Kjell Magne Bondevik" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jonas Gahr Støre has been Prime Minister of Norway since October 2021, leading the Labour Party and a center-left coalition government.",
+          es: "Jonas Gahr Støre ha sido Primer Ministro de Noruega desde octubre de 2021, liderando el Partido Laborista y un gobierno de coalición de centro-izquierda.",
+          de: "Jonas Gahr Støre ist seit Oktober 2021 Premierminister Norwegens, führt die Arbeiterpartei und eine Mitte-Links-Koalitionsregierung an.",
+          nl: "Jonas Gahr Støre is sinds oktober 2021 Premier van Noorwegen, leidt de Arbeiderspartij en een centrum-linkse coalitieregering."
+        }
       }
     ]
   };

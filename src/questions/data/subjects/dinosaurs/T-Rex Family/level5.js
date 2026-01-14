@@ -446,7 +446,427 @@
           es: "Investigaciones recientes sugieren que T. rex probablemente tenía metabolismo mesotérmico, manteniendo temperatura corporal a través de una combinación de producción de calor interno y absorción de calor ambiental. Este estado intermedio habría proporcionado ventajas metabólicas mientras gestionaba los costos energéticos eficientemente.",
           de: "Neuere Forschungen deuten darauf hin, dass T. rex wahrscheinlich einen mesothermischen Stoffwechsel hatte und die Körpertemperatur durch eine Kombination aus interner Wärmeproduktion und Umgebungswärmeabsorption aufrechterhielt. Dieser Zwischenzustand hätte metabolische Vorteile geboten und gleichzeitig die Energiekosten effizient verwaltet.",
           nl: "Recent onderzoek suggereert dat T. rex waarschijnlijk mesothermisch metabolisme had, waarbij lichaamstemperatuur werd gehandhaafd door een combinatie van interne warmteproductie en omgevingswarmte absorptie. Deze tussentoestand zou metabolische voordelen hebben geboden terwijl energiekosten efficiënt werden beheerd."
-        }
+        }    },
+    {
+      question: {
+        en: "What is Tyrannosaurus Rex?",
+        es: "What is Tyrannosaurus Rex?",
+        de: "What is Tyrannosaurus Rex?",
+        nl: "What is Tyrannosaurus Rex?"
+      },
+      options: [
+        { en: "Large carnivorous theropod dinosaur", es: "Large carnivorous theropod dinosaur", de: "Large carnivorous theropod dinosaur", nl: "Large carnivorous theropod dinosaur" },
+        { en: "Herbivorous dinosaur", es: "Herbivorous dinosaur", de: "Herbivorous dinosaur", nl: "Herbivorous dinosaur" },
+        { en: "Flying dinosaur", es: "Flying dinosaur", de: "Flying dinosaur", nl: "Flying dinosaur" },
+        { en: "Marine reptile", es: "Marine reptile", de: "Marine reptile", nl: "Marine reptile" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Tyrannosaurus Rex was one of the largest land carnivores ever, living in Late Cretaceous North America.",
+        es: "Tyrannosaurus Rex was one of the largest land carnivores ever, living in Late Cretaceous North America.",
+        de: "Tyrannosaurus Rex was one of the largest land carnivores ever, living in Late Cretaceous North America.",
+        nl: "Tyrannosaurus Rex was one of the largest land carnivores ever, living in Late Cretaceous North America."
+      }
+    },
+    {
+      question: {
+        en: "What does Tyrannosaurus Rex mean?",
+        es: "What does Tyrannosaurus Rex mean?",
+        de: "What does Tyrannosaurus Rex mean?",
+        nl: "What does Tyrannosaurus Rex mean?"
+      },
+      options: [
+        { en: "Tyrant Lizard King", es: "Tyrant Lizard King", de: "Tyrant Lizard King", nl: "Tyrant Lizard King" },
+        { en: "Terrible Lizard", es: "Terrible Lizard", de: "Terrible Lizard", nl: "Terrible Lizard" },
+        { en: "Giant Reptile", es: "Giant Reptile", de: "Giant Reptile", nl: "Giant Reptile" },
+        { en: "Ancient Beast", es: "Ancient Beast", de: "Ancient Beast", nl: "Ancient Beast" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Tyrannosaurus Rex means 'Tyrant Lizard King' in Greek and Latin.",
+        es: "Tyrannosaurus Rex means 'Tyrant Lizard King' in Greek and Latin.",
+        de: "Tyrannosaurus Rex means 'Tyrant Lizard King' in Greek and Latin.",
+        nl: "Tyrannosaurus Rex means 'Tyrant Lizard King' in Greek and Latin."
+      }
+    },
+    {
+      question: {
+        en: "How long was T-Rex?",
+        es: "How long was T-Rex?",
+        de: "How long was T-Rex?",
+        nl: "How long was T-Rex?"
+      },
+      options: [
+        { en: "About 40 feet", es: "About 40 feet", de: "About 40 feet", nl: "About 40 feet" },
+        { en: "About 20 feet", es: "About 20 feet", de: "About 20 feet", nl: "About 20 feet" },
+        { en: "About 80 feet", es: "About 80 feet", de: "About 80 feet", nl: "About 80 feet" },
+        { en: "About 100 feet", es: "About 100 feet", de: "About 100 feet", nl: "About 100 feet" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "T-Rex measured about 40 feet from nose to tail.",
+        es: "T-Rex measured about 40 feet from nose to tail.",
+        de: "T-Rex measured about 40 feet from nose to tail.",
+        nl: "T-Rex measured about 40 feet from nose to tail."
+      }
+    },
+    {
+      question: {
+        en: "What was T-Rex's bite force?",
+        es: "What was T-Rex's bite force?",
+        de: "What was T-Rex's bite force?",
+        nl: "What was T-Rex's bite force?"
+      },
+      options: [
+        { en: "Strongest of any land animal, ~12,800 pounds", es: "Strongest of any land animal, ~12,800 pounds", de: "Strongest of any land animal, ~12,800 pounds", nl: "Strongest of any land animal, ~12,800 pounds" },
+        { en: "Weak bite", es: "Weak bite", de: "Weak bite", nl: "Weak bite" },
+        { en: "Moderate bite", es: "Moderate bite", de: "Moderate bite", nl: "Moderate bite" },
+        { en: "Unknown", es: "Unknown", de: "Unknown", nl: "Unknown" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "T-Rex had the strongest bite force of any land animal, estimated at over 12,800 pounds.",
+        es: "T-Rex had the strongest bite force of any land animal, estimated at over 12,800 pounds.",
+        de: "T-Rex had the strongest bite force of any land animal, estimated at over 12,800 pounds.",
+        nl: "T-Rex had the strongest bite force of any land animal, estimated at over 12,800 pounds."
+      }
+    },
+    {
+      question: {
+        en: "What is the T-Rex family called?",
+        es: "What is the T-Rex family called?",
+        de: "What is the T-Rex family called?",
+        nl: "What is the T-Rex family called?"
+      },
+      options: [
+        { en: "Tyrannosauridae", es: "Tyrannosauridae", de: "Tyrannosauridae", nl: "Tyrannosauridae" },
+        { en: "Allosauridae", es: "Allosauridae", de: "Allosauridae", nl: "Allosauridae" },
+        { en: "Spinosauridae", es: "Spinosauridae", de: "Spinosauridae", nl: "Spinosauridae" },
+        { en: "Theropoda only", es: "Theropoda only", de: "Theropoda only", nl: "Theropoda only" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The T-Rex belongs to the family Tyrannosauridae.",
+        es: "The T-Rex belongs to the family Tyrannosauridae.",
+        de: "The T-Rex belongs to the family Tyrannosauridae.",
+        nl: "The T-Rex belongs to the family Tyrannosauridae."
+      }
+    },
+    {
+      question: {
+        en: "What is Albertosaurus?",
+        es: "What is Albertosaurus?",
+        de: "What is Albertosaurus?",
+        nl: "What is Albertosaurus?"
+      },
+      options: [
+        { en: "Smaller relative of T-Rex", es: "Smaller relative of T-Rex", de: "Smaller relative of T-Rex", nl: "Smaller relative of T-Rex" },
+        { en: "Larger than T-Rex", es: "Larger than T-Rex", de: "Larger than T-Rex", nl: "Larger than T-Rex" },
+        { en: "Herbivore", es: "Herbivore", de: "Herbivore", nl: "Herbivore" },
+        { en: "Flying dinosaur", es: "Flying dinosaur", de: "Flying dinosaur", nl: "Flying dinosaur" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Albertosaurus was a smaller tyrannosaurid, about 30 feet long, from Late Cretaceous Canada.",
+        es: "Albertosaurus was a smaller tyrannosaurid, about 30 feet long, from Late Cretaceous Canada.",
+        de: "Albertosaurus was a smaller tyrannosaurid, about 30 feet long, from Late Cretaceous Canada.",
+        nl: "Albertosaurus was a smaller tyrannosaurid, about 30 feet long, from Late Cretaceous Canada."
+      }
+    },
+    {
+      question: {
+        en: "How many fingers did T-Rex have?",
+        es: "How many fingers did T-Rex have?",
+        de: "How many fingers did T-Rex have?",
+        nl: "How many fingers did T-Rex have?"
+      },
+      options: [
+        { en: "Two", es: "Two", de: "Two", nl: "Two" },
+        { en: "Three", es: "Three", de: "Three", nl: "Three" },
+        { en: "Four", es: "Four", de: "Four", nl: "Four" },
+        { en: "Five", es: "Five", de: "Five", nl: "Five" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "T-Rex had only two functional fingers on each tiny arm.",
+        es: "T-Rex had only two functional fingers on each tiny arm.",
+        de: "T-Rex had only two functional fingers on each tiny arm.",
+        nl: "T-Rex had only two functional fingers on each tiny arm."
+      }
+    },
+    {
+      question: {
+        en: "What is Tarbosaurus?",
+        es: "What is Tarbosaurus?",
+        de: "What is Tarbosaurus?",
+        nl: "What is Tarbosaurus?"
+      },
+      options: [
+        { en: "Asian relative of T-Rex", es: "Asian relative of T-Rex", de: "Asian relative of T-Rex", nl: "Asian relative of T-Rex" },
+        { en: "African T-Rex", es: "African T-Rex", de: "African T-Rex", nl: "African T-Rex" },
+        { en: "South American T-Rex", es: "South American T-Rex", de: "South American T-Rex", nl: "South American T-Rex" },
+        { en: "Australian T-Rex", es: "Australian T-Rex", de: "Australian T-Rex", nl: "Australian T-Rex" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Tarbosaurus was a close Asian relative of T-Rex from Mongolia, nearly as large.",
+        es: "Tarbosaurus was a close Asian relative of T-Rex from Mongolia, nearly as large.",
+        de: "Tarbosaurus was a close Asian relative of T-Rex from Mongolia, nearly as large.",
+        nl: "Tarbosaurus was a close Asian relative of T-Rex from Mongolia, nearly as large."
+      }
+    },
+    {
+      question: {
+        en: "Were T-Rex arms useless?",
+        es: "Were T-Rex arms useless?",
+        de: "Were T-Rex arms useless?",
+        nl: "Were T-Rex arms useless?"
+      },
+      options: [
+        { en: "No, likely used for grasping", es: "No, likely used for grasping", de: "No, likely used for grasping", nl: "No, likely used for grasping" },
+        { en: "Yes, completely useless", es: "Yes, completely useless", de: "Yes, completely useless", nl: "Yes, completely useless" },
+        { en: "Used for flying", es: "Used for flying", de: "Used for flying", nl: "Used for flying" },
+        { en: "Used for walking", es: "Used for walking", de: "Used for walking", nl: "Used for walking" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "T-Rex arms, though small, were muscular and likely used for grasping prey or mates.",
+        es: "T-Rex arms, though small, were muscular and likely used for grasping prey or mates.",
+        de: "T-Rex arms, though small, were muscular and likely used for grasping prey or mates.",
+        nl: "T-Rex arms, though small, were muscular and likely used for grasping prey or mates."
+      }
+    },
+    {
+      question: {
+        en: "What is Daspletosaurus?",
+        es: "What is Daspletosaurus?",
+        de: "What is Daspletosaurus?",
+        nl: "What is Daspletosaurus?"
+      },
+      options: [
+        { en: "Large tyrannosaurid related to T-Rex", es: "Large tyrannosaurid related to T-Rex", de: "Large tyrannosaurid related to T-Rex", nl: "Large tyrannosaurid related to T-Rex" },
+        { en: "Small tyrannosaur", es: "Small tyrannosaur", de: "Small tyrannosaur", nl: "Small tyrannosaur" },
+        { en: "Herbivore", es: "Herbivore", de: "Herbivore", nl: "Herbivore" },
+        { en: "Flying dinosaur", es: "Flying dinosaur", de: "Flying dinosaur", nl: "Flying dinosaur" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Daspletosaurus was a large tyrannosaurid from Late Cretaceous North America, closely related to T-Rex.",
+        es: "Daspletosaurus was a large tyrannosaurid from Late Cretaceous North America, closely related to T-Rex.",
+        de: "Daspletosaurus was a large tyrannosaurid from Late Cretaceous North America, closely related to T-Rex.",
+        nl: "Daspletosaurus was a large tyrannosaurid from Late Cretaceous North America, closely related to T-Rex."
+      }
+    },
+    {
+      question: {
+        en: "What did T-Rex eat?",
+        es: "What did T-Rex eat?",
+        de: "What did T-Rex eat?",
+        nl: "What did T-Rex eat?"
+      },
+      options: [
+        { en: "Large herbivorous dinosaurs", es: "Large herbivorous dinosaurs", de: "Large herbivorous dinosaurs", nl: "Large herbivorous dinosaurs" },
+        { en: "Plants", es: "Plants", de: "Plants", nl: "Plants" },
+        { en: "Fish", es: "Fish", de: "Fish", nl: "Fish" },
+        { en: "Insects", es: "Insects", de: "Insects", nl: "Insects" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "T-Rex preyed on large herbivorous dinosaurs like Triceratops and hadrosaurs.",
+        es: "T-Rex preyed on large herbivorous dinosaurs like Triceratops and hadrosaurs.",
+        de: "T-Rex preyed on large herbivorous dinosaurs like Triceratops and hadrosaurs.",
+        nl: "T-Rex preyed on large herbivorous dinosaurs like Triceratops and hadrosaurs."
+      }
+    },
+    {
+      question: {
+        en: "What is Gorgosaurus?",
+        es: "What is Gorgosaurus?",
+        de: "What is Gorgosaurus?",
+        nl: "What is Gorgosaurus?"
+      },
+      options: [
+        { en: "Albertosaurus relative, tyrannosaurid", es: "Albertosaurus relative, tyrannosaurid", de: "Albertosaurus relative, tyrannosaurid", nl: "Albertosaurus relative, tyrannosaurid" },
+        { en: "Larger than T-Rex", es: "Larger than T-Rex", de: "Larger than T-Rex", nl: "Larger than T-Rex" },
+        { en: "Herbivore", es: "Herbivore", de: "Herbivore", nl: "Herbivore" },
+        { en: "Marine reptile", es: "Marine reptile", de: "Marine reptile", nl: "Marine reptile" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Gorgosaurus was a tyrannosaurid similar to Albertosaurus, from Late Cretaceous North America.",
+        es: "Gorgosaurus was a tyrannosaurid similar to Albertosaurus, from Late Cretaceous North America.",
+        de: "Gorgosaurus was a tyrannosaurid similar to Albertosaurus, from Late Cretaceous North America.",
+        nl: "Gorgosaurus was a tyrannosaurid similar to Albertosaurus, from Late Cretaceous North America."
+      }
+    },
+    {
+      question: {
+        en: "Did T-Rex have feathers?",
+        es: "Did T-Rex have feathers?",
+        de: "Did T-Rex have feathers?",
+        nl: "Did T-Rex have feathers?"
+      },
+      options: [
+        { en: "Possibly when young; adults may have been scaly", es: "Possibly when young; adults may have been scaly", de: "Possibly when young; adults may have been scaly", nl: "Possibly when young; adults may have been scaly" },
+        { en: "Yes, fully feathered", es: "Yes, fully feathered", de: "Yes, fully feathered", nl: "Yes, fully feathered" },
+        { en: "No feathers at all", es: "No feathers at all", de: "No feathers at all", nl: "No feathers at all" },
+        { en: "Unknown", es: "Unknown", de: "Unknown", nl: "Unknown" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Evidence suggests young tyrannosaurs may have had feathers, but adults were likely mostly scaly.",
+        es: "Evidence suggests young tyrannosaurs may have had feathers, but adults were likely mostly scaly.",
+        de: "Evidence suggests young tyrannosaurs may have had feathers, but adults were likely mostly scaly.",
+        nl: "Evidence suggests young tyrannosaurs may have had feathers, but adults were likely mostly scaly."
+      }
+    },
+    {
+      question: {
+        en: "What is the earliest tyrannosaur?",
+        es: "What is the earliest tyrannosaur?",
+        de: "What is the earliest tyrannosaur?",
+        nl: "What is the earliest tyrannosaur?"
+      },
+      options: [
+        { en: "Proceratosaurus or Guanlong", es: "Proceratosaurus or Guanlong", de: "Proceratosaurus or Guanlong", nl: "Proceratosaurus or Guanlong" },
+        { en: "T-Rex", es: "T-Rex", de: "T-Rex", nl: "T-Rex" },
+        { en: "Albertosaurus", es: "Albertosaurus", de: "Albertosaurus", nl: "Albertosaurus" },
+        { en: "Tarbosaurus", es: "Tarbosaurus", de: "Tarbosaurus", nl: "Tarbosaurus" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Early tyrannosaurs like Proceratosaurus and Guanlong lived in the Jurassic, much smaller than later forms.",
+        es: "Early tyrannosaurs like Proceratosaurus and Guanlong lived in the Jurassic, much smaller than later forms.",
+        de: "Early tyrannosaurs like Proceratosaurus and Guanlong lived in the Jurassic, much smaller than later forms.",
+        nl: "Early tyrannosaurs like Proceratosaurus and Guanlong lived in the Jurassic, much smaller than later forms."
+      }
+    },
+    {
+      question: {
+        en: "How fast could T-Rex run?",
+        es: "How fast could T-Rex run?",
+        de: "How fast could T-Rex run?",
+        nl: "How fast could T-Rex run?"
+      },
+      options: [
+        { en: "12-25 mph estimated", es: "12-25 mph estimated", de: "12-25 mph estimated", nl: "12-25 mph estimated" },
+        { en: "50 mph", es: "50 mph", de: "50 mph", nl: "50 mph" },
+        { en: "5 mph", es: "5 mph", de: "5 mph", nl: "5 mph" },
+        { en: "Couldn't run", es: "Couldn't run", de: "Couldn't run", nl: "Couldn't run" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Estimates suggest T-Rex could move at 12-25 mph, though debate continues.",
+        es: "Estimates suggest T-Rex could move at 12-25 mph, though debate continues.",
+        de: "Estimates suggest T-Rex could move at 12-25 mph, though debate continues.",
+        nl: "Estimates suggest T-Rex could move at 12-25 mph, though debate continues."
+      }
+    },
+    {
+      question: {
+        en: "What is Yutyrannus?",
+        es: "What is Yutyrannus?",
+        de: "What is Yutyrannus?",
+        nl: "What is Yutyrannus?"
+      },
+      options: [
+        { en: "Largest known feathered dinosaur, early tyrannosaur", es: "Largest known feathered dinosaur, early tyrannosaur", de: "Largest known feathered dinosaur, early tyrannosaur", nl: "Largest known feathered dinosaur, early tyrannosaur" },
+        { en: "Late tyrannosaur", es: "Late tyrannosaur", de: "Late tyrannosaur", nl: "Late tyrannosaur" },
+        { en: "Herbivore", es: "Herbivore", de: "Herbivore", nl: "Herbivore" },
+        { en: "Marine reptile", es: "Marine reptile", de: "Marine reptile", nl: "Marine reptile" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Yutyrannus was an early tyrannosauroid from China, the largest known feathered dinosaur at 30 feet long.",
+        es: "Yutyrannus was an early tyrannosauroid from China, the largest known feathered dinosaur at 30 feet long.",
+        de: "Yutyrannus was an early tyrannosauroid from China, the largest known feathered dinosaur at 30 feet long.",
+        nl: "Yutyrannus was an early tyrannosauroid from China, the largest known feathered dinosaur at 30 feet long."
+      }
+    },
+    {
+      question: {
+        en: "How good was T-Rex's sense of smell?",
+        es: "How good was T-Rex's sense of smell?",
+        de: "How good was T-Rex's sense of smell?",
+        nl: "How good was T-Rex's sense of smell?"
+      },
+      options: [
+        { en: "Excellent, among the best", es: "Excellent, among the best", de: "Excellent, among the best", nl: "Excellent, among the best" },
+        { en: "Poor", es: "Poor", de: "Poor", nl: "Poor" },
+        { en: "Average", es: "Average", de: "Average", nl: "Average" },
+        { en: "No sense of smell", es: "No sense of smell", de: "No sense of smell", nl: "No sense of smell" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "T-Rex had an exceptionally large olfactory bulb, suggesting an excellent sense of smell.",
+        es: "T-Rex had an exceptionally large olfactory bulb, suggesting an excellent sense of smell.",
+        de: "T-Rex had an exceptionally large olfactory bulb, suggesting an excellent sense of smell.",
+        nl: "T-Rex had an exceptionally large olfactory bulb, suggesting an excellent sense of smell."
+      }
+    },
+    {
+      question: {
+        en: "What is a juvenile T-Rex called informally?",
+        es: "What is a juvenile T-Rex called informally?",
+        de: "What is a juvenile T-Rex called informally?",
+        nl: "What is a juvenile T-Rex called informally?"
+      },
+      options: [
+        { en: "Jane or juvenile T-Rex", es: "Jane or juvenile T-Rex", de: "Jane or juvenile T-Rex", nl: "Jane or juvenile T-Rex" },
+        { en: "Baby Rex", es: "Baby Rex", de: "Baby Rex", nl: "Baby Rex" },
+        { en: "Mini Rex", es: "Mini Rex", de: "Mini Rex", nl: "Mini Rex" },
+        { en: "T-Rex Jr.", es: "T-Rex Jr.", de: "T-Rex Jr.", nl: "T-Rex Jr." }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Several juvenile T-Rex specimens have been found; one famous specimen is nicknamed 'Jane'.",
+        es: "Several juvenile T-Rex specimens have been found; one famous specimen is nicknamed 'Jane'.",
+        de: "Several juvenile T-Rex specimens have been found; one famous specimen is nicknamed 'Jane'.",
+        nl: "Several juvenile T-Rex specimens have been found; one famous specimen is nicknamed 'Jane'."
+      }
+    },
+    {
+      question: {
+        en: "Was T-Rex a scavenger or hunter?",
+        es: "Was T-Rex a scavenger or hunter?",
+        de: "Was T-Rex a scavenger or hunter?",
+        nl: "Was T-Rex a scavenger or hunter?"
+      },
+      options: [
+        { en: "Likely both, primarily hunter", es: "Likely both, primarily hunter", de: "Likely both, primarily hunter", nl: "Likely both, primarily hunter" },
+        { en: "Only scavenger", es: "Only scavenger", de: "Only scavenger", nl: "Only scavenger" },
+        { en: "Only hunter", es: "Only hunter", de: "Only hunter", nl: "Only hunter" },
+        { en: "Neither", es: "Neither", de: "Neither", nl: "Neither" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Evidence suggests T-Rex was primarily an active hunter but would also scavenge when opportunities arose.",
+        es: "Evidence suggests T-Rex was primarily an active hunter but would also scavenge when opportunities arose.",
+        de: "Evidence suggests T-Rex was primarily an active hunter but would also scavenge when opportunities arose.",
+        nl: "Evidence suggests T-Rex was primarily an active hunter but would also scavenge when opportunities arose."
+      }
+    },
+    {
+      question: {
+        en: "What period did T-Rex live in?",
+        es: "What period did T-Rex live in?",
+        de: "What period did T-Rex live in?",
+        nl: "What period did T-Rex live in?"
+      },
+      options: [
+        { en: "Very end of Cretaceous Period", es: "Very end of Cretaceous Period", de: "Very end of Cretaceous Period", nl: "Very end of Cretaceous Period" },
+        { en: "Jurassic Period", es: "Jurassic Period", de: "Jurassic Period", nl: "Jurassic Period" },
+        { en: "Early Cretaceous", es: "Early Cretaceous", de: "Early Cretaceous", nl: "Early Cretaceous" },
+        { en: "Triassic Period", es: "Triassic Period", de: "Triassic Period", nl: "Triassic Period" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "T-Rex lived only during the very end of the Cretaceous Period, 68-66 million years ago.",
+        es: "T-Rex lived only during the very end of the Cretaceous Period, 68-66 million years ago.",
+        de: "T-Rex lived only during the very end of the Cretaceous Period, 68-66 million years ago.",
+        nl: "T-Rex lived only during the very end of the Cretaceous Period, 68-66 million years ago."
+      }
+
       }
     ]
   };

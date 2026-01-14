@@ -1,4 +1,4 @@
-﻿// Entrepreneurs Quiz - Level 2: Easy
+// Entrepreneurs Quiz - Level 2: Easy
 (function() {
   const level2 = {
     name: {
@@ -19,28 +19,7 @@
           { en: "Fred DeLuca", es: "Fred DeLuca", de: "Fred DeLuca", nl: "Fred DeLuca" },
           { en: "Ray Kroc", es: "Ray Kroc", de: "Ray Kroc", nl: "Ray Kroc" },
           { en: "Dave Thomas", es: "Dave Thomas", de: "Dave Thomas", nl: "Dave Thomas" },
-          { en: "Harland Sanders", es: "Harland Sanders", de: "Harland Sanders", nl: "Harland Sanders" },
-        {
-            question: {
-                en: "Who co-founded Microsoft with Bill Gates?",
-                es: "¿Quién cofundó Microsoft con Bill Gates?",
-                de: "Wer gründete Microsoft zusammen mit Bill Gates?",
-                nl: "Wie richtte Microsoft op samen met Bill Gates?"
-            },
-            options: [
-                { en: "Paul Allen", es: "Paul Allen", de: "Paul Allen", nl: "Paul Allen" },
-                { en: "Steve Ballmer", es: "Steve Ballmer", de: "Steve Ballmer", nl: "Steve Ballmer" },
-                { en: "Larry Ellison", es: "Larry Ellison", de: "Larry Ellison", nl: "Larry Ellison" },
-                { en: "Steve Wozniak", es: "Steve Wozniak", de: "Steve Wozniak", nl: "Steve Wozniak" }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Paul Allen co-founded Microsoft with Bill Gates in 1975. Allen played a crucial role in the company's early development, including convincing MITS to hire Microsoft to create software for the Altair 8800. He left Microsoft in 1983 but remained one of the world's wealthiest individuals through his investments.",
-                es: "Paul Allen cofundó Microsoft con Bill Gates en 1975. Allen jugó un papel crucial en el desarrollo temprano de la compañía, incluyendo convencer a MITS de contratar a Microsoft para crear software para el Altair 8800. Dejó Microsoft en 1983 pero permaneció como uno de los individuos más ricos del mundo a través de sus inversiones.",
-                de: "Paul Allen gründete 1975 Microsoft zusammen mit Bill Gates. Allen spielte eine entscheidende Rolle in der frühen Entwicklung des Unternehmens, einschließlich der Überzeugung von MITS, Microsoft einzustellen, um Software für den Altair 8800 zu erstellen. Er verließ Microsoft 1983, blieb aber durch seine Investitionen einer der reichsten Menschen der Welt.",
-                nl: "Paul Allen richtte Microsoft op samen met Bill Gates in 1975. Allen speelde een cruciale rol in de vroege ontwikkeling van het bedrijf, waaronder het overtuigen van MITS om Microsoft in te huren om software te creëren voor de Altair 8800. Hij verliet Microsoft in 1983 maar bleef een van 's werelds rijkste individuen door zijn investeringen."
-            }
-        }
+          { en: "Harland Sanders", es: "Harland Sanders", de: "Harland Sanders", nl: "Harland Sanders" }
         ],
         correct: 0,
         explanation: {
@@ -48,6 +27,27 @@
           es: "Fred DeLuca fundó Subway en 1965 a los 17 años con un préstamo de $1,000 del amigo de la familia Peter Buck, comenzando con una sola tienda de sándwiches en Connecticut.",
           de: "Fred DeLuca gründete Subway 1965 im Alter von 17 Jahren mit einem 1.000-Dollar-Darlehen vom Familienfreund Peter Buck, beginnend mit einem einzigen Sandwich-Laden in Connecticut.",
           nl: "Fred DeLuca richtte Subway op in 1965 op 17-jarige leeftijd met een lening van $1.000 van familievriend Peter Buck, hij begon met één broodjeswinkel in Connecticut."
+        }
+      },
+      {
+        question: {
+          en: "Who co-founded Microsoft with Bill Gates?",
+          es: "¿Quién cofundó Microsoft con Bill Gates?",
+          de: "Wer gründete Microsoft zusammen mit Bill Gates?",
+          nl: "Wie richtte Microsoft op samen met Bill Gates?"
+        },
+        options: [
+          { en: "Paul Allen", es: "Paul Allen", de: "Paul Allen", nl: "Paul Allen" },
+          { en: "Steve Ballmer", es: "Steve Ballmer", de: "Steve Ballmer", nl: "Steve Ballmer" },
+          { en: "Larry Ellison", es: "Larry Ellison", de: "Larry Ellison", nl: "Larry Ellison" },
+          { en: "Steve Wozniak", es: "Steve Wozniak", de: "Steve Wozniak", nl: "Steve Wozniak" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Paul Allen co-founded Microsoft with Bill Gates in 1975. Allen played a crucial role in the company's early development, including convincing MITS to hire Microsoft to create software for the Altair 8800. He left Microsoft in 1983 but remained one of the world's wealthiest individuals through his investments.",
+          es: "Paul Allen cofundó Microsoft con Bill Gates en 1975. Allen jugó un papel crucial en el desarrollo temprano de la compañía, incluyendo convencer a MITS de contratar a Microsoft para crear software para el Altair 8800. Dejó Microsoft en 1983 pero permaneció como uno de los individuos más ricos del mundo a través de sus inversiones.",
+          de: "Paul Allen gründete 1975 Microsoft zusammen mit Bill Gates. Allen spielte eine entscheidende Rolle in der frühen Entwicklung des Unternehmens, einschließlich der Überzeugung von MITS, Microsoft einzustellen, um Software für den Altair 8800 zu erstellen. Er verließ Microsoft 1983, blieb aber durch seine Investitionen einer der reichsten Menschen der Welt.",
+          nl: "Paul Allen richtte Microsoft op samen met Bill Gates in 1975. Allen speelde een cruciale rol in de vroege ontwikkeling van het bedrijf, waaronder het overtuigen van MITS om Microsoft in te huren om software te creëren voor de Altair 8800. Hij verliet Microsoft in 1983 maar bleef een van 's werelds rijkste individuen door zijn investeringen."
         }
       },
       {
@@ -426,6 +426,363 @@
           es: "Conrad Hilton fundó Hilton Hotels en 1919, comenzando con el Mobley Hotel en Texas. Lo construyó hasta convertirlo en una de las empresas de hospitalidad más grandes del mundo.",
           de: "Conrad Hilton gründete Hilton Hotels 1919, beginnend mit dem Mobley Hotel in Texas. Er baute es zu einem der größten Gastgewerbeunternehmen der Welt auf.",
           nl: "Conrad Hilton richtte Hilton Hotels op in 1919, hij begon met het Mobley Hotel in Texas. Hij bouwde het uit tot een van 's werelds grootste hotelmaatschappijen."
+        }
+      },
+      {
+        question: {
+          en: "Who founded KFC (Kentucky Fried Chicken)?",
+          es: "¿Quién fundó KFC (Kentucky Fried Chicken)?",
+          de: "Wer gründete KFC (Kentucky Fried Chicken)?",
+          nl: "Wie heeft KFC (Kentucky Fried Chicken) opgericht?"
+        },
+        options: [
+          { en: "Colonel Harland Sanders", es: "Colonel Harland Sanders", de: "Colonel Harland Sanders", nl: "Colonel Harland Sanders" },
+          { en: "Ray Kroc", es: "Ray Kroc", de: "Ray Kroc", nl: "Ray Kroc" },
+          { en: "Dave Thomas", es: "Dave Thomas", de: "Dave Thomas", nl: "Dave Thomas" },
+          { en: "Fred DeLuca", es: "Fred DeLuca", de: "Fred DeLuca", nl: "Fred DeLuca" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Colonel Harland Sanders founded KFC in 1952, perfecting his secret recipe of 11 herbs and spices. He franchised his chicken business across America, becoming a cultural icon with his white suit and goatee.",
+          es: "Colonel Harland Sanders fundó KFC en 1952, perfeccionando su receta secreta de 11 hierbas y especias. Franquició su negocio de pollo en toda América, convirtiéndose en un icono cultural con su traje blanco y perilla.",
+          de: "Colonel Harland Sanders gründete KFC 1952 und perfektionierte sein Geheimrezept aus 11 Kräutern und Gewürzen. Er franchisierte sein Hähnchengeschäft in ganz Amerika und wurde mit seinem weißen Anzug und Spitzbart zur Kultfigur.",
+          nl: "Colonel Harland Sanders richtte KFC op in 1952, hij perfectioneerde zijn geheime recept van 11 kruiden en specerijen. Hij franchisede zijn kipbedrijf in heel Amerika en werd een cultureel icoon met zijn witte pak en sik."
+        }
+      },
+      {
+        question: {
+          en: "Which e-commerce company was founded by Jeff Bezos?",
+          es: "¿Qué empresa de comercio electrónico fue fundada por Jeff Bezos?",
+          de: "Welches E-Commerce-Unternehmen wurde von Jeff Bezos gegründet?",
+          nl: "Welk e-commercebedrijf werd opgericht door Jeff Bezos?"
+        },
+        options: [
+          { en: "Amazon", es: "Amazon", de: "Amazon", nl: "Amazon" },
+          { en: "eBay", es: "eBay", de: "eBay", nl: "eBay" },
+          { en: "Alibaba", es: "Alibaba", de: "Alibaba", nl: "Alibaba" },
+          { en: "PayPal", es: "PayPal", de: "PayPal", nl: "PayPal" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jeff Bezos founded Amazon in 1994 as an online bookstore in his garage. It grew into the world's largest online retailer and cloud computing provider, making Bezos one of the world's wealthiest people.",
+          es: "Jeff Bezos fundó Amazon en 1994 como una librería en línea en su garaje. Creció hasta convertirse en el minorista en línea más grande del mundo y proveedor de computación en la nube, haciendo de Bezos una de las personas más ricas del mundo.",
+          de: "Jeff Bezos gründete Amazon 1994 als Online-Buchhandlung in seiner Garage. Es wuchs zum weltgrößten Online-Händler und Cloud-Computing-Anbieter und machte Bezos zu einem der reichsten Menschen der Welt.",
+          nl: "Jeff Bezos richtte Amazon op in 1994 als een online boekwinkel in zijn garage. Het groeide uit tot 's werelds grootste online retailer en cloud computing provider, waardoor Bezos een van 's werelds rijkste mensen werd."
+        }
+      },
+      {
+        question: {
+          en: "Who founded the social media platform Facebook?",
+          es: "¿Quién fundó la plataforma de redes sociales Facebook?",
+          de: "Wer gründete die Social-Media-Plattform Facebook?",
+          nl: "Wie heeft het sociale mediaplatform Facebook opgericht?"
+        },
+        options: [
+          { en: "Mark Zuckerberg", es: "Mark Zuckerberg", de: "Mark Zuckerberg", nl: "Mark Zuckerberg" },
+          { en: "Eduardo Saverin", es: "Eduardo Saverin", de: "Eduardo Saverin", nl: "Eduardo Saverin" },
+          { en: "Dustin Moskovitz", es: "Dustin Moskovitz", de: "Dustin Moskovitz", nl: "Dustin Moskovitz" },
+          { en: "Chris Hughes", es: "Chris Hughes", de: "Chris Hughes", nl: "Chris Hughes" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mark Zuckerberg founded Facebook in 2004 from his Harvard dorm room with co-founders Eduardo Saverin, Dustin Moskovitz, and Chris Hughes. It grew to become the world's largest social network with billions of users.",
+          es: "Mark Zuckerberg fundó Facebook en 2004 desde su habitación de dormitorio en Harvard con cofundadores Eduardo Saverin, Dustin Moskovitz y Chris Hughes. Creció hasta convertirse en la red social más grande del mundo con miles de millones de usuarios.",
+          de: "Mark Zuckerberg gründete Facebook 2004 aus seinem Harvard-Wohnheimzimmer mit Mitgründern Eduardo Saverin, Dustin Moskovitz und Chris Hughes. Es wurde zum weltgrößten sozialen Netzwerk mit Milliarden von Nutzern.",
+          nl: "Mark Zuckerberg richtte Facebook op in 2004 vanuit zijn Harvard-studentenkamer met medeoprichters Eduardo Saverin, Dustin Moskovitz en Chris Hughes. Het groeide uit tot 's werelds grootste sociale netwerk met miljarden gebruikers."
+        }
+      },
+      {
+        question: {
+          en: "Which search engine company was founded by Larry Page and Sergey Brin?",
+          es: "¿Qué empresa de motores de búsqueda fue fundada por Larry Page y Sergey Brin?",
+          de: "Welches Suchmaschinenunternehmen wurde von Larry Page und Sergey Brin gegründet?",
+          nl: "Welk zoekmachinebedrijf werd opgericht door Larry Page en Sergey Brin?"
+        },
+        options: [
+          { en: "Google", es: "Google", de: "Google", nl: "Google" },
+          { en: "Yahoo", es: "Yahoo", de: "Yahoo", nl: "Yahoo" },
+          { en: "Bing", es: "Bing", de: "Bing", nl: "Bing" },
+          { en: "Ask Jeeves", es: "Ask Jeeves", de: "Ask Jeeves", nl: "Ask Jeeves" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Larry Page and Sergey Brin founded Google in 1998 while PhD students at Stanford. Their PageRank algorithm revolutionized search, and Google became the world's dominant search engine and tech giant.",
+          es: "Larry Page y Sergey Brin fundaron Google en 1998 mientras eran estudiantes de doctorado en Stanford. Su algoritmo PageRank revolucionó la búsqueda, y Google se convirtió en el motor de búsqueda dominante del mundo y gigante tecnológico.",
+          de: "Larry Page und Sergey Brin gründeten Google 1998 als Doktoranden in Stanford. Ihr PageRank-Algorithmus revolutionierte die Suche, und Google wurde zur weltweit dominierenden Suchmaschine und zum Techgiganten.",
+          nl: "Larry Page en Sergey Brin richtten Google op in 1998 als PhD-studenten aan Stanford. Hun PageRank-algoritme revolutioneerde zoeken, en Google werd 's werelds dominante zoekmachine en technologiegigant."
+        }
+      },
+      {
+        question: {
+          en: "Who founded the electric car company Tesla?",
+          es: "¿Quién fundó la empresa de autos eléctricos Tesla?",
+          de: "Wer gründete das Elektroauto-Unternehmen Tesla?",
+          nl: "Wie heeft het elektrische autobedrijf Tesla opgericht?"
+        },
+        options: [
+          { en: "Martin Eberhard and Marc Tarpenning", es: "Martin Eberhard y Marc Tarpenning", de: "Martin Eberhard und Marc Tarpenning", nl: "Martin Eberhard en Marc Tarpenning" },
+          { en: "Elon Musk", es: "Elon Musk", de: "Elon Musk", nl: "Elon Musk" },
+          { en: "JB Straubel", es: "JB Straubel", de: "JB Straubel", nl: "JB Straubel" },
+          { en: "Ian Wright", es: "Ian Wright", de: "Ian Wright", nl: "Ian Wright" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Martin Eberhard and Marc Tarpenning founded Tesla in 2003. Elon Musk joined as chairman and major investor in 2004, later becoming CEO and the public face of the company.",
+          es: "Martin Eberhard y Marc Tarpenning fundaron Tesla en 2003. Elon Musk se unió como presidente e inversor principal en 2004, convirtiéndose más tarde en CEO y la cara pública de la compañía.",
+          de: "Martin Eberhard und Marc Tarpenning gründeten Tesla 2003. Elon Musk kam 2004 als Vorsitzender und Hauptinvestor dazu und wurde später CEO und öffentliches Gesicht des Unternehmens.",
+          nl: "Martin Eberhard en Marc Tarpenning richtten Tesla op in 2003. Elon Musk sloot zich aan als voorzitter en grote investeerder in 2004 en werd later CEO en het publieke gezicht van het bedrijf."
+        }
+      },
+      {
+        question: {
+          en: "Which mobile phone company was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne?",
+          es: "¿Qué empresa de teléfonos móviles fue fundada por Steve Jobs, Steve Wozniak y Ronald Wayne?",
+          de: "Welches Mobiltelefon-Unternehmen wurde von Steve Jobs, Steve Wozniak und Ronald Wayne gegründet?",
+          nl: "Welk mobiele telefoonbedrijf werd opgericht door Steve Jobs, Steve Wozniak en Ronald Wayne?"
+        },
+        options: [
+          { en: "Apple", es: "Apple", de: "Apple", nl: "Apple" },
+          { en: "Nokia", es: "Nokia", de: "Nokia", nl: "Nokia" },
+          { en: "BlackBerry", es: "BlackBerry", de: "BlackBerry", nl: "BlackBerry" },
+          { en: "Motorola", es: "Motorola", de: "Motorola", nl: "Motorola" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Steve Jobs, Steve Wozniak, and Ronald Wayne founded Apple Computer in 1976. The company revolutionized personal computing and later mobile phones with the iPhone, becoming the world's most valuable company.",
+          es: "Steve Jobs, Steve Wozniak y Ronald Wayne fundaron Apple Computer en 1976. La compañía revolucionó la computación personal y luego los teléfonos móviles con el iPhone, convirtiéndose en la empresa más valiosa del mundo.",
+          de: "Steve Jobs, Steve Wozniak und Ronald Wayne gründeten Apple Computer 1976. Das Unternehmen revolutionierte Personal Computing und später Mobiltelefone mit dem iPhone und wurde zum wertvollsten Unternehmen der Welt.",
+          nl: "Steve Jobs, Steve Wozniak en Ronald Wayne richtten Apple Computer op in 1976. Het bedrijf revolutioneerde personal computing en later mobiele telefoons met de iPhone, en werd 's werelds meest waardevolle bedrijf."
+        }
+      },
+      {
+        question: {
+          en: "Who founded the streaming service Netflix?",
+          es: "¿Quién fundó el servicio de streaming Netflix?",
+          de: "Wer gründete den Streaming-Dienst Netflix?",
+          nl: "Wie heeft de streamingdienst Netflix opgericht?"
+        },
+        options: [
+          { en: "Reed Hastings and Marc Randolph", es: "Reed Hastings y Marc Randolph", de: "Reed Hastings und Marc Randolph", nl: "Reed Hastings en Marc Randolph" },
+          { en: "Jeff Bezos", es: "Jeff Bezos", de: "Jeff Bezos", nl: "Jeff Bezos" },
+          { en: "Brian Roberts", es: "Brian Roberts", de: "Brian Roberts", nl: "Brian Roberts" },
+          { en: "Bob Iger", es: "Bob Iger", de: "Bob Iger", nl: "Bob Iger" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Reed Hastings and Marc Randolph founded Netflix in 1997 as a DVD rental-by-mail service. They later transformed it into the world's leading streaming platform with over 200 million subscribers.",
+          es: "Reed Hastings y Marc Randolph fundaron Netflix en 1997 como un servicio de alquiler de DVD por correo. Luego lo transformaron en la plataforma de streaming líder del mundo con más de 200 millones de suscriptores.",
+          de: "Reed Hastings und Marc Randolph gründeten Netflix 1997 als DVD-Verleih per Post. Später verwandelten sie es in die weltweit führende Streaming-Plattform mit über 200 Millionen Abonnenten.",
+          nl: "Reed Hastings en Marc Randolph richtten Netflix op in 1997 als een DVD-verhuurservice per post. Ze transformeerden het later tot 's werelds toonaangevende streamingplatform met meer dan 200 miljoen abonnees."
+        }
+      },
+      {
+        question: {
+          en: "Which ride-sharing company was founded by Travis Kalanick and Garrett Camp?",
+          es: "¿Qué empresa de viajes compartidos fue fundada por Travis Kalanick y Garrett Camp?",
+          de: "Welches Ride-Sharing-Unternehmen wurde von Travis Kalanick und Garrett Camp gegründet?",
+          nl: "Welk ride-sharing bedrijf werd opgericht door Travis Kalanick en Garrett Camp?"
+        },
+        options: [
+          { en: "Uber", es: "Uber", de: "Uber", nl: "Uber" },
+          { en: "Lyft", es: "Lyft", de: "Lyft", nl: "Lyft" },
+          { en: "Didi", es: "Didi", de: "Didi", nl: "Didi" },
+          { en: "Grab", es: "Grab", de: "Grab", nl: "Grab" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Travis Kalanick and Garrett Camp founded Uber in 2009, revolutionizing transportation with on-demand ride-hailing through a smartphone app. Uber expanded globally and disrupted the taxi industry.",
+          es: "Travis Kalanick y Garrett Camp fundaron Uber en 2009, revolucionando el transporte con viajes bajo demanda a través de una aplicación de teléfono inteligente. Uber se expandió globalmente y revolucionó la industria del taxi.",
+          de: "Travis Kalanick und Garrett Camp gründeten Uber 2009 und revolutionierten den Transport mit On-Demand-Fahrdiensten über eine Smartphone-App. Uber expandierte weltweit und disrupted die Taxibranche.",
+          nl: "Travis Kalanick en Garrett Camp richtten Uber op in 2009, zij revolutioneerden het vervoer met on-demand vervoer op aanvraag via een smartphone-app. Uber breidde wereldwijd uit en ontwrichtte de taxi-industrie."
+        }
+      },
+      {
+        question: {
+          en: "Who founded the professional networking platform LinkedIn?",
+          es: "¿Quién fundó la plataforma de redes profesionales LinkedIn?",
+          de: "Wer gründete die professionelle Networking-Plattform LinkedIn?",
+          nl: "Wie heeft het professionele netwerkplatform LinkedIn opgericht?"
+        },
+        options: [
+          { en: "Reid Hoffman", es: "Reid Hoffman", de: "Reid Hoffman", nl: "Reid Hoffman" },
+          { en: "Mark Zuckerberg", es: "Mark Zuckerberg", de: "Mark Zuckerberg", nl: "Mark Zuckerberg" },
+          { en: "Jack Dorsey", es: "Jack Dorsey", de: "Jack Dorsey", nl: "Jack Dorsey" },
+          { en: "Peter Thiel", es: "Peter Thiel", de: "Peter Thiel", nl: "Peter Thiel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Reid Hoffman founded LinkedIn in 2002 and launched it in 2003. The professional networking platform grew to over 700 million members and was acquired by Microsoft for $26.2 billion in 2016.",
+          es: "Reid Hoffman fundó LinkedIn en 2002 y lo lanzó en 2003. La plataforma de redes profesionales creció a más de 700 millones de miembros y fue adquirida por Microsoft por $26.2 mil millones en 2016.",
+          de: "Reid Hoffman gründete LinkedIn 2002 und startete es 2003. Die professionelle Networking-Plattform wuchs auf über 700 Millionen Mitglieder und wurde 2016 von Microsoft für 26,2 Milliarden Dollar gekauft.",
+          nl: "Reid Hoffman richtte LinkedIn op in 2002 en lanceerde het in 2003. Het professionele netwerkplatform groeide tot meer dan 700 miljoen leden en werd in 2016 door Microsoft gekocht voor $26,2 miljard."
+        }
+      },
+      {
+        question: {
+          en: "Which Chinese e-commerce giant was founded by Jack Ma?",
+          es: "¿Qué gigante chino del comercio electrónico fue fundado por Jack Ma?",
+          de: "Welcher chinesische E-Commerce-Riese wurde von Jack Ma gegründet?",
+          nl: "Welke Chinese e-commerce gigant werd opgericht door Jack Ma?"
+        },
+        options: [
+          { en: "Alibaba", es: "Alibaba", de: "Alibaba", nl: "Alibaba" },
+          { en: "Tencent", es: "Tencent", de: "Tencent", nl: "Tencent" },
+          { en: "JD.com", es: "JD.com", de: "JD.com", nl: "JD.com" },
+          { en: "Baidu", es: "Baidu", de: "Baidu", nl: "Baidu" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jack Ma founded Alibaba in 1999 in Hangzhou, China. It grew from a B2B marketplace into one of the world's largest e-commerce and technology conglomerates, including Taobao and Alipay.",
+          es: "Jack Ma fundó Alibaba en 1999 en Hangzhou, China. Creció de un mercado B2B a uno de los conglomerados de comercio electrónico y tecnología más grandes del mundo, incluidos Taobao y Alipay.",
+          de: "Jack Ma gründete Alibaba 1999 in Hangzhou, China. Es wuchs von einem B2B-Marktplatz zu einem der weltgrößten E-Commerce- und Technologiekonglomerate, einschließlich Taobao und Alipay.",
+          nl: "Jack Ma richtte Alibaba op in 1999 in Hangzhou, China. Het groeide van een B2B-marktplaats tot een van 's werelds grootste e-commerce en technologieconglomeraten, waaronder Taobao en Alipay."
+        }
+      },
+      {
+        question: {
+          en: "Who founded the aerospace company SpaceX?",
+          es: "¿Quién fundó la empresa aeroespacial SpaceX?",
+          de: "Wer gründete das Raumfahrtunternehmen SpaceX?",
+          nl: "Wie heeft het ruimtevaartbedrijf SpaceX opgericht?"
+        },
+        options: [
+          { en: "Elon Musk", es: "Elon Musk", de: "Elon Musk", nl: "Elon Musk" },
+          { en: "Jeff Bezos", es: "Jeff Bezos", de: "Jeff Bezos", nl: "Jeff Bezos" },
+          { en: "Richard Branson", es: "Richard Branson", de: "Richard Branson", nl: "Richard Branson" },
+          { en: "Paul Allen", es: "Paul Allen", de: "Paul Allen", nl: "Paul Allen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Elon Musk founded SpaceX in 2002 with the goal of reducing space transportation costs and enabling Mars colonization. SpaceX achieved numerous milestones including reusable rockets and commercial crew missions.",
+          es: "Elon Musk fundó SpaceX en 2002 con el objetivo de reducir los costos de transporte espacial y permitir la colonización de Marte. SpaceX logró numerosos hitos, incluidos cohetes reutilizables y misiones de tripulación comercial.",
+          de: "Elon Musk gründete SpaceX 2002 mit dem Ziel, Raumfahrttransportkosten zu senken und Mars-Kolonisierung zu ermöglichen. SpaceX erreichte zahlreiche Meilensteine einschließlich wiederverwendbarer Raketen und kommerzieller Crew-Missionen.",
+          nl: "Elon Musk richtte SpaceX op in 2002 met als doel de kosten van ruimtetransport te verlagen en Mars-kolonisatie mogelijk te maken. SpaceX behaalde talrijke mijlpalen waaronder herbruikbare raketten en commerciële bemanningmissies."
+        }
+      },
+      {
+        question: {
+          en: "Which payment company was founded by Peter Thiel and Max Levchin?",
+          es: "¿Qué empresa de pagos fue fundada por Peter Thiel y Max Levchin?",
+          de: "Welches Zahlungsunternehmen wurde von Peter Thiel und Max Levchin gegründet?",
+          nl: "Welk betalingsbedrijf werd opgericht door Peter Thiel en Max Levchin?"
+        },
+        options: [
+          { en: "PayPal", es: "PayPal", de: "PayPal", nl: "PayPal" },
+          { en: "Square", es: "Square", de: "Square", nl: "Square" },
+          { en: "Stripe", es: "Stripe", de: "Stripe", nl: "Stripe" },
+          { en: "Venmo", es: "Venmo", de: "Venmo", nl: "Venmo" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Peter Thiel and Max Levchin co-founded PayPal (originally Confinity) in 1998. It revolutionized online payments and was acquired by eBay for $1.5 billion in 2002. The PayPal Mafia of former employees went on to found many successful companies.",
+          es: "Peter Thiel y Max Levchin cofundaron PayPal (originalmente Confinity) en 1998. Revolucionó los pagos en línea y fue adquirido por eBay por $1.5 mil millones en 2002. La Mafia de PayPal de ex empleados fundó muchas empresas exitosas.",
+          de: "Peter Thiel und Max Levchin gründeten PayPal (ursprünglich Confinity) 1998. Es revolutionierte Online-Zahlungen und wurde 2002 von eBay für 1,5 Milliarden Dollar gekauft. Die PayPal-Mafia ehemaliger Mitarbeiter gründete viele erfolgreiche Unternehmen.",
+          nl: "Peter Thiel en Max Levchin richtten PayPal (oorspronkelijk Confinity) op in 1998. Het revolutioneerde online betalingen en werd in 2002 door eBay gekocht voor $1,5 miljard. De PayPal Mafia van voormalige werknemers richtte veel succesvolle bedrijven op."
+        }
+      },
+      {
+        question: {
+          en: "Who founded the cosmetics brand Kylie Cosmetics?",
+          es: "¿Quién fundó la marca de cosméticos Kylie Cosmetics?",
+          de: "Wer gründete die Kosmetikmarke Kylie Cosmetics?",
+          nl: "Wie heeft het cosmeticamerk Kylie Cosmetics opgericht?"
+        },
+        options: [
+          { en: "Kylie Jenner", es: "Kylie Jenner", de: "Kylie Jenner", nl: "Kylie Jenner" },
+          { en: "Kim Kardashian", es: "Kim Kardashian", de: "Kim Kardashian", nl: "Kim Kardashian" },
+          { en: "Rihanna", es: "Rihanna", de: "Rihanna", nl: "Rihanna" },
+          { en: "Jessica Alba", es: "Jessica Alba", de: "Jessica Alba", nl: "Jessica Alba" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Kylie Jenner founded Kylie Cosmetics in 2015, initially launching with lip kits. The company grew rapidly through social media marketing, and she became the youngest self-made billionaire before selling a majority stake to Coty Inc.",
+          es: "Kylie Jenner fundó Kylie Cosmetics en 2015, lanzando inicialmente con kits de labios. La compañía creció rápidamente a través del marketing en redes sociales, y se convirtió en la multimillonaria hecha a sí misma más joven antes de vender una participación mayoritaria a Coty Inc.",
+          de: "Kylie Jenner gründete Kylie Cosmetics 2015 und startete zunächst mit Lip-Kits. Das Unternehmen wuchs schnell durch Social-Media-Marketing, und sie wurde die jüngste selbstgemachte Milliardärin, bevor sie einen Mehrheitsanteil an Coty Inc. verkaufte.",
+          nl: "Kylie Jenner richtte Kylie Cosmetics op in 2015, aanvankelijk lancerend met lip kits. Het bedrijf groeide snel door social media marketing, en ze werd de jongste zelfgemaakte miljardair voordat ze een meerderheidsbelang verkocht aan Coty Inc."
+        }
+      },
+      {
+        question: {
+          en: "Which hotel booking platform was founded by Brian Chesky, Joe Gebbia, and Nathan Blecharczyk?",
+          es: "¿Qué plataforma de reservas de hoteles fue fundada por Brian Chesky, Joe Gebbia y Nathan Blecharczyk?",
+          de: "Welche Hotelbuchungsplattform wurde von Brian Chesky, Joe Gebbia und Nathan Blecharczyk gegründet?",
+          nl: "Welk hotelboekingsplatform werd opgericht door Brian Chesky, Joe Gebbia en Nathan Blecharczyk?"
+        },
+        options: [
+          { en: "Airbnb", es: "Airbnb", de: "Airbnb", nl: "Airbnb" },
+          { en: "Booking.com", es: "Booking.com", de: "Booking.com", nl: "Booking.com" },
+          { en: "Expedia", es: "Expedia", de: "Expedia", nl: "Expedia" },
+          { en: "Vrbo", es: "Vrbo", de: "Vrbo", nl: "Vrbo" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Brian Chesky, Joe Gebbia, and Nathan Blecharczyk founded Airbnb in 2008, starting by renting out air mattresses in their San Francisco apartment. It grew into a global hospitality platform disrupting the hotel industry.",
+          es: "Brian Chesky, Joe Gebbia y Nathan Blecharczyk fundaron Airbnb en 2008, comenzando alquilando colchones de aire en su apartamento de San Francisco. Creció hasta convertirse en una plataforma global de hospitalidad que revolucionó la industria hotelera.",
+          de: "Brian Chesky, Joe Gebbia und Nathan Blecharczyk gründeten Airbnb 2008 und begannen mit der Vermietung von Luftmatratzen in ihrer Wohnung in San Francisco. Es wuchs zu einer globalen Gastfreundschaftsplattform, die die Hotelbranche disrupted.",
+          nl: "Brian Chesky, Joe Gebbia en Nathan Blecharczyk richtten Airbnb op in 2008, ze begonnen met het verhuren van luchtbedden in hun appartement in San Francisco. Het groeide uit tot een wereldwijd horecaplatform dat de hotelindustrie ontwrichtte."
+        }
+      },
+      {
+        question: {
+          en: "Who founded the photo-sharing app Instagram?",
+          es: "¿Quién fundó la aplicación para compartir fotos Instagram?",
+          de: "Wer gründete die Foto-Sharing-App Instagram?",
+          nl: "Wie heeft de foto-deel app Instagram opgericht?"
+        },
+        options: [
+          { en: "Kevin Systrom and Mike Krieger", es: "Kevin Systrom y Mike Krieger", de: "Kevin Systrom und Mike Krieger", nl: "Kevin Systrom en Mike Krieger" },
+          { en: "Evan Spiegel and Bobby Murphy", es: "Evan Spiegel y Bobby Murphy", de: "Evan Spiegel und Bobby Murphy", nl: "Evan Spiegel en Bobby Murphy" },
+          { en: "Jack Dorsey", es: "Jack Dorsey", de: "Jack Dorsey", nl: "Jack Dorsey" },
+          { en: "Mark Zuckerberg", es: "Mark Zuckerberg", de: "Mark Zuckerberg", nl: "Mark Zuckerberg" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Kevin Systrom and Mike Krieger founded Instagram in 2010. The photo-sharing app grew rapidly to 30 million users before Facebook acquired it for $1 billion in 2012. It now has over 2 billion users.",
+          es: "Kevin Systrom y Mike Krieger fundaron Instagram en 2010. La aplicación para compartir fotos creció rápidamente a 30 millones de usuarios antes de que Facebook la adquiriera por $1 mil millones en 2012. Ahora tiene más de 2 mil millones de usuarios.",
+          de: "Kevin Systrom und Mike Krieger gründeten Instagram 2010. Die Foto-Sharing-App wuchs schnell auf 30 Millionen Nutzer, bevor Facebook sie 2012 für 1 Milliarde Dollar kaufte. Sie hat jetzt über 2 Milliarden Nutzer.",
+          nl: "Kevin Systrom en Mike Krieger richtten Instagram op in 2010. De foto-deel app groeide snel tot 30 miljoen gebruikers voordat Facebook het in 2012 kocht voor $1 miljard. Het heeft nu meer dan 2 miljard gebruikers."
+        }
+      },
+      {
+        question: {
+          en: "Who founded the luxury car brand Lamborghini?",
+          es: "¿Quién fundó la marca de autos de lujo Lamborghini?",
+          de: "Wer gründete die Luxusautomarke Lamborghini?",
+          nl: "Wie heeft het luxe automerk Lamborghini opgericht?"
+        },
+        options: [
+          { en: "Ferruccio Lamborghini", es: "Ferruccio Lamborghini", de: "Ferruccio Lamborghini", nl: "Ferruccio Lamborghini" },
+          { en: "Enzo Ferrari", es: "Enzo Ferrari", de: "Enzo Ferrari", nl: "Enzo Ferrari" },
+          { en: "Alfieri Maserati", es: "Alfieri Maserati", de: "Alfieri Maserati", nl: "Alfieri Maserati" },
+          { en: "Vincenzo Lancia", es: "Vincenzo Lancia", de: "Vincenzo Lancia", nl: "Vincenzo Lancia" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ferruccio Lamborghini founded Automobili Lamborghini in 1963. Originally a tractor manufacturer, he started making sports cars after a dispute with Enzo Ferrari about Ferrari's cars.",
+          es: "Ferruccio Lamborghini fundó Automobili Lamborghini en 1963. Originalmente fabricante de tractores, comenzó a hacer autos deportivos después de una disputa con Enzo Ferrari sobre los autos de Ferrari.",
+          de: "Ferruccio Lamborghini gründete Automobili Lamborghini 1963. Ursprünglich Traktorenhersteller, begann er nach einem Streit mit Enzo Ferrari über Ferraris Autos Sportwagen zu bauen.",
+          nl: "Ferruccio Lamborghini richtte Automobili Lamborghini op in 1963. Oorspronkelijk een tractorfabrikant, begon hij sportwagens te maken na een ruzie met Enzo Ferrari over Ferrari's auto's."
+        }
+      },
+      {
+        question: {
+          en: "Which fashion brand was founded by Ralph Lauren?",
+          es: "¿Qué marca de moda fue fundada por Ralph Lauren?",
+          de: "Welche Modemarke wurde von Ralph Lauren gegründet?",
+          nl: "Welk modemerk werd opgericht door Ralph Lauren?"
+        },
+        options: [
+          { en: "Polo Ralph Lauren", es: "Polo Ralph Lauren", de: "Polo Ralph Lauren", nl: "Polo Ralph Lauren" },
+          { en: "Tommy Hilfiger", es: "Tommy Hilfiger", de: "Tommy Hilfiger", nl: "Tommy Hilfiger" },
+          { en: "Calvin Klein", es: "Calvin Klein", de: "Calvin Klein", nl: "Calvin Klein" },
+          { en: "Michael Kors", es: "Michael Kors", de: "Michael Kors", nl: "Michael Kors" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ralph Lauren founded Polo Ralph Lauren in 1967, starting with a line of ties. He built it into a global fashion empire known for its preppy American style and iconic polo player logo.",
+          es: "Ralph Lauren fundó Polo Ralph Lauren en 1967, comenzando con una línea de corbatas. Lo construyó hasta convertirlo en un imperio de moda global conocido por su estilo americano preppy y su icónico logo del jugador de polo.",
+          de: "Ralph Lauren gründete Polo Ralph Lauren 1967 und begann mit einer Krawatten-Linie. Er baute es zu einem globalen Modeimperium auf, das für seinen amerikanischen Preppy-Stil und das ikonische Polospieler-Logo bekannt ist.",
+          nl: "Ralph Lauren richtte Polo Ralph Lauren op in 1967, hij begon met een lijn stropdassen. Hij bouwde het uit tot een wereldwijd mode-imperium bekend om zijn preppy Amerikaanse stijl en iconische polospeler logo."
         }
       }
     ]

@@ -19,28 +19,7 @@
           { en: "Eminem", es: "Eminem", de: "Eminem", nl: "Eminem" },
           { en: "50 Cent", es: "50 Cent", de: "50 Cent", nl: "50 Cent" },
           { en: "Dr. Dre", es: "Dr. Dre", de: "Dr. Dre", nl: "Dr. Dre" },
-          { en: "Snoop Dogg", es: "Snoop Dogg", de: "Snoop Dogg", nl: "Snoop Dogg" },
-        {
-            question: {
-                en: "Which composer wrote 'The Four Seasons'?",
-                es: "¿Qué compositor escribió 'Las Cuatro Estaciones'?",
-                de: "Welcher Komponist schrieb 'Die vier Jahreszeiten'?",
-                nl: "Welke componist schreef 'De Vier Seizoenen'?"
-            },
-            options: [
-                { en: "Antonio Vivaldi", es: "Antonio Vivaldi", de: "Antonio Vivaldi", nl: "Antonio Vivaldi" },
-                { en: "Johann Sebastian Bach", es: "Johann Sebastian Bach", de: "Johann Sebastian Bach", nl: "Johann Sebastian Bach" },
-                { en: "George Frideric Handel", es: "Georg Friedrich Händel", de: "Georg Friedrich Händel", nl: "Georg Friedrich Händel" },
-                { en: "Arcangelo Corelli", es: "Arcangelo Corelli", de: "Arcangelo Corelli", nl: "Arcangelo Corelli" }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Antonio Vivaldi composed 'The Four Seasons' (Le quattro stagioni) around 1720. This set of four violin concertos is among the most popular pieces in the Baroque repertoire, depicting scenes from each season through music.",
-                es: "Antonio Vivaldi compuso 'Las Cuatro Estaciones' (Le quattro stagioni) alrededor de 1720. Este conjunto de cuatro conciertos para violín está entre las piezas más populares del repertorio barroco, representando escenas de cada estación a través de la música.",
-                de: "Antonio Vivaldi komponierte 'Die vier Jahreszeiten' (Le quattro stagioni) um 1720. Diese vier Violinkonzerte gehören zu den beliebtesten Stücken des Barockre pertoires und stellen Szenen aus jeder Jahreszeit musikalisch dar.",
-                nl: "Antonio Vivaldi componeerde 'De Vier Seizoenen' (Le quattro stagioni) rond 1720. Deze set van vier vioolconcerten behoort tot de populairste stukken in het barokrepertoire en beeldt scènes uit elk seizoen muzikaal uit."
-            }
-        }
+          { en: "Snoop Dogg", es: "Snoop Dogg", de: "Snoop Dogg", nl: "Snoop Dogg" }
         ],
         correct: 0,
         explanation: {
@@ -426,6 +405,237 @@
           es: "Nicki Minaj se convirtió en una de las raperas más exitosas de la historia, conocida por su estilo de rap animado, personalidades coloridas y capacidad de cruzar hacia la música pop.",
           de: "Nicki Minaj wurde zu einer der erfolgreichsten weiblichen Rapperinnen überhaupt, bekannt für ihren lebendigen Rap-Stil, bunten Personas und Fähigkeit, in die Popmusik überzuwechseln.",
           nl: "Nicki Minaj werd een van de meest succesvolle vrouwelijke rappers ooit, bekend om haar geanimeerde rapstijl, kleurrijke persona's en vermogen om over te stappen naar popmuziek."
+        }
+      },
+      {
+        question: {
+          en: "Which artist is known for 'Thinking Out Loud' and 'Shape of You'?",
+          es: "¿Qué artista es conocido por 'Thinking Out Loud' y 'Shape of You'?",
+          de: "Welcher Künstler ist für 'Thinking Out Loud' und 'Shape of You' bekannt?",
+          nl: "Welke artiest staat bekend om 'Thinking Out Loud' en 'Shape of You'?"
+        },
+        options: [
+          { en: "Ed Sheeran", es: "Ed Sheeran", de: "Ed Sheeran", nl: "Ed Sheeran" },
+          { en: "Sam Smith", es: "Sam Smith", de: "Sam Smith", nl: "Sam Smith" },
+          { en: "John Mayer", es: "John Mayer", de: "John Mayer", nl: "John Mayer" },
+          { en: "Justin Timberlake", es: "Justin Timberlake", de: "Justin Timberlake", nl: "Justin Timberlake" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ed Sheeran is a British singer-songwriter who became one of the biggest pop stars of the 2010s. 'Shape of You' became one of the most-streamed songs in Spotify history.",
+          es: "Ed Sheeran es un cantautor británico que se convirtió en una de las mayores estrellas del pop de los 2010. 'Shape of You' se convirtió en una de las canciones más reproducidas en la historia de Spotify.",
+          de: "Ed Sheeran ist ein britischer Singer-Songwriter, der zu einem der größten Popstars der 2010er Jahre wurde. 'Shape of You' wurde zu einem der meistgestreamten Songs in der Spotify-Geschichte.",
+          nl: "Ed Sheeran is een Britse singer-songwriter die een van de grootste popsterren van de jaren 2010 werd. 'Shape of You' werd een van de meest gestreamde nummers in Spotify's geschiedenis."
+        }
+      },
+      {
+        question: {
+          en: "Which rapper is known for 'Sicko Mode' and 'Highest in the Room'?",
+          es: "¿Qué rapero es conocido por 'Sicko Mode' y 'Highest in the Room'?",
+          de: "Welcher Rapper ist für 'Sicko Mode' und 'Highest in the Room' bekannt?",
+          nl: "Welke rapper staat bekend om 'Sicko Mode' en 'Highest in the Room'?"
+        },
+        options: [
+          { en: "Travis Scott", es: "Travis Scott", de: "Travis Scott", nl: "Travis Scott" },
+          { en: "Post Malone", es: "Post Malone", de: "Post Malone", nl: "Post Malone" },
+          { en: "Lil Uzi Vert", es: "Lil Uzi Vert", de: "Lil Uzi Vert", nl: "Lil Uzi Vert" },
+          { en: "Playboi Carti", es: "Playboi Carti", de: "Playboi Carti", nl: "Playboi Carti" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Travis Scott is known for his atmospheric hip-hop production and high-energy performances. 'Sicko Mode' featured Drake and became one of his biggest hits.",
+          es: "Travis Scott es conocido por su producción de hip-hop atmosférico y actuaciones de alta energía. 'Sicko Mode' contó con Drake y se convirtió en uno de sus mayores éxitos.",
+          de: "Travis Scott ist bekannt für seine atmosphärische Hip-Hop-Produktion und energiegeladene Auftritte. 'Sicko Mode' mit Drake wurde zu einem seiner größten Hits.",
+          nl: "Travis Scott staat bekend om zijn atmosferische hip-hop productie en energieke optredens. 'Sicko Mode' met Drake werd een van zijn grootste hits."
+        }
+      },
+      {
+        question: {
+          en: "Which female artist is known for 'Bad Guy' and 'Ocean Eyes'?",
+          es: "¿Qué artista femenina es conocida por 'Bad Guy' y 'Ocean Eyes'?",
+          de: "Welche Künstlerin ist für 'Bad Guy' und 'Ocean Eyes' bekannt?",
+          nl: "Welke vrouwelijke artiest staat bekend om 'Bad Guy' en 'Ocean Eyes'?"
+        },
+        options: [
+          { en: "Billie Eilish", es: "Billie Eilish", de: "Billie Eilish", nl: "Billie Eilish" },
+          { en: "Ariana Grande", es: "Ariana Grande", de: "Ariana Grande", nl: "Ariana Grande" },
+          { en: "Halsey", es: "Halsey", de: "Halsey", nl: "Halsey" },
+          { en: "Dua Lipa", es: "Dua Lipa", de: "Dua Lipa", nl: "Dua Lipa" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Billie Eilish rose to fame as a teenager with her unique whisper-singing style and dark, atmospheric music. She swept the 2020 Grammys, winning all four major categories.",
+          es: "Billie Eilish saltó a la fama siendo adolescente con su estilo único de canto susurrante y música oscura y atmosférica. Arrasó en los Grammy 2020, ganando las cuatro categorías principales.",
+          de: "Billie Eilish wurde als Teenager mit ihrem einzigartigen Flüster-Gesangsstil und dunkler, atmosphärischer Musik berühmt. Sie räumte bei den Grammys 2020 ab und gewann alle vier Hauptkategorien.",
+          nl: "Billie Eilish werd als tiener beroemd met haar unieke fluister-zangstijl en donkere, atmosferische muziek. Ze veegde de Grammys 2020 schoon en won alle vier de hoofdcategorieën."
+        }
+      },
+      {
+        question: {
+          en: "Which rapper is known for 'Rockstar' and 'Congratulations'?",
+          es: "¿Qué rapero es conocido por 'Rockstar' y 'Congratulations'?",
+          de: "Welcher Rapper ist für 'Rockstar' und 'Congratulations' bekannt?",
+          nl: "Welke rapper staat bekend om 'Rockstar' en 'Congratulations'?"
+        },
+        options: [
+          { en: "Post Malone", es: "Post Malone", de: "Post Malone", nl: "Post Malone" },
+          { en: "21 Savage", es: "21 Savage", de: "21 Savage", nl: "21 Savage" },
+          { en: "Lil Baby", es: "Lil Baby", de: "Lil Baby", nl: "Lil Baby" },
+          { en: "DaBaby", es: "DaBaby", de: "DaBaby", nl: "DaBaby" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Post Malone blends hip-hop, pop, and rock influences. 'Rockstar' featuring 21 Savage topped charts worldwide and showcased his melodic rap style.",
+          es: "Post Malone mezcla influencias de hip-hop, pop y rock. 'Rockstar' con 21 Savage encabezó listas mundialmente y mostró su estilo de rap melódico.",
+          de: "Post Malone vermischt Hip-Hop-, Pop- und Rock-Einflüsse. 'Rockstar' mit 21 Savage führte weltweit die Charts an und zeigte seinen melodischen Rap-Stil.",
+          nl: "Post Malone mengt hip-hop, pop en rock invloeden. 'Rockstar' met 21 Savage stond wereldwijd bovenaan de hitlijsten en toonde zijn melodieuze rapstijl."
+        }
+      },
+      {
+        question: {
+          en: "Which female rapper is known for 'Bodak Yellow' and 'WAP'?",
+          es: "¿Qué rapera es conocida por 'Bodak Yellow' y 'WAP'?",
+          de: "Welche weibliche Rapperin ist für 'Bodak Yellow' und 'WAP' bekannt?",
+          nl: "Welke vrouwelijke rapper staat bekend om 'Bodak Yellow' en 'WAP'?"
+        },
+        options: [
+          { en: "Cardi B", es: "Cardi B", de: "Cardi B", nl: "Cardi B" },
+          { en: "Nicki Minaj", es: "Nicki Minaj", de: "Nicki Minaj", nl: "Nicki Minaj" },
+          { en: "Megan Thee Stallion", es: "Megan Thee Stallion", de: "Megan Thee Stallion", nl: "Megan Thee Stallion" },
+          { en: "Doja Cat", es: "Doja Cat", de: "Doja Cat", nl: "Doja Cat" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cardi B went from reality TV star to rap superstar with 'Bodak Yellow', which made her the first solo female rapper to top the Billboard Hot 100 since Lauryn Hill in 1998.",
+          es: "Cardi B pasó de estrella de reality TV a superestrella del rap con 'Bodak Yellow', lo que la convirtió en la primera rapera en solitario en encabezar el Billboard Hot 100 desde Lauryn Hill en 1998.",
+          de: "Cardi B wurde vom Reality-TV-Star zum Rap-Superstar mit 'Bodak Yellow', was sie zur ersten Solo-Rapperin machte, die seit Lauryn Hill 1998 die Billboard Hot 100 anführte.",
+          nl: "Cardi B ging van reality-tv ster naar rap superster met 'Bodak Yellow', waarmee ze de eerste solo vrouwelijke rapper werd die de Billboard Hot 100 aanvoerde sinds Lauryn Hill in 1998."
+        }
+      },
+      {
+        question: {
+          en: "Which British band is known for 'Yellow' and 'Fix You'?",
+          es: "¿Qué banda británica es conocida por 'Yellow' y 'Fix You'?",
+          de: "Welche britische Band ist für 'Yellow' und 'Fix You' bekannt?",
+          nl: "Welke Britse band staat bekend om 'Yellow' en 'Fix You'?"
+        },
+        options: [
+          { en: "Coldplay", es: "Coldplay", de: "Coldplay", nl: "Coldplay" },
+          { en: "Radiohead", es: "Radiohead", de: "Radiohead", nl: "Radiohead" },
+          { en: "Oasis", es: "Oasis", de: "Oasis", nl: "Oasis" },
+          { en: "The Verve", es: "The Verve", de: "The Verve", nl: "The Verve" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Coldplay, led by Chris Martin, became one of the world's biggest bands with their emotional rock ballads. 'Yellow' was their breakthrough hit in 2000.",
+          es: "Coldplay, liderado por Chris Martin, se convirtió en una de las bandas más grandes del mundo con sus baladas de rock emocionales. 'Yellow' fue su éxito revelación en 2000.",
+          de: "Coldplay, angeführt von Chris Martin, wurde mit ihren emotionalen Rock-Balladen zu einer der größten Bands der Welt. 'Yellow' war ihr Durchbruchshit im Jahr 2000.",
+          nl: "Coldplay, geleid door Chris Martin, werd een van 's werelds grootste bands met hun emotionele rock-ballads. 'Yellow' was hun doorbraakhit in 2000."
+        }
+      },
+      {
+        question: {
+          en: "Which artist is known for 'Blinding Lights' and 'Starboy'?",
+          es: "¿Qué artista es conocido por 'Blinding Lights' y 'Starboy'?",
+          de: "Welcher Künstler ist für 'Blinding Lights' und 'Starboy' bekannt?",
+          nl: "Welke artiest staat bekend om 'Blinding Lights' en 'Starboy'?"
+        },
+        options: [
+          { en: "The Weeknd", es: "The Weeknd", de: "The Weeknd", nl: "The Weeknd" },
+          { en: "Bruno Mars", es: "Bruno Mars", de: "Bruno Mars", nl: "Bruno Mars" },
+          { en: "Drake", es: "Drake", de: "Drake", nl: "Drake" },
+          { en: "Frank Ocean", es: "Frank Ocean", de: "Frank Ocean", nl: "Frank Ocean" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Weeknd (Abel Tesfaye) is known for his dark R&B sound and falsetto voice. 'Blinding Lights' became one of the most successful songs of all time, spending a record 90 weeks in the Billboard Hot 100 top 10.",
+          es: "The Weeknd (Abel Tesfaye) es conocido por su sonido R&B oscuro y voz de falsete. 'Blinding Lights' se convirtió en una de las canciones más exitosas de todos los tiempos, pasando un récord de 90 semanas en el top 10 del Billboard Hot 100.",
+          de: "The Weeknd (Abel Tesfaye) ist bekannt für seinen dunklen R&B-Sound und Falsett-Stimme. 'Blinding Lights' wurde zu einem der erfolgreichsten Songs aller Zeiten und verbrachte rekordverdächtige 90 Wochen in den Top 10 der Billboard Hot 100.",
+          nl: "The Weeknd (Abel Tesfaye) staat bekend om zijn donkere R&B-geluid en falsetstem. 'Blinding Lights' werd een van de meest succesvolle nummers aller tijden, met een record van 90 weken in de Billboard Hot 100 top 10."
+        }
+      },
+      {
+        question: {
+          en: "Which artist is known for '24K Magic' and 'Uptown Funk'?",
+          es: "¿Qué artista es conocido por '24K Magic' y 'Uptown Funk'?",
+          de: "Welcher Künstler ist für '24K Magic' und 'Uptown Funk' bekannt?",
+          nl: "Welke artiest staat bekend om '24K Magic' en 'Uptown Funk'?"
+        },
+        options: [
+          { en: "Bruno Mars", es: "Bruno Mars", de: "Bruno Mars", nl: "Bruno Mars" },
+          { en: "Mark Ronson", es: "Mark Ronson", de: "Mark Ronson", nl: "Mark Ronson" },
+          { en: "Pharrell Williams", es: "Pharrell Williams", de: "Pharrell Williams", nl: "Pharrell Williams" },
+          { en: "Anderson .Paak", es: "Anderson .Paak", de: "Anderson .Paak", nl: "Anderson .Paak" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bruno Mars is known for his retro funk and soul-influenced pop music. 'Uptown Funk' with Mark Ronson became one of the biggest hits of the 2010s.",
+          es: "Bruno Mars es conocido por su música pop influenciada por funk y soul retro. 'Uptown Funk' con Mark Ronson se convirtió en uno de los mayores éxitos de los 2010.",
+          de: "Bruno Mars ist bekannt für seine Retro-Funk- und Soul-beeinflusste Popmusik. 'Uptown Funk' mit Mark Ronson wurde zu einem der größten Hits der 2010er Jahre.",
+          nl: "Bruno Mars staat bekend om zijn retro funk en soul-beïnvloede popmuziek. 'Uptown Funk' met Mark Ronson werd een van de grootste hits van de jaren 2010."
+        }
+      },
+      {
+        question: {
+          en: "Which artist is known for 'Thank U, Next' and '7 Rings'?",
+          es: "¿Qué artista es conocida por 'Thank U, Next' y '7 Rings'?",
+          de: "Welche Künstlerin ist für 'Thank U, Next' und '7 Rings' bekannt?",
+          nl: "Welke artiest staat bekend om 'Thank U, Next' en '7 Rings'?"
+        },
+        options: [
+          { en: "Ariana Grande", es: "Ariana Grande", de: "Ariana Grande", nl: "Ariana Grande" },
+          { en: "Selena Gomez", es: "Selena Gomez", de: "Selena Gomez", nl: "Selena Gomez" },
+          { en: "Demi Lovato", es: "Demi Lovato", de: "Demi Lovato", nl: "Demi Lovato" },
+          { en: "Taylor Swift", es: "Taylor Swift", de: "Taylor Swift", nl: "Taylor Swift" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ariana Grande is known for her four-octave vocal range and pop-R&B sound. She started as a Nickelodeon actress before becoming one of the biggest pop stars of the 2010s.",
+          es: "Ariana Grande es conocida por su rango vocal de cuatro octavas y sonido pop-R&B. Comenzó como actriz de Nickelodeon antes de convertirse en una de las mayores estrellas del pop de los 2010.",
+          de: "Ariana Grande ist bekannt für ihre vier-Oktaven-Stimme und Pop-R&B-Sound. Sie begann als Nickelodeon-Schauspielerin, bevor sie zu einem der größten Popstars der 2010er Jahre wurde.",
+          nl: "Ariana Grande staat bekend om haar vier-octaaf stembereik en pop-R&B geluid. Ze begon als Nickelodeon-actrice voordat ze een van de grootste popsterren van de jaren 2010 werd."
+        }
+      },
+      {
+        question: {
+          en: "Which rapper is known for 'Swimming Pools (Drank)' and 'Alright'?",
+          es: "¿Qué rapero es conocido por 'Swimming Pools (Drank)' y 'Alright'?",
+          de: "Welcher Rapper ist für 'Swimming Pools (Drank)' und 'Alright' bekannt?",
+          nl: "Welke rapper staat bekend om 'Swimming Pools (Drank)' en 'Alright'?"
+        },
+        options: [
+          { en: "Kendrick Lamar", es: "Kendrick Lamar", de: "Kendrick Lamar", nl: "Kendrick Lamar" },
+          { en: "Schoolboy Q", es: "Schoolboy Q", de: "Schoolboy Q", nl: "Schoolboy Q" },
+          { en: "J. Cole", es: "J. Cole", de: "J. Cole", nl: "J. Cole" },
+          { en: "Big Sean", es: "Big Sean", de: "Big Sean", nl: "Big Sean" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Kendrick Lamar is regarded as one of the greatest rappers of his generation. 'Alright' became an anthem for the Black Lives Matter movement.",
+          es: "Kendrick Lamar es considerado uno de los mejores raperos de su generación. 'Alright' se convirtió en un himno para el movimiento Black Lives Matter.",
+          de: "Kendrick Lamar gilt als einer der größten Rapper seiner Generation. 'Alright' wurde zu einer Hymne für die Black Lives Matter-Bewegung.",
+          nl: "Kendrick Lamar wordt beschouwd als een van de grootste rappers van zijn generatie. 'Alright' werd een hymne voor de Black Lives Matter beweging."
+        }
+      },
+      {
+        question: {
+          en: "Which composer wrote 'The Four Seasons'?",
+          es: "¿Qué compositor escribió 'Las Cuatro Estaciones'?",
+          de: "Welcher Komponist schrieb 'Die vier Jahreszeiten'?",
+          nl: "Welke componist schreef 'De Vier Seizoenen'?"
+        },
+        options: [
+          { en: "Antonio Vivaldi", es: "Antonio Vivaldi", de: "Antonio Vivaldi", nl: "Antonio Vivaldi" },
+          { en: "Johann Sebastian Bach", es: "Johann Sebastian Bach", de: "Johann Sebastian Bach", nl: "Johann Sebastian Bach" },
+          { en: "George Frideric Handel", es: "Georg Friedrich Händel", de: "Georg Friedrich Händel", nl: "Georg Friedrich Händel" },
+          { en: "Arcangelo Corelli", es: "Arcangelo Corelli", de: "Arcangelo Corelli", nl: "Arcangelo Corelli" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Antonio Vivaldi composed 'The Four Seasons' (Le quattro stagioni) around 1720. This set of four violin concertos is among the most popular pieces in the Baroque repertoire, depicting scenes from each season through music.",
+          es: "Antonio Vivaldi compuso 'Las Cuatro Estaciones' (Le quattro stagioni) alrededor de 1720. Este conjunto de cuatro conciertos para violín está entre las piezas más populares del repertorio barroco, representando escenas de cada estación a través de la música.",
+          de: "Antonio Vivaldi komponierte 'Die vier Jahreszeiten' (Le quattro stagioni) um 1720. Diese vier Violinkonzerte gehören zu den beliebtesten Stücken des Barrockrepertoires und stellen Szenen aus jeder Jahreszeit musikalisch dar.",
+          nl: "Antonio Vivaldi componeerde 'De Vier Seizoenen' (Le quattro stagioni) rond 1720. Deze set van vier vioolconcerten behoort tot de populairste stukken in het barokrepertoire en beeldt scènes uit elk seizoen muzikaal uit."
         }
       }
     ]

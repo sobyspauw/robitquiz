@@ -410,23 +410,275 @@
       },
       {
         question: {
-          en: "What is a vegetarian diet?",
-          es: "¿Qué es una dieta vegetariana?",
-          de: "Was ist eine vegetarische Ernährung?",
-          nl: "Wat is een vegetarisch dieet?"
+          en: "What is the difference between a vegetarian and a vegan diet?",
+          es: "¿Cuál es la diferencia entre una dieta vegetariana y una vegana?",
+          de: "Was ist der Unterschied zwischen einer vegetarischen und einer veganen Ernährung?",
+          nl: "Wat is het verschil tussen een vegetarisch en een veganistisch dieet?"
         },
         options: [
-          { en: "A diet that excludes meat, fish, and poultry", es: "Una dieta que excluye carne, pescado y aves", de: "Eine Ernährung, die Fleisch, Fisch und Geflügel ausschließt", nl: "Een dieet dat vlees, vis en gevogelte uitsluit" },
-          { en: "A diet that only includes vegetables", es: "Una dieta que solo incluye verduras", de: "Eine Ernährung, die nur Gemüse enthält", nl: "Een dieet dat alleen groenten bevat" },
-          { en: "A diet for weight loss", es: "Una dieta para perder peso", de: "Eine Diät zum Abnehmen", nl: "Een dieet voor gewichtsverlies" },
-          { en: "A diet without dairy products", es: "Una dieta sin productos lácteos", de: "Eine Ernährung ohne Milchprodukte", nl: "Een dieet zonder zuivelproducten" }
+          { en: "Vegetarians may eat dairy and eggs, vegans do not", es: "Los vegetarianos pueden comer lácteos y huevos, los veganos no", de: "Vegetarier dürfen Milchprodukte und Eier essen, Veganer nicht", nl: "Vegetariërs mogen zuivel en eieren eten, veganisten niet" },
+          { en: "They are exactly the same", es: "Son exactamente iguales", de: "Sie sind genau gleich", nl: "Ze zijn precies hetzelfde" },
+          { en: "Vegetarians eat fish, vegans don't", es: "Los vegetarianos comen pescado, los veganos no", de: "Vegetarier essen Fisch, Veganer nicht", nl: "Vegetariërs eten vis, veganisten niet" },
+          { en: "Vegans can eat meat occasionally", es: "Los veganos pueden comer carne ocasionalmente", de: "Veganer können gelegentlich Fleisch essen", nl: "Veganisten kunnen af en toe vlees eten" }
         ],
         correct: 0,
         explanation: {
-          en: "A vegetarian diet excludes meat, fish, and poultry, but may include dairy products and eggs. There are different types of vegetarian diets with varying restrictions.",
-          es: "Una dieta vegetariana excluye carne, pescado y aves, pero puede incluir productos lácteos y huevos. Hay diferentes tipos de dietas vegetarianas con diversas restricciones.",
-          de: "Eine vegetarische Ernährung schließt Fleisch, Fisch und Geflügel aus, kann aber Milchprodukte und Eier enthalten. Es gibt verschiedene Arten vegetarischer Ernährung mit unterschiedlichen Einschränkungen.",
-          nl: "Een vegetarisch dieet sluit vlees, vis en gevogelte uit, maar kan wel zuivelproducten en eieren bevatten. Er zijn verschillende soorten vegetarische diëten met verschillende beperkingen."
+          en: "Vegetarians exclude meat, fish, and poultry but may consume dairy products and eggs. Vegans exclude all animal products including dairy, eggs, and honey.",
+          es: "Los vegetarianos excluyen carne, pescado y aves pero pueden consumir productos lácteos y huevos. Los veganos excluyen todos los productos animales incluyendo lácteos, huevos y miel.",
+          de: "Vegetarier schließen Fleisch, Fisch und Geflügel aus, können aber Milchprodukte und Eier konsumieren. Veganer schließen alle tierischen Produkte einschließlich Milchprodukte, Eier und Honig aus.",
+          nl: "Vegetariërs sluiten vlees, vis en gevogelte uit maar kunnen zuivelproducten en eieren consumeren. Veganisten sluiten alle dierlijke producten uit inclusief zuivel, eieren en honing."
+        }
+      },
+      {
+        question: {
+          en: "Which beans should not be eaten raw?",
+          es: "¿Qué frijoles no deben comerse crudos?",
+          de: "Welche Bohnen sollten nicht roh gegessen werden?",
+          nl: "Welke bonen mogen niet rauw worden gegeten?"
+        },
+        options: [
+          { en: "Kidney beans", es: "Frijoles rojos", de: "Kidneybohnen", nl: "Kidneybonen" },
+          { en: "Green beans", es: "Judías verdes", de: "Grüne Bohnen", nl: "Sperziebonen" },
+          { en: "Snow peas", es: "Guisantes de nieve", de: "Zuckererbsen", nl: "Peultjes" },
+          { en: "Sugar snap peas", es: "Guisantes dulces", de: "Zuckerschoten", nl: "Sugar snaps" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Raw kidney beans contain a toxin called phytohaemagglutinin that can cause severe illness. They must be soaked and boiled for at least 10 minutes to destroy the toxin.",
+          es: "Los frijoles rojos crudos contienen una toxina llamada fitohemaglutinina que puede causar enfermedad grave. Deben remojarse y hervirse durante al menos 10 minutos para destruir la toxina.",
+          de: "Rohe Kidneybohnen enthalten ein Toxin namens Phytohämagglutinin, das schwere Krankheiten verursachen kann. Sie müssen eingeweicht und mindestens 10 Minuten gekocht werden, um das Toxin zu zerstören.",
+          nl: "Rauwe kidneybonen bevatten een toxine genaamd fytohaemagglutinine dat ernstige ziekte kan veroorzaken. Ze moeten worden geweekt en minstens 10 minuten gekookt worden om de toxine te vernietigen."
+        }
+      },
+      {
+        question: {
+          en: "What vegetable is traditionally used to make guacamole?",
+          es: "¿Qué verdura se usa tradicionalmente para hacer guacamole?",
+          de: "Welches Gemüse wird traditionell für Guacamole verwendet?",
+          nl: "Welke groente wordt traditioneel gebruikt om guacamole te maken?"
+        },
+        options: [
+          { en: "Avocado", es: "Aguacate", de: "Avocado", nl: "Avocado" },
+          { en: "Zucchini", es: "Calabacín", de: "Zucchini", nl: "Courgette" },
+          { en: "Green beans", es: "Judías verdes", de: "Grüne Bohnen", nl: "Sperziebonen" },
+          { en: "Broccoli", es: "Brócoli", de: "Brokkoli", nl: "Broccoli" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Guacamole is a traditional Mexican dip made from mashed avocados mixed with lime juice, salt, onions, tomatoes, and cilantro. Avocados provide healthy fats and creamy texture.",
+          es: "El guacamole es un dip mexicano tradicional hecho de aguacates machacados mezclados con jugo de lima, sal, cebollas, tomates y cilantro. Los aguacates proporcionan grasas saludables y textura cremosa.",
+          de: "Guacamole ist ein traditioneller mexikanischer Dip aus zerdrückten Avocados gemischt mit Limettensaft, Salz, Zwiebeln, Tomaten und Koriander. Avocados liefern gesunde Fette und cremige Textur.",
+          nl: "Guacamole is een traditionele Mexicaanse dip gemaakt van gepureerde avocado's gemengd met limoensap, zout, uien, tomaten en koriander. Avocado's leveren gezonde vetten en romige textuur."
+        }
+      },
+      {
+        question: {
+          en: "Which vegetarian food is known as 'the meat of the fields'?",
+          es: "¿Qué alimento vegetariano es conocido como 'la carne de los campos'?",
+          de: "Welches vegetarische Lebensmittel ist als 'Fleisch der Felder' bekannt?",
+          nl: "Welk vegetarisch voedsel staat bekend als 'het vlees van de velden'?"
+        },
+        options: [
+          { en: "Soybeans", es: "Soja", de: "Sojabohnen", nl: "Sojabonen" },
+          { en: "Carrots", es: "Zanahorias", de: "Karotten", nl: "Wortelen" },
+          { en: "Lettuce", es: "Lechuga", de: "Salat", nl: "Sla" },
+          { en: "Cucumbers", es: "Pepinos", de: "Gurken", nl: "Komkommers" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Soybeans are called 'the meat of the fields' because they contain high-quality complete protein comparable to meat. They're used to make tofu, tempeh, and many meat alternatives.",
+          es: "La soja es llamada 'la carne de los campos' porque contiene proteína completa de alta calidad comparable a la carne. Se usa para hacer tofu, tempeh y muchas alternativas de carne.",
+          de: "Sojabohnen werden 'Fleisch der Felder' genannt, weil sie hochwertiges vollständiges Protein enthalten, das mit Fleisch vergleichbar ist. Sie werden zur Herstellung von Tofu, Tempeh und vielen Fleischalternativen verwendet.",
+          nl: "Sojabonen worden 'het vlees van de velden' genoemd omdat ze hoogwaardig compleet eiwit bevatten vergelijkbaar met vlees. Ze worden gebruikt om tofu, tempeh en vele vleesvervangers te maken."
+        }
+      },
+      {
+        question: {
+          en: "What type of diet is lacto-ovo vegetarian?",
+          es: "¿Qué tipo de dieta es lacto-ovo vegetariana?",
+          de: "Welche Art von Ernährung ist lacto-ovo vegetarisch?",
+          nl: "Wat voor soort dieet is lacto-ovo vegetarisch?"
+        },
+        options: [
+          { en: "A diet that includes dairy products and eggs", es: "Una dieta que incluye productos lácteos y huevos", de: "Eine Ernährung, die Milchprodukte und Eier enthält", nl: "Een dieet dat zuivelproducten en eieren bevat" },
+          { en: "A diet with only dairy products", es: "Una dieta con solo productos lácteos", de: "Eine Ernährung nur mit Milchprodukten", nl: "Een dieet met alleen zuivelproducten" },
+          { en: "A diet with only eggs", es: "Una dieta con solo huevos", de: "Eine Ernährung nur mit Eiern", nl: "Een dieet met alleen eieren" },
+          { en: "A diet with no animal products", es: "Una dieta sin productos animales", de: "Eine Ernährung ohne tierische Produkte", nl: "Een dieet zonder dierlijke producten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Lacto-ovo vegetarians exclude meat, fish, and poultry but include dairy products (lacto) and eggs (ovo) in their diet. This is one of the most common forms of vegetarianism.",
+          es: "Los lacto-ovo vegetarianos excluyen carne, pescado y aves pero incluyen productos lácteos (lacto) y huevos (ovo) en su dieta. Esta es una de las formas más comunes de vegetarianismo.",
+          de: "Lacto-Ovo-Vegetarier schließen Fleisch, Fisch und Geflügel aus, nehmen aber Milchprodukte (Lacto) und Eier (Ovo) in ihre Ernährung auf. Dies ist eine der häufigsten Formen des Vegetarismus.",
+          nl: "Lacto-ovo vegetariërs sluiten vlees, vis en gevogelte uit maar nemen zuivelproducten (lacto) en eieren (ovo) op in hun dieet. Dit is een van de meest voorkomende vormen van vegetarisme."
+        }
+      },
+      {
+        question: {
+          en: "Which vegetable has the highest protein content per serving?",
+          es: "¿Qué verdura tiene el contenido de proteína más alto por porción?",
+          de: "Welches Gemüse hat den höchsten Proteingehalt pro Portion?",
+          nl: "Welke groente heeft het hoogste eiwitgehalte per portie?"
+        },
+        options: [
+          { en: "Green peas", es: "Guisantes verdes", de: "Grüne Erbsen", nl: "Groene erwten" },
+          { en: "Celery", es: "Apio", de: "Sellerie", nl: "Selderij" },
+          { en: "Lettuce", es: "Lechuga", de: "Salat", nl: "Sla" },
+          { en: "Cucumbers", es: "Pepinos", de: "Gurken", nl: "Komkommers" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Green peas contain about 8 grams of protein per cooked cup, more than most vegetables. They also provide fiber, vitamins A, C, K, and several B vitamins.",
+          es: "Los guisantes verdes contienen aproximadamente 8 gramos de proteína por taza cocida, más que la mayoría de las verduras. También proporcionan fibra, vitaminas A, C, K y varias vitaminas B.",
+          de: "Grüne Erbsen enthalten etwa 8 Gramm Protein pro gekochte Tasse, mehr als die meisten Gemüse. Sie liefern auch Ballaststoffe, Vitamine A, C, K und mehrere B-Vitamine.",
+          nl: "Groene erwten bevatten ongeveer 8 gram eiwit per gekookte kop, meer dan de meeste groenten. Ze leveren ook vezels, vitamines A, C, K en verschillende B-vitamines."
+        }
+      },
+      {
+        question: {
+          en: "What is a frittata?",
+          es: "¿Qué es una frittata?",
+          de: "Was ist eine Frittata?",
+          nl: "Wat is een frittata?"
+        },
+        options: [
+          { en: "An Italian egg-based dish with vegetables", es: "Un plato italiano a base de huevo con verduras", de: "Ein italienisches Eiergericht mit Gemüse", nl: "Een Italiaans eierschotel met groenten" },
+          { en: "A type of pasta", es: "Un tipo de pasta", de: "Eine Art Nudeln", nl: "Een soort pasta" },
+          { en: "A vegetable soup", es: "Una sopa de verduras", de: "Eine Gemüsesuppe", nl: "Een groentesoep" },
+          { en: "A bread product", es: "Un producto de pan", de: "Ein Brotprodukt", nl: "Een broodproduct" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A frittata is an Italian egg-based dish similar to an omelet or crustless quiche, enriched with vegetables, cheese, or herbs. It's started on the stovetop and finished in the oven.",
+          es: "Una frittata es un plato italiano a base de huevo similar a una tortilla o quiche sin masa, enriquecido con verduras, queso o hierbas. Se comienza en la estufa y se termina en el horno.",
+          de: "Eine Frittata ist ein italienisches Eiergericht ähnlich einem Omelett oder einer Quiche ohne Kruste, angereichert mit Gemüse, Käse oder Kräutern. Es wird auf dem Herd begonnen und im Ofen fertiggestellt.",
+          nl: "Een frittata is een Italiaans eierschotel vergelijkbaar met een omelet of quiche zonder korst, verrijkt met groenten, kaas of kruiden. Het wordt op het fornuis begonnen en in de oven afgemaakt."
+        }
+      },
+      {
+        question: {
+          en: "What is the main benefit of eating a variety of colorful vegetables?",
+          es: "¿Cuál es el beneficio principal de comer una variedad de verduras coloridas?",
+          de: "Was ist der Hauptvorteil des Essens einer Vielzahl bunter Gemüse?",
+          nl: "Wat is het belangrijkste voordeel van het eten van een verscheidenheid aan kleurrijke groenten?"
+        },
+        options: [
+          { en: "Different colors provide different nutrients and antioxidants", es: "Diferentes colores proporcionan diferentes nutrientes y antioxidantes", de: "Verschiedene Farben liefern verschiedene Nährstoffe und Antioxidantien", nl: "Verschillende kleuren leveren verschillende voedingsstoffen en antioxidanten" },
+          { en: "Colorful vegetables taste better", es: "Las verduras coloridas saben mejor", de: "Buntes Gemüse schmeckt besser", nl: "Kleurrijke groenten smaken beter" },
+          { en: "They are always cheaper", es: "Siempre son más baratas", de: "Sie sind immer billiger", nl: "Ze zijn altijd goedkoper" },
+          { en: "They cook faster", es: "Se cocinan más rápido", de: "Sie kochen schneller", nl: "Ze koken sneller" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Different colored vegetables contain different phytonutrients and antioxidants. Eating a rainbow of colors ensures you get a wide range of beneficial compounds for optimal health.",
+          es: "Las verduras de diferentes colores contienen diferentes fitonutrientes y antioxidantes. Comer un arcoíris de colores asegura que obtenga una amplia gama de compuestos beneficiosos para una salud óptima.",
+          de: "Verschiedenfarbiges Gemüse enthält verschiedene Phytonährstoffe und Antioxidantien. Das Essen eines Regenbogens von Farben stellt sicher, dass Sie eine breite Palette vorteilhafter Verbindungen für optimale Gesundheit erhalten.",
+          nl: "Groenten met verschillende kleuren bevatten verschillende fytonu ënten en antioxidanten. Het eten van een regenboog aan kleuren zorgt ervoor dat je een breed scala aan nuttige verbindingen krijgt voor optimale gezondheid."
+        }
+      },
+      {
+        question: {
+          en: "What is paneer?",
+          es: "¿Qué es el paneer?",
+          de: "Was ist Paneer?",
+          nl: "Wat is paneer?"
+        },
+        options: [
+          { en: "An Indian fresh cheese", es: "Un queso fresco indio", de: "Ein indischer Frischkäse", nl: "Een Indiase verse kaas" },
+          { en: "A type of bread", es: "Un tipo de pan", de: "Eine Brotsorte", nl: "Een soort brood" },
+          { en: "A vegetable curry", es: "Un curry de verduras", de: "Ein Gemüsecurry", nl: "Een groentecurry" },
+          { en: "A spice blend", es: "Una mezcla de especias", de: "Eine Gewürzmischung", nl: "Een kruidenmengsel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Paneer is a fresh, non-aged cheese common in Indian cuisine. It doesn't melt when heated, making it perfect for curries and grilled dishes. It's high in protein and calcium.",
+          es: "El paneer es un queso fresco no añejado común en la cocina india. No se derrite cuando se calienta, haciéndolo perfecto para currys y platos a la parrilla. Es alto en proteína y calcio.",
+          de: "Paneer ist ein frischer, nicht gereifter Käse, der in der indischen Küche üblich ist. Er schmilzt beim Erhitzen nicht, was ihn perfekt für Currys und gegrillte Gerichte macht. Er ist proteinreich und enthält viel Kalzium.",
+          nl: "Paneer is een verse, ongerijpte kaas die veel voorkomt in de Indiase keuken. Het smelt niet bij verhitting, waardoor het perfect is voor curry's en gegrilde gerechten. Het is rijk aan eiwit en calcium."
+        }
+      },
+      {
+        question: {
+          en: "Which type of vegetarian avoids eggs but eats dairy?",
+          es: "¿Qué tipo de vegetariano evita los huevos pero come lácteos?",
+          de: "Welcher Vegetariertyp vermeidet Eier, isst aber Milchprodukte?",
+          nl: "Welk type vegetariër vermijdt eieren maar eet wel zuivel?"
+        },
+        options: [
+          { en: "Lacto-vegetarian", es: "Lacto-vegetariano", de: "Lacto-Vegetarier", nl: "Lacto-vegetariër" },
+          { en: "Ovo-vegetarian", es: "Ovo-vegetariano", de: "Ovo-Vegetarier", nl: "Ovo-vegetariër" },
+          { en: "Pescatarian", es: "Pescatariano", de: "Pescetarier", nl: "Pescotariër" },
+          { en: "Flexitarian", es: "Flexitariano", de: "Flexitarier", nl: "Flexitariër" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Lacto-vegetarians consume dairy products (milk, cheese, yogurt) but avoid eggs, meat, fish, and poultry. This dietary choice is common in many cultures, particularly in India.",
+          es: "Los lacto-vegetarianos consumen productos lácteos (leche, queso, yogur) pero evitan huevos, carne, pescado y aves. Esta elección dietética es común en muchas culturas, particularmente en India.",
+          de: "Lacto-Vegetarier konsumieren Milchprodukte (Milch, Käse, Joghurt), vermeiden aber Eier, Fleisch, Fisch und Geflügel. Diese Ernährungswahl ist in vielen Kulturen üblich, besonders in Indien.",
+          nl: "Lacto-vegetariërs consumeren zuivelproducten (melk, kaas, yoghurt) maar vermijden eieren, vlees, vis en gevogelte. Deze voedingskeuze is gebruikelijk in veel culturen, vooral in India."
+        }
+      },
+      {
+        question: {
+          en: "What is the best way to store fresh herbs?",
+          es: "¿Cuál es la mejor manera de almacenar hierbas frescas?",
+          de: "Was ist der beste Weg, frische Kräuter zu lagern?",
+          nl: "Wat is de beste manier om verse kruiden te bewaren?"
+        },
+        options: [
+          { en: "In a jar of water in the refrigerator", es: "En un frasco con agua en el refrigerador", de: "In einem Glas Wasser im Kühlschrank", nl: "In een pot met water in de koelkast" },
+          { en: "In a sealed plastic bag without water", es: "En una bolsa plástica sellada sin agua", de: "In einem verschlossenen Plastikbeutel ohne Wasser", nl: "In een verzegelde plastic zak zonder water" },
+          { en: "At room temperature on the counter", es: "A temperatura ambiente en el mostrador", de: "Bei Raumtemperatur auf der Theke", nl: "Op kamertemperatuur op het aanrecht" },
+          { en: "In the freezer immediately", es: "En el congelador inmediatamente", de: "Sofort im Gefrierschrank", nl: "Onmiddellijk in de vriezer" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Fresh herbs like parsley, cilantro, and basil stay freshest when stored upright in a jar with water in the refrigerator, covered loosely with a plastic bag. Change water every few days.",
+          es: "Las hierbas frescas como perejil, cilantro y albahaca se mantienen más frescas cuando se almacenan verticalmente en un frasco con agua en el refrigerador, cubiertas sin apretar con una bolsa plástica. Cambie el agua cada pocos días.",
+          de: "Frische Kräuter wie Petersilie, Koriander und Basilikum bleiben am frischesten, wenn sie aufrecht in einem Glas mit Wasser im Kühlschrank gelagert werden, locker mit einer Plastiktüte bedeckt. Wasser alle paar Tage wechseln.",
+          nl: "Verse kruiden zoals peterselie, koriander en basilicum blijven het verst wanneer ze rechtop in een pot met water in de koelkast worden bewaard, losjes bedekt met een plastic zak. Ververs het water om de paar dagen."
+        }
+      },
+      {
+        question: {
+          en: "What makes a Buddha bowl vegetarian-friendly?",
+          es: "¿Qué hace que un Buddha bowl sea amigable para vegetarianos?",
+          de: "Was macht eine Buddha Bowl vegetarierfreundlich?",
+          nl: "Wat maakt een Buddha bowl vegetariër-vriendelijk?"
+        },
+        options: [
+          { en: "It contains grains, vegetables, protein, and healthy fats", es: "Contiene granos, verduras, proteína y grasas saludables", de: "Es enthält Getreide, Gemüse, Protein und gesunde Fette", nl: "Het bevat granen, groenten, eiwit en gezonde vetten" },
+          { en: "It only contains raw vegetables", es: "Solo contiene verduras crudas", de: "Es enthält nur rohes Gemüse", nl: "Het bevat alleen rauwe groenten" },
+          { en: "It must contain tofu", es: "Debe contener tofu", de: "Es muss Tofu enthalten", nl: "Het moet tofu bevatten" },
+          { en: "It has no specific components", es: "No tiene componentes específicos", de: "Es hat keine spezifischen Komponenten", nl: "Het heeft geen specifieke componenten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A Buddha bowl is a balanced one-bowl meal containing whole grains, roasted or raw vegetables, plant-based protein (like beans or tofu), and healthy fats (like avocado or nuts), making it naturally vegetarian-friendly.",
+          es: "Un Buddha bowl es una comida equilibrada de un solo tazón que contiene granos integrales, verduras asadas o crudas, proteína vegetal (como frijoles o tofu), y grasas saludables (como aguacate o nueces), haciéndolo naturalmente amigable para vegetarianos.",
+          de: "Eine Buddha Bowl ist eine ausgewogene Mahlzeit in einer Schüssel mit Vollkornprodukten, geröstetem oder rohem Gemüse, pflanzlichem Protein (wie Bohnen oder Tofu) und gesunden Fetten (wie Avocado oder Nüssen), was sie natürlich vegetarierfreundlich macht.",
+          nl: "Een Buddha bowl is een uitgebalanceerde maaltijd in één kom met volkoren granen, geroosterde of rauwe groenten, plantaardig eiwit (zoals bonen of tofu), en gezonde vetten (zoals avocado of noten), waardoor het van nature vegetariër-vriendelijk is."
+        }
+      },
+      {
+        question: {
+          en: "Which vegetarian food is often called 'nature's multivitamin'?",
+          es: "¿Qué alimento vegetariano se llama a menudo 'el multivitamínico de la naturaleza'?",
+          de: "Welches vegetarische Lebensmittel wird oft 'Natur-Multivitamin' genannt?",
+          nl: "Welk vegetarisch voedsel wordt vaak 'de multivitamine van de natuur' genoemd?"
+        },
+        options: [
+          { en: "Eggs", es: "Huevos", de: "Eier", nl: "Eieren" },
+          { en: "White bread", es: "Pan blanco", de: "Weißbrot", nl: "Wit brood" },
+          { en: "Pasta", es: "Pasta", de: "Nudeln", nl: "Pasta" },
+          { en: "Rice", es: "Arroz", de: "Reis", nl: "Rijst" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Eggs are called 'nature's multivitamin' because they contain almost every essential vitamin and mineral including vitamins A, B12, D, E, folate, selenium, and high-quality protein.",
+          es: "Los huevos se llaman 'el multivitamínico de la naturaleza' porque contienen casi todas las vitaminas y minerales esenciales incluyendo vitaminas A, B12, D, E, folato, selenio y proteína de alta calidad.",
+          de: "Eier werden 'Natur-Multivitamin' genannt, weil sie fast alle essentiellen Vitamine und Mineralien enthalten, einschließlich Vitamine A, B12, D, E, Folsäure, Selen und hochwertiges Protein.",
+          nl: "Eieren worden 'de multivitamine van de natuur' genoemd omdat ze bijna elke essentiële vitamine en mineraal bevatten, inclusief vitamines A, B12, D, E, folaat, seleen en hoogwaardig eiwit."
         }
       }
     ]

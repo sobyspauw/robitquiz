@@ -427,6 +427,416 @@
           de: "Syntaktisches Parsing baut hierarchische Baumstrukturen auf die zeigen wie Wörter sich grammatisch kombinieren (Subjekte, Objekte, Phrasen), während semantische Analyse die tatsächliche Bedeutung und konzeptuelle Beziehungen interpretiert die von diesen Strukturen ausgedrückt werden.",
           nl: "Syntactisch parsing bouwt hiërarchische boomstructuren die tonen hoe woorden zich grammaticaal combineren (onderwerpen, objecten, zinsdelen), terwijl semantische analyse de werkelijke betekenis en conceptuele relaties interpreteert die door die structuren worden uitgedrukt."
         }
+      },
+      {
+        question: {
+          en: "What is a document-term matrix?",
+          es: "¿Qué es una matriz documento-término?",
+          de: "Was ist eine Dokument-Term-Matrix?",
+          nl: "Wat is een document-term matrix?"
+        },
+        options: [
+          { en: "A matrix where rows represent documents, columns represent terms, and cells contain term frequencies or weights", es: "Una matriz donde filas representan documentos, columnas representan términos, y celdas contienen frecuencias o pesos de términos", de: "Eine Matrix wo Zeilen Dokumente darstellen, Spalten Begriffe darstellen, und Zellen Termfrequenzen oder Gewichte enthalten", nl: "Een matrix waarbij rijen documenten voorstellen, kolommen termen voorstellen, en cellen termfrequenties of gewichten bevatten" },
+          { en: "A matrix for storing document metadata", es: "Una matriz para almacenar metadatos de documentos", de: "Eine Matrix zum Speichern von Dokumentmetadaten", nl: "Een matrix voor het opslaan van documentmetadata" },
+          { en: "A mathematical formula for documents", es: "Una fórmula matemática para documentos", de: "Eine mathematische Formel für Dokumente", nl: "Een wiskundige formule voor documenten" },
+          { en: "A table of contents for documents", es: "Una tabla de contenidos para documentos", de: "Ein Inhaltsverzeichnis für Dokumente", nl: "Een inhoudsopgave voor documenten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A document-term matrix is a fundamental representation in NLP where each row corresponds to a document, each column to a term in the vocabulary, and values indicate term importance (often TF-IDF weights).",
+          es: "Una matriz documento-término es una representación fundamental en PLN donde cada fila corresponde a un documento, cada columna a un término en el vocabulario, y valores indican importancia del término (a menudo pesos TF-IDF).",
+          de: "Eine Dokument-Term-Matrix ist eine fundamentale Darstellung in NLP wo jede Zeile einem Dokument entspricht, jede Spalte einem Begriff im Vokabular, und Werte die Begriffsw wichtigkeit anzeigen (oft TF-IDF-Gewichte).",
+          nl: "Een document-term matrix is een fundamentele representatie in NLP waarbij elke rij overeenkomt met een document, elke kolom met een term in het vocabulaire, en waarden termbelang aangeven (vaak TF-IDF gewichten)."
+        }
+      },
+      {
+        question: {
+          en: "What is embedding dimension and how is it chosen?",
+          es: "¿Qué es la dimensión de incrustación y cómo se elige?",
+          de: "Was ist Einbettungsdimension und wie wird sie gewählt?",
+          nl: "Wat is embedding dimensie en hoe wordt het gekozen?"
+        },
+        options: [
+          { en: "The size of the vector representing each word, typically 50-300, balanced between expressiveness and efficiency", es: "El tamaño del vector que representa cada palabra, típicamente 50-300, equilibrado entre expresividad y eficiencia", de: "Die Größe des Vektors der jedes Wort darstellt, typischerweise 50-300, ausbalanciert zwischen Ausdruckskraft und Effizienz", nl: "De grootte van de vector die elk woord voorstelt, doorgaans 50-300, gebalanceerd tussen expressiviteit en efficiëntie" },
+          { en: "The number of words in the vocabulary", es: "El número de palabras en el vocabulario", de: "Die Anzahl der Wörter im Vokabular", nl: "Het aantal woorden in het vocabulaire" },
+          { en: "The depth of the neural network", es: "La profundidad de la red neuronal", de: "Die Tiefe des neuronalen Netzwerks", nl: "De diepte van het neurale netwerk" },
+          { en: "The size of the training corpus", es: "El tamaño del corpus de entrenamiento", de: "Die Größe des Trainingskorpus", nl: "De grootte van het trainingscorpus" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Embedding dimension is the length of the dense vector representing each word. Higher dimensions can capture more nuanced relationships but require more data and computation. Common sizes are 100, 200, or 300 dimensions.",
+          es: "La dimensión de incrustación es la longitud del vector denso que representa cada palabra. Dimensiones más altas pueden capturar relaciones más matizadas pero requieren más datos y computación. Tamaños comunes son 100, 200 o 300 dimensiones.",
+          de: "Einbettungsdimension ist die Länge des dichten Vektors der jedes Wort darstellt. Höhere Dimensionen können nuanciertere Beziehungen erfassen erfordern aber mehr Daten und Berechnung. Übliche Größen sind 100, 200 oder 300 Dimensionen.",
+          nl: "Embedding dimensie is de lengte van de dichte vector die elk woord voorstelt. Hogere dimensies kunnen genuanceerdere relaties vastleggen maar vereisen meer gegevens en berekening. Gebruikelijke groottes zijn 100, 200 of 300 dimensies."
+        }
+      },
+      {
+        question: {
+          en: "What is the distributional hypothesis in NLP?",
+          es: "¿Qué es la hipótesis distribucional en PLN?",
+          de: "Was ist die distributionelle Hypothese in NLP?",
+          nl: "Wat is de distributionele hypothese in NLP?"
+        },
+        options: [
+          { en: "Words that occur in similar contexts tend to have similar meanings", es: "Las palabras que ocurren en contextos similares tienden a tener significados similares", de: "Wörter die in ähnlichen Kontexten vorkommen tendieren dazu ähnliche Bedeutungen zu haben", nl: "Woorden die in vergelijkbare contexten voorkomen hebben doorgaans vergelijkbare betekenissen" },
+          { en: "Words are distributed randomly in text", es: "Las palabras se distribuyen aleatoriamente en el texto", de: "Wörter sind zufällig im Text verteilt", nl: "Woorden zijn willekeurig verdeeld in tekst" },
+          { en: "Word frequencies follow a normal distribution", es: "Las frecuencias de palabras siguen una distribución normal", de: "Worthäufigkeiten folgen einer Normalverteilung", nl: "Woordfrequenties volgen een normale verdeling" },
+          { en: "Meaning is distributed across multiple words", es: "El significado se distribuye a través de múltiples palabras", de: "Bedeutung ist über mehrere Wörter verteilt", nl: "Betekenis is verdeeld over meerdere woorden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The distributional hypothesis, often summarized as 'you shall know a word by the company it keeps', is the foundation for word embeddings - words appearing in similar contexts have similar meanings.",
+          es: "La hipótesis distribucional, a menudo resumida como 'conocerás una palabra por la compañía que tiene', es la base para incrustaciones de palabras - palabras que aparecen en contextos similares tienen significados similares.",
+          de: "Die distributionelle Hypothese, oft zusammengefasst als 'du wirst ein Wort an seiner Begleitung erkennen', ist die Grundlage für Worteinbettungen - Wörter die in ähnlichen Kontexten erscheinen haben ähnliche Bedeutungen.",
+          nl: "De distributionele hypothese, vaak samengevat als 'je zult een woord kennen aan het gezelschap dat het houdt', is de basis voor woordinbeddingen - woorden die in vergelijkbare contexten verschijnen hebben vergelijkbare betekenissen."
+        }
+      },
+      {
+        question: {
+          en: "What is negative sampling in Word2Vec?",
+          es: "¿Qué es el muestreo negativo en Word2Vec?",
+          de: "Was ist Negative Sampling in Word2Vec?",
+          nl: "Wat is negative sampling in Word2Vec?"
+        },
+        options: [
+          { en: "A training technique that randomly samples negative examples to make training more efficient", es: "Una técnica de entrenamiento que muestrea aleatoriamente ejemplos negativos para hacer el entrenamiento más eficiente", de: "Eine Trainingstechnik die zufällig negative Beispiele sampelt um Training effizienter zu machen", nl: "Een trainingstechniek die willekeurig negatieve voorbeelden sampelt om training efficiënter te maken" },
+          { en: "Removing negative sentiment words", es: "Eliminar palabras de sentimiento negativo", de: "Negative Sentimentwörter entfernen", nl: "Negatieve sentimentwoorden verwijderen" },
+          { en: "Sampling from negative documents only", es: "Muestrear solo de documentos negativos", de: "Nur aus negativen Dokumenten sampeln", nl: "Alleen uit negatieve documenten samplen" },
+          { en: "A method for handling negative numbers", es: "Un método para manejar números negativos", de: "Eine Methode zum Umgang mit negativen Zahlen", nl: "Een methode voor het omgaan met negatieve getallen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Negative sampling is an optimization technique in Word2Vec that samples a small number of 'negative' word pairs (words that don't appear together) instead of updating weights for the entire vocabulary, making training much faster.",
+          es: "El muestreo negativo es una técnica de optimización en Word2Vec que muestrea un pequeño número de pares de palabras 'negativos' (palabras que no aparecen juntas) en lugar de actualizar pesos para todo el vocabulario, haciendo el entrenamiento mucho más rápido.",
+          de: "Negative Sampling ist eine Optimierungstechnik in Word2Vec die eine kleine Anzahl 'negativer' Wortpaare (Wörter die nicht zusammen erscheinen) sampelt anstatt Gewichte für das gesamte Vokabular zu aktualisieren, macht Training viel schneller.",
+          nl: "Negative sampling is een optimalisatietechniek in Word2Vec die een klein aantal 'negatieve' woordparen (woorden die niet samen voorkomen) samplet in plaats van gewichten voor het hele vocabulaire bij te werken, maakt training veel sneller."
+        }
+      },
+      {
+        question: {
+          en: "What is Euclidean distance in vector space?",
+          es: "¿Qué es la distancia euclidiana en espacio vectorial?",
+          de: "Was ist euklidische Distanz im Vektorraum?",
+          nl: "Wat is Euclidische afstand in vectorruimte?"
+        },
+        options: [
+          { en: "The straight-line distance between two vectors calculated using the Pythagorean theorem", es: "La distancia en línea recta entre dos vectores calculada usando el teorema de Pitágoras", de: "Die geradlinige Distanz zwischen zwei Vektoren berechnet mit dem Satz des Pythagoras", nl: "De rechte-lijn afstand tussen twee vectoren berekend met de stelling van Pythagoras" },
+          { en: "The angular distance between vectors", es: "La distancia angular entre vectores", de: "Die Winkeldistanz zwischen Vektoren", nl: "De hoekafstand tussen vectoren" },
+          { en: "The number of dimensions in the vector", es: "El número de dimensiones en el vector", de: "Die Anzahl der Dimensionen im Vektor", nl: "Het aantal dimensies in de vector" },
+          { en: "The Manhattan distance between points", es: "La distancia Manhattan entre puntos", de: "Die Manhattan-Distanz zwischen Punkten", nl: "De Manhattan afstand tussen punten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Euclidean distance measures the straight-line distance between two points in vector space, calculated as the square root of the sum of squared differences. While intuitive, cosine similarity is often preferred for text due to its insensitivity to vector magnitude.",
+          es: "La distancia euclidiana mide la distancia en línea recta entre dos puntos en espacio vectorial, calculada como la raíz cuadrada de la suma de diferencias al cuadrado. Aunque intuitiva, la similitud de coseno a menudo se prefiere para texto debido a su insensibilidad a la magnitud del vector.",
+          de: "Euklidische Distanz misst die geradlinige Distanz zwischen zwei Punkten im Vektorraum, berechnet als Quadratwurzel der Summe quadrierter Differenzen. Obwohl intuitiv wird für Text oft Kosinusähnlichkeit bevorzugt aufgrund ihrer Unempfindlichkeit gegenüber Vektormagnitude.",
+          nl: "Euclidische afstand meet de rechte-lijn afstand tussen twee punten in vectorruimte, berekend als de vierkantswortel van de som van gekwadrateerde verschillen. Hoewel intuïtief wordt voor tekst vaak cosinus gelijkenis verkozen vanwege de ongevoeligheid voor vectorgrootte."
+        }
+      },
+      {
+        question: {
+          en: "What is contextualized word embedding?",
+          es: "¿Qué es la incrustación de palabras contextualizada?",
+          de: "Was ist kontextualisierte Worteinbettung?",
+          nl: "Wat is gecontextualiseerde woordinbedding?"
+        },
+        options: [
+          { en: "Embeddings that change based on the surrounding context, like those from BERT or ELMo", es: "Incrustaciones que cambian según el contexto circundante, como las de BERT o ELMo", de: "Einbettungen die sich basierend auf dem umgebenden Kontext ändern, wie die von BERT oder ELMo", nl: "Embeddings die veranderen op basis van de omringende context, zoals die van BERT of ELMo" },
+          { en: "Embeddings that only work in specific contexts", es: "Incrustaciones que solo funcionan en contextos específicos", de: "Einbettungen die nur in spezifischen Kontexten funktionieren", nl: "Embeddings die alleen in specifieke contexten werken" },
+          { en: "Static embeddings with context information added", es: "Incrustaciones estáticas con información de contexto agregada", de: "Statische Einbettungen mit hinzugefügter Kontextinformation", nl: "Statische embeddings met toegevoegde contextinformatie" },
+          { en: "Embeddings trained on contextual data only", es: "Incrustaciones entrenadas solo en datos contextuales", de: "Einbettungen nur auf kontextuellen Daten trainiert", nl: "Embeddings alleen getraind op contextuele data" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Contextualized embeddings generate different vector representations for the same word based on its context, solving the polysemy problem. For example, 'bank' in 'river bank' vs 'savings bank' gets different embeddings.",
+          es: "Las incrustaciones contextualizadas generan diferentes representaciones vectoriales para la misma palabra basándose en su contexto, resolviendo el problema de polisemia. Por ejemplo, 'banco' en 'banco de río' vs 'banco de ahorros' obtiene diferentes incrustaciones.",
+          de: "Kontextualisierte Einbettungen generieren verschiedene Vektordarstellungen für dasselbe Wort basierend auf seinem Kontext, lösen das Polysemieproblem. Zum Beispiel bekommt 'Bank' in 'Flussufer' vs 'Sparkasse' verschiedene Einbettungen.",
+          nl: "Gecontextualiseerde embeddings genereren verschillende vectorrepresentaties voor hetzelfde woord op basis van zijn context, lossen het polysemieprobleem op. Bijvoorbeeld, 'bank' in 'rivieroever' vs 'spaarbank' krijgt verschillende embeddings."
+        }
+      },
+      {
+        question: {
+          en: "What is the vocabulary size problem in NLP?",
+          es: "¿Qué es el problema del tamaño del vocabulario en PLN?",
+          de: "Was ist das Vokabulargrößenproblem in NLP?",
+          nl: "Wat is het vocabulairegrootte probleem in NLP?"
+        },
+        options: [
+          { en: "Large vocabularies create high-dimensional sparse representations and out-of-vocabulary issues", es: "Vocabularios grandes crean representaciones dispersas de alta dimensión y problemas fuera del vocabulario", de: "Große Vokabulare erstellen hochdimensionale spärliche Darstellungen und Out-of-Vocabulary-Probleme", nl: "Grote vocabulaires creëren hoogdimensionale schaarse representaties en out-of-vocabulary problemen" },
+          { en: "Vocabulary becomes too small to represent all concepts", es: "El vocabulario se vuelve demasiado pequeño para representar todos los conceptos", de: "Vokabular wird zu klein um alle Konzepte darzustellen", nl: "Vocabulaire wordt te klein om alle concepten voor te stellen" },
+          { en: "Determining the optimal vocabulary size", es: "Determinar el tamaño óptimo del vocabulario", de: "Die optimale Vokabulargröße bestimmen", nl: "De optimale vocabulairegrootte bepalen" },
+          { en: "Memory limitations for storing vocabularies", es: "Limitaciones de memoria para almacenar vocabularios", de: "Speicherbeschränkungen für Speicherung von Vokabularen", nl: "Geheugenbeperkingen voor het opslaan van vocabulaires" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Large vocabularies lead to very high-dimensional sparse vectors and the challenge of handling words not seen during training (OOV). Solutions include subword tokenization, character-level models, and vocabulary pruning.",
+          es: "Vocabularios grandes llevan a vectores dispersos de muy alta dimensión y el desafío de manejar palabras no vistas durante el entrenamiento (OOV). Las soluciones incluyen tokenización de subpalabras, modelos a nivel de caracteres y poda de vocabulario.",
+          de: "Große Vokabulare führen zu sehr hochdimensionalen spärlichen Vektoren und der Herausforderung Wörter zu handhaben die während des Trainings nicht gesehen wurden (OOV). Lösungen umfassen Subwort-Tokenisierung, Modelle auf Zeichenebene und Vokabularbeschneidung.",
+          nl: "Grote vocabulaires leiden tot zeer hoogdimensionale schaarse vectoren en de uitdaging van het behandelen van woorden die niet gezien zijn tijdens training (OOV). Oplossingen omvatten subwoord tokenisatie, karakter-niveau modellen en vocabulaire pruning."
+        }
+      },
+      {
+        question: {
+          en: "What is semantic vector space?",
+          es: "¿Qué es el espacio vectorial semántico?",
+          de: "Was ist semantischer Vektorraum?",
+          nl: "Wat is semantische vectorruimte?"
+        },
+        options: [
+          { en: "A multi-dimensional space where words with similar meanings are positioned close together", es: "Un espacio multidimensional donde palabras con significados similares se posicionan cerca unas de otras", de: "Ein mehrdimensionaler Raum wo Wörter mit ähnlichen Bedeutungen nahe beieinander positioniert sind", nl: "Een multidimensionale ruimte waarin woorden met vergelijkbare betekenissen dicht bij elkaar gepositioneerd zijn" },
+          { en: "A database for storing word meanings", es: "Una base de datos para almacenar significados de palabras", de: "Eine Datenbank zum Speichern von Wortbedeutungen", nl: "Een database voor het opslaan van woordbetekenissen" },
+          { en: "A visualization tool for text", es: "Una herramienta de visualización para texto", de: "Ein Visualisierungswerkzeug für Text", nl: "Een visualisatietool voor tekst" },
+          { en: "A grammar checking system", es: "Un sistema de revisión gramatical", de: "Ein Grammatikprüfungssystem", nl: "Een grammatica-controlesysteem" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Semantic vector space represents words as points in a high-dimensional space where geometric relationships (distance, direction) correspond to semantic relationships (similarity, analogy). This enables operations like 'king - man + woman ≈ queen'.",
+          es: "El espacio vectorial semántico representa palabras como puntos en un espacio de alta dimensión donde relaciones geométricas (distancia, dirección) corresponden a relaciones semánticas (similitud, analogía). Esto permite operaciones como 'rey - hombre + mujer ≈ reina'.",
+          de: "Semantischer Vektorraum repräsentiert Wörter als Punkte in einem hochdimensionalen Raum wo geometrische Beziehungen (Distanz, Richtung) semantischen Beziehungen (Ähnlichkeit, Analogie) entsprechen. Dies ermöglicht Operationen wie 'König - Mann + Frau ≈ Königin'.",
+          nl: "Semantische vectorruimte representeert woorden als punten in een hoogdimensionale ruimte waarbij geometrische relaties (afstand, richting) overeenkomen met semantische relaties (gelijkenis, analogie). Dit maakt operaties mogelijk zoals 'koning - man + vrouw ≈ koningin'."
+        }
+      },
+      {
+        question: {
+          en: "What is BPE (Byte Pair Encoding) tokenization?",
+          es: "¿Qué es la tokenización BPE (Codificación de Pares de Bytes)?",
+          de: "Was ist BPE (Byte Pair Encoding) Tokenisierung?",
+          nl: "Wat is BPE (Byte Pair Encoding) tokenisatie?"
+        },
+        options: [
+          { en: "An iterative algorithm that merges the most frequent character pairs to create subword units", es: "Un algoritmo iterativo que fusiona los pares de caracteres más frecuentes para crear unidades de subpalabras", de: "Ein iterativer Algorithmus der die häufigsten Zeichenpaare zusammenführt um Subwort-Einheiten zu erstellen", nl: "Een iteratief algoritme dat de meest frequente karakterparen samenvoegt om subwoord-eenheden te creëren" },
+          { en: "A method for encoding binary data", es: "Un método para codificar datos binarios", de: "Eine Methode zur Kodierung binärer Daten", nl: "Een methode voor het coderen van binaire data" },
+          { en: "A compression algorithm for text files", es: "Un algoritmo de compresión para archivos de texto", de: "Ein Kompressionsalgorithmus für Textdateien", nl: "Een compressie-algoritme voor tekstbestanden" },
+          { en: "A tokenizer that splits on byte boundaries", es: "Un tokenizador que divide en límites de bytes", de: "Ein Tokenisierer der an Bytegrenzen trennt", nl: "Een tokenizer die splitst op bytegrenzen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "BPE starts with characters and iteratively merges the most frequent pairs to build a vocabulary of subword units. This balances vocabulary size with the ability to represent rare words and handles OOV gracefully.",
+          es: "BPE comienza con caracteres e iterativamente fusiona los pares más frecuentes para construir un vocabulario de unidades de subpalabras. Esto equilibra el tamaño del vocabulario con la capacidad de representar palabras raras y maneja OOV elegantemente.",
+          de: "BPE beginnt mit Zeichen und führt iterativ die häufigsten Paare zusammen um ein Vokabular von Subwort-Einheiten aufzubauen. Dies balanciert Vokabulargröße mit der Fähigkeit seltene Wörter darzustellen und behandelt OOV elegant.",
+          nl: "BPE begint met karakters en voegt iteratief de meest frequente paren samen om een vocabulaire van subwoord-eenheden op te bouwen. Dit balanceert vocabulairegrootte met het vermogen om zeldzame woorden voor te stellen en behandelt OOV elegant."
+        }
+      },
+      {
+        question: {
+          en: "What is the vector analogy task in word embeddings?",
+          es: "¿Qué es la tarea de analogía vectorial en incrustaciones de palabras?",
+          de: "Was ist die Vektoranalogie-Aufgabe in Worteinbettungen?",
+          nl: "Wat is de vectoranalogie-taak in woordinbeddingen?"
+        },
+        options: [
+          { en: "Finding semantic relationships through vector arithmetic like 'king - man + woman = queen'", es: "Encontrar relaciones semánticas a través de aritmética vectorial como 'rey - hombre + mujer = reina'", de: "Semantische Beziehungen durch Vektorarithmetik finden wie 'König - Mann + Frau = Königin'", nl: "Semantische relaties vinden door vectorrekenkunde zoals 'koning - man + vrouw = koningin'" },
+          { en: "Comparing word vectors for similarity", es: "Comparar vectores de palabras por similitud", de: "Wortvektoren auf Ähnlichkeit vergleichen", nl: "Woordvectoren vergelijken op gelijkenis" },
+          { en: "Finding analogies in text documents", es: "Encontrar analogías en documentos de texto", de: "Analogien in Textdokumenten finden", nl: "Analogieën vinden in tekstdocumenten" },
+          { en: "Creating vector representations for analogies", es: "Crear representaciones vectoriales para analogías", de: "Vektordarstellungen für Analogien erstellen", nl: "Vectorrepresentaties maken voor analogieën" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Vector analogy tasks test whether embeddings capture semantic relationships by performing vector arithmetic. Classic examples include 'Paris - France + Italy ≈ Rome' and 'swimming - swim + run ≈ running'.",
+          es: "Las tareas de analogía vectorial prueban si las incrustaciones capturan relaciones semánticas realizando aritmética vectorial. Ejemplos clásicos incluyen 'París - Francia + Italia ≈ Roma' y 'nadando - nadar + correr ≈ corriendo'.",
+          de: "Vektoranalogie-Aufgaben testen ob Einbettungen semantische Beziehungen erfassen durch Durchführung von Vektorarithmetik. Klassische Beispiele umfassen 'Paris - Frankreich + Italien ≈ Rom' und 'schwimmend - schwimmen + laufen ≈ laufend'.",
+          nl: "Vectoranalogie-taken testen of embeddings semantische relaties vastleggen door vectorrekenkunde uit te voeren. Klassieke voorbeelden zijn 'Parijs - Frankrijk + Italië ≈ Rome' en 'zwemmend - zwemmen + rennen ≈ rennend'."
+        }
+      },
+      {
+        question: {
+          en: "What is WordPiece tokenization?",
+          es: "¿Qué es la tokenización WordPiece?",
+          de: "Was ist WordPiece-Tokenisierung?",
+          nl: "Wat is WordPiece-tokenisatie?"
+        },
+        options: [
+          { en: "A subword tokenization method that splits words into frequently occurring subword pieces", es: "Un método de tokenización de subpalabras que divide palabras en piezas de subpalabras que ocurren frecuentemente", de: "Eine Subwort-Tokenisierungsmethode die Wörter in häufig vorkommende Subwort-Stücke aufteilt", nl: "Een subwoord-tokenisatiemethode die woorden splitst in frequent voorkomende subwoord-stukken" },
+          { en: "Breaking words into equal-sized pieces", es: "Dividir palabras en piezas de tamaño igual", de: "Wörter in gleichgroße Stücke aufteilen", nl: "Woorden opdelen in gelijk grote stukken" },
+          { en: "Tokenizing only the beginning of words", es: "Tokenizar solo el comienzo de las palabras", de: "Nur den Anfang von Wörtern tokenisieren", nl: "Alleen het begin van woorden tokeniseren" },
+          { en: "A word counting algorithm", es: "Un algoritmo de conteo de palabras", de: "Ein Wortzählalgorithmus", nl: "Een woordtelalgoritme" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "WordPiece is used by BERT and similar models. It builds subword vocabulary by choosing pieces that maximize likelihood of training data, using ## prefix for non-initial subwords (e.g., 'playing' → 'play' + '##ing').",
+          es: "WordPiece es usado por BERT y modelos similares. Construye vocabulario de subpalabras eligiendo piezas que maximizan la probabilidad de datos de entrenamiento, usando prefijo ## para subpalabras no iniciales (ej., 'playing' → 'play' + '##ing').",
+          de: "WordPiece wird von BERT und ähnlichen Modellen verwendet. Es baut Subwort-Vokabular durch Auswahl von Stücken die Wahrscheinlichkeit von Trainingsdaten maximieren, verwendet ## Präfix für nicht-initiale Subwörter (z.B. 'playing' → 'play' + '##ing').",
+          nl: "WordPiece wordt gebruikt door BERT en vergelijkbare modellen. Het bouwt subwoord-vocabulaire door stukken te kiezen die waarschijnlijkheid van trainingsdata maximaliseren, gebruikt ## prefix voor niet-initiële subwoorden (bijv. 'playing' → 'play' + '##ing')."
+        }
+      },
+      {
+        question: {
+          en: "What is SentencePiece?",
+          es: "¿Qué es SentencePiece?",
+          de: "Was ist SentencePiece?",
+          nl: "Wat is SentencePiece?"
+        },
+        options: [
+          { en: "A language-independent tokenizer that treats text as raw character sequences", es: "Un tokenizador independiente del idioma que trata el texto como secuencias de caracteres sin procesar", de: "Ein sprachunabhängiger Tokenisierer der Text als rohe Zeichensequenzen behandelt", nl: "Een taalonafhankelijke tokenizer die tekst behandelt als ruwe karakterreeksen" },
+          { en: "A sentence splitter for multiple languages", es: "Un divisor de oraciones para múltiples idiomas", de: "Ein Satztrenner für mehrere Sprachen", nl: "Een zinssplitser voor meerdere talen" },
+          { en: "A tool for extracting sentence fragments", es: "Una herramienta para extraer fragmentos de oraciones", de: "Ein Werkzeug zum Extrahieren von Satzfragmenten", nl: "Een tool voor het extraheren van zinfragmenten" },
+          { en: "A sentence completion algorithm", es: "Un algoritmo de completación de oraciones", de: "Ein Satzvervollständigungsalgorithmus", nl: "Een zinsvoltooiingsalgoritme" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "SentencePiece treats input as raw character streams without pre-tokenization, making it fully language-agnostic. It's used in models like T5 and supports both BPE and unigram tokenization algorithms.",
+          es: "SentencePiece trata la entrada como flujos de caracteres sin procesar sin pre-tokenización, haciéndolo completamente independiente del idioma. Se usa en modelos como T5 y soporta algoritmos de tokenización tanto BPE como unigrama.",
+          de: "SentencePiece behandelt Eingabe als rohe Zeichenströme ohne Vor-Tokenisierung, macht es vollständig sprachagnostisch. Es wird in Modellen wie T5 verwendet und unterstützt sowohl BPE- als auch Unigramm-Tokenisierungsalgorithmen.",
+          nl: "SentencePiece behandelt input als ruwe karakterstromen zonder pre-tokenisatie, waardoor het volledig taalonafhankelijk is. Het wordt gebruikt in modellen zoals T5 en ondersteunt zowel BPE- als unigram-tokenisatiealgoritmes."
+        }
+      },
+      {
+        question: {
+          en: "What is dependency parsing?",
+          es: "¿Qué es el análisis de dependencias?",
+          de: "Was ist Dependenzparsing?",
+          nl: "Wat is dependency parsing?"
+        },
+        options: [
+          { en: "Analyzing grammatical relationships between words to form a dependency tree", es: "Analizar relaciones gramaticales entre palabras para formar un árbol de dependencias", de: "Grammatische Beziehungen zwischen Wörtern analysieren um einen Dependenzbaum zu bilden", nl: "Grammaticale relaties tussen woorden analyseren om een dependentieboom te vormen" },
+          { en: "Finding which libraries a program depends on", es: "Encontrar de qué bibliotecas depende un programa", de: "Herausfinden von welchen Bibliotheken ein Programm abhängt", nl: "Vinden van welke bibliotheken een programma afhankelijk is" },
+          { en: "Parsing only dependent clauses", es: "Analizar solo cláusulas dependientes", de: "Nur abhängige Sätze parsen", nl: "Alleen afhankelijke bijzinnen parsen" },
+          { en: "Checking text dependencies in documents", es: "Verificar dependencias de texto en documentos", de: "Textabhängigkeiten in Dokumenten prüfen", nl: "Tekstafhankelijkheden in documenten controleren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dependency parsing creates a tree structure showing how words depend on each other grammatically. For example, in 'The cat chased the mouse', 'chased' is the root, 'cat' depends on 'chased' as subject, and 'mouse' depends as object.",
+          es: "El análisis de dependencias crea una estructura de árbol mostrando cómo las palabras dependen gramaticalmente unas de otras. Por ejemplo, en 'El gato persiguió el ratón', 'persiguió' es la raíz, 'gato' depende de 'persiguió' como sujeto, y 'ratón' depende como objeto.",
+          de: "Dependenzparsing erstellt eine Baumstruktur die zeigt wie Wörter grammatisch voneinander abhängen. Zum Beispiel in 'Die Katze jagte die Maus' ist 'jagte' die Wurzel, 'Katze' hängt von 'jagte' als Subjekt ab, und 'Maus' hängt als Objekt ab.",
+          nl: "Dependency parsing creëert een boomstructuur die laat zien hoe woorden grammaticaal van elkaar afhangen. Bijvoorbeeld in 'De kat achtervolgde de muis' is 'achtervolgde' de wortel, 'kat' hangt af van 'achtervolgde' als onderwerp, en 'muis' hangt af als voorwerp."
+        }
+      },
+      {
+        question: {
+          en: "What is constituency parsing?",
+          es: "¿Qué es el análisis de constituyentes?",
+          de: "Was ist Konstituentenparsing?",
+          nl: "Wat is constituency parsing?"
+        },
+        options: [
+          { en: "Breaking sentences into nested phrase structures like noun phrases and verb phrases", es: "Dividir oraciones en estructuras de frases anidadas como frases nominales y frases verbales", de: "Sätze in verschachtelte Phrasenstrukturen wie Nominalphrasen und Verbalphrasen aufteilen", nl: "Zinnen opdelen in geneste zinsdeel-structuren zoals zelfstandig naamwoord groepen en werkwoordgroepen" },
+          { en: "Parsing text from political constituencies", es: "Analizar texto de circunscripciones políticas", de: "Text aus politischen Wahlkreisen parsen", nl: "Tekst uit politieke kiesdistricten parsen" },
+          { en: "Identifying sentence constituents only", es: "Identificar solo constituyentes de oraciones", de: "Nur Satzkonstituenten identifizieren", nl: "Alleen zinsconstituenten identificeren" },
+          { en: "Parsing based on word frequency", es: "Analizar basado en frecuencia de palabras", de: "Parsen basierend auf Worthäufigkeit", nl: "Parsen gebaseerd op woordfrequentie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Constituency parsing creates a hierarchical tree showing phrase structures. For example, 'The quick fox' forms a noun phrase (NP), with 'The' and 'quick' as constituents modifying 'fox'.",
+          es: "El análisis de constituyentes crea un árbol jerárquico mostrando estructuras de frases. Por ejemplo, 'El zorro rápido' forma una frase nominal (FN), con 'El' y 'rápido' como constituyentes modificando 'zorro'.",
+          de: "Konstituentenparsing erstellt einen hierarchischen Baum der Phrasenstrukturen zeigt. Zum Beispiel bildet 'Der schnelle Fuchs' eine Nominalphrase (NP), mit 'Der' und 'schnelle' als Konstituenten die 'Fuchs' modifizieren.",
+          nl: "Constituency parsing creëert een hiërarchische boom die zinsdeel-structuren toont. Bijvoorbeeld 'De snelle vos' vormt een zelfstandig naamwoordgroep (NP), met 'De' en 'snelle' als constituenten die 'vos' modificeren."
+        }
+      },
+      {
+        question: {
+          en: "What is coreference resolution?",
+          es: "¿Qué es la resolución de correferencia?",
+          de: "Was ist Koreferenzauflösung?",
+          nl: "Wat is coreferentieresolutie?"
+        },
+        options: [
+          { en: "Identifying which words or phrases refer to the same entity in text", es: "Identificar qué palabras o frases se refieren a la misma entidad en el texto", de: "Identifizieren welche Wörter oder Phrasen sich auf dieselbe Entität im Text beziehen", nl: "Identificeren welke woorden of zinsdelen verwijzen naar dezelfde entiteit in tekst" },
+          { en: "Resolving conflicts between references", es: "Resolver conflictos entre referencias", de: "Konflikte zwischen Referenzen lösen", nl: "Conflicten tussen referenties oplossen" },
+          { en: "Finding core references in documents", es: "Encontrar referencias centrales en documentos", de: "Kernreferenzen in Dokumenten finden", nl: "Kernreferenties in documenten vinden" },
+          { en: "Checking reference consistency", es: "Verificar consistencia de referencias", de: "Referenzkonsistenz prüfen", nl: "Referentieconsistentie controleren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Coreference resolution links pronouns and noun phrases to their antecedents. For example, in 'Mary went to the store. She bought milk.', the system identifies that 'She' refers to 'Mary'.",
+          es: "La resolución de correferencia vincula pronombres y frases nominales a sus antecedentes. Por ejemplo, en 'María fue a la tienda. Ella compró leche.', el sistema identifica que 'Ella' se refiere a 'María'.",
+          de: "Koreferenzauflösung verknüpft Pronomen und Nominalphrasen mit ihren Antezedenten. Zum Beispiel in 'Maria ging zum Laden. Sie kaufte Milch.', identifiziert das System dass 'Sie' sich auf 'Maria' bezieht.",
+          nl: "Coreferentieresolutie koppelt voornaamwoorden en zelfstandig naamwoordgroepen aan hun antecedenten. Bijvoorbeeld in 'Maria ging naar de winkel. Zij kocht melk.', identificeert het systeem dat 'Zij' verwijst naar 'Maria'."
+        }
+      },
+      {
+        question: {
+          en: "What is anaphora resolution?",
+          es: "¿Qué es la resolución de anáfora?",
+          de: "Was ist Anapherauflösung?",
+          nl: "Wat is anafora-resolutie?"
+        },
+        options: [
+          { en: "Identifying what a pronoun or referring expression points back to in text", es: "Identificar a qué señala un pronombre o expresión referencial en el texto", de: "Identifizieren worauf ein Pronomen oder verweisender Ausdruck im Text zurückverweist", nl: "Identificeren waarnaar een voornaamwoord of verwijzende uitdrukking terug wijst in tekst" },
+          { en: "Resolving metaphors in text", es: "Resolver metáforas en texto", de: "Metaphern in Text auflösen", nl: "Metaforen in tekst oplossen" },
+          { en: "Finding repeated phrases", es: "Encontrar frases repetidas", de: "Wiederholte Phrasen finden", nl: "Herhaalde zinsdelen vinden" },
+          { en: "Analyzing sentence beginnings", es: "Analizar comienzos de oraciones", de: "Satzanfänge analysieren", nl: "Zinsbeginngen analyseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Anaphora resolution is a specific type of coreference resolution focusing on backward-looking references. For example, in 'John loves his dog', 'his' is an anaphor referring back to 'John'.",
+          es: "La resolución de anáfora es un tipo específico de resolución de correferencia enfocándose en referencias hacia atrás. Por ejemplo, en 'Juan ama a su perro', 'su' es una anáfora refiriéndose a 'Juan'.",
+          de: "Anapherauflösung ist eine spezifische Art der Koreferenzauflösung die sich auf rückwärtsgerichtete Referenzen konzentriert. Zum Beispiel in 'Johannes liebt seinen Hund' ist 'seinen' eine Anapher die sich auf 'Johannes' bezieht.",
+          nl: "Anafora-resolutie is een specifiek type coreferentieresolutie dat zich richt op achterwaarts verwijzende referenties. Bijvoorbeeld in 'Jan houdt van zijn hond' is 'zijn' een anafoor die terugverwijst naar 'Jan'."
+        }
+      },
+      {
+        question: {
+          en: "What is semantic role labeling (SRL)?",
+          es: "¿Qué es el etiquetado de roles semánticos (SRL)?",
+          de: "Was ist semantisches Rollenlabeling (SRL)?",
+          nl: "Wat is semantische rol-labeling (SRL)?"
+        },
+        options: [
+          { en: "Identifying who did what to whom, when, where, and why in sentences", es: "Identificar quién hizo qué a quién, cuándo, dónde y por qué en oraciones", de: "Identifizieren wer was wem wann wo und warum in Sätzen getan hat", nl: "Identificeren wie wat met wie deed, wanneer, waar en waarom in zinnen" },
+          { en: "Labeling words by semantic category only", es: "Etiquetar palabras solo por categoría semántica", de: "Wörter nur nach semantischer Kategorie beschriften", nl: "Woorden alleen labelen per semantische categorie" },
+          { en: "Assigning roles to database tables", es: "Asignar roles a tablas de base de datos", de: "Datenbanktabellen Rollen zuweisen", nl: "Rollen toewijzen aan databasetabellen" },
+          { en: "Creating semantic networks", es: "Crear redes semánticas", de: "Semantische Netzwerke erstellen", nl: "Semantische netwerken creëren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "SRL identifies semantic roles like Agent (who), Patient (what/whom), Location (where), Time (when). For example, in 'John ate pizza yesterday', John=Agent, pizza=Patient, yesterday=Time.",
+          es: "SRL identifica roles semánticos como Agente (quién), Paciente (qué/quién), Ubicación (dónde), Tiempo (cuándo). Por ejemplo, en 'Juan comió pizza ayer', Juan=Agente, pizza=Paciente, ayer=Tiempo.",
+          de: "SRL identifiziert semantische Rollen wie Agens (wer), Patiens (was/wen), Ort (wo), Zeit (wann). Zum Beispiel in 'Johannes aß Pizza gestern', Johannes=Agens, Pizza=Patiens, gestern=Zeit.",
+          nl: "SRL identificeert semantische rollen zoals Agens (wie), Patiens (wat/wie), Locatie (waar), Tijd (wanneer). Bijvoorbeeld in 'Jan at pizza gisteren', Jan=Agens, pizza=Patiens, gisteren=Tijd."
+        }
+      },
+      {
+        question: {
+          en: "What is information extraction in NLP?",
+          es: "¿Qué es la extracción de información en PLN?",
+          de: "Was ist Informationsextraktion in NLP?",
+          nl: "Wat is informatie-extractie in NLP?"
+        },
+        options: [
+          { en: "Automatically extracting structured information from unstructured text", es: "Extraer automáticamente información estructurada de texto no estructurado", de: "Automatisch strukturierte Informationen aus unstrukturiertem Text extrahieren", nl: "Automatisch gestructureerde informatie extraheren uit ongestructureerde tekst" },
+          { en: "Extracting files from archives", es: "Extraer archivos de archivos comprimidos", de: "Dateien aus Archiven extrahieren", nl: "Bestanden uit archieven extraheren" },
+          { en: "Getting information from databases", es: "Obtener información de bases de datos", de: "Informationen aus Datenbanken abrufen", nl: "Informatie ophalen uit databases" },
+          { en: "Removing information from text", es: "Eliminar información del texto", de: "Informationen aus Text entfernen", nl: "Informatie uit tekst verwijderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Information extraction identifies and extracts specific pieces of information like entities, relationships, and events from unstructured text to populate structured databases or knowledge bases.",
+          es: "La extracción de información identifica y extrae piezas específicas de información como entidades, relaciones y eventos de texto no estructurado para poblar bases de datos estructuradas o bases de conocimiento.",
+          de: "Informationsextraktion identifiziert und extrahiert spezifische Informationsteile wie Entitäten, Beziehungen und Ereignisse aus unstrukturiertem Text um strukturierte Datenbanken oder Wissensbasen zu befüllen.",
+          nl: "Informatie-extractie identificeert en extraheert specifieke stukjes informatie zoals entiteiten, relaties en gebeurtenissen uit ongestructureerde tekst om gestructureerde databases of kennisbanken te vullen."
+        }
+      },
+      {
+        question: {
+          en: "What is relation extraction?",
+          es: "¿Qué es la extracción de relaciones?",
+          de: "Was ist Relationsextraktion?",
+          nl: "Wat is relatie-extractie?"
+        },
+        options: [
+          { en: "Identifying and classifying semantic relationships between entities in text", es: "Identificar y clasificar relaciones semánticas entre entidades en texto", de: "Semantische Beziehungen zwischen Entitäten im Text identifizieren und klassifizieren", nl: "Semantische relaties tussen entiteiten in tekst identificeren en classificeren" },
+          { en: "Extracting mathematical relations from formulas", es: "Extraer relaciones matemáticas de fórmulas", de: "Mathematische Beziehungen aus Formeln extrahieren", nl: "Wiskundige relaties uit formules extraheren" },
+          { en: "Finding family relationships in genealogy", es: "Encontrar relaciones familiares en genealogía", de: "Familienbeziehungen in Genealogie finden", nl: "Familierelaties vinden in genealogie" },
+          { en: "Removing relationships from databases", es: "Eliminar relaciones de bases de datos", de: "Beziehungen aus Datenbanken entfernen", nl: "Relaties uit databases verwijderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Relation extraction identifies relationships between entities, such as 'Apple acquired Siri in 2010' extracting the relationship (acquired, Apple, Siri, 2010). This builds knowledge graphs and fact databases.",
+          es: "La extracción de relaciones identifica relaciones entre entidades, como 'Apple adquirió Siri en 2010' extrayendo la relación (adquirió, Apple, Siri, 2010). Esto construye grafos de conocimiento y bases de datos de hechos.",
+          de: "Relationsextraktion identifiziert Beziehungen zwischen Entitäten, wie 'Apple kaufte Siri 2010' extrahiert die Beziehung (kaufte, Apple, Siri, 2010). Dies baut Wissensgraphen und Faktendatenbanken auf.",
+          nl: "Relatie-extractie identificeert relaties tussen entiteiten, zoals 'Apple verwierf Siri in 2010' extraheert de relatie (verwierf, Apple, Siri, 2010). Dit bouwt kennisgrafen en feitendatabases op."
+        }    },
+    {
+      question: {en: "What is strategy in games?", es: "What is strategy in games?", de: "What is strategy in games?", nl: "What is strategy in games?"},
+      options: [
+        {en: "Planning to achieve objectives", es: "Planning to achieve objectives", de: "Planning to achieve objectives", nl: "Planning to achieve objectives"},
+        {en: "Random moves", es: "Random moves", de: "Random moves", nl: "Random moves"},
+        {en: "Luck only", es: "Luck only", de: "Luck only", nl: "Luck only"},
+        {en: "No planning", es: "No planning", de: "No planning", nl: "No planning"}
+      ],
+      correct: 0,
+      explanation: {en: "Strategy involves planning and decision-making to achieve game objectives.", es: "Strategy involves planning and decision-making to achieve game objectives.", de: "Strategy involves planning and decision-making to achieve game objectives.", nl: "Strategy involves planning and decision-making to achieve game objectives."}
+
       }
     ]
   };

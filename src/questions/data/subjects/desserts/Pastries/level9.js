@@ -426,7 +426,427 @@
           es: "Gemas peneiradas implicaba pasar repetidamente yemas de huevo a través de tamices cada vez más finos, luego cocinar con azúcar para crear la textura característica translúcida y sedosa de ovos moles de los conventos de Aveiro.",
           de: "Gemas peneiradas beinhaltete das wiederholte Durchpassieren von Eigelb durch immer feinere Siebe, dann Kochen mit Zucker zur Schaffung der charakteristischen durchscheinenden, seidigen Textur von Ovos Moles aus Aveiros Klöstern.",
           nl: "Gemas peneiradas hield in dat eidooiers herhaaldelijk door steeds fijnere zeven werden gehaald, daarna gekookt met suiker om de karakteristieke doorschijnende, zijdeachtige textuur van ovos moles uit Aveiro's kloosters te creëren."
-        }
+        }    },
+    {
+      question: {
+        en: "What is puff pastry?",
+        es: "What is puff pastry?",
+        de: "What is puff pastry?",
+        nl: "What is puff pastry?"
+      },
+      options: [
+        { en: "Laminated dough with many butter layers", es: "Laminated dough with many butter layers", de: "Laminated dough with many butter layers", nl: "Laminated dough with many butter layers" },
+        { en: "Sweet cookie dough", es: "Sweet cookie dough", de: "Sweet cookie dough", nl: "Sweet cookie dough" },
+        { en: "Bread dough", es: "Bread dough", de: "Bread dough", nl: "Bread dough" },
+        { en: "Pie crust", es: "Pie crust", de: "Pie crust", nl: "Pie crust" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Puff pastry is made by folding butter into dough multiple times, creating hundreds of thin layers that puff up when baked.",
+        es: "Puff pastry is made by folding butter into dough multiple times, creating hundreds of thin layers that puff up when baked.",
+        de: "Puff pastry is made by folding butter into dough multiple times, creating hundreds of thin layers that puff up when baked.",
+        nl: "Puff pastry is made by folding butter into dough multiple times, creating hundreds of thin layers that puff up when baked."
+      }
+    },
+    {
+      question: {
+        en: "What is choux pastry?",
+        es: "What is choux pastry?",
+        de: "What is choux pastry?",
+        nl: "What is choux pastry?"
+      },
+      options: [
+        { en: "Cooked dough that puffs into hollow shells", es: "Cooked dough that puffs into hollow shells", de: "Cooked dough that puffs into hollow shells", nl: "Cooked dough that puffs into hollow shells" },
+        { en: "Flaky dough", es: "Flaky dough", de: "Flaky dough", nl: "Flaky dough" },
+        { en: "Sweet dough", es: "Sweet dough", de: "Sweet dough", nl: "Sweet dough" },
+        { en: "Bread dough", es: "Bread dough", de: "Bread dough", nl: "Bread dough" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Choux pastry is made by cooking flour, water, and butter, then beating in eggs; it puffs into hollow shells when baked.",
+        es: "Choux pastry is made by cooking flour, water, and butter, then beating in eggs; it puffs into hollow shells when baked.",
+        de: "Choux pastry is made by cooking flour, water, and butter, then beating in eggs; it puffs into hollow shells when baked.",
+        nl: "Choux pastry is made by cooking flour, water, and butter, then beating in eggs; it puffs into hollow shells when baked."
+      }
+    },
+    {
+      question: {
+        en: "What is a croissant?",
+        es: "What is a croissant?",
+        de: "What is a croissant?",
+        nl: "What is a croissant?"
+      },
+      options: [
+        { en: "French crescent-shaped laminated pastry", es: "French crescent-shaped laminated pastry", de: "French crescent-shaped laminated pastry", nl: "French crescent-shaped laminated pastry" },
+        { en: "Danish pastry", es: "Danish pastry", de: "Danish pastry", nl: "Danish pastry" },
+        { en: "Sweet roll", es: "Sweet roll", de: "Sweet roll", nl: "Sweet roll" },
+        { en: "Pie crust", es: "Pie crust", de: "Pie crust", nl: "Pie crust" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Croissants are French crescent-shaped pastries made from laminated yeast dough with multiple butter layers.",
+        es: "Croissants are French crescent-shaped pastries made from laminated yeast dough with multiple butter layers.",
+        de: "Croissants are French crescent-shaped pastries made from laminated yeast dough with multiple butter layers.",
+        nl: "Croissants are French crescent-shaped pastries made from laminated yeast dough with multiple butter layers."
+      }
+    },
+    {
+      question: {
+        en: "What is phyllo dough?",
+        es: "What is phyllo dough?",
+        de: "What is phyllo dough?",
+        nl: "What is phyllo dough?"
+      },
+      options: [
+        { en: "Paper-thin unleavened dough", es: "Paper-thin unleavened dough", de: "Paper-thin unleavened dough", nl: "Paper-thin unleavened dough" },
+        { en: "Puff pastry", es: "Puff pastry", de: "Puff pastry", nl: "Puff pastry" },
+        { en: "Pie dough", es: "Pie dough", de: "Pie dough", nl: "Pie dough" },
+        { en: "Bread dough", es: "Bread dough", de: "Bread dough", nl: "Bread dough" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Phyllo (or filo) is unleavened dough rolled into paper-thin sheets, used in Middle Eastern and Mediterranean pastries.",
+        es: "Phyllo (or filo) is unleavened dough rolled into paper-thin sheets, used in Middle Eastern and Mediterranean pastries.",
+        de: "Phyllo (or filo) is unleavened dough rolled into paper-thin sheets, used in Middle Eastern and Mediterranean pastries.",
+        nl: "Phyllo (or filo) is unleavened dough rolled into paper-thin sheets, used in Middle Eastern and Mediterranean pastries."
+      }
+    },
+    {
+      question: {
+        en: "What is the difference between puff pastry and phyllo?",
+        es: "What is the difference between puff pastry and phyllo?",
+        de: "What is the difference between puff pastry and phyllo?",
+        nl: "What is the difference between puff pastry and phyllo?"
+      },
+      options: [
+        { en: "Puff pastry is laminated with butter; phyllo is rolled thin", es: "Puff pastry is laminated with butter; phyllo is rolled thin", de: "Puff pastry is laminated with butter; phyllo is rolled thin", nl: "Puff pastry is laminated with butter; phyllo is rolled thin" },
+        { en: "No difference", es: "No difference", de: "No difference", nl: "No difference" },
+        { en: "Phyllo contains yeast", es: "Phyllo contains yeast", de: "Phyllo contains yeast", nl: "Phyllo contains yeast" },
+        { en: "Puff pastry is sweeter", es: "Puff pastry is sweeter", de: "Puff pastry is sweeter", nl: "Puff pastry is sweeter" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Puff pastry achieves layers through lamination with butter; phyllo is rolled extremely thin and brushed with butter between sheets.",
+        es: "Puff pastry achieves layers through lamination with butter; phyllo is rolled extremely thin and brushed with butter between sheets.",
+        de: "Puff pastry achieves layers through lamination with butter; phyllo is rolled extremely thin and brushed with butter between sheets.",
+        nl: "Puff pastry achieves layers through lamination with butter; phyllo is rolled extremely thin and brushed with butter between sheets."
+      }
+    },
+    {
+      question: {
+        en: "What is an éclair?",
+        es: "What is an éclair?",
+        de: "What is an éclair?",
+        nl: "What is an éclair?"
+      },
+      options: [
+        { en: "Choux pastry filled with cream, topped with icing", es: "Choux pastry filled with cream, topped with icing", de: "Choux pastry filled with cream, topped with icing", nl: "Choux pastry filled with cream, topped with icing" },
+        { en: "Croissant", es: "Croissant", de: "Croissant", nl: "Croissant" },
+        { en: "Danish pastry", es: "Danish pastry", de: "Danish pastry", nl: "Danish pastry" },
+        { en: "Tart", es: "Tart", de: "Tart", nl: "Tart" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "An éclair is an elongated choux pastry filled with cream and topped with icing, typically chocolate.",
+        es: "An éclair is an elongated choux pastry filled with cream and topped with icing, typically chocolate.",
+        de: "An éclair is an elongated choux pastry filled with cream and topped with icing, typically chocolate.",
+        nl: "An éclair is an elongated choux pastry filled with cream and topped with icing, typically chocolate."
+      }
+    },
+    {
+      question: {
+        en: "What is a palmier?",
+        es: "What is a palmier?",
+        de: "What is a palmier?",
+        nl: "What is a palmier?"
+      },
+      options: [
+        { en: "Puff pastry cookie shaped like palm leaf", es: "Puff pastry cookie shaped like palm leaf", de: "Puff pastry cookie shaped like palm leaf", nl: "Puff pastry cookie shaped like palm leaf" },
+        { en: "Croissant", es: "Croissant", de: "Croissant", nl: "Croissant" },
+        { en: "Danish", es: "Danish", de: "Danish", nl: "Danish" },
+        { en: "Éclair", es: "Éclair", de: "Éclair", nl: "Éclair" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Palmiers are cookies made from puff pastry rolled in sugar and shaped to resemble palm leaves or elephant ears.",
+        es: "Palmiers are cookies made from puff pastry rolled in sugar and shaped to resemble palm leaves or elephant ears.",
+        de: "Palmiers are cookies made from puff pastry rolled in sugar and shaped to resemble palm leaves or elephant ears.",
+        nl: "Palmiers are cookies made from puff pastry rolled in sugar and shaped to resemble palm leaves or elephant ears."
+      }
+    },
+    {
+      question: {
+        en: "What is a Danish pastry?",
+        es: "What is a Danish pastry?",
+        de: "What is a Danish pastry?",
+        nl: "What is a Danish pastry?"
+      },
+      options: [
+        { en: "Sweet laminated pastry often with filling", es: "Sweet laminated pastry often with filling", de: "Sweet laminated pastry often with filling", nl: "Sweet laminated pastry often with filling" },
+        { en: "Croissant", es: "Croissant", de: "Croissant", nl: "Croissant" },
+        { en: "Puff pastry", es: "Puff pastry", de: "Puff pastry", nl: "Puff pastry" },
+        { en: "Choux pastry", es: "Choux pastry", de: "Choux pastry", nl: "Choux pastry" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Danish pastries are sweet laminated yeast doughs, often filled with fruit, cream cheese, or custard.",
+        es: "Danish pastries are sweet laminated yeast doughs, often filled with fruit, cream cheese, or custard.",
+        de: "Danish pastries are sweet laminated yeast doughs, often filled with fruit, cream cheese, or custard.",
+        nl: "Danish pastries are sweet laminated yeast doughs, often filled with fruit, cream cheese, or custard."
+      }
+    },
+    {
+      question: {
+        en: "What is a profiterole?",
+        es: "What is a profiterole?",
+        de: "What is a profiterole?",
+        nl: "What is a profiterole?"
+      },
+      options: [
+        { en: "Choux pastry puff filled with cream", es: "Choux pastry puff filled with cream", de: "Choux pastry puff filled with cream", nl: "Choux pastry puff filled with cream" },
+        { en: "Éclair", es: "Éclair", de: "Éclair", nl: "Éclair" },
+        { en: "Croissant", es: "Croissant", de: "Croissant", nl: "Croissant" },
+        { en: "Tart", es: "Tart", de: "Tart", nl: "Tart" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Profiteroles are small choux pastry puffs filled with cream or ice cream, often served with chocolate sauce.",
+        es: "Profiteroles are small choux pastry puffs filled with cream or ice cream, often served with chocolate sauce.",
+        de: "Profiteroles are small choux pastry puffs filled with cream or ice cream, often served with chocolate sauce.",
+        nl: "Profiteroles are small choux pastry puffs filled with cream or ice cream, often served with chocolate sauce."
+      }
+    },
+    {
+      question: {
+        en: "What is lamination in pastry making?",
+        es: "What is lamination in pastry making?",
+        de: "What is lamination in pastry making?",
+        nl: "What is lamination in pastry making?"
+      },
+      options: [
+        { en: "Folding butter into dough to create layers", es: "Folding butter into dough to create layers", de: "Folding butter into dough to create layers", nl: "Folding butter into dough to create layers" },
+        { en: "Rolling dough thin", es: "Rolling dough thin", de: "Rolling dough thin", nl: "Rolling dough thin" },
+        { en: "Adding yeast", es: "Adding yeast", de: "Adding yeast", nl: "Adding yeast" },
+        { en: "Baking at high temperature", es: "Baking at high temperature", de: "Baking at high temperature", nl: "Baking at high temperature" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Lamination involves repeatedly folding butter into dough, creating hundreds of distinct layers that separate during baking.",
+        es: "Lamination involves repeatedly folding butter into dough, creating hundreds of distinct layers that separate during baking.",
+        de: "Lamination involves repeatedly folding butter into dough, creating hundreds of distinct layers that separate during baking.",
+        nl: "Lamination involves repeatedly folding butter into dough, creating hundreds of distinct layers that separate during baking."
+      }
+    },
+    {
+      question: {
+        en: "What is a vol-au-vent?",
+        es: "What is a vol-au-vent?",
+        de: "What is a vol-au-vent?",
+        nl: "What is a vol-au-vent?"
+      },
+      options: [
+        { en: "Round puff pastry case for savory or sweet fillings", es: "Round puff pastry case for savory or sweet fillings", de: "Round puff pastry case for savory or sweet fillings", nl: "Round puff pastry case for savory or sweet fillings" },
+        { en: "Croissant", es: "Croissant", de: "Croissant", nl: "Croissant" },
+        { en: "Danish", es: "Danish", de: "Danish", nl: "Danish" },
+        { en: "Éclair", es: "Éclair", de: "Éclair", nl: "Éclair" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Vol-au-vent is a round puff pastry case with a hollow center, used for both savory and sweet fillings.",
+        es: "Vol-au-vent is a round puff pastry case with a hollow center, used for both savory and sweet fillings.",
+        de: "Vol-au-vent is a round puff pastry case with a hollow center, used for both savory and sweet fillings.",
+        nl: "Vol-au-vent is a round puff pastry case with a hollow center, used for both savory and sweet fillings."
+      }
+    },
+    {
+      question: {
+        en: "What is the ideal temperature for baking puff pastry?",
+        es: "What is the ideal temperature for baking puff pastry?",
+        de: "What is the ideal temperature for baking puff pastry?",
+        nl: "What is the ideal temperature for baking puff pastry?"
+      },
+      options: [
+        { en: "400-425°F (200-220°C)", es: "400-425°F (200-220°C)", de: "400-425°F (200-220°C)", nl: "400-425°F (200-220°C)" },
+        { en: "325°F (160°C)", es: "325°F (160°C)", de: "325°F (160°C)", nl: "325°F (160°C)" },
+        { en: "475°F (245°C)", es: "475°F (245°C)", de: "475°F (245°C)", nl: "475°F (245°C)" },
+        { en: "350°F (175°C)", es: "350°F (175°C)", de: "350°F (175°C)", nl: "350°F (175°C)" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Puff pastry needs high heat (400-425°F) to create steam quickly, which separates the layers and makes it puff.",
+        es: "Puff pastry needs high heat (400-425°F) to create steam quickly, which separates the layers and makes it puff.",
+        de: "Puff pastry needs high heat (400-425°F) to create steam quickly, which separates the layers and makes it puff.",
+        nl: "Puff pastry needs high heat (400-425°F) to create steam quickly, which separates the layers and makes it puff."
+      }
+    },
+    {
+      question: {
+        en: "What is a Paris-Brest?",
+        es: "What is a Paris-Brest?",
+        de: "What is a Paris-Brest?",
+        nl: "What is a Paris-Brest?"
+      },
+      options: [
+        { en: "Choux pastry ring filled with praline cream", es: "Choux pastry ring filled with praline cream", de: "Choux pastry ring filled with praline cream", nl: "Choux pastry ring filled with praline cream" },
+        { en: "Croissant", es: "Croissant", de: "Croissant", nl: "Croissant" },
+        { en: "Danish", es: "Danish", de: "Danish", nl: "Danish" },
+        { en: "Tart", es: "Tart", de: "Tart", nl: "Tart" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Paris-Brest is a choux pastry ring topped with sliced almonds and filled with praline-flavored cream.",
+        es: "Paris-Brest is a choux pastry ring topped with sliced almonds and filled with praline-flavored cream.",
+        de: "Paris-Brest is a choux pastry ring topped with sliced almonds and filled with praline-flavored cream.",
+        nl: "Paris-Brest is a choux pastry ring topped with sliced almonds and filled with praline-flavored cream."
+      }
+    },
+    {
+      question: {
+        en: "What is a strudel?",
+        es: "What is a strudel?",
+        de: "What is a strudel?",
+        nl: "What is a strudel?"
+      },
+      options: [
+        { en: "Rolled pastry with sweet or savory filling", es: "Rolled pastry with sweet or savory filling", de: "Rolled pastry with sweet or savory filling", nl: "Rolled pastry with sweet or savory filling" },
+        { en: "Danish pastry", es: "Danish pastry", de: "Danish pastry", nl: "Danish pastry" },
+        { en: "Croissant", es: "Croissant", de: "Croissant", nl: "Croissant" },
+        { en: "Éclair", es: "Éclair", de: "Éclair", nl: "Éclair" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Strudel is a pastry made with very thin dough rolled around a filling, most famously apple strudel.",
+        es: "Strudel is a pastry made with very thin dough rolled around a filling, most famously apple strudel.",
+        de: "Strudel is a pastry made with very thin dough rolled around a filling, most famously apple strudel.",
+        nl: "Strudel is a pastry made with very thin dough rolled around a filling, most famously apple strudel."
+      }
+    },
+    {
+      question: {
+        en: "What causes puff pastry to be tough instead of flaky?",
+        es: "What causes puff pastry to be tough instead of flaky?",
+        de: "What causes puff pastry to be tough instead of flaky?",
+        nl: "What causes puff pastry to be tough instead of flaky?"
+      },
+      options: [
+        { en: "Overworking the dough or warm butter", es: "Overworking the dough or warm butter", de: "Overworking the dough or warm butter", nl: "Overworking the dough or warm butter" },
+        { en: "Too much butter", es: "Too much butter", de: "Too much butter", nl: "Too much butter" },
+        { en: "Baking too hot", es: "Baking too hot", de: "Baking too hot", nl: "Baking too hot" },
+        { en: "Not enough layers", es: "Not enough layers", de: "Not enough layers", nl: "Not enough layers" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Overworking the dough or using warm butter can develop gluten and blend the layers, resulting in tough rather than flaky pastry.",
+        es: "Overworking the dough or using warm butter can develop gluten and blend the layers, resulting in tough rather than flaky pastry.",
+        de: "Overworking the dough or using warm butter can develop gluten and blend the layers, resulting in tough rather than flaky pastry.",
+        nl: "Overworking the dough or using warm butter can develop gluten and blend the layers, resulting in tough rather than flaky pastry."
+      }
+    },
+    {
+      question: {
+        en: "What is a religieuse?",
+        es: "What is a religieuse?",
+        de: "What is a religieuse?",
+        nl: "What is a religieuse?"
+      },
+      options: [
+        { en: "Pastry resembling a nun, made from choux", es: "Pastry resembling a nun, made from choux", de: "Pastry resembling a nun, made from choux", nl: "Pastry resembling a nun, made from choux" },
+        { en: "Croissant", es: "Croissant", de: "Croissant", nl: "Croissant" },
+        { en: "Danish", es: "Danish", de: "Danish", nl: "Danish" },
+        { en: "Tart", es: "Tart", de: "Tart", nl: "Tart" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Religieuse (French for 'nun') is made from two choux pastry puffs stacked and decorated to resemble a nun.",
+        es: "Religieuse (French for 'nun') is made from two choux pastry puffs stacked and decorated to resemble a nun.",
+        de: "Religieuse (French for 'nun') is made from two choux pastry puffs stacked and decorated to resemble a nun.",
+        nl: "Religieuse (French for 'nun') is made from two choux pastry puffs stacked and decorated to resemble a nun."
+      }
+    },
+    {
+      question: {
+        en: "What is the purpose of docking pastry?",
+        es: "What is the purpose of docking pastry?",
+        de: "What is the purpose of docking pastry?",
+        nl: "What is the purpose of docking pastry?"
+      },
+      options: [
+        { en: "Prevent puffing by pricking holes", es: "Prevent puffing by pricking holes", de: "Prevent puffing by pricking holes", nl: "Prevent puffing by pricking holes" },
+        { en: "Add decoration", es: "Add decoration", de: "Add decoration", nl: "Add decoration" },
+        { en: "Let steam escape", es: "Let steam escape", de: "Let steam escape", nl: "Let steam escape" },
+        { en: "Speed up baking", es: "Speed up baking", de: "Speed up baking", nl: "Speed up baking" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Docking (pricking holes) prevents pastry from puffing in areas where you want it to stay flat, like tart bottoms.",
+        es: "Docking (pricking holes) prevents pastry from puffing in areas where you want it to stay flat, like tart bottoms.",
+        de: "Docking (pricking holes) prevents pastry from puffing in areas where you want it to stay flat, like tart bottoms.",
+        nl: "Docking (pricking holes) prevents pastry from puffing in areas where you want it to stay flat, like tart bottoms."
+      }
+    },
+    {
+      question: {
+        en: "What is a mille-feuille made from?",
+        es: "What is a mille-feuille made from?",
+        de: "What is a mille-feuille made from?",
+        nl: "What is a mille-feuille made from?"
+      },
+      options: [
+        { en: "Layers of puff pastry and cream", es: "Layers of puff pastry and cream", de: "Layers of puff pastry and cream", nl: "Layers of puff pastry and cream" },
+        { en: "Choux pastry", es: "Choux pastry", de: "Choux pastry", nl: "Choux pastry" },
+        { en: "Phyllo dough", es: "Phyllo dough", de: "Phyllo dough", nl: "Phyllo dough" },
+        { en: "Shortcrust pastry", es: "Shortcrust pastry", de: "Shortcrust pastry", nl: "Shortcrust pastry" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Mille-feuille (thousand sheets) is made from layers of puff pastry with pastry cream between them.",
+        es: "Mille-feuille (thousand sheets) is made from layers of puff pastry with pastry cream between them.",
+        de: "Mille-feuille (thousand sheets) is made from layers of puff pastry with pastry cream between them.",
+        nl: "Mille-feuille (thousand sheets) is made from layers of puff pastry with pastry cream between them."
+      }
+    },
+    {
+      question: {
+        en: "What is blind baking?",
+        es: "What is blind baking?",
+        de: "What is blind baking?",
+        nl: "What is blind baking?"
+      },
+      options: [
+        { en: "Pre-baking pastry shell without filling", es: "Pre-baking pastry shell without filling", de: "Pre-baking pastry shell without filling", nl: "Pre-baking pastry shell without filling" },
+        { en: "Baking without looking", es: "Baking without looking", de: "Baking without looking", nl: "Baking without looking" },
+        { en: "Baking in dark oven", es: "Baking in dark oven", de: "Baking in dark oven", nl: "Baking in dark oven" },
+        { en: "Baking covered", es: "Baking covered", de: "Baking covered", nl: "Baking covered" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Blind baking means pre-baking a pastry shell (often with weights) before adding filling, to prevent sogginess.",
+        es: "Blind baking means pre-baking a pastry shell (often with weights) before adding filling, to prevent sogginess.",
+        de: "Blind baking means pre-baking a pastry shell (often with weights) before adding filling, to prevent sogginess.",
+        nl: "Blind baking means pre-baking a pastry shell (often with weights) before adding filling, to prevent sogginess."
+      }
+    },
+    {
+      question: {
+        en: "What is a croquembouche?",
+        es: "What is a croquembouche?",
+        de: "What is a croquembouche?",
+        nl: "What is a croquembouche?"
+      },
+      options: [
+        { en: "French dessert tower of cream puffs", es: "French dessert tower of cream puffs", de: "French dessert tower of cream puffs", nl: "French dessert tower of cream puffs" },
+        { en: "Croissant", es: "Croissant", de: "Croissant", nl: "Croissant" },
+        { en: "Danish pastry", es: "Danish pastry", de: "Danish pastry", nl: "Danish pastry" },
+        { en: "Tart", es: "Tart", de: "Tart", nl: "Tart" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Croquembouche is a French dessert consisting of choux pastry cream puffs stacked into a cone and bound with caramel.",
+        es: "Croquembouche is a French dessert consisting of choux pastry cream puffs stacked into a cone and bound with caramel.",
+        de: "Croquembouche is a French dessert consisting of choux pastry cream puffs stacked into a cone and bound with caramel.",
+        nl: "Croquembouche is a French dessert consisting of choux pastry cream puffs stacked into a cone and bound with caramel."
+      }
+
       }
     ]
   };

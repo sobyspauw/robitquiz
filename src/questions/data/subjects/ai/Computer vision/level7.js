@@ -427,6 +427,426 @@
           de: "Während semantische Segmentierung dasselbe Label allen Pixeln derselben Klasse zuweist, bietet Instanzsegmentierung einzigartige Labels für jede individuelle Objektinstanz, ermöglicht Zählung und Verfolgung separater Objekte.",
           nl: "Terwijl semantische segmentatie hetzelfde label toewijst aan alle pixels van dezelfde klasse, biedt instantiesegmentatie unieke labels voor elke individuele objectinstantie, maakt tellen en volgen van afzonderlijke objecten mogelijk."
         }
+      },
+      {
+        question: {
+          en: "What is mean Average Precision (mAP) in object detection?",
+          es: "¿Qué es la Precisión Media Promedio (mAP) en detección de objetos?",
+          de: "Was ist die mittlere durchschnittliche Präzision (mAP) in Objekterkennung?",
+          nl: "Wat is gemiddelde Average Precision (mAP) bij objectdetectie?"
+        },
+        options: [
+          { en: "Average of precision values across different recall levels and object classes", es: "Promedio de valores de precisión en diferentes niveles de recall y clases de objetos", de: "Durchschnitt von Präzisionswerten über verschiedene Recall-Stufen und Objektklassen", nl: "Gemiddelde van precisiewaarden over verschillende recall niveaus en objectklassen" },
+          { en: "Mean accuracy percentage of predictions", es: "Porcentaje de precisión media de predicciones", de: "Mittlerer Genauigkeitsprozentsatz von Vorhersagen", nl: "Gemiddeld nauwkeurigheidspercentage van voorspellingen" },
+          { en: "Map of average pixel values", es: "Mapa de valores promedio de píxeles", de: "Karte durchschnittlicher Pixelwerte", nl: "Kaart van gemiddelde pixelwaarden" },
+          { en: "Maximum achievable precision", es: "Precisión máxima alcanzable", de: "Maximal erreichbare Präzision", nl: "Maximaal haalbare precisie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "mAP computes Average Precision (AP) for each class by integrating the precision-recall curve, then averages across all classes, providing a comprehensive single-number metric for evaluating detection model performance.",
+          es: "mAP calcula Precisión Media (AP) para cada clase integrando la curva precisión-recall, luego promedia a través de todas las clases, proporcionando una métrica integral de número único para evaluar rendimiento del modelo de detección.",
+          de: "mAP berechnet Average Precision (AP) für jede Klasse durch Integration der Präzisions-Recall-Kurve, mittelt dann über alle Klassen, bietet umfassende Einzelzahl-Metrik zur Bewertung der Erkennungsmodellleistung.",
+          nl: "mAP berekent Average Precision (AP) voor elke klasse door integratie van de precisie-recall curve, middelt vervolgens over alle klassen, biedt uitgebreide enkele-getal metriek voor evaluatie van detectiemodelprestaties."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of feature pyramid networks (FPN)?",
+          es: "¿Cuál es el propósito de las redes de pirámide de características (FPN)?",
+          de: "Was ist der Zweck von Feature Pyramid Networks (FPN)?",
+          nl: "Wat is het doel van feature pyramid networks (FPN)?"
+        },
+        options: [
+          { en: "Build multi-scale feature representations for detecting objects at various sizes", es: "Construir representaciones de características multi-escala para detectar objetos de varios tamaños", de: "Multi-Skalen-Feature-Repräsentationen aufbauen zum Erkennen von Objekten verschiedener Größen", nl: "Multi-schaal feature representaties bouwen voor detectie van objecten van verschillende groottes" },
+          { en: "Create pyramid-shaped network architectures", es: "Crear arquitecturas de red en forma de pirámide", de: "Pyramidenförmige Netzwerkarchitekturen erstellen", nl: "Piramide-vormige netwerkarchitecturen maken" },
+          { en: "Organize features hierarchically only", es: "Organizar características solo jerárquicamente", de: "Features nur hierarchisch organisieren", nl: "Features alleen hiërarchisch organiseren" },
+          { en: "Reduce computational costs through pyramids", es: "Reducir costos computacionales mediante pirámides", de: "Rechenkosten durch Pyramiden reduzieren", nl: "Computationele kosten verminderen door piramides" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "FPNs combine low-resolution semantically strong features with high-resolution semantically weak features through top-down pathways and lateral connections, enabling accurate detection across multiple scales efficiently.",
+          es: "FPNs combinan características semánticamente fuertes de baja resolución con características semánticamente débiles de alta resolución a través de vías de arriba hacia abajo y conexiones laterales, permitiendo detección precisa en múltiples escalas eficientemente.",
+          de: "FPNs kombinieren semantisch starke Features niedriger Auflösung mit semantisch schwachen Features hoher Auflösung durch Top-Down-Pfade und laterale Verbindungen, ermöglichen genaue Erkennung über mehrere Skalen effizient.",
+          nl: "FPNs combineren semantisch sterke features met lage resolutie met semantisch zwakke features met hoge resolutie door top-down paden en laterale verbindingen, maken nauwkeurige detectie over meerdere schalen efficiënt mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What is the YOLO (You Only Look Once) approach to object detection?",
+          es: "¿Cuál es el enfoque YOLO (You Only Look Once) para detección de objetos?",
+          de: "Was ist der YOLO (You Only Look Once) Ansatz zur Objekterkennung?",
+          nl: "Wat is de YOLO (You Only Look Once) benadering voor objectdetectie?"
+        },
+        options: [
+          { en: "Single-stage detector that predicts bounding boxes and class probabilities directly from full images", es: "Detector de una etapa que predice cajas delimitadoras y probabilidades de clase directamente de imágenes completas", de: "Einstufiger Detektor der Bounding Boxes und Klassenwahrscheinlichkeiten direkt aus vollständigen Bildern vorhersagt", nl: "Enkele-fase detector die bounding boxes en klassewaarschijnlijkheden direct voorspelt uit volledige afbeeldingen" },
+          { en: "Requires looking at images only once during training", es: "Requiere mirar imágenes solo una vez durante entrenamiento", de: "Erfordert Bilder nur einmal während Training anzusehen", nl: "Vereist afbeeldingen maar één keer te bekijken tijdens training" },
+          { en: "Uses one neural network layer only", es: "Usa solo una capa de red neuronal", de: "Verwendet nur eine neuronale Netzwerkschicht", nl: "Gebruikt slechts één neurale netwerklaag" },
+          { en: "Processes one object at a time", es: "Procesa un objeto a la vez", de: "Verarbeitet ein Objekt gleichzeitig", nl: "Verwerkt één object tegelijk" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "YOLO frames detection as a regression problem, dividing images into grids and predicting bounding boxes and class probabilities for each grid cell in one forward pass, achieving real-time detection speeds.",
+          es: "YOLO enmarca detección como problema de regresión, dividiendo imágenes en cuadrículas y prediciendo cajas delimitadoras y probabilidades de clase para cada celda de cuadrícula en un pase hacia adelante, logrando velocidades de detección en tiempo real.",
+          de: "YOLO rahmt Erkennung als Regressionsproblem, teilt Bilder in Raster und sagt Bounding Boxes und Klassenwahrscheinlichkeiten für jede Rasterzelle in einem Vorwärtsdurchlauf vorher, erreicht Echtzeit-Erkennungsgeschwindigkeiten.",
+          nl: "YOLO kaart detectie als regressieprobleem, verdeelt afbeeldingen in rasters en voorspelt bounding boxes en klassewaarschijnlijkheden voor elke rastercel in één voorwaartse pass, bereikt real-time detectiesnelheden."
+        }
+      },
+      {
+        question: {
+          en: "What is GradCAM (Gradient-weighted Class Activation Mapping) used for?",
+          es: "¿Para qué se usa GradCAM (Mapeo de Activación de Clase Ponderado por Gradiente)?",
+          de: "Wofür wird GradCAM (Gradient-weighted Class Activation Mapping) verwendet?",
+          nl: "Waarvoor wordt GradCAM (Gradient-weighted Class Activation Mapping) gebruikt?"
+        },
+        options: [
+          { en: "Visualize which image regions CNN focuses on for predictions", es: "Visualizar en qué regiones de imagen se enfoca CNN para predicciones", de: "Visualisieren welche Bildbereiche CNN für Vorhersagen fokussiert", nl: "Visualiseren op welke beeldregio's CNN zich focust voor voorspellingen" },
+          { en: "Activate gradient descent during training", es: "Activar descenso de gradiente durante entrenamiento", de: "Gradientenabstieg während Training aktivieren", nl: "Gradient descent activeren tijdens training" },
+          { en: "Map gradients to classes automatically", es: "Mapear gradientes a clases automáticamente", de: "Gradienten automatisch auf Klassen abbilden", nl: "Gradiënten automatisch op klassen mappen" },
+          { en: "Create class activation maps for cameras", es: "Crear mapas de activación de clase para cámaras", de: "Klassen-Aktivierungskarten für Kameras erstellen", nl: "Klasse activatiekaarten maken voor camera's" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "GradCAM uses gradients flowing into final convolutional layer to produce localization maps highlighting discriminative regions, providing interpretability by showing what the network 'sees' when making decisions.",
+          es: "GradCAM usa gradientes que fluyen hacia la capa convolucional final para producir mapas de localización destacando regiones discriminativas, proporcionando interpretabilidad mostrando qué 've' la red al tomar decisiones.",
+          de: "GradCAM verwendet Gradienten die in die finale Faltungsschicht fließen um Lokalisierungskarten zu produzieren die diskriminative Regionen hervorheben, bietet Interpretierbarkeit durch Zeigen was das Netzwerk 'sieht' bei Entscheidungen.",
+          nl: "GradCAM gebruikt gradiënten die naar de finale convolutionele laag stromen om localisatiekaarten te produceren die discriminatieve regio's benadrukken, biedt interpreteerbaarheid door te tonen wat het netwerk 'ziet' bij beslissingen nemen."
+        }
+      },
+      {
+        question: {
+          en: "What is the Mask R-CNN architecture designed for?",
+          es: "¿Para qué está diseñada la arquitectura Mask R-CNN?",
+          de: "Wofür ist die Mask R-CNN Architektur konzipiert?",
+          nl: "Waarvoor is de Mask R-CNN architectuur ontworpen?"
+        },
+        options: [
+          { en: "Instance segmentation by adding mask prediction branch to Faster R-CNN", es: "Segmentación de instancias agregando rama de predicción de máscara a Faster R-CNN", de: "Instanzsegmentierung durch Hinzufügen eines Maskenvorhersage-Zweigs zu Faster R-CNN", nl: "Instance segmentatie door masker voorspellingstak toe te voegen aan Faster R-CNN" },
+          { en: "Masking regions of images during processing", es: "Enmascarar regiones de imágenes durante procesamiento", de: "Regionen von Bildern während Verarbeitung maskieren", nl: "Regio's van afbeeldingen maskeren tijdens verwerking" },
+          { en: "Creating masks for CNN layers", es: "Crear máscaras para capas CNN", de: "Masken für CNN-Schichten erstellen", nl: "Maskers maken voor CNN lagen" },
+          { en: "Region-based classification only", es: "Solo clasificación basada en región", de: "Nur regionsbasierte Klassifikation", nl: "Alleen regio-gebaseerde classificatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mask R-CNN extends Faster R-CNN by adding a parallel branch for predicting segmentation masks on each Region of Interest, enabling simultaneous object detection, classification, and pixel-level segmentation.",
+          es: "Mask R-CNN extiende Faster R-CNN agregando una rama paralela para predecir máscaras de segmentación en cada Región de Interés, permitiendo detección de objetos, clasificación y segmentación a nivel de píxel simultáneamente.",
+          de: "Mask R-CNN erweitert Faster R-CNN durch Hinzufügen eines parallelen Zweigs zum Vorhersagen von Segmentierungsmasken auf jeder Region of Interest, ermöglicht simultane Objekterkennung, Klassifikation und pixelgenaue Segmentierung.",
+          nl: "Mask R-CNN breidt Faster R-CNN uit door een parallelle tak toe te voegen voor het voorspellen van segmentatiemaskers op elke Region of Interest, maakt gelijktijdige objectdetectie, classificatie en pixel-niveau segmentatie mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What is adversarial training in computer vision?",
+          es: "¿Qué es el entrenamiento adversario en visión por computadora?",
+          de: "Was ist adversariales Training in Computer Vision?",
+          nl: "Wat is adversarial training in computer vision?"
+        },
+        options: [
+          { en: "Training models on adversarial examples to improve robustness against perturbations", es: "Entrenar modelos en ejemplos adversarios para mejorar robustez contra perturbaciones", de: "Modelle auf adversarialen Beispielen trainieren um Robustheit gegen Störungen zu verbessern", nl: "Modellen trainen op adversarial voorbeelden om robuustheid tegen verstoringen te verbeteren" },
+          { en: "Training two adversarial networks simultaneously", es: "Entrenar dos redes adversarias simultáneamente", de: "Zwei adversariale Netzwerke gleichzeitig trainieren", nl: "Twee adversarial netwerken gelijktijdig trainen" },
+          { en: "Training models to compete in adversarial tasks", es: "Entrenar modelos para competir en tareas adversarias", de: "Modelle trainieren um in adversarialen Aufgaben zu konkurrieren", nl: "Modellen trainen om te concurreren in adversarial taken" },
+          { en: "Using adversarial loss functions only", es: "Usar solo funciones de pérdida adversarias", de: "Nur adversariale Verlustfunktionen verwenden", nl: "Alleen adversarial verliesfuncties gebruiken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Adversarial training augments training data with carefully crafted perturbations that fool the model, forcing it to learn more robust features that resist adversarial attacks and generalize better.",
+          es: "El entrenamiento adversario aumenta datos de entrenamiento con perturbaciones cuidadosamente elaboradas que engañan al modelo, forzándolo a aprender características más robustas que resisten ataques adversarios y generalizan mejor.",
+          de: "Adversariales Training erweitert Trainingsdaten mit sorgfältig gestalteten Störungen die das Modell täuschen, zwingt es robustere Features zu lernen die adversarialen Angriffen widerstehen und besser generalisieren.",
+          nl: "Adversarial training augmenteert trainingsdata met zorgvuldig vervaardigde verstoringen die het model misleiden, dwingt het robuustere features te leren die adversarial aanvallen weerstaan en beter generaliseren."
+        }
+      },
+      {
+        question: {
+          en: "What is domain adaptation in computer vision?",
+          es: "¿Qué es la adaptación de dominio en visión por computadora?",
+          de: "Was ist Domänenanpassung in Computer Vision?",
+          nl: "Wat is domeinaanpassing in computer vision?"
+        },
+        options: [
+          { en: "Adapting models trained on one domain to perform well on a different domain", es: "Adaptar modelos entrenados en un dominio para funcionar bien en un dominio diferente", de: "Modelle die auf einer Domäne trainiert wurden anpassen um auf einer anderen Domäne gut zu funktionieren", nl: "Modellen getraind op één domein aanpassen om goed te presteren op een ander domein" },
+          { en: "Adapting to different internet domains", es: "Adaptarse a diferentes dominios de internet", de: "Anpassung an verschiedene Internetdomänen", nl: "Aanpassen aan verschillende internetdomeinen" },
+          { en: "Changing model domains during training", es: "Cambiar dominios de modelo durante entrenamiento", de: "Modelldomänen während Training ändern", nl: "Modeldomeinen wijzigen tijdens training" },
+          { en: "Training models for domain-specific tasks only", es: "Entrenar modelos solo para tareas específicas de dominio", de: "Modelle nur für domänenspezifische Aufgaben trainieren", nl: "Modellen alleen trainen voor domein-specifieke taken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Domain adaptation addresses distribution shift between training (source) and deployment (target) domains, using techniques like fine-tuning, domain-invariant features, or adversarial training to transfer knowledge across domains.",
+          es: "La adaptación de dominio aborda el cambio de distribución entre dominios de entrenamiento (fuente) y despliegue (objetivo), usando técnicas como ajuste fino, características invariantes de dominio o entrenamiento adversario para transferir conocimiento a través de dominios.",
+          de: "Domänenanpassung adressiert Verteilungsverschiebung zwischen Trainings-(Quell-) und Einsatz-(Ziel-)Domänen, verwendet Techniken wie Fine-Tuning, domäneninvariante Features oder adversariales Training um Wissen über Domänen zu übertragen.",
+          nl: "Domeinaanpassing pakt distributieverschuiving aan tussen trainings-(bron) en implementatie-(doel) domeinen, gebruikt technieken zoals fine-tuning, domein-invariante features of adversarial training om kennis over domeinen over te dragen."
+        }
+      },
+      {
+        question: {
+          en: "What is the role of ROI (Region of Interest) pooling in object detection?",
+          es: "¿Cuál es el papel del ROI (Región de Interés) pooling en detección de objetos?",
+          de: "Was ist die Rolle von ROI (Region of Interest) Pooling in Objekterkennung?",
+          nl: "Wat is de rol van ROI (Region of Interest) pooling bij objectdetectie?"
+        },
+        options: [
+          { en: "Extract fixed-size feature vectors from variable-sized region proposals", es: "Extraer vectores de características de tamaño fijo de propuestas de región de tamaño variable", de: "Feste Größe Feature-Vektoren aus variabel großen Regionsvorschlägen extrahieren", nl: "Feature vectors van vaste grootte extraheren uit variabel-grootte regiovoorstellen" },
+          { en: "Pool only regions of user interest", es: "Agrupar solo regiones de interés del usuario", de: "Nur Regionen von Benutzerinteresse poolen", nl: "Alleen regio's van gebruikersinteresse poolen" },
+          { en: "Select the most interesting image regions", es: "Seleccionar las regiones de imagen más interesantes", de: "Die interessantesten Bildbereiche auswählen", nl: "De meest interessante beeldregio's selecteren" },
+          { en: "Create interest maps for visualization", es: "Crear mapas de interés para visualización", de: "Interessenkarten für Visualisierung erstellen", nl: "Interessekaarten maken voor visualisatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "ROI pooling divides each region proposal into a fixed grid and max-pools each cell, producing constant-length feature representations required by subsequent fully connected layers regardless of input region size.",
+          es: "ROI pooling divide cada propuesta de región en una cuadrícula fija y hace max-pool de cada celda, produciendo representaciones de características de longitud constante requeridas por capas totalmente conectadas subsiguientes independientemente del tamaño de región de entrada.",
+          de: "ROI Pooling teilt jeden Regionsvorschlag in ein festes Raster und führt Max-Pooling jeder Zelle durch, produziert Feature-Repräsentationen konstanter Länge die von nachfolgenden vollständig verbundenen Schichten benötigt werden unabhängig von Eingaberegionsgröße.",
+          nl: "ROI pooling verdeelt elk regiovoorstel in een vast raster en max-poolt elke cel, produceert feature representaties van constante lengte vereist door volgende volledig verbonden lagen ongeacht invoerregiogrootte."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between ROI pooling and ROI Align?",
+          es: "¿Cuál es la diferencia entre ROI pooling y ROI Align?",
+          de: "Was ist der Unterschied zwischen ROI Pooling und ROI Align?",
+          nl: "Wat is het verschil tussen ROI pooling en ROI Align?"
+        },
+        options: [
+          { en: "ROI Align uses bilinear interpolation to avoid quantization artifacts from rounding", es: "ROI Align usa interpolación bilineal para evitar artefactos de cuantización del redondeo", de: "ROI Align verwendet bilineare Interpolation um Quantisierungsartefakte durch Rundung zu vermeiden", nl: "ROI Align gebruikt bilineaire interpolatie om kwantisatie-artefacten van afronden te vermijden" },
+          { en: "ROI Align is faster than ROI pooling", es: "ROI Align es más rápido que ROI pooling", de: "ROI Align ist schneller als ROI Pooling", nl: "ROI Align is sneller dan ROI pooling" },
+          { en: "ROI Align works only with aligned images", es: "ROI Align funciona solo con imágenes alineadas", de: "ROI Align funktioniert nur mit ausgerichteten Bildern", nl: "ROI Align werkt alleen met uitgelijnde afbeeldingen" },
+          { en: "They are exactly the same operation", es: "Son exactamente la misma operación", de: "Sie sind genau dieselbe Operation", nl: "Ze zijn precies dezelfde operatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "ROI pooling uses harsh quantization (rounding coordinates), causing misalignment between ROI and extracted features. ROI Align eliminates this by using bilinear interpolation at four regularly sampled locations, improving mask prediction accuracy.",
+          es: "ROI pooling usa cuantización severa (redondeo de coordenadas), causando desalineación entre ROI y características extraídas. ROI Align elimina esto usando interpolación bilineal en cuatro ubicaciones regularmente muestreadas, mejorando precisión de predicción de máscara.",
+          de: "ROI Pooling verwendet harte Quantisierung (Koordinaten runden), verursacht Fehlausrichtung zwischen ROI und extrahierten Features. ROI Align eliminiert dies durch bilineare Interpolation an vier regelmäßig gesampelten Positionen, verbessert Maskenvorhersagegenauigkeit.",
+          nl: "ROI pooling gebruikt harde kwantisatie (coördinaten afronden), veroorzaakt verkeerde uitlijning tussen ROI en geëxtraheerde features. ROI Align elimineert dit door bilineaire interpolatie op vier regelmatig bemonsterde locaties te gebruiken, verbetert maskervoorspellingsnauwkeurigheid."
+        }
+      },
+      {
+        question: {
+          en: "What is self-supervised learning in computer vision?",
+          es: "¿Qué es el aprendizaje auto-supervisado en visión por computadora?",
+          de: "Was ist selbst-überwachtes Lernen in Computer Vision?",
+          nl: "Wat is zelf-supervised learning in computer vision?"
+        },
+        options: [
+          { en: "Learning representations from unlabeled data using pretext tasks", es: "Aprender representaciones de datos sin etiquetar usando tareas de pretexto", de: "Repräsentationen von unbeschrifteten Daten lernen durch Vorwand-Aufgaben", nl: "Representaties leren van ongelabelde data met behulp van pretext taken" },
+          { en: "Models supervising themselves during training", es: "Modelos supervisándose a sí mismos durante entrenamiento", de: "Modelle die sich selbst während Training überwachen", nl: "Modellen die zichzelf superviseren tijdens training" },
+          { en: "Learning without any supervision at all", es: "Aprender sin ninguna supervisión en absoluto", de: "Lernen ohne jegliche Überwachung", nl: "Leren zonder enige supervisie" },
+          { en: "Supervised learning on self-generated data", es: "Aprendizaje supervisado en datos auto-generados", de: "Überwachtes Lernen auf selbst generierten Daten", nl: "Supervised learning op zelf-gegenereerde data" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Self-supervised learning creates supervisory signals from data itself through pretext tasks (e.g., predicting rotation, colorization, jigsaw puzzles), learning useful representations without manual labels that transfer to downstream tasks.",
+          es: "El aprendizaje auto-supervisado crea señales de supervisión de los datos mismos a través de tareas de pretexto (ej., predecir rotación, colorización, rompecabezas), aprendiendo representaciones útiles sin etiquetas manuales que se transfieren a tareas posteriores.",
+          de: "Selbst-überwachtes Lernen erstellt Überwachungssignale aus Daten selbst durch Vorwand-Aufgaben (z.B. Vorhersage von Rotation, Kolorierung, Puzzles), lernt nützliche Repräsentationen ohne manuelle Labels die auf nachgelagerte Aufgaben übertragen werden.",
+          nl: "Zelf-supervised learning creëert toezichtsignalen uit data zelf door pretext taken (bijv. rotatie voorspellen, inkleuren, puzzels), leert nuttige representaties zonder handmatige labels die overdragen naar downstream taken."
+        }
+      },
+      {
+        question: {
+          en: "What is contrastive learning in computer vision?",
+          es: "¿Qué es el aprendizaje contrastivo en visión por computadora?",
+          de: "Was ist kontrastives Lernen in Computer Vision?",
+          nl: "Wat is contrastief leren in computer vision?"
+        },
+        options: [
+          { en: "Learning representations by pulling similar samples together and pushing dissimilar ones apart", es: "Aprender representaciones acercando muestras similares y alejando las diferentes", de: "Repräsentationen lernen durch Zusammenziehen ähnlicher Proben und Auseinanderschieben unähnlicher", nl: "Representaties leren door vergelijkbare samples naar elkaar toe te trekken en ongelijke uit elkaar te duwen" },
+          { en: "Learning from contrasting colors in images", es: "Aprender de colores contrastantes en imágenes", de: "Lernen von kontrastierenden Farben in Bildern", nl: "Leren van contrasterende kleuren in afbeeldingen" },
+          { en: "Contrasting different learning methods", es: "Contrastar diferentes métodos de aprendizaje", de: "Verschiedene Lernmethoden kontrastieren", nl: "Verschillende leermethodes contrasteren" },
+          { en: "Increasing image contrast during training", es: "Aumentar contraste de imagen durante entrenamiento", de: "Bildkontrast während Training erhöhen", nl: "Beeldcontrast verhogen tijdens training" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Contrastive learning (e.g., SimCLR, MoCo) learns embeddings where augmented views of the same image are close together while different images are far apart in feature space, enabling powerful self-supervised pre-training.",
+          es: "El aprendizaje contrastivo (ej., SimCLR, MoCo) aprende embeddings donde vistas aumentadas de la misma imagen están cerca mientras imágenes diferentes están lejos en espacio de características, permitiendo pre-entrenamiento auto-supervisado potente.",
+          de: "Kontrastives Lernen (z.B. SimCLR, MoCo) lernt Embeddings wo augmentierte Ansichten desselben Bildes nah zusammen sind während verschiedene Bilder weit auseinander im Feature-Raum sind, ermöglicht leistungsstarkes selbst-überwachtes Pre-Training.",
+          nl: "Contrastief leren (bijv. SimCLR, MoCo) leert embeddings waar geaugmenteerde weergaven van dezelfde afbeelding dicht bij elkaar zijn terwijl verschillende afbeeldingen ver uit elkaar zijn in feature space, maakt krachtige zelf-supervised pre-training mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What is Visual Transformer (ViT) architecture?",
+          es: "¿Qué es la arquitectura Visual Transformer (ViT)?",
+          de: "Was ist die Visual Transformer (ViT) Architektur?",
+          nl: "Wat is Visual Transformer (ViT) architectuur?"
+        },
+        options: [
+          { en: "Applying transformer architecture directly to sequences of image patches", es: "Aplicar arquitectura transformer directamente a secuencias de parches de imagen", de: "Transformer-Architektur direkt auf Sequenzen von Bild-Patches anwenden", nl: "Transformer architectuur direct toepassen op reeksen van afbeeldingspatches" },
+          { en: "Transforming visual data into text", es: "Transformar datos visuales en texto", de: "Visuelle Daten in Text transformieren", nl: "Visuele data transformeren naar tekst" },
+          { en: "Visually transforming images during processing", es: "Transformar visualmente imágenes durante procesamiento", de: "Bilder während Verarbeitung visuell transformieren", nl: "Afbeeldingen visueel transformeren tijdens verwerking" },
+          { en: "Traditional CNN with transformer layers", es: "CNN tradicional con capas transformer", de: "Traditionelles CNN mit Transformer-Schichten", nl: "Traditioneel CNN met transformer lagen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "ViT divides images into fixed-size patches, linearly embeds them, adds positional encodings, then processes through standard transformer encoder layers, demonstrating transformers can match or exceed CNN performance with sufficient data.",
+          es: "ViT divide imágenes en parches de tamaño fijo, los embebe linealmente, agrega codificaciones posicionales, luego procesa a través de capas de codificador transformer estándar, demostrando que transformers pueden igualar o superar rendimiento de CNN con datos suficientes.",
+          de: "ViT teilt Bilder in Patches fester Größe, bettet sie linear ein, fügt Positionskodierungen hinzu, verarbeitet dann durch Standard-Transformer-Encoder-Schichten, demonstriert dass Transformers CNN-Leistung erreichen oder übertreffen können mit ausreichend Daten.",
+          nl: "ViT verdeelt afbeeldingen in patches van vaste grootte, embedt ze lineair, voegt positionele coderingen toe, verwerkt vervolgens door standaard transformer encoder lagen, toont aan dat transformers CNN prestaties kunnen evenaren of overtreffen met voldoende data."
+        }
+      },
+      {
+        question: {
+          en: "What is few-shot learning in computer vision?",
+          es: "¿Qué es el aprendizaje de pocos ejemplos en visión por computadora?",
+          de: "Was ist Few-Shot Learning in Computer Vision?",
+          nl: "Wat is few-shot learning in computer vision?"
+        },
+        options: [
+          { en: "Learning to recognize new classes from very few labeled examples", es: "Aprender a reconocer nuevas clases con muy pocos ejemplos etiquetados", de: "Lernen neue Klassen von sehr wenigen beschrifteten Beispielen zu erkennen", nl: "Leren nieuwe klassen te herkennen van zeer weinig gelabelde voorbeelden" },
+          { en: "Taking only a few shots of each scene", es: "Tomar solo unas pocas tomas de cada escena", de: "Nur wenige Aufnahmen jeder Szene machen", nl: "Slechts enkele opnames maken van elke scène" },
+          { en: "Learning with few training iterations", es: "Aprender con pocas iteraciones de entrenamiento", de: "Lernen mit wenigen Trainingsiterationen", nl: "Leren met weinig trainingsiteraties" },
+          { en: "Using few network layers", es: "Usar pocas capas de red", de: "Wenige Netzwerkschichten verwenden", nl: "Weinig netwerklagen gebruiken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Few-shot learning enables models to generalize to new classes with only 1-5 examples per class through meta-learning approaches like prototypical networks, matching networks, or metric learning, mimicking human-like rapid learning.",
+          es: "El aprendizaje de pocos ejemplos permite a modelos generalizar a nuevas clases con solo 1-5 ejemplos por clase a través de enfoques de meta-aprendizaje como redes prototípicas, redes de coincidencia o aprendizaje métrico, imitando aprendizaje rápido similar al humano.",
+          de: "Few-Shot Learning ermöglicht Modellen zu neuen Klassen mit nur 1-5 Beispielen pro Klasse zu generalisieren durch Meta-Learning-Ansätze wie prototypische Netzwerke, Matching-Netzwerke oder metrisches Lernen, ahmt menschenähnliches schnelles Lernen nach.",
+          nl: "Few-shot learning stelt modellen in staat te generaliseren naar nieuwe klassen met slechts 1-5 voorbeelden per klasse door meta-learning benaderingen zoals prototypische netwerken, matching netwerken of metrisch leren, bootst mensachtig snel leren na."
+        }
+      },
+      {
+        question: {
+          en: "What is zero-shot learning in computer vision?",
+          es: "¿Qué es el aprendizaje de cero ejemplos en visión por computadora?",
+          de: "Was ist Zero-Shot Learning in Computer Vision?",
+          nl: "Wat is zero-shot learning in computer vision?"
+        },
+        options: [
+          { en: "Recognizing object classes never seen during training using semantic knowledge", es: "Reconocer clases de objetos nunca vistas durante entrenamiento usando conocimiento semántico", de: "Objektklassen erkennen die nie während Training gesehen wurden unter Verwendung semantischen Wissens", nl: "Objectklassen herkennen die nooit tijdens training gezien zijn met behulp van semantische kennis" },
+          { en: "Training with zero images", es: "Entrenar con cero imágenes", de: "Mit null Bildern trainieren", nl: "Trainen met nul afbeeldingen" },
+          { en: "Setting all shots to zero value", es: "Configurar todas las tomas a valor cero", de: "Alle Aufnahmen auf Nullwert setzen", nl: "Alle opnames op nulwaarde zetten" },
+          { en: "Learning without any supervision", es: "Aprender sin ninguna supervisión", de: "Lernen ohne jegliche Überwachung", nl: "Leren zonder enige supervisie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Zero-shot learning leverages semantic information (attributes, word embeddings, knowledge graphs) to transfer knowledge from seen to unseen classes, enabling recognition of novel categories by understanding class descriptions or relationships.",
+          es: "El aprendizaje de cero ejemplos aprovecha información semántica (atributos, embeddings de palabras, grafos de conocimiento) para transferir conocimiento de clases vistas a no vistas, permitiendo reconocimiento de categorías novedosas entendiendo descripciones o relaciones de clases.",
+          de: "Zero-Shot Learning nutzt semantische Informationen (Attribute, Wort-Embeddings, Wissensgraphen) um Wissen von gesehenen zu ungesehenen Klassen zu übertragen, ermöglicht Erkennung neuartiger Kategorien durch Verstehen von Klassenbeschreibungen oder -beziehungen.",
+          nl: "Zero-shot learning maakt gebruik van semantische informatie (attributen, woord embeddings, kennisgrafen) om kennis over te dragen van geziene naar ongeziene klassen, maakt herkenning van nieuwe categorieën mogelijk door klassebeschrijvingen of -relaties te begrijpen."
+        }
+      },
+      {
+        question: {
+          en: "What is neural style transfer?",
+          es: "¿Qué es la transferencia de estilo neuronal?",
+          de: "Was ist neuronaler Stil-Transfer?",
+          nl: "Wat is neurale stijloverdracht?"
+        },
+        options: [
+          { en: "Applying artistic style from one image to content of another using CNN features", es: "Aplicar estilo artístico de una imagen al contenido de otra usando características CNN", de: "Künstlerischen Stil von einem Bild auf Inhalt eines anderen anwenden unter Verwendung von CNN-Features", nl: "Artistieke stijl van één afbeelding toepassen op inhoud van een andere met behulp van CNN features" },
+          { en: "Transferring neural network styles between models", es: "Transferir estilos de red neuronal entre modelos", de: "Neuronale Netzwerkstile zwischen Modellen übertragen", nl: "Neurale netwerkstijlen overdragen tussen modellen" },
+          { en: "Changing the style of neural network output", es: "Cambiar el estilo de salida de red neuronal", de: "Stil der neuronalen Netzwerkausgabe ändern", nl: "Stijl van neurale netwerkoutput wijzigen" },
+          { en: "Styling neurons in different layers", es: "Estilizar neuronas en diferentes capas", de: "Neuronen in verschiedenen Schichten stylen", nl: "Neuronen in verschillende lagen stylen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Neural style transfer optimizes an image to match content representation (from deeper layers) of one image while matching style representation (Gram matrices from multiple layers) of another, synthesizing artistic renditions.",
+          es: "La transferencia de estilo neuronal optimiza una imagen para igualar representación de contenido (de capas más profundas) de una imagen mientras iguala representación de estilo (matrices de Gram de múltiples capas) de otra, sintetizando representaciones artísticas.",
+          de: "Neuronaler Stil-Transfer optimiert ein Bild um Inhaltsrepräsentation (von tieferen Schichten) eines Bildes zu entsprechen während Stilrepräsentation (Gram-Matrizen von mehreren Schichten) eines anderen entsprochen wird, synthetisiert künstlerische Darstellungen.",
+          nl: "Neurale stijloverdracht optimaliseert een afbeelding om inhoudsrepresentatie (van diepere lagen) van één afbeelding te matchen terwijl stijlrepresentatie (Gram matrices van meerdere lagen) van een andere gematcht wordt, synthetiseert artistieke weergaven."
+        }
+      },
+      {
+        question: {
+          en: "What is image super-resolution in computer vision?",
+          es: "¿Qué es la súper-resolución de imagen en visión por computadora?",
+          de: "Was ist Bild-Superauflösung in Computer Vision?",
+          nl: "Wat is afbeelding super-resolutie in computer vision?"
+        },
+        options: [
+          { en: "Reconstructing high-resolution images from low-resolution inputs", es: "Reconstruir imágenes de alta resolución desde entradas de baja resolución", de: "Hochauflösende Bilder aus niedrigauflösenden Eingaben rekonstruieren", nl: "Hoge-resolutie afbeeldingen reconstrueren uit lage-resolutie inputs" },
+          { en: "Taking images at super high resolution", es: "Tomar imágenes a resolución súper alta", de: "Bilder in super hoher Auflösung aufnehmen", nl: "Afbeeldingen maken op super hoge resolutie" },
+          { en: "Resolving image conflicts at super speed", es: "Resolver conflictos de imagen a súper velocidad", de: "Bildkonflikte mit Super-Geschwindigkeit auflösen", nl: "Beeldconflicten oplossen op supersnelheid" },
+          { en: "Creating resolutions beyond display capabilities", es: "Crear resoluciones más allá de capacidades de pantalla", de: "Auflösungen jenseits Display-Fähigkeiten erstellen", nl: "Resoluties maken voorbij displaymogelijkheden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Super-resolution uses deep learning (e.g., SRCNN, ESRGAN) to hallucinate missing high-frequency details, upscaling images while enhancing sharpness and recovering fine textures lost in low-resolution versions.",
+          es: "La súper-resolución usa aprendizaje profundo (ej., SRCNN, ESRGAN) para alucinar detalles de alta frecuencia faltantes, escalando imágenes mientras mejora nitidez y recupera texturas finas perdidas en versiones de baja resolución.",
+          de: "Superauflösung verwendet Deep Learning (z.B. SRCNN, ESRGAN) um fehlende hochfrequente Details zu halluzinieren, skaliert Bilder hoch während Schärfe verbessert und feine Texturen wiederhergestellt werden die in niedrigauflösenden Versionen verloren gingen.",
+          nl: "Super-resolutie gebruikt deep learning (bijv. SRCNN, ESRGAN) om ontbrekende hoogfrequente details te hallucineren, schaalt afbeeldingen op terwijl scherpte verbetert en fijne texturen herstelt die verloren gingen in lage-resolutie versies."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of image inpainting?",
+          es: "¿Cuál es el propósito del inpainting de imagen?",
+          de: "Was ist der Zweck von Bild-Inpainting?",
+          nl: "Wat is het doel van afbeelding inpainting?"
+        },
+        options: [
+          { en: "Fill missing or corrupted regions in images with plausible content", es: "Llenar regiones faltantes o corruptas en imágenes con contenido plausible", de: "Fehlende oder beschädigte Regionen in Bildern mit plausiblem Inhalt füllen", nl: "Ontbrekende of beschadigde regio's in afbeeldingen vullen met plausibele inhoud" },
+          { en: "Paint images with internal colors", es: "Pintar imágenes con colores internos", de: "Bilder mit internen Farben malen", nl: "Afbeeldingen schilderen met interne kleuren" },
+          { en: "Add paint effects to images", es: "Agregar efectos de pintura a imágenes", de: "Maleffekte zu Bildern hinzufügen", nl: "Verfeffecten toevoegen aan afbeeldingen" },
+          { en: "Paint over entire images", es: "Pintar sobre imágenes completas", de: "Über gesamte Bilder malen", nl: "Over hele afbeeldingen schilderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Inpainting reconstructs missing image regions by synthesizing textures and structures consistent with surroundings, used for object removal, restoration, and completing occluded areas, often using GANs or diffusion models.",
+          es: "El inpainting reconstruye regiones de imagen faltantes sintetizando texturas y estructuras consistentes con alrededores, usado para remoción de objetos, restauración y completar áreas ocluidas, a menudo usando GANs o modelos de difusión.",
+          de: "Inpainting rekonstruiert fehlende Bildbereiche durch Synthetisierung von Texturen und Strukturen konsistent mit Umgebung, verwendet für Objektentfernung, Restaurierung und Vervollständigung verdeckter Bereiche, oft mit GANs oder Diffusionsmodellen.",
+          nl: "Inpainting reconstrueert ontbrekende beeldregio's door texturen en structuren te synthetiseren consistent met omgeving, gebruikt voor objectverwijdering, restauratie en voltooien van geoccludeerde gebieden, vaak met GANs of diffusiemodellen."
+        }
+      },
+      {
+        question: {
+          en: "What is model quantization in deep learning deployment?",
+          es: "¿Qué es la cuantización de modelo en despliegue de aprendizaje profundo?",
+          de: "Was ist Modellquantisierung beim Deep Learning Deployment?",
+          nl: "Wat is modelkwantisatie bij deep learning deployment?"
+        },
+        options: [
+          { en: "Reducing precision of weights and activations to lower bit-widths", es: "Reducir precisión de pesos y activaciones a anchos de bit menores", de: "Präzision von Gewichten und Aktivierungen auf niedrigere Bitbreiten reduzieren", nl: "Precisie van gewichten en activaties verminderen naar lagere bitbreedtes" },
+          { en: "Quantifying model performance metrics", es: "Cuantificar métricas de rendimiento de modelo", de: "Modellleistungsmetriken quantifizieren", nl: "Modelprestatiemetrieken kwantificeren" },
+          { en: "Dividing models into quantums", es: "Dividir modelos en cuantos", de: "Modelle in Quanten teilen", nl: "Modellen verdelen in kwanta" },
+          { en: "Measuring quantity of model parameters", es: "Medir cantidad de parámetros de modelo", de: "Menge der Modellparameter messen", nl: "Hoeveelheid modelparameters meten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Quantization converts float32 weights/activations to int8 or lower precision, reducing model size by 4x and accelerating inference with minimal accuracy loss, crucial for edge device deployment.",
+          es: "La cuantización convierte pesos/activaciones float32 a int8 o menor precisión, reduciendo tamaño de modelo en 4x y acelerando inferencia con pérdida mínima de precisión, crucial para despliegue en dispositivos edge.",
+          de: "Quantisierung konvertiert float32 Gewichte/Aktivierungen zu int8 oder niedrigerer Präzision, reduziert Modellgröße um 4x und beschleunigt Inferenz mit minimalem Genauigkeitsverlust, entscheidend für Edge-Geräte-Deployment.",
+          nl: "Kwantisatie converteert float32 gewichten/activaties naar int8 of lagere precisie, vermindert modelgrootte met 4x en versnelt inferentie met minimaal nauwkeurigheidsverlies, cruciaal voor edge device deployment."
+        }
+      },
+      {
+        question: {
+          en: "What is the CutOut data augmentation technique?",
+          es: "¿Qué es la técnica de aumento de datos CutOut?",
+          de: "Was ist die CutOut Datenaugmentations-Technik?",
+          nl: "Wat is de CutOut data augmentatie techniek?"
+        },
+        options: [
+          { en: "Randomly masking out square regions of input images during training", es: "Enmascarar aleatoriamente regiones cuadradas de imágenes de entrada durante entrenamiento", de: "Zufällig quadratische Regionen von Eingabebildern während Training maskieren", nl: "Willekeurig vierkante regio's van invoerafbeeldingen maskeren tijdens training" },
+          { en: "Cutting out objects from images", es: "Recortar objetos de imágenes", de: "Objekte aus Bildern ausschneiden", nl: "Objecten uit afbeeldingen knippen" },
+          { en: "Removing outlier images from dataset", es: "Eliminar imágenes atípicas del conjunto de datos", de: "Ausreißer-Bilder aus Datensatz entfernen", nl: "Uitschieters verwijderen uit dataset" },
+          { en: "Cutting training time by removing data", es: "Reducir tiempo de entrenamiento eliminando datos", de: "Trainingszeit durch Entfernen von Daten verkürzen", nl: "Trainingstijd verkorten door data te verwijderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "CutOut randomly erases rectangular patches in training images, forcing the model to learn from partial information and focus on less discriminative features, improving robustness and reducing overfitting similar to dropout.",
+          es: "CutOut borra aleatoriamente parches rectangulares en imágenes de entrenamiento, forzando al modelo a aprender de información parcial y enfocarse en características menos discriminativas, mejorando robustez y reduciendo sobreajuste similar a dropout.",
+          de: "CutOut löscht zufällig rechteckige Patches in Trainingsbildern, zwingt Modell von partieller Information zu lernen und sich auf weniger diskriminative Features zu konzentrieren, verbessert Robustheit und reduziert Overfitting ähnlich wie Dropout.",
+          nl: "CutOut wist willekeurig rechthoekige patches in trainingsafbeeldingen, dwingt model te leren van gedeeltelijke informatie en te focussen op minder discriminatieve features, verbetert robuustheid en vermindert overfitting vergelijkbaar met dropout."
+        }
+      },
+      {
+        question: {
+          en: "What is MixUp data augmentation?",
+          es: "¿Qué es el aumento de datos MixUp?",
+          de: "Was ist MixUp Datenaugmentation?",
+          nl: "Wat is MixUp data augmentatie?"
+        },
+        options: [
+          { en: "Creating training examples by linearly interpolating between pairs of images and their labels", es: "Crear ejemplos de entrenamiento interpolando linealmente entre pares de imágenes y sus etiquetas", de: "Trainingsbeispiele erstellen durch lineare Interpolation zwischen Bildpaaren und ihren Labels", nl: "Trainingsvoorbeelden creëren door lineair te interpoleren tussen paren afbeeldingen en hun labels" },
+          { en: "Mixing up the order of training data", es: "Mezclar el orden de datos de entrenamiento", de: "Reihenfolge der Trainingsdaten mischen", nl: "Volgorde van trainingsdata door elkaar halen" },
+          { en: "Combining multiple augmentation techniques", es: "Combinar múltiples técnicas de aumento", de: "Mehrere Augmentationstechniken kombinieren", nl: "Meerdere augmentatietechnieken combineren" },
+          { en: "Upsampling minority classes in dataset", es: "Sobremuestreo de clases minoritarias en conjunto de datos", de: "Minderheitsklassen im Datensatz überabtasten", nl: "Minderheidsklassen in dataset oversamplen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "MixUp trains on convex combinations of image pairs and their one-hot labels, e.g., 0.7*image1 + 0.3*image2 with blended labels. This encourages linear behavior between examples, improves generalization, and provides implicit regularization.",
+          es: "MixUp entrena en combinaciones convexas de pares de imágenes y sus etiquetas one-hot, ej., 0.7*imagen1 + 0.3*imagen2 con etiquetas mezcladas. Esto fomenta comportamiento lineal entre ejemplos, mejora generalización y proporciona regularización implícita.",
+          de: "MixUp trainiert auf konvexen Kombinationen von Bildpaaren und ihren One-Hot-Labels, z.B. 0.7*Bild1 + 0.3*Bild2 mit gemischten Labels. Dies fördert lineares Verhalten zwischen Beispielen, verbessert Generalisierung und bietet implizite Regularisierung.",
+          nl: "MixUp traint op convexe combinaties van beeldparen en hun one-hot labels, bijv. 0.7*afbeelding1 + 0.3*afbeelding2 met gemengde labels. Dit moedigt lineair gedrag tussen voorbeelden aan, verbetert generalisatie en biedt impliciete regularisatie."
+        }
       }
     ]
   };

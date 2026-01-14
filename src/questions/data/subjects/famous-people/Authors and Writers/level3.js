@@ -427,6 +427,426 @@
           de: "Weiße Zähne (2000) ist Zadie Smiths Debütroman, der die bangladeschisch-britische Familie Iqbal und die weiße britische Familie Jones über mehrere Generationen in Nord-London verfolgt und Themen des Multikulturalismus und der Identität erforscht.",
           nl: "Witte tanden (2000) is Zadie Smiths debuutroman die de Bangladees-Britse familie Iqbal en de blanke Britse familie Jones volgt gedurende meerdere generaties in Noord-Londen, waarbij thema's van multiculturalisme en identiteit worden verkend."
         }
+      },
+      {
+        question: {
+          en: "Which novel by Cormac McCarthy follows a father and son traveling through a post-apocalyptic landscape?",
+          es: "¿Qué novela de Cormac McCarthy sigue a un padre e hijo viajando por un paisaje postapocalíptico?",
+          de: "Welcher Roman von Cormac McCarthy folgt einem Vater und Sohn, die durch eine postapokalyptische Landschaft reisen?",
+          nl: "Welke roman van Cormac McCarthy volgt een vader en zoon die door een post-apocalyptisch landschap reizen?"
+        },
+        options: [
+          {en: "Blood Meridian", es: "Meridiano de sangre", de: "Blood Meridian", nl: "Blood Meridian"},
+          {en: "No Country for Old Men", es: "No es país para viejos", de: "Kein Land für alte Männer", nl: "No Country for Old Men"},
+          {en: "The Road", es: "La carretera", de: "Die Straße", nl: "De weg"},
+          {en: "All the Pretty Horses", es: "Todos los caballos hermosos", de: "All die schönen Pferde", nl: "Alle mooie paarden"}
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Road (2006) is Cormac McCarthy's Pulitzer Prize-winning novel about a father and son's journey through a devastated post-apocalyptic America, exploring themes of survival, love, and humanity.",
+          es: "La carretera (2006) es la novela ganadora del Premio Pulitzer de Cormac McCarthy sobre el viaje de un padre e hijo a través de una América postapocalíptica devastada, explorando temas de supervivencia, amor y humanidad.",
+          de: "Die Straße (2006) ist Cormac McCarthys Pulitzer-Preis-gekrönter Roman über die Reise eines Vaters und Sohnes durch ein verwüstetes postapokalyptisches Amerika, der Themen des Überlebens, der Liebe und der Menschlichkeit erforscht.",
+          nl: "De weg (2006) is Cormac McCarthy's Pulitzer Prize-winnende roman over de reis van een vader en zoon door een verwoest post-apocalyptisch Amerika, waarbij thema's van overleving, liefde en menselijkheid worden verkend."
+        }
+      },
+      {
+        question: {
+          en: "Which novel by Don DeLillo depicts Lee Harvey Oswald and the Kennedy assassination?",
+          es: "¿Qué novela de Don DeLillo retrata a Lee Harvey Oswald y el asesinato de Kennedy?",
+          de: "Welcher Roman von Don DeLillo zeigt Lee Harvey Oswald und das Kennedy-Attentat?",
+          nl: "Welke roman van Don DeLillo toont Lee Harvey Oswald en de moord op Kennedy?"
+        },
+        options: [
+          {en: "Underworld", es: "Submundo", de: "Unterwelt", nl: "Underworld"},
+          {en: "White Noise", es: "Ruido blanco", de: "Weißes Rauschen", nl: "Witte ruis"},
+          {en: "Libra", es: "Libra", de: "Libra", nl: "Libra"},
+          {en: "Mao II", es: "Mao II", de: "Mao II", nl: "Mao II"}
+        ],
+        correct: 2,
+        explanation: {
+          en: "Libra (1988) is Don DeLillo's novel that presents a fictionalized account of Lee Harvey Oswald's life and the events leading to the assassination of President John F. Kennedy.",
+          es: "Libra (1988) es la novela de Don DeLillo que presenta un relato ficticio de la vida de Lee Harvey Oswald y los eventos que condujeron al asesinato del presidente John F. Kennedy.",
+          de: "Libra (1988) ist Don DeLillos Roman, der eine fiktionalisierte Darstellung von Lee Harvey Oswalds Leben und den Ereignissen präsentiert, die zum Attentat auf Präsident John F. Kennedy führten.",
+          nl: "Libra (1988) is Don DeLillo's roman die een gefictionaliseerd verslag presenteert van Lee Harvey Oswalds leven en de gebeurtenissen die leidden tot de moord op president John F. Kennedy."
+        }
+      },
+      {
+        question: {
+          en: "Which Philip Roth novel features Nathan Zuckerman as the narrator?",
+          es: "¿Qué novela de Philip Roth presenta a Nathan Zuckerman como narrador?",
+          de: "Welcher Roman von Philip Roth zeigt Nathan Zuckerman als Erzähler?",
+          nl: "Welke roman van Philip Roth heeft Nathan Zuckerman als verteller?"
+        },
+        options: [
+          {en: "Portnoy's Complaint", es: "El lamento de Portnoy", de: "Portnoys Beschwerden", nl: "Portnoys klacht"},
+          {en: "The Ghost Writer", es: "El escritor fantasma", de: "Der Ghost Writer", nl: "De spookschrijver"},
+          {en: "Sabbath's Theater", es: "El teatro de Sabbath", de: "Sabbaths Theater", nl: "Sabbaths theater"},
+          {en: "Goodbye, Columbus", es: "Adiós, Columbus", de: "Goodbye, Columbus", nl: "Goodbye, Columbus"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Ghost Writer (1979) is the first novel in Philip Roth's Zuckerman series, featuring Nathan Zuckerman as the narrator. Zuckerman appears in several of Roth's major works as his literary alter ego.",
+          es: "El escritor fantasma (1979) es la primera novela de la serie Zuckerman de Philip Roth, con Nathan Zuckerman como narrador. Zuckerman aparece en varias de las obras principales de Roth como su alter ego literario.",
+          de: "Der Ghost Writer (1979) ist der erste Roman in Philip Roths Zuckerman-Serie mit Nathan Zuckerman als Erzähler. Zuckerman erscheint in mehreren von Roths Hauptwerken als sein literarisches Alter Ego.",
+          nl: "De spookschrijver (1979) is de eerste roman in Philip Roths Zuckerman-serie, met Nathan Zuckerman als verteller. Zuckerman verschijnt in verschillende van Roths belangrijke werken als zijn literaire alter ego."
+        }
+      },
+      {
+        question: {
+          en: "Which novel by Thomas Pynchon is set during World War II and features Tyrone Slothrop?",
+          es: "¿Qué novela de Thomas Pynchon está ambientada durante la Segunda Guerra Mundial y presenta a Tyrone Slothrop?",
+          de: "Welcher Roman von Thomas Pynchon spielt während des Zweiten Weltkriegs und zeigt Tyrone Slothrop?",
+          nl: "Welke roman van Thomas Pynchon speelt zich af tijdens de Tweede Wereldoorlog en bevat Tyrone Slothrop?"
+        },
+        options: [
+          {en: "V.", es: "V.", de: "V.", nl: "V."},
+          {en: "The Crying of Lot 49", es: "La subasta del lote 49", de: "Die Versteigerung von Nr. 49", nl: "Het huilen van kavel 49"},
+          {en: "Gravity's Rainbow", es: "El arco iris de gravedad", de: "Die Enden der Parabel", nl: "De regenboog van de zwaartekracht"},
+          {en: "Mason & Dixon", es: "Mason & Dixon", de: "Mason & Dixon", nl: "Mason & Dixon"}
+        ],
+        correct: 2,
+        explanation: {
+          en: "Gravity's Rainbow (1973) is Thomas Pynchon's complex postmodern novel set during the final months of World War II, following American Lieutenant Tyrone Slothrop and exploring themes of paranoia, technology, and entropy.",
+          es: "El arco iris de gravedad (1973) es la compleja novela posmoderna de Thomas Pynchon ambientada durante los últimos meses de la Segunda Guerra Mundial, siguiendo al teniente estadounidense Tyrone Slothrop y explorando temas de paranoia, tecnología y entropía.",
+          de: "Die Enden der Parabel (1973) ist Thomas Pynchons komplexer postmoderner Roman, der während der letzten Monate des Zweiten Weltkriegs spielt und dem amerikanischen Leutnant Tyrone Slothrop folgt, während er Themen der Paranoia, Technologie und Entropie erforscht.",
+          nl: "De regenboog van de zwaartekracht (1973) is Thomas Pynchons complexe postmoderne roman die zich afspeelt tijdens de laatste maanden van de Tweede Wereldoorlog, waarbij de Amerikaanse luitenant Tyrone Slothrop wordt gevolgd en thema's van paranoia, technologie en entropie worden verkend."
+        }
+      },
+      {
+        question: {
+          en: "Which novel by John Irving features a character who becomes a wrestling coach and writer?",
+          es: "¿Qué novela de John Irving presenta a un personaje que se convierte en entrenador de lucha libre y escritor?",
+          de: "Welcher Roman von John Irving zeigt einen Charakter, der Ringtrainer und Schriftsteller wird?",
+          nl: "Welke roman van John Irving bevat een personage dat worstelcoach en schrijver wordt?"
+        },
+        options: [
+          {en: "The Cider House Rules", es: "Las normas de la casa de la sidra", de: "Gottes Werk und Teufels Beitrag", nl: "De regels van het cider huis"},
+          {en: "A Prayer for Owen Meany", es: "Una oración por Owen", de: "Garp und wie er die Welt sah", nl: "Een gebed voor Owen"},
+          {en: "The World According to Garp", es: "El mundo según Garp", de: "Garp und wie er die Welt sah", nl: "De wereld volgens Garp"},
+          {en: "The Hotel New Hampshire", es: "El hotel New Hampshire", de: "Das Hotel New Hampshire", nl: "Het hotel New Hampshire"}
+        ],
+        correct: 2,
+        explanation: {
+          en: "The World According to Garp (1978) is John Irving's breakthrough novel featuring T.S. Garp, who becomes a wrestling coach and writer. The novel explores themes of feminism, family, and the writing life.",
+          es: "El mundo según Garp (1978) es la novela innovadora de John Irving que presenta a T.S. Garp, quien se convierte en entrenador de lucha libre y escritor. La novela explora temas de feminismo, familia y la vida del escritor.",
+          de: "Garp und wie er die Welt sah (1978) ist John Irvings Durchbruchroman mit T.S. Garp, der Ringtrainer und Schriftsteller wird. Der Roman erforscht Themen des Feminismus, der Familie und des Schriftstellerlebens.",
+          nl: "De wereld volgens Garp (1978) is John Irvings doorbraakroman met T.S. Garp, die worstelcoach en schrijver wordt. De roman verkent thema's van feminisme, familie en het schrijversleven."
+        }
+      },
+      {
+        question: {
+          en: "Which novel by Donna Tartt is about a group of classics students who commit murder?",
+          es: "¿Qué novela de Donna Tartt trata sobre un grupo de estudiantes de clásicos que cometen asesinato?",
+          de: "Welcher Roman von Donna Tartt handelt von einer Gruppe von Klassik-Studenten, die Mord begehen?",
+          nl: "Welke roman van Donna Tartt gaat over een groep klassieke studenten die moord plegen?"
+        },
+        options: [
+          {en: "The Secret History", es: "La historia secreta", de: "Die geheime Geschichte", nl: "De verborgen geschiedenis"},
+          {en: "The Little Friend", es: "La pequeña amiga", de: "Der kleine Freund", nl: "De kleine vriend"},
+          {en: "The Goldfinch", es: "El jilguero", de: "Der Distelfink", nl: "Het puttertje"},
+          {en: "A Little Life", es: "Una pequeña vida", de: "Ein wenig Leben", nl: "Een klein leven"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Secret History (1992) is Donna Tartt's debut novel about a close-knit group of classics students at an elite New England college who become involved in the murder of one of their classmates.",
+          es: "La historia secreta (1992) es la novela debut de Donna Tartt sobre un grupo unido de estudiantes de clásicos en una universidad de élite de Nueva Inglaterra que se ven involucrados en el asesinato de uno de sus compañeros.",
+          de: "Die geheime Geschichte (1992) ist Donna Tartts Debütroman über eine eng verbundene Gruppe von Klassik-Studenten an einem Elite-College in Neuengland, die in den Mord an einem ihrer Kommilitonen verwickelt werden.",
+          nl: "De verborgen geschiedenis (1992) is Donna Tartts debuutroman over een hechte groep klassieke studenten aan een elitaire New England college die betrokken raken bij de moord op een van hun klasgenoten."
+        }
+      },
+      {
+        question: {
+          en: "Which novel by Jonathan Franzen depicts the dysfunctional Lambert family?",
+          es: "¿Qué novela de Jonathan Franzen retrata a la disfuncional familia Lambert?",
+          de: "Welcher Roman von Jonathan Franzen zeigt die dysfunktionale Familie Lambert?",
+          nl: "Welke roman van Jonathan Franzen toont de disfunctionele familie Lambert?"
+        },
+        options: [
+          {en: "The Corrections", es: "Las correcciones", de: "Die Korrekturen", nl: "De correcties"},
+          {en: "Freedom", es: "Libertad", de: "Freiheit", nl: "Vrijheid"},
+          {en: "Purity", es: "Pureza", de: "Unschuld", nl: "Purity"},
+          {en: "Crossroads", es: "Encrucijadas", de: "Crossroads", nl: "Crossroads"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Corrections (2001) is Jonathan Franzen's National Book Award-winning novel about the dysfunctional Lambert family and their struggles with aging, illness, and family dynamics in modern America.",
+          es: "Las correcciones (2001) es la novela ganadora del National Book Award de Jonathan Franzen sobre la disfuncional familia Lambert y sus luchas con el envejecimiento, la enfermedad y la dinámica familiar en la América moderna.",
+          de: "Die Korrekturen (2001) ist Jonathan Franzens National Book Award-gekrönter Roman über die dysfunktionale Familie Lambert und ihre Kämpfe mit dem Altern, Krankheit und Familiendynamik im modernen Amerika.",
+          nl: "De correcties (2001) is Jonathan Franzens National Book Award-winnende roman over de disfunctionele familie Lambert en hun worsteling met veroudering, ziekte en familiedynamiek in het moderne Amerika."
+        }
+      },
+      {
+        question: {
+          en: "Which novel by Michael Chabon is about two Jewish cousins creating comic books in 1940s New York?",
+          es: "¿Qué novela de Michael Chabon trata sobre dos primos judíos creando cómics en Nueva York de los años 40?",
+          de: "Welcher Roman von Michael Chabon handelt von zwei jüdischen Cousins, die in den 1940er Jahren in New York Comics erstellen?",
+          nl: "Welke roman van Michael Chabon gaat over twee Joodse neven die stripboeken maken in het New York van de jaren 1940?"
+        },
+        options: [
+          {en: "The Mysteries of Pittsburgh", es: "Los misterios de Pittsburgh", de: "Die Geheimnisse von Pittsburgh", nl: "De mysteries van Pittsburgh"},
+          {en: "Wonder Boys", es: "Wonder Boys", de: "Wonder Boys", nl: "Wonder Boys"},
+          {en: "The Amazing Adventures of Kavalier & Clay", es: "Las asombrosas aventuras de Kavalier y Clay", de: "Die unglaublichen Abenteuer von Kavalier & Clay", nl: "De wonderbaarlijke avonturen van Kavalier & Clay"},
+          {en: "The Yiddish Policemen's Union", es: "La unión de policías yiddish", de: "Die Vereinigung jiddischer Polizisten", nl: "De Jiddische politiebond"}
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Amazing Adventures of Kavalier & Clay (2000) is Michael Chabon's Pulitzer Prize-winning novel about two Jewish cousins who create a successful comic book superhero during the Golden Age of comics.",
+          es: "Las asombrosas aventuras de Kavalier y Clay (2000) es la novela ganadora del Premio Pulitzer de Michael Chabon sobre dos primos judíos que crean un superhéroe de cómic exitoso durante la Edad de Oro de los cómics.",
+          de: "Die unglaublichen Abenteuer von Kavalier & Clay (2000) ist Michael Chabons Pulitzer-Preis-gekrönter Roman über zwei jüdische Cousins, die während des Goldenen Zeitalters der Comics einen erfolgreichen Comic-Superhelden erschaffen.",
+          nl: "De wonderbaarlijke avonturen van Kavalier & Clay (2000) is Michael Chabons Pulitzer Prize-winnende roman over twee Joodse neven die tijdens de Gouden Eeuw van strips een succesvolle stripboeksuperheld creëren."
+        }
+      },
+      {
+        question: {
+          en: "Which novel by Colson Whitehead reimagines the Underground Railroad as an actual railroad?",
+          es: "¿Qué novela de Colson Whitehead reimagina el Ferrocarril Subterráneo como un ferrocarril real?",
+          de: "Welcher Roman von Colson Whitehead stellt sich die Underground Railroad als tatsächliche Eisenbahn vor?",
+          nl: "Welke roman van Colson Whitehead beeldt de Underground Railroad opnieuw uit als een echte spoorlijn?"
+        },
+        options: [
+          {en: "The Intuitionist", es: "El intuicionista", de: "Der Intuitionist", nl: "De intuïtionist"},
+          {en: "The Underground Railroad", es: "El ferrocarril subterráneo", de: "Underground Railroad", nl: "De ondergrondse spoorweg"},
+          {en: "The Nickel Boys", es: "Los chicos de Nickel", de: "Die Nickel Boys", nl: "De Nickel Boys"},
+          {en: "Zone One", es: "Zona uno", de: "Zone One", nl: "Zone One"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Underground Railroad (2016) is Colson Whitehead's Pulitzer Prize-winning novel that reimagines the Underground Railroad as a literal underground train system, following Cora, a slave escaping from a Georgia plantation.",
+          es: "El ferrocarril subterráneo (2016) es la novela ganadora del Premio Pulitzer de Colson Whitehead que reimagina el Ferrocarril Subterráneo como un sistema de trenes subterráneos literal, siguiendo a Cora, una esclava que escapa de una plantación en Georgia.",
+          de: "Underground Railroad (2016) ist Colson Whiteheads Pulitzer-Preis-gekrönter Roman, der die Underground Railroad als buchstäbliches unterirdisches Zugsystem neu vorstellt und Cora folgt, einer Sklavin, die von einer Plantage in Georgia flieht.",
+          nl: "De ondergrondse spoorweg (2016) is Colson Whiteheads Pulitzer Prize-winnende roman die de Underground Railroad opnieuw uitbeeldt als een letterlijk ondergronds treinsysteem, waarbij Cora wordt gevolgd, een slavin die ontsnapt van een plantage in Georgia."
+        }
+      },
+      {
+        question: {
+          en: "Which novel by Jhumpa Lahiri chronicles three generations of an Indian family?",
+          es: "¿Qué novela de Jhumpa Lahiri narra tres generaciones de una familia india?",
+          de: "Welcher Roman von Jhumpa Lahiri erzählt die Geschichte von drei Generationen einer indischen Familie?",
+          nl: "Welke roman van Jhumpa Lahiri beschrijft drie generaties van een Indiase familie?"
+        },
+        options: [
+          {en: "Interpreter of Maladies", es: "Intérprete del dolor", de: "Melancholie der Ankunft", nl: "Verteller van kwalen"},
+          {en: "The Namesake", es: "El tocayo", de: "Der Namensvetter", nl: "De naamgenoot"},
+          {en: "Unaccustomed Earth", es: "Tierra desacostumbrada", de: "Ungewohnte Erde", nl: "Ongewende aarde"},
+          {en: "The Lowland", es: "La tierra baja", de: "Das Tiefland", nl: "Het laagland"}
+        ],
+        correct: 3,
+        explanation: {
+          en: "The Lowland (2013) is Jhumpa Lahiri's novel that spans three generations of an Indian family, following two brothers from Calcutta and their diverging paths during the political upheavals of the 1960s.",
+          es: "La tierra baja (2013) es la novela de Jhumpa Lahiri que abarca tres generaciones de una familia india, siguiendo a dos hermanos de Calcuta y sus caminos divergentes durante las agitaciones políticas de la década de 1960.",
+          de: "Das Tiefland (2013) ist Jhumpa Lahiris Roman, der drei Generationen einer indischen Familie umfasst und zwei Brüdern aus Kalkutta und ihren divergierenden Wegen während der politischen Umwälzungen der 1960er Jahre folgt.",
+          nl: "Het laagland (2013) is Jhumpa Lahiri's roman die drie generaties van een Indiase familie beslaat, waarbij twee broers uit Calcutta worden gevolgd en hun verschillende paden tijdens de politieke onrust van de jaren 1960."
+        }
+      },
+      {
+        question: {
+          en: "Which novel by Ian McEwan features a neurosurgeon who must choose between saving his wife or a stranger?",
+          es: "¿Qué novela de Ian McEwan presenta a un neurocirujano que debe elegir entre salvar a su esposa o a un extraño?",
+          de: "Welcher Roman von Ian McEwan zeigt einen Neurochirurgen, der sich entscheiden muss, seine Frau oder einen Fremden zu retten?",
+          nl: "Welke roman van Ian McEwan bevat een neurochirurg die moet kiezen tussen het redden van zijn vrouw of een vreemde?"
+        },
+        options: [
+          {en: "Atonement", es: "Expiación", de: "Abbitte", nl: "Boetekleed"},
+          {en: "Amsterdam", es: "Amsterdam", de: "Amsterdam", nl: "Amsterdam"},
+          {en: "Saturday", es: "Sábado", de: "Saturday", nl: "Zaterdag"},
+          {en: "On Chesil Beach", es: "En la playa de Chesil", de: "Am Strand", nl: "Op het strand van Chesil"}
+        ],
+        correct: 2,
+        explanation: {
+          en: "Saturday (2005) is Ian McEwan's novel set on a single day, following neurosurgeon Henry Perowne as he navigates a day marked by a violent encounter and must make difficult moral choices.",
+          es: "Sábado (2005) es la novela de Ian McEwan ambientada en un solo día, siguiendo al neurocirujano Henry Perowne mientras navega un día marcado por un encuentro violento y debe tomar difíciles decisiones morales.",
+          de: "Saturday (2005) ist Ian McEwans Roman, der an einem einzigen Tag spielt und dem Neurochirurgen Henry Perowne folgt, während er einen Tag navigiert, der von einer gewalttätigen Begegnung geprägt ist, und schwierige moralische Entscheidungen treffen muss.",
+          nl: "Zaterdag (2005) is Ian McEwans roman die zich afspeelt op één dag, waarbij neurochirurg Henry Perowne wordt gevolgd terwijl hij een dag doormaakt die wordt gekenmerkt door een gewelddadige ontmoeting en moeilijke morele keuzes moet maken."
+        }
+      },
+      {
+        question: {
+          en: "Which novel by David Foster Wallace is over 1,000 pages long and set at a tennis academy?",
+          es: "¿Qué novela de David Foster Wallace tiene más de 1,000 páginas y está ambientada en una academia de tenis?",
+          de: "Welcher Roman von David Foster Wallace ist über 1.000 Seiten lang und spielt in einer Tennisschule?",
+          nl: "Welke roman van David Foster Wallace is meer dan 1.000 pagina's lang en speelt zich af op een tennisacademie?"
+        },
+        options: [
+          {en: "The Broom of the System", es: "La escoba del sistema", de: "Der Besen im System", nl: "De bezem van het systeem"},
+          {en: "Infinite Jest", es: "La broma infinita", de: "Unendlicher Spaß", nl: "Oneindige grap"},
+          {en: "The Pale King", es: "El rey pálido", de: "Der bleiche König", nl: "De bleke koning"},
+          {en: "Brief Interviews with Hideous Men", es: "Entrevistas breves con hombres repulsivos", de: "Kurze Interviews mit fiesen Männern", nl: "Korte interviews met afschuwelijke mannen"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Infinite Jest (1996) is David Foster Wallace's 1,079-page magnum opus set partially at the Enfield Tennis Academy, exploring themes of addiction, entertainment, and the search for meaning in contemporary America.",
+          es: "La broma infinita (1996) es el magnum opus de 1,079 páginas de David Foster Wallace ambientado parcialmente en la Academia de Tenis Enfield, explorando temas de adicción, entretenimiento y la búsqueda de significado en la América contemporánea.",
+          de: "Unendlicher Spaß (1996) ist David Foster Wallaces 1.079 Seiten langes Hauptwerk, das teilweise in der Enfield Tennis Academy spielt und Themen wie Sucht, Unterhaltung und die Suche nach Bedeutung im zeitgenössischen Amerika erforscht.",
+          nl: "Oneindige grap (1996) is David Foster Wallace's magnum opus van 1.079 pagina's dat zich gedeeltelijk afspeelt op de Enfield Tennis Academy, waarbij thema's van verslaving, entertainment en de zoektocht naar betekenis in het hedendaagse Amerika worden verkend."
+        }
+      },
+      {
+        question: {
+          en: "Which novel by Yann Martel tells the story of a boy stranded on a lifeboat with a Bengal tiger?",
+          es: "¿Qué novela de Yann Martel cuenta la historia de un niño varado en un bote salvavidas con un tigre de Bengala?",
+          de: "Welcher Roman von Yann Martel erzählt die Geschichte eines Jungen, der mit einem bengalischen Tiger auf einem Rettungsboot gestrandet ist?",
+          nl: "Welke roman van Yann Martel vertelt het verhaal van een jongen die gestrand is op een reddingsboot met een Bengaalse tijger?"
+        },
+        options: [
+          {en: "Life of Pi", es: "La vida de Pi", de: "Schiffbruch mit Tiger", nl: "Het leven van Pi"},
+          {en: "Beatrice and Virgil", es: "Beatrice y Virgilio", de: "Beatrice und Virgil", nl: "Beatrice en Virgil"},
+          {en: "Self", es: "Yo", de: "Selbst", nl: "Zelf"},
+          {en: "The High Mountains of Portugal", es: "Las altas montañas de Portugal", de: "Die hohen Berge Portugals", nl: "De hoge bergen van Portugal"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Life of Pi (2001) is Yann Martel's Booker Prize-winning novel about Piscine 'Pi' Patel, a boy who survives 227 days stranded on a lifeboat in the Pacific Ocean with a Bengal tiger named Richard Parker.",
+          es: "La vida de Pi (2001) es la novela ganadora del Premio Booker de Yann Martel sobre Piscine 'Pi' Patel, un niño que sobrevive 227 días varado en un bote salvavidas en el Océano Pacífico con un tigre de Bengala llamado Richard Parker.",
+          de: "Schiffbruch mit Tiger (2001) ist Yann Martels Booker-Preis-gekrönter Roman über Piscine 'Pi' Patel, einen Jungen, der 227 Tage auf einem Rettungsboot im Pazifischen Ozean mit einem bengalischen Tiger namens Richard Parker überlebt.",
+          nl: "Het leven van Pi (2001) is Yann Martels Booker Prize-winnende roman over Piscine 'Pi' Patel, een jongen die 227 dagen overleven terwijl hij gestrand is op een reddingsboot in de Stille Oceaan met een Bengaalse tijger genaamd Richard Parker."
+        }
+      },
+      {
+        question: {
+          en: "Which novel by Khaled Hosseini is about the friendship between two boys in Afghanistan?",
+          es: "¿Qué novela de Khaled Hosseini trata sobre la amistad entre dos niños en Afganistán?",
+          de: "Welcher Roman von Khaled Hosseini handelt von der Freundschaft zwischen zwei Jungen in Afghanistan?",
+          nl: "Welke roman van Khaled Hosseini gaat over de vriendschap tussen twee jongens in Afghanistan?"
+        },
+        options: [
+          {en: "The Kite Runner", es: "Cometas en el cielo", de: "Drachenläufer", nl: "De vliegeraar"},
+          {en: "A Thousand Splendid Suns", es: "Mil soles espléndidos", de: "Tausend strahlende Sonnen", nl: "Duizend schitterende zonnen"},
+          {en: "And the Mountains Echoed", es: "Y las montañas hablaron", de: "Traumsammler", nl: "En de bergen weergalmden"},
+          {en: "Sea Prayer", es: "Plegaria del mar", de: "Gebet an das Meer", nl: "Zee gebed"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Kite Runner (2003) is Khaled Hosseini's debut novel about the friendship between Amir and Hassan, two boys from different social classes in Kabul, Afghanistan, and themes of betrayal, guilt, and redemption.",
+          es: "Cometas en el cielo (2003) es la novela debut de Khaled Hosseini sobre la amistad entre Amir y Hassan, dos niños de diferentes clases sociales en Kabul, Afganistán, y temas de traición, culpa y redención.",
+          de: "Drachenläufer (2003) ist Khaled Hosseinis Debütroman über die Freundschaft zwischen Amir und Hassan, zwei Jungen aus verschiedenen sozialen Schichten in Kabul, Afghanistan, und Themen von Verrat, Schuld und Erlösung.",
+          nl: "De vliegeraar (2003) is Khaled Hosseini's debuutroman over de vriendschap tussen Amir en Hassan, twee jongens uit verschillende sociale klassen in Kabul, Afghanistan, en thema's van verraad, schuld en verlossing."
+        }
+      },
+      {
+        question: {
+          en: "Which novel by Chimamanda Ngozi Adichie depicts the Nigerian Civil War?",
+          es: "¿Qué novela de Chimamanda Ngozi Adichie retrata la Guerra Civil de Nigeria?",
+          de: "Welcher Roman von Chimamanda Ngozi Adichie zeigt den nigerianischen Bürgerkrieg?",
+          nl: "Welke roman van Chimamanda Ngozi Adichie toont de Nigeriaanse Burgeroorlog?"
+        },
+        options: [
+          {en: "Purple Hibiscus", es: "La flor púrpura", de: "Blauer Hibiskus", nl: "Paarse hibiscus"},
+          {en: "Half of a Yellow Sun", es: "Medio sol amarillo", de: "Die Hälfte der Sonne", nl: "De helft van een gele zon"},
+          {en: "Americanah", es: "Americanah", de: "Americanah", nl: "Americanah"},
+          {en: "The Thing Around Your Neck", es: "Algo alrededor de tu cuello", de: "Heimsuchung", nl: "Het ding om je nek"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Half of a Yellow Sun (2006) is Chimamanda Ngozi Adichie's novel set during the Nigerian Civil War (1967-1970), following multiple characters as they navigate the conflict and the creation of the short-lived Republic of Biafra.",
+          es: "Medio sol amarillo (2006) es la novela de Chimamanda Ngozi Adichie ambientada durante la Guerra Civil de Nigeria (1967-1970), siguiendo a múltiples personajes mientras navegan el conflicto y la creación de la efímera República de Biafra.",
+          de: "Die Hälfte der Sonne (2006) ist Chimamanda Ngozi Adichies Roman, der während des nigerianischen Bürgerkriegs (1967-1970) spielt und mehreren Charakteren folgt, während sie den Konflikt und die Schaffung der kurzlebigen Republik Biafra navigieren.",
+          nl: "De helft van een gele zon (2006) is Chimamanda Ngozi Adichies roman die zich afspeelt tijdens de Nigeriaanse Burgeroorlog (1967-1970), waarbij meerdere personages worden gevolgd terwijl ze het conflict en de oprichting van de kortstondige Republiek Biafra doormaken."
+        }
+      },
+      {
+        question: {
+          en: "Which novel by Arundhati Roy won the Booker Prize in 1997?",
+          es: "¿Qué novela de Arundhati Roy ganó el Premio Booker en 1997?",
+          de: "Welcher Roman von Arundhati Roy gewann 1997 den Booker Prize?",
+          nl: "Welke roman van Arundhati Roy won de Booker Prize in 1997?"
+        },
+        options: [
+          {en: "The God of Small Things", es: "El dios de las pequeñas cosas", de: "Der Gott der kleinen Dinge", nl: "De god van de kleine dingen"},
+          {en: "The Ministry of Utmost Happiness", es: "El ministerio de la felicidad suprema", de: "Das Ministerium des äußersten Glücks", nl: "Het ministerie van ultiem geluk"},
+          {en: "Walking with the Comrades", es: "Caminando con los camaradas", de: "Mit den Genossen wandern", nl: "Wandelen met de kameraden"},
+          {en: "Azadi", es: "Azadi", de: "Azadi", nl: "Azadi"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "The God of Small Things (1997) is Arundhati Roy's debut novel that won the Booker Prize. Set in Kerala, India, it tells the story of fraternal twins whose lives are destroyed by social conventions and family secrets.",
+          es: "El dios de las pequeñas cosas (1997) es la novela debut de Arundhati Roy que ganó el Premio Booker. Ambientada en Kerala, India, cuenta la historia de gemelos fraternos cuyas vidas son destruidas por convenciones sociales y secretos familiares.",
+          de: "Der Gott der kleinen Dinge (1997) ist Arundhati Roys Debütroman, der den Booker Prize gewann. Er spielt in Kerala, Indien, und erzählt die Geschichte von zweieiigen Zwillingen, deren Leben durch soziale Konventionen und Familiengeheimnisse zerstört werden.",
+          nl: "De god van de kleine dingen (1997) is Arundhati Roys debuutroman die de Booker Prize won. De roman speelt zich af in Kerala, India, en vertelt het verhaal van een tweeling wiens leven wordt vernietigd door sociale conventies en familiegeheimen."
+        }
+      },
+      {
+        question: {
+          en: "Which novel by Orhan Pamuk is set in Istanbul and features a miniaturist painter?",
+          es: "¿Qué novela de Orhan Pamuk está ambientada en Estambul y presenta a un pintor miniaturista?",
+          de: "Welcher Roman von Orhan Pamuk spielt in Istanbul und zeigt einen Miniaturmaler?",
+          nl: "Welke roman van Orhan Pamuk speelt zich af in Istanbul en bevat een miniatuurschilder?"
+        },
+        options: [
+          {en: "Snow", es: "Nieve", de: "Schnee", nl: "Sneeuw"},
+          {en: "My Name Is Red", es: "Me llamo Rojo", de: "Mein Name ist Rot", nl: "Mijn naam is Rood"},
+          {en: "The Museum of Innocence", es: "El museo de la inocencia", de: "Das Museum der Unschuld", nl: "Het museum van de onschuld"},
+          {en: "A Strangeness in My Mind", es: "Una extrañeza en mi mente", de: "Diese Fremdheit in mir", nl: "Een vreemdheid in mijn hoofd"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "My Name Is Red (1998) is Orhan Pamuk's novel set in 16th-century Istanbul, featuring miniaturist painters in the Ottoman court and exploring themes of art, religion, and tradition versus modernity.",
+          es: "Me llamo Rojo (1998) es la novela de Orhan Pamuk ambientada en Estambul del siglo XVI, con pintores miniaturistas en la corte otomana y explorando temas de arte, religión y tradición versus modernidad.",
+          de: "Mein Name ist Rot (1998) ist Orhan Pamuks Roman, der im Istanbul des 16. Jahrhunderts spielt und Miniaturmaler am osmanischen Hof zeigt, während er Themen von Kunst, Religion und Tradition versus Moderne erforscht.",
+          nl: "Mijn naam is Rood (1998) is Orhan Pamuks roman die zich afspeelt in het 16e-eeuwse Istanbul, met miniatuurschilders aan het Ottomaanse hof en waarbij thema's van kunst, religie en traditie versus moderniteit worden verkend."
+        }
+      },
+      {
+        question: {
+          en: "Which novel by Hilary Mantel chronicles Thomas Cromwell's rise to power?",
+          es: "¿Qué novela de Hilary Mantel narra el ascenso al poder de Thomas Cromwell?",
+          de: "Welcher Roman von Hilary Mantel erzählt Thomas Cromwells Aufstieg zur Macht?",
+          nl: "Welke roman van Hilary Mantel beschrijft Thomas Cromwells opkomst naar de macht?"
+        },
+        options: [
+          {en: "Wolf Hall", es: "En la corte del lobo", de: "Wölfe", nl: "De spiegelzaal"},
+          {en: "Bring Up the Bodies", es: "La cumbre", de: "Falken", nl: "Het boek der koningen"},
+          {en: "The Mirror & the Light", es: "El espejo y la luz", de: "Der Spiegel und das Licht", nl: "De spiegel en het licht"},
+          {en: "A Place of Greater Safety", es: "Un lugar de mayor seguridad", de: "Orte der Sicherheit", nl: "Een veiliger plaats"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Wolf Hall (2009) is the first novel in Hilary Mantel's trilogy about Thomas Cromwell's rise to power in the court of Henry VIII. The novel won the Man Booker Prize and is told from Cromwell's perspective.",
+          es: "En la corte del lobo (2009) es la primera novela de la trilogía de Hilary Mantel sobre el ascenso al poder de Thomas Cromwell en la corte de Enrique VIII. La novela ganó el Man Booker Prize y se cuenta desde la perspectiva de Cromwell.",
+          de: "Wölfe (2009) ist der erste Roman in Hilary Mantels Trilogie über Thomas Cromwells Aufstieg zur Macht am Hof Heinrichs VIII. Der Roman gewann den Man Booker Prize und wird aus Cromwells Perspektive erzählt.",
+          nl: "De spiegelzaal (2009) is de eerste roman in Hilary Mantels trilogie over Thomas Cromwells opkomst naar de macht aan het hof van Hendrik VIII. De roman won de Man Booker Prize en wordt verteld vanuit Cromwells perspectief."
+        }
+      },
+      {
+        question: {
+          en: "Which novel by Jennifer Egan uses PowerPoint slides as one of its chapters?",
+          es: "¿Qué novela de Jennifer Egan usa diapositivas de PowerPoint como uno de sus capítulos?",
+          de: "Welcher Roman von Jennifer Egan verwendet PowerPoint-Folien als eines seiner Kapitel?",
+          nl: "Welke roman van Jennifer Egan gebruikt PowerPoint-dia's als een van zijn hoofdstukken?"
+        },
+        options: [
+          {en: "The Keep", es: "La fortaleza", de: "Das Schloss", nl: "De vesting"},
+          {en: "A Visit from the Goon Squad", es: "El tiempo es un canalla", de: "Der größere Teil der Welt", nl: "Een bezoek van de brigade"},
+          {en: "Look at Me", es: "Mírame", de: "Schau mich an", nl: "Kijk me aan"},
+          {en: "Manhattan Beach", es: "Manhattan Beach", de: "Manhattan Beach", nl: "Manhattan Beach"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "A Visit from the Goon Squad (2010) is Jennifer Egan's Pulitzer Prize-winning novel that includes a chapter presented as a PowerPoint slide show. The experimental novel explores time, music, and interconnected lives.",
+          es: "El tiempo es un canalla (2010) es la novela ganadora del Premio Pulitzer de Jennifer Egan que incluye un capítulo presentado como una presentación de PowerPoint. La novela experimental explora el tiempo, la música y vidas interconectadas.",
+          de: "Der größere Teil der Welt (2010) ist Jennifer Egans Pulitzer-Preis-gekrönter Roman, der ein Kapitel als PowerPoint-Präsentation enthält. Der experimentelle Roman erforscht Zeit, Musik und miteinander verbundene Leben.",
+          nl: "Een bezoek van de brigade (2010) is Jennifer Egans Pulitzer Prize-winnende roman die een hoofdstuk bevat dat wordt gepresenteerd als een PowerPoint-diavoorstelling. De experimentele roman verkent tijd, muziek en met elkaar verbonden levens."
+        }
+      },
+      {
+        question: {
+          en: "Which novel by Elena Ferrante begins the Neapolitan Novels series?",
+          es: "¿Qué novela de Elena Ferrante comienza la serie de las Novelas napolitanas?",
+          de: "Welcher Roman von Elena Ferrante beginnt die Neapolitanische Saga?",
+          nl: "Welke roman van Elena Ferrante begint de Napolitaanse romans serie?"
+        },
+        options: [
+          {en: "My Brilliant Friend", es: "La amiga estupenda", de: "Meine geniale Freundin", nl: "Mijn briljante vriendin"},
+          {en: "The Story of a New Name", es: "Un mal nombre", de: "Die Geschichte eines neuen Namens", nl: "Het verhaal van een nieuwe naam"},
+          {en: "Those Who Leave and Those Who Stay", es: "Las deudas del cuerpo", de: "Die Geschichte der getrennten Wege", nl: "Degenen die gaan en degenen die blijven"},
+          {en: "The Story of the Lost Child", es: "La niña perdida", de: "Die Geschichte des verlorenen Kindes", nl: "Het verhaal van het verloren kind"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "My Brilliant Friend (2011) is the first novel in Elena Ferrante's Neapolitan Novels series, chronicling the lifelong friendship between Elena and Lila, two girls growing up in a poor neighborhood of Naples.",
+          es: "La amiga estupenda (2011) es la primera novela de la serie de Novelas napolitanas de Elena Ferrante, narrando la amistad de toda la vida entre Elena y Lila, dos niñas que crecen en un barrio pobre de Nápoles.",
+          de: "Meine geniale Freundin (2011) ist der erste Roman in Elena Ferrantes Neapolitanischer Saga, der die lebenslange Freundschaft zwischen Elena und Lila erzählt, zwei Mädchen, die in einem armen Viertel von Neapel aufwachsen.",
+          nl: "Mijn briljante vriendin (2011) is de eerste roman in Elena Ferrantes Napolitaanse romans serie, waarin de levenslange vriendschap tussen Elena en Lila wordt beschreven, twee meisjes die opgroeien in een arme buurt van Napels."
+        }
       }
     ]
   };

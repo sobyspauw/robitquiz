@@ -427,6 +427,426 @@
           de: "Das Kolosseum hatte ein ausgeklügeltes Entwässerungssystem, das mehrere Zwecke erfüllte: Es konnte Wasser nach inszenierten Seeschlachten (Naumachien) in den frühen Jahren abfließen lassen, bevor das Hypogeum gebaut wurde, und verhinderte die Ansammlung von Regenwasser. Das System war mit Roms Hauptkanalisationssystem, der Cloaca Maxima, verbunden.",
           nl: "Het Colosseum had een uitgebreid drainagesysteem dat meerdere doelen diende: het kon water afvoeren na geënsceneerde zeeslagen (naumachia) in de vroege jaren voordat het hypogeum werd gebouwd, en het voorkwam ophoping van regenwater. Het systeem was verbonden met het hoofdrioleringssysteem van Rome, de Cloaca Maxima."
         }
+      },
+      {
+        question: {
+          en: "What was the estimated seating capacity of the Colosseum?",
+          es: "¿Cuál era la capacidad estimada de asientos del Coliseo?",
+          de: "Wie groß war die geschätzte Sitzplatzkapazität des Kolosseums?",
+          nl: "Wat was de geschatte zitcapaciteit van het Colosseum?"
+        },
+        options: [
+          { en: "30,000-40,000 spectators", es: "30,000-40,000 espectadores", de: "30.000-40.000 Zuschauer", nl: "30.000-40.000 toeschouwers" },
+          { en: "50,000-80,000 spectators", es: "50,000-80,000 espectadores", de: "50.000-80.000 Zuschauer", nl: "50.000-80.000 toeschouwers" },
+          { en: "100,000-120,000 spectators", es: "100,000-120,000 espectadores", de: "100.000-120.000 Zuschauer", nl: "100.000-120.000 toeschouwers" },
+          { en: "150,000-200,000 spectators", es: "150,000-200,000 espectadores", de: "150.000-200.000 Zuschauer", nl: "150.000-200.000 toeschouwers" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Modern estimates suggest the Colosseum could hold between 50,000 and 80,000 spectators, with approximately 50,000 seated and additional standing room. This made it one of the largest amphitheaters in the Roman world, though smaller than the Circus Maximus.",
+          es: "Las estimaciones modernas sugieren que el Coliseo podía albergar entre 50,000 y 80,000 espectadores, con aproximadamente 50,000 sentados y espacio adicional de pie. Esto lo convirtió en uno de los anfiteatros más grandes del mundo romano, aunque más pequeño que el Circo Máximo.",
+          de: "Moderne Schätzungen deuten darauf hin, dass das Kolosseum zwischen 50.000 und 80.000 Zuschauer fassen konnte, mit etwa 50.000 Sitzplätzen und zusätzlichem Stehraum. Dies machte es zu einem der größten Amphitheater der römischen Welt, obwohl es kleiner als der Circus Maximus war.",
+          nl: "Moderne schattingen suggereren dat het Colosseum tussen de 50.000 en 80.000 toeschouwers kon herbergen, met ongeveer 50.000 zitplaatsen en extra staanruimte. Dit maakte het een van de grootste amfitheaters in de Romeinse wereld, hoewel kleiner dan het Circus Maximus."
+        }
+      },
+      {
+        question: {
+          en: "What special seating area was reserved for the Roman Emperor?",
+          es: "¿Qué área de asientos especial estaba reservada para el Emperador Romano?",
+          de: "Welcher spezielle Sitzbereich war für den römischen Kaiser reserviert?",
+          nl: "Welk speciaal zitgedeelte was gereserveerd voor de Romeinse keizer?"
+        },
+        options: [
+          { en: "The pulvinar", es: "El pulvinar", de: "Das Pulvinar", nl: "Het pulvinar" },
+          { en: "The tribunal", es: "El tribunal", de: "Das Tribunal", nl: "Het tribunaal" },
+          { en: "The rostrum", es: "El rostrum", de: "Das Rostrum", nl: "Het rostrum" },
+          { en: "The cavea", es: "La cavea", de: "Die Cavea", nl: "De cavea" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The pulvinar was the Imperial box, a special elevated seating area on the north side of the arena reserved exclusively for the Emperor and his family. From this prime location, the Emperor could be seen by all spectators, reinforcing his power and presence while enjoying the best view of the events.",
+          es: "El pulvinar era el palco imperial, un área de asientos elevada especial en el lado norte de la arena reservada exclusivamente para el Emperador y su familia. Desde esta ubicación privilegiada, el Emperador podía ser visto por todos los espectadores, reforzando su poder y presencia mientras disfrutaba de la mejor vista de los eventos.",
+          de: "Das Pulvinar war die kaiserliche Loge, ein spezieller erhöhter Sitzbereich an der Nordseite der Arena, der ausschließlich für den Kaiser und seine Familie reserviert war. Von diesem erstklassigen Standort aus konnte der Kaiser von allen Zuschauern gesehen werden, was seine Macht und Präsenz verstärkte, während er die beste Aussicht auf die Veranstaltungen genoss.",
+          nl: "Het pulvinar was de keizerlijke loge, een speciaal verhoogd zitgedeelte aan de noordkant van de arena dat exclusief was gereserveerd voor de keizer en zijn familie. Vanaf deze toplocatie kon de keizer door alle toeschouwers worden gezien, wat zijn macht en aanwezigheid versterkte terwijl hij het beste zicht op de evenementen genoot."
+        }
+      },
+      {
+        question: {
+          en: "What type of events were held in the morning at the Colosseum?",
+          es: "¿Qué tipo de eventos se celebraban por la mañana en el Coliseo?",
+          de: "Welche Art von Veranstaltungen fanden morgens im Kolosseum statt?",
+          nl: "Wat voor soort evenementen werden 's ochtends in het Colosseum gehouden?"
+        },
+        options: [
+          { en: "Gladiator combats", es: "Combates de gladiadores", de: "Gladiatorenkämpfe", nl: "Gladiatorengevechten" },
+          { en: "Animal hunts (venationes)", es: "Cacerías de animales (venationes)", de: "Tierjagden (Venationes)", nl: "Dierenjachten (venationes)" },
+          { en: "Mock naval battles", es: "Batallas navales simuladas", de: "Nachgestellte Seeschlachten", nl: "Namaak zeeslagen" },
+          { en: "Theatrical performances", es: "Representaciones teatrales", de: "Theateraufführungen", nl: "Theatervoorstellingen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Morning events at the Colosseum typically featured venationes (animal hunts), where trained hunters called venatores would fight exotic animals from across the empire. These spectacles showcased Rome's far-reaching power and provided entertainment before the main gladiatorial contests in the afternoon.",
+          es: "Los eventos matutinos en el Coliseo típicamente presentaban venationes (cacerías de animales), donde cazadores entrenados llamados venatores luchaban contra animales exóticos de todo el imperio. Estos espectáculos mostraban el poder de largo alcance de Roma y proporcionaban entretenimiento antes de los principales combates de gladiadores por la tarde.",
+          de: "Morgenveranstaltungen im Kolosseum zeigten typischerweise Venationes (Tierjagden), bei denen trainierte Jäger namens Venatores gegen exotische Tiere aus dem gesamten Reich kämpften. Diese Spektakel zeigten Roms weitreichende Macht und boten Unterhaltung vor den Hauptgladiatorenkämpfen am Nachmittag.",
+          nl: "Ochtendevenementen in het Colosseum toonden typisch venationes (dierenjachten), waarbij getrainde jagers genaamd venatores vochten tegen exotische dieren uit het hele rijk. Deze spektakels toonden Rome's verstrekkende macht en boden entertainment voor de belangrijkste gladiatorengevechten in de middag."
+        }
+      },
+      {
+        question: {
+          en: "What was the name of the protective barrier at the arena's edge?",
+          es: "¿Cuál era el nombre de la barrera protectora en el borde de la arena?",
+          de: "Wie hieß die Schutzbarriere am Rand der Arena?",
+          nl: "Wat was de naam van de beschermende barrière aan de rand van de arena?"
+        },
+        options: [
+          { en: "Podium", es: "Podio", de: "Podium", nl: "Podium" },
+          { en: "Parapet", es: "Parapeto", de: "Parapet", nl: "Borstwering" },
+          { en: "Balteus", es: "Balteus", de: "Balteus", nl: "Balteus" },
+          { en: "Spina", es: "Spina", de: "Spina", nl: "Spina" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The podium was a high wall (approximately 4 meters) that surrounded the arena floor and protected spectators from animals and combatants. It was topped with metal rollers and nets to prevent animals from climbing out. The front row seats behind the podium were reserved for senators and the most elite members of Roman society.",
+          es: "El podio era una pared alta (aproximadamente 4 metros) que rodeaba el piso de la arena y protegía a los espectadores de animales y combatientes. Estaba coronado con rodillos de metal y redes para evitar que los animales salieran. Los asientos de la primera fila detrás del podio estaban reservados para senadores y los miembros más elitistas de la sociedad romana.",
+          de: "Das Podium war eine hohe Mauer (etwa 4 Meter), die die Arenafläche umgab und die Zuschauer vor Tieren und Kämpfern schützte. Es war mit Metallrollen und Netzen versehen, um zu verhindern, dass Tiere herausklettern. Die vorderen Sitzreihen hinter dem Podium waren für Senatoren und die elitärsten Mitglieder der römischen Gesellschaft reserviert.",
+          nl: "Het podium was een hoge muur (ongeveer 4 meter) die de arenabodem omgaf en toeschouwers beschermde tegen dieren en strijders. Het was bekroond met metalen rollen en netten om te voorkomen dat dieren eruit klommen. De voorste rij stoelen achter het podium was gereserveerd voor senatoren en de meest elite leden van de Romeinse samenleving."
+        }
+      },
+      {
+        question: {
+          en: "Which type of gladiator fought with a net and trident?",
+          es: "¿Qué tipo de gladiador luchaba con una red y un tridente?",
+          de: "Welche Art von Gladiator kämpfte mit einem Netz und Dreizack?",
+          nl: "Welk type gladiator vocht met een net en drietand?"
+        },
+        options: [
+          { en: "Murmillo", es: "Murmillo", de: "Murmillo", nl: "Murmillo" },
+          { en: "Thraex", es: "Thraex", de: "Thraex", nl: "Thraex" },
+          { en: "Retiarius", es: "Retiarius", de: "Retiarius", nl: "Retiarius" },
+          { en: "Secutor", es: "Secutor", de: "Secutor", nl: "Secutor" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The retiarius (net-fighter) was a distinctive type of gladiator who fought with a weighted net (rete), a trident (fuscina), and a dagger. Unlike most gladiators, the retiarius wore minimal armor, relying on speed and agility. They were often matched against heavily armored secutores or murmillones.",
+          es: "El retiarius (luchador de red) era un tipo distintivo de gladiador que luchaba con una red ponderada (rete), un tridente (fuscina) y una daga. A diferencia de la mayoría de los gladiadores, el retiarius usaba armadura mínima, confiando en la velocidad y agilidad. A menudo se enfrentaban contra secutores o murmillones fuertemente armados.",
+          de: "Der Retiarius (Netzkämpfer) war ein charakteristischer Gladiatorentyp, der mit einem beschwerten Netz (Rete), einem Dreizack (Fuscina) und einem Dolch kämpfte. Im Gegensatz zu den meisten Gladiatoren trug der Retiarius minimale Rüstung und verließ sich auf Geschwindigkeit und Beweglichkeit. Sie wurden oft gegen schwer gepanzerte Secutores oder Murmillones eingesetzt.",
+          nl: "De retiarius (netvechter) was een onderscheidend type gladiator die vocht met een gewogen net (rete), een drietand (fuscina) en een dolk. In tegenstelling tot de meeste gladiatoren droeg de retiarius minimale wapenrusting en vertrouwde op snelheid en behendigheid. Ze werden vaak gekoppeld aan zwaar gepantserde secutores of murmillones."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of the thumbs gesture in gladiator combat?",
+          es: "¿Cuál era el significado del gesto del pulgar en el combate de gladiadores?",
+          de: "Was war die Bedeutung der Daumengeste im Gladiatorenkampf?",
+          nl: "Wat was de betekenis van het duimgebaar in gladiatorengevechten?"
+        },
+        options: [
+          { en: "Thumbs up meant death, thumbs down meant mercy", es: "Pulgar arriba significaba muerte, pulgar abajo misericordia", de: "Daumen hoch bedeutete Tod, Daumen runter Gnade", nl: "Duim omhoog betekende dood, duim omlaag genade" },
+          { en: "The exact meaning is uncertain; may have been reversed", es: "El significado exacto es incierto; pudo haber sido al revés", de: "Die genaue Bedeutung ist unsicher; könnte umgekehrt gewesen sein", nl: "De exacte betekenis is onzeker; kan omgekeerd zijn geweest" },
+          { en: "Only the Emperor could give the signal", es: "Solo el Emperador podía dar la señal", de: "Nur der Kaiser konnte das Signal geben", nl: "Alleen de keizer kon het signaal geven" },
+          { en: "The gesture had no significance", es: "El gesto no tenía significado", de: "Die Geste hatte keine Bedeutung", nl: "Het gebaar had geen betekenis" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Contrary to popular belief, the exact meaning of thumb gestures in ancient Rome is uncertain. Historical evidence suggests the 'pollice verso' (turned thumb) may have indicated death, while a hidden thumb in the fist meant mercy. The modern 'thumbs up/down' interpretation likely comes from later artistic depictions rather than actual Roman practice.",
+          es: "Contrario a la creencia popular, el significado exacto de los gestos del pulgar en la antigua Roma es incierto. La evidencia histórica sugiere que el 'pollice verso' (pulgar girado) pudo haber indicado muerte, mientras que un pulgar oculto en el puño significaba misericordia. La interpretación moderna de 'pulgar arriba/abajo' probablemente proviene de representaciones artísticas posteriores en lugar de la práctica romana real.",
+          de: "Entgegen der landläufigen Meinung ist die genaue Bedeutung der Daumengesten im alten Rom unsicher. Historische Beweise deuten darauf hin, dass das 'Pollice Verso' (gedrehter Daumen) den Tod bedeuten könnte, während ein in der Faust verborgener Daumen Gnade bedeutete. Die moderne 'Daumen hoch/runter'-Interpretation stammt wahrscheinlich aus späteren künstlerischen Darstellungen und nicht aus der tatsächlichen römischen Praxis.",
+          nl: "In tegenstelling tot wat vaak wordt gedacht, is de exacte betekenis van duimgebaren in het oude Rome onzeker. Historisch bewijs suggereert dat de 'pollice verso' (gedraaide duim) de dood kon betekenen, terwijl een verborgen duim in de vuist genade betekende. De moderne 'duim omhoog/omlaag'-interpretatie komt waarschijnlijk van latere artistieke afbeeldingen in plaats van de werkelijke Romeinse praktijk."
+        }
+      },
+      {
+        question: {
+          en: "What was the purpose of the sand covering the arena floor?",
+          es: "¿Cuál era el propósito de la arena que cubría el suelo de la arena?",
+          de: "Was war der Zweck des Sandes, der den Arenaboden bedeckte?",
+          nl: "Wat was het doel van het zand dat de arenavloer bedekte?"
+        },
+        options: [
+          { en: "Purely decorative", es: "Puramente decorativo", de: "Rein dekorativ", nl: "Puur decoratief" },
+          { en: "To absorb blood and provide traction", es: "Para absorber sangre y proporcionar tracción", de: "Um Blut zu absorbieren und Traktion zu bieten", nl: "Om bloed te absorberen en tractie te bieden" },
+          { en: "To create dust clouds for dramatic effect", es: "Para crear nubes de polvo para efecto dramático", de: "Um Staubwolken für dramatische Effekte zu erzeugen", nl: "Om stofwolken te creëren voor dramatisch effect" },
+          { en: "To muffle sound", es: "Para amortiguar el sonido", de: "Um Geräusche zu dämpfen", nl: "Om geluid te dempen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The arena floor was covered with sand (the Latin word 'harena' means sand, giving us the English word 'arena') for practical purposes: it absorbed blood from combat, provided traction for fighters and animals, and could be raked and replaced between events to maintain a clean fighting surface.",
+          es: "El piso de la arena estaba cubierto con arena (la palabra latina 'harena' significa arena, dándonos la palabra inglesa 'arena') por razones prácticas: absorbía la sangre del combate, proporcionaba tracción para luchadores y animales, y podía rastrillarse y reemplazarse entre eventos para mantener una superficie de lucha limpia.",
+          de: "Der Arenaboden war mit Sand bedeckt (das lateinische Wort 'Harena' bedeutet Sand und gibt uns das englische Wort 'Arena') aus praktischen Gründen: Er absorbierte Blut aus Kämpfen, bot Traktion für Kämpfer und Tiere und konnte zwischen Veranstaltungen geharkt und ersetzt werden, um eine saubere Kampffläche zu erhalten.",
+          nl: "De arenabodem was bedekt met zand (het Latijnse woord 'harena' betekent zand, wat ons het Engelse woord 'arena' geeft) om praktische redenen: het absorbeerde bloed van gevechten, bood tractie voor vechters en dieren, en kon tussen evenementen worden geharkt en vervangen om een schoon gevechtsoppervlak te behouden."
+        }
+      },
+      {
+        question: {
+          en: "What architectural feature helped with the Colosseum's acoustics?",
+          es: "¿Qué característica arquitectónica ayudó con la acústica del Coliseo?",
+          de: "Welches architektonische Merkmal half bei der Akustik des Kolosseums?",
+          nl: "Welk architectonisch kenmerk hielp met de akoestiek van het Colosseum?"
+        },
+        options: [
+          { en: "Electronic amplification", es: "Amplificación electrónica", de: "Elektronische Verstärkung", nl: "Elektronische versterking" },
+          { en: "The elliptical shape and vaulted corridors", es: "La forma elíptica y corredores abovedados", de: "Die elliptische Form und gewölbte Korridore", nl: "De elliptische vorm en gewelfde gangen" },
+          { en: "Acoustic panels on walls", es: "Paneles acústicos en paredes", de: "Akustikpaneele an Wänden", nl: "Akoestische panelen op muren" },
+          { en: "No special acoustic features existed", es: "No existían características acústicas especiales", de: "Es gab keine besonderen akustischen Merkmale", nl: "Er bestonden geen speciale akoestische kenmerken" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Colosseum's elliptical design and system of vaulted corridors naturally amplified sound, allowing announcements and the roar of the crowd to be heard throughout. The curved walls helped direct sound waves, and the tiered seating prevented sound absorption, creating surprisingly good acoustics for such a large open-air venue.",
+          es: "El diseño elíptico del Coliseo y el sistema de corredores abovedados amplificaban naturalmente el sonido, permitiendo que los anuncios y el rugido de la multitud se escucharan en todas partes. Las paredes curvas ayudaban a dirigir las ondas sonoras, y los asientos escalonados evitaban la absorción del sonido, creando una acústica sorprendentemente buena para un lugar al aire libre tan grande.",
+          de: "Das elliptische Design des Kolosseums und das System gewölbter Korridore verstärkten natürlich den Schall, sodass Ankündigungen und das Brüllen der Menge überall zu hören waren. Die geschwungenen Wände halfen, Schallwellen zu lenken, und die gestuften Sitzplätze verhinderten die Schallabsorption, was eine überraschend gute Akustik für einen so großen Open-Air-Veranstaltungsort schuf.",
+          nl: "Het elliptische ontwerp van het Colosseum en het systeem van gewelfde gangen versterkten natuurlijk het geluid, waardoor aankondigingen en het gebrul van de menigte overal te horen waren. De gebogen muren hielpen geluidsgolven te leiden, en de gelaagde zitplaatsen voorkwamen geluidsabsorptie, wat verrassend goede akoestiek creëerde voor zo'n grote openluchtlocatie."
+        }
+      },
+      {
+        question: {
+          en: "How were animals transported into the hypogeum?",
+          es: "¿Cómo se transportaban los animales al hipogeo?",
+          de: "Wie wurden Tiere ins Hypogeum transportiert?",
+          nl: "Hoe werden dieren in het hypogeum getransporteerd?"
+        },
+        options: [
+          { en: "Through the main public entrances", es: "Por las entradas públicas principales", de: "Durch die Haupteingänge für die Öffentlichkeit", nl: "Via de belangrijkste publieke ingangen" },
+          { en: "Via underground tunnels from outside the structure", es: "A través de túneles subterráneos desde fuera de la estructura", de: "Über unterirdische Tunnel von außerhalb der Struktur", nl: "Via ondergrondse tunnels van buiten de structuur" },
+          { en: "By crane over the walls", es: "Por grúa sobre los muros", de: "Per Kran über die Mauern", nl: "Met een kraan over de muren" },
+          { en: "Through the velarium opening", es: "A través de la abertura del velarium", de: "Durch die Velarium-Öffnung", nl: "Via de velarium-opening" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Animals were brought into the hypogeum through underground tunnels and passages that connected to the exterior of the Colosseum. These service tunnels allowed animals to be caged and prepared below ground without disturbing spectators, then dramatically lifted through trap doors when needed for the spectacles.",
+          es: "Los animales eran llevados al hipogeo a través de túneles y pasajes subterráneos que conectaban con el exterior del Coliseo. Estos túneles de servicio permitían que los animales fueran enjaulados y preparados bajo tierra sin molestar a los espectadores, luego elevados dramáticamente a través de trampillas cuando se necesitaban para los espectáculos.",
+          de: "Tiere wurden durch unterirdische Tunnel und Gänge ins Hypogeum gebracht, die mit dem Äußeren des Kolosseums verbunden waren. Diese Servicetunnel ermöglichten es, Tiere unterirdisch zu käfigen und vorzubereiten, ohne die Zuschauer zu stören, und sie dann bei Bedarf dramatisch durch Falltüren für die Spektakel zu heben.",
+          nl: "Dieren werden via ondergrondse tunnels en gangen naar het hypogeum gebracht die verbonden waren met de buitenkant van het Colosseum. Deze servicetunnels stelden in staat dat dieren ondergronds in kooien werden geplaatst en voorbereid zonder toeschouwers te storen, en vervolgens dramatisch via valluiken werden getild wanneer nodig voor de spektakels."
+        }
+      },
+      {
+        question: {
+          en: "What was unusual about the Colosseum's construction start date?",
+          es: "¿Qué era inusual sobre la fecha de inicio de construcción del Coliseo?",
+          de: "Was war ungewöhnlich am Baubeginn des Kolosseums?",
+          nl: "Wat was ongebruikelijk aan de startdatum van de bouw van het Colosseum?"
+        },
+        options: [
+          { en: "It was built during a civil war", es: "Fue construido durante una guerra civil", de: "Es wurde während eines Bürgerkriegs gebaut", nl: "Het werd gebouwd tijdens een burgeroorlog" },
+          { en: "Construction began immediately after the Jewish War", es: "La construcción comenzó inmediatamente después de la Guerra Judía", de: "Der Bau begann unmittelbar nach dem Jüdischen Krieg", nl: "De bouw begon onmiddellijk na de Joodse Oorlog" },
+          { en: "It was started in winter", es: "Se inició en invierno", de: "Es wurde im Winter begonnen", nl: "Het werd in de winter gestart" },
+          { en: "Construction took 100 years", es: "La construcción tomó 100 años", de: "Der Bau dauerte 100 Jahre", nl: "De bouw duurde 100 jaar" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Construction of the Colosseum began around 72 AD, shortly after Emperor Vespasian's victory in the Jewish War (66-73 AD). The project was funded partly by spoils from the conquest of Jerusalem, including treasures from the Temple. This made the Colosseum a monument to Roman military triumph as well as a public entertainment venue.",
+          es: "La construcción del Coliseo comenzó alrededor del 72 d.C., poco después de la victoria del emperador Vespasiano en la Guerra Judía (66-73 d.C.). El proyecto fue financiado en parte por los botines de la conquista de Jerusalén, incluyendo tesoros del Templo. Esto convirtió al Coliseo en un monumento al triunfo militar romano así como un lugar de entretenimiento público.",
+          de: "Der Bau des Kolosseums begann um 72 n.Chr., kurz nach Kaiser Vespasians Sieg im Jüdischen Krieg (66-73 n.Chr.). Das Projekt wurde teilweise durch Beute aus der Eroberung Jerusalems finanziert, einschließlich Schätzen aus dem Tempel. Dies machte das Kolosseum zu einem Denkmal des römischen militärischen Triumphs sowie zu einem öffentlichen Unterhaltungsort.",
+          nl: "De bouw van het Colosseum begon rond 72 na Chr., kort na keizer Vespasianus' overwinning in de Joodse Oorlog (66-73 na Chr.). Het project werd deels gefinancierd door buit uit de verovering van Jeruzalem, inclusief schatten uit de Tempel. Dit maakte het Colosseum tot een monument voor Romeinse militaire triomf evenals een publieke entertainmentlocatie."
+        }
+      },
+      {
+        question: {
+          en: "Which later structure borrowed materials from the Colosseum?",
+          es: "¿Qué estructura posterior tomó materiales prestados del Coliseo?",
+          de: "Welches spätere Bauwerk verwendete Materialien aus dem Kolosseum?",
+          nl: "Welke latere structuur leende materialen van het Colosseum?"
+        },
+        options: [
+          { en: "The Eiffel Tower", es: "La Torre Eiffel", de: "Der Eiffelturm", nl: "De Eiffeltoren" },
+          { en: "St. Peter's Basilica", es: "Basílica de San Pedro", de: "Petersdom", nl: "Sint-Pietersbasiliek" },
+          { en: "The Parthenon", es: "El Partenón", de: "Das Parthenon", nl: "Het Parthenon" },
+          { en: "Westminster Abbey", es: "Abadía de Westminster", de: "Westminster Abbey", nl: "Westminster Abbey" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "St. Peter's Basilica in Vatican City used travertine and other materials quarried from the Colosseum during the Renaissance. For centuries, the Colosseum served as a convenient source of building materials for Roman construction projects, including several palaces, churches, and other significant structures throughout the city.",
+          es: "La Basílica de San Pedro en la Ciudad del Vaticano utilizó travertino y otros materiales extraídos del Coliseo durante el Renacimiento. Durante siglos, el Coliseo sirvió como una fuente conveniente de materiales de construcción para proyectos de construcción romanos, incluyendo varios palacios, iglesias y otras estructuras significativas en toda la ciudad.",
+          de: "Der Petersdom in der Vatikanstadt verwendete Travertin und andere Materialien, die während der Renaissance aus dem Kolosseum abgebaut wurden. Jahrhundertelang diente das Kolosseum als bequeme Quelle für Baumaterialien für römische Bauprojekte, darunter mehrere Paläste, Kirchen und andere bedeutende Strukturen in der ganzen Stadt.",
+          nl: "De Sint-Pietersbasiliek in Vaticaanstad gebruikte travertijn en andere materialen die tijdens de Renaissance uit het Colosseum werden gewonnen. Eeuwenlang diende het Colosseum als een handige bron van bouwmaterialen voor Romeinse bouwprojecten, inclusief verschillende paleizen, kerken en andere belangrijke structuren door de hele stad."
+        }
+      },
+      {
+        question: {
+          en: "What role did the Vestal Virgins play at the Colosseum?",
+          es: "¿Qué papel desempeñaban las Vírgenes Vestales en el Coliseo?",
+          de: "Welche Rolle spielten die Vestalinnen im Kolosseum?",
+          nl: "Welke rol speelden de Vestaalse maagden in het Colosseum?"
+        },
+        options: [
+          { en: "They performed religious ceremonies before games", es: "Realizaban ceremonias religiosas antes de los juegos", de: "Sie führten religiöse Zeremonien vor Spielen durch", nl: "Ze voerden religieuze ceremonies uit voor spelen" },
+          { en: "They had special reserved seating", es: "Tenían asientos reservados especiales", de: "Sie hatten spezielle reservierte Sitzplätze", nl: "Ze hadden speciale gereserveerde zitplaatsen" },
+          { en: "They served refreshments", es: "Servían refrescos", de: "Sie servierten Erfrischungen", nl: "Ze serveerden versnaperingen" },
+          { en: "They had no role at the Colosseum", es: "No tenían ningún papel en el Coliseo", de: "Sie hatten keine Rolle im Kolosseum", nl: "Ze hadden geen rol in het Colosseum" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Vestal Virgins, Rome's sacred priestesses who maintained the eternal flame of Vesta, had special seating privileges at the Colosseum. They sat in the podium area alongside senators, reflecting their high religious status in Roman society. Their presence added religious significance to the games.",
+          es: "Las Vírgenes Vestales, las sacerdotisas sagradas de Roma que mantenían la llama eterna de Vesta, tenían privilegios de asiento especiales en el Coliseo. Se sentaban en el área del podio junto a los senadores, reflejando su alto estatus religioso en la sociedad romana. Su presencia añadía significado religioso a los juegos.",
+          de: "Die Vestalinnen, Roms heilige Priesterinnen, die die ewige Flamme der Vesta aufrechterhielten, hatten besondere Sitzprivilegien im Kolosseum. Sie saßen im Podiumsbereich neben Senatoren, was ihren hohen religiösen Status in der römischen Gesellschaft widerspiegelte. Ihre Anwesenheit verlieh den Spielen religiöse Bedeutung.",
+          nl: "De Vestaalse maagden, Rome's heilige priesteressen die de eeuwige vlam van Vesta onderhielden, hadden speciale zitprivileges in het Colosseum. Ze zaten in het podiumgebied naast senatoren, wat hun hoge religieuze status in de Romeinse samenleving weerspiegelde. Hun aanwezigheid voegde religieuze betekenis toe aan de spelen."
+        }
+      },
+      {
+        question: {
+          en: "What innovation allowed for quick scene changes during spectacles?",
+          es: "¿Qué innovación permitió cambios rápidos de escena durante los espectáculos?",
+          de: "Welche Innovation ermöglichte schnelle Szenenwechsel während der Spektakel?",
+          nl: "Welke innovatie maakte snelle scènewisselingen mogelijk tijdens spektakels?"
+        },
+        options: [
+          { en: "Removable floor panels", es: "Paneles de piso removibles", de: "Abnehmbare Bodenpaneele", nl: "Verwijderbare vloerpanelen" },
+          { en: "Rotating stage sections", es: "Secciones de escenario giratorias", de: "Rotierende Bühnensektionen", nl: "Draaiende podiamsecties" },
+          { en: "The hypogeum elevator system", es: "El sistema de elevadores del hipogeo", de: "Das Hypogeum-Aufzugssystem", nl: "Het hypogeum liftsysteem" },
+          { en: "Painted backdrops", es: "Telones de fondo pintados", de: "Gemalte Kulissen", nl: "Geschilderde achtergronden" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The hypogeum's system of elevators and trap doors allowed for dramatic and rapid scene changes. Scenery, props, and even live animals could suddenly appear through the arena floor, creating spectacular theatrical effects that amazed audiences. This technology was far ahead of its time and demonstrated Roman engineering prowess.",
+          es: "El sistema de elevadores y trampillas del hipogeo permitía cambios de escena dramáticos y rápidos. Escenografía, accesorios e incluso animales vivos podían aparecer repentinamente a través del piso de la arena, creando efectos teatrales espectaculares que asombraban a las audiencias. Esta tecnología estaba muy adelantada a su tiempo y demostraba la destreza de la ingeniería romana.",
+          de: "Das System aus Aufzügen und Falltüren des Hypogeums ermöglichte dramatische und schnelle Szenenwechsel. Kulissen, Requisiten und sogar lebende Tiere konnten plötzlich durch den Arenaboden erscheinen und spektakuläre theatralische Effekte erzeugen, die das Publikum verblüfften. Diese Technologie war ihrer Zeit weit voraus und demonstrierte römische Ingenieurskunst.",
+          nl: "Het systeem van liften en valluiken van het hypogeum maakte dramatische en snelle scènewisselingen mogelijk. Decors, rekwisieten en zelfs levende dieren konden plotseling door de arenabodem verschijnen, waardoor spectaculaire theatrale effecten ontstonden die het publiek verbaasden. Deze technologie was ver vooruit op zijn tijd en toonde Romeinse engineering-vaardigheid."
+        }
+      },
+      {
+        question: {
+          en: "How did social class affect seating arrangements in the Colosseum?",
+          es: "¿Cómo afectaba la clase social a los arreglos de asientos en el Coliseo?",
+          de: "Wie beeinflusste die soziale Klasse die Sitzanordnung im Kolosseum?",
+          nl: "Hoe beïnvloedde sociale klasse de zitplaatsregeling in het Colosseum?"
+        },
+        options: [
+          { en: "Everyone sat wherever they wanted", es: "Todos se sentaban donde quisieran", de: "Jeder saß, wo er wollte", nl: "Iedereen zat waar ze wilden" },
+          { en: "Seating was strictly hierarchical by social status", es: "Los asientos eran estrictamente jerárquicos por estatus social", de: "Die Sitzordnung war streng hierarchisch nach sozialem Status", nl: "Zitplaatsen waren strikt hiërarchisch per sociale status" },
+          { en: "Only wealth determined seating", es: "Solo la riqueza determinaba los asientos", de: "Nur Reichtum bestimmte die Sitzordnung", nl: "Alleen rijkdom bepaalde de zitplaatsen" },
+          { en: "Random lottery decided seating", es: "Una lotería aleatoria decidía los asientos", de: "Eine zufällige Lotterie entschied über die Sitzordnung", nl: "Willekeurige loterij bepaalde de zitplaatsen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Colosseum's seating reflected Rome's rigid social hierarchy. The Emperor and Vestal Virgins sat closest to the action, followed by senators and patricians in the podium. Equestrians sat in the maenianum primum, common citizens higher up, and slaves, women, and the poor stood in the uppermost wooden galleries. This arrangement reinforced social order.",
+          es: "Los asientos del Coliseo reflejaban la rígida jerarquía social de Roma. El Emperador y las Vírgenes Vestales se sentaban más cerca de la acción, seguidos por senadores y patricios en el podio. Los ecuestres se sentaban en el maenianum primum, los ciudadanos comunes más arriba, y los esclavos, mujeres y pobres estaban de pie en las galerías de madera superiores. Este arreglo reforzaba el orden social.",
+          de: "Die Sitzordnung des Kolosseums spiegelte Roms starre soziale Hierarchie wider. Der Kaiser und die Vestalinnen saßen am nächsten an der Aktion, gefolgt von Senatoren und Patriziern auf dem Podium. Reiter saßen im Maenianum Primum, einfache Bürger höher oben, und Sklaven, Frauen und Arme standen in den obersten Holzgalerien. Diese Anordnung verstärkte die soziale Ordnung.",
+          nl: "De zitplaatsen van het Colosseum weerspiegelden Rome's rigide sociale hiërarchie. De keizer en Vestaalse maagden zaten het dichtst bij de actie, gevolgd door senatoren en patriciërs op het podium. Ruiters zaten in het maenianum primum, gewone burgers hoger, en slaven, vrouwen en armen stonden in de hoogste houten galerijen. Deze regeling versterkte de sociale orde."
+        }
+      },
+      {
+        question: {
+          en: "What was the typical duration of a full day of games?",
+          es: "¿Cuál era la duración típica de un día completo de juegos?",
+          de: "Wie lange dauerte ein ganzer Tag mit Spielen typischerweise?",
+          nl: "Wat was de typische duur van een volledige dag spelen?"
+        },
+        options: [
+          { en: "2-3 hours", es: "2-3 horas", de: "2-3 Stunden", nl: "2-3 uur" },
+          { en: "4-5 hours", es: "4-5 horas", de: "4-5 Stunden", nl: "4-5 uur" },
+          { en: "All day from morning to evening", es: "Todo el día desde la mañana hasta la tarde", de: "Den ganzen Tag von morgens bis abends", nl: "De hele dag van ochtend tot avond" },
+          { en: "Multiple days continuously", es: "Varios días continuamente", de: "Mehrere Tage ununterbrochen", nl: "Meerdere dagen aaneengesloten" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "A typical day of games at the Colosseum lasted from morning until evening, following a set program: animal hunts (venationes) in the morning, executions at midday, and gladiatorial combats in the afternoon. The most prestigious gladiator matches were saved for last to maintain audience interest throughout the day.",
+          es: "Un día típico de juegos en el Coliseo duraba desde la mañana hasta la tarde, siguiendo un programa establecido: cacerías de animales (venationes) por la mañana, ejecuciones al mediodía y combates de gladiadores por la tarde. Los combates de gladiadores más prestigiosos se guardaban para el final para mantener el interés de la audiencia durante todo el día.",
+          de: "Ein typischer Tag mit Spielen im Kolosseum dauerte von morgens bis abends und folgte einem festen Programm: Tierjagden (Venationes) am Morgen, Hinrichtungen zur Mittagszeit und Gladiatorenkämpfe am Nachmittag. Die prestigeträchtigsten Gladiatorenkämpfe wurden für zuletzt aufgehoben, um das Interesse des Publikums den ganzen Tag über aufrechtzuerhalten.",
+          nl: "Een typische dag van spelen in het Colosseum duurde van ochtend tot avond, volgens een vast programma: dierenjachten (venationes) in de ochtend, executies op de middag en gladiatorengevechten in de middag. De meest prestigieuze gladiatorengevechten werden tot het laatst bewaard om de interesse van het publiek de hele dag te behouden."
+        }
+      },
+      {
+        question: {
+          en: "What material was used for the arena's underground walls?",
+          es: "¿Qué material se usó para las paredes subterráneas de la arena?",
+          de: "Welches Material wurde für die unterirdischen Wände der Arena verwendet?",
+          nl: "Welk materiaal werd gebruikt voor de ondergrondse muren van de arena?"
+        },
+        options: [
+          { en: "Pure marble", es: "Mármol puro", de: "Reiner Marmor", nl: "Puur marmer" },
+          { en: "Brick and opus caementicium (Roman concrete)", es: "Ladrillo y opus caementicium (concreto romano)", de: "Ziegel und Opus caementicium (römischer Beton)", nl: "Baksteen en opus caementicium (Romeins beton)" },
+          { en: "Wooden planks", es: "Tablones de madera", de: "Holzbretter", nl: "Houten planken" },
+          { en: "Gold-plated stone", es: "Piedra chapada en oro", de: "Vergoldeter Stein", nl: "Vergulde steen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The hypogeum's walls were constructed primarily from brick and opus caementicium (Roman concrete), materials that were durable, relatively inexpensive, and well-suited for underground construction. These walls had to support the arena floor above while housing the complex machinery and animal cages below.",
+          es: "Las paredes del hipogeo fueron construidas principalmente de ladrillo y opus caementicium (concreto romano), materiales que eran duraderos, relativamente económicos y bien adaptados para construcción subterránea. Estas paredes tenían que soportar el piso de la arena arriba mientras albergaban la maquinaria compleja y jaulas de animales abajo.",
+          de: "Die Wände des Hypogeums wurden hauptsächlich aus Ziegeln und Opus caementicium (römischem Beton) gebaut, Materialien, die langlebig, relativ kostengünstig und gut für unterirdische Konstruktionen geeignet waren. Diese Wände mussten den Arenaboden darüber tragen und gleichzeitig die komplexe Maschinerie und Tierkäfige darunter beherbergen.",
+          nl: "De muren van het hypogeum waren voornamelijk gebouwd van baksteen en opus caementicium (Romeins beton), materialen die duurzaam, relatief goedkoop en goed geschikt waren voor ondergrondse constructie. Deze muren moesten de arenabodem erboven dragen terwijl ze de complexe machinerie en dierenkooien eronder huisvestten."
+        }
+      },
+      {
+        question: {
+          en: "What was the purpose of the numbered pottery shards (tesserae)?",
+          es: "¿Cuál era el propósito de los fragmentos de cerámica numerados (tesserae)?",
+          de: "Was war der Zweck der nummerierten Tonscherben (Tesserae)?",
+          nl: "Wat was het doel van de genummerde pottenbakscherven (tesserae)?"
+        },
+        options: [
+          { en: "Decorative floor tiles", es: "Azulejos de piso decorativos", de: "Dekorative Bodenfliesen", nl: "Decoratieve vloertegels" },
+          { en: "Admission tickets showing entrance and seating section", es: "Boletos de admisión mostrando entrada y sección de asientos", de: "Eintrittskarten mit Eingang und Sitzbereich", nl: "Toegangskaartjes die ingang en zitplaatssectie tonen" },
+          { en: "Gambling tokens", es: "Fichas de juego", de: "Spielmarken", nl: "Gokfiches" },
+          { en: "Religious offerings", es: "Ofrendas religiosas", de: "Religiöse Opfergaben", nl: "Religieuze offers" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Tesserae were pottery tokens that functioned as admission tickets. Each tessera was marked with a specific entrance number (one of the 80 entrances) and seating section, allowing efficient crowd management. This system enabled thousands of spectators to find their designated seats quickly and prevented chaos during entry and exit.",
+          es: "Las tesserae eran fichas de cerámica que funcionaban como boletos de admisión. Cada tessera estaba marcada con un número de entrada específico (una de las 80 entradas) y sección de asientos, permitiendo una gestión eficiente de multitudes. Este sistema permitía a miles de espectadores encontrar sus asientos designados rápidamente y prevenía el caos durante la entrada y salida.",
+          de: "Tesserae waren Tonmarken, die als Eintrittskarten fungierten. Jede Tessera war mit einer bestimmten Eingangsnummer (einer der 80 Eingänge) und einem Sitzbereich gekennzeichnet, was eine effiziente Menschenverwaltung ermöglichte. Dieses System ermöglichte es Tausenden von Zuschauern, ihre zugewiesenen Plätze schnell zu finden und verhinderte Chaos beim Ein- und Ausgang.",
+          nl: "Tesserae waren pottenbaksels die functioneerden als toegangskaartjes. Elke tessera was gemarkeerd met een specifiek ingangsnummer (een van de 80 ingangen) en zitplaatssectie, wat efficiënt mensenmassabeheer mogelijk maakte. Dit systeem stelde duizenden toeschouwers in staat hun aangewezen zitplaatsen snel te vinden en voorkwam chaos tijdens in- en uitgang."
+        }
+      },
+      {
+        question: {
+          en: "How did weather conditions affect performances at the Colosseum?",
+          es: "¿Cómo afectaban las condiciones climáticas las actuaciones en el Coliseo?",
+          de: "Wie beeinflussten Wetterbedingungen die Aufführungen im Kolosseum?",
+          nl: "Hoe beïnvloedden weersomstandigheden voorstellingen in het Colosseum?"
+        },
+        options: [
+          { en: "The Colosseum had a permanent roof", es: "El Coliseo tenía un techo permanente", de: "Das Kolosseum hatte ein permanentes Dach", nl: "Het Colosseum had een permanent dak" },
+          { en: "Games were cancelled in bad weather", es: "Los juegos se cancelaban con mal tiempo", de: "Spiele wurden bei schlechtem Wetter abgesagt", nl: "Spelen werden geannuleerd bij slecht weer" },
+          { en: "The velarium provided shade but games continued in most weather", es: "El velarium proporcionaba sombra pero los juegos continuaban con la mayoría del clima", de: "Das Velarium bot Schatten, aber Spiele gingen bei den meisten Wetterbedingungen weiter", nl: "Het velarium bood schaduw maar spelen gingen door bij de meeste weersomstandigheden" },
+          { en: "All seating was fully enclosed", es: "Todos los asientos estaban completamente cerrados", de: "Alle Sitzplätze waren vollständig geschlossen", nl: "Alle zitplaatsen waren volledig afgesloten" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Colosseum was an open-air venue where games typically continued regardless of weather. The velarium awning provided shade from the sun but offered limited protection from rain. Spectators had to endure the elements, though the most important guests had better-protected seating areas. The arena floor's drainage system handled rainwater.",
+          es: "El Coliseo era un lugar al aire libre donde los juegos típicamente continuaban independientemente del clima. El toldo velarium proporcionaba sombra del sol pero ofrecía protección limitada contra la lluvia. Los espectadores tenían que soportar los elementos, aunque los invitados más importantes tenían áreas de asientos mejor protegidas. El sistema de drenaje del piso de la arena manejaba el agua de lluvia.",
+          de: "Das Kolosseum war ein Open-Air-Veranstaltungsort, wo Spiele typischerweise unabhängig vom Wetter fortgesetzt wurden. Die Velarium-Markise bot Schatten vor der Sonne, bot aber begrenzten Schutz vor Regen. Zuschauer mussten die Elemente ertragen, obwohl die wichtigsten Gäste besser geschützte Sitzbereiche hatten. Das Entwässerungssystem des Arenabodens bewältigte Regenwasser.",
+          nl: "Het Colosseum was een openluchtlocatie waar spelen doorgaans doorgingen ongeacht het weer. Het velarium luifel bood schaduw tegen de zon maar bood beperkte bescherming tegen regen. Toeschouwers moesten de elementen doorstaan, hoewel de belangrijkste gasten beter beschermde zitplaatsen hadden. Het drainagesysteem van de arenabodem verwerkte regenwater."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of the Colosseum's location?",
+          es: "¿Cuál era el significado de la ubicación del Coliseo?",
+          de: "Was war die Bedeutung des Standorts des Kolosseums?",
+          nl: "Wat was de betekenis van de locatie van het Colosseum?"
+        },
+        options: [
+          { en: "It was built on Rome's highest hill", es: "Fue construido en la colina más alta de Roma", de: "Es wurde auf Roms höchstem Hügel gebaut", nl: "Het werd gebouwd op Rome's hoogste heuvel" },
+          { en: "It replaced Nero's private palace lake", es: "Reemplazó el lago del palacio privado de Nerón", de: "Es ersetzte Neros privaten Palastsee", nl: "Het verving Nero's privé paleismeer" },
+          { en: "It was built at the city gates", es: "Fue construido en las puertas de la ciudad", de: "Es wurde an den Stadttoren gebaut", nl: "Het werd gebouwd bij de stadspoorten" },
+          { en: "The location was chosen randomly", es: "La ubicación fue elegida al azar", de: "Der Standort wurde zufällig gewählt", nl: "De locatie werd willekeurig gekozen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Colosseum was deliberately built on the site of Nero's Domus Aurea (Golden House) artificial lake, in the valley between the Palatine, Esquiline, and Caelian hills. This was a political statement by the Flavian emperors, returning to the people the land that Nero had selfishly appropriated for his private pleasure palace.",
+          es: "El Coliseo fue deliberadamente construido en el sitio del lago artificial de la Domus Aurea (Casa Dorada) de Nerón, en el valle entre las colinas Palatina, Esquilina y Celia. Esta fue una declaración política de los emperadores Flavios, devolviendo al pueblo la tierra que Nerón había apropiado egoístamente para su palacio de placer privado.",
+          de: "Das Kolosseum wurde bewusst auf dem Gelände von Neros Domus Aurea (Goldenes Haus) künstlichem See errichtet, im Tal zwischen den Hügeln Palatin, Esquilin und Caelius. Dies war eine politische Aussage der flavischen Kaiser, die dem Volk das Land zurückgaben, das Nero eigennützig für seinen privaten Lustpalast angeeignet hatte.",
+          nl: "Het Colosseum werd opzettelijk gebouwd op de locatie van Nero's Domus Aurea (Gouden Huis) kunstmatig meer, in de vallei tussen de Palatijn, Esquilijn en Caelius heuvels. Dit was een politiek statement van de Flavische keizers, die het land dat Nero egoïstisch had toegeëigend voor zijn privé plezierpaleis teruggaven aan het volk."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes the Colosseum from earlier Roman amphitheaters?",
+          es: "¿Qué distingue al Coliseo de anfiteatros romanos anteriores?",
+          de: "Was unterscheidet das Kolosseum von früheren römischen Amphitheatern?",
+          nl: "Wat onderscheidt het Colosseum van eerdere Romeinse amfitheaters?"
+        },
+        options: [
+          { en: "It was the first stone amphitheater", es: "Fue el primer anfiteatro de piedra", de: "Es war das erste steinerne Amphitheater", nl: "Het was het eerste stenen amfitheater" },
+          { en: "Its massive scale and elaborate hypogeum system", es: "Su escala masiva y elaborado sistema de hipogeo", de: "Seine massive Größe und aufwändiges Hypogeum-System", nl: "Zijn massale schaal en uitgebreid hypogeum systeem" },
+          { en: "It was the only circular amphitheater", es: "Era el único anfiteatro circular", de: "Es war das einzige kreisförmige Amphitheater", nl: "Het was het enige circulaire amfitheater" },
+          { en: "It had wooden seating", es: "Tenía asientos de madera", de: "Es hatte Holzsitze", nl: "Het had houten zitplaatsen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "While earlier Roman amphitheaters existed, the Colosseum's unprecedented scale, sophisticated engineering, and elaborate underground hypogeum system set it apart. Its four-story facade, capacity for 50,000-80,000 spectators, and complex machinery for theatrical effects made it the most ambitious and technologically advanced amphitheater of its era.",
+          es: "Aunque existían anfiteatros romanos anteriores, la escala sin precedentes del Coliseo, ingeniería sofisticada y elaborado sistema de hipogeo subterráneo lo distinguían. Su fachada de cuatro pisos, capacidad para 50,000-80,000 espectadores y maquinaria compleja para efectos teatrales lo convirtieron en el anfiteatro más ambicioso y tecnológicamente avanzado de su era.",
+          de: "Obwohl frühere römische Amphitheater existierten, hoben die beispiellose Größe, ausgeklügelte Technik und das aufwändige unterirdische Hypogeum-System des Kolosseums es hervor. Seine vierstöckige Fassade, Kapazität für 50.000-80.000 Zuschauer und komplexe Maschinerie für theatralische Effekte machten es zum ehrgeizigsten und technologisch fortschrittlichsten Amphitheater seiner Ära.",
+          nl: "Hoewel eerdere Romeinse amfitheaters bestonden, onderscheidde de ongekende schaal, geavanceerde engineering en het uitgebreide ondergrondse hypogeum systeem van het Colosseum het. Zijn viervergadigde gevel, capaciteit voor 50.000-80.000 toeschouwers en complexe machinerie voor theatrale effecten maakten het het ambitieuste en technologisch meest geavanceerde amfitheater van zijn tijd."
+        }
       }
     ]
   };

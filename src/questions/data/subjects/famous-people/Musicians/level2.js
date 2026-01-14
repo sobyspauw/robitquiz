@@ -427,6 +427,405 @@
           de: "Rush nahm beide Songs für ihr 1981er Album 'Moving Pictures' auf. Das Progressive-Rock-Trio, mit Geddy Lees charakteristischem Gesang, Alex Lifesons Gitarre und Neil Pearts virtuosem Schlagzeugspiel, wurde zu einer der erfolgreichsten Rockbands Kanadas.",
           nl: "Rush nam beide liedjes op voor hun 1981 album 'Moving Pictures'. Het progressieve rock trio, met Geddy Lee's onderscheidende zang, Alex Lifeson's gitaar en Neil Peart's virtuoze drumspel, werd een van Canada's meest succesvolle rockbands."
         }
+      },
+      {
+        question: {
+          en: "Which British singer is known as 'The Rocket Man'?",
+          es: "¿Qué cantante británico es conocido como 'The Rocket Man'?",
+          de: "Welcher britische Sänger ist als 'The Rocket Man' bekannt?",
+          nl: "Welke Britse zanger staat bekend als 'The Rocket Man'?"
+        },
+        options: [
+          { en: "Elton John", es: "Elton John", de: "Elton John", nl: "Elton John" },
+          { en: "David Bowie", es: "David Bowie", de: "David Bowie", nl: "David Bowie" },
+          { en: "Rod Stewart", es: "Rod Stewart", de: "Rod Stewart", nl: "Rod Stewart" },
+          { en: "George Michael", es: "George Michael", de: "George Michael", nl: "George Michael" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Elton John is nicknamed 'The Rocket Man' after his 1972 hit single 'Rocket Man'. With flamboyant stage presence and Bernie Taupin's lyrics, he's sold over 300 million records worldwide.",
+          es: "Elton John es apodado 'The Rocket Man' por su sencillo exitoso de 1972 'Rocket Man'. Con su presencia escénica extravagante y las letras de Bernie Taupin, ha vendido más de 300 millones de discos en todo el mundo.",
+          de: "Elton John wird 'The Rocket Man' genannt, nach seiner Hit-Single 'Rocket Man' von 1972. Mit extravaganter Bühnenpräsenz und Bernie Taupins Texten hat er weltweit über 300 Millionen Platten verkauft.",
+          nl: "Elton John wordt 'The Rocket Man' genoemd naar zijn hit single 'Rocket Man' uit 1972. Met flamboyante podiumpresen­tatie en Bernie Taupin's teksten heeft hij wereldwijd meer dan 300 miljoen platen verkocht."
+        }
+      },
+      {
+        question: {
+          en: "Which band sang 'Africa' and 'Rosanna'?",
+          es: "¿Qué banda cantó 'Africa' y 'Rosanna'?",
+          de: "Welche Band sang 'Africa' und 'Rosanna'?",
+          nl: "Welke band zong 'Africa' en 'Rosanna'?"
+        },
+        options: [
+          { en: "Toto", es: "Toto", de: "Toto", nl: "Toto" },
+          { en: "Journey", es: "Journey", de: "Journey", nl: "Journey" },
+          { en: "Foreigner", es: "Foreigner", de: "Foreigner", nl: "Foreigner" },
+          { en: "Kansas", es: "Kansas", de: "Kansas", nl: "Kansas" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Toto recorded both hits for their 1982 album 'Toto IV'. The band, composed of highly skilled session musicians, won six Grammy Awards that year including Album of the Year and Record of the Year for 'Rosanna'.",
+          es: "Toto grabó ambos éxitos para su álbum de 1982 'Toto IV'. La banda, compuesta por músicos de sesión altamente capacitados, ganó seis premios Grammy ese año, incluido Álbum del Año y Disco del Año por 'Rosanna'.",
+          de: "Toto nahm beide Hits für ihr 1982er Album 'Toto IV' auf. Die Band, bestehend aus hochqualifizierten Sessionmusikern, gewann in diesem Jahr sechs Grammy Awards, darunter Album und Record of the Year für 'Rosanna'.",
+          nl: "Toto nam beide hits op voor hun 1982 album 'Toto IV'. De band, bestaande uit zeer bekwame sessiemuzikanten, won dat jaar zes Grammy Awards waaronder Album of the Year en Record of the Year voor 'Rosanna'."
+        }
+      },
+      {
+        question: {
+          en: "Which singer is known for 'Purple Rain' and 'When Doves Cry'?",
+          es: "¿Qué cantante es conocido por 'Purple Rain' y 'When Doves Cry'?",
+          de: "Welcher Sänger ist für 'Purple Rain' und 'When Doves Cry' bekannt?",
+          nl: "Welke zanger staat bekend om 'Purple Rain' en 'When Doves Cry'?"
+        },
+        options: [
+          { en: "Prince", es: "Prince", de: "Prince", nl: "Prince" },
+          { en: "Michael Jackson", es: "Michael Jackson", de: "Michael Jackson", nl: "Michael Jackson" },
+          { en: "Stevie Wonder", es: "Stevie Wonder", de: "Stevie Wonder", nl: "Stevie Wonder" },
+          { en: "Rick James", es: "Rick James", de: "Rick James", nl: "Rick James" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Prince released both songs in 1984 for his 'Purple Rain' album and film. A multi-instrumentalist and virtuoso performer, Prince wrote, produced, and played most instruments on his recordings throughout his career.",
+          es: "Prince lanzó ambas canciones en 1984 para su álbum y película 'Purple Rain'. Un multiinstrumentista y intérprete virtuoso, Prince escribió, produjo y tocó la mayoría de los instrumentos en sus grabaciones a lo largo de su carrera.",
+          de: "Prince veröffentlichte beide Songs 1984 für sein 'Purple Rain'-Album und Film. Ein Multi-Instrumentalist und virtuoser Performer, Prince schrieb, produzierte und spielte die meisten Instrumente auf seinen Aufnahmen während seiner gesamten Karriere.",
+          nl: "Prince bracht beide liedjes uit in 1984 voor zijn 'Purple Rain' album en film. Een multi-instrumentalist en virtuoze performer, Prince schreef, produceerde en bespeelde de meeste instrumenten op zijn opnames gedurende zijn hele carrière."
+        }
+      },
+      {
+        question: {
+          en: "Which band recorded 'Dream On' and 'Walk This Way'?",
+          es: "¿Qué banda grabó 'Dream On' y 'Walk This Way'?",
+          de: "Welche Band nahm 'Dream On' und 'Walk This Way' auf?",
+          nl: "Welke band nam 'Dream On' en 'Walk This Way' op?"
+        },
+        options: [
+          { en: "Aerosmith", es: "Aerosmith", de: "Aerosmith", nl: "Aerosmith" },
+          { en: "Van Halen", es: "Van Halen", de: "Van Halen", nl: "Van Halen" },
+          { en: "Heart", es: "Heart", de: "Heart", nl: "Heart" },
+          { en: "Styx", es: "Styx", de: "Styx", nl: "Styx" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Aerosmith, known as 'America's Greatest Rock and Roll Band', recorded 'Dream On' in 1973 and 'Walk This Way' in 1975. Led by Steven Tyler's vocals and Joe Perry's guitar, they've sold over 150 million albums worldwide.",
+          es: "Aerosmith, conocida como 'La mejor banda de rock and roll de América', grabó 'Dream On' en 1973 y 'Walk This Way' en 1975. Liderados por las voces de Steven Tyler y la guitarra de Joe Perry, han vendido más de 150 millones de álbumes en todo el mundo.",
+          de: "Aerosmith, bekannt als 'Americas Greatest Rock and Roll Band', nahm 'Dream On' 1973 und 'Walk This Way' 1975 auf. Angeführt von Steven Tylers Gesang und Joe Perrys Gitarre, haben sie weltweit über 150 Millionen Alben verkauft.",
+          nl: "Aerosmith, bekend als 'America's Greatest Rock and Roll Band', nam 'Dream On' op in 1973 en 'Walk This Way' in 1975. Geleid door Steven Tyler's zang en Joe Perry's gitaar, hebben ze wereldwijd meer dan 150 miljoen albums verkocht."
+        }
+      },
+      {
+        question: {
+          en: "Which band is known for 'Eye of the Tiger' from the Rocky III soundtrack?",
+          es: "¿Qué banda es conocida por 'Eye of the Tiger' de la banda sonora de Rocky III?",
+          de: "Welche Band ist für 'Eye of the Tiger' aus dem Rocky III Soundtrack bekannt?",
+          nl: "Welke band staat bekend om 'Eye of the Tiger' uit de Rocky III soundtrack?"
+        },
+        options: [
+          { en: "Survivor", es: "Survivor", de: "Survivor", nl: "Survivor" },
+          { en: "Asia", es: "Asia", de: "Asia", nl: "Asia" },
+          { en: "Toto", es: "Toto", de: "Toto", nl: "Toto" },
+          { en: "REO Speedwagon", es: "REO Speedwagon", de: "REO Speedwagon", nl: "REO Speedwagon" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Survivor released 'Eye of the Tiger' in 1982 after being specifically asked by Sylvester Stallone to write a song for Rocky III. It reached number one on the Billboard Hot 100 and won a Grammy nomination.",
+          es: "Survivor lanzó 'Eye of the Tiger' en 1982 después de que Sylvester Stallone les pidiera específicamente que escribieran una canción para Rocky III. Alcanzó el número uno en el Billboard Hot 100 y ganó una nominación al Grammy.",
+          de: "Survivor veröffentlichte 'Eye of the Tiger' 1982, nachdem Sylvester Stallone sie speziell gebeten hatte, ein Lied für Rocky III zu schreiben. Es erreichte Nummer eins der Billboard Hot 100 und erhielt eine Grammy-Nominierung.",
+          nl: "Survivor bracht 'Eye of the Tiger' uit in 1982 nadat Sylvester Stallone hen specifiek had gevraagd een lied te schrijven voor Rocky III. Het bereikte nummer één op de Billboard Hot 100 en kreeg een Grammy nominatie."
+        }
+      },
+      {
+        question: {
+          en: "Which British band recorded 'Every Breath You Take'?",
+          es: "¿Qué banda británica grabó 'Every Breath You Take'?",
+          de: "Welche britische Band nahm 'Every Breath You Take' auf?",
+          nl: "Welke Britse band nam 'Every Breath You Take' op?"
+        },
+        options: [
+          { en: "The Police", es: "The Police", de: "The Police", nl: "The Police" },
+          { en: "Duran Duran", es: "Duran Duran", de: "Duran Duran", nl: "Duran Duran" },
+          { en: "The Cure", es: "The Cure", de: "The Cure", nl: "The Cure" },
+          { en: "Depeche Mode", es: "Depeche Mode", de: "Depeche Mode", nl: "Depeche Mode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Police released 'Every Breath You Take' in 1983 from their album 'Synchronicity'. Written by Sting, it won Grammy Awards for Song of the Year and Best Pop Performance by a Duo or Group with Vocals.",
+          es: "The Police lanzó 'Every Breath You Take' en 1983 de su álbum 'Synchronicity'. Escrita por Sting, ganó premios Grammy a la Canción del Año y Mejor Interpretación Pop de un Dúo o Grupo con Voces.",
+          de: "The Police veröffentlichten 'Every Breath You Take' 1983 von ihrem Album 'Synchronicity'. Geschrieben von Sting, gewann es Grammy Awards für Song of the Year und Best Pop Performance by a Duo or Group with Vocals.",
+          nl: "The Police bracht 'Every Breath You Take' uit in 1983 van hun album 'Synchronicity'. Geschreven door Sting, won het Grammy Awards voor Song of the Year en Best Pop Performance by a Duo or Group with Vocals."
+        }
+      },
+      {
+        question: {
+          en: "Which singer is known as 'The Boss'?",
+          es: "¿Qué cantante es conocido como 'The Boss'?",
+          de: "Welcher Sänger ist als 'The Boss' bekannt?",
+          nl: "Welke zanger staat bekend als 'The Boss'?"
+        },
+        options: [
+          { en: "Bruce Springsteen", es: "Bruce Springsteen", de: "Bruce Springsteen", nl: "Bruce Springsteen" },
+          { en: "Bob Dylan", es: "Bob Dylan", de: "Bob Dylan", nl: "Bob Dylan" },
+          { en: "Tom Petty", es: "Tom Petty", de: "Tom Petty", nl: "Tom Petty" },
+          { en: "John Mellencamp", es: "John Mellencamp", de: "John Mellencamp", nl: "John Mellencamp" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bruce Springsteen earned the nickname 'The Boss' from his bandmates in the early 1970s. Known for marathon concerts and working-class anthems like 'Born to Run' and 'Born in the U.S.A.', he's sold over 140 million albums worldwide.",
+          es: "Bruce Springsteen ganó el apodo de 'The Boss' de sus compañeros de banda a principios de los años 70. Conocido por conciertos maratonianos y himnos de la clase trabajadora como 'Born to Run' y 'Born in the U.S.A.', ha vendido más de 140 millones de álbumes en todo el mundo.",
+          de: "Bruce Springsteen erhielt den Spitznamen 'The Boss' von seinen Bandkollegen Anfang der 1970er Jahre. Bekannt für Marathon-Konzerte und Arbeiterhymnen wie 'Born to Run' und 'Born in the U.S.A.', hat er weltweit über 140 Millionen Alben verkauft.",
+          nl: "Bruce Springsteen kreeg de bijnaam 'The Boss' van zijn bandleden begin jaren '70. Bekend om marathonconcerten en arbeidersklasse hymnes zoals 'Born to Run' en 'Born in the U.S.A.', heeft hij wereldwijd meer dan 140 miljoen albums verkocht."
+        }
+      },
+      {
+        question: {
+          en: "Which British band recorded 'Don't You (Forget About Me)' for The Breakfast Club?",
+          es: "¿Qué banda británica grabó 'Don't You (Forget About Me)' para The Breakfast Club?",
+          de: "Welche britische Band nahm 'Don't You (Forget About Me)' für The Breakfast Club auf?",
+          nl: "Welke Britse band nam 'Don't You (Forget About Me)' op voor The Breakfast Club?"
+        },
+        options: [
+          { en: "Simple Minds", es: "Simple Minds", de: "Simple Minds", nl: "Simple Minds" },
+          { en: "Tears for Fears", es: "Tears for Fears", de: "Tears for Fears", nl: "Tears for Fears" },
+          { en: "A-ha", es: "A-ha", de: "A-ha", nl: "A-ha" },
+          { en: "Spandau Ballet", es: "Spandau Ballet", de: "Spandau Ballet", nl: "Spandau Ballet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Simple Minds recorded 'Don't You (Forget About Me)' in 1985 for the John Hughes film 'The Breakfast Club'. Despite initially being reluctant to record the song, it became their only US number-one hit.",
+          es: "Simple Minds grabó 'Don't You (Forget About Me)' en 1985 para la película de John Hughes 'The Breakfast Club'. A pesar de ser inicialmente reacios a grabar la canción, se convirtió en su único éxito número uno en EE.UU.",
+          de: "Simple Minds nahm 'Don't You (Forget About Me)' 1985 für den John Hughes-Film 'The Breakfast Club' auf. Obwohl sie zunächst zögerten, das Lied aufzunehmen, wurde es ihr einziger US-Nummer-eins-Hit.",
+          nl: "Simple Minds nam 'Don't You (Forget About Me)' op in 1985 voor de John Hughes film 'The Breakfast Club'. Ondanks aanvankelijke terughoudendheid om het lied op te nemen, werd het hun enige US nummer-één hit."
+        }
+      },
+      {
+        question: {
+          en: "Which band sang 'Take On Me' with its iconic animated music video?",
+          es: "¿Qué banda cantó 'Take On Me' con su icónico video musical animado?",
+          de: "Welche Band sang 'Take On Me' mit seinem ikonischen animierten Musikvideo?",
+          nl: "Welke band zong 'Take On Me' met zijn iconische geanimeerde muziekvideo?"
+        },
+        options: [
+          { en: "A-ha", es: "A-ha", de: "A-ha", nl: "A-ha" },
+          { en: "Duran Duran", es: "Duran Duran", de: "Duran Duran", nl: "Duran Duran" },
+          { en: "The Human League", es: "The Human League", de: "The Human League", nl: "The Human League" },
+          { en: "Kajagoogoo", es: "Kajagoogoo", de: "Kajagoogoo", nl: "Kajagoogoo" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Norwegian band A-ha released 'Take On Me' in 1985. The innovative rotoscoped animation music video won six MTV Video Music Awards and helped the song reach number one in the US and multiple other countries.",
+          es: "La banda noruega A-ha lanzó 'Take On Me' en 1985. El innovador video musical con animación rotoscópica ganó seis premios MTV Video Music Awards y ayudó a que la canción alcanzara el número uno en EE.UU. y múltiples otros países.",
+          de: "Die norwegische Band A-ha veröffentlichte 'Take On Me' 1985. Das innovative Rotoskopie-Animations-Musikvideo gewann sechs MTV Video Music Awards und half dem Song, Nummer eins in den USA und vielen anderen Ländern zu erreichen.",
+          nl: "De Noorse band A-ha bracht 'Take On Me' uit in 1985. De innovatieve gerotoscopieerde animatie muziekvideo won zes MTV Video Music Awards en help het lied nummer één te bereiken in de VS en meerdere andere landen."
+        }
+      },
+      {
+        question: {
+          en: "Which singer recorded 'What's Love Got to Do with It' in the 1980s?",
+          es: "¿Qué cantante grabó 'What's Love Got to Do with It' en los años 80?",
+          de: "Welche Sängerin nahm 'What's Love Got to Do with It' in den 1980er Jahren auf?",
+          nl: "Welke zangeres nam 'What's Love Got to Do with It' op in de jaren '80?"
+        },
+        options: [
+          { en: "Tina Turner", es: "Tina Turner", de: "Tina Turner", nl: "Tina Turner" },
+          { en: "Whitney Houston", es: "Whitney Houston", de: "Whitney Houston", nl: "Whitney Houston" },
+          { en: "Bonnie Tyler", es: "Bonnie Tyler", de: "Bonnie Tyler", nl: "Bonnie Tyler" },
+          { en: "Pat Benatar", es: "Pat Benatar", de: "Pat Benatar", nl: "Pat Benatar" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tina Turner released 'What's Love Got to Do with It' in 1984, marking her solo career comeback at age 44. The song won three Grammy Awards and became her biggest solo hit, selling over 20 million copies worldwide.",
+          es: "Tina Turner lanzó 'What's Love Got to Do with It' en 1984, marcando su regreso en carrera solista a los 44 años. La canción ganó tres premios Grammy y se convirtió en su mayor éxito en solitario, vendiendo más de 20 millones de copias en todo el mundo.",
+          de: "Tina Turner veröffentlichte 'What's Love Got to Do with It' 1984, was ihr Solo-Karriere-Comeback im Alter von 44 Jahren markierte. Das Lied gewann drei Grammy Awards und wurde ihr größter Solo-Hit, mit über 20 Millionen verkauften Kopien weltweit.",
+          nl: "Tina Turner bracht 'What's Love Got to Do with It' uit in 1984, wat haar comeback als soloartiest markeerde op 44-jarige leeftijd. Het lied won drie Grammy Awards en werd haar grootste solohit, met wereldwijd meer dan 20 miljoen verkochte exemplaren."
+        }
+      },
+      {
+        question: {
+          en: "Which British band sang 'Hungry Like the Wolf'?",
+          es: "¿Qué banda británica cantó 'Hungry Like the Wolf'?",
+          de: "Welche britische Band sang 'Hungry Like the Wolf'?",
+          nl: "Welke Britse band zong 'Hungry Like the Wolf'?"
+        },
+        options: [
+          { en: "Duran Duran", es: "Duran Duran", de: "Duran Duran", nl: "Duran Duran" },
+          { en: "Culture Club", es: "Culture Club", de: "Culture Club", nl: "Culture Club" },
+          { en: "Wham!", es: "Wham!", de: "Wham!", nl: "Wham!" },
+          { en: "ABC", es: "ABC", de: "ABC", nl: "ABC" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Duran Duran released 'Hungry Like the Wolf' in 1982 from their album 'Rio'. Part of the New Romantic movement, the band became MTV favorites with their stylish videos and became one of the biggest groups of the 1980s.",
+          es: "Duran Duran lanzó 'Hungry Like the Wolf' en 1982 de su álbum 'Rio'. Parte del movimiento New Romantic, la banda se convirtió en favorita de MTV con sus videos elegantes y se convirtió en uno de los grupos más grandes de los años 80.",
+          de: "Duran Duran veröffentlichte 'Hungry Like the Wolf' 1982 von ihrem Album 'Rio'. Als Teil der New-Romantic-Bewegung wurden sie mit ihren stilvollen Videos zu MTV-Favoriten und einer der größten Gruppen der 1980er Jahre.",
+          nl: "Duran Duran bracht 'Hungry Like the Wolf' uit in 1982 van hun album 'Rio'. Als onderdeel van de New Romantic beweging, werd de band een MTV-favoriet met hun stijlvolle video's en een van de grootste groepen van de jaren '80."
+        }
+      },
+      {
+        question: {
+          en: "Which band recorded 'November Rain' and 'Paradise City'?",
+          es: "¿Qué banda grabó 'November Rain' y 'Paradise City'?",
+          de: "Welche Band nahm 'November Rain' und 'Paradise City' auf?",
+          nl: "Welke band nam 'November Rain' en 'Paradise City' op?"
+        },
+        options: [
+          { en: "Guns N' Roses", es: "Guns N' Roses", de: "Guns N' Roses", nl: "Guns N' Roses" },
+          { en: "Skid Row", es: "Skid Row", de: "Skid Row", nl: "Skid Row" },
+          { en: "Poison", es: "Poison", de: "Poison", nl: "Poison" },
+          { en: "Cinderella", es: "Cinderella", de: "Cinderella", nl: "Cinderella" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Guns N' Roses recorded 'Paradise City' on their 1987 debut 'Appetite for Destruction' and 'November Rain' on their 1991 'Use Your Illusion I'. Both songs showcase Axl Rose's range and Slash's guitar virtuosity.",
+          es: "Guns N' Roses grabó 'Paradise City' en su debut de 1987 'Appetite for Destruction' y 'November Rain' en su 'Use Your Illusion I' de 1991. Ambas canciones muestran el rango de Axl Rose y el virtuosismo de guitarra de Slash.",
+          de: "Guns N' Roses nahm 'Paradise City' auf ihrem 1987er Debüt 'Appetite for Destruction' und 'November Rain' auf ihrem 1991er 'Use Your Illusion I' auf. Beide Songs zeigen Axl Roses Stimmumfang und Slashs Gitarrenvirtuosität.",
+          nl: "Guns N' Roses nam 'Paradise City' op op hun 1987 debuut 'Appetite for Destruction' en 'November Rain' op hun 1991 'Use Your Illusion I'. Beide liedjes tonen Axl Rose's bereik en Slash's gitaarvirtuositeit."
+        }
+      },
+      {
+        question: {
+          en: "Which band is known for 'Carry on Wayward Son' and 'Dust in the Wind'?",
+          es: "¿Qué banda es conocida por 'Carry on Wayward Son' y 'Dust in the Wind'?",
+          de: "Welche Band ist für 'Carry on Wayward Son' und 'Dust in the Wind' bekannt?",
+          nl: "Welke band staat bekend om 'Carry on Wayward Son' en 'Dust in the Wind'?"
+        },
+        options: [
+          { en: "Kansas", es: "Kansas", de: "Kansas", nl: "Kansas" },
+          { en: "Styx", es: "Styx", de: "Styx", nl: "Styx" },
+          { en: "REO Speedwagon", es: "REO Speedwagon", de: "REO Speedwagon", nl: "REO Speedwagon" },
+          { en: "Chicago", es: "Chicago", de: "Chicago", nl: "Chicago" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Kansas recorded both progressive rock classics in the 1970s. 'Carry on Wayward Son' (1976) and 'Dust in the Wind' (1977) showcased the band's blend of hard rock and classical influences with violin and organ.",
+          es: "Kansas grabó ambos clásicos del rock progresivo en los años 70. 'Carry on Wayward Son' (1976) y 'Dust in the Wind' (1977) mostraron la mezcla de la banda de hard rock e influencias clásicas con violín y órgano.",
+          de: "Kansas nahm beide Progressive-Rock-Klassiker in den 1970er Jahren auf. 'Carry on Wayward Son' (1976) und 'Dust in the Wind' (1977) zeigten die Mischung der Band aus Hard Rock und klassischen Einflüssen mit Violine und Orgel.",
+          nl: "Kansas nam beide progressieve rock klassiekers op in de jaren '70. 'Carry on Wayward Son' (1976) en 'Dust in the Wind' (1977) toonden de mix van de band van harde rock en klassieke invloeden met viool en orgel."
+        }
+      },
+      {
+        question: {
+          en: "Which British band sang 'Karma Chameleon' and 'Do You Really Want to Hurt Me'?",
+          es: "¿Qué banda británica cantó 'Karma Chameleon' y 'Do You Really Want to Hurt Me'?",
+          de: "Welche britische Band sang 'Karma Chameleon' und 'Do You Really Want to Hurt Me'?",
+          nl: "Welke Britse band zong 'Karma Chameleon' en 'Do You Really Want to Hurt Me'?"
+        },
+        options: [
+          { en: "Culture Club", es: "Culture Club", de: "Culture Club", nl: "Culture Club" },
+          { en: "Frankie Goes to Hollywood", es: "Frankie Goes to Hollywood", de: "Frankie Goes to Hollywood", nl: "Frankie Goes to Hollywood" },
+          { en: "Thompson Twins", es: "Thompson Twins", de: "Thompson Twins", nl: "Thompson Twins" },
+          { en: "Bronski Beat", es: "Bronski Beat", de: "Bronski Beat", nl: "Bronski Beat" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Culture Club, fronted by Boy George, recorded both hits in the early 1980s. 'Karma Chameleon' (1983) became an international number-one hit, while 'Do You Really Want to Hurt Me' (1982) was their breakthrough single.",
+          es: "Culture Club, liderado por Boy George, grabó ambos éxitos a principios de los años 80. 'Karma Chameleon' (1983) se convirtió en un éxito internacional número uno, mientras que 'Do You Really Want to Hurt Me' (1982) fue su sencillo revelación.",
+          de: "Culture Club, angeführt von Boy George, nahm beide Hits Anfang der 1980er Jahre auf. 'Karma Chameleon' (1983) wurde ein internationaler Nummer-eins-Hit, während 'Do You Really Want to Hurt Me' (1982) ihre Durchbruch-Single war.",
+          nl: "Culture Club, onder leiding van Boy George, nam beide hits op begin jaren '80. 'Karma Chameleon' (1983) werd een internationale nummer-één hit, terwijl 'Do You Really Want to Hurt Me' (1982) hun doorbraaksingle was."
+        }
+      },
+      {
+        question: {
+          en: "Which band recorded 'Owner of a Lonely Heart'?",
+          es: "¿Qué banda grabó 'Owner of a Lonely Heart'?",
+          de: "Welche Band nahm 'Owner of a Lonely Heart' auf?",
+          nl: "Welke band nam 'Owner of a Lonely Heart' op?"
+        },
+        options: [
+          { en: "Yes", es: "Yes", de: "Yes", nl: "Yes" },
+          { en: "Asia", es: "Asia", de: "Asia", nl: "Asia" },
+          { en: "Emerson, Lake & Palmer", es: "Emerson, Lake & Palmer", de: "Emerson, Lake & Palmer", nl: "Emerson, Lake & Palmer" },
+          { en: "King Crimson", es: "King Crimson", de: "King Crimson", nl: "King Crimson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Yes released 'Owner of a Lonely Heart' in 1983 from their album '90125'. The progressive rock band's move toward a more pop-oriented sound with producer Trevor Horn resulted in their only US number-one hit.",
+          es: "Yes lanzó 'Owner of a Lonely Heart' en 1983 de su álbum '90125'. El cambio de la banda de rock progresivo hacia un sonido más orientado al pop con el productor Trevor Horn resultó en su único éxito número uno en EE.UU.",
+          de: "Yes veröffentlichte 'Owner of a Lonely Heart' 1983 von ihrem Album '90125'. Der Schritt der Progressive-Rock-Band zu einem pop-orientierteren Sound mit Produzent Trevor Horn führte zu ihrem einzigen US-Nummer-eins-Hit.",
+          nl: "Yes bracht 'Owner of a Lonely Heart' uit in 1983 van hun album '90125'. De stap van de progressieve rockband naar een meer pop-georiënteerd geluid met producer Trevor Horn resulteerde in hun enige US nummer-één hit."
+        }
+      },
+      {
+        question: {
+          en: "Which singer had a hit with 'Like a Virgin' in 1984?",
+          es: "¿Qué cantante tuvo un éxito con 'Like a Virgin' en 1984?",
+          de: "Welche Sängerin hatte 1984 einen Hit mit 'Like a Virgin'?",
+          nl: "Welke zangeres had een hit met 'Like a Virgin' in 1984?"
+        },
+        options: [
+          { en: "Madonna", es: "Madonna", de: "Madonna", nl: "Madonna" },
+          { en: "Cyndi Lauper", es: "Cyndi Lauper", de: "Cyndi Lauper", nl: "Cyndi Lauper" },
+          { en: "Janet Jackson", es: "Janet Jackson", de: "Janet Jackson", nl: "Janet Jackson" },
+          { en: "Paula Abdul", es: "Paula Abdul", de: "Paula Abdul", nl: "Paula Abdul" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Madonna released 'Like a Virgin' in 1984, the title track from her second album. The controversial song and iconic music video helped establish her as the 'Queen of Pop' and became one of the defining songs of the 1980s.",
+          es: "Madonna lanzó 'Like a Virgin' en 1984, la canción principal de su segundo álbum. La canción controvertida y el video musical icónico ayudaron a establecerla como la 'Reina del Pop' y se convirtió en una de las canciones definitorias de los años 80.",
+          de: "Madonna veröffentlichte 'Like a Virgin' 1984, den Titeltrack ihres zweiten Albums. Das kontroverse Lied und ikonische Musikvideo halfen ihr, sich als 'Queen of Pop' zu etablieren und wurde zu einem der prägenden Songs der 1980er Jahre.",
+          nl: "Madonna bracht 'Like a Virgin' uit in 1984, de titelsong van haar tweede album. Het controversiële lied en iconische muziekvideo hielpen haar zich te vestigen als de 'Queen of Pop' en werd een van de bepalende liedjes van de jaren '80."
+        }
+      },
+      {
+        question: {
+          en: "Which band recorded 'The Final Countdown'?",
+          es: "¿Qué banda grabó 'The Final Countdown'?",
+          de: "Welche Band nahm 'The Final Countdown' auf?",
+          nl: "Welke band nam 'The Final Countdown' op?"
+        },
+        options: [
+          { en: "Europe", es: "Europe", de: "Europe", nl: "Europe" },
+          { en: "Van Halen", es: "Van Halen", de: "Van Halen", nl: "Van Halen" },
+          { en: "Scorpions", es: "Scorpions", de: "Scorpions", nl: "Scorpions" },
+          { en: "Accept", es: "Accept", de: "Accept", nl: "Accept" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Swedish rock band Europe released 'The Final Countdown' in 1986 as the title track of their third album. The song's distinctive keyboard riff became an anthem of the 1980s and reached number one in 25 countries.",
+          es: "La banda de rock sueca Europe lanzó 'The Final Countdown' en 1986 como la canción principal de su tercer álbum. El distintivo riff de teclado de la canción se convirtió en un himno de los años 80 y alcanzó el número uno en 25 países.",
+          de: "Die schwedische Rockband Europe veröffentlichte 'The Final Countdown' 1986 als Titeltrack ihres dritten Albums. Das charakteristische Keyboard-Riff des Songs wurde zu einer Hymne der 1980er Jahre und erreichte in 25 Ländern Nummer eins.",
+          nl: "De Zweedse rockband Europe bracht 'The Final Countdown' uit in 1986 als titelsong van hun derde album. De kenmerkende keyboardriff van het lied werd een hymne van de jaren '80 en bereikte nummer één in 25 landen."
+        }
+      },
+      {
+        question: {
+          en: "Which band sang 'I Want to Know What Love Is'?",
+          es: "¿Qué banda cantó 'I Want to Know What Love Is'?",
+          de: "Welche Band sang 'I Want to Know What Love Is'?",
+          nl: "Welke band zong 'I Want to Know What Love Is'?"
+        },
+        options: [
+          { en: "Foreigner", es: "Foreigner", de: "Foreigner", nl: "Foreigner" },
+          { en: "REO Speedwagon", es: "REO Speedwagon", de: "REO Speedwagon", nl: "REO Speedwagon" },
+          { en: "Styx", es: "Styx", de: "Styx", nl: "Styx" },
+          { en: "Kansas", es: "Kansas", de: "Kansas", nl: "Kansas" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Foreigner released 'I Want to Know What Love Is' in 1984 from their album 'Agent Provocateur'. The power ballad, featuring the New Jersey Mass Choir, became their biggest hit and topped charts worldwide.",
+          es: "Foreigner lanzó 'I Want to Know What Love Is' en 1984 de su álbum 'Agent Provocateur'. La balada de poder, con el New Jersey Mass Choir, se convirtió en su mayor éxito y encabezó las listas en todo el mundo.",
+          de: "Foreigner veröffentlichte 'I Want to Know What Love Is' 1984 von ihrem Album 'Agent Provocateur'. Die Power-Ballade mit dem New Jersey Mass Choir wurde ihr größter Hit und führte weltweit die Charts an.",
+          nl: "Foreigner bracht 'I Want to Know What Love Is' uit in 1984 van hun album 'Agent Provocateur'. De powerballad, met het New Jersey Mass Choir, werd hun grootste hit en stond wereldwijd bovenaan de hitlijsten."
+        }
+      },
+      {
+        question: {
+          en: "Which band recorded 'Jump' with its famous keyboard intro?",
+          es: "¿Qué banda grabó 'Jump' con su famosa introducción de teclado?",
+          de: "Welche Band nahm 'Jump' mit seinem berühmten Keyboard-Intro auf?",
+          nl: "Welke band nam 'Jump' op met zijn beroemde keyboard intro?"
+        },
+        options: [
+          { en: "Van Halen", es: "Van Halen", de: "Van Halen", nl: "Van Halen" },
+          { en: "Def Leppard", es: "Def Leppard", de: "Def Leppard", nl: "Def Leppard" },
+          { en: "Ratt", es: "Ratt", de: "Ratt", nl: "Ratt" },
+          { en: "Quiet Riot", es: "Quiet Riot", de: "Quiet Riot", nl: "Quiet Riot" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Van Halen released 'Jump' in 1983 from their album '1984'. Eddie Van Halen's synthesizer riff marked a departure from their usual guitar-driven sound, and it became their only US number-one single.",
+          es: "Van Halen lanzó 'Jump' en 1983 de su álbum '1984'. El riff de sintetizador de Eddie Van Halen marcó un alejamiento de su sonido habitual impulsado por la guitarra, y se convirtió en su único sencillo número uno en EE.UU.",
+          de: "Van Halen veröffentlichte 'Jump' 1983 von ihrem Album '1984'. Eddie Van Halens Synthesizer-Riff markierte eine Abkehr von ihrem üblichen gitarrengetriebenen Sound und wurde ihre einzige US-Nummer-eins-Single.",
+          nl: "Van Halen bracht 'Jump' uit in 1983 van hun album '1984'. Eddie Van Halen's synthesizerriff markeerde een breuk met hun gebruikelijke gitaargedreven geluid, en het werd hun enige US nummer-één single."
+        }
       }
     ]
   };

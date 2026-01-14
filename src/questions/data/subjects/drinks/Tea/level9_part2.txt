@@ -1,0 +1,164 @@
+            {
+                question: {
+                    en: "What is the quantum-chemical basis for EGCG's antioxidant potency exceeding vitamin C by 100-fold?",
+                    es: "¿Cuál es la base químico-cuántica para que la potencia antioxidante de EGCG exceda la vitamina C por 100 veces?",
+                    de: "Was ist die quantenchemische Grundlage für EGCG's Antioxidans-Potenz, die Vitamin C um das 100-fache übersteigt?",
+                    nl: "Wat is de kwantumchemische basis voor EGCG's antioxidant potentie die vitamine C met 100-voud overschrijdt?"
+                },
+                options: [
+                    {
+                        en: "Tri-hydroxyl phenolic B-ring structure enables multiple electron donation sites and resonance stabilization of resulting radicals",
+                        es: "Estructura de anillo B fenólico tri-hidroxilo permite múltiples sitios de donación de electrones y estabilización por resonancia de radicales resultantes",
+                        de: "Tri-Hydroxyl-phenolische B-Ring-Struktur ermöglicht mehrere Elektronendonationsstellen und Resonanzstabilisierung resultierender Radikale",
+                        nl: "Tri-hydroxyl fenolische B-ring structuur maakt meerdere elektronen donatie plaatsen mogelijk en resonantie stabilisatie van resulterende radicalen"
+                    },
+                    {
+                        en: "EGCG simply has higher molecular weight than vitamin C",
+                        es: "EGCG simplemente tiene mayor peso molecular que vitamina C",
+                        de: "EGCG hat einfach höheres Molekulargewicht als Vitamin C",
+                        nl: "EGCG heeft simpelweg hoger moleculair gewicht dan vitamine C"
+                    },
+                    {
+                        en: "EGCG is more abundant in tea than vitamin C",
+                        es: "EGCG es más abundante en té que vitamina C",
+                        de: "EGCG ist in Tee reichlicher als Vitamin C",
+                        nl: "EGCG is overvloediger in thee dan vitamine C"
+                    },
+                    {
+                        en: "EGCG has better taste masking properties only",
+                        es: "EGCG solo tiene mejores propiedades de enmascaramiento de sabor",
+                        de: "EGCG hat nur bessere Geschmacksmaskierungseigenschaften",
+                        nl: "EGCG heeft alleen betere smaak maskerende eigenschappen"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Epigallocatechin gallate (EGCG) possesses extraordinary antioxidant capacity due to its molecular structure: 8 phenolic hydroxyl groups (three on the B-ring, three on the D-ring/gallate ester, two on the A-ring) provide multiple sites for donating electrons to neutralize free radicals. The tri-hydroxyl configuration on the B-ring (pyrogallol structure) is particularly potent—electron delocalization through conjugated aromatic rings creates highly stable semi-quinone radicals after donation. This allows EGCG to scavenge multiple ROS/RNS species. Vitamin C has only one active hydroxyl with less resonance stabilization. EGCG's planar structure also enables π-π stacking interactions that enhance stability.",
+                    es: "Epigalocatequina galato (EGCG) posee capacidad antioxidante extraordinaria debido a su estructura molecular: 8 grupos hidroxilo fenólicos (tres en anillo B, tres en anillo D/éster galato, dos en anillo A) proporcionan múltiples sitios para donar electrones para neutralizar radicales libres. Configuración tri-hidroxilo en anillo B (estructura pirogalol) es particularmente potente—deslocalización electrónica mediante anillos aromáticos conjugados crea radicales semi-quinona altamente estables después de donación. Esto permite a EGCG eliminar múltiples especies ROS/RNS. Vitamina C tiene solo un hidroxilo activo con menos estabilización por resonancia. Estructura planar de EGCG también permite interacciones de apilamiento π-π que mejoran estabilidad.",
+                    de: "Epigallocatechingallat (EGCG) besitzt außergewöhnliche Antioxidans-Kapazität aufgrund seiner Molekularstruktur: 8 phenolische Hydroxylgruppen (drei am B-Ring, drei am D-Ring/Gallatester, zwei am A-Ring) bieten mehrere Stellen zur Elektronenspende zur Neutralisierung freier Radikale. Die Tri-Hydroxyl-Konfiguration am B-Ring (Pyrogallol-Struktur) ist besonders potent—Elektronendelokalisierung durch konjugierte aromatische Ringe erzeugt nach Spende hochstabile Semichinon-Radikale. Dies ermöglicht EGCG, mehrere ROS/RNS-Spezies abzufangen. Vitamin C hat nur ein aktives Hydroxyl mit weniger Resonanzstabilisierung. EGCGs planare Struktur ermöglicht auch π-π-Stapelwechselwirkungen, die Stabilität erhöhen.",
+                    nl: "Epigallocatechine gallaat (EGCG) bezit buitengewone antioxidant capaciteit door zijn moleculaire structuur: 8 fenolische hydroxyl groepen (drie op B-ring, drie op D-ring/gallaat ester, twee op A-ring) bieden meerdere plaatsen voor elektronen donatie om vrije radicalen te neutraliseren. De tri-hydroxyl configuratie op B-ring (pyrogallol structuur) is bijzonder potent—elektronen delocalisatie door geconjugeerde aromatische ringen creëert zeer stabiele semi-quinone radicalen na donatie. Dit maakt het mogelijk voor EGCG om meerdere ROS/RNS species te vangen. Vitamine C heeft slechts één actief hydroxyl met minder resonantie stabilisatie. EGCG's planaire structuur maakt ook π-π stapeling interacties mogelijk die stabiliteit verbeteren."
+                }
+            },
+            {
+                question: {
+                    en: "What is the molecular mechanism of tea polyphenols' antimicrobial activity against pathogens?",
+                    es: "¿Cuál es el mecanismo molecular de la actividad antimicrobiana de polifenoles de té contra patógenos?",
+                    de: "Was ist der molekulare Mechanismus der antimikrobiellen Aktivität von Teepolyphenolen gegen Krankheitserreger?",
+                    nl: "Wat is het moleculaire mechanisme van thee polyfenolen's antimicrobiële activiteit tegen pathogenen?"
+                },
+                options: [
+                    {
+                        en: "Catechins disrupt bacterial cell membranes through hydrophobic interactions and inhibit essential enzymes (DNA gyrase, dihydrofolate reductase) by binding active sites",
+                        es: "Catequinas interrumpen membranas celulares bacterianas mediante interacciones hidrofóbicas e inhiben enzimas esenciales (DNA girasa, dihidrofolato reductasa) al unirse a sitios activos",
+                        de: "Catechine stören bakterielle Zellmembranen durch hydrophobe Wechselwirkungen und hemmen essentielle Enzyme (DNA-Gyrase, Dihydrofolatreduktase) durch Bindung an aktive Stellen",
+                        nl: "Catechines verstoren bacteriële cel membranen door hydrofobe interacties en remmen essentiële enzymen (DNA gyrase, dihydrofolaat reductase) door binding aan actieve plaatsen"
+                    },
+                    {
+                        en: "Tea simply washes bacteria away physically",
+                        es: "Té simplemente lava bacterias físicamente",
+                        de: "Tee wäscht Bakterien einfach physisch weg",
+                        nl: "Thee wast bacteriën simpelweg fysiek weg"
+                    },
+                    {
+                        en: "Tea's acidity alone kills all microorganisms",
+                        es: "Acidez del té sola mata todos microorganismos",
+                        de: "Tee-Säure allein tötet alle Mikroorganismen",
+                        nl: "Thee's zuurgraad alleen doodt alle micro-organismen"
+                    },
+                    {
+                        en: "Tea dilutes bacterial concentration through fluid volume",
+                        es: "Té diluye concentración bacteriana mediante volumen de fluido",
+                        de: "Tee verdünnt bakterielle Konzentration durch Flüssigkeitsvolumen",
+                        nl: "Thee verdunt bacteriële concentratie door vloeistof volume"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Tea catechins exhibit broad-spectrum antimicrobial activity through multiple mechanisms: 1) Membrane disruption—hydrophobic galloyl groups insert into lipid bilayers, increasing permeability and causing leakage; 2) Enzyme inhibition—EGCG binds to active sites of bacterial DNA gyrase (blocking DNA replication), dihydrofolate reductase (blocking folate synthesis), and peptidoglycan biosynthesis enzymes (weakening cell walls); 3) Metal chelation—catechins sequester iron needed for bacterial growth; 4) Biofilm prevention—inhibiting quorum sensing molecules. Studies show effectiveness against S. aureus, E. coli, H. pylori, Streptococcus mutans (cavity-causing). Green tea (high EGCG) shows strongest activity.",
+                    es: "Catequinas de té exhiben actividad antimicrobiana de amplio espectro mediante múltiples mecanismos: 1) Ruptura de membrana—grupos galoílo hidrofóbicos se insertan en bicapas lipídicas, aumentando permeabilidad y causando fuga; 2) Inhibición enzimática—EGCG se une a sitios activos de DNA girasa bacteriana (bloqueando replicación DNA), dihidrofolato reductasa (bloqueando síntesis de folato), y enzimas de biosíntesis de peptidoglicano (debilitando paredes celulares); 3) Quelación de metales—catequinas secuestran hierro necesario para crecimiento bacteriano; 4) Prevención de biofilm—inhibiendo moléculas de detección de quórum. Estudios muestran efectividad contra S. aureus, E. coli, H. pylori, Streptococcus mutans (causante de caries). Té verde (alto EGCG) muestra actividad más fuerte.",
+                    de: "Tee-Catechine zeigen breitspektrum antimikrobielle Aktivität durch mehrere Mechanismen: 1) Membranstörung—hydrophobe Galloylgruppen setzen sich in Lipiddoppelschichten ein, erhöhen Permeabilität und verursachen Leckage; 2) Enzymhemmung—EGCG bindet an aktive Stellen bakterieller DNA-Gyrase (blockiert DNA-Replikation), Dihydrofolatreduktase (blockiert Folatsynthese) und Peptidoglycan-Biosynthese-Enzyme (schwächt Zellwände); 3) Metallchelation—Catechine binden Eisen, das für bakterielles Wachstum benötigt wird; 4) Biofilm-Prävention—Hemmung von Quorum-Sensing-Molekülen. Studien zeigen Wirksamkeit gegen S. aureus, E. coli, H. pylori, Streptococcus mutans (Karies-verursachend). Grüner Tee (hohes EGCG) zeigt stärkste Aktivität.",
+                    nl: "Thee catechines vertonen breed-spectrum antimicrobiële activiteit door meerdere mechanismen: 1) Membraan verstoring—hydrofobe galloyl groepen inserteren in lipide dubbellagen, permeabiliteit verhogend en lekkage veroorzakend; 2) Enzym remming—EGCG bindt aan actieve plaatsen van bacteriële DNA gyrase (DNA replicatie blokkerend), dihydrofolaat reductase (folaat synthese blokkerend) en peptidoglycan biosynthese enzymen (celwanden verzwakkend); 3) Metaal chelatie—catechines binden ijzer nodig voor bacteriële groei; 4) Biofilm preventie—quorum sensing moleculen remmend. Studies tonen effectiviteit tegen S. aureus, E. coli, H. pylori, Streptococcus mutans (cariës-veroorzakend). Groene thee (hoog EGCG) toont sterkste activiteit."
+                }
+            },
+            {
+                question: {
+                    en: "What is the neurochemical cascade triggered by L-theanine crossing the blood-brain barrier?",
+                    es: "¿Cuál es la cascada neuroquímica desencadenada por L-teanina cruzando la barrera hematoencefálica?",
+                    de: "Was ist die neurochemische Kaskade, die durch L-Theanin beim Überqueren der Blut-Hirn-Schranke ausgelöst wird?",
+                    nl: "Wat is de neurochemische cascade getriggerd door L-theanine die de bloed-hersenbarrière kruist?"
+                },
+                options: [
+                    {
+                        en: "L-theanine competes with glutamate for NMDA receptors, modulates GABA-A receptors increasing inhibitory signaling, and increases dopamine/serotonin in striatum/hippocampus",
+                        es: "L-teanina compite con glutamato por receptores NMDA, modula receptores GABA-A aumentando señalización inhibitoria, y aumenta dopamina/serotonina en estriado/hipocampo",
+                        de: "L-Theanin konkurriert mit Glutamat um NMDA-Rezeptoren, moduliert GABA-A-Rezeptoren und erhöht inhibitorische Signalisierung, und erhöht Dopamin/Serotonin im Striatum/Hippocampus",
+                        nl: "L-theanine concurreert met glutamaat voor NMDA receptoren, moduleert GABA-A receptoren wat inhibitorische signalering verhoogt, en verhoogt dopamine/serotonine in striatum/hippocampus"
+                    },
+                    {
+                        en: "L-theanine only increases blood flow without neurotransmitter effects",
+                        es: "L-teanina solo aumenta flujo sanguíneo sin efectos de neurotransmisores",
+                        de: "L-Theanin erhöht nur Blutfluss ohne Neurotransmitter-Effekte",
+                        nl: "L-theanine verhoogt alleen bloedstroom zonder neurotransmitter effecten"
+                    },
+                    {
+                        en: "L-theanine stimulates only adrenaline production",
+                        es: "L-teanina estimula solo producción de adrenalina",
+                        de: "L-Theanin stimuliert nur Adrenalinproduktion",
+                        nl: "L-theanine stimuleert alleen adrenaline productie"
+                    },
+                    {
+                        en: "L-theanine cannot cross blood-brain barrier at all",
+                        es: "L-teanina no puede cruzar barrera hematoencefálica en absoluto",
+                        de: "L-Theanin kann Blut-Hirn-Schranke überhaupt nicht überqueren",
+                        nl: "L-theanine kan bloed-hersenbarrière helemaal niet kruisen"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "L-theanine (γ-glutamylethylamide) crosses the blood-brain barrier via large amino acid transporter 1 (LAT1). In the brain, it initiates a complex neurochemical cascade: 1) Structural similarity to glutamate allows competitive antagonism at NMDA receptors, reducing excitatory neurotransmission and preventing excitotoxicity; 2) Allosteric modulation of GABA-A receptors enhances inhibitory signaling, promoting relaxation without sedation; 3) Increases dopamine and serotonin concentrations in striatum and hippocampus through unknown mechanisms, improving mood and cognition; 4) Increases alpha brain wave activity (8-13 Hz) associated with wakeful relaxation. The L-theanine:caffeine ratio in tea creates synergistic effects—theanine smooths caffeine's stimulation, caffeine enhances theanine's cognitive benefits.",
+                    es: "L-teanina (γ-glutamiletil amida) cruza barrera hematoencefálica mediante transportador de aminoácidos grandes 1 (LAT1). En cerebro, inicia cascada neuroquímica compleja: 1) Similitud estructural con glutamato permite antagonismo competitivo en receptores NMDA, reduciendo neurotransmisión excitatoria y previniendo excitotoxicidad; 2) Modulación alostérica de receptores GABA-A mejora señalización inhibitoria, promoviendo relajación sin sedación; 3) Aumenta concentraciones de dopamina y serotonina en estriado e hipocampo mediante mecanismos desconocidos, mejorando humor y cognición; 4) Aumenta actividad de ondas cerebrales alfa (8-13 Hz) asociadas con relajación despierta. Ratio L-teanina:cafeína en té crea efectos sinérgicos—teanina suaviza estimulación de cafeína, cafeína mejora beneficios cognitivos de teanina.",
+                    de: "L-Theanin (γ-Glutamylethylamid) überquert die Blut-Hirn-Schranke über großen Aminosäure-Transporter 1 (LAT1). Im Gehirn initiiert es eine komplexe neurochemische Kaskade: 1) Strukturelle Ähnlichkeit mit Glutamat ermöglicht kompetitiven Antagonismus an NMDA-Rezeptoren, reduziert exzitatorische Neurotransmission und verhindert Excitotoxizität; 2) Allosterische Modulation von GABA-A-Rezeptoren verstärkt inhibitorische Signalisierung, fördert Entspannung ohne Sedierung; 3) Erhöht Dopamin- und Serotonin-Konzentrationen in Striatum und Hippocampus durch unbekannte Mechanismen, verbessert Stimmung und Kognition; 4) Erhöht Alpha-Gehirnwellenaktivität (8-13 Hz) verbunden mit wacher Entspannung. L-Theanin:Koffein-Verhältnis in Tee erzeugt synergistische Effekte—Theanin glättet Koffeins Stimulation, Koffein verstärkt Theanins kognitive Vorteile.",
+                    nl: "L-theanine (γ-glutamylethylamide) kruist de bloed-hersenbarrière via grote aminozuur transporter 1 (LAT1). In de hersenen initieert het een complexe neurochemische cascade: 1) Structurele gelijkenis met glutamaat maakt competitief antagonisme mogelijk bij NMDA receptoren, wat excitatoire neurotransmissie vermindert en excitotoxiciteit voorkomt; 2) Allosterische modulatie van GABA-A receptoren versterkt inhibitorische signalering, ontspanning bevorderend zonder sedatie; 3) Verhoogt dopamine en serotonine concentraties in striatum en hippocampus door onbekende mechanismen, verbetering van humeur en cognitie; 4) Verhoogt alfa hersengolf activiteit (8-13 Hz) geassocieerd met wakende ontspanning. L-theanine:cafeïne verhouding in thee creëert synergistische effecten—theanine verzacht cafeïne's stimulatie, cafeïne versterkt theanine's cognitieve voordelen."
+                }
+            },
+            {
+                question: {
+                    en: "What is the molecular mechanism behind tea polyphenols' modulation of glucose metabolism and insulin sensitivity?",
+                    es: "¿Cuál es el mecanismo molecular detrás de la modulación de polifenoles de té del metabolismo de glucosa y sensibilidad a insulina?",
+                    de: "Was ist der molekulare Mechanismus hinter Teepolyphenol-Modulation des Glukosemetabolismus und Insulinempfindlichkeit?",
+                    nl: "Wat is het moleculaire mechanisme achter thee polyfenolen's modulatie van glucose metabolisme en insuline gevoeligheid?"
+                },
+                options: [
+                    {
+                        en: "EGCG inhibits intestinal α-glucosidase (slowing carb digestion), activates AMPK pathway (increasing glucose uptake), and enhances GLUT4 translocation in muscle/adipose tissue",
+                        es: "EGCG inhibe α-glucosidasa intestinal (ralentizando digestión de carbohidratos), activa vía AMPK (aumentando captación de glucosa), y mejora translocación GLUT4 en tejido muscular/adiposo",
+                        de: "EGCG hemmt intestinale α-Glucosidase (verlangsamt Kohlenhydratverdauung), aktiviert AMPK-Weg (erhöht Glukoseaufnahme) und verstärkt GLUT4-Translokation in Muskel-/Fettgewebe",
+                        nl: "EGCG remt intestinale α-glucosidase (vertraagt koolhydraat vertering), activeert AMPK pathway (verhoogt glucose opname) en versterkt GLUT4 translocatie in spier/vetweefsel"
+                    },
+                    {
+                        en: "Tea only reduces appetite through stomach filling",
+                        es: "Té solo reduce apetito mediante llenado de estómago",
+                        de: "Tee reduziert Appetit nur durch Magenfüllung",
+                        nl: "Thee vermindert alleen eetlust door maag vulling"
+                    },
+                    {
+                        en: "Tea provides no metabolic benefits at molecular level",
+                        es: "Té no proporciona beneficios metabólicos a nivel molecular",
+                        de: "Tee bietet keine metabolischen Vorteile auf molekularer Ebene",
+                        nl: "Thee biedt geen metabolische voordelen op moleculair niveau"
+                    },
+                    {
+                        en: "Tea simply dilutes blood sugar through hydration",
+                        es: "Té simplemente diluye azúcar en sangre mediante hidratación",
+                        de: "Tee verdünnt einfach Blutzucker durch Hydration",
+                        nl: "Thee verdunt simpelweg bloedsuiker door hydratatie"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Tea catechins, especially EGCG, influence glucose metabolism through multiple molecular pathways: 1) Enzyme inhibition—EGCG competitively inhibits intestinal α-glucosidase and α-amylase, slowing starch/disaccharide breakdown and reducing postprandial glucose spikes; 2) AMPK activation—EGCG activates AMP-activated protein kinase in liver, muscle, and adipose tissue, mimicking exercise effects: increased glucose uptake, enhanced fatty acid oxidation, mitochondrial biogenesis; 3) GLUT4 translocation—promotes glucose transporter-4 movement to cell membranes, improving insulin-independent glucose uptake; 4) Pancreatic β-cell protection—antioxidant effects protect insulin-producing cells from oxidative damage. Meta-analyses show green tea consumption reduces fasting glucose and HbA1c in type 2 diabetics.",
+                    es: "Catequinas de té, especialmente EGCG, influyen metabolismo de glucosa mediante múltiples vías moleculares: 1) Inhibición enzimática—EGCG inhibe competitivamente α-glucosidasa y α-amilasa intestinales, ralentizando descomposición de almidón/disacáridos y reduciendo picos de glucosa postprandial; 2) Activación AMPK—EGCG activa proteína quinasa activada por AMP en hígado, músculo y tejido adiposo, imitando efectos de ejercicio: captación de glucosa aumentada, oxidación de ácidos grasos mejorada, biogénesis mitocondrial; 3) Translocación GLUT4—promueve movimiento de transportador de glucosa-4 a membranas celulares, mejorando captación de glucosa independiente de insulina; 4) Protección de células β pancreáticas—efectos antioxidantes protegen células productoras de insulina de daño oxidativo. Meta-análisis muestran que consumo de té verde reduce glucosa en ayunas y HbA1c en diabéticos tipo 2.",
+                    de: "Tee-Catechine, besonders EGCG, beeinflussen Glukosemetabolismus durch mehrere molekulare Wege: 1) Enzymhemmung—EGCG hemmt kompetitiv intestinale α-Glucosidase und α-Amylase, verlangsamt Stärke-/Disaccharidabbau und reduziert postprandiale Glukosespitzen; 2) AMPK-Aktivierung—EGCG aktiviert AMP-aktivierte Proteinkinase in Leber, Muskel und Fettgewebe, ahmt Übungseffekte nach: erhöhte Glukoseaufnahme, verstärkte Fettsäureoxidation, mitochondriale Biogenese; 3) GLUT4-Translokation—fördert Glukosetransporter-4-Bewegung zu Zellmembranen, verbessert insulin-unabhängige Glukoseaufnahme; 4) Pankreatische β-Zell-Schutz—antioxidative Effekte schützen insulinproduzierende Zellen vor oxidativem Schaden. Meta-Analysen zeigen, dass grüner Teekonsum Nüchternglukose und HbA1c bei Typ-2-Diabetikern reduziert.",
+                    nl: "Thee catechines, vooral EGCG, beïnvloeden glucose metabolisme door meerdere moleculaire routes: 1) Enzym remming—EGCG remt competitief intestinale α-glucosidase en α-amylase, vertraagt zetmeel/disaccharide afbraak en vermindert postprandiale glucose pieken; 2) AMPK activatie—EGCG activeert AMP-geactiveerd proteïne kinase in lever, spier en vetweefsel, oefening effecten nabootsend: verhoogde glucose opname, versterkte vetzuur oxidatie, mitochondriële biogenese; 3) GLUT4 translocatie—bevordert glucose transporter-4 beweging naar cel membranen, verbetert insuline-onafhankelijke glucose opname; 4) Pancreatische β-cel bescherming—antioxidant effecten beschermen insuline-producerende cellen tegen oxidatieve schade. Meta-analyses tonen dat groene thee consumptie nuchtere glucose en HbA1c vermindert in type 2 diabeten."
+                }
+            }

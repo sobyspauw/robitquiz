@@ -427,6 +427,426 @@
           de: "Bemerkenswert ist, dass etwa 80% von Machu Picchu ursprüngliche Inka-Konstruktion sind, wobei nur etwa 20% Restaurierungsarbeiten sind, was es zu einer der am besten erhaltenen Inka-Stätten macht.",
           nl: "Opmerkelijk genoeg is ongeveer 80% van Machu Picchu originele Inca-constructie, waarbij slechts ongeveer 20% restauratiewerk is, waardoor het een van de best bewaarde Inca-sites is."
         }
+      },
+      {
+        question: {
+          en: "What was the estimated population of Machu Picchu at its peak?",
+          es: "¿Cuál era la población estimada de Machu Picchu en su apogeo?",
+          de: "Wie hoch war die geschätzte Bevölkerung von Machu Picchu auf ihrem Höhepunkt?",
+          nl: "Wat was de geschatte bevolking van Machu Picchu op zijn hoogtepunt?"
+        },
+        options: [
+          { en: "50-100 people", es: "50-100 personas", de: "50-100 Menschen", nl: "50-100 mensen" },
+          { en: "500-750 people", es: "500-750 personas", de: "500-750 Menschen", nl: "500-750 mensen" },
+          { en: "2,000-3,000 people", es: "2,000-3,000 personas", de: "2.000-3.000 Menschen", nl: "2.000-3.000 mensen" },
+          { en: "10,000+ people", es: "10,000+ personas", de: "10.000+ Menschen", nl: "10.000+ mensen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Scholars estimate that Machu Picchu had a population of 500-750 people during its peak occupation, including nobles, priests, and workers.",
+          es: "Los estudiosos estiman que Machu Picchu tenía una población de 500-750 personas durante su ocupación máxima, incluyendo nobles, sacerdotes y trabajadores.",
+          de: "Wissenschaftler schätzen, dass Machu Picchu während seiner Blütezeit eine Bevölkerung von 500-750 Menschen hatte, darunter Adlige, Priester und Arbeiter.",
+          nl: "Geleerden schatten dat Machu Picchu tijdens zijn hoogtepunt een bevolking had van 500-750 mensen, waaronder edelen, priesters en arbeiders."
+        }
+      },
+      {
+        question: {
+          en: "How many water fountains were built at Machu Picchu?",
+          es: "¿Cuántas fuentes de agua se construyeron en Machu Picchu?",
+          de: "Wie viele Wasserbrunnen wurden in Machu Picchu gebaut?",
+          nl: "Hoeveel waterfonteinen werden gebouwd in Machu Picchu?"
+        },
+        options: [
+          { en: "6", es: "6", de: "6", nl: "6" },
+          { en: "16", es: "16", de: "16", nl: "16" },
+          { en: "26", es: "26", de: "26", nl: "26" },
+          { en: "36", es: "36", de: "36", nl: "36" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Machu Picchu has 16 beautifully engineered stone water fountains fed by a sophisticated spring water system from the mountain.",
+          es: "Machu Picchu tiene 16 fuentes de agua de piedra bellamente diseñadas alimentadas por un sofisticado sistema de agua de manantial desde la montaña.",
+          de: "Machu Picchu hat 16 wunderschön gestaltete Steinwasserbrunnen, die von einem ausgeklügelten Quellwassersystem vom Berg gespeist werden.",
+          nl: "Machu Picchu heeft 16 prachtig ontworpen stenen waterfonteinen die worden gevoed door een geavanceerd bronwatersysteem van de berg."
+        }
+      },
+      {
+        question: {
+          en: "What was the primary function of the Temple of the Three Windows?",
+          es: "¿Cuál era la función principal del Templo de las Tres Ventanas?",
+          de: "Was war die Hauptfunktion des Tempels der Drei Fenster?",
+          nl: "Wat was de primaire functie van de Tempel van de Drie Ramen?"
+        },
+        options: [
+          { en: "Residential housing", es: "Vivienda residencial", de: "Wohnhaus", nl: "Woonhuisvesting" },
+          { en: "Food storage", es: "Almacenamiento de alimentos", de: "Lebensmittellagerung", nl: "Voedselopslag" },
+          { en: "Religious ceremonies", es: "Ceremonias religiosas", de: "Religiöse Zeremonien", nl: "Religieuze ceremonies" },
+          { en: "Military defense", es: "Defensa militar", de: "Militärische Verteidigung", nl: "Militaire verdediging" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Temple of the Three Windows is a religious structure with three large trapezoidal windows facing east toward the sunrise, important for Inca sun worship.",
+          es: "El Templo de las Tres Ventanas es una estructura religiosa con tres grandes ventanas trapezoidales que miran hacia el este hacia el amanecer, importante para el culto al sol inca.",
+          de: "Der Tempel der Drei Fenster ist eine religiöse Struktur mit drei großen trapezförmigen Fenstern, die nach Osten zum Sonnenaufgang ausgerichtet sind, wichtig für die Inka-Sonnenanbetung.",
+          nl: "De Tempel van de Drie Ramen is een religieuze structuur met drie grote trapeziumvormige ramen die naar het oosten naar de zonsopgang kijken, belangrijk voor de Inca-zonneaanbidding."
+        }
+      },
+      {
+        question: {
+          en: "What was discovered in the burials found at Machu Picchu?",
+          es: "¿Qué se descubrió en los entierros encontrados en Machu Picchu?",
+          de: "Was wurde in den Gräbern gefunden, die in Machu Picchu entdeckt wurden?",
+          nl: "Wat werd ontdekt in de begravingen die werden gevonden in Machu Picchu?"
+        },
+        options: [
+          { en: "Mostly male skeletons", es: "Mayormente esqueletos masculinos", de: "Hauptsächlich männliche Skelette", nl: "Voornamelijk mannelijke skeletten" },
+          { en: "Mostly female skeletons", es: "Mayormente esqueletos femeninos", de: "Hauptsächlich weibliche Skelette", nl: "Voornamelijk vrouwelijke skeletten" },
+          { en: "Only children", es: "Solo niños", de: "Nur Kinder", nl: "Alleen kinderen" },
+          { en: "No burials were found", es: "No se encontraron entierros", de: "Keine Bestattungen gefunden", nl: "Er werden geen begravingen gevonden" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Hiram Bingham found 173 skeletons, 150 of which were female, leading to theories that it may have been home to the 'Virgins of the Sun' or royal women.",
+          es: "Hiram Bingham encontró 173 esqueletos, 150 de los cuales eran femeninos, lo que llevó a teorías de que pudo haber sido el hogar de las 'Vírgenes del Sol' o mujeres reales.",
+          de: "Hiram Bingham fand 173 Skelette, von denen 150 weiblich waren, was zu Theorien führte, dass es die Heimat der 'Jungfrauen der Sonne' oder königlicher Frauen gewesen sein könnte.",
+          nl: "Hiram Bingham vond 173 skeletten, waarvan 150 vrouwelijk waren, wat leidde tot theorieën dat het de thuisbasis was van de 'Maagden van de Zon' of koninklijke vrouwen."
+        }
+      },
+      {
+        question: {
+          en: "What name did the Incas originally use for Machu Picchu?",
+          es: "¿Qué nombre usaron originalmente los Incas para Machu Picchu?",
+          de: "Welchen Namen verwendeten die Inkas ursprünglich für Machu Picchu?",
+          nl: "Welke naam gebruikten de Inca's oorspronkelijk voor Machu Picchu?"
+        },
+        options: [
+          { en: "The name is unknown", es: "El nombre es desconocido", de: "Der Name ist unbekannt", nl: "De naam is onbekend" },
+          { en: "Qorikancha", es: "Qorikancha", de: "Qorikancha", nl: "Qorikancha" },
+          { en: "Sacsayhuamán", es: "Sacsayhuamán", de: "Sacsayhuamán", nl: "Sacsayhuamán" },
+          { en: "Vilcabamba", es: "Vilcabamba", de: "Vilcabamba", nl: "Vilcabamba" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The original Inca name for Machu Picchu is unknown. The current name comes from the nearby mountain and was applied after its rediscovery.",
+          es: "El nombre inca original de Machu Picchu es desconocido. El nombre actual proviene de la montaña cercana y se aplicó después de su redescubrimiento.",
+          de: "Der ursprüngliche Inka-Name für Machu Picchu ist unbekannt. Der heutige Name stammt vom nahen Berg und wurde nach seiner Wiederentdeckung angewendet.",
+          nl: "De oorspronkelijke Inca-naam voor Machu Picchu is onbekend. De huidige naam komt van de nabijgelegen berg en werd toegepast na de herontdekking."
+        }
+      },
+      {
+        question: {
+          en: "What is the Sacred Plaza at Machu Picchu?",
+          es: "¿Qué es la Plaza Sagrada en Machu Picchu?",
+          de: "Was ist die Heilige Plaza in Machu Picchu?",
+          nl: "Wat is het Heilige Plein in Machu Picchu?"
+        },
+        options: [
+          { en: "A marketplace area", es: "Un área de mercado", de: "Ein Marktbereich", nl: "Een marktgebied" },
+          { en: "A residential zone", es: "Una zona residencial", de: "Eine Wohnzone", nl: "Een woonzone" },
+          { en: "A religious center with important temples", es: "Un centro religioso con templos importantes", de: "Ein religiöses Zentrum mit wichtigen Tempeln", nl: "Een religieus centrum met belangrijke tempels" },
+          { en: "An agricultural storage area", es: "Un área de almacenamiento agrícola", de: "Ein landwirtschaftlicher Lagerbereich", nl: "Een landbouwopslaggebied" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Sacred Plaza is the religious heart of Machu Picchu, containing the Temple of the Three Windows, the Main Temple, and the Temple of the Sun.",
+          es: "La Plaza Sagrada es el corazón religioso de Machu Picchu, que contiene el Templo de las Tres Ventanas, el Templo Principal y el Templo del Sol.",
+          de: "Die Heilige Plaza ist das religiöse Herz von Machu Picchu und enthält den Tempel der Drei Fenster, den Haupttempel und den Sonnentempel.",
+          nl: "Het Heilige Plein is het religieuze hart van Machu Picchu, met de Tempel van de Drie Ramen, de Hoofdtempel en de Tempel van de Zon."
+        }
+      },
+      {
+        question: {
+          en: "How did the Incas transport the heavy stones to build Machu Picchu?",
+          es: "¿Cómo transportaron los Incas las pesadas piedras para construir Machu Picchu?",
+          de: "Wie transportierten die Inkas die schweren Steine zum Bau von Machu Picchu?",
+          nl: "Hoe vervoerden de Inca's de zware stenen om Machu Picchu te bouwen?"
+        },
+        options: [
+          { en: "Using wheeled carts", es: "Usando carretas con ruedas", de: "Mit Rollwagen", nl: "Met karren op wielen" },
+          { en: "With manual labor using ropes and ramps", es: "Con trabajo manual usando cuerdas y rampas", de: "Mit manueller Arbeit mittels Seilen und Rampen", nl: "Met handarbeid met touwen en hellingen" },
+          { en: "With elephants", es: "Con elefantes", de: "Mit Elefanten", nl: "Met olifanten" },
+          { en: "They used helicopters", es: "Usaron helicópteros", de: "Sie benutzten Hubschrauber", nl: "Ze gebruikten helikopters" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Incas did not have wheeled vehicles or draft animals. They transported stones using human labor with ropes, logs as rollers, and ramps.",
+          es: "Los Incas no tenían vehículos con ruedas ni animales de tiro. Transportaban piedras usando trabajo humano con cuerdas, troncos como rodillos y rampas.",
+          de: "Die Inkas hatten keine Radfahrzeuge oder Zugtiere. Sie transportierten Steine mit menschlicher Arbeitskraft unter Verwendung von Seilen, Baumstämmen als Rollen und Rampen.",
+          nl: "De Inca's hadden geen voertuigen met wielen of trekdieren. Ze vervoerden stenen met menselijke arbeid met touwen, boomstammen als rollen en hellingen."
+        }
+      },
+      {
+        question: {
+          en: "What crops were NOT grown at Machu Picchu?",
+          es: "¿Qué cultivos NO se cultivaron en Machu Picchu?",
+          de: "Welche Pflanzen wurden NICHT in Machu Picchu angebaut?",
+          nl: "Welke gewassen werden NIET verbouwd in Machu Picchu?"
+        },
+        options: [
+          { en: "Quinoa", es: "Quinua", de: "Quinoa", nl: "Quinoa" },
+          { en: "Potatoes", es: "Papas", de: "Kartoffeln", nl: "Aardappelen" },
+          { en: "Wheat", es: "Trigo", de: "Weizen", nl: "Tarwe" },
+          { en: "Corn", es: "Maíz", de: "Mais", nl: "Maïs" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Wheat is not native to South America and was introduced by Europeans. The Incas grew native crops like quinoa, potatoes, and corn.",
+          es: "El trigo no es nativo de Sudamérica y fue introducido por los europeos. Los Incas cultivaban cultivos nativos como quinua, papas y maíz.",
+          de: "Weizen ist in Südamerika nicht heimisch und wurde von Europäern eingeführt. Die Inkas bauten einheimische Pflanzen wie Quinoa, Kartoffeln und Mais an.",
+          nl: "Tarwe is niet inheems in Zuid-Amerika en werd door Europeanen geïntroduceerd. De Inca's verbouwden inheemse gewassen zoals quinoa, aardappelen en maïs."
+        }
+      },
+      {
+        question: {
+          en: "What is the Room of the Three Niches?",
+          es: "¿Qué es la Habitación de los Tres Nichos?",
+          de: "Was ist der Raum der Drei Nischen?",
+          nl: "Wat is de Kamer van de Drie Nissen?"
+        },
+        options: [
+          { en: "A storage room", es: "Una sala de almacenamiento", de: "Ein Lagerraum", nl: "Een opslagruimte" },
+          { en: "A religious or ceremonial room", es: "Una sala religiosa o ceremonial", de: "Ein religiöser oder zeremonieller Raum", nl: "Een religieuze of ceremoniële ruimte" },
+          { en: "A kitchen", es: "Una cocina", de: "Eine Küche", nl: "Een keuken" },
+          { en: "A prison cell", es: "Una celda de prisión", de: "Eine Gefängniszelle", nl: "Een gevangeniscel" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Room of the Three Niches is believed to have been a religious or ceremonial space, with three trapezoidal niches that may have held sacred objects or mummies.",
+          es: "Se cree que la Habitación de los Tres Nichos fue un espacio religioso o ceremonial, con tres nichos trapezoidales que pudieron haber sostenido objetos sagrados o momias.",
+          de: "Es wird angenommen, dass der Raum der Drei Nischen ein religiöser oder zeremonieller Raum war, mit drei trapezförmigen Nischen, die heilige Objekte oder Mumien enthalten haben könnten.",
+          nl: "Er wordt aangenomen dat de Kamer van de Drie Nissen een religieuze of ceremoniële ruimte was, met drie trapeziumvormige nissen die mogelijk heilige voorwerpen of mummies bevatten."
+        }
+      },
+      {
+        question: {
+          en: "What modern threat concerns conservationists at Machu Picchu?",
+          es: "¿Qué amenaza moderna preocupa a los conservacionistas en Machu Picchu?",
+          de: "Welche moderne Bedrohung beunruhigt Naturschützer in Machu Picchu?",
+          nl: "Welke moderne bedreiging baart natuurbeschermers zorgen in Machu Picchu?"
+        },
+        options: [
+          { en: "War", es: "Guerra", de: "Krieg", nl: "Oorlog" },
+          { en: "Over-tourism and erosion", es: "Sobreturismo y erosión", de: "Übertourismus und Erosion", nl: "Overtoerisme en erosie" },
+          { en: "Volcanic eruptions", es: "Erupciones volcánicas", de: "Vulkanausbrüche", nl: "Vulkaanuitbarstingen" },
+          { en: "Hurricanes", es: "Huracanes", de: "Hurrikane", nl: "Orkanen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Over-tourism is a major concern, with millions of visitors causing wear on the ancient structures. Visitor limits and timed entry tickets have been introduced to protect the site.",
+          es: "El sobreturismo es una gran preocupación, con millones de visitantes causando desgaste en las estructuras antiguas. Se han introducido límites de visitantes y boletos de entrada programados para proteger el sitio.",
+          de: "Übertourismus ist ein großes Problem, wobei Millionen von Besuchern Verschleiß an den alten Strukturen verursachen. Besucherlimits und zeitgesteuerte Eintrittskarten wurden eingeführt, um die Stätte zu schützen.",
+          nl: "Overtoerisme is een grote zorg, waarbij miljoenen bezoekers slijtage veroorzaken aan de oude structuren. Bezoekerslimieten en getimede toegangskaarten zijn ingevoerd om de site te beschermen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Royal Sector' of Machu Picchu?",
+          es: "¿Qué es el 'Sector Real' de Machu Picchu?",
+          de: "Was ist der 'Königliche Sektor' von Machu Picchu?",
+          nl: "Wat is de 'Koninklijke Sector' van Machu Picchu?"
+        },
+        options: [
+          { en: "The area with the finest stonework and elite residences", es: "El área con el mejor trabajo de piedra y residencias de élite", de: "Der Bereich mit der feinsten Steinarbeit und Elite-Residenzen", nl: "Het gebied met het fijnste steenwerk en elite-woningen" },
+          { en: "The farming terraces", es: "Las terrazas de cultivo", de: "Die Anbauterrassen", nl: "De landbouwterrassen" },
+          { en: "The market area", es: "El área del mercado", de: "Der Marktbereich", nl: "Het marktgebied" },
+          { en: "The military zone", es: "La zona militar", de: "Die Militärzone", nl: "De militaire zone" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Royal Sector contains the finest stonework at Machu Picchu and was likely home to the emperor and nobility, including Pachacuti's palace.",
+          es: "El Sector Real contiene el mejor trabajo de piedra en Machu Picchu y probablemente fue el hogar del emperador y la nobleza, incluido el palacio de Pachacuti.",
+          de: "Der Königliche Sektor enthält die feinste Steinarbeit in Machu Picchu und war wahrscheinlich die Heimat des Kaisers und des Adels, einschließlich Pachacutis Palast.",
+          nl: "De Koninklijke Sector bevat het fijnste steenwerk in Machu Picchu en was waarschijnlijk de thuisbasis van de keizer en de adel, inclusief het paleis van Pachacuti."
+        }
+      },
+      {
+        question: {
+          en: "How long does it take to hike the Classic Inca Trail to Machu Picchu?",
+          es: "¿Cuánto tiempo se tarda en hacer la caminata del Camino Inca Clásico a Machu Picchu?",
+          de: "Wie lange dauert es, den klassischen Inka-Pfad nach Machu Picchu zu wandern?",
+          nl: "Hoe lang duurt het om het Klassieke Inca-pad naar Machu Picchu te wandelen?"
+        },
+        options: [
+          { en: "1 day", es: "1 día", de: "1 Tag", nl: "1 dag" },
+          { en: "2 days", es: "2 días", de: "2 Tage", nl: "2 dagen" },
+          { en: "4 days", es: "4 días", de: "4 Tage", nl: "4 dagen" },
+          { en: "7 days", es: "7 días", de: "7 Tage", nl: "7 dagen" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Classic Inca Trail is a 4-day, 3-night trek covering about 42 km (26 miles) through diverse landscapes and Inca ruins before reaching Machu Picchu.",
+          es: "El Camino Inca Clásico es una caminata de 4 días y 3 noches que cubre unos 42 km (26 millas) a través de diversos paisajes y ruinas incas antes de llegar a Machu Picchu.",
+          de: "Der klassische Inka-Pfad ist eine 4-tägige, 3-nächtige Wanderung über etwa 42 km durch verschiedene Landschaften und Inka-Ruinen, bevor man Machu Picchu erreicht.",
+          nl: "Het Klassieke Inca-pad is een 4-daagse, 3-nachten durende trektocht van ongeveer 42 km door diverse landschappen en Inca-ruïnes voordat je Machu Picchu bereikt."
+        }
+      },
+      {
+        question: {
+          en: "What astronomical event can be observed at the Intihuatana stone during equinoxes?",
+          es: "¿Qué evento astronómico se puede observar en la piedra Intihuatana durante los equinoccios?",
+          de: "Welches astronomische Ereignis kann am Intihuatana-Stein während der Tagundnachtgleichen beobachtet werden?",
+          nl: "Welke astronomische gebeurtenis kan worden waargenomen bij de Intihuatana-steen tijdens equinoxen?"
+        },
+        options: [
+          { en: "The stone casts almost no shadow at noon", es: "La piedra casi no proyecta sombra al mediodía", de: "Der Stein wirft mittags fast keinen Schatten", nl: "De steen werpt 's middags bijna geen schaduw" },
+          { en: "It glows in the dark", es: "Brilla en la oscuridad", de: "Es leuchtet im Dunkeln", nl: "Het licht op in het donker" },
+          { en: "The moon aligns with it", es: "La luna se alinea con ella", de: "Der Mond richtet sich daran aus", nl: "De maan lijnt ermee uit" },
+          { en: "Stars reflect off it", es: "Las estrellas se reflejan en ella", de: "Sterne spiegeln sich darin", nl: "Sterren weerspiegelen erop" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "At the equinoxes, the sun stands directly above the Intihuatana stone at midday, casting almost no shadow - a phenomenon the Incas used to track seasons.",
+          es: "En los equinoccios, el sol se para directamente sobre la piedra Intihuatana al mediodía, proyectando casi ninguna sombra - un fenómeno que los Incas usaban para rastrear las estaciones.",
+          de: "Bei den Tagundnachtgleichen steht die Sonne mittags direkt über dem Intihuatana-Stein und wirft fast keinen Schatten - ein Phänomen, das die Inkas zur Verfolgung der Jahreszeiten nutzten.",
+          nl: "Tijdens de equinoxen staat de zon direct boven de Intihuatana-steen op de middag en werpt bijna geen schaduw - een fenomeen dat de Inca's gebruikten om seizoenen te volgen."
+        }
+      },
+      {
+        question: {
+          en: "What was the purpose of the Watchman's Hut?",
+          es: "¿Cuál era el propósito de la Cabaña del Vigilante?",
+          de: "Was war der Zweck der Wächterhütte?",
+          nl: "Wat was het doel van de Wachtershut?"
+        },
+        options: [
+          { en: "To guard the entrance and provide a viewpoint", es: "Guardar la entrada y proporcionar un mirador", de: "Den Eingang zu bewachen und einen Aussichtspunkt zu bieten", nl: "De ingang bewaken en een uitkijkpunt bieden" },
+          { en: "To store weapons", es: "Almacenar armas", de: "Waffen zu lagern", nl: "Wapens opslaan" },
+          { en: "To house the emperor", es: "Alojar al emperador", de: "Den Kaiser zu beherbergen", nl: "De keizer huisvesten" },
+          { en: "To cook food", es: "Cocinar comida", de: "Essen zu kochen", nl: "Voedsel koken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Watchman's Hut is positioned at the entrance with excellent views of the entire site, likely used by guards to monitor arrivals and the surrounding area.",
+          es: "La Cabaña del Vigilante está situada en la entrada con excelentes vistas de todo el sitio, probablemente utilizada por guardias para monitorear llegadas y el área circundante.",
+          de: "Die Wächterhütte befindet sich am Eingang mit ausgezeichneter Sicht auf die gesamte Stätte, wahrscheinlich von Wächtern genutzt, um Ankömmlinge und die Umgebung zu überwachen.",
+          nl: "De Wachtershut is gepositioneerd bij de ingang met uitstekend uitzicht op de hele site, waarschijnlijk gebruikt door wachters om aankomsten en de omgeving te monitoren."
+        }
+      },
+      {
+        question: {
+          en: "What evidence suggests Machu Picchu was never completed?",
+          es: "¿Qué evidencia sugiere que Machu Picchu nunca se completó?",
+          de: "Welche Beweise deuten darauf hin, dass Machu Picchu nie fertiggestellt wurde?",
+          nl: "Welk bewijs suggereert dat Machu Picchu nooit werd voltooid?"
+        },
+        options: [
+          { en: "Some structures have unfinished stonework", es: "Algunas estructuras tienen trabajo de piedra inacabado", de: "Einige Strukturen haben unvollendete Steinarbeit", nl: "Sommige structuren hebben onafgemaakt steenwerk" },
+          { en: "There are no unfinished parts", es: "No hay partes inacabadas", de: "Es gibt keine unfertigen Teile", nl: "Er zijn geen onafgemaakte delen" },
+          { en: "All buildings were demolished", es: "Todos los edificios fueron demolidos", de: "Alle Gebäude wurden abgerissen", nl: "Alle gebouwen werden gesloopt" },
+          { en: "It was built in modern times", es: "Fue construido en tiempos modernos", de: "Es wurde in der Neuzeit gebaut", nl: "Het werd in moderne tijden gebouwd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Some structures at Machu Picchu show unfinished stonework, suggesting construction was still ongoing when the site was abandoned during the Spanish conquest.",
+          es: "Algunas estructuras en Machu Picchu muestran trabajo de piedra inacabado, sugiriendo que la construcción aún estaba en curso cuando el sitio fue abandonado durante la conquista española.",
+          de: "Einige Strukturen in Machu Picchu zeigen unvollendete Steinarbeit, was darauf hindeutet, dass der Bau noch im Gange war, als die Stätte während der spanischen Eroberung aufgegeben wurde.",
+          nl: "Sommige structuren in Machu Picchu tonen onafgemaakt steenwerk, wat suggereert dat de bouw nog bezig was toen de site werd verlaten tijdens de Spaanse verovering."
+        }
+      },
+      {
+        question: {
+          en: "What connects the terraces to prevent landslides?",
+          es: "¿Qué conecta las terrazas para prevenir deslizamientos de tierra?",
+          de: "Was verbindet die Terrassen, um Erdrutsche zu verhindern?",
+          nl: "Wat verbindt de terrassen om aardverschuivingen te voorkomen?"
+        },
+        options: [
+          { en: "Concrete foundations", es: "Cimientos de concreto", de: "Betonfundamente", nl: "Betonnen funderingen" },
+          { en: "Deep drainage layers with gravel and rocks", es: "Capas de drenaje profundas con grava y rocas", de: "Tiefe Drainageschichten mit Kies und Steinen", nl: "Diepe drainagelagen met grind en rotsen" },
+          { en: "Metal rods", es: "Varillas de metal", de: "Metallstangen", nl: "Metalen staven" },
+          { en: "Wooden posts", es: "Postes de madera", de: "Holzpfosten", nl: "Houten palen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The terraces have sophisticated drainage systems with deep layers of gravel, sand, and rocks beneath the topsoil to prevent water accumulation and landslides.",
+          es: "Las terrazas tienen sistemas de drenaje sofisticados con capas profundas de grava, arena y rocas debajo de la capa superficial del suelo para prevenir acumulación de agua y deslizamientos de tierra.",
+          de: "Die Terrassen haben ausgeklügelte Drainagesysteme mit tiefen Schichten aus Kies, Sand und Steinen unter dem Mutterboden, um Wasseransammlung und Erdrutsche zu verhindern.",
+          nl: "De terrassen hebben geavanceerde drainagesystemen met diepe lagen grind, zand en rotsen onder de bovengrond om waterophoping en aardverschuivingen te voorkomen."
+        }
+      },
+      {
+        question: {
+          en: "What is the significance of the trapezoidal shape used in Inca architecture?",
+          es: "¿Cuál es la importancia de la forma trapezoidal utilizada en la arquitectura Inca?",
+          de: "Was ist die Bedeutung der trapezförmigen Form in der Inka-Architektur?",
+          nl: "Wat is de betekenis van de trapeziumvorm gebruikt in Inca-architectuur?"
+        },
+        options: [
+          { en: "It was purely decorative", es: "Era puramente decorativa", de: "Es war rein dekorativ", nl: "Het was puur decoratief" },
+          { en: "It provides stability against earthquakes", es: "Proporciona estabilidad contra terremotos", de: "Es bietet Stabilität gegen Erdbeben", nl: "Het biedt stabiliteit tegen aardbevingen" },
+          { en: "It was easier to build", es: "Era más fácil de construir", de: "Es war einfacher zu bauen", nl: "Het was gemakkelijker te bouwen" },
+          { en: "It represented wealth", es: "Representaba riqueza", de: "Es repräsentierte Reichtum", nl: "Het vertegenwoordigde welvaart" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The trapezoidal shape with wider bases provides exceptional structural stability, making buildings more resistant to earthquakes common in the Andes region.",
+          es: "La forma trapezoidal con bases más anchas proporciona una estabilidad estructural excepcional, haciendo los edificios más resistentes a los terremotos comunes en la región andina.",
+          de: "Die trapezförmige Form mit breiteren Basen bietet außergewöhnliche strukturelle Stabilität und macht Gebäude widerstandsfähiger gegen Erdbeben, die in der Andenregion üblich sind.",
+          nl: "De trapeziumvorm met bredere bases biedt uitzonderlijke structurele stabiliteit, waardoor gebouwen beter bestand zijn tegen aardbevingen die veel voorkomen in de Andes-regio."
+        }
+      },
+      {
+        question: {
+          en: "What viewing restriction was introduced at Machu Picchu in 2019?",
+          es: "¿Qué restricción de visualización se introdujo en Machu Picchu en 2019?",
+          de: "Welche Besichtigungsbeschränkung wurde 2019 in Machu Picchu eingeführt?",
+          nl: "Welke bezichtigingsbeperking werd in 2019 ingevoerd in Machu Picchu?"
+        },
+        options: [
+          { en: "Visitors must now enter at specific time slots", es: "Los visitantes ahora deben entrar en horarios específicos", de: "Besucher müssen nun zu bestimmten Zeitfenstern eintreten", nl: "Bezoekers moeten nu op specifieke tijdslots binnenkomen" },
+          { en: "Photography is completely banned", es: "La fotografía está completamente prohibida", de: "Fotografie ist vollständig verboten", nl: "Fotografie is volledig verboden" },
+          { en: "Only scientists can visit", es: "Solo científicos pueden visitar", de: "Nur Wissenschaftler können besuchen", nl: "Alleen wetenschappers kunnen bezoeken" },
+          { en: "Visitors must be Peruvian citizens", es: "Los visitantes deben ser ciudadanos peruanos", de: "Besucher müssen peruanische Staatsbürger sein", nl: "Bezoekers moeten Peruaanse burgers zijn" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "To protect the site from over-tourism, Peru introduced timed entry tickets in 2019, limiting visitor numbers and requiring specific entry time slots.",
+          es: "Para proteger el sitio del sobreturismo, Perú introdujo boletos de entrada programados en 2019, limitando el número de visitantes y requiriendo franjas horarias específicas de entrada.",
+          de: "Um die Stätte vor Übertourismus zu schützen, führte Peru 2019 zeitgesteuerte Eintrittskarten ein, die die Besucherzahlen begrenzen und bestimmte Eintrittszeitfenster erfordern.",
+          nl: "Om de site te beschermen tegen overtoerisme, introduceerde Peru in 2019 getimede toegangskaarten, die het aantal bezoekers beperken en specifieke toegangstijdslots vereisen."
+        }
+      },
+      {
+        question: {
+          en: "What typically happens at Machu Picchu on June 21st each year?",
+          es: "¿Qué ocurre típicamente en Machu Picchu el 21 de junio de cada año?",
+          de: "Was passiert normalerweise am 21. Juni jeden Jahres in Machu Picchu?",
+          nl: "Wat gebeurt er doorgaans op 21 juni elk jaar in Machu Picchu?"
+        },
+        options: [
+          { en: "Winter solstice celebrations", es: "Celebraciones del solsticio de invierno", de: "Wintersonnenwende-Feierlichkeiten", nl: "Winterzonnewende-vieringen" },
+          { en: "Summer music festival", es: "Festival de música de verano", de: "Sommer-Musikfestival", nl: "Zomermuziekfestival" },
+          { en: "Marathon race", es: "Carrera de maratón", de: "Marathonlauf", nl: "Marathonrace" },
+          { en: "Closing for maintenance", es: "Cierre por mantenimiento", de: "Schließung wegen Wartung", nl: "Sluiting voor onderhoud" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "June 21st marks the winter solstice in the Southern Hemisphere. Special ceremonies are held at Machu Picchu to celebrate Inti Raymi (Festival of the Sun), an important Inca tradition.",
+          es: "El 21 de junio marca el solsticio de invierno en el Hemisferio Sur. Se realizan ceremonias especiales en Machu Picchu para celebrar el Inti Raymi (Festival del Sol), una importante tradición Inca.",
+          de: "Der 21. Juni markiert die Wintersonnenwende auf der Südhalbkugel. In Machu Picchu werden besondere Zeremonien abgehalten, um Inti Raymi (Sonnenfest), eine wichtige Inka-Tradition, zu feiern.",
+          nl: "21 juni markeert de winterzonnewende op het zuidelijk halfrond. Er worden speciale ceremonies gehouden in Machu Picchu om Inti Raymi (Festival van de Zon), een belangrijke Inca-traditie, te vieren."
+        }
+      },
+      {
+        question: {
+          en: "What year did Machu Picchu become a World Heritage Site?",
+          es: "¿En qué año Machu Picchu se convirtió en Patrimonio Mundial?",
+          de: "In welchem Jahr wurde Machu Picchu zum Welterbe?",
+          nl: "In welk jaar werd Machu Picchu werelderfgoed?"
+        },
+        options: [
+          { en: "1972", es: "1972", de: "1972", nl: "1972" },
+          { en: "1983", es: "1983", de: "1983", nl: "1983" },
+          { en: "1991", es: "1991", de: "1991", nl: "1991" },
+          { en: "2007", es: "2007", de: "2007", nl: "2007" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "UNESCO declared Machu Picchu a World Heritage Site in 1983, recognizing its cultural and natural significance.",
+          es: "La UNESCO declaró a Machu Picchu Patrimonio Mundial en 1983, reconociendo su importancia cultural y natural.",
+          de: "Die UNESCO erklärte Machu Picchu 1983 zum Welterbe und erkannte seine kulturelle und natürliche Bedeutung an.",
+          nl: "UNESCO verklaarde Machu Picchu in 1983 tot werelderfgoed, waarbij de culturele en natuurlijke betekenis werd erkend."
+        }
       }
     ]
   };

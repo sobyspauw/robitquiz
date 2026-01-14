@@ -427,8 +427,428 @@
           de: "Die Südalpen schützen Marlborough vor westlichem Regen und schaffen ein sonniges, trockenes Klima ideal für Sauvignon Blanc-Produktion.",
           nl: "De Zuidelijke Alpen beschermen Marlborough tegen westelijke regen, wat een zonnig, droog klimaat creëert ideaal voor Sauvignon Blanc productie."
         }
+    },
+    {
+      question: {
+        en: "Which region produces the most expensive wines in the world?",
+        es: "¿Qué región produce los vinos más caros del mundo?",
+        de: "Welche Region produziert die teuersten Weine der Welt?",
+        nl: "Welke regio produceert de duurste wijnen ter wereld?"
+      },
+      options: [
+        { en: "Bordeaux, France", es: "Burdeos, Francia", de: "Bordeaux, Frankreich", nl: "Bordeaux, Frankrijk" },
+        { en: "Napa Valley, USA", es: "Valle de Napa, EE.UU.", de: "Napa Valley, USA", nl: "Napa Valley, VS" },
+        { en: "Tuscany, Italy", es: "Toscana, Italia", de: "Toskana, Italien", nl: "Toscane, Italië" },
+        { en: "Burgundy, France", es: "Borgoña, Francia", de: "Burgund, Frankreich", nl: "Bourgogne, Frankrijk" }
+      ],
+      correct: 3,
+      explanation: {
+        en: "Burgundy produces the world's most expensive wines, with Grand Crus like Romanée-Conti regularly exceeding $20,000 per bottle.",
+        es: "Borgoña produce los vinos más caros del mundo, con Grand Crus como Romanée-Conti que regularmente superan los $20,000 por botella.",
+        de: "Burgund produziert die teuersten Weine der Welt, wobei Grand Crus wie Romanée-Conti regelmäßig $20.000 pro Flasche übersteigen.",
+        nl: "Bourgogne produceert 's werelds duurste wijnen, waarbij Grand Crus zoals Romanée-Conti regelmatig meer dan $20.000 per fles kosten."
       }
-    ]
+    },
+    {
+      question: {
+        en: "Which Italian region is known as 'Super Tuscan' wine territory?",
+        es: "¿Qué región italiana es conocida por los vinos 'Super Tuscans'?",
+        de: "Welche italienische Region ist als 'Super Tuscan'-Weingebiet bekannt?",
+        nl: "Welke Italiaanse regio staat bekend als 'Super Tuscan' wijngebied?"
+      },
+      options: [
+        { en: "Piedmont", es: "Piamonte", de: "Piemont", nl: "Piëmont" },
+        { en: "Bolgheri", es: "Bolgheri", de: "Bolgheri", nl: "Bolgheri" },
+        { en: "Veneto", es: "Véneto", de: "Venetien", nl: "Veneto" },
+        { en: "Sicily", es: "Sicilia", de: "Sizilien", nl: "Sicilië" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Bolgheri in Tuscany is famous for Super Tuscan wines like Sassicaia and Ornellaia, which blend international grape varieties.",
+        es: "Bolgheri en Toscana es famoso por vinos Super Tuscans como Sassicaia y Ornellaia, que mezclan variedades de uva internacionales.",
+        de: "Bolgheri in der Toskana ist berühmt für Super Tuscan-Weine wie Sassicaia und Ornellaia, die internationale Rebsorten mischen.",
+        nl: "Bolgheri in Toscane is beroemd om Super Tuscan wijnen zoals Sassicaia en Ornellaia, die internationale druivenrassen mengen."
+      }
+    },
+    {
+      question: {
+        en: "Which Rhône Valley appellation produces only white wine?",
+        es: "¿Qué denominación del Valle del Ródano produce solo vino blanco?",
+        de: "Welche Rhône-Tal-Appellation produziert nur Weißwein?",
+        nl: "Welke Rhône-vallei appellation produceert alleen witte wijn?"
+      },
+      options: [
+        { en: "Châteauneuf-du-Pape", es: "Châteauneuf-du-Pape", de: "Châteauneuf-du-Pape", nl: "Châteauneuf-du-Pape" },
+        { en: "Condrieu", es: "Condrieu", de: "Condrieu", nl: "Condrieu" },
+        { en: "Hermitage", es: "Hermitage", de: "Hermitage", nl: "Hermitage" },
+        { en: "Gigondas", es: "Gigondas", de: "Gigondas", nl: "Gigondas" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Condrieu exclusively produces white wine from Viognier grapes, known for its aromatic, full-bodied character.",
+        es: "Condrieu produce exclusivamente vino blanco de uvas Viognier, conocido por su carácter aromático y con cuerpo.",
+        de: "Condrieu produziert ausschließlich Weißwein aus Viognier-Trauben, bekannt für seinen aromatischen, vollmundigen Charakter.",
+        nl: "Condrieu produceert uitsluitend witte wijn van Viognier druiven, bekend om zijn aromatische, volle karakter."
+      }
+    },
+    {
+      question: {
+        en: "What is the warmest major wine region in France?",
+        es: "¿Cuál es la región vinícola principal más cálida de Francia?",
+        de: "Was ist die wärmste bedeutende Weinregion in Frankreich?",
+        nl: "Wat is de warmste belangrijke wijnregio in Frankrijk?"
+      },
+      options: [
+        { en: "Bordeaux", es: "Burdeos", de: "Bordeaux", nl: "Bordeaux" },
+        { en: "Languedoc-Roussillon", es: "Languedoc-Rosellón", de: "Languedoc-Roussillon", nl: "Languedoc-Roussillon" },
+        { en: "Loire Valley", es: "Valle del Loira", de: "Loiretal", nl: "Loirevallei" },
+        { en: "Alsace", es: "Alsacia", de: "Elsass", nl: "Elzas" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Languedoc-Roussillon in southern France has the warmest climate, producing robust reds and rosés.",
+        es: "Languedoc-Rosellón en el sur de Francia tiene el clima más cálido, produciendo tintos y rosados robustos.",
+        de: "Languedoc-Roussillon in Südfrankreich hat das wärmste Klima und produziert kräftige Rot- und Roséweine.",
+        nl: "Languedoc-Roussillon in Zuid-Frankrijk heeft het warmste klimaat en produceert robuuste rode en rosé wijnen."
+      }
+    },
+    {
+      question: {
+        en: "Which wine region spans both France and Germany?",
+        es: "¿Qué región vinícola abarca tanto Francia como Alemania?",
+        de: "Welche Weinregion erstreckt sich über Frankreich und Deutschland?",
+        nl: "Welke wijnregio beslaat zowel Frankrijk als Duitsland?"
+      },
+      options: [
+        { en: "Champagne", es: "Champagne", de: "Champagne", nl: "Champagne" },
+        { en: "Alsace/Elsass", es: "Alsacia/Elsass", de: "Elsass/Alsace", nl: "Elzas/Elsass" },
+        { en: "Burgundy", es: "Borgoña", de: "Burgund", nl: "Bourgogne" },
+        { en: "Loire", es: "Loira", de: "Loire", nl: "Loire" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Alsace (France) and its German counterpart Elsass share similar grape varieties and winemaking traditions along the Rhine River.",
+        es: "Alsacia (Francia) y su contraparte alemana Elsass comparten variedades de uva y tradiciones vinícolas similares a lo largo del río Rin.",
+        de: "Das Elsass (Frankreich) und sein deutsches Pendant teilen ähnliche Rebsorten und Weintraditionen entlang des Rheins.",
+        nl: "Elzas (Frankrijk) en zijn Duitse tegenhanger delen vergelijkbare druivenrassen en wijnmaagtradities langs de Rijn."
+      }
+    },
+    {
+      question: {
+        en: "Which region is famous for ice wine production?",
+        es: "¿Qué región es famosa por la producción de vino de hielo?",
+        de: "Welche Region ist berühmt für die Eisweinproduktion?",
+        nl: "Welke regio is beroemd om de productie van ijswijn?"
+      },
+      options: [
+        { en: "Bordeaux, France", es: "Burdeos, Francia", de: "Bordeaux, Frankreich", nl: "Bordeaux, Frankrijk" },
+        { en: "Niagara Peninsula, Canada", es: "Península del Niágara, Canadá", de: "Niagara-Halbinsel, Kanada", nl: "Niagara Schiereiland, Canada" },
+        { en: "Tuscany, Italy", es: "Toscana, Italia", de: "Toskana, Italien", nl: "Toscane, Italië" },
+        { en: "Mendoza, Argentina", es: "Mendoza, Argentina", de: "Mendoza, Argentinien", nl: "Mendoza, Argentinië" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "The Niagara Peninsula is world-renowned for ice wine (Eiswein), made from grapes frozen on the vine at -8°C or colder.",
+        es: "La Península del Niágara es mundialmente famosa por el vino de hielo (Eiswein), hecho de uvas congeladas en la vid a -8°C o más frío.",
+        de: "Die Niagara-Halbinsel ist weltberühmt für Eiswein, der aus bei -8°C oder kälter am Rebstock gefrorenen Trauben hergestellt wird.",
+        nl: "Het Niagara Schiereiland is wereldberoemd om ijswijn (Eiswein), gemaakt van druiven bevroren aan de wijnstok bij -8°C of kouder."
+      }
+    },
+    {
+      question: {
+        en: "Which region produces Amarone della Valpolicella?",
+        es: "¿Qué región produce Amarone della Valpolicella?",
+        de: "Welche Region produziert Amarone della Valpolicella?",
+        nl: "Welke regio produceert Amarone della Valpolicella?"
+      },
+      options: [
+        { en: "Piedmont", es: "Piamonte", de: "Piemont", nl: "Piëmont" },
+        { en: "Veneto", es: "Véneto", de: "Venetien", nl: "Veneto" },
+        { en: "Tuscany", es: "Toscana", de: "Toskana", nl: "Toscane" },
+        { en: "Lombardy", es: "Lombardía", de: "Lombardei", nl: "Lombardije" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Veneto produces Amarone using the appassimento method, where grapes are dried for 3-4 months before fermentation.",
+        es: "Véneto produce Amarone usando el método appassimento, donde las uvas se secan durante 3-4 meses antes de la fermentación.",
+        de: "Venetien produziert Amarone mit der Appassimento-Methode, bei der Trauben 3-4 Monate vor der Gärung getrocknet werden.",
+        nl: "Veneto produceert Amarone met de appassimento methode, waarbij druiven 3-4 maanden worden gedroogd voor fermentatie."
+      }
+    },
+    {
+      question: {
+        en: "Which wine region has the highest altitude vineyards?",
+        es: "¿Qué región vinícola tiene los viñedos de mayor altitud?",
+        de: "Welche Weinregion hat die höchstgelegenen Weinberge?",
+        nl: "Welke wijnregio heeft de hoogstgelegen wijngaarden?"
+      },
+      options: [
+        { en: "Rioja, Spain", es: "Rioja, España", de: "Rioja, Spanien", nl: "Rioja, Spanje" },
+        { en: "Salta, Argentina", es: "Salta, Argentina", de: "Salta, Argentinien", nl: "Salta, Argentinië" },
+        { en: "Douro, Portugal", es: "Duero, Portugal", de: "Douro, Portugal", nl: "Douro, Portugal" },
+        { en: "Mosel, Germany", es: "Mosela, Alemania", de: "Mosel, Deutschland", nl: "Moezel, Duitsland" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Salta in northwest Argentina has vineyards reaching 3,000+ meters altitude, producing exceptional Torrontés and Malbec.",
+        es: "Salta en el noroeste de Argentina tiene viñedos que alcanzan más de 3,000 metros de altitud, produciendo excepcionales Torrontés y Malbec.",
+        de: "Salta im Nordwesten Argentiniens hat Weinberge in über 3.000 Metern Höhe und produziert außergewöhnlichen Torrontés und Malbec.",
+        nl: "Salta in noordwest Argentinië heeft wijngaarden die meer dan 3.000 meter hoogte bereiken en uitzonderlijke Torrontés en Malbec produceren."
+      }
+    },
+    {
+      question: {
+        en: "Which Hungarian region is famous for Tokaji dessert wine?",
+        es: "¿Qué región húngara es famosa por el vino de postre Tokaji?",
+        de: "Welche ungarische Region ist für Tokaji-Dessertwein berühmt?",
+        nl: "Welke Hongaarse regio is beroemd om Tokaji dessertwijn?"
+      },
+      options: [
+        { en: "Eger", es: "Eger", de: "Eger", nl: "Eger" },
+        { en: "Villány", es: "Villány", de: "Villány", nl: "Villány" },
+        { en: "Tokaj-Hegyalja", es: "Tokaj-Hegyalja", de: "Tokaj-Hegyalja", nl: "Tokaj-Hegyalja" },
+        { en: "Sopron", es: "Sopron", de: "Sopron", nl: "Sopron" }
+      ],
+      correct: 2,
+      explanation: {
+        en: "Tokaj-Hegyalja produces the legendary Tokaji Aszú, made from botrytized grapes, treasured since the 16th century.",
+        es: "Tokaj-Hegyalja produce el legendario Tokaji Aszú, hecho de uvas botritizadas, atesorado desde el siglo XVI.",
+        de: "Tokaj-Hegyalja produziert den legendären Tokaji Aszú aus botrytisierten Trauben, geschätzt seit dem 16. Jahrhundert.",
+        nl: "Tokaj-Hegyalja produceert de legendarische Tokaji Aszú, gemaakt van botrytis druiven, gekoesterd sinds de 16e eeuw."
+      }
+    },
+    {
+      question: {
+        en: "Which Lebanese wine region is most internationally recognized?",
+        es: "¿Qué región vinícola libanesa es más reconocida internacionalmente?",
+        de: "Welche libanesische Weinregion ist international am bekanntesten?",
+        nl: "Welke Libanese wijnregio is internationaal het meest erkend?"
+      },
+      options: [
+        { en: "Bekaa Valley", es: "Valle de Bekaa", de: "Bekaa-Tal", nl: "Bekaa-vallei" },
+        { en: "Batroun", es: "Batroun", de: "Batroun", nl: "Batroun" },
+        { en: "Jezzine", es: "Jezzine", de: "Jezzine", nl: "Jezzine" },
+        { en: "Mount Lebanon", es: "Monte Líbano", de: "Libanongebirge", nl: "Libanon Berg" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Bekaa Valley produces 90% of Lebanese wine, with estates like Château Musar gaining international acclaim.",
+        es: "El Valle de Bekaa produce el 90% del vino libanés, con bodegas como Château Musar ganando aclamación internacional.",
+        de: "Das Bekaa-Tal produziert 90% des libanesischen Weins, wobei Güter wie Château Musar internationale Anerkennung erlangen.",
+        nl: "Bekaa-vallei produceert 90% van de Libanese wijn, waarbij landgoederen zoals Château Musar internationale erkenning krijgen."
+      }
+    },
+    {
+      question: {
+        en: "Which Slovenian region is known for orange wine production?",
+        es: "¿Qué región eslovena es conocida por la producción de vino naranja?",
+        de: "Welche slowenische Region ist für die Orange-Weinproduktion bekannt?",
+        nl: "Welke Sloveense regio staat bekend om de productie van oranje wijn?"
+      },
+      options: [
+        { en: "Primorska", es: "Primorska", de: "Primorska", nl: "Primorska" },
+        { en: "Podravje", es: "Podravje", de: "Podravje", nl: "Podravje" },
+        { en: "Posavje", es: "Posavje", de: "Posavje", nl: "Posavje" },
+        { en: "Prekmurje", es: "Prekmurje", de: "Prekmurje", nl: "Prekmurje" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Primorska, especially the Brda subregion, is famous for orange wines made by extended skin contact with white grapes.",
+        es: "Primorska, especialmente la subregión de Brda, es famosa por los vinos naranjas hechos con contacto prolongado de piel con uvas blancas.",
+        de: "Primorska, besonders die Subregion Brda, ist berühmt für Orange-Weine durch verlängerten Schalenkontakt mit weißen Trauben.",
+        nl: "Primorska, vooral de subregio Brda, is beroemd om oranje wijnen gemaakt door verlengd schilcontact met witte druiven."
+      }
+    },
+    {
+      question: {
+        en: "Which wine region in Washington State rivals Napa Valley?",
+        es: "¿Qué región vinícola en el Estado de Washington rivaliza con Napa Valley?",
+        de: "Welche Weinregion im Bundesstaat Washington konkurriert mit Napa Valley?",
+        nl: "Welke wijnregio in Washington State wedijvert met Napa Valley?"
+      },
+      options: [
+        { en: "Puget Sound", es: "Puget Sound", de: "Puget Sound", nl: "Puget Sound" },
+        { en: "Columbia Gorge", es: "Columbia Gorge", de: "Columbia Gorge", nl: "Columbia Gorge" },
+        { en: "Walla Walla Valley", es: "Valle de Walla Walla", de: "Walla Walla Valley", nl: "Walla Walla Valley" },
+        { en: "Yakima Valley", es: "Valle de Yakima", de: "Yakima Valley", nl: "Yakima Valley" }
+      ],
+      correct: 2,
+      explanation: {
+        en: "Walla Walla Valley produces premium Cabernet Sauvignon and Syrah, earning recognition alongside Napa's finest wines.",
+        es: "El Valle de Walla Walla produce Cabernet Sauvignon y Syrah premium, ganando reconocimiento junto a los mejores vinos de Napa.",
+        de: "Das Walla Walla Valley produziert Premium-Cabernet Sauvignon und Syrah und erhält Anerkennung neben Napas besten Weinen.",
+        nl: "Walla Walla Valley produceert premium Cabernet Sauvignon en Syrah en krijgt erkenning naast Napa's beste wijnen."
+      }
+    },
+    {
+      question: {
+        en: "Which English wine region is gaining international recognition?",
+        es: "¿Qué región vinícola inglesa está ganando reconocimiento internacional?",
+        de: "Welche englische Weinregion gewinnt internationale Anerkennung?",
+        nl: "Welke Engelse wijnregio krijgt internationale erkenning?"
+      },
+      options: [
+        { en: "Yorkshire", es: "Yorkshire", de: "Yorkshire", nl: "Yorkshire" },
+        { en: "Sussex", es: "Sussex", de: "Sussex", nl: "Sussex" },
+        { en: "Cornwall", es: "Cornualles", de: "Cornwall", nl: "Cornwall" },
+        { en: "Lake District", es: "Distrito de los Lagos", de: "Lake District", nl: "Lake District" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Sussex produces world-class sparkling wines on similar chalk soils to Champagne, winning international competitions.",
+        es: "Sussex produce vinos espumosos de clase mundial en suelos calcáreos similares a Champagne, ganando competiciones internacionales.",
+        de: "Sussex produziert erstklassige Schaumweine auf ähnlichen Kreideboden wie in der Champagne und gewinnt internationale Wettbewerbe.",
+        nl: "Sussex produceert wereldklasse mousserende wijnen op vergelijkbare kalkbodems als Champagne en wint internationale wedstrijden."
+      }
+    },
+    {
+      question: {
+        en: "Which Swiss wine region is largest by production?",
+        es: "¿Qué región vinícola suiza es la más grande por producción?",
+        de: "Welche Schweizer Weinregion ist die größte nach Produktion?",
+        nl: "Welke Zwitserse wijnregio is de grootste qua productie?"
+      },
+      options: [
+        { en: "Geneva", es: "Ginebra", de: "Genf", nl: "Genève" },
+        { en: "Ticino", es: "Tesino", de: "Tessin", nl: "Ticino" },
+        { en: "Valais", es: "Valais", de: "Wallis", nl: "Wallis" },
+        { en: "Zurich", es: "Zúrich", de: "Zürich", nl: "Zürich" }
+      ],
+      correct: 2,
+      explanation: {
+        en: "Valais produces over one-third of Swiss wine, known for Fendant (Chasselas) white wine and Petite Arvine.",
+        es: "Valais produce más de un tercio del vino suizo, conocido por el vino blanco Fendant (Chasselas) y Petite Arvine.",
+        de: "Wallis produziert über ein Drittel des Schweizer Weins, bekannt für Fendant (Chasselas)-Weißwein und Petite Arvine.",
+        nl: "Wallis produceert meer dan een derde van de Zwitserse wijn, bekend om Fendant (Chasselas) witte wijn en Petite Arvine."
+      }
+    },
+    {
+      question: {
+        en: "Which Israeli wine region is considered the premier quality area?",
+        es: "¿Qué región vinícola israelí se considera el área de calidad principal?",
+        de: "Welche israelische Weinregion gilt als führendes Qualitätsgebiet?",
+        nl: "Welke Israëlische wijnregio wordt beschouwd als het belangrijkste kwaliteitsgebied?"
+      },
+      options: [
+        { en: "Galilee", es: "Galilea", de: "Galiläa", nl: "Galilea" },
+        { en: "Negev", es: "Néguev", de: "Negev", nl: "Negev" },
+        { en: "Judean Hills", es: "Colinas de Judea", de: "Judäische Hügel", nl: "Judese Heuvels" },
+        { en: "Sharon Plain", es: "Llanura de Sarón", de: "Sharon-Ebene", nl: "Sharon-vlakte" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Galilee, particularly Upper Galilee and Golan Heights, produces Israel's finest wines with ideal elevation and climate.",
+        es: "Galilea, particularmente la Alta Galilea y los Altos del Golán, produce los mejores vinos de Israel con elevación y clima ideales.",
+        de: "Galiläa, besonders Obergaliläa und Golanhöhen, produziert Israels feinste Weine mit idealer Höhe und Klima.",
+        nl: "Galilea, met name Boven-Galilea en Golan Heights, produceert Israël's beste wijnen met ideale hoogte en klimaat."
+      }
+    },
+    {
+      question: {
+        en: "Which Croatian region produces Plavac Mali wine?",
+        es: "¿Qué región croata produce vino Plavac Mali?",
+        de: "Welche kroatische Region produziert Plavac Mali-Wein?",
+        nl: "Welke Kroatische regio produceert Plavac Mali wijn?"
+      },
+      options: [
+        { en: "Istria", es: "Istria", de: "Istrien", nl: "Istrië" },
+        { en: "Slavonia", es: "Eslavonia", de: "Slawonien", nl: "Slavonië" },
+        { en: "Dalmatia", es: "Dalmacia", de: "Dalmatien", nl: "Dalmatië" },
+        { en: "Zagorje", es: "Zagorje", de: "Zagorje", nl: "Zagorje" }
+      ],
+      correct: 2,
+      explanation: {
+        en: "Dalmatia's coastal region, especially Pelješac Peninsula, is famous for robust Plavac Mali red wines.",
+        es: "La región costera de Dalmacia, especialmente la Península de Pelješac, es famosa por los robustos vinos tintos Plavac Mali.",
+        de: "Dalmatiens Küstenregion, besonders die Halbinsel Pelješac, ist berühmt für kräftige Plavac Mali-Rotweine.",
+        nl: "Dalmatië's kustgebied, vooral het schiereiland Pelješac, is beroemd om robuuste Plavac Mali rode wijnen."
+      }
+    },
+    {
+      question: {
+        en: "Which Georgian region is the birthplace of wine (8,000 years ago)?",
+        es: "¿Qué región georgiana es el lugar de nacimiento del vino (hace 8,000 años)?",
+        de: "Welche georgische Region ist die Geburtsstätte des Weins (vor 8.000 Jahren)?",
+        nl: "Welke Georgische regio is de geboorteplaats van wijn (8.000 jaar geleden)?"
+      },
+      options: [
+        { en: "Racha", es: "Racha", de: "Racha", nl: "Racha" },
+        { en: "Kakheti", es: "Kajetia", de: "Kachetien", nl: "Kacheti" },
+        { en: "Imereti", es: "Imereti", de: "Imeretien", nl: "Imereti" },
+        { en: "Kartli", es: "Kartli", de: "Kartli", nl: "Kartli" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Kakheti produces 70% of Georgian wine and contains archaeological evidence of the world's oldest winemaking.",
+        es: "Kajetia produce el 70% del vino georgiano y contiene evidencia arqueológica de la vinificación más antigua del mundo.",
+        de: "Kachetien produziert 70% des georgischen Weins und enthält archäologische Beweise der ältesten Weinherstellung der Welt.",
+        nl: "Kacheti produceert 70% van de Georgische wijn en bevat archeologisch bewijs van 's werelds oudste wijnmakerij."
+      }
+    },
+    {
+      question: {
+        en: "Which Japanese wine region is most famous for quality production?",
+        es: "¿Qué región vinícola japonesa es más famosa por la producción de calidad?",
+        de: "Welche japanische Weinregion ist am berühmtesten für Qualitätsproduktion?",
+        nl: "Welke Japanse wijnregio is het meest beroemd om kwaliteitsproductie?"
+      },
+      options: [
+        { en: "Hokkaido", es: "Hokkaidō", de: "Hokkaidō", nl: "Hokkaido" },
+        { en: "Yamanashi", es: "Yamanashi", de: "Yamanashi", nl: "Yamanashi" },
+        { en: "Kyoto", es: "Kioto", de: "Kyōto", nl: "Kyoto" },
+        { en: "Osaka", es: "Osaka", de: "Ōsaka", nl: "Osaka" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Yamanashi, at the foot of Mt. Fuji, produces 40% of Japanese wine, known for Koshu white wine.",
+        es: "Yamanashi, al pie del Monte Fuji, produce el 40% del vino japonés, conocido por el vino blanco Koshu.",
+        de: "Yamanashi am Fuße des Berges Fuji produziert 40% des japanischen Weins, bekannt für Koshu-Weißwein.",
+        nl: "Yamanashi, aan de voet van de berg Fuji, produceert 40% van de Japanse wijn, bekend om Koshu witte wijn."
+      }
+    },
+    {
+      question: {
+        en: "Which Tasmanian region is acclaimed for sparkling wine?",
+        es: "¿Qué región de Tasmania es aclamada por el vino espumoso?",
+        de: "Welche tasmanische Region ist für Schaumwein bekannt?",
+        nl: "Welke Tasmaanse regio is geroemd om mousserende wijn?"
+      },
+      options: [
+        { en: "Coal River Valley", es: "Valle del Río Coal", de: "Coal River Valley", nl: "Coal River Valley" },
+        { en: "Tamar Valley", es: "Valle de Tamar", de: "Tamar Valley", nl: "Tamar Valley" },
+        { en: "Derwent Valley", es: "Valle de Derwent", de: "Derwent Valley", nl: "Derwent Valley" },
+        { en: "East Coast", es: "Costa Este", de: "Ostküste", nl: "Oostkust" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Tamar Valley's cool climate produces exceptional Champagne-method sparkling wines rivaling French quality.",
+        es: "El clima fresco del Valle de Tamar produce excepcionales vinos espumosos de método Champagne que rivalizan con la calidad francesa.",
+        de: "Das kühle Klima des Tamar Valley produziert außergewöhnliche Schaumweine nach Champagner-Methode, die mit französischer Qualität konkurrieren.",
+        nl: "Het koele klimaat van Tamar Valley produceert uitzonderlijke mousserende wijnen volgens de Champagne-methode die wedijveren met Franse kwaliteit."
+      }
+    },
+    {
+      question: {
+        en: "Which Uruguayan region is known for Tannat wine?",
+        es: "¿Qué región uruguaya es conocida por el vino Tannat?",
+        de: "Welche uruguayische Region ist für Tannat-Wein bekannt?",
+        nl: "Welke Uruguayaanse regio staat bekend om Tannat wijn?"
+      },
+      options: [
+        { en: "Maldonado", es: "Maldonado", de: "Maldonado", nl: "Maldonado" },
+        { en: "Canelones", es: "Canelones", de: "Canelones", nl: "Canelones" },
+        { en: "Colonia", es: "Colonia", de: "Colonia", nl: "Colonia" },
+        { en: "Salto", es: "Salto", de: "Salto", nl: "Salto" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Canelones produces 60% of Uruguayan wine and is the heartland of the country's signature Tannat grape.",
+        es: "Canelones produce el 60% del vino uruguayo y es el corazón de la uva Tannat emblemática del país.",
+        de: "Canelones produziert 60% des uruguayischen Weins und ist das Herzland der charakteristischen Tannat-Traube des Landes.",
+        nl: "Canelones produceert 60% van de Uruguayaanse wijn en is het hart van 's lands kenmerkende Tannat druif."
+      }
+    }
+  ]
   };
 
   // Export for use in the quiz application

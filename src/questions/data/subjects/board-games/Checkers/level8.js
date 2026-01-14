@@ -1605,7 +1605,18 @@
           es: "La resiliencia defensiva es la capacidad de encontrar máxima resistencia defensiva en posiciones inferiores, haciendo la tarea de ganar del oponente tan difícil como sea posible mediante defensa precisa y tenaz. Los defensores de campeonato no se rinden psicológicamente cuando están atrás; identifican recursos defensivos—fortalezas, posibilidades de jaque perpetuo, oportunidades de contraataque—y luchan por cada medio punto. La defensa resiliente requiere evaluación precisa reconociendo qué posiciones están objetivamente perdidas versus cuáles ofrecen esperanzas defensivas, luego ejecutando técnica perfecta en posiciones salvables. Esta resiliencia fuerza a oponentes a probar que pueden convertir ventajas, a menudo causándoles errar bajo presión. Muchos puntos de campeonato se salvan mediante resiliencia defensiva después de errores anteriores.",
           de: "Defensive Widerstandsfähigkeit ist die Fähigkeit, maximalen defensiven Widerstand in unterlegenen Positionen zu finden und die Gewinnaufgabe des Gegners durch präzise, hartnäckige Verteidigung so schwierig wie möglich zu machen. Meisterschaftsverteidiger geben psychologisch nicht auf, wenn sie hinten liegen; sie identifizieren Verteidigungsressourcen—Festungen, ewige Schach-Möglichkeiten, Gegenangriffschancen—und kämpfen um jeden halben Punkt. Widerstandsfähige Verteidigung erfordert genaue Bewertung, die erkennt, welche Positionen objektiv verloren sind versus welche defensive Hoffnungen bieten, dann perfekte Technik in rettbaren Positionen ausführt. Diese Widerstandsfähigkeit zwingt Gegner zu beweisen, dass sie Vorteile umwandeln können, was sie oft unter Druck zu Fehlern veranlasst. Viele Meisterschaftspunkte werden durch defensive Widerstandsfähigkeit nach früheren Fehlern gerettet.",
           nl: "Defensieve veerkracht is het vermogen om maximale defensieve weerstand te vinden in inferieure posities, waarbij de winnende taak van tegenstander zo moeilijk mogelijk wordt gemaakt door precieze, vasthoudende verdediging. Kampioenschaps verdedigers geven psychologisch niet op wanneer achter; ze identificeren defensieve hulpbronnen—forten, eeuwig schaak mogelijkheden, tegenaanval kansen—en vechten voor elk half punt. Veerkrachtige verdediging vereist nauwkeurige evaluatie waarbij wordt herkend welke posities objectief verloren zijn versus welke defensieve hoop bieden, vervolgens perfecte techniek uitvoeren in redbare posities. Deze veerkracht dwingt tegenstanders om te bewijzen dat ze voordelen kunnen omzetten, waarbij ze vaak fouten maken onder druk. Veel kampioenschaps punten worden gered door defensieve veerkracht na eerdere fouten."
-        }
+        }    },
+    {
+      question: {en: "What is strategy in games?", es: "What is strategy in games?", de: "What is strategy in games?", nl: "What is strategy in games?"},
+      options: [
+        {en: "Planning to achieve objectives", es: "Planning to achieve objectives", de: "Planning to achieve objectives", nl: "Planning to achieve objectives"},
+        {en: "Random moves", es: "Random moves", de: "Random moves", nl: "Random moves"},
+        {en: "Luck only", es: "Luck only", de: "Luck only", nl: "Luck only"},
+        {en: "No planning", es: "No planning", de: "No planning", nl: "No planning"}
+      ],
+      correct: 0,
+      explanation: {en: "Strategy involves planning and decision-making to achieve game objectives.", es: "Strategy involves planning and decision-making to achieve game objectives.", de: "Strategy involves planning and decision-making to achieve game objectives.", nl: "Strategy involves planning and decision-making to achieve game objectives."}
+
       }
     ]
   };

@@ -184,7 +184,7 @@
           nl: "Hoe lang moet je kippenbouillon doorgaans laten sudderen?"
         },
         options: [
-          { en: "30 minutes", es: "30 minutos", de: "30 Minuten", nl: "30 minuten" },
+          { en: "30 min", es: "30 minutos", de: "30 Minuten", nl: "30 minuten" },
           { en: "1 hour", es: "1 hora", de: "1 Stunde", nl: "1 uur" },
           { en: "2-3 hours", es: "2-3 horas", de: "2-3 Stunden", nl: "2-3 uur" },
           { en: "6-8 hours", es: "6-8 horas", de: "6-8 Stunden", nl: "6-8 uur" }
@@ -426,6 +426,426 @@
           es: "Siempre usa una cuchara limpia para probar la sopa mientras cocinas para mantener la higiene y prevenir la contaminación. Nunca pongas una cuchara usada de vuelta en la olla.",
           de: "Verwenden Sie immer einen sauberen Löffel, um die Suppe beim Kochen zu probieren, um die Hygiene zu wahren und Kontamination zu verhindern. Stecken Sie niemals einen benutzten Löffel zurück in den Topf.",
           nl: "Gebruik altijd een schone lepel om soep te proeven tijdens het koken om hygiëne te behouden en besmetting te voorkomen. Stop nooit een gebruikte lepel terug in de pan."
+        }
+      },
+      {
+        question: {
+          en: "What type of pot is best for making soup?",
+          es: "¿Qué tipo de olla es mejor para hacer sopa?",
+          de: "Welcher Topf ist am besten zum Suppenkochen geeignet?",
+          nl: "Welke pan is het beste voor het maken van soep?"
+        },
+        options: [
+          { en: "Frying pan", es: "Sartén", de: "Bratpfanne", nl: "Koekenpan" },
+          { en: "Large pot", es: "Olla grande", de: "Großer Topf", nl: "Grote pan" },
+          { en: "Baking dish", es: "Fuente para hornear", de: "Backform", nl: "Ovenschaal" },
+          { en: "Small saucepan", es: "Cacerola pequeña", de: "Kleiner Kochtopf", nl: "Kleine steelpan" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "A large pot provides ample space for ingredients to simmer together, allowing flavors to blend properly while preventing spillage.",
+          es: "Una olla grande proporciona amplio espacio para que los ingredientes se cocinen juntos, permitiendo que los sabores se mezclen adecuadamente mientras previene derrames.",
+          de: "Ein großer Topf bietet ausreichend Platz für die Zutaten zum gemeinsamen Köcheln und ermöglicht eine ordnungsgemäße Geschmacksentwicklung.",
+          nl: "Een grote pan biedt voldoende ruimte voor ingrediënten om samen te sudderen, waardoor smaken goed kunnen mengen en morsen wordt voorkomen."
+        }
+      },
+      {
+        question: {
+          en: "Which soup contains pasta and beans?",
+          es: "¿Qué sopa contiene pasta y frijoles?",
+          de: "Welche Suppe enthält Nudeln und Bohnen?",
+          nl: "Welke soep bevat pasta en bonen?"
+        },
+        options: [
+          { en: "Ramen", es: "Ramen", de: "Ramen", nl: "Ramen" },
+          { en: "Pasta e fagioli", es: "Pasta e fagioli", de: "Pasta e fagioli", nl: "Pasta e fagioli" },
+          { en: "Wonton soup", es: "Sopa wonton", de: "Wonton-Suppe", nl: "Wonton soep" },
+          { en: "Borscht", es: "Borscht", de: "Borschtsch", nl: "Borsjt" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Pasta e fagioli is a traditional Italian soup whose name literally means 'pasta and beans,' combining these two ingredients with vegetables and broth.",
+          es: "Pasta e fagioli es una sopa italiana tradicional cuyo nombre significa literalmente 'pasta y frijoles', combinando estos dos ingredientes con verduras y caldo.",
+          de: "Pasta e fagioli ist eine traditionelle italienische Suppe, deren Name wörtlich 'Nudeln und Bohnen' bedeutet und diese beiden Zutaten mit Gemüse und Brühe kombiniert.",
+          nl: "Pasta e fagioli is een traditionele Italiaanse soep waarvan de naam letterlijk 'pasta en bonen' betekent, waarbij deze twee ingrediënten worden gecombineerd met groenten en bouillon."
+        }
+      },
+      {
+        question: {
+          en: "What is a common garnish for soup?",
+          es: "¿Cuál es una guarnición común para la sopa?",
+          de: "Was ist eine übliche Garnitur für Suppe?",
+          nl: "Wat is een veelgebruikte garnering voor soep?"
+        },
+        options: [
+          { en: "Fresh herbs", es: "Hierbas frescas", de: "Frische Kräuter", nl: "Verse kruiden" },
+          { en: "Raw meat", es: "Carne cruda", de: "Rohes Fleisch", nl: "Rauw vlees" },
+          { en: "Chocolate chips", es: "Chispas de chocolate", de: "Schokoladenstückchen", nl: "Chocoladestukjes" },
+          { en: "Ice cubes", es: "Cubitos de hielo", de: "Eiswürfel", nl: "Ijsblokjes" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Fresh herbs like parsley, cilantro, or chives are commonly used to garnish soup, adding color, freshness, and complementary flavors.",
+          es: "Hierbas frescas como perejil, cilantro o cebollino se usan comúnmente para decorar la sopa, agregando color, frescura y sabores complementarios.",
+          de: "Frische Kräuter wie Petersilie, Koriander oder Schnittlauch werden häufig zur Garnitur von Suppen verwendet und verleihen Farbe, Frische und ergänzende Aromen.",
+          nl: "Verse kruiden zoals peterselie, koriander of bieslook worden vaak gebruikt om soep te garneren, wat kleur, frisheid en complementaire smaken toevoegt."
+        }
+      },
+      {
+        question: {
+          en: "What is French onion soup topped with?",
+          es: "¿Con qué se cubre la sopa de cebolla francesa?",
+          de: "Womit wird französische Zwiebelsuppe belegt?",
+          nl: "Waar wordt Franse uiensoep mee afgedekt?"
+        },
+        options: [
+          { en: "Whipped cream", es: "Crema batida", de: "Schlagsahne", nl: "Slagroom" },
+          { en: "Cheese and bread", es: "Queso y pan", de: "Käse und Brot", nl: "Kaas en brood" },
+          { en: "Bacon bits", es: "Trozos de tocino", de: "Speckwürfel", nl: "Spekjes" },
+          { en: "Croutons only", es: "Solo crutones", de: "Nur Croutons", nl: "Alleen croutons" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "French onion soup is traditionally topped with toasted bread and melted cheese, usually Gruyère, which forms a golden, bubbly crust.",
+          es: "La sopa de cebolla francesa se cubre tradicionalmente con pan tostado y queso derretido, generalmente Gruyère, que forma una costra dorada y burbujeante.",
+          de: "Französische Zwiebelsuppe wird traditionell mit geröstetem Brot und geschmolzenem Käse, meist Gruyère, belegt, der eine goldene, sprudelnde Kruste bildet.",
+          nl: "Franse uiensoep wordt traditioneel afgedekt met geroosterd brood en gesmolten kaas, meestal Gruyère, die een gouden, borrelende korst vormt."
+        }
+      },
+      {
+        question: {
+          en: "What color is tomato soup?",
+          es: "¿De qué color es la sopa de tomate?",
+          de: "Welche Farbe hat Tomatensuppe?",
+          nl: "Welke kleur heeft tomatensoep?"
+        },
+        options: [
+          { en: "Green", es: "Verde", de: "Grün", nl: "Groen" },
+          { en: "Red", es: "Rojo", de: "Rot", nl: "Rood" },
+          { en: "Blue", es: "Azul", de: "Blau", nl: "Blauw" },
+          { en: "Yellow", es: "Amarillo", de: "Gelb", nl: "Geel" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Tomato soup is red due to the natural color of tomatoes, which comes from the antioxidant lycopene that gives them their characteristic hue.",
+          es: "La sopa de tomate es roja debido al color natural de los tomates, que proviene del antioxidante licopeno que les da su tono característico.",
+          de: "Tomatensuppe ist rot aufgrund der natürlichen Farbe von Tomaten, die vom Antioxidans Lycopin stammt, das ihnen ihren charakteristischen Farbton verleiht.",
+          nl: "Tomatensoep is rood vanwege de natuurlijke kleur van tomaten, die afkomstig is van het antioxidant lycopeen dat hen hun karakteristieke tint geeft."
+        }
+      },
+      {
+        question: {
+          en: "What is the main ingredient in pea soup?",
+          es: "¿Cuál es el ingrediente principal en la sopa de guisantes?",
+          de: "Was ist die Hauptzutat in Erbsensuppe?",
+          nl: "Wat is het hoofdingrediënt in erwtensoep?"
+        },
+        options: [
+          { en: "Corn", es: "Maíz", de: "Mais", nl: "Mais" },
+          { en: "Peas", es: "Guisantes", de: "Erbsen", nl: "Erwten" },
+          { en: "Beans", es: "Frijoles", de: "Bohnen", nl: "Bonen" },
+          { en: "Rice", es: "Arroz", de: "Reis", nl: "Rijst" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Pea soup is made primarily from peas, either fresh or dried split peas, which are cooked until soft and often pureed for a smooth texture.",
+          es: "La sopa de guisantes se hace principalmente con guisantes, ya sean frescos o guisantes secos partidos, que se cocinan hasta que estén blandos y a menudo se hacen puré.",
+          de: "Erbsensuppe wird hauptsächlich aus Erbsen hergestellt, entweder frischen oder getrockneten Spalterbsen, die weich gekocht und oft püriert werden.",
+          nl: "Erwtensoep wordt voornamelijk gemaakt van erwten, verse of gedroogde spliterwten, die gaar worden gekookt en vaak gepureerd voor een gladde textuur."
+        }
+      },
+      {
+        question: {
+          en: "What kitchen appliance can be used to keep soup warm?",
+          es: "¿Qué electrodoméstico de cocina se puede usar para mantener la sopa caliente?",
+          de: "Welches Küchengerät kann verwendet werden, um Suppe warm zu halten?",
+          nl: "Welk keukenapparaat kan worden gebruikt om soep warm te houden?"
+        },
+        options: [
+          { en: "Refrigerator", es: "Refrigerador", de: "Kühlschrank", nl: "Koelkast" },
+          { en: "Slow cooker", es: "Olla de cocción lenta", de: "Schongarer", nl: "Slowcooker" },
+          { en: "Blender", es: "Licuadora", de: "Mixer", nl: "Blender" },
+          { en: "Toaster", es: "Tostadora", de: "Toaster", nl: "Broodrooster" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "A slow cooker has a 'warm' setting that maintains soup at a safe, serving temperature without continuing to cook it, perfect for serving over time.",
+          es: "Una olla de cocción lenta tiene una configuración 'caliente' que mantiene la sopa a una temperatura segura de servir sin seguir cocinándola.",
+          de: "Ein Schongarer hat eine 'Warmhalte'-Einstellung, die Suppe auf sicherer Serviertemperatur hält, ohne sie weiterzukochen, ideal zum zeitversetzten Servieren.",
+          nl: "Een slowcooker heeft een 'warm'-stand die soep op een veilige serveertemperatuur houdt zonder verder te koken, perfect voor serveren gedurende langere tijd."
+        }
+      },
+      {
+        question: {
+          en: "What food is commonly served with soup?",
+          es: "¿Qué comida se sirve comúnmente con sopa?",
+          de: "Welches Essen wird üblicherweise mit Suppe serviert?",
+          nl: "Welk voedsel wordt vaak met soep geserveerd?"
+        },
+        options: [
+          { en: "Bread", es: "Pan", de: "Brot", nl: "Brood" },
+          { en: "Ice cream", es: "Helado", de: "Eiscreme", nl: "IJsje" },
+          { en: "Cookies", es: "Galletas", de: "Kekse", nl: "Koekjes" },
+          { en: "Candy", es: "Dulces", de: "Süßigkeiten", nl: "Snoep" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bread is a classic accompaniment to soup, perfect for dipping and soaking up the flavorful broth while adding substance to the meal.",
+          es: "El pan es un acompañamiento clásico de la sopa, perfecto para mojar y absorber el sabroso caldo mientras añade sustancia a la comida.",
+          de: "Brot ist eine klassische Beilage zu Suppe, perfekt zum Eintauchen und Aufsaugen der schmackhaften Brühe, während es der Mahlzeit Substanz verleiht.",
+          nl: "Brood is een klassieke begeleiding bij soep, perfect om te dippen en de smaakvolle bouillon op te nemen terwijl het substantie aan de maaltijd toevoegt."
+        }
+      },
+      {
+        question: {
+          en: "Which soup is made from beetroot?",
+          es: "¿Qué sopa se hace con remolacha?",
+          de: "Welche Suppe wird aus Roter Bete hergestellt?",
+          nl: "Welke soep wordt gemaakt van bieten?"
+        },
+        options: [
+          { en: "Borscht", es: "Borscht", de: "Borschtsch", nl: "Borsjt" },
+          { en: "Clam chowder", es: "Sopa de almejas", de: "Muschelsuppe", nl: "Mosselsoep" },
+          { en: "Chicken soup", es: "Sopa de pollo", de: "Hühnersuppe", nl: "Kippensoep" },
+          { en: "Mushroom soup", es: "Sopa de champiñones", de: "Pilzsuppe", nl: "Paddenstoelensoep" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Borscht is a traditional Eastern European soup made primarily from beetroot, giving it a distinctive deep red color and earthy-sweet flavor.",
+          es: "El borscht es una sopa tradicional de Europa del Este hecha principalmente de remolacha, lo que le da un color rojo intenso distintivo y un sabor dulce terroso.",
+          de: "Borschtsch ist eine traditionelle osteuropäische Suppe, die hauptsächlich aus Roter Bete hergestellt wird und eine charakteristische tiefrote Farbe hat.",
+          nl: "Borsjt is een traditionele Oost-Europese soep gemaakt voornamelijk van bieten, wat het een kenmerkende dieprode kleur en aards-zoete smaak geeft."
+        }
+      },
+      {
+        question: {
+          en: "What ingredient makes soup thicker?",
+          es: "¿Qué ingrediente hace la sopa más espesa?",
+          de: "Welche Zutat macht Suppe dicker?",
+          nl: "Welk ingrediënt maakt soep dikker?"
+        },
+        options: [
+          { en: "Water", es: "Agua", de: "Wasser", nl: "Water" },
+          { en: "Ice", es: "Hielo", de: "Eis", nl: "IJs" },
+          { en: "Flour or cornstarch", es: "Harina o maicena", de: "Mehl oder Maisstärke", nl: "Meel of maïzena" },
+          { en: "Vinegar", es: "Vinagre", de: "Essig", nl: "Azijn" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Flour or cornstarch acts as a thickening agent when added to soup, creating a roux or slurry that increases viscosity and creates a heartier texture.",
+          es: "La harina o maicena actúa como espesante cuando se agrega a la sopa, creando un roux o mezcla que aumenta la viscosidad y crea una textura más sustanciosa.",
+          de: "Mehl oder Maisstärke wirkt als Verdickungsmittel, wenn es der Suppe hinzugefügt wird, und schafft eine Roux oder Aufschlämmung, die die Viskosität erhöht.",
+          nl: "Meel of maïzena werkt als verdikkingsmiddel wanneer het aan soep wordt toegevoegd, waardoor een roux of mengsel ontstaat dat de viscositeit verhoogt."
+        }
+      },
+      {
+        question: {
+          en: "What meal is soup most commonly served at?",
+          es: "¿En qué comida se sirve más comúnmente la sopa?",
+          de: "Zu welcher Mahlzeit wird Suppe am häufigsten serviert?",
+          nl: "Bij welke maaltijd wordt soep het meest geserveerd?"
+        },
+        options: [
+          { en: "Breakfast", es: "Desayuno", de: "Frühstück", nl: "Ontbijt" },
+          { en: "Lunch or dinner", es: "Almuerzo o cena", de: "Mittagessen oder Abendessen", nl: "Lunch of diner" },
+          { en: "Dessert", es: "Postre", de: "Nachtisch", nl: "Dessert" },
+          { en: "Snack", es: "Merienda", de: "Snack", nl: "Tussendoortje" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Soup is most commonly served at lunch or dinner, either as a starter to warm up the appetite or as a main course for a complete meal.",
+          es: "La sopa se sirve más comúnmente en el almuerzo o la cena, ya sea como entrada para abrir el apetito o como plato principal para una comida completa.",
+          de: "Suppe wird am häufigsten zum Mittagessen oder Abendessen serviert, entweder als Vorspeise zum Anregen des Appetits oder als Hauptgericht.",
+          nl: "Soep wordt het meest geserveerd bij lunch of diner, als voorgerecht om de eetlust op te wekken of als hoofdgerecht voor een complete maaltijd."
+        }
+      },
+      {
+        question: {
+          en: "Which ingredient is NOT typically found in vegetable soup?",
+          es: "¿Qué ingrediente NO se encuentra típicamente en la sopa de verduras?",
+          de: "Welche Zutat findet man NICHT typischerweise in Gemüsesuppe?",
+          nl: "Welk ingrediënt wordt NIET typisch in groentesoep gevonden?"
+        },
+        options: [
+          { en: "Celery", es: "Apio", de: "Sellerie", nl: "Selderij" },
+          { en: "Zucchini", es: "Calabacín", de: "Zucchini", nl: "Courgette" },
+          { en: "Candy bars", es: "Barras de caramelo", de: "Schokoriegel", nl: "Chocoladerepen" },
+          { en: "Tomatoes", es: "Tomates", de: "Tomaten", nl: "Tomaten" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Candy bars are dessert items and would never be an ingredient in vegetable soup, which focuses on savory vegetables, herbs, and broth.",
+          es: "Las barras de caramelo son artículos de postre y nunca serían un ingrediente en la sopa de verduras, que se centra en verduras saladas, hierbas y caldo.",
+          de: "Schokoriegel sind Dessertartikel und würden niemals eine Zutat in Gemüsesuppe sein, die sich auf herzhafte Gemüse, Kräuter und Brühe konzentriert.",
+          nl: "Chocoladerepen zijn dessertitems en zouden nooit een ingrediënt zijn in groentesoep, die zich richt op hartige groenten, kruiden en bouillon."
+        }
+      },
+      {
+        question: {
+          en: "What is ramen?",
+          es: "¿Qué es el ramen?",
+          de: "Was ist Ramen?",
+          nl: "Wat is ramen?"
+        },
+        options: [
+          { en: "Chinese dumpling soup", es: "Sopa china de dumplings", de: "Chinesische Teigtaschensuppe", nl: "Chinese dumplingsoep" },
+          { en: "Japanese noodle soup", es: "Sopa japonesa de fideos", de: "Japanische Nudelsuppe", nl: "Japanse noedelsoep" },
+          { en: "Korean rice soup", es: "Sopa coreana de arroz", de: "Koreanische Reissuppe", nl: "Koreaanse rijstsoep" },
+          { en: "Thai coconut soup", es: "Sopa tailandesa de coco", de: "Thailändische Kokossuppe", nl: "Thaise kokossoep" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Ramen is a Japanese noodle soup featuring wheat noodles in a flavorful broth, typically topped with meat, vegetables, and eggs.",
+          es: "Ramen es una sopa japonesa de fideos con fideos de trigo en un caldo sabroso, típicamente cubierta con carne, verduras y huevos.",
+          de: "Ramen ist eine japanische Nudelsuppe mit Weizennudeln in einer schmackhaften Brühe, typischerweise garniert mit Fleisch, Gemüse und Eiern.",
+          nl: "Ramen is een Japanse noedelsoep met tarwenoedels in een smaakvolle bouillon, meestal gegarneerd met vlees, groenten en eieren."
+        }
+      },
+      {
+        question: {
+          en: "Which soup is typically orange in color?",
+          es: "¿Qué sopa es típicamente de color naranja?",
+          de: "Welche Suppe ist typischerweise orange?",
+          nl: "Welke soep is doorgaans oranje van kleur?"
+        },
+        options: [
+          { en: "Spinach soup", es: "Sopa de espinacas", de: "Spinatsuppe", nl: "Spinaziesoep" },
+          { en: "Pumpkin soup", es: "Sopa de calabaza", de: "Kürbissuppe", nl: "Pompoensoep" },
+          { en: "Broccoli soup", es: "Sopa de brócoli", de: "Brokkolisuppe", nl: "Broccolisoep" },
+          { en: "Mushroom soup", es: "Sopa de champiñones", de: "Pilzsuppe", nl: "Paddenstoelensoep" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Pumpkin soup has a distinctive orange color from the natural pigment of pumpkins and is often served in autumn.",
+          es: "La sopa de calabaza tiene un color naranja distintivo del pigmento natural de las calabazas y a menudo se sirve en otoño.",
+          de: "Kürbissuppe hat eine charakteristische orange Farbe vom natürlichen Pigment des Kürbisses und wird oft im Herbst serviert.",
+          nl: "Pompoensoep heeft een kenmerkende oranje kleur van het natuurlijke pigment van pompoenen en wordt vaak in de herfst geserveerd."
+        }
+      },
+      {
+        question: {
+          en: "What is clam chowder?",
+          es: "¿Qué es el clam chowder?",
+          de: "Was ist Clam Chowder?",
+          nl: "Wat is clam chowder?"
+        },
+        options: [
+          { en: "A vegetable soup", es: "Una sopa de verduras", de: "Eine Gemüsesuppe", nl: "Een groentesoep" },
+          { en: "A seafood soup with clams", es: "Una sopa de mariscos con almejas", de: "Eine Meeresfrüchtesuppe mit Muscheln", nl: "Een zeevruchtensoep met mosselen" },
+          { en: "A beef soup", es: "Una sopa de carne", de: "Eine Rindfleischsuppe", nl: "Een rundvleessoep" },
+          { en: "A chicken soup", es: "Una sopa de pollo", de: "Eine Hühnersuppe", nl: "Een kippensoep" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Clam chowder is a creamy seafood soup made with clams, potatoes, and often bacon, popular in New England cuisine.",
+          es: "El clam chowder es una sopa cremosa de mariscos hecha con almejas, papas y a menudo tocino, popular en la cocina de Nueva Inglaterra.",
+          de: "Clam Chowder ist eine cremige Meeresfrüchtesuppe aus Muscheln, Kartoffeln und oft Speck, beliebt in der Neuengland-Küche.",
+          nl: "Clam chowder is een romige zeevruchtensoep gemaakt met mosselen, aardappelen en vaak spek, populair in de New England-keuken."
+        }
+      },
+      {
+        question: {
+          en: "What does stirring soup help to do?",
+          es: "¿Qué ayuda a hacer remover la sopa?",
+          de: "Was hilft das Umrühren der Suppe zu tun?",
+          nl: "Wat helpt het roeren van soep om te doen?"
+        },
+        options: [
+          { en: "Make it colder", es: "Hacerla más fría", de: "Sie kälter machen", nl: "Het kouder maken" },
+          { en: "Prevent sticking and distribute heat", es: "Prevenir que se pegue y distribuir el calor", de: "Ankleben verhindern und Hitze verteilen", nl: "Aanbakken voorkomen en warmte verdelen" },
+          { en: "Remove all flavor", es: "Eliminar todo el sabor", de: "Allen Geschmack entfernen", nl: "Alle smaak verwijderen" },
+          { en: "Add more salt", es: "Agregar más sal", de: "Mehr Salz hinzufügen", nl: "Meer zout toevoegen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Stirring soup prevents ingredients from sticking to the bottom of the pot and ensures even heat distribution throughout.",
+          es: "Remover la sopa previene que los ingredientes se peguen al fondo de la olla y asegura una distribución uniforme del calor.",
+          de: "Das Umrühren der Suppe verhindert, dass Zutaten am Boden des Topfes kleben bleiben und sorgt für eine gleichmäßige Wärmeverteilung.",
+          nl: "Het roeren van soep voorkomt dat ingrediënten aan de bodem van de pan blijven plakken en zorgt voor een gelijkmatige warmteverdeling."
+        }
+      },
+      {
+        question: {
+          en: "What is wonton soup?",
+          es: "¿Qué es la sopa wonton?",
+          de: "Was ist Wonton-Suppe?",
+          nl: "Wat is wonton soep?"
+        },
+        options: [
+          { en: "Mexican tortilla soup", es: "Sopa mexicana de tortilla", de: "Mexikanische Tortillasuppe", nl: "Mexicaanse tortillasoep" },
+          { en: "Italian pasta soup", es: "Sopa italiana de pasta", de: "Italienische Nudelsuppe", nl: "Italiaanse pastasoep" },
+          { en: "Chinese dumpling soup", es: "Sopa china de dumplings", de: "Chinesische Teigtaschensuppe", nl: "Chinese dumplingsoep" },
+          { en: "French vegetable soup", es: "Sopa francesa de verduras", de: "Französische Gemüsesuppe", nl: "Franse groentesoep" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Wonton soup is a Chinese soup featuring small dumplings (wontons) filled with meat or seafood in a clear broth.",
+          es: "La sopa wonton es una sopa china con pequeños dumplings (wontons) rellenos de carne o mariscos en un caldo claro.",
+          de: "Wonton-Suppe ist eine chinesische Suppe mit kleinen Teigtaschen (Wontons) gefüllt mit Fleisch oder Meeresfrüchten in einer klaren Brühe.",
+          nl: "Wonton soep is een Chinese soep met kleine dumplings (wontons) gevuld met vlees of zeevruchten in een heldere bouillon."
+        }
+      },
+      {
+        question: {
+          en: "Can soup be stored in the refrigerator?",
+          es: "¿Se puede almacenar la sopa en el refrigerador?",
+          de: "Kann Suppe im Kühlschrank aufbewahrt werden?",
+          nl: "Kan soep in de koelkast worden bewaard?"
+        },
+        options: [
+          { en: "No, never", es: "No, nunca", de: "Nein, niemals", nl: "Nee, nooit" },
+          { en: "Yes, for 3-4 days", es: "Sí, durante 3-4 días", de: "Ja, für 3-4 Tage", nl: "Ja, voor 3-4 dagen" },
+          { en: "Only for 1 hour", es: "Solo por 1 hora", de: "Nur für 1 Stunde", nl: "Alleen voor 1 uur" },
+          { en: "Yes, forever", es: "Sí, para siempre", de: "Ja, für immer", nl: "Ja, voor altijd" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Soup can be safely stored in the refrigerator for 3-4 days in an airtight container after cooling to room temperature.",
+          es: "La sopa se puede almacenar de forma segura en el refrigerador durante 3-4 días en un recipiente hermético después de enfriarse a temperatura ambiente.",
+          de: "Suppe kann sicher für 3-4 Tage im Kühlschrank in einem luftdichten Behälter aufbewahrt werden, nachdem sie auf Raumtemperatur abgekühlt ist.",
+          nl: "Soep kan veilig 3-4 dagen in de koelkast worden bewaard in een luchtdichte container nadat het is afgekoeld tot kamertemperatuur."
+        }
+      },
+      {
+        question: {
+          en: "What is chicken broth?",
+          es: "¿Qué es el caldo de pollo?",
+          de: "Was ist Hühnerbrühe?",
+          nl: "Wat is kippenbouillon?"
+        },
+        options: [
+          { en: "Solid chicken meat", es: "Carne de pollo sólida", de: "Festes Hühnerfleisch", nl: "Vast kippenvlees" },
+          { en: "Liquid from cooking chicken", es: "Líquido de cocinar pollo", de: "Flüssigkeit vom Hühnchenkochen", nl: "Vloeistof van het koken van kip" },
+          { en: "Chicken seasoning powder", es: "Polvo de condimento de pollo", de: "Hühnerwürzpulver", nl: "Kippenkruidenpoeder" },
+          { en: "Raw chicken", es: "Pollo crudo", de: "Rohes Huhn", nl: "Rauwe kip" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Chicken broth is the flavorful liquid produced by simmering chicken bones and meat in water, used as a soup base.",
+          es: "El caldo de pollo es el líquido sabroso producido al cocinar a fuego lento huesos y carne de pollo en agua, usado como base para sopas.",
+          de: "Hühnerbrühe ist die schmackhafte Flüssigkeit, die durch Köcheln von Hühnerknochen und Fleisch in Wasser entsteht und als Suppenbasis verwendet wird.",
+          nl: "Kippenbouillon is de smaakvolle vloeistof die ontstaat door kippenbotten en vlees in water te laten sudderen, gebruikt als soepbasis."
+        }
+      },
+      {
+        question: {
+          en: "Which bowl type is best for serving hot soup?",
+          es: "¿Qué tipo de tazón es mejor para servir sopa caliente?",
+          de: "Welcher Schüsseltyp eignet sich am besten zum Servieren heißer Suppe?",
+          nl: "Welk type kom is het beste voor het serveren van hete soep?"
+        },
+        options: [
+          { en: "Plastic bowl", es: "Tazón de plástico", de: "Plastikschüssel", nl: "Plastic kom" },
+          { en: "Paper bowl", es: "Tazón de papel", de: "Papierschüssel", nl: "Papieren kom" },
+          { en: "Ceramic or porcelain bowl", es: "Tazón de cerámica o porcelana", de: "Keramik- oder Porzellanschüssel", nl: "Keramische of porseleinen kom" },
+          { en: "Cardboard bowl", es: "Tazón de cartón", de: "Kartonschüssel", nl: "Kartonnen kom" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Ceramic or porcelain bowls are ideal for hot soup as they retain heat well, are durable, and won't melt or release harmful chemicals.",
+          es: "Los tazones de cerámica o porcelana son ideales para sopa caliente ya que retienen bien el calor, son duraderos y no se derriten ni liberan químicos dañinos.",
+          de: "Keramik- oder Porzellanschüsseln sind ideal für heiße Suppe, da sie Wärme gut speichern, haltbar sind und nicht schmelzen oder schädliche Chemikalien freisetzen.",
+          nl: "Keramische of porseleinen kommen zijn ideaal voor hete soep omdat ze warmte goed vasthouden, duurzaam zijn en niet smelten of schadelijke chemicaliën vrijgeven."
         }
       }
     ]

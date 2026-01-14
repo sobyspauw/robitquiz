@@ -427,6 +427,426 @@
           nl: "Attenuatie verwijst naar de mate waarin gist fermenteerbare suikers omzet in alcohol en CO2, gemeten als het verschil tussen oorspronkelijk en finaal soortelijk gewicht."
         }
       },
+      {
+        question: {
+          en: "What is the primary difference between top-fermenting and bottom-fermenting yeast?",
+          es: "¿Cuál es la diferencia principal entre levadura de fermentación alta y fermentación baja?",
+          de: "Was ist der Hauptunterschied zwischen obergäriger und untergäriger Hefe?",
+          nl: "Wat is het belangrijkste verschil tussen bovengistende en ondergistende gist?"
+        },
+        options: [
+          { en: "Top-fermenting yeast rises to the surface, bottom-fermenting settles at the bottom during fermentation", es: "La levadura de fermentación alta sube a la superficie, la de fermentación baja se asienta en el fondo durante la fermentación", de: "Obergärige Hefe steigt an die Oberfläche, untergärige setzt sich während der Gärung am Boden ab", nl: "Bovengistende gist stijgt naar het oppervlak, ondergistende zakt naar de bodem tijdens fermentatie" },
+          { en: "They are the same type of yeast", es: "Son el mismo tipo de levadura", de: "Sie sind die gleiche Art von Hefe", nl: "Het zijn hetzelfde soort gist" },
+          { en: "Top-fermenting requires colder temperatures", es: "La fermentación alta requiere temperaturas más frías", de: "Obergärig benötigt kältere Temperaturen", nl: "Bovengisting vereist koudere temperaturen" },
+          { en: "Bottom-fermenting produces fruit flavors", es: "La fermentación baja produce sabores afrutados", de: "Untergärig produziert fruchtige Aromen", nl: "Ondergisting produceert fruit smaken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Top-fermenting yeast (Saccharomyces cerevisiae) rises to the top during fermentation at warmer temperatures, producing ales. Bottom-fermenting yeast (Saccharomyces pastorianus) settles at the bottom at cooler temperatures, producing lagers.",
+          es: "La levadura de fermentación alta (Saccharomyces cerevisiae) sube a la superficie durante la fermentación a temperaturas más cálidas, produciendo ales. La levadura de fermentación baja (Saccharomyces pastorianus) se asienta en el fondo a temperaturas más frías, produciendo lagers.",
+          de: "Obergärige Hefe (Saccharomyces cerevisiae) steigt während der Gärung bei wärmeren Temperaturen an die Oberfläche und produziert Ales. Untergärige Hefe (Saccharomyces pastorianus) setzt sich bei kühleren Temperaturen am Boden ab und produziert Lagers.",
+          nl: "Bovengistende gist (Saccharomyces cerevisiae) stijgt naar de top tijdens fermentatie bij warmere temperaturen, produceert ales. Ondergistende gist (Saccharomyces pastorianus) zakt naar de bodem bij koelere temperaturen, produceert lagers."
+        }
+      },
+      {
+        question: {
+          en: "What causes 'head retention' in beer?",
+          es: "¿Qué causa la 'retención de espuma' en la cerveza?",
+          de: "Was verursacht 'Schaumhaltbarkeit' im Bier?",
+          nl: "Wat veroorzaakt 'schuimbehoud' in bier?"
+        },
+        options: [
+          { en: "Proteins and hop compounds creating surface tension", es: "Proteínas y compuestos del lúpulo creando tensión superficial", de: "Proteine und Hopfenverbindungen, die Oberflächenspannung erzeugen", nl: "Eiwitten en hopverbindingen die oppervlaktespanning creëren" },
+          { en: "High alcohol content only", es: "Solo alto contenido de alcohol", de: "Nur hoher Alkoholgehalt", nl: "Alleen hoog alcoholgehalte" },
+          { en: "Adding gelatin to beer", es: "Agregar gelatina a la cerveza", de: "Gelatine zum Bier hinzufügen", nl: "Gelatine aan bier toevoegen" },
+          { en: "Cold storage temperatures", es: "Temperaturas de almacenamiento frío", de: "Kalte Lagertemperaturen", nl: "Koude opslagtemperaturen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Head retention is primarily caused by proteins from malt and iso-alpha acids from hops, which create stable foam by forming a protective layer around CO2 bubbles and increasing surface tension.",
+          es: "La retención de espuma es causada principalmente por proteínas de la malta y ácidos iso-alfa del lúpulo, que crean espuma estable formando una capa protectora alrededor de las burbujas de CO2 y aumentando la tensión superficial.",
+          de: "Schaumhaltbarkeit wird hauptsächlich durch Proteine aus Malz und Iso-Alpha-Säuren aus Hopfen verursacht, die stabilen Schaum bilden, indem sie eine Schutzschicht um CO2-Blasen bilden und die Oberflächenspannung erhöhen.",
+          nl: "Schuimbehoud wordt voornamelijk veroorzaakt door eiwitten uit mout en iso-alfazuren uit hop, die stabiel schuim creëren door een beschermende laag rond CO2-bellen te vormen en oppervlaktespanning te verhogen."
+        }
+      },
+      {
+        question: {
+          en: "What is the Reinheitsgebot (German Beer Purity Law)?",
+          es: "¿Qué es el Reinheitsgebot (Ley de Pureza de la Cerveza Alemana)?",
+          de: "Was ist das Reinheitsgebot (Deutsches Bierreinheitsgesetz)?",
+          nl: "Wat is het Reinheitsgebot (Duitse Bierzuiverheidswet)?"
+        },
+        options: [
+          { en: "A law requiring beer to contain only water, barley, and hops (yeast added later)", es: "Una ley que requiere que la cerveza contenga solo agua, cebada y lúpulo (levadura agregada después)", de: "Ein Gesetz, das vorschreibt, dass Bier nur Wasser, Gerste und Hopfen enthält (Hefe später hinzugefügt)", nl: "Een wet die vereist dat bier alleen water, gerst en hop bevat (gist later toegevoegd)" },
+          { en: "A beer tasting certification", es: "Una certificación de cata de cerveza", de: "Eine Bierdegustationszertifizierung", nl: "Een bierproevencertificaat" },
+          { en: "A brewing temperature guideline", es: "Una guía de temperatura de elaboración", de: "Eine Brautemperatur-Richtlinie", nl: "Een brouwtemperatuurrichtlijn" },
+          { en: "A beer glass design standard", es: "Un estándar de diseño de copa de cerveza", de: "Ein Bierglasdesign-Standard", nl: "Een bierglasontwerp standaard" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Reinheitsgebot, enacted in 1516, is one of the oldest food quality regulations still in use. It originally limited beer ingredients to water, barley, and hops. Yeast was unknown at the time and later recognized as the fourth ingredient.",
+          es: "El Reinheitsgebot, promulgado en 1516, es una de las regulaciones de calidad alimentaria más antiguas aún en uso. Originalmente limitaba los ingredientes de la cerveza a agua, cebada y lúpulo. La levadura era desconocida en ese momento y más tarde se reconoció como el cuarto ingrediente.",
+          de: "Das Reinheitsgebot, erlassen 1516, ist eine der ältesten noch in Gebrauch befindlichen Lebensmittelqualitätsverordnungen. Es begrenzte ursprünglich Bierzutaten auf Wasser, Gerste und Hopfen. Hefe war zu dieser Zeit unbekannt und wurde später als vierte Zutat anerkannt.",
+          nl: "Het Reinheitsgebot, uitgevaardigd in 1516, is een van de oudste nog gebruikte voedselkwaliteitsregels. Het beperkte oorspronkelijk bieringrediënten tot water, gerst en hop. Gist was toen onbekend en werd later erkend als het vierde ingrediënt."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between dry hopping and kettle hopping?",
+          es: "¿Cuál es la diferencia entre dry hopping y kettle hopping?",
+          de: "Was ist der Unterschied zwischen Trockenhopfung und Kesselhopfung?",
+          nl: "Wat is het verschil tussen droog hoppen en ketel hoppen?"
+        },
+        options: [
+          { en: "Dry hopping adds hops during/after fermentation for aroma; kettle hopping adds hops during boil for bitterness", es: "Dry hopping agrega lúpulo durante/después de la fermentación para aroma; kettle hopping agrega lúpulo durante el hervido para amargor", de: "Trockenhopfung fügt Hopfen während/nach der Gärung für Aroma hinzu; Kesselhopfung fügt Hopfen während des Kochens für Bitterkeit hinzu", nl: "Droog hoppen voegt hop toe tijdens/na fermentatie voor aroma; ketel hoppen voegt hop toe tijdens koken voor bitterheid" },
+          { en: "They are the same process", es: "Son el mismo proceso", de: "Sie sind der gleiche Prozess", nl: "Het zijn hetzelfde proces" },
+          { en: "Dry hopping uses pellets, kettle hopping uses whole hops", es: "Dry hopping usa pellets, kettle hopping usa lúpulo entero", de: "Trockenhopfung verwendet Pellets, Kesselhopfung verwendet ganzen Hopfen", nl: "Droog hoppen gebruikt pellets, ketel hoppen gebruikt hele hop" },
+          { en: "Kettle hopping is only for ales", es: "Kettle hopping es solo para ales", de: "Kesselhopfung ist nur für Ales", nl: "Ketel hoppen is alleen voor ales" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Kettle hopping involves adding hops during the wort boil, extracting bitterness and some aroma. Dry hopping adds hops during or after fermentation at lower temperatures, preserving volatile aroma compounds without adding much bitterness.",
+          es: "Kettle hopping implica agregar lúpulo durante el hervido del mosto, extrayendo amargor y algo de aroma. Dry hopping agrega lúpulo durante o después de la fermentación a temperaturas más bajas, preservando compuestos aromáticos volátiles sin agregar mucho amargor.",
+          de: "Kesselhopfung beinhaltet das Hinzufügen von Hopfen während des Würzekochens, wodurch Bitterkeit und etwas Aroma extrahiert werden. Trockenhopfung fügt Hopfen während oder nach der Gärung bei niedrigeren Temperaturen hinzu, wodurch flüchtige Aromaverbindungen erhalten bleiben, ohne viel Bitterkeit hinzuzufügen.",
+          nl: "Ketel hoppen houdt in dat hop wordt toegevoegd tijdens het koken van de wort, waarbij bitterheid en wat aroma wordt geëxtraheerd. Droog hoppen voegt hop toe tijdens of na fermentatie bij lagere temperaturen, waarbij vluchtige aromaverbindingen behouden blijven zonder veel bitterheid toe te voegen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'wort'?",
+          es: "¿Qué es el 'mosto'?",
+          de: "Was ist 'Würze'?",
+          nl: "Wat is 'wort'?"
+        },
+        options: [
+          { en: "The liquid extracted from mashing grain, before fermentation", es: "El líquido extraído del macerado de granos, antes de la fermentación", de: "Die aus dem Maischen von Getreide gewonnene Flüssigkeit vor der Gärung", nl: "De vloeistof geëxtraheerd uit het maischen van graan, voor fermentatie" },
+          { en: "Finished beer before bottling", es: "Cerveza terminada antes del embotellado", de: "Fertiges Bier vor dem Abfüllen", nl: "Afgewerkt bier voor botteling" },
+          { en: "The foam on top of beer", es: "La espuma en la parte superior de la cerveza", de: "Der Schaum oben auf dem Bier", nl: "Het schuim bovenop bier" },
+          { en: "A type of hop variety", es: "Un tipo de variedad de lúpulo", de: "Eine Hopfensorte", nl: "Een soort hopvariëteit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Wort is the sweet liquid extracted from the mashing process, containing dissolved sugars from malted grains. After boiling with hops and cooling, it's fermented by yeast to produce beer.",
+          es: "El mosto es el líquido dulce extraído del proceso de macerado, que contiene azúcares disueltos de granos malteados. Después de hervir con lúpulo y enfriar, es fermentado por levadura para producir cerveza.",
+          de: "Würze ist die süße Flüssigkeit, die aus dem Maischprozess gewonnen wird und gelöste Zucker aus gemälzten Körnern enthält. Nach dem Kochen mit Hopfen und Abkühlen wird sie durch Hefe fermentiert, um Bier zu produzieren.",
+          nl: "Wort is de zoete vloeistof geëxtraheerd uit het maischproces, bevattend opgeloste suikers van gemout graan. Na koken met hop en afkoelen, wordt het gefermenteerd door gist om bier te produceren."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of lagering?",
+          es: "¿Cuál es el propósito del lagering?",
+          de: "Was ist der Zweck des Lagerns?",
+          nl: "Wat is het doel van lagering?"
+        },
+        options: [
+          { en: "Cold conditioning beer to improve flavor clarity and smoothness", es: "Acondicionamiento en frío de la cerveza para mejorar la claridad y suavidad del sabor", de: "Kaltkonditionierung von Bier zur Verbesserung von Geschmacksklarheit und Geschmeidigkeit", nl: "Koude conditionering van bier om smaak helderheid en gladheid te verbeteren" },
+          { en: "Heating beer to kill bacteria", es: "Calentar cerveza para matar bacterias", de: "Bier erhitzen um Bakterien zu töten", nl: "Bier verwarmen om bacteriën te doden" },
+          { en: "Adding extra hops for aroma", es: "Agregar lúpulo extra para aroma", de: "Extra Hopfen für Aroma hinzufügen", nl: "Extra hop toevoegen voor aroma" },
+          { en: "Increasing alcohol content", es: "Aumentar el contenido de alcohol", de: "Alkoholgehalt erhöhen", nl: "Alcoholgehalte verhogen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Lagering is a cold storage period (typically 32-50°F or 0-10°C) lasting weeks to months, during which beer clarifies as yeast and proteins settle, flavors mellow and mature, and off-flavors reduce, resulting in a clean, smooth beer.",
+          es: "El lagering es un período de almacenamiento en frío (típicamente 32-50°F o 0-10°C) que dura semanas a meses, durante el cual la cerveza se clarifica a medida que la levadura y las proteínas se asientan, los sabores se suavizan y maduran, y los sabores desagradables se reducen, resultando en una cerveza limpia y suave.",
+          de: "Lagern ist eine Kaltspeicherperiode (typischerweise 32-50°F oder 0-10°C) von Wochen bis Monaten, während der sich Bier klärt, wenn Hefe und Proteine sich setzen, Aromen reifen und unerwünschte Aromen reduziert werden, was zu einem sauberen, geschmeidigen Bier führt.",
+          nl: "Lagering is een koude opslagperiode (typisch 32-50°F of 0-10°C) van weken tot maanden, waarin bier helder wordt naarmate gist en eiwitten bezinken, smaken verzachten en rijpen, en bijsmaken verminderen, resulterend in een schoon, glad bier."
+        }
+      },
+      {
+        question: {
+          en: "What is the Lovibond scale used for in brewing?",
+          es: "¿Para qué se usa la escala Lovibond en la elaboración?",
+          de: "Wofür wird die Lovibond-Skala beim Brauen verwendet?",
+          nl: "Waarvoor wordt de Lovibond schaal gebruikt bij brouwen?"
+        },
+        options: [
+          { en: "Measuring beer color", es: "Medir el color de la cerveza", de: "Messen der Bierfarbe", nl: "Bierkleur meten" },
+          { en: "Measuring hop bitterness", es: "Medir el amargor del lúpulo", de: "Messen der Hopfenbitterkeit", nl: "Hopbitterheid meten" },
+          { en: "Measuring alcohol content", es: "Medir el contenido de alcohol", de: "Messen des Alkoholgehalts", nl: "Alcoholgehalte meten" },
+          { en: "Measuring water pH", es: "Medir el pH del agua", de: "Messen des Wasser-pH", nl: "Water pH meten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Lovibond scale (or SRM - Standard Reference Method in the US) measures beer color from pale straw (2°L) to black (40+°L). It's determined by the types and amounts of malts used in brewing.",
+          es: "La escala Lovibond (o SRM - Método de Referencia Estándar en EE.UU.) mide el color de la cerveza desde paja pálida (2°L) hasta negro (40+°L). Se determina por los tipos y cantidades de maltas utilizadas en la elaboración.",
+          de: "Die Lovibond-Skala (oder SRM - Standard Reference Method in den USA) misst Bierfarbe von blassem Stroh (2°L) bis schwarz (40+°L). Sie wird durch Arten und Mengen der beim Brauen verwendeten Malze bestimmt.",
+          nl: "De Lovibond schaal (of SRM - Standard Reference Method in de VS) meet bierkleur van bleek stro (2°L) tot zwart (40+°L). Het wordt bepaald door de soorten en hoeveelheden mout gebruikt bij brouwen."
+        }
+      },
+      {
+        question: {
+          en: "What causes beer to become 'light-struck' or develop a skunky aroma when exposed to light?",
+          es: "¿Qué causa que la cerveza se vuelva 'golpeada por la luz' o desarrolle un aroma a mofeta cuando se expone a la luz?",
+          de: "Was verursacht, dass Bier 'lichtgeschädigt' wird oder ein stinktierhaftes Aroma entwickelt, wenn es Licht ausgesetzt wird?",
+          nl: "Wat veroorzaakt dat bier 'lichtgetroffen' wordt of een stinkdierachtig aroma ontwikkelt wanneer blootgesteld aan licht?"
+        },
+        options: [
+          { en: "Photochemical reaction breaking down hop compounds into sulfur compounds", es: "Reacción fotoquímica que descompone compuestos del lúpulo en compuestos de azufre", de: "Photochemische Reaktion, die Hopfenverbindungen in Schwefelverbindungen abbaut", nl: "Fotochemische reactie die hopverbindingen afbreekt tot zwavelverbindingen" },
+          { en: "Yeast dying from UV exposure", es: "Levadura muriendo por exposición UV", de: "Hefe stirbt durch UV-Belichtung", nl: "Gist sterft door UV-blootstelling" },
+          { en: "Water evaporating from the beer", es: "Agua evaporándose de la cerveza", de: "Wasser verdunstet aus dem Bier", nl: "Water verdampt uit het bier" },
+          { en: "Alcohol oxidizing in sunlight", es: "Alcohol oxidándose bajo la luz del sol", de: "Alkohol oxidiert im Sonnenlicht", nl: "Alcohol oxideert in zonlicht" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Light (especially UV and blue wavelengths) causes a photochemical reaction with iso-alpha acids from hops, producing 3-methyl-2-butene-1-thiol (MBT), a sulfur compound identical to skunk spray. Brown bottles filter ~98% of damaging light, green ~20%, clear bottles offer no protection.",
+          es: "La luz (especialmente UV y longitudes de onda azules) causa una reacción fotoquímica con ácidos iso-alfa del lúpulo, produciendo 3-metil-2-buteno-1-tiol (MBT), un compuesto de azufre idéntico al spray de mofeta. Las botellas marrones filtran ~98% de luz dañina, verdes ~20%, botellas transparentes no ofrecen protección.",
+          de: "Licht (besonders UV und blaue Wellenlängen) verursacht eine photochemische Reaktion mit Iso-Alpha-Säuren aus Hopfen, die 3-Methyl-2-buten-1-thiol (MBT) produziert, eine Schwefelverbindung identisch mit Stinktier-Spray. Braune Flaschen filtern ~98% des schädlichen Lichts, grüne ~20%, klare Flaschen bieten keinen Schutz.",
+          nl: "Licht (vooral UV en blauwe golflengten) veroorzaakt een fotochemische reactie met iso-alfazuren van hop, produceert 3-methyl-2-buteen-1-thiol (MBT), een zwavelverbinding identiek aan stinkdierspray. Bruine flessen filteren ~98% van schadelijk licht, groene ~20%, heldere flessen bieden geen bescherming."
+        }
+      },
+      {
+        question: {
+          en: "What is 'chill haze' in beer?",
+          es: "¿Qué es la 'turbidez por frío' en la cerveza?",
+          de: "Was ist 'Kühltrübung' im Bier?",
+          nl: "Wat is 'koude troebeling' in bier?"
+        },
+        options: [
+          { en: "Cloudiness that appears when beer is cold, caused by protein-polyphenol complexes", es: "Turbidez que aparece cuando la cerveza está fría, causada por complejos proteína-polifenol", de: "Trübung, die auftritt, wenn Bier kalt ist, verursacht durch Protein-Polyphenol-Komplexe", nl: "Troebeling die verschijnt wanneer bier koud is, veroorzaakt door eiwit-polyfenol complexen" },
+          { en: "Ice crystals forming in frozen beer", es: "Cristales de hielo formándose en cerveza congelada", de: "Eiskristalle bilden sich in gefrorenem Bier", nl: "IJskristallen vormen zich in bevroren bier" },
+          { en: "Yeast settling at cold temperatures", es: "Levadura asentándose a temperaturas frías", de: "Hefe setzt sich bei kalten Temperaturen ab", nl: "Gist bezinkt bij koude temperaturen" },
+          { en: "Hop particles suspended in cold beer", es: "Partículas de lúpulo suspendidas en cerveza fría", de: "Hopfenpartikel schweben in kaltem Bier", nl: "Hopdeeltjes zwevend in koud bier" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Chill haze occurs when proteins from malt bind with polyphenols (tannins) from hops and malt at cold temperatures, forming visible complexes. The haze disappears when beer warms up. It's a cosmetic issue, not affecting flavor, but brewers often use finings or filtration to prevent it.",
+          es: "La turbidez por frío ocurre cuando las proteínas de la malta se unen con polifenoles (taninos) del lúpulo y malta a temperaturas frías, formando complejos visibles. La turbidez desaparece cuando la cerveza se calienta. Es un problema cosmético, que no afecta el sabor, pero los cerveceros a menudo usan clarificantes o filtración para prevenirlo.",
+          de: "Kühltrübung tritt auf, wenn Proteine aus Malz sich mit Polyphenolen (Tanninen) aus Hopfen und Malz bei kalten Temperaturen verbinden und sichtbare Komplexe bilden. Die Trübung verschwindet, wenn Bier sich erwärmt. Es ist ein kosmetisches Problem, das den Geschmack nicht beeinflusst, aber Brauer verwenden oft Schönungsmittel oder Filtration, um es zu verhindern.",
+          nl: "Koude troebeling treedt op wanneer eiwitten van mout binden met polyfenolen (tannines) van hop en mout bij koude temperaturen, vormend zichtbare complexen. De troebeling verdwijnt wanneer bier opwarmt. Het is een cosmetisch probleem, beïnvloedt smaak niet, maar brouwers gebruiken vaak klaringsmiddelen of filtratie om het te voorkomen."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of mashing in beer production?",
+          es: "¿Cuál es el propósito del macerado en la producción de cerveza?",
+          de: "Was ist der Zweck des Maischens in der Bierproduktion?",
+          nl: "Wat is het doel van maischen bij bierproductie?"
+        },
+        options: [
+          { en: "Converting starches in grain to fermentable sugars using enzymes", es: "Convertir almidones en granos a azúcares fermentables usando enzimas", de: "Umwandlung von Stärken in Getreide zu fermentierbaren Zuckern mit Enzymen", nl: "Zetmeel in graan omzetten naar fermenteerbare suikers met enzymen" },
+          { en: "Boiling hops to extract bitterness", es: "Hervir lúpulo para extraer amargor", de: "Hopfen kochen um Bitterkeit zu extrahieren", nl: "Hop koken om bitterheid te extraheren" },
+          { en: "Fermenting beer with yeast", es: "Fermentar cerveza con levadura", de: "Bier mit Hefe fermentieren", nl: "Bier fermenteren met gist" },
+          { en: "Filtering finished beer", es: "Filtrar cerveza terminada", de: "Fertiges Bier filtern", nl: "Afgewerkt bier filteren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mashing is the process of mixing crushed malted grains with hot water (typically 145-158°F/63-70°C) to activate enzymes (primarily alpha and beta amylase) that break down complex starches into fermentable sugars. The resulting liquid is wort, which is then boiled with hops and fermented.",
+          es: "El macerado es el proceso de mezclar granos malteados triturados con agua caliente (típicamente 145-158°F/63-70°C) para activar enzimas (principalmente alfa y beta amilasa) que descomponen almidones complejos en azúcares fermentables. El líquido resultante es mosto, que luego se hierve con lúpulo y se fermenta.",
+          de: "Maischen ist der Prozess des Mischens von zerkleinerten gemälzten Körnern mit heißem Wasser (typischerweise 145-158°F/63-70°C), um Enzyme (hauptsächlich Alpha- und Beta-Amylase) zu aktivieren, die komplexe Stärken in fermentierbare Zucker abbauen. Die resultierende Flüssigkeit ist Würze, die dann mit Hopfen gekocht und fermentiert wird.",
+          nl: "Maischen is het proces van het mengen van gemalen gemout graan met heet water (typisch 145-158°F/63-70°C) om enzymen (voornamelijk alfa en bèta amylase) te activeren die complexe zetmeel afbreken tot fermenteerbare suikers. De resulterende vloeistof is wort, die vervolgens gekookt wordt met hop en gefermenteerd."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between a session beer and a regular beer?",
+          es: "¿Cuál es la diferencia entre una cerveza session y una cerveza regular?",
+          de: "Was ist der Unterschied zwischen einem Session-Bier und einem normalen Bier?",
+          nl: "Wat is het verschil tussen een session bier en een normaal bier?"
+        },
+        options: [
+          { en: "Session beers have lower alcohol content (typically <5% ABV) for extended drinking", es: "Las cervezas session tienen menor contenido de alcohol (típicamente <5% ABV) para beber prolongado", de: "Session-Biere haben niedrigeren Alkoholgehalt (typischerweise <5% ABV) für längeres Trinken", nl: "Session bieren hebben lager alcoholgehalte (typisch <5% ABV) voor langdurig drinken" },
+          { en: "Session beers are only served in winter", es: "Las cervezas session solo se sirven en invierno", de: "Session-Biere werden nur im Winter serviert", nl: "Session bieren worden alleen in de winter geserveerd" },
+          { en: "Session beers have more carbonation", es: "Las cervezas session tienen más carbonatación", de: "Session-Biere haben mehr Kohlensäure", nl: "Session bieren hebben meer koolzuur" },
+          { en: "Session beers are always dark colored", es: "Las cervezas session son siempre de color oscuro", de: "Session-Biere sind immer dunkel gefärbt", nl: "Session bieren zijn altijd donker gekleurd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Session beers are characterized by lower alcohol content (generally 3-5% ABV), allowing for multiple servings ('a session') without excessive intoxication. They typically maintain full flavor despite lower alcohol, achieved through careful malt and hop selection, and are highly drinkable and refreshing.",
+          es: "Las cervezas session se caracterizan por menor contenido de alcohol (generalmente 3-5% ABV), permitiendo múltiples porciones ('una sesión') sin intoxicación excesiva. Típicamente mantienen sabor completo a pesar del menor alcohol, logrado mediante selección cuidadosa de malta y lúpulo, y son altamente bebibles y refrescantes.",
+          de: "Session-Biere zeichnen sich durch niedrigeren Alkoholgehalt (allgemein 3-5% ABV) aus, was mehrere Portionen ('eine Session') ohne übermäßige Trunkenheit ermöglicht. Sie behalten typischerweise vollen Geschmack trotz niedrigerem Alkohol, erreicht durch sorgfältige Malz- und Hopfenauswahl, und sind hochgradig trinkbar und erfrischend.",
+          nl: "Session bieren worden gekenmerkt door lager alcoholgehalte (algemeen 3-5% ABV), wat meerdere porties ('een sessie') mogelijk maakt zonder overmatige dronkenschap. Ze behouden typisch volle smaak ondanks lager alcohol, bereikt door zorgvuldige mout en hop selectie, en zijn zeer drinkbaar en verfrissend."
+        }
+      },
+      {
+        question: {
+          en: "What is 'noble hop' and what distinguishes it from other hop varieties?",
+          es: "¿Qué es el 'lúpulo noble' y qué lo distingue de otras variedades de lúpulo?",
+          de: "Was ist 'Edelhopfen' und was unterscheidet ihn von anderen Hopfensorten?",
+          nl: "Wat is 'edele hop' en wat onderscheidt het van andere hopvariëteiten?"
+        },
+        options: [
+          { en: "Traditional European hops (Hallertau, Saaz, Tettnang, Spalt) with low bitterness, refined aroma, used in classic lagers and pilsners", es: "Lúpulos europeos tradicionales (Hallertau, Saaz, Tettnang, Spalt) con bajo amargor, aroma refinado, usados en lagers y pilsners clásicos", de: "Traditionelle europäische Hopfen (Hallertau, Saaz, Tettnang, Spalt) mit niedriger Bitterkeit, raffiniertem Aroma, verwendet in klassischen Lagers und Pilsnern", nl: "Traditionele Europese hop (Hallertau, Saaz, Tettnang, Spalt) met lage bitterheid, verfijnd aroma, gebruikt in klassieke lagers en pilsners" },
+          { en: "High alpha acid hops from America", es: "Lúpulos de alto ácido alfa de América", de: "Hoch-Alpha-Säure-Hopfen aus Amerika", nl: "Hoge alfa zuur hop uit Amerika" },
+          { en: "Hops grown only in England", es: "Lúpulo cultivado solo en Inglaterra", de: "Hopfen nur in England angebaut", nl: "Hop alleen geteeld in Engeland" },
+          { en: "Genetically modified hop varieties", es: "Variedades de lúpulo genéticamente modificadas", de: "Genetisch veränderte Hopfensorten", nl: "Genetisch gemodificeerde hopvariëteiten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Noble hops refer to four traditional European varieties: Hallertauer Mittelfrüh (Germany), Saaz (Czech Republic), Tettnanger (Germany), and Spalt (Germany). They're characterized by low alpha acid content (3-5%), delicate floral/spicy/earthy aromas, and mild bitterness, making them ideal for classic European lagers and pilsners.",
+          es: "Los lúpulos nobles se refieren a cuatro variedades europeas tradicionales: Hallertauer Mittelfrüh (Alemania), Saaz (República Checa), Tettnanger (Alemania) y Spalt (Alemania). Se caracterizan por bajo contenido de ácido alfa (3-5%), aromas delicados florales/especiados/terrosos y amargor suave, haciéndolos ideales para lagers y pilsners europeos clásicos.",
+          de: "Edelhopfen bezieht sich auf vier traditionelle europäische Sorten: Hallertauer Mittelfrüh (Deutschland), Saaz (Tschechische Republik), Tettnanger (Deutschland) und Spalt (Deutschland). Sie zeichnen sich durch niedrigen Alpha-Säure-Gehalt (3-5%), zarte blumige/würzige/erdige Aromen und milde Bitterkeit aus, was sie ideal für klassische europäische Lagers und Pilsner macht.",
+          nl: "Edele hop verwijst naar vier traditionele Europese variëteiten: Hallertauer Mittelfrüh (Duitsland), Saaz (Tsjechië), Tettnanger (Duitsland) en Spalt (Duitsland). Ze worden gekenmerkt door laag alfa zuurgehalte (3-5%), delicate bloemige/kruidige/aardse aroma's en milde bitterheid, wat ze ideaal maakt voor klassieke Europese lagers en pilsners."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of a 'whirlpool' or 'hop stand' in brewing?",
+          es: "¿Cuál es el propósito de un 'whirlpool' o 'hop stand' en la elaboración?",
+          de: "Was ist der Zweck eines 'Whirlpools' oder 'Hop Stands' beim Brauen?",
+          nl: "Wat is het doel van een 'whirlpool' of 'hop stand' bij brouwen?"
+        },
+        options: [
+          { en: "Steeping hops in hot wort after boil to extract aromatic oils while minimizing bitterness", es: "Remojar lúpulo en mosto caliente después del hervido para extraer aceites aromáticos mientras se minimiza el amargor", de: "Hopfen in heißer Würze nach dem Kochen einweichen, um aromatische Öle zu extrahieren und Bitterkeit zu minimieren", nl: "Hop weken in hete wort na koken om aromatische oliën te extraheren terwijl bitterheid wordt geminimaliseerd" },
+          { en: "Spinning wort to remove hop particles only", es: "Girar mosto para eliminar solo partículas de lúpulo", de: "Würze drehen um nur Hopfenpartikel zu entfernen", nl: "Wort draaien om alleen hopdeeltjes te verwijderen" },
+          { en: "Cooling wort rapidly", es: "Enfriar mosto rápidamente", de: "Würze schnell kühlen", nl: "Wort snel afkoelen" },
+          { en: "Adding yeast to fermentation", es: "Agregar levadura para fermentación", de: "Hefe zur Gärung hinzufügen", nl: "Gist toevoegen voor fermentatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A whirlpool or hop stand involves adding hops to wort at temperatures below boiling (typically 170-190°F/77-88°C) and letting them steep for 15-60 minutes. This extracts volatile aromatic oils and flavor compounds while isomerizing fewer alpha acids, resulting in intense hop aroma with less bitterness than boil additions.",
+          es: "Un whirlpool o hop stand implica agregar lúpulo al mosto a temperaturas por debajo del punto de ebullición (típicamente 170-190°F/77-88°C) y dejarlos remojar durante 15-60 minutos. Esto extrae aceites aromáticos volátiles y compuestos de sabor mientras isomeriza menos ácidos alfa, resultando en intenso aroma de lúpulo con menos amargor que adiciones de hervido.",
+          de: "Ein Whirlpool oder Hop Stand beinhaltet das Hinzufügen von Hopfen zu Würze bei Temperaturen unter dem Siedepunkt (typischerweise 170-190°F/77-88°C) und 15-60 Minuten einweichen lassen. Dies extrahiert flüchtige aromatische Öle und Geschmacksverbindungen, während weniger Alpha-Säuren isomerisiert werden, was intensives Hopfenaroma mit weniger Bitterkeit als Kochzugaben ergibt.",
+          nl: "Een whirlpool of hop stand houdt in dat hop wordt toegevoegd aan wort bij temperaturen onder kookpunt (typisch 170-190°F/77-88°C) en 15-60 minuten laten weken. Dit extraheert vluchtige aromatische oliën en smaakverbindingen terwijl minder alfa zuren isomeriseren, resulterend in intens hoparoma met minder bitterheid dan kook toevoegingen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'bottle conditioning' in beer production?",
+          es: "¿Qué es el 'acondicionamiento en botella' en la producción de cerveza?",
+          de: "Was ist 'Flaschengärung' in der Bierproduktion?",
+          nl: "Wat is 'fles conditionering' bij bierproductie?"
+        },
+        options: [
+          { en: "Adding priming sugar and yeast to bottles for natural carbonation through secondary fermentation", es: "Agregar azúcar de cebado y levadura a botellas para carbonatación natural mediante fermentación secundaria", de: "Zucker und Hefe zu Flaschen hinzufügen für natürliche Kohlensäure durch Nachgärung", nl: "Toevoegen van priming suiker en gist aan flessen voor natuurlijke koolzuur door secundaire fermentatie" },
+          { en: "Cleaning bottles before filling", es: "Limpiar botellas antes de llenar", de: "Flaschen vor dem Befüllen reinigen", nl: "Flessen schoonmaken voor vullen" },
+          { en: "Storing beer at room temperature", es: "Almacenar cerveza a temperatura ambiente", de: "Bier bei Raumtemperatur lagern", nl: "Bier opslaan bij kamertemperatuur" },
+          { en: "Force carbonating with CO2 tanks", es: "Carbonatación forzada con tanques de CO2", de: "Zwangskarbonisierung mit CO2-Tanks", nl: "Geforceerde koolzuur met CO2 tanks" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bottle conditioning is the process of adding a small amount of fermentable sugar (priming sugar) to beer just before bottling. Residual yeast in the bottle ferments this sugar, producing CO2 that naturally carbonates the beer and creating additional flavor complexity as the beer continues to mature in the bottle.",
+          es: "El acondicionamiento en botella es el proceso de agregar una pequeña cantidad de azúcar fermentable (azúcar de cebado) a la cerveza justo antes del embotellado. La levadura residual en la botella fermenta este azúcar, produciendo CO2 que carbonata naturalmente la cerveza y creando complejidad de sabor adicional a medida que la cerveza continúa madurando en la botella.",
+          de: "Flaschengärung ist der Prozess, bei dem kurz vor dem Abfüllen eine kleine Menge fermentierbaren Zuckers (Speisezucker) zum Bier hinzugefügt wird. Resthefe in der Flasche fermentiert diesen Zucker, produziert CO2, das das Bier natürlich karbonisiert, und erzeugt zusätzliche Geschmackskomplexität, während das Bier in der Flasche weiter reift.",
+          nl: "Fles conditionering is het proces van het toevoegen van een kleine hoeveelheid fermenteerbare suiker (priming suiker) aan bier net voor botteling. Resterende gist in de fles fermenteert deze suiker, produceert CO2 dat het bier natuurlijk koolzuur geeft en creëert extra smaak complexiteit naarmate het bier blijft rijpen in de fles."
+        }
+      },
+      {
+        question: {
+          en: "What is 'alpha acid' in hops and why is it important?",
+          es: "¿Qué es el 'ácido alfa' en el lúpulo y por qué es importante?",
+          de: "Was ist 'Alpha-Säure' in Hopfen und warum ist sie wichtig?",
+          nl: "Wat is 'alfa zuur' in hop en waarom is het belangrijk?"
+        },
+        options: [
+          { en: "The primary bittering compound in hops that isomerizes during boiling to create beer bitterness", es: "El compuesto amargante principal en el lúpulo que se isomeriza durante el hervido para crear amargor en la cerveza", de: "Die primäre Bitterverbindung in Hopfen, die während des Kochens isomerisiert, um Bierbitterkeit zu erzeugen", nl: "De primaire bittere verbinding in hop die isomeriseert tijdens koken om bierbitterheid te creëren" },
+          { en: "A preservative added to beer", es: "Un conservante agregado a la cerveza", de: "Ein Konservierungsmittel, das Bier hinzugefügt wird", nl: "Een conserveermiddel toegevoegd aan bier" },
+          { en: "The sugar content of hops", es: "El contenido de azúcar del lúpulo", de: "Der Zuckergehalt von Hopfen", nl: "Het suikergehalte van hop" },
+          { en: "A type of yeast nutrient", es: "Un tipo de nutriente de levadura", de: "Eine Art Hefenährstoff", nl: "Een soort gistvoedsel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Alpha acids (humulones) are the primary bittering compounds in hops, measured as a percentage of hop weight. During boiling, alpha acids undergo isomerization, converting to iso-alpha acids which provide beer's characteristic bitterness. High-alpha hops (10-15%+) are used for bittering, while low-alpha noble hops (3-6%) are used for aroma.",
+          es: "Los ácidos alfa (humulonas) son los compuestos amargantes principales en el lúpulo, medidos como porcentaje del peso del lúpulo. Durante el hervido, los ácidos alfa sufren isomerización, convirtiéndose en ácidos iso-alfa que proporcionan el amargor característico de la cerveza. Los lúpulos de alto alfa (10-15%+) se usan para amargar, mientras que los lúpulos nobles de bajo alfa (3-6%) se usan para aroma.",
+          de: "Alpha-Säuren (Humulone) sind die primären Bitterverbindungen in Hopfen, gemessen als Prozentsatz des Hopfengewichts. Während des Kochens durchlaufen Alpha-Säuren Isomerisierung und wandeln sich in Iso-Alpha-Säuren um, die die charakteristische Bitterkeit des Bieres liefern. Hoch-Alpha-Hopfen (10-15%+) werden zum Bittern verwendet, während niedrig-Alpha-Edelhopfen (3-6%) für Aroma verwendet werden.",
+          nl: "Alfa zuren (humulonen) zijn de primaire bittere verbindingen in hop, gemeten als percentage van hopgewicht. Tijdens koken ondergaan alfa zuren isomerisatie, converterend naar iso-alfa zuren die karakteristieke bitterheid van bier leveren. Hoge-alfa hop (10-15%+) wordt gebruikt voor bitteren, terwijl lage-alfa edele hop (3-6%) wordt gebruikt voor aroma."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between forced carbonation and natural carbonation?",
+          es: "¿Cuál es la diferencia entre carbonatación forzada y carbonatación natural?",
+          de: "Was ist der Unterschied zwischen Zwangskarbonisierung und natürlicher Karbonisierung?",
+          nl: "Wat is het verschil tussen geforceerde koolzuur en natuurlijke koolzuur?"
+        },
+        options: [
+          { en: "Forced uses external CO2 under pressure; natural uses yeast fermentation to produce CO2", es: "Forzada usa CO2 externo bajo presión; natural usa fermentación de levadura para producir CO2", de: "Zwangs verwendet externes CO2 unter Druck; natürlich verwendet Hefegärung zur CO2-Produktion", nl: "Geforceerd gebruikt extern CO2 onder druk; natuurlijk gebruikt gistfermentatie om CO2 te produceren" },
+          { en: "Both methods are identical", es: "Ambos métodos son idénticos", de: "Beide Methoden sind identisch", nl: "Beide methoden zijn identiek" },
+          { en: "Forced carbonation takes longer", es: "La carbonatación forzada toma más tiempo", de: "Zwangskarbonisierung dauert länger", nl: "Geforceerde koolzuur duurt langer" },
+          { en: "Natural carbonation uses chemicals", es: "La carbonatación natural usa químicos", de: "Natürliche Karbonisierung verwendet Chemikalien", nl: "Natuurlijke koolzuur gebruikt chemicaliën" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Forced carbonation involves injecting CO2 gas into beer under pressure (typically in kegs), achieving desired carbonation in hours to days. Natural carbonation uses residual yeast fermenting priming sugar in sealed containers (bottle/cask conditioning), producing CO2 over 1-3 weeks. Natural carbonation often creates finer, more persistent bubbles and develops additional flavors.",
+          es: "La carbonatación forzada implica inyectar gas CO2 en cerveza bajo presión (típicamente en barriles), logrando carbonatación deseada en horas a días. La carbonatación natural usa levadura residual fermentando azúcar de cebado en contenedores sellados (acondicionamiento en botella/barril), produciendo CO2 durante 1-3 semanas. La carbonatación natural a menudo crea burbujas más finas y persistentes y desarrolla sabores adicionales.",
+          de: "Zwangskarbonisierung beinhaltet das Einspritzen von CO2-Gas in Bier unter Druck (typischerweise in Fässern), erreicht gewünschte Karbonisierung in Stunden bis Tagen. Natürliche Karbonisierung verwendet Resthefe, die Speisezucker in versiegelten Behältern (Flaschen-/Fassgärung) fermentiert und CO2 über 1-3 Wochen produziert. Natürliche Karbonisierung erzeugt oft feinere, beständigere Blasen und entwickelt zusätzliche Aromen.",
+          nl: "Geforceerde koolzuur houdt in dat CO2 gas wordt geïnjecteerd in bier onder druk (typisch in vaten), bereikt gewenste koolzuur in uren tot dagen. Natuurlijke koolzuur gebruikt resterende gist die priming suiker fermenteert in verzegelde containers (fles/vat conditionering), produceert CO2 gedurende 1-3 weken. Natuurlijke koolzuur creëert vaak fijnere, persistentere bellen en ontwikkelt extra smaken."
+        }
+      },
+      {
+        question: {
+          en: "What is 'malt extract' and when is it used in brewing?",
+          es: "¿Qué es el 'extracto de malta' y cuándo se usa en la elaboración?",
+          de: "Was ist 'Malzextrakt' und wann wird es beim Brauen verwendet?",
+          nl: "Wat is 'moutextract' en wanneer wordt het gebruikt bij brouwen?"
+        },
+        options: [
+          { en: "Concentrated sugars from mashed grain, used by extract brewers to skip the mashing process", es: "Azúcares concentrados de granos macerados, usados por cerveceros de extracto para omitir el proceso de macerado", de: "Konzentrierte Zucker aus gemaischt Getreide, verwendet von Extraktbrauern um den Maischprozess zu überspringen", nl: "Geconcentreerde suikers van gemaischt graan, gebruikt door extract brouwers om het maischproces over te slaan" },
+          { en: "A type of hop product", es: "Un tipo de producto de lúpulo", de: "Eine Art Hopfenprodukt", nl: "Een soort hopproduct" },
+          { en: "Yeast nutrient supplement", es: "Suplemento nutricional de levadura", de: "Hefenährstoffergänzung", nl: "Gistvoedsel supplement" },
+          { en: "Bottling sugar only", es: "Solo azúcar de embotellado", de: "Nur Abfüllzucker", nl: "Alleen botteling suiker" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Malt extract is concentrated wort produced by mashing malted grains, then evaporating water to create syrup (liquid malt extract - LME) or powder (dried malt extract - DME). Extract brewing allows brewers to skip the mashing step, making brewing simpler and faster while still producing quality beer, though with less control over the grain bill.",
+          es: "El extracto de malta es mosto concentrado producido al macerar granos malteados, luego evaporar agua para crear jarabe (extracto de malta líquido - LME) o polvo (extracto de malta seco - DME). La elaboración con extracto permite a los cerveceros omitir el paso de macerado, haciendo la elaboración más simple y rápida mientras sigue produciendo cerveza de calidad, aunque con menos control sobre la receta de granos.",
+          de: "Malzextrakt ist konzentrierte Würze, die durch Maischen gemälzter Körner produziert wird, dann Wasser verdampfen um Sirup (flüssiger Malzextrakt - LME) oder Pulver (getrockneter Malzextrakt - DME) zu erzeugen. Extraktbrauen ermöglicht Brauern, den Maischeschritt zu überspringen, macht Brauen einfacher und schneller, während immer noch Qualitätsbier produziert wird, obwohl mit weniger Kontrolle über die Schüttung.",
+          nl: "Moutextract is geconcentreerde wort geproduceerd door gemalen gemout graan te maischen, dan water te verdampen om siroop (vloeibaar moutextract - LME) of poeder (gedroogd moutextract - DME) te creëren. Extract brouwen stelt brouwers in staat om de maischstap over te slaan, maakt brouwen eenvoudiger en sneller terwijl nog steeds kwaliteitsbier wordt geproduceerd, hoewel met minder controle over het graan recept."
+        }
+      },
+      {
+        question: {
+          en: "What causes 'ester' flavors in beer?",
+          es: "¿Qué causa sabores de 'éster' en la cerveza?",
+          de: "Was verursacht 'Ester'-Aromen im Bier?",
+          nl: "Wat veroorzaakt 'ester' smaken in bier?"
+        },
+        options: [
+          { en: "Yeast metabolism during fermentation producing fruity compounds", es: "Metabolismo de levadura durante fermentación produciendo compuestos afrutados", de: "Hefestoffwechsel während Gärung produziert fruchtige Verbindungen", nl: "Gist metabolisme tijdens fermentatie produceert fruitige verbindingen" },
+          { en: "Adding fruit to beer", es: "Agregar fruta a la cerveza", de: "Frucht zum Bier hinzufügen", nl: "Fruit toevoegen aan bier" },
+          { en: "Hop oils exclusively", es: "Aceites de lúpulo exclusivamente", de: "Hopfenöle ausschließlich", nl: "Hopoliën uitsluitend" },
+          { en: "Water mineral content", es: "Contenido mineral del agua", de: "Wasserineraliengehalt", nl: "Water mineraal inhoud" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Esters are aromatic compounds produced by yeast during fermentation when alcohol molecules combine with organic acids. They create fruity and floral flavors (banana, apple, pear, strawberry). Ester production is influenced by fermentation temperature (warmer = more esters), yeast strain, wort composition, and oxygen levels. Ales typically have more pronounced ester character than lagers.",
+          es: "Los ésteres son compuestos aromáticos producidos por levadura durante fermentación cuando moléculas de alcohol se combinan con ácidos orgánicos. Crean sabores afrutados y florales (plátano, manzana, pera, fresa). La producción de ésteres está influenciada por temperatura de fermentación (más cálido = más ésteres), cepa de levadura, composición del mosto y niveles de oxígeno. Las ales típicamente tienen carácter de éster más pronunciado que las lagers.",
+          de: "Ester sind aromatische Verbindungen, die von Hefe während Gärung produziert werden, wenn Alkoholmoleküle sich mit organischen Säuren verbinden. Sie erzeugen fruchtige und blumige Aromen (Banane, Apfel, Birne, Erdbeere). Esterproduktion wird beeinflusst durch Gärungstemperatur (wärmer = mehr Ester), Hefestamm, Würzezusammensetzung und Sauerstoffniveaus. Ales haben typischerweise ausgeprägtere Estercharakter als Lagers.",
+          nl: "Esters zijn aromatische verbindingen geproduceerd door gist tijdens fermentatie wanneer alcoholmoleculen combineren met organische zuren. Ze creëren fruitige en bloemen smaken (banaan, appel, peer, aardbei). Ester productie wordt beïnvloed door fermentatie temperatuur (warmer = meer esters), giststam, wort samenstelling en zuurstof niveaus. Ales hebben typisch meer uitgesproken ester karakter dan lagers."
+        }
+      },
+      {
+        question: {
+          en: "What is 'flocculation' in brewing?",
+          es: "¿Qué es la 'floculación' en la elaboración?",
+          de: "Was ist 'Flockung' beim Brauen?",
+          nl: "Wat is 'flocculatie' bij brouwen?"
+        },
+        options: [
+          { en: "The tendency of yeast cells to clump together and settle out of suspension after fermentation", es: "La tendencia de las células de levadura a agruparse y asentarse fuera de suspensión después de la fermentación", de: "Die Tendenz von Hefezellen, sich zusammenzuballen und nach der Gärung aus der Suspension abzusetzen", nl: "De neiging van gistcellen om samen te klonteren en uit suspensie te bezinken na fermentatie" },
+          { en: "Adding hops to boiling wort", es: "Agregar lúpulo al mosto hirviendo", de: "Hopfen zu kochender Würze hinzufügen", nl: "Hop toevoegen aan kokende wort" },
+          { en: "Foam formation on beer", es: "Formación de espuma en la cerveza", de: "Schaumbildung auf Bier", nl: "Schuimvorming op bier" },
+          { en: "Protein coagulation during boil", es: "Coagulación de proteínas durante el hervido", de: "Proteinkoagulation während des Kochens", nl: "Eiwit coagulatie tijdens koken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Flocculation is the process where yeast cells aggregate and settle to the bottom (or rise to the top) after fermentation completes. High-flocculating yeasts (English ales) settle quickly, creating clear beer. Low-flocculating yeasts (hefeweizen, Belgian) remain in suspension longer, creating hazy beer. Medium flocculation is common in American ale strains.",
+          es: "La floculación es el proceso donde las células de levadura se agregan y se asientan en el fondo (o suben a la superficie) después de que la fermentación se completa. Las levaduras de alta floculación (ales inglesas) se asientan rápidamente, creando cerveza clara. Las levaduras de baja floculación (hefeweizen, belga) permanecen en suspensión más tiempo, creando cerveza turbia. La floculación media es común en cepas de ale americanas.",
+          de: "Flockung ist der Prozess, bei dem Hefezellen sich aggregieren und nach Abschluss der Gärung absetzen (oder aufsteigen). Hoch-flockende Hefen (englische Ales) setzen sich schnell ab und erzeugen klares Bier. Niedrig-flockende Hefen (Hefeweizen, Belgisch) bleiben länger in Suspension und erzeugen trübes Bier. Mittlere Flockung ist bei amerikanischen Ale-Stämmen üblich.",
+          nl: "Flocculatie is het proces waarbij gistcellen aggregeren en bezinken naar de bodem (of stijgen naar de top) nadat fermentatie voltooid is. Hoog-flocculerende gisten (Engelse ales) bezinken snel, creërend helder bier. Laag-flocculerende gisten (hefeweizen, Belgisch) blijven langer in suspensie, creërend troebel bier. Gemiddelde flocculatie is gebruikelijk bij Amerikaanse ale stammen."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between 'ale malt' and 'lager malt'?",
+          es: "¿Cuál es la diferencia entre 'malta ale' y 'malta lager'?",
+          de: "Was ist der Unterschied zwischen 'Ale-Malz' und 'Lager-Malz'?",
+          nl: "Wat is het verschil tussen 'ale mout' en 'lager mout'?"
+        },
+        options: [
+          { en: "Lager malt is kilned at lower temperatures for lighter color and cleaner flavor; ale malt at higher temperatures for more color and flavor", es: "La malta lager se tuesta a temperaturas más bajas para color más claro y sabor más limpio; malta ale a temperaturas más altas para más color y sabor", de: "Lager-Malz wird bei niedrigeren Temperaturen gedarrt für hellere Farbe und saubereren Geschmack; Ale-Malz bei höheren Temperaturen für mehr Farbe und Geschmack", nl: "Lager mout wordt gedroogd bij lagere temperaturen voor lichtere kleur en schonere smaak; ale mout bij hogere temperaturen voor meer kleur en smaak" },
+          { en: "They are identical malts", es: "Son maltas idénticas", de: "Sie sind identische Malze", nl: "Het zijn identieke mouten" },
+          { en: "Ale malt is darker roasted only", es: "Malta ale solo está más tostada", de: "Ale-Malz ist nur dunkler geröstet", nl: "Ale mout is alleen donkerder geroosterd" },
+          { en: "Lager malt contains more hops", es: "Malta lager contiene más lúpulo", de: "Lager-Malz enthält mehr Hopfen", nl: "Lager mout bevat meer hop" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The primary difference is kilning temperature: Lager (Pilsner) malt is kilned at lower temperatures (around 176-185°F/80-85°C), producing very pale color (1.5-2°L) and neutral, clean flavor ideal for crisp lagers. Ale (Pale) malt is kilned at slightly higher temperatures (around 185-194°F/85-90°C), creating slightly more color (2.5-3.5°L) and richer, maltier flavor suitable for ales.",
+          es: "La diferencia principal es la temperatura de tostado: La malta lager (Pilsner) se tuesta a temperaturas más bajas (alrededor de 176-185°F/80-85°C), produciendo color muy pálido (1.5-2°L) y sabor neutral y limpio ideal para lagers crujientes. La malta ale (Pale) se tuesta a temperaturas ligeramente más altas (alrededor de 185-194°F/85-90°C), creando un poco más de color (2.5-3.5°L) y sabor más rico y malteado adecuado para ales.",
+          de: "Der Hauptunterschied ist die Darrtemperatur: Lager (Pilsner) Malz wird bei niedrigeren Temperaturen (etwa 176-185°F/80-85°C) gedarrt und produziert sehr helle Farbe (1.5-2°L) und neutralen, sauberen Geschmack, ideal für knackige Lagers. Ale (Pale) Malz wird bei etwas höheren Temperaturen (etwa 185-194°F/85-90°C) gedarrt und erzeugt etwas mehr Farbe (2.5-3.5°L) und reicheren, malzigeren Geschmack, geeignet für Ales.",
+          nl: "Het primaire verschil is droging temperatuur: Lager (Pilsner) mout wordt gedroogd bij lagere temperaturen (rond 176-185°F/80-85°C), produceert zeer bleke kleur (1.5-2°L) en neutrale, schone smaak ideaal voor knapperige lagers. Ale (Pale) mout wordt gedroogd bij iets hogere temperaturen (rond 185-194°F/85-90°C), creëert iets meer kleur (2.5-3.5°L) en rijkere, mouterige smaak geschikt voor ales."
+        }
+      }
     ]
   };
 

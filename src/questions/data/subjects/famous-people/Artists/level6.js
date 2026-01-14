@@ -427,6 +427,258 @@
           de: "Umberto Boccioni schuf 'Einzigartige Formen der Kontinuität im Raum' 1913. Diese Skulptur verkörpert futuristische Prinzipien von Dynamik und Bewegung, zeigt eine schreitende Figur die in den sie umgebenden Raum zu schmelzen scheint.",
           nl: "Umberto Boccioni creëerde 'Unieke Vormen van Continuïteit in de Ruimte' in 1913. Deze sculptuur belichaamt futuristische principes van dynamiek en beweging, toont een schrijdende figuur die lijkt te smelten in de ruimte eromheen."
         }
+      },
+      {
+        question: {
+          en: "Which artist painted 'The Blue Boy', a famous 18th-century portrait?",
+          es: "¿Qué artista pintó 'El Niño Azul', un famoso retrato del siglo XVIII?",
+          de: "Welcher Künstler malte 'Der blaue Knabe', ein berühmtes Porträt aus dem 18. Jahrhundert?",
+          nl: "Welke kunstenaar schilderde 'The Blue Boy', een beroemd 18e-eeuws portret?"
+        },
+        options: [
+          { en: "Thomas Gainsborough", es: "Thomas Gainsborough", de: "Thomas Gainsborough", nl: "Thomas Gainsborough" },
+          { en: "Joshua Reynolds", es: "Joshua Reynolds", de: "Joshua Reynolds", nl: "Joshua Reynolds" },
+          { en: "George Romney", es: "George Romney", de: "George Romney", nl: "George Romney" },
+          { en: "Thomas Lawrence", es: "Thomas Lawrence", de: "Thomas Lawrence", nl: "Thomas Lawrence" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Thomas Gainsborough painted 'The Blue Boy' around 1770. The subject was Jonathan Buttall, son of a wealthy merchant. The painting became one of the most famous British portraits, known for its vibrant blue costume.",
+          es: "Thomas Gainsborough pintó 'El Niño Azul' alrededor de 1770. El sujeto era Jonathan Buttall, hijo de un rico comerciante. La pintura se convirtió en uno de los retratos británicos más famosos, conocido por su vibrante traje azul.",
+          de: "Thomas Gainsborough malte 'Der blaue Knabe' um 1770. Das Subjekt war Jonathan Buttall, Sohn eines wohlhabenden Kaufmanns. Das Gemälde wurde eines der berühmtesten britischen Porträts, bekannt für sein lebendiges blaues Kostüm.",
+          nl: "Thomas Gainsborough schilderde 'The Blue Boy' rond 1770. Het onderwerp was Jonathan Buttall, zoon van een rijke koopman. Het schilderij werd een van de beroemdste Britse portretten, bekend om zijn levendige blauwe kostuum."
+        }
+      },
+      {
+        question: {
+          en: "Who created the abstract painting 'Black Iris', part of the flower series?",
+          es: "¿Quién creó la pintura abstracta 'Iris Negro', parte de la serie de flores?",
+          de: "Wer schuf das abstrakte Gemälde 'Schwarze Iris', Teil der Blumenserie?",
+          nl: "Wie creëerde het abstracte schilderij 'Zwarte Iris', onderdeel van de bloemenserie?"
+        },
+        options: [
+          { en: "Georgia O'Keeffe", es: "Georgia O'Keeffe", de: "Georgia O'Keeffe", nl: "Georgia O'Keeffe" },
+          { en: "Frida Kahlo", es: "Frida Kahlo", de: "Frida Kahlo", nl: "Frida Kahlo" },
+          { en: "Tamara de Lempicka", es: "Tamara de Lempicka", de: "Tamara de Lempicka", nl: "Tamara de Lempicka" },
+          { en: "Lee Krasner", es: "Lee Krasner", de: "Lee Krasner", nl: "Lee Krasner" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Georgia O'Keeffe painted 'Black Iris' in 1926 as part of her groundbreaking series of close-up flower paintings. The work magnified the flower to monumental scale, revealing abstract forms and sensual details.",
+          es: "Georgia O'Keeffe pintó 'Iris Negro' en 1926 como parte de su innovadora serie de pinturas de flores en primer plano. La obra magnificó la flor a escala monumental, revelando formas abstractas y detalles sensuales.",
+          de: "Georgia O'Keeffe malte 'Schwarze Iris' 1926 als Teil ihrer bahnbrechenden Serie von Nahaufnahmen-Blumengemälden. Das Werk vergrößerte die Blume zu monumentalem Maßstab, enthüllte abstrakte Formen und sinnliche Details.",
+          nl: "Georgia O'Keeffe schilderde 'Zwarte Iris' in 1926 als onderdeel van haar baanbrekende serie close-up bloemschilderijen. Het werk vergrootte de bloem tot monumentale schaal, onthulde abstracte vormen en sensuele details."
+        }
+      },
+      {
+        question: {
+          en: "Which artist painted 'Girl with a Pearl Earring', often called the 'Mona Lisa of the North'?",
+          es: "¿Qué artista pintó 'La Joven de la Perla', a menudo llamada la 'Mona Lisa del Norte'?",
+          de: "Welcher Künstler malte 'Mädchen mit dem Perlenohrring', oft als 'Mona Lisa des Nordens' bezeichnet?",
+          nl: "Welke kunstenaar schilderde 'Meisje met de Parel', vaak de 'Mona Lisa van het Noorden' genoemd?"
+        },
+        options: [
+          { en: "Johannes Vermeer", es: "Johannes Vermeer", de: "Johannes Vermeer", nl: "Johannes Vermeer" },
+          { en: "Frans Hals", es: "Frans Hals", de: "Frans Hals", nl: "Frans Hals" },
+          { en: "Jan Steen", es: "Jan Steen", de: "Jan Steen", nl: "Jan Steen" },
+          { en: "Pieter de Hooch", es: "Pieter de Hooch", de: "Pieter de Hooch", nl: "Pieter de Hooch" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Johannes Vermeer painted 'Girl with a Pearl Earring' around 1665. The painting is famous for the subject's enigmatic gaze and the luminous pearl. It's considered one of Vermeer's masterworks and a treasure of the Dutch Golden Age.",
+          es: "Johannes Vermeer pintó 'La Joven de la Perla' alrededor de 1665. La pintura es famosa por la mirada enigmática del sujeto y la perla luminosa. Se considera una de las obras maestras de Vermeer y un tesoro de la Edad de Oro holandesa.",
+          de: "Johannes Vermeer malte 'Mädchen mit dem Perlenohrring' um 1665. Das Gemälde ist berühmt für den rätselhaften Blick des Subjekts und die leuchtende Perle. Es gilt als eines von Vermeers Meisterwerken und ein Schatz des niederländischen Goldenen Zeitalters.",
+          nl: "Johannes Vermeer schilderde 'Meisje met de Parel' rond 1665. Het schilderij is beroemd om de raadselachtige blik van het onderwerp en de lumineuze parel. Het wordt beschouwd als een van Vermeers meesterwerken en een schat van de Gouden Eeuw."
+        }
+      },
+      {
+        question: {
+          en: "Who painted 'The Scream of Nature', better known simply as 'The Scream'?",
+          es: "¿Quién pintó 'El Grito de la Naturaleza', mejor conocido simplemente como 'El Grito'?",
+          de: "Wer malte 'Der Schrei der Natur', besser bekannt als 'Der Schrei'?",
+          nl: "Wie schilderde 'De Schreeuw van de Natuur', beter bekend als gewoon 'De Schreeuw'?"
+        },
+        options: [
+          { en: "Edvard Munch", es: "Edvard Munch", de: "Edvard Munch", nl: "Edvard Munch" },
+          { en: "Vincent van Gogh", es: "Vincent van Gogh", de: "Vincent van Gogh", nl: "Vincent van Gogh" },
+          { en: "James Ensor", es: "James Ensor", de: "James Ensor", nl: "James Ensor" },
+          { en: "Egon Schiele", es: "Egon Schiele", de: "Egon Schiele", nl: "Egon Schiele" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Edvard Munch created four versions of 'The Scream' between 1893 and 1910. The iconic image of existential angst became a symbol of modern anxiety. Munch described it as capturing 'a great, unending scream piercing through nature'.",
+          es: "Edvard Munch creó cuatro versiones de 'El Grito' entre 1893 y 1910. La imagen icónica de angustia existencial se convirtió en un símbolo de ansiedad moderna. Munch la describió como capturando 'un gran grito interminable atravesando la naturaleza'.",
+          de: "Edvard Munch schuf zwischen 1893 und 1910 vier Versionen von 'Der Schrei'. Das ikonische Bild existenzieller Angst wurde zum Symbol moderner Ängstlichkeit. Munch beschrieb es als Erfassung 'eines großen, endlosen Schreis der durch die Natur dringt'.",
+          nl: "Edvard Munch creëerde vier versies van 'De Schreeuw' tussen 1893 en 1910. Het iconische beeld van existentiële angst werd een symbool van moderne angst. Munch beschreef het als het vangen van 'een grote, eindeloze schreeuw die door de natuur snijdt'."
+        }
+      },
+      {
+        question: {
+          en: "Which artist painted 'Liberty Leading the People', commemorating the July Revolution of 1830?",
+          es: "¿Qué artista pintó 'La Libertad Guiando al Pueblo', conmemorando la Revolución de Julio de 1830?",
+          de: "Welcher Künstler malte 'Die Freiheit führt das Volk an', zur Erinnerung an die Julirevolution von 1830?",
+          nl: "Welke kunstenaar schilderde 'De Vrijheid die het Volk Leidt', ter herdenking van de Julirevolutie van 1830?"
+        },
+        options: [
+          { en: "Eugène Delacroix", es: "Eugène Delacroix", de: "Eugène Delacroix", nl: "Eugène Delacroix" },
+          { en: "Jacques-Louis David", es: "Jacques-Louis David", de: "Jacques-Louis David", nl: "Jacques-Louis David" },
+          { en: "Théodore Géricault", es: "Théodore Géricault", de: "Théodore Géricault", nl: "Théodore Géricault" },
+          { en: "Jean-Auguste-Dominique Ingres", es: "Jean-Auguste-Dominique Ingres", de: "Jean-Auguste-Dominique Ingres", nl: "Jean-Auguste-Dominique Ingres" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Eugène Delacroix painted 'Liberty Leading the People' in 1830. The allegorical figure of Liberty leading citizens over fallen bodies became an iconic symbol of revolution and freedom, influencing political imagery worldwide.",
+          es: "Eugène Delacroix pintó 'La Libertad Guiando al Pueblo' en 1830. La figura alegórica de la Libertad guiando a ciudadanos sobre cuerpos caídos se convirtió en un símbolo icónico de revolución y libertad, influyendo en la imaginería política mundial.",
+          de: "Eugène Delacroix malte 'Die Freiheit führt das Volk an' 1830. Die allegorische Figur der Freiheit die Bürger über gefallene Körper führt wurde zum ikonischen Symbol von Revolution und Freiheit, beeinflusste politische Bildsprache weltweit.",
+          nl: "Eugène Delacroix schilderde 'De Vrijheid die het Volk Leidt' in 1830. De allegorische figuur van Vrijheid die burgers over gevallen lichamen leidt werd een iconisch symbool van revolutie en vrijheid, beïnvloedde politieke beeldtaal wereldwijd."
+        }
+      },
+      {
+        question: {
+          en: "Who created 'The Thinker', originally part of 'The Gates of Hell'?",
+          es: "¿Quién creó 'El Pensador', originalmente parte de 'Las Puertas del Infierno'?",
+          de: "Wer schuf 'Der Denker', ursprünglich Teil von 'Das Höllentor'?",
+          nl: "Wie creëerde 'De Denker', oorspronkelijk onderdeel van 'De Poorten van de Hel'?"
+        },
+        options: [
+          { en: "Auguste Rodin", es: "Auguste Rodin", de: "Auguste Rodin", nl: "Auguste Rodin" },
+          { en: "Aristide Maillol", es: "Aristide Maillol", de: "Aristide Maillol", nl: "Aristide Maillol" },
+          { en: "Antoine Bourdelle", es: "Antoine Bourdelle", de: "Antoine Bourdelle", nl: "Antoine Bourdelle" },
+          { en: "Constantin Brancusi", es: "Constantin Brancusi", de: "Constantin Brâncuși", nl: "Constantin Brancusi" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Auguste Rodin created 'The Thinker' in 1880 as part of 'The Gates of Hell'. Originally representing Dante contemplating his poem, it became an independent sculpture symbolizing philosophy and intellectual pursuit. Over 20 casts exist worldwide.",
+          es: "Auguste Rodin creó 'El Pensador' en 1880 como parte de 'Las Puertas del Infierno'. Originalmente representando a Dante contemplando su poema, se convirtió en una escultura independiente que simboliza la filosofía y la búsqueda intelectual. Existen más de 20 copias en todo el mundo.",
+          de: "Auguste Rodin schuf 'Der Denker' 1880 als Teil von 'Das Höllentor'. Ursprünglich Dante darstellend der sein Gedicht betrachtet, wurde es eine eigenständige Skulptur die Philosophie und intellektuelles Streben symbolisiert. Über 20 Abgüsse existieren weltweit.",
+          nl: "Auguste Rodin creëerde 'De Denker' in 1880 als onderdeel van 'De Poorten van de Hel'. Oorspronkelijk Dante voorstellend die zijn gedicht overweegt, werd het een zelfstandige sculptuur die filosofie en intellectuele zoektocht symboliseert. Meer dan 20 afgietsels bestaan wereldwijd."
+        }
+      },
+      {
+        question: {
+          en: "Which artist painted 'Luncheon on the Grass', scandalizing the 1863 Salon with its nude woman?",
+          es: "¿Qué artista pintó 'Almuerzo sobre la Hierba', escandalizando el Salón de 1863 con su mujer desnuda?",
+          de: "Welcher Künstler malte 'Frühstück im Grünen', skandalisierte den Salon 1863 mit seiner nackten Frau?",
+          nl: "Welke kunstenaar schilderde 'Ontbijt op het Gras', schokte het Salon van 1863 met zijn naakte vrouw?"
+        },
+        options: [
+          { en: "Édouard Manet", es: "Édouard Manet", de: "Édouard Manet", nl: "Édouard Manet" },
+          { en: "Claude Monet", es: "Claude Monet", de: "Claude Monet", nl: "Claude Monet" },
+          { en: "Pierre-Auguste Renoir", es: "Pierre-Auguste Renoir", de: "Pierre-Auguste Renoir", nl: "Pierre-Auguste Renoir" },
+          { en: "Gustave Courbet", es: "Gustave Courbet", de: "Gustave Courbet", nl: "Gustave Courbet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Édouard Manet painted 'Luncheon on the Grass' in 1863. The nude woman casually seated with fully dressed men shocked viewers. Rejected by the Salon, it was shown at the Salon des Refusés and became a landmark of modern art.",
+          es: "Édouard Manet pintó 'Almuerzo sobre la Hierba' en 1863. La mujer desnuda sentada casualmente con hombres completamente vestidos escandalizó a los espectadores. Rechazada por el Salón, fue mostrada en el Salón de los Rechazados y se convirtió en un hito del arte moderno.",
+          de: "Édouard Manet malte 'Frühstück im Grünen' 1863. Die nackte Frau die lässig mit vollständig gekleideten Männern sitzt schockierte Betrachter. Vom Salon abgelehnt, wurde es im Salon des Refusés gezeigt und wurde ein Meilenstein moderner Kunst.",
+          nl: "Édouard Manet schilderde 'Ontbijt op het Gras' in 1863. De naakte vrouw nonchalant gezeten met volledig geklede mannen schokte kijkers. Afgewezen door het Salon, werd het getoond in het Salon des Refusés en werd een mijlpaal van moderne kunst."
+        }
+      },
+      {
+        question: {
+          en: "Who painted 'The Music Lesson', a Dutch Golden Age interior scene?",
+          es: "¿Quién pintó 'La Lección de Música', una escena de interior de la Edad de Oro holandesa?",
+          de: "Wer malte 'Die Musikstunde', eine niederländische Interieurszene des Goldenen Zeitalters?",
+          nl: "Wie schilderde 'De Muziekles', een Gouden Eeuw interieurscène?"
+        },
+        options: [
+          { en: "Johannes Vermeer", es: "Johannes Vermeer", de: "Johannes Vermeer", nl: "Johannes Vermeer" },
+          { en: "Gabriel Metsu", es: "Gabriel Metsu", de: "Gabriel Metsu", nl: "Gabriel Metsu" },
+          { en: "Gerard ter Borch", es: "Gerard ter Borch", de: "Gerard ter Borch", nl: "Gerard ter Borch" },
+          { en: "Pieter de Hooch", es: "Pieter de Hooch", de: "Pieter de Hooch", nl: "Pieter de Hooch" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Johannes Vermeer painted 'The Music Lesson' around 1662-1665. The painting exemplifies Vermeer's mastery of light, perspective, and domestic interiors. The mirror reflection adds complexity to the composition.",
+          es: "Johannes Vermeer pintó 'La Lección de Música' alrededor de 1662-1665. La pintura ejemplifica el dominio de Vermeer de la luz, perspectiva e interiores domésticos. El reflejo del espejo agrega complejidad a la composición.",
+          de: "Johannes Vermeer malte 'Die Musikstunde' um 1662-1665. Das Gemälde veranschaulicht Vermeers Meisterschaft von Licht, Perspektive und häuslichen Innenräumen. Die Spiegelreflexion fügt der Komposition Komplexität hinzu.",
+          nl: "Johannes Vermeer schilderde 'De Muziekles' rond 1662-1665. Het schilderij illustreert Vermeers meesterschap van licht, perspectief en huiselijke interieurs. De spiegelreflectie voegt complexiteit toe aan de compositie."
+        }
+      },
+      {
+        question: {
+          en: "Which artist painted 'Arrangement in Grey and Black No. 2' (Portrait of Thomas Carlyle)?",
+          es: "¿Qué artista pintó 'Arreglo en Gris y Negro No. 2' (Retrato de Thomas Carlyle)?",
+          de: "Welcher Künstler malte 'Arrangement in Grau und Schwarz Nr. 2' (Porträt von Thomas Carlyle)?",
+          nl: "Welke kunstenaar schilderde 'Arrangement in Grijs en Zwart Nr. 2' (Portret van Thomas Carlyle)?"
+        },
+        options: [
+          { en: "James McNeill Whistler", es: "James McNeill Whistler", de: "James McNeill Whistler", nl: "James McNeill Whistler" },
+          { en: "John Singer Sargent", es: "John Singer Sargent", de: "John Singer Sargent", nl: "John Singer Sargent" },
+          { en: "Thomas Eakins", es: "Thomas Eakins", de: "Thomas Eakins", nl: "Thomas Eakins" },
+          { en: "William Merritt Chase", es: "William Merritt Chase", de: "William Merritt Chase", nl: "William Merritt Chase" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "James McNeill Whistler painted this portrait of historian Thomas Carlyle in 1872-1873. Like 'Whistler's Mother', it emphasizes formal arrangement and tonal harmony over narrative content, reflecting Whistler's aesthetic philosophy.",
+          es: "James McNeill Whistler pintó este retrato del historiador Thomas Carlyle en 1872-1873. Como 'La Madre de Whistler', enfatiza el arreglo formal y la armonía tonal sobre el contenido narrativo, reflejando la filosofía estética de Whistler.",
+          de: "James McNeill Whistler malte dieses Porträt des Historikers Thomas Carlyle 1872-1873. Wie 'Whistlers Mutter' betont es formale Anordnung und tonale Harmonie über narrativen Inhalt, spiegelt Whistlers ästhetische Philosophie wider.",
+          nl: "James McNeill Whistler schilderde dit portret van historicus Thomas Carlyle in 1872-1873. Zoals 'Whistlers Moeder' benadrukt het formeel arrangement en tonale harmonie boven narratieve inhoud, weerspiegelt Whistlers esthetische filosofie."
+        }
+      },
+      {
+        question: {
+          en: "Who created the sculpture 'Bird in Space', pushing abstraction to its limits?",
+          es: "¿Quién creó la escultura 'Pájaro en el Espacio', llevando la abstracción a sus límites?",
+          de: "Wer schuf die Skulptur 'Vogel im Raum', drängte Abstraktion an ihre Grenzen?",
+          nl: "Wie creëerde de sculptuur 'Vogel in de Ruimte', duwde abstractie tot zijn grenzen?"
+        },
+        options: [
+          { en: "Constantin Brancusi", es: "Constantin Brancusi", de: "Constantin Brâncuși", nl: "Constantin Brancusi" },
+          { en: "Jean Arp", es: "Jean Arp", de: "Jean Arp", nl: "Jean Arp" },
+          { en: "Henry Moore", es: "Henry Moore", de: "Henry Moore", nl: "Henry Moore" },
+          { en: "Barbara Hepworth", es: "Barbara Hepworth", de: "Barbara Hepworth", nl: "Barbara Hepworth" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Constantin Brancusi created multiple versions of 'Bird in Space' from 1923 onward. The streamlined form reduces the bird to pure essence of flight. In 1927, US customs refused to classify it as art, sparking a landmark legal case.",
+          es: "Constantin Brancusi creó múltiples versiones de 'Pájaro en el Espacio' desde 1923 en adelante. La forma aerodinámica reduce el pájaro a la esencia pura del vuelo. En 1927, la aduana estadounidense se negó a clasificarlo como arte, provocando un caso legal histórico.",
+          de: "Constantin Brâncuși schuf ab 1923 mehrere Versionen von 'Vogel im Raum'. Die stromlinienförmige Form reduziert den Vogel auf reine Essenz des Fluges. 1927 weigerte sich der US-Zoll es als Kunst zu klassifizieren, löste einen wegweisenden Rechtsfall aus.",
+          nl: "Constantin Brancusi creëerde meerdere versies van 'Vogel in de Ruimte' vanaf 1923. De gestroomlijnde vorm reduceert de vogel tot pure essentie van vlucht. In 1927 weigerde de Amerikaanse douane het als kunst te classificeren, leidde tot een baanbrekende rechtszaak."
+        }
+      },
+      {
+        question: {
+          en: "Which artist painted 'The Birth of Venus', showing the goddess emerging from the sea?",
+          es: "¿Qué artista pintó 'El Nacimiento de Venus', mostrando a la diosa emergiendo del mar?",
+          de: "Welcher Künstler malte 'Die Geburt der Venus', zeigt die Göttin aus dem Meer auftauchend?",
+          nl: "Welke kunstenaar schilderde 'De Geboorte van Venus', toont de godin opkomend uit de zee?"
+        },
+        options: [
+          { en: "Sandro Botticelli", es: "Sandro Botticelli", de: "Sandro Botticelli", nl: "Sandro Botticelli" },
+          { en: "Raphael", es: "Rafael", de: "Raffael", nl: "Rafaël" },
+          { en: "Titian", es: "Tiziano", de: "Tizian", nl: "Titiaan" },
+          { en: "Giorgione", es: "Giorgione", de: "Giorgione", nl: "Giorgione" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sandro Botticelli painted 'The Birth of Venus' around 1485 for the Medici family. This Renaissance masterpiece depicts Venus arriving at the shore on a shell, becoming one of the most iconic images in Western art history.",
+          es: "Sandro Botticelli pintó 'El Nacimiento de Venus' alrededor de 1485 para la familia Medici. Esta obra maestra renacentista representa a Venus llegando a la orilla en una concha, convirtiéndose en una de las imágenes más icónicas de la historia del arte occidental.",
+          de: "Sandro Botticelli malte 'Die Geburt der Venus' um 1485 für die Medici-Familie. Dieses Renaissance-Meisterwerk zeigt Venus die auf einer Muschel an die Küste kommt, wurde zu einem der ikonischsten Bilder in der westlichen Kunstgeschichte.",
+          nl: "Sandro Botticelli schilderde 'De Geboorte van Venus' rond 1485 voor de Medici familie. Dit Renaissance meesterwerk toont Venus die op een schelp aan de kust aankomt, werd een van de meest iconische beelden in de westerse kunstgeschiedenis."
+        }
+      },
+      {
+        question: {
+          en: "Who painted 'Bacchus and Ariadne', a mythological masterpiece?",
+          es: "¿Quién pintó 'Baco y Ariadna', una obra maestra mitológica?",
+          de: "Wer malte 'Bacchus und Ariadne', ein mythologisches Meisterwerk?",
+          nl: "Wie schilderde 'Bacchus en Ariadne', een mythologisch meesterwerk?"
+        },
+        options: [
+          { en: "Titian", es: "Tiziano", de: "Tizian", nl: "Titiaan" },
+          { en: "Paolo Veronese", es: "Paolo Veronese", de: "Paolo Veronese", nl: "Paolo Veronese" },
+          { en: "Tintoretto", es: "Tintoretto", de: "Tintoretto", nl: "Tintoretto" },
+          { en: "Giorgione", es: "Giorgione", de: "Giorgione", nl: "Giorgione" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Titian painted 'Bacchus and Ariadne' in 1520-1523 for the Duke of Ferrara. The dynamic composition captures the moment Bacchus leaps from his chariot to meet the abandoned Ariadne, showcasing Titian's mastery of color and movement.",
+          es: "Tiziano pintó 'Baco y Ariadna' en 1520-1523 para el Duque de Ferrara. La composición dinámica captura el momento en que Baco salta de su carro para encontrarse con la abandonada Ariadna, mostrando el dominio de Tiziano del color y el movimiento.",
+          de: "Tizian malte 'Bacchus und Ariadne' 1520-1523 für den Herzog von Ferrara. Die dynamische Komposition fängt den Moment ein als Bacchus von seinem Streitwagen springt um die verlassene Ariadne zu treffen, zeigt Tizians Meisterschaft von Farbe und Bewegung.",
+          nl: "Titiaan schilderde 'Bacchus en Ariadne' in 1520-1523 voor de Hertog van Ferrara. De dynamische compositie vangt het moment waarop Bacchus van zijn strijdwagen springt om de verlaten Ariadne te ontmoeten, toont Titiaans meesterschap van kleur en beweging."
+        }
       }
     ]
   };

@@ -426,6 +426,258 @@
           de: "Margaret Thatcher war Premierministerin während des Falklandkriegs 1982, ihre entschiedene militärische Antwort half, ihre politische Position zu sichern.",
           nl: "Margaret Thatcher was Premier tijdens de Falklandoorlog in 1982, haar beslissende militaire reactie hielp haar politieke positie te versterken."
         }
+      },
+      {
+        question: {
+          en: "Who was the first President of India?",
+          es: "¿Quién fue el primer Presidente de India?",
+          de: "Wer war der erste Präsident Indiens?",
+          nl: "Wie was de eerste President van India?"
+        },
+        options: [
+          { en: "Rajendra Prasad", es: "Rajendra Prasad", de: "Rajendra Prasad", nl: "Rajendra Prasad" },
+          { en: "Jawaharlal Nehru", es: "Jawaharlal Nehru", de: "Jawaharlal Nehru", nl: "Jawaharlal Nehru" },
+          { en: "Mahatma Gandhi", es: "Mahatma Gandhi", de: "Mahatma Gandhi", nl: "Mahatma Gandhi" },
+          { en: "Sardar Patel", es: "Sardar Patel", de: "Sardar Patel", nl: "Sardar Patel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Rajendra Prasad became India's first President in 1950, serving until 1962 and playing a key role in establishing democratic traditions in independent India.",
+          es: "Rajendra Prasad se convirtió en el primer Presidente de India en 1950, sirviendo hasta 1962 y desempeñando un papel clave en establecer las tradiciones democráticas en la India independiente.",
+          de: "Rajendra Prasad wurde 1950 Indiens erster Präsident, diente bis 1962 und spielte eine Schlüsselrolle bei der Etablierung demokratischer Traditionen im unabhängigen Indien.",
+          nl: "Rajendra Prasad werd in 1950 India's eerste President, diende tot 1962 en speelde een sleutelrol bij het vestigen van democratische tradities in het onafhankelijke India."
+        }
+      },
+      {
+        question: {
+          en: "Who was the founding father and first Prime Minister of Singapore?",
+          es: "¿Quién fue el padre fundador y primer Primer Ministro de Singapur?",
+          de: "Wer war der Gründungsvater und erste Premierminister Singapurs?",
+          nl: "Wie was de grondlegger en eerste Premier van Singapore?"
+        },
+        options: [
+          { en: "Lee Kuan Yew", es: "Lee Kuan Yew", de: "Lee Kuan Yew", nl: "Lee Kuan Yew" },
+          { en: "Goh Chok Tong", es: "Goh Chok Tong", de: "Goh Chok Tong", nl: "Goh Chok Tong" },
+          { en: "Lee Hsien Loong", es: "Lee Hsien Loong", de: "Lee Hsien Loong", nl: "Lee Hsien Loong" },
+          { en: "Yusof Ishak", es: "Yusof Ishak", de: "Yusof Ishak", nl: "Yusof Ishak" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Lee Kuan Yew served as Prime Minister of Singapore from 1959 to 1990, transforming the city-state from a developing nation into a global financial center.",
+          es: "Lee Kuan Yew sirvió como Primer Ministro de Singapur de 1959 a 1990, transformando la ciudad-estado de una nación en desarrollo a un centro financiero global.",
+          de: "Lee Kuan Yew diente von 1959 bis 1990 als Premierminister Singapurs und verwandelte den Stadtstaat von einer Entwicklungsnation in ein globales Finanzzentrum.",
+          nl: "Lee Kuan Yew diende van 1959 tot 1990 als Premier van Singapore, transformeerde de stadstaat van een ontwikkelingsland naar een mondiaal financieel centrum."
+        }
+      },
+      {
+        question: {
+          en: "Who was the first President of Israel?",
+          es: "¿Quién fue el primer Presidente de Israel?",
+          de: "Wer war der erste Präsident Israels?",
+          nl: "Wie was de eerste President van Israël?"
+        },
+        options: [
+          { en: "Chaim Weizmann", es: "Chaim Weizmann", de: "Chaim Weizmann", nl: "Chaim Weizmann" },
+          { en: "David Ben-Gurion", es: "David Ben-Gurion", de: "David Ben-Gurion", nl: "David Ben-Gurion" },
+          { en: "Golda Meir", es: "Golda Meir", de: "Golda Meir", nl: "Golda Meir" },
+          { en: "Yitzhak Rabin", es: "Yitzhak Rabin", de: "Yitzhak Rabin", nl: "Yitzhak Rabin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Chaim Weizmann became Israel's first President in 1949, serving until 1952, while David Ben-Gurion served as the first Prime Minister.",
+          es: "Chaim Weizmann se convirtió en el primer Presidente de Israel en 1949, sirviendo hasta 1952, mientras David Ben-Gurion sirvió como el primer Primer Ministro.",
+          de: "Chaim Weizmann wurde 1949 Israels erster Präsident und diente bis 1952, während David Ben-Gurion als erster Premierminister diente.",
+          nl: "Chaim Weizmann werd in 1949 Israëls eerste President, diende tot 1952, terwijl David Ben-Gurion als eerste Premier diende."
+        }
+      },
+      {
+        question: {
+          en: "Who was the first Chancellor of unified Germany after reunification in 1990?",
+          es: "¿Quién fue el primer Canciller de la Alemania unificada después de la reunificación en 1990?",
+          de: "Wer war der erste Bundeskanzler des vereinigten Deutschlands nach der Wiedervereinigung 1990?",
+          nl: "Wie was de eerste Bondskanselier van het herenigde Duitsland na de hereniging in 1990?"
+        },
+        options: [
+          { en: "Helmut Kohl", es: "Helmut Kohl", de: "Helmut Kohl", nl: "Helmut Kohl" },
+          { en: "Willy Brandt", es: "Willy Brandt", de: "Willy Brandt", nl: "Willy Brandt" },
+          { en: "Gerhard Schröder", es: "Gerhard Schröder", de: "Gerhard Schröder", nl: "Gerhard Schröder" },
+          { en: "Angela Merkel", es: "Angela Merkel", de: "Angela Merkel", nl: "Angela Merkel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Helmut Kohl was Chancellor of West Germany from 1982 and became the first Chancellor of unified Germany in 1990, serving until 1998.",
+          es: "Helmut Kohl fue Canciller de Alemania Occidental desde 1982 y se convirtió en el primer Canciller de la Alemania unificada en 1990, sirviendo hasta 1998.",
+          de: "Helmut Kohl war ab 1982 Bundeskanzler Westdeutschlands und wurde 1990 der erste Bundeskanzler des vereinigten Deutschlands, er diente bis 1998.",
+          nl: "Helmut Kohl was Bondskanselier van West-Duitsland vanaf 1982 en werd in 1990 de eerste Bondskanselier van het herenigde Duitsland, diende tot 1998."
+        }
+      },
+      {
+        question: {
+          en: "Who was President of the United States from 1981 to 1989?",
+          es: "¿Quién fue Presidente de los Estados Unidos de 1981 a 1989?",
+          de: "Wer war Präsident der Vereinigten Staaten von 1981 bis 1989?",
+          nl: "Wie was President van de Verenigde Staten van 1981 tot 1989?"
+        },
+        options: [
+          { en: "Ronald Reagan", es: "Ronald Reagan", de: "Ronald Reagan", nl: "Ronald Reagan" },
+          { en: "Jimmy Carter", es: "Jimmy Carter", de: "Jimmy Carter", nl: "Jimmy Carter" },
+          { en: "George H.W. Bush", es: "George H.W. Bush", de: "George H.W. Bush", nl: "George H.W. Bush" },
+          { en: "Gerald Ford", es: "Gerald Ford", de: "Gerald Ford", nl: "Gerald Ford" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ronald Reagan served as the 40th President from 1981 to 1989, known for his conservative economic policies, military buildup, and role in ending the Cold War.",
+          es: "Ronald Reagan sirvió como el 40º Presidente de 1981 a 1989, conocido por sus políticas económicas conservadoras, acumulación militar y papel en terminar la Guerra Fría.",
+          de: "Ronald Reagan diente von 1981 bis 1989 als 40. Präsident, bekannt für seine konservative Wirtschaftspolitik, militärische Aufrüstung und Rolle bei der Beendigung des Kalten Krieges.",
+          nl: "Ronald Reagan diende van 1981 tot 1989 als de 40e President, bekend om zijn conservatieve economische beleid, militaire opbouw en rol bij het beëindigen van de Koude Oorlog."
+        }
+      },
+      {
+        question: {
+          en: "Who was the first female Prime Minister of the United Kingdom?",
+          es: "¿Quién fue la primera Primera Ministra mujer del Reino Unido?",
+          de: "Wer war die erste weibliche Premierministerin des Vereinigten Königreichs?",
+          nl: "Wie was de eerste vrouwelijke Premier van het Verenigd Koninkrijk?"
+        },
+        options: [
+          { en: "Margaret Thatcher", es: "Margaret Thatcher", de: "Margaret Thatcher", nl: "Margaret Thatcher" },
+          { en: "Theresa May", es: "Theresa May", de: "Theresa May", nl: "Theresa May" },
+          { en: "Elizabeth II", es: "Isabel II", de: "Elizabeth II", nl: "Elizabeth II" },
+          { en: "Liz Truss", es: "Liz Truss", de: "Liz Truss", nl: "Liz Truss" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Margaret Thatcher served as Prime Minister from 1979 to 1990, becoming Britain's first female Prime Minister and earning the nickname 'Iron Lady'.",
+          es: "Margaret Thatcher sirvió como Primera Ministra de 1979 a 1990, convirtiéndose en la primera mujer Primera Ministra de Gran Bretaña y ganándose el apodo de 'Dama de Hierro'.",
+          de: "Margaret Thatcher diente von 1979 bis 1990 als Premierministerin, wurde Großbritanniens erste weibliche Premierministerin und erhielt den Spitznamen 'Eiserne Lady'.",
+          nl: "Margaret Thatcher diende van 1979 tot 1990 als Premier, werd Groot-Brittannië's eerste vrouwelijke Premier en kreeg de bijnaam 'IJzeren Dame'."
+        }
+      },
+      {
+        question: {
+          en: "Who was the leader of Cuba during the Cold War?",
+          es: "¿Quién fue el líder de Cuba durante la Guerra Fría?",
+          de: "Wer war der Führer Kubas während des Kalten Krieges?",
+          nl: "Wie was de leider van Cuba tijdens de Koude Oorlog?"
+        },
+        options: [
+          { en: "Fidel Castro", es: "Fidel Castro", de: "Fidel Castro", nl: "Fidel Castro" },
+          { en: "Che Guevara", es: "Che Guevara", de: "Che Guevara", nl: "Che Guevara" },
+          { en: "Raúl Castro", es: "Raúl Castro", de: "Raúl Castro", nl: "Raúl Castro" },
+          { en: "Fulgencio Batista", es: "Fulgencio Batista", de: "Fulgencio Batista", nl: "Fulgencio Batista" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Fidel Castro led Cuba from 1959 until 2008, establishing a communist regime and becoming a central figure in Cold War tensions between the US and Soviet Union.",
+          es: "Fidel Castro lideró Cuba desde 1959 hasta 2008, estableciendo un régimen comunista y convirtiéndose en una figura central en las tensiones de la Guerra Fría entre EE.UU. y la Unión Soviética.",
+          de: "Fidel Castro führte Kuba von 1959 bis 2008, etablierte ein kommunistisches Regime und wurde eine zentrale Figur in den Spannungen des Kalten Krieges zwischen den USA und der Sowjetunion.",
+          nl: "Fidel Castro leidde Cuba van 1959 tot 2008, vestigde een communistisch regime en werd een centrale figuur in de Koude Oorlog spanningen tussen de VS en de Sovjet-Unie."
+        }
+      },
+      {
+        question: {
+          en: "Who was the first Prime Minister of Pakistan?",
+          es: "¿Quién fue el primer Primer Ministro de Pakistán?",
+          de: "Wer war der erste Premierminister Pakistans?",
+          nl: "Wie was de eerste Premier van Pakistan?"
+        },
+        options: [
+          { en: "Liaquat Ali Khan", es: "Liaquat Ali Khan", de: "Liaquat Ali Khan", nl: "Liaquat Ali Khan" },
+          { en: "Muhammad Ali Jinnah", es: "Muhammad Ali Jinnah", de: "Muhammad Ali Jinnah", nl: "Muhammad Ali Jinnah" },
+          { en: "Zulfikar Ali Bhutto", es: "Zulfikar Ali Bhutto", de: "Zulfikar Ali Bhutto", nl: "Zulfikar Ali Bhutto" },
+          { en: "Benazir Bhutto", es: "Benazir Bhutto", de: "Benazir Bhutto", nl: "Benazir Bhutto" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Liaquat Ali Khan became Pakistan's first Prime Minister in 1947, serving until his assassination in 1951, while Muhammad Ali Jinnah was the first Governor-General.",
+          es: "Liaquat Ali Khan se convirtió en el primer Primer Ministro de Pakistán en 1947, sirviendo hasta su asesinato en 1951, mientras Muhammad Ali Jinnah fue el primer Gobernador General.",
+          de: "Liaquat Ali Khan wurde 1947 Pakistans erster Premierminister und diente bis zu seiner Ermordung 1951, während Muhammad Ali Jinnah der erste Generalgouverneur war.",
+          nl: "Liaquat Ali Khan werd in 1947 Pakistan's eerste Premier, diende tot zijn moord in 1951, terwijl Muhammad Ali Jinnah de eerste Gouverneur-Generaal was."
+        }
+      },
+      {
+        question: {
+          en: "Who was the first democratically elected President of Russia?",
+          es: "¿Quién fue el primer Presidente democráticamente elegido de Rusia?",
+          de: "Wer war der erste demokratisch gewählte Präsident Russlands?",
+          nl: "Wie was de eerste democratisch gekozen President van Rusland?"
+        },
+        options: [
+          { en: "Boris Yeltsin", es: "Boris Yeltsin", de: "Boris Jelzin", nl: "Boris Jeltsin" },
+          { en: "Mikhail Gorbachev", es: "Mikhail Gorbachev", de: "Michail Gorbatschow", nl: "Michail Gorbatsjov" },
+          { en: "Vladimir Putin", es: "Vladimir Putin", de: "Wladimir Putin", nl: "Vladimir Poetin" },
+          { en: "Dmitry Medvedev", es: "Dmitry Medvedev", de: "Dmitri Medwedew", nl: "Dmitri Medvedev" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Boris Yeltsin became Russia's first democratically elected President in 1991, leading the country through the tumultuous transition from communism to democracy.",
+          es: "Boris Yeltsin se convirtió en el primer Presidente democráticamente elegido de Rusia en 1991, liderando el país durante la tumultuosa transición del comunismo a la democracia.",
+          de: "Boris Jelzin wurde 1991 Russlands erster demokratisch gewählter Präsident und führte das Land durch den turbulenten Übergang vom Kommunismus zur Demokratie.",
+          nl: "Boris Jeltsin werd in 1991 Rusland's eerste democratisch gekozen President, leidde het land door de tumultueuze overgang van communisme naar democratie."
+        }
+      },
+      {
+        question: {
+          en: "Who was President of France from 1995 to 2007?",
+          es: "¿Quién fue Presidente de Francia de 1995 a 2007?",
+          de: "Wer war Präsident Frankreichs von 1995 bis 2007?",
+          nl: "Wie was President van Frankrijk van 1995 tot 2007?"
+        },
+        options: [
+          { en: "Jacques Chirac", es: "Jacques Chirac", de: "Jacques Chirac", nl: "Jacques Chirac" },
+          { en: "François Mitterrand", es: "François Mitterrand", de: "François Mitterrand", nl: "François Mitterrand" },
+          { en: "Nicolas Sarkozy", es: "Nicolas Sarkozy", de: "Nicolas Sarkozy", nl: "Nicolas Sarkozy" },
+          { en: "Valéry Giscard d'Estaing", es: "Valéry Giscard d'Estaing", de: "Valéry Giscard d'Estaing", nl: "Valéry Giscard d'Estaing" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jacques Chirac served as President of France for 12 years, known for his opposition to the Iraq War and efforts to strengthen European unity.",
+          es: "Jacques Chirac sirvió como Presidente de Francia durante 12 años, conocido por su oposición a la Guerra de Irak y esfuerzos para fortalecer la unidad europea.",
+          de: "Jacques Chirac diente 12 Jahre als Präsident Frankreichs, bekannt für seine Opposition zum Irakkrieg und Bemühungen zur Stärkung der europäischen Einheit.",
+          nl: "Jacques Chirac diende 12 jaar als President van Frankrijk, bekend om zijn oppositie tegen de Irakoorlog en inspanningen om de Europese eenheid te versterken."
+        }
+      },
+      {
+        question: {
+          en: "Who was President of the United States from 2001 to 2009?",
+          es: "¿Quién fue Presidente de los Estados Unidos de 2001 a 2009?",
+          de: "Wer war Präsident der Vereinigten Staaten von 2001 bis 2009?",
+          nl: "Wie was President van de Verenigde Staten van 2001 tot 2009?"
+        },
+        options: [
+          { en: "George W. Bush", es: "George W. Bush", de: "George W. Bush", nl: "George W. Bush" },
+          { en: "Bill Clinton", es: "Bill Clinton", de: "Bill Clinton", nl: "Bill Clinton" },
+          { en: "Barack Obama", es: "Barack Obama", de: "Barack Obama", nl: "Barack Obama" },
+          { en: "Al Gore", es: "Al Gore", de: "Al Gore", nl: "Al Gore" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "George W. Bush served as the 43rd President, his presidency defined by the September 11 attacks and subsequent wars in Afghanistan and Iraq.",
+          es: "George W. Bush sirvió como el 43º Presidente, su presidencia definida por los ataques del 11 de septiembre y las guerras subsecuentes en Afganistán e Irak.",
+          de: "George W. Bush diente als 43. Präsident, seine Präsidentschaft wurde von den Anschlägen vom 11. September und den nachfolgenden Kriegen in Afghanistan und im Irak geprägt.",
+          nl: "George W. Bush diende als de 43e President, zijn presidentschap werd gedefinieerd door de aanslagen van 11 september en de daaropvolgende oorlogen in Afghanistan en Irak."
+        }
+      },
+      {
+        question: {
+          en: "Who was the first Prime Minister of India?",
+          es: "¿Quién fue el primer Primer Ministro de India?",
+          de: "Wer war der erste Premierminister Indiens?",
+          nl: "Wie was de eerste Premier van India?"
+        },
+        options: [
+          { en: "Jawaharlal Nehru", es: "Jawaharlal Nehru", de: "Jawaharlal Nehru", nl: "Jawaharlal Nehru" },
+          { en: "Mahatma Gandhi", es: "Mahatma Gandhi", de: "Mahatma Gandhi", nl: "Mahatma Gandhi" },
+          { en: "Indira Gandhi", es: "Indira Gandhi", de: "Indira Gandhi", nl: "Indira Gandhi" },
+          { en: "Rajendra Prasad", es: "Rajendra Prasad", de: "Rajendra Prasad", nl: "Rajendra Prasad" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jawaharlal Nehru served as India's first Prime Minister from 1947 to 1964, playing a crucial role in shaping modern India and establishing its secular democracy.",
+          es: "Jawaharlal Nehru sirvió como el primer Primer Ministro de India de 1947 a 1964, jugando un papel crucial en dar forma a la India moderna y establecer su democracia secular.",
+          de: "Jawaharlal Nehru diente von 1947 bis 1964 als Indiens erster Premierminister und spielte eine entscheidende Rolle bei der Gestaltung des modernen Indiens und der Etablierung seiner säkularen Demokratie.",
+          nl: "Jawaharlal Nehru diende van 1947 tot 1964 als India's eerste Premier, speelde een cruciale rol bij het vormgeven van het moderne India en het vestigen van zijn seculiere democratie."
+        }
       }
     ]
   };

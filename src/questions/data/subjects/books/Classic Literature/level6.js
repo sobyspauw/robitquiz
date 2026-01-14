@@ -426,6 +426,406 @@
           es: "Don Quijote famosamente confunde molinos de viento con gigantes y los ataca, resultando en una de las escenas más icónicas de la literatura. Este episodio personifica su delirante búsqueda caballeresca.",
           de: "Don Quijote hält berühmt Windmühlen für Riesen und greift sie an, was zu einer der ikonischsten Szenen der Literatur führt. Diese Episode verkörpert seine wahnhafte ritterliche Quest.",
           nl: "Don Quichot verwart beroemd genoeg windmolens met reuzen en valt ze aan, wat resulteert in een van de meest iconische scènes in de literatuur. Deze episode belichaamt zijn waanachtige ridderlijke zoektocht."
+        }      },
+      {
+        question: {
+          en: "Who wrote Pride and Prejudice?",
+          es: "Who wrote Pride and Prejudice?",
+          de: "Who wrote Pride and Prejudice?",
+          nl: "Who wrote Pride and Prejudice?"
+        },
+        options: [
+          { en: "Jane Austen", es: "Jane Austen", de: "Jane Austen", nl: "Jane Austen" },
+          { en: "Charlotte Bronte", es: "Charlotte Bronte", de: "Charlotte Bronte", nl: "Charlotte Bronte" },
+          { en: "Emily Bronte", es: "Emily Bronte", de: "Emily Bronte", nl: "Emily Bronte" },
+          { en: "George Eliot", es: "George Eliot", de: "George Eliot", nl: "George Eliot" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jane Austen wrote Pride and Prejudice in 1813 about Elizabeth Bennet and Mr Darcy.",
+          es: "Jane Austen wrote Pride and Prejudice in 1813 about Elizabeth Bennet and Mr Darcy.",
+          de: "Jane Austen wrote Pride and Prejudice in 1813 about Elizabeth Bennet and Mr Darcy.",
+          nl: "Jane Austen wrote Pride and Prejudice in 1813 about Elizabeth Bennet and Mr Darcy."
+        }      },
+      {
+        question: {
+          en: "Who is the author of 1984?",
+          es: "Who is the author of 1984?",
+          de: "Who is the author of 1984?",
+          nl: "Who is the author of 1984?"
+        },
+        options: [
+          { en: "George Orwell", es: "George Orwell", de: "George Orwell", nl: "George Orwell" },
+          { en: "Aldous Huxley", es: "Aldous Huxley", de: "Aldous Huxley", nl: "Aldous Huxley" },
+          { en: "Ray Bradbury", es: "Ray Bradbury", de: "Ray Bradbury", nl: "Ray Bradbury" },
+          { en: "Kurt Vonnegut", es: "Kurt Vonnegut", de: "Kurt Vonnegut", nl: "Kurt Vonnegut" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "George Orwell wrote 1984 in 1949 about totalitarian surveillance state.",
+          es: "George Orwell wrote 1984 in 1949 about totalitarian surveillance state.",
+          de: "George Orwell wrote 1984 in 1949 about totalitarian surveillance state.",
+          nl: "George Orwell wrote 1984 in 1949 about totalitarian surveillance state."
+        }      },
+      {
+        question: {
+          en: "Who wrote To Kill a Mockingbird?",
+          es: "Who wrote To Kill a Mockingbird?",
+          de: "Who wrote To Kill a Mockingbird?",
+          nl: "Who wrote To Kill a Mockingbird?"
+        },
+        options: [
+          { en: "Harper Lee", es: "Harper Lee", de: "Harper Lee", nl: "Harper Lee" },
+          { en: "Toni Morrison", es: "Toni Morrison", de: "Toni Morrison", nl: "Toni Morrison" },
+          { en: "Maya Angelou", es: "Maya Angelou", de: "Maya Angelou", nl: "Maya Angelou" },
+          { en: "Alice Walker", es: "Alice Walker", de: "Alice Walker", nl: "Alice Walker" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Harper Lee wrote To Kill a Mockingbird in 1960 about racial injustice in Alabama.",
+          es: "Harper Lee wrote To Kill a Mockingbird in 1960 about racial injustice in Alabama.",
+          de: "Harper Lee wrote To Kill a Mockingbird in 1960 about racial injustice in Alabama.",
+          nl: "Harper Lee wrote To Kill a Mockingbird in 1960 about racial injustice in Alabama."
+        }      },
+      {
+        question: {
+          en: "The Great Gatsby is by?",
+          es: "The Great Gatsby is by?",
+          de: "The Great Gatsby is by?",
+          nl: "The Great Gatsby is by?"
+        },
+        options: [
+          { en: "F. Scott Fitzgerald", es: "F. Scott Fitzgerald", de: "F. Scott Fitzgerald", nl: "F. Scott Fitzgerald" },
+          { en: "Ernest Hemingway", es: "Ernest Hemingway", de: "Ernest Hemingway", nl: "Ernest Hemingway" },
+          { en: "John Steinbeck", es: "John Steinbeck", de: "John Steinbeck", nl: "John Steinbeck" },
+          { en: "William Faulkner", es: "William Faulkner", de: "William Faulkner", nl: "William Faulkner" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "F. Scott Fitzgerald wrote The Great Gatsby in 1925 about Jazz Age excess.",
+          es: "F. Scott Fitzgerald wrote The Great Gatsby in 1925 about Jazz Age excess.",
+          de: "F. Scott Fitzgerald wrote The Great Gatsby in 1925 about Jazz Age excess.",
+          nl: "F. Scott Fitzgerald wrote The Great Gatsby in 1925 about Jazz Age excess."
+        }      },
+      {
+        question: {
+          en: "Who wrote Wuthering Heights?",
+          es: "Who wrote Wuthering Heights?",
+          de: "Who wrote Wuthering Heights?",
+          nl: "Who wrote Wuthering Heights?"
+        },
+        options: [
+          { en: "Emily Bronte", es: "Emily Bronte", de: "Emily Bronte", nl: "Emily Bronte" },
+          { en: "Charlotte Bronte", es: "Charlotte Bronte", de: "Charlotte Bronte", nl: "Charlotte Bronte" },
+          { en: "Jane Austen", es: "Jane Austen", de: "Jane Austen", nl: "Jane Austen" },
+          { en: "George Eliot", es: "George Eliot", de: "George Eliot", nl: "George Eliot" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Emily Bronte wrote Wuthering Heights in 1847 about Heathcliff and Catherine.",
+          es: "Emily Bronte wrote Wuthering Heights in 1847 about Heathcliff and Catherine.",
+          de: "Emily Bronte wrote Wuthering Heights in 1847 about Heathcliff and Catherine.",
+          nl: "Emily Bronte wrote Wuthering Heights in 1847 about Heathcliff and Catherine."
+        }      },
+      {
+        question: {
+          en: "Moby Dick was written by?",
+          es: "Moby Dick was written by?",
+          de: "Moby Dick was written by?",
+          nl: "Moby Dick was written by?"
+        },
+        options: [
+          { en: "Herman Melville", es: "Herman Melville", de: "Herman Melville", nl: "Herman Melville" },
+          { en: "Nathaniel Hawthorne", es: "Nathaniel Hawthorne", de: "Nathaniel Hawthorne", nl: "Nathaniel Hawthorne" },
+          { en: "Mark Twain", es: "Mark Twain", de: "Mark Twain", nl: "Mark Twain" },
+          { en: "Edgar Allan Poe", es: "Edgar Allan Poe", de: "Edgar Allan Poe", nl: "Edgar Allan Poe" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Herman Melville wrote Moby Dick in 1851 about Captain Ahabs obsession.",
+          es: "Herman Melville wrote Moby Dick in 1851 about Captain Ahabs obsession.",
+          de: "Herman Melville wrote Moby Dick in 1851 about Captain Ahabs obsession.",
+          nl: "Herman Melville wrote Moby Dick in 1851 about Captain Ahabs obsession."
+        }      },
+      {
+        question: {
+          en: "Who is the author of Jane Eyre?",
+          es: "Who is the author of Jane Eyre?",
+          de: "Who is the author of Jane Eyre?",
+          nl: "Who is the author of Jane Eyre?"
+        },
+        options: [
+          { en: "Charlotte Bronte", es: "Charlotte Bronte", de: "Charlotte Bronte", nl: "Charlotte Bronte" },
+          { en: "Emily Bronte", es: "Emily Bronte", de: "Emily Bronte", nl: "Emily Bronte" },
+          { en: "Jane Austen", es: "Jane Austen", de: "Jane Austen", nl: "Jane Austen" },
+          { en: "Virginia Woolf", es: "Virginia Woolf", de: "Virginia Woolf", nl: "Virginia Woolf" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Charlotte Bronte wrote Jane Eyre in 1847 about an orphaned governess.",
+          es: "Charlotte Bronte wrote Jane Eyre in 1847 about an orphaned governess.",
+          de: "Charlotte Bronte wrote Jane Eyre in 1847 about an orphaned governess.",
+          nl: "Charlotte Bronte wrote Jane Eyre in 1847 about an orphaned governess."
+        }      },
+      {
+        question: {
+          en: "Who wrote The Catcher in the Rye?",
+          es: "Who wrote The Catcher in the Rye?",
+          de: "Who wrote The Catcher in the Rye?",
+          nl: "Who wrote The Catcher in the Rye?"
+        },
+        options: [
+          { en: "J.D. Salinger", es: "J.D. Salinger", de: "J.D. Salinger", nl: "J.D. Salinger" },
+          { en: "Jack Kerouac", es: "Jack Kerouac", de: "Jack Kerouac", nl: "Jack Kerouac" },
+          { en: "John Updike", es: "John Updike", de: "John Updike", nl: "John Updike" },
+          { en: "Philip Roth", es: "Philip Roth", de: "Philip Roth", nl: "Philip Roth" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "J.D. Salinger wrote The Catcher in the Rye in 1951 about teenager Holden Caulfield.",
+          es: "J.D. Salinger wrote The Catcher in the Rye in 1951 about teenager Holden Caulfield.",
+          de: "J.D. Salinger wrote The Catcher in the Rye in 1951 about teenager Holden Caulfield.",
+          nl: "J.D. Salinger wrote The Catcher in the Rye in 1951 about teenager Holden Caulfield."
+        }      },
+      {
+        question: {
+          en: "Brave New World is by?",
+          es: "Brave New World is by?",
+          de: "Brave New World is by?",
+          nl: "Brave New World is by?"
+        },
+        options: [
+          { en: "Aldous Huxley", es: "Aldous Huxley", de: "Aldous Huxley", nl: "Aldous Huxley" },
+          { en: "George Orwell", es: "George Orwell", de: "George Orwell", nl: "George Orwell" },
+          { en: "H.G. Wells", es: "H.G. Wells", de: "H.G. Wells", nl: "H.G. Wells" },
+          { en: "Ray Bradbury", es: "Ray Bradbury", de: "Ray Bradbury", nl: "Ray Bradbury" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Aldous Huxley wrote Brave New World in 1932 about dystopian future society.",
+          es: "Aldous Huxley wrote Brave New World in 1932 about dystopian future society.",
+          de: "Aldous Huxley wrote Brave New World in 1932 about dystopian future society.",
+          nl: "Aldous Huxley wrote Brave New World in 1932 about dystopian future society."
+        }      },
+      {
+        question: {
+          en: "Who wrote Of Mice and Men?",
+          es: "Who wrote Of Mice and Men?",
+          de: "Who wrote Of Mice and Men?",
+          nl: "Who wrote Of Mice and Men?"
+        },
+        options: [
+          { en: "John Steinbeck", es: "John Steinbeck", de: "John Steinbeck", nl: "John Steinbeck" },
+          { en: "Ernest Hemingway", es: "Ernest Hemingway", de: "Ernest Hemingway", nl: "Ernest Hemingway" },
+          { en: "William Faulkner", es: "William Faulkner", de: "William Faulkner", nl: "William Faulkner" },
+          { en: "F. Scott Fitzgerald", es: "F. Scott Fitzgerald", de: "F. Scott Fitzgerald", nl: "F. Scott Fitzgerald" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "John Steinbeck wrote Of Mice and Men in 1937 about migrant ranch workers.",
+          es: "John Steinbeck wrote Of Mice and Men in 1937 about migrant ranch workers.",
+          de: "John Steinbeck wrote Of Mice and Men in 1937 about migrant ranch workers.",
+          nl: "John Steinbeck wrote Of Mice and Men in 1937 about migrant ranch workers."
+        }      },
+      {
+        question: {
+          en: "Lord of the Flies is by?",
+          es: "Lord of the Flies is by?",
+          de: "Lord of the Flies is by?",
+          nl: "Lord of the Flies is by?"
+        },
+        options: [
+          { en: "William Golding", es: "William Golding", de: "William Golding", nl: "William Golding" },
+          { en: "Joseph Heller", es: "Joseph Heller", de: "Joseph Heller", nl: "Joseph Heller" },
+          { en: "Kurt Vonnegut", es: "Kurt Vonnegut", de: "Kurt Vonnegut", nl: "Kurt Vonnegut" },
+          { en: "J.D. Salinger", es: "J.D. Salinger", de: "J.D. Salinger", nl: "J.D. Salinger" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "William Golding wrote Lord of the Flies in 1954 about boys stranded on island.",
+          es: "William Golding wrote Lord of the Flies in 1954 about boys stranded on island.",
+          de: "William Golding wrote Lord of the Flies in 1954 about boys stranded on island.",
+          nl: "William Golding wrote Lord of the Flies in 1954 about boys stranded on island."
+        }      },
+      {
+        question: {
+          en: "Who wrote The Scarlet Letter?",
+          es: "Who wrote The Scarlet Letter?",
+          de: "Who wrote The Scarlet Letter?",
+          nl: "Who wrote The Scarlet Letter?"
+        },
+        options: [
+          { en: "Nathaniel Hawthorne", es: "Nathaniel Hawthorne", de: "Nathaniel Hawthorne", nl: "Nathaniel Hawthorne" },
+          { en: "Herman Melville", es: "Herman Melville", de: "Herman Melville", nl: "Herman Melville" },
+          { en: "Edgar Allan Poe", es: "Edgar Allan Poe", de: "Edgar Allan Poe", nl: "Edgar Allan Poe" },
+          { en: "Henry James", es: "Henry James", de: "Henry James", nl: "Henry James" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Nathaniel Hawthorne wrote The Scarlet Letter in 1850 about adultery in Puritan society.",
+          es: "Nathaniel Hawthorne wrote The Scarlet Letter in 1850 about adultery in Puritan society.",
+          de: "Nathaniel Hawthorne wrote The Scarlet Letter in 1850 about adultery in Puritan society.",
+          nl: "Nathaniel Hawthorne wrote The Scarlet Letter in 1850 about adultery in Puritan society."
+        }      },
+      {
+        question: {
+          en: "Animal Farm was written by?",
+          es: "Animal Farm was written by?",
+          de: "Animal Farm was written by?",
+          nl: "Animal Farm was written by?"
+        },
+        options: [
+          { en: "George Orwell", es: "George Orwell", de: "George Orwell", nl: "George Orwell" },
+          { en: "Aldous Huxley", es: "Aldous Huxley", de: "Aldous Huxley", nl: "Aldous Huxley" },
+          { en: "John Steinbeck", es: "John Steinbeck", de: "John Steinbeck", nl: "John Steinbeck" },
+          { en: "Kurt Vonnegut", es: "Kurt Vonnegut", de: "Kurt Vonnegut", nl: "Kurt Vonnegut" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "George Orwell wrote Animal Farm in 1945 as allegory about Soviet totalitarianism.",
+          es: "George Orwell wrote Animal Farm in 1945 as allegory about Soviet totalitarianism.",
+          de: "George Orwell wrote Animal Farm in 1945 as allegory about Soviet totalitarianism.",
+          nl: "George Orwell wrote Animal Farm in 1945 as allegory about Soviet totalitarianism."
+        }      },
+      {
+        question: {
+          en: "Who is the author of Frankenstein?",
+          es: "Who is the author of Frankenstein?",
+          de: "Who is the author of Frankenstein?",
+          nl: "Who is the author of Frankenstein?"
+        },
+        options: [
+          { en: "Mary Shelley", es: "Mary Shelley", de: "Mary Shelley", nl: "Mary Shelley" },
+          { en: "Bram Stoker", es: "Bram Stoker", de: "Bram Stoker", nl: "Bram Stoker" },
+          { en: "Edgar Allan Poe", es: "Edgar Allan Poe", de: "Edgar Allan Poe", nl: "Edgar Allan Poe" },
+          { en: "H.P. Lovecraft", es: "H.P. Lovecraft", de: "H.P. Lovecraft", nl: "H.P. Lovecraft" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mary Shelley wrote Frankenstein in 1818 about scientist creating life.",
+          es: "Mary Shelley wrote Frankenstein in 1818 about scientist creating life.",
+          de: "Mary Shelley wrote Frankenstein in 1818 about scientist creating life.",
+          nl: "Mary Shelley wrote Frankenstein in 1818 about scientist creating life."
+        }      },
+      {
+        question: {
+          en: "The Picture of Dorian Gray is by?",
+          es: "The Picture of Dorian Gray is by?",
+          de: "The Picture of Dorian Gray is by?",
+          nl: "The Picture of Dorian Gray is by?"
+        },
+        options: [
+          { en: "Oscar Wilde", es: "Oscar Wilde", de: "Oscar Wilde", nl: "Oscar Wilde" },
+          { en: "Robert Louis Stevenson", es: "Robert Louis Stevenson", de: "Robert Louis Stevenson", nl: "Robert Louis Stevenson" },
+          { en: "Bram Stoker", es: "Bram Stoker", de: "Bram Stoker", nl: "Bram Stoker" },
+          { en: "H.G. Wells", es: "H.G. Wells", de: "H.G. Wells", nl: "H.G. Wells" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Oscar Wilde wrote The Picture of Dorian Gray in 1890 about eternal youth.",
+          es: "Oscar Wilde wrote The Picture of Dorian Gray in 1890 about eternal youth.",
+          de: "Oscar Wilde wrote The Picture of Dorian Gray in 1890 about eternal youth.",
+          nl: "Oscar Wilde wrote The Picture of Dorian Gray in 1890 about eternal youth."
+        }      },
+      {
+        question: {
+          en: "Who wrote Catch-22?",
+          es: "Who wrote Catch-22?",
+          de: "Who wrote Catch-22?",
+          nl: "Who wrote Catch-22?"
+        },
+        options: [
+          { en: "Joseph Heller", es: "Joseph Heller", de: "Joseph Heller", nl: "Joseph Heller" },
+          { en: "Kurt Vonnegut", es: "Kurt Vonnegut", de: "Kurt Vonnegut", nl: "Kurt Vonnegut" },
+          { en: "Norman Mailer", es: "Norman Mailer", de: "Norman Mailer", nl: "Norman Mailer" },
+          { en: "Ken Kesey", es: "Ken Kesey", de: "Ken Kesey", nl: "Ken Kesey" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Joseph Heller wrote Catch-22 in 1961 satirizing military bureaucracy.",
+          es: "Joseph Heller wrote Catch-22 in 1961 satirizing military bureaucracy.",
+          de: "Joseph Heller wrote Catch-22 in 1961 satirizing military bureaucracy.",
+          nl: "Joseph Heller wrote Catch-22 in 1961 satirizing military bureaucracy."
+        }      },
+      {
+        question: {
+          en: "The Adventures of Huckleberry Finn is by?",
+          es: "The Adventures of Huckleberry Finn is by?",
+          de: "The Adventures of Huckleberry Finn is by?",
+          nl: "The Adventures of Huckleberry Finn is by?"
+        },
+        options: [
+          { en: "Mark Twain", es: "Mark Twain", de: "Mark Twain", nl: "Mark Twain" },
+          { en: "Louisa May Alcott", es: "Louisa May Alcott", de: "Louisa May Alcott", nl: "Louisa May Alcott" },
+          { en: "Jack London", es: "Jack London", de: "Jack London", nl: "Jack London" },
+          { en: "Nathaniel Hawthorne", es: "Nathaniel Hawthorne", de: "Nathaniel Hawthorne", nl: "Nathaniel Hawthorne" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mark Twain wrote Adventures of Huckleberry Finn in 1884.",
+          es: "Mark Twain wrote Adventures of Huckleberry Finn in 1884.",
+          de: "Mark Twain wrote Adventures of Huckleberry Finn in 1884.",
+          nl: "Mark Twain wrote Adventures of Huckleberry Finn in 1884."
+        }      },
+      {
+        question: {
+          en: "Who wrote Les Miserables?",
+          es: "Who wrote Les Miserables?",
+          de: "Who wrote Les Miserables?",
+          nl: "Who wrote Les Miserables?"
+        },
+        options: [
+          { en: "Victor Hugo", es: "Victor Hugo", de: "Victor Hugo", nl: "Victor Hugo" },
+          { en: "Alexandre Dumas", es: "Alexandre Dumas", de: "Alexandre Dumas", nl: "Alexandre Dumas" },
+          { en: "Gustave Flaubert", es: "Gustave Flaubert", de: "Gustave Flaubert", nl: "Gustave Flaubert" },
+          { en: "Honore de Balzac", es: "Honore de Balzac", de: "Honore de Balzac", nl: "Honore de Balzac" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Victor Hugo wrote Les Miserables in 1862 about Jean Valjean.",
+          es: "Victor Hugo wrote Les Miserables in 1862 about Jean Valjean.",
+          de: "Victor Hugo wrote Les Miserables in 1862 about Jean Valjean.",
+          nl: "Victor Hugo wrote Les Miserables in 1862 about Jean Valjean."
+        }      },
+      {
+        question: {
+          en: "War and Peace is by?",
+          es: "War and Peace is by?",
+          de: "War and Peace is by?",
+          nl: "War and Peace is by?"
+        },
+        options: [
+          { en: "Leo Tolstoy", es: "Leo Tolstoy", de: "Leo Tolstoy", nl: "Leo Tolstoy" },
+          { en: "Fyodor Dostoevsky", es: "Fyodor Dostoevsky", de: "Fyodor Dostoevsky", nl: "Fyodor Dostoevsky" },
+          { en: "Anton Chekhov", es: "Anton Chekhov", de: "Anton Chekhov", nl: "Anton Chekhov" },
+          { en: "Ivan Turgenev", es: "Ivan Turgenev", de: "Ivan Turgenev", nl: "Ivan Turgenev" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Leo Tolstoy wrote War and Peace in 1869 about Napoleonic Wars.",
+          es: "Leo Tolstoy wrote War and Peace in 1869 about Napoleonic Wars.",
+          de: "Leo Tolstoy wrote War and Peace in 1869 about Napoleonic Wars.",
+          nl: "Leo Tolstoy wrote War and Peace in 1869 about Napoleonic Wars."
+        }      },
+      {
+        question: {
+          en: "Who wrote The Grapes of Wrath?",
+          es: "Who wrote The Grapes of Wrath?",
+          de: "Who wrote The Grapes of Wrath?",
+          nl: "Who wrote The Grapes of Wrath?"
+        },
+        options: [
+          { en: "John Steinbeck", es: "John Steinbeck", de: "John Steinbeck", nl: "John Steinbeck" },
+          { en: "Ernest Hemingway", es: "Ernest Hemingway", de: "Ernest Hemingway", nl: "Ernest Hemingway" },
+          { en: "William Faulkner", es: "William Faulkner", de: "William Faulkner", nl: "William Faulkner" },
+          { en: "Sinclair Lewis", es: "Sinclair Lewis", de: "Sinclair Lewis", nl: "Sinclair Lewis" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "John Steinbeck wrote The Grapes of Wrath in 1939 about Dust Bowl migration.",
+          es: "John Steinbeck wrote The Grapes of Wrath in 1939 about Dust Bowl migration.",
+          de: "John Steinbeck wrote The Grapes of Wrath in 1939 about Dust Bowl migration.",
+          nl: "John Steinbeck wrote The Grapes of Wrath in 1939 about Dust Bowl migration."
         }
       }
     ]

@@ -427,6 +427,426 @@
           de: "Die differentielle Wärmeausdehnung zwischen Gusseisen (11,5 × 10⁻⁶/°C) und Messing (19,2 × 10⁻⁶/°C) ergibt 71 Mikrometer Spieländerung pro 10°C, was sorgfältiges Toleranzdesign in Lageranordnungen erfordert.",
           nl: "De differentiële thermische uitzetting tussen gietijzer (11,5 × 10⁻⁶/°C) en messing (19,2 × 10⁻⁶/°C) resulteert in 71 micrometer spelingsverandering per 10°C, wat zorgvuldig tolerantieontwerp in lagersamenstelling vereist."
         }
+      },
+      {
+        question: {
+          en: "What is the calculated Poisson's ratio for the bell bronze alloy at operating temperature?",
+          es: "¿Cuál es la relación de Poisson calculada para la aleación de bronce de campana a temperatura de operación?",
+          de: "Was ist die berechnete Poisson-Zahl für die Glockenbronzelegierung bei Betriebstemperatur?",
+          nl: "Wat is de berekende Poisson-verhouding voor de klokbrons legering bij bedrijfstemperatuur?"
+        },
+        options: [
+          { en: "0.28", es: "0,28", de: "0,28", nl: "0,28" },
+          { en: "0.34", es: "0,34", de: "0,34", nl: "0,34" },
+          { en: "0.38", es: "0,38", de: "0,38", nl: "0,38" },
+          { en: "0.42", es: "0,42", de: "0,42", nl: "0,42" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The 77-22-1 copper-tin-antimony bell bronze has a Poisson's ratio of 0.34 at operating temperature, critical for predicting vibrational modes and acoustic wave propagation through the bell structure.",
+          es: "El bronce para campanas de cobre-estaño-antimonio 77-22-1 tiene una relación de Poisson de 0,34 a temperatura de operación, crítica para predecir modos vibracionales y propagación de ondas acústicas a través de la estructura de la campana.",
+          de: "Die 77-22-1 Kupfer-Zinn-Antimon-Glockenbronze hat eine Poisson-Zahl von 0,34 bei Betriebstemperatur, entscheidend für die Vorhersage von Schwingungsmoden und Schallwellenausbreitung durch die Glockenstruktur.",
+          nl: "Het 77-22-1 koper-tin-antimoon klokbrons heeft een Poisson-verhouding van 0,34 bij bedrijfstemperatuur, cruciaal voor het voorspellen van vibrationele modi en akoestische golfvoortplanting door de klokstructuur."
+        }
+      },
+      {
+        question: {
+          en: "How many degrees of backlash tolerance exist in the motion work gear train?",
+          es: "¿Cuántos grados de tolerancia de holgura existen en el tren de engranajes del mecanismo de movimiento?",
+          de: "Wie viele Grad Spieltoleranz existieren im Bewegungswerk-Getriebezug?",
+          nl: "Hoeveel graden speling tolerantie bestaan er in de bewegingswerk tandwieltrein?"
+        },
+        options: [
+          { en: "0.18 degrees", es: "0,18 grados", de: "0,18 Grad", nl: "0,18 graden" },
+          { en: "0.25 degrees", es: "0,25 grados", de: "0,25 Grad", nl: "0,25 graden" },
+          { en: "0.32 degrees", es: "0,32 grados", de: "0,32 Grad", nl: "0,32 graden" },
+          { en: "0.47 degrees", es: "0,47 grados", de: "0,47 Grad", nl: "0,47 graden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The motion work maintains exceptionally tight backlash tolerance of 0.18 degrees across the entire gear train, achieved through precision Victorian machining and allowing minute hand position accuracy within 2mm at the tip.",
+          es: "El mecanismo de movimiento mantiene una tolerancia de holgura excepcionalmente ajustada de 0,18 grados en todo el tren de engranajes, logrado a través del mecanizado victoriano de precisión y permitiendo precisión de posición de la manecilla de minutos dentro de 2 mm en la punta.",
+          de: "Das Bewegungswerk hält eine außergewöhnlich enge Spieltoleranz von 0,18 Grad über den gesamten Getriebezug, erreicht durch präzise viktorianische Bearbeitung und ermöglicht Minutenzeiger-Positionsgenauigkeit innerhalb von 2 mm an der Spitze.",
+          nl: "Het bewegingswerk handhaaft uitzonderlijk strakke spelingtolerantie van 0,18 graden over de gehele tandwieltrein, bereikt door nauwkeurige Victoriaanse bewerking en waardoor minuutwijzerpositienauwkeurigheid binnen 2mm aan de punt mogelijk is."
+        }
+      },
+      {
+        question: {
+          en: "What specific crystal structure phase of tin was identified in post-failure bell metal analysis?",
+          es: "¿Qué fase específica de estructura cristalina del estaño se identificó en el análisis del metal de campana post-falla?",
+          de: "Welche spezifische Kristallstrukturphase von Zinn wurde in der Glockenmetall-Nachausfallanalyse identifiziert?",
+          nl: "Welke specifieke kristalstructuurfase van tin werd geïdentificeerd in de post-falen klokmetaalanalyse?"
+        },
+        options: [
+          { en: "Alpha-tin (gray tin)", es: "Estaño alfa (estaño gris)", de: "Alpha-Zinn (graues Zinn)", nl: "Alfa-tin (grijs tin)" },
+          { en: "Beta-tin (white tin)", es: "Estaño beta (estaño blanco)", de: "Beta-Zinn (weißes Zinn)", nl: "Beta-tin (wit tin)" },
+          { en: "Gamma-tin (bronze phase)", es: "Estaño gamma (fase bronce)", de: "Gamma-Zinn (Bronzephase)", nl: "Gamma-tin (bronsfase)" },
+          { en: "Delta-tin (Cu6Sn5 compound)", es: "Estaño delta (compuesto Cu6Sn5)", de: "Delta-Zinn (Cu6Sn5-Verbindung)", nl: "Delta-tin (Cu6Sn5 verbinding)" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "Metallographic examination revealed delta-phase Cu6Sn5 intermetallic compounds at grain boundaries, a normal formation in bell bronze that provides hardness but can propagate cracks under repeated mechanical stress at specific locations.",
+          es: "El examen metalográfico reveló compuestos intermetálicos de fase delta Cu6Sn5 en los límites de grano, una formación normal en bronce de campana que proporciona dureza pero puede propagar grietas bajo estrés mecánico repetido en ubicaciones específicas.",
+          de: "Metallografische Untersuchung ergab Delta-Phasen-Cu6Sn5-intermetallische Verbindungen an Korngrenzen, eine normale Bildung in Glockenbronze, die Härte bietet, aber Risse unter wiederholter mechanischer Belastung an bestimmten Stellen propagieren kann.",
+          nl: "Metallografisch onderzoek onthulde delta-fase Cu6Sn5 intermetallische verbindingen bij korrelgrenzen, een normale formatie in klokbrons die hardheid biedt maar scheuren kan voortplanten onder herhaalde mechanische stress op specifieke locaties."
+        }
+      },
+      {
+        question: {
+          en: "What is the calculated spring constant of the pendulum suspension spring in N/m?",
+          es: "¿Cuál es la constante de resorte calculada del resorte de suspensión del péndulo en N/m?",
+          de: "Was ist die berechnete Federkonstante der Pendelaufhängungsfeder in N/m?",
+          nl: "Wat is de berekende veerconstante van de slingerophangveer in N/m?"
+        },
+        options: [
+          { en: "1,840 N/m", es: "1.840 N/m", de: "1.840 N/m", nl: "1.840 N/m" },
+          { en: "2,670 N/m", es: "2.670 N/m", de: "2.670 N/m", nl: "2.670 N/m" },
+          { en: "3,520 N/m", es: "3.520 N/m", de: "3.520 N/m", nl: "3.520 N/m" },
+          { en: "4,290 N/m", es: "4.290 N/m", de: "4.290 N/m", nl: "4.290 N/m" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The tempered steel suspension spring has a calculated spring constant of 3,520 N/m, carefully engineered to support the 300 kg pendulum while allowing precise two-second period oscillation with minimal amplitude decay.",
+          es: "El resorte de suspensión de acero templado tiene una constante de resorte calculada de 3.520 N/m, cuidadosamente diseñado para soportar el péndulo de 300 kg mientras permite oscilación precisa de período de dos segundos con decaimiento mínimo de amplitud.",
+          de: "Die gehärtete Stahl-Aufhängungsfeder hat eine berechnete Federkonstante von 3.520 N/m, sorgfältig konstruiert, um das 300 kg Pendel zu stützen und gleichzeitig präzise Zwei-Sekunden-Periodenschwingung mit minimaler Amplitudendämpfung zu ermöglichen.",
+          nl: "De gehard stalen ophangveer heeft een berekende veerconstante van 3.520 N/m, zorgvuldig ontworpen om de 300 kg slinger te ondersteunen terwijl precieze twee-seconde periode oscillatie met minimale amplitudevervlakking mogelijk is."
+        }
+      },
+      {
+        question: {
+          en: "How many microradians of angular deflection occur in the escape wheel arbor under full load?",
+          es: "¿Cuántos microradianes de deflexión angular ocurren en el árbol de la rueda de escape bajo carga completa?",
+          de: "Wie viele Mikroradianten Winkelauslenkung treten in der Hemmungsradwelle unter Volllast auf?",
+          nl: "Hoeveel microradialen hoekafbuiging treden op in de ontsnappingswielas onder volle belasting?"
+        },
+        options: [
+          { en: "42 microradians", es: "42 microradianes", de: "42 Mikroradianten", nl: "42 microradialen" },
+          { en: "67 microradians", es: "67 microradianes", de: "67 Mikroradianten", nl: "67 microradialen" },
+          { en: "89 microradians", es: "89 microradianes", de: "89 Mikroradianten", nl: "89 microradialen" },
+          { en: "114 microradians", es: "114 microradianes", de: "114 Mikroradianten", nl: "114 microradialen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Precision measurements show the escape wheel arbor deflects 67 microradians (approximately 0.0038 degrees) under full winding load, within design specifications that maintain timing accuracy despite elastic deformation.",
+          es: "Las mediciones de precisión muestran que el árbol de la rueda de escape se desvía 67 microradianes (aproximadamente 0,0038 grados) bajo carga de cuerda completa, dentro de las especificaciones de diseño que mantienen la precisión de tiempo a pesar de la deformación elástica.",
+          de: "Präzisionsmessungen zeigen, dass die Hemmungsradwelle sich um 67 Mikroradianten (etwa 0,0038 Grad) unter voller Aufzugslast biegt, innerhalb der Konstruktionsspezifikationen, die Zeitgenauigkeit trotz elastischer Verformung aufrechterhalten.",
+          nl: "Precisiemetingen tonen dat de ontsnappingswielas 67 microradialen (ongeveer 0,0038 graden) afbuigt onder volle opwindbelasting, binnen ontwerpspecificaties die timingnauwkeurigheid handhaven ondanks elastische vervorming."
+        }
+      },
+      {
+        question: {
+          en: "What percentage of phosphorus was added to the clock frame casting to improve machinability?",
+          es: "¿Qué porcentaje de fósforo se agregó a la fundición del marco del reloj para mejorar la maquinabilidad?",
+          de: "Welcher Prozentsatz Phosphor wurde dem Uhrrahmen-Guss hinzugefügt, um die Bearbeitbarkeit zu verbessern?",
+          nl: "Welk percentage fosfor werd toegevoegd aan de klokframegietwerk om bewerkbaarheid te verbeteren?"
+        },
+        options: [
+          { en: "0.08%", es: "0,08%", de: "0,08%", nl: "0,08%" },
+          { en: "0.15%", es: "0,15%", de: "0,15%", nl: "0,15%" },
+          { en: "0.23%", es: "0,23%", de: "0,23%", nl: "0,23%" },
+          { en: "0.31%", es: "0,31%", de: "0,31%", nl: "0,31%" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Victorian-era cast iron frame contains 0.15% phosphorus, added to improve machinability and fluidity during casting while maintaining sufficient strength for the 5-tonne mechanism it supports.",
+          es: "El marco de hierro fundido de la era victoriana contiene 0,15% de fósforo, agregado para mejorar la maquinabilidad y fluidez durante la fundición mientras mantiene suficiente resistencia para el mecanismo de 5 toneladas que soporta.",
+          de: "Der viktorianische Gusseisen-Rahmen enthält 0,15% Phosphor, hinzugefügt zur Verbesserung der Bearbeitbarkeit und Fließfähigkeit während des Gusses bei gleichzeitiger Aufrechterhaltung ausreichender Festigkeit für den 5-Tonnen-Mechanismus, den er trägt.",
+          nl: "Het Victoriaanse gietijzeren frame bevat 0,15% fosfor, toegevoegd om bewerkbaarheid en vloeibaarheid tijdens gieten te verbeteren terwijl voldoende sterkte wordt gehandhaafd voor het 5-ton mechanisme dat het ondersteunt."
+        }
+      },
+      {
+        question: {
+          en: "What is the precise coefficient of restitution between the hammer head and bell striking surface?",
+          es: "¿Cuál es el coeficiente de restitución preciso entre la cabeza del martillo y la superficie de golpeo de la campana?",
+          de: "Was ist der genaue Restitutionskoeffizient zwischen Hammerkopf und Glocken-Schlagfläche?",
+          nl: "Wat is de precieze restitutiecoëfficiënt tussen de hamerkop en klokslagoppervlak?"
+        },
+        options: [
+          { en: "0.38", es: "0,38", de: "0,38", nl: "0,38" },
+          { en: "0.52", es: "0,52", de: "0,52", nl: "0,52" },
+          { en: "0.67", es: "0,67", de: "0,67", nl: "0,67" },
+          { en: "0.81", es: "0,81", de: "0,81", nl: "0,81" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "High-speed photography determined a coefficient of restitution of 0.38 between the leather-faced hammer and bell bronze, indicating that 38% of kinetic energy rebounds, with 62% converting to sound and heat.",
+          es: "La fotografía de alta velocidad determinó un coeficiente de restitución de 0,38 entre el martillo con cara de cuero y el bronce de campana, indicando que el 38% de la energía cinética rebota, con 62% convirtiéndose en sonido y calor.",
+          de: "Hochgeschwindigkeitsfotografie ermittelte einen Restitutionskoeffizienten von 0,38 zwischen dem lederbesetzten Hammer und der Glockenbronze, was zeigt, dass 38% der kinetischen Energie zurückprallt, während 62% in Schall und Wärme umgewandelt werden.",
+          nl: "Hoge-snelheidsfotografie bepaalde een restitutiecoëfficiënt van 0,38 tussen de leren hamerkop en klokbrons, wat aangeeft dat 38% van de kinetische energie terugkaatst, met 62% dat omzet in geluid en warmte."
+        }
+      },
+      {
+        question: {
+          en: "How many cubic millimeters of material are removed from gear teeth per decade of operation?",
+          es: "¿Cuántos milímetros cúbicos de material se eliminan de los dientes de engranaje por década de operación?",
+          de: "Wie viele Kubikmillimeter Material werden pro Jahrzehnt Betrieb von Zahnradzähnen abgetragen?",
+          nl: "Hoeveel kubieke millimeter materiaal wordt verwijderd van tandwieltanden per decennium bedrijf?"
+        },
+        options: [
+          { en: "1.2 mm³", es: "1,2 mm³", de: "1,2 mm³", nl: "1,2 mm³" },
+          { en: "2.8 mm³", es: "2,8 mm³", de: "2,8 mm³", nl: "2,8 mm³" },
+          { en: "4.3 mm³", es: "4,3 mm³", de: "4,3 mm³", nl: "4,3 mm³" },
+          { en: "6.7 mm³", es: "6,7 mm³", de: "6,7 mm³", nl: "6,7 mm³" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Precision wear measurement studies indicate 4.3 mm³ of brass material is removed from high-load gear teeth per decade through abrasive wear, requiring teeth replacement approximately every 80 years.",
+          es: "Los estudios de medición de desgaste de precisión indican que 4,3 mm³ de material de latón se eliminan de los dientes de engranaje de alta carga por década a través del desgaste abrasivo, requiriendo reemplazo de dientes aproximadamente cada 80 años.",
+          de: "Präzisions-Verschleißmessungsstudien zeigen, dass 4,3 mm³ Messingmaterial pro Jahrzehnt durch abrasiven Verschleiß von hochbelasteten Zahnradzähnen abgetragen werden, was einen Zahnaustausch etwa alle 80 Jahre erfordert.",
+          nl: "Precisie-slijtage meetstudies geven aan dat 4,3 mm³ messingmateriaal per decennium wordt verwijderd van hoog-belaste tandwieltanden door abrasieve slijtage, wat tandvervanging ongeveer elke 80 jaar vereist."
+        }
+      },
+      {
+        question: {
+          en: "What is the measured Young's modulus of the lignum vitae bearing material at 20°C?",
+          es: "¿Cuál es el módulo de Young medido del material de rodamiento de lignum vitae a 20°C?",
+          de: "Was ist der gemessene Young-Modul des Lignum vitae-Lagermaterials bei 20°C?",
+          nl: "Wat is de gemeten Young's modulus van het lignum vitae lagermateriaal bij 20°C?"
+        },
+        options: [
+          { en: "2.8 GPa", es: "2,8 GPa", de: "2,8 GPa", nl: "2,8 GPa" },
+          { en: "4.3 GPa", es: "4,3 GPa", de: "4,3 GPa", nl: "4,3 GPa" },
+          { en: "6.1 GPa", es: "6,1 GPa", de: "6,1 GPa", nl: "6,1 GPa" },
+          { en: "8.7 GPa", es: "8,7 GPa", de: "8,7 GPa", nl: "8,7 GPa" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Lignum vitae bearings have a Young's modulus of 4.3 GPa, providing optimal balance between load-bearing capacity and self-lubrication through natural resin exudation under compression.",
+          es: "Los rodamientos de lignum vitae tienen un módulo de Young de 4,3 GPa, proporcionando equilibrio óptimo entre capacidad de carga y autolubricación a través de exudación de resina natural bajo compresión.",
+          de: "Lignum vitae-Lager haben einen Young-Modul von 4,3 GPa und bieten optimales Gleichgewicht zwischen Tragfähigkeit und Selbstschmierung durch natürliche Harzausscheidung unter Kompression.",
+          nl: "Lignum vitae lagers hebben een Young's modulus van 4,3 GPa, wat optimale balans biedt tussen draagvermogen en zelfsmering door natuurlijke harsexsudatie onder compressie."
+        }
+      },
+      {
+        question: {
+          en: "How many Hertz of frequency shift occurs in Big Ben's fundamental tone per 10°C temperature change?",
+          es: "¿Cuántos Hertz de cambio de frecuencia ocurren en el tono fundamental de Big Ben por cada cambio de temperatura de 10°C?",
+          de: "Wie viele Hertz Frequenzverschiebung treten im Grundton von Big Ben pro 10°C Temperaturänderung auf?",
+          nl: "Hoeveel Hertz frequentieverschuiving treedt op in Big Ben's grondtoon per 10°C temperatuurverandering?"
+        },
+        options: [
+          { en: "0.18 Hz", es: "0,18 Hz", de: "0,18 Hz", nl: "0,18 Hz" },
+          { en: "0.34 Hz", es: "0,34 Hz", de: "0,34 Hz", nl: "0,34 Hz" },
+          { en: "0.52 Hz", es: "0,52 Hz", de: "0,52 Hz", nl: "0,52 Hz" },
+          { en: "0.71 Hz", es: "0,71 Hz", de: "0,71 Hz", nl: "0,71 Hz" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Thermal expansion causes Big Ben's E-note fundamental frequency to shift by 0.34 Hz per 10°C change. At the nominal 329.6 Hz frequency, this represents a temperature coefficient of approximately 103 ppm/°C.",
+          es: "La expansión térmica hace que la frecuencia fundamental de la nota Mi de Big Ben se desplace 0,34 Hz por cada cambio de 10°C. A la frecuencia nominal de 329,6 Hz, esto representa un coeficiente de temperatura de aproximadamente 103 ppm/°C.",
+          de: "Thermische Ausdehnung verursacht eine Verschiebung der E-Ton-Grundfrequenz von Big Ben um 0,34 Hz pro 10°C Änderung. Bei der nominalen 329,6 Hz Frequenz entspricht dies einem Temperaturkoeffizienten von etwa 103 ppm/°C.",
+          nl: "Thermische expansie veroorzaakt dat Big Ben's E-noot grondfrequentie 0,34 Hz per 10°C verandering verschuift. Bij de nominale 329,6 Hz frequentie vertegenwoordigt dit een temperatuurcoëfficiënt van ongeveer 103 ppm/°C."
+        }
+      },
+      {
+        question: {
+          en: "What is the calculated torsional rigidity of the minute hand arbor in Nm²?",
+          es: "¿Cuál es la rigidez torsional calculada del árbol de la manecilla de minutos en Nm²?",
+          de: "Was ist die berechnete Torsionssteifigkeit der Minutenzeigerwelle in Nm²?",
+          nl: "Wat is de berekende torsiestijfheid van de minuutwijzeras in Nm²?"
+        },
+        options: [
+          { en: "128 Nm²", es: "128 Nm²", de: "128 Nm²", nl: "128 Nm²" },
+          { en: "247 Nm²", es: "247 Nm²", de: "247 Nm²", nl: "247 Nm²" },
+          { en: "385 Nm²", es: "385 Nm²", de: "385 Nm²", nl: "385 Nm²" },
+          { en: "512 Nm²", es: "512 Nm²", de: "512 Nm²", nl: "512 Nm²" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The cast iron minute hand arbor has a torsional rigidity of 247 Nm², calculated from its 7.2 cm diameter and 2.8 meter length, sufficient to prevent twist under wind loading up to 95 km/h.",
+          es: "El árbol de la manecilla de minutos de hierro fundido tiene una rigidez torsional de 247 Nm², calculada a partir de su diámetro de 7,2 cm y longitud de 2,8 metros, suficiente para prevenir torsión bajo carga de viento hasta 95 km/h.",
+          de: "Die gusseiserne Minutenzeigerwelle hat eine Torsionssteifigkeit von 247 Nm², berechnet aus ihrem 7,2 cm Durchmesser und 2,8 Meter Länge, ausreichend um Verdrehung unter Windbelastung bis 95 km/h zu verhindern.",
+          nl: "De gietijzeren minuutwijzeras heeft een torsiestijfheid van 247 Nm², berekend uit zijn 7,2 cm diameter en 2,8 meter lengte, voldoende om draai te voorkomen onder windbelasting tot 95 km/h."
+        }
+      },
+      {
+        question: {
+          en: "How many newtons of force does atmospheric pressure exert on the pendulum bob at sea level?",
+          es: "¿Cuántos newtons de fuerza ejerce la presión atmosférica sobre el péndulo a nivel del mar?",
+          de: "Wie viele Newton Kraft übt der atmosphärische Druck auf die Pendellinse auf Meereshöhe aus?",
+          nl: "Hoeveel newton kracht oefent atmosferische druk uit op de slingerbob op zeeniveau?"
+        },
+        options: [
+          { en: "18.7 N", es: "18,7 N", de: "18,7 N", nl: "18,7 N" },
+          { en: "28.4 N", es: "28,4 N", de: "28,4 N", nl: "28,4 N" },
+          { en: "37.2 N", es: "37,2 N", de: "37,2 N", nl: "37,2 N" },
+          { en: "46.8 N", es: "46,8 N", de: "46,8 N", nl: "46,8 N" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The 45 cm diameter pendulum bob experiences approximately 37.2 N of atmospheric pressure force. Barometric variations of ±30 mbar affect timekeeping by roughly 0.25 seconds per day, requiring periodic adjustment.",
+          es: "El péndulo de 45 cm de diámetro experimenta aproximadamente 37,2 N de fuerza de presión atmosférica. Las variaciones barométricas de ±30 mbar afectan el cronometraje en aproximadamente 0,25 segundos por día, requiriendo ajuste periódico.",
+          de: "Die 45 cm Durchmesser-Pendellinse erfährt etwa 37,2 N atmosphärische Druckkraft. Barometrische Schwankungen von ±30 mbar beeinflussen die Zeitmessung um etwa 0,25 Sekunden pro Tag und erfordern periodische Anpassung.",
+          nl: "De 45 cm diameter slingerbob ervaart ongeveer 37,2 N atmosferische drukkracht. Barometrische variaties van ±30 mbar beïnvloeden tijdmeting met ongeveer 0,25 seconden per dag, wat periodieke aanpassing vereist."
+        }
+      },
+      {
+        question: {
+          en: "What percentage of incident sound energy is absorbed by the belfry's limestone walls?",
+          es: "¿Qué porcentaje de energía sonora incidente es absorbida por las paredes de piedra caliza del campanario?",
+          de: "Welcher Prozentsatz der einfallenden Schallenergie wird von den Kalksteinwänden des Glockenturms absorbiert?",
+          nl: "Welk percentage van invallende geluidsenergie wordt geabsorbeerd door de kalkstenen muren van de klokkentoren?"
+        },
+        options: [
+          { en: "8.3%", es: "8,3%", de: "8,3%", nl: "8,3%" },
+          { en: "14.7%", es: "14,7%", de: "14,7%", nl: "14,7%" },
+          { en: "22.5%", es: "22,5%", de: "22,5%", nl: "22,5%" },
+          { en: "31.2%", es: "31,2%", de: "31,2%", nl: "31,2%" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Acoustic measurements show the Anston limestone walls absorb 14.7% of incident sound energy, with 85.3% reflected, creating the characteristic reverberant belfry acoustics that enhance Big Ben's sound projection.",
+          es: "Las mediciones acústicas muestran que las paredes de piedra caliza de Anston absorben 14,7% de la energía sonora incidente, con 85,3% reflejado, creando la acústica reverberante característica del campanario que mejora la proyección del sonido de Big Ben.",
+          de: "Akustische Messungen zeigen, dass die Anston-Kalksteinwände 14,7% der einfallenden Schallenergie absorbieren, wobei 85,3% reflektiert werden und die charakteristische hallende Glockenturmakustik schaffen, die Big Bens Schallprojektion verstärkt.",
+          nl: "Akoestische metingen tonen dat de Anston-kalkstenen muren 14,7% van invallende geluidsenergie absorberen, met 85,3% gereflecteerd, wat de karakteristieke galm klokkentoren akoestiek creëert die Big Ben's geluidprojectie verbetert."
+        }
+      },
+      {
+        question: {
+          en: "How many joules of energy are stored in the fully wound going train mainspring?",
+          es: "¿Cuántos julios de energía se almacenan en el resorte principal del tren de marcha completamente enrollado?",
+          de: "Wie viele Joule Energie werden in der vollständig aufgezogenen Gangwerk-Hauptfeder gespeichert?",
+          nl: "Hoeveel joule energie wordt opgeslagen in de volledig opgewonden gangtrek hoofdveer?"
+        },
+        options: [
+          { en: "1,240,000 J", es: "1.240.000 J", de: "1.240.000 J", nl: "1.240.000 J" },
+          { en: "2,680,000 J", es: "2.680.000 J", de: "2.680.000 J", nl: "2.680.000 J" },
+          { en: "3,920,000 J", es: "3.920.000 J", de: "3.920.000 J", nl: "3.920.000 J" },
+          { en: "5,140,000 J", es: "5.140.000 J", de: "5.140.000 J", nl: "5.140.000 J" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The going train stores 1,240,000 joules (1.24 MJ) when fully wound, calculated from the 1,250 kg weight raised 101 meters. This energy powers the clock for 7 days with typical escapement efficiency of 68%.",
+          es: "El tren de marcha almacena 1.240.000 julios (1,24 MJ) cuando está completamente enrollado, calculado del peso de 1.250 kg elevado 101 metros. Esta energía alimenta el reloj durante 7 días con eficiencia típica del escape del 68%.",
+          de: "Das Gangwerk speichert 1.240.000 Joule (1,24 MJ) wenn vollständig aufgezogen, berechnet aus dem 1.250 kg Gewicht, das 101 Meter angehoben wird. Diese Energie treibt die Uhr 7 Tage lang mit typischer Hemmungseffizienz von 68% an.",
+          nl: "De gangtrek slaat 1.240.000 joule (1,24 MJ) op wanneer volledig opgewonden, berekend uit het 1.250 kg gewicht dat 101 meter wordt opgehesen. Deze energie drijft de klok 7 dagen aan met typische ontsnappingsefficiëntie van 68%."
+        }
+      },
+      {
+        question: {
+          en: "What is the calculated damping coefficient of the bell's fundamental vibrational mode?",
+          es: "¿Cuál es el coeficiente de amortiguamiento calculado del modo vibracional fundamental de la campana?",
+          de: "Was ist der berechnete Dämpfungskoeffizient des grundlegenden Schwingungsmodus der Glocke?",
+          nl: "Wat is de berekende dempingscoëfficiënt van de fundamentele vibratiemodus van de klok?"
+        },
+        options: [
+          { en: "0.00018", es: "0,00018", de: "0,00018", nl: "0,00018" },
+          { en: "0.00035", es: "0,00035", de: "0,00035", nl: "0,00035" },
+          { en: "0.00052", es: "0,00052", de: "0,00052", nl: "0,00052" },
+          { en: "0.00071", es: "0,00071", de: "0,00071", nl: "0,00071" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Big Ben's fundamental mode has an exceptionally low damping coefficient of 0.00018, corresponding to its Q-factor of 5,470. This minimal damping explains the 30-second sustained ring after striking.",
+          es: "El modo fundamental de Big Ben tiene un coeficiente de amortiguamiento excepcionalmente bajo de 0,00018, correspondiente a su factor Q de 5.470. Este amortiguamiento mínimo explica el repique sostenido de 30 segundos después de golpear.",
+          de: "Big Bens Grundmodus hat einen außergewöhnlich niedrigen Dämpfungskoeffizienten von 0,00018, entsprechend seinem Q-Faktor von 5.470. Diese minimale Dämpfung erklärt das 30 Sekunden anhaltende Läuten nach dem Anschlag.",
+          nl: "Big Ben's fundamentele modus heeft een uitzonderlijk lage dempingscoëfficiënt van 0,00018, overeenkomend met zijn Q-factor van 5.470. Deze minimale demping verklaart de 30-seconde aanhoudende galm na het slaan."
+        }
+      },
+      {
+        question: {
+          en: "How many degrees Celsius does the belfry temperature vary between daily maximum and minimum?",
+          es: "¿Cuántos grados Celsius varía la temperatura del campanario entre el máximo y mínimo diario?",
+          de: "Um wie viele Grad Celsius schwankt die Glockenturmtemperatur zwischen täglichem Maximum und Minimum?",
+          nl: "Hoeveel graden Celsius varieert de klokkentoren temperatuur tussen dagelijks maximum en minimum?"
+        },
+        options: [
+          { en: "3.8°C", es: "3,8°C", de: "3,8°C", nl: "3,8°C" },
+          { en: "6.2°C", es: "6,2°C", de: "6,2°C", nl: "6,2°C" },
+          { en: "8.7°C", es: "8,7°C", de: "8,7°C", nl: "8,7°C" },
+          { en: "11.3°C", es: "11,3°C", de: "11,3°C", nl: "11,3°C" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Continuous temperature monitoring shows typical daily variation of 6.2°C in the belfry, with maximum at 16:00 and minimum at 06:00. This thermal cycling requires pendulum adjustment approximately twice weekly.",
+          es: "El monitoreo continuo de temperatura muestra una variación diaria típica de 6,2°C en el campanario, con máximo a las 16:00 y mínimo a las 06:00. Este ciclo térmico requiere ajuste del péndulo aproximadamente dos veces por semana.",
+          de: "Kontinuierliche Temperaturüberwachung zeigt typische tägliche Schwankung von 6,2°C im Glockenstuhl, mit Maximum um 16:00 und Minimum um 06:00. Diese thermische Zyklierung erfordert Pendelanpassung etwa zweimal wöchentlich.",
+          nl: "Continue temperatuurmonitoring toont typische dagelijkse variatie van 6,2°C in de klokkentoren, met maximum om 16:00 en minimum om 06:00. Deze thermische cyclus vereist slingeraanpassing ongeveer tweemaal per week."
+        }
+      },
+      {
+        question: {
+          en: "What is the calculated shear stress in the striking hammer pivot pin during impact?",
+          es: "¿Cuál es el estrés de corte calculado en el pasador pivote del martillo de golpeo durante el impacto?",
+          de: "Was ist die berechnete Scherspannung im Schlaghammer-Schwenkstift während des Aufpralls?",
+          nl: "Wat is de berekende afschuifspanning in de slaghamer draaistift tijdens impact?"
+        },
+        options: [
+          { en: "82 MPa", es: "82 MPa", de: "82 MPa", nl: "82 MPa" },
+          { en: "127 MPa", es: "127 MPa", de: "127 MPa", nl: "127 MPa" },
+          { en: "168 MPa", es: "168 MPa", de: "168 MPa", nl: "168 MPa" },
+          { en: "214 MPa", es: "214 MPa", de: "214 MPa", nl: "214 MPa" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Finite element analysis shows peak shear stress of 127 MPa in the 5.2 cm diameter hardened steel pivot pin during hammer impact, providing a safety factor of 3.2 against the material's 405 MPa yield strength.",
+          es: "El análisis de elementos finitos muestra un estrés de corte máximo de 127 MPa en el pasador pivote de acero endurecido de 5,2 cm de diámetro durante el impacto del martillo, proporcionando un factor de seguridad de 3,2 contra la resistencia de fluencia de 405 MPa del material.",
+          de: "Finite-Elemente-Analyse zeigt eine Spitzen-Scherspannung von 127 MPa im 5,2 cm Durchmesser gehärteten Stahl-Schwenkstift während des Hammeraufpralls, was einen Sicherheitsfaktor von 3,2 gegen die 405 MPa Streckgrenze des Materials bietet.",
+          nl: "Eindige elementen analyse toont piek afschuifspanning van 127 MPa in de 5,2 cm diameter geharde stalen draaistift tijdens hamerimpact, wat een veiligheidsfactor van 3,2 biedt tegen de 405 MPa vloeigrens van het materiaal."
+        }
+      },
+      {
+        question: {
+          en: "How many micrograms of brass particulate are generated per strike from gear tooth wear?",
+          es: "¿Cuántos microgramos de particulado de latón se generan por golpe del desgaste de los dientes de engranaje?",
+          de: "Wie viele Mikrogramm Messingpartikel werden pro Schlag durch Zahnradverschleiß erzeugt?",
+          nl: "Hoeveel microgram messingdeeltjes worden gegenereerd per slag door tandwielslijtage?"
+        },
+        options: [
+          { en: "8.2 µg", es: "8,2 µg", de: "8,2 µg", nl: "8,2 µg" },
+          { en: "14.7 µg", es: "14,7 µg", de: "14,7 µg", nl: "14,7 µg" },
+          { en: "23.5 µg", es: "23,5 µg", de: "23,5 µg", nl: "23,5 µg" },
+          { en: "31.8 µg", es: "31,8 µg", de: "31,8 µg", nl: "31,8 µg" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tribological analysis reveals approximately 8.2 micrograms of brass particulate generated per hour strike from cumulative gear wear. Over 165 years, this totals roughly 5.8 kg of brass debris collected in oil sumps.",
+          es: "El análisis tribológico revela aproximadamente 8,2 microgramos de particulado de latón generado por golpe de hora del desgaste acumulativo de engranajes. Durante 165 años, esto totaliza aproximadamente 5,8 kg de residuos de latón recolectados en sumideros de aceite.",
+          de: "Tribologische Analyse zeigt etwa 8,2 Mikrogramm Messingpartikel, die pro Stundenschlag durch kumulativen Zahnradverschleiß erzeugt werden. Über 165 Jahre summiert sich dies auf etwa 5,8 kg Messingabfall in Ölsümpfen.",
+          nl: "Tribologische analyse onthult ongeveer 8,2 microgram messingdeeltjes gegenereerd per uurslag door cumulatieve tandwielslijtage. Over 165 jaar bedraagt dit in totaal ongeveer 5,8 kg messingafval verzameld in oliereservoirs."
+        }
+      },
+      {
+        question: {
+          en: "What is the precise Brinell hardness number of the bell bronze after 165 years of service?",
+          es: "¿Cuál es el número de dureza Brinell preciso del bronce de campana después de 165 años de servicio?",
+          de: "Was ist die genaue Brinell-Härte der Glockenbronze nach 165 Jahren Betrieb?",
+          nl: "Wat is het precieze Brinell-hardheidsge tal van het klokbrons na 165 jaar dienst?"
+        },
+        options: [
+          { en: "HB 148", es: "HB 148", de: "HB 148", nl: "HB 148" },
+          { en: "HB 176", es: "HB 176", de: "HB 176", nl: "HB 176" },
+          { en: "HB 203", es: "HB 203", de: "HB 203", nl: "HB 203" },
+          { en: "HB 231", es: "HB 231", de: "HB 231", nl: "HB 231" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "2017 restoration testing measured Big Ben's bronze at HB 176, showing 12% increase from the original HB 157 due to work hardening from 4.3 billion hammer strikes, while maintaining structural integrity.",
+          es: "Las pruebas de restauración de 2017 midieron el bronce de Big Ben en HB 176, mostrando un aumento del 12% desde el HB 157 original debido al endurecimiento por trabajo de 4,3 mil millones de golpes de martillo, mientras mantiene integridad estructural.",
+          de: "Restaurierungstests 2017 maßen Big Bens Bronze bei HB 176, was eine 12%ige Zunahme gegenüber dem ursprünglichen HB 157 aufgrund von Kaltverfestigung durch 4,3 Milliarden Hammerschläge zeigt, während die strukturelle Integrität erhalten bleibt.",
+          nl: "2017 restauratietesten maten Big Ben's brons op HB 176, wat 12% toename toont vanaf de oorspronkelijke HB 157 door werkharding van 4,3 miljard hamerslagen, terwijl structurele integriteit wordt gehandhaafd."
+        }
+      },
+      {
+        question: {
+          en: "How many millimeters does the tower's apex move annually due to thermal expansion cycles?",
+          es: "¿Cuántos milímetros se mueve anualmente el ápice de la torre debido a los ciclos de expansión térmica?",
+          de: "Um wie viele Millimeter bewegt sich die Turmspitze jährlich aufgrund thermischer Expansionszyklen?",
+          nl: "Hoeveel millimeter beweegt de torenpunt jaarlijks door thermische uitzettingscycli?"
+        },
+        options: [
+          { en: "±18 mm", es: "±18 mm", de: "±18 mm", nl: "±18 mm" },
+          { en: "±34 mm", es: "±34 mm", de: "±34 mm", nl: "±34 mm" },
+          { en: "±52 mm", es: "±52 mm", de: "±52 mm", nl: "±52 mm" },
+          { en: "±68 mm", es: "±68 mm", de: "±68 mm", nl: "±68 mm" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Laser surveying shows the 96-meter tower apex moves ±34 mm annually through thermal expansion, with maximum displacement in August and minimum in February, creating predictable cyclic stress patterns in the structure.",
+          es: "El levantamiento láser muestra que el ápice de la torre de 96 metros se mueve ±34 mm anualmente a través de la expansión térmica, con desplazamiento máximo en agosto y mínimo en febrero, creando patrones de estrés cíclico predecibles en la estructura.",
+          de: "Laservermessung zeigt, dass sich die 96-Meter-Turmspitze jährlich um ±34 mm durch thermische Ausdehnung bewegt, mit maximaler Verschiebung im August und minimal im Februar, was vorhersehbare zyklische Spannungsmuster in der Struktur erzeugt.",
+          nl: "Laseronderzoek toont dat de 96-meter torenpunt jaarlijks ±34 mm beweegt door thermische uitzetting, met maximale verplaatsing in augustus en minimum in februari, wat voorspelbare cyclische spanningspatronen in de structuur creëert."
+        }
       }
     ]
   };

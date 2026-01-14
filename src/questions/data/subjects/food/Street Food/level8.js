@@ -390,44 +390,464 @@
       },
       {
         question: {
-          en: "What distinguishes gourmet street food from traditional street food?",
-          es: "¿Qué distingue la comida callejera gourmet de la comida callejera tradicional?",
-          de: "Was unterscheidet Gourmet-Straßenessen von traditionellem Straßenessen?",
-          nl: "Wat onderscheidt gourmet straatvoedsel van traditioneel straatvoedsel?"
+          en: "What is the economic investment required to start a gourmet food truck?",
+          es: "¿Cuál es la inversión económica requerida para iniciar un food truck gourmet?",
+          de: "Welche wirtschaftliche Investition ist erforderlich, um einen Gourmet-Food-Truck zu starten?",
+          nl: "Wat is de economische investering vereist om een gourmet foodtruck te starten?"
         },
         options: [
-          { en: "Higher prices only", es: "Solo precios más altos", de: "Nur höhere Preise", nl: "Alleen hogere prijzen" },
-          { en: "Premium ingredients, refined techniques, and chef-driven creativity", es: "Ingredientes premium, técnicas refinadas y creatividad dirigida por chefs", de: "Premium-Zutaten, raffinierte Techniken und Chef-getriebene Kreativität", nl: "Premium ingrediënten, verfijnde technieken en chef-gedreven creativiteit" },
-          { en: "Larger portion sizes", es: "Tamaños de porción más grandes", de: "Größere Portionsgrößen", nl: "Grotere portiegroottes" },
-          { en: "Different locations only", es: "Solo ubicaciones diferentes", de: "Nur verschiedene Standorte", nl: "Alleen verschillende locaties" }
-        ],
+          { en: "Under $5,000 total", es: "Menos de $5,000 total", de: "Unter $5.000 insgesamt", nl: "Onder $5.000 totaal" },
+          { en: "$50,000-$200,000 including truck, equipment, permits, and initial inventory", es: "$50,000-$200,000 incluyendo camión, equipo, permisos e inventario inicial", de: "$50.000-$200.000 einschließlich Truck, Ausrüstung, Genehmigungen und Anfangsinventar", nl: "$50.000-$200.000 inclusief truck, apparatuur, vergunningen en initiële voorraad" },
+          { en: "Over $1 million required", es: "Se requieren más de $1 millón", de: "Über $1 Million erforderlich", nl: "Meer dan $1 miljoen vereist" },
+          { en: "No investment needed", es: "No se necesita inversión", de: "Keine Investition erforderlich", nl: "Geen investering nodig" }
+        },
         correct: 1,
         explanation: {
-          en: "Gourmet street food features premium ingredients, professional culinary techniques, innovative presentations, and chef-driven creativity while maintaining the accessibility and casual nature of street food.",
-          es: "La comida callejera gourmet presenta ingredientes premium, técnicas culinarias profesionales, presentaciones innovadoras y creatividad dirigida por chefs mientras mantiene la accesibilidad y naturaleza casual de la comida callejera.",
-          de: "Gourmet-Straßenessen zeichnet sich durch Premium-Zutaten, professionelle Kochtechniken, innovative Präsentationen und Chef-getriebene Kreativität aus, während es die Zugänglichkeit und ungezwungene Natur des Straßenessens beibehält.",
-          nl: "Gourmet straatvoedsel kenmerkt zich door premium ingrediënten, professionele culinaire technieken, innovatieve presentaties en chef-gedreven creativiteit terwijl de toegankelijkheid en casual aard van straatvoedsel behouden blijft."
+          en: "Starting a gourmet food truck typically requires $50,000-$200,000 investment for vehicle purchase or build-out, commercial kitchen equipment, permits/licenses, insurance, commissary fees, initial inventory, and operating capital.",
+          es: "Iniciar un food truck gourmet típicamente requiere inversión de $50,000-$200,000 para compra o construcción de vehículo, equipo de cocina comercial, permisos/licencias, seguro, tarifas de comisaría, inventario inicial y capital operativo.",
+          de: "Der Start eines Gourmet-Food-Trucks erfordert typischerweise $50.000-$200.000 Investition für Fahrzeugkauf oder -ausbau, Gewerbeküchenausrüstung, Genehmigungen/Lizenzen, Versicherung, Kommissariatsgebühren, Anfangsinventar und Betriebskapital.",
+          nl: "Een gourmet foodtruck starten vereist typisch $50.000-$200.000 investering voor voertuig aankoop of verbouwing, commerciële keuken apparatuur, vergunningen/licenties, verzekering, commissariaat kosten, initiële voorraad en operationeel kapitaal."
         }
       },
       {
         question: {
-          en: "What role do celebrity chefs play in the gourmet street food movement?",
-          es: "¿Qué papel juegan los chefs famosos en el movimiento de comida callejera gourmet?",
-          de: "Welche Rolle spielen prominente Köche in der Gourmet-Straßenessen-Bewegung?",
-          nl: "Welke rol spelen beroemde chefs in de gourmet straatvoedsel beweging?"
+          en: "What is menu engineering in gourmet food truck operations?",
+          es: "¿Qué es la ingeniería de menú en operaciones de food trucks gourmet?",
+          de: "Was ist Menü-Engineering in Gourmet-Food-Truck-Operationen?",
+          nl: "Wat is menu engineering in gourmet foodtruck operaties?"
         },
         options: [
-          { en: "No involvement in street food", es: "Sin participación en comida callejera", de: "Keine Beteiligung am Straßenessen", nl: "Geen betrokkenheid bij straatvoedsel" },
-          { en: "Legitimize and elevate street food through high-profile food trucks and pop-ups", es: "Legitiman y elevan la comida callejera a través de food trucks de alto perfil y pop-ups", de: "Legitimieren und erheben Straßenessen durch hochkarätige Food Trucks und Pop-ups", nl: "Legitimeren en verheffen straatvoedsel door hoogwaardige foodtrucks en pop-ups" },
-          { en: "Only serve in restaurants", es: "Solo sirven en restaurantes", de: "Servieren nur in Restaurants", nl: "Serveren alleen in restaurants" },
-          { en: "Decrease food quality", es: "Disminuyen la calidad de la comida", de: "Verringern die Lebensmittelqualität", nl: "Verminderen voedselkwaliteit" }
+          { en: "Random menu selection", es: "Selección de menú aleatoria", de: "Zufällige Menüauswahl", nl: "Willekeurige menu selectie" },
+          { en: "Strategic menu design analyzing profitability, popularity, and operational efficiency", es: "Diseño estratégico de menú analizando rentabilidad, popularidad y eficiencia operacional", de: "Strategisches Menüdesign zur Analyse von Rentabilität, Popularität und Betriebseffizienz", nl: "Strategisch menu ontwerp analyserend winstgevendheid, populariteit en operationele efficiëntie" },
+          { en: "Copying competitor menus", es: "Copiar menús de competidores", de: "Konkurrenz-Menüs kopieren", nl: "Concurrent menu's kopiëren" },
+          { en: "Offering everything possible", es: "Ofrecer todo lo posible", de: "Alles Mögliche anbieten", nl: "Alles mogelijk aanbieden" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Menu engineering analyzes each item's profitability (food cost vs. price) and popularity to optimize the menu. Food trucks use limited menus (6-12 items) focusing on high-profit, high-popularity items that can be efficiently prepared in limited space.",
+          es: "La ingeniería de menú analiza rentabilidad de cada artículo (costo de alimentos vs. precio) y popularidad para optimizar el menú. Los food trucks usan menús limitados (6-12 artículos) enfocándose en artículos de alta ganancia y alta popularidad que pueden prepararse eficientemente en espacio limitado.",
+          de: "Menü-Engineering analysiert Rentabilität jedes Artikels (Lebensmittelkosten vs. Preis) und Popularität zur Menüoptimierung. Food Trucks verwenden begrenzte Menüs (6-12 Artikel) mit Fokus auf hochprofitable, sehr beliebte Artikel, die in begrenztem Raum effizient zubereitet werden können.",
+          nl: "Menu engineering analyseert winstgevendheid van elk item (voedsel kosten vs. prijs) en populariteit om het menu te optimaliseren. Foodtrucks gebruiken beperkte menu's (6-12 items) focussend op hoge-winst, hoge-populariteit items die efficiënt kunnen worden bereid in beperkte ruimte."
+        }
+      },
+      {
+        question: {
+          en: "What is the significance of 'concept trucks' in gourmet street food?",
+          es: "¿Cuál es la importancia de los 'trucks de concepto' en comida callejera gourmet?",
+          de: "Was ist die Bedeutung von 'Konzept-Trucks' im Gourmet-Straßenessen?",
+          nl: "Wat is de betekenis van 'concept trucks' in gourmet straatvoedsel?"
+        },
+        options: [
+          { en: "Trucks that serve random foods", es: "Trucks que sirven comidas aleatorias", de: "Trucks, die zufällige Speisen servieren", nl: "Trucks die willekeurig voedsel serveren" },
+          { en: "Specialized trucks with singular culinary focus creating unique brand identity", es: "Trucks especializados con enfoque culinario singular creando identidad de marca única", de: "Spezialisierte Trucks mit singulär kulinarischem Fokus, die einzigartige Markenidentität schaffen", nl: "Gespecialiseerde trucks met singuliere culinaire focus creërend unieke merk identiteit" },
+          { en: "Only prototype vehicles", es: "Solo vehículos prototipo", de: "Nur Prototyp-Fahrzeuge", nl: "Alleen prototype voertuigen" },
+          { en: "Trucks without any theme", es: "Trucks sin ningún tema", de: "Trucks ohne Thema", nl: "Trucks zonder thema" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Concept trucks specialize in a singular culinary focus (e.g., gourmet grilled cheese, artisan tacos, craft ice cream), creating strong brand identity, menu expertise, and operational efficiency through specialization rather than broad menu offerings.",
+          es: "Los trucks de concepto se especializan en un enfoque culinario singular (ej. queso fundido gourmet, tacos artesanales, helado artesanal), creando identidad de marca fuerte, expertise de menú y eficiencia operacional a través de especialización en lugar de ofertas de menú amplias.",
+          de: "Konzept-Trucks spezialisieren sich auf einen singulär kulinarischen Fokus (z.B. Gourmet-Grillkäse, handwerkliche Tacos, handwerkliches Eis), schaffen starke Markenidentität, Menü-Expertise und Betriebseffizienz durch Spezialisierung statt breite Menüangebote.",
+          nl: "Concept trucks specialiseren in een singuliere culinaire focus (bijv. gourmet gegrilde kaas, ambachtelijke taco's, ambachtelijk ijs), creërend sterke merk identiteit, menu expertise en operationele efficiëntie door specialisatie in plaats van brede menu aanbiedingen."
+        }
+      },
+      {
+        question: {
+          en: "How do gourmet food trucks manage supply chain complexity?",
+          es: "¿Cómo manejan los food trucks gourmet la complejidad de la cadena de suministro?",
+          de: "Wie managen Gourmet-Food-Trucks Supply-Chain-Komplexität?",
+          nl: "Hoe beheren gourmet foodtrucks supply chain complexiteit?"
+        },
+        options: [
+          { en: "No supply chain management needed", es: "No se necesita gestión de cadena de suministro", de: "Keine Supply-Chain-Verwaltung erforderlich", nl: "Geen supply chain beheer nodig" },
+          { en: "Strategic vendor relationships, just-in-time inventory, and flexible sourcing", es: "Relaciones estratégicas con vendedores, inventario justo a tiempo y abastecimiento flexible", de: "Strategische Lieferantenbeziehungen, Just-in-Time-Inventar und flexible Beschaffung", nl: "Strategische leveranciers relaties, just-in-time voorraad en flexibele sourcing" },
+          { en: "Buy everything daily from supermarkets", es: "Comprar todo diariamente de supermercados", de: "Alles täglich aus Supermärkten kaufen", nl: "Alles dagelijks kopen van supermarkten" },
+          { en: "Use only frozen ingredients", es: "Usar solo ingredientes congelados", de: "Nur gefrorene Zutaten verwenden", nl: "Alleen bevroren ingrediënten gebruiken" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Successful gourmet trucks manage limited storage by building relationships with multiple suppliers, using just-in-time inventory systems, maintaining flexible sourcing options, and carefully forecasting demand to balance fresh ingredients with operational constraints.",
+          es: "Los trucks gourmet exitosos manejan almacenamiento limitado construyendo relaciones con múltiples proveedores, usando sistemas de inventario justo a tiempo, manteniendo opciones de abastecimiento flexibles y pronosticando cuidadosamente demanda para balancear ingredientes frescos con restricciones operacionales.",
+          de: "Erfolgreiche Gourmet-Trucks managen begrenzten Speicher durch Aufbau von Beziehungen mit mehreren Lieferanten, Verwendung von Just-in-Time-Inventarsystemen, Aufrechterhaltung flexibler Beschaffungsoptionen und sorgfältige Nachfrageprognose zur Balance frischer Zutaten mit betrieblichen Einschränkungen.",
+          nl: "Succesvolle gourmet trucks beheren beperkte opslag door relaties te bouwen met meerdere leveranciers, just-in-time voorraad systemen te gebruiken, flexibele sourcing opties te behouden en zorgvuldig vraag te voorspellen om verse ingrediënten te balanceren met operationele beperkingen."
+        }
+      },
+      {
+        question: {
+          en: "What role does seasonal menu rotation play in gourmet food trucks?",
+          es: "¿Qué papel juega la rotación de menú estacional en food trucks gourmet?",
+          de: "Welche Rolle spielt saisonale Menürotation in Gourmet-Food-Trucks?",
+          nl: "Welke rol speelt seizoensgebonden menu rotatie in gourmet foodtrucks?"
+        },
+        options: [
+          { en: "No seasonal changes needed", es: "No se necesitan cambios estacionales", de: "Keine saisonalen Änderungen erforderlich", nl: "Geen seizoensgebonden veranderingen nodig" },
+          { en: "Maximizes ingredient freshness, cost efficiency, and customer interest", es: "Maximiza frescura de ingredientes, eficiencia de costos e interés del cliente", de: "Maximiert Zutatenfrische, Kosteneffizienz und Kundeninteresse", nl: "Maximaliseert ingrediënt versheid, kosten efficiëntie en klant interesse" },
+          { en: "Only for appearance", es: "Solo para apariencia", de: "Nur für Aussehen", nl: "Alleen voor uiterlijk" },
+          { en: "Confuses customers", es: "Confunde a los clientes", de: "Verwirrt Kunden", nl: "Verwart klanten" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Seasonal menu rotation allows gourmet trucks to use peak-season ingredients at optimal quality and price, creates customer excitement through limited-time offerings, demonstrates culinary creativity, and adapts to changing weather and consumer preferences.",
+          es: "La rotación de menú estacional permite a trucks gourmet usar ingredientes de temporada pico en calidad y precio óptimos, crea emoción del cliente a través de ofertas de tiempo limitado, demuestra creatividad culinaria y se adapta a clima cambiante y preferencias del consumidor.",
+          de: "Saisonale Menürotation ermöglicht Gourmet-Trucks, Hochsaison-Zutaten in optimaler Qualität und Preis zu verwenden, erzeugt Kundenbegeisterung durch zeitlich begrenzte Angebote, demonstriert kulinarische Kreativität und passt sich an wechselndes Wetter und Verbraucherpräferenzen an.",
+          nl: "Seizoensgebonden menu rotatie stelt gourmet trucks in staat om piekseizoen ingrediënten te gebruiken in optimale kwaliteit en prijs, creëert klant opwinding door beperkte tijd aanbiedingen, demonstreert culinaire creativiteit en past zich aan veranderend weer en consument voorkeuren."
+        }
+      },
+      {
+        question: {
+          en: "What is the significance of commissary relationships for gourmet food trucks?",
+          es: "¿Cuál es la importancia de las relaciones de comisaría para food trucks gourmet?",
+          de: "Was ist die Bedeutung von Kommissariats-Beziehungen für Gourmet-Food-Trucks?",
+          nl: "Wat is de betekenis van commissariaat relaties voor gourmet foodtrucks?"
+        },
+        options: [
+          { en: "Commissaries are optional", es: "Las comisarías son opcionales", de: "Kommissariate sind optional", nl: "Commissariaten zijn optioneel" },
+          { en: "Legally required for food prep, storage, and provide shared kitchen infrastructure", es: "Legalmente requeridas para preparación de alimentos, almacenamiento y proporcionar infraestructura de cocina compartida", de: "Gesetzlich erforderlich für Lebensmittelzubereitung, Lagerung und bieten gemeinsame Kücheninfrastruktur", nl: "Wettelijk vereist voor voedsel prep, opslag en bieden gedeelde keuken infrastructuur" },
+          { en: "Only for vehicle repairs", es: "Solo para reparaciones de vehículos", de: "Nur für Fahrzeugreparaturen", nl: "Alleen voor voertuig reparaties" },
+          { en: "Commissaries harm food quality", es: "Las comisarías perjudican la calidad de los alimentos", de: "Kommissariate schaden Lebensmittelqualität", nl: "Commissariaten schaden voedsel kwaliteit" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Health codes require food trucks use licensed commissaries for food preparation, ingredient storage, equipment cleaning, and vehicle servicing. Quality commissaries provide essential infrastructure, potential collaboration with other vendors, and regulatory compliance support.",
+          es: "Los códigos de salud requieren que food trucks usen comisarías licenciadas para preparación de alimentos, almacenamiento de ingredientes, limpieza de equipos y servicio de vehículos. Las comisarías de calidad proporcionan infraestructura esencial, colaboración potencial con otros vendedores y apoyo de cumplimiento regulatorio.",
+          de: "Gesundheitsvorschriften erfordern, dass Food Trucks lizenzierte Kommissariate für Lebensmittelzubereitung, Zutaten-Lagerung, Ausrüstungsreinigung und Fahrzeugwartung nutzen. Qualitäts-Kommissariate bieten wesentliche Infrastruktur, potenzielle Zusammenarbeit mit anderen Anbietern und Unterstützung bei Einhaltung von Vorschriften.",
+          nl: "Gezondheidsregels vereisen dat foodtrucks gelicenseerde commissariaten gebruiken voor voedsel bereiding, ingrediënt opslag, apparatuur reiniging en voertuig onderhoud. Kwaliteit commissariaten bieden essentiële infrastructuur, potentiële samenwerking met andere verkopers en regelgevende naleving ondersteuning."
+        }
+      },
+      {
+        question: {
+          en: "How do gourmet food trucks use data analytics?",
+          es: "¿Cómo usan los food trucks gourmet el análisis de datos?",
+          de: "Wie nutzen Gourmet-Food-Trucks Datenanalyse?",
+          nl: "Hoe gebruiken gourmet foodtrucks data analyse?"
+        },
+        options: [
+          { en: "Data analytics are irrelevant", es: "El análisis de datos es irrelevante", de: "Datenanalyse ist irrelevant", nl: "Data analyse is irrelevant" },
+          { en: "Track sales patterns, location performance, customer preferences, and inventory optimization", es: "Rastrear patrones de ventas, rendimiento de ubicación, preferencias de clientes y optimización de inventario", de: "Verkaufsmuster verfolgen, Standortleistung, Kundenpräferenzen und Inventaroptimierung", nl: "Volgen verkoop patronen, locatie prestaties, klant voorkeuren en voorraad optimalisatie" },
+          { en: "Only for social media likes", es: "Solo para 'me gusta' en redes sociales", de: "Nur für Social-Media-Likes", nl: "Alleen voor sociale media likes" },
+          { en: "Makes operations more complex", es: "Hace las operaciones más complejas", de: "Macht Operationen komplexer", nl: "Maakt operaties complexer" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Successful gourmet trucks use POS systems and analytics to track which items sell best at different locations/times, optimize inventory purchasing, identify customer trends, forecast demand, and make data-driven decisions about menu changes and location strategies.",
+          es: "Los trucks gourmet exitosos usan sistemas POS y análisis para rastrear qué artículos se venden mejor en diferentes ubicaciones/tiempos, optimizar compras de inventario, identificar tendencias de clientes, pronosticar demanda y tomar decisiones basadas en datos sobre cambios de menú y estrategias de ubicación.",
+          de: "Erfolgreiche Gourmet-Trucks verwenden POS-Systeme und Analysen, um zu verfolgen, welche Artikel an verschiedenen Standorten/Zeiten am besten verkaufen, Inventarkäufe zu optimieren, Kundentrends zu identifizieren, Nachfrage vorherzusagen und datengesteuerte Entscheidungen über Menüänderungen und Standortstrategien zu treffen.",
+          nl: "Succesvolle gourmet trucks gebruiken POS systemen en analyses om te volgen welke items het beste verkopen op verschillende locaties/tijden, voorraad inkoop optimaliseren, klant trends identificeren, vraag voorspellen en data-gedreven beslissingen nemen over menu veranderingen en locatie strategieën."
+        }
+      },
+      {
+        question: {
+          en: "What is the role of pop-up collaborations in gourmet food truck strategy?",
+          es: "¿Cuál es el papel de las colaboraciones pop-up en la estrategia de food trucks gourmet?",
+          de: "Was ist die Rolle von Pop-up-Kooperationen in der Gourmet-Food-Truck-Strategie?",
+          nl: "Wat is de rol van pop-up samenwerkingen in gourmet foodtruck strategie?"
+        },
+        options: [
+          { en: "Unnecessary competition", es: "Competencia innecesaria", de: "Unnötiger Wettbewerb", nl: "Onnodige competitie" },
+          { en: "Cross-promotion, shared customer bases, and creative menu experimentation", es: "Promoción cruzada, bases de clientes compartidas y experimentación creativa de menú", de: "Cross-Promotion, gemeinsame Kundenbasis und kreative Menü-Experimente", nl: "Cross-promotie, gedeelde klanten bases en creatieve menu experimentatie" },
+          { en: "Reduces individual sales", es: "Reduce ventas individuales", de: "Reduziert individuelle Verkäufe", nl: "Vermindert individuele verkopen" },
+          { en: "Only for large events", es: "Solo para eventos grandes", de: "Nur für große Veranstaltungen", nl: "Alleen voor grote evenementen" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Food truck pop-up collaborations with other trucks, breweries, or restaurants create cross-promotional opportunities, introduce vendors to new customer bases, allow creative menu experimentation, generate social media buzz, and build community connections.",
+          es: "Las colaboraciones pop-up de food trucks con otros trucks, cervecerías o restaurantes crean oportunidades de promoción cruzada, introducen vendedores a nuevas bases de clientes, permiten experimentación creativa de menú, generan rumor en redes sociales y construyen conexiones comunitarias.",
+          de: "Food-Truck-Pop-up-Kooperationen mit anderen Trucks, Brauereien oder Restaurants schaffen Cross-Promotion-Möglichkeiten, stellen Anbieter neuen Kundenbasis vor, ermöglichen kreative Menü-Experimente, erzeugen Social-Media-Buzz und bauen Community-Verbindungen auf.",
+          nl: "Foodtruck pop-up samenwerkingen met andere trucks, brouwerijen of restaurants creëren cross-promotionele kansen, introduceren verkopers aan nieuwe klanten bases, staan creatieve menu experimentatie toe, genereren sociale media buzz en bouwen gemeenschap verbindingen."
+        }
+      },
+      {
+        question: {
+          en: "What insurance considerations are critical for gourmet food trucks?",
+          es: "¿Qué consideraciones de seguro son críticas para food trucks gourmet?",
+          de: "Welche Versicherungsüberlegungen sind kritisch für Gourmet-Food-Trucks?",
+          nl: "Welke verzekering overwegingen zijn kritiek voor gourmet foodtrucks?"
+        },
+        options: [
+          { en: "No insurance needed", es: "No se necesita seguro", de: "Keine Versicherung erforderlich", nl: "Geen verzekering nodig" },
+          { en: "Commercial auto, general liability, product liability, and workers compensation", es: "Auto comercial, responsabilidad general, responsabilidad de productos y compensación de trabajadores", de: "Gewerbliches Auto, allgemeine Haftpflicht, Produkthaftpflicht und Arbeiterentschädigung", nl: "Commerciële auto, algemene aansprakelijkheid, product aansprakelijkheid en werknemers compensatie" },
+          { en: "Only vehicle insurance", es: "Solo seguro de vehículo", de: "Nur Fahrzeugversicherung", nl: "Alleen voertuig verzekering" },
+          { en: "Personal auto insurance is sufficient", es: "El seguro de auto personal es suficiente", de: "Private Autoversicherung reicht aus", nl: "Persoonlijke auto verzekering is voldoende" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Food trucks require multiple insurance types: commercial auto (vehicle), general liability (customer injuries), product liability (foodborne illness), workers compensation (employee injuries), and often equipment/spoilage coverage. Personal auto insurance doesn't cover commercial use.",
+          es: "Los food trucks requieren múltiples tipos de seguro: auto comercial (vehículo), responsabilidad general (lesiones de clientes), responsabilidad de productos (enfermedades transmitidas por alimentos), compensación de trabajadores (lesiones de empleados) y a menudo cobertura de equipo/deterioro. El seguro de auto personal no cubre uso comercial.",
+          de: "Food Trucks benötigen mehrere Versicherungsarten: gewerbliches Auto (Fahrzeug), allgemeine Haftpflicht (Kundenverletzungen), Produkthaftpflicht (lebensmittelbedingte Krankheiten), Arbeiterentschädigung (Mitarbeiterverletzungen) und oft Ausrüstungs-/Verderb-Deckung. Private Autoversicherung deckt keine gewerbliche Nutzung.",
+          nl: "Foodtrucks vereisen meerdere verzekering types: commerciële auto (voertuig), algemene aansprakelijkheid (klant verwondingen), product aansprakelijkheid (voedselgerelateerde ziekte), werknemers compensatie (werknemers verwondingen) en vaak apparatuur/bederf dekking. Persoonlijke auto verzekering dekt geen commercieel gebruik."
+        }
+      },
+      {
+        question: {
+          en: "How do gourmet food trucks handle scaling and growth?",
+          es: "¿Cómo manejan los food trucks gourmet la escalabilidad y el crecimiento?",
+          de: "Wie handhaben Gourmet-Food-Trucks Skalierung und Wachstum?",
+          nl: "Hoe behandelen gourmet foodtrucks schaalvergroting en groei?"
+        },
+        options: [
+          { en: "Growth is impossible for food trucks", es: "El crecimiento es imposible para food trucks", de: "Wachstum ist für Food Trucks unmöglich", nl: "Groei is onmogelijk voor foodtrucks" },
+          { en: "Multiple trucks, brick-and-mortar expansion, franchising, or packaged product lines", es: "Múltiples trucks, expansión de local físico, franquicias o líneas de productos empaquetados", de: "Mehrere Trucks, stationäre Expansion, Franchising oder verpackte Produktlinien", nl: "Meerdere trucks, fysieke uitbreiding, franchising of verpakte product lijnen" },
+          { en: "Can only operate one truck forever", es: "Solo pueden operar un truck para siempre", de: "Können nur einen Truck für immer betreiben", nl: "Kunnen slechts één truck voor altijd opereren" },
+          { en: "Growth decreases quality", es: "El crecimiento disminuye la calidad", de: "Wachstum verringert Qualität", nl: "Groei vermindert kwaliteit" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Successful food trucks scale through multiple strategies: operating additional trucks with trained staff, opening brick-and-mortar restaurants, franchising the concept, developing packaged product lines for retail, or providing catering services, while maintaining quality standards.",
+          es: "Los food trucks exitosos escalan a través de múltiples estrategias: operando trucks adicionales con personal capacitado, abriendo restaurantes con local físico, franquiciando el concepto, desarrollando líneas de productos empaquetados para venta al por menor o proporcionando servicios de catering, mientras mantienen estándares de calidad.",
+          de: "Erfolgreiche Food Trucks skalieren durch mehrere Strategien: Betrieb zusätzlicher Trucks mit geschultem Personal, Eröffnung stationärer Restaurants, Franchising des Konzepts, Entwicklung verpackter Produktlinien für Einzelhandel oder Bereitstellung von Catering-Services, während Qualitätsstandards beibehalten werden.",
+          nl: "Succesvolle foodtrucks schalen door meerdere strategieën: opereren van extra trucks met getraind personeel, openen van fysieke restaurants, franchising van het concept, ontwikkelen van verpakte product lijnen voor retail of bieden van catering diensten, terwijl kwaliteit standaarden behouden blijven."
+        }
+      },
+      {
+        question: {
+          en: "What role does beverage pairing play in gourmet food truck offerings?",
+          es: "¿Qué papel juega el maridaje de bebidas en ofertas de food trucks gourmet?",
+          de: "Welche Rolle spielt Getränke-Pairing in Gourmet-Food-Truck-Angeboten?",
+          nl: "Welke rol speelt drank pairing in gourmet foodtruck aanbiedingen?"
+        },
+        options: [
+          { en: "Beverages are unimportant", es: "Las bebidas no son importantes", de: "Getränke sind unwichtig", nl: "Dranken zijn onbelangrijk" },
+          { en: "Increases ticket size, enhances experience, and creates upsell opportunities", es: "Aumenta tamaño de cuenta, mejora experiencia y crea oportunidades de venta adicional", de: "Erhöht Ticketgröße, verbessert Erlebnis und schafft Upsell-Möglichkeiten", nl: "Verhoogt ticket grootte, verbetert ervaring en creëert upsell kansen" },
+          { en: "Only water should be offered", es: "Solo se debe ofrecer agua", de: "Nur Wasser sollte angeboten werden", nl: "Alleen water moet worden aangeboden" },
+          { en: "Decreases food sales", es: "Disminuye ventas de alimentos", de: "Verringert Lebensmittelverkäufe", nl: "Vermindert voedsel verkopen" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Thoughtful beverage programs (craft sodas, specialty coffee, local beer partnerships, house-made drinks) significantly increase average ticket size, enhance the culinary experience, create brand differentiation, and provide high-margin upsell opportunities.",
+          es: "Los programas de bebidas reflexivos (sodas artesanales, café especializado, asociaciones de cerveza local, bebidas hechas en casa) aumentan significativamente el tamaño promedio de cuenta, mejoran la experiencia culinaria, crean diferenciación de marca y proporcionan oportunidades de venta adicional de alto margen.",
+          de: "Durchdachte Getränkeprogramme (handwerkliche Limonaden, Spezialitätenkaffee, lokale Bierpartnerschaften, hausgemachte Getränke) erhöhen Durchschnitts-Ticketgröße erheblich, verbessern kulinarisches Erlebnis, schaffen Markendifferenzierung und bieten hochmargige Upsell-Möglichkeiten.",
+          nl: "Doordachte drank programma's (ambachtelijke frisdranken, specialty koffie, lokale bier partnerschappen, zelfgemaakte dranken) verhogen gemiddelde ticket grootte aanzienlijk, verbeteren culinaire ervaring, creëren merk differentiatie en bieden hoge-marge upsell kansen."
+        }
+      },
+      {
+        question: {
+          en: "What is the significance of equipment efficiency in gourmet food truck design?",
+          es: "¿Cuál es la importancia de la eficiencia del equipo en el diseño de food trucks gourmet?",
+          de: "Was ist die Bedeutung der Geräteeffizienz im Gourmet-Food-Truck-Design?",
+          nl: "Wat is de betekenis van apparatuur efficiëntie in gourmet foodtruck ontwerp?"
+        },
+        options: [
+          { en: "Equipment choice doesn't matter", es: "La elección del equipo no importa", de: "Gerätewahl spielt keine Rolle", nl: "Apparatuur keuze maakt niet uit" },
+          { en: "Multi-functional equipment maximizes limited space and reduces infrastructure costs", es: "El equipo multifuncional maximiza espacio limitado y reduce costos de infraestructura", de: "Multifunktionale Geräte maximieren begrenzten Raum und reduzieren Infrastrukturkosten", nl: "Multi-functionele apparatuur maximaliseert beperkte ruimte en vermindert infrastructuur kosten" },
+          { en: "Use only residential equipment", es: "Usar solo equipo residencial", de: "Nur Wohngeräte verwenden", nl: "Gebruik alleen residentiële apparatuur" },
+          { en: "More equipment is always better", es: "Más equipo siempre es mejor", de: "Mehr Ausrüstung ist immer besser", nl: "Meer apparatuur is altijd beter" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Successful trucks invest in multi-functional commercial equipment (combi-ovens, flat-tops with various zones, high-efficiency fryers) that maximizes limited space, reduces energy consumption, increases cooking speed, and maintains consistent quality despite space constraints.",
+          es: "Los trucks exitosos invierten en equipo comercial multifuncional (hornos combi, planchas con varias zonas, freidoras de alta eficiencia) que maximiza espacio limitado, reduce consumo de energía, aumenta velocidad de cocción y mantiene calidad consistente a pesar de restricciones de espacio.",
+          de: "Erfolgreiche Trucks investieren in multifunktionale Gewerbegeräte (Kombi-Öfen, Flachdecken mit verschiedenen Zonen, hocheffiziente Friteusen), die begrenzten Raum maximieren, Energieverbrauch reduzieren, Kochgeschwindigkeit erhöhen und trotz Raumbeschränkungen konstante Qualität erhalten.",
+          nl: "Succesvolle trucks investeren in multi-functionele commerciële apparatuur (combi-ovens, flat-tops met verschillende zones, hoge-efficiëntie friteuses) die beperkte ruimte maximaliseert, energie verbruik vermindert, kooksnelheid verhoogt en consistente kwaliteit behoudt ondanks ruimte beperkingen."
+        }
+      },
+      {
+        question: {
+          en: "How do gourmet food trucks manage customer wait times?",
+          es: "¿Cómo manejan los food trucks gourmet los tiempos de espera del cliente?",
+          de: "Wie managen Gourmet-Food-Trucks Kundenwartezeiten?",
+          nl: "Hoe beheren gourmet foodtrucks klant wachttijden?"
+        },
+        options: [
+          { en: "Wait times are unavoidable and unmanageable", es: "Los tiempos de espera son inevitables e inmanejables", de: "Wartezeiten sind unvermeidlich und nicht verwaltbar", nl: "Wachttijden zijn onvermijdelijk en onbeheersbaar" },
+          { en: "Streamlined menus, prep work, order systems, and transparent communication", es: "Menús simplificados, trabajo de preparación, sistemas de pedidos y comunicación transparente", de: "Optimierte Menüs, Vorbereitungsarbeit, Bestellsysteme und transparente Kommunikation", nl: "Gestroomlijnde menu's, prep werk, bestel systemen en transparante communicatie" },
+          { en: "Unlimited menu increases efficiency", es: "Menú ilimitado aumenta eficiencia", de: "Unbegrenztes Menü erhöht Effizienz", nl: "Onbeperkt menu verhoogt efficiëntie" },
+          { en: "Ignore customer complaints about waits", es: "Ignorar quejas de clientes sobre esperas", de: "Kundenbeschwerden über Wartezeiten ignorieren", nl: "Negeer klantklachten over wachten" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Gourmet trucks manage wait times through streamlined menus, extensive prep work before service, efficient kitchen workflows, modern ordering systems (apps, text-to-order), clear wait time communication, and strategic menu design allowing parallel preparation.",
+          es: "Los trucks gourmet manejan tiempos de espera a través de menús simplificados, extenso trabajo de preparación antes del servicio, flujos de trabajo de cocina eficientes, sistemas modernos de pedidos (apps, texto para ordenar), comunicación clara de tiempo de espera y diseño estratégico de menú permitiendo preparación paralela.",
+          de: "Gourmet-Trucks managen Wartezeiten durch optimierte Menüs, umfangreiche Vorbereitungsarbeit vor dem Service, effiziente Küchenarbeitsabläufe, moderne Bestellsysteme (Apps, Text-to-Order), klare Wartezeitkommunikation und strategisches Menüdesign, das parallele Zubereitung ermöglicht.",
+          nl: "Gourmet trucks beheren wachttijden door gestroomlijnde menu's, uitgebreide prep werk voor service, efficiënte keuken workflows, moderne bestel systemen (apps, text-to-order), duidelijke wachttijd communicatie en strategisch menu ontwerp dat parallelle bereiding mogelijk maakt."
+        }
+      },
+      {
+        question: {
+          en: "What is the role of catering in gourmet food truck business models?",
+          es: "¿Cuál es el papel del catering en los modelos de negocio de food trucks gourmet?",
+          de: "Was ist die Rolle von Catering in Gourmet-Food-Truck-Geschäftsmodellen?",
+          nl: "Wat is de rol van catering in gourmet foodtruck bedrijfsmodellen?"
+        },
+        options: [
+          { en: "Catering is incompatible with trucks", es: "El catering es incompatible con trucks", de: "Catering ist mit Trucks unvereinbar", nl: "Catering is onverenigbaar met trucks" },
+          { en: "Provides stable revenue, larger orders, and weather-independent income", es: "Proporciona ingresos estables, pedidos más grandes e ingresos independientes del clima", de: "Bietet stabile Einnahmen, größere Bestellungen und wetterunabhängiges Einkommen", nl: "Biedt stabiele inkomsten, grotere bestellingen en weer-onafhankelijk inkomen" },
+          { en: "Decreases brand visibility", es: "Disminuye visibilidad de marca", de: "Verringert Markensichtbarkeit", nl: "Vermindert merk zichtbaarheid" },
+          { en: "Only for failed trucks", es: "Solo para trucks fallidos", de: "Nur für gescheiterte Trucks", nl: "Alleen voor mislukte trucks" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Catering provides crucial revenue stability for food trucks—pre-booked events offer guaranteed income, larger order sizes, advance planning for prep, weather protection, and access to corporate/wedding markets, often generating 30-50% of annual revenue.",
+          es: "El catering proporciona estabilidad crucial de ingresos para food trucks—eventos pre-reservados ofrecen ingresos garantizados, tamaños de pedido más grandes, planificación anticipada para preparación, protección climática y acceso a mercados corporativos/de bodas, a menudo generando 30-50% de ingresos anuales.",
+          de: "Catering bietet entscheidende Einnahmenstabilität für Food Trucks—vorgebuchte Events bieten garantiertes Einkommen, größere Bestellgrößen, Vorausplanung für Prep, Wetterschutz und Zugang zu Unternehmens-/Hochzeitsmärkten, oft 30-50% des Jahresumsatzes generierend.",
+          nl: "Catering biedt cruciale inkomen stabiliteit voor foodtrucks—vooraf geboekte evenementen bieden gegarandeerd inkomen, grotere bestel groottes, vooraf planning voor prep, weer bescherming en toegang tot bedrijfs/bruiloft markten, vaak 30-50% van jaarlijkse inkomsten genererend."
+        }
+      },
+      {
+        question: {
+          en: "How do successful gourmet food trucks build community engagement?",
+          es: "¿Cómo construyen los food trucks gourmet exitosos el compromiso comunitario?",
+          de: "Wie bauen erfolgreiche Gourmet-Food-Trucks Community-Engagement auf?",
+          nl: "Hoe bouwen succesvolle gourmet foodtrucks gemeenschap betrokkenheid?"
+        },
+        options: [
+          { en: "Community engagement is unnecessary", es: "El compromiso comunitario es innecesario", de: "Community-Engagement ist unnötig", nl: "Gemeenschap betrokkenheid is onnodig" },
+          { en: "Regular locations, social media interaction, local partnerships, and charity events", es: "Ubicaciones regulares, interacción en redes sociales, asociaciones locales y eventos benéficos", de: "Regelmäßige Standorte, Social-Media-Interaktion, lokale Partnerschaften und Wohltätigkeitsveranstaltungen", nl: "Regelmatige locaties, sociale media interactie, lokale partnerschappen en liefdadigheids evenementen" },
+          { en: "Change locations constantly", es: "Cambiar ubicaciones constantemente", de: "Standorte ständig wechseln", nl: "Locaties constant veranderen" },
+          { en: "Avoid social media entirely", es: "Evitar las redes sociales por completo", de: "Social Media vollständig vermeiden", nl: "Sociale media volledig vermijden" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Successful trucks build loyal communities through consistent presence at regular locations, active social media engagement, partnerships with local businesses and breweries, participation in community events, charitable giving, and creating 'regulars' who become brand ambassadors.",
+          es: "Los trucks exitosos construyen comunidades leales a través de presencia consistente en ubicaciones regulares, compromiso activo en redes sociales, asociaciones con negocios locales y cervecerías, participación en eventos comunitarios, donaciones caritativas y creación de 'clientes habituales' que se convierten en embajadores de marca.",
+          de: "Erfolgreiche Trucks bauen treue Communities durch konsequente Präsenz an regelmäßigen Standorten, aktives Social-Media-Engagement, Partnerschaften mit lokalen Unternehmen und Brauereien, Teilnahme an Community-Events, wohltätige Spenden und Schaffung von 'Stammgästen', die zu Markenbotschaftern werden.",
+          nl: "Succesvolle trucks bouwen loyale gemeenschappen door consistente aanwezigheid op regelmatige locaties, actieve sociale media betrokkenheid, partnerschappen met lokale bedrijven en brouwerijen, deelname aan gemeenschap evenementen, liefdadige giften en creëren van 'vaste klanten' die merk ambassadeurs worden."
+        }
+      },
+      {
+        question: {
+          en: "What sustainability practices are emerging in gourmet food trucks?",
+          es: "¿Qué prácticas de sostenibilidad están emergiendo en food trucks gourmet?",
+          de: "Welche Nachhaltigkeitspraktiken entstehen in Gourmet-Food-Trucks?",
+          nl: "Welke duurzaamheid praktijken ontstaan in gourmet foodtrucks?"
+        },
+        options: [
+          { en: "Sustainability is impossible for food trucks", es: "La sostenibilidad es imposible para food trucks", de: "Nachhaltigkeit ist für Food Trucks unmöglich", nl: "Duurzaamheid is onmogelijk voor foodtrucks" },
+          { en: "Electric/hybrid vehicles, compostable packaging, local sourcing, and waste reduction", es: "Vehículos eléctricos/híbridos, empaque compostable, abastecimiento local y reducción de residuos", de: "Elektrische/Hybrid-Fahrzeuge, kompostierbare Verpackung, lokale Beschaffung und Abfallreduzierung", nl: "Elektrische/hybride voertuigen, composteerbare verpakking, lokale sourcing en afval reductie" },
+          { en: "Use maximum disposables", es: "Usar máximo desechables", de: "Maximale Einwegartikel verwenden", nl: "Gebruik maximale wegwerpproducten" },
+          { en: "Sustainability decreases profits", es: "La sostenibilidad disminuye ganancias", de: "Nachhaltigkeit verringert Gewinne", nl: "Duurzaamheid vermindert winsten" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Progressive trucks adopt sustainability through electric/hybrid vehicles, biodegradable/compostable packaging, local ingredient sourcing reducing transport, waste reduction strategies, solar panels, and water conservation systems—often becoming marketing differentiators attracting environmentally conscious customers.",
+          es: "Los trucks progresivos adoptan sostenibilidad a través de vehículos eléctricos/híbridos, empaque biodegradable/compostable, abastecimiento de ingredientes locales reduciendo transporte, estrategias de reducción de residuos, paneles solares y sistemas de conservación de agua—a menudo convirtiéndose en diferenciadores de marketing atrayendo clientes conscientes del medio ambiente.",
+          de: "Progressive Trucks übernehmen Nachhaltigkeit durch elektrische/Hybrid-Fahrzeuge, biologisch abbaubare/kompostierbare Verpackung, lokale Zutatenbeschaffung zur Transportreduzierung, Abfallreduzierungsstrategien, Solarpanels und Wasserspar-Systeme—oft werden sie zu Marketing-Differenzierern, die umweltbewusste Kunden anziehen.",
+          nl: "Progressieve trucks adopteren duurzaamheid door elektrische/hybride voertuigen, biologisch afbreekbare/composteerbare verpakking, lokale ingrediënt sourcing die transport vermindert, afval reductie strategieën, zonnepanelen en water conservatie systemen—vaak wordend marketing differentiators die milieubewuste klanten aantrekken."
+        }
+      },
+      {
+        question: {
+          en: "How do food trucks manage weather-related business volatility?",
+          es: "¿Cómo manejan los food trucks la volatilidad del negocio relacionada con el clima?",
+          de: "Wie managen Food Trucks wetterbedingte Geschäftsvolatilität?",
+          nl: "Hoe beheren foodtrucks weer-gerelateerde bedrijfs volatiliteit?"
+        },
+        options: [
+          { en: "Weather has no impact on food trucks", es: "El clima no tiene impacto en food trucks", de: "Wetter hat keinen Einfluss auf Food Trucks", nl: "Weer heeft geen impact op foodtrucks" },
+          { en: "Diversified revenue streams, catering contracts, and flexible scheduling strategies", es: "Flujos de ingresos diversificados, contratos de catering y estrategias de programación flexibles", de: "Diversifizierte Einnahmequellen, Catering-Verträge und flexible Planungsstrategien", nl: "Gediversifieerde inkomen stromen, catering contracten en flexibele planning strategieën" },
+          { en: "Close business during bad weather", es: "Cerrar negocio durante mal clima", de: "Geschäft bei schlechtem Wetter schließen", nl: "Bedrijf sluiten tijdens slecht weer" },
+          { en: "Only operate in summer", es: "Solo operar en verano", de: "Nur im Sommer betreiben", nl: "Alleen opereren in zomer" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Savvy trucks mitigate weather volatility through diversified revenue (catering, events, commissary kitchen sales), flexible scheduling (moving to covered locations), financial planning with reserves, seasonal menu adaptations, and building loyal customer bases who support them regardless of weather.",
+          es: "Los trucks astutos mitigan volatilidad climática a través de ingresos diversificados (catering, eventos, ventas de cocina de comisaría), programación flexible (mover a ubicaciones cubiertas), planificación financiera con reservas, adaptaciones de menú estacional y construcción de bases de clientes leales que los apoyan independientemente del clima.",
+          de: "Clevere Trucks mildern Wettervolatilität durch diversifizierte Einnahmen (Catering, Events, Kommissariatsküchen-Verkäufe), flexible Planung (Umzug an überdachte Standorte), Finanzplanung mit Reserven, saisonale Menüanpassungen und Aufbau treuer Kundenbasis, die sie unabhängig vom Wetter unterstützt.",
+          nl: "Slimme trucks verzachten weer volatiliteit door gediversifieerde inkomsten (catering, evenementen, commissariaat keuken verkopen), flexibele planning (verplaatsen naar overdekte locaties), financiële planning met reserves, seizoensgebonden menu aanpassingen en bouwen van loyale klanten bases die hen ondersteunen ongeacht het weer."
+        }
+      },
+      {
+        question: {
+          en: "What is the role of intellectual property in gourmet food truck success?",
+          es: "¿Cuál es el papel de la propiedad intelectual en el éxito de food trucks gourmet?",
+          de: "Was ist die Rolle des geistigen Eigentums im Erfolg von Gourmet-Food-Trucks?",
+          nl: "Wat is de rol van intellectueel eigendom in gourmet foodtruck succes?"
+        },
+        options: [
+          { en: "IP protection is irrelevant", es: "La protección IP es irrelevante", de: "IP-Schutz ist irrelevant", nl: "IP bescherming is irrelevant" },
+          { en: "Trademark branding, recipe protection, and unique concept development create competitive moats", es: "Branding de marca registrada, protección de recetas y desarrollo de conceptos únicos crean fosos competitivos", de: "Markenzeichen-Branding, Rezeptschutz und einzigartige Konzeptentwicklung schaffen Wettbewerbsgräben", nl: "Handelsmerk branding, recept bescherming en unieke concept ontwikkeling creëren competitieve moats" },
+          { en: "All recipes should be public", es: "Todas las recetas deben ser públicas", de: "Alle Rezepte sollten öffentlich sein", nl: "Alle recepten moeten publiek zijn" },
+          { en: "Copying competitors is recommended", es: "Se recomienda copiar competidores", de: "Konkurrenten kopieren wird empfohlen", nl: "Concurrenten kopiëren wordt aanbevolen" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Successful trucks protect intellectual property through trademark registration (name, logo), trade secret protection (signature recipes), copyright (branding materials), and developing distinctive concepts that are difficult to replicate—creating competitive advantages and franchise/licensing opportunities.",
+          es: "Los trucks exitosos protegen propiedad intelectual a través de registro de marcas (nombre, logo), protección de secretos comerciales (recetas distintivas), derechos de autor (materiales de marca) y desarrollo de conceptos distintivos difíciles de replicar—creando ventajas competitivas y oportunidades de franquicia/licencia.",
+          de: "Erfolgreiche Trucks schützen geistiges Eigentum durch Markenregistrierung (Name, Logo), Geschäftsgeheimnisschutz (Signaturrezepte), Urheberrecht (Branding-Materialien) und Entwicklung unverwechselbarer Konzepte, die schwer zu replizieren sind—Schaffung von Wettbewerbsvorteilen und Franchise-/Lizenzierungsmöglichkeiten.",
+          nl: "Succesvolle trucks beschermen intellectueel eigendom door handelsmerk registratie (naam, logo), handelsgeheim bescherming (kenmerkende recepten), copyright (branding materialen) en ontwikkelen van onderscheidende concepten die moeilijk te repliceren zijn—creërend competitieve voordelen en franchise/licentie kansen."
+        }
+      },
+      {
+        question: {
+          en: "How do gourmet food trucks navigate the transition from truck to restaurant?",
+          es: "¿Cómo navegan los food trucks gourmet la transición de truck a restaurante?",
+          de: "Wie navigieren Gourmet-Food-Trucks den Übergang vom Truck zum Restaurant?",
+          nl: "Hoe navigeren gourmet foodtrucks de transitie van truck naar restaurant?"
+        },
+        options: [
+          { en: "Transition is always easy and risk-free", es: "La transición siempre es fácil y sin riesgos", de: "Übergang ist immer einfach und risikofrei", nl: "Transitie is altijd gemakkelijk en risicovrij" },
+          { en: "Requires different skills: managing staff, higher overhead, expanded operations", es: "Requiere habilidades diferentes: gestionar personal, gastos generales más altos, operaciones expandidas", de: "Erfordert verschiedene Fähigkeiten: Personalmanagement, höhere Gemeinkosten, erweiterte Operationen", nl: "Vereist verschillende vaardigheden: personeel beheren, hogere overhead, uitgebreide operaties" },
+          { en: "Food truck experience guarantees restaurant success", es: "La experiencia de food truck garantiza éxito de restaurante", de: "Food-Truck-Erfahrung garantiert Restauranterfolg", nl: "Foodtruck ervaring garandeert restaurant succes" },
+          { en: "Should abandon truck immediately", es: "Debe abandonar truck inmediatamente", de: "Sollte Truck sofort aufgeben", nl: "Moet truck onmiddellijk opgeven" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Transitioning from truck to restaurant requires different skill sets—managing multiple staff, higher fixed costs and overhead, expanded menu capacity, different marketing, and operational complexity. Successful operators often maintain the truck while establishing the restaurant, leveraging the truck's brand equity and customer base.",
+          es: "La transición de truck a restaurante requiere conjuntos de habilidades diferentes—gestionar múltiples empleados, costos fijos y gastos generales más altos, capacidad de menú expandida, marketing diferente y complejidad operacional. Los operadores exitosos a menudo mantienen el truck mientras establecen el restaurante, aprovechando el valor de marca y base de clientes del truck.",
+          de: "Der Übergang vom Truck zum Restaurant erfordert verschiedene Fähigkeiten—Verwaltung mehrerer Mitarbeiter, höhere Fixkosten und Gemeinkosten, erweiterte Menükapazität, unterschiedliches Marketing und operationale Komplexität. Erfolgreiche Betreiber behalten oft den Truck bei der Etablierung des Restaurants bei und nutzen Marken-Equity und Kundenbasis des Trucks.",
+          nl: "Transitie van truck naar restaurant vereist verschillende vaardighedensets—beheren van meerdere personeel, hogere vaste kosten en overhead, uitgebreide menu capaciteit, verschillende marketing en operationele complexiteit. Succesvolle operators behouden vaak de truck terwijl ze het restaurant vestigen, hefboomwerking van truck's merk equity en klanten base."
+        }
+      },
+      {
+        question: {
+          en: "What role does staff training play in gourmet food truck operations?",
+          es: "¿Qué papel juega la capacitación del personal en operaciones de food trucks gourmet?",
+          de: "Welche Rolle spielt Personalschulung in Gourmet-Food-Truck-Operationen?",
+          nl: "Welke rol speelt personeel training in gourmet foodtruck operaties?"
+        },
+        options: [
+          { en: "Training is unnecessary in trucks", es: "La capacitación es innecesaria en trucks", de: "Schulung ist in Trucks unnötig", nl: "Training is onnodig in trucks" },
+          { en: "Critical for consistency, efficiency, safety, and brand representation", es: "Crítica para consistencia, eficiencia, seguridad y representación de marca", de: "Entscheidend für Konsistenz, Effizienz, Sicherheit und Markenrepräsentation", nl: "Kritiek voor consistentie, efficiëntie, veiligheid en merk representatie" },
+          { en: "Only owners should know recipes", es: "Solo los propietarios deben conocer las recetas", de: "Nur Eigentümer sollten Rezepte kennen", nl: "Alleen eigenaren moeten recepten kennen" },
+          { en: "Hire only experienced chefs", es: "Contratar solo chefs experimentados", de: "Nur erfahrene Köche einstellen", nl: "Huur alleen ervaren chefs" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Comprehensive staff training is critical for gourmet trucks—ensuring consistent food quality, efficient workflows in confined spaces, proper food safety practices, excellent customer service, brand representation, and allowing owners to scale operations beyond their direct involvement.",
+          es: "La capacitación integral del personal es crítica para trucks gourmet—asegurando calidad consistente de alimentos, flujos de trabajo eficientes en espacios confinados, prácticas apropiadas de seguridad alimentaria, excelente servicio al cliente, representación de marca y permitiendo a propietarios escalar operaciones más allá de su participación directa.",
+          de: "Umfassende Personalschulung ist kritisch für Gourmet-Trucks—Sicherstellung konsistenter Lebensmittelqualität, effizienter Arbeitsabläufe in beengten Räumen, ordnungsgemäßer Lebensmittelsicherheitspraktiken, exzellenten Kundenservices, Markenrepräsentation und Ermöglichung für Eigentümer, Operationen über ihre direkte Beteiligung hinaus zu skalieren.",
+          nl: "Uitgebreide personeel training is kritiek voor gourmet trucks—verzekering van consistente voedsel kwaliteit, efficiënte workflows in besloten ruimtes, juiste voedselveiligheid praktijken, uitstekende klantenservice, merk representatie en eigenaren toestaan operaties te schalen buiten hun directe betrokkenheid."
+        }
+      },
+      {
+        question: {
+          en: "What financial metrics are most important for gourmet food truck success?",
+          es: "¿Qué métricas financieras son más importantes para el éxito de food trucks gourmet?",
+          de: "Welche Finanzkennzahlen sind am wichtigsten für Gourmet-Food-Truck-Erfolg?",
+          nl: "Welke financiële metrics zijn het belangrijkst voor gourmet foodtruck succes?"
+        },
+        options: [
+          { en: "Only total revenue matters", es: "Solo importa el ingreso total", de: "Nur Gesamtumsatz zählt", nl: "Alleen totale omzet telt" },
+          { en: "Food cost percentage, average ticket, customer frequency, and profit margins", es: "Porcentaje de costo de alimentos, ticket promedio, frecuencia de clientes y márgenes de ganancia", de: "Lebensmittelkosten-Prozentsatz, durchschnittliches Ticket, Kundenhäufigkeit und Gewinnmargen", nl: "Voedsel kosten percentage, gemiddeld ticket, klant frequentie en winst marges" },
+          { en: "Sales volume alone determines success", es: "Solo el volumen de ventas determina éxito", de: "Nur Verkaufsvolumen bestimmt Erfolg", nl: "Alleen verkoop volume bepaalt succes" },
+          { en: "Financial tracking is unnecessary", es: "El seguimiento financiero es innecesario", de: "Finanzielle Verfolgung ist unnötig", nl: "Financiële tracking is onnodig" }
         ],
         correct: 1,
         explanation: {
-          en: "Celebrity chefs have legitimized and elevated street food by operating high-profile food trucks, creating innovative street food concepts, and bringing professional culinary standards to mobile dining.",
-          es: "Los chefs famosos han legitimado y elevado la comida callejera operando food trucks de alto perfil, creando conceptos innovadores de comida callejera y trayendo estándares culinarios profesionales a la comida móvil.",
-          de: "Prominente Köche haben Straßenessen legitimiert und erhoben, indem sie hochkarätige Food Trucks betreiben, innovative Straßenessen-Konzepte schaffen und professionelle kulinarische Standards in die mobile Gastronomie bringen.",
-          nl: "Beroemde chefs hebben straatvoedsel gelegitimeerd en verheven door hoogwaardige foodtrucks te runnen, innovatieve straatvoedsel concepten te creëren en professionele culinaire standaarden naar mobiel dineren te brengen."
+          en: "Critical metrics include food cost percentage (ideally 25-35%), average ticket size, customer frequency/retention, profit margins (typically 6-9% for food service), daily/weekly sales patterns, and break-even analysis—allowing data-driven decisions about pricing, menu, and operations.",
+          es: "Las métricas críticas incluyen porcentaje de costo de alimentos (idealmente 25-35%), tamaño de ticket promedio, frecuencia/retención de clientes, márgenes de ganancia (típicamente 6-9% para servicio de alimentos), patrones de ventas diarios/semanales y análisis de punto de equilibrio—permitiendo decisiones basadas en datos sobre precios, menú y operaciones.",
+          de: "Kritische Kennzahlen umfassen Lebensmittelkosten-Prozentsatz (idealerweise 25-35%), durchschnittliche Ticketgröße, Kundenhäufigkeit/-bindung, Gewinnmargen (typischerweise 6-9% für Lebensmittelservice), tägliche/wöchentliche Verkaufsmuster und Break-even-Analyse—Ermöglichung datengesteuerter Entscheidungen über Preisgestaltung, Menü und Operationen.",
+          nl: "Kritieke metrics omvatten voedsel kosten percentage (ideaal 25-35%), gemiddelde ticket grootte, klant frequentie/retentie, winst marges (typisch 6-9% voor voedsel service), dagelijkse/wekelijkse verkoop patronen en break-even analyse—toestaan data-gedreven beslissingen over prijzen, menu en operaties."
+        }
+      },
+      {
+        question: {
+          en: "What role does social media marketing play in modern food truck success?",
+          es: "¿Qué papel juega el marketing en redes sociales en el éxito de food trucks modernos?",
+          de: "Welche Rolle spielt Social-Media-Marketing für modernen Food-Truck-Erfolg?",
+          nl: "Welke rol speelt social media marketing in modern foodtruck succes?"
+        },
+        options: [
+          { en: "Minimal impact, word-of-mouth is sufficient", es: "Impacto mínimo, el boca a boca es suficiente", de: "Minimaler Einfluss, Mundpropaganda reicht aus", nl: "Minimale impact, mond-tot-mond reclame is voldoende" },
+          { en: "Critical for location updates, menu announcements, community building, and real-time customer engagement", es: "Crítico para actualizaciones de ubicación, anuncios de menú, construcción de comunidad y compromiso del cliente en tiempo real", de: "Entscheidend für Standort-Updates, Menü-Ankündigungen, Community-Aufbau und Echtzeit-Kundenbindung", nl: "Cruciaal voor locatie updates, menu aankondigingen, gemeenschap bouwen en real-time klant betrokkenheid" },
+          { en: "Only useful for large truck fleets", es: "Solo útil para flotas grandes de trucks", de: "Nur nützlich für große Truck-Flotten", nl: "Alleen nuttig voor grote truck vloten" },
+          { en: "Social media has no effect on food sales", es: "Las redes sociales no tienen efecto en ventas de comida", de: "Social Media hat keinen Effekt auf Lebensmittelverkäufe", nl: "Social media heeft geen effect op voedselverkoop" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Social media is essential for food trucks—announcing daily locations/hours, showcasing menu items with professional photography, engaging followers with behind-the-scenes content, responding to customer feedback, promoting special events, building loyal communities, and leveraging user-generated content. Instagram, Twitter, and Facebook are primary platforms for real-time communication with mobile customers.",
+          es: "Las redes sociales son esenciales para food trucks—anunciando ubicaciones/horarios diarios, mostrando elementos del menú con fotografía profesional, involucrando seguidores con contenido detrás de escena, respondiendo a comentarios de clientes, promocionando eventos especiales, construyendo comunidades leales y aprovechando contenido generado por usuarios. Instagram, Twitter y Facebook son plataformas principales para comunicación en tiempo real con clientes móviles.",
+          de: "Social Media ist essentiell für Food Trucks—Ankündigung täglicher Standorte/Öffnungszeiten, Präsentation von Menüartikeln mit professioneller Fotografie, Einbindung von Followern mit Behind-the-Scenes-Inhalten, Reaktion auf Kundenfeedback, Werbung für besondere Events, Aufbau loyaler Communities und Nutzung nutzergenerierter Inhalte. Instagram, Twitter und Facebook sind primäre Plattformen für Echtzeit-Kommunikation mit mobilen Kunden.",
+          nl: "Social media is essentieel voor foodtrucks—aankondiging dagelijkse locaties/tijden, showcasing menu items met professionele fotografie, betrekken volgers met behind-the-scenes content, reageren op klant feedback, promoten speciale evenementen, bouwen loyale gemeenschappen en benutten user-gegenereerde content. Instagram, Twitter en Facebook zijn primaire platforms voor real-time communicatie met mobiele klanten."
         }
       }
     ]

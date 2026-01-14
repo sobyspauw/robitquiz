@@ -1,6 +1,6 @@
 (function() {
     const level6Questions = [
-        {
+{
             question: {
                 en: "What is the key technique for making authentic cacio e pepe?",
                 es: "¿Cuál es la técnica clave para hacer auténtico cacio e pepe?",
@@ -818,6 +818,826 @@
                 es: "Los testaroli se consideran entre las formas más antiguas de pasta en Italia, datando potencialmente de tiempos etruscos o romanos. Su método de cocción - hornear una masa en una superficie de piedra caliente antes de cortar y hervir - representa una técnica antigua que es anterior al desarrollo del enrollado y extrusión de masa de pasta. Esto los convierte en un vínculo vivo con la cultura alimentaria italiana premedieval y muestra cómo la pasta evolucionó de simples pasteles a base de granos.",
                 de: "Testaroli gelten als eine der ältesten Nudelformen in Italien und stammen möglicherweise aus etruskischer oder römischer Zeit. Ihre Kochmethode - das Backen eines Teigs auf einer heißen Steinoberfläche vor dem Schneiden und Kochen - repräsentiert eine alte Technik, die der Entwicklung des Nudelteig-Ausrollens und der Extrusion vorausgeht. Dies macht sie zu einer lebendigen Verbindung zur vor-mittelalterlichen italienischen Esskultur und zeigt, wie sich Pasta aus einfachen getreidebasierten Kuchen entwickelte.",
                 nl: "Testaroli worden beschouwd als een van de oudste pastavormen in Italië, mogelijk daterend uit Etruskische of Romeinse tijden. Hun kookmethode - het bakken van een beslag op een heet stenen oppervlak voor het snijden en koken - vertegenwoordigt een oude techniek die dateert van vóór de ontwikkeling van pastadeeg uitrollen en extrusie. Dit maakt ze een levende link naar pre-middeleeuwse Italiaanse eetcultuur en toont hoe pasta evolueerde van eenvoudige graankoeken."
+            }
+        },
+{
+            question: {
+                en: "What are malloreddus and what gives them their distinctive ridges?",
+                es: "¿Qué son los malloreddus y qué les da sus distintivas estrías?",
+                de: "Was sind Malloreddus und was verleiht ihnen ihre charakteristischen Rillen?",
+                nl: "Wat zijn malloreddus en wat geeft ze hun kenmerkende groeven?"
+            },
+            options: {
+                en: [
+                    "Sardinian saffron gnocchi shaped with a ridged basket (ciuliri)",
+                    "Sicilian tube pasta pressed with a fork",
+                    "Tuscan shell pasta shaped by hand",
+                    "Roman spiral pasta formed with a knife"
+                ],
+                es: [
+                    "Ñoquis de azafrán sardos formados con una cesta estriada (ciuliri)",
+                    "Pasta tubular siciliana presionada con tenedor",
+                    "Pasta de concha toscana formada a mano",
+                    "Pasta espiral romana formada con cuchillo"
+                ],
+                de: [
+                    "Sardische Safran-Gnocchi, geformt mit einem gerillten Korb (Ciuliri)",
+                    "Sizilianische Röhrenpasta mit einer Gabel gepresst",
+                    "Toskanische Muschelpasta von Hand geformt",
+                    "Römische Spiralpasta mit einem Messer geformt"
+                ],
+                nl: [
+                    "Sardijnse saffraan gnocchi gevormd met een gegroefd mandje (ciuliri)",
+                    "Siciliaanse buispasta geperst met een vork",
+                    "Toscaanse schelppasta met de hand gevormd",
+                    "Romeinse spiraalpasta gevormd met een mes"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Malloreddus (also called gnocchetti sardi) are small saffron-flavored gnocchi from Sardinia. Their distinctive ridges come from being rolled against a 'ciuliri' - a traditional ridged reed basket. These grooves help sauce cling better. They're traditionally served with tomato-sausage sauce (malloreddus alla campidanese).",
+                es: "Los malloreddus (también llamados gnocchetti sardi) son pequeños ñoquis con sabor a azafrán de Cerdeña. Sus distintivas estrías provienen de ser enrollados contra un 'ciuliri' - una cesta de juncos estriada tradicional. Estas ranuras ayudan a que la salsa se adhiera mejor. Se sirven tradicionalmente con salsa de tomate y salchicha (malloreddus alla campidanese).",
+                de: "Malloreddus (auch Gnocchetti Sardi genannt) sind kleine safrangewürzte Gnocchi aus Sardinien. Ihre charakteristischen Rillen entstehen durch das Rollen gegen einen 'Ciuliri' - einen traditionellen gerillten Schilfkorb. Diese Rillen helfen der Sauce, besser zu haften. Sie werden traditionell mit Tomaten-Wurst-Sauce serviert (Malloreddus alla Campidanese).",
+                nl: "Malloreddus (ook wel gnocchetti sardi genoemd) zijn kleine saffraan gearomatiseerde gnocchi uit Sardinië. Hun kenmerkende groeven komen van het rollen tegen een 'ciuliri' - een traditioneel gegroef rietmand. Deze groeven helpen saus beter vast te houden. Ze worden traditioneel geserveerd met tomaten-worst saus (malloreddus alla campidanese)."
+            }
+        },
+        {
+            question: {
+                en: "What are corzetti and what makes them unique among Italian pasta?",
+                es: "¿Qué son los corzetti y qué los hace únicos entre las pastas italianas?",
+                de: "Was sind Corzetti und was macht sie unter italienischen Nudeln einzigartig?",
+                nl: "Wat zijn corzetti en wat maakt ze uniek onder Italiaanse pasta?"
+            },
+            options: {
+                en: [
+                    "Ligurian coin-shaped pasta stamped with decorative wooden molds",
+                    "Venetian star-shaped pasta cut with a special tool",
+                    "Sicilian square pasta pressed with a stone",
+                    "Roman ring-shaped pasta formed around a stick"
+                ],
+                es: [
+                    "Pasta ligur en forma de moneda estampada con moldes de madera decorativos",
+                    "Pasta veneciana en forma de estrella cortada con herramienta especial",
+                    "Pasta cuadrada siciliana presionada con piedra",
+                    "Pasta romana en forma de anillo formada alrededor de un palo"
+                ],
+                de: [
+                    "Ligurische münzförmige Pasta, gestempelt mit dekorativen Holzformen",
+                    "Venezianische sternförmige Pasta, geschnitten mit einem Spezialwerkzeug",
+                    "Sizilianische quadratische Pasta, gepresst mit einem Stein",
+                    "Römische ringförmige Pasta, geformt um einen Stock"
+                ],
+                nl: [
+                    "Ligurische muntvormige pasta gestempeld met decoratieve houten mallen",
+                    "Venetiaanse stervormige pasta gesneden met een speciaal gereedschap",
+                    "Siciliaanse vierkante pasta geperst met een steen",
+                    "Romeinse ringvormige pasta gevormd rond een stok"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Corzetti (or croxetti) are unique Ligurian pasta discs stamped with hand-carved wooden molds featuring family crests, religious symbols, or geometric patterns. Dating to medieval times when noble families marked their pasta, each piece becomes edible art. Traditionally served with pine nut sauce or mushroom ragù, the stamps create texture for sauce adhesion.",
+                es: "Los corzetti (o croxetti) son discos únicos de pasta ligur estampados con moldes de madera tallados a mano con escudos familiares, símbolos religiosos o patrones geométricos. Datando de tiempos medievales cuando las familias nobles marcaban su pasta, cada pieza se convierte en arte comestible. Servidos tradicionalmente con salsa de piñones o ragú de hongos, los sellos crean textura para la adhesión de la salsa.",
+                de: "Corzetti (oder Croxetti) sind einzigartige ligurische Nudelscheiben, die mit handgeschnitzten Holzformen mit Familienwappen, religiösen Symbolen oder geometrischen Mustern gestempelt werden. Sie stammen aus mittelalterlichen Zeiten, als Adelsfamilien ihre Nudeln markierten, und jedes Stück wird zu essbarer Kunst. Traditionell mit Pinienkern-Sauce oder Pilzragout serviert, schaffen die Stempel Textur für Saucenhaftung.",
+                nl: "Corzetti (of croxetti) zijn unieke Ligurische pasta schijven gestempeld met handgesneden houten mallen met familiewapens, religieuze symbolen of geometrische patronen. Daterend uit middeleeuwse tijden toen adellijke families hun pasta markeerden, wordt elk stuk eetbare kunst. Traditioneel geserveerd met pijnboompitsaus of paddenstoelen ragù, creëren de stempels textuur voor sausadhesie."
+            }
+        },
+        {
+            question: {
+                en: "What is trofie and what is its traditional pairing?",
+                es: "¿Qué es el trofie y cuál es su combinación tradicional?",
+                de: "Was ist Trofie und was ist seine traditionelle Kombination?",
+                nl: "Wat is trofie en wat is de traditionele combinatie?"
+            },
+            options: {
+                en: [
+                    "Ligurian hand-twisted pasta traditionally served with pesto, green beans, and potatoes",
+                    "Calabrian spiral pasta with spicy 'nduja sausage",
+                    "Sicilian tube pasta with eggplant and ricotta",
+                    "Campanian ribbon pasta with seafood and cherry tomatoes"
+                ],
+                es: [
+                    "Pasta retorcida a mano ligur tradicionalmente servida con pesto, judías verdes y patatas",
+                    "Pasta espiral calabresa con salchicha picante 'nduja",
+                    "Pasta tubular siciliana con berenjena y ricotta",
+                    "Pasta de cinta campana con mariscos y tomates cherry"
+                ],
+                de: [
+                    "Ligurische handgedrehte Pasta, traditionell mit Pesto, grünen Bohnen und Kartoffeln serviert",
+                    "Kalabrische Spiralpasta mit scharfer 'Nduja-Wurst",
+                    "Sizilianische Röhrenpasta mit Auberginen und Ricotta",
+                    "Kampanische Bandnudeln mit Meeresfrüchten und Kirschtomaten"
+                ],
+                nl: [
+                    "Ligurische handgedraaide pasta traditioneel geserveerd met pesto, sperziebonen en aardappelen",
+                    "Calabrische spiraalpasta met pittige 'nduja worst",
+                    "Siciliaanse buispasta met aubergine en ricotta",
+                    "Campaniaanse lintpasta met zeevruchten en cherrytomaten"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Trofie (or trofiette) are short, thin twisted pasta from Liguria, traditionally hand-rolled and twisted against a wooden board. The classic preparation is 'trofie al pesto alla genovese' - served with basil pesto, boiled green beans, and cubed potatoes, all tossed together. The twisted shape holds the pesto perfectly, and the combination represents traditional Ligurian cuisine.",
+                es: "Los trofie (o trofiette) son pasta corta y delgada retorcida de Liguria, tradicionalmente enrollada a mano y retorcida contra una tabla de madera. La preparación clásica es 'trofie al pesto alla genovese' - servidos con pesto de albahaca, judías verdes hervidas y patatas en cubos, todo mezclado. La forma retorcida sostiene el pesto perfectamente, y la combinación representa la cocina tradicional ligur.",
+                de: "Trofie (oder Trofiette) sind kurze, dünne gedrehte Nudeln aus Ligurien, traditionell von Hand gerollt und gegen ein Holzbrett gedreht. Die klassische Zubereitung ist 'Trofie al Pesto alla Genovese' - serviert mit Basilikumpesto, gekochten grünen Bohnen und gewürfelten Kartoffeln, alles zusammen geschwenkt. Die gedrehte Form hält das Pesto perfekt, und die Kombination repräsentiert die traditionelle ligurische Küche.",
+                nl: "Trofie (of trofiette) zijn korte, dunne gedraaide pasta uit Ligurië, traditioneel met de hand gerold en gedraaid tegen een houten plank. De klassieke bereiding is 'trofie al pesto alla genovese' - geserveerd met basilicumpesto, gekookte sperziebonen en blokjes aardappel, alles door elkaar geroerd. De gedraaide vorm houdt de pesto perfect vast, en de combinatie vertegenwoordigt traditionele Ligurische keuken."
+            }
+        },
+        {
+            question: {
+                en: "What are stracci and what does their name mean?",
+                es: "¿Qué son los stracci y qué significa su nombre?",
+                de: "Was sind Stracci und was bedeutet ihr Name?",
+                nl: "Wat zijn stracci en wat betekent hun naam?"
+            },
+            options: {
+                en: [
+                    "'Rags' - irregular torn pasta pieces from Tuscany and Umbria",
+                    "'Strings' - long thin noodles from Veneto",
+                    "'Stars' - star-shaped tiny pasta for soup",
+                    "'Ribbons' - wide flat pasta from Emilia-Romagna"
+                ],
+                es: [
+                    "'Harapos' - piezas irregulares de pasta rasgada de Toscana y Umbría",
+                    "'Cuerdas' - fideos largos y delgados del Véneto",
+                    "'Estrellas' - pasta diminuta en forma de estrella para sopa",
+                    "'Cintas' - pasta plana ancha de Emilia-Romaña"
+                ],
+                de: [
+                    "'Lumpen' - unregelmäßige zerrissene Nudelnstücke aus der Toskana und Umbrien",
+                    "'Schnüre' - lange dünne Nudeln aus Venetien",
+                    "'Sterne' - sternförmige winzige Nudeln für Suppe",
+                    "'Bänder' - breite flache Nudeln aus Emilia-Romagna"
+                ],
+                nl: [
+                    "'Lompen' - onregelmatige gescheurde pastastukken uit Toscane en Umbrië",
+                    "'Touwtjes' - lange dunne noedels uit Veneto",
+                    "'Sterren' - stervormige kleine pasta voor soep",
+                    "'Linten' - brede platte pasta uit Emilia-Romagna"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Stracci means 'rags' or 'torn cloths' in Italian, referring to their irregular, roughly torn appearance. These rustic pasta pieces from Tuscany and Umbria are intentionally torn by hand into uneven shapes rather than cut uniformly. Often served with hearty ragùs or mushroom sauces, they embody the 'cucina povera' tradition where nothing goes to waste - originally made from leftover pasta dough scraps.",
+                es: "Stracci significa 'harapos' o 'telas rasgadas' en italiano, refiriéndose a su apariencia irregular y toscamente rasgada. Estas piezas rústicas de pasta de Toscana y Umbría se rasgan intencionalmente a mano en formas desiguales en lugar de cortarse uniformemente. A menudo servidos con ragús abundantes o salsas de hongos, encarnan la tradición de 'cucina povera' donde nada se desperdicia - originalmente hechos de restos de masa de pasta sobrante.",
+                de: "Stracci bedeutet 'Lumpen' oder 'zerrissene Stoffe' auf Italienisch und bezieht sich auf ihr unregelmäßiges, grob zerrissenes Aussehen. Diese rustikalen Nudelstücke aus der Toskana und Umbrien werden absichtlich von Hand in ungleiche Formen gerissen, anstatt gleichmäßig geschnitten zu werden. Oft mit herzhaften Ragouts oder Pilzsaucen serviert, verkörpern sie die 'Cucina Povera'-Tradition, bei der nichts verschwendet wird - ursprünglich aus übrig gebliebenen Nudelteig-Resten hergestellt.",
+                nl: "Stracci betekent 'lompen' of 'gescheurde doeken' in het Italiaans, verwijzend naar hun onregelmatige, ruw gescheurde uiterlijk. Deze rustieke pastastukken uit Toscane en Umbrië worden opzettelijk met de hand gescheurd in ongelijke vormen in plaats van uniform gesneden. Vaak geserveerd met stevige ragù's of paddenstoelen sauzen, belichamen ze de 'cucina povera' traditie waar niets verloren gaat - oorspronkelijk gemaakt van overgebleven pastadeeg restjes."
+            }
+        },
+        {
+            question: {
+                en: "What are pici and what makes them distinctive?",
+                es: "¿Qué son los pici y qué los hace distintivos?",
+                de: "Was sind Pici und was macht sie charakteristisch?",
+                nl: "Wat zijn pici en wat maakt ze onderscheidend?"
+            },
+            options: {
+                en: [
+                    "Hand-rolled thick spaghetti from Tuscany with irregular texture",
+                    "Thin angel hair pasta from Sicily with smooth surface",
+                    "Flat wide noodles from Veneto with eggs",
+                    "Small shell pasta from Puglia machine-extruded"
+                ],
+                es: [
+                    "Espaguetis gruesos enrollados a mano de Toscana con textura irregular",
+                    "Pasta fina cabello de ángel de Sicilia con superficie lisa",
+                    "Fideos planos anchos del Véneto con huevos",
+                    "Pasta pequeña de concha de Puglia extruida a máquina"
+                ],
+                de: [
+                    "Handgerollte dicke Spaghetti aus der Toskana mit unregelmäßiger Textur",
+                    "Dünne Engelshaar-Pasta aus Sizilien mit glatter Oberfläche",
+                    "Flache breite Nudeln aus Venetien mit Eiern",
+                    "Kleine Muschelpasta aus Apulien maschinenextrudiert"
+                ],
+                nl: [
+                    "Handgerolde dikke spaghetti uit Toscane met onregelmatige textuur",
+                    "Dunne engelhaar pasta uit Sicilië met glad oppervlak",
+                    "Platte brede noedels uit Veneto met eieren",
+                    "Kleine schelppasta uit Puglia machinaal geëxtrudeerd"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Pici (or pinci) are thick, hand-rolled pasta from Tuscany, particularly Siena and Montalcino. Made from just flour and water (no eggs), they're rolled by hand to create irregular, rustic strands thicker than spaghetti. Their rough surface and thickness make them perfect for rich sauces like aglione (tomato-garlic), cacio e pepe, or wild boar ragù. The hand-rolling gives each strand a unique character.",
+                es: "Los pici (o pinci) son pasta gruesa enrollada a mano de Toscana, particularmente Siena y Montalcino. Hechos solo con harina y agua (sin huevos), se enrollan a mano para crear hebras irregulares y rústicas más gruesas que los espaguetis. Su superficie rugosa y grosor los hacen perfectos para salsas ricas como aglione (tomate-ajo), cacio e pepe o ragú de jabalí. El enrollado a mano da a cada hebra un carácter único.",
+                de: "Pici (oder Pinci) sind dicke, handgerollte Nudeln aus der Toskana, besonders aus Siena und Montalcino. Nur aus Mehl und Wasser (ohne Eier) hergestellt, werden sie von Hand gerollt, um unregelmäßige, rustikale Stränge zu schaffen, die dicker als Spaghetti sind. Ihre raue Oberfläche und Dicke machen sie perfekt für reichhaltige Saucen wie Aglione (Tomaten-Knoblauch), Cacio e Pepe oder Wildschwein-Ragout. Das Handrollen verleiht jedem Strang einen einzigartigen Charakter.",
+                nl: "Pici (of pinci) zijn dikke, handgerolde pasta uit Toscane, met name Siena en Montalcino. Gemaakt van alleen meel en water (geen eieren), worden ze met de hand gerold om onregelmatige, rustieke strengen te creëren die dikker zijn dan spaghetti. Hun ruwe oppervlak en dikte maken ze perfect voor rijke sauzen zoals aglione (tomaat-knoflook), cacio e pepe of everzwijn ragù. Het handrollen geeft elke streng een uniek karakter."
+            }
+        },
+        {
+            question: {
+                en: "What are garganelli and how were they traditionally formed?",
+                es: "¿Qué son los garganelli y cómo se formaban tradicionalmente?",
+                de: "Was sind Garganelli und wie wurden sie traditionell geformt?",
+                nl: "Wat zijn garganelli en hoe werden ze traditioneel gevormd?"
+            },
+            options: {
+                en: [
+                    "Egg pasta tubes rolled around a stick on a ridged board (pettine)",
+                    "Stuffed pasta sealed with a fork",
+                    "Long ribbons cut with a knife",
+                    "Small dumplings shaped between palms"
+                ],
+                es: [
+                    "Tubos de pasta de huevo enrollados alrededor de un palo en una tabla estriada (pettine)",
+                    "Pasta rellena sellada con tenedor",
+                    "Cintas largas cortadas con cuchillo",
+                    "Pequeños dumplings formados entre las palmas"
+                ],
+                de: [
+                    "Eiernudel-Röhren, gerollt um einen Stock auf einem gerillten Brett (Pettine)",
+                    "Gefüllte Nudeln, mit einer Gabel versiegelt",
+                    "Lange Bänder, mit einem Messer geschnitten",
+                    "Kleine Klöße, zwischen den Handflächen geformt"
+                ],
+                nl: [
+                    "Eipasta buizen gerold rond een stok op een gegroefd bord (pettine)",
+                    "Gevulde pasta verzegeld met een vork",
+                    "Lange linten gesneden met een mes",
+                    "Kleine dumplings gevormd tussen handpalmen"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Garganelli are egg pasta tubes from Emilia-Romagna, specifically Romagna. Small squares of pasta dough are rolled diagonally around a thin stick (typically a knitting needle or special wooden dowel) while pressed against a ridged wooden board called a 'pettine' (comb). This creates distinctive diagonal ridges. Legend says they were invented when a cat ate prepared cappelletti, forcing creative improvisation.",
+                es: "Los garganelli son tubos de pasta de huevo de Emilia-Romaña, específicamente de Romaña. Pequeños cuadrados de masa de pasta se enrollan diagonalmente alrededor de un palo delgado (típicamente una aguja de tejer o taco de madera especial) mientras se presiona contra una tabla de madera estriada llamada 'pettine' (peine). Esto crea distintivas estrías diagonales. La leyenda dice que fueron inventados cuando un gato comió cappelletti preparados, forzando improvisación creativa.",
+                de: "Garganelli sind Eiernudel-Röhren aus Emilia-Romagna, speziell aus der Romagna. Kleine Quadrate aus Nudelteig werden diagonal um einen dünnen Stock (typischerweise eine Stricknadel oder spezieller Holzdübel) gerollt, während sie gegen ein gerilltes Holzbrett namens 'Pettine' (Kamm) gedrückt werden. Dies erzeugt charakteristische diagonale Rillen. Die Legende besagt, sie wurden erfunden, als eine Katze vorbereitete Cappelletti fraß und kreative Improvisation erzwang.",
+                nl: "Garganelli zijn eipasta buizen uit Emilia-Romagna, specifiek Romagna. Kleine vierkantjes pastadeeg worden diagonaal gerold rond een dunne stok (meestal een breinaald of speciale houten staaf) terwijl ze tegen een gegroefd houten bord genaamd 'pettine' (kam) worden geperst. Dit creëert kenmerkende diagonale groeven. De legende zegt dat ze werden uitgevonden toen een kat bereide cappelletti opat, wat creatieve improvisatie afdwong."
+            }
+        },
+        {
+            question: {
+                en: "What are quadrucci and what are they primarily used for?",
+                es: "¿Qué son los quadrucci y para qué se usan principalmente?",
+                de: "Was sind Quadrucci und wofür werden sie hauptsächlich verwendet?",
+                nl: "Wat zijn quadrucci en waarvoor worden ze voornamelijk gebruikt?"
+            },
+            options: {
+                en: [
+                    "Small pasta squares cut from egg pasta sheets, primarily for soups",
+                    "Large stuffed squares served with cream sauce",
+                    "Spiral pasta for baked dishes",
+                    "Ring-shaped pasta for cold salads"
+                ],
+                es: [
+                    "Pequeños cuadrados de pasta cortados de láminas de pasta de huevo, principalmente para sopas",
+                    "Grandes cuadrados rellenos servidos con salsa de nata",
+                    "Pasta espiral para platos horneados",
+                    "Pasta en forma de anillo para ensaladas frías"
+                ],
+                de: [
+                    "Kleine Nudel-Quadrate aus Eiernudel-Platten geschnitten, hauptsächlich für Suppen",
+                    "Große gefüllte Quadrate mit Sahnesauce serviert",
+                    "Spiralpasta für gebackene Gerichte",
+                    "Ringförmige Pasta für kalte Salate"
+                ],
+                nl: [
+                    "Kleine pasta vierkantjes gesneden van eipasta vellen, voornamelijk voor soepen",
+                    "Grote gevulde vierkanten geserveerd met roomsaus",
+                    "Spiraalpasta voor ovenschotels",
+                    "Ringvormige pasta voor koude salades"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Quadrucci ('little squares') are small square-shaped pasta cut from thin sheets of egg pasta. They're traditionally used in broth-based soups, particularly in central and northern Italy. Common dishes include quadrucci in brodo (in broth) and quadrucci e piselli (with peas). Their small size and flat shape allow them to cook quickly and absorb the soup's flavors while adding substance to light broths.",
+                es: "Los quadrucci ('pequeños cuadrados') son pasta pequeña en forma de cuadrado cortada de láminas delgadas de pasta de huevo. Se usan tradicionalmente en sopas a base de caldo, particularmente en el centro y norte de Italia. Los platos comunes incluyen quadrucci in brodo (en caldo) y quadrucci e piselli (con guisantes). Su pequeño tamaño y forma plana les permite cocinarse rápidamente y absorber los sabores de la sopa mientras añaden sustancia a los caldos ligeros.",
+                de: "Quadrucci ('kleine Quadrate') sind kleine quadratische Nudeln, die aus dünnen Platten Eiernudeln geschnitten werden. Sie werden traditionell in Brühen-Suppen verwendet, besonders in Mittel- und Norditalien. Häufige Gerichte sind Quadrucci in Brodo (in Brühe) und Quadrucci e Piselli (mit Erbsen). Ihre geringe Größe und flache Form ermöglichen schnelles Garen und Aufnahme der Suppenaromen, während sie leichten Brühen Substanz verleihen.",
+                nl: "Quadrucci ('kleine vierkanten') zijn kleine vierkante pasta gesneden van dunne vellen eipasta. Ze worden traditioneel gebruikt in bouillon-gebaseerde soepen, met name in Midden- en Noord-Italië. Gewone gerechten omvatten quadrucci in brodo (in bouillon) en quadrucci e piselli (met erwten). Hun kleine formaat en platte vorm zorgen ervoor dat ze snel gaar zijn en de smaken van de soep absorberen terwijl ze substantie toevoegen aan lichte bouillons."
+            }
+        },
+        {
+            question: {
+                en: "What are busiate and what tool is traditionally used to shape them?",
+                es: "¿Qué son las busiate y qué herramienta se usa tradicionalmente para darles forma?",
+                de: "Was sind Busiate und welches Werkzeug wird traditionell verwendet, um sie zu formen?",
+                nl: "Wat zijn busiate en welk gereedschap wordt traditioneel gebruikt om ze te vormen?"
+            },
+            options: {
+                en: [
+                    "Sicilian spiral pasta twisted around a thin reed (buso) or knitting needle",
+                    "Calabrian ribbon pasta cut with a special wheel",
+                    "Sardinian tube pasta formed with a bronze die",
+                    "Tuscan flat pasta shaped between two boards"
+                ],
+                es: [
+                    "Pasta espiral siciliana retorcida alrededor de un junco delgado (buso) o aguja de tejer",
+                    "Pasta de cinta calabresa cortada con rueda especial",
+                    "Pasta tubular sarda formada con matriz de bronce",
+                    "Pasta plana toscana formada entre dos tablas"
+                ],
+                de: [
+                    "Sizilianische Spiralpasta, gedreht um ein dünnes Schilfrohr (Buso) oder eine Stricknadel",
+                    "Kalabrische Bandnudeln, geschnitten mit einem speziellen Rad",
+                    "Sardische Röhrenpasta, geformt mit einer Bronzematrize",
+                    "Toskanische flache Pasta, geformt zwischen zwei Brettern"
+                ],
+                nl: [
+                    "Siciliaanse spiraalpasta gedraaid rond een dun riet (buso) of breinaald",
+                    "Calabrische lintpasta gesneden met een speciaal wiel",
+                    "Sardijnse buispasta gevormd met een bronzen matrijs",
+                    "Toscaanse platte pasta gevormd tussen twee planken"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Busiate are traditional Sicilian pasta from Trapani, named after the 'buso' - a thin reed from local disa grass traditionally used to shape them. Pasta dough is rolled around the buso into a tight spiral, then the reed is pulled out, leaving a corkscrew shape. Classically served with Trapanese pesto (tomato, almond, basil, garlic), their spiral catches sauce beautifully.",
+                es: "Las busiate son pasta tradicional siciliana de Trapani, nombradas por el 'buso' - un junco delgado de hierba disa local tradicionalmente usado para darles forma. La masa de pasta se enrolla alrededor del buso en una espiral apretada, luego se retira el junco, dejando una forma de sacacorchos. Servidas clásicamente con pesto trapanese (tomate, almendra, albahaca, ajo), su espiral atrapa la salsa maravillosamente.",
+                de: "Busiate sind traditionelle sizilianische Nudeln aus Trapani, benannt nach dem 'Buso' - einem dünnen Schilfrohr aus lokalem Disa-Gras, das traditionell zu ihrer Formung verwendet wird. Nudelteig wird um den Buso zu einer engen Spirale gerollt, dann wird das Rohr herausgezogen und hinterlässt eine Korkenziehform. Klassisch mit Trapanese-Pesto (Tomate, Mandel, Basilikum, Knoblauch) serviert, fängt ihre Spirale Sauce wunderbar ein.",
+                nl: "Busiate zijn traditionele Siciliaanse pasta uit Trapani, genoemd naar de 'buso' - een dun riet van lokaal disa gras traditioneel gebruikt om ze te vormen. Pastadeeg wordt rond de buso gerold in een strakke spiraal, daarna wordt het riet uitgetrokken, waardoor een kurkentrekkervorm overblijft. Klassiek geserveerd met Trapanese pesto (tomaat, amandel, basilicum, knoflook), vangt hun spiraal saus prachtig op."
+            }
+        },
+        {
+            question: {
+                en: "What are strozzapreti and what does their name literally mean?",
+                es: "¿Qué son los strozzapreti y qué significa literalmente su nombre?",
+                de: "Was sind Strozzapreti und was bedeutet ihr Name wörtlich?",
+                nl: "Wat zijn strozzapreti en wat betekent hun naam letterlijk?"
+            },
+            options: {
+                en: [
+                    "'Priest stranglers' - hand-rolled twisted pasta from Emilia-Romagna and Tuscany",
+                    "'Angel wings' - flat delicate pasta from Veneto",
+                    "'Monk's caps' - stuffed round pasta from Umbria",
+                    "'Bishop's ribbons' - long wide noodles from Lazio"
+                ],
+                es: [
+                    "'Estrangula curas' - pasta retorcida enrollada a mano de Emilia-Romaña y Toscana",
+                    "'Alas de ángel' - pasta plana delicada del Véneto",
+                    "'Gorros de monje' - pasta redonda rellena de Umbría",
+                    "'Cintas de obispo' - fideos largos y anchos de Lacio"
+                ],
+                de: [
+                    "'Priesterwürger' - handgerollte gedrehte Nudeln aus Emilia-Romagna und der Toskana",
+                    "'Engelsflügel' - flache zarte Pasta aus Venetien",
+                    "'Mönchskappen' - gefüllte runde Pasta aus Umbrien",
+                    "'Bischofsbänder' - lange breite Nudeln aus Latium"
+                ],
+                nl: [
+                    "'Priesterwurgers' - handgerolde gedraaide pasta uit Emilia-Romagna en Toscane",
+                    "'Engelenvleugels' - platte delicate pasta uit Veneto",
+                    "'Monnikspetten' - gevulde ronde pasta uit Umbrië",
+                    "'Bisschopslinten' - lange brede noedels uit Lazio"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Strozzapreti literally means 'priest stranglers' or 'priest chokers' - the anti-clerical name suggests greedy priests ate so quickly they'd choke. These hand-rolled pasta are twisted or rolled into irregular rope-like shapes. Found throughout central Italy with regional variations, they're typically served with rich meat ragùs or sausage sauces. The twisted shape holds sauce in its grooves.",
+                es: "Strozzapreti significa literalmente 'estrangula curas' o 'ahoga curas' - el nombre anticlerical sugiere que los curas codiciosos comían tan rápido que se ahogarían. Esta pasta enrollada a mano se retuerce o enrolla en formas irregulares parecidas a cuerdas. Encontrados en toda Italia central con variaciones regionales, se sirven típicamente con ragús de carne ricos o salsas de salchicha. La forma retorcida sostiene la salsa en sus ranuras.",
+                de: "Strozzapreti bedeutet wörtlich 'Priesterwürger' oder 'Priestererwürger' - der antiklerikale Name deutet darauf hin, dass gierige Priester so schnell aßen, dass sie sich verschlucken würden. Diese handgerollten Nudeln werden zu unregelmäßigen seilartigen Formen gedreht oder gerollt. In ganz Mittelitalien mit regionalen Variationen zu finden, werden sie typischerweise mit reichhaltigen Fleischragouts oder Wurstsaucen serviert. Die gedrehte Form hält Sauce in ihren Rillen.",
+                nl: "Strozzapreti betekent letterlijk 'priesterwurgers' of 'priesterstikkers' - de antiklerikale naam suggereert dat hebzuchtige priesters zo snel aten dat ze zouden stikken. Deze handgerolde pasta wordt gedraaid of gerold in onregelmatige touwachtige vormen. Gevonden door heel Midden-Italië met regionale variaties, worden ze meestal geserveerd met rijke vleesragù's of worst sauzen. De gedraaide vorm houdt saus vast in de groeven."
+            }
+        },
+        {
+            question: {
+                en: "What are cappelletti and how do they differ from tortellini?",
+                es: "¿Qué son los cappelletti y en qué se diferencian de los tortellini?",
+                de: "Was sind Cappelletti und wie unterscheiden sie sich von Tortellini?",
+                nl: "Wat zijn cappelletti en hoe verschillen ze van tortellini?"
+            },
+            options: {
+                en: [
+                    "Smaller 'little hats' from Emilia-Romagna with cheese-based filling vs tortellini's meat filling",
+                    "Larger square pasta with seafood filling",
+                    "Identical to tortellini with different name only",
+                    "Flat ribbons while tortellini are tubes"
+                ],
+                es: [
+                    "Pequeños 'sombrerítos' de Emilia-Romaña con relleno a base de queso vs relleno de carne de tortellini",
+                    "Pasta cuadrada más grande con relleno de mariscos",
+                    "Idénticos a los tortellini solo con nombre diferente",
+                    "Cintas planas mientras que los tortellini son tubos"
+                ],
+                de: [
+                    "Kleinere 'kleine Hüte' aus Emilia-Romagna mit Käsefüllung vs. Tortellini mit Fleischfüllung",
+                    "Größere quadratische Pasta mit Meeresfrüchtefüllung",
+                    "Identisch mit Tortellini, nur anderer Name",
+                    "Flache Bänder, während Tortellini Röhren sind"
+                ],
+                nl: [
+                    "Kleinere 'kleine hoedjes' uit Emilia-Romagna met kaasvulling vs tortellini's vleesvulling",
+                    "Grotere vierkante pasta met zeevruchten vulling",
+                    "Identiek aan tortellini met alleen een andere naam",
+                    "Platte linten terwijl tortellini buizen zijn"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Cappelletti ('little hats') are similar in shape to tortellini but typically larger and have different filling traditions. From Romagna region, they're traditionally filled with ricotta, Parmigiano, eggs, and nutmeg (not meat like Bolognese tortellini). Served in capon broth at Christmas. The folding technique creates a hat shape, hence the name. Regional variations exist throughout Emilia-Romagna and Marche.",
+                es: "Los cappelletti ('sombrerítos') tienen forma similar a los tortellini pero son típicamente más grandes y tienen diferentes tradiciones de relleno. De la región de Romaña, están tradicionalmente rellenos de ricotta, parmesano, huevos y nuez moscada (no carne como los tortellini boloñeses). Servidos en caldo de capón en Navidad. La técnica de plegado crea una forma de sombrero, de ahí el nombre. Existen variaciones regionales en toda Emilia-Romaña y Las Marcas.",
+                de: "Cappelletti ('kleine Hüte') haben eine ähnliche Form wie Tortellini, sind aber typischerweise größer und haben unterschiedliche Füllungstraditionen. Aus der Region Romagna stammend, sind sie traditionell mit Ricotta, Parmigiano, Eiern und Muskatnuss gefüllt (nicht Fleisch wie Bologneser Tortellini). Zu Weihnachten in Kapaun-Brühe serviert. Die Falttechnik erzeugt eine Hutform, daher der Name. Regionale Variationen existieren in ganz Emilia-Romagna und den Marken.",
+                nl: "Cappelletti ('kleine hoedjes') hebben een vergelijkbare vorm als tortellini maar zijn meestal groter en hebben verschillende vullingstradities. Uit de regio Romagna, zijn ze traditioneel gevuld met ricotta, Parmigiano, eieren en nootmuskaat (geen vlees zoals Bolognese tortellini). Geserveerd in kapoenbouillon met Kerstmis. De vouwtechniek creëert een hoedvorm, vandaar de naam. Regionale variaties bestaan door heel Emilia-Romagna en Marche."
+            }
+        },
+        {
+            question: {
+                en: "What are casoncelli and what region are they most associated with?",
+                es: "¿Qué son los casoncelli y con qué región están más asociados?",
+                de: "Was sind Casoncelli und mit welcher Region sind sie am meisten verbunden?",
+                nl: "Wat zijn casoncelli en met welke regio worden ze het meest geassocieerd?"
+            },
+            options: {
+                en: [
+                    "Lombardian stuffed pasta from Bergamo with sweet-savory meat and cookie filling",
+                    "Sicilian tube pasta with ricotta and pistachio",
+                    "Venetian flat noodles with seafood sauce",
+                    "Roman spiral pasta with carbonara"
+                ],
+                es: [
+                    "Pasta rellena lombarda de Bérgamo con relleno agridulce de carne y galleta",
+                    "Pasta tubular siciliana con ricotta y pistacho",
+                    "Fideos planos venecianos con salsa de mariscos",
+                    "Pasta espiral romana con carbonara"
+                ],
+                de: [
+                    "Lombardische gefüllte Pasta aus Bergamo mit süß-herzhafter Fleisch- und Keksfüllung",
+                    "Sizilianische Röhrenpasta mit Ricotta und Pistazie",
+                    "Venezianische flache Nudeln mit Meeresfrüchtesauce",
+                    "Römische Spiralpasta mit Carbonara"
+                ],
+                nl: [
+                    "Lombardische gevulde pasta uit Bergamo met zoet-hartige vlees en koekjes vulling",
+                    "Siciliaanse buispasta met ricotta en pistache",
+                    "Venetiaanse platte noedels met zeevruchten saus",
+                    "Romeinse spiraalpasta met carbonara"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Casoncelli (or casonsei) are traditional stuffed pasta from Bergamo and Brescia in Lombardy. The unique filling combines savory (meat, breadcrumbs, cheese, herbs) with sweet elements (amaretti cookies, raisins, sometimes pear). Shaped like half-moons with crimped edges, they're served with melted butter, sage, and Parmigiano. This sweet-savory combination reflects Renaissance culinary traditions and distinguishes them from other Italian stuffed pasta.",
+                es: "Los casoncelli (o casonsei) son pasta rellena tradicional de Bérgamo y Brescia en Lombardía. El relleno único combina elementos salados (carne, pan rallado, queso, hierbas) con dulces (galletas amaretti, pasas, a veces pera). Con forma de media luna con bordes plegados, se sirven con mantequilla derretida, salvia y parmesano. Esta combinación agridulce refleja tradiciones culinarias renacentistas y los distingue de otras pastas rellenas italianas.",
+                de: "Casoncelli (oder Casonsei) sind traditionelle gefüllte Nudeln aus Bergamo und Brescia in der Lombardei. Die einzigartige Füllung kombiniert Herzhaftes (Fleisch, Semmelbrösel, Käse, Kräuter) mit süßen Elementen (Amaretti-Kekse, Rosinen, manchmal Birne). In Halbmondform mit geprägten Rändern geformt, werden sie mit zerlassener Butter, Salbei und Parmigiano serviert. Diese süß-herzhafte Kombination spiegelt kulinarische Traditionen der Renaissance wider und unterscheidet sie von anderen italienischen gefüllten Nudeln.",
+                nl: "Casoncelli (of casonsei) zijn traditionele gevulde pasta uit Bergamo en Brescia in Lombardije. De unieke vulling combineert hartig (vlees, paneermeel, kaas, kruiden) met zoete elementen (amaretti koekjes, rozijnen, soms peer). Gevormd als halvemanen met geplooide randen, worden ze geserveerd met gesmolten boter, salie en Parmigiano. Deze zoet-hartige combinatie weerspiegelt Renaissance culinaire tradities en onderscheidt ze van andere Italiaanse gevulde pasta."
+            }
+        },
+        {
+            question: {
+                en: "What is the traditional shape and origin of cavatelli?",
+                es: "¿Cuál es la forma tradicional y el origen de los cavatelli?",
+                de: "Was ist die traditionelle Form und Herkunft von Cavatelli?",
+                nl: "Wat is de traditionele vorm en oorsprong van cavatelli?"
+            },
+            options: {
+                en: [
+                    "Small shell-shaped pasta from Puglia and Molise, formed with finger pressure",
+                    "Long thin ribbons from Sicily cut with scissors",
+                    "Square stuffed pasta from Lombardy sealed by hand",
+                    "Spiral tubes from Campania extruded through bronze"
+                ],
+                es: [
+                    "Pasta pequeña en forma de concha de Puglia y Molise, formada con presión de dedos",
+                    "Cintas largas y delgadas de Sicilia cortadas con tijeras",
+                    "Pasta cuadrada rellena de Lombardía sellada a mano",
+                    "Tubos espirales de Campania extruidos a través de bronce"
+                ],
+                de: [
+                    "Kleine muschelförmige Pasta aus Apulien und Molise, mit Fingerdruck geformt",
+                    "Lange dünne Bänder aus Sizilien mit Schere geschnitten",
+                    "Quadratische gefüllte Pasta aus der Lombardei von Hand versiegelt",
+                    "Spiralröhren aus Kampanien durch Bronze extrudiert"
+                ],
+                nl: [
+                    "Kleine schelpvormige pasta uit Puglia en Molise, gevormd met vingerdruk",
+                    "Lange dunne linten uit Sicilië gesneden met een schaar",
+                    "Vierkante gevulde pasta uit Lombardije met de hand verzegeld",
+                    "Spiraalbuizen uit Campanië geëxtrudeerd door brons"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Cavatelli are small shell-shaped pasta from southern Italy, particularly Puglia and Molise. Made from semolina and water (no eggs), small pieces of dough are pressed and dragged with two or three fingers across a work surface, creating a shell with ridges inside and a smooth exterior. These grooves trap sauce perfectly. Traditionally served with broccoli rabe, ricotta, or tomato-based sauces.",
+                es: "Los cavatelli son pasta pequeña en forma de concha del sur de Italia, particularmente Puglia y Molise. Hechos de sémola y agua (sin huevos), pequeños trozos de masa se presionan y arrastran con dos o tres dedos sobre una superficie de trabajo, creando una concha con estrías dentro y exterior liso. Estas ranuras atrapan la salsa perfectamente. Servidos tradicionalmente con brócoli rabe, ricotta o salsas a base de tomate.",
+                de: "Cavatelli sind kleine muschelförmige Nudeln aus Süditalien, besonders aus Apulien und Molise. Aus Grieß und Wasser (ohne Eier) hergestellt, werden kleine Teigstücke mit zwei oder drei Fingern über eine Arbeitsfläche gedrückt und gezogen, wodurch eine Muschel mit Rillen innen und glatter Außenseite entsteht. Diese Rillen fangen Sauce perfekt ein. Traditionell mit Broccoli Rabe, Ricotta oder Tomatensaucen serviert.",
+                nl: "Cavatelli zijn kleine schelpvormige pasta uit Zuid-Italië, met name Puglia en Molise. Gemaakt van griesmeel en water (geen eieren), worden kleine stukjes deeg met twee of drie vingers over een werkoppervlak geperst en gesleept, waardoor een schelp ontstaat met groeven binnenin en een glad buitenkant. Deze groeven vangen saus perfect op. Traditioneel geserveerd met broccoli rabe, ricotta of tomatensauzen."
+            }
+        },
+        {
+            question: {
+                en: "What makes agnolotti distinct from other stuffed pasta?",
+                es: "¿Qué hace que los agnolotti sean distintos de otras pastas rellenas?",
+                de: "Was macht Agnolotti anders als andere gefüllte Nudeln?",
+                nl: "Wat maakt agnolotti anders dan andere gevulde pasta?"
+            },
+            options: {
+                en: [
+                    "Piedmontese square/rectangular pasta with pinched edges, traditionally with meat filling",
+                    "Circular pasta sealed with elaborate braiding",
+                    "Tube-shaped pasta filled from one end",
+                    "Triangular pasta with sweet fruit filling"
+                ],
+                es: [
+                    "Pasta cuadrada/rectangular piamontesa con bordes pellizcados, tradicionalmente con relleno de carne",
+                    "Pasta circular sellada con trenzado elaborado",
+                    "Pasta en forma de tubo rellena desde un extremo",
+                    "Pasta triangular con relleno dulce de frutas"
+                ],
+                de: [
+                    "Piemontesische quadratische/rechteckige Pasta mit eingeklemmten Rändern, traditionell mit Fleischfüllung",
+                    "Kreisförmige Pasta mit aufwendigem Flechtverschluss",
+                    "Röhrenförmige Pasta von einem Ende gefüllt",
+                    "Dreieckige Pasta mit süßer Obstfüllung"
+                ],
+                nl: [
+                    "Piemontese vierkante/rechthoekige pasta met geknepen randen, traditioneel met vleesvulling",
+                    "Ronde pasta verzegeld met uitgebreid vlechten",
+                    "Buisvormige pasta gevuld vanaf één kant",
+                    "Driehoekige pasta met zoete fruitvulling"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Agnolotti are traditional Piedmontese stuffed pasta, particularly from the Langhe and Monferrato regions. Unlike round ravioli, they're typically square or rectangular with characteristic pinched edges that seal the filling. The classic filling is meat-based (braised beef, pork, or rabbit) mixed with vegetables, though agnolotti dal plin (pinched) from Asti are smaller with mixed meat. Served with butter and sage or roasted meat juices.",
+                es: "Los agnolotti son pasta rellena tradicional piamontesa, particularmente de las regiones de Langhe y Monferrato. A diferencia de los raviolis redondos, son típicamente cuadrados o rectangulares con característicos bordes pellizcados que sellan el relleno. El relleno clásico es a base de carne (res estofada, cerdo o conejo) mezclado con verduras, aunque los agnolotti dal plin (pellizcados) de Asti son más pequeños con carne mixta. Servidos con mantequilla y salvia o jugos de carne asada.",
+                de: "Agnolotti sind traditionelle piemontesische gefüllte Nudeln, besonders aus den Regionen Langhe und Monferrato. Im Gegensatz zu runden Ravioli sind sie typischerweise quadratisch oder rechteckig mit charakteristischen eingeklemmten Rändern, die die Füllung versiegeln. Die klassische Füllung ist fleischbasiert (geschmortes Rindfleisch, Schweinefleisch oder Kaninchen) gemischt mit Gemüse, obwohl Agnolotti dal Plin (eingeklemmt) aus Asti kleiner mit gemischtem Fleisch sind. Mit Butter und Salbei oder Bratensaft serviert.",
+                nl: "Agnolotti zijn traditionele Piemontese gevulde pasta, met name uit de regio's Langhe en Monferrato. In tegenstelling tot ronde ravioli, zijn ze meestal vierkant of rechthoekig met karakteristieke geknepen randen die de vulling afsluiten. De klassieke vulling is vlees-gebaseerd (gestoofde rundvlees, varkensvlees of konijn) gemengd met groenten, hoewel agnolotti dal plin (geknepen) uit Asti kleiner zijn met gemengd vlees. Geserveerd met boter en salie of gebraden vleessappen."
+            }
+        },
+        {
+            question: {
+                en: "What are anolini and what makes their preparation special?",
+                es: "¿Qué son los anolini y qué hace especial su preparación?",
+                de: "Was sind Anolini und was macht ihre Zubereitung besonders?",
+                nl: "Wat zijn anolini en wat maakt hun bereiding speciaal?"
+            },
+            options: {
+                en: [
+                    "Small ring-shaped pasta from Parma with slow-cooked meat filling, traditionally in capon broth",
+                    "Large square pasta with quick ricotta filling in tomato sauce",
+                    "Long ribbons with no filling, served with pesto",
+                    "Tiny star pasta for children's soups"
+                ],
+                es: [
+                    "Pasta pequeña en forma de anillo de Parma con relleno de carne cocido lentamente, tradicionalmente en caldo de capón",
+                    "Pasta cuadrada grande con relleno rápido de ricotta en salsa de tomate",
+                    "Cintas largas sin relleno, servidas con pesto",
+                    "Pasta estrella diminuta para sopas infantiles"
+                ],
+                de: [
+                    "Kleine ringförmige Pasta aus Parma mit langsam gekochter Fleischfüllung, traditionell in Kapaun-Brühe",
+                    "Große quadratische Pasta mit schneller Ricotta-Füllung in Tomatensauce",
+                    "Lange Bänder ohne Füllung, mit Pesto serviert",
+                    "Winzige Sternnudeln für Kindersuppen"
+                ],
+                nl: [
+                    "Kleine ringvormige pasta uit Parma met langzaam gekookte vleesvulling, traditioneel in kapoenbouillon",
+                    "Grote vierkante pasta met snelle ricotta vulling in tomatensaus",
+                    "Lange linten zonder vulling, geserveerd met pesto",
+                    "Kleine sterpasta voor kindersoepen"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Anolini are traditional Christmas pasta from Parma and Piacenza in Emilia. Small ring or half-moon shaped, they're filled with slow-braised beef or pork (stracotto) cooked for hours until it becomes a paste, mixed with Parmigiano, breadcrumbs, and nutmeg. The filling preparation takes days. Traditionally served in rich capon or beef broth during Christmas festivities. The labor-intensive process makes them a luxury dish.",
+                es: "Los anolini son pasta tradicional navideña de Parma y Piacenza en Emilia. Pequeños en forma de anillo o media luna, están rellenos de res o cerdo estofado lentamente (stracotto) cocinado durante horas hasta convertirse en pasta, mezclado con parmesano, pan rallado y nuez moscada. La preparación del relleno toma días. Servidos tradicionalmente en rico caldo de capón o res durante festividades navideñas. El proceso laborioso los hace un plato de lujo.",
+                de: "Anolini sind traditionelle Weihnachtsnudeln aus Parma und Piacenza in Emilia. Klein, ring- oder halbmondförmig, sind sie mit langsam geschmortem Rind- oder Schweinefleisch (Stracotto) gefüllt, das stundenlang gekocht wird, bis es zu einer Paste wird, gemischt mit Parmigiano, Semmelbröseln und Muskatnuss. Die Füllungsvorbereitung dauert Tage. Traditionell in reichhaltiger Kapaun- oder Rinderbrühe während der Weihnachtsfeiern serviert. Der arbeitsintensive Prozess macht sie zu einem Luxusgericht.",
+                nl: "Anolini zijn traditionele kerstpasta uit Parma en Piacenza in Emilia. Klein ring- of halvemaanvormig, zijn ze gevuld met langzaam gestoofde rundvlees of varkensvlees (stracotto) gekookt gedurende uren tot het een pasta wordt, gemengd met Parmigiano, paneermeel en nootmuskaat. De vullingsbereiding duurt dagen. Traditioneel geserveerd in rijke kapoen- of runderbouillon tijdens kerstfeesten. Het arbeidsintensieve proces maakt ze een luxe gerecht."
+            }
+        },
+        {
+            question: {
+                en: "What are fagottini and what does their name suggest?",
+                es: "¿Qué son los fagottini y qué sugiere su nombre?",
+                de: "Was sind Fagottini und was deutet ihr Name an?",
+                nl: "Wat zijn fagottini en wat suggereert hun naam?"
+            },
+            options: {
+                en: [
+                    "'Little bundles' - stuffed pasta gathered and tied at top like small pouches",
+                    "'Little flowers' - pasta shaped like petals",
+                    "'Little beans' - tiny oval soup pasta",
+                    "'Little wheels' - round pasta with spokes"
+                ],
+                es: [
+                    "'Pequeños bultos' - pasta rellena reunida y atada en la parte superior como pequeñas bolsas",
+                    "'Pequeñas flores' - pasta con forma de pétalos",
+                    "'Pequeños frijoles' - pasta ovalada diminuta para sopa",
+                    "'Pequeñas ruedas' - pasta redonda con radios"
+                ],
+                de: [
+                    "'Kleine Bündel' - gefüllte Pasta oben zusammengefasst und gebunden wie kleine Beutel",
+                    "'Kleine Blumen' - Pasta in Blütenblattform",
+                    "'Kleine Bohnen' - winzige ovale Suppennudeln",
+                    "'Kleine Räder' - runde Pasta mit Speichen"
+                ],
+                nl: [
+                    "'Kleine bundeltjes' - gevulde pasta verzameld en bovenaan vastgebonden als kleine zakjes",
+                    "'Kleine bloemen' - pasta gevormd als bloemblaadjes",
+                    "'Kleine bonen' - kleine ovale soeppasta",
+                    "'Kleine wielen' - ronde pasta met spaken"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Fagottini means 'little bundles' or 'little parcels' in Italian. These are squares of pasta filled with various ingredients (cheese, vegetables, meat) then gathered at the corners and pinched or tied at the top to create a bundle or beggar's purse shape. The distinctive gathered top makes them visually appealing and allows creative fillings. Often served with butter-based sauces that don't overpower delicate fillings.",
+                es: "Fagottini significa 'pequeños bultos' o 'pequeños paquetes' en italiano. Estos son cuadrados de pasta rellenos con varios ingredientes (queso, verduras, carne) luego reunidos en las esquinas y pellizcados o atados en la parte superior para crear una forma de bulto o bolsa de mendigo. La parte superior reunida distintiva los hace visualmente atractivos y permite rellenos creativos. A menudo servidos con salsas a base de mantequilla que no dominan los rellenos delicados.",
+                de: "Fagottini bedeutet auf Italienisch 'kleine Bündel' oder 'kleine Päckchen'. Dies sind Quadrate aus Pasta, gefüllt mit verschiedenen Zutaten (Käse, Gemüse, Fleisch), dann an den Ecken zusammengefasst und oben eingeklemmt oder gebunden, um eine Bündel- oder Bettelbeute-Form zu schaffen. Die charakteristische zusammengefasste Oberseite macht sie optisch ansprechend und ermöglicht kreative Füllungen. Oft mit Butter-basierten Saucen serviert, die zarte Füllungen nicht überdecken.",
+                nl: "Fagottini betekent 'kleine bundeltjes' of 'kleine pakketjes' in het Italiaans. Dit zijn vierkanten van pasta gevuld met verschillende ingrediënten (kaas, groenten, vlees) vervolgens verzameld bij de hoeken en bovenaan geknepen of vastgebonden om een bundel- of bedelaarsbeursvorm te creëren. De kenmerkende verzamelde bovenkant maakt ze visueel aantrekkelijk en maakt creatieve vullingen mogelijk. Vaak geserveerd met boter-gebaseerde sauzen die delicate vullingen niet overweldigen."
+            }
+        },
+        {
+            question: {
+                en: "What is the historical significance of vermicelli in pasta history?",
+                es: "¿Cuál es la importancia histórica del vermicelli en la historia de la pasta?",
+                de: "Was ist die historische Bedeutung von Vermicelli in der Pasta-Geschichte?",
+                nl: "Wat is de historische betekenis van vermicelli in de pastageschiedenis?"
+            },
+            options: {
+                en: [
+                    "One of the earliest documented pasta shapes, mentioned in 14th century texts",
+                    "Invented in the 1950s for American markets",
+                    "Created during World War II as emergency rations",
+                    "Developed by industrial machines in the 1980s"
+                ],
+                es: [
+                    "Una de las formas de pasta documentadas más antiguas, mencionada en textos del siglo XIV",
+                    "Inventado en los años 1950 para mercados americanos",
+                    "Creado durante la Segunda Guerra Mundial como raciones de emergencia",
+                    "Desarrollado por máquinas industriales en los años 1980"
+                ],
+                de: [
+                    "Eine der frühesten dokumentierten Nudelformen, erwähnt in Texten des 14. Jahrhunderts",
+                    "In den 1950er Jahren für amerikanische Märkte erfunden",
+                    "Während des Zweiten Weltkriegs als Notration geschaffen",
+                    "In den 1980er Jahren von Industriemaschinen entwickelt"
+                ],
+                nl: [
+                    "Een van de vroegst gedocumenteerde pastavor men, vermeld in 14e-eeuwse teksten",
+                    "Uitgevonden in de jaren 1950 voor Amerikaanse markten",
+                    "Gecreëerd tijdens de Tweede Wereldoorlog als noodrantsoenen",
+                    "Ontwikkeld door industriële machines in de jaren 1980"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Vermicelli (meaning 'little worms') is one of the oldest documented pasta shapes, appearing in Italian texts from the 1300s-1400s. Historical records from Naples and Sicily mention vermicelli production and trade. The thin, delicate strands were among the first pasta types to be commercially produced and exported. This makes vermicelli important in understanding early pasta manufacturing and trade networks in medieval Italy.",
+                es: "El vermicelli (que significa 'pequeños gusanos') es una de las formas de pasta documentadas más antiguas, apareciendo en textos italianos de los siglos XIV-XV. Registros históricos de Nápoles y Sicilia mencionan la producción y comercio de vermicelli. Las hebras delgadas y delicadas estuvieron entre los primeros tipos de pasta producidos comercialmente y exportados. Esto hace que el vermicelli sea importante para entender la fabricación y redes comerciales de pasta temprana en la Italia medieval.",
+                de: "Vermicelli (bedeutet 'kleine Würmer') ist eine der ältesten dokumentierten Nudelformen, die in italienischen Texten aus den 1300er-1400er Jahren auftaucht. Historische Aufzeichnungen aus Neapel und Sizilien erwähnen Vermicelli-Produktion und -Handel. Die dünnen, zarten Stränge gehörten zu den ersten kommerziell produzierten und exportierten Nudeltypen. Dies macht Vermicelli wichtig für das Verständnis früher Nudelherstellung und Handelsnetzwerke im mittelalterlichen Italien.",
+                nl: "Vermicelli (betekent 'kleine wormen') is een van de oudst gedocumenteerde pastavormen, verschijnend in Italiaanse teksten uit de 14e-15e eeuw. Historische documenten uit Napels en Sicilië vermelden vermicelli productie en handel. De dunne, delicate strengen behoorden tot de eerste pastatypes die commercieel geproduceerd en geëxporteerd werden. Dit maakt vermicelli belangrijk voor het begrijpen van vroege pastaproductie en handelsnetwerken in middeleeuws Italië."
+            }
+        },
+        {
+            question: {
+                en: "What are the key differences between pasta fresca and pasta secca?",
+                es: "¿Cuáles son las diferencias clave entre pasta fresca y pasta secca?",
+                de: "Was sind die Hauptunterschiede zwischen Pasta Fresca und Pasta Secca?",
+                nl: "Wat zijn de belangrijkste verschillen tussen pasta fresca en pasta secca?"
+            },
+            options: {
+                en: [
+                    "Fresh pasta uses eggs and soft wheat, dried uses only durum wheat and water",
+                    "Fresh pasta is always stuffed, dried never is",
+                    "Fresh pasta is only from northern Italy, dried only from south",
+                    "Fresh pasta requires industrial equipment, dried is hand-made"
+                ],
+                es: [
+                    "La pasta fresca usa huevos y trigo blando, la seca usa solo trigo duro y agua",
+                    "La pasta fresca siempre está rellena, la seca nunca lo está",
+                    "La pasta fresca es solo del norte de Italia, la seca solo del sur",
+                    "La pasta fresca requiere equipo industrial, la seca es hecha a mano"
+                ],
+                de: [
+                    "Frische Pasta verwendet Eier und Weichweizen, getrocknete nur Hartweizen und Wasser",
+                    "Frische Pasta ist immer gefüllt, getrocknete nie",
+                    "Frische Pasta stammt nur aus Norditalien, getrocknete nur aus dem Süden",
+                    "Frische Pasta benötigt Industrieausrüstung, getrocknete wird von Hand hergestellt"
+                ],
+                nl: [
+                    "Verse pasta gebruikt eieren en zachte tarwe, gedroogde alleen harde tarwe en water",
+                    "Verse pasta is altijd gevuld, gedroogde nooit",
+                    "Verse pasta is alleen uit Noord-Italië, gedroogde alleen uit het zuiden",
+                    "Verse pasta vereist industriële apparatuur, gedroogde is handgemaakt"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Pasta fresca (fresh pasta) is traditionally made with eggs and soft wheat flour (tipo 00), creating tender pasta used the same day or within few days. Common in northern Italy for tagliatelle, ravioli, etc. Pasta secca (dried pasta) uses only durum wheat semolina and water (no eggs), can be stored months, and has firmer texture when cooked. More common in southern Italy. Both have their place in Italian cuisine with different applications.",
+                es: "La pasta fresca se hace tradicionalmente con huevos y harina de trigo blando (tipo 00), creando pasta tierna usada el mismo día o en pocos días. Común en el norte de Italia para tagliatelle, ravioli, etc. La pasta secca (seca) usa solo sémola de trigo duro y agua (sin huevos), puede almacenarse meses y tiene textura más firme al cocinar. Más común en el sur de Italia. Ambas tienen su lugar en la cocina italiana con aplicaciones diferentes.",
+                de: "Pasta Fresca (frische Pasta) wird traditionell mit Eiern und Weichweizen-Mehl (Tipo 00) hergestellt, wodurch zarte Pasta entsteht, die am selben Tag oder innerhalb weniger Tage verwendet wird. Üblich in Norditalien für Tagliatelle, Ravioli usw. Pasta Secca (getrocknete Pasta) verwendet nur Hartweizengrieß und Wasser (keine Eier), kann Monate gelagert werden und hat festere Textur beim Kochen. Häufiger in Süditalien. Beide haben ihren Platz in der italienischen Küche mit unterschiedlichen Anwendungen.",
+                nl: "Pasta fresca (verse pasta) wordt traditioneel gemaakt met eieren en zachte tarwebloem (tipo 00), wat tere pasta creëert die dezelfde dag of binnen enkele dagen gebruikt wordt. Gebruikelijk in Noord-Italië voor tagliatelle, ravioli, enz. Pasta secca (gedroogde pasta) gebruikt alleen harde tarwegriesmeel en water (geen eieren), kan maanden bewaard worden en heeft stevigere textuur wanneer gekookt. Meer gebruikelijk in Zuid-Italië. Beide hebben hun plaats in de Italiaanse keuken met verschillende toepassingen."
+            }
+        },
+        {
+            question: {
+                en: "What is the significance of bronze die extrusion in pasta making?",
+                es: "¿Cuál es la importancia de la extrusión con matriz de bronce en la fabricación de pasta?",
+                de: "Was ist die Bedeutung der Bronzematrizen-Extrusion in der Nudelherstellung?",
+                nl: "Wat is de betekenis van bronzen matrijs extrusie in de pastaproductie?"
+            },
+            options: {
+                en: [
+                    "Creates rough texture that holds sauce better than smooth Teflon-extruded pasta",
+                    "Makes pasta cook faster than other methods",
+                    "Allows pasta to be stored longer",
+                    "Reduces production costs significantly"
+                ],
+                es: [
+                    "Crea textura rugosa que sostiene mejor la salsa que la pasta lisa extruida con teflón",
+                    "Hace que la pasta se cocine más rápido que otros métodos",
+                    "Permite que la pasta se almacene más tiempo",
+                    "Reduce significativamente los costos de producción"
+                ],
+                de: [
+                    "Erzeugt raue Textur, die Sauce besser hält als glatte Teflon-extrudierte Pasta",
+                    "Lässt Pasta schneller kochen als andere Methoden",
+                    "Ermöglicht längere Lagerung von Pasta",
+                    "Reduziert Produktionskosten erheblich"
+                ],
+                nl: [
+                    "Creëert ruwe textuur die saus beter vasthoudt dan gladde teflon-geëxtrudeerde pasta",
+                    "Zorgt dat pasta sneller kookt dan andere methoden",
+                    "Maakt dat pasta langer bewaard kan worden",
+                    "Vermindert productiekosten aanzienlijk"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Bronze die (trafilatura al bronzo) extrusion creates pasta with a rough, porous surface that grips sauce exceptionally well. Traditional artisanal method where dough is pushed through bronze dies, which wear naturally creating micro-textures. Modern industrial pasta often uses Teflon dies for smooth, shiny surface that's easier/faster to produce but doesn't hold sauce as well. Bronze-die pasta is prized for superior texture and sauce adhesion, commanding premium prices.",
+                es: "La extrusión con matriz de bronce (trafilatura al bronzo) crea pasta con superficie rugosa y porosa que agarra la salsa excepcionalmente bien. Método artesanal tradicional donde la masa se empuja a través de matrices de bronce, que se desgastan naturalmente creando micro-texturas. La pasta industrial moderna a menudo usa matrices de teflón para superficie lisa y brillante que es más fácil/rápido de producir pero no sostiene la salsa tan bien. La pasta con matriz de bronce es apreciada por textura superior y adhesión de salsa, con precios premium.",
+                de: "Bronzematrizen-Extrusion (Trafilatura al Bronzo) erzeugt Pasta mit rauer, poröser Oberfläche, die Sauce außergewöhnlich gut greift. Traditionelle handwerkliche Methode, bei der Teig durch Bronzematrizen gedrückt wird, die sich natürlich abnutzen und Mikro-Texturen schaffen. Moderne Industriepasta verwendet oft Teflonmatrizen für glatte, glänzende Oberfläche, die einfacher/schneller zu produzieren ist, aber Sauce nicht so gut hält. Bronzematrizen-Pasta wird für überlegene Textur und Saucenhaftung geschätzt und erzielt Premiumpreise.",
+                nl: "Bronzen matrijs (trafilatura al bronzo) extrusie creëert pasta met een ruw, poreus oppervlak dat saus uitzonderlijk goed vasthoudt. Traditionele ambachtelijke methode waarbij deeg door bronzen matrijzen wordt geperst, die natuurlijk slijten waardoor micro-texturen ontstaan. Moderne industriële pasta gebruikt vaak teflon matrijzen voor glad, glanzend oppervlak dat gemakkelijker/sneller te produceren is maar saus niet zo goed vasthoudt. Bronzen-matrijs pasta wordt gewaardeerd voor superieure textuur en sausadhesie, met premium prijzen."
+            }
+        },
+        {
+            question: {
+                en: "What are lumache and what does their shape resemble?",
+                es: "¿Qué son las lumache y a qué se parece su forma?",
+                de: "Was sind Lumache und woran erinnert ihre Form?",
+                nl: "Wat zijn lumache en waar lijkt hun vorm op?"
+            },
+            options: {
+                en: [
+                    "Snail-shaped pasta shells with ridges, named after Italian word for snails",
+                    "Star-shaped pasta for garnishing soups",
+                    "Butterfly-shaped pasta similar to farfalle",
+                    "Tube pasta shaped like straws"
+                ],
+                es: [
+                    "Conchas de pasta con forma de caracol con estrías, nombradas por la palabra italiana para caracoles",
+                    "Pasta en forma de estrella para adornar sopas",
+                    "Pasta en forma de mariposa similar a farfalle",
+                    "Pasta tubular con forma de pajitas"
+                ],
+                de: [
+                    "Schneckenförmige Nudelmuscheln mit Rillen, benannt nach dem italienischen Wort für Schnecken",
+                    "Sternförmige Pasta zum Garnieren von Suppen",
+                    "Schmetterlingsförmige Pasta ähnlich wie Farfalle",
+                    "Röhrenpasta in Strohform"
+                ],
+                nl: [
+                    "Slakachtige pasta schelpen met groeven, genoemd naar het Italiaanse woord voor slakken",
+                    "Stervormige pasta voor het garneren van soepen",
+                    "Vlindergeformde pasta vergelijkbaar met farfalle",
+                    "Buispasta gevormd als rietjes"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Lumache means 'snails' in Italian, and these pasta shapes resemble snail shells - curved, hollow shells with ridges on the outside. Also called lumaconi (large lumache) or pipe rigate when larger, they're perfect for holding chunky sauces, cream sauces, or baked dishes. The spiral cavity traps sauce inside while ridges grip it outside. Their substantial size makes them ideal for stuffing in baked preparations.",
+                es: "Lumache significa 'caracoles' en italiano, y estas formas de pasta se asemejan a conchas de caracol - conchas curvadas y huecas con estrías en el exterior. También llamadas lumaconi (lumache grandes) o pipe rigate cuando son más grandes, son perfectas para sostener salsas gruesas, salsas de nata o platos horneados. La cavidad espiral atrapa la salsa dentro mientras las estrías la agarran fuera. Su tamaño sustancial las hace ideales para rellenar en preparaciones horneadas.",
+                de: "Lumache bedeutet 'Schnecken' auf Italienisch, und diese Nudelformen ähneln Schneckenhäusern - gekrümmte, hohle Muscheln mit Rillen außen. Auch Lumaconi (große Lumache) oder Pipe Rigate genannt, wenn größer, sind sie perfekt zum Halten von stückigen Saucen, Sahnesaucen oder gebackenen Gerichten. Die spiralförmige Höhle fängt Sauce innen ein, während Rillen sie außen greifen. Ihre beträchtliche Größe macht sie ideal zum Füllen in gebackenen Zubereitungen.",
+                nl: "Lumache betekent 'slakken' in het Italiaans, en deze pastavor men lijken op slakkenhuizen - gebogen, holle schelpen met groeven aan de buitenkant. Ook wel lumaconi (grote lumache) of pipe rigate genoemd wanneer groter, zijn ze perfect voor het vasthouden van grove sauzen, roomsauzen of ovenschotels. De spiraalvormige holte vangt saus binnenin terwijl groeven het buitenaf vastgrijpen. Hun substantiële formaat maakt ze ideaal voor vulling in gebakken bereidingen."
+            }
+        },
+        {
+            question: {
+                en: "What distinguishes campanelle from other pasta shapes?",
+                es: "¿Qué distingue a las campanelle de otras formas de pasta?",
+                de: "Was unterscheidet Campanelle von anderen Nudelformen?",
+                nl: "Wat onderscheidt campanelle van andere pastavor men?"
+            },
+            options: {
+                en: [
+                    "Bell/flower-shaped with ruffled edges and hollow center, also called gigli",
+                    "Long thin strands like spaghetti but square",
+                    "Small rice-shaped grains for soup",
+                    "Flat wide ribbons similar to pappardelle"
+                ],
+                es: [
+                    "Forma de campana/flor con bordes ondulados y centro hueco, también llamadas gigli",
+                    "Hebras largas y delgadas como espaguetis pero cuadradas",
+                    "Pequeños granos con forma de arroz para sopa",
+                    "Cintas planas anchas similares a pappardelle"
+                ],
+                de: [
+                    "Glocken-/Blumenform mit gekräuselten Rändern und hohlem Zentrum, auch Gigli genannt",
+                    "Lange dünne Stränge wie Spaghetti, aber quadratisch",
+                    "Kleine reisförmige Körner für Suppe",
+                    "Flache breite Bänder ähnlich wie Pappardelle"
+                ],
+                nl: [
+                    "Bel-/bloemvormig met geplooide randen en hol centrum, ook wel gigli genoemd",
+                    "Lange dunne strengen zoals spaghetti maar vierkant",
+                    "Kleine rijstvormige korrels voor soep",
+                    "Platte brede linten vergelijkbaar met pappardelle"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Campanelle means 'little bells' or 'bellflowers' in Italian (also called gigli meaning 'lilies'). These distinctive pasta pieces have a cone/bell shape with ruffled, petal-like edges and a hollow center. The fluted edges and central cavity make them excellent sauce catchers - they hold both creamy and chunky sauces well. Their elegant appearance makes them popular for special dishes and pasta salads.",
+                es: "Campanelle significa 'pequeñas campanas' o 'campanillas' en italiano (también llamadas gigli que significa 'lirios'). Estas distintivas piezas de pasta tienen forma de cono/campana con bordes ondulados parecidos a pétalos y centro hueco. Los bordes acanalados y la cavidad central los convierten en excelentes atrapadores de salsa - sostienen bien tanto salsas cremosas como gruesas. Su apariencia elegante los hace populares para platos especiales y ensaladas de pasta.",
+                de: "Campanelle bedeutet auf Italienisch 'kleine Glocken' oder 'Glockenblumen' (auch Gigli genannt, was 'Lilien' bedeutet). Diese charakteristischen Nudelstücke haben eine Kegel-/Glockenform mit gekräuselten, blütenblattartigen Rändern und einem hohlen Zentrum. Die gekräuselten Ränder und die zentrale Höhle machen sie zu ausgezeichneten Saucenfängern - sie halten sowohl cremige als auch stückige Saucen gut. Ihr elegantes Aussehen macht sie beliebt für besondere Gerichte und Nudelsalate.",
+                nl: "Campanelle betekent 'kleine bellen' of 'klokbloemen' in het Italiaans (ook wel gigli genoemd wat 'lelies' betekent). Deze kenmerkende pastastukken hebben een kegel-/belvorm met geplooide, bloemblad-achtige randen en een hol centrum. De geplooide randen en centrale holte maken ze uitstekende sausvangers - ze houden zowel romige als grove sauzen goed vast. Hun elegante uiterlijk maakt ze populair voor speciale gerechten en pastasalades."
             }
         }
     ];

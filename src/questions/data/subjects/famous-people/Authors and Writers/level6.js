@@ -1,4 +1,4 @@
-﻿// Authors and Writers Quiz - Level 6: Knowledge about Authors and Writers
+// Authors and Writers Quiz - Level 6: Knowledge about Authors and Writers
 (function() {
   const level6 = {
     name: {
@@ -426,6 +426,405 @@
           es: "Samuel Beckett escribió 'Esperando a Godot' (1953), originalmente en francés como 'En attendant Godot'. La trama minimalista de la obra y los temas existenciales la convirtieron en una piedra angular del teatro absurdista y le valieron a Beckett el Premio Nobel de Literatura en 1969.",
           de: "Samuel Beckett schrieb 'Warten auf Godot' (1953), ursprünglich auf Französisch als 'En attendant Godot'. Die minimalistische Handlung des Stücks und existentielle Themen machten es zu einem Grundpfeiler des absurden Theaters und brachten Beckett 1969 den Nobelpreis für Literatur ein.",
           nl: "Samuel Beckett schreef 'Wachten op Godot' (1953), oorspronkelijk in het Frans als 'En attendant Godot'. De minimalistische plot van het stuk en existentiële thema's maakten het een hoeksteen van het absurdistische theater en leverden Beckett de Nobelprijs voor Literatuur op in 1969."
+        }
+      },
+      {
+        question: {
+          en: "Which Italian author wrote 'The Name of the Rose', a medieval murder mystery filled with literary and philosophical references?",
+          es: "¿Qué autor italiano escribió 'El nombre de la rosa', un misterio de asesinato medieval lleno de referencias literarias y filosóficas?",
+          de: "Welcher italienische Autor schrieb 'Der Name der Rose', einen mittelalterlichen Krimi voller literarischer und philosophischer Verweise?",
+          nl: "Welke Italiaanse auteur schreef 'De Naam van de Roos', een middeleeuws moordmysterie vol literaire en filosofische verwijzingen?"
+        },
+        options: [
+          {en: "Umberto Eco", es: "Umberto Eco", de: "Umberto Eco", nl: "Umberto Eco"},
+          {en: "Italo Calvino", es: "Italo Calvino", de: "Italo Calvino", nl: "Italo Calvino"},
+          {en: "Primo Levi", es: "Primo Levi", de: "Primo Levi", nl: "Primo Levi"},
+          {en: "Leonardo Sciascia", es: "Leonardo Sciascia", de: "Leonardo Sciascia", nl: "Leonardo Sciascia"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Umberto Eco wrote 'The Name of the Rose' (1980), combining a detective story with semiotics, medieval history, and literary theory. The novel became an international bestseller and established Eco's reputation beyond academia.",
+          es: "Umberto Eco escribió 'El nombre de la rosa' (1980), combinando una historia de detectives con semiótica, historia medieval y teoría literaria. La novela se convirtió en un bestseller internacional y estableció la reputación de Eco más allá del ámbito académico.",
+          de: "Umberto Eco schrieb 'Der Name der Rose' (1980), der eine Detektivgeschichte mit Semiotik, mittelalterlicher Geschichte und Literaturtheorie kombiniert. Der Roman wurde ein internationaler Bestseller und etablierte Ecos Ruf über die Wissenschaft hinaus.",
+          nl: "Umberto Eco schreef 'De Naam van de Roos' (1980), waarin een detectiveverhaal wordt gecombineerd met semiotiek, middeleeuwse geschiedenis en literatuurtheorie. De roman werd een internationale bestseller en vestigde Eco's reputatie buiten de academische wereld."
+        }
+      },
+      {
+        question: {
+          en: "Which Nigerian author wrote 'Half of a Yellow Sun', chronicling the Biafran War?",
+          es: "¿Qué autora nigeriana escribió 'Medio sol amarillo', narrando la Guerra de Biafra?",
+          de: "Welche nigerianische Autorin schrieb 'Die Hälfte der Sonne', das den Biafra-Krieg erzählt?",
+          nl: "Welke Nigeriaanse auteur schreef 'De Helft van een Gele Zon', over de Biafra-oorlog?"
+        },
+        options: [
+          {en: "Chimamanda Ngozi Adichie", es: "Chimamanda Ngozi Adichie", de: "Chimamanda Ngozi Adichie", nl: "Chimamanda Ngozi Adichie"},
+          {en: "Chinua Achebe", es: "Chinua Achebe", de: "Chinua Achebe", nl: "Chinua Achebe"},
+          {en: "Buchi Emecheta", es: "Buchi Emecheta", de: "Buchi Emecheta", nl: "Buchi Emecheta"},
+          {en: "Wole Soyinka", es: "Wole Soyinka", de: "Wole Soyinka", nl: "Wole Soyinka"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Chimamanda Ngozi Adichie wrote 'Half of a Yellow Sun' (2006), which won the Orange Prize for Fiction. The novel explores the Nigerian Civil War through multiple perspectives, examining themes of love, loyalty, and political upheaval.",
+          es: "Chimamanda Ngozi Adichie escribió 'Medio sol amarillo' (2006), que ganó el Premio Orange de Ficción. La novela explora la Guerra Civil Nigeriana a través de múltiples perspectivas, examinando temas de amor, lealtad y agitación política.",
+          de: "Chimamanda Ngozi Adichie schrieb 'Die Hälfte der Sonne' (2006), das den Orange Prize for Fiction gewann. Der Roman erforscht den nigerianischen Bürgerkrieg durch multiple Perspektiven und untersucht Themen wie Liebe, Loyalität und politischen Umbruch.",
+          nl: "Chimamanda Ngozi Adichie schreef 'De Helft van een Gele Zon' (2006), dat de Orange Prize for Fiction won. De roman verkent de Nigeriaanse Burgeroorlog door meerdere perspectieven en onderzoekt thema's als liefde, loyaliteit en politieke omwenteling."
+        }
+      },
+      {
+        question: {
+          en: "Which Welsh poet wrote 'Do not go gentle into that good night', a villanelle about facing death?",
+          es: "¿Qué poeta galés escribió 'No entres dócilmente en esa buena noche', una villanela sobre enfrentar la muerte?",
+          de: "Welcher walisische Dichter schrieb 'Do not go gentle into that good night', eine Villanelle über die Konfrontation mit dem Tod?",
+          nl: "Welke Welshe dichter schreef 'Do not go gentle into that good night', een villanelle over de confrontatie met de dood?"
+        },
+        options: [
+          {en: "Dylan Thomas", es: "Dylan Thomas", de: "Dylan Thomas", nl: "Dylan Thomas"},
+          {en: "R.S. Thomas", es: "R.S. Thomas", de: "R.S. Thomas", nl: "R.S. Thomas"},
+          {en: "W.H. Davies", es: "W.H. Davies", de: "W.H. Davies", nl: "W.H. Davies"},
+          {en: "Edward Thomas", es: "Edward Thomas", de: "Edward Thomas", nl: "Edward Thomas"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dylan Thomas wrote 'Do not go gentle into that good night' (1947) for his dying father. The villanelle's powerful refrain and imagery made it one of the most famous poems in English, celebrating resistance against death.",
+          es: "Dylan Thomas escribió 'No entres dócilmente en esa buena noche' (1947) para su padre moribundo. El poderoso estribillo de la villanela y sus imágenes la convirtieron en uno de los poemas más famosos en inglés, celebrando la resistencia contra la muerte.",
+          de: "Dylan Thomas schrieb 'Do not go gentle into that good night' (1947) für seinen sterbenden Vater. Der kraftvolle Refrain der Villanelle und ihre Bilder machten sie zu einem der berühmtesten Gedichte in englischer Sprache, das den Widerstand gegen den Tod feiert.",
+          nl: "Dylan Thomas schreef 'Do not go gentle into that good night' (1947) voor zijn stervende vader. Het krachtige refrein van de villanelle en de beeldspraak maakten het een van de beroemdste gedichten in het Engels, dat verzet tegen de dood viert."
+        }
+      },
+      {
+        question: {
+          en: "Which Australian author's novel 'The Secret River' explores colonial history and Indigenous displacement?",
+          es: "¿La novela 'El río secreto' de qué autora australiana explora la historia colonial y el desplazamiento indígena?",
+          de: "Welche australischen Autorin's Roman 'The Secret River' erforscht Kolonialgeschichte und indigene Vertreibung?",
+          nl: "Welke Australische auteur's roman 'The Secret River' verkent de koloniale geschiedenis en de verplaatsing van inheemse volkeren?"
+        },
+        options: [
+          {en: "Kate Grenville", es: "Kate Grenville", de: "Kate Grenville", nl: "Kate Grenville"},
+          {en: "Christina Stead", es: "Christina Stead", de: "Christina Stead", nl: "Christina Stead"},
+          {en: "Helen Garner", es: "Helen Garner", de: "Helen Garner", nl: "Helen Garner"},
+          {en: "Colleen McCullough", es: "Colleen McCullough", de: "Colleen McCullough", nl: "Colleen McCullough"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Kate Grenville wrote 'The Secret River' (2005), examining the violent frontier conflict between European settlers and Aboriginal Australians in early 19th century New South Wales. The novel won the Commonwealth Writers' Prize.",
+          es: "Kate Grenville escribió 'El río secreto' (2005), examinando el violento conflicto fronterizo entre colonos europeos y aborígenes australianos en Nueva Gales del Sur a principios del siglo XIX. La novela ganó el Premio de Escritores del Commonwealth.",
+          de: "Kate Grenville schrieb 'The Secret River' (2005), das den gewaltsamen Grenzkonflikt zwischen europäischen Siedlern und australischen Ureinwohnern im frühen 19. Jahrhundert in New South Wales untersucht. Der Roman gewann den Commonwealth Writers' Prize.",
+          nl: "Kate Grenville schreef 'The Secret River' (2005), waarin het gewelddadige grensconflict tussen Europese kolonisten en Aboriginals in het vroege 19e-eeuwse New South Wales wordt onderzocht. De roman won de Commonwealth Writers' Prize."
+        }
+      },
+      {
+        question: {
+          en: "Which South African author wrote 'Disgrace', exploring post-apartheid racial tensions?",
+          es: "¿Qué autor sudafricano escribió 'Desgracia', explorando las tensiones raciales post-apartheid?",
+          de: "Welcher südafrikanische Autor schrieb 'Schande', das die rassischen Spannungen nach der Apartheid erforscht?",
+          nl: "Welke Zuid-Afrikaanse auteur schreef 'Disgrace', waarin de raciale spanningen na de apartheid worden verkend?"
+        },
+        options: [
+          {en: "J.M. Coetzee", es: "J.M. Coetzee", de: "J.M. Coetzee", nl: "J.M. Coetzee"},
+          {en: "Nadine Gordimer", es: "Nadine Gordimer", de: "Nadine Gordimer", nl: "Nadine Gordimer"},
+          {en: "André Brink", es: "André Brink", de: "André Brink", nl: "André Brink"},
+          {en: "Alan Paton", es: "Alan Paton", de: "Alan Paton", nl: "Alan Paton"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "J.M. Coetzee wrote 'Disgrace' (1999), which won the Booker Prize. The novel examines violence, power, and reconciliation in post-apartheid South Africa. Coetzee won the Nobel Prize in Literature in 2003.",
+          es: "J.M. Coetzee escribió 'Desgracia' (1999), que ganó el Premio Booker. La novela examina la violencia, el poder y la reconciliación en Sudáfrica post-apartheid. Coetzee ganó el Premio Nobel de Literatura en 2003.",
+          de: "J.M. Coetzee schrieb 'Schande' (1999), das den Booker Prize gewann. Der Roman untersucht Gewalt, Macht und Versöhnung im Südafrika nach der Apartheid. Coetzee gewann 2003 den Nobelpreis für Literatur.",
+          nl: "J.M. Coetzee schreef 'Disgrace' (1999), dat de Booker Prize won. De roman onderzoekt geweld, macht en verzoening in post-apartheid Zuid-Afrika. Coetzee won de Nobelprijs voor Literatuur in 2003."
+        }
+      },
+      {
+        question: {
+          en: "Which Brazilian author wrote 'The Posthumous Memoirs of Brás Cubas', narrated by a dead man?",
+          es: "¿Qué autor brasileño escribió 'Memorias póstumas de Brás Cubas', narrado por un hombre muerto?",
+          de: "Welcher brasilianische Autor schrieb 'Posthume Erinnerungen des Brás Cubas', erzählt von einem Toten?",
+          nl: "Welke Braziliaanse auteur schreef 'De Postume Memoires van Brás Cubas', verteld door een dode man?"
+        },
+        options: [
+          {en: "Jorge Amado", es: "Jorge Amado", de: "Jorge Amado", nl: "Jorge Amado"},
+          {en: "Machado de Assis", es: "Machado de Assis", de: "Machado de Assis", nl: "Machado de Assis"},
+          {en: "Clarice Lispector", es: "Clarice Lispector", de: "Clarice Lispector", nl: "Clarice Lispector"},
+          {en: "Paulo Coelho", es: "Paulo Coelho", de: "Paulo Coelho", nl: "Paulo Coelho"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Machado de Assis wrote 'The Posthumous Memoirs of Brás Cubas' (1881), a pioneering work of literary realism narrated by a deceased protagonist. This innovative novel is considered a masterpiece of Brazilian literature.",
+          es: "Machado de Assis escribió 'Memorias póstumas de Brás Cubas' (1881), una obra pionera del realismo literario narrada por un protagonista fallecido. Esta novela innovadora se considera una obra maestra de la literatura brasileña.",
+          de: "Machado de Assis schrieb 'Posthume Erinnerungen des Brás Cubas' (1881), ein wegweisendes Werk des literarischen Realismus, das von einem verstorbenen Protagonisten erzählt wird. Dieser innovative Roman gilt als Meisterwerk der brasilianischen Literatur.",
+          nl: "Machado de Assis schreef 'De Postume Memoires van Brás Cubas' (1881), een baanbrekend werk van literair realisme verteld door een overleden protagonist. Deze innovatieve roman wordt beschouwd als een meesterwerk van de Braziliaanse literatuur."
+        }
+      },
+      {
+        question: {
+          en: "Which Filipino author wrote 'Noli Me Tangere', a novel that inspired the Philippine independence movement?",
+          es: "¿Qué autor filipino escribió 'Noli Me Tangere', una novela que inspiró el movimiento de independencia filipino?",
+          de: "Welcher philippinische Autor schrieb 'Noli Me Tangere', einen Roman, der die philippinische Unabhängigkeitsbewegung inspirierte?",
+          nl: "Welke Filipijnse auteur schreef 'Noli Me Tangere', een roman die de Filipijnse onafhankelijkheidsbeweging inspireerde?"
+        },
+        options: [
+          {en: "José Rizal", es: "José Rizal", de: "José Rizal", nl: "José Rizal"},
+          {en: "Nick Joaquin", es: "Nick Joaquin", de: "Nick Joaquin", nl: "Nick Joaquin"},
+          {en: "F. Sionil José", es: "F. Sionil José", de: "F. Sionil José", nl: "F. Sionil José"},
+          {en: "Carlos Bulosan", es: "Carlos Bulosan", de: "Carlos Bulosan", nl: "Carlos Bulosan"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "José Rizal wrote 'Noli Me Tangere' (1887), exposing Spanish colonial abuses in the Philippines. The novel became a catalyst for revolution and Rizal became a national hero, though he was executed by Spanish authorities in 1896.",
+          es: "José Rizal escribió 'Noli Me Tangere' (1887), exponiendo los abusos coloniales españoles en Filipinas. La novela se convirtió en un catalizador de la revolución y Rizal se convirtió en héroe nacional, aunque fue ejecutado por las autoridades españolas en 1896.",
+          de: "José Rizal schrieb 'Noli Me Tangere' (1887), das die spanischen Kolonialverbrechen auf den Philippinen aufdeckte. Der Roman wurde zum Katalysator für die Revolution und Rizal wurde zum Nationalhelden, obwohl er 1896 von den spanischen Behörden hingerichtet wurde.",
+          nl: "José Rizal schreef 'Noli Me Tangere' (1887), waarin de Spaanse koloniale misstanden op de Filipijnen werden onthuld. De roman werd een katalysator voor revolutie en Rizal werd een nationale held, hoewel hij in 1896 door Spaanse autoriteiten werd geëxecuteerd."
+        }
+      },
+      {
+        question: {
+          en: "Which Korean author wrote 'The Vegetarian', exploring themes of violence and bodily autonomy?",
+          es: "¿Qué autora coreana escribió 'La vegetariana', explorando temas de violencia y autonomía corporal?",
+          de: "Welche koreanische Autorin schrieb 'Die Vegetarierin', die Themen von Gewalt und körperlicher Autonomie erforscht?",
+          nl: "Welke Koreaanse auteur schreef 'De Vegetariër', waarin thema's van geweld en lichamelijke autonomie worden verkend?"
+        },
+        options: [
+          {en: "Han Kang", es: "Han Kang", de: "Han Kang", nl: "Han Kang"},
+          {en: "Kyung-Sook Shin", es: "Kyung-Sook Shin", de: "Kyung-Sook Shin", nl: "Kyung-Sook Shin"},
+          {en: "Yi Mun-yol", es: "Yi Mun-yol", de: "Yi Mun-yol", nl: "Yi Mun-yol"},
+          {en: "Hwang Sun-won", es: "Hwang Sun-won", de: "Hwang Sun-won", nl: "Hwang Sun-won"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Han Kang wrote 'The Vegetarian' (2007), which won the Man Booker International Prize in 2016. The surreal novel explores a woman's radical rejection of violence through her decision to stop eating meat, disturbing her conventional family.",
+          es: "Han Kang escribió 'La vegetariana' (2007), que ganó el Premio Man Booker Internacional en 2016. La novela surrealista explora el rechazo radical de una mujer a la violencia a través de su decisión de dejar de comer carne, perturbando a su familia convencional.",
+          de: "Han Kang schrieb 'Die Vegetarierin' (2007), das 2016 den Man Booker International Prize gewann. Der surreale Roman erforscht die radikale Ablehnung einer Frau von Gewalt durch ihre Entscheidung, kein Fleisch mehr zu essen, was ihre konventionelle Familie verstört.",
+          nl: "Han Kang schreef 'De Vegetariër' (2007), dat in 2016 de Man Booker International Prize won. De surrealistische roman verkent de radicale afwijzing van geweld door een vrouw via haar beslissing om te stoppen met het eten van vlees, wat haar conventionele familie verstoort."
+        }
+      },
+      {
+        question: {
+          en: "Which Egyptian author won the Nobel Prize for his Cairo Trilogy and other works depicting Egyptian society?",
+          es: "¿Qué autor egipcio ganó el Premio Nobel por su Trilogía de El Cairo y otras obras que retratan la sociedad egipcia?",
+          de: "Welcher ägyptische Autor gewann den Nobelpreis für seine Kairo-Trilogie und andere Werke, die die ägyptische Gesellschaft darstellen?",
+          nl: "Welke Egyptische auteur won de Nobelprijs voor zijn Caïro Trilogie en andere werken die de Egyptische samenleving uitbeelden?"
+        },
+        options: [
+          {en: "Naguib Mahfouz", es: "Naguib Mahfouz", de: "Naguib Mahfouz", nl: "Naguib Mahfouz"},
+          {en: "Taha Hussein", es: "Taha Hussein", de: "Taha Hussein", nl: "Taha Hussein"},
+          {en: "Tawfiq al-Hakim", es: "Tawfiq al-Hakim", de: "Tawfiq al-Hakim", nl: "Tawfiq al-Hakim"},
+          {en: "Yusuf Idris", es: "Yusuf Idris", de: "Yusuf Idris", nl: "Yusuf Idris"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Naguib Mahfouz won the Nobel Prize in Literature in 1988, the first Arabic-language writer to receive the honor. His Cairo Trilogy chronicles Egyptian life from 1917 to 1944, combining realism with philosophical depth.",
+          es: "Naguib Mahfouz ganó el Premio Nobel de Literatura en 1988, el primer escritor en lengua árabe en recibir el honor. Su Trilogía de El Cairo narra la vida egipcia de 1917 a 1944, combinando realismo con profundidad filosófica.",
+          de: "Naguib Mahfouz gewann 1988 den Nobelpreis für Literatur, der erste arabischsprachige Schriftsteller, der diese Ehre erhielt. Seine Kairo-Trilogie erzählt das ägyptische Leben von 1917 bis 1944 und verbindet Realismus mit philosophischer Tiefe.",
+          nl: "Naguib Mahfouz won de Nobelprijs voor Literatuur in 1988, de eerste Arabisch-talige schrijver die deze eer ontving. Zijn Caïro Trilogie vertelt het Egyptische leven van 1917 tot 1944, waarbij realisme wordt gecombineerd met filosofische diepte."
+        }
+      },
+      {
+        question: {
+          en: "Which Caribbean author wrote 'Wide Sargasso Sea', a prequel to 'Jane Eyre' told from Bertha's perspective?",
+          es: "¿Qué autora caribeña escribió 'Ancho mar de los Sargazos', una precuela de 'Jane Eyre' contada desde la perspectiva de Bertha?",
+          de: "Welche karibische Autorin schrieb 'Wide Sargasso Sea', ein Prequel zu 'Jane Eyre' aus Berthas Perspektive erzählt?",
+          nl: "Welke Caribische auteur schreef 'Wide Sargasso Sea', een prequel van 'Jane Eyre' verteld vanuit Bertha's perspectief?"
+        },
+        options: [
+          {en: "Jean Rhys", es: "Jean Rhys", de: "Jean Rhys", nl: "Jean Rhys"},
+          {en: "Jamaica Kincaid", es: "Jamaica Kincaid", de: "Jamaica Kincaid", nl: "Jamaica Kincaid"},
+          {en: "V.S. Naipaul", es: "V.S. Naipaul", de: "V.S. Naipaul", nl: "V.S. Naipaul"},
+          {en: "Derek Walcott", es: "Derek Walcott", de: "Derek Walcott", nl: "Derek Walcott"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jean Rhys wrote 'Wide Sargasso Sea' (1966), giving voice to the 'madwoman in the attic' from 'Jane Eyre'. The novel explores colonialism, race, and gender through the story of Antoinette Cosway in Jamaica.",
+          es: "Jean Rhys escribió 'Ancho mar de los Sargazos' (1966), dando voz a la 'mujer loca del ático' de 'Jane Eyre'. La novela explora el colonialismo, la raza y el género a través de la historia de Antoinette Cosway en Jamaica.",
+          de: "Jean Rhys schrieb 'Wide Sargasso Sea' (1966), das der 'verrückten Frau auf dem Dachboden' aus 'Jane Eyre' eine Stimme gibt. Der Roman erforscht Kolonialismus, Rasse und Geschlecht durch die Geschichte von Antoinette Cosway in Jamaika.",
+          nl: "Jean Rhys schreef 'Wide Sargasso Sea' (1966), waarin een stem wordt gegeven aan de 'gekke vrouw op zolder' uit 'Jane Eyre'. De roman verkent kolonialisme, ras en gender door het verhaal van Antoinette Cosway in Jamaica."
+        }
+      },
+      {
+        question: {
+          en: "Which Swiss author wrote 'The Visit', a tragicomic play about justice and revenge?",
+          es: "¿Qué autor suizo escribió 'La visita', una obra tragicómica sobre justicia y venganza?",
+          de: "Welcher Schweizer Autor schrieb 'Der Besuch der alten Dame', ein tragikomisches Stück über Gerechtigkeit und Rache?",
+          nl: "Welke Zwitserse auteur schreef 'The Visit', een tragikomisch toneelstuk over gerechtigheid en wraak?"
+        },
+        options: [
+          {en: "Max Frisch", es: "Max Frisch", de: "Max Frisch", nl: "Max Frisch"},
+          {en: "Friedrich Dürrenmatt", es: "Friedrich Dürrenmatt", de: "Friedrich Dürrenmatt", nl: "Friedrich Dürrenmatt"},
+          {en: "Hermann Hesse", es: "Hermann Hesse", de: "Hermann Hesse", nl: "Hermann Hesse"},
+          {en: "Robert Walser", es: "Robert Walser", de: "Robert Walser", nl: "Robert Walser"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Friedrich Dürrenmatt wrote 'The Visit' (1956), a dark comedy exploring moral corruption. A wealthy woman returns to her impoverished hometown offering prosperity in exchange for the murder of the man who wronged her decades earlier.",
+          es: "Friedrich Dürrenmatt escribió 'La visita' (1956), una comedia negra que explora la corrupción moral. Una mujer rica regresa a su pueblo natal empobrecido ofreciendo prosperidad a cambio del asesinato del hombre que la perjudicó décadas antes.",
+          de: "Friedrich Dürrenmatt schrieb 'Der Besuch der alten Dame' (1956), eine schwarze Komödie, die moralische Korruption erforscht. Eine reiche Frau kehrt in ihre verarmte Heimatstadt zurück und bietet Wohlstand im Austausch für den Mord an dem Mann, der ihr Jahrzehnte zuvor Unrecht tat.",
+          nl: "Friedrich Dürrenmatt schreef 'The Visit' (1956), een zwarte komedie die morele corruptie verkent. Een rijke vrouw keert terug naar haar verarmde geboorteplaats en biedt welvaart in ruil voor de moord op de man die haar decennia eerder onrecht aandeed."
+        }
+      },
+      {
+        question: {
+          en: "Which Iraqi poet is known as 'The Father of Free Verse' in Arabic poetry?",
+          es: "¿Qué poeta iraquí es conocido como 'El Padre del Verso Libre' en la poesía árabe?",
+          de: "Welcher irakische Dichter ist als 'Der Vater des freien Verses' in der arabischen Poesie bekannt?",
+          nl: "Welke Iraakse dichter staat bekend als 'De Vader van het Vrije Vers' in de Arabische poëzie?"
+        },
+        options: [
+          {en: "Badr Shakir al-Sayyab", es: "Badr Shakir al-Sayyab", de: "Badr Shakir al-Sayyab", nl: "Badr Shakir al-Sayyab"},
+          {en: "Mahmoud Darwish", es: "Mahmoud Darwish", de: "Mahmoud Darwish", nl: "Mahmoud Darwish"},
+          {en: "Adonis", es: "Adonis", de: "Adonis", nl: "Adonis"},
+          {en: "Nizar Qabbani", es: "Nizar Qabbani", de: "Nizar Qabbani", nl: "Nizar Qabbani"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Badr Shakir al-Sayyab pioneered free verse in Arabic poetry in the 1950s, breaking from traditional forms. His innovative work influenced modern Arabic literature, though he died young at 38 from illness and poverty.",
+          es: "Badr Shakir al-Sayyab fue pionero del verso libre en la poesía árabe en la década de 1950, rompiendo con las formas tradicionales. Su trabajo innovador influyó en la literatura árabe moderna, aunque murió joven a los 38 años por enfermedad y pobreza.",
+          de: "Badr Shakir al-Sayyab war in den 1950er Jahren Pionier des freien Verses in der arabischen Poesie und brach mit traditionellen Formen. Seine innovative Arbeit beeinflusste die moderne arabische Literatur, obwohl er jung mit 38 Jahren an Krankheit und Armut starb.",
+          nl: "Badr Shakir al-Sayyab was een pionier van het vrije vers in de Arabische poëzie in de jaren 1950, waarbij hij brak met traditionele vormen. Zijn innovatieve werk beïnvloedde de moderne Arabische literatuur, hoewel hij jong stierf op 38-jarige leeftijd aan ziekte en armoede."
+        }
+      },
+      {
+        question: {
+          en: "Which Mexican author wrote 'Pedro Páramo', a pioneering work of magical realism set in a ghost town?",
+          es: "¿Qué autor mexicano escribió 'Pedro Páramo', una obra pionera del realismo mágico ambientada en un pueblo fantasma?",
+          de: "Welcher mexikanische Autor schrieb 'Pedro Páramo', ein wegweisendes Werk des magischen Realismus in einer Geisterstadt?",
+          nl: "Welke Mexicaanse auteur schreef 'Pedro Páramo', een baanbrekend werk van magisch realisme gesitueerd in een spookstad?"
+        },
+        options: [
+          {en: "Carlos Fuentes", es: "Carlos Fuentes", de: "Carlos Fuentes", nl: "Carlos Fuentes"},
+          {en: "Juan Rulfo", es: "Juan Rulfo", de: "Juan Rulfo", nl: "Juan Rulfo"},
+          {en: "Octavio Paz", es: "Octavio Paz", de: "Octavio Paz", nl: "Octavio Paz"},
+          {en: "Elena Garro", es: "Elena Garro", de: "Elena Garro", nl: "Elena Garro"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Juan Rulfo wrote 'Pedro Páramo' (1955), a slim novel that profoundly influenced Latin American literature. The non-linear narrative blurs the line between living and dead, inspiring García Márquez and other magical realists.",
+          es: "Juan Rulfo escribió 'Pedro Páramo' (1955), una novela breve que influyó profundamente en la literatura latinoamericana. La narrativa no lineal difumina la línea entre vivos y muertos, inspirando a García Márquez y otros realistas mágicos.",
+          de: "Juan Rulfo schrieb 'Pedro Páramo' (1955), einen schmalen Roman, der die lateinamerikanische Literatur tiefgreifend beeinflusste. Die nicht-lineare Erzählung verwischt die Grenze zwischen Lebenden und Toten und inspirierte García Márquez und andere magische Realisten.",
+          nl: "Juan Rulfo schreef 'Pedro Páramo' (1955), een dunne roman die de Latijns-Amerikaanse literatuur diepgaand beïnvloedde. Het niet-lineaire verhaal vervaagt de grens tussen levenden en doden, en inspireerde García Márquez en andere magisch-realisten."
+        }
+      },
+      {
+        question: {
+          en: "Which Vietnamese author wrote 'The Sorrow of War', based on his experiences in the Vietnam War?",
+          es: "¿Qué autor vietnamita escribió 'La tristeza de la guerra', basado en sus experiencias en la Guerra de Vietnam?",
+          de: "Welcher vietnamesische Autor schrieb 'Die Trauer des Krieges', basierend auf seinen Erfahrungen im Vietnamkrieg?",
+          nl: "Welke Vietnamese auteur schreef 'The Sorrow of War', gebaseerd op zijn ervaringen in de Vietnamoorlog?"
+        },
+        options: [
+          {en: "Bao Ninh", es: "Bao Ninh", de: "Bao Ninh", nl: "Bao Ninh"},
+          {en: "Duong Thu Huong", es: "Duong Thu Huong", de: "Duong Thu Huong", nl: "Duong Thu Huong"},
+          {en: "Nguyen Huy Thiep", es: "Nguyen Huy Thiep", de: "Nguyen Huy Thiep", nl: "Nguyen Huy Thiep"},
+          {en: "Le Luu", es: "Le Luu", de: "Le Luu", nl: "Le Luu"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bao Ninh wrote 'The Sorrow of War' (1991), drawing on his experiences as one of ten survivors from his 500-soldier battalion. The novel offers a Vietnamese perspective on the war, exploring trauma, memory, and loss.",
+          es: "Bao Ninh escribió 'La tristeza de la guerra' (1991), basándose en sus experiencias como uno de los diez sobrevivientes de su batallón de 500 soldados. La novela ofrece una perspectiva vietnamita sobre la guerra, explorando trauma, memoria y pérdida.",
+          de: "Bao Ninh schrieb 'Die Trauer des Krieges' (1991), basierend auf seinen Erfahrungen als einer von zehn Überlebenden seines 500-Mann-Bataillons. Der Roman bietet eine vietnamesische Perspektive auf den Krieg und erforscht Trauma, Erinnerung und Verlust.",
+          nl: "Bao Ninh schreef 'The Sorrow of War' (1991), gebaseerd op zijn ervaringen als een van de tien overlevenden van zijn 500-man bataljon. De roman biedt een Vietnamees perspectief op de oorlog en verkent trauma, geheugen en verlies."
+        }
+      },
+      {
+        question: {
+          en: "Which Zimbabwean author wrote 'Nervous Conditions', exploring colonialism and gender in Rhodesia?",
+          es: "¿Qué autora zimbabuense escribió 'Condiciones nerviosas', explorando el colonialismo y el género en Rhodesia?",
+          de: "Welche simbabwische Autorin schrieb 'Nervous Conditions', die Kolonialismus und Geschlecht in Rhodesien erforscht?",
+          nl: "Welke Zimbabwaanse auteur schreef 'Nervous Conditions', waarin kolonialisme en gender in Rhodesië worden verkend?"
+        },
+        options: [
+          {en: "Doris Lessing", es: "Doris Lessing", de: "Doris Lessing", nl: "Doris Lessing"},
+          {en: "Tsitsi Dangarembga", es: "Tsitsi Dangarembga", de: "Tsitsi Dangarembga", nl: "Tsitsi Dangarembga"},
+          {en: "Yvonne Vera", es: "Yvonne Vera", de: "Yvonne Vera", nl: "Yvonne Vera"},
+          {en: "NoViolet Bulawayo", es: "NoViolet Bulawayo", de: "NoViolet Bulawayo", nl: "NoViolet Bulawayo"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Tsitsi Dangarembga wrote 'Nervous Conditions' (1988), the first novel published in English by a Black Zimbabwean woman. The semi-autobiographical work examines the intersection of colonialism, patriarchy, and education through a young girl's coming of age.",
+          es: "Tsitsi Dangarembga escribió 'Condiciones nerviosas' (1988), la primera novela publicada en inglés por una mujer negra zimbabuense. La obra semi-autobiográfica examina la intersección del colonialismo, patriarcado y educación a través de la mayoría de edad de una joven.",
+          de: "Tsitsi Dangarembga schrieb 'Nervous Conditions' (1988), der erste auf Englisch veröffentlichte Roman einer schwarzen simbabwischen Frau. Das semi-autobiografische Werk untersucht die Schnittstelle von Kolonialismus, Patriarchat und Bildung durch das Erwachsenwerden eines jungen Mädchens.",
+          nl: "Tsitsi Dangarembga schreef 'Nervous Conditions' (1988), de eerste roman gepubliceerd in het Engels door een zwarte Zimbabwaanse vrouw. Het semi-autobiografische werk onderzoekt het kruispunt van kolonialisme, patriarchaat en onderwijs door het volwassen worden van een jong meisje."
+        }
+      },
+      {
+        question: {
+          en: "Which Romanian-German author wrote 'The Hunger Angel', about deportation to Soviet labor camps?",
+          es: "¿Qué autora rumano-alemana escribió 'El ángel del hambre', sobre la deportación a campos de trabajo soviéticos?",
+          de: "Welche rumänisch-deutsche Autorin schrieb 'Atemschaukel', über die Deportation in sowjetische Arbeitslager?",
+          nl: "Welke Roemeens-Duitse auteur schreef 'The Hunger Angel', over deportatie naar Sovjet-werkkampen?"
+        },
+        options: [
+          {en: "Herta Müller", es: "Herta Müller", de: "Herta Müller", nl: "Herta Müller"},
+          {en: "Elfriede Jelinek", es: "Elfriede Jelinek", de: "Elfriede Jelinek", nl: "Elfriede Jelinek"},
+          {en: "Christa Wolf", es: "Christa Wolf", de: "Christa Wolf", nl: "Christa Wolf"},
+          {en: "Ingeborg Bachmann", es: "Ingeborg Bachmann", de: "Ingeborg Bachmann", nl: "Ingeborg Bachmann"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Herta Müller wrote 'The Hunger Angel' (2009) based on poet Oskar Pastior's experiences in Soviet labor camps. Müller, who won the Nobel Prize in 2009, writes about life under Romanian dictatorship and ethnic German experiences.",
+          es: "Herta Müller escribió 'El ángel del hambre' (2009) basado en las experiencias del poeta Oskar Pastior en campos de trabajo soviéticos. Müller, quien ganó el Nobel en 2009, escribe sobre la vida bajo la dictadura rumana y las experiencias de los alemanes étnicos.",
+          de: "Herta Müller schrieb 'Atemschaukel' (2009), basierend auf den Erfahrungen des Dichters Oskar Pastior in sowjetischen Arbeitslagern. Müller, die 2009 den Nobelpreis gewann, schreibt über das Leben unter rumänischer Diktatur und die Erfahrungen ethnischer Deutscher.",
+          nl: "Herta Müller schreef 'The Hunger Angel' (2009) gebaseerd op de ervaringen van dichter Oskar Pastior in Sovjet-werkkampen. Müller, die in 2009 de Nobelprijs won, schrijft over het leven onder de Roemeense dictatuur en ervaringen van etnische Duitsers."
+        }
+      },
+      {
+        question: {
+          en: "Which Sri Lankan author wrote 'The English Patient', later adapted into an Academy Award-winning film?",
+          es: "¿Qué autor de Sri Lanka escribió 'El paciente inglés', posteriormente adaptado en una película ganadora del Oscar?",
+          de: "Welcher sri-lankische Autor schrieb 'Der englische Patient', das später zu einem Oscar-prämierten Film adaptiert wurde?",
+          nl: "Welke Sri Lankaanse auteur schreef 'The English Patient', later bewerkt tot een Oscar-winnende film?"
+        },
+        options: [
+          {en: "Michael Ondaatje", es: "Michael Ondaatje", de: "Michael Ondaatje", nl: "Michael Ondaatje"},
+          {en: "Shyam Selvadurai", es: "Shyam Selvadurai", de: "Shyam Selvadurai", nl: "Shyam Selvadurai"},
+          {en: "Romesh Gunesekera", es: "Romesh Gunesekera", de: "Romesh Gunesekera", nl: "Romesh Gunesekera"},
+          {en: "Jean Arasanayagam", es: "Jean Arasanayagam", de: "Jean Arasanayagam", nl: "Jean Arasanayagam"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Michael Ondaatje wrote 'The English Patient' (1992), which won the Booker Prize. The novel interweaves the stories of four characters in an Italian villa at the end of World War II, exploring themes of identity, nationality, and love.",
+          es: "Michael Ondaatje escribió 'El paciente inglés' (1992), que ganó el Premio Booker. La novela entrelaza las historias de cuatro personajes en una villa italiana al final de la Segunda Guerra Mundial, explorando temas de identidad, nacionalidad y amor.",
+          de: "Michael Ondaatje schrieb 'Der englische Patient' (1992), der den Booker Prize gewann. Der Roman verwebt die Geschichten von vier Charakteren in einer italienischen Villa am Ende des Zweiten Weltkriegs und erforscht Themen von Identität, Nationalität und Liebe.",
+          nl: "Michael Ondaatje schreef 'The English Patient' (1992), dat de Booker Prize won. De roman verweeft de verhalen van vier personages in een Italiaanse villa aan het einde van de Tweede Wereldoorlog, waarbij thema's als identiteit, nationaliteit en liefde worden verkend."
+        }
+      },
+      {
+        question: {
+          en: "Which Palestinian poet is considered the national poet of Palestine for his resistance poetry?",
+          es: "¿Qué poeta palestino es considerado el poeta nacional de Palestina por su poesía de resistencia?",
+          de: "Welcher palästinensische Dichter gilt als Nationaldichter Palästinas für seine Widerstandspoesie?",
+          nl: "Welke Palestijnse dichter wordt beschouwd als de nationale dichter van Palestina voor zijn verzetspoëzie?"
+        },
+        options: [
+          {en: "Mahmoud Darwish", es: "Mahmoud Darwish", de: "Mahmoud Darwish", nl: "Mahmoud Darwish"},
+          {en: "Ghassan Kanafani", es: "Ghassan Kanafani", de: "Ghassan Kanafani", nl: "Ghassan Kanafani"},
+          {en: "Fadwa Tuqan", es: "Fadwa Tuqan", de: "Fadwa Tuqan", nl: "Fadwa Tuqan"},
+          {en: "Taha Muhammad Ali", es: "Taha Muhammad Ali", de: "Taha Muhammad Ali", nl: "Taha Muhammad Ali"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mahmoud Darwish's poetry gave voice to the Palestinian experience of exile and occupation. His work combines personal lyricism with political themes, making him one of the Arab world's most celebrated poets until his death in 2008.",
+          es: "La poesía de Mahmoud Darwish dio voz a la experiencia palestina de exilio y ocupación. Su obra combina lirismo personal con temas políticos, convirtiéndolo en uno de los poetas más celebrados del mundo árabe hasta su muerte en 2008.",
+          de: "Mahmoud Darwishs Poesie gab der palästinensischen Erfahrung von Exil und Besatzung eine Stimme. Seine Arbeit kombiniert persönliche Lyrik mit politischen Themen und machte ihn bis zu seinem Tod 2008 zu einem der gefeiertsten Dichter der arabischen Welt.",
+          nl: "Mahmoud Darwish's poëzie gaf een stem aan de Palestijnse ervaring van ballingschap en bezetting. Zijn werk combineert persoonlijk lyrisme met politieke thema's, waardoor hij tot zijn dood in 2008 een van de meest gevierde dichters van de Arabische wereld werd."
+        }
+      },
+      {
+        question: {
+          en: "Which Algerian author wrote 'The Stranger', exploring existential themes in colonial Algeria?",
+          es: "¿Qué autor argelino escribió 'El extranjero', explorando temas existenciales en la Argelia colonial?",
+          de: "Welcher algerische Autor schrieb 'Der Fremde', der existentielle Themen im kolonialen Algerien erforscht?",
+          nl: "Welke Algerijnse auteur schreef 'De Vreemdeling', waarin existentiële thema's in koloniaal Algerije worden verkend?"
+        },
+        options: [
+          {en: "Albert Camus", es: "Albert Camus", de: "Albert Camus", nl: "Albert Camus"},
+          {en: "Assia Djebar", es: "Assia Djebar", de: "Assia Djebar", nl: "Assia Djebar"},
+          {en: "Kateb Yacine", es: "Kateb Yacine", de: "Kateb Yacine", nl: "Kateb Yacine"},
+          {en: "Mohammed Dib", es: "Mohammed Dib", de: "Mohammed Dib", nl: "Mohammed Dib"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Albert Camus wrote 'The Stranger' (1942), a foundational work of existentialism set in Algeria. The novel's protagonist, Meursault, embodies absurdist philosophy through his emotional detachment. Camus won the Nobel Prize in 1957.",
+          es: "Albert Camus escribió 'El extranjero' (1942), una obra fundamental del existencialismo ambientada en Argelia. El protagonista de la novela, Meursault, encarna la filosofía absurdista a través de su desapego emocional. Camus ganó el Nobel en 1957.",
+          de: "Albert Camus schrieb 'Der Fremde' (1942), ein grundlegendes Werk des Existentialismus, das in Algerien spielt. Der Protagonist des Romans, Meursault, verkörpert die absurdistische Philosophie durch seine emotionale Distanziertheit. Camus gewann 1957 den Nobelpreis.",
+          nl: "Albert Camus schreef 'De Vreemdeling' (1942), een fundamenteel werk van het existentialisme gesitueerd in Algerije. De protagonist van de roman, Meursault, belichaamt de absurdistische filosofie door zijn emotionele afstandelijkheid. Camus won de Nobelprijs in 1957."
         }
       }
     ]

@@ -778,8 +778,7 @@
                 de: "John Constable malte 'Der Heuwagen' 1821 und zeigte eine Szene vom Fluss Stour in Suffolk. Dieses romantische Landschaftsgemälde befindet sich in der National Gallery, London.",
                 nl: "John Constable schilderde 'The Hay Wain' in 1821, met een tafereel van de rivier Stour in Suffolk. Dit romantische landschapsschilderij hangt in de National Gallery, Londen."
             }
-        }
-    ,
+        },
         {
             question: {
                 en: "Which artist created the 'Fountain' sculpture, submitting a urinal as art?",
@@ -819,6 +818,416 @@
                 es: "Marcel Duchamp presentó 'Fuente', un urinario de porcelana firmado 'R. Mutt', a la exposición de la Sociedad de Artistas Independientes de 1917. Este readymade revolucionó el arte conceptual al cuestionar qué podía considerarse arte.",
                 de: "Marcel Duchamp reichte 'Fountain', ein Porzellan-Urinal signiert mit 'R. Mutt', zur Ausstellung der Society of Independent Artists 1917 ein. Dieses Readymade revolutionierte die Konzeptkunst, indem es die Frage stellte, was als Kunst betrachtet werden kann.",
                 nl: "Marcel Duchamp diende 'Fountain' in, een porseleinen urinoir gesigneerd 'R. Mutt', bij de tentoonstelling van de Society of Independent Artists in 1917. Dit readymade revolutioneerde de conceptuele kunst door te bevragen wat als kunst beschouwd kan worden."
+            }
+        },
+        {
+            question: {
+                en: "Which artist is known for painting ballerinas and dancers at the Paris Opera?",
+                es: "¿Qué artista es conocido por pintar bailarinas y danzantes en la Ópera de París?",
+                de: "Welcher Künstler ist bekannt für die Malerei von Ballerinas und Tänzern an der Pariser Oper?",
+                nl: "Welke kunstenaar staat bekend om het schilderen van ballerina's en dansers in de Parijse Opera?"
+            },
+            options: [
+                {
+                    en: "Edgar Degas",
+                    es: "Edgar Degas",
+                    de: "Edgar Degas",
+                    nl: "Edgar Degas"
+                },
+                {
+                    en: "Pierre-Auguste Renoir",
+                    es: "Pierre-Auguste Renoir",
+                    de: "Pierre-Auguste Renoir",
+                    nl: "Pierre-Auguste Renoir"
+                },
+                {
+                    en: "Henri de Toulouse-Lautrec",
+                    es: "Henri de Toulouse-Lautrec",
+                    de: "Henri de Toulouse-Lautrec",
+                    nl: "Henri de Toulouse-Lautrec"
+                },
+                {
+                    en: "Édouard Manet",
+                    es: "Édouard Manet",
+                    de: "Édouard Manet",
+                    nl: "Édouard Manet"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Edgar Degas created over 1,500 works depicting ballet dancers. His backstage views of dancers practicing and resting revealed the hard work behind their graceful performances.",
+                es: "Edgar Degas creó más de 1,500 obras representando bailarinas de ballet. Sus vistas entre bastidores de danzantes practicando y descansando revelaron el trabajo duro detrás de sus actuaciones elegantes.",
+                de: "Edgar Degas schuf über 1.500 Werke mit Ballettänzerinnen. Seine Blicke hinter die Kulissen von übenden und ruhenden Tänzern offenbarten die harte Arbeit hinter ihren anmutigen Aufführungen.",
+                nl: "Edgar Degas creëerde meer dan 1.500 werken met balletdansers. Zijn backstage-blik op oefenende en rustende dansers onthulde het harde werk achter hun sierlijke optredens."
+            }
+        },
+        {
+            question: {
+                en: "Which Post-Impressionist painter created 'The Yellow Christ'?",
+                es: "¿Qué pintor post-impresionista creó 'El Cristo Amarillo'?",
+                de: "Welcher postimpressionistische Maler schuf 'Der gelbe Christus'?",
+                nl: "Welke post-impressionistische schilder creëerde 'De Gele Christus'?"
+            },
+            options: [
+                {
+                    en: "Paul Gauguin",
+                    es: "Paul Gauguin",
+                    de: "Paul Gauguin",
+                    nl: "Paul Gauguin"
+                },
+                {
+                    en: "Paul Cézanne",
+                    es: "Paul Cézanne",
+                    de: "Paul Cézanne",
+                    nl: "Paul Cézanne"
+                },
+                {
+                    en: "Vincent van Gogh",
+                    es: "Vincent van Gogh",
+                    de: "Vincent van Gogh",
+                    nl: "Vincent van Gogh"
+                },
+                {
+                    en: "Georges Seurat",
+                    es: "Georges Seurat",
+                    de: "Georges Seurat",
+                    nl: "Georges Seurat"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Paul Gauguin painted 'The Yellow Christ' in 1889 in Brittany. The work shows Christ on the cross with Breton women in prayer, using vivid colors and simplified forms characteristic of his Synthetist style.",
+                es: "Paul Gauguin pintó 'El Cristo Amarillo' en 1889 en Bretaña. La obra muestra a Cristo en la cruz con mujeres bretonas en oración, usando colores vívidos y formas simplificadas característicos de su estilo sintetista.",
+                de: "Paul Gauguin malte 'Der gelbe Christus' 1889 in der Bretagne. Das Werk zeigt Christus am Kreuz mit bretonischen Frauen im Gebet, unter Verwendung lebhafter Farben und vereinfachter Formen charakteristisch für seinen synthetistischen Stil.",
+                nl: "Paul Gauguin schilderde 'De Gele Christus' in 1889 in Bretagne. Het werk toont Christus aan het kruis met Bretonse vrouwen in gebed, gebruikmakend van levendige kleuren en vereenvoudigde vormen kenmerkend voor zijn synthetistische stijl."
+            }
+        },
+        {
+            question: {
+                en: "Which American artist painted 'American Gothic' featuring a farmer and his daughter?",
+                es: "¿Qué artista americano pintó 'Gótico Americano' mostrando un granjero y su hija?",
+                de: "Welcher amerikanische Künstler malte 'American Gothic' mit einem Bauern und seiner Tochter?",
+                nl: "Welke Amerikaanse kunstenaar schilderde 'American Gothic' met een boer en zijn dochter?"
+            },
+            options: [
+                {
+                    en: "Grant Wood",
+                    es: "Grant Wood",
+                    de: "Grant Wood",
+                    nl: "Grant Wood"
+                },
+                {
+                    en: "Edward Hopper",
+                    es: "Edward Hopper",
+                    de: "Edward Hopper",
+                    nl: "Edward Hopper"
+                },
+                {
+                    en: "Thomas Hart Benton",
+                    es: "Thomas Hart Benton",
+                    de: "Thomas Hart Benton",
+                    nl: "Thomas Hart Benton"
+                },
+                {
+                    en: "Andrew Wyeth",
+                    es: "Andrew Wyeth",
+                    de: "Andrew Wyeth",
+                    nl: "Andrew Wyeth"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Grant Wood painted 'American Gothic' in 1930, depicting his sister and dentist posing in front of a Gothic Revival house in Iowa. The painting has become an iconic image of American rural life.",
+                es: "Grant Wood pintó 'Gótico Americano' en 1930, representando a su hermana y dentista posando frente a una casa del revival gótico en Iowa. La pintura se ha convertido en una imagen icónica de la vida rural americana.",
+                de: "Grant Wood malte 'American Gothic' 1930, zeigt seine Schwester und Zahnarzt vor einem neugotischen Haus in Iowa. Das Gemälde wurde zu einem ikonischen Bild des amerikanischen Landlebens.",
+                nl: "Grant Wood schilderde 'American Gothic' in 1930, met zijn zus en tandarts poserend voor een Gothic Revival huis in Iowa. Het schilderij is een iconisch beeld van het Amerikaanse plattelandsleven geworden."
+            }
+        },
+        {
+            question: {
+                en: "Which Baroque artist painted 'The Anatomy Lesson of Dr. Nicolaes Tulp'?",
+                es: "¿Qué artista barroco pintó 'La Lección de Anatomía del Dr. Nicolaes Tulp'?",
+                de: "Welcher Barockkünstler malte 'Die Anatomie des Dr. Tulp'?",
+                nl: "Welke barokkunstenaar schilderde 'De Anatomische Les van Dr. Nicolaes Tulp'?"
+            },
+            options: [
+                {
+                    en: "Rembrandt van Rijn",
+                    es: "Rembrandt van Rijn",
+                    de: "Rembrandt van Rijn",
+                    nl: "Rembrandt van Rijn"
+                },
+                {
+                    en: "Johannes Vermeer",
+                    es: "Johannes Vermeer",
+                    de: "Johannes Vermeer",
+                    nl: "Johannes Vermeer"
+                },
+                {
+                    en: "Frans Hals",
+                    es: "Frans Hals",
+                    de: "Frans Hals",
+                    nl: "Frans Hals"
+                },
+                {
+                    en: "Pieter de Hooch",
+                    es: "Pieter de Hooch",
+                    de: "Pieter de Hooch",
+                    nl: "Pieter de Hooch"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Rembrandt painted 'The Anatomy Lesson of Dr. Nicolaes Tulp' in 1632, showing Dr. Tulp demonstrating the musculature of the arm. This group portrait established Rembrandt's reputation in Amsterdam.",
+                es: "Rembrandt pintó 'La Lección de Anatomía del Dr. Nicolaes Tulp' en 1632, mostrando al Dr. Tulp demostrando la musculatura del brazo. Este retrato de grupo estableció la reputación de Rembrandt en Ámsterdam.",
+                de: "Rembrandt malte 'Die Anatomie des Dr. Tulp' 1632, zeigt Dr. Tulp, der die Muskulatur des Arms demonstriert. Dieses Gruppenporträt etablierte Rembrandts Ruf in Amsterdam.",
+                nl: "Rembrandt schilderde 'De Anatomische Les van Dr. Nicolaes Tulp' in 1632, waarin Dr. Tulp de spieren van de arm demonstreert. Dit groepsportret vestigde Rembrandts reputatie in Amsterdam."
+            }
+        },
+        {
+            question: {
+                en: "Which Spanish artist is famous for painting the royal family in 'Las Meninas'?",
+                es: "¿Qué artista español es famoso por pintar a la familia real en 'Las Meninas'?",
+                de: "Welcher spanische Künstler ist berühmt für die Malerei der königlichen Familie in 'Las Meninas'?",
+                nl: "Welke Spaanse kunstenaar is beroemd om het schilderen van de koninklijke familie in 'Las Meninas'?"
+            },
+            options: [
+                {
+                    en: "Diego Velázquez",
+                    es: "Diego Velázquez",
+                    de: "Diego Velázquez",
+                    nl: "Diego Velázquez"
+                },
+                {
+                    en: "Francisco de Zurbarán",
+                    es: "Francisco de Zurbarán",
+                    de: "Francisco de Zurbarán",
+                    nl: "Francisco de Zurbarán"
+                },
+                {
+                    en: "Bartolomé Esteban Murillo",
+                    es: "Bartolomé Esteban Murillo",
+                    de: "Bartolomé Esteban Murillo",
+                    nl: "Bartolomé Esteban Murillo"
+                },
+                {
+                    en: "José de Ribera",
+                    es: "José de Ribera",
+                    de: "José de Ribera",
+                    nl: "José de Ribera"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Diego Velázquez painted 'Las Meninas' in 1656 as court painter to King Philip IV. This masterpiece depicts the Infanta Margarita with her maids of honor and includes a self-portrait of Velázquez himself.",
+                es: "Diego Velázquez pintó 'Las Meninas' en 1656 como pintor de la corte del Rey Felipe IV. Esta obra maestra representa a la Infanta Margarita con sus damas de honor e incluye un autorretrato del propio Velázquez.",
+                de: "Diego Velázquez malte 'Las Meninas' 1656 als Hofmaler von König Philipp IV. Dieses Meisterwerk zeigt die Infantin Margarita mit ihren Hofdamen und enthält ein Selbstporträt von Velázquez selbst.",
+                nl: "Diego Velázquez schilderde 'Las Meninas' in 1656 als hofschilder van koning Filips IV. Dit meesterwerk toont de Infanta Margarita met haar hofdames en bevat een zelfportret van Velázquez zelf."
+            }
+        },
+        {
+            question: {
+                en: "Which artist painted 'The Birth of Venus' showing the goddess emerging from the sea?",
+                es: "¿Qué artista pintó 'El Nacimiento de Venus' mostrando a la diosa emergiendo del mar?",
+                de: "Welcher Künstler malte 'Die Geburt der Venus', die die Göttin aus dem Meer kommend zeigt?",
+                nl: "Welke kunstenaar schilderde 'De Geboorte van Venus' waarin de godin uit de zee komt?"
+            },
+            options: [
+                {
+                    en: "Sandro Botticelli",
+                    es: "Sandro Botticelli",
+                    de: "Sandro Botticelli",
+                    nl: "Sandro Botticelli"
+                },
+                {
+                    en: "Titian",
+                    es: "Tiziano",
+                    de: "Tizian",
+                    nl: "Titiaan"
+                },
+                {
+                    en: "Leonardo da Vinci",
+                    es: "Leonardo da Vinci",
+                    de: "Leonardo da Vinci",
+                    nl: "Leonardo da Vinci"
+                },
+                {
+                    en: "Raphael",
+                    es: "Rafael",
+                    de: "Raffael",
+                    nl: "Rafaël"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Sandro Botticelli painted 'The Birth of Venus' around 1485 for the Medici family. This iconic Renaissance work depicts Venus arriving at the shore on a shell, blown by the winds, and has become one of the most recognizable paintings in art history.",
+                es: "Sandro Botticelli pintó 'El Nacimiento de Venus' alrededor de 1485 para la familia Medici. Esta obra icónica del Renacimiento representa a Venus llegando a la orilla en una concha, soplada por los vientos, y se ha convertido en una de las pinturas más reconocibles en la historia del arte.",
+                de: "Sandro Botticelli malte 'Die Geburt der Venus' um 1485 für die Familie Medici. Dieses ikonische Renaissance-Werk zeigt Venus, die auf einer Muschel am Ufer ankommt, von den Winden geblasen, und ist zu einem der bekanntesten Gemälde der Kunstgeschichte geworden.",
+                nl: "Sandro Botticelli schilderde 'De Geboorte van Venus' rond 1485 voor de Medici familie. Dit iconische Renaissance werk toont Venus die op een schelp op de kust aankomt, geblazen door de winden, en is een van de meest herkenbare schilderijen in de kunstgeschiedenis geworden."
+            }
+        },
+        {
+            question: {
+                en: "Which artist is known for his 'drip painting' technique used in abstract expressionism?",
+                es: "¿Qué artista es conocido por su técnica de 'pintura por goteo' usada en el expresionismo abstracto?",
+                de: "Welcher Künstler ist bekannt für seine 'Tropfmalerei'-Technik im abstrakten Expressionismus?",
+                nl: "Welke kunstenaar staat bekend om zijn 'drip painting' techniek gebruikt in abstract expressionisme?"
+            },
+            options: [
+                {
+                    en: "Jackson Pollock",
+                    es: "Jackson Pollock",
+                    de: "Jackson Pollock",
+                    nl: "Jackson Pollock"
+                },
+                {
+                    en: "Mark Rothko",
+                    es: "Mark Rothko",
+                    de: "Mark Rothko",
+                    nl: "Mark Rothko"
+                },
+                {
+                    en: "Willem de Kooning",
+                    es: "Willem de Kooning",
+                    de: "Willem de Kooning",
+                    nl: "Willem de Kooning"
+                },
+                {
+                    en: "Barnett Newman",
+                    es: "Barnett Newman",
+                    de: "Barnett Newman",
+                    nl: "Barnett Newman"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Jackson Pollock developed his revolutionary drip painting technique in the late 1940s, pouring and dripping paint onto canvas laid on the floor. This 'action painting' method made him the leading figure of Abstract Expressionism.",
+                es: "Jackson Pollock desarrolló su revolucionaria técnica de pintura por goteo a finales de la década de 1940, vertiendo y goteando pintura sobre lienzo colocado en el suelo. Este método de 'action painting' lo convirtió en la figura principal del Expresionismo Abstracto.",
+                de: "Jackson Pollock entwickelte seine revolutionäre Tropfmalerei-Technik in den späten 1940er Jahren, indem er Farbe auf am Boden liegende Leinwand goss und tropfte. Diese 'Action Painting'-Methode machte ihn zur führenden Figur des Abstrakten Expressionismus.",
+                nl: "Jackson Pollock ontwikkelde zijn revolutionaire drip painting techniek in de late jaren 1940, waarbij hij verf op op de grond liggend canvas goot en druppelde. Deze 'action painting' methode maakte hem de leidende figuur van Abstract Expressionisme."
+            }
+        },
+        {
+            question: {
+                en: "Which Dutch artist painted 'Girl with a Pearl Earring'?",
+                es: "¿Qué artista holandés pintó 'La Joven de la Perla'?",
+                de: "Welcher niederländische Künstler malte 'Das Mädchen mit dem Perlenohrring'?",
+                nl: "Welke Nederlandse kunstenaar schilderde 'Het Meisje met de Parel'?"
+            },
+            options: [
+                {
+                    en: "Johannes Vermeer",
+                    es: "Johannes Vermeer",
+                    de: "Johannes Vermeer",
+                    nl: "Johannes Vermeer"
+                },
+                {
+                    en: "Rembrandt van Rijn",
+                    es: "Rembrandt van Rijn",
+                    de: "Rembrandt van Rijn",
+                    nl: "Rembrandt van Rijn"
+                },
+                {
+                    en: "Frans Hals",
+                    es: "Frans Hals",
+                    de: "Frans Hals",
+                    nl: "Frans Hals"
+                },
+                {
+                    en: "Jan Steen",
+                    es: "Jan Steen",
+                    de: "Jan Steen",
+                    nl: "Jan Steen"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Johannes Vermeer painted 'Girl with a Pearl Earring' around 1665. Often called the 'Mona Lisa of the North', this masterpiece showcases Vermeer's skill with light and his distinctive use of ultramarine blue.",
+                es: "Johannes Vermeer pintó 'La Joven de la Perla' alrededor de 1665. A menudo llamada la 'Mona Lisa del Norte', esta obra maestra muestra la habilidad de Vermeer con la luz y su uso distintivo del azul ultramarino.",
+                de: "Johannes Vermeer malte 'Das Mädchen mit dem Perlenohrring' um 1665. Oft als 'Mona Lisa des Nordens' bezeichnet, zeigt dieses Meisterwerk Vermeers Können mit Licht und seine charakteristische Verwendung von Ultramarinblau.",
+                nl: "Johannes Vermeer schilderde 'Het Meisje met de Parel' rond 1665. Vaak de 'Mona Lisa van het Noorden' genoemd, toont dit meesterwerk Vermeers vaardigheid met licht en zijn kenmerkende gebruik van ultramarijnblauw."
+            }
+        },
+        {
+            question: {
+                en: "Which artist created 'The Kiss' featuring gold leaf and intricate patterns?",
+                es: "¿Qué artista creó 'El Beso' con hoja de oro y patrones intrincados?",
+                de: "Welcher Künstler schuf 'Der Kuss' mit Blattgold und komplizierten Mustern?",
+                nl: "Welke kunstenaar creëerde 'De Kus' met bladgoud en ingewikkelde patronen?"
+            },
+            options: [
+                {
+                    en: "Gustav Klimt",
+                    es: "Gustav Klimt",
+                    de: "Gustav Klimt",
+                    nl: "Gustav Klimt"
+                },
+                {
+                    en: "Egon Schiele",
+                    es: "Egon Schiele",
+                    de: "Egon Schiele",
+                    nl: "Egon Schiele"
+                },
+                {
+                    en: "Alphonse Mucha",
+                    es: "Alphonse Mucha",
+                    de: "Alphonse Mucha",
+                    nl: "Alphonse Mucha"
+                },
+                {
+                    en: "Henri de Toulouse-Lautrec",
+                    es: "Henri de Toulouse-Lautrec",
+                    de: "Henri de Toulouse-Lautrec",
+                    nl: "Henri de Toulouse-Lautrec"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Gustav Klimt painted 'The Kiss' in 1907-1908 during his Golden Period. This iconic Art Nouveau work features lovers embraced in elaborate robes decorated with gold leaf, rectangles, and spirals.",
+                es: "Gustav Klimt pintó 'El Beso' en 1907-1908 durante su Período Dorado. Esta icónica obra del Art Nouveau presenta amantes abrazados en túnicas elaboradas decoradas con hoja de oro, rectángulos y espirales.",
+                de: "Gustav Klimt malte 'Der Kuss' 1907-1908 während seiner Goldenen Periode. Dieses ikonische Jugendstil-Werk zeigt Liebende in kunstvollen Gewändern, verziert mit Blattgold, Rechtecken und Spiralen.",
+                nl: "Gustav Klimt schilderde 'De Kus' in 1907-1908 tijdens zijn Gouden Periode. Dit iconische Art Nouveau werk toont geliefden omhelsd in uitgebreide gewaden versierd met bladgoud, rechthoeken en spiralen."
+            }
+        },
+        {
+            question: {
+                en: "Which artist painted 'The Scream', expressing anxiety and existential dread?",
+                es: "¿Qué artista pintó 'El Grito', expresando ansiedad y pavor existencial?",
+                de: "Welcher Künstler malte 'Der Schrei', der Angst und existenzielle Furcht ausdrückt?",
+                nl: "Welke kunstenaar schilderde 'De Schreeuw', die angst en existentiële angst uitdrukt?"
+            },
+            options: [
+                {
+                    en: "Edvard Munch",
+                    es: "Edvard Munch",
+                    de: "Edvard Munch",
+                    nl: "Edvard Munch"
+                },
+                {
+                    en: "Vincent van Gogh",
+                    es: "Vincent van Gogh",
+                    de: "Vincent van Gogh",
+                    nl: "Vincent van Gogh"
+                },
+                {
+                    en: "Egon Schiele",
+                    es: "Egon Schiele",
+                    de: "Egon Schiele",
+                    nl: "Egon Schiele"
+                },
+                {
+                    en: "James Ensor",
+                    es: "James Ensor",
+                    de: "James Ensor",
+                    nl: "James Ensor"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Edvard Munch created 'The Scream' in 1893, inspired by a moment when he felt nature's scream passing through him. This Expressionist masterpiece has become an iconic image of human anxiety and has been reproduced in numerous versions.",
+                es: "Edvard Munch creó 'El Grito' en 1893, inspirado por un momento en que sintió el grito de la naturaleza pasando a través de él. Esta obra maestra expresionista se ha convertido en una imagen icónica de la ansiedad humana y ha sido reproducida en numerosas versiones.",
+                de: "Edvard Munch schuf 'Der Schrei' 1893, inspiriert von einem Moment, als er den Schrei der Natur durch sich hindurch spürte. Dieses expressionistische Meisterwerk ist zu einem ikonischen Bild menschlicher Angst geworden und wurde in zahlreichen Versionen reproduziert.",
+                nl: "Edvard Munch creëerde 'De Schreeuw' in 1893, geïnspireerd door een moment waarop hij de schreeuw van de natuur door zich heen voelde gaan. Dit expressionistische meesterwerk is een iconisch beeld van menselijke angst geworden en is in talrijke versies gereproduceerd."
             }
         }
     ];

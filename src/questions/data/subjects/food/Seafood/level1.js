@@ -820,6 +820,662 @@
           de: "Fettfische wie Lachs, Makrele und Sardinen haben einen hohen Gehalt an Omega-3-Fettsäuren, die im gesamten Fleisch verteilt sind. Dies macht sie nahrhaft und verleiht ihnen einen reichhaltigeren Geschmack.",
           nl: "Vette vissen zoals zalm, makreel en sardines hebben een hoog gehalte aan omega-3-vetzuren verspreid door hun vlees. Dit maakt ze voedzaam en geeft ze een rijkere smaak."
         }
+      },
+      {
+        question: {
+          en: "Which type of fish has a flat body and both eyes on one side?",
+          es: "¿Qué tipo de pez tiene un cuerpo plano y ambos ojos en un lado?",
+          de: "Welcher Fischtyp hat einen flachen Körper und beide Augen auf einer Seite?",
+          nl: "Welk type vis heeft een plat lichaam en beide ogen aan één kant?"
+        },
+        options: [
+          {
+            en: "Flatfish like flounder",
+            es: "Pez plano como la platija",
+            de: "Plattfisch wie Flunder",
+            nl: "Platvis zoals bot"
+          },
+          {
+            en: "Shark",
+            es: "Tiburón",
+            de: "Hai",
+            nl: "Haai"
+          },
+          {
+            en: "Eel",
+            es: "Anguila",
+            de: "Aal",
+            nl: "Paling"
+          },
+          {
+            en: "Salmon",
+            es: "Salmón",
+            de: "Lachs",
+            nl: "Zalm"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Flatfish like flounder, halibut, and sole have both eyes on one side of their flat body. They lie on the ocean floor with their eyeless side down.",
+          es: "Los peces planos como la platija, el halibut y el lenguado tienen ambos ojos en un lado de su cuerpo plano. Se acuestan en el fondo del océano con su lado sin ojos hacia abajo.",
+          de: "Plattfische wie Flunder, Heilbutt und Seezunge haben beide Augen auf einer Seite ihres flachen Körpers. Sie liegen auf dem Meeresboden mit ihrer augenlosen Seite nach unten.",
+          nl: "Platvissen zoals bot, heilbot en tong hebben beide ogen aan één kant van hun platte lichaam. Ze liggen op de oceaanbodem met hun oogloze kant naar beneden."
+        }
+      },
+      {
+        question: {
+          en: "What is the main ingredient in fish stock?",
+          es: "¿Cuál es el ingrediente principal en el caldo de pescado?",
+          de: "Was ist die Hauptzutat in Fischbrühe?",
+          nl: "Wat is het hoofdingrediënt in visbouillon?"
+        },
+        options: [
+          {
+            en: "Fish bones and heads",
+            es: "Espinas y cabezas de pescado",
+            de: "Fischgräten und Köpfe",
+            nl: "Visgraten en koppen"
+          },
+          {
+            en: "Chicken bones",
+            es: "Huesos de pollo",
+            de: "Hühnerknochen",
+            nl: "Kippenbotten"
+          },
+          {
+            en: "Beef bones",
+            es: "Huesos de res",
+            de: "Rinderknochen",
+            nl: "Runderbotten"
+          },
+          {
+            en: "Vegetables only",
+            es: "Solo verduras",
+            de: "Nur Gemüse",
+            nl: "Alleen groenten"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Fish stock is made by simmering fish bones, heads, and trimmings with aromatics like onions, celery, and herbs. It forms the base for many seafood soups and sauces.",
+          es: "El caldo de pescado se hace cocinando a fuego lento espinas de pescado, cabezas y recortes con aromáticos como cebollas, apio y hierbas. Forma la base de muchas sopas y salsas de mariscos.",
+          de: "Fischbrühe wird durch Köcheln von Fischgräten, Köpfen und Resten mit Aromen wie Zwiebeln, Sellerie und Kräutern hergestellt. Sie bildet die Grundlage für viele Meeresfrüchte-Suppen und Saucen.",
+          nl: "Visbouillon wordt gemaakt door visgraten, koppen en snijresten te sudderen met aromaten zoals uien, selderij en kruiden. Het vormt de basis voor veel zeevruchtensoepen en sauzen."
+        }
+      },
+      {
+        question: {
+          en: "Which mollusk has eight arms?",
+          es: "¿Qué molusco tiene ocho brazos?",
+          de: "Welches Weichtier hat acht Arme?",
+          nl: "Welk weekdier heeft acht armen?"
+        },
+        options: [
+          {
+            en: "Octopus",
+            es: "Pulpo",
+            de: "Krake",
+            nl: "Octopus"
+          },
+          {
+            en: "Squid",
+            es: "Calamar",
+            de: "Tintenfisch",
+            nl: "Inktvis"
+          },
+          {
+            en: "Clam",
+            es: "Almeja",
+            de: "Muschel",
+            nl: "Mossel"
+          },
+          {
+            en: "Crab",
+            es: "Cangrejo",
+            de: "Krabbe",
+            nl: "Krab"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Octopuses have eight arms (not tentacles) lined with suckers. Squids have eight arms plus two longer tentacles, making ten appendages total.",
+          es: "Los pulpos tienen ocho brazos (no tentáculos) revestidos de ventosas. Los calamares tienen ocho brazos más dos tentáculos más largos, lo que hace diez apéndices en total.",
+          de: "Kraken haben acht Arme (keine Tentakel), die mit Saugnäpfen ausgekleidet sind. Tintenfische haben acht Arme plus zwei längere Tentakel, insgesamt zehn Anhängsel.",
+          nl: "Octopussen hebben acht armen (geen tentakels) bekleed met zuignappen. Inktvissen hebben acht armen plus twee langere tentakels, in totaal tien aanhangsels."
+        }
+      },
+      {
+        question: {
+          en: "What is the term for small shrimp or prawns?",
+          es: "¿Cuál es el término para camarones pequeños?",
+          de: "Wie nennt man kleine Garnelen?",
+          nl: "Wat is de term voor kleine garnalen?"
+        },
+        options: [
+          {
+            en: "Shrimp",
+            es: "Camarones",
+            de: "Garnelen",
+            nl: "Garnalen"
+          },
+          {
+            en: "Krill",
+            es: "Krill",
+            de: "Krill",
+            nl: "Krill"
+          },
+          {
+            en: "Lobster",
+            es: "Langosta",
+            de: "Hummer",
+            nl: "Kreeft"
+          },
+          {
+            en: "Crayfish",
+            es: "Cangrejo de río",
+            de: "Flusskrebs",
+            nl: "Rivierkreeft"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Krill are tiny shrimp-like crustaceans that form a crucial part of the ocean food chain. They're eaten by whales, seals, and many fish species.",
+          es: "El krill son pequeños crustáceos parecidos a camarones que forman una parte crucial de la cadena alimentaria del océano. Son comidos por ballenas, focas y muchas especies de peces.",
+          de: "Krill sind winzige garnelenähnliche Krebstiere, die einen entscheidenden Teil der ozeanischen Nahrungskette bilden. Sie werden von Walen, Robben und vielen Fischarten gefressen.",
+          nl: "Krill zijn kleine garnaalachtige schaaldieren die een cruciaal onderdeel vormen van de oceaanvoedselketen. Ze worden gegeten door walvissen, zeehonden en veel vissoorten."
+        }
+      },
+      {
+        question: {
+          en: "Which cooking technique involves cooking seafood on a metal grate over direct heat?",
+          es: "¿Qué técnica de cocción implica cocinar mariscos en una parrilla de metal sobre calor directo?",
+          de: "Welche Kochtechnik beinhaltet das Kochen von Meeresfrüchten auf einem Metallrost über direkter Hitze?",
+          nl: "Welke kooktechniek houdt in dat zeevruchten worden gekookt op een metalen rooster boven directe hitte?"
+        },
+        options: [
+          {
+            en: "Grilling",
+            es: "Asar a la parrilla",
+            de: "Grillen",
+            nl: "Grillen"
+          },
+          {
+            en: "Boiling",
+            es: "Hervir",
+            de: "Kochen",
+            nl: "Koken"
+          },
+          {
+            en: "Steaming",
+            es: "Cocción al vapor",
+            de: "Dämpfen",
+            nl: "Stomen"
+          },
+          {
+            en: "Poaching",
+            es: "Escalfar",
+            de: "Pochieren",
+            nl: "Pocheren"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Grilling involves cooking seafood on a metal grate over direct heat from charcoal, gas, or electric sources. It creates a distinctive charred flavor and grill marks.",
+          es: "Asar a la parrilla implica cocinar mariscos en una parrilla de metal sobre calor directo de carbón, gas o fuentes eléctricas. Crea un sabor carbonizado distintivo y marcas de parrilla.",
+          de: "Grillen beinhaltet das Kochen von Meeresfrüchten auf einem Metallrost über direkter Hitze von Kohle, Gas oder elektrischen Quellen. Es erzeugt einen charakteristischen verkohlten Geschmack und Grillstreifen.",
+          nl: "Grillen houdt in dat zeevruchten worden gekookt op een metalen rooster boven directe hitte van houtskool, gas of elektrische bronnen. Het creëert een kenmerkende verkoelde smaak en grillstrepen."
+        }
+      },
+      {
+        question: {
+          en: "What is the name for small fish often eaten whole?",
+          es: "¿Cuál es el nombre de los peces pequeños que a menudo se comen enteros?",
+          de: "Wie nennt man kleine Fische, die oft ganz gegessen werden?",
+          nl: "Wat is de naam voor kleine vissen die vaak heel worden gegeten?"
+        },
+        options: [
+          {
+            en: "Anchovies or sardines",
+            es: "Anchoas o sardinas",
+            de: "Sardellen oder Sardinen",
+            nl: "Ansjovis of sardines"
+          },
+          {
+            en: "Tuna",
+            es: "Atún",
+            de: "Thunfisch",
+            nl: "Tonijn"
+          },
+          {
+            en: "Salmon",
+            es: "Salmón",
+            de: "Lachs",
+            nl: "Zalm"
+          },
+          {
+            en: "Halibut",
+            es: "Halibut",
+            de: "Heilbutt",
+            nl: "Heilbot"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Anchovies and sardines are small fish often eaten whole, including bones. They're packed with nutrients and commonly used in Mediterranean cuisine.",
+          es: "Las anchoas y sardinas son peces pequeños que a menudo se comen enteros, incluyendo los huesos. Están repletos de nutrientes y se usan comúnmente en la cocina mediterránea.",
+          de: "Sardellen und Sardinen sind kleine Fische, die oft ganz gegessen werden, einschließlich der Knochen. Sie sind voller Nährstoffe und werden häufig in der mediterranen Küche verwendet.",
+          nl: "Ansjovis en sardines zijn kleine vissen die vaak heel worden gegeten, inclusief botten. Ze zitten vol voedingsstoffen en worden vaak gebruikt in de mediterrane keuken."
+        }
+      },
+      {
+        question: {
+          en: "Which ocean animal is technically not a fish but a mammal?",
+          es: "¿Qué animal del océano técnicamente no es un pez sino un mamífero?",
+          de: "Welches Meerestier ist technisch gesehen kein Fisch, sondern ein Säugetier?",
+          nl: "Welk oceaandier is technisch gezien geen vis maar een zoogdier?"
+        },
+        options: [
+          {
+            en: "Whale",
+            es: "Ballena",
+            de: "Wal",
+            nl: "Walvis"
+          },
+          {
+            en: "Shark",
+            es: "Tiburón",
+            de: "Hai",
+            nl: "Haai"
+          },
+          {
+            en: "Tuna",
+            es: "Atún",
+            de: "Thunfisch",
+            nl: "Tonijn"
+          },
+          {
+            en: "Octopus",
+            es: "Pulpo",
+            de: "Krake",
+            nl: "Octopus"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Whales are marine mammals, not fish. They breathe air through lungs, give birth to live young, and nurse their babies with milk.",
+          es: "Las ballenas son mamíferos marinos, no peces. Respiran aire a través de pulmones, dan a luz crías vivas y amamantan a sus bebés con leche.",
+          de: "Wale sind Meeressäugetiere, keine Fische. Sie atmen Luft durch Lungen, gebären lebende Junge und säugen ihre Babys mit Milch.",
+          nl: "Walvissen zijn zeezoogdieren, geen vissen. Ze ademen lucht door longen, baren levende jongen en voeden hun baby's met melk."
+        }
+      },
+      {
+        question: {
+          en: "What is the main difference between shrimp and prawns?",
+          es: "¿Cuál es la principal diferencia entre camarones y langostinos?",
+          de: "Was ist der Hauptunterschied zwischen Garnelen und Prawns?",
+          nl: "Wat is het belangrijkste verschil tussen garnalen en prawns?"
+        },
+        options: [
+          {
+            en: "Body structure and gill type",
+            es: "Estructura corporal y tipo de branquias",
+            de: "Körperstruktur und Kiementyp",
+            nl: "Lichaamsstructuur en kieuwen type"
+          },
+          {
+            en: "Color",
+            es: "Color",
+            de: "Farbe",
+            nl: "Kleur"
+          },
+          {
+            en: "Taste",
+            es: "Sabor",
+            de: "Geschmack",
+            nl: "Smaak"
+          },
+          {
+            en: "There is no difference",
+            es: "No hay diferencia",
+            de: "Es gibt keinen Unterschied",
+            nl: "Er is geen verschil"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Prawns have branching gills and straighter bodies, while shrimp have lamellar gills and more curved bodies. However, the terms are often used interchangeably in cooking.",
+          es: "Los langostinos tienen branquias ramificadas y cuerpos más rectos, mientras que los camarones tienen branquias laminares y cuerpos más curvos. Sin embargo, los términos a menudo se usan indistintamente en cocina.",
+          de: "Prawns haben verzweigte Kiemen und geradere Körper, während Garnelen lamellare Kiemen und gekrümmtere Körper haben. Die Begriffe werden jedoch oft synonym beim Kochen verwendet.",
+          nl: "Prawns hebben vertakte kieuwen en rechtere lichamen, terwijl garnalen lamellaire kieuwen en meer gebogen lichamen hebben. De termen worden echter vaak door elkaar gebruikt bij het koken."
+        }
+      },
+      {
+        question: {
+          en: "Which shellfish opens when cooked and should be discarded if it doesn't?",
+          es: "¿Qué marisco se abre al cocinarse y debe desecharse si no lo hace?",
+          de: "Welches Schalentier öffnet sich beim Kochen und sollte entsorgt werden, wenn es das nicht tut?",
+          nl: "Welk schaaldier gaat open bij het koken en moet worden weggegooid als het dat niet doet?"
+        },
+        options: [
+          {
+            en: "Mussels and clams",
+            es: "Mejillones y almejas",
+            de: "Muscheln",
+            nl: "Mosselen en kokkels"
+          },
+          {
+            en: "Lobster",
+            es: "Langosta",
+            de: "Hummer",
+            nl: "Kreeft"
+          },
+          {
+            en: "Shrimp",
+            es: "Camarones",
+            de: "Garnelen",
+            nl: "Garnalen"
+          },
+          {
+            en: "Crab",
+            es: "Cangrejo",
+            de: "Krabbe",
+            nl: "Krab"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mussels and clams should open when cooked. If they remain closed after cooking, they may be dead and unsafe to eat, so they should be discarded.",
+          es: "Los mejillones y almejas deben abrirse al cocinarse. Si permanecen cerrados después de cocinar, pueden estar muertos y no ser seguros para comer, por lo que deben desecharse.",
+          de: "Muscheln sollten sich beim Kochen öffnen. Wenn sie nach dem Kochen geschlossen bleiben, könnten sie tot und unsicher zu essen sein, daher sollten sie entsorgt werden.",
+          nl: "Mosselen en kokkels moeten opengaan bij het koken. Als ze na het koken gesloten blijven, kunnen ze dood en onveilig zijn om te eten, dus moeten ze worden weggegooid."
+        }
+      },
+      {
+        question: {
+          en: "What is the name of the Japanese technique of slicing raw fish?",
+          es: "¿Cuál es el nombre de la técnica japonesa de cortar pescado crudo?",
+          de: "Wie heißt die japanische Technik zum Schneiden von rohem Fisch?",
+          nl: "Wat is de naam van de Japanse techniek voor het snijden van rauwe vis?"
+        },
+        options: [
+          {
+            en: "Sashimi",
+            es: "Sashimi",
+            de: "Sashimi",
+            nl: "Sashimi"
+          },
+          {
+            en: "Tempura",
+            es: "Tempura",
+            de: "Tempura",
+            nl: "Tempura"
+          },
+          {
+            en: "Teriyaki",
+            es: "Teriyaki",
+            de: "Teriyaki",
+            nl: "Teriyaki"
+          },
+          {
+            en: "Yakitori",
+            es: "Yakitori",
+            de: "Yakitori",
+            nl: "Yakitori"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sashimi is thinly sliced raw fish or seafood served without rice. It showcases the quality and freshness of the fish, often served with soy sauce and wasabi.",
+          es: "Sashimi es pescado crudo o mariscos cortados finamente servidos sin arroz. Muestra la calidad y frescura del pescado, a menudo servido con salsa de soja y wasabi.",
+          de: "Sashimi ist dünn geschnittener roher Fisch oder Meeresfrüchte ohne Reis serviert. Es zeigt die Qualität und Frische des Fisches, oft mit Sojasauce und Wasabi serviert.",
+          nl: "Sashimi is dun gesneden rauwe vis of zeevruchten geserveerd zonder rijst. Het toont de kwaliteit en versheid van de vis, vaak geserveerd met sojasaus en wasabi."
+        }
+      },
+      {
+        question: {
+          en: "Which crustacean lives in freshwater and resembles a small lobster?",
+          es: "¿Qué crustáceo vive en agua dulce y se parece a una langosta pequeña?",
+          de: "Welches Krebstier lebt in Süßwasser und ähnelt einem kleinen Hummer?",
+          nl: "Welk schaaldier leeft in zoetwater en lijkt op een kleine kreeft?"
+        },
+        options: [
+          {
+            en: "Crayfish",
+            es: "Cangrejo de río",
+            de: "Flusskrebs",
+            nl: "Rivierkreeft"
+          },
+          {
+            en: "Lobster",
+            es: "Langosta",
+            de: "Hummer",
+            nl: "Zeekreeft"
+          },
+          {
+            en: "Shrimp",
+            es: "Camarón",
+            de: "Garnele",
+            nl: "Garnaal"
+          },
+          {
+            en: "Crab",
+            es: "Cangrejo",
+            de: "Krabbe",
+            nl: "Krab"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Crayfish (also called crawfish or crawdads) are freshwater crustaceans that look like small lobsters. They're popular in Cajun and Creole cuisine.",
+          es: "Los cangrejos de río son crustáceos de agua dulce que parecen pequeñas langostas. Son populares en la cocina cajún y criolla.",
+          de: "Flusskrebse sind Süßwasser-Krebstiere, die wie kleine Hummer aussehen. Sie sind in der Cajun- und Kreolischen Küche beliebt.",
+          nl: "Rivierkreeften zijn zoetwaterschaaldieren die eruitzien als kleine kreeften. Ze zijn populair in de Cajun- en Creoolse keuken."
+        }
+      },
+      {
+        question: {
+          en: "What does 'sustainable seafood' mean?",
+          es: "¿Qué significa 'mariscos sostenibles'?",
+          de: "Was bedeutet 'nachhaltige Meeresfrüchte'?",
+          nl: "Wat betekent 'duurzame zeevruchten'?"
+        },
+        options: [
+          {
+            en: "Fish caught or farmed in ways that don't harm the environment",
+            es: "Pescado capturado o criado de manera que no daña el medio ambiente",
+            de: "Fisch, der auf umweltfreundliche Weise gefangen oder gezüchtet wird",
+            nl: "Vis gevangen of gekweekt op manieren die het milieu niet schaden"
+          },
+          {
+            en: "Fish that lasts longer",
+            es: "Pescado que dura más tiempo",
+            de: "Fisch, der länger hält",
+            nl: "Vis die langer meegaat"
+          },
+          {
+            en: "Cheaper fish",
+            es: "Pescado más barato",
+            de: "Günstigerer Fisch",
+            nl: "Goedkopere vis"
+          },
+          {
+            en: "Frozen fish only",
+            es: "Solo pescado congelado",
+            de: "Nur gefrorener Fisch",
+            nl: "Alleen bevroren vis"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sustainable seafood comes from sources that maintain healthy fish populations and ecosystems. It's harvested using methods that minimize environmental impact and bycatch.",
+          es: "Los mariscos sostenibles provienen de fuentes que mantienen poblaciones de peces y ecosistemas saludables. Se cosechan usando métodos que minimizan el impacto ambiental y la captura incidental.",
+          de: "Nachhaltige Meeresfrüchte stammen aus Quellen, die gesunde Fischbestände und Ökosysteme erhalten. Sie werden mit Methoden geerntet, die Umweltauswirkungen und Beifang minimieren.",
+          nl: "Duurzame zeevruchten komen van bronnen die gezonde vispopulaties en ecosystemen in stand houden. Ze worden geoogst met methoden die de impact op het milieu en bijvangst minimaliseren."
+        }
+      },
+      {
+        question: {
+          en: "Which fish is commonly smoked and served for breakfast?",
+          es: "¿Qué pescado se ahuma comúnmente y se sirve para el desayuno?",
+          de: "Welcher Fisch wird häufig geräuchert und zum Frühstück serviert?",
+          nl: "Welke vis wordt vaak gerookt en geserveerd voor het ontbijt?"
+        },
+        options: [
+          {
+            en: "Salmon",
+            es: "Salmón",
+            de: "Lachs",
+            nl: "Zalm"
+          },
+          {
+            en: "Tuna",
+            es: "Atún",
+            de: "Thunfisch",
+            nl: "Tonijn"
+          },
+          {
+            en: "Cod",
+            es: "Bacalao",
+            de: "Kabeljau",
+            nl: "Kabeljauw"
+          },
+          {
+            en: "Halibut",
+            es: "Halibut",
+            de: "Heilbutt",
+            nl: "Heilbot"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Smoked salmon is a popular breakfast item, especially on bagels with cream cheese. The smoking process preserves the fish and adds a distinctive flavor.",
+          es: "El salmón ahumado es un elemento popular del desayuno, especialmente en bagels con queso crema. El proceso de ahumado preserva el pescado y añade un sabor distintivo.",
+          de: "Geräucherter Lachs ist ein beliebtes Frühstücksgericht, besonders auf Bagels mit Frischkäse. Der Räucherprozess konserviert den Fisch und fügt einen charakteristischen Geschmack hinzu.",
+          nl: "Gerookte zalm is een populair ontbijtitem, vooral op bagels met roomkaas. Het rookproces bewaart de vis en voegt een kenmerkende smaak toe."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of deveining shrimp?",
+          es: "¿Cuál es el propósito de quitar la vena de los camarones?",
+          de: "Was ist der Zweck des Entdarmens von Garnelen?",
+          nl: "Wat is het doel van het ontdarmen van garnalen?"
+        },
+        options: [
+          {
+            en: "To remove the digestive tract",
+            es: "Para quitar el tracto digestivo",
+            de: "Um den Verdauungstrakt zu entfernen",
+            nl: "Om het spijsverteringskanaal te verwijderen"
+          },
+          {
+            en: "To add flavor",
+            es: "Para agregar sabor",
+            de: "Um Geschmack hinzuzufügen",
+            nl: "Om smaak toe te voegen"
+          },
+          {
+            en: "To make them cook faster",
+            es: "Para que se cocinen más rápido",
+            de: "Damit sie schneller garen",
+            nl: "Om ze sneller te laten koken"
+          },
+          {
+            en: "To change the color",
+            es: "Para cambiar el color",
+            de: "Um die Farbe zu ändern",
+            nl: "Om de kleur te veranderen"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Deveining removes the dark digestive tract running along the shrimp's back. While not harmful, it can contain grit and affect texture and appearance.",
+          es: "Quitar la vena elimina el tracto digestivo oscuro que corre a lo largo de la espalda del camarón. Aunque no es dañino, puede contener arena y afectar la textura y apariencia.",
+          de: "Das Entdarmen entfernt den dunklen Verdauungstrakt, der entlang des Rückens der Garnele verläuft. Obwohl nicht schädlich, kann er Schmutz enthalten und Textur und Aussehen beeinträchtigen.",
+          nl: "Ontdarmen verwijdert het donkere spijsverteringskanaal dat langs de rug van de garnaal loopt. Hoewel niet schadelijk, kan het zand bevatten en de textuur en het uiterlijk beïnvloeden."
+        }
+      },
+      {
+        question: {
+          en: "Which seafood contains the highest amount of cholesterol?",
+          es: "¿Qué marisco contiene la mayor cantidad de colesterol?",
+          de: "Welche Meeresfrüchte enthalten die höchste Menge an Cholesterin?",
+          nl: "Welke zeevruchten bevatten de hoogste hoeveelheid cholesterol?"
+        },
+        options: [
+          {
+            en: "Shrimp",
+            es: "Camarones",
+            de: "Garnelen",
+            nl: "Garnalen"
+          },
+          {
+            en: "Salmon",
+            es: "Salmón",
+            de: "Lachs",
+            nl: "Zalm"
+          },
+          {
+            en: "Tuna",
+            es: "Atún",
+            de: "Thunfisch",
+            nl: "Tonijn"
+          },
+          {
+            en: "Cod",
+            es: "Bacalao",
+            de: "Kabeljau",
+            nl: "Kabeljauw"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Shrimp contains relatively high cholesterol levels compared to other seafood, though it's low in saturated fat. Modern research suggests dietary cholesterol has less impact on blood cholesterol than previously thought.",
+          es: "Los camarones contienen niveles relativamente altos de colesterol en comparación con otros mariscos, aunque son bajos en grasa saturada. La investigación moderna sugiere que el colesterol dietético tiene menos impacto en el colesterol sanguíneo de lo que se pensaba.",
+          de: "Garnelen enthalten im Vergleich zu anderen Meeresfrüchten relativ hohe Cholesterinwerte, obwohl sie wenig gesättigte Fette enthalten. Moderne Forschung legt nahe, dass Nahrungscholesterin weniger Einfluss auf Blutcholesterin hat als früher angenommen.",
+          nl: "Garnalen bevatten relatief hoge cholesterolniveaus vergeleken met andere zeevruchten, hoewel ze weinig verzadigd vet bevatten. Modern onderzoek suggereert dat voedingscholesterol minder impact heeft op bloedcholesterol dan eerder gedacht."
+        }
+      },
+      {
+        question: {
+          en: "What is the term for fish farming?",
+          es: "¿Cuál es el término para la cría de peces?",
+          de: "Was ist der Begriff für Fischzucht?",
+          nl: "Wat is de term voor viskweek?"
+        },
+        options: [
+          {
+            en: "Aquaculture",
+            es: "Acuicultura",
+            de: "Aquakultur",
+            nl: "Aquacultuur"
+          },
+          {
+            en: "Agriculture",
+            es: "Agricultura",
+            de: "Landwirtschaft",
+            nl: "Landbouw"
+          },
+          {
+            en: "Horticulture",
+            es: "Horticultura",
+            de: "Gartenbau",
+            nl: "Tuinbouw"
+          },
+          {
+            en: "Viticulture",
+            es: "Viticultura",
+            de: "Weinbau",
+            nl: "Wijnbouw"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Aquaculture is the farming of fish, shellfish, and aquatic plants. It's becoming increasingly important as wild fish stocks decline and demand for seafood grows.",
+          es: "La acuicultura es la cría de peces, mariscos y plantas acuáticas. Se está volviendo cada vez más importante a medida que disminuyen las poblaciones de peces silvestres y crece la demanda de mariscos.",
+          de: "Aquakultur ist die Zucht von Fischen, Schalentieren und Wasserpflanzen. Sie wird zunehmend wichtiger, da wilde Fischbestände abnehmen und die Nachfrage nach Meeresfrüchten wächst.",
+          nl: "Aquacultuur is de kweek van vis, schaaldieren en waterplanten. Het wordt steeds belangrijker naarmate wilde visbestanden afnemen en de vraag naar zeevruchten groeit."
+        }
       }
     ]
   };

@@ -1,4 +1,4 @@
-﻿// Authors and Writers Quiz - Level 10: Knowledge about Authors and Writers
+// Authors and Writers Quiz - Level 10: Knowledge about Authors and Writers
 (function() {
   const level10 = {
     name: {
@@ -426,6 +426,90 @@
           es: "Jenny Offill escribió tanto 'Dept. of Speculation' (2014) como 'Weather' (2020), novelas conocidas por su estructura fragmentaria y prosa precisa y observacional sobre matrimonio, maternidad y ansiedades contemporáneas incluyendo cambio climático.",
           de: "Jenny Offill schrieb sowohl 'Dept. of Speculation' (2014) als auch 'Weather' (2020), Romane bekannt für ihre fragmentarische Struktur und präzise, beobachtende Prosa über Ehe, Mutterschaft und zeitgenössische Ängste einschließlich Klimawandel.",
           nl: "Jenny Offill schreef zowel 'Dept. of Speculation' (2014) als 'Weather' (2020), romans bekend om hun fragmentarische structuur en precieze, observationele proza over huwelijk, moederschap en hedendaagse angsten inclusief klimaatverandering."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote '2666', a posthumous novel exploring violence in a Mexican border town?",
+          es: "¿Quién escribió '2666', una novela póstuma explorando violencia en una ciudad fronteriza mexicana?",
+          de: "Wer schrieb '2666', einen posthumen Roman über Gewalt in einer mexikanischen Grenzstadt?",
+          nl: "Wie schreef '2666', een postume roman die geweld in een Mexicaanse grensstad verkent?"
+        },
+        options: [
+          {en: "Roberto Bolaño", es: "Roberto Bolaño", de: "Roberto Bolaño", nl: "Roberto Bolaño"},
+          {en: "Juan Rulfo", es: "Juan Rulfo", de: "Juan Rulfo", nl: "Juan Rulfo"},
+          {en: "Carlos Fuentes", es: "Carlos Fuentes", de: "Carlos Fuentes", nl: "Carlos Fuentes"},
+          {en: "Jorge Volpi", es: "Jorge Volpi", de: "Jorge Volpi", nl: "Jorge Volpi"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Roberto Bolaño wrote '2666' (published posthumously in 2004), an epic novel in five parts exploring violence, literature, and history centered around a fictional Mexican border city. The novel is considered one of the greatest works of 21st-century literature.",
+          es: "Roberto Bolaño escribió '2666' (publicada póstumamente en 2004), una novela épica en cinco partes explorando violencia, literatura e historia centrada en una ciudad fronteriza mexicana ficticia. La novela es considerada una de las mejores obras de la literatura del siglo XXI.",
+          de: "Roberto Bolaño schrieb '2666' (posthum veröffentlicht 2004), einen epischen Roman in fünf Teilen über Gewalt, Literatur und Geschichte zentriert um eine fiktive mexikanische Grenzstadt. Der Roman gilt als eines der größten Werke der Literatur des 21. Jahrhunderts.",
+          nl: "Roberto Bolaño schreef '2666' (postuum gepubliceerd in 2004), een epische roman in vijf delen die geweld, literatuur en geschiedenis verkent gecentreerd rond een fictieve Mexicaanse grensstad. De roman wordt beschouwd als een van de grootste werken van 21e-eeuwse literatuur."
+        }
+      },
+      {
+        question: {
+          en: "Which author wrote 'Flights', a fragmentary novel about travel and the human body?",
+          es: "¿Qué autora escribió 'Flights', una novela fragmentaria sobre viajes y el cuerpo humano?",
+          de: "Welche Autorin schrieb 'Flights', einen fragmentarischen Roman über Reisen und den menschlichen Körper?",
+          nl: "Welke auteur schreef 'Flights', een fragmentarische roman over reizen en het menselijk lichaam?"
+        },
+        options: [
+          {en: "Olga Tokarczuk", es: "Olga Tokarczuk", de: "Olga Tokarczuk", nl: "Olga Tokarczuk"},
+          {en: "Herta Müller", es: "Herta Müller", de: "Herta Müller", nl: "Herta Müller"},
+          {en: "Svetlana Alexievich", es: "Svetlana Alexievich", de: "Svetlana Alexievich", nl: "Svetlana Alexievich"},
+          {en: "Elfriede Jelinek", es: "Elfriede Jelinek", de: "Elfriede Jelinek", nl: "Elfriede Jelinek"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Olga Tokarczuk wrote 'Flights' (Bieguni, 2007), which won the Man Booker International Prize in 2018. The novel is a collection of interconnected fragments exploring themes of travel, movement, anatomy, and the preservation of the human body. She won the Nobel Prize in Literature in 2018.",
+          es: "Olga Tokarczuk escribió 'Flights' (Bieguni, 2007), que ganó el Premio Man Booker Internacional en 2018. La novela es una colección de fragmentos interconectados explorando temas de viaje, movimiento, anatomía y preservación del cuerpo humano. Ganó el Premio Nobel de Literatura en 2018.",
+          de: "Olga Tokarczuk schrieb 'Flights' (Bieguni, 2007), das 2018 den Man Booker International Prize gewann. Der Roman ist eine Sammlung miteinander verbundener Fragmente die Themen von Reisen, Bewegung, Anatomie und Erhaltung des menschlichen Körpers erforschen. Sie gewann 2018 den Nobelpreis für Literatur.",
+          nl: "Olga Tokarczuk schreef 'Flights' (Bieguni, 2007), dat de Man Booker International Prize won in 2018. De roman is een collectie van onderling verbonden fragmenten die thema's van reizen, beweging, anatomie en preservatie van het menselijk lichaam verkennen. Ze won de Nobelprijs voor Literatuur in 2018."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'The Savage Detectives', a novel following two poets in 1970s Mexico?",
+          es: "¿Quién escribió 'Los detectives salvajes', una novela siguiendo a dos poetas en México de los años 70?",
+          de: "Wer schrieb 'Die wilden Detektive', einen Roman über zwei Dichter im Mexiko der 1970er?",
+          nl: "Wie schreef 'The Savage Detectives', een roman die twee dichters volgt in het Mexico van de jaren 70?"
+        },
+        options: [
+          {en: "Carlos Fuentes", es: "Carlos Fuentes", de: "Carlos Fuentes", nl: "Carlos Fuentes"},
+          {en: "Roberto Bolaño", es: "Roberto Bolaño", de: "Roberto Bolaño", nl: "Roberto Bolaño"},
+          {en: "Octavio Paz", es: "Octavio Paz", de: "Octavio Paz", nl: "Octavio Paz"},
+          {en: "Juan Villoro", es: "Juan Villoro", de: "Juan Villoro", nl: "Juan Villoro"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Roberto Bolaño wrote 'The Savage Detectives' (Los detectives salvajes, 1998), which won the Rómulo Gallegos Prize. The novel follows two young poets searching for a mysterious writer in Mexico and explores themes of literature, revolution, and the passage of time.",
+          es: "Roberto Bolaño escribió 'Los detectives salvajes' (1998), que ganó el Premio Rómulo Gallegos. La novela sigue a dos jóvenes poetas buscando a un escritor misterioso en México y explora temas de literatura, revolución y el paso del tiempo.",
+          de: "Roberto Bolaño schrieb 'Die wilden Detektive' (Los detectives salvajes, 1998), das den Rómulo-Gallegos-Preis gewann. Der Roman folgt zwei jungen Dichtern die einen mysteriösen Schriftsteller in Mexiko suchen und erforscht Themen von Literatur, Revolution und den Lauf der Zeit.",
+          nl: "Roberto Bolaño schreef 'The Savage Detectives' (Los detectives salvajes, 1998), dat de Rómulo Gallegos Prijs won. De roman volgt twee jonge dichters die zoeken naar een mysterieuze schrijver in Mexico en verkent thema's van literatuur, revolutie en het verstrijken van de tijd."
+        }
+      },
+      {
+        question: {
+          en: "Which author wrote 'The Wind-Up Bird Chronicle', a surreal novel about a man searching for his cat and wife?",
+          es: "¿Qué autor escribió 'Crónica del pájaro que da cuerda al mundo', una novela surrealista sobre un hombre buscando a su gato y esposa?",
+          de: "Welcher Autor schrieb 'Die Chroniken des Aufziehvogels', einen surrealen Roman über einen Mann der seine Katze und Frau sucht?",
+          nl: "Welke auteur schreef 'The Wind-Up Bird Chronicle', een surrealistische roman over een man die zijn kat en vrouw zoekt?"
+        },
+        options: [
+          {en: "Yukio Mishima", es: "Yukio Mishima", de: "Yukio Mishima", nl: "Yukio Mishima"},
+          {en: "Haruki Murakami", es: "Haruki Murakami", de: "Haruki Murakami", nl: "Haruki Murakami"},
+          {en: "Kenzaburo Oe", es: "Kenzaburo Oe", de: "Kenzaburo Oe", nl: "Kenzaburo Oe"},
+          {en: "Banana Yoshimoto", es: "Banana Yoshimoto", de: "Banana Yoshimoto", nl: "Banana Yoshimoto"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Haruki Murakami wrote 'The Wind-Up Bird Chronicle' (1994-1995), a surreal novel that blends domestic mystery with historical trauma from World War II. The novel follows Toru Okada as his seemingly simple search for his missing cat leads him into increasingly strange and dreamlike encounters.",
+          es: "Haruki Murakami escribió 'Crónica del pájaro que da cuerda al mundo' (1994-1995), una novela surrealista que mezcla misterio doméstico con trauma histórico de la Segunda Guerra Mundial. La novela sigue a Toru Okada mientras su búsqueda aparentemente simple de su gato perdido lo lleva a encuentros cada vez más extraños y oníricos.",
+          de: "Haruki Murakami schrieb 'Die Chroniken des Aufziehvogels' (1994-1995), einen surrealen Roman der häusliches Mysterium mit historischem Trauma aus dem Zweiten Weltkrieg verbindet. Der Roman folgt Toru Okada während seine scheinbar einfache Suche nach seiner vermissten Katze ihn in zunehmend seltsame und traumhafte Begegnungen führt.",
+          nl: "Haruki Murakami schreef 'The Wind-Up Bird Chronicle' (1994-1995), een surrealistische roman die huiselijk mysterie mengt met historisch trauma van de Tweede Wereldoorlog. De roman volgt Toru Okada terwijl zijn ogenschijnlijk eenvoudige zoektocht naar zijn vermiste kat hem leidt naar steeds vreemdere en droomachtige ontmoetingen."
         }
       }
     ]

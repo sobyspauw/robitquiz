@@ -427,6 +427,258 @@
           de: "Louis-François Cartier gründete 1847 Cartier in Paris. Seine Enkel Louis, Pierre und Jacques expandierten weltweit, schufen die Santos-Uhr (1904) und erhielten den Titel 'Juwelier der Könige, König der Juweliere'. Cartier wurde zum Synonym für Luxusschmuck und Uhren.",
           nl: "Louis-François Cartier heeft Cartier opgericht in 1847 in Parijs. Zijn kleinzonen Louis, Pierre en Jacques breidden wereldwijd uit, creëerden het Santos horloge (1904) en verdienden de titel 'juwelier van koningen, koning van juweliers'. Cartier werd synoniem met luxe sieraden en horloges."
         }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Aldi, the discount supermarket chain that revolutionized German retail?",
+          es: "¿Qué empresario fundó Aldi, la cadena de supermercados de descuento que revolucionó el comercio minorista alemán?",
+          de: "Welcher Unternehmer gründete Aldi, die Discount-Supermarktkette, die den deutschen Einzelhandel revolutionierte?",
+          nl: "Welke ondernemer heeft Aldi opgericht, de discountsupermarktketen die de Duitse detailhandel revolutioneerde?"
+        },
+        options: [
+          { en: "Karl and Theo Albrecht", es: "Karl y Theo Albrecht", de: "Karl und Theo Albrecht", nl: "Karl en Theo Albrecht" },
+          { en: "Erivan Haub", es: "Erivan Haub", de: "Erivan Haub", nl: "Erivan Haub" },
+          { en: "Dieter Schwarz", es: "Dieter Schwarz", de: "Dieter Schwarz", nl: "Dieter Schwarz" },
+          { en: "August Oetker", es: "August Oetker", de: "August Oetker", nl: "August Oetker" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Brothers Karl and Theo Albrecht took over their mother's grocery store in 1946 and transformed it into Aldi (Albrecht Discount). They split the company into Aldi Nord and Aldi Süd in 1960. Their no-frills approach revolutionized discount retailing globally, making them among Germany's richest people.",
+          es: "Los hermanos Karl y Theo Albrecht tomaron la tienda de comestibles de su madre en 1946 y la transformaron en Aldi (Albrecht Discount). Dividieron la compañía en Aldi Nord y Aldi Süd en 1960. Su enfoque sin lujos revolucionó el comercio minorista de descuento a nivel mundial, convirtiéndolos en algunas de las personas más ricas de Alemania.",
+          de: "Die Brüder Karl und Theo Albrecht übernahmen 1946 den Lebensmittelladen ihrer Mutter und verwandelten ihn in Aldi (Albrecht Discount). Sie teilten das Unternehmen 1960 in Aldi Nord und Aldi Süd. Ihr schnörkelloser Ansatz revolutionierte den Discount-Einzelhandel weltweit und machte sie zu den reichsten Menschen Deutschlands.",
+          nl: "Broers Karl en Theo Albrecht namen in 1946 de kruidenierswinkel van hun moeder over en transformeerden het tot Aldi (Albrecht Discount). Ze splitsten het bedrijf in 1960 in Aldi Nord en Aldi Süd. Hun no-nonsense aanpak revolutioneerde wereldwijd de discountdetailhandel, waardoor ze tot Duitslands rijkste mensen behoorden."
+        }
+      },
+      {
+        question: {
+          en: "Who founded L'Oréal and built it into the world's largest cosmetics company?",
+          es: "¿Quién fundó L'Oréal y la convirtió en la empresa de cosméticos más grande del mundo?",
+          de: "Wer gründete L'Oréal und baute es zum weltgrößten Kosmetikunternehmen aus?",
+          nl: "Wie heeft L'Oréal opgericht en het uitgebouwd tot 's werelds grootste cosmeticabedrijf?"
+        },
+        options: [
+          { en: "Eugène Schueller", es: "Eugène Schueller", de: "Eugène Schueller", nl: "Eugène Schueller" },
+          { en: "François Dalle", es: "François Dalle", de: "François Dalle", nl: "François Dalle" },
+          { en: "Lindsay Owen-Jones", es: "Lindsay Owen-Jones", de: "Lindsay Owen-Jones", nl: "Lindsay Owen-Jones" },
+          { en: "Jean-Paul Agon", es: "Jean-Paul Agon", de: "Jean-Paul Agon", nl: "Jean-Paul Agon" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Eugène Schueller, a French chemist, founded L'Oréal in 1909 after developing the first synthetic hair dye. The company grew through innovation and acquisitions to become the world's largest beauty company. His daughter Liliane Bettencourt became one of the world's richest women.",
+          es: "Eugène Schueller, un químico francés, fundó L'Oréal en 1909 después de desarrollar el primer tinte de cabello sintético. La compañía creció a través de la innovación y las adquisiciones para convertirse en la empresa de belleza más grande del mundo. Su hija Liliane Bettencourt se convirtió en una de las mujeres más ricas del mundo.",
+          de: "Eugène Schueller, ein französischer Chemiker, gründete 1909 L'Oréal, nachdem er den ersten synthetischen Haarfarbstoff entwickelt hatte. Das Unternehmen wuchs durch Innovation und Übernahmen zum weltgrößten Beauty-Unternehmen. Seine Tochter Liliane Bettencourt wurde eine der reichsten Frauen der Welt.",
+          nl: "Eugène Schueller, een Franse chemicus, heeft L'Oréal opgericht in 1909 na het ontwikkelen van de eerste synthetische haarverf. Het bedrijf groeide door innovatie en overnames tot 's werelds grootste beautybedrijf. Zijn dochter Liliane Bettencourt werd een van 's werelds rijkste vrouwen."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Prada, transforming it from a leather goods shop into a global luxury fashion brand?",
+          es: "¿Qué empresario fundó Prada, transformándola de una tienda de artículos de cuero en una marca global de moda de lujo?",
+          de: "Welcher Unternehmer gründete Prada und verwandelte es von einem Lederwarenladen in eine globale Luxusmodemarke?",
+          nl: "Welke ondernemer heeft Prada opgericht en het getransformeerd van een lederwarenzaak tot een wereldwijd luxe modemerk?"
+        },
+        options: [
+          { en: "Mario Prada", es: "Mario Prada", de: "Mario Prada", nl: "Mario Prada" },
+          { en: "Miuccia Prada", es: "Miuccia Prada", de: "Miuccia Prada", nl: "Miuccia Prada" },
+          { en: "Patrizio Bertelli", es: "Patrizio Bertelli", de: "Patrizio Bertelli", nl: "Patrizio Bertelli" },
+          { en: "Martino Prada", es: "Martino Prada", de: "Martino Prada", nl: "Martino Prada" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mario Prada founded Prada in 1913 in Milan as 'Fratelli Prada' (Prada Brothers), selling luxury leather goods and accessories. His granddaughter Miuccia Prada later transformed it into a global fashion powerhouse in the 1970s-80s, revolutionizing minimalist design and creating the iconic nylon bag.",
+          es: "Mario Prada fundó Prada en 1913 en Milán como 'Fratelli Prada' (Hermanos Prada), vendiendo artículos de cuero de lujo y accesorios. Su nieta Miuccia Prada más tarde lo transformó en una potencia de la moda global en los años 1970-80, revolucionando el diseño minimalista y creando el icónico bolso de nailon.",
+          de: "Mario Prada gründete 1913 Prada in Mailand als 'Fratelli Prada' (Gebrüder Prada) und verkaufte Luxuslederwaren und Accessoires. Seine Enkelin Miuccia Prada verwandelte es in den 1970er-80er Jahren in ein globales Mode-Kraftpaket, revolutionierte minimalistisches Design und schuf die ikonische Nylon-Tasche.",
+          nl: "Mario Prada heeft Prada opgericht in 1913 in Milaan als 'Fratelli Prada' (Prada Brothers), waar hij luxe lederwaren en accessoires verkocht. Zijn kleindochter Miuccia Prada transformeerde het later in de jaren 1970-80 tot een wereldwijde modegigant, revolutioneerde minimalistisch design en creëerde de iconische nylon tas."
+        }
+      },
+      {
+        question: {
+          en: "Who founded BMW (Bayerische Motoren Werke) and transformed it from an aircraft engine manufacturer into an automotive giant?",
+          es: "¿Quién fundó BMW (Bayerische Motoren Werke) y la transformó de un fabricante de motores de aviones en un gigante automotriz?",
+          de: "Wer gründete BMW (Bayerische Motoren Werke) und verwandelte es von einem Flugzeugmotorenhersteller in einen Automobilgiganten?",
+          nl: "Wie heeft BMW (Bayerische Motoren Werke) opgericht en het getransformeerd van een vliegtuigmotorenfabrikant tot een automobielgigant?"
+        },
+        options: [
+          { en: "Karl Rapp and Gustav Otto", es: "Karl Rapp y Gustav Otto", de: "Karl Rapp und Gustav Otto", nl: "Karl Rapp en Gustav Otto" },
+          { en: "Herbert Quandt", es: "Herbert Quandt", de: "Herbert Quandt", nl: "Herbert Quandt" },
+          { en: "Franz Josef Popp", es: "Franz Josef Popp", de: "Franz Josef Popp", nl: "Franz Josef Popp" },
+          { en: "Max Friz", es: "Max Friz", de: "Max Friz", nl: "Max Friz" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Karl Rapp and Gustav Otto founded BMW's predecessor companies in 1916, merging to form Bayerische Motoren Werke in 1917. Initially producing aircraft engines, BMW shifted to motorcycles (1923) and automobiles (1928). The Quandt family later saved BMW from bankruptcy in 1959, transforming it into a luxury automotive leader.",
+          es: "Karl Rapp y Gustav Otto fundaron las empresas predecesoras de BMW en 1916, fusionándose para formar Bayerische Motoren Werke en 1917. Inicialmente produciendo motores de aviones, BMW cambió a motocicletas (1923) y automóviles (1928). La familia Quandt más tarde salvó a BMW de la quiebra en 1959, transformándola en líder automotriz de lujo.",
+          de: "Karl Rapp und Gustav Otto gründeten 1916 die Vorgängerunternehmen von BMW, die sich 1917 zu Bayerische Motoren Werke zusammenschlossen. Zunächst Flugzeugmotoren produzierend, wechselte BMW zu Motorrädern (1923) und Automobilen (1928). Die Familie Quandt rettete BMW 1959 vor dem Bankrott und verwandelte es in einen Luxusautomobilführer.",
+          nl: "Karl Rapp en Gustav Otto hebben de voorloperbedrijven van BMW opgericht in 1916, die in 1917 fuseerden tot Bayerische Motoren Werke. Aanvankelijk vliegtuigmotoren producerend, schakelde BMW over naar motorfietsen (1923) en auto's (1928). De Quandt-familie redde BMW later van faillissement in 1959 en transformeerde het tot een luxe automobielleider."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Chanel and revolutionized women's fashion by introducing the little black dress?",
+          es: "¿Qué empresaria fundó Chanel y revolucionó la moda femenina al introducir el vestido negro corto?",
+          de: "Welche Unternehmerin gründete Chanel und revolutionierte die Damenmode durch die Einführung des kleinen Schwarzen?",
+          nl: "Welke onderneemster heeft Chanel opgericht en de damesmode gerevolutioneerd door de introductie van het kleine zwarte jurkje?"
+        },
+        options: [
+          { en: "Coco Chanel (Gabrielle Bonheur Chanel)", es: "Coco Chanel (Gabrielle Bonheur Chanel)", de: "Coco Chanel (Gabrielle Bonheur Chanel)", nl: "Coco Chanel (Gabrielle Bonheur Chanel)" },
+          { en: "Jeanne Lanvin", es: "Jeanne Lanvin", de: "Jeanne Lanvin", nl: "Jeanne Lanvin" },
+          { en: "Elsa Schiaparelli", es: "Elsa Schiaparelli", de: "Elsa Schiaparelli", nl: "Elsa Schiaparelli" },
+          { en: "Madeleine Vionnet", es: "Madeleine Vionnet", de: "Madeleine Vionnet", nl: "Madeleine Vionnet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Coco Chanel founded her fashion house in 1910, revolutionizing women's fashion by replacing corseted silhouettes with comfortable, elegant designs. She introduced the little black dress (1926), Chanel No. 5 perfume (1921), and the iconic Chanel suit, liberating women from restrictive Victorian fashion.",
+          es: "Coco Chanel fundó su casa de moda en 1910, revolucionando la moda femenina al reemplazar las siluetas con corsé con diseños cómodos y elegantes. Introdujo el vestido negro corto (1926), el perfume Chanel No. 5 (1921) y el icónico traje Chanel, liberando a las mujeres de la moda victoriana restrictiva.",
+          de: "Coco Chanel gründete 1910 ihr Modehaus und revolutionierte die Damenmode, indem sie korsettierte Silhouetten durch bequeme, elegante Designs ersetzte. Sie führte das kleine Schwarze (1926), Chanel No. 5 Parfüm (1921) und das ikonische Chanel-Kostüm ein und befreite Frauen von der restriktiven viktorianischen Mode.",
+          nl: "Coco Chanel heeft haar modehuis opgericht in 1910 en revolutioneerde de damesmode door gecorsetteerde silhouetten te vervangen door comfortabele, elegante ontwerpen. Ze introduceerde het kleine zwarte jurkje (1926), Chanel No. 5 parfum (1921) en het iconische Chanel pakje, waarmee ze vrouwen bevrijdde van beperkende Victoriaanse mode."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Porsche and designed the Volkswagen Beetle, one of history's best-selling cars?",
+          es: "¿Quién fundó Porsche y diseñó el Volkswagen Beetle, uno de los autos más vendidos de la historia?",
+          de: "Wer gründete Porsche und entwarf den Volkswagen Käfer, eines der meistverkauften Autos der Geschichte?",
+          nl: "Wie heeft Porsche opgericht en de Volkswagen Kever ontworpen, een van de best verkochte auto's uit de geschiedenis?"
+        },
+        options: [
+          { en: "Ferdinand Porsche", es: "Ferdinand Porsche", de: "Ferdinand Porsche", nl: "Ferdinand Porsche" },
+          { en: "Ferry Porsche", es: "Ferry Porsche", de: "Ferry Porsche", nl: "Ferry Porsche" },
+          { en: "Ferdinand Piëch", es: "Ferdinand Piëch", de: "Ferdinand Piëch", nl: "Ferdinand Piëch" },
+          { en: "Wolfgang Porsche", es: "Wolfgang Porsche", de: "Wolfgang Porsche", nl: "Wolfgang Porsche" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ferdinand Porsche founded his automotive consulting firm in 1931, which became Porsche AG. He designed the Volkswagen Beetle for Hitler's 'people's car' program and the Auto Union racing cars. His son Ferry Porsche created the iconic Porsche 356 (1948) and 911 (1963) sports cars.",
+          es: "Ferdinand Porsche fundó su firma de consultoría automotriz en 1931, que se convirtió en Porsche AG. Diseñó el Volkswagen Beetle para el programa de 'auto del pueblo' de Hitler y los autos de carreras Auto Union. Su hijo Ferry Porsche creó los icónicos autos deportivos Porsche 356 (1948) y 911 (1963).",
+          de: "Ferdinand Porsche gründete 1931 sein Automobil-Beratungsunternehmen, das zu Porsche AG wurde. Er entwarf den Volkswagen Käfer für Hitlers 'Volkswagen'-Programm und die Auto Union Rennwagen. Sein Sohn Ferry Porsche schuf die ikonischen Sportwagen Porsche 356 (1948) und 911 (1963).",
+          nl: "Ferdinand Porsche heeft zijn automobieladviesbureau opgericht in 1931, dat Porsche AG werd. Hij ontwierp de Volkswagen Kever voor Hitlers 'volkswagen'-programma en de Auto Union racewagens. Zijn zoon Ferry Porsche creëerde de iconische Porsche 356 (1948) en 911 (1963) sportwagens."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Rolex and pioneered the first waterproof wristwatch?",
+          es: "¿Qué empresario fundó Rolex y fue pionero del primer reloj de pulsera impermeable?",
+          de: "Welcher Unternehmer gründete Rolex und war Pionier der ersten wasserdichten Armbanduhr?",
+          nl: "Welke ondernemer heeft Rolex opgericht en was pionier van het eerste waterdichte polshorloge?"
+        },
+        options: [
+          { en: "Hans Wilsdorf", es: "Hans Wilsdorf", de: "Hans Wilsdorf", nl: "Hans Wilsdorf" },
+          { en: "Alfred Davis", es: "Alfred Davis", de: "Alfred Davis", nl: "Alfred Davis" },
+          { en: "André Heiniger", es: "André Heiniger", de: "André Heiniger", nl: "André Heiniger" },
+          { en: "Patrick Heiniger", es: "Patrick Heiniger", de: "Patrick Heiniger", nl: "Patrick Heiniger" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hans Wilsdorf founded Rolex in 1905 in London (moved to Geneva in 1919). He revolutionized watchmaking by creating the first waterproof wristwatch, the Oyster (1926), and the first self-winding mechanism, the Perpetual (1931). Rolex became synonymous with luxury, precision, and achievement.",
+          es: "Hans Wilsdorf fundó Rolex en 1905 en Londres (se mudó a Ginebra en 1919). Revolucionó la relojería al crear el primer reloj de pulsera impermeable, el Oyster (1926), y el primer mecanismo de cuerda automática, el Perpetual (1931). Rolex se convirtió en sinónimo de lujo, precisión y logro.",
+          de: "Hans Wilsdorf gründete 1905 Rolex in London (zog 1919 nach Genf). Er revolutionierte die Uhrmacherei durch die Schaffung der ersten wasserdichten Armbanduhr, der Oyster (1926), und des ersten Selbstaufzugsmechanismus, des Perpetual (1931). Rolex wurde zum Synonym für Luxus, Präzision und Leistung.",
+          nl: "Hans Wilsdorf heeft Rolex opgericht in 1905 in Londen (verhuisde naar Genève in 1919). Hij revolutioneerde de horlogemakerij door het eerste waterdichte polshorloge te creëren, de Oyster (1926), en het eerste zelfopwindmechanisme, de Perpetual (1931). Rolex werd synoniem met luxe, precisie en prestatie."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Louis Vuitton and created the iconic monogrammed luggage that became a global luxury symbol?",
+          es: "¿Quién fundó Louis Vuitton y creó el icónico equipaje con monograma que se convirtió en un símbolo global de lujo?",
+          de: "Wer gründete Louis Vuitton und schuf das ikonische Monogramm-Gepäck, das zu einem globalen Luxussymbol wurde?",
+          nl: "Wie heeft Louis Vuitton opgericht en het iconische gemonogramde reisbagage gecreëerd dat een wereldwijd luxesymbool werd?"
+        },
+        options: [
+          { en: "Louis Vuitton", es: "Louis Vuitton", de: "Louis Vuitton", nl: "Louis Vuitton" },
+          { en: "Georges Vuitton", es: "Georges Vuitton", de: "Georges Vuitton", nl: "Georges Vuitton" },
+          { en: "Gaston-Louis Vuitton", es: "Gaston-Louis Vuitton", de: "Gaston-Louis Vuitton", nl: "Gaston-Louis Vuitton" },
+          { en: "Patrick-Louis Vuitton", es: "Patrick-Louis Vuitton", de: "Patrick-Louis Vuitton", nl: "Patrick-Louis Vuitton" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Louis Vuitton founded his trunk-making workshop in Paris in 1854, revolutionizing luggage with flat-topped, stackable trunks. His son Georges created the iconic LV monogram canvas (1896) to prevent counterfeiting. Louis Vuitton became the world's most valuable luxury brand, now part of LVMH.",
+          es: "Louis Vuitton fundó su taller de fabricación de baúles en París en 1854, revolucionando el equipaje con baúles de tapa plana y apilables. Su hijo Georges creó el icónico lienzo con monograma LV (1896) para prevenir la falsificación. Louis Vuitton se convirtió en la marca de lujo más valiosa del mundo, ahora parte de LVMH.",
+          de: "Louis Vuitton gründete 1854 seine Koffermanufaktur in Paris und revolutionierte Gepäck mit flach-deckigen, stapelbaren Koffern. Sein Sohn Georges schuf die ikonische LV-Monogramm-Leinwand (1896), um Fälschungen zu verhindern. Louis Vuitton wurde zur wertvollsten Luxusmarke der Welt, heute Teil von LVMH.",
+          nl: "Louis Vuitton heeft zijn koffermakerij opgericht in Parijs in 1854 en revolutioneerde reisbagage met platte, stapelbare koffers. Zijn zoon Georges creëerde het iconische LV monogram canvas (1896) om namaak te voorkomen. Louis Vuitton werd 's werelds meest waardevolle luxemerk, nu deel van LVMH."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Siemens, building it into one of Europe's largest industrial conglomerates?",
+          es: "¿Qué empresario fundó Siemens, convirtiéndola en uno de los conglomerados industriales más grandes de Europa?",
+          de: "Welcher Unternehmer gründete Siemens und baute es zu einem der größten Industriekonzerne Europas aus?",
+          nl: "Welke ondernemer heeft Siemens opgericht en het uitgebouwd tot een van Europa's grootste industriële conglomeraten?"
+        },
+        options: [
+          { en: "Werner von Siemens", es: "Werner von Siemens", de: "Werner von Siemens", nl: "Werner von Siemens" },
+          { en: "Carl von Siemens", es: "Carl von Siemens", de: "Carl von Siemens", nl: "Carl von Siemens" },
+          { en: "Wilhelm von Siemens", es: "Wilhelm von Siemens", de: "Wilhelm von Siemens", nl: "Wilhelm von Siemens" },
+          { en: "Arnold von Siemens", es: "Arnold von Siemens", de: "Arnold von Siemens", nl: "Arnold von Siemens" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Werner von Siemens founded Siemens & Halske in 1847 in Berlin, pioneering electrical engineering. He invented the pointer telegraph, the first electric elevator, and developed the dynamo. Siemens grew into a global conglomerate spanning energy, healthcare, transportation, and industrial automation.",
+          es: "Werner von Siemens fundó Siemens & Halske en 1847 en Berlín, siendo pionero en ingeniería eléctrica. Inventó el telégrafo de puntero, el primer ascensor eléctrico y desarrolló la dinamo. Siemens creció hasta convertirse en un conglomerado global que abarca energía, salud, transporte y automatización industrial.",
+          de: "Werner von Siemens gründete 1847 Siemens & Halske in Berlin und war Pionier der Elektrotechnik. Er erfand den Zeigertelegrafen, den ersten elektrischen Aufzug und entwickelte die Dynamomaschine. Siemens wuchs zu einem globalen Konzern in Energie, Gesundheit, Transport und industrieller Automatisierung.",
+          nl: "Werner von Siemens heeft Siemens & Halske opgericht in 1847 in Berlijn en was pionier in elektrotechniek. Hij vond de wijzertelegraaf uit, de eerste elektrische lift en ontwikkelde de dynamo. Siemens groeide uit tot een wereldwijd conglomeraat met activiteiten in energie, gezondheidszorg, transport en industriële automatisering."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Lego and transformed wooden toys into the world's most popular plastic building blocks?",
+          es: "¿Quién fundó Lego y transformó los juguetes de madera en los bloques de construcción de plástico más populares del mundo?",
+          de: "Wer gründete Lego und verwandelte Holzspielzeug in die weltweit beliebtesten Plastik-Bausteine?",
+          nl: "Wie heeft Lego opgericht en houten speelgoed getransformeerd tot 's werelds populairste plastic bouwstenen?"
+        },
+        options: [
+          { en: "Ole Kirk Christiansen", es: "Ole Kirk Christiansen", de: "Ole Kirk Christiansen", nl: "Ole Kirk Christiansen" },
+          { en: "Godtfred Kirk Christiansen", es: "Godtfred Kirk Christiansen", de: "Godtfred Kirk Christiansen", nl: "Godtfred Kirk Christiansen" },
+          { en: "Kjeld Kirk Kristiansen", es: "Kjeld Kirk Kristiansen", de: "Kjeld Kirk Kristiansen", nl: "Kjeld Kirk Kristiansen" },
+          { en: "Thomas Kirk Kristiansen", es: "Thomas Kirk Kristiansen", de: "Thomas Kirk Kristiansen", nl: "Thomas Kirk Kristiansen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ole Kirk Christiansen founded Lego in 1932 in Billund, Denmark, initially making wooden toys. The name 'Lego' comes from Danish 'leg godt' (play well). His son Godtfred invented the iconic interlocking plastic bricks (1958) that became the world's most popular toy, still family-owned today.",
+          es: "Ole Kirk Christiansen fundó Lego en 1932 en Billund, Dinamarca, inicialmente haciendo juguetes de madera. El nombre 'Lego' proviene del danés 'leg godt' (juega bien). Su hijo Godtfred inventó los icónicos bloques de plástico entrelazados (1958) que se convirtieron en el juguete más popular del mundo, todavía propiedad de la familia hoy.",
+          de: "Ole Kirk Christiansen gründete 1932 Lego in Billund, Dänemark, zunächst mit Holzspielzeug. Der Name 'Lego' stammt vom dänischen 'leg godt' (spiel gut). Sein Sohn Godtfred erfand die ikonischen ineinandergreifenden Plastiksteine (1958), die zum weltweit beliebtesten Spielzeug wurden und heute noch in Familienbesitz sind.",
+          nl: "Ole Kirk Christiansen heeft Lego opgericht in 1932 in Billund, Denemarken, aanvankelijk met houten speelgoed. De naam 'Lego' komt van het Deense 'leg godt' (speel goed). Zijn zoon Godtfred vond de iconische in elkaar grijpende plastic blokjes uit (1958) die 's werelds populairste speelgoed werden, nog steeds in familiebezit."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Bayer and pioneered the pharmaceutical industry with aspirin?",
+          es: "¿Qué empresario fundó Bayer y fue pionero de la industria farmacéutica con la aspirina?",
+          de: "Welcher Unternehmer gründete Bayer und war Pionier der Pharmaindustrie mit Aspirin?",
+          nl: "Welke ondernemer heeft Bayer opgericht en was pionier van de farmaceutische industrie met aspirine?"
+        },
+        options: [
+          { en: "Friedrich Bayer and Johann Friedrich Weskott", es: "Friedrich Bayer y Johann Friedrich Weskott", de: "Friedrich Bayer und Johann Friedrich Weskott", nl: "Friedrich Bayer en Johann Friedrich Weskott" },
+          { en: "Carl Duisberg", es: "Carl Duisberg", de: "Carl Duisberg", nl: "Carl Duisberg" },
+          { en: "Felix Hoffmann", es: "Felix Hoffmann", de: "Felix Hoffmann", nl: "Felix Hoffmann" },
+          { en: "Heinrich Dreser", es: "Heinrich Dreser", de: "Heinrich Dreser", nl: "Heinrich Dreser" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Friedrich Bayer and Johann Friedrich Weskott founded Bayer in 1863 in Barmen, Germany, initially producing synthetic dyes. Bayer chemist Felix Hoffmann synthesized aspirin (1897), which became the world's most popular painkiller. Bayer grew into a global pharmaceutical and chemical giant.",
+          es: "Friedrich Bayer y Johann Friedrich Weskott fundaron Bayer en 1863 en Barmen, Alemania, inicialmente produciendo tintes sintéticos. El químico de Bayer Felix Hoffmann sintetizó la aspirina (1897), que se convirtió en el analgésico más popular del mundo. Bayer creció hasta convertirse en un gigante farmacéutico y químico global.",
+          de: "Friedrich Bayer und Johann Friedrich Weskott gründeten 1863 Bayer in Barmen, Deutschland, zunächst mit synthetischen Farbstoffen. Bayer-Chemiker Felix Hoffmann synthetisierte Aspirin (1897), das zum weltweit beliebtesten Schmerzmittel wurde. Bayer wuchs zu einem globalen Pharma- und Chemiegiganten.",
+          nl: "Friedrich Bayer en Johann Friedrich Weskott hebben Bayer opgericht in 1863 in Barmen, Duitsland, aanvankelijk met synthetische kleurstoffen. Bayer-chemicus Felix Hoffmann synthetiseerde aspirine (1897), dat 's werelds populairste pijnstiller werd. Bayer groeide uit tot een wereldwijde farmaceutische en chemische gigant."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Heineken brewery and transformed it into one of the world's largest beer companies?",
+          es: "¿Quién fundó la cervecería Heineken y la transformó en una de las compañías cerveceras más grandes del mundo?",
+          de: "Wer gründete die Heineken-Brauerei und verwandelte sie in eines der weltgrößten Bierunternehmen?",
+          nl: "Wie heeft Heineken brouwerij opgericht en het getransformeerd tot een van 's werelds grootste bierbedrijven?"
+        },
+        options: [
+          { en: "Gerard Adriaan Heineken", es: "Gerard Adriaan Heineken", de: "Gerard Adriaan Heineken", nl: "Gerard Adriaan Heineken" },
+          { en: "Henry Pierre Heineken", es: "Henry Pierre Heineken", de: "Henry Pierre Heineken", nl: "Henry Pierre Heineken" },
+          { en: "Alfred Henry Heineken", es: "Alfred Henry Heineken", de: "Alfred Henry Heineken", nl: "Alfred Henry Heineken" },
+          { en: "Freddy Heineken", es: "Freddy Heineken", de: "Freddy Heineken", nl: "Freddy Heineken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gerard Adriaan Heineken founded Heineken in 1864 after buying the Haystack brewery in Amsterdam. His son Henry Pierre introduced the iconic green bottle and red star logo. Grandson Alfred 'Freddy' Heineken expanded it globally in the 20th century, making Heineken the world's second-largest brewer.",
+          es: "Gerard Adriaan Heineken fundó Heineken en 1864 después de comprar la cervecería Haystack en Ámsterdam. Su hijo Henry Pierre introdujo la icónica botella verde y el logo de estrella roja. Su nieto Alfred 'Freddy' Heineken la expandió globalmente en el siglo XX, haciendo de Heineken el segundo mayor cervecero del mundo.",
+          de: "Gerard Adriaan Heineken gründete 1864 Heineken, nachdem er die Haystack-Brauerei in Amsterdam gekauft hatte. Sein Sohn Henry Pierre führte die ikonische grüne Flasche und das rote Stern-Logo ein. Enkel Alfred 'Freddy' Heineken expandierte im 20. Jahrhundert global und machte Heineken zum zweitgrößten Brauer der Welt.",
+          nl: "Gerard Adriaan Heineken heeft Heineken opgericht in 1864 na het kopen van de Haystack brouwerij in Amsterdam. Zijn zoon Henry Pierre introduceerde de iconische groene fles en het rode sterlogo. Kleinzoon Alfred 'Freddy' Heineken breidde het in de 20e eeuw wereldwijd uit, waardoor Heineken 's werelds tweede grootste brouwer werd."
+        }
       }
     ]
   };

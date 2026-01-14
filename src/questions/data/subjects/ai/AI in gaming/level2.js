@@ -427,6 +427,426 @@
           de: "Verhaltensbäume sind hierarchische Strukturen zur Organisation und Ausführung von KI-Verhaltensweisen in Spielen, die einen modularen und skalierbaren Weg zur Erstellung komplexer Entscheidungssysteme bieten.",
           nl: "Gedragsbomen zijn hiërarchische structuren die gebruikt worden om AI-gedrag in games te organiseren en uit te voeren, wat een modulaire en schaalbare manier biedt om complexe besluitvormingssystemen te creëren."
         }
+      },
+      {
+        question: {
+          en: "What is 'influence mapping' in strategy game AI?",
+          es: "¿Qué es el 'mapeo de influencia' en IA de juegos de estrategia?",
+          de: "Was ist 'Influence Mapping' in Strategie-Spiele-KI?",
+          nl: "Wat is 'influence mapping' in strategie game AI?"
+        },
+        options: [
+          { en: "Technique to visualize and analyze territorial control and strategic positioning", es: "Técnica para visualizar y analizar control territorial y posicionamiento estratégico", de: "Technik zur Visualisierung und Analyse territorialer Kontrolle und strategischer Positionierung", nl: "Techniek om territoriale controle en strategische positionering te visualiseren en analyseren" },
+          { en: "Map showing player influence on social media", es: "Mapa que muestra influencia de jugador en redes sociales", de: "Karte die Spielereinfluss in sozialen Medien zeigt", nl: "Kaart die spelerinvloed op sociale media toont" },
+          { en: "Technique for drawing game maps", es: "Técnica para dibujar mapas de juego", de: "Technik zum Zeichnen von Spielkarten", nl: "Techniek voor het tekenen van spelkaarten" },
+          { en: "System for influencing player decisions", es: "Sistema para influenciar decisiones de jugador", de: "System zur Beeinflussung von Spielerentscheidungen", nl: "Systeem om spelerbeslissingen te beïnvloeden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Influence maps help strategy game AI evaluate which areas of the map are controlled by which player, informing tactical decisions about expansion and defense.",
+          es: "Los mapas de influencia ayudan a la IA de juegos de estrategia a evaluar qué áreas del mapa están controladas por qué jugador, informando decisiones tácticas sobre expansión y defensa.",
+          de: "Influence Maps helfen Strategie-Spiele-KI zu bewerten welche Bereiche der Karte von welchem Spieler kontrolliert werden, informiert taktische Entscheidungen über Expansion und Verteidigung.",
+          nl: "Influence maps helpen strategie game AI om te evalueren welke gebieden van de kaart door welke speler worden gecontroleerd, wat tactische beslissingen over expansie en verdediging informeert."
+        }
+      },
+      {
+        question: {
+          en: "What is 'terrain analysis' in game AI?",
+          es: "¿Qué es el 'análisis de terreno' en IA de juegos?",
+          de: "Was ist 'Terrainanalyse' in Spiele-KI?",
+          nl: "Wat is 'terreinanalyse' in game AI?"
+        },
+        options: [
+          { en: "AI evaluating environmental features to make tactical decisions", es: "IA evaluando características ambientales para tomar decisiones tácticas", de: "KI bewertet Umgebungsmerkmale um taktische Entscheidungen zu treffen", nl: "AI evalueert omgevingskenmerken om tactische beslissingen te nemen" },
+          { en: "System for creating realistic terrain graphics", es: "Sistema para crear gráficos de terreno realistas", de: "System zur Erstellung realistischer Terraingrafiken", nl: "Systeem voor het creëren van realistische terreingraphics" },
+          { en: "AI that designs game levels", es: "IA que diseña niveles de juego", de: "KI die Spiel-Level entwirft", nl: "AI die game levels ontwerpt" },
+          { en: "Analysis of player terrain preferences", es: "Análisis de preferencias de terreno de jugador", de: "Analyse von Spieler-Terrainpräferenzen", nl: "Analyse van speler terreinvoorkeuren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Terrain analysis allows AI to understand advantages of high ground, cover positions, choke points, and other environmental factors when making strategic decisions.",
+          es: "El análisis de terreno permite a la IA entender ventajas de terreno elevado, posiciones de cobertura, puntos de estrangulamiento y otros factores ambientales al tomar decisiones estratégicas.",
+          de: "Terrainanalyse ermöglicht KI Vorteile von Höhenlagen, Deckungspositionen, Engpässen und anderen Umweltfaktoren bei strategischen Entscheidungen zu verstehen.",
+          nl: "Terreinanalyse stelt AI in staat om voordelen van hoog terrein, dekkingsposities, knelpunten en andere omgevingsfactoren te begrijpen bij het nemen van strategische beslissingen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'predictive AI' in competitive games?",
+          es: "¿Qué es 'IA predictiva' en juegos competitivos?",
+          de: "Was ist 'vorausschauende KI' in kompetitiven Spielen?",
+          nl: "Wat is 'predictieve AI' in competitieve games?"
+        },
+        options: [
+          { en: "AI that anticipates player actions based on patterns", es: "IA que anticipa acciones del jugador basándose en patrones", de: "KI die Spieleraktionen basierend auf Mustern vorhersagt", nl: "AI die speleracties anticipeert op basis van patronen" },
+          { en: "AI that predicts weather in games", es: "IA que predice el clima en juegos", de: "KI die Wetter in Spielen vorhersagt", nl: "AI die weer voorspelt in games" },
+          { en: "AI that forecasts game sales", es: "IA que pronostica ventas de juegos", de: "KI die Spielverkäufe prognostiziert", nl: "AI die gameverkopen voorspelt" },
+          { en: "AI that predicts player preferences", es: "IA que predice preferencias de jugador", de: "KI die Spielerpräferenzen vorhersagt", nl: "AI die spelervoorkeuren voorspelt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Predictive AI analyzes player behavior patterns to anticipate likely next moves, allowing the AI to prepare counter-strategies and create more challenging gameplay.",
+          es: "La IA predictiva analiza patrones de comportamiento del jugador para anticipar movimientos probables siguientes, permitiendo a la IA preparar contraestrategias y crear jugabilidad más desafiante.",
+          de: "Vorausschauende KI analysiert Spielerverhaltensmuster um wahrscheinliche nächste Züge vorherzusagen, ermöglicht KI Gegenstrategien vorzubereiten und herausfordernderes Gameplay zu schaffen.",
+          nl: "Predictieve AI analyseert spelergedragpatronen om waarschijnlijke volgende zetten te anticiperen, waardoor de AI tegenstrategieën kan voorbereiden en uitdagendere gameplay kan creëren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'coordination AI' in team-based games?",
+          es: "¿Qué es 'IA de coordinación' en juegos basados en equipos?",
+          de: "Was ist 'Koordinations-KI' in teambasierten Spielen?",
+          nl: "Wat is 'coördinatie AI' in teamgebaseerde games?"
+        },
+        options: [
+          { en: "Systems that enable multiple AI agents to work together effectively", es: "Sistemas que permiten a múltiples agentes IA trabajar juntos efectivamente", de: "Systeme die mehreren KI-Agenten ermöglichen effektiv zusammenzuarbeiten", nl: "Systemen die meerdere AI-agenten in staat stellen om effectief samen te werken" },
+          { en: "AI that schedules multiplayer matches", es: "IA que programa partidas multijugador", de: "KI die Mehrspieler-Matches plant", nl: "AI die multiplayer matches plant" },
+          { en: "System for coordinating game graphics", es: "Sistema para coordinar gráficos del juego", de: "System zur Koordinierung von Spielgrafiken", nl: "Systeem voor het coördineren van spelgraphics" },
+          { en: "AI that manages player teams", es: "IA que gestiona equipos de jugador", de: "KI die Spielerteams verwaltet", nl: "AI die spelerteams beheert" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Coordination AI enables AI teammates to communicate, share information, execute combined tactics, and support each other like human team members would.",
+          es: "La IA de coordinación permite a compañeros IA comunicarse, compartir información, ejecutar tácticas combinadas y apoyarse mutuamente como lo harían miembros humanos de equipo.",
+          de: "Koordinations-KI ermöglicht KI-Teammitgliedern zu kommunizieren, Informationen zu teilen, kombinierte Taktiken auszuführen und sich gegenseitig zu unterstützen wie menschliche Teammitglieder.",
+          nl: "Coördinatie AI stelt AI-teamgenoten in staat om te communiceren, informatie te delen, gecombineerde tactieken uit te voeren en elkaar te ondersteunen zoals menselijke teamleden zouden doen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'dynamic pathfinding' in open-world games?",
+          es: "¿Qué es la 'búsqueda dinámica de caminos' en juegos de mundo abierto?",
+          de: "Was ist 'dynamisches Pathfinding' in Open-World-Spielen?",
+          nl: "Wat is 'dynamische pathfinding' in open-world games?"
+        },
+        options: [
+          { en: "Pathfinding that adapts to changing environments and obstacles", es: "Búsqueda de caminos que se adapta a entornos y obstáculos cambiantes", de: "Pathfinding das sich an sich ändernde Umgebungen und Hindernisse anpasst", nl: "Pathfinding die zich aanpast aan veranderende omgevingen en obstakels" },
+          { en: "Finding the fastest route only", es: "Encontrar solo la ruta más rápida", de: "Nur die schnellste Route finden", nl: "Alleen de snelste route vinden" },
+          { en: "Static pre-calculated paths", es: "Caminos estáticos precalculados", de: "Statische vorberechnete Pfade", nl: "Statische vooraf berekende paden" },
+          { en: "Pathfinding for dynamic lighting", es: "Búsqueda de caminos para iluminación dinámica", de: "Pathfinding für dynamische Beleuchtung", nl: "Pathfinding voor dynamische verlichting" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dynamic pathfinding recalculates routes in real-time as obstacles appear/disappear, other characters move, or environmental conditions change, ensuring AI navigation remains effective.",
+          es: "La búsqueda dinámica de caminos recalcula rutas en tiempo real mientras obstáculos aparecen/desaparecen, otros personajes se mueven o condiciones ambientales cambian, asegurando que la navegación IA permanezca efectiva.",
+          de: "Dynamisches Pathfinding berechnet Routen in Echtzeit neu während Hindernisse erscheinen/verschwinden, andere Charaktere sich bewegen oder Umgebungsbedingungen sich ändern, stellt sicher dass KI-Navigation effektiv bleibt.",
+          nl: "Dynamische pathfinding herberekent routes in real-time terwijl obstakels verschijnen/verdwijnen, andere karakters bewegen of omgevingsomstandigheden veranderen, waardoor AI-navigatie effectief blijft."
+        }
+      },
+      {
+        question: {
+          en: "What is 'decision-making under uncertainty' in game AI?",
+          es: "¿Qué es la 'toma de decisiones bajo incertidumbre' en IA de juegos?",
+          de: "Was ist 'Entscheidungsfindung unter Unsicherheit' in Spiele-KI?",
+          nl: "Wat is 'besluitvorming onder onzekerheid' in game AI?"
+        },
+        options: [
+          { en: "AI making choices when lacking complete information about the game state", es: "IA tomando decisiones cuando carece de información completa sobre el estado del juego", de: "KI trifft Entscheidungen wenn vollständige Informationen über den Spielzustand fehlen", nl: "AI neemt beslissingen wanneer volledige informatie over de spelstatus ontbreekt" },
+          { en: "AI that is uncertain about all decisions", es: "IA que está insegura sobre todas las decisiones", de: "KI die bei allen Entscheidungen unsicher ist", nl: "AI die onzeker is over alle beslissingen" },
+          { en: "AI that only works in unpredictable games", es: "IA que solo funciona en juegos impredecibles", de: "KI die nur in unvorhersehbaren Spielen funktioniert", nl: "AI die alleen werkt in onvoorspelbare games" },
+          { en: "Random AI behavior", es: "Comportamiento IA aleatorio", de: "Zufälliges KI-Verhalten", nl: "Willekeurig AI-gedrag" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI must often make decisions with incomplete information about player positions, resources, or intentions, using probabilistic reasoning and risk assessment to choose optimal actions.",
+          es: "La IA debe a menudo tomar decisiones con información incompleta sobre posiciones de jugador, recursos o intenciones, usando razonamiento probabilístico y evaluación de riesgo para elegir acciones óptimas.",
+          de: "KI muss oft Entscheidungen mit unvollständigen Informationen über Spielerpositionen, Ressourcen oder Absichten treffen, nutzt probabilistisches Denken und Risikobewertung um optimale Aktionen zu wählen.",
+          nl: "AI moet vaak beslissingen nemen met onvolledige informatie over spelerposities, resources of intenties, met gebruik van probabilistisch redeneren en risicobeoordeling om optimale acties te kiezen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'hierarchical task network planning' in game AI?",
+          es: "¿Qué es la 'planificación de red de tareas jerárquicas' en IA de juegos?",
+          de: "Was ist 'hierarchische Aufgabennetzwerkplanung' in Spiele-KI?",
+          nl: "Wat is 'hiërarchische taaknetwerkplanning' in game AI?"
+        },
+        options: [
+          { en: "Breaking complex goals into hierarchies of smaller tasks", es: "Dividir objetivos complejos en jerarquías de tareas más pequeñas", de: "Komplexe Ziele in Hierarchien kleinerer Aufgaben aufteilen", nl: "Complexe doelen opdelen in hiërarchieën van kleinere taken" },
+          { en: "Organizing AI code in folders", es: "Organizar código IA en carpetas", de: "KI-Code in Ordnern organisieren", nl: "AI-code in mappen organiseren" },
+          { en: "Planning multiplayer network tasks", es: "Planificar tareas de red multijugador", de: "Mehrspieler-Netzwerkaufgaben planen", nl: "Multiplayer netwerktaken plannen" },
+          { en: "Task scheduling for game servers", es: "Programación de tareas para servidores de juego", de: "Aufgabenplanung für Spielserver", nl: "Taakplanning voor game servers" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "HTN planning decomposes high-level objectives (like 'capture the base') into sequences of lower-level actions (move here, attack that, defend this), creating sophisticated AI behavior.",
+          es: "La planificación HTN descompone objetivos de alto nivel (como 'capturar la base') en secuencias de acciones de nivel inferior (moverse aquí, atacar eso, defender esto), creando comportamiento IA sofisticado.",
+          de: "HTN-Planung zerlegt hochrangige Ziele (wie 'Basis erobern') in Sequenzen niedrigerer Aktionen (hierhin bewegen, das angreifen, dies verteidigen), schafft ausgeklügeltes KI-Verhalten.",
+          nl: "HTN planning ontleedt high-level doelstellingen (zoals 'vang de basis') in sequenties van lower-level acties (beweeg hier, val dat aan, verdedig dit), waardoor geavanceerd AI-gedrag ontstaat."
+        }
+      },
+      {
+        question: {
+          en: "What is 'spatial reasoning' in game AI?",
+          es: "¿Qué es el 'razonamiento espacial' en IA de juegos?",
+          de: "Was ist 'räumliches Denken' in Spiele-KI?",
+          nl: "Wat is 'ruimtelijk redeneren' in game AI?"
+        },
+        options: [
+          { en: "AI understanding and using 3D space for positioning and tactics", es: "IA entendiendo y usando espacio 3D para posicionamiento y tácticas", de: "KI versteht und nutzt 3D-Raum für Positionierung und Taktik", nl: "AI begrijpt en gebruikt 3D-ruimte voor positionering en tactieken" },
+          { en: "AI calculating storage space needed", es: "IA calculando espacio de almacenamiento necesario", de: "KI berechnet benötigten Speicherplatz", nl: "AI berekent benodigde opslagruimte" },
+          { en: "AI designing game levels", es: "IA diseñando niveles de juego", de: "KI entwirft Spiel-Level", nl: "AI ontwerpt game levels" },
+          { en: "AI managing screen space", es: "IA gestionando espacio de pantalla", de: "KI verwaltet Bildschirmbereich", nl: "AI beheert schermruimte" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Spatial reasoning allows AI to understand concepts like flanking, height advantage, cover angles, and optimal positioning based on 3D environmental geometry.",
+          es: "El razonamiento espacial permite a la IA entender conceptos como flanqueo, ventaja de altura, ángulos de cobertura y posicionamiento óptimo basado en geometría ambiental 3D.",
+          de: "Räumliches Denken ermöglicht KI Konzepte wie Flankenangriffe, Höhenvorteil, Deckungswinkel und optimale Positionierung basierend auf 3D-Umgebungsgeometrie zu verstehen.",
+          nl: "Ruimtelijk redeneren stelt AI in staat om concepten zoals flanken, hoogtevoordeel, dekkingshoeken en optimale positionering te begrijpen op basis van 3D-omgevingsgeometrie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'emotion modeling' in NPC AI?",
+          es: "¿Qué es el 'modelado de emociones' en IA de PNJ?",
+          de: "Was ist 'Emotionsmodellierung' in NPC-KI?",
+          nl: "Wat is 'emotiemodellering' in NPC AI?"
+        },
+        options: [
+          { en: "Simulating emotional states that affect AI behavior and dialogue", es: "Simular estados emocionales que afectan comportamiento y diálogo IA", de: "Emotionale Zustände simulieren die KI-Verhalten und Dialog beeinflussen", nl: "Emotionele toestanden simuleren die AI-gedrag en dialoog beïnvloeden" },
+          { en: "AI that detects player emotions", es: "IA que detecta emociones del jugador", de: "KI die Spieleremotionen erkennt", nl: "AI die speleremotios detecteert" },
+          { en: "Creating emotional music", es: "Crear música emocional", de: "Emotionale Musik erstellen", nl: "Emotionele muziek creëren" },
+          { en: "Modeling facial expressions only", es: "Modelar solo expresiones faciales", de: "Nur Gesichtsausdrücke modellieren", nl: "Alleen gezichtsuitdrukkingen modelleren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Emotion modeling gives NPCs internal emotional states (happy, angry, fearful) that influence their reactions, creating more believable and dynamic character interactions.",
+          es: "El modelado de emociones da a los PNJ estados emocionales internos (feliz, enojado, temeroso) que influyen en sus reacciones, creando interacciones de personajes más creíbles y dinámicas.",
+          de: "Emotionsmodellierung gibt NPCs interne emotionale Zustände (glücklich, wütend, ängstlich) die ihre Reaktionen beeinflussen, schafft glaubwürdigere und dynamischere Charakterinteraktionen.",
+          nl: "Emotiemodellering geeft NPCs interne emotionele toestanden (blij, boos, angstig) die hun reacties beïnvloeden, waardoor meer geloofwaardige en dynamische karakterinteracties ontstaan."
+        }
+      },
+      {
+        question: {
+          en: "What is 'squad tactics AI' in military shooters?",
+          es: "¿Qué es 'IA de tácticas de escuadrón' en juegos de disparos militares?",
+          de: "Was ist 'Squad-Taktik-KI' in Militär-Shootern?",
+          nl: "Wat is 'squad tactics AI' in militaire shooters?"
+        },
+        options: [
+          { en: "AI systems enabling coordinated military unit behavior", es: "Sistemas IA que habilitan comportamiento coordinado de unidad militar", de: "KI-Systeme die koordiniertes militärisches Einheitsverhalten ermöglichen", nl: "AI-systemen die gecoördineerd militair eenheidsgedrag mogelijk maken" },
+          { en: "AI controlling single soldiers only", es: "IA controlando solo soldados individuales", de: "KI steuert nur einzelne Soldaten", nl: "AI bestuurt alleen individuele soldaten" },
+          { en: "Tactics for player squad management", es: "Tácticas para gestión de escuadrón de jugador", de: "Taktiken für Spieler-Squad-Management", nl: "Tactieken voor speler squad management" },
+          { en: "AI that teaches military tactics", es: "IA que enseña tácticas militares", de: "KI die militärische Taktiken lehrt", nl: "AI die militaire tactieken onderwijst" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Squad tactics AI coordinates multiple AI soldiers to execute formations, covering fire, flanking maneuvers, and suppression tactics like real military units.",
+          es: "La IA de tácticas de escuadrón coordina múltiples soldados IA para ejecutar formaciones, fuego de cobertura, maniobras de flanqueo y tácticas de supresión como unidades militares reales.",
+          de: "Squad-Taktik-KI koordiniert mehrere KI-Soldaten um Formationen, Deckungsfeuer, Flankenmanöver und Unterdrückungstaktiken wie echte militärische Einheiten auszuführen.",
+          nl: "Squad tactics AI coördineert meerdere AI-soldaten om formaties, dekkingsvuur, flankmanoeuvres en onderdrukkingstactieken uit te voeren zoals echte militaire eenheden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'combat simulation' in game AI testing?",
+          es: "¿Qué es la 'simulación de combate' en pruebas de IA de juegos?",
+          de: "Was ist 'Kampfsimulation' beim Testen von Spiele-KI?",
+          nl: "Wat is 'gevechtssimulatie' in game AI-testen?"
+        },
+        options: [
+          { en: "Running automated battles to test and balance AI behavior", es: "Ejecutar batallas automatizadas para probar y equilibrar comportamiento IA", de: "Automatisierte Kämpfe durchführen um KI-Verhalten zu testen und auszubalancieren", nl: "Geautomatiseerde gevechten uitvoeren om AI-gedrag te testen en te balanceren" },
+          { en: "Creating realistic combat graphics", es: "Crear gráficos de combate realistas", de: "Realistische Kampfgrafiken erstellen", nl: "Realistische gevechtsgrafieken creëren" },
+          { en: "Simulating player combat skills", es: "Simular habilidades de combate de jugador", de: "Spieler-Kampffähigkeiten simulieren", nl: "Speler gevechtsvaardigheden simuleren" },
+          { en: "Training players in combat", es: "Entrenar jugadores en combate", de: "Spieler im Kampf trainieren", nl: "Spelers trainen in gevechten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Combat simulation runs thousands of AI vs AI battles to identify balance issues, test strategies, and ensure AI provides appropriate challenge levels.",
+          es: "La simulación de combate ejecuta miles de batallas IA vs IA para identificar problemas de equilibrio, probar estrategias y asegurar que IA proporcione niveles de desafío apropiados.",
+          de: "Kampfsimulation führt tausende KI vs KI Kämpfe durch um Balanceprobleme zu identifizieren, Strategien zu testen und sicherzustellen dass KI angemessene Herausforderungsstufen bietet.",
+          nl: "Gevechtssimulatie voert duizenden AI vs AI gevechten uit om balanceproblemen te identificeren, strategieën te testen en te zorgen dat AI passende uitdagingsniveaus biedt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'attention system' in game AI?",
+          es: "¿Qué es el 'sistema de atención' en IA de juegos?",
+          de: "Was ist 'Aufmerksamkeitssystem' in Spiele-KI?",
+          nl: "Wat is 'aandachtsysteem' in game AI?"
+        },
+        options: [
+          { en: "Mechanism determining what AI should focus on in complex environments", es: "Mecanismo que determina en qué debería enfocarse la IA en entornos complejos", de: "Mechanismus der bestimmt worauf KI sich in komplexen Umgebungen konzentrieren sollte", nl: "Mechanisme dat bepaalt waarop AI zich moet richten in complexe omgevingen" },
+          { en: "System getting player attention", es: "Sistema que obtiene atención del jugador", de: "System das Spieleraufmerksamkeit erhält", nl: "Systeem dat speleraandacht krijgt" },
+          { en: "AI monitoring player attention span", es: "IA monitoreando lapso de atención del jugador", de: "KI überwacht Spieler-Aufmerksamkeitsspanne", nl: "AI monitort speler aandachtsspanne" },
+          { en: "Tutorial system for teaching players", es: "Sistema de tutorial para enseñar jugadores", de: "Tutorial-System zum Lehren von Spielern", nl: "Tutorialsysteem voor het onderwijzen van spelers" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Attention systems help AI prioritize threats, objectives, and stimuli in rich game worlds, preventing information overload and enabling focused decision-making.",
+          es: "Los sistemas de atención ayudan a la IA a priorizar amenazas, objetivos y estímulos en mundos de juego ricos, previniendo sobrecarga de información y habilitando toma de decisiones enfocada.",
+          de: "Aufmerksamkeitssysteme helfen KI Bedrohungen, Ziele und Reize in reichen Spielwelten zu priorisieren, verhindert Informationsüberlastung und ermöglicht fokussierte Entscheidungsfindung.",
+          nl: "Aandachtsystemen helpen AI om bedreigingen, doelstellingen en stimuli te prioriteren in rijke gamewerelden, voorkomt informatieoverbelasting en maakt gefocuste besluitvorming mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What is 'personality simulation' in game NPCs?",
+          es: "¿Qué es la 'simulación de personalidad' en PNJ de juegos?",
+          de: "Was ist 'Persönlichkeitssimulation' bei Spiel-NPCs?",
+          nl: "Wat is 'persoonlijkheidssimulatie' in game NPCs?"
+        },
+        options: [
+          { en: "Creating distinct character traits that influence AI decisions and interactions", es: "Crear rasgos de carácter distintos que influyen en decisiones e interacciones IA", de: "Unterschiedliche Charaktereigenschaften schaffen die KI-Entscheidungen und Interaktionen beeinflussen", nl: "Onderscheidende karaktertrekken creëren die AI-beslissingen en interacties beïnvloeden" },
+          { en: "AI that mimics player personality", es: "IA que imita personalidad del jugador", de: "KI die Spielerpersönlichkeit nachahmt", nl: "AI die spelerpersoonlijkheid nabootst" },
+          { en: "Personality tests for players", es: "Pruebas de personalidad para jugadores", de: "Persönlichkeitstests für Spieler", nl: "Persoonlijkheidstesten voor spelers" },
+          { en: "Random character behavior", es: "Comportamiento aleatorio de personaje", de: "Zufälliges Charakterverhalten", nl: "Willekeurig karaktergedrag" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Personality simulation gives NPCs consistent behavioral patterns - aggressive, cautious, friendly, greedy - making characters feel more realistic and memorable to players.",
+          es: "La simulación de personalidad da a los PNJ patrones de comportamiento consistentes - agresivo, cauteloso, amigable, codicioso - haciendo que los personajes se sientan más realistas y memorables para los jugadores.",
+          de: "Persönlichkeitssimulation gibt NPCs konsistente Verhaltensmuster - aggressiv, vorsichtig, freundlich, gierig - macht Charaktere für Spieler realistischer und einprägsamer.",
+          nl: "Persoonlijkheidssimulatie geeft NPCs consistente gedragspatronen - agressief, voorzichtig, vriendelijk, hebzuchtig - waardoor karakters realistischer en gedenkwaardiger aanvoelen voor spelers."
+        }
+      },
+      {
+        question: {
+          en: "What is 'tactical positioning' in shooter AI?",
+          es: "¿Qué es el 'posicionamiento táctico' en IA de juegos de disparos?",
+          de: "Was ist 'taktische Positionierung' in Shooter-KI?",
+          nl: "Wat is 'tactische positionering' in shooter AI?"
+        },
+        options: [
+          { en: "AI selecting optimal combat positions based on cover, angles, and sightlines", es: "IA seleccionando posiciones de combate óptimas basadas en cobertura, ángulos y líneas de visión", de: "KI wählt optimale Kampfpositionen basierend auf Deckung, Winkeln und Sichtlinien", nl: "AI selecteert optimale gevechtsposities op basis van dekking, hoeken en zichtlijnen" },
+          { en: "Positioning game UI elements", es: "Posicionar elementos de interfaz de juego", de: "Positionierung von Spiel-UI-Elementen", nl: "Positionering van game UI-elementen" },
+          { en: "AI movement speed settings", es: "Configuraciones de velocidad de movimiento IA", de: "KI-Bewegungsgeschwindigkeitseinstellungen", nl: "AI bewegingssnelheidsinstellingen" },
+          { en: "Random location selection", es: "Selección de ubicación aleatoria", de: "Zufällige Standortwahl", nl: "Willekeurige locatieselectie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tactical positioning AI evaluates the battlefield to find spots with good cover, clear firing lanes, and advantageous angles, mimicking skilled player behavior.",
+          es: "La IA de posicionamiento táctico evalúa el campo de batalla para encontrar lugares con buena cobertura, carriles de disparo claros y ángulos ventajosos, imitando comportamiento de jugador hábil.",
+          de: "Taktische Positionierungs-KI bewertet das Schlachtfeld um Spots mit guter Deckung, klaren Schusslinien und vorteilhaften Winkeln zu finden, ahmt geschicktes Spielerverhalten nach.",
+          nl: "Tactische positionering AI evalueert het slagveld om plekken te vinden met goede dekking, duidelijke schootsbanen en voordelige hoeken, bootst vaardig spelergedrag na."
+        }
+      },
+      {
+        question: {
+          en: "What is 'learning from death' in adaptive game AI?",
+          es: "¿Qué es 'aprender de la muerte' en IA de juegos adaptativa?",
+          de: "Was ist 'Lernen aus dem Tod' in adaptiver Spiele-KI?",
+          nl: "Wat is 'leren van de dood' in adaptieve game AI?"
+        },
+        options: [
+          { en: "AI analyzing why it failed and adjusting tactics accordingly", es: "IA analizando por qué falló y ajustando tácticas en consecuencia", de: "KI analysiert warum sie scheiterte und passt Taktiken entsprechend an", nl: "AI analyseert waarom het faalde en past tactieken dienovereenkomstig aan" },
+          { en: "AI respawning after death", es: "IA reapareciendo después de morir", de: "KI respawnt nach dem Tod", nl: "AI respawnt na de dood" },
+          { en: "Teaching players about death mechanics", es: "Enseñar jugadores sobre mecánicas de muerte", de: "Spielern über Todesmechaniken lehren", nl: "Spelers leren over doodsmechanismen" },
+          { en: "Tracking player death statistics", es: "Rastrear estadísticas de muerte de jugador", de: "Spieler-Todesstatistiken verfolgen", nl: "Speler doodstatistieken bijhouden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Some adaptive AI systems analyze their defeats to identify weaknesses in their strategy, then modify their approach to avoid repeating the same mistakes.",
+          es: "Algunos sistemas IA adaptativos analizan sus derrotas para identificar debilidades en su estrategia, luego modifican su enfoque para evitar repetir los mismos errores.",
+          de: "Einige adaptive KI-Systeme analysieren ihre Niederlagen um Schwächen in ihrer Strategie zu identifizieren, dann modifizieren ihren Ansatz um dieselben Fehler zu vermeiden.",
+          nl: "Sommige adaptieve AI-systemen analyseren hun nederlagen om zwakke punten in hun strategie te identificeren, passen dan hun aanpak aan om dezelfde fouten te vermijden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'context-sensitive behavior' in NPC AI?",
+          es: "¿Qué es el 'comportamiento sensible al contexto' en IA de PNJ?",
+          de: "Was ist 'kontextsensitives Verhalten' in NPC-KI?",
+          nl: "Wat is 'contextgevoelig gedrag' in NPC AI?"
+        },
+        options: [
+          { en: "AI behavior that changes based on current situation and environment", es: "Comportamiento IA que cambia según situación actual y entorno", de: "KI-Verhalten das sich basierend auf aktueller Situation und Umgebung ändert", nl: "AI-gedrag dat verandert op basis van huidige situatie en omgeving" },
+          { en: "AI that reads context menus", es: "IA que lee menús contextuales", de: "KI die Kontextmenüs liest", nl: "AI die contextmenu's leest" },
+          { en: "Behavior based on text context only", es: "Comportamiento basado solo en contexto de texto", de: "Verhalten basiert nur auf Textkontext", nl: "Gedrag gebaseerd op alleen tekstcontext" },
+          { en: "AI adjusting to hardware context", es: "IA ajustándose al contexto de hardware", de: "KI passt sich an Hardware-Kontext an", nl: "AI past zich aan hardwarecontext aan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Context-sensitive AI behaves differently depending on factors like location (town vs wilderness), time of day, weather, nearby characters, or recent events.",
+          es: "La IA sensible al contexto se comporta diferente dependiendo de factores como ubicación (ciudad vs naturaleza), hora del día, clima, personajes cercanos o eventos recientes.",
+          de: "Kontextsensitive KI verhält sich unterschiedlich abhängig von Faktoren wie Ort (Stadt vs Wildnis), Tageszeit, Wetter, nahen Charakteren oder kürzlichen Ereignissen.",
+          nl: "Contextgevoelige AI gedraagt zich anders afhankelijk van factoren zoals locatie (stad vs wildernis), tijd van de dag, weer, nabije karakters of recente gebeurtenissen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'level-of-detail AI' in large-scale games?",
+          es: "¿Qué es 'IA de nivel de detalle' en juegos a gran escala?",
+          de: "Was ist 'Level-of-Detail-KI' in großen Spielen?",
+          nl: "Wat is 'level-of-detail AI' in grootschalige games?"
+        },
+        options: [
+          { en: "Simplifying AI calculations for distant or non-critical characters", es: "Simplificar cálculos IA para personajes distantes o no críticos", de: "Vereinfachung von KI-Berechnungen für entfernte oder nicht kritische Charaktere", nl: "Vereenvoudigen van AI-berekeningen voor verre of niet-kritieke karakters" },
+          { en: "Increasing graphics detail for AI", es: "Aumentar detalle gráfico para IA", de: "Grafikdetail für KI erhöhen", nl: "Grafisch detail voor AI verhogen" },
+          { en: "AI that adjusts game difficulty levels", es: "IA que ajusta niveles de dificultad del juego", de: "KI die Spielschwierigkeitsstufen anpasst", nl: "AI die spelmoeilijkheidsniveaus aanpast" },
+          { en: "Detailed AI personality systems", es: "Sistemas detallados de personalidad IA", de: "Detaillierte KI-Persönlichkeitssysteme", nl: "Gedetailleerde AI-persoonlijkheidssystemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Level-of-detail AI optimizes performance by running full AI only for nearby/important characters, while using simpler logic for distant NPCs the player won't closely interact with.",
+          es: "La IA de nivel de detalle optimiza rendimiento ejecutando IA completa solo para personajes cercanos/importantes, mientras usa lógica más simple para PNJ distantes con los que el jugador no interactuará de cerca.",
+          de: "Level-of-Detail-KI optimiert Leistung durch Ausführung vollständiger KI nur für nahe/wichtige Charaktere, während einfachere Logik für entfernte NPCs verwendet wird mit denen der Spieler nicht eng interagiert.",
+          nl: "Level-of-detail AI optimaliseert prestaties door volledige AI alleen uit te voeren voor nabije/belangrijke karakters, terwijl eenvoudigere logica wordt gebruikt voor verre NPCs waarmee de speler niet nauw interacteert."
+        }
+      },
+      {
+        question: {
+          en: "What is 'formation AI' in strategy and combat games?",
+          es: "¿Qué es 'IA de formación' en juegos de estrategia y combate?",
+          de: "Was ist 'Formations-KI' in Strategie- und Kampfspielen?",
+          nl: "Wat is 'formatie AI' in strategie- en gevechts games?"
+        },
+        options: [
+          { en: "AI maintaining tactical unit arrangements during movement and combat", es: "IA manteniendo arreglos tácticos de unidad durante movimiento y combate", de: "KI erhält taktische Einheitenanordnungen während Bewegung und Kampf aufrecht", nl: "AI handhaaft tactische eenheidsopstellingen tijdens beweging en gevecht" },
+          { en: "AI creating game terrain formations", es: "IA creando formaciones de terreno del juego", de: "KI erstellt Spiel-Terrainformationen", nl: "AI creëert game terreinformaties" },
+          { en: "Formation of AI code structures", es: "Formación de estructuras de código IA", de: "Bildung von KI-Codestrukturen", nl: "Formatie van AI-codestructuren" },
+          { en: "AI organizing player teams", es: "IA organizando equipos de jugador", de: "KI organisiert Spielerteams", nl: "AI organiseert spelerteams" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Formation AI keeps military units or squad members in coordinated arrangements (line, wedge, column) for tactical advantages, automatically adjusting as units move.",
+          es: "La IA de formación mantiene unidades militares o miembros de escuadrón en arreglos coordinados (línea, cuña, columna) para ventajas tácticas, ajustándose automáticamente mientras las unidades se mueven.",
+          de: "Formations-KI hält militärische Einheiten oder Squad-Mitglieder in koordinierten Anordnungen (Linie, Keil, Spalte) für taktische Vorteile, passt sich automatisch an während Einheiten sich bewegen.",
+          nl: "Formatie AI houdt militaire eenheden of squad-leden in gecoördineerde opstellingen (lijn, wig, kolom) voor tactische voordelen, past zich automatisch aan terwijl eenheden bewegen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'threat assessment' in combat AI?",
+          es: "¿Qué es la 'evaluación de amenazas' en IA de combate?",
+          de: "Was ist 'Bedrohungsbewertung' in Kampf-KI?",
+          nl: "Wat is 'dreiging assessment' in gevechts AI?"
+        },
+        options: [
+          { en: "AI evaluating which enemies pose the greatest danger", es: "IA evaluando qué enemigos representan el mayor peligro", de: "KI bewertet welche Feinde die größte Gefahr darstellen", nl: "AI evalueert welke vijanden het grootste gevaar vormen" },
+          { en: "Assessing game performance threats", es: "Evaluar amenazas de rendimiento del juego", de: "Bewertung von Spiel-Leistungsbedrohungen", nl: "Beoordelen van game prestatiebedreigingen" },
+          { en: "AI detecting cheating players", es: "IA detectando jugadores que hacen trampa", de: "KI erkennt betrügende Spieler", nl: "AI detecteert valsspelende spelers" },
+          { en: "Security threat scanning", es: "Escaneo de amenazas de seguridad", de: "Sicherheitsbedrohungs-Scanning", nl: "Beveiligingsbedreigingen scannen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Threat assessment algorithms help AI prioritize targets based on factors like proximity, damage potential, health level, and strategic importance.",
+          es: "Los algoritmos de evaluación de amenazas ayudan a la IA a priorizar objetivos basándose en factores como proximidad, potencial de daño, nivel de salud e importancia estratégica.",
+          de: "Bedrohungsbewertungs-Algorithmen helfen KI Ziele zu priorisieren basierend auf Faktoren wie Nähe, Schadenspotential, Gesundheitslevel und strategische Wichtigkeit.",
+          nl: "Dreiging assessment algoritmes helpen AI doelwitten te prioriteren op basis van factoren zoals nabijheid, schadepotentieel, gezondheidsniveau en strategisch belang."
+        }
+      },
+      {
+        question: {
+          en: "What is 'suppression behavior' in tactical shooter AI?",
+          es: "¿Qué es el 'comportamiento de supresión' en IA de juegos de disparos tácticos?",
+          de: "Was ist 'Unterdrückungsverhalten' in taktischer Shooter-KI?",
+          nl: "Wat is 'onderdrukkingsgedrag' in tactische shooter AI?"
+        },
+        options: [
+          { en: "AI using sustained fire to keep enemies pinned down", es: "IA usando fuego sostenido para mantener enemigos inmovilizados", de: "KI nutzt anhaltendes Feuer um Feinde festzunageln", nl: "AI gebruikt aanhoudend vuur om vijanden vastgepind te houden" },
+          { en: "AI suppressing error messages", es: "IA suprimiendo mensajes de error", de: "KI unterdrückt Fehlermeldungen", nl: "AI onderdrukt foutmeldingen" },
+          { en: "Suppressing player audio", es: "Suprimir audio del jugador", de: "Spieler-Audio unterdrücken", nl: "Speler audio onderdrukken" },
+          { en: "AI reducing game difficulty", es: "IA reduciendo dificultad del juego", de: "KI reduziert Spielschwierigkeit", nl: "AI vermindert spelmoeilijkheid" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Suppression AI fires at enemy positions to force them into cover and limit their movement, coordinating with teammates who can then flank or advance.",
+          es: "La IA de supresión dispara a posiciones enemigas para forzarlas a cubrirse y limitar su movimiento, coordinándose con compañeros que pueden entonces flanquear o avanzar.",
+          de: "Unterdrückungs-KI feuert auf Feindesstellungen um sie in Deckung zu zwingen und ihre Bewegung zu begrenzen, koordiniert mit Teamkollegen die dann flankieren oder vorrücken können.",
+          nl: "Onderdrukkings AI vuurt op vijandelijke posities om hen in dekking te dwingen en hun beweging te beperken, coördinerend met teamgenoten die dan kunnen flanken of oprukken."
+        }
       }
     ]
   };

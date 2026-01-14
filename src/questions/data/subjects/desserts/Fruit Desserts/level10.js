@@ -427,10 +427,430 @@
                     es: "Las proteínas estructurantes de hielo (ISPs) a concentración de 0,01-0,1% inhiben el crecimiento de cristales de hielo mediante mecanismo de adsorción-inhibición, produciendo cristales <30 μm para textura suave superior comparada con métodos convencionales.",
                     de: "Eisstrukturierende Proteine (ISPs) bei 0,01-0,1% Konzentration hemmen Eiskristallwachstum durch Adsorptions-Inhibitionsmechanismus und produzieren Kristalle <30 μm für überlegene glatte Textur im Vergleich zu konventionellen Methoden.",
                     nl: "Ijs structurerende eiwitten (ISPs) bij 0,01-0,1% concentratie remmen ijs kristal groei door adsorptie-inhibitie mechanisme, kristallen <30 μm producerend voor superieure gladde textuur vergeleken met conventionele methoden."
-                }
-            }
-        ]
-    };
+                }    },
+    {
+      question: {
+        en: "What is a cobbler?",
+        es: "What is a cobbler?",
+        de: "What is a cobbler?",
+        nl: "What is a cobbler?"
+      },
+      options: [
+        { en: "Fruit with biscuit-like topping", es: "Fruit with biscuit-like topping", de: "Fruit with biscuit-like topping", nl: "Fruit with biscuit-like topping" },
+        { en: "Fruit pie with two crusts", es: "Fruit pie with two crusts", de: "Fruit pie with two crusts", nl: "Fruit pie with two crusts" },
+        { en: "Layered fruit dessert", es: "Layered fruit dessert", de: "Layered fruit dessert", nl: "Layered fruit dessert" },
+        { en: "Fruit with ice cream", es: "Fruit with ice cream", de: "Fruit with ice cream", nl: "Fruit with ice cream" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Cobbler consists of fruit topped with a biscuit-like dough that resembles a cobblestone street when baked.",
+        es: "Cobbler consists of fruit topped with a biscuit-like dough that resembles a cobblestone street when baked.",
+        de: "Cobbler consists of fruit topped with a biscuit-like dough that resembles a cobblestone street when baked.",
+        nl: "Cobbler consists of fruit topped with a biscuit-like dough that resembles a cobblestone street when baked."
+      }
+    },
+    {
+      question: {
+        en: "What is a crisp (or crumble)?",
+        es: "What is a crisp (or crumble)?",
+        de: "What is a crisp (or crumble)?",
+        nl: "What is a crisp (or crumble)?"
+      },
+      options: [
+        { en: "Fruit with streusel topping", es: "Fruit with streusel topping", de: "Fruit with streusel topping", nl: "Fruit with streusel topping" },
+        { en: "Fruit with pastry crust", es: "Fruit with pastry crust", de: "Fruit with pastry crust", nl: "Fruit with pastry crust" },
+        { en: "Fruit with meringue", es: "Fruit with meringue", de: "Fruit with meringue", nl: "Fruit with meringue" },
+        { en: "Fruit with cake", es: "Fruit with cake", de: "Fruit with cake", nl: "Fruit with cake" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A crisp or crumble features fruit topped with a streusel-like mixture of butter, sugar, flour, and sometimes oats.",
+        es: "A crisp or crumble features fruit topped with a streusel-like mixture of butter, sugar, flour, and sometimes oats.",
+        de: "A crisp or crumble features fruit topped with a streusel-like mixture of butter, sugar, flour, and sometimes oats.",
+        nl: "A crisp or crumble features fruit topped with a streusel-like mixture of butter, sugar, flour, and sometimes oats."
+      }
+    },
+    {
+      question: {
+        en: "What is a fruit fool?",
+        es: "What is a fruit fool?",
+        de: "What is a fruit fool?",
+        nl: "What is a fruit fool?"
+      },
+      options: [
+        { en: "Pureed fruit mixed with whipped cream", es: "Pureed fruit mixed with whipped cream", de: "Pureed fruit mixed with whipped cream", nl: "Pureed fruit mixed with whipped cream" },
+        { en: "Fruit pie", es: "Fruit pie", de: "Fruit pie", nl: "Fruit pie" },
+        { en: "Fruit tart", es: "Fruit tart", de: "Fruit tart", nl: "Fruit tart" },
+        { en: "Fruit cake", es: "Fruit cake", de: "Fruit cake", nl: "Fruit cake" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A fruit fool is a traditional British dessert of pureed or stewed fruit folded into whipped cream.",
+        es: "A fruit fool is a traditional British dessert of pureed or stewed fruit folded into whipped cream.",
+        de: "A fruit fool is a traditional British dessert of pureed or stewed fruit folded into whipped cream.",
+        nl: "A fruit fool is a traditional British dessert of pureed or stewed fruit folded into whipped cream."
+      }
+    },
+    {
+      question: {
+        en: "What is poached fruit?",
+        es: "What is poached fruit?",
+        de: "What is poached fruit?",
+        nl: "What is poached fruit?"
+      },
+      options: [
+        { en: "Fruit gently simmered in liquid", es: "Fruit gently simmered in liquid", de: "Fruit gently simmered in liquid", nl: "Fruit gently simmered in liquid" },
+        { en: "Grilled fruit", es: "Grilled fruit", de: "Grilled fruit", nl: "Grilled fruit" },
+        { en: "Baked fruit", es: "Baked fruit", de: "Baked fruit", nl: "Baked fruit" },
+        { en: "Raw fruit", es: "Raw fruit", de: "Raw fruit", nl: "Raw fruit" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Poached fruit is gently cooked by simmering in liquid such as wine, syrup, or juice until tender.",
+        es: "Poached fruit is gently cooked by simmering in liquid such as wine, syrup, or juice until tender.",
+        de: "Poached fruit is gently cooked by simmering in liquid such as wine, syrup, or juice until tender.",
+        nl: "Poached fruit is gently cooked by simmering in liquid such as wine, syrup, or juice until tender."
+      }
+    },
+    {
+      question: {
+        en: "What is a clafoutis?",
+        es: "What is a clafoutis?",
+        de: "What is a clafoutis?",
+        nl: "What is a clafoutis?"
+      },
+      options: [
+        { en: "French baked fruit dessert with custard", es: "French baked fruit dessert with custard", de: "French baked fruit dessert with custard", nl: "French baked fruit dessert with custard" },
+        { en: "Fruit tart", es: "Fruit tart", de: "Fruit tart", nl: "Fruit tart" },
+        { en: "Fruit compote", es: "Fruit compote", de: "Fruit compote", nl: "Fruit compote" },
+        { en: "Fruit pie", es: "Fruit pie", de: "Fruit pie", nl: "Fruit pie" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Clafoutis is a French dessert with fruit (traditionally cherries) covered with a thick custard-like batter and baked.",
+        es: "Clafoutis is a French dessert with fruit (traditionally cherries) covered with a thick custard-like batter and baked.",
+        de: "Clafoutis is a French dessert with fruit (traditionally cherries) covered with a thick custard-like batter and baked.",
+        nl: "Clafoutis is a French dessert with fruit (traditionally cherries) covered with a thick custard-like batter and baked."
+      }
+    },
+    {
+      question: {
+        en: "What is a fruit compote?",
+        es: "What is a fruit compote?",
+        de: "What is a fruit compote?",
+        nl: "What is a fruit compote?"
+      },
+      options: [
+        { en: "Fruit stewed in sugar syrup", es: "Fruit stewed in sugar syrup", de: "Fruit stewed in sugar syrup", nl: "Fruit stewed in sugar syrup" },
+        { en: "Raw fruit salad", es: "Raw fruit salad", de: "Raw fruit salad", nl: "Raw fruit salad" },
+        { en: "Fruit pie", es: "Fruit pie", de: "Fruit pie", nl: "Fruit pie" },
+        { en: "Dried fruit", es: "Dried fruit", de: "Dried fruit", nl: "Dried fruit" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Compote is fruit slowly cooked in sugar syrup, creating a chunky, syrupy fruit mixture.",
+        es: "Compote is fruit slowly cooked in sugar syrup, creating a chunky, syrupy fruit mixture.",
+        de: "Compote is fruit slowly cooked in sugar syrup, creating a chunky, syrupy fruit mixture.",
+        nl: "Compote is fruit slowly cooked in sugar syrup, creating a chunky, syrupy fruit mixture."
+      }
+    },
+    {
+      question: {
+        en: "What is Pavlova?",
+        es: "What is Pavlova?",
+        de: "What is Pavlova?",
+        nl: "What is Pavlova?"
+      },
+      options: [
+        { en: "Meringue dessert topped with fruit and cream", es: "Meringue dessert topped with fruit and cream", de: "Meringue dessert topped with fruit and cream", nl: "Meringue dessert topped with fruit and cream" },
+        { en: "Fruit cake", es: "Fruit cake", de: "Fruit cake", nl: "Fruit cake" },
+        { en: "Fruit tart", es: "Fruit tart", de: "Fruit tart", nl: "Fruit tart" },
+        { en: "Fruit ice cream", es: "Fruit ice cream", de: "Fruit ice cream", nl: "Fruit ice cream" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pavlova is a meringue-based dessert with a crisp crust and soft inside, topped with whipped cream and fresh fruit.",
+        es: "Pavlova is a meringue-based dessert with a crisp crust and soft inside, topped with whipped cream and fresh fruit.",
+        de: "Pavlova is a meringue-based dessert with a crisp crust and soft inside, topped with whipped cream and fresh fruit.",
+        nl: "Pavlova is a meringue-based dessert with a crisp crust and soft inside, topped with whipped cream and fresh fruit."
+      }
+    },
+    {
+      question: {
+        en: "What is a fruit tart?",
+        es: "What is a fruit tart?",
+        de: "What is a fruit tart?",
+        nl: "What is a fruit tart?"
+      },
+      options: [
+        { en: "Pastry shell filled with custard and fruit", es: "Pastry shell filled with custard and fruit", de: "Pastry shell filled with custard and fruit", nl: "Pastry shell filled with custard and fruit" },
+        { en: "Fruit pie", es: "Fruit pie", de: "Fruit pie", nl: "Fruit pie" },
+        { en: "Fruit cake", es: "Fruit cake", de: "Fruit cake", nl: "Fruit cake" },
+        { en: "Fruit pudding", es: "Fruit pudding", de: "Fruit pudding", nl: "Fruit pudding" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A fruit tart has a pastry shell filled with pastry cream or custard and topped with fresh fruit, often glazed.",
+        es: "A fruit tart has a pastry shell filled with pastry cream or custard and topped with fresh fruit, often glazed.",
+        de: "A fruit tart has a pastry shell filled with pastry cream or custard and topped with fresh fruit, often glazed.",
+        nl: "A fruit tart has a pastry shell filled with pastry cream or custard and topped with fresh fruit, often glazed."
+      }
+    },
+    {
+      question: {
+        en: "What is bananas Foster?",
+        es: "What is bananas Foster?",
+        de: "What is bananas Foster?",
+        nl: "What is bananas Foster?"
+      },
+      options: [
+        { en: "Bananas in caramel rum sauce, often flambéed", es: "Bananas in caramel rum sauce, often flambéed", de: "Bananas in caramel rum sauce, often flambéed", nl: "Bananas in caramel rum sauce, often flambéed" },
+        { en: "Banana bread", es: "Banana bread", de: "Banana bread", nl: "Banana bread" },
+        { en: "Banana cream pie", es: "Banana cream pie", de: "Banana cream pie", nl: "Banana cream pie" },
+        { en: "Banana split", es: "Banana split", de: "Banana split", nl: "Banana split" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Bananas Foster features bananas cooked in butter, brown sugar, cinnamon, and rum sauce, often flambéed tableside.",
+        es: "Bananas Foster features bananas cooked in butter, brown sugar, cinnamon, and rum sauce, often flambéed tableside.",
+        de: "Bananas Foster features bananas cooked in butter, brown sugar, cinnamon, and rum sauce, often flambéed tableside.",
+        nl: "Bananas Foster features bananas cooked in butter, brown sugar, cinnamon, and rum sauce, often flambéed tableside."
+      }
+    },
+    {
+      question: {
+        en: "What is a buckle?",
+        es: "What is a buckle?",
+        de: "What is a buckle?",
+        nl: "What is a buckle?"
+      },
+      options: [
+        { en: "Cake with fruit mixed in, streusel topping", es: "Cake with fruit mixed in, streusel topping", de: "Cake with fruit mixed in, streusel topping", nl: "Cake with fruit mixed in, streusel topping" },
+        { en: "Fruit pie", es: "Fruit pie", de: "Fruit pie", nl: "Fruit pie" },
+        { en: "Fruit tart", es: "Fruit tart", de: "Fruit tart", nl: "Fruit tart" },
+        { en: "Fruit cobbler", es: "Fruit cobbler", de: "Fruit cobbler", nl: "Fruit cobbler" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A buckle is a cake with fruit mixed into the batter and a streusel topping that 'buckles' as it bakes.",
+        es: "A buckle is a cake with fruit mixed into the batter and a streusel topping that 'buckles' as it bakes.",
+        de: "A buckle is a cake with fruit mixed into the batter and a streusel topping that 'buckles' as it bakes.",
+        nl: "A buckle is a cake with fruit mixed into the batter and a streusel topping that 'buckles' as it bakes."
+      }
+    },
+    {
+      question: {
+        en: "What is a grunt or slump?",
+        es: "What is a grunt or slump?",
+        de: "What is a grunt or slump?",
+        nl: "What is a grunt or slump?"
+      },
+      options: [
+        { en: "Fruit stewed with dumpling topping", es: "Fruit stewed with dumpling topping", de: "Fruit stewed with dumpling topping", nl: "Fruit stewed with dumpling topping" },
+        { en: "Fruit pie", es: "Fruit pie", de: "Fruit pie", nl: "Fruit pie" },
+        { en: "Fruit tart", es: "Fruit tart", de: "Fruit tart", nl: "Fruit tart" },
+        { en: "Fruit cake", es: "Fruit cake", de: "Fruit cake", nl: "Fruit cake" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A grunt (or slump) is fruit stewed on the stovetop with biscuit-like dumplings steamed on top.",
+        es: "A grunt (or slump) is fruit stewed on the stovetop with biscuit-like dumplings steamed on top.",
+        de: "A grunt (or slump) is fruit stewed on the stovetop with biscuit-like dumplings steamed on top.",
+        nl: "A grunt (or slump) is fruit stewed on the stovetop with biscuit-like dumplings steamed on top."
+      }
+    },
+    {
+      question: {
+        en: "What is Eton mess?",
+        es: "What is Eton mess?",
+        de: "What is Eton mess?",
+        nl: "What is Eton mess?"
+      },
+      options: [
+        { en: "Meringue, cream, and berries mixed together", es: "Meringue, cream, and berries mixed together", de: "Meringue, cream, and berries mixed together", nl: "Meringue, cream, and berries mixed together" },
+        { en: "Fruit tart", es: "Fruit tart", de: "Fruit tart", nl: "Fruit tart" },
+        { en: "Fruit cake", es: "Fruit cake", de: "Fruit cake", nl: "Fruit cake" },
+        { en: "Fruit pie", es: "Fruit pie", de: "Fruit pie", nl: "Fruit pie" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Eton mess is a British dessert of crushed meringue, whipped cream, and strawberries mixed together.",
+        es: "Eton mess is a British dessert of crushed meringue, whipped cream, and strawberries mixed together.",
+        de: "Eton mess is a British dessert of crushed meringue, whipped cream, and strawberries mixed together.",
+        nl: "Eton mess is a British dessert of crushed meringue, whipped cream, and strawberries mixed together."
+      }
+    },
+    {
+      question: {
+        en: "What is a fruit galette?",
+        es: "What is a fruit galette?",
+        de: "What is a fruit galette?",
+        nl: "What is a fruit galette?"
+      },
+      options: [
+        { en: "Free-form rustic fruit tart", es: "Free-form rustic fruit tart", de: "Free-form rustic fruit tart", nl: "Free-form rustic fruit tart" },
+        { en: "Layered fruit cake", es: "Layered fruit cake", de: "Layered fruit cake", nl: "Layered fruit cake" },
+        { en: "Fruit pudding", es: "Fruit pudding", de: "Fruit pudding", nl: "Fruit pudding" },
+        { en: "Fruit pie", es: "Fruit pie", de: "Fruit pie", nl: "Fruit pie" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A galette is a free-form tart with fruit in the center and pastry edges folded over, more rustic than a traditional tart.",
+        es: "A galette is a free-form tart with fruit in the center and pastry edges folded over, more rustic than a traditional tart.",
+        de: "A galette is a free-form tart with fruit in the center and pastry edges folded over, more rustic than a traditional tart.",
+        nl: "A galette is a free-form tart with fruit in the center and pastry edges folded over, more rustic than a traditional tart."
+      }
+    },
+    {
+      question: {
+        en: "What is flambé?",
+        es: "What is flambé?",
+        de: "What is flambé?",
+        nl: "What is flambé?"
+      },
+      options: [
+        { en: "Setting alcohol-soaked dessert on fire", es: "Setting alcohol-soaked dessert on fire", de: "Setting alcohol-soaked dessert on fire", nl: "Setting alcohol-soaked dessert on fire" },
+        { en: "Grilling fruit", es: "Grilling fruit", de: "Grilling fruit", nl: "Grilling fruit" },
+        { en: "Caramelizing sugar", es: "Caramelizing sugar", de: "Caramelizing sugar", nl: "Caramelizing sugar" },
+        { en: "Freezing dessert", es: "Freezing dessert", de: "Freezing dessert", nl: "Freezing dessert" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Flambé involves pouring liquor over a dessert and igniting it, creating dramatic flames and enhancing flavor.",
+        es: "Flambé involves pouring liquor over a dessert and igniting it, creating dramatic flames and enhancing flavor.",
+        de: "Flambé involves pouring liquor over a dessert and igniting it, creating dramatic flames and enhancing flavor.",
+        nl: "Flambé involves pouring liquor over a dessert and igniting it, creating dramatic flames and enhancing flavor."
+      }
+    },
+    {
+      question: {
+        en: "What is a brown Betty?",
+        es: "What is a brown Betty?",
+        de: "What is a brown Betty?",
+        nl: "What is a brown Betty?"
+      },
+      options: [
+        { en: "Fruit dessert with buttered breadcrumb layers", es: "Fruit dessert with buttered breadcrumb layers", de: "Fruit dessert with buttered breadcrumb layers", nl: "Fruit dessert with buttered breadcrumb layers" },
+        { en: "Fruit pie", es: "Fruit pie", de: "Fruit pie", nl: "Fruit pie" },
+        { en: "Fruit tart", es: "Fruit tart", de: "Fruit tart", nl: "Fruit tart" },
+        { en: "Fruit cake", es: "Fruit cake", de: "Fruit cake", nl: "Fruit cake" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Brown Betty is a fruit dessert made with layers of spiced fruit and buttered breadcrumbs.",
+        es: "Brown Betty is a fruit dessert made with layers of spiced fruit and buttered breadcrumbs.",
+        de: "Brown Betty is a fruit dessert made with layers of spiced fruit and buttered breadcrumbs.",
+        nl: "Brown Betty is a fruit dessert made with layers of spiced fruit and buttered breadcrumbs."
+      }
+    },
+    {
+      question: {
+        en: "What is macerated fruit?",
+        es: "What is macerated fruit?",
+        de: "What is macerated fruit?",
+        nl: "What is macerated fruit?"
+      },
+      options: [
+        { en: "Fruit soaked in liquid and sugar", es: "Fruit soaked in liquid and sugar", de: "Fruit soaked in liquid and sugar", nl: "Fruit soaked in liquid and sugar" },
+        { en: "Grilled fruit", es: "Grilled fruit", de: "Grilled fruit", nl: "Grilled fruit" },
+        { en: "Pureed fruit", es: "Pureed fruit", de: "Pureed fruit", nl: "Pureed fruit" },
+        { en: "Dried fruit", es: "Dried fruit", de: "Dried fruit", nl: "Dried fruit" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Macerated fruit is soaked in liquid (wine, liqueur, juice) with sugar, which draws out juices and creates a syrup.",
+        es: "Macerated fruit is soaked in liquid (wine, liqueur, juice) with sugar, which draws out juices and creates a syrup.",
+        de: "Macerated fruit is soaked in liquid (wine, liqueur, juice) with sugar, which draws out juices and creates a syrup.",
+        nl: "Macerated fruit is soaked in liquid (wine, liqueur, juice) with sugar, which draws out juices and creates a syrup."
+      }
+    },
+    {
+      question: {
+        en: "What is the best way to prevent fruit pies from becoming soggy?",
+        es: "What is the best way to prevent fruit pies from becoming soggy?",
+        de: "What is the best way to prevent fruit pies from becoming soggy?",
+        nl: "What is the best way to prevent fruit pies from becoming soggy?"
+      },
+      options: [
+        { en: "Blind bake crust and use thickener", es: "Blind bake crust and use thickener", de: "Blind bake crust and use thickener", nl: "Blind bake crust and use thickener" },
+        { en: "Use less fruit", es: "Use less fruit", de: "Use less fruit", nl: "Use less fruit" },
+        { en: "Bake at low temperature", es: "Bake at low temperature", de: "Bake at low temperature", nl: "Bake at low temperature" },
+        { en: "Add extra sugar", es: "Add extra sugar", de: "Add extra sugar", nl: "Add extra sugar" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Blind baking the bottom crust and using proper thickener (cornstarch, tapioca) prevents soggy fruit pie bottoms.",
+        es: "Blind baking the bottom crust and using proper thickener (cornstarch, tapioca) prevents soggy fruit pie bottoms.",
+        de: "Blind baking the bottom crust and using proper thickener (cornstarch, tapioca) prevents soggy fruit pie bottoms.",
+        nl: "Blind baking the bottom crust and using proper thickener (cornstarch, tapioca) prevents soggy fruit pie bottoms."
+      }
+    },
+    {
+      question: {
+        en: "What is a summer pudding?",
+        es: "What is a summer pudding?",
+        de: "What is a summer pudding?",
+        nl: "What is a summer pudding?"
+      },
+      options: [
+        { en: "Bread-lined mold filled with stewed berries", es: "Bread-lined mold filled with stewed berries", de: "Bread-lined mold filled with stewed berries", nl: "Bread-lined mold filled with stewed berries" },
+        { en: "Fruit pie", es: "Fruit pie", de: "Fruit pie", nl: "Fruit pie" },
+        { en: "Fruit tart", es: "Fruit tart", de: "Fruit tart", nl: "Fruit tart" },
+        { en: "Fruit ice cream", es: "Fruit ice cream", de: "Fruit ice cream", nl: "Fruit ice cream" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Summer pudding is a British dessert of bread slices lining a mold, filled with stewed summer berries, then weighted and chilled.",
+        es: "Summer pudding is a British dessert of bread slices lining a mold, filled with stewed summer berries, then weighted and chilled.",
+        de: "Summer pudding is a British dessert of bread slices lining a mold, filled with stewed summer berries, then weighted and chilled.",
+        nl: "Summer pudding is a British dessert of bread slices lining a mold, filled with stewed summer berries, then weighted and chilled."
+      }
+    },
+    {
+      question: {
+        en: "What is a fruit charlotte?",
+        es: "What is a fruit charlotte?",
+        de: "What is a fruit charlotte?",
+        nl: "What is a fruit charlotte?"
+      },
+      options: [
+        { en: "Dessert with bread/ladyfingers lining mold, filled with fruit", es: "Dessert with bread/ladyfingers lining mold, filled with fruit", de: "Dessert with bread/ladyfingers lining mold, filled with fruit", nl: "Dessert with bread/ladyfingers lining mold, filled with fruit" },
+        { en: "Fruit tart", es: "Fruit tart", de: "Fruit tart", nl: "Fruit tart" },
+        { en: "Fruit pie", es: "Fruit pie", de: "Fruit pie", nl: "Fruit pie" },
+        { en: "Fruit cake", es: "Fruit cake", de: "Fruit cake", nl: "Fruit cake" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A charlotte features bread slices or ladyfingers lining a mold, filled with fruit and custard or mousse.",
+        es: "A charlotte features bread slices or ladyfingers lining a mold, filled with fruit and custard or mousse.",
+        de: "A charlotte features bread slices or ladyfingers lining a mold, filled with fruit and custard or mousse.",
+        nl: "A charlotte features bread slices or ladyfingers lining a mold, filled with fruit and custard or mousse."
+      }
+    },
+    {
+      question: {
+        en: "What is ambrosia?",
+        es: "What is ambrosia?",
+        de: "What is ambrosia?",
+        nl: "What is ambrosia?"
+      },
+      options: [
+        { en: "Fruit salad with coconut and marshmallows", es: "Fruit salad with coconut and marshmallows", de: "Fruit salad with coconut and marshmallows", nl: "Fruit salad with coconut and marshmallows" },
+        { en: "Fruit pie", es: "Fruit pie", de: "Fruit pie", nl: "Fruit pie" },
+        { en: "Fruit tart", es: "Fruit tart", de: "Fruit tart", nl: "Fruit tart" },
+        { en: "Fruit cake", es: "Fruit cake", de: "Fruit cake", nl: "Fruit cake" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Ambrosia is an American fruit salad typically made with oranges, pineapple, coconut, marshmallows, and sometimes whipped cream.",
+        es: "Ambrosia is an American fruit salad typically made with oranges, pineapple, coconut, marshmallows, and sometimes whipped cream.",
+        de: "Ambrosia is an American fruit salad typically made with oranges, pineapple, coconut, marshmallows, and sometimes whipped cream.",
+        nl: "Ambrosia is an American fruit salad typically made with oranges, pineapple, coconut, marshmallows, and sometimes whipped cream."
+      }
+
+      }
+    ]
+  };
 
     if (typeof module !== 'undefined' && module.exports) {
         module.exports = level10Data;

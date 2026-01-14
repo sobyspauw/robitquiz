@@ -428,6 +428,426 @@
           nl: "Morele verantwoordelijkheid in AI ontwikkeling omvat de ethische plicht om potentiele gevolgen van AI systemen te overwegen, menselijk toezicht te waarborgen en verantwoordelijk te zijn voor de impacts die deze systemen hebben op individuen en de samenleving."
         }
       
+      },
+      {
+        question: {
+          en: "What is 'causal responsibility' in AI systems?",
+          es: "Que es 'responsabilidad causal' en sistemas de IA?",
+          de: "Was ist 'kausale Verantwortung' in KI-Systemen?",
+          nl: "Wat is 'causale verantwoordelijkheid' in AI systemen?"
+        },
+        options: [
+          { en: "Being responsible because one's actions caused a particular outcome", es: "Ser responsable porque las acciones de uno causaron un resultado particular", de: "Verantwortlich sein weil die eigenen Handlungen ein bestimmtes Ergebnis verursacht haben", nl: "Verantwoordelijk zijn omdat iemands acties een bepaalde uitkomst veroorzaakten" },
+          { en: "Responsibility for explaining cause and effect", es: "Responsabilidad de explicar causa y efecto", de: "Verantwortung Ursache und Wirkung zu erklaeren", nl: "Verantwoordelijkheid voor het uitleggen van oorzaak en gevolg" },
+          { en: "Legal liability for financial causes", es: "Responsabilidad legal por causas financieras", de: "Rechtliche Haftung fuer finanzielle Ursachen", nl: "Juridische aansprakelijkheid voor financiele oorzaken" },
+          { en: "Only technical attribution of errors", es: "Solo atribucion tecnica de errores", de: "Nur technische Zuordnung von Fehlern", nl: "Alleen technische toewijzing van fouten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Causal responsibility focuses on whether someone's actions or decisions led to a particular outcome. In AI, this involves determining which parties in the development or deployment chain causally contributed to an AI system's harmful outcome.",
+          es: "La responsabilidad causal se enfoca en si las acciones o decisiones de alguien llevaron a un resultado particular. En IA, esto involucra determinar que partes en la cadena de desarrollo o despliegue contribuyeron causalmente a un resultado danino del sistema de IA.",
+          de: "Kausale Verantwortung fokussiert darauf ob jemandes Handlungen oder Entscheidungen zu einem bestimmten Ergebnis gefuehrt haben. In der KI beinhaltet dies die Bestimmung welche Parteien in der Entwicklungs- oder Bereitstellungskette kausal zu einem schaedlichen Ergebnis des KI-Systems beigetragen haben.",
+          nl: "Causale verantwoordelijkheid richt zich op of iemands acties of beslissingen tot een bepaalde uitkomst leidden. In AI houdt dit het bepalen in welke partijen in de ontwikkelings- of implementatieketen causaal bijdroegen aan een schadelijke uitkomst van het AI systeem."
+        }
+      },
+      {
+        question: {
+          en: "What is 'role responsibility' versus 'capacity responsibility' in AI?",
+          es: "Que es 'responsabilidad de rol' versus 'responsabilidad de capacidad' en IA?",
+          de: "Was ist 'Rollenverantwortung' versus 'Kapazitaetsverantwortung' in der KI?",
+          nl: "Wat is 'rol verantwoordelijkheid' versus 'capaciteitsverantwoordelijkheid' in AI?"
+        },
+        options: [
+          { en: "Role is responsibility from position; capacity is responsibility from ability to act", es: "Rol es responsabilidad por posicion; capacidad es responsabilidad por habilidad de actuar", de: "Rolle ist Verantwortung aus Position; Kapazitaet ist Verantwortung aus Handlungsfaehigkeit", nl: "Rol is verantwoordelijkheid uit positie; capaciteit is verantwoordelijkheid uit vermogen te handelen" },
+          { en: "Both mean exactly the same thing", es: "Ambos significan exactamente lo mismo", de: "Beide bedeuten genau dasselbe", nl: "Beide betekenen precies hetzelfde" },
+          { en: "Role is for managers; capacity is for developers", es: "Rol es para gerentes; capacidad es para desarrolladores", de: "Rolle ist fuer Manager; Kapazitaet ist fuer Entwickler", nl: "Rol is voor managers; capaciteit is voor ontwikkelaars" },
+          { en: "Role is legal; capacity is technical", es: "Rol es legal; capacidad es tecnico", de: "Rolle ist rechtlich; Kapazitaet ist technisch", nl: "Rol is juridisch; capaciteit is technisch" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Role responsibility derives from one's position or role (e.g., a CEO's responsibility for their company's AI), while capacity responsibility stems from one's ability to prevent or influence outcomes (e.g., a developer who could fix a known bug).",
+          es: "La responsabilidad de rol deriva de la posicion o rol de uno (ej., la responsabilidad de un CEO por la IA de su empresa), mientras que la responsabilidad de capacidad proviene de la habilidad de uno para prevenir o influenciar resultados (ej., un desarrollador que podria arreglar un error conocido).",
+          de: "Rollenverantwortung ergibt sich aus der Position oder Rolle (z.B. Verantwortung eines CEO fuer die KI seines Unternehmens), waehrend Kapazitaetsverantwortung aus der Faehigkeit stammt Ergebnisse zu verhindern oder zu beeinflussen (z.B. ein Entwickler der einen bekannten Fehler beheben koennte).",
+          nl: "Rol verantwoordelijkheid komt voort uit iemands positie of rol (bijv. verantwoordelijkheid van een CEO voor de AI van hun bedrijf), terwijl capaciteitsverantwoordelijkheid voortkomt uit iemands vermogen om uitkomsten te voorkomen of te beinvloeden (bijv. een ontwikkelaar die een bekende bug kon fixen)."
+        }
+      },
+      {
+        question: {
+          en: "What is an 'AI impact assessment' in accountability frameworks?",
+          es: "Que es una 'evaluacion de impacto de IA' en marcos de responsabilidad?",
+          de: "Was ist eine 'KI-Folgenabschaetzung' in Verantwortlichkeitsrahmen?",
+          nl: "Wat is een 'AI impactbeoordeling' in verantwoordelijkheidskaders?"
+        },
+        options: [
+          { en: "Systematic evaluation of potential consequences before deploying AI systems", es: "Evaluacion sistematica de consecuencias potenciales antes de desplegar sistemas de IA", de: "Systematische Bewertung moeglicher Konsequenzen vor Bereitstellung von KI-Systemen", nl: "Systematische evaluatie van potentiele gevolgen voor implementatie van AI systemen" },
+          { en: "Testing how fast AI can process data", es: "Probar que tan rapido IA puede procesar datos", de: "Testen wie schnell KI Daten verarbeiten kann", nl: "Testen hoe snel AI data kan verwerken" },
+          { en: "Measuring physical damage from AI hardware", es: "Medir dano fisico de hardware de IA", de: "Physischen Schaden durch KI-Hardware messen", nl: "Fysieke schade van AI hardware meten" },
+          { en: "Evaluating only financial costs", es: "Evaluar solo costos financieros", de: "Nur finanzielle Kosten bewerten", nl: "Alleen financiele kosten evalueren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI impact assessments systematically analyze potential social, ethical, legal, and technical consequences of AI systems before deployment, helping identify risks, ensure accountability, and guide responsible development decisions.",
+          es: "Las evaluaciones de impacto de IA analizan sistematicamente las consecuencias sociales, eticas, legales y tecnicas potenciales de sistemas de IA antes del despliegue, ayudando a identificar riesgos, asegurar responsabilidad y guiar decisiones de desarrollo responsable.",
+          de: "KI-Folgenabschaetzungen analysieren systematisch potentielle soziale, ethische, rechtliche und technische Konsequenzen von KI-Systemen vor der Bereitstellung, helfen Risiken zu identifizieren, Verantwortlichkeit sicherzustellen und verantwortungsvolle Entwicklungsentscheidungen zu leiten.",
+          nl: "AI impactbeoordelingen analyseren systematisch potentiele sociale, ethische, juridische en technische gevolgen van AI systemen voor implementatie, helpen risico's identificeren, verantwoordelijkheid waarborgen en verantwoordelijke ontwikkelingsbeslissingen leiden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'vicarious liability' in AI contexts?",
+          es: "Que es 'responsabilidad vicaria' en contextos de IA?",
+          de: "Was ist 'stellvertretende Haftung' in KI-Kontexten?",
+          nl: "Wat is 'plaatsvervangende aansprakelijkheid' in AI contexten?"
+        },
+        options: [
+          { en: "Legal responsibility of an entity for actions of its employees or agents using AI", es: "Responsabilidad legal de una entidad por acciones de sus empleados o agentes usando IA", de: "Rechtliche Verantwortung einer Entitaet fuer Handlungen ihrer Mitarbeiter bei KI-Nutzung", nl: "Juridische verantwoordelijkheid van een entiteit voor acties van werknemers bij AI gebruik" },
+          { en: "AI systems experiencing human emotions", es: "Sistemas de IA experimentando emociones humanas", de: "KI-Systeme erleben menschliche Emotionen", nl: "AI systemen die menselijke emoties ervaren" },
+          { en: "Responsibility shared equally among all users", es: "Responsabilidad compartida igualmente entre todos los usuarios", de: "Verantwortung gleichmaessig unter allen Nutzern geteilt", nl: "Verantwoordelijkheid gelijk gedeeld onder alle gebruikers" },
+          { en: "Virtual reality applications of AI", es: "Aplicaciones de realidad virtual de IA", de: "Virtual-Reality-Anwendungen von KI", nl: "Virtual reality toepassingen van AI" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Vicarious liability holds organizations or employers legally responsible for AI-related actions of their employees or agents acting within the scope of their employment, even if the organization itself didn't directly cause the harm.",
+          es: "La responsabilidad vicaria responsabiliza legalmente a organizaciones o empleadores por acciones relacionadas con IA de sus empleados o agentes actuando dentro del alcance de su empleo, incluso si la organizacion misma no causo directamente el dano.",
+          de: "Stellvertretende Haftung macht Organisationen oder Arbeitgeber rechtlich verantwortlich fuer KI-bezogene Handlungen ihrer Mitarbeiter oder Vertreter die im Rahmen ihrer Beschaeftigung handeln, selbst wenn die Organisation den Schaden nicht direkt verursacht hat.",
+          nl: "Plaatsvervangende aansprakelijkheid houdt organisaties of werkgevers juridisch verantwoordelijk voor AI-gerelateerde acties van hun werknemers of vertegenwoordigers die binnen hun werkbereik handelen, zelfs als de organisatie zelf de schade niet direct veroorzaakte."
+        }
+      },
+      {
+        question: {
+          en: "What is 'substantive accountability' versus 'procedural accountability'?",
+          es: "Que es 'responsabilidad sustantiva' versus 'responsabilidad procesal'?",
+          de: "Was ist 'inhaltliche Verantwortlichkeit' versus 'verfahrensmaessige Verantwortlichkeit'?",
+          nl: "Wat is 'substantiele verantwoordelijkheid' versus 'procedurele verantwoordelijkheid'?"
+        },
+        options: [
+          { en: "Substantive focuses on outcomes; procedural focuses on following proper processes", es: "Sustantiva se enfoca en resultados; procesal se enfoca en seguir procesos apropiados", de: "Inhaltlich fokussiert auf Ergebnisse; verfahrensmaessig fokussiert auf korrekte Prozesse", nl: "Substantieel richt zich op uitkomsten; procedureel richt zich op volgen juiste processen" },
+          { en: "Substantive is legal; procedural is ethical", es: "Sustantiva es legal; procesal es etica", de: "Inhaltlich ist rechtlich; verfahrensmaessig ist ethisch", nl: "Substantieel is juridisch; procedureel is ethisch" },
+          { en: "Both concepts are identical", es: "Ambos conceptos son identicos", de: "Beide Konzepte sind identisch", nl: "Beide concepten zijn identiek" },
+          { en: "Substantive is for developers; procedural is for users", es: "Sustantiva es para desarrolladores; procesal es para usuarios", de: "Inhaltlich ist fuer Entwickler; verfahrensmaessig ist fuer Nutzer", nl: "Substantieel is voor ontwikkelaars; procedureel is voor gebruikers" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Substantive accountability judges whether AI systems produce fair, safe, and beneficial outcomes, while procedural accountability evaluates whether proper processes, protocols, and governance structures were followed during development and deployment.",
+          es: "La responsabilidad sustantiva juzga si los sistemas de IA producen resultados justos, seguros y beneficiosos, mientras que la responsabilidad procesal evalua si se siguieron procesos, protocolos y estructuras de gobernanza apropiados durante el desarrollo y despliegue.",
+          de: "Inhaltliche Verantwortlichkeit beurteilt ob KI-Systeme faire, sichere und vorteilhafte Ergebnisse produzieren, waehrend verfahrensmaessige Verantwortlichkeit bewertet ob angemessene Prozesse, Protokolle und Governance-Strukturen waehrend Entwicklung und Bereitstellung befolgt wurden.",
+          nl: "Substantiele verantwoordelijkheid beoordeelt of AI systemen eerlijke, veilige en voordelige uitkomsten produceren, terwijl procedurele verantwoordelijkheid evalueert of juiste processen, protocollen en governance structuren gevolgd werden tijdens ontwikkeling en implementatie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'answerability' as a component of accountability?",
+          es: "Que es 'responsabilidad de responder' como componente de la responsabilidad?",
+          de: "Was ist 'Rechenschaftspflicht' als Komponente der Verantwortlichkeit?",
+          nl: "Wat is 'verantwoording afleggen' als component van verantwoordelijkheid?"
+        },
+        options: [
+          { en: "The obligation to explain and justify decisions and actions to stakeholders", es: "La obligacion de explicar y justificar decisiones y acciones a partes interesadas", de: "Die Verpflichtung Entscheidungen und Handlungen gegenueber Stakeholdern zu erklaeren", nl: "De verplichting om beslissingen en acties aan belanghebbenden uit te leggen en te rechtvaardigen" },
+          { en: "The ability of AI to answer questions correctly", es: "La capacidad de IA para responder preguntas correctamente", de: "Die Faehigkeit von KI Fragen korrekt zu beantworten", nl: "Het vermogen van AI om vragen correct te beantwoorden" },
+          { en: "Creating FAQ documents for AI systems", es: "Crear documentos de preguntas frecuentes para sistemas de IA", de: "FAQ-Dokumente fuer KI-Systeme erstellen", nl: "FAQ documenten maken voor AI systemen" },
+          { en: "Only technical documentation requirements", es: "Solo requisitos de documentacion tecnica", de: "Nur technische Dokumentationsanforderungen", nl: "Alleen technische documentatie vereisten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Answerability is the requirement that those responsible for AI systems must be able to explain and justify their decisions, actions, and the system's behavior to relevant stakeholders, including regulators, affected individuals, and the public.",
+          es: "La responsabilidad de responder es el requisito de que los responsables de sistemas de IA deben poder explicar y justificar sus decisiones, acciones y el comportamiento del sistema a partes interesadas relevantes, incluyendo reguladores, individuos afectados y el publico.",
+          de: "Rechenschaftspflicht ist die Anforderung dass Verantwortliche fuer KI-Systeme in der Lage sein muessen ihre Entscheidungen, Handlungen und das Systemverhalten gegenueber relevanten Stakeholdern einschliesslich Regulatoren, betroffenen Individuen und der Oeffentlichkeit zu erklaeren und zu rechtfertigen.",
+          nl: "Verantwoording afleggen is de vereiste dat verantwoordelijken voor AI systemen hun beslissingen, acties en het systeemgedrag moeten kunnen uitleggen en rechtvaardigen aan relevante belanghebbenden, inclusief regelgevers, getroffen individuen en het publiek."
+        }
+      },
+      {
+        question: {
+          en: "What is 'enforcement' in AI accountability?",
+          es: "Que es 'aplicacion' en responsabilidad de IA?",
+          de: "Was ist 'Durchsetzung' in der KI-Verantwortlichkeit?",
+          nl: "Wat is 'handhaving' in AI verantwoordelijkheid?"
+        },
+        options: [
+          { en: "Mechanisms to ensure compliance and impose consequences for accountability failures", es: "Mecanismos para asegurar cumplimiento e imponer consecuencias por fallas de responsabilidad", de: "Mechanismen um Compliance sicherzustellen und Konsequenzen bei Verantwortlichkeitsversagen durchzusetzen", nl: "Mechanismen om compliance te waarborgen en consequenties op te leggen bij verantwoordelijkheidsfalen" },
+          { en: "Making AI systems work faster", es: "Hacer que sistemas de IA funcionen mas rapido", de: "KI-Systeme schneller arbeiten lassen", nl: "AI systemen sneller laten werken" },
+          { en: "Physical security for AI installations", es: "Seguridad fisica para instalaciones de IA", de: "Physische Sicherheit fuer KI-Installationen", nl: "Fysieke beveiliging voor AI installaties" },
+          { en: "Only legal prosecution of developers", es: "Solo enjuiciamiento legal de desarrolladores", de: "Nur rechtliche Verfolgung von Entwicklern", nl: "Alleen juridische vervolging van ontwikkelaars" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Enforcement involves the systems, regulations, and processes that ensure AI accountability standards are followed, including audits, sanctions, penalties, legal remedies, and institutional mechanisms to address violations and compel compliance.",
+          es: "La aplicacion involucra los sistemas, regulaciones y procesos que aseguran que se sigan los estandares de responsabilidad de IA, incluyendo auditorias, sanciones, penalidades, remedios legales y mecanismos institucionales para abordar violaciones y obligar al cumplimiento.",
+          de: "Durchsetzung umfasst die Systeme, Vorschriften und Prozesse die sicherstellen dass KI-Verantwortlichkeitsstandards befolgt werden, einschliesslich Audits, Sanktionen, Strafen, rechtliche Abhilfen und institutionelle Mechanismen um Verstoesse anzugehen und Compliance zu erzwingen.",
+          nl: "Handhaving omvat de systemen, regelgeving en processen die waarborgen dat AI verantwoordelijkheidsstandaarden gevolgd worden, inclusief audits, sancties, boetes, juridische remedies en institutionele mechanismen om overtredingen aan te pakken en compliance af te dwingen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'redress' in AI accountability frameworks?",
+          es: "Que es 'reparacion' en marcos de responsabilidad de IA?",
+          de: "Was ist 'Wiedergutmachung' in KI-Verantwortlichkeitsrahmen?",
+          nl: "Wat is 'verhaal' in AI verantwoordelijkheidskaders?"
+        },
+        options: [
+          { en: "Mechanisms for affected individuals to seek remedy when harmed by AI systems", es: "Mecanismos para que individuos afectados busquen remedio cuando son danados por sistemas de IA", de: "Mechanismen fuer betroffene Individuen um Abhilfe zu suchen wenn durch KI-Systeme geschaedigt", nl: "Mechanismen voor getroffen individuen om verhaal te zoeken bij schade door AI systemen" },
+          { en: "Rewriting AI code after deployment", es: "Reescribir codigo de IA despues del despliegue", de: "KI-Code nach Bereitstellung neu schreiben", nl: "AI code herschrijven na implementatie" },
+          { en: "Changing AI system interfaces", es: "Cambiar interfaces de sistemas de IA", de: "KI-Systemschnittstellen aendern", nl: "AI systeem interfaces veranderen" },
+          { en: "Only financial compensation for companies", es: "Solo compensacion financiera para companias", de: "Nur finanzielle Entschaedigung fuer Unternehmen", nl: "Alleen financiele compensatie voor bedrijven" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Redress mechanisms provide affected individuals with accessible ways to challenge AI decisions, seek explanations, request corrections, obtain compensation, and have harmful outcomes reversed or mitigated through appeals, complaints, or legal processes.",
+          es: "Los mecanismos de reparacion proporcionan a individuos afectados formas accesibles de desafiar decisiones de IA, buscar explicaciones, solicitar correcciones, obtener compensacion y revertir o mitigar resultados daninos a traves de apelaciones, quejas o procesos legales.",
+          de: "Wiedergutmachungsmechanismen bieten betroffenen Individuen zugaengliche Wege um KI-Entscheidungen anzufechten, Erklaerungen zu suchen, Korrekturen zu verlangen, Entschaedigung zu erhalten und schaedliche Ergebnisse durch Berufungen, Beschwerden oder rechtliche Prozesse rueckgaengig zu machen oder abzumildern.",
+          nl: "Verhaalmechanismen bieden getroffen individuen toegankelijke manieren om AI beslissingen aan te vechten, uitleg te zoeken, correcties aan te vragen, compensatie te verkrijgen en schadelijke uitkomsten teruggedraaid of verzacht te krijgen via beroepen, klachten of juridische processen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'delegated responsibility' in AI contexts?",
+          es: "Que es 'responsabilidad delegada' en contextos de IA?",
+          de: "Was ist 'delegierte Verantwortung' in KI-Kontexten?",
+          nl: "Wat is 'gedelegeerde verantwoordelijkheid' in AI contexten?"
+        },
+        options: [
+          { en: "Transferring specific tasks to AI while retaining ultimate accountability", es: "Transferir tareas especificas a IA mientras se retiene responsabilidad ultima", de: "Spezifische Aufgaben an KI uebertragen waehrend ultimative Verantwortlichkeit behalten wird", nl: "Specifieke taken overdragen aan AI terwijl uiteindelijke verantwoordelijkheid behouden blijft" },
+          { en: "Completely removing human responsibility", es: "Remover completamente la responsabilidad humana", de: "Menschliche Verantwortung vollstaendig entfernen", nl: "Menselijke verantwoordelijkheid volledig verwijderen" },
+          { en: "AI systems delegating to other AI systems", es: "Sistemas de IA delegando a otros sistemas de IA", de: "KI-Systeme delegieren an andere KI-Systeme", nl: "AI systemen delegeren aan andere AI systemen" },
+          { en: "Only legal delegation of authority", es: "Solo delegacion legal de autoridad", de: "Nur rechtliche Autoritaetsdelegation", nl: "Alleen juridische delegatie van autoriteit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Delegated responsibility involves humans assigning specific decision-making or operational tasks to AI systems while maintaining ultimate accountability for outcomes. The delegation of tasks does not eliminate human responsibility for proper oversight and system performance.",
+          es: "La responsabilidad delegada involucra que humanos asignen tareas especificas de toma de decisiones u operacionales a sistemas de IA mientras mantienen responsabilidad ultima por los resultados. La delegacion de tareas no elimina la responsabilidad humana por supervision apropiada y rendimiento del sistema.",
+          de: "Delegierte Verantwortung beinhaltet dass Menschen spezifische Entscheidungs- oder Betriebsaufgaben an KI-Systeme zuweisen waehrend sie ultimative Verantwortlichkeit fuer Ergebnisse behalten. Die Delegation von Aufgaben beseitigt nicht die menschliche Verantwortung fuer angemessene Aufsicht und Systemleistung.",
+          nl: "Gedelegeerde verantwoordelijkheid houdt in dat mensen specifieke besluitvormings- of operationele taken toewijzen aan AI systemen terwijl ze uiteindelijke verantwoordelijkheid voor uitkomsten behouden. De delegatie van taken elimineert niet de menselijke verantwoordelijkheid voor passend toezicht en systeemprestaties."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'responsibility gap' problem in advanced AI?",
+          es: "Que es el problema de la 'brecha de responsabilidad' en IA avanzada?",
+          de: "Was ist das 'Verantwortungsluecken'-Problem in fortgeschrittener KI?",
+          nl: "Wat is het 'verantwoordelijkheidskloof' probleem in geavanceerde AI?"
+        },
+        options: [
+          { en: "Difficulty assigning accountability when AI acts autonomously beyond human control or prediction", es: "Dificultad asignando responsabilidad cuando IA actua autonomamente mas alla de control humano", de: "Schwierigkeit Verantwortlichkeit zuzuweisen wenn KI autonom jenseits menschlicher Kontrolle handelt", nl: "Moeilijkheid verantwoordelijkheid toe te wijzen wanneer AI autonoom handelt buiten menselijke controle" },
+          { en: "The physical distance between AI servers", es: "La distancia fisica entre servidores de IA", de: "Die physische Distanz zwischen KI-Servern", nl: "De fysieke afstand tussen AI servers" },
+          { en: "Differences in AI processing speeds", es: "Diferencias en velocidades de procesamiento de IA", de: "Unterschiede in KI-Verarbeitungsgeschwindigkeiten", nl: "Verschillen in AI verwerkingssnelheden" },
+          { en: "Gaps in AI training data", es: "Brechas en datos de entrenamiento de IA", de: "Luecken in KI-Trainingsdaten", nl: "Hiaten in AI trainingsdata" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The responsibility gap emerges with highly autonomous AI systems that can make unexpected decisions or take actions that were not explicitly programmed, creating situations where neither developers, operators, nor users can be easily held responsible using traditional accountability frameworks.",
+          es: "La brecha de responsabilidad emerge con sistemas de IA altamente autonomos que pueden tomar decisiones inesperadas o acciones que no fueron explicitamente programadas, creando situaciones donde ni desarrolladores, operadores ni usuarios pueden ser facilmente responsabilizados usando marcos tradicionales de responsabilidad.",
+          de: "Die Verantwortungsluecke entsteht bei hochautonomen KI-Systemen die unerwartete Entscheidungen treffen oder Handlungen ausfuehren koennen die nicht explizit programmiert wurden, wodurch Situationen entstehen wo weder Entwickler, Betreiber noch Nutzer mit traditionellen Verantwortlichkeitsrahmen leicht verantwortlich gemacht werden koennen.",
+          nl: "De verantwoordelijkheidskloof ontstaat bij zeer autonome AI systemen die onverwachte beslissingen kunnen nemen of acties uitvoeren die niet expliciet geprogrammeerd waren, wat situaties creëert waar noch ontwikkelaars, operatoren noch gebruikers gemakkelijk verantwoordelijk gehouden kunnen worden met traditionele verantwoordelijkheidskaders."
+        }
+      },
+      {
+        question: {
+          en: "What is 'forward-looking responsibility' in AI governance?",
+          es: "Que es 'responsabilidad prospectiva' en gobernanza de IA?",
+          de: "Was ist 'zukunftsgerichtete Verantwortung' in der KI-Governance?",
+          nl: "Wat is 'vooruitziende verantwoordelijkheid' in AI governance?"
+        },
+        options: [
+          { en: "Proactive obligation to prevent future harm and ensure beneficial AI outcomes", es: "Obligacion proactiva de prevenir dano futuro y asegurar resultados beneficiosos de IA", de: "Proaktive Verpflichtung zukuenftigen Schaden zu verhindern und vorteilhafte KI-Ergebnisse sicherzustellen", nl: "Proactieve verplichting om toekomstige schade te voorkomen en voordelige AI uitkomsten te waarborgen" },
+          { en: "Only focusing on current AI capabilities", es: "Solo enfocarse en capacidades actuales de IA", de: "Nur auf aktuelle KI-Faehigkeiten fokussieren", nl: "Alleen focussen op huidige AI capaciteiten" },
+          { en: "Predicting AI market trends", es: "Predecir tendencias del mercado de IA", de: "KI-Markttrends vorhersagen", nl: "AI markttrends voorspellen" },
+          { en: "Planning AI hardware upgrades", es: "Planear actualizaciones de hardware de IA", de: "KI-Hardware-Upgrades planen", nl: "AI hardware upgrades plannen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Forward-looking responsibility emphasizes the proactive duty to anticipate potential risks, implement safeguards, continuously monitor systems, and take preventive action to ensure AI systems remain beneficial and aligned with societal values over time.",
+          es: "La responsabilidad prospectiva enfatiza el deber proactivo de anticipar riesgos potenciales, implementar salvaguardas, monitorear continuamente sistemas y tomar accion preventiva para asegurar que sistemas de IA permanezcan beneficiosos y alineados con valores sociales a lo largo del tiempo.",
+          de: "Zukunftsgerichtete Verantwortung betont die proaktive Pflicht potentielle Risiken zu antizipieren, Schutzmaßnahmen zu implementieren, Systeme kontinuierlich zu ueberwachen und praeventive Maßnahmen zu ergreifen um sicherzustellen dass KI-Systeme im Laufe der Zeit vorteilhaft und mit gesellschaftlichen Werten ausgerichtet bleiben.",
+          nl: "Vooruitziende verantwoordelijkheid benadrukt de proactieve plicht om potentiele risico's te anticiperen, waarborgen te implementeren, systemen continu te monitoren en preventieve actie te nemen om ervoor te zorgen dat AI systemen in de loop van de tijd voordelig en afgestemd blijven op maatschappelijke waarden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'collective responsibility' for AI systems?",
+          es: "Que es 'responsabilidad colectiva' para sistemas de IA?",
+          de: "Was ist 'kollektive Verantwortung' fuer KI-Systeme?",
+          nl: "Wat is 'collectieve verantwoordelijkheid' voor AI systemen?"
+        },
+        options: [
+          { en: "Shared accountability among society, institutions, and individuals for AI's societal impacts", es: "Responsabilidad compartida entre sociedad, instituciones e individuos por impactos sociales de IA", de: "Geteilte Verantwortlichkeit zwischen Gesellschaft, Institutionen und Individuen fuer KI-Auswirkungen", nl: "Gedeelde verantwoordelijkheid tussen samenleving, instituties en individuen voor AI maatschappelijke impacts" },
+          { en: "Only group decisions about AI development", es: "Solo decisiones grupales sobre desarrollo de IA", de: "Nur Gruppenentscheidungen ueber KI-Entwicklung", nl: "Alleen groepsbeslissingen over AI ontwikkeling" },
+          { en: "AI systems working together", es: "Sistemas de IA trabajando juntos", de: "KI-Systeme arbeiten zusammen", nl: "AI systemen die samenwerken" },
+          { en: "Collecting data for AI training", es: "Recolectar datos para entrenamiento de IA", de: "Daten fuer KI-Training sammeln", nl: "Data verzamelen voor AI training" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Collective responsibility recognizes that creating beneficial AI requires shared accountability across multiple actors including developers, deployers, regulators, researchers, civil society, and users, each contributing to responsible AI governance within their sphere of influence.",
+          es: "La responsabilidad colectiva reconoce que crear IA beneficiosa requiere responsabilidad compartida entre multiples actores incluyendo desarrolladores, implementadores, reguladores, investigadores, sociedad civil y usuarios, cada uno contribuyendo a gobernanza responsable de IA dentro de su esfera de influencia.",
+          de: "Kollektive Verantwortung erkennt an dass die Schaffung vorteilhafter KI geteilte Verantwortlichkeit ueber mehrere Akteure hinweg erfordert einschliesslich Entwicklern, Bereitstellern, Regulatoren, Forschern, Zivilgesellschaft und Nutzern, die jeweils zur verantwortungsvollen KI-Governance in ihrem Einflussbereich beitragen.",
+          nl: "Collectieve verantwoordelijkheid erkent dat het creëren van voordelige AI gedeelde verantwoordelijkheid vereist over meerdere actoren inclusief ontwikkelaars, implementeerders, regelgevers, onderzoekers, civiele samenleving en gebruikers, die elk bijdragen aan verantwoordelijke AI governance binnen hun invloedssfeer."
+        }
+      },
+      {
+        question: {
+          en: "What is 'outcome accountability' in AI systems?",
+          es: "Que es 'responsabilidad de resultados' en sistemas de IA?",
+          de: "Was ist 'Ergebnisverantwortlichkeit' in KI-Systemen?",
+          nl: "Wat is 'uitkomst verantwoordelijkheid' in AI systemen?"
+        },
+        options: [
+          { en: "Being held responsible for actual results and consequences of AI decisions", es: "Ser responsabilizado por resultados reales y consecuencias de decisiones de IA", de: "Fuer tatsaechliche Ergebnisse und Konsequenzen von KI-Entscheidungen verantwortlich gemacht werden", nl: "Verantwoordelijk gehouden worden voor werkelijke resultaten en gevolgen van AI beslissingen" },
+          { en: "Only documenting AI outputs", es: "Solo documentar salidas de IA", de: "Nur KI-Ausgaben dokumentieren", nl: "Alleen AI outputs documenteren" },
+          { en: "Measuring AI processing speed", es: "Medir velocidad de procesamiento de IA", de: "KI-Verarbeitungsgeschwindigkeit messen", nl: "AI verwerkingssnelheid meten" },
+          { en: "Predicting future AI performance", es: "Predecir rendimiento futuro de IA", de: "Zukuenftige KI-Leistung vorhersagen", nl: "Toekomstige AI prestaties voorspellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Outcome accountability focuses on holding parties responsible for the actual impacts and consequences of AI systems, regardless of intentions or processes followed, emphasizing that those deploying AI must answer for real-world results.",
+          es: "La responsabilidad de resultados se enfoca en responsabilizar a las partes por los impactos reales y consecuencias de sistemas de IA, independientemente de intenciones o procesos seguidos, enfatizando que quienes despliegan IA deben responder por resultados del mundo real.",
+          de: "Ergebnisverantwortlichkeit fokussiert darauf Parteien fuer die tatsaechlichen Auswirkungen und Konsequenzen von KI-Systemen verantwortlich zu machen, unabhaengig von Absichten oder befolgten Prozessen, wobei betont wird dass diejenigen die KI bereitstellen fuer reale Ergebnisse Rechenschaft ablegen muessen.",
+          nl: "Uitkomst verantwoordelijkheid richt zich op het verantwoordelijk houden van partijen voor de werkelijke impacts en gevolgen van AI systemen, ongeacht intenties of gevolgde processen, benadrukkend dat degenen die AI implementeren moeten verantwoorden voor echte resultaten."
+        }
+      },
+      {
+        question: {
+          en: "What is 'meaningful human control' principle in AI accountability?",
+          es: "Que es el principio de 'control humano significativo' en responsabilidad de IA?",
+          de: "Was ist das Prinzip 'bedeutungsvolle menschliche Kontrolle' in der KI-Verantwortlichkeit?",
+          nl: "Wat is het 'betekenisvolle menselijke controle' principe in AI verantwoordelijkheid?"
+        },
+        options: [
+          { en: "Ensuring humans can effectively understand, oversee, and intervene in AI decision-making", es: "Asegurar que humanos puedan efectivamente entender, supervisar e intervenir en toma de decisiones de IA", de: "Sicherstellen dass Menschen KI-Entscheidungsfindung effektiv verstehen, ueberwachen und eingreifen koennen", nl: "Waarborgen dat mensen effectief kunnen begrijpen, toezicht houden en ingrijpen in AI besluitvorming" },
+          { en: "Humans pressing buttons to start AI", es: "Humanos presionando botones para iniciar IA", de: "Menschen druecken Knoepfe um KI zu starten", nl: "Mensen die knoppen indrukken om AI te starten" },
+          { en: "Only technical access to AI systems", es: "Solo acceso tecnico a sistemas de IA", de: "Nur technischer Zugang zu KI-Systemen", nl: "Alleen technische toegang tot AI systemen" },
+          { en: "Humans designing attractive AI interfaces", es: "Humanos disenando interfaces atractivas de IA", de: "Menschen entwerfen attraktive KI-Schnittstellen", nl: "Mensen die aantrekkelijke AI interfaces ontwerpen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Meaningful human control requires that humans have sufficient understanding, oversight capacity, and ability to intervene in AI systems to make informed decisions about their use and bear genuine responsibility for outcomes, going beyond nominal or superficial involvement.",
+          es: "El control humano significativo requiere que humanos tengan suficiente comprension, capacidad de supervision y habilidad para intervenir en sistemas de IA para tomar decisiones informadas sobre su uso y asumir responsabilidad genuina por resultados, yendo mas alla de participacion nominal o superficial.",
+          de: "Bedeutungsvolle menschliche Kontrolle erfordert dass Menschen ausreichendes Verstaendnis, Ueberwachungskapazitaet und Faehigkeit zum Eingriff in KI-Systeme haben um informierte Entscheidungen ueber deren Nutzung zu treffen und echte Verantwortung fuer Ergebnisse zu tragen, ueber nominale oder oberflaechliche Beteiligung hinausgehend.",
+          nl: "Betekenisvolle menselijke controle vereist dat mensen voldoende begrip, toezichtcapaciteit en vermogen hebben om in te grijpen in AI systemen om geïnformeerde beslissingen te nemen over hun gebruik en oprechte verantwoordelijkheid te dragen voor uitkomsten, verder gaand dan nominale of oppervlakkige betrokkenheid."
+        }
+      },
+      {
+        question: {
+          en: "What is 'accountability washing' in AI?",
+          es: "Que es 'lavado de responsabilidad' en IA?",
+          de: "Was ist 'Verantwortlichkeitswashing' in der KI?",
+          nl: "Wat is 'verantwoordelijkheids washing' in AI?"
+        },
+        options: [
+          { en: "Creating appearance of accountability without substantive mechanisms or genuine responsibility", es: "Crear apariencia de responsabilidad sin mecanismos sustantivos o responsabilidad genuina", de: "Erscheinungsbild von Verantwortlichkeit schaffen ohne substantielle Mechanismen", nl: "Schijn van verantwoordelijkheid creëren zonder substantiele mechanismen of oprechte verantwoordelijkheid" },
+          { en: "Cleaning AI hardware regularly", es: "Limpiar hardware de IA regularmente", de: "KI-Hardware regelmaessig reinigen", nl: "AI hardware regelmatig schoonmaken" },
+          { en: "Removing old accountability reports", es: "Eliminar informes de responsabilidad antiguos", de: "Alte Verantwortlichkeitsberichte entfernen", nl: "Oude verantwoordelijkheidsrapporten verwijderen" },
+          { en: "Updating accountability documentation", es: "Actualizar documentacion de responsabilidad", de: "Verantwortlichkeitsdokumentation aktualisieren", nl: "Verantwoordelijkheidsdocumentatie updaten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Accountability washing involves organizations creating superficial accountability structures, policies, or statements without implementing meaningful oversight, enforcement, or genuine mechanisms to address AI harms, essentially performing accountability theater.",
+          es: "El lavado de responsabilidad involucra organizaciones creando estructuras de responsabilidad superficiales, politicas o declaraciones sin implementar supervision significativa, aplicacion o mecanismos genuinos para abordar danos de IA, esencialmente realizando teatro de responsabilidad.",
+          de: "Verantwortlichkeitswashing beinhaltet dass Organisationen oberflaechliche Verantwortlichkeitsstrukturen, Richtlinien oder Erklaerungen schaffen ohne bedeutungsvolle Aufsicht, Durchsetzung oder echte Mechanismen zur Bewaeltigung von KI-Schaeden zu implementieren, im Wesentlichen Verantwortlichkeitstheater auffuehren.",
+          nl: "Verantwoordelijkheids washing houdt in dat organisaties oppervlakkige verantwoordelijkheidsstructuren, beleid of verklaringen creëren zonder betekenisvolle toezicht, handhaving of oprechte mechanismen te implementeren om AI schade aan te pakken, in wezen verantwoordelijkheidstheater uitvoeren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'stakeholder accountability' in AI governance?",
+          es: "Que es 'responsabilidad de partes interesadas' en gobernanza de IA?",
+          de: "Was ist 'Stakeholder-Verantwortlichkeit' in der KI-Governance?",
+          nl: "Wat is 'stakeholder verantwoordelijkheid' in AI governance?"
+        },
+        options: [
+          { en: "Being answerable to all parties affected by or involved with AI systems", es: "Ser responsable ante todas las partes afectadas o involucradas con sistemas de IA", de: "Gegenueber allen von KI-Systemen betroffenen oder beteiligten Parteien rechenschaftspflichtig sein", nl: "Verantwoording verschuldigd zijn aan alle partijen die getroffen of betrokken zijn bij AI systemen" },
+          { en: "Only shareholders owning AI companies", es: "Solo accionistas que poseen companias de IA", de: "Nur Aktionaere die KI-Unternehmen besitzen", nl: "Alleen aandeelhouders die AI bedrijven bezitten" },
+          { en: "People who invest in AI development", es: "Personas que invierten en desarrollo de IA", de: "Menschen die in KI-Entwicklung investieren", nl: "Mensen die investeren in AI ontwikkeling" },
+          { en: "Only government regulators", es: "Solo reguladores gubernamentales", de: "Nur staatliche Regulatoren", nl: "Alleen overheidsregelgevers" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Stakeholder accountability recognizes that AI developers and deployers must be answerable to diverse groups including affected individuals, communities, employees, customers, civil society, regulators, and the broader public who have legitimate interests in how AI systems operate.",
+          es: "La responsabilidad de partes interesadas reconoce que desarrolladores e implementadores de IA deben ser responsables ante diversos grupos incluyendo individuos afectados, comunidades, empleados, clientes, sociedad civil, reguladores y el publico mas amplio que tienen intereses legitimos en como operan los sistemas de IA.",
+          de: "Stakeholder-Verantwortlichkeit erkennt an dass KI-Entwickler und -Bereitsteller gegenueber verschiedenen Gruppen rechenschaftspflichtig sein muessen einschliesslich betroffener Individuen, Gemeinschaften, Mitarbeitern, Kunden, Zivilgesellschaft, Regulatoren und der breiteren Oeffentlichkeit die legitime Interessen daran haben wie KI-Systeme operieren.",
+          nl: "Stakeholder verantwoordelijkheid erkent dat AI ontwikkelaars en implementeerders verantwoording verschuldigd moeten zijn aan diverse groepen inclusief getroffen individuen, gemeenschappen, werknemers, klanten, civiele samenleving, regelgevers en het bredere publiek die legitieme belangen hebben in hoe AI systemen opereren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'accountability infrastructure' in AI systems?",
+          es: "Que es 'infraestructura de responsabilidad' en sistemas de IA?",
+          de: "Was ist 'Verantwortlichkeitsinfrastruktur' in KI-Systemen?",
+          nl: "Wat is 'verantwoordelijkheidsinfrastructuur' in AI systemen?"
+        },
+        options: [
+          { en: "Technical and organizational systems enabling oversight, documentation, and enforcement", es: "Sistemas tecnicos y organizacionales que permiten supervision, documentacion y aplicacion", de: "Technische und organisatorische Systeme die Aufsicht, Dokumentation und Durchsetzung ermoeglichen", nl: "Technische en organisatorische systemen die toezicht, documentatie en handhaving mogelijk maken" },
+          { en: "Physical buildings housing AI hardware", es: "Edificios fisicos que albergan hardware de IA", de: "Physische Gebaeude die KI-Hardware beherbergen", nl: "Fysieke gebouwen die AI hardware huisvesten" },
+          { en: "Network cables connecting AI systems", es: "Cables de red conectando sistemas de IA", de: "Netzwerkkabel die KI-Systeme verbinden", nl: "Netwerkkabels die AI systemen verbinden" },
+          { en: "Only legal compliance departments", es: "Solo departamentos de cumplimiento legal", de: "Nur rechtliche Compliance-Abteilungen", nl: "Alleen juridische compliance afdelingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Accountability infrastructure encompasses the technical tools (audit logs, monitoring systems, explainability features) and organizational structures (governance boards, ethics committees, reporting mechanisms) that enable effective accountability for AI systems throughout their lifecycle.",
+          es: "La infraestructura de responsabilidad abarca las herramientas tecnicas (registros de auditoria, sistemas de monitoreo, caracteristicas de explicabilidad) y estructuras organizacionales (juntas de gobernanza, comites de etica, mecanismos de reporte) que permiten responsabilidad efectiva para sistemas de IA a lo largo de su ciclo de vida.",
+          de: "Verantwortlichkeitsinfrastruktur umfasst die technischen Werkzeuge (Audit-Protokolle, Ueberwachungssysteme, Erklaerbarkeitsfunktionen) und organisatorische Strukturen (Governance-Boards, Ethikkomitees, Meldemechanismen) die effektive Verantwortlichkeit fuer KI-Systeme waehrend ihres gesamten Lebenszyklus ermoeglichen.",
+          nl: "Verantwoordelijkheidsinfrastructuur omvat de technische tools (audit logs, monitoringsystemen, uitlegbaarheidskenmerken) en organisatorische structuren (governance boards, ethiek commissies, rapportage mechanismen) die effectieve verantwoordelijkheid voor AI systemen gedurende hun levenscyclus mogelijk maken."
+        }
+      },
+      {
+        question: {
+          en: "What is 'algorithmic due process' in AI decision-making?",
+          es: "Que es 'debido proceso algoritmico' en toma de decisiones de IA?",
+          de: "Was ist 'algorithmisches ordentliches Verfahren' in der KI-Entscheidungsfindung?",
+          nl: "Wat is 'algoritmisch behoorlijk proces' in AI besluitvorming?"
+        },
+        options: [
+          { en: "Fair procedures including notice, explanation, and opportunity to challenge AI decisions", es: "Procedimientos justos incluyendo notificacion, explicacion y oportunidad de desafiar decisiones de IA", de: "Faire Verfahren einschliesslich Benachrichtigung, Erklaerung und Moeglichkeit KI-Entscheidungen anzufechten", nl: "Eerlijke procedures inclusief kennisgeving, uitleg en mogelijkheid om AI beslissingen aan te vechten" },
+          { en: "Only legal requirements for AI development", es: "Solo requisitos legales para desarrollo de IA", de: "Nur rechtliche Anforderungen fuer KI-Entwicklung", nl: "Alleen juridische vereisten voor AI ontwikkeling" },
+          { en: "Processing AI algorithms efficiently", es: "Procesar algoritmos de IA eficientemente", de: "KI-Algorithmen effizient verarbeiten", nl: "AI algoritmes efficiënt verwerken" },
+          { en: "Following software development best practices", es: "Seguir mejores practicas de desarrollo de software", de: "Software-Entwicklungsbest-Practices befolgen", nl: "Software ontwikkeling best practices volgen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Algorithmic due process ensures that individuals affected by automated decisions receive fair treatment including adequate notice that AI is being used, meaningful explanation of how decisions are made, and effective mechanisms to contest or appeal adverse outcomes.",
+          es: "El debido proceso algoritmico asegura que individuos afectados por decisiones automatizadas reciban trato justo incluyendo notificacion adecuada de que se usa IA, explicacion significativa de como se toman decisiones y mecanismos efectivos para contestar o apelar resultados adversos.",
+          de: "Algorithmisches ordentliches Verfahren stellt sicher dass von automatisierten Entscheidungen betroffene Individuen faire Behandlung erhalten einschliesslich angemessener Benachrichtigung dass KI verwendet wird, bedeutungsvolle Erklaerung wie Entscheidungen getroffen werden und effektive Mechanismen um nachteilige Ergebnisse anzufechten oder anzufechten.",
+          nl: "Algoritmisch behoorlijk proces waarborgt dat individuen getroffen door geautomatiseerde beslissingen eerlijke behandeling ontvangen inclusief adequate kennisgeving dat AI gebruikt wordt, betekenisvolle uitleg van hoe beslissingen genomen worden en effectieve mechanismen om nadelige uitkomsten te betwisten of aan te vechten."
+        }
+      },
+      {
+        question: {
+          en: "What is 'continuous accountability' in AI lifecycle management?",
+          es: "Que es 'responsabilidad continua' en gestion del ciclo de vida de IA?",
+          de: "Was ist 'kontinuierliche Verantwortlichkeit' im KI-Lebenszyklus-Management?",
+          nl: "Wat is 'continue verantwoordelijkheid' in AI levenscyclus management?"
+        },
+        options: [
+          { en: "Ongoing monitoring, assessment, and responsibility throughout AI system's entire operational life", es: "Monitoreo, evaluacion y responsabilidad continua durante toda la vida operacional del sistema de IA", de: "Laufende Ueberwachung, Bewertung und Verantwortung waehrend des gesamten Betriebslebens des KI-Systems", nl: "Doorlopende monitoring, beoordeling en verantwoordelijkheid gedurende hele operationele leven van AI systeem" },
+          { en: "Only accountability during initial development", es: "Solo responsabilidad durante desarrollo inicial", de: "Nur Verantwortlichkeit waehrend initialer Entwicklung", nl: "Alleen verantwoordelijkheid tijdens initiele ontwikkeling" },
+          { en: "Running AI systems 24/7 without breaks", es: "Ejecutar sistemas de IA 24/7 sin pausas", de: "KI-Systeme 24/7 ohne Pausen betreiben", nl: "AI systemen 24/7 zonder pauzes draaien" },
+          { en: "Constantly updating AI documentation", es: "Actualizar constantemente documentacion de IA", de: "KI-Dokumentation staendig aktualisieren", nl: "Voortdurend AI documentatie updaten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Continuous accountability recognizes that responsibility for AI systems doesn't end at deployment but requires ongoing monitoring, regular assessment, adaptation to changing contexts, and sustained oversight to ensure systems remain safe, fair, and beneficial over time.",
+          es: "La responsabilidad continua reconoce que la responsabilidad por sistemas de IA no termina en el despliegue sino que requiere monitoreo continuo, evaluacion regular, adaptacion a contextos cambiantes y supervision sostenida para asegurar que los sistemas permanezcan seguros, justos y beneficiosos a lo largo del tiempo.",
+          de: "Kontinuierliche Verantwortlichkeit erkennt an dass Verantwortung fuer KI-Systeme nicht bei der Bereitstellung endet sondern laufende Ueberwachung, regelmaessige Bewertung, Anpassung an veraenderte Kontexte und nachhaltige Aufsicht erfordert um sicherzustellen dass Systeme im Laufe der Zeit sicher, fair und vorteilhaft bleiben.",
+          nl: "Continue verantwoordelijkheid erkent dat verantwoordelijkheid voor AI systemen niet eindigt bij implementatie maar doorlopende monitoring, regelmatige beoordeling, aanpassing aan veranderende contexten en aanhoudend toezicht vereist om ervoor te zorgen dat systemen veilig, eerlijk en voordelig blijven in de loop van de tijd."
+        }
+      },
+      {
+        question: {
+          en: "What is 'conditional accountability' in AI deployment?",
+          es: "Que es 'responsabilidad condicional' en despliegue de IA?",
+          de: "Was ist 'bedingte Verantwortlichkeit' in der KI-Bereitstellung?",
+          nl: "Wat is 'voorwaardelijke verantwoordelijkheid' in AI implementatie?"
+        },
+        options: [
+          { en: "Accountability levels varying based on context, risk level, and application domain", es: "Niveles de responsabilidad variando segun contexto, nivel de riesgo y dominio de aplicacion", de: "Verantwortlichkeitsebenen variieren basierend auf Kontext, Risikoniveau und Anwendungsbereich", nl: "Verantwoordelijkheidsniveaus variëren op basis van context, risiconiveau en toepassingsdomein" },
+          { en: "Only being accountable under certain legal conditions", es: "Solo ser responsable bajo ciertas condiciones legales", de: "Nur unter bestimmten rechtlichen Bedingungen verantwortlich sein", nl: "Alleen verantwoordelijk zijn onder bepaalde juridische voorwaarden" },
+          { en: "Accountability that expires after time", es: "Responsabilidad que expira despues de tiempo", de: "Verantwortlichkeit die nach Zeit ablaeuft", nl: "Verantwoordelijkheid die na tijd verloopt" },
+          { en: "Temporary accountability during testing only", es: "Responsabilidad temporal solo durante pruebas", de: "Voruebergehende Verantwortlichkeit nur waehrend Tests", nl: "Tijdelijke verantwoordelijkheid alleen tijdens testen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Conditional accountability recognizes that appropriate accountability mechanisms should be proportionate to the risks and stakes involved - high-risk AI applications (healthcare, criminal justice) require more stringent accountability than low-risk applications (content recommendations).",
+          es: "La responsabilidad condicional reconoce que los mecanismos apropiados de responsabilidad deberian ser proporcionales a los riesgos y apuestas involucradas - aplicaciones de IA de alto riesgo (salud, justicia penal) requieren responsabilidad mas estricta que aplicaciones de bajo riesgo (recomendaciones de contenido).",
+          de: "Bedingte Verantwortlichkeit erkennt an dass angemessene Verantwortlichkeitsmechanismen proportional zu den involvierten Risiken und Einsaetzen sein sollten - Hochrisiko-KI-Anwendungen (Gesundheitswesen, Strafjustiz) erfordern strengere Verantwortlichkeit als Niedrigrisiko-Anwendungen (Inhaltsempfehlungen).",
+          nl: "Voorwaardelijke verantwoordelijkheid erkent dat passende verantwoordelijkheidsmechanismen evenredig moeten zijn aan de betrokken risico's en belangen - hoog-risico AI toepassingen (gezondheidszorg, strafrechtspraak) vereisen strengere verantwoordelijkheid dan laag-risico toepassingen (content aanbevelingen)."
+        }
       }
     ]
   };

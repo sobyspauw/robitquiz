@@ -426,7 +426,427 @@
           es: "Zabaglione es un postre italiano ligero hecho con yemas de huevo, azúcar y vino, tradicionalmente servido caliente en copas de vino. El nombre significa 'hacer espuma' o 'levántame'.",
           de: "Zabaglione ist ein leichtes italienisches Dessert aus Eigelb, Zucker und Wein, traditionell warm in Weingläsern serviert. Der Name bedeutet 'schäumen' oder 'hol mich hoch'.",
           nl: "Zabaglione is een licht Italiaans dessert gemaakt van eidooiers, suiker en wijn, traditioneel warm geserveerd in wijnglazen. De naam betekent 'schuimen' of 'kikkertje op'."
-        }
+        }    },
+    {
+      question: {
+        en: "What is baklava?",
+        es: "What is baklava?",
+        de: "What is baklava?",
+        nl: "What is baklava?"
+      },
+      options: [
+        { en: "Middle Eastern pastry with nuts and honey syrup", es: "Middle Eastern pastry with nuts and honey syrup", de: "Middle Eastern pastry with nuts and honey syrup", nl: "Middle Eastern pastry with nuts and honey syrup" },
+        { en: "Greek cake", es: "Greek cake", de: "Greek cake", nl: "Greek cake" },
+        { en: "Turkish cookie", es: "Turkish cookie", de: "Turkish cookie", nl: "Turkish cookie" },
+        { en: "Indian sweet", es: "Indian sweet", de: "Indian sweet", nl: "Indian sweet" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Baklava is a Middle Eastern dessert made of layers of phyllo dough filled with chopped nuts and sweetened with honey or syrup.",
+        es: "Baklava is a Middle Eastern dessert made of layers of phyllo dough filled with chopped nuts and sweetened with honey or syrup.",
+        de: "Baklava is a Middle Eastern dessert made of layers of phyllo dough filled with chopped nuts and sweetened with honey or syrup.",
+        nl: "Baklava is a Middle Eastern dessert made of layers of phyllo dough filled with chopped nuts and sweetened with honey or syrup."
+      }
+    },
+    {
+      question: {
+        en: "What is tiramisu?",
+        es: "What is tiramisu?",
+        de: "What is tiramisu?",
+        nl: "What is tiramisu?"
+      },
+      options: [
+        { en: "Italian dessert with coffee-soaked ladyfingers and mascarpone", es: "Italian dessert with coffee-soaked ladyfingers and mascarpone", de: "Italian dessert with coffee-soaked ladyfingers and mascarpone", nl: "Italian dessert with coffee-soaked ladyfingers and mascarpone" },
+        { en: "French pastry", es: "French pastry", de: "French pastry", nl: "French pastry" },
+        { en: "Spanish custard", es: "Spanish custard", de: "Spanish custard", nl: "Spanish custard" },
+        { en: "German cake", es: "German cake", de: "German cake", nl: "German cake" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Tiramisu is an Italian dessert made with layers of coffee-soaked ladyfingers and a mascarpone cream mixture, dusted with cocoa.",
+        es: "Tiramisu is an Italian dessert made with layers of coffee-soaked ladyfingers and a mascarpone cream mixture, dusted with cocoa.",
+        de: "Tiramisu is an Italian dessert made with layers of coffee-soaked ladyfingers and a mascarpone cream mixture, dusted with cocoa.",
+        nl: "Tiramisu is an Italian dessert made with layers of coffee-soaked ladyfingers and a mascarpone cream mixture, dusted with cocoa."
+      }
+    },
+    {
+      question: {
+        en: "What is mochi?",
+        es: "What is mochi?",
+        de: "What is mochi?",
+        nl: "What is mochi?"
+      },
+      options: [
+        { en: "Japanese rice cake", es: "Japanese rice cake", de: "Japanese rice cake", nl: "Japanese rice cake" },
+        { en: "Chinese cookie", es: "Chinese cookie", de: "Chinese cookie", nl: "Chinese cookie" },
+        { en: "Korean pastry", es: "Korean pastry", de: "Korean pastry", nl: "Korean pastry" },
+        { en: "Thai dessert", es: "Thai dessert", de: "Thai dessert", nl: "Thai dessert" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Mochi is a Japanese dessert made from glutinous rice pounded into a paste and molded into shape, often filled with sweet bean paste.",
+        es: "Mochi is a Japanese dessert made from glutinous rice pounded into a paste and molded into shape, often filled with sweet bean paste.",
+        de: "Mochi is a Japanese dessert made from glutinous rice pounded into a paste and molded into shape, often filled with sweet bean paste.",
+        nl: "Mochi is a Japanese dessert made from glutinous rice pounded into a paste and molded into shape, often filled with sweet bean paste."
+      }
+    },
+    {
+      question: {
+        en: "What is gulab jamun?",
+        es: "What is gulab jamun?",
+        de: "What is gulab jamun?",
+        nl: "What is gulab jamun?"
+      },
+      options: [
+        { en: "Indian fried milk-solid balls in syrup", es: "Indian fried milk-solid balls in syrup", de: "Indian fried milk-solid balls in syrup", nl: "Indian fried milk-solid balls in syrup" },
+        { en: "Pakistani rice pudding", es: "Pakistani rice pudding", de: "Pakistani rice pudding", nl: "Pakistani rice pudding" },
+        { en: "Bangladeshi cookie", es: "Bangladeshi cookie", de: "Bangladeshi cookie", nl: "Bangladeshi cookie" },
+        { en: "Sri Lankan cake", es: "Sri Lankan cake", de: "Sri Lankan cake", nl: "Sri Lankan cake" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Gulab jamun consists of fried balls made from milk solids, soaked in rose-flavored sugar syrup.",
+        es: "Gulab jamun consists of fried balls made from milk solids, soaked in rose-flavored sugar syrup.",
+        de: "Gulab jamun consists of fried balls made from milk solids, soaked in rose-flavored sugar syrup.",
+        nl: "Gulab jamun consists of fried balls made from milk solids, soaked in rose-flavored sugar syrup."
+      }
+    },
+    {
+      question: {
+        en: "What is churros?",
+        es: "What is churros?",
+        de: "What is churros?",
+        nl: "What is churros?"
+      },
+      options: [
+        { en: "Spanish fried dough pastry", es: "Spanish fried dough pastry", de: "Spanish fried dough pastry", nl: "Spanish fried dough pastry" },
+        { en: "Mexican cake", es: "Mexican cake", de: "Mexican cake", nl: "Mexican cake" },
+        { en: "Portuguese cookie", es: "Portuguese cookie", de: "Portuguese cookie", nl: "Portuguese cookie" },
+        { en: "Italian donut", es: "Italian donut", de: "Italian donut", nl: "Italian donut" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Churros are Spanish fried dough pastries, typically dusted with cinnamon sugar and often served with chocolate for dipping.",
+        es: "Churros are Spanish fried dough pastries, typically dusted with cinnamon sugar and often served with chocolate for dipping.",
+        de: "Churros are Spanish fried dough pastries, typically dusted with cinnamon sugar and often served with chocolate for dipping.",
+        nl: "Churros are Spanish fried dough pastries, typically dusted with cinnamon sugar and often served with chocolate for dipping."
+      }
+    },
+    {
+      question: {
+        en: "What is panna cotta?",
+        es: "What is panna cotta?",
+        de: "What is panna cotta?",
+        nl: "What is panna cotta?"
+      },
+      options: [
+        { en: "Italian cooked cream dessert", es: "Italian cooked cream dessert", de: "Italian cooked cream dessert", nl: "Italian cooked cream dessert" },
+        { en: "French custard", es: "French custard", de: "French custard", nl: "French custard" },
+        { en: "Spanish flan", es: "Spanish flan", de: "Spanish flan", nl: "Spanish flan" },
+        { en: "Greek yogurt dessert", es: "Greek yogurt dessert", de: "Greek yogurt dessert", nl: "Greek yogurt dessert" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Panna cotta is an Italian dessert of sweetened cream thickened with gelatin and molded.",
+        es: "Panna cotta is an Italian dessert of sweetened cream thickened with gelatin and molded.",
+        de: "Panna cotta is an Italian dessert of sweetened cream thickened with gelatin and molded.",
+        nl: "Panna cotta is an Italian dessert of sweetened cream thickened with gelatin and molded."
+      }
+    },
+    {
+      question: {
+        en: "What is tres leches cake from?",
+        es: "What is tres leches cake from?",
+        de: "What is tres leches cake from?",
+        nl: "What is tres leches cake from?"
+      },
+      options: [
+        { en: "Latin America", es: "Latin America", de: "Latin America", nl: "Latin America" },
+        { en: "Spain", es: "Spain", de: "Spain", nl: "Spain" },
+        { en: "Italy", es: "Italy", de: "Italy", nl: "Italy" },
+        { en: "France", es: "France", de: "France", nl: "France" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Tres leches cake originated in Latin America and is popular throughout Mexico, Central, and South America.",
+        es: "Tres leches cake originated in Latin America and is popular throughout Mexico, Central, and South America.",
+        de: "Tres leches cake originated in Latin America and is popular throughout Mexico, Central, and South America.",
+        nl: "Tres leches cake originated in Latin America and is popular throughout Mexico, Central, and South America."
+      }
+    },
+    {
+      question: {
+        en: "What is a pavlova?",
+        es: "What is a pavlova?",
+        de: "What is a pavlova?",
+        nl: "What is a pavlova?"
+      },
+      options: [
+        { en: "Meringue dessert from Australia/New Zealand", es: "Meringue dessert from Australia/New Zealand", de: "Meringue dessert from Australia/New Zealand", nl: "Meringue dessert from Australia/New Zealand" },
+        { en: "French tart", es: "French tart", de: "French tart", nl: "French tart" },
+        { en: "Italian cake", es: "Italian cake", de: "Italian cake", nl: "Italian cake" },
+        { en: "British pudding", es: "British pudding", de: "British pudding", nl: "British pudding" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pavlova is a meringue-based dessert from Australia/New Zealand, with a crisp crust, soft inside, topped with fruit and cream.",
+        es: "Pavlova is a meringue-based dessert from Australia/New Zealand, with a crisp crust, soft inside, topped with fruit and cream.",
+        de: "Pavlova is a meringue-based dessert from Australia/New Zealand, with a crisp crust, soft inside, topped with fruit and cream.",
+        nl: "Pavlova is a meringue-based dessert from Australia/New Zealand, with a crisp crust, soft inside, topped with fruit and cream."
+      }
+    },
+    {
+      question: {
+        en: "What is knafeh?",
+        es: "What is knafeh?",
+        de: "What is knafeh?",
+        nl: "What is knafeh?"
+      },
+      options: [
+        { en: "Middle Eastern cheese pastry with syrup", es: "Middle Eastern cheese pastry with syrup", de: "Middle Eastern cheese pastry with syrup", nl: "Middle Eastern cheese pastry with syrup" },
+        { en: "Greek phyllo dessert", es: "Greek phyllo dessert", de: "Greek phyllo dessert", nl: "Greek phyllo dessert" },
+        { en: "Turkish delight", es: "Turkish delight", de: "Turkish delight", nl: "Turkish delight" },
+        { en: "Lebanese cookie", es: "Lebanese cookie", de: "Lebanese cookie", nl: "Lebanese cookie" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Knafeh is a Middle Eastern dessert made with cheese or cream, layered with shredded phyllo, and soaked in sweet syrup.",
+        es: "Knafeh is a Middle Eastern dessert made with cheese or cream, layered with shredded phyllo, and soaked in sweet syrup.",
+        de: "Knafeh is a Middle Eastern dessert made with cheese or cream, layered with shredded phyllo, and soaked in sweet syrup.",
+        nl: "Knafeh is a Middle Eastern dessert made with cheese or cream, layered with shredded phyllo, and soaked in sweet syrup."
+      }
+    },
+    {
+      question: {
+        en: "What is a sufganiyah?",
+        es: "What is a sufganiyah?",
+        de: "What is a sufganiyah?",
+        nl: "What is a sufganiyah?"
+      },
+      options: [
+        { en: "Israeli jelly-filled donut", es: "Israeli jelly-filled donut", de: "Israeli jelly-filled donut", nl: "Israeli jelly-filled donut" },
+        { en: "French pastry", es: "French pastry", de: "French pastry", nl: "French pastry" },
+        { en: "German cookie", es: "German cookie", de: "German cookie", nl: "German cookie" },
+        { en: "Polish cake", es: "Polish cake", de: "Polish cake", nl: "Polish cake" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Sufganiyah is an Israeli jelly-filled donut traditionally eaten during Hanukkah.",
+        es: "Sufganiyah is an Israeli jelly-filled donut traditionally eaten during Hanukkah.",
+        de: "Sufganiyah is an Israeli jelly-filled donut traditionally eaten during Hanukkah.",
+        nl: "Sufganiyah is an Israeli jelly-filled donut traditionally eaten during Hanukkah."
+      }
+    },
+    {
+      question: {
+        en: "What is mille-feuille?",
+        es: "What is mille-feuille?",
+        de: "What is mille-feuille?",
+        nl: "What is mille-feuille?"
+      },
+      options: [
+        { en: "French layered pastry with cream", es: "French layered pastry with cream", de: "French layered pastry with cream", nl: "French layered pastry with cream" },
+        { en: "Italian cake", es: "Italian cake", de: "Italian cake", nl: "Italian cake" },
+        { en: "Spanish cookie", es: "Spanish cookie", de: "Spanish cookie", nl: "Spanish cookie" },
+        { en: "German tart", es: "German tart", de: "German tart", nl: "German tart" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Mille-feuille (thousand leaves) is a French pastry with layers of puff pastry and pastry cream, topped with icing.",
+        es: "Mille-feuille (thousand leaves) is a French pastry with layers of puff pastry and pastry cream, topped with icing.",
+        de: "Mille-feuille (thousand leaves) is a French pastry with layers of puff pastry and pastry cream, topped with icing.",
+        nl: "Mille-feuille (thousand leaves) is a French pastry with layers of puff pastry and pastry cream, topped with icing."
+      }
+    },
+    {
+      question: {
+        en: "What is kulfi?",
+        es: "What is kulfi?",
+        de: "What is kulfi?",
+        nl: "What is kulfi?"
+      },
+      options: [
+        { en: "Indian frozen dessert similar to ice cream", es: "Indian frozen dessert similar to ice cream", de: "Indian frozen dessert similar to ice cream", nl: "Indian frozen dessert similar to ice cream" },
+        { en: "Pakistani cake", es: "Pakistani cake", de: "Pakistani cake", nl: "Pakistani cake" },
+        { en: "Bangladeshi pudding", es: "Bangladeshi pudding", de: "Bangladeshi pudding", nl: "Bangladeshi pudding" },
+        { en: "Sri Lankan cookie", es: "Sri Lankan cookie", de: "Sri Lankan cookie", nl: "Sri Lankan cookie" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Kulfi is a dense, creamy frozen Indian dessert made from reduced milk, similar to but denser than ice cream.",
+        es: "Kulfi is a dense, creamy frozen Indian dessert made from reduced milk, similar to but denser than ice cream.",
+        de: "Kulfi is a dense, creamy frozen Indian dessert made from reduced milk, similar to but denser than ice cream.",
+        nl: "Kulfi is a dense, creamy frozen Indian dessert made from reduced milk, similar to but denser than ice cream."
+      }
+    },
+    {
+      question: {
+        en: "What is sticky toffee pudding from?",
+        es: "What is sticky toffee pudding from?",
+        de: "What is sticky toffee pudding from?",
+        nl: "What is sticky toffee pudding from?"
+      },
+      options: [
+        { en: "Britain", es: "Britain", de: "Britain", nl: "Britain" },
+        { en: "France", es: "France", de: "France", nl: "France" },
+        { en: "United States", es: "United States", de: "United States", nl: "United States" },
+        { en: "Australia", es: "Australia", de: "Australia", nl: "Australia" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Sticky toffee pudding is a British dessert of moist sponge cake made with dates, covered in toffee sauce.",
+        es: "Sticky toffee pudding is a British dessert of moist sponge cake made with dates, covered in toffee sauce.",
+        de: "Sticky toffee pudding is a British dessert of moist sponge cake made with dates, covered in toffee sauce.",
+        nl: "Sticky toffee pudding is a British dessert of moist sponge cake made with dates, covered in toffee sauce."
+      }
+    },
+    {
+      question: {
+        en: "What is a flan?",
+        es: "What is a flan?",
+        de: "What is a flan?",
+        nl: "What is a flan?"
+      },
+      options: [
+        { en: "Caramel custard dessert from Spain/Latin America", es: "Caramel custard dessert from Spain/Latin America", de: "Caramel custard dessert from Spain/Latin America", nl: "Caramel custard dessert from Spain/Latin America" },
+        { en: "French tart", es: "French tart", de: "French tart", nl: "French tart" },
+        { en: "Italian pudding", es: "Italian pudding", de: "Italian pudding", nl: "Italian pudding" },
+        { en: "Portuguese cake", es: "Portuguese cake", de: "Portuguese cake", nl: "Portuguese cake" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Flan is a baked custard dessert with caramel sauce, popular in Spain and Latin America.",
+        es: "Flan is a baked custard dessert with caramel sauce, popular in Spain and Latin America.",
+        de: "Flan is a baked custard dessert with caramel sauce, popular in Spain and Latin America.",
+        nl: "Flan is a baked custard dessert with caramel sauce, popular in Spain and Latin America."
+      }
+    },
+    {
+      question: {
+        en: "What is daifuku?",
+        es: "What is daifuku?",
+        de: "What is daifuku?",
+        nl: "What is daifuku?"
+      },
+      options: [
+        { en: "Japanese mochi with sweet filling", es: "Japanese mochi with sweet filling", de: "Japanese mochi with sweet filling", nl: "Japanese mochi with sweet filling" },
+        { en: "Chinese dumpling", es: "Chinese dumpling", de: "Chinese dumpling", nl: "Chinese dumpling" },
+        { en: "Korean rice cake", es: "Korean rice cake", de: "Korean rice cake", nl: "Korean rice cake" },
+        { en: "Thai dessert", es: "Thai dessert", de: "Thai dessert", nl: "Thai dessert" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Daifuku is Japanese mochi stuffed with sweet filling, typically red bean paste.",
+        es: "Daifuku is Japanese mochi stuffed with sweet filling, typically red bean paste.",
+        de: "Daifuku is Japanese mochi stuffed with sweet filling, typically red bean paste.",
+        nl: "Daifuku is Japanese mochi stuffed with sweet filling, typically red bean paste."
+      }
+    },
+    {
+      question: {
+        en: "What is a Queen of Puddings?",
+        es: "What is a Queen of Puddings?",
+        de: "What is a Queen of Puddings?",
+        nl: "What is a Queen of Puddings?"
+      },
+      options: [
+        { en: "British dessert with jam and meringue", es: "British dessert with jam and meringue", de: "British dessert with jam and meringue", nl: "British dessert with jam and meringue" },
+        { en: "French tart", es: "French tart", de: "French tart", nl: "French tart" },
+        { en: "American cake", es: "American cake", de: "American cake", nl: "American cake" },
+        { en: "Italian pudding", es: "Italian pudding", de: "Italian pudding", nl: "Italian pudding" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Queen of Puddings is a British dessert made with breadcrumbs, milk, eggs, jam, and topped with meringue.",
+        es: "Queen of Puddings is a British dessert made with breadcrumbs, milk, eggs, jam, and topped with meringue.",
+        de: "Queen of Puddings is a British dessert made with breadcrumbs, milk, eggs, jam, and topped with meringue.",
+        nl: "Queen of Puddings is a British dessert made with breadcrumbs, milk, eggs, jam, and topped with meringue."
+      }
+    },
+    {
+      question: {
+        en: "What is a cannoli?",
+        es: "What is a cannoli?",
+        de: "What is a cannoli?",
+        nl: "What is a cannoli?"
+      },
+      options: [
+        { en: "Italian pastry tube filled with sweet ricotta", es: "Italian pastry tube filled with sweet ricotta", de: "Italian pastry tube filled with sweet ricotta", nl: "Italian pastry tube filled with sweet ricotta" },
+        { en: "French cream puff", es: "French cream puff", de: "French cream puff", nl: "French cream puff" },
+        { en: "Spanish churro", es: "Spanish churro", de: "Spanish churro", nl: "Spanish churro" },
+        { en: "Greek cookie", es: "Greek cookie", de: "Greek cookie", nl: "Greek cookie" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Cannoli is a Sicilian pastry consisting of a tube-shaped fried pastry shell filled with sweetened ricotta cheese.",
+        es: "Cannoli is a Sicilian pastry consisting of a tube-shaped fried pastry shell filled with sweetened ricotta cheese.",
+        de: "Cannoli is a Sicilian pastry consisting of a tube-shaped fried pastry shell filled with sweetened ricotta cheese.",
+        nl: "Cannoli is a Sicilian pastry consisting of a tube-shaped fried pastry shell filled with sweetened ricotta cheese."
+      }
+    },
+    {
+      question: {
+        en: "What is rasgulla?",
+        es: "What is rasgulla?",
+        de: "What is rasgulla?",
+        nl: "What is rasgulla?"
+      },
+      options: [
+        { en: "Indian syrup-soaked cheese balls", es: "Indian syrup-soaked cheese balls", de: "Indian syrup-soaked cheese balls", nl: "Indian syrup-soaked cheese balls" },
+        { en: "Pakistani rice pudding", es: "Pakistani rice pudding", de: "Pakistani rice pudding", nl: "Pakistani rice pudding" },
+        { en: "Bangladeshi cake", es: "Bangladeshi cake", de: "Bangladeshi cake", nl: "Bangladeshi cake" },
+        { en: "Sri Lankan cookie", es: "Sri Lankan cookie", de: "Sri Lankan cookie", nl: "Sri Lankan cookie" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Rasgulla consists of cheese balls made from chhena (cottage cheese) cooked in sugar syrup.",
+        es: "Rasgulla consists of cheese balls made from chhena (cottage cheese) cooked in sugar syrup.",
+        de: "Rasgulla consists of cheese balls made from chhena (cottage cheese) cooked in sugar syrup.",
+        nl: "Rasgulla consists of cheese balls made from chhena (cottage cheese) cooked in sugar syrup."
+      }
+    },
+    {
+      question: {
+        en: "What is alfajores?",
+        es: "What is alfajores?",
+        de: "What is alfajores?",
+        nl: "What is alfajores?"
+      },
+      options: [
+        { en: "South American sandwich cookie with dulce de leche", es: "South American sandwich cookie with dulce de leche", de: "South American sandwich cookie with dulce de leche", nl: "South American sandwich cookie with dulce de leche" },
+        { en: "Spanish tart", es: "Spanish tart", de: "Spanish tart", nl: "Spanish tart" },
+        { en: "Portuguese cake", es: "Portuguese cake", de: "Portuguese cake", nl: "Portuguese cake" },
+        { en: "Mexican pastry", es: "Mexican pastry", de: "Mexican pastry", nl: "Mexican pastry" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Alfajores are South American sandwich cookies filled with dulce de leche and often coated in chocolate or powdered sugar.",
+        es: "Alfajores are South American sandwich cookies filled with dulce de leche and often coated in chocolate or powdered sugar.",
+        de: "Alfajores are South American sandwich cookies filled with dulce de leche and often coated in chocolate or powdered sugar.",
+        nl: "Alfajores are South American sandwich cookies filled with dulce de leche and often coated in chocolate or powdered sugar."
+      }
+    },
+    {
+      question: {
+        en: "What is a tarte Tatin?",
+        es: "What is a tarte Tatin?",
+        de: "What is a tarte Tatin?",
+        nl: "What is a tarte Tatin?"
+      },
+      options: [
+        { en: "French upside-down caramelized apple tart", es: "French upside-down caramelized apple tart", de: "French upside-down caramelized apple tart", nl: "French upside-down caramelized apple tart" },
+        { en: "Italian pie", es: "Italian pie", de: "Italian pie", nl: "Italian pie" },
+        { en: "British pudding", es: "British pudding", de: "British pudding", nl: "British pudding" },
+        { en: "German cake", es: "German cake", de: "German cake", nl: "German cake" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Tarte Tatin is a French upside-down tart where apples are caramelized in butter and sugar before the pastry is placed on top.",
+        es: "Tarte Tatin is a French upside-down tart where apples are caramelized in butter and sugar before the pastry is placed on top.",
+        de: "Tarte Tatin is a French upside-down tart where apples are caramelized in butter and sugar before the pastry is placed on top.",
+        nl: "Tarte Tatin is a French upside-down tart where apples are caramelized in butter and sugar before the pastry is placed on top."
+      }
+
       }
     ]
   };

@@ -427,6 +427,426 @@
           de: "Barbra Streisand führte Regie, schrieb mit, produzierte und spielte in 'Yentl' (1983) und wurde die erste Frau, die einen Golden Globe für die beste Regie gewann, obwohl sie nicht für den Oscar nominiert war.",
           nl: "Barbra Streisand regisseerde, co-schreef, produceerde en speelde in 'Yentl' (1983), en werd de eerste vrouw die een Golden Globe won voor Beste Regie, hoewel ze niet genomineerd was voor de Oscar."
         }
+      },
+      {
+        question: {
+          en: "Which actor-director starred in and directed 'Dances with Wolves' and won the Best Director Oscar?",
+          es: "¿Qué actor-director protagonizó y dirigió 'Dances with Wolves' y ganó el Oscar al Mejor Director?",
+          de: "Welcher Schauspieler-Regisseur spielte in und führte Regie bei 'Der mit dem Wolf tanzt' und gewann den Oscar für die beste Regie?",
+          nl: "Welke acteur-regisseur speelde in en regisseerde 'Dances with Wolves' en won de Oscar voor Beste Regie?"
+        },
+        options: [
+          { en: "Kevin Costner", es: "Kevin Costner", de: "Kevin Costner", nl: "Kevin Costner" },
+          { en: "Robert Redford", es: "Robert Redford", de: "Robert Redford", nl: "Robert Redford" },
+          { en: "Clint Eastwood", es: "Clint Eastwood", de: "Clint Eastwood", nl: "Clint Eastwood" },
+          { en: "Mel Gibson", es: "Mel Gibson", de: "Mel Gibson", nl: "Mel Gibson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Kevin Costner directed and starred in 'Dances with Wolves' (1990), winning the Academy Award for Best Director and Best Picture for this epic Western.",
+          es: "Kevin Costner dirigió y protagonizó 'Dances with Wolves' (1990), ganando el Premio de la Academia al Mejor Director y Mejor Película por este épico Western.",
+          de: "Kevin Costner führte Regie und spielte in 'Der mit dem Wolf tanzt' (1990) und gewann den Academy Award für die beste Regie und den besten Film für diesen epischen Western.",
+          nl: "Kevin Costner regisseerde en speelde in 'Dances with Wolves' (1990), en won de Academy Award voor Beste Regie en Beste Film voor deze epische Western."
+        }
+      },
+      {
+        question: {
+          en: "Which Japanese director often appeared in small roles in his own films, including 'Seven Samurai'?",
+          es: "¿Qué director japonés a menudo aparecía en pequeños papeles en sus propias películas, incluyendo 'Seven Samurai'?",
+          de: "Welcher japanische Regisseur trat oft in kleinen Rollen in seinen eigenen Filmen auf, einschließlich 'Die sieben Samurai'?",
+          nl: "Welke Japanse regisseur verscheen vaak in kleine rollen in zijn eigen films, inclusief 'Seven Samurai'?"
+        },
+        options: [
+          { en: "Akira Kurosawa", es: "Akira Kurosawa", de: "Akira Kurosawa", nl: "Akira Kurosawa" },
+          { en: "Yasujiro Ozu", es: "Yasujiro Ozu", de: "Yasujiro Ozu", nl: "Yasujiro Ozu" },
+          { en: "Kenji Mizoguchi", es: "Kenji Mizoguchi", de: "Kenji Mizoguchi", nl: "Kenji Mizoguchi" },
+          { en: "Hayao Miyazaki", es: "Hayao Miyazaki", de: "Hayao Miyazaki", nl: "Hayao Miyazaki" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Akira Kurosawa occasionally appeared in his own films in small roles, though he was primarily known for directing masterpieces like 'Seven Samurai' (1954) and 'Rashomon'.",
+          es: "Akira Kurosawa ocasionalmente aparecía en sus propias películas en pequeños papeles, aunque era conocido principalmente por dirigir obras maestras como 'Seven Samurai' (1954) y 'Rashomon'.",
+          de: "Akira Kurosawa trat gelegentlich in seinen eigenen Filmen in kleinen Rollen auf, obwohl er hauptsächlich für die Regie von Meisterwerken wie 'Die sieben Samurai' (1954) und 'Rashomon' bekannt war.",
+          nl: "Akira Kurosawa verscheen af en toe in zijn eigen films in kleine rollen, hoewel hij voornamelijk bekend stond om het regisseren van meesterwerken zoals 'Seven Samurai' (1954) en 'Rashomon'."
+        }
+      },
+      {
+        question: {
+          en: "Which actor-director starred in and directed 'Braveheart' and won the Best Director Oscar?",
+          es: "¿Qué actor-director protagonizó y dirigió 'Braveheart' y ganó el Oscar al Mejor Director?",
+          de: "Welcher Schauspieler-Regisseur spielte in und führte Regie bei 'Braveheart' und gewann den Oscar für die beste Regie?",
+          nl: "Welke acteur-regisseur speelde in en regisseerde 'Braveheart' en won de Oscar voor Beste Regie?"
+        },
+        options: [
+          { en: "Mel Gibson", es: "Mel Gibson", de: "Mel Gibson", nl: "Mel Gibson" },
+          { en: "Russell Crowe", es: "Russell Crowe", de: "Russell Crowe", nl: "Russell Crowe" },
+          { en: "Kevin Costner", es: "Kevin Costner", de: "Kevin Costner", nl: "Kevin Costner" },
+          { en: "Kenneth Branagh", es: "Kenneth Branagh", de: "Kenneth Branagh", nl: "Kenneth Branagh" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mel Gibson directed and starred in 'Braveheart' (1995), winning the Academy Awards for Best Director and Best Picture for this historical epic about William Wallace.",
+          es: "Mel Gibson dirigió y protagonizó 'Braveheart' (1995), ganando los Premios de la Academia al Mejor Director y Mejor Película por esta épica histórica sobre William Wallace.",
+          de: "Mel Gibson führte Regie und spielte in 'Braveheart' (1995) und gewann die Academy Awards für die beste Regie und den besten Film für dieses historische Epos über William Wallace.",
+          nl: "Mel Gibson regisseerde en speelde in 'Braveheart' (1995), en won de Academy Awards voor Beste Regie en Beste Film voor dit historische epos over William Wallace."
+        }
+      },
+      {
+        question: {
+          en: "Which British actor-director directed himself in 'Henry V' and several other Shakespeare adaptations?",
+          es: "¿Qué actor-director británico se dirigió a sí mismo en 'Henry V' y varias otras adaptaciones de Shakespeare?",
+          de: "Welcher britische Schauspieler-Regisseur führte bei sich selbst in 'Heinrich V.' und mehreren anderen Shakespeare-Adaptionen Regie?",
+          nl: "Welke Britse acteur-regisseur regisseerde zichzelf in 'Henry V' en verschillende andere Shakespeare aanpassingen?"
+        },
+        options: [
+          { en: "Kenneth Branagh", es: "Kenneth Branagh", de: "Kenneth Branagh", nl: "Kenneth Branagh" },
+          { en: "Laurence Olivier", es: "Laurence Olivier", de: "Laurence Olivier", nl: "Laurence Olivier" },
+          { en: "Derek Jacobi", es: "Derek Jacobi", de: "Derek Jacobi", nl: "Derek Jacobi" },
+          { en: "Ian McKellen", es: "Ian McKellen", de: "Ian McKellen", nl: "Ian McKellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Kenneth Branagh directed and starred in multiple Shakespeare adaptations including 'Henry V' (1989), 'Much Ado About Nothing', and 'Hamlet', earning Oscar nominations for his work.",
+          es: "Kenneth Branagh dirigió y protagonizó múltiples adaptaciones de Shakespeare incluyendo 'Henry V' (1989), 'Much Ado About Nothing' y 'Hamlet', ganando nominaciones al Oscar por su trabajo.",
+          de: "Kenneth Branagh führte Regie und spielte in mehreren Shakespeare-Adaptionen, darunter 'Heinrich V.' (1989), 'Viel Lärm um nichts' und 'Hamlet', und erhielt Oscar-Nominierungen für seine Arbeit.",
+          nl: "Kenneth Branagh regisseerde en speelde in meerdere Shakespeare aanpassingen waaronder 'Henry V' (1989), 'Much Ado About Nothing' en 'Hamlet', en kreeg Oscar nominaties voor zijn werk."
+        }
+      },
+      {
+        question: {
+          en: "Which actor-director starred in and directed 'A Bronx Tale', his directorial debut?",
+          es: "¿Qué actor-director protagonizó y dirigió 'A Bronx Tale', su debut como director?",
+          de: "Welcher Schauspieler-Regisseur spielte in und führte Regie bei 'In den Straßen der Bronx', seinem Regiedebüt?",
+          nl: "Welke acteur-regisseur speelde in en regisseerde 'A Bronx Tale', zijn regiedebuut?"
+        },
+        options: [
+          { en: "Robert De Niro", es: "Robert De Niro", de: "Robert De Niro", nl: "Robert De Niro" },
+          { en: "Al Pacino", es: "Al Pacino", de: "Al Pacino", nl: "Al Pacino" },
+          { en: "Joe Pesci", es: "Joe Pesci", de: "Joe Pesci", nl: "Joe Pesci" },
+          { en: "Danny DeVito", es: "Danny DeVito", de: "Danny DeVito", nl: "Danny DeVito" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Robert De Niro made his directorial debut with 'A Bronx Tale' (1993), a coming-of-age story set in 1960s New York, in which he also starred alongside Chazz Palminteri.",
+          es: "Robert De Niro hizo su debut como director con 'A Bronx Tale' (1993), una historia de iniciación ambientada en la Nueva York de los años 60, en la que también protagonizó junto a Chazz Palminteri.",
+          de: "Robert De Niro gab sein Regiedebüt mit 'In den Straßen der Bronx' (1993), einer Coming-of-Age-Geschichte im New York der 1960er Jahre, in der er auch neben Chazz Palminteri spielte.",
+          nl: "Robert De Niro maakte zijn regiedebuut met 'A Bronx Tale' (1993), een coming-of-age verhaal dat zich afspeelt in het New York van de jaren 60, waarin hij ook speelde naast Chazz Palminteri."
+        }
+      },
+      {
+        question: {
+          en: "Which actor-director directed and starred in 'The Apostle', earning an Oscar nomination for acting?",
+          es: "¿Qué actor-director dirigió y protagonizó 'The Apostle', ganando una nominación al Oscar por actuación?",
+          de: "Welcher Schauspieler-Regisseur führte Regie und spielte in 'The Apostle' und erhielt eine Oscar-Nominierung für die Schauspielerei?",
+          nl: "Welke acteur-regisseur regisseerde en speelde in 'The Apostle', en kreeg een Oscar nominatie voor acteren?"
+        },
+        options: [
+          { en: "Robert Duvall", es: "Robert Duvall", de: "Robert Duvall", nl: "Robert Duvall" },
+          { en: "Tommy Lee Jones", es: "Tommy Lee Jones", de: "Tommy Lee Jones", nl: "Tommy Lee Jones" },
+          { en: "Ed Harris", es: "Ed Harris", de: "Ed Harris", nl: "Ed Harris" },
+          { en: "Gary Sinise", es: "Gary Sinise", de: "Gary Sinise", nl: "Gary Sinise" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Robert Duvall wrote, directed, and starred in 'The Apostle' (1997), a passion project about a Pentecostal preacher, earning an Oscar nomination for Best Actor.",
+          es: "Robert Duvall escribió, dirigió y protagonizó 'The Apostle' (1997), un proyecto personal sobre un predicador pentecostal, ganando una nominación al Oscar como Mejor Actor.",
+          de: "Robert Duvall schrieb, führte Regie und spielte in 'The Apostle' (1997), einem Herzensprojekt über einen Pfingstprediger, und erhielt eine Oscar-Nominierung als bester Hauptdarsteller.",
+          nl: "Robert Duvall schreef, regisseerde en speelde in 'The Apostle' (1997), een passieproject over een Pinkster prediker, en kreeg een Oscar nominatie voor Beste Acteur."
+        }
+      },
+      {
+        question: {
+          en: "Which actor directed and starred in 'The Man Who Knew Too Little', marking his transition to directing?",
+          es: "¿Qué actor dirigió y protagonizó 'The Man Who Knew Too Little', marcando su transición a la dirección?",
+          de: "Welcher Schauspieler führte Regie und spielte in 'Der Mann, der zu wenig wusste' und markierte damit seinen Übergang zur Regie?",
+          nl: "Welke acteur regisseerde en speelde in 'The Man Who Knew Too Little', wat zijn overgang naar regisseren markeerde?"
+        },
+        options: [
+          { en: "Jon Amiel", es: "Jon Amiel", de: "Jon Amiel", nl: "Jon Amiel" },
+          { en: "Bill Murray", es: "Bill Murray", de: "Bill Murray", nl: "Bill Murray" },
+          { en: "Ben Stiller", es: "Ben Stiller", de: "Ben Stiller", nl: "Ben Stiller" },
+          { en: "Steve Martin", es: "Steve Martin", de: "Steve Martin", nl: "Steve Martin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Actually, 'The Man Who Knew Too Little' was directed by Jon Amiel, not by its star Bill Murray. However, Murray has not directed feature films despite his long acting career.",
+          es: "En realidad, 'The Man Who Knew Too Little' fue dirigida por Jon Amiel, no por su estrella Bill Murray. Sin embargo, Murray no ha dirigido largometrajes a pesar de su larga carrera como actor.",
+          de: "Tatsächlich wurde 'Der Mann, der zu wenig wusste' von Jon Amiel und nicht von seinem Star Bill Murray inszeniert. Murray hat trotz seiner langen Schauspielkarriere keine Spielfilme inszeniert.",
+          nl: "Eigenlijk werd 'The Man Who Knew Too Little' geregisseerd door Jon Amiel, niet door zijn ster Bill Murray. Murray heeft echter geen speelfilms geregisseerd ondanks zijn lange acteercarrière."
+        }
+      },
+      {
+        question: {
+          en: "Which actor-director created the mockumentary style comedy 'This Is Spinal Tap' and starred as one of the band members?",
+          es: "¿Qué actor-director creó la comedia en estilo de falso documental 'This Is Spinal Tap' y protagonizó como uno de los miembros de la banda?",
+          de: "Welcher Schauspieler-Regisseur schuf die Mockumentary-Komödie 'This Is Spinal Tap' und spielte eines der Bandmitglieder?",
+          nl: "Welke acteur-regisseur creëerde de mockumentary stijl komedie 'This Is Spinal Tap' en speelde als een van de bandleden?"
+        },
+        options: [
+          { en: "Rob Reiner", es: "Rob Reiner", de: "Rob Reiner", nl: "Rob Reiner" },
+          { en: "Christopher Guest", es: "Christopher Guest", de: "Christopher Guest", nl: "Christopher Guest" },
+          { en: "Michael McKean", es: "Michael McKean", de: "Michael McKean", nl: "Michael McKean" },
+          { en: "Harry Shearer", es: "Harry Shearer", de: "Harry Shearer", nl: "Harry Shearer" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Rob Reiner directed 'This Is Spinal Tap' (1984) and appeared as documentary filmmaker Marty DiBergi, creating one of the most influential mockumentaries in cinema history.",
+          es: "Rob Reiner dirigió 'This Is Spinal Tap' (1984) y apareció como el cineasta documental Marty DiBergi, creando uno de los falsos documentales más influyentes en la historia del cine.",
+          de: "Rob Reiner führte Regie bei 'This Is Spinal Tap' (1984) und trat als Dokumentarfilmer Marty DiBergi auf, wodurch einer der einflussreichsten Mockumentarys der Kinogeschichte entstand.",
+          nl: "Rob Reiner regisseerde 'This Is Spinal Tap' (1984) en verscheen als documentairemaker Marty DiBergi, en creëerde een van de meest invloedrijke mockumentaries in de filmgeschiedenis."
+        }
+      },
+      {
+        question: {
+          en: "Which actress directed herself in 'The Piano' and won the Oscar for Best Actress?",
+          es: "¿Qué actriz se dirigió a sí misma en 'The Piano' y ganó el Oscar a la Mejor Actriz?",
+          de: "Welche Schauspielerin führte bei sich selbst in 'Das Piano' Regie und gewann den Oscar als beste Schauspielerin?",
+          nl: "Welke actrice regisseerde zichzelf in 'The Piano' en won de Oscar voor Beste Actrice?"
+        },
+        options: [
+          { en: "Jane Campion", es: "Jane Campion", de: "Jane Campion", nl: "Jane Campion" },
+          { en: "Holly Hunter", es: "Holly Hunter", de: "Holly Hunter", nl: "Holly Hunter" },
+          { en: "Anna Paquin", es: "Anna Paquin", de: "Anna Paquin", nl: "Anna Paquin" },
+          { en: "Emma Thompson", es: "Emma Thompson", de: "Emma Thompson", nl: "Emma Thompson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Actually, Jane Campion directed 'The Piano' (1993), while Holly Hunter won the Oscar for Best Actress. Campion became the second woman nominated for Best Director.",
+          es: "En realidad, Jane Campion dirigió 'The Piano' (1993), mientras que Holly Hunter ganó el Oscar a la Mejor Actriz. Campion se convirtió en la segunda mujer nominada a Mejor Directora.",
+          de: "Tatsächlich führte Jane Campion bei 'Das Piano' (1993) Regie, während Holly Hunter den Oscar als beste Schauspielerin gewann. Campion wurde die zweite Frau, die für die beste Regie nominiert wurde.",
+          nl: "Eigenlijk regisseerde Jane Campion 'The Piano' (1993), terwijl Holly Hunter de Oscar voor Beste Actrice won. Campion werd de tweede vrouw genomineerd voor Beste Regie."
+        }
+      },
+      {
+        question: {
+          en: "Which actor-director starred in and directed 'Lost in Translation', earning critical acclaim?",
+          es: "¿Qué actor-director protagonizó y dirigió 'Lost in Translation', ganando aclamación crítica?",
+          de: "Welcher Schauspieler-Regisseur spielte in und führte Regie bei 'Lost in Translation' und erntete kritischen Beifall?",
+          nl: "Welke acteur-regisseur speelde in en regisseerde 'Lost in Translation', en kreeg kritische erkenning?"
+        },
+        options: [
+          { en: "Sofia Coppola", es: "Sofia Coppola", de: "Sofia Coppola", nl: "Sofia Coppola" },
+          { en: "Scarlett Johansson", es: "Scarlett Johansson", de: "Scarlett Johansson", nl: "Scarlett Johansson" },
+          { en: "Bill Murray", es: "Bill Murray", de: "Bill Murray", nl: "Bill Murray" },
+          { en: "Cameron Crowe", es: "Cameron Crowe", de: "Cameron Crowe", nl: "Cameron Crowe" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sofia Coppola wrote and directed 'Lost in Translation' (2003), winning the Oscar for Best Original Screenplay. Bill Murray and Scarlett Johansson starred in the film.",
+          es: "Sofia Coppola escribió y dirigió 'Lost in Translation' (2003), ganando el Oscar al Mejor Guión Original. Bill Murray y Scarlett Johansson protagonizaron la película.",
+          de: "Sofia Coppola schrieb und führte Regie bei 'Lost in Translation' (2003) und gewann den Oscar für das beste Originaldrehbuch. Bill Murray und Scarlett Johansson spielten in dem Film.",
+          nl: "Sofia Coppola schreef en regisseerde 'Lost in Translation' (2003), en won de Oscar voor Beste Originele Scenario. Bill Murray en Scarlett Johansson speelden in de film."
+        }
+      },
+      {
+        question: {
+          en: "Which comedian directed and starred in 'Pee-wee's Big Adventure', marking Tim Burton's directorial debut?",
+          es: "¿Qué comediante dirigió y protagonizó 'Pee-wee's Big Adventure', marcando el debut como director de Tim Burton?",
+          de: "Welcher Komiker führte Regie und spielte in 'Pee-wees großes Abenteuer', das Tim Burtons Regiedebüt markierte?",
+          nl: "Welke komiek regisseerde en speelde in 'Pee-wee's Big Adventure', wat Tim Burton's regiedebuut markeerde?"
+        },
+        options: [
+          { en: "Paul Reubens", es: "Paul Reubens", de: "Paul Reubens", nl: "Paul Reubens" },
+          { en: "Steve Martin", es: "Steve Martin", de: "Steve Martin", nl: "Steve Martin" },
+          { en: "Robin Williams", es: "Robin Williams", de: "Robin Williams", nl: "Robin Williams" },
+          { en: "Jim Carrey", es: "Jim Carrey", de: "Jim Carrey", nl: "Jim Carrey" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Paul Reubens starred as Pee-wee Herman in 'Pee-wee's Big Adventure' (1985), which was directed by Tim Burton in his feature film debut. Reubens co-wrote but did not direct.",
+          es: "Paul Reubens protagonizó como Pee-wee Herman en 'Pee-wee's Big Adventure' (1985), que fue dirigida por Tim Burton en su debut en largometrajes. Reubens co-escribió pero no dirigió.",
+          de: "Paul Reubens spielte Pee-wee Herman in 'Pee-wees großes Abenteuer' (1985), das von Tim Burton in seinem Spielfilmdebüt inszeniert wurde. Reubens schrieb mit, führte aber nicht Regie.",
+          nl: "Paul Reubens speelde Pee-wee Herman in 'Pee-wee's Big Adventure' (1985), dat werd geregisseerd door Tim Burton in zijn speelfilm debuut. Reubens co-schreef maar regisseerde niet."
+        }
+      },
+      {
+        question: {
+          en: "Which actor-director starred in 'The Pledge' and directed 'Into the Wild'?",
+          es: "¿Qué actor-director protagonizó 'The Pledge' y dirigió 'Into the Wild'?",
+          de: "Welcher Schauspieler-Regisseur spielte in 'Das Versprechen' und führte Regie bei 'Into the Wild'?",
+          nl: "Welke acteur-regisseur speelde in 'The Pledge' en regisseerde 'Into the Wild'?"
+        },
+        options: [
+          { en: "Sean Penn", es: "Sean Penn", de: "Sean Penn", nl: "Sean Penn" },
+          { en: "Jack Nicholson", es: "Jack Nicholson", de: "Jack Nicholson", nl: "Jack Nicholson" },
+          { en: "Emile Hirsch", es: "Emile Hirsch", de: "Emile Hirsch", nl: "Emile Hirsch" },
+          { en: "Benicio del Toro", es: "Benicio del Toro", de: "Benicio del Toro", nl: "Benicio del Toro" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sean Penn directed 'Into the Wild' (2007) and has directed several other films, while also maintaining a successful acting career with films like 'The Pledge' (2001).",
+          es: "Sean Penn dirigió 'Into the Wild' (2007) y ha dirigido varias otras películas, mientras también mantiene una exitosa carrera como actor con películas como 'The Pledge' (2001).",
+          de: "Sean Penn führte Regie bei 'Into the Wild' (2007) und hat mehrere andere Filme inszeniert, während er auch eine erfolgreiche Schauspielkarriere mit Filmen wie 'Das Versprechen' (2001) aufrechterhielt.",
+          nl: "Sean Penn regisseerde 'Into the Wild' (2007) en heeft verschillende andere films geregisseerd, terwijl hij ook een succesvolle acteercarrière handhaafde met films zoals 'The Pledge' (2001)."
+        }
+      },
+      {
+        question: {
+          en: "Which actor-director directed himself in 'Gran Torino' and 'Unforgiven'?",
+          es: "¿Qué actor-director se dirigió a sí mismo en 'Gran Torino' y 'Sin perdón'?",
+          de: "Welcher Schauspieler-Regisseur führte bei sich selbst Regie in 'Gran Torino' und 'Erbarmungslos'?",
+          nl: "Welke acteur-regisseur regisseerde zichzelf in 'Gran Torino' en 'Unforgiven'?"
+        },
+        options: [
+          { en: "Clint Eastwood", es: "Clint Eastwood", de: "Clint Eastwood", nl: "Clint Eastwood" },
+          { en: "Kevin Costner", es: "Kevin Costner", de: "Kevin Costner", nl: "Kevin Costner" },
+          { en: "Mel Gibson", es: "Mel Gibson", de: "Mel Gibson", nl: "Mel Gibson" },
+          { en: "Robert Redford", es: "Robert Redford", de: "Robert Redford", nl: "Robert Redford" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Clint Eastwood directed and starred in both 'Gran Torino' (2008) and 'Unforgiven' (1992), winning Best Director and Best Picture Oscars for the latter.",
+          es: "Clint Eastwood dirigió y protagonizó tanto 'Gran Torino' (2008) como 'Sin perdón' (1992), ganando los Oscar al Mejor Director y Mejor Película por esta última.",
+          de: "Clint Eastwood führte Regie und spielte sowohl in 'Gran Torino' (2008) als auch in 'Erbarmungslos' (1992), wobei er für letzteres die Oscars für beste Regie und besten Film gewann.",
+          nl: "Clint Eastwood regisseerde en speelde in zowel 'Gran Torino' (2008) als 'Unforgiven' (1992), waarbij hij voor de laatste Oscars won voor Beste Regie en Beste Film."
+        }
+      },
+      {
+        question: {
+          en: "Which silent film actress was known as 'America's Sweetheart' and co-founded United Artists?",
+          es: "¿Qué actriz del cine mudo era conocida como 'La novia de América' y co-fundó United Artists?",
+          de: "Welche Stummfilmschauspielerin war als 'Amerikas Liebling' bekannt und gründete United Artists mit?",
+          nl: "Welke stomme film actrice stond bekend als 'America's Sweetheart' en was medeoprichter van United Artists?"
+        },
+        options: [
+          { en: "Mary Pickford", es: "Mary Pickford", de: "Mary Pickford", nl: "Mary Pickford" },
+          { en: "Lillian Gish", es: "Lillian Gish", de: "Lillian Gish", nl: "Lillian Gish" },
+          { en: "Gloria Swanson", es: "Gloria Swanson", de: "Gloria Swanson", nl: "Gloria Swanson" },
+          { en: "Clara Bow", es: "Clara Bow", de: "Clara Bow", nl: "Clara Bow" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mary Pickford was called 'America's Sweetheart' and co-founded United Artists in 1919 with Charlie Chaplin, D.W. Griffith, and Douglas Fairbanks.",
+          es: "Mary Pickford fue llamada 'La novia de América' y co-fundó United Artists en 1919 con Charlie Chaplin, D.W. Griffith y Douglas Fairbanks.",
+          de: "Mary Pickford wurde 'Amerikas Liebling' genannt und gründete 1919 United Artists mit Charlie Chaplin, D.W. Griffith und Douglas Fairbanks.",
+          nl: "Mary Pickford werd 'America's Sweetheart' genoemd en richtte in 1919 United Artists op met Charlie Chaplin, D.W. Griffith en Douglas Fairbanks."
+        }
+      },
+      {
+        question: {
+          en: "Which actor-director created and starred in 'Citizen Kane', often called the greatest film ever made?",
+          es: "¿Qué actor-director creó y protagonizó 'Ciudadano Kane', a menudo llamada la mejor película jamás hecha?",
+          de: "Welcher Schauspieler-Regisseur erschuf und spielte in 'Citizen Kane', oft als bester Film aller Zeiten bezeichnet?",
+          nl: "Welke acteur-regisseur creëerde en speelde in 'Citizen Kane', vaak de beste film ooit gemaakt genoemd?"
+        },
+        options: [
+          { en: "Orson Welles", es: "Orson Welles", de: "Orson Welles", nl: "Orson Welles" },
+          { en: "John Huston", es: "John Huston", de: "John Huston", nl: "John Huston" },
+          { en: "William Wyler", es: "William Wyler", de: "William Wyler", nl: "William Wyler" },
+          { en: "Frank Capra", es: "Frank Capra", de: "Frank Capra", nl: "Frank Capra" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Orson Welles co-wrote, directed, produced, and starred in 'Citizen Kane' (1941) at age 25, revolutionizing cinema with innovative techniques like deep focus.",
+          es: "Orson Welles co-escribió, dirigió, produjo y protagonizó 'Ciudadano Kane' (1941) a los 25 años, revolucionando el cine con técnicas innovadoras como el enfoque profundo.",
+          de: "Orson Welles schrieb, führte Regie, produzierte und spielte in 'Citizen Kane' (1941) im Alter von 25 Jahren und revolutionierte das Kino mit innovativen Techniken wie Tiefenschärfe.",
+          nl: "Orson Welles co-schreef, regisseerde, produceerde en speelde in 'Citizen Kane' (1941) op 25-jarige leeftijd, en revolutioneerde cinema met innovatieve technieken zoals deep focus."
+        }
+      },
+      {
+        question: {
+          en: "Which early film pioneer invented the Kinetoscope and helped create the motion picture industry?",
+          es: "¿Qué pionero del cine temprano inventó el Kinetoscopio y ayudó a crear la industria cinematográfica?",
+          de: "Welcher frühe Filmpionier erfand das Kinetoskop und half bei der Schaffung der Filmindustrie?",
+          nl: "Welke vroege filmpionier vond de Kinetoscope uit en hielp de filmindustrie te creëren?"
+        },
+        options: [
+          { en: "Thomas Edison", es: "Thomas Edison", de: "Thomas Edison", nl: "Thomas Edison" },
+          { en: "Louis Lumière", es: "Louis Lumière", de: "Louis Lumière", nl: "Louis Lumière" },
+          { en: "Georges Méliès", es: "Georges Méliès", de: "Georges Méliès", nl: "Georges Méliès" },
+          { en: "Edwin S. Porter", es: "Edwin S. Porter", de: "Edwin S. Porter", nl: "Edwin S. Porter" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Thomas Edison and his team invented the Kinetoscope in 1891, one of the first devices to show moving pictures, laying groundwork for the film industry.",
+          es: "Thomas Edison y su equipo inventaron el Kinetoscopio en 1891, uno de los primeros dispositivos para mostrar imágenes en movimiento, sentando las bases para la industria cinematográfica.",
+          de: "Thomas Edison und sein Team erfanden 1891 das Kinetoskop, eines der ersten Geräte zur Darstellung bewegter Bilder, und legten damit den Grundstein für die Filmindustrie.",
+          nl: "Thomas Edison en zijn team vonden de Kinetoscope uit in 1891, een van de eerste apparaten om bewegende beelden te tonen, en legden de basis voor de filmindustrie."
+        }
+      },
+      {
+        question: {
+          en: "Which actor-director won Best Picture Oscar for directing and starring in 'Braveheart'?",
+          es: "¿Qué actor-director ganó el Oscar a la Mejor Película por dirigir y protagonizar 'Braveheart'?",
+          de: "Welcher Schauspieler-Regisseur gewann den Oscar für den besten Film für Regie und Hauptrolle in 'Braveheart'?",
+          nl: "Welke acteur-regisseur won de Oscar voor Beste Film voor het regisseren en spelen in 'Braveheart'?"
+        },
+        options: [
+          { en: "Mel Gibson", es: "Mel Gibson", de: "Mel Gibson", nl: "Mel Gibson" },
+          { en: "Kevin Costner", es: "Kevin Costner", de: "Kevin Costner", nl: "Kevin Costner" },
+          { en: "Russell Crowe", es: "Russell Crowe", de: "Russell Crowe", nl: "Russell Crowe" },
+          { en: "Liam Neeson", es: "Liam Neeson", de: "Liam Neeson", nl: "Liam Neeson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mel Gibson directed and starred in 'Braveheart' (1995), winning Academy Awards for Best Picture and Best Director for this epic about Scottish warrior William Wallace.",
+          es: "Mel Gibson dirigió y protagonizó 'Braveheart' (1995), ganando los Premios de la Academia a la Mejor Película y Mejor Director por esta épica sobre el guerrero escocés William Wallace.",
+          de: "Mel Gibson führte Regie und spielte in 'Braveheart' (1995) und gewann die Academy Awards für den besten Film und die beste Regie für dieses Epos über den schottischen Krieger William Wallace.",
+          nl: "Mel Gibson regisseerde en speelde in 'Braveheart' (1995), en won Academy Awards voor Beste Film en Beste Regie voor dit epos over de Schotse krijger William Wallace."
+        }
+      },
+      {
+        question: {
+          en: "Which French magician-turned-filmmaker pioneered special effects in films like 'A Trip to the Moon'?",
+          es: "¿Qué mago francés convertido en cineasta fue pionero en efectos especiales en películas como 'Viaje a la Luna'?",
+          de: "Welcher französische Zauberer-turned-Filmemacher war Pionier für Spezialeffekte in Filmen wie 'Die Reise zum Mond'?",
+          nl: "Welke Franse goochelaar-turned-filmmaker pionierde special effects in films zoals 'A Trip to the Moon'?"
+        },
+        options: [
+          { en: "Georges Méliès", es: "Georges Méliès", de: "Georges Méliès", nl: "Georges Méliès" },
+          { en: "Louis Lumière", es: "Louis Lumière", de: "Louis Lumière", nl: "Louis Lumière" },
+          { en: "Auguste Lumière", es: "Auguste Lumière", de: "Auguste Lumière", nl: "Auguste Lumière" },
+          { en: "Abel Gance", es: "Abel Gance", de: "Abel Gance", nl: "Abel Gance" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Georges Méliès was a magician who became a filmmaker, creating 'A Trip to the Moon' (1902) and pioneering special effects techniques like multiple exposures and hand-painted color.",
+          es: "Georges Méliès fue un mago que se convirtió en cineasta, creando 'Viaje a la Luna' (1902) y siendo pionero en técnicas de efectos especiales como exposiciones múltiples y color pintado a mano.",
+          de: "Georges Méliès war ein Zauberer, der Filmemacher wurde, schuf 'Die Reise zum Mond' (1902) und war Pionier bei Spezialeffekttechniken wie Mehrfachbelichtungen und handgemalter Farbe.",
+          nl: "Georges Méliès was een goochelaar die filmmaker werd, creëerde 'A Trip to the Moon' (1902) en pionierde special effects technieken zoals meervoudige belichtingen en handgeschilderde kleur."
+        }
+      },
+      {
+        question: {
+          en: "Which actor-director directed 'Argo' and won the Best Picture Oscar while starring in the lead role?",
+          es: "¿Qué actor-director dirigió 'Argo' y ganó el Oscar a la Mejor Película mientras protagonizaba el papel principal?",
+          de: "Welcher Schauspieler-Regisseur führte bei 'Argo' Regie und gewann den Oscar für den besten Film, während er die Hauptrolle spielte?",
+          nl: "Welke acteur-regisseur regisseerde 'Argo' en won de Oscar voor Beste Film terwijl hij de hoofdrol speelde?"
+        },
+        options: [
+          { en: "Ben Affleck", es: "Ben Affleck", de: "Ben Affleck", nl: "Ben Affleck" },
+          { en: "George Clooney", es: "George Clooney", de: "George Clooney", nl: "George Clooney" },
+          { en: "Matt Damon", es: "Matt Damon", de: "Matt Damon", nl: "Matt Damon" },
+          { en: "Bryan Cranston", es: "Bryan Cranston", de: "Bryan Cranston", nl: "Bryan Cranston" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ben Affleck directed and starred in 'Argo' (2012), which won the Academy Award for Best Picture. He played CIA agent Tony Mendez in this true story of the Iran hostage crisis.",
+          es: "Ben Affleck dirigió y protagonizó 'Argo' (2012), que ganó el Premio de la Academia a la Mejor Película. Interpretó al agente de la CIA Tony Mendez en esta historia real de la crisis de los rehenes en Irán.",
+          de: "Ben Affleck führte Regie und spielte in 'Argo' (2012), der den Academy Award für den besten Film gewann. Er spielte den CIA-Agenten Tony Mendez in dieser wahren Geschichte der Geiselkrise im Iran.",
+          nl: "Ben Affleck regisseerde en speelde in 'Argo' (2012), die de Academy Award voor Beste Film won. Hij speelde CIA-agent Tony Mendez in dit waargebeurde verhaal over de gijzelingscrisis in Iran."
+        }
+      },
+      {
+        question: {
+          en: "Which pioneering female director made 'The Hurt Locker' and was the first woman to win Best Director Oscar?",
+          es: "¿Qué directora pionera hizo 'The Hurt Locker' y fue la primera mujer en ganar el Oscar al Mejor Director?",
+          de: "Welche bahnbrechende Regisseurin machte 'The Hurt Locker' und war die erste Frau, die den Oscar für die beste Regie gewann?",
+          nl: "Welke baanbrekende vrouwelijke regisseur maakte 'The Hurt Locker' en was de eerste vrouw die de Oscar voor Beste Regie won?"
+        },
+        options: [
+          { en: "Kathryn Bigelow", es: "Kathryn Bigelow", de: "Kathryn Bigelow", nl: "Kathryn Bigelow" },
+          { en: "Sofia Coppola", es: "Sofia Coppola", de: "Sofia Coppola", nl: "Sofia Coppola" },
+          { en: "Jane Campion", es: "Jane Campion", de: "Jane Campion", nl: "Jane Campion" },
+          { en: "Greta Gerwig", es: "Greta Gerwig", de: "Greta Gerwig", nl: "Greta Gerwig" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Kathryn Bigelow directed 'The Hurt Locker' (2008) and became the first woman to win the Academy Award for Best Director, beating her ex-husband James Cameron.",
+          es: "Kathryn Bigelow dirigió 'The Hurt Locker' (2008) y se convirtió en la primera mujer en ganar el Premio de la Academia al Mejor Director, venciendo a su ex-esposo James Cameron.",
+          de: "Kathryn Bigelow führte Regie bei 'The Hurt Locker' (2008) und wurde die erste Frau, die den Academy Award für die beste Regie gewann, und schlug ihren Ex-Mann James Cameron.",
+          nl: "Kathryn Bigelow regisseerde 'The Hurt Locker' (2008) en werd de eerste vrouw die de Academy Award voor Beste Regie won, waarbij ze haar ex-man James Cameron versloeg."
+        }
       }
     ]
   };

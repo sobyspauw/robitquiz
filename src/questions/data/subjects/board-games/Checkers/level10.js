@@ -1605,7 +1605,18 @@
           es: "Resolver damas demostró que problemas suficientemente complejos, una vez considerados intratables, ceden ante computación sistemática persistente e innovaciones algorítmicas inteligentes. El logro validó enfoques combinando búsqueda de fuerza bruta con conocimiento específico del dominio (bases de datos de finales, evaluación de patrones, heurísticas de poda). Mostró que 'resolver' no trivializa—profundiza la comprensión de estructura y complejidad subyacentes. Las técnicas desarrolladas para damas influyeron en investigación de IA más amplia: optimizaciones de búsqueda de árbol de juego, métodos de computación distribuida, técnicas de compresión de bases de datos y enfoques híbridos simbólico-numéricos. La lección: poder computacional combinado con diseño algorítmico inteligente puede penetrar complejidad aparentemente impenetrable, avanzando tanto comprensión teórica como capacidades prácticas en inteligencia artificial.",
           de: "Das Lösen von Dame demonstrierte, dass ausreichend komplexe Probleme, einst für unlösbar gehalten, persistenter systematischer Berechnung und cleveren algorithmischen Innovationen weichen. Die Errungenschaft validierte Ansätze, die Brute-Force-Suche mit domänenspezifischem Wissen kombinieren (Endspiel-Datenbanken, Musterbewertung, Beschneidungs-Heuristiken). Sie zeigte, dass 'Lösen' nicht trivialisiert—es vertieft Verständnis zugrundeliegender Struktur und Komplexität. Die für Dame entwickelten Techniken beeinflussten breitere KI-Forschung: Spielbaum-Such-Optimierungen, verteilte Computing-Methoden, Datenbank-Kompressionstechniken und hybride symbolisch-numerische Ansätze. Die Lektion: Rechenleistung kombiniert mit intelligentem Algorithmus-Design kann scheinbar undurchdringliche Komplexität durchdringen und sowohl theoretisches Verständnis als auch praktische Fähigkeiten in künstlicher Intelligenz voranbringen.",
           nl: "Het oplossen van dammen toonde aan dat voldoende complexe problemen, ooit als onoplosbaar beschouwd, wijken voor persistente systematische berekening en slimme algoritmische innovaties. De prestatie valideerde benaderingen die brute-force zoeken combineren met domein-specifieke kennis (eindspel databases, patroon evaluatie, pruning heuristieken). Het toonde dat 'oplossen' niet trivialiseert—het verdiept begrip van onderliggende structuur en complexiteit. De technieken ontwikkeld voor dammen beïnvloedden breder AI onderzoek: spelboom zoek optimalisaties, gedistribueerde computing methoden, database compressie technieken en hybride symbolisch-numerieke benaderingen. De les: computationele kracht gecombineerd met intelligent algoritme ontwerp kan schijnbaar ondoordringbare complexiteit penetreren, zowel theoretisch begrip als praktische capaciteiten in kunstmatige intelligentie bevorderend."
-        }
+        }    },
+    {
+      question: {en: "What is strategy in games?", es: "What is strategy in games?", de: "What is strategy in games?", nl: "What is strategy in games?"},
+      options: [
+        {en: "Planning to achieve objectives", es: "Planning to achieve objectives", de: "Planning to achieve objectives", nl: "Planning to achieve objectives"},
+        {en: "Random moves", es: "Random moves", de: "Random moves", nl: "Random moves"},
+        {en: "Luck only", es: "Luck only", de: "Luck only", nl: "Luck only"},
+        {en: "No planning", es: "No planning", de: "No planning", nl: "No planning"}
+      ],
+      correct: 0,
+      explanation: {en: "Strategy involves planning and decision-making to achieve game objectives.", es: "Strategy involves planning and decision-making to achieve game objectives.", de: "Strategy involves planning and decision-making to achieve game objectives.", nl: "Strategy involves planning and decision-making to achieve game objectives."}
+
       }
     ]
   };

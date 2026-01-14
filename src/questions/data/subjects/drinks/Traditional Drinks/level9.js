@@ -829,6 +829,826 @@
           nl: "Alambicco is de traditionele Italiaanse koperen pot still methode voor grappa, waarbij stoom manden worden gebruikt om druiven draf zachtjes te distilleren, delicate aroma's te behouden en hoogwaardige spirits te produceren."
         }
       },
+      {
+        question: {
+          en: "What is the traditional Trappist brewing method's fermentation temperature control called?",
+          es: "¿Cómo se llama el control de temperatura de fermentación del método tradicional trapense de elaboración?",
+          de: "Wie heißt die Fermentationstemperaturkontrolle der traditionellen Trappisten-Braumethode?",
+          nl: "Hoe heet de fermentatie temperatuur controle van de traditionele Trappisten brouw methode?"
+        },
+        options: [
+          {
+            en: "Warm fermentation",
+            es: "Fermentación cálida",
+            de: "Warmgärung",
+            nl: "Warme fermentatie"
+          },
+          {
+            en: "Controlled cold fermentation",
+            es: "Fermentación fría controlada",
+            de: "Kontrollierte Kaltgärung",
+            nl: "Gecontroleerde koude fermentatie"
+          },
+          {
+            en: "Ambient temperature fermentation",
+            es: "Fermentación a temperatura ambiente",
+            de: "Umgebungstemperatur-Gärung",
+            nl: "Omgevingstemperatuur fermentatie"
+          },
+          {
+            en: "Variable temperature method",
+            es: "Método de temperatura variable",
+            de: "Variable Temperaturmethode",
+            nl: "Variabele temperatuur methode"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Traditional Trappist brewing uses warm fermentation at 18-24°C with specific Belgian yeast strains, creating the characteristic fruity and spicy esters found in Trappist ales.",
+          es: "La elaboración trapense tradicional usa fermentación cálida a 18-24°C con cepas de levadura belga específicas, creando los ésteres frutales y especiados característicos encontrados en cervezas trapenses.",
+          de: "Traditionelles Trappisten-Brauen verwendet Warmgärung bei 18-24°C mit spezifischen belgischen Hefestämmen, wodurch die charakteristischen fruchtigen und würzigen Ester in Trappistenbieren entstehen.",
+          nl: "Traditioneel Trappisten brouwen gebruikt warme fermentatie bij 18-24°C met specifieke Belgische gist stammen, wat de karakteristieke fruitige en kruidige esters creëert die worden gevonden in Trappisten bieren."
+        }
+      },
+      {
+        question: {
+          en: "Which traditional gin distillation method involves boiling botanicals with the spirit?",
+          es: "¿Qué método tradicional de destilación de ginebra implica hervir botánicos con el licor?",
+          de: "Welche traditionelle Gin-Destillationsmethode beinhaltet das Kochen von Botanicals mit dem Schnaps?",
+          nl: "Welke traditionele gin distillatie methode houdt in dat botanicals met de spirit worden gekookt?"
+        },
+        options: [
+          {
+            en: "Vapor infusion",
+            es: "Infusión de vapor",
+            de: "Dampfinfusion",
+            nl: "Damp infusie"
+          },
+          {
+            en: "Steeping method",
+            es: "Método de remojo",
+            de: "Einweich-Methode",
+            nl: "Week methode"
+          },
+          {
+            en: "Cold compounding",
+            es: "Composición en frío",
+            de: "Kaltmischung",
+            nl: "Koude samenstelling"
+          },
+          {
+            en: "Vacuum distillation",
+            es: "Destilación al vacío",
+            de: "Vakuumdestillation",
+            nl: "Vacuüm distillatie"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The steeping method is the traditional gin distillation technique where juniper and botanicals are steeped in the base spirit before redistillation, extracting maximum flavor during the distillation process.",
+          es: "El método de remojo es la técnica tradicional de destilación de ginebra donde el enebro y botánicos se remojan en el licor base antes de la redestilación, extrayendo el máximo sabor durante el proceso de destilación.",
+          de: "Die Einweich-Methode ist die traditionelle Gin-Destillationstechnik, bei der Wacholder und Botanicals vor der Redistillation im Basisschnaps eingeweicht werden, um maximalen Geschmack während des Destillationsprozesses zu extrahieren.",
+          nl: "De week methode is de traditionele gin distillatie techniek waarbij jeneverbes en botanicals worden geweekt in de basis spirit voor herdistillatie, waarbij maximale smaak wordt geëxtraheerd tijdens het distillatieproces."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional Portuguese method of fortifying port wine?",
+          es: "¿Cuál es el método portugués tradicional de fortificar vino de Oporto?",
+          de: "Was ist die traditionelle portugiesische Methode zur Anreicherung von Portwein?",
+          nl: "Wat is de traditionele Portugese methode van port wijn versterken?"
+        },
+        options: [
+          {
+            en: "Adding brandy mid-fermentation",
+            es: "Agregar brandy a mitad de fermentación",
+            de: "Brandy während der Gärung hinzufügen",
+            nl: "Brandy toevoegen midden fermentatie"
+          },
+          {
+            en: "Post-fermentation fortification",
+            es: "Fortificación post-fermentación",
+            de: "Anreicherung nach der Gärung",
+            nl: "Versterking na fermentatie"
+          },
+          {
+            en: "Pre-fermentation alcohol addition",
+            es: "Adición de alcohol pre-fermentación",
+            de: "Alkoholzugabe vor der Gärung",
+            nl: "Alcohol toevoeging voor fermentatie"
+          },
+          {
+            en: "Natural fermentation to high alcohol",
+            es: "Fermentación natural a alto alcohol",
+            de: "Natürliche Gärung zu hohem Alkohol",
+            nl: "Natuurlijke fermentatie tot hoog alcohol"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Traditional port wine fortification involves adding aguardente (grape brandy) mid-fermentation to stop yeast activity, preserving natural grape sugars and creating the sweet, fortified style.",
+          es: "La fortificación tradicional del vino de Oporto implica agregar aguardente (brandy de uva) a mitad de fermentación para detener la actividad de levadura, preservando azúcares naturales de uva y creando el estilo dulce fortificado.",
+          de: "Traditionelle Portwein-Anreicherung beinhaltet das Hinzufügen von Aguardente (Traubenbrand) während der Gärung, um die Hefeaktivität zu stoppen, natürliche Traubenzucker zu bewahren und den süßen, angereicherten Stil zu schaffen.",
+          nl: "Traditionele port wijn versterking houdt in dat aguardente (druiven brandy) wordt toegevoegd midden fermentatie om gist activiteit te stoppen, natuurlijke druiven suikers te behouden en de zoete, versterkte stijl te creëren."
+        }
+      },
+      {
+        question: {
+          en: "Which traditional calvados distillation method is legally required in Pays d'Auge?",
+          es: "¿Qué método tradicional de destilación de calvados es legalmente requerido en Pays d'Auge?",
+          de: "Welche traditionelle Calvados-Destillationsmethode ist in Pays d'Auge gesetzlich vorgeschrieben?",
+          nl: "Welke traditionele calvados distillatie methode is wettelijk vereist in Pays d'Auge?"
+        },
+        options: [
+          {
+            en: "Single distillation",
+            es: "Destilación única",
+            de: "Einzeldestillation",
+            nl: "Enkele distillatie"
+          },
+          {
+            en: "Double pot still distillation",
+            es: "Doble destilación en alambique",
+            de: "Doppelte Pot-Still-Destillation",
+            nl: "Dubbele pot still distillatie"
+          },
+          {
+            en: "Column still distillation",
+            es: "Destilación en columna",
+            de: "Säulenbrennblasen-Destillation",
+            nl: "Kolom still distillatie"
+          },
+          {
+            en: "Continuous distillation",
+            es: "Destilación continua",
+            de: "Kontinuierliche Destillation",
+            nl: "Continue distillatie"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Pays d'Auge calvados legally requires traditional double pot still distillation (like Cognac), creating a more complex, aromatic apple brandy compared to single-distilled varieties.",
+          es: "El calvados de Pays d'Auge requiere legalmente destilación tradicional doble en alambique (como Cognac), creando un brandy de manzana más complejo y aromático comparado con variedades de destilación única.",
+          de: "Pays d'Auge Calvados erfordert gesetzlich traditionelle doppelte Pot-Still-Destillation (wie Cognac), wodurch ein komplexerer, aromatischerer Apfelbrand im Vergleich zu einfach destillierten Sorten entsteht.",
+          nl: "Pays d'Auge calvados vereist wettelijk traditionele dubbele pot still distillatie (zoals Cognac), wat een meer complexe, aromatische appel brandy creëert vergeleken met enkelvoudig gedistilleerde variëteiten."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional sake brewing method's rice polishing requirement called?",
+          es: "¿Cómo se llama el requisito de pulido de arroz del método tradicional de elaboración de sake?",
+          de: "Wie heißt die Reispolieranforderung der traditionellen Sake-Braumethode?",
+          nl: "Hoe heet de rijst polijst vereiste van de traditionele sake brouw methode?"
+        },
+        options: [
+          {
+            en: "Seimai buai",
+            es: "Seimai buai",
+            de: "Seimai Buai",
+            nl: "Seimai buai"
+          },
+          {
+            en: "Koji making",
+            es: "Elaboración de koji",
+            de: "Koji-Herstellung",
+            nl: "Koji maken"
+          },
+          {
+            en: "Moromi fermentation",
+            es: "Fermentación moromi",
+            de: "Moromi-Fermentation",
+            nl: "Moromi fermentatie"
+          },
+          {
+            en: "Nihonshu method",
+            es: "Método nihonshu",
+            de: "Nihonshu-Methode",
+            nl: "Nihonshu methode"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Seimai buai is the rice polishing ratio in traditional sake brewing, indicating the percentage of rice grain remaining after polishing - lower ratios produce more refined, premium sake.",
+          es: "Seimai buai es la proporción de pulido de arroz en la elaboración tradicional de sake, indicando el porcentaje de grano de arroz que queda después del pulido - proporciones más bajas producen sake más refinado y premium.",
+          de: "Seimai Buai ist das Reispolierverhältnis beim traditionellen Sake-Brauen, das den Prozentsatz des nach dem Polieren verbleibenden Reiskorns angibt - niedrigere Verhältnisse produzieren raffinierten Premium-Sake.",
+          nl: "Seimai buai is de rijst polijst ratio in traditioneel sake brouwen, wat het percentage rijstkorrel aangeeft dat overblijft na polijsten - lagere ratio's produceren meer verfijnde, premium sake."
+        }
+      },
+      {
+        question: {
+          en: "Which traditional Armenian brandy aging method uses Caucasian oak barrels?",
+          es: "¿Qué método tradicional armenio de envejecimiento de brandy usa barriles de roble caucásico?",
+          de: "Welche traditionelle armenische Brandy-Alterungsmethode verwendet kaukasische Eichenfässer?",
+          nl: "Welke traditionele Armeense brandy rijpings methode gebruikt Kaukasische eiken vaten?"
+        },
+        options: [
+          {
+            en: "Solera aging",
+            es: "Envejecimiento en solera",
+            de: "Solera-Alterung",
+            nl: "Solera rijping"
+          },
+          {
+            en: "Static barrel aging",
+            es: "Envejecimiento estático en barril",
+            de: "Statische Fassalterung",
+            nl: "Statische vat rijping"
+          },
+          {
+            en: "Moving barrel method",
+            es: "Método de barril móvil",
+            de: "Bewegliche Fass-Methode",
+            nl: "Bewegende vat methode"
+          },
+          {
+            en: "Underground cave aging",
+            es: "Envejecimiento en cueva subterránea",
+            de: "Unterirdische Höhlenalterung",
+            nl: "Ondergrondse grot rijping"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Traditional Armenian brandy uses static barrel aging in Caucasian oak, where spirits remain in the same barrel for extended periods, developing complex flavors unique to Armenian brandy.",
+          es: "El brandy armenio tradicional usa envejecimiento estático en barril de roble caucásico, donde los licores permanecen en el mismo barril durante períodos extendidos, desarrollando sabores complejos únicos del brandy armenio.",
+          de: "Traditioneller armenischer Brandy verwendet statische Fassalterung in kaukasischer Eiche, wobei Spirituosen über längere Zeiträume im selben Fass bleiben und komplexe Aromen entwickeln, die für armenischen Brandy einzigartig sind.",
+          nl: "Traditionele Armeense brandy gebruikt statische vat rijping in Kaukasische eik, waarbij spirits voor langere perioden in hetzelfde vat blijven, complexe smaken ontwikkelend uniek voor Armeense brandy."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional Czech pilsner brewing water treatment method?",
+          es: "¿Cuál es el método tradicional checo de tratamiento de agua para elaborar pilsner?",
+          de: "Was ist die traditionelle tschechische Pilsner-Brauwasserbehandlungsmethode?",
+          nl: "Wat is de traditionele Tsjechische pilsner brouw water behandelings methode?"
+        },
+        options: [
+          {
+            en: "Hard water addition",
+            es: "Adición de agua dura",
+            de: "Hartwasserzugabe",
+            nl: "Hard water toevoeging"
+          },
+          {
+            en: "Soft water from wells",
+            es: "Agua blanda de pozos",
+            de: "Weiches Wasser aus Brunnen",
+            nl: "Zacht water uit putten"
+          },
+          {
+            en: "Distilled water",
+            es: "Agua destilada",
+            de: "Destilliertes Wasser",
+            nl: "Gedestilleerd water"
+          },
+          {
+            en: "Mineral water addition",
+            es: "Adición de agua mineral",
+            de: "Mineralwasserzugabe",
+            nl: "Mineraalwater toevoeging"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Traditional Czech pilsner uses extremely soft water from Pilsen wells, creating the delicate, crisp flavor profile that defines authentic pilsner-style lagers.",
+          es: "El pilsner checo tradicional usa agua extremadamente blanda de pozos de Pilsen, creando el perfil de sabor delicado y crujiente que define las lagers auténticas estilo pilsner.",
+          de: "Traditionelles tschechisches Pilsner verwendet extrem weiches Wasser aus Pilsner Brunnen, wodurch das zarte, knackige Geschmacksprofil entsteht, das authentische Pilsner-Lagerbiere definiert.",
+          nl: "Traditioneel Tsjechisch pilsner gebruikt extreem zacht water uit Pilsen putten, wat het delicate, heldere smaakprofiel creëert dat authentieke pilsner-stijl lagers definieert."
+        }
+      },
+      {
+        question: {
+          en: "Which traditional cachaca distillation method uses copper alembic stills?",
+          es: "¿Qué método tradicional de destilación de cachaça usa alambiques de cobre?",
+          de: "Welche traditionelle Cachaça-Destillationsmethode verwendet kupferne Alembik-Brennblasen?",
+          nl: "Welke traditionele cachaça distillatie methode gebruikt koperen alembiek ketels?"
+        },
+        options: [
+          {
+            en: "Industrial column method",
+            es: "Método industrial de columna",
+            de: "Industrielle Säulenmethode",
+            nl: "Industriële kolom methode"
+          },
+          {
+            en: "Artisanal alembic method",
+            es: "Método artesanal de alambique",
+            de: "Handwerkliche Alembik-Methode",
+            nl: "Ambachtelijke alembiek methode"
+          },
+          {
+            en: "Continuous distillation",
+            es: "Destilación continua",
+            de: "Kontinuierliche Destillation",
+            nl: "Continue distillatie"
+          },
+          {
+            en: "Vacuum distillation",
+            es: "Destilación al vacío",
+            de: "Vakuumdestillation",
+            nl: "Vacuüm distillatie"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Artisanal cachaça uses traditional copper alembic pot stills for single distillation of fresh sugarcane juice, creating more flavorful, complex spirits than industrial column-distilled versions.",
+          es: "La cachaça artesanal usa alambiques tradicionales de cobre para destilación única de jugo de caña de azúcar fresco, creando licores más sabrosos y complejos que las versiones industriales destiladas en columna.",
+          de: "Handwerkliche Cachaça verwendet traditionelle kupferne Alembik-Pot-Stills für die Einzeldestillation von frischem Zuckerrohrsaft, wodurch aromatischere, komplexere Spirituosen als industriell säulendestillierte Versionen entstehen.",
+          nl: "Ambachtelijke cachaça gebruikt traditionele koperen alembiek pot stills voor enkele distillatie van vers suikerriet sap, wat meer smakelijke, complexe spirits creëert dan industriële kolom-gedistilleerde versies."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional Islay Scotch whisky peat drying method?",
+          es: "¿Cuál es el método tradicional de secado con turba del whisky escocés de Islay?",
+          de: "Was ist die traditionelle Islay-Scotch-Whisky-Torftrocknungsmethode?",
+          nl: "Wat is de traditionele Islay Schotse whisky turf droog methode?"
+        },
+        options: [
+          {
+            en: "Light peat smoking",
+            es: "Ahumado ligero con turba",
+            de: "Leichtes Torfräuchern",
+            nl: "Licht turf roken"
+          },
+          {
+            en: "Heavy peat smoking of malted barley",
+            es: "Ahumado intenso con turba de cebada malteada",
+            de: "Schweres Torfräuchern von gemälzter Gerste",
+            nl: "Zwaar turf roken van gemoute gerst"
+          },
+          {
+            en: "No peat usage",
+            es: "Sin uso de turba",
+            de: "Keine Torfverwendung",
+            nl: "Geen turf gebruik"
+          },
+          {
+            en: "Wood smoke only",
+            es: "Solo humo de madera",
+            de: "Nur Holzrauch",
+            nl: "Alleen hout rook"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Traditional Islay whisky uses heavy peat smoking during malt drying, where peat from Islay bogs imparts intense smoky, medicinal flavors characteristic of Islay single malts.",
+          es: "El whisky tradicional de Islay usa ahumado intenso con turba durante el secado de malta, donde la turba de turberas de Islay imparte sabores intensos ahumados y medicinales característicos de los single malts de Islay.",
+          de: "Traditioneller Islay-Whisky verwendet schweres Torfräuchern während der Malztrocknung, wobei Torf aus Islay-Mooren intensive rauchige, medizinische Aromen verleiht, die für Islay Single Malts charakteristisch sind.",
+          nl: "Traditionele Islay whisky gebruikt zwaar turf roken tijdens mout drogen, waarbij turf uit Islay venen intense rokerige, medicinale smaken geeft kenmerkend voor Islay single malts."
+        }
+      },
+      {
+        question: {
+          en: "Which traditional wine-making method involves fermenting grape juice with skins for extended periods?",
+          es: "¿Qué método tradicional de elaboración de vino implica fermentar jugo de uva con pieles durante períodos extendidos?",
+          de: "Welche traditionelle Weinherstellungsmethode beinhaltet die Fermentation von Traubensaft mit Schalen über längere Zeiträume?",
+          nl: "Welke traditionele wijnmaak methode houdt in dat druivensap met schillen wordt gefermenteerd gedurende langere perioden?"
+        },
+        options: [
+          {
+            en: "White wine method",
+            es: "Método de vino blanco",
+            de: "Weißwein-Methode",
+            nl: "Witte wijn methode"
+          },
+          {
+            en: "Orange wine (skin contact) method",
+            es: "Método de vino naranja (contacto con piel)",
+            de: "Orangenwein (Schalenkontakt) Methode",
+            nl: "Oranje wijn (huid contact) methode"
+          },
+          {
+            en: "Rosé method",
+            es: "Método rosado",
+            de: "Rosé-Methode",
+            nl: "Rosé methode"
+          },
+          {
+            en: "Sparkling wine method",
+            es: "Método de vino espumoso",
+            de: "Schaumwein-Methode",
+            nl: "Mousserende wijn methode"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Orange wine or skin-contact wine is the traditional method of fermenting white grapes with skins for weeks or months (like red wine), creating amber-colored wines with tannins and complex flavors.",
+          es: "El vino naranja o vino de contacto con piel es el método tradicional de fermentar uvas blancas con pieles durante semanas o meses (como vino tinto), creando vinos de color ámbar con taninos y sabores complejos.",
+          de: "Orangenwein oder Schalenkontaktwein ist die traditionelle Methode der Fermentation weißer Trauben mit Schalen über Wochen oder Monate (wie Rotwein), wodurch bernsteinfarbene Weine mit Tanninen und komplexen Aromen entstehen.",
+          nl: "Oranje wijn of huid-contact wijn is de traditionele methode van fermenteren van witte druiven met schillen gedurende weken of maanden (zoals rode wijn), wat amberkleurige wijnen creëert met tannines en complexe smaken."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional British real ale cask conditioning method?",
+          es: "¿Cuál es el método tradicional británico de acondicionamiento en barril de cerveza real?",
+          de: "Was ist die traditionelle britische Real-Ale-Fassreifungsmethode?",
+          nl: "Wat is de traditionele Britse real ale cask conditionering methode?"
+        },
+        options: [
+          {
+            en: "Forced carbonation",
+            es: "Carbonatación forzada",
+            de: "Zwangskarbonisierung",
+            nl: "Geforceerde koolzuur"
+          },
+          {
+            en: "Secondary fermentation in the cask",
+            es: "Fermentación secundaria en el barril",
+            de: "Sekundärgärung im Fass",
+            nl: "Secundaire fermentatie in het vat"
+          },
+          {
+            en: "Pasteurization",
+            es: "Pasteurización",
+            de: "Pasteurisierung",
+            nl: "Pasteurisatie"
+          },
+          {
+            en: "Filtration and bottling",
+            es: "Filtración y embotellado",
+            de: "Filtration und Abfüllung",
+            nl: "Filtratie en botteling"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Traditional cask-conditioned real ale undergoes secondary fermentation in the cask with live yeast, creating natural carbonation and continuing to develop flavor in the cellar before serving.",
+          es: "La cerveza real acondicionada en barril tradicional experimenta fermentación secundaria en el barril con levadura viva, creando carbonatación natural y continuando desarrollando sabor en la bodega antes de servir.",
+          de: "Traditionelles fassgereifte Real Ale durchläuft Sekundärgärung im Fass mit lebender Hefe, wodurch natürliche Kohlensäure entsteht und sich der Geschmack im Keller vor dem Servieren weiterentwickelt.",
+          nl: "Traditioneel vat-geconditioneerde real ale ondergaat secundaire fermentatie in het vat met levende gist, wat natuurlijke koolzuur creëert en blijft smaak ontwikkelen in de kelder voor het serveren."
+        }
+      },
+      {
+        question: {
+          en: "Which traditional Norwegian aquavit aging method uses sea voyages?",
+          es: "¿Qué método tradicional noruego de envejecimiento de aquavit usa viajes marítimos?",
+          de: "Welche traditionelle norwegische Aquavit-Alterungsmethode verwendet Seereisen?",
+          nl: "Welke traditionele Noorse aquavit rijpings methode gebruikt zeereizen?"
+        },
+        options: [
+          {
+            en: "Static barrel aging",
+            es: "Envejecimiento estático en barril",
+            de: "Statische Fassalterung",
+            nl: "Statische vat rijping"
+          },
+          {
+            en: "Linie aquavit ocean aging",
+            es: "Envejecimiento oceánico linie aquavit",
+            de: "Linie Aquavit Ozean-Alterung",
+            nl: "Linie aquavit oceaan rijping"
+          },
+          {
+            en: "Underground cave aging",
+            es: "Envejecimiento en cueva subterránea",
+            de: "Unterirdische Höhlenalterung",
+            nl: "Ondergrondse grot rijping"
+          },
+          {
+            en: "Mountain peak aging",
+            es: "Envejecimiento en pico de montaña",
+            de: "Berggipfelalterung",
+            nl: "Berg top rijping"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Linie aquavit uses traditional ocean aging where barrels cross the equator twice on ships, with constant motion and temperature changes creating unique oxidation and flavor development.",
+          es: "Linie aquavit usa envejecimiento oceánico tradicional donde los barriles cruzan el ecuador dos veces en barcos, con movimiento constante y cambios de temperatura creando oxidación única y desarrollo de sabor.",
+          de: "Linie Aquavit verwendet traditionelle Ozean-Alterung, bei der Fässer zweimal den Äquator auf Schiffen überqueren, wobei konstante Bewegung und Temperaturänderungen einzigartige Oxidation und Geschmacksentwicklung erzeugen.",
+          nl: "Linie aquavit gebruikt traditionele oceaan rijping waarbij vaten twee keer de evenaar oversteken op schepen, met constante beweging en temperatuurveranderingen die unieke oxidatie en smaak ontwikkeling creëren."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional Champagne riddling method called?",
+          es: "¿Cómo se llama el método tradicional de removido de Champagne?",
+          de: "Wie heißt die traditionelle Champagner-Rüttelmethode?",
+          nl: "Hoe heet de traditionele Champagne riddelen methode?"
+        },
+        options: [
+          {
+            en: "Remuage",
+            es: "Remuage",
+            de: "Remuage",
+            nl: "Remuage"
+          },
+          {
+            en: "Dégorgement",
+            es: "Dégorgement",
+            de: "Dégorgement",
+            nl: "Dégorgement"
+          },
+          {
+            en: "Tirage",
+            es: "Tirage",
+            de: "Tirage",
+            nl: "Tirage"
+          },
+          {
+            en: "Dosage",
+            es: "Dosage",
+            de: "Dosage",
+            nl: "Dosage"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Remuage (riddling) is the traditional Champagne method of gradually rotating bottles in pupitres (riddling racks) to move sediment into the neck before disgorgement, creating crystal-clear sparkling wine.",
+          es: "Remuage (removido) es el método tradicional de Champagne de rotar gradualmente botellas en pupitres (estantes de removido) para mover sedimento al cuello antes del degüelle, creando vino espumoso cristalino.",
+          de: "Remuage (Rütteln) ist die traditionelle Champagner-Methode des allmählichen Drehens von Flaschen in Pupitres (Rüttelgestellen), um Sediment in den Flaschenhals zu bewegen vor dem Degorgieren und kristallklaren Schaumwein zu erzeugen.",
+          nl: "Remuage (riddelen) is de traditionele Champagne methode van geleidelijk roteren van flessen in pupitres (riddel rekken) om sediment in de hals te bewegen voor het degorgementen, wat kristalheldere mousserende wijn creëert."
+        }
+      },
+      {
+        question: {
+          en: "Which traditional ouzo distillation method uses copper alembics?",
+          es: "¿Qué método tradicional de destilación de ouzo usa alambiques de cobre?",
+          de: "Welche traditionelle Ouzo-Destillationsmethode verwendet kupferne Alembiks?",
+          nl: "Welke traditionele ouzo distillatie methode gebruikt koperen alembiek?"
+        },
+        options: [
+          {
+            en: "Column distillation",
+            es: "Destilación en columna",
+            de: "Säulendestillation",
+            nl: "Kolom distillatie"
+          },
+          {
+            en: "Traditional pot still with anise",
+            es: "Alambique tradicional con anís",
+            de: "Traditionelle Pot Still mit Anis",
+            nl: "Traditionele pot still met anijs"
+          },
+          {
+            en: "Vacuum distillation",
+            es: "Destilación al vacío",
+            de: "Vakuumdestillation",
+            nl: "Vacuüm distillatie"
+          },
+          {
+            en: "Cold extraction",
+            es: "Extracción en frío",
+            de: "Kaltextraktion",
+            nl: "Koude extractie"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Traditional ouzo distillation uses copper pot stills (alembics) where anise seeds and botanicals are distilled with grape or grain alcohol, creating the characteristic anise-flavored Greek spirit.",
+          es: "La destilación tradicional de ouzo usa alambiques de cobre donde semillas de anís y botánicos se destilan con alcohol de uva o grano, creando el licor griego característico con sabor a anís.",
+          de: "Traditionelle Ouzo-Destillation verwendet kupferne Pot Stills (Alembiks), wo Anissamen und Botanicals mit Trauben- oder Getreidealkohol destilliert werden und den charakteristischen anisgeschmackten griechischen Schnaps erzeugen.",
+          nl: "Traditionele ouzo distillatie gebruikt koperen pot stills (alembiek) waarbij anijszaad en botanicals worden gedistilleerd met druiven of graan alcohol, wat de karakteristieke anijs-gearomatiseerde Griekse spirit creëert."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional New Zealand sauvignon blanc cold soak method?",
+          es: "¿Cuál es el método tradicional neozelandés de maceración en frío de sauvignon blanc?",
+          de: "Was ist die traditionelle neuseeländische Sauvignon Blanc Kaltmazerationsmethode?",
+          nl: "Wat is de traditionele Nieuw-Zeelandse sauvignon blanc koude week methode?"
+        },
+        options: [
+          {
+            en: "Hot fermentation",
+            es: "Fermentación caliente",
+            de: "Heißgärung",
+            nl: "Hete fermentatie"
+          },
+          {
+            en: "Cold maceration before fermentation",
+            es: "Maceración fría antes de fermentación",
+            de: "Kaltmazeration vor der Gärung",
+            nl: "Koude maceratie voor fermentatie"
+          },
+          {
+            en: "Barrel fermentation",
+            es: "Fermentación en barril",
+            de: "Fassgärung",
+            nl: "Vat fermentatie"
+          },
+          {
+            en: "Malolactic fermentation",
+            es: "Fermentación maloláctica",
+            de: "Malolaktische Gärung",
+            nl: "Malolactische fermentatie"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "New Zealand sauvignon blanc traditionally uses cold maceration (cold soaking) of grapes before fermentation to extract intense aromatic compounds, creating the vibrant, tropical fruit flavors.",
+          es: "El sauvignon blanc neozelandés tradicionalmente usa maceración fría (remojo en frío) de uvas antes de fermentación para extraer compuestos aromáticos intensos, creando los sabores vibrantes de fruta tropical.",
+          de: "Neuseeländischer Sauvignon Blanc verwendet traditionell Kaltmazeration (Kalteinweichen) von Trauben vor der Gärung, um intensive aromatische Verbindungen zu extrahieren und lebendige tropische Fruchtaromen zu erzeugen.",
+          nl: "Nieuw-Zeelandse sauvignon blanc gebruikt traditioneel koude maceratie (koud weken) van druiven voor fermentatie om intense aromatische verbindingen te extraheren, wat de levendige, tropische fruit smaken creëert."
+        }
+      },
+      {
+        question: {
+          en: "Which traditional Hungarian Tokaji wine-making method uses botrytized grapes?",
+          es: "¿Qué método tradicional húngaro de elaboración de vino Tokaji usa uvas botritizadas?",
+          de: "Welche traditionelle ungarische Tokaji-Weinherstellungsmethode verwendet botrytisierte Trauben?",
+          nl: "Welke traditionele Hongaarse Tokaji wijnmaak methode gebruikt gebotrytiseerde druiven?"
+        },
+        options: [
+          {
+            en: "Dry wine method",
+            es: "Método de vino seco",
+            de: "Trockenwein-Methode",
+            nl: "Droge wijn methode"
+          },
+          {
+            en: "Aszú method",
+            es: "Método Aszú",
+            de: "Aszú-Methode",
+            nl: "Aszú methode"
+          },
+          {
+            en: "Sparkling wine method",
+            es: "Método de vino espumoso",
+            de: "Schaumwein-Methode",
+            nl: "Mousserende wijn methode"
+          },
+          {
+            en: "Fortified wine method",
+            es: "Método de vino fortificado",
+            de: "Likörwein-Methode",
+            nl: "Versterkte wijn methode"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Aszú method is the traditional Tokaji wine-making technique using hand-picked botrytized (noble rot) grapes macerated in base wine, creating intensely sweet, complex dessert wines.",
+          es: "El método Aszú es la técnica tradicional de elaboración de vino Tokaji usando uvas botritizadas (podredumbre noble) recolectadas a mano maceradas en vino base, creando vinos de postre intensamente dulces y complejos.",
+          de: "Die Aszú-Methode ist die traditionelle Tokaji-Weinherstellungstechnik mit handverlesenen botrytisierten (Edelfäule) Trauben, die in Basiswein mazeriert werden und intensiv süße, komplexe Dessertweine erzeugen.",
+          nl: "De Aszú methode is de traditionele Tokaji wijnmaak techniek met handgeplukte gebotrytiseerde (edele rotting) druiven gemacereerd in basis wijn, wat intens zoete, complexe dessert wijnen creëert."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional absinthe louche effect production method?",
+          es: "¿Cuál es el método tradicional de producción del efecto louche del absenta?",
+          de: "Was ist die traditionelle Produktionsmethode für den Absinth-Louche-Effekt?",
+          nl: "Wat is de traditionele absinthe louche effect productie methode?"
+        },
+        options: [
+          {
+            en: "Adding sugar only",
+            es: "Solo agregar azúcar",
+            de: "Nur Zucker hinzufügen",
+            nl: "Alleen suiker toevoegen"
+          },
+          {
+            en: "Cold water dilution releasing essential oils",
+            es: "Dilución con agua fría liberando aceites esenciales",
+            de: "Kaltwasservezünnung freisetzt ätherische Öle",
+            nl: "Koud water verdunning die essentiële oliën vrijlaat"
+          },
+          {
+            en: "Heating the spirit",
+            es: "Calentar el licor",
+            de: "Den Schnaps erhitzen",
+            nl: "De spirit verwarmen"
+          },
+          {
+            en: "Adding milk",
+            es: "Agregar leche",
+            de: "Milch hinzufügen",
+            nl: "Melk toevoegen"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Traditional absinthe louche occurs when cold water is slowly dripped into the spirit, causing anise and fennel essential oils to precipitate and create the characteristic milky, opalescent appearance.",
+          es: "El louche tradicional del absenta ocurre cuando agua fría se gotea lentamente en el licor, causando que aceites esenciales de anís e hinojo precipiten y creen la apariencia lechosa y opalescente característica.",
+          de: "Traditioneller Absinth-Louche tritt auf, wenn kaltes Wasser langsam in den Schnaps getropft wird, wodurch ätherische Anis- und Fenchelöle ausfallen und das charakteristische milchige, opaleszierende Aussehen erzeugen.",
+          nl: "Traditionele absinthe louche ontstaat wanneer koud water langzaam in de spirit wordt gedruppeld, waardoor anijs en venkel essentiële oliën neerslaan en het karakteristieke melkachtige, opaalkleurige uiterlijk creëren."
+        }
+      },
+      {
+        question: {
+          en: "Which traditional Venezuelan rum aging method uses the Andes mountains?",
+          es: "¿Qué método tradicional venezolano de envejecimiento de ron usa las montañas de los Andes?",
+          de: "Welche traditionelle venezolanische Rum-Alterungsmethode verwendet die Anden?",
+          nl: "Welke traditionele Venezolaanse rum rijpings methode gebruikt het Andes gebergte?"
+        },
+        options: [
+          {
+            en: "Sea level aging",
+            es: "Envejecimiento a nivel del mar",
+            de: "Alterung auf Meereshöhe",
+            nl: "Zeeniveau rijping"
+          },
+          {
+            en: "High altitude aging",
+            es: "Envejecimiento a gran altitud",
+            de: "Höhenalterung",
+            nl: "Hoge hoogte rijping"
+          },
+          {
+            en: "Underground aging",
+            es: "Envejecimiento subterráneo",
+            de: "Unterirdische Alterung",
+            nl: "Ondergrondse rijping"
+          },
+          {
+            en: "Tropical lowland aging",
+            es: "Envejecimiento en tierras bajas tropicales",
+            de: "Tropische Tieflandalterung",
+            nl: "Tropische laagland rijping"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Traditional Venezuelan rum uses high-altitude aging in the Andes mountains where cooler temperatures slow oxidation, creating smoother, more refined rums with slower angel's share evaporation.",
+          es: "El ron venezolano tradicional usa envejecimiento a gran altitud en las montañas de los Andes donde temperaturas más frías ralentizan la oxidación, creando rones más suaves y refinados con evaporación más lenta de la parte de los ángeles.",
+          de: "Traditioneller venezolanischer Rum verwendet Höhenalterung in den Anden, wo kühlere Temperaturen die Oxidation verlangsamen und glattere, raffiniertere Rums mit langsamerer Engelsanteil-Verdunstung erzeugen.",
+          nl: "Traditionele Venezolaanse rum gebruikt hoge hoogte rijping in het Andes gebergte waar koelere temperaturen oxidatie vertragen, wat zachtere, meer verfijnde rums creëert met langzamere engelen aandeel verdamping."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional Rhum Agricole fermentation base ingredient?",
+          es: "¿Cuál es el ingrediente base de fermentación tradicional del Rhum Agricole?",
+          de: "Was ist die traditionelle Rhum Agricole Fermentationsbasis-Zutat?",
+          nl: "Wat is het traditionele Rhum Agricole fermentatie basis ingrediënt?"
+        },
+        options: [
+          {
+            en: "Molasses",
+            es: "Melaza",
+            de: "Melasse",
+            nl: "Melasse"
+          },
+          {
+            en: "Fresh sugarcane juice",
+            es: "Jugo fresco de caña de azúcar",
+            de: "Frischer Zuckerrohrsaft",
+            nl: "Vers suikerriet sap"
+          },
+          {
+            en: "Refined sugar",
+            es: "Azúcar refinado",
+            de: "Raffinierter Zucker",
+            nl: "Geraffineerde suiker"
+          },
+          {
+            en: "Corn syrup",
+            es: "Jarabe de maíz",
+            de: "Maissirup",
+            nl: "Maïssiroop"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Rhum Agricole traditionally uses fresh-pressed sugarcane juice (vesou) rather than molasses, creating a grassy, vegetal rum style primarily produced in French Caribbean territories.",
+          es: "Rhum Agricole tradicionalmente usa jugo de caña de azúcar recién prensado (vesou) en lugar de melaza, creando un estilo de ron herbáceo y vegetal producido principalmente en territorios caribeños franceses.",
+          de: "Rhum Agricole verwendet traditionell frisch gepressten Zuckerrohrsaft (Vesou) anstelle von Melasse, wodurch ein grasiger, pflanzlicher Rum-Stil entsteht, der hauptsächlich in französischen Karibikgebieten produziert wird.",
+          nl: "Rhum Agricole gebruikt traditioneel vers geperst suikerriet sap (vesou) in plaats van melasse, wat een grasachtige, plantaardige rum stijl creëert voornamelijk geproduceerd in Franse Caribische gebieden."
+        }
+      },
+      {
+        question: {
+          en: "Which traditional Swedish brännvin distillation uses potato as base?",
+          es: "¿Qué destilación tradicional sueca de brännvin usa papa como base?",
+          de: "Welche traditionelle schwedische Brännvin-Destillation verwendet Kartoffel als Basis?",
+          nl: "Welke traditionele Zweedse brännvin distillatie gebruikt aardappel als basis?"
+        },
+        options: [
+          {
+            en: "Grain-based method",
+            es: "Método a base de grano",
+            de: "Getreidebasierte Methode",
+            nl: "Graan-gebaseerde methode"
+          },
+          {
+            en: "Potato-based aquavit",
+            es: "Aquavit a base de papa",
+            de: "Kartoffel-basierter Aquavit",
+            nl: "Aardappel-gebaseerde aquavit"
+          },
+          {
+            en: "Grape-based spirit",
+            es: "Licor a base de uva",
+            de: "Traubenbasierter Schnaps",
+            nl: "Druiven-gebaseerde spirit"
+          },
+          {
+            en: "Sugar beet distillation",
+            es: "Destilación de remolacha azucarera",
+            de: "Zuckerrüben-Destillation",
+            nl: "Suikerbiet distillatie"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Traditional Swedish brännvin (especially aquavit) uses potato-based distillation, creating a neutral spirit that's then flavored with caraway, dill, and other botanicals characteristic of Scandinavian aquavit.",
+          es: "El brännvin sueco tradicional (especialmente aquavit) usa destilación a base de papa, creando un licor neutral que luego se aromatiza con alcaravea, eneldo y otros botánicos característicos del aquavit escandinavo.",
+          de: "Traditioneller schwedischer Brännvin (besonders Aquavit) verwendet kartoffelbasierte Destillation, wodurch ein neutraler Schnaps entsteht, der dann mit Kümmel, Dill und anderen für skandinavischen Aquavit charakteristischen Botanicals aromatisiert wird.",
+          nl: "Traditionele Zweedse brännvin (vooral aquavit) gebruikt aardappel-gebaseerde distillatie, wat een neutrale spirit creëert die vervolgens wordt gearomatiseerd met karwij, dille en andere botanicals kenmerkend voor Scandinavische aquavit."
+        }
+      }
     ]
   };
 

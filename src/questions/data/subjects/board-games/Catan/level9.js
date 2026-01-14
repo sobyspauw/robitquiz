@@ -658,6 +658,195 @@
           de: "Entscheidungstheorie unter Unsicherheit: Beim Platzieren des Räubers potentielles Bedauern evaluieren: 'Wenn ich Spieler A blockiere aber Spieler B nächsten Zug gewinnt, wie sehr werde ich bedauern B nicht blockiert zu haben?' Erwartetes Bedauern = P(Gegner gewinnt) × (Ihr Positionsverlust wenn sie gewinnen). Durch Minimieren maximalen Bedauerns (Minimax-Bedauern) trifft man Entscheidungen robust gegen Unsicherheit. Beispiel: Anführer bei 9 Punkten generiert hohes Bedauern wenn nicht blockiert; Zweitplatzierter bei 7 Punkten generiert niedriges Bedauern. Blockiere 9-Punkte-Spieler um katastrophales Bedauern zu minimieren, selbst wenn 7-Punkte-Spieler besseren sofortigen Ressourcendiebstahl bietet.",
           nl: "Beslissingstheorie onder onzekerheid: Bij plaatsen rover, evalueer potentiële spijt: 'Als ik Speler A blokkeer maar Speler B wint volgende beurt, hoeveel zal ik spijt hebben B niet geblokkeerd te hebben?' Verwachte spijt = P(tegenstander wint) × (jouw positie verlies als ze winnen). Door maximum spijt te minimaliseren (minimax spijt), maak je beslissingen robuust tegen onzekerheid. Voorbeeld: Leider bij 9 punten genereert hoge spijt als niet geblokkeerd; 2e plaats bij 7 punten genereert lage spijt. Blokkeer de 9-punten speler om catastrofale spijt te minimaliseren, zelfs als 7-punten speler betere directe bron diefstal biedt."
         }
+      },
+      {
+        question: {
+          en: "What is a 'port monopoly' strategy?",
+          es: "¿Qué es una estrategia de 'monopolio portuario'?",
+          de: "Was ist eine 'Hafenmonopol'-Strategie?",
+          nl: "Wat is een 'haven-monopolie' strategie?"
+        },
+        options: [
+          { en: "Controlling multiple harbors", es: "Controlar múltiples puertos", de: "Mehrere Häfen kontrollieren", nl: "Meerdere havens controleren" },
+          { en: "Trading only through ports", es: "Comerciar solo a través de puertos", de: "Nur über Häfen handeln", nl: "Alleen via havens handelen" },
+          { en: "Building on all harbors", es: "Construir en todos los puertos", de: "Auf allen Häfen bauen", nl: "Op alle havens bouwen" },
+          { en: "Refusing port trades", es: "Rechazar intercambios portuarios", de: "Hafengeschäfte ablehnen", nl: "Havenruilen weigeren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Port monopoly involves building settlements on multiple different harbors to gain trading flexibility and reduce dependence on other players for resource conversion.",
+          es: "El monopolio portuario implica construir asentamientos en múltiples puertos diferentes para obtener flexibilidad comercial y reducir la dependencia de otros jugadores para la conversión de recursos.",
+          de: "Hafenmonopol beinhaltet den Bau von Siedlungen auf mehreren verschiedenen Häfen, um Handelsflexibilität zu erlangen und die Abhängigkeit von anderen Spielern zu verringern.",
+          nl: "Haven-monopolie houdt in dat je nederzettingen bouwt op meerdere verschillende havens om handelsflexibiliteit te verkrijgen en de afhankelijkheid van andere spelers te verminderen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'ore-wheat' strategy?",
+          es: "¿Qué es la estrategia 'mineral-trigo'?",
+          de: "Was ist die 'Erz-Getreide'-Strategie?",
+          nl: "Wat is de 'erts-tarwe' strategie?"
+        },
+        options: [
+          { en: "Focusing on cities and development cards", es: "Centrarse en ciudades y cartas de desarrollo", de: "Sich auf Städte und Entwicklungskarten konzentrieren", nl: "Focussen op steden en ontwikkelingskaarten" },
+          { en: "Avoiding ore and wheat", es: "Evitar mineral y trigo", de: "Erz und Getreide vermeiden", nl: "Erts en tarwe vermijden" },
+          { en: "Trading only ore for wheat", es: "Comerciar solo mineral por trigo", de: "Nur Erz gegen Getreide tauschen", nl: "Alleen erts voor tarwe ruilen" },
+          { en: "Building only on ore/wheat hexes", es: "Construir solo en hexágonos de mineral/trigo", de: "Nur auf Erz/Getreidefeldern bauen", nl: "Alleen op erts/tarwe hexen bouwen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The ore-wheat strategy focuses on acquiring ore and wheat to build cities and development cards, prioritizing vertical growth over expansion.",
+          es: "La estrategia mineral-trigo se centra en adquirir mineral y trigo para construir ciudades y cartas de desarrollo, priorizando el crecimiento vertical sobre la expansión.",
+          de: "Die Erz-Getreide-Strategie konzentriert sich auf den Erwerb von Erz und Getreide, um Städte und Entwicklungskarten zu bauen.",
+          nl: "De erts-tarwe strategie richt zich op het verwerven van erts en tarwe om steden en ontwikkelingskaarten te bouwen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'card counting' in Catan?",
+          es: "¿Qué es 'contar cartas' en Catan?",
+          de: "Was ist 'Kartenzählen' in Catan?",
+          nl: "Wat is 'kaarten tellen' in Catan?"
+        },
+        options: [
+          { en: "Tracking played development cards", es: "Rastrear cartas de desarrollo jugadas", de: "Gespielte Entwicklungskarten verfolgen", nl: "Gespeelde ontwikkelingskaarten bijhouden" },
+          { en: "Counting victory points secretly", es: "Contar puntos en secreto", de: "Siegpunkte heimlich zählen", nl: "Overwinningspunten heimelijk tellen" },
+          { en: "Remembering player card counts", es: "Recordar cuántas cartas tiene cada jugador", de: "Sich Kartenzahlen merken", nl: "Kaartaantallen onthouden" },
+          { en: "Organizing hand by type", es: "Organizar mano por tipo", de: "Hand nach Typ organisieren", nl: "Hand ordenen op type" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Card counting involves tracking which development cards have been revealed to estimate what remains in the deck and inform purchasing decisions.",
+          es: "Contar cartas implica rastrear qué cartas de desarrollo se han revelado para estimar qué queda en el mazo e informar decisiones de compra.",
+          de: "Kartenzählen beinhaltet das Verfolgen, welche Entwicklungskarten aufgedeckt wurden, um abzuschätzen, was im Deck verbleibt.",
+          nl: "Kaarten tellen houdt in dat je bijhoudt welke ontwikkelingskaarten zijn onthuld om in te schatten wat er in het deck overblijft."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'knight rush' strategy?",
+          es: "¿Qué es la estrategia de 'ataque de caballero'?",
+          de: "Was ist die 'Ritter-Rush'-Strategie?",
+          nl: "Wat is de 'ridder-rush' strategie?"
+        },
+        options: [
+          { en: "Buying many dev cards early for Largest Army", es: "Comprar muchas cartas de desarrollo temprano", de: "Frühzeitig viele Entwicklungskarten kaufen", nl: "Veel ontwikkelingskaarten vroeg kopen" },
+          { en: "Moving robber every turn", es: "Mover al ladrón cada turno", de: "Räuber jeden Zug bewegen", nl: "Rover elke beurt verplaatsen" },
+          { en: "Building only knights", es: "Construir solo caballeros", de: "Nur Ritter bauen", nl: "Alleen ridders bouwen" },
+          { en: "Attacking with robber constantly", es: "Atacar constantemente con ladrón", de: "Ständig mit Räuber angreifen", nl: "Constant aanvallen met rover" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Knight rush prioritizes development card purchases early to quickly accumulate knights and claim Largest Army while gaining robber control.",
+          es: "El ataque de caballero prioriza las compras de cartas temprano para acumular caballeros y reclamar el Ejército Más Grande.",
+          de: "Ritter-Rush priorisiert frühe Entwicklungskarenkäufe, um schnell Ritter zu sammeln und die größte Rittermacht zu beanspruchen.",
+          nl: "Ridder-rush geeft prioriteit aan vroege ontwikkelingskaartenaankopen om snel ridders te verzamelen en het Grootste Leger te claimen."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'development card lock'?",
+          es: "¿Qué es un 'bloqueo de carta de desarrollo'?",
+          de: "Was ist eine 'Entwicklungskarten-Sperre'?",
+          nl: "Wat is een 'ontwikkelingskaart-lock'?"
+        },
+        options: [
+          { en: "Buying all remaining dev cards to deny opponents", es: "Comprar todas las cartas restantes para negar oponentes", de: "Alle verbleibenden Karten kaufen", nl: "Alle resterende kaarten kopen om tegenstanders te ontzeggen" },
+          { en: "Never playing dev cards", es: "Nunca jugar cartas", de: "Karten nie spielen", nl: "Kaarten nooit spelen" },
+          { en: "Keeping cards secret", es: "Mantener cartas en secreto", de: "Karten geheim halten", nl: "Kaarten geheim houden" },
+          { en: "Trading away dev card resources", es: "Intercambiar recursos de cartas", de: "Kartenressourcen wegtauschen", nl: "Kaartenbronnen ruilen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A development card lock occurs when a player buys multiple cards late game to prevent opponents from getting useful cards.",
+          es: "Un bloqueo ocurre cuando un jugador compra múltiples cartas tarde en el juego para evitar que oponentes obtengan cartas útiles.",
+          de: "Eine Sperre tritt auf, wenn ein Spieler spät im Spiel mehrere Karten kauft, um Gegner auszuschließen.",
+          nl: "Een lock vindt plaats wanneer een speler laat in het spel meerdere kaarten koopt om tegenstanders te verhinderen nuttige kaarten te krijgen."
+        }
+      },
+      {
+        question: {
+          en: "What is the expected value of a 6-8-5 settlement?",
+          es: "¿Cuál es el valor esperado de un asentamiento 6-8-5?",
+          de: "Was ist der Erwartungswert einer 6-8-5-Siedlung?",
+          nl: "Wat is de verwachte waarde van een 6-8-5 nederzetting?"
+        },
+        options: [
+          { en: "14/36 per roll", es: "14/36 por tirada", de: "14/36 pro Wurf", nl: "14/36 per worp" },
+          { en: "13/36 per roll", es: "13/36 por tirada", de: "13/36 pro Wurf", nl: "13/36 per worp" },
+          { en: "12/36 per roll", es: "12/36 por tirada", de: "12/36 pro Wurf", nl: "12/36 per worp" },
+          { en: "15/36 per roll", es: "15/36 por tirada", de: "15/36 pro Wurf", nl: "15/36 per worp" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A 6-8-5 intersection has 14/36 expected value: 6 (5/36), 8 (5/36), 5 (4/36). Total: 14/36, making it extremely valuable.",
+          es: "Una intersección 6-8-5 tiene valor esperado de 14/36: 6 (5/36), 8 (5/36), 5 (4/36). Total: 14/36, extremadamente valioso.",
+          de: "Eine 6-8-5-Kreuzung hat 14/36 Erwartungswert: 6 (5/36), 8 (5/36), 5 (4/36). Gesamt: 14/36, äußerst wertvoll.",
+          nl: "Een 6-8-5 kruispunt heeft 14/36 verwachte waarde: 6 (5/36), 8 (5/36), 5 (4/36). Totaal: 14/36, extreem waardevol."
+        }
+      },
+      {
+        question: {
+          en: "What is 'resource diversity' and why is it important?",
+          es: "¿Qué es la 'diversidad de recursos' y por qué es importante?",
+          de: "Was ist 'Ressourcenvielfalt' und warum ist sie wichtig?",
+          nl: "Wat is 'hulpbrondiversiteit' en waarom is het belangrijk?"
+        },
+        options: [
+          { en: "Access to all 5 resource types", es: "Acceso a los 5 tipos de recursos", de: "Zugang zu allen 5 Ressourcentypen", nl: "Toegang tot alle 5 hulpbrontypen" },
+          { en: "Collecting only one resource", es: "Recolectar solo un recurso", de: "Nur eine Ressource sammeln", nl: "Slechts één hulpbron verzamelen" },
+          { en: "Trading different resources", es: "Intercambiar diferentes recursos", de: "Verschiedene Ressourcen tauschen", nl: "Verschillende hulpbronnen ruilen" },
+          { en: "Building on diverse terrains", es: "Construir en terrenos diversos", de: "Auf verschiedenen Geländen bauen", nl: "Bouwen op diverse terreinen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Resource diversity means having access to all 5 resource types, minimizing trading dependence and allowing you to build anything when needed.",
+          es: "La diversidad de recursos significa tener acceso a los 5 tipos de recursos, minimizando la dependencia comercial.",
+          de: "Ressourcenvielfalt bedeutet Zugang zu allen 5 Ressourcentypen, was Handelsabhängigkeit minimiert.",
+          nl: "Hulpbrondiversiteit betekent toegang tot alle 5 hulpbrontypen, wat handelsafhankelijkheid minimaliseert."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'split settlement' opening strategy?",
+          es: "¿Qué es la estrategia de 'asentamiento dividido'?",
+          de: "Was ist die 'geteilte Siedlung'-Strategie?",
+          nl: "Wat is de 'gesplitste nederzetting' strategie?"
+        },
+        options: [
+          { en: "Placing settlements far apart for expansion", es: "Colocar asentamientos lejos para expansión", de: "Siedlungen weit auseinander für Expansion", nl: "Nederzettingen ver uit elkaar voor uitbreiding" },
+          { en: "Sharing settlements", es: "Compartir asentamientos", de: "Siedlungen teilen", nl: "Nederzettingen delen" },
+          { en: "Building on split hexes", es: "Construir en hexágonos divididos", de: "Auf geteilten Feldern bauen", nl: "Bouwen op gesplitste hexen" },
+          { en: "One settlement per board side", es: "Un asentamiento por lado", de: "Eine Siedlung pro Seite", nl: "Eén nederzetting per kant" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Split settlement places initial settlements in different areas, maximizing expansion opportunities and reducing robber impact.",
+          es: "El asentamiento dividido coloca asentamientos iniciales en áreas diferentes, maximizando oportunidades de expansión.",
+          de: "Geteilte Siedlung platziert Anfangssiedlungen in verschiedenen Bereichen, maximiert Expansionsmöglichkeiten.",
+          nl: "Gesplitste nederzetting plaatst initiële nederzettingen in verschillende gebieden, maximaliseert uitbreidingsmogelijkheden."
+        }
+      },
+      {
+        question: {
+          en: "What percentage of rolls produce resources (excluding 7)?",
+          es: "¿Qué porcentaje de tiradas produce recursos (excluyendo 7)?",
+          de: "Welcher Prozentsatz der Würfe produziert Ressourcen (ohne 7)?",
+          nl: "Welk percentage van worpen produceert hulpbronnen (exclusief 7)?"
+        },
+        options: [
+          { en: "75%", es: "75%", de: "75%", nl: "75%" },
+          { en: "83.33%", es: "83.33%", de: "83,33%", nl: "83,33%" },
+          { en: "91.67%", es: "91.67%", de: "91,67%", nl: "91,67%" },
+          { en: "100%", es: "100%", de: "100%", nl: "100%" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Since 7 appears 6/36 times (16.67%), the remaining 30/36 rolls (83.33%) produce resources for players with settlements on those numbers.",
+          es: "Dado que 7 aparece 6/36 veces (16,67%), las 30/36 tiradas restantes (83,33%) producen recursos.",
+          de: "Da 7 6/36 Mal erscheint (16,67%), produzieren die verbleibenden 30/36 Würfe (83,33%) Ressourcen.",
+          nl: "Aangezien 7 6/36 keer verschijnt (16,67%), produceren de resterende 30/36 worpen (83,33%) hulpbronnen."
+        }
       }
     ]
   };

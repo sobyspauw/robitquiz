@@ -826,6 +826,47 @@
           de: "Prophylaxe (prophylaktisches Denken) bedeutet, die Pläne des Gegners vorherzusehen und zu verhindern, bevor er sie ausführen kann. Dieses Konzept wurde von Nimzowitsch populär gemacht.",
           nl: "Profylaxe (profylactisch denken) betekent de plannen van je tegenstander anticiperen en voorkomen voordat ze kunnen worden uitgevoerd. Dit concept werd gepopulariseerd door Nimzowitsch."
         }
+      },
+      {
+        question: {
+                  "en": "What is a 'passed pawn' in chess?",
+                  "es": "¿Qué es un 'peón pasado' en ajedrez?",
+                  "de": "Was ist ein 'Freibauer' im Schach?",
+                  "nl": "Wat is een 'vrijpion' in schaken?"
+        },
+        options: [
+                  {
+                            "en": "A pawn with no enemy pawns to stop its advance",
+                            "es": "Un peón sin peones enemigos que detengan su avance",
+                            "de": "Ein Bauer ohne gegnerische Bauern, die seinen Vorstoß stoppen",
+                            "nl": "Een pion zonder vijandelijke pionnen om zijn opmars te stoppen"
+                  },
+                  {
+                            "en": "A pawn that moved two squares",
+                            "es": "Un peón que se movió dos casillas",
+                            "de": "Ein Bauer, der zwei Felder gezogen ist",
+                            "nl": "Een pion die twee velden heeft bewogen"
+                  },
+                  {
+                            "en": "A pawn that can be captured en passant",
+                            "es": "Un peón que puede ser capturado al paso",
+                            "de": "Ein Bauer, der en passant geschlagen werden kann",
+                            "nl": "Een pion die en passant geslagen kan worden"
+                  },
+                  {
+                            "en": "A pawn protected by another pawn",
+                            "es": "Un peón protegido por otro peón",
+                            "de": "Ein durch einen anderen Bauern geschützter Bauer",
+                            "nl": "Een pion beschermd door een andere pion"
+                  }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "A passed pawn has no enemy pawns on its file or adjacent files that can stop it from promoting. Passed pawns are very valuable, especially in endgames.",
+                  "es": "Un peón pasado no tiene peones enemigos en su columna o columnas adyacentes que puedan detener su promoción. Los peones pasados son muy valiosos, especialmente en finales.",
+                  "de": "Ein Freibauer hat keine gegnerischen Bauern auf seiner Linie oder benachbarten Linien, die seine Umwandlung stoppen können. Freibauern sind sehr wertvoll, besonders in Endspielen.",
+                  "nl": "Een vrijpion heeft geen vijandelijke pionnen op zijn lijn of aangrenzende lijnen die promotie kunnen stoppen. Vrijpionnen zijn zeer waardevol, vooral in eindspelen."
+        }
       }
     ]
   };

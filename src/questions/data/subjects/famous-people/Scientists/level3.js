@@ -427,6 +427,321 @@
           de: "Tim Berners-Lee erfand 1989 das World Wide Web während seiner Arbeit am CERN. Er schuf HTML, HTTP und den ersten Webbrowser und -server. Er stellte seine Erfindung ohne Patente frei zur Verfügung und ermöglichte so die Internetrevolution. Er wurde zum Ritter geschlagen und erhielt den Turing Award für seine Beiträge.",
           nl: "Tim Berners-Lee vond het World Wide Web uit in 1989 terwijl hij bij CERN werkte. Hij creëerde HTML, HTTP en de eerste webbrowser en -server. Hij stelde zijn uitvinding vrij beschikbaar zonder patenten, waardoor de internetrevolutie mogelijk werd. Hij werd geridderd en ontving de Turing Award voor zijn bijdragen."
         }
+      },
+      {
+        question: {
+          en: "Which paleontologist discovered the first recognized dinosaur fossil (Megalosaurus) in 1824?",
+          es: "¿Qué paleontólogo descubrió el primer fósil de dinosaurio reconocido (Megalosaurus) en 1824?",
+          de: "Welcher Paläontologe entdeckte 1824 das erste anerkannte Dinosaurierfossil (Megalosaurus)?",
+          nl: "Welke paleontoloog ontdekte in 1824 het eerste erkende dinosaurusfossiel (Megalosaurus)?"
+        },
+        options: [
+          { en: "William Buckland", es: "William Buckland", de: "William Buckland", nl: "William Buckland" },
+          { en: "Richard Owen", es: "Richard Owen", de: "Richard Owen", nl: "Richard Owen" },
+          { en: "Gideon Mantell", es: "Gideon Mantell", de: "Gideon Mantell", nl: "Gideon Mantell" },
+          { en: "Mary Anning", es: "Mary Anning", de: "Mary Anning", nl: "Mary Anning" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "William Buckland, an English geologist and paleontologist, formally described Megalosaurus in 1824, making it the first dinosaur genus to be scientifically named. Though fossils had been found earlier, Buckland's was the first proper scientific description. His work helped establish the study of ancient life and contributed to the eventual creation of the term 'dinosaur' by Richard Owen in 1842.",
+          es: "William Buckland, geólogo y paleontólogo inglés, describió formalmente Megalosaurus en 1824, convirtiéndolo en el primer género de dinosaurio en ser científicamente nombrado. Aunque se habían encontrado fósiles antes, el de Buckland fue la primera descripción científica adecuada. Su trabajo ayudó a establecer el estudio de la vida antigua y contribuyó a la eventual creación del término 'dinosaurio' por Richard Owen en 1842.",
+          de: "William Buckland, ein englischer Geologe und Paläontologe, beschrieb Megalosaurus 1824 formell und machte ihn damit zur ersten wissenschaftlich benannten Dinosauriergattung. Obwohl Fossilien schon früher gefunden wurden, war Bucklands die erste ordentliche wissenschaftliche Beschreibung. Seine Arbeit half, das Studium des alten Lebens zu etablieren und trug zur eventuellen Schöpfung des Begriffs 'Dinosaurier' durch Richard Owen 1842 bei.",
+          nl: "William Buckland, een Engelse geoloog en paleontoloog, beschreef Megalosaurus formeel in 1824, waarmee het het eerste dinosaurusgeslacht werd dat wetenschappelijk werd benoemd. Hoewel fossielen eerder waren gevonden, was die van Buckland de eerste echte wetenschappelijke beschrijving. Zijn werk help de studie van het oude leven te vestigen en droeg bij aan de uiteindelijke creatie van de term 'dinosaurus' door Richard Owen in 1842."
+        }
+      },
+      {
+        question: {
+          en: "Who discovered penicillin in 1928 by accidentally contaminating a bacterial culture?",
+          es: "¿Quién descubrió la penicilina en 1928 al contaminar accidentalmente un cultivo bacteriano?",
+          de: "Wer entdeckte 1928 Penicillin durch versehentliche Kontamination einer Bakterienkultur?",
+          nl: "Wie ontdekte in 1928 penicilline door per ongeluk een bacteriële kweek te besmetten?"
+        },
+        options: [
+          { en: "Alexander Fleming", es: "Alexander Fleming", de: "Alexander Fleming", nl: "Alexander Fleming" },
+          { en: "Howard Florey", es: "Howard Florey", de: "Howard Florey", nl: "Howard Florey" },
+          { en: "Ernst Chain", es: "Ernst Chain", de: "Ernst Chain", nl: "Ernst Chain" },
+          { en: "Paul Ehrlich", es: "Paul Ehrlich", de: "Paul Ehrlich", nl: "Paul Ehrlich" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Alexander Fleming discovered penicillin in 1928 when mold contaminated his bacterial cultures and killed surrounding bacteria. He identified the mold as Penicillium notatum. Though Fleming made the discovery, Howard Florey and Ernst Chain later developed methods to mass-produce penicillin. All three shared the 1945 Nobel Prize. Penicillin saved millions of lives and launched the antibiotic era.",
+          es: "Alexander Fleming descubrió la penicilina en 1928 cuando el moho contaminó sus cultivos bacterianos y mató las bacterias circundantes. Identificó el moho como Penicillium notatum. Aunque Fleming hizo el descubrimiento, Howard Florey y Ernst Chain desarrollaron posteriormente métodos para producir penicilina en masa. Los tres compartieron el Premio Nobel de 1945. La penicilina salvó millones de vidas y lanzó la era de los antibióticos.",
+          de: "Alexander Fleming entdeckte 1928 Penicillin, als Schimmel seine Bakterienkulturen kontaminierte und umliegende Bakterien abtötete. Er identifizierte den Schimmel als Penicillium notatum. Obwohl Fleming die Entdeckung machte, entwickelten Howard Florey und Ernst Chain später Methoden zur Massenproduktion von Penicillin. Alle drei teilten sich den Nobelpreis 1945. Penicillin rettete Millionen von Leben und startete die Antibiotika-Ära.",
+          nl: "Alexander Fleming ontdekte in 1928 penicilline toen schimmel zijn bacteriële kweken besmette en omliggende bacteriën doodde. Hij identificeerde de schimmel als Penicillium notatum. Hoewel Fleming de ontdekking deed, ontwikkelden Howard Florey en Ernst Chain later methoden om penicilline in massa te produceren. Alle drie deelden de Nobelprijs van 1945. Penicilline redde miljoenen levens en lanceerde het antibiotica-tijdperk."
+        }
+      },
+      {
+        question: {
+          en: "Which scientist developed the heliocentric model placing the Sun at the center of the solar system?",
+          es: "¿Qué científico desarrolló el modelo heliocéntrico colocando el Sol en el centro del sistema solar?",
+          de: "Welcher Wissenschaftler entwickelte das heliozentrische Modell mit der Sonne im Zentrum des Sonnensystems?",
+          nl: "Welke wetenschapper ontwikkelde het heliocentrische model waarbij de zon in het centrum van het zonnestelsel staat?"
+        },
+        options: [
+          { en: "Nicolaus Copernicus", es: "Nicolás Copérnico", de: "Nikolaus Kopernikus", nl: "Nicolaus Copernicus" },
+          { en: "Galileo Galilei", es: "Galileo Galilei", de: "Galileo Galilei", nl: "Galileo Galilei" },
+          { en: "Johannes Kepler", es: "Johannes Kepler", de: "Johannes Kepler", nl: "Johannes Kepler" },
+          { en: "Tycho Brahe", es: "Tycho Brahe", de: "Tycho Brahe", nl: "Tycho Brahe" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Nicolaus Copernicus published his heliocentric model in 'De revolutionibus orbium coelestium' in 1543, shortly before his death. His model placed the Sun at the center with planets orbiting it, challenging the geocentric Ptolemaic system. Though initially controversial and opposed by religious authorities, his work sparked the Scientific Revolution and fundamentally changed astronomy.",
+          es: "Nicolás Copérnico publicó su modelo heliocéntrico en 'De revolutionibus orbium coelestium' en 1543, poco antes de su muerte. Su modelo colocó el Sol en el centro con los planetas orbitándolo, desafiando el sistema geocéntrico ptolemaico. Aunque inicialmente controvertido y opuesto por autoridades religiosas, su trabajo provocó la Revolución Científica y cambió fundamentalmente la astronomía.",
+          de: "Nikolaus Kopernikus veröffentlichte 1543, kurz vor seinem Tod, sein heliozentrisches Modell in 'De revolutionibus orbium coelestium'. Sein Modell platzierte die Sonne im Zentrum mit Planeten, die sie umkreisten, und stellte das geozentrische ptolemäische System in Frage. Obwohl zunächst umstritten und von religiösen Autoritäten abgelehnt, löste seine Arbeit die Wissenschaftliche Revolution aus und veränderte die Astronomie grundlegend.",
+          nl: "Nicolaus Copernicus publiceerde zijn heliocentrisch model in 'De revolutionibus orbium coelestium' in 1543, kort voor zijn dood. Zijn model plaatste de zon in het centrum met planeten die eromheen draaiden, wat het geocentrische Ptolemaeïsche systeem uitdaagde. Hoewel aanvankelijk controversieel en tegengewerkt door religieuze autoriteiten, zette zijn werk de Wetenschappelijke Revolutie in gang en veranderde de astronomie fundamenteel."
+        }
+      },
+      {
+        question: {
+          en: "Who discovered the laws of heredity through experiments with pea plants?",
+          es: "¿Quién descubrió las leyes de la herencia a través de experimentos con plantas de guisantes?",
+          de: "Wer entdeckte die Gesetze der Vererbung durch Experimente mit Erbsenpflanzen?",
+          nl: "Wie ontdekte de wetten van erfelijkheid door experimenten met erwtenplanten?"
+        },
+        options: [
+          { en: "Gregor Mendel", es: "Gregor Mendel", de: "Gregor Mendel", nl: "Gregor Mendel" },
+          { en: "Charles Darwin", es: "Charles Darwin", de: "Charles Darwin", nl: "Charles Darwin" },
+          { en: "Thomas Hunt Morgan", es: "Thomas Hunt Morgan", de: "Thomas Hunt Morgan", nl: "Thomas Hunt Morgan" },
+          { en: "Hugo de Vries", es: "Hugo de Vries", de: "Hugo de Vries", nl: "Hugo de Vries" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gregor Mendel conducted experiments with pea plants in the 1850s-1860s, discovering the fundamental laws of heredity. He identified dominant and recessive traits and formulated the laws of segregation and independent assortment. Though his work went unrecognized during his lifetime, it was rediscovered in 1900 and became the foundation of genetics. He is considered the father of genetics.",
+          es: "Gregor Mendel realizó experimentos con plantas de guisantes en las décadas de 1850-1860, descubriendo las leyes fundamentales de la herencia. Identificó rasgos dominantes y recesivos y formuló las leyes de segregación e independencia de caracteres. Aunque su trabajo no fue reconocido durante su vida, fue redescubierto en 1900 y se convirtió en la base de la genética. Es considerado el padre de la genética.",
+          de: "Gregor Mendel führte in den 1850er-1860er Jahren Experimente mit Erbsenpflanzen durch und entdeckte die grundlegenden Gesetze der Vererbung. Er identifizierte dominante und rezessive Merkmale und formulierte die Gesetze der Segregation und der unabhängigen Verteilung. Obwohl seine Arbeit zu seinen Lebzeiten unerkannt blieb, wurde sie 1900 wiederentdeckt und wurde zur Grundlage der Genetik. Er gilt als Vater der Genetik.",
+          nl: "Gregor Mendel voerde in de jaren 1850-1860 experimenten uit met erwtenplanten, waarbij hij de fundamentele wetten van erfelijkheid ontdekte. Hij identificeerde dominante en recessieve eigenschappen en formuleerde de wetten van segregatie en onafhankelijke verdeling. Hoewel zijn werk tijdens zijn leven niet werd erkend, werd het in 1900 herontdekt en werd de basis van genetica. Hij wordt beschouwd als de vader van de genetica."
+        }
+      },
+      {
+        question: {
+          en: "Which chemist discovered radium and polonium, becoming the first woman to win a Nobel Prize?",
+          es: "¿Qué química descubrió el radio y el polonio, convirtiéndose en la primera mujer en ganar un Premio Nobel?",
+          de: "Welche Chemikerin entdeckte Radium und Polonium und wurde die erste Frau, die einen Nobelpreis gewann?",
+          nl: "Welke chemicus ontdekte radium en polonium, en werd de eerste vrouw die een Nobelprijs won?"
+        },
+        options: [
+          { en: "Marie Curie", es: "Marie Curie", de: "Marie Curie", nl: "Marie Curie" },
+          { en: "Lise Meitner", es: "Lise Meitner", de: "Lise Meitner", nl: "Lise Meitner" },
+          { en: "Dorothy Hodgkin", es: "Dorothy Hodgkin", de: "Dorothy Hodgkin", nl: "Dorothy Hodgkin" },
+          { en: "Rosalind Franklin", es: "Rosalind Franklin", de: "Rosalind Franklin", nl: "Rosalind Franklin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Marie Curie discovered radium and polonium with her husband Pierre Curie in 1898. She won the Nobel Prize in Physics in 1903 (with Pierre and Becquerel) and the Nobel Prize in Chemistry in 1911, becoming the first person to win two Nobel Prizes. Her research on radioactivity was pioneering, though it eventually led to her death from radiation exposure.",
+          es: "Marie Curie descubrió el radio y el polonio con su esposo Pierre Curie en 1898. Ganó el Premio Nobel de Física en 1903 (con Pierre y Becquerel) y el Premio Nobel de Química en 1911, convirtiéndose en la primera persona en ganar dos Premios Nobel. Su investigación sobre radiactividad fue pionera, aunque eventualmente llevó a su muerte por exposición a la radiación.",
+          de: "Marie Curie entdeckte Radium und Polonium zusammen mit ihrem Ehemann Pierre Curie im Jahr 1898. Sie gewann 1903 den Nobelpreis für Physik (mit Pierre und Becquerel) und 1911 den Nobelpreis für Chemie und wurde damit die erste Person, die zwei Nobelpreise gewann. Ihre Forschung zur Radioaktivität war bahnbrechend, führte aber letztendlich zu ihrem Tod durch Strahlenbelastung.",
+          nl: "Marie Curie ontdekte radium en polonium samen met haar echtgenoot Pierre Curie in 1898. Ze won de Nobelprijs voor Natuurkunde in 1903 (met Pierre en Becquerel) en de Nobelprijs voor Scheikunde in 1911, waarmee ze de eerste persoon werd die twee Nobelprijzen won. Haar onderzoek naar radioactiviteit was baanbrekend, hoewel het uiteindelijk leidde tot haar dood door stralingsblootstelling."
+        }
+      },
+      {
+        question: {
+          en: "Who developed the general theory of relativity in 1915, describing gravity as curved spacetime?",
+          es: "¿Quién desarrolló la teoría general de la relatividad en 1915, describiendo la gravedad como espacio-tiempo curvado?",
+          de: "Wer entwickelte 1915 die allgemeine Relativitätstheorie, die Gravitation als gekrümmte Raumzeit beschreibt?",
+          nl: "Wie ontwikkelde in 1915 de algemene relativiteitstheorie, die zwaartekracht beschrijft als gekromde ruimtetijd?"
+        },
+        options: [
+          { en: "Albert Einstein", es: "Albert Einstein", de: "Albert Einstein", nl: "Albert Einstein" },
+          { en: "Hermann Minkowski", es: "Hermann Minkowski", de: "Hermann Minkowski", nl: "Hermann Minkowski" },
+          { en: "David Hilbert", es: "David Hilbert", de: "David Hilbert", nl: "David Hilbert" },
+          { en: "Hendrik Lorentz", es: "Hendrik Lorentz", de: "Hendrik Lorentz", nl: "Hendrik Lorentz" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Albert Einstein developed general relativity in 1915, revolutionizing physics by describing gravity not as a force but as the curvature of spacetime caused by mass and energy. His field equations predicted phenomena like gravitational lensing, black holes, and gravitational waves (confirmed in 2015). General relativity passed every experimental test and remains our best theory of gravity.",
+          es: "Albert Einstein desarrolló la relatividad general en 1915, revolucionando la física al describir la gravedad no como una fuerza sino como la curvatura del espacio-tiempo causada por masa y energía. Sus ecuaciones de campo predijeron fenómenos como lentes gravitacionales, agujeros negros y ondas gravitacionales (confirmadas en 2015). La relatividad general pasó todas las pruebas experimentales y sigue siendo nuestra mejor teoría de la gravedad.",
+          de: "Albert Einstein entwickelte 1915 die allgemeine Relativitätstheorie und revolutionierte die Physik, indem er Gravitation nicht als Kraft, sondern als Krümmung der Raumzeit durch Masse und Energie beschrieb. Seine Feldgleichungen sagten Phänomene wie Gravitationslinsen, Schwarze Löcher und Gravitationswellen voraus (2015 bestätigt). Die allgemeine Relativitätstheorie bestand jeden experimentellen Test und bleibt unsere beste Theorie der Gravitation.",
+          nl: "Albert Einstein ontwikkelde in 1915 de algemene relativiteit, waarmee hij de natuurkunde revolutioneerde door zwaartekracht niet als een kracht maar als de kromming van ruimtetijd veroorzaakt door massa en energie te beschrijven. Zijn veldvergelijkingen voorspelden fenomenen zoals gravitatielenzen, zwarte gaten en gravitatiegolven (bevestigd in 2015). Algemene relativiteit doorstond elke experimentele test en blijft onze beste theorie van zwaartekracht."
+        }
+      },
+      {
+        question: {
+          en: "Which naturalist developed the theory of evolution by natural selection?",
+          es: "¿Qué naturalista desarrolló la teoría de la evolución por selección natural?",
+          de: "Welcher Naturforscher entwickelte die Evolutionstheorie durch natürliche Selektion?",
+          nl: "Welke naturalist ontwikkelde de evolutietheorie door natuurlijke selectie?"
+        },
+        options: [
+          { en: "Charles Darwin", es: "Charles Darwin", de: "Charles Darwin", nl: "Charles Darwin" },
+          { en: "Alfred Russel Wallace", es: "Alfred Russel Wallace", de: "Alfred Russel Wallace", nl: "Alfred Russel Wallace" },
+          { en: "Jean-Baptiste Lamarck", es: "Jean-Baptiste Lamarck", de: "Jean-Baptiste Lamarck", nl: "Jean-Baptiste Lamarck" },
+          { en: "Thomas Huxley", es: "Thomas Huxley", de: "Thomas Huxley", nl: "Thomas Huxley" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Charles Darwin published 'On the Origin of Species' in 1859, proposing that species evolve through natural selection. After a five-year voyage on HMS Beagle studying wildlife, he developed his theory over 20 years. Alfred Russel Wallace independently conceived similar ideas. Darwin's theory revolutionized biology and remains the foundation of modern biological sciences, supported by evidence from fossils, genetics, and comparative anatomy.",
+          es: "Charles Darwin publicó 'El origen de las especies' en 1859, proponiendo que las especies evolucionan a través de la selección natural. Después de un viaje de cinco años en el HMS Beagle estudiando la vida silvestre, desarrolló su teoría durante 20 años. Alfred Russel Wallace concibió independientemente ideas similares. La teoría de Darwin revolucionó la biología y sigue siendo la base de las ciencias biológicas modernas, respaldada por evidencia de fósiles, genética y anatomía comparada.",
+          de: "Charles Darwin veröffentlichte 1859 'Über die Entstehung der Arten' und schlug vor, dass Arten durch natürliche Selektion evolvieren. Nach einer fünfjährigen Reise auf der HMS Beagle, bei der er die Tierwelt studierte, entwickelte er seine Theorie über 20 Jahre. Alfred Russel Wallace konzipierte unabhängig ähnliche Ideen. Darwins Theorie revolutionierte die Biologie und bleibt die Grundlage der modernen Biowissenschaften, gestützt durch Beweise aus Fossilien, Genetik und vergleichender Anatomie.",
+          nl: "Charles Darwin publiceerde in 1859 'Over het ontstaan van soorten', waarin hij stelde dat soorten evolueren door natuurlijke selectie. Na een vijfjarige reis op de HMS Beagle waarbij hij wilde dieren bestudeerde, ontwikkelde hij zijn theorie over 20 jaar. Alfred Russel Wallace bedacht onafhankelijk vergelijkbare ideeën. Darwins theorie revolutioneerde de biologie en blijft de basis van moderne biologische wetenschappen, ondersteund door bewijs uit fossielen, genetica en vergelijkende anatomie."
+        }
+      },
+      {
+        question: {
+          en: "Who discovered the laws of planetary motion describing elliptical orbits?",
+          es: "¿Quién descubrió las leyes del movimiento planetario describiendo órbitas elípticas?",
+          de: "Wer entdeckte die Gesetze der Planetenbewegung, die elliptische Bahnen beschreiben?",
+          nl: "Wie ontdekte de wetten van planetaire beweging die elliptische banen beschrijven?"
+        },
+        options: [
+          { en: "Johannes Kepler", es: "Johannes Kepler", de: "Johannes Kepler", nl: "Johannes Kepler" },
+          { en: "Galileo Galilei", es: "Galileo Galilei", de: "Galileo Galilei", nl: "Galileo Galilei" },
+          { en: "Nicolaus Copernicus", es: "Nicolás Copérnico", de: "Nikolaus Kopernikus", nl: "Nicolaus Copernicus" },
+          { en: "Tycho Brahe", es: "Tycho Brahe", de: "Tycho Brahe", nl: "Tycho Brahe" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Johannes Kepler discovered three laws of planetary motion in the early 1600s using Tycho Brahe's precise astronomical observations. His laws describe that planets orbit in ellipses (not circles), sweep equal areas in equal times, and have orbital periods related to their distance from the Sun. These laws provided crucial evidence for heliocentrism and later helped Newton develop his law of universal gravitation.",
+          es: "Johannes Kepler descubrió tres leyes del movimiento planetario a principios del siglo XVII usando las observaciones astronómicas precisas de Tycho Brahe. Sus leyes describen que los planetas orbitan en elipses (no círculos), barren áreas iguales en tiempos iguales y tienen períodos orbitales relacionados con su distancia del Sol. Estas leyes proporcionaron evidencia crucial para el heliocentrismo y posteriormente ayudaron a Newton a desarrollar su ley de gravitación universal.",
+          de: "Johannes Kepler entdeckte Anfang des 17. Jahrhunderts drei Gesetze der Planetenbewegung unter Verwendung der präzisen astronomischen Beobachtungen von Tycho Brahe. Seine Gesetze beschreiben, dass Planeten in Ellipsen (nicht Kreisen) umlaufen, gleiche Flächen in gleichen Zeiten überstreichen und Umlaufzeiten haben, die mit ihrer Entfernung zur Sonne zusammenhängen. Diese Gesetze lieferten entscheidende Beweise für den Heliozentrismus und halfen Newton später, sein Gravitationsgesetz zu entwickeln.",
+          nl: "Johannes Kepler ontdekte begin 17e eeuw drie wetten van planetaire beweging met behulp van Tycho Brahe's precieze astronomische waarnemingen. Zijn wetten beschrijven dat planeten in ellipsen (geen cirkels) draaien, gelijke gebieden in gelijke tijden bestrijken en omlooptijden hebben die gerelateerd zijn aan hun afstand tot de zon. Deze wetten leverden cruciaal bewijs voor heliocentrisme en hielpen Newton later zijn wet van universele zwaartekracht te ontwikkelen."
+        }
+      },
+      {
+        question: {
+          en: "Which physicist formulated the three laws of motion and the law of universal gravitation?",
+          es: "¿Qué físico formuló las tres leyes del movimiento y la ley de gravitación universal?",
+          de: "Welcher Physiker formulierte die drei Bewegungsgesetze und das Gesetz der universellen Gravitation?",
+          nl: "Welke natuurkundige formuleerde de drie bewegingswetten en de wet van universele zwaartekracht?"
+        },
+        options: [
+          { en: "Isaac Newton", es: "Isaac Newton", de: "Isaac Newton", nl: "Isaac Newton" },
+          { en: "Galileo Galilei", es: "Galileo Galilei", de: "Galileo Galilei", nl: "Galileo Galilei" },
+          { en: "Johannes Kepler", es: "Johannes Kepler", de: "Johannes Kepler", nl: "Johannes Kepler" },
+          { en: "Robert Hooke", es: "Robert Hooke", de: "Robert Hooke", nl: "Robert Hooke" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Isaac Newton published his laws of motion and universal gravitation in 'Philosophiae Naturalis Principia Mathematica' (1687). His three laws describe inertia, force-acceleration relationship, and action-reaction. His law of gravitation unified terrestrial and celestial mechanics, explaining planetary motion and falling objects with one equation. Newton also invented calculus and made major contributions to optics. His work dominated physics for over 200 years.",
+          es: "Isaac Newton publicó sus leyes del movimiento y gravitación universal en 'Philosophiae Naturalis Principia Mathematica' (1687). Sus tres leyes describen la inercia, la relación fuerza-aceleración y acción-reacción. Su ley de gravitación unificó la mecánica terrestre y celeste, explicando el movimiento planetario y la caída de objetos con una ecuación. Newton también inventó el cálculo e hizo importantes contribuciones a la óptica. Su trabajo dominó la física durante más de 200 años.",
+          de: "Isaac Newton veröffentlichte seine Bewegungsgesetze und die universelle Gravitation in 'Philosophiae Naturalis Principia Mathematica' (1687). Seine drei Gesetze beschreiben Trägheit, Kraft-Beschleunigung-Beziehung und Aktion-Reaktion. Sein Gravitationsgesetz vereinte terrestrische und himmlische Mechanik und erklärte Planetenbewegung und fallende Objekte mit einer Gleichung. Newton erfand auch die Infinitesimalrechnung und leistete wichtige Beiträge zur Optik. Seine Arbeit dominierte die Physik über 200 Jahre.",
+          nl: "Isaac Newton publiceerde zijn bewegingswetten en universele zwaartekracht in 'Philosophiae Naturalis Principia Mathematica' (1687). Zijn drie wetten beschrijven traagheid, kracht-versnelling-relatie en actie-reactie. Zijn wet van zwaartekracht verenigde terrestrische en hemelse mechanica, waarbij planetaire beweging en vallende objecten met één vergelijking werden verklaard. Newton vond ook calculus uit en leverde belangrijke bijdragen aan optica. Zijn werk domineerde de natuurkunde meer dan 200 jaar."
+        }
+      },
+      {
+        question: {
+          en: "Who invented the printing press around 1440, revolutionizing information distribution?",
+          es: "¿Quién inventó la imprenta alrededor de 1440, revolucionando la distribución de información?",
+          de: "Wer erfand um 1440 die Druckerpresse und revolutionierte die Informationsverbreitung?",
+          nl: "Wie vond rond 1440 de drukpers uit, waarmee de informatieverspreiding werd gerevolutioneerd?"
+        },
+        options: [
+          { en: "Johannes Gutenberg", es: "Johannes Gutenberg", de: "Johannes Gutenberg", nl: "Johannes Gutenberg" },
+          { en: "William Caxton", es: "William Caxton", de: "William Caxton", nl: "William Caxton" },
+          { en: "Laurens Janszoon Coster", es: "Laurens Janszoon Coster", de: "Laurens Janszoon Coster", nl: "Laurens Janszoon Coster" },
+          { en: "Bi Sheng", es: "Bi Sheng", de: "Bi Sheng", nl: "Bi Sheng" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Johannes Gutenberg invented the movable-type printing press around 1440 in Mainz, Germany. His innovation combined movable metal type, oil-based ink, and a wooden press adapted from wine presses. The Gutenberg Bible (1455) was his masterwork. His invention democratized knowledge, enabling mass production of books and spurring the Renaissance, Reformation, and Scientific Revolution. It's considered one of history's most important inventions.",
+          es: "Johannes Gutenberg inventó la imprenta de tipos móviles alrededor de 1440 en Maguncia, Alemania. Su innovación combinó tipos metálicos móviles, tinta a base de aceite y una prensa de madera adaptada de prensas de vino. La Biblia de Gutenberg (1455) fue su obra maestra. Su invención democratizó el conocimiento, permitiendo la producción masiva de libros e impulsando el Renacimiento, la Reforma y la Revolución Científica. Se considera una de las invenciones más importantes de la historia.",
+          de: "Johannes Gutenberg erfand um 1440 in Mainz die Druckerpresse mit beweglichen Lettern. Seine Innovation kombinierte bewegliche Metalltypen, ölbasierte Tinte und eine aus Weinpressen adaptierte Holzpresse. Die Gutenberg-Bibel (1455) war sein Meisterwerk. Seine Erfindung demokratisierte Wissen, ermöglichte Massenproduktion von Büchern und befeuerte Renaissance, Reformation und Wissenschaftliche Revolution. Sie gilt als eine der wichtigsten Erfindungen der Geschichte.",
+          nl: "Johannes Gutenberg vond rond 1440 de boekdrukkunst met losse letters uit in Mainz, Duitsland. Zijn innovatie combineerde beweegbare metalen letters, op olie gebaseerde inkt en een houten pers aangepast van wijnpersen. De Gutenberg-bijbel (1455) was zijn meesterwerk. Zijn uitvinding democratiseerde kennis, maakte massaproductie van boeken mogelijk en stimuleerde de Renaissance, Reformatie en Wetenschappelijke Revolutie. Het wordt beschouwd als een van de belangrijkste uitvindingen uit de geschiedenis."
+        }
+      },
+      {
+        question: {
+          en: "Which chemist developed the periodic table organizing elements by atomic properties?",
+          es: "¿Qué químico desarrolló la tabla periódica organizando elementos por propiedades atómicas?",
+          de: "Welcher Chemiker entwickelte das Periodensystem und ordnete Elemente nach atomaren Eigenschaften?",
+          nl: "Welke chemicus ontwikkelde het periodiek systeem door elementen te ordenen op atomaire eigenschappen?"
+        },
+        options: [
+          { en: "Dmitri Mendeleev", es: "Dmitri Mendeléyev", de: "Dmitri Mendelejew", nl: "Dmitri Mendelejev" },
+          { en: "Lothar Meyer", es: "Lothar Meyer", de: "Lothar Meyer", nl: "Lothar Meyer" },
+          { en: "John Newlands", es: "John Newlands", de: "John Newlands", nl: "John Newlands" },
+          { en: "Antoine Lavoisier", es: "Antoine Lavoisier", de: "Antoine Lavoisier", nl: "Antoine Lavoisier" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dmitri Mendeleev published the first widely recognized periodic table in 1869, organizing elements by atomic weight and properties. His genius was leaving gaps for undiscovered elements and predicting their properties—predictions later confirmed when gallium, scandium, and germanium were found. The modern periodic table remains based on his work, though now organized by atomic number rather than weight.",
+          es: "Dmitri Mendeléyev publicó la primera tabla periódica ampliamente reconocida en 1869, organizando elementos por peso atómico y propiedades. Su genialidad fue dejar espacios para elementos no descubiertos y predecir sus propiedades—predicciones confirmadas posteriormente cuando se encontraron galio, escandio y germanio. La tabla periódica moderna sigue basada en su trabajo, aunque ahora organizada por número atómico en lugar de peso.",
+          de: "Dmitri Mendelejew veröffentlichte 1869 das erste weithin anerkannte Periodensystem und ordnete Elemente nach Atomgewicht und Eigenschaften. Sein Genie bestand darin, Lücken für noch nicht entdeckte Elemente zu lassen und deren Eigenschaften vorherzusagen—Vorhersagen, die später bestätigt wurden, als Gallium, Scandium und Germanium gefunden wurden. Das moderne Periodensystem basiert weiterhin auf seiner Arbeit, obwohl es jetzt nach Ordnungszahl statt Gewicht organisiert ist.",
+          nl: "Dmitri Mendelejev publiceerde in 1869 de eerste algemeen erkende periodiek systeem, waarbij elementen werden geordend op atomair gewicht en eigenschappen. Zijn genialiteit was het achterlaten van gaten voor nog niet ontdekte elementen en het voorspellen van hun eigenschappen—voorspellingen die later werden bevestigd toen gallium, scandium en germanium werden gevonden. Het moderne periodiek systeem blijft gebaseerd op zijn werk, hoewel nu geordend op atoomnummer in plaats van gewicht."
+        }
+      },
+      {
+        question: {
+          en: "Who discovered X-rays in 1895 while experimenting with cathode rays?",
+          es: "¿Quién descubrió los rayos X en 1895 mientras experimentaba con rayos catódicos?",
+          de: "Wer entdeckte 1895 Röntgenstrahlen bei Experimenten mit Kathodenstrahlen?",
+          nl: "Wie ontdekte in 1895 röntgenstraling tijdens experimenten met kathodestralen?"
+        },
+        options: [
+          { en: "Wilhelm Röntgen", es: "Wilhelm Röntgen", de: "Wilhelm Röntgen", nl: "Wilhelm Röntgen" },
+          { en: "Henri Becquerel", es: "Henri Becquerel", de: "Henri Becquerel", nl: "Henri Becquerel" },
+          { en: "J.J. Thomson", es: "J.J. Thomson", de: "J.J. Thomson", nl: "J.J. Thomson" },
+          { en: "Marie Curie", es: "Marie Curie", de: "Marie Curie", nl: "Marie Curie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Wilhelm Röntgen discovered X-rays on November 8, 1895, while experimenting with cathode ray tubes. He noticed a fluorescent screen glowing despite being shielded, indicating unknown rays he called 'X-rays.' He quickly demonstrated their ability to penetrate soft tissue but not bones. His discovery revolutionized medicine and earned him the first Nobel Prize in Physics in 1901. He refused to patent X-rays, believing they should benefit humanity.",
+          es: "Wilhelm Röntgen descubrió los rayos X el 8 de noviembre de 1895 mientras experimentaba con tubos de rayos catódicos. Notó una pantalla fluorescente brillando a pesar de estar protegida, indicando rayos desconocidos que llamó 'rayos X'. Rápidamente demostró su capacidad para penetrar tejido blando pero no huesos. Su descubrimiento revolucionó la medicina y le valió el primer Premio Nobel de Física en 1901. Se negó a patentar los rayos X, creyendo que deberían beneficiar a la humanidad.",
+          de: "Wilhelm Röntgen entdeckte am 8. November 1895 Röntgenstrahlen bei Experimenten mit Kathodenstrahlröhren. Er bemerkte, dass ein fluoreszierender Bildschirm leuchtete, obwohl er abgeschirmt war, was auf unbekannte Strahlen hindeutete, die er 'X-Strahlen' nannte. Er demonstrierte schnell ihre Fähigkeit, weiches Gewebe zu durchdringen, aber nicht Knochen. Seine Entdeckung revolutionierte die Medizin und brachte ihm 1901 den ersten Nobelpreis für Physik ein. Er weigerte sich, Röntgenstrahlen zu patentieren, da er glaubte, sie sollten der Menschheit zugutekommen.",
+          nl: "Wilhelm Röntgen ontdekte röntgenstraling op 8 november 1895 tijdens experimenten met kathodestraalbuizen. Hij merkte op dat een fluorescerend scherm gloeide ondanks afscherming, wat onbekende stralen aangaf die hij 'X-stralen' noemde. Hij toonde snel hun vermogen aan om zacht weefsel te penetreren maar geen botten. Zijn ontdekking revolutioneerde de geneeskunde en leverde hem de eerste Nobelprijs voor Natuurkunde op in 1901. Hij weigerde röntgenstraling te patenteren, gelovend dat ze de mensheid ten goede moesten komen."
+        }
+      },
+      {
+        question: {
+          en: "Which psychologist developed the theory of classical conditioning using dogs?",
+          es: "¿Qué psicólogo desarrolló la teoría del condicionamiento clásico usando perros?",
+          de: "Welcher Psychologe entwickelte die Theorie der klassischen Konditionierung mit Hunden?",
+          nl: "Welke psycholoog ontwikkelde de theorie van klassieke conditionering met honden?"
+        },
+        options: [
+          { en: "Ivan Pavlov", es: "Iván Pávlov", de: "Iwan Pawlow", nl: "Ivan Pavlov" },
+          { en: "B.F. Skinner", es: "B.F. Skinner", de: "B.F. Skinner", nl: "B.F. Skinner" },
+          { en: "John Watson", es: "John Watson", de: "John Watson", nl: "John Watson" },
+          { en: "Edward Thorndike", es: "Edward Thorndike", de: "Edward Thorndike", nl: "Edward Thorndike" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ivan Pavlov discovered classical conditioning in the 1890s while studying digestion in dogs. He noticed dogs salivated not only when fed but also when they saw lab coats, associating them with food. He demonstrated that pairing a neutral stimulus (bell) with food would eventually cause salivation to the bell alone. He won the 1904 Nobel Prize in Physiology for his digestive research, but his conditioning work profoundly influenced psychology.",
+          es: "Iván Pávlov descubrió el condicionamiento clásico en la década de 1890 mientras estudiaba la digestión en perros. Notó que los perros salivaban no solo cuando se alimentaban sino también cuando veían batas de laboratorio, asociándolas con comida. Demostró que emparejar un estímulo neutral (campana) con comida eventualmente causaría salivación solo con la campana. Ganó el Premio Nobel de Fisiología de 1904 por su investigación digestiva, pero su trabajo de condicionamiento influyó profundamente en la psicología.",
+          de: "Iwan Pawlow entdeckte in den 1890er Jahren die klassische Konditionierung beim Studium der Verdauung bei Hunden. Er bemerkte, dass Hunde nicht nur beim Füttern sabbelten, sondern auch, wenn sie Laborkittel sahen und diese mit Futter assoziierten. Er demonstrierte, dass die Paarung eines neutralen Reizes (Glocke) mit Futter schließlich Speichelfluss allein durch die Glocke verursachen würde. Er gewann 1904 den Nobelpreis für Physiologie für seine Verdauungsforschung, aber seine Konditionierungsarbeit beeinflusste die Psychologie tiefgreifend.",
+          nl: "Ivan Pavlov ontdekte klassieke conditionering in de jaren 1890 tijdens het bestuderen van spijsvertering bij honden. Hij merkte op dat honden niet alleen kwijlden wanneer ze werden gevoerd, maar ook wanneer ze laboratoriumjassen zagen, die ze associeerden met voedsel. Hij toonde aan dat het koppelen van een neutrale stimulus (bel) met voedsel uiteindelijk kwijlen zou veroorzaken bij alleen de bel. Hij won de Nobelprijs voor Fysiologie in 1904 voor zijn spijsverteringsonderzoek, maar zijn conditioneringswerk beïnvloedde de psychologie diepgaand."
+        }
+      },
+      {
+        question: {
+          en: "Who invented the telephone in 1876, receiving the first patent for it?",
+          es: "¿Quién inventó el teléfono en 1876, recibiendo la primera patente para él?",
+          de: "Wer erfand 1876 das Telefon und erhielt das erste Patent dafür?",
+          nl: "Wie vond in 1876 de telefoon uit en ontving het eerste patent ervoor?"
+        },
+        options: [
+          { en: "Alexander Graham Bell", es: "Alexander Graham Bell", de: "Alexander Graham Bell", nl: "Alexander Graham Bell" },
+          { en: "Elisha Gray", es: "Elisha Gray", de: "Elisha Gray", nl: "Elisha Gray" },
+          { en: "Antonio Meucci", es: "Antonio Meucci", de: "Antonio Meucci", nl: "Antonio Meucci" },
+          { en: "Thomas Edison", es: "Thomas Edison", de: "Thomas Edison", nl: "Thomas Edison" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Alexander Graham Bell received the first telephone patent on March 7, 1876, just hours before Elisha Gray filed a similar claim. Bell made the first successful telephone call on March 10, 1876, saying 'Mr. Watson, come here, I want to see you.' Though others like Antonio Meucci developed early telephone devices, Bell's patent and commercialization established him as the telephone's inventor. His work transformed global communication.",
+          es: "Alexander Graham Bell recibió la primera patente de teléfono el 7 de marzo de 1876, solo horas antes de que Elisha Gray presentara una reclamación similar. Bell hizo la primera llamada telefónica exitosa el 10 de marzo de 1876, diciendo 'Sr. Watson, venga aquí, quiero verle.' Aunque otros como Antonio Meucci desarrollaron dispositivos telefónicos tempranos, la patente y comercialización de Bell lo establecieron como el inventor del teléfono. Su trabajo transformó la comunicación global.",
+          de: "Alexander Graham Bell erhielt am 7. März 1876 das erste Telefonpatent, nur Stunden bevor Elisha Gray einen ähnlichen Anspruch einreichte. Bell tätigte am 10. März 1876 den ersten erfolgreichen Telefonanruf mit den Worten 'Herr Watson, kommen Sie her, ich möchte Sie sehen.' Obwohl andere wie Antonio Meucci frühe Telefongeräte entwickelten, etablierten Bells Patent und Kommerzialisierung ihn als Erfinder des Telefons. Seine Arbeit transformierte die globale Kommunikation.",
+          nl: "Alexander Graham Bell ontving het eerste telefoonpatent op 7 maart 1876, slechts uren voordat Elisha Gray een vergelijkbare claim indiende. Bell maakte het eerste succesvolle telefoongesprek op 10 maart 1876, zeggend 'Mr. Watson, kom hier, ik wil u zien.' Hoewel anderen zoals Antonio Meucci vroege telefoontoestellen ontwikkelden, vestigden Bell's patent en commercialisering hem als de uitvinder van de telefoon. Zijn werk transformeerde wereldwijde communicatie."
+        }
+      },
+      {
+        question: {
+          en: "Which inventor developed the light bulb and founded General Electric?",
+          es: "¿Qué inventor desarrolló la bombilla y fundó General Electric?",
+          de: "Welcher Erfinder entwickelte die Glühbirne und gründete General Electric?",
+          nl: "Welke uitvinder ontwikkelde de gloeilamp en richtte General Electric op?"
+        },
+        options: [
+          { en: "Thomas Edison", es: "Thomas Edison", de: "Thomas Edison", nl: "Thomas Edison" },
+          { en: "Nikola Tesla", es: "Nikola Tesla", de: "Nikola Tesla", nl: "Nikola Tesla" },
+          { en: "Joseph Swan", es: "Joseph Swan", de: "Joseph Swan", nl: "Joseph Swan" },
+          { en: "George Westinghouse", es: "George Westinghouse", de: "George Westinghouse", nl: "George Westinghouse" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Thomas Edison developed the first practical incandescent light bulb in 1879, though others had created earlier versions. His innovation was creating a complete electrical system including generators, distribution networks, and affordable bulbs. He held 1,093 U.S. patents and founded companies that became General Electric. Edison's Menlo Park laboratory pioneered industrial research. His inventions included the phonograph, motion picture camera, and improvements to the telegraph and telephone.",
+          es: "Thomas Edison desarrolló la primera bombilla incandescente práctica en 1879, aunque otros habían creado versiones anteriores. Su innovación fue crear un sistema eléctrico completo que incluía generadores, redes de distribución y bombillas asequibles. Tenía 1,093 patentes estadounidenses y fundó empresas que se convirtieron en General Electric. El laboratorio de Edison en Menlo Park fue pionero en investigación industrial. Sus invenciones incluyeron el fonógrafo, cámara de cine y mejoras al telégrafo y teléfono.",
+          de: "Thomas Edison entwickelte 1879 die erste praktische Glühlampe, obwohl andere frühere Versionen geschaffen hatten. Seine Innovation bestand darin, ein vollständiges elektrisches System mit Generatoren, Verteilungsnetzen und erschwinglichen Glühbirnen zu schaffen. Er hielt 1.093 US-Patente und gründete Unternehmen, die zu General Electric wurden. Edisons Menlo Park Labor war Pionier der Industrieforschung. Seine Erfindungen umfassten den Phonographen, die Filmkamera und Verbesserungen am Telegraphen und Telefon.",
+          nl: "Thomas Edison ontwikkelde in 1879 de eerste praktische gloeilamp, hoewel anderen eerdere versies hadden gemaakt. Zijn innovatie was het creëren van een compleet elektrisch systeem inclusief generatoren, distributienetwerken en betaalbare lampen. Hij had 1.093 Amerikaanse patenten en richtte bedrijven op die General Electric werden. Edison's Menlo Park-laboratorium was baanbrekend in industrieel onderzoek. Zijn uitvindingen omvatten de fonograaf, filmcamera en verbeteringen aan de telegraaf en telefoon."
+        }
       }
     ]
   };

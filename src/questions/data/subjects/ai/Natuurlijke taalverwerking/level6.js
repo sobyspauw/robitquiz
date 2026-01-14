@@ -1,4 +1,4 @@
-﻿// Natural Language Processing Quiz - Level 6: Advanced NLP
+// Natural Language Processing Quiz - Level 6: Advanced NLP
 (function() {
   const level6 = {
     name: {
@@ -427,6 +427,416 @@
           de: "Slot Filling beinhaltet das Extrahieren spezifischer Informationstypen um vordefinierte Slots in strukturierten Templates zu füllen, wie das Extrahieren von Personennamen, Daten und Orten aus Nachrichtenartikeln um Event-Templates zu befüllen.",
           nl: "Slot filling houdt in het extraheren van specifieke informatietypen om voorgedefinieerde slots in gestructureerde sjablonen te vullen, zoals het extraheren van persoonsnamen, datums en locaties uit nieuwsartikelen om gebeurtenissjablonen te vullen."
         }
+      },
+      {
+        question: {
+          en: "What is Conditional Random Field (CRF) in sequence labeling?",
+          es: "¿Qué es el Campo Aleatorio Condicional (CRF) en etiquetado de secuencias?",
+          de: "Was ist ein Conditional Random Field (CRF) im Sequenz-Labeling?",
+          nl: "Wat is een Conditional Random Field (CRF) in sequentie-labeling?"
+        },
+        options: [
+          { en: "A probabilistic model for structured prediction that considers dependencies between sequential labels", es: "Un modelo probabilístico para predicción estructurada que considera dependencias entre etiquetas secuenciales", de: "Ein probabilistisches Modell für strukturierte Vorhersage das Abhängigkeiten zwischen sequentiellen Labels berücksichtigt", nl: "Een probabilistisch model voor gestructureerde voorspelling dat afhankelijkheden tussen sequentiële labels beschouwt" },
+          { en: "A type of random forest classifier", es: "Un tipo de clasificador de bosque aleatorio", de: "Eine Art Random Forest Klassifikator", nl: "Een type random forest classificeerder" },
+          { en: "A method for generating random sequences", es: "Un método para generar secuencias aleatorias", de: "Eine Methode zum Generieren zufälliger Sequenzen", nl: "Een methode voor het genereren van willekeurige sequenties" },
+          { en: "A clustering algorithm for text", es: "Un algoritmo de agrupamiento para texto", de: "Ein Clustering-Algorithmus für Text", nl: "Een clusteralgoritme voor tekst" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "CRFs are discriminative models that excel at sequence labeling tasks like NER and POS tagging by modeling the conditional probability of label sequences given input sequences, considering label dependencies.",
+          es: "Los CRF son modelos discriminativos que destacan en tareas de etiquetado de secuencias como NER y etiquetado POS modelando la probabilidad condicional de secuencias de etiquetas dadas secuencias de entrada, considerando dependencias de etiquetas.",
+          de: "CRFs sind diskriminative Modelle die bei Sequenz-Labeling-Aufgaben wie NER und POS-Tagging brillieren durch Modellierung der bedingten Wahrscheinlichkeit von Label-Sequenzen bei gegebenen Eingabesequenzen, berücksichtigt Label-Abhängigkeiten.",
+          nl: "CRFs zijn discriminatieve modellen die uitblinken in sequentie-labelingtaken zoals NER en POS-tagging door de conditionele waarschijnlijkheid van labelsequenties gegeven invoersequenties te modelleren, beschouwt labelafhankelijkheden."
+        }
+      },
+      {
+        question: {
+          en: "What is BiLSTM-CRF architecture?",
+          es: "¿Qué es la arquitectura BiLSTM-CRF?",
+          de: "Was ist die BiLSTM-CRF Architektur?",
+          nl: "Wat is de BiLSTM-CRF architectuur?"
+        },
+        options: [
+          { en: "A neural architecture combining bidirectional LSTM for context encoding with CRF for structured prediction", es: "Una arquitectura neuronal que combina LSTM bidireccional para codificación de contexto con CRF para predicción estructurada", de: "Eine neuronale Architektur die bidirektionales LSTM für Kontextkodierung mit CRF für strukturierte Vorhersage kombiniert", nl: "Een neurale architectuur die bidirectionele LSTM voor contextcodering combineert met CRF voor gestructureerde voorspelling" },
+          { en: "A two-layer LSTM network", es: "Una red LSTM de dos capas", de: "Ein zweischichtiges LSTM-Netzwerk", nl: "Een tweelaags LSTM-netwerk" },
+          { en: "A compressed version of standard LSTM", es: "Una versión comprimida de LSTM estándar", de: "Eine komprimierte Version von Standard-LSTM", nl: "Een gecomprimeerde versie van standaard LSTM" },
+          { en: "A biological sequence classifier", es: "Un clasificador de secuencias biológicas", de: "Ein biologischer Sequenz-Klassifikator", nl: "Een biologische sequentieclassificeerder" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "BiLSTM-CRF combines the strengths of bidirectional LSTMs (capturing context from both directions) with CRFs (modeling label dependencies), achieving state-of-the-art results in sequence labeling tasks like NER.",
+          es: "BiLSTM-CRF combina las fortalezas de LSTMs bidireccionales (capturando contexto desde ambas direcciones) con CRFs (modelando dependencias de etiquetas), logrando resultados de vanguardia en tareas de etiquetado de secuencias como NER.",
+          de: "BiLSTM-CRF kombiniert die Stärken von bidirektionalen LSTMs (Erfassen von Kontext aus beiden Richtungen) mit CRFs (Modellierung von Label-Abhängigkeiten), erreicht State-of-the-Art Ergebnisse bei Sequenz-Labeling-Aufgaben wie NER.",
+          nl: "BiLSTM-CRF combineert de sterke punten van bidirectionele LSTMs (context vastleggen vanuit beide richtingen) met CRFs (labelafhankelijkheden modelleren), behaalt state-of-the-art resultaten in sequentie-labelingtaken zoals NER."
+        }
+      },
+      {
+        question: {
+          en: "What are gazetteers in NER?",
+          es: "¿Qué son los diccionarios geográficos en NER?",
+          de: "Was sind Gazetteer in NER?",
+          nl: "Wat zijn gazetteers in NER?"
+        },
+        options: [
+          { en: "Lists of known entities (places, people, organizations) used as features or lookup resources", es: "Listas de entidades conocidas (lugares, personas, organizaciones) usadas como características o recursos de búsqueda", de: "Listen bekannter Entitäten (Orte, Personen, Organisationen) verwendet als Features oder Nachschlageressourcen", nl: "Lijsten van bekende entiteiten (plaatsen, mensen, organisaties) gebruikt als features of opzoekbronnen" },
+          { en: "Geographic coordinate systems", es: "Sistemas de coordenadas geográficas", de: "Geographische Koordinatensysteme", nl: "Geografische coördinatensystemen" },
+          { en: "Newspaper archives", es: "Archivos de periódicos", de: "Zeitungsarchive", nl: "Krantenarchieven" },
+          { en: "Geographical databases only", es: "Solo bases de datos geográficas", de: "Nur geographische Datenbanken", nl: "Alleen geografische databases" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gazetteers are curated lists of named entities used to improve NER performance by providing external knowledge about known entities, helping recognize and classify entity mentions in text.",
+          es: "Los diccionarios geográficos son listas curadas de entidades nombradas usadas para mejorar el rendimiento de NER proporcionando conocimiento externo sobre entidades conocidas, ayudando a reconocer y clasificar menciones de entidades en texto.",
+          de: "Gazetteer sind kuratierte Listen benannter Entitäten verwendet um NER-Leistung zu verbessern durch Bereitstellung externen Wissens über bekannte Entitäten, hilft Entitätserwähnungen in Text zu erkennen und zu klassifizieren.",
+          nl: "Gazetteers zijn samengestelde lijsten van genoemde entiteiten gebruikt om NER-prestaties te verbeteren door externe kennis over bekende entiteiten te verstrekken, helpt entiteitsvermeldingen in tekst te herkennen en classificeren."
+        }
+      },
+      {
+        question: {
+          en: "What is joint entity and relation extraction?",
+          es: "¿Qué es la extracción conjunta de entidades y relaciones?",
+          de: "Was ist gemeinsame Entitäts- und Beziehungsextraktion?",
+          nl: "Wat is gezamenlijke entiteits- en relatieextractie?"
+        },
+        options: [
+          { en: "Simultaneously identifying entities and their relationships in a single model rather than pipeline approach", es: "Identificar simultáneamente entidades y sus relaciones en un solo modelo en lugar de enfoque de tubería", de: "Gleichzeitiges Identifizieren von Entitäten und ihren Beziehungen in einem einzelnen Modell statt Pipeline-Ansatz", nl: "Gelijktijdig entiteiten en hun relaties identificeren in een enkel model in plaats van pijplijnbenadering" },
+          { en: "Merging entity and relation databases", es: "Fusionar bases de datos de entidades y relaciones", de: "Entitäts- und Beziehungsdatenbanken zusammenführen", nl: "Entiteits- en relatiedatabases samenvoegen" },
+          { en: "Extracting both structured and unstructured data", es: "Extraer datos estructurados y no estructurados", de: "Strukturierte und unstrukturierte Daten extrahieren", nl: "Zowel gestructureerde als ongestructureerde gegevens extraheren" },
+          { en: "Running entity and relation extraction in parallel", es: "Ejecutar extracción de entidades y relaciones en paralelo", de: "Entitäts- und Beziehungsextraktion parallel ausführen", nl: "Entiteits- en relatieextractie parallel uitvoeren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Joint extraction models recognize that entity identification and relation extraction are interdependent tasks, performing both simultaneously to leverage mutual information and avoid error propagation from pipeline approaches.",
+          es: "Los modelos de extracción conjunta reconocen que la identificación de entidades y extracción de relaciones son tareas interdependientes, realizando ambas simultáneamente para aprovechar información mutua y evitar propagación de errores de enfoques de tubería.",
+          de: "Gemeinsame Extraktionsmodelle erkennen dass Entitätsidentifikation und Beziehungsextraktion voneinander abhängige Aufgaben sind, führen beide gleichzeitig aus um gegenseitige Informationen zu nutzen und Fehlerpropagation von Pipeline-Ansätzen zu vermeiden.",
+          nl: "Gezamenlijke extractiemodellen erkennen dat entiteitsidentificatie en relatieextractie onderling afhankelijke taken zijn, voeren beide gelijktijdig uit om wederzijdse informatie te benutten en foutpropagatie van pijplijnbenaderingen te vermijden."
+        }
+      },
+      {
+        question: {
+          en: "What is mention detection in coreference resolution?",
+          es: "¿Qué es la detección de menciones en resolución de correferencia?",
+          de: "Was ist Erwähnungserkennung in der Koreferenzauflösung?",
+          nl: "Wat is vermeldingsdetectie in coreferentieresolutie?"
+        },
+        options: [
+          { en: "Identifying all noun phrases and pronouns that could potentially refer to entities", es: "Identificar todas las frases nominales y pronombres que potencialmente podrían referirse a entidades", de: "Identifizieren aller Nominalphrasen und Pronomen die potenziell auf Entitäten verweisen könnten", nl: "Identificeren van alle naamwoordgroepen en voornaamwoorden die mogelijk naar entiteiten kunnen verwijzen" },
+          { en: "Detecting when entities are mentioned for the first time", es: "Detectar cuándo se mencionan entidades por primera vez", de: "Erkennen wann Entitäten zum ersten Mal erwähnt werden", nl: "Detecteren wanneer entiteiten voor het eerst worden genoemd" },
+          { en: "Finding explicit entity names only", es: "Encontrar solo nombres de entidades explícitos", de: "Nur explizite Entitätsnamen finden", nl: "Alleen expliciete entiteitsnamen vinden" },
+          { en: "Counting how many times entities are mentioned", es: "Contar cuántas veces se mencionan entidades", de: "Zählen wie oft Entitäten erwähnt werden", nl: "Tellen hoe vaak entiteiten worden genoemd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mention detection is the first step in coreference resolution, identifying all text spans (noun phrases, pronouns, proper names) that could potentially refer to entities before determining which mentions refer to the same entity.",
+          es: "La detección de menciones es el primer paso en resolución de correferencia, identificando todos los tramos de texto (frases nominales, pronombres, nombres propios) que potencialmente podrían referirse a entidades antes de determinar qué menciones se refieren a la misma entidad.",
+          de: "Erwähnungserkennung ist der erste Schritt in der Koreferenzauflösung, identifiziert alle Textspannen (Nominalphrasen, Pronomen, Eigennamen) die potenziell auf Entitäten verweisen könnten bevor bestimmt wird welche Erwähnungen sich auf dieselbe Entität beziehen.",
+          nl: "Vermeldingsdetectie is de eerste stap in coreferentieresolutie, identificeert alle tekstsegmenten (naamwoordgroepen, voornaamwoorden, eigennamen) die mogelijk naar entiteiten kunnen verwijzen voordat wordt bepaald welke vermeldingen naar dezelfde entiteit verwijzen."
+        }
+      },
+      {
+        question: {
+          en: "What is cross-document coreference resolution?",
+          es: "¿Qué es la resolución de correferencia entre documentos?",
+          de: "Was ist dokumentenübergreifende Koreferenzauflösung?",
+          nl: "Wat is cross-document coreferentieresolutie?"
+        },
+        options: [
+          { en: "Linking mentions of the same entity across multiple documents", es: "Vincular menciones de la misma entidad a través de múltiples documentos", de: "Erwähnungen derselben Entität über mehrere Dokumente hinweg verknüpfen", nl: "Vermeldingen van dezelfde entiteit over meerdere documenten heen koppelen" },
+          { en: "Comparing documents for similarities", es: "Comparar documentos por similitudes", de: "Dokumente auf Ähnlichkeiten vergleichen", nl: "Documenten vergelijken op overeenkomsten" },
+          { en: "Cross-referencing citations between papers", es: "Hacer referencias cruzadas de citas entre artículos", de: "Querverweise von Zitaten zwischen Papieren", nl: "Kruisverwijzingen maken van citaten tussen papers" },
+          { en: "Resolving conflicts between document versions", es: "Resolver conflictos entre versiones de documentos", de: "Konflikte zwischen Dokumentversionen lösen", nl: "Conflicten tussen documentversies oplossen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cross-document coreference extends within-document coreference to identify when the same real-world entity is mentioned in different documents, enabling knowledge aggregation across text collections.",
+          es: "La correferencia entre documentos extiende la correferencia dentro de documentos para identificar cuándo la misma entidad del mundo real se menciona en diferentes documentos, permitiendo agregación de conocimiento a través de colecciones de texto.",
+          de: "Dokumentenübergreifende Koreferenz erweitert innerdokumentare Koreferenz um zu identifizieren wann dieselbe reale Entität in verschiedenen Dokumenten erwähnt wird, ermöglicht Wissensaggregation über Textsammlungen.",
+          nl: "Cross-document coreferentie breidt binnen-document coreferentie uit om te identificeren wanneer dezelfde entiteit uit de echte wereld wordt genoemd in verschillende documenten, maakt kennisaggregatie mogelijk over tekstcollecties."
+        }
+      },
+      {
+        question: {
+          en: "What is named entity disambiguation (NED)?",
+          es: "¿Qué es la desambiguación de entidades nombradas (NED)?",
+          de: "Was ist Named Entity Disambiguation (NED)?",
+          nl: "Wat is named entity disambiguatie (NED)?"
+        },
+        options: [
+          { en: "Linking entity mentions to specific entities in a knowledge base", es: "Vincular menciones de entidades a entidades específicas en una base de conocimiento", de: "Entitätserwähnungen mit spezifischen Entitäten in einer Wissensbasis verknüpfen", nl: "Entiteitsvermeldingen koppelen aan specifieke entiteiten in een kennisbank" },
+          { en: "Removing ambiguous entities from text", es: "Eliminar entidades ambiguas del texto", de: "Mehrdeutige Entitäten aus Text entfernen", nl: "Dubbelzinnige entiteiten uit tekst verwijderen" },
+          { en: "Naming entities clearly", es: "Nombrar entidades claramente", de: "Entitäten klar benennen", nl: "Entiteiten duidelijk benoemen" },
+          { en: "Finding all entity names", es: "Encontrar todos los nombres de entidades", de: "Alle Entitätsnamen finden", nl: "Alle entiteitsnamen vinden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "NED (also called entity linking) resolves which real-world entity a mention refers to. For example, 'Washington' could be George Washington, Washington State, or Washington DC. NED links it to the correct knowledge base entry.",
+          es: "NED (también llamado entity linking) resuelve a qué entidad del mundo real se refiere una mención. Por ejemplo, 'Washington' podría ser George Washington, el estado de Washington, o Washington DC. NED lo vincula a la entrada correcta de la base de conocimiento.",
+          de: "NED (auch Entity Linking genannt) löst auf welche reale Entität eine Erwähnung sich bezieht. Zum Beispiel könnte 'Washington' George Washington, der Bundesstaat Washington oder Washington DC sein. NED verknüpft es mit dem korrekten Wissensbasis-Eintrag.",
+          nl: "NED (ook wel entity linking genoemd) lost op naar welke entiteit uit de echte wereld een vermelding verwijst. Bijvoorbeeld 'Washington' kan George Washington, Washington State, of Washington DC zijn. NED koppelt het aan de juiste kennisbank-invoer."
+        }
+      },
+      {
+        question: {
+          en: "What is knowledge graph construction from text?",
+          es: "¿Qué es la construcción de grafos de conocimiento desde texto?",
+          de: "Was ist Wissensgraph-Konstruktion aus Text?",
+          nl: "Wat is kennisgraaf constructie uit tekst?"
+        },
+        options: [
+          { en: "Extracting entities and relationships from text to build structured knowledge graphs", es: "Extraer entidades y relaciones de texto para construir grafos de conocimiento estructurados", de: "Entitäten und Beziehungen aus Text extrahieren um strukturierte Wissensgraphen zu bauen", nl: "Entiteiten en relaties uit tekst extraheren om gestructureerde kennisgrafen te bouwen" },
+          { en: "Drawing knowledge diagrams", es: "Dibujar diagramas de conocimiento", de: "Wissensdiagramme zeichnen", nl: "Kennisdiagrammen tekenen" },
+          { en: "Building text databases", es: "Construir bases de datos de texto", de: "Textdatenbanken bauen", nl: "Tekstdatabases bouwen" },
+          { en: "Creating graph visualizations", es: "Crear visualizaciones de grafos", de: "Graphvisualisierungen erstellen", nl: "Graafvisualisaties maken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Knowledge graph construction uses NER, relation extraction, and entity linking to populate structured knowledge bases with facts extracted from unstructured text. This enables semantic search and reasoning.",
+          es: "La construcción de grafos de conocimiento usa NER, extracción de relaciones y entity linking para poblar bases de conocimiento estructuradas con hechos extraídos de texto no estructurado. Esto permite búsqueda semántica y razonamiento.",
+          de: "Wissensgraph-Konstruktion verwendet NER, Relationsextraktion und Entity Linking um strukturierte Wissensbasen mit aus unstrukturiertem Text extrahierten Fakten zu befüllen. Dies ermöglicht semantische Suche und Reasoning.",
+          nl: "Kennisgraaf constructie gebruikt NER, relatie-extractie en entity linking om gestructureerde kennisbanken te vullen met feiten geëxtraheerd uit ongestructureerde tekst. Dit maakt semantisch zoeken en redeneren mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What is textual entailment?",
+          es: "¿Qué es la implicación textual?",
+          de: "Was ist textuelle Implikation?",
+          nl: "Wat is tekstuele implicatie?"
+        },
+        options: [
+          { en: "Determining if one text logically follows from or is implied by another text", es: "Determinar si un texto sigue lógicamente de o está implicado por otro texto", de: "Bestimmen ob ein Text logisch aus einem anderen Text folgt oder impliziert wird", nl: "Bepalen of één tekst logisch volgt uit of geïmpliceerd wordt door een andere tekst" },
+          { en: "Checking if text is entitled to something", es: "Verificar si el texto tiene derecho a algo", de: "Prüfen ob Text zu etwas berechtigt ist", nl: "Controleren of tekst ergens recht op heeft" },
+          { en: "Finding text titles", es: "Encontrar títulos de texto", de: "Texttitel finden", nl: "Teksttitels vinden" },
+          { en: "Ensuring text completeness", es: "Asegurar completitud del texto", de: "Textvollständigkeit sicherstellen", nl: "Tekstcompleteness waarborgen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Textual entailment (or natural language inference) determines if a hypothesis can be inferred from a premise. For example, 'John bought a car' entails 'John owns a vehicle', useful for question answering and information retrieval.",
+          es: "La implicación textual (o inferencia de lenguaje natural) determina si una hipótesis puede inferirse de una premisa. Por ejemplo, 'Juan compró un carro' implica 'Juan posee un vehículo', útil para respuesta a preguntas y recuperación de información.",
+          de: "Textuelle Implikation (oder natürliche Sprachinferenz) bestimmt ob eine Hypothese aus einer Prämisse abgeleitet werden kann. Zum Beispiel impliziert 'Johannes kaufte ein Auto' 'Johannes besitzt ein Fahrzeug', nützlich für Frage-Antwort und Informationsabruf.",
+          nl: "Tekstuele implicatie (of natuurlijke taal inferentie) bepaalt of een hypothese kan worden afgeleid uit een premise. Bijvoorbeeld 'Jan kocht een auto' impliceert 'Jan bezit een voertuig', nuttig voor vraagbeantwoording en informatie-opvraging."
+        }
+      },
+      {
+        question: {
+          en: "What is semantic similarity?",
+          es: "¿Qué es la similitud semántica?",
+          de: "Was ist semantische Ähnlichkeit?",
+          nl: "Wat is semantische gelijkenis?"
+        },
+        options: [
+          { en: "Measuring how similar the meanings of two text pieces are", es: "Medir cuán similares son los significados de dos piezas de texto", de: "Messen wie ähnlich die Bedeutungen zweier Textstücke sind", nl: "Meten hoe vergelijkbaar de betekenissen van twee tekststukken zijn" },
+          { en: "Finding similar-looking text", es: "Encontrar texto de apariencia similar", de: "Ähnlich aussehenden Text finden", nl: "Vergelijkbaar uitziende tekst vinden" },
+          { en: "Measuring text length similarity", es: "Medir similitud de longitud de texto", de: "Textlängenähnlichkeit messen", nl: "Tekstlengte gelijkenis meten" },
+          { en: "Comparing semantic versions", es: "Comparar versiones semánticas", de: "Semantische Versionen vergleichen", nl: "Semantische versies vergelijken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Semantic similarity quantifies meaning overlap between texts, going beyond surface-level word matching. Modern approaches use embeddings to compute similarity scores, useful for paraphrase detection, duplicate detection, and search.",
+          es: "La similitud semántica cuantifica superposición de significado entre textos, yendo más allá de coincidencia de palabras a nivel superficial. Los enfoques modernos usan embeddings para calcular puntajes de similitud, útil para detección de paráfrasis, detección de duplicados y búsqueda.",
+          de: "Semantische Ähnlichkeit quantifiziert Bedeutungsüberlappung zwischen Texten, geht über oberflächliches Wort-Matching hinaus. Moderne Ansätze verwenden Embeddings um Ähnlichkeitsscores zu berechnen, nützlich für Paraphrasenerkennung, Duplikaterkennung und Suche.",
+          nl: "Semantische gelijkenis kwantificeert betekenisoverlap tussen teksten, gaat verder dan oppervlakkige woordmatching. Moderne benaderingen gebruiken embeddings om gelijkenis scores te berekenen, nuttig voor parafrase detectie, duplicaat detectie en zoeken."
+        }
+      },
+      {
+        question: {
+          en: "What is semantic textual similarity (STS)?",
+          es: "¿Qué es la similitud textual semántica (STS)?",
+          de: "Was ist semantische textuelle Ähnlichkeit (STS)?",
+          nl: "Wat is semantische tekstuele gelijkenis (STS)?"
+        },
+        options: [
+          { en: "A specific task measuring meaning similarity on a graded scale from 0 to 5", es: "Una tarea específica midiendo similitud de significado en una escala graduada de 0 a 5", de: "Eine spezifische Aufgabe die Bedeutungsähnlichkeit auf einer graduierten Skala von 0 bis 5 misst", nl: "Een specifieke taak die betekenis gelijkenis meet op een gegradeerde schaal van 0 tot 5" },
+          { en: "Statistical text similarity only", es: "Solo similitud de texto estadística", de: "Nur statistische Textähnlichkeit", nl: "Alleen statistische tekstgelijkenis" },
+          { en: "Syntax tree similarity", es: "Similitud de árbol sintáctico", de: "Syntaxbaum-Ähnlichkeit", nl: "Syntaxboom gelijkenis" },
+          { en: "String similarity metrics", es: "Métricas de similitud de cadenas", de: "String-Ähnlichkeitsmetriken", nl: "String gelijkenismetrieken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "STS is a standard benchmark task where systems rate sentence pair similarity from 0 (completely different) to 5 (completely equivalent). It evaluates how well models capture semantic meaning beyond surface forms.",
+          es: "STS es una tarea de referencia estándar donde sistemas califican similitud de pares de oraciones de 0 (completamente diferente) a 5 (completamente equivalente). Evalúa qué tan bien los modelos capturan significado semántico más allá de formas superficiales.",
+          de: "STS ist eine Standard-Benchmark-Aufgabe wo Systeme Satzpaar-Ähnlichkeit von 0 (völlig verschieden) bis 5 (völlig äquivalent) bewerten. Es evaluiert wie gut Modelle semantische Bedeutung jenseits von Oberflächenformen erfassen.",
+          nl: "STS is een standaard benchmark taak waarbij systemen zinspaar gelijkenis beoordelen van 0 (volledig verschillend) tot 5 (volledig equivalent). Het evalueert hoe goed modellen semantische betekenis vastleggen voorbij oppervlaktevormen."
+        }
+      },
+      {
+        question: {
+          en: "What is multilingual NLP?",
+          es: "¿Qué es el PLN multilingüe?",
+          de: "Was ist mehrsprachiges NLP?",
+          nl: "Wat is meertalige NLP?"
+        },
+        options: [
+          { en: "Processing and understanding text in multiple languages with shared models or techniques", es: "Procesar y entender texto en múltiples idiomas con modelos o técnicas compartidas", de: "Text in mehreren Sprachen mit gemeinsamen Modellen oder Techniken verarbeiten und verstehen", nl: "Tekst in meerdere talen verwerken en begrijpen met gedeelde modellen of technieken" },
+          { en: "Translating between languages only", es: "Solo traducir entre idiomas", de: "Nur zwischen Sprachen übersetzen", nl: "Alleen tussen talen vertalen" },
+          { en: "Learning multiple programming languages", es: "Aprender múltiples lenguajes de programación", de: "Mehrere Programmiersprachen lernen", nl: "Meerdere programmeertalen leren" },
+          { en: "Supporting multiple UI languages", es: "Soportar múltiples idiomas de interfaz", de: "Mehrere UI-Sprachen unterstützen", nl: "Meerdere UI-talen ondersteunen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Multilingual NLP develops models that work across languages, often using cross-lingual embeddings or multilingual transformers like mBERT and XLM-R. This enables knowledge transfer between high and low-resource languages.",
+          es: "El PLN multilingüe desarrolla modelos que funcionan a través de idiomas, a menudo usando embeddings cross-lingüales o transformers multilingües como mBERT y XLM-R. Esto permite transferencia de conocimiento entre idiomas de altos y bajos recursos.",
+          de: "Mehrsprachiges NLP entwickelt Modelle die über Sprachen hinweg funktionieren, oft mit cross-lingualen Embeddings oder mehrsprachigen Transformern wie mBERT und XLM-R. Dies ermöglicht Wissenstransfer zwischen ressourcenreichen und ressourcenarmen Sprachen.",
+          nl: "Meertalige NLP ontwikkelt modellen die werken over talen heen, vaak met cross-linguale embeddings of meertalige transformers zoals mBERT en XLM-R. Dit maakt kennisoverdracht mogelijk tussen high en low-resource talen."
+        }
+      },
+      {
+        question: {
+          en: "What is low-resource NLP?",
+          es: "¿Qué es el PLN de bajos recursos?",
+          de: "Was ist Low-Resource NLP?",
+          nl: "Wat is low-resource NLP?"
+        },
+        options: [
+          { en: "Developing NLP systems for languages with limited training data and linguistic resources", es: "Desarrollar sistemas de PLN para idiomas con datos de entrenamiento y recursos lingüísticos limitados", de: "NLP-Systeme für Sprachen mit begrenzten Trainingsdaten und linguistischen Ressourcen entwickeln", nl: "NLP-systemen ontwikkelen voor talen met beperkte trainingsdata en linguïstische bronnen" },
+          { en: "Running NLP with minimal computing resources", es: "Ejecutar PLN con recursos computacionales mínimos", de: "NLP mit minimalen Rechenressourcen ausführen", nl: "NLP draaien met minimale rekenbronnen" },
+          { en: "Processing short texts only", es: "Procesar solo textos cortos", de: "Nur kurze Texte verarbeiten", nl: "Alleen korte teksten verwerken" },
+          { en: "Using older NLP methods", es: "Usar métodos de PLN más antiguos", de: "Ältere NLP-Methoden verwenden", nl: "Oudere NLP-methoden gebruiken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Low-resource NLP tackles languages lacking large corpora, annotated data, or linguistic tools. Techniques include transfer learning, cross-lingual methods, data augmentation, and leveraging multilingual models.",
+          es: "El PLN de bajos recursos aborda idiomas que carecen de grandes corpus, datos anotados o herramientas lingüísticas. Las técnicas incluyen aprendizaje por transferencia, métodos cross-lingüales, aumentación de datos y aprovechamiento de modelos multilingües.",
+          de: "Low-Resource NLP befasst sich mit Sprachen denen große Korpora, annotierte Daten oder linguistische Werkzeuge fehlen. Techniken umfassen Transfer Learning, cross-linguale Methoden, Datenaugmentierung und Nutzung mehrsprachiger Modelle.",
+          nl: "Low-resource NLP pakt talen aan die grote corpora, geannoteerde data of linguïstische tools missen. Technieken omvatten transfer learning, cross-linguale methoden, data augmentatie en gebruik van meertalige modellen."
+        }
+      },
+      {
+        question: {
+          en: "What is zero-shot entity recognition?",
+          es: "¿Qué es el reconocimiento de entidades de cero disparos?",
+          de: "Was ist Zero-Shot Entity Recognition?",
+          nl: "Wat is zero-shot entiteitsherkenning?"
+        },
+        options: [
+          { en: "Recognizing entity types without training examples for those specific types", es: "Reconocer tipos de entidades sin ejemplos de entrenamiento para esos tipos específicos", de: "Entitätstypen ohne Trainingsbeispiele für diese spezifischen Typen erkennen", nl: "Entiteitstypen herkennen zonder trainingsvoorbeelden voor die specifieke typen" },
+          { en: "Entity recognition that always fails", es: "Reconocimiento de entidades que siempre falla", de: "Entitätserkennung die immer fehlschlägt", nl: "Entiteitsherkenning die altijd faalt" },
+          { en: "Single-attempt entity extraction", es: "Extracción de entidades en un solo intento", de: "Einmaliger Entitätsextraktionsversuch", nl: "Eenmalige entiteitsextractie" },
+          { en: "Fast entity recognition without preprocessing", es: "Reconocimiento de entidades rápido sin preprocesamiento", de: "Schnelle Entitätserkennung ohne Vorverarbeitung", nl: "Snelle entiteitsherkenning zonder voorbewerking" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Zero-shot entity recognition allows models to identify entity types they weren't explicitly trained on, using semantic understanding and descriptions of new entity types. This is particularly valuable for rapidly adapting to new domains.",
+          es: "El reconocimiento de entidades de cero disparos permite a los modelos identificar tipos de entidades en los que no fueron entrenados explícitamente, usando comprensión semántica y descripciones de nuevos tipos de entidades. Esto es particularmente valioso para adaptarse rápidamente a nuevos dominios.",
+          de: "Zero-Shot Entity Recognition ermöglicht Modellen Entitätstypen zu identifizieren auf die sie nicht explizit trainiert wurden, unter Verwendung semantischen Verständnisses und Beschreibungen neuer Entitätstypen. Dies ist besonders wertvoll für schnelle Anpassung an neue Domänen.",
+          nl: "Zero-shot entiteitsherkenning stelt modellen in staat om entiteitstypen te identificeren waar ze niet expliciet op getraind waren, door semantisch begrip en beschrijvingen van nieuwe entiteitstypen te gebruiken. Dit is bijzonder waardevol voor snelle aanpassing aan nieuwe domeinen."
+        }
+      },
+      {
+        question: {
+          en: "What are entity features in machine learning-based NER?",
+          es: "¿Qué son las características de entidades en NER basado en aprendizaje automático?",
+          de: "Was sind Entitätsmerkmale in maschinellem lernenbasiertem NER?",
+          nl: "Wat zijn entiteitskenmerken in machine learning-gebaseerde NER?"
+        },
+        options: [
+          { en: "Attributes used to help identify entities like capitalization, position, POS tags, and word shape", es: "Atributos usados para ayudar a identificar entidades como capitalización, posición, etiquetas POS y forma de palabra", de: "Attribute zur Identifizierung von Entitäten wie Großschreibung, Position, POS-Tags und Wortform", nl: "Attributen gebruikt om entiteiten te identificeren zoals hoofdlettergebruik, positie, POS-tags en woordvorm" },
+          { en: "Physical characteristics of entities", es: "Características físicas de entidades", de: "Physische Merkmale von Entitäten", nl: "Fysieke kenmerken van entiteiten" },
+          { en: "Database fields for entities", es: "Campos de base de datos para entidades", de: "Datenbankfelder für Entitäten", nl: "Databasevelden voor entiteiten" },
+          { en: "Optional entity properties", es: "Propiedades opcionales de entidades", de: "Optionale Entitätseigenschaften", nl: "Optionele entiteitseigenschappen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Entity features are handcrafted or automatically extracted attributes that help ML models recognize entities. These include orthographic features (capitalization, punctuation), contextual features (surrounding words, POS tags), and lexical features (word shape, prefixes, suffixes).",
+          es: "Las características de entidades son atributos elaborados manualmente o extraídos automáticamente que ayudan a modelos de ML a reconocer entidades. Incluyen características ortográficas (capitalización, puntuación), características contextuales (palabras circundantes, etiquetas POS) y características léxicas (forma de palabra, prefijos, sufijos).",
+          de: "Entitätsmerkmale sind handgefertigte oder automatisch extrahierte Attribute die ML-Modellen helfen Entitäten zu erkennen. Diese umfassen orthographische Merkmale (Großschreibung, Interpunktion), kontextuelle Merkmale (umgebende Wörter, POS-Tags) und lexikalische Merkmale (Wortform, Präfixe, Suffixe).",
+          nl: "Entiteitskenmerken zijn handgemaakte of automatisch geëxtraheerde attributen die ML-modellen helpen entiteiten te herkennen. Deze omvatten orthografische kenmerken (hoofdlettergebruik, interpunctie), contextuele kenmerken (omliggende woorden, POS-tags) en lexicale kenmerken (woordvorm, voorvoegsels, achtervoegsels)."
+        }
+      },
+      {
+        question: {
+          en: "What is nested entity recognition?",
+          es: "¿Qué es el reconocimiento de entidades anidadas?",
+          de: "Was ist verschachtelte Entitätserkennung?",
+          nl: "Wat is geneste entiteitsherkenning?"
+        },
+        options: [
+          { en: "Identifying entities that are contained within other entities", es: "Identificar entidades que están contenidas dentro de otras entidades", de: "Entitäten identifizieren die in anderen Entitäten enthalten sind", nl: "Entiteiten identificeren die binnen andere entiteiten zijn opgenomen" },
+          { en: "Organizing entities in hierarchical structures", es: "Organizar entidades en estructuras jerárquicas", de: "Entitäten in hierarchischen Strukturen organisieren", nl: "Entiteiten organiseren in hiërarchische structuren" },
+          { en: "Deep learning for entity recognition", es: "Aprendizaje profundo para reconocimiento de entidades", de: "Deep Learning für Entitätserkennung", nl: "Deep learning voor entiteitsherkenning" },
+          { en: "Entities stored in nested data structures", es: "Entidades almacenadas en estructuras de datos anidadas", de: "Entitäten in verschachtelten Datenstrukturen gespeichert", nl: "Entiteiten opgeslagen in geneste datastructuren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Nested entity recognition handles cases where one entity contains another, like 'Bank of America' (ORG) containing 'America' (LOC). Traditional BIO tagging can't handle overlapping entities, requiring specialized approaches.",
+          es: "El reconocimiento de entidades anidadas maneja casos donde una entidad contiene otra, como 'Bank of America' (ORG) que contiene 'America' (LOC). El etiquetado BIO tradicional no puede manejar entidades superpuestas, requiriendo enfoques especializados.",
+          de: "Verschachtelte Entitätserkennung behandelt Fälle wo eine Entität eine andere enthält, wie 'Bank of America' (ORG) das 'America' (LOC) enthält. Traditionelles BIO-Tagging kann überlappende Entitäten nicht handhaben, erfordert spezielle Ansätze.",
+          nl: "Geneste entiteitsherkenning behandelt gevallen waarbij één entiteit een andere bevat, zoals 'Bank of America' (ORG) dat 'America' (LOC) bevat. Traditionele BIO-labeling kan overlappende entiteiten niet hanteren, vereist gespecialiseerde benaderingen."
+        }
+      },
+      {
+        question: {
+          en: "What is entity salience detection?",
+          es: "¿Qué es la detección de saliencia de entidades?",
+          de: "Was ist Entitäts-Salienz-Erkennung?",
+          nl: "Wat is entiteitsopvallendheidsdetectie?"
+        },
+        options: [
+          { en: "Determining which entities are most important or central to a document", es: "Determinar qué entidades son más importantes o centrales para un documento", de: "Bestimmen welche Entitäten am wichtigsten oder zentral für ein Dokument sind", nl: "Bepalen welke entiteiten het belangrijkst of centraal zijn voor een document" },
+          { en: "Detecting spelling errors in entity names", es: "Detectar errores ortográficos en nombres de entidades", de: "Rechtschreibfehler in Entitätsnamen erkennen", nl: "Spelfouten in entiteitsnamen detecteren" },
+          { en: "Finding highlighted entities in text", es: "Encontrar entidades resaltadas en texto", de: "Hervorgehobene Entitäten in Text finden", nl: "Gemarkeerde entiteiten in tekst vinden" },
+          { en: "Identifying entities that stand out visually", es: "Identificar entidades que destacan visualmente", de: "Entitäten identifizieren die visuell auffallen", nl: "Entiteiten identificeren die visueel opvallen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Entity salience ranks entities by their importance to a document's main topics. Salient entities are mentioned frequently, appear early, and are central to the document's theme, useful for summarization and understanding document focus.",
+          es: "La saliencia de entidades clasifica entidades por su importancia para los temas principales de un documento. Las entidades salientes se mencionan frecuentemente, aparecen temprano y son centrales al tema del documento, útil para resumir y entender el enfoque del documento.",
+          de: "Entitäts-Salienz ordnet Entitäten nach ihrer Wichtigkeit für die Hauptthemen eines Dokuments. Saliente Entitäten werden häufig erwähnt, erscheinen früh und sind zentral für das Dokumentthema, nützlich für Zusammenfassung und Verständnis des Dokumentfokus.",
+          nl: "Entiteitsopvallenheid rangschikt entiteiten naar hun belang voor de hoofdonderwerpen van een document. Opvallende entiteiten worden vaak genoemd, verschijnen vroeg en zijn centraal voor het documentthema, nuttig voor samenvatting en begrip van documentfocus."
+        }
+      },
+      {
+        question: {
+          en: "What is distant reading in digital humanities NLP?",
+          es: "¿Qué es la lectura distante en PLN de humanidades digitales?",
+          de: "Was ist Distant Reading in Digital Humanities NLP?",
+          nl: "Wat is distant reading in digital humanities NLP?"
+        },
+        options: [
+          { en: "Analyzing large collections of texts computationally to identify patterns and trends", es: "Analizar grandes colecciones de textos computacionalmente para identificar patrones y tendencias", de: "Große Textsammlungen computergestützt analysieren um Muster und Trends zu identifizieren", nl: "Grote tekstcollecties computationeel analyseren om patronen en trends te identificeren" },
+          { en: "Reading text from a distance for vision testing", es: "Leer texto desde lejos para pruebas de visión", de: "Text aus der Ferne für Sehtests lesen", nl: "Tekst van veraf lezen voor visustesten" },
+          { en: "Remote document scanning", es: "Escaneo remoto de documentos", de: "Remote-Dokumentenscanning", nl: "Op afstand documenten scannen" },
+          { en: "Historical document analysis", es: "Análisis de documentos históricos", de: "Historische Dokumentenanalyse", nl: "Historische documentanalyse" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Distant reading uses computational methods to analyze large text corpora, revealing macro-level patterns invisible through traditional close reading. NLP techniques like topic modeling, sentiment analysis, and entity extraction enable scholars to study trends across thousands of documents.",
+          es: "La lectura distante usa métodos computacionales para analizar grandes corpus de texto, revelando patrones a nivel macro invisibles mediante lectura cercana tradicional. Técnicas de PLN como modelado de tópicos, análisis de sentimientos y extracción de entidades permiten a académicos estudiar tendencias a través de miles de documentos.",
+          de: "Distant Reading verwendet computergestützte Methoden um große Textkorpora zu analysieren, enthüllt Makro-Level-Muster die durch traditionelles Close Reading unsichtbar sind. NLP-Techniken wie Topic Modeling, Sentimentanalyse und Entitätsextraktion ermöglichen Wissenschaftlern Trends über Tausende von Dokumenten zu studieren.",
+          nl: "Distant reading gebruikt computationele methoden om grote tekstcorpora te analyseren, onthult macro-niveau patronen die onzichtbaar zijn door traditionele close reading. NLP-technieken zoals topic modeling, sentimentanalyse en entiteitsextractie stellen wetenschappers in staat trends te bestuderen over duizenden documenten."
+        }
+      },
+      {
+        question: {
+          en: "What is entity typing in information extraction?",
+          es: "¿Qué es la tipificación de entidades en extracción de información?",
+          de: "Was ist Entity Typing in der Informationsextraktion?",
+          nl: "Wat is entiteitstyping in informatie-extractie?"
+        },
+        options: [
+          { en: "Assigning fine-grained semantic types to entities beyond basic NER categories", es: "Asignar tipos semánticos finos a entidades más allá de categorías básicas de NER", de: "Feinkörnige semantische Typen Entitäten zuweisen jenseits grundlegender NER-Kategorien", nl: "Fijnmazige semantische typen toewijzen aan entiteiten buiten basis NER-categorieën" },
+          { en: "Typing entity names into databases", es: "Escribir nombres de entidades en bases de datos", de: "Entitätsnamen in Datenbanken eingeben", nl: "Entiteitsnamen in databases typen" },
+          { en: "Categorizing text types", es: "Categorizar tipos de texto", de: "Texttypen kategorisieren", nl: "Teksttypen categoriseren" },
+          { en: "Defining data types for entities", es: "Definir tipos de datos para entidades", de: "Datentypen für Entitäten definieren", nl: "Datatypen voor entiteiten definiëren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Entity typing goes beyond coarse NER labels (PERSON, ORG, LOC) to assign fine-grained types like 'scientist', 'politician', 'software company', or 'city'. This richer classification supports more sophisticated information extraction and knowledge base population.",
+          es: "La tipificación de entidades va más allá de etiquetas NER gruesas (PERSONA, ORG, LOC) para asignar tipos finos como 'científico', 'político', 'compañía de software', o 'ciudad'. Esta clasificación más rica soporta extracción de información más sofisticada y población de bases de conocimiento.",
+          de: "Entity Typing geht über grobe NER-Labels (PERSON, ORG, LOC) hinaus um feinkörnige Typen wie 'Wissenschaftler', 'Politiker', 'Softwareunternehmen' oder 'Stadt' zuzuweisen. Diese reichere Klassifikation unterstützt ausgeklügeltere Informationsextraktion und Wissensbasis-Befüllung.",
+          nl: "Entiteitstyping gaat verder dan grove NER-labels (PERSOON, ORG, LOC) om fijnmazige typen toe te wijzen zoals 'wetenschapper', 'politicus', 'softwarebedrijf' of 'stad'. Deze rijkere classificatie ondersteunt meer geavanceerde informatie-extractie en kennisbank populatie."
+        }    },
+    {
+      question: {en: "What is strategy in games?", es: "What is strategy in games?", de: "What is strategy in games?", nl: "What is strategy in games?"},
+      options: [
+        {en: "Planning to achieve objectives", es: "Planning to achieve objectives", de: "Planning to achieve objectives", nl: "Planning to achieve objectives"},
+        {en: "Random moves", es: "Random moves", de: "Random moves", nl: "Random moves"},
+        {en: "Luck only", es: "Luck only", de: "Luck only", nl: "Luck only"},
+        {en: "No planning", es: "No planning", de: "No planning", nl: "No planning"}
+      ],
+      correct: 0,
+      explanation: {en: "Strategy involves planning and decision-making to achieve game objectives.", es: "Strategy involves planning and decision-making to achieve game objectives.", de: "Strategy involves planning and decision-making to achieve game objectives.", nl: "Strategy involves planning and decision-making to achieve game objectives."}
+
       }
     ]
   };

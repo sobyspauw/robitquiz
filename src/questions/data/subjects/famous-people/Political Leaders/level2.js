@@ -426,6 +426,237 @@
           de: "Michelle Bachelet war Chiles erste weibliche Präsidentin, diente zwei nicht aufeinanderfolgende Amtszeiten und war bekannt für ihre progressiven Sozialpolitiken und Menschenrechtsverteidigung.",
           nl: "Michelle Bachelet was Chili's eerste vrouwelijke president, diende twee niet-opeenvolgende termijnen en stond bekend om haar progressieve sociale beleidsmaatregelen en mensenrechtenadvocatie."
         }
+      },
+      {
+        question: {
+          en: "Who served as Prime Minister of the United Kingdom from 2010 to 2016?",
+          es: "¿Quién sirvió como Primer Ministro del Reino Unido de 2010 a 2016?",
+          de: "Wer diente als Premierminister des Vereinigten Königreichs von 2010 bis 2016?",
+          nl: "Wie diende als Premier van het Verenigd Koninkrijk van 2010 tot 2016?"
+        },
+        options: [
+          { en: "David Cameron", es: "David Cameron", de: "David Cameron", nl: "David Cameron" },
+          { en: "Gordon Brown", es: "Gordon Brown", de: "Gordon Brown", nl: "Gordon Brown" },
+          { en: "Theresa May", es: "Theresa May", de: "Theresa May", nl: "Theresa May" },
+          { en: "Tony Blair", es: "Tony Blair", de: "Tony Blair", nl: "Tony Blair" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "David Cameron served as Prime Minister from 2010 to 2016, leading the Conservative Party and resigning after the Brexit referendum result.",
+          es: "David Cameron sirvió como Primer Ministro de 2010 a 2016, liderando el Partido Conservador y renunciando después del resultado del referéndum del Brexit.",
+          de: "David Cameron diente von 2010 bis 2016 als Premierminister, führte die Konservative Partei an und trat nach dem Brexit-Referendum-Ergebnis zurück.",
+          nl: "David Cameron diende van 2010 tot 2016 als Premier, leidde de Conservatieve Partij en trad af na het Brexit-referendum resultaat."
+        }
+      },
+      {
+        question: {
+          en: "Who was Prime Minister of the United Kingdom from 2019 to 2022?",
+          es: "¿Quién fue Primer Ministro del Reino Unido de 2019 a 2022?",
+          de: "Wer war Premierminister des Vereinigten Königreichs von 2019 bis 2022?",
+          nl: "Wie was Premier van het Verenigd Koninkrijk van 2019 tot 2022?"
+        },
+        options: [
+          { en: "Boris Johnson", es: "Boris Johnson", de: "Boris Johnson", nl: "Boris Johnson" },
+          { en: "Theresa May", es: "Theresa May", de: "Theresa May", nl: "Theresa May" },
+          { en: "Liz Truss", es: "Liz Truss", de: "Liz Truss", nl: "Liz Truss" },
+          { en: "Rishi Sunak", es: "Rishi Sunak", de: "Rishi Sunak", nl: "Rishi Sunak" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Boris Johnson served as Prime Minister from 2019 to 2022, completing Brexit and leading the UK through the COVID-19 pandemic before resigning amid scandals.",
+          es: "Boris Johnson sirvió como Primer Ministro de 2019 a 2022, completando el Brexit y liderando al Reino Unido durante la pandemia de COVID-19 antes de renunciar en medio de escándalos.",
+          de: "Boris Johnson diente von 2019 bis 2022 als Premierminister, vollendete den Brexit und führte Großbritannien durch die COVID-19-Pandemie, bevor er inmitten von Skandalen zurücktrat.",
+          nl: "Boris Johnson diende van 2019 tot 2022 als Premier, voltooide Brexit en leidde het VK door de COVID-19 pandemie voordat hij aftrad temidden van schandalen."
+        }
+      },
+      {
+        question: {
+          en: "Who was President of Brazil from 2011 to 2016?",
+          es: "¿Quién fue Presidente de Brasil de 2011 a 2016?",
+          de: "Wer war Präsident Brasiliens von 2011 bis 2016?",
+          nl: "Wie was President van Brazilië van 2011 tot 2016?"
+        },
+        options: [
+          { en: "Dilma Rousseff", es: "Dilma Rousseff", de: "Dilma Rousseff", nl: "Dilma Rousseff" },
+          { en: "Luiz Inácio Lula da Silva", es: "Luiz Inácio Lula da Silva", de: "Luiz Inácio Lula da Silva", nl: "Luiz Inácio Lula da Silva" },
+          { en: "Michel Temer", es: "Michel Temer", de: "Michel Temer", nl: "Michel Temer" },
+          { en: "Jair Bolsonaro", es: "Jair Bolsonaro", de: "Jair Bolsonaro", nl: "Jair Bolsonaro" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dilma Rousseff was Brazil's first female president, serving from 2011 until her impeachment in 2016 amid political and economic crises.",
+          es: "Dilma Rousseff fue la primera presidenta mujer de Brasil, sirviendo desde 2011 hasta su juicio político en 2016 en medio de crisis políticas y económicas.",
+          de: "Dilma Rousseff war Brasiliens erste weibliche Präsidentin, diente von 2011 bis zu ihrem Amtsenthebungsverfahren 2016 inmitten politischer und wirtschaftlicher Krisen.",
+          nl: "Dilma Rousseff was Brazilië's eerste vrouwelijke president, diende van 2011 tot haar afzetting in 2016 temidden van politieke en economische crises."
+        }
+      },
+      {
+        question: {
+          en: "Who served as Prime Minister of Australia from 2010 to 2013?",
+          es: "¿Quién sirvió como Primer Ministro de Australia de 2010 a 2013?",
+          de: "Wer diente als Premierminister Australiens von 2010 bis 2013?",
+          nl: "Wie diende als Premier van Australië van 2010 tot 2013?"
+        },
+        options: [
+          { en: "Julia Gillard", es: "Julia Gillard", de: "Julia Gillard", nl: "Julia Gillard" },
+          { en: "Kevin Rudd", es: "Kevin Rudd", de: "Kevin Rudd", nl: "Kevin Rudd" },
+          { en: "Tony Abbott", es: "Tony Abbott", de: "Tony Abbott", nl: "Tony Abbott" },
+          { en: "Malcolm Turnbull", es: "Malcolm Turnbull", de: "Malcolm Turnbull", nl: "Malcolm Turnbull" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Julia Gillard became Australia's first female Prime Minister in 2010, serving until 2013 and known for her education reforms and carbon pricing policy.",
+          es: "Julia Gillard se convirtió en la primera Primera Ministra mujer de Australia en 2010, sirviendo hasta 2013 y conocida por sus reformas educativas y política de precio al carbono.",
+          de: "Julia Gillard wurde 2010 Australiens erste weibliche Premierministerin, diente bis 2013 und war bekannt für ihre Bildungsreformen und CO2-Preispolitik.",
+          nl: "Julia Gillard werd in 2010 Australië's eerste vrouwelijke Premier, diende tot 2013 en stond bekend om haar onderwijshervormingen en koolstofprijsbeleid."
+        }
+      },
+      {
+        question: {
+          en: "Who was President of Brazil from 2019 to 2022?",
+          es: "¿Quién fue Presidente de Brasil de 2019 a 2022?",
+          de: "Wer war Präsident Brasiliens von 2019 bis 2022?",
+          nl: "Wie was President van Brazilië van 2019 tot 2022?"
+        },
+        options: [
+          { en: "Jair Bolsonaro", es: "Jair Bolsonaro", de: "Jair Bolsonaro", nl: "Jair Bolsonaro" },
+          { en: "Luiz Inácio Lula da Silva", es: "Luiz Inácio Lula da Silva", de: "Luiz Inácio Lula da Silva", nl: "Luiz Inácio Lula da Silva" },
+          { en: "Michel Temer", es: "Michel Temer", de: "Michel Temer", nl: "Michel Temer" },
+          { en: "Dilma Rousseff", es: "Dilma Rousseff", de: "Dilma Rousseff", nl: "Dilma Rousseff" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jair Bolsonaro served as President of Brazil from 2019 to 2022, known for his far-right policies, handling of COVID-19, and environmental controversies.",
+          es: "Jair Bolsonaro sirvió como Presidente de Brasil de 2019 a 2022, conocido por sus políticas de extrema derecha, manejo del COVID-19 y controversias ambientales.",
+          de: "Jair Bolsonaro diente von 2019 bis 2022 als Präsident Brasiliens, bekannt für seine rechtsextremen Politiken, Umgang mit COVID-19 und Umweltkontroversen.",
+          nl: "Jair Bolsonaro diende van 2019 tot 2022 als President van Brazilië, bekend om zijn extreemrechtse beleid, omgang met COVID-19 en milieucontroverse."
+        }
+      },
+      {
+        question: {
+          en: "Who was President of the Philippines from 2016 to 2022?",
+          es: "¿Quién fue Presidente de Filipinas de 2016 a 2022?",
+          de: "Wer war Präsident der Philippinen von 2016 bis 2022?",
+          nl: "Wie was President van de Filipijnen van 2016 tot 2022?"
+        },
+        options: [
+          { en: "Rodrigo Duterte", es: "Rodrigo Duterte", de: "Rodrigo Duterte", nl: "Rodrigo Duterte" },
+          { en: "Benigno Aquino III", es: "Benigno Aquino III", de: "Benigno Aquino III", nl: "Benigno Aquino III" },
+          { en: "Ferdinand Marcos Jr.", es: "Ferdinand Marcos Jr.", de: "Ferdinand Marcos Jr.", nl: "Ferdinand Marcos Jr." },
+          { en: "Gloria Macapagal Arroyo", es: "Gloria Macapagal Arroyo", de: "Gloria Macapagal Arroyo", nl: "Gloria Macapagal Arroyo" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Rodrigo Duterte served as President of the Philippines from 2016 to 2022, known for his controversial war on drugs and authoritarian style.",
+          es: "Rodrigo Duterte sirvió como Presidente de Filipinas de 2016 a 2022, conocido por su controvertida guerra contra las drogas y estilo autoritario.",
+          de: "Rodrigo Duterte diente von 2016 bis 2022 als Präsident der Philippinen, bekannt für seinen kontroversen Drogenkrieg und autoritären Stil.",
+          nl: "Rodrigo Duterte diende van 2016 tot 2022 als President van de Filipijnen, bekend om zijn controversiële drugsoorlog en autoritaire stijl."
+        }
+      },
+      {
+        question: {
+          en: "Who was Prime Minister of New Zealand from 2017 to 2023?",
+          es: "¿Quién fue Primer Ministro de Nueva Zelanda de 2017 a 2023?",
+          de: "Wer war Premierminister Neuseelands von 2017 bis 2023?",
+          nl: "Wie was Premier van Nieuw-Zeeland van 2017 tot 2023?"
+        },
+        options: [
+          { en: "Jacinda Ardern", es: "Jacinda Ardern", de: "Jacinda Ardern", nl: "Jacinda Ardern" },
+          { en: "John Key", es: "John Key", de: "John Key", nl: "John Key" },
+          { en: "Bill English", es: "Bill English", de: "Bill English", nl: "Bill English" },
+          { en: "Christopher Luxon", es: "Christopher Luxon", de: "Christopher Luxon", nl: "Christopher Luxon" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jacinda Ardern served as Prime Minister from 2017 to 2023, gaining international acclaim for her empathetic leadership during the Christchurch mosque shootings and COVID-19 pandemic.",
+          es: "Jacinda Ardern sirvió como Primera Ministra de 2017 a 2023, ganando aclamación internacional por su liderazgo empático durante los tiroteos en mezquitas de Christchurch y la pandemia de COVID-19.",
+          de: "Jacinda Ardern diente von 2017 bis 2023 als Premierministerin und erlangte internationale Anerkennung für ihre einfühlsame Führung während der Christchurch-Moschee-Anschläge und der COVID-19-Pandemie.",
+          nl: "Jacinda Ardern diende van 2017 tot 2023 als Premier, kreeg internationale erkenning voor haar empathische leiderschap tijdens de Christchurch moskee-aanvallen en de COVID-19 pandemie."
+        }
+      },
+      {
+        question: {
+          en: "Who served as Chancellor of Austria from 2017 to 2021?",
+          es: "¿Quién sirvió como Canciller de Austria de 2017 a 2021?",
+          de: "Wer diente als Bundeskanzler Österreichs von 2017 bis 2021?",
+          nl: "Wie diende als Bondskanselier van Oostenrijk van 2017 tot 2021?"
+        },
+        options: [
+          { en: "Sebastian Kurz", es: "Sebastian Kurz", de: "Sebastian Kurz", nl: "Sebastian Kurz" },
+          { en: "Werner Faymann", es: "Werner Faymann", de: "Werner Faymann", nl: "Werner Faymann" },
+          { en: "Karl Nehammer", es: "Karl Nehammer", de: "Karl Nehammer", nl: "Karl Nehammer" },
+          { en: "Christian Kern", es: "Christian Kern", de: "Christian Kern", nl: "Christian Kern" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sebastian Kurz served as Chancellor of Austria from 2017 to 2021, becoming one of the world's youngest heads of government before resigning amid corruption investigations.",
+          es: "Sebastian Kurz sirvió como Canciller de Austria de 2017 a 2021, convirtiéndose en uno de los jefes de gobierno más jóvenes del mundo antes de renunciar en medio de investigaciones de corrupción.",
+          de: "Sebastian Kurz diente von 2017 bis 2021 als Bundeskanzler Österreichs, wurde einer der jüngsten Regierungschefs der Welt, bevor er inmitten von Korruptionsermittlungen zurücktrat.",
+          nl: "Sebastian Kurz diende van 2017 tot 2021 als Bondskanselier van Oostenrijk, werd een van 's werelds jongste regeringsleiders voordat hij aftrad temidden van corruptieonderzoeken."
+        }
+      },
+      {
+        question: {
+          en: "Who was President of South Korea from 2017 to 2022?",
+          es: "¿Quién fue Presidente de Corea del Sur de 2017 a 2022?",
+          de: "Wer war Präsident Südkoreas von 2017 bis 2022?",
+          nl: "Wie was President van Zuid-Korea van 2017 tot 2022?"
+        },
+        options: [
+          { en: "Moon Jae-in", es: "Moon Jae-in", de: "Moon Jae-in", nl: "Moon Jae-in" },
+          { en: "Park Geun-hye", es: "Park Geun-hye", de: "Park Geun-hye", nl: "Park Geun-hye" },
+          { en: "Yoon Suk-yeol", es: "Yoon Suk-yeol", de: "Yoon Suk-yeol", nl: "Yoon Suk-yeol" },
+          { en: "Lee Myung-bak", es: "Lee Myung-bak", de: "Lee Myung-bak", nl: "Lee Myung-bak" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Moon Jae-in served as President of South Korea from 2017 to 2022, known for his efforts to improve relations with North Korea and progressive domestic policies.",
+          es: "Moon Jae-in sirvió como Presidente de Corea del Sur de 2017 a 2022, conocido por sus esfuerzos para mejorar las relaciones con Corea del Norte y políticas domésticas progresistas.",
+          de: "Moon Jae-in diente von 2017 bis 2022 als Präsident Südkoreas, bekannt für seine Bemühungen, die Beziehungen zu Nordkorea zu verbessern und progressive Innenpolitik.",
+          nl: "Moon Jae-in diende van 2017 tot 2022 als President van Zuid-Korea, bekend om zijn inspanningen om de betrekkingen met Noord-Korea te verbeteren en progressief binnenlands beleid."
+        }
+      },
+      {
+        question: {
+          en: "Who was Prime Minister of Belgium from 2020 to 2024?",
+          es: "¿Quién fue Primer Ministro de Bélgica de 2020 a 2024?",
+          de: "Wer war Premierminister Belgiens von 2020 bis 2024?",
+          nl: "Wie was Premier van België van 2020 tot 2024?"
+        },
+        options: [
+          { en: "Alexander De Croo", es: "Alexander De Croo", de: "Alexander De Croo", nl: "Alexander De Croo" },
+          { en: "Charles Michel", es: "Charles Michel", de: "Charles Michel", nl: "Charles Michel" },
+          { en: "Elio Di Rupo", es: "Elio Di Rupo", de: "Elio Di Rupo", nl: "Elio Di Rupo" },
+          { en: "Guy Verhofstadt", es: "Guy Verhofstadt", de: "Guy Verhofstadt", nl: "Guy Verhofstadt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Alexander De Croo served as Prime Minister of Belgium from 2020 to 2024, leading the country through the COVID-19 pandemic and energy crisis.",
+          es: "Alexander De Croo sirvió como Primer Ministro de Bélgica de 2020 a 2024, liderando el país durante la pandemia de COVID-19 y la crisis energética.",
+          de: "Alexander De Croo diente von 2020 bis 2024 als Premierminister Belgiens und führte das Land durch die COVID-19-Pandemie und Energiekrise.",
+          nl: "Alexander De Croo diende van 2020 tot 2024 als Premier van België, leidde het land door de COVID-19 pandemie en energiecrisis."
+        }
+      },
+      {
+        question: {
+          en: "Who was President of Finland from 2012 to 2024?",
+          es: "¿Quién fue Presidente de Finlandia de 2012 a 2024?",
+          de: "Wer war Präsident Finnlands von 2012 bis 2024?",
+          nl: "Wie was President van Finland van 2012 tot 2024?"
+        },
+        options: [
+          { en: "Sauli Niinistö", es: "Sauli Niinistö", de: "Sauli Niinistö", nl: "Sauli Niinistö" },
+          { en: "Tarja Halonen", es: "Tarja Halonen", de: "Tarja Halonen", nl: "Tarja Halonen" },
+          { en: "Alexander Stubb", es: "Alexander Stubb", de: "Alexander Stubb", nl: "Alexander Stubb" },
+          { en: "Martti Ahtisaari", es: "Martti Ahtisaari", de: "Martti Ahtisaari", nl: "Martti Ahtisaari" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sauli Niinistö served as President of Finland from 2012 to 2024, leading the country through its historic NATO membership application following Russia's invasion of Ukraine.",
+          es: "Sauli Niinistö sirvió como Presidente de Finlandia de 2012 a 2024, liderando al país durante su histórica solicitud de membresía de la OTAN tras la invasión rusa de Ucrania.",
+          de: "Sauli Niinistö diente von 2012 bis 2024 als Präsident Finnlands und führte das Land durch seinen historischen NATO-Mitgliedsantrag nach Russlands Invasion der Ukraine.",
+          nl: "Sauli Niinistö diende van 2012 tot 2024 als President van Finland, leidde het land door zijn historische NAVO-lidmaatschapsaanvraag na Ruslands invasie van Oekraïne."
+        }
       }
     ]
   };

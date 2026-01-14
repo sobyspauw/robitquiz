@@ -426,6 +426,406 @@
           es: "Fitz posee dos habilidades mágicas: la Destreza (comunicación e influencia mente a mente, la magia real) y el Ingenio (vínculo telepático con animales, considerada magia bestial y socialmente estigmatizada). Su vínculo con su lobo Ojosnocturnos es central en la historia. La serie se centra en la difícil vida de Fitz como bastardo real, asesino y peón en maquinaciones políticas, contada en primera persona con profundidad emocional y desarrollo de personajes que definió la fantasía moderna impulsada por personajes.",
           de: "Fitz besitzt zwei magische Fähigkeiten: die Kunst (Geist-zu-Geist-Kommunikation und Beeinflussung, die königliche Magie) und den Witz (telepathische Bindung mit Tieren, als Tiermagie betrachtet und sozial stigmatisiert). Seine Bindung mit seinem Wolf Nachtaugen ist zentral für die Geschichte. Die Serie konzentriert sich auf Fitzs schwieriges Leben als königlicher Bastard, Attentäter und Spielball in politischen Machenschaften, erzählt in der ersten Person mit emotionaler Tiefe und Charakterentwicklung, die moderne charaktergetriebene Fantasy definierte.",
           nl: "Fitz bezit twee magische vermogens: de Kunst (geest-tot-geest communicatie en invloed, de koninklijke magie) en de Geest (telepathische binding met dieren, beschouwd als beestenmagie en sociaal gestigmatiseerd). Zijn band met zijn wolf Nachtogen is centraal in het verhaal. De serie richt zich op Fitz' moeilijke leven als koninklijke bastaard, moordenaar en pion in politieke machinaties, verteld in de eerste persoon met emotionele diepte en karakterontwikkeling die moderne karaktergedreven fantasy definieerde."
+        }      },
+      {
+        question: {
+          en: "Who wrote The Lord of the Rings?",
+          es: "Who wrote The Lord of the Rings?",
+          de: "Who wrote The Lord of the Rings?",
+          nl: "Who wrote The Lord of the Rings?"
+        },
+        options: [
+          { en: "J.R.R. Tolkien", es: "J.R.R. Tolkien", de: "J.R.R. Tolkien", nl: "J.R.R. Tolkien" },
+          { en: "C.S. Lewis", es: "C.S. Lewis", de: "C.S. Lewis", nl: "C.S. Lewis" },
+          { en: "George R.R. Martin", es: "George R.R. Martin", de: "George R.R. Martin", nl: "George R.R. Martin" },
+          { en: "Terry Pratchett", es: "Terry Pratchett", de: "Terry Pratchett", nl: "Terry Pratchett" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "J.R.R. Tolkien wrote The Lord of the Rings trilogy published 1954-1955.",
+          es: "J.R.R. Tolkien wrote The Lord of the Rings trilogy published 1954-1955.",
+          de: "J.R.R. Tolkien wrote The Lord of the Rings trilogy published 1954-1955.",
+          nl: "J.R.R. Tolkien wrote The Lord of the Rings trilogy published 1954-1955."
+        }      },
+      {
+        question: {
+          en: "Who created Harry Potter?",
+          es: "Who created Harry Potter?",
+          de: "Who created Harry Potter?",
+          nl: "Who created Harry Potter?"
+        },
+        options: [
+          { en: "J.K. Rowling", es: "J.K. Rowling", de: "J.K. Rowling", nl: "J.K. Rowling" },
+          { en: "Philip Pullman", es: "Philip Pullman", de: "Philip Pullman", nl: "Philip Pullman" },
+          { en: "Rick Riordan", es: "Rick Riordan", de: "Rick Riordan", nl: "Rick Riordan" },
+          { en: "Suzanne Collins", es: "Suzanne Collins", de: "Suzanne Collins", nl: "Suzanne Collins" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "J.K. Rowling created Harry Potter series beginning in 1997.",
+          es: "J.K. Rowling created Harry Potter series beginning in 1997.",
+          de: "J.K. Rowling created Harry Potter series beginning in 1997.",
+          nl: "J.K. Rowling created Harry Potter series beginning in 1997."
+        }      },
+      {
+        question: {
+          en: "The Chronicles of Narnia is by?",
+          es: "The Chronicles of Narnia is by?",
+          de: "The Chronicles of Narnia is by?",
+          nl: "The Chronicles of Narnia is by?"
+        },
+        options: [
+          { en: "C.S. Lewis", es: "C.S. Lewis", de: "C.S. Lewis", nl: "C.S. Lewis" },
+          { en: "J.R.R. Tolkien", es: "J.R.R. Tolkien", de: "J.R.R. Tolkien", nl: "J.R.R. Tolkien" },
+          { en: "Madeleine L'Engle", es: "Madeleine L'Engle", de: "Madeleine L'Engle", nl: "Madeleine L'Engle" },
+          { en: "Lloyd Alexander", es: "Lloyd Alexander", de: "Lloyd Alexander", nl: "Lloyd Alexander" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "C.S. Lewis wrote The Chronicles of Narnia series 1950-1956.",
+          es: "C.S. Lewis wrote The Chronicles of Narnia series 1950-1956.",
+          de: "C.S. Lewis wrote The Chronicles of Narnia series 1950-1956.",
+          nl: "C.S. Lewis wrote The Chronicles of Narnia series 1950-1956."
+        }      },
+      {
+        question: {
+          en: "Who wrote A Game of Thrones?",
+          es: "Who wrote A Game of Thrones?",
+          de: "Who wrote A Game of Thrones?",
+          nl: "Who wrote A Game of Thrones?"
+        },
+        options: [
+          { en: "George R.R. Martin", es: "George R.R. Martin", de: "George R.R. Martin", nl: "George R.R. Martin" },
+          { en: "Patrick Rothfuss", es: "Patrick Rothfuss", de: "Patrick Rothfuss", nl: "Patrick Rothfuss" },
+          { en: "Brandon Sanderson", es: "Brandon Sanderson", de: "Brandon Sanderson", nl: "Brandon Sanderson" },
+          { en: "Robert Jordan", es: "Robert Jordan", de: "Robert Jordan", nl: "Robert Jordan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "George R.R. Martin began A Song of Ice and Fire with A Game of Thrones in 1996.",
+          es: "George R.R. Martin began A Song of Ice and Fire with A Game of Thrones in 1996.",
+          de: "George R.R. Martin began A Song of Ice and Fire with A Game of Thrones in 1996.",
+          nl: "George R.R. Martin began A Song of Ice and Fire with A Game of Thrones in 1996."
+        }      },
+      {
+        question: {
+          en: "The Hobbit was written by?",
+          es: "The Hobbit was written by?",
+          de: "The Hobbit was written by?",
+          nl: "The Hobbit was written by?"
+        },
+        options: [
+          { en: "J.R.R. Tolkien", es: "J.R.R. Tolkien", de: "J.R.R. Tolkien", nl: "J.R.R. Tolkien" },
+          { en: "C.S. Lewis", es: "C.S. Lewis", de: "C.S. Lewis", nl: "C.S. Lewis" },
+          { en: "Ursula K. Le Guin", es: "Ursula K. Le Guin", de: "Ursula K. Le Guin", nl: "Ursula K. Le Guin" },
+          { en: "Terry Brooks", es: "Terry Brooks", de: "Terry Brooks", nl: "Terry Brooks" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "J.R.R. Tolkien wrote The Hobbit in 1937 as prequel to Lord of the Rings.",
+          es: "J.R.R. Tolkien wrote The Hobbit in 1937 as prequel to Lord of the Rings.",
+          de: "J.R.R. Tolkien wrote The Hobbit in 1937 as prequel to Lord of the Rings.",
+          nl: "J.R.R. Tolkien wrote The Hobbit in 1937 as prequel to Lord of the Rings."
+        }      },
+      {
+        question: {
+          en: "Who created Discworld?",
+          es: "Who created Discworld?",
+          de: "Who created Discworld?",
+          nl: "Who created Discworld?"
+        },
+        options: [
+          { en: "Terry Pratchett", es: "Terry Pratchett", de: "Terry Pratchett", nl: "Terry Pratchett" },
+          { en: "Douglas Adams", es: "Douglas Adams", de: "Douglas Adams", nl: "Douglas Adams" },
+          { en: "Neil Gaiman", es: "Neil Gaiman", de: "Neil Gaiman", nl: "Neil Gaiman" },
+          { en: "Terry Brooks", es: "Terry Brooks", de: "Terry Brooks", nl: "Terry Brooks" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Terry Pratchett created Discworld series beginning in 1983.",
+          es: "Terry Pratchett created Discworld series beginning in 1983.",
+          de: "Terry Pratchett created Discworld series beginning in 1983.",
+          nl: "Terry Pratchett created Discworld series beginning in 1983."
+        }      },
+      {
+        question: {
+          en: "The Name of the Wind is by?",
+          es: "The Name of the Wind is by?",
+          de: "The Name of the Wind is by?",
+          nl: "The Name of the Wind is by?"
+        },
+        options: [
+          { en: "Patrick Rothfuss", es: "Patrick Rothfuss", de: "Patrick Rothfuss", nl: "Patrick Rothfuss" },
+          { en: "Brandon Sanderson", es: "Brandon Sanderson", de: "Brandon Sanderson", nl: "Brandon Sanderson" },
+          { en: "George R.R. Martin", es: "George R.R. Martin", de: "George R.R. Martin", nl: "George R.R. Martin" },
+          { en: "Scott Lynch", es: "Scott Lynch", de: "Scott Lynch", nl: "Scott Lynch" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Patrick Rothfuss wrote The Name of the Wind in 2007.",
+          es: "Patrick Rothfuss wrote The Name of the Wind in 2007.",
+          de: "Patrick Rothfuss wrote The Name of the Wind in 2007.",
+          nl: "Patrick Rothfuss wrote The Name of the Wind in 2007."
+        }      },
+      {
+        question: {
+          en: "Who wrote The Golden Compass?",
+          es: "Who wrote The Golden Compass?",
+          de: "Who wrote The Golden Compass?",
+          nl: "Who wrote The Golden Compass?"
+        },
+        options: [
+          { en: "Philip Pullman", es: "Philip Pullman", de: "Philip Pullman", nl: "Philip Pullman" },
+          { en: "J.K. Rowling", es: "J.K. Rowling", de: "J.K. Rowling", nl: "J.K. Rowling" },
+          { en: "Rick Riordan", es: "Rick Riordan", de: "Rick Riordan", nl: "Rick Riordan" },
+          { en: "Cornelia Funke", es: "Cornelia Funke", de: "Cornelia Funke", nl: "Cornelia Funke" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Philip Pullman wrote The Golden Compass in 1995.",
+          es: "Philip Pullman wrote The Golden Compass in 1995.",
+          de: "Philip Pullman wrote The Golden Compass in 1995.",
+          nl: "Philip Pullman wrote The Golden Compass in 1995."
+        }      },
+      {
+        question: {
+          en: "American Gods is by?",
+          es: "American Gods is by?",
+          de: "American Gods is by?",
+          nl: "American Gods is by?"
+        },
+        options: [
+          { en: "Neil Gaiman", es: "Neil Gaiman", de: "Neil Gaiman", nl: "Neil Gaiman" },
+          { en: "Terry Pratchett", es: "Terry Pratchett", de: "Terry Pratchett", nl: "Terry Pratchett" },
+          { en: "China Mieville", es: "China Mieville", de: "China Mieville", nl: "China Mieville" },
+          { en: "Clive Barker", es: "Clive Barker", de: "Clive Barker", nl: "Clive Barker" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Neil Gaiman wrote American Gods in 2001.",
+          es: "Neil Gaiman wrote American Gods in 2001.",
+          de: "Neil Gaiman wrote American Gods in 2001.",
+          nl: "Neil Gaiman wrote American Gods in 2001."
+        }      },
+      {
+        question: {
+          en: "Who created The Wheel of Time?",
+          es: "Who created The Wheel of Time?",
+          de: "Who created The Wheel of Time?",
+          nl: "Who created The Wheel of Time?"
+        },
+        options: [
+          { en: "Robert Jordan", es: "Robert Jordan", de: "Robert Jordan", nl: "Robert Jordan" },
+          { en: "Brandon Sanderson", es: "Brandon Sanderson", de: "Brandon Sanderson", nl: "Brandon Sanderson" },
+          { en: "Terry Goodkind", es: "Terry Goodkind", de: "Terry Goodkind", nl: "Terry Goodkind" },
+          { en: "Raymond E. Feist", es: "Raymond E. Feist", de: "Raymond E. Feist", nl: "Raymond E. Feist" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Robert Jordan created The Wheel of Time series beginning in 1990.",
+          es: "Robert Jordan created The Wheel of Time series beginning in 1990.",
+          de: "Robert Jordan created The Wheel of Time series beginning in 1990.",
+          nl: "Robert Jordan created The Wheel of Time series beginning in 1990."
+        }      },
+      {
+        question: {
+          en: "The Sword of Shannara is by?",
+          es: "The Sword of Shannara is by?",
+          de: "The Sword of Shannara is by?",
+          nl: "The Sword of Shannara is by?"
+        },
+        options: [
+          { en: "Terry Brooks", es: "Terry Brooks", de: "Terry Brooks", nl: "Terry Brooks" },
+          { en: "David Eddings", es: "David Eddings", de: "David Eddings", nl: "David Eddings" },
+          { en: "Raymond E. Feist", es: "Raymond E. Feist", de: "Raymond E. Feist", nl: "Raymond E. Feist" },
+          { en: "R.A. Salvatore", es: "R.A. Salvatore", de: "R.A. Salvatore", nl: "R.A. Salvatore" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Terry Brooks wrote The Sword of Shannara in 1977.",
+          es: "Terry Brooks wrote The Sword of Shannara in 1977.",
+          de: "Terry Brooks wrote The Sword of Shannara in 1977.",
+          nl: "Terry Brooks wrote The Sword of Shannara in 1977."
+        }      },
+      {
+        question: {
+          en: "Who wrote Mistborn series?",
+          es: "Who wrote Mistborn series?",
+          de: "Who wrote Mistborn series?",
+          nl: "Who wrote Mistborn series?"
+        },
+        options: [
+          { en: "Brandon Sanderson", es: "Brandon Sanderson", de: "Brandon Sanderson", nl: "Brandon Sanderson" },
+          { en: "Patrick Rothfuss", es: "Patrick Rothfuss", de: "Patrick Rothfuss", nl: "Patrick Rothfuss" },
+          { en: "Brent Weeks", es: "Brent Weeks", de: "Brent Weeks", nl: "Brent Weeks" },
+          { en: "Brian McClellan", es: "Brian McClellan", de: "Brian McClellan", nl: "Brian McClellan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Brandon Sanderson wrote Mistborn series beginning in 2006.",
+          es: "Brandon Sanderson wrote Mistborn series beginning in 2006.",
+          de: "Brandon Sanderson wrote Mistborn series beginning in 2006.",
+          nl: "Brandon Sanderson wrote Mistborn series beginning in 2006."
+        }      },
+      {
+        question: {
+          en: "A Wizard of Earthsea is by?",
+          es: "A Wizard of Earthsea is by?",
+          de: "A Wizard of Earthsea is by?",
+          nl: "A Wizard of Earthsea is by?"
+        },
+        options: [
+          { en: "Ursula K. Le Guin", es: "Ursula K. Le Guin", de: "Ursula K. Le Guin", nl: "Ursula K. Le Guin" },
+          { en: "Marion Zimmer Bradley", es: "Marion Zimmer Bradley", de: "Marion Zimmer Bradley", nl: "Marion Zimmer Bradley" },
+          { en: "Anne McCaffrey", es: "Anne McCaffrey", de: "Anne McCaffrey", nl: "Anne McCaffrey" },
+          { en: "Robin Hobb", es: "Robin Hobb", de: "Robin Hobb", nl: "Robin Hobb" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ursula K. Le Guin wrote A Wizard of Earthsea in 1968.",
+          es: "Ursula K. Le Guin wrote A Wizard of Earthsea in 1968.",
+          de: "Ursula K. Le Guin wrote A Wizard of Earthsea in 1968.",
+          nl: "Ursula K. Le Guin wrote A Wizard of Earthsea in 1968."
+        }      },
+      {
+        question: {
+          en: "Who created Conan the Barbarian?",
+          es: "Who created Conan the Barbarian?",
+          de: "Who created Conan the Barbarian?",
+          nl: "Who created Conan the Barbarian?"
+        },
+        options: [
+          { en: "Robert E. Howard", es: "Robert E. Howard", de: "Robert E. Howard", nl: "Robert E. Howard" },
+          { en: "Fritz Leiber", es: "Fritz Leiber", de: "Fritz Leiber", nl: "Fritz Leiber" },
+          { en: "Michael Moorcock", es: "Michael Moorcock", de: "Michael Moorcock", nl: "Michael Moorcock" },
+          { en: "Karl Edward Wagner", es: "Karl Edward Wagner", de: "Karl Edward Wagner", nl: "Karl Edward Wagner" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Robert E. Howard created Conan in 1932.",
+          es: "Robert E. Howard created Conan in 1932.",
+          de: "Robert E. Howard created Conan in 1932.",
+          nl: "Robert E. Howard created Conan in 1932."
+        }      },
+      {
+        question: {
+          en: "The Farseer Trilogy is by?",
+          es: "The Farseer Trilogy is by?",
+          de: "The Farseer Trilogy is by?",
+          nl: "The Farseer Trilogy is by?"
+        },
+        options: [
+          { en: "Robin Hobb", es: "Robin Hobb", de: "Robin Hobb", nl: "Robin Hobb" },
+          { en: "Jacqueline Carey", es: "Jacqueline Carey", de: "Jacqueline Carey", nl: "Jacqueline Carey" },
+          { en: "Kate Elliott", es: "Kate Elliott", de: "Kate Elliott", nl: "Kate Elliott" },
+          { en: "N.K. Jemisin", es: "N.K. Jemisin", de: "N.K. Jemisin", nl: "N.K. Jemisin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Robin Hobb wrote The Farseer Trilogy beginning in 1995.",
+          es: "Robin Hobb wrote The Farseer Trilogy beginning in 1995.",
+          de: "Robin Hobb wrote The Farseer Trilogy beginning in 1995.",
+          nl: "Robin Hobb wrote The Farseer Trilogy beginning in 1995."
+        }      },
+      {
+        question: {
+          en: "Who wrote The Dark Tower series?",
+          es: "Who wrote The Dark Tower series?",
+          de: "Who wrote The Dark Tower series?",
+          nl: "Who wrote The Dark Tower series?"
+        },
+        options: [
+          { en: "Stephen King", es: "Stephen King", de: "Stephen King", nl: "Stephen King" },
+          { en: "Clive Barker", es: "Clive Barker", de: "Clive Barker", nl: "Clive Barker" },
+          { en: "Dean Koontz", es: "Dean Koontz", de: "Dean Koontz", nl: "Dean Koontz" },
+          { en: "Neil Gaiman", es: "Neil Gaiman", de: "Neil Gaiman", nl: "Neil Gaiman" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Stephen King wrote The Dark Tower series spanning 1982-2012.",
+          es: "Stephen King wrote The Dark Tower series spanning 1982-2012.",
+          de: "Stephen King wrote The Dark Tower series spanning 1982-2012.",
+          nl: "Stephen King wrote The Dark Tower series spanning 1982-2012."
+        }      },
+      {
+        question: {
+          en: "The Black Company is by?",
+          es: "The Black Company is by?",
+          de: "The Black Company is by?",
+          nl: "The Black Company is by?"
+        },
+        options: [
+          { en: "Glen Cook", es: "Glen Cook", de: "Glen Cook", nl: "Glen Cook" },
+          { en: "Steven Erikson", es: "Steven Erikson", de: "Steven Erikson", nl: "Steven Erikson" },
+          { en: "Joe Abercrombie", es: "Joe Abercrombie", de: "Joe Abercrombie", nl: "Joe Abercrombie" },
+          { en: "Mark Lawrence", es: "Mark Lawrence", de: "Mark Lawrence", nl: "Mark Lawrence" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Glen Cook wrote The Black Company in 1984.",
+          es: "Glen Cook wrote The Black Company in 1984.",
+          de: "Glen Cook wrote The Black Company in 1984.",
+          nl: "Glen Cook wrote The Black Company in 1984."
+        }      },
+      {
+        question: {
+          en: "Who created Elric of Melnibone?",
+          es: "Who created Elric of Melnibone?",
+          de: "Who created Elric of Melnibone?",
+          nl: "Who created Elric of Melnibone?"
+        },
+        options: [
+          { en: "Michael Moorcock", es: "Michael Moorcock", de: "Michael Moorcock", nl: "Michael Moorcock" },
+          { en: "Fritz Leiber", es: "Fritz Leiber", de: "Fritz Leiber", nl: "Fritz Leiber" },
+          { en: "Robert E. Howard", es: "Robert E. Howard", de: "Robert E. Howard", nl: "Robert E. Howard" },
+          { en: "Poul Anderson", es: "Poul Anderson", de: "Poul Anderson", nl: "Poul Anderson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Michael Moorcock created Elric in 1961.",
+          es: "Michael Moorcock created Elric in 1961.",
+          de: "Michael Moorcock created Elric in 1961.",
+          nl: "Michael Moorcock created Elric in 1961."
+        }      },
+      {
+        question: {
+          en: "Percy Jackson series is by?",
+          es: "Percy Jackson series is by?",
+          de: "Percy Jackson series is by?",
+          nl: "Percy Jackson series is by?"
+        },
+        options: [
+          { en: "Rick Riordan", es: "Rick Riordan", de: "Rick Riordan", nl: "Rick Riordan" },
+          { en: "J.K. Rowling", es: "J.K. Rowling", de: "J.K. Rowling", nl: "J.K. Rowling" },
+          { en: "Cassandra Clare", es: "Cassandra Clare", de: "Cassandra Clare", nl: "Cassandra Clare" },
+          { en: "Suzanne Collins", es: "Suzanne Collins", de: "Suzanne Collins", nl: "Suzanne Collins" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Rick Riordan created Percy Jackson series beginning in 2005.",
+          es: "Rick Riordan created Percy Jackson series beginning in 2005.",
+          de: "Rick Riordan created Percy Jackson series beginning in 2005.",
+          nl: "Rick Riordan created Percy Jackson series beginning in 2005."
+        }      },
+      {
+        question: {
+          en: "Who wrote The Fifth Season?",
+          es: "Who wrote The Fifth Season?",
+          de: "Who wrote The Fifth Season?",
+          nl: "Who wrote The Fifth Season?"
+        },
+        options: [
+          { en: "N.K. Jemisin", es: "N.K. Jemisin", de: "N.K. Jemisin", nl: "N.K. Jemisin" },
+          { en: "Ken Liu", es: "Ken Liu", de: "Ken Liu", nl: "Ken Liu" },
+          { en: "N.K. Jemisin", es: "N.K. Jemisin", de: "N.K. Jemisin", nl: "N.K. Jemisin" },
+          { en: "Rebecca Roanhorse", es: "Rebecca Roanhorse", de: "Rebecca Roanhorse", nl: "Rebecca Roanhorse" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "N.K. Jemisin wrote The Fifth Season in 2015 winning Hugo Award.",
+          es: "N.K. Jemisin wrote The Fifth Season in 2015 winning Hugo Award.",
+          de: "N.K. Jemisin wrote The Fifth Season in 2015 winning Hugo Award.",
+          nl: "N.K. Jemisin wrote The Fifth Season in 2015 winning Hugo Award."
         }
       }
     ]

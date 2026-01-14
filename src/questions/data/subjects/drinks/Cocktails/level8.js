@@ -427,7 +427,449 @@
           de: "Nick and Nora-Gläser (5-6oz) sind kleiner, glockenförmig und abgerundet, verhindern Verschütten. Coupes sind breitere, flachere Schalen (6-8oz), leichter zu verschütten aber zeigen Garnituren besser.",
           nl: "Nick and Nora glazen (5-6oz) zijn kleiner, klokvormig en afgerond, voorkomen morsen. Coupes zijn bredere, ondiepe schotels (6-8oz), gemakkelijker te morsen maar tonen garneringen beter."
         }
-      }]
+      },
+      {
+        question: {
+          en: "What is 'sous vide' infusion in cocktail preparation?",
+          es: "¿Qué es la infusión 'sous vide' en preparación de cócteles?",
+          de: "Was ist 'Sous Vide' Infusion bei der Cocktail-Zubereitung?",
+          nl: "Wat is 'sous vide' infusie in cocktailbereiding?"
+        },
+        options: [
+          { en: "Vacuum-sealing spirits with ingredients and heating at precise low temperatures for rapid, controlled flavor extraction", es: "Sellar al vacío licores con ingredientes y calentar a temperaturas bajas precisas para extracción rápida y controlada de sabor", de: "Vakuumversiegelung von Spirituosen mit Zutaten und Erhitzen bei präzisen niedrigen Temperaturen für schnelle, kontrollierte Aromaextraktion", nl: "Vacuüm verzegelen van spirits met ingrediënten en verwarmen op precieze lage temperaturen voor snelle, gecontroleerde smaakextractie" },
+          { en: "Freezing cocktails for serving", es: "Congelar cócteles para servir", de: "Cocktails zum Servieren einfrieren", nl: "Cocktails bevriezen voor serveren" },
+          { en: "Underwater aging of spirits", es: "Envejecimiento submarino de licores", de: "Unterwasser-Reifung von Spirituosen", nl: "Onderwater rijpen van spirits" },
+          { en: "Pressure carbonation technique", es: "Técnica de carbonatación a presión", de: "Druckkohlensäuretechnik", nl: "Druk koolzuur techniek" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sous vide infusion involves vacuum-sealing spirits with flavoring ingredients (fruits, herbs, spices) in a bag, then immersing in a precisely temperature-controlled water bath (typically 55-65°C) for 1-4 hours. This technique extracts flavors much faster than traditional maceration (which takes days/weeks) while providing consistent results and preventing oxidation. The controlled heat accelerates extraction without cooking or degrading delicate flavors, making it ideal for creating custom-infused spirits for signature cocktails.",
+          es: "La infusión sous vide implica sellar al vacío licores con ingredientes aromatizantes (frutas, hierbas, especias) en una bolsa, luego sumergir en un baño de agua con temperatura controlada precisamente (típicamente 55-65°C) durante 1-4 horas. Esta técnica extrae sabores mucho más rápido que la maceración tradicional (que toma días/semanas) mientras proporciona resultados consistentes y previene oxidación. El calor controlado acelera la extracción sin cocinar o degradar sabores delicados, haciéndolo ideal para crear licores personalizados infundidos para cócteles insignia.",
+          de: "Sous Vide Infusion beinhaltet das Vakuumversiegeln von Spirituosen mit Aromenzutaten (Früchte, Kräuter, Gewürze) in einem Beutel, dann Eintauchen in ein präzise temperaturkontrolliertes Wasserbad (typisch 55-65°C) für 1-4 Stunden. Diese Technik extrahiert Aromen viel schneller als traditionelle Mazeration (die Tage/Wochen dauert), während sie konsistente Ergebnisse liefert und Oxidation verhindert. Die kontrollierte Hitze beschleunigt Extraktion ohne Kochen oder Abbau empfindlicher Aromen, ideal für die Herstellung maßgeschneiderter infundierter Spirituosen für Signature-Cocktails.",
+          nl: "Sous vide infusie houdt in dat spirits met smaakgevende ingrediënten (fruit, kruiden, specerijen) vacuüm worden verzegeld in een zak, dan ondergedompeld in een precies temperatuurgecontroleerd waterbad (typisch 55-65°C) gedurende 1-4 uur. Deze techniek extraheert smaken veel sneller dan traditionele maceratie (die dagen/weken duurt) terwijl consistente resultaten worden geboden en oxidatie wordt voorkomen. De gecontroleerde hitte versnelt extractie zonder koken of afbraak van delicate smaken, ideaal voor het creëren van aangepaste geïnfuseerde spirits voor kenmerkende cocktails."
+        }
+      },
+      {
+        question: {
+          en: "What is 'centrifuge clarification' in advanced mixology?",
+          es: "¿Qué es la 'clarificación por centrifugado' en mixología avanzada?",
+          de: "Was ist 'Zentrifugen-Klärung' in fortgeschrittener Mixologie?",
+          nl: "Wat is 'centrifuge verheldering' in geavanceerde mixologie?"
+        },
+        options: [
+          { en: "Using centrifugal force to separate solids from liquids for ultra-clear cocktails in minutes", es: "Usar fuerza centrífuga para separar sólidos de líquidos para cócteles ultra-claros en minutos", de: "Zentrifugalkraft verwenden um Feststoffe von Flüssigkeiten zu trennen für ultraklare Cocktails in Minuten", nl: "Centrifugaalkracht gebruiken om vaste stoffen van vloeistoffen te scheiden voor ultra-heldere cocktails in minuten" },
+          { en: "Spinning cocktails for aeration", es: "Girar cócteles para aireación", de: "Cocktails drehen für Belüftung", nl: "Cocktails draaien voor beluchting" },
+          { en: "Rotating garnish display", es: "Exhibición de guarnición giratoria", de: "Rotierende Garnitur-Anzeige", nl: "Roterende garnering display" },
+          { en: "Circular bar service technique", es: "Técnica de servicio de barra circular", de: "Kreisförmige Bar-Service-Technik", nl: "Circulaire bar service techniek" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Centrifuge clarification uses laboratory centrifuges to spin cocktail mixtures at high speeds (3000-5000 RPM), separating particles from liquid through centrifugal force in just minutes. This produces exceptionally clear juices and cocktails that would take hours with traditional methods. The technique preserves fresh flavors while removing cloudiness, pulp, and sediment. Popular in modernist bars for creating visually stunning, crystal-clear cocktails with intense flavor. Requires specialized equipment but offers unmatched clarity and speed.",
+          es: "La clarificación por centrifugado usa centrífugas de laboratorio para girar mezclas de cócteles a altas velocidades (3000-5000 RPM), separando partículas del líquido a través de fuerza centrífuga en solo minutos. Esto produce jugos y cócteles excepcionalmente claros que tomarían horas con métodos tradicionales. La técnica preserva sabores frescos mientras elimina turbidez, pulpa y sedimento. Popular en bares modernistas para crear cócteles visualmente impresionantes y cristalinos con sabor intenso. Requiere equipo especializado pero ofrece claridad y velocidad inigualables.",
+          de: "Zentrifugen-Klärung verwendet Labor-Zentrifugen zum Drehen von Cocktail-Mischungen bei hohen Geschwindigkeiten (3000-5000 U/min), trennt Partikel von Flüssigkeit durch Zentrifugalkraft in nur Minuten. Dies produziert außergewöhnlich klare Säfte und Cocktails, die mit traditionellen Methoden Stunden dauern würden. Die Technik bewahrt frische Aromen während Trübung, Fruchtfleisch und Sediment entfernt werden. Beliebt in modernistischen Bars für visuell beeindruckende, kristallklare Cocktails mit intensivem Geschmack. Erfordert spezialisierte Ausrüstung aber bietet unübertroffene Klarheit und Geschwindigkeit.",
+          nl: "Centrifuge verheldering gebruikt laboratorium centrifuges om cocktail mengsels te draaien op hoge snelheden (3000-5000 RPM), scheidt deeltjes van vloeistof door centrifugaalkracht in slechts minuten. Dit produceert uitzonderlijk heldere sappen en cocktails die uren zouden duren met traditionele methoden. De techniek behoudt verse smaken terwijl troebeling, pulp en sediment worden verwijderd. Populair in modernistische bars voor het creëren van visueel verbluffende, kristalheldere cocktails met intense smaak. Vereist gespecialiseerde apparatuur maar biedt ongeëvenaarde helderheid en snelheid."
+        }
+      },
+      {
+        question: {
+          en: "What is 'nitro-muddling' or nitrogen muddling technique?",
+          es: "¿Qué es la técnica de 'nitro-muddling' o maceración con nitrógeno?",
+          de: "Was ist 'Nitro-Muddling' oder Stickstoff-Muddelns-Technik?",
+          nl: "Wat is 'nitro-muddling' of stikstof muddlen techniek?"
+        },
+        options: [
+          { en: "Flash-freezing herbs/fruits with liquid nitrogen before muddling to preserve aromatics and prevent bruising", es: "Congelación instantánea de hierbas/frutas con nitrógeno líquido antes de macerar para preservar aromáticos y prevenir magulladuras", de: "Schnellgefrieren von Kräutern/Früchten mit flüssigem Stickstoff vor dem Muddeln um Aromen zu bewahren und Quetschung zu verhindern", nl: "Flash-bevriezen van kruiden/fruit met vloeibare stikstof voor muddlen om aromaten te behouden en kneuzingen te voorkomen" },
+          { en: "Adding nitrogen gas while muddling", es: "Agregar gas nitrógeno mientras se macera", de: "Stickstoffgas beim Muddeln hinzufügen", nl: "Stikstofgas toevoegen tijdens muddlen" },
+          { en: "Using pressurized muddler", es: "Usar macerador presurizado", de: "Druckbeaufschlagten Muddler verwenden", nl: "Gebruik van onder druk staande muddler" },
+          { en: "Muddling in nitrogen atmosphere", es: "Macerar en atmósfera de nitrógeno", de: "Muddeln in Stickstoffatmosphäre", nl: "Muddlen in stikstof atmosfeer" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Nitro-muddling involves briefly exposing herbs or delicate fruits to liquid nitrogen vapor or direct contact to flash-freeze them before muddling. This technique shatters cell walls more cleanly than traditional muddling, releasing maximum aromatics while preventing the browning and bitter notes that come from crushing. The frozen state makes ingredients brittle, allowing for more efficient extraction of essential oils without releasing chlorophyll or tannic compounds. Results in brighter, cleaner flavors with enhanced aromatic profile.",
+          es: "El nitro-muddling implica exponer brevemente hierbas o frutas delicadas al vapor de nitrógeno líquido o contacto directo para congelarlas instantáneamente antes de macerar. Esta técnica rompe las paredes celulares más limpiamente que el macerado tradicional, liberando máximos aromáticos mientras previene el dorado y notas amargas que vienen del aplastamiento. El estado congelado hace que los ingredientes sean frágiles, permitiendo extracción más eficiente de aceites esenciales sin liberar clorofila o compuestos tánicos. Resulta en sabores más brillantes y limpios con perfil aromático mejorado.",
+          de: "Nitro-Muddling beinhaltet kurzes Aussetzen von Kräutern oder empfindlichen Früchten an flüssigen Stickstoffdampf oder direkten Kontakt zum Schnellgefrieren vor dem Muddeln. Diese Technik zerbricht Zellwände sauberer als traditionelles Muddeln, setzt maximale Aromen frei während Bräunung und bittere Noten vom Zerdrücken verhindert werden. Der gefrorene Zustand macht Zutaten spröde, ermöglicht effizientere Extraktion ätherischer Öle ohne Freisetzung von Chlorophyll oder Gerbstoffen. Ergibt hellere, sauberere Aromen mit verbessertem aromatischem Profil.",
+          nl: "Nitro-muddlen houdt in dat kruiden of delicate vruchten kort worden blootgesteld aan vloeibare stikstof damp of direct contact om ze flash te bevriezen voor muddlen. Deze techniek verbrijzelt celwanden schoner dan traditioneel muddlen, geeft maximale aromaten vrij terwijl bruining en bittere noten die komen van verplettering worden voorkomen. De bevroren staat maakt ingrediënten bros, wat efficiëntere extractie van essentiële oliën mogelijk maakt zonder chlorofyl of tannine verbindingen vrij te geven. Resulteert in helderdere, schonere smaken met verbeterd aromatisch profiel."
+        }
+      },
+      {
+        question: {
+          en: "What is 'rotary evaporation' (rotovap) in cocktail making?",
+          es: "¿Qué es la 'evaporación rotatoria' (rotovap) en elaboración de cócteles?",
+          de: "Was ist 'Rotationsverdampfung' (Rotovap) in der Cocktail-Herstellung?",
+          nl: "Wat is 'rotatie verdamping' (rotovap) in cocktailbereiding?"
+        },
+        options: [
+          { en: "Low-pressure distillation preserving delicate flavors by evaporating at reduced temperatures", es: "Destilación a baja presión preservando sabores delicados evaporando a temperaturas reducidas", de: "Niederdruck-Destillation, die empfindliche Aromen durch Verdampfung bei reduzierten Temperaturen bewahrt", nl: "Lage-druk distillatie die delicate smaken behoudt door verdamping bij verlaagde temperaturen" },
+          { en: "Spinning drinks for presentation", es: "Girar bebidas para presentación", de: "Getränke drehen für Präsentation", nl: "Drankjes draaien voor presentatie" },
+          { en: "Rotating barrel aging", es: "Envejecimiento en barril giratorio", de: "Rotierende Fassreifung", nl: "Roterend vat rijpen" },
+          { en: "Circular stirring motion", es: "Movimiento de agitación circular", de: "Kreisförmige Rührbewegung", nl: "Circulaire roerbeweging" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Rotary evaporation uses a rotovap machine to distill ingredients under vacuum (reduced pressure), allowing liquids to evaporate at much lower temperatures (25-40°C instead of 78°C+ for alcohol). This gentle process preserves delicate, volatile aromatics that would be destroyed by traditional distillation heat. Bartenders use rotovaps to create clear distillates of ingredients like fresh herbs, fruits, vegetables, or even savory items, capturing their pure essence. The technique produces incredibly aromatic, clear spirits and modifiers impossible to achieve otherwise. Common in molecular gastronomy and high-end cocktail programs.",
+          es: "La evaporación rotatoria usa una máquina rotovap para destilar ingredientes bajo vacío (presión reducida), permitiendo que líquidos se evaporen a temperaturas mucho más bajas (25-40°C en lugar de 78°C+ para alcohol). Este proceso suave preserva aromáticos volátiles delicados que serían destruidos por el calor de destilación tradicional. Los bartenders usan rotovaps para crear destilados claros de ingredientes como hierbas frescas, frutas, verduras o incluso ítems salados, capturando su esencia pura. La técnica produce licores y modificadores increíblemente aromáticos y claros imposibles de lograr de otra manera. Común en gastronomía molecular y programas de cóctel de alta gama.",
+          de: "Rotationsverdampfung verwendet eine Rotovap-Maschine zur Destillation von Zutaten unter Vakuum (reduzierter Druck), ermöglicht Flüssigkeiten bei viel niedrigeren Temperaturen zu verdampfen (25-40°C statt 78°C+ für Alkohol). Dieser sanfte Prozess bewahrt empfindliche, flüchtige Aromen, die durch traditionelle Destillationshitze zerstört würden. Bartender verwenden Rotovaps zur Herstellung klarer Destillate von Zutaten wie frischen Kräutern, Früchten, Gemüse oder sogar herzhaften Produkten, fangen ihre reine Essenz ein. Die Technik produziert unglaublich aromatische, klare Spirituosen und Modifikatoren, die sonst unmöglich zu erreichen sind. Üblich in molekularer Gastronomie und High-End-Cocktail-Programmen.",
+          nl: "Rotatie verdamping gebruikt een rotovap machine om ingrediënten te distilleren onder vacuüm (verlaagde druk), wat vloeistoffen toestaat te verdampen bij veel lagere temperaturen (25-40°C in plaats van 78°C+ voor alcohol). Dit zachte proces behoudt delicate, vluchtige aromaten die vernietigd zouden worden door traditionele distillatie hitte. Bartenders gebruiken rotovaps om heldere distillaten te creëren van ingrediënten zoals verse kruiden, fruit, groenten of zelfs hartige items, vangen hun pure essentie. De techniek produceert ongelooflijk aromatische, heldere spirits en modifiers onmogelijk anders te bereiken. Gebruikelijk in moleculaire gastronomie en high-end cocktail programma's."
+        }
+      },
+      {
+        question: {
+          en: "What is 'smoke tincture' or 'liquid smoke' in cocktails?",
+          es: "¿Qué es la 'tintura de humo' o 'humo líquido' en cócteles?",
+          de: "Was ist 'Rauchtinktur' oder 'flüssiger Rauch' in Cocktails?",
+          nl: "Wat is 'rook tinctuur' of 'vloeibare rook' in cocktails?"
+        },
+        options: [
+          { en: "Capturing wood smoke in alcohol to add smoky flavor without burning or smoldering", es: "Capturar humo de madera en alcohol para añadir sabor ahumado sin quemar o arder", de: "Holzrauch in Alkohol einfangen um rauchigen Geschmack ohne Brennen oder Schwelen hinzuzufügen", nl: "Houtrook opvangen in alcohol om rookachtige smaak toe te voegen zonder branden of smeulen" },
+          { en: "Adding liquid smoke flavoring", es: "Añadir saborizante de humo líquido", de: "Flüssigrauch-Aroma hinzufügen", nl: "Vloeibare rook smaakstof toevoegen" },
+          { en: "Burning sugar for caramel", es: "Quemar azúcar para caramelo", de: "Zucker brennen für Karamell", nl: "Suiker branden voor karamel" },
+          { en: "Using smoky whiskey", es: "Usar whisky ahumado", de: "Rauchigen Whiskey verwenden", nl: "Rokige whiskey gebruiken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Smoke tinctures are created by capturing wood smoke (oak, applewood, hickory, mesquite) in high-proof alcohol using smoking guns or chamber setups. The smoke dissolves into the spirit, creating a concentrated smoky essence that can be added drop-by-drop to cocktails. Unlike commercial liquid smoke (which can be harsh), bartender-made smoke tinctures offer nuanced, natural smoke character. Different woods provide different profiles - applewood gives sweet smoke, hickory is bold, cherry is fruity. Allows precise smoke dosing without overwhelming the drink or requiring tableside smoking theatrics.",
+          es: "Las tinturas de humo se crean capturando humo de madera (roble, manzano, nogal americano, mezquite) en alcohol de alta graduación usando pistolas de humo o configuraciones de cámara. El humo se disuelve en el licor, creando una esencia ahumada concentrada que puede añadirse gota a gota a cócteles. A diferencia del humo líquido comercial (que puede ser áspero), las tinturas de humo hechas por bartenders ofrecen carácter de humo natural y matizado. Diferentes maderas proporcionan diferentes perfiles - manzano da humo dulce, nogal americano es audaz, cerezo es afrutado. Permite dosificación precisa de humo sin abrumar la bebida o requerir teatralidad de ahumado en mesa.",
+          de: "Rauchtinkturen werden erstellt durch Einfangen von Holzrauch (Eiche, Apfelholz, Hickory, Mesquite) in hochprozentigem Alkohol mit Rauchpistolen oder Kammer-Setups. Der Rauch löst sich in der Spirituose auf und erzeugt eine konzentrierte rauchige Essenz, die tropfenweise zu Cocktails hinzugefügt werden kann. Im Gegensatz zu kommerziellem flüssigen Rauch (der harsch sein kann) bieten von Bartendern gemachte Rauchtinkturen nuancierten, natürlichen Rauchcharakter. Verschiedene Hölzer liefern verschiedene Profile - Apfelholz gibt süßen Rauch, Hickory ist kräftig, Kirsche ist fruchtig. Ermöglicht präzise Rauchdosierung ohne das Getränk zu überwältigen oder Tisch-Rauch-Theatralik zu erfordern.",
+          nl: "Rook tincturen worden gecreëerd door houtrook (eik, appelhout, hickory, mesquite) op te vangen in hoogprocentig alcohol met behulp van rook pistolen of kamer opstellingen. De rook lost op in de spirit, creëert een geconcentreerde rookachtige essentie die druppel voor druppel kan worden toegevoegd aan cocktails. In tegenstelling tot commerciële vloeibare rook (die hard kan zijn), bieden door bartenders gemaakte rook tincturen genuanceerd, natuurlijk rook karakter. Verschillende houtsoorten bieden verschillende profielen - appelhout geeft zoete rook, hickory is gedurfd, kers is fruitig. Staat precieze rook dosering toe zonder de drank te overweldigen of tafel rook theatraliteit te vereisen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'verjus' and how is it used in cocktails?",
+          es: "¿Qué es el 'verjus' y cómo se usa en cócteles?",
+          de: "Was ist 'Verjus' und wie wird es in Cocktails verwendet?",
+          nl: "Wat is 'verjus' en hoe wordt het gebruikt in cocktails?"
+        },
+        options: [
+          { en: "Unripe grape juice providing acidity without citrus; wine-like complexity for sophisticated cocktails", es: "Jugo de uva verde proporcionando acidez sin cítricos; complejidad similar al vino para cócteles sofisticados", de: "Unreifer Traubensaft, der Säure ohne Zitrus liefert; weinähnliche Komplexität für anspruchsvolle Cocktails", nl: "Onrijp druivensap dat zuurgraad biedt zonder citrus; wijnachtige complexiteit voor verfijnde cocktails" },
+          { en: "Herbal liqueur from France", es: "Licor de hierbas de Francia", de: "Kräuterlikör aus Frankreich", nl: "Kruiden likeur uit Frankrijk" },
+          { en: "Type of vermouth", es: "Tipo de vermut", de: "Art von Wermut", nl: "Soort vermouth" },
+          { en: "Green vegetable juice", es: "Jugo de vegetales verdes", de: "Grüner Gemüsesaft", nl: "Groen groentesap" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Verjus (French for 'green juice') is the pressed juice of unripe grapes, traditionally used in cooking. In cocktails, it provides gentle acidity (milder than citrus) with subtle fruity, wine-like complexity and minerality. Unlike lemon/lime, verjus doesn't dominate but adds nuanced brightness and balances sweetness elegantly. It's particularly useful in spirit-forward or wine-based cocktails where citrus would clash. White verjus is delicate and floral, red verjus has more tannin and depth. Allows bartenders to add acidity while maintaining sophistication.",
+          es: "El verjus (francés para 'jugo verde') es el jugo prensado de uvas verdes, tradicionalmente usado en cocina. En cócteles, proporciona acidez suave (más suave que cítricos) con sutil complejidad afrutada similar al vino y mineralidad. A diferencia del limón/lima, el verjus no domina sino que añade brillo matizado y equilibra la dulzura elegantemente. Es particularmente útil en cócteles con predominio de licor o basados en vino donde los cítricos chocarían. El verjus blanco es delicado y floral, el verjus rojo tiene más tanino y profundidad. Permite a los bartenders añadir acidez mientras mantienen sofisticación.",
+          de: "Verjus (Französisch für 'grüner Saft') ist der gepresste Saft unreifer Trauben, traditionell in der Küche verwendet. In Cocktails liefert es sanfte Säure (milder als Zitrus) mit subtiler fruchtiger, weinähnlicher Komplexität und Mineralität. Im Gegensatz zu Zitrone/Limette dominiert Verjus nicht, sondern fügt nuancierte Helligkeit hinzu und balanciert Süße elegant. Es ist besonders nützlich in spirituosenbetonten oder weinbasierten Cocktails, wo Zitrus kollidieren würde. Weißer Verjus ist delikat und blumig, roter Verjus hat mehr Tannin und Tiefe. Ermöglicht Bartendern Säure hinzuzufügen während Raffinesse erhalten bleibt.",
+          nl: "Verjus (Frans voor 'groen sap') is het geperste sap van onrijpe druiven, traditioneel gebruikt in koken. In cocktails biedt het zachte zuurgraad (milder dan citrus) met subtiele fruitige, wijnachtige complexiteit en mineraliteit. In tegenstelling tot citroen/limoen domineert verjus niet maar voegt genuanceerde helderheid toe en balanceert zoetheid elegant. Het is bijzonder nuttig in spirit-forward of wijn-gebaseerde cocktails waar citrus zou botsen. Witte verjus is delicaat en bloemig, rode verjus heeft meer tannine en diepte. Stelt bartenders in staat zuurgraad toe te voegen terwijl verfijning behouden blijft."
+        }
+      },
+      {
+        question: {
+          en: "What is 'saline solution' usage in cocktails?",
+          es: "¿Qué es el uso de 'solución salina' en cócteles?",
+          de: "Was ist die Verwendung von 'Salzlösung' in Cocktails?",
+          nl: "Wat is het gebruik van 'zoutoplossing' in cocktails?"
+        },
+        options: [
+          { en: "20% salt solution added in drops to enhance flavors, suppress bitterness, and add mouthfeel", es: "Solución salina al 20% añadida en gotas para realzar sabores, suprimir amargura y añadir sensación en boca", de: "20% Salzlösung in Tropfen hinzugefügt um Aromen zu verstärken, Bitterkeit zu unterdrücken und Mundgefühl hinzuzufügen", nl: "20% zoutoplossing in druppels toegevoegd om smaken te versterken, bitterheid te onderdrukken en mondgevoel toe te voegen" },
+          { en: "Medical saline for hydration", es: "Salina médica para hidratación", de: "Medizinische Kochsalzlösung zur Hydratation", nl: "Medische zoutoplossing voor hydratatie" },
+          { en: "Saltwater rim for margaritas", es: "Borde de agua salada para margaritas", de: "Salzwasserrand für Margaritas", nl: "Zoutwater rand voor margaritas" },
+          { en: "Ocean water flavoring", es: "Saborizante de agua de mar", de: "Meerwasser-Aroma", nl: "Oceaanwater smaakstof" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Saline solution (typically 20% salt by weight in water) is used in tiny quantities (2-4 drops per cocktail) to enhance flavor perception through multiple mechanisms. Salt suppresses bitterness, enhances sweetness perception, amplifies aromatics, and adds body/mouthfeel. It acts like seasoning in cooking - imperceptible as 'salty' but making other flavors pop. Particularly effective in citrus-forward and bitter cocktails (Margaritas, Daiquiris, Negronis). Professional bartenders keep saline in dropper bottles for precise dosing. Transforms drinks subtly but significantly.",
+          es: "La solución salina (típicamente 20% sal por peso en agua) se usa en cantidades diminutas (2-4 gotas por cóctel) para realzar la percepción del sabor a través de múltiples mecanismos. La sal suprime amargura, mejora percepción de dulzura, amplifica aromáticos y añade cuerpo/sensación en boca. Actúa como condimento en cocina - imperceptible como 'salado' pero haciendo que otros sabores resalten. Particularmente efectivo en cócteles con predominio de cítricos y amargos (Margaritas, Daiquiris, Negronis). Los bartenders profesionales mantienen salina en botellas goteras para dosificación precisa. Transforma bebidas sutilmente pero significativamente.",
+          de: "Salzlösung (typisch 20% Salz nach Gewicht in Wasser) wird in winzigen Mengen (2-4 Tropfen pro Cocktail) verwendet um Geschmackswahrnehmung durch mehrere Mechanismen zu verbessern. Salz unterdrückt Bitterkeit, verstärkt Süßewahrnehmung, amplifiziert Aromen und fügt Körper/Mundgefühl hinzu. Es wirkt wie Würze beim Kochen - nicht wahrnehmbar als 'salzig' aber lässt andere Aromen hervorstechen. Besonders effektiv in zitrusbetonten und bitteren Cocktails (Margaritas, Daiquiris, Negronis). Professionelle Bartender halten Salzlösung in Tropfflaschen für präzise Dosierung. Transformiert Getränke subtil aber signifikant.",
+          nl: "Zoutoplossing (typisch 20% zout op gewicht in water) wordt gebruikt in kleine hoeveelheden (2-4 druppels per cocktail) om smaakperceptie te verbeteren door meerdere mechanismen. Zout onderdrukt bitterheid, verbetert zoetheid perceptie, versterkt aromaten en voegt body/mondgevoel toe. Het werkt als kruiden in koken - niet waarneembaar als 'zout' maar laat andere smaken opvallen. Bijzonder effectief in citrus-forward en bittere cocktails (Margaritas, Daiquiris, Negronis). Professionele bartenders bewaren zoutoplossing in druppelflesjes voor precieze dosering. Transformeert drankjes subtiel maar significant."
+        }
+      },
+      {
+        question: {
+          en: "What is 'umami solution' or 'fifth taste' in cocktails?",
+          es: "¿Qué es la 'solución umami' o 'quinto sabor' en cócteles?",
+          de: "Was ist 'Umami-Lösung' oder 'fünfter Geschmack' in Cocktails?",
+          nl: "Wat is 'umami oplossing' of 'vijfde smaak' in cocktails?"
+        },
+        options: [
+          { en: "Savory depth from glutamates (miso, soy, seaweed, mushroom) adding complexity to cocktails", es: "Profundidad salada de glutamatos (miso, soja, algas, hongos) añadiendo complejidad a cócteles", de: "Herzhafte Tiefe aus Glutamaten (Miso, Soja, Seetang, Pilze) fügt Komplexität zu Cocktails hinzu", nl: "Hartige diepte van glutamaten (miso, soja, zeewier, paddenstoel) voegt complexiteit toe aan cocktails" },
+          { en: "Fifth ingredient added", es: "Quinto ingrediente añadido", de: "Fünfte zugesetzte Zutat", nl: "Vijfde toegevoegde ingrediënt" },
+          { en: "Asian spice blend", es: "Mezcla de especias asiáticas", de: "Asiatische Gewürzmischung", nl: "Aziatische specerijen mengsel" },
+          { en: "Monosodium glutamate powder", es: "Polvo de glutamato monosódico", de: "Mononatriumglutamat-Pulver", nl: "Mononatriumglutamaat poeder" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Umami (Japanese for 'pleasant savory taste') refers to the fifth taste alongside sweet, sour, bitter, and salty. In cocktails, umami adds savory depth and complexity through glutamate-rich ingredients like miso paste, soy sauce, shiitake mushroom, kombu seaweed, or parmesan. These are typically made into tinctures or syrups for cocktail use. Umami enhances mouthfeel, adds unexpected complexity, and creates savory-sweet balance in drinks like Bloody Marys or modern Martini variations. The technique bridges cocktails and gastronomy, appealing to adventurous drinkers.",
+          es: "Umami (japonés para 'sabor salado agradable') se refiere al quinto sabor junto con dulce, ácido, amargo y salado. En cócteles, umami añade profundidad salada y complejidad a través de ingredientes ricos en glutamato como pasta de miso, salsa de soja, hongo shiitake, alga kombu o parmesano. Estos típicamente se hacen en tinturas o jarabes para uso en cócteles. Umami mejora sensación en boca, añade complejidad inesperada y crea equilibrio salado-dulce en bebidas como Bloody Marys o variaciones modernas de Martini. La técnica une cócteles y gastronomía, atrayendo a bebedores aventureros.",
+          de: "Umami (Japanisch für 'angenehmer herzhafter Geschmack') bezieht sich auf den fünften Geschmack neben süß, sauer, bitter und salzig. In Cocktails fügt Umami herzhafte Tiefe und Komplexität durch glutamatreiche Zutaten wie Miso-Paste, Sojasauce, Shiitake-Pilze, Kombu-Seetang oder Parmesan hinzu. Diese werden typischerweise zu Tinkturen oder Sirupen für Cocktail-Verwendung verarbeitet. Umami verbessert Mundgefühl, fügt unerwartete Komplexität hinzu und schafft herzhafte-süße Balance in Getränken wie Bloody Marys oder modernen Martini-Variationen. Die Technik verbindet Cocktails und Gastronomie, spricht abenteuerlustige Trinker an.",
+          nl: "Umami (Japans voor 'aangename hartige smaak') verwijst naar de vijfde smaak naast zoet, zuur, bitter en zout. In cocktails voegt umami hartige diepte en complexiteit toe door glutamaatrijke ingrediënten zoals miso pasta, sojasaus, shiitake paddenstoel, kombu zeewier of parmezaan. Deze worden typisch gemaakt tot tincturen of siropen voor cocktail gebruik. Umami verbetert mondgevoel, voegt onverwachte complexiteit toe en creëert hartig-zoet balans in drankjes zoals Bloody Marys of moderne Martini variaties. De techniek verbindt cocktails en gastronomie, spreekt avontuurlijke drinkers aan."
+        }
+      },
+      {
+        question: {
+          en: "What is 'acid phosphate' in classic cocktails?",
+          es: "¿Qué es el 'fosfato ácido' en cócteles clásicos?",
+          de: "Was ist 'Säurephosphat' in klassischen Cocktails?",
+          nl: "Wat is 'zuur fosfaat' in klassieke cocktails?"
+        },
+        options: [
+          { en: "Phosphoric acid solution adding clean tartness and minerality to sodas and cocktails", es: "Solución de ácido fosfórico añadiendo acidez limpia y mineralidad a sodas y cócteles", de: "Phosphorsäurelösung, die saubere Säure und Mineralität zu Sodas und Cocktails hinzufügt", nl: "Fosforzuur oplossing die schone zuurheid en mineraliteit toevoegt aan frisdranken en cocktails" },
+          { en: "A type of bitters", es: "Un tipo de amargos", de: "Eine Art Bitter", nl: "Een soort bitters" },
+          { en: "Carbonation additive", es: "Aditivo de carbonatación", de: "Kohlensäurezusatz", nl: "Koolzuur additief" },
+          { en: "Citrus concentrate", es: "Concentrado de cítricos", de: "Zitruskonzentrat", nl: "Citrus concentraat" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Acid phosphate is a dilute solution of phosphoric acid (10-15%) historically used in soda fountains and classic cocktails. It provides clean, mineral acidity different from citrus - sharper and less fruity. Originally marketed as digestive aid, it became essential in drinks like phosphates (soda + acid phosphate + flavor syrup). Modern craft bartenders revived it for adding acidity without citrus flavor, useful when citrus would clash or for creating period-accurate classic cocktails. Brands like Bartender's or Embitters produce modern versions.",
+          es: "El fosfato ácido es una solución diluida de ácido fosfórico (10-15%) históricamente usada en fuentes de soda y cócteles clásicos. Proporciona acidez mineral limpia diferente de cítricos - más aguda y menos afrutada. Originalmente comercializado como ayuda digestiva, se volvió esencial en bebidas como fosfatos (soda + fosfato ácido + jarabe de sabor). Los bartenders artesanales modernos lo revivieron para añadir acidez sin sabor cítrico, útil cuando los cítricos chocarían o para crear cócteles clásicos precisos del período. Marcas como Bartender's o Embitters producen versiones modernas.",
+          de: "Säurephosphat ist eine verdünnte Lösung von Phosphorsäure (10-15%), historisch verwendet in Sodabrunnen und klassischen Cocktails. Es liefert saubere, minerale Säure anders als Zitrus - schärfer und weniger fruchtig. Ursprünglich als Verdauungshilfe vermarktet, wurde es essentiell in Getränken wie Phosphaten (Soda + Säurephosphat + Aromasirup). Moderne Craft-Bartender belebten es wieder, um Säure ohne Zitrusgeschmack hinzuzufügen, nützlich wenn Zitrus kollidieren würde oder für periode-genaue klassische Cocktails. Marken wie Bartender's oder Embitters produzieren moderne Versionen.",
+          nl: "Zuur fosfaat is een verdunde oplossing van fosforzuur (10-15%) historisch gebruikt in frisdrankfonteinen en klassieke cocktails. Het biedt schone, minerale zuurgraad anders dan citrus - scherper en minder fruitig. Oorspronkelijk op de markt gebracht als spijsverteringshulp, werd het essentieel in drankjes zoals fosfaten (frisdrank + zuur fosfaat + smaak siroop). Moderne craft bartenders brachten het terug om zuurgraad toe te voegen zonder citrus smaak, nuttig wanneer citrus zou botsen of voor het creëren van periode-nauwkeurige klassieke cocktails. Merken zoals Bartender's of Embitters produceren moderne versies."
+        }
+      },
+      {
+        question: {
+          en: "What is 'whey washing' spirits?",
+          es: "¿Qué es el 'lavado con suero' de licores?",
+          de: "Was ist 'Molke-Washing' von Spirituosen?",
+          nl: "Wat is 'wei wassen' van spirits?"
+        },
+        options: [
+          { en: "Using milk whey to clarify and soften spirits through protein coagulation, similar to milk punch but with different texture", es: "Usar suero de leche para clarificar y suavizar licores a través de coagulación de proteínas, similar al milk punch pero con textura diferente", de: "Molke verwenden um Spirituosen durch Proteinkoagulation zu klären und zu mildern, ähnlich wie Milk Punch aber mit anderer Textur", nl: "Wei gebruiken om spirits te verhelderen en verzachten door eiwit coagulatie, vergelijkbaar met milk punch maar met andere textuur" },
+          { en: "Washing glassware with whey", es: "Lavar cristalería con suero", de: "Glaswaren mit Molke waschen", nl: "Glaswerk wassen met wei" },
+          { en: "Adding whey protein powder", es: "Añadir polvo de proteína de suero", de: "Molkeproteinpulver hinzufügen", nl: "Wei eiwit poeder toevoegen" },
+          { en: "Cheese-flavored cocktails", es: "Cócteles con sabor a queso", de: "Käsegeschmackartige Cocktails", nl: "Kaas-gesmaakt cocktails" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Whey washing involves adding liquid whey (the liquid byproduct from cheese/yogurt making) to spirits, causing proteins to coagulate and trap harsh compounds, then straining. Similar to milk punch clarification but whey contains less fat and casein, producing a lighter, silkier texture with subtle lactic tanginess. The process mellows harsh spirits, removes unwanted flavors, and adds complexity. Used for clarifying and softening aged spirits or creating unique flavor profiles. The technique has roots in historical punch-making and was popularized by modern bartenders experimenting with dairy clarification variations.",
+          es: "El lavado con suero implica añadir suero líquido (el subproducto líquido de hacer queso/yogur) a licores, causando que las proteínas coagulen y atrapen compuestos ásperos, luego colar. Similar a clarificación con milk punch pero el suero contiene menos grasa y caseína, produciendo textura más ligera y sedosa con acidez láctica sutil. El proceso suaviza licores ásperos, elimina sabores no deseados y añade complejidad. Usado para clarificar y suavizar licores añejados o crear perfiles de sabor únicos. La técnica tiene raíces en elaboración histórica de punch y fue popularizada por bartenders modernos experimentando con variaciones de clarificación láctea.",
+          de: "Molke-Washing beinhaltet Zugabe flüssiger Molke (flüssiges Nebenprodukt aus Käse-/Joghurtherstellung) zu Spirituosen, verursacht Proteinkoagulation und fängt harte Verbindungen ein, dann abseihen. Ähnlich wie Milk Punch Klärung aber Molke enthält weniger Fett und Kasein, produziert leichtere, seidigere Textur mit subtiler Milchsäure-Säure. Der Prozess mildert harte Spirituosen, entfernt unerwünschte Aromen und fügt Komplexität hinzu. Verwendet zur Klärung und Milderung gereifter Spirituosen oder Schaffung einzigartiger Geschmacksprofile. Die Technik hat Wurzeln in historischer Punch-Herstellung und wurde von modernen Bartendern popularisiert, die mit Milchklärungsvariationen experimentieren.",
+          nl: "Wei wassen houdt in dat vloeibare wei (het vloeibare bijproduct van kaas/yoghurt maken) aan spirits wordt toegevoegd, wat eiwitten laat coaguleren en harde verbindingen opvangt, dan zeven. Vergelijkbaar met milk punch verheldering maar wei bevat minder vet en caseïne, produceert lichtere, zijdezachtere textuur met subtiele melkzuur zuurgraad. Het proces verzacht harde spirits, verwijdert ongewenste smaken en voegt complexiteit toe. Gebruikt voor verhelderen en verzachten van gerijpte spirits of creëren van unieke smaakprofielen. De techniek heeft wortels in historische punch-bereiding en werd gepopulariseerd door moderne bartenders die experimenteren met zuivel verheldering variaties."
+        }
+      },
+      {
+        question: {
+          en: "What is 'gellan gum' usage in molecular cocktails?",
+          es: "¿Qué es el uso de 'goma gellan' en cócteles moleculares?",
+          de: "Was ist die Verwendung von 'Gellan-Gummi' in molekularen Cocktails?",
+          nl: "Wat is het gebruik van 'gellan gom' in moleculaire cocktails?"
+        },
+        options: [
+          { en: "Gelling agent creating fluid gels, suspended garnishes, or caviar spheres with clean flavor release", es: "Agente gelificante creando geles fluidos, guarniciones suspendidas o esferas de caviar con liberación de sabor limpia", de: "Geliermittel, das Flüssiggele, suspendierte Garnituren oder Kaviar-Kugeln mit sauberer Aromafreisetzung erzeugt", nl: "Geleringsmiddel dat vloeibare gels, gesuspendeerde garneringen of kaviaar bollen creëert met schone smaak afgifte" },
+          { en: "Chewing gum flavoring", es: "Saborizante de chicle", de: "Kaugummiaroma", nl: "Kauwgom smaakstof" },
+          { en: "Thickening syrup only", es: "Solo espesante de jarabe", de: "Nur Sirupverdickungsmittel", nl: "Alleen siroop verdikkingsmiddel" },
+          { en: "Natural sweetener", es: "Edulcorante natural", de: "Natürlicher Süßstoff", nl: "Natuurlijke zoetstof" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gellan gum is a polysaccharide gelling agent used in molecular mixology to create unique textures. At low concentrations (0.1-0.3%), it makes 'fluid gels' - semi-solid textures that flow but maintain structure. At higher concentrations (0.5-1%), it creates firm gels. Unlike gelatin, gellan sets at room temperature and is heat-stable. Applications: suspended fruit/herb garnishes, cocktail caviar/pearls (reverse spherification), layered gel shooters, or gelled foams. Sets with calcium or hot liquid. Provides clean flavor release without masking taste, making it ideal for showcasing ingredients in innovative presentations.",
+          es: "La goma gellan es un agente gelificante de polisacárido usado en mixología molecular para crear texturas únicas. A bajas concentraciones (0.1-0.3%), hace 'geles fluidos' - texturas semi-sólidas que fluyen pero mantienen estructura. A concentraciones más altas (0.5-1%), crea geles firmes. A diferencia de la gelatina, gellan se solidifica a temperatura ambiente y es estable al calor. Aplicaciones: guarniciones de frutas/hierbas suspendidas, caviar/perlas de cóctel (esferificación inversa), shooters de gel en capas o espumas gelificadas. Se solidifica con calcio o líquido caliente. Proporciona liberación de sabor limpia sin enmascarar gusto, haciéndolo ideal para mostrar ingredientes en presentaciones innovadoras.",
+          de: "Gellan-Gummi ist ein Polysaccharid-Geliermittel, das in molekularer Mixologie zur Schaffung einzigartiger Texturen verwendet wird. Bei niedrigen Konzentrationen (0,1-0,3%) macht es 'Flüssiggele' - halbfeste Texturen, die fließen aber Struktur beibehalten. Bei höheren Konzentrationen (0,5-1%) erzeugt es feste Gele. Anders als Gelatine setzt Gellan bei Raumtemperatur und ist hitzestabil. Anwendungen: suspendierte Frucht-/Kräuter-Garnituren, Cocktail-Kaviar/Perlen (umgekehrte Sphärifizierung), geschichtete Gel-Shooter oder gelierte Schäume. Setzt mit Kalzium oder heißer Flüssigkeit. Bietet saubere Aromafreisetzung ohne Geschmacksmaskierung, ideal zum Präsentieren von Zutaten in innovativen Präsentationen.",
+          nl: "Gellan gom is een polysacharide geleringsmiddel gebruikt in moleculaire mixologie om unieke texturen te creëren. Bij lage concentraties (0,1-0,3%) maakt het 'vloeibare gels' - semi-vaste texturen die stromen maar structuur behouden. Bij hogere concentraties (0,5-1%) creëert het stevige gels. In tegenstelling tot gelatine stolt gellan bij kamertemperatuur en is hittebestendig. Toepassingen: gesuspendeerde fruit/kruiden garneringen, cocktail kaviaar/parels (omgekeerde spherificatie), gelaagde gel shots of gegelde schuimen. Stolt met calcium of hete vloeistof. Biedt schone smaak afgifte zonder smaak maskering, ideaal voor het showcasen van ingrediënten in innovatieve presentaties."
+        }
+      },
+      {
+        question: {
+          en: "What is 'barrel aging cocktails' and key considerations?",
+          es: "¿Qué es el 'envejecimiento en barril de cócteles' y consideraciones clave?",
+          de: "Was ist 'Fassreifung von Cocktails' und wichtige Überlegungen?",
+          nl: "Wat is 'vat rijpen van cocktails' en belangrijke overwegingen?"
+        },
+        options: [
+          { en: "Aging pre-batched cocktails in oak barrels to add tannins, vanilla, oxidation, and wood complexity; requires spirit-forward recipes", es: "Envejecer cócteles pre-loteados en barriles de roble para añadir taninos, vainilla, oxidación y complejidad de madera; requiere recetas con predominio de licor", de: "Vorgefertigte Cocktails in Eichenfässern reifen um Tannine, Vanille, Oxidation und Holzkomplexität hinzuzufügen; erfordert spirituosenbetonte Rezepte", nl: "Vooraf gemengde cocktails rijpen in eiken vaten om tannines, vanille, oxidatie en houtcomplexiteit toe te voegen; vereist spirit-forward recepten" },
+          { en: "Storing cocktails in any container", es: "Almacenar cócteles en cualquier contenedor", de: "Cocktails in jedem Behälter lagern", nl: "Cocktails opslaan in elk container" },
+          { en: "Using barrel-aged spirits only", es: "Usar solo licores envejecidos en barril", de: "Nur fassgereifte Spirituosen verwenden", nl: "Alleen vat-gerijpte spirits gebruiken" },
+          { en: "Decorating with barrel staves", es: "Decorar con duelas de barril", de: "Mit Fassdauben dekorieren", nl: "Decoreren met vat duigen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Barrel aging cocktails involves storing batched, spirit-forward cocktails (Negronis, Manhattans, Old Fashioneds) in small oak barrels (1-20L) for weeks to months. The process imparts: wood tannins, vanilla/caramel notes from oak, slight oxidation (mellowing), integration of flavors, and color deepening. Key considerations: only use high-proof, spirit-forward recipes (citrus/dairy spoil); smaller barrels = faster aging; toast level affects flavor; rotation ensures even contact; monitor taste weekly; dilution increases 10-20%. Results in smoother, more complex cocktails with wine-like characteristics. Popular in craft cocktail programs.",
+          es: "El envejecimiento en barril de cócteles implica almacenar cócteles loteados con predominio de licor (Negronis, Manhattans, Old Fashioneds) en barriles de roble pequeños (1-20L) durante semanas a meses. El proceso imparte: taninos de madera, notas de vainilla/caramelo del roble, ligera oxidación (suavizado), integración de sabores y profundización de color. Consideraciones clave: solo usar recetas de alta graduación con predominio de licor (cítricos/lácteos se echan a perder); barriles más pequeños = envejecimiento más rápido; nivel de tostado afecta sabor; rotación asegura contacto uniforme; monitorear sabor semanalmente; dilución aumenta 10-20%. Resulta en cócteles más suaves y complejos con características similares al vino. Popular en programas de cóctel artesanal.",
+          de: "Fassreifung von Cocktails beinhaltet Lagerung vorgefertigter, spirituosenbetonter Cocktails (Negronis, Manhattans, Old Fashioneds) in kleinen Eichenfässern (1-20L) für Wochen bis Monate. Der Prozess verleiht: Holztannine, Vanille-/Karamellnoten aus Eiche, leichte Oxidation (Milderung), Geschmacksintegration und Farbvertiefung. Wichtige Überlegungen: nur hochprozentige, spirituosenbetonte Rezepte verwenden (Zitrus/Milchprodukte verderben); kleinere Fässer = schnellere Reifung; Röstgrad beeinflusst Geschmack; Rotation gewährleistet gleichmäßigen Kontakt; Geschmack wöchentlich überwachen; Verdünnung steigt 10-20%. Ergibt glattere, komplexere Cocktails mit weinähnlichen Eigenschaften. Beliebt in Craft-Cocktail-Programmen.",
+          nl: "Vat rijpen van cocktails houdt in dat vooraf gemengde, spirit-forward cocktails (Negronis, Manhattans, Old Fashioneds) worden opgeslagen in kleine eiken vaten (1-20L) gedurende weken tot maanden. Het proces geeft: hout tannines, vanille/karamel tonen van eik, lichte oxidatie (verzachting), integratie van smaken en kleurverdieping. Belangrijke overwegingen: alleen hoogprocentige, spirit-forward recepten gebruiken (citrus/zuivel bederften); kleinere vaten = sneller rijpen; rooster niveau beïnvloedt smaak; rotatie verzekert gelijkmatig contact; smaak wekelijks monitoren; verdunning neemt 10-20% toe. Resulteert in gladdere, complexere cocktails met wijnachtige kenmerken. Populair in craft cocktail programma's."
+        }
+      },
+      {
+        question: {
+          en: "What is 'ice program' in professional bartending?",
+          es: "¿Qué es el 'programa de hielo' en bartending profesional?",
+          de: "Was ist das 'Eis-Programm' im professionellen Bartending?",
+          nl: "Wat is 'ijs programma' in professioneel bartending?"
+        },
+        options: [
+          { en: "Strategic ice management: clear vs. cloudy, size/shape for dilution control, directional freezing, hand-carved vs. molded", es: "Gestión estratégica de hielo: claro vs. turbio, tamaño/forma para control de dilución, congelación direccional, tallado a mano vs. moldeado", de: "Strategisches Eis-Management: klar vs. trüb, Größe/Form für Verdünnungskontrolle, gerichtetes Gefrieren, handgeschnitzt vs. geformt", nl: "Strategisch ijs beheer: helder vs. troebel, grootte/vorm voor verdunningscontrole, directioneel bevriezen, handgesneden vs. gevormd" },
+          { en: "Ice delivery schedule", es: "Horario de entrega de hielo", de: "Eis-Lieferplan", nl: "IJs leverschema" },
+          { en: "Computer program for ice making", es: "Programa informático para hacer hielo", de: "Computerprogramm für Eisherstellung", nl: "Computer programma voor ijsmaken" },
+          { en: "Training on ice handling only", es: "Entrenamiento solo en manejo de hielo", de: "Training nur zur Eisbehandlung", nl: "Training alleen over ijs hantering" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "An ice program is comprehensive ice strategy in professional bars covering: 1) Clarity - directional freezing or filtered water for clear ice vs. cloudy for specific uses, 2) Size/shape - large cubes (slow dilution), pebble ice (fast chill/dilution), spears (highballs), spheres (rocks drinks), 3) Production - hand-carving from blocks, silicone molds, specialized machines, 4) Storage - separate wells for different ice types, 5) Application - matching ice to cocktail style. High-end bars may have dedicated ice programs with custom molds, tempering protocols, and trained ice carvers. Ice is considered as important as any other ingredient.",
+          es: "Un programa de hielo es estrategia integral de hielo en bares profesionales cubriendo: 1) Claridad - congelación direccional o agua filtrada para hielo claro vs. turbio para usos específicos, 2) Tamaño/forma - cubos grandes (dilución lenta), hielo perlado (enfriamiento/dilución rápidos), lanzas (highballs), esferas (bebidas on the rocks), 3) Producción - tallado a mano de bloques, moldes de silicona, máquinas especializadas, 4) Almacenamiento - pozos separados para diferentes tipos de hielo, 5) Aplicación - emparejar hielo con estilo de cóctel. Bares de alta gama pueden tener programas de hielo dedicados con moldes personalizados, protocolos de templado y talladores de hielo entrenados. El hielo se considera tan importante como cualquier otro ingrediente.",
+          de: "Ein Eis-Programm ist umfassende Eis-Strategie in professionellen Bars umfassend: 1) Klarheit - gerichtetes Gefrieren oder gefiltertes Wasser für klares Eis vs. trüb für spezifische Verwendungen, 2) Größe/Form - große Würfel (langsame Verdünnung), Kieseleis (schnelle Kühlung/Verdünnung), Speere (Highballs), Kugeln (Rocks-Getränke), 3) Produktion - Handschnitzen aus Blöcken, Silikonformen, spezialisierte Maschinen, 4) Lagerung - separate Behälter für verschiedene Eistypen, 5) Anwendung - Eis an Cocktail-Stil anpassen. High-End-Bars können dedizierte Eis-Programme mit maßgeschneiderten Formen, Temperierprotokollen und trainierten Eisschnitzern haben. Eis wird als genauso wichtig wie jede andere Zutat betrachtet.",
+          nl: "Een ijs programma is uitgebreide ijs strategie in professionele bars omvattend: 1) Helderheid - directioneel bevriezen of gefilterd water voor helder ijs vs. troebel voor specifieke toepassingen, 2) Grootte/vorm - grote blokjes (trage verdunning), kiezel ijs (snelle koeling/verdunning), speren (highballs), bollen (rocks drankjes), 3) Productie - handgesneden uit blokken, siliconen vormen, gespecialiseerde machines, 4) Opslag - aparte bakken voor verschillende ijs types, 5) Toepassing - ijs matchen aan cocktail stijl. High-end bars kunnen toegewijde ijs programma's hebben met aangepaste vormen, tempering protocollen en getrainde ijs snijders. IJs wordt beschouwd als even belangrijk als elk ander ingrediënt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'tea washing' or 'tea infusion' for spirits?",
+          es: "¿Qué es el 'lavado con té' o 'infusión de té' para licores?",
+          de: "Was ist 'Tee-Washing' oder 'Tee-Infusion' für Spirituosen?",
+          nl: "Wat is 'thee wassen' of 'thee infusie' voor spirits?"
+        },
+        options: [
+          { en: "Infusing spirits with tea (cold brew or rapid sous vide) to add tannins, aromatics, and complexity", es: "Infundir licores con té (cold brew o sous vide rápido) para añadir taninos, aromáticos y complejidad", de: "Spirituosen mit Tee infundieren (Kaltaufguss oder schnelles Sous Vide) um Tannine, Aromen und Komplexität hinzuzufügen", nl: "Spirits infuseren met thee (koude extractie of snelle sous vide) om tannines, aromaten en complexiteit toe te voegen" },
+          { en: "Cleaning spirits of impurities", es: "Limpiar licores de impurezas", de: "Spirituosen von Verunreinigungen reinigen", nl: "Spirits reinigen van onzuiverheden" },
+          { en: "Making tea cocktails only", es: "Hacer solo cócteles de té", de: "Nur Tee-Cocktails machen", nl: "Alleen thee cocktails maken" },
+          { en: "Using tea as garnish", es: "Usar té como guarnición", de: "Tee als Garnitur verwenden", nl: "Thee gebruiken als garnering" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tea washing/infusion involves steeping tea leaves in spirits to extract flavors, tannins, and aromatics. Methods: 1) Cold infusion (24-48 hours room temp) for delicate teas (white, green), 2) Rapid sous vide (1-2 hours at 55-60°C) for faster extraction, 3) Traditional hot steep then cool. Different teas provide different profiles - green tea adds grassy notes, black tea gives tannins and depth, oolong offers floral complexity, smoky teas (lapsang souchong) add campfire notes. Particularly effective with neutral spirits (vodka, white rum) or complementary base spirits (gin + earl grey). Strain thoroughly to prevent bitterness.",
+          es: "El lavado/infusión con té implica remojar hojas de té en licores para extraer sabores, taninos y aromáticos. Métodos: 1) Infusión fría (24-48 horas temp ambiente) para tés delicados (blanco, verde), 2) Sous vide rápido (1-2 horas a 55-60°C) para extracción más rápida, 3) Remojo caliente tradicional luego enfriar. Diferentes tés proporcionan diferentes perfiles - té verde añade notas herbáceas, té negro da taninos y profundidad, oolong ofrece complejidad floral, tés ahumados (lapsang souchong) añaden notas de fogata. Particularmente efectivo con licores neutrales (vodka, ron blanco) o licores base complementarios (gin + earl grey). Colar completamente para prevenir amargura.",
+          de: "Tee-Washing/Infusion beinhaltet Ziehenlassen von Teeblättern in Spirituosen zur Extraktion von Aromen, Tanninen und Aromen. Methoden: 1) Kaltinfusion (24-48 Stunden Raumtemperatur) für zarte Tees (weiß, grün), 2) Schnelles Sous Vide (1-2 Stunden bei 55-60°C) für schnellere Extraktion, 3) Traditionelles heißes Ziehen dann abkühlen. Verschiedene Tees liefern verschiedene Profile - grüner Tee fügt grasige Noten hinzu, schwarzer Tee gibt Tannine und Tiefe, Oolong bietet florale Komplexität, rauchige Tees (Lapsang Souchong) fügen Lagerfeuer-Noten hinzu. Besonders effektiv mit neutralen Spirituosen (Wodka, weißer Rum) oder komplementären Basisspirituosen (Gin + Earl Grey). Gründlich abseihen um Bitterkeit zu verhindern.",
+          nl: "Thee wassen/infusie houdt in dat thee bladeren worden getrokken in spirits om smaken, tannines en aromaten te extraheren. Methoden: 1) Koude infusie (24-48 uur kamertemperatuur) voor delicate theeën (wit, groen), 2) Snelle sous vide (1-2 uur bij 55-60°C) voor snellere extractie, 3) Traditioneel heet trekken dan afkoelen. Verschillende theeën bieden verschillende profielen - groene thee voegt grasachtige noten toe, zwarte thee geeft tannines en diepte, oolong biedt bloemen complexiteit, rokige theeën (lapsang souchong) voegen kampvuur noten toe. Bijzonder effectief met neutrale spirits (vodka, witte rum) of complementaire basis spirits (gin + earl grey). Grondig zeven om bitterheid te voorkomen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'orgeat' and its historical significance?",
+          es: "¿Qué es el 'orgeat' y su importancia histórica?",
+          de: "Was ist 'Orgeat' und seine historische Bedeutung?",
+          nl: "Wat is 'orgeat' en het historische belang?"
+        },
+        options: [
+          { en: "Almond syrup with orange flower water, essential in tiki cocktails; historically made from barley, later almonds", es: "Jarabe de almendra con agua de azahar, esencial en cócteles tiki; históricamente hecho de cebada, luego almendras", de: "Mandelsirup mit Orangenblütenwasser, essentiell in Tiki-Cocktails; historisch aus Gerste gemacht, später Mandeln", nl: "Amandel siroop met oranjebloesemwater, essentieel in tiki cocktails; historisch gemaakt van gerst, later amandelen" },
+          { en: "French herb liqueur", es: "Licor de hierbas francés", de: "Französischer Kräuterlikör", nl: "Franse kruiden likeur" },
+          { en: "Type of vermouth", es: "Tipo de vermut", de: "Art von Wermut", nl: "Soort vermouth" },
+          { en: "Citrus concentrate", es: "Concentrado de cítricos", de: "Zitruskonzentrat", nl: "Citrus concentraat" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Orgeat is a sweet almond syrup flavored with orange flower water (and sometimes rose water), essential in classic tiki cocktails like Mai Tai and Fog Cutter. Etymology from Latin 'hordeaceus' (made from barley) - medieval orgeat was barley-based, later transitioning to almonds in 18th century France. Traditional preparation involves blanching almonds, grinding with sugar and water, straining, then adding orange flower water. Commercial versions often use almond extract. The syrup provides nutty sweetness and floral aromatics. Modern craft versions may add vanilla or use different nuts (hazelnut orgeat).",
+          es: "El orgeat es un jarabe dulce de almendra aromatizado con agua de azahar (y a veces agua de rosas), esencial en cócteles tiki clásicos como Mai Tai y Fog Cutter. Etimología del latín 'hordeaceus' (hecho de cebada) - el orgeat medieval era a base de cebada, luego transicionó a almendras en la Francia del siglo XVIII. La preparación tradicional implica blanquear almendras, moler con azúcar y agua, colar, luego añadir agua de azahar. Las versiones comerciales a menudo usan extracto de almendra. El jarabe proporciona dulzura a nuez y aromáticos florales. Las versiones artesanales modernas pueden añadir vainilla o usar diferentes nueces (orgeat de avellana).",
+          de: "Orgeat ist ein süßer Mandelsirup aromatisiert mit Orangenblütenwasser (und manchmal Rosenwasser), essentiell in klassischen Tiki-Cocktails wie Mai Tai und Fog Cutter. Etymologie vom Lateinischen 'hordeaceus' (aus Gerste gemacht) - mittelalterliches Orgeat war gerstenbasiert, transitierte später zu Mandeln im Frankreich des 18. Jahrhunderts. Traditionelle Zubereitung beinhaltet Blanchieren von Mandeln, Mahlen mit Zucker und Wasser, Abseihen, dann Hinzufügen von Orangenblütenwasser. Kommerzielle Versionen verwenden oft Mandelextrakt. Der Sirup liefert nussige Süße und florale Aromen. Moderne Craft-Versionen können Vanille hinzufügen oder verschiedene Nüsse verwenden (Haselnuss-Orgeat).",
+          nl: "Orgeat is een zoete amandel siroop gearomatiseerd met oranjebloesemwater (en soms rozenwater), essentieel in klassieke tiki cocktails zoals Mai Tai en Fog Cutter. Etymologie van Latijn 'hordeaceus' (gemaakt van gerst) - middeleeuwse orgeat was gerst-gebaseerd, later overgaand naar amandelen in 18e eeuws Frankrijk. Traditionele bereiding houdt in dat amandelen worden geblancheerd, gemalen met suiker en water, gezeefd, dan toevoegen oranjebloesemwater. Commerciële versies gebruiken vaak amandel extract. De siroop biedt nootachtige zoetheid en bloemen aromaten. Moderne craft versies kunnen vanille toevoegen of verschillende noten gebruiken (hazelnoot orgeat)."
+        }
+      },
+      {
+        question: {
+          en: "What is 'falernum' and its role in cocktails?",
+          es: "¿Qué es el 'falernum' y su papel en cócteles?",
+          de: "Was ist 'Falernum' und seine Rolle in Cocktails?",
+          nl: "Wat is 'falernum' en de rol ervan in cocktails?"
+        },
+        options: [
+          { en: "Caribbean spiced syrup/liqueur with lime, ginger, clove, almond; essential tiki modifier adding complexity", es: "Jarabe/licor especiado caribeño con lima, jengibre, clavo, almendra; modificador tiki esencial añadiendo complejidad", de: "Karibischer Gewürzsirup/Likör mit Limette, Ingwer, Nelke, Mandel; essentieller Tiki-Modifikator fügt Komplexität hinzu", nl: "Caribische gekruide siroop/likeur met limoen, gember, kruidnagel, amandel; essentiële tiki modifier voegt complexiteit toe" },
+          { en: "Type of rum", es: "Tipo de ron", de: "Art von Rum", nl: "Soort rum" },
+          { en: "Italian amaretto", es: "Amaretto italiano", de: "Italienischer Amaretto", nl: "Italiaanse amaretto" },
+          { en: "Citrus bitters", es: "Amargos cítricos", de: "Zitrus-Bitter", nl: "Citrus bitters" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Falernum is a Caribbean-originated sweetened syrup or low-proof liqueur (11% ABV) flavored with lime zest, ginger, clove, almond, and sometimes allspice or vanilla. Available as non-alcoholic syrup (John D. Taylor's Velvet Falernum syrup) or alcoholic liqueur. Essential in classic tiki cocktails (Corn 'n' Oil, Zombie, Royal Bermuda Yacht Club) and rum drinks. Adds complex spiced sweetness, tropical character, and depth. Can be made at home by infusing rum with ingredients then adding syrup. Barbadian origin, named possibly from Latin 'falernum' (Falernian wine).",
+          es: "El falernum es un jarabe endulzado originado en el Caribe o licor de baja graduación (11% ABV) aromatizado con cáscara de lima, jengibre, clavo, almendra y a veces pimienta de Jamaica o vainilla. Disponible como jarabe no alcohólico (jarabe John D. Taylor's Velvet Falernum) o licor alcohólico. Esencial en cócteles tiki clásicos (Corn 'n' Oil, Zombie, Royal Bermuda Yacht Club) y bebidas de ron. Añade dulzura especiada compleja, carácter tropical y profundidad. Puede hacerse en casa infundiendo ron con ingredientes luego añadiendo jarabe. Origen de Barbados, nombrado posiblemente del latín 'falernum' (vino Falernio).",
+          de: "Falernum ist ein karibisch entstandener gesüßter Sirup oder niederp rozentiger Likör (11% ABV) aromatisiert mit Limettenschale, Ingwer, Nelke, Mandel und manchmal Piment oder Vanille. Erhältlich als alkoholfreier Sirup (John D. Taylor's Velvet Falernum Sirup) oder alkoholischer Likör. Essentiell in klassischen Tiki-Cocktails (Corn 'n' Oil, Zombie, Royal Bermuda Yacht Club) und Rum-Getränken. Fügt komplexe würzige Süße, tropischen Charakter und Tiefe hinzu. Kann zu Hause gemacht werden durch Infundieren von Rum mit Zutaten dann Hinzufügen von Sirup. Barbadischer Ursprung, möglicherweise nach Lateinisch 'falernum' (Falerner Wein) benannt.",
+          nl: "Falernum is een Caribisch ontstane gezoete siroop of lage-procentige likeur (11% ABV) gearomatiseerd met limoen schil, gember, kruidnagel, amandel en soms piment of vanille. Verkrijgbaar als niet-alcoholische siroop (John D. Taylor's Velvet Falernum siroop) of alcoholische likeur. Essentieel in klassieke tiki cocktails (Corn 'n' Oil, Zombie, Royal Bermuda Yacht Club) en rum drankjes. Voegt complexe gekruide zoetheid, tropisch karakter en diepte toe. Kan thuis worden gemaakt door rum te infuseren met ingrediënten dan siroop toevoegen. Barbadische oorsprong, mogelijk genoemd naar Latijn 'falernum' (Falernian wijn)."
+        }
+      },
+      {
+        question: {
+          en: "What is 'black walnut bitters' usage and flavor profile?",
+          es: "¿Qué es el uso de 'amargos de nuez negra' y perfil de sabor?",
+          de: "Was ist die Verwendung von 'Schwarznuss-Bitter' und Geschmacksprofil?",
+          nl: "Wat is het gebruik van 'zwarte walnoot bitters' en smaakprofiel?"
+        },
+        options: [
+          { en: "Earthy, woody bitters with toasted nut character; used in whiskey cocktails and autumnal drinks", es: "Amargos terrosos y leñosos con carácter de nuez tostada; usados en cócteles de whisky y bebidas otoñales", de: "Erdige, holzige Bitter mit geröstetem Nusscharakter; verwendet in Whiskey-Cocktails und herbstlichen Getränken", nl: "Aardse, houtachtige bitters met geroosterd noot karakter; gebruikt in whiskey cocktails en herfst drankjes" },
+          { en: "Sweet chocolate flavoring", es: "Saborizante de chocolate dulce", de: "Süßes Schokoladenaroma", nl: "Zoete chocolade smaakstof" },
+          { en: "Citrus-based bitters", es: "Amargos basados en cítricos", de: "Zitrus-basierte Bitter", nl: "Citrus-gebaseerde bitters" },
+          { en: "Floral aromatic bitters", es: "Amargos aromáticos florales", de: "Florale aromatische Bitter", nl: "Bloemen aromatische bitters" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Black walnut bitters (like Fee Brothers Black Walnut) provide earthy, woody, toasted nut flavors with subtle vanilla and caramel undertones. Made from black walnut hulls and botanicals. Particularly well-suited to brown spirits (whiskey, bourbon, aged rum) and autumn/winter cocktails. Common in Old Fashioneds, Manhattans, and whiskey sours where they add depth and nutty complexity. The earthy profile complements barrel-aged spirits and pairs with maple, apple, and spice flavors. A few dashes transform standard cocktails with unique umami-like savoriness.",
+          es: "Los amargos de nuez negra (como Fee Brothers Black Walnut) proporcionan sabores terrosos, leñosos, de nuez tostada con sutiles matices de vainilla y caramelo. Hechos de cáscaras de nuez negra y botánicos. Particularmente bien adaptados a licores marrones (whisky, bourbon, ron añejo) y cócteles de otoño/invierno. Comunes en Old Fashioneds, Manhattans y whiskey sours donde añaden profundidad y complejidad a nuez. El perfil terroso complementa licores envejecidos en barril y combina con sabores de arce, manzana y especias. Unos toques transforman cócteles estándar con sabor único similar a umami.",
+          de: "Schwarznuss-Bitter (wie Fee Brothers Black Walnut) liefern erdige, holzige, geröstete Nussaromen mit subtilen Vanille- und Karamelluntertönen. Hergestellt aus Schwarznussschalen und Botanicals. Besonders gut geeignet für braune Spirituosen (Whiskey, Bourbon, gereifter Rum) und Herbst-/Winter-Cocktails. Üblich in Old Fashioneds, Manhattans und Whiskey Sours, wo sie Tiefe und nussige Komplexität hinzufügen. Das erdige Profil ergänzt fassgereifte Spirituosen und passt zu Ahorn-, Apfel- und Gewürzaromen. Ein paar Spritzer transformieren Standard-Cocktails mit einzigartigem umami-ähnlichem Geschmack.",
+          nl: "Zwarte walnoot bitters (zoals Fee Brothers Black Walnut) bieden aardse, houtachtige, geroosterde noot smaken met subtiele vanille en karamel ondertonen. Gemaakt van zwarte walnoot schillen en botanicals. Bijzonder goed geschikt voor bruine spirits (whiskey, bourbon, gerijpte rum) en herfst/winter cocktails. Gebruikelijk in Old Fashioneds, Manhattans en whiskey sours waar ze diepte en nootachtige complexiteit toevoegen. Het aardse profiel complementeert vat-gerijpte spirits en past bij esdoorn, appel en specerijen smaken. Een paar spatten transformeren standaard cocktails met unieke umami-achtige hartigheid."
+        }
+      },
+      {
+        question: {
+          en: "What is 'absinthe rinse' technique?",
+          es: "¿Qué es la técnica de 'enjuague con absenta'?",
+          de: "Was ist die 'Absinth-Spül'-Technik?",
+          nl: "Wat is de 'absint spoel' techniek?"
+        },
+        options: [
+          { en: "Coating glass with small amount of absinthe then discarding excess; adds anise aromatics without dominating", es: "Cubrir vaso con pequeña cantidad de absenta luego descartar exceso; añade aromáticos anisados sin dominar", de: "Glas mit kleiner Menge Absinth beschichten dann Überschuss wegschütten; fügt Anisaromen hinzu ohne zu dominieren", nl: "Glas coaten met kleine hoeveelheid absint dan overschot weggooien; voegt anijs aromaten toe zonder te domineren" },
+          { en: "Cleaning glassware with absinthe", es: "Limpiar cristalería con absenta", de: "Glaswaren mit Absinth reinigen", nl: "Glaswerk schoonmaken met absint" },
+          { en: "Adding full shot of absinthe", es: "Añadir shot completo de absenta", de: "Vollen Shot Absinth hinzufügen", nl: "Volle shot absint toevoegen" },
+          { en: "Flaming absinthe presentation", es: "Presentación de absenta flambeada", de: "Flammende Absinth-Präsentation", nl: "Vlammende absint presentatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Absinthe rinse involves adding a small amount (1/4-1/2 oz) of absinthe to a chilled glass, swirling to coat the interior completely, then discarding the excess. This technique imparts subtle anise/fennel/wormwood aromatics without making the drink taste heavily of absinthe. Classic in Sazerac and Improved Whiskey Cocktails. The rinse provides aromatic nose hit and subtle background flavor. Some bartenders atomize absinthe in a spray bottle for even lighter application. Alternative: use Herbsaint or Pernod. The technique demonstrates restraint - aromatics without overpowering the cocktail's balance.",
+          es: "El enjuague con absenta implica añadir una pequeña cantidad (1/4-1/2 oz) de absenta a un vaso enfriado, agitar para cubrir el interior completamente, luego descartar el exceso. Esta técnica imparte sutiles aromáticos de anís/hinojo/ajenjo sin hacer que la bebida sepa fuertemente a absenta. Clásico en Sazerac y Improved Whiskey Cocktails. El enjuague proporciona golpe nasal aromático y sabor de fondo sutil. Algunos bartenders atomizan absenta en botella de spray para aplicación aún más ligera. Alternativa: usar Herbsaint o Pernod. La técnica demuestra moderación - aromáticos sin abrumar el equilibrio del cóctel.",
+          de: "Absinth-Spülung beinhaltet Hinzufügen einer kleinen Menge (1/4-1/2 oz) Absinth zu einem gekühlten Glas, Schwenken um das Innere vollständig zu beschichten, dann Überschuss wegschütten. Diese Technik verleiht subtile Anis-/Fenchel-/Wermut-Aromen ohne das Getränk stark nach Absinth schmecken zu lassen. Klassisch in Sazerac und Improved Whiskey Cocktails. Die Spülung liefert aromatischen Nasentreffer und subtilen Hintergrundgeschmack. Einige Bartender zerstäuben Absinth in einer Sprühflasche für noch leichtere Anwendung. Alternative: Herbsaint oder Pernod verwenden. Die Technik demonstriert Zurückhaltung - Aromen ohne Balance des Cocktails zu überwältigen.",
+          nl: "Absint spoel houdt in dat een kleine hoeveelheid (1/4-1/2 oz) absint wordt toegevoegd aan een gekoeld glas, zwenken om de binnenkant volledig te coaten, dan het overschot weggooien. Deze techniek geeft subtiele anijs/venkel/alsem aromaten zonder de drank zwaar naar absint te laten smaken. Klassiek in Sazerac en Improved Whiskey Cocktails. De spoel biedt aromatische neus hit en subtiele achtergrond smaak. Sommige bartenders verstuiven absint in een spray fles voor nog lichtere toepassing. Alternatief: gebruik Herbsaint of Pernod. De techniek toont terughoudendheid - aromaten zonder de balans van de cocktail te overweldigen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'Chartreuse' and why is it significant in cocktails?",
+          es: "¿Qué es el 'Chartreuse' y por qué es significativo en cócteles?",
+          de: "Was ist 'Chartreuse' und warum ist es bedeutend in Cocktails?",
+          nl: "Wat is 'Chartreuse' en waarom is het belangrijk in cocktails?"
+        },
+        options: [
+          { en: "French herbal liqueur (130+ botanicals) by Carthusian monks; complex, powerful modifier in classic and modern cocktails", es: "Licor de hierbas francés (130+ botánicos) por monjes cartujos; modificador complejo y poderoso en cócteles clásicos y modernos", de: "Französischer Kräuterlikör (130+ Botanicals) von Kartäusermönchen; komplexer, kraftvoller Modifikator in klassischen und modernen Cocktails", nl: "Franse kruiden likeur (130+ botanicals) door Carthusiaanse monniken; complexe, krachtige modifier in klassieke en moderne cocktails" },
+          { en: "Type of champagne", es: "Tipo de champán", de: "Art von Champagner", nl: "Soort champagne" },
+          { en: "Italian amaretto", es: "Amaretto italiano", de: "Italienischer Amaretto", nl: "Italiaanse amaretto" },
+          { en: "Scottish whisky brand", es: "Marca de whisky escocés", de: "Schottische Whisky-Marke", nl: "Schots whisky merk" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Chartreuse is a French herbal liqueur made by Carthusian monks since 1737 using a secret recipe of 130+ herbs and plants. Available in Green Chartreuse (55% ABV, more herbal, intense) and Yellow Chartreuse (40% ABV, sweeter, milder). The complex flavor profile - herbal, spicy, sweet, slightly medicinal - makes it an unparalleled cocktail modifier. Used in classics like Last Word, Bijou, Champs-Élysées, and modern craft cocktails. Its intensity means small quantities have big impact. Only three monks know the complete recipe at any time.",
+          es: "El Chartreuse es un licor de hierbas francés hecho por monjes cartujos desde 1737 usando una receta secreta de 130+ hierbas y plantas. Disponible en Chartreuse Verde (55% ABV, más herbal, intenso) y Chartreuse Amarillo (40% ABV, más dulce, suave). El complejo perfil de sabor - herbal, especiado, dulce, ligeramente medicinal - lo hace un modificador de cóctel sin igual. Usado en clásicos como Last Word, Bijou, Champs-Élysées y cócteles artesanales modernos. Su intensidad significa que pequeñas cantidades tienen gran impacto. Solo tres monjes conocen la receta completa en cualquier momento.",
+          de: "Chartreuse ist ein französischer Kräuterlikör, hergestellt von Kartäusermönchen seit 1737 mit einem geheimen Rezept aus 130+ Kräutern und Pflanzen. Erhältlich in Grünem Chartreuse (55% ABV, kräuteriger, intensiver) und Gelbem Chartreuse (40% ABV, süßer, milder). Das komplexe Geschmacksprofil - kräuterig, würzig, süß, leicht medizinisch - macht es zu einem unvergleichlichen Cocktail-Modifikator. Verwendet in Klassikern wie Last Word, Bijou, Champs-Élysées und modernen Craft-Cocktails. Seine Intensität bedeutet kleine Mengen haben große Wirkung. Nur drei Mönche kennen das vollständige Rezept zu jeder Zeit.",
+          nl: "Chartreuse is een Franse kruiden likeur gemaakt door Carthusiaanse monniken sinds 1737 met een geheim recept van 130+ kruiden en planten. Verkrijgbaar in Groene Chartreuse (55% ABV, meer kruiden, intens) en Gele Chartreuse (40% ABV, zoeter, milder). Het complexe smaakprofiel - kruiden, gekruid, zoet, licht medicinaal - maakt het een ongeëvenaarde cocktail modifier. Gebruikt in klassiekers zoals Last Word, Bijou, Champs-Élysées en moderne craft cocktails. Zijn intensiteit betekent dat kleine hoeveelheden grote impact hebben. Slechts drie monniken kennen het volledige recept op elk moment."
+        }
+      },
+      {
+        question: {
+          en: "What is 'allspice dram' (pimento dram) and its cocktail applications?",
+          es: "¿Qué es el 'dram de pimienta de Jamaica' (dram de pimiento) y sus aplicaciones en cócteles?",
+          de: "Was ist 'Piment-Dram' (Pimento Dram) und seine Cocktail-Anwendungen?",
+          nl: "Wat is 'piment dram' (pimento dram) en de cocktail toepassingen?"
+        },
+        options: [
+          { en: "Jamaican rum-based liqueur infused with allspice berries; adds warm spice to tiki and rum cocktails", es: "Licor a base de ron jamaicano infundido con bayas de pimienta de Jamaica; añade especias cálidas a cócteles tiki y de ron", de: "Jamaikanischer Rum-basierter Likör infundiert mit Pimentbeeren; fügt warme Gewürze zu Tiki- und Rum-Cocktails hinzu", nl: "Jamaicaanse rum-gebaseerde likeur geïnfuseerd met piment bessen; voegt warme specerijen toe aan tiki en rum cocktails" },
+          { en: "Scottish whisky measurement", es: "Medida de whisky escocés", de: "Schottische Whisky-Messung", nl: "Schotse whisky meting" },
+          { en: "Type of bitters", es: "Tipo de amargos", de: "Art von Bitter", nl: "Soort bitters" },
+          { en: "Citrus liqueur", es: "Licor de cítricos", de: "Zitruslikör", nl: "Citrus likeur" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Allspice dram (pimento dram) is a Jamaican liqueur made by infusing allspice (pimento) berries in overproof rum, then sweetening. Flavor profile combines cinnamon, clove, nutmeg with subtle pepper heat. Essential in tiki cocktails (Three Dots and a Dash, Ancient Mariner) and autumn/winter drinks. Provides warm, complex spice without adding multiple individual spices. St. Elizabeth is the classic brand, or can be made at home. A bar spoon adds significant flavor. The 'dram' refers to the traditional measurement. Bridges Caribbean rum tradition with tropical cocktail culture.",
+          es: "El dram de pimienta de Jamaica (dram de pimiento) es un licor jamaicano hecho infundiendo bayas de pimienta de Jamaica (pimiento) en ron sobregraduado, luego endulzando. El perfil de sabor combina canela, clavo, nuez moscada con sutil calor de pimienta. Esencial en cócteles tiki (Three Dots and a Dash, Ancient Mariner) y bebidas de otoño/invierno. Proporciona especias cálidas y complejas sin añadir múltiples especias individuales. St. Elizabeth es la marca clásica, o puede hacerse en casa. Una cucharita de bar añade sabor significativo. El 'dram' se refiere a la medida tradicional. Une tradición de ron caribeño con cultura de cóctel tropical.",
+          de: "Piment-Dram (Pimento Dram) ist ein jamaikanischer Likör, hergestellt durch Infundieren von Pimentbeeren (Pimento) in Overproof-Rum, dann Süßen. Geschmacksprofil kombiniert Zimt, Nelke, Muskatnuss mit subtiler Pfefferhitze. Essentiell in Tiki-Cocktails (Three Dots and a Dash, Ancient Mariner) und Herbst-/Winter-Getränken. Liefert warme, komplexe Gewürze ohne mehrere einzelne Gewürze hinzuzufügen. St. Elizabeth ist die klassische Marke, oder kann zu Hause gemacht werden. Ein Barlöffel fügt bedeutenden Geschmack hinzu. Das 'Dram' bezieht sich auf das traditionelle Maß. Verbindet karibische Rumtradition mit tropischer Cocktail-Kultur.",
+          nl: "Piment dram (pimento dram) is een Jamaicaanse likeur gemaakt door piment (pimento) bessen te infuseren in overproof rum, dan te zoeten. Smaakprofiel combineert kaneel, kruidnagel, nootmuskaat met subtiele peper hitte. Essentieel in tiki cocktails (Three Dots and a Dash, Ancient Mariner) en herfst/winter drankjes. Biedt warme, complexe specerijen zonder meerdere individuele specerijen toe te voegen. St. Elizabeth is het klassieke merk, of kan thuis worden gemaakt. Een bar lepel voegt significante smaak toe. De 'dram' verwijst naar de traditionele meting. Verbindt Caribische rum traditie met tropische cocktail cultuur."
+        }
+      },
+      {
+        question: {
+          en: "What is 'Japanese bartending style' and its philosophy?",
+          es: "¿Qué es el 'estilo de bartending japonés' y su filosofía?",
+          de: "Was ist 'Japanischer Bartending-Stil' und seine Philosophie?",
+          nl: "Wat is 'Japanse bartending stijl' en de filosofie?"
+        },
+        options: [
+          { en: "Precision, discipline, hospitality (omotenashi); hard shake technique, perfect ice, ritualized preparation focusing on guest experience", es: "Precisión, disciplina, hospitalidad (omotenashi); técnica de agitado fuerte, hielo perfecto, preparación ritualizada enfocada en experiencia del invitado", de: "Präzision, Disziplin, Gastfreundschaft (Omotenashi); Hard Shake Technik, perfektes Eis, ritualisierte Zubereitung fokussiert auf Gästeerfahrung", nl: "Precisie, discipline, gastvrijheid (omotenashi); hard shake techniek, perfect ijs, geritualiseerde bereiding gericht op gast ervaring" },
+          { en: "Using only Japanese spirits", es: "Usar solo licores japoneses", de: "Nur japanische Spirituosen verwenden", nl: "Alleen Japanse spirits gebruiken" },
+          { en: "Sake-based cocktails only", es: "Solo cócteles a base de sake", de: "Nur Sake-basierte Cocktails", nl: "Alleen sake-gebaseerde cocktails" },
+          { en: "Minimalist presentation", es: "Presentación minimalista", de: "Minimalistische Präsentation", nl: "Minimalistische presentatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Japanese bartending emphasizes precision, discipline, and omotenashi (wholehearted hospitality). Key elements: 1) Hard shake - vigorous 3-dimensional shaking for maximum aeration and dilution, 2) Perfect ice - hand-carved, crystal-clear blocks for aesthetics and dilution control, 3) Measured movements - ritualized, elegant preparation as performance, 4) Attention to detail - perfect proportions, temperature, dilution, 5) Guest focus - anticipating needs, personalized service. Bartenders train for years mastering techniques. Influential figures like Kazuo Uyeda pioneered hard shake. Philosophy: pursuing perfection in every aspect of cocktail creation and service.",
+          es: "El bartending japonés enfatiza precisión, disciplina y omotenashi (hospitalidad sincera). Elementos clave: 1) Agitado fuerte - agitado vigoroso 3-dimensional para máxima aireación y dilución, 2) Hielo perfecto - bloques tallados a mano, cristalinos para estética y control de dilución, 3) Movimientos medidos - preparación ritualizada, elegante como performance, 4) Atención al detalle - proporciones perfectas, temperatura, dilución, 5) Enfoque en invitado - anticipar necesidades, servicio personalizado. Los bartenders entrenan años dominando técnicas. Figuras influyentes como Kazuo Uyeda fueron pioneros del agitado fuerte. Filosofía: perseguir perfección en cada aspecto de creación y servicio de cócteles.",
+          de: "Japanisches Bartending betont Präzision, Disziplin und Omotenashi (ganzheitliche Gastfreundschaft). Schlüsselelemente: 1) Hard Shake - kräftiges 3-dimensionales Schütteln für maximale Belüftung und Verdünnung, 2) Perfektes Eis - handgeschnittene, kristallklare Blöcke für Ästhetik und Verdünnungskontrolle, 3) Gemessene Bewegungen - ritualisierte, elegante Zubereitung als Performance, 4) Aufmerksamkeit für Details - perfekte Proportionen, Temperatur, Verdünnung, 5) Gästefokus - Bedürfnisse antizipieren, personalisierter Service. Bartender trainieren jahrelang Techniken zu meistern. Einflussreiche Figuren wie Kazuo Uyeda waren Hard Shake Pioniere. Philosophie: Perfektion in jedem Aspekt der Cocktail-Schaffung und Service verfolgen.",
+          nl: "Japanse bartending benadrukt precisie, discipline en omotenashi (oprechte gastvrijheid). Sleutelelementen: 1) Hard shake - krachtige 3-dimensionale schud voor maximale beluchting en verdunning, 2) Perfect ijs - handgesneden, kristalheldere blokken voor esthetiek en verdunningscontrole, 3) Gemeten bewegingen - geritualiseerde, elegante bereiding als performance, 4) Aandacht voor detail - perfecte verhoudingen, temperatuur, verdunning, 5) Gast focus - behoeften anticiperen, gepersonaliseerde service. Bartenders trainen jaren om technieken te beheersen. Invloedrijke figuren zoals Kazuo Uyeda waren hard shake pioniers. Filosofie: perfectie nastreven in elk aspect van cocktail creatie en service."
+        }
+      }
+    ]
   };
 
   // Export for use in the quiz application

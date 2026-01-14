@@ -426,6 +426,426 @@
           de: "Der Eiffelturm kann bei heißem Wetter durch die Wärmeausdehnung des Eisens bis zu 15 cm höher werden.",
           nl: "De Eiffeltoren kan bij warm weer tot 15 cm hoger worden door thermische uitzetting van het ijzer."
         }
+      },
+      {
+        question: {
+          en: "What is the main purpose of the Eiffel Tower today?",
+          es: "¿Cuál es el propósito principal de la Torre Eiffel hoy?",
+          de: "Was ist heute der Hauptzweck des Eiffelturms?",
+          nl: "Wat is het belangrijkste doel van de Eiffeltoren vandaag?"
+        },
+        options: [
+          { en: "Tourist attraction", es: "Atracción turística", de: "Touristenattraktion", nl: "Toeristische attractie" },
+          { en: "Military base", es: "Base militar", de: "Militärbasis", nl: "Militaire basis" },
+          { en: "Observatory only", es: "Solo observatorio", de: "Nur Observatorium", nl: "Alleen observatorium" },
+          { en: "Shopping center", es: "Centro comercial", de: "Einkaufszentrum", nl: "Winkelcentrum" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Today the Eiffel Tower is primarily a tourist attraction, though it also houses restaurants, shops, and broadcasting equipment.",
+          es: "Hoy la Torre Eiffel es principalmente una atracción turística, aunque también alberga restaurantes, tiendas y equipo de transmisión.",
+          de: "Heute ist der Eiffelturm in erster Linie eine Touristenattraktion, beherbergt aber auch Restaurants, Geschäfte und Sendeeinrichtungen.",
+          nl: "Tegenwoordig is de Eiffeltoren voornamelijk een toeristische attractie, hoewel hij ook restaurants, winkels en zendapparatuur herbergt."
+        }
+      },
+      {
+        question: {
+          en: "What country is the Eiffel Tower in?",
+          es: "¿En qué país está la Torre Eiffel?",
+          de: "In welchem Land befindet sich der Eiffelturm?",
+          nl: "In welk land staat de Eiffeltoren?"
+        },
+        options: [
+          { en: "France", es: "Francia", de: "Frankreich", nl: "Frankrijk" },
+          { en: "Italy", es: "Italia", de: "Italien", nl: "Italië" },
+          { en: "Spain", es: "España", de: "Spanien", nl: "Spanje" },
+          { en: "Belgium", es: "Bélgica", de: "Belgien", nl: "België" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Eiffel Tower is located in France, in the capital city of Paris, and is the country's most iconic landmark.",
+          es: "La Torre Eiffel está ubicada en Francia, en la ciudad capital de París, y es el monumento más icónico del país.",
+          de: "Der Eiffelturm befindet sich in Frankreich, in der Hauptstadt Paris, und ist das bekannteste Wahrzeichen des Landes.",
+          nl: "De Eiffeltoren staat in Frankrijk, in de hoofdstad Parijs, en is het meest iconische monument van het land."
+        }
+      },
+      {
+        question: {
+          en: "Can visitors climb stairs to reach the top?",
+          es: "¿Pueden los visitantes subir escaleras hasta la cima?",
+          de: "Können Besucher Treppen bis zur Spitze steigen?",
+          nl: "Kunnen bezoekers trappen beklimmen naar de top?"
+        },
+        options: [
+          { en: "Only to 2nd level", es: "Solo hasta el segundo nivel", de: "Nur bis zur 2. Ebene", nl: "Alleen tot 2e verdieping" },
+          { en: "Yes, all the way", es: "Sí, hasta arriba", de: "Ja, ganz nach oben", nl: "Ja, helemaal" },
+          { en: "No stairs available", es: "No hay escaleras", de: "Keine Treppen verfügbar", nl: "Geen trappen beschikbaar" },
+          { en: "Only in summer", es: "Solo en verano", de: "Nur im Sommer", nl: "Alleen in de zomer" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Visitors can climb stairs to the second level, but must take an elevator from there to reach the top platform.",
+          es: "Los visitantes pueden subir escaleras hasta el segundo nivel, pero deben tomar un ascensor desde allí para llegar a la plataforma superior.",
+          de: "Besucher können Treppen bis zur zweiten Ebene steigen, müssen aber von dort einen Aufzug nehmen, um die oberste Plattform zu erreichen.",
+          nl: "Bezoekers kunnen trappen beklimmen tot de tweede verdieping, maar moeten daarna een lift nemen om het bovenste platform te bereiken."
+        }
+      },
+      {
+        question: {
+          en: "What shape is the base of the Eiffel Tower?",
+          es: "¿Qué forma tiene la base de la Torre Eiffel?",
+          de: "Welche Form hat die Basis des Eiffelturms?",
+          nl: "Welke vorm heeft de basis van de Eiffeltoren?"
+        },
+        options: [
+          { en: "Square", es: "Cuadrada", de: "Quadratisch", nl: "Vierkant" },
+          { en: "Circle", es: "Circular", de: "Kreisförmig", nl: "Rond" },
+          { en: "Triangle", es: "Triangular", de: "Dreieckig", nl: "Driehoekig" },
+          { en: "Hexagon", es: "Hexagonal", de: "Sechseckig", nl: "Zeshoekig" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Eiffel Tower has a square base with four massive pillars at each corner supporting the structure.",
+          es: "La Torre Eiffel tiene una base cuadrada con cuatro pilares masivos en cada esquina que soportan la estructura.",
+          de: "Der Eiffelturm hat eine quadratische Basis mit vier massiven Pfeilern an jeder Ecke, die die Struktur tragen.",
+          nl: "De Eiffeltoren heeft een vierkante basis met vier massieve pilaren op elke hoek die de structuur ondersteunen."
+        }
+      },
+      {
+        question: {
+          en: "What type of building is the Eiffel Tower?",
+          es: "¿Qué tipo de edificio es la Torre Eiffel?",
+          de: "Was für ein Gebäude ist der Eiffelturm?",
+          nl: "Wat voor soort gebouw is de Eiffeltoren?"
+        },
+        options: [
+          { en: "Tower", es: "Torre", de: "Turm", nl: "Toren" },
+          { en: "Palace", es: "Palacio", de: "Palast", nl: "Paleis" },
+          { en: "Bridge", es: "Puente", de: "Brücke", nl: "Brug" },
+          { en: "Castle", es: "Castillo", de: "Schloss", nl: "Kasteel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Eiffel Tower is a lattice tower, a type of tall structure with an open iron framework rather than solid walls.",
+          es: "La Torre Eiffel es una torre de celosía, un tipo de estructura alta con un marco de hierro abierto en lugar de paredes sólidas.",
+          de: "Der Eiffelturm ist ein Gitterturm, eine Art hoher Struktur mit einem offenen Eisenrahmen statt fester Wände.",
+          nl: "De Eiffeltoren is een traliemast, een soort hoge structuur met een open ijzeren raamwerk in plaats van massieve muren."
+        }
+      },
+      {
+        question: {
+          en: "How many legs support the Eiffel Tower?",
+          es: "¿Cuántas patas sostienen la Torre Eiffel?",
+          de: "Wie viele Beine stützen den Eiffelturm?",
+          nl: "Hoeveel poten ondersteunen de Eiffeltoren?"
+        },
+        options: [
+          { en: "4 legs", es: "4 patas", de: "4 Beine", nl: "4 poten" },
+          { en: "3 legs", es: "3 patas", de: "3 Beine", nl: "3 poten" },
+          { en: "6 legs", es: "6 patas", de: "6 Beine", nl: "6 poten" },
+          { en: "8 legs", es: "8 patas", de: "8 Beine", nl: "8 poten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Eiffel Tower stands on four curved legs that meet at the base and taper as they rise toward the first platform.",
+          es: "La Torre Eiffel se apoya sobre cuatro patas curvas que se encuentran en la base y se estrechan al subir hacia la primera plataforma.",
+          de: "Der Eiffelturm steht auf vier gebogenen Beinen, die sich an der Basis treffen und sich beim Aufsteigen zur ersten Plattform verjüngen.",
+          nl: "De Eiffeltoren staat op vier gebogen poten die elkaar aan de basis ontmoeten en taps toelopen terwijl ze naar het eerste platform stijgen."
+        }
+      },
+      {
+        question: {
+          en: "What can you do at the Eiffel Tower?",
+          es: "¿Qué puedes hacer en la Torre Eiffel?",
+          de: "Was kann man am Eiffelturm tun?",
+          nl: "Wat kun je doen bij de Eiffeltoren?"
+        },
+        options: [
+          { en: "Enjoy views and dine", es: "Disfrutar vistas y cenar", de: "Aussichten genießen und speisen", nl: "Uitzichten genieten en dineren" },
+          { en: "Sleep overnight", es: "Dormir durante la noche", de: "Übernachten", nl: "Overnachten" },
+          { en: "Go shopping only", es: "Solo ir de compras", de: "Nur einkaufen", nl: "Alleen winkelen" },
+          { en: "Swim in pools", es: "Nadar en piscinas", de: "In Pools schwimmen", nl: "Zwemmen in zwembaden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Visitors can enjoy panoramic views from different levels, dine at restaurants, and visit gift shops at the Eiffel Tower.",
+          es: "Los visitantes pueden disfrutar de vistas panorámicas desde diferentes niveles, cenar en restaurantes y visitar tiendas de regalos en la Torre Eiffel.",
+          de: "Besucher können von verschiedenen Ebenen aus Panoramablicke genießen, in Restaurants speisen und Souvenirläden am Eiffelturm besuchen.",
+          nl: "Bezoekers kunnen genieten van panoramische uitzichten vanaf verschillende niveaus, dineren in restaurants en cadeauwinkels bezoeken bij de Eiffeltoren."
+        }
+      },
+      {
+        question: {
+          en: "When is the best time to visit the Eiffel Tower?",
+          es: "¿Cuál es el mejor momento para visitar la Torre Eiffel?",
+          de: "Wann ist die beste Zeit, den Eiffelturm zu besuchen?",
+          nl: "Wanneer is de beste tijd om de Eiffeltoren te bezoeken?"
+        },
+        options: [
+          { en: "Early morning or evening", es: "Temprano en la mañana o por la tarde", de: "Früh morgens oder abends", nl: "Vroeg in de ochtend of avond" },
+          { en: "Only at midnight", es: "Solo a medianoche", de: "Nur um Mitternacht", nl: "Alleen om middernacht" },
+          { en: "Only on weekends", es: "Solo los fines de semana", de: "Nur am Wochenende", nl: "Alleen in het weekend" },
+          { en: "Tower is always closed", es: "La torre siempre está cerrada", de: "Turm ist immer geschlossen", nl: "Toren is altijd gesloten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Early morning or evening visits typically have fewer crowds, and evening visits offer the chance to see the tower's sparkling lights.",
+          es: "Las visitas temprano en la mañana o por la tarde suelen tener menos multitudes, y las visitas nocturnas ofrecen la oportunidad de ver las luces centelleantes de la torre.",
+          de: "Besuche früh morgens oder abends haben normalerweise weniger Menschenmassen, und Abendbesuche bieten die Chance, die funkelnden Lichter des Turms zu sehen.",
+          nl: "Bezoeken vroeg in de ochtend of 's avonds hebben meestal minder drukte, en avondbezoeken bieden de kans om de fonkelende lichtjes van de toren te zien."
+        }
+      },
+      {
+        question: {
+          en: "Are there restaurants in the Eiffel Tower?",
+          es: "¿Hay restaurantes en la Torre Eiffel?",
+          de: "Gibt es Restaurants im Eiffelturm?",
+          nl: "Zijn er restaurants in de Eiffeltoren?"
+        },
+        options: [
+          { en: "Yes, several", es: "Sí, varios", de: "Ja, mehrere", nl: "Ja, meerdere" },
+          { en: "No restaurants", es: "Sin restaurantes", de: "Keine Restaurants", nl: "Geen restaurants" },
+          { en: "Only one", es: "Solo uno", de: "Nur eins", nl: "Maar één" },
+          { en: "Only fast food", es: "Solo comida rápida", de: "Nur Fast Food", nl: "Alleen fastfood" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Eiffel Tower has several restaurants including the famous Le Jules Verne on the second level and casual dining on the first level.",
+          es: "La Torre Eiffel tiene varios restaurantes, incluido el famoso Le Jules Verne en el segundo nivel y comida informal en el primer nivel.",
+          de: "Der Eiffelturm hat mehrere Restaurants, darunter das berühmte Le Jules Verne auf der zweiten Ebene und ungezwungene Gastronomie auf der ersten Ebene.",
+          nl: "De Eiffeltoren heeft verschillende restaurants, waaronder het beroemde Le Jules Verne op de tweede verdieping en informeel eten op de eerste verdieping."
+        }
+      },
+      {
+        question: {
+          en: "What time of day does the tower light up?",
+          es: "¿A qué hora del día se ilumina la torre?",
+          de: "Zu welcher Tageszeit leuchtet der Turm?",
+          nl: "Op welk tijdstip van de dag licht de toren op?"
+        },
+        options: [
+          { en: "At sunset", es: "Al atardecer", de: "Bei Sonnenuntergang", nl: "Bij zonsondergang" },
+          { en: "At noon", es: "Al mediodía", de: "Mittags", nl: "Op de middag" },
+          { en: "Only midnight", es: "Solo a medianoche", de: "Nur um Mitternacht", nl: "Alleen middernacht" },
+          { en: "Never lights up", es: "Nunca se ilumina", de: "Leuchtet nie", nl: "Licht nooit op" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Eiffel Tower's golden illumination turns on at sunset every evening, with sparkles occurring every hour until 1 AM.",
+          es: "La iluminación dorada de la Torre Eiffel se enciende al atardecer cada noche, con destellos cada hora hasta la 1 AM.",
+          de: "Die goldene Beleuchtung des Eiffelturms schaltet sich jeden Abend bei Sonnenuntergang ein, mit Funkeln jede Stunde bis 1 Uhr morgens.",
+          nl: "De gouden verlichting van de Eiffeltoren gaat elke avond bij zonsondergang aan, met fonkelingen elk uur tot 01.00 uur."
+        }
+      },
+      {
+        question: {
+          en: "Do you need tickets to visit the Eiffel Tower?",
+          es: "¿Necesitas boletos para visitar la Torre Eiffel?",
+          de: "Braucht man Tickets, um den Eiffelturm zu besuchen?",
+          nl: "Heb je tickets nodig om de Eiffeltoren te bezoeken?"
+        },
+        options: [
+          { en: "Yes, tickets required", es: "Sí, se requieren boletos", de: "Ja, Tickets erforderlich", nl: "Ja, tickets vereist" },
+          { en: "Always free entry", es: "Entrada siempre gratuita", de: "Immer freier Eintritt", nl: "Altijd gratis toegang" },
+          { en: "Only on weekends", es: "Solo los fines de semana", de: "Nur am Wochenende", nl: "Alleen in het weekend" },
+          { en: "Donation only", es: "Solo donación", de: "Nur Spende", nl: "Alleen donatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tickets are required to visit the Eiffel Tower and can be purchased online in advance or at the tower itself.",
+          es: "Se requieren boletos para visitar la Torre Eiffel y se pueden comprar en línea con anticipación o en la torre misma.",
+          de: "Tickets sind erforderlich, um den Eiffelturm zu besuchen, und können online im Voraus oder am Turm selbst gekauft werden.",
+          nl: "Tickets zijn vereist om de Eiffeltoren te bezoeken en kunnen van tevoren online of bij de toren zelf worden gekocht."
+        }
+      },
+      {
+        question: {
+          en: "What is special about the tower's design?",
+          es: "¿Qué es especial sobre el diseño de la torre?",
+          de: "Was ist besonders am Design des Turms?",
+          nl: "Wat is speciaal aan het ontwerp van de toren?"
+        },
+        options: [
+          { en: "Open lattice framework", es: "Marco de celosía abierta", de: "Offener Gitterrahmen", nl: "Open tralie-raamwerk" },
+          { en: "Solid stone walls", es: "Paredes de piedra sólidas", de: "Feste Steinwände", nl: "Massieve stenen muren" },
+          { en: "Glass exterior", es: "Exterior de vidrio", de: "Glasaußenseite", nl: "Glazen buitenkant" },
+          { en: "Wooden structure", es: "Estructura de madera", de: "Holzstruktur", nl: "Houten structuur" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The tower's distinctive open lattice framework of iron girders creates its iconic silhouette and allows wind to pass through.",
+          es: "El distintivo marco de celosía abierta de vigas de hierro de la torre crea su silueta icónica y permite que el viento pase.",
+          de: "Der charakteristische offene Gitterrahmen aus Eisenträgern des Turms schafft seine ikonische Silhouette und lässt Wind durchströmen.",
+          nl: "Het kenmerkende open tralie-raamwerk van ijzeren liggers van de toren creëert zijn iconische silhouet en laat wind erdoor gaan."
+        }
+      },
+      {
+        question: {
+          en: "How often is the Eiffel Tower repainted?",
+          es: "¿Con qué frecuencia se repinta la Torre Eiffel?",
+          de: "Wie oft wird der Eiffelturm neu gestrichen?",
+          nl: "Hoe vaak wordt de Eiffeltoren opnieuw geschilderd?"
+        },
+        options: [
+          { en: "Every 7 yrs", es: "Cada 7 años", de: "Alle 7 Jahre", nl: "Om de 7 jaar" },
+          { en: "Every year", es: "Cada año", de: "Jedes Jahr", nl: "Elk jaar" },
+          { en: "Every 50 yrs", es: "Cada 50 años", de: "Alle 50 Jahre", nl: "Om de 50 jaar" },
+          { en: "Never repainted", es: "Nunca repintada", de: "Nie neu gestrichen", nl: "Nooit opnieuw geschilderd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Eiffel Tower is repainted approximately every 7 years to protect the iron from rust, requiring about 60 tons of paint.",
+          es: "La Torre Eiffel se repinta aproximadamente cada 7 años para proteger el hierro del óxido, requiriendo alrededor de 60 toneladas de pintura.",
+          de: "Der Eiffelturm wird etwa alle 7 Jahre neu gestrichen, um das Eisen vor Rost zu schützen, wofür etwa 60 Tonnen Farbe benötigt werden.",
+          nl: "De Eiffeltoren wordt ongeveer om de 7 jaar opnieuw geschilderd om het ijzer tegen roest te beschermen, wat ongeveer 60 ton verf vereist."
+        }
+      },
+      {
+        question: {
+          en: "What view can you see from the top?",
+          es: "¿Qué vista puedes ver desde la cima?",
+          de: "Welche Aussicht hat man von oben?",
+          nl: "Welk uitzicht kun je zien vanaf de top?"
+        },
+        options: [
+          { en: "All of Paris", es: "Todo París", de: "Ganz Paris", nl: "Heel Parijs" },
+          { en: "Only the ground", es: "Solo el suelo", de: "Nur der Boden", nl: "Alleen de grond" },
+          { en: "Inside only", es: "Solo el interior", de: "Nur innen", nl: "Alleen binnen" },
+          { en: "Nothing visible", es: "Nada visible", de: "Nichts sichtbar", nl: "Niets zichtbaar" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "From the top of the Eiffel Tower, visitors can see panoramic views of all of Paris, up to 70 km on clear days.",
+          es: "Desde la cima de la Torre Eiffel, los visitantes pueden ver vistas panorámicas de todo París, hasta 70 km en días despejados.",
+          de: "Von der Spitze des Eiffelturms aus können Besucher Panoramablicke auf ganz Paris sehen, an klaren Tagen bis zu 70 km.",
+          nl: "Vanaf de top van de Eiffeltoren kunnen bezoekers panoramische uitzichten zien over heel Parijs, tot 70 km op heldere dagen."
+        }
+      },
+      {
+        question: {
+          en: "Is the Eiffel Tower taller than most buildings?",
+          es: "¿Es la Torre Eiffel más alta que la mayoría de los edificios?",
+          de: "Ist der Eiffelturm höher als die meisten Gebäude?",
+          nl: "Is de Eiffeltoren hoger dan de meeste gebouwen?"
+        },
+        options: [
+          { en: "Yes, in Paris", es: "Sí, en París", de: "Ja, in Paris", nl: "Ja, in Parijs" },
+          { en: "Shortest in Paris", es: "Más bajo en París", de: "Kürzester in Paris", nl: "Laagste in Parijs" },
+          { en: "Same height as all", es: "Misma altura que todos", de: "Gleiche Höhe wie alle", nl: "Dezelfde hoogte als alle" },
+          { en: "Underground structure", es: "Estructura subterránea", de: "Unterirdische Struktur", nl: "Ondergrondse structuur" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Eiffel Tower is one of the tallest structures in Paris, standing at 330 meters, and dominates the city skyline.",
+          es: "La Torre Eiffel es una de las estructuras más altas de París, con 330 metros de altura, y domina el horizonte de la ciudad.",
+          de: "Der Eiffelturm ist mit 330 Metern eines der höchsten Bauwerke in Paris und prägt die Skyline der Stadt.",
+          nl: "De Eiffeltoren is met 330 meter een van de hoogste structuren in Parijs en domineert de skyline van de stad."
+        }
+      },
+      {
+        question: {
+          en: "Why is the Eiffel Tower famous?",
+          es: "¿Por qué es famosa la Torre Eiffel?",
+          de: "Warum ist der Eiffelturm berühmt?",
+          nl: "Waarom is de Eiffeltoren beroemd?"
+        },
+        options: [
+          { en: "Iconic Paris symbol", es: "Símbolo icónico de París", de: "Ikonisches Paris-Symbol", nl: "Iconisch Parijs symbool" },
+          { en: "Oldest building in France", es: "Edificio más antiguo de Francia", de: "Ältestes Gebäude in Frankreich", nl: "Oudste gebouw in Frankrijk" },
+          { en: "Largest in the world", es: "Más grande del mundo", de: "Größtes der Welt", nl: "Grootste ter wereld" },
+          { en: "Made of gold", es: "Hecha de oro", de: "Aus Gold gemacht", nl: "Gemaakt van goud" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Eiffel Tower is famous as the iconic symbol of Paris and France, recognized worldwide for its distinctive design and cultural significance.",
+          es: "La Torre Eiffel es famosa como el símbolo icónico de París y Francia, reconocida en todo el mundo por su diseño distintivo y significado cultural.",
+          de: "Der Eiffelturm ist als ikonisches Symbol von Paris und Frankreich berühmt und weltweit bekannt für sein unverwechselbares Design und seine kulturelle Bedeutung.",
+          nl: "De Eiffeltoren is beroemd als het iconische symbool van Parijs en Frankrijk, wereldwijd erkend voor zijn kenmerkende ontwerp en culturele betekenis."
+        }
+      },
+      {
+        question: {
+          en: "How do most people reach the top level?",
+          es: "¿Cómo llega la mayoría de la gente al nivel superior?",
+          de: "Wie erreichen die meisten Menschen die oberste Ebene?",
+          nl: "Hoe bereiken de meeste mensen het bovenste niveau?"
+        },
+        options: [
+          { en: "By elevator", es: "En ascensor", de: "Mit dem Aufzug", nl: "Met de lift" },
+          { en: "By helicopter", es: "En helicóptero", de: "Mit dem Hubschrauber", nl: "Met de helikopter" },
+          { en: "By rope", es: "Por cuerda", de: "Mit Seil", nl: "Met touw" },
+          { en: "Cannot reach top", es: "No se puede llegar a la cima", de: "Kann die Spitze nicht erreichen", nl: "Kan de top niet bereiken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Most visitors take elevators to reach the top level, as stairs are only available up to the second platform.",
+          es: "La mayoría de los visitantes toman ascensores para llegar al nivel superior, ya que las escaleras solo están disponibles hasta la segunda plataforma.",
+          de: "Die meisten Besucher nehmen Aufzüge, um die oberste Ebene zu erreichen, da Treppen nur bis zur zweiten Plattform verfügbar sind.",
+          nl: "De meeste bezoekers nemen liften om het bovenste niveau te bereiken, omdat trappen alleen beschikbaar zijn tot het tweede platform."
+        }
+      },
+      {
+        question: {
+          en: "What makes the tower safe during storms?",
+          es: "¿Qué hace que la torre sea segura durante tormentas?",
+          de: "Was macht den Turm bei Stürmen sicher?",
+          nl: "Wat maakt de toren veilig tijdens stormen?"
+        },
+        options: [
+          { en: "Strong iron structure", es: "Estructura de hierro fuerte", de: "Starke Eisenstruktur", nl: "Sterke ijzeren structuur" },
+          { en: "Plastic coating", es: "Recubrimiento plástico", de: "Kunststoffbeschichtung", nl: "Plastic coating" },
+          { en: "Underground cables", es: "Cables subterráneos", de: "Unterirdische Kabel", nl: "Ondergrondse kabels" },
+          { en: "Glass protection", es: "Protección de vidrio", de: "Glasschutz", nl: "Glazen bescherming" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The tower's strong iron structure and open lattice design allow it to flex slightly in wind while remaining stable and safe.",
+          es: "La fuerte estructura de hierro de la torre y el diseño de celosía abierta le permiten flexionarse ligeramente con el viento mientras permanece estable y segura.",
+          de: "Die starke Eisenstruktur und das offene Gitterdesign des Turms ermöglichen es ihm, sich im Wind leicht zu biegen, während er stabil und sicher bleibt.",
+          nl: "De sterke ijzeren structuur en het open tralie-ontwerp van de toren stellen hem in staat licht te buigen in de wind terwijl hij stabiel en veilig blijft."
+        }
+      },
+      {
+        question: {
+          en: "What is the Eiffel Tower made to look like?",
+          es: "¿A qué está hecha para parecer la Torre Eiffel?",
+          de: "Wonach sieht der Eiffelturm aus?",
+          nl: "Waar is de Eiffeltoren gemaakt om op te lijken?"
+        },
+        options: [
+          { en: "Lattice structure", es: "Estructura de celosía", de: "Gitterstruktur", nl: "Tralie-structuur" },
+          { en: "Tree trunk", es: "Tronco de árbol", de: "Baumstamm", nl: "Boomstam" },
+          { en: "Mountain", es: "Montaña", de: "Berg", nl: "Berg" },
+          { en: "Pyramid", es: "Pirámide", de: "Pyramide", nl: "Piramide" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Eiffel Tower's design features a distinctive lattice structure with crisscrossing iron beams that create its elegant appearance.",
+          es: "El diseño de la Torre Eiffel presenta una estructura de celosía distintiva con vigas de hierro entrecruzadas que crean su apariencia elegante.",
+          de: "Das Design des Eiffelturms weist eine unverwechselbare Gitterstruktur mit gekreuzten Eisenträgern auf, die sein elegantes Aussehen schaffen.",
+          nl: "Het ontwerp van de Eiffeltoren heeft een kenmerkende tralie-structuur met kruisende ijzeren balken die zijn elegante uiterlijk creëren."
+        }
+      },
+      {
+        question: {
+          en: "What is the name of the park at the tower's base?",
+          es: "¿Cómo se llama el parque en la base de la torre?",
+          de: "Wie heißt der Park an der Basis des Turms?",
+          nl: "Wat is de naam van het park aan de voet van de toren?"
+        },
+        options: [
+          { en: "Champ de Mars", es: "Campo de Marte", de: "Champ de Mars", nl: "Champ de Mars" },
+          { en: "Tuileries Garden", es: "Jardín de las Tullerías", de: "Tuileriengarten", nl: "Tuileriën" },
+          { en: "Luxembourg Gardens", es: "Jardines de Luxemburgo", de: "Luxemburggarten", nl: "Luxemburg Tuinen" },
+          { en: "Bois de Boulogne", es: "Bosque de Bolonia", de: "Bois de Boulogne", nl: "Bois de Boulogne" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Champ de Mars is the large public greenspace at the base of the Eiffel Tower, extending to the École Militaire.",
+          es: "El Campo de Marte es el gran espacio verde público en la base de la Torre Eiffel, que se extiende hasta la École Militaire.",
+          de: "Das Champ de Mars ist die große öffentliche Grünfläche an der Basis des Eiffelturms, die sich bis zur École Militaire erstreckt.",
+          nl: "Het Champ de Mars is de grote openbare groene ruimte aan de voet van de Eiffeltoren, die zich uitstrekt tot aan de École Militaire."
+        }
       }
     ]
   };

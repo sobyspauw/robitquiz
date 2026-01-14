@@ -826,6 +826,27 @@
           de: "Produktionssiedlungen priorisieren hohe Pip-Zahlen (10-14 Pips) für maximale Ressourcengenerierung. Positionssiedlungen opfern etwas Produktion (6-8 Pips) um: Gegnerexpansion zu blockieren, wichtige Häfen zu sichern oder längste Straßenrouten zu beanspruchen. Beide sind im ausgewogenen Spiel notwendig.",
           nl: "Productie nederzettingen geven prioriteit aan hoge pip tellingen (10-14 pips) voor maximale bron generatie. Positionele nederzettingen offeren wat productie (6-8 pips) om: tegenstander expansie te blokkeren, sleutel havens te beveiligen of langste weg routes te claimen. Beide zijn noodzakelijk in gebalanceerd spel."
         }
+      },
+      {
+        question: {
+          en: "What is the benefit of having settlements on multiple different numbers?",
+          es: "¿Cuál es el beneficio de tener asentamientos en múltiples números diferentes?",
+          de: "Was ist der Vorteil, Siedlungen auf mehreren verschiedenen Zahlen zu haben?",
+          nl: "Wat is het voordeel van nederzettingen op meerdere verschillende nummers te hebben?"
+        },
+        options: [
+          { en: "More consistent resource production", es: "Producción de recursos más consistente", de: "Konsistentere Ressourcenproduktion", nl: "Meer consistente hulpbronnenproductie" },
+          { en: "Extra victory points", es: "Puntos de victoria extra", de: "Extra Siegpunkte", nl: "Extra overwinningspunten" },
+          { en: "Better trading rates", es: "Mejores tasas de comercio", de: "Bessere Handelsraten", nl: "Betere handelspercentages" },
+          { en: "Immunity from robber", es: "Inmunidad del ladrón", de: "Immunität gegen Räuber", nl: "Immuniteit tegen de rover" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Diversifying across multiple numbers (number diversity) provides more consistent resource production throughout the game, as you're not relying on just one or two numbers being rolled frequently.",
+          es: "Diversificar en múltiples números (diversidad numérica) proporciona una producción de recursos más consistente a lo largo del juego, ya que no dependes de que solo uno o dos números se lancen con frecuencia.",
+          de: "Die Diversifizierung über mehrere Zahlen (Zahlendiversität) bietet eine konsistentere Ressourcenproduktion während des Spiels, da du nicht darauf angewiesen bist, dass nur eine oder zwei Zahlen häufig gewürfelt werden.",
+          nl: "Diversifiëren over meerdere nummers (nummerdiversiteit) zorgt voor meer consistente hulpbronnenproductie gedurende het spel, omdat je niet afhankelijk bent van slechts één of twee nummers die vaak worden gegooid."
+        }
       }
     ]
   };

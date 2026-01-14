@@ -826,6 +826,27 @@
           de: "Catan zeigt positive Rückkopplungsschleifen: frühe Siedlungen → mehr Ressourcen → schnellere Stadt-Upgrades → verdoppelte Produktion → häufigere Bauten → territoriale Kontrolle → Sieg. Deshalb sind frühes Tempo und Siedlungsplatzierung kritisch—kleine Vorteile kumulieren exponentiell während des Spiels.",
           nl: "Catan vertoont positieve feedback loops: vroege nederzettingen → meer bronnen → snellere stadsupgrades → verdubbelde productie → frequentere bouwwerken → territoriale controle → overwinning. Daarom zijn vroeg tempo en nederzettingsplaatsing kritiek—kleine voordelen verergeren exponentieel gedurende het spel."
         }
+      },
+      {
+        question: {
+          en: "What is a 'robber lock' strategy?",
+          es: "¿Qué es una estrategia de 'bloqueo de ladrón'?",
+          de: "Was ist eine 'Räuber-Blockade'-Strategie?",
+          nl: "Wat is een 'rover-lock' strategie?"
+        },
+        options: [
+          { en: "Keeping the robber on opponent's best hex", es: "Mantener al ladrón en el mejor hexágono del oponente", de: "Den Räuber auf dem besten Feld des Gegners halten", nl: "De rover op het beste hex van de tegenstander houden" },
+          { en: "Never moving the robber", es: "Nunca mover al ladrón", de: "Den Räuber nie bewegen", nl: "De rover nooit verplaatsen" },
+          { en: "Using only knight cards", es: "Usar solo cartas de caballero", de: "Nur Ritterkarten verwenden", nl: "Alleen ridderskaarten gebruiken" },
+          { en: "Stealing from the same player repeatedly", es: "Robar del mismo jugador repetidamente", de: "Wiederholt vom selben Spieler stehlen", nl: "Herhaaldelijk van dezelfde speler stelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A robber lock is an aggressive strategy where you continuously keep the robber on an opponent's most productive hex to severely limit their resource generation and slow their progress.",
+          es: "Un bloqueo de ladrón es una estrategia agresiva donde mantienes continuamente al ladrón en el hexágono más productivo de un oponente para limitar severamente su generación de recursos y ralentizar su progreso.",
+          de: "Eine Räuber-Blockade ist eine aggressive Strategie, bei der du den Räuber kontinuierlich auf dem produktivsten Feld eines Gegners hältst, um dessen Ressourcenproduktion stark zu begrenzen und seinen Fortschritt zu verlangsamen.",
+          nl: "Een rover-lock is een agressieve strategie waarbij je de rover continu op het meest productieve hex van een tegenstander houdt om hun hulpbronnenproductie ernstig te beperken en hun voortgang te vertragen."
+        }
       }
     ]
   };

@@ -427,6 +427,426 @@
           de: "Chatbots werden ausgereifter, verstehen Kontext besser, bieten hilfreichere Antworten und können komplexe Kundenservice-Aufgaben bewältigen während sie 24/7 für sofortige Hilfe verfügbar sind.",
           nl: "Chatbots worden geavanceerder, begrijpen context beter, bieden helpere antwoorden en kunnen complexe klantenservicetaken afhandelen terwijl ze 24/7 beschikbaar zijn voor directe hulp."
         }
+      },
+      {
+        question: {
+          en: "What is 'precision agriculture' with AI?",
+          es: "¿Qué es la 'agricultura de precisión' con IA?",
+          de: "Was ist 'Präzisionslandwirtschaft' mit KI?",
+          nl: "Wat is 'precisielandbouw' met AI?"
+        },
+        options: [
+          { en: "Using AI to monitor crops and optimize farming practices", es: "Usar IA para monitorear cultivos y optimizar prácticas agrícolas", de: "KI nutzen um Pflanzen zu überwachen und Landwirtschaft zu optimieren", nl: "AI gebruiken om gewassen te monitoren en landbouwpraktijken te optimaliseren" },
+          { en: "Farming that must be done very precisely by hand", es: "Agricultura que debe hacerse muy precisamente a mano", de: "Landwirtschaft die sehr präzise von Hand gemacht werden muss", nl: "Landbouw die zeer nauwkeurig met de hand moet worden gedaan" },
+          { en: "AI that makes all crops identical", es: "IA que hace todos los cultivos idénticos", de: "KI die alle Pflanzen identisch macht", nl: "AI die alle gewassen identiek maakt" },
+          { en: "Only growing one type of crop", es: "Solo cultivar un tipo de cultivo", de: "Nur eine Art von Pflanze anbauen", nl: "Alleen één type gewas verbouwen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI helps farmers monitor soil conditions, predict weather impacts, optimize irrigation and fertilizer use, and identify plant diseases early, leading to better yields with fewer resources.",
+          es: "La IA ayuda a agricultores a monitorear condiciones del suelo, predecir impactos climáticos, optimizar uso de riego y fertilizantes e identificar enfermedades de plantas temprano, llevando a mejores rendimientos con menos recursos.",
+          de: "KI hilft Bauern Bodenbedingungen zu überwachen, Wettereinflüsse vorherzusagen, Bewässerung und Düngernutzung zu optimieren und Pflanzenkrankheiten früh zu identifizieren, was zu besseren Erträgen mit weniger Ressourcen führt.",
+          nl: "AI helpt boeren om bodemcondities te monitoren, weersinvloeden te voorspellen, irrigatie en bemestingsgebruik te optimaliseren en plantenziektes vroeg te identificeren, wat leidt tot betere opbrengsten met minder middelen."
+        }
+      },
+      {
+        question: {
+          en: "How might AI improve customer service experiences?",
+          es: "¿Cómo podría la IA mejorar las experiencias de servicio al cliente?",
+          de: "Wie könnte KI Kundenservice-Erfahrungen verbessern?",
+          nl: "Hoe zou AI klantenservice-ervaringen kunnen verbeteren?"
+        },
+        options: [
+          { en: "Instant responses, personalized help, and understanding customer needs better", es: "Respuestas instantáneas, ayuda personalizada y mejor comprensión de necesidades del cliente", de: "Sofortige Antworten, personalisierte Hilfe und besseres Verständnis von Kundenbedürfnissen", nl: "Directe antwoorden, gepersonaliseerde hulp en beter begrip van klantbehoeften" },
+          { en: "Replacing all human customer service without improvement", es: "Reemplazar todo servicio al cliente humano sin mejora", de: "Allen menschlichen Kundenservice ohne Verbesserung ersetzen", nl: "Alle menselijke klantenservice vervangen zonder verbetering" },
+          { en: "Making customers wait longer", es: "Hacer que los clientes esperen más tiempo", de: "Kunden länger warten lassen", nl: "Klanten langer laten wachten" },
+          { en: "Only providing automated responses that don't help", es: "Solo proporcionar respuestas automatizadas que no ayudan", de: "Nur automatisierte Antworten bieten die nicht helfen", nl: "Alleen geautomatiseerde antwoorden bieden die niet helpen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI enhances customer service by providing quick answers to common questions, routing complex issues to appropriate human agents, and offering personalized solutions based on customer history and preferences.",
+          es: "La IA mejora el servicio al cliente proporcionando respuestas rápidas a preguntas comunes, dirigiendo problemas complejos a agentes humanos apropiados y ofreciendo soluciones personalizadas basadas en historial y preferencias del cliente.",
+          de: "KI verbessert Kundenservice durch schnelle Antworten auf häufige Fragen, Weiterleitung komplexer Probleme an geeignete menschliche Agenten und personalisierte Lösungen basierend auf Kundenhistorie und Präferenzen.",
+          nl: "AI verbetert klantenservice door snelle antwoorden op veelgestelde vragen, complexe problemen doorsturen naar geschikte menselijke agents en gepersonaliseerde oplossingen bieden gebaseerd op klantgeschiedenis en voorkeuren."
+        }
+      },
+      {
+        question: {
+          en: "What are 'AI writing assistants' and how do they help?",
+          es: "¿Qué son los 'asistentes de escritura de IA' y cómo ayudan?",
+          de: "Was sind 'KI-Schreibassistenten' und wie helfen sie?",
+          nl: "Wat zijn 'AI-schrijfassistenten' en hoe helpen ze?"
+        },
+        options: [
+          { en: "Tools that suggest improvements to writing style, grammar, and clarity", es: "Herramientas que sugieren mejoras en estilo de escritura, gramática y claridad", de: "Werkzeuge die Verbesserungen für Schreibstil, Grammatik und Klarheit vorschlagen", nl: "Hulpmiddelen die verbeteringen voorstellen voor schrijfstijl, grammatica en duidelijkheid" },
+          { en: "AI that writes everything so humans never write", es: "IA que escribe todo para que humanos nunca escriban", de: "KI die alles schreibt damit Menschen nie schreiben", nl: "AI die alles schrijft zodat mensen nooit schrijven" },
+          { en: "Programs that only fix spelling errors", es: "Programas que solo corrigen errores ortográficos", de: "Programme die nur Rechtschreibfehler korrigieren", nl: "Programma's die alleen spelfouten corrigeren" },
+          { en: "Tools that make all writing sound the same", es: "Herramientas que hacen que toda escritura suene igual", de: "Werkzeuge die alle Texte gleich klingen lassen", nl: "Hulpmiddelen die alle schrijven hetzelfde laten klinken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI writing assistants help improve writing quality by suggesting better word choices, fixing grammar, enhancing clarity, adapting tone, and catching errors while preserving the writer's unique voice and intent.",
+          es: "Los asistentes de escritura de IA ayudan a mejorar la calidad de escritura sugiriendo mejores elecciones de palabras, corrigiendo gramática, mejorando claridad, adaptando tono y detectando errores mientras preservan la voz única e intención del escritor.",
+          de: "KI-Schreibassistenten helfen Schreibqualität zu verbessern durch Vorschlag besserer Wortwahl, Grammatikkorrektur, Klarheitsverbesserung, Tonanpassung und Fehlererkennung während die einzigartige Stimme und Absicht des Schreibers bewahrt wird.",
+          nl: "AI-schrijfassistenten helpen schrijfkwaliteit te verbeteren door betere woordkeuze voor te stellen, grammatica te corrigeren, duidelijkheid te verbeteren, toon aan te passen en fouten op te sporen terwijl de unieke stem en intentie van de schrijver behouden blijft."
+        }
+      },
+      {
+        question: {
+          en: "How might AI help protect endangered species?",
+          es: "¿Cómo podría la IA ayudar a proteger especies en peligro de extinción?",
+          de: "Wie könnte KI helfen bedrohte Arten zu schützen?",
+          nl: "Hoe zou AI kunnen helpen bedreigde soorten te beschermen?"
+        },
+        options: [
+          { en: "Tracking animal populations and detecting poaching activities", es: "Rastrear poblaciones animales y detectar actividades de caza furtiva", de: "Tierpopulationen verfolgen und Wilderei-Aktivitäten erkennen", nl: "Dierpopulaties volgen en stroperijactiviteiten detecteren" },
+          { en: "Creating robotic replacements for animals", es: "Crear reemplazos robóticos para animales", de: "Roboterersatz für Tiere schaffen", nl: "Robotvervangers voor dieren maken" },
+          { en: "Moving all animals to zoos", es: "Mover todos los animales a zoológicos", de: "Alle Tiere in Zoos bringen", nl: "Alle dieren naar dierentuinen verplaatsen" },
+          { en: "Only studying animals, not protecting them", es: "Solo estudiar animales, no protegerlos", de: "Nur Tiere studieren, nicht schützen", nl: "Alleen dieren bestuderen, niet beschermen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI analyzes camera trap images to monitor wildlife populations, uses drones to detect poachers, predicts threats to habitats, and helps conservationists make data-driven decisions to protect endangered species.",
+          es: "La IA analiza imágenes de cámaras trampa para monitorear poblaciones de vida silvestre, usa drones para detectar cazadores furtivos, predice amenazas a hábitats y ayuda a conservacionistas a tomar decisiones basadas en datos para proteger especies en peligro.",
+          de: "KI analysiert Kamerafallen-Bilder zur Überwachung von Wildtierpopulationen, nutzt Drohnen zur Wilderer-Erkennung, sagt Bedrohungen für Lebensräume vorher und hilft Naturschützern datenbasierte Entscheidungen zum Schutz bedrohter Arten zu treffen.",
+          nl: "AI analyseert cameravalbeelden om wildlife-populaties te monitoren, gebruikt drones om stropers te detecteren, voorspelt bedreigingen voor habitats en helpt natuurbeschermers datagedreven beslissingen te nemen om bedreigde soorten te beschermen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'sentiment analysis' in AI?",
+          es: "¿Qué es el 'análisis de sentimientos' en IA?",
+          de: "Was ist 'Stimmungsanalyse' in KI?",
+          nl: "Wat is 'sentimentanalyse' in AI?"
+        },
+        options: [
+          { en: "AI detecting emotions and opinions in text or speech", es: "IA detectando emociones y opiniones en texto o habla", de: "KI die Emotionen und Meinungen in Text oder Sprache erkennt", nl: "AI die emoties en meningen in tekst of spraak detecteert" },
+          { en: "AI that creates emotional responses in robots", es: "IA que crea respuestas emocionales en robots", de: "KI die emotionale Reaktionen in Robotern erzeugt", nl: "AI die emotionele reacties in robots creëert" },
+          { en: "Analyzing only positive sentiments", es: "Analizar solo sentimientos positivos", de: "Nur positive Gefühle analysieren", nl: "Alleen positieve sentimenten analyseren" },
+          { en: "Making people feel certain emotions", es: "Hacer que las personas sientan ciertas emociones", de: "Menschen bestimmte Emotionen fühlen lassen", nl: "Mensen bepaalde emoties laten voelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sentiment analysis helps businesses understand customer feelings about products, monitors social media reactions, and enables more empathetic AI responses by detecting whether text expresses positive, negative, or neutral emotions.",
+          es: "El análisis de sentimientos ayuda a empresas a entender sentimientos de clientes sobre productos, monitorea reacciones en redes sociales y permite respuestas de IA más empáticas detectando si texto expresa emociones positivas, negativas o neutrales.",
+          de: "Stimmungsanalyse hilft Unternehmen Kundengefühle über Produkte zu verstehen, überwacht Social-Media-Reaktionen und ermöglicht empathischere KI-Antworten durch Erkennung ob Text positive, negative oder neutrale Emotionen ausdrückt.",
+          nl: "Sentimentanalyse helpt bedrijven klantgevoelens over producten te begrijpen, monitort social media-reacties en maakt meer empathische AI-reacties mogelijk door te detecteren of tekst positieve, negatieve of neutrale emoties uitdrukt."
+        }
+      },
+      {
+        question: {
+          en: "How might AI improve accessibility for people with disabilities?",
+          es: "¿Cómo podría la IA mejorar la accesibilidad para personas con discapacidades?",
+          de: "Wie könnte KI die Barrierefreiheit für Menschen mit Behinderungen verbessern?",
+          nl: "Hoe zou AI de toegankelijkheid voor mensen met een beperking kunnen verbeteren?"
+        },
+        options: [
+          { en: "Text-to-speech, speech-to-text, image descriptions, and smart navigation aids", es: "Texto a voz, voz a texto, descripciones de imágenes y ayudas de navegación inteligentes", de: "Text-zu-Sprache, Sprache-zu-Text, Bildbeschreibungen und intelligente Navigationshilfen", nl: "Tekst-naar-spraak, spraak-naar-tekst, afbeeldingsbeschrijvingen en slimme navigatiehulpen" },
+          { en: "Making technology more difficult to use", es: "Hacer la tecnología más difícil de usar", de: "Technologie schwieriger zu nutzen machen", nl: "Technologie moeilijker te gebruiken maken" },
+          { en: "Only helping people without disabilities", es: "Solo ayudando a personas sin discapacidades", de: "Nur Menschen ohne Behinderungen helfen", nl: "Alleen mensen zonder beperkingen helpen" },
+          { en: "Creating barriers instead of removing them", es: "Crear barreras en lugar de eliminarlas", de: "Barrieren schaffen statt sie zu beseitigen", nl: "Barrières creëren in plaats van ze te verwijderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI enhances accessibility through voice control for mobility impairments, automated captioning for hearing impairments, image recognition and description for visual impairments, and adaptive interfaces that adjust to individual needs.",
+          es: "La IA mejora la accesibilidad a través de control de voz para discapacidades motoras, subtitulado automatizado para discapacidades auditivas, reconocimiento y descripción de imágenes para discapacidades visuales e interfaces adaptativas que se ajustan a necesidades individuales.",
+          de: "KI verbessert Barrierefreiheit durch Sprachsteuerung für Bewegungseinschränkungen, automatische Untertitelung für Hörbehinderungen, Bilderkennung und -beschreibung für Sehbehinderungen und adaptive Schnittstellen die sich an individuelle Bedürfnisse anpassen.",
+          nl: "AI verbetert toegankelijkheid via spraakbesturing voor mobiliteitsbeperkingen, geautomatiseerde ondertiteling voor gehoorproblemen, beeldherkenning en -beschrijving voor visuele beperkingen en adaptieve interfaces die zich aanpassen aan individuele behoeften."
+        }
+      },
+      {
+        question: {
+          en: "What are 'neural networks' in simple terms?",
+          es: "¿Qué son las 'redes neuronales' en términos simples?",
+          de: "Was sind 'neuronale Netzwerke' einfach erklärt?",
+          nl: "Wat zijn 'neurale netwerken' in eenvoudige bewoordingen?"
+        },
+        options: [
+          { en: "AI systems inspired by how the human brain learns and processes information", es: "Sistemas de IA inspirados en cómo el cerebro humano aprende y procesa información", de: "KI-Systeme inspiriert davon wie das menschliche Gehirn lernt und Informationen verarbeitet", nl: "AI-systemen geïnspireerd door hoe het menselijk brein leert en informatie verwerkt" },
+          { en: "Networks that connect different neurons in biology labs", es: "Redes que conectan diferentes neuronas en laboratorios de biología", de: "Netzwerke die verschiedene Neuronen in Biologielaboren verbinden", nl: "Netwerken die verschillende neuronen verbinden in biologielaboratoria" },
+          { en: "Computer networks used only in hospitals", es: "Redes de computadoras usadas solo en hospitales", de: "Computernetzwerke die nur in Krankenhäusern verwendet werden", nl: "Computernetwerken die alleen in ziekenhuizen worden gebruikt" },
+          { en: "Artificial neurons that replace human brain cells", es: "Neuronas artificiales que reemplazan células cerebrales humanas", de: "Künstliche Neuronen die menschliche Gehirnzellen ersetzen", nl: "Kunstmatige neuronen die menselijke hersencellen vervangen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Neural networks are AI models with interconnected layers that process information similarly to how neurons in our brain work together, learning patterns from data to make predictions and decisions.",
+          es: "Las redes neuronales son modelos de IA con capas interconectadas que procesan información de manera similar a cómo las neuronas en nuestro cerebro trabajan juntas, aprendiendo patrones de datos para hacer predicciones y decisiones.",
+          de: "Neuronale Netzwerke sind KI-Modelle mit vernetzten Schichten die Information ähnlich verarbeiten wie Neuronen in unserem Gehirn zusammenarbeiten, Muster aus Daten lernen um Vorhersagen und Entscheidungen zu treffen.",
+          nl: "Neurale netwerken zijn AI-modellen met onderling verbonden lagen die informatie verwerken vergelijkbaar met hoe neuronen in ons brein samenwerken, patronen leren uit data om voorspellingen en beslissingen te maken."
+        }
+      },
+      {
+        question: {
+          en: "How might AI assist doctors in surgery?",
+          es: "¿Cómo podría la IA asistir a doctores en cirugía?",
+          de: "Wie könnte KI Ärzten bei Operationen assistieren?",
+          nl: "Hoe zou AI artsen kunnen assisteren bij chirurgie?"
+        },
+        options: [
+          { en: "Providing real-time guidance, steady robotic precision, and analyzing medical images during procedures", es: "Proporcionar guía en tiempo real, precisión robótica estable y analizar imágenes médicas durante procedimientos", de: "Echtzeitführung bieten, stabile robotische Präzision und medizinische Bilder während Eingriffen analysieren", nl: "Real-time begeleiding bieden, stabiele robotische precisie en medische beelden analyseren tijdens procedures" },
+          { en: "Replacing all surgeons completely", es: "Reemplazar completamente a todos los cirujanos", de: "Alle Chirurgen vollständig ersetzen", nl: "Alle chirurgen volledig vervangen" },
+          { en: "Only cleaning surgical instruments", es: "Solo limpiar instrumentos quirúrgicos", de: "Nur chirurgische Instrumente reinigen", nl: "Alleen chirurgische instrumenten reinigen" },
+          { en: "Making surgery more dangerous", es: "Hacer la cirugía más peligrosa", de: "Chirurgie gefährlicher machen", nl: "Chirurgie gevaarlijker maken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI-assisted surgical systems enhance precision, reduce hand tremors, provide 3D visualization, suggest optimal approaches based on patient data, and help surgeons perform minimally invasive procedures with better outcomes.",
+          es: "Los sistemas quirúrgicos asistidos por IA mejoran precisión, reducen temblores de mano, proporcionan visualización 3D, sugieren enfoques óptimos basados en datos del paciente y ayudan a cirujanos a realizar procedimientos mínimamente invasivos con mejores resultados.",
+          de: "KI-unterstützte chirurgische Systeme verbessern Präzision, reduzieren Handzittern, bieten 3D-Visualisierung, schlagen optimale Ansätze basierend auf Patientendaten vor und helfen Chirurgen minimal-invasive Eingriffe mit besseren Ergebnissen durchzuführen.",
+          nl: "AI-ondersteunde chirurgische systemen verbeteren precisie, verminderen handtrillingen, bieden 3D-visualisatie, stellen optimale benaderingen voor op basis van patiëntgegevens en helpen chirurgen minimaal invasieve procedures uit te voeren met betere resultaten."
+        }
+      },
+      {
+        question: {
+          en: "What is 'machine learning' in everyday language?",
+          es: "¿Qué es el 'aprendizaje automático' en lenguaje cotidiano?",
+          de: "Was ist 'maschinelles Lernen' in Alltagssprache?",
+          nl: "Wat is 'machine learning' in alledaagse taal?"
+        },
+        options: [
+          { en: "Teaching computers to learn from examples rather than being explicitly programmed", es: "Enseñar a computadoras a aprender de ejemplos en lugar de ser programadas explícitamente", de: "Computer lehren aus Beispielen zu lernen anstatt explizit programmiert zu werden", nl: "Computers leren van voorbeelden in plaats van expliciet geprogrammeerd te worden" },
+          { en: "Machines physically learning to move like humans", es: "Máquinas aprendiendo físicamente a moverse como humanos", de: "Maschinen lernen physisch sich wie Menschen zu bewegen", nl: "Machines fysiek leren bewegen zoals mensen" },
+          { en: "Only teaching robots, not computers", es: "Solo enseñar a robots, no a computadoras", de: "Nur Roboter lehren, nicht Computer", nl: "Alleen robots leren, geen computers" },
+          { en: "Machines that learn to break down over time", es: "Máquinas que aprenden a descomponerse con el tiempo", de: "Maschinen die lernen mit der Zeit kaputt zu gehen", nl: "Machines die leren kapot te gaan in de loop van de tijd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Machine learning allows computers to improve at tasks by analyzing data and finding patterns, much like how we learn from experience, enabling AI to recognize images, understand speech, and make predictions without being explicitly told how.",
+          es: "El aprendizaje automático permite a computadoras mejorar en tareas analizando datos y encontrando patrones, como nosotros aprendemos de experiencia, permitiendo a IA reconocer imágenes, entender habla y hacer predicciones sin ser explícitamente instruidas cómo.",
+          de: "Maschinelles Lernen ermöglicht Computern sich bei Aufgaben zu verbessern durch Datenanalyse und Mustererkennung, ähnlich wie wir aus Erfahrung lernen, wodurch KI Bilder erkennen, Sprache verstehen und Vorhersagen treffen kann ohne explizit angewiesen zu werden wie.",
+          nl: "Machine learning stelt computers in staat te verbeteren in taken door data te analyseren en patronen te vinden, vergelijkbaar met hoe wij leren van ervaring, waardoor AI afbeeldingen kan herkennen, spraak kan begrijpen en voorspellingen kan doen zonder expliciet te worden verteld hoe."
+        }
+      },
+      {
+        question: {
+          en: "How might AI help reduce traffic congestion in cities?",
+          es: "¿Cómo podría la IA ayudar a reducir la congestión del tráfico en ciudades?",
+          de: "Wie könnte KI helfen Verkehrsstaus in Städten zu reduzieren?",
+          nl: "Hoe zou AI kunnen helpen verkeersopstoppingen in steden te verminderen?"
+        },
+        options: [
+          { en: "Optimizing traffic light timing and suggesting alternative routes based on real-time conditions", es: "Optimizar sincronización de semáforos y sugerir rutas alternativas basadas en condiciones en tiempo real", de: "Ampelschaltung optimieren und alternative Routen basierend auf Echtzeit-Bedingungen vorschlagen", nl: "Verkeerslichten optimaliseren en alternatieve routes voorstellen op basis van real-time omstandigheden" },
+          { en: "Banning all cars from cities", es: "Prohibir todos los autos de las ciudades", de: "Alle Autos aus Städten verbannen", nl: "Alle auto's uit steden verbannen" },
+          { en: "Making all roads one-way only", es: "Hacer todas las carreteras de un solo sentido", de: "Alle Straßen nur in eine Richtung machen", nl: "Alle wegen eenrichtingsverkeer maken" },
+          { en: "Forcing everyone to travel at the same time", es: "Obligar a todos a viajar al mismo tiempo", de: "Alle zwingen zur gleichen Zeit zu reisen", nl: "Iedereen dwingen tegelijk te reizen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI analyzes traffic patterns to adjust signal timing dynamically, predicts congestion before it happens, routes vehicles efficiently, and coordinates public transportation to reduce overall traffic and travel times.",
+          es: "La IA analiza patrones de tráfico para ajustar sincronización de señales dinámicamente, predice congestión antes de que ocurra, dirige vehículos eficientemente y coordina transporte público para reducir tráfico general y tiempos de viaje.",
+          de: "KI analysiert Verkehrsmuster um Signalzeiten dynamisch anzupassen, sagt Staus vorher bevor sie entstehen, leitet Fahrzeuge effizient und koordiniert öffentlichen Verkehr um Gesamtverkehr und Reisezeiten zu reduzieren.",
+          nl: "AI analyseert verkeerspatronen om signaaltiming dynamisch aan te passen, voorspelt files voordat ze gebeuren, leidt voertuigen efficiënt en coördineert openbaar vervoer om totaal verkeer en reistijden te verminderen."
+        }
+      },
+      {
+        question: {
+          en: "What are 'smart thermostats' and how do they work?",
+          es: "¿Qué son los 'termostatos inteligentes' y cómo funcionan?",
+          de: "Was sind 'intelligente Thermostate' und wie funktionieren sie?",
+          nl: "Wat zijn 'slimme thermostaten' en hoe werken ze?"
+        },
+        options: [
+          { en: "AI-powered devices that learn your schedule and adjust home temperature automatically", es: "Dispositivos impulsados por IA que aprenden tu horario y ajustan temperatura del hogar automáticamente", de: "KI-gestützte Geräte die deinen Zeitplan lernen und Heimtemperatur automatisch anpassen", nl: "AI-aangedreven apparaten die je schema leren en huistemperatuur automatisch aanpassen" },
+          { en: "Thermostats that are just more expensive than regular ones", es: "Termostatos que solo son más caros que los regulares", de: "Thermostate die nur teurer sind als normale", nl: "Thermostaten die alleen duurder zijn dan gewone" },
+          { en: "Temperature controls that only work with smartphones", es: "Controles de temperatura que solo funcionan con smartphones", de: "Temperaturregler die nur mit Smartphones funktionieren", nl: "Temperatuurregelingen die alleen werken met smartphones" },
+          { en: "Devices that keep temperature constant all the time", es: "Dispositivos que mantienen temperatura constante todo el tiempo", de: "Geräte die Temperatur die ganze Zeit konstant halten", nl: "Apparaten die temperatuur de hele tijd constant houden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Smart thermostats use AI to learn when you're home, your temperature preferences, and local weather patterns to automatically adjust heating and cooling, saving energy while maintaining comfort.",
+          es: "Los termostatos inteligentes usan IA para aprender cuándo estás en casa, tus preferencias de temperatura y patrones climáticos locales para ajustar automáticamente calefacción y refrigeración, ahorrando energía mientras mantienen comodidad.",
+          de: "Intelligente Thermostate nutzen KI um zu lernen wann du zuhause bist, deine Temperaturpräferenzen und lokale Wettermuster um automatisch Heizung und Kühlung anzupassen, Energie zu sparen während Komfort erhalten bleibt.",
+          nl: "Slimme thermostaten gebruiken AI om te leren wanneer je thuis bent, je temperatuurvoorkeuren en lokale weerpatronen om automatisch verwarming en koeling aan te passen, energie te besparen terwijl comfort behouden blijft."
+        }
+      },
+      {
+        question: {
+          en: "How might AI help with disaster prediction and response?",
+          es: "¿Cómo podría la IA ayudar con predicción y respuesta a desastres?",
+          de: "Wie könnte KI bei Katastrophenvorhersage und -reaktion helfen?",
+          nl: "Hoe zou AI kunnen helpen bij rampvoorspelling en -respons?"
+        },
+        options: [
+          { en: "Predicting earthquakes, floods, and hurricanes earlier and coordinating emergency response", es: "Predecir terremotos, inundaciones y huracanes antes y coordinar respuesta de emergencia", de: "Erdbeben, Überschwemmungen und Hurrikane früher vorhersagen und Notfallreaktion koordinieren", nl: "Aardbevingen, overstromingen en orkanen eerder voorspellen en noodhulp coördineren" },
+          { en: "Preventing all natural disasters from happening", es: "Prevenir que todos los desastres naturales ocurran", de: "Alle Naturkatastrophen am Auftreten hindern", nl: "Alle natuurrampen voorkomen" },
+          { en: "Only reporting disasters after they happen", es: "Solo reportar desastres después de que ocurran", de: "Nur Katastrophen melden nachdem sie passiert sind", nl: "Alleen rampen melden nadat ze gebeuren" },
+          { en: "Creating disasters for testing purposes", es: "Crear desastres para propósitos de prueba", de: "Katastrophen zu Testzwecken erschaffen", nl: "Rampen creëren voor testdoeleinden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI analyzes weather data, seismic activity, and historical patterns to predict natural disasters earlier, optimize evacuation routes, coordinate emergency services, and assess damage quickly to improve disaster response and save lives.",
+          es: "La IA analiza datos meteorológicos, actividad sísmica y patrones históricos para predecir desastres naturales antes, optimizar rutas de evacuación, coordinar servicios de emergencia y evaluar daños rápidamente para mejorar respuesta a desastres y salvar vidas.",
+          de: "KI analysiert Wetterdaten, seismische Aktivität und historische Muster um Naturkatastrophen früher vorherzusagen, Evakuierungsrouten zu optimieren, Notdienste zu koordinieren und Schäden schnell zu bewerten um Katastrophenreaktion zu verbessern und Leben zu retten.",
+          nl: "AI analyseert weergegevens, seismische activiteit en historische patronen om natuurrampen eerder te voorspellen, evacuatieroutes te optimaliseren, hulpdiensten te coördineren en schade snel te beoordelen om rampenrespons te verbeteren en levens te redden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'facial recognition' technology and where is it used?",
+          es: "¿Qué es la tecnología de 'reconocimiento facial' y dónde se usa?",
+          de: "Was ist 'Gesichtserkennungs'-Technologie und wo wird sie verwendet?",
+          nl: "Wat is 'gezichtsherkenning'-technologie en waar wordt het gebruikt?"
+        },
+        options: [
+          { en: "AI that identifies people by analyzing their facial features, used in phone unlocking and security", es: "IA que identifica personas analizando sus rasgos faciales, usada en desbloqueo de teléfonos y seguridad", de: "KI die Menschen durch Analyse ihrer Gesichtsmerkmale identifiziert, verwendet beim Telefon-Entsperren und Sicherheit", nl: "AI die mensen identificeert door hun gezichtskenmerken te analyseren, gebruikt bij telefoon ontgrendelen en beveiliging" },
+          { en: "Technology that only recognizes famous people", es: "Tecnología que solo reconoce personas famosas", de: "Technologie die nur berühmte Menschen erkennt", nl: "Technologie die alleen beroemde mensen herkent" },
+          { en: "AI that changes people's faces in photos", es: "IA que cambia caras de personas en fotos", de: "KI die Gesichter von Menschen in Fotos verändert", nl: "AI die gezichten van mensen verandert in foto's" },
+          { en: "Software that makes everyone look the same", es: "Software que hace que todos se vean iguales", de: "Software die alle gleich aussehen lässt", nl: "Software die iedereen er hetzelfde uit laat zien" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Facial recognition AI maps unique facial features to identify individuals, commonly used for unlocking smartphones, security systems, airport screening, and finding missing persons, though it raises privacy concerns that need careful consideration.",
+          es: "La IA de reconocimiento facial mapea rasgos faciales únicos para identificar individuos, comúnmente usada para desbloquear smartphones, sistemas de seguridad, control en aeropuertos y encontrar personas desaparecidas, aunque plantea preocupaciones de privacidad que necesitan consideración cuidadosa.",
+          de: "Gesichtserkennungs-KI kartiert einzigartige Gesichtsmerkmale zur Identifizierung von Personen, häufig verwendet zum Entsperren von Smartphones, Sicherheitssystemen, Flughafen-Screening und Finden vermisster Personen, obwohl es Datenschutzbedenken aufwirft die sorgfältige Überlegung benötigen.",
+          nl: "Gezichtsherkennings-AI brengt unieke gezichtskenmerken in kaart om individuen te identificeren, vaak gebruikt voor het ontgrendelen van smartphones, beveiligingssystemen, luchthaven screening en het vinden van vermiste personen, hoewel het privacyzorgen oproept die zorgvuldige overweging vereisen."
+        }
+      },
+      {
+        question: {
+          en: "How might AI personalize learning experiences in schools?",
+          es: "¿Cómo podría la IA personalizar experiencias de aprendizaje en escuelas?",
+          de: "Wie könnte KI Lernerfahrungen in Schulen personalisieren?",
+          nl: "Hoe zou AI leerervaringen in scholen kunnen personaliseren?"
+        },
+        options: [
+          { en: "Adapting difficulty levels, providing customized practice, and identifying where each student needs help", es: "Adaptar niveles de dificultad, proporcionar práctica personalizada e identificar dónde cada estudiante necesita ayuda", de: "Schwierigkeitsgrade anpassen, maßgeschneiderte Übung bieten und identifizieren wo jeder Schüler Hilfe braucht", nl: "Moeilijkheidsniveaus aanpassen, aangepaste oefening bieden en identificeren waar elke student hulp nodig heeft" },
+          { en: "Making all students learn exactly the same way", es: "Hacer que todos los estudiantes aprendan exactamente de la misma manera", de: "Alle Schüler genau gleich lernen lassen", nl: "Alle studenten precies hetzelfde laten leren" },
+          { en: "Only teaching the fastest learners", es: "Solo enseñar a los aprendices más rápidos", de: "Nur die schnellsten Lerner unterrichten", nl: "Alleen de snelste leerlingen onderwijzen" },
+          { en: "Replacing all teachers with computers", es: "Reemplazar todos los maestros con computadoras", de: "Alle Lehrer durch Computer ersetzen", nl: "Alle leraren vervangen door computers" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI educational tools adapt to each student's learning pace, identify knowledge gaps, provide targeted practice, offer different explanations for difficult concepts, and help teachers understand individual student needs for more effective instruction.",
+          es: "Las herramientas educativas de IA se adaptan al ritmo de aprendizaje de cada estudiante, identifican brechas de conocimiento, proporcionan práctica dirigida, ofrecen diferentes explicaciones para conceptos difíciles y ayudan a maestros a entender necesidades individuales de estudiantes para instrucción más efectiva.",
+          de: "KI-Bildungstools passen sich an das Lerntempo jedes Schülers an, identifizieren Wissenslücken, bieten gezielte Übung, bieten verschiedene Erklärungen für schwierige Konzepte und helfen Lehrern individuelle Schülerbedürfnisse für effektiveren Unterricht zu verstehen.",
+          nl: "AI-onderwijstools passen zich aan het leertempo van elke student aan, identificeren kennisgaten, bieden gerichte oefening, bieden verschillende verklaringen voor moeilijke concepten en helpen leraren individuele studentbehoeften te begrijpen voor effectievere instructie."
+        }
+      },
+      {
+        question: {
+          en: "What are 'AI ethics' and why do they matter?",
+          es: "¿Qué es la 'ética de IA' y por qué importa?",
+          de: "Was ist 'KI-Ethik' und warum ist sie wichtig?",
+          nl: "Wat is 'AI-ethiek' en waarom is het belangrijk?"
+        },
+        options: [
+          { en: "Guidelines ensuring AI is developed and used responsibly, fairly, and safely for everyone", es: "Pautas asegurando que IA se desarrolle y use responsablemente, justamente y con seguridad para todos", de: "Richtlinien die sicherstellen dass KI verantwortungsvoll, fair und sicher für alle entwickelt und genutzt wird", nl: "Richtlijnen die ervoor zorgen dat AI verantwoordelijk, eerlijk en veilig voor iedereen wordt ontwikkeld en gebruikt" },
+          { en: "Rules that prevent all AI development", es: "Reglas que previenen todo desarrollo de IA", de: "Regeln die alle KI-Entwicklung verhindern", nl: "Regels die alle AI-ontwikkeling voorkomen" },
+          { en: "Ethics only for robots, not humans", es: "Ética solo para robots, no para humanos", de: "Ethik nur für Roboter, nicht für Menschen", nl: "Ethiek alleen voor robots, niet voor mensen" },
+          { en: "Making AI more expensive to develop", es: "Hacer la IA más cara de desarrollar", de: "KI teurer zu entwickeln machen", nl: "AI duurder maken om te ontwikkelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI ethics addresses important questions about bias, privacy, transparency, accountability, and fairness to ensure AI benefits everyone and doesn't cause harm, helping create technology that aligns with human values and rights.",
+          es: "La ética de IA aborda preguntas importantes sobre sesgo, privacidad, transparencia, responsabilidad y equidad para asegurar que IA beneficie a todos y no cause daño, ayudando a crear tecnología que se alinea con valores y derechos humanos.",
+          de: "KI-Ethik adressiert wichtige Fragen über Voreingenommenheit, Privatsphäre, Transparenz, Verantwortlichkeit und Fairness um sicherzustellen dass KI allen nützt und keinen Schaden verursacht, hilft Technologie zu schaffen die mit menschlichen Werten und Rechten übereinstimmt.",
+          nl: "AI-ethiek behandelt belangrijke vragen over vooringenomenheid, privacy, transparantie, verantwoordelijkheid en eerlijkheid om ervoor te zorgen dat AI iedereen ten goede komt en geen schade veroorzaakt, helpt technologie te creëren die aansluit bij menselijke waarden en rechten."
+        }
+      },
+      {
+        question: {
+          en: "How might AI change job markets in the future?",
+          es: "¿Cómo podría la IA cambiar los mercados laborales en el futuro?",
+          de: "Wie könnte KI Arbeitsmärkte in der Zukunft verändern?",
+          nl: "Hoe zou AI arbeidsmarkten in de toekomst kunnen veranderen?"
+        },
+        options: [
+          { en: "Automating some tasks while creating new types of jobs requiring different skills", es: "Automatizar algunas tareas mientras crea nuevos tipos de empleos que requieren diferentes habilidades", de: "Einige Aufgaben automatisieren während neue Arten von Jobs geschaffen werden die andere Fähigkeiten erfordern", nl: "Sommige taken automatiseren terwijl nieuwe soorten banen worden gecreëerd die andere vaardigheden vereisen" },
+          { en: "Eliminating all human jobs immediately", es: "Eliminar todos los empleos humanos inmediatamente", de: "Alle menschlichen Jobs sofort eliminieren", nl: "Alle menselijke banen onmiddellijk elimineren" },
+          { en: "Making everyone's job exactly the same", es: "Hacer el trabajo de todos exactamente igual", de: "Den Job aller genau gleich machen", nl: "Ieders baan precies hetzelfde maken" },
+          { en: "Only affecting jobs in technology companies", es: "Solo afectando empleos en empresas de tecnología", de: "Nur Jobs in Technologieunternehmen beeinflussen", nl: "Alleen banen in technologiebedrijven beïnvloeden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will likely automate repetitive tasks, changing some jobs while creating new opportunities in AI development, ethics, maintenance, and fields we haven't imagined yet, making adaptability and continuous learning important for workers.",
+          es: "La IA probablemente automatizará tareas repetitivas, cambiando algunos empleos mientras crea nuevas oportunidades en desarrollo de IA, ética, mantenimiento y campos que aún no hemos imaginado, haciendo la adaptabilidad y aprendizaje continuo importantes para trabajadores.",
+          de: "KI wird wahrscheinlich repetitive Aufgaben automatisieren, einige Jobs verändern während neue Möglichkeiten in KI-Entwicklung, Ethik, Wartung und Bereichen geschaffen werden die wir uns noch nicht vorgestellt haben, wodurch Anpassungsfähigkeit und kontinuierliches Lernen für Arbeiter wichtig wird.",
+          nl: "AI zal waarschijnlijk repetitieve taken automatiseren, sommige banen veranderen terwijl nieuwe kansen worden gecreëerd in AI-ontwikkeling, ethiek, onderhoud en gebieden die we ons nog niet hebben voorgesteld, waardoor aanpassingsvermogen en continu leren belangrijk wordt voor werknemers."
+        }
+      },
+      {
+        question: {
+          en: "What is 'augmented reality' (AR) and how does AI enhance it?",
+          es: "¿Qué es 'realidad aumentada' (AR) y cómo la mejora la IA?",
+          de: "Was ist 'erweiterte Realität' (AR) und wie verbessert KI sie?",
+          nl: "Wat is 'augmented reality' (AR) en hoe verbetert AI het?"
+        },
+        options: [
+          { en: "Digital information overlaid on the real world, with AI recognizing objects and providing relevant information", es: "Información digital superpuesta en el mundo real, con IA reconociendo objetos y proporcionando información relevante", de: "Digitale Informationen über die reale Welt gelegt, mit KI die Objekte erkennt und relevante Informationen bietet", nl: "Digitale informatie over de echte wereld heen gelegd, met AI die objecten herkent en relevante informatie biedt" },
+          { en: "Completely fake virtual worlds", es: "Mundos virtuales completamente falsos", de: "Völlig gefälschte virtuelle Welten", nl: "Volledig nep virtuele werelden" },
+          { en: "Technology that makes reality look better", es: "Tecnología que hace que la realidad se vea mejor", de: "Technologie die Realität besser aussehen lässt", nl: "Technologie die realiteit er beter uit laat zien" },
+          { en: "AR only works in video games", es: "AR solo funciona en videojuegos", de: "AR funktioniert nur in Videospielen", nl: "AR werkt alleen in videogames" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AR adds digital elements to your view of the real world through devices like smartphones or glasses, and AI enhances this by recognizing what you're looking at and providing contextual information, navigation help, or interactive experiences.",
+          es: "AR agrega elementos digitales a tu vista del mundo real a través de dispositivos como smartphones o gafas, y la IA mejora esto reconociendo lo que estás mirando y proporcionando información contextual, ayuda de navegación o experiencias interactivas.",
+          de: "AR fügt digitale Elemente zu deiner Sicht der realen Welt durch Geräte wie Smartphones oder Brillen hinzu, und KI verbessert dies durch Erkennung was du ansiehst und Bereitstellung kontextbezogener Informationen, Navigationshilfe oder interaktiver Erfahrungen.",
+          nl: "AR voegt digitale elementen toe aan je zicht op de echte wereld via apparaten zoals smartphones of brillen, en AI verbetert dit door te herkennen waar je naar kijkt en contextuele informatie, navigatiehulp of interactieve ervaringen te bieden."
+        }
+      },
+      {
+        question: {
+          en: "How might AI help combat fake news and misinformation?",
+          es: "¿Cómo podría la IA ayudar a combatir noticias falsas y desinformación?",
+          de: "Wie könnte KI helfen Fake News und Fehlinformationen zu bekämpfen?",
+          nl: "Hoe zou AI kunnen helpen nepnieuws en verkeerde informatie te bestrijden?"
+        },
+        options: [
+          { en: "Detecting manipulated images, verifying sources, and identifying suspicious patterns in false information", es: "Detectar imágenes manipuladas, verificar fuentes e identificar patrones sospechosos en información falsa", de: "Manipulierte Bilder erkennen, Quellen verifizieren und verdächtige Muster in falschen Informationen identifizieren", nl: "Gemanipuleerde afbeeldingen detecteren, bronnen verifiëren en verdachte patronen in valse informatie identificeren" },
+          { en: "Blocking all news from the internet", es: "Bloquear todas las noticias de internet", de: "Alle Nachrichten aus dem Internet blockieren", nl: "Alle nieuwsberichten van internet blokkeren" },
+          { en: "Creating more fake news to confuse people", es: "Crear más noticias falsas para confundir a la gente", de: "Mehr Fake News schaffen um Menschen zu verwirren", nl: "Meer nepnieuws creëren om mensen te verwarren" },
+          { en: "Only trusting AI-written articles", es: "Solo confiar en artículos escritos por IA", de: "Nur KI-geschriebenen Artikeln vertrauen", nl: "Alleen AI-geschreven artikelen vertrouwen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI can help identify fake news by checking image authenticity, cross-referencing facts with reliable sources, detecting manipulated videos, analyzing writing patterns, and flagging potentially false information for human review, though critical thinking remains essential.",
+          es: "La IA puede ayudar a identificar noticias falsas verificando autenticidad de imágenes, cruzando hechos con fuentes confiables, detectando videos manipulados, analizando patrones de escritura y señalando información potencialmente falsa para revisión humana, aunque el pensamiento crítico sigue siendo esencial.",
+          de: "KI kann helfen Fake News zu identifizieren durch Überprüfung der Bildauthentizität, Abgleich von Fakten mit zuverlässigen Quellen, Erkennung manipulierter Videos, Analyse von Schreibmustern und Kennzeichnung potenziell falscher Informationen für menschliche Überprüfung, obwohl kritisches Denken wesentlich bleibt.",
+          nl: "AI kan helpen nepnieuws te identificeren door beeldauthenticiteit te controleren, feiten te kruisverwijzen met betrouwbare bronnen, gemanipuleerde video's te detecteren, schrijfpatronen te analyseren en potentieel valse informatie te markeren voor menselijke beoordeling, hoewel kritisch denken essentieel blijft."
+        }
+      },
+      {
+        question: {
+          en: "What might AI-powered 'virtual assistants' do for businesses?",
+          es: "¿Qué podrían hacer los 'asistentes virtuales' impulsados por IA para empresas?",
+          de: "Was könnten KI-gestützte 'virtuelle Assistenten' für Unternehmen tun?",
+          nl: "Wat zouden AI-aangedreven 'virtuele assistenten' voor bedrijven kunnen doen?"
+        },
+        options: [
+          { en: "Schedule meetings, manage emails, analyze data, and handle routine tasks automatically", es: "Programar reuniones, gestionar correos, analizar datos y manejar tareas rutinarias automáticamente", de: "Meetings planen, E-Mails verwalten, Daten analysieren und Routineaufgaben automatisch erledigen", nl: "Vergaderingen plannen, e-mails beheren, data analyseren en routinetaken automatisch afhandelen" },
+          { en: "Replace all human employees completely", es: "Reemplazar completamente a todos los empleados humanos", de: "Alle menschlichen Mitarbeiter vollständig ersetzen", nl: "Alle menselijke werknemers volledig vervangen" },
+          { en: "Only answer phone calls", es: "Solo contestar llamadas telefónicas", de: "Nur Telefonanrufe beantworten", nl: "Alleen telefoongesprekken beantwoorden" },
+          { en: "Make business decisions without human input", es: "Tomar decisiones empresariales sin participación humana", de: "Geschäftsentscheidungen ohne menschliche Beteiligung treffen", nl: "Zakelijke beslissingen nemen zonder menselijke input" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI virtual assistants help businesses by automating administrative tasks, scheduling, data analysis, customer inquiries, and workflow management, allowing employees to focus on strategic work requiring human creativity and judgment.",
+          es: "Los asistentes virtuales de IA ayudan a empresas automatizando tareas administrativas, programación, análisis de datos, consultas de clientes y gestión de flujo de trabajo, permitiendo a empleados enfocarse en trabajo estratégico que requiere creatividad y juicio humanos.",
+          de: "KI-virtuelle Assistenten helfen Unternehmen durch Automatisierung von Verwaltungsaufgaben, Planung, Datenanalyse, Kundenanfragen und Workflow-Management, wodurch Mitarbeiter sich auf strategische Arbeit konzentrieren können die menschliche Kreativität und Urteilsvermögen erfordert.",
+          nl: "AI-virtuele assistenten helpen bedrijven door administratieve taken, planning, data-analyse, klantvragen en workflowbeheer te automatiseren, waardoor werknemers zich kunnen concentreren op strategisch werk dat menselijke creativiteit en oordeel vereist."
+        }
+      },
+      {
+        question: {
+          en: "How can AI help make renewable energy more efficient?",
+          es: "¿Cómo puede la IA ayudar a hacer la energía renovable más eficiente?",
+          de: "Wie kann KI helfen erneuerbare Energie effizienter zu machen?",
+          nl: "Hoe kan AI helpen hernieuwbare energie efficiënter te maken?"
+        },
+        options: [
+          { en: "Predicting energy demand, optimizing solar panel angles, and managing energy storage systems", es: "Predecir demanda de energía, optimizar ángulos de paneles solares y gestionar sistemas de almacenamiento de energía", de: "Energiebedarf vorhersagen, Solarpanel-Winkel optimieren und Energiespeichersysteme verwalten", nl: "Energiebehoefte voorspellen, zonnepaneelhoeken optimaliseren en energieopslagsystemen beheren" },
+          { en: "Creating energy from nothing", es: "Crear energía de la nada", de: "Energie aus dem Nichts schaffen", nl: "Energie uit niets creëren" },
+          { en: "Eliminating the need for all energy sources", es: "Eliminar la necesidad de todas las fuentes de energía", de: "Die Notwendigkeit aller Energiequellen eliminieren", nl: "De behoefte aan alle energiebronnen elimineren" },
+          { en: "Only working with fossil fuels", es: "Solo trabajando con combustibles fósiles", de: "Nur mit fossilen Brennstoffen arbeiten", nl: "Alleen werken met fossiele brandstoffen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI optimizes renewable energy by predicting weather patterns for solar and wind power, managing when to store or release energy, balancing supply and demand across the grid, and reducing waste to make clean energy more reliable and cost-effective.",
+          es: "La IA optimiza energía renovable prediciendo patrones climáticos para energía solar y eólica, gestionando cuándo almacenar o liberar energía, equilibrando oferta y demanda en la red y reduciendo desperdicio para hacer energía limpia más confiable y rentable.",
+          de: "KI optimiert erneuerbare Energie durch Vorhersage von Wettermustern für Solar- und Windkraft, Verwaltung wann Energie gespeichert oder freigegeben wird, Ausgleich von Angebot und Nachfrage im Netz und Abfallreduzierung um saubere Energie zuverlässiger und kostengünstiger zu machen.",
+          nl: "AI optimaliseert hernieuwbare energie door weerpatronen te voorspellen voor zonne- en windenergie, te beheren wanneer energie moet worden opgeslagen of vrijgegeven, vraag en aanbod over het net te balanceren en verspilling te verminderen om schone energie betrouwbaarder en kosteneffectiever te maken."
+        }
       }
     ]
   };

@@ -820,6 +820,826 @@
                 de: "Edvard Munch schuf vier Versionen von 'Der Schrei' zwischen 1893-1910 mit Tempera, Öl, Pastell und Kreide. Dieses expressionistische Meisterwerk zeigt existenzielle Angst und ist zu einem der ikonischsten Bilder der Kunstgeschichte geworden.",
                 nl: "Edvard Munch creëerde vier versies van 'De Schreeuw' tussen 1893-1910, gebruikmakend van tempera, olie, pastel en krijt. Dit expressionistische meesterwerk toont existentiële angst en is een van de meest iconische beelden in de kunstgeschiedenis geworden."
             }
+        },
+        {
+            question: {
+                en: "Who painted 'Guernica'?",
+                es: "¿Quién pintó 'Guernica'?",
+                de: "Wer malte 'Guernica'?",
+                nl: "Wie schilderde 'Guernica'?"
+            },
+            options: [
+                {
+                    en: "Pablo Picasso",
+                    es: "Pablo Picasso",
+                    de: "Pablo Picasso",
+                    nl: "Pablo Picasso"
+                },
+                {
+                    en: "Georges Braque",
+                    es: "Georges Braque",
+                    de: "Georges Braque",
+                    nl: "Georges Braque"
+                },
+                {
+                    en: "Joan Miró",
+                    es: "Joan Miró",
+                    de: "Joan Miró",
+                    nl: "Joan Miró"
+                },
+                {
+                    en: "Salvador Dalí",
+                    es: "Salvador Dalí",
+                    de: "Salvador Dalí",
+                    nl: "Salvador Dalí"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Pablo Picasso painted 'Guernica' in 1937 in response to the bombing of the Basque town during the Spanish Civil War. This monumental anti-war painting has become one of the most powerful political statements in art.",
+                es: "Pablo Picasso pintó 'Guernica' en 1937 en respuesta al bombardeo del pueblo vasco durante la Guerra Civil Española. Esta monumental pintura anti-guerra se ha convertido en una de las declaraciones políticas más poderosas del arte.",
+                de: "Pablo Picasso malte 'Guernica' 1937 als Reaktion auf die Bombardierung der baskischen Stadt während des Spanischen Bürgerkriegs. Dieses monumentale Anti-Kriegs-Gemälde ist zu einer der kraftvollsten politischen Aussagen in der Kunst geworden.",
+                nl: "Pablo Picasso schilderde 'Guernica' in 1937 als reactie op het bombardement van de Baskische stad tijdens de Spaanse Burgeroorlog. Dit monumentale anti-oorlogsschilderij is een van de krachtigste politieke statements in de kunst geworden."
+            }
+        },
+        {
+            question: {
+                en: "Which artist is known for painting ballet dancers and tutus?",
+                es: "¿Qué artista es conocido por pintar bailarinas de ballet y tutús?",
+                de: "Welcher Künstler ist bekannt für das Malen von Balletttänzerinnen und Tutus?",
+                nl: "Welke kunstenaar staat bekend om het schilderen van balletdansers en tutu's?"
+            },
+            options: [
+                {
+                    en: "Edgar Degas",
+                    es: "Edgar Degas",
+                    de: "Edgar Degas",
+                    nl: "Edgar Degas"
+                },
+                {
+                    en: "Henri de Toulouse-Lautrec",
+                    es: "Henri de Toulouse-Lautrec",
+                    de: "Henri de Toulouse-Lautrec",
+                    nl: "Henri de Toulouse-Lautrec"
+                },
+                {
+                    en: "Mary Cassatt",
+                    es: "Mary Cassatt",
+                    de: "Mary Cassatt",
+                    nl: "Mary Cassatt"
+                },
+                {
+                    en: "Berthe Morisot",
+                    es: "Berthe Morisot",
+                    de: "Berthe Morisot",
+                    nl: "Berthe Morisot"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Edgar Degas is renowned for his paintings, sculptures, and drawings of ballet dancers. More than half of his works depict dancers, capturing both rehearsals and performances with remarkable insight into their world.",
+                es: "Edgar Degas es reconocido por sus pinturas, esculturas y dibujos de bailarinas de ballet. Más de la mitad de sus obras representan bailarinas, capturando tanto ensayos como actuaciones con notable percepción de su mundo.",
+                de: "Edgar Degas ist berühmt für seine Gemälde, Skulpturen und Zeichnungen von Balletttänzerinnen. Mehr als die Hälfte seiner Werke zeigt Tänzerinnen und fängt sowohl Proben als auch Aufführungen mit bemerkenswertem Einblick in ihre Welt ein.",
+                nl: "Edgar Degas is beroemd om zijn schilderijen, sculpturen en tekeningen van balletdansers. Meer dan de helft van zijn werken toont dansers, waarbij hij zowel repetities als optredens vastlegt met opmerkelijk inzicht in hun wereld."
+            }
+        },
+        {
+            question: {
+                en: "Who painted 'Water Lilies' series?",
+                es: "¿Quién pintó la serie 'Nenúfares'?",
+                de: "Wer malte die Serie 'Seerosen'?",
+                nl: "Wie schilderde de serie 'Waterlelies'?"
+            },
+            options: [
+                {
+                    en: "Claude Monet",
+                    es: "Claude Monet",
+                    de: "Claude Monet",
+                    nl: "Claude Monet"
+                },
+                {
+                    en: "Pierre-Auguste Renoir",
+                    es: "Pierre-Auguste Renoir",
+                    de: "Pierre-Auguste Renoir",
+                    nl: "Pierre-Auguste Renoir"
+                },
+                {
+                    en: "Camille Pissarro",
+                    es: "Camille Pissarro",
+                    de: "Camille Pissarro",
+                    nl: "Camille Pissarro"
+                },
+                {
+                    en: "Alfred Sisley",
+                    es: "Alfred Sisley",
+                    de: "Alfred Sisley",
+                    nl: "Alfred Sisley"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Claude Monet painted approximately 250 oil paintings of water lilies over the last 30 years of his life. These paintings of his garden in Giverny are among the most celebrated works of Impressionism.",
+                es: "Claude Monet pintó aproximadamente 250 pinturas al óleo de nenúfares durante los últimos 30 años de su vida. Estas pinturas de su jardín en Giverny están entre las obras más celebradas del Impresionismo.",
+                de: "Claude Monet malte in den letzten 30 Jahren seines Lebens etwa 250 Ölgemälde von Seerosen. Diese Gemälde seines Gartens in Giverny gehören zu den gefeiertsten Werken des Impressionismus.",
+                nl: "Claude Monet schilderde ongeveer 250 olieverfschilderijen van waterlelies gedurende de laatste 30 jaar van zijn leven. Deze schilderijen van zijn tuin in Giverny behoren tot de meest gevierde werken van het Impressionisme."
+            }
+        },
+        {
+            question: {
+                en: "Which artist founded the suprematist movement?",
+                es: "¿Qué artista fundó el movimiento suprematista?",
+                de: "Welcher Künstler gründete die suprematistische Bewegung?",
+                nl: "Welke kunstenaar stichtte de suprematistische beweging?"
+            },
+            options: [
+                {
+                    en: "Kazimir Malevich",
+                    es: "Kazimir Malevich",
+                    de: "Kasimir Malewitsch",
+                    nl: "Kazimir Malevich"
+                },
+                {
+                    en: "Wassily Kandinsky",
+                    es: "Wassily Kandinsky",
+                    de: "Wassily Kandinsky",
+                    nl: "Wassily Kandinsky"
+                },
+                {
+                    en: "El Lissitzky",
+                    es: "El Lissitzky",
+                    de: "El Lissitzky",
+                    nl: "El Lissitzky"
+                },
+                {
+                    en: "Alexander Rodchenko",
+                    es: "Alexander Rodchenko",
+                    de: "Alexander Rodtschenko",
+                    nl: "Alexander Rodchenko"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Kazimir Malevich founded Suprematism around 1913, focusing on basic geometric shapes and a limited color palette. His 'Black Square' (1915) became an icon of abstract art and the movement.",
+                es: "Kazimir Malevich fundó el Suprematismo alrededor de 1913, enfocándose en formas geométricas básicas y una paleta de colores limitada. Su 'Cuadrado Negro' (1915) se convirtió en un ícono del arte abstracto y del movimiento.",
+                de: "Kasimir Malewitsch gründete den Suprematismus um 1913, mit Fokus auf grundlegende geometrische Formen und begrenzter Farbpalette. Sein 'Schwarzes Quadrat' (1915) wurde zur Ikone der abstrakten Kunst und der Bewegung.",
+                nl: "Kazimir Malevich stichtte het Suprematisme rond 1913, met focus op basale geometrische vormen en een beperkt kleurenpalet. Zijn 'Zwart Vierkant' (1915) werd een icoon van abstracte kunst en de beweging."
+            }
+        },
+        {
+            question: {
+                en: "Who painted 'The Garden of Earthly Delights'?",
+                es: "¿Quién pintó 'El Jardín de las Delicias'?",
+                de: "Wer malte 'Der Garten der Lüste'?",
+                nl: "Wie schilderde 'De Tuin der Lusten'?"
+            },
+            options: [
+                {
+                    en: "Hieronymus Bosch",
+                    es: "Hieronymus Bosch",
+                    de: "Hieronymus Bosch",
+                    nl: "Jheronimus Bosch"
+                },
+                {
+                    en: "Pieter Bruegel the Elder",
+                    es: "Pieter Bruegel el Viejo",
+                    de: "Pieter Bruegel der Ältere",
+                    nl: "Pieter Bruegel de Oudere"
+                },
+                {
+                    en: "Albrecht Dürer",
+                    es: "Alberto Durero",
+                    de: "Albrecht Dürer",
+                    nl: "Albrecht Dürer"
+                },
+                {
+                    en: "Hans Holbein",
+                    es: "Hans Holbein",
+                    de: "Hans Holbein",
+                    nl: "Hans Holbein"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Hieronymus Bosch painted 'The Garden of Earthly Delights' around 1490-1510. This triptych is filled with fantastical imagery depicting paradise, earthly pleasures, and hell, making it one of the most intriguing works in art history.",
+                es: "Hieronymus Bosch pintó 'El Jardín de las Delicias' alrededor de 1490-1510. Este tríptico está lleno de imágenes fantásticas que representan el paraíso, los placeres terrenales y el infierno, convirtiéndolo en una de las obras más intrigantes de la historia del arte.",
+                de: "Hieronymus Bosch malte 'Der Garten der Lüste' um 1490-1510. Dieses Triptychon ist gefüllt mit fantastischen Bildern, die Paradies, irdische Freuden und Hölle darstellen, was es zu einem der faszinierendsten Werke der Kunstgeschichte macht.",
+                nl: "Jheronimus Bosch schilderde 'De Tuin der Lusten' rond 1490-1510. Dit drieluik is gevuld met fantastische beeldtaal die het paradijs, aardse genoegens en de hel uitbeeldt, waardoor het een van de meest intrigerende werken in de kunstgeschiedenis is."
+            }
+        },
+        {
+            question: {
+                en: "Which artist created 'The Persistence of Memory' with melting clocks?",
+                es: "¿Qué artista creó 'La Persistencia de la Memoria' con relojes derretidos?",
+                de: "Welcher Künstler schuf 'Die Beständigkeit der Erinnerung' mit schmelzenden Uhren?",
+                nl: "Welke kunstenaar creëerde 'De Volharding der Herinnering' met smeltende klokken?"
+            },
+            options: [
+                {
+                    en: "Salvador Dalí",
+                    es: "Salvador Dalí",
+                    de: "Salvador Dalí",
+                    nl: "Salvador Dalí"
+                },
+                {
+                    en: "René Magritte",
+                    es: "René Magritte",
+                    de: "René Magritte",
+                    nl: "René Magritte"
+                },
+                {
+                    en: "Max Ernst",
+                    es: "Max Ernst",
+                    de: "Max Ernst",
+                    nl: "Max Ernst"
+                },
+                {
+                    en: "Joan Miró",
+                    es: "Joan Miró",
+                    de: "Joan Miró",
+                    nl: "Joan Miró"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Salvador Dalí painted 'The Persistence of Memory' in 1931. The surrealist masterpiece featuring melting pocket watches in a dreamlike landscape has become one of the most recognizable and parodied images in modern art.",
+                es: "Salvador Dalí pintó 'La Persistencia de la Memoria' en 1931. Esta obra maestra surrealista con relojes de bolsillo derretidos en un paisaje onírico se ha convertido en una de las imágenes más reconocibles y parodiadas del arte moderno.",
+                de: "Salvador Dalí malte 'Die Beständigkeit der Erinnerung' 1931. Das surrealistische Meisterwerk mit schmelzenden Taschenuhren in einer traumhaften Landschaft ist zu einem der erkennbarsten und am meisten parodierten Bilder der modernen Kunst geworden.",
+                nl: "Salvador Dalí schilderde 'De Volharding der Herinnering' in 1931. Het surrealistische meesterwerk met smeltende zakhorloges in een droomachtig landschap is een van de meest herkenbare en geparodieerde beelden in de moderne kunst geworden."
+            }
+        },
+        {
+            question: {
+                en: "Who painted 'The Kiss' featuring a couple in elaborate golden robes?",
+                es: "¿Quién pintó 'El Beso' con una pareja en elaboradas túnicas doradas?",
+                de: "Wer malte 'Der Kuss' mit einem Paar in aufwendigen goldenen Gewändern?",
+                nl: "Wie schilderde 'De Kus' met een paar in uitgebreide gouden gewaden?"
+            },
+            options: [
+                {
+                    en: "Gustav Klimt",
+                    es: "Gustav Klimt",
+                    de: "Gustav Klimt",
+                    nl: "Gustav Klimt"
+                },
+                {
+                    en: "Egon Schiele",
+                    es: "Egon Schiele",
+                    de: "Egon Schiele",
+                    nl: "Egon Schiele"
+                },
+                {
+                    en: "Oskar Kokoschka",
+                    es: "Oskar Kokoschka",
+                    de: "Oskar Kokoschka",
+                    nl: "Oskar Kokoschka"
+                },
+                {
+                    en: "Koloman Moser",
+                    es: "Koloman Moser",
+                    de: "Koloman Moser",
+                    nl: "Koloman Moser"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Gustav Klimt painted 'The Kiss' during his 'Golden Period' in 1907-1908. This iconic Art Nouveau work features elaborate gold leaf decoration and is considered Klimt's most popular masterpiece.",
+                es: "Gustav Klimt pintó 'El Beso' durante su 'Período Dorado' en 1907-1908. Esta icónica obra del Art Nouveau presenta elaborada decoración con pan de oro y se considera la obra maestra más popular de Klimt.",
+                de: "Gustav Klimt malte 'Der Kuss' während seiner 'Goldenen Periode' 1907-1908. Dieses ikonische Jugendstil-Werk zeigt aufwendige Blattgold-Dekoration und gilt als Klimts beliebtestes Meisterwerk.",
+                nl: "Gustav Klimt schilderde 'De Kus' tijdens zijn 'Gouden Periode' in 1907-1908. Dit iconische Art Nouveau werk toont uitgebreide bladgoudversiering en wordt beschouwd als Klimts populairste meesterwerk."
+            }
+        },
+        {
+            question: {
+                en: "Which artist painted 'The School of Athens'?",
+                es: "¿Qué artista pintó 'La Escuela de Atenas'?",
+                de: "Welcher Künstler malte 'Die Schule von Athen'?",
+                nl: "Welke kunstenaar schilderde 'De School van Athene'?"
+            },
+            options: [
+                {
+                    en: "Raphael",
+                    es: "Rafael",
+                    de: "Raffael",
+                    nl: "Rafaël"
+                },
+                {
+                    en: "Michelangelo",
+                    es: "Miguel Ángel",
+                    de: "Michelangelo",
+                    nl: "Michelangelo"
+                },
+                {
+                    en: "Leonardo da Vinci",
+                    es: "Leonardo da Vinci",
+                    de: "Leonardo da Vinci",
+                    nl: "Leonardo da Vinci"
+                },
+                {
+                    en: "Titian",
+                    es: "Tiziano",
+                    de: "Tizian",
+                    nl: "Titiaan"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Raphael painted 'The School of Athens' between 1509-1511 as part of his commission to decorate the Vatican's Apostolic Palace. This fresco depicts ancient Greek philosophers including Plato and Aristotle.",
+                es: "Rafael pintó 'La Escuela de Atenas' entre 1509-1511 como parte de su encargo para decorar el Palacio Apostólico del Vaticano. Este fresco representa a antiguos filósofos griegos incluyendo a Platón y Aristóteles.",
+                de: "Raffael malte 'Die Schule von Athen' zwischen 1509-1511 als Teil seines Auftrags zur Dekoration des Apostolischen Palastes im Vatikan. Dieses Fresko zeigt antike griechische Philosophen einschließlich Platon und Aristoteles.",
+                nl: "Rafaël schilderde 'De School van Athene' tussen 1509-1511 als onderdeel van zijn opdracht om het Apostolisch Paleis van Vaticaanstad te decoreren. Dit fresco toont oude Griekse filosofen waaronder Plato en Aristoteles."
+            }
+        },
+        {
+            question: {
+                en: "Who created the mobile sculpture art form?",
+                es: "¿Quién creó la forma artística de escultura móvil?",
+                de: "Wer schuf die Kunstform der mobilen Skulptur?",
+                nl: "Wie creëerde de mobiele sculptuurkunstvorm?"
+            },
+            options: [
+                {
+                    en: "Alexander Calder",
+                    es: "Alexander Calder",
+                    de: "Alexander Calder",
+                    nl: "Alexander Calder"
+                },
+                {
+                    en: "Jean Tinguely",
+                    es: "Jean Tinguely",
+                    de: "Jean Tinguely",
+                    nl: "Jean Tinguely"
+                },
+                {
+                    en: "Naum Gabo",
+                    es: "Naum Gabo",
+                    de: "Naum Gabo",
+                    nl: "Naum Gabo"
+                },
+                {
+                    en: "Henry Moore",
+                    es: "Henry Moore",
+                    de: "Henry Moore",
+                    nl: "Henry Moore"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Alexander Calder invented the mobile, a type of kinetic sculpture made with delicately balanced or suspended components that move in response to air currents. Marcel Duchamp coined the term 'mobile' for Calder's work in 1931.",
+                es: "Alexander Calder inventó el móvil, un tipo de escultura cinética hecha con componentes delicadamente equilibrados o suspendidos que se mueven en respuesta a las corrientes de aire. Marcel Duchamp acuñó el término 'móvil' para el trabajo de Calder en 1931.",
+                de: "Alexander Calder erfand das Mobile, eine Art kinetische Skulptur aus zart ausbalancierten oder aufgehängten Komponenten, die sich als Reaktion auf Luftströmungen bewegen. Marcel Duchamp prägte 1931 den Begriff 'Mobile' für Calders Werk.",
+                nl: "Alexander Calder vond de mobiele sculptuur uit, een soort kinetische sculptuur gemaakt van delicaat gebalanceerde of opgehangen componenten die bewegen als reactie op luchtstromen. Marcel Duchamp bedacht in 1931 de term 'mobile' voor Calders werk."
+            }
+        },
+        {
+            question: {
+                en: "Which artist painted 'The Arnolfini Portrait'?",
+                es: "¿Qué artista pintó 'El Retrato de Arnolfini'?",
+                de: "Welcher Künstler malte 'Das Arnolfini-Porträt'?",
+                nl: "Welke kunstenaar schilderde 'Het Arnolfini-portret'?"
+            },
+            options: [
+                {
+                    en: "Jan van Eyck",
+                    es: "Jan van Eyck",
+                    de: "Jan van Eyck",
+                    nl: "Jan van Eyck"
+                },
+                {
+                    en: "Rogier van der Weyden",
+                    es: "Rogier van der Weyden",
+                    de: "Rogier van der Weyden",
+                    nl: "Rogier van der Weyden"
+                },
+                {
+                    en: "Hans Memling",
+                    es: "Hans Memling",
+                    de: "Hans Memling",
+                    nl: "Hans Memling"
+                },
+                {
+                    en: "Robert Campin",
+                    es: "Robert Campin",
+                    de: "Robert Campin",
+                    nl: "Robert Campin"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Jan van Eyck painted 'The Arnolfini Portrait' in 1434. This masterpiece of Early Netherlandish painting is famous for its complex iconography, detailed realism, and the convex mirror reflecting the entire room.",
+                es: "Jan van Eyck pintó 'El Retrato de Arnolfini' en 1434. Esta obra maestra de la pintura neerlandesa temprana es famosa por su iconografía compleja, realismo detallado y el espejo convexo que refleja toda la habitación.",
+                de: "Jan van Eyck malte 'Das Arnolfini-Porträt' 1434. Dieses Meisterwerk der frühen niederländischen Malerei ist berühmt für seine komplexe Ikonographie, detaillierten Realismus und den konvexen Spiegel, der den gesamten Raum reflektiert.",
+                nl: "Jan van Eyck schilderde 'Het Arnolfini-portret' in 1434. Dit meesterwerk van de vroege Nederlandse schilderkunst is beroemd om zijn complexe iconografie, gedetailleerd realisme en de bolle spiegel die de hele kamer weerspiegelt."
+            }
+        },
+        {
+            question: {
+                en: "Who painted 'The Birth of Venus'?",
+                es: "¿Quién pintó 'El Nacimiento de Venus'?",
+                de: "Wer malte 'Die Geburt der Venus'?",
+                nl: "Wie schilderde 'De Geboorte van Venus'?"
+            },
+            options: [
+                {
+                    en: "Sandro Botticelli",
+                    es: "Sandro Botticelli",
+                    de: "Sandro Botticelli",
+                    nl: "Sandro Botticelli"
+                },
+                {
+                    en: "Leonardo da Vinci",
+                    es: "Leonardo da Vinci",
+                    de: "Leonardo da Vinci",
+                    nl: "Leonardo da Vinci"
+                },
+                {
+                    en: "Raphael",
+                    es: "Rafael",
+                    de: "Raffael",
+                    nl: "Rafaël"
+                },
+                {
+                    en: "Titian",
+                    es: "Tiziano",
+                    de: "Tizian",
+                    nl: "Titiaan"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Sandro Botticelli painted 'The Birth of Venus' in the mid-1480s. This iconic Renaissance painting depicts the goddess Venus arriving at the shore after her birth, and is housed in the Uffizi Gallery in Florence.",
+                es: "Sandro Botticelli pintó 'El Nacimiento de Venus' a mediados de la década de 1480. Esta icónica pintura renacentista representa a la diosa Venus llegando a la orilla después de su nacimiento, y se encuentra en la Galería Uffizi en Florencia.",
+                de: "Sandro Botticelli malte 'Die Geburt der Venus' Mitte der 1480er Jahre. Dieses ikonische Renaissance-Gemälde zeigt die Göttin Venus, die nach ihrer Geburt am Ufer ankommt, und befindet sich in den Uffizien in Florenz.",
+                nl: "Sandro Botticelli schilderde 'De Geboorte van Venus' in het midden van de jaren 1480. Dit iconische renaissance-schilderij toont de godin Venus die na haar geboorte aan de kust aankomt, en hangt in de Uffizi Galerij in Florence."
+            }
+        },
+        {
+            question: {
+                en: "Which artist painted 'Girl with a Pearl Earring'?",
+                es: "¿Qué artista pintó 'La Joven de la Perla'?",
+                de: "Welcher Künstler malte 'Mädchen mit dem Perlenohrring'?",
+                nl: "Welke kunstenaar schilderde 'Meisje met de Parel'?"
+            },
+            options: [
+                {
+                    en: "Johannes Vermeer",
+                    es: "Johannes Vermeer",
+                    de: "Johannes Vermeer",
+                    nl: "Johannes Vermeer"
+                },
+                {
+                    en: "Rembrandt van Rijn",
+                    es: "Rembrandt van Rijn",
+                    de: "Rembrandt van Rijn",
+                    nl: "Rembrandt van Rijn"
+                },
+                {
+                    en: "Frans Hals",
+                    es: "Frans Hals",
+                    de: "Frans Hals",
+                    nl: "Frans Hals"
+                },
+                {
+                    en: "Jan Steen",
+                    es: "Jan Steen",
+                    de: "Jan Steen",
+                    nl: "Jan Steen"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Johannes Vermeer painted 'Girl with a Pearl Earring' around 1665. This Dutch Golden Age tronie is famous for its intimate portrayal, mysterious expression, and masterful use of light, earning it the nickname 'Mona Lisa of the North'.",
+                es: "Johannes Vermeer pintó 'La Joven de la Perla' alrededor de 1665. Este tronie de la Edad de Oro holandesa es famoso por su retrato íntimo, expresión misteriosa y uso magistral de la luz, ganándose el apodo de 'Mona Lisa del Norte'.",
+                de: "Johannes Vermeer malte 'Mädchen mit dem Perlenohrring' um 1665. Dieses niederländische Goldene Zeitalter Tronie ist berühmt für seine intime Darstellung, mysteriöse Ausdruck und meisterhafte Lichtführung, was ihm den Spitznamen 'Mona Lisa des Nordens' einbrachte.",
+                nl: "Johannes Vermeer schilderde 'Meisje met de Parel' rond 1665. Deze Nederlandse Gouden Eeuw tronie is beroemd om zijn intieme portret, mysterieuze uitdrukking en meesterlijk gebruik van licht, wat het de bijnaam 'Mona Lisa van het Noorden' opleverde."
+            }
+        },
+        {
+            question: {
+                en: "Who created 'The Gates of Hell' sculpture?",
+                es: "¿Quién creó la escultura 'Las Puertas del Infierno'?",
+                de: "Wer schuf die Skulptur 'Das Höllentor'?",
+                nl: "Wie creëerde de sculptuur 'De Poorten van de Hel'?"
+            },
+            options: [
+                {
+                    en: "Auguste Rodin",
+                    es: "Auguste Rodin",
+                    de: "Auguste Rodin",
+                    nl: "Auguste Rodin"
+                },
+                {
+                    en: "Camille Claudel",
+                    es: "Camille Claudel",
+                    de: "Camille Claudel",
+                    nl: "Camille Claudel"
+                },
+                {
+                    en: "Antoine Bourdelle",
+                    es: "Antoine Bourdelle",
+                    de: "Antoine Bourdelle",
+                    nl: "Antoine Bourdelle"
+                },
+                {
+                    en: "Aristide Maillol",
+                    es: "Aristide Maillol",
+                    de: "Aristide Maillol",
+                    nl: "Aristide Maillol"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Auguste Rodin worked on 'The Gates of Hell' from 1880 until his death in 1917. This monumental sculptural group inspired by Dante's Inferno contains 180 figures, including 'The Thinker' and 'The Kiss'.",
+                es: "Auguste Rodin trabajó en 'Las Puertas del Infierno' desde 1880 hasta su muerte en 1917. Este monumental grupo escultórico inspirado en el Infierno de Dante contiene 180 figuras, incluyendo 'El Pensador' y 'El Beso'.",
+                de: "Auguste Rodin arbeitete von 1880 bis zu seinem Tod 1917 an 'Das Höllentor'. Diese monumentale Skulpturengruppe, inspiriert von Dantes Inferno, enthält 180 Figuren, darunter 'Der Denker' und 'Der Kuss'.",
+                nl: "Auguste Rodin werkte aan 'De Poorten van de Hel' van 1880 tot zijn dood in 1917. Deze monumentale sculptuurgroep geïnspireerd door Dante's Inferno bevat 180 figuren, waaronder 'De Denker' en 'De Kus'."
+            }
+        },
+        {
+            question: {
+                en: "Which artist painted 'The Night Watch'?",
+                es: "¿Qué artista pintó 'La Ronda de Noche'?",
+                de: "Welcher Künstler malte 'Die Nachtwache'?",
+                nl: "Welke kunstenaar schilderde 'De Nachtwacht'?"
+            },
+            options: [
+                {
+                    en: "Rembrandt van Rijn",
+                    es: "Rembrandt van Rijn",
+                    de: "Rembrandt van Rijn",
+                    nl: "Rembrandt van Rijn"
+                },
+                {
+                    en: "Frans Hals",
+                    es: "Frans Hals",
+                    de: "Frans Hals",
+                    nl: "Frans Hals"
+                },
+                {
+                    en: "Johannes Vermeer",
+                    es: "Johannes Vermeer",
+                    de: "Johannes Vermeer",
+                    nl: "Johannes Vermeer"
+                },
+                {
+                    en: "Jacob van Ruisdael",
+                    es: "Jacob van Ruisdael",
+                    de: "Jacob van Ruisdael",
+                    nl: "Jacob van Ruisdael"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Rembrandt van Rijn painted 'The Night Watch' in 1642. This massive group portrait of a militia company is considered one of the most famous Dutch Golden Age paintings, revolutionary for its dynamic composition and dramatic use of light.",
+                es: "Rembrandt van Rijn pintó 'La Ronda de Noche' en 1642. Este masivo retrato grupal de una compañía de milicia se considera una de las pinturas más famosas de la Edad de Oro holandesa, revolucionaria por su composición dinámica y uso dramático de la luz.",
+                de: "Rembrandt van Rijn malte 'Die Nachtwache' 1642. Dieses massive Gruppenporträt einer Milizgruppe gilt als eines der berühmtesten Gemälde des niederländischen Goldenen Zeitalters, revolutionär für seine dynamische Komposition und dramatische Lichtführung.",
+                nl: "Rembrandt van Rijn schilderde 'De Nachtwacht' in 1642. Dit massale groepsportret van een schutterscompagnie wordt beschouwd als een van de beroemdste schilderijen van de Nederlandse Gouden Eeuw, revolutionair om zijn dynamische compositie en dramatisch gebruik van licht."
+            }
+        },
+        {
+            question: {
+                en: "Who painted 'American Gothic'?",
+                es: "¿Quién pintó 'Gótico Americano'?",
+                de: "Wer malte 'American Gothic'?",
+                nl: "Wie schilderde 'American Gothic'?"
+            },
+            options: [
+                {
+                    en: "Grant Wood",
+                    es: "Grant Wood",
+                    de: "Grant Wood",
+                    nl: "Grant Wood"
+                },
+                {
+                    en: "Edward Hopper",
+                    es: "Edward Hopper",
+                    de: "Edward Hopper",
+                    nl: "Edward Hopper"
+                },
+                {
+                    en: "Thomas Hart Benton",
+                    es: "Thomas Hart Benton",
+                    de: "Thomas Hart Benton",
+                    nl: "Thomas Hart Benton"
+                },
+                {
+                    en: "Andrew Wyeth",
+                    es: "Andrew Wyeth",
+                    de: "Andrew Wyeth",
+                    nl: "Andrew Wyeth"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Grant Wood painted 'American Gothic' in 1930. This iconic image of a farmer and his daughter standing before a house with Gothic Revival architecture has become one of the most recognizable paintings in American art.",
+                es: "Grant Wood pintó 'Gótico Americano' en 1930. Esta imagen icónica de un granjero y su hija parados frente a una casa con arquitectura neogótica se ha convertido en una de las pinturas más reconocibles del arte estadounidense.",
+                de: "Grant Wood malte 'American Gothic' 1930. Dieses ikonische Bild eines Farmers und seiner Tochter vor einem Haus mit neugotischer Architektur ist zu einem der erkennbarsten Gemälde der amerikanischen Kunst geworden.",
+                nl: "Grant Wood schilderde 'American Gothic' in 1930. Dit iconische beeld van een boer en zijn dochter die voor een huis met neogotische architectuur staan is een van de meest herkenbare schilderijen in de Amerikaanse kunst geworden."
+            }
+        },
+        {
+            question: {
+                en: "Which artist painted 'No. 5, 1948' which sold for $140 million?",
+                es: "¿Qué artista pintó 'No. 5, 1948' que se vendió por 140 millones de dólares?",
+                de: "Welcher Künstler malte 'Nr. 5, 1948', das für 140 Millionen Dollar verkauft wurde?",
+                nl: "Welke kunstenaar schilderde 'No. 5, 1948' dat voor $140 miljoen werd verkocht?"
+            },
+            options: [
+                {
+                    en: "Jackson Pollock",
+                    es: "Jackson Pollock",
+                    de: "Jackson Pollock",
+                    nl: "Jackson Pollock"
+                },
+                {
+                    en: "Willem de Kooning",
+                    es: "Willem de Kooning",
+                    de: "Willem de Kooning",
+                    nl: "Willem de Kooning"
+                },
+                {
+                    en: "Mark Rothko",
+                    es: "Mark Rothko",
+                    de: "Mark Rothko",
+                    nl: "Mark Rothko"
+                },
+                {
+                    en: "Franz Kline",
+                    es: "Franz Kline",
+                    de: "Franz Kline",
+                    nl: "Franz Kline"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Jackson Pollock created 'No. 5, 1948' using his famous drip painting technique. The abstract expressionist work measures 8 by 4 feet and sold for approximately $140 million in 2006, making it one of the most expensive paintings ever sold.",
+                es: "Jackson Pollock creó 'No. 5, 1948' usando su famosa técnica de pintura por goteo. La obra expresionista abstracta mide 8 por 4 pies y se vendió por aproximadamente 140 millones de dólares en 2006, convirtiéndola en una de las pinturas más caras jamás vendidas.",
+                de: "Jackson Pollock schuf 'Nr. 5, 1948' mit seiner berühmten Tropfmaltechnik. Das abstrakt-expressionistische Werk misst 8 mal 4 Fuß und wurde 2006 für etwa 140 Millionen Dollar verkauft, was es zu einem der teuersten jemals verkauften Gemälde macht.",
+                nl: "Jackson Pollock creëerde 'No. 5, 1948' met zijn beroemde druppelschildertechniek. Het abstract expressionistische werk meet 8 bij 4 voet en werd in 2006 verkocht voor ongeveer $140 miljoen, waardoor het een van de duurste ooit verkochte schilderijen is."
+            }
+        },
+        {
+            question: {
+                en: "Who painted 'The Third of May 1808'?",
+                es: "¿Quién pintó 'El Tres de Mayo de 1808'?",
+                de: "Wer malte 'Der 3. Mai 1808'?",
+                nl: "Wie schilderde 'De Derde Mei 1808'?"
+            },
+            options: [
+                {
+                    en: "Francisco Goya",
+                    es: "Francisco Goya",
+                    de: "Francisco Goya",
+                    nl: "Francisco Goya"
+                },
+                {
+                    en: "Diego Velázquez",
+                    es: "Diego Velázquez",
+                    de: "Diego Velázquez",
+                    nl: "Diego Velázquez"
+                },
+                {
+                    en: "El Greco",
+                    es: "El Greco",
+                    de: "El Greco",
+                    nl: "El Greco"
+                },
+                {
+                    en: "Bartolomé Murillo",
+                    es: "Bartolomé Murillo",
+                    de: "Bartolomé Murillo",
+                    nl: "Bartolomé Murillo"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Francisco Goya painted 'The Third of May 1808' in 1814, depicting the execution of Spanish citizens by Napoleon's forces during the Peninsular War. This powerful anti-war painting influenced later artists like Picasso and Manet.",
+                es: "Francisco Goya pintó 'El Tres de Mayo de 1808' en 1814, representando la ejecución de ciudadanos españoles por las fuerzas de Napoleón durante la Guerra Peninsular. Esta poderosa pintura anti-guerra influyó en artistas posteriores como Picasso y Manet.",
+                de: "Francisco Goya malte 'Der 3. Mai 1808' 1814, das die Hinrichtung spanischer Bürger durch Napoleons Truppen während des Halbinselkriegs zeigt. Dieses kraftvolle Anti-Kriegs-Gemälde beeinflusste spätere Künstler wie Picasso und Manet.",
+                nl: "Francisco Goya schilderde 'De Derde Mei 1808' in 1814, waarbij de executie van Spaanse burgers door Napoleons troepen tijdens de Peninsulaire Oorlog wordt afgebeeld. Dit krachtige anti-oorlogsschilderij beïnvloedde latere kunstenaars zoals Picasso en Manet."
+            }
+        },
+        {
+            question: {
+                en: "Which artist painted 'The Son of Man' featuring a man in a bowler hat?",
+                es: "¿Qué artista pintó 'El Hijo del Hombre' con un hombre con sombrero de bombín?",
+                de: "Welcher Künstler malte 'Der Sohn des Menschen' mit einem Mann mit Melone?",
+                nl: "Welke kunstenaar schilderde 'De Zoon van de Mens' met een man in een bolhoed?"
+            },
+            options: [
+                {
+                    en: "René Magritte",
+                    es: "René Magritte",
+                    de: "René Magritte",
+                    nl: "René Magritte"
+                },
+                {
+                    en: "Salvador Dalí",
+                    es: "Salvador Dalí",
+                    de: "Salvador Dalí",
+                    nl: "Salvador Dalí"
+                },
+                {
+                    en: "Max Ernst",
+                    es: "Max Ernst",
+                    de: "Max Ernst",
+                    nl: "Max Ernst"
+                },
+                {
+                    en: "Man Ray",
+                    es: "Man Ray",
+                    de: "Man Ray",
+                    nl: "Man Ray"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "René Magritte painted 'The Son of Man' in 1964. This surrealist self-portrait features a man in a suit and bowler hat with his face obscured by a green apple, exploring themes of hidden identity and the visible versus the invisible.",
+                es: "René Magritte pintó 'El Hijo del Hombre' en 1964. Este autorretrato surrealista presenta a un hombre con traje y sombrero de bombín con su rostro oculto por una manzana verde, explorando temas de identidad oculta y lo visible versus lo invisible.",
+                de: "René Magritte malte 'Der Sohn des Menschen' 1964. Dieses surrealistische Selbstporträt zeigt einen Mann in Anzug und Melone, dessen Gesicht durch einen grünen Apfel verdeckt ist, und erforscht Themen verborgener Identität und des Sichtbaren versus des Unsichtbaren.",
+                nl: "René Magritte schilderde 'De Zoon van de Mens' in 1964. Dit surrealistische zelfportret toont een man in pak en bolhoed met zijn gezicht verborgen door een groene appel, waarbij thema's van verborgen identiteit en het zichtbare versus het onzichtbare worden verkend."
+            }
+        },
+        {
+            question: {
+                en: "Who painted 'Las Meninas'?",
+                es: "¿Quién pintó 'Las Meninas'?",
+                de: "Wer malte 'Las Meninas'?",
+                nl: "Wie schilderde 'Las Meninas'?"
+            },
+            options: [
+                {
+                    en: "Diego Velázquez",
+                    es: "Diego Velázquez",
+                    de: "Diego Velázquez",
+                    nl: "Diego Velázquez"
+                },
+                {
+                    en: "Francisco Goya",
+                    es: "Francisco Goya",
+                    de: "Francisco Goya",
+                    nl: "Francisco Goya"
+                },
+                {
+                    en: "El Greco",
+                    es: "El Greco",
+                    de: "El Greco",
+                    nl: "El Greco"
+                },
+                {
+                    en: "Bartolomé Murillo",
+                    es: "Bartolomé Murillo",
+                    de: "Bartolomé Murillo",
+                    nl: "Bartolomé Murillo"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Diego Velázquez painted 'Las Meninas' in 1656. This complex masterpiece depicts the Spanish royal family and is renowned for its sophisticated composition, use of perspective, and the artist's inclusion of himself painting the scene.",
+                es: "Diego Velázquez pintó 'Las Meninas' en 1656. Esta compleja obra maestra representa a la familia real española y es reconocida por su sofisticada composición, uso de perspectiva y la inclusión del artista pintándose a sí mismo en la escena.",
+                de: "Diego Velázquez malte 'Las Meninas' 1656. Dieses komplexe Meisterwerk zeigt die spanische Königsfamilie und ist berühmt für seine raffinierte Komposition, Perspektivennutzung und die Einbeziehung des Künstlers beim Malen der Szene.",
+                nl: "Diego Velázquez schilderde 'Las Meninas' in 1656. Dit complexe meesterwerk toont de Spaanse koninklijke familie en is beroemd om zijn geavanceerde compositie, gebruik van perspectief en de opname van de kunstenaar zelf die de scène schildert."
+            }
+        },
+        {
+            question: {
+                en: "Who painted 'The Kiss', a golden masterpiece of Art Nouveau?",
+                es: "¿Quién pintó 'El Beso', una obra maestra dorada del Art Nouveau?",
+                de: "Wer malte 'Der Kuss', ein goldenes Meisterwerk des Jugendstils?",
+                nl: "Wie schilderde 'De Kus', een gouden meesterwerk van de Art Nouveau?"
+            },
+            options: [
+                {
+                    en: "Gustav Klimt",
+                    es: "Gustav Klimt",
+                    de: "Gustav Klimt",
+                    nl: "Gustav Klimt"
+                },
+                {
+                    en: "Egon Schiele",
+                    es: "Egon Schiele",
+                    de: "Egon Schiele",
+                    nl: "Egon Schiele"
+                },
+                {
+                    en: "Alphonse Mucha",
+                    es: "Alphonse Mucha",
+                    de: "Alphonse Mucha",
+                    nl: "Alphonse Mucha"
+                },
+                {
+                    en: "Henri de Toulouse-Lautrec",
+                    es: "Henri de Toulouse-Lautrec",
+                    de: "Henri de Toulouse-Lautrec",
+                    nl: "Henri de Toulouse-Lautrec"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Gustav Klimt painted 'The Kiss' (1907-1908) during his 'Golden Period'. The painting uses gold leaf and depicts an embracing couple, becoming an icon of the Vienna Secession movement.",
+                es: "Gustav Klimt pintó 'El Beso' (1907-1908) durante su 'Período Dorado'. La pintura usa pan de oro y representa a una pareja abrazándose, convirtiéndose en un ícono del movimiento de la Secesión de Viena.",
+                de: "Gustav Klimt malte 'Der Kuss' (1907-1908) während seiner 'Goldenen Periode'. Das Gemälde verwendet Blattgold und zeigt ein sich umarmendes Paar, wurde zur Ikone der Wiener Secession.",
+                nl: "Gustav Klimt schilderde 'De Kus' (1907-1908) tijdens zijn 'Gouden Periode'. Het schilderij gebruikt bladgoud en toont een omhelzend paar, werd een icoon van de Weense Secessie beweging."
+            }
         }
     ];
 

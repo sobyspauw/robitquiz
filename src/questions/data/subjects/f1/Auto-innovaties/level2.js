@@ -319,6 +319,326 @@
                 de: "Der Halo schützt den Fahrerkopf vor großen Trümmern, fliegenden Objekten und Aufprällen bei Unfällen.",
                 nl: "De Halo beschermt het hoofd van de coureur tegen groot puin, vliegende objecten en impact bij ongevallen."
             }
+        },
+        {
+            question: {
+                en: "What is brake-by-wire technology?",
+                es: "¿Qué es la tecnología brake-by-wire?",
+                de: "Was ist Brake-by-Wire-Technologie?",
+                nl: "Wat is brake-by-wire technologie?"
+            },
+            options: ["Wireless braking", "Electronic brake control system", "Cable-operated brakes", "Manual hydraulic brakes only"],
+            correct: 1,
+            explanation: {
+                en: "Brake-by-wire uses electronics to control brake force distribution between front and rear axles in hybrid systems.",
+                es: "El brake-by-wire usa electrónica para controlar la distribución de fuerza de frenado entre ejes en sistemas híbridos.",
+                de: "Brake-by-Wire nutzt Elektronik zur Steuerung der Bremskraftverteilung zwischen Vorder- und Hinterachse.",
+                nl: "Brake-by-wire gebruikt elektronica om remkrachtverdeling tussen voor- en achteras te regelen in hybride systemen."
+            }
+        },
+        {
+            question: {
+                en: "What material are modern F1 brake discs made from?",
+                es: "¿De qué material están hechos los discos de freno modernos de F1?",
+                de: "Aus welchem Material bestehen moderne F1-Bremsscheiben?",
+                nl: "Van welk materiaal zijn moderne F1-remschijven gemaakt?"
+            },
+            options: ["Steel", "Aluminum", "Carbon fiber composite", "Ceramic"],
+            correct: 2,
+            explanation: {
+                en: "Modern F1 brake discs are made from carbon fiber composite, which can operate at temperatures above 1000°C.",
+                es: "Los discos de freno modernos de F1 están hechos de compuesto de fibra de carbono, operando a más de 1000°C.",
+                de: "Moderne F1-Bremsscheiben bestehen aus Kohlefaserverbundstoff und können bei über 1000°C arbeiten.",
+                nl: "Moderne F1-remschijven zijn gemaakt van carbon fiber composiet en kunnen bij temperaturen boven 1000°C werken."
+            }
+        },
+        {
+            question: {
+                en: "How does the MGU-K contribute to the hybrid power unit?",
+                es: "¿Cómo contribuye el MGU-K a la unidad de potencia híbrida?",
+                de: "Wie trägt die MGU-K zur Hybridantriebseinheit bei?",
+                nl: "Hoe draagt de MGU-K bij aan de hybride aandrijfeenheid?"
+            },
+            options: ["Only charges battery", "Recovers braking energy and provides power boost", "Cools the engine", "Controls fuel injection"],
+            correct: 1,
+            explanation: {
+                en: "The MGU-K recovers energy during braking and can deploy up to 120 kW of additional power to the crankshaft.",
+                es: "El MGU-K recupera energía durante el frenado y puede desplegar hasta 120 kW de potencia adicional al cigüeñal.",
+                de: "Die MGU-K gewinnt Bremsenergie zurück und kann bis zu 120 kW zusätzliche Leistung an die Kurbelwelle abgeben.",
+                nl: "De MGU-K wint energie terug tijdens remmen en kan tot 120 kW extra vermogen leveren aan de krukas."
+            }
+        },
+        {
+            question: {
+                en: "What does seamless shift technology do?",
+                es: "¿Qué hace la tecnología de cambio sin interrupciones?",
+                de: "Was bewirkt nahtlose Schalttechnologie?",
+                nl: "Wat doet seamless shift technologie?"
+            },
+            options: ["Makes gear changes slower", "Eliminates power loss during gear changes", "Requires more driver input", "Only works in qualifying"],
+            correct: 1,
+            explanation: {
+                en: "Seamless shift technology allows gear changes without any interruption in power delivery to the wheels.",
+                es: "La tecnología de cambio sin interrupciones permite cambios de marcha sin interrupción en la entrega de potencia.",
+                de: "Nahtlose Schalttechnologie ermöglicht Gangwechsel ohne Unterbrechung der Kraftübertragung.",
+                nl: "Seamless shift technologie maakt schakelen mogelijk zonder onderbreking van vermogensafgifte naar de wielen."
+            }
+        },
+        {
+            question: {
+                en: "What innovation did blown diffusers provide?",
+                es: "¿Qué innovación proporcionaron los difusores soplados?",
+                de: "Welche Innovation boten geblasene Diffusoren?",
+                nl: "Welke innovatie leverden blazende diffusers?"
+            },
+            options: ["Better fuel economy", "Exhaust gases directed under car to increase downforce", "Quieter engines", "Faster gear changes"],
+            correct: 1,
+            explanation: {
+                en: "Blown diffusers directed exhaust gases under the car to energize airflow and increase downforce, banned in 2011.",
+                es: "Los difusores soplados dirigían gases de escape bajo el coche para energizar flujo de aire, prohibidos en 2011.",
+                de: "Geblasene Diffusoren lenkten Abgase unter das Auto um Luftstrom zu energetisieren, 2011 verboten.",
+                nl: "Blazende diffusers leidden uitlaatgassen onder de auto om luchtstroom te activeren, verboden in 2011."
+            }
+        },
+        {
+            question: {
+                en: "What is the function of the F-duct system?",
+                es: "¿Cuál es la función del sistema F-duct?",
+                de: "Was ist die Funktion des F-Duct-Systems?",
+                nl: "Wat is de functie van het F-duct systeem?"
+            },
+            options: ["Fuel distribution", "Driver-controlled airflow to stall rear wing on straights", "Engine cooling", "Brake cooling"],
+            correct: 1,
+            explanation: {
+                en: "The F-duct allowed drivers to redirect airflow to stall the rear wing, reducing drag. Used briefly in 2010 before being banned.",
+                es: "El F-duct permitía a pilotos redirigir flujo de aire para anular el alerón trasero. Usado en 2010 antes de prohibirse.",
+                de: "Der F-Duct erlaubte Fahrern Luftstrom umzuleiten um den Heckflügel zu stoppen. 2010 kurz genutzt dann verboten.",
+                nl: "Het F-duct stelde coureurs in staat luchtstroom om te leiden om de achtervleugel te laten stoppen. Gebruikt in 2010 voor het werd verboden."
+            }
+        },
+        {
+            question: {
+                en: "How many power unit components are allowed per season?",
+                es: "¿Cuántos componentes de unidad de potencia se permiten por temporada?",
+                de: "Wie viele Antriebseinheit-Komponenten sind pro Saison erlaubt?",
+                nl: "Hoeveel power unit componenten zijn toegestaan per seizoen?"
+            },
+            options: ["Unlimited", "2 of each", "3 of each", "4 of each"],
+            correct: 2,
+            explanation: {
+                en: "Drivers are limited to 3 internal combustion engines, 3 turbochargers, and 3 MGU components per season to control costs.",
+                es: "Los pilotos están limitados a 3 motores de combustión, 3 turbocompresores y 3 componentes MGU por temporada.",
+                de: "Fahrer sind auf 3 Verbrennungsmotoren, 3 Turbolader und 3 MGU-Komponenten pro Saison beschränkt.",
+                nl: "Coureurs zijn beperkt tot 3 verbrandingsmotoren, 3 turbochargers en 3 MGU-componenten per seizoen."
+            }
+        },
+        {
+            question: {
+                en: "What is the purpose of tire pressure monitoring?",
+                es: "¿Cuál es el propósito del monitoreo de presión de neumáticos?",
+                de: "Was ist der Zweck der Reifendrucküberwachung?",
+                nl: "Wat is het doel van bandensporenmonitoring?"
+            },
+            options: ["Only for safety", "Optimize tire performance and ensure regulatory compliance", "Reduce weight", "Improve aerodynamics"],
+            correct: 1,
+            explanation: {
+                en: "Tire pressure monitoring ensures teams comply with minimum pressure regulations and optimizes tire performance.",
+                es: "El monitoreo de presión asegura cumplimiento con regulaciones de presión mínima y optimiza rendimiento.",
+                de: "Reifendrucküberwachung stellt Einhaltung von Mindestdruckregeln sicher und optimiert Reifenleistung.",
+                nl: "Bandendrukmeting zorgt dat teams voldoen aan minimale drukregelgeving en optimaliseert bandprestaties."
+            }
+        },
+        {
+            question: {
+                en: "What was the fan car innovation?",
+                es: "¿Qué fue la innovación del coche con ventilador?",
+                de: "Was war die Fan-Car-Innovation?",
+                nl: "Wat was de fan car innovatie?"
+            },
+            options: ["Air conditioning system", "Large fan to suck car to ground for downforce", "Engine cooling fan", "Driver cooling system"],
+            correct: 1,
+            explanation: {
+                en: "The Brabham BT46B used a large fan to create low pressure under the car for massive downforce. Won once then was banned in 1978.",
+                es: "El Brabham BT46B usó un gran ventilador para crear baja presión bajo el coche. Ganó una vez y fue prohibido en 1978.",
+                de: "Der Brabham BT46B nutzte einen großen Lüfter für Unterdruck unter dem Auto. Gewann einmal dann 1978 verboten.",
+                nl: "De Brabham BT46B gebruikte een grote ventilator om lagedruk onder de auto te creëren. Won eens en werd verboden in 1978."
+            }
+        },
+        {
+            question: {
+                en: "How does DRS affect lap times?",
+                es: "¿Cómo afecta el DRS a los tiempos de vuelta?",
+                de: "Wie beeinflusst DRS die Rundenzeiten?",
+                nl: "Hoe beïnvloedt DRS rondetijden?"
+            },
+            options: ["Makes cars slower", "Can save 0.3-0.4 seconds per lap when activated", "No measurable effect", "Only works in rain"],
+            correct: 1,
+            explanation: {
+                en: "DRS typically provides 10-15 km/h extra speed on straights, saving approximately 0.3-0.4 seconds per activation.",
+                es: "El DRS típicamente proporciona 10-15 km/h extra en rectas, ahorrando aproximadamente 0.3-0.4 segundos por activación.",
+                de: "DRS bietet typischerweise 10-15 km/h Mehrgeschwindigkeit auf Geraden und spart etwa 0,3-0,4 Sekunden pro Aktivierung.",
+                nl: "DRS biedt doorgaans 10-15 km/h extra snelheid op rechte stukken, wat ongeveer 0.3-0.4 seconden bespaart per activatie."
+            }
+        },
+        {
+            question: {
+                en: "What is a virtual safety car (VSC)?",
+                es: "¿Qué es un coche de seguridad virtual (VSC)?",
+                de: "Was ist ein Virtual Safety Car (VSC)?",
+                nl: "Wat is een virtual safety car (VSC)?"
+            },
+            options: ["Simulated race", "System requiring drivers to slow to specific delta times", "Video game feature", "Practice mode"],
+            correct: 1,
+            explanation: {
+                en: "VSC requires all drivers to slow to a specific delta time, neutralizing the race without deploying the physical safety car.",
+                es: "El VSC requiere que todos los pilotos reduzcan a un tiempo delta específico, neutralizando sin el coche físico.",
+                de: "VSC erfordert dass alle Fahrer auf eine bestimmte Delta-Zeit verlangsamen, ohne physisches Safety Car.",
+                nl: "VSC vereist dat alle coureurs vertragen tot een specifieke delta-tijd, wat de race neutraliseert zonder fysieke safety car."
+            }
+        },
+        {
+            question: {
+                en: "What innovation did six-wheeled F1 cars explore?",
+                es: "¿Qué innovación exploraron los coches de F1 de seis ruedas?",
+                de: "Welche Innovation erforschten sechsrädrige F1-Autos?",
+                nl: "Welke innovatie onderzochten F1-auto's met zes wielen?"
+            },
+            options: ["Better braking", "Four small front wheels for better grip and reduced drag", "More storage", "Faster pit stops"],
+            correct: 1,
+            explanation: {
+                en: "Tyrrell's P34 used four small front wheels to increase front-end grip while reducing drag. Used 1976-1977 then abandoned.",
+                es: "El Tyrrell P34 usó cuatro ruedas delanteras pequeñas para aumentar agarre y reducir resistencia. Usado 1976-1977.",
+                de: "Der Tyrrell P34 nutzte vier kleine Vorderräder für mehr Grip bei weniger Luftwiderstand. 1976-1977 genutzt dann aufgegeben.",
+                nl: "Tyrrell's P34 gebruikte vier kleine voorwielen voor meer grip en minder luchtweerstand. Gebruikt 1976-1977 daarna verlaten."
+            }
+        },
+        {
+            question: {
+                en: "What does adjustable brake balance allow?",
+                es: "¿Qué permite el balance de frenos ajustable?",
+                de: "Was ermöglicht einstellbare Bremsbalance?",
+                nl: "Wat maakt verstelbare rembalans mogelijk?"
+            },
+            options: ["Change tire pressure", "Shift braking force between front and rear during race", "Adjust wing angle", "Control fuel flow"],
+            correct: 1,
+            explanation: {
+                en: "Drivers can adjust brake balance to shift braking force distribution between front and rear as fuel load and tire wear change.",
+                es: "Los pilotos pueden ajustar balance de freno para cambiar distribución entre adelante y atrás según carga y desgaste.",
+                de: "Fahrer können Bremsbalance anpassen um Bremskraftverteilung zwischen vorne und hinten bei sich ändernder Last anzupassen.",
+                nl: "Coureurs kunnen rembalans aanpassen om remkrachtverdeling tussen voor en achter te verschuiven bij veranderende brandstof en slijtage."
+            }
+        },
+        {
+            question: {
+                en: "What was the double diffuser innovation?",
+                es: "¿Qué fue la innovación del difusor doble?",
+                de: "Was war die Doppel-Diffusor-Innovation?",
+                nl: "Wat was de dubbele diffuser innovatie?"
+            },
+            options: ["Two separate cars", "Exploited loophole for extra downforce using dual diffuser channels", "Backup diffuser", "Lightweight design"],
+            correct: 1,
+            explanation: {
+                en: "The double diffuser exploited a regulation loophole to create additional airflow channels for more downforce, used 2009-2010.",
+                es: "El difusor doble explotó un vacío legal para crear canales adicionales de flujo para más carga, usado 2009-2010.",
+                de: "Der Doppel-Diffusor nutzte eine Regellücke für zusätzliche Luftströmungskanäle und mehr Abtrieb, 2009-2010 genutzt.",
+                nl: "De dubbele diffuser exploiteerde een regelmatig maas voor extra luchtstroom kanalen en meer neerwaartse druk, gebruikt 2009-2010."
+            }
+        },
+        {
+            question: {
+                en: "How does the energy recovery system limit deployment?",
+                es: "¿Cómo limita el sistema de recuperación de energía el despliegue?",
+                de: "Wie begrenzt das Energierückgewinnungssystem die Freigabe?",
+                nl: "Hoe beperkt het energieterugwinsysteem de inzet?"
+            },
+            options: ["No limits", "Maximum 4 MJ per lap from MGU-K", "Only on straights", "Only during overtaking"],
+            correct: 1,
+            explanation: {
+                en: "The MGU-K can deploy a maximum of 4 megajoules of electrical energy per lap, approximately 33 seconds of boost.",
+                es: "El MGU-K puede desplegar un máximo de 4 megajulios de energía eléctrica por vuelta, aproximadamente 33 segundos.",
+                de: "Die MGU-K kann maximal 4 Megajoule elektrische Energie pro Runde abgeben, etwa 33 Sekunden Boost.",
+                nl: "De MGU-K kan maximaal 4 megajoule elektrische energie per ronde inzetten, ongeveer 33 seconden boost."
+            }
+        },
+        {
+            question: {
+                en: "What is launch control in F1?",
+                es: "¿Qué es el control de lanzamiento en F1?",
+                de: "Was ist Launch Control in der F1?",
+                nl: "Wat is launch control in F1?"
+            },
+            options: ["Currently allowed system", "Banned automated start assistance system", "Pit lane speed limiter", "DRS activation"],
+            correct: 1,
+            explanation: {
+                en: "Launch control was an automated system for optimal race starts, banned since 2004 to increase driver skill importance.",
+                es: "El control de lanzamiento era un sistema automatizado para salidas óptimas, prohibido desde 2004.",
+                de: "Launch Control war ein automatisiertes System für optimale Starts, seit 2004 verboten um Fahrerfertigkeiten wichtiger zu machen.",
+                nl: "Launch control was een geautomatiseerd systeem voor optimale race starts, verboden sinds 2004 om coureursvaardigheid belangrijker te maken."
+            }
+        },
+        {
+            question: {
+                en: "What cooling innovation do modern F1 cars use?",
+                es: "¿Qué innovación de enfriamiento usan los coches modernos de F1?",
+                de: "Welche Kühlinnovation nutzen moderne F1-Autos?",
+                nl: "Welke koelingsinnovatie gebruiken moderne F1-auto's?"
+            },
+            options: ["Air conditioning", "Sophisticated radiator and cooling system integrated into sidepods", "Ice packs", "No cooling needed"],
+            correct: 1,
+            explanation: {
+                en: "Modern F1 cars use highly efficient radiator systems integrated into aerodynamic sidepods to cool engine, oil, and hybrid components.",
+                es: "Los coches modernos usan sistemas de radiador eficientes integrados en pontones aerodinámicos para enfriar motor y componentes.",
+                de: "Moderne F1-Autos nutzen hocheffiziente Kühlersysteme integriert in aerodynamische Seitenkästen für Motor und Hybridkomponenten.",
+                nl: "Moderne F1-auto's gebruiken zeer efficiënte radiatorsystemen geïntegreerd in aerodynamische sidepods om motor en hybride componenten te koelen."
+            }
+        },
+        {
+            question: {
+                en: "What does the pit limiter button do?",
+                es: "¿Qué hace el botón limitador de pit lane?",
+                de: "Was macht die Boxengassen-Begrenzertaste?",
+                nl: "Wat doet de pit limiter knop?"
+            },
+            options: ["Stops the car", "Limits speed to pit lane maximum (usually 80 km/h)", "Opens DRS", "Changes fuel mode"],
+            correct: 1,
+            explanation: {
+                en: "The pit limiter automatically restricts car speed to the pit lane limit (typically 80 km/h) to avoid penalties.",
+                es: "El limitador de pit lane restringe automáticamente la velocidad al límite del pit lane (típicamente 80 km/h).",
+                de: "Der Boxengassen-Begrenzer beschränkt die Geschwindigkeit automatisch auf das Boxengassen-Limit (typisch 80 km/h).",
+                nl: "De pit limiter beperkt automatisch de snelheid van de auto tot het pit lane maximum (doorgaans 80 km/h) om penalties te voorkomen."
+            }
+        },
+        {
+            question: {
+                en: "What was the mass damper innovation?",
+                es: "¿Qué fue la innovación del amortiguador de masa?",
+                de: "Was war die Massendämpfer-Innovation?",
+                nl: "Wat was de mass damper innovatie?"
+            },
+            options: ["Extra weight added", "Tuned mass to reduce car oscillations", "Brake component", "Tire technology"],
+            correct: 1,
+            explanation: {
+                en: "The mass damper was a tuned weight that reduced car oscillations for better tire contact. Renault used it in 2005-2006 before it was banned.",
+                es: "El amortiguador de masa era un peso ajustado que reducía oscilaciones para mejor contacto del neumático. Usado 2005-2006.",
+                de: "Der Massendämpfer war ein abgestimmtes Gewicht das Fahrzeugschwingungen reduzierte. Von Renault 2005-2006 genutzt dann verboten.",
+                nl: "De mass damper was een afgestemd gewicht dat auto-oscillaties verminderde voor beter bandencontact. Gebruikt door Renault 2005-2006 voor het werd verboden."
+            }
+        },
+        {
+            question: {
+                en: "What does the fuel flow limit regulate?",
+                es: "¿Qué regula el límite de flujo de combustible?",
+                de: "Was regelt die Kraftstofffluss-Begrenzung?",
+                nl: "Wat reguleert de brandstofstroom limiet?"
+            },
+            options: ["Total fuel capacity", "Maximum fuel flow rate to 100 kg/hour", "Fuel temperature", "Fuel type"],
+            correct: 1,
+            explanation: {
+                en: "The fuel flow is limited to maximum 100 kg/hour to regulate power output and encourage efficiency in hybrid era.",
+                es: "El flujo de combustible está limitado a máximo 100 kg/hora para regular potencia y fomentar eficiencia en era híbrida.",
+                de: "Der Kraftstofffluss ist auf maximal 100 kg/Stunde begrenzt um Leistung zu regeln und Effizienz zu fördern.",
+                nl: "De brandstofstroom is beperkt tot maximaal 100 kg/uur om vermogen te reguleren en efficiëntie aan te moedigen in het hybride tijdperk."
+            }
         }
     ];
 

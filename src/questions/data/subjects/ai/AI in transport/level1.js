@@ -427,6 +427,426 @@
           de: "Totwinkel-Erkennung nutzt Radar oder Kameras zur Überwachung von Bereichen neben und hinter dem Fahrzeug, die Spiegel nicht abdecken, und warnt Fahrer vor versteckten Fahrzeugen.",
           nl: "Dodehoekdetectie gebruikt radar of camera's om gebieden naast en achter het voertuig te monitoren die spiegels niet dekken, en waarschuwt bestuurders voor verborgen voertuigen."
         }
+      },
+      {
+        question: {
+          en: "What is the main advantage of electric vehicles with AI systems?",
+          es: "¿Cuál es la ventaja principal de vehículos eléctricos con sistemas IA?",
+          de: "Was ist der Hauptvorteil von Elektrofahrzeugen mit KI-Systemen?",
+          nl: "Wat is het hoofdvoordeel van elektrische voertuigen met AI-systemen?"
+        },
+        options: [
+          { en: "Optimized battery usage and charging schedules", es: "Uso optimizado de batería y horarios de carga", de: "Optimierte Batterienutzung und Ladepläne", nl: "Geoptimaliseerd batterijgebruik en laadschema's" },
+          { en: "Louder engine sounds", es: "Sonidos de motor más fuertes", de: "Lautere Motorgeräusche", nl: "Hardere motorgeluiden" },
+          { en: "More colorful exteriors", es: "Exteriores más coloridos", de: "Buntere Außenseiten", nl: "Kleurrijkere buitenkanten" },
+          { en: "Larger fuel tanks", es: "Tanques de combustible más grandes", de: "Größere Kraftstofftanks", nl: "Grotere brandstoftanks" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI in electric vehicles monitors driving patterns and battery status to maximize range and suggest optimal charging times based on electricity prices and usage needs.",
+          es: "La IA en vehículos eléctricos monitorea patrones de conducción y estado de batería para maximizar alcance y sugerir tiempos óptimos de carga basados en precios de electricidad y necesidades de uso.",
+          de: "KI in Elektrofahrzeugen überwacht Fahrmuster und Batteriestatus um Reichweite zu maximieren und optimale Ladezeiten basierend auf Strompreisen und Nutzungsbedarf vorzuschlagen.",
+          nl: "AI in elektrische voertuigen monitort rijpatronen en batterijstatus om bereik te maximaliseren en optimale oplaadtijden voor te stellen op basis van elektriciteitsprijzen en gebruiksbehoeften."
+        }
+      },
+      {
+        question: {
+          en: "What does collision avoidance system do in cars?",
+          es: "¿Qué hace el sistema de evitación de colisiones en coches?",
+          de: "Was macht ein Kollisionsvermeidungssystem in Autos?",
+          nl: "Wat doet een botsingsvermijdingssysteem in auto's?"
+        },
+        options: [
+          { en: "Detects potential crashes and warns or acts to prevent them", es: "Detecta choques potenciales y advierte o actúa para prevenirlos", de: "Erkennt potenzielle Unfälle und warnt oder handelt um sie zu verhindern", nl: "Detecteert potentiële crashes en waarschuwt of handelt om ze te voorkomen" },
+          { en: "Repairs damaged bumpers", es: "Repara parachoques dañados", de: "Repariert beschädigte Stoßstangen", nl: "Repareert beschadigde bumpers" },
+          { en: "Paints collision markings", es: "Pinta marcas de colisión", de: "Malt Kollisionsmarkierungen", nl: "Schildert botsingsmarkeringen" },
+          { en: "Records accident statistics", es: "Registra estadísticas de accidentes", de: "Zeichnet Unfallstatistiken auf", nl: "Registreert ongevallenstatistieken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Collision avoidance systems use sensors to monitor surroundings and can alert the driver or automatically brake and steer to prevent accidents.",
+          es: "Los sistemas de evitación de colisiones usan sensores para monitorear alrededores y pueden alertar al conductor o frenar y dirigir automáticamente para prevenir accidentes.",
+          de: "Kollisionsvermeidungssysteme nutzen Sensoren zur Umgebungsüberwachung und können den Fahrer warnen oder automatisch bremsen und lenken um Unfälle zu verhindern.",
+          nl: "Botsingsvermijdingssystemen gebruiken sensoren om omgeving te monitoren en kunnen de bestuurder waarschuwen of automatisch remmen en sturen om ongevallen te voorkomen."
+        }
+      },
+      {
+        question: {
+          en: "What is a benefit of AI in delivery trucks?",
+          es: "¿Cuál es un beneficio de IA en camiones de reparto?",
+          de: "Was ist ein Vorteil von KI in Lieferwagen?",
+          nl: "Wat is een voordeel van AI in bezorgwagens?"
+        },
+        options: [
+          { en: "Efficient route planning to save fuel and time", es: "Planificación eficiente de rutas para ahorrar combustible y tiempo", de: "Effiziente Routenplanung um Kraftstoff und Zeit zu sparen", nl: "Efficiënte routeplanning om brandstof en tijd te besparen" },
+          { en: "Decorating truck exteriors", es: "Decorar exteriores de camión", de: "Lkw-Außenseiten dekorieren", nl: "Vrachtwagen buitenkanten decoreren" },
+          { en: "Playing music for drivers", es: "Reproducir música para conductores", de: "Musik für Fahrer abspielen", nl: "Muziek afspelen voor bestuurders" },
+          { en: "Choosing package colors", es: "Elegir colores de paquetes", de: "Paketfarben auswählen", nl: "Pakketkleuren kiezen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI helps delivery companies optimize routes based on traffic, delivery locations, and time windows, reducing costs and improving delivery speed.",
+          es: "La IA ayuda a empresas de reparto a optimizar rutas basadas en tráfico, ubicaciones de entrega y ventanas de tiempo, reduciendo costos y mejorando velocidad de entrega.",
+          de: "KI hilft Lieferunternehmen Routen basierend auf Verkehr, Lieferorten und Zeitfenstern zu optimieren, reduziert Kosten und verbessert Liefergeschwindigkeit.",
+          nl: "AI helpt bezorgbedrijven routes te optimaliseren op basis van verkeer, bezorglocaties en tijdvensters, wat kosten vermindert en bezorgsnelheid verbetert."
+        }
+      },
+      {
+        question: {
+          en: "What does parking assist technology help drivers do?",
+          es: "¿Qué ayuda a hacer la tecnología de asistencia de estacionamiento a conductores?",
+          de: "Was hilft Park-Assistenz-Technologie Fahrern zu tun?",
+          nl: "Wat helpt parkeerassistentie technologie bestuurders te doen?"
+        },
+        options: [
+          { en: "Park vehicles in tight spaces automatically", es: "Estacionar vehículos en espacios reducidos automáticamente", de: "Fahrzeuge automatisch in engen Räumen parken", nl: "Voertuigen automatisch in krappe ruimtes parkeren" },
+          { en: "Pay parking fees", es: "Pagar tarifas de estacionamiento", de: "Parkgebühren bezahlen", nl: "Parkeerkosten betalen" },
+          { en: "Find parking lot owners", es: "Encontrar propietarios de estacionamiento", de: "Parkplatzbesitzer finden", nl: "Parkeerplaats eigenaren vinden" },
+          { en: "Design parking spaces", es: "Diseñar espacios de estacionamiento", de: "Parkplätze gestalten", nl: "Parkeerruimtes ontwerpen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Parking assist uses sensors and cameras to measure available space and automatically steers the vehicle into parking spots while the driver controls speed.",
+          es: "La asistencia de estacionamiento usa sensores y cámaras para medir espacio disponible y dirige automáticamente el vehículo a lugares de estacionamiento mientras el conductor controla velocidad.",
+          de: "Park-Assistenz nutzt Sensoren und Kameras zur Raummessung und lenkt das Fahrzeug automatisch in Parkplätze während der Fahrer die Geschwindigkeit kontrolliert.",
+          nl: "Parkeerassistentie gebruikt sensoren en camera's om beschikbare ruimte te meten en stuurt het voertuig automatisch in parkeerplaatsen terwijl de bestuurder snelheid controleert."
+        }
+      },
+      {
+        question: {
+          en: "How do traffic prediction systems work?",
+          es: "¿Cómo funcionan los sistemas de predicción de tráfico?",
+          de: "Wie funktionieren Verkehrsvorhersagesysteme?",
+          nl: "Hoe werken verkeervoorspellingssystemen?"
+        },
+        options: [
+          { en: "Analyze historical data and current conditions to forecast traffic", es: "Analizan datos históricos y condiciones actuales para pronosticar tráfico", de: "Analysieren historische Daten und aktuelle Bedingungen um Verkehr vorherzusagen", nl: "Analyseren historische data en huidige omstandigheden om verkeer te voorspellen" },
+          { en: "Count parked cars", es: "Contar coches estacionados", de: "Geparkte Autos zählen", nl: "Geparkeerde auto's tellen" },
+          { en: "Measure road temperature", es: "Medir temperatura de carretera", de: "Straßentemperatur messen", nl: "Wegtemperatuur meten" },
+          { en: "Monitor street light brightness", es: "Monitorear brillo de farolas", de: "Straßenlichthelligkeit überwachen", nl: "Straatverlichting helderheid monitoren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI traffic prediction analyzes patterns from past traffic data, events, weather, and real-time conditions to forecast congestion and suggest alternative routes.",
+          es: "La predicción de tráfico con IA analiza patrones de datos de tráfico pasados, eventos, clima y condiciones en tiempo real para pronosticar congestión y sugerir rutas alternativas.",
+          de: "KI-Verkehrsvorhersage analysiert Muster aus vergangenen Verkehrsdaten, Ereignissen, Wetter und Echtzeitbedingungen um Staus vorherzusagen und alternative Routen vorzuschlagen.",
+          nl: "AI-verkeervoorspelling analyseert patronen uit eerdere verkeersdata, evenementen, weer en real-time omstandigheden om opstoppingen te voorspellen en alternatieve routes voor te stellen."
+        }
+      },
+      {
+        question: {
+          en: "What is pedestrian detection in vehicles?",
+          es: "¿Qué es la detección de peatones en vehículos?",
+          de: "Was ist Fußgängererkennung in Fahrzeugen?",
+          nl: "Wat is voetgangersdetectie in voertuigen?"
+        },
+        options: [
+          { en: "AI system that identifies people near the vehicle to prevent accidents", es: "Sistema IA que identifica personas cerca del vehículo para prevenir accidentes", de: "KI-System das Personen in Fahrzeugnähe erkennt um Unfälle zu verhindern", nl: "AI-systeem dat mensen bij het voertuig identificeert om ongevallen te voorkomen" },
+          { en: "System for pedestrian traffic lights", es: "Sistema para semáforos peatonales", de: "System für Fußgängerampeln", nl: "Systeem voor voetgangerslichten" },
+          { en: "Pedestrian counting database", es: "Base de datos de conteo de peatones", de: "Fußgängerzähl-Datenbank", nl: "Voetgangerstel database" },
+          { en: "Sidewalk monitoring", es: "Monitoreo de aceras", de: "Gehwegüberwachung", nl: "Trottoir monitoring" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pedestrian detection uses cameras and AI to recognize people crossing or near roads and can alert drivers or automatically brake to protect pedestrians.",
+          es: "La detección de peatones usa cámaras e IA para reconocer personas cruzando o cerca de carreteras y puede alertar conductores o frenar automáticamente para proteger peatones.",
+          de: "Fußgängererkennung nutzt Kameras und KI zur Erkennung von Personen die Straßen überqueren oder in deren Nähe sind und kann Fahrer warnen oder automatisch bremsen um Fußgänger zu schützen.",
+          nl: "Voetgangersdetectie gebruikt camera's en AI om mensen te herkennen die wegen oversteken of erbij in de buurt zijn en kan bestuurders waarschuwen of automatisch remmen om voetgangers te beschermen."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of traffic cameras with AI?",
+          es: "¿Cuál es el propósito de cámaras de tráfico con IA?",
+          de: "Was ist der Zweck von Verkehrskameras mit KI?",
+          nl: "Wat is het doel van verkeerscamera's met AI?"
+        },
+        options: [
+          { en: "Monitor traffic flow and detect violations automatically", es: "Monitorear flujo de tráfico y detectar violaciones automáticamente", de: "Verkehrsfluss überwachen und Verstöße automatisch erkennen", nl: "Verkeersstroom monitoren en overtredingen automatisch detecteren" },
+          { en: "Take tourist photos", es: "Tomar fotos turísticas", de: "Touristenfotos machen", nl: "Toeristenfoto's maken" },
+          { en: "Film movies", es: "Filmar películas", de: "Filme drehen", nl: "Films opnemen" },
+          { en: "Broadcast television shows", es: "Transmitir programas de televisión", de: "Fernsehsendungen ausstrahlen", nl: "Televisie programma's uitzenden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI-powered traffic cameras analyze vehicle movement, detect speeding, illegal parking, and traffic rule violations, while also monitoring overall traffic conditions.",
+          es: "Las cámaras de tráfico con IA analizan movimiento de vehículos, detectan exceso de velocidad, estacionamiento ilegal y violaciones de reglas de tráfico, mientras también monitorean condiciones generales de tráfico.",
+          de: "KI-gestützte Verkehrskameras analysieren Fahrzeugbewegungen, erkennen Geschwindigkeitsüberschreitungen, illegales Parken und Verkehrsregelverstöße, während sie auch allgemeine Verkehrsbedingungen überwachen.",
+          nl: "AI-aangedreven verkeerscamera's analyseren voertuigbeweging, detecteren snelheidsovertredingen, illegaal parkeren en verkeersregel overtredingen, terwijl ze ook algemene verkeersomstandigheden monitoren."
+        }
+      },
+      {
+        question: {
+          en: "How does AI help in train scheduling?",
+          es: "¿Cómo ayuda la IA en programación de trenes?",
+          de: "Wie hilft KI bei der Zugplanung?",
+          nl: "Hoe helpt AI bij treinplanning?"
+        },
+        options: [
+          { en: "Optimizes timetables based on passenger demand and delays", es: "Optimiza horarios basados en demanda de pasajeros y retrasos", de: "Optimiert Fahrpläne basierend auf Fahrgastnachfrage und Verspätungen", nl: "Optimaliseert dienstregelingen op basis van passagiersvraag en vertragingen" },
+          { en: "Paints train colors", es: "Pinta colores de tren", de: "Malt Zugfarben", nl: "Schildert treinkleuren" },
+          { en: "Designs train seats", es: "Diseña asientos de tren", de: "Gestaltet Zugsitze", nl: "Ontwerpt treinstoelen" },
+          { en: "Cleans train windows", es: "Limpia ventanas de tren", de: "Reinigt Zugfenster", nl: "Maakt treinramen schoon" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI analyzes passenger patterns, connection requirements, and potential delays to create efficient train schedules that minimize waiting times and maximize capacity utilization.",
+          es: "La IA analiza patrones de pasajeros, requisitos de conexión y retrasos potenciales para crear horarios eficientes de tren que minimizan tiempos de espera y maximizan utilización de capacidad.",
+          de: "KI analysiert Fahrgastmuster, Anschlussanforderungen und potenzielle Verspätungen um effiziente Zugfahrpläne zu erstellen die Wartezeiten minimieren und Kapazitätsauslastung maximieren.",
+          nl: "AI analyseert passagierspatronen, overstapvereisten en potentiële vertragingen om efficiënte treinschema's te creëren die wachttijden minimaliseren en capaciteitsbenutting maximaliseren."
+        }
+      },
+      {
+        question: {
+          en: "What does road sign recognition do in cars?",
+          es: "¿Qué hace el reconocimiento de señales de carretera en coches?",
+          de: "Was macht Verkehrszeichenerkennung in Autos?",
+          nl: "Wat doet verkeersbordherkenning in auto's?"
+        },
+        options: [
+          { en: "Identifies traffic signs and displays information to the driver", es: "Identifica señales de tráfico y muestra información al conductor", de: "Erkennt Verkehrsschilder und zeigt Informationen dem Fahrer", nl: "Identificeert verkeersborden en toont informatie aan de bestuurder" },
+          { en: "Creates new traffic signs", es: "Crea nuevas señales de tráfico", de: "Erstellt neue Verkehrsschilder", nl: "Creëert nieuwe verkeersborden" },
+          { en: "Paints road signs", es: "Pinta señales de carretera", de: "Malt Straßenschilder", nl: "Schildert verkeersborden" },
+          { en: "Removes old signs", es: "Remueve señales viejas", de: "Entfernt alte Schilder", nl: "Verwijdert oude borden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Road sign recognition cameras use AI to read speed limits, stop signs, and other traffic signs, displaying alerts or adjusting vehicle settings automatically.",
+          es: "Las cámaras de reconocimiento de señales de carretera usan IA para leer límites de velocidad, señales de alto y otras señales de tráfico, mostrando alertas o ajustando configuraciones del vehículo automáticamente.",
+          de: "Verkehrszeichenerkennungs-Kameras nutzen KI zum Lesen von Geschwindigkeitsbegrenzungen, Stoppschildern und anderen Verkehrsschildern, zeigen Warnungen oder passen Fahrzeugeinstellungen automatisch an.",
+          nl: "Verkeersbordherkenning camera's gebruiken AI om snelheidslimieten, stopborden en andere verkeersborden te lezen, waarbij waarschuwingen worden getoond of voertuiginstellingen automatisch worden aangepast."
+        }
+      },
+      {
+        question: {
+          en: "What is vehicle diagnostics with AI?",
+          es: "¿Qué es diagnóstico de vehículo con IA?",
+          de: "Was ist Fahrzeugdiagnose mit KI?",
+          nl: "Wat is voertuigdiagnostiek met AI?"
+        },
+        options: [
+          { en: "System that monitors vehicle health and predicts maintenance needs", es: "Sistema que monitorea salud del vehículo y predice necesidades de mantenimiento", de: "System das Fahrzeugzustand überwacht und Wartungsbedarf vorhersagt", nl: "Systeem dat voertuigconditie monitort en onderhoudsbehoeften voorspelt" },
+          { en: "Diagnostic for driver health", es: "Diagnóstico para salud del conductor", de: "Diagnose für Fahrer-Gesundheit", nl: "Diagnose voor bestuurder gezondheid" },
+          { en: "Vehicle color analysis", es: "Análisis de color de vehículo", de: "Fahrzeugfarb-Analyse", nl: "Voertuigkleur analyse" },
+          { en: "Vehicle age estimation", es: "Estimación de edad de vehículo", de: "Fahrzeugalter-Schätzung", nl: "Voertuigleeftijd schatting" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI-powered diagnostics monitor engine performance, tire pressure, brake wear, and other systems to detect problems early and schedule maintenance before breakdowns occur.",
+          es: "Los diagnósticos con IA monitorean rendimiento del motor, presión de neumáticos, desgaste de frenos y otros sistemas para detectar problemas temprano y programar mantenimiento antes de que ocurran averías.",
+          de: "KI-gestützte Diagnose überwacht Motorleistung, Reifendruck, Bremsverschleiß und andere Systeme um Probleme früh zu erkennen und Wartung vor Pannen zu planen.",
+          nl: "AI-aangedreven diagnostiek monitort motorprestaties, bandenspanning, remslijtage en andere systemen om problemen vroeg te detecteren en onderhoud in te plannen voordat storingen optreden."
+        }
+      },
+      {
+        question: {
+          en: "How do smart buses help public transportation?",
+          es: "¿Cómo ayudan los autobuses inteligentes al transporte público?",
+          de: "Wie helfen intelligente Busse dem öffentlichen Verkehr?",
+          nl: "Hoe helpen slimme bussen het openbaar vervoer?"
+        },
+        options: [
+          { en: "Adjust routes and schedules based on real-time passenger demand", es: "Ajustan rutas y horarios basados en demanda de pasajeros en tiempo real", de: "Passen Routen und Fahrpläne basierend auf Echtzeit-Fahrgastnachfrage an", nl: "Passen routes en schema's aan op basis van real-time passagiersvraag" },
+          { en: "Only play announcements", es: "Solo reproducen anuncios", de: "Nur Ansagen abspielen", nl: "Alleen aankondigingen afspelen" },
+          { en: "Paint bus exteriors", es: "Pintar exteriores de autobús", de: "Bus-Außenseiten malen", nl: "Bus buitenkanten schilderen" },
+          { en: "Count bus stops", es: "Contar paradas de autobús", de: "Bushaltestellen zählen", nl: "Bushaltes tellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Smart buses use AI to track passenger numbers, traffic conditions, and demand patterns to dynamically optimize routes and improve service efficiency.",
+          es: "Los autobuses inteligentes usan IA para rastrear números de pasajeros, condiciones de tráfico y patrones de demanda para optimizar dinámicamente rutas y mejorar eficiencia del servicio.",
+          de: "Intelligente Busse nutzen KI zur Verfolgung von Fahrgastzahlen, Verkehrsbedingungen und Nachfragemustern um Routen dynamisch zu optimieren und Serviceeffizienz zu verbessern.",
+          nl: "Slimme bussen gebruiken AI om passagiersaantallen, verkeersomstandigheden en vraagpatronen te volgen om routes dynamisch te optimaliseren en service-efficiëntie te verbeteren."
+        }
+      },
+      {
+        question: {
+          en: "What is automatic headlight control in vehicles?",
+          es: "¿Qué es el control automático de faros en vehículos?",
+          de: "Was ist automatische Scheinwerfersteuerung in Fahrzeugen?",
+          nl: "Wat is automatische koplampregeling in voertuigen?"
+        },
+        options: [
+          { en: "AI adjusts headlights based on ambient light and oncoming traffic", es: "IA ajusta faros basándose en luz ambiente y tráfico que se aproxima", de: "KI passt Scheinwerfer basierend auf Umgebungslicht und Gegenverkehr an", nl: "AI past koplampen aan op basis van omgevingslicht en tegemoetkomend verkeer" },
+          { en: "Manual light switch", es: "Interruptor manual de luz", de: "Manueller Lichtschalter", nl: "Handmatige lichtschakelaar" },
+          { en: "Headlight color changer", es: "Cambiador de color de faro", de: "Scheinwerferfarbwechsler", nl: "Koplamp kleurveranderaar" },
+          { en: "Headlight cleaning system", es: "Sistema de limpieza de faros", de: "Scheinwerfer-Reinigungssystem", nl: "Koplamp reinigingssysteem" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Automatic headlight systems use sensors and cameras to detect darkness and approaching vehicles, adjusting beam direction and intensity to improve visibility without blinding other drivers.",
+          es: "Los sistemas automáticos de faros usan sensores y cámaras para detectar oscuridad y vehículos que se aproximan, ajustando dirección e intensidad del haz para mejorar visibilidad sin cegar otros conductores.",
+          de: "Automatische Scheinwerfersysteme nutzen Sensoren und Kameras zur Erkennung von Dunkelheit und sich nähernden Fahrzeugen, passen Strahlrichtung und Intensität an um Sichtbarkeit zu verbessern ohne andere Fahrer zu blenden.",
+          nl: "Automatische koplampsystemen gebruiken sensoren en camera's om duisternis en naderende voertuigen te detecteren, waarbij straalrichting en intensiteit worden aangepast om zichtbaarheid te verbeteren zonder andere bestuurders te verblinden."
+        }
+      },
+      {
+        question: {
+          en: "What is driver drowsiness detection?",
+          es: "¿Qué es la detección de somnolencia del conductor?",
+          de: "Was ist Fahrer-Müdigkeitserkennung?",
+          nl: "Wat is bestuurder slaperigheidsdetectie?"
+        },
+        options: [
+          { en: "AI system that monitors driver alertness and warns when tired", es: "Sistema IA que monitorea alerta del conductor y advierte cuando está cansado", de: "KI-System das Fahrer-Wachsamkeit überwacht und bei Müdigkeit warnt", nl: "AI-systeem dat bestuurder alertheid monitort en waarschuwt wanneer moe" },
+          { en: "Sleepiness medication dispenser", es: "Dispensador de medicamento para sueño", de: "Schläfrigkeitsmedikament-Spender", nl: "Slaperigheids medicatie dispenser" },
+          { en: "Drowsiness prevention coffee maker", es: "Cafetera de prevención de somnolencia", de: "Müdigkeitspräventions-Kaffeemaschine", nl: "Slaperigheidspreventie koffiezetapparaat" },
+          { en: "Sleep schedule planner", es: "Planificador de horario de sueño", de: "Schlafzeitplan-Planer", nl: "Slaapschema planner" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Drowsiness detection uses cameras to monitor eye movements, blinking patterns, and head position to detect signs of fatigue and alert drivers to take breaks.",
+          es: "La detección de somnolencia usa cámaras para monitorear movimientos oculares, patrones de parpadeo y posición de cabeza para detectar signos de fatiga y alertar conductores a tomar descansos.",
+          de: "Müdigkeitserkennung nutzt Kameras zur Überwachung von Augenbewegungen, Blinzelmustern und Kopfposition um Ermüdungszeichen zu erkennen und Fahrer zu Pausen zu mahnen.",
+          nl: "Slaperigheidsdetectie gebruikt camera's om oogbewegingen, knipperpatronen en hoofdpositie te monitoren om tekenen van vermoeidheid te detecteren en bestuurders te waarschuwen om pauzes te nemen."
+        }
+      },
+      {
+        question: {
+          en: "How does AI help with fuel efficiency in vehicles?",
+          es: "¿Cómo ayuda la IA con la eficiencia de combustible en vehículos?",
+          de: "Wie hilft KI bei der Kraftstoffeffizienz in Fahrzeugen?",
+          nl: "Hoe helpt AI met brandstofefficiëntie in voertuigen?"
+        },
+        options: [
+          { en: "Optimizes engine performance and driving patterns to reduce fuel consumption", es: "Optimiza rendimiento del motor y patrones de conducción para reducir consumo de combustible", de: "Optimiert Motorleistung und Fahrmuster um Kraftstoffverbrauch zu reduzieren", nl: "Optimaliseert motorprestaties en rijpatronen om brandstofverbruik te verminderen" },
+          { en: "Changes fuel tank size", es: "Cambia tamaño del tanque de combustible", de: "Ändert Tankgröße", nl: "Verandert brandstoftankgrootte" },
+          { en: "Adjusts fuel prices", es: "Ajusta precios de combustible", de: "Passt Kraftstoffpreise an", nl: "Past brandstofprijzen aan" },
+          { en: "Selects fuel station colors", es: "Selecciona colores de estación de combustible", de: "Wählt Tankstellenfarben", nl: "Selecteert tankstationkleuren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI monitors driving behavior, road conditions, and traffic to suggest optimal speeds, gear shifts, and routes that minimize fuel consumption while maintaining performance.",
+          es: "La IA monitorea comportamiento de conducción, condiciones de carretera y tráfico para sugerir velocidades óptimas, cambios de marcha y rutas que minimizan consumo de combustible mientras mantiene rendimiento.",
+          de: "KI überwacht Fahrverhalten, Straßenbedingungen und Verkehr um optimale Geschwindigkeiten, Gangwechsel und Routen vorzuschlagen die Kraftstoffverbrauch minimieren bei Leistungserhalt.",
+          nl: "AI monitort rijgedrag, wegomstandigheden en verkeer om optimale snelheden, versnellingswisselingen en routes voor te stellen die brandstofverbruik minimaliseren terwijl prestaties behouden blijven."
+        }
+      },
+      {
+        question: {
+          en: "What is intersection collision warning?",
+          es: "¿Qué es la advertencia de colisión en intersecciones?",
+          de: "Was ist Kreuzungs-Kollisionswarnung?",
+          nl: "Wat is kruispunt botsingswaarschuwing?"
+        },
+        options: [
+          { en: "System that alerts drivers to crossing traffic at intersections", es: "Sistema que alerta conductores a tráfico cruzando en intersecciones", de: "System das Fahrer vor Querverkehr an Kreuzungen warnt", nl: "Systeem dat bestuurders waarschuwt voor kruisend verkeer bij kruispunten" },
+          { en: "Intersection design tool", es: "Herramienta de diseño de intersecciones", de: "Kreuzungs-Design-Werkzeug", nl: "Kruispunt ontwerp gereedschap" },
+          { en: "Traffic light timer", es: "Temporizador de semáforo", de: "Ampel-Timer", nl: "Verkeerslicht timer" },
+          { en: "Road surface analyzer", es: "Analizador de superficie de carretera", de: "Straßenoberflächen-Analysator", nl: "Wegoppervlak analysator" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "This AI system uses sensors to detect vehicles approaching from side streets or running red lights, warning the driver of potential collisions at intersections.",
+          es: "Este sistema IA usa sensores para detectar vehículos aproximándose desde calles laterales o pasando luces rojas, advirtiendo al conductor de colisiones potenciales en intersecciones.",
+          de: "Dieses KI-System nutzt Sensoren zur Erkennung von Fahrzeugen die sich von Seitenstraßen nähern oder rote Ampeln überfahren, warnt Fahrer vor potenziellen Kollisionen an Kreuzungen.",
+          nl: "Dit AI-systeem gebruikt sensoren om voertuigen te detecteren die naderen van zijstraten of door rood rijden, waarbij de bestuurder wordt gewaarschuwd voor potentiële botsingen bij kruispunten."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of AI in metro/subway systems?",
+          es: "¿Cuál es el propósito de IA en sistemas de metro?",
+          de: "Was ist der Zweck von KI in Metro/U-Bahn-Systemen?",
+          nl: "Wat is het doel van AI in metro/ondergrondse systemen?"
+        },
+        options: [
+          { en: "Automate train operation and optimize schedules for efficiency", es: "Automatizar operación de trenes y optimizar horarios para eficiencia", de: "Zugbetrieb automatisieren und Fahrpläne für Effizienz optimieren", nl: "Treinoperatie automatiseren en schema's optimaliseren voor efficiëntie" },
+          { en: "Design station architecture", es: "Diseñar arquitectura de estación", de: "Stationsarchitektur gestalten", nl: "Station architectuur ontwerpen" },
+          { en: "Choose train colors", es: "Elegir colores de tren", de: "Zugfarben auswählen", nl: "Treinkleuren kiezen" },
+          { en: "Sell tickets manually", es: "Vender boletos manualmente", de: "Tickets manuell verkaufen", nl: "Kaartjes handmatig verkopen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI controls train speeds, manages station dwell times, adjusts schedules based on passenger flow, and ensures safe distances between trains for optimal metro operations.",
+          es: "La IA controla velocidades de tren, gestiona tiempos de permanencia en estación, ajusta horarios basados en flujo de pasajeros y asegura distancias seguras entre trenes para operaciones óptimas de metro.",
+          de: "KI steuert Zuggeschwindigkeiten, verwaltet Stationsaufenthaltszeiten, passt Fahrpläne basierend auf Fahrgastfluss an und gewährleistet sichere Abstände zwischen Zügen für optimalen Metro-Betrieb.",
+          nl: "AI regelt treinsnelheden, beheert stationsverblijftijden, past schema's aan op basis van passagiersstroom en waarborgt veilige afstanden tussen treinen voor optimale metrooperaties."
+        }
+      },
+      {
+        question: {
+          en: "What is rear cross-traffic alert in cars?",
+          es: "¿Qué es la alerta de tráfico cruzado trasero en coches?",
+          de: "Was ist Querverkehrswarnung hinten in Autos?",
+          nl: "Wat is achteruitrijwaarschuwing voor kruisend verkeer in auto's?"
+        },
+        options: [
+          { en: "Warns drivers of vehicles approaching from sides when reversing", es: "Advierte conductores de vehículos aproximándose desde lados al retroceder", de: "Warnt Fahrer vor Fahrzeugen die sich von den Seiten nähern beim Rückwärtsfahren", nl: "Waarschuwt bestuurders voor voertuigen die naderen van opzij bij achteruitrijden" },
+          { en: "Rear window heater", es: "Calentador de ventana trasera", de: "Heckscheibenheizung", nl: "Achterruitverwarming" },
+          { en: "Rear bumper color indicator", es: "Indicador de color de parachoques trasero", de: "Hinterstoßstangen-Farbindikator", nl: "Achterbumper kleurindicator" },
+          { en: "Rear tire pressure monitor", es: "Monitor de presión de neumático trasero", de: "Hinterer Reifendruck-Monitor", nl: "Achterbandenspanning monitor" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "This system uses radar sensors to detect vehicles approaching from either side when backing out of parking spaces, alerting the driver to prevent collisions.",
+          es: "Este sistema usa sensores de radar para detectar vehículos aproximándose desde cualquier lado al salir de espacios de estacionamiento, alertando al conductor para prevenir colisiones.",
+          de: "Dieses System nutzt Radarsensoren zur Erkennung von Fahrzeugen die sich von beiden Seiten nähern beim Rückwärtsausparken, warnt Fahrer um Kollisionen zu verhindern.",
+          nl: "Dit systeem gebruikt radarsensoren om voertuigen te detecteren die van beide kanten naderen bij het achteruit uitparkeren, waarbij de bestuurder wordt gewaarschuwd om botsingen te voorkomen."
+        }
+      },
+      {
+        question: {
+          en: "How do shared mobility services use AI?",
+          es: "¿Cómo usan IA los servicios de movilidad compartida?",
+          de: "Wie nutzen geteilte Mobilitätsdienste KI?",
+          nl: "Hoe gebruiken gedeelde mobiliteitsdiensten AI?"
+        },
+        options: [
+          { en: "Match users with nearby vehicles and predict demand patterns", es: "Emparejan usuarios con vehículos cercanos y predicen patrones de demanda", de: "Verbinden Nutzer mit nahen Fahrzeugen und sagen Nachfragemuster voraus", nl: "Koppelen gebruikers aan nabije voertuigen en voorspellen vraagpatronen" },
+          { en: "Design vehicle colors", es: "Diseñar colores de vehículos", de: "Fahrzeugfarben gestalten", nl: "Voertuigkleuren ontwerpen" },
+          { en: "Create vehicle logos", es: "Crear logos de vehículos", de: "Fahrzeug-Logos erstellen", nl: "Voertuig logo's creëren" },
+          { en: "Choose parking lot names", es: "Elegir nombres de estacionamiento", de: "Parkplatznamen auswählen", nl: "Parkeerplaats namen kiezen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI in bike-shares, car-shares, and scooter-shares analyzes usage patterns, redistributes vehicles to high-demand areas, and optimizes pricing based on availability and location.",
+          es: "La IA en bicicletas compartidas, coches compartidos y scooters compartidos analiza patrones de uso, redistribuye vehículos a áreas de alta demanda y optimiza precios basados en disponibilidad y ubicación.",
+          de: "KI in Bike-Sharing, Car-Sharing und Scooter-Sharing analysiert Nutzungsmuster, verteilt Fahrzeuge in stark nachgefragte Bereiche um und optimiert Preise basierend auf Verfügbarkeit und Standort.",
+          nl: "AI in deelfietsen, deelauto's en deelscooters analyseert gebruikspatronen, distribueert voertuigen naar gebieden met hoge vraag en optimaliseert prijzen op basis van beschikbaarheid en locatie."
+        }
+      },
+      {
+        question: {
+          en: "What is tire pressure monitoring with AI?",
+          es: "¿Qué es el monitoreo de presión de neumáticos con IA?",
+          de: "Was ist Reifendruck-Überwachung mit KI?",
+          nl: "Wat is bandenspanning monitoring met AI?"
+        },
+        options: [
+          { en: "System that continuously checks tire pressure and alerts for problems", es: "Sistema que revisa continuamente presión de neumáticos y alerta sobre problemas", de: "System das kontinuierlich Reifendruck prüft und bei Problemen warnt", nl: "Systeem dat continu bandenspanning controleert en waarschuwt voor problemen" },
+          { en: "Tire color monitoring", es: "Monitoreo de color de neumático", de: "Reifenfarb-Überwachung", nl: "Bandenkleur monitoring" },
+          { en: "Tire brand selection", es: "Selección de marca de neumático", de: "Reifenmarken-Auswahl", nl: "Bandenmerk selectie" },
+          { en: "Tire age estimation", es: "Estimación de edad de neumático", de: "Reifenalter-Schätzung", nl: "Bandenleeftijd schatting" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI-enhanced tire pressure monitoring analyzes pressure trends to predict punctures, optimize tire wear, and improve fuel efficiency by maintaining proper inflation.",
+          es: "El monitoreo de presión de neumáticos mejorado con IA analiza tendencias de presión para predecir pinchazos, optimizar desgaste de neumáticos y mejorar eficiencia de combustible manteniendo inflado adecuado.",
+          de: "KI-verbesserte Reifendrucküberwachung analysiert Drucktrends um Reifenpannen vorherzusagen, Reifenverschleiß zu optimieren und Kraftstoffeffizienz durch richtigen Reifendruck zu verbessern.",
+          nl: "AI-verbeterde bandenspanning monitoring analyseert druktrends om lekke banden te voorspellen, bandenslijtage te optimaliseren en brandstofefficiëntie te verbeteren door juiste spanning te behouden."
+        }
+      },
+      {
+        question: {
+          en: "What is weather-adaptive driving assistance?",
+          es: "¿Qué es la asistencia de conducción adaptativa al clima?",
+          de: "Was ist wetterangepasste Fahrassistenz?",
+          nl: "Wat is weersaangepaste rijassistentie?"
+        },
+        options: [
+          { en: "AI adjusts vehicle systems based on weather conditions for safety", es: "IA ajusta sistemas del vehículo basándose en condiciones climáticas para seguridad", de: "KI passt Fahrzeugsysteme basierend auf Wetterbedingungen für Sicherheit an", nl: "AI past voertuigsystemen aan op basis van weersomstandigheden voor veiligheid" },
+          { en: "Weather forecasting display", es: "Visualización de pronóstico del tiempo", de: "Wettervorhersage-Anzeige", nl: "Weervoorspelling display" },
+          { en: "Weather-themed car decorations", es: "Decoraciones de coche con tema del clima", de: "Wetterabhängige Auto-Dekorationen", nl: "Weer-thema auto decoraties" },
+          { en: "Climate control for cabin temperature", es: "Control de clima para temperatura de cabina", de: "Klimasteuerung für Innenraumtemperatur", nl: "Klimaatregeling voor cabinetemperatuur" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "This AI system detects rain, snow, fog, or ice and automatically adjusts traction control, braking sensitivity, and driver alerts to maintain safe driving in poor weather.",
+          es: "Este sistema IA detecta lluvia, nieve, niebla o hielo y ajusta automáticamente control de tracción, sensibilidad de frenado y alertas de conductor para mantener conducción segura en mal clima.",
+          de: "Dieses KI-System erkennt Regen, Schnee, Nebel oder Eis und passt automatisch Traktionskontrolle, Bremsempfindlichkeit und Fahrerwarnungen an um sicheres Fahren bei schlechtem Wetter zu gewährleisten.",
+          nl: "Dit AI-systeem detecteert regen, sneeuw, mist of ijs en past automatisch tractiecontrole, remgevoeligheid en bestuurder waarschuwingen aan om veilig rijden bij slecht weer te behouden."
+        }
       }
     ]
   };

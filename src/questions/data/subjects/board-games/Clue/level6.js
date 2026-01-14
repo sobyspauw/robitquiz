@@ -868,8 +868,797 @@
           de: "Dynamisches Hypothesen-Pruning beinhaltet aktives Aufrechterhalten und Aktualisieren eines Satzes möglicher Lösungshypothesen, wobei ganze Zweige von Möglichkeiten eliminiert werden, sobald sie logisch unmöglich werden. Anstatt nur einzelne Karten zu verfolgen, behandelt dieser Ansatz den Lösungsraum als Entscheidungsbaum.",
           nl: "Dynamische hypothese-pruning houdt in dat je actief een set mogelijke oplossingshypothesen onderhoudt en bijwerkt, waarbij hele takken van mogelijkheden worden geëlimineerd zodra ze logisch onmogelijk worden. In plaats van alleen individuele kaarten bij te houden, behandelt deze aanpak de oplossingsruimte als een beslissingsboom."
         }
+      },
+      {
+        question: {
+          en: "What is 'transitive inference optimization' in master-level Cluedo?",
+          es: "¿Qué es la 'optimización de inferencia transitiva' en Cluedo de nivel maestro?",
+          de: "Was ist 'transitive Inferenzoptimierung' im Meister-Cluedo?",
+          nl: "Wat is 'transitieve inferentie-optimalisatie' in meester-niveau Cluedo?"
+        },
+        options: [
+          {
+            en: "Making logical deductions by combining information from multiple sources to infer facts not directly observed",
+            es: "Hacer deducciones lógicas combinando información de múltiples fuentes para inferir hechos no observados directamente",
+            de: "Logische Deduktionen durch Kombination von Informationen aus mehreren Quellen treffen, um nicht direkt beobachtete Fakten zu folgern",
+            nl: "Logische deducties maken door informatie van meerdere bronnen te combineren om feiten te infereren die niet direct zijn waargenomen"
+          },
+          {
+            en: "Moving directly between rooms",
+            es: "Moverse directamente entre habitaciones",
+            de: "Direkt zwischen Räumen bewegen",
+            nl: "Direct tussen kamers bewegen"
+          },
+          {
+            en: "Guessing based on intuition",
+            es: "Adivinar basándose en intuición",
+            de: "Basierend auf Intuition raten",
+            nl: "Raden op basis van intuïtie"
+          },
+          {
+            en: "Only using direct observations",
+            es: "Solo usar observaciones directas",
+            de: "Nur direkte Beobachtungen verwenden",
+            nl: "Alleen directe waarnemingen gebruiken"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Transitive inference optimization involves making deductions by combining multiple pieces of indirect evidence. For example, if Player A couldn't disprove a suggestion containing card X, and you know Player A has exactly 4 cards and you've identified 3 of them, you can transitively infer that Player A's fourth card must be from a specific limited set, even without direct observation.",
+          es: "La optimización de inferencia transitiva implica hacer deducciones combinando múltiples piezas de evidencia indirecta. Por ejemplo, si el Jugador A no pudo refutar una sugerencia que contiene la carta X, y sabes que el Jugador A tiene exactamente 4 cartas y has identificado 3 de ellas, puedes inferir transitivamente que la cuarta carta debe ser de un conjunto limitado específico.",
+          de: "Transitive Inferenzoptimierung beinhaltet Deduktionen durch Kombination mehrerer indirekter Beweise. Wenn zum Beispiel Spieler A einen Vorschlag mit Karte X nicht widerlegen konnte und Sie wissen, dass Spieler A genau 4 Karten hat und Sie 3 davon identifiziert haben, können Sie transitiv folgern, dass die vierte Karte von einem bestimmten begrenzten Satz sein muss.",
+          nl: "Transitieve inferentie-optimalisatie houdt in dat je deducties maakt door meerdere stukken indirect bewijs te combineren. Als Speler A bijvoorbeeld een suggestie met kaart X niet kon weerleggen, en je weet dat Speler A precies 4 kaarten heeft en je hebt er 3 van geïdentificeerd, kun je transitief infereren dat de vierde kaart van een specifieke beperkte set moet zijn."
+        }
+      },
+      {
+        question: {
+          en: "What is 'game state complexity reduction' in championship Cluedo?",
+          es: "¿Qué es la 'reducción de complejidad del estado del juego' en Cluedo de campeonato?",
+          de: "Was ist 'Spielzustandskomplexitätsreduzierung' im Meisterschafts-Cluedo?",
+          nl: "Wat is 'spelstatuscomplexiteitsreductie' in kampioenschap-Cluedo?"
+        },
+        options: [
+          {
+            en: "Strategically making suggestions that maximize the reduction in total possible game states",
+            es: "Hacer estratégicamente sugerencias que maximicen la reducción en estados de juego totales posibles",
+            de: "Strategisches Machen von Vorschlägen, die die Reduzierung der gesamten möglichen Spielzustände maximieren",
+            nl: "Strategisch suggesties doen die de reductie in totale mogelijke spelstatussen maximaliseren"
+          },
+          {
+            en: "Playing faster to shorten the game",
+            es: "Jugar más rápido para acortar el juego",
+            de: "Schneller spielen, um das Spiel zu verkürzen",
+            nl: "Sneller spelen om het spel te verkorten"
+          },
+          {
+            en: "Removing players from the game",
+            es: "Eliminar jugadores del juego",
+            de: "Spieler aus dem Spiel entfernen",
+            nl: "Spelers uit het spel verwijderen"
+          },
+          {
+            en: "Using simpler strategies",
+            es: "Usar estrategias más simples",
+            de: "Einfachere Strategien verwenden",
+            nl: "Eenvoudigere strategieën gebruiken"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Game state complexity reduction involves selecting suggestions that maximally reduce the branching factor of possible game states. Each suggestion can potentially eliminate different numbers of possible solutions; master players calculate which suggestions will partition the solution space most efficiently, choosing those that guarantee the greatest reduction in uncertainty regardless of the response.",
+          es: "La reducción de complejidad del estado del juego implica seleccionar sugerencias que reduzcan maximalmente el factor de ramificación de posibles estados del juego. Cada sugerencia puede potencialmente eliminar diferentes números de soluciones posibles; los jugadores maestros calculan qué sugerencias particionarán el espacio de solución más eficientemente.",
+          de: "Spielzustandskomplexitätsreduzierung beinhaltet die Auswahl von Vorschlägen, die den Verzweigungsfaktor möglicher Spielzustände maximal reduzieren. Jeder Vorschlag kann potenziell unterschiedliche Anzahlen möglicher Lösungen eliminieren; Meisterspieler berechnen, welche Vorschläge den Lösungsraum am effizientesten partitionieren.",
+          nl: "Spelstatuscomplexiteitsreductie houdt in dat je suggesties selecteert die de vertakkingsfactor van mogelijke spelstatussen maximaal reduceren. Elke suggestie kan potentieel verschillende aantallen mogelijke oplossingen elimineren; meesterspelers berekenen welke suggesties de oplossingsruimte het meest efficiënt zullen partitioneren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'information asymmetry exploitation' in competitive Cluedo?",
+          es: "¿Qué es la 'explotación de asimetría de información' en Cluedo competitivo?",
+          de: "Was ist 'Informationsasymmetrie-Ausbeutung' im kompetitiven Cluedo?",
+          nl: "Wat is 'informatieasymmetrie-exploitatie' in competitief Cluedo?"
+        },
+        options: [
+          {
+            en: "Leveraging the fact that different players have different information to create strategic advantages",
+            es: "Aprovechar el hecho de que diferentes jugadores tienen diferente información para crear ventajas estratégicas",
+            de: "Nutzen der Tatsache, dass verschiedene Spieler unterschiedliche Informationen haben, um strategische Vorteile zu schaffen",
+            nl: "Benutten van het feit dat verschillende spelers verschillende informatie hebben om strategische voordelen te creëren"
+          },
+          {
+            en: "Having more cards than opponents",
+            es: "Tener más cartas que los oponentes",
+            de: "Mehr Karten als Gegner haben",
+            nl: "Meer kaarten hebben dan tegenstanders"
+          },
+          {
+            en: "Playing unfairly",
+            es: "Jugar injustamente",
+            de: "Unfair spielen",
+            nl: "Oneerlijk spelen"
+          },
+          {
+            en: "Hiding information illegally",
+            es: "Ocultar información ilegalmente",
+            de: "Informationen illegal verbergen",
+            nl: "Informatie illegaal verbergen"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Information asymmetry exploitation involves strategically using the fact that each player has unique private information (their own cards) and different levels of public information (what they've observed). Master players manipulate suggestions and revelations to create and exploit knowledge gaps between opponents, positioning themselves to benefit from the differential information states across all players.",
+          es: "La explotación de asimetría de información implica usar estratégicamente el hecho de que cada jugador tiene información privada única (sus propias cartas) y diferentes niveles de información pública. Los jugadores maestros manipulan sugerencias y revelaciones para crear y explotar brechas de conocimiento entre oponentes.",
+          de: "Informationsasymmetrie-Ausbeutung beinhaltet strategisches Nutzen der Tatsache, dass jeder Spieler einzigartige private Informationen (eigene Karten) und unterschiedliche Niveaus öffentlicher Informationen hat. Meisterspieler manipulieren Vorschläge und Offenbarungen, um Wissenslücken zwischen Gegnern zu schaffen und auszunutzen.",
+          nl: "Informatieasymmetrie-exploitatie houdt in dat je strategisch gebruikt dat elke speler unieke privé-informatie heeft (hun eigen kaarten) en verschillende niveaus van publieke informatie. Meesterspelers manipuleren suggesties en onthullingen om kenniskloven tussen tegenstanders te creëren en te exploiteren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'recursive opponent modeling depth' in master Cluedo analysis?",
+          es: "¿Qué es la 'profundidad de modelado recursivo del oponente' en análisis maestro de Cluedo?",
+          de: "Was ist 'rekursive Gegnermodellierungstiefe' in der Meister-Cluedo-Analyse?",
+          nl: "Wat is 'recursieve tegenstandermodelleringsdiepte' in meester-Cluedo-analyse?"
+        },
+        options: [
+          {
+            en: "The number of levels deep you model opponents' knowledge about your knowledge about their knowledge",
+            es: "El número de niveles de profundidad que modelas el conocimiento de los oponentes sobre tu conocimiento sobre su conocimiento",
+            de: "Die Anzahl der Ebenen, in denen Sie das Wissen der Gegner über Ihr Wissen über deren Wissen modellieren",
+            nl: "Het aantal niveaus diep dat je de kennis van tegenstanders modelleert over jouw kennis over hun kennis"
+          },
+          {
+            en: "How well you remember opponent names",
+            es: "Qué tan bien recuerdas los nombres de los oponentes",
+            de: "Wie gut Sie sich Gegnernamen merken",
+            nl: "Hoe goed je tegenstander namen onthoudt"
+          },
+          {
+            en: "The complexity of your note-taking system",
+            es: "La complejidad de tu sistema de toma de notas",
+            de: "Die Komplexität Ihres Notizsystems",
+            nl: "De complexiteit van je aantekeningensysteem"
+          },
+          {
+            en: "How many turns you plan ahead",
+            es: "Cuántos turnos planeas con anticipación",
+            de: "Wie viele Züge Sie vorausplanen",
+            nl: "Hoeveel beurten je vooruit plant"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Recursive opponent modeling depth refers to how many levels of strategic thinking you maintain: Level 0 is your own knowledge, Level 1 is modeling what opponents know, Level 2 is modeling what opponents think you know, Level 3 is modeling what opponents think you know about what they know, and so on. Championship players often operate at Level 3 or higher, using this recursive understanding to anticipate and counter sophisticated opponent strategies.",
+          es: "La profundidad de modelado recursivo del oponente se refiere a cuántos niveles de pensamiento estratégico mantienes: Nivel 0 es tu propio conocimiento, Nivel 1 es modelar lo que saben los oponentes, Nivel 2 es modelar lo que los oponentes piensan que sabes, Nivel 3 es modelar lo que los oponentes piensan que sabes sobre lo que ellos saben, y así sucesivamente.",
+          de: "Rekursive Gegnermodellierungstiefe bezieht sich darauf, wie viele Ebenen strategischen Denkens Sie aufrechterhalten: Ebene 0 ist Ihr eigenes Wissen, Ebene 1 ist die Modellierung dessen, was Gegner wissen, Ebene 2 ist die Modellierung dessen, was Gegner denken, dass Sie wissen, Ebene 3 ist die Modellierung dessen, was Gegner denken, dass Sie über ihr Wissen wissen.",
+          nl: "Recursieve tegenstandermodelleringsdiepte verwijst naar hoeveel niveaus van strategisch denken je onderhoudt: Niveau 0 is je eigen kennis, Niveau 1 is modelleren wat tegenstanders weten, Niveau 2 is modelleren wat tegenstanders denken dat je weet, Niveau 3 is modelleren wat tegenstanders denken dat je weet over wat zij weten, enzovoort."
+        }
+      },
+      {
+        question: {
+          en: "What is 'constraint satisfaction acceleration' in advanced Cluedo solving?",
+          es: "¿Qué es la 'aceleración de satisfacción de restricciones' en resolución avanzada de Cluedo?",
+          de: "Was ist 'Constraint-Satisfaction-Beschleunigung' im fortgeschrittenen Cluedo-Lösen?",
+          nl: "Wat is 'beperking-tevredenheidsversnelling' in geavanceerd Cluedo-oplossen?"
+        },
+        options: [
+          {
+            en: "Using logical constraints to rapidly eliminate impossible combinations without testing them individually",
+            es: "Usar restricciones lógicas para eliminar rápidamente combinaciones imposibles sin probarlas individualmente",
+            de: "Verwendung logischer Einschränkungen, um unmögliche Kombinationen schnell zu eliminieren, ohne sie einzeln zu testen",
+            nl: "Logische beperkingen gebruiken om onmogelijke combinaties snel te elimineren zonder ze individueel te testen"
+          },
+          {
+            en: "Making suggestions faster",
+            es: "Hacer sugerencias más rápido",
+            de: "Vorschläge schneller machen",
+            nl: "Suggesties sneller doen"
+          },
+          {
+            en: "Limiting your options arbitrarily",
+            es: "Limitar tus opciones arbitrariamente",
+            de: "Ihre Optionen willkürlich begrenzen",
+            nl: "Je opties willekeurig beperken"
+          },
+          {
+            en: "Skipping difficult deductions",
+            es: "Saltar deducciones difíciles",
+            de: "Schwierige Deduktionen überspringen",
+            nl: "Moeilijke deducties overslaan"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Constraint satisfaction acceleration applies constraint propagation techniques from computer science to Cluedo. When you learn a new fact, master players immediately propagate the logical implications through all related constraints (each player has exactly N cards, exactly one of each card type is in the envelope, etc.) to automatically eliminate large numbers of possibilities without individual testing. This dramatically accelerates solution convergence.",
+          es: "La aceleración de satisfacción de restricciones aplica técnicas de propagación de restricciones de la informática a Cluedo. Cuando aprendes un nuevo hecho, los jugadores maestros inmediatamente propagan las implicaciones lógicas a través de todas las restricciones relacionadas para eliminar automáticamente grandes números de posibilidades sin pruebas individuales.",
+          de: "Constraint-Satisfaction-Beschleunigung wendet Constraint-Propagationstechniken aus der Informatik auf Cluedo an. Wenn Sie eine neue Tatsache lernen, propagieren Meisterspieler sofort die logischen Implikationen durch alle verwandten Einschränkungen, um automatisch große Anzahlen von Möglichkeiten ohne einzelne Tests zu eliminieren.",
+          nl: "Beperking-tevredenheidsversnelling past constraint-propagatietechnieken uit de informatica toe op Cluedo. Wanneer je een nieuw feit leert, propageren meesterspelers onmiddellijk de logische implicaties door alle gerelateerde beperkingen om automatisch grote aantallen mogelijkheden te elimineren zonder individuele tests."
+        }
+      },
+      {
+        question: {
+          en: "What is 'strategic information withholding calculus' in expert Cluedo?",
+          es: "¿Qué es el 'cálculo estratégico de retención de información' en Cluedo experto?",
+          de: "Was ist 'strategischer Informationszurückhaltungskalkül' im Experten-Cluedo?",
+          nl: "Wat is 'strategische informatie-achterhouding-calculus' in expert-Cluedo?"
+        },
+        options: [
+          {
+            en: "Mathematically calculating when revealing less information provides greater competitive advantage than gaining more information",
+            es: "Calcular matemáticamente cuándo revelar menos información proporciona mayor ventaja competitiva que ganar más información",
+            de: "Mathematisches Berechnen, wann weniger Informationen zu offenbaren größeren Wettbewerbsvorteil bietet als mehr Informationen zu gewinnen",
+            nl: "Wiskundig berekenen wanneer minder informatie onthullen groter competitief voordeel biedt dan meer informatie verkrijgen"
+          },
+          {
+            en: "Never revealing any cards",
+            es: "Nunca revelar ninguna carta",
+            de: "Niemals Karten offenbaren",
+            nl: "Nooit kaarten onthullen"
+          },
+          {
+            en: "Hiding your detective notes",
+            es: "Ocultar tus notas de detective",
+            de: "Ihre Detektivnotizen verbergen",
+            nl: "Je detective-aantekeningen verbergen"
+          },
+          {
+            en: "Refusing to make suggestions",
+            es: "Negarse a hacer sugerencias",
+            de: "Sich weigern, Vorschläge zu machen",
+            nl: "Weigeren suggesties te doen"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Strategic information withholding calculus involves analyzing whether the information you would gain from a suggestion is worth the information you leak by making it. Sometimes, when you have a strong lead, the optimal move is to make a suggestion you already know will be disproved (to reach a room efficiently) or even to move without suggesting, prioritizing information denial over information gain. This requires calculating the relative value of knowledge asymmetry versus absolute knowledge.",
+          es: "El cálculo estratégico de retención de información implica analizar si la información que ganarías de una sugerencia vale la información que filtras al hacerla. A veces, cuando tienes una ventaja fuerte, el movimiento óptimo es hacer una sugerencia que ya sabes que será refutada o incluso moverte sin sugerir, priorizando la negación de información sobre la ganancia de información.",
+          de: "Strategischer Informationszurückhaltungskalkül beinhaltet die Analyse, ob die Informationen, die Sie durch einen Vorschlag gewinnen würden, die Informationen wert sind, die Sie durch dessen Machen durchsickern lassen. Manchmal, wenn Sie einen starken Vorsprung haben, ist der optimale Zug, einen Vorschlag zu machen, von dem Sie bereits wissen, dass er widerlegt wird, oder sich sogar ohne Vorschlag zu bewegen.",
+          nl: "Strategische informatie-achterhouding-calculus houdt in dat je analyseert of de informatie die je zou krijgen van een suggestie de informatie waard is die je lekt door deze te doen. Soms, wanneer je een sterke voorsprong hebt, is de optimale zet een suggestie te doen waarvan je al weet dat deze zal worden weerlegd, of zelfs te bewegen zonder te suggereren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'temporal knowledge arbitrage' in championship-level Cluedo?",
+          es: "¿Qué es el 'arbitraje temporal de conocimiento' en Cluedo de nivel campeonato?",
+          de: "Was ist 'zeitliche Wissensarbitrage' im Meisterschafts-Cluedo?",
+          nl: "Wat is 'temporele kennis-arbitrage' in kampioenschap-niveau Cluedo?"
+        },
+        options: [
+          {
+            en: "Exploiting the time-lag between when you gain information and when opponents realize you have it",
+            es: "Explotar el retraso temporal entre cuando ganas información y cuando los oponentes se dan cuenta de que la tienes",
+            de: "Ausnutzen der Zeitverzögerung zwischen dem Zeitpunkt, an dem Sie Informationen erhalten, und dem Zeitpunkt, an dem Gegner erkennen, dass Sie diese haben",
+            nl: "Exploiteren van de tijdsvertraging tussen wanneer je informatie krijgt en wanneer tegenstanders beseffen dat je deze hebt"
+          },
+          {
+            en: "Playing very slowly to frustrate opponents",
+            es: "Jugar muy lentamente para frustrar a los oponentes",
+            de: "Sehr langsam spielen, um Gegner zu frustrieren",
+            nl: "Heel langzaam spelen om tegenstanders te frustreren"
+          },
+          {
+            en: "Waiting until the last moment to accuse",
+            es: "Esperar hasta el último momento para acusar",
+            de: "Bis zum letzten Moment warten, um anzuklagen",
+            nl: "Wachten tot het laatste moment om te beschuldigen"
+          },
+          {
+            en: "Remembering facts from earlier in the game",
+            es: "Recordar hechos de antes en el juego",
+            de: "Sich an Fakten von früher im Spiel erinnern",
+            nl: "Feiten van eerder in het spel onthouden"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Temporal knowledge arbitrage exploits the asymmetry between immediate information acquisition and delayed opponent awareness. When you make a deduction, there's a window before opponents realize you've made it. Master players exploit this by accelerating their play during this window, making rapid successive suggestions to gain maximum information before opponents adjust their strategies. This creates temporary information advantages that can be decisive in close games.",
+          es: "El arbitraje temporal de conocimiento explota la asimetría entre la adquisición inmediata de información y la conciencia retrasada del oponente. Cuando haces una deducción, hay una ventana antes de que los oponentes se den cuenta de que la hiciste. Los jugadores maestros explotan esto acelerando su juego durante esta ventana, haciendo sugerencias sucesivas rápidas.",
+          de: "Zeitliche Wissensarbitrage nutzt die Asymmetrie zwischen sofortigem Informationserwerb und verzögertem Gegnerbewusstsein aus. Wenn Sie eine Deduktion machen, gibt es ein Fenster, bevor Gegner erkennen, dass Sie sie gemacht haben. Meisterspieler nutzen dies aus, indem sie ihr Spiel während dieses Fensters beschleunigen und schnelle aufeinanderfolgende Vorschläge machen.",
+          nl: "Temporele kennis-arbitrage exploiteert de asymmetrie tussen onmiddellijke informatieverwerving en vertraagd tegenstander-bewustzijn. Wanneer je een deductie maakt, is er een venster voordat tegenstanders beseffen dat je deze hebt gemaakt. Meesterspelers exploiteren dit door hun spel tijdens dit venster te versnellen, door snelle opeenvolgende suggesties te doen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'strategic solution space partitioning' in master Cluedo theory?",
+          es: "¿Qué es el 'particionamiento estratégico del espacio de solución' en teoría maestra de Cluedo?",
+          de: "Was ist 'strategische Lösungsraum-Partitionierung' in der Meister-Cluedo-Theorie?",
+          nl: "Wat is 'strategische oplossingsruimte-partitionering' in meester-Cluedo-theorie?"
+        },
+        options: [
+          {
+            en: "Dividing the solution space into optimal subsets to minimize expected suggestions needed to solve",
+            es: "Dividir el espacio de solución en subconjuntos óptimos para minimizar las sugerencias esperadas necesarias para resolver",
+            de: "Aufteilung des Lösungsraums in optimale Teilmengen, um erwartete benötigte Vorschläge zum Lösen zu minimieren",
+            nl: "De oplossingsruimte verdelen in optimale subsets om verwachte suggesties die nodig zijn om op te lossen te minimaliseren"
+          },
+          {
+            en: "Organizing your detective notes into sections",
+            es: "Organizar tus notas de detective en secciones",
+            de: "Ihre Detektivnotizen in Abschnitte organisieren",
+            nl: "Je detective-aantekeningen in secties organiseren"
+          },
+          {
+            en: "Dividing the board into territories",
+            es: "Dividir el tablero en territorios",
+            de: "Das Brett in Territorien aufteilen",
+            nl: "Het bord in gebieden verdelen"
+          },
+          {
+            en: "Splitting players into teams",
+            es: "Dividir jugadores en equipos",
+            de: "Spieler in Teams aufteilen",
+            nl: "Spelers in teams verdelen"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Strategic solution space partitioning applies binary search principles to Cluedo. Rather than randomly testing possibilities, master players structure their suggestions to partition the solution space into approximately equal-sized subsets. Each suggestion is chosen to split the remaining possibilities in half (or as close as possible), guaranteeing logarithmic convergence to the solution. This approach minimizes the worst-case number of suggestions needed and is mathematically optimal for information gathering.",
+          es: "El particionamiento estratégico del espacio de solución aplica principios de búsqueda binaria a Cluedo. En lugar de probar posibilidades al azar, los jugadores maestros estructuran sus sugerencias para particionar el espacio de solución en subconjuntos aproximadamente de igual tamaño. Cada sugerencia se elige para dividir las posibilidades restantes por la mitad, garantizando convergencia logarítmica.",
+          de: "Strategische Lösungsraum-Partitionierung wendet binäre Suchprinzipien auf Cluedo an. Anstatt zufällig Möglichkeiten zu testen, strukturieren Meisterspieler ihre Vorschläge, um den Lösungsraum in ungefähr gleich große Teilmengen zu partitionieren. Jeder Vorschlag wird gewählt, um die verbleibenden Möglichkeiten zu halbieren und garantiert logarithmische Konvergenz.",
+          nl: "Strategische oplossingsruimte-partitionering past binaire zoekprincipes toe op Cluedo. In plaats van willekeurig mogelijkheden te testen, structureren meesterspelers hun suggesties om de oplossingsruimte te partitioneren in ongeveer even grote subsets. Elke suggestie wordt gekozen om de resterende mogelijkheden te halveren, wat logaritmische convergentie garandeert."
+        }
+      },
+      {
+        question: {
+          en: "What is 'probabilistic card counting with uncertainty quantification' in expert-level Cluedo?",
+          es: "¿Qué es el 'conteo probabilístico de cartas con cuantificación de incertidumbre' en Cluedo de nivel experto?",
+          de: "Was ist 'probabilistisches Kartenzählen mit Unsicherheitsquantifizierung' im Experten-Cluedo?",
+          nl: "Wat is 'probabilistisch kaarten tellen met onzekerheidsquantificatie' in expert-niveau Cluedo?"
+        },
+        options: [
+          {
+            en: "Maintaining probability distributions for all card locations while tracking confidence intervals on those estimates",
+            es: "Mantener distribuciones de probabilidad para todas las ubicaciones de cartas mientras se rastrean intervalos de confianza en esas estimaciones",
+            de: "Aufrechterhaltung von Wahrscheinlichkeitsverteilungen für alle Kartenpositionen während der Verfolgung von Konfidenzintervallen für diese Schätzungen",
+            nl: "Waarschijnlijkheidsverdelingen onderhouden voor alle kaartlocaties terwijl je betrouwbaarheidsintervallen op die schattingen bijhoudt"
+          },
+          {
+            en: "Counting cards like in blackjack",
+            es: "Contar cartas como en el blackjack",
+            de: "Karten zählen wie beim Blackjack",
+            nl: "Kaarten tellen zoals bij blackjack"
+          },
+          {
+            en: "Estimating how many cards remain",
+            es: "Estimar cuántas cartas quedan",
+            de: "Schätzen, wie viele Karten übrig bleiben",
+            nl: "Schatten hoeveel kaarten er over zijn"
+          },
+          {
+            en: "Guessing probabilities randomly",
+            es: "Adivinar probabilidades al azar",
+            de: "Wahrscheinlichkeiten zufällig raten",
+            nl: "Waarschijnlijkheden willekeurig raden"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Probabilistic card counting with uncertainty quantification extends basic probability tracking by also maintaining confidence levels. For each probability estimate, master players track the uncertainty in that estimate based on sample size and information quality. This allows them to distinguish between '60% confident based on strong evidence' and '60% confident based on weak inference,' leading to better decision-making under uncertainty and more accurate risk assessment for accusation timing.",
+          es: "El conteo probabilístico de cartas con cuantificación de incertidumbre extiende el seguimiento básico de probabilidad también manteniendo niveles de confianza. Para cada estimación de probabilidad, los jugadores maestros rastrean la incertidumbre en esa estimación basándose en el tamaño de la muestra y la calidad de la información, lo que lleva a una mejor toma de decisiones.",
+          de: "Probabilistisches Kartenzählen mit Unsicherheitsquantifizierung erweitert das grundlegende Wahrscheinlichkeitstracking durch Aufrechterhaltung von Vertrauensniveaus. Für jede Wahrscheinlichkeitsschätzung verfolgen Meisterspieler die Unsicherheit in dieser Schätzung basierend auf Stichprobengröße und Informationsqualität, was zu besserer Entscheidungsfindung führt.",
+          nl: "Probabilistisch kaarten tellen met onzekerheidsquantificatie breidt basis waarschijnlijkheidsbijhouden uit door ook vertrouwensniveaus te onderhouden. Voor elke waarschijnlijkheidsschatting houden meesterspelers de onzekerheid in die schatting bij op basis van steekproefgrootte en informatiekwaliteit, wat leidt tot betere besluitvorming onder onzekerheid."
+        }
+,
+    {
+      question: {
+        en: "What is the room control strategy?",
+        es: "What is the room control strategy?",
+        de: "What is the room control strategy?",
+        nl: "What is the room control strategy?"
+      },
+      options: [
+        {
+          en: "Occupying rooms to force opponents to suggest cards you want revealed",
+          es: "Occupying rooms to force opponents to suggest cards you want revealed",
+          de: "Occupying rooms to force opponents to suggest cards you want revealed",
+          nl: "Occupying rooms to force opponents to suggest cards you want revealed"
+        },
+        {
+          en: "Blocking all rooms",
+          es: "Blocking all rooms",
+          de: "Blocking all rooms",
+          nl: "Blocking all rooms"
+        },
+        {
+          en: "Staying in one room",
+          es: "Staying in one room",
+          de: "Staying in one room",
+          nl: "Staying in one room"
+        },
+        {
+          en: "Never leaving a room",
+          es: "Never leaving a room",
+          de: "Never leaving a room",
+          nl: "Never leaving a room"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "By staying in specific rooms, you control what opponents must suggest, potentially forcing them to reveal cards.",
+        es: "By staying in specific rooms, you control what opponents must suggest, potentially forcing them to reveal cards.",
+        de: "By staying in specific rooms, you control what opponents must suggest, potentially forcing them to reveal cards.",
+        nl: "By staying in specific rooms, you control what opponents must suggest, potentially forcing them to reveal cards."
       }
-]
+    }
+,
+    {
+      question: {
+        en: "What is disinformation through suggestion?",
+        es: "What is disinformation through suggestion?",
+        de: "What is disinformation through suggestion?",
+        nl: "What is disinformation through suggestion?"
+      },
+      options: [
+        {
+          en: "Making suggestions to mislead opponents about your knowledge",
+          es: "Making suggestions to mislead opponents about your knowledge",
+          de: "Making suggestions to mislead opponents about your knowledge",
+          nl: "Making suggestions to mislead opponents about your knowledge"
+        },
+        {
+          en: "Lying about cards",
+          es: "Lying about cards",
+          de: "Lying about cards",
+          nl: "Lying about cards"
+        },
+        {
+          en: "Showing wrong cards",
+          es: "Showing wrong cards",
+          de: "Showing wrong cards",
+          nl: "Showing wrong cards"
+        },
+        {
+          en: "Cheating",
+          es: "Cheating",
+          de: "Cheating",
+          nl: "Cheating"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Strategic suggestions can imply you lack certain cards, misleading opponents about your actual knowledge.",
+        es: "Strategic suggestions can imply you lack certain cards, misleading opponents about your actual knowledge.",
+        de: "Strategic suggestions can imply you lack certain cards, misleading opponents about your actual knowledge.",
+        nl: "Strategic suggestions can imply you lack certain cards, misleading opponents about your actual knowledge."
+      }
+    }
+,
+    {
+      question: {
+        en: "What is the acceleration strategy?",
+        es: "What is the acceleration strategy?",
+        de: "What is the acceleration strategy?",
+        nl: "What is the acceleration strategy?"
+      },
+      options: [
+        {
+          en: "Making rapid suggestions to gather information quickly before opponents solve",
+          es: "Making rapid suggestions to gather information quickly before opponents solve",
+          de: "Making rapid suggestions to gather information quickly before opponents solve",
+          nl: "Making rapid suggestions to gather information quickly before opponents solve"
+        },
+        {
+          en: "Rolling dice faster",
+          es: "Rolling dice faster",
+          de: "Rolling dice faster",
+          nl: "Rolling dice faster"
+        },
+        {
+          en: "Moving quickly",
+          es: "Moving quickly",
+          de: "Moving quickly",
+          nl: "Moving quickly"
+        },
+        {
+          en: "Rushing opponents",
+          es: "Rushing opponents",
+          de: "Rushing opponents",
+          nl: "Rushing opponents"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "In advanced play, gathering information rapidly through frequent suggestions can allow you to solve before opponents catch up.",
+        es: "In advanced play, gathering information rapidly through frequent suggestions can allow you to solve before opponents catch up.",
+        de: "In advanced play, gathering information rapidly through frequent suggestions can allow you to solve before opponents catch up.",
+        nl: "In advanced play, gathering information rapidly through frequent suggestions can allow you to solve before opponents catch up."
+      }
+    }
+,
+    {
+      question: {
+        en: "What is optimal card showing?",
+        es: "What is optimal card showing?",
+        de: "What is optimal card showing?",
+        nl: "What is optimal card showing?"
+      },
+      options: [
+        {
+          en: "When multiple cards match, showing the card that reveals least information",
+          es: "When multiple cards match, showing the card that reveals least information",
+          de: "When multiple cards match, showing the card that reveals least information",
+          nl: "When multiple cards match, showing the card that reveals least information"
+        },
+        {
+          en: "Showing your favorite card",
+          es: "Showing your favorite card",
+          de: "Showing your favorite card",
+          nl: "Showing your favorite card"
+        },
+        {
+          en: "Showing randomly",
+          es: "Showing randomly",
+          de: "Showing randomly",
+          nl: "Showing randomly"
+        },
+        {
+          en: "Showing the first card",
+          es: "Showing the first card",
+          de: "Showing the first card",
+          nl: "Showing the first card"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "If you must show a card and have multiple options, show the card opponents are most likely to have already seen elsewhere.",
+        es: "If you must show a card and have multiple options, show the card opponents are most likely to have already seen elsewhere.",
+        de: "If you must show a card and have multiple options, show the card opponents are most likely to have already seen elsewhere.",
+        nl: "If you must show a card and have multiple options, show the card opponents are most likely to have already seen elsewhere."
+      }
+    }
+,
+    {
+      question: {
+        en: "What is the passage timing strategy?",
+        es: "What is the passage timing strategy?",
+        de: "What is the passage timing strategy?",
+        nl: "What is the passage timing strategy?"
+      },
+      options: [
+        {
+          en: "Using secret passages at optimal moments to surprise opponents",
+          es: "Using secret passages at optimal moments to surprise opponents",
+          de: "Using secret passages at optimal moments to surprise opponents",
+          nl: "Using secret passages at optimal moments to surprise opponents"
+        },
+        {
+          en: "Always using passages",
+          es: "Always using passages",
+          de: "Always using passages",
+          nl: "Always using passages"
+        },
+        {
+          en: "Never using passages",
+          es: "Never using passages",
+          de: "Never using passages",
+          nl: "Never using passages"
+        },
+        {
+          en: "Ignoring passages",
+          es: "Ignoring passages",
+          de: "Ignoring passages",
+          nl: "Ignoring passages"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Secret passages allow sudden position changes, useful for making unexpected suggestions or blocking opponent plans.",
+        es: "Secret passages allow sudden position changes, useful for making unexpected suggestions or blocking opponent plans.",
+        de: "Secret passages allow sudden position changes, useful for making unexpected suggestions or blocking opponent plans.",
+        nl: "Secret passages allow sudden position changes, useful for making unexpected suggestions or blocking opponent plans."
+      }
+    }
+,
+    {
+      question: {
+        en: "What is suggestion order optimization?",
+        es: "What is suggestion order optimization?",
+        de: "What is suggestion order optimization?",
+        nl: "What is suggestion order optimization?"
+      },
+      options: [
+        {
+          en: "Ordering your suggestions to maximize information gain per turn",
+          es: "Ordering your suggestions to maximize information gain per turn",
+          de: "Ordering your suggestions to maximize information gain per turn",
+          nl: "Ordering your suggestions to maximize information gain per turn"
+        },
+        {
+          en: "Random suggestion order",
+          es: "Random suggestion order",
+          de: "Random suggestion order",
+          nl: "Random suggestion order"
+        },
+        {
+          en: "Alphabetical suggestions",
+          es: "Alphabetical suggestions",
+          de: "Alphabetical suggestions",
+          nl: "Alphabetical suggestions"
+        },
+        {
+          en: "Starting with weapons",
+          es: "Starting with weapons",
+          de: "Starting with weapons",
+          nl: "Starting with weapons"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Strategic players suggest combinations that maximize new information, avoiding redundant suggestions.",
+        es: "Strategic players suggest combinations that maximize new information, avoiding redundant suggestions.",
+        de: "Strategic players suggest combinations that maximize new information, avoiding redundant suggestions.",
+        nl: "Strategic players suggest combinations that maximize new information, avoiding redundant suggestions."
+      }
+    }
+,
+    {
+      question: {
+        en: "What is the endgame bluff?",
+        es: "What is the endgame bluff?",
+        de: "What is the endgame bluff?",
+        nl: "What is the endgame bluff?"
+      },
+      options: [
+        {
+          en: "Making suggestions that imply you are far from solving to avoid suspicion",
+          es: "Making suggestions that imply you are far from solving to avoid suspicion",
+          de: "Making suggestions that imply you are far from solving to avoid suspicion",
+          nl: "Making suggestions that imply you are far from solving to avoid suspicion"
+        },
+        {
+          en: "Lying about the solution",
+          es: "Lying about the solution",
+          de: "Lying about the solution",
+          nl: "Lying about the solution"
+        },
+        {
+          en: "Accusing randomly",
+          es: "Accusing randomly",
+          de: "Accusing randomly",
+          nl: "Accusing randomly"
+        },
+        {
+          en: "Giving up",
+          es: "Giving up",
+          de: "Giving up",
+          nl: "Giving up"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Near the end, suggestions that seem uninformed can prevent opponents from realizing you are close to solving.",
+        es: "Near the end, suggestions that seem uninformed can prevent opponents from realizing you are close to solving.",
+        de: "Near the end, suggestions that seem uninformed can prevent opponents from realizing you are close to solving.",
+        nl: "Near the end, suggestions that seem uninformed can prevent opponents from realizing you are close to solving."
+      }
+    }
+,
+    {
+      question: {
+        en: "What is multi-card inference?",
+        es: "What is multi-card inference?",
+        de: "What is multi-card inference?",
+        nl: "What is multi-card inference?"
+      },
+      options: [
+        {
+          en: "Deducing what cards opponent holds based on pattern of cards they show",
+          es: "Deducing what cards opponent holds based on pattern of cards they show",
+          de: "Deducing what cards opponent holds based on pattern of cards they show",
+          nl: "Deducing what cards opponent holds based on pattern of cards they show"
+        },
+        {
+          en: "Counting cards",
+          es: "Counting cards",
+          de: "Counting cards",
+          nl: "Counting cards"
+        },
+        {
+          en: "Memorizing all cards",
+          es: "Memorizing all cards",
+          de: "Memorizing all cards",
+          nl: "Memorizing all cards"
+        },
+        {
+          en: "Guessing cards",
+          es: "Guessing cards",
+          de: "Guessing cards",
+          nl: "Guessing cards"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "If opponent always shows same card for repeated suggestions, you can infer they likely only hold that one card from those categories.",
+        es: "If opponent always shows same card for repeated suggestions, you can infer they likely only hold that one card from those categories.",
+        de: "If opponent always shows same card for repeated suggestions, you can infer they likely only hold that one card from those categories.",
+        nl: "If opponent always shows same card for repeated suggestions, you can infer they likely only hold that one card from those categories."
+      }
+    }
+,
+    {
+      question: {
+        en: "What is forced reveal strategy?",
+        es: "What is forced reveal strategy?",
+        de: "What is forced reveal strategy?",
+        nl: "What is forced reveal strategy?"
+      },
+      options: [
+        {
+          en: "Making suggestions knowing opponent must reveal specific cards",
+          es: "Making suggestions knowing opponent must reveal specific cards",
+          de: "Making suggestions knowing opponent must reveal specific cards",
+          nl: "Making suggestions knowing opponent must reveal specific cards"
+        },
+        {
+          en: "Forcing accusations",
+          es: "Forcing accusations",
+          de: "Forcing accusations",
+          nl: "Forcing accusations"
+        },
+        {
+          en: "Making others guess",
+          es: "Making others guess",
+          de: "Making others guess",
+          nl: "Making others guess"
+        },
+        {
+          en: "Demanding cards",
+          es: "Demanding cards",
+          de: "Demanding cards",
+          nl: "Demanding cards"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "When you know opponent holds exactly one card from a suggestion, you can force them to reveal it.",
+        es: "When you know opponent holds exactly one card from a suggestion, you can force them to reveal it.",
+        de: "When you know opponent holds exactly one card from a suggestion, you can force them to reveal it.",
+        nl: "When you know opponent holds exactly one card from a suggestion, you can force them to reveal it."
+      }
+    }
+,
+    {
+      question: {
+        en: "What is positional sacrifice in Clue?",
+        es: "What is positional sacrifice in Clue?",
+        de: "What is positional sacrifice in Clue?",
+        nl: "What is positional sacrifice in Clue?"
+      },
+      options: [
+        {
+          en: "Moving to suboptimal rooms to make strategically valuable suggestions",
+          es: "Moving to suboptimal rooms to make strategically valuable suggestions",
+          de: "Moving to suboptimal rooms to make strategically valuable suggestions",
+          nl: "Moving to suboptimal rooms to make strategically valuable suggestions"
+        },
+        {
+          en: "Losing on purpose",
+          es: "Losing on purpose",
+          de: "Losing on purpose",
+          nl: "Losing on purpose"
+        },
+        {
+          en: "Skipping turns",
+          es: "Skipping turns",
+          de: "Skipping turns",
+          nl: "Skipping turns"
+        },
+        {
+          en: "Going backwards",
+          es: "Going backwards",
+          de: "Going backwards",
+          nl: "Going backwards"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Sometimes moving to a less useful room is optimal if it allows a suggestion that gains crucial information.",
+        es: "Sometimes moving to a less useful room is optimal if it allows a suggestion that gains crucial information.",
+        de: "Sometimes moving to a less useful room is optimal if it allows a suggestion that gains crucial information.",
+        nl: "Sometimes moving to a less useful room is optimal if it allows a suggestion that gains crucial information."
+      }
+    }
+      }
+    ]
   };
 
   // Export for use in the quiz application

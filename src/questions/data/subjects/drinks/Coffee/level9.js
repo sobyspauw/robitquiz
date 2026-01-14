@@ -428,6 +428,426 @@
           nl: "Extractiekinetiek volgt oppervlaktemodellen: kleinere deeltjes hebben dramatisch hoger oppervlakte per massa-eenheid. Wanneer deeltjesdiameter halveert, verviervoudigt oppervlakte (r²-relatie) terwijl volume slechts halveert (r³), wat 8× snellere massaoverdracht creëert. Dit verklaart waarom fijnere malingen sneller extraheren maar risico lopen op over-extractie en channeling."
         }
       },
+      {
+        question: {
+          en: "What is the Maillard reaction's dependency on water activity (aw) during coffee roasting?",
+          es: "¿Cuál es la dependencia de la reacción de Maillard en la actividad del agua (aw) durante el tostado del café?",
+          de: "Was ist die Abhängigkeit der Maillard-Reaktion von der Wasseraktivität (aw) beim Kaffeerösten?",
+          nl: "Wat is de afhankelijkheid van de Maillard reactie van wateractiviteit (aw) tijdens het roosteren van koffie?"
+        },
+        options: [
+          { en: "Optimal at aw 0.6-0.8; too low or too high inhibits reaction rate", es: "Óptimo en aw 0,6-0,8; demasiado bajo o alto inhibe la tasa de reacción", de: "Optimal bei aw 0,6-0,8; zu niedrig oder zu hoch hemmt Reaktionsrate", nl: "Optimaal bij aw 0,6-0,8; te laag of te hoog remt reactiesnelheid" },
+          { en: "Linear relationship—more water always better", es: "Relación lineal—más agua siempre es mejor", de: "Lineare Beziehung—mehr Wasser immer besser", nl: "Lineaire relatie—meer water altijd beter" },
+          { en: "Water has no effect on Maillard reactions", es: "El agua no tiene efecto en las reacciones de Maillard", de: "Wasser hat keinen Effekt auf Maillard-Reaktionen", nl: "Water heeft geen effect op Maillard reacties" },
+          { en: "Only temperature matters, not water", es: "Solo importa la temperatura, no el agua", de: "Nur Temperatur ist wichtig, nicht Wasser", nl: "Alleen temperatuur is belangrijk, niet water" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Maillard reaction rate shows a parabolic relationship with water activity. At aw 0.6-0.8, reactant mobility is optimal for amino acid-reducing sugar interactions. Below 0.6, reactants are too immobile; above 0.8, dilution reduces collision frequency. This is why roasting profiles carefully manage moisture loss timing.",
+          es: "La tasa de reacción de Maillard muestra una relación parabólica con la actividad del agua. En aw 0,6-0,8, la movilidad de reactantes es óptima para interacciones aminoácido-azúcar reductor. Por debajo de 0,6, los reactantes son demasiado inmóviles; por encima de 0,8, la dilución reduce la frecuencia de colisión. Por eso los perfiles de tostado gestionan cuidadosamente el tiempo de pérdida de humedad.",
+          de: "Maillard-Reaktionsrate zeigt parabolische Beziehung mit Wasseraktivität. Bei aw 0,6-0,8 ist Reaktantenbewegli chkeit optimal für Aminosäure-Reduktionszucker-Interaktionen. Unter 0,6 sind Reaktanten zu unbeweglich; über 0,8 reduziert Verdünnung Kollisionsfrequenz. Deshalb managen Röstprofile sorgfältig Feuchtigkeitsverlust-Timing.",
+          nl: "Maillard reactiesnelheid toont een parabolische relatie met wateractiviteit. Bij aw 0,6-0,8 is reactant mobiliteit optimaal voor aminozuur-reducerende suiker interacties. Onder 0,6 zijn reactanten te immobiel; boven 0,8 vermindert verdunning botsingsfrequentie. Daarom beheren roosterprofielen zorgvuldig vochtverlies timing."
+        }
+      },
+      {
+        question: {
+          en: "Which advanced grinding technology uses acoustic monitoring to achieve consistent particle size distribution?",
+          es: "¿Qué tecnología avanzada de molienda utiliza monitoreo acústico para lograr distribución consistente del tamaño de partícula?",
+          de: "Welche fortschrittliche Mahltechnologie verwendet akustische Überwachung zur Erreichung konsistenter Partikelgrößenverteilung?",
+          nl: "Welke geavanceerde maaltechnologie gebruikt akoestische monitoring om consistente deeltjesgrootteverdeling te bereiken?"
+        },
+        options: [
+          { en: "Ultrasonic burr alignment sensors with real-time feedback control", es: "Sensores ultrasónicos de alineación de muelas con control de retroalimentación en tiempo real", de: "Ultraschall-Mahlscheiben-Ausrichtungssensoren mit Echtzeit-Feedback-Steuerung", nl: "Ultrasone maalschijf uitlijn sensoren met real-time feedback controle" },
+          { en: "Standard blade grinders", es: "Molinillos de cuchilla estándar", de: "Standard-Klingenmühlen", nl: "Standaard mesmalers" },
+          { en: "Manual hand grinders only", es: "Solo molinillos manuales", de: "Nur manuelle Handmühlen", nl: "Alleen handmatige handmalers" },
+          { en: "Visual color matching systems", es: "Sistemas de coincidencia de color visual", de: "Visuelle Farbabgleichsysteme", nl: "Visuele kleur matching systemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Advanced commercial grinders use ultrasonic sensors to monitor burr alignment and gap distance in real-time, adjusting motor torque and speed to maintain consistent particle size distribution despite heat expansion, wear, and bean density variations. This achieves unprecedented grinding precision for competition-level espresso.",
+          es: "Los molinillos comerciales avanzados utilizan sensores ultrasónicos para monitorear la alineación de las muelas y la distancia de separación en tiempo real, ajustando el torque del motor y la velocidad para mantener una distribución consistente del tamaño de partícula a pesar de la expansión térmica, el desgaste y las variaciones de densidad del grano. Esto logra una precisión de molienda sin precedentes para espresso de nivel de competición.",
+          de: "Fortschrittliche kommerzielle Mühlen verwenden Ultraschallsensoren zur Echtzeit-Überwachung von Mahlscheibenausrichtung und Spaltabstand, passen Motordrehmoment und Geschwindigkeit an, um konsistente Partikelgrößenverteilung trotz Wärmeausdehnung, Verschleiß und Bohnendichtevariationen zu erhalten. Dies erreicht beispiellose Mahlpräzision für Wettbewerbs-Espresso.",
+          nl: "Geavanceerde commerciële malers gebruiken ultrasone sensoren om maalschijf uitlijning en spleetafstand real-time te monitoren, passen motorkoppel en snelheid aan om consistente deeltjesgrootteverdeling te behouden ondanks warmte-uitzetting, slijtage en boondi chtheidsvariaties. Dit bereikt ongekende maal precisie voor competitie-niveau espresso."
+        }
+      },
+      {
+        question: {
+          en: "What is 'shot temperature profiling' (thermodynamic manipulation) in advanced espresso brewing?",
+          es: "¿Qué es el 'perfilado de temperatura del shot' (manipulación termodinámica) en la preparación avanzada de espresso?",
+          de: "Was ist 'Shot-Temperaturprofilierung' (thermodynamische Manipulation) beim fortgeschrittenen Espresso-Brühen?",
+          nl: "Wat is 'shot temperatuur profilering' (thermodynamische manipulatie) bij geavanceerd espresso zetten?"
+        },
+        options: [
+          { en: "Dynamically varying brew temperature during extraction to selectively extract different compound classes", es: "Variar dinámicamente la temperatura de preparación durante la extracción para extraer selectivamente diferentes clases de compuestos", de: "Dynamisches Variieren der Brühtemperatur während der Extraktion zur selektiven Extraktion verschiedener Verbindungsklassen", nl: "Dynamisch variëren van zettemperatuur tijdens extractie om selectief verschillende verbindingsklassen te extraheren" },
+          { en: "Using only room temperature water", es: "Usar solo agua a temperatura ambiente", de: "Nur Raumtemperaturwasser verwenden", nl: "Alleen kamertemperatuur water gebruiken" },
+          { en: "Keeping temperature perfectly constant", es: "Mantener la temperatura perfectamente constante", de: "Temperatur perfekt konstant halten", nl: "Temperatuur perfect constant houden" },
+          { en: "Measuring cup temperature after pouring", es: "Medir la temperatura de la taza después de verter", de: "Tassentemperatur nach dem Eingießen messen", nl: "Kopje temperatuur meten na gieten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Shot temperature profiling uses programmable espresso machines to vary water temperature during extraction: starting lower (88-90°C) for acid clarity, ramping to higher (93-95°C) for sugar extraction, sometimes finishing cooler to avoid bitter compound over-extraction. This exploits different compounds' temperature-dependent solubility for flavor optimization.",
+          es: "El perfilado de temperatura del shot utiliza máquinas de espresso programables para variar la temperatura del agua durante la extracción: comenzando más baja (88-90°C) para claridad de ácidos, aumentando a más alta (93-95°C) para extracción de azúcar, a veces terminando más fresco para evitar la sobre-extracción de compuestos amargos. Esto aprovecha la solubilidad dependiente de la temperatura de diferentes compuestos para optimización del sabor.",
+          de: "Shot-Temperaturprofilierung verwendet programmierbare Espresso maschinen zur Variation der Wassertemperatur während der Extraktion: Start niedriger (88-90°C) für Säureklarheit, Anstieg auf höher (93-95°C) für Zuckerextraktion, manchmal kühlerer Abschluss zur Vermeidung bitterer Verbindungs-Überextraktion. Dies nutzt temperaturabhängige Löslichkeit verschiedener Verbindungen zur Geschmacksoptimierung.",
+          nl: "Shot temperatuur profilering gebruikt programmeerbare espressomachines om watertemperatuur te variëren tijdens extractie: beginnend lager (88-90°C) voor zuur helderheid, oplopend naar hoger (93-95°C) voor suiker extractie, soms koeler afsluitend om bittere verbinding over-extractie te vermijden. Dit benut temperatuurafhankelijke oplosbaarheid van verschillende verbindingen voor smaakoptimalisatie."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'solubility curve' concept in coffee extraction theory?",
+          es: "¿Qué es el concepto de 'curva de solubilidad' en la teoría de extracción de café?",
+          de: "Was ist das 'Löslichkeitskurven'-Konzept in der Kaffee-Extraktionstheorie?",
+          nl: "Wat is het 'oplosbaarheids curve' concept in koffie extractie theorie?"
+        },
+        options: [
+          { en: "Different compounds dissolve at different rates: acids first (fast), sugars middle (medium), bitter compounds last (slow)", es: "Diferentes compuestos se disuelven a diferentes velocidades: ácidos primero (rápido), azúcares medio (medio), compuestos amargos último (lento)", de: "Verschiedene Verbindungen lösen sich mit unterschiedlichen Raten: Säuren zuerst (schnell), Zucker mittel (mittel), bittere Verbindungen zuletzt (langsam)", nl: "Verschillende verbindingen lossen op met verschillende snelheden: zuren eerst (snel), suikers midden (gemiddeld), bittere verbindingen laatst (langzaam)" },
+          { en: "All compounds dissolve simultaneously at equal rates", es: "Todos los compuestos se disuelven simultáneamente a tasas iguales", de: "Alle Verbindungen lösen sich gleichzeitig mit gleichen Raten", nl: "Alle verbindingen lossen gelijktijdig op met gelijke snelheden" },
+          { en: "Only caffeine dissolves during brewing", es: "Solo la cafeína se disuelve durante la preparación", de: "Nur Koffein löst sich beim Brühen", nl: "Alleen cafeïne lost op tijdens zetten" },
+          { en: "Color determines solubility exclusively", es: "El color determina exclusivamente la solubilidad", de: "Farbe bestimmt ausschließlich Löslichkeit", nl: "Kleur bepaalt uitsluitend oplosbaarheid" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The solubility curve describes sequential extraction: organic acids and light volatiles extract first (high solubility, creating brightness), sugars extract in middle phase (creating sweetness and body), bitter compounds (quinic acid, tannins) extract last (low solubility, slow diffusion). Understanding this allows brewers to stop extraction at optimal sweetness before excessive bitterness.",
+          es: "La curva de solubilidad describe la extracción secuencial: ácidos orgánicos y volátiles ligeros se extraen primero (alta solubilidad, creando brillo), azúcares se extraen en fase media (creando dulzura y cuerpo), compuestos amargos (ácido quínico, taninos) se extraen al último (baja solubilidad, difusión lenta). Comprender esto permite a los baristas detener la extracción en dulzura óptima antes de amargor excesivo.",
+          de: "Die Löslichkeitskurve beschreibt sequenzielle Extraktion: organische Säuren und leichte Flüchtige extrahieren zuerst (hohe Löslichkeit, erzeugen Helligkeit), Zucker extrahieren in Mittelphase (erzeugen Süße und Körper), bittere Verbindungen (Chinasäure, Tannine) extrahieren zuletzt (niedrige Löslichkeit, langsame Diffusion). Dies zu verstehen ermöglicht Brühern, Extraktion bei optimaler Süße vor übermäßiger Bitterkeit zu stoppen.",
+          nl: "De oplosbaarheids curve beschrijft sequentiële extractie: organische zuren en lichte vluchtige stoffen extraheren eerst (hoge oplosbaarheid, creëren helderheid), suikers extraheren in middenfase (creëren zoetheid en body), bittere verbindingen (kinazuur, tannines) extraheren laatst (lage oplosbaarheid, langzame diffusie). Dit begrijpen stelt zetters in staat extractie te stoppen bij optimale zoetheid voor excessieve bitterheid."
+        }
+      },
+      {
+        question: {
+          en: "Which isotopic ratio analysis technique is used for verifying geographic origin of specialty coffee?",
+          es: "¿Qué técnica de análisis de relación isotópica se utiliza para verificar el origen geográfico del café especial?",
+          de: "Welche Isotopenverhältnis-Analysetechnik wird zur Verifizierung der geografischen Herkunft von Spezialitätenkaffee verwendet?",
+          nl: "Welke isotopenverhoudingsanalyse techniek wordt gebruikt voor het verifiëren van geografische oorsprong van specialty koffie?"
+        },
+        options: [
+          { en: "IRMS (Isotope Ratio Mass Spectrometry) measuring δ13C, δ18O, and δ2H", es: "IRMS (Espectrometría de masas de relación isotópica) midiendo δ13C, δ18O y δ2H", de: "IRMS (Isotopenverhältnis-Massenspektrometrie) zur Messung von δ13C, δ18O und δ2H", nl: "IRMS (Isotope Ratio Mass Spectrometry) metend δ13C, δ18O en δ2H" },
+          { en: "Simple pH testing", es: "Prueba simple de pH", de: "Einfacher pH-Test", nl: "Eenvoudige pH test" },
+          { en: "Visual color analysis only", es: "Solo análisis visual de color", de: "Nur visuelle Farbanalyse", nl: "Alleen visuele kleuranalyse" },
+          { en: "Taste testing exclusively", es: "Exclusivamente prueba de sabor", de: "Ausschließlich Geschmackstest", nl: "Uitsluitend smaaktest" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "IRMS analyzes stable isotope ratios (carbon-13/12, oxygen-18/16, deuterium/hydrogen) which vary by geographic location due to differences in altitude, rainfall, temperature, and soil composition. These isotopic 'fingerprints' can authenticate single-origin coffee claims and detect fraud in specialty coffee markets.",
+          es: "IRMS analiza relaciones de isótopos estables (carbono-13/12, oxígeno-18/16, deuterio/hidrógeno) que varían según la ubicación geográfica debido a diferencias en altitud, precipitación, temperatura y composición del suelo. Estas 'huellas digitales' isotópicas pueden autenticar afirmaciones de café de origen único y detectar fraude en mercados de café especial.",
+          de: "IRMS analysiert stabile Isotopenverhältnisse (Kohlenstoff-13/12, Sauerstoff-18/16, Deuterium/Wasserstoff), die je nach geografischer Lage aufgrund von Unterschieden in Höhe, Niederschlag, Temperatur und Bodenzusammensetzung variieren. Diese isotopischen 'Fingerabdrücke' können Single-Origin-Kaffee-Ansprüche authentifizieren und Betrug in Spezialitätenkaffeemärkten erkennen.",
+          nl: "IRMS analyseert stabiele isotopen verhoudingen (koolstof-13/12, zuurstof-18/16, deuterium/waterstof) die variëren per geografische locatie door verschillen in hoogte, regenval, temperatuur en bodemsamenstelling. Deze isotopische 'vingerafdrukken' kunnen single-origin koffie claims authenticeren en fraude detecteren in specialty koffiemarkt en."
+        }
+      },
+      {
+        question: {
+          en: "What is 'bloom' phase optimization in pour-over coffee brewing from a fluid dynamics perspective?",
+          es: "¿Qué es la optimización de la fase de 'bloom' en la preparación de café por vertido desde una perspectiva de dinámica de fluidos?",
+          de: "Was ist 'Bloom'-Phasen-Optimierung beim Pour-Over-Kaffeebrühen aus Sicht der Fluiddynamik?",
+          nl: "Wat is 'bloom' fase optimalisatie bij pour-over koffie zetten vanuit een vloeistofdynamica perspectief?"
+        },
+        options: [
+          { en: "Managing CO2 degassing to prevent channeling and achieve uniform wetting by controlling pre-infusion water volume and time", es: "Gestionar la desgasificación de CO2 para prevenir la canalización y lograr humectación uniforme controlando el volumen de agua de pre-infusión y el tiempo", de: "CO2-Entgasung managen zur Verhinderung von Kanalbildung und Erreichung gleichmäßiger Benetzung durch Kontrolle von Vorinfusions-Wasservolumen und Zeit", nl: "CO2 ontgassing beheren om channeling te voorkomen en uniforme bevochtiging te bereiken door pre-infusie watervolume en tijd te controleren" },
+          { en: "Adding flower petals to coffee grounds", es: "Agregar pétalos de flores a los posos de café", de: "Blütenblätter zum Kaffeesatz hinzufügen", nl: "Bloemblaadjes toevoegen aan koffiedik" },
+          { en: "Decorating the coffee surface only", es: "Solo decorar la superficie del café", de: "Nur Kaffeeoberfläche dekorieren", nl: "Alleen koffie oppervlak decoreren" },
+          { en: "Temperature measurement exclusively", es: "Exclusivamente medición de temperatura", de: "Ausschließlich Temperaturmessung", nl: "Uitsluitend temperatuurmeting" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Fresh roasted coffee contains significant CO2 trapped in cellular structures. The bloom phase (30-45s pre-infusion with 2-3× coffee mass water) allows controlled degassing—preventing explosive CO2 release that creates channels and dry pockets. Optimal bloom achieves uniform bed saturation before main pour, ensuring even extraction.",
+          es: "El café recién tostado contiene CO2 significativo atrapado en estructuras celulares. La fase de bloom (30-45s de pre-infusión con agua 2-3× la masa del café) permite desgasificación controlada—previniendo liberación explosiva de CO2 que crea canales y bolsas secas. El bloom óptimo logra saturación uniforme del lecho antes del vertido principal, asegurando extracción uniforme.",
+          de: "Frisch gerösteter Kaffee enthält signifikantes CO2, das in Zellstrukturen eingeschlossen ist. Die Bloom-Phase (30-45s Vorinfusion mit 2-3× Kaffeemasse Wasser) ermöglicht kontrollierte Entgasung—verhindert explosive CO2-Freisetzung, die Kanäle und trockene Taschen erzeugt. Optimaler Bloom erreicht gleichmäßige Bettsättigung vor Hauptguss, gewährleistet gleichmäßige Extraktion.",
+          nl: "Vers geroosterde koffie bevat significant CO2 gevangen in cellulaire structuren. De bloom fase (30-45s pre-infusie met 2-3× koffie massa water) staat gecontroleerde ontgassing toe—voorkomt explosieve CO2 vrijgave die kanalen en droge zakken creëert. Optimale bloom bereikt uniforme bed saturatie voor hoofd giet, verzekert gelijkmatige extractie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'pre-infusion pressure profiling' in modern espresso technology?",
+          es: "¿Qué es el 'perfilado de presión de pre-infusión' en la tecnología moderna de espresso?",
+          de: "Was ist 'Vorinfusions-Druckprofilierung' in moderner Espresso-Technologie?",
+          nl: "Wat is 'pre-infusie druk profilering' in moderne espresso technologie?"
+        },
+        options: [
+          { en: "Applying low pressure (2-4 bar) initially to wet puck evenly before ramping to full 9 bar extraction pressure", es: "Aplicar presión baja (2-4 bar) inicialmente para humedecer el disco uniformemente antes de aumentar a presión de extracción completa de 9 bar", de: "Niedrigen Druck (2-4 bar) anfänglich anwenden zur gleichmäßigen Puck-Benetzung vor Anstieg auf vollen 9 bar Extraktionsdruck", nl: "Lage druk (2-4 bar) aanvankelijk toepassen om puck gelijkmatig te bevochtigen voor oploop naar volledige 9 bar extractie druk" },
+          { en: "Using maximum pressure from start to finish", es: "Usar presión máxima de principio a fin", de: "Maximalen Druck von Anfang bis Ende verwenden", nl: "Maximale druk gebruiken van begin tot eind" },
+          { en: "Brewing without any pressure at all", es: "Preparar sin ninguna presión en absoluto", de: "Ohne jeglichen Druck brühen", nl: "Zetten zonder enige druk" },
+          { en: "Measuring atmospheric pressure only", es: "Solo medir la presión atmosférica", de: "Nur atmosphärischen Druck messen", nl: "Alleen atmosferische druk meten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pre-infusion at reduced pressure (2-4 bar for 5-10 seconds) allows gradual, even wetting of the coffee puck before full pressure extraction. This prevents channeling from sudden high-pressure water forcing through dry spots, achieves uniform particle hydration, and reduces extraction defects—particularly important for light roasts and fine grinds.",
+          es: "La pre-infusión a presión reducida (2-4 bar durante 5-10 segundos) permite humectación gradual y uniforme del disco de café antes de la extracción a presión completa. Esto previene la canalización del agua a alta presión repentina forzando a través de puntos secos, logra hidratación uniforme de partículas y reduce defectos de extracción—particularmente importante para tuestes claros y moliendas finas.",
+          de: "Vorinfusion bei reduziertem Druck (2-4 bar für 5-10 Sekunden) ermöglicht schrittweise, gleichmäßige Benetzung des Kaffeepucks vor Volldruckextraktion. Dies verhindert Kanalbildung durch plötzliches Hochdruckwasser, das durch trockene Stellen dringt, erreicht gleichmäßige Partikelhydratation und reduziert Extraktionsfehler—besonders wichtig für helle Röstungen und feine Mahlungen.",
+          nl: "Pre-infusie bij verlaagde druk (2-4 bar voor 5-10 seconden) staat geleidelijke, gelijkmatige bevochtiging van de koffie puck toe voor volledige druk extractie. Dit voorkomt channeling van plotselinge hoge-druk water dat door droge plekken dringt, bereikt uniforme deeltjes hydratatie en vermindert extractie defecten—vooral belangrijk voor lichte roasts en fijne malingen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'strength-extraction matrix' diagnostic tool?",
+          es: "¿Qué es la herramienta de diagnóstico 'matriz de fuerza-extracción'?",
+          de: "Was ist das 'Stärke-Extraktions-Matrix' Diagnosewerkzeug?",
+          nl: "Wat is de 'sterkte-extractie matrix' diagnostische tool?"
+        },
+        options: [
+          { en: "A 2D grid plotting beverage strength (TDS) vs extraction yield to diagnose brewing problems in specific quadrants", es: "Una cuadrícula 2D que traza la fuerza de la bebida (TDS) vs el rendimiento de extracción para diagnosticar problemas de preparación en cuadrantes específicos", de: "Ein 2D-Raster, das Getränkestärke (TDS) gegen Extraktionsausbeute darstellt, um Brühprobleme in spezifischen Quadranten zu diagnostizieren", nl: "Een 2D raster dat drank sterkte (TDS) plot tegen extractieopbrengst om zetproblemen in specifieke kwadranten te diagnosticeren" },
+          { en: "A simple on/off switch for coffee makers", es: "Un simple interruptor de encendido/apagado para cafeteras", de: "Ein einfacher Ein-/Aus-Schalter für Kaffeemaschinen", nl: "Een eenvoudige aan/uit schakelaar voor koffiezetapparaten" },
+          { en: "A color matching guide only", es: "Solo una guía de coincidencia de color", de: "Nur ein Farbabgleichsleitfaden", nl: "Alleen een kleur matching gids" },
+          { en: "A temperature-time chart exclusively", es: "Exclusivamente un gráfico de temperatura-tiempo", de: "Ausschließlich ein Temperatur-Zeit-Diagramm", nl: "Uitsluitend een temperatuur-tijd grafiek" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Also called the 'Coffee Brewing Control Chart,' this diagnostic tool plots strength (TDS percentage) on Y-axis against extraction yield (percentage) on X-axis. The matrix identifies four problematic quadrants: under-extracted/weak, under-extracted/strong, over-extracted/weak, over-extracted/strong—each requiring specific brew parameter adjustments.",
+          es: "También llamado 'Gráfico de Control de Preparación de Café', esta herramienta de diagnóstico traza la fuerza (porcentaje de TDS) en el eje Y contra el rendimiento de extracción (porcentaje) en el eje X. La matriz identifica cuatro cuadrantes problemáticos: sub-extraído/débil, sub-extraído/fuerte, sobre-extraído/débil, sobre-extraído/fuerte—cada uno requiriendo ajustes específicos de parámetros de preparación.",
+          de: "Auch 'Coffee Brewing Control Chart' genannt, stellt dieses Diagnosewerkzeug Stärke (TDS-Prozentsatz) auf Y-Achse gegen Extraktionsausbeute (Prozentsatz) auf X-Achse dar. Die Matrix identifiziert vier problematische Quadranten: unterextrahiert/schwach, unterextrahiert/stark, überextrahiert/schwach, überextrahiert/stark—jeder erfordert spezifische Brühparameteranpassungen.",
+          nl: "Ook wel de 'Coffee Brewing Control Chart' genoemd, plot dit diagnostische instrument sterkte (TDS percentage) op Y-as tegen extractieopbrengst (percentage) op X-as. De matrix identificeert vier problematische kwadranten: onder-geëxtraheerd/zwak, onder-geëxtraheerd/sterk, over-geëxtraheerd/zwak, over-geëxtraheerd/sterk—elk vereist specifieke zetparameter aanpassingen."
+        }
+      },
+      {
+        question: {
+          en: "What is the mechanism of 'coffee bloom' turbulence and its impact on manual brewing uniformity?",
+          es: "¿Cuál es el mecanismo de turbulencia del 'bloom del café' y su impacto en la uniformidad de la preparación manual?",
+          de: "Was ist der Mechanismus der 'Coffee Bloom' Turbulenz und ihre Auswirkung auf die manuelle Brüh-Gleichmäßigkeit?",
+          nl: "Wat is het mechanisme van 'coffee bloom' turbulentie en de impact op handmatige zet uniformiteit?"
+        },
+        options: [
+          { en: "CO2 bubble formation creates convective currents that can either enhance mixing (beneficial) or cause uneven bed disruption (detrimental)", es: "La formación de burbujas de CO2 crea corrientes convectivas que pueden mejorar la mezcla (beneficioso) o causar interrupción desigual del lecho (perjudicial)", de: "CO2-Blasenbildung erzeugt konvektive Strömungen, die entweder Mischung verbessern (vorteilhaft) oder ungleichmäßige Bettstörung verursachen (nachteilig)", nl: "CO2 bel vorming creëert convectieve stromingen die ofwel menging verbeteren (voordelig) of ongelijke bed verstoring veroorzaken (nadelig)" },
+          { en: "Flowers physically blooming in the coffee cup", es: "Flores físicamente floreciendo en la taza de café", de: "Blumen physisch blühend in der Kaffeetasse", nl: "Bloemen fysiek bloeiend in de koffiekop" },
+          { en: "Color change only with no fluid dynamics", es: "Solo cambio de color sin dinámica de fluidos", de: "Nur Farbwechsel ohne Fluiddynamik", nl: "Alleen kleurverandering zonder vloeistofdynamica" },
+          { en: "Temperature equilibration exclusively", es: "Exclusivamente equilibración de temperatura", de: "Ausschließlich Temperaturausgleich", nl: "Uitsluitend temperatuur evenwicht" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "During bloom, trapped CO2 escapes creating vigorous bubbling. If well-managed, rising bubbles create beneficial convective mixing promoting uniform extraction. If excessive (very fresh coffee + aggressive pour), turbulence can disrupt the coffee bed structure, creating voids and channels leading to uneven extraction. Optimal bloom balances degassing and bed integrity.",
+          es: "Durante el bloom, el CO2 atrapado escapa creando burbujeo vigoroso. Si se gestiona bien, las burbujas ascendentes crean mezcla convectiva beneficiosa promoviendo extracción uniforme. Si es excesivo (café muy fresco + vertido agresivo), la turbulencia puede interrumpir la estructura del lecho de café, creando vacíos y canales que conducen a extracción desigual. El bloom óptimo equilibra desgasificación e integridad del lecho.",
+          de: "Während des Bloom entweicht eingeschlossenes CO2 und erzeugt kräftiges Sprudeln. Bei guter Verwaltung erzeugen aufsteigende Blasen vorteilhafte konvektive Mischung, die gleichmäßige Extraktion fördert. Bei übermäßigem (sehr frischer Kaffee + aggressiver Guss) kann Turbulenz die Kaffebettstruktur stören, Hohlräume und Kanäle erzeugen, die zu ungleichmäßiger Extraktion führen. Optimaler Bloom balanciert Entgasung und Bettintegrität.",
+          nl: "Tijdens bloom ontsnapt gevangen CO2 waardoor krachtig borrelen ontstaat. Bij goede beheersing creëren stijgende bellen voordelige convectieve menging die uniforme extractie bevordert. Bij excessief (zeer verse koffie + agressieve giet) kan turbulentie de koffiebedstructuur verstoren, waardoor leegte en kanalen ontstaan die leiden tot ongelijke extractie. Optimale bloom balanceert ontgassing en bed integriteit."
+        }
+      },
+      {
+        question: {
+          en: "What is 'carbonic maceration' processing and its chemical impact on coffee flavor?",
+          es: "¿Qué es el procesamiento de 'maceración carbónica' y su impacto químico en el sabor del café?",
+          de: "Was ist 'Kohlensäuremaischung' Verarbeitung und ihre chemische Auswirkung auf den Kaffeegeschmack?",
+          nl: "Wat is 'koolzuurmaceratie' verwerking en de chemische impact op koffiesmaak?"
+        },
+        options: [
+          { en: "Anaerobic fermentation in CO2-saturated environment causing intracellular enzymatic changes and unique ester/alcohol formation", es: "Fermentación anaeróbica en ambiente saturado de CO2 causando cambios enzimáticos intracelulares y formación única de ésteres/alcoholes", de: "Anaerobe Fermentation in CO2-gesättigter Umgebung, die intrazelluläre enzymatische Veränderungen und einzigartige Ester-/Alkoholbildung verursacht", nl: "Anaerobe fermentatie in CO2-verzadigde omgeving die intracellulaire enzymatische veranderingen en unieke ester/alcohol vorming veroorzaakt" },
+          { en: "Simple washing with carbonated water", es: "Simple lavado con agua carbonatada", de: "Einfaches Waschen mit kohlensäurehaltigem Wasser", nl: "Eenvoudig wassen met koolzuurhoudend water" },
+          { en: "Adding carbon powder to green beans", es: "Agregar polvo de carbono a los granos verdes", de: "Kohlenstoffpulver zu grünen Bohnen hinzufügen", nl: "Koolstofpoeder toevoegen aan groene bonen" },
+          { en: "Sun drying exclusively", es: "Exclusivamente secado al sol", de: "Ausschließlich Sonnentrocknung", nl: "Uitsluitend zondrogen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Borrowed from winemaking, carbonic maceration ferments whole coffee cherries in sealed, CO2-filled tanks. Without oxygen, intracellular enzymes break down sugars and pectins creating distinctive fruity esters, complex alcohols, and unique flavor compounds. This creates intensely fruit-forward profiles impossible with traditional aerobic fermentation.",
+          es: "Tomado de la vinificación, la maceración carbónica fermenta cerezas de café enteras en tanques sellados llenos de CO2. Sin oxígeno, las enzimas intracelulares descomponen azúcares y pectinas creando ésteres afrutados distintivos, alcoholes complejos y compuestos de sabor únicos. Esto crea perfiles intensamente orientados a frutas imposibles con fermentación aeróbica tradicional.",
+          de: "Aus der Weinherstellung übernommen, fermentiert Kohlensäuremaischung ganze Kaffeekirschen in versiegelten, CO2-gefüllten Tanks. Ohne Sauerstoff bauen intrazelluläre Enzyme Zucker und Pektine ab und erzeugen charakteristische fruchtige Ester, komplexe Alkohole und einzigartige Geschmacksverbindungen. Dies erzeugt intensiv fruchtbetonte Profile, die mit traditioneller aerober Fermentation unmöglich sind.",
+          nl: "Geleend van wijnmaken, fermenteert koolzuurmaceratie hele koffiebessen in verzegelde, CO2-gevulde tanks. Zonder zuurstof breken intracellulaire enzymen suikers en pectines af waardoor onderscheidende fruitige esters, complexe alcoholen en unieke smaakverbindingen ontstaan. Dit creëert intens fruitgerichte profielen die onmogelijk zijn met traditionele aerobe fermentatie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'hydrodynamic channeling' in espresso puck and how does it relate to permeability distribution?",
+          es: "¿Qué es la 'canalización hidrodinámica' en el disco de espresso y cómo se relaciona con la distribución de permeabilidad?",
+          de: "Was ist 'hydrodynamisches Channeling' im Espresso-Puck und wie bezieht es sich auf Permeabilitätsverteilung?",
+          nl: "Wat is 'hydrodynamische channeling' in espresso puck en hoe verhoudt het zich tot permeabiliteit distributie?"
+        },
+        options: [
+          { en: "Preferential water flow through high-permeability zones due to pressure gradient following path of least resistance", es: "Flujo preferencial de agua a través de zonas de alta permeabilidad debido a gradiente de presión siguiendo el camino de menor resistencia", de: "Bevorzugter Wasserfluss durch Hochpermeabilitätszonen aufgrund von Druckgradient, der Weg des geringsten Widerstands folgt", nl: "Preferentiële waterstroom door hoge-permeabiliteit zones door drukgradiënt die pad van minste weerstand volgt" },
+          { en: "Water flowing perfectly uniformly always", es: "Agua fluyendo siempre perfectamente uniforme", de: "Wasser fließt immer perfekt gleichmäßig", nl: "Water stroomt altijd perfect uniform" },
+          { en: "Coffee changing TV channels automatically", es: "Café cambiando canales de TV automáticamente", de: "Kaffee wechselt TV-Kanäle automatisch", nl: "Koffie verandert TV kanalen automatisch" },
+          { en: "Temperature-only phenomenon", es: "Fenómeno solo de temperatura", de: "Nur Temperatur-Phänomen", nl: "Alleen temperatuur fenomeen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In espresso extraction, any variations in puck density create permeability differences. Water under 9 bar pressure follows the path of least resistance, flowing preferentially through looser, more permeable regions—'channels.' These zones become over-extracted (bitter) while denser areas remain under-extracted (sour), simultaneously. Uniform puck preparation prevents this.",
+          es: "En la extracción de espresso, cualquier variación en la densidad del disco crea diferencias de permeabilidad. El agua bajo 9 bar de presión sigue el camino de menor resistencia, fluyendo preferentemente a través de regiones más sueltas y permeables—'canales'. Estas zonas se sobre-extraen (amargas) mientras áreas más densas permanecen sub-extraídas (ácidas), simultáneamente. La preparación uniforme del disco previene esto.",
+          de: "Bei Espresso-Extraktion erzeugen Variationen in Puck-Dichte Permeabilitätsunterschiede. Wasser unter 9 bar Druck folgt dem Weg des geringsten Widerstands, fließt bevorzugt durch lockerere, permeablere Regionen—'Kanäle'. Diese Zonen werden überextrahiert (bitter), während dichtere Bereiche unterextrahiert (sauer) bleiben, gleichzeitig. Gleichmäßige Puck-Vorbereitung verhindert dies.",
+          nl: "Bij espresso extractie creëren variaties in puck dichtheid permeabiliteit verschillen. Water onder 9 bar druk volgt het pad van minste weerstand, stroomt bij voorkeur door lossere, meer permeabele gebieden—'kanalen'. Deze zones worden over-geëxtraheerd (bitter) terwijl dichtere gebieden onder-geëxtraheerd (zuur) blijven, gelijktijdig. Uniforme puck voorbereiding voorkomt dit."
+        }
+      },
+      {
+        question: {
+          en: "What is 'water hardness buffering capacity' and its relevance to espresso extraction?",
+          es: "¿Qué es la 'capacidad de tamponamiento de la dureza del agua' y su relevancia para la extracción de espresso?",
+          de: "Was ist 'Wasserhärte-Pufferkapazität' und ihre Relevanz für Espresso-Extraktion?",
+          nl: "Wat is 'waterhardheid buffer capaciteit' en de relevantie voor espresso extractie?"
+        },
+        options: [
+          { en: "Alkalinity (bicarbonate) concentration determines pH stability during extraction, affecting acid perception and flavor balance", es: "La concentración de alcalinidad (bicarbonato) determina la estabilidad del pH durante la extracción, afectando la percepción de ácidos y el balance de sabor", de: "Alkalinität (Bicarbonat)-Konzentration bestimmt pH-Stabilität während Extraktion, beeinflusst Säurewahrnehmung und Geschmacksbalance", nl: "Alkaliniteit (bicarbonaat) concentratie bepaalt pH stabiliteit tijdens extractie, beïnvloedt zuur perceptie en smaakbalans" },
+          { en: "Water simply getting hard or soft only", es: "Agua simplemente volviéndose dura o blanda solo", de: "Wasser wird nur hart oder weich", nl: "Water wordt alleen hard of zacht" },
+          { en: "Buffer as in computer data storage", es: "Buffer como en almacenamiento de datos de computadora", de: "Buffer wie bei Computer-Datenspeicherung", nl: "Buffer zoals in computer data opslag" },
+          { en: "Mechanical filtration exclusively", es: "Exclusivamente filtración mecánica", de: "Ausschließlich mechanische Filtration", nl: "Uitsluitend mechanische filtratie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Water's buffering capacity (alkalinity, primarily bicarbonates) resists pH changes during extraction. High alkalinity (>80ppm) neutralizes coffee's organic acids, reducing perceived acidity and creating flat taste. Low alkalinity (<40ppm) allows acids to dominate, creating overly bright, sharp profiles. SCA recommends 40-70ppm alkalinity for balanced extraction.",
+          es: "La capacidad de tamponamiento del agua (alcalinidad, principalmente bicarbonatos) resiste cambios de pH durante la extracción. Alta alcalinidad (>80ppm) neutraliza los ácidos orgánicos del café, reduciendo la acidez percibida y creando sabor plano. Baja alcalinidad (<40ppm) permite que los ácidos dominen, creando perfiles excesivamente brillantes y agudos. La SCA recomienda 40-70ppm de alcalinidad para extracción equilibrada.",
+          de: "Wassers Pufferkapazität (Alkalinität, hauptsächlich Bikarbonate) widersetzt sich pH-Änderungen während Extraktion. Hohe Alkalinität (>80ppm) neutralisiert organische Säuren des Kaffees, reduziert wahrgenommene Säure und erzeugt flachen Geschmack. Niedrige Alkalinität (<40ppm) lässt Säuren dominieren, erzeugt übermäßig helle, scharfe Profile. SCA empfiehlt 40-70ppm Alkalinität für ausgewogene Extraktion.",
+          nl: "Waters buffer capaciteit (alkaliniteit, voornamelijk bicarbonaten) weerstaat pH veranderingen tijdens extractie. Hoge alkaliniteit (>80ppm) neutraliseert koffie's organische zuren, vermindert waargenomen zuurgraad en creëert vlakke smaak. Lage alkaliniteit (<40ppm) laat zuren domineren, creëert overdreven heldere, scherpe profielen. SCA beveelt 40-70ppm alkaliniteit aan voor gebalanceerde extractie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'tamp pressure consistency' from a materials science perspective?",
+          es: "¿Qué es la 'consistencia de presión de apisonado' desde una perspectiva de ciencia de materiales?",
+          de: "Was ist 'Tamperdruck-Konsistenz' aus Sicht der Materialwissenschaft?",
+          nl: "Wat is 'tamper druk consistentie' vanuit een materiaalwetenschap perspectief?"
+        },
+        options: [
+          { en: "Achieving reproducible puck density (bulk density ~0.45-0.55 g/mL) to ensure consistent porosity and permeability", es: "Lograr densidad reproducible del disco (densidad aparente ~0,45-0,55 g/mL) para asegurar porosidad y permeabilidad consistentes", de: "Erreichung reproduzierbarer Puck-Dichte (Schüttdichte ~0,45-0,55 g/mL) zur Gewährleistung konsistenter Porosität und Permeabilität", nl: "Bereiken van reproduceerbare puck dichtheid (bulk dichtheid ~0,45-0,55 g/mL) om consistente porositeit en permeabiliteit te verzekeren" },
+          { en: "Using maximum force always regardless of result", es: "Usar siempre fuerza máxima sin importar el resultado", de: "Immer maximale Kraft verwenden unabhängig vom Ergebnis", nl: "Altijd maximale kracht gebruiken ongeacht resultaat" },
+          { en: "Tapping the portafilter sides only", es: "Solo golpear los lados del portafiltro", de: "Nur Portafilter-Seiten klopfen", nl: "Alleen portafilter zijkanten tikken" },
+          { en: "Temperature of the tamper exclusively", es: "Exclusivamente la temperatura del apisonador", de: "Ausschließlich Tamper-Temperatur", nl: "Uitsluitend tamper temperatuur" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tamp pressure's goal isn't specific force (common myth: '30 pounds'), but reproducible puck density. Once coffee is compressed beyond ~10kg, additional force yields minimal density change—it's about reaching the 'compaction threshold' consistently. Proper density creates uniform porosity for even water distribution, preventing channeling.",
+          es: "El objetivo de la presión de apisonado no es fuerza específica (mito común: '30 libras'), sino densidad reproducible del disco. Una vez que el café se comprime más allá de ~10kg, fuerza adicional produce cambio mínimo de densidad—se trata de alcanzar el 'umbral de compactación' consistentemente. La densidad adecuada crea porosidad uniforme para distribución uniforme del agua, previniendo canalización.",
+          de: "Tamperdrucks Ziel ist nicht spezifische Kraft (häufiger Mythos: '30 Pfund'), sondern reproduzierbare Puck-Dichte. Sobald Kaffee über ~10kg komprimiert ist, ergibt zusätzliche Kraft minimale Dichteänderung—es geht darum, 'Kompaktionsschwelle' konsistent zu erreichen. Richtige Dichte erzeugt gleichmäßige Porosität für gleichmäßige Wasserverteilung, verhindert Kanalbildung.",
+          nl: "Tamper druk doel is niet specifieke kracht (veelvoorkomende mythe: '30 pond'), maar reproduceerbare puck dichtheid. Zodra koffie voorbij ~10kg gecomprimeerd is, levert extra kracht minimale dichtheid verandering—het gaat om consistent bereiken van 'compactie drempel'. Juiste dichtheid creëert uniforme porositeit voor gelijkmatige water distributie, voorkomt channeling."
+        }
+      },
+      {
+        question: {
+          en: "What is 'differential pressure decay' analysis in diagnosing espresso machine performance?",
+          es: "¿Qué es el análisis de 'decaimiento de presión diferencial' en el diagnóstico del rendimiento de la máquina de espresso?",
+          de: "Was ist 'Differenzdruckabfall'-Analyse bei der Diagnose der Espressomaschinen-Leistung?",
+          nl: "Wat is 'differentiële druk verval' analyse bij het diagnosticeren van espressomachine prestaties?"
+        },
+        options: [
+          { en: "Measuring pressure loss rate after pump shutdown to detect group head seal leaks, valve failures, and flow restrictor problems", es: "Medir la tasa de pérdida de presión después del apagado de la bomba para detectar fugas de sellos del grupo, fallas de válvulas y problemas de restrictor de flujo", de: "Messung der Druckabfallrate nach Pumpenabschaltung zur Erkennung von Gruppenkopf-Dichtungslecks, Ventilfehlern und Durchflussbegrenzer-Problemen", nl: "Meten van drukverval snelheid na pomp uitschakeling om groepshoofd afdichting lekken, ventiel storingen en flow restrictor problemen te detecteren" },
+          { en: "Simply turning machine on and off", es: "Simplemente encender y apagar la máquina", de: "Einfach Maschine ein- und ausschalten", nl: "Simpelweg machine aan en uit zetten" },
+          { en: "Measuring water temperature only", es: "Solo medir la temperatura del agua", de: "Nur Wassertemperatur messen", nl: "Alleen watertemperatuur meten" },
+          { en: "Checking exterior paint condition", es: "Verificar la condición de la pintura exterior", de: "Äußeren Lackzustand prüfen", nl: "Controleren van buitenverf conditie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "This diagnostic involves pressurizing the group head, shutting off the pump, and monitoring how quickly pressure drops. Healthy systems hold pressure (slow decay); rapid pressure loss indicates seal degradation, valve problems, or internal leaks. Quantitative decay rate analysis precisely identifies failing components before complete failure.",
+          es: "Este diagnóstico implica presurizar el grupo, apagar la bomba y monitorear qué tan rápido cae la presión. Sistemas saludables mantienen presión (decaimiento lento); pérdida rápida de presión indica degradación de sellos, problemas de válvulas o fugas internas. El análisis cuantitativo de tasa de decaimiento identifica precisamente componentes fallando antes de falla completa.",
+          de: "Diese Diagnose beinhaltet Druckbeaufschlagung des Gruppenkopfs, Abschalten der Pumpe und Überwachung, wie schnell Druck abfällt. Gesunde Systeme halten Druck (langsamer Abfall); schneller Druckverlust zeigt Dichtungsverschleiß, Ventilprobleme oder interne Lecks an. Quantitative Abfallratenanalyse identifiziert präzise ausfallende Komponenten vor vollständigem Ausfall.",
+          nl: "Deze diagnose omvat het onder druk zetten van de groepshoofd, uitschakelen van de pomp en monitoren hoe snel druk daalt. Gezonde systemen houden druk (langzaam verval); snelle drukverlies duidt op afdichting degradatie, ventiel problemen of interne lekken. Kwantitatieve verval snelheid analyse identificeert precies falende componenten voor complete storing."
+        }
+      },
+      {
+        question: {
+          en: "What is 'grind retention' and its impact on dose consistency in high-volume espresso service?",
+          es: "¿Qué es la 'retención de molienda' y su impacto en la consistencia de dosis en servicio de espresso de alto volumen?",
+          de: "Was ist 'Mahlgut-Retention' und ihre Auswirkung auf Dosis-Konsistenz im Hochvolumen-Espresso-Service?",
+          nl: "Wat is 'maal retentie' en de impact op dosering consistentie bij hoge-volume espresso service?"
+        },
+        options: [
+          { en: "Coffee grounds retained in grinder (0.2-2g) causing dose variation and stale coffee mixing with fresh grounds", es: "Posos de café retenidos en el molinillo (0,2-2g) causando variación de dosis y mezcla de café rancio con posos frescos", de: "Kaffeemehl in Mühle zurückgehalten (0,2-2g), verursacht Dosisschwankung und Mischung von altem Kaffee mit frischem Mahlgut", nl: "Koffiedik achtergebleven in maler (0,2-2g) veroorzaakt dosering variatie en menging van oude koffie met verse maling" },
+          { en: "Grinder's memory of previous settings", es: "Memoria del molinillo de ajustes previos", de: "Mühlen-Speicher vorheriger Einstellungen", nl: "Maler geheugen van vorige instellingen" },
+          { en: "Coffee beans retained in hopper only", es: "Solo granos de café retenidos en la tolva", de: "Nur Kaffeebohnen im Trichter zurückgehalten", nl: "Alleen koffiebonen achtergebleven in trechter" },
+          { en: "Filter basket residue exclusively", es: "Exclusivamente residuo del cesto de filtro", de: "Ausschließlich Filterkorbrückstand", nl: "Uitsluitend filtermand residu" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Grinder retention refers to coffee grounds trapped in grinder internal chambers, chutes, and burrs. This 'exchange' (old grounds exit when new beans push through) causes (1) dose inconsistency as retention varies, and (2) flavor contamination as stale grounds mix with fresh. Low-retention grinders (<0.5g) improve consistency critical for dialing espresso.",
+          es: "La retención de molienda se refiere a posos de café atrapados en cámaras internas del molinillo, conductos y muelas. Este 'intercambio' (posos viejos salen cuando granos nuevos empujan) causa (1) inconsistencia de dosis ya que la retención varía, y (2) contaminación de sabor ya que posos rancios se mezclan con frescos. Molinillos de baja retención (<0,5g) mejoran la consistencia crítica para ajustar espresso.",
+          de: "Mahlgut-Retention bezieht sich auf Kaffeemehl, das in Mühlen-Innenkammern, Schächten und Mahlscheiben gefangen ist. Dieser 'Austausch' (altes Mahlgut tritt aus, wenn neue Bohnen durchschieben) verursacht (1) Dosis-Inkonsistenz, da Retention variiert, und (2) Geschmackskontamination, da altes Mahlgut sich mit frischem mischt. Niedrig-Retentions-Mühlen (<0,5g) verbessern Konsistenz kritisch für Espresso-Einstellung.",
+          nl: "Maal retentie verwijst naar koffiedik gevangen in maler interne kamers, goten en maalschijven. Deze 'uitwisseling' (oud dik komt eruit als nieuwe bonen doorduwen) veroorzaakt (1) dosering inconsistentie omdat retentie varieert, en (2) smaak contaminatie omdat oud dik mengt met vers. Lage-retentie malers (<0,5g) verbeteren consistentie cruciaal voor espresso instelling."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Osmo-dehydration' hypothesis in coffee cherry processing innovation?",
+          es: "¿Qué es la hipótesis de 'osmo-deshidratación' en la innovación del procesamiento de cerezas de café?",
+          de: "Was ist die 'Osmo-Dehydration'-Hypothese in der Innovation der Kaffeekirschenverarbeitung?",
+          nl: "Wat is de 'Osmo-dehydratie' hypothese in koffiebessen verwerkings innovatie?"
+        },
+        options: [
+          { en: "Using osmotic pressure gradients with concentrated sugar/salt solutions to accelerate controlled drying while modifying fermentation", es: "Usar gradientes de presión osmótica con soluciones concentradas de azúcar/sal para acelerar el secado controlado mientras se modifica la fermentación", de: "Verwendung osmotischer Druckgradienten mit konzentrierten Zucker-/Salzlösungen zur Beschleunigung kontrollierten Trocknens bei gleichzeitiger Fermentationsmodifikation", nl: "Gebruik van osmotische druk gradiënten met geconcentreerde suiker/zout oplossingen om gecontroleerde droging te versnellen terwijl fermentatie wordt gewijzigd" },
+          { en: "Simply removing water with towels", es: "Simplemente remover agua con toallas", de: "Einfach Wasser mit Handtüchern entfernen", nl: "Simpelweg water verwijderen met handdoeken" },
+          { en: "Standard sun drying only", es: "Solo secado al sol estándar", de: "Nur Standard-Sonnentrocknung", nl: "Alleen standaard zondrogen" },
+          { en: "Mechanical pressing exclusively", es: "Exclusivamente prensado mecánico", de: "Ausschließlich mechanisches Pressen", nl: "Uitsluitend mechanisch persen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Experimental processors immerse coffee cherries in hypertonic solutions (concentrated sugars or salts). Osmotic pressure draws water out of cherries faster than evaporation alone, reducing drying time while simultaneously infusing flavors. The controlled anaerobic environment also modifies fermentation chemistry, creating novel flavor profiles—though controversial in specialty coffee.",
+          es: "Procesadores experimentales sumergen cerezas de café en soluciones hipertónicas (azúcares o sales concentradas). La presión osmótica extrae agua de las cerezas más rápido que solo la evaporación, reduciendo el tiempo de secado mientras infunde sabores simultáneamente. El ambiente anaeróbico controlado también modifica la química de fermentación, creando perfiles de sabor novedosos—aunque controvertido en café especial.",
+          de: "Experimentelle Verarbeiter tauchen Kaffeekirschen in hypertone Lösungen (konzentrierte Zucker oder Salze). Osmotischer Druck zieht Wasser schneller aus Kirschen als Verdunstung allein, reduziert Trocknungszeit während gleichzeitig Aromen infundiert werden. Die kontrollierte anaerobe Umgebung modifiziert auch Fermentationschemie, erzeugt neuartige Geschmacksprofile—obwohl umstritten in Spezialitätenkaffee.",
+          nl: "Experimentele verwerkers dompelen koffiebessen onder in hypertone oplossingen (geconcentreerde suikers of zouten). Osmotische druk trekt water sneller uit bessen dan verdamping alleen, vermindert droogtijd terwijl gelijktijdig smaken worden geïnfuseerd. De gecontroleerde anaerobe omgeving wijzigt ook fermentatie chemie, creëert nieuwe smaakprofielen—hoewel controversieel in specialty koffie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'specific surface area' (SSA) measurement in coffee grinding and why does it matter?",
+          es: "¿Qué es la medición de 'área superficial específica' (SSA) en la molienda de café y por qué es importante?",
+          de: "Was ist 'spezifische Oberfläche' (SSA) Messung beim Kaffeemahlen und warum ist sie wichtig?",
+          nl: "Wat is 'specifiek oppervlak' (SSA) meting bij koffie malen en waarom is het belangrijk?"
+        },
+        options: [
+          { en: "Total particle surface area per gram of coffee (m²/g); higher SSA accelerates extraction kinetics proportionally", es: "Área superficial total de partículas por gramo de café (m²/g); mayor SSA acelera la cinética de extracción proporcionalmente", de: "Gesamte Partikeloberfläche pro Gramm Kaffee (m²/g); höhere SSA beschleunigt Extraktionskinetik proportional", nl: "Totaal deeltjes oppervlak per gram koffie (m²/g); hogere SSA versnelt extractie kinetiek proportioneel" },
+          { en: "Just the color of ground coffee", es: "Solo el color del café molido", de: "Nur die Farbe von gemahlenem Kaffee", nl: "Alleen de kleur van gemalen koffie" },
+          { en: "Weight of grinder only", es: "Solo peso del molinillo", de: "Nur Gewicht der Mühle", nl: "Alleen gewicht van maler" },
+          { en: "Brewing temperature exclusively", es: "Exclusivamente temperatura de preparación", de: "Ausschließlich Brühtemperatur", nl: "Uitsluitend zettemperatuur" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "SSA quantifies total exposed coffee surface available for extraction. Espresso grind (~25µm mean) has SSA ~3,000-5,000 m²/g; pour-over (~500µm) has ~200-400 m²/g. Higher SSA means more water-coffee contact area, accelerating mass transfer and extraction. This explains why finer grinds extract faster—it's fundamentally about surface area, not just particle size.",
+          es: "SSA cuantifica la superficie total de café expuesta disponible para extracción. Molienda de espresso (~25µm promedio) tiene SSA ~3.000-5.000 m²/g; vertido (~500µm) tiene ~200-400 m²/g. Mayor SSA significa más área de contacto agua-café, acelerando transferencia de masa y extracción. Esto explica por qué moliendas más finas extraen más rápido—es fundamentalmente sobre área superficial, no solo tamaño de partícula.",
+          de: "SSA quantifiziert gesamte exponierte Kaffeeoberfläche verfügbar für Extraktion. Espresso-Mahlung (~25µm Mittel) hat SSA ~3.000-5.000 m²/g; Pour-Over (~500µm) hat ~200-400 m²/g. Höhere SSA bedeutet mehr Wasser-Kaffee-Kontaktfläche, beschleunigt Massentransfer und Extraktion. Dies erklärt, warum feinere Mahlungen schneller extrahieren—es geht grundlegend um Oberfläche, nicht nur Partikelgröße.",
+          nl: "SSA kwantificeert totaal blootgesteld koffie oppervlak beschikbaar voor extractie. Espresso maling (~25µm gemiddeld) heeft SSA ~3.000-5.000 m²/g; pour-over (~500µm) heeft ~200-400 m²/g. Hogere SSA betekent meer water-koffie contactgebied, versnelt massaoverdracht en extractie. Dit verklaart waarom fijnere malingen sneller extraheren—het gaat fundamenteel over oppervlak, niet alleen deeltjesgrootte."
+        }
+      },
+      {
+        question: {
+          en: "What is 'pressure profiling' and its theoretical basis in modern espresso?",
+          es: "¿Qué es el 'perfilado de presión' y su base teórica en el espresso moderno?",
+          de: "Was ist 'Druckprofilierung' und ihre theoretische Grundlage im modernen Espresso?",
+          nl: "Wat is 'druk profilering' en de theoretische basis in moderne espresso?"
+        },
+        options: [
+          { en: "Varying pump pressure during extraction (e.g., 3→9→6 bar) to control flow rate and selective compound extraction", es: "Variar la presión de la bomba durante la extracción (ej., 3→9→6 bar) para controlar la tasa de flujo y extracción selectiva de compuestos", de: "Variation des Pumpendrucks während Extraktion (z.B. 3→9→6 bar) zur Kontrolle von Durchflussrate und selektiver Verbindungsextraktion", nl: "Variëren van pompdruk tijdens extractie (bijv. 3→9→6 bar) om stroomsnelheid en selectieve verbindingsextractie te controleren" },
+          { en: "Keeping pressure constant at 9 bar always", es: "Mantener presión constante a 9 bar siempre", de: "Druck konstant bei 9 bar halten immer", nl: "Druk constant houden op 9 bar altijd" },
+          { en: "Measuring atmospheric pressure only", es: "Solo medir presión atmosférica", de: "Nur atmosphärischen Druck messen", nl: "Alleen atmosferische druk meten" },
+          { en: "Manual lever pulling exclusively", es: "Exclusivamente tirar de palanca manual", de: "Ausschließlich manuelles Hebel ziehen", nl: "Uitsluitend handmatig hefboom trekken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pressure profiling uses programmable pumps to vary pressure during extraction. Example: start low (3-4 bar pre-infusion), ramp to 9 bar (peak extraction), finish lower (6 bar to prevent over-extraction). Theory: different pressures optimize different extraction phases—low pressure for even wetting, high for efficient extraction, declining to avoid channeling and bitterness.",
+          es: "El perfilado de presión usa bombas programables para variar la presión durante la extracción. Ejemplo: comenzar bajo (3-4 bar pre-infusión), aumentar a 9 bar (extracción pico), terminar más bajo (6 bar para prevenir sobre-extracción). Teoría: diferentes presiones optimizan diferentes fases de extracción—presión baja para humectación uniforme, alta para extracción eficiente, declinante para evitar canalización y amargor.",
+          de: "Druckprofilierung verwendet programmierbare Pumpen zur Druckvariation während Extraktion. Beispiel: niedrig starten (3-4 bar Vorinfusion), auf 9 bar steigern (Spitzenextraktion), niedriger beenden (6 bar zur Vermeidung von Überextraktion). Theorie: unterschiedliche Drücke optimieren unterschiedliche Extraktionsphasen—niedriger Druck für gleichmäßige Benetzung, hoher für effiziente Extraktion, abnehmend zur Vermeidung von Kanalbildung und Bitterkeit.",
+          nl: "Druk profilering gebruikt programmeerbare pompen om druk te variëren tijdens extractie. Voorbeeld: laag beginnen (3-4 bar pre-infusie), oplopen naar 9 bar (piek extractie), lager eindigen (6 bar om over-extractie te voorkomen). Theorie: verschillende drukken optimaliseren verschillende extractie fasen—lage druk voor gelijkmatige bevochtiging, hoge voor efficiënte extractie, dalend om channeling en bitterheid te vermijden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'steam wand purging' thermodynamics in milk steaming?",
+          es: "¿Qué es la termodinámica de 'purgado de la varilla de vapor' en el vaporizado de leche?",
+          de: "Was ist 'Dampflanze-Spülungs'-Thermodynamik beim Milchaufschäumen?",
+          nl: "Wat is 'stoomstaaf spoelen' thermodynamica bij melk stomen?"
+        },
+        options: [
+          { en: "Pre-purge removes condensed water; post-purge prevents milk backflow—both critical for hygiene and consistent steam quality", es: "El pre-purgado elimina agua condensada; el post-purgado previene reflujo de leche—ambos críticos para higiene y calidad consistente del vapor", de: "Vor-Spülung entfernt kondensiertes Wasser; Nach-Spülung verhindert Milch-Rückfluss—beides kritisch für Hygiene und konsistente Dampfqualität", nl: "Pre-spoeling verwijdert gecondenseerd water; post-spoeling voorkomt melk terugstroom—beide cruciaal voor hygiëne en consistente stoomkwaliteit" },
+          { en: "Just decorative steam release", es: "Solo liberación decorativa de vapor", de: "Nur dekorative Dampffreigabe", nl: "Alleen decoratieve stoom afgifte" },
+          { en: "Cleaning external surfaces only", es: "Solo limpieza de superficies externas", de: "Nur Reinigung äußerer Oberflächen", nl: "Alleen schoonmaken van buitenoppervlakken" },
+          { en: "Temperature measurement exclusively", es: "Exclusivamente medición de temperatura", de: "Ausschließlich Temperaturmessung", nl: "Uitsluitend temperatuurmeting" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pre-purge: condensed water accumulates in steam wand between uses; purging before steaming ensures dry steam enters milk (wet steam = poor microfoam). Post-purge: residual milk can be sucked back into wand when steam collapses; immediate purging prevents this, maintaining sanitation. Both are essential professional techniques for consistent microfoam quality.",
+          es: "Pre-purgado: el agua condensada se acumula en la varilla de vapor entre usos; purgar antes de vaporizar asegura que vapor seco entre en la leche (vapor húmedo = microespuma pobre). Post-purgado: leche residual puede ser succionada de vuelta a la varilla cuando el vapor colapsa; purgar inmediatamente previene esto, manteniendo sanidad. Ambos son técnicas profesionales esenciales para calidad consistente de microespuma.",
+          de: "Vor-Spülung: kondensiertes Wasser sammelt sich zwischen Verwendungen in Dampflanze; Spülen vor Aufschäumen stellt sicher, dass trockener Dampf in Milch eintritt (nasser Dampf = schlechter Mikroschaum). Nach-Spülung: Restmilch kann in Lanze zurückgesaugt werden, wenn Dampf kollabiert; sofortiges Spülen verhindert dies, erhält Hygiene. Beides sind wesentliche professionelle Techniken für konsistente Mikroschaumqualität.",
+          nl: "Pre-spoeling: gecondenseerd water accumuleert in stoomstaaf tussen gebruik; spoelen voor stomen verzekert dat droge stoom melk ingaat (natte stoom = slechte microschuim). Post-spoeling: resterende melk kan teruggezogen worden in staaf wanneer stoom instort; onmiddellijk spoelen voorkomt dit, behoudt hygiëne. Beide zijn essentiële professionele technieken voor consistente microschuim kwaliteit."
+        }
+      },
+      {
+        question: {
+          en: "What is 'first crack endothermic dip' in coffee roasting thermodynamics?",
+          es: "¿Qué es la 'caída endotérmica del primer crack' en la termodinámica del tostado de café?",
+          de: "Was ist das 'First Crack endotherme Einbruch' in der Kaffeeröst-Thermodynamik?",
+          nl: "Wat is 'first crack endotherm dal' in koffie rooster thermodynamica?"
+        },
+        options: [
+          { en: "Temperature temporarily stalls/dips as water vaporization and bean structure rupture absorb thermal energy endothermically", es: "La temperatura se estanca/cae temporalmente ya que la vaporización de agua y la ruptura de la estructura del grano absorben energía térmica endotérmicamente", de: "Temperatur stockt/sinkt vorübergehend, da Wasserverdampfung und Bohnenstrukturbruch thermische Energie endotherm absorbieren", nl: "Temperatuur stagneert/daalt tijdelijk omdat waterverdamping en boon structuur breuk thermische energie endotherm absorberen" },
+          { en: "Beans become ice cold during roasting", es: "Los granos se vuelven helados durante el tostado", de: "Bohnen werden eiskalt beim Rösten", nl: "Bonen worden ijskoud tijdens roosteren" },
+          { en: "First crack has no thermal signature", es: "El primer crack no tiene firma térmica", de: "First Crack hat keine thermische Signatur", nl: "First crack heeft geen thermische handtekening" },
+          { en: "Only an auditory phenomenon, not thermal", es: "Solo un fenómeno auditivo, no térmico", de: "Nur ein akustisches Phänomen, nicht thermisch", nl: "Alleen een auditief fenomeen, niet thermisch" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "First crack occurs around 196-205°C when remaining water flash-vaporizes and bean cellular structure fractures. Both processes are endothermic (absorb heat), temporarily consuming thermal energy faster than roaster supplies it. This causes observable temperature stall or slight drop—the 'endothermic dip.' Roasters must supply sufficient energy to overcome this transition smoothly.",
+          es: "El primer crack ocurre alrededor de 196-205°C cuando el agua restante se vaporiza instantáneamente y la estructura celular del grano se fractura. Ambos procesos son endotérmicos (absorben calor), consumiendo temporalmente energía térmica más rápido de lo que el tostador la suministra. Esto causa un estancamiento observable de temperatura o ligera caída—la 'caída endotérmica'. Los tostadores deben suministrar energía suficiente para superar esta transición suavemente.",
+          de: "First Crack tritt bei etwa 196-205°C auf, wenn verbleibendes Wasser schlagartig verdampft und Bohnen-Zellstruktur bricht. Beide Prozesse sind endotherm (absorbieren Wärme), verbrauchen vorübergehend thermische Energie schneller als Röster sie liefert. Dies verursacht beobachtbaren Temperaturstillstand oder leichten Abfall—den 'endothermen Einbruch'. Röster müssen ausreichend Energie liefern, um diesen Übergang glatt zu überwinden.",
+          nl: "First crack vindt plaats rond 196-205°C wanneer overgebleven water flitsverdampt en boon cellulaire structuur breekt. Beide processen zijn endotherm (absorberen warmte), verbruiken tijdelijk thermische energie sneller dan rooster levert. Dit veroorzaakt waarneembare temperatuur stagnatie of lichte daling—het 'endotherme dal'. Roosters moeten voldoende energie leveren om deze overgang soepel te overwinnen."
+        }
+      }
     ]
   };
 

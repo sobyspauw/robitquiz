@@ -427,8 +427,428 @@
           de: "In der traditionellen Programmierung schreiben Entwickler spezifische Regeln und Anweisungen. Im maschinellen Lernen entdeckt das System automatisch Regeln und Muster aus Datenbeispielen.",
           nl: "In traditionele programmering schrijven ontwikkelaars specifieke regels en instructies. In machine learning ontdekt het systeem automatisch regels en patronen uit data voorbeelden."
         }
+      },
+      {
+        question: {
+          en: "What is a dataset in machine learning?",
+          es: "¿Qué es un conjunto de datos en aprendizaje automático?",
+          de: "Was ist ein Datensatz im maschinellen Lernen?",
+          nl: "Wat is een dataset in machine learning?"
+        },
+        options: [
+          { en: "A collection of data used to train or test AI models", es: "Una colección de datos utilizada para entrenar o probar modelos IA", de: "Eine Sammlung von Daten zum Trainieren oder Testen von KI-Modellen", nl: "Een verzameling data gebruikt om AI modellen te trainen of testen" },
+          { en: "A specific date and time setting", es: "Una configuración específica de fecha y hora", de: "Eine spezifische Datums- und Zeiteinstellung", nl: "Een specifieke datum en tijd instelling" },
+          { en: "A type of computer hardware", es: "Un tipo de hardware de computadora", de: "Eine Art Computerhardware", nl: "Een type computerhardware" },
+          { en: "A website for storing files", es: "Un sitio web para almacenar archivos", de: "Eine Website zum Speichern von Dateien", nl: "Een website voor het opslaan van bestanden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A dataset is a structured collection of data examples used to train, validate, or test machine learning models, like a collection of images for teaching an AI to recognize cats.",
+          es: "Un conjunto de datos es una colección estructurada de ejemplos de datos utilizada para entrenar, validar o probar modelos de aprendizaje automático, como una colección de imágenes para enseñar a una IA a reconocer gatos.",
+          de: "Ein Datensatz ist eine strukturierte Sammlung von Datenbeispielen, die zum Trainieren, Validieren oder Testen maschineller Lernmodelle verwendet wird, wie eine Sammlung von Bildern zum Lehren einer KI Katzen zu erkennen.",
+          nl: "Een dataset is een gestructureerde verzameling van data voorbeelden gebruikt om machine learning modellen te trainen, valideren of testen, zoals een verzameling afbeeldingen om een AI te leren katten te herkennen."
+        }
+      },
+      {
+        question: {
+          en: "Which company created Alexa?",
+          es: "¿Qué empresa creó Alexa?",
+          de: "Welches Unternehmen hat Alexa erschaffen?",
+          nl: "Welk bedrijf creëerde Alexa?"
+        },
+        options: [
+          { en: "Amazon", es: "Amazon", de: "Amazon", nl: "Amazon" },
+          { en: "Google", es: "Google", de: "Google", nl: "Google" },
+          { en: "Facebook", es: "Facebook", de: "Facebook", nl: "Facebook" },
+          { en: "Microsoft", es: "Microsoft", de: "Microsoft", nl: "Microsoft" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Amazon created Alexa, a voice-controlled virtual assistant launched in 2014, now used in millions of Echo devices worldwide.",
+          es: "Amazon creó Alexa, un asistente virtual controlado por voz lanzado en 2014, ahora utilizado en millones de dispositivos Echo en todo el mundo.",
+          de: "Amazon schuf Alexa, einen sprachgesteuerten virtuellen Assistenten, der 2014 gestartet wurde und jetzt in Millionen von Echo-Geräten weltweit verwendet wird.",
+          nl: "Amazon creëerde Alexa, een spraakgestuurde virtuele assistent gelanceerd in 2014, nu gebruikt in miljoenen Echo apparaten wereldwijd."
+        }
+      },
+      {
+        question: {
+          en: "What does it mean for a model to 'overfit'?",
+          es: "¿Qué significa que un modelo esté 'sobreajustado'?",
+          de: "Was bedeutet es, wenn ein Modell 'überanpasst'?",
+          nl: "Wat betekent het wanneer een model 'overfit'?"
+        },
+        options: [
+          { en: "Learning training data too well, performing poorly on new data", es: "Aprender los datos de entrenamiento demasiado bien, funcionando mal con datos nuevos", de: "Trainingsdaten zu gut lernen, schlecht bei neuen Daten funktionieren", nl: "Trainingsdata te goed leren, slecht presteren op nieuwe data" },
+          { en: "The model is too large to fit in memory", es: "El modelo es demasiado grande para caber en la memoria", de: "Das Modell ist zu groß um in den Speicher zu passen", nl: "Het model is te groot om in het geheugen te passen" },
+          { en: "The model runs too fast", es: "El modelo funciona demasiado rápido", de: "Das Modell läuft zu schnell", nl: "Het model draait te snel" },
+          { en: "The model is physically too big", es: "El modelo es físicamente demasiado grande", de: "Das Modell ist physisch zu groß", nl: "Het model is fysiek te groot" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Overfitting occurs when a model memorizes training data instead of learning general patterns, making it accurate on training data but poor at predicting new, unseen examples.",
+          es: "El sobreajuste ocurre cuando un modelo memoriza datos de entrenamiento en lugar de aprender patrones generales, haciéndolo preciso en datos de entrenamiento pero pobre prediciendo ejemplos nuevos y no vistos.",
+          de: "Überanpassung tritt auf wenn ein Modell Trainingsdaten auswendig lernt statt allgemeine Muster zu lernen, macht es genau bei Trainingsdaten aber schlecht beim Vorhersagen neuer, ungesehener Beispiele.",
+          nl: "Overfitting treedt op wanneer een model trainingsdata uit het hoofd leert in plaats van algemene patronen te leren, maakt het nauwkeurig op trainingsdata maar slecht in het voorspellen van nieuwe, ongeziene voorbeelden."
+        }
+      },
+      {
+        question: {
+          en: "What is a feature in machine learning?",
+          es: "¿Qué es una característica en aprendizaje automático?",
+          de: "Was ist ein Feature im maschinellen Lernen?",
+          nl: "Wat is een feature in machine learning?"
+        },
+        options: [
+          { en: "An individual measurable property used as input to a model", es: "Una propiedad medible individual usada como entrada a un modelo", de: "Eine einzelne messbare Eigenschaft als Eingabe für ein Modell", nl: "Een individuele meetbare eigenschap gebruikt als input voor een model" },
+          { en: "A special function of the software", es: "Una función especial del software", de: "Eine spezielle Funktion der Software", nl: "Een speciale functie van de software" },
+          { en: "The main selling point of AI", es: "El principal punto de venta de IA", de: "Das Hauptverkaufsargument von KI", nl: "Het belangrijkste verkooppunt van AI" },
+          { en: "A bug in the algorithm", es: "Un error en el algoritmo", de: "Ein Fehler im Algorithmus", nl: "Een bug in het algoritme" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Features are measurable characteristics or attributes of data used as inputs for ML models, like 'color', 'size', or 'weight' when identifying objects.",
+          es: "Las características son características o atributos medibles de datos utilizados como entradas para modelos ML, como 'color', 'tamaño' o 'peso' al identificar objetos.",
+          de: "Features sind messbare Merkmale oder Attribute von Daten die als Eingaben für ML-Modelle verwendet werden, wie 'Farbe', 'Größe' oder 'Gewicht' beim Identifizieren von Objekten.",
+          nl: "Features zijn meetbare kenmerken of attributen van data gebruikt als inputs voor ML modellen, zoals 'kleur', 'grootte' of 'gewicht' bij het identificeren van objecten."
+        }
+      },
+      {
+        question: {
+          en: "What is image recognition?",
+          es: "¿Qué es el reconocimiento de imágenes?",
+          de: "Was ist Bilderkennung?",
+          nl: "Wat is beeldherkenning?"
+        },
+        options: [
+          { en: "AI identifying objects, people, or scenes in images", es: "IA identificando objetos, personas o escenas en imágenes", de: "KI identifiziert Objekte, Personen oder Szenen in Bildern", nl: "AI identificeert objecten, mensen of scènes in afbeeldingen" },
+          { en: "Scanning images to reduce file size", es: "Escanear imágenes para reducir tamaño de archivo", de: "Bilder scannen um Dateigröße zu reduzieren", nl: "Afbeeldingen scannen om bestandsgrootte te verkleinen" },
+          { en: "Taking photos with a camera", es: "Tomar fotos con una cámara", de: "Fotos mit einer Kamera machen", nl: "Foto's maken met een camera" },
+          { en: "Editing images in software", es: "Editar imágenes en software", de: "Bilder in Software bearbeiten", nl: "Afbeeldingen bewerken in software" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Image recognition is a ML application that analyzes images to identify and classify objects, faces, text, or scenes, used in applications like facial recognition and self-driving cars.",
+          es: "El reconocimiento de imágenes es una aplicación ML que analiza imágenes para identificar y clasificar objetos, rostros, texto o escenas, utilizada en aplicaciones como reconocimiento facial y coches autónomos.",
+          de: "Bilderkennung ist eine ML-Anwendung die Bilder analysiert um Objekte, Gesichter, Text oder Szenen zu identifizieren und zu klassifizieren, verwendet in Anwendungen wie Gesichtserkennung und selbstfahrenden Autos.",
+          nl: "Beeldherkenning is een ML applicatie die afbeeldingen analyseert om objecten, gezichten, tekst of scènes te identificeren en classificeren, gebruikt in applicaties zoals gezichtsherkenning en zelfrijdende auto's."
+        }
+      },
+      {
+        question: {
+          en: "What is a label in supervised learning?",
+          es: "¿Qué es una etiqueta en aprendizaje supervisado?",
+          de: "Was ist ein Label im überwachten Lernen?",
+          nl: "Wat is een label in supervised learning?"
+        },
+        options: [
+          { en: "The correct answer associated with training data", es: "La respuesta correcta asociada con datos de entrenamiento", de: "Die korrekte Antwort verbunden mit Trainingsdaten", nl: "Het correcte antwoord geassocieerd met trainingsdata" },
+          { en: "A sticker on computer hardware", es: "Una etiqueta en hardware de computadora", de: "Ein Aufkleber auf Computerhardware", nl: "Een sticker op computerhardware" },
+          { en: "The name of the AI model", es: "El nombre del modelo IA", de: "Der Name des KI-Modells", nl: "De naam van het AI model" },
+          { en: "A tag for organizing files", es: "Una etiqueta para organizar archivos", de: "Ein Tag zum Organisieren von Dateien", nl: "Een tag voor het organiseren van bestanden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In supervised learning, labels are the correct answers or outcomes provided with training examples, like labeling images as 'cat' or 'dog' so the AI can learn to distinguish them.",
+          es: "En aprendizaje supervisado, las etiquetas son las respuestas correctas o resultados proporcionados con ejemplos de entrenamiento, como etiquetar imágenes como 'gato' o 'perro' para que la IA pueda aprender a distinguirlos.",
+          de: "Im überwachten Lernen sind Labels die korrekten Antworten oder Ergebnisse die mit Trainingsbeispielen bereitgestellt werden, wie Bilder als 'Katze' oder 'Hund' zu beschriften damit die KI lernen kann sie zu unterscheiden.",
+          nl: "In supervised learning zijn labels de correcte antwoorden of uitkomsten die bij trainingsvoorbeelden worden gegeven, zoals afbeeldingen labelen als 'kat' of 'hond' zodat de AI kan leren ze te onderscheiden."
+        }
+      },
+      {
+        question: {
+          en: "What is reinforcement learning?",
+          es: "¿Qué es el aprendizaje por refuerzo?",
+          de: "Was ist Verstärkungslernen?",
+          nl: "Wat is reinforcement learning?"
+        },
+        options: [
+          { en: "Learning through trial and error with rewards and penalties", es: "Aprender a través de prueba y error con recompensas y penalizaciones", de: "Lernen durch Versuch und Irrtum mit Belohnungen und Strafen", nl: "Leren door trial and error met beloningen en straffen" },
+          { en: "Reinforcing computer hardware", es: "Reforzar hardware de computadora", de: "Computerhardware verstärken", nl: "Computerhardware versterken" },
+          { en: "Learning only from correct examples", es: "Aprender solo de ejemplos correctos", de: "Nur von korrekten Beispielen lernen", nl: "Alleen leren van correcte voorbeelden" },
+          { en: "Repeating the same training multiple times", es: "Repetir el mismo entrenamiento múltiples veces", de: "Dasselbe Training mehrmals wiederholen", nl: "Dezelfde training meerdere keren herhalen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Reinforcement learning trains AI by letting it take actions and learn from feedback in the form of rewards (for good actions) or penalties (for bad ones), similar to training a pet.",
+          es: "El aprendizaje por refuerzo entrena IA permitiéndole tomar acciones y aprender de retroalimentación en forma de recompensas (por acciones buenas) o penalizaciones (por malas), similar a entrenar una mascota.",
+          de: "Verstärkungslernen trainiert KI indem es Aktionen ausführen lässt und aus Feedback in Form von Belohnungen (für gute Aktionen) oder Strafen (für schlechte) lernt, ähnlich wie ein Haustier zu trainieren.",
+          nl: "Reinforcement learning traint AI door het acties te laten nemen en te leren van feedback in de vorm van beloningen (voor goede acties) of straffen (voor slechte), vergelijkbaar met het trainen van een huisdier."
+        }
+      },
+      {
+        question: {
+          en: "What is classification in machine learning?",
+          es: "¿Qué es la clasificación en aprendizaje automático?",
+          de: "Was ist Klassifizierung im maschinellen Lernen?",
+          nl: "Wat is classificatie in machine learning?"
+        },
+        options: [
+          { en: "Categorizing data into predefined groups or classes", es: "Categorizar datos en grupos o clases predefinidos", de: "Daten in vordefinierte Gruppen oder Klassen kategorisieren", nl: "Data categoriseren in voorgedefinieerde groepen of klassen" },
+          { en: "Organizing files in folders", es: "Organizar archivos en carpetas", de: "Dateien in Ordnern organisieren", nl: "Bestanden organiseren in mappen" },
+          { en: "Ranking items by importance", es: "Clasificar elementos por importancia", de: "Elemente nach Wichtigkeit ordnen", nl: "Items rangschikken op belangrijkheid" },
+          { en: "Giving secret clearance levels", es: "Dar niveles de autorización secreta", de: "Geheime Freigabestufen vergeben", nl: "Geheime machtigingsniveaus geven" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Classification is assigning input data to one of several predefined categories, like classifying emails as 'spam' or 'not spam', or identifying whether an image contains a cat or dog.",
+          es: "La clasificación es asignar datos de entrada a una de varias categorías predefinidas, como clasificar correos como 'spam' o 'no spam', o identificar si una imagen contiene un gato o perro.",
+          de: "Klassifizierung ist die Zuweisung von Eingabedaten zu einer von mehreren vordefinierten Kategorien, wie E-Mails als 'Spam' oder 'kein Spam' zu klassifizieren, oder zu identifizieren ob ein Bild eine Katze oder Hund enthält.",
+          nl: "Classificatie is het toewijzen van invoerdata aan een van meerdere voorgedefinieerde categorieën, zoals emails classificeren als 'spam' of 'geen spam', of identificeren of een afbeelding een kat of hond bevat."
+        }
+      },
+      {
+        question: {
+          en: "What is regression in machine learning?",
+          es: "¿Qué es la regresión en aprendizaje automático?",
+          de: "Was ist Regression im maschinellen Lernen?",
+          nl: "Wat is regressie in machine learning?"
+        },
+        options: [
+          { en: "Predicting continuous numerical values", es: "Predecir valores numéricos continuos", de: "Kontinuierliche numerische Werte vorhersagen", nl: "Continue numerieke waarden voorspellen" },
+          { en: "Going backwards in training", es: "Retroceder en el entrenamiento", de: "Rückwärts im Training gehen", nl: "Achteruit gaan in training" },
+          { en: "Removing errors from data", es: "Eliminar errores de los datos", de: "Fehler aus Daten entfernen", nl: "Fouten uit data verwijderen" },
+          { en: "Testing old algorithms", es: "Probar algoritmos antiguos", de: "Alte Algorithmen testen", nl: "Oude algoritmes testen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Regression predicts continuous numerical values based on input data, like estimating house prices based on size and location, or forecasting tomorrow's temperature.",
+          es: "La regresión predice valores numéricos continuos basados en datos de entrada, como estimar precios de casas basados en tamaño y ubicación, o pronosticar la temperatura de mañana.",
+          de: "Regression sagt kontinuierliche numerische Werte basierend auf Eingabedaten vorher, wie Hauspreise basierend auf Größe und Lage zu schätzen, oder die Temperatur von morgen vorherzusagen.",
+          nl: "Regressie voorspelt continue numerieke waarden gebaseerd op invoerdata, zoals huisprijzen schatten gebaseerd op grootte en locatie, of de temperatuur van morgen voorspellen."
+        }
+      },
+      {
+        question: {
+          en: "What is clustering in machine learning?",
+          es: "¿Qué es el agrupamiento en aprendizaje automático?",
+          de: "Was ist Clustering im maschinellen Lernen?",
+          nl: "Wat is clustering in machine learning?"
+        },
+        options: [
+          { en: "Grouping similar data points together without predefined labels", es: "Agrupar puntos de datos similares sin etiquetas predefinidas", de: "Ähnliche Datenpunkte ohne vordefinierte Labels gruppieren", nl: "Vergelijkbare datapunten groeperen zonder voorgedefinieerde labels" },
+          { en: "Connecting multiple computers together", es: "Conectar múltiples computadoras juntas", de: "Mehrere Computer zusammenverbinden", nl: "Meerdere computers met elkaar verbinden" },
+          { en: "Organizing files by date created", es: "Organizar archivos por fecha de creación", de: "Dateien nach Erstellungsdatum organisieren", nl: "Bestanden organiseren op aanmaakdatum" },
+          { en: "Removing duplicate data", es: "Eliminar datos duplicados", de: "Doppelte Daten entfernen", nl: "Dubbele data verwijderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Clustering is an unsupervised learning technique that groups similar data points together based on their characteristics, like grouping customers with similar shopping habits for targeted marketing.",
+          es: "El agrupamiento es una técnica de aprendizaje no supervisado que agrupa puntos de datos similares basados en sus características, como agrupar clientes con hábitos de compra similares para marketing dirigido.",
+          de: "Clustering ist eine unüberwachte Lerntechnik die ähnliche Datenpunkte basierend auf ihren Merkmalen gruppiert, wie Kunden mit ähnlichen Einkaufsgewohnheiten für gezieltes Marketing zu gruppieren.",
+          nl: "Clustering is een unsupervised learning techniek die vergelijkbare datapunten groepeert gebaseerd op hun kenmerken, zoals klanten groeperen met vergelijkbare koopgewoonten voor gerichte marketing."
+        }
+      },
+      {
+        question: {
+          en: "Which of these is an example of AI in daily life?",
+          es: "¿Cuál de estos es un ejemplo de IA en la vida diaria?",
+          de: "Welches ist ein Beispiel für KI im Alltag?",
+          nl: "Welke hiervan is een voorbeeld van AI in het dagelijks leven?"
+        },
+        options: [
+          { en: "Netflix recommending movies based on viewing history", es: "Netflix recomendando películas basado en historial de visualización", de: "Netflix empfiehlt Filme basierend auf Sehgewohnheiten", nl: "Netflix die films aanbeveelt gebaseerd op kijkgeschiedenis" },
+          { en: "Using a microwave to heat food", es: "Usar un microondas para calentar comida", de: "Eine Mikrowelle zum Erhitzen von Essen verwenden", nl: "Een magnetron gebruiken om eten op te warmen" },
+          { en: "Writing with a pen and paper", es: "Escribir con pluma y papel", de: "Mit Stift und Papier schreiben", nl: "Schrijven met pen en papier" },
+          { en: "Making a phone call", es: "Hacer una llamada telefónica", de: "Einen Telefonanruf tätigen", nl: "Een telefoontje plegen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Netflix uses machine learning algorithms to analyze your viewing patterns and preferences to suggest shows and movies you might enjoy, making it a practical daily AI application.",
+          es: "Netflix usa algoritmos de aprendizaje automático para analizar tus patrones de visualización y preferencias para sugerir programas y películas que podrías disfrutar, haciéndolo una aplicación práctica diaria de IA.",
+          de: "Netflix verwendet maschinelle Lernalgorithmen um deine Sehgewohnheiten und Vorlieben zu analysieren um Shows und Filme vorzuschlagen die dir gefallen könnten, macht es zu einer praktischen täglichen KI-Anwendung.",
+          nl: "Netflix gebruikt machine learning algoritmes om je kijkpatronen en voorkeuren te analyseren om shows en films voor te stellen die je misschien leuk vindt, maakt het een praktische dagelijkse AI applicatie."
+        }
+      },
+      {
+        question: {
+          en: "What does 'accuracy' mean in machine learning?",
+          es: "¿Qué significa 'precisión' en aprendizaje automático?",
+          de: "Was bedeutet 'Genauigkeit' im maschinellen Lernen?",
+          nl: "Wat betekent 'nauwkeurigheid' in machine learning?"
+        },
+        options: [
+          { en: "The percentage of correct predictions made by a model", es: "El porcentaje de predicciones correctas hechas por un modelo", de: "Der Prozentsatz korrekter Vorhersagen eines Modells", nl: "Het percentage correcte voorspellingen gemaakt door een model" },
+          { en: "How fast the model runs", es: "Qué tan rápido funciona el modelo", de: "Wie schnell das Modell läuft", nl: "Hoe snel het model draait" },
+          { en: "The size of the training data", es: "El tamaño de los datos de entrenamiento", de: "Die Größe der Trainingsdaten", nl: "De grootte van de trainingsdata" },
+          { en: "The complexity of the algorithm", es: "La complejidad del algoritmo", de: "Die Komplexität des Algorithmus", nl: "De complexiteit van het algoritme" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Accuracy measures how often the ML model makes correct predictions, calculated as the number of correct predictions divided by total predictions, typically expressed as a percentage.",
+          es: "La precisión mide con qué frecuencia el modelo ML hace predicciones correctas, calculada como el número de predicciones correctas dividido por predicciones totales, típicamente expresado como porcentaje.",
+          de: "Genauigkeit misst wie oft das ML-Modell korrekte Vorhersagen macht, berechnet als Anzahl korrekter Vorhersagen geteilt durch Gesamtvorhersagen, typischerweise als Prozentsatz ausgedrückt.",
+          nl: "Nauwkeurigheid meet hoe vaak het ML model correcte voorspellingen maakt, berekend als het aantal correcte voorspellingen gedeeld door totale voorspellingen, typisch uitgedrukt als percentage."
+        }
+      },
+      {
+        question: {
+          en: "What is natural language processing (NLP)?",
+          es: "¿Qué es el procesamiento del lenguaje natural (PLN)?",
+          de: "Was ist natürliche Sprachverarbeitung (NLP)?",
+          nl: "Wat is natuurlijke taalverwerking (NLP)?"
+        },
+        options: [
+          { en: "AI technology that helps computers understand human language", es: "Tecnología IA que ayuda a las computadoras a entender lenguaje humano", de: "KI-Technologie die Computern hilft menschliche Sprache zu verstehen", nl: "AI technologie die computers helpt menselijke taal te begrijpen" },
+          { en: "Processing images naturally", es: "Procesar imágenes naturalmente", de: "Bilder natürlich verarbeiten", nl: "Afbeeldingen natuurlijk verwerken" },
+          { en: "Learning programming languages", es: "Aprender lenguajes de programación", de: "Programmiersprachen lernen", nl: "Programmeertalen leren" },
+          { en: "Processing data faster", es: "Procesar datos más rápido", de: "Daten schneller verarbeiten", nl: "Data sneller verwerken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "NLP enables computers to understand, interpret, and respond to human language in text or speech, powering applications like translation, chatbots, and voice assistants.",
+          es: "PLN permite a las computadoras entender, interpretar y responder al lenguaje humano en texto o habla, impulsando aplicaciones como traducción, chatbots y asistentes de voz.",
+          de: "NLP ermöglicht Computern menschliche Sprache in Text oder Sprache zu verstehen, interpretieren und darauf zu reagieren, treibt Anwendungen wie Übersetzung, Chatbots und Sprachassistenten an.",
+          nl: "NLP stelt computers in staat om menselijke taal in tekst of spraak te begrijpen, interpreteren en erop te reageren, drijft applicaties aan zoals vertaling, chatbots en spraakassistenten."
+        }
+      },
+      {
+        question: {
+          en: "What is a validation set used for?",
+          es: "¿Para qué se usa un conjunto de validación?",
+          de: "Wofür wird ein Validierungssatz verwendet?",
+          nl: "Waarvoor wordt een validatieset gebruikt?"
+        },
+        options: [
+          { en: "To tune model parameters during training", es: "Para ajustar parámetros del modelo durante el entrenamiento", de: "Zum Anpassen von Modellparametern während des Trainings", nl: "Om modelparameters aan te passen tijdens training" },
+          { en: "To validate user passwords", es: "Para validar contraseñas de usuario", de: "Zum Validieren von Benutzerpasswörtern", nl: "Om gebruikerswachtwoorden te valideren" },
+          { en: "To check if data is corrupted", es: "Para verificar si los datos están corruptos", de: "Zum Prüfen ob Daten beschädigt sind", nl: "Om te controleren of data beschadigd is" },
+          { en: "To approve the final model", es: "Para aprobar el modelo final", de: "Zum Genehmigen des finalen Modells", nl: "Om het finale model goed te keuren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The validation set is used during model development to tune hyperparameters and prevent overfitting, helping select the best model before final testing on the test set.",
+          es: "El conjunto de validación se usa durante el desarrollo del modelo para ajustar hiperparámetros y prevenir sobreajuste, ayudando a seleccionar el mejor modelo antes de la prueba final en el conjunto de prueba.",
+          de: "Der Validierungssatz wird während der Modellentwicklung verwendet um Hyperparameter anzupassen und Überanpassung zu verhindern, hilft das beste Modell vor dem finalen Testen auf dem Testsatz auszuwählen.",
+          nl: "De validatieset wordt gebruikt tijdens modelontwikkeling om hyperparameters af te stellen en overfitting te voorkomen, helpt het beste model te selecteren voor finale testen op de testset."
+        }
+      },
+      {
+        question: {
+          en: "What is computer vision?",
+          es: "¿Qué es la visión por computadora?",
+          de: "Was ist Computer Vision?",
+          nl: "Wat is computer vision?"
+        },
+        options: [
+          { en: "AI field enabling computers to interpret visual information", es: "Campo IA que permite a las computadoras interpretar información visual", de: "KI-Feld das Computern ermöglicht visuelle Informationen zu interpretieren", nl: "AI gebied dat computers in staat stelt visuele informatie te interpreteren" },
+          { en: "Monitors and display screens", es: "Monitores y pantallas de visualización", de: "Monitore und Bildschirme", nl: "Monitors en beeldschermen" },
+          { en: "Software for video editing", es: "Software para edición de video", de: "Software für Videobearbeitung", nl: "Software voor videobewerking" },
+          { en: "Virtual reality headsets", es: "Cascos de realidad virtual", de: "Virtual-Reality-Headsets", nl: "Virtual reality headsets" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Computer vision teaches machines to 'see' and understand images and videos, enabling applications like facial recognition, autonomous vehicles, and medical image analysis.",
+          es: "La visión por computadora enseña a las máquinas a 'ver' y entender imágenes y videos, habilitando aplicaciones como reconocimiento facial, vehículos autónomos y análisis de imágenes médicas.",
+          de: "Computer Vision lehrt Maschinen zu 'sehen' und Bilder und Videos zu verstehen, ermöglicht Anwendungen wie Gesichtserkennung, autonome Fahrzeuge und medizinische Bildanalyse.",
+          nl: "Computer vision leert machines te 'zien' en afbeeldingen en video's te begrijpen, maakt applicaties mogelijk zoals gezichtsherkenning, autonome voertuigen en medische beeldanalyse."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of data preprocessing?",
+          es: "¿Cuál es el propósito del preprocesamiento de datos?",
+          de: "Was ist der Zweck der Datenvorverarbeitung?",
+          nl: "Wat is het doel van data preprocessing?"
+        },
+        options: [
+          { en: "Cleaning and preparing data for better model performance", es: "Limpiar y preparar datos para mejor rendimiento del modelo", de: "Daten reinigen und vorbereiten für bessere Modellleistung", nl: "Data schoonmaken en voorbereiden voor betere modelprestaties" },
+          { en: "Processing data before it's collected", es: "Procesar datos antes de que sean recolectados", de: "Daten verarbeiten bevor sie gesammelt werden", nl: "Data verwerken voordat het verzameld wordt" },
+          { en: "Compressing data to save space", es: "Comprimir datos para ahorrar espacio", de: "Daten komprimieren um Platz zu sparen", nl: "Data comprimeren om ruimte te besparen" },
+          { en: "Backing up data before use", es: "Respaldar datos antes de usar", de: "Daten vor Verwendung sichern", nl: "Data back-uppen voor gebruik" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Data preprocessing transforms raw data into a clean, consistent format by handling missing values, removing outliers, and normalizing features, improving model training quality and accuracy.",
+          es: "El preprocesamiento de datos transforma datos brutos en un formato limpio y consistente manejando valores faltantes, eliminando valores atípicos y normalizando características, mejorando calidad y precisión del entrenamiento del modelo.",
+          de: "Datenvorverarbeitung transformiert Rohdaten in ein sauberes, konsistentes Format durch Behandlung fehlender Werte, Entfernung von Ausreißern und Normalisierung von Features, verbessert Modelltrainingsqualität und Genauigkeit.",
+          nl: "Data preprocessing transformeert ruwe data naar een schoon, consistent formaat door ontbrekende waarden te behandelen, uitschieters te verwijderen en features te normaliseren, verbetert modeltrainingskwaliteit en nauwkeurigheid."
+        }
+      },
+      {
+        question: {
+          en: "What is a model in machine learning?",
+          es: "¿Qué es un modelo en aprendizaje automático?",
+          de: "Was ist ein Modell im maschinellen Lernen?",
+          nl: "Wat is een model in machine learning?"
+        },
+        options: [
+          { en: "A mathematical representation trained to make predictions", es: "Una representación matemática entrenada para hacer predicciones", de: "Eine mathematische Darstellung trainiert um Vorhersagen zu machen", nl: "Een wiskundige representatie getraind om voorspellingen te maken" },
+          { en: "A physical replica of something", es: "Una réplica física de algo", de: "Eine physische Nachbildung von etwas", nl: "Een fysieke replica van iets" },
+          { en: "A perfect example to follow", es: "Un ejemplo perfecto a seguir", de: "Ein perfektes Beispiel zum Folgen", nl: "Een perfect voorbeeld om te volgen" },
+          { en: "A template for coding", es: "Una plantilla para codificar", de: "Eine Vorlage zum Codieren", nl: "Een sjabloon voor coderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "An ML model is the mathematical structure created through training that captures patterns in data and can make predictions on new inputs, like a trained spam detector or image classifier.",
+          es: "Un modelo ML es la estructura matemática creada a través del entrenamiento que captura patrones en datos y puede hacer predicciones en nuevas entradas, como un detector de spam entrenado o clasificador de imágenes.",
+          de: "Ein ML-Modell ist die mathematische Struktur die durch Training erstellt wird die Muster in Daten erfasst und Vorhersagen für neue Eingaben machen kann, wie ein trainierter Spam-Detektor oder Bildklassifikator.",
+          nl: "Een ML model is de wiskundige structuur gecreëerd door training die patronen in data vastlegt en voorspellingen kan maken op nieuwe inputs, zoals een getrainde spamdetector of beeldclassificator."
+        }
+      },
+      {
+        question: {
+          en: "What does 'training' mean in machine learning?",
+          es: "¿Qué significa 'entrenamiento' en aprendizaje automático?",
+          de: "Was bedeutet 'Training' im maschinellen Lernen?",
+          nl: "Wat betekent 'training' in machine learning?"
+        },
+        options: [
+          { en: "The process of teaching a model by feeding it data", es: "El proceso de enseñar a un modelo alimentándolo con datos", de: "Der Prozess ein Modell durch Füttern mit Daten zu lehren", nl: "Het proces van een model leren door het data te voeden" },
+          { en: "Physical exercise for programmers", es: "Ejercicio físico para programadores", de: "Körperliches Training für Programmierer", nl: "Fysieke training voor programmeurs" },
+          { en: "Teaching users how to use AI", es: "Enseñar a usuarios cómo usar IA", de: "Benutzern beibringen wie man KI verwendet", nl: "Gebruikers leren hoe AI te gebruiken" },
+          { en: "Installing software updates", es: "Instalar actualizaciones de software", de: "Software-Updates installieren", nl: "Software-updates installeren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Training is the process where an ML algorithm learns from data by adjusting its internal parameters to minimize errors and improve its ability to make accurate predictions.",
+          es: "El entrenamiento es el proceso donde un algoritmo ML aprende de datos ajustando sus parámetros internos para minimizar errores y mejorar su capacidad para hacer predicciones precisas.",
+          de: "Training ist der Prozess bei dem ein ML-Algorithmus aus Daten lernt indem er seine internen Parameter anpasst um Fehler zu minimieren und seine Fähigkeit genaue Vorhersagen zu machen zu verbessern.",
+          nl: "Training is het proces waarbij een ML algoritme leert van data door zijn interne parameters aan te passen om fouten te minimaliseren en zijn vermogen om nauwkeurige voorspellingen te maken te verbeteren."
+        }
+      },
+      {
+        question: {
+          en: "What is Google Assistant?",
+          es: "¿Qué es Google Assistant?",
+          de: "Was ist Google Assistant?",
+          nl: "Wat is Google Assistant?"
+        },
+        options: [
+          { en: "An AI-powered virtual assistant by Google", es: "Un asistente virtual impulsado por IA de Google", de: "Ein KI-gestützter virtueller Assistent von Google", nl: "Een AI-aangedreven virtuele assistent van Google" },
+          { en: "A search engine", es: "Un motor de búsqueda", de: "Eine Suchmaschine", nl: "Een zoekmachine" },
+          { en: "A human employee at Google", es: "Un empleado humano en Google", de: "Ein menschlicher Mitarbeiter bei Google", nl: "Een menselijke medewerker bij Google" },
+          { en: "A web browser", es: "Un navegador web", de: "Ein Webbrowser", nl: "Een webbrowser" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Google Assistant is a voice-activated AI assistant developed by Google that can answer questions, control smart devices, set reminders, and perform various tasks through natural language interaction.",
+          es: "Google Assistant es un asistente IA activado por voz desarrollado por Google que puede responder preguntas, controlar dispositivos inteligentes, establecer recordatorios y realizar varias tareas a través de interacción en lenguaje natural.",
+          de: "Google Assistant ist ein sprachaktivierter KI-Assistent entwickelt von Google der Fragen beantworten, Smart Devices steuern, Erinnerungen setzen und verschiedene Aufgaben durch natürliche Sprachinteraktion ausführen kann.",
+          nl: "Google Assistant is een spraakgestuurde AI assistent ontwikkeld door Google die vragen kan beantwoorden, slimme apparaten kan besturen, herinneringen kan instellen en verschillende taken kan uitvoeren door natuurlijke taalinteractie."
+        }
+      },
+      {
+        question: {
+          en: "What is an example of bias in AI?",
+          es: "¿Qué es un ejemplo de sesgo en IA?",
+          de: "Was ist ein Beispiel für Voreingenommenheit in KI?",
+          nl: "Wat is een voorbeeld van bias in AI?"
+        },
+        options: [
+          { en: "A facial recognition system working better for some groups than others", es: "Un sistema de reconocimiento facial que funciona mejor para algunos grupos que otros", de: "Ein Gesichtserkennungssystem das für manche Gruppen besser funktioniert als für andere", nl: "Een gezichtsherkennungssysteem dat beter werkt voor sommige groepen dan anderen" },
+          { en: "A computer preferring one color over another", es: "Una computadora prefiriendo un color sobre otro", de: "Ein Computer der eine Farbe einer anderen vorzieht", nl: "Een computer die een kleur verkiest boven een andere" },
+          { en: "AI running faster on newer hardware", es: "IA funcionando más rápido en hardware más nuevo", de: "KI läuft schneller auf neuerer Hardware", nl: "AI draait sneller op nieuwere hardware" },
+          { en: "Different programming languages for AI", es: "Diferentes lenguajes de programación para IA", de: "Verschiedene Programmiersprachen für KI", nl: "Verschillende programmeertalen voor AI" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI bias occurs when a model performs differently for different groups, often because the training data doesn't equally represent all groups or contains historical biases.",
+          es: "El sesgo de IA ocurre cuando un modelo funciona de manera diferente para diferentes grupos, a menudo porque los datos de entrenamiento no representan igualmente a todos los grupos o contienen sesgos históricos.",
+          de: "KI-Voreingenommenheit tritt auf wenn ein Modell für verschiedene Gruppen unterschiedlich funktioniert, oft weil die Trainingsdaten nicht alle Gruppen gleich repräsentieren oder historische Vorurteile enthalten.",
+          nl: "AI bias treedt op wanneer een model anders presteert voor verschillende groepen, vaak omdat de trainingsdata niet alle groepen gelijk vertegenwoordigt of historische vooroordelen bevat."
+        }
+      },
       }
-    ]
   };
 
   // Export for use in the quiz application

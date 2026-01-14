@@ -427,6 +427,426 @@
           de: "Trotz seiner Komplexität blieb der Bau des Burj Khalifa bemerkenswert im Zeitplan und wurde wie geplant in etwa 6 Jahren fertiggestellt.",
           nl: "Ondanks de complexiteit bleef de bouw van de Burj Khalifa opmerkelijk op schema en werd het in ongeveer 6 jaar voltooid zoals gepland."
         }
+      },
+      {
+        question: {
+          en: "What milestone did the Burj Khalifa achieve on September 1, 2008?",
+          es: "¿Qué hito alcanzó el Burj Khalifa el 1 de septiembre de 2008?",
+          de: "Welchen Meilenstein erreichte der Burj Khalifa am 1. September 2008?",
+          nl: "Welke mijlpaal bereikte de Burj Khalifa op 1 september 2008?"
+        },
+        options: [
+          { en: "First residential occupancy", es: "Primera ocupación residencial", de: "Erste Wohnbelegung", nl: "Eerste residentiële bewoning" },
+          { en: "Became world's tallest building", es: "Se convirtió en el edificio más alto del mundo", de: "Wurde das höchste Gebäude der Welt", nl: "Werd 's werelds hoogste gebouw" },
+          { en: "Foundation completed", es: "Cimentación completada", de: "Fundament fertiggestellt", nl: "Fundering voltooid" },
+          { en: "First floor completed", es: "Primer piso completado", de: "Erstes Stockwerk fertiggestellt", nl: "Eerste verdieping voltooid" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "On September 1, 2008, the Burj Khalifa surpassed Taipei 101 to become the world's tallest building at that stage of construction.",
+          es: "El 1 de septiembre de 2008, el Burj Khalifa superó al Taipei 101 para convertirse en el edificio más alto del mundo en esa etapa de construcción.",
+          de: "Am 1. September 2008 überholte der Burj Khalifa Taipei 101 und wurde in dieser Bauphase das höchste Gebäude der Welt.",
+          nl: "Op 1 september 2008 overtrof de Burj Khalifa Taipei 101 om 's werelds hoogste gebouw te worden in die fase van de bouw."
+        }
+      },
+      {
+        question: {
+          en: "Who inaugurated the Burj Khalifa at its official opening?",
+          es: "¿Quién inauguró el Burj Khalifa en su apertura oficial?",
+          de: "Wer eröffnete den Burj Khalifa bei seiner offiziellen Eröffnung?",
+          nl: "Wie opende de Burj Khalifa bij de officiële opening?"
+        },
+        options: [
+          { en: "Sheikh Mohammed bin Rashid Al Maktoum", es: "Sheikh Mohammed bin Rashid Al Maktoum", de: "Sheikh Mohammed bin Rashid Al Maktoum", nl: "Sheikh Mohammed bin Rashid Al Maktoum" },
+          { en: "Sheikh Khalifa bin Zayed Al Nahyan", es: "Sheikh Khalifa bin Zayed Al Nahyan", de: "Sheikh Khalifa bin Zayed Al Nahyan", nl: "Sheikh Khalifa bin Zayed Al Nahyan" },
+          { en: "Adrian Smith", es: "Adrian Smith", de: "Adrian Smith", nl: "Adrian Smith" },
+          { en: "Mohammed Alabbar", es: "Mohammed Alabbar", de: "Mohammed Alabbar", nl: "Mohammed Alabbar" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sheikh Mohammed bin Rashid Al Maktoum, the ruler of Dubai, inaugurated the Burj Khalifa on January 4, 2010.",
+          es: "Sheikh Mohammed bin Rashid Al Maktoum, el gobernante de Dubái, inauguró el Burj Khalifa el 4 de enero de 2010.",
+          de: "Sheikh Mohammed bin Rashid Al Maktoum, der Herrscher von Dubai, eröffnete den Burj Khalifa am 4. Januar 2010.",
+          nl: "Sheikh Mohammed bin Rashid Al Maktoum, de heerser van Dubai, opende de Burj Khalifa op 4 januari 2010."
+        }
+      },
+      {
+        question: {
+          en: "What was the primary challenge in transporting materials to great heights?",
+          es: "¿Cuál fue el desafío principal al transportar materiales a grandes alturas?",
+          de: "Was war die Hauptherausforderung beim Transport von Materialien in große Höhen?",
+          nl: "Wat was de belangrijkste uitdaging bij het transporteren van materialen naar grote hoogten?"
+        },
+        options: [
+          { en: "Wind conditions", es: "Condiciones de viento", de: "Windbedingungen", nl: "Windomstandigheden" },
+          { en: "Weight limitations", es: "Limitaciones de peso", de: "Gewichtsbeschränkungen", nl: "Gewichtsbeperkingen" },
+          { en: "Concrete setting time in extreme heat", es: "Tiempo de fraguado del concreto en calor extremo", de: "Betonabbindezeit bei extremer Hitze", nl: "Beton uithardingstijd in extreme hitte" },
+          { en: "Crane capacity", es: "Capacidad de la grúa", de: "Krankapazität", nl: "Kraancapaciteit" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "One of the main challenges was preventing concrete from setting too quickly in Dubai's extreme heat before it reached upper floors, requiring special cooling techniques.",
+          es: "Uno de los principales desafíos fue evitar que el concreto fraguara demasiado rápido en el calor extremo de Dubái antes de llegar a los pisos superiores, requiriendo técnicas especiales de enfriamiento.",
+          de: "Eine der Hauptherausforderungen bestand darin, zu verhindern, dass Beton in der extremen Hitze Dubais zu schnell abbindet, bevor er die oberen Stockwerke erreicht, was spezielle Kühltechniken erforderte.",
+          nl: "Een van de grootste uitdagingen was om te voorkomen dat beton te snel uithardde in de extreme hitte van Dubai voordat het de bovenste verdiepingen bereikte, wat speciale koeltechnieken vereiste."
+        }
+      },
+      {
+        question: {
+          en: "How did the design team test wind resistance before construction?",
+          es: "¿Cómo probó el equipo de diseño la resistencia al viento antes de la construcción?",
+          de: "Wie testete das Designteam den Windwiderstand vor dem Bau?",
+          nl: "Hoe testte het ontwerpteam de windweerstand voor de bouw?"
+        },
+        options: [
+          { en: "Computer simulations only", es: "Solo simulaciones por computadora", de: "Nur Computersimulationen", nl: "Alleen computersimulaties" },
+          { en: "Scale models in wind tunnels", es: "Modelos a escala en túneles de viento", de: "Maßstabsmodelle in Windkanälen", nl: "Schaalmodellen in windtunnels" },
+          { en: "Mathematical calculations only", es: "Solo cálculos matemáticos", de: "Nur mathematische Berechnungen", nl: "Alleen wiskundige berekeningen" },
+          { en: "No testing was conducted", es: "No se realizaron pruebas", de: "Es wurden keine Tests durchgeführt", nl: "Er werden geen tests uitgevoerd" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Extensive wind tunnel testing was conducted using scale models at RWDI in Canada to optimize the building's aerodynamic performance and shape.",
+          es: "Se realizaron extensas pruebas de túnel de viento utilizando modelos a escala en RWDI en Canadá para optimizar el rendimiento aerodinámico y la forma del edificio.",
+          de: "Umfangreiche Windkanaltests wurden mit Maßstabsmodellen bei RWDI in Kanada durchgeführt, um die aerodynamische Leistung und Form des Gebäudes zu optimieren.",
+          nl: "Uitgebreide windtunneltests werden uitgevoerd met schaalmodellen bij RWDI in Canada om de aerodynamische prestaties en vorm van het gebouw te optimaliseren."
+        }
+      },
+      {
+        question: {
+          en: "When did residential occupancy begin in the Burj Khalifa?",
+          es: "¿Cuándo comenzó la ocupación residencial en el Burj Khalifa?",
+          de: "Wann begann die Wohnbelegung im Burj Khalifa?",
+          nl: "Wanneer begon de residentiële bewoning in de Burj Khalifa?"
+        },
+        options: [
+          { en: "January 2010", es: "Enero de 2010", de: "Januar 2010", nl: "Januari 2010" },
+          { en: "March 2010", es: "Marzo de 2010", de: "März 2010", nl: "Maart 2010" },
+          { en: "June 2010", es: "Junio de 2010", de: "Juni 2010", nl: "Juni 2010" },
+          { en: "September 2010", es: "Septiembre de 2010", de: "September 2010", nl: "September 2010" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Residential occupancy of the Burj Khalifa apartments began in March 2010, a few months after the official opening ceremony.",
+          es: "La ocupación residencial de los apartamentos del Burj Khalifa comenzó en marzo de 2010, unos meses después de la ceremonia de apertura oficial.",
+          de: "Die Wohnbelegung der Burj Khalifa Apartments begann im März 2010, einige Monate nach der offiziellen Eröffnungszeremonie.",
+          nl: "De residentiële bewoning van de appartementen in de Burj Khalifa begon in maart 2010, een paar maanden na de officiële openingsceremonie."
+        }
+      },
+      {
+        question: {
+          en: "What previous record did the CN Tower hold that Burj Khalifa surpassed?",
+          es: "¿Qué récord anterior tenía la Torre CN que el Burj Khalifa superó?",
+          de: "Welchen früheren Rekord hielt der CN Tower, den der Burj Khalifa übertraf?",
+          nl: "Welk eerder record had de CN Tower dat de Burj Khalifa overtrof?"
+        },
+        options: [
+          { en: "Tallest building", es: "Edificio más alto", de: "Höchstes Gebäude", nl: "Hoogste gebouw" },
+          { en: "Tallest free-standing structure for 34 years", es: "Estructura independiente más alta durante 34 años", de: "Höchste freistehende Struktur für 34 Jahre", nl: "Hoogste vrijstaande structuur gedurende 34 jaar" },
+          { en: "Most elevators", es: "Más ascensores", de: "Meiste Aufzüge", nl: "Meeste liften" },
+          { en: "Largest observation deck", es: "Mirador más grande", de: "Größte Aussichtsplattform", nl: "Grootste observatiedek" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The CN Tower held the record as the world's tallest free-standing structure for 34 years (1975-2009) until the Burj Khalifa surpassed it.",
+          es: "La Torre CN mantuvo el récord como la estructura independiente más alta del mundo durante 34 años (1975-2009) hasta que el Burj Khalifa la superó.",
+          de: "Der CN Tower hielt 34 Jahre lang (1975-2009) den Rekord als höchste freistehende Struktur der Welt, bis der Burj Khalifa ihn übertraf.",
+          nl: "De CN Tower had 34 jaar lang (1975-2009) het record als hoogste vrijstaande structuur ter wereld totdat de Burj Khalifa dit overtrof."
+        }
+      },
+      {
+        question: {
+          en: "What recognition did the Burj Khalifa receive from the Council on Tall Buildings?",
+          es: "¿Qué reconocimiento recibió el Burj Khalifa del Consejo de Edificios Altos?",
+          de: "Welche Anerkennung erhielt der Burj Khalifa vom Rat für Hochhäuser?",
+          nl: "Welke erkenning ontving de Burj Khalifa van de Raad voor Hoge Gebouwen?"
+        },
+        options: [
+          { en: "Best Design Award", es: "Premio al Mejor Diseño", de: "Bester Design-Preis", nl: "Beste Ontwerpprijs" },
+          { en: "Multiple height category records", es: "Múltiples récords de categoría de altura", de: "Mehrere Höhenkategorie-Rekorde", nl: "Meerdere hoogtecategorie records" },
+          { en: "Greenest Building Award", es: "Premio al Edificio Más Verde", de: "Grünstes Gebäude-Preis", nl: "Groenste Gebouw Prijs" },
+          { en: "Fastest Construction Award", es: "Premio a la Construcción Más Rápida", de: "Schnellster Bau-Preis", nl: "Snelste Bouw Prijs" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Council on Tall Buildings and Urban Habitat recognized the Burj Khalifa with multiple records including tallest building, tallest structure, and highest occupied floor.",
+          es: "El Consejo de Edificios Altos y Hábitat Urbano reconoció al Burj Khalifa con múltiples récords incluyendo edificio más alto, estructura más alta y piso ocupado más alto.",
+          de: "Der Rat für Hochhäuser und städtischen Lebensraum erkannte den Burj Khalifa mit mehreren Rekorden an, darunter höchstes Gebäude, höchste Struktur und höchstes bewohntes Geschoss.",
+          nl: "De Raad voor Hoge Gebouwen en Stedelijke Habitat erkende de Burj Khalifa met meerdere records waaronder hoogste gebouw, hoogste structuur en hoogste bewoonde verdieping."
+        }
+      },
+      {
+        question: {
+          en: "Which construction technique innovation was critical to the project's success?",
+          es: "¿Qué innovación en técnica de construcción fue crítica para el éxito del proyecto?",
+          de: "Welche Bautechnik-Innovation war entscheidend für den Projekterfolg?",
+          nl: "Welke innovatie in bouwtechniek was cruciaal voor het succes van het project?"
+        },
+        options: [
+          { en: "3D printing", es: "Impresión 3D", de: "3D-Druck", nl: "3D-printen" },
+          { en: "High-pressure concrete pumping to extreme heights", es: "Bombeo de concreto de alta presión a alturas extremas", de: "Hochdruck-Betonpumpen in extreme Höhen", nl: "Hogedruk betonpompen naar extreme hoogten" },
+          { en: "Prefabricated modules", es: "Módulos prefabricados", de: "Vorgefertigte Module", nl: "Geprefabriceerde modules" },
+          { en: "Robotic construction", es: "Construcción robótica", de: "Roboterkonstruktion", nl: "Robotische bouw" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The development of specialized high-pressure concrete pumping systems capable of delivering concrete to heights over 600 meters was a groundbreaking achievement.",
+          es: "El desarrollo de sistemas especializados de bombeo de concreto de alta presión capaces de entregar concreto a alturas superiores a 600 metros fue un logro revolucionario.",
+          de: "Die Entwicklung spezialisierter Hochdruck-Betonpumpsysteme, die Beton in Höhen von über 600 Metern liefern konnten, war eine bahnbrechende Leistung.",
+          nl: "De ontwikkeling van gespecialiseerde hogedruk betonpompsystemen die beton konden leveren op hoogten van meer dan 600 meter was een baanbrekende prestatie."
+        }
+      },
+      {
+        question: {
+          en: "How many days did it take to pour the foundation mat?",
+          es: "¿Cuántos días tomó verter la losa de cimentación?",
+          de: "Wie viele Tage dauerte es, die Fundamentplatte zu gießen?",
+          nl: "Hoeveel dagen duurde het om de funderingsmat te gieten?"
+        },
+        options: [
+          { en: "1 day continuous pour", es: "1 día de vertido continuo", de: "1 Tag kontinuierliches Gießen", nl: "1 dag continu gieten" },
+          { en: "3 days", es: "3 días", de: "3 Tage", nl: "3 dagen" },
+          { en: "7 days", es: "7 días", de: "7 Tage", nl: "7 dagen" },
+          { en: "14 days", es: "14 días", de: "14 Tage", nl: "14 dagen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The foundation was poured in a single continuous pour lasting approximately 20 hours, using 12,500 cubic meters of concrete to ensure structural integrity.",
+          es: "La cimentación se vertió en un solo vertido continuo que duró aproximadamente 20 horas, utilizando 12,500 metros cúbicos de concreto para asegurar la integridad estructural.",
+          de: "Das Fundament wurde in einem einzigen kontinuierlichen Guss von etwa 20 Stunden gegossen, wobei 12.500 Kubikmeter Beton verwendet wurden, um die strukturelle Integrität zu gewährleisten.",
+          nl: "De fundering werd gegoten in één continue giet die ongeveer 20 uur duurde, met 12.500 kubieke meter beton om structurele integriteit te waarborgen."
+        }
+      },
+      {
+        question: {
+          en: "What was unique about the construction schedule in Dubai's climate?",
+          es: "¿Qué fue único sobre el cronograma de construcción en el clima de Dubái?",
+          de: "Was war einzigartig am Bauzeitplan in Dubais Klima?",
+          nl: "Wat was uniek aan het bouwschema in het klimaat van Dubai?"
+        },
+        options: [
+          { en: "Work only in winter months", es: "Trabajo solo en meses de invierno", de: "Arbeit nur in Wintermonaten", nl: "Werk alleen in wintermaanden" },
+          { en: "24-hour construction with night pours for concrete", es: "Construcción 24 horas con vertidos nocturnos de concreto", de: "24-Stunden-Bau mit nächtlichen Betongüssen", nl: "24-uurs bouw met nachtelijke betongieten" },
+          { en: "Construction paused in summer", es: "Construcción pausada en verano", de: "Bau im Sommer pausiert", nl: "Bouw gepauzeerd in de zomer" },
+          { en: "Only morning work allowed", es: "Solo trabajo matutino permitido", de: "Nur Morgenarbeit erlaubt", nl: "Alleen ochtendwerk toegestaan" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Due to extreme daytime heat, critical concrete pours were scheduled at night when temperatures were cooler, and construction continued 24 hours a day.",
+          es: "Debido al calor diurno extremo, los vertidos críticos de concreto se programaron por la noche cuando las temperaturas eran más frescas, y la construcción continuó las 24 horas del día.",
+          de: "Aufgrund extremer Tageshitze wurden kritische Betongüsse für die Nacht geplant, wenn die Temperaturen kühler waren, und der Bau wurde 24 Stunden am Tag fortgesetzt.",
+          nl: "Vanwege extreme daghitte werden kritieke betongieten 's nachts gepland wanneer de temperaturen koeler waren, en de bouw ging 24 uur per dag door."
+        }
+      },
+      {
+        question: {
+          en: "What was the nationality of the majority of construction workers?",
+          es: "¿Cuál fue la nacionalidad de la mayoría de los trabajadores de construcción?",
+          de: "Was war die Nationalität der Mehrheit der Bauarbeiter?",
+          nl: "Wat was de nationaliteit van de meerderheid van de bouwvakkers?"
+        },
+        options: [
+          { en: "Emirati", es: "Emiratí", de: "Emiratisch", nl: "Emirati" },
+          { en: "South Asian (India, Pakistan, Bangladesh)", es: "Del sur de Asia (India, Pakistán, Bangladesh)", de: "Südasiatisch (Indien, Pakistan, Bangladesch)", nl: "Zuid-Aziatisch (India, Pakistan, Bangladesh)" },
+          { en: "European", es: "Europeo", de: "Europäisch", nl: "Europees" },
+          { en: "American", es: "Americano", de: "Amerikanisch", nl: "Amerikaans" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The majority of construction workers came from South Asian countries, particularly India, Pakistan, and Bangladesh, though workers from over 100 nationalities participated.",
+          es: "La mayoría de los trabajadores de construcción provenían de países del sur de Asia, particularmente India, Pakistán y Bangladesh, aunque participaron trabajadores de más de 100 nacionalidades.",
+          de: "Die Mehrheit der Bauarbeiter kam aus südasiatischen Ländern, insbesondere Indien, Pakistan und Bangladesch, obwohl Arbeiter aus über 100 Nationalitäten teilnahmen.",
+          nl: "De meerderheid van de bouwvakkers kwam uit Zuid-Aziatische landen, met name India, Pakistan en Bangladesh, hoewel werknemers uit meer dan 100 nationaliteiten deelnamen."
+        }
+      },
+      {
+        question: {
+          en: "When did observation decks first open to the public?",
+          es: "¿Cuándo se abrieron los miradores al público por primera vez?",
+          de: "Wann wurden die Aussichtsplattformen erstmals für die Öffentlichkeit geöffnet?",
+          nl: "Wanneer openden de observatiedekken voor het eerst voor het publiek?"
+        },
+        options: [
+          { en: "January 2010 (opening day)", es: "Enero de 2010 (día de apertura)", de: "Januar 2010 (Eröffnungstag)", nl: "Januari 2010 (openingsdag)" },
+          { en: "March 2010", es: "Marzo de 2010", de: "März 2010", nl: "Maart 2010" },
+          { en: "October 2010", es: "Octubre de 2010", de: "Oktober 2010", nl: "Oktober 2010" },
+          { en: "January 2011", es: "Enero de 2011", de: "Januar 2011", nl: "Januari 2011" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The 'At the Top' observation deck on the 124th floor opened to the public in October 2010, nine months after the building's official opening.",
+          es: "El mirador 'At the Top' en el piso 124 se abrió al público en octubre de 2010, nueve meses después de la apertura oficial del edificio.",
+          de: "Die 'At the Top' Aussichtsplattform im 124. Stock wurde im Oktober 2010 für die Öffentlichkeit geöffnet, neun Monate nach der offiziellen Eröffnung des Gebäudes.",
+          nl: "Het 'At the Top' observatiedek op de 124e verdieping opende in oktober 2010 voor het publiek, negen maanden na de officiële opening van het gebouw."
+        }
+      },
+      {
+        question: {
+          en: "What safety innovation was implemented for workers at extreme heights?",
+          es: "¿Qué innovación de seguridad se implementó para los trabajadores a alturas extremas?",
+          de: "Welche Sicherheitsinnovation wurde für Arbeiter in extremen Höhen implementiert?",
+          nl: "Welke veiligheidsinnovatie werd geïmplementeerd voor werknemers op extreme hoogten?"
+        },
+        options: [
+          { en: "Helicopter rescue teams only", es: "Solo equipos de rescate en helicóptero", de: "Nur Hubschrauber-Rettungsteams", nl: "Alleen helikopter reddingsteams" },
+          { en: "Safety nets at every level", es: "Redes de seguridad en cada nivel", de: "Sicherheitsnetze auf jeder Ebene", nl: "Veiligheidsnetten op elk niveau" },
+          { en: "Climbing cranes and external jump elevators", es: "Grúas trepadoras y ascensores saltadores externos", de: "Kletternde Kräne und externe Aufzüge", nl: "Klimmende kranen en externe sprongliften" },
+          { en: "No special measures", es: "Sin medidas especiales", de: "Keine besonderen Maßnahmen", nl: "Geen speciale maatregelen" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Special climbing cranes that ascended with the building and external 'jump' elevators were installed to ensure worker safety and material delivery at extreme heights.",
+          es: "Se instalaron grúas trepadoras especiales que ascendían con el edificio y ascensores 'saltadores' externos para garantizar la seguridad de los trabajadores y la entrega de materiales a alturas extremas.",
+          de: "Spezielle Kletterkräne, die mit dem Gebäude aufstiegen, und externe 'Spring'-Aufzüge wurden installiert, um die Sicherheit der Arbeiter und die Materiallieferung in extremen Höhen zu gewährleisten.",
+          nl: "Speciale klimmende kranen die met het gebouw omhoog gingen en externe 'sprong' liften werden geïnstalleerd om de veiligheid van werknemers en materiaalleve ring op extreme hoogten te waarborgen."
+        }
+      },
+      {
+        question: {
+          en: "How did the project impact Dubai's international reputation?",
+          es: "¿Cómo impactó el proyecto la reputación internacional de Dubái?",
+          de: "Wie wirkte sich das Projekt auf Dubais internationalen Ruf aus?",
+          nl: "Hoe beïnvloedde het project de internationale reputatie van Dubai?"
+        },
+        options: [
+          { en: "No significant impact", es: "Sin impacto significativo", de: "Kein signifikanter Einfluss", nl: "Geen significant effect" },
+          { en: "Established Dubai as a global architectural landmark destination", es: "Estableció a Dubái como destino de referencia arquitectónica global", de: "Etablierte Dubai als globales architektonisches Wahrzeichen", nl: "Vestigde Dubai als wereldwijde architectonische bezienswaardigheid" },
+          { en: "Negative publicity only", es: "Solo publicidad negativa", de: "Nur negative Publicity", nl: "Alleen negatieve publiciteit" },
+          { en: "Regional recognition only", es: "Solo reconocimiento regional", de: "Nur regionale Anerkennung", nl: "Alleen regionale erkenning" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Burj Khalifa became a global icon and significantly boosted Dubai's reputation as a center for ambitious architecture and engineering innovation.",
+          es: "El Burj Khalifa se convirtió en un ícono global y aumentó significativamente la reputación de Dubái como centro de arquitectura ambiciosa e innovación en ingeniería.",
+          de: "Der Burj Khalifa wurde zu einem globalen Symbol und steigerte Dubais Ruf als Zentrum für ehrgeizige Architektur und ingenieurtechnische Innovation erheblich.",
+          nl: "De Burj Khalifa werd een wereldwijd icoon en verhoogde de reputatie van Dubai aanzienlijk als centrum voor ambitieuze architectuur en technische innovatie."
+        }
+      },
+      {
+        question: {
+          en: "What was the role of ice in the concrete mixing process?",
+          es: "¿Cuál fue el papel del hielo en el proceso de mezcla de concreto?",
+          de: "Was war die Rolle von Eis im Betonmischprozess?",
+          nl: "Wat was de rol van ijs in het betonmengproces?"
+        },
+        options: [
+          { en: "Decorative purposes", es: "Propósitos decorativos", de: "Dekorative Zwecke", nl: "Decoratieve doeleinden" },
+          { en: "To cool concrete and prevent premature setting in heat", es: "Para enfriar el concreto y prevenir el fraguado prematuro en el calor", de: "Zum Kühlen von Beton und Verhinderung vorzeitigen Abbindens in der Hitze", nl: "Om beton te koelen en voortijdig uitharden in de hitte te voorkomen" },
+          { en: "To add water content", es: "Para agregar contenido de agua", de: "Zum Hinzufügen von Wassergehalt", nl: "Om waterinhoud toe te voegen" },
+          { en: "No ice was used", es: "No se usó hielo", de: "Es wurde kein Eis verwendet", nl: "Er werd geen ijs gebruikt" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Ice was mixed with concrete ingredients to keep the temperature below 30°C during mixing and pouring, preventing structural problems in Dubai's extreme heat.",
+          es: "Se mezcló hielo con los ingredientes del concreto para mantener la temperatura por debajo de 30°C durante la mezcla y el vertido, previniendo problemas estructurales en el calor extremo de Dubái.",
+          de: "Eis wurde mit Betonzutaten gemischt, um die Temperatur während des Mischens und Gießens unter 30°C zu halten und strukturelle Probleme in Dubais extremer Hitze zu verhindern.",
+          nl: "IJs werd gemengd met betoningrediënten om de temperatuur onder 30°C te houden tijdens het mengen en gieten, om structurele problemen in de extreme hitte van Dubai te voorkomen."
+        }
+      },
+      {
+        question: {
+          en: "Which year did construction officially reach the halfway mark in height?",
+          es: "¿En qué año la construcción alcanzó oficialmente la mitad de la altura?",
+          de: "In welchem Jahr erreichte der Bau offiziell die Hälfte der Höhe?",
+          nl: "In welk jaar bereikte de bouw officieel de helft van de hoogte?"
+        },
+        options: [
+          { en: "2006", es: "2006", de: "2006", nl: "2006" },
+          { en: "2007", es: "2007", de: "2007", nl: "2007" },
+          { en: "2008", es: "2008", de: "2008", nl: "2008" },
+          { en: "2009", es: "2009", de: "2009", nl: "2009" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Construction reached the halfway mark in height around 2007, demonstrating the rapid pace of the building's vertical growth.",
+          es: "La construcción alcanzó la mitad de la altura alrededor de 2007, demostrando el ritmo rápido del crecimiento vertical del edificio.",
+          de: "Der Bau erreichte etwa 2007 die Hälfte der Höhe und demonstrierte das schnelle Tempo des vertikalen Wachstums des Gebäudes.",
+          nl: "De bouw bereikte ongeveer 2007 de helft van de hoogte, wat het snelle tempo van de verticale groei van het gebouw aantoonde."
+        }
+      },
+      {
+        question: {
+          en: "What was the primary motivation for Dubai to build such a tall structure?",
+          es: "¿Cuál fue la motivación principal de Dubái para construir una estructura tan alta?",
+          de: "Was war die Hauptmotivation Dubais, eine so hohe Struktur zu bauen?",
+          nl: "Wat was de belangrijkste motivatie voor Dubai om zo'n hoge structuur te bouwen?"
+        },
+        options: [
+          { en: "Population pressure", es: "Presión poblacional", de: "Bevölkerungsdruck", nl: "Bevolkingsdruk" },
+          { en: "Economic diversification and global recognition", es: "Diversificación económica y reconocimiento global", de: "Wirtschaftliche Diversifizierung und globale Anerkennung", nl: "Economische diversificatie en wereldwijde erkenning" },
+          { en: "Military purposes", es: "Propósitos militares", de: "Militärische Zwecke", nl: "Militaire doeleinden" },
+          { en: "Scientific research", es: "Investigación científica", de: "Wissenschaftliche Forschung", nl: "Wetenschappelijk onderzoek" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Dubai built the Burj Khalifa as part of its strategy to diversify its economy away from oil and establish itself as a global tourist and business destination.",
+          es: "Dubái construyó el Burj Khalifa como parte de su estrategia para diversificar su economía lejos del petróleo y establecerse como destino turístico y de negocios global.",
+          de: "Dubai baute den Burj Khalifa als Teil seiner Strategie zur Diversifizierung seiner Wirtschaft weg vom Öl und zur Etablierung als globales Tourismus- und Geschäftsziel.",
+          nl: "Dubai bouwde de Burj Khalifa als onderdeel van zijn strategie om zijn economie te diversifiëren weg van olie en zichzelf te vestigen als een wereldwijde toeristische en zakenbestemming."
+        }
+      },
+      {
+        question: {
+          en: "How long was the final spire segment before installation?",
+          es: "¿Cuánto medía el segmento final de la aguja antes de la instalación?",
+          de: "Wie lang war das letzte Spitzensegment vor der Installation?",
+          nl: "Hoe lang was het laatste spitssegment voor installatie?"
+        },
+        options: [
+          { en: "100 meters", es: "100 metros", de: "100 Meter", nl: "100 meter" },
+          { en: "150 meters", es: "150 metros", de: "150 Meter", nl: "150 meter" },
+          { en: "200 meters", es: "200 metros", de: "200 Meter", nl: "200 meter" },
+          { en: "244 meters", es: "244 metros", de: "244 Meter", nl: "244 meter" }
+        },
+        correct: 3,
+        explanation: {
+          en: "The spire was assembled from multiple sections and stands 244 meters tall, making up nearly 30% of the building's total height.",
+          es: "La aguja se ensambló a partir de múltiples secciones y mide 244 metros de altura, constituyendo casi el 30% de la altura total del edificio.",
+          de: "Die Spitze wurde aus mehreren Abschnitten zusammengesetzt und ist 244 Meter hoch, was fast 30% der Gesamthöhe des Gebäudes ausmacht.",
+          nl: "De spits werd samengesteld uit meerdere secties en is 244 meter hoog, wat bijna 30% van de totale hoogte van het gebouw uitmaakt."
+        }
+      },
+      {
+        question: {
+          en: "What legacy did the Burj Khalifa leave for future skyscraper construction?",
+          es: "¿Qué legado dejó el Burj Khalifa para la construcción futura de rascacielos?",
+          de: "Welches Vermächtnis hinterließ der Burj Khalifa für zukünftige Wolkenkratzerbauten?",
+          nl: "Welke erfenis liet de Burj Khalifa achter voor toekomstige wolkenkrabberbouw?"
+        },
+        options: [
+          { en: "No significant innovations", es: "Sin innovaciones significativas", de: "Keine signifikanten Innovationen", nl: "Geen significante innovaties" },
+          { en: "New structural systems and construction techniques", es: "Nuevos sistemas estructurales y técnicas de construcción", de: "Neue Struktursysteme und Bautechniken", nl: "Nieuwe structurele systemen en bouwtechnieken" },
+          { en: "Only aesthetic design changes", es: "Solo cambios de diseño estético", de: "Nur ästhetische Designänderungen", nl: "Alleen esthetische ontwerpveranderingen" },
+          { en: "Cost reduction methods only", es: "Solo métodos de reducción de costos", de: "Nur Kostenreduktionsmethoden", nl: "Alleen kostenbesparing methoden" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Burj Khalifa pioneered the buttressed core structural system and advanced construction techniques that have influenced the design of subsequent supertall buildings worldwide.",
+          es: "El Burj Khalifa fue pionero en el sistema estructural de núcleo contrafuerte y técnicas de construcción avanzadas que han influido en el diseño de edificios súper altos posteriores en todo el mundo.",
+          de: "Der Burj Khalifa war Vorreiter beim gestützten Kern-Struktursystem und fortschrittlichen Bautechniken, die das Design nachfolgender superhoh er Gebäude weltweit beeinflusst haben.",
+          nl: "De Burj Khalifa was baanbrekend met het versterkte kern structurele systeem en geavanceerde bouwtechnieken die het ontwerp van latere superhoge gebouwen wereldwijd hebben beïnvloed."
+        }
+      },
+      {
+        question: {
+          en: "How many observation decks does the Burj Khalifa have?",
+          es: "¿Cuántos miradores tiene el Burj Khalifa?",
+          de: "Wie viele Aussichtsplattformen hat der Burj Khalifa?",
+          nl: "Hoeveel observatieplatforms heeft de Burj Khalifa?"
+        },
+        options: [
+          { en: "One", es: "Uno", de: "Eins", nl: "Eén" },
+          { en: "Two", es: "Dos", de: "Zwei", nl: "Twee" },
+          { en: "Three", es: "Tres", de: "Drei", nl: "Drie" },
+          { en: "Four", es: "Cuatro", de: "Vier", nl: "Vier" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Burj Khalifa has three observation decks located on the 124th, 125th, and 148th floors, offering panoramic views of Dubai from different heights.",
+          es: "El Burj Khalifa tiene tres miradores ubicados en los pisos 124, 125 y 148, que ofrecen vistas panorámicas de Dubái desde diferentes alturas.",
+          de: "Der Burj Khalifa verfügt über drei Aussichtsplattformen in den Etagen 124, 125 und 148, die Panoramablicke auf Dubai aus verschiedenen Höhen bieten.",
+          nl: "De Burj Khalifa heeft drie observatieplatforms op de 124e, 125e en 148e verdieping, die panoramische uitzichten over Dubai bieden vanaf verschillende hoogtes."
+        }
       }
     ]
   };

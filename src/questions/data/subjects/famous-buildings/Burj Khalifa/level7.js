@@ -427,6 +427,321 @@
           de: "Burj Khalifa-Bewohner genießen exklusiven Zugang zu einem Privatkino, einer Zigarrenlounge, einer Bibliothek, einem Business Center und zahlreichen anderen Luxusausstattungen im gesamten Gebäude.",
           nl: "Bewoners van de Burj Khalifa genieten van exclusieve toegang tot een privébioscoop, sigarenlounge, bibliotheek, zakencentrum en tal van andere luxe voorzieningen in het hele gebouw."
         }
+      },
+      {
+        question: {
+          en: "What is the capacity of At.mosphere restaurant?",
+          es: "¿Cuál es la capacidad del restaurante At.mosphere?",
+          de: "Wie viele Gäste fasst das Restaurant At.mosphere?",
+          nl: "Wat is de capaciteit van restaurant At.mosphere?"
+        },
+        options: [
+          { en: "80 guests", es: "80 huéspedes", de: "80 Gäste", nl: "80 gasten" },
+          { en: "120 guests", es: "120 huéspedes", de: "120 Gäste", nl: "120 gasten" },
+          { en: "210 guests", es: "210 huéspedes", de: "210 Gäste", nl: "210 gasten" },
+          { en: "300 guests", es: "300 huéspedes", de: "300 Gäste", nl: "300 gasten" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "At.mosphere restaurant can accommodate up to 210 guests, offering both lunch and dinner service with spectacular views from the 122nd floor.",
+          es: "El restaurante At.mosphere puede acomodar hasta 210 huéspedes, ofreciendo servicio de almuerzo y cena con vistas espectaculares desde el piso 122.",
+          de: "Das Restaurant At.mosphere bietet Platz für bis zu 210 Gäste und serviert sowohl Mittag- als auch Abendessen mit spektakulärem Ausblick von der 122. Etage.",
+          nl: "Restaurant At.mosphere kan tot 210 gasten ontvangen, met lunch- en dinerservice met spectaculair uitzicht vanaf de 122e verdieping."
+        }
+      },
+      {
+        question: {
+          en: "What material are the floors in the Armani Hotel made of?",
+          es: "¿De qué material están hechos los pisos del Armani Hotel?",
+          de: "Aus welchem Material bestehen die Böden im Armani Hotel?",
+          nl: "Van welk materiaal zijn de vloeren in het Armani Hotel gemaakt?"
+        },
+        options: [
+          { en: "Italian marble", es: "Mármol italiano", de: "Italienischer Marmor", nl: "Italiaans marmer" },
+          { en: "Dark oak wood", es: "Roble oscuro", de: "Dunkles Eichenholz", nl: "Donker eikenhout" },
+          { en: "Polished concrete", es: "Hormigón pulido", de: "Polierter Beton", nl: "Gepolijst beton" },
+          { en: "Ceramic tiles", es: "Azulejos de cerámica", de: "Keramikfliesen", nl: "Keramische tegels" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Armani Hotel features luxurious Italian marble flooring throughout, chosen by Giorgio Armani to complement the minimalist design aesthetic.",
+          es: "El Armani Hotel cuenta con lujosos pisos de mármol italiano en todas partes, elegidos por Giorgio Armani para complementar la estética de diseño minimalista.",
+          de: "Das Armani Hotel verfügt durchgehend über luxuriöse italienische Marmorböden, die von Giorgio Armani gewählt wurden, um die minimalistische Designästhetik zu ergänzen.",
+          nl: "Het Armani Hotel heeft luxe Italiaanse marmeren vloeren door het hele hotel, gekozen door Giorgio Armani om de minimalistische ontwerpesthetiek aan te vullen."
+        }
+      },
+      {
+        question: {
+          en: "How many individual light fixtures illuminate The Dubai Fountain?",
+          es: "¿Cuántos accesorios de iluminación individuales iluminan The Dubai Fountain?",
+          de: "Wie viele einzelne Leuchten beleuchten The Dubai Fountain?",
+          nl: "Hoeveel individuele verlichtingsarmaturen verlichten The Dubai Fountain?"
+        },
+        options: [
+          { en: "3,000 lights", es: "3.000 luces", de: "3.000 Lichter", nl: "3.000 lichten" },
+          { en: "4,500 lights", es: "4.500 luces", de: "4.500 Lichter", nl: "4.500 lichten" },
+          { en: "6,600 lights", es: "6.600 luces", de: "6.600 Lichter", nl: "6.600 lichten" },
+          { en: "9,000 lights", es: "9.000 luces", de: "9.000 Lichter", nl: "9.000 lichten" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Dubai Fountain uses 6,600 WET Superlights and 25 color projectors to create stunning visual effects synchronized with music performances.",
+          es: "The Dubai Fountain utiliza 6.600 WET Superlights y 25 proyectores de color para crear impresionantes efectos visuales sincronizados con presentaciones musicales.",
+          de: "Der Dubai Fountain verwendet 6.600 WET Superlights und 25 Farbprojektoren, um atemberaubende visuelle Effekte zu erzeugen, die mit Musikdarbietungen synchronisiert sind.",
+          nl: "De Dubai Fountain gebruikt 6.600 WET Superlights en 25 kleurenprojectors om verbluffende visuele effecten te creëren die gesynchroniseerd zijn met muziekuitvoeringen."
+        }
+      },
+      {
+        question: {
+          en: "What is the average size of residential apartments in the Burj Khalifa?",
+          es: "¿Cuál es el tamaño promedio de los apartamentos residenciales en el Burj Khalifa?",
+          de: "Wie groß sind die Wohnungen im Burj Khalifa durchschnittlich?",
+          nl: "Wat is de gemiddelde grootte van woningen in de Burj Khalifa?"
+        },
+        options: [
+          { en: "1,500 square feet", es: "1.500 pies cuadrados", de: "1.500 Quadratfuß", nl: "1.500 vierkante voet" },
+          { en: "2,200 square feet", es: "2.200 pies cuadrados", de: "2.200 Quadratfuß", nl: "2.200 vierkante voet" },
+          { en: "3,000 square feet", es: "3.000 pies cuadrados", de: "3.000 Quadratfuß", nl: "3.000 vierkante voet" },
+          { en: "4,500 square feet", es: "4.500 pies cuadrados", de: "4.500 Quadratfuß", nl: "4.500 vierkante voet" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The average residential apartment in the Burj Khalifa is approximately 2,200 square feet, though sizes range from smaller one-bedroom units to expansive four-bedroom penthouses.",
+          es: "El apartamento residencial promedio en el Burj Khalifa es de aproximadamente 2.200 pies cuadrados, aunque los tamaños varían desde unidades más pequeñas de un dormitorio hasta amplios áticos de cuatro dormitorios.",
+          de: "Die durchschnittliche Wohnung im Burj Khalifa ist etwa 2.200 Quadratfuß groß, wobei die Größen von kleineren Ein-Zimmer-Einheiten bis zu weitläufigen Vier-Zimmer-Penthäusern reichen.",
+          nl: "De gemiddelde woning in de Burj Khalifa is ongeveer 2.200 vierkante voet, hoewel de grootte varieert van kleinere eenkamerappartementen tot ruime vierkamer penthouses."
+        }
+      },
+      {
+        question: {
+          en: "What entertainment feature is included in the observation deck experience?",
+          es: "¿Qué característica de entretenimiento se incluye en la experiencia del mirador?",
+          de: "Welche Unterhaltungsfunktion ist im Aussichtsplattform-Erlebnis enthalten?",
+          nl: "Welke entertainmentfunctie is inbegrepen in de observatiedekervaring?"
+        },
+        options: [
+          { en: "Interactive telescopes", es: "Telescopios interactivos", de: "Interaktive Teleskope", nl: "Interactieve telescopen" },
+          { en: "Virtual time-travel experience", es: "Experiencia de viaje en el tiempo virtual", de: "Virtuelles Zeitreise-Erlebnis", nl: "Virtuele tijdreisbeleving" },
+          { en: "Holographic displays", es: "Pantallas holográficas", de: "Holografische Displays", nl: "Holografische displays" },
+          { en: "360-degree photo booths", es: "Cabinas de fotos de 360 grados", de: "360-Grad-Fotoboxen", nl: "360-graden fotocabines" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The observation deck features a virtual time-travel experience that shows visitors how the Dubai skyline has evolved from desert to modern metropolis.",
+          es: "El mirador cuenta con una experiencia de viaje en el tiempo virtual que muestra a los visitantes cómo el horizonte de Dubai ha evolucionado del desierto a la metrópolis moderna.",
+          de: "Die Aussichtsplattform verfügt über ein virtuelles Zeitreise-Erlebnis, das Besuchern zeigt, wie sich die Skyline Dubais von der Wüste zur modernen Metropole entwickelt hat.",
+          nl: "Het observatiedek heeft een virtuele tijdreisbeleving die bezoekers laat zien hoe de skyline van Dubai is geëvolueerd van woestijn tot moderne metropool."
+        }
+      },
+      {
+        question: {
+          en: "What type of water feature is located inside the Armani Hotel lobby?",
+          es: "¿Qué tipo de elemento acuático se encuentra dentro del vestíbulo del Armani Hotel?",
+          de: "Welche Art von Wasserelement befindet sich in der Lobby des Armani Hotels?",
+          nl: "Wat voor soort waterelement bevindt zich in de lobby van het Armani Hotel?"
+        },
+        options: [
+          { en: "Cascading waterfall", es: "Cascada", de: "Kaskadierender Wasserfall", nl: "Waterval" },
+          { en: "Reflecting pool", es: "Piscina reflectante", de: "Reflexionsbecken", nl: "Reflecterend zwembad" },
+          { en: "Fountain sculpture", es: "Escultura de fuente", de: "Brunnenskulptur", nl: "Fonteinsculptuur" },
+          { en: "Koi pond", es: "Estanque de carpas", de: "Koi-Teich", nl: "Koivijver" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Armani Hotel lobby features an elegant reflecting pool that creates a serene atmosphere, perfectly aligned with the hotel's minimalist aesthetic.",
+          es: "El vestíbulo del Armani Hotel cuenta con una elegante piscina reflectante que crea una atmósfera serena, perfectamente alineada con la estética minimalista del hotel.",
+          de: "Die Lobby des Armani Hotels verfügt über ein elegantes Reflexionsbecken, das eine ruhige Atmosphäre schafft und perfekt zur minimalistischen Ästhetik des Hotels passt.",
+          nl: "De lobby van het Armani Hotel heeft een elegant reflecterend zwembad dat een serene sfeer creëert, perfect afgestemd op de minimalistische esthetiek van het hotel."
+        }
+      },
+      {
+        question: {
+          en: "How many high-speed elevators serve the Burj Khalifa?",
+          es: "¿Cuántos ascensores de alta velocidad sirven al Burj Khalifa?",
+          de: "Wie viele Hochgeschwindigkeitsaufzüge bedienen den Burj Khalifa?",
+          nl: "Hoeveel hogesnelheidsliften bedienen de Burj Khalifa?"
+        },
+        options: [
+          { en: "37 elevators", es: "37 ascensores", de: "37 Aufzüge", nl: "37 liften" },
+          { en: "57 elevators", es: "57 ascensores", de: "57 Aufzüge", nl: "57 liften" },
+          { en: "77 elevators", es: "77 ascensores", de: "77 Aufzüge", nl: "77 liften" },
+          { en: "97 elevators", es: "97 ascensores", de: "97 Aufzüge", nl: "97 liften" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Burj Khalifa is served by 57 elevators and 8 escalators, efficiently moving residents, guests, and visitors throughout the building's 163 floors.",
+          es: "El Burj Khalifa cuenta con 57 ascensores y 8 escaleras mecánicas, moviendo eficientemente a residentes, huéspedes y visitantes por los 163 pisos del edificio.",
+          de: "Der Burj Khalifa wird von 57 Aufzügen und 8 Rolltreppen bedient, die Bewohner, Gäste und Besucher effizient durch die 163 Etagen des Gebäudes befördern.",
+          nl: "De Burj Khalifa wordt bediend door 57 liften en 8 roltrappen, die bewoners, gasten en bezoekers efficiënt door de 163 verdiepingen van het gebouw vervoeren."
+        }
+      },
+      {
+        question: {
+          en: "What signature scent is used throughout the Armani Hotel?",
+          es: "¿Qué aroma característico se utiliza en todo el Armani Hotel?",
+          de: "Welcher Signature-Duft wird im gesamten Armani Hotel verwendet?",
+          nl: "Welke signature geur wordt gebruikt in het Armani Hotel?"
+        },
+        options: [
+          { en: "Armani Privé fragrance", es: "Fragancia Armani Privé", de: "Armani Privé Duft", nl: "Armani Privé geur" },
+          { en: "Arabian oud", es: "Oud árabe", de: "Arabisches Oud", nl: "Arabische oud" },
+          { en: "Jasmine essence", es: "Esencia de jazmín", de: "Jasminessenz", nl: "Jasmijnessentie" },
+          { en: "Citrus blend", es: "Mezcla cítrica", de: "Zitrusmischung", nl: "Citrusmix" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Armani Hotel uses a custom Armani Privé fragrance throughout the property, creating a distinctive olfactory experience that guests remember.",
+          es: "El Armani Hotel utiliza una fragancia Armani Privé personalizada en toda la propiedad, creando una experiencia olfativa distintiva que los huéspedes recuerdan.",
+          de: "Das Armani Hotel verwendet im gesamten Anwesen einen maßgeschneiderten Armani Privé Duft, der ein unverwechselbares olfaktorisches Erlebnis schafft, das die Gäste in Erinnerung behalten.",
+          nl: "Het Armani Hotel gebruikt een op maat gemaakte Armani Privé geur door het hele pand, waardoor een onderscheidende olfactorische ervaring ontstaat die gasten zich herinneren."
+        }
+      },
+      {
+        question: {
+          en: "What is the name of the ground floor lobby that welcomes visitors?",
+          es: "¿Cómo se llama el vestíbulo de la planta baja que da la bienvenida a los visitantes?",
+          de: "Wie heißt die Erdgeschosslobby, die Besucher empfängt?",
+          nl: "Hoe heet de begane grond lobby die bezoekers verwelkomt?"
+        },
+        options: [
+          { en: "The Grand Atrium", es: "El Gran Atrio", de: "Das Große Atrium", nl: "Het Grote Atrium" },
+          { en: "The Main Pavilion", es: "El Pabellón Principal", de: "Der Hauptpavillon", nl: "Het Hoofdpaviljoen" },
+          { en: "The Lower Lobby", es: "El Vestíbulo Inferior", de: "Die Untere Lobby", nl: "De Lagere Lobby" },
+          { en: "The Welcome Center", es: "El Centro de Bienvenida", de: "Das Willkommenszentrum", nl: "Het Welkomstcentrum" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Lower Lobby on the ground floor serves as the main entrance and reception area, featuring dramatic architecture and high ceilings that set the tone for the entire building.",
+          es: "El Vestíbulo Inferior en la planta baja sirve como entrada principal y área de recepción, con arquitectura dramática y techos altos que establecen el tono para todo el edificio.",
+          de: "Die Untere Lobby im Erdgeschoss dient als Haupteingang und Empfangsbereich mit dramatischer Architektur und hohen Decken, die den Ton für das gesamte Gebäude angeben.",
+          nl: "De Lagere Lobby op de begane grond dient als hoofdingang en ontvangstgebied, met dramatische architectuur en hoge plafonds die de toon zetten voor het hele gebouw."
+        }
+      },
+      {
+        question: {
+          en: "What innovative feature helps guests navigate the massive building?",
+          es: "¿Qué característica innovadora ayuda a los huéspedes a navegar por el enorme edificio?",
+          de: "Welches innovative Feature hilft Gästen, sich im riesigen Gebäude zurechtzufinden?",
+          nl: "Welke innovatieve functie helpt gasten zich te oriënteren in het massieve gebouw?"
+        },
+        options: [
+          { en: "Digital wayfinding kiosks", es: "Quioscos digitales de orientación", de: "Digitale Wegweiser-Kioske", nl: "Digitale routekiosken" },
+          { en: "Holographic guides", es: "Guías holográficas", de: "Holografische Führer", nl: "Holografische gidsen" },
+          { en: "Color-coded floor zones", es: "Zonas de piso con código de colores", de: "Farbcodierte Etagenzonen", nl: "Kleurgecodeerde verdiepingszones" },
+          { en: "Robotic assistants", es: "Asistentes robóticos", de: "Roboter-Assistenten", nl: "Robotassistenten" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Burj Khalifa uses color-coded zones throughout different sections, making it easier for residents and visitors to navigate and identify their destination floors.",
+          es: "El Burj Khalifa utiliza zonas con código de colores en diferentes secciones, facilitando a residentes y visitantes navegar e identificar sus pisos de destino.",
+          de: "Der Burj Khalifa verwendet farbcodierte Zonen in verschiedenen Bereichen, um Bewohnern und Besuchern die Navigation und Identifizierung ihrer Zieletagen zu erleichtern.",
+          nl: "De Burj Khalifa gebruikt kleurgecodeerde zones door verschillende secties, waardoor het voor bewoners en bezoekers gemakkelijker wordt om te navigeren en hun bestemmingsverdiepingen te identificeren."
+        }
+      },
+      {
+        question: {
+          en: "What music system technology is featured in At.mosphere restaurant?",
+          es: "¿Qué tecnología de sistema de música se presenta en el restaurante At.mosphere?",
+          de: "Welche Musiksystemtechnologie ist im Restaurant At.mosphere zu finden?",
+          nl: "Welke muzieksysteemtechnologie is te vinden in restaurant At.mosphere?"
+        },
+        options: [
+          { en: "Bose surround sound", es: "Sonido envolvente Bose", de: "Bose Surround-Sound", nl: "Bose surround sound" },
+          { en: "Live orchestra performances", es: "Actuaciones de orquesta en vivo", de: "Live-Orchesteraufführungen", nl: "Live orkestuitvoeringen" },
+          { en: "Acoustic ceiling panels", es: "Paneles acústicos de techo", de: "Akustische Deckenpaneele", nl: "Akoestische plafondpanelen" },
+          { en: "Silent dining zones", es: "Zonas de comedor silenciosas", de: "Ruhige Essbereiche", nl: "Stille eetzones" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "At.mosphere features specially designed acoustic ceiling panels that create perfect sound ambiance while managing noise levels in the expansive dining space.",
+          es: "At.mosphere cuenta con paneles acústicos de techo especialmente diseñados que crean un ambiente de sonido perfecto mientras gestionan los niveles de ruido en el amplio espacio de comedor.",
+          de: "At.mosphere verfügt über speziell entworfene akustische Deckenpaneele, die eine perfekte Klangumgebung schaffen und gleichzeitig den Geräuschpegel im weitläufigen Essbereich steuern.",
+          nl: "At.mosphere heeft speciaal ontworpen akoestische plafondpanelen die een perfecte geluidsambiëntie creëren terwijl ze het geluidsniveau in de uitgestrekte eetruimte beheren."
+        }
+      },
+      {
+        question: {
+          en: "What architectural element connects the residential and hotel sections?",
+          es: "¿Qué elemento arquitectónico conecta las secciones residencial y hotelera?",
+          de: "Welches architektonische Element verbindet die Wohn- und Hotelbereiche?",
+          nl: "Welk architectonisch element verbindt de residentiële en hotelsecties?"
+        },
+        options: [
+          { en: "Sky bridge", es: "Puente aéreo", de: "Skybridge", nl: "Sky bridge" },
+          { en: "Atrium space", es: "Espacio de atrio", de: "Atriumraum", nl: "Atriumruimte" },
+          { en: "Transfer lobbies", es: "Vestíbulos de transferencia", de: "Transfer-Lobbys", nl: "Transferlobby's" },
+          { en: "Underground tunnels", es: "Túneles subterráneos", de: "Unterirdische Tunnel", nl: "Ondergrondse tunnels" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Transfer lobbies at strategic levels allow seamless movement between different sections while maintaining security and privacy for residents and hotel guests.",
+          es: "Los vestíbulos de transferencia en niveles estratégicos permiten un movimiento fluido entre diferentes secciones mientras mantienen la seguridad y privacidad para residentes e invitados del hotel.",
+          de: "Transfer-Lobbys auf strategischen Ebenen ermöglichen nahtlose Bewegung zwischen verschiedenen Bereichen bei gleichzeitiger Wahrung von Sicherheit und Privatsphäre für Bewohner und Hotelgäste.",
+          nl: "Transferlobby's op strategische niveaus maken naadloze verplaatsing tussen verschillende secties mogelijk terwijl ze veiligheid en privacy voor bewoners en hotelgasten handhaven."
+        }
+      },
+      {
+        question: {
+          en: "What viewing technology enhances the observation deck experience?",
+          es: "¿Qué tecnología de visualización mejora la experiencia del mirador?",
+          de: "Welche Betrachtungstechnologie verbessert das Aussichtsplattform-Erlebnis?",
+          nl: "Welke weergavetechnologie verbetert de observatiedekervaring?"
+        },
+        options: [
+          { en: "Augmented reality telescopes", es: "Telescopios de realidad aumentada", de: "Augmented-Reality-Teleskope", nl: "Augmented reality telescopen" },
+          { en: "4K projection screens", es: "Pantallas de proyección 4K", de: "4K-Projektionsbildschirme", nl: "4K-projectieschermen" },
+          { en: "Interactive touch panels", es: "Paneles táctiles interactivos", de: "Interaktive Touch-Panels", nl: "Interactieve touch panels" },
+          { en: "Digital binoculars", es: "Binoculares digitales", de: "Digitale Ferngläser", nl: "Digitale verrekijkers" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The observation decks feature augmented reality telescopes that overlay information about landmarks and points of interest visible from the tower.",
+          es: "Los miradores cuentan con telescopios de realidad aumentada que superponen información sobre puntos de referencia y lugares de interés visibles desde la torre.",
+          de: "Die Aussichtsplattformen verfügen über Augmented-Reality-Teleskope, die Informationen über Sehenswürdigkeiten und Sehenswürdigkeiten einblenden, die vom Turm aus sichtbar sind.",
+          nl: "De observatiedekken hebben augmented reality telescopen die informatie over herkenningspunten en bezienswaardigheden die zichtbaar zijn vanaf de toren overlappen."
+        }
+      },
+      {
+        question: {
+          en: "What lounge facility is available on the 154th floor?",
+          es: "¿Qué instalación de salón está disponible en el piso 154?",
+          de: "Welche Lounge-Einrichtung ist auf der 154. Etage verfügbar?",
+          nl: "Welke loungefaciliteit is beschikbaar op de 154e verdieping?"
+        },
+        options: [
+          { en: "Sky Bar", es: "Sky Bar", de: "Sky Bar", nl: "Sky Bar" },
+          { en: "The Lounge", es: "The Lounge", de: "The Lounge", nl: "The Lounge" },
+          { en: "Cloud Nine", es: "Cloud Nine", de: "Cloud Nine", nl: "Cloud Nine" },
+          { en: "Summit Club", es: "Summit Club", de: "Summit Club", nl: "Summit Club" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Lounge on the 154th floor offers premium refreshments and unparalleled views as part of the At the Top SKY experience for visitors.",
+          es: "The Lounge en el piso 154 ofrece refrescos premium y vistas incomparables como parte de la experiencia At the Top SKY para los visitantes.",
+          de: "Die Lounge auf der 154. Etage bietet Premium-Erfrischungen und unvergleichliche Ausblicke als Teil der At the Top SKY-Erfahrung für Besucher.",
+          nl: "The Lounge op de 154e verdieping biedt premium verfrissingen en ongeëvenaarde uitzichten als onderdeel van de At the Top SKY-ervaring voor bezoekers."
+        }
+      },
+      {
+        question: {
+          en: "What unique art installation greets visitors in the main lobby?",
+          es: "¿Qué instalación artística única saluda a los visitantes en el vestíbulo principal?",
+          de: "Welche einzigartige Kunstinstallation begrüßt Besucher in der Hauptlobby?",
+          nl: "Welke unieke kunstinstallatie verwelkomt bezoekers in de hoofdlobby?"
+        },
+        options: [
+          { en: "Digital art wall", es: "Muro de arte digital", de: "Digitale Kunstwand", nl: "Digitale kunstmuur" },
+          { en: "World's tallest floral arrangement", es: "Arreglo floral más alto del mundo", de: "Höchstes Blumenarrangement der Welt", nl: "Hoogste bloemenarrangement ter wereld" },
+          { en: "Kinetic sculpture", es: "Escultura cinética", de: "Kinetische Skulptur", nl: "Kinetische sculptuur" },
+          { en: "LED chandelier", es: "Candelabro LED", de: "LED-Kronleuchter", nl: "LED-kroonluchter" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The main lobby features the world's tallest supported floral arrangement, standing over 8 meters tall and changed regularly to reflect seasonal themes.",
+          es: "El vestíbulo principal cuenta con el arreglo floral sostenido más alto del mundo, de más de 8 metros de altura y cambiado regularmente para reflejar temas estacionales.",
+          de: "Die Hauptlobby zeigt das höchste gestützte Blumenarrangement der Welt, über 8 Meter hoch und regelmäßig gewechselt, um saisonale Themen zu reflektieren.",
+          nl: "De hoofdlobby heeft het hoogste ondersteunde bloemenarrangement ter wereld, meer dan 8 meter hoog en regelmatig veranderd om seizoensthema's te weerspiegelen."
+        }
       }
     ]
   };

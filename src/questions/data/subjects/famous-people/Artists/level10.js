@@ -427,6 +427,426 @@
           de: "Paul Klees 'Zwitschermaschine' (1922) zeigt vogelähnliche Kreaturen auf einer mechanischen Kurbel und verschmilzt organische und industrielle Formen. Das Aquarell und die Öltransfer befinden sich im MoMA und verkörpern seine Bauhaus-Lehrphilosophie, das Unsichtbare sichtbar zu machen.",
           nl: "Paul Klee's 'Tjilpmachine' (Die Zwitscher-Maschine, 1922) toont vogelachtige wezens op een mechanische kruk, waarbij organische en industriële vormen worden gemengd. De aquarel en olie-overdracht bevindt zich in MoMA en illustreert zijn Bauhaus-onderwijsfilosofie over het zichtbaar maken van het onzichtbare."
         }
+      },
+      {
+        question: {
+          en: "Which artist created 'Black Square', a radical Suprematist work representing pure abstraction?",
+          es: "¿Qué artista creó 'Cuadrado Negro', una obra suprematista radical que representa abstracción pura?",
+          de: "Welcher Künstler schuf 'Schwarzes Quadrat', ein radikales suprematistisches Werk, das reine Abstraktion darstellt?",
+          nl: "Welke kunstenaar creëerde 'Zwart Vierkant', een radicaal suprematistisch werk dat pure abstractie vertegenwoordigt?"
+        },
+        options: [
+          { en: "Kazimir Malevich", es: "Kazimir Malévich", de: "Kasimir Malewitsch", nl: "Kazimir Malevitsj" },
+          { en: "Wassily Kandinsky", es: "Wassily Kandinsky", de: "Wassily Kandinsky", nl: "Wassily Kandinsky" },
+          { en: "Piet Mondrian", es: "Piet Mondrian", de: "Piet Mondrian", nl: "Piet Mondriaan" },
+          { en: "El Lissitzky", es: "El Lissitzky", de: "El Lissitzky", nl: "El Lissitzky" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Kazimir Malevich painted 'Black Square' in 1915, exhibiting it at 'The Last Futurist Exhibition 0,10' in Petrograd. This radical work of Suprematism reduced painting to its most basic geometric form, representing a complete break from representational art and influencing generations of abstract artists.",
+          es: "Kazimir Malévich pintó 'Cuadrado Negro' en 1915, exhibiéndolo en 'La Última Exposición Futurista 0,10' en Petrogrado. Esta obra radical del Suprematismo redujo la pintura a su forma geométrica más básica, representando una ruptura completa con el arte representacional e influyendo en generaciones de artistas abstractos.",
+          de: "Kasimir Malewitsch malte 'Schwarzes Quadrat' 1915 und stellte es auf der 'Letzten Futuristischen Ausstellung 0,10' in Petrograd aus. Dieses radikale Werk des Suprematismus reduzierte die Malerei auf ihre grundlegendste geometrische Form, repräsentiert einen vollständigen Bruch mit gegenständlicher Kunst und beeinflusste Generationen abstrakter Künstler.",
+          nl: "Kazimir Malevitsj schilderde 'Zwart Vierkant' in 1915, tentoongesteld op 'De Laatste Futuristische Tentoonstelling 0,10' in Petrograd. Dit radicale werk van het Suprematisme reduceerde schilderen tot zijn meest basale geometrische vorm, vertegenwoordigt een volledige breuk met representatieve kunst en beïnvloedde generaties abstracte kunstenaars."
+        }
+      },
+      {
+        question: {
+          en: "Which early Netherlandish painter's 'Portinari Altarpiece' was commissioned by an Italian banker and influenced Renaissance art in Florence?",
+          es: "¿El 'Retablo Portinari' de qué pintor neerlandés temprano fue encargado por un banquero italiano e influyó en el arte renacentista en Florencia?",
+          de: "Welches frühen niederländischen Malers 'Portinari-Altar' wurde von einem italienischen Bankier in Auftrag gegeben und beeinflusste Renaissance-Kunst in Florenz?",
+          nl: "Welke vroeg-Nederlandse schilder's 'Portinari-altaarstuk' werd besteld door een Italiaanse bankier en beïnvloedde Renaissance-kunst in Florence?"
+        },
+        options: [
+          { en: "Hugo van der Goes", es: "Hugo van der Goes", de: "Hugo van der Goes", nl: "Hugo van der Goes" },
+          { en: "Jan van Eyck", es: "Jan van Eyck", de: "Jan van Eyck", nl: "Jan van Eyck" },
+          { en: "Rogier van der Weyden", es: "Rogier van der Weyden", de: "Rogier van der Weyden", nl: "Rogier van der Weyden" },
+          { en: "Hans Memling", es: "Hans Memling", de: "Hans Memling", nl: "Hans Memling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hugo van der Goes painted the 'Portinari Altarpiece' (1475-1476) for Tommaso Portinari, a Medici banker in Bruges. When shipped to Florence, its oil painting technique and emotional realism profoundly influenced Italian Renaissance artists including Ghirlandaio and Leonardo da Vinci.",
+          es: "Hugo van der Goes pintó el 'Retablo Portinari' (1475-1476) para Tommaso Portinari, un banquero Medici en Brujas. Cuando se envió a Florencia, su técnica de pintura al óleo y realismo emocional influyó profundamente en artistas del Renacimiento italiano incluyendo Ghirlandaio y Leonardo da Vinci.",
+          de: "Hugo van der Goes malte den 'Portinari-Altar' (1475-1476) für Tommaso Portinari, einen Medici-Bankier in Brügge. Als es nach Florenz verschifft wurde, beeinflussten seine Ölmaltechnik und emotionaler Realismus italienische Renaissance-Künstler einschließlich Ghirlandaio und Leonardo da Vinci tiefgreifend.",
+          nl: "Hugo van der Goes schilderde het 'Portinari-altaarstuk' (1475-1476) voor Tommaso Portinari, een Medici-bankier in Brugge. Toen het naar Florence werd verscheept, beïnvloedden zijn olieverftechniek en emotioneel realisme Italiaanse Renaissance-kunstenaars waaronder Ghirlandaio en Leonardo da Vinci diepgaand."
+        }
+      },
+      {
+        question: {
+          en: "Which Mannerist painter's elongated figures in 'The Burial of the Count of Orgaz' bridge earthly and heavenly realms?",
+          es: "¿Las figuras alargadas de qué pintor manierista en 'El Entierro del Conde de Orgaz' conectan los reinos terrenal y celestial?",
+          de: "Welches manieristischen Malers verlängerte Figuren in 'Das Begräbnis des Grafen von Orgaz' überbrücken irdische und himmlische Bereiche?",
+          nl: "Welke maniëristische schilder's langgerekte figuren in 'De Begrafenis van de Graaf van Orgaz' overbruggen aardse en hemelse rijken?"
+        },
+        options: [
+          { en: "El Greco", es: "El Greco", de: "El Greco", nl: "El Greco" },
+          { en: "Diego Velázquez", es: "Diego Velázquez", de: "Diego Velázquez", nl: "Diego Velázquez" },
+          { en: "Francisco de Zurbarán", es: "Francisco de Zurbarán", de: "Francisco de Zurbarán", nl: "Francisco de Zurbarán" },
+          { en: "Bartolomé Esteban Murillo", es: "Bartolomé Esteban Murillo", de: "Bartolomé Esteban Murillo", nl: "Bartolomé Esteban Murillo" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "El Greco painted 'The Burial of the Count of Orgaz' (1586-1588) for the Church of Santo Tomé in Toledo. The monumental work depicts a miracle where Saints Stephen and Augustine descend to bury the count. El Greco's elongated figures and mystical style create a visionary connection between earth and heaven.",
+          es: "El Greco pintó 'El Entierro del Conde de Orgaz' (1586-1588) para la Iglesia de Santo Tomé en Toledo. La obra monumental representa un milagro donde los Santos Esteban y Agustín descienden para enterrar al conde. Las figuras alargadas y el estilo místico de El Greco crean una conexión visionaria entre tierra y cielo.",
+          de: "El Greco malte 'Das Begräbnis des Grafen von Orgaz' (1586-1588) für die Kirche Santo Tomé in Toledo. Das monumentale Werk zeigt ein Wunder, bei dem die Heiligen Stephanus und Augustinus herabsteigen, um den Grafen zu begraben. El Grecos verlängerte Figuren und mystischer Stil schaffen eine visionäre Verbindung zwischen Erde und Himmel.",
+          nl: "El Greco schilderde 'De Begrafenis van de Graaf van Orgaz' (1586-1588) voor de Kerk van Santo Tomé in Toledo. Het monumentale werk toont een wonder waar de Heiligen Stefanus en Augustinus afdalen om de graaf te begraven. El Greco's langgerekte figuren en mystieke stijl creëren een visionair verband tussen aarde en hemel."
+        }
+      },
+      {
+        question: {
+          en: "Which artist painted 'The Death of Marat', immortalizing the murdered French revolutionary as a secular martyr?",
+          es: "¿Qué artista pintó 'La Muerte de Marat', inmortalizando al revolucionario francés asesinado como mártir secular?",
+          de: "Welcher Künstler malte 'Der Tod des Marat', verewigt den ermordeten französischen Revolutionär als weltlichen Märtyrer?",
+          nl: "Welke kunstenaar schilderde 'De Dood van Marat', die de vermoorde Franse revolutionair vereeuwigde als seculiere martelaar?"
+        },
+        options: [
+          { en: "Jacques-Louis David", es: "Jacques-Louis David", de: "Jacques-Louis David", nl: "Jacques-Louis David" },
+          { en: "Jean-Auguste-Dominique Ingres", es: "Jean-Auguste-Dominique Ingres", de: "Jean-Auguste-Dominique Ingres", nl: "Jean-Auguste-Dominique Ingres" },
+          { en: "Théodore Géricault", es: "Théodore Géricault", de: "Théodore Géricault", nl: "Théodore Géricault" },
+          { en: "Eugène Delacroix", es: "Eugène Delacroix", de: "Eugène Delacroix", nl: "Eugène Delacroix" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jacques-Louis David painted 'The Death of Marat' in 1793, shortly after Jean-Paul Marat's assassination. David, a fellow revolutionary, depicted Marat in his bath with a letter from his murderer Charlotte Corday. The Neoclassical work transforms a contemporary political murder into a timeless image of martyrdom.",
+          es: "Jacques-Louis David pintó 'La Muerte de Marat' en 1793, poco después del asesinato de Jean-Paul Marat. David, un compañero revolucionario, representó a Marat en su baño con una carta de su asesina Charlotte Corday. La obra neoclásica transforma un asesinato político contemporáneo en una imagen atemporal de martirio.",
+          de: "Jacques-Louis David malte 'Der Tod des Marat' 1793, kurz nach Jean-Paul Marats Ermordung. David, ein Mitrevolutionär, zeigte Marat in seinem Bad mit einem Brief seiner Mörderin Charlotte Corday. Das neoklassizistische Werk verwandelt einen zeitgenössischen politischen Mord in ein zeitloses Bild des Martyriums.",
+          nl: "Jacques-Louis David schilderde 'De Dood van Marat' in 1793, kort na de moord op Jean-Paul Marat. David, een mede-revolutionair, beeldde Marat af in zijn bad met een brief van zijn moordenaar Charlotte Corday. Het neoklassieke werk transformeert een hedendaagse politieke moord in een tijdloos beeld van martelaarschap."
+        }
+      },
+      {
+        question: {
+          en: "Which artist's 'Black Square' became the icon of Suprematism and was called the 'zero point of painting'?",
+          es: "¿El 'Cuadrado Negro' de qué artista se convirtió en el ícono del Suprematismo y fue llamado el 'punto cero de la pintura'?",
+          de: "Welches Künstlers 'Schwarzes Quadrat' wurde zur Ikone des Suprematismus und wurde als 'Nullpunkt der Malerei' bezeichnet?",
+          nl: "Wiens kunstenaar's 'Zwart Vierkant' werd het icoon van het Suprematisme en werd het 'nulpunt van de schilderkunst' genoemd?"
+        },
+        options: [
+          { en: "Kazimir Malevich", es: "Kazimir Malevich", de: "Kasimir Malewitsch", nl: "Kazimir Malevitsj" },
+          { en: "Wassily Kandinsky", es: "Wassily Kandinsky", de: "Wassily Kandinsky", nl: "Wassily Kandinsky" },
+          { en: "Piet Mondrian", es: "Piet Mondrian", de: "Piet Mondrian", nl: "Piet Mondrian" },
+          { en: "El Lissitzky", es: "El Lissitzky", de: "El Lissitzky", nl: "El Lissitzky" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Kazimir Malevich painted 'Black Square' in 1915, declaring it the 'zero point of painting' and the foundation of Suprematism, his abstract art movement focused on pure geometric forms.",
+          es: "Kazimir Malevich pintó 'Cuadrado Negro' en 1915, declarándolo el 'punto cero de la pintura' y la base del Suprematismo, su movimiento de arte abstracto centrado en formas geométricas puras.",
+          de: "Kasimir Malewitsch malte 1915 das 'Schwarze Quadrat' und erklärte es zum 'Nullpunkt der Malerei' und zur Grundlage des Suprematismus, seiner abstrakten Kunstbewegung, die sich auf reine geometrische Formen konzentrierte.",
+          nl: "Kazimir Malevitsj schilderde 'Zwart Vierkant' in 1915, verklaarde het tot 'nulpunt van de schilderkunst' en de basis van het Suprematisme, zijn abstracte kunstbeweging gericht op pure geometrische vormen."
+        }
+      },
+      {
+        question: {
+          en: "Which artist created the 'Merz' collages and coined the term from a fragment of 'Kommerz' found in his work?",
+          es: "¿Qué artista creó los collages 'Merz' y acuñó el término de un fragmento de 'Kommerz' encontrado en su obra?",
+          de: "Welcher Künstler schuf die 'Merz'-Collagen und prägte den Begriff aus einem Fragment von 'Kommerz' in seinem Werk?",
+          nl: "Welke kunstenaar creëerde de 'Merz' collages en bedacht de term uit een fragment van 'Kommerz' gevonden in zijn werk?"
+        },
+        options: [
+          { en: "Kurt Schwitters", es: "Kurt Schwitters", de: "Kurt Schwitters", nl: "Kurt Schwitters" },
+          { en: "Hannah Höch", es: "Hannah Höch", de: "Hannah Höch", nl: "Hannah Höch" },
+          { en: "Raoul Hausmann", es: "Raoul Hausmann", de: "Raoul Hausmann", nl: "Raoul Hausmann" },
+          { en: "George Grosz", es: "George Grosz", de: "George Grosz", nl: "George Grosz" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Kurt Schwitters created 'Merz' art from found objects and collage materials. The term came from a fragment of 'Kommerz' (commerce) in one of his 1919 collages, becoming his personal Dada movement.",
+          es: "Kurt Schwitters creó arte 'Merz' de objetos encontrados y materiales de collage. El término vino de un fragmento de 'Kommerz' (comercio) en uno de sus collages de 1919, convirtiéndose en su movimiento Dada personal.",
+          de: "Kurt Schwitters schuf 'Merz'-Kunst aus Fundobjekten und Collagematerialien. Der Begriff stammte aus einem Fragment von 'Kommerz' in einer seiner Collagen von 1919 und wurde zu seiner persönlichen Dada-Bewegung.",
+          nl: "Kurt Schwitters creëerde 'Merz' kunst uit gevonden objecten en collagemateriaal. De term kwam uit een fragment van 'Kommerz' (commercie) in een van zijn 1919 collages, en werd zijn persoonlijke Dada beweging."
+        }
+      },
+      {
+        question: {
+          en: "Which artist's 'Spiral Jetty' earthwork in the Great Salt Lake became visible again in 2002 after being submerged for decades?",
+          es: "¿La obra terrestre 'Spiral Jetty' de qué artista en el Gran Lago Salado se volvió visible nuevamente en 2002 después de estar sumergida durante décadas?",
+          de: "Welches Künstlers Erdwerk 'Spiral Jetty' im Großen Salzsee wurde 2002 wieder sichtbar, nachdem es jahrzehntelang untergetaucht war?",
+          nl: "Wiens kunstenaar's 'Spiral Jetty' aardwerk in het Grote Zoutmeer werd weer zichtbaar in 2002 na decennia ondergedompeld te zijn?"
+        },
+        options: [
+          { en: "Robert Smithson", es: "Robert Smithson", de: "Robert Smithson", nl: "Robert Smithson" },
+          { en: "Michael Heizer", es: "Michael Heizer", de: "Michael Heizer", nl: "Michael Heizer" },
+          { en: "Walter De Maria", es: "Walter De Maria", de: "Walter De Maria", nl: "Walter De Maria" },
+          { en: "Nancy Holt", es: "Nancy Holt", de: "Nancy Holt", nl: "Nancy Holt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Robert Smithson created 'Spiral Jetty' in 1970 using 6,650 tons of basalt rocks. The 1,500-foot coil was submerged by rising water levels in 1972 and re-emerged during a drought in 2002.",
+          es: "Robert Smithson creó 'Spiral Jetty' en 1970 usando 6,650 toneladas de rocas de basalto. La espiral de 1,500 pies fue sumergida por niveles de agua crecientes en 1972 y resurgió durante una sequía en 2002.",
+          de: "Robert Smithson schuf 1970 'Spiral Jetty' mit 6.650 Tonnen Basaltgestein. Die 1.500 Fuß lange Spirale wurde 1972 durch steigende Wasserstände überschwemmt und tauchte 2002 während einer Dürre wieder auf.",
+          nl: "Robert Smithson creëerde 'Spiral Jetty' in 1970 met 6.650 ton basaltrotsen. De 1.500 voet lange spiraal werd ondergedompeld door stijgende waterstanden in 1972 en dook weer op tijdens een droogte in 2002."
+        }
+      },
+      {
+        question: {
+          en: "Which artist's 'Infinity Mirror Rooms' create immersive experiences using mirrors and LED lights?",
+          es: "¿Las 'Salas de Espejos Infinitos' de qué artista crean experiencias inmersivas usando espejos y luces LED?",
+          de: "Welche Künstlerin's 'Infinity Mirror Rooms' schaffen immersive Erlebnisse mit Spiegeln und LED-Lichtern?",
+          nl: "Wiens kunstenaar's 'Infinity Mirror Rooms' creëren immersieve ervaringen met spiegels en LED-lichten?"
+        },
+        options: [
+          { en: "Yayoi Kusama", es: "Yayoi Kusama", de: "Yayoi Kusama", nl: "Yayoi Kusama" },
+          { en: "Yoko Ono", es: "Yoko Ono", de: "Yoko Ono", nl: "Yoko Ono" },
+          { en: "Marina Abramović", es: "Marina Abramović", de: "Marina Abramović", nl: "Marina Abramović" },
+          { en: "Pipilotti Rist", es: "Pipilotti Rist", de: "Pipilotti Rist", nl: "Pipilotti Rist" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Yayoi Kusama's 'Infinity Mirror Rooms' began in 1965 and create seemingly endless reflective spaces. These installations reflect her hallucinations and obsession with repetition and infinity.",
+          es: "Las 'Salas de Espejos Infinitos' de Yayoi Kusama comenzaron en 1965 y crean espacios reflexivos aparentemente infinitos. Estas instalaciones reflejan sus alucinaciones y obsesión con la repetición e infinito.",
+          de: "Yayoi Kusamas 'Infinity Mirror Rooms' begannen 1965 und schaffen scheinbar endlose reflektierende Räume. Diese Installationen spiegeln ihre Halluzinationen und Besessenheit mit Wiederholung und Unendlichkeit wider.",
+          nl: "Yayoi Kusama's 'Infinity Mirror Rooms' begonnen in 1965 en creëren schijnbaar eindeloze reflecterende ruimtes. Deze installaties weerspiegelen haar hallucinaties en obsessie met herhaling en oneindigheid."
+        }
+      },
+      {
+        question: {
+          en: "Which artist painted 'The Raft of the Medusa', depicting a real 1816 shipwreck that caused political scandal?",
+          es: "¿Qué artista pintó 'La Balsa de la Medusa', representando un naufragio real de 1816 que causó escándalo político?",
+          de: "Welcher Künstler malte 'Das Floß der Medusa', das einen echten Schiffbruch von 1816 darstellt, der einen politischen Skandal verursachte?",
+          nl: "Welke kunstenaar schilderde 'Het Vlot van de Medusa', dat een echte schipbreuk uit 1816 afbeeldt die politiek schandaal veroorzaakte?"
+        },
+        options: [
+          { en: "Théodore Géricault", es: "Théodore Géricault", de: "Théodore Géricault", nl: "Théodore Géricault" },
+          { en: "Eugène Delacroix", es: "Eugène Delacroix", de: "Eugène Delacroix", nl: "Eugène Delacroix" },
+          { en: "Jean-Auguste-Dominique Ingres", es: "Jean-Auguste-Dominique Ingres", de: "Jean-Auguste-Dominique Ingres", nl: "Jean-Auguste-Dominique Ingres" },
+          { en: "Jacques-Louis David", es: "Jacques-Louis David", de: "Jacques-Louis David", nl: "Jacques-Louis David" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Théodore Géricault painted 'The Raft of the Medusa' (1818-1819) depicting survivors of the French frigate Méduse. The disaster exposed government incompetence and included cannibalism among survivors.",
+          es: "Théodore Géricault pintó 'La Balsa de la Medusa' (1818-1819) representando supervivientes de la fragata francesa Méduse. El desastre expuso incompetencia gubernamental e incluyó canibalismo entre supervivientes.",
+          de: "Théodore Géricault malte 'Das Floß der Medusa' (1818-1819) und stellte Überlebende der französischen Fregatte Méduse dar. Die Katastrophe enthüllte Regierungsinkompetenz und beinhaltete Kannibalismus unter Überlebenden.",
+          nl: "Théodore Géricault schilderde 'Het Vlot van de Medusa' (1818-1819) met overlevenden van het Franse fregat Méduse. De ramp onthulde regeringsincompetentie en omvatte kannibalisme onder overlevenden."
+        }
+      },
+      {
+        question: {
+          en: "Which artist's 'Fountain' (a urinal signed 'R. Mutt') shocked the art world in 1917?",
+          es: "¿La 'Fuente' de qué artista (un urinario firmado 'R. Mutt') escandalizó al mundo del arte en 1917?",
+          de: "Welches Künstlers 'Brunnen' (ein Urinal signiert 'R. Mutt') schockierte 1917 die Kunstwelt?",
+          nl: "Wiens kunstenaar's 'Fontein' (een urinoir gesigneerd 'R. Mutt') shockeerde de kunstwereld in 1917?"
+        },
+        options: [
+          { en: "Marcel Duchamp", es: "Marcel Duchamp", de: "Marcel Duchamp", nl: "Marcel Duchamp" },
+          { en: "Man Ray", es: "Man Ray", de: "Man Ray", nl: "Man Ray" },
+          { en: "Francis Picabia", es: "Francis Picabia", de: "Francis Picabia", nl: "Francis Picabia" },
+          { en: "Max Ernst", es: "Max Ernst", de: "Max Ernst", nl: "Max Ernst" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Marcel Duchamp submitted 'Fountain' to the Society of Independent Artists in 1917. This 'readymade' challenged the definition of art and became one of the most influential works of the 20th century.",
+          es: "Marcel Duchamp presentó 'Fuente' a la Sociedad de Artistas Independientes en 1917. Este 'readymade' desafió la definición de arte y se convirtió en una de las obras más influyentes del siglo XX.",
+          de: "Marcel Duchamp reichte 1917 'Brunnen' bei der Society of Independent Artists ein. Dieses 'Readymade' stellte die Definition von Kunst in Frage und wurde zu einem der einflussreichsten Werke des 20. Jahrhunderts.",
+          nl: "Marcel Duchamp diende 'Fontein' in bij de Society of Independent Artists in 1917. Dit 'readymade' daagde de definitie van kunst uit en werd een van de meest invloedrijke werken van de 20e eeuw."
+        }
+      },
+      {
+        question: {
+          en: "Which artist's 'The Two Fridas' depicts her dual heritage with two self-portraits holding hands?",
+          es: "¿'Las Dos Fridas' de qué artista representa su herencia dual con dos autorretratos tomados de la mano?",
+          de: "Welche Künstlerin's 'Die zwei Fridas' zeigt ihr doppeltes Erbe mit zwei Selbstporträts, die sich an den Händen halten?",
+          nl: "Wiens kunstenaar's 'De Twee Frida's' toont haar dubbele erfenis met twee zelfportretten die elkaars hand vasthouden?"
+        },
+        options: [
+          { en: "Frida Kahlo", es: "Frida Kahlo", de: "Frida Kahlo", nl: "Frida Kahlo" },
+          { en: "Remedios Varo", es: "Remedios Varo", de: "Remedios Varo", nl: "Remedios Varo" },
+          { en: "Leonora Carrington", es: "Leonora Carrington", de: "Leonora Carrington", nl: "Leonora Carrington" },
+          { en: "Maria Izquierdo", es: "María Izquierdo", de: "María Izquierdo", nl: "María Izquierdo" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Frida Kahlo painted 'The Two Fridas' in 1939, showing her European and Mexican identities. One Frida wears Victorian dress, the other traditional Tehuana costume, connected by an exposed artery.",
+          es: "Frida Kahlo pintó 'Las Dos Fridas' en 1939, mostrando sus identidades europea y mexicana. Una Frida viste vestido victoriano, la otra traje tradicional tehuana, conectadas por una arteria expuesta.",
+          de: "Frida Kahlo malte 1939 'Die zwei Fridas' und zeigte ihre europäische und mexikanische Identität. Eine Frida trägt ein viktorianisches Kleid, die andere traditionelle Tehuana-Tracht, verbunden durch eine freiliegende Arterie.",
+          nl: "Frida Kahlo schilderde 'De Twee Frida's' in 1939, toonde haar Europese en Mexicaanse identiteit. Eén Frida draagt Victoriaanse kleding, de ander traditionele Tehuana klederdracht, verbonden door een blootliggende slagader."
+        }
+      },
+      {
+        question: {
+          en: "Which artist created 'The Gates of Hell', a monumental bronze door that occupied him for 37 years?",
+          es: "¿Qué artista creó 'Las Puertas del Infierno', una puerta de bronce monumental que lo ocupó durante 37 años?",
+          de: "Welcher Künstler schuf 'Das Höllentor', ein monumentales Bronzetor, das ihn 37 Jahre beschäftigte?",
+          nl: "Welke kunstenaar creëerde 'De Poorten van de Hel', een monumentale bronzen deur die hem 37 jaar bezighield?"
+        },
+        options: [
+          { en: "Auguste Rodin", es: "Auguste Rodin", de: "Auguste Rodin", nl: "Auguste Rodin" },
+          { en: "Antoine Bourdelle", es: "Antoine Bourdelle", de: "Antoine Bourdelle", nl: "Antoine Bourdelle" },
+          { en: "Camille Claudel", es: "Camille Claudel", de: "Camille Claudel", nl: "Camille Claudel" },
+          { en: "Aristide Maillol", es: "Aristide Maillol", de: "Aristide Maillol", nl: "Aristide Maillol" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Auguste Rodin worked on 'The Gates of Hell' from 1880 until his death in 1917. Inspired by Dante's Inferno, it includes over 200 figures, including 'The Thinker' originally titled 'The Poet'.",
+          es: "Auguste Rodin trabajó en 'Las Puertas del Infierno' desde 1880 hasta su muerte en 1917. Inspirado en el Infierno de Dante, incluye más de 200 figuras, incluyendo 'El Pensador' originalmente titulado 'El Poeta'.",
+          de: "Auguste Rodin arbeitete von 1880 bis zu seinem Tod 1917 an 'Das Höllentor'. Inspiriert von Dantes Inferno, umfasst es über 200 Figuren, einschließlich 'Der Denker', ursprünglich 'Der Dichter' genannt.",
+          nl: "Auguste Rodin werkte aan 'De Poorten van de Hel' van 1880 tot zijn dood in 1917. Geïnspireerd door Dante's Inferno, bevat het meer dan 200 figuren, waaronder 'De Denker' oorspronkelijk 'De Dichter' genoemd."
+        }
+      },
+      {
+        question: {
+          en: "Which artist's 'Wrapped Reichstag' in 1995 covered the Berlin parliament building in silvery fabric?",
+          es: "¿El 'Reichstag Envuelto' de qué artista en 1995 cubrió el edificio del parlamento de Berlín con tela plateada?",
+          de: "Welches Künstlers 'Verhüllter Reichstag' 1995 bedeckte das Berliner Parlamentsgebäude mit silbernem Stoff?",
+          nl: "Wiens kunstenaar's 'Verpakte Reichstag' in 1995 bedekte het Berlijnse parlementsgebouw met zilverachtige stof?"
+        },
+        options: [
+          { en: "Christo and Jeanne-Claude", es: "Christo y Jeanne-Claude", de: "Christo und Jeanne-Claude", nl: "Christo en Jeanne-Claude" },
+          { en: "Anselm Kiefer", es: "Anselm Kiefer", de: "Anselm Kiefer", nl: "Anselm Kiefer" },
+          { en: "Joseph Beuys", es: "Joseph Beuys", de: "Joseph Beuys", nl: "Joseph Beuys" },
+          { en: "Gerhard Richter", es: "Gerhard Richter", de: "Gerhard Richter", nl: "Gerhard Richter" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Christo and Jeanne-Claude wrapped the Reichstag in 1995 using 100,000 square meters of silver fabric. The project took 24 years to realize and attracted 5 million visitors in two weeks.",
+          es: "Christo y Jeanne-Claude envolvieron el Reichstag en 1995 usando 100,000 metros cuadrados de tela plateada. El proyecto tardó 24 años en realizarse y atrajo 5 millones de visitantes en dos semanas.",
+          de: "Christo und Jeanne-Claude verhüllten 1995 den Reichstag mit 100.000 Quadratmetern silbernem Stoff. Das Projekt dauerte 24 Jahre zur Realisierung und zog 5 Millionen Besucher in zwei Wochen an.",
+          nl: "Christo en Jeanne-Claude verpakten de Reichstag in 1995 met 100.000 vierkante meter zilverkleurige stof. Het project duurde 24 jaar om te realiseren en trok 5 miljoen bezoekers in twee weken."
+        }
+      },
+      {
+        question: {
+          en: "Which artist's 'Blue Poles' sold for a record price to Australia in 1973, causing national controversy?",
+          es: "¿'Blue Poles' de qué artista se vendió por un precio récord a Australia en 1973, causando controversia nacional?",
+          de: "Welches Künstlers 'Blue Poles' wurde 1973 für einen Rekordpreis nach Australien verkauft und verursachte nationale Kontroverse?",
+          nl: "Wiens kunstenaar's 'Blue Poles' verkocht voor een recordprijs aan Australië in 1973, wat nationale controverse veroorzaakte?"
+        },
+        options: [
+          { en: "Jackson Pollock", es: "Jackson Pollock", de: "Jackson Pollock", nl: "Jackson Pollock" },
+          { en: "Willem de Kooning", es: "Willem de Kooning", de: "Willem de Kooning", nl: "Willem de Kooning" },
+          { en: "Mark Rothko", es: "Mark Rothko", de: "Mark Rothko", nl: "Mark Rothko" },
+          { en: "Robert Motherwell", es: "Robert Motherwell", de: "Robert Motherwell", nl: "Robert Motherwell" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jackson Pollock's 'Blue Poles' (Number 11, 1952) was purchased by Australia's National Gallery for $1.3 million in 1973, then the highest price for a modern painting, sparking debate about public spending on art.",
+          es: "Los 'Blue Poles' de Jackson Pollock (Número 11, 1952) fueron comprados por la Galería Nacional de Australia por $1.3 millones en 1973, entonces el precio más alto para una pintura moderna, provocando debate sobre el gasto público en arte.",
+          de: "Jackson Pollocks 'Blue Poles' (Nummer 11, 1952) wurde 1973 von Australiens Nationalgalerie für 1,3 Millionen Dollar gekauft, damals der höchste Preis für ein modernes Gemälde, was Debatten über öffentliche Ausgaben für Kunst auslöste.",
+          nl: "Jackson Pollock's 'Blue Poles' (Nummer 11, 1952) werd gekocht door Australië's National Gallery voor $1,3 miljoen in 1973, toen de hoogste prijs voor een modern schilderij, wat debat over publieke uitgaven aan kunst veroorzaakte."
+        }
+      },
+      {
+        question: {
+          en: "Which artist painted 'The Garden of Earthly Delights', a triptych filled with fantastical creatures?",
+          es: "¿Qué artista pintó 'El Jardín de las Delicias', un tríptico lleno de criaturas fantásticas?",
+          de: "Welcher Künstler malte 'Der Garten der Lüste', ein Triptychon voller fantastischer Kreaturen?",
+          nl: "Welke kunstenaar schilderde 'De Tuin der Lusten', een drieluik vol fantastische wezens?"
+        },
+        options: [
+          { en: "Hieronymus Bosch", es: "El Bosco", de: "Hieronymus Bosch", nl: "Jheronimus Bosch" },
+          { en: "Pieter Bruegel the Elder", es: "Pieter Bruegel el Viejo", de: "Pieter Bruegel der Ältere", nl: "Pieter Bruegel de Oude" },
+          { en: "Jan van Eyck", es: "Jan van Eyck", de: "Jan van Eyck", nl: "Jan van Eyck" },
+          { en: "Rogier van der Weyden", es: "Rogier van der Weyden", de: "Rogier van der Weyden", nl: "Rogier van der Weyden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hieronymus Bosch painted 'The Garden of Earthly Delights' around 1490-1510. This enigmatic triptych depicts paradise, earthly pleasures, and hell with surreal imagery that still puzzles scholars.",
+          es: "El Bosco pintó 'El Jardín de las Delicias' alrededor de 1490-1510. Este enigmático tríptico representa el paraíso, placeres terrenales e infierno con imágenes surrealistas que aún desconciertan a los eruditos.",
+          de: "Hieronymus Bosch malte 'Der Garten der Lüste' um 1490-1510. Dieses rätselhafte Triptychon zeigt Paradies, irdische Freuden und Hölle mit surrealen Bildern, die Gelehrte immer noch verwirren.",
+          nl: "Jheronimus Bosch schilderde 'De Tuin der Lusten' rond 1490-1510. Dit raadselachtige drieluik toont het paradijs, aardse genoegens en de hel met surrealistische beelden die geleerden nog steeds puzzelen."
+        }
+      },
+      {
+        question: {
+          en: "Which artist's 'Balloon Dog' sculptures in mirror-finish stainless steel have sold for over $50 million?",
+          es: "¿Las esculturas 'Perro Globo' de qué artista en acero inoxidable con acabado espejo se han vendido por más de $50 millones?",
+          de: "Welches Künstlers 'Balloon Dog' Skulpturen in spiegelpoliertem Edelstahl wurden für über 50 Millionen Dollar verkauft?",
+          nl: "Wiens kunstenaar's 'Balloon Dog' sculpturen in spiegelglans roestvrij staal zijn verkocht voor meer dan $50 miljoen?"
+        },
+        options: [
+          { en: "Jeff Koons", es: "Jeff Koons", de: "Jeff Koons", nl: "Jeff Koons" },
+          { en: "Damien Hirst", es: "Damien Hirst", de: "Damien Hirst", nl: "Damien Hirst" },
+          { en: "Takashi Murakami", es: "Takashi Murakami", de: "Takashi Murakami", nl: "Takashi Murakami" },
+          { en: "Anish Kapoor", es: "Anish Kapoor", de: "Anish Kapoor", nl: "Anish Kapoor" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jeff Koons' 'Balloon Dog (Orange)' sold for $58.4 million in 2013, making it the most expensive work by a living artist at the time. Five unique versions exist in different colors.",
+          es: "El 'Perro Globo (Naranja)' de Jeff Koons se vendió por $58.4 millones en 2013, convirtiéndolo en la obra más cara de un artista vivo en ese momento. Existen cinco versiones únicas en diferentes colores.",
+          de: "Jeff Koons' 'Balloon Dog (Orange)' wurde 2013 für 58,4 Millionen Dollar verkauft und war damals das teuerste Werk eines lebenden Künstlers. Es existieren fünf einzigartige Versionen in verschiedenen Farben.",
+          nl: "Jeff Koons' 'Balloon Dog (Orange)' verkocht voor $58,4 miljoen in 2013, waarmee het destijds het duurste werk van een levende kunstenaar was. Er bestaan vijf unieke versies in verschillende kleuren."
+        }
+      },
+      {
+        question: {
+          en: "Which artist painted 'Las Meninas', considered one of the most analyzed paintings in Western art?",
+          es: "¿Qué artista pintó 'Las Meninas', considerada una de las pinturas más analizadas del arte occidental?",
+          de: "Welcher Künstler malte 'Las Meninas', das als eines der am meisten analysierten Gemälde der westlichen Kunst gilt?",
+          nl: "Welke kunstenaar schilderde 'Las Meninas', beschouwd als een van de meest geanalyseerde schilderijen in westerse kunst?"
+        },
+        options: [
+          { en: "Diego Velázquez", es: "Diego Velázquez", de: "Diego Velázquez", nl: "Diego Velázquez" },
+          { en: "Francisco Goya", es: "Francisco de Goya", de: "Francisco de Goya", nl: "Francisco Goya" },
+          { en: "El Greco", es: "El Greco", de: "El Greco", nl: "El Greco" },
+          { en: "Bartolomé Esteban Murillo", es: "Bartolomé Esteban Murillo", de: "Bartolomé Esteban Murillo", nl: "Bartolomé Esteban Murillo" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Diego Velázquez painted 'Las Meninas' in 1656, creating a complex composition that questions reality and representation. The artist includes himself painting within the painting, creating multiple layers of meaning.",
+          es: "Diego Velázquez pintó 'Las Meninas' en 1656, creando una composición compleja que cuestiona realidad y representación. El artista se incluye pintando dentro de la pintura, creando múltiples capas de significado.",
+          de: "Diego Velázquez malte 1656 'Las Meninas' und schuf eine komplexe Komposition, die Realität und Darstellung hinterfragt. Der Künstler schließt sich selbst malend im Gemälde ein und schafft mehrere Bedeutungsebenen.",
+          nl: "Diego Velázquez schilderde 'Las Meninas' in 1656, creëerde een complexe compositie die realiteit en representatie bevraagt. De kunstenaar includeert zichzelf schilderend binnen het schilderij, wat meerdere betekenislagen creëert."
+        }
+      },
+      {
+        question: {
+          en: "Which artist's 'The Physical Impossibility of Death' features a tiger shark preserved in formaldehyde?",
+          es: "¿'La Imposibilidad Física de la Muerte' de qué artista presenta un tiburón tigre preservado en formaldehído?",
+          de: "Welches Künstlers 'Die physische Unmöglichkeit des Todes' zeigt einen in Formaldehyd konservierten Tigerhai?",
+          nl: "Wiens kunstenaar's 'De Fysieke Onmogelijkheid van de Dood' toont een tijgerhaai bewaard in formaldehyde?"
+        },
+        options: [
+          { en: "Damien Hirst", es: "Damien Hirst", de: "Damien Hirst", nl: "Damien Hirst" },
+          { en: "Tracey Emin", es: "Tracey Emin", de: "Tracey Emin", nl: "Tracey Emin" },
+          { en: "Marc Quinn", es: "Marc Quinn", de: "Marc Quinn", nl: "Marc Quinn" },
+          { en: "Rachel Whiteread", es: "Rachel Whiteread", de: "Rachel Whiteread", nl: "Rachel Whiteread" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Damien Hirst created 'The Physical Impossibility of Death in the Mind of Someone Living' in 1991. The 14-foot tiger shark in a vitrine became an icon of the Young British Artists movement.",
+          es: "Damien Hirst creó 'La Imposibilidad Física de la Muerte en la Mente de Alguien Vivo' en 1991. El tiburón tigre de 14 pies en una vitrina se convirtió en icono del movimiento Young British Artists.",
+          de: "Damien Hirst schuf 1991 'Die physische Unmöglichkeit des Todes im Kopf von jemandem Lebenden'. Der 14 Fuß lange Tigerhai in einer Vitrine wurde zur Ikone der Young British Artists Bewegung.",
+          nl: "Damien Hirst creëerde 'De Fysieke Onmogelijkheid van de Dood in het Hoofd van Iemand Levend' in 1991. De 14 voet tijgerhaai in een vitrine werd een icoon van de Young British Artists beweging."
+        }
+      },
+      {
+        question: {
+          en: "Which artist created the Vietnam Veterans Memorial in Washington D.C. at age 21?",
+          es: "¿Qué artista creó el Memorial de Veteranos de Vietnam en Washington D.C. a los 21 años?",
+          de: "Welche Künstlerin schuf das Vietnam Veterans Memorial in Washington D.C. im Alter von 21 Jahren?",
+          nl: "Welke kunstenaar creëerde het Vietnam Veterans Memorial in Washington D.C. op 21-jarige leeftijd?"
+        },
+        options: [
+          { en: "Maya Lin", es: "Maya Lin", de: "Maya Lin", nl: "Maya Lin" },
+          { en: "Richard Serra", es: "Richard Serra", de: "Richard Serra", nl: "Richard Serra" },
+          { en: "Rachel Whiteread", es: "Rachel Whiteread", de: "Rachel Whiteread", nl: "Rachel Whiteread" },
+          { en: "Claes Oldenburg", es: "Claes Oldenburg", de: "Claes Oldenburg", nl: "Claes Oldenburg" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Maya Lin designed the Vietnam Veterans Memorial while still an undergraduate at Yale in 1981. Her minimalist black granite wall inscribed with 58,000 names revolutionized memorial design.",
+          es: "Maya Lin diseñó el Memorial de Veteranos de Vietnam mientras era estudiante en Yale en 1981. Su muro minimalista de granito negro inscrito con 58,000 nombres revolucionó el diseño de memoriales.",
+          de: "Maya Lin entwarf das Vietnam Veterans Memorial als Studentin in Yale 1981. Ihre minimalistische schwarze Granitwand mit 58.000 eingravierten Namen revolutionierte das Gedenkstättendesign.",
+          nl: "Maya Lin ontwierp het Vietnam Veterans Memorial terwijl ze nog student was aan Yale in 1981. Haar minimalistische zwarte granieten muur met 58.000 namen revolutioneerde memoriaal ontwerp."
+        }
+      },
+      {
+        question: {
+          en: "Which artist's 'Girl with a Pearl Earring' is known as the 'Mona Lisa of the North'?",
+          es: "¿'La joven de la perla' de qué artista es conocida como la 'Mona Lisa del Norte'?",
+          de: "Welches Künstlers 'Mädchen mit dem Perlenohrring' ist als 'Mona Lisa des Nordens' bekannt?",
+          nl: "Wiens kunstenaar's 'Meisje met de parel' staat bekend als de 'Mona Lisa van het Noorden'?"
+        },
+        options: [
+          { en: "Johannes Vermeer", es: "Johannes Vermeer", de: "Johannes Vermeer", nl: "Johannes Vermeer" },
+          { en: "Rembrandt van Rijn", es: "Rembrandt van Rijn", de: "Rembrandt van Rijn", nl: "Rembrandt van Rijn" },
+          { en: "Frans Hals", es: "Frans Hals", de: "Frans Hals", nl: "Frans Hals" },
+          { en: "Jan Steen", es: "Jan Steen", de: "Jan Steen", nl: "Jan Steen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Johannes Vermeer painted 'Girl with a Pearl Earring' around 1665. The painting's intimate gaze and mysterious subject have earned it the nickname 'Mona Lisa of the North'.",
+          es: "Johannes Vermeer pintó 'La joven de la perla' alrededor de 1665. La mirada íntima de la pintura y su sujeto misterioso le han ganado el apodo de 'Mona Lisa del Norte'.",
+          de: "Johannes Vermeer malte das 'Mädchen mit dem Perlenohrring' um 1665. Der intime Blick des Gemäldes und das geheimnisvolle Sujet brachten ihm den Spitznamen 'Mona Lisa des Nordens' ein.",
+          nl: "Johannes Vermeer schilderde 'Meisje met de parel' rond 1665. De intieme blik van het schilderij en het mysterieuze onderwerp hebben het de bijnaam 'Mona Lisa van het Noorden' opgeleverd."
+        }
       }
     ]
   };

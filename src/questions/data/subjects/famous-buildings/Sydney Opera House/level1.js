@@ -427,6 +427,426 @@
           de: "Das Sydney Opera House wird weithin als Symbol Australiens und als eines der ikonischsten Gebäude des 20. Jahrhunderts anerkannt.",
           nl: "Het Sydney Opera House wordt algemeen erkend als een symbool van Australië en een van de meest iconische gebouwen van de 20e eeuw."
         }
+      },
+      {
+        question: {
+          en: "What type of performances are held at the Sydney Opera House?",
+          es: "¿Qué tipo de actuaciones se realizan en la Ópera de Sídney?",
+          de: "Welche Art von Aufführungen finden im Sydney Opera House statt?",
+          nl: "Wat voor soort voorstellingen worden gehouden in het Sydney Opera House?"
+        },
+        options: [
+          { en: "Only opera", es: "Solo ópera", de: "Nur Oper", nl: "Alleen opera" },
+          { en: "Opera, theater, and concerts", es: "Ópera, teatro y conciertos", de: "Oper, Theater und Konzerte", nl: "Opera, theater en concerten" },
+          { en: "Only concerts", es: "Solo conciertos", de: "Nur Konzerte", nl: "Alleen concerten" },
+          { en: "Sports events", es: "Eventos deportivos", de: "Sportveranstaltungen", nl: "Sportevenementen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Sydney Opera House hosts a variety of performances including opera, theater, ballet, dance, and concerts.",
+          es: "La Ópera de Sídney alberga una variedad de actuaciones que incluyen ópera, teatro, ballet, danza y conciertos.",
+          de: "Das Sydney Opera House beherbergt eine Vielzahl von Aufführungen, darunter Oper, Theater, Ballett, Tanz und Konzerte.",
+          nl: "Het Sydney Opera House organiseert verschillende voorstellingen, waaronder opera, theater, ballet, dans en concerten."
+        }
+      },
+      {
+        question: {
+          en: "What is the name of the point where the Sydney Opera House is located?",
+          es: "¿Cuál es el nombre del punto donde se encuentra la Ópera de Sídney?",
+          de: "Wie heißt der Punkt, an dem sich das Sydney Opera House befindet?",
+          nl: "Wat is de naam van het punt waar het Sydney Opera House zich bevindt?"
+        },
+        options: [
+          { en: "Circular Quay", es: "Circular Quay", de: "Circular Quay", nl: "Circular Quay" },
+          { en: "Bennelong Point", es: "Bennelong Point", de: "Bennelong Point", nl: "Bennelong Point" },
+          { en: "Darling Point", es: "Darling Point", de: "Darling Point", nl: "Darling Point" },
+          { en: "Observatory Point", es: "Observatory Point", de: "Observatory Point", nl: "Observatory Point" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Bennelong Point is the peninsula in Sydney Harbour where the Opera House stands, named after Woollarawarre Bennelong.",
+          es: "Bennelong Point es la península en el puerto de Sídney donde se encuentra la Ópera, nombrada en honor a Woollarawarre Bennelong.",
+          de: "Bennelong Point ist die Halbinsel im Hafen von Sydney, auf der das Opernhaus steht, benannt nach Woollarawarre Bennelong.",
+          nl: "Bennelong Point is het schiereiland in Sydney Harbour waar het Opera House staat, vernoemd naar Woollarawarre Bennelong."
+        }
+      },
+      {
+        question: {
+          en: "When did construction of the Sydney Opera House begin?",
+          es: "¿Cuándo comenzó la construcción de la Ópera de Sídney?",
+          de: "Wann begann der Bau des Sydney Opera House?",
+          nl: "Wanneer begon de bouw van het Sydney Opera House?"
+        },
+        options: [
+          { en: "1955", es: "1955", de: "1955", nl: "1955" },
+          { en: "1959", es: "1959", de: "1959", nl: "1959" },
+          { en: "1963", es: "1963", de: "1963", nl: "1963" },
+          { en: "1968", es: "1968", de: "1968", nl: "1968" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Construction of the Sydney Opera House began in 1959 and took 14 years to complete.",
+          es: "La construcción de la Ópera de Sídney comenzó en 1959 y tomó 14 años en completarse.",
+          de: "Der Bau des Sydney Opera House begann 1959 und dauerte 14 Jahre.",
+          nl: "De bouw van het Sydney Opera House begon in 1959 en duurde 14 jaar."
+        }
+      },
+      {
+        question: {
+          en: "What material covers the roof shells?",
+          es: "¿Qué material cubre las conchas del techo?",
+          de: "Welches Material bedeckt die Dachschalen?",
+          nl: "Welk materiaal bedekt de dakschelpen?"
+        },
+        options: [
+          { en: "Glass panels", es: "Paneles de vidrio", de: "Glasscheiben", nl: "Glazen panelen" },
+          { en: "Ceramic tiles", es: "Azulejos de cerámica", de: "Keramikfliesen", nl: "Keramische tegels" },
+          { en: "Metal sheets", es: "Láminas de metal", de: "Metallbleche", nl: "Metalen platen" },
+          { en: "Painted concrete", es: "Hormigón pintado", de: "Bemalter Beton", nl: "Geschilderd beton" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Over 1 million ceramic tiles cover the roof shells, creating the distinctive appearance of the Opera House.",
+          es: "Más de 1 millón de azulejos de cerámica cubren las conchas del techo, creando la apariencia distintiva de la Ópera.",
+          de: "Über 1 Million Keramikfliesen bedecken die Dachschalen und schaffen das unverwechselbare Aussehen des Opernhauses.",
+          nl: "Meer dan 1 miljoen keramische tegels bedekken de dakschelpen, waardoor het kenmerkende uiterlijk van het Opera House ontstaat."
+        }
+      },
+      {
+        question: {
+          en: "What famous landmark is near the Sydney Opera House?",
+          es: "¿Qué famoso punto de referencia está cerca de la Ópera de Sídney?",
+          de: "Welches berühmte Wahrzeichen befindet sich in der Nähe des Sydney Opera House?",
+          nl: "Welk beroemd oriëntatiepunt bevindt zich bij het Sydney Opera House?"
+        },
+        options: [
+          { en: "Sydney Tower", es: "Torre de Sídney", de: "Sydney Tower", nl: "Sydney Tower" },
+          { en: "Sydney Harbour Bridge", es: "Puente del Puerto de Sídney", de: "Sydney Harbour Bridge", nl: "Sydney Harbour Bridge" },
+          { en: "Bondi Beach", es: "Playa de Bondi", de: "Bondi Beach", nl: "Bondi Beach" },
+          { en: "Centrepoint Tower", es: "Torre Centrepoint", de: "Centrepoint Tower", nl: "Centrepoint Tower" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Sydney Harbour Bridge is located very close to the Opera House and both are iconic symbols of Sydney.",
+          es: "El Puente del Puerto de Sídney está ubicado muy cerca de la Ópera y ambos son símbolos icónicos de Sídney.",
+          de: "Die Sydney Harbour Bridge befindet sich ganz in der Nähe des Opernhauses und beide sind ikonische Symbole von Sydney.",
+          nl: "De Sydney Harbour Bridge bevindt zich zeer dicht bij het Opera House en beide zijn iconische symbolen van Sydney."
+        }
+      },
+      {
+        question: {
+          en: "How many ceramic tiles approximately cover the roof?",
+          es: "¿Aproximadamente cuántos azulejos de cerámica cubren el techo?",
+          de: "Wie viele Keramikfliesen bedecken ungefähr das Dach?",
+          nl: "Hoeveel keramische tegels bedekken ongeveer het dak?"
+        },
+        options: [
+          { en: "100,000", es: "100.000", de: "100.000", nl: "100.000" },
+          { en: "500,000", es: "500.000", de: "500.000", nl: "500.000" },
+          { en: "Over 1 million", es: "Más de 1 millón", de: "Über 1 Million", nl: "Meer dan 1 miljoen" },
+          { en: "5 million", es: "5 millones", de: "5 Millionen", nl: "5 miljoen" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Over 1 million ceramic tiles from Sweden cover the roof shells, creating the distinctive chevron pattern.",
+          es: "Más de 1 millón de azulejos de cerámica de Suecia cubren las conchas del techo, creando el distintivo patrón de chevron.",
+          de: "Über 1 Million Keramikfliesen aus Schweden bedecken die Dachschalen und bilden das markante Chevron-Muster.",
+          nl: "Meer dan 1 miljoen keramische tegels uit Zweden bedekken de dakschelpen en vormen het kenmerkende chevronpatroon."
+        }
+      },
+      {
+        question: {
+          en: "What is the Sydney Opera House built on?",
+          es: "¿Sobre qué está construida la Ópera de Sídney?",
+          de: "Worauf ist das Sydney Opera House gebaut?",
+          nl: "Waarop is het Sydney Opera House gebouwd?"
+        },
+        options: [
+          { en: "Sandy beach", es: "Playa de arena", de: "Sandstrand", nl: "Zandstrand" },
+          { en: "Rocky peninsula", es: "Península rocosa", de: "Felsige Halbinsel", nl: "Rotsachtig schiereiland" },
+          { en: "Artificial island", es: "Isla artificial", de: "Künstliche Insel", nl: "Kunstmatig eiland" },
+          { en: "Floating platform", es: "Plataforma flotante", de: "Schwimmende Plattform", nl: "Drijvend platform" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Opera House is built on Bennelong Point, a rocky peninsula that juts into Sydney Harbour.",
+          es: "La Ópera está construida en Bennelong Point, una península rocosa que sobresale en el puerto de Sídney.",
+          de: "Das Opernhaus ist auf Bennelong Point gebaut, einer felsigen Halbinsel, die in den Hafen von Sydney ragt.",
+          nl: "Het Opera House is gebouwd op Bennelong Point, een rotsachtig schiereiland dat uitsteekt in Sydney Harbour."
+        }
+      },
+      {
+        question: {
+          en: "In what continent is the Sydney Opera House located?",
+          es: "¿En qué continente se encuentra la Ópera de Sídney?",
+          de: "Auf welchem Kontinent befindet sich das Sydney Opera House?",
+          nl: "Op welk continent bevindt zich het Sydney Opera House?"
+        },
+        options: [
+          { en: "Asia", es: "Asia", de: "Asien", nl: "Azië" },
+          { en: "Australia/Oceania", es: "Australia/Oceanía", de: "Australien/Ozeanien", nl: "Australië/Oceanië" },
+          { en: "South America", es: "América del Sur", de: "Südamerika", nl: "Zuid-Amerika" },
+          { en: "Africa", es: "África", de: "Afrika", nl: "Afrika" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Sydney Opera House is located in Australia, which is part of the continent of Oceania.",
+          es: "La Ópera de Sídney está ubicada en Australia, que es parte del continente de Oceanía.",
+          de: "Das Sydney Opera House befindet sich in Australien, das Teil des Kontinents Ozeanien ist.",
+          nl: "Het Sydney Opera House bevindt zich in Australië, dat deel uitmaakt van het continent Oceanië."
+        }
+      },
+      {
+        question: {
+          en: "What is the main color appearance of the Sydney Opera House?",
+          es: "¿Cuál es la apariencia de color principal de la Ópera de Sídney?",
+          de: "Was ist die Hauptfarbe des Sydney Opera House?",
+          nl: "Wat is de hoofdkleur van het Sydney Opera House?"
+        },
+        options: [
+          { en: "Gray", es: "Gris", de: "Grau", nl: "Grijs" },
+          { en: "White/cream", es: "Blanco/crema", de: "Weiß/Creme", nl: "Wit/crème" },
+          { en: "Blue", es: "Azul", de: "Blau", nl: "Blauw" },
+          { en: "Red", es: "Rojo", de: "Rot", nl: "Rood" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Sydney Opera House appears white and cream due to the ceramic tiles covering the roof shells.",
+          es: "La Ópera de Sídney aparece blanca y crema debido a los azulejos de cerámica que cubren las conchas del techo.",
+          de: "Das Sydney Opera House erscheint weiß und cremeweiß aufgrund der Keramikfliesen, die die Dachschalen bedecken.",
+          nl: "Het Sydney Opera House lijkt wit en crème vanwege de keramische tegels die de dakschelpen bedekken."
+        }
+      },
+      {
+        question: {
+          en: "What famous orchestra performs at the Sydney Opera House?",
+          es: "¿Qué famosa orquesta actúa en la Ópera de Sídney?",
+          de: "Welches berühmte Orchester tritt im Sydney Opera House auf?",
+          nl: "Welk beroemd orkest treedt op in het Sydney Opera House?"
+        },
+        options: [
+          { en: "Melbourne Symphony", es: "Sinfonía de Melbourne", de: "Melbourne Symphony", nl: "Melbourne Symphony" },
+          { en: "Sydney Symphony Orchestra", es: "Orquesta Sinfónica de Sídney", de: "Sydney Symphony Orchestra", nl: "Sydney Symphony Orchestra" },
+          { en: "Australian Chamber Orchestra", es: "Orquesta de Cámara Australiana", de: "Australian Chamber Orchestra", nl: "Australian Chamber Orchestra" },
+          { en: "Queensland Orchestra", es: "Orquesta de Queensland", de: "Queensland Orchestra", nl: "Queensland Orchestra" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Sydney Symphony Orchestra regularly performs at the Concert Hall, the largest venue within the Opera House.",
+          es: "La Orquesta Sinfónica de Sídney actúa regularmente en la Sala de Conciertos, el lugar más grande dentro de la Ópera.",
+          de: "Das Sydney Symphony Orchestra tritt regelmäßig im Konzertsaal auf, dem größten Veranstaltungsort im Opernhaus.",
+          nl: "Het Sydney Symphony Orchestra treedt regelmatig op in de Concertzaal, de grootste zaal binnen het Opera House."
+        }
+      },
+      {
+        question: {
+          en: "What shape do the roof shells resemble?",
+          es: "¿A qué forma se asemejan las conchas del techo?",
+          de: "Welche Form ähneln die Dachschalen?",
+          nl: "Welke vorm lijken de dakschelpen op?"
+        },
+        options: [
+          { en: "Pyramids", es: "Pirámides", de: "Pyramiden", nl: "Piramides" },
+          { en: "Sails or shells", es: "Velas o conchas", de: "Segel oder Muscheln", nl: "Zeilen of schelpen" },
+          { en: "Domes", es: "Cúpulas", de: "Kuppeln", nl: "Koepels" },
+          { en: "Cubes", es: "Cubos", de: "Würfel", nl: "Kubussen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The distinctive roof shells resemble white sails on Sydney Harbour or seashells, reflecting maritime inspiration.",
+          es: "Las distintivas conchas del techo se asemejan a velas blancas en el puerto de Sídney o conchas marinas, reflejando inspiración marítima.",
+          de: "Die markanten Dachschalen ähneln weißen Segeln im Hafen von Sydney oder Muscheln und spiegeln maritime Inspiration wider.",
+          nl: "De kenmerkende dakschelpen lijken op witte zeilen op Sydney Harbour of zeeschelpen, wat maritieme inspiratie weerspiegelt."
+        }
+      },
+      {
+        question: {
+          en: "How many years did it take to build the Sydney Opera House?",
+          es: "¿Cuántos años se tardó en construir la Ópera de Sídney?",
+          de: "Wie viele Jahre dauerte der Bau des Sydney Opera House?",
+          nl: "Hoeveel jaar duurde het om het Sydney Opera House te bouwen?"
+        },
+        options: [
+          { en: "7 years", es: "7 años", de: "7 Jahre", nl: "7 jaar" },
+          { en: "10 years", es: "10 años", de: "10 Jahre", nl: "10 jaar" },
+          { en: "14 years", es: "14 años", de: "14 Jahre", nl: "14 jaar" },
+          { en: "20 years", es: "20 años", de: "20 Jahre", nl: "20 jaar" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Construction took 14 years, from 1959 to 1973, significantly longer than the originally estimated 4 years.",
+          es: "La construcción tomó 14 años, desde 1959 hasta 1973, significativamente más que los 4 años estimados originalmente.",
+          de: "Der Bau dauerte 14 Jahre, von 1959 bis 1973, erheblich länger als die ursprünglich geschätzten 4 Jahre.",
+          nl: "De bouw duurde 14 jaar, van 1959 tot 1973, aanzienlijk langer dan de oorspronkelijk geschatte 4 jaar."
+        }
+      },
+      {
+        question: {
+          en: "What makes the Sydney Opera House internationally recognized?",
+          es: "¿Qué hace que la Ópera de Sídney sea reconocida internacionalmente?",
+          de: "Was macht das Sydney Opera House international bekannt?",
+          nl: "Wat maakt het Sydney Opera House internationaal erkend?"
+        },
+        options: [
+          { en: "Its size", es: "Su tamaño", de: "Seine Größe", nl: "Zijn grootte" },
+          { en: "Its unique architecture", es: "Su arquitectura única", de: "Seine einzigartige Architektur", nl: "Zijn unieke architectuur" },
+          { en: "Its age", es: "Su edad", de: "Sein Alter", nl: "Zijn leeftijd" },
+          { en: "Its cost", es: "Su costo", de: "Seine Kosten", nl: "Zijn kosten" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Sydney Opera House is famous worldwide for its unique and innovative architectural design with distinctive shell-shaped roof.",
+          es: "La Ópera de Sídney es famosa en todo el mundo por su diseño arquitectónico único e innovador con un techo distintivo en forma de concha.",
+          de: "Das Sydney Opera House ist weltweit berühmt für sein einzigartiges und innovatives architektonisches Design mit dem markanten schalenförmigen Dach.",
+          nl: "Het Sydney Opera House is wereldwijd beroemd om zijn unieke en innovatieve architectonische ontwerp met het kenmerkende schelpvormige dak."
+        }
+      },
+      {
+        question: {
+          en: "What company manages the Sydney Opera House?",
+          es: "¿Qué compañía administra la Ópera de Sídney?",
+          de: "Welches Unternehmen verwaltet das Sydney Opera House?",
+          nl: "Welk bedrijf beheert het Sydney Opera House?"
+        },
+        options: [
+          { en: "Sydney Opera House Trust", es: "Sydney Opera House Trust", de: "Sydney Opera House Trust", nl: "Sydney Opera House Trust" },
+          { en: "Australian Arts Council", es: "Consejo de Artes Australiano", de: "Australian Arts Council", nl: "Australian Arts Council" },
+          { en: "Sydney City Council", es: "Consejo de la Ciudad de Sídney", de: "Sydney City Council", nl: "Sydney City Council" },
+          { en: "Private company", es: "Empresa privada", de: "Privatunternehmen", nl: "Particulier bedrijf" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Sydney Opera House Trust manages and operates the building, ensuring its maintenance and cultural programming.",
+          es: "El Sydney Opera House Trust administra y opera el edificio, asegurando su mantenimiento y programación cultural.",
+          de: "Der Sydney Opera House Trust verwaltet und betreibt das Gebäude und gewährleistet dessen Wartung und kulturelle Programmierung.",
+          nl: "Het Sydney Opera House Trust beheert en exploiteert het gebouw, waarbij het onderhoud en culturele programmering wordt gewaarborgd."
+        }
+      },
+      {
+        question: {
+          en: "Is the Sydney Opera House used only for opera performances?",
+          es: "¿Se utiliza la Ópera de Sídney solo para presentaciones de ópera?",
+          de: "Wird das Sydney Opera House nur für Opernaufführungen genutzt?",
+          nl: "Wordt het Sydney Opera House alleen gebruikt voor opera-uitvoeringen?"
+        },
+        options: [
+          { en: "Yes, only opera", es: "Sí, solo ópera", de: "Ja, nur Oper", nl: "Ja, alleen opera" },
+          { en: "No, it hosts many types of performances", es: "No, alberga muchos tipos de actuaciones", de: "Nein, es beherbergt viele Arten von Aufführungen", nl: "Nee, het organiseert vele soorten voorstellingen" },
+          { en: "Yes, only classical music", es: "Sí, solo música clásica", de: "Ja, nur klassische Musik", nl: "Ja, alleen klassieke muziek" },
+          { en: "No, it's now a museum", es: "No, ahora es un museo", de: "Nein, es ist jetzt ein Museum", nl: "Nee, het is nu een museum" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Sydney Opera House hosts over 1,500 performances annually including opera, ballet, theater, dance, comedy, and concerts.",
+          es: "La Ópera de Sídney alberga más de 1,500 actuaciones anuales que incluyen ópera, ballet, teatro, danza, comedia y conciertos.",
+          de: "Das Sydney Opera House beherbergt jährlich über 1.500 Aufführungen, darunter Oper, Ballett, Theater, Tanz, Komödie und Konzerte.",
+          nl: "Het Sydney Opera House organiseert jaarlijks meer dan 1.500 voorstellingen, waaronder opera, ballet, theater, dans, komedie en concerten."
+        }
+      },
+      {
+        question: {
+          en: "When was Jørn Utzon's design selected for the Opera House?",
+          es: "¿Cuándo fue seleccionado el diseño de Jørn Utzon para la Ópera?",
+          de: "Wann wurde Jørn Utzons Entwurf für das Opernhaus ausgewählt?",
+          nl: "Wanneer werd Jørn Utzons ontwerp voor het Opera House geselecteerd?"
+        },
+        options: [
+          { en: "1955", es: "1955", de: "1955", nl: "1955" },
+          { en: "1957", es: "1957", de: "1957", nl: "1957" },
+          { en: "1959", es: "1959", de: "1959", nl: "1959" },
+          { en: "1961", es: "1961", de: "1961", nl: "1961" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Jørn Utzon's design won the international competition in 1957, beating 232 other entries from architects worldwide.",
+          es: "El diseño de Jørn Utzon ganó el concurso internacional en 1957, superando a otras 232 entradas de arquitectos de todo el mundo.",
+          de: "Jørn Utzons Entwurf gewann 1957 den internationalen Wettbewerb und schlug 232 andere Einreichungen von Architekten weltweit.",
+          nl: "Jørn Utzons ontwerp won de internationale wedstrijd in 1957, waarbij het 232 andere inzendingen van architecten wereldwijd versloeg."
+        }
+      },
+      {
+        question: {
+          en: "What view can visitors enjoy from the Sydney Opera House?",
+          es: "¿Qué vista pueden disfrutar los visitantes desde la Ópera de Sídney?",
+          de: "Welche Aussicht können Besucher vom Sydney Opera House genießen?",
+          nl: "Welk uitzicht kunnen bezoekers genieten vanaf het Sydney Opera House?"
+        },
+        options: [
+          { en: "City skyline only", es: "Solo el horizonte de la ciudad", de: "Nur Stadtpanorama", nl: "Alleen de skyline van de stad" },
+          { en: "Mountains", es: "Montañas", de: "Berge", nl: "Bergen" },
+          { en: "Sydney Harbour and Bridge", es: "Puerto y Puente de Sídney", de: "Sydney Harbour und Bridge", nl: "Sydney Harbour en Bridge" },
+          { en: "Desert landscape", es: "Paisaje desértico", de: "Wüstenlandschaft", nl: "Woestijnlandschap" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Opera House offers stunning views of Sydney Harbour, including the iconic Sydney Harbour Bridge and the city skyline.",
+          es: "La Ópera ofrece impresionantes vistas del puerto de Sídney, incluido el icónico Puente del Puerto de Sídney y el horizonte de la ciudad.",
+          de: "Das Opernhaus bietet atemberaubende Ausblicke auf den Hafen von Sydney, einschließlich der ikonischen Sydney Harbour Bridge und der Skyline der Stadt.",
+          nl: "Het Opera House biedt een prachtig uitzicht op Sydney Harbour, inclusief de iconische Sydney Harbour Bridge en de skyline van de stad."
+        }
+      },
+      {
+        question: {
+          en: "What kind of building is the Sydney Opera House?",
+          es: "¿Qué tipo de edificio es la Ópera de Sídney?",
+          de: "Was für ein Gebäude ist das Sydney Opera House?",
+          nl: "Wat voor soort gebouw is het Sydney Opera House?"
+        },
+        options: [
+          { en: "Residential building", es: "Edificio residencial", de: "Wohngebäude", nl: "Woongebouw" },
+          { en: "Cultural and performing arts center", es: "Centro cultural y de artes escénicas", de: "Kultur- und darstellendes Kunstzentrum", nl: "Cultureel en podiumkunstencentrum" },
+          { en: "Office building", es: "Edificio de oficinas", de: "Bürogebäude", nl: "Kantoorgebouw" },
+          { en: "Shopping mall", es: "Centro comercial", de: "Einkaufszentrum", nl: "Winkelcentrum" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Sydney Opera House is a multi-venue performing arts center and cultural landmark that hosts various artistic performances.",
+          es: "La Ópera de Sídney es un centro de artes escénicas de múltiples lugares y un hito cultural que alberga diversas actuaciones artísticas.",
+          de: "Das Sydney Opera House ist ein Mehrzweckzentrum für darstellende Künste und ein kulturelles Wahrzeichen, das verschiedene künstlerische Aufführungen beherbergt.",
+          nl: "Het Sydney Opera House is een podiumkunstencentrum met meerdere zalen en een cultureel monument dat verschillende artistieke voorstellingen organiseert."
+        }
+      },
+      {
+        question: {
+          en: "Can you take tours of the Sydney Opera House?",
+          es: "¿Se pueden hacer tours de la Ópera de Sídney?",
+          de: "Kann man Führungen durch das Sydney Opera House machen?",
+          nl: "Kun je rondleidingen door het Sydney Opera House doen?"
+        },
+        options: [
+          { en: "No, closed to visitors", es: "No, cerrado a visitantes", de: "Nein, für Besucher geschlossen", nl: "Nee, gesloten voor bezoekers" },
+          { en: "Yes, guided tours available", es: "Sí, tours guiados disponibles", de: "Ja, Führungen verfügbar", nl: "Ja, rondleidingen beschikbaar" },
+          { en: "Only for students", es: "Solo para estudiantes", de: "Nur für Studenten", nl: "Alleen voor studenten" },
+          { en: "Only on weekends", es: "Solo los fines de semana", de: "Nur am Wochenende", nl: "Alleen in het weekend" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Yes, the Sydney Opera House offers daily guided tours in multiple languages, allowing visitors to explore the building's interior and history.",
+          es: "Sí, la Ópera de Sídney ofrece tours guiados diarios en varios idiomas, permitiendo a los visitantes explorar el interior y la historia del edificio.",
+          de: "Ja, das Sydney Opera House bietet tägliche Führungen in mehreren Sprachen an, die es Besuchern ermöglichen, das Innere und die Geschichte des Gebäudes zu erkunden.",
+          nl: "Ja, het Sydney Opera House biedt dagelijkse rondleidingen in meerdere talen, waardoor bezoekers het interieur en de geschiedenis van het gebouw kunnen verkennen."
+        }
+      },
+      {
+        question: {
+          en: "What makes the Sydney Opera House special worldwide?",
+          es: "¿Qué hace que la Ópera de Sídney sea especial en todo el mundo?",
+          de: "Was macht das Sydney Opera House weltweit besonders?",
+          nl: "Wat maakt het Sydney Opera House wereldwijd speciaal?"
+        },
+        options: [
+          { en: "It's the oldest opera house", es: "Es la casa de ópera más antigua", de: "Es ist das älteste Opernhaus", nl: "Het is het oudste operahuis" },
+          { en: "Its innovative design", es: "Su diseño innovador", de: "Sein innovatives Design", nl: "Zijn innovatieve ontwerp" },
+          { en: "It's the largest building", es: "Es el edificio más grande", de: "Es ist das größte Gebäude", nl: "Het is het grootste gebouw" },
+          { en: "It was built fastest", es: "Se construyó más rápido", de: "Es wurde am schnellsten gebaut", nl: "Het werd het snelst gebouwd" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Sydney Opera House is famous worldwide for its innovative and revolutionary architectural design, making it one of the most recognizable buildings globally.",
+          es: "La Ópera de Sídney es famosa en todo el mundo por su diseño arquitectónico innovador y revolucionario, convirtiéndola en uno de los edificios más reconocibles a nivel mundial.",
+          de: "Das Sydney Opera House ist weltweit für sein innovatives und revolutionäres architektonisches Design berühmt und gehört zu den bekanntesten Gebäuden weltweit.",
+          nl: "Het Sydney Opera House is wereldwijd beroemd om zijn innovatieve en revolutionaire architectonische ontwerp, waardoor het een van de meest herkenbare gebouwen wereldwijd is."
+        }
       }
     ]
   };

@@ -427,6 +427,426 @@
           de: "Während Gradienten durch viele Schichten rückpropagiert werden, können sie exponentiell kleiner werden aufgrund wiederholter Multiplikation mit kleinen Gewichten, verhindert effektives Lernen in tieferen Schichten.",
           nl: "Terwijl gradiënten door veel lagen worden terugpropageerd, kunnen ze exponentieel kleiner worden door herhaalde vermenigvuldiging met kleine gewichten, waardoor effectief leren in diepere lagen wordt voorkomen."
         }
+      },
+      {
+        question: {
+          en: "What is the sigmoid activation function?",
+          es: "¿Qué es la función de activación sigmoide?",
+          de: "Was ist die Sigmoid-Aktivierungsfunktion?",
+          nl: "Wat is de sigmoid activatiefunctie?"
+        },
+        options: [
+          { en: "A function that maps input to values between 0 and 1", es: "Una función que mapea entrada a valores entre 0 y 1", de: "Eine Funktion die Eingaben auf Werte zwischen 0 und 1 abbildet", nl: "Een functie die input afbeeldt op waarden tussen 0 en 1" },
+          { en: "A function for image processing", es: "Una función para procesamiento de imágenes", de: "Eine Funktion für Bildverarbeitung", nl: "Een functie voor beeldverwerking" },
+          { en: "A function that creates S-shaped curves in graphs", es: "Una función que crea curvas en forma de S en gráficos", de: "Eine Funktion die S-förmige Kurven in Grafiken erstellt", nl: "Een functie die S-vormige krommen in grafieken maakt" },
+          { en: "A Greek mathematical function", es: "Una función matemática griega", de: "Eine griechische mathematische Funktion", nl: "Een Griekse wiskundige functie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The sigmoid function σ(x) = 1/(1+e^(-x)) outputs values between 0 and 1, making it useful for binary classification, though it can cause vanishing gradients.",
+          es: "La función sigmoide σ(x) = 1/(1+e^(-x)) produce valores entre 0 y 1, haciéndola útil para clasificación binaria, aunque puede causar gradientes que desaparecen.",
+          de: "Die Sigmoidfunktion σ(x) = 1/(1+e^(-x)) gibt Werte zwischen 0 und 1 aus, macht sie nützlich für binäre Klassifikation, kann aber verschwindende Gradienten verursachen.",
+          nl: "De sigmoid functie σ(x) = 1/(1+e^(-x)) geeft waarden tussen 0 en 1, maakt het nuttig voor binaire classificatie, hoewel het verdwijnende gradiënten kan veroorzaken."
+        }
+      },
+      {
+        question: {
+          en: "What is the ReLU activation function?",
+          es: "¿Qué es la función de activación ReLU?",
+          de: "Was ist die ReLU-Aktivierungsfunktion?",
+          nl: "Wat is de ReLU activatiefunctie?"
+        },
+        options: [
+          { en: "A function that outputs max(0, x), blocking negative values", es: "Una función que produce max(0, x), bloqueando valores negativos", de: "Eine Funktion die max(0, x) ausgibt, blockiert negative Werte", nl: "Een functie die max(0, x) uitvoert, blokkeert negatieve waarden" },
+          { en: "A function for real-time updates", es: "Una función para actualizaciones en tiempo real", de: "Eine Funktion für Echtzeit-Updates", nl: "Een functie voor realtime updates" },
+          { en: "A recursive loop function", es: "Una función de bucle recursivo", de: "Eine rekursive Schleifenfunktion", nl: "Een recursieve lus functie" },
+          { en: "A relative error function", es: "Una función de error relativo", de: "Eine relative Fehlerfunktion", nl: "Een relatieve foutfunctie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "ReLU (Rectified Linear Unit) is f(x) = max(0, x), simple and computationally efficient, helping avoid vanishing gradients and now the most popular activation function.",
+          es: "ReLU (Unidad Lineal Rectificada) es f(x) = max(0, x), simple y computacionalmente eficiente, ayuda evitar gradientes que desaparecen y ahora la función de activación más popular.",
+          de: "ReLU (Rectified Linear Unit) ist f(x) = max(0, x), einfach und rechnerisch effizient, hilft verschwindende Gradienten zu vermeiden und ist jetzt die beliebteste Aktivierungsfunktion.",
+          nl: "ReLU (Rectified Linear Unit) is f(x) = max(0, x), simpel en computationeel efficiënt, helpt verdwijnende gradiënten vermijden en nu de populairste activatiefunctie."
+        }
+      },
+      {
+        question: {
+          en: "What is dropout in neural networks?",
+          es: "¿Qué es dropout en redes neuronales?",
+          de: "Was ist Dropout in neuronalen Netzwerken?",
+          nl: "Wat is dropout in neurale netwerken?"
+        },
+        options: [
+          { en: "Randomly deactivating neurons during training to prevent overfitting", es: "Desactivar aleatoriamente neuronas durante entrenamiento para prevenir sobreajuste", de: "Zufälliges Deaktivieren von Neuronen während Training um Überanpassung zu verhindern", nl: "Willekeurig deactiveren van neuronen tijdens training om overfitting te voorkomen" },
+          { en: "Removing poorly performing neurons permanently", es: "Eliminar permanentemente neuronas de bajo rendimiento", de: "Dauerhaftes Entfernen schlecht performender Neuronen", nl: "Permanent verwijderen van slecht presterende neuronen" },
+          { en: "Students leaving neural network courses", es: "Estudiantes abandonando cursos de redes neuronales", de: "Studenten die neuronale Netzwerk-Kurse verlassen", nl: "Studenten die neurale netwerk cursussen verlaten" },
+          { en: "Network disconnection during training", es: "Desconexión de red durante entrenamiento", de: "Netzwerkverbindungsabbruch während Training", nl: "Netwerkverbinding verbreken tijdens training" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dropout randomly sets a fraction of neurons to zero during each training iteration, forcing the network to learn redundant representations and improving generalization.",
+          es: "Dropout aleatoriamente establece una fracción de neuronas a cero durante cada iteración de entrenamiento, forzando la red a aprender representaciones redundantes y mejorando generalización.",
+          de: "Dropout setzt zufällig einen Teil der Neuronen während jeder Trainingsiteration auf null, zwingt das Netzwerk redundante Repräsentationen zu lernen und verbessert Generalisierung.",
+          nl: "Dropout zet willekeurig een fractie van neuronen op nul tijdens elke trainingiteratie, dwingt het netwerk redundante representaties te leren en verbetert generalisatie."
+        }
+      },
+      {
+        question: {
+          en: "What is the learning rate in neural network training?",
+          es: "¿Qué es la tasa de aprendizaje en entrenamiento de redes neuronales?",
+          de: "Was ist die Lernrate im neuronalen Netzwerktraining?",
+          nl: "Wat is de learning rate in neurale netwerktraining?"
+        },
+        options: [
+          { en: "A hyperparameter controlling the step size when updating weights", es: "Un hiperparámetro que controla el tamaño del paso al actualizar pesos", de: "Ein Hyperparameter der die Schrittgröße beim Aktualisieren von Gewichten kontrolliert", nl: "Een hyperparameter die de stapgrootte controleert bij het bijwerken van gewichten" },
+          { en: "How fast the neural network learns new tasks", es: "Qué tan rápido la red neuronal aprende nuevas tareas", de: "Wie schnell das neuronale Netzwerk neue Aufgaben lernt", nl: "Hoe snel het neurale netwerk nieuwe taken leert" },
+          { en: "The speed of data processing", es: "La velocidad de procesamiento de datos", de: "Die Geschwindigkeit der Datenverarbeitung", nl: "De snelheid van dataverwerking" },
+          { en: "How many examples the network learns per second", es: "Cuántos ejemplos aprende la red por segundo", de: "Wie viele Beispiele das Netzwerk pro Sekunde lernt", nl: "Hoeveel voorbeelden het netwerk per seconde leert" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Learning rate determines how much to adjust weights in response to error: too high causes instability, too low makes training slow, often set between 0.001 and 0.1.",
+          es: "La tasa de aprendizaje determina cuánto ajustar pesos en respuesta al error: muy alta causa inestabilidad, muy baja hace entrenamiento lento, a menudo entre 0.001 y 0.1.",
+          de: "Lernrate bestimmt wie viel Gewichte als Antwort auf Fehler angepasst werden: zu hoch verursacht Instabilität, zu niedrig macht Training langsam, oft zwischen 0.001 und 0.1.",
+          nl: "Learning rate bepaalt hoeveel gewichten aangepast moeten worden als reactie op fouten: te hoog veroorzaakt instabiliteit, te laag maakt training langzaam, vaak tussen 0.001 en 0.1."
+        }
+      },
+      {
+        question: {
+          en: "What is an optimizer in deep learning?",
+          es: "¿Qué es un optimizador en aprendizaje profundo?",
+          de: "Was ist ein Optimierer in Deep Learning?",
+          nl: "Wat is een optimizer in deep learning?"
+        },
+        options: [
+          { en: "An algorithm that updates network weights to minimize the loss function", es: "Un algoritmo que actualiza pesos de red para minimizar la función de pérdida", de: "Ein Algorithmus der Netzwerkgewichte aktualisiert um die Verlustfunktion zu minimieren", nl: "Een algoritme dat netwerkgewichten bijwerkt om de verliesfunctie te minimaliseren" },
+          { en: "A tool that optimizes code performance", es: "Una herramienta que optimiza rendimiento de código", de: "Ein Werkzeug das Code-Performance optimiert", nl: "Een tool die codeprestaties optimaliseert" },
+          { en: "A program that reduces network size", es: "Un programa que reduce tamaño de red", de: "Ein Programm das Netzwerkgröße reduziert", nl: "Een programma dat netwerkgrootte verkleint" },
+          { en: "Software for hardware optimization", es: "Software para optimización de hardware", de: "Software für Hardware-Optimierung", nl: "Software voor hardware optimalisatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Optimizers like SGD, Adam, and RMSprop use gradients to iteratively adjust weights, each with different strategies for speed, stability, and convergence.",
+          es: "Optimizadores como SGD, Adam y RMSprop usan gradientes para ajustar iterativamente pesos, cada uno con diferentes estrategias para velocidad, estabilidad y convergencia.",
+          de: "Optimierer wie SGD, Adam und RMSprop verwenden Gradienten um iterativ Gewichte anzupassen, jeder mit verschiedenen Strategien für Geschwindigkeit, Stabilität und Konvergenz.",
+          nl: "Optimizers zoals SGD, Adam en RMSprop gebruiken gradiënten om iteratief gewichten aan te passen, elk met verschillende strategieën voor snelheid, stabiliteit en convergentie."
+        }
+      },
+      {
+        question: {
+          en: "What is stochastic gradient descent (SGD)?",
+          es: "¿Qué es el descenso de gradiente estocástico (SGD)?",
+          de: "Was ist stochastischer Gradientenabstieg (SGD)?",
+          nl: "Wat is stochastic gradient descent (SGD)?"
+        },
+        options: [
+          { en: "An optimization algorithm that updates weights using random subsets of training data", es: "Un algoritmo de optimización que actualiza pesos usando subconjuntos aleatorios de datos de entrenamiento", de: "Ein Optimierungsalgorithmus der Gewichte mit zufälligen Teilmengen von Trainingsdaten aktualisiert", nl: "Een optimalisatie-algoritme dat gewichten bijwerkt met willekeurige subsets van trainingsdata" },
+          { en: "A method for random initialization", es: "Un método para inicialización aleatoria", de: "Eine Methode für zufällige Initialisierung", nl: "Een methode voor willekeurige initialisatie" },
+          { en: "Gradient descent with uncertain outcomes", es: "Descenso de gradiente con resultados inciertos", de: "Gradientenabstieg mit unsicheren Ergebnissen", nl: "Gradient descent met onzekere resultaten" },
+          { en: "A statistical technique for descent analysis", es: "Una técnica estadística para análisis de descenso", de: "Eine statistische Technik für Abstiegsanalyse", nl: "Een statistische techniek voor daalanalyse" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "SGD updates weights using mini-batches rather than the entire dataset, providing faster iterations with some noise that can help escape local minima.",
+          es: "SGD actualiza pesos usando mini-lotes en lugar del conjunto de datos completo, proporcionando iteraciones más rápidas con algo de ruido que puede ayudar a escapar mínimos locales.",
+          de: "SGD aktualisiert Gewichte mit Mini-Batches statt dem gesamten Datensatz, bietet schnellere Iterationen mit etwas Rauschen das helfen kann lokale Minima zu entkommen.",
+          nl: "SGD werkt gewichten bij met mini-batches in plaats van de hele dataset, biedt snellere iteraties met wat ruis die kan helpen lokale minima te ontsnappen."
+        }
+      },
+      {
+        question: {
+          en: "What is Adam optimizer?",
+          es: "¿Qué es el optimizador Adam?",
+          de: "Was ist der Adam-Optimierer?",
+          nl: "Wat is Adam optimizer?"
+        },
+        options: [
+          { en: "An adaptive learning rate optimizer combining momentum and RMSprop", es: "Un optimizador de tasa de aprendizaje adaptativa que combina momentum y RMSprop", de: "Ein adaptiver Lernraten-Optimierer der Momentum und RMSprop kombiniert", nl: "Een adaptieve learning rate optimizer die momentum en RMSprop combineert" },
+          { en: "An optimizer named after its creator Adam", es: "Un optimizador nombrado por su creador Adam", de: "Ein Optimierer benannt nach seinem Schöpfer Adam", nl: "Een optimizer vernoemd naar zijn maker Adam" },
+          { en: "A basic optimization algorithm", es: "Un algoritmo de optimización básico", de: "Ein grundlegender Optimierungsalgorithmus", nl: "Een basis optimalisatie-algoritme" },
+          { en: "An advanced data management tool", es: "Una herramienta avanzada de gestión de datos", de: "Ein fortgeschrittenes Datenverwaltungswerkzeug", nl: "Een geavanceerde data management tool" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Adam (Adaptive Moment Estimation) maintains per-parameter learning rates adapted based on first and second moments of gradients, making it robust and widely used.",
+          es: "Adam (Estimación de Momento Adaptativo) mantiene tasas de aprendizaje por parámetro adaptadas basándose en primeros y segundos momentos de gradientes, haciéndolo robusto y ampliamente usado.",
+          de: "Adam (Adaptive Moment Estimation) erhält Parameter-spezifische Lernraten angepasst basierend auf ersten und zweiten Momenten von Gradienten, macht es robust und weit verbreitet.",
+          nl: "Adam (Adaptive Moment Estimation) onderhoudt per-parameter learning rates aangepast op basis van eerste en tweede momenten van gradiënten, maakt het robuust en veel gebruikt."
+        }
+      },
+      {
+        question: {
+          en: "What is a convolutional layer in CNNs?",
+          es: "¿Qué es una capa convolucional en CNN?",
+          de: "Was ist eine Faltungsschicht in CNNs?",
+          nl: "Wat is een convolutionele laag in CNN's?"
+        },
+        options: [
+          { en: "A layer that applies filters to extract features from images", es: "Una capa que aplica filtros para extraer características de imágenes", de: "Eine Schicht die Filter anwendet um Merkmale aus Bildern zu extrahieren", nl: "Een laag die filters toepast om kenmerken uit afbeeldingen te extraheren" },
+          { en: "A layer for data compression", es: "Una capa para compresión de datos", de: "Eine Schicht für Datenkompression", nl: "Een laag voor datacompressie" },
+          { en: "A layer that converts images to text", es: "Una capa que convierte imágenes a texto", de: "Eine Schicht die Bilder in Text umwandelt", nl: "Een laag die afbeeldingen naar tekst converteert" },
+          { en: "A layer for network conversation", es: "Una capa para conversación de red", de: "Eine Schicht für Netzwerkkonversation", nl: "Een laag voor netwerk conversatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Convolutional layers use small learnable filters (kernels) that slide across images detecting local patterns like edges, textures, and eventually complex features.",
+          es: "Capas convolucionales usan pequeños filtros aprendibles (kernels) que se deslizan sobre imágenes detectando patrones locales como bordes, texturas y eventualmente características complejas.",
+          de: "Faltungsschichten verwenden kleine lernbare Filter (Kernels) die über Bilder gleiten und lokale Muster wie Kanten, Texturen und schließlich komplexe Merkmale erkennen.",
+          nl: "Convolutionele lagen gebruiken kleine leerbare filters (kernels) die over afbeeldingen schuiven en lokale patronen zoals randen, texturen en uiteindelijk complexe kenmerken detecteren."
+        }
+      },
+      {
+        question: {
+          en: "What is a pooling layer in CNNs?",
+          es: "¿Qué es una capa de pooling en CNN?",
+          de: "Was ist eine Pooling-Schicht in CNNs?",
+          nl: "Wat is een pooling laag in CNN's?"
+        },
+        options: [
+          { en: "A layer that reduces spatial dimensions while retaining important information", es: "Una capa que reduce dimensiones espaciales mientras retiene información importante", de: "Eine Schicht die räumliche Dimensionen reduziert während wichtige Informationen erhalten bleiben", nl: "Een laag die ruimtelijke dimensies vermindert terwijl belangrijke informatie behouden blijft" },
+          { en: "A layer that pools multiple networks together", es: "Una capa que agrupa múltiples redes juntas", de: "Eine Schicht die mehrere Netzwerke zusammenbringt", nl: "Een laag die meerdere netwerken samenvoegt" },
+          { en: "A layer for water simulation", es: "Una capa para simulación de agua", de: "Eine Schicht für Wassersimulation", nl: "Een laag voor water simulatie" },
+          { en: "A layer that combines training data", es: "Una capa que combina datos de entrenamiento", de: "Eine Schicht die Trainingsdaten kombiniert", nl: "Een laag die trainingsdata combineert" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pooling (e.g., max pooling, average pooling) downsamples feature maps, reducing computational load and providing translation invariance while preserving key features.",
+          es: "Pooling (ej. max pooling, average pooling) reduce resolución de mapas de características, reduciendo carga computacional y proporcionando invariancia de traslación mientras preserva características clave.",
+          de: "Pooling (z.B. Max Pooling, Average Pooling) reduziert die Auflösung von Feature-Maps, verringert Rechenlast und bietet Translationsinvarianz während Schlüsselmerkmale erhalten bleiben.",
+          nl: "Pooling (bijv. max pooling, average pooling) verkleint feature maps, vermindert computationele belasting en biedt translatie-invariantie terwijl sleutelkenmerken behouden blijven."
+        }
+      },
+      {
+        question: {
+          en: "What is weight initialization in neural networks?",
+          es: "¿Qué es la inicialización de pesos en redes neuronales?",
+          de: "Was ist Gewichtsinitialisierung in neuronalen Netzwerken?",
+          nl: "Wat is gewicht initialisatie in neurale netwerken?"
+        },
+        options: [
+          { en: "Setting initial values for network weights before training begins", es: "Establecer valores iniciales para pesos de red antes de que comience el entrenamiento", de: "Festlegen von Anfangswerten für Netzwerkgewichte bevor Training beginnt", nl: "Instellen van beginwaarden voor netwerkgewichten voordat training begint" },
+          { en: "Calculating the total weight of the network", es: "Calcular el peso total de la red", de: "Berechnen des Gesamtgewichts des Netzwerks", nl: "Berekenen van het totale gewicht van het netwerk" },
+          { en: "Assigning importance levels to neurons", es: "Asignar niveles de importancia a neuronas", de: "Zuweisen von Wichtigkeitsstufen zu Neuronen", nl: "Toewijzen van belangrijkheidsniveaus aan neuronen" },
+          { en: "Measuring network performance", es: "Medir rendimiento de red", de: "Messen der Netzwerkleistung", nl: "Meten van netwerkprestaties" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Proper initialization (e.g., Xavier, He) is crucial: too small causes vanishing gradients, too large causes exploding gradients, affecting convergence and training stability.",
+          es: "Inicialización apropiada (ej. Xavier, He) es crucial: muy pequeña causa gradientes que desaparecen, muy grande causa gradientes que explotan, afectando convergencia y estabilidad de entrenamiento.",
+          de: "Richtige Initialisierung (z.B. Xavier, He) ist entscheidend: zu klein verursacht verschwindende Gradienten, zu groß verursacht explodierende Gradienten, beeinflusst Konvergenz und Trainingsstabilität.",
+          nl: "Juiste initialisatie (bijv. Xavier, He) is cruciaal: te klein veroorzaakt verdwijnende gradiënten, te groot veroorzaakt exploderende gradiënten, beïnvloedt convergentie en trainingsstabiliteit."
+        }
+      },
+      {
+        question: {
+          en: "What is batch normalization?",
+          es: "¿Qué es la normalización por lotes?",
+          de: "Was ist Batch-Normalisierung?",
+          nl: "Wat is batch normalization?"
+        },
+        options: [
+          { en: "A technique that normalizes layer inputs to stabilize and speed up training", es: "Una técnica que normaliza entradas de capa para estabilizar y acelerar entrenamiento", de: "Eine Technik die Schichteingaben normalisiert um Training zu stabilisieren und beschleunigen", nl: "Een techniek die laaginputs normaliseert om training te stabiliseren en versnellen" },
+          { en: "Processing batches in normal order", es: "Procesar lotes en orden normal", de: "Batches in normaler Reihenfolge verarbeiten", nl: "Batches in normale volgorde verwerken" },
+          { en: "Making batch sizes equal", es: "Hacer tamaños de lote iguales", de: "Batch-Größen gleich machen", nl: "Batch groottes gelijk maken" },
+          { en: "Normalizing training data before batching", es: "Normalizar datos de entrenamiento antes de lotes", de: "Trainingsdaten vor Batching normalisieren", nl: "Trainingsdata normaliseren voor batching" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Batch normalization normalizes activations within each mini-batch, reducing internal covariate shift, allowing higher learning rates and faster convergence.",
+          es: "La normalización por lotes normaliza activaciones dentro de cada mini-lote, reduciendo cambio de covarianza interna, permitiendo tasas de aprendizaje más altas y convergencia más rápida.",
+          de: "Batch-Normalisierung normalisiert Aktivierungen innerhalb jedes Mini-Batches, reduziert interne Kovarianz-Verschiebung, ermöglicht höhere Lernraten und schnellere Konvergenz.",
+          nl: "Batch normalization normaliseert activaties binnen elke mini-batch, vermindert interne covariate shift, maakt hogere learning rates en snellere convergentie mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What is regularization in neural networks?",
+          es: "¿Qué es la regularización en redes neuronales?",
+          de: "Was ist Regularisierung in neuronalen Netzwerken?",
+          nl: "Wat is regularisatie in neurale netwerken?"
+        },
+        options: [
+          { en: "Techniques to prevent overfitting and improve generalization", es: "Técnicas para prevenir sobreajuste y mejorar generalización", de: "Techniken um Überanpassung zu verhindern und Generalisierung zu verbessern", nl: "Technieken om overfitting te voorkomen en generalisatie te verbeteren" },
+          { en: "Making the network structure regular", es: "Hacer la estructura de red regular", de: "Die Netzwerkstruktur regelmäßig machen", nl: "De netwerkstructuur regelmatig maken" },
+          { en: "Scheduling regular training sessions", es: "Programar sesiones de entrenamiento regulares", de: "Regelmäßige Trainingssitzungen planen", nl: "Regelmatige trainingsessies plannen" },
+          { en: "Creating uniform layer sizes", es: "Crear tamaños de capa uniformes", de: "Einheitliche Schichtgrößen erstellen", nl: "Uniforme laaggroottes creëren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Regularization methods (L1, L2, dropout, data augmentation) add constraints or noise to prevent models from fitting training data too closely and improve test performance.",
+          es: "Métodos de regularización (L1, L2, dropout, aumento de datos) agregan restricciones o ruido para prevenir que modelos ajusten datos de entrenamiento demasiado cerca y mejorar rendimiento de prueba.",
+          de: "Regularisierungsmethoden (L1, L2, Dropout, Datenaugmentation) fügen Einschränkungen oder Rauschen hinzu um zu verhindern dass Modelle Trainingsdaten zu genau anpassen und verbessern Testleistung.",
+          nl: "Regularisatie methoden (L1, L2, dropout, data augmentatie) voegen beperkingen of ruis toe om te voorkomen dat modellen trainingsdata te nauw passen en verbeteren testprestaties."
+        }
+      },
+      {
+        question: {
+          en: "What is the exploding gradient problem?",
+          es: "¿Qué es el problema del gradiente que explota?",
+          de: "Was ist das Problem der explodierenden Gradienten?",
+          nl: "Wat is het exploderende gradiënt probleem?"
+        },
+        options: [
+          { en: "Gradients become extremely large, causing unstable training", es: "Gradientes se vuelven extremadamente grandes, causando entrenamiento inestable", de: "Gradienten werden extrem groß, verursachen instabiles Training", nl: "Gradiënten worden extreem groot, veroorzaken onstabiele training" },
+          { en: "The gradient calculation explodes the computer", es: "El cálculo del gradiente explota la computadora", de: "Die Gradientenberechnung sprengt den Computer", nl: "De gradiëntberekening laat de computer exploderen" },
+          { en: "Too many gradients are created", es: "Se crean demasiados gradientes", de: "Zu viele Gradienten werden erstellt", nl: "Te veel gradiënten worden gecreëerd" },
+          { en: "Gradients spread uncontrollably", es: "Gradientes se propagan incontrolablemente", de: "Gradienten verbreiten sich unkontrolliert", nl: "Gradiënten verspreiden zich ongecontroleerd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Exploding gradients occur when gradients grow exponentially during backpropagation, leading to numerical overflow and divergent training, often solved with gradient clipping.",
+          es: "Gradientes que explotan ocurren cuando gradientes crecen exponencialmente durante retropropagación, llevando a desbordamiento numérico y entrenamiento divergente, a menudo resuelto con recorte de gradiente.",
+          de: "Explodierende Gradienten treten auf wenn Gradienten während Backpropagation exponentiell wachsen, führen zu numerischem Überlauf und divergentem Training, oft gelöst mit Gradient Clipping.",
+          nl: "Exploderende gradiënten treden op wanneer gradiënten exponentieel groeien tijdens backpropagation, leiden tot numerieke overflow en divergente training, vaak opgelost met gradient clipping."
+        }
+      },
+      {
+        question: {
+          en: "What is early stopping in neural network training?",
+          es: "¿Qué es la detención temprana en entrenamiento de redes neuronales?",
+          de: "Was ist frühzeitiges Stoppen im neuronalen Netzwerktraining?",
+          nl: "Wat is early stopping in neurale netwerktraining?"
+        },
+        options: [
+          { en: "Stopping training when validation performance stops improving", es: "Detener entrenamiento cuando rendimiento de validación deja de mejorar", de: "Training stoppen wenn Validierungsleistung aufhört sich zu verbessern", nl: "Training stoppen wanneer validatieprestaties stoppen met verbeteren" },
+          { en: "Ending training before completing one epoch", es: "Terminar entrenamiento antes de completar una época", de: "Training vor Abschluss einer Epoche beenden", nl: "Training beëindigen voor het voltooien van één epoch" },
+          { en: "Starting training earlier than planned", es: "Comenzar entrenamiento antes de lo planeado", de: "Training früher als geplant beginnen", nl: "Training eerder dan gepland beginnen" },
+          { en: "Stopping the first layer from training", es: "Detener la primera capa de entrenamiento", de: "Die erste Schicht vom Training stoppen", nl: "De eerste laag stoppen met trainen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Early stopping monitors validation loss and halts training when it stops decreasing, preventing overfitting by avoiding unnecessary additional training iterations.",
+          es: "Detención temprana monitorea pérdida de validación y detiene entrenamiento cuando deja de disminuir, previniendo sobreajuste evitando iteraciones de entrenamiento adicionales innecesarias.",
+          de: "Frühzeitiges Stoppen überwacht Validierungsverlust und stoppt Training wenn es aufhört zu sinken, verhindert Überanpassung durch Vermeiden unnötiger zusätzlicher Trainingsiterationen.",
+          nl: "Early stopping monitort validatieverlies en stopt training wanneer het stopt met dalen, voorkomt overfitting door onnodige extra trainingsiteraties te vermijden."
+        }
+      },
+      {
+        question: {
+          en: "What is a feedforward neural network?",
+          es: "¿Qué es una red neuronal feedforward?",
+          de: "Was ist ein Feedforward-neuronales Netzwerk?",
+          nl: "Wat is een feedforward neuraal netwerk?"
+        },
+        options: [
+          { en: "A network where data flows only forward from input to output", es: "Una red donde datos fluyen solo hacia adelante de entrada a salida", de: "Ein Netzwerk wo Daten nur vorwärts von Eingabe zu Ausgabe fließen", nl: "Een netwerk waar data alleen voorwaarts stroomt van input naar output" },
+          { en: "A network that feeds data back to itself", es: "Una red que alimenta datos de vuelta a sí misma", de: "Ein Netzwerk das Daten an sich selbst zurückführt", nl: "Een netwerk dat data terug naar zichzelf voedt" },
+          { en: "A network for forward prediction only", es: "Una red solo para predicción hacia adelante", de: "Ein Netzwerk nur für Vorwärtsvorhersage", nl: "Een netwerk alleen voor voorwaartse voorspelling" },
+          { en: "A network that processes data faster", es: "Una red que procesa datos más rápido", de: "Ein Netzwerk das Daten schneller verarbeitet", nl: "Een netwerk dat data sneller verwerkt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Feedforward networks have no cycles or loops - information moves in one direction through layers, making them suitable for tasks like classification and regression.",
+          es: "Redes feedforward no tienen ciclos o bucles - información se mueve en una dirección a través de capas, haciéndolas adecuadas para tareas como clasificación y regresión.",
+          de: "Feedforward-Netzwerke haben keine Zyklen oder Schleifen - Informationen bewegen sich in eine Richtung durch Schichten, macht sie geeignet für Aufgaben wie Klassifikation und Regression.",
+          nl: "Feedforward netwerken hebben geen cycli of lussen - informatie beweegt in één richting door lagen, maakt ze geschikt voor taken zoals classificatie en regressie."
+        }
+      },
+      {
+        question: {
+          en: "What is transfer learning in deep learning?",
+          es: "¿Qué es el aprendizaje por transferencia en aprendizaje profundo?",
+          de: "Was ist Transfer Learning in Deep Learning?",
+          nl: "Wat is transfer learning in deep learning?"
+        },
+        options: [
+          { en: "Using pre-trained models as starting points for new related tasks", es: "Usar modelos pre-entrenados como puntos de partida para nuevas tareas relacionadas", de: "Vortrainierte Modelle als Ausgangspunkte für neue verwandte Aufgaben verwenden", nl: "Voorgetrainde modellen gebruiken als startpunten voor nieuwe gerelateerde taken" },
+          { en: "Transferring data between different networks", es: "Transferir datos entre diferentes redes", de: "Daten zwischen verschiedenen Netzwerken übertragen", nl: "Data overdragen tussen verschillende netwerken" },
+          { en: "Learning to transfer files efficiently", es: "Aprender a transferir archivos eficientemente", de: "Lernen Dateien effizient zu übertragen", nl: "Leren bestanden efficiënt over te dragen" },
+          { en: "Moving models between computers", es: "Mover modelos entre computadoras", de: "Modelle zwischen Computern verschieben", nl: "Modellen tussen computers verplaatsen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Transfer learning leverages knowledge from models trained on large datasets (like ImageNet) for new tasks, requiring less data and training time while achieving better performance.",
+          es: "Aprendizaje por transferencia aprovecha conocimiento de modelos entrenados en grandes conjuntos de datos (como ImageNet) para nuevas tareas, requiriendo menos datos y tiempo de entrenamiento mientras logra mejor rendimiento.",
+          de: "Transfer Learning nutzt Wissen von auf großen Datensätzen (wie ImageNet) trainierten Modellen für neue Aufgaben, benötigt weniger Daten und Trainingszeit während bessere Leistung erzielt wird.",
+          nl: "Transfer learning benut kennis van modellen getraind op grote datasets (zoals ImageNet) voor nieuwe taken, vereist minder data en trainingstijd terwijl betere prestaties worden behaald."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of a validation set?",
+          es: "¿Cuál es el propósito de un conjunto de validación?",
+          de: "Was ist der Zweck eines Validierungssatzes?",
+          nl: "Wat is het doel van een validatieset?"
+        },
+        options: [
+          { en: "To tune hyperparameters and monitor training without using test data", es: "Ajustar hiperparámetros y monitorear entrenamiento sin usar datos de prueba", de: "Hyperparameter zu tunen und Training zu überwachen ohne Testdaten zu verwenden", nl: "Hyperparameters afstemmen en training monitoren zonder testdata te gebruiken" },
+          { en: "To validate that the data is correct", es: "Validar que los datos son correctos", de: "Zu validieren dass die Daten korrekt sind", nl: "Valideren dat de data correct is" },
+          { en: "To check for data corruption", es: "Verificar corrupción de datos", de: "Auf Datenbeschädigung prüfen", nl: "Controleren op datacorruptie" },
+          { en: "To store validated training results", es: "Almacenar resultados de entrenamiento validados", de: "Validierte Trainingsergebnisse speichern", nl: "Gevalideerde trainingsresultaten opslaan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The validation set provides unbiased evaluation during development, helping select optimal hyperparameters and detect overfitting while keeping the test set untouched for final assessment.",
+          es: "El conjunto de validación proporciona evaluación imparcial durante desarrollo, ayudando a seleccionar hiperparámetros óptimos y detectar sobreajuste mientras mantiene el conjunto de prueba intacto para evaluación final.",
+          de: "Der Validierungssatz bietet unvoreingenommene Bewertung während Entwicklung, hilft optimale Hyperparameter zu wählen und Überanpassung zu erkennen während Testsatz für finale Bewertung unberührt bleibt.",
+          nl: "De validatieset biedt onbevooroordeelde evaluatie tijdens ontwikkeling, helpt optimale hyperparameters te selecteren en overfitting te detecteren terwijl de testset onaangeroerd blijft voor finale beoordeling."
+        }
+      },
+      {
+        question: {
+          en: "What is the softmax activation function used for?",
+          es: "¿Para qué se usa la función de activación softmax?",
+          de: "Wofür wird die Softmax-Aktivierungsfunktion verwendet?",
+          nl: "Waarvoor wordt de softmax activatiefunctie gebruikt?"
+        },
+        options: [
+          { en: "Converting network outputs to probability distributions for multi-class classification", es: "Convertir salidas de red a distribuciones de probabilidad para clasificación multi-clase", de: "Netzwerkausgaben in Wahrscheinlichkeitsverteilungen für Mehrklassen-Klassifikation umwandeln", nl: "Netwerkoutputs converteren naar waarschijnlijkheidsverdelingen voor multi-klasse classificatie" },
+          { en: "Making the network softer and easier to train", es: "Hacer la red más suave y fácil de entrenar", de: "Das Netzwerk weicher und einfacher zu trainieren machen", nl: "Het netwerk zachter en makkelijker te trainen maken" },
+          { en: "Finding maximum values in the network", es: "Encontrar valores máximos en la red", de: "Maximalwerte im Netzwerk finden", nl: "Maximale waarden in het netwerk vinden" },
+          { en: "Softening harsh gradients", es: "Suavizar gradientes duros", de: "Harte Gradienten weicher machen", nl: "Harde gradiënten verzachten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Softmax transforms raw output scores into probabilities that sum to 1, making it ideal for the output layer in multi-class classification where we need one prediction per class.",
+          es: "Softmax transforma puntajes de salida sin procesar en probabilidades que suman 1, haciéndola ideal para la capa de salida en clasificación multi-clase donde necesitamos una predicción por clase.",
+          de: "Softmax transformiert rohe Ausgabe-Scores in Wahrscheinlichkeiten die zu 1 summieren, macht es ideal für die Ausgabeschicht in Mehrklassen-Klassifikation wo wir eine Vorhersage pro Klasse benötigen.",
+          nl: "Softmax transformeert ruwe output scores naar waarschijnlijkheden die optellen tot 1, maakt het ideaal voor de outputlaag in multi-klasse classificatie waar we één voorspelling per klasse nodig hebben."
+        }
+      },
+      {
+        question: {
+          en: "What is cross-entropy loss?",
+          es: "¿Qué es la pérdida de entropía cruzada?",
+          de: "Was ist Kreuzentropieverlust?",
+          nl: "Wat is cross-entropy loss?"
+        },
+        options: [
+          { en: "A loss function measuring difference between predicted and true probability distributions", es: "Una función de pérdida que mide diferencia entre distribuciones de probabilidad predichas y verdaderas", de: "Eine Verlustfunktion die Unterschied zwischen vorhergesagten und wahren Wahrscheinlichkeitsverteilungen misst", nl: "Een verliesfunctie die verschil meet tussen voorspelde en echte waarschijnlijkheidsverdelingen" },
+          { en: "Loss from crossing data between networks", es: "Pérdida de cruzar datos entre redes", de: "Verlust vom Kreuzen von Daten zwischen Netzwerken", nl: "Verlies van het kruisen van data tussen netwerken" },
+          { en: "Entropy that crosses layer boundaries", es: "Entropía que cruza límites de capa", de: "Entropie die Schichtgrenzen kreuzt", nl: "Entropie die laaggrenzen kruist" },
+          { en: "A measure of network complexity", es: "Una medida de complejidad de red", de: "Ein Maß für Netzwerkkomplexität", nl: "Een maat voor netwerkcomplexiteit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cross-entropy quantifies how different the predicted probability distribution is from the true distribution, commonly used with softmax for classification tasks.",
+          es: "Entropía cruzada cuantifica qué tan diferente es la distribución de probabilidad predicha de la distribución verdadera, comúnmente usada con softmax para tareas de clasificación.",
+          de: "Kreuzentropie quantifiziert wie unterschiedlich die vorhergesagte Wahrscheinlichkeitsverteilung von der wahren Verteilung ist, häufig mit Softmax für Klassifikationsaufgaben verwendet.",
+          nl: "Cross-entropy kwantificeert hoe verschillend de voorspelde waarschijnlijkheidsverdeling is van de echte verdeling, vaak gebruikt met softmax voor classificatietaken."
+        }
+      },
+      {
+        question: {
+          en: "What is data augmentation in deep learning?",
+          es: "¿Qué es el aumento de datos en aprendizaje profundo?",
+          de: "Was ist Datenaugmentation in Deep Learning?",
+          nl: "Wat is data augmentatie in deep learning?"
+        },
+        options: [
+          { en: "Creating modified versions of training data to increase dataset size and diversity", es: "Crear versiones modificadas de datos de entrenamiento para aumentar tamaño y diversidad del conjunto de datos", de: "Modifizierte Versionen von Trainingsdaten erstellen um Datensatzgröße und Vielfalt zu erhöhen", nl: "Gemodificeerde versies van trainingsdata creëren om datasetgrootte en diversiteit te verhogen" },
+          { en: "Adding more data from external sources", es: "Agregar más datos de fuentes externas", de: "Mehr Daten aus externen Quellen hinzufügen", nl: "Meer data toevoegen uit externe bronnen" },
+          { en: "Increasing the size of data files", es: "Aumentar el tamaño de archivos de datos", de: "Die Größe von Datendateien erhöhen", nl: "De grootte van databestanden vergroten" },
+          { en: "Augmenting network capacity with data", es: "Aumentar capacidad de red con datos", de: "Netzwerkkapazität mit Daten erweitern", nl: "Netwerkcapaciteit vergroten met data" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Data augmentation applies transformations like rotation, flipping, scaling, or cropping to existing images, effectively expanding training data and improving model robustness without collecting new samples.",
+          es: "Aumento de datos aplica transformaciones como rotación, volteo, escalado o recorte a imágenes existentes, expandiendo efectivamente datos de entrenamiento y mejorando robustez del modelo sin recolectar nuevas muestras.",
+          de: "Datenaugmentation wendet Transformationen wie Rotation, Spiegeln, Skalieren oder Zuschneiden auf existierende Bilder an, erweitert effektiv Trainingsdaten und verbessert Modellrobustheit ohne neue Samples zu sammeln.",
+          nl: "Data augmentatie past transformaties toe zoals rotatie, spiegelen, schalen of bijsnijden op bestaande afbeeldingen, breidt effectief trainingsdata uit en verbetert modelrobuustheid zonder nieuwe samples te verzamelen."
+        }
       }
     ]
   };

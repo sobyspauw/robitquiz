@@ -426,7 +426,427 @@
           es: "Despues de la muerte de Akhenaton, Egipto regreso a las convenciones artisticas tradicionales, abandonando el estilo distintivo de Amarna y restaurando proporciones y poses clasicas.",
           de: "Nach Echnatons Tod kehrte Aegypten zu traditionellen kuenstlerischen Konventionen zurueck, verliess den charakteristischen Amarna-Stil und stellte klassische Proportionen und Posen wieder her.",
           nl: "Na Achnatons dood keerde Egypte terug naar traditionele artistieke conventies, waarbij de kenmerkende Amarna-stijl werd verlaten en klassieke verhoudingen en poses werden hersteld."
-        }
+        }    },
+    {
+      question: {
+        en: "What is the Egyptian art style called where figures are shown from multiple viewpoints?",
+        es: "What is the Egyptian art style called where figures are shown from multiple viewpoints?",
+        de: "What is the Egyptian art style called where figures are shown from multiple viewpoints?",
+        nl: "What is the Egyptian art style called where figures are shown from multiple viewpoints?"
+      },
+      options: [
+        { en: "Composite view or twisted perspective", es: "Composite view or twisted perspective", de: "Composite view or twisted perspective", nl: "Composite view or twisted perspective" },
+        { en: "3D perspective", es: "3D perspective", de: "3D perspective", nl: "3D perspective" },
+        { en: "Foreshortening", es: "Foreshortening", de: "Foreshortening", nl: "Foreshortening" },
+        { en: "Linear perspective", es: "Linear perspective", de: "Linear perspective", nl: "Linear perspective" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Egyptian art used composite view, showing head and legs in profile while torso and eyes face forward.",
+        es: "Egyptian art used composite view, showing head and legs in profile while torso and eyes face forward.",
+        de: "Egyptian art used composite view, showing head and legs in profile while torso and eyes face forward.",
+        nl: "Egyptian art used composite view, showing head and legs in profile while torso and eyes face forward."
+      }
+    },
+    {
+      question: {
+        en: "What material were most Egyptian statues carved from?",
+        es: "What material were most Egyptian statues carved from?",
+        de: "What material were most Egyptian statues carved from?",
+        nl: "What material were most Egyptian statues carved from?"
+      },
+      options: [
+        { en: "Stone (limestone, granite, sandstone)", es: "Stone (limestone, granite, sandstone)", de: "Stone (limestone, granite, sandstone)", nl: "Stone (limestone, granite, sandstone)" },
+        { en: "Wood", es: "Wood", de: "Wood", nl: "Wood" },
+        { en: "Bronze", es: "Bronze", de: "Bronze", nl: "Bronze" },
+        { en: "Clay", es: "Clay", de: "Clay", nl: "Clay" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Most Egyptian statues were carved from stone, particularly limestone, granite, and sandstone.",
+        es: "Most Egyptian statues were carved from stone, particularly limestone, granite, and sandstone.",
+        de: "Most Egyptian statues were carved from stone, particularly limestone, granite, and sandstone.",
+        nl: "Most Egyptian statues were carved from stone, particularly limestone, granite, and sandstone."
+      }
+    },
+    {
+      question: {
+        en: "What does the size of figures in Egyptian art indicate?",
+        es: "What does the size of figures in Egyptian art indicate?",
+        de: "What does the size of figures in Egyptian art indicate?",
+        nl: "What does the size of figures in Egyptian art indicate?"
+      },
+      options: [
+        { en: "Social importance and rank", es: "Social importance and rank", de: "Social importance and rank", nl: "Social importance and rank" },
+        { en: "Actual physical size", es: "Actual physical size", de: "Actual physical size", nl: "Actual physical size" },
+        { en: "Age", es: "Age", de: "Age", nl: "Age" },
+        { en: "Wealth only", es: "Wealth only", de: "Wealth only", nl: "Wealth only" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "In Egyptian art, the size of figures represented social hierarchy and importance, not physical dimensions.",
+        es: "In Egyptian art, the size of figures represented social hierarchy and importance, not physical dimensions.",
+        de: "In Egyptian art, the size of figures represented social hierarchy and importance, not physical dimensions.",
+        nl: "In Egyptian art, the size of figures represented social hierarchy and importance, not physical dimensions."
+      }
+    },
+    {
+      question: {
+        en: "What color represented life and rebirth in Egyptian art?",
+        es: "What color represented life and rebirth in Egyptian art?",
+        de: "What color represented life and rebirth in Egyptian art?",
+        nl: "What color represented life and rebirth in Egyptian art?"
+      },
+      options: [
+        { en: "Green", es: "Green", de: "Green", nl: "Green" },
+        { en: "Red", es: "Red", de: "Red", nl: "Red" },
+        { en: "Blue", es: "Blue", de: "Blue", nl: "Blue" },
+        { en: "Yellow", es: "Yellow", de: "Yellow", nl: "Yellow" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Green symbolized life, rebirth, and vegetation in Egyptian art and religion.",
+        es: "Green symbolized life, rebirth, and vegetation in Egyptian art and religion.",
+        de: "Green symbolized life, rebirth, and vegetation in Egyptian art and religion.",
+        nl: "Green symbolized life, rebirth, and vegetation in Egyptian art and religion."
+      }
+    },
+    {
+      question: {
+        en: "What is a cartouche?",
+        es: "What is a cartouche?",
+        de: "What is a cartouche?",
+        nl: "What is a cartouche?"
+      },
+      options: [
+        { en: "Oval frame containing royal names", es: "Oval frame containing royal names", de: "Oval frame containing royal names", nl: "Oval frame containing royal names" },
+        { en: "Type of crown", es: "Type of crown", de: "Type of crown", nl: "Type of crown" },
+        { en: "Ceremonial weapon", es: "Ceremonial weapon", de: "Ceremonial weapon", nl: "Ceremonial weapon" },
+        { en: "Temple decoration", es: "Temple decoration", de: "Temple decoration", nl: "Temple decoration" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A cartouche is an oval or oblong shape containing hieroglyphs spelling out royal names.",
+        es: "A cartouche is an oval or oblong shape containing hieroglyphs spelling out royal names.",
+        de: "A cartouche is an oval or oblong shape containing hieroglyphs spelling out royal names.",
+        nl: "A cartouche is an oval or oblong shape containing hieroglyphs spelling out royal names."
+      }
+    },
+    {
+      question: {
+        en: "What pigment created the famous Egyptian blue color?",
+        es: "What pigment created the famous Egyptian blue color?",
+        de: "What pigment created the famous Egyptian blue color?",
+        nl: "What pigment created the famous Egyptian blue color?"
+      },
+      options: [
+        { en: "Copper calcium silicate", es: "Copper calcium silicate", de: "Copper calcium silicate", nl: "Copper calcium silicate" },
+        { en: "Lapis lazuli", es: "Lapis lazuli", de: "Lapis lazuli", nl: "Lapis lazuli" },
+        { en: "Azurite", es: "Azurite", de: "Azurite", nl: "Azurite" },
+        { en: "Cobalt", es: "Cobalt", de: "Cobalt", nl: "Cobalt" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Egyptian blue was the first synthetic pigment, made from copper calcium silicate.",
+        es: "Egyptian blue was the first synthetic pigment, made from copper calcium silicate.",
+        de: "Egyptian blue was the first synthetic pigment, made from copper calcium silicate.",
+        nl: "Egyptian blue was the first synthetic pigment, made from copper calcium silicate."
+      }
+    },
+    {
+      question: {
+        en: "What is the canon of proportions in Egyptian art?",
+        es: "What is the canon of proportions in Egyptian art?",
+        de: "What is the canon of proportions in Egyptian art?",
+        nl: "What is the canon of proportions in Egyptian art?"
+      },
+      options: [
+        { en: "Grid system for depicting human figures", es: "Grid system for depicting human figures", de: "Grid system for depicting human figures", nl: "Grid system for depicting human figures" },
+        { en: "Color mixing rules", es: "Color mixing rules", de: "Color mixing rules", nl: "Color mixing rules" },
+        { en: "Temple design rules", es: "Temple design rules", de: "Temple design rules", nl: "Temple design rules" },
+        { en: "Sculpture size standards", es: "Sculpture size standards", de: "Sculpture size standards", nl: "Sculpture size standards" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The canon of proportions was a grid system ensuring consistent proportions in depicting human figures.",
+        es: "The canon of proportions was a grid system ensuring consistent proportions in depicting human figures.",
+        de: "The canon of proportions was a grid system ensuring consistent proportions in depicting human figures.",
+        nl: "The canon of proportions was a grid system ensuring consistent proportions in depicting human figures."
+      }
+    },
+    {
+      question: {
+        en: "What material was used for Egyptian paintbrush bristles?",
+        es: "What material was used for Egyptian paintbrush bristles?",
+        de: "What material was used for Egyptian paintbrush bristles?",
+        nl: "What material was used for Egyptian paintbrush bristles?"
+      },
+      options: [
+        { en: "Palm fibers or reeds", es: "Palm fibers or reeds", de: "Palm fibers or reeds", nl: "Palm fibers or reeds" },
+        { en: "Animal hair", es: "Animal hair", de: "Animal hair", nl: "Animal hair" },
+        { en: "Feathers", es: "Feathers", de: "Feathers", nl: "Feathers" },
+        { en: "Cotton", es: "Cotton", de: "Cotton", nl: "Cotton" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Egyptian brushes were made from palm fibers or chewed reed ends.",
+        es: "Egyptian brushes were made from palm fibers or chewed reed ends.",
+        de: "Egyptian brushes were made from palm fibers or chewed reed ends.",
+        nl: "Egyptian brushes were made from palm fibers or chewed reed ends."
+      }
+    },
+    {
+      question: {
+        en: "What is a funerary stele?",
+        es: "What is a funerary stele?",
+        de: "What is a funerary stele?",
+        nl: "What is a funerary stele?"
+      },
+      options: [
+        { en: "Upright stone slab with inscriptions", es: "Upright stone slab with inscriptions", de: "Upright stone slab with inscriptions", nl: "Upright stone slab with inscriptions" },
+        { en: "Tomb entrance", es: "Tomb entrance", de: "Tomb entrance", nl: "Tomb entrance" },
+        { en: "Burial chamber", es: "Burial chamber", de: "Burial chamber", nl: "Burial chamber" },
+        { en: "Mummy case", es: "Mummy case", de: "Mummy case", nl: "Mummy case" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A stele (or stela) is an upright stone slab inscribed with text and images, often funerary in purpose.",
+        es: "A stele (or stela) is an upright stone slab inscribed with text and images, often funerary in purpose.",
+        de: "A stele (or stela) is an upright stone slab inscribed with text and images, often funerary in purpose.",
+        nl: "A stele (or stela) is an upright stone slab inscribed with text and images, often funerary in purpose."
+      }
+    },
+    {
+      question: {
+        en: "What binding medium did Egyptians use for paint?",
+        es: "What binding medium did Egyptians use for paint?",
+        de: "What binding medium did Egyptians use for paint?",
+        nl: "What binding medium did Egyptians use for paint?"
+      },
+      options: [
+        { en: "Egg white or gum arabic", es: "Egg white or gum arabic", de: "Egg white or gum arabic", nl: "Egg white or gum arabic" },
+        { en: "Oil", es: "Oil", de: "Oil", nl: "Oil" },
+        { en: "Wax", es: "Wax", de: "Wax", nl: "Wax" },
+        { en: "Water only", es: "Water only", de: "Water only", nl: "Water only" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Egyptians used egg white, gum arabic, or beeswax as binding media for their pigments.",
+        es: "Egyptians used egg white, gum arabic, or beeswax as binding media for their pigments.",
+        de: "Egyptians used egg white, gum arabic, or beeswax as binding media for their pigments.",
+        nl: "Egyptians used egg white, gum arabic, or beeswax as binding media for their pigments."
+      }
+    },
+    {
+      question: {
+        en: "What is faience in Egyptian art?",
+        es: "What is faience in Egyptian art?",
+        de: "What is faience in Egyptian art?",
+        nl: "What is faience in Egyptian art?"
+      },
+      options: [
+        { en: "Glazed ceramic material", es: "Glazed ceramic material", de: "Glazed ceramic material", nl: "Glazed ceramic material" },
+        { en: "Gold leaf", es: "Gold leaf", de: "Gold leaf", nl: "Gold leaf" },
+        { en: "Precious stone", es: "Precious stone", de: "Precious stone", nl: "Precious stone" },
+        { en: "Type of paint", es: "Type of paint", de: "Type of paint", nl: "Type of paint" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Faience is a glazed non-clay ceramic material used for jewelry, amulets, and decorative objects.",
+        es: "Faience is a glazed non-clay ceramic material used for jewelry, amulets, and decorative objects.",
+        de: "Faience is a glazed non-clay ceramic material used for jewelry, amulets, and decorative objects.",
+        nl: "Faience is a glazed non-clay ceramic material used for jewelry, amulets, and decorative objects."
+      }
+    },
+    {
+      question: {
+        en: "What artistic convention showed the passage of time?",
+        es: "What artistic convention showed the passage of time?",
+        de: "What artistic convention showed the passage of time?",
+        nl: "What artistic convention showed the passage of time?"
+      },
+      options: [
+        { en: "Registers or horizontal bands", es: "Registers or horizontal bands", de: "Registers or horizontal bands", nl: "Registers or horizontal bands" },
+        { en: "Perspective", es: "Perspective", de: "Perspective", nl: "Perspective" },
+        { en: "Shading", es: "Shading", de: "Shading", nl: "Shading" },
+        { en: "Size variation", es: "Size variation", de: "Size variation", nl: "Size variation" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Egyptian artists showed sequences of events in horizontal registers or bands, read from bottom to top.",
+        es: "Egyptian artists showed sequences of events in horizontal registers or bands, read from bottom to top.",
+        de: "Egyptian artists showed sequences of events in horizontal registers or bands, read from bottom to top.",
+        nl: "Egyptian artists showed sequences of events in horizontal registers or bands, read from bottom to top."
+      }
+    },
+    {
+      question: {
+        en: "What is the Palette of Narmer?",
+        es: "What is the Palette of Narmer?",
+        de: "What is the Palette of Narmer?",
+        nl: "What is the Palette of Narmer?"
+      },
+      options: [
+        { en: "Ancient ceremonial cosmetic palette", es: "Ancient ceremonial cosmetic palette", de: "Ancient ceremonial cosmetic palette", nl: "Ancient ceremonial cosmetic palette" },
+        { en: "Painting board", es: "Painting board", de: "Painting board", nl: "Painting board" },
+        { en: "Color mixing guide", es: "Color mixing guide", de: "Color mixing guide", nl: "Color mixing guide" },
+        { en: "Royal crown", es: "Royal crown", de: "Royal crown", nl: "Royal crown" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Palette of Narmer is a significant ceremonial palette from c. 3100 BCE showing early Egyptian artistic conventions.",
+        es: "The Palette of Narmer is a significant ceremonial palette from c. 3100 BCE showing early Egyptian artistic conventions.",
+        de: "The Palette of Narmer is a significant ceremonial palette from c. 3100 BCE showing early Egyptian artistic conventions.",
+        nl: "The Palette of Narmer is a significant ceremonial palette from c. 3100 BCE showing early Egyptian artistic conventions."
+      }
+    },
+    {
+      question: {
+        en: "What material created black pigment?",
+        es: "What material created black pigment?",
+        de: "What material created black pigment?",
+        nl: "What material created black pigment?"
+      },
+      options: [
+        { en: "Carbon or charcoal", es: "Carbon or charcoal", de: "Carbon or charcoal", nl: "Carbon or charcoal" },
+        { en: "Coal", es: "Coal", de: "Coal", nl: "Coal" },
+        { en: "Obsidian powder", es: "Obsidian powder", de: "Obsidian powder", nl: "Obsidian powder" },
+        { en: "Tar", es: "Tar", de: "Tar", nl: "Tar" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Black pigment was created from carbon or charcoal, often from burned organic material.",
+        es: "Black pigment was created from carbon or charcoal, often from burned organic material.",
+        de: "Black pigment was created from carbon or charcoal, often from burned organic material.",
+        nl: "Black pigment was created from carbon or charcoal, often from burned organic material."
+      }
+    },
+    {
+      question: {
+        en: "What is a ka statue?",
+        es: "What is a ka statue?",
+        de: "What is a ka statue?",
+        nl: "What is a ka statue?"
+      },
+      options: [
+        { en: "Statue housing the spirit of the deceased", es: "Statue housing the spirit of the deceased", de: "Statue housing the spirit of the deceased", nl: "Statue housing the spirit of the deceased" },
+        { en: "Royal portrait", es: "Royal portrait", de: "Royal portrait", nl: "Royal portrait" },
+        { en: "God statue", es: "God statue", de: "God statue", nl: "God statue" },
+        { en: "Servant figure", es: "Servant figure", de: "Servant figure", nl: "Servant figure" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A ka statue provided a resting place for the ka (life force/spirit) of the deceased.",
+        es: "A ka statue provided a resting place for the ka (life force/spirit) of the deceased.",
+        de: "A ka statue provided a resting place for the ka (life force/spirit) of the deceased.",
+        nl: "A ka statue provided a resting place for the ka (life force/spirit) of the deceased."
+      }
+    },
+    {
+      question: {
+        en: "What artistic period is the Bust of Nefertiti from?",
+        es: "What artistic period is the Bust of Nefertiti from?",
+        de: "What artistic period is the Bust of Nefertiti from?",
+        nl: "What artistic period is the Bust of Nefertiti from?"
+      },
+      options: [
+        { en: "Amarna Period", es: "Amarna Period", de: "Amarna Period", nl: "Amarna Period" },
+        { en: "Old Kingdom", es: "Old Kingdom", de: "Old Kingdom", nl: "Old Kingdom" },
+        { en: "Middle Kingdom", es: "Middle Kingdom", de: "Middle Kingdom", nl: "Middle Kingdom" },
+        { en: "Late Period", es: "Late Period", de: "Late Period", nl: "Late Period" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The famous Bust of Nefertiti is from the Amarna Period under Akhenaten's reign.",
+        es: "The famous Bust of Nefertiti is from the Amarna Period under Akhenaten's reign.",
+        de: "The famous Bust of Nefertiti is from the Amarna Period under Akhenaten's reign.",
+        nl: "The famous Bust of Nefertiti is from the Amarna Period under Akhenaten's reign."
+      }
+    },
+    {
+      question: {
+        en: "What is relief sculpture?",
+        es: "What is relief sculpture?",
+        de: "What is relief sculpture?",
+        nl: "What is relief sculpture?"
+      },
+      options: [
+        { en: "Carving projecting from background", es: "Carving projecting from background", de: "Carving projecting from background", nl: "Carving projecting from background" },
+        { en: "Free-standing sculpture", es: "Free-standing sculpture", de: "Free-standing sculpture", nl: "Free-standing sculpture" },
+        { en: "Sunken carving", es: "Sunken carving", de: "Sunken carving", nl: "Sunken carving" },
+        { en: "Painted surface", es: "Painted surface", de: "Painted surface", nl: "Painted surface" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Relief sculpture has figures carved to project from a background surface.",
+        es: "Relief sculpture has figures carved to project from a background surface.",
+        de: "Relief sculpture has figures carved to project from a background surface.",
+        nl: "Relief sculpture has figures carved to project from a background surface."
+      }
+    },
+    {
+      question: {
+        en: "What is sunken relief?",
+        es: "What is sunken relief?",
+        de: "What is sunken relief?",
+        nl: "What is sunken relief?"
+      },
+      options: [
+        { en: "Carving recessed into surface", es: "Carving recessed into surface", de: "Carving recessed into surface", nl: "Carving recessed into surface" },
+        { en: "Raised carving", es: "Raised carving", de: "Raised carving", nl: "Raised carving" },
+        { en: "Painted relief", es: "Painted relief", de: "Painted relief", nl: "Painted relief" },
+        { en: "3D sculpture", es: "3D sculpture", de: "3D sculpture", nl: "3D sculpture" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Sunken relief has figures carved into the surface, creating recessed images.",
+        es: "Sunken relief has figures carved into the surface, creating recessed images.",
+        de: "Sunken relief has figures carved into the surface, creating recessed images.",
+        nl: "Sunken relief has figures carved into the surface, creating recessed images."
+      }
+    },
+    {
+      question: {
+        en: "What symbolized eternity in Egyptian art?",
+        es: "What symbolized eternity in Egyptian art?",
+        de: "What symbolized eternity in Egyptian art?",
+        nl: "What symbolized eternity in Egyptian art?"
+      },
+      options: [
+        { en: "Shen ring (circular rope)", es: "Shen ring (circular rope)", de: "Shen ring (circular rope)", nl: "Shen ring (circular rope)" },
+        { en: "Ankh", es: "Ankh", de: "Ankh", nl: "Ankh" },
+        { en: "Was scepter", es: "Was scepter", de: "Was scepter", nl: "Was scepter" },
+        { en: "Djed pillar", es: "Djed pillar", de: "Djed pillar", nl: "Djed pillar" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The shen ring, a circle of rope with no beginning or end, symbolized eternity and protection.",
+        es: "The shen ring, a circle of rope with no beginning or end, symbolized eternity and protection.",
+        de: "The shen ring, a circle of rope with no beginning or end, symbolized eternity and protection.",
+        nl: "The shen ring, a circle of rope with no beginning or end, symbolized eternity and protection."
+      }
+    },
+    {
+      question: {
+        en: "What is the Book of the Dead?",
+        es: "What is the Book of the Dead?",
+        de: "What is the Book of the Dead?",
+        nl: "What is the Book of the Dead?"
+      },
+      options: [
+        { en: "Funerary texts with illustrations", es: "Funerary texts with illustrations", de: "Funerary texts with illustrations", nl: "Funerary texts with illustrations" },
+        { en: "Historical chronicle", es: "Historical chronicle", de: "Historical chronicle", nl: "Historical chronicle" },
+        { en: "Religious law", es: "Religious law", de: "Religious law", nl: "Religious law" },
+        { en: "Medical text", es: "Medical text", de: "Medical text", nl: "Medical text" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Book of the Dead is a collection of illustrated funerary texts meant to guide the deceased through the afterlife.",
+        es: "The Book of the Dead is a collection of illustrated funerary texts meant to guide the deceased through the afterlife.",
+        de: "The Book of the Dead is a collection of illustrated funerary texts meant to guide the deceased through the afterlife.",
+        nl: "The Book of the Dead is a collection of illustrated funerary texts meant to guide the deceased through the afterlife."
+      }
+
       }
     ]
   };

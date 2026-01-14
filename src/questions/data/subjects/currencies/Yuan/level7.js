@@ -426,6 +426,406 @@
           es: "La integración del Yuan con infraestructura espacial establece zonas económicas multi-planetarias donde el Yuan sirve como moneda de liquidación para transacciones de recursos extraterrestres. La energía solar basada en espacio proporciona energía ilimitada para manufactura orbital, mientras la minería de asteroides accede a recursos de metales del grupo del platino valorados en billones de dólares. Los contratos denominados en Yuan coordinan extracción de recursos espaciales, procesamiento orbital y entrega a la Tierra, creando nuevos marcos económicos para comercio fuera del mundo. Esto establece precedentes para derechos de propiedad extraterrestres, propiedad de recursos espaciales y sistemas de comercio interplanetarios, con el Yuan potencialmente convirtiéndose en la primera moneda en facilitar transacciones económicas a través de múltiples cuerpos celestes y establecer la transición de la humanidad a una civilización económica espacial.",
           de: "Yuan-Integration mit Weltrauminfrastruktur etabliert multi-planetare Wirtschaftszonen, wo Yuan als Abrechnungswährung für extraterrestrische Ressourcen-Transaktionen dient. Weltraumbasierte Solarenergie bietet unbegrenzte Energie für Orbital-Fertigung, während Asteroidenabbau auf billionenschwere Platingruppen-Metall-Ressourcen zugreift. Yuan-denominierte Verträge koordinieren Weltraumressourcen-Extraktion, Orbital-Verarbeitung und Erd-Lieferung, wodurch neue wirtschaftliche Rahmen für außerweltlichen Handel geschaffen werden. Dies etabliert Präzedenzfälle für extraterrestrische Eigentumsrechte, Weltraumressourcen-Besitz und interplanetare Handelssysteme, wobei Yuan potenziell die erste Währung wird, die wirtschaftliche Transaktionen über mehrere Himmelskörper hinweg erleichtert und Menschheits Übergang zu einer raumfahrenden wirtschaftlichen Zivilisation etabliert.",
           nl: "Yuan-integratie met ruimte-infrastructuur vestigt multi-planetaire economische zones waarbij Yuan dient als afwikkelingsmunt voor extraterrestrische resource transacties. Ruimte-gebaseerde zonne-energie biedt onbeperkte energie voor orbitale productie, terwijl asteroïde mijnbouw toegang krijgt tot biljoen dollar platina groep metaal resources. Yuan-gedenomineerde contracten coördineren ruimte-resource extractie, orbitale verwerking en aarde levering, nieuwe economische kaders creërend voor buitenaardse handel. Dit vestigt precedenten voor extraterrestrische eigendomsrechten, ruimte-resource eigendom en interplanetaire handelssystemen, met Yuan potentieel de eerste munt wordend die economische transacties over meerdere hemellichamen faciliteert en mensheids transitie naar een ruimtevarende economische beschaving vestigt."
+        }      },
+      {
+        question: {
+          en: "What is the Chinese currency called?",
+          es: "What is the Chinese currency called?",
+          de: "What is the Chinese currency called?",
+          nl: "What is the Chinese currency called?"
+        },
+        options: [
+          { en: "Renminbi (Yuan)", es: "Renminbi (Yuan)", de: "Renminbi (Yuan)", nl: "Renminbi (Yuan)" },
+          { en: "Yen", es: "Yen", de: "Yen", nl: "Yen" },
+          { en: "Won", es: "Won", de: "Won", nl: "Won" },
+          { en: "Rupee", es: "Rupee", de: "Rupee", nl: "Rupee" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "China's currency is officially Renminbi (RMB), with Yuan as the basic unit.",
+          es: "China's currency is officially Renminbi (RMB), with Yuan as the basic unit.",
+          de: "China's currency is officially Renminbi (RMB), with Yuan as the basic unit.",
+          nl: "China's currency is officially Renminbi (RMB), with Yuan as the basic unit."
+        }      },
+      {
+        question: {
+          en: "What is the symbol for Yuan?",
+          es: "What is the symbol for Yuan?",
+          de: "What is the symbol for Yuan?",
+          nl: "What is the symbol for Yuan?"
+        },
+        options: [
+          { en: "¥ or 元", es: "¥ or 元", de: "¥ or 元", nl: "¥ or 元" },
+          { en: "Y", es: "Y", de: "Y", nl: "Y" },
+          { en: "CNY", es: "CNY", de: "CNY", nl: "CNY" },
+          { en: "C", es: "C", de: "C", nl: "C" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Yuan uses ¥ symbol (same as Yen) or Chinese character 元.",
+          es: "The Yuan uses ¥ symbol (same as Yen) or Chinese character 元.",
+          de: "The Yuan uses ¥ symbol (same as Yen) or Chinese character 元.",
+          nl: "The Yuan uses ¥ symbol (same as Yen) or Chinese character 元."
+        }      },
+      {
+        question: {
+          en: "What does CNY stand for?",
+          es: "What does CNY stand for?",
+          de: "What does CNY stand for?",
+          nl: "What does CNY stand for?"
+        },
+        options: [
+          { en: "Chinese Yuan", es: "Chinese Yuan", de: "Chinese Yuan", nl: "Chinese Yuan" },
+          { en: "China National Yen", es: "China National Yen", de: "China National Yen", nl: "China National Yen" },
+          { en: "Central Nation Yuan", es: "Central Nation Yuan", de: "Central Nation Yuan", nl: "Central Nation Yuan" },
+          { en: "Chinese New Yen", es: "Chinese New Yen", de: "Chinese New Yen", nl: "Chinese New Yen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "CNY is the ISO code for Chinese Yuan used in international markets.",
+          es: "CNY is the ISO code for Chinese Yuan used in international markets.",
+          de: "CNY is the ISO code for Chinese Yuan used in international markets.",
+          nl: "CNY is the ISO code for Chinese Yuan used in international markets."
+        }      },
+      {
+        question: {
+          en: "What is Renminbi?",
+          es: "What is Renminbi?",
+          de: "What is Renminbi?",
+          nl: "What is Renminbi?"
+        },
+        options: [
+          { en: "Official name of Chinese currency", es: "Official name of Chinese currency", de: "Official name of Chinese currency", nl: "Official name of Chinese currency" },
+          { en: "Chinese coin", es: "Chinese coin", de: "Chinese coin", nl: "Chinese coin" },
+          { en: "Historical currency", es: "Historical currency", de: "Historical currency", nl: "Historical currency" },
+          { en: "Bank name", es: "Bank name", de: "Bank name", nl: "Bank name" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Renminbi (RMB) means 'people's currency' in Chinese, Yuan is the unit.",
+          es: "Renminbi (RMB) means 'people's currency' in Chinese, Yuan is the unit.",
+          de: "Renminbi (RMB) means 'people's currency' in Chinese, Yuan is the unit.",
+          nl: "Renminbi (RMB) means 'people's currency' in Chinese, Yuan is the unit."
+        }      },
+      {
+        question: {
+          en: "What is the smallest Yuan denomination?",
+          es: "What is the smallest Yuan denomination?",
+          de: "What is the smallest Yuan denomination?",
+          nl: "What is the smallest Yuan denomination?"
+        },
+        options: [
+          { en: "1 Fen (1/100 Yuan)", es: "1 Fen (1/100 Yuan)", de: "1 Fen (1/100 Yuan)", nl: "1 Fen (1/100 Yuan)" },
+          { en: "1 Yuan", es: "1 Yuan", de: "1 Yuan", nl: "1 Yuan" },
+          { en: "1 Jiao", es: "1 Jiao", de: "1 Jiao", nl: "1 Jiao" },
+          { en: "5 Yuan", es: "5 Yuan", de: "5 Yuan", nl: "5 Yuan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Fen is 1/100 of a Yuan, though rarely used due to low value.",
+          es: "The Fen is 1/100 of a Yuan, though rarely used due to low value.",
+          de: "The Fen is 1/100 of a Yuan, though rarely used due to low value.",
+          nl: "The Fen is 1/100 of a Yuan, though rarely used due to low value."
+        }      },
+      {
+        question: {
+          en: "What is a Jiao?",
+          es: "What is a Jiao?",
+          de: "What is a Jiao?",
+          nl: "What is a Jiao?"
+        },
+        options: [
+          { en: "1/10 of a Yuan", es: "1/10 of a Yuan", de: "1/10 of a Yuan", nl: "1/10 of a Yuan" },
+          { en: "Chinese coin", es: "Chinese coin", de: "Chinese coin", nl: "Chinese coin" },
+          { en: "10 Yuan", es: "10 Yuan", de: "10 Yuan", nl: "10 Yuan" },
+          { en: "100 Yuan", es: "100 Yuan", de: "100 Yuan", nl: "100 Yuan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A Jiao is one-tenth of a Yuan, similar to a dime in US currency.",
+          es: "A Jiao is one-tenth of a Yuan, similar to a dime in US currency.",
+          de: "A Jiao is one-tenth of a Yuan, similar to a dime in US currency.",
+          nl: "A Jiao is one-tenth of a Yuan, similar to a dime in US currency."
+        }      },
+      {
+        question: {
+          en: "What is the largest Yuan banknote?",
+          es: "What is the largest Yuan banknote?",
+          de: "What is the largest Yuan banknote?",
+          nl: "What is the largest Yuan banknote?"
+        },
+        options: [
+          { en: "100 Yuan", es: "100 Yuan", de: "100 Yuan", nl: "100 Yuan" },
+          { en: "500 Yuan", es: "500 Yuan", de: "500 Yuan", nl: "500 Yuan" },
+          { en: "1,000 Yuan", es: "1,000 Yuan", de: "1,000 Yuan", nl: "1,000 Yuan" },
+          { en: "50 Yuan", es: "50 Yuan", de: "50 Yuan", nl: "50 Yuan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The 100 Yuan note is the largest denomination in circulation.",
+          es: "The 100 Yuan note is the largest denomination in circulation.",
+          de: "The 100 Yuan note is the largest denomination in circulation.",
+          nl: "The 100 Yuan note is the largest denomination in circulation."
+        }      },
+      {
+        question: {
+          en: "Who appears on Yuan banknotes?",
+          es: "Who appears on Yuan banknotes?",
+          de: "Who appears on Yuan banknotes?",
+          nl: "Who appears on Yuan banknotes?"
+        },
+        options: [
+          { en: "Mao Zedong", es: "Mao Zedong", de: "Mao Zedong", nl: "Mao Zedong" },
+          { en: "Xi Jinping", es: "Xi Jinping", de: "Xi Jinping", nl: "Xi Jinping" },
+          { en: "Confucius", es: "Confucius", de: "Confucius", nl: "Confucius" },
+          { en: "Sun Yat-sen", es: "Sun Yat-sen", de: "Sun Yat-sen", nl: "Sun Yat-sen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mao Zedong, founder of PRC, appears on all current Yuan banknotes.",
+          es: "Mao Zedong, founder of PRC, appears on all current Yuan banknotes.",
+          de: "Mao Zedong, founder of PRC, appears on all current Yuan banknotes.",
+          nl: "Mao Zedong, founder of PRC, appears on all current Yuan banknotes."
+        }      },
+      {
+        question: {
+          en: "What is the People's Bank of China?",
+          es: "What is the People's Bank of China?",
+          de: "What is the People's Bank of China?",
+          nl: "What is the People's Bank of China?"
+        },
+        options: [
+          { en: "China's central bank", es: "China's central bank", de: "China's central bank", nl: "China's central bank" },
+          { en: "Commercial bank", es: "Commercial bank", de: "Commercial bank", nl: "Commercial bank" },
+          { en: "Investment bank", es: "Investment bank", de: "Investment bank", nl: "Investment bank" },
+          { en: "Provincial bank", es: "Provincial bank", de: "Provincial bank", nl: "Provincial bank" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The People's Bank of China (PBOC) is China's central bank managing monetary policy.",
+          es: "The People's Bank of China (PBOC) is China's central bank managing monetary policy.",
+          de: "The People's Bank of China (PBOC) is China's central bank managing monetary policy.",
+          nl: "The People's Bank of China (PBOC) is China's central bank managing monetary policy."
+        }      },
+      {
+        question: {
+          en: "What is offshore Yuan?",
+          es: "What is offshore Yuan?",
+          de: "What is offshore Yuan?",
+          nl: "What is offshore Yuan?"
+        },
+        options: [
+          { en: "CNH traded outside mainland", es: "CNH traded outside mainland", de: "CNH traded outside mainland", nl: "CNH traded outside mainland" },
+          { en: "Counterfeit currency", es: "Counterfeit currency", de: "Counterfeit currency", nl: "Counterfeit currency" },
+          { en: "Historical currency", es: "Historical currency", de: "Historical currency", nl: "Historical currency" },
+          { en: "Digital currency", es: "Digital currency", de: "Digital currency", nl: "Digital currency" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "CNH is offshore Yuan traded in Hong Kong and international markets, distinct from onshore CNY.",
+          es: "CNH is offshore Yuan traded in Hong Kong and international markets, distinct from onshore CNY.",
+          de: "CNH is offshore Yuan traded in Hong Kong and international markets, distinct from onshore CNY.",
+          nl: "CNH is offshore Yuan traded in Hong Kong and international markets, distinct from onshore CNY."
+        }      },
+      {
+        question: {
+          en: "When did modern Yuan begin?",
+          es: "When did modern Yuan begin?",
+          de: "When did modern Yuan begin?",
+          nl: "When did modern Yuan begin?"
+        },
+        options: [
+          { en: "1949", es: "1949", de: "1949", nl: "1949" },
+          { en: "1912", es: "1912", de: "1912", nl: "1912" },
+          { en: "1978", es: "1978", de: "1978", nl: "1978" },
+          { en: "2000", es: "2000", de: "2000", nl: "2000" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The modern Renminbi was introduced in 1949 when People's Republic was founded.",
+          es: "The modern Renminbi was introduced in 1949 when People's Republic was founded.",
+          de: "The modern Renminbi was introduced in 1949 when People's Republic was founded.",
+          nl: "The modern Renminbi was introduced in 1949 when People's Republic was founded."
+        }      },
+      {
+        question: {
+          en: "What is the exchange rate system?",
+          es: "What is the exchange rate system?",
+          de: "What is the exchange rate system?",
+          nl: "What is the exchange rate system?"
+        },
+        options: [
+          { en: "Managed float against basket", es: "Managed float against basket", de: "Managed float against basket", nl: "Managed float against basket" },
+          { en: "Free float", es: "Free float", de: "Free float", nl: "Free float" },
+          { en: "Fixed to dollar", es: "Fixed to dollar", de: "Fixed to dollar", nl: "Fixed to dollar" },
+          { en: "Gold standard", es: "Gold standard", de: "Gold standard", nl: "Gold standard" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "China uses managed floating exchange rate pegged to a basket of currencies.",
+          es: "China uses managed floating exchange rate pegged to a basket of currencies.",
+          de: "China uses managed floating exchange rate pegged to a basket of currencies.",
+          nl: "China uses managed floating exchange rate pegged to a basket of currencies."
+        }      },
+      {
+        question: {
+          en: "What is currency manipulation concern?",
+          es: "What is currency manipulation concern?",
+          de: "What is currency manipulation concern?",
+          nl: "What is currency manipulation concern?"
+        },
+        options: [
+          { en: "Keeping Yuan artificially low", es: "Keeping Yuan artificially low", de: "Keeping Yuan artificially low", nl: "Keeping Yuan artificially low" },
+          { en: "Counterfeiting", es: "Counterfeiting", de: "Counterfeiting", nl: "Counterfeiting" },
+          { en: "High inflation", es: "High inflation", de: "High inflation", nl: "High inflation" },
+          { en: "Currency shortage", es: "Currency shortage", de: "Currency shortage", nl: "Currency shortage" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Critics argue China keeps Yuan undervalued to boost exports competitively.",
+          es: "Critics argue China keeps Yuan undervalued to boost exports competitively.",
+          de: "Critics argue China keeps Yuan undervalued to boost exports competitively.",
+          nl: "Critics argue China keeps Yuan undervalued to boost exports competitively."
+        }      },
+      {
+        question: {
+          en: "What is digital Yuan?",
+          es: "What is digital Yuan?",
+          de: "What is digital Yuan?",
+          nl: "What is digital Yuan?"
+        },
+        options: [
+          { en: "E-CNY digital currency", es: "E-CNY digital currency", de: "E-CNY digital currency", nl: "E-CNY digital currency" },
+          { en: "Cryptocurrency", es: "Cryptocurrency", de: "Cryptocurrency", nl: "Cryptocurrency" },
+          { en: "Mobile payment app", es: "Mobile payment app", de: "Mobile payment app", nl: "Mobile payment app" },
+          { en: "Online banking", es: "Online banking", de: "Online banking", nl: "Online banking" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "China has launched e-CNY, a central bank digital currency for electronic payments.",
+          es: "China has launched e-CNY, a central bank digital currency for electronic payments.",
+          de: "China has launched e-CNY, a central bank digital currency for electronic payments.",
+          nl: "China has launched e-CNY, a central bank digital currency for electronic payments."
+        }      },
+      {
+        question: {
+          en: "What are the 5th series banknotes?",
+          es: "What are the 5th series banknotes?",
+          de: "What are the 5th series banknotes?",
+          nl: "What are the 5th series banknotes?"
+        },
+        options: [
+          { en: "Current Yuan notes since 1999", es: "Current Yuan notes since 1999", de: "Current Yuan notes since 1999", nl: "Current Yuan notes since 1999" },
+          { en: "Historical notes", es: "Historical notes", de: "Historical notes", nl: "Historical notes" },
+          { en: "Commemorative notes", es: "Commemorative notes", de: "Commemorative notes", nl: "Commemorative notes" },
+          { en: "Provincial notes", es: "Provincial notes", de: "Provincial notes", nl: "Provincial notes" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The 5th series of Renminbi banknotes has been in circulation since 1999.",
+          es: "The 5th series of Renminbi banknotes has been in circulation since 1999.",
+          de: "The 5th series of Renminbi banknotes has been in circulation since 1999.",
+          nl: "The 5th series of Renminbi banknotes has been in circulation since 1999."
+        }      },
+      {
+        question: {
+          en: "What is the IMF SDR basket?",
+          es: "What is the IMF SDR basket?",
+          de: "What is the IMF SDR basket?",
+          nl: "What is the IMF SDR basket?"
+        },
+        options: [
+          { en: "Reserve currencies including Yuan", es: "Reserve currencies including Yuan", de: "Reserve currencies including Yuan", nl: "Reserve currencies including Yuan" },
+          { en: "Trading bloc", es: "Trading bloc", de: "Trading bloc", nl: "Trading bloc" },
+          { en: "Gold reserve", es: "Gold reserve", de: "Gold reserve", nl: "Gold reserve" },
+          { en: "Currency exchange", es: "Currency exchange", de: "Currency exchange", nl: "Currency exchange" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Yuan was added to IMF's Special Drawing Rights basket in 2016.",
+          es: "Yuan was added to IMF's Special Drawing Rights basket in 2016.",
+          de: "Yuan was added to IMF's Special Drawing Rights basket in 2016.",
+          nl: "Yuan was added to IMF's Special Drawing Rights basket in 2016."
+        }      },
+      {
+        question: {
+          en: "What is cross-border payment system?",
+          es: "What is cross-border payment system?",
+          de: "What is cross-border payment system?",
+          nl: "What is cross-border payment system?"
+        },
+        options: [
+          { en: "CIPS for international Yuan transactions", es: "CIPS for international Yuan transactions", de: "CIPS for international Yuan transactions", nl: "CIPS for international Yuan transactions" },
+          { en: "Domestic payment", es: "Domestic payment", de: "Domestic payment", nl: "Domestic payment" },
+          { en: "Credit card network", es: "Credit card network", de: "Credit card network", nl: "Credit card network" },
+          { en: "ATM system", es: "ATM system", de: "ATM system", nl: "ATM system" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "China created CIPS (Cross-border Interbank Payment System) for international RMB settlements.",
+          es: "China created CIPS (Cross-border Interbank Payment System) for international RMB settlements.",
+          de: "China created CIPS (Cross-border Interbank Payment System) for international RMB settlements.",
+          nl: "China created CIPS (Cross-border Interbank Payment System) for international RMB settlements."
+        }      },
+      {
+        question: {
+          en: "What metal are Yuan coins?",
+          es: "What metal are Yuan coins?",
+          de: "What metal are Yuan coins?",
+          nl: "What metal are Yuan coins?"
+        },
+        options: [
+          { en: "Various alloys including brass", es: "Various alloys including brass", de: "Various alloys including brass", nl: "Various alloys including brass" },
+          { en: "Pure gold", es: "Pure gold", de: "Pure gold", nl: "Pure gold" },
+          { en: "Pure silver", es: "Pure silver", de: "Pure silver", nl: "Pure silver" },
+          { en: "Pure copper", es: "Pure copper", de: "Pure copper", nl: "Pure copper" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Yuan coins use different metal alloys: brass, copper-nickel, and aluminum.",
+          es: "Yuan coins use different metal alloys: brass, copper-nickel, and aluminum.",
+          de: "Yuan coins use different metal alloys: brass, copper-nickel, and aluminum.",
+          nl: "Yuan coins use different metal alloys: brass, copper-nickel, and aluminum."
+        }      },
+      {
+        question: {
+          en: "What is currency convertibility status?",
+          es: "What is currency convertibility status?",
+          de: "What is currency convertibility status?",
+          nl: "What is currency convertibility status?"
+        },
+        options: [
+          { en: "Partially convertible", es: "Partially convertible", de: "Partially convertible", nl: "Partially convertible" },
+          { en: "Fully convertible", es: "Fully convertible", de: "Fully convertible", nl: "Fully convertible" },
+          { en: "Not convertible", es: "Not convertible", de: "Not convertible", nl: "Not convertible" },
+          { en: "Gold backed", es: "Gold backed", de: "Gold backed", nl: "Gold backed" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Yuan is partially convertible with capital controls restricting free exchange.",
+          es: "The Yuan is partially convertible with capital controls restricting free exchange.",
+          de: "The Yuan is partially convertible with capital controls restricting free exchange.",
+          nl: "The Yuan is partially convertible with capital controls restricting free exchange."
+        }      },
+      {
+        question: {
+          en: "What is Belt and Road impact?",
+          es: "What is Belt and Road impact?",
+          de: "What is Belt and Road impact?",
+          nl: "What is Belt and Road impact?"
+        },
+        options: [
+          { en: "Increased international Yuan use", es: "Increased international Yuan use", de: "Increased international Yuan use", nl: "Increased international Yuan use" },
+          { en: "Decreased value", es: "Decreased value", de: "Decreased value", nl: "Decreased value" },
+          { en: "Gold backing", es: "Gold backing", de: "Gold backing", nl: "Gold backing" },
+          { en: "Currency union", es: "Currency union", de: "Currency union", nl: "Currency union" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Belt and Road Initiative promotes Yuan for international trade and investments.",
+          es: "Belt and Road Initiative promotes Yuan for international trade and investments.",
+          de: "Belt and Road Initiative promotes Yuan for international trade and investments.",
+          nl: "Belt and Road Initiative promotes Yuan for international trade and investments."
         }
       }
     ]

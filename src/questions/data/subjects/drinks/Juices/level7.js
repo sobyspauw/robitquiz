@@ -426,7 +426,427 @@
           es: "La termosonicación combina calor moderado (50-60°C) con ultrasonido (20-100 kHz). La cavitación ultrasónica daña membranas celulares microbianas mientras el calor desnaturaliza enzimas/proteínas. Efecto sinérgico logra pasteurización a temperaturas/tiempos más bajos que tratamiento térmico convencional, preservando mejor sabor, vitaminas y compuestos bioactivos. Efectivo contra bacterias, levaduras, mohos y enzimas.",
           de: "Thermosonication kombiniert moderate Wärme (50-60°C) mit Ultraschall (20-100 kHz). Ultraschall-Kavitation schädigt mikrobielle Zellmembranen, während Wärme Enzyme/Proteine denaturiert. Synergistischer Effekt erreicht Pasteurisierung bei niedrigeren Temperaturen/Zeiten als konventionelle Wärmebehandlung, erhält besser Geschmack, Vitamine und bioaktive Verbindungen. Wirksam gegen Bakterien, Hefen, Schimmel und Enzyme.",
           nl: "Thermosonicatie combineert gematigde warmte (50-60°C) met ultrasoon (20-100 kHz). Ultrasone cavitatie beschadigt microbiële celmembranen terwijl warmte enzymen/eiwitten denatureert. Synergistisch effect bereikt pasteurisatie bij lagere temperaturen/tijden dan conventionele thermische behandeling, behoudt beter smaak, vitamines en bioactieve verbindingen. Effectief tegen bacteriën, gisten, schimmels en enzymen."
-        }
+        }    },
+    {
+      question: {
+        en: "What is orange juice made from?",
+        es: "What is orange juice made from?",
+        de: "What is orange juice made from?",
+        nl: "What is orange juice made from?"
+      },
+      options: [
+        { en: "Pressed oranges", es: "Pressed oranges", de: "Pressed oranges", nl: "Pressed oranges" },
+        { en: "Orange flavoring", es: "Orange flavoring", de: "Orange flavoring", nl: "Orange flavoring" },
+        { en: "Tang powder", es: "Tang powder", de: "Tang powder", nl: "Tang powder" },
+        { en: "Orange concentrate only", es: "Orange concentrate only", de: "Orange concentrate only", nl: "Orange concentrate only" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Orange juice is made by pressing or extracting the liquid from fresh oranges.",
+        es: "Orange juice is made by pressing or extracting the liquid from fresh oranges.",
+        de: "Orange juice is made by pressing or extracting the liquid from fresh oranges.",
+        nl: "Orange juice is made by pressing or extracting the liquid from fresh oranges."
+      }
+    },
+    {
+      question: {
+        en: "What vitamin is orange juice famous for?",
+        es: "What vitamin is orange juice famous for?",
+        de: "What vitamin is orange juice famous for?",
+        nl: "What vitamin is orange juice famous for?"
+      },
+      options: [
+        { en: "Vitamin C", es: "Vitamin C", de: "Vitamin C", nl: "Vitamin C" },
+        { en: "Vitamin A", es: "Vitamin A", de: "Vitamin A", nl: "Vitamin A" },
+        { en: "Vitamin D", es: "Vitamin D", de: "Vitamin D", nl: "Vitamin D" },
+        { en: "Vitamin B12", es: "Vitamin B12", de: "Vitamin B12", nl: "Vitamin B12" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Orange juice is particularly high in Vitamin C (ascorbic acid).",
+        es: "Orange juice is particularly high in Vitamin C (ascorbic acid).",
+        de: "Orange juice is particularly high in Vitamin C (ascorbic acid).",
+        nl: "Orange juice is particularly high in Vitamin C (ascorbic acid)."
+      }
+    },
+    {
+      question: {
+        en: "What is pulp in juice?",
+        es: "What is pulp in juice?",
+        de: "What is pulp in juice?",
+        nl: "What is pulp in juice?"
+      },
+      options: [
+        { en: "Fruit fibers and tissue", es: "Fruit fibers and tissue", de: "Fruit fibers and tissue", nl: "Fruit fibers and tissue" },
+        { en: "Seeds", es: "Seeds", de: "Seeds", nl: "Seeds" },
+        { en: "Sugar", es: "Sugar", de: "Sugar", nl: "Sugar" },
+        { en: "Water content", es: "Water content", de: "Water content", nl: "Water content" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pulp consists of the fibrous fruit tissues that remain suspended in juice after pressing.",
+        es: "Pulp consists of the fibrous fruit tissues that remain suspended in juice after pressing.",
+        de: "Pulp consists of the fibrous fruit tissues that remain suspended in juice after pressing.",
+        nl: "Pulp consists of the fibrous fruit tissues that remain suspended in juice after pressing."
+      }
+    },
+    {
+      question: {
+        en: "What is apple cider?",
+        es: "What is apple cider?",
+        de: "What is apple cider?",
+        nl: "What is apple cider?"
+      },
+      options: [
+        { en: "Unfiltered apple juice", es: "Unfiltered apple juice", de: "Unfiltered apple juice", nl: "Unfiltered apple juice" },
+        { en: "Filtered apple juice", es: "Filtered apple juice", de: "Filtered apple juice", nl: "Filtered apple juice" },
+        { en: "Fermented apple drink", es: "Fermented apple drink", de: "Fermented apple drink", nl: "Fermented apple drink" },
+        { en: "Apple-flavored soda", es: "Apple-flavored soda", de: "Apple-flavored soda", nl: "Apple-flavored soda" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Apple cider is unfiltered, unsweetened apple juice (in North America; in UK, cider refers to alcoholic version).",
+        es: "Apple cider is unfiltered, unsweetened apple juice (in North America; in UK, cider refers to alcoholic version).",
+        de: "Apple cider is unfiltered, unsweetened apple juice (in North America; in UK, cider refers to alcoholic version).",
+        nl: "Apple cider is unfiltered, unsweetened apple juice (in North America; in UK, cider refers to alcoholic version)."
+      }
+    },
+    {
+      question: {
+        en: "What is concentrate?",
+        es: "What is concentrate?",
+        de: "What is concentrate?",
+        nl: "What is concentrate?"
+      },
+      options: [
+        { en: "Juice with water removed, then re-added", es: "Juice with water removed, then re-added", de: "Juice with water removed, then re-added", nl: "Juice with water removed, then re-added" },
+        { en: "Fresh-squeezed juice", es: "Fresh-squeezed juice", de: "Fresh-squeezed juice", nl: "Fresh-squeezed juice" },
+        { en: "Artificial juice", es: "Artificial juice", de: "Artificial juice", nl: "Artificial juice" },
+        { en: "Juice with extra fruit", es: "Juice with extra fruit", de: "Juice with extra fruit", nl: "Juice with extra fruit" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Juice concentrate has water removed for storage/transport, then water is added back before sale.",
+        es: "Juice concentrate has water removed for storage/transport, then water is added back before sale.",
+        de: "Juice concentrate has water removed for storage/transport, then water is added back before sale.",
+        nl: "Juice concentrate has water removed for storage/transport, then water is added back before sale."
+      }
+    },
+    {
+      question: {
+        en: "What fruit is cranberry juice made from?",
+        es: "What fruit is cranberry juice made from?",
+        de: "What fruit is cranberry juice made from?",
+        nl: "What fruit is cranberry juice made from?"
+      },
+      options: [
+        { en: "Cranberries", es: "Cranberries", de: "Cranberries", nl: "Cranberries" },
+        { en: "Cherries", es: "Cherries", de: "Cherries", nl: "Cherries" },
+        { en: "Strawberries", es: "Strawberries", de: "Strawberries", nl: "Strawberries" },
+        { en: "Raspberries", es: "Raspberries", de: "Raspberries", nl: "Raspberries" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Cranberry juice is made from cranberries, tart red berries native to North America.",
+        es: "Cranberry juice is made from cranberries, tart red berries native to North America.",
+        de: "Cranberry juice is made from cranberries, tart red berries native to North America.",
+        nl: "Cranberry juice is made from cranberries, tart red berries native to North America."
+      }
+    },
+    {
+      question: {
+        en: "What is pasteurization?",
+        es: "What is pasteurization?",
+        de: "What is pasteurization?",
+        nl: "What is pasteurization?"
+      },
+      options: [
+        { en: "Heating to kill bacteria", es: "Heating to kill bacteria", de: "Heating to kill bacteria", nl: "Heating to kill bacteria" },
+        { en: "Adding preservatives", es: "Adding preservatives", de: "Adding preservatives", nl: "Adding preservatives" },
+        { en: "Removing pulp", es: "Removing pulp", de: "Removing pulp", nl: "Removing pulp" },
+        { en: "Adding vitamins", es: "Adding vitamins", de: "Adding vitamins", nl: "Adding vitamins" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pasteurization heats juice briefly to kill harmful bacteria and extend shelf life.",
+        es: "Pasteurization heats juice briefly to kill harmful bacteria and extend shelf life.",
+        de: "Pasteurization heats juice briefly to kill harmful bacteria and extend shelf life.",
+        nl: "Pasteurization heats juice briefly to kill harmful bacteria and extend shelf life."
+      }
+    },
+    {
+      question: {
+        en: "What is tomato juice?",
+        es: "What is tomato juice?",
+        de: "What is tomato juice?",
+        nl: "What is tomato juice?"
+      },
+      options: [
+        { en: "Juice from tomatoes", es: "Juice from tomatoes", de: "Juice from tomatoes", nl: "Juice from tomatoes" },
+        { en: "Vegetable blend", es: "Vegetable blend", de: "Vegetable blend", nl: "Vegetable blend" },
+        { en: "Spiced juice", es: "Spiced juice", de: "Spiced juice", nl: "Spiced juice" },
+        { en: "Tomato sauce diluted", es: "Tomato sauce diluted", de: "Tomato sauce diluted", nl: "Tomato sauce diluted" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Tomato juice is the liquid extracted from tomatoes, often seasoned with salt and spices.",
+        es: "Tomato juice is the liquid extracted from tomatoes, often seasoned with salt and spices.",
+        de: "Tomato juice is the liquid extracted from tomatoes, often seasoned with salt and spices.",
+        nl: "Tomato juice is the liquid extracted from tomatoes, often seasoned with salt and spices."
+      }
+    },
+    {
+      question: {
+        en: "What is 'not from concentrate' mean?",
+        es: "What is 'not from concentrate' mean?",
+        de: "What is 'not from concentrate' mean?",
+        nl: "What is 'not from concentrate' mean?"
+      },
+      options: [
+        { en: "Water never removed from juice", es: "Water never removed from juice", de: "Water never removed from juice", nl: "Water never removed from juice" },
+        { en: "No artificial ingredients", es: "No artificial ingredients", de: "No artificial ingredients", nl: "No artificial ingredients" },
+        { en: "Fresh-squeezed only", es: "Fresh-squeezed only", de: "Fresh-squeezed only", nl: "Fresh-squeezed only" },
+        { en: "No added sugar", es: "No added sugar", de: "No added sugar", nl: "No added sugar" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "'Not from concentrate' means the juice wasn't concentrated and reconstituted; water was never removed.",
+        es: "'Not from concentrate' means the juice wasn't concentrated and reconstituted; water was never removed.",
+        de: "'Not from concentrate' means the juice wasn't concentrated and reconstituted; water was never removed.",
+        nl: "'Not from concentrate' means the juice wasn't concentrated and reconstituted; water was never removed."
+      }
+    },
+    {
+      question: {
+        en: "What is grapefruit juice?",
+        es: "What is grapefruit juice?",
+        de: "What is grapefruit juice?",
+        nl: "What is grapefruit juice?"
+      },
+      options: [
+        { en: "Juice from grapefruits", es: "Juice from grapefruits", de: "Juice from grapefruits", nl: "Juice from grapefruits" },
+        { en: "Blend of grape and fruit juices", es: "Blend of grape and fruit juices", de: "Blend of grape and fruit juices", nl: "Blend of grape and fruit juices" },
+        { en: "Artificially flavored juice", es: "Artificially flavored juice", de: "Artificially flavored juice", nl: "Artificially flavored juice" },
+        { en: "Sweetened grape juice", es: "Sweetened grape juice", de: "Sweetened grape juice", nl: "Sweetened grape juice" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Grapefruit juice is extracted from grapefruits, with a tart, slightly bitter flavor.",
+        es: "Grapefruit juice is extracted from grapefruits, with a tart, slightly bitter flavor.",
+        de: "Grapefruit juice is extracted from grapefruits, with a tart, slightly bitter flavor.",
+        nl: "Grapefruit juice is extracted from grapefruits, with a tart, slightly bitter flavor."
+      }
+    },
+    {
+      question: {
+        en: "What fruit is prune juice made from?",
+        es: "What fruit is prune juice made from?",
+        de: "What fruit is prune juice made from?",
+        nl: "What fruit is prune juice made from?"
+      },
+      options: [
+        { en: "Dried plums", es: "Dried plums", de: "Dried plums", nl: "Dried plums" },
+        { en: "Prunes (fresh fruit)", es: "Prunes (fresh fruit)", de: "Prunes (fresh fruit)", nl: "Prunes (fresh fruit)" },
+        { en: "Grapes", es: "Grapes", de: "Grapes", nl: "Grapes" },
+        { en: "Plums", es: "Plums", de: "Plums", nl: "Plums" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Prune juice is made from dried plums, known for digestive benefits.",
+        es: "Prune juice is made from dried plums, known for digestive benefits.",
+        de: "Prune juice is made from dried plums, known for digestive benefits.",
+        nl: "Prune juice is made from dried plums, known for digestive benefits."
+      }
+    },
+    {
+      question: {
+        en: "What is pomegranate juice?",
+        es: "What is pomegranate juice?",
+        de: "What is pomegranate juice?",
+        nl: "What is pomegranate juice?"
+      },
+      options: [
+        { en: "Juice from pomegranate seeds", es: "Juice from pomegranate seeds", de: "Juice from pomegranate seeds", nl: "Juice from pomegranate seeds" },
+        { en: "Pomegranate-flavored juice", es: "Pomegranate-flavored juice", de: "Pomegranate-flavored juice", nl: "Pomegranate-flavored juice" },
+        { en: "Red fruit blend", es: "Red fruit blend", de: "Red fruit blend", nl: "Red fruit blend" },
+        { en: "Juice from pomegranate skin", es: "Juice from pomegranate skin", de: "Juice from pomegranate skin", nl: "Juice from pomegranate skin" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pomegranate juice is extracted from the juicy seeds (arils) inside pomegranates.",
+        es: "Pomegranate juice is extracted from the juicy seeds (arils) inside pomegranates.",
+        de: "Pomegranate juice is extracted from the juicy seeds (arils) inside pomegranates.",
+        nl: "Pomegranate juice is extracted from the juicy seeds (arils) inside pomegranates."
+      }
+    },
+    {
+      question: {
+        en: "What makes juice 'cold-pressed'?",
+        es: "What makes juice 'cold-pressed'?",
+        de: "What makes juice 'cold-pressed'?",
+        nl: "What makes juice 'cold-pressed'?"
+      },
+      options: [
+        { en: "Extracted without heat", es: "Extracted without heat", de: "Extracted without heat", nl: "Extracted without heat" },
+        { en: "Served cold", es: "Served cold", de: "Served cold", nl: "Served cold" },
+        { en: "Refrigerated immediately", es: "Refrigerated immediately", de: "Refrigerated immediately", nl: "Refrigerated immediately" },
+        { en: "Made from frozen fruit", es: "Made from frozen fruit", de: "Made from frozen fruit", nl: "Made from frozen fruit" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Cold-pressed juice is extracted using hydraulic pressure without heat, preserving nutrients.",
+        es: "Cold-pressed juice is extracted using hydraulic pressure without heat, preserving nutrients.",
+        de: "Cold-pressed juice is extracted using hydraulic pressure without heat, preserving nutrients.",
+        nl: "Cold-pressed juice is extracted using hydraulic pressure without heat, preserving nutrients."
+      }
+    },
+    {
+      question: {
+        en: "What is the difference between juice and nectar?",
+        es: "What is the difference between juice and nectar?",
+        de: "What is the difference between juice and nectar?",
+        nl: "What is the difference between juice and nectar?"
+      },
+      options: [
+        { en: "Nectar has added water and sugar", es: "Nectar has added water and sugar", de: "Nectar has added water and sugar", nl: "Nectar has added water and sugar" },
+        { en: "No difference", es: "No difference", de: "No difference", nl: "No difference" },
+        { en: "Nectar is thicker", es: "Nectar is thicker", de: "Nectar is thicker", nl: "Nectar is thicker" },
+        { en: "Juice is artificial", es: "Juice is artificial", de: "Juice is artificial", nl: "Juice is artificial" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Fruit nectar contains fruit juice or purée plus added water and sugar; juice is just fruit liquid.",
+        es: "Fruit nectar contains fruit juice or purée plus added water and sugar; juice is just fruit liquid.",
+        de: "Fruit nectar contains fruit juice or purée plus added water and sugar; juice is just fruit liquid.",
+        nl: "Fruit nectar contains fruit juice or purée plus added water and sugar; juice is just fruit liquid."
+      }
+    },
+    {
+      question: {
+        en: "What is grape juice?",
+        es: "What is grape juice?",
+        de: "What is grape juice?",
+        nl: "What is grape juice?"
+      },
+      options: [
+        { en: "Juice from grapes", es: "Juice from grapes", de: "Juice from grapes", nl: "Juice from grapes" },
+        { en: "Wine without alcohol", es: "Wine without alcohol", de: "Wine without alcohol", nl: "Wine without alcohol" },
+        { en: "Purple-colored juice", es: "Purple-colored juice", de: "Purple-colored juice", nl: "Purple-colored juice" },
+        { en: "Fruit punch", es: "Fruit punch", de: "Fruit punch", nl: "Fruit punch" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Grape juice is the liquid extracted from crushing grapes, available in purple or white varieties.",
+        es: "Grape juice is the liquid extracted from crushing grapes, available in purple or white varieties.",
+        de: "Grape juice is the liquid extracted from crushing grapes, available in purple or white varieties.",
+        nl: "Grape juice is the liquid extracted from crushing grapes, available in purple or white varieties."
+      }
+    },
+    {
+      question: {
+        en: "What nutrients are lost in most commercial juicing?",
+        es: "What nutrients are lost in most commercial juicing?",
+        de: "What nutrients are lost in most commercial juicing?",
+        nl: "What nutrients are lost in most commercial juicing?"
+      },
+      options: [
+        { en: "Fiber", es: "Fiber", de: "Fiber", nl: "Fiber" },
+        { en: "Vitamins", es: "Vitamins", de: "Vitamins", nl: "Vitamins" },
+        { en: "Sugars", es: "Sugars", de: "Sugars", nl: "Sugars" },
+        { en: "Water", es: "Water", de: "Water", nl: "Water" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Most commercial juicing removes fiber; fresh whole fruit contains more fiber than juice.",
+        es: "Most commercial juicing removes fiber; fresh whole fruit contains more fiber than juice.",
+        de: "Most commercial juicing removes fiber; fresh whole fruit contains more fiber than juice.",
+        nl: "Most commercial juicing removes fiber; fresh whole fruit contains more fiber than juice."
+      }
+    },
+    {
+      question: {
+        en: "What is pineapple juice?",
+        es: "What is pineapple juice?",
+        de: "What is pineapple juice?",
+        nl: "What is pineapple juice?"
+      },
+      options: [
+        { en: "Juice from pineapples", es: "Juice from pineapples", de: "Juice from pineapples", nl: "Juice from pineapples" },
+        { en: "Tropical fruit blend", es: "Tropical fruit blend", de: "Tropical fruit blend", nl: "Tropical fruit blend" },
+        { en: "Yellow-colored juice", es: "Yellow-colored juice", de: "Yellow-colored juice", nl: "Yellow-colored juice" },
+        { en: "Pine-flavored juice", es: "Pine-flavored juice", de: "Pine-flavored juice", nl: "Pine-flavored juice" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pineapple juice is extracted from fresh pineapples, high in vitamin C and bromelain enzyme.",
+        es: "Pineapple juice is extracted from fresh pineapples, high in vitamin C and bromelain enzyme.",
+        de: "Pineapple juice is extracted from fresh pineapples, high in vitamin C and bromelain enzyme.",
+        nl: "Pineapple juice is extracted from fresh pineapples, high in vitamin C and bromelain enzyme."
+      }
+    },
+    {
+      question: {
+        en: "What is lemon juice used for?",
+        es: "What is lemon juice used for?",
+        de: "What is lemon juice used for?",
+        nl: "What is lemon juice used for?"
+      },
+      options: [
+        { en: "Flavoring and vitamin C", es: "Flavoring and vitamin C", de: "Flavoring and vitamin C", nl: "Flavoring and vitamin C" },
+        { en: "Sweetener", es: "Sweetener", de: "Sweetener", nl: "Sweetener" },
+        { en: "Coloring", es: "Coloring", de: "Coloring", nl: "Coloring" },
+        { en: "Preservative only", es: "Preservative only", de: "Preservative only", nl: "Preservative only" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Lemon juice is used for its tart flavor and high vitamin C content.",
+        es: "Lemon juice is used for its tart flavor and high vitamin C content.",
+        de: "Lemon juice is used for its tart flavor and high vitamin C content.",
+        nl: "Lemon juice is used for its tart flavor and high vitamin C content."
+      }
+    },
+    {
+      question: {
+        en: "What does '100% juice' mean?",
+        es: "What does '100% juice' mean?",
+        de: "What does '100% juice' mean?",
+        nl: "What does '100% juice' mean?"
+      },
+      options: [
+        { en: "No added water or sugar", es: "No added water or sugar", de: "No added water or sugar", nl: "No added water or sugar" },
+        { en: "Fresh-squeezed", es: "Fresh-squeezed", de: "Fresh-squeezed", nl: "Fresh-squeezed" },
+        { en: "Organic only", es: "Organic only", de: "Organic only", nl: "Organic only" },
+        { en: "Not from concentrate", es: "Not from concentrate", de: "Not from concentrate", nl: "Not from concentrate" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "'100% juice' means the product contains only juice from fruit, with no water or sugar added.",
+        es: "'100% juice' means the product contains only juice from fruit, with no water or sugar added.",
+        de: "'100% juice' means the product contains only juice from fruit, with no water or sugar added.",
+        nl: "'100% juice' means the product contains only juice from fruit, with no water or sugar added."
+      }
+    },
+    {
+      question: {
+        en: "What is carrot juice?",
+        es: "What is carrot juice?",
+        de: "What is carrot juice?",
+        nl: "What is carrot juice?"
+      },
+      options: [
+        { en: "Juice from carrots", es: "Juice from carrots", de: "Juice from carrots", nl: "Juice from carrots" },
+        { en: "Orange-colored juice", es: "Orange-colored juice", de: "Orange-colored juice", nl: "Orange-colored juice" },
+        { en: "Vegetable blend", es: "Vegetable blend", de: "Vegetable blend", nl: "Vegetable blend" },
+        { en: "Carrot-flavored drink", es: "Carrot-flavored drink", de: "Carrot-flavored drink", nl: "Carrot-flavored drink" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Carrot juice is extracted from fresh carrots, rich in beta-carotene (vitamin A).",
+        es: "Carrot juice is extracted from fresh carrots, rich in beta-carotene (vitamin A).",
+        de: "Carrot juice is extracted from fresh carrots, rich in beta-carotene (vitamin A).",
+        nl: "Carrot juice is extracted from fresh carrots, rich in beta-carotene (vitamin A)."
+      }
+
       }
     ]
   };

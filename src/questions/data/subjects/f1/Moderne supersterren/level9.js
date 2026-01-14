@@ -2,438 +2,263 @@
 (function() {
   const level9 = {
     name: {
-      en: "Moderne supersterren Level 9",
-      es: "Moderne supersterren Nivel 9",
-      de: "Moderne supersterren Stufe 9",
-      nl: "Moderne supersterren Level 9"
+      en: "Modern Superstars Level 9",
+      es: "Superestrellas Modernas Nivel 9",
+      de: "Moderne Superstars Stufe 9",
+      nl: "Moderne Supersterren Level 9"
     },
     questions: [
-      {
-        question: {
-          en: "Which British driver has won 7 World Championships and is tied for the most titles in F1 history?",
-          es: "Que piloto britanico ha ganado 7 Campeonatos Mundiales y esta empatado con mas titulos en la historia de F1?",
-          de: "Welcher britische Fahrer hat 7 Weltmeisterschaften gewonnen und teilt sich den Rekord fuer die meisten Titel in der F1-Geschichte?",
-          nl: "Welke Britse coureur heeft 7 Wereldkampioenschappen gewonnen en staat gelijk voor de meeste titels in F1 geschiedenis?"
-        },
-        options: [
-          { en: "Lewis Hamilton", es: "Lewis Hamilton", de: "Lewis Hamilton", nl: "Lewis Hamilton" },
-          { en: "Jenson Button", es: "Jenson Button", de: "Jenson Button", nl: "Jenson Button" },
-          { en: "Lando Norris", es: "Lando Norris", de: "Lando Norris", nl: "Lando Norris" },
-          { en: "George Russell", es: "George Russell", de: "George Russell", nl: "George Russell" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Lewis Hamilton won 7 World Championships (2008, 2014-2020), tying Michael Schumacher's record, and has the most race wins in F1 history.",
-          es: "Lewis Hamilton gano 7 Campeonatos Mundiales (2008, 2014-2020), empatando el record de Michael Schumacher, y tiene mas victorias de carrera en la historia de F1.",
-          de: "Lewis Hamilton gewann 7 Weltmeisterschaften (2008, 2014-2020), egalisierte Michael Schumachers Rekord und hat die meisten Rennsiege in der F1-Geschichte.",
-          nl: "Lewis Hamilton won 7 Wereldkampioenschappen (2008, 2014-2020), gelijk aan Michael Schumachers record, en heeft de meeste race overwinningen in F1 geschiedenis."
-        }
-      },
-      {
-        question: {
-          en: "Which Dutch driver became the youngest F1 World Champion in 2021 driving for Red Bull?",
-          es: "Que piloto holandes se convirtio en el Campeon Mundial de F1 mas joven en 2021 manejando para Red Bull?",
-          de: "Welcher niederlaendische Fahrer wurde 2021 der juengste F1-Weltmeister fuer Red Bull?",
-          nl: "Welke Nederlandse coureur werd de jongste F1 Wereldkampioen in 2021 rijdend voor Red Bull?"
-        },
-        options: [
-          { en: "Nyck de Vries", es: "Nyck de Vries", de: "Nyck de Vries", nl: "Nyck de Vries" },
-          { en: "Max Verstappen", es: "Max Verstappen", de: "Max Verstappen", nl: "Max Verstappen" },
-          { en: "Christijan Albers", es: "Christijan Albers", de: "Christijan Albers", nl: "Christijan Albers" },
-          { en: "Robert Doornbos", es: "Robert Doornbos", de: "Robert Doornbos", nl: "Robert Doornbos" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Max Verstappen won his first World Championship in 2021 at age 24, after an intense season-long battle with Lewis Hamilton that was decided in the final race.",
-          es: "Max Verstappen gano su primer Campeonato Mundial en 2021 a los 24 anos, despues de una intensa batalla durante toda la temporada con Lewis Hamilton que se decidio en la carrera final.",
-          de: "Max Verstappen gewann 2021 im Alter von 24 Jahren seine erste Weltmeisterschaft nach einem intensiven saisonlangen Kampf mit Lewis Hamilton, der im letzten Rennen entschieden wurde.",
-          nl: "Max Verstappen won zijn eerste Wereldkampioenschap in 2021 op 24-jarige leeftijd, na een intense seizoenlange strijd met Lewis Hamilton die in de laatste race werd beslist."
-        }
-      },
-      {
-        question: {
-          en: "Which Spanish driver won 2 World Championships with Ferrari and is known for his consistency?",
-          es: "Que piloto espanol gano 2 Campeonatos Mundiales con Ferrari y es conocido por su consistencia?",
-          de: "Welcher spanische Fahrer gewann 2 Weltmeisterschaften mit Ferrari und ist fuer seine Bestaendigkeit bekannt?",
-          nl: "Welke Spaanse coureur won 2 Wereldkampioenschappen met Ferrari en staat bekend om zijn consistentie?"
-        },
-        options: [
-          { en: "Carlos Sainz Jr.", es: "Carlos Sainz Jr.", de: "Carlos Sainz Jr.", nl: "Carlos Sainz Jr." },
-          { en: "Fernando Alonso", es: "Fernando Alonso", de: "Fernando Alonso", nl: "Fernando Alonso" },
-          { en: "Pedro de la Rosa", es: "Pedro de la Rosa", de: "Pedro de la Rosa", nl: "Pedro de la Rosa" },
-          { en: "Adrian Campos", es: "Adrian Campos", de: "Adrian Campos", nl: "Adrian Campos" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Fernando Alonso won World Championships in 2005 and 2006 with Renault, later joined Ferrari where he came close to winning more titles but was let down by strategy and reliability.",
-          es: "Fernando Alonso gano Campeonatos Mundiales en 2005 y 2006 con Renault, luego se unio a Ferrari donde estuvo cerca de ganar mas titulos pero fue decepcionado por estrategia y confiabilidad.",
-          de: "Fernando Alonso gewann 2005 und 2006 Weltmeisterschaften mit Renault, wechselte spaeter zu Ferrari wo er knapp weitere Titel verpasste aufgrund von Strategie und Zuverlaessigkeitsproblemen.",
-          nl: "Fernando Alonso won Wereldkampioenschappen in 2005 en 2006 met Renault, ging later naar Ferrari waar hij bijna meer titels won maar werd teleurgesteld door strategie en betrouwbaarheid."
-        }
-      },
-      {
-        question: {
-          en: "Which German driver won 4 consecutive World Championships from 2010-2013 with Red Bull?",
-          es: "Que piloto aleman gano 4 Campeonatos Mundiales consecutivos de 2010-2013 con Red Bull?",
-          de: "Welcher deutsche Fahrer gewann von 2010-2013 4 aufeinanderfolgende Weltmeisterschaften mit Red Bull?",
-          nl: "Welke Duitse coureur won 4 opeenvolgende Wereldkampioenschappen van 2010-2013 met Red Bull?"
-        },
-        options: [
-          { en: "Michael Schumacher", es: "Michael Schumacher", de: "Michael Schumacher", nl: "Michael Schumacher" },
-          { en: "Sebastian Vettel", es: "Sebastian Vettel", de: "Sebastian Vettel", nl: "Sebastian Vettel" },
-          { en: "Nico Rosberg", es: "Nico Rosberg", de: "Nico Rosberg", nl: "Nico Rosberg" },
-          { en: "Ralf Schumacher", es: "Ralf Schumacher", de: "Ralf Schumacher", nl: "Ralf Schumacher" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Sebastian Vettel dominated F1 from 2010-2013, winning 4 consecutive championships with Red Bull Racing, becoming the youngest 4-time world champion at that time.",
-          es: "Sebastian Vettel domino la F1 de 2010-2013, ganando 4 campeonatos consecutivos con Red Bull Racing, convirtiendose en el tetracampeon mundial mas joven en ese momento.",
-          de: "Sebastian Vettel dominierte die F1 von 2010-2013, gewann 4 aufeinanderfolgende Meisterschaften mit Red Bull Racing und wurde damals der juengste 4-fache Weltmeister.",
-          nl: "Sebastian Vettel domineerde F1 van 2010-2013, won 4 opeenvolgende kampioenschappen met Red Bull Racing, en werd toen de jongste 4-voudige wereldkampioen."
-        }
-      },
-      {
-        question: {
-          en: "Which French driver currently races for Alpine and is known for his aggressive overtaking style?",
-          es: "Que piloto frances actualmente corre para Alpine y es conocido por su estilo agresivo de adelantamiento?",
-          de: "Welcher franzoesische Fahrer faehrt derzeit fuer Alpine und ist fuer seinen aggressiven Ueberholstil bekannt?",
-          nl: "Welke Franse coureur rijdt momenteel voor Alpine en staat bekend om zijn agressieve inhaalstijl?"
-        },
-        options: [
-          { en: "Pierre Gasly", es: "Pierre Gasly", de: "Pierre Gasly", nl: "Pierre Gasly" },
-          { en: "Esteban Ocon", es: "Esteban Ocon", de: "Esteban Ocon", nl: "Esteban Ocon" },
-          { en: "Romain Grosjean", es: "Romain Grosjean", de: "Romain Grosjean", nl: "Romain Grosjean" },
-          { en: "Jean-Eric Vergne", es: "Jean-Eric Vergne", de: "Jean-Eric Vergne", nl: "Jean-Eric Vergne" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Esteban Ocon races for Alpine (formerly Renault) and won his first Grand Prix at the 2021 Hungarian Grand Prix, known for his determination and racecraft.",
-          es: "Esteban Ocon corre para Alpine (anteriormente Renault) y gano su primer Gran Premio en el Gran Premio de Hungria 2021, conocido por su determinacion y habilidad de carrera.",
-          de: "Esteban Ocon faehrt fuer Alpine (ehemals Renault) und gewann seinen ersten Grand Prix beim Ungarn-GP 2021, bekannt fuer seine Entschlossenheit und Rennkunst.",
-          nl: "Esteban Ocon rijdt voor Alpine (voorheen Renault) en won zijn eerste Grand Prix bij de 2021 Hongaarse Grand Prix, bekend om zijn vastberadenheid en race-vaardigheid."
-        }
-      },
-      {
-        question: {
-          en: "Which British driver has won 7 World Championships and is tied for the most titles in F1 history?",
-          es: "Que piloto britanico ha ganado 7 Campeonatos Mundiales y esta empatado con mas titulos en la historia de F1?",
-          de: "Welcher britische Fahrer hat 7 Weltmeisterschaften gewonnen und teilt sich den Rekord fuer die meisten Titel in der F1-Geschichte?",
-          nl: "Welke Britse coureur heeft 7 Wereldkampioenschappen gewonnen en staat gelijk voor de meeste titels in F1 geschiedenis?"
-        },
-        options: [
-          { en: "Lewis Hamilton", es: "Lewis Hamilton", de: "Lewis Hamilton", nl: "Lewis Hamilton" },
-          { en: "Jenson Button", es: "Jenson Button", de: "Jenson Button", nl: "Jenson Button" },
-          { en: "Lando Norris", es: "Lando Norris", de: "Lando Norris", nl: "Lando Norris" },
-          { en: "George Russell", es: "George Russell", de: "George Russell", nl: "George Russell" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Lewis Hamilton won 7 World Championships (2008, 2014-2020), tying Michael Schumacher's record, and has the most race wins in F1 history.",
-          es: "Lewis Hamilton gano 7 Campeonatos Mundiales (2008, 2014-2020), empatando el record de Michael Schumacher, y tiene mas victorias de carrera en la historia de F1.",
-          de: "Lewis Hamilton gewann 7 Weltmeisterschaften (2008, 2014-2020), egalisierte Michael Schumachers Rekord und hat die meisten Rennsiege in der F1-Geschichte.",
-          nl: "Lewis Hamilton won 7 Wereldkampioenschappen (2008, 2014-2020), gelijk aan Michael Schumachers record, en heeft de meeste race overwinningen in F1 geschiedenis."
-        }
-      },
-      {
-        question: {
-          en: "Which Dutch driver became the youngest F1 World Champion in 2021 driving for Red Bull?",
-          es: "Que piloto holandes se convirtio en el Campeon Mundial de F1 mas joven en 2021 manejando para Red Bull?",
-          de: "Welcher niederlaendische Fahrer wurde 2021 der juengste F1-Weltmeister fuer Red Bull?",
-          nl: "Welke Nederlandse coureur werd de jongste F1 Wereldkampioen in 2021 rijdend voor Red Bull?"
-        },
-        options: [
-          { en: "Nyck de Vries", es: "Nyck de Vries", de: "Nyck de Vries", nl: "Nyck de Vries" },
-          { en: "Max Verstappen", es: "Max Verstappen", de: "Max Verstappen", nl: "Max Verstappen" },
-          { en: "Christijan Albers", es: "Christijan Albers", de: "Christijan Albers", nl: "Christijan Albers" },
-          { en: "Robert Doornbos", es: "Robert Doornbos", de: "Robert Doornbos", nl: "Robert Doornbos" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Max Verstappen won his first World Championship in 2021 at age 24, after an intense season-long battle with Lewis Hamilton that was decided in the final race.",
-          es: "Max Verstappen gano su primer Campeonato Mundial en 2021 a los 24 anos, despues de una intensa batalla durante toda la temporada con Lewis Hamilton que se decidio en la carrera final.",
-          de: "Max Verstappen gewann 2021 im Alter von 24 Jahren seine erste Weltmeisterschaft nach einem intensiven saisonlangen Kampf mit Lewis Hamilton, der im letzten Rennen entschieden wurde.",
-          nl: "Max Verstappen won zijn eerste Wereldkampioenschap in 2021 op 24-jarige leeftijd, na een intense seizoenlange strijd met Lewis Hamilton die in de laatste race werd beslist."
-        }
-      },
-      {
-        question: {
-          en: "Which Spanish driver won 2 World Championships with Ferrari and is known for his consistency?",
-          es: "Que piloto espanol gano 2 Campeonatos Mundiales con Ferrari y es conocido por su consistencia?",
-          de: "Welcher spanische Fahrer gewann 2 Weltmeisterschaften mit Ferrari und ist fuer seine Bestaendigkeit bekannt?",
-          nl: "Welke Spaanse coureur won 2 Wereldkampioenschappen met Ferrari en staat bekend om zijn consistentie?"
-        },
-        options: [
-          { en: "Carlos Sainz Jr.", es: "Carlos Sainz Jr.", de: "Carlos Sainz Jr.", nl: "Carlos Sainz Jr." },
-          { en: "Fernando Alonso", es: "Fernando Alonso", de: "Fernando Alonso", nl: "Fernando Alonso" },
-          { en: "Pedro de la Rosa", es: "Pedro de la Rosa", de: "Pedro de la Rosa", nl: "Pedro de la Rosa" },
-          { en: "Adrian Campos", es: "Adrian Campos", de: "Adrian Campos", nl: "Adrian Campos" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Fernando Alonso won World Championships in 2005 and 2006 with Renault, later joined Ferrari where he came close to winning more titles but was let down by strategy and reliability.",
-          es: "Fernando Alonso gano Campeonatos Mundiales en 2005 y 2006 con Renault, luego se unio a Ferrari donde estuvo cerca de ganar mas titulos pero fue decepcionado por estrategia y confiabilidad.",
-          de: "Fernando Alonso gewann 2005 und 2006 Weltmeisterschaften mit Renault, wechselte spaeter zu Ferrari wo er knapp weitere Titel verpasste aufgrund von Strategie und Zuverlaessigkeitsproblemen.",
-          nl: "Fernando Alonso won Wereldkampioenschappen in 2005 en 2006 met Renault, ging later naar Ferrari waar hij bijna meer titels won maar werd teleurgesteld door strategie en betrouwbaarheid."
-        }
-      },
-      {
-        question: {
-          en: "Which German driver won 4 consecutive World Championships from 2010-2013 with Red Bull?",
-          es: "Que piloto aleman gano 4 Campeonatos Mundiales consecutivos de 2010-2013 con Red Bull?",
-          de: "Welcher deutsche Fahrer gewann von 2010-2013 4 aufeinanderfolgende Weltmeisterschaften mit Red Bull?",
-          nl: "Welke Duitse coureur won 4 opeenvolgende Wereldkampioenschappen van 2010-2013 met Red Bull?"
-        },
-        options: [
-          { en: "Michael Schumacher", es: "Michael Schumacher", de: "Michael Schumacher", nl: "Michael Schumacher" },
-          { en: "Sebastian Vettel", es: "Sebastian Vettel", de: "Sebastian Vettel", nl: "Sebastian Vettel" },
-          { en: "Nico Rosberg", es: "Nico Rosberg", de: "Nico Rosberg", nl: "Nico Rosberg" },
-          { en: "Ralf Schumacher", es: "Ralf Schumacher", de: "Ralf Schumacher", nl: "Ralf Schumacher" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Sebastian Vettel dominated F1 from 2010-2013, winning 4 consecutive championships with Red Bull Racing, becoming the youngest 4-time world champion at that time.",
-          es: "Sebastian Vettel domino la F1 de 2010-2013, ganando 4 campeonatos consecutivos con Red Bull Racing, convirtiendose en el tetracampeon mundial mas joven en ese momento.",
-          de: "Sebastian Vettel dominierte die F1 von 2010-2013, gewann 4 aufeinanderfolgende Meisterschaften mit Red Bull Racing und wurde damals der juengste 4-fache Weltmeister.",
-          nl: "Sebastian Vettel domineerde F1 van 2010-2013, won 4 opeenvolgende kampioenschappen met Red Bull Racing, en werd toen de jongste 4-voudige wereldkampioen."
-        }
-      },
-      {
-        question: {
-          en: "Which French driver currently races for Alpine and is known for his aggressive overtaking style?",
-          es: "Que piloto frances actualmente corre para Alpine y es conocido por su estilo agresivo de adelantamiento?",
-          de: "Welcher franzoesische Fahrer faehrt derzeit fuer Alpine und ist fuer seinen aggressiven Ueberholstil bekannt?",
-          nl: "Welke Franse coureur rijdt momenteel voor Alpine en staat bekend om zijn agressieve inhaalstijl?"
-        },
-        options: [
-          { en: "Pierre Gasly", es: "Pierre Gasly", de: "Pierre Gasly", nl: "Pierre Gasly" },
-          { en: "Esteban Ocon", es: "Esteban Ocon", de: "Esteban Ocon", nl: "Esteban Ocon" },
-          { en: "Romain Grosjean", es: "Romain Grosjean", de: "Romain Grosjean", nl: "Romain Grosjean" },
-          { en: "Jean-Eric Vergne", es: "Jean-Eric Vergne", de: "Jean-Eric Vergne", nl: "Jean-Eric Vergne" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Esteban Ocon races for Alpine (formerly Renault) and won his first Grand Prix at the 2021 Hungarian Grand Prix, known for his determination and racecraft.",
-          es: "Esteban Ocon corre para Alpine (anteriormente Renault) y gano su primer Gran Premio en el Gran Premio de Hungria 2021, conocido por su determinacion y habilidad de carrera.",
-          de: "Esteban Ocon faehrt fuer Alpine (ehemals Renault) und gewann seinen ersten Grand Prix beim Ungarn-GP 2021, bekannt fuer seine Entschlossenheit und Rennkunst.",
-          nl: "Esteban Ocon rijdt voor Alpine (voorheen Renault) en won zijn eerste Grand Prix bij de 2021 Hongaarse Grand Prix, bekend om zijn vastberadenheid en race-vaardigheid."
-        }
-      },
-      {
-        question: {
-          en: "Which British driver has won 7 World Championships and is tied for the most titles in F1 history?",
-          es: "Que piloto britanico ha ganado 7 Campeonatos Mundiales y esta empatado con mas titulos en la historia de F1?",
-          de: "Welcher britische Fahrer hat 7 Weltmeisterschaften gewonnen und teilt sich den Rekord fuer die meisten Titel in der F1-Geschichte?",
-          nl: "Welke Britse coureur heeft 7 Wereldkampioenschappen gewonnen en staat gelijk voor de meeste titels in F1 geschiedenis?"
-        },
-        options: [
-          { en: "Lewis Hamilton", es: "Lewis Hamilton", de: "Lewis Hamilton", nl: "Lewis Hamilton" },
-          { en: "Jenson Button", es: "Jenson Button", de: "Jenson Button", nl: "Jenson Button" },
-          { en: "Lando Norris", es: "Lando Norris", de: "Lando Norris", nl: "Lando Norris" },
-          { en: "George Russell", es: "George Russell", de: "George Russell", nl: "George Russell" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Lewis Hamilton won 7 World Championships (2008, 2014-2020), tying Michael Schumacher's record, and has the most race wins in F1 history.",
-          es: "Lewis Hamilton gano 7 Campeonatos Mundiales (2008, 2014-2020), empatando el record de Michael Schumacher, y tiene mas victorias de carrera en la historia de F1.",
-          de: "Lewis Hamilton gewann 7 Weltmeisterschaften (2008, 2014-2020), egalisierte Michael Schumachers Rekord und hat die meisten Rennsiege in der F1-Geschichte.",
-          nl: "Lewis Hamilton won 7 Wereldkampioenschappen (2008, 2014-2020), gelijk aan Michael Schumachers record, en heeft de meeste race overwinningen in F1 geschiedenis."
-        }
-      },
-      {
-        question: {
-          en: "Which Dutch driver became the youngest F1 World Champion in 2021 driving for Red Bull?",
-          es: "Que piloto holandes se convirtio en el Campeon Mundial de F1 mas joven en 2021 manejando para Red Bull?",
-          de: "Welcher niederlaendische Fahrer wurde 2021 der juengste F1-Weltmeister fuer Red Bull?",
-          nl: "Welke Nederlandse coureur werd de jongste F1 Wereldkampioen in 2021 rijdend voor Red Bull?"
-        },
-        options: [
-          { en: "Nyck de Vries", es: "Nyck de Vries", de: "Nyck de Vries", nl: "Nyck de Vries" },
-          { en: "Max Verstappen", es: "Max Verstappen", de: "Max Verstappen", nl: "Max Verstappen" },
-          { en: "Christijan Albers", es: "Christijan Albers", de: "Christijan Albers", nl: "Christijan Albers" },
-          { en: "Robert Doornbos", es: "Robert Doornbos", de: "Robert Doornbos", nl: "Robert Doornbos" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Max Verstappen won his first World Championship in 2021 at age 24, after an intense season-long battle with Lewis Hamilton that was decided in the final race.",
-          es: "Max Verstappen gano su primer Campeonato Mundial en 2021 a los 24 anos, despues de una intensa batalla durante toda la temporada con Lewis Hamilton que se decidio en la carrera final.",
-          de: "Max Verstappen gewann 2021 im Alter von 24 Jahren seine erste Weltmeisterschaft nach einem intensiven saisonlangen Kampf mit Lewis Hamilton, der im letzten Rennen entschieden wurde.",
-          nl: "Max Verstappen won zijn eerste Wereldkampioenschap in 2021 op 24-jarige leeftijd, na een intense seizoenlange strijd met Lewis Hamilton die in de laatste race werd beslist."
-        }
-      },
-      {
-        question: {
-          en: "Which Spanish driver won 2 World Championships with Ferrari and is known for his consistency?",
-          es: "Que piloto espanol gano 2 Campeonatos Mundiales con Ferrari y es conocido por su consistencia?",
-          de: "Welcher spanische Fahrer gewann 2 Weltmeisterschaften mit Ferrari und ist fuer seine Bestaendigkeit bekannt?",
-          nl: "Welke Spaanse coureur won 2 Wereldkampioenschappen met Ferrari en staat bekend om zijn consistentie?"
-        },
-        options: [
-          { en: "Carlos Sainz Jr.", es: "Carlos Sainz Jr.", de: "Carlos Sainz Jr.", nl: "Carlos Sainz Jr." },
-          { en: "Fernando Alonso", es: "Fernando Alonso", de: "Fernando Alonso", nl: "Fernando Alonso" },
-          { en: "Pedro de la Rosa", es: "Pedro de la Rosa", de: "Pedro de la Rosa", nl: "Pedro de la Rosa" },
-          { en: "Adrian Campos", es: "Adrian Campos", de: "Adrian Campos", nl: "Adrian Campos" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Fernando Alonso won World Championships in 2005 and 2006 with Renault, later joined Ferrari where he came close to winning more titles but was let down by strategy and reliability.",
-          es: "Fernando Alonso gano Campeonatos Mundiales en 2005 y 2006 con Renault, luego se unio a Ferrari donde estuvo cerca de ganar mas titulos pero fue decepcionado por estrategia y confiabilidad.",
-          de: "Fernando Alonso gewann 2005 und 2006 Weltmeisterschaften mit Renault, wechselte spaeter zu Ferrari wo er knapp weitere Titel verpasste aufgrund von Strategie und Zuverlaessigkeitsproblemen.",
-          nl: "Fernando Alonso won Wereldkampioenschappen in 2005 en 2006 met Renault, ging later naar Ferrari waar hij bijna meer titels won maar werd teleurgesteld door strategie en betrouwbaarheid."
-        }
-      },
-      {
-        question: {
-          en: "Which German driver won 4 consecutive World Championships from 2010-2013 with Red Bull?",
-          es: "Que piloto aleman gano 4 Campeonatos Mundiales consecutivos de 2010-2013 con Red Bull?",
-          de: "Welcher deutsche Fahrer gewann von 2010-2013 4 aufeinanderfolgende Weltmeisterschaften mit Red Bull?",
-          nl: "Welke Duitse coureur won 4 opeenvolgende Wereldkampioenschappen van 2010-2013 met Red Bull?"
-        },
-        options: [
-          { en: "Michael Schumacher", es: "Michael Schumacher", de: "Michael Schumacher", nl: "Michael Schumacher" },
-          { en: "Sebastian Vettel", es: "Sebastian Vettel", de: "Sebastian Vettel", nl: "Sebastian Vettel" },
-          { en: "Nico Rosberg", es: "Nico Rosberg", de: "Nico Rosberg", nl: "Nico Rosberg" },
-          { en: "Ralf Schumacher", es: "Ralf Schumacher", de: "Ralf Schumacher", nl: "Ralf Schumacher" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Sebastian Vettel dominated F1 from 2010-2013, winning 4 consecutive championships with Red Bull Racing, becoming the youngest 4-time world champion at that time.",
-          es: "Sebastian Vettel domino la F1 de 2010-2013, ganando 4 campeonatos consecutivos con Red Bull Racing, convirtiendose en el tetracampeon mundial mas joven en ese momento.",
-          de: "Sebastian Vettel dominierte die F1 von 2010-2013, gewann 4 aufeinanderfolgende Meisterschaften mit Red Bull Racing und wurde damals der juengste 4-fache Weltmeister.",
-          nl: "Sebastian Vettel domineerde F1 van 2010-2013, won 4 opeenvolgende kampioenschappen met Red Bull Racing, en werd toen de jongste 4-voudige wereldkampioen."
-        }
-      },
-      {
-        question: {
-          en: "Which French driver currently races for Alpine and is known for his aggressive overtaking style?",
-          es: "Que piloto frances actualmente corre para Alpine y es conocido por su estilo agresivo de adelantamiento?",
-          de: "Welcher franzoesische Fahrer faehrt derzeit fuer Alpine und ist fuer seinen aggressiven Ueberholstil bekannt?",
-          nl: "Welke Franse coureur rijdt momenteel voor Alpine en staat bekend om zijn agressieve inhaalstijl?"
-        },
-        options: [
-          { en: "Pierre Gasly", es: "Pierre Gasly", de: "Pierre Gasly", nl: "Pierre Gasly" },
-          { en: "Esteban Ocon", es: "Esteban Ocon", de: "Esteban Ocon", nl: "Esteban Ocon" },
-          { en: "Romain Grosjean", es: "Romain Grosjean", de: "Romain Grosjean", nl: "Romain Grosjean" },
-          { en: "Jean-Eric Vergne", es: "Jean-Eric Vergne", de: "Jean-Eric Vergne", nl: "Jean-Eric Vergne" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Esteban Ocon races for Alpine (formerly Renault) and won his first Grand Prix at the 2021 Hungarian Grand Prix, known for his determination and racecraft.",
-          es: "Esteban Ocon corre para Alpine (anteriormente Renault) y gano su primer Gran Premio en el Gran Premio de Hungria 2021, conocido por su determinacion y habilidad de carrera.",
-          de: "Esteban Ocon faehrt fuer Alpine (ehemals Renault) und gewann seinen ersten Grand Prix beim Ungarn-GP 2021, bekannt fuer seine Entschlossenheit und Rennkunst.",
-          nl: "Esteban Ocon rijdt voor Alpine (voorheen Renault) en won zijn eerste Grand Prix bij de 2021 Hongaarse Grand Prix, bekend om zijn vastberadenheid en race-vaardigheid."
-        }
-      },
-      {
-        question: {
-          en: "Which British driver has won 7 World Championships and is tied for the most titles in F1 history?",
-          es: "Que piloto britanico ha ganado 7 Campeonatos Mundiales y esta empatado con mas titulos en la historia de F1?",
-          de: "Welcher britische Fahrer hat 7 Weltmeisterschaften gewonnen und teilt sich den Rekord fuer die meisten Titel in der F1-Geschichte?",
-          nl: "Welke Britse coureur heeft 7 Wereldkampioenschappen gewonnen en staat gelijk voor de meeste titels in F1 geschiedenis?"
-        },
-        options: [
-          { en: "Lewis Hamilton", es: "Lewis Hamilton", de: "Lewis Hamilton", nl: "Lewis Hamilton" },
-          { en: "Jenson Button", es: "Jenson Button", de: "Jenson Button", nl: "Jenson Button" },
-          { en: "Lando Norris", es: "Lando Norris", de: "Lando Norris", nl: "Lando Norris" },
-          { en: "George Russell", es: "George Russell", de: "George Russell", nl: "George Russell" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Lewis Hamilton won 7 World Championships (2008, 2014-2020), tying Michael Schumacher's record, and has the most race wins in F1 history.",
-          es: "Lewis Hamilton gano 7 Campeonatos Mundiales (2008, 2014-2020), empatando el record de Michael Schumacher, y tiene mas victorias de carrera en la historia de F1.",
-          de: "Lewis Hamilton gewann 7 Weltmeisterschaften (2008, 2014-2020), egalisierte Michael Schumachers Rekord und hat die meisten Rennsiege in der F1-Geschichte.",
-          nl: "Lewis Hamilton won 7 Wereldkampioenschappen (2008, 2014-2020), gelijk aan Michael Schumachers record, en heeft de meeste race overwinningen in F1 geschiedenis."
-        }
-      },
-      {
-        question: {
-          en: "Which Dutch driver became the youngest F1 World Champion in 2021 driving for Red Bull?",
-          es: "Que piloto holandes se convirtio en el Campeon Mundial de F1 mas joven en 2021 manejando para Red Bull?",
-          de: "Welcher niederlaendische Fahrer wurde 2021 der juengste F1-Weltmeister fuer Red Bull?",
-          nl: "Welke Nederlandse coureur werd de jongste F1 Wereldkampioen in 2021 rijdend voor Red Bull?"
-        },
-        options: [
-          { en: "Nyck de Vries", es: "Nyck de Vries", de: "Nyck de Vries", nl: "Nyck de Vries" },
-          { en: "Max Verstappen", es: "Max Verstappen", de: "Max Verstappen", nl: "Max Verstappen" },
-          { en: "Christijan Albers", es: "Christijan Albers", de: "Christijan Albers", nl: "Christijan Albers" },
-          { en: "Robert Doornbos", es: "Robert Doornbos", de: "Robert Doornbos", nl: "Robert Doornbos" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Max Verstappen won his first World Championship in 2021 at age 24, after an intense season-long battle with Lewis Hamilton that was decided in the final race.",
-          es: "Max Verstappen gano su primer Campeonato Mundial en 2021 a los 24 anos, despues de una intensa batalla durante toda la temporada con Lewis Hamilton que se decidio en la carrera final.",
-          de: "Max Verstappen gewann 2021 im Alter von 24 Jahren seine erste Weltmeisterschaft nach einem intensiven saisonlangen Kampf mit Lewis Hamilton, der im letzten Rennen entschieden wurde.",
-          nl: "Max Verstappen won zijn eerste Wereldkampioenschap in 2021 op 24-jarige leeftijd, na een intense seizoenlange strijd met Lewis Hamilton die in de laatste race werd beslist."
-        }
-      },
-      {
-        question: {
-          en: "Which Spanish driver won 2 World Championships with Ferrari and is known for his consistency?",
-          es: "Que piloto espanol gano 2 Campeonatos Mundiales con Ferrari y es conocido por su consistencia?",
-          de: "Welcher spanische Fahrer gewann 2 Weltmeisterschaften mit Ferrari und ist fuer seine Bestaendigkeit bekannt?",
-          nl: "Welke Spaanse coureur won 2 Wereldkampioenschappen met Ferrari en staat bekend om zijn consistentie?"
-        },
-        options: [
-          { en: "Carlos Sainz Jr.", es: "Carlos Sainz Jr.", de: "Carlos Sainz Jr.", nl: "Carlos Sainz Jr." },
-          { en: "Fernando Alonso", es: "Fernando Alonso", de: "Fernando Alonso", nl: "Fernando Alonso" },
-          { en: "Pedro de la Rosa", es: "Pedro de la Rosa", de: "Pedro de la Rosa", nl: "Pedro de la Rosa" },
-          { en: "Adrian Campos", es: "Adrian Campos", de: "Adrian Campos", nl: "Adrian Campos" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Fernando Alonso won World Championships in 2005 and 2006 with Renault, later joined Ferrari where he came close to winning more titles but was let down by strategy and reliability.",
-          es: "Fernando Alonso gano Campeonatos Mundiales en 2005 y 2006 con Renault, luego se unio a Ferrari donde estuvo cerca de ganar mas titulos pero fue decepcionado por estrategia y confiabilidad.",
-          de: "Fernando Alonso gewann 2005 und 2006 Weltmeisterschaften mit Renault, wechselte spaeter zu Ferrari wo er knapp weitere Titel verpasste aufgrund von Strategie und Zuverlaessigkeitsproblemen.",
-          nl: "Fernando Alonso won Wereldkampioenschappen in 2005 en 2006 met Renault, ging later naar Ferrari waar hij bijna meer titels won maar werd teleurgesteld door strategie en betrouwbaarheid."
-        }
-      },
-      {
-        question: {
-          en: "Which German driver won 4 consecutive World Championships from 2010-2013 with Red Bull?",
-          es: "Que piloto aleman gano 4 Campeonatos Mundiales consecutivos de 2010-2013 con Red Bull?",
-          de: "Welcher deutsche Fahrer gewann von 2010-2013 4 aufeinanderfolgende Weltmeisterschaften mit Red Bull?",
-          nl: "Welke Duitse coureur won 4 opeenvolgende Wereldkampioenschappen van 2010-2013 met Red Bull?"
-        },
-        options: [
-          { en: "Michael Schumacher", es: "Michael Schumacher", de: "Michael Schumacher", nl: "Michael Schumacher" },
-          { en: "Sebastian Vettel", es: "Sebastian Vettel", de: "Sebastian Vettel", nl: "Sebastian Vettel" },
-          { en: "Nico Rosberg", es: "Nico Rosberg", de: "Nico Rosberg", nl: "Nico Rosberg" },
-          { en: "Ralf Schumacher", es: "Ralf Schumacher", de: "Ralf Schumacher", nl: "Ralf Schumacher" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Sebastian Vettel dominated F1 from 2010-2013, winning 4 consecutive championships with Red Bull Racing, becoming the youngest 4-time world champion at that time.",
-          es: "Sebastian Vettel domino la F1 de 2010-2013, ganando 4 campeonatos consecutivos con Red Bull Racing, convirtiendose en el tetracampeon mundial mas joven en ese momento.",
-          de: "Sebastian Vettel dominierte die F1 von 2010-2013, gewann 4 aufeinanderfolgende Meisterschaften mit Red Bull Racing und wurde damals der juengste 4-fache Weltmeister.",
-          nl: "Sebastian Vettel domineerde F1 van 2010-2013, won 4 opeenvolgende kampioenschappen met Red Bull Racing, en werd toen de jongste 4-voudige wereldkampioen."
-        }
-      },
-      {
-        question: {
-          en: "Which French driver currently races for Alpine and is known for his aggressive overtaking style?",
-          es: "Que piloto frances actualmente corre para Alpine y es conocido por su estilo agresivo de adelantamiento?",
-          de: "Welcher franzoesische Fahrer faehrt derzeit fuer Alpine und ist fuer seinen aggressiven Ueberholstil bekannt?",
-          nl: "Welke Franse coureur rijdt momenteel voor Alpine en staat bekend om zijn agressieve inhaalstijl?"
-        },
-        options: [
-          { en: "Pierre Gasly", es: "Pierre Gasly", de: "Pierre Gasly", nl: "Pierre Gasly" },
-          { en: "Esteban Ocon", es: "Esteban Ocon", de: "Esteban Ocon", nl: "Esteban Ocon" },
-          { en: "Romain Grosjean", es: "Romain Grosjean", de: "Romain Grosjean", nl: "Romain Grosjean" },
-          { en: "Jean-Eric Vergne", es: "Jean-Eric Vergne", de: "Jean-Eric Vergne", nl: "Jean-Eric Vergne" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Esteban Ocon races for Alpine (formerly Renault) and won his first Grand Prix at the 2021 Hungarian Grand Prix, known for his determination and racecraft.",
-          es: "Esteban Ocon corre para Alpine (anteriormente Renault) y gano su primer Gran Premio en el Gran Premio de Hungria 2021, conocido por su determinacion y habilidad de carrera.",
-          de: "Esteban Ocon faehrt fuer Alpine (ehemals Renault) und gewann seinen ersten Grand Prix beim Ungarn-GP 2021, bekannt fuer seine Entschlossenheit und Rennkunst.",
-          nl: "Esteban Ocon rijdt voor Alpine (voorheen Renault) en won zijn eerste Grand Prix bij de 2021 Hongaarse Grand Prix, bekend om zijn vastberadenheid en race-vaardigheid."
-        }
-      }
+  {
+    question: {en:"What percentage of races did Max Verstappen win in his dominant 2023 season (19 wins from 22 races)?",es:"¿Qué porcentaje de carreras ganó Max Verstappen en su temporada dominante 2023 (19 victorias de 22 carreras)?",de:"Welchen Prozentsatz der Rennen gewann Max Verstappen in seiner dominanten Saison 2023 (19 Siege aus 22 Rennen)?",nl:"Welk percentage races won Max Verstappen in zijn dominante 2023 seizoen (19 overwinningen uit 22 races)?"},
+    options:["82.6%","84.1%","86.4%","88.2%"],
+    correct:2,
+    explanation:{en:"Verstappen won 19 of 22 races in 2023 (86.4%), breaking Vettel's 2013 record of 13 wins. Combined with 100% podium rate, this was F1's most dominant season ever.",es:"Verstappen ganó 19 de 22 carreras en 2023 (86.4%), rompiendo el récord de Vettel de 2013 de 13 victorias. Combinado con 100% de podios, fue la temporada más dominante de F1.",de:"Verstappen gewann 19 von 22 Rennen in 2023 (86,4%), brach Vettels 2013-Rekord von 13 Siegen. Mit 100% Podiumsrate war dies die dominanteste F1-Saison aller Zeiten.",nl:"Verstappen won 19 van 22 races in 2023 (86.4%), brak Vettel's 2013 record van 13 overwinningen. Met 100% podium was dit F1's meest dominante seizoen ooit."}
+  },
+  {
+    question:{en:"How many total pole positions did Lewis Hamilton achieve during his entire Mercedes career (2013-2023)?",es:"¿Cuántas pole positions totales logró Lewis Hamilton durante toda su carrera en Mercedes (2013-2023)?",de:"Wie viele Pole-Positionen erzielte Lewis Hamilton insgesamt während seiner gesamten Mercedes-Karriere (2013-2023)?",nl:"Hoeveel totale pole positions behaalde Lewis Hamilton tijdens zijn hele Mercedes carrière (2013-2023)?"},
+    options:["78 poles","84 poles","90 poles","96 poles"],
+    correct:1,
+    explanation:{en:"Hamilton took 84 poles with Mercedes from 2013-2023, averaging 7.6 per season. His peak was 2016 with 12 poles. This represents 76% of his 111 career poles.",es:"Hamilton logró 84 poles con Mercedes de 2013-2023, promediando 7.6 por temporada. Su pico fue 2016 con 12 poles. Representa el 76% de sus 111 poles de carrera.",de:"Hamilton holte von 2013-2023 84 Poles mit Mercedes, durchschnittlich 7,6 pro Saison. Sein Höhepunkt war 2016 mit 12 Poles. Dies entspricht 76% seiner 111 Karriere-Poles.",nl:"Hamilton pakte 84 poles met Mercedes van 2013-2023, gemiddeld 7.6 per seizoen. Zijn piek was 2016 met 12 poles. Dit is 76% van zijn 111 carrière poles."}
+  },
+  {
+    question:{en:"What was Sebastian Vettel's exact total of laps led during his four championship seasons with Red Bull (2010-2013)?",es:"¿Cuál fue el total exacto de vueltas lideradas de Sebastian Vettel durante sus cuatro temporadas de campeonato con Red Bull (2010-2013)?",de:"Wie viele Runden führte Sebastian Vettel insgesamt während seiner vier Meisterschaftssaisons bei Red Bull (2010-2013)?",nl:"Wat was Sebastian Vettel's exacte totaal aan geleidde ronden tijdens zijn vier kampioenschapsseizoenen bij Red Bull (2010-2013)?"},
+    options:["2,617 laps","2,817 laps","2,917 laps","3,117 laps"],
+    correct:2,
+    explanation:{en:"Vettel led 2,917 laps from 2010-2013 (77 races), averaging 37.9 laps per race. His peak was 2011 with 911 laps led. He dominated 48.7% of all laps in this period.",es:"Vettel lideró 2,917 vueltas de 2010-2013 (77 carreras), promediando 37.9 vueltas por carrera. Su pico fue 2011 con 911 vueltas lideradas. Dominó el 48.7% de todas las vueltas en este período.",de:"Vettel führte von 2010-2013 2.917 Runden (77 Rennen), durchschnittlich 37,9 Runden pro Rennen. Sein Höhepunkt war 2011 mit 911 geführten Runden. Er dominierte 48,7% aller Runden in diesem Zeitraum.",nl:"Vettel leidde 2.917 ronden van 2010-2013 (77 races), gemiddeld 37.9 ronden per race. Zijn piek was 2011 met 911 geleidde ronden. Hij domineerde 48.7% van alle ronden in deze periode."}
+  },
+  {
+    question:{en:"How many races did Fernando Alonso complete during his second stint with McLaren (2015-2018)?",es:"¿Cuántas carreras completó Fernando Alonso durante su segundo período con McLaren (2015-2018)?",de:"Wie viele Rennen absolvierte Fernando Alonso während seiner zweiten Zeit bei McLaren (2015-2018)?",nl:"Hoeveel races voltooide Fernando Alonso tijdens zijn tweede periode bij McLaren (2015-2018)?"},
+    options:["66 races","72 races","78 races","84 races"],
+    correct:0,
+    explanation:{en:"Alonso completed 66 races with McLaren 2015-2018, missing 14 due to injuries and Indy 500. He scored only 227 points total, with zero wins. The Honda engine era was his career low point.",es:"Alonso completó 66 carreras con McLaren 2015-2018, perdió 14 por lesiones e Indy 500. Anotó solo 227 puntos totales, sin victorias. La era del motor Honda fue el punto bajo de su carrera.",de:"Alonso absolvierte 66 Rennen mit McLaren 2015-2018, verpasste 14 aufgrund von Verletzungen und Indy 500. Er erzielte nur 227 Punkte gesamt, ohne Siege. Die Honda-Motor-Ära war sein Karrieretiefpunkt.",nl:"Alonso voltooide 66 races met McLaren 2015-2018, miste 14 door blessures en Indy 500. Hij scoorde slechts 227 punten totaal, geen overwinningen. Het Honda motor tijdperk was zijn carrière dieptepunt."}
+  },
+  {
+    question:{en:"What was Kimi Räikkönen's qualifying head-to-head record against Sebastian Vettel during their four seasons as Ferrari teammates (2015-2018)?",es:"¿Cuál fue el récord cara a cara en clasificación de Kimi Räikkönen contra Sebastian Vettel durante sus cuatro temporadas como compañeros de equipo en Ferrari (2015-2018)?",de:"Wie war Kimi Räikkönens Qualifying-Bilanz gegen Sebastian Vettel während ihrer vier Saisons als Ferrari-Teamkollegen (2015-2018)?",nl:"Wat was Kimi Räikkönen's kwalificatie head-to-head record tegen Sebastian Vettel tijdens hun vier seizoenen als Ferrari teamgenoten (2015-2018)?"},
+    options:["18-61 in Vettel's favor","22-57 in Vettel's favor","26-53 in Vettel's favor","30-49 in Vettel's favor"],
+    correct:1,
+    explanation:{en:"Räikkönen outqualified Vettel only 22 times vs 57 across 2015-2018 (79 races). Despite this 27.8% success rate, Kimi won 1 race to Vettel's 14 in this period, showing the qualifying gap.",es:"Räikkönen superó a Vettel solo 22 veces vs 57 en 2015-2018 (79 carreras). A pesar de esta tasa de éxito del 27.8%, Kimi ganó 1 carrera vs 14 de Vettel en este período, mostrando la brecha de clasificación.",de:"Räikkönen outqualifizierte Vettel nur 22 Mal vs 57 über 2015-2018 (79 Rennen). Trotz dieser 27,8% Erfolgsrate gewann Kimi 1 Rennen zu Vettels 14 in diesem Zeitraum, was die Qualifying-Lücke zeigt.",nl:"Räikkönen out-kwalificeerde Vettel slechts 22 keer vs 57 over 2015-2018 (79 races). Ondanks dit 27.8% succespercentage won Kimi 1 race vs Vettel's 14 in deze periode, de kwalificatiekloof tonend."}
+  },
+  {
+    question:{en:"How many points did Charles Leclerc score in his breakthrough rookie 2018 season with Sauber?",es:"¿Cuántos puntos anotó Charles Leclerc en su temporada de novato breakthrough 2018 con Sauber?",de:"Wie viele Punkte erzielte Charles Leclerc in seiner Durchbruch-Rookie-Saison 2018 bei Sauber?",nl:"Hoeveel punten scoorde Charles Leclerc in zijn doorbraak rookie 2018 seizoen bij Sauber?"},
+    options:["29 points","39 points","49 points","59 points"],
+    correct:1,
+    explanation:{en:"Leclerc scored 39 points with Sauber in 2018, finishing P13 in championship. His best result was P6 in Azerbaijan. This performance earned him the Ferrari seat for 2019, replacing Räikkönen.",es:"Leclerc anotó 39 puntos con Sauber en 2018, terminando P13 en el campeonato. Su mejor resultado fue P6 en Azerbaiyán. Esta actuación le valió el asiento de Ferrari para 2019, reemplazando a Räikkönen.",de:"Leclerc erzielte 2018 39 Punkte mit Sauber und beendete die Meisterschaft als 13. Sein bestes Ergebnis war P6 in Aserbaidschan. Diese Leistung brachte ihm den Ferrari-Sitz für 2019, als Ersatz für Räikkönen.",nl:"Leclerc scoorde 39 punten met Sauber in 2018, eindigend P13 in kampioenschap. Zijn beste resultaat was P6 in Azerbeidzjan. Deze prestatie leverde hem de Ferrari zitplaats op voor 2019, Räikkönen vervangend."}
+  },
+  {
+    question:{en:"What was Valtteri Bottas's pole-to-win conversion rate during his five seasons with Mercedes (2017-2021)?",es:"¿Cuál fue la tasa de conversión de pole a victoria de Valtteri Bottas durante sus cinco temporadas con Mercedes (2017-2021)?",de:"Wie hoch war Valtteri Bottas' Pole-zu-Sieg-Konversionsrate während seiner fünf Saisons bei Mercedes (2017-2021)?",nl:"Wat was Valtteri Bottas's pole-naar-overwinning conversie percentage tijdens zijn vijf seizoenen bij Mercedes (2017-2021)?"},
+    options:["40% (8 wins from 20 poles)","45% (9 wins from 20 poles)","50% (10 wins from 20 poles)","55% (11 wins from 20 poles)"],
+    correct:2,
+    explanation:{en:"Bottas converted 10 of his 20 Mercedes poles to wins (50%). This was lower than Hamilton's 63% rate in same period. Bottas often lost wins to Hamilton through team orders or race craft.",es:"Bottas convirtió 10 de sus 20 poles de Mercedes en victorias (50%). Esto fue menor que la tasa del 63% de Hamilton en el mismo período. Bottas a menudo perdió victorias ante Hamilton por órdenes de equipo o habilidad de carrera.",de:"Bottas konvertierte 10 seiner 20 Mercedes-Poles zu Siegen (50%). Dies war niedriger als Hamiltons 63%-Rate im gleichen Zeitraum. Bottas verlor oft Siege an Hamilton durch Teamorders oder Rennkunst.",nl:"Bottas zette 10 van zijn 20 Mercedes poles om in overwinningen (50%). Dit was lager dan Hamilton's 63% percentage in dezelfde periode. Bottas verloor vaak overwinningen aan Hamilton door teamorders of racecraft."}
+  },
+  {
+    question:{en:"How many career podium finishes did Daniel Ricciardo achieve through the end of 2023?",es:"¿Cuántos podios de carrera logró Daniel Ricciardo hasta el final de 2023?",de:"Wie viele Karriere-Podiumsplatzierungen erreichte Daniel Ricciardo bis Ende 2023?",nl:"Hoeveel carrière podiumfinishes behaalde Daniel Ricciardo tot eind 2023?"},
+    options:["30 podiums","32 podiums","34 podiums","36 podiums"],
+    correct:1,
+    explanation:{en:"Ricciardo achieved 32 podiums across 2011-2023: 29 with Red Bull, 1 with McLaren, 2 with Renault. He had 24 third-place finishes, most of any current driver, reflecting strong consistency but limited wins.",es:"Ricciardo logró 32 podios en 2011-2023: 29 con Red Bull, 1 con McLaren, 2 con Renault. Tuvo 24 terceros lugares, la mayoría de cualquier piloto actual, reflejando fuerte consistencia pero victorias limitadas.",de:"Ricciardo erreichte von 2011-2023 32 Podien: 29 mit Red Bull, 1 mit McLaren, 2 mit Renault. Er hatte 24 dritte Plätze, die meisten aller aktuellen Fahrer, was starke Konsistenz aber begrenzte Siege widerspiegelt.",nl:"Ricciardo behaalde 32 podiums over 2011-2023: 29 met Red Bull, 1 met McLaren, 2 met Renault. Hij had 24 derde plaatsen, meeste van alle huidige coureurs, sterke consistentie maar beperkte overwinningen reflecterend."}
+  },
+  {
+    question:{en:"What was George Russell's exact average finishing position during his three seasons with Williams (2019-2021)?",es:"¿Cuál fue la posición promedio exacta de finalización de George Russell durante sus tres temporadas con Williams (2019-2021)?",de:"Wie hoch war George Russells exakte durchschnittliche Zielposition während seiner drei Saisons bei Williams (2019-2021)?",nl:"Wat was George Russell's exacte gemiddelde finishpositie tijdens zijn drie seizoenen bij Williams (2019-2021)?"},
+    options:["14.7th place","15.7th place","16.7th place","17.7th place"],
+    correct:1,
+    explanation:{en:"Russell averaged 15.7th place across 57 Williams races, scoring only 16 points total. Despite the uncompetitive car, he outqualified teammates 54-3 and scored his only podium (P2 Belgium 2021 in wet). This earned him Mercedes seat.",es:"Russell promedió 15.7º lugar en 57 carreras con Williams, anotando solo 16 puntos totales. A pesar del coche no competitivo, superó a compañeros 54-3 en clasificación y logró su único podio (P2 Bélgica 2021 en mojado). Esto le valió el asiento de Mercedes.",de:"Russell durchschnittlich 15,7. Platz über 57 Williams-Rennen, erzielte nur 16 Punkte gesamt. Trotz des nicht wettbewerbsfähigen Autos outqualifizierte er Teamkollegen 54-3 und erzielte sein einziges Podium (P2 Belgien 2021 im Nassen). Dies brachte ihm den Mercedes-Sitz.",nl:"Russell gemiddeld 15.7e plaats over 57 Williams races, scoorde slechts 16 punten totaal. Ondanks de niet-competitieve auto out-kwalificeerde hij teamgenoten 54-3 en scoorde zijn enige podium (P2 België 2021 in nat). Dit leverde hem Mercedes zitplaats op."}
+  },
+  {
+    question:{en:"How many races did Sergio Pérez need to score his first career F1 victory?",es:"¿Cuántas carreras necesitó Sergio Pérez para lograr su primera victoria de carrera en F1?",de:"Wie viele Rennen benötigte Sergio Pérez für seinen ersten F1-Karrieresieg?",nl:"Hoeveel races had Sergio Pérez nodig om zijn eerste F1 carrière overwinning te scoren?"},
+    options:["135 races (2020 Sakhir)","150 races (2020 Sakhir)","165 races (2020 Sakhir)","190 races (2020 Sakhir)"],
+    correct:3,
+    explanation:{en:"Pérez waited 190 races for his first win at 2020 Sakhir GP with Racing Point, age 30. This was one of F1's longest waits for a maiden victory. He added 2nd win at 2021 Azerbaijan with Red Bull.",es:"Pérez esperó 190 carreras para su primera victoria en el GP de Sakhir 2020 con Racing Point, a los 30 años. Esta fue una de las esperas más largas de F1 para una primera victoria. Agregó su 2ª victoria en Azerbaiyán 2021 con Red Bull.",de:"Pérez wartete 190 Rennen auf seinen ersten Sieg beim Sakhir-GP 2020 mit Racing Point, im Alter von 30 Jahren. Dies war eine der längsten Wartezeiten in der F1 für einen Premierensieg. Er fügte den 2. Sieg in Aserbaidschan 2021 mit Red Bull hinzu.",nl:"Pérez wachtte 190 races op zijn eerste overwinning bij 2020 Sakhir GP met Racing Point, leeftijd 30. Dit was een van F1's langste wachttijden voor een eerste overwinning. Hij voegde 2e overwinning toe bij 2021 Azerbeidzjan met Red Bull."}
+  }
+,
+  {
+    question:{en:"What was Carlos Sainz Jr.'s qualifying head-to-head record against Lando Norris during their two seasons as McLaren teammates (2019-2020)?",es:"¿Cuál fue el récord cara a cara en clasificación de Carlos Sainz Jr. contra Lando Norris durante sus dos temporadas como compañeros de equipo en McLaren (2019-2020)?",de:"Wie war Carlos Sainz Jr.s Qualifying-Bilanz gegen Lando Norris während ihrer zwei Saisons als McLaren-Teamkollegen (2019-2020)?",nl:"Wat was Carlos Sainz Jr.'s kwalificatie head-to-head record tegen Lando Norris tijdens hun twee seizoenen als McLaren teamgenoten (2019-2020)?"},
+    options:["17-21 in Norris's favor","19-19 tied","21-17 in Sainz's favor","23-15 in Sainz's favor"],
+    correct:0,
+    explanation:{en:"Norris outqualified Sainz 21-17 (55.3% success) over 2019-2020. However, Sainz outscored Norris 216-174 in points, showing superior race craft and consistency despite qualifying deficit.",es:"Norris superó a Sainz 21-17 en clasificación (55.3% éxito) en 2019-2020. Sin embargo, Sainz superó a Norris 216-174 en puntos, mostrando mejor habilidad de carrera y consistencia a pesar del déficit de clasificación.",de:"Norris outqualifizierte Sainz 21-17 (55,3% Erfolg) über 2019-2020. Sainz übertraf Norris jedoch mit 216-174 Punkten und zeigte überlegene Rennkunst und Konsistenz trotz Qualifying-Defizits.",nl:"Norris out-kwalificeerde Sainz 21-17 (55.3% succes) over 2019-2020. Sainz overscoorde Norris echter 216-174 in punten, superieure racecraft en consistentie tonend ondanks kwalificatie tekort."}
+  },
+  {
+    question:{en:"How many fastest laps did Max Verstappen record during his first three championship seasons (2021-2023)?",es:"¿Cuántas vueltas más rápidas registró Max Verstappen durante sus primeras tres temporadas de campeonato (2021-2023)?",de:"Wie viele schnellste Runden verzeichnete Max Verstappen während seiner ersten drei Meisterschaftssaisons (2021-2023)?",nl:"Hoeveel snelste ronden noteerde Max Verstappen tijdens zijn eerste drie kampioenschapsseizoenen (2021-2023)?"},
+    options:["22 fastest laps","26 fastest laps","30 fastest laps","34 fastest laps"],
+    correct:1,
+    explanation:{en:"Verstappen recorded 26 fastest laps across 2021-2023: 6 in 2021, 5 in 2022, 15 in 2023. His 2023 total (68.2% of races) was unprecedented dominance, surpassing Schumacher's previous record.",es:"Verstappen registró 26 vueltas más rápidas en 2021-2023: 6 en 2021, 5 en 2022, 15 en 2023. Su total de 2023 (68.2% de las carreras) fue dominancia sin precedentes, superando el récord anterior de Schumacher.",de:"Verstappen verzeichnete 26 schnellste Runden über 2021-2023: 6 in 2021, 5 in 2022, 15 in 2023. Seine 2023-Summe (68,2% der Rennen) war beispiellose Dominanz und übertraf Schumachers bisherigen Rekord.",nl:"Verstappen noteerde 26 snelste ronden over 2021-2023: 6 in 2021, 5 in 2022, 15 in 2023. Zijn 2023 totaal (68.2% van races) was ongekende dominantie, Schumacher's vorige record overtreffend."}
+  },
+  {
+    question:{en:"What was Lando Norris's total career points scored through the end of the 2023 season?",es:"¿Cuál fue el total de puntos de carrera anotados por Lando Norris hasta el final de la temporada 2023?",de:"Wie viele Karrierepunkte erzielte Lando Norris bis Ende der Saison 2023?",nl:"Wat was Lando Norris's totale carrière punten gescoord tot eind van het 2023 seizoen?"},
+    options:["584 points","624 points","664 points","704 points"],
+    correct:2,
+    explanation:{en:"Norris scored 664 career points from 2019-2023 (102 races), averaging 6.5 ppg. His best season was 2021 with 160 points (P6). He had 12 podiums but remained winless through 2023, closest to victory at 2021 Russia.",es:"Norris anotó 664 puntos de carrera de 2019-2023 (102 carreras), promediando 6.5 ppg. Su mejor temporada fue 2021 con 160 puntos (P6). Tuvo 12 podios pero permaneció sin victorias hasta 2023, más cerca de la victoria en Rusia 2021.",de:"Norris erzielte von 2019-2023 664 Karrierepunkte (102 Rennen), durchschnittlich 6,5 ppg. Seine beste Saison war 2021 mit 160 Punkten (P6). Er hatte 12 Podien, blieb aber bis 2023 sieglos, am nächsten am Sieg bei Russland 2021.",nl:"Norris scoorde 664 carrière punten van 2019-2023 (102 races), gemiddeld 6.5 ppg. Zijn beste seizoen was 2021 met 160 punten (P6). Hij had 12 podiums maar bleef winneloos tot 2023, dichtst bij overwinning bij 2021 Rusland."}
+  },
+  {
+    question:{en:"How many pole positions did Charles Leclerc achieve in his exceptional qualifying 2022 season with Ferrari?",es:"¿Cuántas pole positions logró Charles Leclerc en su excepcional temporada de clasificación 2022 con Ferrari?",de:"Wie viele Pole-Positionen erzielte Charles Leclerc in seiner außergewöhnlichen Qualifying-Saison 2022 bei Ferrari?",nl:"Hoeveel pole positions behaalde Charles Leclerc in zijn uitzonderlijke kwalificatie 2022 seizoen bij Ferrari?"},
+    options:["7 poles","9 poles","11 poles","13 poles"],
+    correct:1,
+    explanation:{en:"Leclerc took 9 poles in 2022, matching Verstappen's total that year. However, Ferrari's strategy errors and reliability issues meant he converted only 3 to wins (33% rate), losing championship by 146 points.",es:"Leclerc logró 9 poles en 2022, igualando el total de Verstappen ese año. Sin embargo, los errores de estrategia y problemas de confiabilidad de Ferrari significaron que convirtió solo 3 en victorias (33%), perdiendo el campeonato por 146 puntos.",de:"Leclerc holte 2022 9 Poles, passend zu Verstappens Gesamtzahl in diesem Jahr. Ferraris Strategiefehler und Zuverlässigkeitsprobleme bedeuteten jedoch, dass er nur 3 zu Siegen konvertierte (33%), verlor Meisterschaft um 146 Punkte.",nl:"Leclerc pakte 9 poles in 2022, gelijk aan Verstappen's totaal dat jaar. Ferrari's strategiefouten en betrouwbaarheidsproblemen betekenden echter dat hij slechts 3 omzette in overwinningen (33%), kampioenschap verliezend met 146 punten."}
+  },
+  {
+    question:{en:"What was Pierre Gasly's points-per-race average during his brief 2019 Red Bull stint (first 12 races)?",es:"¿Cuál fue el promedio de puntos por carrera de Pierre Gasly durante su breve período en Red Bull 2019 (primeras 12 carreras)?",de:"Wie hoch war Pierre Gaslys Punkte-pro-Rennen-Durchschnitt während seines kurzen Red Bull-Stints 2019 (erste 12 Rennen)?",nl:"Wat was Pierre Gasly's punten-per-race gemiddelde tijdens zijn korte 2019 Red Bull periode (eerste 12 races)?"},
+    options:["5.5 ppg","6.5 ppg","7.5 ppg","8.5 ppg"],
+    correct:1,
+    explanation:{en:"Gasly averaged 6.5 ppg in 12 Red Bull races (78 points total), finishing P4-P6 mostly. Teammate Verstappen averaged 17.3 ppg same period. This 62% performance gap led to Gasly's mid-season demotion to Toro Rosso.",es:"Gasly promedió 6.5 ppg en 12 carreras con Red Bull (78 puntos totales), terminando P4-P6 principalmente. Su compañero Verstappen promedió 17.3 ppg en el mismo período. Esta brecha de rendimiento del 62% llevó a la degradación de Gasly a mitad de temporada a Toro Rosso.",de:"Gasly durchschnittlich 6,5 ppg in 12 Red Bull-Rennen (78 Punkte gesamt), meist P4-P6. Teamkollege Verstappen durchschnittlich 17,3 ppg im gleichen Zeitraum. Diese 62%-Leistungslücke führte zu Gaslys Degradierung zur Saisonmitte zu Toro Rosso.",nl:"Gasly gemiddeld 6.5 ppg in 12 Red Bull races (78 punten totaal), eindigend P4-P6 meestal. Teamgenoot Verstappen gemiddeld 17.3 ppg zelfde periode. Deze 62% prestatiekloof leidde tot Gasly's mid-seizoen degradatie naar Toro Rosso."}
+  },
+  {
+    question:{en:"How many total race wins did Nico Rosberg achieve across his 11-year F1 career (2006-2016)?",es:"¿Cuántas victorias totales de carrera logró Nico Rosberg en sus 11 años de carrera en F1 (2006-2016)?",de:"Wie viele Rennsiege insgesamt erzielte Nico Rosberg während seiner 11-jährigen F1-Karriere (2006-2016)?",nl:"Hoeveel totale race overwinningen behaalde Nico Rosberg gedurende zijn 11-jarige F1 carrière (2006-2016)?"},
+    options:["19 wins","21 wins","23 wins","25 wins"],
+    correct:2,
+    explanation:{en:"Rosberg won 23 races from 2006-2016: 0 with Williams, 23 with Mercedes. All wins came 2012-2016. He won 9 in championship year 2016, beating Hamilton 9-10 in wins but winning title through consistency.",es:"Rosberg ganó 23 carreras de 2006-2016: 0 con Williams, 23 con Mercedes. Todas las victorias vinieron 2012-2016. Ganó 9 en el año de campeonato 2016, venciendo a Hamilton 9-10 en victorias pero ganando título por consistencia.",de:"Rosberg gewann 23 Rennen von 2006-2016: 0 mit Williams, 23 mit Mercedes. Alle Siege kamen 2012-2016. Er gewann 9 im Meisterschaftsjahr 2016, schlug Hamilton 9-10 bei Siegen, gewann aber Titel durch Konsistenz.",nl:"Rosberg won 23 races van 2006-2016: 0 met Williams, 23 met Mercedes. Alle overwinningen kwamen 2012-2016. Hij won 9 in kampioenschap jaar 2016, Hamilton verslaand 9-10 in overwinningen maar titel winnend door consistentie."}
+  },
+  {
+    question:{en:"What was Esteban Ocon's qualifying head-to-head record against Fernando Alonso during their two seasons as Alpine teammates (2021-2022)?",es:"¿Cuál fue el récord cara a cara en clasificación de Esteban Ocon contra Fernando Alonso durante sus dos temporadas como compañeros de equipo en Alpine (2021-2022)?",de:"Wie war Esteban Ocons Qualifying-Bilanz gegen Fernando Alonso während ihrer zwei Saisons als Alpine-Teamkollegen (2021-2022)?",nl:"Wat was Esteban Ocon's kwalificatie head-to-head record tegen Fernando Alonso tijdens hun twee seizoenen als Alpine teamgenoten (2021-2022)?"},
+    options:["12-30 in Alonso's favor","14-28 in Alonso's favor","16-26 in Alonso's favor","18-24 in Alonso's favor"],
+    correct:3,
+    explanation:{en:"Ocon was outqualified by Alonso 18-24 (42.9% success) over 2021-2022. However, Ocon outscored Alonso 173-160 in points and won Hungary 2021 while Alonso was winless. This showed Ocon's better race execution.",es:"Ocon fue superado por Alonso 18-24 en clasificación (42.9% éxito) en 2021-2022. Sin embargo, Ocon superó a Alonso 173-160 en puntos y ganó Hungría 2021 mientras Alonso no tuvo victorias. Esto mostró la mejor ejecución de carrera de Ocon.",de:"Ocon wurde von Alonso 18-24 outqualifiziert (42,9% Erfolg) über 2021-2022. Ocon übertraf Alonso jedoch mit 173-160 Punkten und gewann Ungarn 2021, während Alonso sieglos blieb. Dies zeigte Ocons bessere Rennausführung.",nl:"Ocon werd outgekwalificeerd door Alonso 18-24 (42.9% succes) over 2021-2022. Ocon overscoorde Alonso echter 173-160 in punten en won Hongarije 2021 terwijl Alonso winneloos was. Dit toonde Ocon's betere race-executie."}
+  },
+  {
+    question:{en:"How many podium finishes did Oscar Piastri achieve in his impressive 2023 rookie season with McLaren?",es:"¿Cuántos podios logró Oscar Piastri en su impresionante temporada de novato 2023 con McLaren?",de:"Wie viele Podiumsplatzierungen erreichte Oscar Piastri in seiner beeindruckenden Rookie-Saison 2023 bei McLaren?",nl:"Hoeveel podiumfinishes behaalde Oscar Piastri in zijn indrukwekkende 2023 rookie seizoen bij McLaren?"},
+    options:["1 race podium, 2 sprint podiums","2 race podiums, 1 sprint podium","1 race podium, 1 sprint podium","0 race podiums, 3 sprint podiums"],
+    correct:0,
+    explanation:{en:"Piastri scored 1 race podium (Japan P2) and 2 sprint podiums (Austria P2, Qatar P2) in 2023. He finished P9 with 97 points, outqualifying teammate Norris in 9 sessions. Strong second-half performance after McLaren upgrades.",es:"Piastri logró 1 podio de carrera (Japón P2) y 2 podios de sprint (Austria P2, Qatar P2) en 2023. Terminó P9 con 97 puntos, superando a su compañero Norris en 9 sesiones de clasificación. Fuerte rendimiento en segunda mitad después de mejoras de McLaren.",de:"Piastri erzielte 2023 1 Renn-Podium (Japan P2) und 2 Sprint-Podien (Österreich P2, Katar P2). Er beendete P9 mit 97 Punkten, outqualifizierte Teamkollege Norris in 9 Sessions. Starke zweite Hälfte nach McLaren-Upgrades.",nl:"Piastri scoorde 1 race podium (Japan P2) en 2 sprint podiums (Oostenrijk P2, Qatar P2) in 2023. Hij finishte P9 met 97 punten, teamgenoot Norris out-kwalificerend in 9 sessies. Sterke tweede helft na McLaren upgrades."}
+  },
+  {
+    question:{en:"What was Jenson Button's exact championship points total in his title-winning 2009 season with Brawn GP?",es:"¿Cuál fue el total exacto de puntos de campeonato de Jenson Button en su temporada de título ganador 2009 con Brawn GP?",de:"Wie viele Meisterschaftspunkte erzielte Jenson Button genau in seiner titelgewinnenden Saison 2009 mit Brawn GP?",nl:"Wat was Jenson Button's exacte kampioenschap puntentotaal in zijn titel-winnende 2009 seizoen bij Brawn GP?"},
+    options:["89 points","91 points","93 points","95 points"],
+    correct:3,
+    explanation:{en:"Button scored 95 points in 2009, winning championship by 11 points over Vettel (84). He won 6 of first 7 races when Brawn had major advantage, then struggled in second half as Red Bull caught up. Beat teammate Barrichello 95-77.",es:"Button anotó 95 puntos en 2009, ganando el campeonato por 11 puntos sobre Vettel (84). Ganó 6 de las primeras 7 carreras cuando Brawn tenía gran ventaja, luego luchó en la segunda mitad cuando Red Bull alcanzó. Venció a su compañero Barrichello 95-77.",de:"Button erzielte 2009 95 Punkte, gewann Meisterschaft um 11 Punkte vor Vettel (84). Er gewann 6 der ersten 7 Rennen, als Brawn großen Vorteil hatte, kämpfte dann in der zweiten Hälfte, als Red Bull aufholte. Schlug Teamkollege Barrichello 95-77.",nl:"Button scoorde 95 punten in 2009, kampioenschap winnend met 11 punten voor Vettel (84). Hij won 6 van eerste 7 races toen Brawn groot voordeel had, worstelde toen in tweede helft toen Red Bull opkwam. Versloeg teamgenoot Barrichello 95-77."}
+  },
+  {
+    question:{en:"How many Grand Slam victories (pole, win, fastest lap, led every lap) did Max Verstappen achieve in 2023?",es:"¿Cuántas victorias de Grand Slam (pole, victoria, vuelta más rápida, lideró cada vuelta) logró Max Verstappen en 2023?",de:"Wie viele Grand-Slam-Siege (Pole, Sieg, schnellste Runde, jede Runde geführt) erzielte Max Verstappen 2023?",nl:"Hoeveel Grand Slam overwinningen (pole, overwinning, snelste ronde, elke ronde geleid) behaalde Max Verstappen in 2023?"},
+    options:["3 Grand Slams","4 Grand Slams","5 Grand Slams","6 Grand Slams"],
+    correct:2,
+    explanation:{en:"Verstappen achieved 5 Grand Slams in 2023: Bahrain, Monaco, Spain, Austria, Italy. This matched Ascari's 1952 record for most in a season. Grand Slams require pole, win, fastest lap, and leading every lap.",es:"Verstappen logró 5 Grand Slams en 2023: Baréin, Mónaco, España, Austria, Italia. Esto igualó el récord de 1952 de Ascari para la mayoría en una temporada. Los Grand Slams requieren pole, victoria, vuelta más rápida y liderar cada vuelta.",de:"Verstappen erzielte 2023 5 Grand Slams: Bahrain, Monaco, Spanien, Österreich, Italien. Dies entsprach Ascaris 1952-Rekord für die meisten in einer Saison. Grand Slams erfordern Pole, Sieg, schnellste Runde und jede Runde führen.",nl:"Verstappen behaalde 5 Grand Slams in 2023: Bahrein, Monaco, Spanje, Oostenrijk, Italië. Dit evenaarde Ascari's 1952 record voor meeste in een seizoen. Grand Slams vereisen pole, overwinning, snelste ronde en elke ronde leiden."}
+  }
+,
+  {
+    question:{en:"What was Lewis Hamilton's exact win-to-podium ratio during his seven Mercedes championship seasons (2014-2020)?",es:"¿Cuál fue la relación exacta de victorias a podios de Lewis Hamilton durante sus siete temporadas de campeonato con Mercedes (2014-2020)?",de:"Wie hoch war Lewis Hamiltons exakte Sieg-zu-Podium-Quote während seiner sieben Mercedes-Meisterschaftssaisons (2014-2020)?",nl:"Wat was Lewis Hamilton's exacte win-naar-podium ratio tijdens zijn zeven Mercedes kampioenschapsseizoenen (2014-2020)?"},
+    options:["74 wins from 118 podiums (62.7%)","74 wins from 112 podiums (66.1%)","74 wins from 106 podiums (69.8%)","74 wins from 100 podiums (74.0%)"],
+    correct:0,
+    explanation:{en:"Hamilton won 74 of 118 podiums from 2014-2020 (62.7% win rate from podiums). He finished P2 35 times (mostly behind Bottas/Rosberg) and P3 9 times. His 140-race podium rate was 84.3%.",es:"Hamilton ganó 74 de 118 podios de 2014-2020 (62.7% tasa de victorias desde podios). Terminó P2 35 veces (principalmente detrás de Bottas/Rosberg) y P3 9 veces. Su tasa de podio en 140 carreras fue 84.3%.",de:"Hamilton gewann 74 von 118 Podien von 2014-2020 (62,7% Siegrate von Podien). Er wurde 35 Mal P2 (meist hinter Bottas/Rosberg) und 9 Mal P3. Seine 140-Rennen-Podiumsrate betrug 84,3%.",nl:"Hamilton won 74 van 118 podiums van 2014-2020 (62.7% win percentage van podiums). Hij finishte P2 35 keer (meestal achter Bottas/Rosberg) en P3 9 keer. Zijn 140-race podium percentage was 84.3%."}
+  },
+  {
+    question:{en:"How many times did Sebastian Vettel finish on the podium but not win during his Red Bull championship era (2010-2013)?",es:"¿Cuántas veces terminó Sebastian Vettel en el podio pero sin ganar durante su era de campeonato con Red Bull (2010-2013)?",de:"Wie oft beendete Sebastian Vettel während seiner Red Bull-Meisterschaftsära (2010-2013) ein Rennen auf dem Podium, gewann aber nicht?",nl:"Hoeveel keer finishte Sebastian Vettel op het podium maar won niet tijdens zijn Red Bull kampioenschap era (2010-2013)?"},
+    options:["31 non-winning podiums","35 non-winning podiums","39 non-winning podiums","43 non-winning podiums"],
+    correct:2,
+    explanation:{en:"Vettel had 39 non-winning podiums from 2010-2013: 19 P2 finishes, 20 P3 finishes. Combined with 39 wins, he had 78 total podiums from 77 races (101% due to 2011 having 19 races). This was unprecedented dominance.",es:"Vettel tuvo 39 podios sin victoria de 2010-2013: 19 finales P2, 20 finales P3. Combinado con 39 victorias, tuvo 78 podios totales de 77 carreras (101% debido a que 2011 tuvo 19 carreras). Esto fue dominancia sin precedentes.",de:"Vettel hatte 39 nicht gewinnende Podien von 2010-2013: 19 P2-Platzierungen, 20 P3-Platzierungen. Kombiniert mit 39 Siegen hatte er 78 Gesamt-Podien aus 77 Rennen (101% da 2011 19 Rennen hatte). Dies war beispiellose Dominanz.",nl:"Vettel had 39 niet-winnende podiums van 2010-2013: 19 P2 finishes, 20 P3 finishes. Gecombineerd met 39 overwinningen had hij 78 totale podiums uit 77 races (101% doordat 2011 19 races had). Dit was ongekende dominantie."}
+  },
+  {
+    question:{en:"What was Fernando Alonso's championship points margin of defeat in his closest title loss at Ferrari?",es:"¿Cuál fue el margen de puntos de campeonato de derrota de Fernando Alonso en su pérdida de título más cercana en Ferrari?",de:"Wie hoch war Fernando Alonsos Meisterschaftspunkte-Niederlage bei seiner knappsten Titelniederlage bei Ferrari?",nl:"Wat was Fernando Alonso's kampioenschap punten marge van nederlaag in zijn nauwste titel verlies bij Ferrari?"},
+    options:["3 points behind Vettel (2012)","4 points behind Vettel (2010)","6 points behind Hamilton (2010)","9 points behind Hamilton (2008)"],
+    correct:0,
+    explanation:{en:"Alonso lost 2012 championship to Vettel by just 3 points (278-281). He won 3 races to Vettel's 5, but Ferrari's car was slower. Alonso's drive at Valencia P1 from P11 and wet Brazil performance showed brilliance despite losing title.",es:"Alonso perdió el campeonato 2012 ante Vettel por solo 3 puntos (278-281). Ganó 3 carreras vs 5 de Vettel, pero el coche de Ferrari era más lento. La conducción de Alonso en Valencia P1 desde P11 y el rendimiento en Brasil mojado mostraron brillantez a pesar de perder el título.",de:"Alonso verlor die Meisterschaft 2012 gegen Vettel um nur 3 Punkte (278-281). Er gewann 3 Rennen zu Vettels 5, aber Ferraris Auto war langsamer. Alonsos Fahrt in Valencia P1 von P11 und nasse Brasilien-Leistung zeigten Brillanz trotz Titelverlust.",nl:"Alonso verloor 2012 kampioenschap aan Vettel met slechts 3 punten (278-281). Hij won 3 races vs Vettel's 5, maar Ferrari's auto was langzamer. Alonso's rit in Valencia P1 vanaf P11 en natte Brazilië prestatie toonden briljantie ondanks titel verlies."}
+  },
+  {
+    question:{en:"How many total laps did Kimi Räikkönen complete across his entire 21-season F1 career (2001-2021)?",es:"¿Cuántas vueltas totales completó Kimi Räikkönen en toda su carrera de F1 de 21 temporadas (2001-2021)?",de:"Wie viele Runden absolvierte Kimi Räikkönen insgesamt während seiner gesamten 21-Saisons-F1-Karriere (2001-2021)?",nl:"Hoeveel totale ronden voltooide Kimi Räikkönen gedurende zijn hele 21-seizoenen F1 carrière (2001-2021)?"},
+    options:["19,128 laps","20,128 laps","21,128 laps","22,128 laps"],
+    correct:1,
+    explanation:{en:"Räikkönen completed 20,128 racing laps from 2001-2021 (349 starts). This is F1's all-time record, approximately 110,000 km or 2.7 times Earth's circumference. His longest stint was 2012-2018 Ferrari/Lotus with 7,892 laps.",es:"Räikkönen completó 20,128 vueltas de carrera de 2001-2021 (349 largadas). Este es el récord histórico de F1, aproximadamente 110,000 km o 2.7 veces la circunferencia de la Tierra. Su período más largo fue 2012-2018 Ferrari/Lotus con 7,892 vueltas.",de:"Räikkönen absolvierte von 2001-2021 20.128 Rennrunden (349 Starts). Dies ist F1s Allzeitrekord, etwa 110.000 km oder 2,7-mal Erdumfang. Sein längster Stint war 2012-2018 Ferrari/Lotus mit 7.892 Runden.",nl:"Räikkönen voltooide 20.128 race ronden van 2001-2021 (349 starts). Dit is F1's all-time record, ongeveer 110.000 km of 2.7 keer de omtrek van de Aarde. Zijn langste stint was 2012-2018 Ferrari/Lotus met 7.892 ronden."}
+  },
+  {
+    question:{en:"What was Charles Leclerc's race head-to-head record against Sebastian Vettel during their two seasons as Ferrari teammates (2019-2020)?",es:"¿Cuál fue el récord cara a cara en carrera de Charles Leclerc contra Sebastian Vettel durante sus dos temporadas como compañeros de equipo en Ferrari (2019-2020)?",de:"Wie war Charles Leclercs Rennen-Head-to-Head-Bilanz gegen Sebastian Vettel während ihrer zwei Saisons als Ferrari-Teamkollegen (2019-2020)?",nl:"Wat was Charles Leclerc's race head-to-head record tegen Sebastian Vettel tijdens hun twee seizoenen als Ferrari teamgenoten (2019-2020)?"},
+    options:["19-14 in Leclerc's favor","21-12 in Leclerc's favor","23-10 in Leclerc's favor","25-8 in Leclerc's favor"],
+    correct:1,
+    explanation:{en:"Leclerc beat Vettel 21-12 in race finishes over 2019-2020 (33 races, 7 both DNF). He also led qualifying 14-19 and scored 289 points vs Vettel's 234. This poor performance contributed to Vettel leaving Ferrari after 2020.",es:"Leclerc venció a Vettel 21-12 en finales de carrera en 2019-2020 (33 carreras, 7 ambos DNF). También lideró clasificación 14-19 y anotó 289 puntos vs 234 de Vettel. Este mal rendimiento contribuyó a que Vettel dejara Ferrari después de 2020.",de:"Leclerc schlug Vettel 21-12 bei Rennabschlüssen über 2019-2020 (33 Rennen, 7 beide DNF). Er führte auch Qualifying 14-19 und erzielte 289 Punkte vs Vettels 234. Diese schlechte Leistung trug dazu bei, dass Vettel nach 2020 Ferrari verließ.",nl:"Leclerc versloeg Vettel 21-12 in race finishes over 2019-2020 (33 races, 7 beide DNF). Hij leidde ook kwalificatie 14-19 en scoorde 289 punten vs Vettel's 234. Deze slechte prestatie droeg bij aan Vettel's vertrek bij Ferrari na 2020."}
+  },
+  {
+    question:{en:"How many consecutive seasons did Valtteri Bottas finish in the championship top 5 during his Mercedes years (2017-2021)?",es:"¿Cuántas temporadas consecutivas terminó Valtteri Bottas en el top 5 del campeonato durante sus años en Mercedes (2017-2021)?",de:"Wie viele aufeinanderfolgende Saisons beendete Valtteri Bottas während seiner Mercedes-Jahre (2017-2021) in den Top 5 der Meisterschaft?",nl:"Hoeveel opeenvolgende seizoenen finishte Valtteri Bottas in de kampioenschap top 5 tijdens zijn Mercedes jaren (2017-2021)?"},
+    options:["3 seasons (2017-2019)","4 seasons (2017-2020)","All 5 seasons (2017-2021)","2 seasons (2019-2020)"],
+    correct:2,
+    explanation:{en:"Bottas finished top 5 all five Mercedes seasons: P3 2017, P5 2018, P2 2019, P2 2020, P3 2021. His 2019 season (326 points, 4 wins) was his best. He was consistent support for Hamilton's championships.",es:"Bottas terminó en el top 5 las cinco temporadas con Mercedes: P3 2017, P5 2018, P2 2019, P2 2020, P3 2021. Su temporada 2019 (326 puntos, 4 victorias) fue su mejor. Fue apoyo consistente para los campeonatos de Hamilton.",de:"Bottas beendete alle fünf Mercedes-Saisons in den Top 5: P3 2017, P5 2018, P2 2019, P2 2020, P3 2021. Seine Saison 2019 (326 Punkte, 4 Siege) war seine beste. Er war konsistente Unterstützung für Hamiltons Meisterschaften.",nl:"Bottas finishte top 5 alle vijf Mercedes seizoenen: P3 2017, P5 2018, P2 2019, P2 2020, P3 2021. Zijn 2019 seizoen (326 punten, 4 overwinningen) was zijn beste. Hij was consistente steun voor Hamilton's kampioenschappen."}
+  },
+  {
+    question:{en:"What was Daniel Ricciardo's total championship points scored during his five seasons with Red Bull as Max Verstappen's teammate (2016-2018)?",es:"¿Cuál fue el total de puntos de campeonato anotados por Daniel Ricciardo durante sus cinco temporadas con Red Bull como compañero de equipo de Max Verstappen (2016-2018)?",de:"Wie viele Meisterschaftspunkte erzielte Daniel Ricciardo insgesamt während seiner fünf Saisons bei Red Bull als Max Verstappens Teamkollege (2016-2018)?",nl:"Wat was Daniel Ricciardo's totale kampioenschap punten gescoord tijdens zijn vijf seizoenen bij Red Bull als Max Verstappen's teamgenoot (2016-2018)?"},
+    options:["656 points","706 points","756 points","806 points"],
+    correct:1,
+    explanation:{en:"Ricciardo scored 706 points across 2016-2018 vs Verstappen's 639. He won 7 races to Max's 5 in this period. Ricciardo finished P3 in 2016/2018, P5 in 2017. This head-to-head victory led to his Renault move seeking #1 status.",es:"Ricciardo anotó 706 puntos en 2016-2018 vs 639 de Verstappen. Ganó 7 carreras vs 5 de Max en este período. Ricciardo terminó P3 en 2016/2018, P5 en 2017. Esta victoria cara a cara llevó a su movimiento a Renault buscando estatus #1.",de:"Ricciardo erzielte 706 Punkte über 2016-2018 vs Verstappens 639. Er gewann 7 Rennen zu Max' 5 in diesem Zeitraum. Ricciardo beendete P3 in 2016/2018, P5 in 2017. Dieser Head-to-Head-Sieg führte zu seinem Renault-Wechsel auf der Suche nach #1-Status.",nl:"Ricciardo scoorde 706 punten over 2016-2018 vs Verstappen's 639. Hij won 7 races vs Max's 5 in deze periode. Ricciardo finishte P3 in 2016/2018, P5 in 2017. Deze head-to-head overwinning leidde tot zijn Renault verhuizing op zoek naar #1 status."}
+  },
+  {
+    question:{en:"How many races did George Russell complete at Williams before his breakthrough P2 finish at 2021 Belgian GP?",es:"¿Cuántas carreras completó George Russell en Williams antes de su avance de finalización P2 en el GP de Bélgica 2021?",de:"Wie viele Rennen absolvierte George Russell bei Williams vor seinem Durchbruch P2-Finish beim Belgien-GP 2021?",nl:"Hoeveel races voltooide George Russell bij Williams voor zijn doorbraak P2 finish bij de 2021 Belgische GP?"},
+    options:["46 races","51 races","56 races","61 races"],
+    correct:1,
+    explanation:{en:"Russell completed 51 races before his P2 at wet 2021 Belgium (2-lap race behind Verstappen). His previous best was P11. He had scored only 3 points total before this 9-point haul, despite outqualifying teammates 48-3.",es:"Russell completó 51 carreras antes de su P2 en la mojada Bélgica 2021 (carrera de 2 vueltas detrás de Verstappen). Su mejor anterior fue P11. Había anotado solo 3 puntos totales antes de este botín de 9 puntos, a pesar de superar a compañeros 48-3 en clasificación.",de:"Russell absolvierte 51 Rennen vor seinem P2 im nassen Belgien 2021 (2-Runden-Rennen hinter Verstappen). Sein bisheriges Bestes war P11. Er hatte zuvor nur 3 Punkte gesamt erzielt, trotz Outqualifying von Teamkollegen 48-3.",nl:"Russell voltooide 51 races voor zijn P2 in natte 2021 België (2-ronden race achter Verstappen). Zijn vorige beste was P11. Hij had slechts 3 punten totaal gescoord voor deze 9-punten buit, ondanks out-kwalificeren teamgenoten 48-3."}
+  },
+  {
+    question:{en:"What was Sergio Pérez's exact points-per-race average during his entire career through 2023?",es:"¿Cuál fue el promedio exacto de puntos por carrera de Sergio Pérez durante toda su carrera hasta 2023?",de:"Wie hoch war Sergio Pérez' exakter Punkte-pro-Rennen-Durchschnitt während seiner gesamten Karriere bis 2023?",nl:"Wat was Sergio Pérez's exacte punten-per-race gemiddelde tijdens zijn hele carrière tot en met 2023?"},
+    options:["5.1 ppg","5.6 ppg","6.1 ppg","6.6 ppg"],
+    correct:2,
+    explanation:{en:"Pérez averaged 6.1 ppg across 2011-2023 (1,590 points from 261 races). His best ppg seasons were with Red Bull: 11.7 in 2023, 9.0 in 2022, 9.5 in 2021. His worst years were Force India/Sauber averaging 3-4 ppg.",es:"Pérez promedió 6.1 ppg en 2011-2023 (1,590 puntos de 261 carreras). Sus mejores temporadas ppg fueron con Red Bull: 11.7 en 2023, 9.0 en 2022, 9.5 en 2021. Sus peores años fueron Force India/Sauber promediando 3-4 ppg.",de:"Pérez durchschnittlich 6,1 ppg über 2011-2023 (1.590 Punkte aus 261 Rennen). Seine besten ppg-Saisons waren mit Red Bull: 11,7 in 2023, 9,0 in 2022, 9,5 in 2021. Seine schlechtesten Jahre waren Force India/Sauber mit durchschnittlich 3-4 ppg.",nl:"Pérez gemiddeld 6.1 ppg over 2011-2023 (1.590 punten uit 261 races). Zijn beste ppg seizoenen waren met Red Bull: 11.7 in 2023, 9.0 in 2022, 9.5 in 2021. Zijn slechtste jaren waren Force India/Sauber gemiddeld 3-4 ppg."}
+  },
+  {
+    question:{en:"How many different F1 circuits did Lewis Hamilton win at during his career through 2023?",es:"¿En cuántos circuitos diferentes de F1 ganó Lewis Hamilton durante su carrera hasta 2023?",de:"Auf wie vielen verschiedenen F1-Strecken gewann Lewis Hamilton während seiner Karriere bis 2023?",nl:"Op hoeveel verschillende F1 circuits won Lewis Hamilton tijdens zijn carrière tot en met 2023?"},
+    options:["28 different circuits","30 different circuits","32 different circuits","34 different circuits"],
+    correct:1,
+    explanation:{en:"Hamilton won at 30 different circuits through 2023, F1 record. His most wins at single circuit: 8 at Silverstone, 6 at Hungary/Spain, 5 at Canada/USA. He never won at: Imola, Zandvoort, Miami, Las Vegas, Qatar among current calendar tracks.",es:"Hamilton ganó en 30 circuitos diferentes hasta 2023, récord de F1. Sus más victorias en un solo circuito: 8 en Silverstone, 6 en Hungría/España, 5 en Canadá/EE.UU. Nunca ganó en: Imola, Zandvoort, Miami, Las Vegas, Qatar entre las pistas actuales del calendario.",de:"Hamilton gewann bis 2023 auf 30 verschiedenen Strecken, F1-Rekord. Seine meisten Siege auf einer Strecke: 8 in Silverstone, 6 in Ungarn/Spanien, 5 in Kanada/USA. Er gewann nie in: Imola, Zandvoort, Miami, Las Vegas, Katar unter den aktuellen Kalender-Strecken.",nl:"Hamilton won op 30 verschillende circuits tot en met 2023, F1 record. Zijn meeste overwinningen op één circuit: 8 op Silverstone, 6 op Hongarije/Spanje, 5 op Canada/USA. Hij won nooit op: Imola, Zandvoort, Miami, Las Vegas, Qatar onder huidige kalender circuits."}
+  }
+,
+  {
+    question:{en:"What was Carlos Sainz Jr.'s qualifying head-to-head record against Charles Leclerc during their first three seasons as Ferrari teammates (2021-2023)?",es:"¿Cuál fue el récord cara a cara en clasificación de Carlos Sainz Jr. contra Charles Leclerc durante sus primeras tres temporadas como compañeros de equipo en Ferrari (2021-2023)?",de:"Wie war Carlos Sainz Jr.s Qualifying-Bilanz gegen Charles Leclerc während ihrer ersten drei Saisons als Ferrari-Teamkollegen (2021-2023)?",nl:"Wat was Carlos Sainz Jr.'s kwalificatie head-to-head record tegen Charles Leclerc tijdens hun eerste drie seizoenen als Ferrari teamgenoten (2021-2023)?"},
+    options:["15-51 in Leclerc's favor","19-47 in Leclerc's favor","23-43 in Leclerc's favor","27-39 in Leclerc's favor"],
+    correct:1,
+    explanation:{en:"Sainz was outqualified by Leclerc 19-47 (28.8% success) across 2021-2023. Despite this deficit, Sainz outscored Leclerc in 2023 (235-188) and beat him in races 10-12. Sainz's better race execution compensated for qualifying weakness.",es:"Sainz fue superado por Leclerc 19-47 en clasificación (28.8% éxito) en 2021-2023. A pesar de este déficit, Sainz superó a Leclerc en 2023 (235-188) y lo venció en carreras 10-12. La mejor ejecución de carrera de Sainz compensó la debilidad de clasificación.",de:"Sainz wurde von Leclerc 19-47 outqualifiziert (28,8% Erfolg) über 2021-2023. Trotz dieses Defizits übertraf Sainz Leclerc 2023 (235-188) und schlug ihn in Rennen 10-12. Sainz' bessere Rennausführung kompensierte Qualifying-Schwäche.",nl:"Sainz werd outgekwalificeerd door Leclerc 19-47 (28.8% succes) over 2021-2023. Ondanks dit tekort overscoorde Sainz Leclerc in 2023 (235-188) en versloeg hem in races 10-12. Sainz's betere race-executie compenseerde kwalificatie zwakte."}
+  },
+  {
+    question:{en:"How many total pole positions did Max Verstappen achieve through the end of 2023?",es:"¿Cuántas pole positions totales logró Max Verstappen hasta el final de 2023?",de:"Wie viele Pole-Positionen insgesamt erzielte Max Verstappen bis Ende 2023?",nl:"Hoeveel totale pole positions behaalde Max Verstappen tot eind 2023?"},
+    options:["32 poles","35 poles","38 poles","41 poles"],
+    correct:3,
+    explanation:{en:"Verstappen achieved 41 career poles through 2023: 4 in 2019, 2 in 2021, 7 in 2022, 12 in 2023. His 2023 tally (54.5% of races) was exceptional. He converted 70% of poles to wins, higher than typical 50-60% rate.",es:"Verstappen logró 41 poles de carrera hasta 2023: 4 en 2019, 2 en 2021, 7 en 2022, 12 en 2023. Su total de 2023 (54.5% de las carreras) fue excepcional. Convirtió el 70% de las poles en victorias, más alto que la tasa típica del 50-60%.",de:"Verstappen erzielte bis 2023 41 Karriere-Poles: 4 in 2019, 2 in 2021, 7 in 2022, 12 in 2023. Seine 2023-Summe (54,5% der Rennen) war außergewöhnlich. Er konvertierte 70% der Poles zu Siegen, höher als die typische 50-60%-Rate.",nl:"Verstappen behaalde 41 carrière poles tot en met 2023: 4 in 2019, 2 in 2021, 7 in 2022, 12 in 2023. Zijn 2023 totaal (54.5% van races) was uitzonderlijk. Hij zette 70% van poles om in overwinningen, hoger dan typische 50-60% percentage."}
+  },
+  {
+    question:{en:"What was Lando Norris's exact championship finishing position across his first five F1 seasons (2019-2023)?",es:"¿Cuál fue la posición exacta de finalización del campeonato de Lando Norris en sus primeras cinco temporadas de F1 (2019-2023)?",de:"Wie war Lando Norris' genaue Meisterschafts-Endposition über seine ersten fünf F1-Saisons (2019-2023)?",nl:"Wat was Lando Norris's exacte kampioenschap eindpositie over zijn eerste vijf F1 seizoenen (2019-2023)?"},
+    options:["P11, P9, P6, P7, P6","P11, P9, P6, P6, P7","P12, P10, P6, P7, P6","P12, P10, P6, P6, P7"],
+    correct:0,
+    explanation:{en:"Norris finished P11-2019, P9-2020, P6-2021, P7-2022, P6-2023. His 2021 season (160 points, 4 podiums) was his breakthrough. He showed consistent improvement, becoming McLaren's leader and one of F1's brightest young talents.",es:"Norris terminó P11-2019, P9-2020, P6-2021, P7-2022, P6-2023. Su temporada 2021 (160 puntos, 4 podios) fue su avance. Mostró mejora consistente, convirtiéndose en el líder de McLaren y uno de los talentos jóvenes más brillantes de F1.",de:"Norris beendete P11-2019, P9-2020, P6-2021, P7-2022, P6-2023. Seine Saison 2021 (160 Punkte, 4 Podien) war sein Durchbruch. Er zeigte konstante Verbesserung und wurde McLarens Anführer und eines der vielversprechendsten jungen Talente der F1.",nl:"Norris finishte P11-2019, P9-2020, P6-2021, P7-2022, P6-2023. Zijn 2021 seizoen (160 punten, 4 podiums) was zijn doorbraak. Hij toonde consistente verbetering, McLaren's leider wordend en een van F1's meest veelbelovende jonge talenten."}
+  },
+  {
+    question:{en:"How many races did Pierre Gasly win during his career through 2023?",es:"¿Cuántas carreras ganó Pierre Gasly durante su carrera hasta 2023?",de:"Wie viele Rennen gewann Pierre Gasly während seiner Karriere bis 2023?",nl:"Hoeveel races won Pierre Gasly tijdens zijn carrière tot en met 2023?"},
+    options:["1 win (2020 Italy)","2 wins","3 wins","4 wins"],
+    correct:0,
+    explanation:{en:"Gasly won only 1 race: 2020 Italian GP with AlphaTauri (as Toro Rosso rebranded). Starting P10, he inherited lead after Hamilton penalty and Leclerc/Sainz crash. He held off Sainz for emotional win after Hubert's 2019 death.",es:"Gasly ganó solo 1 carrera: GP de Italia 2020 con AlphaTauri (como Toro Rosso rebautizado). Comenzando P10, heredó el liderazgo después de la penalización de Hamilton y el choque de Leclerc/Sainz. Resistió a Sainz para una victoria emocional después de la muerte de Hubert en 2019.",de:"Gasly gewann nur 1 Rennen: Italien-GP 2020 mit AlphaTauri (als Toro Rosso umbenannt). Von P10 startend erbte er die Führung nach Hamiltons Strafe und Leclerc/Sainz-Crash. Er hielt Sainz für emotionalen Sieg nach Huberts Tod 2019 ab.",nl:"Gasly won slechts 1 race: 2020 Italiaanse GP met AlphaTauri (als Toro Rosso hernoemd). Startend P10 erfde hij de leiding na Hamilton straf en Leclerc/Sainz crash. Hij hield Sainz af voor emotionele overwinning na Hubert's 2019 dood."}
+  },
+  {
+    question:{en:"What was Esteban Ocon's total points scored in his championship-winning 2015 FIA F3 European season before F1?",es:"¿Cuál fue el total de puntos anotados por Esteban Ocon en su temporada de campeonato ganador de FIA F3 Europea 2015 antes de F1?",de:"Wie viele Punkte erzielte Esteban Ocon in seiner Meisterschaftsgewinnenden FIA-F3-Europameisterschaft-Saison 2015 vor der F1?",nl:"Wat was Esteban Ocon's totale punten gescoord in zijn kampioenschap-winnende 2015 FIA F3 Europese seizoen voor F1?"},
+    options:["411 points (9 wins)","431 points (9 wins)","451 points (9 wins)","471 points (9 wins)"],
+    correct:1,
+    explanation:{en:"Ocon scored 431 points with 9 wins in 2015 F3, beating Verstappen (330 points, 10 wins) and Stroll (223 points, 1 win). His consistency (27 podiums from 33 races) gave him title despite fewer wins than Max.",es:"Ocon anotó 431 puntos con 9 victorias en F3 2015, venciendo a Verstappen (330 puntos, 10 victorias) y Stroll (223 puntos, 1 victoria). Su consistencia (27 podios de 33 carreras) le dio el título a pesar de menos victorias que Max.",de:"Ocon erzielte 2015 in F3 431 Punkte mit 9 Siegen und schlug Verstappen (330 Punkte, 10 Siege) und Stroll (223 Punkte, 1 Sieg). Seine Konsistenz (27 Podien aus 33 Rennen) gab ihm den Titel trotz weniger Siege als Max.",nl:"Ocon scoorde 431 punten met 9 overwinningen in 2015 F3, Verstappen (330 punten, 10 overwinningen) en Stroll (223 punten, 1 overwinning) verslaand. Zijn consistentie (27 podiums uit 33 races) gaf hem titel ondanks minder overwinningen dan Max."}
+  },
+  {
+    question:{en:"How many podium finishes did Jenson Button achieve during his 17-year F1 career (2000-2017)?",es:"¿Cuántos podios logró Jenson Button durante su carrera de F1 de 17 años (2000-2017)?",de:"Wie viele Podiumsplatzierungen erreichte Jenson Button während seiner 17-jährigen F1-Karriere (2000-2017)?",nl:"Hoeveel podiumfinishes behaalde Jenson Button tijdens zijn 17-jarige F1 carrière (2000-2017)?"},
+    options:["46 podiums","50 podiums","54 podiums","58 podiums"],
+    correct:1,
+    explanation:{en:"Button achieved 50 podiums from 2000-2017 (306 starts), with 15 wins (30% win rate from podiums). His best year was 2009 championship with 6 wins, 9 podiums. He was known for wet-weather brilliance (Canada 2011) and tire management.",es:"Button logró 50 podios de 2000-2017 (306 largadas), con 15 victorias (30% tasa de victorias desde podios). Su mejor año fue el campeonato 2009 con 6 victorias, 9 podios. Era conocido por su brillantez en clima húmedo (Canadá 2011) y gestión de neumáticos.",de:"Button erreichte von 2000-2017 50 Podien (306 Starts) mit 15 Siegen (30% Siegrate von Podien). Sein bestes Jahr war die Meisterschaft 2009 mit 6 Siegen, 9 Podien. Er war bekannt für Nass-Wetter-Brillanz (Kanada 2011) und Reifenmanagement.",nl:"Button behaalde 50 podiums van 2000-2017 (306 starts), met 15 overwinningen (30% win percentage van podiums). Zijn beste jaar was 2009 kampioenschap met 6 overwinningen, 9 podiums. Hij stond bekend om nat-weer briljantie (Canada 2011) en bandenmanagement."}
+  },
+  {
+    question:{en:"What was Nico Rosberg's career-long winning streak in races during his 2016 championship season?",es:"¿Cuál fue la racha ganadora más larga de carreras de Nico Rosberg durante su temporada de campeonato 2016?",de:"Wie lang war Nico Rosbergs karrierelange Siegesserie in Rennen während seiner Meisterschaftssaison 2016?",nl:"Wat was Nico Rosberg's carrière-lange winnende reeks in races tijdens zijn 2016 kampioenschap seizoen?"},
+    options:["4 consecutive wins","5 consecutive wins","6 consecutive wins","7 consecutive wins"],
+    correct:3,
+    explanation:{en:"Rosberg won 7 consecutive races to open 2016 season: Australia, Bahrain, China, Russia, Spain (Hamilton collision), Monaco, Canada. This streak gave him 43-point lead. He added 2 more wins to close season with 9 total, winning title by 5 points.",es:"Rosberg ganó 7 carreras consecutivas para abrir la temporada 2016: Australia, Baréin, China, Rusia, España (colisión con Hamilton), Mónaco, Canadá. Esta racha le dio una ventaja de 43 puntos. Agregó 2 victorias más para cerrar la temporada con 9 totales, ganando el título por 5 puntos.",de:"Rosberg gewann 7 aufeinanderfolgende Rennen zum Saisonstart 2016: Australien, Bahrain, China, Russland, Spanien (Hamilton-Kollision), Monaco, Kanada. Diese Serie gab ihm 43 Punkte Vorsprung. Er fügte 2 weitere Siege hinzu, schloss die Saison mit 9 gesamt ab und gewann den Titel um 5 Punkte.",nl:"Rosberg won 7 opeenvolgende races om 2016 seizoen te openen: Australië, Bahrein, China, Rusland, Spanje (Hamilton botsing), Monaco, Canada. Deze reeks gaf hem 43-punten voorsprong. Hij voegde 2 meer overwinningen toe om seizoen te sluiten met 9 totaal, titel winnend met 5 punten."}
+  },
+  {
+    question:{en:"How many different race number has Fernando Alonso used during his F1 career?",es:"¿Cuántos números de carrera diferentes ha usado Fernando Alonso durante su carrera en F1?",de:"Wie viele verschiedene Startnummern hat Fernando Alonso während seiner F1-Karriere verwendet?",nl:"Hoeveel verschillende racenummers heeft Fernando Alonso gebruikt tijdens zijn F1 carrière?"},
+    options:["3 numbers (#14, #1, #5)","4 numbers (#1, #5, #14, #8)","5 numbers (#1, #5, #14, #8, #12)","6 numbers"],
+    correct:2,
+    explanation:{en:"Alonso used 5 numbers: #8 (2001), #12 (2002-2003), #5 (2004-2006, 2008-2014, 2021-present), #1 (2006-2007 as champion), #14 (2015-2018 McLaren). After 2014 permanent numbers, he chose #14, later switched to #5 for Alpine/Aston Martin return.",es:"Alonso usó 5 números: #8 (2001), #12 (2002-2003), #5 (2004-2006, 2008-2014, 2021-presente), #1 (2006-2007 como campeón), #14 (2015-2018 McLaren). Después de los números permanentes de 2014, eligió #14, luego cambió a #5 para el regreso a Alpine/Aston Martin.",de:"Alonso verwendete 5 Nummern: #8 (2001), #12 (2002-2003), #5 (2004-2006, 2008-2014, 2021-heute), #1 (2006-2007 als Champion), #14 (2015-2018 McLaren). Nach den permanenten Nummern 2014 wählte er #14, wechselte später zu #5 für Alpine/Aston Martin-Rückkehr.",nl:"Alonso gebruikte 5 nummers: #8 (2001), #12 (2002-2003), #5 (2004-2006, 2008-2014, 2021-heden), #1 (2006-2007 als kampioen), #14 (2015-2018 McLaren). Na 2014 permanente nummers koos hij #14, later gewisseld naar #5 voor Alpine/Aston Martin terugkeer."}
+  },
+  {
+    question:{en:"What was Sebastian Vettel's final career podium count when he retired after 2022?",es:"¿Cuál fue el recuento final de podios de carrera de Sebastian Vettel cuando se retiró después de 2022?",de:"Wie viele Podiumsplatzierungen hatte Sebastian Vettel insgesamt, als er nach 2022 in Rente ging?",nl:"Wat was Sebastian Vettel's finale carrière podium aantal toen hij met pensioen ging na 2022?"},
+    options:["114 podiums","118 podiums","122 podiums","126 podiums"],
+    correct:2,
+    explanation:{en:"Vettel retired with 122 career podiums: 57 wins, 38 P2, 27 P3. His peak was 2010-2013 with 78 podiums. Last podium was 2021 Azerbaijan P2 with Aston Martin. He ranks 3rd all-time behind Hamilton (197) and Schumacher (155).",es:"Vettel se retiró con 122 podios de carrera: 57 victorias, 38 P2, 27 P3. Su pico fue 2010-2013 con 78 podios. El último podio fue Azerbaiyán 2021 P2 con Aston Martin. Ocupa el 3er lugar histórico detrás de Hamilton (197) y Schumacher (155).",de:"Vettel ging mit 122 Karriere-Podien in Rente: 57 Siege, 38 P2, 27 P3. Sein Höhepunkt war 2010-2013 mit 78 Podien. Letztes Podium war Aserbaidschan 2021 P2 mit Aston Martin. Er rangiert 3. aller Zeiten hinter Hamilton (197) und Schumacher (155).",nl:"Vettel ging met pensioen met 122 carrière podiums: 57 overwinningen, 38 P2, 27 P3. Zijn piek was 2010-2013 met 78 podiums. Laatste podium was 2021 Azerbeidzjan P2 met Aston Martin. Hij staat 3e all-time achter Hamilton (197) en Schumacher (155)."}
+  },
+  {
+    question:{en:"How many races did Max Verstappen lead from start to finish (wire-to-wire victories) in 2023?",es:"¿Cuántas carreras lideró Max Verstappen de principio a fin (victorias de punta a punta) en 2023?",de:"Wie viele Rennen führte Max Verstappen von Start bis Ziel (Wire-to-Wire-Siege) in 2023?",nl:"Hoeveel races leidde Max Verstappen van start tot finish (wire-to-wire overwinningen) in 2023?"},
+    options:["10 wire-to-wire wins","12 wire-to-wire wins","14 wire-to-wire wins","16 wire-to-wire wins"],
+    correct:1,
+    explanation:{en:"Verstappen led 12 races from start to finish in 2023, converting poles to dominant wins. Combined with 5 Grand Slams (led every lap) and 19 total wins, this showed unprecedented control. Only 3 races saw him not on podium position at any point.",es:"Verstappen lideró 12 carreras de principio a fin en 2023, convirtiendo poles en victorias dominantes. Combinado con 5 Grand Slams (lideró cada vuelta) y 19 victorias totales, esto mostró control sin precedentes. Solo 3 carreras lo vieron no en posición de podio en ningún momento.",de:"Verstappen führte 2023 12 Rennen von Start bis Ziel und konvertierte Poles zu dominanten Siegen. Kombiniert mit 5 Grand Slams (jede Runde geführt) und 19 Gesamtsiegen zeigte dies beispiellose Kontrolle. Nur 3 Rennen sahen ihn zu keinem Zeitpunkt auf Podiumsposition.",nl:"Verstappen leidde 12 races van start tot finish in 2023, poles omzettend in dominante overwinningen. Gecombineerd met 5 Grand Slams (elke ronde geleid) en 19 totale overwinningen toonde dit ongekende controle. Slechts 3 races zagen hem niet op podium positie op enig moment."}
+  }
+
     ]
   };
 
-  if (typeof module !== 'undefined' && module.exports) {
+  if (typeof module \!== 'undefined' && module.exports) {
     module.exports = level9;
-  } else if (typeof window !== 'undefined') {
-    window.level9 = level9;
+  } else {
+    window.quizData = window.quizData || {};
+    window.quizData.level9 = level9;
   }
 })();

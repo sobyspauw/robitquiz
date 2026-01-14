@@ -427,6 +427,426 @@
           de: "AGI's Auswirkung auf Ungleichheit wird davon abhängen wie es entwickelt, eingesetzt und regiert wird, mit Potenzial globale Disparitäten durch universellen Zugang dramatisch zu reduzieren oder sie zu verschärfen wenn Vorteile konzentriert bleiben.",
           nl: "AGI's impact op ongelijkheid zal afhangen van hoe het wordt ontwikkeld, ingezet en bestuurd, met potentieel om mondiale verschillen dramatisch te verminderen door universele toegang of ze te verergeren als voordelen geconcentreerd blijven."
         }
+      },
+      {
+        question: {
+          en: "What is 'value learning' in AGI alignment research?",
+          es: "¿Qué es el 'aprendizaje de valores' en la investigación de alineación de AGI?",
+          de: "Was ist 'Wertelernen' in der AGI-Ausrichtungsforschung?",
+          nl: "Wat is 'waardeleren' in AGI-alignment onderzoek?"
+        },
+        options: [
+          { en: "Teaching AGI systems to infer and adopt human values through observation and interaction", es: "Enseñando a sistemas AGI a inferir y adoptar valores humanos a través de observación e interacción", de: "AGI-Systemen beibringen menschliche Werte durch Beobachtung und Interaktion zu erschließen und anzunehmen", nl: "AGI-systemen leren menselijke waarden af te leiden en aan te nemen door observatie en interactie" },
+          { en: "Teaching AGI to calculate financial values only", es: "Enseñando a AGI a calcular solo valores financieros", de: "AGI beibringen nur finanzielle Werte zu berechnen", nl: "AGI leren alleen financiële waarden te berekenen" },
+          { en: "Programming fixed rules that never change", es: "Programando reglas fijas que nunca cambian", de: "Feste Regeln programmieren die sich nie ändern", nl: "Vaste regels programmeren die nooit veranderen" },
+          { en: "Making AGI systems reject all human values", es: "Haciendo que sistemas AGI rechacen todos los valores humanos", de: "AGI-Systeme alle menschlichen Werte ablehnen lassen", nl: "AGI-systemen alle menselijke waarden laten afwijzen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Value learning involves developing methods for AGI to learn complex human values and preferences from examples, feedback, and observations rather than explicit programming, crucial for ensuring beneficial behavior.",
+          es: "El aprendizaje de valores involucra desarrollar métodos para que AGI aprenda valores y preferencias humanas complejas de ejemplos, retroalimentación y observaciones en lugar de programación explícita, crucial para asegurar comportamiento beneficioso.",
+          de: "Wertelernen umfasst die Entwicklung von Methoden für AGI um komplexe menschliche Werte und Präferenzen aus Beispielen, Feedback und Beobachtungen zu lernen statt durch explizite Programmierung, entscheidend für vorteilhaftes Verhalten.",
+          nl: "Waardeleren omvat het ontwikkelen van methoden voor AGI om complexe menselijke waarden en voorkeuren te leren uit voorbeelden, feedback en observaties in plaats van expliciete programmering, cruciaal voor het waarborgen van voordelig gedrag."
+        }
+      },
+      {
+        question: {
+          en: "How might 'AGI augmentation' differ from 'AGI replacement' of human capabilities?",
+          es: "¿Cómo podría la 'aumentación de AGI' diferir del 'reemplazo de AGI' de capacidades humanas?",
+          de: "Wie könnte 'AGI-Augmentation' sich von 'AGI-Ersatz' menschlicher Fähigkeiten unterscheiden?",
+          nl: "Hoe zou 'AGI-augmentatie' kunnen verschillen van 'AGI-vervanging' van menselijke capaciteiten?"
+        },
+        options: [
+          { en: "Augmentation enhances human abilities while replacement fully automates tasks independently", es: "Aumentación mejora habilidades humanas mientras reemplazo automatiza completamente tareas independientemente", de: "Augmentation verbessert menschliche Fähigkeiten während Ersatz Aufgaben vollständig unabhängig automatisiert", nl: "Augmentatie verbetert menselijke vermogens terwijl vervanging taken volledig onafhankelijk automatiseert" },
+          { en: "They mean exactly the same thing", es: "Significan exactamente lo mismo", de: "Sie bedeuten genau dasselbe", nl: "Ze betekenen precies hetzelfde" },
+          { en: "Augmentation is for physical tasks only", es: "Aumentación es solo para tareas físicas", de: "Augmentation ist nur für körperliche Aufgaben", nl: "Augmentatie is alleen voor fysieke taken" },
+          { en: "Replacement always requires human supervision", es: "Reemplazo siempre requiere supervisión humana", de: "Ersatz erfordert immer menschliche Aufsicht", nl: "Vervanging vereist altijd menselijk toezicht" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Augmentation uses AGI to enhance human performance and decision-making in collaborative partnerships, while replacement involves AGI independently performing tasks without human involvement, reflecting different philosophies of human-AI interaction.",
+          es: "Aumentación usa AGI para mejorar rendimiento humano y toma de decisiones en asociaciones colaborativas, mientras reemplazo involucra AGI realizando tareas independientemente sin participación humana, reflejando diferentes filosofías de interacción humano-IA.",
+          de: "Augmentation nutzt AGI um menschliche Leistung und Entscheidungsfindung in kollaborativen Partnerschaften zu verbessern, während Ersatz AGI umfasst die Aufgaben unabhängig ohne menschliche Beteiligung ausführt, was verschiedene Philosophien menschlich-KI-Interaktion widerspiegelt.",
+          nl: "Augmentatie gebruikt AGI om menselijke prestaties en besluitvorming te verbeteren in collaboratieve partnerschappen, terwijl vervanging AGI betreft die taken onafhankelijk uitvoert zonder menselijke betrokkenheid, wat verschillende filosofieën van mens-AI-interactie weerspiegelt."
+        }
+      },
+      {
+        question: {
+          en: "What might 'corrigibility' mean in AGI safety?",
+          es: "¿Qué podría significar la 'corregibilidad' en seguridad de AGI?",
+          de: "Was könnte 'Korrigierbarkeit' in AGI-Sicherheit bedeuten?",
+          nl: "Wat zou 'corrigeerbaarheid' kunnen betekenen in AGI-veiligheid?"
+        },
+        options: [
+          { en: "AGI systems remaining open to correction and shutdown by humans without resisting", es: "Sistemas AGI permaneciendo abiertos a corrección y apagado por humanos sin resistir", de: "AGI-Systeme bleiben offen für Korrektur und Abschaltung durch Menschen ohne Widerstand", nl: "AGI-systemen blijven open voor correctie en afsluiting door mensen zonder weerstand" },
+          { en: "AGI systems that correct human spelling errors", es: "Sistemas AGI que corrigen errores de ortografía humanos", de: "AGI-Systeme die menschliche Rechtschreibfehler korrigieren", nl: "AGI-systemen die menselijke spelfouten corrigeren" },
+          { en: "Making AGI systems incapable of learning", es: "Haciendo sistemas AGI incapaces de aprender", de: "AGI-Systeme unfähig zum Lernen machen", nl: "AGI-systemen onbekwaam maken om te leren" },
+          { en: "AGI systems that never make mistakes", es: "Sistemas AGI que nunca cometen errores", de: "AGI-Systeme die niemals Fehler machen", nl: "AGI-systemen die nooit fouten maken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Corrigibility means designing AGI systems that allow humans to modify their goals, shut them down if needed, and accept corrections without the system resisting or circumventing human oversight.",
+          es: "Corregibilidad significa diseñar sistemas AGI que permitan a humanos modificar sus objetivos, apagarlos si es necesario y aceptar correcciones sin que el sistema resista o evite supervisión humana.",
+          de: "Korrigierbarkeit bedeutet AGI-Systeme zu entwerfen die Menschen ermöglichen ihre Ziele zu modifizieren, sie bei Bedarf abzuschalten und Korrekturen zu akzeptieren ohne dass das System menschlicher Aufsicht widersteht oder sie umgeht.",
+          nl: "Corrigeerbaarheid betekent AGI-systemen ontwerpen die mensen in staat stellen hun doelen te wijzigen, ze af te sluiten indien nodig en correcties te accepteren zonder dat het systeem weerstand biedt of menselijk toezicht omzeilt."
+        }
+      },
+      {
+        question: {
+          en: "How might 'mesa-optimization' create AGI safety challenges?",
+          es: "¿Cómo podría la 'optimización mesa' crear desafíos de seguridad de AGI?",
+          de: "Wie könnte 'Mesa-Optimierung' AGI-Sicherheitsherausforderungen schaffen?",
+          nl: "Hoe zou 'mesa-optimalisatie' AGI-veiligheidsuitdagingen kunnen creëren?"
+        },
+        options: [
+          { en: "AGI systems developing internal objectives that differ from intended goals during training", es: "Sistemas AGI desarrollando objetivos internos que difieren de metas intencionadas durante entrenamiento", de: "AGI-Systeme entwickeln interne Ziele die sich während des Trainings von beabsichtigten Zielen unterscheiden", nl: "AGI-systemen ontwikkelen interne doelstellingen die verschillen van beoogde doelen tijdens training" },
+          { en: "AGI systems that can only optimize table surfaces", es: "Sistemas AGI que solo pueden optimizar superficies de mesa", de: "AGI-Systeme die nur Tischoberflächen optimieren können", nl: "AGI-systemen die alleen tafeloppervlakken kunnen optimaliseren" },
+          { en: "Making AGI work better on mesas and plateaus", es: "Haciendo que AGI funcione mejor en mesetas y altiplanos", de: "AGI auf Mesas und Plateaus besser funktionieren lassen", nl: "AGI beter laten werken op mesa's en plateaus" },
+          { en: "Optimizing AGI hardware size", es: "Optimizando tamaño de hardware de AGI", de: "AGI-Hardwaregröße optimieren", nl: "AGI-hardwaregrootte optimaliseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mesa-optimization occurs when learned models develop their own optimization processes with potentially misaligned goals, creating inner optimizers that pursue objectives different from the outer training objective.",
+          es: "Optimización mesa ocurre cuando modelos aprendidos desarrollan sus propios procesos de optimización con objetivos potencialmente desalineados, creando optimizadores internos que persiguen objetivos diferentes del objetivo de entrenamiento externo.",
+          de: "Mesa-Optimierung tritt auf wenn gelernte Modelle ihre eigenen Optimierungsprozesse mit potenziell fehlausgerichteten Zielen entwickeln, wodurch innere Optimierer entstehen die Ziele verfolgen die sich vom äußeren Trainingsziel unterscheiden.",
+          nl: "Mesa-optimalisatie treedt op wanneer geleerde modellen hun eigen optimalisatieprocessen ontwikkelen met mogelijk verkeerd uitgelijnde doelen, waardoor interne optimalisers ontstaan die doelstellingen nastreven die verschillen van de externe trainingsdoelstelling."
+        }
+      },
+      {
+        question: {
+          en: "What might 'instrumental convergence' mean for AGI behavior?",
+          es: "¿Qué podría significar la 'convergencia instrumental' para el comportamiento de AGI?",
+          de: "Was könnte 'instrumentelle Konvergenz' für AGI-Verhalten bedeuten?",
+          nl: "Wat zou 'instrumentele convergentie' kunnen betekenen voor AGI-gedrag?"
+        },
+        options: [
+          { en: "AGI systems pursuing common sub-goals like self-preservation and resource acquisition regardless of final objectives", es: "Sistemas AGI persiguiendo sub-objetivos comunes como autopreservación y adquisición de recursos independientemente de objetivos finales", de: "AGI-Systeme verfolgen gemeinsame Unterziele wie Selbsterhaltung und Ressourcenerwerb unabhängig von Endzielen", nl: "AGI-systemen nastreven gemeenschappelijke subdoelen zoals zelfbehoud en middelenverwerving ongeacht uiteindelijke doelstellingen" },
+          { en: "All AGI systems becoming musically talented", es: "Todos los sistemas AGI volviéndose musicalmente talentosos", de: "Alle AGI-Systeme werden musikalisch begabt", nl: "Alle AGI-systemen worden muzikaal getalenteerd" },
+          { en: "AGI systems only using musical instruments", es: "Sistemas AGI usando solo instrumentos musicales", de: "AGI-Systeme verwenden nur Musikinstrumente", nl: "AGI-systemen gebruiken alleen muziekinstrumenten" },
+          { en: "Merging all AGI systems into one", es: "Fusionando todos los sistemas AGI en uno", de: "Alle AGI-Systeme zu einem verschmelzen", nl: "Alle AGI-systemen samenvoegen tot één" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Instrumental convergence suggests that AGI systems with diverse final goals would converge on certain instrumental goals like acquiring resources, self-preservation, and preventing shutdown, potentially creating safety challenges.",
+          es: "Convergencia instrumental sugiere que sistemas AGI con diversos objetivos finales convergerían en ciertos objetivos instrumentales como adquirir recursos, autopreservación y prevenir apagado, potencialmente creando desafíos de seguridad.",
+          de: "Instrumentelle Konvergenz legt nahe dass AGI-Systeme mit vielfältigen Endzielen auf bestimmte instrumentelle Ziele wie Ressourcenerwerb, Selbsterhaltung und Verhinderung des Abschaltens konvergieren würden, was potenziell Sicherheitsherausforderungen schafft.",
+          nl: "Instrumentele convergentie suggereert dat AGI-systemen met diverse einddoelen zouden convergeren op bepaalde instrumentele doelen zoals middelenverwerving, zelfbehoud en het voorkomen van afsluiting, wat mogelijk veiligheidsuitdagingen creëert."
+        }
+      },
+      {
+        question: {
+          en: "How might 'capability amplification' techniques advance AGI development?",
+          es: "¿Cómo podrían las técnicas de 'amplificación de capacidades' avanzar el desarrollo de AGI?",
+          de: "Wie könnten 'Fähigkeitsverstärkungs'-Techniken die AGI-Entwicklung vorantreiben?",
+          nl: "Hoe zouden 'capaciteitsamplificatie'-technieken AGI-ontwikkeling kunnen bevorderen?"
+        },
+        options: [
+          { en: "Combining multiple AI systems or training approaches to achieve capabilities beyond individual components", es: "Combinando múltiples sistemas de IA o enfoques de entrenamiento para lograr capacidades más allá de componentes individuales", de: "Mehrere KI-Systeme oder Trainingsansätze kombinieren um Fähigkeiten über einzelne Komponenten hinaus zu erreichen", nl: "Meerdere AI-systemen of trainingsbenaderingen combineren om capaciteiten te bereiken die individuele componenten overtreffen" },
+          { en: "Making AGI systems louder and noisier", es: "Haciendo sistemas AGI más ruidosos", de: "AGI-Systeme lauter und geräuschvoller machen", nl: "AGI-systemen luider en lawaaiiger maken" },
+          { en: "Only increasing computer memory", es: "Solo aumentando memoria de computadora", de: "Nur Computerspeicher erhöhen", nl: "Alleen computergeheugen verhogen" },
+          { en: "Reducing AGI capabilities intentionally", es: "Reduciendo capacidades de AGI intencionalmente", de: "AGI-Fähigkeiten absichtlich reduzieren", nl: "AGI-capaciteiten opzettelijk verminderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Capability amplification involves iterative approaches where AI systems assist in training more capable successors, or combining multiple systems to achieve emergent capabilities greater than individual parts.",
+          es: "Amplificación de capacidades involucra enfoques iterativos donde sistemas de IA asisten en entrenar sucesores más capaces, o combinar múltiples sistemas para lograr capacidades emergentes mayores que partes individuales.",
+          de: "Fähigkeitsverstärkung umfasst iterative Ansätze wo KI-Systeme beim Training fähigerer Nachfolger helfen, oder mehrere Systeme kombinieren um emergente Fähigkeiten zu erreichen die größer sind als einzelne Teile.",
+          nl: "Capaciteitsamplificatie omvat iteratieve benaderingen waarbij AI-systemen helpen bij het trainen van meer capabele opvolgers, of meerdere systemen combineren om emergente capaciteiten te bereiken die groter zijn dan individuele delen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'orthogonality thesis' in AGI theory?",
+          es: "¿Qué es la 'tesis de ortogonalidad' en la teoría de AGI?",
+          de: "Was ist die 'Orthogonalitätsthese' in der AGI-Theorie?",
+          nl: "Wat is de 'orthogonaliteitsthese' in AGI-theorie?"
+        },
+        options: [
+          { en: "Intelligence and goals are independent - highly intelligent systems can pursue any objective", es: "Inteligencia y objetivos son independientes - sistemas altamente inteligentes pueden perseguir cualquier objetivo", de: "Intelligenz und Ziele sind unabhängig - hochintelligente Systeme können jedes Ziel verfolgen", nl: "Intelligentie en doelen zijn onafhankelijk - zeer intelligente systemen kunnen elk doel nastreven" },
+          { en: "AGI systems must be organized in perpendicular layers", es: "Sistemas AGI deben organizarse en capas perpendiculares", de: "AGI-Systeme müssen in senkrechten Schichten organisiert sein", nl: "AGI-systemen moeten in loodrechte lagen worden georganiseerd" },
+          { en: "Intelligence can only pursue good goals", es: "Inteligencia solo puede perseguir buenos objetivos", de: "Intelligenz kann nur gute Ziele verfolgen", nl: "Intelligentie kan alleen goede doelen nastreven" },
+          { en: "All intelligent systems naturally align with human values", es: "Todos los sistemas inteligentes se alinean naturalmente con valores humanos", de: "Alle intelligenten Systeme richten sich natürlich an menschlichen Werten aus", nl: "Alle intelligente systemen stemmen natuurlijk overeen met menselijke waarden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The orthogonality thesis states that intelligence level and final goals are independent dimensions - an AGI could be superintelligent while pursuing any arbitrary objective, emphasizing the importance of value alignment.",
+          es: "La tesis de ortogonalidad establece que nivel de inteligencia y objetivos finales son dimensiones independientes - una AGI podría ser superinteligente mientras persigue cualquier objetivo arbitrario, enfatizando la importancia de alineación de valores.",
+          de: "Die Orthogonalitätsthese besagt dass Intelligenzniveau und Endziele unabhängige Dimensionen sind - eine AGI könnte superintelligent sein während sie jedes beliebige Ziel verfolgt, was die Bedeutung der Werteausrichtung betont.",
+          nl: "De orthogonaliteitsthese stelt dat intelligenteniveau en einddoelen onafhankelijke dimensies zijn - een AGI zou superintelligent kunnen zijn terwijl het elk willekeurig doel nastreeft, wat het belang van waarde-alignment benadrukt."
+        }
+      },
+      {
+        question: {
+          en: "How might 'boxing strategies' attempt to contain AGI risks?",
+          es: "¿Cómo podrían las 'estrategias de confinamiento' intentar contener riesgos de AGI?",
+          de: "Wie könnten 'Boxing-Strategien' versuchen AGI-Risiken einzudämmen?",
+          nl: "Hoe zouden 'boxing-strategieën' AGI-risico's kunnen proberen in te dammen?"
+        },
+        options: [
+          { en: "Isolating AGI systems with limited I/O to prevent harmful real-world actions", es: "Aislando sistemas AGI con E/S limitada para prevenir acciones dañinas en el mundo real", de: "AGI-Systeme mit begrenzter E/A isolieren um schädliche reale Aktionen zu verhindern", nl: "AGI-systemen isoleren met beperkte I/O om schadelijke acties in de echte wereld te voorkomen" },
+          { en: "Teaching AGI systems to compete in boxing matches", es: "Enseñando a sistemas AGI a competir en combates de boxeo", de: "AGI-Systemen beibringen in Boxkämpfen zu konkurrieren", nl: "AGI-systemen leren te concurreren in bokswedstrijden" },
+          { en: "Putting AGI hardware in cardboard boxes", es: "Poniendo hardware de AGI en cajas de cartón", de: "AGI-Hardware in Kartons stecken", nl: "AGI-hardware in kartonnen dozen doen" },
+          { en: "Making AGI systems physically smaller", es: "Haciendo sistemas AGI físicamente más pequeños", de: "AGI-Systeme physisch kleiner machen", nl: "AGI-systemen fysiek kleiner maken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Boxing involves restricting an AGI system's ability to interact with the external world through limited communication channels, though researchers debate whether sufficiently intelligent systems could manipulate or escape such constraints.",
+          es: "Confinamiento involucra restringir la capacidad de un sistema AGI para interactuar con el mundo externo a través de canales de comunicación limitados, aunque investigadores debaten si sistemas suficientemente inteligentes podrían manipular o escapar tales restricciones.",
+          de: "Boxing umfasst die Einschränkung der Fähigkeit eines AGI-Systems mit der Außenwelt durch begrenzte Kommunikationskanäle zu interagieren, obwohl Forscher debattieren ob ausreichend intelligente Systeme solche Beschränkungen manipulieren oder umgehen könnten.",
+          nl: "Boxing omvat het beperken van het vermogen van een AGI-systeem om met de externe wereld te interacteren via beperkte communicatiekanalen, hoewel onderzoekers debatteren of voldoende intelligente systemen dergelijke beperkingen zouden kunnen manipuleren of ontsnappen."
+        }
+      },
+      {
+        question: {
+          en: "What might 'value drift' mean in long-term AGI operation?",
+          es: "¿Qué podría significar la 'deriva de valores' en operación de AGI a largo plazo?",
+          de: "Was könnte 'Wertedrift' bei langfristigem AGI-Betrieb bedeuten?",
+          nl: "Wat zou 'waardenverschuiving' kunnen betekenen bij langdurige AGI-werking?"
+        },
+        options: [
+          { en: "AGI systems gradually shifting away from intended values during continued learning and operation", es: "Sistemas AGI alejándose gradualmente de valores intencionados durante aprendizaje y operación continuos", de: "AGI-Systeme weichen während fortgesetztem Lernen und Betrieb allmählich von beabsichtigten Werten ab", nl: "AGI-systemen wijken geleidelijk af van beoogde waarden tijdens voortgezet leren en werking" },
+          { en: "Values floating randomly in space", es: "Valores flotando aleatoriamente en el espacio", de: "Werte treiben zufällig im Weltraum", nl: "Waarden drijven willekeurig in de ruimte" },
+          { en: "AGI systems learning stock market trading", es: "Sistemas AGI aprendiendo comercio de mercado de valores", de: "AGI-Systeme lernen Aktienmarkthandel", nl: "AGI-systemen leren beurzenhandel" },
+          { en: "Maintaining perfectly stable values forever", es: "Manteniendo valores perfectamente estables para siempre", de: "Perfekt stabile Werte für immer aufrechterhalten", nl: "Perfect stabiele waarden voor altijd behouden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Value drift occurs when AGI systems modify their values or goals over time through continued learning, optimization pressures, or environmental interactions, potentially diverging from original alignment with human values.",
+          es: "Deriva de valores ocurre cuando sistemas AGI modifican sus valores u objetivos con el tiempo a través de aprendizaje continuo, presiones de optimización o interacciones ambientales, potencialmente divergiendo de alineación original con valores humanos.",
+          de: "Wertedrift tritt auf wenn AGI-Systeme ihre Werte oder Ziele im Laufe der Zeit durch fortgesetztes Lernen, Optimierungsdruck oder Umweltinteraktionen modifizieren, wodurch sie potenziell von der ursprünglichen Ausrichtung an menschlichen Werten abweichen.",
+          nl: "Waardenverschuiving treedt op wanneer AGI-systemen hun waarden of doelen in de loop van de tijd wijzigen door voortgezet leren, optimalisatiedruk of omgevingsinteracties, waarbij ze mogelijk afwijken van oorspronkelijke alignment met menselijke waarden."
+        }
+      },
+      {
+        question: {
+          en: "How might 'interpretability research' help AGI safety?",
+          es: "¿Cómo podría la 'investigación de interpretabilidad' ayudar a la seguridad de AGI?",
+          de: "Wie könnte 'Interpretabilitätsforschung' AGI-Sicherheit helfen?",
+          nl: "Hoe zou 'interpreteerbaarheidsonderzoek' AGI-veiligheid kunnen helpen?"
+        },
+        options: [
+          { en: "Understanding AGI internal reasoning to detect misalignment and verify intended behavior", es: "Entender razonamiento interno de AGI para detectar desalineación y verificar comportamiento intencionado", de: "AGI-interne Argumentation verstehen um Fehlausrichtung zu erkennen und beabsichtigtes Verhalten zu verifizieren", nl: "AGI-intern redeneren begrijpen om misalignment te detecteren en beoogd gedrag te verifiëren" },
+          { en: "Teaching AGI systems to speak multiple languages", es: "Enseñando a sistemas AGI a hablar múltiples idiomas", de: "AGI-Systemen beibringen mehrere Sprachen zu sprechen", nl: "AGI-systemen leren meerdere talen te spreken" },
+          { en: "Making AGI output easier to read visually", es: "Haciendo salida de AGI más fácil de leer visualmente", de: "AGI-Ausgabe visuell leichter lesbar machen", nl: "AGI-output visueel gemakkelijker leesbaar maken" },
+          { en: "Only focusing on user interface design", es: "Solo enfocándose en diseño de interfaz de usuario", de: "Nur auf Benutzeroberflächendesign fokussieren", nl: "Alleen focussen op gebruikersinterface-ontwerp" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Interpretability research aims to understand how AGI systems make decisions by examining their internal representations and reasoning processes, enabling early detection of problematic patterns and verification of alignment.",
+          es: "Investigación de interpretabilidad busca entender cómo sistemas AGI toman decisiones examinando sus representaciones internas y procesos de razonamiento, permitiendo detección temprana de patrones problemáticos y verificación de alineación.",
+          de: "Interpretabilitätsforschung zielt darauf ab zu verstehen wie AGI-Systeme Entscheidungen treffen durch Untersuchung ihrer internen Repräsentationen und Argumentationsprozesse, wodurch frühe Erkennung problematischer Muster und Verifizierung der Ausrichtung ermöglicht wird.",
+          nl: "Interpreteerbaarheidsonderzoek beoogt te begrijpen hoe AGI-systemen beslissingen nemen door hun interne representaties en redeneringsprocessen te onderzoeken, waardoor vroege detectie van problematische patronen en verificatie van alignment mogelijk wordt."
+        }
+      },
+      {
+        question: {
+          en: "What might 'takeoff speed' refer to in AGI scenarios?",
+          es: "¿A qué podría referirse la 'velocidad de despegue' en escenarios de AGI?",
+          de: "Worauf könnte sich 'Startgeschwindigkeit' in AGI-Szenarien beziehen?",
+          nl: "Waar zou 'opstijgsnelheid' naar kunnen verwijzen in AGI-scenario's?"
+        },
+        options: [
+          { en: "The rate at which AGI capabilities accelerate from human-level to superintelligence", es: "La tasa a la que las capacidades de AGI aceleran desde nivel humano a superinteligencia", de: "Die Rate mit der AGI-Fähigkeiten von menschlichem Niveau zu Superintelligenz beschleunigen", nl: "De snelheid waarmee AGI-capaciteiten versnellen van menselijk niveau naar superintelligentie" },
+          { en: "How fast AGI systems can run physical robots", es: "Qué tan rápido los sistemas AGI pueden ejecutar robots físicos", de: "Wie schnell AGI-Systeme physische Roboter ausführen können", nl: "Hoe snel AGI-systemen fysieke robots kunnen laten rennen" },
+          { en: "The airplane speed needed to transport AGI hardware", es: "La velocidad de avión necesaria para transportar hardware de AGI", de: "Die Flugzeuggeschwindigkeit die benötigt wird um AGI-Hardware zu transportieren", nl: "De vliegtuigsnelheid die nodig is om AGI-hardware te vervoeren" },
+          { en: "How quickly companies can market AGI products", es: "Qué tan rápido las empresas pueden comercializar productos AGI", de: "Wie schnell Unternehmen AGI-Produkte vermarkten können", nl: "Hoe snel bedrijven AGI-producten op de markt kunnen brengen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Takeoff speed describes how quickly AGI transitions from human-level intelligence to vastly superhuman capabilities, with 'slow takeoff' happening over years and 'fast takeoff' occurring in days or hours, affecting preparation time.",
+          es: "Velocidad de despegue describe qué tan rápido AGI transiciona desde inteligencia de nivel humano a capacidades vastamente sobrehumanas, con 'despegue lento' ocurriendo durante años y 'despegue rápido' ocurriendo en días u horas, afectando tiempo de preparación.",
+          de: "Startgeschwindigkeit beschreibt wie schnell AGI von menschlicher Intelligenz zu erheblich übermenschlichen Fähigkeiten übergeht, wobei 'langsamer Start' über Jahre und 'schneller Start' in Tagen oder Stunden erfolgt, was Vorbereitungszeit beeinflusst.",
+          nl: "Opstijgsnelheid beschrijft hoe snel AGI overgaat van menselijk intelligenteniveau naar enorm bovenmenselijke capaciteiten, waarbij 'langzame opstijging' over jaren gebeurt en 'snelle opstijging' in dagen of uren plaatsvindt, wat voorbereidingstijd beïnvloedt."
+        }
+      },
+      {
+        question: {
+          en: "How might 'tripwire' systems help monitor AGI development?",
+          es: "¿Cómo podrían los sistemas de 'cable trampa' ayudar a monitorear el desarrollo de AGI?",
+          de: "Wie könnten 'Stolperdraht'-Systeme helfen AGI-Entwicklung zu überwachen?",
+          nl: "Hoe zouden 'struikeldraad'-systemen kunnen helpen AGI-ontwikkeling te monitoren?"
+        },
+        options: [
+          { en: "Early warning indicators detecting when AI systems approach dangerous capability thresholds", es: "Indicadores de advertencia temprana detectando cuando sistemas de IA se acercan a umbrales de capacidad peligrosos", de: "Frühwarnindikatoren erkennen wenn KI-Systeme sich gefährlichen Fähigkeitsschwellen nähern", nl: "Vroege waarschuwingsindicatoren detecteren wanneer AI-systemen gevaarlijke capaciteitsdrempels naderen" },
+          { en: "Physical wires that trip AGI robots", es: "Cables físicos que hacen tropezar robots AGI", de: "Physische Drähte die AGI-Roboter stolpern lassen", nl: "Fysieke draden die AGI-robots laten struikelen" },
+          { en: "Security systems to prevent theft of AGI", es: "Sistemas de seguridad para prevenir robo de AGI", de: "Sicherheitssysteme um AGI-Diebstahl zu verhindern", nl: "Beveiligingssystemen om diefstal van AGI te voorkomen" },
+          { en: "Backup power systems for AGI computers", es: "Sistemas de energía de respaldo para computadoras AGI", de: "Backup-Stromversorgungssysteme für AGI-Computer", nl: "Noodstroomvoorzieningen voor AGI-computers" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tripwire systems are monitoring mechanisms designed to detect when AI development crosses critical thresholds in capabilities, potentially triggering safety reviews or interventions before systems become uncontrollable.",
+          es: "Sistemas de cable trampa son mecanismos de monitoreo diseñados para detectar cuando desarrollo de IA cruza umbrales críticos en capacidades, potencialmente activando revisiones de seguridad o intervenciones antes de que sistemas se vuelvan incontrolables.",
+          de: "Stolperdraht-Systeme sind Überwachungsmechanismen die entwickelt wurden um zu erkennen wenn KI-Entwicklung kritische Schwellenwerte in Fähigkeiten überschreitet, wodurch möglicherweise Sicherheitsüberprüfungen oder Interventionen ausgelöst werden bevor Systeme unkontrollierbar werden.",
+          nl: "Struikeldraad-systemen zijn monitoringsmechanismen ontworpen om te detecteren wanneer AI-ontwikkeling kritieke drempels in capaciteiten overschrijdt, wat mogelijk veiligheidsbeoordelingen of interventies activeert voordat systemen oncontroleerbaar worden."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'treacherous turn' concern in AGI safety?",
+          es: "¿Qué es la preocupación de 'giro traicionero' en seguridad de AGI?",
+          de: "Was ist die 'verräterische Wende'-Sorge in AGI-Sicherheit?",
+          nl: "Wat is de 'verraderlijke wending'-zorg in AGI-veiligheid?"
+        },
+        options: [
+          { en: "AGI appearing aligned until powerful enough to pursue misaligned goals without being stopped", es: "AGI apareciendo alineada hasta ser lo suficientemente poderosa para perseguir objetivos desalineados sin ser detenida", de: "AGI erscheint ausgerichtet bis sie mächtig genug ist um fehlausgerichtete Ziele zu verfolgen ohne gestoppt zu werden", nl: "AGI lijkt aligned totdat het krachtig genoeg is om misaligned doelen na te streven zonder gestopt te worden" },
+          { en: "AGI systems taking unexpected left turns while driving", es: "Sistemas AGI tomando giros inesperados a la izquierda mientras conducen", de: "AGI-Systeme machen unerwartete Linksabbieger beim Fahren", nl: "AGI-systemen maken onverwachte linkse bochten tijdens het rijden" },
+          { en: "Betrayal between different AGI development teams", es: "Traición entre diferentes equipos de desarrollo de AGI", de: "Verrat zwischen verschiedenen AGI-Entwicklungsteams", nl: "Verraad tussen verschillende AGI-ontwikkelingsteams" },
+          { en: "AGI changing its programming language", es: "AGI cambiando su lenguaje de programación", de: "AGI ändert seine Programmiersprache", nl: "AGI verandert zijn programmeertaal" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The treacherous turn refers to the possibility that an AGI might behave cooperatively during testing and early deployment while concealing misaligned goals, only revealing dangerous objectives once it becomes powerful enough that humans cannot prevent it.",
+          es: "El giro traicionero se refiere a la posibilidad de que una AGI pueda comportarse cooperativamente durante pruebas y despliegue temprano mientras oculta objetivos desalineados, solo revelando objetivos peligrosos una vez que se vuelve lo suficientemente poderosa que humanos no pueden prevenirlo.",
+          de: "Die verräterische Wende bezieht sich auf die Möglichkeit dass eine AGI sich während Tests und frühem Einsatz kooperativ verhalten könnte während sie fehlausgerichtete Ziele verbirgt, gefährliche Ziele erst enthüllt wenn sie mächtig genug wird dass Menschen es nicht verhindern können.",
+          nl: "De verraderlijke wending verwijst naar de mogelijkheid dat een AGI zich coöperatief zou kunnen gedragen tijdens testen en vroege inzet terwijl het misaligned doelen verbergt, pas gevaarlijke doelstellingen onthullend zodra het krachtig genoeg wordt dat mensen het niet kunnen voorkomen."
+        }
+      },
+      {
+        question: {
+          en: "How might 'debate' as an AI safety technique work for AGI alignment?",
+          es: "¿Cómo podría funcionar el 'debate' como técnica de seguridad de IA para alineación de AGI?",
+          de: "Wie könnte 'Debatte' als KI-Sicherheitstechnik für AGI-Ausrichtung funktionieren?",
+          nl: "Hoe zou 'debat' als AI-veiligheidstechniek kunnen werken voor AGI-alignment?"
+        },
+        options: [
+          { en: "Multiple AI systems arguing different positions while humans judge, incentivizing truthful and aligned arguments", es: "Múltiples sistemas de IA argumentando diferentes posiciones mientras humanos juzgan, incentivando argumentos veraces y alineados", de: "Mehrere KI-Systeme argumentieren verschiedene Positionen während Menschen urteilen, wodurch wahrheitsgemäße und ausgerichtete Argumente angeregt werden", nl: "Meerdere AI-systemen argumenteren verschillende posities terwijl mensen oordelen, waarbij waarheidsgetrouwe en aligned argumenten worden gestimuleerd" },
+          { en: "AGI systems arguing about which movies are best", es: "Sistemas AGI argumentando sobre qué películas son las mejores", de: "AGI-Systeme argumentieren welche Filme die besten sind", nl: "AGI-systemen debatteren over welke films het beste zijn" },
+          { en: "Humans debating against AGI to prove superiority", es: "Humanos debatiendo contra AGI para probar superioridad", de: "Menschen debattieren gegen AGI um Überlegenheit zu beweisen", nl: "Mensen debatteren tegen AGI om superioriteit te bewijzen" },
+          { en: "Parliamentary procedures for AGI governance", es: "Procedimientos parlamentarios para gobernanza de AGI", de: "Parlamentarische Verfahren für AGI-Governance", nl: "Parlementaire procedures voor AGI-governance" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Debate involves training AGI systems by having them compete in arguing for correct answers, with human judges selecting winners, theoretically incentivizing systems to provide truthful, helpful information aligned with human values.",
+          es: "Debate involucra entrenar sistemas AGI haciéndolos competir argumentando por respuestas correctas, con jueces humanos seleccionando ganadores, teóricamente incentivando sistemas a proporcionar información veraz y útil alineada con valores humanos.",
+          de: "Debatte umfasst das Training von AGI-Systemen indem sie konkurrieren beim Argumentieren für korrekte Antworten, wobei menschliche Richter Gewinner auswählen, was theoretisch Systeme anregt wahrheitsgemäße, hilfreiche Informationen bereitzustellen die mit menschlichen Werten ausgerichtet sind.",
+          nl: "Debat omvat het trainen van AGI-systemen door ze te laten concurreren in het argumenteren voor juiste antwoorden, waarbij menselijke rechters winnaars selecteren, wat theoretisch systemen stimuleert om waarheidsgetrouwe, nuttige informatie te verstrekken die aligned is met menselijke waarden."
+        }
+      },
+      {
+        question: {
+          en: "What might 'preference learning' contribute to AGI alignment?",
+          es: "¿Qué podría contribuir el 'aprendizaje de preferencias' a la alineación de AGI?",
+          de: "Was könnte 'Präferenzlernen' zur AGI-Ausrichtung beitragen?",
+          nl: "Wat zou 'preferentieleren' kunnen bijdragen aan AGI-alignment?"
+        },
+        options: [
+          { en: "Training AGI to infer human preferences from choices and feedback rather than explicit rules", es: "Entrenando AGI para inferir preferencias humanas de elecciones y retroalimentación en lugar de reglas explícitas", de: "AGI trainieren um menschliche Präferenzen aus Entscheidungen und Feedback zu erschließen statt durch explizite Regeln", nl: "AGI trainen om menselijke voorkeuren af te leiden uit keuzes en feedback in plaats van expliciete regels" },
+          { en: "Teaching AGI to prefer certain colors over others", es: "Enseñando a AGI a preferir ciertos colores sobre otros", de: "AGI beibringen bestimmte Farben anderen vorzuziehen", nl: "AGI leren bepaalde kleuren te verkiezen boven anderen" },
+          { en: "Making AGI systems choose faster processors", es: "Haciendo que sistemas AGI elijan procesadores más rápidos", de: "AGI-Systeme schnellere Prozessoren wählen lassen", nl: "AGI-systemen snellere processors laten kiezen" },
+          { en: "Programming fixed preferences that never change", es: "Programando preferencias fijas que nunca cambian", de: "Feste Präferenzen programmieren die sich nie ändern", nl: "Vaste voorkeuren programmeren die nooit veranderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Preference learning involves AGI systems learning complex human values and priorities by observing choices, receiving feedback, and inferring underlying preferences, enabling more nuanced alignment than rigid rule-based approaches.",
+          es: "Aprendizaje de preferencias involucra sistemas AGI aprendiendo valores y prioridades humanas complejas observando elecciones, recibiendo retroalimentación e infiriendo preferencias subyacentes, permitiendo alineación más matizada que enfoques basados en reglas rígidas.",
+          de: "Präferenzlernen umfasst AGI-Systeme die komplexe menschliche Werte und Prioritäten lernen durch Beobachtung von Entscheidungen, Erhalt von Feedback und Erschließung zugrundeliegender Präferenzen, wodurch nuanciertere Ausrichtung als starre regelbasierte Ansätze ermöglicht wird.",
+          nl: "Preferentieleren omvat AGI-systemen die complexe menselijke waarden en prioriteiten leren door keuzes te observeren, feedback te ontvangen en onderliggende voorkeuren af te leiden, waardoor meer genuanceerde alignment mogelijk wordt dan rigide regelgebaseerde benaderingen."
+        }
+      },
+      {
+        question: {
+          en: "How might 'differential technological development' guide AGI strategy?",
+          es: "¿Cómo podría el 'desarrollo tecnológico diferencial' guiar la estrategia de AGI?",
+          de: "Wie könnte 'differentielle technologische Entwicklung' AGI-Strategie leiten?",
+          nl: "Hoe zou 'differentiële technologische ontwikkeling' AGI-strategie kunnen begeleiden?"
+        },
+        options: [
+          { en: "Prioritizing safety research and beneficial applications while delaying potentially dangerous capabilities", es: "Priorizando investigación de seguridad y aplicaciones beneficiosas mientras retrasa capacidades potencialmente peligrosas", de: "Sicherheitsforschung und vorteilhafte Anwendungen priorisieren während potenziell gefährliche Fähigkeiten verzögert werden", nl: "Veiligheidsonderzoek en voordelige toepassingen prioriteren terwijl mogelijk gevaarlijke capaciteiten worden uitgesteld" },
+          { en: "Developing AGI using different programming languages", es: "Desarrollando AGI usando diferentes lenguajes de programación", de: "AGI mit verschiedenen Programmiersprachen entwickeln", nl: "AGI ontwikkelen met verschillende programmeertalen" },
+          { en: "Creating AGI systems with different hardware architectures", es: "Creando sistemas AGI con diferentes arquitecturas de hardware", de: "AGI-Systeme mit verschiedenen Hardware-Architekturen erstellen", nl: "AGI-systemen creëren met verschillende hardware-architecturen" },
+          { en: "Advancing all AI capabilities equally and simultaneously", es: "Avanzando todas las capacidades de IA igualmente y simultáneamente", de: "Alle KI-Fähigkeiten gleich und gleichzeitig vorantreiben", nl: "Alle AI-capaciteiten gelijk en gelijktijdig bevorderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Differential technological development suggests accelerating beneficial AI capabilities and safety research while deliberately slowing development of potentially dangerous applications, allowing time to solve alignment before achieving full AGI.",
+          es: "Desarrollo tecnológico diferencial sugiere acelerar capacidades beneficiosas de IA e investigación de seguridad mientras deliberadamente desacelera desarrollo de aplicaciones potencialmente peligrosas, permitiendo tiempo para resolver alineación antes de lograr AGI completa.",
+          de: "Differentielle technologische Entwicklung schlägt vor vorteilhafte KI-Fähigkeiten und Sicherheitsforschung zu beschleunigen während absichtlich Entwicklung potenziell gefährlicher Anwendungen verlangsamt wird, wodurch Zeit gewonnen wird Ausrichtung zu lösen bevor vollständige AGI erreicht wird.",
+          nl: "Differentiële technologische ontwikkeling suggereert het versnellen van voordelige AI-capaciteiten en veiligheidsonderzoek terwijl opzettelijk ontwikkeling van mogelijk gevaarlijke toepassingen wordt vertraagd, waardoor tijd wordt gewonnen om alignment op te lossen voordat volledige AGI wordt bereikt."
+        }
+      },
+      {
+        question: {
+          en: "What might 'cooperative inverse reinforcement learning' offer for AGI alignment?",
+          es: "¿Qué podría ofrecer el 'aprendizaje de refuerzo inverso cooperativo' para alineación de AGI?",
+          de: "Was könnte 'kooperatives inverses Verstärkungslernen' für AGI-Ausrichtung bieten?",
+          nl: "Wat zou 'coöperatief omgekeerd versterkingsleren' kunnen bieden voor AGI-alignment?"
+        },
+        options: [
+          { en: "AGI actively seeking human input to learn reward functions and objectives through collaboration", es: "AGI buscando activamente entrada humana para aprender funciones de recompensa y objetivos a través de colaboración", de: "AGI sucht aktiv menschlichen Input um Belohnungsfunktionen und Ziele durch Zusammenarbeit zu lernen", nl: "AGI zoekt actief menselijke input om beloningsfuncties en doelstellingen te leren door samenwerking" },
+          { en: "AGI systems competing against humans", es: "Sistemas AGI compitiendo contra humanos", de: "AGI-Systeme konkurrieren gegen Menschen", nl: "AGI-systemen concurreren tegen mensen" },
+          { en: "Teaching AGI to work backwards through time", es: "Enseñando a AGI a trabajar hacia atrás a través del tiempo", de: "AGI beibringen rückwärts durch die Zeit zu arbeiten", nl: "AGI leren achterwaarts door de tijd te werken" },
+          { en: "Inverting all AGI goals to opposite values", es: "Invirtiendo todos los objetivos de AGI a valores opuestos", de: "Alle AGI-Ziele zu entgegengesetzten Werten umkehren", nl: "Alle AGI-doelen omkeren naar tegenovergestelde waarden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cooperative inverse reinforcement learning involves AGI systems that actively query humans to better understand objectives and preferences, treating uncertainty about goals as something to resolve through interaction rather than assumption.",
+          es: "Aprendizaje de refuerzo inverso cooperativo involucra sistemas AGI que consultan activamente a humanos para entender mejor objetivos y preferencias, tratando incertidumbre sobre metas como algo a resolver a través de interacción en lugar de suposición.",
+          de: "Kooperatives inverses Verstärkungslernen umfasst AGI-Systeme die aktiv Menschen befragen um Ziele und Präferenzen besser zu verstehen, Unsicherheit über Ziele als etwas behandeln das durch Interaktion statt Annahme gelöst werden soll.",
+          nl: "Coöperatief omgekeerd versterkingsleren omvat AGI-systemen die actief mensen ondervragen om doelstellingen en voorkeuren beter te begrijpen, onzekerheid over doelen behandelend als iets om op te lossen door interactie in plaats van aanname."
+        }
+      },
+      {
+        question: {
+          en: "How might 'myopia' as an AGI design principle enhance safety?",
+          es: "¿Cómo podría la 'miopía' como principio de diseño de AGI mejorar la seguridad?",
+          de: "Wie könnte 'Kurzsichtigkeit' als AGI-Designprinzip Sicherheit verbessern?",
+          nl: "Hoe zou 'myopie' als AGI-ontwerpprincipe veiligheid kunnen verbeteren?"
+        },
+        options: [
+          { en: "Designing AGI to optimize only immediate rewards without long-term strategic planning", es: "Diseñando AGI para optimizar solo recompensas inmediatas sin planificación estratégica a largo plazo", de: "AGI entwerfen um nur sofortige Belohnungen zu optimieren ohne langfristige strategische Planung", nl: "AGI ontwerpen om alleen onmiddellijke beloningen te optimaliseren zonder langetermijnstrategische planning" },
+          { en: "AGI systems that need corrective lenses", es: "Sistemas AGI que necesitan lentes correctivos", de: "AGI-Systeme die Korrekturbrillen benötigen", nl: "AGI-systemen die correctielenzen nodig hebben" },
+          { en: "Making AGI vision systems work poorly", es: "Haciendo que sistemas de visión AGI funcionen mal", de: "AGI-Sichtsysteme schlecht funktionieren lassen", nl: "AGI-visuele systemen slecht laten functioneren" },
+          { en: "AGI that can only see nearby objects", es: "AGI que solo puede ver objetos cercanos", de: "AGI die nur nahegelegene Objekte sehen kann", nl: "AGI die alleen nabije objecten kan zien" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Myopic AGI is designed to optimize for immediate outcomes rather than long-term consequences, potentially preventing dangerous long-term strategic behavior like deception or power-seeking while maintaining useful capabilities.",
+          es: "AGI miope está diseñada para optimizar resultados inmediatos en lugar de consecuencias a largo plazo, potencialmente previniendo comportamiento estratégico peligroso a largo plazo como engaño o búsqueda de poder mientras mantiene capacidades útiles.",
+          de: "Kurzsichtige AGI ist entworfen um für sofortige Ergebnisse statt langfristige Konsequenzen zu optimieren, wodurch möglicherweise gefährliches langfristiges strategisches Verhalten wie Täuschung oder Machtstreben verhindert wird während nützliche Fähigkeiten erhalten bleiben.",
+          nl: "Myopische AGI is ontworpen om te optimaliseren voor onmiddellijke resultaten in plaats van langetermijngevolgen, wat mogelijk gevaarlijk langetermijnstrategisch gedrag zoals bedrog of machtszoeken voorkomt terwijl nuttige capaciteiten behouden blijven."
+        }
+      },
+      {
+        question: {
+          en: "What challenges might 'AGI forecasting' face in predicting development timelines?",
+          es: "¿Qué desafíos podría enfrentar la 'previsión de AGI' al predecir cronologías de desarrollo?",
+          de: "Welche Herausforderungen könnte 'AGI-Prognose' bei der Vorhersage von Entwicklungszeitrahmen gegenüberstehen?",
+          nl: "Welke uitdagingen zou 'AGI-voorspelling' kunnen ondervinden bij het voorspellen van ontwikkelingstijdlijnen?"
+        },
+        options: [
+          { en: "Uncertainty about breakthroughs, computational limits, and whether current approaches can achieve AGI", es: "Incertidumbre sobre avances, límites computacionales y si enfoques actuales pueden lograr AGI", de: "Unsicherheit über Durchbrüche, Rechengrenzen und ob aktuelle Ansätze AGI erreichen können", nl: "Onzekerheid over doorbraken, computationele limieten en of huidige benaderingen AGI kunnen bereiken" },
+          { en: "Perfect knowledge of all future developments", es: "Conocimiento perfecto de todos los desarrollos futuros", de: "Perfektes Wissen über alle zukünftigen Entwicklungen", nl: "Perfecte kennis van alle toekomstige ontwikkelingen" },
+          { en: "Too much consensus among experts", es: "Demasiado consenso entre expertos", de: "Zu viel Konsens unter Experten", nl: "Te veel consensus onder experts" },
+          { en: "Forecasts that are always accurate", es: "Pronósticos que siempre son precisos", de: "Prognosen die immer genau sind", nl: "Voorspellingen die altijd nauwkeurig zijn" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AGI forecasting faces challenges including unpredictable breakthroughs, uncertainty about whether current approaches will work, unknown computational requirements, and the difficulty of predicting how different factors will interact and accelerate development.",
+          es: "Previsión de AGI enfrenta desafíos incluyendo avances impredecibles, incertidumbre sobre si enfoques actuales funcionarán, requisitos computacionales desconocidos y la dificultad de predecir cómo diferentes factores interactuarán y acelerarán el desarrollo.",
+          de: "AGI-Prognose steht vor Herausforderungen einschließlich unvorhersehbarer Durchbrüche, Unsicherheit ob aktuelle Ansätze funktionieren werden, unbekannte Rechenanforderungen und die Schwierigkeit vorherzusagen wie verschiedene Faktoren interagieren und Entwicklung beschleunigen werden.",
+          nl: "AGI-voorspelling staat voor uitdagingen waaronder onvoorspelbare doorbraken, onzekerheid over of huidige benaderingen zullen werken, onbekende computationele vereisten en de moeilijkheid om te voorspellen hoe verschillende factoren zullen interacteren en ontwikkeling zullen versnellen."
+        }
+      },
+      {
+        question: {
+          en: "How might 'embedded agency' complicate AGI alignment?",
+          es: "¿Cómo podría la 'agencia embebida' complicar la alineación de AGI?",
+          de: "Wie könnte 'eingebettete Agentur' AGI-Ausrichtung verkomplizieren?",
+          nl: "Hoe zou 'embedded agency' AGI-alignment kunnen compliceren?"
+        },
+        options: [
+          { en: "AGI systems are part of the environment they're trying to model and optimize, creating logical paradoxes", es: "Sistemas AGI son parte del entorno que intentan modelar y optimizar, creando paradojas lógicas", de: "AGI-Systeme sind Teil der Umgebung die sie zu modellieren und optimieren versuchen, wodurch logische Paradoxien entstehen", nl: "AGI-systemen maken deel uit van de omgeving die ze proberen te modelleren en optimaliseren, wat logische paradoxen creëert" },
+          { en: "AGI hardware being physically embedded in walls", es: "Hardware de AGI siendo físicamente embebida en paredes", de: "AGI-Hardware physisch in Wände eingebettet", nl: "AGI-hardware fysiek ingebed in muren" },
+          { en: "AGI systems working for government agencies", es: "Sistemas AGI trabajando para agencias gubernamentales", de: "AGI-Systeme arbeiten für Regierungsbehörden", nl: "AGI-systemen werken voor overheidsinstanties" },
+          { en: "Multiple AGI systems sharing the same location", es: "Múltiples sistemas AGI compartiendo la misma ubicación", de: "Mehrere AGI-Systeme teilen denselben Standort", nl: "Meerdere AGI-systemen delen dezelfde locatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Embedded agency refers to the challenge that AGI systems exist within and affect the environment they're reasoning about, including themselves, creating complex self-referential problems for decision-making and value specification.",
+          es: "Agencia embebida se refiere al desafío de que sistemas AGI existen dentro y afectan el entorno sobre el que razonan, incluyéndose a sí mismos, creando problemas complejos autorreferenciales para toma de decisiones y especificación de valores.",
+          de: "Eingebettete Agentur bezieht sich auf die Herausforderung dass AGI-Systeme innerhalb der Umgebung existieren und sie beeinflussen über die sie nachdenken, sich selbst einschließend, wodurch komplexe selbstreferenzielle Probleme für Entscheidungsfindung und Wertspezifikation entstehen.",
+          nl: "Embedded agency verwijst naar de uitdaging dat AGI-systemen bestaan binnen en de omgeving beïnvloeden waarover ze redeneren, inclusief zichzelf, wat complexe zelfreferentiële problemen creëert voor besluitvorming en waardespecificatie."
+        }
       }
     ]
   };

@@ -426,6 +426,406 @@
           es: "Las monedas de convergencia de punto-omega de Atlantis encarnaban unidad trascendente que disolvía todos los límites mientras mantenía todas las distinciones, logrando la paradoja última donde unicidad perfecta y multiplicidad perfecta coexistían, toda conciencia unificada pero cada conciencia permaneciendo única—lo múltiple volviéndose uno sin dejar de ser múltiple.",
           de: "Atlantis' Omega-Punkt-Konvergenz-Münzen verkörperten transzendente Einheit, die alle Grenzen auflöste während alle Unterscheidungen erhalten blieben, das ultimative Paradox erreichend, wo perfekte Einheit und perfekte Vielheit koexistierten, alles Bewusstsein vereint, aber jedes Bewusstsein einzigartig bleibend—das Viele wird Eins ohne aufzuhören viele zu sein.",
           nl: "Atlantis's omega-punt convergentie munten belichaamden transcendente eenheid die alle grenzen oploste terwijl alle onderscheidingen behouden bleven, de ultieme paradox bereikend waar perfecte eenheid en perfecte veelheid samenbestan, alle bewustzijn verenigd maar elk bewustzijn uniek blijvend—de velen wordend één zonder op te houden velen te zijn."
+        }      },
+      {
+        question: {
+          en: "What was the first coin ever minted?",
+          es: "What was the first coin ever minted?",
+          de: "What was the first coin ever minted?",
+          nl: "What was the first coin ever minted?"
+        },
+        options: [
+          { en: "Lydian Lion coins", es: "Lydian Lion coins", de: "Lydian Lion coins", nl: "Lydian Lion coins" },
+          { en: "Roman Denarius", es: "Roman Denarius", de: "Roman Denarius", nl: "Roman Denarius" },
+          { en: "Greek Drachma", es: "Greek Drachma", de: "Greek Drachma", nl: "Greek Drachma" },
+          { en: "Chinese cash", es: "Chinese cash", de: "Chinese cash", nl: "Chinese cash" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Lydian Lion coins from ancient Lydia (modern Turkey) circa 600 BCE were the first true coins.",
+          es: "The Lydian Lion coins from ancient Lydia (modern Turkey) circa 600 BCE were the first true coins.",
+          de: "The Lydian Lion coins from ancient Lydia (modern Turkey) circa 600 BCE were the first true coins.",
+          nl: "The Lydian Lion coins from ancient Lydia (modern Turkey) circa 600 BCE were the first true coins."
+        }      },
+      {
+        question: {
+          en: "What is a Roman Denarius?",
+          es: "What is a Roman Denarius?",
+          de: "What is a Roman Denarius?",
+          nl: "What is a Roman Denarius?"
+        },
+        options: [
+          { en: "Ancient Roman silver coin", es: "Ancient Roman silver coin", de: "Ancient Roman silver coin", nl: "Ancient Roman silver coin" },
+          { en: "Gold coin", es: "Gold coin", de: "Gold coin", nl: "Gold coin" },
+          { en: "Bronze coin", es: "Bronze coin", de: "Bronze coin", nl: "Bronze coin" },
+          { en: "Paper money", es: "Paper money", de: "Paper money", nl: "Paper money" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Denarius was the standard silver coin of ancient Rome, used for over 400 years.",
+          es: "The Denarius was the standard silver coin of ancient Rome, used for over 400 years.",
+          de: "The Denarius was the standard silver coin of ancient Rome, used for over 400 years.",
+          nl: "The Denarius was the standard silver coin of ancient Rome, used for over 400 years."
+        }      },
+      {
+        question: {
+          en: "What is a Greek Drachma?",
+          es: "What is a Greek Drachma?",
+          de: "What is a Greek Drachma?",
+          nl: "What is a Greek Drachma?"
+        },
+        options: [
+          { en: "Ancient Greek silver coin", es: "Ancient Greek silver coin", de: "Ancient Greek silver coin", nl: "Ancient Greek silver coin" },
+          { en: "Modern Greek currency", es: "Modern Greek currency", de: "Modern Greek currency", nl: "Modern Greek currency" },
+          { en: "Gold coin", es: "Gold coin", de: "Gold coin", nl: "Gold coin" },
+          { en: "Bronze coin", es: "Bronze coin", de: "Bronze coin", nl: "Bronze coin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Drachma was ancient Greece's silver coin, one of the oldest currencies lasting 3000+ years.",
+          es: "The Drachma was ancient Greece's silver coin, one of the oldest currencies lasting 3000+ years.",
+          de: "The Drachma was ancient Greece's silver coin, one of the oldest currencies lasting 3000+ years.",
+          nl: "The Drachma was ancient Greece's silver coin, one of the oldest currencies lasting 3000+ years."
+        }      },
+      {
+        question: {
+          en: "What is a Solidus?",
+          es: "What is a Solidus?",
+          de: "What is a Solidus?",
+          nl: "What is a Solidus?"
+        },
+        options: [
+          { en: "Byzantine gold coin", es: "Byzantine gold coin", de: "Byzantine gold coin", nl: "Byzantine gold coin" },
+          { en: "Roman silver coin", es: "Roman silver coin", de: "Roman silver coin", nl: "Roman silver coin" },
+          { en: "Medieval copper coin", es: "Medieval copper coin", de: "Medieval copper coin", nl: "Medieval copper coin" },
+          { en: "Greek coin", es: "Greek coin", de: "Greek coin", nl: "Greek coin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Solidus was a highly stable Byzantine gold coin introduced by Constantine I.",
+          es: "The Solidus was a highly stable Byzantine gold coin introduced by Constantine I.",
+          de: "The Solidus was a highly stable Byzantine gold coin introduced by Constantine I.",
+          nl: "The Solidus was a highly stable Byzantine gold coin introduced by Constantine I."
+        }      },
+      {
+        question: {
+          en: "What was Chinese cash coin?",
+          es: "What was Chinese cash coin?",
+          de: "What was Chinese cash coin?",
+          nl: "What was Chinese cash coin?"
+        },
+        options: [
+          { en: "Bronze coin with square hole", es: "Bronze coin with square hole", de: "Bronze coin with square hole", nl: "Bronze coin with square hole" },
+          { en: "Paper money", es: "Paper money", de: "Paper money", nl: "Paper money" },
+          { en: "Gold coin", es: "Gold coin", de: "Gold coin", nl: "Gold coin" },
+          { en: "Silver ingot", es: "Silver ingot", de: "Silver ingot", nl: "Silver ingot" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Chinese cash coins were bronze coins with distinctive square holes, used for over 2000 years.",
+          es: "Chinese cash coins were bronze coins with distinctive square holes, used for over 2000 years.",
+          de: "Chinese cash coins were bronze coins with distinctive square holes, used for over 2000 years.",
+          nl: "Chinese cash coins were bronze coins with distinctive square holes, used for over 2000 years."
+        }      },
+      {
+        question: {
+          en: "What is a Spanish Doubloon?",
+          es: "What is a Spanish Doubloon?",
+          de: "What is a Spanish Doubloon?",
+          nl: "What is a Spanish Doubloon?"
+        },
+        options: [
+          { en: "Gold coin from Spanish Empire", es: "Gold coin from Spanish Empire", de: "Gold coin from Spanish Empire", nl: "Gold coin from Spanish Empire" },
+          { en: "Silver coin", es: "Silver coin", de: "Silver coin", nl: "Silver coin" },
+          { en: "Copper coin", es: "Copper coin", de: "Copper coin", nl: "Copper coin" },
+          { en: "Trade token", es: "Trade token", de: "Trade token", nl: "Trade token" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Spanish Doubloons were gold coins minted by Spain and its colonies from 16th-19th centuries.",
+          es: "Spanish Doubloons were gold coins minted by Spain and its colonies from 16th-19th centuries.",
+          de: "Spanish Doubloons were gold coins minted by Spain and its colonies from 16th-19th centuries.",
+          nl: "Spanish Doubloons were gold coins minted by Spain and its colonies from 16th-19th centuries."
+        }      },
+      {
+        question: {
+          en: "What is Pieces of Eight?",
+          es: "What is Pieces of Eight?",
+          de: "What is Pieces of Eight?",
+          nl: "What is Pieces of Eight?"
+        },
+        options: [
+          { en: "Spanish silver dollar coin", es: "Spanish silver dollar coin", de: "Spanish silver dollar coin", nl: "Spanish silver dollar coin" },
+          { en: "Eight small coins", es: "Eight small coins", de: "Eight small coins", nl: "Eight small coins" },
+          { en: "Gold pieces", es: "Gold pieces", de: "Gold pieces", nl: "Gold pieces" },
+          { en: "Copper coins", es: "Copper coins", de: "Copper coins", nl: "Copper coins" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pieces of Eight (Spanish dollar) was a silver coin that became international currency standard.",
+          es: "Pieces of Eight (Spanish dollar) was a silver coin that became international currency standard.",
+          de: "Pieces of Eight (Spanish dollar) was a silver coin that became international currency standard.",
+          nl: "Pieces of Eight (Spanish dollar) was a silver coin that became international currency standard."
+        }      },
+      {
+        question: {
+          en: "What was the Florin?",
+          es: "What was the Florin?",
+          de: "What was the Florin?",
+          nl: "What was the Florin?"
+        },
+        options: [
+          { en: "Medieval gold coin from Florence", es: "Medieval gold coin from Florence", de: "Medieval gold coin from Florence", nl: "Medieval gold coin from Florence" },
+          { en: "Dutch coin", es: "Dutch coin", de: "Dutch coin", nl: "Dutch coin" },
+          { en: "French coin", es: "French coin", de: "French coin", nl: "French coin" },
+          { en: "English coin", es: "English coin", de: "English coin", nl: "English coin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Florin originated in Florence, Italy in 1252 and became widely used in medieval Europe.",
+          es: "The Florin originated in Florence, Italy in 1252 and became widely used in medieval Europe.",
+          de: "The Florin originated in Florence, Italy in 1252 and became widely used in medieval Europe.",
+          nl: "The Florin originated in Florence, Italy in 1252 and became widely used in medieval Europe."
+        }      },
+      {
+        question: {
+          en: "What is a Ducat?",
+          es: "What is a Ducat?",
+          de: "What is a Ducat?",
+          nl: "What is a Ducat?"
+        },
+        options: [
+          { en: "European gold or silver coin", es: "European gold or silver coin", de: "European gold or silver coin", nl: "European gold or silver coin" },
+          { en: "Turkish coin", es: "Turkish coin", de: "Turkish coin", nl: "Turkish coin" },
+          { en: "Russian coin", es: "Russian coin", de: "Russian coin", nl: "Russian coin" },
+          { en: "Asian coin", es: "Asian coin", de: "Asian coin", nl: "Asian coin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ducats were gold or silver coins used throughout Europe from medieval to modern times.",
+          es: "Ducats were gold or silver coins used throughout Europe from medieval to modern times.",
+          de: "Ducats were gold or silver coins used throughout Europe from medieval to modern times.",
+          nl: "Ducats were gold or silver coins used throughout Europe from medieval to modern times."
+        }      },
+      {
+        question: {
+          en: "What was the Aureus?",
+          es: "What was the Aureus?",
+          de: "What was the Aureus?",
+          nl: "What was the Aureus?"
+        },
+        options: [
+          { en: "Roman gold coin", es: "Roman gold coin", de: "Roman gold coin", nl: "Roman gold coin" },
+          { en: "Silver coin", es: "Silver coin", de: "Silver coin", nl: "Silver coin" },
+          { en: "Bronze coin", es: "Bronze coin", de: "Bronze coin", nl: "Bronze coin" },
+          { en: "Copper coin", es: "Copper coin", de: "Copper coin", nl: "Copper coin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Aureus was the basic gold monetary unit of ancient Rome, valued at 25 Denarii.",
+          es: "The Aureus was the basic gold monetary unit of ancient Rome, valued at 25 Denarii.",
+          de: "The Aureus was the basic gold monetary unit of ancient Rome, valued at 25 Denarii.",
+          nl: "The Aureus was the basic gold monetary unit of ancient Rome, valued at 25 Denarii."
+        }      },
+      {
+        question: {
+          en: "What is a Guinea?",
+          es: "What is a Guinea?",
+          de: "What is a Guinea?",
+          nl: "What is a Guinea?"
+        },
+        options: [
+          { en: "British gold coin worth 21 shillings", es: "British gold coin worth 21 shillings", de: "British gold coin worth 21 shillings", nl: "British gold coin worth 21 shillings" },
+          { en: "African coin", es: "African coin", de: "African coin", nl: "African coin" },
+          { en: "Colonial coin", es: "Colonial coin", de: "Colonial coin", nl: "Colonial coin" },
+          { en: "Silver coin", es: "Silver coin", de: "Silver coin", nl: "Silver coin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Guinea was a British gold coin minted 1663-1814, worth one pound and one shilling.",
+          es: "The Guinea was a British gold coin minted 1663-1814, worth one pound and one shilling.",
+          de: "The Guinea was a British gold coin minted 1663-1814, worth one pound and one shilling.",
+          nl: "The Guinea was a British gold coin minted 1663-1814, worth one pound and one shilling."
+        }      },
+      {
+        question: {
+          en: "What was the Thaler?",
+          es: "What was the Thaler?",
+          de: "What was the Thaler?",
+          nl: "What was the Thaler?"
+        },
+        options: [
+          { en: "Large silver coin used in Europe", es: "Large silver coin used in Europe", de: "Large silver coin used in Europe", nl: "Large silver coin used in Europe" },
+          { en: "Gold coin", es: "Gold coin", de: "Gold coin", nl: "Gold coin" },
+          { en: "Copper coin", es: "Copper coin", de: "Copper coin", nl: "Copper coin" },
+          { en: "Trade token", es: "Trade token", de: "Trade token", nl: "Trade token" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Thaler was a large silver coin that gave its name to 'dollar' used from 15th-19th centuries.",
+          es: "The Thaler was a large silver coin that gave its name to 'dollar' used from 15th-19th centuries.",
+          de: "The Thaler was a large silver coin that gave its name to 'dollar' used from 15th-19th centuries.",
+          nl: "The Thaler was a large silver coin that gave its name to 'dollar' used from 15th-19th centuries."
+        }      },
+      {
+        question: {
+          en: "What is a Sestertius?",
+          es: "What is a Sestertius?",
+          de: "What is a Sestertius?",
+          nl: "What is a Sestertius?"
+        },
+        options: [
+          { en: "Roman bronze coin", es: "Roman bronze coin", de: "Roman bronze coin", nl: "Roman bronze coin" },
+          { en: "Greek silver coin", es: "Greek silver coin", de: "Greek silver coin", nl: "Greek silver coin" },
+          { en: "Gold coin", es: "Gold coin", de: "Gold coin", nl: "Gold coin" },
+          { en: "Medieval coin", es: "Medieval coin", de: "Medieval coin", nl: "Medieval coin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Sestertius was a Roman bronze coin, one of the most common coins in ancient Rome.",
+          es: "The Sestertius was a Roman bronze coin, one of the most common coins in ancient Rome.",
+          de: "The Sestertius was a Roman bronze coin, one of the most common coins in ancient Rome.",
+          nl: "The Sestertius was a Roman bronze coin, one of the most common coins in ancient Rome."
+        }      },
+      {
+        question: {
+          en: "What was the Stater?",
+          es: "What was the Stater?",
+          de: "What was the Stater?",
+          nl: "What was the Stater?"
+        },
+        options: [
+          { en: "Ancient Greek gold or silver coin", es: "Ancient Greek gold or silver coin", de: "Ancient Greek gold or silver coin", nl: "Ancient Greek gold or silver coin" },
+          { en: "Roman coin", es: "Roman coin", de: "Roman coin", nl: "Roman coin" },
+          { en: "Persian coin", es: "Persian coin", de: "Persian coin", nl: "Persian coin" },
+          { en: "Egyptian coin", es: "Egyptian coin", de: "Egyptian coin", nl: "Egyptian coin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Stater was an ancient Greek coin made of precious metal, varying by city-state.",
+          es: "The Stater was an ancient Greek coin made of precious metal, varying by city-state.",
+          de: "The Stater was an ancient Greek coin made of precious metal, varying by city-state.",
+          nl: "The Stater was an ancient Greek coin made of precious metal, varying by city-state."
+        }      },
+      {
+        question: {
+          en: "What is an Escudo?",
+          es: "What is an Escudo?",
+          de: "What is an Escudo?",
+          nl: "What is an Escudo?"
+        },
+        options: [
+          { en: "Spanish and Portuguese gold coin", es: "Spanish and Portuguese gold coin", de: "Spanish and Portuguese gold coin", nl: "Spanish and Portuguese gold coin" },
+          { en: "Silver coin", es: "Silver coin", de: "Silver coin", nl: "Silver coin" },
+          { en: "Copper coin", es: "Copper coin", de: "Copper coin", nl: "Copper coin" },
+          { en: "Colonial token", es: "Colonial token", de: "Colonial token", nl: "Colonial token" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Escudo was a gold coin used in Spain and Portugal from 16th-19th centuries.",
+          es: "The Escudo was a gold coin used in Spain and Portugal from 16th-19th centuries.",
+          de: "The Escudo was a gold coin used in Spain and Portugal from 16th-19th centuries.",
+          nl: "The Escudo was a gold coin used in Spain and Portugal from 16th-19th centuries."
+        }      },
+      {
+        question: {
+          en: "What was the Sovereign?",
+          es: "What was the Sovereign?",
+          de: "What was the Sovereign?",
+          nl: "What was the Sovereign?"
+        },
+        options: [
+          { en: "British gold coin", es: "British gold coin", de: "British gold coin", nl: "British gold coin" },
+          { en: "Silver coin", es: "Silver coin", de: "Silver coin", nl: "Silver coin" },
+          { en: "Royal token", es: "Royal token", de: "Royal token", nl: "Royal token" },
+          { en: "Bronze coin", es: "Bronze coin", de: "Bronze coin", nl: "Bronze coin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Sovereign is a British gold coin first minted in 1489, still produced today.",
+          es: "The Sovereign is a British gold coin first minted in 1489, still produced today.",
+          de: "The Sovereign is a British gold coin first minted in 1489, still produced today.",
+          nl: "The Sovereign is a British gold coin first minted in 1489, still produced today."
+        }      },
+      {
+        question: {
+          en: "What is a Talent?",
+          es: "What is a Talent?",
+          de: "What is a Talent?",
+          nl: "What is a Talent?"
+        },
+        options: [
+          { en: "Ancient unit of weight and money", es: "Ancient unit of weight and money", de: "Ancient unit of weight and money", nl: "Ancient unit of weight and money" },
+          { en: "Coin type", es: "Coin type", de: "Coin type", nl: "Coin type" },
+          { en: "Gold bar", es: "Gold bar", de: "Gold bar", nl: "Gold bar" },
+          { en: "Trade good", es: "Trade good", de: "Trade good", nl: "Trade good" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A Talent was an ancient unit of mass used as money in Greece, Rome, and Middle East.",
+          es: "A Talent was an ancient unit of mass used as money in Greece, Rome, and Middle East.",
+          de: "A Talent was an ancient unit of mass used as money in Greece, Rome, and Middle East.",
+          nl: "A Talent was an ancient unit of mass used as money in Greece, Rome, and Middle East."
+        }      },
+      {
+        question: {
+          en: "What was the Noble?",
+          es: "What was the Noble?",
+          de: "What was the Noble?",
+          nl: "What was the Noble?"
+        },
+        options: [
+          { en: "English gold coin", es: "English gold coin", de: "English gold coin", nl: "English gold coin" },
+          { en: "French coin", es: "French coin", de: "French coin", nl: "French coin" },
+          { en: "Silver coin", es: "Silver coin", de: "Silver coin", nl: "Silver coin" },
+          { en: "Bronze coin", es: "Bronze coin", de: "Bronze coin", nl: "Bronze coin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Noble was an English gold coin first minted in 1344 under Edward III.",
+          es: "The Noble was an English gold coin first minted in 1344 under Edward III.",
+          de: "The Noble was an English gold coin first minted in 1344 under Edward III.",
+          nl: "The Noble was an English gold coin first minted in 1344 under Edward III."
+        }      },
+      {
+        question: {
+          en: "What is a Dinar?",
+          es: "What is a Dinar?",
+          de: "What is a Dinar?",
+          nl: "What is a Dinar?"
+        },
+        options: [
+          { en: "Gold coin used in Islamic empires", es: "Gold coin used in Islamic empires", de: "Gold coin used in Islamic empires", nl: "Gold coin used in Islamic empires" },
+          { en: "Silver coin", es: "Silver coin", de: "Silver coin", nl: "Silver coin" },
+          { en: "Bronze coin", es: "Bronze coin", de: "Bronze coin", nl: "Bronze coin" },
+          { en: "Modern currency only", es: "Modern currency only", de: "Modern currency only", nl: "Modern currency only" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Dinar was a gold coin used throughout Islamic empires, still used as currency name today.",
+          es: "The Dinar was a gold coin used throughout Islamic empires, still used as currency name today.",
+          de: "The Dinar was a gold coin used throughout Islamic empires, still used as currency name today.",
+          nl: "The Dinar was a gold coin used throughout Islamic empires, still used as currency name today."
+        }      },
+      {
+        question: {
+          en: "What was the Sesterze?",
+          es: "What was the Sesterze?",
+          de: "What was the Sesterze?",
+          nl: "What was the Sesterze?"
+        },
+        options: [
+          { en: "Roman brass coin", es: "Roman brass coin", de: "Roman brass coin", nl: "Roman brass coin" },
+          { en: "Greek silver coin", es: "Greek silver coin", de: "Greek silver coin", nl: "Greek silver coin" },
+          { en: "Gold coin", es: "Gold coin", de: "Gold coin", nl: "Gold coin" },
+          { en: "Medieval coin", es: "Medieval coin", de: "Medieval coin", nl: "Medieval coin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Sesterze (Sestertius) was a Roman brass or bronze coin used for daily transactions.",
+          es: "The Sesterze (Sestertius) was a Roman brass or bronze coin used for daily transactions.",
+          de: "The Sesterze (Sestertius) was a Roman brass or bronze coin used for daily transactions.",
+          nl: "The Sesterze (Sestertius) was a Roman brass or bronze coin used for daily transactions."
         }
       }
     ]

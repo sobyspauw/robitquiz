@@ -367,27 +367,6 @@
       },
       {
         question: {
-          en: "What is 'kamado' style cooking and what makes it unique?",
-          es: "¿Qué es la cocción estilo 'kamado' y qué la hace única?",
-          de: "Was ist 'Kamado'-Style Kochen und was macht es einzigartig?",
-          nl: "Wat is 'kamado' stijl koken en wat maakt het uniek?"
-        },
-        options: [
-          { en: "Ceramic egg-shaped cooker with excellent heat retention and airflow control", es: "Cocinero de cerámica en forma de huevo con excelente retención de calor y control de flujo de aire", de: "Keramischer eiförmiger Kocher mit ausgezeichneter Wärmespeicherung und Luftstromkontrolle", nl: "Keramische eivormige kooktoestel met uitstekende warmte retentie en luchtstroom controle" },
-          { en: "Japanese grilling over open flames", es: "Asado japonés sobre llamas abiertas", de: "Japanisches Grillen über offenen Flammen", nl: "Japans grillen boven open vlammen" },
-          { en: "Using only bamboo charcoal", es: "Usar solo carbón de bambú", de: "Nur Bambuskohle verwenden", nl: "Alleen bamboe houtskool gebruiken" },
-          { en: "Smoking with sake-soaked wood", es: "Ahumar con madera empapada en sake", de: "Räuchern mit Sake-getränktem Holz", nl: "Roken met sake-doordrenkt hout" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Kamado grills are ceramic, egg-shaped cookers that originated in Japan. Their thick ceramic walls provide exceptional heat retention, even temperature distribution, and precise airflow control for both high-heat grilling and low-and-slow smoking.",
-          es: "Las parrillas kamado son cocedores de cerámica en forma de huevo que se originaron en Japón. Sus gruesas paredes de cerámica proporcionan retención de calor excepcional, distribución uniforme de temperatura y control preciso del flujo de aire para asado a alta temperatura y ahumado lento.",
-          de: "Kamado-Grills sind keramische, eiförmige Kocher, die aus Japan stammen. Ihre dicken Keramikwände bieten außergewöhnliche Wärmespeicherung, gleichmäßige Temperaturverteilung und präzise Luftstromkontrolle für sowohl Hochtemperatur-Grillen als auch Low-and-Slow-Räuchern.",
-          nl: "Kamado grills zijn keramische, eivormige kooktoestellen die uit Japan komen. Hun dikke keramische wanden bieden uitzonderlijke warmte retentie, gelijkmatige temperatuurverdeling en precieze luchtstroom controle voor zowel hoge temperatuur grillen als laag-en-langzaam roken."
-        }
-      },
-      {
-        question: {
           en: "What does 'money muscle' refer to in competition pulled pork?",
           es: "¿A qué se refiere 'money muscle' en pulled pork de competencia?",
           de: "Worauf bezieht sich 'Money Muscle' in Competition Pulled Pork?",
@@ -426,6 +405,447 @@
           es: "Untar carne con capa delgada de mostaza, aceite u otro aglutinante antes de aplicar dry rub ayuda a que el condimento se adhiera mejor a la superficie de la carne. El aglutinante se cocina completamente, no deja sabor, pero asegura cobertura uniforme de rub y mejor desarrollo de bark.",
           de: "Das Bestreichen von Fleisch mit dünner Schicht Senf, Öl oder anderem Bindemittel vor Auftragen von Dry Rub hilft der Würzung besser an der Fleischoberfläche zu haften. Das Bindemittel kocht vollständig ab, hinterlässt keinen Geschmack, sichert aber gleichmäßige Rub-Abdeckung und bessere Bark-Entwicklung.",
           nl: "Het smeren van vlees met dunne laag mosterd, olie of ander bindmiddel voor het aanbrengen van dry rub helpt de kruiding beter aan het vlees oppervlak te hechten. Het bindmiddel kookt volledig weg, laat geen smaak achter, maar verzekert gelijke rub dekking en betere bark ontwikkeling."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'reverse flow' smoker design?",
+          es: "¿Qué es un diseño de ahumador 'reverse flow'?",
+          de: "Was ist ein 'Reverse Flow' Smoker-Design?",
+          nl: "Wat is een 'reverse flow' smoker ontwerp?"
+        },
+        options: [
+          { en: "Smoke/heat travels under baffle plate before rising through cooking chamber", es: "Humo/calor viaja bajo placa deflectora antes de subir por cámara de cocción", de: "Rauch/Hitze fließt unter Prallplatte bevor es durch Garkammer aufsteigt", nl: "Rook/hitte reist onder afschotplaat voor het opstijgen door kookkamer" },
+          { en: "Smoke flows backwards from exhaust to firebox", es: "Humo fluye hacia atrás desde escape a caja de fuego", de: "Rauch fließt rückwärts von Abzug zu Feuerkiste", nl: "Rook stroomt achterwaarts van uitlaat naar vuurkist" },
+          { en: "Meat rotates in opposite direction", es: "Carne gira en dirección opuesta", de: "Fleisch rotiert in entgegengesetzter Richtung", nl: "Vlees roteert in tegengestelde richting" },
+          { en: "Uses electric fan to reverse air flow", es: "Usa ventilador eléctrico para invertir flujo de aire", de: "Verwendet elektrischen Ventilator um Luftstrom umzukehren", nl: "Gebruikt elektrische ventilator om luchtstroom om te keren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A reverse flow smoker has a baffle plate that forces heat and smoke to travel the full length of the cooking chamber underneath before rising up and over the meat. This creates more even heat distribution than traditional offset smokers.",
+          es: "Un ahumador reverse flow tiene una placa deflectora que fuerza calor y humo a viajar toda la longitud de la cámara de cocción por debajo antes de subir y sobre la carne. Esto crea distribución de calor más uniforme que ahumadores offset tradicionales.",
+          de: "Ein Reverse Flow Smoker hat eine Prallplatte die Hitze und Rauch zwingt die volle Länge der Garkammer unten zu durchlaufen bevor es aufsteigt und über das Fleisch geht. Dies schafft gleichmäßigere Hitzeverteilung als traditionelle Offset-Smoker.",
+          nl: "Een reverse flow smoker heeft een afschotplaat die hitte en rook dwingt de volledige lengte van de kookkamer eronder te reizen voor het opstijgt en over het vlees gaat. Dit creëert gelijkmatigere hitteverdeling dan traditionele offset smokers."
+        }
+      },
+      {
+        question: {
+          en: "What is 'deckle' on a brisket?",
+          es: "¿Qué es 'deckle' en un brisket?",
+          de: "Was ist 'Deckle' bei einem Brisket?",
+          nl: "Wat is 'deckle' op een brisket?"
+        },
+        options: [
+          { en: "Another name for the point muscle, fattier portion", es: "Otro nombre para músculo point, porción más grasa", de: "Anderer Name für Point-Muskel, fetterer Teil", nl: "Andere naam voor point spier, vettere gedeelte" },
+          { en: "The connective tissue between point and flat", es: "El tejido conectivo entre point y flat", de: "Das Bindegewebe zwischen Point und Flat", nl: "Het bindweefsel tussen point en flat" },
+          { en: "The fat cap on top of brisket", es: "La capa de grasa encima del brisket", de: "Die Fettkappe oben auf Brisket", nl: "De vetlaag bovenop brisket" },
+          { en: "The silver skin on brisket", es: "La piel plateada en brisket", de: "Die Silberhaut auf Brisket", nl: "Het zilvervlies op brisket" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The deckle is another term for the point muscle of the brisket - the thicker, fattier portion that sits on top of the flat. It's often separated to make burnt ends.",
+          es: "El deckle es otro término para el músculo point del brisket - la porción más gruesa y grasa que se sienta encima del flat. A menudo se separa para hacer burnt ends.",
+          de: "Der Deckle ist ein anderer Begriff für den Point-Muskel des Briskets - der dickere, fettere Teil der oben auf dem Flat sitzt. Er wird oft getrennt um Burnt Ends zu machen.",
+          nl: "De deckle is een andere term voor de point spier van de brisket - het dikkere, vettere gedeelte dat bovenop de flat zit. Het wordt vaak gescheiden om burnt ends te maken."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'smoker tube' used for?",
+          es: "¿Para qué se usa un 'tubo de ahumado'?",
+          de: "Wofür wird ein 'Räucher-Rohr' verwendet?",
+          nl: "Waarvoor wordt een 'rook tube' gebruikt?"
+        },
+        options: [
+          { en: "Adding wood pellets to gas/electric grills for smoke flavor", es: "Añadir pellets de madera a parrillas gas/eléctricas para sabor a humo", de: "Holzpellets zu Gas-/Elektrogrills hinzufügen für Rauchgeschmack", nl: "Hout pellets toevoegen aan gas/elektrische grills voor rooksmaak" },
+          { en: "Venting excess smoke from smoker", es: "Ventilar humo excesivo del ahumador", de: "Überschüssigen Rauch aus Smoker lüften", nl: "Overtollige rook uit smoker ventileren" },
+          { en: "Measuring smoke density", es: "Medir densidad de humo", de: "Rauchdichte messen", nl: "Rookdichtheid meten" },
+          { en: "Injecting liquid smoke into meat", es: "Inyectar humo líquido en carne", de: "Flüssigen Rauch in Fleisch injizieren", nl: "Vloeibare rook in vlees injecteren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A smoker tube is a perforated metal tube filled with wood pellets that smolders to produce smoke. It's used to add authentic wood smoke flavor to gas or electric grills that don't naturally produce smoke.",
+          es: "Un tubo de ahumado es un tubo metálico perforado lleno de pellets de madera que arde lentamente para producir humo. Se usa para añadir sabor auténtico de humo de madera a parrillas de gas o eléctricas que no producen humo naturalmente.",
+          de: "Ein Räucher-Rohr ist ein perforiertes Metallrohr gefüllt mit Holzpellets die glimmen um Rauch zu produzieren. Es wird verwendet um authentischen Holzrauchgeschmack zu Gas- oder Elektrogrills hinzuzufügen die natürlich keinen Rauch produzieren.",
+          nl: "Een rook tube is een geperforeerde metalen buis gevuld met hout pellets die smeulen om rook te produceren. Het wordt gebruikt om authentieke houtrooksmaak toe te voegen aan gas of elektrische grills die natuurlijk geen rook produceren."
+        }
+      },
+      {
+        question: {
+          en: "What does 'KCBS' stand for in competitive BBQ?",
+          es: "¿Qué significa 'KCBS' en BBQ competitivo?",
+          de: "Wofür steht 'KCBS' im Wettkampf-BBQ?",
+          nl: "Wat betekent 'KCBS' in competitief BBQ?"
+        },
+        options: [
+          { en: "Kansas City Barbeque Society", es: "Kansas City Barbeque Society", de: "Kansas City Barbeque Society", nl: "Kansas City Barbeque Society" },
+          { en: "Korean Char Broil System", es: "Korean Char Broil System", de: "Korean Char Broil System", nl: "Korean Char Broil System" },
+          { en: "Kamado Cooking and BBQ Standards", es: "Kamado Cooking and BBQ Standards", de: "Kamado Cooking and BBQ Standards", nl: "Kamado Cooking and BBQ Standards" },
+          { en: "Kentucky Championship BBQ Series", es: "Kentucky Championship BBQ Series", de: "Kentucky Championship BBQ Series", nl: "Kentucky Championship BBQ Series" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "KCBS stands for Kansas City Barbeque Society, the world's largest organization of BBQ enthusiasts. It sanctions competitions worldwide and sets standards for judging chicken, ribs, pork, and brisket.",
+          es: "KCBS significa Kansas City Barbeque Society, la organización más grande del mundo de entusiastas del BBQ. Sanciona competencias mundialmente y establece estándares para juzgar pollo, costillas, cerdo y brisket.",
+          de: "KCBS steht für Kansas City Barbeque Society, die weltgrößte Organisation von BBQ-Enthusiasten. Sie sanktioniert Wettbewerbe weltweit und setzt Standards für die Beurteilung von Hähnchen, Rippen, Schwein und Brisket.",
+          nl: "KCBS staat voor Kansas City Barbeque Society, de grootste organisatie ter wereld van BBQ enthousiastelingen. Het sanctioneert competities wereldwijd en stelt normen voor het beoordelen van kip, ribben, varkensvlees en brisket."
+        }
+      },
+      {
+        question: {
+          en: "What is 'umami bomb' seasoning in BBQ context?",
+          es: "¿Qué es el condimento 'umami bomb' en contexto BBQ?",
+          de: "Was ist 'Umami Bomb' Würzung im BBQ-Kontext?",
+          nl: "Wat is 'umami bomb' kruiding in BBQ context?"
+        },
+        options: [
+          { en: "Rub with MSG, mushroom powder, soy sauce for savory depth", es: "Rub con MSG, polvo de hongos, salsa de soja para profundidad sabrosa", de: "Rub mit MSG, Pilzpulver, Sojasauce für herzhafte Tiefe", nl: "Rub met MSG, champignon poeder, sojasaus voor hartige diepte" },
+          { en: "Extremely spicy rub mixture", es: "Mezcla de rub extremadamente picante", de: "Extrem scharfe Rub-Mischung", nl: "Extreem pittige rub mengsel" },
+          { en: "Sweet and sour sauce blend", es: "Mezcla de salsa agridulce", de: "Süß-saure Sauce-Mischung", nl: "Zoetzure saus mengsel" },
+          { en: "High-salt brine solution", es: "Solución de salmuera alta en sal", de: "Hoch-Salz-Salzlake-Lösung", nl: "Hoog-zout pekel oplossing" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "An 'umami bomb' rub uses ingredients high in glutamates like MSG, mushroom powder, soy sauce, or anchovy paste to create intense savory depth. Umami enhances the meaty, satisfying flavor of barbecued meat.",
+          es: "Un rub 'umami bomb' usa ingredientes altos en glutamatos como MSG, polvo de hongos, salsa de soja o pasta de anchoa para crear profundidad sabrosa intensa. Umami realza el sabor carnoso y satisfactorio de carne asada.",
+          de: "Ein 'Umami Bomb' Rub verwendet Zutaten mit hohem Glutamatgehalt wie MSG, Pilzpulver, Sojasauce oder Anchovi-Paste um intensive herzhafte Tiefe zu schaffen. Umami verstärkt den fleischigen, befriedigenden Geschmack von gegrilltem Fleisch.",
+          nl: "Een 'umami bomb' rub gebruikt ingrediënten hoog in glutamaten zoals MSG, champignon poeder, sojasaus of ansjovis pasta om intense hartige diepte te creëren. Umami versterkt de vleesachtige, bevredigende smaak van gegrild vlees."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'deflector plate' or 'heat shield'?",
+          es: "¿Qué es una 'placa deflectora' o 'escudo de calor'?",
+          de: "Was ist eine 'Prallplatte' oder 'Hitzeschild'?",
+          nl: "Wat is een 'afschotplaat' of 'hitte schild'?"
+        },
+        options: [
+          { en: "Barrier between heat source and meat for indirect cooking", es: "Barrera entre fuente de calor y carne para cocción indirecta", de: "Barriere zwischen Hitzequelle und Fleisch für indirektes Garen", nl: "Barrière tussen hittebron en vlees voor indirect koken" },
+          { en: "Shield to protect from wind", es: "Escudo para proteger del viento", de: "Schild zum Schutz vor Wind", nl: "Schild om te beschermen tegen wind" },
+          { en: "Cover for storing smoker", es: "Cubierta para almacenar ahumador", de: "Abdeckung zum Lagern des Smokers", nl: "Deksel voor opslag van smoker" },
+          { en: "Reflective surface to intensify heat", es: "Superficie reflectante para intensificar calor", de: "Reflektierende Oberfläche um Hitze zu intensivieren", nl: "Reflecterend oppervlak om hitte te intensiveren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A deflector plate (or heat shield) is a metal or ceramic barrier placed between the heat source and cooking grate. It creates indirect heat by blocking direct flame/radiant heat, essential for low and slow smoking.",
+          es: "Una placa deflectora (o escudo de calor) es una barrera de metal o cerámica colocada entre fuente de calor y rejilla de cocción. Crea calor indirecto bloqueando llama directa/calor radiante, esencial para ahumado lento.",
+          de: "Eine Prallplatte (oder Hitzeschild) ist eine Metall- oder Keramik-Barriere zwischen Hitzequelle und Garrost platziert. Sie schafft indirekte Hitze durch Blockieren direkter Flamme/Strahlungswärme, wesentlich für Low and Slow Räuchern.",
+          nl: "Een afschotplaat (of hitte schild) is een metalen of keramische barrière geplaatst tussen hittebron en kookrooster. Het creëert indirecte hitte door directe vlam/stralende hitte te blokkeren, essentieel voor low and slow roken."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'rib membrane' and should it be removed?",
+          es: "¿Qué es una 'membrana de costilla' y debe ser removida?",
+          de: "Was ist eine 'Rippenmembran' und sollte sie entfernt werden?",
+          nl: "Wat is een 'rib membraan' en moet het verwijderd worden?"
+        },
+        options: [
+          { en: "Thin silver skin on bone side; yes, remove for better seasoning penetration", es: "Piel plateada delgada en lado del hueso; sí, remover para mejor penetración de condimento", de: "Dünne Silberhaut auf Knochenseite; ja, entfernen für bessere Würzdurchdringung", nl: "Dunne zilverhuid aan botkant; ja, verwijderen voor betere kruiding penetratie" },
+          { en: "Fat layer between ribs; no, it adds flavor", es: "Capa de grasa entre costillas; no, añade sabor", de: "Fettschicht zwischen Rippen; nein, fügt Geschmack hinzu", nl: "Vetlaag tussen ribben; nee, het voegt smaak toe" },
+          { en: "Connective tissue in meat; cook until dissolved", es: "Tejido conectivo en carne; cocinar hasta disolver", de: "Bindegewebe in Fleisch; kochen bis aufgelöst", nl: "Bindweefsel in vlees; koken tot opgelost" },
+          { en: "Protective layer; leave it on", es: "Capa protectora; dejarla puesta", de: "Schutzschicht; drauf lassen", nl: "Beschermende laag; erop laten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The membrane (peritoneum or pleura) is a thin, silver-white skin on the bone side of ribs. Most pitmasters remove it because it blocks seasoning penetration and becomes tough when cooked. Removal allows better flavor and more tender ribs.",
+          es: "La membrana (peritoneo o pleura) es una piel delgada plateada-blanca en el lado del hueso de las costillas. La mayoría de pitmasters la remueven porque bloquea penetración de condimento y se vuelve dura al cocinar. La remoción permite mejor sabor y costillas más tiernas.",
+          de: "Die Membran (Peritoneum oder Pleura) ist eine dünne, silber-weiße Haut auf der Knochenseite der Rippen. Die meisten Pitmasters entfernen sie weil sie Würzdurchdringung blockiert und beim Kochen zäh wird. Entfernung ermöglicht besseren Geschmack und zartere Rippen.",
+          nl: "Het membraan (peritoneum of pleura) is een dunne, zilver-witte huid aan de botkant van ribben. De meeste pitmasters verwijderen het omdat het kruiding penetratie blokkeert en taai wordt bij koken. Verwijdering maakt betere smaak en malse ribben mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What is 'tiger striping' on ribs?",
+          es: "¿Qué es 'tiger striping' en costillas?",
+          de: "Was ist 'Tiger Striping' bei Rippchen?",
+          nl: "Wat is 'tiger striping' op ribben?"
+        },
+        options: [
+          { en: "Alternating bands of bark and meat showing proper rendering", es: "Bandas alternas de corteza y carne mostrando rendering adecuado", de: "Abwechselnde Bänder von Bark und Fleisch zeigen richtiges Rendering", nl: "Afwisselende banden van bark en vlees tonen juiste rendering" },
+          { en: "Grill marks from direct heat", es: "Marcas de parrilla de calor directo", de: "Grillspuren von direkter Hitze", nl: "Grill markeringen van directe hitte" },
+          { en: "Uneven coloring from bad seasoning", es: "Coloración desigual de mal condimento", de: "Ungleichmäßige Färbung von schlechter Würzung", nl: "Ongelijke kleuring van slechte kruiding" },
+          { en: "Burnt edges on ribs", es: "Bordes quemados en costillas", de: "Verbrannte Ränder an Rippen", nl: "Verbrande randen op ribben" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tiger striping is the desirable pattern of dark bark and reddish meat showing between rib bones. It indicates proper fat rendering and smoke penetration, creating an appealing visual presentation on competition ribs.",
+          es: "Tiger striping es el patrón deseable de corteza oscura y carne rojiza mostrándose entre huesos de costilla. Indica rendering de grasa adecuado y penetración de humo, creando presentación visual atractiva en costillas de competencia.",
+          de: "Tiger Striping ist das wünschenswerte Muster von dunkler Bark und rötlichem Fleisch zwischen Rippenknochen. Es zeigt richtiges Fett-Rendering und Rauchpenetration an, was eine ansprechende visuelle Präsentation bei Wettkampf-Rippen schafft.",
+          nl: "Tiger striping is het gewenste patroon van donkere bark en roodachtig vlees tussen ribbenbotten. Het duidt op juiste vet rendering en rook penetratie, wat een aantrekkelijke visuele presentatie bij competitie ribben creëert."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'faux cambro' in BBQ?",
+          es: "¿Qué es un 'faux cambro' en BBQ?",
+          de: "Was ist ein 'Faux Cambro' beim BBQ?",
+          nl: "Wat is een 'faux cambro' bij BBQ?"
+        },
+        options: [
+          { en: "Insulated cooler used to rest/hold meat at temp", es: "Hielera aislada usada para reposar/mantener carne a temperatura", de: "Isolierte Kühlbox zum Ruhen/Warmhalten von Fleisch", nl: "Geïsoleerde koelbox gebruikt om vlees te rusten/warm te houden" },
+          { en: "Type of smoker fuel", es: "Tipo de combustible de ahumador", de: "Art von Smoker-Brennstoff", nl: "Type smoker brandstof" },
+          { en: "Fake smoke flavoring", es: "Saborizante de humo falso", de: "Falsches Raucharoma", nl: "Nep rook smaakmaker" },
+          { en: "Imitation BBQ sauce", es: "Salsa BBQ de imitación", de: "Nachahmungs-BBQ-Sauce", nl: "Imitatie BBQ saus" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A faux cambro is a cooler lined with towels used to hold finished meat at safe serving temperature during the resting period. It mimics expensive commercial Cambro hot boxes used in restaurants, keeping meat at 140-165°F for hours.",
+          es: "Un faux cambro es una hielera forrada con toallas usada para mantener carne terminada a temperatura segura de servir durante periodo de reposo. Imita cajas calientes Cambro comerciales caras usadas en restaurantes, manteniendo carne a 140-165°F por horas.",
+          de: "Ein Faux Cambro ist eine mit Handtüchern ausgelegte Kühlbox zum Halten von fertigem Fleisch bei sicherer Serviertemperatur während der Ruhezeit. Es ahmt teure kommerzielle Cambro-Warmhalteboxen aus Restaurants nach und hält Fleisch 140-165°F für Stunden.",
+          nl: "Een faux cambro is een koelbox bekleed met handdoeken gebruikt om afgewerkt vlees op veilige serveertemperatuur te houden tijdens rustperiode. Het bootst dure commerciële Cambro warmhoudboxen uit restaurants na, vlees op 140-165°F voor uren houdend."
+        }
+      },
+      {
+        question: {
+          en: "What is 'first crack' when smoking pork belly?",
+          es: "¿Qué es 'first crack' al ahumar panceta de cerdo?",
+          de: "Was ist 'First Crack' beim Räuchern von Schweinebauch?",
+          nl: "Wat is 'first crack' bij het roken van buikspek?"
+        },
+        options: [
+          { en: "When skin starts to bubble and crack during rendering", es: "Cuando piel empieza a burbujear y agrietarse durante rendering", de: "Wenn Haut während Rendering anfängt zu blasen und reißen", nl: "Wanneer huid begint te bubbelen en barsten tijdens rendering" },
+          { en: "Initial smoke application phase", es: "Fase inicial de aplicación de humo", de: "Anfängliche Rauch-Anwendungsphase", nl: "Initiële rook toepassingsfase" },
+          { en: "When meat reaches 145°F", es: "Cuando carne alcanza 145°F", de: "Wenn Fleisch 145°F erreicht", nl: "Wanneer vlees 145°F bereikt" },
+          { en: "First hour of cooking", es: "Primera hora de cocción", de: "Erste Stunde des Kochens", nl: "Eerste uur van koken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "First crack refers to the stage when pork belly skin begins to bubble and crack as fat renders out, similar to how coffee beans crack during roasting. It signals that crackling is forming properly.",
+          es: "First crack se refiere a la etapa cuando la piel de panceta de cerdo empieza a burbujear y agrietarse mientras se derrite grasa, similar a cómo granos de café se agrietan durante tostado. Señala que chicharrón se está formando correctamente.",
+          de: "First Crack bezieht sich auf die Phase wenn Schweinebauchhaut anfängt zu blasen und reißen während Fett ausgelassen wird, ähnlich wie Kaffeebohnen beim Rösten knacken. Es signalisiert dass Kruste sich richtig bildet.",
+          nl: "First crack verwijst naar de fase wanneer buikspek huid begint te bubbelen en barsten terwijl vet uitsmelt, vergelijkbaar met hoe koffiebonen kraken tijdens roosteren. Het signaleert dat crackling zich correct vormt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'injection marinade' used for?",
+          es: "¿Para qué se usa 'marinada de inyección'?",
+          de: "Wofür wird 'Injektions-Marinade' verwendet?",
+          nl: "Waarvoor wordt 'injectie marinade' gebruikt?"
+        },
+        options: [
+          { en: "Adding flavor/moisture deep inside large cuts before cooking", es: "Añadir sabor/humedad dentro de cortes grandes antes de cocinar", de: "Geschmack/Feuchtigkeit tief in große Stücke vor Kochen hinzufügen", nl: "Smaak/vocht diep in grote stukken toevoegen voor koken" },
+          { en: "External basting during cooking", es: "Rociar externamente durante cocción", de: "Äußeres Bestreichen während Kochen", nl: "Uitwendig begieten tijdens koken" },
+          { en: "Post-cook sauce application", es: "Aplicación de salsa post-cocción", de: "Sauce-Anwendung nach Kochen", nl: "Saus toepassing na koken" },
+          { en: "Dry rub application method", es: "Método de aplicación de dry rub", de: "Dry-Rub-Anwendungsmethode", nl: "Dry rub toepassing methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Injection marinades use a large needle syringe to inject flavored liquid deep into meat (especially thick cuts like brisket, pork butt, turkey). This adds moisture and flavor from the inside out, enhancing juiciness.",
+          es: "Las marinadas de inyección usan jeringa de aguja grande para inyectar líquido saborizado profundo en carne (especialmente cortes gruesos como brisket, pork butt, pavo). Esto añade humedad y sabor desde adentro hacia afuera, mejorando jugosidad.",
+          de: "Injektions-Marinaden verwenden eine große Nadelspritze um aromatisierte Flüssigkeit tief in Fleisch zu injizieren (besonders dicke Stücke wie Brisket, Schweinerücken, Truthahn). Dies fügt Feuchtigkeit und Geschmack von innen nach außen hinzu und verbessert Saftigkeit.",
+          nl: "Injectie marinades gebruiken een grote naaldspuit om gearomatiseerde vloeistof diep in vlees te injecteren (vooral dikke stukken zoals brisket, pork butt, kalkoen). Dit voegt vocht en smaak van binnenuit toe, wat sappigheid verbetert."
+        }
+      },
+      {
+        question: {
+          en: "What does 'clean smoke' vs 'dirty smoke' mean?",
+          es: "¿Qué significa 'humo limpio' vs 'humo sucio'?",
+          de: "Was bedeutet 'sauberer Rauch' vs 'schmutziger Rauch'?",
+          nl: "Wat betekent 'schone rook' vs 'vuile rook'?"
+        },
+        options: [
+          { en: "Clean: thin blue smoke from complete combustion; dirty: thick white/black from incomplete burning", es: "Limpio: humo azul delgado de combustión completa; sucio: blanco/negro grueso de quemado incompleto", de: "Sauber: dünner blauer Rauch von vollständiger Verbrennung; schmutzig: dicker weißer/schwarzer von unvollständigem Brennen", nl: "Schoon: dunne blauwe rook van volledige verbranding; vuil: dikke witte/zwarte van onvolledige verbranding" },
+          { en: "Clean: filtered smoke; dirty: unfiltered", es: "Limpio: humo filtrado; sucio: sin filtrar", de: "Sauber: gefilterter Rauch; schmutzig: ungefiltert", nl: "Schoon: gefilterde rook; vuil: ongefilterd" },
+          { en: "Clean: from hardwood; dirty: from softwood", es: "Limpio: de madera dura; sucio: de madera blanda", de: "Sauber: von Hartholz; schmutzig: von Weichholz", nl: "Schoon: van hardhout; vuil: van zachthout" },
+          { en: "Clean: low temperature smoke; dirty: high temperature", es: "Limpio: humo de baja temperatura; sucio: alta temperatura", de: "Sauber: Niedrigtemperatur-Rauch; schmutzig: Hochtemperatur", nl: "Schoon: lage temperatuur rook; vuil: hoge temperatuur" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Clean smoke is thin and blue/barely visible, indicating complete wood combustion producing desirable flavor compounds. Dirty smoke is thick and white/black from incomplete combustion, creating acrid, bitter flavors and sooty deposits.",
+          es: "Humo limpio es delgado y azul/apenas visible, indicando combustión completa de madera produciendo compuestos de sabor deseables. Humo sucio es grueso y blanco/negro de combustión incompleta, creando sabores acres y amargos y depósitos de hollín.",
+          de: "Sauberer Rauch ist dünn und blau/kaum sichtbar, was vollständige Holzverbrennung anzeigt die wünschenswerte Geschmacksverbindungen produziert. Schmutziger Rauch ist dick und weiß/schwarz von unvollständiger Verbrennung, was scharfe, bittere Aromen und rußige Ablagerungen erzeugt.",
+          nl: "Schone rook is dun en blauw/nauwelijks zichtbaar, wat volledige houtverbranding aanduidt die gewenste smaakverbindingen produceert. Vuile rook is dik en wit/zwart van onvolledige verbranding, wat scherpe, bittere smaken en roetige afzettingen creëert."
+        }
+      },
+      {
+        question: {
+          en: "What is 'Santa Maria tri-tip' seasoning traditionally?",
+          es: "¿Qué es tradicionalmente el condimento 'Santa Maria tri-tip'?",
+          de: "Was ist traditionell 'Santa Maria Tri-Tip' Würzung?",
+          nl: "Wat is traditioneel 'Santa Maria tri-tip' kruiding?"
+        },
+        options: [
+          { en: "Simple: salt, black pepper, garlic powder", es: "Simple: sal, pimienta negra, ajo en polvo", de: "Einfach: Salz, schwarzer Pfeffer, Knoblauchpulver", nl: "Eenvoudig: zout, zwarte peper, knoflookpoeder" },
+          { en: "Complex 12-spice blend with paprika", es: "Mezcla compleja de 12 especias con pimentón", de: "Komplexe 12-Gewürz-Mischung mit Paprika", nl: "Complex 12-kruiden mengsel met paprika" },
+          { en: "Mustard-based wet rub", es: "Rub húmedo a base de mostaza", de: "Senf-basierte nasse Rub", nl: "Mosterd-gebaseerde natte rub" },
+          { en: "Brown sugar and cayenne", es: "Azúcar morena y cayena", de: "Brauner Zucker und Cayenne", nl: "Bruine suiker en cayenne" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Traditional Santa Maria style tri-tip uses a very simple seasoning of just coarse salt, black pepper, and garlic powder. This minimal approach lets the quality beef flavor and red oak smoke shine through.",
+          es: "El tri-tip tradicional estilo Santa Maria usa un condimento muy simple de solo sal gruesa, pimienta negra y ajo en polvo. Este enfoque mínimo permite que brille el sabor de res de calidad y humo de roble rojo.",
+          de: "Traditionelles Santa Maria Style Tri-Tip verwendet eine sehr einfache Würzung aus nur grobem Salz, schwarzem Pfeffer und Knoblauchpulver. Dieser minimale Ansatz lässt den Qualitäts-Rindfleischgeschmack und roten Eichenrauch durchscheinen.",
+          nl: "Traditionele Santa Maria stijl tri-tip gebruikt een zeer eenvoudige kruiding van alleen grof zout, zwarte peper en knoflookpoeder. Deze minimalistische aanpak laat de kwaliteit rundvleessmaak en rode eiken rook doorschijnen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'lollipopping' ribs?",
+          es: "¿Qué es 'lollipopping' de costillas?",
+          de: "Was ist 'Lollipopping' von Rippchen?",
+          nl: "Wat is 'lollipopping' van ribben?"
+        },
+        options: [
+          { en: "Cutting between bones, cleaning meat down for presentation", es: "Cortar entre huesos, limpiar carne hacia abajo para presentación", de: "Zwischen Knochen schneiden, Fleisch nach unten reinigen für Präsentation", nl: "Snijden tussen botten, vlees naar beneden schoonmaken voor presentatie" },
+          { en: "Glazing ribs with sweet sauce", es: "Glasear costillas con salsa dulce", de: "Rippen mit süßer Sauce glasieren", nl: "Ribben glazuren met zoete saus" },
+          { en: "Removing membrane from ribs", es: "Remover membrana de costillas", de: "Membran von Rippen entfernen", nl: "Membraan van ribben verwijderen" },
+          { en: "Wrapping individual rib bones", es: "Envolver huesos de costilla individuales", de: "Einzelne Rippenknochen einwickeln", nl: "Individuele ribbenbotten inwikkelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Lollipopping is a presentation technique where you cut between rib bones and scrape the meat down the bone, creating a 'lollipop' appearance. It's popular for lamb chops and sometimes done with beef ribs for elegant plating.",
+          es: "Lollipopping es una técnica de presentación donde cortas entre huesos de costilla y raspas la carne hacia abajo del hueso, creando apariencia de 'piruleta'. Es popular para chuletas de cordero y a veces se hace con costillas de res para plateo elegante.",
+          de: "Lollipopping ist eine Präsentationstechnik wo man zwischen Rippenknochen schneidet und Fleisch den Knochen runter schabt, was 'Lutscher'-Aussehen schafft. Es ist beliebt für Lammkoteletts und manchmal mit Rinderrippen für elegantes Anrichten.",
+          nl: "Lollipopping is een presentatie techniek waar je tussen ribbenbotten snijdt en vlees het bot af schaaft, wat een 'lolly' uiterlijk creëert. Het is populair voor lamskoteletten en soms gedaan met rundvlees ribben voor elegante opmaak."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'smoke daddy' or 'smoke generator'?",
+          es: "¿Qué es un 'smoke daddy' o 'generador de humo'?",
+          de: "Was ist ein 'Smoke Daddy' oder 'Rauchgenerator'?",
+          nl: "Wat is een 'smoke daddy' of 'rook generator'?"
+        },
+        options: [
+          { en: "External device that produces cold smoke for smoking", es: "Dispositivo externo que produce humo frío para ahumar", de: "Externes Gerät das kalten Rauch zum Räuchern produziert", nl: "Extern apparaat dat koude rook produceert voor roken" },
+          { en: "Brand of smoker fuel", es: "Marca de combustible de ahumador", de: "Marke von Smoker-Brennstoff", nl: "Merk van smoker brandstof" },
+          { en: "BBQ competition judge", es: "Juez de competencia BBQ", de: "BBQ-Wettkampf-Richter", nl: "BBQ competitie rechter" },
+          { en: "Type of smoke wood", es: "Tipo de madera para humo", de: "Art von Rauchholz", nl: "Type rook hout" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A smoke generator (Smoke Daddy is a popular brand) is an external device that burns wood chips/pellets to produce cold smoke. It can be attached to any grill or smoker to add smoke flavor without adding heat, useful for cheese, fish, nuts.",
+          es: "Un generador de humo (Smoke Daddy es marca popular) es dispositivo externo que quema astillas/pellets de madera para producir humo frío. Puede ser adjuntado a cualquier parrilla o ahumador para añadir sabor a humo sin añadir calor, útil para queso, pescado, nueces.",
+          de: "Ein Rauchgenerator (Smoke Daddy ist populäre Marke) ist externes Gerät das Holzspäne/Pellets verbrennt um kalten Rauch zu produzieren. Es kann an jeden Grill oder Smoker angeschlossen werden um Rauchgeschmack ohne Hitze hinzuzufügen, nützlich für Käse, Fisch, Nüsse.",
+          nl: "Een rook generator (Smoke Daddy is populair merk) is extern apparaat dat houtsnippers/pellets verbrandt om koude rook te produceren. Het kan aan elke grill of smoker worden bevestigd om rooksmaak toe te voegen zonder hitte, nuttig voor kaas, vis, noten."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'rib boat' or 'rib cradle'?",
+          es: "¿Qué es un 'rib boat' o 'rib cradle'?",
+          de: "Was ist ein 'Rib Boat' oder 'Rib Cradle'?",
+          nl: "Wat is een 'rib boat' of 'rib cradle'?"
+        },
+        options: [
+          { en: "Rack that holds ribs vertically during cooking", es: "Rejilla que sostiene costillas verticalmente durante cocción", de: "Gestell das Rippen vertikal während Kochen hält", nl: "Rek dat ribben verticaal houdt tijdens koken" },
+          { en: "Aluminum foil boat for collecting drippings", es: "Bote de papel aluminio para recoger goteos", de: "Alufolien-Boot zum Sammeln von Tropfen", nl: "Aluminium folie boot voor opvangen druppels" },
+          { en: "Storage container for raw ribs", es: "Contenedor de almacenamiento para costillas crudas", de: "Lagerbehälter für rohe Rippen", nl: "Opslag container voor rauwe ribben" },
+          { en: "Serving platter for ribs", es: "Plato para servir costillas", de: "Servierplatte für Rippen", nl: "Serveerplaat voor ribben" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A rib boat or rib cradle is a metal rack designed to hold multiple racks of ribs vertically in the smoker, saving space and allowing smoke to circulate around all surfaces. Similar to a rib rack but boat-shaped.",
+          es: "Un rib boat o rib cradle es una rejilla metálica diseñada para sostener múltiples parrillas de costillas verticalmente en el ahumador, ahorrando espacio y permitiendo que humo circule alrededor de todas las superficies. Similar a rib rack pero en forma de bote.",
+          de: "Ein Rib Boat oder Rib Cradle ist ein Metallgestell zum vertikalen Halten mehrerer Rippenracks im Smoker, was Platz spart und Rauch um alle Oberflächen zirkulieren lässt. Ähnlich einem Rib Rack aber boot-förmig.",
+          nl: "Een rib boat of rib cradle is een metalen rek ontworpen om meerdere racks ribben verticaal in de smoker te houden, wat ruimte bespaart en rook om alle oppervlakken laat circuleren. Vergelijkbaar met rib rack maar boot-vormig."
+        }
+      },
+      {
+        question: {
+          en: "What is 'caveman style' or 'dirty grilling'?",
+          es: "¿Qué es estilo 'caveman' o 'dirty grilling'?",
+          de: "Was ist 'Caveman Style' oder 'Dirty Grilling'?",
+          nl: "Wat is 'caveman style' of 'dirty grilling'?"
+        },
+        options: [
+          { en: "Placing meat directly on hot coals without grate", es: "Colocar carne directamente en carbones calientes sin rejilla", de: "Fleisch direkt auf heiße Kohlen ohne Rost legen", nl: "Vlees direct op hete kolen plaatsen zonder rooster" },
+          { en: "Cooking without cleaning the grill", es: "Cocinar sin limpiar la parrilla", de: "Kochen ohne Grill zu reinigen", nl: "Koken zonder de grill schoon te maken" },
+          { en: "Using rustic seasoning", es: "Usar condimento rústico", de: "Rustikale Würzung verwenden", nl: "Rustieke kruiding gebruiken" },
+          { en: "Outdoor primitive cooking", es: "Cocción primitiva al aire libre", de: "Primitives Kochen im Freien", nl: "Primitief buitenkoken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Caveman style grilling places meat (typically steaks) directly on glowing hardwood coals without a grate. The intense heat creates an exceptional crust while the short contact time prevents excessive ash adhesion. Brush off ash before serving.",
+          es: "El asado estilo caveman coloca carne (típicamente bistecs) directamente en carbones de madera dura brillantes sin rejilla. El calor intenso crea costra excepcional mientras tiempo de contacto corto previene adhesión excesiva de ceniza. Cepillar ceniza antes de servir.",
+          de: "Caveman Style Grillen legt Fleisch (typischerweise Steaks) direkt auf glühende Hartholzkohlen ohne Rost. Die intensive Hitze schafft außergewöhnliche Kruste während kurze Kontaktzeit übermäßige Aschehaftung verhindert. Asche vor Servieren abbürsten.",
+          nl: "Caveman style grillen plaatst vlees (typisch steaks) direct op gloeiende hardhout kolen zonder rooster. De intense hitte creëert uitzonderlijke korst terwijl de korte contacttijd overmatige as hechting voorkomt. As afborstelen voor serveren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'tallow' and how is it used in BBQ?",
+          es: "¿Qué es 'tallow' y cómo se usa en BBQ?",
+          de: "Was ist 'Talg' und wie wird es beim BBQ verwendet?",
+          nl: "Wat is 'talg' en hoe wordt het gebruikt bij BBQ?"
+        },
+        options: [
+          { en: "Rendered beef fat used for basting or in injection", es: "Grasa de res derretida usada para rociar o en inyección", de: "Ausgelassenes Rindfett zum Bestreichen oder in Injektion verwendet", nl: "Gesmolten rundvet gebruikt voor begieten of in injectie" },
+          { en: "Type of BBQ rub", es: "Tipo de rub BBQ", de: "Art von BBQ-Rub", nl: "Type BBQ rub" },
+          { en: "Smoking wood species", es: "Especie de madera para ahumar", de: "Rauchholz-Art", nl: "Rook hout soort" },
+          { en: "BBQ sauce thickener", es: "Espesante de salsa BBQ", de: "BBQ-Sauce-Verdicker", nl: "BBQ saus verdikker" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tallow is rendered beef fat (suet) used by pitmasters to add richness and moisture. It's used for basting brisket, in injection marinades, or even mixed into ground beef for burgers. Wagyu tallow is particularly prized for its flavor.",
+          es: "Tallow es grasa de res derretida (sebo) usada por pitmasters para añadir riqueza y humedad. Se usa para rociar brisket, en marinadas de inyección, o mezclada en carne molida para hamburguesas. Tallow Wagyu es particularmente valorado por su sabor.",
+          de: "Talg ist ausgelassenes Rindfett (Talg) von Pitmasters verwendet um Reichhaltigkeit und Feuchtigkeit hinzuzufügen. Es wird zum Bestreichen von Brisket, in Injektions-Marinaden oder gemischt in Hackfleisch für Burger verwendet. Wagyu-Talg ist besonders geschätzt für seinen Geschmack.",
+          nl: "Talg is gesmolten rundvet (vet) gebruikt door pitmasters om rijkheid en vocht toe te voegen. Het wordt gebruikt voor het begieten van brisket, in injectie marinades, of gemengd in gehakt vlees voor burgers. Wagyu talg is bijzonder gewaardeerd voor zijn smaak."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'jiggle test' for brisket?",
+          es: "¿Qué es la 'prueba de sacudida' para brisket?",
+          de: "Was ist der 'Wackel-Test' für Brisket?",
+          nl: "Wat is de 'schudtest' voor brisket?"
+        },
+        options: [
+          { en: "Shake grate; meat should jiggle like jello indicating tenderness", es: "Sacudir rejilla; carne debe moverse como gelatina indicando ternura", de: "Rost schütteln; Fleisch sollte wie Wackelpudding wackeln was Zartheit anzeigt", nl: "Rooster schudden; vlees moet wiebelen als jello wat malheid aanduidt" },
+          { en: "Test for moisture by shaking off liquid", es: "Probar humedad sacudiendo líquido", de: "Feuchtigkeit testen durch Abschütteln von Flüssigkeit", nl: "Vocht testen door vloeistof af te schudden" },
+          { en: "Check temperature probe movement", es: "Verificar movimiento de sonda de temperatura", de: "Thermometer-Sonden-Bewegung prüfen", nl: "Temperatuur sonde beweging controleren" },
+          { en: "Shake off excess rub before cooking", es: "Sacudir rub excesivo antes de cocinar", de: "Überschüssigen Rub vor Kochen abschütteln", nl: "Overtollige rub afschudden voor koken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The jiggle test involves gently shaking the cooking grate. A properly cooked brisket should jiggle like jello, indicating that collagen has broken down into gelatin and the meat is tender. It's used alongside probe tenderness.",
+          es: "La prueba de sacudida implica sacudir suavemente la rejilla de cocción. Un brisket cocido correctamente debe moverse como gelatina, indicando que colágeno se ha descompuesto en gelatina y la carne está tierna. Se usa junto con ternura de sonda.",
+          de: "Der Wackel-Test beinhaltet sanftes Schütteln des Garrostes. Ein richtig gekochtes Brisket sollte wie Wackelpudding wackeln, was anzeigt dass Kollagen zu Gelatine abgebaut wurde und Fleisch zart ist. Es wird neben Sonden-Zartheit verwendet.",
+          nl: "De schudtest houdt het zachtjes schudden van het kookrooster in. Een correct gekookte brisket moet wiebelen als jello, wat aanduidt dat collageen is afgebroken tot gelatine en vlees mals is. Het wordt gebruikt naast sonde malheid."
+        }
+      },
+      {
+        question: {
+          en: "What is 'dry aging' vs 'wet aging' beef?",
+          es: "¿Qué es 'dry aging' vs 'wet aging' de res?",
+          de: "Was ist 'Dry Aging' vs 'Wet Aging' von Rindfleisch?",
+          nl: "Wat is 'dry aging' vs 'wet aging' van rundvlees?"
+        },
+        options: [
+          { en: "Dry: ages uncovered in controlled environment; wet: vacuum-sealed aging", es: "Dry: envejece descubierto en ambiente controlado; wet: envejecimiento sellado al vacío", de: "Dry: reift unbedeckt in kontrollierter Umgebung; wet: vakuumversiegeltes Altern", nl: "Dry: rijpt onbedekt in gecontroleerde omgeving; wet: vacuüm verzegeld rijpen" },
+          { en: "Dry: with rub; wet: with marinade", es: "Dry: con rub; wet: con marinada", de: "Dry: mit Rub; wet: mit Marinade", nl: "Dry: met rub; wet: met marinade" },
+          { en: "Dry: no water pan; wet: with water pan", es: "Dry: sin bandeja de agua; wet: con bandeja de agua", de: "Dry: ohne Wasserschale; wet: mit Wasserschale", nl: "Dry: zonder waterpan; wet: met waterpan" },
+          { en: "No difference, same process", es: "Sin diferencia, mismo proceso", de: "Kein Unterschied, gleicher Prozess", nl: "Geen verschil, zelfde proces" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dry aging exposes beef to controlled temperature/humidity for weeks, concentrating flavor through moisture loss and enzymatic breakdown. Wet aging seals beef in vacuum bags, tenderizing through enzymes without moisture loss or flavor concentration.",
+          es: "Dry aging expone res a temperatura/humedad controlada por semanas, concentrando sabor mediante pérdida de humedad y descomposición enzimática. Wet aging sella res en bolsas al vacío, ablandando mediante enzimas sin pérdida de humedad o concentración de sabor.",
+          de: "Dry Aging setzt Rindfleisch kontrollierter Temperatur/Feuchtigkeit für Wochen aus, konzentriert Geschmack durch Feuchtigkeitsverlust und enzymatischen Abbau. Wet Aging versiegelt Rindfleisch in Vakuumbeuteln, macht zart durch Enzyme ohne Feuchtigkeitsverlust oder Geschmackskonzentration.",
+          nl: "Dry aging stelt rundvlees bloot aan gecontroleerde temperatuur/vochtigheid voor weken, concentreert smaak door vochtverlies en enzymatische afbraak. Wet aging verzegelt rundvlees in vacuümzakken, maakt mals door enzymen zonder vochtverlies of smaakconcentratie."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'vertical water smoker'?",
+          es: "¿Qué es un 'ahumador vertical de agua'?",
+          de: "Was ist ein 'vertikaler Wassersmoker'?",
+          nl: "Wat is een 'verticale water smoker'?"
+        },
+        options: [
+          { en: "Bullet-shaped smoker with water pan between heat and meat", es: "Ahumador en forma de bala con bandeja de agua entre calor y carne", de: "Kugelförmiger Smoker mit Wasserschale zwischen Hitze und Fleisch", nl: "Kogelvormige smoker met waterpan tussen hitte en vlees" },
+          { en: "Smoker that uses water instead of wood", es: "Ahumador que usa agua en lugar de madera", de: "Smoker der Wasser statt Holz verwendet", nl: "Smoker die water gebruikt in plaats van hout" },
+          { en: "Upright offset smoker with water injection", es: "Ahumador offset vertical con inyección de agua", de: "Aufrechter Offset-Smoker mit Wasserinjektion", nl: "Rechtopstaande offset smoker met water injectie" },
+          { en: "Smoker for fish and seafood only", es: "Ahumador solo para pescado y mariscos", de: "Smoker nur für Fisch und Meeresfrüchte", nl: "Smoker alleen voor vis en zeevruchten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A vertical water smoker (like Weber Smokey Mountain) has a bullet shape with charcoal at bottom, water pan in middle, and cooking grates on top. The water pan stabilizes temperature and adds moisture, making it beginner-friendly.",
+          es: "Un ahumador vertical de agua (como Weber Smokey Mountain) tiene forma de bala con carbón en la parte inferior, bandeja de agua en el medio y rejillas de cocción arriba. La bandeja de agua estabiliza temperatura y añade humedad, haciéndolo amigable para principiantes.",
+          de: "Ein vertikaler Wassersmoker (wie Weber Smokey Mountain) hat Kugelform mit Holzkohle unten, Wasserschale in Mitte und Garrosten oben. Die Wasserschale stabilisiert Temperatur und fügt Feuchtigkeit hinzu, macht es anfängerfreundlich.",
+          nl: "Een verticale water smoker (zoals Weber Smokey Mountain) heeft kogelvorm met houtskool onderaan, waterpan in midden en kookroosters bovenop. De waterpan stabiliseert temperatuur en voegt vocht toe, wat het beginnersvriendelijk maakt."
         }
       }
     ]

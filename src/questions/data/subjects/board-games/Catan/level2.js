@@ -826,6 +826,27 @@
           de: "Die Geländeverteilung variiert: 4 Felder (Getreide), 4 Wälder (Holz), 4 Weiden (Wolle), 3 Hügel (Lehm), 3 Berge (Erz) und 1 Wüste. Getreide, Holz und Wolle sind häufiger, weil sie für Siedlungen benötigt werden.",
           nl: "De terreindistributie varieert: 4 velden (tarwe), 4 bossen (hout), 4 weiden (schaap), 3 heuvels (baksteen), 3 bergen (erts) en 1 woestijn. Tarwe, hout en schaap zijn vaker omdat ze nodig zijn voor nederzettingen."
         }
+      },
+      {
+        question: {
+          en: "How many resource-producing hexes are there in standard Catan?",
+          es: "¿Cuántos hexágonos productores de recursos hay en Catan estándar?",
+          de: "Wie viele ressourcenproduzierende Felder gibt es im Standard-Catan?",
+          nl: "Hoeveel hulpbronproducerende hexen zijn er in standaard Catan?"
+        },
+        options: [
+          { en: "16", es: "16", de: "16", nl: "16" },
+          { en: "17", es: "17", de: "17", nl: "17" },
+          { en: "18", es: "18", de: "18", nl: "18" },
+          { en: "19", es: "19", de: "19", nl: "19" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "There are 18 resource-producing hexes in standard Catan (the 19th hex is the desert, which produces nothing). This includes 4 fields, 4 forests, 4 pastures, 3 hills, and 3 mountains.",
+          es: "Hay 18 hexágonos productores de recursos en Catan estándar (el decimonoveno hexágono es el desierto, que no produce nada). Esto incluye 4 campos, 4 bosques, 4 pastos, 3 colinas y 3 montañas.",
+          de: "Es gibt 18 ressourcenproduzierende Felder im Standard-Catan (das 19. Feld ist die Wüste, die nichts produziert). Dies umfasst 4 Felder, 4 Wälder, 4 Weiden, 3 Hügel und 3 Berge.",
+          nl: "Er zijn 18 hulpbronproducerende hexen in standaard Catan (de 19e hex is de woestijn, die niets produceert). Dit omvat 4 velden, 4 bossen, 4 weiden, 3 heuvels en 3 bergen."
+        }
       }
     ]
   };

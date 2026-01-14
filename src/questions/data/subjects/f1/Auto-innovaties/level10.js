@@ -324,6 +324,351 @@
                 de: "Maßstabsmodelle können aerodynamisches Verhalten in Originalgröße nicht perfekt nachbilden wegen Reynolds-Zahl-Unterschieden.",
                 nl: "Schaalmodellen kunnen volledig-schaal aerodynamisch gedrag niet perfect repliceren door Reynolds-getalverschillen die grenslagen beïnvloeden."
             }
+        },
+        {
+            question: {
+                en: "What is the ATR (Aerodynamic Testing Restriction) sliding scale system?",
+                es: "¿Qué es el sistema de escala deslizante ATR (Restricción de Pruebas Aerodinámicas)?",
+                de: "Was ist das ATR (Aerodynamic Testing Restriction) Sliding-Scale-System?",
+                nl: "Wat is het ATR (Aerodynamic Testing Restriction) glijdende schaal systeem?"
+            },
+            options: ["Equal testing for all teams", "Lower-ranked teams get more CFD/wind tunnel time than winners", "Winners get more time", "Random allocation"],
+            correct: 1,
+            explanation: {
+                en: "ATR gives lower-ranked teams more aerodynamic development resources (CFD/wind tunnel time) to promote competitive balance.",
+                es: "ATR da a equipos de menor rango más recursos de desarrollo aerodinámico para promover equilibrio competitivo.",
+                de: "ATR gibt niedriger platzierten Teams mehr aerodynamische Entwicklungsressourcen für Wettbewerbsbalance.",
+                nl: "ATR geeft lager gerangschikt teams meer aerodynamische ontwikkelingsbronnen (CFD/windtunnel tijd) om competitieve balans te bevorderen."
+            }
+        },
+        {
+            question: {
+                en: "What is Y+ value in CFD mesh generation and why is it critical?",
+                es: "¿Qué es el valor Y+ en generación de malla CFD y por qué es crítico?",
+                de: "Was ist der Y+ Wert bei CFD-Netzerzeugung und warum ist er kritisch?",
+                nl: "Wat is Y+ waarde in CFD mesh-generatie en waarom is dit kritisch?"
+            },
+            options: ["Random number", "Dimensionless wall distance determining boundary layer resolution quality", "Temperature value", "Pressure coefficient"],
+            correct: 1,
+            explanation: {
+                en: "Y+ is dimensionless wall distance controlling first cell height; proper Y+ values are critical for accurate boundary layer prediction.",
+                es: "Y+ es distancia adimensional de pared controlando altura de primera celda; valores Y+ apropiados son críticos para predicción precisa de capa límite.",
+                de: "Y+ ist dimensionslose Wanddistanz für erste Zellenhöhe; korrekte Y+-Werte sind kritisch für genaue Grenzschichtvorhersage.",
+                nl: "Y+ is dimensieloze wandafstand die eerste celhoogte bepaalt; juiste Y+ waarden zijn cruciaal voor nauwkeurige grenslaagvoorspelling."
+            }
+        },
+        {
+            question: {
+                en: "What turbulence models are commonly used in F1 CFD?",
+                es: "¿Qué modelos de turbulencia se usan comúnmente en CFD de F1?",
+                de: "Welche Turbulenzmodelle werden häufig in F1-CFD verwendet?",
+                nl: "Welke turbulentiemodellen worden vaak gebruikt in F1 CFD?"
+            },
+            options: ["No turbulence modeling", "RANS (k-ε, k-ω, SST) and sometimes LES/DES for critical areas", "Only laminar flow", "Random models"],
+            correct: 1,
+            explanation: {
+                en: "Teams use RANS models (k-epsilon, k-omega, SST) for efficiency; LES/DES for high-fidelity critical flow regions within budget.",
+                es: "Equipos usan modelos RANS para eficiencia; LES/DES para regiones de flujo críticas de alta fidelidad dentro del presupuesto.",
+                de: "Teams nutzen RANS-Modelle für Effizienz; LES/DES für hochauflösende kritische Strömungsbereiche im Budget.",
+                nl: "Teams gebruiken RANS-modellen (k-epsilon, k-omega, SST) voor efficiëntie; LES/DES voor hoge-fideliteit kritieke stromingsgebieden binnen budget."
+            }
+        },
+        {
+            question: {
+                en: "How does yaw angle affect aerodynamic performance in F1?",
+                es: "¿Cómo afecta el ángulo de guiñada al rendimiento aerodinámico en F1?",
+                de: "Wie beeinflusst der Gierwinkel die aerodynamische Leistung in F1?",
+                nl: "Hoe beïnvloedt gierhoek aerodynamische prestaties in F1?"
+            },
+            options: ["No effect", "Yaw changes flow over car asymmetrically, significantly affecting balance and drag", "Only affects aesthetics", "Improves performance always"],
+            correct: 1,
+            explanation: {
+                en: "Yaw (steering angle or crosswind) creates asymmetric flow, changing downforce balance and increasing drag significantly.",
+                es: "Guiñada (ángulo de dirección o viento cruzado) crea flujo asimétrico, cambiando balance de carga y aumentando resistencia.",
+                de: "Gierwinkel (Lenkwinkel oder Seitenwind) erzeugt asymmetrische Strömung und ändert Abtriebsbalance und erhöht Widerstand.",
+                nl: "Gierhoek (stuurhoek of zijwind) creëert asymmetrische stroming, wat neerwaartse drukbalans verandert en weerstand significant verhoogt."
+            }
+        },
+        {
+            question: {
+                en: "What is the 'aero map' and why do teams create it?",
+                es: "¿Qué es el 'mapa aerodinámico' y por qué lo crean los equipos?",
+                de: "Was ist die 'Aero-Map' und warum erstellen Teams sie?",
+                nl: "Wat is de 'aero map' en waarom maken teams deze?"
+            },
+            options: ["Track layout", "Matrix of downforce/drag across ride heights, speeds, and attitudes", "Driver seating position", "Tire data"],
+            correct: 1,
+            explanation: {
+                en: "Aero map is a comprehensive database showing how downforce and drag vary with ride height, pitch, roll, yaw, and speed.",
+                es: "El mapa aerodinámico es base de datos mostrando cómo varían carga y resistencia con altura, cabeceo, balanceo, guiñada y velocidad.",
+                de: "Aero-Map ist Datenbank, die zeigt, wie Abtrieb und Widerstand mit Fahrhöhe, Nick-, Roll-, Gierwinkel und Geschwindigkeit variieren.",
+                nl: "Aero map is uitgebreide database die toont hoe neerwaartse druk en weerstand variëren met rijhoogte, pitch, roll, yaw en snelheid."
+            }
+        },
+        {
+            question: {
+                en: "Why is pitch sensitivity critical in ground effect cars?",
+                es: "¿Por qué es crítica la sensibilidad al cabeceo en coches de efecto suelo?",
+                de: "Warum ist Nick-Sensitivität bei Bodeneffekt-Autos kritisch?",
+                nl: "Waarom is pitch-gevoeligheid kritisch in grondeffect-auto's?"
+            },
+            options: ["Not important", "Small pitch changes drastically affect floor performance and balance", "Only affects aesthetics", "Improves stability"],
+            correct: 1,
+            explanation: {
+                en: "Ground effect floors are extremely sensitive to pitch angle; small changes in pitch dramatically alter downforce and balance.",
+                es: "Pisos de efecto suelo son extremadamente sensibles al ángulo de cabeceo; pequeños cambios alteran dramáticamente carga y balance.",
+                de: "Bodeneffekt-Böden sind extrem nick-sensitiv; kleine Nick-Änderungen verändern Abtrieb und Balance dramatisch.",
+                nl: "Grondeffect vloeren zijn extreem gevoelig voor pitch-hoek; kleine veranderingen in pitch veranderen dramatisch neerwaartse druk en balans."
+            }
+        },
+        {
+            question: {
+                en: "What is the purpose of 'aero rake' measurements on track?",
+                es: "¿Cuál es el propósito de las mediciones de 'aero rake' en pista?",
+                de: "Was ist der Zweck von 'Aero-Rake'-Messungen auf der Strecke?",
+                nl: "Wat is het doel van 'aero rake' metingen op circuit?"
+            },
+            options: ["Cleaning the car", "Measure actual airflow velocities and pressures to validate CFD/wind tunnel", "Decoration", "Weight measurement"],
+            correct: 1,
+            explanation: {
+                en: "Aero rakes are instrumented sensor arrays measuring real-world flow velocities and pressures to validate and correlate simulations.",
+                es: "Aero rakes son arreglos de sensores instrumentados midiendo velocidades de flujo y presiones reales para validar simulaciones.",
+                de: "Aero-Rakes sind instrumentierte Sensor-Arrays zur Messung realer Strömungsgeschwindigkeiten und Drücke für Simulationsvalidierung.",
+                nl: "Aero rakes zijn geïnstrumenteerde sensor arrays die echte stroomsnelheden en drukken meten om simulaties te valideren en correleren."
+            }
+        },
+        {
+            question: {
+                en: "How does tire deformation affect aerodynamics?",
+                es: "¿Cómo afecta la deformación del neumático a la aerodinámica?",
+                de: "Wie beeinflusst Reifenverformung die Aerodynamik?",
+                nl: "Hoe beïnvloedt bandenvervorming de aerodynamica?"
+            },
+            options: ["No effect", "Loaded tire shape changes contact patch and affects flow under car and wheel wake", "Only affects grip", "Improves downforce always"],
+            correct: 1,
+            explanation: {
+                en: "Tire deformation under load changes contact patch shape, ride height, and affects critical underbody flow and wheel wake patterns.",
+                es: "La deformación del neumático bajo carga cambia forma del parche de contacto, altura y afecta flujo inferior y estela de rueda.",
+                de: "Reifenverformung unter Last ändert Kontaktflächenform, Fahrhöhe und beeinflusst kritischen Unterbodenfluss und Radnachlauf.",
+                nl: "Bandenvervorming onder belasting verandert contactpatch vorm, rijhoogte en beïnvloedt kritieke onderkant stroom en wielwake patronen."
+            }
+        },
+        {
+            question: {
+                en: "What is the 'outwash' vs 'inwash' front wing philosophy?",
+                es: "¿Qué es la filosofía de ala delantera 'outwash' vs 'inwash'?",
+                de: "Was ist die 'Outwash' vs 'Inwash' Frontflügel-Philosophie?",
+                nl: "Wat is de 'outwash' vs 'inwash' voorvleugel filosofie?"
+            },
+            options: ["No difference", "Outwash pushes air around tires; inwash directs air under car for floor", "Only aesthetic choice", "Random design"],
+            correct: 1,
+            explanation: {
+                en: "Outwash philosophy pushes air outboard around front tires; inwash directs more air under car to feed floor and diffuser.",
+                es: "Filosofía outwash empuja aire alrededor de neumáticos delanteros; inwash dirige más aire bajo coche para alimentar piso y difusor.",
+                de: "Outwash-Philosophie drückt Luft außen um Vorderreifen; Inwash leitet mehr Luft unter Auto für Boden und Diffusor.",
+                nl: "Outwash filosofie duwt lucht buitenboord rond voorbanden; inwash stuurt meer lucht onder auto om vloer en diffuser te voeden."
+            }
+        },
+        {
+            question: {
+                en: "What causes 'aero balance shift' during braking?",
+                es: "¿Qué causa el 'cambio de balance aerodinámico' durante el frenado?",
+                de: "Was verursacht 'Aero-Balance-Shift' beim Bremsen?",
+                nl: "Wat veroorzaakt 'aerobalans verschuiving' tijdens remmen?"
+            },
+            options: ["Nothing changes", "Weight transfer pitches car nose-down, changing front/rear floor gaps and downforce", "Only mechanical", "Driver input only"],
+            correct: 1,
+            explanation: {
+                en: "Braking weight transfer pitches car forward, closing front ride height and opening rear, changing front-to-rear aero balance.",
+                es: "Transferencia de peso en frenado inclina coche hacia adelante, cerrando altura frontal y abriendo trasera, cambiando balance aero.",
+                de: "Bremsen-Gewichtsverlagerung kippt Auto nach vorn, schließt vordere Fahrhöhe und öffnet hintere, ändert Aero-Balance.",
+                nl: "Remmen gewichtsoverdracht kantelt auto naar voren, sluit voor rijhoogte en opent achter, wat voor-naar-achter aerobalans verandert."
+            }
+        },
+        {
+            question: {
+                en: "What is the 'Kutta condition' in aerodynamics?",
+                es: "¿Qué es la 'condición de Kutta' en aerodinámica?",
+                de: "Was ist die 'Kutta-Bedingung' in der Aerodynamik?",
+                nl: "Wat is de 'Kutta-voorwaarde' in aerodynamica?"
+            },
+            options: ["Random theory", "Flow leaves trailing edge smoothly, determining circulation and lift", "Engine parameter", "Tire condition"],
+            correct: 1,
+            explanation: {
+                en: "Kutta condition states flow must leave a sharp trailing edge smoothly, which determines circulation around wing and lift generated.",
+                es: "La condición de Kutta establece que flujo debe dejar borde de salida afilado suavemente, determinando circulación y sustentación.",
+                de: "Kutta-Bedingung besagt, dass Strömung scharfe Hinterkante glatt verlassen muss, was Zirkulation um Flügel und Auftrieb bestimmt.",
+                nl: "Kutta-voorwaarde stelt dat stroming een scherpe trailing edge soepel moet verlaten, wat circulatie rond vleugel en lift bepaalt."
+            }
+        },
+        {
+            question: {
+                en: "How does brake cooling duct sizing affect aerodynamics?",
+                es: "¿Cómo afecta el tamaño del conducto de enfriamiento de frenos a la aerodinámica?",
+                de: "Wie beeinflusst Bremskühlkanal-Größe die Aerodynamik?",
+                nl: "Hoe beïnvloedt remkoeling kanaalgrootte de aerodynamica?"
+            },
+            options: ["No aerodynamic effect", "Larger ducts cool better but increase drag; smaller ducts reduce drag but risk overheating", "Only cooling matters", "Always bigger is better"],
+            correct: 1,
+            explanation: {
+                en: "Brake cooling is a critical aero-thermal compromise: larger ducts cool brakes but add drag; teams minimize duct size for aero efficiency.",
+                es: "Enfriamiento de frenos es compromiso aero-térmico crítico: conductos grandes enfrían pero añaden resistencia; equipos minimizan tamaño.",
+                de: "Bremskühlung ist kritischer Aero-Thermo-Kompromiss: größere Kanäle kühlen besser aber erhöhen Widerstand; Teams minimieren Größe.",
+                nl: "Remkoeling is kritische aero-thermische compromis: grotere kanalen koelen beter maar verhogen weerstand; teams minimaliseren kanaalgrootte voor aero-efficiëntie."
+            }
+        },
+        {
+            question: {
+                en: "What is 'flow conditioning' and why is it important?",
+                es: "¿Qué es el 'acondicionamiento de flujo' y por qué es importante?",
+                de: "Was ist 'Flow Conditioning' und warum ist es wichtig?",
+                nl: "Wat is 'flow conditioning' en waarom is dit belangrijk?"
+            },
+            options: ["Cleaning airflow", "Manipulating upstream flow to optimize performance of downstream components", "Temperature control", "Weight reduction"],
+            correct: 1,
+            explanation: {
+                en: "Flow conditioning uses upstream elements (bargeboards, vanes) to manipulate airflow structure, optimizing conditions for floor/diffuser.",
+                es: "El acondicionamiento de flujo usa elementos upstream para manipular estructura de flujo, optimizando condiciones para piso/difusor.",
+                de: "Flow Conditioning nutzt vorgelagerte Elemente um Strömungsstruktur zu manipulieren und Bedingungen für Boden/Diffusor zu optimieren.",
+                nl: "Flow conditioning gebruikt upstream elementen (bargeboards, vanes) om luchtstroom structuur te manipuleren, wat condities voor vloer/diffuser optimaliseert."
+            }
+        },
+        {
+            question: {
+                en: "What is the relationship between drag coefficient (Cd) and downforce coefficient (Cl)?",
+                es: "¿Cuál es la relación entre coeficiente de resistencia (Cd) y coeficiente de carga aerodinámica (Cl)?",
+                de: "Was ist die Beziehung zwischen Widerstandsbeiwert (Cd) und Abtriebsbeiwert (Cl)?",
+                nl: "Wat is de relatie tussen weerstandscoëfficiënt (Cd) en neerwaartse druk coëfficiënt (Cl)?"
+            },
+            options: ["No relationship", "Generally trade-off: increasing Cl typically increases Cd (more downforce = more drag)", "Always proportional", "Independent always"],
+            correct: 1,
+            explanation: {
+                en: "Downforce and drag are generally coupled: adding downforce typically increases drag. Teams optimize the Cl/Cd ratio (efficiency).",
+                es: "Carga y resistencia están generalmente acopladas: agregar carga típicamente aumenta resistencia. Equipos optimizan relación Cl/Cd.",
+                de: "Abtrieb und Widerstand sind meist gekoppelt: mehr Abtrieb erhöht typisch Widerstand. Teams optimieren Cl/Cd-Verhältnis.",
+                nl: "Neerwaartse druk en weerstand zijn over het algemeen gekoppeld: toevoegen van downforce verhoogt typisch weerstand. Teams optimaliseren Cl/Cd ratio (efficiëntie)."
+            }
+        },
+        {
+            question: {
+                en: "How does suspension kinematics affect aerodynamic platform?",
+                es: "¿Cómo afecta la cinemática de suspensión a la plataforma aerodinámica?",
+                de: "Wie beeinflusst Fahrwerkskinematik die aerodynamische Plattform?",
+                nl: "Hoe beïnvloedt ophanging kinematica het aerodynamisch platform?"
+            },
+            options: ["No effect", "Suspension geometry changes ride height, pitch, and roll under load, directly affecting aero", "Only affects comfort", "Random relationship"],
+            correct: 1,
+            explanation: {
+                en: "Suspension kinematics determine how car's aerodynamic platform (ride height, pitch, roll) changes under cornering, braking, and acceleration.",
+                es: "Cinemática de suspensión determina cómo cambia plataforma aerodinámica del coche bajo curvas, frenado y aceleración.",
+                de: "Fahrwerkskinematik bestimmt, wie sich aerodynamische Plattform (Fahrhöhe, Nick-, Rollwinkel) unter Kurven, Bremsen ändert.",
+                nl: "Ophanging kinematica bepaalt hoe auto's aerodynamisch platform (rijhoogte, pitch, roll) verandert onder bochten, remmen en acceleratie."
+            }
+        },
+        {
+            question: {
+                en: "What is 'aero elasticity' and why does it matter in F1?",
+                es: "¿Qué es la 'aeroelasticidad' y por qué importa en F1?",
+                de: "Was ist 'Aeroelastizität' und warum ist sie in F1 wichtig?",
+                nl: "Wat is 'aero-elasticiteit' en waarom is dit belangrijk in F1?"
+            },
+            options: ["Tire flex only", "Interaction between aerodynamic loads and structural deflection of components", "Engine vibration", "Not relevant"],
+            correct: 1,
+            explanation: {
+                en: "Aeroelasticity is coupling between aero loads and structural flex; teams design components to flex advantageously within regulations.",
+                es: "Aeroelasticidad es acoplamiento entre cargas aero y flexión estructural; equipos diseñan componentes para flexionar ventajosamente.",
+                de: "Aeroelastizität ist Kopplung zwischen Aero-Lasten und struktureller Flexion; Teams designen Komponenten für vorteilhafte Flexion.",
+                nl: "Aero-elasticiteit is koppeling tussen aero-belastingen en structurele deflectie; teams ontwerpen componenten om voordelig te buigen binnen reglementen."
+            }
+        },
+        {
+            question: {
+                en: "How do teams use 'aero sensors' during practice sessions?",
+                es: "¿Cómo usan los equipos 'sensores aerodinámicos' durante sesiones de práctica?",
+                de: "Wie nutzen Teams 'Aero-Sensoren' während Trainingssitzungen?",
+                nl: "Hoe gebruiken teams 'aero-sensoren' tijdens vrije trainingen?"
+            },
+            options: ["Not allowed", "Pitot tubes, pressure sensors, and rakes measure real-world flow for correlation", "Only for decoration", "Random placement"],
+            correct: 1,
+            explanation: {
+                en: "Teams use pitot tubes, pressure taps, and sensor rakes during practice to measure actual airflow and validate CFD/wind tunnel predictions.",
+                es: "Equipos usan tubos pitot, tomas de presión y rakes de sensores para medir flujo real y validar predicciones CFD/túnel.",
+                de: "Teams nutzen Pitot-Rohre, Drucksensoren und Sensor-Rakes zum Messen echter Strömung und Validieren von CFD/Windkanal-Vorhersagen.",
+                nl: "Teams gebruiken pitot tubes, druksensoren en sensor rakes tijdens trainingen om werkelijke luchtstroom te meten en CFD/windtunnel voorspellingen te valideren."
+            }
+        },
+        {
+            question: {
+                en: "What is 'blockage correction' in wind tunnel testing?",
+                es: "¿Qué es la 'corrección de bloqueo' en pruebas de túnel de viento?",
+                de: "Was ist 'Blockierungskorrektur' bei Windkanaltests?",
+                nl: "Wat is 'blokkering correctie' in windtunnel testen?"
+            },
+            options: ["Not needed", "Correction for model blocking tunnel flow, affecting pressure and velocity readings", "Cooling adjustment", "Weight correction"],
+            correct: 1,
+            explanation: {
+                en: "Blockage correction accounts for model blocking tunnel cross-section, artificially increasing velocity and pressures; must be corrected for accuracy.",
+                es: "Corrección de bloqueo compensa que modelo bloquea sección de túnel, aumentando artificialmente velocidad y presiones.",
+                de: "Blockierungskorrektur berücksichtigt, dass Modell Tunnelquerschnitt blockiert und Geschwindigkeit/Druck künstlich erhöht.",
+                nl: "Blokkering correctie compenseert voor model dat tunnel doorsnede blokkeert, wat kunstmatig snelheid en drukken verhoogt; moet gecorrigeerd voor nauwkeurigheid."
+            }
+        },
+        {
+            question: {
+                en: "How does ambient temperature affect aerodynamic testing?",
+                es: "¿Cómo afecta la temperatura ambiente a las pruebas aerodinámicas?",
+                de: "Wie beeinflusst Umgebungstemperatur aerodynamische Tests?",
+                nl: "Hoe beïnvloedt omgevingstemperatuur aerodynamische testen?"
+            },
+            options: ["No effect on aero", "Temperature changes air density, affecting Reynolds number and dynamic pressure", "Only affects engines", "Random effect"],
+            correct: 1,
+            explanation: {
+                en: "Temperature affects air density and viscosity, changing Reynolds number, dynamic pressure, and ultimately aerodynamic forces measured.",
+                es: "Temperatura afecta densidad y viscosidad del aire, cambiando número de Reynolds, presión dinámica y fuerzas aerodinámicas medidas.",
+                de: "Temperatur beeinflusst Luftdichte und Viskosität, ändert Reynolds-Zahl, dynamischen Druck und gemessene aerodynamische Kräfte.",
+                nl: "Temperatuur beïnvloedt luchtdichtheid en viscositeit, wat Reynolds-getal, dynamische druk en uiteindelijk gemeten aerodynamische krachten verandert."
+            }
+        },
+        {
+            question: {
+                en: "What is the principle behind 'vortex generators' on F1 cars and their optimal placement strategy?",
+                es: "¿Cuál es el principio detrás de los 'generadores de vórtice' en autos F1 y su estrategia óptima de colocación?",
+                de: "Was ist das Prinzip hinter 'Wirbelgeneratoren' an F1-Autos und ihre optimale Platzierungsstrategie?",
+                nl: "Wat is het principe achter 'vortex generators' op F1 auto's en hun optimale plaatsing strategie?"
+            },
+            options: [
+                {
+                    en: "Create small vortices that energize boundary layer, delaying separation and allowing steeper surface angles",
+                    es: "Crear pequeños vórtices que energizan capa límite, retrasando separación y permitiendo ángulos de superficie más pronunciados",
+                    de: "Kleine Wirbel erzeugen die Grenzschicht energetisieren, Ablösung verzögern und steilere Oberflächenwinkel ermöglichen",
+                    nl: "Kleine vortices creëren die grenslaag energetiseren, scheiding vertragen en steilere oppervlakte hoeken toestaan"
+                },
+                {
+                    en: "Reduce drag directly",
+                    es: "Reducir resistencia directamente",
+                    de: "Widerstand direkt reduzieren",
+                    nl: "Weerstand direct verminderen"
+                },
+                {
+                    en: "Cool brake ducts",
+                    es: "Enfriar conductos de freno",
+                    de: "Bremskanäle kühlen",
+                    nl: "Rem kanalen koelen"
+                },
+                {
+                    en: "Generate random turbulence",
+                    es: "Generar turbulencia aleatoria",
+                    de: "Zufällige Turbulenz erzeugen",
+                    nl: "Willekeurige turbulentie genereren"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Vortex generators create small counter-rotating vortices that mix high-momentum freestream air into the boundary layer, energizing it and preventing flow separation. This allows designers to use more aggressive diffuser angles and surface curvatures. Optimal placement is just upstream of expected separation zones, typically 5-10 boundary layer thicknesses tall, spaced 3-5 heights apart at 15-20° angles to flow.",
+                es: "Generadores de vórtice crean pequeños vórtices contra-rotativos que mezclan aire de flujo libre de alto momento en la capa límite, energizándola y previniendo separación de flujo. Esto permite diseñadores usar ángulos de difusor más agresivos y curvaturas de superficie. Colocación óptima es justo aguas arriba de zonas de separación esperadas, típicamente 5-10 espesores de capa límite de altura, espaciados 3-5 alturas aparte a ángulos 15-20° al flujo.",
+                de: "Wirbelgeneratoren erzeugen kleine gegenrotierende Wirbel die hochmomentige Freistrom-Luft in Grenzschicht mischen, sie energetisieren und Strömungsablösung verhindern. Dies erlaubt Designern aggressivere Diffusor-Winkel und Oberflächenkrümmungen. Optimale Platzierung ist stromaufwärts erwarteter Ablösungszonen, typisch 5-10 Grenzschicht-Dicken hoch, 3-5 Höhen auseinander in 15-20° Winkeln zur Strömung.",
+                nl: "Vortex generators creëren kleine tegen-roterende vortices die hoog-momentum vrije stroom lucht in de grenslaag mengen, het energetiserend en stroom scheiding voorkomend. Dit staat ontwerpers toe agressievere diffusor hoeken en oppervlakte krommingen te gebruiken. Optimale plaatsing is net stroomopwaarts van verwachte scheidings zones, typisch 5-10 grenslaag diktes hoog, 3-5 hoogtes uit elkaar op 15-20° hoeken tot stroom."
+            }
         }
     ];
 

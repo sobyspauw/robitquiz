@@ -427,6 +427,447 @@
           de: "Das Abstimmen von Nudelformen auf Sauce stellt sicher, dass die Sauce richtig haftet.",
           nl: "Het afstemmen van pastavormen op saus zorgt ervoor dat de saus goed hecht."
         }
+      },
+      {
+        question: {
+          en: "What distinguishes cappelletti from tortellini?",
+          es: "¿Qué distingue los cappelletti de los tortellini?",
+          de: "Was unterscheidet Cappelletti von Tortellini?",
+          nl: "Wat onderscheidt cappelletti van tortellini?"
+        },
+        options: [
+          { en: "Cappelletti are larger and hat-shaped, tortellini are smaller and ring-shaped", es: "Los cappelletti son más grandes y tienen forma de sombrero, los tortellini son más pequeños y tienen forma de anillo", de: "Cappelletti sind größer und hutförmig, Tortellini sind kleiner und ringförmig", nl: "Cappelletti zijn groter en hoekvormig, tortellini zijn kleiner en ringvormig" },
+          { en: "They are the same pasta with different names", es: "Son la misma pasta con nombres diferentes", de: "Sie sind die gleiche Pasta mit verschiedenen Namen", nl: "Het is dezelfde pasta met verschillende namen" },
+          { en: "Cappelletti are square, tortellini are round", es: "Los cappelletti son cuadrados, los tortellini son redondos", de: "Cappelletti sind quadratisch, Tortellini sind rund", nl: "Cappelletti zijn vierkant, tortellini zijn rond" },
+          { en: "Only the filling differs", es: "Solo el relleno difiere", de: "Nur die Füllung unterscheidet sich", nl: "Alleen de vulling verschilt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cappelletti means 'little hats' and are larger, hat-shaped pasta. Tortellini are smaller, ring-shaped, and traditionally from Bologna.",
+          es: "Cappelletti significa 'pequeños sombreros' y son pasta más grande en forma de sombrero. Los tortellini son más pequeños, en forma de anillo y tradicionalmente de Bolonia.",
+          de: "Cappelletti bedeutet 'kleine Hüte' und sind größere, hutförmige Nudeln. Tortellini sind kleiner, ringförmig und traditionell aus Bologna.",
+          nl: "Cappelletti betekent 'kleine hoedjes' en zijn grotere, hoekvormige pasta. Tortellini zijn kleiner, ringvormig en traditioneel uit Bologna."
+        }
+      },
+      {
+        question: {
+          en: "What makes bucatini different from regular spaghetti?",
+          es: "¿Qué hace que bucatini sea diferente del espagueti regular?",
+          de: "Was macht Bucatini anders als normale Spaghetti?",
+          nl: "Wat maakt bucatini anders dan gewone spaghetti?"
+        },
+        options: [
+          { en: "It's square instead of round", es: "Es cuadrado en lugar de redondo", de: "Es ist quadratisch statt rund", nl: "Het is vierkant in plaats van rond" },
+          { en: "It has a hollow center running through it", es: "Tiene un centro hueco que lo atraviesa", de: "Es hat eine hohle Mitte, die hindurchläuft", nl: "Het heeft een hol midden dat er doorheen loopt" },
+          { en: "It's made with eggs", es: "Está hecho con huevos", de: "Es wird mit Eiern hergestellt", nl: "Het is gemaakt met eieren" },
+          { en: "It's always colored green", es: "Siempre es de color verde", de: "Es ist immer grün gefärbt", nl: "Het is altijd groen gekleurd" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Bucatini is thicker than spaghetti and has a hollow center, allowing sauce to flow through and coat both inside and outside.",
+          es: "Bucatini es más grueso que el espagueti y tiene un centro hueco, permitiendo que la salsa fluya y cubra tanto por dentro como por fuera.",
+          de: "Bucatini ist dicker als Spaghetti und hat eine hohle Mitte, die es der Sauce ermöglicht, durchzufließen und innen und außen zu überziehen.",
+          nl: "Bucatini is dikker dan spaghetti en heeft een hol midden, waardoor saus erdoorheen kan stromen en zowel binnen als buiten kan bedekken."
+        }
+      },
+      {
+        question: {
+          en: "What does 'conchiglie' mean and why is it shaped that way?",
+          es: "¿Qué significa 'conchiglie' y por qué tiene esa forma?",
+          de: "Was bedeutet 'Conchiglie' und warum hat es diese Form?",
+          nl: "Wat betekent 'conchiglie' en waarom heeft het die vorm?"
+        },
+        options: [
+          { en: "Shells - the shape holds sauce in the cavity", es: "Conchas - la forma retiene salsa en la cavidad", de: "Muscheln - die Form hält Sauce in der Höhlung", nl: "Schelpen - de vorm houdt saus in de holte" },
+          { en: "Flowers - for decoration", es: "Flores - para decoración", de: "Blumen - zur Dekoration", nl: "Bloemen - voor decoratie" },
+          { en: "Waves - represents the ocean", es: "Olas - representa el océano", de: "Wellen - repräsentiert den Ozean", nl: "Golven - vertegenwoordigt de oceaan" },
+          { en: "Leaves - inspired by nature", es: "Hojas - inspirado en la naturaleza", de: "Blätter - von der Natur inspiriert", nl: "Bladeren - geïnspireerd door de natuur" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Conchiglie means 'shells' in Italian. The shell shape with its cavity is perfect for capturing and holding chunky sauces and cheese.",
+          es: "Conchiglie significa 'conchas' en italiano. La forma de concha con su cavidad es perfecta para capturar y sostener salsas gruesas y queso.",
+          de: "Conchiglie bedeutet 'Muscheln' auf Italienisch. Die Muschelform mit ihrer Höhlung ist perfekt, um stückige Saucen und Käse zu fangen und zu halten.",
+          nl: "Conchiglie betekent 'schelpen' in het Italiaans. De schelpvorm met zijn holte is perfect voor het vangen en vasthouden van dikke sauzen en kaas."
+        }
+      },
+      {
+        question: {
+          en: "What is special about strozzapreti pasta's name and shape?",
+          es: "¿Qué tiene de especial el nombre y la forma de la pasta strozzapreti?",
+          de: "Was ist besonders am Namen und der Form von Strozzapreti-Pasta?",
+          nl: "Wat is er bijzonder aan de naam en vorm van strozzapreti pasta?"
+        },
+        options: [
+          { en: "Means 'priest stranglers' - twisted shape resembles wrung cloth", es: "Significa 'estranguladores de sacerdotes' - forma retorcida se asemeja a tela retorcida", de: "Bedeutet 'Priesterwürger' - gedrehte Form ähnelt ausgewrungenem Tuch", nl: "Betekent 'priesterwurgers' - gedraaide vorm lijkt op uitgewrongen doek" },
+          { en: "Means 'little prayers' - shaped like praying hands", es: "Significa 'pequeñas oraciones' - forma de manos en oración", de: "Bedeutet 'kleine Gebete' - geformt wie betende Hände", nl: "Betekent 'kleine gebeden' - gevormd als biddende handen" },
+          { en: "Means 'church bells' - round and hollow", es: "Significa 'campanas de iglesia' - redondo y hueco", de: "Bedeutet 'Kirchenglocken' - rund und hohl", nl: "Betekent 'kerkklokken' - rond en hol" },
+          { en: "Means 'holy water' - wavy like water", es: "Significa 'agua bendita' - ondulado como agua", de: "Bedeutet 'Weihwasser' - wellig wie Wasser", nl: "Betekent 'wijwater' - golvend als water" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Strozzapreti means 'priest stranglers' in Italian. This hand-rolled, twisted pasta from Emilia-Romagna has a humorous name from local folklore.",
+          es: "Strozzapreti significa 'estranguladores de sacerdotes' en italiano. Esta pasta enrollada a mano y retorcida de Emilia-Romaña tiene un nombre humorístico del folclore local.",
+          de: "Strozzapreti bedeutet 'Priesterwürger' auf Italienisch. Diese handgerollte, gedrehte Pasta aus Emilia-Romagna hat einen humorvollen Namen aus der lokalen Folklore.",
+          nl: "Strozzapreti betekent 'priesterwurgers' in het Italiaans. Deze met de hand gerolde, gedraaide pasta uit Emilia-Romagna heeft een humoristische naam uit lokale folklore."
+        }
+      },
+      {
+        question: {
+          en: "What cheese is traditionally used in Cacio e Pepe?",
+          es: "¿Qué queso se usa tradicionalmente en Cacio e Pepe?",
+          de: "Welcher Käse wird traditionell in Cacio e Pepe verwendet?",
+          nl: "Welke kaas wordt traditioneel gebruikt in Cacio e Pepe?"
+        },
+        options: [
+          { en: "Parmesan", es: "Parmesano", de: "Parmesan", nl: "Parmezaan" },
+          { en: "Pecorino Romano", es: "Pecorino Romano", de: "Pecorino Romano", nl: "Pecorino Romano" },
+          { en: "Gorgonzola", es: "Gorgonzola", de: "Gorgonzola", nl: "Gorgonzola" },
+          { en: "Mozzarella", es: "Mozzarella", de: "Mozzarella", nl: "Mozzarella" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Authentic Cacio e Pepe uses Pecorino Romano, a sharp sheep's milk cheese, combined with black pepper and pasta water to create a creamy sauce.",
+          es: "El auténtico Cacio e Pepe usa Pecorino Romano, un queso de leche de oveja fuerte, combinado con pimienta negra y agua de pasta para crear una salsa cremosa.",
+          de: "Authentisches Cacio e Pepe verwendet Pecorino Romano, einen scharfen Schafsmilchkäse, kombiniert mit schwarzem Pfeffer und Pastawasser, um eine cremige Sauce zu erzeugen.",
+          nl: "Authentieke Cacio e Pepe gebruikt Pecorino Romano, een scherpe schapenmelkkaas, gecombineerd met zwarte peper en pastawater om een romige saus te maken."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes orecchiette from other pasta shapes?",
+          es: "¿Qué distingue a los orecchiette de otras formas de pasta?",
+          de: "Was unterscheidet Orecchiette von anderen Pastaformen?",
+          nl: "Wat onderscheidt orecchiette van andere pastavormen?"
+        },
+        options: [
+          { en: "Small ear-shaped cups ideal for chunky sauces from Puglia", es: "Pequeñas tazas en forma de oreja ideales para salsas gruesas de Puglia", de: "Kleine ohrförmige Becher ideal für stückige Saucen aus Apulien", nl: "Kleine oorvormige kommetjes ideaal voor dikke sauzen uit Puglia" },
+          { en: "Long ribbons perfect for cream sauces", es: "Cintas largas perfectas para salsas de crema", de: "Lange Bänder perfekt für Sahnesaucen", nl: "Lange linten perfect voor roomsauzen" },
+          { en: "Hollow tubes for baking", es: "Tubos huecos para hornear", de: "Hohle Röhren zum Backen", nl: "Holle buizen voor bakken" },
+          { en: "Twisted spirals for salads", es: "Espirales retorcidos para ensaladas", de: "Gedrehte Spiralen für Salate", nl: "Gedraaide spiralen voor salades" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Orecchiette ('little ears') are cup-shaped pasta from Puglia, traditionally paired with broccoli rabe or turnip greens in chunky sauces.",
+          es: "Orecchiette ('pequeñas orejas') son pasta en forma de taza de Puglia, tradicionalmente emparejada con brócoli rabe o hojas de nabo en salsas gruesas.",
+          de: "Orecchiette ('kleine Ohren') sind tassenförmige Nudeln aus Apulien, traditionell kombiniert mit Broccoli Rabe oder Steckrübengrün in stückigen Saucen.",
+          nl: "Orecchiette ('kleine oortjes') zijn komvormige pasta uit Puglia, traditioneel gecombineerd met broccoli rabe of raapstelen in dikke sauzen."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional shape of gnocchi?",
+          es: "¿Cuál es la forma tradicional de los gnocchi?",
+          de: "Was ist die traditionelle Form von Gnocchi?",
+          nl: "Wat is de traditionele vorm van gnocchi?"
+        },
+        options: [
+          { en: "Small ridged ovals or cylinders with thumb indentations", es: "Pequeños óvalos o cilindros acanalados con hendiduras de pulgar", de: "Kleine gerillte Ovale oder Zylinder mit Daumenabdrücken", nl: "Kleine geribbelde ovalen of cilinders met duimafdrukken" },
+          { en: "Long thin strands", es: "Hebras largas y delgadas", de: "Lange dünne Stränge", nl: "Lange dunne strengen" },
+          { en: "Square sheets", es: "Láminas cuadradas", de: "Quadratische Platten", nl: "Vierkante platen" },
+          { en: "Spiral tubes", es: "Tubos en espiral", de: "Spiralröhren", nl: "Spiraalbuizen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Traditional gnocchi are small potato dumplings shaped into ovals or cylinders, often rolled against a fork or board to create ridges that hold sauce.",
+          es: "Los gnocchi tradicionales son pequeñas albóndigas de papa con forma de óvalos o cilindros, a menudo enrollados contra un tenedor o tabla para crear crestas que retienen la salsa.",
+          de: "Traditionelle Gnocchi sind kleine Kartoffelklöße, die zu Ovalen oder Zylindern geformt werden, oft gegen eine Gabel oder ein Brett gerollt, um Rillen zu erzeugen, die Sauce halten.",
+          nl: "Traditionele gnocchi zijn kleine aardappelknoedels gevormd tot ovalen of cilinders, vaak gerold tegen een vork of plank om ribbels te maken die saus vasthouden."
+        }
+      },
+      {
+        question: {
+          en: "What sauce typically accompanies pasta alla puttanesca?",
+          es: "¿Qué salsa acompaña típicamente la pasta alla puttanesca?",
+          de: "Welche Sauce begleitet typischerweise Pasta alla Puttanesca?",
+          nl: "Welke saus begeleidt doorgaans pasta alla puttanesca?"
+        },
+        options: [
+          { en: "Tomatoes, olives, capers, anchovies, and garlic", es: "Tomates, aceitunas, alcaparras, anchoas y ajo", de: "Tomaten, Oliven, Kapern, Sardellen und Knoblauch", nl: "Tomaten, olijven, kappertjes, ansjovis en knoflook" },
+          { en: "Cream and mushrooms", es: "Crema y champiñones", de: "Sahne und Pilze", nl: "Room en champignons" },
+          { en: "Butter and sage", es: "Mantequilla y salvia", de: "Butter und Salbei", nl: "Boter en salie" },
+          { en: "Pesto and pine nuts", es: "Pesto y piñones", de: "Pesto und Pinienkerne", nl: "Pesto en pijnboompitten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Puttanesca is a bold Neapolitan sauce with tomatoes, black olives, capers, anchovies, and garlic. The name means 'in the style of prostitutes.'",
+          es: "Puttanesca es una salsa napolitana audaz con tomates, aceitunas negras, alcaparras, anchoas y ajo. El nombre significa 'al estilo de las prostitutas.'",
+          de: "Puttanesca ist eine kräftige neapolitanische Sauce mit Tomaten, schwarzen Oliven, Kapern, Sardellen und Knoblauch. Der Name bedeutet 'im Stil der Prostituierten.'",
+          nl: "Puttanesca is een gedurfde Napolitaanse saus met tomaten, zwarte olijven, kappertjes, ansjovis en knoflook. De naam betekent 'in de stijl van prostituees.'"
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between semolina and all-purpose flour for pasta?",
+          es: "¿Cuál es la diferencia entre sémola y harina común para pasta?",
+          de: "Was ist der Unterschied zwischen Grieß und Allzweckmehl für Pasta?",
+          nl: "Wat is het verschil tussen griesmeel en gewoon bloem voor pasta?"
+        },
+        options: [
+          { en: "Semolina (durum wheat) creates firmer, al dente pasta; all-purpose is softer", es: "La sémola (trigo duro) crea pasta más firme, al dente; la común es más suave", de: "Grieß (Hartweizen) ergibt festere, al dente Pasta; Allzweck ist weicher", nl: "Griesmeel (durumtarwe) maakt stevigere, al dente pasta; gewoon is zachter" },
+          { en: "They are exactly the same", es: "Son exactamente iguales", de: "Sie sind genau gleich", nl: "Ze zijn precies hetzelfde" },
+          { en: "Semolina is only for desserts", es: "La sémola es solo para postres", de: "Grieß ist nur für Desserts", nl: "Griesmeel is alleen voor desserts" },
+          { en: "All-purpose flour makes better pasta", es: "La harina común hace mejor pasta", de: "Allzweckmehl macht bessere Pasta", nl: "Gewoon bloem maakt betere pasta" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Semolina from durum wheat has higher protein and creates firmer, more elastic pasta that holds its shape. All-purpose flour produces softer pasta.",
+          es: "La sémola de trigo duro tiene más proteína y crea pasta más firme y elástica que mantiene su forma. La harina común produce pasta más suave.",
+          de: "Grieß aus Hartweizen hat mehr Protein und erzeugt festere, elastischere Pasta, die ihre Form behält. Allzweckmehl produziert weichere Pasta.",
+          nl: "Griesmeel van durumtarwe heeft meer eiwit en maakt stevigere, elastischere pasta die zijn vorm behoudt. Gewoon bloem produceert zachtere pasta."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of adding oil to pasta water?",
+          es: "¿Cuál es el propósito de agregar aceite al agua de la pasta?",
+          de: "Was ist der Zweck, Öl zum Pastawasser hinzuzufügen?",
+          nl: "Wat is het doel van het toevoegen van olie aan pastawater?"
+        },
+        options: [
+          { en: "It's a myth - oil doesn't prevent sticking and can prevent sauce from adhering", es: "Es un mito - el aceite no previene que se pegue y puede evitar que la salsa se adhiera", de: "Es ist ein Mythos - Öl verhindert nicht das Kleben und kann verhindern, dass Sauce haftet", nl: "Het is een mythe - olie voorkomt plakken niet en kan voorkomen dat saus hecht" },
+          { en: "It makes pasta taste better", es: "Hace que la pasta sepa mejor", de: "Es lässt Pasta besser schmecken", nl: "Het maakt pasta lekkerder" },
+          { en: "It's essential for all pasta cooking", es: "Es esencial para toda cocción de pasta", de: "Es ist wichtig für alle Pastakochen", nl: "Het is essentieel voor alle pastakoken" },
+          { en: "It makes water boil faster", es: "Hace que el agua hierva más rápido", de: "Es lässt Wasser schneller kochen", nl: "Het laat water sneller koken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Adding oil to pasta water is unnecessary. Oil floats on top and doesn't prevent sticking. Worse, it can coat pasta and prevent sauce from adhering properly.",
+          es: "Agregar aceite al agua de pasta es innecesario. El aceite flota arriba y no previene que se pegue. Peor aún, puede cubrir la pasta y evitar que la salsa se adhiera correctamente.",
+          de: "Öl zum Pastawasser hinzuzufügen ist unnötig. Öl schwimmt oben und verhindert nicht das Kleben. Schlimmer noch, es kann Pasta beschichten und verhindern, dass Sauce richtig haftet.",
+          nl: "Olie toevoegen aan pastawater is onnodig. Olie drijft bovenop en voorkomt plakken niet. Erger nog, het kan pasta bedekken en voorkomen dat saus goed hecht."
+        }
+      },
+      {
+        question: {
+          en: "How do you properly finish pasta in the sauce?",
+          es: "¿Cómo se termina correctamente la pasta en la salsa?",
+          de: "Wie beendet man Pasta richtig in der Sauce?",
+          nl: "Hoe maak je pasta goed af in de saus?"
+        },
+        options: [
+          { en: "Drain pasta, add to sauce, toss with pasta water for 1-2 minutes", es: "Escurre la pasta, agrégala a la salsa, mezcla con agua de pasta por 1-2 minutos", de: "Pasta abgießen, zur Sauce geben, mit Pastawasser 1-2 Minuten schwenken", nl: "Pasta afgieten, toevoegen aan saus, mengen met pastawater voor 1-2 minuten" },
+          { en: "Mix pasta and sauce on the plate", es: "Mezcla pasta y salsa en el plato", de: "Pasta und Sauce auf dem Teller mischen", nl: "Pasta en saus op het bord mengen" },
+          { en: "Pour sauce over drained pasta without mixing", es: "Vierte salsa sobre pasta escurrida sin mezclar", de: "Sauce über abgetropfte Pasta gießen ohne zu mischen", nl: "Saus over afgedropen pasta gieten zonder mengen" },
+          { en: "Cook pasta and sauce separately, serve cold", es: "Cocina pasta y salsa por separado, sirve frío", de: "Pasta und Sauce separat kochen, kalt servieren", nl: "Pasta en saus apart koken, koud serveren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Proper technique is to add slightly undercooked pasta to the sauce with reserved pasta water, then toss for 1-2 minutes. This allows pasta to absorb flavors.",
+          es: "La técnica adecuada es agregar pasta ligeramente poco cocida a la salsa con agua de pasta reservada, luego mezclar por 1-2 minutos. Esto permite que la pasta absorba sabores.",
+          de: "Die richtige Technik ist, leicht unterkochte Pasta zur Sauce mit reserviertem Pastawasser zu geben, dann 1-2 Minuten zu schwenken. Dies ermöglicht der Pasta, Aromen aufzunehmen.",
+          nl: "De juiste techniek is om licht ondergekookte pasta aan de saus toe te voegen met gereserveerd pastawater, dan 1-2 minuten mengen. Dit stelt pasta in staat smaken op te nemen."
+        }
+      },
+      {
+        question: {
+          en: "What makes pasta verde (green pasta) green?",
+          es: "¿Qué hace que la pasta verde sea verde?",
+          de: "Was macht Pasta verde (grüne Pasta) grün?",
+          nl: "Wat maakt pasta verde (groene pasta) groen?"
+        },
+        options: [
+          { en: "Spinach or other greens mixed into the dough", es: "Espinacas u otras verduras mezcladas en la masa", de: "Spinat oder anderes Grün in den Teig gemischt", nl: "Spinazie of ander groen gemengd in het deeg" },
+          { en: "Green food coloring", es: "Colorante alimentario verde", de: "Grüne Lebensmittelfarbe", nl: "Groene voedselkleurstof" },
+          { en: "Cooking in green water", es: "Cocinando en agua verde", de: "Kochen in grünem Wasser", nl: "Koken in groen water" },
+          { en: "Using green wheat", es: "Usando trigo verde", de: "Verwendung von grünem Weizen", nl: "Gebruik van groene tarwe" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pasta verde gets its green color from spinach, chard, or other greens pureed and mixed into the pasta dough, adding both color and subtle flavor.",
+          es: "La pasta verde obtiene su color verde de espinacas, acelgas u otras verduras en puré mezcladas en la masa de pasta, agregando color y sabor sutil.",
+          de: "Pasta verde erhält ihre grüne Farbe von Spinat, Mangold oder anderem püriertem Grün, das in den Pastateig gemischt wird und sowohl Farbe als auch subtilen Geschmack hinzufügt.",
+          nl: "Pasta verde krijgt zijn groene kleur van spinazie, snijbiet of ander gepureerd groen gemengd in het pastadeeg, wat zowel kleur als subtiele smaak toevoegt."
+        }
+      },
+      {
+        question: {
+          en: "Why should you reserve pasta cooking water before draining?",
+          es: "¿Por qué debes reservar agua de cocción de pasta antes de escurrir?",
+          de: "Warum sollten Sie Pastakochwasser vor dem Abgießen reservieren?",
+          nl: "Waarom moet je pastakookwater bewaren voor het afgieten?"
+        },
+        options: [
+          { en: "The starchy water helps emulsify and bind sauce to pasta", es: "El agua almidonada ayuda a emulsionar y unir la salsa a la pasta", de: "Das stärkehaltige Wasser hilft, Sauce zu emulgieren und an Pasta zu binden", nl: "Het zetmeelrijke water helpt saus te emulgeren en aan pasta te binden" },
+          { en: "To water plants later", es: "Para regar plantas después", de: "Um später Pflanzen zu gießen", nl: "Om later planten water te geven" },
+          { en: "To drink as a healthy beverage", es: "Para beber como bebida saludable", de: "Um als gesundes Getränk zu trinken", nl: "Om te drinken als gezonde drank" },
+          { en: "To clean dishes", es: "Para limpiar platos", de: "Um Geschirr zu spülen", nl: "Om vaat te wassen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pasta water contains dissolved starch that acts as an emulsifier, helping oil-based and water-based ingredients in sauce combine and cling to pasta.",
+          es: "El agua de pasta contiene almidón disuelto que actúa como emulsionante, ayudando a que ingredientes a base de aceite y agua en la salsa se combinen y se adhieran a la pasta.",
+          de: "Pastawasser enthält gelöste Stärke, die als Emulgator wirkt und hilft, öl- und wasserbasierte Zutaten in der Sauce zu verbinden und an der Pasta zu haften.",
+          nl: "Pastawater bevat opgelost zetmeel dat fungeert als emulgator, wat helpt om olie- en watergebaseerde ingrediënten in saus te combineren en aan pasta te laten hechten."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional pasta used for Pasta e Fagioli?",
+          es: "¿Cuál es la pasta tradicional usada para Pasta e Fagioli?",
+          de: "Was ist die traditionelle Pasta für Pasta e Fagioli?",
+          nl: "Wat is de traditionele pasta gebruikt voor Pasta e Fagioli?"
+        },
+        options: [
+          { en: "Small shapes like ditalini or tubetti", es: "Formas pequeñas como ditalini o tubetti", de: "Kleine Formen wie Ditalini oder Tubetti", nl: "Kleine vormen zoals ditalini of tubetti" },
+          { en: "Long spaghetti", es: "Espagueti largo", de: "Lange Spaghetti", nl: "Lange spaghetti" },
+          { en: "Wide pappardelle", es: "Pappardelle ancho", de: "Breite Pappardelle", nl: "Brede pappardelle" },
+          { en: "Stuffed ravioli", es: "Ravioli relleno", de: "Gefüllte Ravioli", nl: "Gevulde ravioli" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pasta e Fagioli (pasta and beans) traditionally uses small pasta shapes like ditalini or tubetti that work well in the hearty bean soup.",
+          es: "Pasta e Fagioli (pasta y frijoles) tradicionalmente usa formas de pasta pequeñas como ditalini o tubetti que funcionan bien en la abundante sopa de frijoles.",
+          de: "Pasta e Fagioli (Pasta und Bohnen) verwendet traditionell kleine Pastaformen wie Ditalini oder Tubetti, die gut in der herzhaften Bohnensuppe funktionieren.",
+          nl: "Pasta e Fagioli (pasta en bonen) gebruikt traditioneel kleine pastavormen zoals ditalini of tubetti die goed werken in de stevige bonensoep."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes cannelloni from manicotti?",
+          es: "¿Qué distingue los canelones de los manicotti?",
+          de: "Was unterscheidet Cannelloni von Manicotti?",
+          nl: "Wat onderscheidt cannelloni van manicotti?"
+        },
+        options: [
+          { en: "Cannelloni are smooth tubes, manicotti have ridges; both are stuffed and baked", es: "Los canelones son tubos lisos, los manicotti tienen crestas; ambos se rellenan y hornean", de: "Cannelloni sind glatte Röhren, Manicotti haben Rillen; beide werden gefüllt und gebacken", nl: "Cannelloni zijn gladde buizen, manicotti hebben ribbels; beide worden gevuld en gebakken" },
+          { en: "They are identical pasta with different regional names", es: "Son pasta idéntica con nombres regionales diferentes", de: "Sie sind identische Pasta mit verschiedenen regionalen Namen", nl: "Het is identieke pasta met verschillende regionale namen" },
+          { en: "Cannelloni are small, manicotti are large", es: "Los canelones son pequeños, los manicotti son grandes", de: "Cannelloni sind klein, Manicotti sind groß", nl: "Cannelloni zijn klein, manicotti zijn groot" },
+          { en: "Only the filling differs", es: "Solo el relleno difiere", de: "Nur die Füllung unterscheidet sich", nl: "Alleen de vulling verschilt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cannelloni are smooth tubes, while manicotti have ridged surfaces. Both are large tubes stuffed with filling and baked, though they originated in different Italian regions.",
+          es: "Los canelones son tubos lisos, mientras que los manicotti tienen superficies acanaladas. Ambos son tubos grandes rellenos y horneados, aunque se originaron en diferentes regiones italianas.",
+          de: "Cannelloni sind glatte Röhren, während Manicotti gerillte Oberflächen haben. Beide sind große Röhren, die gefüllt und gebacken werden, obwohl sie aus verschiedenen italienischen Regionen stammen.",
+          nl: "Cannelloni zijn gladde buizen, terwijl manicotti geribbelde oppervlakken hebben. Beide zijn grote buizen gevuld en gebakken, hoewel ze afkomstig zijn uit verschillende Italiaanse regio's."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between linguine and fettuccine?",
+          es: "¿Cuál es la diferencia entre linguine y fettuccine?",
+          de: "Was ist der Unterschied zwischen Linguine und Fettuccine?",
+          nl: "Wat is het verschil tussen linguine en fettuccine?"
+        },
+        options: [
+          { en: "Linguine is narrower and elliptical, fettuccine is wider and flat", es: "Linguine es más estrecho y elíptico, fettuccine es más ancho y plano", de: "Linguine ist schmaler und elliptisch, Fettuccine ist breiter und flach", nl: "Linguine is smaller en elliptisch, fettuccine is breder en plat" },
+          { en: "They are the same pasta", es: "Son la misma pasta", de: "Sie sind die gleiche Pasta", nl: "Het is dezelfde pasta" },
+          { en: "Linguine is round, fettuccine is square", es: "Linguine es redondo, fettuccine es cuadrado", de: "Linguine ist rund, Fettuccine ist quadratisch", nl: "Linguine is rond, fettuccine is vierkant" },
+          { en: "Only the regional origin differs", es: "Solo el origen regional difiere", de: "Nur die regionale Herkunft unterscheidet sich", nl: "Alleen de regionale oorsprong verschilt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Linguine is narrower (about 3-4mm) with an elliptical cross-section, while fettuccine is wider (6-7mm) and flat. Linguine pairs with seafood, fettuccine with cream sauces.",
+          es: "Linguine es más estrecho (unos 3-4mm) con sección transversal elíptica, mientras que fettuccine es más ancho (6-7mm) y plano. Linguine combina con mariscos, fettuccine con salsas de crema.",
+          de: "Linguine ist schmaler (etwa 3-4mm) mit elliptischem Querschnitt, während Fettuccine breiter (6-7mm) und flach ist. Linguine passt zu Meeresfrüchten, Fettuccine zu Sahnesaucen.",
+          nl: "Linguine is smaller (ongeveer 3-4mm) met een elliptische doorsnede, terwijl fettuccine breder (6-7mm) en plat is. Linguine past bij zeevruchten, fettuccine bij roomsauzen."
+        }
+      },
+      {
+        question: {
+          en: "What is gemelli pasta and what does the name mean?",
+          es: "¿Qué es la pasta gemelli y qué significa el nombre?",
+          de: "Was ist Gemelli-Pasta und was bedeutet der Name?",
+          nl: "Wat is gemelli pasta en wat betekent de naam?"
+        },
+        options: [
+          { en: "'Twins' - two strands twisted together into a spiral shape", es: "'Gemelos' - dos hebras retorcidas juntas en forma de espiral", de: "'Zwillinge' - zwei Stränge zu einer Spiralform verdreht", nl: "'Tweelingen' - twee strengen samen gedraaid tot spiraalvorm" },
+          { en: "'Flowers' - petal-shaped pasta", es: "'Flores' - pasta en forma de pétalo", de: "'Blumen' - blütenblattförmige Pasta", nl: "'Bloemen' - bloembladvormige pasta" },
+          { en: "'Stones' - round pebble-shaped pasta", es: "'Piedras' - pasta redonda en forma de guijarro", de: "'Steine' - runde kieselförmige Pasta", nl: "'Stenen' - ronde kiezelvormige pasta" },
+          { en: "'Stars' - star-shaped pasta", es: "'Estrellas' - pasta en forma de estrella", de: "'Sterne' - sternförmige Pasta", nl: "'Sterren' - stervormige pasta" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gemelli means 'twins' in Italian. This pasta appears to be two strands twisted together, though it's actually a single S-shaped strand twisted into a spiral.",
+          es: "Gemelli significa 'gemelos' en italiano. Esta pasta parece ser dos hebras retorcidas juntas, aunque en realidad es una sola hebra en forma de S retorcida en espiral.",
+          de: "Gemelli bedeutet 'Zwillinge' auf Italienisch. Diese Pasta scheint zwei zusammengedrehte Stränge zu sein, ist aber tatsächlich ein einzelner S-förmiger Strang, der zu einer Spirale gedreht ist.",
+          nl: "Gemelli betekent 'tweelingen' in het Italiaans. Deze pasta lijkt twee strengen te zijn die samen zijn gedraaid, hoewel het eigenlijk een enkele S-vormige streng is die tot een spiraal is gedraaid."
+        }
+      },
+      {
+        question: {
+          en: "What makes whole wheat pasta different from regular pasta?",
+          es: "¿Qué hace que la pasta de trigo integral sea diferente de la pasta regular?",
+          de: "Was macht Vollkornpasta anders als normale Pasta?",
+          nl: "Wat maakt volkoren pasta anders dan gewone pasta?"
+        },
+        options: [
+          { en: "Made with whole grain flour, higher fiber, nuttier flavor, darker color", es: "Hecha con harina integral, más fibra, sabor más a nuez, color más oscuro", de: "Aus Vollkornmehl, mehr Ballaststoffe, nussiger Geschmack, dunklere Farbe", nl: "Gemaakt met volkoren bloem, meer vezels, notiger smaak, donkerder kleur" },
+          { en: "It's exactly the same as regular pasta", es: "Es exactamente igual que la pasta regular", de: "Es ist genau wie normale Pasta", nl: "Het is precies hetzelfde als gewone pasta" },
+          { en: "Only the shape is different", es: "Solo la forma es diferente", de: "Nur die Form ist anders", nl: "Alleen de vorm is anders" },
+          { en: "It cooks faster than regular pasta", es: "Se cocina más rápido que la pasta regular", de: "Es kocht schneller als normale Pasta", nl: "Het kookt sneller dan gewone pasta" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Whole wheat pasta uses whole grain flour with the bran and germ intact, providing more fiber, nutrients, and a nuttier flavor with darker color than refined pasta.",
+          es: "La pasta de trigo integral usa harina integral con el salvado y el germen intactos, proporcionando más fibra, nutrientes y un sabor más a nuez con color más oscuro que la pasta refinada.",
+          de: "Vollkornpasta verwendet Vollkornmehl mit intakter Kleie und Keim, was mehr Ballaststoffe, Nährstoffe und einen nussigeren Geschmack mit dunklerer Farbe als raffinierte Pasta bietet.",
+          nl: "Volkoren pasta gebruikt volkoren bloem met de zemelen en kiem intact, wat meer vezels, voedingsstoffen en een notiger smaak met donkerder kleur biedt dan geraffineerde pasta."
+        }
+      },
+      {
+        question: {
+          en: "What is the key to making perfect carbonara sauce?",
+          es: "¿Cuál es la clave para hacer salsa carbonara perfecta?",
+          de: "Was ist der Schlüssel zur perfekten Carbonara-Sauce?",
+          nl: "Wat is de sleutel tot het maken van perfecte carbonarasaus?"
+        },
+        options: [
+          { en: "Tempering eggs with pasta water to avoid scrambling, no cream", es: "Templar huevos con agua de pasta para evitar revolver, sin crema", de: "Eier mit Pastawasser temperieren um Rührei zu vermeiden, keine Sahne", nl: "Eieren temperen met pastawater om roerei te voorkomen, geen room" },
+          { en: "Using heavy cream and bacon", es: "Usando crema espesa y tocino", de: "Verwendung von Sahne und Speck", nl: "Gebruik van dikke room en bacon" },
+          { en: "Cooking eggs separately and mixing in", es: "Cocinando huevos por separado y mezclando", de: "Eier separat kochen und einmischen", nl: "Eieren apart koken en mengen" },
+          { en: "Adding milk and cheese together", es: "Agregando leche y queso juntos", de: "Milch und Käse zusammen hinzufügen", nl: "Melk en kaas samen toevoegen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Perfect carbonara requires tempering beaten eggs with hot pasta water before adding to pasta, creating a creamy sauce without scrambling. No cream - just eggs, cheese, guanciale, and pepper.",
+          es: "La carbonara perfecta requiere templar huevos batidos con agua caliente de pasta antes de agregar a la pasta, creando una salsa cremosa sin revolver. Sin crema - solo huevos, queso, guanciale y pimienta.",
+          de: "Perfekte Carbonara erfordert das Temperieren geschlagener Eier mit heißem Pastawasser vor dem Hinzufügen zur Pasta, um eine cremige Sauce ohne Rührei zu erzeugen. Keine Sahne - nur Eier, Käse, Guanciale und Pfeffer.",
+          nl: "Perfecte carbonara vereist het temperen van geklopt ei met heet pastawater voordat het aan pasta wordt toegevoegd, wat een romige saus creëert zonder roerei. Geen room - alleen eieren, kaas, guanciale en peper."
+        }
+      },
+      {
+        question: {
+          en: "What is acini di pepe pasta commonly used for?",
+          es: "¿Para qué se usa comúnmente la pasta acini di pepe?",
+          de: "Wofür wird Acini di Pepe Pasta häufig verwendet?",
+          nl: "Waarvoor wordt acini di pepe pasta vaak gebruikt?"
+        },
+        options: [
+          { en: "Soups and salads - tiny peppercorn-sized pasta", es: "Sopas y ensaladas - pasta pequeña del tamaño de granos de pimienta", de: "Suppen und Salate - winzige pfefferkorngroße Pasta", nl: "Soepen en salades - kleine peperkorrelvormige pasta" },
+          { en: "Baked dishes only", es: "Solo platos horneados", de: "Nur gebackene Gerichte", nl: "Alleen gebakken gerechten" },
+          { en: "Main course pasta with heavy sauces", es: "Pasta de plato principal con salsas pesadas", de: "Hauptgericht Pasta mit schweren Saucen", nl: "Hoofdgerecht pasta met zware sauzen" },
+          { en: "Desserts exclusively", es: "Exclusivamente postres", de: "Ausschließlich Desserts", nl: "Uitsluitend desserts" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Acini di pepe means 'peppercorns' in Italian. These tiny, round pasta are perfect for light soups, children's meals, and cold pasta salads.",
+          es: "Acini di pepe significa 'granos de pimienta' en italiano. Esta pasta pequeña y redonda es perfecta para sopas ligeras, comidas infantiles y ensaladas de pasta frías.",
+          de: "Acini di pepe bedeutet 'Pfefferkörner' auf Italienisch. Diese winzigen, runden Nudeln sind perfekt für leichte Suppen, Kindermahlzeiten und kalte Nudelsalate.",
+          nl: "Acini di pepe betekent 'peperkorrels' in het Italiaans. Deze kleine, ronde pasta is perfect voor lichte soepen, kindermaaltijden en koude pastasalades."
+        }
+      },
+      {
+        question: {
+          en: "What is the best way to reheat leftover pasta?",
+          es: "¿Cuál es la mejor manera de recalentar pasta sobrante?",
+          de: "Was ist der beste Weg, übrig gebliebene Pasta aufzuwärmen?",
+          nl: "Wat is de beste manier om overgebleven pasta op te warmen?"
+        },
+        options: [
+          { en: "In a pan with a splash of water or sauce, tossing gently", es: "En una sartén con un poco de agua o salsa, mezclando suavemente", de: "In einer Pfanne mit etwas Wasser oder Sauce, vorsichtig schwenken", nl: "In een pan met een scheutje water of saus, voorzichtig mengen" },
+          { en: "In the microwave without covering", es: "En el microondas sin cubrir", de: "In der Mikrowelle ohne Abdeckung", nl: "In de magnetron zonder afdekking" },
+          { en: "In boiling water for 5 minutes", es: "En agua hirviendo por 5 minutos", de: "In kochendem Wasser für 5 Minuten", nl: "In kokend water voor 5 minuten" },
+          { en: "In the oven at high heat uncovered", es: "En el horno a temperatura alta sin cubrir", de: "Im Ofen bei hoher Hitze unbedeckt", nl: "In de oven op hoge temperatuur onbedekt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The best method is reheating pasta in a pan with a splash of water, stock, or sauce over medium heat, tossing gently until heated through. This prevents drying out.",
+          es: "El mejor método es recalentar pasta en una sartén con un poco de agua, caldo o salsa a fuego medio, mezclando suavemente hasta que esté caliente. Esto evita que se seque.",
+          de: "Die beste Methode ist, Pasta in einer Pfanne mit etwas Wasser, Brühe oder Sauce bei mittlerer Hitze aufzuwärmen und vorsichtig zu schwenken, bis sie durchgewärmt ist. Dies verhindert Austrocknung.",
+          nl: "De beste methode is pasta opwarmen in een pan met een scheutje water, bouillon of saus op middelhoog vuur, voorzichtig mengen tot het doorverwarmd is. Dit voorkomt uitdrogen."
+        }
       }
     ]
   };

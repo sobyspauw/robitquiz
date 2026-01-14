@@ -427,6 +427,426 @@
           de: "Kontrafaktische Fairness fragt ob ein Individuum die gleiche Entscheidung von einem KI-System in einer hypothetischen Welt erhalten wuerde wo ihre sensiblen Attribute (wie Rasse oder Geschlecht) anders waeren.",
           nl: "Contrafeitelijke eerlijkheid vraagt of een individu dezelfde beslissing zou krijgen van een AI systeem in een hypothetische wereld waar hun gevoelige kenmerken (zoals ras of geslacht) anders waren."
         }
+      },
+      {
+        question: {
+          en: "What is 'data sovereignty' in AI ethics?",
+          es: "Que es 'soberania de datos' en etica de IA?",
+          de: "Was ist 'Datensouveraenitaet' in der KI-Ethik?",
+          nl: "Wat is 'datasoevereiniteit' in AI ethiek?"
+        },
+        options: [
+          { en: "The right of individuals or communities to control their own data", es: "El derecho de individuos o comunidades a controlar sus propios datos", de: "Das Recht von Individuen oder Gemeinschaften ihre eigenen Daten zu kontrollieren", nl: "Het recht van individuen of gemeenschappen om hun eigen data te controleren" },
+          { en: "Government ownership of all data", es: "Propiedad gubernamental de todos los datos", de: "Regierungseigentum an allen Daten", nl: "Overheidseigendom van alle data" },
+          { en: "The supremacy of certain datasets", es: "La supremacia de ciertos conjuntos de datos", de: "Die Vorherrschaft bestimmter Datensaetze", nl: "De suprematie van bepaalde datasets" },
+          { en: "Data storage in specific countries", es: "Almacenamiento de datos en paises especificos", de: "Datenspeicherung in bestimmten Laendern", nl: "Dataopslag in specifieke landen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Data sovereignty recognizes that individuals and communities should have the right to determine how their personal or cultural data is collected, used, and shared, particularly important for indigenous and marginalized groups.",
+          es: "La soberania de datos reconoce que individuos y comunidades deberian tener derecho a determinar como sus datos personales o culturales son recolectados, usados y compartidos, particularmente importante para grupos indigenas y marginados.",
+          de: "Datensouveraenitaet erkennt dass Individuen und Gemeinschaften das Recht haben sollten zu bestimmen wie ihre persoenlichen oder kulturellen Daten gesammelt, verwendet und geteilt werden, besonders wichtig fuer indigene und marginalisierte Gruppen.",
+          nl: "Datasoevereiniteit erkent dat individuen en gemeenschappen het recht zouden moeten hebben om te bepalen hoe hun persoonlijke of culturele data verzameld, gebruikt en gedeeld wordt, bijzonder belangrijk voor inheemse en gemarginaliseerde groepen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'right to be forgotten' in AI systems?",
+          es: "Que es el 'derecho al olvido' en sistemas de IA?",
+          de: "Was ist das 'Recht auf Vergessenwerden' in KI-Systemen?",
+          nl: "Wat is het 'recht om vergeten te worden' in AI systemen?"
+        },
+        options: [
+          { en: "The right to request deletion of personal data from AI systems", es: "El derecho a solicitar eliminacion de datos personales de sistemas de IA", de: "Das Recht auf Loeschung persoenlicher Daten aus KI-Systemen zu erbitten", nl: "Het recht om verwijdering van persoonlijke data uit AI systemen aan te vragen" },
+          { en: "AI systems automatically forgetting old information", es: "Sistemas de IA olvidando automaticamente informacion antigua", de: "KI-Systeme vergessen automatisch alte Informationen", nl: "AI systemen die automatisch oude informatie vergeten" },
+          { en: "Users forgetting their passwords", es: "Usuarios olvidando sus contrasenas", de: "Benutzer vergessen ihre Passwoerter", nl: "Gebruikers die hun wachtwoorden vergeten" },
+          { en: "Hiding data from search engines", es: "Ocultar datos de motores de busqueda", de: "Daten vor Suchmaschinen verbergen", nl: "Data verbergen voor zoekmachines" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The right to be forgotten, established in regulations like GDPR, allows individuals to request erasure of their personal data from databases and AI systems under certain conditions.",
+          es: "El derecho al olvido, establecido en regulaciones como GDPR, permite a individuos solicitar eliminacion de sus datos personales de bases de datos y sistemas de IA bajo ciertas condiciones.",
+          de: "Das Recht auf Vergessenwerden, etabliert in Vorschriften wie GDPR, erlaubt Individuen die Loeschung ihrer persoenlichen Daten aus Datenbanken und KI-Systemen unter bestimmten Bedingungen zu erbitten.",
+          nl: "Het recht om vergeten te worden, vastgesteld in regelgeving zoals GDPR, stelt individuen in staat om verwijdering van hun persoonlijke data uit databases en AI systemen aan te vragen onder bepaalde voorwaarden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'dual use' concern in AI ethics?",
+          es: "Que es la preocupacion de 'doble uso' en etica de IA?",
+          de: "Was ist das 'Dual-Use' Bedenken in der KI-Ethik?",
+          nl: "Wat is de 'dubbel gebruik' zorg in AI ethiek?"
+        },
+        options: [
+          { en: "AI technology developed for beneficial purposes that could also be used for harm", es: "Tecnologia de IA desarrollada para propositos beneficos que tambien podria usarse para danar", de: "KI-Technologie entwickelt fuer nuetzliche Zwecke die auch fuer Schaden verwendet werden koennte", nl: "AI technologie ontwikkeld voor nuttige doeleinden die ook voor schade gebruikt zou kunnen worden" },
+          { en: "Using AI for two tasks simultaneously", es: "Usar IA para dos tareas simultaneamente", de: "KI fuer zwei Aufgaben gleichzeitig verwenden", nl: "AI voor twee taken tegelijk gebruiken" },
+          { en: "Running AI on two processors", es: "Ejecutar IA en dos procesadores", de: "KI auf zwei Prozessoren laufen lassen", nl: "AI draaien op twee processors" },
+          { en: "Having backup AI systems", es: "Tener sistemas de IA de respaldo", de: "Backup-KI-Systeme haben", nl: "Backup AI systemen hebben" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dual use refers to AI technologies that have legitimate beneficial applications but could also be weaponized or misused for harmful purposes, requiring careful consideration of development and deployment.",
+          es: "Doble uso se refiere a tecnologias de IA que tienen aplicaciones beneficas legitimas pero tambien podrian ser armadas o mal usadas para propositos daninos, requiriendo consideracion cuidadosa de desarrollo y despliegue.",
+          de: "Dual-Use bezieht sich auf KI-Technologien die legitime nuetzliche Anwendungen haben aber auch bewaffnet oder missbraucht werden koennten fuer schaedliche Zwecke, was sorgfaeltige Ueberlegung bei Entwicklung und Einsatz erfordert.",
+          nl: "Dubbel gebruik verwijst naar AI technologieën die legitieme nuttige toepassingen hebben maar ook bewapend of misbruikt zouden kunnen worden voor schadelijke doeleinden, wat zorgvuldige overweging van ontwikkeling en inzet vereist."
+        }
+      },
+      {
+        question: {
+          en: "What is 'model interpretability' in AI ethics?",
+          es: "Que es 'interpretabilidad de modelo' en etica de IA?",
+          de: "Was ist 'Modellinterpretierbarkeit' in der KI-Ethik?",
+          nl: "Wat is 'model interpreteerbaarheid' in AI ethiek?"
+        },
+        options: [
+          { en: "The ability to understand and explain how an AI model makes decisions", es: "La capacidad de entender y explicar como un modelo de IA toma decisiones", de: "Die Faehigkeit zu verstehen und zu erklaeren wie ein KI-Modell Entscheidungen trifft", nl: "Het vermogen om te begrijpen en uit te leggen hoe een AI model beslissingen neemt" },
+          { en: "Translating AI outputs to different languages", es: "Traducir salidas de IA a diferentes idiomas", de: "KI-Ausgaben in verschiedene Sprachen uebersetzen", nl: "AI outputs vertalen naar verschillende talen" },
+          { en: "Making AI speak clearly", es: "Hacer que la IA hable claramente", de: "KI klar sprechen lassen", nl: "AI duidelijk laten spreken" },
+          { en: "Converting AI models to code", es: "Convertir modelos de IA a codigo", de: "KI-Modelle in Code konvertieren", nl: "AI modellen converteren naar code" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Model interpretability refers to the degree to which humans can understand the reasoning behind AI decisions, crucial for trust, debugging, and accountability in high-stakes applications.",
+          es: "La interpretabilidad de modelo se refiere al grado en que humanos pueden entender el razonamiento detras de decisiones de IA, crucial para confianza, depuracion y responsabilidad en aplicaciones de alto riesgo.",
+          de: "Modellinterpretierbarkeit bezieht sich auf den Grad zu dem Menschen das Reasoning hinter KI-Entscheidungen verstehen koennen, entscheidend fuer Vertrauen, Debugging und Verantwortlichkeit in Hochrisiko-Anwendungen.",
+          nl: "Model interpreteerbaarheid verwijst naar de mate waarin mensen de redenering achter AI beslissingen kunnen begrijpen, cruciaal voor vertrouwen, debugging en verantwoordelijkheid in toepassingen met hoge inzet."
+        }
+      },
+      {
+        question: {
+          en: "What is 'algorithmic transparency'?",
+          es: "Que es 'transparencia algoritmica'?",
+          de: "Was ist 'algorithmische Transparenz'?",
+          nl: "Wat is 'algoritmische transparantie'?"
+        },
+        options: [
+          { en: "Making AI decision processes visible and understandable to stakeholders", es: "Hacer procesos de decision de IA visibles y comprensibles para partes interesadas", de: "KI-Entscheidungsprozesse fuer Stakeholder sichtbar und verstaendlich machen", nl: "AI besluitvormingsprocessen zichtbaar en begrijpelijk maken voor belanghebbenden" },
+          { en: "Using clear glass in computer cases", es: "Usar vidrio transparente en cajas de computadora", de: "Klares Glas in Computergehaeuse verwenden", nl: "Helder glas gebruiken in computerbehuizingen" },
+          { en: "Publishing all source code publicly", es: "Publicar todo el codigo fuente publicamente", de: "Alle Quellcodes oeffentlich veroeffentlichen", nl: "Alle broncode publiek publiceren" },
+          { en: "Making data files visible", es: "Hacer archivos de datos visibles", de: "Datendateien sichtbar machen", nl: "Databestanden zichtbaar maken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Algorithmic transparency involves making information about how AI systems work, including their logic, data sources, and decision criteria, accessible to relevant parties for scrutiny and accountability.",
+          es: "La transparencia algoritmica involucra hacer informacion sobre como funcionan sistemas de IA, incluyendo su logica, fuentes de datos y criterios de decision, accesible a partes relevantes para escrutinio y responsabilidad.",
+          de: "Algorithmische Transparenz beinhaltet Informationen darueber wie KI-Systeme funktionieren einschliesslich ihrer Logik, Datenquellen und Entscheidungskriterien fuer relevante Parteien zur Pruefung und Verantwortlichkeit zugaenglich zu machen.",
+          nl: "Algoritmische transparantie houdt in dat informatie over hoe AI systemen werken, inclusief hun logica, databronnen en beslissingscriteria, toegankelijk wordt gemaakt voor relevante partijen voor onderzoek en verantwoordelijkheid."
+        }
+      },
+      {
+        question: {
+          en: "What is 'environmental impact' concern in AI ethics?",
+          es: "Cual es la preocupacion de 'impacto ambiental' en etica de IA?",
+          de: "Was ist das 'Umweltauswirkung' Bedenken in der KI-Ethik?",
+          nl: "Wat is de 'milieu-impact' zorg in AI ethiek?"
+        },
+        options: [
+          { en: "The energy consumption and carbon footprint of training and running AI systems", es: "El consumo de energia y huella de carbono de entrenar y ejecutar sistemas de IA", de: "Der Energieverbrauch und CO2-Fussabdruck des Trainierens und Betreibens von KI-Systemen", nl: "Het energieverbruik en de koolstofvoetafdruk van het trainen en draaien van AI systemen" },
+          { en: "How AI affects natural ecosystems", es: "Como la IA afecta ecosistemas naturales", de: "Wie KI natuerliche Oekosysteme beeinflusst", nl: "Hoe AI natuurlijke ecosystemen beïnvloedt" },
+          { en: "Using AI for weather prediction", es: "Usar IA para prediccion del clima", de: "KI fuer Wettervorhersage verwenden", nl: "AI gebruiken voor weersvoorspelling" },
+          { en: "AI monitoring environmental conditions", es: "IA monitoreando condiciones ambientales", de: "KI ueberwacht Umweltbedingungen", nl: "AI die omgevingscondities monitort" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Training large AI models can consume massive amounts of electricity and produce significant carbon emissions, raising ethical concerns about sustainability and climate impact that need to be balanced against benefits.",
+          es: "Entrenar modelos grandes de IA puede consumir cantidades masivas de electricidad y producir emisiones significativas de carbono, generando preocupaciones eticas sobre sostenibilidad e impacto climatico que necesitan balancearse contra beneficios.",
+          de: "Das Trainieren grosser KI-Modelle kann massive Mengen Elektrizitaet verbrauchen und erhebliche CO2-Emissionen produzieren, was ethische Bedenken ueber Nachhaltigkeit und Klimaauswirkung aufwirft die gegen Nutzen abgewogen werden muessen.",
+          nl: "Het trainen van grote AI modellen kan enorme hoeveelheden elektriciteit verbruiken en aanzienlijke koolstofemissies produceren, wat ethische zorgen over duurzaamheid en klimaatimpact oproept die afgewogen moeten worden tegen voordelen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'consent washing' in AI development?",
+          es: "Que es 'lavado de consentimiento' en desarrollo de IA?",
+          de: "Was ist 'Consent Washing' in der KI-Entwicklung?",
+          nl: "Wat is 'consent washing' in AI ontwikkeling?"
+        },
+        options: [
+          { en: "Using overly complex consent forms to obscure how data will actually be used", es: "Usar formularios de consentimiento demasiado complejos para oscurecer como los datos realmente seran usados", de: "Uebermaeessig komplexe Einwilligungsformulare verwenden um zu verschleiern wie Daten tatsaechlich verwendet werden", nl: "Te complexe toestemmingsformulieren gebruiken om te verhullen hoe data daadwerkelijk gebruikt zal worden" },
+          { en: "Washing consent forms regularly", es: "Lavar formularios de consentimiento regularmente", de: "Einwilligungsformulare regelmaessig waschen", nl: "Toestemmingsformulieren regelmatig wassen" },
+          { en: "Cleaning user data before processing", es: "Limpiar datos de usuario antes de procesarlos", de: "Benutzerdaten vor der Verarbeitung reinigen", nl: "Gebruikersdata schoonmaken voor verwerking" },
+          { en: "Removing old consents from databases", es: "Eliminar consentimientos antiguos de bases de datos", de: "Alte Einwilligungen aus Datenbanken entfernen", nl: "Oude toestemmingen uit databases verwijderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Consent washing occurs when organizations obtain consent through deliberately unclear, lengthy, or complex agreements that people don't fully understand, creating the appearance of ethical practice without genuine informed consent.",
+          es: "El lavado de consentimiento ocurre cuando organizaciones obtienen consentimiento a traves de acuerdos deliberadamente poco claros, largos o complejos que las personas no entienden completamente, creando apariencia de practica etica sin consentimiento genuinamente informado.",
+          de: "Consent Washing tritt auf wenn Organisationen Einwilligung durch absichtlich unklare, lange oder komplexe Vereinbarungen erhalten die Menschen nicht vollstaendig verstehen, was den Anschein ethischer Praxis ohne echte informierte Einwilligung erzeugt.",
+          nl: "Consent washing ontstaat wanneer organisaties toestemming verkrijgen via opzettelijk onduidelijke, lange of complexe overeenkomsten die mensen niet volledig begrijpen, wat de schijn wekt van ethische praktijk zonder echte geïnformeerde toestemming."
+        }
+      },
+      {
+        question: {
+          en: "What is 'automation bias' in AI-assisted decision making?",
+          es: "Que es 'sesgo de automatizacion' en toma de decisiones asistida por IA?",
+          de: "Was ist 'Automatisierungsverzerrung' in KI-unterstuetzter Entscheidungsfindung?",
+          nl: "Wat is 'automatiseringsbias' in AI-ondersteunde besluitvorming?"
+        },
+        options: [
+          { en: "The tendency to favor AI suggestions over contradicting information even when AI is wrong", es: "La tendencia a favorecer sugerencias de IA sobre informacion contradictoria incluso cuando la IA esta equivocada", de: "Die Tendenz KI-Vorschlaege gegenueber widersprechenden Informationen zu bevorzugen selbst wenn KI falsch liegt", nl: "De neiging om AI suggesties te verkiezen boven tegenstrijdige informatie zelfs wanneer AI fout is" },
+          { en: "Bias toward automating all processes", es: "Sesgo hacia automatizar todos los procesos", de: "Verzerrung zur Automatisierung aller Prozesse", nl: "Bias naar het automatiseren van alle processen" },
+          { en: "AI systems preferring automated tasks", es: "Sistemas de IA prefiriendo tareas automatizadas", de: "KI-Systeme bevorzugen automatisierte Aufgaben", nl: "AI systemen die geautomatiseerde taken verkiezen" },
+          { en: "Discrimination against manual workers", es: "Discriminacion contra trabajadores manuales", de: "Diskriminierung gegen manuelle Arbeiter", nl: "Discriminatie tegen handarbeiders" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Automation bias is the human tendency to over-rely on automated systems and ignore contradictory information from non-automated sources, even when the automated system is making errors.",
+          es: "El sesgo de automatizacion es la tendencia humana a depender excesivamente de sistemas automatizados e ignorar informacion contradictoria de fuentes no automatizadas, incluso cuando el sistema automatizado esta cometiendo errores.",
+          de: "Automatisierungsverzerrung ist die menschliche Tendenz sich uebermaeessig auf automatisierte Systeme zu verlassen und widersprechende Informationen aus nicht-automatisierten Quellen zu ignorieren, selbst wenn das automatisierte System Fehler macht.",
+          nl: "Automatiseringsbias is de menselijke neiging om overmatig te vertrouwen op geautomatiseerde systemen en tegenstrijdige informatie van niet-geautomatiseerde bronnen te negeren, zelfs wanneer het geautomatiseerde systeem fouten maakt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'value alignment' in AI systems?",
+          es: "Que es 'alineacion de valores' en sistemas de IA?",
+          de: "Was ist 'Werteausrichtung' in KI-Systemen?",
+          nl: "Wat is 'waardenafstemming' in AI systemen?"
+        },
+        options: [
+          { en: "Ensuring AI systems act according to human values and ethical principles", es: "Asegurar que sistemas de IA actuen segun valores humanos y principios eticos", de: "Sicherstellen dass KI-Systeme nach menschlichen Werten und ethischen Prinzipien handeln", nl: "Ervoor zorgen dat AI systemen handelen volgens menselijke waarden en ethische principes" },
+          { en: "Aligning data values in databases", es: "Alinear valores de datos en bases de datos", de: "Datenwerte in Datenbanken ausrichten", nl: "Datawaarden in databases op één lijn brengen" },
+          { en: "Setting the same price for AI services", es: "Establecer el mismo precio para servicios de IA", de: "Den gleichen Preis fuer KI-Dienste festlegen", nl: "Dezelfde prijs instellen voor AI diensten" },
+          { en: "Synchronizing AI processing speeds", es: "Sincronizar velocidades de procesamiento de IA", de: "KI-Verarbeitungsgeschwindigkeiten synchronisieren", nl: "AI verwerkingssnelheden synchroniseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Value alignment is the challenge of designing AI systems that pursue goals and exhibit behaviors consistent with human values, ethics, and preferences, preventing unintended harmful outcomes.",
+          es: "La alineacion de valores es el desafio de disenar sistemas de IA que persigan objetivos y exhiban comportamientos consistentes con valores, etica y preferencias humanas, previniendo resultados daninos no intencionados.",
+          de: "Werteausrichtung ist die Herausforderung KI-Systeme zu entwerfen die Ziele verfolgen und Verhalten zeigen das mit menschlichen Werten, Ethik und Praeferenzen uebereinstimmt, um unbeabsichtigte schaedliche Ergebnisse zu verhindern.",
+          nl: "Waardenafstemming is de uitdaging om AI systemen te ontwerpen die doelen nastreven en gedrag vertonen dat consistent is met menselijke waarden, ethiek en voorkeuren, om onbedoelde schadelijke uitkomsten te voorkomen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'explainability' versus 'interpretability' in AI?",
+          es: "Que es 'explicabilidad' versus 'interpretabilidad' en IA?",
+          de: "Was ist 'Erklaerbarkeit' versus 'Interpretierbarkeit' in der KI?",
+          nl: "Wat is 'verklaarbaarheid' versus 'interpreteerbaarheid' in AI?"
+        },
+        options: [
+          { en: "Explainability describes what happened, interpretability explains why it happened", es: "Explicabilidad describe que sucedio, interpretabilidad explica por que sucedio", de: "Erklaerbarkeit beschreibt was passierte, Interpretierbarkeit erklaert warum es passierte", nl: "Verklaarbaarheid beschrijft wat er gebeurde, interpreteerbaarheid legt uit waarom het gebeurde" },
+          { en: "They mean exactly the same thing", es: "Significan exactamente lo mismo", de: "Sie bedeuten genau dasselbe", nl: "Ze betekenen precies hetzelfde" },
+          { en: "Explainability is for users, interpretability is for developers", es: "Explicabilidad es para usuarios, interpretabilidad es para desarrolladores", de: "Erklaerbarkeit ist fuer Benutzer, Interpretierbarkeit ist fuer Entwickler", nl: "Verklaarbaarheid is voor gebruikers, interpreteerbaarheid is voor ontwikkelaars" },
+          { en: "Interpretability is easier to achieve", es: "Interpretabilidad es mas facil de lograr", de: "Interpretierbarkeit ist einfacher zu erreichen", nl: "Interpreteerbaarheid is gemakkelijker te bereiken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Explainability provides post-hoc descriptions of AI decisions (what the model did), while interpretability refers to understanding the internal mechanics and logic (why the model made that decision).",
+          es: "La explicabilidad proporciona descripciones post-hoc de decisiones de IA (que hizo el modelo), mientras que interpretabilidad se refiere a entender la mecanica interna y logica (por que el modelo tomo esa decision).",
+          de: "Erklaerbarkeit liefert nachtraegliche Beschreibungen von KI-Entscheidungen (was das Modell tat), waehrend Interpretierbarkeit sich auf das Verstaendnis der internen Mechanik und Logik bezieht (warum das Modell diese Entscheidung traf).",
+          nl: "Verklaarbaarheid biedt achteraf beschrijvingen van AI beslissingen (wat het model deed), terwijl interpreteerbaarheid verwijst naar het begrijpen van de interne mechanica en logica (waarom het model die beslissing nam)."
+        }
+      },
+      {
+        question: {
+          en: "What is 'privacy-preserving machine learning'?",
+          es: "Que es 'aprendizaje automatico preservando privacidad'?",
+          de: "Was ist 'Datenschutz-bewahrendes maschinelles Lernen'?",
+          nl: "Wat is 'privacy-behoudend machine learning'?"
+        },
+        options: [
+          { en: "Techniques that train AI models without exposing individual data points", es: "Tecnicas que entrenan modelos de IA sin exponer puntos de datos individuales", de: "Techniken die KI-Modelle trainieren ohne einzelne Datenpunkte preiszugeben", nl: "Technieken die AI modellen trainen zonder individuele datapunten bloot te stellen" },
+          { en: "Keeping AI models private and secret", es: "Mantener modelos de IA privados y secretos", de: "KI-Modelle privat und geheim halten", nl: "AI modellen privé en geheim houden" },
+          { en: "Training AI only on public datasets", es: "Entrenar IA solo en conjuntos de datos publicos", de: "KI nur auf oeffentlichen Datensaetzen trainieren", nl: "AI alleen trainen op publieke datasets" },
+          { en: "Using encryption for all AI files", es: "Usar encriptacion para todos los archivos de IA", de: "Verschluesselung fuer alle KI-Dateien verwenden", nl: "Encryptie gebruiken voor alle AI bestanden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Privacy-preserving ML includes techniques like federated learning, differential privacy, and homomorphic encryption that allow models to learn from data while protecting individual privacy.",
+          es: "El aprendizaje automatico preservando privacidad incluye tecnicas como aprendizaje federado, privacidad diferencial y encriptacion homomorfica que permiten a modelos aprender de datos mientras protegen privacidad individual.",
+          de: "Datenschutz-bewahrendes ML umfasst Techniken wie foederiertes Lernen, differentielle Privatsphaere und homomorphe Verschluesselung die es Modellen ermoeglichen aus Daten zu lernen waehrend individuelle Privatsphaere geschuetzt wird.",
+          nl: "Privacy-behoudend ML omvat technieken zoals federated learning, differential privacy en homomorphic encryption die modellen in staat stellen te leren van data terwijl individuele privacy beschermd wordt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'federated learning' in privacy-preserving AI?",
+          es: "Que es 'aprendizaje federado' en IA preservando privacidad?",
+          de: "Was ist 'foederiertes Lernen' in Datenschutz-bewahrender KI?",
+          nl: "Wat is 'federated learning' in privacy-behoudende AI?"
+        },
+        options: [
+          { en: "Training models across decentralized devices without centralizing raw data", es: "Entrenar modelos en dispositivos descentralizados sin centralizar datos brutos", de: "Modelle ueber dezentrale Geraete trainieren ohne Rohdaten zu zentralisieren", nl: "Modellen trainen over gedecentraliseerde apparaten zonder ruwe data te centraliseren" },
+          { en: "Training AI models in government buildings", es: "Entrenar modelos de IA en edificios gubernamentales", de: "KI-Modelle in Regierungsgebaeuden trainieren", nl: "AI modellen trainen in overheidsgebouwen" },
+          { en: "Combining multiple AI models into one", es: "Combinar multiples modelos de IA en uno", de: "Mehrere KI-Modelle zu einem kombinieren", nl: "Meerdere AI modellen combineren tot één" },
+          { en: "Distributing AI processing across countries", es: "Distribuir procesamiento de IA entre paises", de: "KI-Verarbeitung ueber Laender verteilen", nl: "AI verwerking verdelen over landen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Federated learning trains AI models by sending the model to where data lives (edge devices) rather than collecting all data centrally, preserving privacy while enabling collaborative learning.",
+          es: "El aprendizaje federado entrena modelos de IA enviando el modelo a donde viven los datos (dispositivos edge) en lugar de recolectar todos los datos centralmente, preservando privacidad mientras permite aprendizaje colaborativo.",
+          de: "Foederiertes Lernen trainiert KI-Modelle indem das Modell dorthin gesendet wird wo Daten leben (Edge-Geraete) anstatt alle Daten zentral zu sammeln, bewahrt Privatsphaere waehrend kollaboratives Lernen ermoeglicht wird.",
+          nl: "Federated learning traint AI modellen door het model te sturen naar waar data zich bevindt (edge apparaten) in plaats van alle data centraal te verzamelen, behoudt privacy terwijl collaboratief leren mogelijk gemaakt wordt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'differential privacy'?",
+          es: "Que es 'privacidad diferencial'?",
+          de: "Was ist 'differentielle Privatsphaere'?",
+          nl: "Wat is 'differential privacy'?"
+        },
+        options: [
+          { en: "Adding controlled noise to data so individual records cannot be identified", es: "Anadir ruido controlado a datos para que registros individuales no puedan ser identificados", de: "Kontrolliertes Rauschen zu Daten hinzufuegen damit einzelne Datensaetze nicht identifiziert werden koennen", nl: "Gecontroleerde ruis toevoegen aan data zodat individuele records niet geïdentificeerd kunnen worden" },
+          { en: "Having different privacy settings for different users", es: "Tener diferentes configuraciones de privacidad para diferentes usuarios", de: "Verschiedene Datenschutzeinstellungen fuer verschiedene Nutzer haben", nl: "Verschillende privacy-instellingen hebben voor verschillende gebruikers" },
+          { en: "Treating VIP users with more privacy", es: "Tratar usuarios VIP con mas privacidad", de: "VIP-Nutzer mit mehr Privatsphaere behandeln", nl: "VIP gebruikers behandelen met meer privacy" },
+          { en: "Calculating the difference in privacy levels", es: "Calcular la diferencia en niveles de privacidad", de: "Den Unterschied in Privatsphaere-Ebenen berechnen", nl: "Het verschil in privacyniveaus berekenen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Differential privacy is a mathematical framework that adds carefully calibrated noise to datasets or query results to protect individual privacy while maintaining overall statistical accuracy.",
+          es: "La privacidad diferencial es un marco matematico que anade ruido cuidadosamente calibrado a conjuntos de datos o resultados de consultas para proteger privacidad individual mientras mantiene precision estadistica general.",
+          de: "Differentielle Privatsphaere ist ein mathematisches Framework das sorgfaeltig kalibriertes Rauschen zu Datensaetzen oder Abfrageergebnissen hinzufuegt um individuelle Privatsphaere zu schuetzen waehrend allgemeine statistische Genauigkeit erhalten bleibt.",
+          nl: "Differential privacy is een wiskundig raamwerk dat zorgvuldig gekalibreerde ruis toevoegt aan datasets of query resultaten om individuele privacy te beschermen terwijl algemene statistische nauwkeurigheid behouden blijft."
+        }
+      },
+      {
+        question: {
+          en: "What is 'data minimization' principle in AI ethics?",
+          es: "Que es el principio de 'minimizacion de datos' en etica de IA?",
+          de: "Was ist das 'Datenminimierung' Prinzip in der KI-Ethik?",
+          nl: "Wat is het 'dataminimalisatie' principe in AI ethiek?"
+        },
+        options: [
+          { en: "Collecting only the minimum data necessary for the specific purpose", es: "Recolectar solo los datos minimos necesarios para el proposito especifico", de: "Nur die minimal notwendigen Daten fuer den spezifischen Zweck sammeln", nl: "Alleen de minimaal benodigde data verzamelen voor het specifieke doel" },
+          { en: "Reducing file sizes of datasets", es: "Reducir tamanos de archivo de conjuntos de datos", de: "Dateigroessen von Datensaetzen reduzieren", nl: "Bestandsgroottes van datasets verkleinen" },
+          { en: "Using the smallest possible database", es: "Usar la base de datos mas pequena posible", de: "Die kleinstmoegliche Datenbank verwenden", nl: "De kleinst mogelijke database gebruiken" },
+          { en: "Minimizing data processing time", es: "Minimizar tiempo de procesamiento de datos", de: "Datenverarbeitungszeit minimieren", nl: "Dataverwerkingstijd minimaliseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Data minimization is the ethical principle that organizations should collect only the personal data that is adequate, relevant, and limited to what is necessary for the intended purpose.",
+          es: "La minimizacion de datos es el principio etico de que organizaciones deberian recolectar solo datos personales que sean adecuados, relevantes y limitados a lo necesario para el proposito previsto.",
+          de: "Datenminimierung ist das ethische Prinzip dass Organisationen nur personenbezogene Daten sammeln sollten die angemessen, relevant und auf das Notwendige fuer den beabsichtigten Zweck beschraenkt sind.",
+          nl: "Dataminimalisatie is het ethische principe dat organisaties alleen persoonlijke data zouden moeten verzamelen die adequaat, relevant en beperkt is tot wat noodzakelijk is voor het beoogde doel."
+        }
+      },
+      {
+        question: {
+          en: "What are 'deepfakes' and why are they an ethical concern?",
+          es: "Que son los 'deepfakes' y por que son una preocupacion etica?",
+          de: "Was sind 'Deepfakes' und warum sind sie ein ethisches Bedenken?",
+          nl: "Wat zijn 'deepfakes' en waarom zijn ze een ethische zorg?"
+        },
+        options: [
+          { en: "AI-generated fake videos/audio that can spread misinformation and harm reputations", es: "Videos/audio falsos generados por IA que pueden difundir desinformacion y danar reputaciones", de: "KI-generierte gefaelschte Videos/Audio die Fehlinformationen verbreiten und Reputationen schaedigen koennen", nl: "AI-gegenereerde nep video's/audio die misinformatie kunnen verspreiden en reputaties kunnen schaden" },
+          { en: "Very deep neural networks", es: "Redes neuronales muy profundas", de: "Sehr tiefe neuronale Netze", nl: "Zeer diepe neurale netwerken" },
+          { en: "Fake social media profiles", es: "Perfiles falsos de redes sociales", de: "Gefaelschte Social-Media-Profile", nl: "Nep social media profielen" },
+          { en: "Counterfeit AI hardware", es: "Hardware de IA falsificado", de: "Gefaelschte KI-Hardware", nl: "Namaak AI hardware" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Deepfakes use AI to create realistic fake videos or audio of people saying or doing things they never did, raising concerns about misinformation, consent, reputation damage, and erosion of trust in media.",
+          es: "Los deepfakes usan IA para crear videos o audio falsos realistas de personas diciendo o haciendo cosas que nunca hicieron, generando preocupaciones sobre desinformacion, consentimiento, dano a reputacion y erosion de confianza en medios.",
+          de: "Deepfakes verwenden KI um realistische gefaelschte Videos oder Audio von Personen zu erstellen die Dinge sagen oder tun die sie nie taten, was Bedenken ueber Fehlinformation, Einwilligung, Reputationsschaeden und Vertrauensverlust in Medien aufwirft.",
+          nl: "Deepfakes gebruiken AI om realistische nep video's of audio te creëren van mensen die dingen zeggen of doen die ze nooit deden, wat zorgen oproept over misinformatie, toestemming, reputatieschade en erosie van vertrouwen in media."
+        }
+      },
+      {
+        question: {
+          en: "What is 'AI washing' or 'AI ethics washing'?",
+          es: "Que es 'lavado de IA' o 'lavado de etica de IA'?",
+          de: "Was ist 'AI Washing' oder 'KI-Ethik Washing'?",
+          nl: "Wat is 'AI washing' of 'AI ethiek washing'?"
+        },
+        options: [
+          { en: "Making superficial ethical claims about AI without meaningful action or accountability", es: "Hacer afirmaciones eticas superficiales sobre IA sin accion significativa o responsabilidad", de: "Oberflaechliche ethische Behauptungen ueber KI machen ohne bedeutsame Massnahmen oder Verantwortlichkeit", nl: "Oppervlakkige ethische claims maken over AI zonder betekenisvolle actie of verantwoordelijkheid" },
+          { en: "Cleaning AI training data", es: "Limpiar datos de entrenamiento de IA", de: "KI-Trainingsdaten reinigen", nl: "AI trainingsdata schoonmaken" },
+          { en: "Removing biases from AI models", es: "Eliminar sesgos de modelos de IA", de: "Verzerrungen aus KI-Modellen entfernen", nl: "Vooroordelen uit AI modellen verwijderen" },
+          { en: "Regular auditing of AI systems", es: "Auditoria regular de sistemas de IA", de: "Regelmaessige Pruefung von KI-Systemen", nl: "Regelmatige controle van AI systemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI ethics washing is when companies make public commitments to ethical AI principles primarily for marketing purposes without implementing substantial changes or being held accountable.",
+          es: "El lavado de etica de IA es cuando companias hacen compromisos publicos con principios de IA etica principalmente para propositos de marketing sin implementar cambios sustanciales o ser responsables.",
+          de: "KI-Ethik Washing ist wenn Unternehmen oeffentliche Verpflichtungen zu ethischen KI-Prinzipien hauptsaechlich fuer Marketingzwecke eingehen ohne substanzielle Aenderungen umzusetzen oder zur Verantwortung gezogen zu werden.",
+          nl: "AI ethiek washing is wanneer bedrijven publieke toezeggingen doen aan ethische AI principes voornamelijk voor marketingdoeleinden zonder substantiële veranderingen door te voeren of verantwoordelijk gehouden te worden."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'trolley problem' in AI ethics?",
+          es: "Cual es el 'problema del tranvia' en etica de IA?",
+          de: "Was ist das 'Trolley-Problem' in der KI-Ethik?",
+          nl: "Wat is het 'trolley probleem' in AI ethiek?"
+        },
+        options: [
+          { en: "A thought experiment about how AI should make life-or-death decisions in unavoidable harm scenarios", es: "Un experimento mental sobre como IA deberia tomar decisiones de vida o muerte en escenarios de dano inevitable", de: "Ein Gedankenexperiment darueber wie KI Leben-oder-Tod-Entscheidungen in unvermeidbaren Schadensszenarien treffen sollte", nl: "Een gedachte-experiment over hoe AI leven-of-dood beslissingen zou moeten nemen in onvermijdbare schade scenario's" },
+          { en: "Problems with shopping cart algorithms", es: "Problemas con algoritmos de carrito de compras", de: "Probleme mit Einkaufswagen-Algorithmen", nl: "Problemen met winkelwagen algoritmes" },
+          { en: "Issues with public transportation AI", es: "Problemas con IA de transporte publico", de: "Probleme mit oeffentlichem Verkehr-KI", nl: "Problemen met openbaar vervoer AI" },
+          { en: "Debugging train scheduling systems", es: "Depurar sistemas de programacion de trenes", de: "Zugplanungssysteme debuggen", nl: "Treinplanning systemen debuggen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The trolley problem explores ethical dilemmas in autonomous vehicles and AI systems: when harm is unavoidable, how should AI decide who gets harmed, highlighting tensions between utilitarian and deontological ethics.",
+          es: "El problema del tranvia explora dilemas eticos en vehiculos autonomos y sistemas de IA: cuando el dano es inevitable, como deberia IA decidir quien resulta danado, destacando tensiones entre etica utilitaria y deontologica.",
+          de: "Das Trolley-Problem erforscht ethische Dilemmata in autonomen Fahrzeugen und KI-Systemen: wenn Schaden unvermeidbar ist, wie sollte KI entscheiden wer geschaedigt wird, wobei Spannungen zwischen utilitaristischer und deontologischer Ethik hervorgehoben werden.",
+          nl: "Het trolley probleem verkent ethische dilemma's in autonome voertuigen en AI systemen: wanneer schade onvermijdelijk is, hoe zou AI moeten beslissen wie schade oploopt, wat spanningen tussen utilitaire en deontologische ethiek benadrukt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'accountability gap' in autonomous AI systems?",
+          es: "Que es la 'brecha de responsabilidad' en sistemas de IA autonomos?",
+          de: "Was ist die 'Verantwortungsluecke' in autonomen KI-Systemen?",
+          nl: "Wat is de 'verantwoordelijkheidskloof' in autonome AI systemen?"
+        },
+        options: [
+          { en: "Difficulty determining who is responsible when autonomous AI causes harm", es: "Dificultad para determinar quien es responsable cuando IA autonoma causa dano", de: "Schwierigkeit zu bestimmen wer verantwortlich ist wenn autonome KI Schaden verursacht", nl: "Moeilijkheid om te bepalen wie verantwoordelijk is wanneer autonome AI schade veroorzaakt" },
+          { en: "Missing audit logs in AI systems", es: "Registros de auditoria faltantes en sistemas de IA", de: "Fehlende Audit-Logs in KI-Systemen", nl: "Ontbrekende audit logs in AI systemen" },
+          { en: "Gaps in AI training data", es: "Brechas en datos de entrenamiento de IA", de: "Luecken in KI-Trainingsdaten", nl: "Hiaten in AI trainingsdata" },
+          { en: "Insufficient processing power", es: "Poder de procesamiento insuficiente", de: "Unzureichende Rechenleistung", nl: "Onvoldoende rekenkracht" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The accountability gap arises when AI systems operate autonomously - it becomes unclear whether to blame developers, deployers, users, or the AI itself when things go wrong, creating legal and ethical challenges.",
+          es: "La brecha de responsabilidad surge cuando sistemas de IA operan autonomamente - se vuelve poco claro si culpar a desarrolladores, implementadores, usuarios o la IA misma cuando las cosas salen mal, creando desafios legales y eticos.",
+          de: "Die Verantwortungsluecke entsteht wenn KI-Systeme autonom operieren - es wird unklar ob Entwickler, Betreiber, Nutzer oder die KI selbst schuld sind wenn etwas schief geht, was rechtliche und ethische Herausforderungen schafft.",
+          nl: "De verantwoordelijkheidskloof ontstaat wanneer AI systemen autonoom opereren - het wordt onduidelijk of ontwikkelaars, implementeerders, gebruikers of de AI zelf de schuld krijgen wanneer dingen misgaan, wat juridische en ethische uitdagingen creëert."
+        }
+      },
+      {
+        question: {
+          en: "What is 'moral machine' research in AI ethics?",
+          es: "Que es la investigacion de 'maquina moral' en etica de IA?",
+          de: "Was ist 'Moral Machine' Forschung in der KI-Ethik?",
+          nl: "Wat is 'moral machine' onderzoek in AI ethiek?"
+        },
+        options: [
+          { en: "Research gathering global perspectives on ethical decisions autonomous vehicles should make", es: "Investigacion recopilando perspectivas globales sobre decisiones eticas que vehiculos autonomos deberian tomar", de: "Forschung die globale Perspektiven sammelt ueber ethische Entscheidungen die autonome Fahrzeuge treffen sollten", nl: "Onderzoek dat wereldwijde perspectieven verzamelt over ethische beslissingen die autonome voertuigen zouden moeten nemen" },
+          { en: "Building machines that can feel emotions", es: "Construir maquinas que puedan sentir emociones", de: "Maschinen bauen die Emotionen fuehlen koennen", nl: "Machines bouwen die emoties kunnen voelen" },
+          { en: "Teaching AI about morality", es: "Ensenar a IA sobre moralidad", de: "KI ueber Moralitaet unterrichten", nl: "AI leren over moraliteit" },
+          { en: "Creating ethical guidelines for robots", es: "Crear guias eticas para robots", de: "Ethische Richtlinien fuer Roboter erstellen", nl: "Ethische richtlijnen creëren voor robots" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Moral Machine project collected millions of decisions from people worldwide on ethical dilemmas autonomous vehicles might face, revealing cultural differences in moral preferences and informing AI ethics policy.",
+          es: "El proyecto Maquina Moral recopio millones de decisiones de personas en todo el mundo sobre dilemas eticos que vehiculos autonomos podrian enfrentar, revelando diferencias culturales en preferencias morales e informando politica de etica de IA.",
+          de: "Das Moral Machine Projekt sammelte Millionen von Entscheidungen von Menschen weltweit ueber ethische Dilemmata denen autonome Fahrzeuge begegnen koennten, enthuelltekulturelle Unterschiede in moralischen Praeferenzen und informierte KI-Ethikpolitik.",
+          nl: "Het Moral Machine project verzamelde miljoenen beslissingen van mensen wereldwijd over ethische dilemma's die autonome voertuigen zouden kunnen tegenkomen, wat culturele verschillen in morele voorkeuren onthulde en AI ethiek beleid informeerde."
+        }
+      },
+      {
+        question: {
+          en: "What is 'value alignment' in AI ethics?",
+          es: "Que es la 'alineacion de valores' en etica de IA?",
+          de: "Was ist 'Werte-Ausrichtung' in der KI-Ethik?",
+          nl: "Wat is 'waarde-alignment' in AI ethiek?"
+        },
+        options: [
+          { en: "Ensuring AI systems pursue goals and values that match human intentions and wellbeing", es: "Asegurar que sistemas de IA persiguen metas y valores que coinciden con intenciones y bienestar humanos", de: "Sicherstellen dass KI-Systeme Ziele und Werte verfolgen die menschlichen Absichten und Wohlergehen entsprechen", nl: "Waarborgen dat AI systemen doelen en waarden nastreven die overeenkomen met menselijke intenties en welzijn" },
+          { en: "Aligning AI hardware components correctly", es: "Alinear componentes de hardware de IA correctamente", de: "KI-Hardware-Komponenten korrekt ausrichten", nl: "AI hardware componenten correct uitlijnen" },
+          { en: "Matching AI processing speeds", es: "Igualar velocidades de procesamiento de IA", de: "KI-Verarbeitungsgeschwindigkeiten angleichen", nl: "AI verwerkingssnelheden matchen" },
+          { en: "Synchronizing multiple AI models", es: "Sincronizar multiples modelos de IA", de: "Mehrere KI-Modelle synchronisieren", nl: "Meerdere AI modellen synchroniseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Value alignment is the challenge of creating AI systems that truly understand and pursue human values, preventing unintended consequences from AI optimizing for goals that don't reflect what we actually want.",
+          es: "La alineacion de valores es el desafio de crear sistemas de IA que verdaderamente entiendan y persigan valores humanos, previniendo consecuencias no deseadas de IA optimizando para metas que no reflejan lo que realmente queremos.",
+          de: "Werte-Ausrichtung ist die Herausforderung KI-Systeme zu schaffen die menschliche Werte wirklich verstehen und verfolgen, um unbeabsichtigte Konsequenzen zu verhindern wenn KI fuer Ziele optimiert die nicht widerspiegeln was wir tatsaechlich wollen.",
+          nl: "Waarde-alignment is de uitdaging om AI systemen te creëren die menselijke waarden echt begrijpen en nastreven, om onbedoelde gevolgen te voorkomen wanneer AI optimaliseert voor doelen die niet weerspiegelen wat we werkelijk willen."
+        }
       }
     ]
   };

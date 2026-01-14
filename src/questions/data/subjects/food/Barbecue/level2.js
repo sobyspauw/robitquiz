@@ -427,6 +427,426 @@
           de: "Die Minion-Methode, benannt nach Jim Minion, beinhaltet das Füllen des Kohlekorbs mit unangezündeter Kohle, dann eine kleine Menge angezündeter Kohle darauf legen. Die angezündete Kohle entzündet allmählich die unangezündete darunter, bietet stabile, langanhaltende Hitze perfekt für verlängerte Räuchersitzungen.",
           nl: "De minion methode, genoemd naar Jim Minion, houdt het vullen van de houtskoolmand met niet aangestoken kolen in, dan een kleine hoeveelheid aangestoken kolen bovenop plaatsen. De aangestoken kolen ontsteken geleidelijk de niet aangestoken eronder, biedt stabiele, langdurige warmte perfect voor verlengde rooksessies."
         }
+      },
+      {
+        question: {
+          en: "What is the difference between lump charcoal and briquettes?",
+          es: "¿Cuál es la diferencia entre carbón en trozos y briquetas?",
+          de: "Was ist der Unterschied zwischen Holzkohlestücken und Briketts?",
+          nl: "Wat is het verschil tussen klomp houtskool en briketten?"
+        },
+        options: [
+          { en: "Lump is pure carbonized wood, briquettes contain binders and fillers", es: "Trozos es madera carbonizada pura, briquetas contienen aglutinantes y rellenos", de: "Stücke sind reine verkohlte Holz, Briketts enthalten Bindemittel und Füllstoffe", nl: "Klomp is puur verkoold hout, briketten bevatten bindmiddelen en vulstoffen" },
+          { en: "They are exactly the same", es: "Son exactamente iguales", de: "Sie sind genau gleich", nl: "Ze zijn precies hetzelfde" },
+          { en: "Lump is for gas grills only", es: "Trozos es solo para parrillas de gas", de: "Stücke sind nur für Gasgrills", nl: "Klomp is alleen voor gasgrills" },
+          { en: "Briquettes burn hotter", es: "Briquetas queman más caliente", de: "Briketts brennen heißer", nl: "Briketten branden heter" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Lump charcoal is pure carbonized hardwood with no additives, burns hotter and cleaner. Briquettes are compressed charcoal with binders and fillers, burn longer and more consistently but may contain chemicals.",
+          es: "Carbón en trozos es madera dura carbonizada pura sin aditivos, quema más caliente y limpio. Briquetas son carbón comprimido con aglutinantes y rellenos, queman más tiempo y consistentemente pero pueden contener químicos.",
+          de: "Holzkohlestücke sind reine verkohlt Hartholz ohne Zusätze, brennen heißer und sauberer. Briketts sind gepresste Kohle mit Bindemitteln und Füllstoffen, brennen länger und gleichmäßiger aber können Chemikalien enthalten.",
+          nl: "Klomp houtskool is puur verkoold hardhout zonder toevoegingen, brandt heter en schoner. Briketten zijn geperste houtskool met bindmiddelen en vulstoffen, branden langer en consistenter maar kunnen chemicaliën bevatten."
+        }
+      },
+      {
+        question: {
+          en: "What wood provides the strongest smoke flavor?",
+          es: "¿Qué madera proporciona el sabor de humo más fuerte?",
+          de: "Welches Holz bietet den stärksten Rauchgeschmack?",
+          nl: "Welk hout biedt de sterkste rooksmaak?"
+        },
+        options: [
+          { en: "Mesquite", es: "Mezquite", de: "Mesquite", nl: "Mesquite" },
+          { en: "Apple", es: "Manzana", de: "Apfel", nl: "Appel" },
+          { en: "Cherry", es: "Cereza", de: "Kirsche", nl: "Kers" },
+          { en: "Alder", es: "Aliso", de: "Erle", nl: "Els" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mesquite wood provides the most intense, bold smoke flavor. It's popular in Texas-style barbecue but can be overpowering if used excessively, best used in moderation or mixed with milder woods.",
+          es: "La madera de mezquite proporciona el sabor de humo más intenso y audaz. Es popular en barbacoa estilo Texas pero puede ser abrumadora si se usa excesivamente, mejor usar con moderación o mezclada con maderas más suaves.",
+          de: "Mesquite-Holz bietet den intensivsten, kräftigsten Rauchgeschmack. Es ist beliebt in Texas-Stil Barbecue aber kann überwältigend sein wenn übermäßig verwendet, am besten sparsam oder gemischt mit milderen Hölzern verwenden.",
+          nl: "Mesquite hout biedt de meest intense, gedurfde rooksmaak. Het is populair in Texas-stijl barbecue maar kan overweldigend zijn bij overmatig gebruik, het beste matig gebruiken of gemengd met mildere houten."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'hot and fast' cooking method in barbecue?",
+          es: "¿Qué es el método de cocción 'caliente y rápido' en barbacoa?",
+          de: "Was ist eine 'heiß und schnell' Kochmethode beim Barbecue?",
+          nl: "Wat is een 'heet en snel' kookmethode bij barbecue?"
+        },
+        options: [
+          { en: "Cooking at 275-325°F to reduce cooking time while maintaining quality", es: "Cocinar a 275-325°F para reducir tiempo de cocción mientras se mantiene calidad", de: "Kochen bei 275-325°F um Kochzeit zu reduzieren während Qualität erhalten bleibt", nl: "Koken op 275-325°F om kooktijd te verminderen terwijl kwaliteit behouden blijft" },
+          { en: "Grilling at maximum heat", es: "Asar a calor máximo", de: "Grillen bei maximaler Hitze", nl: "Grillen op maximale hitte" },
+          { en: "Using only gas grills", es: "Usar solo parrillas de gas", de: "Nur Gasgrills verwenden", nl: "Alleen gasgrills gebruiken" },
+          { en: "Never checking temperature", es: "Nunca verificar temperatura", de: "Niemals Temperatur prüfen", nl: "Nooit temperatuur controleren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hot and fast barbecue uses higher temperatures (275-325°F) to cook in less time while still breaking down collagen. It's gaining popularity as an alternative to traditional low and slow methods.",
+          es: "Barbacoa caliente y rápida usa temperaturas más altas (275-325°F) para cocinar en menos tiempo mientras descompone colágeno. Está ganando popularidad como alternativa a métodos tradicionales bajos y lentos.",
+          de: "Heiß und schnell Barbecue verwendet höhere Temperaturen (275-325°F) um in weniger Zeit zu kochen während immer noch Kollagen abgebaut wird. Es gewinnt an Beliebtheit als Alternative zu traditionellen niedrigen und langsamen Methoden.",
+          nl: "Heet en snel barbecue gebruikt hogere temperaturen (275-325°F) om in minder tijd te koken terwijl nog steeds collageen wordt afgebroken. Het wint aan populariteit als alternatief voor traditionele lage en langzame methoden."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of trimming the fat cap on brisket?",
+          es: "¿Cuál es el propósito de recortar la capa de grasa del brisket?",
+          de: "Was ist der Zweck des Trimmens der Fettkappe auf Rinderbrust?",
+          nl: "Wat is het doel van het trimmen van de vetlaag op brisket?"
+        },
+        options: [
+          { en: "To allow smoke and rub penetration while keeping enough fat for moisture", es: "Para permitir penetración de humo y rub mientras se mantiene suficiente grasa para humedad", de: "Um Rauch- und Rub-Penetration zu ermöglichen während genug Fett für Feuchtigkeit erhalten bleibt", nl: "Om rook- en rub-penetratie toe te staan terwijl genoeg vet voor vocht behouden blijft" },
+          { en: "To remove all fat completely", es: "Para eliminar toda la grasa completamente", de: "Um alles Fett vollständig zu entfernen", nl: "Om al het vet volledig te verwijderen" },
+          { en: "To make it cook faster", es: "Para que cocine más rápido", de: "Um es schneller zu kochen", nl: "Om het sneller te laten koken" },
+          { en: "Fat cap doesn't need trimming", es: "La capa de grasa no necesita recorte", de: "Fettkappe braucht kein Trimmen", nl: "Vetlaag heeft geen trimmen nodig" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Trimming the fat cap to about 1/4 inch allows smoke and seasoning to penetrate while retaining enough fat to baste the meat during cooking. Too much fat won't render and blocks flavor.",
+          es: "Recortar la capa de grasa a aproximadamente 1/4 pulgada permite que el humo y condimentos penetren mientras se retiene suficiente grasa para rociar la carne durante la cocción. Demasiada grasa no se derrite y bloquea sabor.",
+          de: "Das Trimmen der Fettkappe auf etwa 1/4 Zoll ermöglicht Rauch und Würze zu penetrieren während genug Fett erhalten bleibt um das Fleisch während des Kochens zu übergießen. Zu viel Fett rendert nicht und blockiert Geschmack.",
+          nl: "Het trimmen van de vetlaag tot ongeveer 1/4 inch stelt rook en kruiden in staat te penetreren terwijl genoeg vet behouden blijft om het vlees tijdens het koken te begieten. Te veel vet smelt niet en blokkeert smaak."
+        }
+      },
+      {
+        question: {
+          en: "What is a deflector plate or heat shield used for?",
+          es: "¿Para qué se usa una placa deflectora o escudo de calor?",
+          de: "Wofür wird eine Deflektorplatte oder Hitzeschild verwendet?",
+          nl: "Waarvoor wordt een deflectorplaat of hitteschild gebruikt?"
+        },
+        options: [
+          { en: "To create indirect heat and prevent flare-ups", es: "Para crear calor indirecto y prevenir llamaradas", de: "Um indirekte Hitze zu erzeugen und Stichflammen zu verhindern", nl: "Om indirecte warmte te creëren en vlammen te voorkomen" },
+          { en: "To increase cooking temperature", es: "Para aumentar temperatura de cocción", de: "Um Kochtemperatur zu erhöhen", nl: "Om kooktemperatuur te verhogen" },
+          { en: "To hold wood chips", es: "Para sostener astillas de madera", de: "Um Holzspäne zu halten", nl: "Om houten chips vast te houden" },
+          { en: "To clean the grill easier", es: "Para limpiar la parrilla más fácil", de: "Um den Grill einfacher zu reinigen", nl: "Om de grill makkelijker schoon te maken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A deflector plate or heat shield sits between the fire and food to distribute heat evenly, prevent direct flame contact, and catch drippings that would cause flare-ups.",
+          es: "Una placa deflectora o escudo de calor se sitúa entre el fuego y la comida para distribuir calor uniformemente, prevenir contacto directo con llamas, y atrapar goteos que causarían llamaradas.",
+          de: "Eine Deflektorplatte oder Hitzeschild sitzt zwischen Feuer und Essen um Hitze gleichmäßig zu verteilen, direkten Flammenkontakt zu verhindern, und Tropfen zu fangen die Stichflammen verursachen würden.",
+          nl: "Een deflectorplaat of hitteschild zit tussen het vuur en voedsel om warmte gelijkmatig te verdelen, direct vlamcontact te voorkomen, en druppels op te vangen die vlammen zouden veroorzaken."
+        }
+      },
+      {
+        question: {
+          en: "What is the ideal internal temperature for pulled pork?",
+          es: "¿Cuál es la temperatura interna ideal para pulled pork?",
+          de: "Was ist die ideale Innentemperatur für Pulled Pork?",
+          nl: "Wat is de ideale interne temperatuur voor pulled pork?"
+        },
+        options: [
+          { en: "195-205°F (90-96°C)", es: "195-205°F (90-96°C)", de: "195-205°F (90-96°C)", nl: "195-205°F (90-96°C)" },
+          { en: "145°F (63°C)", es: "145°F (63°C)", de: "145°F (63°C)", nl: "145°F (63°C)" },
+          { en: "165°F (74°C)", es: "165°F (74°C)", de: "165°F (74°C)", nl: "165°F (74°C)" },
+          { en: "225°F (107°C)", es: "225°F (107°C)", de: "225°F (107°C)", nl: "225°F (107°C)" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pork shoulder for pulling needs 195-205°F internal temperature. This high temp fully breaks down collagen into gelatin, making the meat tender enough to pull apart easily.",
+          es: "Paleta de cerdo para desmenuzar necesita temperatura interna de 195-205°F. Esta temperatura alta descompone completamente el colágeno en gelatina, haciendo la carne lo suficientemente tierna para separar fácilmente.",
+          de: "Schweineschulter zum Pullen braucht 195-205°F Innentemperatur. Diese hohe Temp baut Kollagen vollständig zu Gelatine ab, macht das Fleisch zart genug um leicht auseinanderzuziehen.",
+          nl: "Varkensschouder voor pullen heeft 195-205°F interne temperatuur nodig. Deze hoge temp breekt collageen volledig af tot gelatine, maakt het vlees mals genoeg om gemakkelijk uit elkaar te trekken."
+        }
+      },
+      {
+        question: {
+          en: "What does the term 'money muscle' refer to in pork shoulder?",
+          es: "¿A qué se refiere el término 'money muscle' en la paleta de cerdo?",
+          de: "Worauf bezieht sich der Begriff 'Money Muscle' in Schweineschulter?",
+          nl: "Waar verwijst de term 'money muscle' naar in varkensschouder?"
+        },
+        options: [
+          { en: "The teres major muscle - the most tender and flavorful part", es: "El músculo teres major - la parte más tierna y sabrosa", de: "Der Teres-Major-Muskel - der zarteste und geschmackvollste Teil", nl: "De teres major spier - het malste en smaakvollste deel" },
+          { en: "The fattiest section", es: "La sección más grasosa", de: "Der fetteste Abschnitt", nl: "Het vetste gedeelte" },
+          { en: "The bone marrow", es: "La médula ósea", de: "Das Knochenmark", nl: "Het beenmerg" },
+          { en: "The skin layer", es: "La capa de piel", de: "Die Hautschicht", nl: "De huidlaag" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The money muscle is the teres major, a small cylindrical muscle on the blade bone side of pork shoulder. It's prized in competition BBQ for its tenderness and is often sliced for presentation.",
+          es: "El money muscle es el teres major, un pequeño músculo cilíndrico en el lado del hueso de la paleta de cerdo. Es valorado en competencias de BBQ por su ternura y a menudo se corta para presentación.",
+          de: "Der Money Muscle ist der Teres Major, ein kleiner zylindrischer Muskel an der Schulterblatt-Seite der Schweineschulter. Er wird in BBQ-Wettbewerben für seine Zartheit geschätzt und oft für die Präsentation geschnitten.",
+          nl: "De money muscle is de teres major, een kleine cilindrische spier aan de schouderbladkant van varkensschouder. Het wordt gewaardeerd in BBQ competities voor zijn malheid en wordt vaak gesneden voor presentatie."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of a drip pan under the meat?",
+          es: "¿Cuál es el propósito de una bandeja de goteo debajo de la carne?",
+          de: "Was ist der Zweck einer Auffangschale unter dem Fleisch?",
+          nl: "Wat is het doel van een druppelpan onder het vlees?"
+        },
+        options: [
+          { en: "Catch drippings to prevent flare-ups and keep cooker clean", es: "Atrapar goteos para prevenir llamaradas y mantener limpio el cocinador", de: "Tropfen fangen um Stichflammen zu verhindern und Kocher sauber zu halten", nl: "Druppels opvangen om vlammen te voorkomen en kooktoestel schoon te houden" },
+          { en: "Add moisture to the air", es: "Añadir humedad al aire", de: "Feuchtigkeit zur Luft hinzufügen", nl: "Vocht toevoegen aan de lucht" },
+          { en: "Speed up cooking", es: "Acelerar la cocción", de: "Kochen beschleunigen", nl: "Koken versnellen" },
+          { en: "Increase smoke flavor", es: "Aumentar sabor de humo", de: "Rauchgeschmack erhöhen", nl: "Rooksmaak verhogen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A drip pan catches fat and juices that drip from meat, preventing flare-ups from grease hitting hot coals and making cleanup easier. The drippings can also be used for sauces or gravy.",
+          es: "Una bandeja de goteo atrapa grasa y jugos que gotean de la carne, previniendo llamaradas de grasa golpeando carbones calientes y facilitando la limpieza. Los goteos también pueden usarse para salsas o gravy.",
+          de: "Eine Auffangschale fängt Fett und Säfte die vom Fleisch tropfen, verhindert Stichflammen von Fett das heiße Kohlen trifft und erleichtert die Reinigung. Die Tropfen können auch für Saucen oder Soße verwendet werden.",
+          nl: "Een druppelpan vangt vet en sappen die van vlees druppelen, voorkomt vlammen van vet dat hete kolen raakt en maakt schoonmaken makkelijker. De druppels kunnen ook gebruikt worden voor sauzen of jus."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between dry aging and wet aging beef?",
+          es: "¿Cuál es la diferencia entre maduración en seco y maduración húmeda de res?",
+          de: "Was ist der Unterschied zwischen Trocken- und Nassreifung von Rindfleisch?",
+          nl: "Wat is het verschil tussen droog rijpen en nat rijpen van rundvlees?"
+        },
+        options: [
+          { en: "Dry aging is uncovered in controlled environment, wet aging is vacuum sealed", es: "Maduración seca es descubierta en ambiente controlado, maduración húmeda es sellada al vacío", de: "Trockenreifung ist unbedeckt in kontrollierter Umgebung, Nassreifung ist vakuumversiegelt", nl: "Droog rijpen is onbedekt in gecontroleerde omgeving, nat rijpen is vacuümverzegeld" },
+          { en: "Dry aging uses salt, wet aging doesn't", es: "Maduración seca usa sal, maduración húmeda no", de: "Trockenreifung verwendet Salz, Nassreifung nicht", nl: "Droog rijpen gebruikt zout, nat rijpen niet" },
+          { en: "They are the same process", es: "Son el mismo proceso", de: "Sie sind derselbe Prozess", nl: "Ze zijn hetzelfde proces" },
+          { en: "Wet aging is for pork only", es: "Maduración húmeda es solo para cerdo", de: "Nassreifung ist nur für Schweinefleisch", nl: "Nat rijpen is alleen voor varkensvlees" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dry aging exposes meat to air in a temperature/humidity controlled environment for weeks, concentrating flavors and tenderizing. Wet aging vacuum-seals meat in plastic, aging in its own juices for a milder result.",
+          es: "Maduración seca expone carne al aire en ambiente controlado de temperatura/humedad por semanas, concentrando sabores y ablandando. Maduración húmeda sella al vacío carne en plástico, madurando en sus propios jugos para resultado más suave.",
+          de: "Trockenreifung setzt Fleisch Luft in temperatur-/feuchtigkeitskontrollierter Umgebung für Wochen aus, konzentriert Aromen und macht zart. Nassreifung vakuumversiegelt Fleisch in Plastik, reift in eigenen Säften für milderes Ergebnis.",
+          nl: "Droog rijpen stelt vlees bloot aan lucht in temperatuur/vochtigheid gecontroleerde omgeving voor weken, concentreert smaken en maakt mals. Nat rijpen vacuümverzegelt vlees in plastic, rijpt in eigen sappen voor milder resultaat."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'crutch' phase in barbecue?",
+          es: "¿Qué es la fase 'crutch' en barbacoa?",
+          de: "Was ist die 'Crutch'-Phase beim Barbecue?",
+          nl: "Wat is de 'crutch' fase bij barbecue?"
+        },
+        options: [
+          { en: "Wrapping meat in foil or paper to power through the stall", es: "Envolver carne en papel aluminio o papel para superar el estancamiento", de: "Fleisch in Folie oder Papier wickeln um durch den Stall zu kommen", nl: "Vlees in folie of papier wikkelen om door de stall heen te komen" },
+          { en: "The first hour of cooking", es: "La primera hora de cocción", de: "Die erste Stunde des Kochens", nl: "Het eerste uur van koken" },
+          { en: "Adding more charcoal", es: "Añadir más carbón", de: "Mehr Holzkohle hinzufügen", nl: "Meer houtskool toevoegen" },
+          { en: "Resting the meat after cooking", es: "Reposar la carne después de cocinar", de: "Das Fleisch nach dem Kochen ruhen lassen", nl: "Het vlees laten rusten na het koken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The crutch refers to wrapping meat (usually in foil or butcher paper) when it hits the stall around 150-170°F. This traps moisture and heat, helping push through the temperature plateau faster.",
+          es: "El crutch se refiere a envolver carne (usualmente en papel aluminio o papel de carnicero) cuando golpea el estancamiento alrededor de 150-170°F. Esto atrapa humedad y calor, ayudando a empujar a través del plateau de temperatura más rápido.",
+          de: "Der Crutch bezieht sich auf Einwickeln von Fleisch (normalerweise in Folie oder Metzgerpapier) wenn es den Stall um 150-170°F erreicht. Dies fängt Feuchtigkeit und Hitze ein, hilft schneller durch das Temperaturplateau zu kommen.",
+          nl: "De crutch verwijst naar het inwikkelen van vlees (meestal in folie of slagerspapier) wanneer het de stall rond 150-170°F bereikt. Dit vangt vocht en warmte, helpt sneller door het temperatuurplateau heen te komen."
+        }
+      },
+      {
+        question: {
+          en: "What wood is best for smoking fish?",
+          es: "¿Qué madera es mejor para ahumar pescado?",
+          de: "Welches Holz ist am besten zum Räuchern von Fisch?",
+          nl: "Welk hout is het beste voor het roken van vis?"
+        },
+        options: [
+          { en: "Alder or fruit woods like apple and cherry", es: "Aliso o maderas de frutas como manzana y cereza", de: "Erle oder Obsthölzer wie Apfel und Kirsche", nl: "Els of fruithouten zoals appel en kers" },
+          { en: "Mesquite only", es: "Solo mezquite", de: "Nur Mesquite", nl: "Alleen mesquite" },
+          { en: "Hickory exclusively", es: "Exclusivamente nogal americano", de: "Ausschließlich Hickory", nl: "Uitsluitend hickory" },
+          { en: "Oak is the only option", es: "Roble es la única opción", de: "Eiche ist die einzige Option", nl: "Eik is de enige optie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Alder is traditional for smoking fish, especially salmon, providing mild, sweet smoke. Fruit woods like apple and cherry also work well, giving delicate flavor without overpowering the fish's taste.",
+          es: "Aliso es tradicional para ahumar pescado, especialmente salmón, proporcionando humo suave y dulce. Maderas de frutas como manzana y cereza también funcionan bien, dando sabor delicado sin abrumar el sabor del pescado.",
+          de: "Erle ist traditionell zum Räuchern von Fisch, besonders Lachs, bietet milden, süßen Rauch. Obsthölzer wie Apfel und Kirsche funktionieren auch gut, geben zarten Geschmack ohne den Fischgeschmack zu überwältigen.",
+          nl: "Els is traditioneel voor het roken van vis, vooral zalm, biedt milde, zoete rook. Fruithouten zoals appel en kers werken ook goed, geven delicate smaak zonder de vissmaak te overheersen."
+        }
+      },
+      {
+        question: {
+          en: "What is the benefit of dry brining vs wet brining?",
+          es: "¿Cuál es el beneficio del brining seco vs brining húmedo?",
+          de: "Was ist der Vorteil von Trockenpökeln vs Nasspökeln?",
+          nl: "Wat is het voordeel van droog pekelen vs nat pekelen?"
+        },
+        options: [
+          { en: "Dry brining concentrates flavors and creates crispier skin", es: "Brining seco concentra sabores y crea piel más crujiente", de: "Trockenpökeln konzentriert Aromen und erzeugt knusprigere Haut", nl: "Droog pekelen concentreert smaken en creëert knapperiger huid" },
+          { en: "Dry brining is faster", es: "Brining seco es más rápido", de: "Trockenpökeln ist schneller", nl: "Droog pekelen is sneller" },
+          { en: "Wet brining is always better", es: "Brining húmedo es siempre mejor", de: "Nasspökeln ist immer besser", nl: "Nat pekelen is altijd beter" },
+          { en: "They produce identical results", es: "Producen resultados idénticos", de: "Sie produzieren identische Ergebnisse", nl: "Ze produceren identieke resultaten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dry brining (salting) draws out moisture which then reabsorbs with salt, concentrating flavor without diluting it. It also dries the skin for better crisping. Wet brining adds moisture but can dilute flavor.",
+          es: "Brining seco (salado) extrae humedad que luego reabsorbe con sal, concentrando sabor sin diluirlo. También seca la piel para mejor crocancia. Brining húmedo añade humedad pero puede diluir sabor.",
+          de: "Trockenpökeln (Salzen) zieht Feuchtigkeit heraus die dann mit Salz reabsorbiert wird, konzentriert Geschmack ohne zu verdünnen. Es trocknet auch die Haut für bessere Knusprigkeit. Nasspökeln fügt Feuchtigkeit hinzu aber kann Geschmack verdünnen.",
+          nl: "Droog pekelen (zouten) haalt vocht eruit dat dan met zout wordt geherabsorbeerd, concentreert smaak zonder te verdunnen. Het droogt ook de huid voor betere knapperigheid. Nat pekelen voegt vocht toe maar kan smaak verdunnen."
+        }
+      },
+      {
+        question: {
+          en: "What is a reverse flow smoker?",
+          es: "¿Qué es un ahumador de flujo inverso?",
+          de: "Was ist ein Reverse-Flow-Smoker?",
+          nl: "Wat is een reverse flow roker?"
+        },
+        options: [
+          { en: "A smoker where smoke travels under a baffle plate before reaching meat", es: "Un ahumador donde el humo viaja bajo una placa deflectora antes de llegar a la carne", de: "Ein Smoker wo Rauch unter einer Leitplatte reist bevor er Fleisch erreicht", nl: "Een roker waar rook onder een baffle plaat reist voordat het vlees bereikt" },
+          { en: "A smoker that uses reverse osmosis", es: "Un ahumador que usa ósmosis inversa", de: "Ein Smoker der Umkehrosmose verwendet", nl: "Een roker die omgekeerde osmose gebruikt" },
+          { en: "A backwards-facing chimney", es: "Una chimenea orientada hacia atrás", de: "Ein rückwärts gerichteter Schornstein", nl: "Een achterwaarts gerichte schoorsteen" },
+          { en: "A smoker you load from the back", es: "Un ahumador que se carga desde atrás", de: "Ein Smoker den man von hinten belädt", nl: "Een roker die je van achteren laadt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In a reverse flow smoker, smoke and heat travel from the firebox under a baffle plate to the opposite end, then reverse direction over the top to exit. This creates more even heat distribution.",
+          es: "En un ahumador de flujo inverso, humo y calor viajan desde la caja de fuego bajo una placa deflectora al extremo opuesto, luego revierten dirección sobre la parte superior para salir. Esto crea distribución de calor más uniforme.",
+          de: "In einem Reverse-Flow-Smoker reisen Rauch und Hitze von der Feuerbox unter einer Leitplatte zum gegenüberliegenden Ende, dann kehren die Richtung über die Oberseite um auszutreten. Dies schafft gleichmäßigere Hitzeverteilung.",
+          nl: "In een reverse flow roker reizen rook en warmte van de vuurbox onder een baffle plaat naar het tegenovergestelde einde, dan keren de richting om over de bovenkant om te vertrekken. Dit creëert meer gelijkmatige warmteverdeling."
+        }
+      },
+      {
+        question: {
+          en: "What is the point and flat in a brisket?",
+          es: "¿Qué es el point y el flat en un brisket?",
+          de: "Was sind Point und Flat in einer Rinderbrust?",
+          nl: "Wat zijn de point en flat in een brisket?"
+        },
+        options: [
+          { en: "Two muscles: point is fattier/thicker, flat is leaner/thinner", es: "Dos músculos: point es más graso/grueso, flat es más magro/delgado", de: "Zwei Muskeln: Point ist fetter/dicker, Flat ist magerer/dünner", nl: "Twee spieren: point is vetter/dikker, flat is magerder/dunner" },
+          { en: "Point is the tip, flat is the middle", es: "Point es la punta, flat es el medio", de: "Point ist die Spitze, Flat ist die Mitte", nl: "Point is de punt, flat is het midden" },
+          { en: "Different cooking temperatures", es: "Diferentes temperaturas de cocción", de: "Verschiedene Kochtemperaturen", nl: "Verschillende kooktemperaturen" },
+          { en: "Two different cuts of beef", es: "Dos cortes diferentes de res", de: "Zwei verschiedene Rindfleischstücke", nl: "Twee verschillende stukken rundvlees" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A whole packer brisket has two muscles: the point (deckle) is thicker with more marbling and fat, while the flat is leaner and more uniform. They're separated by a fat layer.",
+          es: "Un brisket packer entero tiene dos músculos: el point (deckle) es más grueso con más marmoleo y grasa, mientras el flat es más magro y uniforme. Están separados por una capa de grasa.",
+          de: "Eine ganze Packer-Rinderbrust hat zwei Muskeln: der Point (Deckle) ist dicker mit mehr Marmorierung und Fett, während der Flat magerer und gleichmäßiger ist. Sie sind durch eine Fettschicht getrennt.",
+          nl: "Een hele packer brisket heeft twee spieren: de point (deckle) is dikker met meer marmerering en vet, terwijl de flat magerder en uniformer is. Ze zijn gescheiden door een vetlaag."
+        }
+      },
+      {
+        question: {
+          en: "What is the Maillard reaction in barbecue?",
+          es: "¿Qué es la reacción de Maillard en barbacoa?",
+          de: "Was ist die Maillard-Reaktion beim Barbecue?",
+          nl: "Wat is de Maillard reactie bij barbecue?"
+        },
+        options: [
+          { en: "Chemical reaction between amino acids and sugars creating brown crust and complex flavors", es: "Reacción química entre aminoácidos y azúcares creando corteza marrón y sabores complejos", de: "Chemische Reaktion zwischen Aminosäuren und Zucker die braune Kruste und komplexe Aromen schafft", nl: "Chemische reactie tussen aminozuren en suikers die bruine korst en complexe smaken creëert" },
+          { en: "The smoking process", es: "El proceso de ahumado", de: "Der Räucherprozess", nl: "Het rookproces" },
+          { en: "Fat rendering", es: "Derretimiento de grasa", de: "Fettrendern", nl: "Vet smelten" },
+          { en: "Caramelization of vegetables", es: "Caramelización de vegetales", de: "Karamellisierung von Gemüse", nl: "Karamelisatie van groenten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Maillard reaction occurs between 300-500°F when amino acids and reducing sugars react, creating hundreds of flavor compounds and the brown bark on meat. It's different from caramelization which only involves sugars.",
+          es: "La reacción de Maillard ocurre entre 300-500°F cuando aminoácidos y azúcares reductores reaccionan, creando cientos de compuestos de sabor y el bark marrón en la carne. Es diferente de caramelización que solo involucra azúcares.",
+          de: "Die Maillard-Reaktion tritt zwischen 300-500°F auf wenn Aminosäuren und reduzierende Zucker reagieren, hunderte Aromaverbindungen und die braune Bark auf Fleisch schaffen. Sie unterscheidet sich von Karamellisierung die nur Zucker beinhaltet.",
+          nl: "De Maillard reactie treedt op tussen 300-500°F wanneer aminozuren en reducerende suikers reageren, honderden smaakverbindingen en de bruine bark op vlees creëren. Het verschilt van karamelisatie die alleen suikers betreft."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of a smoke ring?",
+          es: "¿Cuál es el propósito de un anillo de humo?",
+          de: "Was ist der Zweck eines Rauchrings?",
+          nl: "Wat is het doel van een rookring?"
+        },
+        options: [
+          { en: "It's a visual indicator of smoke exposure, not for flavor", es: "Es un indicador visual de exposición al humo, no para sabor", de: "Es ist ein visueller Indikator für Rauchbelichtung, nicht für Geschmack", nl: "Het is een visuele indicator van rookblootstelling, niet voor smaak" },
+          { en: "It adds smoke flavor to the meat", es: "Añade sabor de humo a la carne", de: "Es verleiht dem Fleisch Rauchgeschmack", nl: "Het voegt rooksmaak toe aan het vlees" },
+          { en: "It helps cook the meat faster", es: "Ayuda a cocinar la carne más rápido", de: "Es hilft das Fleisch schneller zu kochen", nl: "Het helpt het vlees sneller te koken" },
+          { en: "It makes meat more tender", es: "Hace la carne más tierna", de: "Es macht Fleisch zarter", nl: "Het maakt vlees malser" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The smoke ring is a pink layer caused by nitrogen dioxide in smoke reacting with myoglobin in meat. While prized in competitions, it's purely cosmetic and doesn't affect flavor or tenderness.",
+          es: "El anillo de humo es una capa rosa causada por dióxido de nitrógeno en humo reaccionando con mioglobina en carne. Aunque valorado en competencias, es puramente cosmético y no afecta sabor o ternura.",
+          de: "Der Rauchring ist eine rosa Schicht verursacht durch Stickstoffdioxid im Rauch das mit Myoglobin im Fleisch reagiert. Obwohl in Wettbewerben geschätzt, ist er rein kosmetisch und beeinflusst Geschmack oder Zartheit nicht.",
+          nl: "De rookring is een roze laag veroorzaakt door stikstofdioxide in rook dat reageert met myoglobine in vlees. Hoewel gewaardeerd in competities, is het puur cosmetisch en beïnvloedt smaak of malheid niet."
+        }
+      },
+      {
+        question: {
+          en: "What are burnt ends?",
+          es: "¿Qué son los burnt ends?",
+          de: "Was sind Burnt Ends?",
+          nl: "Wat zijn burnt ends?"
+        },
+        options: [
+          { en: "Cubed point muscle of brisket, re-smoked until caramelized and tender", es: "Músculo point del brisket en cubos, reahumado hasta caramelizar y ablandar", de: "Gewürfelter Point-Muskel der Rinderbrust, erneut geräuchert bis karamellisiert und zart", nl: "Geblokte point spier van brisket, opnieuw gerookt tot gekarameliseerd en mals" },
+          { en: "Overcooked and ruined meat", es: "Carne sobrecocinada y arruinada", de: "Übergekochtes und ruiniertes Fleisch", nl: "Overkookt en geruïneerd vlees" },
+          { en: "The tips of ribs", es: "Las puntas de las costillas", de: "Die Spitzen der Rippen", nl: "De punten van ribs" },
+          { en: "Charred vegetables", es: "Verduras carbonizadas", de: "Verkohltes Gemüse", nl: "Verkoold groenten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Burnt ends are a Kansas City specialty made from the point muscle of brisket. After initial cooking, it's cubed, sauced, and smoked again until the edges caramelize, creating incredibly tender, flavorful bites.",
+          es: "Burnt ends son una especialidad de Kansas City hechos del músculo point del brisket. Después de cocción inicial, se corta en cubos, se sala y se ahuma de nuevo hasta que los bordes caramelicen, creando bocados increíblemente tiernos y sabrosos.",
+          de: "Burnt Ends sind eine Kansas City Spezialität aus dem Point-Muskel der Rinderbrust. Nach anfänglichem Kochen wird es gewürfelt, mit Sauce versehen und erneut geräuchert bis die Kanten karamellisieren, schafft unglaublich zarte, geschmackvolle Bissen.",
+          nl: "Burnt ends zijn een Kansas City specialiteit gemaakt van de point spier van brisket. Na eerste koken wordt het geblokt, gesausd en opnieuw gerookt tot de randen karameliseren, creëert ongelooflijk malse, smaakvolle hapjes."
+        }
+      },
+      {
+        question: {
+          en: "Why should you let meat rest after cooking?",
+          es: "¿Por qué debes dejar reposar la carne después de cocinar?",
+          de: "Warum solltest du Fleisch nach dem Kochen ruhen lassen?",
+          nl: "Waarom moet je vlees laten rusten na het koken?"
+        },
+        options: [
+          { en: "To allow juices to redistribute throughout the meat", es: "Para permitir que los jugos se redistribuyan por toda la carne", de: "Um Säften zu erlauben sich im ganzen Fleisch zu verteilen", nl: "Om sappen toe te staan zich door het vlees te herverdelen" },
+          { en: "To cool it down to eating temperature", es: "Para enfriarlo a temperatura de consumo", de: "Um es auf Esstemperatur abzukühlen", nl: "Om het af te koelen tot eettemperatuur" },
+          { en: "To make it easier to cut", es: "Para hacerlo más fácil de cortar", de: "Um es einfacher zu schneiden", nl: "Om het makkelijker te snijden" },
+          { en: "Resting is not necessary", es: "Reposar no es necesario", de: "Ruhen ist nicht notwendig", nl: "Rusten is niet nodig" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "During cooking, heat pushes juices toward the center. Resting allows proteins to relax and juices to redistribute evenly throughout the meat. Cutting immediately causes juices to run out, leaving dry meat.",
+          es: "Durante la cocción, el calor empuja jugos hacia el centro. Reposar permite que proteínas se relajen y jugos se redistribuyan uniformemente por toda la carne. Cortar inmediatamente causa que jugos se escapen, dejando carne seca.",
+          de: "Während des Kochens drückt Hitze Säfte zur Mitte. Ruhen erlaubt Proteinen sich zu entspannen und Säften sich gleichmäßig im ganzen Fleisch zu verteilen. Sofortiges Schneiden verursacht dass Säfte auslaufen, hinterlässt trockenes Fleisch.",
+          nl: "Tijdens het koken duwt warmte sappen naar het midden. Rusten stelt eiwitten in staat te ontspannen en sappen zich gelijkmatig door het vlees te herverdelen. Direct snijden veroorzaakt dat sappen weglopen, laat droog vlees achter."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of scoring fat on pork ribs?",
+          es: "¿Cuál es el propósito de marcar grasa en costillas de cerdo?",
+          de: "Was ist der Zweck des Einschneidens von Fett auf Schweinerippchen?",
+          nl: "Wat is het doel van het scoren van vet op varkensribs?"
+        },
+        options: [
+          { en: "To help fat render and allow rub penetration", es: "Para ayudar a derretir grasa y permitir penetración del rub", de: "Um Fett zu rendern zu helfen und Rub-Penetration zu ermöglichen", nl: "Om vet te helpen smelten en rub penetratie toe te staan" },
+          { en: "For decoration only", es: "Solo para decoración", de: "Nur zur Dekoration", nl: "Alleen voor decoratie" },
+          { en: "To make them cook faster", es: "Para hacerlas cocinar más rápido", de: "Um sie schneller zu kochen", nl: "Om ze sneller te laten koken" },
+          { en: "Scoring is harmful and should be avoided", es: "Marcar es dañino y debe evitarse", de: "Einschneiden ist schädlich und sollte vermieden werden", nl: "Scoren is schadelijk en moet vermeden worden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Scoring (shallow cuts) in the fat side of ribs helps fat render more efficiently and allows seasonings to penetrate deeper into the meat, improving flavor throughout.",
+          es: "Marcar (cortes superficiales) en el lado de grasa de costillas ayuda a derretir grasa más eficientemente y permite que condimentos penetren más profundo en la carne, mejorando sabor en toda ella.",
+          de: "Einschneiden (flache Schnitte) in der Fettseite von Rippen hilft Fett effizienter zu rendern und ermöglicht Gewürzen tiefer ins Fleisch zu penetrieren, verbessert Geschmack durchgehend.",
+          nl: "Scoren (ondiepe sneden) in de vetkant van ribs helpt vet efficiënter te smelten en stelt kruiden in staat dieper in het vlees te penetreren, verbetert smaak overal."
+        }
+      },
+      {
+        question: {
+          en: "What is the membrane on the bone side of ribs called?",
+          es: "¿Cómo se llama la membrana en el lado del hueso de las costillas?",
+          de: "Wie heißt die Membran auf der Knochenseite der Rippen?",
+          nl: "Hoe heet het membraan aan de botkant van de ribs?"
+        },
+        options: [
+          { en: "Silver skin or pleura", es: "Silver skin o pleura", de: "Silberhaut oder Pleura", nl: "Silver skin of pleura" },
+          { en: "Fat cap", es: "Capa de grasa", de: "Fettkappe", nl: "Vetlaag" },
+          { en: "Bark", es: "Corteza", de: "Rinde", nl: "Korst" },
+          { en: "Connective tissue", es: "Tejido conectivo", de: "Bindegewebe", nl: "Bindweefsel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The silver skin (pleura) is a tough membrane on the bone side of ribs. Most pitmasters remove it before cooking as it prevents smoke and rub penetration and becomes chewy when cooked.",
+          es: "El silver skin (pleura) es una membrana dura en el lado del hueso de las costillas. La mayoría de pitmasters la remueven antes de cocinar ya que previene penetración de humo y rub y se vuelve gomosa al cocinar.",
+          de: "Die Silberhaut (Pleura) ist eine zähe Membran auf der Knochenseite der Rippen. Die meisten Pitmasters entfernen sie vor dem Kochen da sie Rauch- und Rub-Penetration verhindert und beim Kochen zäh wird.",
+          nl: "De silver skin (pleura) is een taai membraan aan de botkant van ribs. De meeste pitmasters verwijderen het voor het koken omdat het rook- en rub-penetratie voorkomt en taai wordt bij het koken."
+        }
       }
     ]
   };

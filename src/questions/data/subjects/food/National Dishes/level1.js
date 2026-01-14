@@ -10,27 +10,6 @@
     questions: [
       {
         question: {
-          en: "Which country is famous for the dish 'Sushi'?",
-          es: "¿Qué país es famoso por el plato 'Sushi'?",
-          de: "Welches Land ist berühmt für das Gericht 'Sushi'?",
-          nl: "Welk land is beroemd om het gerecht 'Sushi'?"
-        },
-        options: [
-          { en: "Japan", es: "Japón", de: "Japan", nl: "Japan" },
-          { en: "China", es: "China", de: "China", nl: "China" },
-          { en: "Korea", es: "Corea", de: "Korea", nl: "Korea" },
-          { en: "Thailand", es: "Tailandia", de: "Thailand", nl: "Thailand" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Sushi is a traditional Japanese dish consisting of vinegared rice topped with various ingredients like fish, vegetables, or egg.",
-          es: "El sushi es un plato tradicional japonés que consiste en arroz avinagrado cubierto con varios ingredientes como pescado, verduras o huevo.",
-          de: "Sushi ist ein traditionelles japanisches Gericht aus essiggewürztem Reis mit verschiedenen Zutaten wie Fisch, Gemüse oder Ei.",
-          nl: "Sushi is een traditioneel Japans gerecht bestaande uit azijnrijst belegd met verschillende ingrediënten zoals vis, groenten of ei."
-        }
-      },
-      {
-        question: {
           en: "What is the main ingredient in Italian 'Risotto'?",
           es: "¿Cuál es el ingrediente principal del 'Risotto' italiano?",
           de: "Was ist die Hauptzutat im italienischen 'Risotto'?",
@@ -409,23 +388,464 @@
       },
       {
         question: {
-          en: "Which country is famous for the dish 'Sushi'?",
-          es: "¿Qué país es famoso por el plato 'Sushi'?",
-          de: "Welches Land ist berühmt für das Gericht 'Sushi'?",
-          nl: "Welk land is beroemd om het gerecht 'Sushi'?"
+          en: "What is the national dish of Hungary?",
+          es: "¿Cuál es el plato nacional de Hungría?",
+          de: "Was ist das Nationalgericht Ungarns?",
+          nl: "Wat is het nationale gerecht van Hongarije?"
+        },
+        options: [
+          { en: "Chicken Paprikash", es: "Pollo al Pimentón", de: "Hühnerpaprika", nl: "Kip Paprikash" },
+          { en: "Goulash", es: "Gulash", de: "Gulasch", nl: "Goulash" },
+          { en: "Schnitzel", es: "Escalope", de: "Schnitzel", nl: "Schnitzel" },
+          { en: "Stuffed Cabbage", es: "Repollo Relleno", de: "Gefüllter Kohl", nl: "Gevulde Kool" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Goulash is Hungary's national dish, a hearty stew made with beef, onions, paprika, and vegetables.",
+          es: "El gulash es el plato nacional de Hungría, un guiso abundante hecho con carne de res, cebollas, pimentón y verduras.",
+          de: "Gulasch ist Ungarns Nationalgericht, ein herzhafter Eintopf aus Rindfleisch, Zwiebeln, Paprika und Gemüse.",
+          nl: "Goulash is het nationale gerecht van Hongarije, een stevige stoofpot gemaakt met rundvlees, uien, paprika en groenten."
+        }
+      },
+      {
+        question: {
+          en: "Which country is known for 'Pad Thai'?",
+          es: "¿Qué país es conocido por el 'Pad Thai'?",
+          de: "Welches Land ist bekannt für 'Pad Thai'?",
+          nl: "Welk land is bekend om 'Pad Thai'?"
+        },
+        options: [
+          { en: "Vietnam", es: "Vietnam", de: "Vietnam", nl: "Vietnam" },
+          { en: "Thailand", es: "Tailandia", de: "Thailand", nl: "Thailand" },
+          { en: "Malaysia", es: "Malasia", de: "Malaysia", nl: "Maleisië" },
+          { en: "Indonesia", es: "Indonesia", de: "Indonesien", nl: "Indonesië" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Pad Thai is Thailand's famous stir-fried rice noodle dish with eggs, tofu, peanuts, and tamarind sauce.",
+          es: "Pad Thai es el famoso plato tailandés de fideos de arroz salteados con huevos, tofu, cacahuetes y salsa de tamarindo.",
+          de: "Pad Thai ist Thailands berühmtes gebratenes Reisnudelgericht mit Eiern, Tofu, Erdnüssen und Tamarindensauce.",
+          nl: "Pad Thai is het beroemde Thaise roergebakken rijstnoedelgerecht met eieren, tofu, pinda's en tamarindesaus."
+        }
+      },
+      {
+        question: {
+          en: "What is 'Haggis', a traditional Scottish dish?",
+          es: "¿Qué es el 'Haggis', un plato tradicional escocés?",
+          de: "Was ist 'Haggis', ein traditionelles schottisches Gericht?",
+          nl: "Wat is 'Haggis', een traditioneel Schots gerecht?"
+        },
+        options: [
+          { en: "Fish pie", es: "Pastel de pescado", de: "Fischkuchen", nl: "Vistaart" },
+          { en: "Savory pudding made from sheep organs", es: "Pudín salado hecho de órganos de oveja", de: "Herzhafter Pudding aus Schafsinnereien", nl: "Hartige pudding gemaakt van schapenorganen" },
+          { en: "Porridge", es: "Gachas", de: "Haferbrei", nl: "Havermout" },
+          { en: "Bread pudding", es: "Budín de pan", de: "Brotpudding", nl: "Broodpudding" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Haggis is a savory pudding made from sheep's heart, liver, and lungs, mixed with oats, onions, and spices, traditionally cooked in a sheep's stomach.",
+          es: "El haggis es un pudín salado hecho con corazón, hígado y pulmones de oveja, mezclado con avena, cebollas y especias, tradicionalmente cocinado en el estómago de una oveja.",
+          de: "Haggis ist ein herzhafter Pudding aus Schafsherz, -leber und -lunge, gemischt mit Hafer, Zwiebeln und Gewürzen, traditionell im Schafsmagen gekocht.",
+          nl: "Haggis is een hartige pudding gemaakt van schapenhart, -lever en -longen, gemengd met haver, uien en kruiden, traditioneel gekookt in een schapenmaag."
+        }
+      },
+      {
+        question: {
+          en: "What is the main ingredient in Vietnamese 'Pho'?",
+          es: "¿Cuál es el ingrediente principal del 'Pho' vietnamita?",
+          de: "Was ist die Hauptzutat in vietnamesischem 'Pho'?",
+          nl: "Wat is het hoofdingrediënt in Vietnamese 'Pho'?"
+        },
+        options: [
+          { en: "Egg noodles", es: "Fideos de huevo", de: "Eiernudeln", nl: "Eiernoodels" },
+          { en: "Rice noodles", es: "Fideos de arroz", de: "Reisnudeln", nl: "Rijstnoodels" },
+          { en: "Wheat noodles", es: "Fideos de trigo", de: "Weizennudeln", nl: "Tarwenoodels" },
+          { en: "Glass noodles", es: "Fideos de cristal", de: "Glasnudeln", nl: "Glasnoodels" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Pho is a Vietnamese soup made with rice noodles in a flavorful broth, typically served with beef or chicken and fresh herbs.",
+          es: "El pho es una sopa vietnamita hecha con fideos de arroz en un caldo sabroso, típicamente servido con carne de res o pollo y hierbas frescas.",
+          de: "Pho ist eine vietnamesische Suppe aus Reisnudeln in einer aromatischen Brühe, typischerweise mit Rindfleisch oder Huhn und frischen Kräutern serviert.",
+          nl: "Pho is een Vietnamese soep gemaakt met rijstnoodels in een smaakvolle bouillon, meestal geserveerd met rundvlees of kip en verse kruiden."
+        }
+      },
+      {
+        question: {
+          en: "Which country's national dish is 'Ceviche'?",
+          es: "¿De qué país es el plato nacional el 'Ceviche'?",
+          de: "Welches Landes Nationalgericht ist 'Ceviche'?",
+          nl: "Van welk land is 'Ceviche' het nationale gerecht?"
+        },
+        options: [
+          { en: "Mexico", es: "México", de: "Mexiko", nl: "Mexico" },
+          { en: "Peru", es: "Perú", de: "Peru", nl: "Peru" },
+          { en: "Chile", es: "Chile", de: "Chile", nl: "Chili" },
+          { en: "Ecuador", es: "Ecuador", de: "Ecuador", nl: "Ecuador" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Ceviche is Peru's national dish, made from raw fish cured in citrus juices and mixed with onions, chili peppers, and cilantro.",
+          es: "El ceviche es el plato nacional de Perú, hecho de pescado crudo curado en jugos cítricos y mezclado con cebollas, chiles y cilantro.",
+          de: "Ceviche ist Perus Nationalgericht, aus rohem Fisch, der in Zitrusäften gegart und mit Zwiebeln, Chilischoten und Koriander gemischt wird.",
+          nl: "Ceviche is het nationale gerecht van Peru, gemaakt van rauwe vis gerijpt in citrusvruchtensappen en gemengd met uien, chilipepers en koriander."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional Polish dumpling called?",
+          es: "¿Cómo se llama la albóndiga tradicional polaca?",
+          de: "Wie heißt die traditionelle polnische Teigtasche?",
+          nl: "Hoe heet de traditionele Poolse knoedel?"
+        },
+        options: [
+          { en: "Pierogi", es: "Pierogi", de: "Pierogi", nl: "Pierogi" },
+          { en: "Gnocchi", es: "Ñoquis", de: "Gnocchi", nl: "Gnocchi" },
+          { en: "Ravioli", es: "Ravioles", de: "Ravioli", nl: "Ravioli" },
+          { en: "Dumplings", es: "Albóndigas", de: "Klöße", nl: "Knoedels" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pierogi are traditional Polish dumplings filled with various ingredients like potatoes, cheese, meat, or fruit.",
+          es: "Los pierogi son albóndigas tradicionales polacas rellenas con varios ingredientes como papas, queso, carne o fruta.",
+          de: "Pierogi sind traditionelle polnische Teigtaschen, gefüllt mit verschiedenen Zutaten wie Kartoffeln, Käse, Fleisch oder Obst.",
+          nl: "Pierogi zijn traditionele Poolse knoedels gevuld met verschillende ingrediënten zoals aardappelen, kaas, vlees of fruit."
+        }
+      },
+      {
+        question: {
+          en: "Which country is famous for 'Wiener Schnitzel'?",
+          es: "¿Qué país es famoso por el 'Wiener Schnitzel'?",
+          de: "Welches Land ist berühmt für 'Wiener Schnitzel'?",
+          nl: "Welk land is beroemd om 'Wiener Schnitzel'?"
+        },
+        options: [
+          { en: "Germany", es: "Alemania", de: "Deutschland", nl: "Duitsland" },
+          { en: "Austria", es: "Austria", de: "Österreich", nl: "Oostenrijk" },
+          { en: "Switzerland", es: "Suiza", de: "Schweiz", nl: "Zwitserland" },
+          { en: "Czech Republic", es: "República Checa", de: "Tschechien", nl: "Tsjechië" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Wiener Schnitzel is Austria's famous breaded and fried veal cutlet, traditionally served with lemon and parsley potatoes.",
+          es: "El Wiener Schnitzel es el famoso escalope de ternera empanado y frito de Austria, tradicionalmente servido con limón y papas perejil.",
+          de: "Wiener Schnitzel ist Österreichs berühmtes paniertes und gebratenes Kalbsschnitzel, traditionell mit Zitrone und Petersilienkartoffeln serviert.",
+          nl: "Wiener Schnitzel is Oostenrijks beroemde gepaneerde en gefrituurde kalfscotelet, traditioneel geserveerd met citroen en peterselieaardappelen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'Bibimbap' from South Korea?",
+          es: "¿Qué es el 'Bibimbap' de Corea del Sur?",
+          de: "Was ist 'Bibimbap' aus Südkorea?",
+          nl: "Wat is 'Bibimbap' uit Zuid-Korea?"
+        },
+        options: [
+          { en: "Rice bowl with mixed vegetables and egg", es: "Tazón de arroz con verduras mixtas y huevo", de: "Reisschale mit gemischtem Gemüse und Ei", nl: "Rijstkom met gemengde groenten en ei" },
+          { en: "Noodle soup", es: "Sopa de fideos", de: "Nudelsuppe", nl: "Noedelsoep" },
+          { en: "Grilled meat", es: "Carne a la parrilla", de: "Gegrilltes Fleisch", nl: "Gegrild vlees" },
+          { en: "Fried pancake", es: "Panqueque frito", de: "Gebratener Pfannkuchen", nl: "Gebakken pannenkoek" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bibimbap is a Korean rice dish topped with assorted vegetables, meat, a fried egg, and gochujang (chili pepper paste).",
+          es: "El bibimbap es un plato coreano de arroz cubierto con verduras variadas, carne, un huevo frito y gochujang (pasta de chile).",
+          de: "Bibimbap ist ein koreanisches Reisgericht mit verschiedenem Gemüse, Fleisch, einem Spiegelei und Gochujang (Chilipaste).",
+          nl: "Bibimbap is een Koreaans rijstgerecht met diverse groenten, vlees, een gebakken ei en gochujang (chilipepers pasta)."
+        }
+      },
+      {
+        question: {
+          en: "What is the main cheese used in traditional Greek Salad?",
+          es: "¿Cuál es el queso principal utilizado en la Ensalada Griega tradicional?",
+          de: "Welcher Käse wird hauptsächlich im traditionellen griechischen Salat verwendet?",
+          nl: "Welke kaas wordt voornamelijk gebruikt in traditionele Griekse Salade?"
+        },
+        options: [
+          { en: "Mozzarella", es: "Mozzarella", de: "Mozzarella", nl: "Mozzarella" },
+          { en: "Cheddar", es: "Cheddar", de: "Cheddar", nl: "Cheddar" },
+          { en: "Feta", es: "Feta", de: "Feta", nl: "Feta" },
+          { en: "Parmesan", es: "Parmesano", de: "Parmesan", nl: "Parmezaan" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Traditional Greek salad features feta cheese along with tomatoes, cucumbers, olives, onions, and olive oil.",
+          es: "La ensalada griega tradicional presenta queso feta junto con tomates, pepinos, aceitunas, cebollas y aceite de oliva.",
+          de: "Traditioneller griechischer Salat enthält Feta-Käse zusammen mit Tomaten, Gurken, Oliven, Zwiebeln und Olivenöl.",
+          nl: "Traditionele Griekse salade bevat feta kaas samen met tomaten, komkommers, olijven, uien en olijfolie."
+        }
+      },
+      {
+        question: {
+          en: "Which country is the origin of 'Butter Chicken'?",
+          es: "¿Cuál es el país de origen del 'Pollo con Mantequilla'?",
+          de: "Welches Land ist der Ursprung von 'Butter Chicken'?",
+          nl: "Welk land is de oorsprong van 'Boter Kip'?"
+        },
+        options: [
+          { en: "Pakistan", es: "Pakistán", de: "Pakistan", nl: "Pakistan" },
+          { en: "India", es: "India", de: "Indien", nl: "India" },
+          { en: "Bangladesh", es: "Bangladesh", de: "Bangladesch", nl: "Bangladesh" },
+          { en: "Sri Lanka", es: "Sri Lanka", de: "Sri Lanka", nl: "Sri Lanka" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Butter Chicken originated in India, specifically in Delhi, and features tender chicken in a creamy tomato-based sauce.",
+          es: "El Pollo con Mantequilla se originó en India, específicamente en Delhi, y presenta pollo tierno en una salsa cremosa a base de tomate.",
+          de: "Butter Chicken stammt aus Indien, speziell aus Delhi, und enthält zartes Huhn in einer cremigen Tomatensauce.",
+          nl: "Boter Kip is ontstaan in India, specifiek in Delhi, en bevat mals kip in een romige tomatensaus."
+        }
+      },
+      {
+        question: {
+          en: "What is 'Poutine' from Canada?",
+          es: "¿Qué es la 'Poutine' de Canadá?",
+          de: "Was ist 'Poutine' aus Kanada?",
+          nl: "Wat is 'Poutine' uit Canada?"
+        },
+        options: [
+          { en: "Maple syrup dessert", es: "Postre de jarabe de arce", de: "Ahornsirup-Dessert", nl: "Ahornsirop dessert" },
+          { en: "French fries with cheese curds and gravy", es: "Papas fritas con queso en grano y salsa", de: "Pommes frites mit Käsebruch und Soße", nl: "Frietjes met kaaskorrels en jus" },
+          { en: "Smoked salmon", es: "Salmón ahumado", de: "Geräucherter Lachs", nl: "Gerookte zalm" },
+          { en: "Meat pie", es: "Pastel de carne", de: "Fleischpastete", nl: "Vleespastei" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Poutine is a Canadian dish from Quebec consisting of french fries topped with cheese curds and smothered in gravy.",
+          es: "La poutine es un plato canadiense de Quebec que consiste en papas fritas cubiertas con queso en grano y bañadas en salsa.",
+          de: "Poutine ist ein kanadisches Gericht aus Quebec, bestehend aus Pommes frites mit Käsebruch und Soße übergossen.",
+          nl: "Poutine is een Canadees gerecht uit Quebec bestaande uit frietjes bedekt met kaaskorrels en overgoten met jus."
+        }
+      },
+      {
+        question: {
+          en: "What is the national dish of Jamaica?",
+          es: "¿Cuál es el plato nacional de Jamaica?",
+          de: "Was ist das Nationalgericht Jamaikas?",
+          nl: "Wat is het nationale gerecht van Jamaica?"
+        },
+        options: [
+          { en: "Curry goat", es: "Cabra al curry", de: "Curry-Ziege", nl: "Curry geit" },
+          { en: "Ackee and saltfish", es: "Ackee y pescado salado", de: "Ackee und Salzfisch", nl: "Ackee en zoutvis" },
+          { en: "Jerk chicken", es: "Pollo jerk", de: "Jerk-Huhn", nl: "Jerk kip" },
+          { en: "Rice and peas", es: "Arroz con guisantes", de: "Reis mit Erbsen", nl: "Rijst en erwten" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Ackee and saltfish is Jamaica's national dish, made with ackee fruit and salted codfish, typically served with breadfruit or dumplings.",
+          es: "Ackee y pescado salado es el plato nacional de Jamaica, hecho con fruta ackee y bacalao salado, típicamente servido con fruta de pan o albóndigas.",
+          de: "Ackee und Salzfisch ist Jamaikas Nationalgericht, aus Ackee-Frucht und gesalzenem Kabeljau, typischerweise mit Brotfrucht oder Klößen serviert.",
+          nl: "Ackee en zoutvis is het nationale gerecht van Jamaica, gemaakt met ackee vrucht en gezouten kabeljauw, meestal geserveerd met broodvrucht of knoedels."
+        }
+      },
+      {
+        question: {
+          en: "Which country is famous for 'Nasi Goreng'?",
+          es: "¿Qué país es famoso por el 'Nasi Goreng'?",
+          de: "Welches Land ist berühmt für 'Nasi Goreng'?",
+          nl: "Welk land is beroemd om 'Nasi Goreng'?"
+        },
+        options: [
+          { en: "Malaysia", es: "Malasia", de: "Malaysia", nl: "Maleisië" },
+          { en: "Indonesia", es: "Indonesia", de: "Indonesien", nl: "Indonesië" },
+          { en: "Singapore", es: "Singapur", de: "Singapur", nl: "Singapore" },
+          { en: "Philippines", es: "Filipinas", de: "Philippinen", nl: "Filipijnen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Nasi Goreng is Indonesia's national dish, a fried rice dish flavored with sweet soy sauce, shallots, garlic, and chili.",
+          es: "Nasi Goreng es el plato nacional de Indonesia, un plato de arroz frito condimentado con salsa de soja dulce, chalotes, ajo y chile.",
+          de: "Nasi Goreng ist Indonesiens Nationalgericht, ein gebratenes Reisgericht mit süßer Sojasoße, Schalotten, Knoblauch und Chili.",
+          nl: "Nasi Goreng is het nationale gerecht van Indonesië, een gebakken rijstgerecht gekruid met zoete sojasaus, sjalotten, knoflook en chili."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional Brazilian stew 'Feijoada' made with?",
+          es: "¿Con qué se hace el guiso tradicional brasileño 'Feijoada'?",
+          de: "Womit wird der traditionelle brasilianische Eintopf 'Feijoada' zubereitet?",
+          nl: "Waarmee wordt de traditionele Braziliaanse stoofpot 'Feijoada' gemaakt?"
+        },
+        options: [
+          { en: "Lentils and vegetables", es: "Lentejas y verduras", de: "Linsen und Gemüse", nl: "Linzen en groenten" },
+          { en: "Black beans and pork", es: "Frijoles negros y cerdo", de: "Schwarze Bohnen und Schweinefleisch", nl: "Zwarte bonen en varkensvlees" },
+          { en: "Chickpeas and chicken", es: "Garbanzos y pollo", de: "Kichererbsen und Huhn", nl: "Kikkererwten en kip" },
+          { en: "White beans and beef", es: "Frijoles blancos y carne de res", de: "Weiße Bohnen und Rindfleisch", nl: "Witte bonen en rundvlees" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Feijoada is Brazil's national dish, a hearty stew made with black beans and various cuts of pork, served with rice, orange slices, and farofa.",
+          es: "La feijoada es el plato nacional de Brasil, un guiso abundante hecho con frijoles negros y varios cortes de cerdo, servido con arroz, rodajas de naranja y farofa.",
+          de: "Feijoada ist Brasiliens Nationalgericht, ein herzhafter Eintopf aus schwarzen Bohnen und verschiedenen Schweinefleischstücken, serviert mit Reis, Orangenscheiben und Farofa.",
+          nl: "Feijoada is het nationale gerecht van Brazilië, een stevige stoofpot gemaakt met zwarte bonen en verschillende stukken varkensvlees, geserveerd met rijst, sinaasappelschijfjes en farofa."
+        }
+      },
+      {
+        question: {
+          en: "What is 'Shakshuka' commonly eaten for?",
+          es: "¿Para qué se come comúnmente el 'Shakshuka'?",
+          de: "Wofür wird 'Shakshuka' üblicherweise gegessen?",
+          nl: "Waarvoor wordt 'Shakshuka' meestal gegeten?"
+        },
+        options: [
+          { en: "Breakfast", es: "Desayuno", de: "Frühstück", nl: "Ontbijt" },
+          { en: "Lunch", es: "Almuerzo", de: "Mittagessen", nl: "Lunch" },
+          { en: "Dinner", es: "Cena", de: "Abendessen", nl: "Diner" },
+          { en: "Dessert", es: "Postre", de: "Dessert", nl: "Dessert" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Shakshuka is a Middle Eastern/North African dish of poached eggs in tomato sauce with peppers and spices, typically eaten for breakfast or brunch.",
+          es: "Shakshuka es un plato de Oriente Medio/Norte de África de huevos escalfados en salsa de tomate con pimientos y especias, típicamente comido para el desayuno o brunch.",
+          de: "Shakshuka ist ein nahöstliches/nordafrikanisches Gericht aus pochierten Eiern in Tomatensauce mit Paprika und Gewürzen, typischerweise zum Frühstück oder Brunch gegessen.",
+          nl: "Shakshuka is een Midden-Oosters/Noord-Afrikaans gerecht van gepocheerde eieren in tomatensaus met paprika's en kruiden, meestal gegeten als ontbijt of brunch."
+        }
+      },
+      {
+        question: {
+          en: "Which country is famous for 'Fondue'?",
+          es: "¿Qué país es famoso por la 'Fondue'?",
+          de: "Welches Land ist berühmt für 'Fondue'?",
+          nl: "Welk land is beroemd om 'Fondue'?"
+        },
+        options: [
+          { en: "France", es: "Francia", de: "Frankreich", nl: "Frankrijk" },
+          { en: "Switzerland", es: "Suiza", de: "Schweiz", nl: "Zwitserland" },
+          { en: "Italy", es: "Italia", de: "Italien", nl: "Italië" },
+          { en: "Austria", es: "Austria", de: "Österreich", nl: "Oostenrijk" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Fondue is a traditional Swiss dish of melted cheese served in a communal pot, with bread cubes dipped into it.",
+          es: "La fondue es un plato tradicional suizo de queso derretido servido en una olla comunal, con cubos de pan sumergidos en él.",
+          de: "Fondue ist ein traditionelles Schweizer Gericht aus geschmolzenem Käse, das in einem gemeinsamen Topf serviert wird, mit Brotwürfeln zum Eintauchen.",
+          nl: "Fondue is een traditioneel Zwitsers gerecht van gesmolten kaas geserveerd in een gemeenschappelijke pot, met broodblokjes om erin te dopen."
+        }
+      },
+      {
+        question: {
+          en: "What is the main ingredient in Spanish 'Gazpacho'?",
+          es: "¿Cuál es el ingrediente principal del 'Gazpacho' español?",
+          de: "Was ist die Hauptzutat in spanischem 'Gazpacho'?",
+          nl: "Wat is het hoofdingrediënt in Spaanse 'Gazpacho'?"
+        },
+        options: [
+          { en: "Potatoes", es: "Papas", de: "Kartoffeln", nl: "Aardappelen" },
+          { en: "Tomatoes", es: "Tomates", de: "Tomaten", nl: "Tomaten" },
+          { en: "Peppers", es: "Pimientos", de: "Paprika", nl: "Paprika's" },
+          { en: "Cucumbers", es: "Pepinos", de: "Gurken", nl: "Komkommers" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Gazpacho is a traditional Spanish cold soup made primarily from tomatoes, cucumbers, peppers, onions, garlic, and olive oil.",
+          es: "El gazpacho es una sopa fría tradicional española hecha principalmente de tomates, pepinos, pimientos, cebollas, ajo y aceite de oliva.",
+          de: "Gazpacho ist eine traditionelle spanische kalte Suppe, hauptsächlich aus Tomaten, Gurken, Paprika, Zwiebeln, Knoblauch und Olivenöl.",
+          nl: "Gazpacho is een traditionele Spaanse koude soep gemaakt voornamelijk van tomaten, komkommers, paprika's, uien, knoflook en olijfolie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'Schnitzel' typically made from?",
+          es: "¿De qué se hace típicamente el 'Schnitzel'?",
+          de: "Woraus wird 'Schnitzel' typischerweise hergestellt?",
+          nl: "Waar wordt 'Schnitzel' meestal van gemaakt?"
+        },
+        options: [
+          { en: "Fish", es: "Pescado", de: "Fisch", nl: "Vis" },
+          { en: "Chicken", es: "Pollo", de: "Huhn", nl: "Kip" },
+          { en: "Veal or pork", es: "Ternera o cerdo", de: "Kalb oder Schwein", nl: "Kalfsvlees of varkensvlees" },
+          { en: "Lamb", es: "Cordero", de: "Lamm", nl: "Lam" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Traditional schnitzel is made from thin slices of veal or pork that are breaded and fried until golden and crispy.",
+          es: "El schnitzel tradicional se hace con rodajas finas de ternera o cerdo que se empanan y fríen hasta que estén doradas y crujientes.",
+          de: "Traditionelles Schnitzel wird aus dünnen Scheiben von Kalb oder Schwein hergestellt, die paniert und goldbraun und knusprig gebraten werden.",
+          nl: "Traditionele schnitzel wordt gemaakt van dunne plakjes kalfsvlees of varkensvlees die gepaneerd en goudbruin en knapperig gebakken worden."
+        }
+      },
+      {
+        question: {
+          en: "Which country is the origin of 'Biryani'?",
+          es: "¿Cuál es el país de origen del 'Biryani'?",
+          de: "Welches Land ist der Ursprung von 'Biryani'?",
+          nl: "Welk land is de oorsprong van 'Biryani'?"
+        },
+        options: [
+          { en: "India", es: "India", de: "Indien", nl: "India" },
+          { en: "Iran", es: "Irán", de: "Iran", nl: "Iran" },
+          { en: "Pakistan", es: "Pakistán", de: "Pakistan", nl: "Pakistan" },
+          { en: "Afghanistan", es: "Afganistán", de: "Afghanistan", nl: "Afghanistan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Biryani originated in India, specifically during the Mughal era, and is a spiced rice dish layered with meat or vegetables.",
+          es: "El biryani se originó en India, específicamente durante la era mogol, y es un plato de arroz especiado en capas con carne o verduras.",
+          de: "Biryani stammt aus Indien, speziell aus der Mogul-Ära, und ist ein gewürztes Reisgericht mit Fleisch oder Gemüse in Schichten.",
+          nl: "Biryani is ontstaan in India, specifiek tijdens het Mogol-tijdperk, en is een gekruid rijstgerecht met lagen vlees of groenten."
+        }
+      },
+      {
+        question: {
+          en: "What type of meat is traditionally used in Turkish 'Döner Kebab'?",
+          es: "¿Qué tipo de carne se usa tradicionalmente en el 'Döner Kebab' turco?",
+          de: "Welche Fleischsorte wird traditionell im türkischen 'Döner Kebab' verwendet?",
+          nl: "Welk type vlees wordt traditioneel gebruikt in Turkse 'Döner Kebab'?"
+        },
+        options: [
+          { en: "Chicken", es: "Pollo", de: "Huhn", nl: "Kip" },
+          { en: "Lamb or beef", es: "Cordero o carne de res", de: "Lamm oder Rind", nl: "Lam of rundvlees" },
+          { en: "Pork", es: "Cerdo", de: "Schweinefleisch", nl: "Varkensvlees" },
+          { en: "Fish", es: "Pescado", de: "Fisch", nl: "Vis" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Traditional Turkish döner kebab is made with lamb or beef that's been marinated with spices and slow-roasted on a vertical rotisserie.",
+          es: "El döner kebab turco tradicional se hace con cordero o carne de res que ha sido marinado con especias y asado lentamente en un asador vertical.",
+          de: "Traditioneller türkischer Döner Kebab wird aus Lamm oder Rind hergestellt, das mit Gewürzen mariniert und langsam am vertikalen Spieß gebraten wird.",
+          nl: "Traditionele Turkse döner kebab wordt gemaakt met lam of rundvlees dat gemarineerdis met kruiden en langzaam geroosterd op een verticale spit."
+        }
+      },
+      {
+        question: {
+          en: "What is 'Ramen' originally from?",
+          es: "¿De dónde es originalmente el 'Ramen'?",
+          de: "Woher stammt 'Ramen' ursprünglich?",
+          nl: "Waar komt 'Ramen' oorspronkelijk vandaan?"
         },
         options: [
           { en: "Japan", es: "Japón", de: "Japan", nl: "Japan" },
           { en: "China", es: "China", de: "China", nl: "China" },
           { en: "Korea", es: "Corea", de: "Korea", nl: "Korea" },
-          { en: "Thailand", es: "Tailandia", de: "Thailand", nl: "Thailand" }
+          { en: "Vietnam", es: "Vietnam", de: "Vietnam", nl: "Vietnam" }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "Sushi is a traditional Japanese dish consisting of vinegared rice topped with various ingredients like fish, vegetables, or egg.",
-          es: "El sushi es un plato tradicional japonés que consiste en arroz avinagrado cubierto con varios ingredientes como pescado, verduras o huevo.",
-          de: "Sushi ist ein traditionelles japanisches Gericht aus essiggewürztem Reis mit verschiedenen Zutaten wie Fisch, Gemüse oder Ei.",
-          nl: "Sushi is een traditioneel Japans gerecht bestaande uit azijnrijst belegd met verschillende ingrediënten zoals vis, groenten of ei."
+          en: "Ramen originated in China and was later adapted and popularized in Japan, becoming a staple of Japanese cuisine.",
+          es: "El ramen se originó en China y luego fue adaptado y popularizado en Japón, convirtiéndose en un elemento básico de la cocina japonesa.",
+          de: "Ramen stammt aus China und wurde später in Japan adaptiert und popularisiert, wo es zu einem Grundnahrungsmittel der japanischen Küche wurde.",
+          nl: "Ramen is ontstaan in China en werd later aangepast en populair gemaakt in Japan, waar het een hoofdbestanddeel van de Japanse keuken werd."
+        }
+      },
+      {
+        question: {
+          en: "What is the national dish of South Africa?",
+          es: "¿Cuál es el plato nacional de Sudáfrica?",
+          de: "Was ist das Nationalgericht Südafrikas?",
+          nl: "Wat is het nationale gerecht van Zuid-Afrika?"
+        },
+        options: [
+          { en: "Bunny chow", es: "Bunny chow", de: "Bunny Chow", nl: "Bunny chow" },
+          { en: "Bobotie", es: "Bobotie", de: "Bobotie", nl: "Bobotie" },
+          { en: "Boerewors", es: "Boerewors", de: "Boerewors", nl: "Boerewors" },
+          { en: "Biltong", es: "Biltong", de: "Biltong", nl: "Biltong" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Bobotie is South Africa's national dish, a spiced minced meat baked with an egg-based topping, influenced by Cape Malay cuisine.",
+          es: "Bobotie es el plato nacional de Sudáfrica, carne picada especiada horneada con un topping a base de huevo, influenciado por la cocina Cape Malay.",
+          de: "Bobotie ist Südafrikas Nationalgericht, gewürztes Hackfleisch, das mit einer Eiermasse überbacken wird, beeinflusst von der Cape-Malay-Küche.",
+          nl: "Bobotie is het nationale gerecht van Zuid-Afrika, gekruid gehakt gebakken met een topping op basis van ei, beïnvloed door de Kaapse Maleisische keuken."
         }
       }
     ]

@@ -427,6 +427,426 @@
           de: "Während des Kochens führt Hitze dazu, dass Muskelproteine (Aktin und Myosin) sich fest zusammenziehen und Feuchtigkeit in Richtung Fleischmitte und -oberfläche pressen. Während des Ruhens, wenn Fleisch leicht abkühlt, entspannen sich diese Proteine und erlangen etwas Fähigkeit zurück, Wasser zu halten. Säfte verteilen sich gleichmäßiger im ganzen Gewebe, anstatt sich in der Mitte zu sammeln, was zu saftigerem, gleichmäßig saftigem Fleisch beim Schneiden führt.",
           nl: "Tijdens het koken zorgt hitte ervoor dat spiereiwitten (actine en myosine) strak samentrekken, waarbij vocht naar het centrum en oppervlak van het vlees wordt geperst. Tijdens het rusten, wanneer vlees licht afkoelt, ontspannen deze eiwitten en herkrijgen ze enig vermogen om water vast te houden. Sappen herverdelen zich gelijkmatiger door het weefsel in plaats van zich in het centrum te verzamelen, resulterend in sappiger, gelijkmatiger sappig vlees wanneer gesneden."
         }
+      },
+      {
+        question: {
+          en: "What is the role of phosphates in commercial meat injections?",
+          es: "¿Cuál es el papel de los fosfatos en las inyecciones de carne comerciales?",
+          de: "Was ist die Rolle von Phosphaten in kommerziellen Fleischinjektionen?",
+          nl: "Wat is de rol van fosfaten in commerciële vlees injecties?"
+        },
+        options: [
+          { en: "Increase pH to improve water-holding capacity and prevent moisture loss", es: "Aumentan el pH para mejorar la capacidad de retención de agua y prevenir pérdida de humedad", de: "Erhöhen pH-Wert zur Verbesserung der Wasserhaltungskapazität und Verhinderung von Feuchtigkeitsverlust", nl: "Verhogen pH om waterbindend vermogen te verbeteren en vochtverlies te voorkomen" },
+          { en: "Add flavor through enzymatic breakdown", es: "Añaden sabor a través de descomposición enzimática", de: "Fügen Geschmack durch enzymatischen Abbau hinzu", nl: "Voegen smaak toe via enzymatische afbraak" },
+          { en: "Kill bacteria on meat surface", es: "Matan bacterias en la superficie de la carne", de: "Töten Bakterien auf Fleischoberfläche", nl: "Doden bacteriën op vleeoppervlak" },
+          { en: "Create smoke ring artificially", es: "Crean anillo de humo artificialmente", de: "Erzeugen Rauchring künstlich", nl: "Creëren rook ring kunstmatig" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sodium phosphate and other phosphates raise meat's pH from ~5.5 toward neutral (6.0-6.5), moving it away from the isoelectric point where proteins hold water poorly. This increases water-binding capacity significantly, helping injected moisture stay in the meat during cooking. Commercial pork producers use this extensively; competition BBQ teams use it in injections for moisture retention.",
+          es: "El fosfato de sodio y otros fosfatos elevan el pH de la carne de ~5.5 hacia neutro (6.0-6.5), alejándolo del punto isoeléctrico donde las proteínas retienen agua pobremente. Esto aumenta significativamente la capacidad de unión de agua, ayudando a que la humedad inyectada permanezca en la carne durante la cocción. Los productores comerciales de cerdo usan esto extensamente; los equipos de BBQ de competencia lo usan en inyecciones para retención de humedad.",
+          de: "Natriumphosphat und andere Phosphate erhöhen den pH-Wert von Fleisch von ~5.5 in Richtung neutral (6.0-6.5) und bewegen ihn vom isoelektrischen Punkt weg, wo Proteine Wasser schlecht halten. Dies erhöht die Wasserbindungskapazität erheblich und hilft, injizierte Feuchtigkeit während des Kochens im Fleisch zu halten. Kommerzielle Schweineproduzenten verwenden dies ausgiebig; Wettbewerbs-BBQ-Teams verwenden es in Injektionen zur Feuchtigkeitsspeicherung.",
+          nl: "Natriumfosfaat en andere fosfaten verhogen de pH van vlees van ~5.5 naar neutraal (6.0-6.5), waarbij het van het isoelektrisch punt wordt verplaatst waar eiwitten water slecht vasthouden. Dit verhoogt de waterbinding aanzienlijk, helpt geïnjecteerd vocht in het vlees te blijven tijdens het koken. Commerciële varkensproducenten gebruiken dit uitgebreid; wedstrijd-BBQ teams gebruiken het in injecties voor vochtbehoud."
+        }
+      },
+      {
+        question: {
+          en: "Why does meat 'sweat' during the stall phase of smoking?",
+          es: "¿Por qué 'suda' la carne durante la fase de estancamiento del ahumado?",
+          de: "Warum 'schwitzt' Fleisch während der Stall-Phase des Räucherns?",
+          nl: "Waarom 'zweet' vlees tijdens de stall fase van het roken?"
+        },
+        options: [
+          { en: "Heat-induced moisture migration from interior to surface where it evaporates, cooling meat", es: "Migración de humedad inducida por calor del interior a la superficie donde se evapora, enfriando la carne", de: "Hitzeinduzierte Feuchtigkeitswanderung vom Inneren zur Oberfläche, wo sie verdunstet und Fleisch kühlt", nl: "Door hitte geïnduceerde vocht migratie van binnenin naar oppervlak waar het verdampt, koelt vlees" },
+          { en: "Fat melting and dripping out of meat", es: "Grasa derritiéndose y goteando fuera de la carne", de: "Fett schmilzt und tropft aus Fleisch", nl: "Vet smelt en druipt uit vlees" },
+          { en: "Collagen dissolving into liquid", es: "Colágeno disolviéndose en líquido", de: "Kollagen löst sich in Flüssigkeit auf", nl: "Collageen lost op in vloeistof" },
+          { en: "Brine from injection leaking out", es: "Salmuera de inyección filtrándose", de: "Lake aus Injektion tritt aus", nl: "Pekel van injectie lekt eruit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "During the stall, heat drives moisture from the meat's cooler interior toward the hotter surface. This moisture accumulates on the surface and evaporates, creating evaporative cooling similar to human sweating. The evaporation requires energy (heat), which it takes from the meat, preventing temperature rise. Wrapping stops evaporation, allowing temperature to climb past the stall.",
+          es: "Durante el estancamiento, el calor impulsa la humedad del interior más frío de la carne hacia la superficie más caliente. Esta humedad se acumula en la superficie y se evapora, creando enfriamiento evaporativo similar al sudor humano. La evaporación requiere energía (calor), que toma de la carne, previniendo el aumento de temperatura. Envolver detiene la evaporación, permitiendo que la temperatura supere el estancamiento.",
+          de: "Während des Stalls treibt Hitze Feuchtigkeit vom kühleren Inneren des Fleisches zur heißeren Oberfläche. Diese Feuchtigkeit sammelt sich auf der Oberfläche und verdunstet, wodurch Verdunstungskühlung ähnlich wie beim menschlichen Schwitzen entsteht. Die Verdunstung erfordert Energie (Hitze), die sie vom Fleisch nimmt und den Temperaturanstieg verhindert. Einwickeln stoppt die Verdunstung und ermöglicht, dass die Temperatur über den Stall steigt.",
+          nl: "Tijdens de stall drijft warmte vocht van het koelere binnenste van het vlees naar het hetere oppervlak. Dit vocht verzamelt zich op het oppervlak en verdampt, waardoor verdampingskoeling ontstaat vergelijkbaar met menselijk zweten. De verdamping vereist energie (warmte), die het van het vlees neemt, waardoor temperatuurstijging wordt voorkomen. Inwikkelen stopt verdamping, waardoor de temperatuur voorbij de stall kan klimmen."
+        }
+      },
+      {
+        question: {
+          en: "What causes 'hot spots' in offset smokers and how does heat transfer explain them?",
+          es: "¿Qué causa 'puntos calientes' en ahumadores offset y cómo la transferencia de calor los explica?",
+          de: "Was verursacht 'heiße Stellen' in Offset-Smokern und wie erklärt Wärmeübertragung sie?",
+          nl: "Wat veroorzaakt 'hot spots' in offset smokers en hoe verklaart warmteoverdracht ze?"
+        },
+        options: [
+          { en: "Uneven convection currents and radiant heat create temperature zones, hottest near firebox", es: "Corrientes de convección desiguales y calor radiante crean zonas de temperatura, más caliente cerca de la caja de fuego", de: "Ungleichmäßige Konvektionsströmungen und Strahlungswärme erzeugen Temperaturzonen, am heißesten in Feuerboxnähe", nl: "Ongelijke convectie stromingen en stralende warmte creëren temperatuurzones, heetst bij firebox" },
+          { en: "Metal thickness varies across the cooking chamber", es: "El grosor del metal varía a través de la cámara de cocción", de: "Metalldicke variiert über die Kochkammer", nl: "Metaaldikte varieert over de kookkamer" },
+          { en: "Smoke concentration differences", es: "Diferencias de concentración de humo", de: "Rauchkonzentrationsunterschiede", nl: "Rook concentratie verschillen" },
+          { en: "Moisture distribution in the meat", es: "Distribución de humedad en la carne", de: "Feuchtigkeitsverteilung im Fleisch", nl: "Vocht verdeling in het vlees" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Offset smokers have hot spots due to heat transfer physics: (1) Convection - hot air/smoke enters from firebox and rises, creating temperature gradient, (2) Radiation - firebox wall radiates intense heat to nearby meat, (3) Areas closer to firebox receive more direct heat. Understanding these zones lets pitmasters position different meats strategically and rotate for even cooking.",
+          es: "Los ahumadores offset tienen puntos calientes debido a la física de transferencia de calor: (1) Convección - aire/humo caliente entra de la caja de fuego y sube, creando gradiente de temperatura, (2) Radiación - pared de caja de fuego irradia calor intenso a carne cercana, (3) Áreas más cercanas a la caja de fuego reciben más calor directo. Entender estas zonas permite a los pitmasters posicionar diferentes carnes estratégicamente y rotar para cocción uniforme.",
+          de: "Offset-Smoker haben heiße Stellen aufgrund der Wärmeübertragungsphysik: (1) Konvektion - heiße Luft/Rauch tritt von Feuerbox ein und steigt, erzeugt Temperaturgradient, (2) Strahlung - Feuerbox-Wand strahlt intensive Hitze zu nahem Fleisch, (3) Bereiche näher an Feuerbox erhalten mehr direkte Hitze. Das Verständnis dieser Zonen ermöglicht Pitmasters, verschiedene Fleischsorten strategisch zu positionieren und für gleichmäßiges Garen zu rotieren.",
+          nl: "Offset smokers hebben hot spots door warmteoverdracht fysica: (1) Convectie - hete lucht/rook komt binnen van firebox en stijgt, creëert temperatuurgradiënt, (2) Straling - firebox wand straalt intense warmte naar nabij vlees, (3) Gebieden dichter bij firebox ontvangen meer directe warmte. Het begrijpen van deze zones laat pitmasters verschillende vlees soorten strategisch plaatsen en roteren voor gelijkmatig koken."
+        }
+      },
+      {
+        question: {
+          en: "How do wood lignin compounds contribute to smoke flavor?",
+          es: "¿Cómo contribuyen los compuestos de lignina de madera al sabor del humo?",
+          de: "Wie tragen Holzligninverbindungen zum Rauchgeschmack bei?",
+          nl: "Hoe dragen hout lignine verbindingen bij aan rooksmaak?"
+        },
+        options: [
+          { en: "Lignin breaks down into phenolic compounds (syringol, guaiacol) providing smoky, vanilla, spicy notes", es: "La lignina se descompone en compuestos fenólicos (siringol, guaiacol) proporcionando notas ahumadas, vainilla, picantes", de: "Lignin zerfällt in phenolische Verbindungen (Syringol, Guaiacol), die rauchige, Vanille-, würzige Noten liefern", nl: "Lignine breekt af in fenolische verbindingen (syringol, guaiacol) die rokerige, vanille, pittige tonen leveren" },
+          { en: "Lignin creates the smoke ring through nitrogen compounds", es: "La lignina crea el anillo de humo a través de compuestos de nitrógeno", de: "Lignin erzeugt den Rauchring durch Stickstoffverbindungen", nl: "Lignine creëert de rook ring via stikstofverbindingen" },
+          { en: "Lignin provides only the brown color, no flavor", es: "La lignina solo proporciona el color marrón, sin sabor", de: "Lignin liefert nur die braune Farbe, keinen Geschmack", nl: "Lignine levert alleen de bruine kleur, geen smaak" },
+          { en: "Lignin breaks down into simple sugars", es: "La lignina se descompone en azúcares simples", de: "Lignin zerfällt in einfache Zucker", nl: "Lignine breekt af in eenvoudige suikers" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Lignin, a complex polymer in wood cell walls, decomposes during combustion into phenolic compounds like guaiacol (smoky, spicy), syringol (woody, sweet), and vanillin (vanilla notes). Hardwoods have more syringol; softwoods more guaiacol. These compounds adhere to meat and provide the characteristic BBQ smoke flavor. Different woods have different lignin compositions, explaining flavor variations between oak, hickory, fruitwoods.",
+          es: "La lignina, un polímero complejo en las paredes celulares de la madera, se descompone durante la combustión en compuestos fenólicos como guaiacol (ahumado, picante), siringol (maderoso, dulce) y vainillina (notas de vainilla). Las maderas duras tienen más siringol; las maderas blandas más guaiacol. Estos compuestos se adhieren a la carne y proporcionan el sabor característico a humo BBQ. Diferentes maderas tienen diferentes composiciones de lignina, explicando las variaciones de sabor entre roble, nogal, maderas frutales.",
+          de: "Lignin, ein komplexes Polymer in Holzzellwänden, zersetzt sich während der Verbrennung in phenolische Verbindungen wie Guaiacol (rauchig, würzig), Syringol (holzig, süß) und Vanillin (Vanillenoten). Harthölzer haben mehr Syringol; Weichhölzer mehr Guaiacol. Diese Verbindungen haften am Fleisch und liefern den charakteristischen BBQ-Rauchgeschmack. Verschiedene Hölzer haben unterschiedliche Ligninzusammensetzungen, was Geschmacksvariationen zwischen Eiche, Hickory, Obsthölzern erklärt.",
+          nl: "Lignine, een complex polymeer in hout celwanden, breekt af tijdens verbranding in fenolische verbindingen zoals guaiacol (rokerig, pittig), syringol (houtig, zoet) en vanilline (vanille tonen). Hardhout heeft meer syringol; zachthout meer guaiacol. Deze verbindingen hechten aan vlees en leveren de karakteristieke BBQ rooksmaak. Verschillende houtsoorten hebben verschillende lignine samenstellingen, wat smaakvariaties verklaart tussen eik, hickory, fruitbomen."
+        }
+      },
+      {
+        question: {
+          en: "What is the relationship between myoglobin concentration and meat color?",
+          es: "¿Cuál es la relación entre la concentración de mioglobina y el color de la carne?",
+          de: "Was ist die Beziehung zwischen Myoglobinkonzentration und Fleischfarbe?",
+          nl: "Wat is de relatie tussen myoglobine concentratie en vleeskleur?"
+        },
+        options: [
+          { en: "Higher myoglobin concentration creates darker red meat; varies by animal age, muscle use, and species", es: "Mayor concentración de mioglobina crea carne roja más oscura; varía por edad del animal, uso muscular y especie", de: "Höhere Myoglobinkonzentration erzeugt dunkleres rotes Fleisch; variiert nach Tieralter, Muskelnutzung und Art", nl: "Hogere myoglobine concentratie creëert donkerder rood vlees; varieert per dierleeftijd, spiergebruik en soort" },
+          { en: "Myoglobin concentration is identical in all meat types", es: "La concentración de mioglobina es idéntica en todos los tipos de carne", de: "Myoglobinkonzentration ist in allen Fleischsorten identisch", nl: "Myoglobine concentratie is identiek in alle vleessoorten" },
+          { en: "Only blood hemoglobin determines meat color", es: "Solo la hemoglobina de la sangre determina el color de la carne", de: "Nur Bluthämoglobin bestimmt die Fleischfarbe", nl: "Alleen bloedhemoglobine bepaalt vleeskleur" },
+          { en: "Fat content determines meat redness", es: "El contenido de grasa determina el enrojecimiento de la carne", de: "Fettgehalt bestimmt Fleischrötung", nl: "Vetgehalte bepaalt vlees roodheid" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Myoglobin is the iron-containing protein that stores oxygen in muscle cells and determines meat color. More active muscles and older animals have higher myoglobin concentrations, creating darker meat. Beef has ~8mg/g (dark red), pork ~2mg/g (pink), chicken breast ~0.2mg/g (pale). Duck and game birds have much higher myoglobin. Myoglobin's chemical state (oxymyoglobin=bright red, metmyoglobin=brown, deoxymyoglobin=purple) also affects color.",
+          es: "La mioglobina es la proteína que contiene hierro que almacena oxígeno en las células musculares y determina el color de la carne. Los músculos más activos y los animales más viejos tienen mayores concentraciones de mioglobina, creando carne más oscura. La res tiene ~8mg/g (rojo oscuro), el cerdo ~2mg/g (rosado), la pechuga de pollo ~0.2mg/g (pálido). El pato y las aves de caza tienen mucha más mioglobina. El estado químico de la mioglobina (oximioglobina=rojo brillante, metamioglobina=marrón, desoximioglobina=púrpura) también afecta el color.",
+          de: "Myoglobin ist das eisenhaltige Protein, das Sauerstoff in Muskelzellen speichert und die Fleischfarbe bestimmt. Aktivere Muskeln und ältere Tiere haben höhere Myoglobinkonzentrationen, was dunkleres Fleisch erzeugt. Rindfleisch hat ~8mg/g (dunkelrot), Schwein ~2mg/g (rosa), Hähnchenbrust ~0.2mg/g (blass). Ente und Wildvögel haben viel höheres Myoglobin. Der chemische Zustand von Myoglobin (Oxymyoglobin=hellrot, Metmyoglobin=braun, Deoxymyoglobin=lila) beeinflusst auch die Farbe.",
+          nl: "Myoglobine is het ijzerhoudende eiwit dat zuurstof opslaat in spiercellen en vleeskleur bepaalt. Actievere spieren en oudere dieren hebben hogere myoglobine concentraties, waardoor donkerder vlees ontstaat. Rundvlees heeft ~8mg/g (donkerrood), varken ~2mg/g (roze), kippenborst ~0.2mg/g (bleek). Eend en wild gevogelte hebben veel hoger myoglobine. De chemische toestand van myoglobine (oxymyoglobine=helderrood, metmyoglobine=bruin, deoxymyoglobine=paars) beïnvloedt ook kleur."
+        }
+      },
+      {
+        question: {
+          en: "Why does wrapping meat in foil (Texas Crutch) speed cooking but soften bark?",
+          es: "¿Por qué envolver carne en papel aluminio (Texas Crutch) acelera la cocción pero suaviza la corteza?",
+          de: "Warum beschleunigt Einwickeln von Fleisch in Folie (Texas Crutch) das Kochen, macht aber Bark weicher?",
+          nl: "Waarom versnelt het inwikkelen van vlees in folie (Texas Crutch) het koken maar verzacht het bark?"
+        },
+        options: [
+          { en: "Traps moisture stopping evaporative cooling, but steam softens crispy bark surface", es: "Atrapa humedad deteniendo enfriamiento evaporativo, pero vapor suaviza superficie de corteza crujiente", de: "Fängt Feuchtigkeit ein, stoppt Verdunstungskühlung, aber Dampf macht knusprige Bark-Oberfläche weicher", nl: "Vangt vocht op stopt verdampingskoeling, maar stoom verzacht knapperig bark oppervlak" },
+          { en: "Foil conducts heat faster than air", es: "El papel aluminio conduce calor más rápido que el aire", de: "Folie leitet Wärme schneller als Luft", nl: "Folie geleidt warmte sneller dan lucht" },
+          { en: "Creates acidic environment that breaks down meat faster", es: "Crea ambiente ácido que descompone la carne más rápido", de: "Erzeugt saure Umgebung, die Fleisch schneller abbaut", nl: "Creëert zure omgeving die vlees sneller afbreekt" },
+          { en: "Reflects infrared radiation back onto meat", es: "Refleja radiación infrarroja de vuelta a la carne", de: "Reflektiert Infrarotstrahlung zurück auf Fleisch", nl: "Reflecteert infrarode straling terug op vlees" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Wrapping in foil eliminates evaporative cooling by trapping moisture, allowing internal temperature to rise past the stall quickly. However, the trapped moisture/steam prevents bark from staying dry and crispy, softening it. Butcher paper is a compromise - breathable enough to maintain some bark, but still reduces evaporation. Many pitmasters unwrap for the last hour to re-crisp bark.",
+          es: "Envolver en papel aluminio elimina el enfriamiento evaporativo al atrapar humedad, permitiendo que la temperatura interna suba más allá del estancamiento rápidamente. Sin embargo, la humedad/vapor atrapado evita que la corteza permanezca seca y crujiente, suavizándola. El papel de carnicero es un compromiso - lo suficientemente transpirable para mantener algo de corteza, pero aún reduce la evaporación. Muchos pitmasters desenvuelven durante la última hora para re-crujir la corteza.",
+          de: "Einwickeln in Folie eliminiert Verdunstungskühlung durch Einfangen von Feuchtigkeit, wodurch die Innentemperatur schnell über den Stall steigen kann. Die eingeschlossene Feuchtigkeit/Dampf verhindert jedoch, dass Bark trocken und knusprig bleibt, macht sie weicher. Metzgerpapier ist ein Kompromiss - atmungsaktiv genug, um etwas Bark zu erhalten, reduziert aber dennoch Verdunstung. Viele Pitmasters wickeln für die letzte Stunde aus, um Bark wieder knusprig zu machen.",
+          nl: "Inwikkelen in folie elimineert verdampingskoeling door vocht op te vangen, waardoor interne temperatuur snel voorbij de stall kan stijgen. Het opgesloten vocht/stoom voorkomt echter dat bark droog en knapperig blijft, verzacht het. Slagerspapier is een compromis - ademend genoeg om wat bark te behouden, maar reduceert nog steeds verdamping. Veel pitmasters pakken het laatste uur uit om bark weer knapperig te maken."
+        }
+      },
+      {
+        question: {
+          en: "What chemical process occurs during meat aging and how does it tenderize?",
+          es: "¿Qué proceso químico ocurre durante el envejecimiento de la carne y cómo ablanda?",
+          de: "Welcher chemische Prozess tritt während der Fleischalterung auf und wie macht er zart?",
+          nl: "Welk chemisch proces vindt plaats tijdens vlees rijping en hoe maakt het mals?"
+        },
+        options: [
+          { en: "Endogenous enzymes (calpains, cathepsins) break down muscle fiber proteins over time", es: "Enzimas endógenas (calpaínas, catepsinas) descomponen proteínas de fibra muscular con el tiempo", de: "Endogene Enzyme (Calpaine, Cathepsine) bauen Muskelfaserproteine im Laufe der Zeit ab", nl: "Endogene enzymen (calpaïnen, cathepsinen) breken spiervezel eiwitten af in de loop van tijd" },
+          { en: "Bacteria digest the meat externally", es: "Las bacterias digieren la carne externamente", de: "Bakterien verdauen das Fleisch extern", nl: "Bacteriën verteren het vlees extern" },
+          { en: "Oxidation hardens meat fibers", es: "La oxidación endurece las fibras de la carne", de: "Oxidation härtet Fleischfasern", nl: "Oxidatie verhardt vleesvezels" },
+          { en: "Water content increases through osmosis", es: "El contenido de agua aumenta a través de ósmosis", de: "Wassergehalt steigt durch Osmose", nl: "Watergehalte stijgt door osmose" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dry and wet aging work through enzymatic autolysis - the meat's own enzymes (primarily calpains and cathepsins) gradually break down muscle proteins and connective tissue after slaughter. This proteolysis weakens muscle structure, tenderizing meat and developing deeper flavors. Dry aging also dehydrates meat, concentrating flavors. Aging is most effective at 34-38°F; too warm causes spoilage, too cold slows enzymes.",
+          es: "El envejecimiento en seco y húmedo funciona a través de autólisis enzimática - las propias enzimas de la carne (principalmente calpaínas y catepsinas) descomponen gradualmente las proteínas musculares y tejido conectivo después del sacrificio. Esta proteólisis debilita la estructura muscular, ablandando la carne y desarrollando sabores más profundos. El envejecimiento en seco también deshidrata la carne, concentrando sabores. El envejecimiento es más efectivo a 34-38°F; demasiado caliente causa deterioro, demasiado frío ralentiza las enzimas.",
+          de: "Trocken- und Nassalterung funktionieren durch enzymatische Autolyse - die eigenen Enzyme des Fleisches (hauptsächlich Calpaine und Cathepsine) bauen nach der Schlachtung allmählich Muskelproteine und Bindegewebe ab. Diese Proteolyse schwächt die Muskelstruktur, macht Fleisch zart und entwickelt tiefere Aromen. Trockenalterung dehydriert auch Fleisch, konzentriert Aromen. Alterung ist am effektivsten bei 1-3°C; zu warm verursacht Verderb, zu kalt verlangsamt Enzyme.",
+          nl: "Droge en natte rijping werken via enzymatische autolyse - de eigen enzymen van het vlees (voornamelijk calpaïnen en cathepsinen) breken geleidelijk spiereiwitten en bindweefsel af na slachten. Deze proteolyse verzwakt spierstructuur, maakt vlees mals en ontwikkelt diepere smaken. Droge rijping dehydreert ook vlees, concentreert smaken. Rijping is meest effectief bij 1-3°C; te warm veroorzaakt bederf, te koud vertraagt enzymen."
+        }
+      },
+      {
+        question: {
+          en: "How does acidic marinade (vinegar, citrus) affect meat texture chemically?",
+          es: "¿Cómo afecta químicamente la marinada ácida (vinagre, cítricos) la textura de la carne?",
+          de: "Wie beeinflusst saure Marinade (Essig, Zitrus) die Fleischtextur chemisch?",
+          nl: "Hoe beïnvloedt zure marinade (azijn, citrus) vlees textuur chemisch?"
+        },
+        options: [
+          { en: "Denatures surface proteins initially tenderizing, but extended exposure causes mushy texture", es: "Desnaturaliza proteínas superficiales inicialmente ablandando, pero exposición prolongada causa textura blanda", de: "Denaturiert Oberflächenproteine zunächst zart machend, aber längere Exposition verursacht matschige Textur", nl: "Denatureert oppervlakte eiwitten aanvankelijk malsend, maar langdurige blootstelling veroorzaakt zachte textuur" },
+          { en: "Acid only adds flavor without affecting texture", es: "El ácido solo añade sabor sin afectar la textura", de: "Säure fügt nur Geschmack hinzu ohne Textur zu beeinflussen", nl: "Zuur voegt alleen smaak toe zonder textuur te beïnvloeden" },
+          { en: "Permanently toughens meat at any duration", es: "Endurece permanentemente la carne en cualquier duración", de: "Härtet Fleisch dauerhaft bei jeder Dauer", nl: "Verhardt vlees permanent bij elke duur" },
+          { en: "Increases water retention indefinitely", es: "Aumenta la retención de agua indefinidamente", de: "Erhöht Wasserretention unbegrenzt", nl: "Verhoogt waterbehoud onbeperkt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Acids (pH 3-4) denature surface proteins, initially breaking some bonds and tenderizing the outer layer. However, acid penetration is limited and prolonged exposure (over 2-4 hours) causes proteins to bond tightly, squeezing out moisture and creating mushy, ceviche-like texture. Salt is better for tenderizing; use acid marinades briefly for flavor or choose enzymatic tenderizers instead.",
+          es: "Los ácidos (pH 3-4) desnaturalizan proteínas superficiales, inicialmente rompiendo algunos enlaces y ablandando la capa exterior. Sin embargo, la penetración de ácido es limitada y la exposición prolongada (más de 2-4 horas) causa que las proteínas se unan firmemente, exprimiendo humedad y creando textura blanda, similar al ceviche. La sal es mejor para ablandar; use marinadas ácidas brevemente para sabor o elija ablandadores enzimáticos en su lugar.",
+          de: "Säuren (pH 3-4) denaturieren Oberflächenproteine, brechen zunächst einige Bindungen und machen die äußere Schicht zart. Die Säurepenetration ist jedoch begrenzt und längere Exposition (über 2-4 Stunden) führt dazu, dass Proteine sich fest verbinden, Feuchtigkeit auspressen und eine matschige, ceviche-ähnliche Textur erzeugen. Salz ist besser zum Zartmachen; verwenden Sie saure Marinaden kurz für Geschmack oder wählen Sie stattdessen enzymatische Zartmacher.",
+          nl: "Zuren (pH 3-4) denatureren oppervlakte eiwitten, breken aanvankelijk enkele bindingen en maken de buitenlaag mals. Zuurpenetratie is echter beperkt en langdurige blootstelling (meer dan 2-4 uur) zorgt ervoor dat eiwitten stevig binden, vocht uitpersen en zachte, ceviche-achtige textuur creëren. Zout is beter voor malsen; gebruik zure marinades kort voor smaak of kies in plaats daarvan enzymatische malsers."
+        }
+      },
+      {
+        question: {
+          en: "What is the role of glucose and fructose in BBQ rubs regarding browning?",
+          es: "¿Cuál es el papel de la glucosa y fructosa en los condimentos BBQ respecto al dorado?",
+          de: "Was ist die Rolle von Glukose und Fruktose in BBQ-Rubs bezüglich Bräunung?",
+          nl: "Wat is de rol van glucose en fructose in BBQ-rubs met betrekking tot bruining?"
+        },
+        options: [
+          { en: "They are reducing sugars essential for Maillard reaction, fructose browns faster than glucose", es: "Son azúcares reductores esenciales para la reacción de Maillard, la fructosa se dora más rápido que la glucosa", de: "Sie sind reduzierende Zucker, essentiell für Maillard-Reaktion, Fruktose bräunt schneller als Glukose", nl: "Het zijn reducerende suikers essentieel voor Maillard reactie, fructose bruint sneller dan glucose" },
+          { en: "Only sucrose (table sugar) can participate in browning", es: "Solo la sacarosa (azúcar de mesa) puede participar en el dorado", de: "Nur Saccharose (Haushaltszucker) kann an Bräunung teilnehmen", nl: "Alleen sucrose (tafelsuiker) kan deelnemen aan bruining" },
+          { en: "They prevent browning by blocking protein reactions", es: "Previenen el dorado bloqueando reacciones de proteínas", de: "Sie verhindern Bräunung durch Blockierung von Proteinreaktionen", nl: "Ze voorkomen bruining door eiwit reacties te blokkeren" },
+          { en: "They only provide sweetness without chemical reactions", es: "Solo proporcionan dulzura sin reacciones químicas", de: "Sie liefern nur Süße ohne chemische Reaktionen", nl: "Ze leveren alleen zoetheid zonder chemische reacties" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Glucose and fructose are 'reducing sugars' with free aldehyde/ketone groups that react with amino acids in the Maillard reaction. Fructose (ketose) browns significantly faster than glucose (aldose) at the same temperature. Sucrose must first break into glucose+fructose to participate. This is why honey (fructose-rich) and brown sugar create faster, darker bark than white sugar.",
+          es: "La glucosa y fructosa son 'azúcares reductores' con grupos aldehído/cetona libres que reaccionan con aminoácidos en la reacción de Maillard. La fructosa (cetosa) se dora significativamente más rápido que la glucosa (aldosa) a la misma temperatura. La sacarosa debe primero descomponerse en glucosa+fructosa para participar. Por eso la miel (rica en fructosa) y el azúcar morena crean corteza más rápida y oscura que el azúcar blanca.",
+          de: "Glukose und Fruktose sind 'reduzierende Zucker' mit freien Aldehyd-/Ketongruppen, die mit Aminosäuren in der Maillard-Reaktion reagieren. Fruktose (Ketose) bräunt bei gleicher Temperatur deutlich schneller als Glukose (Aldose). Saccharose muss zuerst in Glukose+Fruktose zerfallen, um teilzunehmen. Deshalb erzeugen Honig (fruktosereich) und brauner Zucker schnellere, dunklere Bark als weißer Zucker.",
+          nl: "Glucose en fructose zijn 'reducerende suikers' met vrije aldehyde/keton groepen die reageren met aminozuren in de Maillard reactie. Fructose (ketose) bruint aanzienlijk sneller dan glucose (aldose) bij dezelfde temperatuur. Sucrose moet eerst afbreken in glucose+fructose om deel te nemen. Daarom creëren honing (fructose-rijk) en bruine suiker snellere, donkerdere bark dan witte suiker."
+        }
+      },
+      {
+        question: {
+          en: "What causes the difference between 'clean' and 'dirty' smoke chemically?",
+          es: "¿Qué causa la diferencia entre humo 'limpio' y 'sucio' químicamente?",
+          de: "Was verursacht chemisch den Unterschied zwischen 'sauberem' und 'schmutzigem' Rauch?",
+          nl: "Wat veroorzaakt chemisch het verschil tussen 'schone' en 'vuile' rook?"
+        },
+        options: [
+          { en: "Complete combustion produces simple compounds (CO₂, H₂O, phenols), incomplete creates PAHs and creosote", es: "Combustión completa produce compuestos simples (CO₂, H₂O, fenoles), incompleta crea HAP y creosota", de: "Vollständige Verbrennung produziert einfache Verbindungen (CO₂, H₂O, Phenole), unvollständige erzeugt PAK und Kreosot", nl: "Volledige verbranding produceert eenvoudige verbindingen (CO₂, H₂O, fenolen), onvolledige creëert PAK's en creosoot" },
+          { en: "Wood species determines smoke color exclusively", es: "La especie de madera determina exclusivamente el color del humo", de: "Holzart bestimmt ausschließlich Rauchfarbe", nl: "Houtsoort bepaalt uitsluitend rookkleur" },
+          { en: "Temperature has no effect on smoke composition", es: "La temperatura no tiene efecto en la composición del humo", de: "Temperatur hat keine Auswirkung auf Rauchzusammensetzung", nl: "Temperatuur heeft geen effect op rook samenstelling" },
+          { en: "Only moisture content affects smoke quality", es: "Solo el contenido de humedad afecta la calidad del humo", de: "Nur Feuchtigkeitsgehalt beeinflusst Rauchqualität", nl: "Alleen vochtgehalte beïnvloedt rook kwaliteit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Clean 'thin blue' smoke results from complete combustion with adequate oxygen at proper temperature (500-750°F), producing primarily CO₂, water vapor, and desirable phenolic compounds. Dirty 'white/black' smoke from incomplete combustion creates polycyclic aromatic hydrocarbons (PAHs), creosote, and soot - bitter and potentially carcinogenic. Proper airflow management ensures complete combustion for good smoke flavor.",
+          es: "El humo 'azul delgado' limpio resulta de combustión completa con oxígeno adecuado a temperatura apropiada (500-750°F), produciendo principalmente CO₂, vapor de agua y compuestos fenólicos deseables. El humo 'blanco/negro' sucio de combustión incompleta crea hidrocarburos aromáticos policíclicos (HAP), creosota y hollín - amargo y potencialmente cancerígeno. El manejo apropiado del flujo de aire asegura combustión completa para buen sabor a humo.",
+          de: "Sauberer 'dünner blauer' Rauch resultiert aus vollständiger Verbrennung mit ausreichend Sauerstoff bei richtiger Temperatur (260-400°C), wobei hauptsächlich CO₂, Wasserdampf und wünschenswerte phenolische Verbindungen erzeugt werden. Schmutziger 'weißer/schwarzer' Rauch aus unvollständiger Verbrennung erzeugt polyzyklische aromatische Kohlenwasserstoffe (PAK), Kreosot und Ruß - bitter und potenziell krebserregend. Richtige Luftströmungsverwaltung gewährleistet vollständige Verbrennung für guten Rauchgeschmack.",
+          nl: "Schone 'dunne blauwe' rook resulteert uit volledige verbranding met voldoende zuurstof bij juiste temperatuur (260-400°C), waarbij voornamelijk CO₂, waterdamp en gewenste fenolische verbindingen worden geproduceerd. Vuile 'witte/zwarte' rook van onvolledige verbranding creëert polycyclische aromatische koolwaterstoffen (PAK's), creosoot en roet - bitter en potentieel kankerverwekkend. Juist luchtstroommanagement zorgt voor volledige verbranding voor goede rooksmaak."
+        }
+      },
+      {
+        question: {
+          en: "What thermodynamic principle explains why opening smoker lid causes temperature drop?",
+          es: "¿Qué principio termodinámico explica por qué abrir la tapa del ahumador causa caída de temperatura?",
+          de: "Welches thermodynamische Prinzip erklärt, warum das Öffnen des Smoker-Deckels einen Temperaturabfall verursacht?",
+          nl: "Welk thermodynamisch principe verklaart waarom het openen van smoker deksel temperatuurdaling veroorzaakt?"
+        },
+        options: [
+          { en: "Heat loss through convection (hot air escapes), radiation, and introduction of cool ambient air", es: "Pérdida de calor a través de convección (aire caliente escapa), radiación e introducción de aire ambiente frío", de: "Wärmeverlust durch Konvektion (heiße Luft entweicht), Strahlung und Einführung kühler Umgebungsluft", nl: "Warmteverlies door convectie (hete lucht ontsnapt), straling en introductie van koele omgevingslucht" },
+          { en: "Chemical reaction stops when oxygen enters", es: "La reacción química se detiene cuando entra oxígeno", de: "Chemische Reaktion stoppt, wenn Sauerstoff eintritt", nl: "Chemische reactie stopt wanneer zuurstof binnenkomt" },
+          { en: "Smoke particles absorb all heat energy", es: "Las partículas de humo absorben toda la energía térmica", de: "Rauchpartikel absorbieren alle Wärmeenergie", nl: "Rookdeeltjes absorberen alle warmte energie" },
+          { en: "Meat releases cold air when exposed", es: "La carne libera aire frío cuando se expone", de: "Fleisch setzt kalte Luft frei, wenn es freigelegt wird", nl: "Vlees geeft koude lucht af wanneer blootgesteld" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Opening the lid causes rapid heat loss through: (1) Convection - hot air (less dense) rises and escapes, replaced by cool ambient air sinking in, (2) Radiation - heat radiates outward from hot surfaces, (3) Disrupted combustion from airflow change. The phrase 'if you're lookin', you ain't cookin'' reflects how each opening requires 10-15 minutes to restabilize temperature, extending cook time significantly.",
+          es: "Abrir la tapa causa pérdida rápida de calor a través de: (1) Convección - aire caliente (menos denso) sube y escapa, reemplazado por aire ambiente frío que se hunde, (2) Radiación - el calor irradia hacia afuera de superficies calientes, (3) Combustión interrumpida por cambio de flujo de aire. La frase 'si estás mirando, no estás cocinando' refleja cómo cada apertura requiere 10-15 minutos para reestabilizar temperatura, extendiendo significativamente el tiempo de cocción.",
+          de: "Das Öffnen des Deckels verursacht schnellen Wärmeverlust durch: (1) Konvektion - heiße Luft (weniger dicht) steigt und entweicht, wird durch kühle Umgebungsluft ersetzt, die sinkt, (2) Strahlung - Wärme strahlt von heißen Oberflächen nach außen, (3) Gestörte Verbrennung durch Luftströmungsänderung. Der Satz 'wenn du schaust, kochst du nicht' spiegelt wider, wie jedes Öffnen 10-15 Minuten zur Temperaturrestabilisierung benötigt, was die Kochzeit erheblich verlängert.",
+          nl: "Het openen van het deksel veroorzaakt snel warmteverlies door: (1) Convectie - hete lucht (minder dicht) stijgt en ontsnapt, vervangen door koele omgevingslucht die zakt, (2) Straling - warmte straalt naar buiten van hete oppervlakken, (3) Verstoorde verbranding door luchtstroom verandering. De uitdrukking 'als je kijkt, kook je niet' weerspiegelt hoe elke opening 10-15 minuten nodig heeft om temperatuur te herstabiliseren, wat kooktijd aanzienlijk verlengt."
+        }
+      },
+      {
+        question: {
+          en: "How does sous vide pre-cooking affect BBQ finish smoking scientifically?",
+          es: "¿Cómo afecta científicamente la precocción sous vide al acabado de ahumado BBQ?",
+          de: "Wie beeinflusst Sous-Vide-Vorkochen wissenschaftlich das BBQ-Finish-Räuchern?",
+          nl: "Hoe beïnvloedt sous vide voorkoken wetenschappelijk BBQ afwerking roken?"
+        },
+        options: [
+          { en: "Precisely controls collagen breakdown, then smoking adds flavor/bark without overcooking", es: "Controla precisamente la descomposición del colágeno, luego ahumar añade sabor/corteza sin sobrecocinar", de: "Kontrolliert präzise Kollagenabbau, dann fügt Räuchern Geschmack/Bark hinzu ohne Überkochen", nl: "Controleert nauwkeurig collageen afbraak, dan voegt roken smaak/bark toe zonder overkoken" },
+          { en: "Eliminates need for any smoke exposure", es: "Elimina la necesidad de cualquier exposición al humo", de: "Eliminiert Bedarf an jeglicher Rauchexposition", nl: "Elimineert behoefte aan rook blootstelling" },
+          { en: "Prevents Maillard reaction from occurring", es: "Previene que ocurra la reacción de Maillard", de: "Verhindert, dass Maillard-Reaktion auftritt", nl: "Voorkomt dat Maillard reactie optreedt" },
+          { en: "Makes bark impossible to form", es: "Hace imposible formar corteza", de: "Macht Bark-Bildung unmöglich", nl: "Maakt bark vorming onmogelijk" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sous vide allows precise temperature control (e.g., 165°F for 24 hours) to fully convert collagen to gelatin without risk of overcooking. The sealed environment retains moisture. Then finish smoking at higher heat develops Maillard reaction bark and smoke flavor in 1-2 hours without extended cook time. This separates tenderization (time+temperature) from flavor development (smoke+browning).",
+          es: "Sous vide permite control de temperatura preciso (ej., 165°F por 24 horas) para convertir completamente colágeno en gelatina sin riesgo de sobrecocinar. El ambiente sellado retiene humedad. Luego terminar ahumando a calor más alto desarrolla corteza de reacción de Maillard y sabor a humo en 1-2 horas sin tiempo de cocción extendido. Esto separa el ablandamiento (tiempo+temperatura) del desarrollo de sabor (humo+dorado).",
+          de: "Sous Vide ermöglicht präzise Temperaturkontrolle (z.B. 74°C für 24 Stunden), um Kollagen vollständig in Gelatine umzuwandeln ohne Überkochen-Risiko. Die versiegelte Umgebung hält Feuchtigkeit. Dann entwickelt Finish-Räuchern bei höherer Hitze Maillard-Reaktion-Bark und Rauchgeschmack in 1-2 Stunden ohne verlängerte Kochzeit. Dies trennt Zartmachen (Zeit+Temperatur) von Geschmacksentwicklung (Rauch+Bräunung).",
+          nl: "Sous vide maakt nauwkeurige temperatuurcontrole mogelijk (bijv. 74°C voor 24 uur) om collageen volledig om te zetten in gelatine zonder risico van overkoken. De afgesloten omgeving behoudt vocht. Dan ontwikkelt afwerking roken bij hogere hitte Maillard reactie bark en rooksmaak in 1-2 uur zonder verlengde kooktijd. Dit scheidt malsen (tijd+temperatuur) van smaak ontwikkeling (rook+bruining)."
+        }
+      },
+      {
+        question: {
+          en: "What is the relationship between water activity (aw) and bacterial growth in BBQ?",
+          es: "¿Cuál es la relación entre la actividad del agua (aw) y el crecimiento bacteriano en BBQ?",
+          de: "Was ist die Beziehung zwischen Wasseraktivität (aw) und Bakterienwachstum beim BBQ?",
+          nl: "Wat is de relatie tussen wateractiviteit (aw) en bacteriegroei in BBQ?"
+        },
+        options: [
+          { en: "Most bacteria need aw above 0.90; surface dehydration and salt reduce aw, inhibiting growth", es: "La mayoría de bacterias necesitan aw por encima de 0.90; deshidratación superficial y sal reducen aw, inhibiendo crecimiento", de: "Die meisten Bakterien brauchen aw über 0.90; Oberflächendehydration und Salz reduzieren aw, hemmen Wachstum", nl: "De meeste bacteriën hebben aw boven 0.90 nodig; oppervlakte dehydratie en zout verlagen aw, remmen groei" },
+          { en: "Water activity has no relationship to food safety", es: "La actividad del agua no tiene relación con la seguridad alimentaria", de: "Wasseraktivität hat keine Beziehung zur Lebensmittelsicherheit", nl: "Wateractiviteit heeft geen relatie met voedselveiligheid" },
+          { en: "Higher water activity always improves meat quality", es: "Mayor actividad del agua siempre mejora la calidad de la carne", de: "Höhere Wasseraktivität verbessert immer Fleischqualität", nl: "Hogere wateractiviteit verbetert altijd vleeskwaliteit" },
+          { en: "Only temperature affects bacterial growth", es: "Solo la temperatura afecta el crecimiento bacteriano", de: "Nur Temperatur beeinflusst Bakterienwachstum", nl: "Alleen temperatuur beïnvloedt bacteriegroei" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Water activity (aw) measures available water for microbial growth (scale 0-1.0). Most pathogenic bacteria require aw > 0.90. During BBQ, surface dehydration (bark formation) and salt penetration reduce aw, creating a hostile environment for bacteria. This, combined with temperature >140°F, makes properly smoked meat safe. Jerky and cured meats rely heavily on low aw for preservation.",
+          es: "La actividad del agua (aw) mide el agua disponible para crecimiento microbiano (escala 0-1.0). La mayoría de bacterias patógenas requieren aw > 0.90. Durante BBQ, la deshidratación superficial (formación de corteza) y penetración de sal reducen aw, creando un ambiente hostil para bacterias. Esto, combinado con temperatura >140°F, hace que la carne correctamente ahumada sea segura. El jerky y carnes curadas dependen en gran medida de aw bajo para conservación.",
+          de: "Wasseraktivität (aw) misst verfügbares Wasser für mikrobielles Wachstum (Skala 0-1.0). Die meisten pathogenen Bakterien benötigen aw > 0.90. Während des BBQ reduzieren Oberflächendehydration (Bark-Bildung) und Salzpenetration aw, wodurch eine feindliche Umgebung für Bakterien entsteht. Dies, kombiniert mit Temperatur >60°C, macht richtig geräuchertes Fleisch sicher. Jerky und gepökelte Fleischsorten verlassen sich stark auf niedrige aw zur Konservierung.",
+          nl: "Wateractiviteit (aw) meet beschikbaar water voor microbiële groei (schaal 0-1.0). De meeste pathogene bacteriën hebben aw > 0.90 nodig. Tijdens BBQ verlagen oppervlakte dehydratie (bark vorming) en zoutpenetratie aw, creëren een vijandige omgeving voor bacteriën. Dit, gecombineerd met temperatuur >60°C, maakt correct gerookt vlees veilig. Jerky en gepekeld vlees zijn sterk afhankelijk van lage aw voor conservering."
+        }
+      },
+      {
+        question: {
+          en: "How do wood sugars (hemicellulose breakdown) contribute to smoke flavor differently than lignin?",
+          es: "¿Cómo contribuyen los azúcares de madera (descomposición de hemicelulosa) al sabor del humo diferente a la lignina?",
+          de: "Wie tragen Holzzucker (Hemicellulose-Abbau) anders zum Rauchgeschmack bei als Lignin?",
+          nl: "Hoe dragen hout suikers (hemicellulose afbraak) anders bij aan rooksmaak dan lignine?"
+        },
+        options: [
+          { en: "Hemicelluloses create sweet, caramel notes through sugar pyrolysis; lignin provides smoky phenols", es: "Las hemicelulosas crean notas dulces, de caramelo a través de pirólisis de azúcar; lignina proporciona fenoles ahumados", de: "Hemicellulosen erzeugen süße, Karamellnoten durch Zuckerpyrolyse; Lignin liefert rauchige Phenole", nl: "Hemicellulosen creëren zoete, karamel tonen via suiker pyrolyse; lignine levert rokerige fenolen" },
+          { en: "Both produce identical flavor compounds", es: "Ambos producen compuestos de sabor idénticos", de: "Beide produzieren identische Geschmacksverbindungen", nl: "Beide produceren identieke smaakverbindingen" },
+          { en: "Hemicelluloses only affect smoke color", es: "Las hemicelulosas solo afectan el color del humo", de: "Hemicellulosen beeinflussen nur Rauchfarbe", nl: "Hemicellulosen beïnvloeden alleen rookkleur" },
+          { en: "Lignin creates sweetness, hemicelluloses create bitterness", es: "La lignina crea dulzura, las hemicelulosas crean amargura", de: "Lignin erzeugt Süße, Hemicellulosen erzeugen Bitterkeit", nl: "Lignine creëert zoetheid, hemicellulosen creëren bitterheid" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Wood contains cellulose (structure), hemicellulose (15-25%, breaks down into sugars), and lignin (polymer). Hemicellulose thermal decomposition creates simple sugars that undergo pyrolysis and caramelization, producing sweet, caramel, toffee-like aromatics. Lignin breakdown produces phenolic compounds (guaiacol, syringol) providing smoky, spicy, bacon-like flavors. Together they create complex smoke flavor profile - fruitwoods are sweeter (more hemicellulose), hardwoods more phenolic.",
+          es: "La madera contiene celulosa (estructura), hemicelulosa (15-25%, se descompone en azúcares) y lignina (polímero). La descomposición térmica de hemicelulosa crea azúcares simples que sufren pirólisis y caramelización, produciendo aromáticos dulces, de caramelo, tipo toffee. La descomposición de lignina produce compuestos fenólicos (guaiacol, siringol) proporcionando sabores ahumados, picantes, tipo tocino. Juntos crean perfil de sabor a humo complejo - maderas frutales son más dulces (más hemicelulosa), maderas duras más fenólicas.",
+          de: "Holz enthält Cellulose (Struktur), Hemicellulose (15-25%, zerfällt in Zucker) und Lignin (Polymer). Thermische Zersetzung von Hemicellulose erzeugt einfache Zucker, die Pyrolyse und Karamellisierung durchlaufen, wodurch süße, Karamell-, Toffee-ähnliche Aromaten entstehen. Ligninabbau produziert phenolische Verbindungen (Guaiacol, Syringol), die rauchige, würzige, speck-ähnliche Aromen liefern. Zusammen erzeugen sie komplexes Raucharomaprofil - Obsthölzer sind süßer (mehr Hemicellulose), Harthölzer phenolischer.",
+          nl: "Hout bevat cellulose (structuur), hemicellulose (15-25%, breekt af in suikers) en lignine (polymeer). Hemicellulose thermische afbraak creëert eenvoudige suikers die pyrolyse en karamelisatie ondergaan, waarbij zoete, karamel, toffee-achtige aromaten ontstaan. Lignine afbraak produceert fenolische verbindingen (guaiacol, syringol) die rokerige, pittige, spek-achtige smaken leveren. Samen creëren ze complex rooksmaak profiel - fruitbomen zijn zoeter (meer hemicellulose), hardhout meer fenolisch."
+        }
+      },
+      {
+        question: {
+          en: "What causes protein 'weeping' (syneresis) in over-cured or over-smoked meat?",
+          es: "¿Qué causa el 'llanto' de proteínas (sinéresis) en carne sobre-curada o sobre-ahumada?",
+          de: "Was verursacht Protein-'Weinen' (Synerese) in überpökeltem oder überräuchertem Fleisch?",
+          nl: "Wat veroorzaakt eiwit 'wenen' (synerese) in over-gepekeld of over-gerookt vlees?"
+        },
+        options: [
+          { en: "Excessive salt/smoke causes proteins to contract tightly, expelling bound water", es: "Sal/humo excesivo causa que proteínas se contraigan fuertemente, expulsando agua unida", de: "Übermäßiges Salz/Rauch führt dazu, dass Proteine sich fest zusammenziehen und gebundenes Wasser ausstoßen", nl: "Overmatig zout/rook zorgt ervoor dat eiwitten strak samentrekken, gebonden water uitdrijven" },
+          { en: "Bacterial fermentation produces excess moisture", es: "La fermentación bacteriana produce exceso de humedad", de: "Bakterielle Fermentation produziert überschüssige Feuchtigkeit", nl: "Bacteriële fermentatie produceert overtollig vocht" },
+          { en: "Fat melting creates liquid pools", es: "El derretimiento de grasa crea charcos líquidos", de: "Fettschmelzen erzeugt Flüssigkeitspfützen", nl: "Vet smelten creëert vloeibare plassen" },
+          { en: "Collagen converts to water molecules", es: "El colágeno se convierte en moléculas de agua", de: "Kollagen verwandelt sich in Wassermoleküle", nl: "Collageen converteert naar watermoleculen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Syneresis occurs when proteins are over-denatured by excessive salt, heat, or smoke acids, causing them to coagulate too tightly. This squeezes out previously bound water, creating liquid 'weeping' on the surface. It's the same principle as squeezing a sponge. Over-cured bacon, overly salty pastrami, or meat smoked too long at too low temperature can exhibit this. Proper curing balance prevents syneresis.",
+          es: "La sinéresis ocurre cuando las proteínas están sobre-desnaturalizadas por sal excesiva, calor o ácidos del humo, causando que coagulen demasiado fuertemente. Esto exprime el agua previamente unida, creando 'llanto' líquido en la superficie. Es el mismo principio que exprimir una esponja. Tocino sobre-curado, pastrami excesivamente salado o carne ahumada demasiado tiempo a temperatura demasiado baja pueden exhibir esto. El equilibrio adecuado de curado previene la sinéresis.",
+          de: "Synerese tritt auf, wenn Proteine durch übermäßiges Salz, Hitze oder Rauchsäuren überdenaturiert werden, wodurch sie zu fest koagulieren. Dies presst zuvor gebundenes Wasser heraus und erzeugt flüssiges 'Weinen' auf der Oberfläche. Es ist dasselbe Prinzip wie das Auspressen eines Schwamms. Überpökelter Speck, übermäßig salziges Pastrami oder zu lange bei zu niedriger Temperatur geräuchertes Fleisch können dies zeigen. Richtige Pökelbalance verhindert Synerese.",
+          nl: "Synerese treedt op wanneer eiwitten te veel worden gedenatureerd door overmatig zout, hitte of rookzuren, waardoor ze te strak coaguleren. Dit perst eerder gebonden water eruit, creëert vloeibaar 'wenen' op het oppervlak. Het is hetzelfde principe als een spons uitknijpen. Over-gepekeld spek, te zout pastrami of vlees te lang gerookt bij te lage temperatuur kunnen dit vertonen. Juiste pekel balans voorkomt synerese."
+        }
+      },
+      {
+        question: {
+          en: "How does the specific heat capacity of meat affect smoking time calculations?",
+          es: "¿Cómo afecta la capacidad calorífica específica de la carne los cálculos de tiempo de ahumado?",
+          de: "Wie beeinflusst die spezifische Wärmekapazität von Fleisch die Berechnung der Räucherzeit?",
+          nl: "Hoe beïnvloedt de specifieke warmtecapaciteit van vlees rook tijd berekeningen?"
+        },
+        options: [
+          { en: "Meat's high water content (specific heat ~3.5 kJ/kg°C) means it heats slowly, requiring extended cook times", es: "El alto contenido de agua de la carne (calor específico ~3.5 kJ/kg°C) significa que se calienta lentamente, requiriendo tiempos de cocción extendidos", de: "Hoher Wassergehalt von Fleisch (spezifische Wärme ~3.5 kJ/kg°C) bedeutet langsame Erwärmung, erfordert verlängerte Kochzeiten", nl: "Hoog watergehalte van vlees (specifieke warmte ~3.5 kJ/kg°C) betekent langzaam opwarmen, vereist verlengde kooktijden" },
+          { en: "Specific heat has no impact on cooking time", es: "El calor específico no tiene impacto en el tiempo de cocción", de: "Spezifische Wärme hat keine Auswirkung auf Kochzeit", nl: "Specifieke warmte heeft geen impact op kooktijd" },
+          { en: "Only fat content determines heat absorption", es: "Solo el contenido de grasa determina la absorción de calor", de: "Nur Fettgehalt bestimmt Wärmeaufnahme", nl: "Alleen vetgehalte bepaalt warmte absorptie" },
+          { en: "Meat heats faster than water", es: "La carne se calienta más rápido que el agua", de: "Fleisch erwärmt sich schneller als Wasser", nl: "Vlees verwarmt sneller dan water" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Specific heat capacity is the energy required to raise 1kg of material by 1°C. Meat's high water content gives it specific heat around 3.5 kJ/kg°C (similar to water's 4.18), meaning it requires substantial energy to heat. Combined with poor thermal conductivity, large cuts heat slowly and unevenly. This explains the '1-1.5 hours per pound' guideline and why thicker cuts take disproportionately longer than thin ones.",
+          es: "La capacidad calorífica específica es la energía requerida para elevar 1kg de material en 1°C. El alto contenido de agua de la carne le da un calor específico alrededor de 3.5 kJ/kg°C (similar a los 4.18 del agua), significando que requiere energía sustancial para calentar. Combinado con pobre conductividad térmica, los cortes grandes se calientan lenta y desigualmente. Esto explica la guía de '1-1.5 horas por libra' y por qué los cortes más gruesos toman desproporcionadamente más tiempo que los delgados.",
+          de: "Spezifische Wärmekapazität ist die Energie, die benötigt wird, um 1kg Material um 1°C zu erhöhen. Der hohe Wassergehalt von Fleisch ergibt eine spezifische Wärme von etwa 3.5 kJ/kg°C (ähnlich den 4.18 von Wasser), was bedeutet, dass erhebliche Energie zum Erhitzen erforderlich ist. Kombiniert mit schlechter Wärmeleitfähigkeit erwärmen sich große Stücke langsam und ungleichmäßig. Dies erklärt die '1-1.5 Stunden pro Pfund'-Richtlinie und warum dickere Stücke unverhältnismäßig länger brauchen als dünne.",
+          nl: "Specifieke warmtecapaciteit is de energie die nodig is om 1kg materiaal met 1°C te verhogen. Het hoge watergehalte van vlees geeft het een specifieke warmte van ongeveer 3.5 kJ/kg°C (vergelijkbaar met water's 4.18), wat betekent dat het aanzienlijke energie nodig heeft om te verwarmen. Gecombineerd met slechte thermische geleidbaarheid, verwarmen grote stukken langzaam en ongelijkmatig. Dit verklaart de '1-1.5 uur per pond' richtlijn en waarom dikkere stukken onevenredig langer duren dan dunne."
+        }
+      },
+      {
+        question: {
+          en: "What is the role of free radicals in meat oxidation and smoke antioxidants?",
+          es: "¿Cuál es el papel de los radicales libres en la oxidación de la carne y antioxidantes del humo?",
+          de: "Was ist die Rolle freier Radikale bei Fleischoxidation und Rauch-Antioxidantien?",
+          nl: "Wat is de rol van vrije radicalen bij vlees oxidatie en rook antioxidanten?"
+        },
+        options: [
+          { en: "Free radicals cause rancidity; smoke phenols act as antioxidants preventing fat oxidation", es: "Los radicales libres causan rancidez; fenoles del humo actúan como antioxidantes previniendo oxidación de grasa", de: "Freie Radikale verursachen Ranzigkeit; Rauchphenole wirken als Antioxidantien, verhindern Fettoxidation", nl: "Vrije radicalen veroorzaken ranzigheid; rook fenolen werken als antioxidanten voorkomen vet oxidatie" },
+          { en: "Smoke increases free radical formation", es: "El humo aumenta la formación de radicales libres", de: "Rauch erhöht Bildung freier Radikale", nl: "Rook verhoogt vrije radicaal vorming" },
+          { en: "Free radicals improve meat tenderness", es: "Los radicales libres mejoran la ternura de la carne", de: "Freie Radikale verbessern Fleischzartheit", nl: "Vrije radicalen verbeteren vlees malheid" },
+          { en: "Oxidation has no effect on meat quality", es: "La oxidación no tiene efecto en la calidad de la carne", de: "Oxidation hat keine Auswirkung auf Fleischqualität", nl: "Oxidatie heeft geen effect op vleeskwaliteit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Lipid oxidation occurs when free radicals attack unsaturated fatty acids, causing rancidity and off-flavors in meat, especially during storage. Smoke contains phenolic compounds (from lignin breakdown) that act as antioxidants, donating electrons to neutralize free radicals. This is why smoked meats have extended shelf life - smoke provides chemical preservation beyond just surface dehydration and salt.",
+          es: "La oxidación de lípidos ocurre cuando los radicales libres atacan ácidos grasos insaturados, causando rancidez y sabores desagradables en la carne, especialmente durante el almacenamiento. El humo contiene compuestos fenólicos (de descomposición de lignina) que actúan como antioxidantes, donando electrones para neutralizar radicales libres. Por eso las carnes ahumadas tienen vida útil extendida - el humo proporciona preservación química más allá de solo deshidratación superficial y sal.",
+          de: "Lipidoxidation tritt auf, wenn freie Radikale ungesättigte Fettsäuren angreifen, was Ranzigkeit und Fehlaromen im Fleisch verursacht, besonders während der Lagerung. Rauch enthält phenolische Verbindungen (aus Ligninabbau), die als Antioxidantien wirken und Elektronen spenden, um freie Radikale zu neutralisieren. Deshalb haben geräucherte Fleischsorten verlängerte Haltbarkeit - Rauch bietet chemische Konservierung über bloße Oberflächendehydration und Salz hinaus.",
+          nl: "Lipide oxidatie treedt op wanneer vrije radicalen onverzadigde vetzuren aanvallen, wat ranzigheid en off-smaken in vlees veroorzaakt, vooral tijdens opslag. Rook bevat fenolische verbindingen (van lignine afbraak) die werken als antioxidanten, elektronen doneren om vrije radicalen te neutraliseren. Daarom hebben gerookte vlees soorten verlengde houdbaarheid - rook biedt chemische conservering naast alleen oppervlakte dehydratie en zout."
+        }
+      },
+      {
+        question: {
+          en: "How does thermal conductivity explain the difference between smoking chicken and brisket?",
+          es: "¿Cómo explica la conductividad térmica la diferencia entre ahumar pollo y brisket?",
+          de: "Wie erklärt Wärmeleitfähigkeit den Unterschied zwischen Räuchern von Hähnchen und Brisket?",
+          nl: "Hoe verklaart thermische geleidbaarheid het verschil tussen roken van kip en brisket?"
+        },
+        options: [
+          { en: "Chicken's smaller size and higher surface-to-volume ratio allows faster heat penetration than dense brisket", es: "El tamaño más pequeño del pollo y mayor relación superficie-volumen permite penetración de calor más rápida que brisket denso", de: "Hähnchens kleinere Größe und höheres Oberflächen-Volumen-Verhältnis ermöglicht schnellere Wärmedurchdringung als dichtes Brisket", nl: "Kip's kleinere formaat en hogere oppervlakte-volume verhouding maakt snellere warmte penetratie mogelijk dan dichte brisket" },
+          { en: "Chicken has higher thermal conductivity than beef", es: "El pollo tiene mayor conductividad térmica que la res", de: "Hähnchen hat höhere Wärmeleitfähigkeit als Rind", nl: "Kip heeft hogere thermische geleidbaarheid dan rundvlees" },
+          { en: "Only moisture content matters, not size", es: "Solo importa el contenido de humedad, no el tamaño", de: "Nur Feuchtigkeitsgehalt ist wichtig, nicht Größe", nl: "Alleen vochtgehalte is belangrijk, niet grootte" },
+          { en: "Brisket cooks faster due to more fat", es: "El brisket se cocina más rápido debido a más grasa", de: "Brisket kocht schneller wegen mehr Fett", nl: "Brisket kookt sneller vanwege meer vet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Thermal conductivity in meat is poor (~0.5 W/m·K), meaning heat travels slowly through tissue. Chicken's small size and high surface-to-volume ratio means the center is close to the surface, allowing quick heat penetration (1-2 hours). A thick brisket has low surface-to-volume ratio with the center far from surface, requiring 12+ hours for heat to reach the core at low temperatures. Geometry matters as much as material properties.",
+          es: "La conductividad térmica en la carne es pobre (~0.5 W/m·K), significando que el calor viaja lentamente a través del tejido. El tamaño pequeño del pollo y alta relación superficie-volumen significa que el centro está cerca de la superficie, permitiendo rápida penetración de calor (1-2 horas). Un brisket grueso tiene baja relación superficie-volumen con el centro lejos de la superficie, requiriendo 12+ horas para que el calor alcance el núcleo a bajas temperaturas. La geometría importa tanto como las propiedades del material.",
+          de: "Wärmeleitfähigkeit in Fleisch ist schlecht (~0.5 W/m·K), was bedeutet, dass Wärme langsam durch Gewebe wandert. Hähnchens kleine Größe und hohes Oberflächen-Volumen-Verhältnis bedeutet, dass das Zentrum nahe der Oberfläche ist, wodurch schnelle Wärmedurchdringung (1-2 Stunden) ermöglicht wird. Ein dickes Brisket hat niedriges Oberflächen-Volumen-Verhältnis mit dem Zentrum weit von der Oberfläche, was 12+ Stunden erfordert, damit Wärme den Kern bei niedrigen Temperaturen erreicht. Geometrie ist so wichtig wie Materialeigenschaften.",
+          nl: "Thermische geleidbaarheid in vlees is slecht (~0.5 W/m·K), wat betekent dat warmte langzaam door weefsel reist. Kip's kleine formaat en hoge oppervlakte-volume verhouding betekent dat het centrum dicht bij het oppervlak is, wat snelle warmte penetratie mogelijk maakt (1-2 uur). Een dikke brisket heeft lage oppervlakte-volume verhouding met het centrum ver van het oppervlak, vereist 12+ uur voor warmte om de kern te bereiken bij lage temperaturen. Geometrie is even belangrijk als materiaaleigenschappen."
+        }
+      },
+      {
+        question: {
+          en: "What chemical process creates 'off-flavors' from resinous woods like pine?",
+          es: "¿Qué proceso químico crea 'sabores desagradables' de maderas resinosas como el pino?",
+          de: "Welcher chemische Prozess erzeugt 'Fehlaromen' von harzigen Hölzern wie Kiefer?",
+          nl: "Welk chemisch proces creëert 'off-smaken' van harsachtig hout zoals den?"
+        },
+        options: [
+          { en: "Terpene resins break down into turpentine-like compounds creating acrid, chemical flavors", es: "Las resinas de terpeno se descomponen en compuestos tipo trementina creando sabores acres, químicos", de: "Terpenharze zerfallen in terpentinähnliche Verbindungen, erzeugen beißende, chemische Aromen", nl: "Terpeen harsen breken af in terpentijn-achtige verbindingen die scherpe, chemische smaken creëren" },
+          { en: "Pine has too much moisture content", es: "El pino tiene demasiado contenido de humedad", de: "Kiefer hat zu viel Feuchtigkeitsgehalt", nl: "Den heeft te veel vochtgehalte" },
+          { en: "Softwoods lack any flavor compounds", es: "Las maderas blandas carecen de compuestos de sabor", de: "Weichhölzer fehlen jegliche Geschmacksverbindungen", nl: "Zachthout mist smaakverbindingen" },
+          { en: "Only bark creates bad flavors", es: "Solo la corteza crea sabores malos", de: "Nur Rinde erzeugt schlechte Aromen", nl: "Alleen bast creëert slechte smaken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Resinous softwoods (pine, fir, spruce, cedar) contain high concentrations of terpenes - volatile organic compounds in sap and resin. When burned, these break down into turpentine, pinene, and other compounds that taste acrid, chemical, and medicinal. Hardwoods and fruitwoods lack significant resin, instead providing pleasant smoke from lignin and cellulose pyrolysis. Exception: cedar is sometimes used for planking since it's not burning, just smoldering.",
+          es: "Las maderas blandas resinosas (pino, abeto, pícea, cedro) contienen altas concentraciones de terpenos - compuestos orgánicos volátiles en savia y resina. Cuando se queman, estos se descomponen en trementina, pineno y otros compuestos que saben acre, químico y medicinal. Las maderas duras y maderas frutales carecen de resina significativa, en cambio proporcionan humo agradable de pirólisis de lignina y celulosa. Excepción: el cedro a veces se usa para tablones ya que no se está quemando, solo humeando.",
+          de: "Harzige Weichhölzer (Kiefer, Tanne, Fichte, Zeder) enthalten hohe Konzentrationen von Terpenen - flüchtige organische Verbindungen in Saft und Harz. Beim Verbrennen zerfallen diese in Terpentin, Pinen und andere Verbindungen, die beißend, chemisch und medizinisch schmecken. Harthölzer und Obsthölzer haben kein signifikantes Harz, liefern stattdessen angenehmen Rauch aus Lignin- und Cellulosepyrolyse. Ausnahme: Zeder wird manchmal für Planken verwendet, da sie nicht brennt, sondern nur glimmt.",
+          nl: "Harsachtig zachthout (den, spar, zilverspar, ceder) bevat hoge concentraties terpenen - vluchtige organische verbindingen in sap en hars. Wanneer verbrand, breken deze af in terpentijn, pineen en andere verbindingen die scherp, chemisch en medicinaal smaken. Hardhout en fruitbomen missen significant hars, leveren in plaats daarvan aangename rook van lignine en cellulose pyrolyse. Uitzondering: ceder wordt soms gebruikt voor planken omdat het niet brandt, alleen smeult."
+        }
+      },
+      {
+        question: {
+          en: "How does the Maillard reaction temperature requirement explain why boiling doesn't brown meat?",
+          es: "¿Cómo explica el requisito de temperatura de la reacción de Maillard por qué hervir no dora la carne?",
+          de: "Wie erklärt die Temperaturanforderung der Maillard-Reaktion, warum Kochen Fleisch nicht bräunt?",
+          nl: "Hoe verklaart de Maillard reactie temperatuur vereiste waarom koken vlees niet bruint?"
+        },
+        options: [
+          { en: "Maillard requires 300°F+; boiling water maxes at 212°F, too low for reaction to occur", es: "Maillard requiere 300°F+; agua hirviendo alcanza máximo 212°F, demasiado bajo para que ocurra la reacción", de: "Maillard erfordert 148°C+; kochendes Wasser erreicht maximal 100°C, zu niedrig für Reaktion", nl: "Maillard vereist 148°C+; kokend water bereikt maximaal 100°C, te laag voor reactie" },
+          { en: "Water prevents all chemical reactions", es: "El agua previene todas las reacciones químicas", de: "Wasser verhindert alle chemischen Reaktionen", nl: "Water voorkomt alle chemische reacties" },
+          { en: "Boiling removes all proteins from meat", es: "Hervir elimina todas las proteínas de la carne", de: "Kochen entfernt alle Proteine aus Fleisch", nl: "Koken verwijdert alle eiwitten uit vlees" },
+          { en: "Maillard reaction only happens with sugar", es: "La reacción de Maillard solo ocurre con azúcar", de: "Maillard-Reaktion geschieht nur mit Zucker", nl: "Maillard reactie gebeurt alleen met suiker" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Maillard reaction requires temperatures above 300°F (149°C) to proceed at meaningful rates. Boiling water is limited to 212°F (100°C) at sea level - well below the threshold. This is why boiled/steamed meat stays gray and bland while grilled/roasted meat browns. The water's presence also keeps surface wet, preventing the dry conditions needed. Pressure cookers reach higher temps but still don't brown well due to moisture.",
+          es: "La reacción de Maillard requiere temperaturas superiores a 300°F (149°C) para proceder a tasas significativas. El agua hirviendo está limitada a 212°F (100°C) al nivel del mar - muy por debajo del umbral. Por eso la carne hervida/al vapor permanece gris y suave mientras que la carne asada/a la parrilla se dora. La presencia de agua también mantiene la superficie húmeda, previniendo las condiciones secas necesarias. Las ollas a presión alcanzan temperaturas más altas pero aún no se doran bien debido a la humedad.",
+          de: "Die Maillard-Reaktion erfordert Temperaturen über 149°C, um mit bedeutenden Raten fortzuschreiten. Kochendes Wasser ist auf Meereshöhe auf 100°C begrenzt - weit unter der Schwelle. Deshalb bleibt gekochtes/gedämpftes Fleisch grau und fade, während gegrilltes/gebratenes Fleisch bräunt. Die Anwesenheit von Wasser hält auch die Oberfläche nass und verhindert die benötigten trockenen Bedingungen. Schnellkochtöpfe erreichen höhere Temperaturen, bräunen aber aufgrund von Feuchtigkeit immer noch nicht gut.",
+          nl: "De Maillard reactie vereist temperaturen boven 149°C om met betekenisvolle snelheden voort te gaan. Kokend water is beperkt tot 100°C op zeeniveau - ruim onder de drempel. Daarom blijft gekookt/gestoomd vlees grijs en flauw terwijl gegrild/geroosterd vlees bruint. De aanwezigheid van water houdt ook het oppervlak nat, voorkomt de droge omstandigheden die nodig zijn. Snelkookpannen bereiken hogere temps maar bruinen nog steeds niet goed door vocht."
+        }
       }
     ]
   };

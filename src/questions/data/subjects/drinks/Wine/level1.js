@@ -428,6 +428,426 @@
           nl: "De steel stelt je in staat het glas vast te houden zonder de wijn met je hand te verwarmen, waardoor de juiste serveertemperatuur behouden blijft."
         }
       },
+      {
+        question: {
+          en: "What are grapes that make wine called?",
+          es: "¿Cómo se llaman las uvas que hacen vino?",
+          de: "Wie werden Trauben genannt, die Wein machen?",
+          nl: "Hoe heten druiven die wijn maken?"
+        },
+        options: [
+          { en: "Table grapes", es: "Uvas de mesa", de: "Tafeltrauben", nl: "Tafeldruiven" },
+          { en: "Wine grapes", es: "Uvas viníferas", de: "Weintrauben", nl: "Wijndruiven" },
+          { en: "Juice grapes", es: "Uvas de jugo", de: "Safttrauben", nl: "Sapdruiven" },
+          { en: "Dessert grapes", es: "Uvas de postre", de: "Desserttrauben", nl: "Dessertdruiven" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Wine grapes (vitis vinifera) are smaller, sweeter, and have thicker skins than table grapes.",
+          es: "Las uvas viníferas (vitis vinifera) son más pequeñas, más dulces y tienen pieles más gruesas que las uvas de mesa.",
+          de: "Weintrauben (vitis vinifera) sind kleiner, süßer und haben dickere Schalen als Tafeltrauben.",
+          nl: "Wijndruiven (vitis vinifera) zijn kleiner, zoeter en hebben dikkere schillen dan tafeldruiven."
+        }
+      },
+      {
+        question: {
+          en: "Which country produces the most wine?",
+          es: "¿Qué país produce más vino?",
+          de: "Welches Land produziert den meisten Wein?",
+          nl: "Welk land produceert de meeste wijn?"
+        },
+        options: [
+          { en: "Spain", es: "España", de: "Spanien", nl: "Spanje" },
+          { en: "United States", es: "Estados Unidos", de: "Vereinigte Staaten", nl: "Verenigde Staten" },
+          { en: "Italy", es: "Italia", de: "Italien", nl: "Italië" },
+          { en: "France", es: "Francia", de: "Frankreich", nl: "Frankrijk" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Italy is typically the world's largest wine producer, competing closely with France and Spain.",
+          es: "Italia es típicamente el mayor productor de vino del mundo, compitiendo de cerca con Francia y España.",
+          de: "Italien ist typischerweise der weltgrößte Weinproduzent und konkurriert eng mit Frankreich und Spanien.",
+          nl: "Italië is doorgaans 's werelds grootste wijnproducent, in nauwe concurrentie met Frankrijk en Spanje."
+        }
+      },
+      {
+        question: {
+          en: "What is a sommelier?",
+          es: "¿Qué es un sommelier?",
+          de: "Was ist ein Sommelier?",
+          nl: "Wat is een sommelier?"
+        },
+        options: [
+          { en: "A wine expert", es: "Un experto en vinos", de: "Ein Weinexperte", nl: "Een wijnexpert" },
+          { en: "A grape farmer", es: "Un agricultor de uvas", de: "Ein Traubenbauer", nl: "Een druiventeler" },
+          { en: "A bottle maker", es: "Un fabricante de botellas", de: "Ein Flaschenmacher", nl: "Een flessenmaker" },
+          { en: "A wine seller", es: "Un vendedor de vino", de: "Ein Weinverkäufer", nl: "Een wijnverkoper" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A sommelier is a trained wine professional who specializes in wine service and food pairing.",
+          es: "Un sommelier es un profesional capacitado en vinos que se especializa en servicio de vino y maridaje con comida.",
+          de: "Ein Sommelier ist ein ausgebildeter Weinprofi, der sich auf Weinservice und Speisenpaarung spezialisiert.",
+          nl: "Een sommelier is een getrainde wijnprofessional die gespecialiseerd is in wijnservice en voedselcombinaties."
+        }
+      },
+      {
+        question: {
+          en: "What is a vineyard?",
+          es: "¿Qué es un viñedo?",
+          de: "Was ist ein Weinberg?",
+          nl: "Wat is een wijngaard?"
+        },
+        options: [
+          { en: "A wine shop", es: "Una tienda de vinos", de: "Ein Weinladen", nl: "Een wijnwinkel" },
+          { en: "A place where grapes are grown", es: "Un lugar donde se cultivan uvas", de: "Ein Ort wo Trauben angebaut werden", nl: "Een plaats waar druiven worden geteeld" },
+          { en: "A wine factory", es: "Una fábrica de vino", de: "Eine Weinfabrik", nl: "Een wijnfabriek" },
+          { en: "A wine cellar", es: "Una bodega de vino", de: "Ein Weinkeller", nl: "Een wijnkelder" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "A vineyard is a plantation of grape-bearing vines grown for winemaking.",
+          es: "Un viñedo es una plantación de vides que dan uvas cultivadas para hacer vino.",
+          de: "Ein Weinberg ist eine Plantage von traubentragenden Reben, die für die Weinherstellung angebaut werden.",
+          nl: "Een wijngaard is een plantage van druivendragende wijnstokken geteeld voor wijnproductie."
+        }
+      },
+      {
+        question: {
+          en: "What does 'bouquet' mean in wine?",
+          es: "¿Qué significa 'bouquet' en el vino?",
+          de: "Was bedeutet 'Bouquet' beim Wein?",
+          nl: "Wat betekent 'bouquet' bij wijn?"
+        },
+        options: [
+          { en: "The wine's color", es: "El color del vino", de: "Die Farbe des Weins", nl: "De kleur van de wijn" },
+          { en: "The wine's smell", es: "El olor del vino", de: "Der Geruch des Weins", nl: "De geur van de wijn" },
+          { en: "The wine's taste", es: "El sabor del vino", de: "Der Geschmack des Weins", nl: "De smaak van de wijn" },
+          { en: "The wine's price", es: "El precio del vino", de: "Der Preis des Weins", nl: "De prijs van de wijn" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Bouquet refers to the complex aromas that develop in wine as it ages.",
+          es: "Bouquet se refiere a los aromas complejos que se desarrollan en el vino a medida que envejece.",
+          de: "Bouquet bezieht sich auf die komplexen Aromen, die sich im Wein während der Reifung entwickeln.",
+          nl: "Bouquet verwijst naar de complexe aroma's die zich in wijn ontwikkelen naarmate het rijpt."
+        }
+      },
+      {
+        question: {
+          en: "What is Champagne?",
+          es: "¿Qué es el Champagne?",
+          de: "Was ist Champagner?",
+          nl: "Wat is Champagne?"
+        },
+        options: [
+          { en: "Any sparkling wine", es: "Cualquier vino espumoso", de: "Jeder Schaumwein", nl: "Elke mousserende wijn" },
+          { en: "Sparkling wine from Champagne, France", es: "Vino espumoso de Champagne, Francia", de: "Schaumwein aus der Champagne, Frankreich", nl: "Mousserende wijn uit Champagne, Frankrijk" },
+          { en: "Sweet white wine", es: "Vino blanco dulce", de: "Süßer Weißwein", nl: "Zoete witte wijn" },
+          { en: "A type of grape", es: "Un tipo de uva", de: "Eine Traubensorte", nl: "Een soort druif" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "True Champagne only comes from the Champagne region of France; others are called sparkling wine.",
+          es: "El verdadero Champagne solo proviene de la región de Champagne de Francia; otros se llaman vino espumoso.",
+          de: "Echter Champagner kommt nur aus der Champagne-Region in Frankreich; andere werden Schaumwein genannt.",
+          nl: "Echte Champagne komt alleen uit de Champagne-regio van Frankrijk; anderen worden mousserende wijn genoemd."
+        }
+      },
+      {
+        question: {
+          en: "Why do people swirl wine in a glass?",
+          es: "¿Por qué la gente gira el vino en una copa?",
+          de: "Warum schwenken Menschen Wein im Glas?",
+          nl: "Waarom draaien mensen wijn in een glas?"
+        },
+        options: [
+          { en: "To cool it down", es: "Para enfriarlo", de: "Um ihn abzukühlen", nl: "Om het af te koelen" },
+          { en: "To release aromas", es: "Para liberar aromas", de: "Um Aromen freizusetzen", nl: "Om aroma's vrij te maken" },
+          { en: "To mix in air bubbles", es: "Para mezclar burbujas de aire", de: "Um Luftblasen einzumischen", nl: "Om luchtbellen te mengen" },
+          { en: "Just for show", es: "Solo para presumir", de: "Nur zur Schau", nl: "Alleen voor de show" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Swirling wine aerates it and releases aromatic compounds, enhancing the tasting experience.",
+          es: "Girar el vino lo airea y libera compuestos aromáticos, mejorando la experiencia de degustación.",
+          de: "Das Schwenken von Wein belüftet ihn und setzt aromatische Verbindungen frei, was das Geschmackserlebnis verbessert.",
+          nl: "Wijn draaien belucht het en geeft aromatische verbindingen vrij, wat de proevervaringverbetert."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between white and red wine production?",
+          es: "¿Cuál es la diferencia entre la producción de vino blanco y tinto?",
+          de: "Was ist der Unterschied zwischen Weißwein- und Rotweinproduktion?",
+          nl: "Wat is het verschil tussen witte en rode wijnproductie?"
+        },
+        options: [
+          { en: "Temperature only", es: "Solo temperatura", de: "Nur Temperatur", nl: "Alleen temperatuur" },
+          { en: "Contact time with grape skins", es: "Tiempo de contacto con pieles de uva", de: "Kontaktzeit mit Traubenschalen", nl: "Contacttijd met druivenschillen" },
+          { en: "Type of barrel used", es: "Tipo de barrica usada", de: "Art des verwendeten Fasses", nl: "Type vat gebruikt" },
+          { en: "Amount of sugar added", es: "Cantidad de azúcar añadida", de: "Menge des zugesetzten Zuckers", nl: "Hoeveelheid toegevoegde suiker" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Red wine is fermented with grape skins for color and tannins, while white wine skins are removed early.",
+          es: "El vino tinto se fermenta con pieles de uva para color y taninos, mientras que las pieles del vino blanco se eliminan temprano.",
+          de: "Rotwein wird mit Traubenschalen für Farbe und Tannine fermentiert, während Weißweinschalen früh entfernt werden.",
+          nl: "Rode wijn wordt gefermenteerd met druivenschillen voor kleur en tannines, terwijl witte wijnschillen vroeg worden verwijderd."
+        }
+      },
+      {
+        question: {
+          en: "What does 'body' mean when describing wine?",
+          es: "¿Qué significa 'cuerpo' al describir el vino?",
+          de: "Was bedeutet 'Körper' bei der Beschreibung von Wein?",
+          nl: "Wat betekent 'body' bij het beschrijven van wijn?"
+        },
+        options: [
+          { en: "The weight or thickness of wine", es: "El peso o grosor del vino", de: "Das Gewicht oder die Dicke des Weins", nl: "Het gewicht of de dikte van wijn" },
+          { en: "The bottle shape", es: "La forma de la botella", de: "Die Form der Flasche", nl: "De vorm van de fles" },
+          { en: "The color intensity", es: "La intensidad del color", de: "Die Farbintensität", nl: "De kleurintensiteit" },
+          { en: "The age of wine", es: "La edad del vino", de: "Das Alter des Weins", nl: "De leeftijd van wijn" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Body describes how heavy or light wine feels in your mouth, ranging from light to full-bodied.",
+          es: "El cuerpo describe qué tan pesado o ligero se siente el vino en la boca, desde ligero hasta con mucho cuerpo.",
+          de: "Körper beschreibt wie schwer oder leicht sich Wein im Mund anfühlt, von leicht bis vollmundig.",
+          nl: "Body beschrijft hoe zwaar of licht wijn aanvoelt in je mond, variërend van licht tot volmondig."
+        }
+      },
+      {
+        question: {
+          en: "What are the legs or tears in wine?",
+          es: "¿Qué son las lágrimas en el vino?",
+          de: "Was sind die Beine oder Tränen im Wein?",
+          nl: "Wat zijn de benen of tranen in wijn?"
+        },
+        options: [
+          { en: "Drops running down glass sides", es: "Gotas que corren por los lados del vaso", de: "Tropfen die am Glas herunterlaufen", nl: "Druppels die langs de glaskant lopen" },
+          { en: "Bubbles in sparkling wine", es: "Burbujas en vino espumoso", de: "Blasen im Schaumwein", nl: "Bubbels in mousserende wijn" },
+          { en: "Sediment at bottle bottom", es: "Sedimento en el fondo de la botella", de: "Sediment am Flaschenboden", nl: "Sediment op de flesbodem" },
+          { en: "Ice crystals in cold wine", es: "Cristales de hielo en vino frío", de: "Eiskristalle in kaltem Wein", nl: "IJskristallen in koude wijn" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Legs or tears are streaks that form on glass sides when wine is swirled, indicating alcohol and glycerin content.",
+          es: "Las lágrimas son rayas que se forman en los lados del vaso cuando se gira el vino, indicando contenido de alcohol y glicerina.",
+          de: "Beine oder Tränen sind Streifen die sich an Glasseiten bilden wenn Wein geschwenkt wird, zeigen Alkohol- und Glyceringehalt.",
+          nl: "Benen of tranen zijn strepen die zich vormen aan de glaskant wanneer wijn wordt gedraaid, wat alcohol- en glycerinegehalte aangeeft."
+        }
+      },
+      {
+        question: {
+          en: "Why do wine bottles have a punt (indent) at the bottom?",
+          es: "¿Por qué las botellas de vino tienen una hendidura en el fondo?",
+          de: "Warum haben Weinflaschen eine Vertiefung am Boden?",
+          nl: "Waarom hebben wijnflessen een punt (inham) aan de onderkant?"
+        },
+        options: [
+          { en: "Just for decoration", es: "Solo para decoración", de: "Nur zur Dekoration", nl: "Alleen voor decoratie" },
+          { en: "Structural strength and sediment collection", es: "Fuerza estructural y recolección de sedimento", de: "Strukturelle Festigkeit und Sedimentsammlung", nl: "Structurele sterkte en sedimentverzameling" },
+          { en: "To use less glass", es: "Para usar menos vidrio", de: "Um weniger Glas zu verwenden", nl: "Om minder glas te gebruiken" },
+          { en: "To make bottles taller", es: "Para hacer botellas más altas", de: "Um Flaschen höher zu machen", nl: "Om flessen hoger te maken" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The punt strengthens the bottle and helps collect sediment away from the pour.",
+          es: "La hendidura fortalece la botella y ayuda a recolectar sedimento lejos del vertido.",
+          de: "Die Vertiefung stärkt die Flasche und hilft Sediment vom Ausgießen fernzuhalten.",
+          nl: "De punt versterkt de fles en helpt sediment weg te houden van het schenken."
+        }
+      },
+      {
+        question: {
+          en: "What temperature should white wine be served at?",
+          es: "¿A qué temperatura debe servirse el vino blanco?",
+          de: "Bei welcher Temperatur sollte Weißwein serviert werden?",
+          nl: "Op welke temperatuur moet witte wijn worden geserveerd?"
+        },
+        options: [
+          { en: "8-12°C", es: "8-12°C", de: "8-12°C", nl: "8-12°C" },
+          { en: "16-18°C", es: "16-18°C", de: "16-18°C", nl: "16-18°C" },
+          { en: "20-25°C", es: "20-25°C", de: "20-25°C", nl: "20-25°C" },
+          { en: "0-5°C", es: "0-5°C", de: "0-5°C", nl: "0-5°C" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "White wine is best served chilled at 8-12°C to preserve its crisp, fresh characteristics.",
+          es: "El vino blanco se sirve mejor frío a 8-12°C para preservar sus características frescas y crujientes.",
+          de: "Weißwein wird am besten gekühlt bei 8-12°C serviert, um seine knackigen, frischen Eigenschaften zu bewahren.",
+          nl: "Witte wijn wordt het best gekoeld geserveerd op 8-12°C om zijn knapperige, frisse kenmerken te behouden."
+        }
+      },
+      {
+        question: {
+          en: "What is a wine aerator used for?",
+          es: "¿Para qué se usa un aireador de vino?",
+          de: "Wofür wird ein Weinbelüfter verwendet?",
+          nl: "Waarvoor wordt een wijnbeluchter gebruikt?"
+        },
+        options: [
+          { en: "To cool wine quickly", es: "Para enfriar vino rápidamente", de: "Um Wein schnell zu kühlen", nl: "Om wijn snel te koelen" },
+          { en: "To expose wine to air", es: "Para exponer vino al aire", de: "Um Wein der Luft auszusetzen", nl: "Om wijn aan lucht bloot te stellen" },
+          { en: "To filter sediment", es: "Para filtrar sedimento", de: "Um Sediment zu filtern", nl: "Om sediment te filteren" },
+          { en: "To measure alcohol content", es: "Para medir contenido de alcohol", de: "Um Alkoholgehalt zu messen", nl: "Om alcoholgehalte te meten" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "An aerator exposes wine to oxygen, softening tannins and enhancing flavors and aromas.",
+          es: "Un aireador expone el vino al oxígeno, suavizando taninos y mejorando sabores y aromas.",
+          de: "Ein Belüfter setzt Wein Sauerstoff aus, erweicht Tannine und verbessert Geschmäcker und Aromen.",
+          nl: "Een beluchter stelt wijn bloot aan zuurstof, verzacht tannines en verbetert smaken en aroma's."
+        }
+      },
+      {
+        question: {
+          en: "What is meant by 'full-bodied' wine?",
+          es: "¿Qué significa vino 'con mucho cuerpo'?",
+          de: "Was bedeutet 'vollmundiger' Wein?",
+          nl: "Wat wordt bedoeld met 'volmondige' wijn?"
+        },
+        options: [
+          { en: "Wine with strong flavors and weight", es: "Vino con sabores fuertes y peso", de: "Wein mit starken Aromen und Gewicht", nl: "Wijn met sterke smaken en gewicht" },
+          { en: "Wine in a full bottle", es: "Vino en una botella llena", de: "Wein in einer vollen Flasche", nl: "Wijn in een volle fles" },
+          { en: "Very old wine", es: "Vino muy viejo", de: "Sehr alter Wein", nl: "Zeer oude wijn" },
+          { en: "Dark colored wine", es: "Vino de color oscuro", de: "Dunkel gefärbter Wein", nl: "Donker gekleurde wijn" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Full-bodied wine has rich flavors, higher alcohol, and feels heavier in your mouth.",
+          es: "El vino con mucho cuerpo tiene sabores ricos, mayor alcohol y se siente más pesado en la boca.",
+          de: "Vollmundiger Wein hat reiche Aromen, höheren Alkohol und fühlt sich schwerer im Mund an.",
+          nl: "Volmondige wijn heeft rijke smaken, hoger alcohol en voelt zwaarder aan in je mond."
+        }
+      },
+      {
+        question: {
+          en: "What does 'corked' wine mean?",
+          es: "¿Qué significa vino 'con corcho'?",
+          de: "Was bedeutet 'korkiger' Wein?",
+          nl: "Wat betekent 'gekurkte' wijn?"
+        },
+        options: [
+          { en: "Wine with a cork closure", es: "Vino con cierre de corcho", de: "Wein mit Korkverschluss", nl: "Wijn met kurksluiting" },
+          { en: "Wine spoiled by contaminated cork", es: "Vino estropeado por corcho contaminado", de: "Wein verdorben durch kontaminierten Korken", nl: "Wijn bedorven door gecontamineerde kurk" },
+          { en: "Very expensive wine", es: "Vino muy caro", de: "Sehr teurer Wein", nl: "Zeer dure wijn" },
+          { en: "Aged wine", es: "Vino añejado", de: "Gereifter Wein", nl: "Gerijpte wijn" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Corked wine is flawed wine contaminated by TCA from the cork, giving it a musty, wet cardboard smell.",
+          es: "El vino con corcho es vino defectuoso contaminado por TCA del corcho, dándole un olor a moho y cartón mojado.",
+          de: "Korkiger Wein ist fehlerhafter Wein kontaminiert durch TCA aus dem Korken, gibt ihm einen muffigen, nassen Pappgeruch.",
+          nl: "Gekurkte wijn is gebrekkige wijn gecontamineerd door TCA uit de kurk, geeft het een muffe, natte kartonnen geur."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of decanting wine?",
+          es: "¿Cuál es el propósito de decantar vino?",
+          de: "Was ist der Zweck des Dekantierens von Wein?",
+          nl: "Wat is het doel van het decanteren van wijn?"
+        },
+        options: [
+          { en: "To separate wine from sediment and aerate", es: "Para separar vino del sedimento y airear", de: "Um Wein vom Sediment zu trennen und zu belüften", nl: "Om wijn te scheiden van sediment en te beluchten" },
+          { en: "To cool wine down", es: "Para enfriar el vino", de: "Um Wein abzukühlen", nl: "Om wijn af te koelen" },
+          { en: "To add flavors", es: "Para añadir sabores", de: "Um Aromen hinzuzufügen", nl: "Om smaken toe te voegen" },
+          { en: "To preserve wine longer", es: "Para preservar vino más tiempo", de: "Um Wein länger zu bewahren", nl: "Om wijn langer te bewaren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Decanting separates wine from sediment and exposes it to oxygen, improving flavor and aroma.",
+          es: "Decantar separa el vino del sedimento y lo expone al oxígeno, mejorando sabor y aroma.",
+          de: "Dekantieren trennt Wein vom Sediment und setzt ihn Sauerstoff aus, verbessert Geschmack und Aroma.",
+          nl: "Decanteren scheidt wijn van sediment en stelt het bloot aan zuurstof, verbetert smaak en aroma."
+        }
+      },
+      {
+        question: {
+          en: "What is organic wine?",
+          es: "¿Qué es el vino orgánico?",
+          de: "Was ist Bio-Wein?",
+          nl: "Wat is biologische wijn?"
+        },
+        options: [
+          { en: "Wine made from organic grapes", es: "Vino hecho de uvas orgánicas", de: "Wein aus Bio-Trauben hergestellt", nl: "Wijn gemaakt van biologische druiven" },
+          { en: "Wine without alcohol", es: "Vino sin alcohol", de: "Wein ohne Alkohol", nl: "Wijn zonder alcohol" },
+          { en: "Very old wine", es: "Vino muy viejo", de: "Sehr alter Wein", nl: "Zeer oude wijn" },
+          { en: "Wine without sulfites", es: "Vino sin sulfitos", de: "Wein ohne Sulfite", nl: "Wijn zonder sulfieten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Organic wine is made from grapes grown without synthetic pesticides, herbicides, or fertilizers.",
+          es: "El vino orgánico se hace de uvas cultivadas sin pesticidas sintéticos, herbicidas o fertilizantes.",
+          de: "Bio-Wein wird aus Trauben hergestellt, die ohne synthetische Pestizide, Herbizide oder Düngemittel angebaut wurden.",
+          nl: "Biologische wijn wordt gemaakt van druiven geteeld zonder synthetische pesticiden, herbiciden of meststoffen."
+        }
+      },
+      {
+        question: {
+          en: "What does 'finish' mean in wine tasting?",
+          es: "¿Qué significa 'final' en la cata de vinos?",
+          de: "Was bedeutet 'Abgang' bei der Weinverkostung?",
+          nl: "Wat betekent 'afdronk' bij wijnproeven?"
+        },
+        options: [
+          { en: "The taste that remains after swallowing", es: "El sabor que permanece después de tragar", de: "Der Geschmack der nach dem Schlucken bleibt", nl: "De smaak die overblijft na het slikken" },
+          { en: "The last sip in the glass", es: "El último sorbo en el vaso", de: "Der letzte Schluck im Glas", nl: "De laatste slok in het glas" },
+          { en: "The end of wine production", es: "El fin de la producción de vino", de: "Das Ende der Weinproduktion", nl: "Het einde van de wijnproductie" },
+          { en: "When wine bottle is empty", es: "Cuando la botella de vino está vacía", de: "Wenn die Weinflasche leer ist", nl: "Wanneer de wijnfles leeg is" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The finish is the lingering taste and sensations after swallowing wine; a long finish indicates quality.",
+          es: "El final es el sabor persistente y sensaciones después de tragar vino; un final largo indica calidad.",
+          de: "Der Abgang ist der anhaltende Geschmack und Empfindungen nach dem Schlucken von Wein; ein langer Abgang zeigt Qualität.",
+          nl: "De afdronk is de blijvende smaak en sensaties na het slikken van wijn; een lange afdronk duidt op kwaliteit."
+        }
+      },
+      {
+        question: {
+          en: "What is a wine blend?",
+          es: "¿Qué es una mezcla de vinos?",
+          de: "Was ist eine Weinmischung?",
+          nl: "Wat is een wijnblend?"
+        },
+        options: [
+          { en: "Wine mixed with water", es: "Vino mezclado con agua", de: "Wein gemischt mit Wasser", nl: "Wijn gemengd met water" },
+          { en: "Wine from multiple grape varieties", es: "Vino de múltiples variedades de uva", de: "Wein aus mehreren Rebsorten", nl: "Wijn van meerdere druivensoorten" },
+          { en: "Sparkling wine", es: "Vino espumoso", de: "Schaumwein", nl: "Mousserende wijn" },
+          { en: "Wine mixed with juice", es: "Vino mezclado con jugo", de: "Wein gemischt mit Saft", nl: "Wijn gemengd met sap" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "A wine blend combines different grape varieties to create complex flavors and balanced characteristics.",
+          es: "Una mezcla de vinos combina diferentes variedades de uva para crear sabores complejos y características equilibradas.",
+          de: "Eine Weinmischung kombiniert verschiedene Rebsorten um komplexe Aromen und ausgewogene Eigenschaften zu schaffen.",
+          nl: "Een wijnblend combineert verschillende druivensoorten om complexe smaken en gebalanceerde kenmerken te creëren."
+        }
+      },
+      {
+        question: {
+          en: "Why shouldn't you fill a wine glass completely?",
+          es: "¿Por qué no debes llenar una copa de vino completamente?",
+          de: "Warum solltest du ein Weinglas nicht komplett füllen?",
+          nl: "Waarom moet je een wijnglas niet helemaal vullen?"
+        },
+        options: [
+          { en: "To leave room for swirling and smelling", es: "Para dejar espacio para girar y oler", de: "Um Platz zum Schwenken und Riechen zu lassen", nl: "Om ruimte te laten voor draaien en ruiken" },
+          { en: "To save wine", es: "Para ahorrar vino", de: "Um Wein zu sparen", nl: "Om wijn te sparen" },
+          { en: "It looks better", es: "Se ve mejor", de: "Es sieht besser aus", nl: "Het ziet er beter uit" },
+          { en: "To prevent spilling only", es: "Solo para prevenir derrames", de: "Nur um Verschütten zu verhindern", nl: "Alleen om morsen te voorkomen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Leaving space allows you to swirl wine and concentrate aromas in the glass for better tasting.",
+          es: "Dejar espacio te permite girar el vino y concentrar aromas en el vaso para mejor degustación.",
+          de: "Platz lassen ermöglicht Wein zu schwenken und Aromen im Glas zu konzentrieren für besseres Verkosten.",
+          nl: "Ruimte laten stelt je in staat wijn te draaien en aroma's in het glas te concentreren voor beter proeven."
+        }
+      },
     ]
   };
 

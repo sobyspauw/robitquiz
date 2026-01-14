@@ -427,6 +427,405 @@
           de: "Brasilien hat die FIFA-Weltmeisterschaft 5 Mal gewonnen (1958, 1962, 1970, 1994, 2002), mehr als jede andere Nation, was ihnen den Titel der erfolgreichsten Fußballnation einbrachte.",
           nl: "Brazilië heeft de FIFA Wereldbeker 5 keer gewonnen (1958, 1962, 1970, 1994, 2002), meer dan enig ander land, waarmee ze de titel van meest succesvolle voetbalnatie verdienden."
         }
+      },
+      {
+        question: {
+          en: "Which Formula 1 driver has won the most world championships?",
+          es: "¿Qué piloto de Fórmula 1 ha ganado más campeonatos mundiales?",
+          de: "Welcher Formel-1-Fahrer hat die meisten Weltmeisterschaften gewonnen?",
+          nl: "Welke Formule 1-coureur heeft de meeste wereldkampioenschappen gewonnen?"
+        },
+        options: [
+          { en: "Michael Schumacher and Lewis Hamilton (tied at 7)", es: "Michael Schumacher y Lewis Hamilton (empatados con 7)", de: "Michael Schumacher und Lewis Hamilton (beide 7)", nl: "Michael Schumacher en Lewis Hamilton (beiden 7)" },
+          { en: "Ayrton Senna", es: "Ayrton Senna", de: "Ayrton Senna", nl: "Ayrton Senna" },
+          { en: "Sebastian Vettel", es: "Sebastian Vettel", de: "Sebastian Vettel", nl: "Sebastian Vettel" },
+          { en: "Alain Prost", es: "Alain Prost", de: "Alain Prost", nl: "Alain Prost" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Michael Schumacher and Lewis Hamilton are tied with 7 Formula 1 World Championships each, the most in F1 history.",
+          es: "Michael Schumacher y Lewis Hamilton están empatados con 7 Campeonatos Mundiales de Fórmula 1 cada uno, la mayor cantidad en la historia de la F1.",
+          de: "Michael Schumacher und Lewis Hamilton sind mit jeweils 7 Formel-1-Weltmeisterschaften gleichauf, die meisten in der F1-Geschichte.",
+          nl: "Michael Schumacher en Lewis Hamilton staan gelijk met elk 7 Formule 1 Wereldkampioenschappen, de meeste in F1-geschiedenis."
+        }
+      },
+      {
+        question: {
+          en: "Which athlete is nicknamed 'The Kid'?",
+          es: "¿Qué atleta es apodado 'El Niño'?",
+          de: "Welcher Athlet hat den Spitznamen 'The Kid'?",
+          nl: "Welke atleet heeft de bijnaam 'The Kid'?"
+        },
+        options: [
+          { en: "Ken Griffey Jr.", es: "Ken Griffey Jr.", de: "Ken Griffey Jr.", nl: "Ken Griffey Jr." },
+          { en: "Derek Jeter", es: "Derek Jeter", de: "Derek Jeter", nl: "Derek Jeter" },
+          { en: "Alex Rodriguez", es: "Alex Rodriguez", de: "Alex Rodriguez", nl: "Alex Rodriguez" },
+          { en: "Mike Trout", es: "Mike Trout", de: "Mike Trout", nl: "Mike Trout" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ken Griffey Jr. was known as 'The Kid' and is considered one of baseball's greatest players, famous for his smooth swing and exceptional defensive skills.",
+          es: "Ken Griffey Jr. era conocido como 'El Niño' y es considerado uno de los mejores jugadores de béisbol, famoso por su swing suave y excepcionales habilidades defensivas.",
+          de: "Ken Griffey Jr. war als 'The Kid' bekannt und gilt als einer der größten Baseballspieler, berühmt für seinen geschmeidigen Schwung und außergewöhnliche Defensivfähigkeiten.",
+          nl: "Ken Griffey Jr. stond bekend als 'The Kid' en wordt beschouwd als een van de grootste honkbalspelers, beroemd om zijn vloeiende swing en uitzonderlijke verdedigende vaardigheden."
+        }
+      },
+      {
+        question: {
+          en: "Which sport is associated with the Stanley Cup?",
+          es: "¿Con qué deporte está asociada la Copa Stanley?",
+          de: "Mit welcher Sportart ist der Stanley Cup verbunden?",
+          nl: "Met welke sport wordt de Stanley Cup geassocieerd?"
+        },
+        options: [
+          { en: "Ice Hockey", es: "Hockey sobre hielo", de: "Eishockey", nl: "IJshockey" },
+          { en: "Baseball", es: "Béisbol", de: "Baseball", nl: "Honkbal" },
+          { en: "Basketball", es: "Baloncesto", de: "Basketball", nl: "Basketbal" },
+          { en: "American Football", es: "Fútbol americano", de: "American Football", nl: "American Football" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Stanley Cup is the championship trophy awarded annually to the National Hockey League (NHL) playoff champion.",
+          es: "La Copa Stanley es el trofeo de campeonato otorgado anualmente al campeón de playoffs de la Liga Nacional de Hockey (NHL).",
+          de: "Der Stanley Cup ist die Meisterschaftstrophäe, die jährlich an den Playoff-Sieger der National Hockey League (NHL) vergeben wird.",
+          nl: "De Stanley Cup is de kampioenstrofee die jaarlijks wordt toegekend aan de playoff-kampioen van de National Hockey League (NHL)."
+        }
+      },
+      {
+        question: {
+          en: "Which female gymnast scored the first perfect 10 in Olympic history?",
+          es: "¿Qué gimnasta femenina logró el primer 10 perfecto en la historia olímpica?",
+          de: "Welche Turnerin erzielte die erste perfekte 10 in der olympischen Geschichte?",
+          nl: "Welke vrouwelijke gymnaste behaalde de eerste perfecte 10 in de Olympische geschiedenis?"
+        },
+        options: [
+          { en: "Nadia Comăneci", es: "Nadia Comăneci", de: "Nadia Comăneci", nl: "Nadia Comăneci" },
+          { en: "Olga Korbut", es: "Olga Korbut", de: "Olga Korbut", nl: "Olga Korbut" },
+          { en: "Mary Lou Retton", es: "Mary Lou Retton", de: "Mary Lou Retton", nl: "Mary Lou Retton" },
+          { en: "Simone Biles", es: "Simone Biles", de: "Simone Biles", nl: "Simone Biles" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Nadia Comăneci of Romania scored the first perfect 10 in Olympic gymnastics history at the 1976 Montreal Olympics at age 14.",
+          es: "Nadia Comăneci de Rumania logró el primer 10 perfecto en la historia de la gimnasia olímpica en los Juegos Olímpicos de Montreal 1976 a los 14 años.",
+          de: "Nadia Comăneci aus Rumänien erzielte bei den Olympischen Spielen 1976 in Montreal im Alter von 14 Jahren die erste perfekte 10 in der olympischen Turngeschichte.",
+          nl: "Nadia Comăneci uit Roemenië behaalde de eerste perfecte 10 in de Olympische gymnastiekgeschiedenis op de Olympische Spelen van Montreal in 1976 op 14-jarige leeftijd."
+        }
+      },
+      {
+        question: {
+          en: "Which boxer was known as 'Iron Mike'?",
+          es: "¿Qué boxeador era conocido como 'Iron Mike'?",
+          de: "Welcher Boxer war als 'Iron Mike' bekannt?",
+          nl: "Welke bokser stond bekend als 'Iron Mike'?"
+        },
+        options: [
+          { en: "Mike Tyson", es: "Mike Tyson", de: "Mike Tyson", nl: "Mike Tyson" },
+          { en: "Mike Weaver", es: "Mike Weaver", de: "Mike Weaver", nl: "Mike Weaver" },
+          { en: "Evander Holyfield", es: "Evander Holyfield", de: "Evander Holyfield", nl: "Evander Holyfield" },
+          { en: "Lennox Lewis", es: "Lennox Lewis", de: "Lennox Lewis", nl: "Lennox Lewis" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mike Tyson was known as 'Iron Mike' and became the youngest heavyweight boxing champion in history at age 20.",
+          es: "Mike Tyson era conocido como 'Iron Mike' y se convirtió en el campeón de boxeo de peso pesado más joven de la historia a los 20 años.",
+          de: "Mike Tyson war als 'Iron Mike' bekannt und wurde im Alter von 20 Jahren der jüngste Schwergewichtsboxmeister der Geschichte.",
+          nl: "Mike Tyson stond bekend als 'Iron Mike' en werd op 20-jarige leeftijd de jongste zwaargewicht bokskampioen in de geschiedenis."
+        }
+      },
+      {
+        question: {
+          en: "Which NBA team is known as 'The Warriors'?",
+          es: "¿Qué equipo de la NBA es conocido como 'The Warriors'?",
+          de: "Welches NBA-Team ist als 'The Warriors' bekannt?",
+          nl: "Welk NBA-team staat bekend als 'The Warriors'?"
+        },
+        options: [
+          { en: "Golden State Warriors", es: "Golden State Warriors", de: "Golden State Warriors", nl: "Golden State Warriors" },
+          { en: "Boston Warriors", es: "Boston Warriors", de: "Boston Warriors", nl: "Boston Warriors" },
+          { en: "New York Warriors", es: "New York Warriors", de: "New York Warriors", nl: "New York Warriors" },
+          { en: "Los Angeles Warriors", es: "Los Angeles Warriors", de: "Los Angeles Warriors", nl: "Los Angeles Warriors" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Golden State Warriors, based in San Francisco, won multiple NBA championships in recent years with stars like Stephen Curry, Klay Thompson, and Draymond Green.",
+          es: "Los Golden State Warriors, con sede en San Francisco, ganaron múltiples campeonatos de la NBA en años recientes con estrellas como Stephen Curry, Klay Thompson y Draymond Green.",
+          de: "Die Golden State Warriors mit Sitz in San Francisco gewannen in den letzten Jahren mehrere NBA-Meisterschaften mit Stars wie Stephen Curry, Klay Thompson und Draymond Green.",
+          nl: "De Golden State Warriors, gevestigd in San Francisco, wonnen meerdere NBA-kampioenschappen in recente jaren met sterren zoals Stephen Curry, Klay Thompson en Draymond Green."
+        }
+      },
+      {
+        question: {
+          en: "Which athlete is known as 'The Black Mamba'?",
+          es: "¿Qué atleta es conocido como 'La Mamba Negra'?",
+          de: "Welcher Athlet ist als 'Die Schwarze Mamba' bekannt?",
+          nl: "Welke atleet staat bekend als 'The Black Mamba'?"
+        },
+        options: [
+          { en: "Kobe Bryant", es: "Kobe Bryant", de: "Kobe Bryant", nl: "Kobe Bryant" },
+          { en: "LeBron James", es: "LeBron James", de: "LeBron James", nl: "LeBron James" },
+          { en: "Kevin Durant", es: "Kevin Durant", de: "Kevin Durant", nl: "Kevin Durant" },
+          { en: "Tim Duncan", es: "Tim Duncan", de: "Tim Duncan", nl: "Tim Duncan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Kobe Bryant was nicknamed 'The Black Mamba', inspired by the deadly snake, to represent his fierce competitiveness and killer instinct on the court.",
+          es: "Kobe Bryant fue apodado 'La Mamba Negra', inspirado en la serpiente mortal, para representar su feroz competitividad e instinto asesino en la cancha.",
+          de: "Kobe Bryant wurde 'Die Schwarze Mamba' genannt, inspiriert von der tödlichen Schlange, um seine wilde Wettkampfbereitschaft und Killerinstinkt auf dem Platz darzustellen.",
+          nl: "Kobe Bryant kreeg de bijnaam 'The Black Mamba', geïnspireerd door de dodelijke slang, om zijn felle competitiedrang en moorddadige instinct op het veld te vertegenwoordigen."
+        }
+      },
+      {
+        question: {
+          en: "Which sport features the Heisman Trophy?",
+          es: "¿En qué deporte se otorga el Trofeo Heisman?",
+          de: "In welcher Sportart gibt es die Heisman Trophy?",
+          nl: "In welke sport wordt de Heisman Trophy uitgereikt?"
+        },
+        options: [
+          { en: "College American Football", es: "Fútbol americano universitario", de: "College-American-Football", nl: "College American Football" },
+          { en: "Professional American Football", es: "Fútbol americano profesional", de: "Professioneller American Football", nl: "Professioneel American Football" },
+          { en: "Basketball", es: "Baloncesto", de: "Basketball", nl: "Basketbal" },
+          { en: "Baseball", es: "Béisbol", de: "Baseball", nl: "Honkbal" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Heisman Trophy is awarded annually to the most outstanding player in NCAA college football.",
+          es: "El Trofeo Heisman se otorga anualmente al jugador más destacado del fútbol americano universitario de la NCAA.",
+          de: "Die Heisman Trophy wird jährlich an den herausragendsten Spieler im NCAA-College-Football vergeben.",
+          nl: "De Heisman Trophy wordt jaarlijks uitgereikt aan de meest uitstekende speler in NCAA college football."
+        }
+      },
+      {
+        question: {
+          en: "Which tennis player has won the most Wimbledon singles titles?",
+          es: "¿Qué tenista ha ganado más títulos individuales de Wimbledon?",
+          de: "Welcher Tennisspieler hat die meisten Wimbledon-Einzeltitel gewonnen?",
+          nl: "Welke tennisser heeft de meeste Wimbledon enkelspeltitels gewonnen?"
+        },
+        options: [
+          { en: "Roger Federer (8 titles)", es: "Roger Federer (8 títulos)", de: "Roger Federer (8 Titel)", nl: "Roger Federer (8 titels)" },
+          { en: "Pete Sampras", es: "Pete Sampras", de: "Pete Sampras", nl: "Pete Sampras" },
+          { en: "Novak Djokovic", es: "Novak Djokovic", de: "Novak Djokovic", nl: "Novak Djokovic" },
+          { en: "Björn Borg", es: "Björn Borg", de: "Björn Borg", nl: "Björn Borg" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Roger Federer has won 8 Wimbledon men's singles titles, the most in history. He dominated grass courts throughout his career.",
+          es: "Roger Federer ha ganado 8 títulos individuales masculinos de Wimbledon, la mayor cantidad en la historia. Dominó las canchas de césped durante toda su carrera.",
+          de: "Roger Federer hat 8 Wimbledon-Herreneinzeltitel gewonnen, die meisten in der Geschichte. Er dominierte Rasenplätze während seiner gesamten Karriere.",
+          nl: "Roger Federer heeft 8 Wimbledon heren enkelspeltitels gewonnen, de meeste in de geschiedenis. Hij domineerde grasbanen gedurende zijn hele carrière."
+        }
+      },
+      {
+        question: {
+          en: "Which country is home to the famous soccer club Real Madrid?",
+          es: "¿En qué país está el famoso club de fútbol Real Madrid?",
+          de: "In welchem Land befindet sich der berühmte Fußballclub Real Madrid?",
+          nl: "In welk land is de beroemde voetbalclub Real Madrid gevestigd?"
+        },
+        options: [
+          { en: "Spain", es: "España", de: "Spanien", nl: "Spanje" },
+          { en: "Portugal", es: "Portugal", de: "Portugal", nl: "Portugal" },
+          { en: "Italy", es: "Italia", de: "Italien", nl: "Italië" },
+          { en: "France", es: "Francia", de: "Frankreich", nl: "Frankrijk" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Real Madrid is based in Madrid, Spain, and is one of the most successful football clubs in the world with 14 UEFA Champions League titles.",
+          es: "Real Madrid está ubicado en Madrid, España, y es uno de los clubes de fútbol más exitosos del mundo con 14 títulos de la Liga de Campeones de la UEFA.",
+          de: "Real Madrid hat seinen Sitz in Madrid, Spanien, und ist einer der erfolgreichsten Fußballvereine der Welt mit 14 UEFA Champions League-Titeln.",
+          nl: "Real Madrid is gevestigd in Madrid, Spanje, en is een van de meest succesvolle voetbalclubs ter wereld met 14 UEFA Champions League-titels."
+        }
+      },
+      {
+        question: {
+          en: "Which athlete is known as 'The Big Fundamental'?",
+          es: "¿Qué atleta es conocido como 'El Gran Fundamental'?",
+          de: "Welcher Athlet ist als 'The Big Fundamental' bekannt?",
+          nl: "Welke atleet staat bekend als 'The Big Fundamental'?"
+        },
+        options: [
+          { en: "Tim Duncan", es: "Tim Duncan", de: "Tim Duncan", nl: "Tim Duncan" },
+          { en: "Shaquille O'Neal", es: "Shaquille O'Neal", de: "Shaquille O'Neal", nl: "Shaquille O'Neal" },
+          { en: "Kareem Abdul-Jabbar", es: "Kareem Abdul-Jabbar", de: "Kareem Abdul-Jabbar", nl: "Kareem Abdul-Jabbar" },
+          { en: "Hakeem Olajuwon", es: "Hakeem Olajuwon", de: "Hakeem Olajuwon", nl: "Hakeem Olajuwon" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tim Duncan was known as 'The Big Fundamental' for his textbook basketball fundamentals and consistent excellence, winning 5 NBA championships with the San Antonio Spurs.",
+          es: "Tim Duncan era conocido como 'El Gran Fundamental' por sus fundamentos de baloncesto perfectos y excelencia consistente, ganando 5 campeonatos de la NBA con los San Antonio Spurs.",
+          de: "Tim Duncan war als 'The Big Fundamental' bekannt für seine lehrbuchmäßigen Basketball-Grundlagen und konstante Exzellenz, er gewann 5 NBA-Meisterschaften mit den San Antonio Spurs.",
+          nl: "Tim Duncan stond bekend als 'The Big Fundamental' vanwege zijn voorbeeldige basketbalvaardigheden en consistente excellentie, hij won 5 NBA-kampioenschappen met de San Antonio Spurs."
+        }
+      },
+      {
+        question: {
+          en: "Which sport is associated with the Ryder Cup?",
+          es: "¿Con qué deporte está asociada la Copa Ryder?",
+          de: "Mit welcher Sportart ist der Ryder Cup verbunden?",
+          nl: "Met welke sport wordt de Ryder Cup geassocieerd?"
+        },
+        options: [
+          { en: "Golf", es: "Golf", de: "Golf", nl: "Golf" },
+          { en: "Tennis", es: "Tenis", de: "Tennis", nl: "Tennis" },
+          { en: "Cricket", es: "Cricket", de: "Cricket", nl: "Cricket" },
+          { en: "Rugby", es: "Rugby", de: "Rugby", nl: "Rugby" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Ryder Cup is a biennial golf competition between teams from Europe and the United States.",
+          es: "La Copa Ryder es una competición de golf bienal entre equipos de Europa y Estados Unidos.",
+          de: "Der Ryder Cup ist ein zweijährlicher Golfwettbewerb zwischen Teams aus Europa und den Vereinigten Staaten.",
+          nl: "De Ryder Cup is een tweejaarlijkse golfcompetitie tussen teams uit Europa en de Verenigde Staten."
+        }
+      },
+      {
+        question: {
+          en: "Which athlete is nicknamed 'The Dream'?",
+          es: "¿Qué atleta es apodado 'El Sueño'?",
+          de: "Welcher Athlet hat den Spitznamen 'The Dream'?",
+          nl: "Welke atleet heeft de bijnaam 'The Dream'?"
+        },
+        options: [
+          { en: "Hakeem Olajuwon", es: "Hakeem Olajuwon", de: "Hakeem Olajuwon", nl: "Hakeem Olajuwon" },
+          { en: "Clyde Drexler", es: "Clyde Drexler", de: "Clyde Drexler", nl: "Clyde Drexler" },
+          { en: "Patrick Ewing", es: "Patrick Ewing", de: "Patrick Ewing", nl: "Patrick Ewing" },
+          { en: "David Robinson", es: "David Robinson", de: "David Robinson", nl: "David Robinson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hakeem Olajuwon was known as 'The Dream' for his smooth, dream-like moves on the basketball court. He led the Houston Rockets to two NBA championships.",
+          es: "Hakeem Olajuwon era conocido como 'El Sueño' por sus movimientos suaves y oníricos en la cancha de baloncesto. Llevó a los Houston Rockets a dos campeonatos de la NBA.",
+          de: "Hakeem Olajuwon war als 'The Dream' bekannt für seine geschmeidigen, traumhaften Bewegungen auf dem Basketballplatz. Er führte die Houston Rockets zu zwei NBA-Meisterschaften.",
+          nl: "Hakeem Olajuwon stond bekend als 'The Dream' vanwege zijn soepele, droomachtige bewegingen op het basketbalveld. Hij leidde de Houston Rockets naar twee NBA-kampioenschappen."
+        }
+      },
+      {
+        question: {
+          en: "Which sport is Cristiano Ronaldo famous for?",
+          es: "¿Por qué deporte es famoso Cristiano Ronaldo?",
+          de: "Für welche Sportart ist Cristiano Ronaldo berühmt?",
+          nl: "Voor welke sport is Cristiano Ronaldo beroemd?"
+        },
+        options: [
+          { en: "Soccer/Football", es: "Fútbol", de: "Fußball", nl: "Voetbal" },
+          { en: "Basketball", es: "Baloncesto", de: "Basketball", nl: "Basketbal" },
+          { en: "Tennis", es: "Tenis", de: "Tennis", nl: "Tennis" },
+          { en: "Boxing", es: "Boxeo", de: "Boxen", nl: "Boksen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cristiano Ronaldo is one of the greatest soccer players of all time, winning 5 Ballon d'Or awards and multiple UEFA Champions League titles.",
+          es: "Cristiano Ronaldo es uno de los mejores futbolistas de todos los tiempos, ganando 5 premios Balón de Oro y múltiples títulos de la Liga de Campeones de la UEFA.",
+          de: "Cristiano Ronaldo ist einer der größten Fußballspieler aller Zeiten, er gewann 5 Ballon d'Or-Auszeichnungen und mehrere UEFA Champions League-Titel.",
+          nl: "Cristiano Ronaldo is een van de grootste voetballers aller tijden, hij won 5 Ballon d'Or prijzen en meerdere UEFA Champions League-titels."
+        }
+      },
+      {
+        question: {
+          en: "Which Olympic event combines swimming, cycling, and running?",
+          es: "¿Qué evento olímpico combina natación, ciclismo y carrera?",
+          de: "Welches olympische Event kombiniert Schwimmen, Radfahren und Laufen?",
+          nl: "Welk Olympisch evenement combineert zwemmen, fietsen en hardlopen?"
+        },
+        options: [
+          { en: "Triathlon", es: "Triatlón", de: "Triathlon", nl: "Triatlon" },
+          { en: "Decathlon", es: "Decatlón", de: "Zehnkampf", nl: "Tienkamp" },
+          { en: "Pentathlon", es: "Pentatlón", de: "Fünfkampf", nl: "Vijfkamp" },
+          { en: "Marathon", es: "Maratón", de: "Marathon", nl: "Marathon" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Triathlon is an endurance sport that consists of swimming, cycling, and running in immediate succession over various distances.",
+          es: "El triatlón es un deporte de resistencia que consiste en nadar, andar en bicicleta y correr en sucesión inmediata en varias distancias.",
+          de: "Triathlon ist ein Ausdauersport, der aus Schwimmen, Radfahren und Laufen in unmittelbarer Abfolge über verschiedene Distanzen besteht.",
+          nl: "Triatlon is een uithoudingssport die bestaat uit zwemmen, fietsen en hardlopen in directe opeenvolging over verschillende afstanden."
+        }
+      },
+      {
+        question: {
+          en: "Which athlete is known as 'The Flash'?",
+          es: "¿Qué atleta es conocido como 'El Relámpago'?",
+          de: "Welcher Athlet ist als 'The Flash' bekannt?",
+          nl: "Welke atleet staat bekend als 'The Flash'?"
+        },
+        options: [
+          { en: "Dwyane Wade", es: "Dwyane Wade", de: "Dwyane Wade", nl: "Dwyane Wade" },
+          { en: "Russell Westbrook", es: "Russell Westbrook", de: "Russell Westbrook", nl: "Russell Westbrook" },
+          { en: "Allen Iverson", es: "Allen Iverson", de: "Allen Iverson", nl: "Allen Iverson" },
+          { en: "Derrick Rose", es: "Derrick Rose", de: "Derrick Rose", nl: "Derrick Rose" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dwyane Wade was nicknamed 'The Flash' for his lightning-quick speed and agility on the basketball court. He won 3 NBA championships with the Miami Heat.",
+          es: "Dwyane Wade fue apodado 'El Relámpago' por su rapidez como un rayo y agilidad en la cancha de baloncesto. Ganó 3 campeonatos de la NBA con el Miami Heat.",
+          de: "Dwyane Wade wurde 'The Flash' genannt wegen seiner blitzschnellen Geschwindigkeit und Beweglichkeit auf dem Basketballplatz. Er gewann 3 NBA-Meisterschaften mit dem Miami Heat.",
+          nl: "Dwyane Wade kreeg de bijnaam 'The Flash' vanwege zijn bliksemsnelle snelheid en behendigheid op het basketbalveld. Hij won 3 NBA-kampioenschappen met de Miami Heat."
+        }
+      },
+      {
+        question: {
+          en: "Which country dominates the sport of sumo wrestling?",
+          es: "¿Qué país domina el deporte de la lucha sumo?",
+          de: "Welches Land dominiert den Sport Sumo-Ringen?",
+          nl: "Welk land domineert de sport sumoworstelen?"
+        },
+        options: [
+          { en: "Japan", es: "Japón", de: "Japan", nl: "Japan" },
+          { en: "China", es: "China", de: "China", nl: "China" },
+          { en: "Mongolia", es: "Mongolia", de: "Mongolei", nl: "Mongolië" },
+          { en: "South Korea", es: "Corea del Sur", de: "Südkorea", nl: "Zuid-Korea" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Japan is the birthplace and home of sumo wrestling, which is deeply rooted in Japanese culture and tradition.",
+          es: "Japón es el lugar de nacimiento y hogar de la lucha sumo, que está profundamente arraigada en la cultura y tradición japonesa.",
+          de: "Japan ist der Geburtsort und die Heimat des Sumo-Ringens, das tief in der japanischen Kultur und Tradition verwurzelt ist.",
+          nl: "Japan is de geboorteplaats en thuis van sumoworstelen, dat diep geworteld is in de Japanse cultuur en traditie."
+        }
+      },
+      {
+        question: {
+          en: "Which athlete is nicknamed 'The Greek Freak'?",
+          es: "¿Qué atleta es apodado 'El Monstruo Griego'?",
+          de: "Welcher Athlet hat den Spitznamen 'The Greek Freak'?",
+          nl: "Welke atleet heeft de bijnaam 'The Greek Freak'?"
+        },
+        options: [
+          { en: "Giannis Antetokounmpo", es: "Giannis Antetokounmpo", de: "Giannis Antetokounmpo", nl: "Giannis Antetokounmpo" },
+          { en: "Luka Dončić", es: "Luka Dončić", de: "Luka Dončić", nl: "Luka Dončić" },
+          { en: "Nikola Jokić", es: "Nikola Jokić", de: "Nikola Jokić", nl: "Nikola Jokić" },
+          { en: "Joel Embiid", es: "Joel Embiid", de: "Joel Embiid", nl: "Joel Embiid" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Giannis Antetokounmpo from Greece is nicknamed 'The Greek Freak' for his exceptional combination of size, speed, and skills. He won NBA MVP and championship with Milwaukee Bucks.",
+          es: "Giannis Antetokounmpo de Grecia es apodado 'El Monstruo Griego' por su excepcional combinación de tamaño, velocidad y habilidades. Ganó el MVP de la NBA y el campeonato con los Milwaukee Bucks.",
+          de: "Giannis Antetokounmpo aus Griechenland wird 'The Greek Freak' genannt wegen seiner außergewöhnlichen Kombination aus Größe, Geschwindigkeit und Fähigkeiten. Er gewann NBA MVP und Meisterschaft mit den Milwaukee Bucks.",
+          nl: "Giannis Antetokounmpo uit Griekenland heeft de bijnaam 'The Greek Freak' vanwege zijn uitzonderlijke combinatie van lengte, snelheid en vaardigheden. Hij won NBA MVP en het kampioenschap met de Milwaukee Bucks."
+        }
+      },
+      {
+        question: {
+          en: "Which sport is played at Lord's Cricket Ground?",
+          es: "¿Qué deporte se juega en Lord's Cricket Ground?",
+          de: "Welche Sportart wird auf Lord's Cricket Ground gespielt?",
+          nl: "Welke sport wordt gespeeld op Lord's Cricket Ground?"
+        },
+        options: [
+          { en: "Cricket", es: "Cricket", de: "Cricket", nl: "Cricket" },
+          { en: "Soccer", es: "Fútbol", de: "Fußball", nl: "Voetbal" },
+          { en: "Rugby", es: "Rugby", de: "Rugby", nl: "Rugby" },
+          { en: "Tennis", es: "Tenis", de: "Tennis", nl: "Tennis" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Lord's Cricket Ground in London, England, is known as the 'Home of Cricket' and hosts major cricket matches including Test matches and finals.",
+          es: "Lord's Cricket Ground en Londres, Inglaterra, es conocido como el 'Hogar del Cricket' y alberga partidos importantes de cricket incluyendo partidos de Test y finales.",
+          de: "Lord's Cricket Ground in London, England, ist als die 'Heimat des Crickets' bekannt und veranstaltet wichtige Cricket-Spiele einschließlich Testspiele und Finale.",
+          nl: "Lord's Cricket Ground in Londen, Engeland, staat bekend als het 'Thuis van Cricket' en organiseert belangrijke cricketwedstrijden inclusief Test matches en finales."
+        }
       }
     ]
   };

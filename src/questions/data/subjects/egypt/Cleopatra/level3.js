@@ -426,7 +426,427 @@
           es: "Helios significa 'Sol' y Selene significa 'Luna' en griego. Estos nombres cósmicos simbolizaban la visión de Antonio y Cleopatra de gobernar el mundo oriental, con sus hijos como gobernantes divinos. Alejandro hacía referencia a Alejandro Magno, enfatizando ambiciones imperiales.",
           de: "Helios bedeutet 'Sonne' und Selene bedeutet 'Mond' auf Griechisch. Diese kosmischen Namen symbolisierten Antonius' und Kleopatras Vision, die östliche Welt zu regieren, mit ihren Kindern als göttliche Herrscher. Alexander bezog sich auf Alexander den Großen und betonte imperiale Ambitionen.",
           nl: "Helios betekent 'Zon' en Selene betekent 'Maan' in het Grieks. Deze kosmische namen symboliseerden Antonius en Cleopatra's visie om de oostelijke wereld te regeren, met hun kinderen als goddelijke heersers. Alexander verwees naar Alexander de Grote, waarbij imperiale ambities werden benadrukt."
-        }
+        }    },
+    {
+      question: {
+        en: "What dynasty did Cleopatra belong to?",
+        es: "What dynasty did Cleopatra belong to?",
+        de: "What dynasty did Cleopatra belong to?",
+        nl: "What dynasty did Cleopatra belong to?"
+      },
+      options: [
+        { en: "Ptolemaic Dynasty", es: "Ptolemaic Dynasty", de: "Ptolemaic Dynasty", nl: "Ptolemaic Dynasty" },
+        { en: "New Kingdom", es: "New Kingdom", de: "New Kingdom", nl: "New Kingdom" },
+        { en: "Old Kingdom", es: "Old Kingdom", de: "Old Kingdom", nl: "Old Kingdom" },
+        { en: "Middle Kingdom", es: "Middle Kingdom", de: "Middle Kingdom", nl: "Middle Kingdom" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Cleopatra VII was the last active ruler of the Ptolemaic Kingdom of Egypt, a Hellenistic dynasty founded by Ptolemy I.",
+        es: "Cleopatra VII was the last active ruler of the Ptolemaic Kingdom of Egypt, a Hellenistic dynasty founded by Ptolemy I.",
+        de: "Cleopatra VII was the last active ruler of the Ptolemaic Kingdom of Egypt, a Hellenistic dynasty founded by Ptolemy I.",
+        nl: "Cleopatra VII was the last active ruler of the Ptolemaic Kingdom of Egypt, a Hellenistic dynasty founded by Ptolemy I."
+      }
+    },
+    {
+      question: {
+        en: "What was Cleopatra's native language?",
+        es: "What was Cleopatra's native language?",
+        de: "What was Cleopatra's native language?",
+        nl: "What was Cleopatra's native language?"
+      },
+      options: [
+        { en: "Greek", es: "Greek", de: "Greek", nl: "Greek" },
+        { en: "Egyptian", es: "Egyptian", de: "Egyptian", nl: "Egyptian" },
+        { en: "Latin", es: "Latin", de: "Latin", nl: "Latin" },
+        { en: "Aramaic", es: "Aramaic", de: "Aramaic", nl: "Aramaic" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Cleopatra spoke Greek as her native language, as the Ptolemaic dynasty was of Macedonian Greek origin.",
+        es: "Cleopatra spoke Greek as her native language, as the Ptolemaic dynasty was of Macedonian Greek origin.",
+        de: "Cleopatra spoke Greek as her native language, as the Ptolemaic dynasty was of Macedonian Greek origin.",
+        nl: "Cleopatra spoke Greek as her native language, as the Ptolemaic dynasty was of Macedonian Greek origin."
+      }
+    },
+    {
+      question: {
+        en: "Which Roman leader had a famous relationship with Cleopatra?",
+        es: "Which Roman leader had a famous relationship with Cleopatra?",
+        de: "Which Roman leader had a famous relationship with Cleopatra?",
+        nl: "Which Roman leader had a famous relationship with Cleopatra?"
+      },
+      options: [
+        { en: "Julius Caesar and Mark Antony", es: "Julius Caesar and Mark Antony", de: "Julius Caesar and Mark Antony", nl: "Julius Caesar and Mark Antony" },
+        { en: "Augustus only", es: "Augustus only", de: "Augustus only", nl: "Augustus only" },
+        { en: "Pompey", es: "Pompey", de: "Pompey", nl: "Pompey" },
+        { en: "Cicero", es: "Cicero", de: "Cicero", nl: "Cicero" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Cleopatra had famous relationships with both Julius Caesar and Mark Antony.",
+        es: "Cleopatra had famous relationships with both Julius Caesar and Mark Antony.",
+        de: "Cleopatra had famous relationships with both Julius Caesar and Mark Antony.",
+        nl: "Cleopatra had famous relationships with both Julius Caesar and Mark Antony."
+      }
+    },
+    {
+      question: {
+        en: "How did Cleopatra die?",
+        es: "How did Cleopatra die?",
+        de: "How did Cleopatra die?",
+        nl: "How did Cleopatra die?"
+      },
+      options: [
+        { en: "Snake bite (asp)", es: "Snake bite (asp)", de: "Snake bite (asp)", nl: "Snake bite (asp)" },
+        { en: "Poison", es: "Poison", de: "Poison", nl: "Poison" },
+        { en: "Murder", es: "Murder", de: "Murder", nl: "Murder" },
+        { en: "Natural causes", es: "Natural causes", de: "Natural causes", nl: "Natural causes" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "According to tradition, Cleopatra died from the bite of an asp (Egyptian cobra), though the exact cause remains debated.",
+        es: "According to tradition, Cleopatra died from the bite of an asp (Egyptian cobra), though the exact cause remains debated.",
+        de: "According to tradition, Cleopatra died from the bite of an asp (Egyptian cobra), though the exact cause remains debated.",
+        nl: "According to tradition, Cleopatra died from the bite of an asp (Egyptian cobra), though the exact cause remains debated."
+      }
+    },
+    {
+      question: {
+        en: "At what age did Cleopatra become pharaoh?",
+        es: "At what age did Cleopatra become pharaoh?",
+        de: "At what age did Cleopatra become pharaoh?",
+        nl: "At what age did Cleopatra become pharaoh?"
+      },
+      options: [
+        { en: "18 years old", es: "18 years old", de: "18 years old", nl: "18 years old" },
+        { en: "25 years old", es: "25 years old", de: "25 years old", nl: "25 years old" },
+        { en: "30 years old", es: "30 years old", de: "30 years old", nl: "30 years old" },
+        { en: "15 years old", es: "15 years old", de: "15 years old", nl: "15 years old" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Cleopatra became co-ruler with her father at 14 and sole pharaoh at approximately 18 years old.",
+        es: "Cleopatra became co-ruler with her father at 14 and sole pharaoh at approximately 18 years old.",
+        de: "Cleopatra became co-ruler with her father at 14 and sole pharaoh at approximately 18 years old.",
+        nl: "Cleopatra became co-ruler with her father at 14 and sole pharaoh at approximately 18 years old."
+      }
+    },
+    {
+      question: {
+        en: "What city was Cleopatra's capital?",
+        es: "What city was Cleopatra's capital?",
+        de: "What city was Cleopatra's capital?",
+        nl: "What city was Cleopatra's capital?"
+      },
+      options: [
+        { en: "Alexandria", es: "Alexandria", de: "Alexandria", nl: "Alexandria" },
+        { en: "Cairo", es: "Cairo", de: "Cairo", nl: "Cairo" },
+        { en: "Thebes", es: "Thebes", de: "Thebes", nl: "Thebes" },
+        { en: "Memphis", es: "Memphis", de: "Memphis", nl: "Memphis" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Alexandria, founded by Alexander the Great, was the capital of Ptolemaic Egypt and Cleopatra's seat of power.",
+        es: "Alexandria, founded by Alexander the Great, was the capital of Ptolemaic Egypt and Cleopatra's seat of power.",
+        de: "Alexandria, founded by Alexander the Great, was the capital of Ptolemaic Egypt and Cleopatra's seat of power.",
+        nl: "Alexandria, founded by Alexander the Great, was the capital of Ptolemaic Egypt and Cleopatra's seat of power."
+      }
+    },
+    {
+      question: {
+        en: "How many languages could Cleopatra speak?",
+        es: "How many languages could Cleopatra speak?",
+        de: "How many languages could Cleopatra speak?",
+        nl: "How many languages could Cleopatra speak?"
+      },
+      options: [
+        { en: "Nine languages", es: "Nine languages", de: "Nine languages", nl: "Nine languages" },
+        { en: "Two languages", es: "Two languages", de: "Two languages", nl: "Two languages" },
+        { en: "Five languages", es: "Five languages", de: "Five languages", nl: "Five languages" },
+        { en: "Three languages", es: "Three languages", de: "Three languages", nl: "Three languages" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Cleopatra was highly educated and could speak nine languages, including Egyptian, Greek, Latin, and several others.",
+        es: "Cleopatra was highly educated and could speak nine languages, including Egyptian, Greek, Latin, and several others.",
+        de: "Cleopatra was highly educated and could speak nine languages, including Egyptian, Greek, Latin, and several others.",
+        nl: "Cleopatra was highly educated and could speak nine languages, including Egyptian, Greek, Latin, and several others."
+      }
+    },
+    {
+      question: {
+        en: "What was Cleopatra's son with Julius Caesar named?",
+        es: "What was Cleopatra's son with Julius Caesar named?",
+        de: "What was Cleopatra's son with Julius Caesar named?",
+        nl: "What was Cleopatra's son with Julius Caesar named?"
+      },
+      options: [
+        { en: "Caesarion", es: "Caesarion", de: "Caesarion", nl: "Caesarion" },
+        { en: "Augustus", es: "Augustus", de: "Augustus", nl: "Augustus" },
+        { en: "Ptolemy", es: "Ptolemy", de: "Ptolemy", nl: "Ptolemy" },
+        { en: "Alexander", es: "Alexander", de: "Alexander", nl: "Alexander" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Cleopatra's son with Julius Caesar was named Ptolemy XV Philopator Philometor Caesar, known as Caesarion.",
+        es: "Cleopatra's son with Julius Caesar was named Ptolemy XV Philopator Philometor Caesar, known as Caesarion.",
+        de: "Cleopatra's son with Julius Caesar was named Ptolemy XV Philopator Philometor Caesar, known as Caesarion.",
+        nl: "Cleopatra's son with Julius Caesar was named Ptolemy XV Philopator Philometor Caesar, known as Caesarion."
+      }
+    },
+    {
+      question: {
+        en: "Which Roman defeated Cleopatra and Mark Antony?",
+        es: "Which Roman defeated Cleopatra and Mark Antony?",
+        de: "Which Roman defeated Cleopatra and Mark Antony?",
+        nl: "Which Roman defeated Cleopatra and Mark Antony?"
+      },
+      options: [
+        { en: "Octavian (Augustus)", es: "Octavian (Augustus)", de: "Octavian (Augustus)", nl: "Octavian (Augustus)" },
+        { en: "Pompey", es: "Pompey", de: "Pompey", nl: "Pompey" },
+        { en: "Crassus", es: "Crassus", de: "Crassus", nl: "Crassus" },
+        { en: "Brutus", es: "Brutus", de: "Brutus", nl: "Brutus" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Octavian (later Emperor Augustus) defeated Cleopatra and Mark Antony at the Battle of Actium in 31 BCE.",
+        es: "Octavian (later Emperor Augustus) defeated Cleopatra and Mark Antony at the Battle of Actium in 31 BCE.",
+        de: "Octavian (later Emperor Augustus) defeated Cleopatra and Mark Antony at the Battle of Actium in 31 BCE.",
+        nl: "Octavian (later Emperor Augustus) defeated Cleopatra and Mark Antony at the Battle of Actium in 31 BCE."
+      }
+    },
+    {
+      question: {
+        en: "What was Cleopatra famous for regarding her intelligence?",
+        es: "What was Cleopatra famous for regarding her intelligence?",
+        de: "What was Cleopatra famous for regarding her intelligence?",
+        nl: "What was Cleopatra famous for regarding her intelligence?"
+      },
+      options: [
+        { en: "Political cunning and multilingual education", es: "Political cunning and multilingual education", de: "Political cunning and multilingual education", nl: "Political cunning and multilingual education" },
+        { en: "Military strategy only", es: "Military strategy only", de: "Military strategy only", nl: "Military strategy only" },
+        { en: "Religious knowledge", es: "Religious knowledge", de: "Religious knowledge", nl: "Religious knowledge" },
+        { en: "Mathematical skills", es: "Mathematical skills", de: "Mathematical skills", nl: "Mathematical skills" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Cleopatra was renowned for her political intelligence, diplomatic skills, and extensive education.",
+        es: "Cleopatra was renowned for her political intelligence, diplomatic skills, and extensive education.",
+        de: "Cleopatra was renowned for her political intelligence, diplomatic skills, and extensive education.",
+        nl: "Cleopatra was renowned for her political intelligence, diplomatic skills, and extensive education."
+      }
+    },
+    {
+      question: {
+        en: "In what year did Cleopatra die?",
+        es: "In what year did Cleopatra die?",
+        de: "In what year did Cleopatra die?",
+        nl: "In what year did Cleopatra die?"
+      },
+      options: [
+        { en: "30 BCE", es: "30 BCE", de: "30 BCE", nl: "30 BCE" },
+        { en: "50 BCE", es: "50 BCE", de: "50 BCE", nl: "50 BCE" },
+        { en: "10 BCE", es: "10 BCE", de: "10 BCE", nl: "10 BCE" },
+        { en: "40 BCE", es: "40 BCE", de: "40 BCE", nl: "40 BCE" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Cleopatra VII died in 30 BCE, ending the Ptolemaic dynasty and Egyptian independence.",
+        es: "Cleopatra VII died in 30 BCE, ending the Ptolemaic dynasty and Egyptian independence.",
+        de: "Cleopatra VII died in 30 BCE, ending the Ptolemaic dynasty and Egyptian independence.",
+        nl: "Cleopatra VII died in 30 BCE, ending the Ptolemaic dynasty and Egyptian independence."
+      }
+    },
+    {
+      question: {
+        en: "What battle sealed Cleopatra's fate?",
+        es: "What battle sealed Cleopatra's fate?",
+        de: "What battle sealed Cleopatra's fate?",
+        nl: "What battle sealed Cleopatra's fate?"
+      },
+      options: [
+        { en: "Battle of Actium", es: "Battle of Actium", de: "Battle of Actium", nl: "Battle of Actium" },
+        { en: "Battle of Alexandria", es: "Battle of Alexandria", de: "Battle of Alexandria", nl: "Battle of Alexandria" },
+        { en: "Battle of Pharsalus", es: "Battle of Pharsalus", de: "Battle of Pharsalus", nl: "Battle of Pharsalus" },
+        { en: "Battle of Pelusium", es: "Battle of Pelusium", de: "Battle of Pelusium", nl: "Battle of Pelusium" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The naval Battle of Actium in 31 BCE was the decisive defeat that sealed Cleopatra and Mark Antony's fate.",
+        es: "The naval Battle of Actium in 31 BCE was the decisive defeat that sealed Cleopatra and Mark Antony's fate.",
+        de: "The naval Battle of Actium in 31 BCE was the decisive defeat that sealed Cleopatra and Mark Antony's fate.",
+        nl: "The naval Battle of Actium in 31 BCE was the decisive defeat that sealed Cleopatra and Mark Antony's fate."
+      }
+    },
+    {
+      question: {
+        en: "How is Cleopatra often portrayed in ancient sources?",
+        es: "How is Cleopatra often portrayed in ancient sources?",
+        de: "How is Cleopatra often portrayed in ancient sources?",
+        nl: "How is Cleopatra often portrayed in ancient sources?"
+      },
+      options: [
+        { en: "As a seductress", es: "As a seductress", de: "As a seductress", nl: "As a seductress" },
+        { en: "As a warrior", es: "As a warrior", de: "As a warrior", nl: "As a warrior" },
+        { en: "As a priestess", es: "As a priestess", de: "As a priestess", nl: "As a priestess" },
+        { en: "As a scholar only", es: "As a scholar only", de: "As a scholar only", nl: "As a scholar only" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Ancient Roman sources often portrayed Cleopatra as a seductress, though modern scholarship recognizes her political acumen.",
+        es: "Ancient Roman sources often portrayed Cleopatra as a seductress, though modern scholarship recognizes her political acumen.",
+        de: "Ancient Roman sources often portrayed Cleopatra as a seductress, though modern scholarship recognizes her political acumen.",
+        nl: "Ancient Roman sources often portrayed Cleopatra as a seductress, though modern scholarship recognizes her political acumen."
+      }
+    },
+    {
+      question: {
+        en: "What was Cleopatra's full name?",
+        es: "What was Cleopatra's full name?",
+        de: "What was Cleopatra's full name?",
+        nl: "What was Cleopatra's full name?"
+      },
+      options: [
+        { en: "Cleopatra VII Philopator", es: "Cleopatra VII Philopator", de: "Cleopatra VII Philopator", nl: "Cleopatra VII Philopator" },
+        { en: "Cleopatra I", es: "Cleopatra I", de: "Cleopatra I", nl: "Cleopatra I" },
+        { en: "Cleopatra Selene", es: "Cleopatra Selene", de: "Cleopatra Selene", nl: "Cleopatra Selene" },
+        { en: "Cleopatra Thea", es: "Cleopatra Thea", de: "Cleopatra Thea", nl: "Cleopatra Thea" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Her full name was Cleopatra VII Philopator, meaning 'Cleopatra the Father-Loving Goddess'.",
+        es: "Her full name was Cleopatra VII Philopator, meaning 'Cleopatra the Father-Loving Goddess'.",
+        de: "Her full name was Cleopatra VII Philopator, meaning 'Cleopatra the Father-Loving Goddess'.",
+        nl: "Her full name was Cleopatra VII Philopator, meaning 'Cleopatra the Father-Loving Goddess'."
+      }
+    },
+    {
+      question: {
+        en: "Who was Cleopatra's first co-ruler?",
+        es: "Who was Cleopatra's first co-ruler?",
+        de: "Who was Cleopatra's first co-ruler?",
+        nl: "Who was Cleopatra's first co-ruler?"
+      },
+      options: [
+        { en: "Her brother Ptolemy XIII", es: "Her brother Ptolemy XIII", de: "Her brother Ptolemy XIII", nl: "Her brother Ptolemy XIII" },
+        { en: "Her father Ptolemy XII", es: "Her father Ptolemy XII", de: "Her father Ptolemy XII", nl: "Her father Ptolemy XII" },
+        { en: "Her son Caesarion", es: "Her son Caesarion", de: "Her son Caesarion", nl: "Her son Caesarion" },
+        { en: "Mark Antony", es: "Mark Antony", de: "Mark Antony", nl: "Mark Antony" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Cleopatra initially ruled as co-regent with her younger brother Ptolemy XIII, whom she also married.",
+        es: "Cleopatra initially ruled as co-regent with her younger brother Ptolemy XIII, whom she also married.",
+        de: "Cleopatra initially ruled as co-regent with her younger brother Ptolemy XIII, whom she also married.",
+        nl: "Cleopatra initially ruled as co-regent with her younger brother Ptolemy XIII, whom she also married."
+      }
+    },
+    {
+      question: {
+        en: "What happened to Cleopatra's children?",
+        es: "What happened to Cleopatra's children?",
+        de: "What happened to Cleopatra's children?",
+        nl: "What happened to Cleopatra's children?"
+      },
+      options: [
+        { en: "Most were taken to Rome", es: "Most were taken to Rome", de: "Most were taken to Rome", nl: "Most were taken to Rome" },
+        { en: "All died with her", es: "All died with her", de: "All died with her", nl: "All died with her" },
+        { en: "They ruled Egypt", es: "They ruled Egypt", de: "They ruled Egypt", nl: "They ruled Egypt" },
+        { en: "They escaped to Greece", es: "They escaped to Greece", de: "They escaped to Greece", nl: "They escaped to Greece" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "After Cleopatra's death, most of her children were taken to Rome; Caesarion was killed.",
+        es: "After Cleopatra's death, most of her children were taken to Rome; Caesarion was killed.",
+        de: "After Cleopatra's death, most of her children were taken to Rome; Caesarion was killed.",
+        nl: "After Cleopatra's death, most of her children were taken to Rome; Caesarion was killed."
+      }
+    },
+    {
+      question: {
+        en: "What was the Library of Alexandria's fate during Cleopatra's time?",
+        es: "What was the Library of Alexandria's fate during Cleopatra's time?",
+        de: "What was the Library of Alexandria's fate during Cleopatra's time?",
+        nl: "What was the Library of Alexandria's fate during Cleopatra's time?"
+      },
+      options: [
+        { en: "Parts were damaged in various conflicts", es: "Parts were damaged in various conflicts", de: "Parts were damaged in various conflicts", nl: "Parts were damaged in various conflicts" },
+        { en: "Completely destroyed", es: "Completely destroyed", de: "Completely destroyed", nl: "Completely destroyed" },
+        { en: "Fully preserved", es: "Fully preserved", de: "Fully preserved", nl: "Fully preserved" },
+        { en: "Never existed", es: "Never existed", de: "Never existed", nl: "Never existed" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Library of Alexandria suffered damage during conflicts in Cleopatra's era, though complete destruction came later.",
+        es: "The Library of Alexandria suffered damage during conflicts in Cleopatra's era, though complete destruction came later.",
+        de: "The Library of Alexandria suffered damage during conflicts in Cleopatra's era, though complete destruction came later.",
+        nl: "The Library of Alexandria suffered damage during conflicts in Cleopatra's era, though complete destruction came later."
+      }
+    },
+    {
+      question: {
+        en: "What was Cleopatra's relationship with her sister Arsinoe?",
+        es: "What was Cleopatra's relationship with her sister Arsinoe?",
+        de: "What was Cleopatra's relationship with her sister Arsinoe?",
+        nl: "What was Cleopatra's relationship with her sister Arsinoe?"
+      },
+      options: [
+        { en: "Rivals; Cleopatra had her killed", es: "Rivals; Cleopatra had her killed", de: "Rivals; Cleopatra had her killed", nl: "Rivals; Cleopatra had her killed" },
+        { en: "Close allies", es: "Close allies", de: "Close allies", nl: "Close allies" },
+        { en: "Never met", es: "Never met", de: "Never met", nl: "Never met" },
+        { en: "Co-rulers", es: "Co-rulers", de: "Co-rulers", nl: "Co-rulers" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Cleopatra and her sister Arsinoe IV were rivals; Cleopatra eventually had Arsinoe executed.",
+        es: "Cleopatra and her sister Arsinoe IV were rivals; Cleopatra eventually had Arsinoe executed.",
+        de: "Cleopatra and her sister Arsinoe IV were rivals; Cleopatra eventually had Arsinoe executed.",
+        nl: "Cleopatra and her sister Arsinoe IV were rivals; Cleopatra eventually had Arsinoe executed."
+      }
+    },
+    {
+      question: {
+        en: "What was unusual about Cleopatra among Ptolemaic rulers?",
+        es: "What was unusual about Cleopatra among Ptolemaic rulers?",
+        de: "What was unusual about Cleopatra among Ptolemaic rulers?",
+        nl: "What was unusual about Cleopatra among Ptolemaic rulers?"
+      },
+      options: [
+        { en: "She learned to speak Egyptian", es: "She learned to speak Egyptian", de: "She learned to speak Egyptian", nl: "She learned to speak Egyptian" },
+        { en: "She was the oldest", es: "She was the oldest", de: "She was the oldest", nl: "She was the oldest" },
+        { en: "She refused to marry", es: "She refused to marry", de: "She refused to marry", nl: "She refused to marry" },
+        { en: "She lived the longest", es: "She lived the longest", de: "She lived the longest", nl: "She lived the longest" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Unlike previous Ptolemaic rulers who only spoke Greek, Cleopatra learned to speak Egyptian.",
+        es: "Unlike previous Ptolemaic rulers who only spoke Greek, Cleopatra learned to speak Egyptian.",
+        de: "Unlike previous Ptolemaic rulers who only spoke Greek, Cleopatra learned to speak Egyptian.",
+        nl: "Unlike previous Ptolemaic rulers who only spoke Greek, Cleopatra learned to speak Egyptian."
+      }
+    },
+    {
+      question: {
+        en: "How did Romans view Cleopatra?",
+        es: "How did Romans view Cleopatra?",
+        de: "How did Romans view Cleopatra?",
+        nl: "How did Romans view Cleopatra?"
+      },
+      options: [
+        { en: "As a foreign threat to Rome", es: "As a foreign threat to Rome", de: "As a foreign threat to Rome", nl: "As a foreign threat to Rome" },
+        { en: "As an ally", es: "As an ally", de: "As an ally", nl: "As an ally" },
+        { en: "As insignificant", es: "As insignificant", de: "As insignificant", nl: "As insignificant" },
+        { en: "As a goddess", es: "As a goddess", de: "As a goddess", nl: "As a goddess" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Romans viewed Cleopatra as a dangerous foreign queen who threatened Roman values and power.",
+        es: "Romans viewed Cleopatra as a dangerous foreign queen who threatened Roman values and power.",
+        de: "Romans viewed Cleopatra as a dangerous foreign queen who threatened Roman values and power.",
+        nl: "Romans viewed Cleopatra as a dangerous foreign queen who threatened Roman values and power."
+      }
+
       }
     ]
   };

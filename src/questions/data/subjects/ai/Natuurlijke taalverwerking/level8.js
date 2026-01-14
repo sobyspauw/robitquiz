@@ -1,4 +1,4 @@
-﻿// Natural Language Processing Quiz - Level 8: Modern NLP
+// Natural Language Processing Quiz - Level 8: Modern NLP
 (function() {
   const level8 = {
     name: {
@@ -206,7 +206,7 @@
         },
         options: [
           { en: "Autoregressive models predict next tokens sequentially (GPT), autoencoding models reconstruct masked tokens bidirectionally (BERT)", es: "Los modelos autoregresivos predicen tokens siguientes secuencialmente (GPT), los modelos autocodificadores reconstruyen tokens enmascarados bidireccionalmente (BERT)", de: "Autoregressive Modelle sagen nächste Tokens sequenziell vorher (GPT), autoenkodiergende Modelle rekonstruieren maskierte Tokens bidirektional (BERT)", nl: "Autoregressieve modellen voorspellen volgende tokens sequentieel (GPT), autocoderende modellen reconstrueren gemaskeerde tokens bidirectioneel (BERT)" },
-          { en: "Autoregressive models are larger than autoencoding models", es: "Los modelos autoregresivos son más grandes que los modelos autocodificadores", de: "Autoregressive Modelle sind größer als autoenkodiergende Modelle", nl: "Autoregressieve modellen zijn groter dan autocoderende modellen" },
+          { en: "Autoregressive models are larger than autoencoding models", es: "Los modelos autoregresivos son más grandes que los modelos autocodificadores", de: "Autoregressive Modelle sind größer als autoenkodierende Modelle", nl: "Autoregressieve modellen zijn groter dan autocoderende modellen" },
           { en: "Autoregressive models work only with numbers", es: "Los modelos autoregresivos funcionan solo con números", de: "Autoregressive Modelle funktionieren nur mit Zahlen", nl: "Autoregressieve modellen werken alleen met getallen" },
           { en: "There is no difference between them", es: "No hay diferencia entre ellos", de: "Es gibt keinen Unterschied zwischen ihnen", nl: "Er is geen verschil tussen hen" }
         ],
@@ -214,7 +214,7 @@
         explanation: {
           en: "Autoregressive models like GPT generate text left-to-right, predicting each token based on previous tokens only. Autoencoding models like BERT use bidirectional context to reconstruct corrupted inputs, making them excellent for understanding tasks.",
           es: "Los modelos autoregresivos como GPT generan texto de izquierda a derecha, prediciendo cada token basado solo en tokens previos. Los modelos autocodificadores como BERT usan contexto bidireccional para reconstruir entradas corruptas, haciéndolos excelentes para tareas de comprensión.",
-          de: "Autoregressive Modelle wie GPT generieren Text links-nach-rechts und sagen jeden Token nur basierend auf vorherigen Tokens vorher. Autoenkodiergende Modelle wie BERT verwenden bidirektionalen Kontext um korrumpierte Eingaben zu rekonstruieren, macht sie exzellent für Verständnisaufgaben.",
+          de: "Autoregressive Modelle wie GPT generieren Text links-nach-rechts und sagen jeden Token nur basierend auf vorherigen Tokens vorher. Autoenkodierende Modelle wie BERT verwenden bidirektionalen Kontext um korrumpierte Eingaben zu rekonstruieren, macht sie exzellent für Verständnisaufgaben.",
           nl: "Autoregressieve modellen zoals GPT genereren tekst van links naar rechts, voorspellen elk token gebaseerd op alleen vorige tokens. Autocoderende modellen zoals BERT gebruiken bidirectionele context om gecorrumpeerde invoer te reconstrueren, maakt ze uitstekend voor begripsaken."
         }
       },
@@ -427,6 +427,416 @@
           de: "Dropout setzt zufällig einen Bruchteil von Neuronen auf null während des Trainings, zwingt das Modell verschiedene Pfade zu nutzen und verhindert Überanpassung. In Transformern wird Dropout typischerweise auf Aufmerksamkeitsgewichte und Feedforward-Schichten angewendet.",
           nl: "Dropout zet willekeurig een fractie van neuronen op nul tijdens training, dwingt het model om verschillende paden te gebruiken en voorkomt overfitting. In Transformers wordt dropout typisch toegepast op aandachtgewichten en feedforward lagen."
         }
+      },
+      {
+        question: {
+          en: "What is causal masking in decoder Transformers?",
+          es: "¿Qué es el enmascaramiento causal en Transformadores decodificadores?",
+          de: "Was ist kausales Maskieren in Decoder-Transformern?",
+          nl: "Wat is causale maskering in decoder Transformers?"
+        },
+        options: [
+          { en: "Preventing attention to future tokens to maintain autoregressive property and ensure each token can only attend to previous positions", es: "Prevenir atención a tokens futuros para mantener propiedad autoregresiva y asegurar que cada token solo pueda atender posiciones previas", de: "Aufmerksamkeit auf zukünftige Tokens verhindern um autoregressive Eigenschaft zu erhalten und sicherzustellen dass jeder Token nur auf vorherige Positionen achten kann", nl: "Voorkomen van aandacht voor toekomstige tokens om autoregressieve eigenschap te behouden en ervoor te zorgen dat elk token alleen naar vorige posities kan kijken" },
+          { en: "Masking random tokens during training", es: "Enmascarar tokens aleatorios durante entrenamiento", de: "Zufällige Tokens während des Trainings maskieren", nl: "Willekeurige tokens maskeren tijdens training" },
+          { en: "Hiding certain layers from backpropagation", es: "Ocultar ciertas capas de retropropagación", de: "Bestimmte Schichten vor Backpropagation verbergen", nl: "Bepaalde lagen verbergen voor backpropagation" },
+          { en: "Applying dropout to specific attention heads", es: "Aplicar dropout a cabezas de atención específicas", de: "Dropout auf spezifische Aufmerksamkeitsköpfe anwenden", nl: "Dropout toepassen op specifieke aandachtkoppen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Causal masking ensures that during autoregressive generation, each position can only attend to earlier positions, not future ones. This is implemented by setting attention scores for future positions to negative infinity before softmax, maintaining the left-to-right generation property essential for language modeling.",
+          es: "El enmascaramiento causal asegura que durante generación autoregresiva, cada posición solo pueda atender posiciones anteriores, no futuras. Esto se implementa estableciendo puntuaciones de atención para posiciones futuras a infinito negativo antes de softmax, manteniendo la propiedad de generación izquierda-a-derecha esencial para modelado de lenguaje.",
+          de: "Kausales Maskieren stellt sicher dass während autoregressiver Generierung jede Position nur auf frühere Positionen achten kann, nicht auf zukünftige. Dies wird implementiert indem Aufmerksamkeits-Scores für zukünftige Positionen auf negativ unendlich vor Softmax gesetzt werden, erhält die Links-nach-rechts-Generierungseigenschaft die für Sprachmodellierung wesentlich ist.",
+          nl: "Causale maskering zorgt ervoor dat tijdens autoregressieve generatie, elke positie alleen naar eerdere posities kan kijken, niet naar toekomstige. Dit wordt geïmplementeerd door aandachtscores voor toekomstige posities op negatief oneindig te zetten voor softmax, behoudt de links-naar-rechts generatie-eigenschap essentieel voor taalmodellering."
+        }
+      },
+      {
+        question: {
+          en: "What is knowledge distillation in the context of Transformer models?",
+          es: "¿Qué es la destilación de conocimiento en el contexto de modelos Transformer?",
+          de: "Was ist Wissensdestillation im Kontext von Transformer-Modellen?",
+          nl: "Wat is kennisdistillatie in de context van Transformer-modellen?"
+        },
+        options: [
+          { en: "Training a smaller student model to mimic a larger teacher model's behavior, creating compact models with similar performance", es: "Entrenar un modelo estudiante más pequeño para imitar el comportamiento de un modelo profesor más grande, creando modelos compactos con rendimiento similar", de: "Ein kleineres Student-Modell trainieren um das Verhalten eines größeren Teacher-Modells nachzuahmen, erstellt kompakte Modelle mit ähnlicher Leistung", nl: "Een kleiner studentmodel trainen om het gedrag van een groter leraarmodel na te bootsen, creëert compacte modellen met vergelijkbare prestaties" },
+          { en: "Extracting key facts from training data", es: "Extraer hechos clave de datos de entrenamiento", de: "Schlüsselfakten aus Trainingsdaten extrahieren", nl: "Sleutelfakten extraheren uit trainingsgegevens" },
+          { en: "Removing redundant parameters from the model", es: "Eliminar parámetros redundantes del modelo", de: "Redundante Parameter aus dem Modell entfernen", nl: "Redundante parameters uit het model verwijderen" },
+          { en: "Compressing the vocabulary size", es: "Comprimir el tamaño del vocabulario", de: "Die Vokabulargröße komprimieren", nl: "De vocabulairegrootte comprimeren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Knowledge distillation transfers knowledge from a large teacher model to a smaller student model by training the student to match the teacher's output distributions (soft targets) rather than just hard labels. This creates efficient models like DistilBERT (40% smaller, 60% faster, retaining 97% of BERT's performance).",
+          es: "La destilación de conocimiento transfiere conocimiento de un modelo profesor grande a un modelo estudiante más pequeño entrenando al estudiante para igualar las distribuciones de salida del profesor (objetivos suaves) en lugar de solo etiquetas duras. Esto crea modelos eficientes como DistilBERT (40% más pequeño, 60% más rápido, reteniendo 97% del rendimiento de BERT).",
+          de: "Wissensdestillation überträgt Wissen von einem großen Teacher-Modell zu einem kleineren Student-Modell indem der Student trainiert wird die Ausgabeverteilungen des Teachers (weiche Ziele) zu matchen statt nur harte Labels. Dies erstellt effiziente Modelle wie DistilBERT (40% kleiner, 60% schneller, behält 97% von BERTs Leistung).",
+          nl: "Kennisdistillatie draagt kennis over van een groot leraarmodel naar een kleiner studentmodel door de student te trainen om de uitvoerdistributies van de leraar (zachte doelen) te matchen in plaats van alleen harde labels. Dit creëert efficiënte modellen zoals DistilBERT (40% kleiner, 60% sneller, behoudt 97% van BERT's prestaties)."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of segment embeddings in BERT?",
+          es: "¿Cuál es el propósito de las incrustaciones de segmento en BERT?",
+          de: "Was ist der Zweck von Segmentembeddings in BERT?",
+          nl: "Wat is het doel van segment-embeddings in BERT?"
+        },
+        options: [
+          { en: "Distinguishing between different sentences or text segments in the input, enabling the model to process sentence pairs", es: "Distinguir entre diferentes oraciones o segmentos de texto en la entrada, permitiendo al modelo procesar pares de oraciones", de: "Zwischen verschiedenen Sätzen oder Textsegmenten in der Eingabe unterscheiden, ermöglicht dem Modell Satzpaare zu verarbeiten", nl: "Onderscheid maken tussen verschillende zinnen of tekstsegmenten in de invoer, stelt het model in staat zinsparen te verwerken" },
+          { en: "Compressing long documents into smaller representations", es: "Comprimir documentos largos en representaciones más pequeñas", de: "Lange Dokumente in kleinere Repräsentationen komprimieren", nl: "Lange documenten comprimeren in kleinere representaties" },
+          { en: "Identifying the sentiment of each segment", es: "Identificar el sentimiento de cada segmento", de: "Das Sentiment jedes Segments identifizieren", nl: "Het sentiment van elk segment identificeren" },
+          { en: "Storing the original word order", es: "Almacenar el orden original de palabras", de: "Die ursprüngliche Wortreihenfolge speichern", nl: "De oorspronkelijke woordvolgorde opslaan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Segment embeddings (also called token type embeddings) help BERT distinguish between sentence A and sentence B in tasks requiring sentence pair inputs (like natural language inference). Each token gets an embedding indicating which segment it belongs to, added to its token and positional embeddings.",
+          es: "Las incrustaciones de segmento (también llamadas incrustaciones de tipo de token) ayudan a BERT a distinguir entre oración A y oración B en tareas que requieren entradas de pares de oraciones (como inferencia de lenguaje natural). Cada token obtiene una incrustación indicando a qué segmento pertenece, añadida a sus incrustaciones de token y posicionales.",
+          de: "Segmentembeddings (auch Token-Typ-Embeddings genannt) helfen BERT zwischen Satz A und Satz B in Aufgaben zu unterscheiden die Satzpaar-Eingaben erfordern (wie natürliche Sprachinferenz). Jeder Token erhält ein Embedding das anzeigt zu welchem Segment er gehört, hinzugefügt zu seinen Token- und Positionsembeddings.",
+          nl: "Segment-embeddings (ook wel token type embeddings genoemd) helpen BERT onderscheid te maken tussen zin A en zin B in taken die zinspaarinvoer vereisen (zoals natuurlijke taalinferentie). Elk token krijgt een embedding die aangeeft tot welk segment het behoort, toegevoegd aan zijn token- en positie-embeddings."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between GPT-2 and GPT-3 besides model size?",
+          es: "¿Cuál es la diferencia entre GPT-2 y GPT-3 además del tamaño del modelo?",
+          de: "Was ist der Unterschied zwischen GPT-2 und GPT-3 außer der Modellgröße?",
+          de: "Wat is het verschil tussen GPT-2 en GPT-3 naast modelgrootte?"
+        },
+        options: [
+          { en: "GPT-3 demonstrates strong few-shot and zero-shot learning capabilities that emerge from scale, while GPT-2 requires fine-tuning for most tasks", es: "GPT-3 demuestra fuertes capacidades de aprendizaje de pocos ejemplos y cero ejemplos que emergen de la escala, mientras GPT-2 requiere ajuste fino para la mayoría de tareas", de: "GPT-3 zeigt starke Few-Shot- und Zero-Shot-Lernfähigkeiten die aus Skalierung entstehen, während GPT-2 Feinabstimmung für die meisten Aufgaben benötigt", nl: "GPT-3 toont sterke few-shot en zero-shot leercapaciteiten die voortkomen uit schaal, terwijl GPT-2 fine-tuning vereist voor de meeste taken" },
+          { en: "GPT-3 uses a completely different architecture", es: "GPT-3 usa una arquitectura completamente diferente", de: "GPT-3 verwendet eine völlig andere Architektur", nl: "GPT-3 gebruikt een compleet andere architectuur" },
+          { en: "GPT-3 can only process images", es: "GPT-3 solo puede procesar imágenes", de: "GPT-3 kann nur Bilder verarbeiten", nl: "GPT-3 kan alleen afbeeldingen verwerken" },
+          { en: "GPT-2 is faster for all tasks", es: "GPT-2 es más rápido para todas las tareas", de: "GPT-2 ist schneller für alle Aufgaben", nl: "GPT-2 is sneller voor alle taken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "While GPT-3 (175B parameters) is much larger than GPT-2 (1.5B parameters), the key difference is GPT-3's emergent in-context learning abilities. GPT-3 can perform many tasks through few-shot prompting without fine-tuning, a capability that emerges at scale. GPT-2 typically requires task-specific fine-tuning to achieve good performance.",
+          es: "Aunque GPT-3 (175B parámetros) es mucho más grande que GPT-2 (1.5B parámetros), la diferencia clave son las habilidades de aprendizaje en contexto emergentes de GPT-3. GPT-3 puede realizar muchas tareas a través de prompts de pocos ejemplos sin ajuste fino, una capacidad que emerge con la escala. GPT-2 típicamente requiere ajuste fino específico de tarea para lograr buen rendimiento.",
+          de: "Während GPT-3 (175B Parameter) viel größer ist als GPT-2 (1.5B Parameter), ist der Hauptunterschied GPT-3s emergente kontextuelle Lernfähigkeiten. GPT-3 kann viele Aufgaben durch Few-Shot-Prompting ohne Feinabstimmung ausführen, eine Fähigkeit die mit Skalierung entsteht. GPT-2 benötigt typischerweise aufgabenspezifische Feinabstimmung um gute Leistung zu erzielen.",
+          nl: "Hoewel GPT-3 (175B parameters) veel groter is dan GPT-2 (1.5B parameters), is het belangrijkste verschil GPT-3's emergente in-context leermogelijkheden. GPT-3 kan veel taken uitvoeren via few-shot prompting zonder fine-tuning, een vermogen dat ontstaat bij schaal. GPT-2 vereist doorgaans taakspecifieke fine-tuning om goede prestaties te behalen."
+        }
+      },
+      {
+        question: {
+          en: "What is the feed-forward network's role in each Transformer layer?",
+          es: "¿Cuál es el papel de la red feed-forward en cada capa Transformer?",
+          de: "Was ist die Rolle des Feedforward-Netzwerks in jeder Transformer-Schicht?",
+          nl: "Wat is de rol van het feedforward netwerk in elke Transformer-laag?"
+        },
+        options: [
+          { en: "Processing each position independently with two linear transformations and a nonlinearity, adding representational capacity beyond attention", es: "Procesar cada posición independientemente con dos transformaciones lineales y una no linealidad, añadiendo capacidad representacional más allá de la atención", de: "Jede Position unabhängig mit zwei linearen Transformationen und einer Nichtlinearität verarbeiten, fügt Repräsentationskapazität jenseits von Aufmerksamkeit hinzu", nl: "Elke positie onafhankelijk verwerken met twee lineaire transformaties en een non-lineariteit, voegt representatiecapaciteit toe naast aandacht" },
+          { en: "Connecting the encoder and decoder", es: "Conectar el codificador y decodificador", de: "Encoder und Decoder verbinden", nl: "Encoder en decoder verbinden" },
+          { en: "Generating the final output predictions", es: "Generar las predicciones de salida finales", de: "Die finalen Ausgabevorhersagen generieren", nl: "De finale uitvoervoorspellingen genereren" },
+          { en: "Computing attention weights", es: "Computar pesos de atención", de: "Aufmerksamkeitsgewichte berechnen", nl: "Aandachtgewichten berekenen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The position-wise feed-forward network (FFN) in each Transformer layer applies two linear transformations with a ReLU or GELU activation between them, independently to each position. This adds non-linear transformations and increases model capacity. The FFN typically has a hidden dimension 4x larger than the model dimension (e.g., 3072 for a 768-dimensional model).",
+          es: "La red feed-forward posicional (FFN) en cada capa Transformer aplica dos transformaciones lineales con una activación ReLU o GELU entre ellas, independientemente a cada posición. Esto añade transformaciones no lineales y aumenta capacidad del modelo. La FFN típicamente tiene una dimensión oculta 4x más grande que la dimensión del modelo (ej., 3072 para un modelo de 768 dimensiones).",
+          de: "Das positionsweise Feedforward-Netzwerk (FFN) in jeder Transformer-Schicht wendet zwei lineare Transformationen mit einer ReLU- oder GELU-Aktivierung dazwischen an, unabhängig auf jede Position. Dies fügt nichtlineare Transformationen hinzu und erhöht Modellkapazität. Die FFN hat typischerweise eine versteckte Dimension 4x größer als die Modelldimension (z.B. 3072 für ein 768-dimensionales Modell).",
+          nl: "Het positionele feedforward netwerk (FFN) in elke Transformer-laag past twee lineaire transformaties toe met een ReLU of GELU activatie ertussen, onafhankelijk op elke positie. Dit voegt niet-lineaire transformaties toe en vergroot modelcapaciteit. De FFN heeft doorgaans een verborgen dimensie 4x groter dan de modeldimensie (bijv. 3072 voor een 768-dimensionaal model)."
+        }
+      },
+      {
+        question: {
+          en: "What is the context window and why is it important in language models?",
+          es: "¿Qué es la ventana de contexto y por qué es importante en modelos de lenguaje?",
+          de: "Was ist das Kontextfenster und warum ist es wichtig in Sprachmodellen?",
+          nl: "Wat is het contextvenster en waarom is het belangrijk in taalmodellen?"
+        },
+        options: [
+          { en: "The maximum sequence length the model can process at once, determining how much context it can consider when generating or understanding text", es: "La longitud máxima de secuencia que el modelo puede procesar a la vez, determinando cuánto contexto puede considerar al generar o entender texto", de: "Die maximale Sequenzlänge die das Modell auf einmal verarbeiten kann, bestimmt wie viel Kontext es beim Generieren oder Verstehen von Text berücksichtigen kann", nl: "De maximale sequentielengte die het model tegelijk kan verwerken, bepaalt hoeveel context het kan overwegen bij het genereren of begrijpen van tekst" },
+          { en: "The size of the training dataset", es: "El tamaño del conjunto de datos de entrenamiento", de: "Die Größe des Trainingsdatensatzes", nl: "De grootte van de trainingsdataset" },
+          { en: "The number of attention heads", es: "El número de cabezas de atención", de: "Die Anzahl der Aufmerksamkeitsköpfe", nl: "Het aantal aandachtkoppen" },
+          { en: "The vocabulary size of the model", es: "El tamaño del vocabulario del modelo", de: "Die Vokabulargröße des Modells", nl: "De vocabulairegrootte van het model" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The context window (or maximum sequence length) limits how much text a model can process simultaneously. GPT-3 has a 2048-token context, GPT-4 extended this to 8K/32K tokens, and newer models reach 100K+ tokens. Longer contexts enable better understanding of documents, maintaining conversation history, and complex reasoning tasks, but increase computational costs quadratically with standard attention.",
+          es: "La ventana de contexto (o longitud máxima de secuencia) limita cuánto texto un modelo puede procesar simultáneamente. GPT-3 tiene un contexto de 2048 tokens, GPT-4 extendió esto a 8K/32K tokens, y modelos más nuevos alcanzan 100K+ tokens. Contextos más largos permiten mejor comprensión de documentos, mantener historial de conversación, y tareas de razonamiento complejas, pero aumentan costos computacionales cuadráticamente con atención estándar.",
+          de: "Das Kontextfenster (oder maximale Sequenzlänge) begrenzt wie viel Text ein Modell gleichzeitig verarbeiten kann. GPT-3 hat einen 2048-Token-Kontext, GPT-4 erweiterte dies auf 8K/32K Token, und neuere Modelle erreichen 100K+ Token. Längere Kontexte ermöglichen besseres Verständnis von Dokumenten, Gesprächshistorie beibehalten, und komplexe Denkaufgaben, erhöhen aber Rechenkosten quadratisch mit Standard-Aufmerksamkeit.",
+          nl: "Het contextvenster (of maximale sequentielengte) beperkt hoeveel tekst een model tegelijk kan verwerken. GPT-3 heeft een 2048-token context, GPT-4 breidde dit uit naar 8K/32K tokens, en nieuwere modellen bereiken 100K+ tokens. Langere contexten maken beter begrip van documenten mogelijk, conversatiegeschiedenis behouden, en complexe redeneertaken, maar verhogen rekenkosten kwadratisch met standaard aandacht."
+        }
+      },
+      {
+        question: {
+          en: "What is perplexity and how is it used to evaluate language models?",
+          es: "¿Qué es la perplejidad y cómo se usa para evaluar modelos de lenguaje?",
+          de: "Was ist Perplexität und wie wird sie zur Bewertung von Sprachmodellen verwendet?",
+          nl: "Wat is perplexiteit en hoe wordt het gebruikt om taalmodellen te evalueren?"
+        },
+        options: [
+          { en: "A measure of how well a model predicts a sample, with lower perplexity indicating better prediction and understanding of language patterns", es: "Una medida de qué tan bien un modelo predice una muestra, con perplejidad más baja indicando mejor predicción y comprensión de patrones de lenguaje", de: "Ein Maß dafür wie gut ein Modell eine Probe vorhersagt, wobei niedrigere Perplexität bessere Vorhersage und Verständnis von Sprachmustern anzeigt", nl: "Een maat voor hoe goed een model een sample voorspelt, waarbij lagere perplexiteit betere voorspelling en begrip van taalpatronen aangeeft" },
+          { en: "The complexity of the model architecture", es: "La complejidad de la arquitectura del modelo", de: "Die Komplexität der Modellarchitektur", nl: "De complexiteit van de modelarchitectuur" },
+          { en: "The number of parameters in the model", es: "El número de parámetros en el modelo", de: "Die Anzahl der Parameter im Modell", nl: "Het aantal parameters in het model" },
+          { en: "The training time required", es: "El tiempo de entrenamiento requerido", de: "Die erforderliche Trainingszeit", nl: "De benodigde trainingstijd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Perplexity is the exponentiated average negative log-likelihood of a sequence. It measures how 'surprised' a model is by test data - lower perplexity means the model assigns higher probability to the actual text, indicating better language understanding. A perplexity of 10 means the model is as confused as if it had to choose uniformly among 10 possibilities at each step.",
+          es: "La perplejidad es el promedio exponencial de log-verosimilitud negativa de una secuencia. Mide qué tan 'sorprendido' está un modelo por datos de prueba - perplejidad más baja significa que el modelo asigna mayor probabilidad al texto real, indicando mejor comprensión del lenguaje. Una perplejidad de 10 significa que el modelo está tan confundido como si tuviera que elegir uniformemente entre 10 posibilidades en cada paso.",
+          de: "Perplexität ist die exponentielle durchschnittliche negative Log-Likelihood einer Sequenz. Sie misst wie 'überrascht' ein Modell von Testdaten ist - niedrigere Perplexität bedeutet dass das Modell höhere Wahrscheinlichkeit dem tatsächlichen Text zuweist, zeigt besseres Sprachverständnis an. Eine Perplexität von 10 bedeutet dass das Modell so verwirrt ist als müsste es bei jedem Schritt gleichmäßig unter 10 Möglichkeiten wählen.",
+          nl: "Perplexiteit is de geëxponentieerde gemiddelde negatieve log-likelihood van een sequentie. Het meet hoe 'verrast' een model is door testgegevens - lagere perplexiteit betekent dat het model hogere waarschijnlijkheid toewijst aan de werkelijke tekst, wat beter taalbegrip aangeeft. Een perplexiteit van 10 betekent dat het model even verward is alsof het uniform moest kiezen tussen 10 mogelijkheden bij elke stap."
+        }
+      },
+      {
+        question: {
+          en: "What is chain-of-thought prompting?",
+          es: "¿Qué es el prompting de cadena de pensamiento?",
+          de: "Was ist Chain-of-Thought Prompting?",
+          nl: "Wat is chain-of-thought prompting?"
+        },
+        options: [
+          { en: "Including step-by-step reasoning in prompts to improve model performance on complex reasoning tasks", es: "Incluir razonamiento paso a paso en prompts para mejorar rendimiento del modelo en tareas de razonamiento complejas", de: "Schritt-für-Schritt-Reasoning in Prompts einbeziehen um Modellleistung bei komplexen Denkaufgaben zu verbessern", nl: "Stap-voor-stap redenering opnemen in prompts om modelprestaties bij complexe redeneertaken te verbeteren" },
+          { en: "Linking multiple prompts together", es: "Vincular múltiples prompts juntos", de: "Mehrere Prompts miteinander verknüpfen", nl: "Meerdere prompts aan elkaar koppelen" },
+          { en: "Creating prompt templates", es: "Crear plantillas de prompt", de: "Prompt-Vorlagen erstellen", nl: "Prompt-sjablonen maken" },
+          { en: "Training models to follow chains of commands", es: "Entrenar modelos para seguir cadenas de comandos", de: "Modelle trainieren um Befehlsketten zu folgen", nl: "Modellen trainen om commandoketens te volgen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Chain-of-thought prompting elicits reasoning by including intermediate steps in examples, showing the model how to break down complex problems. For math problems, instead of just 'Q: 15+27=? A: 42', it shows 'Q: 15+27=? A: Let's think step by step. 15+20=35, then 35+7=42.' This dramatically improves performance on multi-step reasoning.",
+          es: "El prompting de cadena de pensamiento suscita razonamiento incluyendo pasos intermedios en ejemplos, mostrando al modelo cómo descomponer problemas complejos. Para problemas de matemáticas, en lugar de solo 'P: 15+27=? R: 42', muestra 'P: 15+27=? R: Pensemos paso a paso. 15+20=35, luego 35+7=42.' Esto mejora dramáticamente el rendimiento en razonamiento de múltiples pasos.",
+          de: "Chain-of-Thought Prompting ruft Reasoning hervor durch Einbeziehen von Zwischenschritten in Beispielen, zeigt dem Modell wie komplexe Probleme zerlegt werden. Für Matheprobleme, statt nur 'F: 15+27=? A: 42', zeigt es 'F: 15+27=? A: Denken wir Schritt für Schritt. 15+20=35, dann 35+7=42.' Dies verbessert die Leistung bei mehrstufigem Reasoning dramatisch.",
+          nl: "Chain-of-thought prompting ontlokt redenering door tussenliggende stappen op te nemen in voorbeelden, toont het model hoe complexe problemen op te breken. Voor wiskundeproblemen, in plaats van alleen 'V: 15+27=? A: 42', toont het 'V: 15+27=? A: Laten we stap voor stap denken. 15+20=35, dan 35+7=42.' Dit verbetert de prestaties bij meerstaps redeneren dramatisch."
+        }
+      },
+      {
+        question: {
+          en: "What is model quantization?",
+          es: "¿Qué es la cuantización de modelos?",
+          de: "Was ist Modellquantisierung?",
+          nl: "Wat is modelkwantisatie?"
+        },
+        options: [
+          { en: "Reducing precision of model weights from 32-bit to 8-bit or lower to decrease memory and improve inference speed", es: "Reducir precisión de pesos del modelo de 32 bits a 8 bits o menos para disminuir memoria y mejorar velocidad de inferencia", de: "Präzision von Modellgewichten von 32-Bit auf 8-Bit oder niedriger reduzieren um Speicher zu verringern und Inferenzgeschwindigkeit zu verbessern", nl: "Precisie van modelgewichten verlagen van 32-bit naar 8-bit of lager om geheugen te verminderen en inferentiesnelheid te verbeteren" },
+          { en: "Measuring model quality", es: "Medir calidad del modelo", de: "Modellqualität messen", nl: "Modelkwaliteit meten" },
+          { en: "Breaking models into smaller parts", es: "Dividir modelos en partes más pequeñas", de: "Modelle in kleinere Teile zerlegen", nl: "Modellen opdelen in kleinere delen" },
+          { en: "Converting models to quantum computers", es: "Convertir modelos a computadoras cuánticas", de: "Modelle für Quantencomputer umwandeln", nl: "Modellen converteren voor quantumcomputers" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Quantization reduces model size and speeds up inference by representing weights with lower precision (e.g., 8-bit integers instead of 32-bit floats). This can reduce model size by 4x with minimal accuracy loss. Techniques include post-training quantization and quantization-aware training.",
+          es: "La cuantización reduce el tamaño del modelo y acelera la inferencia representando pesos con menor precisión (ej., enteros de 8 bits en lugar de flotantes de 32 bits). Esto puede reducir el tamaño del modelo en 4x con pérdida mínima de precisión. Las técnicas incluyen cuantización post-entrenamiento y entrenamiento consciente de cuantización.",
+          de: "Quantisierung reduziert Modellgröße und beschleunigt Inferenz durch Darstellung von Gewichten mit niedrigerer Präzision (z.B. 8-Bit-Ganzzahlen statt 32-Bit-Gleitkommazahlen). Dies kann Modellgröße um 4x reduzieren mit minimaler Genauigkeitseinbuße. Techniken umfassen Post-Training-Quantisierung und quantisierungsbewusstes Training.",
+          nl: "Kwantisatie vermindert modelgrootte en versnelt inferentie door gewichten met lagere precisie weer te geven (bijv. 8-bit integers in plaats van 32-bit floats). Dit kan modelgrootte met 4x verminderen met minimaal nauwkeurigheidsverlies. Technieken omvatten post-training kwantisatie en kwantisatie-bewuste training."
+        }
+      },
+      {
+        question: {
+          en: "What is retrieval-augmented generation (RAG)?",
+          es: "¿Qué es la generación aumentada por recuperación (RAG)?",
+          de: "Was ist Retrieval-Augmented Generation (RAG)?",
+          nl: "Wat is retrieval-augmented generation (RAG)?"
+        },
+        options: [
+          { en: "Combining language models with external knowledge retrieval to ground responses in factual information", es: "Combinar modelos de lenguaje con recuperación de conocimiento externo para fundamentar respuestas en información factual", de: "Sprachmodelle mit externem Wissensabruf kombinieren um Antworten in faktischen Informationen zu verankern", nl: "Taalmodellen combineren met externe kennisopvraging om reacties te verankeren in feitelijke informatie" },
+          { en: "Generating random augmented data", es: "Generar datos aumentados aleatorios", de: "Zufällige augmentierte Daten generieren", nl: "Willekeurige versterkte gegevens genereren" },
+          { en: "Retrieving pre-written responses", es: "Recuperar respuestas pre-escritas", de: "Vorgeschriebene Antworten abrufen", nl: "Voorgeschreven reacties ophalen" },
+          { en: "Augmenting training data with retrieval", es: "Aumentar datos de entrenamiento con recuperación", de: "Trainingsdaten mit Abruf augmentieren", nl: "Trainingsgegevens versterken met opvraging" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "RAG enhances language models by retrieving relevant documents from a knowledge base before generation. The model uses retrieved context to generate more accurate, up-to-date responses grounded in specific information, reducing hallucinations and enabling access to knowledge beyond the training data.",
+          es: "RAG mejora modelos de lenguaje recuperando documentos relevantes de una base de conocimiento antes de generación. El modelo usa contexto recuperado para generar respuestas más precisas y actualizadas fundamentadas en información específica, reduciendo alucinaciones y permitiendo acceso a conocimiento más allá de los datos de entrenamiento.",
+          de: "RAG verbessert Sprachmodelle durch Abruf relevanter Dokumente aus einer Wissensbasis vor Generierung. Das Modell verwendet abgerufenen Kontext um genauere, aktuellere Antworten zu generieren die in spezifischen Informationen verankert sind, reduziert Halluzinationen und ermöglicht Zugriff auf Wissen jenseits der Trainingsdaten.",
+          nl: "RAG verbetert taalmodellen door relevante documenten op te halen uit een kennisbasis vóór generatie. Het model gebruikt opgehaalde context om nauwkeuriger, actueler reacties te genereren verankerd in specifieke informatie, vermindert hallucinaties en maakt toegang mogelijk tot kennis buiten de trainingsgegevens."
+        }
+      },
+      {
+        question: {
+          en: "What are sparse attention mechanisms?",
+          es: "¿Qué son los mecanismos de atención dispersa?",
+          de: "Was sind Sparse Attention Mechanismen?",
+          nl: "Wat zijn sparse aandachtsmechanismen?"
+        },
+        options: [
+          { en: "Attention patterns that compute relationships only between selected token pairs, reducing O(n²) complexity for long sequences", es: "Patrones de atención que calculan relaciones solo entre pares de tokens seleccionados, reduciendo complejidad O(n²) para secuencias largas", de: "Aufmerksamkeitsmuster die Beziehungen nur zwischen ausgewählten Token-Paaren berechnen, reduziert O(n²) Komplexität für lange Sequenzen", nl: "Aandachtpatronen die relaties alleen berekenen tussen geselecteerde tokenparen, vermindert O(n²) complexiteit voor lange sequenties" },
+          { en: "Attention with very few parameters", es: "Atención con muy pocos parámetros", de: "Aufmerksamkeit mit sehr wenigen Parametern", nl: "Aandacht met zeer weinig parameters" },
+          { en: "Attention that rarely fires", es: "Atención que raramente se activa", de: "Aufmerksamkeit die selten feuert", nl: "Aandacht die zelden activeert" },
+          { en: "Removing attention layers", es: "Eliminar capas de atención", de: "Aufmerksamkeitsschichten entfernen", nl: "Aandachtlagen verwijderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sparse attention reduces computational cost by having tokens attend to only a subset of other tokens (e.g., local windows, strided patterns, global tokens). This enables processing longer sequences efficiently. Examples include Longformer's sliding window attention and BigBird's random+window+global attention pattern.",
+          es: "La atención dispersa reduce costo computacional haciendo que tokens atiendan solo a un subconjunto de otros tokens (ej., ventanas locales, patrones con zancadas, tokens globales). Esto permite procesar secuencias más largas eficientemente. Los ejemplos incluyen atención de ventana deslizante de Longformer y patrón de atención aleatorio+ventana+global de BigBird.",
+          de: "Sparse Attention reduziert Rechenkosten indem Tokens nur auf eine Teilmenge anderer Tokens achten (z.B. lokale Fenster, Stride-Muster, globale Tokens). Dies ermöglicht effiziente Verarbeitung längerer Sequenzen. Beispiele sind Longformers Sliding-Window-Attention und BigBirds Random+Window+Global Attention Muster.",
+          nl: "Sparse aandacht vermindert rekenkosten door tokens alleen te laten letten op een subset van andere tokens (bijv. lokale vensters, gestrikte patronen, globale tokens). Dit maakt efficiënte verwerking van langere sequenties mogelijk. Voorbeelden zijn Longformer's sliding window aandacht en BigBird's random+window+global aandachtpatroon."
+        }
+      },
+      {
+        question: {
+          en: "What is constitutional AI?",
+          es: "¿Qué es la IA constitucional?",
+          de: "Was ist Constitutional AI?",
+          nl: "Wat is constitutional AI?"
+        },
+        options: [
+          { en: "Training AI systems to follow a set of principles through self-critique and revision using constitutional guidelines", es: "Entrenar sistemas de IA para seguir un conjunto de principios a través de autocrítica y revisión usando pautas constitucionales", de: "KI-Systeme trainieren um einem Satz von Prinzipien zu folgen durch Selbstkritik und Revision mit konstitutionellen Richtlinien", nl: "AI-systemen trainen om een set principes te volgen via zelfkritiek en revisie met behulp van constitutionele richtlijnen" },
+          { en: "AI for government and legal systems", es: "IA para sistemas gubernamentales y legales", de: "KI für Regierungs- und Rechtssysteme", nl: "AI voor overheids- en rechtssystemen" },
+          { en: "Building AI based on constitutional laws", es: "Construir IA basada en leyes constitucionales", de: "KI basierend auf Verfassungsgesetzen bauen", nl: "AI bouwen gebaseerd op constitutionele wetten" },
+          { en: "AI with fixed unchangeable rules", es: "IA con reglas fijas inmutables", de: "KI mit festen unveränderlichen Regeln", nl: "AI met vaste onveranderlijke regels" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Constitutional AI (developed by Anthropic) trains models to be helpful, harmless, and honest by having them critique and revise their own outputs against a constitution of principles, without relying on human feedback for every iteration. This enables more scalable alignment.",
+          es: "La IA constitucional (desarrollada por Anthropic) entrena modelos para ser útiles, inofensivos y honestos haciendo que critiquen y revisen sus propias salidas contra una constitución de principios, sin depender de retroalimentación humana para cada iteración. Esto permite alineación más escalable.",
+          de: "Constitutional AI (entwickelt von Anthropic) trainiert Modelle hilfreich, harmlos und ehrlich zu sein indem sie ihre eigenen Ausgaben gegen eine Verfassung von Prinzipien kritisieren und revidieren, ohne auf menschliches Feedback für jede Iteration angewiesen zu sein. Dies ermöglicht skalierbarere Ausrichtung.",
+          nl: "Constitutional AI (ontwikkeld door Anthropic) traint modellen om behulpzaam, onschadelijk en eerlijk te zijn door ze hun eigen outputs te laten bekritiseren en herzien tegen een constitutie van principes, zonder te vertrouwen op menselijke feedback voor elke iteratie. Dit maakt meer schaalbare alignment mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What is RLHF (Reinforcement Learning from Human Feedback)?",
+          es: "¿Qué es RLHF (Aprendizaje por Refuerzo desde Retroalimentación Humana)?",
+          de: "Was ist RLHF (Reinforcement Learning from Human Feedback)?",
+          nl: "Wat is RLHF (Reinforcement Learning from Human Feedback)?"
+        },
+        options: [
+          { en: "Training language models using human preferences to align outputs with human values and expectations", es: "Entrenar modelos de lenguaje usando preferencias humanas para alinear salidas con valores y expectativas humanas", de: "Sprachmodelle trainieren unter Verwendung menschlicher Präferenzen um Ausgaben mit menschlichen Werten und Erwartungen auszurichten", nl: "Taalmodellen trainen met behulp van menselijke voorkeuren om outputs af te stemmen op menselijke waarden en verwachtingen" },
+          { en: "Reinforcing model weights with human annotations", es: "Reforzar pesos del modelo con anotaciones humanas", de: "Modellgewichte mit menschlichen Annotationen verstärken", nl: "Modelgewichten versterken met menselijke annotaties" },
+          { en: "Learning from human feedback during deployment", es: "Aprender de retroalimentación humana durante despliegue", de: "Aus menschlichem Feedback während Bereitstellung lernen", nl: "Leren van menselijke feedback tijdens inzet" },
+          { en: "Having humans reinforce correct responses", es: "Hacer que humanos refuercen respuestas correctas", de: "Menschen korrekte Antworten verstärken lassen", nl: "Mensen correcte reacties laten versterken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "RLHF fine-tunes language models using reinforcement learning guided by human feedback. First, a reward model is trained on human preference comparisons. Then, the language model is optimized using this reward model via PPO or similar algorithms. This process makes models more helpful, harmless, and aligned with human intentions, as used in ChatGPT and Claude.",
+          es: "RLHF ajusta fino modelos de lenguaje usando aprendizaje por refuerzo guiado por retroalimentación humana. Primero, un modelo de recompensa se entrena en comparaciones de preferencias humanas. Luego, el modelo de lenguaje se optimiza usando este modelo de recompensa vía PPO o algoritmos similares. Este proceso hace modelos más útiles, inofensivos y alineados con intenciones humanas, como se usa en ChatGPT y Claude.",
+          de: "RLHF feinabstimmt Sprachmodelle mit Reinforcement Learning geleitet durch menschliches Feedback. Zuerst wird ein Belohnungsmodell auf menschlichen Präferenzvergleichen trainiert. Dann wird das Sprachmodell mit diesem Belohnungsmodell via PPO oder ähnlichen Algorithmen optimiert. Dieser Prozess macht Modelle hilfreicher, harmloser und mit menschlichen Absichten ausgerichtet, wie in ChatGPT und Claude verwendet.",
+          nl: "RLHF fine-tuned taalmodellen met behulp van reinforcement learning geleid door menselijke feedback. Eerst wordt een beloningsmodel getraind op menselijke voorkeursvergelijkingen. Vervolgens wordt het taalmodel geoptimaliseerd met dit beloningsmodel via PPO of vergelijkbare algoritmen. Dit proces maakt modellen nuttiger, onschadelijker en afgestemd op menselijke intenties, zoals gebruikt in ChatGPT en Claude."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between encoder and decoder in Transformer architecture?",
+          es: "¿Cuál es la diferencia entre codificador y decodificador en arquitectura Transformer?",
+          de: "Was ist der Unterschied zwischen Encoder und Decoder in Transformer-Architektur?",
+          nl: "Wat is het verschil tussen encoder en decoder in Transformer-architectuur?"
+        },
+        options: [
+          { en: "Encoder uses bidirectional self-attention for understanding, decoder uses causal self-attention plus cross-attention for generation", es: "Codificador usa auto-atención bidireccional para comprensión, decodificador usa auto-atención causal más atención cruzada para generación", de: "Encoder verwendet bidirektionale Selbstaufmerksamkeit für Verstehen, Decoder verwendet kausale Selbstaufmerksamkeit plus Cross-Attention für Generierung", nl: "Encoder gebruikt bidirectionele zelf-aandacht voor begrip, decoder gebruikt causale zelf-aandacht plus cross-attention voor generatie" },
+          { en: "Encoder is for training, decoder is for inference", es: "Codificador es para entrenamiento, decodificador es para inferencia", de: "Encoder ist für Training, Decoder ist für Inferenz", nl: "Encoder is voor training, decoder is voor inferentie" },
+          { en: "Encoder is smaller than decoder", es: "Codificador es más pequeño que decodificador", de: "Encoder ist kleiner als Decoder", nl: "Encoder is kleiner dan decoder" },
+          { en: "They have identical architectures", es: "Tienen arquitecturas idénticas", de: "Sie haben identische Architekturen", nl: "Ze hebben identieke architecturen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In the original Transformer: the encoder processes input with bidirectional self-attention (can attend to all positions). The decoder generates output autoregressively with masked self-attention (causal, can't see future) and cross-attention to encoder outputs. Modern models may use encoder-only (BERT), decoder-only (GPT), or both (T5).",
+          es: "En el Transformer original: el codificador procesa entrada con auto-atención bidireccional (puede atender todas las posiciones). El decodificador genera salida autoregresivamente con auto-atención enmascarada (causal, no puede ver futuro) y atención cruzada a salidas del codificador. Modelos modernos pueden usar solo-codificador (BERT), solo-decodificador (GPT), o ambos (T5).",
+          de: "Im ursprünglichen Transformer: der Encoder verarbeitet Eingabe mit bidirektionaler Selbstaufmerksamkeit (kann auf alle Positionen achten). Der Decoder generiert Ausgabe autoregressiv mit maskierter Selbstaufmerksamkeit (kausal, kann Zukunft nicht sehen) und Cross-Attention zu Encoder-Ausgaben. Moderne Modelle können Encoder-only (BERT), Decoder-only (GPT) oder beides (T5) verwenden.",
+          nl: "In de originele Transformer: de encoder verwerkt invoer met bidirectionele zelf-aandacht (kan naar alle posities kijken). De decoder genereert uitvoer autoregressief met gemaskeerde zelf-aandacht (causaal, kan toekomst niet zien) en cross-attention naar encoder outputs. Moderne modellen kunnen encoder-only (BERT), decoder-only (GPT), of beide (T5) gebruiken."
+        }
+      },
+      {
+        question: {
+          en: "What is parameter-efficient fine-tuning (PEFT)?",
+          es: "¿Qué es el ajuste fino eficiente en parámetros (PEFT)?",
+          de: "Was ist Parameter-Efficient Fine-Tuning (PEFT)?",
+          nl: "Wat is parameter-efficient fine-tuning (PEFT)?"
+        },
+        options: [
+          { en: "Fine-tuning methods that update only a small subset of parameters, reducing memory and computation requirements", es: "Métodos de ajuste fino que actualizan solo un pequeño subconjunto de parámetros, reduciendo requisitos de memoria y computación", de: "Fine-Tuning-Methoden die nur eine kleine Teilmenge von Parametern aktualisieren, reduziert Speicher- und Rechenanforderungen", nl: "Fine-tuning methoden die alleen een kleine subset van parameters bijwerken, vermindert geheugen- en rekenvereisten" },
+          { en: "Fine-tuning with fewer training examples", es: "Ajuste fino con menos ejemplos de entrenamiento", de: "Fine-Tuning mit weniger Trainingsbeispielen", nl: "Fine-tuning met minder trainingsvoorbeelden" },
+          { en: "Fine-tuning faster than normal", es: "Ajuste fino más rápido que normal", de: "Schnelleres Fine-Tuning als normal", nl: "Fine-tuning sneller dan normaal" },
+          { en: "Reducing the number of model layers", es: "Reducir el número de capas del modelo", de: "Anzahl der Modellschichten reduzieren", nl: "Het aantal modellagen verminderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "PEFT techniques like LoRA, adapters, and prefix tuning update only a small fraction of parameters while keeping most frozen. This enables fine-tuning large models with much less memory and compute, making it feasible to adapt billion-parameter models on consumer hardware.",
+          es: "Técnicas PEFT como LoRA, adaptadores y ajuste de prefijo actualizan solo una pequeña fracción de parámetros mientras mantienen la mayoría congelados. Esto permite ajustar fino modelos grandes con mucha menos memoria y computación, haciendo factible adaptar modelos de miles de millones de parámetros en hardware de consumidor.",
+          de: "PEFT-Techniken wie LoRA, Adapter und Prefix Tuning aktualisieren nur einen kleinen Bruchteil von Parametern während die meisten eingefroren bleiben. Dies ermöglicht Fine-Tuning großer Modelle mit viel weniger Speicher und Rechnen, macht es machbar Milliarden-Parameter-Modelle auf Consumer-Hardware anzupassen.",
+          nl: "PEFT-technieken zoals LoRA, adapters en prefix tuning werken alleen een kleine fractie van parameters bij terwijl de meeste bevroren blijven. Dit maakt fine-tuning van grote modellen mogelijk met veel minder geheugen en rekenkracht, maakt het haalbaar om miljarden-parameter modellen aan te passen op consumerhardware."
+        }
+      },
+      {
+        question: {
+          en: "What is LoRA (Low-Rank Adaptation)?",
+          es: "¿Qué es LoRA (Adaptación de Rango Bajo)?",
+          de: "Was ist LoRA (Low-Rank Adaptation)?",
+          nl: "Wat is LoRA (Low-Rank Adaptation)?"
+        },
+        options: [
+          { en: "A PEFT method that adds trainable low-rank matrices to model layers, updating far fewer parameters than full fine-tuning", es: "Un método PEFT que añade matrices de rango bajo entrenables a capas del modelo, actualizando muchos menos parámetros que ajuste fino completo", de: "Eine PEFT-Methode die trainierbare Low-Rank-Matrizen zu Modellschichten hinzufügt, aktualisiert weit weniger Parameter als volles Fine-Tuning", nl: "Een PEFT-methode die trainbare low-rank matrices toevoegt aan modellagen, werkt veel minder parameters bij dan volledige fine-tuning" },
+          { en: "A long-range attention mechanism", es: "Un mecanismo de atención de largo alcance", de: "Ein Langstrecken-Aufmerksamkeitsmechanismus", nl: "Een langeafstands aandachtsmechanisme" },
+          { en: "A model compression technique", es: "Una técnica de compresión de modelos", de: "Eine Modellkomprimierungstechnik", nl: "Een modelcompressietechniek" },
+          { en: "A new optimizer algorithm", es: "Un nuevo algoritmo optimizador", de: "Ein neuer Optimierer-Algorithmus", nl: "Een nieuw optimalisatie-algoritme" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "LoRA freezes pre-trained weights and injects trainable rank decomposition matrices into each layer. For a weight matrix W, instead of updating W directly, LoRA trains low-rank matrices A and B where ΔW = AB. This reduces trainable parameters by 10,000x or more while maintaining performance, enabling efficient adaptation of large models.",
+          es: "LoRA congela pesos pre-entrenados e inyecta matrices de descomposición de rango entrenables en cada capa. Para una matriz de pesos W, en lugar de actualizar W directamente, LoRA entrena matrices de rango bajo A y B donde ΔW = AB. Esto reduce parámetros entrenables en 10,000x o más mientras mantiene rendimiento, permitiendo adaptación eficiente de modelos grandes.",
+          de: "LoRA friert vortrainierte Gewichte ein und fügt trainierbare Rang-Zerlegungsmatrizen in jede Schicht ein. Für eine Gewichtsmatrix W, statt W direkt zu aktualisieren, trainiert LoRA Low-Rank-Matrizen A und B wo ΔW = AB. Dies reduziert trainierbare Parameter um 10,000x oder mehr während Leistung beibehalten wird, ermöglicht effiziente Anpassung großer Modelle.",
+          nl: "LoRA bevriest voorgetrainde gewichten en injecteert trainbare rank decompositiematrices in elke laag. Voor een gewichtsmatrix W, in plaats van W direct bij te werken, traint LoRA low-rank matrices A en B waarbij ΔW = AB. Dit vermindert trainbare parameters met 10,000x of meer terwijl prestaties behouden blijven, maakt efficiënte aanpassing van grote modellen mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of [MASK] token in BERT pre-training?",
+          es: "¿Cuál es el propósito del token [MASK] en pre-entrenamiento de BERT?",
+          de: "Was ist der Zweck des [MASK]-Tokens im BERT-Vortraining?",
+          nl: "Wat is het doel van het [MASK]-token in BERT pre-training?"
+        },
+        options: [
+          { en: "Replacing tokens to be predicted during masked language modeling, forcing the model to learn bidirectional context", es: "Reemplazar tokens a predecir durante modelado de lenguaje enmascarado, forzando al modelo a aprender contexto bidireccional", de: "Tokens ersetzen die während maskierter Sprachmodellierung vorhergesagt werden sollen, zwingt das Modell bidirektionalen Kontext zu lernen", nl: "Tokens vervangen die voorspeld moeten worden tijdens gemaskeerde taalmodellering, dwingt het model bidirectionele context te leren" },
+          { en: "Hiding sensitive information in text", es: "Ocultar información sensible en texto", de: "Sensible Informationen in Text verbergen", nl: "Gevoelige informatie in tekst verbergen" },
+          { en: "Indicating sentence boundaries", es: "Indicar límites de oraciones", de: "Satzgrenzen anzeigen", nl: "Zingrenzen aangeven" },
+          { en: "Preventing overfitting", es: "Prevenir sobreajuste", de: "Überanpassung verhindern", nl: "Overfitting voorkomen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "During BERT pre-training, 15% of tokens are selected for masking. Of these, 80% are replaced with [MASK], 10% with random tokens, and 10% unchanged. The model must predict the original tokens using bidirectional context, learning rich language representations without the limitation of unidirectional models.",
+          es: "Durante pre-entrenamiento de BERT, 15% de tokens se seleccionan para enmascarar. De estos, 80% se reemplazan con [MASK], 10% con tokens aleatorios, y 10% sin cambios. El modelo debe predecir los tokens originales usando contexto bidireccional, aprendiendo representaciones ricas de lenguaje sin la limitación de modelos unidireccionales.",
+          de: "Während BERT-Vortraining werden 15% der Tokens zum Maskieren ausgewählt. Von diesen werden 80% mit [MASK] ersetzt, 10% mit zufälligen Tokens und 10% unverändert. Das Modell muss die ursprünglichen Tokens mit bidirektionalem Kontext vorhersagen, lernt reiche Sprachrepräsentationen ohne Einschränkung unidirektionaler Modelle.",
+          nl: "Tijdens BERT pre-training worden 15% van tokens geselecteerd voor maskering. Hiervan worden 80% vervangen door [MASK], 10% door willekeurige tokens, en 10% onveranderd. Het model moet de originele tokens voorspellen met bidirectionele context, leert rijke taalrepresentaties zonder de beperking van unidirectionele modellen."
+        }
+      },
+      {
+        question: {
+          en: "What is model hallucination in language models?",
+          es: "¿Qué es la alucinación de modelos en modelos de lenguaje?",
+          de: "Was ist Modellhalluzination in Sprachmodellen?",
+          nl: "Wat is modelhallucinatie in taalmodellen?"
+        },
+        options: [
+          { en: "Generating plausible-sounding but factually incorrect or nonsensical information", es: "Generar información que suena plausible pero factualmente incorrecta o sin sentido", de: "Plausibel klingende aber faktisch falsche oder unsinnige Informationen generieren", nl: "Plausibel klinkende maar feitelijk onjuiste of zinloze informatie genereren" },
+          { en: "Visualizing model internals", es: "Visualizar internos del modelo", de: "Modell-Interna visualisieren", nl: "Model-interna visualiseren" },
+          { en: "Model dreaming during training", es: "Modelo soñando durante entrenamiento", de: "Modell träumt während Training", nl: "Model droomt tijdens training" },
+          { en: "Generating creative fictional content", es: "Generar contenido ficticio creativo", de: "Kreative fiktionale Inhalte generieren", nl: "Creatieve fictieve inhoud genereren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hallucination occurs when language models confidently generate false information that sounds plausible. This happens because models are trained to produce fluent text, not to verify facts. Mitigation strategies include RAG, citation mechanisms, RLHF for honesty, and explicit uncertainty modeling.",
+          es: "La alucinación ocurre cuando modelos de lenguaje generan confiadamente información falsa que suena plausible. Esto sucede porque los modelos se entrenan para producir texto fluido, no para verificar hechos. Las estrategias de mitigación incluyen RAG, mecanismos de citación, RLHF para honestidad y modelado explícito de incertidumbre.",
+          de: "Halluzination tritt auf wenn Sprachmodelle selbstsicher falsche Informationen generieren die plausibel klingen. Dies geschieht weil Modelle trainiert werden fließenden Text zu produzieren, nicht Fakten zu verifizieren. Mitigationsstrategien umfassen RAG, Zitationsmechanismen, RLHF für Ehrlichkeit und explizites Unsicherheitsmodellieren.",
+          nl: "Hallucinatie treedt op wanneer taalmodellen zelfverzekerd valse informatie genereren die plausibel klinkt. Dit gebeurt omdat modellen getraind worden om vloeiende tekst te produceren, niet om feiten te verifiëren. Mitigatiestrategieën omvatten RAG, citatiemechanismen, RLHF voor eerlijkheid en expliciete onzekerheidsmodellering."
+        }
+      },
+      {
+        question: {
+          en: "What is the role of the Adam optimizer in Transformer training?",
+          es: "¿Cuál es el papel del optimizador Adam en entrenamiento de Transformer?",
+          de: "Was ist die Rolle des Adam-Optimizers im Transformer-Training?",
+          nl: "Wat is de rol van de Adam-optimizer in Transformer-training?"
+        },
+        options: [
+          { en: "Adapting learning rates for each parameter using momentum and second-moment estimates for efficient optimization", es: "Adaptar tasas de aprendizaje para cada parámetro usando estimaciones de momento y segundo momento para optimización eficiente", de: "Lernraten für jeden Parameter anpassen unter Verwendung von Momentum und Zweitmoment-Schätzungen für effiziente Optimierung", nl: "Leersnelheden aanpassen voor elke parameter met behulp van momentum en tweede-moment schattingen voor efficiënte optimalisatie" },
+          { en: "Adding dropout during training", es: "Añadir dropout durante entrenamiento", de: "Dropout während Training hinzufügen", nl: "Dropout toevoegen tijdens training" },
+          { en: "Initializing model weights", es: "Inicializar pesos del modelo", de: "Modellgewichte initialisieren", nl: "Modelgewichten initialiseren" },
+          { en: "Preventing gradient explosion", es: "Prevenir explosión de gradientes", de: "Gradientenexplosion verhindern", nl: "Gradiëntexplosie voorkomen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Adam (Adaptive Moment Estimation) is the standard optimizer for training Transformers. It computes adaptive learning rates for each parameter using running averages of gradients (first moment) and squared gradients (second moment). This provides stable, efficient training for deep networks with millions/billions of parameters.",
+          es: "Adam (Estimación de Momento Adaptativo) es el optimizador estándar para entrenar Transformadores. Calcula tasas de aprendizaje adaptativas para cada parámetro usando promedios corrientes de gradientes (primer momento) y gradientes al cuadrado (segundo momento). Esto proporciona entrenamiento estable y eficiente para redes profundas con millones/miles de millones de parámetros.",
+          de: "Adam (Adaptive Moment Estimation) ist der Standard-Optimizer für Training von Transformern. Es berechnet adaptive Lernraten für jeden Parameter unter Verwendung laufender Durchschnitte von Gradienten (erstes Moment) und quadrierten Gradienten (zweites Moment). Dies bietet stabiles, effizientes Training für tiefe Netzwerke mit Millionen/Milliarden von Parametern.",
+          nl: "Adam (Adaptive Moment Estimation) is de standaard optimizer voor het trainen van Transformers. Het berekent adaptieve leersnelheden voor elke parameter met behulp van lopende gemiddelden van gradiënten (eerste moment) en gekwadrateerde gradiënten (tweede moment). Dit biedt stabiele, efficiënte training voor diepe netwerken met miljoenen/miljarden parameters."
+        }    },
+    {
+      question: {en: "What is strategy in games?", es: "What is strategy in games?", de: "What is strategy in games?", nl: "What is strategy in games?"},
+      options: [
+        {en: "Planning to achieve objectives", es: "Planning to achieve objectives", de: "Planning to achieve objectives", nl: "Planning to achieve objectives"},
+        {en: "Random moves", es: "Random moves", de: "Random moves", nl: "Random moves"},
+        {en: "Luck only", es: "Luck only", de: "Luck only", nl: "Luck only"},
+        {en: "No planning", es: "No planning", de: "No planning", nl: "No planning"}
+      ],
+      correct: 0,
+      explanation: {en: "Strategy involves planning and decision-making to achieve game objectives.", es: "Strategy involves planning and decision-making to achieve game objectives.", de: "Strategy involves planning and decision-making to achieve game objectives.", nl: "Strategy involves planning and decision-making to achieve game objectives."}
+
       }
     ]
   };

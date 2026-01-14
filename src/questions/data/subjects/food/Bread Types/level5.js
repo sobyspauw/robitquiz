@@ -409,23 +409,443 @@
       },
       {
         question: {
-          en: "What is the main ingredient that makes bread rise?",
-          es: "¿Cuál es el ingrediente principal que hace que el pan suba?",
-          de: "Was ist die Hauptzutat, die Brot aufgehen lässt?",
-          nl: "Wat is het hoofdingrediënt dat brood doet rijzen?"
+          en: "What is 'protease' enzyme and why do bakers sometimes avoid it?",
+          es: "¿Qué es la enzima 'proteasa' y por qué los panaderos a veces la evitan?",
+          de: "Was ist das Enzym 'Protease' und warum vermeiden es Bäcker manchmal?",
+          nl: "Wat is het enzym 'protease' en waarom vermijden bakkers het soms?"
         },
         options: [
-          { en: "Yeast", es: "Levadura", de: "Hefe", nl: "Gist" },
-          { en: "Salt", es: "Sal", de: "Salz", nl: "Zout" },
-          { en: "Sugar", es: "Azúcar", de: "Zucker", nl: "Suiker" },
-          { en: "Oil", es: "Aceite", de: "Öl", nl: "Olie" }
+          { en: "Enzyme that breaks down gluten proteins - excessive protease (from overripe sourdough, pineapple, kiwi, papaya) makes dough sticky, slack, unable to hold shape", es: "Enzima que descompone proteínas de gluten - proteasa excesiva (de masa madre sobre-madura, piña, kiwi, papaya) hace masa pegajosa, floja, incapaz de mantener forma", de: "Enzym das Glutenproteine abbaut - übermäßige Protease (von überreifem Sauerteig, Ananas, Kiwi, Papaya) macht Teig klebrig, schlaff, unfähig Form zu halten", nl: "Enzym dat glutenproteïnen afbreekt - overmatige protease (van overrijpe zuurdesem, ananas, kiwi, papaja) maakt deeg plakkerig, slap, kan vorm niet vasthouden" },
+          { en: "Enzyme that only improves bread quality in all cases", es: "Enzima que solo mejora la calidad del pan en todos los casos", de: "Enzym das nur in allen Fällen die Brotqualität verbessert", nl: "Enzym dat alleen broodkwaliteit verbetert in alle gevallen" },
+          { en: "Type of yeast used only for sweet breads", es: "Tipo de levadura usada solo para panes dulces", de: "Hefeart nur für süße Brote verwendet", nl: "Type gist alleen gebruikt voor zoete broden" },
+          { en: "Chemical additive that speeds up fermentation", es: "Aditivo químico que acelera la fermentación", de: "Chemischer Zusatzstoff der Fermentation beschleunigt", nl: "Chemische toevoeging die fermentatie versnelt" }
         ],
         correct: 0,
         explanation: {
-          en: "Yeast is a living microorganism that ferments sugars in flour, producing carbon dioxide gas that creates bubbles and makes bread rise.",
-          es: "La levadura es un microorganismo vivo que fermenta azúcares en la harina, produciendo gas dióxido de carbono que crea burbujas y hace que el pan suba.",
-          de: "Hefe ist ein lebender Mikroorganismus, der Zucker im Mehl fermentiert und Kohlendioxidgas produziert, das Blasen bildet und Brot aufgehen lässt.",
-          nl: "Gist is een levend micro-organisme dat suikers in meel fermenteert, koolstofdioxide gas produceert dat bellen creëert en brood doet rijzen."
+          en: "Protease is an enzyme that breaks down gluten proteins into smaller peptides. While small amounts help with extensibility, excessive protease (from over-fermented sourdough, tropical fruits like pineapple/kiwi, or certain malted flours) weakens gluten structure, making dough impossibly sticky and slack.",
+          es: "Proteasa es una enzima que descompone proteínas de gluten en péptidos más pequeños. Mientras que pequeñas cantidades ayudan con la extensibilidad, proteasa excesiva (de masa madre sobre-fermentada, frutas tropicales como piña/kiwi, o ciertas harinas malteadas) debilita la estructura de gluten, haciendo masa imposiblemente pegajosa y floja.",
+          de: "Protease ist ein Enzym das Glutenproteine in kleinere Peptide abbaut. Während kleine Mengen bei der Dehnbarkeit helfen, schwächt übermäßige Protease (von überfermentiertem Sauerteig, tropischen Früchten wie Ananas/Kiwi, oder bestimmten Malzmehlen) die Glutenstruktur, macht Teig unmöglich klebrig und schlaff.",
+          nl: "Protease is een enzym dat glutenproteïnen afbreekt tot kleinere peptiden. Terwijl kleine hoeveelheden helpen bij rekbaarheid, verzwakt overmatige protease (van overgefermenteerde zuurdesem, tropische vruchten zoals ananas/kiwi, of bepaalde gemout melen) de glutenstructuur, maakt deeg onmogelijk plakkerig en slap."
+        }
+      },
+      {
+        question: {
+          en: "What is 'blistering' on bread crust and how do you achieve it?",
+          es: "¿Qué es el 'ampollamiento' en la corteza del pan y cómo se logra?",
+          de: "Was ist 'Blasenbildung' auf Brotkruste und wie erreicht man sie?",
+          nl: "Wat is 'blistering' op broodkorst en hoe bereik je het?"
+        },
+        options: [
+          { en: "Beautiful bubbles/blisters on crust surface - achieved by: high hydration (75%+), cold fermentation, light dusting of flour, high-heat baking with steam in first 15 min", es: "Hermosas burbujas/ampollas en superficie de corteza - logrado por: alta hidratación (75%+), fermentación fría, ligero espolvoreado de harina, horneado a alta temperatura con vapor en primeros 15 min", de: "Schöne Blasen auf Krustenoberfläche - erreicht durch: hohe Hydratation (75%+), kalte Fermentation, leichtes Bestäuben mit Mehl, Hochtemperatur-Backen mit Dampf in ersten 15 Min", nl: "Mooie bellen/blaren op korstoppervlak - bereikt door: hoge hydratatie (75%+), koude fermentatie, lichte bestuiving met meel, hoge-temperatuur bakken met stoom in eerste 15 min" },
+          { en: "Burnt spots on bread that should be avoided at all costs", es: "Manchas quemadas en pan que deben evitarse a toda costa", de: "Verbrannte Stellen auf Brot die um jeden Preis vermieden werden sollten", nl: "Verbrande plekken op brood die ten koste van alles vermeden moeten worden" },
+          { en: "Type of scoring pattern used only for baguettes", es: "Tipo de patrón de marcado usado solo para baguettes", de: "Art von Einschnittmuster nur für Baguettes verwendet", nl: "Type scorepatroon alleen gebruikt voor stokbroden" },
+          { en: "Disease that affects bread dough during rising", es: "Enfermedad que afecta la masa de pan durante el levado", de: "Krankheit die Brotteig während des Aufgehens betrifft", nl: "Ziekte die brooddeeg beïnvloedt tijdens rijzen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Blistering refers to the gorgeous bubbles that form on artisan bread crust. It's achieved through high-hydration dough (75%+ water), cold retarding, light flour dusting (creates moisture pockets), and baking at high heat (450-500°F) with strong steam in the first 15 minutes.",
+          es: "Ampollamiento se refiere a las hermosas burbujas que se forman en la corteza del pan artesanal. Se logra a través de masa de alta hidratación (75%+ agua), retardo en frío, ligero espolvoreado de harina (crea bolsas de humedad), y horneado a alta temperatura (232-260°C) con vapor fuerte en los primeros 15 minutos.",
+          de: "Blasenbildung bezieht sich auf die wunderschönen Blasen die sich auf handwerklicher Brotkruste bilden. Es wird erreicht durch hochhydrierten Teig (75%+ Wasser), kaltes Verzögern, leichtes Mehlbestäuben (erzeugt Feuchtigkeitstaschen), und Backen bei hoher Hitze (232-260°C) mit starkem Dampf in den ersten 15 Minuten.",
+          nl: "Blistering verwijst naar de prachtige bellen die vormen op ambachtelijke broodkorst. Het wordt bereikt door hoog gehydrateerd deeg (75%+ water), koud vertragen, licht meelbestuiven (creëert vochtpockets), en bakken op hoge hitte (232-260°C) met sterke stoom in de eerste 15 minuten."
+        }
+      },
+      {
+        question: {
+          en: "What is 'lamination' in sourdough (not croissants)?",
+          es: "¿Qué es 'laminación' en masa madre (no croissants)?",
+          de: "Was ist 'Laminierung' im Sauerteig (nicht Croissants)?",
+          nl: "Wat is 'laminatie' in zuurdesem (niet croissants)?"
+        },
+        options: [
+          { en: "Stretching wet dough paper-thin on counter, optionally adding inclusions (seeds, herbs, cheese), then folding into layers - builds strength, incorporates ingredients evenly without mixing", es: "Estirar masa húmeda muy delgada sobre mostrador, opcionalmente añadiendo inclusiones (semillas, hierbas, queso), luego doblar en capas - desarrolla fuerza, incorpora ingredientes uniformemente sin mezclar", de: "Nassen Teig papierdünn auf Arbeitsfläche dehnen, optional Zugaben hinzufügen (Samen, Kräuter, Käse), dann in Schichten falten - baut Stärke auf, integriert Zutaten gleichmäßig ohne Mischen", nl: "Nat deeg papierdun uitrekken op aanrecht, optioneel toevoegingen toevoegen (zaden, kruiden, kaas), dan vouwen in lagen - bouwt kracht op, integreert ingrediënten gelijkmatig zonder mengen" },
+          { en: "Adding butter between layers like croissants", es: "Añadir mantequilla entre capas como croissants", de: "Butter zwischen Schichten hinzufügen wie Croissants", nl: "Boter toevoegen tussen lagen zoals croissants" },
+          { en: "Baking bread in a laminating machine", es: "Hornear pan en una máquina laminadora", de: "Brot in einer Laminiermaschine backen", nl: "Brood bakken in een lamineer machine" },
+          { en: "Coating bread with plastic wrap before proofing", es: "Cubrir pan con envoltura plástica antes de fermentar", de: "Brot vor dem Gehen mit Plastikfolie überziehen", nl: "Brood bedekken met plastic voor rijzen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Lamination in sourdough is a gentle dough strengthening technique where you stretch very wet dough into a thin sheet on a wet counter, optionally sprinkle inclusions (seeds, olives, cheese), then fold it back into layers like a letter. This builds gluten structure without degassing and evenly distributes add-ins.",
+          es: "Laminación en masa madre es una técnica suave de fortalecimiento de masa donde estiras masa muy húmeda en una lámina delgada sobre un mostrador mojado, opcionalmente espolvoreas inclusiones (semillas, aceitunas, queso), luego la doblas de vuelta en capas como una carta. Esto desarrolla estructura de gluten sin desgasificar y distribuye uniformemente los agregados.",
+          de: "Laminierung im Sauerteig ist eine sanfte Teigstärkungstechnik wo man sehr nassen Teig in ein dünnes Blatt auf nasser Arbeitsfläche dehnt, optional Zugaben streut (Samen, Oliven, Käse), dann zurück in Schichten wie einen Brief faltet. Dies baut Glutenstruktur auf ohne zu entgasen und verteilt Zusätze gleichmäßig.",
+          nl: "Laminatie in zuurdesem is een zachte deegversterkende techniek waarbij je zeer nat deeg uitrekt tot een dun vel op nat aanrecht, optioneel toevoegingen strooit (zaden, olijven, kaas), dan terug vouwt in lagen zoals een brief. Dit bouwt glutenstructuur op zonder te ontgassen en verdeelt toevoegingen gelijkmatig."
+        }
+      },
+      {
+        question: {
+          en: "What is 'false proof' and how can you tell?",
+          es: "¿Qué es 'falso levado' y cómo puedes saberlo?",
+          de: "Was ist 'falsche Gare' und wie erkennt man sie?",
+          nl: "Wat is 'valse rijs' en hoe kun je het herkennen?"
+        },
+        options: [
+          { en: "Dough looks risen but yeast is dead/inactive - happens from: too-hot water killing yeast, expired yeast, or too much salt. Test: dough won't pass poke test, no oven spring, dense crumb", es: "Masa parece levada pero levadura está muerta/inactiva - ocurre por: agua demasiado caliente matando levadura, levadura vencida, o demasiada sal. Prueba: masa no pasará prueba de poke, sin oven spring, miga densa", de: "Teig sieht aufgegangen aus aber Hefe ist tot/inaktiv - passiert durch: zu heißes Wasser tötet Hefe, abgelaufene Hefe, oder zu viel Salz. Test: Teig besteht Fingertest nicht, kein Ofentrieb, dichte Krume", nl: "Deeg ziet gerezen uit maar gist is dood/inactief - gebeurt door: te heet water doodt gist, verlopen gist, of te veel zout. Test: deeg slaagt poke test niet, geen oven spring, dichte kruim" },
+          { en: "When dough rises perfectly but tastes bad", es: "Cuando masa sube perfectamente pero sabe mal", de: "Wenn Teig perfekt aufgeht aber schlecht schmeckt", nl: "Wanneer deeg perfect rijst maar slecht smaakt" },
+          { en: "Technique of pretending bread is ready when it isn't", es: "Técnica de pretender que el pan está listo cuando no lo está", de: "Technik vorzutäuschen dass Brot fertig ist wenn es nicht ist", nl: "Techniek van doen alsof brood klaar is terwijl dat niet zo is" },
+          { en: "Using fake yeast instead of real yeast", es: "Usar levadura falsa en lugar de levadura real", de: "Falsche Hefe statt echter Hefe verwenden", nl: "Nep gist gebruiken in plaats van echte gist" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "False proof occurs when dough appears to rise but yeast is actually dead or inactive - caused by water over 120°F killing yeast, expired yeast, or salt added directly to yeast. The dough won't spring back from poke test, has no oven spring, and bakes dense/gummy.",
+          es: "Falso levado ocurre cuando la masa parece subir pero la levadura está en realidad muerta o inactiva - causado por agua sobre 49°C matando levadura, levadura vencida, o sal añadida directamente a levadura. La masa no rebotará de la prueba de poke, no tiene oven spring, y hornea densa/gomosa.",
+          de: "Falsche Gare tritt auf wenn Teig aufgegangen zu sein scheint aber Hefe tatsächlich tot oder inaktiv ist - verursacht durch Wasser über 49°C tötet Hefe, abgelaufene Hefe, oder Salz direkt zu Hefe hinzugefügt. Der Teig springt nicht vom Fingertest zurück, hat keinen Ofentrieb, und backt dicht/gummiartig.",
+          nl: "Valse rijs treedt op wanneer deeg gerezen lijkt maar gist eigenlijk dood of inactief is - veroorzaakt door water boven 49°C doodt gist, verlopen gist, of zout direct aan gist toegevoegd. Het deeg veert niet terug van poke test, heeft geen oven spring, en bakt dicht/gummiachtig."
+        }
+      },
+      {
+        question: {
+          en: "What is 'oxygenation' or 'aeration' in bread mixing and why does it matter?",
+          es: "¿Qué es 'oxigenación' o 'aireación' en el mezclado de pan y por qué importa?",
+          de: "Was ist 'Sauerstoffanreicherung' oder 'Belüftung' beim Brotmischen und warum ist es wichtig?",
+          nl: "Wat is 'zuurstoftoevoer' of 'beluchting' in brood mengen en waarom is het belangrijk?"
+        },
+        options: [
+          { en: "Incorporating air during mixing strengthens gluten, speeds fermentation (yeast needs O2 for reproduction), and whitens crumb. Chorleywood process relies heavily on mechanical oxygenation", es: "Incorporar aire durante el mezclado fortalece gluten, acelera fermentación (levadura necesita O2 para reproducción), y blanquea miga. Proceso Chorleywood depende mucho de oxigenación mecánica", de: "Luft während des Mischens einarbeiten stärkt Gluten, beschleunigt Fermentation (Hefe braucht O2 für Vermehrung), und hellt Krume auf. Chorleywood-Prozess basiert stark auf mechanischer Sauerstoffanreicherung", nl: "Lucht verwerken tijdens mengen versterkt gluten, versnelt fermentatie (gist heeft O2 nodig voor voortplanting), en maakt kruim witter. Chorleywood proces is sterk afhankelijk van mechanische zuurstoftoevoer" },
+          { en: "Adding hydrogen peroxide to dough to make it rise faster", es: "Añadir peróxido de hidrógeno a masa para hacerla subir más rápido", de: "Wasserstoffperoxid zum Teig hinzufügen um ihn schneller aufgehen zu lassen", nl: "Waterstofperoxide aan deeg toevoegen om het sneller te laten rijzen" },
+          { en: "Baking bread in a pressurized oxygen chamber", es: "Hornear pan en una cámara de oxígeno presurizada", de: "Brot in einer Drucksauerstoffkammer backen", nl: "Brood bakken in een drukkamer met zuurstof" },
+          { en: "Storing bread in oxygen-free containers for freshness", es: "Almacenar pan en contenedores sin oxígeno para frescura", de: "Brot in sauerstofffreien Behältern lagern für Frische", nl: "Brood bewaren in zuurstofvrije containers voor versheid" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Oxygenation (incorporating air during mixing/kneading) strengthens gluten networks, accelerates fermentation because yeast reproduces aerobically, and oxidizes carotenoid pigments to whiten crumb. Industrial processes like Chorleywood use high-speed mixing for intense mechanical oxygenation, developing dough in minutes instead of hours.",
+          es: "Oxigenación (incorporar aire durante mezclado/amasado) fortalece redes de gluten, acelera fermentación porque levadura se reproduce aeróbicamente, y oxida pigmentos carotenoides para blanquear miga. Procesos industriales como Chorleywood usan mezcla de alta velocidad para oxigenación mecánica intensa, desarrollando masa en minutos en lugar de horas.",
+          de: "Sauerstoffanreicherung (Luft während Mischen/Kneten einarbeiten) stärkt Glutennetzwerke, beschleunigt Fermentation weil Hefe sich aerob vermehrt, und oxidiert Carotinoid-Pigmente um Krume aufzuhellen. Industrielle Prozesse wie Chorleywood verwenden Hochgeschwindigkeitsmischen für intensive mechanische Sauerstoffanreicherung, entwickeln Teig in Minuten statt Stunden.",
+          nl: "Zuurstoftoevoer (lucht verwerken tijdens mengen/kneden) versterkt glutennetwerken, versnelt fermentatie omdat gist zich aëroob voortplant, en oxideert carotenoïde pigmenten om kruim te witten. Industriële processen zoals Chorleywood gebruiken hoge-snelheid mengen voor intense mechanische zuurstoftoevoer, ontwikkelen deeg in minuten in plaats van uren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'crumb tightness' and what controls it?",
+          es: "¿Qué es 'densidad de miga' y qué la controla?",
+          de: "Was ist 'Krumendichte' und was kontrolliert sie?",
+          nl: "Wat is 'kruimdichtheid' en wat regelt het?"
+        },
+        options: [
+          { en: "Hole size/distribution in bread's interior - controlled by: hydration (higher=more open), degassing (more=tighter), flour protein (higher=more structure for holes), fermentation time, shaping technique", es: "Tamaño/distribución de agujeros en interior de pan - controlado por: hidratación (mayor=más abierta), desgasificación (más=más apretada), proteína de harina (mayor=más estructura para agujeros), tiempo de fermentación, técnica de formado", de: "Lochgröße/-verteilung im Brotinneren - kontrolliert durch: Hydratation (höher=offener), Entgasen (mehr=dichter), Mehlprotein (höher=mehr Struktur für Löcher), Fermentationszeit, Formtechnik", nl: "Gatgrootte/-verdeling in brood binnenste - geregeld door: hydratatie (hoger=opener), ontgassen (meer=dichter), meelproteïne (hoger=meer structuur voor gaten), fermentatietijd, vormtechniek" },
+          { en: "How hard you squeeze the bread when testing doneness", es: "Qué tan fuerte aprietas el pan al probar cocción", de: "Wie fest man Brot drückt beim Testen der Gare", nl: "Hoe hard je brood knijpt bij het testen van gaarheid" },
+          { en: "Tension in dough surface before baking", es: "Tensión en superficie de masa antes de hornear", de: "Spannung in Teigoberfläche vor dem Backen", nl: "Spanning in deegoppervlak voor bakken" },
+          { en: "How tightly bread is wrapped for storage", es: "Qué tan apretado se envuelve el pan para almacenar", de: "Wie fest Brot für Lagerung eingewickelt wird", nl: "Hoe strak brood is ingepakt voor opslag" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Crumb tightness refers to hole size and distribution in bread's interior - from 'tight' (sandwich bread with tiny uniform holes) to 'open' (ciabatta with large irregular holes). Controlled by hydration level, degassing amount, flour protein content, fermentation duration, and shaping/handling technique.",
+          es: "Densidad de miga se refiere al tamaño y distribución de agujeros en el interior del pan - desde 'apretada' (pan de sándwich con pequeños agujeros uniformes) hasta 'abierta' (ciabatta con grandes agujeros irregulares). Controlada por nivel de hidratación, cantidad de desgasificación, contenido de proteína de harina, duración de fermentación, y técnica de formado/manejo.",
+          de: "Krumendichte bezieht sich auf Lochgröße und -verteilung im Brotinneren - von 'dicht' (Sandwichbrot mit winzigen gleichmäßigen Löchern) bis 'offen' (Ciabatta mit großen unregelmäßigen Löchern). Kontrolliert durch Hydratationsgrad, Entgasungsmenge, Mehlproteingehalt, Fermentationsdauer, und Form-/Handhabungstechnik.",
+          nl: "Kruimdichtheid verwijst naar gatgrootte en -verdeling in brood binnenste - van 'dicht' (sandwichbrood met kleine uniforme gaten) tot 'open' (ciabatta met grote onregelmatige gaten). Geregeld door hydratieniveau, ontgassingshoeveelheid, meelproteïnegehalte, fermentatieduur, en vorm-/behandelingstechniek."
+        }
+      },
+      {
+        question: {
+          en: "What is 'lipase' enzyme and its effect on bread dough?",
+          es: "¿Qué es la enzima 'lipasa' y su efecto en la masa de pan?",
+          de: "Was ist das Enzym 'Lipase' und seine Wirkung auf Brotteig?",
+          nl: "Wat is het enzym 'lipase' en zijn effect op brooddeeg?"
+        },
+        options: [
+          { en: "Enzyme that breaks down fats/lipids - can weaken gluten structure if too active (in whole grain/fresh-milled flour). Also develops flavor in aged cheese-breads and some Italian breads", es: "Enzima que descompone grasas/lípidos - puede debilitar estructura de gluten si demasiado activa (en harina integral/recién molida). También desarrolla sabor en panes añejados con queso y algunos panes italianos", de: "Enzym das Fette/Lipide abbaut - kann Glutenstruktur schwächen wenn zu aktiv (in Vollkorn-/frischgemahlenen Mehl). Entwickelt auch Geschmack in gereiften Käsebroten und einigen italienischen Broten", nl: "Enzym dat vetten/lipiden afbreekt - kan glutenstructuur verzwakken als te actief (in volkoren/vers gemalen meel). Ontwikkelt ook smaak in gerijpte kaasbroden en sommige Italiaanse broden" },
+          { en: "Enzyme that only improves bread texture in all cases", es: "Enzima que solo mejora la textura del pan en todos los casos", de: "Enzym das nur in allen Fällen Brottextur verbessert", nl: "Enzym dat alleen broodtextuur verbetert in alle gevallen" },
+          { en: "Chemical added to make bread rise faster", es: "Químico añadido para hacer pan subir más rápido", de: "Chemikalie hinzugefügt um Brot schneller aufgehen zu lassen", nl: "Chemische stof toegevoegd om brood sneller te laten rijzen" },
+          { en: "Type of fat used only in French bread", es: "Tipo de grasa usada solo en pan francés", de: "Fettart nur in französischem Brot verwendet", nl: "Type vet alleen gebruikt in Frans brood" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Lipase is an enzyme that breaks down fats and lipids. In freshly-milled whole grain flours, excessive lipase activity can damage gluten structure by releasing free fatty acids that interfere with protein bonds. However, controlled lipase activity contributes to flavor development in some traditional Italian breads and cheese-enriched doughs.",
+          es: "Lipasa es una enzima que descompone grasas y lípidos. En harinas integrales recién molidas, actividad excesiva de lipasa puede dañar estructura de gluten liberando ácidos grasos libres que interfieren con enlaces de proteína. Sin embargo, actividad controlada de lipasa contribuye al desarrollo de sabor en algunos panes italianos tradicionales y masas enriquecidas con queso.",
+          de: "Lipase ist ein Enzym das Fette und Lipide abbaut. In frischgemahlenen Vollkornmehlen kann übermäßige Lipaseaktivität die Glutenstruktur schädigen durch Freisetzung freier Fettsäuren die Proteinbindungen stören. Kontrollierte Lipaseaktivität trägt jedoch zur Geschmacksentwicklung in einigen traditionellen italienischen Broten und käseangereicherten Teigen bei.",
+          nl: "Lipase is een enzym dat vetten en lipiden afbreekt. In vers gemalen volkoren melen kan overmatige lipase activiteit glutenstructuur beschadigen door vrije vetzuren vrij te geven die eiwitbindingen verstoren. Gecontroleerde lipase activiteit draagt echter bij aan smaakontwikkeling in sommige traditionele Italiaanse broden en kaasverrijkte degen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'diastatic malt powder' vs 'non-diastatic malt'?",
+          es: "¿Qué es 'polvo de malta diastático' vs 'malta no diastática'?",
+          de: "Was ist 'diastatisches Malzpulver' vs 'nicht-diastatisches Malz'?",
+          nl: "Wat is 'diastatisch moutpoeder' vs 'niet-diastatisch mout'?"
+        },
+        options: [
+          { en: "Diastatic: contains active enzymes (amylase) that break starches into sugars - improves fermentation, crust color, oven spring. Non-diastatic: enzymes destroyed by heat, adds flavor/color only", es: "Diastático: contiene enzimas activas (amilasa) que descomponen almidones en azúcares - mejora fermentación, color de corteza, oven spring. No diastático: enzimas destruidas por calor, añade solo sabor/color", de: "Diastatisch: enthält aktive Enzyme (Amylase) die Stärken in Zucker abbauen - verbessert Fermentation, Krustenfarbe, Ofentrieb. Nicht-diastatisch: Enzyme durch Hitze zerstört, fügt nur Geschmack/Farbe hinzu", nl: "Diastatisch: bevat actieve enzymen (amylase) die zetmelen afbreken tot suikers - verbetert fermentatie, korstkleur, oven spring. Niet-diastatisch: enzymen vernietigd door hitte, voegt alleen smaak/kleur toe" },
+          { en: "They are exactly the same product with different names", es: "Son exactamente el mismo producto con nombres diferentes", de: "Sie sind genau das gleiche Produkt mit verschiedenen Namen", nl: "Ze zijn precies hetzelfde product met verschillende namen" },
+          { en: "Diastatic is for sweet breads, non-diastatic is for savory", es: "Diastático es para panes dulces, no diastático es para salados", de: "Diastatisch ist für süße Brote, nicht-diastatisch für herzhafte", nl: "Diastatisch is voor zoete broden, niet-diastatisch voor hartige" },
+          { en: "Non-diastatic has more enzymes than diastatic", es: "No diastático tiene más enzimas que diastático", de: "Nicht-diastatisch hat mehr Enzyme als diastatisch", nl: "Niet-diastatisch heeft meer enzymen dan diastatisch" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Diastatic malt powder contains active enzymes (mainly amylase) from sprouted barley that break starches into fermentable sugars - it feeds yeast, improves rise, and enhances crust color. Non-diastatic malt has been heat-treated to destroy enzymes, so it only adds sweet malty flavor and brown color without affecting fermentation.",
+          es: "Polvo de malta diastático contiene enzimas activas (principalmente amilasa) de cebada germinada que descomponen almidones en azúcares fermentables - alimenta levadura, mejora subida, y realza color de corteza. Malta no diastática ha sido tratada con calor para destruir enzimas, así que solo añade sabor dulce a malta y color marrón sin afectar fermentación.",
+          de: "Diastatisches Malzpulver enthält aktive Enzyme (hauptsächlich Amylase) aus gekeimter Gerste die Stärken in fermentierbare Zucker abbauen - es ernährt Hefe, verbessert Aufgang, und verstärkt Krustenfarbe. Nicht-diastatisches Malz wurde wärmebehandelt um Enzyme zu zerstören, so fügt es nur süßen Malzgeschmack und braune Farbe hinzu ohne Fermentation zu beeinflussen.",
+          nl: "Diastatisch moutpoeder bevat actieve enzymen (voornamelijk amylase) van gekiemde gerst die zetmelen afbreken tot fermenteerbare suikers - het voedt gist, verbetert rijs, en versterkt korstkleur. Niet-diastatisch mout is warmtebehandeld om enzymen te vernietigen, dus het voegt alleen zoete moutsmaak en bruine kleur toe zonder fermentatie te beïnvloeden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'slack dough' vs 'stiff dough'?",
+          es: "¿Qué es 'masa floja' vs 'masa rígida'?",
+          de: "Was ist 'schlaffer Teig' vs 'steifer Teig'?",
+          nl: "Wat is 'slap deeg' vs 'stijf deeg'?"
+        },
+        options: [
+          { en: "Slack: high hydration (75-90%), sticky, flows/spreads easily - needs gentle handling (ciabatta, focaccia). Stiff: low hydration (50-65%), firm, easy to shape - tolerates aggressive handling (bagels, pretzels)", es: "Floja: alta hidratación (75-90%), pegajosa, fluye/se extiende fácilmente - necesita manejo suave (ciabatta, focaccia). Rígida: baja hidratación (50-65%), firme, fácil de formar - tolera manejo agresivo (bagels, pretzels)", de: "Schlaff: hohe Hydratation (75-90%), klebrig, fließt/verteilt sich leicht - braucht sanfte Handhabung (Ciabatta, Focaccia). Steif: niedrige Hydratation (50-65%), fest, leicht zu formen - toleriert aggressive Handhabung (Bagels, Brezeln)", nl: "Slap: hoge hydratatie (75-90%), plakkerig, vloeit/verspreidt gemakkelijk - heeft zachte behandeling nodig (ciabatta, focaccia). Stijf: lage hydratatie (50-65%), stevig, makkelijk te vormen - verdraagt agressieve behandeling (bagels, pretzels)" },
+          { en: "Slack dough is underproofed, stiff dough is overproofed", es: "Masa floja está sub-fermentada, masa rígida está sobre-fermentada", de: "Schlaffer Teig ist untergegangen, steifer Teig ist übergegangen", nl: "Slap deeg is ondergerezen, stijf deeg is overgerezen" },
+          { en: "They refer to dough temperature, not hydration", es: "Se refieren a temperatura de masa, no hidratación", de: "Sie beziehen sich auf Teigtemperatur, nicht Hydratation", nl: "Ze verwijzen naar deegtemperatuur, niet hydratatie" },
+          { en: "Slack means old dough, stiff means fresh dough", es: "Floja significa masa vieja, rígida significa masa fresca", de: "Schlaff bedeutet alter Teig, steif bedeutet frischer Teig", nl: "Slap betekent oud deeg, stijf betekent vers deeg" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Slack dough has high water content (75-90% hydration), making it sticky, extensible, and hard to shape - it flows and spreads easily. Used for ciabatta, focaccia, high-hydration sourdough. Stiff dough has low hydration (50-65%), is firm and easy to handle - used for bagels, pretzels, some enriched breads.",
+          es: "Masa floja tiene alto contenido de agua (75-90% hidratación), haciéndola pegajosa, extensible, y difícil de formar - fluye y se extiende fácilmente. Usada para ciabatta, focaccia, masa madre de alta hidratación. Masa rígida tiene baja hidratación (50-65%), es firme y fácil de manejar - usada para bagels, pretzels, algunos panes enriquecidos.",
+          de: "Schlaffer Teig hat hohen Wassergehalt (75-90% Hydratation), macht ihn klebrig, dehnbar, und schwer zu formen - er fließt und verteilt sich leicht. Verwendet für Ciabatta, Focaccia, hochhydrierten Sauerteig. Steifer Teig hat niedrige Hydratation (50-65%), ist fest und leicht zu handhaben - verwendet für Bagels, Brezeln, einige angereicherte Brote.",
+          nl: "Slap deeg heeft hoog watergehalte (75-90% hydratatie), maakt het plakkerig, rekbaar, en moeilijk te vormen - het vloeit en verspreidt gemakkelijk. Gebruikt voor ciabatta, focaccia, hoog gehydrateerde zuurdesem. Stijf deeg heeft lage hydratatie (50-65%), is stevig en makkelijk te hanteren - gebruikt voor bagels, pretzels, sommige verrijkte broden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'finger test' or 'poke test' for proofing?",
+          es: "¿Qué es 'prueba de dedo' o 'prueba de poke' para fermentación?",
+          de: "Was ist 'Fingertest' oder 'Poke-Test' für Gare?",
+          nl: "Wat is 'vingertest' of 'poke test' voor rijzing?"
+        },
+        options: [
+          { en: "Gently poke shaped dough ½ inch deep: springs back quickly=underproofed, slowly fills back=ready, stays indented=overproofed. Most accurate doneness test for final proof", es: "Presione suavemente masa formada 1.3 cm de profundidad: rebota rápido=sub-fermentada, se llena lentamente=lista, queda hundida=sobre-fermentada. Prueba más precisa de cocción para fermentación final", de: "Geformten Teig sanft 1.3 cm tief drücken: springt schnell zurück=untergegangen, füllt sich langsam=fertig, bleibt eingedrückt=übergegangen. Genauester Garetest für Endgare", nl: "Druk zacht gevormd deeg 1.3 cm diep in: veert snel terug=ondergerezen, vult langzaam terug=klaar, blijft ingedeukt=overgerezen. Nauwkeurigste gaarheidstest voor laatste rijs" },
+          { en: "Using your finger to mix ingredients together", es: "Usar tu dedo para mezclar ingredientes juntos", de: "Finger verwenden um Zutaten zusammenzumischen", nl: "Je vinger gebruiken om ingrediënten samen te mengen" },
+          { en: "Testing oven temperature by sticking finger inside", es: "Probar temperatura de horno metiendo dedo adentro", de: "Ofentemperatur testen indem man Finger reinsteckt", nl: "Oventemperatuur testen door vinger erin te steken" },
+          { en: "Poking holes in dough to release air bubbles", es: "Hacer agujeros en masa para liberar burbujas de aire", de: "Löcher in Teig stechen um Luftblasen freizusetzen", nl: "Gaten prikken in deeg om luchtbellen vrij te geven" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The poke/finger test is the most reliable way to check if dough is properly proofed: gently press a floured finger ½ inch into shaped dough. If it springs back immediately, it's underproofed; if it slowly fills back halfway, it's perfectly proofed; if the indent stays, it's overproofed.",
+          es: "La prueba de poke/dedo es la forma más confiable de verificar si la masa está correctamente fermentada: presione suavemente un dedo enharinado 1.3 cm en la masa formada. Si rebota inmediatamente, está sub-fermentada; si se llena lentamente a la mitad, está perfectamente fermentada; si la hendidura permanece, está sobre-fermentada.",
+          de: "Der Poke-/Fingertest ist der zuverlässigste Weg um zu prüfen ob Teig richtig gegangen ist: drücken Sie sanft einen bemehlten Finger 1.3 cm in den geformten Teig. Wenn er sofort zurückspringt, ist er untergegangen; wenn er sich langsam halb füllt, ist er perfekt gegangen; wenn die Delle bleibt, ist er übergegangen.",
+          nl: "De poke-/vingertest is de meest betrouwbare manier om te controleren of deeg goed gerezen is: druk zacht een bemeel de vinger 1.3 cm in gevormd deeg. Als het onmiddellijk terugveert, is het ondergerezen; als het langzaam halfvol terugkomt, is het perfect gerezen; als de deuk blijft, is het overgerezen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'alveograph' test in professional baking?",
+          es: "¿Qué es la prueba de 'alvéografo' en panadería profesional?",
+          de: "Was ist der 'Alveograph' Test im professionellen Backen?",
+          nl: "Wat is de 'alveograaf' test in professioneel bakken?"
+        },
+        options: [
+          { en: "Lab instrument that blows air bubble into dough to measure: P (resistance/tenacity), L (extensibility), W (total strength) - helps millers/bakers select optimal flour for specific bread types", es: "Instrumento de laboratorio que sopla burbuja de aire en masa para medir: P (resistencia/tenacidad), L (extensibilidad), W (fuerza total) - ayuda a molineros/panaderos seleccionar harina óptima para tipos específicos de pan", de: "Laborinstrument das Luftblase in Teig bläst um zu messen: P (Widerstand/Zähigkeit), L (Dehnbarkeit), W (Gesamtstärke) - hilft Müllern/Bäckern optimales Mehl für spezifische Brottypen auszuwählen", nl: "Laboratorium instrument dat luchtbel in deeg blaast om te meten: P (weerstand/taaiheid), L (rekbaarheid), W (totale kracht) - helpt molenaars/bakkers optimaal meel selecteren voor specifieke broodsoorten" },
+          { en: "Type of oven thermometer for checking bread temperature", es: "Tipo de termómetro de horno para verificar temperatura de pan", de: "Art von Ofenthermometer zum Prüfen der Brottemperatur", nl: "Type oventhermometer voor het controleren van broodtemperatuur" },
+          { en: "Tool for measuring yeast activity in sourdough starter", es: "Herramienta para medir actividad de levadura en masa madre", de: "Werkzeug zum Messen der Hefeaktivität im Sauerteig-Starter", nl: "Gereedschap voor het meten van gistactiviteit in zuurdesem starter" },
+          { en: "Machine that scores artisan bread automatically", es: "Máquina que marca pan artesanal automáticamente", de: "Maschine die handwerkliches Brot automatisch einschneidet", nl: "Machine die ambachtelijk brood automatisch scoort" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The alveograph is a laboratory instrument used by professional bakers and millers to test flour quality. It inflates a dough bubble until it bursts, measuring P-value (resistance/strength), L-value (extensibility), and W-value (overall baking strength). This data helps select the right flour for baguettes (high L), sandwich bread (balanced P/L), etc.",
+          es: "El alvéografo es un instrumento de laboratorio usado por panaderos profesionales y molineros para probar calidad de harina. Infla una burbuja de masa hasta que estalla, midiendo valor-P (resistencia/fuerza), valor-L (extensibilidad), y valor-W (fuerza de horneado general). Estos datos ayudan a seleccionar la harina correcta para baguettes (L alto), pan de sándwich (P/L equilibrado), etc.",
+          de: "Der Alveograph ist ein Laborinstrument das von professionellen Bäckern und Müllern verwendet wird um Mehlqualität zu testen. Es bläst eine Teigblase auf bis sie platzt, misst P-Wert (Widerstand/Stärke), L-Wert (Dehnbarkeit), und W-Wert (gesamte Backstärke). Diese Daten helfen das richtige Mehl für Baguettes (hohes L), Sandwichbrot (ausgewogenes P/L), usw. auszuwählen.",
+          nl: "De alveograaf is een laboratorium instrument gebruikt door professionele bakkers en molenaars om meelkwaliteit te testen. Het blaast een deegbel op tot die barst, meet P-waarde (weerstand/kracht), L-waarde (rekbaarheid), en W-waarde (totale bakkracht). Deze gegevens helpen het juiste meel te selecteren voor stokbroden (hoge L), sandwichbrood (gebalanceerde P/L), enz."
+        }
+      },
+      {
+        question: {
+          en: "What is 'pearling' or 'pearl ash' in historical bread baking?",
+          es: "¿Qué es 'pearling' o 'ceniza de perla' en elaboración histórica de pan?",
+          de: "Was ist 'Perlenasche' im historischen Brotbacken?",
+          nl: "Wat is 'parelasas' of 'pearl ash' in historisch brood bakken?"
+        },
+        options: [
+          { en: "Historical leavening agent (potassium carbonate) - first chemical leavener before baking powder (1790s), extracted from wood ash, used in cookies/quick breads. Precursor to modern baking soda", es: "Agente leudante histórico (carbonato de potasio) - primer leudante químico antes del polvo de hornear (1790s), extraído de ceniza de madera, usado en galletas/panes rápidos. Precursor de bicarbonato moderno", de: "Historisches Treibmittel (Kaliumcarbonat) - erstes chemisches Treibmittel vor Backpulver (1790er), aus Holzasche extrahiert, in Keksen/Schnellbroten verwendet. Vorläufer von modernem Natron", nl: "Historisch rijsmiddel (kaliumcarbonaat) - eerste chemische rijsmiddel voor bakpoeder (1790s), gewonnen uit houtas, gebruikt in koekjes/snelle broden. Voorloper van moderne zuiveringszout" },
+          { en: "Type of white flour made only from wheat kernels", es: "Tipo de harina blanca hecha solo de granos de trigo", de: "Mehltyp nur aus Weizenkörnern hergestellt", nl: "Type wit meel alleen gemaakt van tarwekorrels" },
+          { en: "Decorative pattern scored on top of artisan loaves", es: "Patrón decorativo marcado en la parte superior de panes artesanales", de: "Dekoratives Muster auf handwerklichen Laiben eingeschnitten", nl: "Decoratief patroon gescoord op bovenkant van ambachtelijke broden" },
+          { en: "Process of polishing bread crust with butter", es: "Proceso de pulir corteza de pan con mantequilla", de: "Prozess des Polierens von Brotkruste mit Butter", nl: "Proces van het polijsten van broodkorst met boter" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pearl ash (potassium carbonate) was the first chemical leavening agent, used from the 1790s before baking powder was invented. Refined from wood ash, it releases CO2 when heated, making dough rise without yeast. It was eventually replaced by baking soda (sodium bicarbonate) and baking powder in the 1800s.",
+          es: "Ceniza de perla (carbonato de potasio) fue el primer agente leudante químico, usado desde la década de 1790 antes de que se inventara el polvo de hornear. Refinado de ceniza de madera, libera CO2 cuando se calienta, haciendo que la masa suba sin levadura. Eventualmente fue reemplazado por bicarbonato de sodio y polvo de hornear en el siglo 19.",
+          de: "Perlenasche (Kaliumcarbonat) war das erste chemische Treibmittel, verwendet ab den 1790ern bevor Backpulver erfunden wurde. Aus Holzasche raffiniert, setzt es CO2 frei wenn erhitzt, lässt Teig ohne Hefe aufgehen. Es wurde schließlich durch Natron (Natriumbicarbonat) und Backpulver im 19. Jahrhundert ersetzt.",
+          nl: "Parelasas (kaliumcarbonaat) was het eerste chemische rijsmiddel, gebruikt vanaf de 1790s voordat bakpoeder werd uitgevonden. Verfijnd uit houtas, geeft het CO2 vrij wanneer verhit, waardoor deeg rijst zonder gist. Het werd uiteindelijk vervangen door zuiveringszout (natriumbicarbonaat) en bakpoeder in de 19e eeuw."
+        }
+      },
+      {
+        question: {
+          en: "What is 'fermentolyse' technique?",
+          es: "¿Qué es la técnica de 'fermentolisis'?",
+          de: "Was ist die 'Fermentolyse' Technik?",
+          nl: "Wat is de 'fermentolyse' techniek?"
+        },
+        options: [
+          { en: "Modified autolyse - mix flour+water+levain/starter, rest 30-60 min before adding salt - combines benefits of autolyse (gluten development, extensibility) with flavor from early fermentation", es: "Autolisis modificada - mezclar harina+agua+levain/iniciador, reposar 30-60 min antes de añadir sal - combina beneficios de autolisis (desarrollo de gluten, extensibilidad) con sabor de fermentación temprana", de: "Modifizierte Autolyse - Mehl+Wasser+Levain/Starter mischen, 30-60 Min ruhen vor Salzzugabe - kombiniert Vorteile von Autolyse (Glutenentwicklung, Dehnbarkeit) mit Geschmack von früher Fermentation", nl: "Gewijzigde autolyse - meel+water+levain/starter mengen, 30-60 min rusten voor zout toevoegen - combineert voordelen van autolyse (glutenontwikkeling, rekbaarheid) met smaak van vroege fermentatie" },
+          { en: "Freezing dough to stop all fermentation permanently", es: "Congelar masa para detener toda fermentación permanentemente", de: "Teig einfrieren um alle Fermentation dauerhaft zu stoppen", nl: "Deeg bevriezen om alle fermentatie permanent te stoppen" },
+          { en: "Adding extra yeast at the end of mixing", es: "Añadir levadura extra al final del mezclado", de: "Extra Hefe am Ende des Mischens hinzufügen", nl: "Extra gist toevoegen aan het einde van mengen" },
+          { en: "Technique only used for gluten-free breads", es: "Técnica solo usada para panes sin gluten", de: "Technik nur für glutenfreie Brote verwendet", nl: "Techniek alleen gebruikt voor glutenvrije broden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Fermentolyse is a modified autolyse technique where you mix flour, water, and levain/starter (but no salt), then rest for 30-60 minutes. This combines the gluten-strengthening benefits of traditional autolyse with flavor development from early yeast/bacterial fermentation. Salt is added after the rest period.",
+          es: "Fermentolisis es una técnica de autolisis modificada donde mezclas harina, agua, y levain/iniciador (pero sin sal), luego reposas durante 30-60 minutos. Esto combina los beneficios de fortalecimiento de gluten de la autolisis tradicional con desarrollo de sabor de fermentación temprana de levadura/bacteriana. La sal se añade después del período de reposo.",
+          de: "Fermentolyse ist eine modifizierte Autolyse-Technik wo man Mehl, Wasser, und Levain/Starter (aber kein Salz) mischt, dann 30-60 Minuten ruhen lässt. Dies kombiniert die glutenstärkenden Vorteile der traditionellen Autolyse mit Geschmacksentwicklung von früher Hefe-/bakterieller Fermentation. Salz wird nach der Ruhezeit hinzugefügt.",
+          nl: "Fermentolyse is een gewijzigde autolyse techniek waarbij je meel, water, en levain/starter (maar geen zout) mengt, dan 30-60 minuten laat rusten. Dit combineert de glutenversterkende voordelen van traditionele autolyse met smaakontwikkeling van vroege gist-/bacteriële fermentatie. Zout wordt toegevoegd na de rustperiode."
+        }
+      },
+      {
+        question: {
+          en: "What is 'crumb rubber' texture and what causes it?",
+          es: "¿Qué es la textura de 'goma de miga' y qué la causa?",
+          de: "Was ist 'Krumengummi' Textur und was verursacht sie?",
+          nl: "Wat is 'kruim rubber' textuur en wat veroorzaakt het?"
+        },
+        options: [
+          { en: "Dense, rubbery, gummy texture in bread - caused by: underbaking (dough not fully set), too much liquid, undermixing (weak gluten), or cutting bread while still hot/steaming", es: "Textura densa, gomosa, pegajosa en pan - causada por: horneado insuficiente (masa no completamente cuajada), demasiado líquido, mezclado insuficiente (gluten débil), o cortar pan mientras aún está caliente/vapor", de: "Dichte, gummiartige, klebrige Textur im Brot - verursacht durch: Unterbacken (Teig nicht vollständig fest), zu viel Flüssigkeit, Untermischen (schwaches Gluten), oder Brot schneiden während noch heiß/dampfend", nl: "Dichte, rubberachtige, kleverige textuur in brood - veroorzaakt door: onderbakken (deeg niet volledig gestold), te veel vloeistof, ondermengen (zwak gluten), of brood snijden terwijl nog heet/dampend" },
+          { en: "Desirable light, airy texture that all breads should have", es: "Textura ligera, aireada deseable que todos los panes deberían tener", de: "Wünschenswerte leichte, luftige Textur die alle Brote haben sollten", nl: "Wenselijke lichte, luchtige textuur die alle broden zouden moeten hebben" },
+          { en: "Type of coating applied to bread surface before baking", es: "Tipo de recubrimiento aplicado a superficie de pan antes de hornear", de: "Art von Beschichtung auf Brotoberfläche vor dem Backen aufgetragen", nl: "Type coating aangebracht op broodoppervlak voor bakken" },
+          { en: "Special ingredient added to improve bread shelf life", es: "Ingrediente especial añadido para mejorar vida útil del pan", de: "Spezielle Zutat hinzugefügt um Brothaltbarkeit zu verbessern", nl: "Speciale ingrediënt toegevoegd om broodhoudbaarheid te verbeteren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Crumb rubber texture (also called 'gummy crumb') is an undesirable dense, rubbery, sticky texture in bread. Main causes: underbaking (internal temp below 190°F, starches not fully gelatinized), too much liquid, weak gluten development, or slicing bread before it's fully cooled (steam condenses back into crumb).",
+          es: "Textura de goma de miga (también llamada 'miga gomosa') es una textura densa, gomosa, pegajosa no deseable en el pan. Causas principales: horneado insuficiente (temp interna debajo de 88°C, almidones no completamente gelatinizados), demasiado líquido, desarrollo de gluten débil, o rebanar pan antes de que esté completamente enfriado (vapor se condensa de vuelta en miga).",
+          de: "Krumengummi-Textur (auch 'gummiartige Krume' genannt) ist eine unerwünschte dichte, gummiartige, klebrige Textur im Brot. Hauptursachen: Unterbacken (Innentemperatur unter 88°C, Stärken nicht vollständig gelatiniert), zu viel Flüssigkeit, schwache Glutenentwicklung, oder Brot schneiden bevor es vollständig abgekühlt ist (Dampf kondensiert zurück in Krume).",
+          nl: "Kruim rubber textuur (ook wel 'kleverige kruim' genoemd) is een ongewenste dichte, rubberachtige, plakkerige textuur in brood. Belangrijkste oorzaken: onderbakken (interne temp onder 88°C, zetmelen niet volledig gegelatineerd), te veel vloeistof, zwakke glutenontwikkeling, of brood snijden voordat het volledig afgekoeld is (stoom condenseert terug in kruim)."
+        }
+      },
+      {
+        question: {
+          en: "What is 'desired dough temperature' (DDT) and why calculate it?",
+          es: "¿Qué es 'temperatura deseada de masa' (DDT) y por qué calcularla?",
+          de: "Was ist 'gewünschte Teigtemperatur' (DDT) und warum berechnen?",
+          nl: "Wat is 'gewenste deegtemperatuur' (DDT) en waarom berekenen?"
+        },
+        options: [
+          { en: "Target final dough temp (usually 75-78°F/24-26°C) for optimal fermentation - calculate water temp needed by accounting for: flour temp, room temp, friction from mixing. Ensures consistent fermentation speed", es: "Temperatura final objetivo de masa (usualmente 75-78°F/24-26°C) para fermentación óptima - calcular temp de agua necesaria considerando: temp de harina, temp de habitación, fricción del mezclado. Asegura velocidad de fermentación consistente", de: "Ziel-Endteigtemperatur (üblicherweise 24-26°C) für optimale Fermentation - Wassertemperatur berechnen unter Berücksichtigung von: Mehltemperatur, Raumtemperatur, Reibung vom Mischen. Sichert konstante Fermentationsgeschwindigkeit", nl: "Doel einddeegtemperatuur (meestal 24-26°C) voor optimale fermentatie - bereken benodigde watertemperatuur door rekening te houden met: meeltemperatuur, kamertemperatuur, wrijving van mengen. Zorgt voor consistente fermentatiesnelheid" },
+          { en: "Maximum oven temperature for baking bread", es: "Temperatura máxima de horno para hornear pan", de: "Maximale Ofentemperatur zum Brotbacken", nl: "Maximale oventemperatuur voor brood bakken" },
+          { en: "Temperature at which yeast dies completely", es: "Temperatura a la cual la levadura muere completamente", de: "Temperatur bei der Hefe vollständig stirbt", nl: "Temperatuur waarbij gist volledig sterft" },
+          { en: "Ideal room temperature for storing flour", es: "Temperatura ambiente ideal para almacenar harina", de: "Ideale Raumtemperatur zum Lagern von Mehl", nl: "Ideale kamertemperatuur voor het bewaren van meel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Desired Dough Temperature (DDT) is the target final temperature for mixed dough (typically 75-78°F/24-26°C) that ensures optimal, consistent fermentation. Professionals calculate the water temperature needed by accounting for flour temp, room temp, and friction factor from mixing. This prevents batch-to-batch variation in fermentation speed.",
+          es: "Temperatura Deseada de Masa (DDT) es la temperatura final objetivo para masa mezclada (típicamente 75-78°F/24-26°C) que asegura fermentación óptima y consistente. Los profesionales calculan la temperatura de agua necesaria considerando temp de harina, temp de habitación, y factor de fricción del mezclado. Esto previene variación de lote a lote en velocidad de fermentación.",
+          de: "Gewünschte Teigtemperatur (DDT) ist die Ziel-Endtemperatur für gemischten Teig (typischerweise 24-26°C) die optimale, konstante Fermentation sichert. Profis berechnen die benötigte Wassertemperatur unter Berücksichtigung von Mehltemperatur, Raumtemperatur, und Reibungsfaktor vom Mischen. Dies verhindert Charge-zu-Charge Variation in Fermentationsgeschwindigkeit.",
+          nl: "Gewenste Deegtemperatuur (DDT) is de doel eindtemperatuur voor gemengd deeg (typisch 24-26°C) die optimale, consistente fermentatie verzekert. Professionals berekenen de benodigde watertemperatuur door rekening te houden met meeltemperatuur, kamertemperatuur, en wrijvingsfactor van mengen. Dit voorkomt batch-tot-batch variatie in fermentatiesnelheid."
+        }
+      },
+      {
+        question: {
+          en: "What is 'gelatinization' of starch in bread baking?",
+          es: "¿Qué es 'gelatinización' de almidón en elaboración de pan?",
+          de: "Was ist 'Verkleisterung' von Stärke beim Brotbacken?",
+          nl: "Wat is 'gelatinisatie' van zetmeel bij brood bakken?"
+        },
+        options: [
+          { en: "Starch granules absorb water and swell when heated above 140-180°F - transforms dough into set bread structure. Incomplete gelatinization (underbaking) causes gummy texture", es: "Gránulos de almidón absorben agua y se hinchan cuando se calientan sobre 60-82°C - transforma masa en estructura de pan cuajada. Gelatinización incompleta (horneado insuficiente) causa textura gomosa", de: "Stärkegranula absorbieren Wasser und schwellen bei Erhitzen über 60-82°C - verwandelt Teig in feste Brotstruktur. Unvollständige Verkleisterung (Unterbacken) verursacht gummiartige Textur", nl: "Zetmeelkorrels absorberen water en zwellen bij verhitting boven 60-82°C - transformeert deeg in gestolde broodstructuur. Onvolledige gelatinisatie (onderbakken) veroorzaakt kleverige textuur" },
+          { en: "Adding gelatin powder to make bread softer", es: "Añadir polvo de gelatina para hacer pan más suave", de: "Gelatinepulver hinzufügen um Brot weicher zu machen", nl: "Gelatine poeder toevoegen om brood zachter te maken" },
+          { en: "Process of coating bread with sugar glaze", es: "Proceso de cubrir pan con glaseado de azúcar", de: "Prozess des Beschichtens von Brot mit Zuckerglasur", nl: "Proces van het bedekken van brood met suikerglazuur" },
+          { en: "Technique for making transparent bread crust", es: "Técnica para hacer corteza de pan transparente", de: "Technik zum Herstellen transparenter Brotkruste", nl: "Techniek voor het maken van transparante broodkorst" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Starch gelatinization is the critical transformation during baking where starch granules absorb water and irreversibly swell when heated above 140-180°F (60-82°C), changing from crystalline to amorphous state. This sets the bread's structure. If bread is underbaked and starches don't fully gelatinize, the result is gummy, raw-tasting crumb.",
+          es: "Gelatinización de almidón es la transformación crítica durante el horneado donde gránulos de almidón absorben agua y se hinchan irreversiblemente cuando se calientan sobre 60-82°C, cambiando de estado cristalino a amorfo. Esto cuaja la estructura del pan. Si el pan está mal horneado y los almidones no se gelatinizan completamente, el resultado es miga gomosa con sabor crudo.",
+          de: "Stärkeverkleisterung ist die kritische Transformation während des Backens wo Stärkegranula Wasser absorbieren und irreversibel schwellen wenn über 60-82°C erhitzt, wechseln von kristallinem zu amorphem Zustand. Dies setzt die Brotstruktur. Wenn Brot unterbacken ist und Stärken nicht vollständig verkleistern, ist das Ergebnis gummiartige, roh schmeckende Krume.",
+          nl: "Zetmeelgelatinisatie is de kritische transformatie tijdens bakken waarbij zetmeelkorrels water absorberen en onomkeerbaar zwellen bij verhitting boven 60-82°C, veranderen van kristallijne naar amorfe toestand. Dit stolt de broodstructuur. Als brood onderbakken is en zetmelen niet volledig gelatineren, is het resultaat kleverige, rauw smakende kruim."
+        }
+      },
+      {
+        question: {
+          en: "What is 'falling number' test and why does it matter?",
+          es: "¿Qué es la prueba de 'número de caída' y por qué importa?",
+          de: "Was ist der 'Fallzahl' Test und warum ist er wichtig?",
+          nl: "Wat is de 'valgetal' test en waarom is het belangrijk?"
+        },
+        options: [
+          { en: "Measures amylase enzyme activity in flour - low falling number (high enzyme)=sticky dough, poor bread. High number (low enzyme)=weak fermentation. Optimal: 250-350 seconds for bread flour", es: "Mide actividad de enzima amilasa en harina - número de caída bajo (enzima alta)=masa pegajosa, pan pobre. Número alto (enzima baja)=fermentación débil. Óptimo: 250-350 segundos para harina de pan", de: "Misst Amylase-Enzymaktivität im Mehl - niedrige Fallzahl (hohes Enzym)=klebriger Teig, schlechtes Brot. Hohe Zahl (niedriges Enzym)=schwache Fermentation. Optimal: 250-350 Sekunden für Brotmehl", nl: "Meet amylase enzymactiviteit in meel - laag valgetal (hoog enzym)=plakkerig deeg, slecht brood. Hoog getal (laag enzym)=zwakke fermentatie. Optimaal: 250-350 seconden voor broodmeel" },
+          { en: "Test to see how fast bread dough falls when dropped", es: "Prueba para ver qué tan rápido cae la masa de pan cuando se suelta", de: "Test um zu sehen wie schnell Brotteig fällt wenn fallengelassen", nl: "Test om te zien hoe snel brooddeeg valt wanneer losgelaten" },
+          { en: "Measurement of how long bread takes to cool after baking", es: "Medición de cuánto tiempo tarda el pan en enfriarse después de hornear", de: "Messung wie lange Brot nach dem Backen zum Abkühlen braucht", nl: "Meting van hoe lang brood nodig heeft om af te koelen na bakken" },
+          { en: "Count of how many times dough must be folded", es: "Cuenta de cuántas veces debe doblarse la masa", de: "Zählung wie oft Teig gefaltet werden muss", nl: "Telling van hoe vaak deeg gevouwen moet worden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Falling Number test measures alpha-amylase enzyme activity in flour by timing how long a stirrer takes to fall through a flour-water slurry. Low numbers (under 200 sec) indicate excessive enzyme activity from sprouted grain - causes sticky dough and gummy bread. High numbers (over 400 sec) mean insufficient enzymes - weak fermentation. Ideal range: 250-350 seconds.",
+          es: "La prueba de Número de Caída mide actividad de enzima alfa-amilasa en harina cronometrando cuánto tarda un agitador en caer a través de una suspensión de harina-agua. Números bajos (bajo 200 seg) indican actividad excesiva de enzima de grano germinado - causa masa pegajosa y pan gomoso. Números altos (sobre 400 seg) significan enzimas insuficientes - fermentación débil. Rango ideal: 250-350 segundos.",
+          de: "Der Fallzahl-Test misst Alpha-Amylase-Enzymaktivität im Mehl durch Zeitmessung wie lange ein Rührer braucht um durch eine Mehl-Wasser-Aufschlämmung zu fallen. Niedrige Zahlen (unter 200 Sek) zeigen übermäßige Enzymaktivität von gekeimtem Getreide - verursacht klebrigen Teig und gummiartiges Brot. Hohe Zahlen (über 400 Sek) bedeuten unzureichende Enzyme - schwache Fermentation. Idealbereich: 250-350 Sekunden.",
+          nl: "De Valgetal test meet alfa-amylase enzymactiviteit in meel door te timen hoe lang een roerder nodig heeft om te vallen door een meel-water mengsel. Lage getallen (onder 200 sec) duiden op overmatige enzymactiviteit van gekiemd graan - veroorzaakt plakkerig deeg en kleverig brood. Hoge getallen (boven 400 sec) betekenen onvoldoende enzymen - zwakke fermentatie. Ideaal bereik: 250-350 seconden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'barm' in traditional bread making?",
+          es: "¿Qué es 'barm' en elaboración tradicional de pan?",
+          de: "Was ist 'Barm' im traditionellen Brotbacken?",
+          nl: "Wat is 'barm' in traditioneel brood maken?"
+        },
+        options: [
+          { en: "Foam/froth skimmed from fermenting beer - used as leavening agent before commercial yeast (pre-1800s). Contained wild yeast from beer brewing, gave bread distinctive flavor", es: "Espuma/espuma desnatada de cerveza en fermentación - usada como agente leudante antes de levadura comercial (pre-1800s). Contenía levadura salvaje de elaboración de cerveza, daba sabor distintivo al pan", de: "Schaum von gärendem Bier abgeschöpft - als Treibmittel verwendet vor kommerzieller Hefe (vor 1800). Enthielt wilde Hefe vom Bierbrauen, gab Brot charakteristischen Geschmack", nl: "Schuim afgeroomd van fermenterende bier - gebruikt als rijsmiddel voor commerciële gist (voor 1800). Bevatte wilde gist van bierbrouwen, gaf brood kenmerkende smaak" },
+          { en: "Type of whole grain flour from Scotland", es: "Tipo de harina integral de Escocia", de: "Vollkornmehltyp aus Schottland", nl: "Type volkoren meel uit Schotland" },
+          { en: "Metal tool for scoring artisan bread", es: "Herramienta metálica para marcar pan artesanal", de: "Metallwerkzeug zum Einschneiden von handwerklichem Brot", nl: "Metalen gereedschap voor het scoren van ambachtelijk brood" },
+          { en: "Modern name for active dry yeast", es: "Nombre moderno para levadura seca activa", de: "Moderner Name für aktive Trockenhefe", nl: "Moderne naam voor actieve droge gist" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Barm was the traditional leavening agent used before commercial yeast became available in the 1800s. It was the foam skimmed off fermenting beer, rich in wild Saccharomyces cerevisiae yeast from brewing. Bakers obtained barm from breweries and used it to leaven bread, giving a characteristic beer-like flavor.",
+          es: "Barm era el agente leudante tradicional usado antes de que la levadura comercial estuviera disponible en el siglo 19. Era la espuma desnatada de cerveza en fermentación, rica en levadura salvaje Saccharomyces cerevisiae de la elaboración de cerveza. Los panaderos obtenían barm de cervecerías y lo usaban para leudar pan, dando un sabor característico a cerveza.",
+          de: "Barm war das traditionelle Treibmittel das verwendet wurde bevor kommerzielle Hefe im 19. Jahrhundert verfügbar wurde. Es war der Schaum der von gärendem Bier abgeschöpft wurde, reich an wilder Saccharomyces cerevisiae Hefe vom Brauen. Bäcker bezogen Barm von Brauereien und verwendeten es um Brot zu treiben, gab charakteristischen bierähnlichen Geschmack.",
+          nl: "Barm was het traditionele rijsmiddel gebruikt voordat commerciële gist beschikbaar werd in de 19e eeuw. Het was het schuim afgeroomd van fermenterende bier, rijk aan wilde Saccharomyces cerevisiae gist van brouwen. Bakkers verkregen barm van brouwerijen en gebruikten het om brood te laten rijzen, gaf een karakteristieke bierachtige smaak."
+        }
+      },
+      {
+        question: {
+          en: "What is 'ropiness' vs normal bread staling?",
+          es: "¿Qué es 'ropiness' vs envejecimiento normal de pan?",
+          de: "Was ist 'Fadenzieher' vs normales Brotaltbackenwerden?",
+          nl: "Wat is 'ropiness' vs normale brood veroudering?"
+        },
+        options: [
+          { en: "Ropiness: bacterial spoilage (Bacillus) causing sticky, rope-like strings and fruity smell within 12-48 hrs. Staling: normal retrogradation of starches over 2-5 days making bread firm/dry", es: "Ropiness: deterioro bacteriano (Bacillus) causando hilos pegajosos tipo cuerda y olor afrutado en 12-48 hrs. Envejecimiento: retrogradación normal de almidones en 2-5 días haciendo pan firme/seco", de: "Fadenzieher: bakterieller Verderb (Bacillus) verursacht klebrige, seilartige Fäden und fruchtigen Geruch innerhalb 12-48 Std. Altbackenwerden: normale Retrogradation von Stärken über 2-5 Tage macht Brot fest/trocken", nl: "Ropiness: bacterieel bederf (Bacillus) veroorzaakt plakkerige, touwachtige draden en fruitige geur binnen 12-48 uur. Veroudering: normale retrogradatie van zetmelen over 2-5 dagen maakt brood stevig/droog" },
+          { en: "They are the same process with different names", es: "Son el mismo proceso con nombres diferentes", de: "Sie sind der gleiche Prozess mit verschiedenen Namen", nl: "Ze zijn hetzelfde proces met verschillende namen" },
+          { en: "Ropiness is good, staling is bad for bread quality", es: "Ropiness es bueno, envejecimiento es malo para calidad del pan", de: "Fadenzieher ist gut, Altbackenwerden ist schlecht für Brotqualität", nl: "Ropiness is goed, veroudering is slecht voor broodkwaliteit" },
+          { en: "Staling happens in 1 hour, ropiness takes 1 week", es: "Envejecimiento ocurre en 1 hora, ropiness toma 1 semana", de: "Altbackenwerden passiert in 1 Stunde, Fadenzieher dauert 1 Woche", nl: "Veroudering gebeurt in 1 uur, ropiness duurt 1 week" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ropiness is a serious bacterial spoilage from Bacillus subtilis that creates sticky, rope-like strings inside bread with a disgusting fruity odor within 12-48 hours - the bread is unsafe to eat. Normal staling is the natural firming/drying of bread over 2-5 days as starches crystallize (retrogradation) - still safe to eat, just less fresh.",
+          es: "Ropiness es un deterioro bacteriano serio de Bacillus subtilis que crea hilos pegajosos tipo cuerda dentro del pan con olor afrutado desagradable en 12-48 horas - el pan no es seguro para comer. Envejecimiento normal es el endurecimiento/secado natural del pan en 2-5 días a medida que los almidones cristalizan (retrogradación) - aún seguro para comer, solo menos fresco.",
+          de: "Fadenzieher ist ein ernsthafter bakterieller Verderb von Bacillus subtilis der klebrige, seilartige Fäden im Brot mit ekelhaftem fruchtigen Geruch innerhalb 12-48 Stunden erzeugt - das Brot ist nicht sicher zu essen. Normales Altbackenwerden ist das natürliche Festwerden/Austrocknen von Brot über 2-5 Tage während Stärken kristallisieren (Retrogradation) - noch sicher zu essen, nur weniger frisch.",
+          nl: "Ropiness is een ernstig bacterieel bederf van Bacillus subtilis dat plakkerige, touwachtige draden in brood creëert met walgelijke fruitige geur binnen 12-48 uur - het brood is niet veilig om te eten. Normale veroudering is het natuurlijke steviger/droger worden van brood over 2-5 dagen terwijl zetmelen kristalliseren (retrogradatie) - nog steeds veilig om te eten, alleen minder vers."
+        }
+      },
+      {
+        question: {
+          en: "What is 'volumetric vs gravimetric' measuring in professional baking?",
+          es: "¿Qué es medición 'volumétrica vs gravimétrica' en panadería profesional?",
+          de: "Was ist 'volumetrisches vs gravimetrisches' Messen im professionellen Backen?",
+          nl: "Wat is 'volumetrisch vs gravimetrisch' meten in professioneel bakken?"
+        },
+        options: [
+          { en: "Volumetric: measuring by cups/spoons (inconsistent due to packing/settling). Gravimetric: measuring by weight/scale (accurate, professional standard) - 1 cup flour can weigh 120-150g depending on packing", es: "Volumétrica: medir por tazas/cucharas (inconsistente debido a compactación/asentamiento). Gravimétrica: medir por peso/balanza (precisa, estándar profesional) - 1 taza de harina puede pesar 120-150g dependiendo de compactación", de: "Volumetrisch: Messen mit Tassen/Löffeln (inkonsistent wegen Verdichtung/Absetzen). Gravimetrisch: Messen nach Gewicht/Waage (genau, professioneller Standard) - 1 Tasse Mehl kann 120-150g wiegen je nach Verdichtung", nl: "Volumetrisch: meten met kopjes/lepels (inconsistent door samenpakken/bezinken). Gravimetrisch: meten op gewicht/weegschaal (nauwkeurig, professionele standaard) - 1 kopje meel kan 120-150g wegen afhankelijk van samenpakken" },
+          { en: "Volumetric is more accurate than gravimetric for bread", es: "Volumétrica es más precisa que gravimétrica para pan", de: "Volumetrisch ist genauer als gravimetrisch für Brot", nl: "Volumetrisch is nauwkeuriger dan gravimetrisch voor brood" },
+          { en: "They are the same measuring technique", es: "Son la misma técnica de medición", de: "Sie sind die gleiche Messtechnik", nl: "Ze zijn dezelfde meettechniek" },
+          { en: "Professional bakers always use volumetric measurements", es: "Panaderos profesionales siempre usan mediciones volumétricas", de: "Professionelle Bäcker verwenden immer volumetrische Messungen", nl: "Professionele bakkers gebruiken altijd volumetrische metingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Volumetric measuring uses cups/spoons - highly inconsistent because flour can be packed tightly or sit loosely (1 cup flour ranges from 120-150g). Gravimetric measuring uses weight/scales - the professional standard because it's precise and reproducible. This is why professional recipes list ingredients in grams, not cups.",
+          es: "Medición volumétrica usa tazas/cucharas - altamente inconsistente porque la harina puede estar compactada o suelta (1 taza de harina varía de 120-150g). Medición gravimétrica usa peso/balanzas - el estándar profesional porque es precisa y reproducible. Por esto las recetas profesionales listan ingredientes en gramos, no tazas.",
+          de: "Volumetrisches Messen verwendet Tassen/Löffel - sehr inkonsistent weil Mehl fest gepackt oder locker sitzen kann (1 Tasse Mehl reicht von 120-150g). Gravimetrisches Messen verwendet Gewicht/Waagen - der professionelle Standard weil es präzise und reproduzierbar ist. Deshalb listen professionelle Rezepte Zutaten in Gramm auf, nicht Tassen.",
+          nl: "Volumetrisch meten gebruikt kopjes/lepels - zeer inconsistent omdat meel strak kan zijn ingepakt of los kan zitten (1 kopje meel varieert van 120-150g). Gravimetrisch meten gebruikt gewicht/weegschalen - de professionele standaard omdat het nauwkeurig en reproduceerbaar is. Daarom vermelden professionele recepten ingrediënten in grammen, niet kopjes."
+        }
+      },
+      {
+        question: {
+          en: "What is 'reverse creaming' method in enriched bread doughs?",
+          es: "¿Qué es el método de 'cremado inverso' en masas de pan enriquecidas?",
+          de: "Was ist die 'umgekehrte Aufrahmung' Methode in angereicherten Brotteigen?",
+          nl: "Wat is de 'omgekeerde romige' methode in verrijkte brooddegen?"
+        },
+        options: [
+          { en: "Mix dry ingredients with fat first (coats flour proteins), then add liquids - creates tender crumb by limiting gluten development. Used for brioche, challah, milk bread", es: "Mezclar ingredientes secos con grasa primero (cubre proteínas de harina), luego añadir líquidos - crea miga tierna limitando desarrollo de gluten. Usado para brioche, challah, pan de leche", de: "Trockene Zutaten zuerst mit Fett mischen (beschichtet Mehlproteine), dann Flüssigkeiten hinzufügen - erzeugt zarte Krume durch Begrenzung der Glutenentwicklung. Verwendet für Brioche, Challah, Milchbrot", nl: "Droge ingrediënten eerst met vet mengen (bedekt meelproteïnen), dan vloeistoffen toevoegen - creëert zachte kruim door glutenontwikkeling te beperken. Gebruikt voor brioche, challah, melkbrood" },
+          { en: "Beating eggs before adding to dough", es: "Batir huevos antes de añadir a masa", de: "Eier schlagen vor Teigzugabe", nl: "Eieren kloppen voor toevoegen aan deeg" },
+          { en: "Kneading dough backwards in reverse direction", es: "Amasar masa hacia atrás en dirección inversa", de: "Teig rückwärts in umgekehrter Richtung kneten", nl: "Deeg achteruit in omgekeerde richting kneden" },
+          { en: "Adding yeast at the end instead of beginning", es: "Añadir levadura al final en lugar del principio", de: "Hefe am Ende statt am Anfang hinzufügen", nl: "Gist aan het einde toevoegen in plaats van begin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Reverse creaming (also called 'blending method') mixes dry ingredients with fat first before adding liquid ingredients. The fat coats flour proteins, limiting gluten development and creating an exceptionally tender, cake-like crumb. This technique is used for enriched breads like brioche, challah, and Japanese milk bread where softness is desired.",
+          es: "Cremado inverso (también llamado 'método de mezcla') mezcla ingredientes secos con grasa primero antes de añadir ingredientes líquidos. La grasa cubre proteínas de harina, limitando desarrollo de gluten y creando miga excepcionalmente tierna, tipo pastel. Esta técnica se usa para panes enriquecidos como brioche, challah, y pan de leche japonés donde se desea suavidad.",
+          de: "Umgekehrte Aufrahmung (auch 'Mischverfahren' genannt) mischt trockene Zutaten zuerst mit Fett bevor flüssige Zutaten hinzugefügt werden. Das Fett beschichtet Mehlproteine, begrenzt Glutenentwicklung und erzeugt eine außergewöhnlich zarte, kuchenartige Krume. Diese Technik wird für angereicherte Brote wie Brioche, Challah, und japanisches Milchbrot verwendet wo Weichheit gewünscht ist.",
+          nl: "Omgekeerde romige methode (ook wel 'mengmethode' genoemd) mengt droge ingrediënten eerst met vet voordat vloeibare ingrediënten worden toegevoegd. Het vet bedekt meelproteïnen, beperkt glutenontwikkeling en creëert een uitzonderlijk zachte, cakeachtige kruim. Deze techniek wordt gebruikt voor verrijkte broden zoals brioche, challah, en Japans melkbrood waar zachtheid gewenst is."
         }
       }
     ]

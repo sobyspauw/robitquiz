@@ -427,6 +427,426 @@
           de: "Populationsbasiertes Training entwickelt ein vielfältiges Set von KI-Agenten mit verschiedenen Konfigurationen, ermöglicht automatische Hyperparameter-Optimierung und Entdeckung verschiedener erfolgreicher Strategien.",
           nl: "Populatie-gebaseerde training evolueert een diverse set van AI-agenten met verschillende configuraties, wat automatische hyperparameter optimalisatie en ontdekking van gevarieerde succesvolle strategieën mogelijk maakt."
         }
+      },
+      {
+        question: {
+          en: "What role does 'sample efficiency' play in game AI training?",
+          es: "¿Qué papel juega la 'eficiencia de muestra' en entrenamiento de IA de juegos?",
+          de: "Welche Rolle spielt 'Sample-Effizienz' beim Spiele-KI-Training?",
+          nl: "Welke rol speelt 'sample efficiëntie' in game AI-training?"
+        },
+        options: [
+          { en: "Minimizing gameplay experiences needed to achieve competent performance", es: "Minimizar experiencias de juego necesarias para lograr rendimiento competente", de: "Minimierung von Gameplay-Erfahrungen die für kompetente Leistung benötigt werden", nl: "Minimaliseren van gameplay ervaringen nodig om competente prestaties te bereiken" },
+          { en: "Sampling audio efficiently in games", es: "Muestrear audio eficientemente en juegos", de: "Effizientes Audio-Sampling in Spielen", nl: "Efficiënt audio samplen in games" },
+          { en: "Efficient product sampling for game testing", es: "Muestreo eficiente de productos para pruebas de juegos", de: "Effiziente Produktprobenahme für Spieltests", nl: "Efficiënte productsampling voor game testen" },
+          { en: "Creating sample game demos efficiently", es: "Crear demos de juego de muestra eficientemente", de: "Effiziente Erstellung von Spiel-Demo-Mustern", nl: "Efficiënt sample game demo's creëren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sample-efficient algorithms learn from fewer game interactions, crucial for complex games where simulation is expensive or real-world training time is limited.",
+          es: "Los algoritmos eficientes en muestras aprenden de menos interacciones de juego, crucial para juegos complejos donde la simulación es costosa o el tiempo de entrenamiento del mundo real es limitado.",
+          de: "Sample-effiziente Algorithmen lernen aus weniger Spielinteraktionen, entscheidend für komplexe Spiele wo Simulation teuer oder reale Trainingszeit begrenzt ist.",
+          nl: "Sample-efficiënte algoritmes leren van minder game interacties, cruciaal voor complexe games waar simulatie duur is of echte trainingstijd beperkt is."
+        }
+      },
+      {
+        question: {
+          en: "What is 'multi-task learning' for game AI?",
+          es: "¿Qué es 'aprendizaje multi-tarea' para IA de juegos?",
+          de: "Was ist 'Multi-Task-Learning' für Spiele-KI?",
+          nl: "Wat is 'multi-task learning' voor game AI?"
+        },
+        options: [
+          { en: "Training single AI to perform multiple different game tasks simultaneously", es: "Entrenar IA única para realizar múltiples tareas de juego diferentes simultáneamente", de: "Training einer einzelnen KI um mehrere verschiedene Spielaufgaben gleichzeitig durchzuführen", nl: "Enkele AI trainen om meerdere verschillende game taken tegelijkertijd uit te voeren" },
+          { en: "Multiple AI doing separate tasks", es: "Múltiples IA haciendo tareas separadas", de: "Mehrere KI führen separate Aufgaben aus", nl: "Meerdere AI die afzonderlijke taken doen" },
+          { en: "Task management for development teams", es: "Gestión de tareas para equipos de desarrollo", de: "Aufgabenverwaltung für Entwicklungsteams", nl: "Taakbeheer voor ontwikkelteams" },
+          { en: "Player multitasking skills", es: "Habilidades de multitarea del jugador", de: "Spieler-Multitasking-Fähigkeiten", nl: "Speler multitasking vaardigheden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Multi-task learning trains AI on related tasks simultaneously, enabling knowledge sharing across tasks and improving generalization through learned common representations.",
+          es: "El aprendizaje multi-tarea entrena IA en tareas relacionadas simultáneamente, permitiendo compartir conocimiento entre tareas y mejorar generalización a través de representaciones comunes aprendidas.",
+          de: "Multi-Task-Learning trainiert KI auf verwandten Aufgaben gleichzeitig, ermöglicht Wissensaustausch zwischen Aufgaben und verbessert Generalisierung durch gelernte gemeinsame Repräsentationen.",
+          nl: "Multi-task learning traint AI op gerelateerde taken tegelijkertijd, maakt kennisdeling tussen taken mogelijk en verbetert generalisatie door geleerde gemeenschappelijke representaties."
+        }
+      },
+      {
+        question: {
+          en: "What is 'offline reinforcement learning' application in games?",
+          es: "¿Cuál es la aplicación de 'aprendizaje por refuerzo fuera de línea' en juegos?",
+          de: "Was ist die Anwendung von 'Offline-Reinforcement-Learning' in Spielen?",
+          nl: "Wat is de toepassing van 'offline reinforcement learning' in games?"
+        },
+        options: [
+          { en: "Learning from pre-collected gameplay data without active environment interaction", es: "Aprender de datos de juego pre-recopilados sin interacción activa con el entorno", de: "Lernen aus vorgesammelten Gameplay-Daten ohne aktive Umgebungsinteraktion", nl: "Leren van vooraf verzamelde gameplay data zonder actieve omgevingsinteractie" },
+          { en: "Training AI when game servers are offline", es: "Entrenar IA cuando servidores de juego están fuera de línea", de: "KI-Training wenn Spielserver offline sind", nl: "AI trainen wanneer game servers offline zijn" },
+          { en: "Single-player offline game modes", es: "Modos de juego fuera de línea de un jugador", de: "Einzelspieler-Offline-Spielmodi", nl: "Single-player offline game modes" },
+          { en: "Learning without internet connection", es: "Aprender sin conexión a internet", de: "Lernen ohne Internetverbindung", nl: "Leren zonder internetverbinding" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Offline RL enables learning from historical gameplay datasets, useful for improving NPC behavior from player data without costly real-time simulation.",
+          es: "El RL fuera de línea permite aprender de conjuntos de datos de juego históricos, útil para mejorar comportamiento de NPC desde datos de jugador sin simulación en tiempo real costosa.",
+          de: "Offline-RL ermöglicht Lernen aus historischen Gameplay-Datensätzen, nützlich zur Verbesserung von NPC-Verhalten aus Spielerdaten ohne kostspielige Echtzeit-Simulation.",
+          nl: "Offline RL maakt leren van historische gameplay datasets mogelijk, nuttig voor het verbeteren van NPC-gedrag van spelerdata zonder kostbare real-time simulatie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'sparse reward problem' in game AI learning?",
+          es: "¿Qué es el 'problema de recompensa escasa' en aprendizaje de IA de juegos?",
+          de: "Was ist das 'Sparse-Reward-Problem' beim Spiele-KI-Lernen?",
+          nl: "Wat is het 'sparse reward probleem' in game AI-leren?"
+        },
+        options: [
+          { en: "Difficulty learning when rewards occur infrequently in long gameplay sequences", es: "Dificultad de aprendizaje cuando recompensas ocurren infrecuentemente en secuencias largas de juego", de: "Lernschwierigkeit wenn Belohnungen selten in langen Gameplay-Sequenzen auftreten", nl: "Leermoeilijkheid wanneer beloningen zelden voorkomen in lange gameplay sequenties" },
+          { en: "Low reward values in games", es: "Valores de recompensa bajos en juegos", de: "Niedrige Belohnungswerte in Spielen", nl: "Lage beloningswaarden in games" },
+          { en: "Few rewards available to collect", es: "Pocas recompensas disponibles para recoger", de: "Wenige verfügbare Belohnungen zum Sammeln", nl: "Weinig beloningen beschikbaar om te verzamelen" },
+          { en: "Sparse distribution of power-ups", es: "Distribución escasa de power-ups", de: "Spärliche Verteilung von Power-Ups", nl: "Schaarse verspreiding van power-ups" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sparse rewards make learning challenging as AI receives feedback rarely, requiring techniques like reward shaping, curiosity-driven exploration, or hierarchical learning to bridge long action sequences.",
+          es: "Las recompensas escasas hacen que el aprendizaje sea desafiante ya que la IA recibe retroalimentación raramente, requiriendo técnicas como moldeado de recompensas, exploración impulsada por curiosidad o aprendizaje jerárquico para conectar secuencias largas de acción.",
+          de: "Spärliche Belohnungen machen Lernen herausfordernd da KI selten Feedback erhält, erfordert Techniken wie Reward Shaping, neugierde-getriebene Erkundung oder hierarchisches Lernen um lange Aktionssequenzen zu überbrücken.",
+          nl: "Schaarse beloningen maken leren uitdagend omdat AI zelden feedback ontvangt, vereist technieken zoals reward shaping, nieuwsgierigheid gedreven exploratie of hiërarchisch leren om lange actiesequenties te overbruggen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'credit assignment problem' in game AI?",
+          es: "¿Qué es el 'problema de asignación de crédito' en IA de juegos?",
+          de: "Was ist das 'Credit-Assignment-Problem' in Spiele-KI?",
+          nl: "Wat is het 'credit assignment probleem' in game AI?"
+        },
+        options: [
+          { en: "Determining which past actions contributed to eventual success or failure", es: "Determinar qué acciones pasadas contribuyeron al eventual éxito o fracaso", de: "Bestimmung welche vergangenen Aktionen zu eventuellem Erfolg oder Misserfolg beigetragen haben", nl: "Bepalen welke eerdere acties bijdroegen aan eventueel succes of falen" },
+          { en: "Assigning credit points to players", es: "Asignar puntos de crédito a jugadores", de: "Zuweisung von Kreditpunkten an Spieler", nl: "Creditpunten toewijzen aan spelers" },
+          { en: "Managing in-game currency credits", es: "Gestionar créditos de moneda dentro del juego", de: "Verwaltung von In-Game-Währungskrediten", nl: "In-game valuta credits beheren" },
+          { en: "Crediting developers for AI work", es: "Acreditar desarrolladores por trabajo de IA", de: "Entwickler für KI-Arbeit akkreditieren", nl: "Ontwikkelaars crediteren voor AI-werk" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Credit assignment identifies which actions in long sequences were actually responsible for outcomes, challenging when rewards are delayed and many actions intervene.",
+          es: "La asignación de crédito identifica qué acciones en secuencias largas fueron realmente responsables de resultados, desafiante cuando recompensas están retrasadas y muchas acciones intervienen.",
+          de: "Credit Assignment identifiziert welche Aktionen in langen Sequenzen tatsächlich für Ergebnisse verantwortlich waren, herausfordernd wenn Belohnungen verzögert sind und viele Aktionen dazwischen liegen.",
+          nl: "Credit assignment identificeert welke acties in lange sequenties werkelijk verantwoordelijk waren voor uitkomsten, uitdagend wanneer beloningen vertraagd zijn en veel acties tussenbeide komen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'catastrophic forgetting' in game AI neural networks?",
+          es: "¿Qué es 'olvido catastrófico' en redes neuronales de IA de juegos?",
+          de: "Was ist 'katastrophales Vergessen' in Spiele-KI-neuronalen Netzen?",
+          nl: "Wat is 'catastrofaal vergeten' in game AI neurale netwerken?"
+        },
+        options: [
+          { en: "Loss of previously learned skills when training on new tasks", es: "Pérdida de habilidades previamente aprendidas al entrenar en nuevas tareas", de: "Verlust zuvor gelernter Fähigkeiten beim Training auf neuen Aufgaben", nl: "Verlies van eerder geleerde vaardigheden bij training op nieuwe taken" },
+          { en: "AI forgetting game rules catastrophically", es: "IA olvidando reglas del juego catastróficamente", de: "KI vergisst Spielregeln katastrophal", nl: "AI vergeet spelregels catastrofaal" },
+          { en: "Complete memory wipe of AI", es: "Borrado completo de memoria de IA", de: "Komplette Speicherlöschung von KI", nl: "Volledige geheugenwissing van AI" },
+          { en: "Forgetting to save training progress", es: "Olvidar guardar progreso de entrenamiento", de: "Vergessen Trainingsfortschritt zu speichern", nl: "Vergeten trainingsvoortgang op te slaan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Neural networks may overwrite knowledge when learning new tasks, requiring techniques like elastic weight consolidation or progressive neural networks to maintain multiple skills.",
+          es: "Las redes neuronales pueden sobrescribir conocimiento al aprender nuevas tareas, requiriendo técnicas como consolidación elástica de pesos o redes neuronales progresivas para mantener múltiples habilidades.",
+          de: "Neuronale Netze können Wissen überschreiben beim Lernen neuer Aufgaben, erfordert Techniken wie elastische Gewichtskonsolidierung oder progressive neuronale Netze um mehrere Fähigkeiten zu erhalten.",
+          nl: "Neurale netwerken kunnen kennis overschrijven bij het leren van nieuwe taken, vereist technieken zoals elastische gewichtsconsolidatie of progressieve neurale netwerken om meerdere vaardigheden te behouden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'sim-to-real transfer' relevance for game AI?",
+          es: "¿Cuál es la relevancia de 'transferencia sim-a-real' para IA de juegos?",
+          de: "Was ist die Relevanz von 'Sim-zu-Real-Transfer' für Spiele-KI?",
+          nl: "Wat is de relevantie van 'sim-to-real transfer' voor game AI?"
+        },
+        options: [
+          { en: "Applying AI trained in simulation to real robotics using game engine techniques", es: "Aplicar IA entrenada en simulación a robótica real usando técnicas de motor de juego", de: "Anwendung von in Simulation trainierter KI auf echte Robotik mittels Game-Engine-Techniken", nl: "AI getraind in simulatie toepassen op echte robotica met game engine technieken" },
+          { en: "Transferring AI from simple to realistic graphics", es: "Transferir IA de gráficos simples a realistas", de: "Transfer von KI von einfacher zu realistischer Grafik", nl: "AI overdragen van eenvoudige naar realistische graphics" },
+          { en: "Converting simulation games to real sports", es: "Convertir juegos de simulación a deportes reales", de: "Konvertierung von Simulationsspielen zu echten Sportarten", nl: "Simulatiespellen converteren naar echte sporten" },
+          { en: "Real-time game simulation transfer", es: "Transferencia de simulación de juego en tiempo real", de: "Echtzeit-Spielsimulations-Transfer", nl: "Real-time game simulatie transfer" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Game AI techniques like domain randomization and physics simulation enable training in virtual environments that transfers to physical robots, leveraging game development expertise.",
+          es: "Las técnicas de IA de juegos como aleatorización de dominio y simulación de física permiten entrenamiento en entornos virtuales que se transfiere a robots físicos, aprovechando experiencia de desarrollo de juegos.",
+          de: "Spiele-KI-Techniken wie Domain Randomization und Physiksimulation ermöglichen Training in virtuellen Umgebungen das auf physische Roboter übertragen wird, nutzt Spielentwicklungs-Expertise.",
+          nl: "Game AI-technieken zoals domain randomization en fysica simulatie maken training in virtuele omgevingen mogelijk die overdraagt naar fysieke robots, maakt gebruik van game ontwikkelingsexpertise."
+        }
+      },
+      {
+        question: {
+          en: "What is 'meta-reinforcement learning' for adaptive game AI?",
+          es: "¿Qué es 'meta-aprendizaje por refuerzo' para IA de juegos adaptativa?",
+          de: "Was ist 'Meta-Reinforcement-Learning' für adaptive Spiele-KI?",
+          nl: "Wat is 'meta-reinforcement learning' voor adaptieve game AI?"
+        },
+        options: [
+          { en: "Learning how to learn new tasks quickly from minimal experience", es: "Aprender cómo aprender nuevas tareas rápidamente con experiencia mínima", de: "Lernen wie man neue Aufgaben schnell aus minimaler Erfahrung lernt", nl: "Leren hoe nieuwe taken snel te leren van minimale ervaring" },
+          { en: "Meta-gaming strategy learning", es: "Aprendizaje de estrategia meta-gaming", de: "Meta-Gaming-Strategie-Lernen", nl: "Meta-gaming strategie leren" },
+          { en: "Reinforcing meta-data structures", es: "Reforzar estructuras de metadatos", de: "Verstärkung von Metadaten-Strukturen", nl: "Versterken van metadata structuren" },
+          { en: "Learning game metadata patterns", es: "Aprender patrones de metadatos de juego", de: "Lernen von Spiel-Metadaten-Mustern", nl: "Game metadata patronen leren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Meta-RL trains AI to rapidly adapt to new game scenarios by learning learning strategies themselves, enabling quick mastery of novel challenges with few-shot learning.",
+          es: "El meta-RL entrena IA para adaptarse rápidamente a nuevos escenarios de juego aprendiendo estrategias de aprendizaje mismas, permitiendo dominio rápido de desafíos novedosos con aprendizaje de pocos disparos.",
+          de: "Meta-RL trainiert KI um sich schnell an neue Spielszenarien anzupassen durch Lernen von Lernstrategien selbst, ermöglicht schnelle Beherrschung neuartiger Herausforderungen mit Few-Shot-Learning.",
+          nl: "Meta-RL traint AI om snel aan te passen aan nieuwe game scenario's door leerstrategieën zelf te leren, maakt snelle beheersing van nieuwe uitdagingen mogelijk met few-shot learning."
+        }
+      },
+      {
+        question: {
+          en: "What is 'options framework' in hierarchical RL for games?",
+          es: "¿Qué es el 'marco de opciones' en RL jerárquico para juegos?",
+          de: "Was ist das 'Options-Framework' in hierarchischem RL für Spiele?",
+          nl: "Wat is het 'options framework' in hiërarchisch RL voor games?"
+        },
+        options: [
+          { en: "Temporal abstractions representing reusable multi-step behaviors", es: "Abstracciones temporales representando comportamientos reutilizables multi-paso", de: "Zeitliche Abstraktionen die wiederverwendbare Multi-Step-Verhaltensweisen repräsentieren", nl: "Temporele abstracties die herbruikbare multi-step gedragingen representeren" },
+          { en: "Game settings configuration framework", es: "Marco de configuración de ajustes del juego", de: "Spieleinstellungs-Konfigurations-Framework", nl: "Game instellingen configuratie framework" },
+          { en: "Player choice options in RPGs", es: "Opciones de elección del jugador en RPGs", de: "Spielerwahloptionen in RPGs", nl: "Speler keuze opties in RPGs" },
+          { en: "Multiple difficulty options", es: "Múltiples opciones de dificultad", de: "Mehrere Schwierigkeitsoptionen", nl: "Meerdere moeilijkheidsopties" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Options extend primitive actions with temporally-extended skills (like 'navigate to location'), enabling hierarchical reasoning and more efficient exploration in complex games.",
+          es: "Las opciones extienden acciones primitivas con habilidades temporalmente extendidas (como 'navegar a ubicación'), permitiendo razonamiento jerárquico y exploración más eficiente en juegos complejos.",
+          de: "Optionen erweitern primitive Aktionen mit zeitlich ausgedehnten Fähigkeiten (wie 'zu Ort navigieren'), ermöglichen hierarchisches Denken und effizientere Erkundung in komplexen Spielen.",
+          nl: "Options breiden primitieve acties uit met temporeel uitgebreide vaardigheden (zoals 'navigeer naar locatie'), maken hiërarchisch redeneren en efficiëntere exploratie in complexe games mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What is 'skill chaining' in game AI learning?",
+          es: "¿Qué es 'encadenamiento de habilidades' en aprendizaje de IA de juegos?",
+          de: "Was ist 'Skill-Chaining' beim Spiele-KI-Lernen?",
+          nl: "Wat is 'skill chaining' in game AI-leren?"
+        },
+        options: [
+          { en: "Combining learned sub-skills to execute complex multi-stage strategies", es: "Combinar sub-habilidades aprendidas para ejecutar estrategias complejas multi-etapa", de: "Kombination gelernter Teil-Fähigkeiten um komplexe mehrstufige Strategien auszuführen", nl: "Combineren van geleerde sub-vaardigheden om complexe multi-fase strategieën uit te voeren" },
+          { en: "Blockchain for skill verification", es: "Blockchain para verificación de habilidades", de: "Blockchain für Fähigkeitsverifizierung", nl: "Blockchain voor vaardigheidsverificatie" },
+          { en: "Chaining combo attacks in fighting games", es: "Encadenar ataques combo en juegos de lucha", de: "Verkettung von Combo-Angriffen in Kampfspielen", nl: "Combo aanvallen koppelen in vechtgames" },
+          { en: "Player skill progression chains", es: "Cadenas de progresión de habilidades del jugador", de: "Spieler-Fähigkeits-Progressions-Ketten", nl: "Speler vaardigheidsprogressie ketens" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Skill chaining enables AI to compose previously learned abilities into sophisticated action sequences, building complex behaviors from simpler building blocks.",
+          es: "El encadenamiento de habilidades permite a IA componer habilidades previamente aprendidas en secuencias de acción sofisticadas, construyendo comportamientos complejos desde bloques de construcción más simples.",
+          de: "Skill-Chaining ermöglicht KI zuvor gelernte Fähigkeiten in raffinierte Aktionssequenzen zu komponieren, baut komplexe Verhaltensweisen aus einfacheren Bausteinen auf.",
+          nl: "Skill chaining stelt AI in staat om eerder geleerde vaardigheden te componeren in geavanceerde actiesequenties, bouwt complex gedrag op uit eenvoudigere bouwstenen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'imitation from observation' for game AI?",
+          es: "¿Qué es 'imitación desde observación' para IA de juegos?",
+          de: "Was ist 'Nachahmung aus Beobachtung' für Spiele-KI?",
+          nl: "Wat is 'imitatie uit observatie' voor game AI?"
+        },
+        options: [
+          { en: "Learning by watching demonstrations without access to demonstrator's actions", es: "Aprender observando demostraciones sin acceso a acciones del demostrador", de: "Lernen durch Beobachtung von Demonstrationen ohne Zugang zu Aktionen des Demonstrators", nl: "Leren door demonstraties te bekijken zonder toegang tot acties van demonstrator" },
+          { en: "Observing game graphics quality", es: "Observar calidad gráfica del juego", de: "Beobachtung von Spiel-Grafikqualität", nl: "Observeren van game graphics kwaliteit" },
+          { en: "Watching player behavior analytics", es: "Ver analíticas de comportamiento del jugador", de: "Beobachtung von Spielerverhalten-Analysen", nl: "Spelergedrag analytics bekijken" },
+          { en: "Spectator mode observation", es: "Observación en modo espectador", de: "Beobachtung im Zuschauermodus", nl: "Toeschouwer modus observatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Imitation from observation learns behaviors by watching state transitions without knowing exact actions taken, useful for learning from videos or when action labels are unavailable.",
+          es: "La imitación desde observación aprende comportamientos observando transiciones de estado sin conocer acciones exactas tomadas, útil para aprender de videos o cuando etiquetas de acción no están disponibles.",
+          de: "Nachahmung aus Beobachtung lernt Verhaltensweisen durch Beobachtung von Zustandsübergängen ohne exakte Aktionen zu kennen, nützlich zum Lernen aus Videos oder wenn Aktionslabel nicht verfügbar sind.",
+          nl: "Imitatie uit observatie leert gedragingen door state transities te bekijken zonder exacte acties te kennen, nuttig voor leren van video's of wanneer actielabels niet beschikbaar zijn."
+        }
+      },
+      {
+        question: {
+          en: "What is 'inverse dynamics models' use in game AI?",
+          es: "¿Cuál es el uso de 'modelos de dinámica inversa' en IA de juegos?",
+          de: "Was ist die Verwendung von 'inversen Dynamikmodellen' in Spiele-KI?",
+          nl: "Wat is het gebruik van 'inverse dynamics modellen' in game AI?"
+        },
+        options: [
+          { en: "Inferring actions needed to transition between observed states", es: "Inferir acciones necesarias para transicionar entre estados observados", de: "Ableitung von Aktionen die für Übergänge zwischen beobachteten Zuständen benötigt werden", nl: "Afleiden van acties nodig om tussen geobserveerde states over te gaan" },
+          { en: "Reversing game physics dynamics", es: "Invertir dinámicas de física del juego", de: "Umkehrung von Spiel-Physik-Dynamiken", nl: "Omkeren van game fysica dynamiek" },
+          { en: "Inverse kinematics for character animation", es: "Cinemática inversa para animación de personajes", de: "Inverse Kinematik für Charakteranimation", nl: "Inverse kinematica voor karakter animatie" },
+          { en: "Backward time dynamics", es: "Dinámicas de tiempo hacia atrás", de: "Rückwärts-Zeit-Dynamiken", nl: "Achterwaartse tijd dynamiek" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Inverse dynamics models predict what actions were taken given state transitions, enabling learning from observation-only data and action inference in imitation learning.",
+          es: "Los modelos de dinámica inversa predicen qué acciones se tomaron dadas transiciones de estado, permitiendo aprendizaje de datos solo de observación e inferencia de acción en aprendizaje por imitación.",
+          de: "Inverse Dynamikmodelle sagen vorher welche Aktionen getätigt wurden gegeben Zustandsübergängen, ermöglicht Lernen aus nur-Beobachtungsdaten und Aktionsableitung in Imitationslernen.",
+          nl: "Inverse dynamics modellen voorspellen welke acties genomen werden gegeven state transities, maakt leren van alleen-observatie data en actie-inferentie in imitatie leren mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What is 'adversarial imitation learning' for game AI?",
+          es: "¿Qué es 'aprendizaje por imitación adversaria' para IA de juegos?",
+          de: "Was ist 'adversariales Imitationslernen' für Spiele-KI?",
+          nl: "Wat is 'adversarial imitation learning' voor game AI?"
+        },
+        options: [
+          { en: "Using discriminator networks to match expert behavior distributions", es: "Usar redes discriminadoras para igualar distribuciones de comportamiento experto", de: "Verwendung von Diskriminator-Netzwerken um Experten-Verhaltensverteilungen anzugleichen", nl: "Gebruik van discriminator netwerken om expert gedragsverdelingen te matchen" },
+          { en: "Learning to imitate adversarial players only", es: "Aprender a imitar solo jugadores adversarios", de: "Lernen nur adversariale Spieler nachzuahmen", nl: "Leren alleen vijandelijke spelers na te bootsen" },
+          { en: "Competitive imitation between AI", es: "Imitación competitiva entre IA", de: "Wettbewerbs-Nachahmung zwischen KI", nl: "Competitieve imitatie tussen AI" },
+          { en: "Imitating adversarial attacks", es: "Imitar ataques adversarios", de: "Nachahmung adversarialer Angriffe", nl: "Nadoen van vijandelijke aanvallen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Methods like GAIL use adversarial training where discriminator distinguishes expert from learner behavior, providing reward signal to match expert demonstrations.",
+          es: "Métodos como GAIL usan entrenamiento adversario donde discriminador distingue comportamiento experto del aprendiz, proporcionando señal de recompensa para igualar demostraciones expertas.",
+          de: "Methoden wie GAIL nutzen adversariales Training wo Diskriminator Experten- von Lerner-Verhalten unterscheidet, bietet Belohnungssignal um Experten-Demonstrationen anzugleichen.",
+          nl: "Methoden zoals GAIL gebruiken adversarial training waar discriminator expert van learner gedrag onderscheidt, biedt beloningssignaal om expert demonstraties te matchen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'behavior cloning from imperfect demonstrations'?",
+          es: "¿Qué es 'clonación de comportamiento desde demostraciones imperfectas'?",
+          de: "Was ist 'Verhaltensklonen aus unvollkommenen Demonstrationen'?",
+          nl: "Wat is 'behavior cloning van imperfecte demonstraties'?"
+        },
+        options: [
+          { en: "Learning from sub-optimal human gameplay while filtering noise and errors", es: "Aprender de juego humano subóptimo mientras filtra ruido y errores", de: "Lernen aus suboptimalem menschlichem Gameplay während Rauschen und Fehler gefiltert werden", nl: "Leren van sub-optimaal menselijk gameplay terwijl ruis en fouten gefilterd worden" },
+          { en: "Perfect cloning of any behavior", es: "Clonación perfecta de cualquier comportamiento", de: "Perfektes Klonen jedes Verhaltens", nl: "Perfecte cloning van elk gedrag" },
+          { en: "Only using perfect expert demonstrations", es: "Usar solo demostraciones expertas perfectas", de: "Nur perfekte Experten-Demonstrationen verwenden", nl: "Alleen perfecte expert demonstraties gebruiken" },
+          { en: "Cloning AI source code", es: "Clonar código fuente de IA", de: "Klonen von KI-Quellcode", nl: "Clonen van AI broncode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Robust behavior cloning techniques handle noisy or suboptimal demonstrations through confidence weighting, outlier rejection, or learning from ranked preferences rather than assuming perfect expertise.",
+          es: "Las técnicas robustas de clonación de comportamiento manejan demostraciones ruidosas o subóptimas a través de ponderación de confianza, rechazo de valores atípicos o aprendizaje de preferencias clasificadas en lugar de asumir experiencia perfecta.",
+          de: "Robuste Verhaltensklonen-Techniken handhaben verrauschte oder suboptimale Demonstrationen durch Vertrauensgewichtung, Ausreißer-Ablehnung oder Lernen aus ranggeordneten Präferenzen anstatt perfekte Expertise anzunehmen.",
+          nl: "Robuuste behavior cloning technieken hanteren ruizige of sub-optimale demonstraties door vertrouwensweging, uitbijter afwijzing of leren van gerangschikte voorkeuren in plaats van perfecte expertise aan te nemen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'safe exploration' in game AI reinforcement learning?",
+          es: "¿Qué es 'exploración segura' en aprendizaje por refuerzo de IA de juegos?",
+          de: "Was ist 'sichere Erkundung' beim Spiele-KI-Reinforcement-Learning?",
+          nl: "Wat is 'veilige exploratie' in game AI reinforcement learning?"
+        },
+        options: [
+          { en: "Constraining exploration to avoid catastrophic failures during learning", es: "Restringir exploración para evitar fallos catastróficos durante aprendizaje", de: "Einschränkung der Erkundung um katastrophale Ausfälle während des Lernens zu vermeiden", nl: "Exploratie beperken om catastrofale mislukkingen tijdens leren te vermijden" },
+          { en: "Exploring only safe game zones", es: "Explorar solo zonas seguras del juego", de: "Nur sichere Spielzonen erkunden", nl: "Alleen veilige game zones verkennen" },
+          { en: "Safe data storage during exploration", es: "Almacenamiento seguro de datos durante exploración", de: "Sichere Datenspeicherung während Erkundung", nl: "Veilige data opslag tijdens exploratie" },
+          { en: "Player safety features in games", es: "Características de seguridad del jugador en juegos", de: "Spielersicherheits-Funktionen in Spielen", nl: "Speler veiligheidsfeatures in games" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Safe exploration methods use constraints or shielding to prevent AI from taking dangerous actions that cause irrecoverable failures, critical when deploying learning agents in production games.",
+          es: "Los métodos de exploración segura usan restricciones o protección para prevenir que IA tome acciones peligrosas que causen fallos irrecuperables, crítico al desplegar agentes de aprendizaje en juegos de producción.",
+          de: "Sichere Erkundungsmethoden nutzen Einschränkungen oder Abschirmung um KI daran zu hindern gefährliche Aktionen zu nehmen die unwiederbringliche Ausfälle verursachen, kritisch beim Einsatz lernender Agenten in Produktions-Spielen.",
+          nl: "Veilige exploratie methoden gebruiken beperkingen of bescherming om AI te voorkomen gevaarlijke acties te nemen die onherstelbare mislukkingen veroorzaken, kritiek bij het inzetten van lerende agenten in productie games."
+        }
+      },
+      {
+        question: {
+          en: "What is 'curriculum learning scheduling' in game AI training?",
+          es: "¿Qué es 'programación de aprendizaje curricular' en entrenamiento de IA de juegos?",
+          de: "Was ist 'Curriculum-Learning-Scheduling' beim Spiele-KI-Training?",
+          nl: "Wat is 'curriculum learning scheduling' in game AI-training?"
+        },
+        options: [
+          { en: "Automatically sequencing training tasks from simple to complex", es: "Secuenciar automáticamente tareas de entrenamiento de simples a complejas", de: "Automatisches Sequenzieren von Trainingsaufgaben von einfach zu komplex", nl: "Automatisch sequentiëren van trainingsstaken van eenvoudig naar complex" },
+          { en: "Scheduling game development curriculum", es: "Programar currículo de desarrollo de juegos", de: "Planung von Spielentwicklungs-Lehrplan", nl: "Plannen van game ontwikkelings curriculum" },
+          { en: "Player training schedule management", es: "Gestión de programación de entrenamiento de jugador", de: "Spieler-Trainingsplan-Verwaltung", nl: "Speler trainingsschema beheer" },
+          { en: "Academic curriculum for AI courses", es: "Currículo académico para cursos de IA", de: "Akademischer Lehrplan für KI-Kurse", nl: "Academisch curriculum voor AI cursussen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Curriculum scheduling dynamically adjusts task difficulty based on learner progress, providing appropriately challenging scenarios that maximize learning efficiency without overwhelming AI.",
+          es: "La programación curricular ajusta dinámicamente dificultad de tarea basándose en progreso del aprendiz, proporcionando escenarios apropiadamente desafiantes que maximizan eficiencia de aprendizaje sin abrumar IA.",
+          de: "Curriculum-Scheduling passt Aufgabenschwierigkeit dynamisch basierend auf Lerner-Fortschritt an, bietet angemessen herausfordernde Szenarien die Lerneffizienz maximieren ohne KI zu überfordern.",
+          nl: "Curriculum scheduling past taakmoeilijkheid dynamisch aan op basis van learner voortgang, biedt gepast uitdagende scenario's die leerefficiëntie maximaliseren zonder AI te overweldigen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'bootstrapping' in reinforcement learning context?",
+          es: "¿Qué es 'bootstrapping' en contexto de aprendizaje por refuerzo?",
+          de: "Was ist 'Bootstrapping' im Reinforcement-Learning-Kontext?",
+          nl: "Wat is 'bootstrapping' in reinforcement learning context?"
+        },
+        options: [
+          { en: "Updating value estimates using other learned estimates rather than final returns", es: "Actualizar estimaciones de valor usando otras estimaciones aprendidas en lugar de retornos finales", de: "Aktualisierung von Wertschätzungen unter Verwendung anderer gelernter Schätzungen anstatt finaler Rückgaben", nl: "Waarde ramingen bijwerken met andere geleerde schattingen in plaats van finale opbrengsten" },
+          { en: "Starting AI training from scratch", es: "Comenzar entrenamiento IA desde cero", de: "KI-Training von Grund auf beginnen", nl: "AI-training vanaf nul beginnen" },
+          { en: "Boot sequence for game AI systems", es: "Secuencia de arranque para sistemas de IA de juego", de: "Boot-Sequenz für Spiele-KI-Systeme", nl: "Boot sequentie voor game AI systemen" },
+          { en: "Self-starting game initialization", es: "Inicialización de juego auto-iniciante", de: "Selbststartende Spiel-Initialisierung", nl: "Zelfstartende game initialisatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bootstrapping methods like TD learning update estimates using bootstrapped targets from current value functions, enabling online learning without waiting for episode completion.",
+          es: "Los métodos de bootstrapping como aprendizaje TD actualizan estimaciones usando objetivos bootstrapped de funciones de valor actuales, permitiendo aprendizaje en línea sin esperar finalización de episodio.",
+          de: "Bootstrapping-Methoden wie TD-Lernen aktualisieren Schätzungen unter Verwendung von Bootstrap-Zielen aus aktuellen Wertfunktionen, ermöglicht Online-Lernen ohne auf Episodenabschluss zu warten.",
+          nl: "Bootstrapping methoden zoals TD learning werken schattingen bij met bootstrapped targets van huidige waardefuncties, maakt online leren mogelijk zonder te wachten op episode voltooiing."
+        }
+      },
+      {
+        question: {
+          en: "What is 'off-policy correction' in game AI learning?",
+          es: "¿Qué es 'corrección fuera de política' en aprendizaje de IA de juegos?",
+          de: "Was ist 'Off-Policy-Korrektur' beim Spiele-KI-Lernen?",
+          nl: "Wat is 'off-policy correctie' in game AI-leren?"
+        },
+        options: [
+          { en: "Adjusting learning when training data comes from different policy than being learned", es: "Ajustar aprendizaje cuando datos de entrenamiento vienen de política diferente a la que se aprende", de: "Anpassung des Lernens wenn Trainingsdaten von anderer Richtlinie stammen als gelernt wird", nl: "Leren aanpassen wanneer trainingsdata van andere policy komt dan geleerd wordt" },
+          { en: "Correcting policy errors in game rules", es: "Corregir errores de política en reglas del juego", de: "Korrektur von Policy-Fehlern in Spielregeln", nl: "Beleidsfouten corrigeren in spelregels" },
+          { en: "Offline policy documentation updates", es: "Actualizaciones de documentación de política fuera de línea", de: "Offline-Policy-Dokumentations-Updates", nl: "Offline beleidsdocumentatie updates" },
+          { en: "Political correction in game narratives", es: "Corrección política en narrativas de juego", de: "Politische Korrektur in Spielnarrativen", nl: "Politieke correctie in game verhalen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Off-policy correction techniques like importance sampling adjust for distribution mismatch when learning from experience generated by different policies, enabling efficient data reuse.",
+          es: "Las técnicas de corrección fuera de política como muestreo de importancia ajustan por desajuste de distribución al aprender de experiencia generada por políticas diferentes, permitiendo reutilización eficiente de datos.",
+          de: "Off-Policy-Korrektur-Techniken wie Importance Sampling passen sich an Verteilungs-Mismatch an beim Lernen aus Erfahrung die von verschiedenen Richtlinien generiert wurde, ermöglicht effiziente Datenwiederverwendung.",
+          nl: "Off-policy correctie technieken zoals importance sampling passen aan voor distributie mismatch bij leren van ervaring gegenereerd door verschillende policies, maakt efficiënte data hergebruik mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What is 'eligibility traces' role in game AI learning?",
+          es: "¿Cuál es el papel de 'trazas de elegibilidad' en aprendizaje de IA de juegos?",
+          de: "Was ist die Rolle von 'Eligibility Traces' beim Spiele-KI-Lernen?",
+          nl: "Wat is de rol van 'eligibility traces' in game AI-leren?"
+        },
+        options: [
+          { en: "Tracking which states/actions are eligible for credit assignment updates", es: "Rastrear qué estados/acciones son elegibles para actualizaciones de asignación de crédito", de: "Verfolgung welche Zustände/Aktionen für Credit-Assignment-Updates berechtigt sind", nl: "Bijhouden welke states/acties in aanmerking komen voor credit assignment updates" },
+          { en: "Tracing eligible players for matchmaking", es: "Rastrear jugadores elegibles para emparejamiento", de: "Verfolgung berechtigter Spieler für Matchmaking", nl: "Traceren van geschikte spelers voor matchmaking" },
+          { en: "Eligibility for accessing game features", es: "Elegibilidad para acceder características del juego", de: "Berechtigung für Zugriff auf Spielfunktionen", nl: "Geschiktheid voor toegang tot game functies" },
+          { en: "Trace debugging for eligible code", es: "Depuración de rastreo para código elegible", de: "Trace-Debugging für berechtigten Code", nl: "Trace debugging voor geschikt code" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Eligibility traces maintain memory of recent state-action pairs, enabling efficient credit assignment across multiple time steps by updating many states from single reward signal.",
+          es: "Las trazas de elegibilidad mantienen memoria de pares estado-acción recientes, permitiendo asignación eficiente de crédito a través de múltiples pasos de tiempo actualizando muchos estados desde señal de recompensa única.",
+          de: "Eligibility Traces halten Speicher von kürzlichen Zustands-Aktions-Paaren, ermöglichen effiziente Credit Assignment über mehrere Zeitschritte durch Aktualisierung vieler Zustände von einzelnem Belohnungssignal.",
+          nl: "Eligibility traces behouden geheugen van recente state-actie paren, maken efficiënte credit assignment over meerdere tijdstappen mogelijk door veel states bij te werken van één beloningssignaal."
+        }
+      },
+      {
+        question: {
+          en: "What is 'action space discretization' for continuous control games?",
+          es: "¿Qué es 'discretización del espacio de acción' para juegos de control continuo?",
+          de: "Was ist 'Aktionsraum-Diskretisierung' für kontinuierliche Steuerungsspiele?",
+          nl: "Wat is 'actieruimte discretisatie' voor continue controle games?"
+        },
+        options: [
+          { en: "Converting continuous action ranges into finite discrete action choices", es: "Convertir rangos de acción continua en opciones de acción discretas finitas", de: "Konvertierung kontinuierlicher Aktionsbereiche in endliche diskrete Aktionswahlmöglichkeiten", nl: "Continue actiereeksen omzetten in eindige discrete actiekeuzes" },
+          { en: "Making game actions more discrete visually", es: "Hacer acciones del juego más discretas visualmente", de: "Spielaktionen visuell diskreter machen", nl: "Game acties visueel discreter maken" },
+          { en: "Separating action types into categories", es: "Separar tipos de acción en categorías", de: "Trennung von Aktionstypen in Kategorien", nl: "Actietypes scheiden in categorieën" },
+          { en: "Privacy discretization for actions", es: "Discretización de privacidad para acciones", de: "Privatsphären-Diskretisierung für Aktionen", nl: "Privacy discretisatie voor acties" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Discretization simplifies continuous action spaces by quantizing into discrete bins, trading fine control for simpler learning, though potentially losing precision in games requiring smooth continuous control.",
+          es: "La discretización simplifica espacios de acción continua cuantizando en bins discretos, intercambiando control fino por aprendizaje más simple, aunque potencialmente perdiendo precisión en juegos que requieren control continuo suave.",
+          de: "Diskretisierung vereinfacht kontinuierliche Aktionsräume durch Quantisierung in diskrete Bins, tauscht feine Kontrolle gegen einfacheres Lernen, verliert aber potentiell Präzision in Spielen die glatte kontinuierliche Steuerung erfordern.",
+          nl: "Discretisatie vereenvoudigt continue actieruimtes door te kwantiseren in discrete bins, ruilt fijne controle voor eenvoudiger leren, hoewel mogelijk precisie verloren gaat in games die soepele continue besturing vereisen."
+        }
       }
     ]
   };

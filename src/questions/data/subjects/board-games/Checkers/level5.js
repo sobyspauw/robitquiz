@@ -1225,7 +1225,18 @@
           es: "Las tácticas de transposición de final implican maniobrar deliberadamente para alcanzar posiciones de final teóricas específicas donde conoces técnicas ganadoras o de tablas, convirtiendo posiciones poco claras en resultados técnicamente ganados o empatados.",
           de: "Endspiel-Transpositionstaktiken beinhalten absichtliches Manövrieren, um spezifische theoretische Endspiel-Positionen zu erreichen, wo man Gewinn- oder Remistechniken kennt, wobei unklare Positionen in technisch gewonnene oder remise Ergebnisse verwandelt werden.",
           nl: "Eindspel transpositie tactieken houden in dat opzettelijk wordt gemanoeuvreerd om specifieke theoretische eindspel posities te bereiken waar je win- of remise technieken kent, waarbij onduidelijke posities worden omgezet in technisch gewonnen of remise resultaten."
-        }
+        }    },
+    {
+      question: {en: "What is strategy in games?", es: "What is strategy in games?", de: "What is strategy in games?", nl: "What is strategy in games?"},
+      options: [
+        {en: "Planning to achieve objectives", es: "Planning to achieve objectives", de: "Planning to achieve objectives", nl: "Planning to achieve objectives"},
+        {en: "Random moves", es: "Random moves", de: "Random moves", nl: "Random moves"},
+        {en: "Luck only", es: "Luck only", de: "Luck only", nl: "Luck only"},
+        {en: "No planning", es: "No planning", de: "No planning", nl: "No planning"}
+      ],
+      correct: 0,
+      explanation: {en: "Strategy involves planning and decision-making to achieve game objectives.", es: "Strategy involves planning and decision-making to achieve game objectives.", de: "Strategy involves planning and decision-making to achieve game objectives.", nl: "Strategy involves planning and decision-making to achieve game objectives."}
+
       }
     ]
   };

@@ -426,7 +426,427 @@
           es: "Geb era el dios de la tierra, representado yaciendo bajo su esposa Nut (el cielo), separados por su padre Shu (aire). Era el padre de Osiris, Set, Isis y Neftis. Los terremotos eran llamados 'la risa de Geb' y su cuerpo formaba la superficie de la tierra.",
           de: "Geb war der Gott der Erde, dargestellt liegend unter seiner Frau Nut (dem Himmel), getrennt durch ihren Vater Shu (Luft). Er war der Vater von Osiris, Seth, Isis und Nephthys. Erdbeben wurden 'das Lachen von Geb' genannt, und sein Körper bildete die Erdoberfläche.",
           nl: "Geb was de god van de aarde, afgebeeld liggend onder zijn vrouw Nut (de hemel), gescheiden door hun vader Shu (lucht). Hij was de vader van Osiris, Set, Isis en Nephthys. Aardbevingen werden 'het lachen van Geb' genoemd en zijn lichaam vormde het aardoppervlak."
-        }
+        }    },
+    {
+      question: {
+        en: "Who was the sun god in Egyptian mythology?",
+        es: "Who was the sun god in Egyptian mythology?",
+        de: "Who was the sun god in Egyptian mythology?",
+        nl: "Who was the sun god in Egyptian mythology?"
+      },
+      options: [
+        { en: "Ra (or Re)", es: "Ra (or Re)", de: "Ra (or Re)", nl: "Ra (or Re)" },
+        { en: "Osiris", es: "Osiris", de: "Osiris", nl: "Osiris" },
+        { en: "Anubis", es: "Anubis", de: "Anubis", nl: "Anubis" },
+        { en: "Horus", es: "Horus", de: "Horus", nl: "Horus" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Ra (Re) was the sun god and one of the most important deities in Egyptian religion.",
+        es: "Ra (Re) was the sun god and one of the most important deities in Egyptian religion.",
+        de: "Ra (Re) was the sun god and one of the most important deities in Egyptian religion.",
+        nl: "Ra (Re) was the sun god and one of the most important deities in Egyptian religion."
+      }
+    },
+    {
+      question: {
+        en: "What animal represents Anubis?",
+        es: "What animal represents Anubis?",
+        de: "What animal represents Anubis?",
+        nl: "What animal represents Anubis?"
+      },
+      options: [
+        { en: "Jackal", es: "Jackal", de: "Jackal", nl: "Jackal" },
+        { en: "Cat", es: "Cat", de: "Cat", nl: "Cat" },
+        { en: "Falcon", es: "Falcon", de: "Falcon", nl: "Falcon" },
+        { en: "Crocodile", es: "Crocodile", de: "Crocodile", nl: "Crocodile" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Anubis, god of mummification and the afterlife, is depicted with a jackal head.",
+        es: "Anubis, god of mummification and the afterlife, is depicted with a jackal head.",
+        de: "Anubis, god of mummification and the afterlife, is depicted with a jackal head.",
+        nl: "Anubis, god of mummification and the afterlife, is depicted with a jackal head."
+      }
+    },
+    {
+      question: {
+        en: "Who was the god of the afterlife and resurrection?",
+        es: "Who was the god of the afterlife and resurrection?",
+        de: "Who was the god of the afterlife and resurrection?",
+        nl: "Who was the god of the afterlife and resurrection?"
+      },
+      options: [
+        { en: "Osiris", es: "Osiris", de: "Osiris", nl: "Osiris" },
+        { en: "Ra", es: "Ra", de: "Ra", nl: "Ra" },
+        { en: "Set", es: "Set", de: "Set", nl: "Set" },
+        { en: "Thoth", es: "Thoth", de: "Thoth", nl: "Thoth" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Osiris was god of the afterlife, death, life, and resurrection.",
+        es: "Osiris was god of the afterlife, death, life, and resurrection.",
+        de: "Osiris was god of the afterlife, death, life, and resurrection.",
+        nl: "Osiris was god of the afterlife, death, life, and resurrection."
+      }
+    },
+    {
+      question: {
+        en: "What goddess had a cat form?",
+        es: "What goddess had a cat form?",
+        de: "What goddess had a cat form?",
+        nl: "What goddess had a cat form?"
+      },
+      options: [
+        { en: "Bastet", es: "Bastet", de: "Bastet", nl: "Bastet" },
+        { en: "Isis", es: "Isis", de: "Isis", nl: "Isis" },
+        { en: "Hathor", es: "Hathor", de: "Hathor", nl: "Hathor" },
+        { en: "Sekhmet", es: "Sekhmet", de: "Sekhmet", nl: "Sekhmet" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Bastet was the cat goddess associated with protection, fertility, and motherhood.",
+        es: "Bastet was the cat goddess associated with protection, fertility, and motherhood.",
+        de: "Bastet was the cat goddess associated with protection, fertility, and motherhood.",
+        nl: "Bastet was the cat goddess associated with protection, fertility, and motherhood."
+      }
+    },
+    {
+      question: {
+        en: "Who was the falcon-headed sky god?",
+        es: "Who was the falcon-headed sky god?",
+        de: "Who was the falcon-headed sky god?",
+        nl: "Who was the falcon-headed sky god?"
+      },
+      options: [
+        { en: "Horus", es: "Horus", de: "Horus", nl: "Horus" },
+        { en: "Ra", es: "Ra", de: "Ra", nl: "Ra" },
+        { en: "Thoth", es: "Thoth", de: "Thoth", nl: "Thoth" },
+        { en: "Anubis", es: "Anubis", de: "Anubis", nl: "Anubis" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Horus was the falcon-headed god of kingship and the sky.",
+        es: "Horus was the falcon-headed god of kingship and the sky.",
+        de: "Horus was the falcon-headed god of kingship and the sky.",
+        nl: "Horus was the falcon-headed god of kingship and the sky."
+      }
+    },
+    {
+      question: {
+        en: "What god had an ibis head?",
+        es: "What god had an ibis head?",
+        de: "What god had an ibis head?",
+        nl: "What god had an ibis head?"
+      },
+      options: [
+        { en: "Thoth", es: "Thoth", de: "Thoth", nl: "Thoth" },
+        { en: "Horus", es: "Horus", de: "Horus", nl: "Horus" },
+        { en: "Anubis", es: "Anubis", de: "Anubis", nl: "Anubis" },
+        { en: "Set", es: "Set", de: "Set", nl: "Set" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Thoth, god of wisdom and writing, was depicted with an ibis head.",
+        es: "Thoth, god of wisdom and writing, was depicted with an ibis head.",
+        de: "Thoth, god of wisdom and writing, was depicted with an ibis head.",
+        nl: "Thoth, god of wisdom and writing, was depicted with an ibis head."
+      }
+    },
+    {
+      question: {
+        en: "Who was Osiris's treacherous brother?",
+        es: "Who was Osiris's treacherous brother?",
+        de: "Who was Osiris's treacherous brother?",
+        nl: "Who was Osiris's treacherous brother?"
+      },
+      options: [
+        { en: "Set", es: "Set", de: "Set", nl: "Set" },
+        { en: "Horus", es: "Horus", de: "Horus", nl: "Horus" },
+        { en: "Anubis", es: "Anubis", de: "Anubis", nl: "Anubis" },
+        { en: "Thoth", es: "Thoth", de: "Thoth", nl: "Thoth" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Set was god of chaos and the desert, who murdered his brother Osiris.",
+        es: "Set was god of chaos and the desert, who murdered his brother Osiris.",
+        de: "Set was god of chaos and the desert, who murdered his brother Osiris.",
+        nl: "Set was god of chaos and the desert, who murdered his brother Osiris."
+      }
+    },
+    {
+      question: {
+        en: "What goddess was the mother of Horus?",
+        es: "What goddess was the mother of Horus?",
+        de: "What goddess was the mother of Horus?",
+        nl: "What goddess was the mother of Horus?"
+      },
+      options: [
+        { en: "Isis", es: "Isis", de: "Isis", nl: "Isis" },
+        { en: "Hathor", es: "Hathor", de: "Hathor", nl: "Hathor" },
+        { en: "Bastet", es: "Bastet", de: "Bastet", nl: "Bastet" },
+        { en: "Nut", es: "Nut", de: "Nut", nl: "Nut" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Isis was the goddess of magic and motherhood, wife of Osiris and mother of Horus.",
+        es: "Isis was the goddess of magic and motherhood, wife of Osiris and mother of Horus.",
+        de: "Isis was the goddess of magic and motherhood, wife of Osiris and mother of Horus.",
+        nl: "Isis was the goddess of magic and motherhood, wife of Osiris and mother of Horus."
+      }
+    },
+    {
+      question: {
+        en: "What god weighed hearts in the afterlife?",
+        es: "What god weighed hearts in the afterlife?",
+        de: "What god weighed hearts in the afterlife?",
+        nl: "What god weighed hearts in the afterlife?"
+      },
+      options: [
+        { en: "Anubis", es: "Anubis", de: "Anubis", nl: "Anubis" },
+        { en: "Osiris", es: "Osiris", de: "Osiris", nl: "Osiris" },
+        { en: "Thoth", es: "Thoth", de: "Thoth", nl: "Thoth" },
+        { en: "Ma'at", es: "Ma'at", de: "Ma'at", nl: "Ma'at" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Anubis supervised the weighing of the heart ceremony in the afterlife judgment.",
+        es: "Anubis supervised the weighing of the heart ceremony in the afterlife judgment.",
+        de: "Anubis supervised the weighing of the heart ceremony in the afterlife judgment.",
+        nl: "Anubis supervised the weighing of the heart ceremony in the afterlife judgment."
+      }
+    },
+    {
+      question: {
+        en: "What goddess personified truth and justice?",
+        es: "What goddess personified truth and justice?",
+        de: "What goddess personified truth and justice?",
+        nl: "What goddess personified truth and justice?"
+      },
+      options: [
+        { en: "Ma'at", es: "Ma'at", de: "Ma'at", nl: "Ma'at" },
+        { en: "Isis", es: "Isis", de: "Isis", nl: "Isis" },
+        { en: "Hathor", es: "Hathor", de: "Hathor", nl: "Hathor" },
+        { en: "Nut", es: "Nut", de: "Nut", nl: "Nut" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Ma'at was the goddess of truth, justice, and cosmic order.",
+        es: "Ma'at was the goddess of truth, justice, and cosmic order.",
+        de: "Ma'at was the goddess of truth, justice, and cosmic order.",
+        nl: "Ma'at was the goddess of truth, justice, and cosmic order."
+      }
+    },
+    {
+      question: {
+        en: "What god had a crocodile head?",
+        es: "What god had a crocodile head?",
+        de: "What god had a crocodile head?",
+        nl: "What god had a crocodile head?"
+      },
+      options: [
+        { en: "Sobek", es: "Sobek", de: "Sobek", nl: "Sobek" },
+        { en: "Set", es: "Set", de: "Set", nl: "Set" },
+        { en: "Anubis", es: "Anubis", de: "Anubis", nl: "Anubis" },
+        { en: "Horus", es: "Horus", de: "Horus", nl: "Horus" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Sobek was the crocodile god associated with the Nile and fertility.",
+        es: "Sobek was the crocodile god associated with the Nile and fertility.",
+        de: "Sobek was the crocodile god associated with the Nile and fertility.",
+        nl: "Sobek was the crocodile god associated with the Nile and fertility."
+      }
+    },
+    {
+      question: {
+        en: "Who was the goddess of the sky?",
+        es: "Who was the goddess of the sky?",
+        de: "Who was the goddess of the sky?",
+        nl: "Who was the goddess of the sky?"
+      },
+      options: [
+        { en: "Nut", es: "Nut", de: "Nut", nl: "Nut" },
+        { en: "Geb", es: "Geb", de: "Geb", nl: "Geb" },
+        { en: "Isis", es: "Isis", de: "Isis", nl: "Isis" },
+        { en: "Hathor", es: "Hathor", de: "Hathor", nl: "Hathor" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Nut was the goddess of the sky, often depicted arched over the earth.",
+        es: "Nut was the goddess of the sky, often depicted arched over the earth.",
+        de: "Nut was the goddess of the sky, often depicted arched over the earth.",
+        nl: "Nut was the goddess of the sky, often depicted arched over the earth."
+      }
+    },
+    {
+      question: {
+        en: "What god represented the earth?",
+        es: "What god represented the earth?",
+        de: "What god represented the earth?",
+        nl: "What god represented the earth?"
+      },
+      options: [
+        { en: "Geb", es: "Geb", de: "Geb", nl: "Geb" },
+        { en: "Nut", es: "Nut", de: "Nut", nl: "Nut" },
+        { en: "Osiris", es: "Osiris", de: "Osiris", nl: "Osiris" },
+        { en: "Ra", es: "Ra", de: "Ra", nl: "Ra" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Geb was the god of the earth, often shown lying beneath sky goddess Nut.",
+        es: "Geb was the god of the earth, often shown lying beneath sky goddess Nut.",
+        de: "Geb was the god of the earth, often shown lying beneath sky goddess Nut.",
+        nl: "Geb was the god of the earth, often shown lying beneath sky goddess Nut."
+      }
+    },
+    {
+      question: {
+        en: "What goddess had cow horns and sun disk?",
+        es: "What goddess had cow horns and sun disk?",
+        de: "What goddess had cow horns and sun disk?",
+        nl: "What goddess had cow horns and sun disk?"
+      },
+      options: [
+        { en: "Hathor", es: "Hathor", de: "Hathor", nl: "Hathor" },
+        { en: "Isis", es: "Isis", de: "Isis", nl: "Isis" },
+        { en: "Bastet", es: "Bastet", de: "Bastet", nl: "Bastet" },
+        { en: "Sekhmet", es: "Sekhmet", de: "Sekhmet", nl: "Sekhmet" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Hathor, goddess of love and joy, was often shown with cow horns and a sun disk.",
+        es: "Hathor, goddess of love and joy, was often shown with cow horns and a sun disk.",
+        de: "Hathor, goddess of love and joy, was often shown with cow horns and a sun disk.",
+        nl: "Hathor, goddess of love and joy, was often shown with cow horns and a sun disk."
+      }
+    },
+    {
+      question: {
+        en: "What god was depicted as a dwarf?",
+        es: "What god was depicted as a dwarf?",
+        de: "What god was depicted as a dwarf?",
+        nl: "What god was depicted as a dwarf?"
+      },
+      options: [
+        { en: "Bes", es: "Bes", de: "Bes", nl: "Bes" },
+        { en: "Ptah", es: "Ptah", de: "Ptah", nl: "Ptah" },
+        { en: "Khnum", es: "Khnum", de: "Khnum", nl: "Khnum" },
+        { en: "Min", es: "Min", de: "Min", nl: "Min" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Bes was a dwarf god who protected households and childbirth.",
+        es: "Bes was a dwarf god who protected households and childbirth.",
+        de: "Bes was a dwarf god who protected households and childbirth.",
+        nl: "Bes was a dwarf god who protected households and childbirth."
+      }
+    },
+    {
+      question: {
+        en: "What lion-headed goddess represented war?",
+        es: "What lion-headed goddess represented war?",
+        de: "What lion-headed goddess represented war?",
+        nl: "What lion-headed goddess represented war?"
+      },
+      options: [
+        { en: "Sekhmet", es: "Sekhmet", de: "Sekhmet", nl: "Sekhmet" },
+        { en: "Bastet", es: "Bastet", de: "Bastet", nl: "Bastet" },
+        { en: "Hathor", es: "Hathor", de: "Hathor", nl: "Hathor" },
+        { en: "Isis", es: "Isis", de: "Isis", nl: "Isis" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Sekhmet was the lion-headed goddess of war and healing.",
+        es: "Sekhmet was the lion-headed goddess of war and healing.",
+        de: "Sekhmet was the lion-headed goddess of war and healing.",
+        nl: "Sekhmet was the lion-headed goddess of war and healing."
+      }
+    },
+    {
+      question: {
+        en: "Who was the ram-headed creator god?",
+        es: "Who was the ram-headed creator god?",
+        de: "Who was the ram-headed creator god?",
+        nl: "Who was the ram-headed creator god?"
+      },
+      options: [
+        { en: "Khnum", es: "Khnum", de: "Khnum", nl: "Khnum" },
+        { en: "Amun", es: "Amun", de: "Amun", nl: "Amun" },
+        { en: "Ptah", es: "Ptah", de: "Ptah", nl: "Ptah" },
+        { en: "Atum", es: "Atum", de: "Atum", nl: "Atum" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Khnum was the ram-headed god who created humans on his potter's wheel.",
+        es: "Khnum was the ram-headed god who created humans on his potter's wheel.",
+        de: "Khnum was the ram-headed god who created humans on his potter's wheel.",
+        nl: "Khnum was the ram-headed god who created humans on his potter's wheel."
+      }
+    },
+    {
+      question: {
+        en: "What god was Aten?",
+        es: "What god was Aten?",
+        de: "What god was Aten?",
+        nl: "What god was Aten?"
+      },
+      options: [
+        { en: "Sun disk deity of Akhenaten", es: "Sun disk deity of Akhenaten", de: "Sun disk deity of Akhenaten", nl: "Sun disk deity of Akhenaten" },
+        { en: "Moon god", es: "Moon god", de: "Moon god", nl: "Moon god" },
+        { en: "War god", es: "War god", de: "War god", nl: "War god" },
+        { en: "River god", es: "River god", de: "River god", nl: "River god" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Aten was the sun disk deity promoted by Akhenaten as the supreme god.",
+        es: "Aten was the sun disk deity promoted by Akhenaten as the supreme god.",
+        de: "Aten was the sun disk deity promoted by Akhenaten as the supreme god.",
+        nl: "Aten was the sun disk deity promoted by Akhenaten as the supreme god."
+      }
+    },
+    {
+      question: {
+        en: "Who recorded the judgment of the dead?",
+        es: "Who recorded the judgment of the dead?",
+        de: "Who recorded the judgment of the dead?",
+        nl: "Who recorded the judgment of the dead?"
+      },
+      options: [
+        { en: "Thoth", es: "Thoth", de: "Thoth", nl: "Thoth" },
+        { en: "Anubis", es: "Anubis", de: "Anubis", nl: "Anubis" },
+        { en: "Osiris", es: "Osiris", de: "Osiris", nl: "Osiris" },
+        { en: "Ma'at", es: "Ma'at", de: "Ma'at", nl: "Ma'at" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Thoth recorded the results of the heart-weighing ceremony.",
+        es: "Thoth recorded the results of the heart-weighing ceremony.",
+        de: "Thoth recorded the results of the heart-weighing ceremony.",
+        nl: "Thoth recorded the results of the heart-weighing ceremony."
+      }
+    },
+    {
+      question: {
+        en: "What was Ammit?",
+        es: "What was Ammit?",
+        de: "What was Ammit?",
+        nl: "What was Ammit?"
+      },
+      options: [
+        { en: "Devourer of unworthy souls", es: "Devourer of unworthy souls", de: "Devourer of unworthy souls", nl: "Devourer of unworthy souls" },
+        { en: "Guardian deity", es: "Guardian deity", de: "Guardian deity", nl: "Guardian deity" },
+        { en: "Creation goddess", es: "Creation goddess", de: "Creation goddess", nl: "Creation goddess" },
+        { en: "Fertility god", es: "Fertility god", de: "Fertility god", nl: "Fertility god" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Ammit was the creature that devoured the hearts of those who failed the judgment of the dead.",
+        es: "Ammit was the creature that devoured the hearts of those who failed the judgment of the dead.",
+        de: "Ammit was the creature that devoured the hearts of those who failed the judgment of the dead.",
+        nl: "Ammit was the creature that devoured the hearts of those who failed the judgment of the dead."
+      }
+
       }
     ]
   };

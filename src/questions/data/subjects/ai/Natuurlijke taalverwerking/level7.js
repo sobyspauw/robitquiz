@@ -1,4 +1,4 @@
-﻿// Natural Language Processing Quiz - Level 7: Deep NLP
+// Natural Language Processing Quiz - Level 7: Deep NLP
 (function() {
   const level7 = {
     name: {
@@ -427,6 +427,416 @@
           de: "XAI in NLP zielt darauf ab Black-Box-Modelle interpretierbar zu machen durch Techniken wie Aufmerksamkeitskarten, gradientenbasierte Attribution, Probing-Aufgaben und kontrafaktische Analyse um Modellraisonnement zu verstehen und Vertrauen aufzubauen.",
           nl: "XAI in NLP streeft ernaar black-box modellen interpreteerbaar te maken door technieken zoals aandachtkaarten, gradiënt-gebaseerde attributie, probing-taken en contrafeitelijke analyse om modelredenering te begrijpen en vertrouwen op te bouwen."
         }
+      },
+      {
+        question: {
+          en: "What is GPT (Generative Pre-trained Transformer)?",
+          es: "¿Qué es GPT (Transformador Pre-entrenado Generativo)?",
+          de: "Was ist GPT (Generative Pre-trained Transformer)?",
+          nl: "Wat is GPT (Generative Pre-trained Transformer)?"
+        },
+        options: [
+          { en: "An autoregressive language model trained to predict the next token, using left-to-right context only", es: "Un modelo de lenguaje autoregresivo entrenado para predecir el siguiente token, usando solo contexto de izquierda a derecha", de: "Ein autoregressives Sprachmodell trainiert um das nächste Token vorherzusagen, verwendet nur Links-nach-rechts-Kontext", nl: "Een autoregressief taalmodel getraind om het volgende token te voorspellen, gebruikt alleen links-naar-rechts context" },
+          { en: "A bidirectional model like BERT", es: "Un modelo bidireccional como BERT", de: "Ein bidirektionales Modell wie BERT", nl: "Een bidirectioneel model zoals BERT" },
+          { en: "A translation-specific model", es: "Un modelo específico para traducción", de: "Ein übersetzungsspezifisches Modell", nl: "Een vertaling-specifiek model" },
+          { en: "A supervised classification model", es: "Un modelo de clasificación supervisado", de: "Ein überwachtes Klassifikationsmodell", nl: "Een gesuperviseerd classificatiemodel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "GPT models are trained autoregressively to predict the next token given previous tokens, using only left-to-right context. This makes them excellent for text generation tasks and enables few-shot learning through prompting.",
+          es: "Los modelos GPT se entrenan autoregresivamente para predecir el siguiente token dados tokens anteriores, usando solo contexto de izquierda a derecha. Esto los hace excelentes para tareas de generación de texto y permite aprendizaje de pocos ejemplos a través de prompting.",
+          de: "GPT-Modelle werden autoregressiv trainiert um das nächste Token bei gegebenen vorherigen Tokens vorherzusagen, verwenden nur Links-nach-rechts-Kontext. Dies macht sie ausgezeichnet für Textgenerierungsaufgaben und ermöglicht Few-Shot Learning durch Prompting.",
+          nl: "GPT-modellen worden autoregressief getraind om het volgende token te voorspellen gegeven eerdere tokens, gebruikt alleen links-naar-rechts context. Dit maakt ze uitstekend voor tekstgeneratietaken en maakt few-shot learning mogelijk via prompting."
+        }
+      },
+      {
+        question: {
+          en: "What is prompt engineering?",
+          es: "¿Qué es la ingeniería de prompts?",
+          de: "Was ist Prompt Engineering?",
+          nl: "Wat is prompt engineering?"
+        },
+        options: [
+          { en: "Crafting input prompts to elicit desired outputs from language models without changing model parameters", es: "Crear prompts de entrada para obtener salidas deseadas de modelos de lenguaje sin cambiar parámetros del modelo", de: "Eingabeprompts erstellen um gewünschte Ausgaben von Sprachmodellen zu erhalten ohne Modellparameter zu ändern", nl: "Invoerprompts maken om gewenste outputs te verkrijgen van taalmodellen zonder modelparameters te wijzigen" },
+          { en: "Training models with prompts", es: "Entrenar modelos con prompts", de: "Modelle mit Prompts trainieren", nl: "Modellen trainen met prompts" },
+          { en: "Building user interfaces for AI systems", es: "Construir interfaces de usuario para sistemas de IA", de: "Benutzeroberflächen für KI-Systeme bauen", nl: "Gebruikersinterfaces bouwen voor AI-systemen" },
+          { en: "Optimizing model architecture", es: "Optimizar arquitectura del modelo", de: "Modellarchitektur optimieren", nl: "Modelarchitectuur optimaliseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Prompt engineering designs effective instructions and context to guide language models toward desired behaviors, enabling in-context learning and task adaptation without fine-tuning.",
+          es: "La ingeniería de prompts diseña instrucciones y contexto efectivos para guiar modelos de lenguaje hacia comportamientos deseados, permitiendo aprendizaje en contexto y adaptación de tareas sin ajuste fino.",
+          de: "Prompt Engineering entwirft effektive Anweisungen und Kontext um Sprachmodelle zu gewünschten Verhaltensweisen zu führen, ermöglicht kontextuelles Lernen und Aufgabenanpassung ohne Fine-Tuning.",
+          nl: "Prompt engineering ontwerpt effectieve instructies en context om taalmodellen naar gewenst gedrag te leiden, maakt in-context leren en taakaanpassing mogelijk zonder fine-tuning."
+        }
+      },
+      {
+        question: {
+          en: "What is the scaled dot-product attention mechanism?",
+          es: "¿Qué es el mecanismo de atención de producto punto escalado?",
+          de: "Was ist der skalierte Skalarprodukt-Aufmerksamkeitsmechanismus?",
+          nl: "Wat is het geschaalde punt-product aandachtsmechanisme?"
+        },
+        options: [
+          { en: "Computing attention scores as dot products between queries and keys, scaled by sqrt(dimension), then applying softmax", es: "Calcular puntuaciones de atención como productos punto entre consultas y claves, escalado por sqrt(dimensión), luego aplicar softmax", de: "Aufmerksamkeitsscores als Skalarprodukte zwischen Queries und Keys berechnen, skaliert mit sqrt(Dimension), dann Softmax anwenden", nl: "Aandachtscores berekenen als puntproducten tussen queries en keys, geschaald met sqrt(dimensie), dan softmax toepassen" },
+          { en: "Multiplying attention weights by a scaling factor", es: "Multiplicar pesos de atención por un factor de escala", de: "Aufmerksamkeitsgewichte mit einem Skalierungsfaktor multiplizieren", nl: "Aandachtsgewichten vermenigvuldigen met een schaalfactor" },
+          { en: "Using dot products without normalization", es: "Usar productos punto sin normalización", de: "Skalarprodukte ohne Normalisierung verwenden", nl: "Puntproducten gebruiken zonder normalisatie" },
+          { en: "Scaling input embeddings before attention", es: "Escalar embeddings de entrada antes de atención", de: "Eingabe-Embeddings vor Aufmerksamkeit skalieren", nl: "Invoer-embeddings schalen vóór aandacht" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The scaled dot-product attention computes similarity between queries and keys via dot products, divides by sqrt(d_k) to prevent gradient vanishing, and applies softmax to get attention weights that are used to weight the values.",
+          es: "La atención de producto punto escalado calcula similitud entre consultas y claves vía productos punto, divide por sqrt(d_k) para prevenir desvanecimiento de gradiente, y aplica softmax para obtener pesos de atención usados para ponderar valores.",
+          de: "Die skalierte Skalarprodukt-Aufmerksamkeit berechnet Ähnlichkeit zwischen Queries und Keys via Skalarprodukte, teilt durch sqrt(d_k) um Gradienten-Verschwinden zu verhindern, und wendet Softmax an um Aufmerksamkeitsgewichte zu erhalten die zum Gewichten der Values verwendet werden.",
+          nl: "De geschaalde punt-product aandacht berekent gelijkenis tussen queries en keys via puntproducten, deelt door sqrt(d_k) om gradiënt-verdwijning te voorkomen, en past softmax toe om aandachtsgewichten te krijgen die gebruikt worden om de values te wegen."
+        }
+      },
+      {
+        question: {
+          en: "What is layer normalization in Transformers?",
+          es: "¿Qué es la normalización de capa en Transformadores?",
+          de: "Was ist Layer Normalization in Transformern?",
+          nl: "Wat is laagnormalisatie in Transformers?"
+        },
+        options: [
+          { en: "Normalizing activations across features for each example independently to stabilize training", es: "Normalizar activaciones a través de características para cada ejemplo independientemente para estabilizar entrenamiento", de: "Aktivierungen über Features für jedes Beispiel unabhängig normalisieren um Training zu stabilisieren", nl: "Activaties normaliseren over features voor elk voorbeeld onafhankelijk om training te stabiliseren" },
+          { en: "Normalizing weights between layers", es: "Normalizar pesos entre capas", de: "Gewichte zwischen Schichten normalisieren", nl: "Gewichten normaliseren tussen lagen" },
+          { en: "Scaling layer outputs to unit variance", es: "Escalar salidas de capa a varianza unitaria", de: "Schichtausgaben auf Einheitsvarianz skalieren", nl: "Laaguitvoer schalen naar eenheidvariantie" },
+          { en: "Removing layers during training", es: "Eliminar capas durante entrenamiento", de: "Schichten während des Trainings entfernen", nl: "Lagen verwijderen tijdens training" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Layer normalization normalizes activations across the feature dimension for each training example, computing mean and variance per example. This stabilizes training in deep networks and is more suitable for sequential data than batch normalization.",
+          es: "La normalización de capa normaliza activaciones a través de la dimensión de características para cada ejemplo de entrenamiento, calculando media y varianza por ejemplo. Esto estabiliza entrenamiento en redes profundas y es más adecuado para datos secuenciales que normalización por lote.",
+          de: "Layer Normalization normalisiert Aktivierungen über die Feature-Dimension für jedes Trainingsbeispiel, berechnet Mittelwert und Varianz pro Beispiel. Dies stabilisiert Training in tiefen Netzwerken und ist geeigneter für sequentielle Daten als Batch Normalization.",
+          nl: "Laagnormalisatie normaliseert activaties over de feature-dimensie voor elk trainingsvoorbeeld, berekent gemiddelde en variantie per voorbeeld. Dit stabiliseert training in diepe netwerken en is geschikter voor sequentiële data dan batch normalisatie."
+        }
+      },
+      {
+        question: {
+          en: "What are residual connections (skip connections) in Transformers?",
+          es: "¿Qué son las conexiones residuales (conexiones de salto) en Transformadores?",
+          de: "Was sind Residualverbindungen (Skip Connections) in Transformern?",
+          nl: "Wat zijn residuele verbindingen (skip connections) in Transformers?"
+        },
+        options: [
+          { en: "Direct connections that add the input of a layer to its output, enabling gradient flow in deep networks", es: "Conexiones directas que añaden la entrada de una capa a su salida, permitiendo flujo de gradiente en redes profundas", de: "Direkte Verbindungen die die Eingabe einer Schicht zu ihrer Ausgabe addieren, ermöglichen Gradientenfluss in tiefen Netzwerken", nl: "Directe verbindingen die de invoer van een laag optellen bij de uitvoer, maken gradiëntflow mogelijk in diepe netwerken" },
+          { en: "Connections that skip training iterations", es: "Conexiones que saltan iteraciones de entrenamiento", de: "Verbindungen die Trainingsiterationen überspringen", nl: "Verbindingen die trainingsiteraties overslaan" },
+          { en: "Connections between different models", es: "Conexiones entre diferentes modelos", de: "Verbindungen zwischen verschiedenen Modellen", nl: "Verbindingen tussen verschillende modellen" },
+          { en: "Backup connections for redundancy", es: "Conexiones de respaldo para redundancia", de: "Backup-Verbindungen für Redundanz", nl: "Back-upverbindingen voor redundantie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Residual connections add the input directly to the output of a sublayer (e.g., attention or feedforward), creating the pattern output = sublayer(input) + input. This helps gradients flow through deep networks and makes training more stable.",
+          es: "Las conexiones residuales añaden la entrada directamente a la salida de una subcapa (ej., atención o feedforward), creando el patrón salida = subcapa(entrada) + entrada. Esto ayuda a gradientes fluir a través de redes profundas y hace el entrenamiento más estable.",
+          de: "Residualverbindungen addieren die Eingabe direkt zur Ausgabe einer Unterschicht (z.B. Aufmerksamkeit oder Feedforward), erstellen das Muster Ausgabe = Unterschicht(Eingabe) + Eingabe. Dies hilft Gradienten durch tiefe Netzwerke fließen und macht Training stabiler.",
+          nl: "Residuele verbindingen voegen de invoer direct toe aan de uitvoer van een sublaag (bijv. aandacht of feedforward), creëren het patroon uitvoer = sublaag(invoer) + invoer. Dit helpt gradiënten door diepe netwerken te stromen en maakt training stabieler."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between encoder-only, decoder-only, and encoder-decoder Transformers?",
+          es: "¿Cuál es la diferencia entre Transformadores solo-codificador, solo-decodificador y codificador-decodificador?",
+          de: "Was ist der Unterschied zwischen Encoder-only, Decoder-only und Encoder-Decoder Transformern?",
+          nl: "Wat is het verschil tussen encoder-only, decoder-only en encoder-decoder Transformers?"
+        },
+        options: [
+          { en: "Encoder-only (BERT) for understanding, decoder-only (GPT) for generation, encoder-decoder (T5) for seq2seq tasks", es: "Solo-codificador (BERT) para comprensión, solo-decodificador (GPT) para generación, codificador-decodificador (T5) para tareas seq2seq", de: "Encoder-only (BERT) für Verstehen, Decoder-only (GPT) für Generierung, Encoder-Decoder (T5) für seq2seq-Aufgaben", nl: "Encoder-only (BERT) voor begrip, decoder-only (GPT) voor generatie, encoder-decoder (T5) voor seq2seq taken" },
+          { en: "All three architectures are identical in function", es: "Las tres arquitecturas son idénticas en función", de: "Alle drei Architekturen sind identisch in der Funktion", nl: "Alle drie architecturen zijn identiek in functie" },
+          { en: "Only encoder-decoder can handle text", es: "Solo codificador-decodificador puede manejar texto", de: "Nur Encoder-Decoder kann Text handhaben", nl: "Alleen encoder-decoder kan tekst behandelen" },
+          { en: "Decoder-only models cannot generate text", es: "Modelos solo-decodificador no pueden generar texto", de: "Decoder-only Modelle können keinen Text generieren", nl: "Decoder-only modellen kunnen geen tekst genereren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Encoder-only models (BERT) use bidirectional attention for understanding tasks. Decoder-only models (GPT) use causal (left-to-right) attention for generation. Encoder-decoder models (T5, BART) combine both for sequence-to-sequence tasks like translation.",
+          es: "Modelos solo-codificador (BERT) usan atención bidireccional para tareas de comprensión. Modelos solo-decodificador (GPT) usan atención causal (izquierda-a-derecha) para generación. Modelos codificador-decodificador (T5, BART) combinan ambos para tareas secuencia-a-secuencia como traducción.",
+          de: "Encoder-only Modelle (BERT) verwenden bidirektionale Aufmerksamkeit für Verstehensaufgaben. Decoder-only Modelle (GPT) verwenden kausale (Links-nach-rechts) Aufmerksamkeit für Generierung. Encoder-Decoder Modelle (T5, BART) kombinieren beide für Sequenz-zu-Sequenz-Aufgaben wie Übersetzung.",
+          nl: "Encoder-only modellen (BERT) gebruiken bidirectionele aandacht voor begripstaken. Decoder-only modellen (GPT) gebruiken causale (links-naar-rechts) aandacht voor generatie. Encoder-decoder modellen (T5, BART) combineren beide voor sequentie-naar-sequentie taken zoals vertaling."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of the [CLS] token in BERT?",
+          es: "¿Cuál es el propósito del token [CLS] en BERT?",
+          de: "Was ist der Zweck des [CLS]-Tokens in BERT?",
+          nl: "Wat is het doel van het [CLS]-token in BERT?"
+        },
+        options: [
+          { en: "A special token whose final hidden state represents the entire sequence for classification tasks", es: "Un token especial cuyo estado oculto final representa la secuencia entera para tareas de clasificación", de: "Ein spezielles Token dessen finaler versteckter Zustand die gesamte Sequenz für Klassifikationsaufgaben repräsentiert", nl: "Een speciaal token waarvan de finale verborgen toestand de hele sequentie vertegenwoordigt voor classificatietaken" },
+          { en: "A token that clears the model's memory", es: "Un token que borra la memoria del modelo", de: "Ein Token das den Speicher des Modells löscht", nl: "Een token dat het geheugen van het model wist" },
+          { en: "A token used only during training", es: "Un token usado solo durante entrenamiento", de: "Ein Token das nur während des Trainings verwendet wird", nl: "Een token dat alleen tijdens training wordt gebruikt" },
+          { en: "A delimiter between sentences", es: "Un delimitador entre oraciones", de: "Ein Trennzeichen zwischen Sätzen", nl: "Een scheidingsteken tussen zinnen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "[CLS] (classification) is prepended to every input sequence in BERT. Its final hidden state aggregates information from the entire sequence through self-attention and is used as the sequence representation for classification tasks.",
+          es: "[CLS] (clasificación) se antepone a cada secuencia de entrada en BERT. Su estado oculto final agrega información de toda la secuencia a través de auto-atención y se usa como representación de secuencia para tareas de clasificación.",
+          de: "[CLS] (Klassifikation) wird jeder Eingabesequenz in BERT vorangestellt. Sein finaler versteckter Zustand aggregiert Informationen aus der gesamten Sequenz durch Selbstaufmerksamkeit und wird als Sequenzrepräsentation für Klassifikationsaufgaben verwendet.",
+          nl: "[CLS] (classificatie) wordt voorafgegaan aan elke invoersequentie in BERT. De finale verborgen toestand aggregeert informatie uit de hele sequentie via zelf-aandacht en wordt gebruikt als sequentierepresentatie voor classificatietaken."
+        }
+      },
+      {
+        question: {
+          en: "What is the [SEP] token in BERT?",
+          es: "¿Qué es el token [SEP] en BERT?",
+          de: "Was ist das [SEP]-Token in BERT?",
+          nl: "Wat is het [SEP]-token in BERT?"
+        },
+        options: [
+          { en: "A separator token that marks boundaries between different segments in multi-sentence inputs", es: "Un token separador que marca límites entre diferentes segmentos en entradas de múltiples oraciones", de: "Ein Trennzeichen-Token das Grenzen zwischen verschiedenen Segmenten in Mehrsatz-Eingaben markiert", nl: "Een scheidingstoken dat grenzen markeert tussen verschillende segmenten in multi-zin invoer" },
+          { en: "A token for sentence embedding", es: "Un token para embedding de oraciones", de: "Ein Token für Satz-Embedding", nl: "Een token voor zin-embedding" },
+          { en: "A token that ends all sequences", es: "Un token que termina todas las secuencias", de: "Ein Token das alle Sequenzen beendet", nl: "Een token dat alle sequenties beëindigt" },
+          { en: "A special punctuation marker", es: "Un marcador de puntuación especial", de: "Ein spezieller Interpunktionsmarker", nl: "Een speciale interpunctiemarker" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "[SEP] separates different text segments, like question-answer pairs or premise-hypothesis pairs. Combined with segment embeddings, it helps BERT distinguish between multiple sentences in tasks like question answering and natural language inference.",
+          es: "[SEP] separa diferentes segmentos de texto, como pares pregunta-respuesta o pares premisa-hipótesis. Combinado con embeddings de segmento, ayuda a BERT distinguir entre múltiples oraciones en tareas como respuesta a preguntas e inferencia de lenguaje natural.",
+          de: "[SEP] trennt verschiedene Textsegmente, wie Frage-Antwort-Paare oder Prämisse-Hypothese-Paare. Kombiniert mit Segment-Embeddings hilft es BERT zwischen mehreren Sätzen in Aufgaben wie Fragebeantwortung und natürlicher Sprachinferenz zu unterscheiden.",
+          nl: "[SEP] scheidt verschillende tekstsegmenten, zoals vraag-antwoord paren of premise-hypothese paren. Gecombineerd met segment-embeddings helpt het BERT onderscheid te maken tussen meerdere zinnen in taken zoals vraagbeantwoording en natuurlijke taal inferentie."
+        }
+      },
+      {
+        question: {
+          en: "What is next sentence prediction (NSP) in BERT pre-training?",
+          es: "¿Qué es la predicción de siguiente oración (NSP) en pre-entrenamiento de BERT?",
+          de: "Was ist Next Sentence Prediction (NSP) im BERT-Vortraining?",
+          nl: "Wat is next sentence prediction (NSP) in BERT pre-training?"
+        },
+        options: [
+          { en: "A pre-training task where the model predicts if two sentences are consecutive in the original text", es: "Una tarea de pre-entrenamiento donde el modelo predice si dos oraciones son consecutivas en el texto original", de: "Eine Vortrainingsaufgabe wo das Modell vorhersagt ob zwei Sätze im Originaltext aufeinanderfolgen", nl: "Een pre-trainingstaak waarbij het model voorspelt of twee zinnen opeenvolgend zijn in de originele tekst" },
+          { en: "Predicting the next word in a sentence", es: "Predecir la siguiente palabra en una oración", de: "Das nächste Wort in einem Satz vorhersagen", nl: "Het volgende woord in een zin voorspellen" },
+          { en: "Generating the next sentence automatically", es: "Generar la siguiente oración automáticamente", de: "Den nächsten Satz automatisch generieren", nl: "De volgende zin automatisch genereren" },
+          { en: "Ranking sentences by importance", es: "Clasificar oraciones por importancia", de: "Sätze nach Wichtigkeit ordnen", nl: "Zinnen rangschikken op belangrijkheid" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "NSP is a binary classification task where BERT learns to determine if sentence B follows sentence A in the original document. This helps BERT understand sentence relationships, useful for tasks like question answering and natural language inference.",
+          es: "NSP es una tarea de clasificación binaria donde BERT aprende a determinar si la oración B sigue a la oración A en el documento original. Esto ayuda a BERT entender relaciones entre oraciones, útil para tareas como respuesta a preguntas e inferencia de lenguaje natural.",
+          de: "NSP ist eine binäre Klassifikationsaufgabe wo BERT lernt zu bestimmen ob Satz B auf Satz A im Originaldokument folgt. Dies hilft BERT Satzbeziehungen zu verstehen, nützlich für Aufgaben wie Fragebeantwortung und natürliche Sprachinferenz.",
+          nl: "NSP is een binaire classificatietaak waarbij BERT leert te bepalen of zin B volgt op zin A in het originele document. Dit helpt BERT zinrelaties te begrijpen, nuttig voor taken zoals vraagbeantwoording en natuurlijke taal inferentie."
+        }
+      },
+      {
+        question: {
+          en: "What is masked language modeling (MLM)?",
+          es: "¿Qué es el modelado de lenguaje enmascarado (MLM)?",
+          de: "Was ist Masked Language Modeling (MLM)?",
+          nl: "Wat is masked language modeling (MLM)?"
+        },
+        options: [
+          { en: "Randomly masking tokens in input and training the model to predict the masked tokens using bidirectional context", es: "Enmascarar aleatoriamente tokens en entrada y entrenar el modelo para predecir tokens enmascarados usando contexto bidireccional", de: "Zufällig Tokens in Eingabe maskieren und das Modell trainieren um maskierte Tokens mit bidirektionalem Kontext vorherzusagen", nl: "Willekeurig tokens in invoer maskeren en het model trainen om de gemaskeerde tokens te voorspellen met bidirectionele context" },
+          { en: "Hiding model parameters during training", es: "Ocultar parámetros del modelo durante entrenamiento", de: "Modellparameter während des Trainings verbergen", nl: "Modelparameters verbergen tijdens training" },
+          { en: "Removing rare words from training", es: "Eliminar palabras raras del entrenamiento", de: "Seltene Wörter aus dem Training entfernen", nl: "Zeldzame woorden verwijderen uit training" },
+          { en: "Predicting only the last token", es: "Predecir solo el último token", de: "Nur das letzte Token vorhersagen", nl: "Alleen het laatste token voorspellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "MLM is BERT's core pre-training objective: randomly mask 15% of tokens and train the model to predict them using context from both directions. This enables learning rich bidirectional representations of language.",
+          es: "MLM es el objetivo central de pre-entrenamiento de BERT: enmascarar aleatoriamente 15% de tokens y entrenar el modelo para predecirlos usando contexto de ambas direcciones. Esto permite aprender representaciones bidireccionales ricas del lenguaje.",
+          de: "MLM ist BERTs Kern-Vortrainingsziel: 15% der Tokens zufällig maskieren und das Modell trainieren sie mit Kontext aus beiden Richtungen vorherzusagen. Dies ermöglicht das Lernen reichhaltiger bidirektionaler Sprachrepräsentationen.",
+          nl: "MLM is BERT's kern pre-training doelstelling: willekeurig 15% van tokens maskeren en het model trainen om ze te voorspellen met context uit beide richtingen. Dit maakt het leren van rijke bidirectionele taalrepresentaties mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What is causal language modeling?",
+          es: "¿Qué es el modelado de lenguaje causal?",
+          de: "Was ist kausale Sprachmodellierung?",
+          nl: "Wat is causale taalmodellering?"
+        },
+        options: [
+          { en: "Training models to predict the next token given only previous tokens (left-to-right), used in GPT", es: "Entrenar modelos para predecir el siguiente token dados solo tokens anteriores (izquierda-a-derecha), usado en GPT", de: "Modelle trainieren um das nächste Token bei nur vorherigen Tokens (Links-nach-rechts) vorherzusagen, verwendet in GPT", nl: "Modellen trainen om het volgende token te voorspellen gegeven alleen eerdere tokens (links-naar-rechts), gebruikt in GPT" },
+          { en: "Modeling cause-effect relationships in text", es: "Modelar relaciones causa-efecto en texto", de: "Ursache-Wirkungs-Beziehungen in Text modellieren", nl: "Oorzaak-gevolg relaties in tekst modelleren" },
+          { en: "Predicting tokens bidirectionally", es: "Predecir tokens bidireccionalmente", de: "Tokens bidirektional vorhersagen", nl: "Tokens bidirectioneel voorspellen" },
+          { en: "Training with causal inference methods", es: "Entrenar con métodos de inferencia causal", de: "Mit kausalen Inferenzmethoden trainieren", nl: "Trainen met causale inferentiemethoden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Causal (autoregressive) language modeling predicts each token based only on preceding context, using masked self-attention to prevent looking ahead. This is ideal for text generation as it naturally produces sequences left-to-right.",
+          es: "El modelado de lenguaje causal (autoregresivo) predice cada token basado solo en contexto precedente, usando auto-atención enmascarada para prevenir mirar adelante. Esto es ideal para generación de texto ya que produce secuencias naturalmente de izquierda-a-derecha.",
+          de: "Kausale (autoregressive) Sprachmodellierung sagt jedes Token nur basierend auf vorausgehendem Kontext vorher, verwendet maskierte Selbstaufmerksamkeit um Vorausschauen zu verhindern. Dies ist ideal für Textgenerierung da es natürlich Sequenzen Links-nach-rechts produziert.",
+          nl: "Causale (autoregressieve) taalmodellering voorspelt elk token alleen gebaseerd op voorafgaande context, gebruikt gemaskeerde zelf-aandacht om vooruitkijken te voorkomen. Dit is ideaal voor tekstgeneratie omdat het natuurlijk sequenties links-naar-rechts produceert."
+        }
+      },
+      {
+        question: {
+          en: "What is tokenization in modern Transformer models?",
+          es: "¿Qué es la tokenización en modelos Transformer modernos?",
+          de: "Was ist Tokenisierung in modernen Transformer-Modellen?",
+          nl: "Wat is tokenisatie in moderne Transformer-modellen?"
+        },
+        options: [
+          { en: "Breaking text into subword units using algorithms like BPE, WordPiece, or SentencePiece", es: "Dividir texto en unidades de subpalabras usando algoritmos como BPE, WordPiece, o SentencePiece", de: "Text in Subwort-Einheiten aufteilen mit Algorithmen wie BPE, WordPiece oder SentencePiece", nl: "Tekst opsplitsen in subwoord-eenheden met algoritmen zoals BPE, WordPiece, of SentencePiece" },
+          { en: "Converting text to numbers", es: "Convertir texto a números", de: "Text in Zahlen umwandeln", nl: "Tekst omzetten naar getallen" },
+          { en: "Splitting text only at whitespace", es: "Dividir texto solo en espacios en blanco", de: "Text nur bei Leerzeichen aufteilen", nl: "Tekst alleen bij witruimte splitsen" },
+          { en: "Creating tokens for each character", es: "Crear tokens para cada carácter", de: "Tokens für jedes Zeichen erstellen", nl: "Tokens maken voor elk karakter" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Modern tokenization uses subword algorithms that balance vocabulary size with representation quality. This handles rare words, morphological variations, and out-of-vocabulary terms better than word-level or character-level tokenization.",
+          es: "La tokenización moderna usa algoritmos de subpalabras que balancean tamaño de vocabulario con calidad de representación. Esto maneja mejor palabras raras, variaciones morfológicas, y términos fuera de vocabulario que tokenización a nivel de palabra o carácter.",
+          de: "Moderne Tokenisierung verwendet Subwort-Algorithmen die Vokabulargröße mit Repräsentationsqualität ausbalancieren. Dies handhabt seltene Wörter, morphologische Variationen und Out-of-Vocabulary-Terme besser als Wort-Level oder Zeichen-Level Tokenisierung.",
+          nl: "Moderne tokenisatie gebruikt subwoord-algoritmen die vocabulairegrootte balanceren met representatiekwaliteit. Dit behandelt zeldzame woorden, morfologische variaties en out-of-vocabulary termen beter dan woord-niveau of karakter-niveau tokenisatie."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of segment embeddings in BERT?",
+          es: "¿Cuál es el propósito de los embeddings de segmento en BERT?",
+          de: "Was ist der Zweck von Segment-Embeddings in BERT?",
+          nl: "Wat is het doel van segment-embeddings in BERT?"
+        },
+        options: [
+          { en: "To distinguish between different sentences or text segments in multi-segment inputs", es: "Distinguir entre diferentes oraciones o segmentos de texto en entradas de múltiples segmentos", de: "Um zwischen verschiedenen Sätzen oder Textsegmenten in Mehrsegment-Eingaben zu unterscheiden", nl: "Om onderscheid te maken tussen verschillende zinnen of tekstsegmenten in multi-segment invoer" },
+          { en: "To segment long texts into chunks", es: "Segmentar textos largos en fragmentos", de: "Lange Texte in Chunks segmentieren", nl: "Lange teksten segmenteren in chunks" },
+          { en: "To create hierarchical representations", es: "Crear representaciones jerárquicas", de: "Hierarchische Repräsentationen erstellen", nl: "Hiërarchische representaties maken" },
+          { en: "To compress embeddings", es: "Comprimir embeddings", de: "Embeddings komprimieren", nl: "Embeddings comprimeren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Segment embeddings are learned vectors added to token embeddings to indicate which segment/sentence a token belongs to (segment A or B). This helps BERT handle sentence pairs in tasks like question answering and NLI.",
+          es: "Los embeddings de segmento son vectores aprendidos añadidos a embeddings de tokens para indicar a qué segmento/oración pertenece un token (segmento A o B). Esto ayuda a BERT manejar pares de oraciones en tareas como respuesta a preguntas y NLI.",
+          de: "Segment-Embeddings sind gelernte Vektoren die zu Token-Embeddings hinzugefügt werden um anzuzeigen zu welchem Segment/Satz ein Token gehört (Segment A oder B). Dies hilft BERT Satzpaare in Aufgaben wie Fragebeantwortung und NLI zu handhaben.",
+          nl: "Segment-embeddings zijn geleerde vectoren toegevoegd aan token-embeddings om aan te geven tot welk segment/zin een token behoort (segment A of B). Dit helpt BERT zinsparen te behandelen in taken zoals vraagbeantwoording en NLI."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between extractive and abstractive summarization?",
+          es: "¿Cuál es la diferencia entre resumización extractiva y abstractiva?",
+          de: "Was ist der Unterschied zwischen extraktiver und abstraktiver Zusammenfassung?",
+          nl: "Wat is het verschil tussen extractieve en abstractieve samenvatting?"
+        },
+        options: [
+          { en: "Extractive selects sentences from the original text, abstractive generates new text that captures the meaning", es: "Extractiva selecciona oraciones del texto original, abstractiva genera nuevo texto que captura el significado", de: "Extraktiv wählt Sätze aus dem Originaltext aus, abstraktiv generiert neuen Text der die Bedeutung erfasst", nl: "Extractief selecteert zinnen uit de originele tekst, abstractief genereert nieuwe tekst die de betekenis vastlegt" },
+          { en: "Extractive is always shorter than abstractive", es: "Extractiva es siempre más corta que abstractiva", de: "Extraktiv ist immer kürzer als abstraktiv", nl: "Extractief is altijd korter dan abstractief" },
+          { en: "Abstractive only works with numerical data", es: "Abstractiva solo funciona con datos numéricos", de: "Abstraktiv funktioniert nur mit numerischen Daten", nl: "Abstractief werkt alleen met numerieke gegevens" },
+          { en: "Extractive requires more computational resources", es: "Extractiva requiere más recursos computacionales", de: "Extraktiv benötigt mehr Rechenressourcen", nl: "Extractief vereist meer computationele bronnen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Extractive summarization identifies and extracts important sentences/phrases from the source. Abstractive summarization understands the content and generates new text, potentially using words not in the original, like human-written summaries.",
+          es: "La resumización extractiva identifica y extrae oraciones/frases importantes de la fuente. La resumización abstractiva entiende el contenido y genera nuevo texto, potencialmente usando palabras no en el original, como resúmenes escritos por humanos.",
+          de: "Extraktive Zusammenfassung identifiziert und extrahiert wichtige Sätze/Phrasen aus der Quelle. Abstraktive Zusammenfassung versteht den Inhalt und generiert neuen Text, potenziell mit Wörtern nicht im Original, wie von Menschen geschriebene Zusammenfassungen.",
+          nl: "Extractieve samenvatting identificeert en extraheert belangrijke zinnen/zinsdelen uit de bron. Abstractieve samenvatting begrijpt de inhoud en genereert nieuwe tekst, mogelijk met woorden niet in het origineel, zoals door mensen geschreven samenvattingen."
+        }
+      },
+      {
+        question: {
+          en: "What is the vanishing gradient problem and how do Transformers address it?",
+          es: "¿Qué es el problema del gradiente que desaparece y cómo lo abordan los Transformadores?",
+          de: "Was ist das Problem verschwindender Gradienten und wie adressieren Transformer es?",
+          nl: "Wat is het probleem van verdwijnende gradiënten en hoe pakken Transformers dit aan?"
+        },
+        options: [
+          { en: "Gradients become very small in deep networks; Transformers use residual connections and layer normalization to maintain gradient flow", es: "Los gradientes se vuelven muy pequeños en redes profundas; Transformadores usan conexiones residuales y normalización de capa para mantener flujo de gradiente", de: "Gradienten werden sehr klein in tiefen Netzwerken; Transformer verwenden Residualverbindungen und Layer Normalization um Gradientenfluss zu erhalten", nl: "Gradiënten worden zeer klein in diepe netwerken; Transformers gebruiken residuele verbindingen en laagnormalisatie om gradiëntflow te behouden" },
+          { en: "Gradients disappear completely; Transformers solve this with more data", es: "Los gradientes desaparecen completamente; Transformadores lo resuelven con más datos", de: "Gradienten verschwinden vollständig; Transformer lösen dies mit mehr Daten", nl: "Gradiënten verdwijnen volledig; Transformers lossen dit op met meer data" },
+          { en: "Only RNNs have this problem", es: "Solo las RNN tienen este problema", de: "Nur RNNs haben dieses Problem", nl: "Alleen RNN's hebben dit probleem" },
+          { en: "Transformers are immune to gradient problems", es: "Transformadores son inmunes a problemas de gradiente", de: "Transformer sind immun gegen Gradientenprobleme", nl: "Transformers zijn immuun voor gradiëntproblemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In deep networks, gradients can become exponentially small during backpropagation, making training difficult. Transformers mitigate this with residual connections (providing direct gradient paths) and layer normalization (stabilizing activations).",
+          es: "En redes profundas, los gradientes pueden volverse exponencialmente pequeños durante retropropagación, dificultando entrenamiento. Transformadores mitigan esto con conexiones residuales (proporcionando rutas de gradiente directas) y normalización de capa (estabilizando activaciones).",
+          de: "In tiefen Netzwerken können Gradienten während Backpropagation exponentiell klein werden, was Training erschwert. Transformer mildern dies mit Residualverbindungen (direkte Gradientenpfade bereitstellend) und Layer Normalization (Aktivierungen stabilisierend).",
+          nl: "In diepe netwerken kunnen gradiënten exponentieel klein worden tijdens backpropagation, wat training moeilijk maakt. Transformers verzachten dit met residuele verbindingen (directe gradiëntpaden biedend) en laagnormalisatie (activaties stabiliserend)."
+        }
+      },
+      {
+        question: {
+          en: "What is temperature in language model sampling?",
+          es: "¿Qué es la temperatura en muestreo de modelos de lenguaje?",
+          de: "Was ist Temperatur beim Sampling von Sprachmodellen?",
+          nl: "Wat is temperatuur in taalmodel sampling?"
+        },
+        options: [
+          { en: "A parameter that controls randomness in generation by scaling logits before softmax", es: "Un parámetro que controla aleatoriedad en generación escalando logits antes de softmax", de: "Ein Parameter der Zufälligkeit in Generierung steuert durch Skalierung von Logits vor Softmax", nl: "Een parameter die willekeur in generatie regelt door logits te schalen vóór softmax" },
+          { en: "The computational heat generated during inference", es: "El calor computacional generado durante inferencia", de: "Die rechnerische Wärme die während Inferenz erzeugt wird", nl: "De computationele warmte gegenereerd tijdens inferentie" },
+          { en: "Training speed adjustment", es: "Ajuste de velocidad de entrenamiento", de: "Trainingsgeschwindigkeitsanpassung", nl: "Trainingssnelheidsaanpassing" },
+          { en: "Model size optimization", es: "Optimización de tamaño del modelo", de: "Modellgrößenoptimierung", nl: "Modelgrootte-optimalisatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Temperature (T) divides logits before softmax: higher T (>1) makes output more random/creative, lower T (<1) makes it more deterministic/focused. T=1 is neutral, T→0 approaches greedy sampling.",
+          es: "La temperatura (T) divide logits antes de softmax: T más alta (>1) hace salida más aleatoria/creativa, T más baja (<1) la hace más determinista/enfocada. T=1 es neutral, T→0 se aproxima a muestreo codicioso.",
+          de: "Temperatur (T) teilt Logits vor Softmax: höhere T (>1) macht Ausgabe zufälliger/kreativer, niedrigere T (<1) macht sie deterministischer/fokussierter. T=1 ist neutral, T→0 nähert sich gierigem Sampling.",
+          nl: "Temperatuur (T) deelt logits vóór softmax: hogere T (>1) maakt uitvoer willekeuriger/creatiever, lagere T (<1) maakt het deterministischer/gefocuster. T=1 is neutraal, T→0 benadert greedy sampling."
+        }
+      },
+      {
+        question: {
+          en: "What is top-k sampling in text generation?",
+          es: "¿Qué es el muestreo top-k en generación de texto?",
+          de: "Was ist Top-k Sampling in Textgenerierung?",
+          nl: "Wat is top-k sampling in tekstgeneratie?"
+        },
+        options: [
+          { en: "Sampling from only the k most probable next tokens at each step", es: "Muestrear solo de los k tokens siguientes más probables en cada paso", de: "Nur aus den k wahrscheinlichsten nächsten Tokens bei jedem Schritt samplen", nl: "Alleen samplen uit de k meest waarschijnlijke volgende tokens bij elke stap" },
+          { en: "Selecting the top k tokens deterministically", es: "Seleccionar los top k tokens determinísticamente", de: "Die Top-k Tokens deterministisch auswählen", nl: "De top k tokens deterministisch selecteren" },
+          { en: "Generating k alternative outputs", es: "Generar k salidas alternativas", de: "K alternative Ausgaben generieren", nl: "K alternatieve outputs genereren" },
+          { en: "Using k different models", es: "Usar k modelos diferentes", de: "K verschiedene Modelle verwenden", nl: "K verschillende modellen gebruiken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Top-k sampling restricts sampling to the k highest probability tokens, filtering out unlikely options. This balances diversity and quality, preventing the model from selecting very improbable tokens while maintaining variability.",
+          es: "El muestreo top-k restringe muestreo a los k tokens de mayor probabilidad, filtrando opciones improbables. Esto balancea diversidad y calidad, previniendo que el modelo seleccione tokens muy improbables mientras mantiene variabilidad.",
+          de: "Top-k Sampling beschränkt Sampling auf die k höchstwahrscheinlichen Tokens, filtert unwahrscheinliche Optionen aus. Dies balanciert Diversität und Qualität, verhindert dass das Modell sehr unwahrscheinliche Tokens auswählt während Variabilität erhalten bleibt.",
+          nl: "Top-k sampling beperkt sampling tot de k hoogst waarschijnlijke tokens, filtert onwaarschijnlijke opties uit. Dit balanceert diversiteit en kwaliteit, voorkomt dat het model zeer onwaarschijnlijke tokens selecteert terwijl variabiliteit behouden blijft."
+        }
+      },
+      {
+        question: {
+          en: "What is nucleus (top-p) sampling?",
+          es: "¿Qué es el muestreo de núcleo (top-p)?",
+          de: "Was ist Nucleus (Top-p) Sampling?",
+          nl: "Wat is nucleus (top-p) sampling?"
+        },
+        options: [
+          { en: "Sampling from the smallest set of tokens whose cumulative probability exceeds threshold p", es: "Muestrear del conjunto más pequeño de tokens cuya probabilidad acumulativa excede umbral p", de: "Aus der kleinsten Menge von Tokens samplen deren kumulative Wahrscheinlichkeit Schwellenwert p überschreitet", nl: "Samplen uit de kleinste set tokens waarvan de cumulatieve waarschijnlijkheid drempel p overschrijdt" },
+          { en: "Selecting tokens from the center of the distribution", es: "Seleccionar tokens del centro de la distribución", de: "Tokens aus der Mitte der Verteilung auswählen", nl: "Tokens selecteren uit het midden van de verdeling" },
+          { en: "Using only p% of the vocabulary", es: "Usar solo p% del vocabulario", de: "Nur p% des Vokabulars verwenden", nl: "Alleen p% van de vocabulaire gebruiken" },
+          { en: "Sampling with p probability", es: "Muestrear con probabilidad p", de: "Mit Wahrscheinlichkeit p samplen", nl: "Samplen met waarschijnlijkheid p" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Nucleus sampling dynamically adjusts the candidate set size based on probability distribution. It selects the smallest set of top tokens whose cumulative probability ≥ p (e.g., 0.9), adapting to distribution sharpness better than fixed top-k.",
+          es: "El muestreo de núcleo ajusta dinámicamente el tamaño del conjunto candidato basado en distribución de probabilidad. Selecciona el conjunto más pequeño de tokens top cuya probabilidad acumulativa ≥ p (ej., 0.9), adaptándose a nitidez de distribución mejor que top-k fijo.",
+          de: "Nucleus Sampling passt die Kandidatenmengengröße dynamisch basierend auf Wahrscheinlichkeitsverteilung an. Es wählt die kleinste Menge von Top-Tokens deren kumulative Wahrscheinlichkeit ≥ p (z.B. 0.9), passt sich an Verteilungsschärfe besser an als festes Top-k.",
+          nl: "Nucleus sampling past de kandidatensetgrootte dynamisch aan op basis van waarschijnlijkheidsverdeling. Het selecteert de kleinste set van top tokens waarvan de cumulatieve waarschijnlijkheid ≥ p (bijv. 0.9), past zich aan aan verdeling scherpte beter dan vast top-k."
+        }
+      },
+      {
+        question: {
+          en: "What is instruction tuning (instruction fine-tuning)?",
+          es: "¿Qué es el ajuste de instrucciones (ajuste fino de instrucciones)?",
+          de: "Was ist Instruction Tuning (Instruktions-Fine-Tuning)?",
+          nl: "Wat is instruction tuning (instructie fine-tuning)?"
+        },
+        options: [
+          { en: "Fine-tuning language models on diverse tasks formatted as natural language instructions to improve zero-shot generalization", es: "Ajustar fino modelos de lenguaje en tareas diversas formateadas como instrucciones de lenguaje natural para mejorar generalización de cero ejemplos", de: "Sprachmodelle auf vielfältigen Aufgaben formatiert als natürlichsprachliche Instruktionen feinabstimmen um Zero-Shot-Generalisierung zu verbessern", nl: "Taalmodellen fine-tunen op diverse taken geformatteerd als natuurlijke taalinstructies om zero-shot generalisatie te verbeteren" },
+          { en: "Teaching models to follow programming instructions", es: "Enseñar a modelos a seguir instrucciones de programación", de: "Modelle lehren Programmierbefehlen zu folgen", nl: "Modellen leren programmeerinstructies te volgen" },
+          { en: "Creating user manuals for models", es: "Crear manuales de usuario para modelos", de: "Benutzerhandbücher für Modelle erstellen", nl: "Gebruikershandleidingen maken voor modellen" },
+          { en: "Optimizing instruction sets for CPUs", es: "Optimizar conjuntos de instrucciones para CPUs", de: "Instruktionssätze für CPUs optimieren", nl: "Instructiesets optimaliseren voor CPU's" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Instruction tuning trains models on many tasks phrased as instructions (e.g., 'Translate to French:', 'Summarize:'). This teaches models to follow instructions generally, enabling better zero-shot performance on new tasks.",
+          es: "El ajuste de instrucciones entrena modelos en muchas tareas formuladas como instrucciones (ej., 'Traducir al francés:', 'Resumir:'). Esto enseña a modelos a seguir instrucciones generalmente, permitiendo mejor rendimiento de cero ejemplos en nuevas tareas.",
+          de: "Instruction Tuning trainiert Modelle auf vielen Aufgaben formuliert als Instruktionen (z.B. 'Ins Französische übersetzen:', 'Zusammenfassen:'). Dies lehrt Modelle Instruktionen allgemein zu folgen, ermöglicht bessere Zero-Shot-Leistung bei neuen Aufgaben.",
+          nl: "Instruction tuning traint modellen op veel taken geformuleerd als instructies (bijv. 'Vertaal naar Frans:', 'Vat samen:'). Dit leert modellen instructies algemeen te volgen, maakt betere zero-shot prestaties mogelijk bij nieuwe taken."
+        }    },
+    {
+      question: {en: "What is strategy in games?", es: "What is strategy in games?", de: "What is strategy in games?", nl: "What is strategy in games?"},
+      options: [
+        {en: "Planning to achieve objectives", es: "Planning to achieve objectives", de: "Planning to achieve objectives", nl: "Planning to achieve objectives"},
+        {en: "Random moves", es: "Random moves", de: "Random moves", nl: "Random moves"},
+        {en: "Luck only", es: "Luck only", de: "Luck only", nl: "Luck only"},
+        {en: "No planning", es: "No planning", de: "No planning", nl: "No planning"}
+      ],
+      correct: 0,
+      explanation: {en: "Strategy involves planning and decision-making to achieve game objectives.", es: "Strategy involves planning and decision-making to achieve game objectives.", de: "Strategy involves planning and decision-making to achieve game objectives.", nl: "Strategy involves planning and decision-making to achieve game objectives."}
+
       }
     ]
   };

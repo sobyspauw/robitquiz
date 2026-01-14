@@ -426,7 +426,427 @@
           es: "Los primeros dinosaurios tenían extremidades traseras proporcionalmente más largas comparadas con sus extremidades delanteras, lo que permitía correr bípedo eficientemente. Esto les dio ventajas de velocidad tanto para cazar presas como para escapar de depredadores.",
           de: "Frühe Dinosaurier hatten proportional längere Hinterbeine im Vergleich zu ihren Vorderbeinen, was effizientes bipedes Laufen ermöglichte. Dies verschaffte ihnen Geschwindigkeitsvorteile sowohl bei der Jagd auf Beute als auch beim Entkommen vor Raubtieren.",
           nl: "Vroege dinosaurussen hadden proportioneel langere achterpoten vergeleken met hun voorpoten, wat efficiënt tweevoetig rennen mogelijk maakte. Dit gaf hen snelheidsvoordelen voor zowel het jagen op prooi als het ontsnappen aan roofdieren."
-        }
+        }    },
+    {
+      question: {
+        en: "What was the first period with dinosaurs?",
+        es: "What was the first period with dinosaurs?",
+        de: "What was the first period with dinosaurs?",
+        nl: "What was the first period with dinosaurs?"
+      },
+      options: [
+        { en: "Triassic Period", es: "Triassic Period", de: "Triassic Period", nl: "Triassic Period" },
+        { en: "Jurassic Period", es: "Jurassic Period", de: "Jurassic Period", nl: "Jurassic Period" },
+        { en: "Cretaceous Period", es: "Cretaceous Period", de: "Cretaceous Period", nl: "Cretaceous Period" },
+        { en: "Permian Period", es: "Permian Period", de: "Permian Period", nl: "Permian Period" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Dinosaurs first appeared in the Late Triassic Period, around 230 million years ago.",
+        es: "Dinosaurs first appeared in the Late Triassic Period, around 230 million years ago.",
+        de: "Dinosaurs first appeared in the Late Triassic Period, around 230 million years ago.",
+        nl: "Dinosaurs first appeared in the Late Triassic Period, around 230 million years ago."
+      }
+    },
+    {
+      question: {
+        en: "What is Eoraptor?",
+        es: "What is Eoraptor?",
+        de: "What is Eoraptor?",
+        nl: "What is Eoraptor?"
+      },
+      options: [
+        { en: "One of the earliest known dinosaurs", es: "One of the earliest known dinosaurs", de: "One of the earliest known dinosaurs", nl: "One of the earliest known dinosaurs" },
+        { en: "First bird", es: "First bird", de: "First bird", nl: "First bird" },
+        { en: "Early mammal", es: "Early mammal", de: "Early mammal", nl: "Early mammal" },
+        { en: "Large predator", es: "Large predator", de: "Large predator", nl: "Large predator" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Eoraptor is one of the earliest and most primitive dinosaurs, living about 230 million years ago.",
+        es: "Eoraptor is one of the earliest and most primitive dinosaurs, living about 230 million years ago.",
+        de: "Eoraptor is one of the earliest and most primitive dinosaurs, living about 230 million years ago.",
+        nl: "Eoraptor is one of the earliest and most primitive dinosaurs, living about 230 million years ago."
+      }
+    },
+    {
+      question: {
+        en: "How big were the first dinosaurs?",
+        es: "How big were the first dinosaurs?",
+        de: "How big were the first dinosaurs?",
+        nl: "How big were the first dinosaurs?"
+      },
+      options: [
+        { en: "Small, about the size of a dog or turkey", es: "Small, about the size of a dog or turkey", de: "Small, about the size of a dog or turkey", nl: "Small, about the size of a dog or turkey" },
+        { en: "Massive like T-Rex", es: "Massive like T-Rex", de: "Massive like T-Rex", nl: "Massive like T-Rex" },
+        { en: "Tiny like mice", es: "Tiny like mice", de: "Tiny like mice", nl: "Tiny like mice" },
+        { en: "Medium like horses", es: "Medium like horses", de: "Medium like horses", nl: "Medium like horses" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The earliest dinosaurs were relatively small, typically about the size of a turkey or small dog.",
+        es: "The earliest dinosaurs were relatively small, typically about the size of a turkey or small dog.",
+        de: "The earliest dinosaurs were relatively small, typically about the size of a turkey or small dog.",
+        nl: "The earliest dinosaurs were relatively small, typically about the size of a turkey or small dog."
+      }
+    },
+    {
+      question: {
+        en: "What did early dinosaurs compete with?",
+        es: "What did early dinosaurs compete with?",
+        de: "What did early dinosaurs compete with?",
+        nl: "What did early dinosaurs compete with?"
+      },
+      options: [
+        { en: "Archosaurs and early crocodile relatives", es: "Archosaurs and early crocodile relatives", de: "Archosaurs and early crocodile relatives", nl: "Archosaurs and early crocodile relatives" },
+        { en: "Mammals", es: "Mammals", de: "Mammals", nl: "Mammals" },
+        { en: "Other dinosaurs", es: "Other dinosaurs", de: "Other dinosaurs", nl: "Other dinosaurs" },
+        { en: "Humans", es: "Humans", de: "Humans", nl: "Humans" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Early dinosaurs competed with various archosaurs, including early crocodile relatives and other reptiles.",
+        es: "Early dinosaurs competed with various archosaurs, including early crocodile relatives and other reptiles.",
+        de: "Early dinosaurs competed with various archosaurs, including early crocodile relatives and other reptiles.",
+        nl: "Early dinosaurs competed with various archosaurs, including early crocodile relatives and other reptiles."
+      }
+    },
+    {
+      question: {
+        en: "What supercontinent existed when dinosaurs first appeared?",
+        es: "What supercontinent existed when dinosaurs first appeared?",
+        de: "What supercontinent existed when dinosaurs first appeared?",
+        nl: "What supercontinent existed when dinosaurs first appeared?"
+      },
+      options: [
+        { en: "Pangaea", es: "Pangaea", de: "Pangaea", nl: "Pangaea" },
+        { en: "Gondwana", es: "Gondwana", de: "Gondwana", nl: "Gondwana" },
+        { en: "Laurasia", es: "Laurasia", de: "Laurasia", nl: "Laurasia" },
+        { en: "Rodinia", es: "Rodinia", de: "Rodinia", nl: "Rodinia" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "When dinosaurs first appeared, all continents were joined in the supercontinent Pangaea.",
+        es: "When dinosaurs first appeared, all continents were joined in the supercontinent Pangaea.",
+        de: "When dinosaurs first appeared, all continents were joined in the supercontinent Pangaea.",
+        nl: "When dinosaurs first appeared, all continents were joined in the supercontinent Pangaea."
+      }
+    },
+    {
+      question: {
+        en: "What is Herrerasaurus?",
+        es: "What is Herrerasaurus?",
+        de: "What is Herrerasaurus?",
+        nl: "What is Herrerasaurus?"
+      },
+      options: [
+        { en: "Early carnivorous dinosaur", es: "Early carnivorous dinosaur", de: "Early carnivorous dinosaur", nl: "Early carnivorous dinosaur" },
+        { en: "Early herbivore", es: "Early herbivore", de: "Early herbivore", nl: "Early herbivore" },
+        { en: "Flying reptile", es: "Flying reptile", de: "Flying reptile", nl: "Flying reptile" },
+        { en: "Marine reptile", es: "Marine reptile", de: "Marine reptile", nl: "Marine reptile" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Herrerasaurus was one of the earliest carnivorous dinosaurs, living in the Late Triassic.",
+        es: "Herrerasaurus was one of the earliest carnivorous dinosaurs, living in the Late Triassic.",
+        de: "Herrerasaurus was one of the earliest carnivorous dinosaurs, living in the Late Triassic.",
+        nl: "Herrerasaurus was one of the earliest carnivorous dinosaurs, living in the Late Triassic."
+      }
+    },
+    {
+      question: {
+        en: "What feature distinguishes dinosaurs from other reptiles?",
+        es: "What feature distinguishes dinosaurs from other reptiles?",
+        de: "What feature distinguishes dinosaurs from other reptiles?",
+        nl: "What feature distinguishes dinosaurs from other reptiles?"
+      },
+      options: [
+        { en: "Upright posture with legs under body", es: "Upright posture with legs under body", de: "Upright posture with legs under body", nl: "Upright posture with legs under body" },
+        { en: "Ability to fly", es: "Ability to fly", de: "Ability to fly", nl: "Ability to fly" },
+        { en: "Warm-blooded", es: "Warm-blooded", de: "Warm-blooded", nl: "Warm-blooded" },
+        { en: "Having scales", es: "Having scales", de: "Having scales", nl: "Having scales" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Dinosaurs had an upright posture with legs positioned directly under their bodies, unlike sprawling reptiles.",
+        es: "Dinosaurs had an upright posture with legs positioned directly under their bodies, unlike sprawling reptiles.",
+        de: "Dinosaurs had an upright posture with legs positioned directly under their bodies, unlike sprawling reptiles.",
+        nl: "Dinosaurs had an upright posture with legs positioned directly under their bodies, unlike sprawling reptiles."
+      }
+    },
+    {
+      question: {
+        en: "What was the climate like when dinosaurs first evolved?",
+        es: "What was the climate like when dinosaurs first evolved?",
+        de: "What was the climate like when dinosaurs first evolved?",
+        nl: "What was the climate like when dinosaurs first evolved?"
+      },
+      options: [
+        { en: "Hot and dry with seasonal monsoons", es: "Hot and dry with seasonal monsoons", de: "Hot and dry with seasonal monsoons", nl: "Hot and dry with seasonal monsoons" },
+        { en: "Cold and icy", es: "Cold and icy", de: "Cold and icy", nl: "Cold and icy" },
+        { en: "Tropical rainforest", es: "Tropical rainforest", de: "Tropical rainforest", nl: "Tropical rainforest" },
+        { en: "Frozen tundra", es: "Frozen tundra", de: "Frozen tundra", nl: "Frozen tundra" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Late Triassic climate was generally hot and dry with seasonal monsoons.",
+        es: "The Late Triassic climate was generally hot and dry with seasonal monsoons.",
+        de: "The Late Triassic climate was generally hot and dry with seasonal monsoons.",
+        nl: "The Late Triassic climate was generally hot and dry with seasonal monsoons."
+      }
+    },
+    {
+      question: {
+        en: "What is a dinosauromorph?",
+        es: "What is a dinosauromorph?",
+        de: "What is a dinosauromorph?",
+        nl: "What is a dinosauromorph?"
+      },
+      options: [
+        { en: "Dinosaur ancestor or close relative", es: "Dinosaur ancestor or close relative", de: "Dinosaur ancestor or close relative", nl: "Dinosaur ancestor or close relative" },
+        { en: "Type of dinosaur", es: "Type of dinosaur", de: "Type of dinosaur", nl: "Type of dinosaur" },
+        { en: "Dinosaur predator", es: "Dinosaur predator", de: "Dinosaur predator", nl: "Dinosaur predator" },
+        { en: "Dinosaur fossil", es: "Dinosaur fossil", de: "Dinosaur fossil", nl: "Dinosaur fossil" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Dinosauromorphs are the group including dinosaurs and their closest relatives.",
+        es: "Dinosauromorphs are the group including dinosaurs and their closest relatives.",
+        de: "Dinosauromorphs are the group including dinosaurs and their closest relatives.",
+        nl: "Dinosauromorphs are the group including dinosaurs and their closest relatives."
+      }
+    },
+    {
+      question: {
+        en: "Which came first: meat-eating or plant-eating dinosaurs?",
+        es: "Which came first: meat-eating or plant-eating dinosaurs?",
+        de: "Which came first: meat-eating or plant-eating dinosaurs?",
+        nl: "Which came first: meat-eating or plant-eating dinosaurs?"
+      },
+      options: [
+        { en: "Meat-eating dinosaurs", es: "Meat-eating dinosaurs", de: "Meat-eating dinosaurs", nl: "Meat-eating dinosaurs" },
+        { en: "Plant-eating dinosaurs", es: "Plant-eating dinosaurs", de: "Plant-eating dinosaurs", nl: "Plant-eating dinosaurs" },
+        { en: "Both appeared simultaneously", es: "Both appeared simultaneously", de: "Both appeared simultaneously", nl: "Both appeared simultaneously" },
+        { en: "Neither, they ate insects", es: "Neither, they ate insects", de: "Neither, they ate insects", nl: "Neither, they ate insects" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The earliest dinosaurs were primarily carnivorous; herbivorous dinosaurs evolved later.",
+        es: "The earliest dinosaurs were primarily carnivorous; herbivorous dinosaurs evolved later.",
+        de: "The earliest dinosaurs were primarily carnivorous; herbivorous dinosaurs evolved later.",
+        nl: "The earliest dinosaurs were primarily carnivorous; herbivorous dinosaurs evolved later."
+      }
+    },
+    {
+      question: {
+        en: "What is Coelophysis?",
+        es: "What is Coelophysis?",
+        de: "What is Coelophysis?",
+        nl: "What is Coelophysis?"
+      },
+      options: [
+        { en: "Small early predatory dinosaur", es: "Small early predatory dinosaur", de: "Small early predatory dinosaur", nl: "Small early predatory dinosaur" },
+        { en: "Early herbivore", es: "Early herbivore", de: "Early herbivore", nl: "Early herbivore" },
+        { en: "Flying dinosaur", es: "Flying dinosaur", de: "Flying dinosaur", nl: "Flying dinosaur" },
+        { en: "Marine dinosaur", es: "Marine dinosaur", de: "Marine dinosaur", nl: "Marine dinosaur" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Coelophysis was a small, agile predatory dinosaur from the Late Triassic, one of the earliest known.",
+        es: "Coelophysis was a small, agile predatory dinosaur from the Late Triassic, one of the earliest known.",
+        de: "Coelophysis was a small, agile predatory dinosaur from the Late Triassic, one of the earliest known.",
+        nl: "Coelophysis was a small, agile predatory dinosaur from the Late Triassic, one of the earliest known."
+      }
+    },
+    {
+      question: {
+        en: "What caused the Triassic-Jurassic extinction?",
+        es: "What caused the Triassic-Jurassic extinction?",
+        de: "What caused the Triassic-Jurassic extinction?",
+        nl: "What caused the Triassic-Jurassic extinction?"
+      },
+      options: [
+        { en: "Volcanic activity and climate change", es: "Volcanic activity and climate change", de: "Volcanic activity and climate change", nl: "Volcanic activity and climate change" },
+        { en: "Asteroid impact", es: "Asteroid impact", de: "Asteroid impact", nl: "Asteroid impact" },
+        { en: "Ice age", es: "Ice age", de: "Ice age", nl: "Ice age" },
+        { en: "Drought", es: "Drought", de: "Drought", nl: "Drought" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Triassic-Jurassic extinction was likely caused by massive volcanic eruptions and climate change.",
+        es: "The Triassic-Jurassic extinction was likely caused by massive volcanic eruptions and climate change.",
+        de: "The Triassic-Jurassic extinction was likely caused by massive volcanic eruptions and climate change.",
+        nl: "The Triassic-Jurassic extinction was likely caused by massive volcanic eruptions and climate change."
+      }
+    },
+    {
+      question: {
+        en: "How did early dinosaurs differ from later ones?",
+        es: "How did early dinosaurs differ from later ones?",
+        de: "How did early dinosaurs differ from later ones?",
+        nl: "How did early dinosaurs differ from later ones?"
+      },
+      options: [
+        { en: "Smaller, more primitive features", es: "Smaller, more primitive features", de: "Smaller, more primitive features", nl: "Smaller, more primitive features" },
+        { en: "Larger, more advanced", es: "Larger, more advanced", de: "Larger, more advanced", nl: "Larger, more advanced" },
+        { en: "No differences", es: "No differences", de: "No differences", nl: "No differences" },
+        { en: "All could fly", es: "All could fly", de: "All could fly", nl: "All could fly" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Early dinosaurs were generally smaller with more primitive skeletal features than their later descendants.",
+        es: "Early dinosaurs were generally smaller with more primitive skeletal features than their later descendants.",
+        de: "Early dinosaurs were generally smaller with more primitive skeletal features than their later descendants.",
+        nl: "Early dinosaurs were generally smaller with more primitive skeletal features than their later descendants."
+      }
+    },
+    {
+      question: {
+        en: "What is Plateosaurus?",
+        es: "What is Plateosaurus?",
+        de: "What is Plateosaurus?",
+        nl: "What is Plateosaurus?"
+      },
+      options: [
+        { en: "Early large herbivorous dinosaur", es: "Early large herbivorous dinosaur", de: "Early large herbivorous dinosaur", nl: "Early large herbivorous dinosaur" },
+        { en: "Early predator", es: "Early predator", de: "Early predator", nl: "Early predator" },
+        { en: "Flying reptile", es: "Flying reptile", de: "Flying reptile", nl: "Flying reptile" },
+        { en: "Marine reptile", es: "Marine reptile", de: "Marine reptile", nl: "Marine reptile" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Plateosaurus was one of the first large dinosaurs, an early herbivore from the Late Triassic.",
+        es: "Plateosaurus was one of the first large dinosaurs, an early herbivore from the Late Triassic.",
+        de: "Plateosaurus was one of the first large dinosaurs, an early herbivore from the Late Triassic.",
+        nl: "Plateosaurus was one of the first large dinosaurs, an early herbivore from the Late Triassic."
+      }
+    },
+    {
+      question: {
+        en: "What evolved first: bipedal or quadrupedal dinosaurs?",
+        es: "What evolved first: bipedal or quadrupedal dinosaurs?",
+        de: "What evolved first: bipedal or quadrupedal dinosaurs?",
+        nl: "What evolved first: bipedal or quadrupedal dinosaurs?"
+      },
+      options: [
+        { en: "Bipedal dinosaurs", es: "Bipedal dinosaurs", de: "Bipedal dinosaurs", nl: "Bipedal dinosaurs" },
+        { en: "Quadrupedal dinosaurs", es: "Quadrupedal dinosaurs", de: "Quadrupedal dinosaurs", nl: "Quadrupedal dinosaurs" },
+        { en: "Both simultaneously", es: "Both simultaneously", de: "Both simultaneously", nl: "Both simultaneously" },
+        { en: "Neither, they swam", es: "Neither, they swam", de: "Neither, they swam", nl: "Neither, they swam" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The earliest dinosaurs were bipedal; quadrupedal dinosaurs evolved later from bipedal ancestors.",
+        es: "The earliest dinosaurs were bipedal; quadrupedal dinosaurs evolved later from bipedal ancestors.",
+        de: "The earliest dinosaurs were bipedal; quadrupedal dinosaurs evolved later from bipedal ancestors.",
+        nl: "The earliest dinosaurs were bipedal; quadrupedal dinosaurs evolved later from bipedal ancestors."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'dawn of the dinosaurs' called?",
+        es: "What is the 'dawn of the dinosaurs' called?",
+        de: "What is the 'dawn of the dinosaurs' called?",
+        nl: "What is the 'dawn of the dinosaurs' called?"
+      },
+      options: [
+        { en: "Late Triassic Period", es: "Late Triassic Period", de: "Late Triassic Period", nl: "Late Triassic Period" },
+        { en: "Early Jurassic Period", es: "Early Jurassic Period", de: "Early Jurassic Period", nl: "Early Jurassic Period" },
+        { en: "Permian Period", es: "Permian Period", de: "Permian Period", nl: "Permian Period" },
+        { en: "Carboniferous Period", es: "Carboniferous Period", de: "Carboniferous Period", nl: "Carboniferous Period" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Late Triassic Period is often called the 'dawn of the dinosaurs' as this is when they first appeared.",
+        es: "The Late Triassic Period is often called the 'dawn of the dinosaurs' as this is when they first appeared.",
+        de: "The Late Triassic Period is often called the 'dawn of the dinosaurs' as this is when they first appeared.",
+        nl: "The Late Triassic Period is often called the 'dawn of the dinosaurs' as this is when they first appeared."
+      }
+    },
+    {
+      question: {
+        en: "What is Staurikosaurus?",
+        es: "What is Staurikosaurus?",
+        de: "What is Staurikosaurus?",
+        nl: "What is Staurikosaurus?"
+      },
+      options: [
+        { en: "Very early small carnivorous dinosaur", es: "Very early small carnivorous dinosaur", de: "Very early small carnivorous dinosaur", nl: "Very early small carnivorous dinosaur" },
+        { en: "Early herbivore", es: "Early herbivore", de: "Early herbivore", nl: "Early herbivore" },
+        { en: "Flying reptile", es: "Flying reptile", de: "Flying reptile", nl: "Flying reptile" },
+        { en: "Armored dinosaur", es: "Armored dinosaur", de: "Armored dinosaur", nl: "Armored dinosaur" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Staurikosaurus was one of the earliest dinosaurs, a small carnivore from the Late Triassic.",
+        es: "Staurikosaurus was one of the earliest dinosaurs, a small carnivore from the Late Triassic.",
+        de: "Staurikosaurus was one of the earliest dinosaurs, a small carnivore from the Late Triassic.",
+        nl: "Staurikosaurus was one of the earliest dinosaurs, a small carnivore from the Late Triassic."
+      }
+    },
+    {
+      question: {
+        en: "How are dinosaurs classified?",
+        es: "How are dinosaurs classified?",
+        de: "How are dinosaurs classified?",
+        nl: "How are dinosaurs classified?"
+      },
+      options: [
+        { en: "By hip structure: saurischian or ornithischian", es: "By hip structure: saurischian or ornithischian", de: "By hip structure: saurischian or ornithischian", nl: "By hip structure: saurischian or ornithischian" },
+        { en: "By size", es: "By size", de: "By size", nl: "By size" },
+        { en: "By diet", es: "By diet", de: "By diet", nl: "By diet" },
+        { en: "By location", es: "By location", de: "By location", nl: "By location" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Dinosaurs are primarily classified by hip structure into saurischian (lizard-hipped) and ornithischian (bird-hipped).",
+        es: "Dinosaurs are primarily classified by hip structure into saurischian (lizard-hipped) and ornithischian (bird-hipped).",
+        de: "Dinosaurs are primarily classified by hip structure into saurischian (lizard-hipped) and ornithischian (bird-hipped).",
+        nl: "Dinosaurs are primarily classified by hip structure into saurischian (lizard-hipped) and ornithischian (bird-hipped)."
+      }
+    },
+    {
+      question: {
+        en: "What percentage of species survived the Triassic-Jurassic extinction?",
+        es: "What percentage of species survived the Triassic-Jurassic extinction?",
+        de: "What percentage of species survived the Triassic-Jurassic extinction?",
+        nl: "What percentage of species survived the Triassic-Jurassic extinction?"
+      },
+      options: [
+        { en: "About 50%", es: "About 50%", de: "About 50%", nl: "About 50%" },
+        { en: "About 90%", es: "About 90%", de: "About 90%", nl: "About 90%" },
+        { en: "About 10%", es: "About 10%", de: "About 10%", nl: "About 10%" },
+        { en: "About 75%", es: "About 75%", de: "About 75%", nl: "About 75%" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Triassic-Jurassic extinction event killed approximately 50% of all species.",
+        es: "The Triassic-Jurassic extinction event killed approximately 50% of all species.",
+        de: "The Triassic-Jurassic extinction event killed approximately 50% of all species.",
+        nl: "The Triassic-Jurassic extinction event killed approximately 50% of all species."
+      }
+    },
+    {
+      question: {
+        en: "What advantage did early dinosaurs have?",
+        es: "What advantage did early dinosaurs have?",
+        de: "What advantage did early dinosaurs have?",
+        nl: "What advantage did early dinosaurs have?"
+      },
+      options: [
+        { en: "Efficient upright posture and metabolism", es: "Efficient upright posture and metabolism", de: "Efficient upright posture and metabolism", nl: "Efficient upright posture and metabolism" },
+        { en: "Ability to fly", es: "Ability to fly", de: "Ability to fly", nl: "Ability to fly" },
+        { en: "Large size", es: "Large size", de: "Large size", nl: "Large size" },
+        { en: "Armored protection", es: "Armored protection", de: "Armored protection", nl: "Armored protection" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Early dinosaurs' upright posture and possibly more efficient metabolism gave them advantages over competing reptiles.",
+        es: "Early dinosaurs' upright posture and possibly more efficient metabolism gave them advantages over competing reptiles.",
+        de: "Early dinosaurs' upright posture and possibly more efficient metabolism gave them advantages over competing reptiles.",
+        nl: "Early dinosaurs' upright posture and possibly more efficient metabolism gave them advantages over competing reptiles."
+      }
+
       }
     ]
   };

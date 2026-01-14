@@ -426,6 +426,406 @@
           es: "La obra de Descartes de 1637 describe su método para llegar a la verdad y contiene su famosa declaración 'Cogito, ergo sum' (Pienso, luego existo), fundamental para la filosofía occidental moderna.",
           de: "Descartes' Werk von 1637 beschreibt seine Methode zur Wahrheitsfindung und enthält seine berühmte Aussage 'Cogito, ergo sum' (Ich denke, also bin ich), grundlegend für die moderne westliche Philosophie.",
           nl: "Descartes' werk uit 1637 schetst zijn methode voor het bereiken van waarheid en bevat zijn beroemde uitspraak 'Cogito, ergo sum' (Ik denk, dus ik ben), fundamenteel voor de moderne westerse filosofie."
+        }      },
+      {
+        question: {
+          en: "Who wrote A Brief History of Time?",
+          es: "Who wrote A Brief History of Time?",
+          de: "Who wrote A Brief History of Time?",
+          nl: "Who wrote A Brief History of Time?"
+        },
+        options: [
+          { en: "Stephen Hawking", es: "Stephen Hawking", de: "Stephen Hawking", nl: "Stephen Hawking" },
+          { en: "Carl Sagan", es: "Carl Sagan", de: "Carl Sagan", nl: "Carl Sagan" },
+          { en: "Neil deGrasse Tyson", es: "Neil deGrasse Tyson", de: "Neil deGrasse Tyson", nl: "Neil deGrasse Tyson" },
+          { en: "Brian Greene", es: "Brian Greene", de: "Brian Greene", nl: "Brian Greene" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Stephen Hawking wrote A Brief History of Time in 1988 about cosmology.",
+          es: "Stephen Hawking wrote A Brief History of Time in 1988 about cosmology.",
+          de: "Stephen Hawking wrote A Brief History of Time in 1988 about cosmology.",
+          nl: "Stephen Hawking wrote A Brief History of Time in 1988 about cosmology."
+        }      },
+      {
+        question: {
+          en: "Sapiens is by?",
+          es: "Sapiens is by?",
+          de: "Sapiens is by?",
+          nl: "Sapiens is by?"
+        },
+        options: [
+          { en: "Yuval Noah Harari", es: "Yuval Noah Harari", de: "Yuval Noah Harari", nl: "Yuval Noah Harari" },
+          { en: "Jared Diamond", es: "Jared Diamond", de: "Jared Diamond", nl: "Jared Diamond" },
+          { en: "Steven Pinker", es: "Steven Pinker", de: "Steven Pinker", nl: "Steven Pinker" },
+          { en: "Malcolm Gladwell", es: "Malcolm Gladwell", de: "Malcolm Gladwell", nl: "Malcolm Gladwell" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Yuval Noah Harari wrote Sapiens in 2011 about human history.",
+          es: "Yuval Noah Harari wrote Sapiens in 2011 about human history.",
+          de: "Yuval Noah Harari wrote Sapiens in 2011 about human history.",
+          nl: "Yuval Noah Harari wrote Sapiens in 2011 about human history."
+        }      },
+      {
+        question: {
+          en: "Who wrote The Immortal Life of Henrietta Lacks?",
+          es: "Who wrote The Immortal Life of Henrietta Lacks?",
+          de: "Who wrote The Immortal Life of Henrietta Lacks?",
+          nl: "Who wrote The Immortal Life of Henrietta Lacks?"
+        },
+        options: [
+          { en: "Rebecca Skloot", es: "Rebecca Skloot", de: "Rebecca Skloot", nl: "Rebecca Skloot" },
+          { en: "Siddhartha Mukherjee", es: "Siddhartha Mukherjee", de: "Siddhartha Mukherjee", nl: "Siddhartha Mukherjee" },
+          { en: "Atul Gawande", es: "Atul Gawande", de: "Atul Gawande", nl: "Atul Gawande" },
+          { en: "Paul Kalanithi", es: "Paul Kalanithi", de: "Paul Kalanithi", nl: "Paul Kalanithi" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Rebecca Skloot wrote this 2010 book about medical ethics.",
+          es: "Rebecca Skloot wrote this 2010 book about medical ethics.",
+          de: "Rebecca Skloot wrote this 2010 book about medical ethics.",
+          nl: "Rebecca Skloot wrote this 2010 book about medical ethics."
+        }      },
+      {
+        question: {
+          en: "Guns Germs and Steel is by?",
+          es: "Guns Germs and Steel is by?",
+          de: "Guns Germs and Steel is by?",
+          nl: "Guns Germs and Steel is by?"
+        },
+        options: [
+          { en: "Jared Diamond", es: "Jared Diamond", de: "Jared Diamond", nl: "Jared Diamond" },
+          { en: "Yuval Noah Harari", es: "Yuval Noah Harari", de: "Yuval Noah Harari", nl: "Yuval Noah Harari" },
+          { en: "Steven Pinker", es: "Steven Pinker", de: "Steven Pinker", nl: "Steven Pinker" },
+          { en: "Francis Fukuyama", es: "Francis Fukuyama", de: "Francis Fukuyama", nl: "Francis Fukuyama" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jared Diamond wrote Guns Germs and Steel in 1997.",
+          es: "Jared Diamond wrote Guns Germs and Steel in 1997.",
+          de: "Jared Diamond wrote Guns Germs and Steel in 1997.",
+          nl: "Jared Diamond wrote Guns Germs and Steel in 1997."
+        }      },
+      {
+        question: {
+          en: "Who wrote Into Thin Air?",
+          es: "Who wrote Into Thin Air?",
+          de: "Who wrote Into Thin Air?",
+          nl: "Who wrote Into Thin Air?"
+        },
+        options: [
+          { en: "Jon Krakauer", es: "Jon Krakauer", de: "Jon Krakauer", nl: "Jon Krakauer" },
+          { en: "Cheryl Strayed", es: "Cheryl Strayed", de: "Cheryl Strayed", nl: "Cheryl Strayed" },
+          { en: "Sebastian Junger", es: "Sebastian Junger", de: "Sebastian Junger", nl: "Sebastian Junger" },
+          { en: "Erik Larson", es: "Erik Larson", de: "Erik Larson", nl: "Erik Larson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jon Krakauer wrote Into Thin Air in 1997 about Everest disaster.",
+          es: "Jon Krakauer wrote Into Thin Air in 1997 about Everest disaster.",
+          de: "Jon Krakauer wrote Into Thin Air in 1997 about Everest disaster.",
+          nl: "Jon Krakauer wrote Into Thin Air in 1997 about Everest disaster."
+        }      },
+      {
+        question: {
+          en: "The Right Stuff is by?",
+          es: "The Right Stuff is by?",
+          de: "The Right Stuff is by?",
+          nl: "The Right Stuff is by?"
+        },
+        options: [
+          { en: "Tom Wolfe", es: "Tom Wolfe", de: "Tom Wolfe", nl: "Tom Wolfe" },
+          { en: "Norman Mailer", es: "Norman Mailer", de: "Norman Mailer", nl: "Norman Mailer" },
+          { en: "Hunter S. Thompson", es: "Hunter S. Thompson", de: "Hunter S. Thompson", nl: "Hunter S. Thompson" },
+          { en: "Gay Talese", es: "Gay Talese", de: "Gay Talese", nl: "Gay Talese" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tom Wolfe wrote The Right Stuff in 1979 about test pilots.",
+          es: "Tom Wolfe wrote The Right Stuff in 1979 about test pilots.",
+          de: "Tom Wolfe wrote The Right Stuff in 1979 about test pilots.",
+          nl: "Tom Wolfe wrote The Right Stuff in 1979 about test pilots."
+        }      },
+      {
+        question: {
+          en: "Who wrote Thinking Fast and Slow?",
+          es: "Who wrote Thinking Fast and Slow?",
+          de: "Who wrote Thinking Fast and Slow?",
+          nl: "Who wrote Thinking Fast and Slow?"
+        },
+        options: [
+          { en: "Daniel Kahneman", es: "Daniel Kahneman", de: "Daniel Kahneman", nl: "Daniel Kahneman" },
+          { en: "Malcolm Gladwell", es: "Malcolm Gladwell", de: "Malcolm Gladwell", nl: "Malcolm Gladwell" },
+          { en: "Dan Ariely", es: "Dan Ariely", de: "Dan Ariely", nl: "Dan Ariely" },
+          { en: "Nassim Taleb", es: "Nassim Taleb", de: "Nassim Taleb", nl: "Nassim Taleb" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Daniel Kahneman wrote Thinking Fast and Slow in 2011 about psychology.",
+          es: "Daniel Kahneman wrote Thinking Fast and Slow in 2011 about psychology.",
+          de: "Daniel Kahneman wrote Thinking Fast and Slow in 2011 about psychology.",
+          nl: "Daniel Kahneman wrote Thinking Fast and Slow in 2011 about psychology."
+        }      },
+      {
+        question: {
+          en: "The Devil in the White City is by?",
+          es: "The Devil in the White City is by?",
+          de: "The Devil in the White City is by?",
+          nl: "The Devil in the White City is by?"
+        },
+        options: [
+          { en: "Erik Larson", es: "Erik Larson", de: "Erik Larson", nl: "Erik Larson" },
+          { en: "David Grann", es: "David Grann", de: "David Grann", nl: "David Grann" },
+          { en: "Jon Krakauer", es: "Jon Krakauer", de: "Jon Krakauer", nl: "Jon Krakauer" },
+          { en: "Sebastian Junger", es: "Sebastian Junger", de: "Sebastian Junger", nl: "Sebastian Junger" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Erik Larson wrote this 2003 book about 1893 Chicago World Fair.",
+          es: "Erik Larson wrote this 2003 book about 1893 Chicago World Fair.",
+          de: "Erik Larson wrote this 2003 book about 1893 Chicago World Fair.",
+          nl: "Erik Larson wrote this 2003 book about 1893 Chicago World Fair."
+        }      },
+      {
+        question: {
+          en: "Who wrote Quiet about introversion?",
+          es: "Who wrote Quiet about introversion?",
+          de: "Who wrote Quiet about introversion?",
+          nl: "Who wrote Quiet about introversion?"
+        },
+        options: [
+          { en: "Susan Cain", es: "Susan Cain", de: "Susan Cain", nl: "Susan Cain" },
+          { en: "Brene Brown", es: "Brene Brown", de: "Brene Brown", nl: "Brene Brown" },
+          { en: "Carol Dweck", es: "Carol Dweck", de: "Carol Dweck", nl: "Carol Dweck" },
+          { en: "Angela Duckworth", es: "Angela Duckworth", de: "Angela Duckworth", nl: "Angela Duckworth" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Susan Cain wrote Quiet in 2012 about power of introverts.",
+          es: "Susan Cain wrote Quiet in 2012 about power of introverts.",
+          de: "Susan Cain wrote Quiet in 2012 about power of introverts.",
+          nl: "Susan Cain wrote Quiet in 2012 about power of introverts."
+        }      },
+      {
+        question: {
+          en: "In Cold Blood is by?",
+          es: "In Cold Blood is by?",
+          de: "In Cold Blood is by?",
+          nl: "In Cold Blood is by?"
+        },
+        options: [
+          { en: "Truman Capote", es: "Truman Capote", de: "Truman Capote", nl: "Truman Capote" },
+          { en: "Norman Mailer", es: "Norman Mailer", de: "Norman Mailer", nl: "Norman Mailer" },
+          { en: "Tom Wolfe", es: "Tom Wolfe", de: "Tom Wolfe", nl: "Tom Wolfe" },
+          { en: "Joan Didion", es: "Joan Didion", de: "Joan Didion", nl: "Joan Didion" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Truman Capote wrote In Cold Blood in 1966 pioneering true crime genre.",
+          es: "Truman Capote wrote In Cold Blood in 1966 pioneering true crime genre.",
+          de: "Truman Capote wrote In Cold Blood in 1966 pioneering true crime genre.",
+          nl: "Truman Capote wrote In Cold Blood in 1966 pioneering true crime genre."
+        }      },
+      {
+        question: {
+          en: "Who wrote The Emperor of All Maladies?",
+          es: "Who wrote The Emperor of All Maladies?",
+          de: "Who wrote The Emperor of All Maladies?",
+          nl: "Who wrote The Emperor of All Maladies?"
+        },
+        options: [
+          { en: "Siddhartha Mukherjee", es: "Siddhartha Mukherjee", de: "Siddhartha Mukherjee", nl: "Siddhartha Mukherjee" },
+          { en: "Atul Gawande", es: "Atul Gawande", de: "Atul Gawande", nl: "Atul Gawande" },
+          { en: "Paul Kalanithi", es: "Paul Kalanithi", de: "Paul Kalanithi", nl: "Paul Kalanithi" },
+          { en: "Oliver Sacks", es: "Oliver Sacks", de: "Oliver Sacks", nl: "Oliver Sacks" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Siddhartha Mukherjee wrote this 2010 biography of cancer.",
+          es: "Siddhartha Mukherjee wrote this 2010 biography of cancer.",
+          de: "Siddhartha Mukherjee wrote this 2010 biography of cancer.",
+          nl: "Siddhartha Mukherjee wrote this 2010 biography of cancer."
+        }      },
+      {
+        question: {
+          en: "When Breath Becomes Air is by?",
+          es: "When Breath Becomes Air is by?",
+          de: "When Breath Becomes Air is by?",
+          nl: "When Breath Becomes Air is by?"
+        },
+        options: [
+          { en: "Paul Kalanithi", es: "Paul Kalanithi", de: "Paul Kalanithi", nl: "Paul Kalanithi" },
+          { en: "Atul Gawande", es: "Atul Gawande", de: "Atul Gawande", nl: "Atul Gawande" },
+          { en: "Abraham Verghese", es: "Abraham Verghese", de: "Abraham Verghese", nl: "Abraham Verghese" },
+          { en: "Siddhartha Mukherjee", es: "Siddhartha Mukherjee", de: "Siddhartha Mukherjee", nl: "Siddhartha Mukherjee" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Paul Kalanithi wrote this 2016 memoir while dying of cancer.",
+          es: "Paul Kalanithi wrote this 2016 memoir while dying of cancer.",
+          de: "Paul Kalanithi wrote this 2016 memoir while dying of cancer.",
+          nl: "Paul Kalanithi wrote this 2016 memoir while dying of cancer."
+        }      },
+      {
+        question: {
+          en: "Who wrote The Man Who Mistook His Wife for a Hat?",
+          es: "Who wrote The Man Who Mistook His Wife for a Hat?",
+          de: "Who wrote The Man Who Mistook His Wife for a Hat?",
+          nl: "Who wrote The Man Who Mistook His Wife for a Hat?"
+        },
+        options: [
+          { en: "Oliver Sacks", es: "Oliver Sacks", de: "Oliver Sacks", nl: "Oliver Sacks" },
+          { en: "V.S. Ramachandran", es: "V.S. Ramachandran", de: "V.S. Ramachandran", nl: "V.S. Ramachandran" },
+          { en: "Antonio Damasio", es: "Antonio Damasio", de: "Antonio Damasio", nl: "Antonio Damasio" },
+          { en: "Steven Pinker", es: "Steven Pinker", de: "Steven Pinker", nl: "Steven Pinker" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Oliver Sacks wrote this 1985 collection of neurological case studies.",
+          es: "Oliver Sacks wrote this 1985 collection of neurological case studies.",
+          de: "Oliver Sacks wrote this 1985 collection of neurological case studies.",
+          nl: "Oliver Sacks wrote this 1985 collection of neurological case studies."
+        }      },
+      {
+        question: {
+          en: "Freakonomics is by?",
+          es: "Freakonomics is by?",
+          de: "Freakonomics is by?",
+          nl: "Freakonomics is by?"
+        },
+        options: [
+          { en: "Steven Levitt and Stephen Dubner", es: "Steven Levitt and Stephen Dubner", de: "Steven Levitt and Stephen Dubner", nl: "Steven Levitt and Stephen Dubner" },
+          { en: "Malcolm Gladwell", es: "Malcolm Gladwell", de: "Malcolm Gladwell", nl: "Malcolm Gladwell" },
+          { en: "Dan Ariely", es: "Dan Ariely", de: "Dan Ariely", nl: "Dan Ariely" },
+          { en: "Nassim Taleb", es: "Nassim Taleb", de: "Nassim Taleb", nl: "Nassim Taleb" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Levitt and Dubner wrote Freakonomics in 2005.",
+          es: "Levitt and Dubner wrote Freakonomics in 2005.",
+          de: "Levitt and Dubner wrote Freakonomics in 2005.",
+          nl: "Levitt and Dubner wrote Freakonomics in 2005."
+        }      },
+      {
+        question: {
+          en: "Who wrote The Sixth Extinction?",
+          es: "Who wrote The Sixth Extinction?",
+          de: "Who wrote The Sixth Extinction?",
+          nl: "Who wrote The Sixth Extinction?"
+        },
+        options: [
+          { en: "Elizabeth Kolbert", es: "Elizabeth Kolbert", de: "Elizabeth Kolbert", nl: "Elizabeth Kolbert" },
+          { en: "Rachel Carson", es: "Rachel Carson", de: "Rachel Carson", nl: "Rachel Carson" },
+          { en: "Bill McKibben", es: "Bill McKibben", de: "Bill McKibben", nl: "Bill McKibben" },
+          { en: "David Quammen", es: "David Quammen", de: "David Quammen", nl: "David Quammen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Elizabeth Kolbert wrote The Sixth Extinction in 2014.",
+          es: "Elizabeth Kolbert wrote The Sixth Extinction in 2014.",
+          de: "Elizabeth Kolbert wrote The Sixth Extinction in 2014.",
+          nl: "Elizabeth Kolbert wrote The Sixth Extinction in 2014."
+        }      },
+      {
+        question: {
+          en: "The Omnivores Dilemma is by?",
+          es: "The Omnivores Dilemma is by?",
+          de: "The Omnivores Dilemma is by?",
+          nl: "The Omnivores Dilemma is by?"
+        },
+        options: [
+          { en: "Michael Pollan", es: "Michael Pollan", de: "Michael Pollan", nl: "Michael Pollan" },
+          { en: "Eric Schlosser", es: "Eric Schlosser", de: "Eric Schlosser", nl: "Eric Schlosser" },
+          { en: "Marion Nestle", es: "Marion Nestle", de: "Marion Nestle", nl: "Marion Nestle" },
+          { en: "Mark Bittman", es: "Mark Bittman", de: "Mark Bittman", nl: "Mark Bittman" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Michael Pollan wrote The Omnivores Dilemma in 2006.",
+          es: "Michael Pollan wrote The Omnivores Dilemma in 2006.",
+          de: "Michael Pollan wrote The Omnivores Dilemma in 2006.",
+          nl: "Michael Pollan wrote The Omnivores Dilemma in 2006."
+        }      },
+      {
+        question: {
+          en: "Who wrote Bad Blood about Theranos?",
+          es: "Who wrote Bad Blood about Theranos?",
+          de: "Who wrote Bad Blood about Theranos?",
+          nl: "Who wrote Bad Blood about Theranos?"
+        },
+        options: [
+          { en: "John Carreyrou", es: "John Carreyrou", de: "John Carreyrou", nl: "John Carreyrou" },
+          { en: "Michael Lewis", es: "Michael Lewis", de: "Michael Lewis", nl: "Michael Lewis" },
+          { en: "Andrew Ross Sorkin", es: "Andrew Ross Sorkin", de: "Andrew Ross Sorkin", nl: "Andrew Ross Sorkin" },
+          { en: "Bethany McLean", es: "Bethany McLean", de: "Bethany McLean", nl: "Bethany McLean" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "John Carreyrou wrote Bad Blood in 2018 about Theranos fraud.",
+          es: "John Carreyrou wrote Bad Blood in 2018 about Theranos fraud.",
+          de: "John Carreyrou wrote Bad Blood in 2018 about Theranos fraud.",
+          nl: "John Carreyrou wrote Bad Blood in 2018 about Theranos fraud."
+        }      },
+      {
+        question: {
+          en: "The Selfish Gene is by?",
+          es: "The Selfish Gene is by?",
+          de: "The Selfish Gene is by?",
+          nl: "The Selfish Gene is by?"
+        },
+        options: [
+          { en: "Richard Dawkins", es: "Richard Dawkins", de: "Richard Dawkins", nl: "Richard Dawkins" },
+          { en: "E.O. Wilson", es: "E.O. Wilson", de: "E.O. Wilson", nl: "E.O. Wilson" },
+          { en: "Stephen Jay Gould", es: "Stephen Jay Gould", de: "Stephen Jay Gould", nl: "Stephen Jay Gould" },
+          { en: "Carl Sagan", es: "Carl Sagan", de: "Carl Sagan", nl: "Carl Sagan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Richard Dawkins wrote The Selfish Gene in 1976.",
+          es: "Richard Dawkins wrote The Selfish Gene in 1976.",
+          de: "Richard Dawkins wrote The Selfish Gene in 1976.",
+          nl: "Richard Dawkins wrote The Selfish Gene in 1976."
+        }      },
+      {
+        question: {
+          en: "Who wrote Born a Crime?",
+          es: "Who wrote Born a Crime?",
+          de: "Who wrote Born a Crime?",
+          nl: "Who wrote Born a Crime?"
+        },
+        options: [
+          { en: "Trevor Noah", es: "Trevor Noah", de: "Trevor Noah", nl: "Trevor Noah" },
+          { en: "Ta-Nehisi Coates", es: "Ta-Nehisi Coates", de: "Ta-Nehisi Coates", nl: "Ta-Nehisi Coates" },
+          { en: "Barack Obama", es: "Barack Obama", de: "Barack Obama", nl: "Barack Obama" },
+          { en: "Chimamanda Adichie", es: "Chimamanda Adichie", de: "Chimamanda Adichie", nl: "Chimamanda Adichie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Trevor Noah wrote Born a Crime in 2016 about apartheid South Africa.",
+          es: "Trevor Noah wrote Born a Crime in 2016 about apartheid South Africa.",
+          de: "Trevor Noah wrote Born a Crime in 2016 about apartheid South Africa.",
+          nl: "Trevor Noah wrote Born a Crime in 2016 about apartheid South Africa."
+        }      },
+      {
+        question: {
+          en: "The Warmth of Other Suns is by?",
+          es: "The Warmth of Other Suns is by?",
+          de: "The Warmth of Other Suns is by?",
+          nl: "The Warmth of Other Suns is by?"
+        },
+        options: [
+          { en: "Isabel Wilkerson", es: "Isabel Wilkerson", de: "Isabel Wilkerson", nl: "Isabel Wilkerson" },
+          { en: "Ta-Nehisi Coates", es: "Ta-Nehisi Coates", de: "Ta-Nehisi Coates", nl: "Ta-Nehisi Coates" },
+          { en: "Michelle Alexander", es: "Michelle Alexander", de: "Michelle Alexander", nl: "Michelle Alexander" },
+          { en: "Bryan Stevenson", es: "Bryan Stevenson", de: "Bryan Stevenson", nl: "Bryan Stevenson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Isabel Wilkerson wrote this 2010 book about Great Migration.",
+          es: "Isabel Wilkerson wrote this 2010 book about Great Migration.",
+          de: "Isabel Wilkerson wrote this 2010 book about Great Migration.",
+          nl: "Isabel Wilkerson wrote this 2010 book about Great Migration."
         }
       }
     ]

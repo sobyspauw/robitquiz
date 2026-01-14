@@ -427,6 +427,425 @@
           de: "Kreuzvalidierung teilt Daten in mehrere Folds auf, trainiert auf einigen Folds und testet auf anderen, wiederholt diesen Prozess um eine robuste Schätzung der Modellleistung zu erhalten und Overfitting zu erkennen.",
           nl: "Cross-validation verdeelt data in meerdere folds, traint op sommige folds en test op anderen, herhaalt dit proces om een robuuste schatting van modelprestaties te krijgen en overfitting te detecteren."
         }
+      },
+      {
+        question: {
+          en: "What is the kernel trick in SVM?",
+          es: "¿Qué es el truco del kernel en SVM?",
+          de: "Was ist der Kernel-Trick in SVM?",
+          nl: "Wat is de kernel trick in SVM?"
+        },
+        options: [
+          { en: "Transforming data into higher dimensions to make it linearly separable", es: "Transformar datos en dimensiones más altas para hacerlos linealmente separables", de: "Daten in höhere Dimensionen transformieren um sie linear trennbar zu machen", nl: "Data transformeren naar hogere dimensies om het lineair scheidbaar te maken" },
+          { en: "A trick to speed up kernel operations", es: "Un truco para acelerar operaciones de kernel", de: "Ein Trick um Kernel-Operationen zu beschleunigen", nl: "Een truc om kernel operaties te versnellen" },
+          { en: "Using multiple kernels simultaneously", es: "Usar múltiples kernels simultáneamente", de: "Mehrere Kernel gleichzeitig verwenden", nl: "Meerdere kernels tegelijkertijd gebruiken" },
+          { en: "Removing the kernel from computation", es: "Eliminar el kernel del cálculo", de: "Kernel aus der Berechnung entfernen", nl: "Kernel verwijderen uit berekening" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The kernel trick allows SVMs to efficiently operate in high-dimensional space without explicitly computing coordinates there, making non-linear separation possible while keeping computation tractable.",
+          es: "El truco del kernel permite a SVMs operar eficientemente en espacio de alta dimensión sin calcular explícitamente coordenadas allí, haciendo posible separación no lineal mientras mantiene el cálculo manejable.",
+          de: "Der Kernel-Trick ermöglicht SVMs effizient im hochdimensionalen Raum zu operieren ohne explizit Koordinaten dort zu berechnen, macht nicht-lineare Trennung möglich während Berechnung handhabbar bleibt.",
+          nl: "De kernel trick stelt SVMs in staat efficiënt te opereren in hoogdimensionale ruimte zonder expliciet coördinaten daar te berekenen, maakt niet-lineaire scheiding mogelijk terwijl berekening beheersbaar blijft."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between parametric and non-parametric models?",
+          es: "¿Cuál es la diferencia entre modelos paramétricos y no paramétricos?",
+          de: "Was ist der Unterschied zwischen parametrischen und nicht-parametrischen Modellen?",
+          nl: "Wat is het verschil tussen parametrische en non-parametrische modellen?"
+        },
+        options: [
+          { en: "Parametric models have fixed parameters, non-parametric grow with data", es: "Modelos paramétricos tienen parámetros fijos, no paramétricos crecen con datos", de: "Parametrische Modelle haben feste Parameter, nicht-parametrische wachsen mit Daten", nl: "Parametrische modellen hebben vaste parameters, non-parametrische groeien met data" },
+          { en: "Parametric models are always better", es: "Modelos paramétricos son siempre mejores", de: "Parametrische Modelle sind immer besser", nl: "Parametrische modellen zijn altijd beter" },
+          { en: "Non-parametric models have no parameters", es: "Modelos no paramétricos no tienen parámetros", de: "Nicht-parametrische Modelle haben keine Parameter", nl: "Non-parametrische modellen hebben geen parameters" },
+          { en: "They use different programming languages", es: "Usan diferentes lenguajes de programación", de: "Sie verwenden verschiedene Programmiersprachen", nl: "Ze gebruiken verschillende programmeertalen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Parametric models have a fixed number of parameters regardless of data size (like linear regression), while non-parametric models' complexity grows with data (like k-NN), offering more flexibility but requiring more data.",
+          es: "Modelos paramétricos tienen un número fijo de parámetros independientemente del tamaño de datos (como regresión lineal), mientras modelos no paramétricos su complejidad crece con datos (como k-NN), ofreciendo más flexibilidad pero requiriendo más datos.",
+          de: "Parametrische Modelle haben eine feste Anzahl von Parametern unabhängig von Datengröße (wie lineare Regression), während nicht-parametrische Modelle ihre Komplexität mit Daten wächst (wie k-NN), bieten mehr Flexibilität aber benötigen mehr Daten.",
+          nl: "Parametrische modellen hebben een vast aantal parameters ongeacht datagrootte (zoals lineaire regressie), terwijl non-parametrische modellen hun complexiteit groeit met data (zoals k-NN), bieden meer flexibiliteit maar vereisen meer data."
+        }
+      },
+      {
+        question: {
+          en: "What is feature scaling and why is it important?",
+          es: "¿Qué es el escalado de características y por qué es importante?",
+          de: "Was ist Feature-Skalierung und warum ist es wichtig?",
+          nl: "Wat is feature scaling en waarom is het belangrijk?"
+        },
+        options: [
+          { en: "Normalizing feature ranges to prevent some features from dominating", es: "Normalizar rangos de características para prevenir que algunas dominen", de: "Feature-Bereiche normalisieren um zu verhindern dass einige dominieren", nl: "Feature bereiken normaliseren om te voorkomen dat sommige domineren" },
+          { en: "Making features bigger or smaller visually", es: "Hacer características más grandes o pequeñas visualmente", de: "Features visuell größer oder kleiner machen", nl: "Features visueel groter of kleiner maken" },
+          { en: "Scaling up the number of features", es: "Aumentar el número de características", de: "Anzahl der Features erhöhen", nl: "Aantal features opschalen" },
+          { en: "Measuring feature importance", es: "Medir importancia de características", de: "Feature-Wichtigkeit messen", nl: "Feature belangrijkheid meten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Feature scaling brings all features to similar ranges (e.g., 0-1 or standard deviation), crucial for algorithms like gradient descent, SVM, and k-NN that are sensitive to feature magnitudes.",
+          es: "El escalado de características lleva todas las características a rangos similares (ej. 0-1 o desviación estándar), crucial para algoritmos como descenso de gradiente, SVM y k-NN que son sensibles a magnitudes de características.",
+          de: "Feature-Skalierung bringt alle Features auf ähnliche Bereiche (z.B. 0-1 oder Standardabweichung), entscheidend für Algorithmen wie Gradientenabstieg, SVM und k-NN die empfindlich auf Feature-Größen sind.",
+          nl: "Feature scaling brengt alle features naar vergelijkbare bereiken (bijv. 0-1 of standaarddeviatie), cruciaal voor algoritmes zoals gradient descent, SVM en k-NN die gevoelig zijn voor feature magnitudes."
+        }
+      },
+      {
+        question: {
+          en: "What is the No Free Lunch theorem in machine learning?",
+          es: "¿Qué es el teorema No Free Lunch en machine learning?",
+          de: "Was ist das No Free Lunch Theorem im maschinellen Lernen?",
+          nl: "Wat is het No Free Lunch theorema in machine learning?"
+        },
+        options: [
+          { en: "No single algorithm works best for all problems; performance depends on the problem", es: "Ningún algoritmo funciona mejor para todos los problemas; rendimiento depende del problema", de: "Kein einzelner Algorithmus funktioniert am besten für alle Probleme; Leistung hängt vom Problem ab", nl: "Geen enkel algoritme werkt het beste voor alle problemen; prestaties hangen af van het probleem" },
+          { en: "Machine learning requires payment", es: "Machine learning requiere pago", de: "Maschinelles Lernen erfordert Bezahlung", nl: "Machine learning vereist betaling" },
+          { en: "You need expensive hardware", es: "Necesitas hardware costoso", de: "Man braucht teure Hardware", nl: "Je hebt dure hardware nodig" },
+          { en: "Free algorithms don't exist", es: "Algoritmos gratuitos no existen", de: "Kostenlose Algorithmen existieren nicht", nl: "Gratis algoritmes bestaan niet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The No Free Lunch theorem states that averaged over all possible problems, every algorithm performs equally well. This means we must choose algorithms based on specific problem characteristics and assumptions.",
+          es: "El teorema No Free Lunch establece que promediado sobre todos los problemas posibles, cada algoritmo funciona igualmente bien. Esto significa que debemos elegir algoritmos basados en características específicas del problema y suposiciones.",
+          de: "Das No Free Lunch Theorem besagt dass über alle möglichen Probleme gemittelt jeder Algorithmus gleich gut funktioniert. Das bedeutet wir müssen Algorithmen basierend auf spezifischen Problemmerkmalen und Annahmen wählen.",
+          nl: "Het No Free Lunch theorema stelt dat gemiddeld over alle mogelijke problemen elk algoritme even goed presteert. Dit betekent dat we algoritmes moeten kiezen gebaseerd op specifieke probleemkenmerken en aannames."
+        }
+      },
+      {
+        question: {
+          en: "What is mini-batch gradient descent?",
+          es: "¿Qué es el descenso de gradiente por mini-lotes?",
+          de: "Was ist Mini-Batch-Gradientenabstieg?",
+          nl: "Wat is mini-batch gradient descent?"
+        },
+        options: [
+          { en: "Using small batches of data for each update, balancing speed and stability", es: "Usar pequeños lotes de datos para cada actualización, equilibrando velocidad y estabilidad", de: "Kleine Daten-Batches für jedes Update verwenden, balanciert Geschwindigkeit und Stabilität", nl: "Kleine batches data gebruiken voor elke update, balanceert snelheid en stabiliteit" },
+          { en: "Using very small learning rates", es: "Usar tasas de aprendizaje muy pequeñas", de: "Sehr kleine Lernraten verwenden", nl: "Zeer kleine learning rates gebruiken" },
+          { en: "Training miniature models", es: "Entrenar modelos en miniatura", de: "Miniaturmodelle trainieren", nl: "Miniatuurmodellen trainen" },
+          { en: "Gradient descent for small datasets only", es: "Descenso de gradiente solo para conjuntos de datos pequeños", de: "Gradientenabstieg nur für kleine Datensätze", nl: "Gradient descent alleen voor kleine datasets" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mini-batch gradient descent splits data into small batches (e.g., 32-256 samples), updating parameters after each batch. It combines benefits of batch GD (stable) and SGD (fast), making it the most commonly used variant.",
+          es: "El descenso de gradiente por mini-lotes divide datos en lotes pequeños (ej. 32-256 muestras), actualizando parámetros después de cada lote. Combina beneficios de GD por lotes (estable) y SGD (rápido), haciéndolo la variante más comúnmente usada.",
+          de: "Mini-Batch-Gradientenabstieg teilt Daten in kleine Batches (z.B. 32-256 Samples), aktualisiert Parameter nach jedem Batch. Kombiniert Vorteile von Batch-GD (stabil) und SGD (schnell), macht es zur am häufigsten verwendeten Variante.",
+          nl: "Mini-batch gradient descent splitst data in kleine batches (bijv. 32-256 samples), update parameters na elke batch. Combineert voordelen van batch GD (stabiel) en SGD (snel), maakt het de meest gebruikte variant."
+        }
+      },
+      {
+        question: {
+          en: "What is the activation function in neural networks?",
+          es: "¿Qué es la función de activación en redes neuronales?",
+          de: "Was ist die Aktivierungsfunktion in neuronalen Netzwerken?",
+          nl: "Wat is de activation function in neurale netwerken?"
+        },
+        options: [
+          { en: "A function that introduces non-linearity to help learn complex patterns", es: "Una función que introduce no linealidad para ayudar a aprender patrones complejos", de: "Eine Funktion die Nicht-Linearität einführt um komplexe Muster zu lernen", nl: "Een functie die non-lineariteit introduceert om complexe patronen te leren" },
+          { en: "A function that activates the network", es: "Una función que activa la red", de: "Eine Funktion die das Netzwerk aktiviert", nl: "Een functie die het netwerk activeert" },
+          { en: "The start button for training", es: "El botón de inicio para entrenamiento", de: "Die Starttaste für Training", nl: "De startknop voor training" },
+          { en: "A function that turns neurons on and off", es: "Una función que enciende y apaga neuronas", de: "Eine Funktion die Neuronen ein- und ausschaltet", nl: "Een functie die neuronen aan en uit zet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Activation functions like ReLU, sigmoid, or tanh introduce non-linearity into neural networks, allowing them to learn complex non-linear relationships. Without them, networks would only learn linear functions.",
+          es: "Funciones de activación como ReLU, sigmoide o tanh introducen no linealidad en redes neuronales, permitiéndoles aprender relaciones complejas no lineales. Sin ellas, las redes solo aprenderían funciones lineales.",
+          de: "Aktivierungsfunktionen wie ReLU, Sigmoid oder Tanh führen Nicht-Linearität in neuronale Netzwerke ein, ermöglichen ihnen komplexe nicht-lineare Beziehungen zu lernen. Ohne sie würden Netzwerke nur lineare Funktionen lernen.",
+          nl: "Activation functions zoals ReLU, sigmoid of tanh introduceren non-lineariteit in neurale netwerken, stellen ze in staat complexe non-lineaire relaties te leren. Zonder hen zouden netwerken alleen lineaire functies leren."
+        }
+      },
+      {
+        question: {
+          en: "What is backpropagation?",
+          es: "¿Qué es la retropropagación?",
+          de: "Was ist Backpropagation?",
+          nl: "Wat is backpropagation?"
+        },
+        options: [
+          { en: "An algorithm that calculates gradients by propagating errors backward through the network", es: "Un algoritmo que calcula gradientes propagando errores hacia atrás a través de la red", de: "Ein Algorithmus der Gradienten berechnet indem Fehler rückwärts durch das Netzwerk propagiert werden", nl: "Een algoritme dat gradiënten berekent door fouten achterwaarts door het netwerk te propageren" },
+          { en: "Propagating data backwards for validation", es: "Propagar datos hacia atrás para validación", de: "Daten rückwärts zur Validierung propagieren", nl: "Data achterwaarts propageren voor validatie" },
+          { en: "Going back to previous training epochs", es: "Volver a épocas de entrenamiento anteriores", de: "Zu vorherigen Trainingsepochen zurückgehen", nl: "Teruggaan naar vorige training epochs" },
+          { en: "Reversing the neural network architecture", es: "Revertir la arquitectura de red neuronal", de: "Neuronale Netzwerkarchitektur umkehren", nl: "Neurale netwerkarchitectuur omkeren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Backpropagation uses the chain rule to efficiently compute gradients of the loss with respect to each weight, propagating errors from output to input layers, enabling neural network training through gradient descent.",
+          es: "La retropropagación usa la regla de la cadena para calcular eficientemente gradientes de la pérdida con respecto a cada peso, propagando errores de capas de salida a entrada, habilitando entrenamiento de redes neuronales a través de descenso de gradiente.",
+          de: "Backpropagation verwendet die Kettenregel um effizient Gradienten des Verlusts bezüglich jedes Gewichts zu berechnen, propagiert Fehler von Ausgabe- zu Eingabeschichten, ermöglicht neuronales Netzwerktraining durch Gradientenabstieg.",
+          nl: "Backpropagation gebruikt de kettingregel om efficiënt gradiënten van de loss te berekenen met betrekking tot elk gewicht, propageert fouten van output naar input lagen, maakt neuraal netwerktraining mogelijk door gradient descent."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of a confusion matrix?",
+          es: "¿Cuál es el propósito de una matriz de confusión?",
+          de: "Was ist der Zweck einer Konfusionsmatrix?",
+          nl: "Wat is het doel van een confusion matrix?"
+        },
+        options: [
+          { en: "To visualize classification performance showing true/false positives and negatives", es: "Visualizar rendimiento de clasificación mostrando positivos/negativos verdaderos/falsos", de: "Klassifikationsleistung visualisieren mit wahren/falschen Positiven und Negativen", nl: "Classificatieprestaties visualiseren met true/false positives en negatives" },
+          { en: "To confuse the model during training", es: "Para confundir el modelo durante el entrenamiento", de: "Um das Modell während des Trainings zu verwirren", nl: "Om het model te verwarren tijdens training" },
+          { en: "To show which features are confusing", es: "Para mostrar qué características son confusas", de: "Um zu zeigen welche Features verwirrend sind", nl: "Om te tonen welke features verwarrend zijn" },
+          { en: "To measure confusion in the dataset", es: "Para medir confusión en el conjunto de datos", de: "Um Verwirrung im Datensatz zu messen", nl: "Om verwarring in de dataset te meten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A confusion matrix is a table showing counts of true positives, true negatives, false positives, and false negatives, providing detailed insight into classifier performance beyond simple accuracy.",
+          es: "Una matriz de confusión es una tabla que muestra conteos de verdaderos positivos, verdaderos negativos, falsos positivos y falsos negativos, proporcionando información detallada sobre rendimiento del clasificador más allá de simple precisión.",
+          de: "Eine Konfusionsmatrix ist eine Tabelle die Anzahlen von wahren Positiven, wahren Negativen, falschen Positiven und falschen Negativen zeigt, bietet detaillierte Einblicke in Klassifikatorleistung über einfache Genauigkeit hinaus.",
+          nl: "Een confusion matrix is een tabel die aantallen van true positives, true negatives, false positives en false negatives toont, biedt gedetailleerd inzicht in classifier prestaties verder dan eenvoudige nauwkeurigheid."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between generative and discriminative models?",
+          es: "¿Cuál es la diferencia entre modelos generativos y discriminativos?",
+          de: "Was ist der Unterschied zwischen generativen und diskriminativen Modellen?",
+          nl: "Wat is het verschil tussen generatieve en discriminatieve modellen?"
+        },
+        options: [
+          { en: "Generative models learn data distribution, discriminative learn decision boundaries", es: "Modelos generativos aprenden distribución de datos, discriminativos aprenden límites de decisión", de: "Generative Modelle lernen Datenverteilung, diskriminative lernen Entscheidungsgrenzen", nl: "Generatieve modellen leren dataverdeling, discriminatieve leren beslissingsgrenzen" },
+          { en: "Generative models are newer technology", es: "Modelos generativos son tecnología más nueva", de: "Generative Modelle sind neuere Technologie", nl: "Generatieve modellen zijn nieuwere technologie" },
+          { en: "Discriminative models discriminate against data", es: "Modelos discriminativos discriminan contra datos", de: "Diskriminative Modelle diskriminieren Daten", nl: "Discriminatieve modellen discrimineren data" },
+          { en: "They use different programming languages", es: "Usan diferentes lenguajes de programación", de: "Sie verwenden verschiedene Programmiersprachen", nl: "Ze gebruiken verschillende programmeertalen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Generative models (like GANs, VAEs) learn P(X,Y) to generate new data samples, while discriminative models (like logistic regression, SVM) learn P(Y|X) to classify existing data.",
+          es: "Modelos generativos (como GANs, VAEs) aprenden P(X,Y) para generar nuevas muestras de datos, mientras modelos discriminativos (como regresión logística, SVM) aprenden P(Y|X) para clasificar datos existentes.",
+          de: "Generative Modelle (wie GANs, VAEs) lernen P(X,Y) um neue Datenproben zu generieren, während diskriminative Modelle (wie logistische Regression, SVM) P(Y|X) lernen um existierende Daten zu klassifizieren.",
+          nl: "Generatieve modellen (zoals GANs, VAEs) leren P(X,Y) om nieuwe datasamples te genereren, terwijl discriminatieve modellen (zoals logistische regressie, SVM) P(Y|X) leren om bestaande data te classificeren."
+        }
+      },
+      {
+        question: {
+          en: "What is catastrophic forgetting in neural networks?",
+          es: "¿Qué es el olvido catastrófico en redes neuronales?",
+          de: "Was ist katastrophales Vergessen in neuronalen Netzwerken?",
+          nl: "Wat is catastrophic forgetting in neurale netwerken?"
+        },
+        options: [
+          { en: "When a network forgets previously learned tasks while learning new ones", es: "Cuando una red olvida tareas aprendidas previamente mientras aprende nuevas", de: "Wenn ein Netzwerk zuvor gelernte Aufgaben vergisst während es neue lernt", nl: "Wanneer een netwerk eerder geleerde taken vergeet tijdens het leren van nieuwe" },
+          { en: "A catastrophic error in training", es: "Un error catastrófico en entrenamiento", de: "Ein katastrophaler Fehler im Training", nl: "Een catastrofale fout in training" },
+          { en: "Forgetting to save model weights", es: "Olvidar guardar pesos del modelo", de: "Vergessen Modellgewichte zu speichern", nl: "Vergeten modelgewichten op te slaan" },
+          { en: "Memory overflow in the network", es: "Desbordamiento de memoria en la red", de: "Speicherüberlauf im Netzwerk", nl: "Geheugenoverloop in het netwerk" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Catastrophic forgetting occurs when neural networks lose performance on old tasks after being trained on new ones, as new learning overwrites old weights. Solutions include continual learning techniques and replay buffers.",
+          es: "El olvido catastrófico ocurre cuando redes neuronales pierden rendimiento en tareas antiguas después de ser entrenadas en nuevas, ya que nuevo aprendizaje sobrescribe pesos antiguos. Soluciones incluyen técnicas de aprendizaje continuo y buffers de replay.",
+          de: "Katastrophales Vergessen tritt auf wenn neuronale Netzwerke Leistung bei alten Aufgaben verlieren nachdem sie auf neue trainiert wurden, da neues Lernen alte Gewichte überschreibt. Lösungen umfassen kontinuierliche Lerntechniken und Replay-Puffer.",
+          nl: "Catastrophic forgetting treedt op wanneer neurale netwerken prestaties verliezen op oude taken na training op nieuwe, omdat nieuw leren oude gewichten overschrijft. Oplossingen omvatten continual learning technieken en replay buffers."
+        }
+      },
+      {
+        question: {
+          en: "What is the Bellman equation in reinforcement learning?",
+          es: "¿Qué es la ecuación de Bellman en aprendizaje por refuerzo?",
+          de: "Was ist die Bellman-Gleichung im Reinforcement Learning?",
+          nl: "Wat is de Bellman vergelijking in reinforcement learning?"
+        },
+        options: [
+          { en: "An equation expressing optimal value as immediate reward plus discounted future value", es: "Una ecuación que expresa valor óptimo como recompensa inmediata más valor futuro descontado", de: "Eine Gleichung die optimalen Wert als sofortige Belohnung plus diskontierten zukünftigen Wert ausdrückt", nl: "Een vergelijking die optimale waarde uitdrukt als onmiddellijke beloning plus verdisconteerde toekomstige waarde" },
+          { en: "An equation for bell curve distribution", es: "Una ecuación para distribución de curva de campana", de: "Eine Gleichung für Glockenkurvenverteilung", nl: "Een vergelijking voor klokcurve verdeling" },
+          { en: "A mathematical formula named after a bell", es: "Una fórmula matemática nombrada por una campana", de: "Eine mathematische Formel benannt nach einer Glocke", nl: "Een wiskundige formule vernoemd naar een bel" },
+          { en: "The equation for network topology", es: "La ecuación para topología de red", de: "Die Gleichung für Netzwerktopologie", nl: "De vergelijking voor netwerktopologie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Bellman equation is fundamental to RL, stating that the value of a state equals the immediate reward plus the discounted value of the next state, forming the basis for dynamic programming and Q-learning.",
+          es: "La ecuación de Bellman es fundamental para RL, establece que el valor de un estado es igual a la recompensa inmediata más el valor descontado del siguiente estado, formando la base para programación dinámica y Q-learning.",
+          de: "Die Bellman-Gleichung ist fundamental für RL, besagt dass der Wert eines Zustands der sofortigen Belohnung plus dem diskontierten Wert des nächsten Zustands entspricht, bildet Basis für dynamische Programmierung und Q-Learning.",
+          nl: "De Bellman vergelijking is fundamenteel voor RL, stelt dat de waarde van een staat gelijk is aan de onmiddellijke beloning plus de verdisconteerde waarde van de volgende staat, vormt de basis voor dynamische programmering en Q-learning."
+        }
+      },
+      {
+        question: {
+          en: "What is t-SNE used for?",
+          es: "¿Para qué se usa t-SNE?",
+          de: "Wofür wird t-SNE verwendet?",
+          nl: "Waarvoor wordt t-SNE gebruikt?"
+        },
+        options: [
+          { en: "Visualizing high-dimensional data in 2D or 3D while preserving local structure", es: "Visualizar datos de alta dimensión en 2D o 3D preservando estructura local", de: "Hochdimensionale Daten in 2D oder 3D visualisieren während lokale Struktur erhalten bleibt", nl: "Hoogdimensionale data visualiseren in 2D of 3D terwijl lokale structuur behouden blijft" },
+          { en: "Testing network security", es: "Probar seguridad de red", de: "Netzwerksicherheit testen", nl: "Netwerkbeveiliging testen" },
+          { en: "Time series analysis", es: "Análisis de series temporales", de: "Zeitreihenanalyse", nl: "Tijdreeksanalyse" },
+          { en: "Training neural networks faster", es: "Entrenar redes neuronales más rápido", de: "Neuronale Netzwerke schneller trainieren", nl: "Neurale netwerken sneller trainen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "t-SNE (t-Distributed Stochastic Neighbor Embedding) is a dimensionality reduction technique excellent for visualizing clusters in high-dimensional data by mapping to 2D/3D while maintaining point relationships.",
+          es: "t-SNE (t-Distributed Stochastic Neighbor Embedding) es una técnica de reducción de dimensionalidad excelente para visualizar clusters en datos de alta dimensión mapeando a 2D/3D mientras mantiene relaciones de puntos.",
+          de: "t-SNE (t-Distributed Stochastic Neighbor Embedding) ist eine Dimensionsreduktionstechnik exzellent für Visualisierung von Clustern in hochdimensionalen Daten durch Mapping auf 2D/3D während Punktbeziehungen erhalten bleiben.",
+          nl: "t-SNE (t-Distributed Stochastic Neighbor Embedding) is een dimensionaliteitsreductie techniek uitstekend voor het visualiseren van clusters in hoogdimensionale data door te mappen naar 2D/3D terwijl puntrelaties behouden blijven."
+        }
+      },
+      {
+        question: {
+          en: "What is the VC dimension?",
+          es: "¿Qué es la dimensión VC?",
+          de: "Was ist die VC-Dimension?",
+          nl: "Wat is de VC dimensie?"
+        },
+        options: [
+          { en: "A measure of model capacity indicating maximum points it can shatter", es: "Una medida de capacidad del modelo indicando puntos máximos que puede fragmentar", de: "Ein Maß für Modellkapazität das maximale Punkte angibt die es zerschmettern kann", nl: "Een maat voor modelcapaciteit die maximale punten aangeeft die het kan verbrijzelen" },
+          { en: "Virtual computing dimension", es: "Dimensión de computación virtual", de: "Virtuelle Computing-Dimension", nl: "Virtuele computing dimensie" },
+          { en: "Video compression dimension", es: "Dimensión de compresión de video", de: "Videokompression-Dimension", nl: "Video compressie dimensie" },
+          { en: "Variable control dimension", es: "Dimensión de control variable", de: "Variable Kontrolldimension", nl: "Variabele controle dimensie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "VC (Vapnik-Chervonenkis) dimension measures a model's complexity and learning capacity, indicating the maximum number of points it can classify correctly for all possible labelings, helping understand generalization ability.",
+          es: "La dimensión VC (Vapnik-Chervonenkis) mide complejidad y capacidad de aprendizaje de un modelo, indicando el número máximo de puntos que puede clasificar correctamente para todos los etiquetados posibles, ayudando a entender capacidad de generalización.",
+          de: "VC (Vapnik-Chervonenkis) Dimension misst Modellkomplexität und Lernkapazität, zeigt maximale Anzahl von Punkten die es korrekt für alle möglichen Beschriftungen klassifizieren kann, hilft Generalisierungsfähigkeit zu verstehen.",
+          nl: "VC (Vapnik-Chervonenkis) dimensie meet modelcomplexiteit en leercapaciteit, geeft het maximale aantal punten aan dat het correct kan classificeren voor alle mogelijke labelingen, helpt generalisatievermogen te begrijpen."
+        }
+      },
+      {
+        question: {
+          en: "What is imbalanced learning?",
+          es: "¿Qué es el aprendizaje desbalanceado?",
+          de: "Was ist unausgewogenes Lernen?",
+          nl: "Wat is imbalanced learning?"
+        },
+        options: [
+          { en: "Learning from datasets where classes have very different frequencies", es: "Aprender de conjuntos de datos donde clases tienen frecuencias muy diferentes", de: "Lernen von Datensätzen wo Klassen sehr unterschiedliche Häufigkeiten haben", nl: "Leren van datasets waar klassen zeer verschillende frequenties hebben" },
+          { en: "Learning with unstable algorithms", es: "Aprender con algoritmos inestables", de: "Lernen mit instabilen Algorithmen", nl: "Leren met instabiele algoritmes" },
+          { en: "Unbalanced neural network architecture", es: "Arquitectura de red neuronal desbalanceada", de: "Unausgewogene neuronale Netzwerkarchitektur", nl: "Ongebalanceerde neurale netwerkarchitectuur" },
+          { en: "Learning on tilted hardware", es: "Aprender en hardware inclinado", de: "Lernen auf geneigter Hardware", nl: "Leren op gekantelde hardware" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Imbalanced learning deals with datasets where one class is much more frequent than others (e.g., fraud detection). Techniques include resampling, class weights, and specialized metrics like F1-score instead of accuracy.",
+          es: "El aprendizaje desbalanceado trata con conjuntos de datos donde una clase es mucho más frecuente que otras (ej. detección de fraude). Técnicas incluyen remuestreo, pesos de clase y métricas especializadas como F1-score en lugar de precisión.",
+          de: "Unausgewogenes Lernen befasst sich mit Datensätzen wo eine Klasse viel häufiger ist als andere (z.B. Betrugserkennung). Techniken umfassen Resampling, Klassengewichte und spezialisierte Metriken wie F1-Score statt Genauigkeit.",
+          nl: "Imbalanced learning gaat om datasets waar een klasse veel frequenter is dan andere (bijv. fraudedetectie). Technieken omvatten resampling, klassengewichten en gespecialiseerde metrieken zoals F1-score in plaats van nauwkeurigheid."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between online and batch learning?",
+          es: "¿Cuál es la diferencia entre aprendizaje en línea y por lotes?",
+          de: "Was ist der Unterschied zwischen Online- und Batch-Lernen?",
+          nl: "Wat is het verschil tussen online en batch learning?"
+        },
+        options: [
+          { en: "Online learns incrementally from new data, batch retrains on entire dataset", es: "En línea aprende incrementalmente de nuevos datos, por lotes reentrena en conjunto completo", de: "Online lernt inkrementell von neuen Daten, Batch trainiert auf gesamtem Datensatz neu", nl: "Online leert incrementeel van nieuwe data, batch hertraint op hele dataset" },
+          { en: "Online learning requires internet connection", es: "Aprendizaje en línea requiere conexión a internet", de: "Online-Lernen erfordert Internetverbindung", nl: "Online learning vereist internetverbinding" },
+          { en: "Batch learning is always faster", es: "Aprendizaje por lotes es siempre más rápido", de: "Batch-Lernen ist immer schneller", nl: "Batch learning is altijd sneller" },
+          { en: "They use different loss functions", es: "Usan diferentes funciones de pérdida", de: "Sie verwenden verschiedene Verlustfunktionen", nl: "Ze gebruiken verschillende loss functions" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Online learning updates the model continuously as new data arrives, adapting to changes in real-time. Batch learning trains on the full dataset at once and must be retrained for updates.",
+          es: "El aprendizaje en línea actualiza el modelo continuamente a medida que llegan nuevos datos, adaptándose a cambios en tiempo real. El aprendizaje por lotes entrena en el conjunto completo de datos de una vez y debe ser reentrenado para actualizaciones.",
+          de: "Online-Lernen aktualisiert das Modell kontinuierlich wenn neue Daten ankommen, passt sich in Echtzeit an Änderungen an. Batch-Lernen trainiert auf dem vollständigen Datensatz auf einmal und muss für Updates neu trainiert werden.",
+          nl: "Online learning update het model continu wanneer nieuwe data binnenkomt, past zich in real-time aan veranderingen aan. Batch learning traint op de volledige dataset tegelijk en moet opnieuw getraind worden voor updates."
+        }
+      },
+      {
+        question: {
+          en: "What is multi-task learning?",
+          es: "¿Qué es el aprendizaje multi-tarea?",
+          de: "Was ist Multi-Task-Learning?",
+          nl: "Wat is multi-task learning?"
+        },
+        options: [
+          { en: "Training a model on multiple related tasks simultaneously to improve generalization", es: "Entrenar un modelo en múltiples tareas relacionadas simultáneamente para mejorar generalización", de: "Ein Modell auf mehreren verwandten Aufgaben gleichzeitig trainieren um Generalisierung zu verbessern", nl: "Een model trainen op meerdere gerelateerde taken tegelijkertijd om generalisatie te verbeteren" },
+          { en: "Running multiple training jobs in parallel", es: "Ejecutar múltiples trabajos de entrenamiento en paralelo", de: "Mehrere Trainingsjobs parallel ausführen", nl: "Meerdere training jobs parallel uitvoeren" },
+          { en: "Teaching AI to multitask like humans", es: "Enseñar a IA a hacer multitarea como humanos", de: "KI beibringen wie Menschen Multitasking zu machen", nl: "AI leren multitasken zoals mensen" },
+          { en: "Distributing tasks across GPUs", es: "Distribuir tareas a través de GPUs", de: "Aufgaben über GPUs verteilen", nl: "Taken verdelen over GPUs" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Multi-task learning trains a single model on multiple related tasks, sharing representations between tasks. This often improves performance by learning more robust features and reducing overfitting through implicit regularization.",
+          es: "El aprendizaje multi-tarea entrena un modelo único en múltiples tareas relacionadas, compartiendo representaciones entre tareas. Esto a menudo mejora rendimiento aprendiendo características más robustas y reduciendo sobreajuste a través de regularización implícita.",
+          de: "Multi-Task-Learning trainiert ein einzelnes Modell auf mehreren verwandten Aufgaben, teilt Repräsentationen zwischen Aufgaben. Dies verbessert oft Leistung durch Lernen robusterer Features und Reduzierung von Overfitting durch implizite Regularisierung.",
+          nl: "Multi-task learning traint een enkel model op meerdere gerelateerde taken, deelt representaties tussen taken. Dit verbetert vaak prestaties door robuustere features te leren en overfitting te verminderen door impliciete regularisatie."
+        }
+      },
+      {
+        question: {
+          en: "What is the Matthew's Correlation Coefficient (MCC)?",
+          es: "¿Qué es el Coeficiente de Correlación de Matthew (MCC)?",
+          de: "Was ist der Matthews-Korrelationskoeffizient (MCC)?",
+          nl: "Wat is de Matthew's Correlation Coefficient (MCC)?"
+        },
+        options: [
+          { en: "A balanced metric for binary classification even with imbalanced classes", es: "Una métrica balanceada para clasificación binaria incluso con clases desbalanceadas", de: "Eine ausgewogene Metrik für binäre Klassifikation auch bei unausgeglichenen Klassen", nl: "Een gebalanceerde metriek voor binaire classificatie zelfs met ongebalanceerde klassen" },
+          { en: "A correlation between models named Matthew", es: "Una correlación entre modelos llamados Matthew", de: "Eine Korrelation zwischen Modellen namens Matthew", nl: "Een correlatie tussen modellen genaamd Matthew" },
+          { en: "The coefficient for matrix calculations", es: "El coeficiente para cálculos de matriz", de: "Der Koeffizient für Matrixberechnungen", nl: "De coëfficiënt voor matrixberekeningen" },
+          { en: "A measure of mathematical complexity", es: "Una medida de complejidad matemática", de: "Ein Maß für mathematische Komplexität", nl: "Een maat voor wiskundige complexiteit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "MCC ranges from -1 to +1 and is considered one of the best metrics for imbalanced classification, taking into account true/false positives and negatives in a balanced way, with 0 indicating random prediction.",
+          es: "MCC varía de -1 a +1 y se considera una de las mejores métricas para clasificación desbalanceada, teniendo en cuenta positivos/negativos verdaderos/falsos de manera balanceada, con 0 indicando predicción aleatoria.",
+          de: "MCC reicht von -1 bis +1 und gilt als eine der besten Metriken für unausgeglichene Klassifikation, berücksichtigt wahre/falsche Positive und Negative ausgewogen, mit 0 als Hinweis auf zufällige Vorhersage.",
+          nl: "MCC varieert van -1 tot +1 en wordt beschouwd als een van de beste metrieken voor ongebalanceerde classificatie, houdt rekening met true/false positives en negatives op gebalanceerde wijze, met 0 als indicatie van willekeurige voorspelling."
+        }
+      },
+      {
+        question: {
+          en: "What is active learning?",
+          es: "¿Qué es el aprendizaje activo?",
+          de: "Was ist aktives Lernen?",
+          nl: "Wat is active learning?"
+        },
+        options: [
+          { en: "A strategy where the model selects which data to label for most efficient learning", es: "Una estrategia donde el modelo selecciona qué datos etiquetar para aprendizaje más eficiente", de: "Eine Strategie wo das Modell wählt welche Daten zu beschriften für effizientestes Lernen", nl: "Een strategie waarbij het model selecteert welke data te labelen voor meest efficiënt leren" },
+          { en: "Learning while being physically active", es: "Aprender mientras se está físicamente activo", de: "Lernen während man körperlich aktiv ist", nl: "Leren terwijl je fysiek actief bent" },
+          { en: "Training models on live production data", es: "Entrenar modelos en datos de producción en vivo", de: "Modelle auf Live-Produktionsdaten trainieren", nl: "Modellen trainen op live productiedata" },
+          { en: "Actively searching for more data", es: "Buscar activamente más datos", de: "Aktiv nach mehr Daten suchen", nl: "Actief zoeken naar meer data" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Active learning intelligently queries for labels on the most informative examples, reducing labeling costs by focusing human effort on data that maximally improves the model, particularly useful when labeling is expensive.",
+          es: "El aprendizaje activo consulta inteligentemente etiquetas en los ejemplos más informativos, reduciendo costos de etiquetado enfocando esfuerzo humano en datos que mejoran maximalmente el modelo, particularmente útil cuando etiquetar es costoso.",
+          de: "Aktives Lernen fragt intelligent nach Labels für informativste Beispiele, reduziert Beschriftungskosten durch Fokussierung menschlicher Anstrengung auf Daten die das Modell maximal verbessern, besonders nützlich wenn Beschriftung teuer ist.",
+          nl: "Active learning vraagt intelligent om labels voor de meest informatieve voorbeelden, vermindert labelkosten door menselijke inspanning te richten op data die het model maximaal verbetert, bijzonder nuttig wanneer labelen duur is."
+        }
+      },
+        question: {
+          en: "What is the difference between shallow and deep learning?",
+          es: "¿Cuál es la diferencia entre aprendizaje superficial y profundo?",
+          de: "Was ist der Unterschied zwischen flachem und tiefem Lernen?",
+          nl: "Wat is het verschil tussen shallow en deep learning?"
+        },
+        options: [
+          { en: "Shallow has few layers, deep has many layers enabling hierarchical feature learning", es: "Superficial tiene pocas capas, profundo tiene muchas capas habilitando aprendizaje jerárquico de características", de: "Flach hat wenige Schichten, tief hat viele Schichten ermöglicht hierarchisches Feature-Lernen", nl: "Shallow heeft weinig lagen, deep heeft veel lagen waardoor hiërarchisch feature leren mogelijk is" },
+          { en: "Deep learning is more recent", es: "Aprendizaje profundo es más reciente", de: "Deep Learning ist neueren Datums", nl: "Deep learning is recenter" },
+          { en: "Shallow learning is easier to understand", es: "Aprendizaje superficial es más fácil de entender", de: "Flaches Lernen ist einfacher zu verstehen", nl: "Shallow learning is makkelijker te begrijpen" },
+          { en: "They use different data types", es: "Usan diferentes tipos de datos", de: "Sie verwenden verschiedene Datentypen", nl: "Ze gebruiken verschillende datatypes" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Shallow learning uses models with few (1-2) hidden layers like traditional neural networks. Deep learning uses many layers (3+) to learn hierarchical representations, automatically discovering complex features from raw data.",
+          es: "El aprendizaje superficial usa modelos con pocas (1-2) capas ocultas como redes neuronales tradicionales. El aprendizaje profundo usa muchas capas (3+) para aprender representaciones jerárquicas, descubriendo automáticamente características complejas de datos en bruto.",
+          de: "Flaches Lernen verwendet Modelle mit wenigen (1-2) verborgenen Schichten wie traditionelle neuronale Netzwerke. Tiefes Lernen verwendet viele Schichten (3+) um hierarchische Repräsentationen zu lernen, entdeckt automatisch komplexe Features aus Rohdaten.",
+          nl: "Shallow learning gebruikt modellen met weinig (1-2) verborgen lagen zoals traditionele neurale netwerken. Deep learning gebruikt veel lagen (3+) om hiërarchische representaties te leren, ontdekt automatisch complexe features uit ruwe data."
+        }
+      },
+      {
+        question: {
+          en: "What is model compression?",
+          es: "¿Qué es la compresión de modelos?",
+          de: "Was ist Modellkompression?",
+          nl: "Wat is model compressie?"
+        },
+        options: [
+          { en: "Reducing model size and computational requirements while maintaining performance", es: "Reducir tamaño de modelo y requisitos computacionales mientras se mantiene rendimiento", de: "Modellgröße und Rechenanforderungen reduzieren während Leistung erhalten bleibt", nl: "Modelgrootte en computationele vereisten verminderen terwijl prestaties behouden blijven" },
+          { en: "Compressing training data", es: "Comprimir datos de entrenamiento", de: "Trainingsdaten komprimieren", nl: "Trainingsdata comprimeren" },
+          { en: "Storing models in zip files", es: "Almacenar modelos en archivos zip", de: "Modelle in Zip-Dateien speichern", nl: "Modellen opslaan in zip bestanden" },
+          { en: "Making models run faster", es: "Hacer que los modelos funcionen más rápido", de: "Modelle schneller laufen lassen", nl: "Modellen sneller laten draaien" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Model compression techniques like pruning, quantization, and knowledge distillation reduce model size and inference cost, enabling deployment on resource-constrained devices while preserving accuracy.",
+          es: "Técnicas de compresión de modelos como poda, cuantización y destilación de conocimiento reducen tamaño de modelo y costo de inferencia, permitiendo despliegue en dispositivos con recursos limitados mientras preservan precisión.",
+          de: "Modellkompressionstechniken wie Pruning, Quantisierung und Knowledge Distillation reduzieren Modellgröße und Inferenzkosten, ermöglichen Einsatz auf ressourcenbeschränkten Geräten während Genauigkeit erhalten bleibt.",
+          nl: "Model compressie technieken zoals pruning, kwantisatie en kennis destillatie verminderen modelgrootte en inferentiekosten, maken implementatie mogelijk op apparaten met beperkte middelen terwijl nauwkeurigheid behouden blijft."
+        }
       }
     ]
   };

@@ -427,6 +427,426 @@
           de: "Das Gebäude verwendet fortschrittliche HVAC-Systeme, reflektierende Verglasung und Kondensatsammlung, um trotz der extremen Hitze Dubais angenehme Innentemperaturen aufrechtzuerhalten.",
           nl: "Het gebouw gebruikt geavanceerde HVAC-systemen, reflecterende beglazing en condensaatverzameling om comfortabele binnentemperaturen te handhaven ondanks de extreme hitte van Dubai."
         }
+      },
+      {
+        question: {
+          en: "How many office floors are in the Burj Khalifa?",
+          es: "¿Cuántos pisos de oficinas hay en el Burj Khalifa?",
+          de: "Wie viele Büroetagen gibt es im Burj Khalifa?",
+          nl: "Hoeveel kantoorverdiepingen zijn er in de Burj Khalifa?"
+        },
+        options: [
+          { en: "20 floors", es: "20 pisos", de: "20 Stockwerke", nl: "20 verdiepingen" },
+          { en: "29 floors", es: "29 pisos", de: "29 Stockwerke", nl: "29 verdiepingen" },
+          { en: "35 floors", es: "35 pisos", de: "35 Stockwerke", nl: "35 verdiepingen" },
+          { en: "40 floors", es: "40 pisos", de: "40 Stockwerke", nl: "40 verdiepingen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Burj Khalifa has 29 floors dedicated to office space, located primarily in the middle sections of the building.",
+          es: "El Burj Khalifa tiene 29 pisos dedicados a espacios de oficina, ubicados principalmente en las secciones medias del edificio.",
+          de: "Der Burj Khalifa verfügt über 29 Stockwerke für Büroflächen, die sich hauptsächlich in den mittleren Abschnitten des Gebäudes befinden.",
+          nl: "De Burj Khalifa heeft 29 verdiepingen gewijd aan kantoorruimte, voornamelijk gelegen in de middelste delen van het gebouw."
+        }
+      },
+      {
+        question: {
+          en: "What is the maximum sway at the top of the Burj Khalifa in high winds?",
+          es: "¿Cuál es el balanceo máximo en la parte superior del Burj Khalifa con vientos fuertes?",
+          de: "Was ist die maximale Schwankung an der Spitze des Burj Khalifa bei starkem Wind?",
+          nl: "Wat is de maximale slingering aan de top van de Burj Khalifa bij harde wind?"
+        },
+        options: [
+          { en: "0.5 meters", es: "0.5 metros", de: "0,5 Meter", nl: "0,5 meter" },
+          { en: "1.5 meters", es: "1.5 metros", de: "1,5 Meter", nl: "1,5 meter" },
+          { en: "2.5 meters", es: "2.5 metros", de: "2,5 Meter", nl: "2,5 meter" },
+          { en: "3.5 meters", es: "3.5 metros", de: "3,5 Meter", nl: "3,5 meter" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "In high winds, the top of Burj Khalifa can sway up to approximately 1.5 meters, which is considered normal and safe for a structure of this height.",
+          es: "Con vientos fuertes, la parte superior del Burj Khalifa puede balancearse hasta aproximadamente 1.5 metros, lo que se considera normal y seguro para una estructura de esta altura.",
+          de: "Bei starkem Wind kann die Spitze des Burj Khalifa um bis zu etwa 1,5 Meter schwanken, was für eine Struktur dieser Höhe als normal und sicher gilt.",
+          nl: "Bij harde wind kan de top van Burj Khalifa tot ongeveer 1,5 meter slingeren, wat als normaal en veilig wordt beschouwd voor een structuur van deze hoogte."
+        }
+      },
+      {
+        question: {
+          en: "What architectural style inspired the Burj Khalifa's design?",
+          es: "¿Qué estilo arquitectónico inspiró el diseño del Burj Khalifa?",
+          de: "Welcher Architekturstil inspirierte das Design des Burj Khalifa?",
+          nl: "Welke architectuurstijl inspireerde het ontwerp van de Burj Khalifa?"
+        },
+        options: [
+          { en: "Gothic architecture", es: "Arquitectura gótica", de: "Gotische Architektur", nl: "Gotische architectuur" },
+          { en: "Islamic architecture", es: "Arquitectura islámica", de: "Islamische Architektur", nl: "Islamitische architectuur" },
+          { en: "Art Deco", es: "Art Deco", de: "Art Deco", nl: "Art Deco" },
+          { en: "Brutalism", es: "Brutalismo", de: "Brutalismus", nl: "Brutalisme" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The design was inspired by Islamic architecture, specifically the desert flower Hymenocallis and traditional Islamic patterning systems.",
+          es: "El diseño fue inspirado por la arquitectura islámica, específicamente la flor del desierto Hymenocallis y los sistemas tradicionales de patrones islámicos.",
+          de: "Das Design wurde von islamischer Architektur inspiriert, speziell von der Wüstenblume Hymenocallis und traditionellen islamischen Mustersystemen.",
+          nl: "Het ontwerp werd geïnspireerd door islamitische architectuur, specifiek de woestijnbloem Hymenocallis en traditionele islamitische patroonensystemen."
+        }
+      },
+      {
+        question: {
+          en: "How many stairs are there from ground level to the top floor?",
+          es: "¿Cuántas escaleras hay desde el nivel del suelo hasta el piso superior?",
+          de: "Wie viele Treppen gibt es vom Erdgeschoss bis zur obersten Etage?",
+          nl: "Hoeveel trappen zijn er van begane grond naar de bovenste verdieping?"
+        },
+        options: [
+          { en: "1,500 steps", es: "1,500 escalones", de: "1.500 Stufen", nl: "1.500 treden" },
+          { en: "2,000 steps", es: "2,000 escalones", de: "2.000 Stufen", nl: "2.000 treden" },
+          { en: "2,909 steps", es: "2,909 escalones", de: "2.909 Stufen", nl: "2.909 treden" },
+          { en: "3,500 steps", es: "3,500 escalones", de: "3.500 Stufen", nl: "3.500 treden" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "There are 2,909 steps from ground level to floor 160. The building hosts an annual stair-climbing race to the 160th floor.",
+          es: "Hay 2,909 escalones desde el nivel del suelo hasta el piso 160. El edificio alberga una carrera anual de escalada de escaleras hasta el piso 160.",
+          de: "Es gibt 2.909 Stufen vom Erdgeschoss bis zum 160. Stockwerk. Das Gebäude veranstaltet jährlich ein Treppenlaufrennen bis zur 160. Etage.",
+          nl: "Er zijn 2.909 treden van begane grond naar verdieping 160. Het gebouw organiseert jaarlijks een trappenrace naar de 160e verdieping."
+        }
+      },
+      {
+        question: {
+          en: "What is the capacity of the building's condensate collection system per year?",
+          es: "¿Cuál es la capacidad del sistema de recolección de condensado del edificio por año?",
+          de: "Wie hoch ist die Kapazität des Kondensatsammelsystems des Gebäudes pro Jahr?",
+          nl: "Wat is de capaciteit van het condensaatverzamelingssysteem van het gebouw per jaar?"
+        },
+        options: [
+          { en: "5 million liters", es: "5 millones de litros", de: "5 Millionen Liter", nl: "5 miljoen liter" },
+          { en: "10 million liters", es: "10 millones de litros", de: "10 Millionen Liter", nl: "10 miljoen liter" },
+          { en: "15 million liters", es: "15 millones de litros", de: "15 Millionen Liter", nl: "15 miljoen liter" },
+          { en: "20 million liters", es: "20 millones de litros", de: "20 Millionen Liter", nl: "20 miljoen liter" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The condensate collection system collects approximately 15 million liters of water annually, which is used for irrigation of landscaped areas.",
+          es: "El sistema de recolección de condensado recolecta aproximadamente 15 millones de litros de agua anualmente, que se utiliza para el riego de áreas ajardinadas.",
+          de: "Das Kondensatsammelsystem sammelt jährlich etwa 15 Millionen Liter Wasser, das für die Bewässerung von Landschaftsbereichen verwendet wird.",
+          nl: "Het condensaatverzamelingssysteem verzamelt jaarlijks ongeveer 15 miljoen liter water, dat wordt gebruikt voor irrigatie van aangelegde gebieden."
+        }
+      },
+      {
+        question: {
+          en: "Which floor houses the world's highest mosque?",
+          es: "¿Qué piso alberga la mezquita más alta del mundo?",
+          de: "In welchem Stockwerk befindet sich die höchste Moschee der Welt?",
+          nl: "Welke verdieping herbergt 's werelds hoogste moskee?"
+        },
+        options: [
+          { en: "Floor 100", es: "Piso 100", de: "Stockwerk 100", nl: "Verdieping 100" },
+          { en: "Floor 122", es: "Piso 122", de: "Stockwerk 122", nl: "Verdieping 122" },
+          { en: "Floor 150", es: "Piso 150", de: "Stockwerk 150", nl: "Verdieping 150" },
+          { en: "Floor 158", es: "Piso 158", de: "Stockwerk 158", nl: "Verdieping 158" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "The world's highest mosque is located on floor 158 of the Burj Khalifa, allowing residents and workers to observe prayers.",
+          es: "La mezquita más alta del mundo está ubicada en el piso 158 del Burj Khalifa, permitiendo a los residentes y trabajadores observar las oraciones.",
+          de: "Die höchste Moschee der Welt befindet sich im 158. Stockwerk des Burj Khalifa und ermöglicht Bewohnern und Arbeitern das Gebet.",
+          nl: "De hoogste moskee ter wereld bevindt zich op verdieping 158 van de Burj Khalifa, waardoor bewoners en werknemers gebeden kunnen verrichten."
+        }
+      },
+      {
+        question: {
+          en: "What is the base width of the Burj Khalifa's foundation?",
+          es: "¿Cuál es el ancho de la base de los cimientos del Burj Khalifa?",
+          de: "Wie breit ist die Basis des Fundaments des Burj Khalifa?",
+          nl: "Wat is de basisbreedte van het fundament van de Burj Khalifa?"
+        },
+        options: [
+          { en: "60 meters", es: "60 metros", de: "60 Meter", nl: "60 meter" },
+          { en: "80 meters", es: "80 metros", de: "80 Meter", nl: "80 meter" },
+          { en: "100 meters", es: "100 metros", de: "100 Meter", nl: "100 meter" },
+          { en: "120 meters", es: "120 metros", de: "120 Meter", nl: "120 meter" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The foundation's base is approximately 60 meters wide, providing a stable platform for the massive superstructure above.",
+          es: "La base de los cimientos tiene aproximadamente 60 metros de ancho, proporcionando una plataforma estable para la superestructura masiva arriba.",
+          de: "Die Basis des Fundaments ist etwa 60 Meter breit und bietet eine stabile Plattform für die massive Superstruktur darüber.",
+          nl: "De basis van het fundament is ongeveer 60 meter breed en biedt een stabiel platform voor de enorme bovenbouw."
+        }
+      },
+      {
+        question: {
+          en: "How many double-deck elevators does the building have?",
+          es: "¿Cuántos ascensores de dos pisos tiene el edificio?",
+          de: "Wie viele Doppeldeck-Aufzüge hat das Gebäude?",
+          nl: "Hoeveel dubbeldekkerliften heeft het gebouw?"
+        },
+        options: [
+          { en: "2 double-deck elevators", es: "2 ascensores de dos pisos", de: "2 Doppeldeck-Aufzüge", nl: "2 dubbeldekkerliften" },
+          { en: "4 double-deck elevators", es: "4 ascensores de dos pisos", de: "4 Doppeldeck-Aufzüge", nl: "4 dubbeldekkerliften" },
+          { en: "6 double-deck elevators", es: "6 ascensores de dos pisos", de: "6 Doppeldeck-Aufzüge", nl: "6 dubbeldekkerliften" },
+          { en: "8 double-deck elevators", es: "8 ascensores de dos pisos", de: "8 Doppeldeck-Aufzüge", nl: "8 dubbeldekkerliften" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Burj Khalifa has 4 double-deck elevators that can transport visitors efficiently between multiple floors simultaneously.",
+          es: "El Burj Khalifa tiene 4 ascensores de dos pisos que pueden transportar visitantes eficientemente entre múltiples pisos simultáneamente.",
+          de: "Der Burj Khalifa verfügt über 4 Doppeldeck-Aufzüge, die Besucher gleichzeitig effizient zwischen mehreren Etagen transportieren können.",
+          nl: "De Burj Khalifa heeft 4 dubbeldekkerliften die bezoekers efficiënt tussen meerdere verdiepingen kunnen vervoeren."
+        }
+      },
+      {
+        question: {
+          en: "What depth were the foundation piles driven into the ground?",
+          es: "¿A qué profundidad se clavaron los pilotes de cimentación en el suelo?",
+          de: "Wie tief wurden die Fundamentpfähle in den Boden getrieben?",
+          nl: "Tot welke diepte werden de funderingspalen in de grond gedreven?"
+        },
+        options: [
+          { en: "30 meters", es: "30 metros", de: "30 Meter", nl: "30 meter" },
+          { en: "40 meters", es: "40 metros", de: "40 Meter", nl: "40 meter" },
+          { en: "50 meters", es: "50 metros", de: "50 Meter", nl: "50 meter" },
+          { en: "60 meters", es: "60 metros", de: "60 Meter", nl: "60 meter" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The foundation consists of 194 piles driven approximately 50 meters into the ground, anchoring the building securely in the desert soil.",
+          es: "La cimentación consiste en 194 pilotes clavados aproximadamente 50 metros en el suelo, anclando el edificio de forma segura en el suelo del desierto.",
+          de: "Das Fundament besteht aus 194 Pfählen, die etwa 50 Meter in den Boden getrieben wurden und das Gebäude sicher im Wüstenboden verankern.",
+          nl: "Het fundament bestaat uit 194 palen die ongeveer 50 meter in de grond werden gedreven, waardoor het gebouw stevig in de woestijnbodem verankerd is."
+        }
+      },
+      {
+        question: {
+          en: "How many sky lobbies are there in the building?",
+          es: "¿Cuántos lobbies en el cielo hay en el edificio?",
+          de: "Wie viele Sky-Lobbys gibt es im Gebäude?",
+          nl: "Hoeveel sky lobby's zijn er in het gebouw?"
+        },
+        options: [
+          { en: "2 sky lobbies", es: "2 lobbies en el cielo", de: "2 Sky-Lobbys", nl: "2 sky lobby's" },
+          { en: "3 sky lobbies", es: "3 lobbies en el cielo", de: "3 Sky-Lobbys", nl: "3 sky lobby's" },
+          { en: "4 sky lobbies", es: "4 lobbies en el cielo", de: "4 Sky-Lobbys", nl: "4 sky lobby's" },
+          { en: "5 sky lobbies", es: "5 lobbies en el cielo", de: "5 Sky-Lobbys", nl: "5 sky lobby's" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Burj Khalifa has 3 sky lobbies located at different heights, serving as transfer floors where visitors change elevators.",
+          es: "El Burj Khalifa tiene 3 lobbies en el cielo ubicados a diferentes alturas, sirviendo como pisos de transferencia donde los visitantes cambian de ascensores.",
+          de: "Der Burj Khalifa verfügt über 3 Sky-Lobbys in verschiedenen Höhen, die als Transferetagen dienen, wo Besucher die Aufzüge wechseln.",
+          nl: "De Burj Khalifa heeft 3 sky lobby's op verschillende hoogtes, die dienen als overdrachtverdiepingen waar bezoekers van lift wisselen."
+        }
+      },
+      {
+        question: {
+          en: "What is the total curtain wall area of the building?",
+          es: "¿Cuál es el área total del muro cortina del edificio?",
+          de: "Wie groß ist die gesamte Vorhangfassadenfläche des Gebäudes?",
+          nl: "Wat is het totale vliesgevelvlak van het gebouw?"
+        },
+        options: [
+          { en: "100,000 square m", es: "100,000 metros cuadrados", de: "100.000 Quadratmeter", nl: "100.000 vierkante meter" },
+          { en: "120,000 square m", es: "120,000 metros cuadrados", de: "120.000 Quadratmeter", nl: "120.000 vierkante meter" },
+          { en: "132,000 square m", es: "132,000 metros cuadrados", de: "132.000 Quadratmeter", nl: "132.000 vierkante meter" },
+          { en: "150,000 square m", es: "150,000 metros cuadrados", de: "150.000 Quadratmeter", nl: "150.000 vierkante meter" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The curtain wall system covers approximately 132,000 square meters, equivalent to 17 soccer fields, making it one of the largest in the world.",
+          es: "El sistema de muro cortina cubre aproximadamente 132,000 metros cuadrados, equivalente a 17 campos de fútbol, convirtiéndolo en uno de los más grandes del mundo.",
+          de: "Das Vorhangfassadensystem bedeckt etwa 132.000 Quadratmeter, entspricht 17 Fußballfeldern und ist damit eines der größten der Welt.",
+          nl: "Het vliesgevelsysteem bedekt ongeveer 132.000 vierkante meter, gelijk aan 17 voetbalvelden, waardoor het een van de grootste ter wereld is."
+        }
+      },
+      {
+        question: {
+          en: "Which company provided the building's elevator systems?",
+          es: "¿Qué compañía proporcionó los sistemas de ascensores del edificio?",
+          de: "Welches Unternehmen lieferte die Aufzugsysteme des Gebäudes?",
+          nl: "Welk bedrijf leverde de liftsystemen van het gebouw?"
+        },
+        options: [
+          { en: "Otis", es: "Otis", de: "Otis", nl: "Otis" },
+          { en: "Schindler", es: "Schindler", de: "Schindler", nl: "Schindler" },
+          { en: "Kone", es: "Kone", de: "Kone", nl: "Kone" },
+          { en: "ThyssenKrupp", es: "ThyssenKrupp", de: "ThyssenKrupp", nl: "ThyssenKrupp" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Otis provided the sophisticated elevator systems for the Burj Khalifa, including the double-deck elevators and high-speed units.",
+          es: "Otis proporcionó los sofisticados sistemas de ascensores para el Burj Khalifa, incluyendo los ascensores de dos pisos y las unidades de alta velocidad.",
+          de: "Otis lieferte die ausgefeilten Aufzugsysteme für den Burj Khalifa, einschließlich der Doppeldeck-Aufzüge und Hochgeschwindigkeitseinheiten.",
+          nl: "Otis leverde de geavanceerde liftsystemen voor de Burj Khalifa, inclusief de dubbeldekkerliften en hogesnelheidseenheden."
+        }
+      },
+      {
+        question: {
+          en: "How many columns support the entire structure?",
+          es: "¿Cuántas columnas sostienen toda la estructura?",
+          de: "Wie viele Säulen stützen die gesamte Struktur?",
+          nl: "Hoeveel kolommen ondersteunen de hele structuur?"
+        },
+        options: [
+          { en: "120 columns", es: "120 columnas", de: "120 Säulen", nl: "120 kolommen" },
+          { en: "156 columns", es: "156 columnas", de: "156 Säulen", nl: "156 kolommen" },
+          { en: "192 columns", es: "192 columnas", de: "192 Säulen", nl: "192 kolommen" },
+          { en: "220 columns", es: "220 columnas", de: "220 Säulen", nl: "220 kolommen" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The structure is supported by 192 reinforced concrete columns arranged in a complex pattern to distribute the massive loads.",
+          es: "La estructura está soportada por 192 columnas de hormigón armado dispuestas en un patrón complejo para distribuir las cargas masivas.",
+          de: "Die Struktur wird von 192 Stahlbetonsäulen gestützt, die in einem komplexen Muster angeordnet sind, um die enormen Lasten zu verteilen.",
+          nl: "De structuur wordt ondersteund door 192 gewapende betonnen kolommen die in een complex patroon zijn gerangschikt om de enorme belastingen te verdelen."
+        }
+      },
+      {
+        question: {
+          en: "What is the building's average daily water consumption?",
+          es: "¿Cuál es el consumo promedio diario de agua del edificio?",
+          de: "Wie hoch ist der durchschnittliche tägliche Wasserverbrauch des Gebäudes?",
+          nl: "Wat is het gemiddelde dagelijkse waterverbruik van het gebouw?"
+        },
+        options: [
+          { en: "250,000 liters", es: "250,000 litros", de: "250.000 Liter", nl: "250.000 liter" },
+          { en: "500,000 liters", es: "500,000 litros", de: "500.000 Liter", nl: "500.000 liter" },
+          { en: "946,000 liters", es: "946,000 litros", de: "946.000 Liter", nl: "946.000 liter" },
+          { en: "1,200,000 liters", es: "1,200,000 litros", de: "1.200.000 Liter", nl: "1.200.000 liter" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Burj Khalifa consumes approximately 946,000 liters (250,000 gallons) of water daily for various uses throughout the building.",
+          es: "El Burj Khalifa consume aproximadamente 946,000 litros (250,000 galones) de agua diariamente para varios usos en todo el edificio.",
+          de: "Der Burj Khalifa verbraucht täglich etwa 946.000 Liter (250.000 Gallonen) Wasser für verschiedene Zwecke im gesamten Gebäude.",
+          nl: "De Burj Khalifa verbruikt dagelijks ongeveer 946.000 liter (250.000 gallons) water voor verschillende toepassingen in het hele gebouw."
+        }
+      },
+      {
+        question: {
+          en: "How many mechanical floors are distributed throughout the building?",
+          es: "¿Cuántos pisos mecánicos están distribuidos por todo el edificio?",
+          de: "Wie viele Technikgeschosse sind im gesamten Gebäude verteilt?",
+          nl: "Hoeveel technische verdiepingen zijn over het hele gebouw verdeeld?"
+        },
+        options: [
+          { en: "15 mechanical floors", es: "15 pisos mecánicos", de: "15 Technikgeschosse", nl: "15 technische verdiepingen" },
+          { en: "20 mechanical floors", es: "20 pisos mecánicos", de: "20 Technikgeschosse", nl: "20 technische verdiepingen" },
+          { en: "25 mechanical floors", es: "25 pisos mecánicos", de: "25 Technikgeschosse", nl: "25 technische verdiepingen" },
+          { en: "30 mechanical floors", es: "30 pisos mecánicos", de: "30 Technikgeschosse", nl: "30 technische verdiepingen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The building has 20 mechanical floors distributed throughout its height, housing HVAC systems, electrical equipment, and other building services.",
+          es: "El edificio tiene 20 pisos mecánicos distribuidos a lo largo de su altura, albergando sistemas HVAC, equipos eléctricos y otros servicios del edificio.",
+          de: "Das Gebäude verfügt über 20 Technikgeschosse, die über die gesamte Höhe verteilt sind und HVAC-Systeme, elektrische Ausrüstung und andere Gebäudeservices beherbergen.",
+          nl: "Het gebouw heeft 20 technische verdiepingen verspreid over de hoogte, met HVAC-systemen, elektrische apparatuur en andere gebouwdiensten."
+        }
+      },
+      {
+        question: {
+          en: "What is the maximum occupancy of the Burj Khalifa?",
+          es: "¿Cuál es la ocupación máxima del Burj Khalifa?",
+          de: "Was ist die maximale Belegung des Burj Khalifa?",
+          nl: "Wat is de maximale bezetting van de Burj Khalifa?"
+        },
+        options: [
+          { en: "25,000 people", es: "25,000 personas", de: "25.000 Personen", nl: "25.000 mensen" },
+          { en: "30,000 people", es: "30,000 personas", de: "30.000 Personen", nl: "30.000 mensen" },
+          { en: "35,000 people", es: "35,000 personas", de: "35.000 Personen", nl: "35.000 mensen" },
+          { en: "40,000 people", es: "40,000 personas", de: "40.000 Personen", nl: "40.000 mensen" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Burj Khalifa can accommodate up to 35,000 people at maximum capacity, including residents, workers, and visitors.",
+          es: "El Burj Khalifa puede acomodar hasta 35,000 personas a su máxima capacidad, incluyendo residentes, trabajadores y visitantes.",
+          de: "Der Burj Khalifa kann bei maximaler Kapazität bis zu 35.000 Personen aufnehmen, einschließlich Bewohner, Arbeitnehmer und Besucher.",
+          nl: "De Burj Khalifa kan tot 35.000 mensen herbergen op maximale capaciteit, inclusief bewoners, werknemers en bezoekers."
+        }
+      },
+      {
+        question: {
+          en: "What earthquake magnitude can the Burj Khalifa withstand?",
+          es: "¿Qué magnitud de terremoto puede soportar el Burj Khalifa?",
+          de: "Welche Erdbebenstärke kann der Burj Khalifa aushalten?",
+          nl: "Welke aardbevingsmagnitude kan de Burj Khalifa weerstaan?"
+        },
+        options: [
+          { en: "Magnitude 5.0", es: "Magnitud 5.0", de: "Magnitude 5,0", nl: "Magnitude 5,0" },
+          { en: "Magnitude 6.0", es: "Magnitud 6.0", de: "Magnitude 6,0", nl: "Magnitude 6,0" },
+          { en: "Magnitude 7.0", es: "Magnitud 7.0", de: "Magnitude 7,0", nl: "Magnitude 7,0" },
+          { en: "Magnitude 8.0", es: "Magnitud 8.0", de: "Magnitude 8,0", nl: "Magnitude 8,0" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The building is designed to withstand earthquakes up to magnitude 7.0 on the Richter scale, thanks to its reinforced concrete core and flexible design.",
+          es: "El edificio está diseñado para soportar terremotos de hasta magnitud 7.0 en la escala de Richter, gracias a su núcleo de hormigón armado y diseño flexible.",
+          de: "Das Gebäude ist so konzipiert, dass es Erdbeben bis zur Stärke 7,0 auf der Richterskala standhält, dank seines Stahlbetonkerns und flexiblen Designs.",
+          nl: "Het gebouw is ontworpen om aardbevingen tot magnitude 7,0 op de schaal van Richter te weerstaan, dankzij de gewapende betonnen kern en flexibel ontwerp."
+        }
+      },
+      {
+        question: {
+          en: "How many stainless steel spandrel panels were used in construction?",
+          es: "¿Cuántos paneles de acero inoxidable se utilizaron en la construcción?",
+          de: "Wie viele Edelstahl-Brüstungspaneele wurden im Bau verwendet?",
+          nl: "Hoeveel roestvrijstalen borstwering panelen werden gebruikt in de constructie?"
+        },
+        options: [
+          { en: "15,000 panels", es: "15,000 paneles", de: "15.000 Paneele", nl: "15.000 panelen" },
+          { en: "18,000 panels", es: "18,000 paneles", de: "18.000 Paneele", nl: "18.000 panelen" },
+          { en: "24,348 panels", es: "24,348 paneles", de: "24.348 Paneele", nl: "24.348 panelen" },
+          { en: "30,000 panels", es: "30,000 paneles", de: "30.000 Paneele", nl: "30.000 panelen" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The exterior features 24,348 stainless steel spandrel panels that provide both aesthetic appeal and structural support to the curtain wall system.",
+          es: "El exterior presenta 24,348 paneles de acero inoxidable que proporcionan tanto atractivo estético como soporte estructural al sistema de muro cortina.",
+          de: "Die Außenseite verfügt über 24.348 Edelstahl-Brüstungspaneele, die sowohl ästhetische Attraktivität als auch strukturelle Unterstützung für das Vorhangfassadensystem bieten.",
+          nl: "De buitenkant heeft 24.348 roestvrijstalen borstwering panelen die zowel esthetische aantrekkingskracht als structurele ondersteuning bieden aan het vliesgevelsysteem."
+        }
+      },
+      {
+        question: {
+          en: "What is the average temperature difference between ground and top floors?",
+          es: "¿Cuál es la diferencia de temperatura promedio entre los pisos inferiores y superiores?",
+          de: "Was ist der durchschnittliche Temperaturunterschied zwischen Erdgeschoss und obersten Etagen?",
+          nl: "Wat is het gemiddelde temperatuurverschil tussen begane grond en bovenste verdiepingen?"
+        },
+        options: [
+          { en: "3-4°C", es: "3-4°C", de: "3-4°C", nl: "3-4°C" },
+          { en: "6-8°C", es: "6-8°C", de: "6-8°C", nl: "6-8°C" },
+          { en: "10-12°C", es: "10-12°C", de: "10-12°C", nl: "10-12°C" },
+          { en: "15-18°C", es: "15-18°C", de: "15-18°C", nl: "15-18°C" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "There is typically a 6-8°C temperature difference between the ground level and the top floors due to altitude and atmospheric conditions.",
+          es: "Típicamente hay una diferencia de temperatura de 6-8°C entre el nivel del suelo y los pisos superiores debido a la altitud y las condiciones atmosféricas.",
+          de: "Es gibt typischerweise einen Temperaturunterschied von 6-8°C zwischen dem Erdgeschoss und den obersten Etagen aufgrund von Höhe und atmosphärischen Bedingungen.",
+          nl: "Er is doorgaans een temperatuurverschil van 6-8°C tussen begane grond en de bovenste verdiepingen vanwege hoogte en atmosferische omstandigheden."
+        }
+      },
+      {
+        question: {
+          en: "What type of glass is used in the curtain wall?",
+          es: "¿Qué tipo de vidrio se usa en el muro cortina?",
+          de: "Welche Art von Glas wird in der Vorhangfassade verwendet?",
+          nl: "Welk type glas wordt gebruikt in de vliesgevel?"
+        },
+        options: [
+          { en: "Single pane glass", es: "Vidrio de panel único", de: "Einscheibenglas", nl: "Enkelglas" },
+          { en: "Double-glazed units", es: "Unidades de doble acristalamiento", de: "Doppelverglasung", nl: "Dubbelglas" },
+          { en: "Triple-glazed units", es: "Unidades de triple acristalamiento", de: "Dreifachverglasung", nl: "Driedubbel glas" },
+          { en: "Plastic panels", es: "Paneles de plástico", de: "Kunststoffpaneele", nl: "Plastic panelen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The curtain wall uses double-glazed units with low-emissivity coatings to reduce heat gain while maintaining transparency and views.",
+          es: "El muro cortina utiliza unidades de doble acristalamiento con recubrimientos de baja emisividad para reducir la ganancia de calor manteniendo transparencia y vistas.",
+          de: "Die Vorhangfassade verwendet Doppelverglasung mit Low-E-Beschichtungen zur Reduzierung der Wärmeaufnahme bei gleichzeitiger Transparenz und Aussicht.",
+          nl: "De vliesgevel gebruikt dubbelglas met low-e coatings om warmtewinst te verminderen terwijl transparantie en uitzicht behouden blijven."
+        }
       }
     ]
   };

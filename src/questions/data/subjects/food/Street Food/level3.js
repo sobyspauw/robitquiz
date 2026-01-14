@@ -390,44 +390,275 @@
       },
       {
         question: {
-          en: "What type of grill is commonly used for satay and kebabs?",
-          es: "¿Qué tipo de parrilla se usa comúnmente para satay y kebabs?",
-          de: "Welche Art von Grill wird häufig für Satay und Kebabs verwendet?",
-          nl: "Welk type grill wordt vaak gebruikt voor saté en kebabs?"
+          en: "What is a bamboo steamer basket primarily used for in Asian street food?",
+          es: "¿Para qué se usa principalmente una canasta vaporera de bambú en la comida callejera asiática?",
+          de: "Wofür wird ein Bambus-Dampfkorb hauptsächlich in asiatischem Straßenessen verwendet?",
+          nl: "Waarvoor wordt een bamboe stoommand voornamelijk gebruikt bij Aziatisch straatvoedsel?"
         },
         options: [
-          { en: "Electric induction cooktop", es: "Placa de inducción eléctrica", de: "Elektrische Induktionskochplatte", nl: "Elektrische inductiekookplaat" },
-          { en: "Charcoal brazier or portable grill", es: "Brasero de carbón o parrilla portátil", de: "Holzkohlebecken oder tragbarer Grill", nl: "Houtskool komfoor of draagbare grill" },
-          { en: "Gas oven", es: "Horno de gas", de: "Gasofen", nl: "Gasoven" },
-          { en: "Microwave oven", es: "Horno microondas", de: "Mikrowellenofen", nl: "Magnetron" }
+          { en: "Storing dry ingredients", es: "Almacenar ingredientes secos", de: "Trockene Zutaten lagern", nl: "Droge ingrediënten bewaren" },
+          { en: "Steaming dumplings, buns, and vegetables", es: "Cocinar al vapor dumplings, bollos y verduras", de: "Dämpfen von Teigtaschen, Brötchen und Gemüse", nl: "Stomen van dumplings, broodjes en groenten" },
+          { en: "Deep frying foods", es: "Freír alimentos", de: "Frittieren von Lebensmitteln", nl: "Diep frituren van voedsel" },
+          { en: "Grilling meats", es: "Asar carnes", de: "Fleisch grillen", nl: "Vlees grillen" }
         ],
         correct: 1,
         explanation: {
-          en: "Charcoal braziers and portable grills are ideal for satay and kebabs because they provide high heat and impart a smoky flavor while being portable for street vendors.",
-          es: "Los braseros de carbón y las parrillas portátiles son ideales para satay y kebabs porque proporcionan alto calor e imparten un sabor ahumado mientras son portátiles para vendedores callejeros.",
-          de: "Holzkohlebecken und tragbare Grills sind ideal für Satay und Kebabs, weil sie hohe Hitze liefern und einen rauchigen Geschmack verleihen, während sie für Straßenhändler tragbar sind.",
-          nl: "Houtskool komfoors en draagbare grills zijn ideaal voor saté en kebabs omdat ze hoge hitte leveren en een rokerige smaak geven terwijl ze draagbaar zijn voor straatverkopers."
+          en: "Bamboo steamer baskets are traditional equipment for steaming dim sum, bao buns, and vegetables in Asian street food, preserving nutrients and creating tender textures without added fat.",
+          es: "Las canastas vaporizadoras de bambú son equipo tradicional para cocinar al vapor dim sum, bollos bao y verduras en comida callejera asiática, preservando nutrientes y creando texturas tiernas sin grasa añadida.",
+          de: "Bambus-Dampfkörbe sind traditionelle Ausrüstung zum Dämpfen von Dim Sum, Bao-Brötchen und Gemüse im asiatischen Straßenessen, wobei Nährstoffe erhalten bleiben und zarte Texturen ohne zugesetztes Fett entstehen.",
+          nl: "Bamboe stoommanden zijn traditionele uitrusting voor het stomen van dim sum, bao broodjes en groenten bij Aziatisch straatvoedsel, waarbij voedingsstoffen behouden blijven en zachte texturen ontstaan zonder toegevoegd vet."
         }
       },
       {
         question: {
-          en: "Which cooking method is essential for making proper crispy spring rolls?",
-          es: "¿Qué método de cocina es esencial para hacer rollos de primavera crujientes adecuados?",
-          de: "Welche Kochmethode ist für die Herstellung von knusprigen Frühlingsrollen unerlässlich?",
-          nl: "Welke kookmethode is essentieel voor het maken van goede knapperige loempia's?"
+          en: "Which cooking method is used for making crispy Belgian waffles at street stalls?",
+          es: "¿Qué método de cocina se usa para hacer waffles belgas crujientes en puestos callejeros?",
+          de: "Welche Kochmethode wird für die Herstellung von knusprigen belgischen Waffeln an Straßenständen verwendet?",
+          nl: "Welke kookmethode wordt gebruikt voor het maken van knapperige Belgische wafels bij straatkramen?"
         },
         options: [
-          { en: "Steaming", es: "Vapor", de: "Dämpfen", nl: "Stomen" },
-          { en: "Deep frying at 350-375°F (175-190°C)", es: "Fritura profunda a 175-190°C", de: "Frittieren bei 175-190°C", nl: "Diep frituren op 175-190°C" },
-          { en: "Boiling", es: "Hervir", de: "Kochen", nl: "Koken" },
-          { en: "Raw preparation", es: "Preparación cruda", de: "Rohe Zubereitung", nl: "Rauwe bereiding" }
+          { en: "Boiling in water", es: "Hervir en agua", de: "In Wasser kochen", nl: "Koken in water" },
+          { en: "Baking in a specialized waffle iron", es: "Hornear en una plancha especializada para waffles", de: "Backen in einem speziellen Waffeleisen", nl: "Bakken in een gespecialiseerd wafelijzer" },
+          { en: "Steaming", es: "Cocinar al vapor", de: "Dämpfen", nl: "Stomen" },
+          { en: "Air drying", es: "Secar al aire", de: "Lufttrocknen", nl: "Luchtdrogen" }
         ],
         correct: 1,
         explanation: {
-          en: "Deep frying at the correct temperature (350-375°F/175-190°C) is crucial for spring rolls to achieve the characteristic crispy exterior while cooking the filling properly.",
-          es: "La fritura profunda a la temperatura correcta (175-190°C) es crucial para que los rollos de primavera logren el exterior crujiente característico mientras se cocina el relleno adecuadamente.",
-          de: "Frittieren bei der richtigen Temperatur (175-190°C) ist entscheidend für Frühlingsrollen, um die charakteristische knusprige Außenseite zu erreichen, während die Füllung richtig gekocht wird.",
-          nl: "Diep frituren op de juiste temperatuur (175-190°C) is cruciaal voor loempia's om de karakteristieke knapperige buitenkant te bereiken terwijl de vulling goed wordt gekookt."
+          en: "Belgian waffles are made using specialized waffle irons with deep pockets that create the characteristic crispy exterior and fluffy interior, typically heated to 350-400°F (175-200°C).",
+          es: "Los waffles belgas se hacen usando planchas especializadas con cavidades profundas que crean el exterior crujiente característico y el interior esponjoso, típicamente calentadas a 175-200°C.",
+          de: "Belgische Waffeln werden mit speziellen Waffeleisen mit tiefen Taschen hergestellt, die die charakteristische knusprige Außenseite und fluffige Innenseite erzeugen, typischerweise auf 175-200°C erhitzt.",
+          nl: "Belgische wafels worden gemaakt met gespecialiseerde wafelijzers met diepe zakken die de karakteristieke knapperige buitenkant en luchtige binnenkant creëren, meestal verwarmd tot 175-200°C."
+        }
+      },
+      {
+        question: {
+          en: "What is a plancha and how is it used in street food cooking?",
+          es: "¿Qué es una plancha y cómo se usa en la cocina de comida callejera?",
+          de: "Was ist eine Plancha und wie wird sie beim Straßenessen-Kochen verwendet?",
+          nl: "Wat is een plancha en hoe wordt het gebruikt bij het koken van straatvoedsel?"
+        },
+        options: [
+          { en: "A deep soup pot for stews", es: "Una olla profunda para guisos", de: "Ein tiefer Suppentopf für Eintöpfe", nl: "Een diepe soeppan voor stoofschotels" },
+          { en: "A flat metal griddle for high-heat cooking", es: "Una plancha de metal plana para cocinar a alta temperatura", de: "Eine flache Metallgrillplatte für Hochtemperaturkochen", nl: "Een platte metalen grillplaat voor hoge temperatuur koken" },
+          { en: "A food storage container", es: "Un contenedor para almacenar comida", de: "Ein Lebensmittelbehälter", nl: "Een voedselbewaarcontainer" },
+          { en: "A cutting board", es: "Una tabla de cortar", de: "Ein Schneidebrett", nl: "Een snijplank" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "A plancha is a flat metal griddle used in Spanish and Latin American cooking for searing meats, seafood, and vegetables at high heat, creating a caramelized crust while keeping food moist inside.",
+          es: "Una plancha es una parrilla de metal plana usada en la cocina española y latinoamericana para sellar carnes, mariscos y verduras a alta temperatura, creando una costra caramelizada mientras mantiene la comida húmeda por dentro.",
+          de: "Eine Plancha ist eine flache Metallgrillplatte, die in der spanischen und lateinamerikanischen Küche zum Anbraten von Fleisch, Meeresfrüchten und Gemüse bei hoher Hitze verwendet wird, wobei eine karamellisierte Kruste entsteht, während das Essen innen saftig bleibt.",
+          nl: "Een plancha is een platte metalen grillplaat die wordt gebruikt in de Spaanse en Latijns-Amerikaanse keuken voor het dichtschroeien van vlees, zeevruchten en groenten op hoge temperatuur, waarbij een gekarameliseerde korst ontstaat terwijl het voedsel vanbinnen vochtig blijft."
+        }
+      },
+      {
+        question: {
+          en: "Which utensil is specifically designed for flipping crepes and thin pancakes?",
+          es: "¿Qué utensilio está específicamente diseñado para voltear crepes y panqueques delgados?",
+          de: "Welches Utensil ist speziell zum Wenden von Crepes und dünnen Pfannkuchen entwickelt?",
+          nl: "Welk keukengerei is specifiek ontworpen voor het omkeren van crêpes en dunne pannenkoeken?"
+        },
+        options: [
+          { en: "Large metal spatula or crepe spreader", es: "Espátula de metal grande o esparcidor de crepes", de: "Große Metallspachtel oder Crepe-Verteiler", nl: "Grote metalen spatel of crêpe spreider" },
+          { en: "Soup ladle", es: "Cucharón para sopa", de: "Suppenkelle", nl: "Soeplepel" },
+          { en: "Wooden spoon", es: "Cuchara de madera", de: "Holzlöffel", nl: "Houten lepel" },
+          { en: "Tongs", es: "Pinzas", de: "Zange", nl: "Tang" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A large, thin metal spatula or specialized crepe spreader (raclette) allows vendors to flip delicate crepes without tearing, while spreading the batter evenly across the hot surface.",
+          es: "Una espátula de metal grande y delgada o un esparcidor de crepes especializado (raclette) permite a los vendedores voltear crepes delicados sin romperlos, mientras extienden la masa uniformemente sobre la superficie caliente.",
+          de: "Eine große, dünne Metallspachtel oder spezialisierter Crepe-Verteiler (Raclette) ermöglicht es Verkäufern, zarte Crepes zu wenden, ohne sie zu zerreißen, während der Teig gleichmäßig auf der heißen Oberfläche verteilt wird.",
+          nl: "Een grote, dunne metalen spatel of gespecialiseerde crêpe spreider (raclette) stelt verkopers in staat om delicate crêpes om te draaien zonder te scheuren, terwijl het beslag gelijkmatig over het hete oppervlak wordt verspreid."
+        }
+      },
+      {
+        question: {
+          en: "What equipment is essential for making fresh churros at street fairs?",
+          es: "¿Qué equipo es esencial para hacer churros frescos en ferias callejeras?",
+          de: "Welche Ausrüstung ist für die Herstellung von frischen Churros auf Straßenmessen unerlässlich?",
+          nl: "Welke uitrusting is essentieel voor het maken van verse churros bij straatfeesten?"
+        },
+        options: [
+          { en: "Churro maker/piping tool and deep fryer", es: "Máquina de churros/herramienta de tubería y freidora profunda", de: "Churro-Maschine/Spritzbeutel und Fritteuse", nl: "Churro maker/spuitzak en frituurpan" },
+          { en: "Toaster oven", es: "Horno tostador", de: "Toaster", nl: "Broodrooster oven" },
+          { en: "Microwave", es: "Microondas", de: "Mikrowelle", nl: "Magnetron" },
+          { en: "Rice cooker", es: "Arrocera", de: "Reiskocher", nl: "Rijstkoker" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Making churros requires a churro maker or piping tool with a star-shaped nozzle to create the ridged shape, and a deep fryer to cook them at 350-375°F (175-190°C) until golden and crispy.",
+          es: "Hacer churros requiere una máquina de churros o herramienta de tubería con una boquilla en forma de estrella para crear la forma acanalada, y una freidora profunda para cocinarlos a 175-190°C hasta que estén dorados y crujientes.",
+          de: "Churros herzustellen erfordert eine Churro-Maschine oder einen Spritzbeutel mit sternförmiger Düse, um die geriffelte Form zu schaffen, und eine Fritteuse, um sie bei 175-190°C zu kochen, bis sie golden und knusprig sind.",
+          nl: "Churros maken vereist een churro maker of spuitzak met een stervormig mondstuk om de gegroefde vorm te creëren, en een frituurpan om ze te bakken bij 175-190°C tot ze goudbruin en knapperig zijn."
+        }
+      },
+      {
+        question: {
+          en: "Which method ensures food cart refrigeration in areas without electricity?",
+          es: "¿Qué método asegura la refrigeración del carrito de comida en áreas sin electricidad?",
+          de: "Welche Methode gewährleistet die Kühlung von Essenswagen in Gebieten ohne Strom?",
+          de: "Welke methode zorgt voor koeling van voedseltrolley's in gebieden zonder elektriciteit?"
+        },
+        options: [
+          { en: "Ice-filled coolers or insulated containers", es: "Neveras llenas de hielo o contenedores aislados", de: "Eisgefüllte Kühlboxen oder isolierte Behälter", nl: "Met ijs gevulde koelboxen of geïsoleerde containers" },
+          { en: "Leaving food in the sun", es: "Dejar la comida al sol", de: "Essen in der Sonne lassen", nl: "Voedsel in de zon laten liggen" },
+          { en: "Wrapping in newspaper", es: "Envolver en periódico", de: "In Zeitungspapier einwickeln", nl: "Inpakken in krantenpapier" },
+          { en: "No cooling needed", es: "No se necesita enfriamiento", de: "Keine Kühlung erforderlich", nl: "Geen koeling nodig" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ice-filled coolers or insulated containers with ice packs maintain safe food temperatures (below 40°F/4°C) without electricity, essential for preventing spoilage and foodborne illness in mobile food service.",
+          es: "Las neveras llenas de hielo o contenedores aislados con paquetes de hielo mantienen temperaturas seguras de alimentos (debajo de 4°C) sin electricidad, esencial para prevenir deterioro y enfermedades transmitidas por alimentos en servicio de comida móvil.",
+          de: "Eisgefüllte Kühlboxen oder isolierte Behälter mit Kühlakkus halten sichere Lebensmitteltemperaturen (unter 4°C) ohne Strom aufrecht, was für die Verhinderung von Verderb und lebensmittelbedingten Krankheiten im mobilen Lebensmittelservice unerlässlich ist.",
+          nl: "Met ijs gevulde koelboxen of geïsoleerde containers met ijspakketten handhaven veilige voedseltemperaturen (onder 4°C) zonder elektriciteit, essentieel voor het voorkomen van bederf en voedselgerelateerde ziekten bij mobiele voedselservice."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of a rotisserie in street food preparation?",
+          es: "¿Cuál es el propósito de un asador rotativo en la preparación de comida callejera?",
+          de: "Was ist der Zweck eines Drehspießes bei der Straßenessen-Zubereitung?",
+          nl: "Wat is het doel van een draaispit bij de bereiding van straatvoedsel?"
+        },
+        options: [
+          { en: "Slowly rotating meat for even cooking and basting", es: "Rotar lentamente la carne para cocción uniforme y baño", de: "Fleisch langsam drehen für gleichmäßiges Garen und Bestreichen", nl: "Vlees langzaam draaien voor gelijkmatig koken en bevochtigen" },
+          { en: "Chopping vegetables", es: "Picar verduras", de: "Gemüse hacken", nl: "Groenten hakken" },
+          { en: "Making cold drinks", es: "Hacer bebidas frías", de: "Kalte Getränke machen", nl: "Koude drankjes maken" },
+          { en: "Mixing dough", es: "Mezclar masa", de: "Teig mischen", nl: "Deeg mengen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A rotisserie slowly rotates meat (like shawarma, gyros, or roasted chicken) over heat, ensuring even cooking, self-basting with juices, and creating tender, flavorful results for street food service.",
+          es: "Un asador rotativo rota lentamente la carne (como shawarma, gyros o pollo asado) sobre el calor, asegurando cocción uniforme, auto-baño con jugos y creando resultados tiernos y sabrosos para el servicio de comida callejera.",
+          de: "Ein Drehspieß dreht Fleisch (wie Shawarma, Gyros oder Brathähnchen) langsam über Hitze, sorgt für gleichmäßiges Garen, Selbstbestreichen mit Säften und schafft zarte, schmackhafte Ergebnisse für Straßenessen-Service.",
+          nl: "Een draaispit draait vlees (zoals shawarma, gyros of geroosterde kip) langzaam boven hitte, wat zorgt voor gelijkmatig koken, zelf-bevochtigen met sappen en het creëren van mals, smaakvol resultaat voor straatvoedsel service."
+        }
+      },
+      {
+        question: {
+          en: "Which cooking vessel is best for making large batches of soup or stew at street stalls?",
+          es: "¿Qué recipiente de cocina es mejor para hacer grandes lotes de sopa o guiso en puestos callejeros?",
+          de: "Welches Kochgefäß ist am besten für die Herstellung großer Mengen Suppe oder Eintopf an Straßenständen?",
+          nl: "Welk kookgerei is het beste voor het maken van grote hoeveelheden soep of stoofschotel bij straatkramen?"
+        },
+        options: [
+          { en: "Small teacup", es: "Taza de té pequeña", de: "Kleine Teetasse", nl: "Klein theekopje" },
+          { en: "Large stockpot or cauldron", es: "Olla grande o caldero", de: "Großer Suppentopf oder Kessel", nl: "Grote voorraadpan of ketel" },
+          { en: "Frying pan", es: "Sartén", de: "Bratpfanne", nl: "Koekenpan" },
+          { en: "Baking sheet", es: "Bandeja para hornear", de: "Backblech", nl: "Bakplaat" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Large stockpots or cauldrons (often 10+ gallons) are essential for street vendors serving soup or stew, allowing them to prepare large quantities while maintaining consistent temperature throughout the day.",
+          es: "Las ollas grandes o calderos (a menudo más de 40 litros) son esenciales para vendedores callejeros que sirven sopa o guiso, permitiéndoles preparar grandes cantidades mientras mantienen temperatura consistente durante el día.",
+          de: "Große Suppentöpfe oder Kessel (oft über 40 Liter) sind für Straßenverkäufer, die Suppe oder Eintopf servieren, unerlässlich, da sie große Mengen zubereiten können, während sie den ganzen Tag über eine konstante Temperatur aufrechterhalten.",
+          nl: "Grote voorraadpannen of ketels (vaak meer dan 40 liter) zijn essentieel voor straatverkopers die soep of stoofschotel serveren, waardoor ze grote hoeveelheden kunnen bereiden terwijl ze de hele dag een consistente temperatuur behouden."
+        }
+      },
+      {
+        question: {
+          en: "What is a bain-marie and why is it used in street food service?",
+          es: "¿Qué es un baño maría y por qué se usa en el servicio de comida callejera?",
+          de: "Was ist ein Bain-Marie und warum wird es im Straßenessen-Service verwendet?",
+          nl: "Wat is een bain-marie en waarom wordt het gebruikt bij straatvoedsel service?"
+        },
+        options: [
+          { en: "A cold water bath for chilling drinks", es: "Un baño de agua fría para enfriar bebidas", de: "Ein kaltes Wasserbad zum Kühlen von Getränken", nl: "Een koud waterbad voor het koelen van drankjes" },
+          { en: "A hot water bath for keeping food warm gently", es: "Un baño de agua caliente para mantener la comida caliente suavemente", de: "Ein heißes Wasserbad zum sanften Warmhalten von Speisen", nl: "Een warm waterbad voor het zacht warm houden van voedsel" },
+          { en: "A cutting board", es: "Una tabla de cortar", de: "Ein Schneidebrett", nl: "Een snijplank" },
+          { en: "A grilling device", es: "Un dispositivo para asar", de: "Ein Grillgerät", nl: "Een grillapparaat" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "A bain-marie uses hot water to gently keep prepared foods warm without overcooking or drying them out, ideal for street vendors serving sauces, soups, or delicate items throughout the day.",
+          es: "Un baño maría usa agua caliente para mantener suavemente la comida preparada caliente sin cocinar demasiado o secarla, ideal para vendedores callejeros que sirven salsas, sopas o artículos delicados durante el día.",
+          de: "Ein Bain-Marie verwendet heißes Wasser, um zubereitete Speisen sanft warm zu halten, ohne sie zu überkochen oder auszutrocknen, ideal für Straßenverkäufer, die den ganzen Tag über Saucen, Suppen oder empfindliche Artikel servieren.",
+          nl: "Een bain-marie gebruikt warm water om bereid voedsel zacht warm te houden zonder te veel te koken of uit te drogen, ideaal voor straatverkopers die sauzen, soepen of delicate items de hele dag serveren."
+        }
+      },
+      {
+        question: {
+          en: "Which type of skewer is traditionally used for making satay?",
+          es: "¿Qué tipo de pincho se usa tradicionalmente para hacer satay?",
+          de: "Welche Art von Spieß wird traditionell für die Herstellung von Satay verwendet?",
+          nl: "Welk type spies wordt traditioneel gebruikt voor het maken van saté?"
+        },
+        options: [
+          { en: "Plastic straws", es: "Pajitas de plástico", de: "Plastikstrohhalme", nl: "Plastic rietjes" },
+          { en: "Bamboo or wooden skewers", es: "Pinchos de bambú o madera", de: "Bambus- oder Holzspieße", nl: "Bamboe of houten spiesen" },
+          { en: "Metal chains", es: "Cadenas de metal", de: "Metallketten", nl: "Metalen kettingen" },
+          { en: "Rubber bands", es: "Bandas de goma", de: "Gummibänder", nl: "Elastiekjes" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Bamboo or wooden skewers are traditional for satay because they're disposable, heat-resistant when soaked, and impart a subtle flavor while allowing easy handling for grilling small meat pieces.",
+          es: "Los pinchos de bambú o madera son tradicionales para satay porque son desechables, resistentes al calor cuando se remojan e imparten un sabor sutil mientras permiten un fácil manejo para asar piezas pequeñas de carne.",
+          de: "Bambus- oder Holzspieße sind traditionell für Satay, weil sie wegwerfbar sind, hitzebeständig wenn eingeweicht, und einen subtilen Geschmack verleihen, während sie ein einfaches Handling beim Grillen kleiner Fleischstücke ermöglichen.",
+          nl: "Bamboe of houten spiesen zijn traditioneel voor saté omdat ze wegwerpbaar zijn, hittebestendig wanneer geweekt, en een subtiele smaak geven terwijl ze gemakkelijk te hanteren zijn voor het grillen van kleine stukjes vlees."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of a squeeze bottle in street food service?",
+          es: "¿Cuál es el propósito de una botella exprimible en el servicio de comida callejera?",
+          de: "Was ist der Zweck einer Quetschflasche im Straßenessen-Service?",
+          nl: "Wat is het doel van een knijpfles bij straatvoedsel service?"
+        },
+        options: [
+          { en: "Precisely dispensing sauces and condiments", es: "Dispensar con precisión salsas y condimentos", de: "Präzises Dosieren von Saucen und Gewürzen", nl: "Nauwkeurig doseren van sauzen en condimenten" },
+          { en: "Storing dry rice", es: "Almacenar arroz seco", de: "Trockenen Reis lagern", nl: "Droge rijst bewaren" },
+          { en: "Heating water", es: "Calentar agua", de: "Wasser erhitzen", nl: "Water verwarmen" },
+          { en: "Cutting vegetables", es: "Cortar verduras", de: "Gemüse schneiden", nl: "Groenten snijden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Squeeze bottles allow street vendors to quickly and precisely apply sauces, oils, or condiments in controlled amounts, improving presentation and portion control while maintaining food hygiene.",
+          es: "Las botellas exprimibles permiten a los vendedores callejeros aplicar rápida y precisamente salsas, aceites o condimentos en cantidades controladas, mejorando la presentación y el control de porciones mientras mantienen la higiene alimentaria.",
+          de: "Quetschflaschen ermöglichen es Straßenverkäufern, Saucen, Öle oder Gewürze schnell und präzise in kontrollierten Mengen aufzutragen, wodurch Präsentation und Portionskontrolle verbessert werden, während die Lebensmittelhygiene erhalten bleibt.",
+          nl: "Knijpflessen stellen straatverkopers in staat om snel en nauwkeurig sauzen, oliën of condimenten in gecontroleerde hoeveelheden aan te brengen, wat de presentatie en portiecontrole verbetert terwijl de voedselhygiëne behouden blijft."
+        }
+      },
+      {
+        question: {
+          en: "Which technique prevents batter from sticking to waffle irons or griddles?",
+          es: "¿Qué técnica previene que la masa se pegue a las planchas de waffles o parrillas?",
+          de: "Welche Technik verhindert, dass Teig an Waffeleisen oder Grillplatten klebt?",
+          nl: "Welke techniek voorkomt dat beslag aan wafelijzers of grillplaten blijft plakken?"
+        },
+        options: [
+          { en: "Proper seasoning and light oil coating before use", es: "Sazonado adecuado y capa ligera de aceite antes de usar", de: "Richtige Einbrennung und leichte Ölschicht vor Gebrauch", nl: "Goede inbranding en lichte olielaag voor gebruik" },
+          { en: "Using wet paper towels", es: "Usar toallas de papel mojadas", de: "Nasse Papiertücher verwenden", nl: "Natte papieren handdoeken gebruiken" },
+          { en: "Adding sugar to the surface", es: "Agregar azúcar a la superficie", de: "Zucker auf die Oberfläche geben", nl: "Suiker toevoegen aan het oppervlak" },
+          { en: "Spraying with water", es: "Rociar con agua", de: "Mit Wasser besprühen", nl: "Besproeien met water" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Properly seasoning cooking surfaces and applying a light coating of oil or non-stick spray before each use prevents batter from sticking while ensuring even browning and easy release of waffles or pancakes.",
+          es: "Sazonar adecuadamente las superficies de cocción y aplicar una capa ligera de aceite o spray antiadherente antes de cada uso previene que la masa se pegue mientras asegura dorado uniforme y liberación fácil de waffles o panqueques.",
+          de: "Richtige Einbrennung der Kochflächen und Auftragen einer leichten Schicht Öl oder Antihaft-Spray vor jedem Gebrauch verhindert das Kleben von Teig, während gleichmäßige Bräunung und einfaches Lösen von Waffeln oder Pfannkuchen gewährleistet wird.",
+          nl: "Goed inbranden van kookoppervlakken en het aanbrengen van een lichte laag olie of anti-aanbakspray voor elk gebruik voorkomt dat beslag blijft plakken terwijl gelijkmatige bruining en gemakkelijke loslating van wafels of pannenkoeken wordt gegarandeerd."
+        }
+      },
+      {
+        question: {
+          en: "What is the main advantage of using cast iron cookware for street food?",
+          es: "¿Cuál es la principal ventaja de usar utensilios de cocina de hierro fundido para comida callejera?",
+          de: "Was ist der Hauptvorteil der Verwendung von Gusseisen-Kochgeschirr für Straßenessen?",
+          nl: "Wat is het belangrijkste voordeel van het gebruik van gietijzeren kookgerei voor straatvoedsel?"
+        },
+        options: [
+          { en: "Lightweight and easy to carry", es: "Ligero y fácil de transportar", de: "Leicht und einfach zu tragen", nl: "Lichtgewicht en gemakkelijk te dragen" },
+          { en: "Excellent heat retention and even cooking", es: "Excelente retención de calor y cocción uniforme", de: "Hervorragende Wärmespeicherung und gleichmäßiges Garen", nl: "Uitstekende warmtebehoud en gelijkmatig koken" },
+          { en: "Microwavable", es: "Puede usarse en microondas", de: "Mikrowellengeeignet", nl: "Magnetronbestendig" },
+          { en: "Transparent for visibility", es: "Transparente para visibilidad", de: "Transparent für Sichtbarkeit", nl: "Transparant voor zichtbaarheid" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Cast iron cookware excels in street food use because it retains heat exceptionally well, distributes it evenly, and maintains consistent cooking temperatures even when adding cold ingredients repeatedly throughout service.",
+          es: "Los utensilios de cocina de hierro fundido sobresalen en el uso de comida callejera porque retienen el calor excepcionalmente bien, lo distribuyen uniformemente y mantienen temperaturas de cocción consistentes incluso al agregar ingredientes fríos repetidamente durante el servicio.",
+          de: "Gusseisen-Kochgeschirr eignet sich hervorragend für Straßenessen, weil es Wärme außergewöhnlich gut speichert, sie gleichmäßig verteilt und konstante Kochtemperaturen aufrechterhält, selbst wenn während des Service wiederholt kalte Zutaten hinzugefügt werden.",
+          nl: "Gietijzeren kookgerei blinkt uit bij straatvoedsel gebruik omdat het warmte uitzonderlijk goed vasthoudt, gelijkmatig verdeelt en consistente kooktemperaturen handhaaft, zelfs bij het herhaaldelijk toevoegen van koude ingrediënten tijdens de service."
         }
       }
     ]

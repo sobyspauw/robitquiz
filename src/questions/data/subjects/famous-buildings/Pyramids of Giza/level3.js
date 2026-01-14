@@ -431,6 +431,405 @@
                 de: "Chufu war der Sohn von Pharao Snofru, der mehrere Pyramiden baute, darunter die Knickpyramide und die Rote Pyramide in Dahschur.",
                 nl: "Cheops was de zoon van Farao Snofroe, die meerdere piramides bouwde, waaronder de Geknakte Piramide en de Rode Piramide in Dahsjoer."
             }
+        },
+        {
+            question: {
+                en: "What is the slope angle of the Great Pyramid's faces?",
+                es: "¿Cuál es el ángulo de inclinación de las caras de la Gran Pirámide?",
+                de: "Was ist der Neigungswinkel der Flächen der Großen Pyramide?",
+                nl: "Wat is de hellingshoek van de vlakken van de Grote Piramide?"
+            },
+            options: [
+                { en: "45 degrees", es: "45 grados", de: "45 Grad", nl: "45 graden" },
+                { en: "51.5 degrees", es: "51,5 grados", de: "51,5 Grad", nl: "51,5 graden" },
+                { en: "60 degrees", es: "60 grados", de: "60 Grad", nl: "60 graden" },
+                { en: "30 degrees", es: "30 grados", de: "30 Grad", nl: "30 graden" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "The Great Pyramid's faces have a slope angle of approximately 51.5 degrees, which creates its distinctive shape and stability.",
+                es: "Las caras de la Gran Pirámide tienen un ángulo de inclinación de aproximadamente 51,5 grados, lo que crea su forma distintiva y estabilidad.",
+                de: "Die Flächen der Großen Pyramide haben einen Neigungswinkel von etwa 51,5 Grad, was ihre charakteristische Form und Stabilität schafft.",
+                nl: "De vlakken van de Grote Piramide hebben een hellingshoek van ongeveer 51,5 graden, wat zijn kenmerkende vorm en stabiliteit creëert."
+            }
+        },
+        {
+            question: {
+                en: "How many relief chambers are above the King's Chamber?",
+                es: "¿Cuántas cámaras de alivio hay sobre la Cámara del Rey?",
+                de: "Wie viele Entlastungskammern gibt es über der Königskammer?",
+                nl: "Hoeveel ontlastingskamers zijn er boven de Koningskamer?"
+            },
+            options: [
+                { en: "Two chambers", es: "Dos cámaras", de: "Zwei Kammern", nl: "Twee kamers" },
+                { en: "Three chambers", es: "Tres cámaras", de: "Drei Kammern", nl: "Drie kamers" },
+                { en: "Five chambers", es: "Cinco cámaras", de: "Fünf Kammern", nl: "Vijf kamers" },
+                { en: "Seven chambers", es: "Siete cámaras", de: "Sieben Kammern", nl: "Zeven kamers" }
+            ],
+            correctIndex: 2,
+            explanation: {
+                en: "There are five relief chambers above the King's Chamber, designed to distribute the massive weight of the pyramid above it.",
+                es: "Hay cinco cámaras de alivio sobre la Cámara del Rey, diseñadas para distribuir el enorme peso de la pirámide sobre ella.",
+                de: "Es gibt fünf Entlastungskammern über der Königskammer, die das massive Gewicht der Pyramide darüber verteilen sollen.",
+                nl: "Er zijn vijf ontlastingskamers boven de Koningskamer, ontworpen om het enorme gewicht van de piramide erboven te verdelen."
+            }
+        },
+        {
+            question: {
+                en: "What is the name of the ascending passage in the pyramid?",
+                es: "¿Cuál es el nombre del pasaje ascendente en la pirámide?",
+                de: "Wie heißt der aufsteigende Gang in der Pyramide?",
+                nl: "Wat is de naam van de oplopende gang in de piramide?"
+            },
+            options: [
+                { en: "The Grand Gallery", es: "La Gran Galería", de: "Die Große Galerie", nl: "De Grote Galerij" },
+                { en: "The Royal Passage", es: "El Pasaje Real", de: "Der Königliche Gang", nl: "De Koninklijke Gang" },
+                { en: "The Sacred Path", es: "El Camino Sagrado", de: "Der Heilige Pfad", nl: "Het Heilige Pad" },
+                { en: "The Ascending Corridor", es: "El Corredor Ascendente", de: "Der Aufsteigende Korridor", nl: "De Oplopende Gang" }
+            ],
+            correctIndex: 0,
+            explanation: {
+                en: "The Grand Gallery is the impressive ascending passage, 8.6 m high and 46.7 m long, leading to the King's Chamber.",
+                es: "La Gran Galería es el impresionante pasaje ascendente, de 8,6 m de altura y 46,7 m de largo, que conduce a la Cámara del Rey.",
+                de: "Die Große Galerie ist der beeindruckende aufsteigende Gang, 8,6 m hoch und 46,7 m lang, der zur Königskammer führt.",
+                nl: "De Grote Galerij is de indrukwekkende oplopende gang, 8,6 m hoog en 46,7 m lang, die naar de Koningskamer leidt."
+            }
+        },
+        {
+            question: {
+                en: "What material forms the sarcophagus in the King's Chamber?",
+                es: "¿Qué material forma el sarcófago en la Cámara del Rey?",
+                de: "Aus welchem Material besteht der Sarkophag in der Königskammer?",
+                nl: "Uit welk materiaal bestaat de sarcofaag in de Koningskamer?"
+            },
+            options: [
+                { en: "Limestone", es: "Piedra caliza", de: "Kalkstein", nl: "Kalksteen" },
+                { en: "Red granite", es: "Granito rojo", de: "Roter Granit", nl: "Rood graniet" },
+                { en: "Basalt", es: "Basalto", de: "Basalt", nl: "Basalt" },
+                { en: "Marble", es: "Mármol", de: "Marmor", nl: "Marmer" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "The sarcophagus in the King's Chamber is carved from a single block of red granite from Aswan, weighing about 3.75 tons.",
+                es: "El sarcófago en la Cámara del Rey está tallado de un solo bloque de granito rojo de Asuán, pesando aproximadamente 3,75 toneladas.",
+                de: "Der Sarkophag in der Königskammer ist aus einem einzigen Block roten Granits aus Assuan geschnitzt und wiegt etwa 3,75 Tonnen.",
+                nl: "De sarcofaag in de Koningskamer is gesneden uit een enkel blok rood graniet uit Aswan, met een gewicht van ongeveer 3,75 ton."
+            }
+        },
+        {
+            question: {
+                en: "When was the original entrance to the Great Pyramid discovered?",
+                es: "¿Cuándo se descubrió la entrada original a la Gran Pirámide?",
+                de: "Wann wurde der ursprüngliche Eingang zur Großen Pyramide entdeckt?",
+                nl: "Wanneer werd de oorspronkelijke ingang van de Grote Piramide ontdekt?"
+            },
+            options: [
+                { en: "It was always known", es: "Siempre se supo", de: "Es war immer bekannt", nl: "Het was altijd bekend" },
+                { en: "In the 1800s", es: "En el 1800", de: "Im 18. Jahrhundert", nl: "In de jaren 1800" },
+                { en: "In 2000", es: "En 2000", de: "Im Jahr 2000", nl: "In 2000" },
+                { en: "It remains undiscovered", es: "Permanece sin descubrir", de: "Es bleibt unentdeckt", nl: "Het blijft onontdekt" }
+            ],
+            correctIndex: 0,
+            explanation: {
+                en: "The original entrance on the north face was always known, though it was later obscured and rediscovered multiple times throughout history.",
+                es: "La entrada original en la cara norte siempre se conoció, aunque posteriormente se oscureció y se redescubrió múltiples veces a lo largo de la historia.",
+                de: "Der ursprüngliche Eingang an der Nordseite war immer bekannt, obwohl er später verdeckt und im Laufe der Geschichte mehrmals wiederentdeckt wurde.",
+                nl: "De oorspronkelijke ingang aan de noordzijde was altijd bekend, hoewel deze later werd verduisterd en meerdere keren door de geschiedenis heen werd herontdekt."
+            }
+        },
+        {
+            question: {
+                en: "What is the corbelled technique used in the Grand Gallery?",
+                es: "¿Qué es la técnica de ménsula utilizada en la Gran Galería?",
+                de: "Was ist die Kragsteintechnik in der Großen Galerie?",
+                nl: "Wat is de kraagsteentechniek gebruikt in de Grote Galerij?"
+            },
+            options: [
+                { en: "Overlapping stone layers", es: "Capas de piedra superpuestas", de: "Überlappende Steinschichten", nl: "Overlappende steenlagen" },
+                { en: "Carved decorations", es: "Decoraciones talladas", de: "Geschnitzte Dekorationen", nl: "Gesneden decoraties" },
+                { en: "Painted ceiling", es: "Techo pintado", de: "Bemalte Decke", nl: "Geschilderd plafond" },
+                { en: "Metal supports", es: "Soportes de metal", de: "Metallstützen", nl: "Metalen steunen" }
+            ],
+            correctIndex: 0,
+            explanation: {
+                en: "The corbelled ceiling in the Grand Gallery uses overlapping layers of stone, each projecting slightly inward to create a vaulted effect.",
+                es: "El techo de ménsula en la Gran Galería utiliza capas superpuestas de piedra, cada una proyectándose ligeramente hacia adentro para crear un efecto abovedado.",
+                de: "Die Kragsteindecke in der Großen Galerie verwendet überlappende Steinschichten, die jeweils leicht nach innen ragen, um einen gewölbten Effekt zu erzeugen.",
+                nl: "Het kraagsteenplafond in de Grote Galerij gebruikt overlappende steenlagen, elk iets naar binnen uitstekend om een gewelfd effect te creëren."
+            }
+        },
+        {
+            question: {
+                en: "How many boat pits surround the Great Pyramid?",
+                es: "¿Cuántos pozos de barcos rodean la Gran Pirámide?",
+                de: "Wie viele Bootsgruben umgeben die Große Pyramide?",
+                nl: "Hoeveel bootputten omringen de Grote Piramide?"
+            },
+            options: [
+                { en: "Two pits", es: "Dos pozos", de: "Zwei Gruben", nl: "Twee putten" },
+                { en: "Three pits", es: "Tres pozos", de: "Drei Gruben", nl: "Drie putten" },
+                { en: "Five pits", es: "Cinco pozos", de: "Fünf Gruben", nl: "Vijf putten" },
+                { en: "Seven pits", es: "Siete pozos", de: "Sieben Gruben", nl: "Zeven putten" }
+            ],
+            correctIndex: 2,
+            explanation: {
+                en: "Five boat pits have been found around the Great Pyramid, though only two contained actual dismantled boats.",
+                es: "Se han encontrado cinco pozos de barcos alrededor de la Gran Pirámide, aunque solo dos contenían barcos desmantelados reales.",
+                de: "Fünf Bootsgruben wurden um die Große Pyramide herum gefunden, obwohl nur zwei tatsächlich zerlegte Boote enthielten.",
+                nl: "Vijf bootputten zijn gevonden rond de Grote Piramide, hoewel slechts twee daadwerkelijke gedemonteerde boten bevatten."
+            }
+        },
+        {
+            question: {
+                en: "What was the purpose of the plug blocks in the passages?",
+                es: "¿Cuál era el propósito de los bloques de tapón en los pasajes?",
+                de: "Was war der Zweck der Verschlussblöcke in den Gängen?",
+                nl: "Wat was het doel van de plugblokken in de gangen?"
+            },
+            options: [
+                { en: "Support the ceiling", es: "Soportar el techo", de: "Die Decke stützen", nl: "Het plafond ondersteunen" },
+                { en: "Seal chambers after burial", es: "Sellar cámaras después del entierro", de: "Kammern nach der Bestattung versiegeln", nl: "Kamers verzegelen na begrafenis" },
+                { en: "Decoration", es: "Decoración", de: "Dekoration", nl: "Decoratie" },
+                { en: "Ventilation control", es: "Control de ventilación", de: "Belüftungskontrolle", nl: "Ventilatie controle" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "Large granite plug blocks were used to seal the ascending passage after the pharaoh's burial, preventing access to the inner chambers.",
+                es: "Se usaron grandes bloques de tapón de granito para sellar el pasaje ascendente después del entierro del faraón, impidiendo el acceso a las cámaras interiores.",
+                de: "Große Granit-Verschlussblöcke wurden verwendet, um den aufsteigenden Gang nach der Bestattung des Pharaos zu versiegeln und den Zugang zu den inneren Kammern zu verhindern.",
+                nl: "Grote granieten plugblokken werden gebruikt om de oplopende gang te verzegelen na de begrafenis van de farao, waardoor toegang tot de binnenkamers werd voorkomen."
+            }
+        },
+        {
+            question: {
+                en: "What astronomical feature do the air shafts align with?",
+                es: "¿Con qué característica astronómica se alinean los conductos de aire?",
+                de: "Mit welchem astronomischen Merkmal sind die Luftschächte ausgerichtet?",
+                nl: "Met welk astronomisch kenmerk zijn de luchtschachten uitgelijnd?"
+            },
+            options: [
+                { en: "The Sun", es: "El Sol", de: "Die Sonne", nl: "De Zon" },
+                { en: "The Moon", es: "La Luna", de: "Der Mond", nl: "De Maan" },
+                { en: "Specific stars and constellations", es: "Estrellas y constelaciones específicas", de: "Bestimmte Sterne und Sternbilder", nl: "Specifieke sterren en sterrenbeelden" },
+                { en: "Nothing specific", es: "Nada específico", de: "Nichts Bestimmtes", nl: "Niets specifieks" }
+            ],
+            correctIndex: 2,
+            explanation: {
+                en: "The air shafts align with specific stars: the northern shaft pointed to the polar stars, while the southern pointed to Orion's Belt.",
+                es: "Los conductos de aire se alinean con estrellas específicas: el conducto norte apuntaba a las estrellas polares, mientras que el sur apuntaba al Cinturón de Orión.",
+                de: "Die Luftschächte richten sich auf bestimmte Sterne aus: der nördliche Schacht zeigte auf die Polarsterne, während der südliche auf den Oriongürtel zeigte.",
+                nl: "De luchtschachten zijn uitgelijnd met specifieke sterren: de noordelijke schacht wees naar de poolsterren, terwijl de zuidelijke naar de Gordel van Orion wees."
+            }
+        },
+        {
+            question: {
+                en: "What is the name of the unfinished chamber below ground?",
+                es: "¿Cuál es el nombre de la cámara inacabada bajo tierra?",
+                de: "Wie heißt die unvollendete Kammer unter der Erde?",
+                nl: "Wat is de naam van de onafgemaakte kamer onder de grond?"
+            },
+            options: [
+                { en: "The Lower Chamber", es: "La Cámara Inferior", de: "Die Untere Kammer", nl: "De Lagere Kamer" },
+                { en: "The Pit", es: "El Pozo", de: "Die Grube", nl: "De Put" },
+                { en: "The Subterranean Chamber", es: "La Cámara Subterránea", de: "Die Unterirdische Kammer", nl: "De Ondergrondse Kamer" },
+                { en: "The Foundation Room", es: "La Sala de Cimentación", de: "Der Fundamentraum", nl: "De Funderingskamer" }
+            ],
+            correctIndex: 2,
+            explanation: {
+                en: "The Subterranean Chamber is an unfinished room carved into bedrock beneath the pyramid, possibly an abandoned burial chamber design.",
+                es: "La Cámara Subterránea es una sala inacabada tallada en la roca debajo de la pirámide, posiblemente un diseño de cámara funeraria abandonado.",
+                de: "Die Unterirdische Kammer ist ein unvollendeter Raum, der in den Felsen unter der Pyramide geschnitzt wurde, möglicherweise ein aufgegebenes Grabkammerdesign.",
+                nl: "De Ondergrondse Kamer is een onafgemaakte ruimte gesneden in rotsen onder de piramide, mogelijk een verlaten grafkamerontwerp."
+            }
+        },
+        {
+            question: {
+                en: "How wide is the base of each side of the Great Pyramid?",
+                es: "¿Cuán ancha es la base de cada lado de la Gran Pirámide?",
+                de: "Wie breit ist die Basis jeder Seite der Großen Pyramide?",
+                nl: "Hoe breed is de basis van elke zijde van de Grote Piramide?"
+            },
+            options: [
+                { en: "180 meters", es: "180 metros", de: "180 Meter", nl: "180 meter" },
+                { en: "200 meters", es: "200 metros", de: "200 Meter", nl: "200 meter" },
+                { en: "230.4 meters", es: "230,4 metros", de: "230,4 Meter", nl: "230,4 meter" },
+                { en: "250 meters", es: "250 metros", de: "250 Meter", nl: "250 meter" }
+            ],
+            correctIndex: 2,
+            explanation: {
+                en: "Each side of the Great Pyramid's base measures approximately 230.4 meters, with remarkable precision and minimal variation between sides.",
+                es: "Cada lado de la base de la Gran Pirámide mide aproximadamente 230,4 metros, con notable precisión y mínima variación entre los lados.",
+                de: "Jede Seite der Basis der Großen Pyramide misst etwa 230,4 Meter, mit bemerkenswerter Präzision und minimaler Variation zwischen den Seiten.",
+                nl: "Elke zijde van de basis van de Grote Piramide meet ongeveer 230,4 meter, met opmerkelijke precisie en minimale variatie tussen de zijden."
+            }
+        },
+        {
+            question: {
+                en: "What is the estimated number of workers' tombs found near Giza?",
+                es: "¿Cuál es el número estimado de tumbas de trabajadores encontradas cerca de Giza?",
+                de: "Wie viele Arbeitergräber wurden schätzungsweise in der Nähe von Gizeh gefunden?",
+                nl: "Wat is het geschatte aantal arbeidersgraven gevonden bij Gizeh?"
+            },
+            options: [
+                { en: "100 tombs", es: "100 tumbas", de: "100 Gräber", nl: "100 graven" },
+                { en: "600 tombs", es: "600 tumbas", de: "600 Gräber", nl: "600 graven" },
+                { en: "2,000 tombs", es: "2.000 tumbas", de: "2.000 Gräber", nl: "2.000 graven" },
+                { en: "5,000 tombs", es: "5.000 tumbas", de: "5.000 Gräber", nl: "5.000 graven" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "Approximately 600 workers' tombs have been discovered near Giza, providing valuable insights into the lives of pyramid builders.",
+                es: "Se han descubierto aproximadamente 600 tumbas de trabajadores cerca de Giza, proporcionando valiosos conocimientos sobre las vidas de los constructores de pirámides.",
+                de: "Etwa 600 Arbeitergräber wurden in der Nähe von Gizeh entdeckt, die wertvolle Einblicke in das Leben der Pyramidenbauer liefern.",
+                nl: "Ongeveer 600 arbeidersgraven zijn ontdekt bij Gizeh, wat waardevolle inzichten verschaft in het leven van de piramidebouwers."
+            }
+        },
+        {
+            question: {
+                en: "What nickname did Arab builders give to the Great Pyramid?",
+                es: "¿Qué apodo dieron los constructores árabes a la Gran Pirámide?",
+                de: "Welchen Spitznamen gaben arabische Baumeister der Großen Pyramide?",
+                nl: "Welke bijnaam gaven Arabische bouwers aan de Grote Piramide?"
+            },
+            options: [
+                { en: "The Mountain", es: "La Montaña", de: "Der Berg", nl: "De Berg" },
+                { en: "The Light", es: "La Luz", de: "Das Licht", nl: "Het Licht" },
+                { en: "The Terror", es: "El Terror", de: "Der Schrecken", nl: "De Verschrikking" },
+                { en: "The Eternal", es: "El Eterno", de: "Das Ewige", nl: "Het Eeuwige" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "Medieval Arab writers called it 'The Light' because when covered in white limestone casing, it would reflect sunlight brilliantly.",
+                es: "Los escritores árabes medievales la llamaron 'La Luz' porque cuando estaba cubierta con revestimiento de piedra caliza blanca, reflejaba la luz del sol brillantemente.",
+                de: "Mittelalterliche arabische Schriftsteller nannten sie 'Das Licht', weil sie mit weißer Kalksteinverkleidung das Sonnenlicht brillant reflektierte.",
+                nl: "Middeleeuwse Arabische schrijvers noemden het 'Het Licht' omdat het, bedekt met witte kalksteenbekleding, zonlicht schitterend weerkaatste."
+            }
+        },
+        {
+            question: {
+                en: "What is the ratio between the pyramid's height and base perimeter?",
+                es: "¿Cuál es la relación entre la altura de la pirámide y el perímetro de la base?",
+                de: "Was ist das Verhältnis zwischen der Höhe der Pyramide und dem Basisumfang?",
+                nl: "Wat is de verhouding tussen de hoogte van de piramide en de omtrek van de basis?"
+            },
+            options: [
+                { en: "1:2", es: "1:2", de: "1:2", nl: "1:2" },
+                { en: "Similar to pi", es: "Similar a pi", de: "Ähnlich wie Pi", nl: "Vergelijkbaar met pi" },
+                { en: "1:4", es: "1:4", de: "1:4", nl: "1:4" },
+                { en: "Golden ratio", es: "Proporción áurea", de: "Goldener Schnitt", nl: "Gulden snede" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "The ratio of the pyramid's height to its base perimeter is remarkably close to 1/(2π), similar to a circle's radius to circumference.",
+                es: "La relación de la altura de la pirámide con el perímetro de su base es notablemente cercana a 1/(2π), similar al radio de un círculo a su circunferencia.",
+                de: "Das Verhältnis der Höhe der Pyramide zu ihrem Basisumfang ist bemerkenswert nahe bei 1/(2π), ähnlich dem Radius eines Kreises zu seinem Umfang.",
+                nl: "De verhouding van de hoogte van de piramide tot de omtrek van zijn basis is opmerkelijk dicht bij 1/(2π), vergelijkbaar met de straal van een cirkel tot zijn omtrek."
+            }
+        },
+        {
+            question: {
+                en: "What modern building technique resembles ancient ramp theories?",
+                es: "¿Qué técnica de construcción moderna se asemeja a las antiguas teorías de rampas?",
+                de: "Welche moderne Bautechnik ähnelt den antiken Rampentheorien?",
+                nl: "Welke moderne bouwtechniek lijkt op oude hellingstheorieën?"
+            },
+            options: [
+                { en: "Crane lifting", es: "Levantamiento con grúa", de: "Kranheben", nl: "Kraanheffen" },
+                { en: "Spiral scaffolding", es: "Andamiaje en espiral", de: "Spiralgerüst", nl: "Spiraalsteiger" },
+                { en: "Helicopter placement", es: "Colocación por helicóptero", de: "Hubschrauberplatzierung", nl: "Helikopter plaatsing" },
+                { en: "Robot construction", es: "Construcción robótica", de: "Roboterbau", nl: "Robotbouw" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "The internal ramp theory suggests workers used spiral ramps inside the pyramid's structure, similar to modern spiral scaffolding systems.",
+                es: "La teoría de la rampa interna sugiere que los trabajadores usaron rampas en espiral dentro de la estructura de la pirámide, similar a los sistemas modernos de andamiaje en espiral.",
+                de: "Die interne Rampentheorie legt nahe, dass Arbeiter spiralförmige Rampen innerhalb der Pyramidenstruktur verwendeten, ähnlich wie moderne Spiralgerüstsysteme.",
+                nl: "De interne hellingstheorie suggereert dat arbeiders spiraalhellingen in de structuur van de piramide gebruikten, vergelijkbaar met moderne spiraalsteigersystemen."
+            }
+        },
+        {
+            question: {
+                en: "How many casing stones originally covered the Great Pyramid?",
+                es: "¿Cuántas piedras de revestimiento cubrían originalmente la Gran Pirámide?",
+                de: "Wie viele Verkleidungssteine bedeckten ursprünglich die Große Pyramide?",
+                nl: "Hoeveel bekledingsstenen bedekten oorspronkelijk de Grote Piramide?"
+            },
+            options: [
+                { en: "10,000 stones", es: "10.000 piedras", de: "10.000 Steine", nl: "10.000 stenen" },
+                { en: "27,000 stones", es: "27.000 piedras", de: "27.000 Steine", nl: "27.000 stenen" },
+                { en: "50,000 stones", es: "50.000 piedras", de: "50.000 Steine", nl: "50.000 stenen" },
+                { en: "100,000 stones", es: "100.000 piedras", de: "100.000 Steine", nl: "100.000 stenen" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "Approximately 27,000 highly polished white Tura limestone casing stones originally covered the pyramid's exterior surface.",
+                es: "Aproximadamente 27.000 piedras de revestimiento de piedra caliza blanca de Tura altamente pulidas cubrían originalmente la superficie exterior de la pirámide.",
+                de: "Etwa 27.000 hochpolierte weiße Tura-Kalkstein-Verkleidungssteine bedeckten ursprünglich die Außenfläche der Pyramide.",
+                nl: "Ongeveer 27.000 hooggepolijste witte Tura-kalksteen bekledingsstenen bedekten oorspronkelijk het buitenoppervlak van de piramide."
+            }
+        },
+        {
+            question: {
+                en: "What was the average weight of each stone block?",
+                es: "¿Cuál era el peso promedio de cada bloque de piedra?",
+                de: "Was war das durchschnittliche Gewicht jedes Steinblocks?",
+                nl: "Wat was het gemiddelde gewicht van elk steenblok?"
+            },
+            options: [
+                { en: "500 kg", es: "500 kg", de: "500 kg", nl: "500 kg" },
+                { en: "1 ton", es: "1 tonelada", de: "1 Tonne", nl: "1 ton" },
+                { en: "2.5 tons", es: "2,5 toneladas", de: "2,5 Tonnen", nl: "2,5 ton" },
+                { en: "5 tons", es: "5 toneladas", de: "5 Tonnen", nl: "5 ton" }
+            ],
+            correctIndex: 2,
+            explanation: {
+                en: "The average stone block in the Great Pyramid weighs approximately 2.5 tons, though some blocks weigh up to 80 tons.",
+                es: "El bloque de piedra promedio en la Gran Pirámide pesa aproximadamente 2,5 toneladas, aunque algunos bloques pesan hasta 80 toneladas.",
+                de: "Der durchschnittliche Steinblock in der Großen Pyramide wiegt etwa 2,5 Tonnen, obwohl einige Blöcke bis zu 80 Tonnen wiegen.",
+                nl: "Het gemiddelde steenblok in de Grote Piramide weegt ongeveer 2,5 ton, hoewel sommige blokken tot 80 ton wegen."
+            }
+        },
+        {
+            question: {
+                en: "What percentage of the original casing stones remain today?",
+                es: "¿Qué porcentaje de las piedras de revestimiento originales permanecen hoy?",
+                de: "Wie viel Prozent der ursprünglichen Verkleidungssteine sind heute noch vorhanden?",
+                nl: "Welk percentage van de oorspronkelijke bekledingsstenen blijft vandaag over?"
+            },
+            options: [
+                { en: "Less than 1%", es: "Menos del 1%", de: "Weniger als 1%", nl: "Minder dan 1%" },
+                { en: "10%", es: "10%", de: "10%", nl: "10%" },
+                { en: "25%", es: "25%", de: "25%", nl: "25%" },
+                { en: "50%", es: "50%", de: "50%", nl: "50%" }
+            ],
+            correctIndex: 0,
+            explanation: {
+                en: "Less than 1% of the original white limestone casing stones remain today, most having been removed for building projects in Cairo.",
+                es: "Menos del 1% de las piedras de revestimiento de piedra caliza blanca originales permanecen hoy, la mayoría habiendo sido removidas para proyectos de construcción en El Cairo.",
+                de: "Weniger als 1% der ursprünglichen weißen Kalkstein-Verkleidungssteine sind heute noch vorhanden, die meisten wurden für Bauprojekte in Kairo entfernt.",
+                nl: "Minder dan 1% van de oorspronkelijke witte kalksteen bekledingsstenen blijft vandaag over, de meeste zijn verwijderd voor bouwprojecten in Caïro."
+            }
+        },
+        {
+            question: {
+                en: "What was Khufu's relationship to Khafre?",
+                es: "¿Cuál era la relación de Keops con Kefrén?",
+                de: "Was war Chufus Beziehung zu Chephren?",
+                nl: "Wat was Khufu's relatie tot Chefren?"
+            },
+            options: [
+                { en: "Brothers", es: "Hermanos", de: "Brüder", nl: "Broers" },
+                { en: "Father and son", es: "Padre e hijo", de: "Vater und Sohn", nl: "Vader en zoon" },
+                { en: "Uncle and nephew", es: "Tío y sobrino", de: "Onkel und Neffe", nl: "Oom en neef" },
+                { en: "Cousins", es: "Primos", de: "Cousins", nl: "Neven" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "Khufu was Khafre's father. Khafre built the second pyramid at Giza and likely also built the Great Sphinx.",
+                es: "Keops era el padre de Kefrén. Kefrén construyó la segunda pirámide en Giza y probablemente también construyó la Gran Esfinge.",
+                de: "Chufu war Chephrens Vater. Chephren baute die zweite Pyramide in Gizeh und wahrscheinlich auch die Große Sphinx.",
+                nl: "Khufu was Chefren's vader. Chefren bouwde de tweede piramide in Gizeh en waarschijnlijk ook de Grote Sfinx."
+            }
         }
     ];
 

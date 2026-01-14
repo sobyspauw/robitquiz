@@ -825,7 +825,18 @@
           es: "Priming significa construir puntos hechos consecutivos (usualmente 4, 5 o 6 seguidos) para atrapar las fichas traseras de tu oponente. Un prime de 6 puntos es impenetrable - el oponente no puede saltarlo con ningún tiro individual. Los primes son una estrategia de ataque poderosa que puede llevar a gammons si tiene éxito.",
           de: "Priming bedeutet aufeinanderfolgende gemachte Punkte zu bauen (normalerweise 4, 5 oder 6 in einer Reihe) um die hinteren Steine Ihres Gegners einzusperren. Ein 6-Punkt-Prime ist undurchdringlich - der Gegner kann ihn mit keinem einzelnen Wurf überspringen. Primes sind eine mächtige Angriffsstrategie die zu Gammons führen kann wenn erfolgreich.",
           nl: "Priming betekent opeenvolgende gemaakte punten bouwen (meestal 4, 5 of 6 op een rij) om de achterste stenen van je tegenstander vast te zetten. Een 6-punts prime is ondoordringbaar - tegenstander kan er niet overheen springen met een enkele worp. Primes zijn een krachtige aanvalsstrategie die kan leiden tot gammons als het lukt."
-        }
+        }    },
+    {
+      question: {en: "What is strategy in games?", es: "What is strategy in games?", de: "What is strategy in games?", nl: "What is strategy in games?"},
+      options: [
+        {en: "Planning to achieve objectives", es: "Planning to achieve objectives", de: "Planning to achieve objectives", nl: "Planning to achieve objectives"},
+        {en: "Random moves", es: "Random moves", de: "Random moves", nl: "Random moves"},
+        {en: "Luck only", es: "Luck only", de: "Luck only", nl: "Luck only"},
+        {en: "No planning", es: "No planning", de: "No planning", nl: "No planning"}
+      ],
+      correct: 0,
+      explanation: {en: "Strategy involves planning and decision-making to achieve game objectives.", es: "Strategy involves planning and decision-making to achieve game objectives.", de: "Strategy involves planning and decision-making to achieve game objectives.", nl: "Strategy involves planning and decision-making to achieve game objectives."}
+
       }
     ]
   };

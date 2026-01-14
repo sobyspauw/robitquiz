@@ -825,6 +825,26 @@
           es: "El Gambito Budapest (1.d4 Cf6 2.c4 e5) es un gambito agresivo donde las negras sacrifican el peón e5 para desarrollo rápido de piezas y juego activo. Es agudo y táctico, buscando castigar a oponentes no preparados.",
           de: "Das Budapester Gambit (1.d4 Sf6 2.c4 e5) ist ein aggressives Gambit, bei dem Schwarz den e5-Bauern für schnelle Figurenentwicklung und aktives Spiel opfert. Es ist scharf und taktisch und sucht unvorbereitete Gegner zu bestrafen.",
           nl: "Het Boedapest Gambiet (1.d4 Pf6 2.c4 e5) is een agressief gambiet waarbij zwart de e5 pion offert voor snelle stukkenontwikkeling en actief spel. Het is scherp en tactisch, zoekend om onvoorbereide tegenstanders te straffen."
+        }      },
+      {
+        question: {
+          en: "What is the Windmill tactic in chess?",
+          es: "¿Qué es la táctica del Molino en ajedrez?",
+          de: "Was ist die Windmühlen-Taktik im Schach?",
+          nl: "Wat is de Windmolen tactiek in schaken?"
+        },
+        options: [
+          { en: "A series of alternating discovered checks to win material systematically", es: "Una serie de jaques al descubierto alternados para ganar material sistemáticamente", de: "Eine Reihe wechselnder Abzugsschachs um Material systematisch zu gewinnen", nl: "Een reeks afwisselende ontdekte schaken om materiaal systematisch te winnen" },
+          { en: "A pawn chain formation", es: "Una formación de cadena de peones", de: "Eine Bauernketten-Formation", nl: "Een pionketen formatie" },
+          { en: "A queen maneuver pattern", es: "Un patrón de maniobra de dama", de: "Ein Damenmanöver-Muster", nl: "Een damemanoeuvre patroon" },
+          { en: "A repetitive draw technique", es: "Una técnica de tablas repetitiva", de: "Eine repetitive Remis-Technik", nl: "Een herhaalde remise techniek" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Windmill is a powerful tactical motif where a piece (usually a rook or bishop) delivers a series of discovered checks by moving back and forth, capturing material on each cycle. The most famous example is Torre vs. Lasker, Moscow 1925, where Torre's rook executed a devastating windmill that won multiple pieces.",
+          es: "El Molino es un poderoso motivo táctico donde una pieza (usualmente torre o alfil) da una serie de jaques al descubierto moviéndose de ida y vuelta, capturando material en cada ciclo. El ejemplo más famoso es Torre vs. Lasker, Moscú 1925, donde la torre de Torre ejecutó un molino devastador que ganó múltiples piezas.",
+          de: "Die Windmühle ist ein mächtiges taktisches Motiv, bei dem eine Figur (normalerweise Turm oder Läufer) eine Serie von Abzugsschachs gibt, indem sie hin und her bewegt wird und bei jedem Zyklus Material schlägt. Das berühmteste Beispiel ist Torre gegen Lasker, Moskau 1925, wo Torres Turm eine verheerende Windmühle ausführte, die mehrere Figuren gewann.",
+          nl: "De Windmolen is een krachtig tactisch motief waarbij een stuk (meestal een toren of loper) een reeks ontdekte schaken geeft door heen en weer te bewegen, waarbij materiaal wordt geslagen bij elke cyclus. Het meest beroemde voorbeeld is Torre tegen Lasker, Moskou 1925, waar Torre's toren een verwoestende windmolen uitvoerde die meerdere stukken won."
         }
       }
     ]

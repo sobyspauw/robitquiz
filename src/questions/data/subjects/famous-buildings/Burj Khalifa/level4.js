@@ -427,6 +427,426 @@
           de: "Der Burj Khalifa verwendet kathodische Schutzsysteme und hochwertige Edelstahl, um Korrosion durch salzhaltige Winde und Feuchtigkeit zu verhindern. Die Bewehrungsstäbe sind auch speziell mit korrosionsbeständigen Beschichtungen behandelt.",
           nl: "De Burj Khalifa gebruikt kathodische beschermingssystemen en hoogwaardig roestvrij staal om corrosie door zoutbeladen wind en vochtigheid te voorkomen. De wapening is ook speciaal behandeld met corrosiewerende coatings."
         }
+      },
+      {
+        question: {
+          en: "How many cubic meters of concrete were used in the construction?",
+          es: "¿Cuántos metros cúbicos de concreto se usaron en la construcción?",
+          de: "Wie viele Kubikmeter Beton wurden beim Bau verwendet?",
+          nl: "Hoeveel kubieke meter beton werd gebruikt in de constructie?"
+        },
+        options: [
+          { en: "250,000 cubic meters", es: "250,000 metros cúbicos", de: "250.000 Kubikmeter", nl: "250.000 kubieke meter" },
+          { en: "330,000 cubic meters", es: "330,000 metros cúbicos", de: "330.000 Kubikmeter", nl: "330.000 kubieke meter" },
+          { en: "450,000 cubic meters", es: "450,000 metros cúbicos", de: "450.000 Kubikmeter", nl: "450.000 kubieke meter" },
+          { en: "550,000 cubic meters", es: "550,000 metros cúbicos", de: "550.000 Kubikmeter", nl: "550.000 kubieke meter" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Approximately 330,000 cubic meters of concrete were used in the Burj Khalifa's construction, equivalent to about 110,000 elephants in weight.",
+          es: "Se usaron aproximadamente 330,000 metros cúbicos de concreto en la construcción del Burj Khalifa, equivalente a aproximadamente 110,000 elefantes en peso.",
+          de: "Etwa 330.000 Kubikmeter Beton wurden beim Bau des Burj Khalifa verwendet, was etwa 110.000 Elefanten im Gewicht entspricht.",
+          nl: "Ongeveer 330.000 kubieke meter beton werd gebruikt in de constructie van de Burj Khalifa, gelijk aan ongeveer 110.000 olifanten in gewicht."
+        }
+      },
+      {
+        question: {
+          en: "What is the total weight of aluminum used in the exterior cladding?",
+          es: "¿Cuál es el peso total del aluminio usado en el revestimiento exterior?",
+          de: "Wie hoch ist das Gesamtgewicht des Aluminiums in der Außenverkleidung?",
+          nl: "Wat is het totale gewicht van aluminium gebruikt in de buitenbekleding?"
+        },
+        options: [
+          { en: "1,500 tons", es: "1,500 toneladas", de: "1.500 Tonnen", nl: "1.500 ton" },
+          { en: "2,800 tons", es: "2,800 toneladas", de: "2.800 Tonnen", nl: "2.800 ton" },
+          { en: "3,500 tons", es: "3,500 toneladas", de: "3.500 Tonnen", nl: "3.500 ton" },
+          { en: "4,200 tons", es: "4,200 toneladas", de: "4.200 Tonnen", nl: "4.200 ton" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "About 2,800 tons of aluminum were used in the exterior cladding, creating the building's distinctive reflective surface.",
+          es: "Se usaron aproximadamente 2,800 toneladas de aluminio en el revestimiento exterior, creando la distintiva superficie reflectante del edificio.",
+          de: "Etwa 2.800 Tonnen Aluminium wurden in der Außenverkleidung verwendet, wodurch die markante reflektierende Oberfläche des Gebäudes entstand.",
+          nl: "Ongeveer 2.800 ton aluminium werd gebruikt in de buitenbekleding, waardoor het kenmerkende reflecterende oppervlak van het gebouw ontstond."
+        }
+      },
+      {
+        question: {
+          en: "Which floor range contains residential apartments?",
+          es: "¿Qué rango de pisos contiene apartamentos residenciales?",
+          de: "Welcher Etagenbereich enthält Wohnungen?",
+          nl: "Welk verdiepingsbereik bevat residentiële appartementen?"
+        },
+        options: [
+          { en: "Floors 9-37", es: "Pisos 9-37", de: "Stockwerke 9-37", nl: "Verdiepingen 9-37" },
+          { en: "Floors 19-108", es: "Pisos 19-108", de: "Stockwerke 19-108", nl: "Verdiepingen 19-108" },
+          { en: "Floors 50-125", es: "Pisos 50-125", de: "Stockwerke 50-125", nl: "Verdiepingen 50-125" },
+          { en: "Floors 109-156", es: "Pisos 109-156", de: "Stockwerke 109-156", nl: "Verdiepingen 109-156" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Residential apartments occupy floors 19 through 108, with 1,044 units ranging from studios to four-bedroom penthouses.",
+          es: "Los apartamentos residenciales ocupan los pisos 19 al 108, con 1,044 unidades que van desde estudios hasta penthouses de cuatro dormitorios.",
+          de: "Wohnungen belegen die Stockwerke 19 bis 108, mit 1.044 Einheiten von Studios bis zu Penthäusern mit vier Schlafzimmern.",
+          nl: "Residentiële appartementen beslaan verdiepingen 19 tot en met 108, met 1.044 eenheden variërend van studio's tot penthouses met vier slaapkamers."
+        }
+      },
+      {
+        question: {
+          en: "How many escalators are in the building?",
+          es: "¿Cuántas escaleras mecánicas hay en el edificio?",
+          de: "Wie viele Rolltreppen gibt es im Gebäude?",
+          nl: "Hoeveel roltrappen zijn er in het gebouw?"
+        },
+        options: [
+          { en: "4 escalators", es: "4 escaleras mecánicas", de: "4 Rolltreppen", nl: "4 roltrappen" },
+          { en: "8 escalators", es: "8 escaleras mecánicas", de: "8 Rolltreppen", nl: "8 roltrappen" },
+          { en: "12 escalators", es: "12 escaleras mecánicas", de: "12 Rolltreppen", nl: "12 roltrappen" },
+          { en: "16 escalators", es: "16 escaleras mecánicas", de: "16 Rolltreppen", nl: "16 roltrappen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Burj Khalifa has 8 escalators that primarily serve the lower floors, podium levels, and commercial areas.",
+          es: "El Burj Khalifa tiene 8 escaleras mecánicas que principalmente sirven los pisos inferiores, niveles de podio y áreas comerciales.",
+          de: "Der Burj Khalifa hat 8 Rolltreppen, die hauptsächlich die unteren Stockwerke, Podiumsebenen und Gewerbebereiche bedienen.",
+          nl: "De Burj Khalifa heeft 8 roltrappen die voornamelijk de lagere verdiepingen, podiumniveaus en commerciële gebieden bedienen."
+        }
+      },
+      {
+        question: {
+          en: "What type of steel was primarily used for the structural framework?",
+          es: "¿Qué tipo de acero se usó principalmente para la estructura?",
+          de: "Welche Art von Stahl wurde hauptsächlich für das Tragwerk verwendet?",
+          nl: "Welk type staal werd voornamelijk gebruikt voor het structurele raamwerk?"
+        },
+        options: [
+          { en: "Mild carbon steel", es: "Acero al carbono suave", de: "Weicher Kohlenstoffstahl", nl: "Zacht koolstofstaal" },
+          { en: "High-strength low-alloy steel", es: "Acero de baja aleación y alta resistencia", de: "Hochfester niedriglegierter Stahl", nl: "Hoge-sterkte laag-gelegeerd staal" },
+          { en: "Stainless steel only", es: "Solo acero inoxidable", de: "Nur Edelstahl", nl: "Alleen roestvrij staal" },
+          { en: "Cast iron", es: "Hierro fundido", de: "Gusseisen", nl: "Gietijzer" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "High-strength low-alloy steel was used for the structural elements, providing maximum strength while minimizing weight in the massive structure.",
+          es: "Se usó acero de baja aleación y alta resistencia para los elementos estructurales, proporcionando máxima resistencia mientras se minimiza el peso en la estructura masiva.",
+          de: "Hochfester niedriglegierter Stahl wurde für die Strukturelemente verwendet, der maximale Festigkeit bei minimiertem Gewicht in der massiven Struktur bietet.",
+          nl: "Hoge-sterkte laag-gelegeerd staal werd gebruikt voor de structurele elementen, wat maximale sterkte biedt terwijl het gewicht in de massieve structuur wordt geminimaliseerd."
+        }
+      },
+      {
+        question: {
+          en: "What is the highest occupied floor in the Burj Khalifa?",
+          es: "¿Cuál es el piso ocupado más alto en el Burj Khalifa?",
+          de: "Was ist die höchste bewohnte Etage im Burj Khalifa?",
+          nl: "Wat is de hoogst bewoonde verdieping in de Burj Khalifa?"
+        },
+        options: [
+          { en: "Floor 140", es: "Piso 140", de: "Stockwerk 140", nl: "Verdieping 140" },
+          { en: "Floor 154", es: "Piso 154", de: "Stockwerk 154", nl: "Verdieping 154" },
+          { en: "Floor 160", es: "Piso 160", de: "Stockwerk 160", nl: "Verdieping 160" },
+          { en: "Floor 163", es: "Piso 163", de: "Stockwerk 163", nl: "Verdieping 163" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Floor 160 is the highest occupied floor with usable space. Above this are mechanical floors and the communications equipment areas.",
+          es: "El piso 160 es el piso ocupado más alto con espacio utilizable. Por encima de este hay pisos mecánicos y áreas de equipo de comunicaciones.",
+          de: "Stockwerk 160 ist die höchste bewohnte Etage mit nutzbarem Raum. Darüber befinden sich Technikgeschosse und Kommunikationsausrüstungsbereiche.",
+          nl: "Verdieping 160 is de hoogst bewoonde verdieping met bruikbare ruimte. Hierboven bevinden zich technische verdiepingen en communicatieapparatuurgebieden."
+        }
+      },
+      {
+        question: {
+          en: "How many pumping stages were required to supply water to the top?",
+          es: "¿Cuántas etapas de bombeo se requirieron para suministrar agua a la cima?",
+          de: "Wie viele Pumpstufen waren erforderlich, um Wasser nach oben zu befördern?",
+          nl: "Hoeveel pompfasen waren nodig om water naar de top te leveren?"
+        },
+        options: [
+          { en: "3 stages", es: "3 etapas", de: "3 Stufen", nl: "3 fasen" },
+          { en: "5 stages", es: "5 etapas", de: "5 Stufen", nl: "5 fasen" },
+          { en: "7 stages", es: "7 etapas", de: "7 Stufen", nl: "7 fasen" },
+          { en: "10 stages", es: "10 etapas", de: "10 Stufen", nl: "10 fasen" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The water supply system uses 7 pumping stages to deliver water to the top floors, overcoming the extreme height and pressure requirements.",
+          es: "El sistema de suministro de agua usa 7 etapas de bombeo para entregar agua a los pisos superiores, superando la altura extrema y los requisitos de presión.",
+          de: "Das Wasserversorgungssystem verwendet 7 Pumpstufen, um Wasser in die obersten Stockwerke zu befördern und die extreme Höhe und Druckanforderungen zu überwinden.",
+          nl: "Het watertoevoersysteem gebruikt 7 pompfasen om water naar de bovenste verdiepingen te leveren, waarbij de extreme hoogte en drukvereisten worden overwonnen."
+        }
+      },
+      {
+        question: {
+          en: "What type of fire protection system is used throughout the building?",
+          es: "¿Qué tipo de sistema de protección contra incendios se usa en todo el edificio?",
+          de: "Welche Art von Brandschutzsystem wird im gesamten Gebäude verwendet?",
+          nl: "Welk type brandbesch ermingssysteem wordt in het hele gebouw gebruikt?"
+        },
+        options: [
+          { en: "Sprinklers only", es: "Solo aspersores", de: "Nur Sprinkler", nl: "Alleen sprinklers" },
+          { en: "Fire extinguishers only", es: "Solo extintores", de: "Nur Feuerlöscher", nl: "Alleen brandblussers" },
+          { en: "Combined sprinkler and pressurization systems", es: "Sistemas combinados de aspersores y presurización", de: "Kombinierte Sprinkler- und Druckbeaufschlagungssysteme", nl: "Gecombineerde sprinkler- en druksystemen" },
+          { en: "No fire protection system", es: "Sin sistema de protección contra incendios", de: "Kein Brandschutzsystem", nl: "Geen brandbeschermingssysteem" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The building uses sophisticated fire protection with sprinkler systems, pressurized stairwells, fire-resistant materials, and refuge floors every 25 floors.",
+          es: "El edificio usa protección contra incendios sofisticada con sistemas de aspersores, escaleras presurizadas, materiales resistentes al fuego y pisos de refugio cada 25 pisos.",
+          de: "Das Gebäude verwendet ausgefeilten Brandschutz mit Sprinkleranlagen, druckbeaufschlagten Treppenhäusern, feuerfesten Materialien und Fluchtstockwerken alle 25 Etagen.",
+          nl: "Het gebouw gebruikt geavanceerde brandbescherming met sprinklersystemen, onder druk staande trappenhuizen, brandwerende materialen en vluchtverd iepingen om de 25 verdiepingen."
+        }
+      },
+      {
+        question: {
+          en: "How many refuge floors are designated for emergency evacuation?",
+          es: "¿Cuántos pisos de refugio están designados para evacuación de emergencia?",
+          de: "Wie viele Fluchtstockwerke sind für die Notevakuierung vorgesehen?",
+          nl: "Hoeveel vluchtverdiepingen zijn aangewezen voor noodevacuatie?"
+        },
+        options: [
+          { en: "3 refuge floors", es: "3 pisos de refugio", de: "3 Fluchtstockwerke", nl: "3 vluchtverdiepingen" },
+          { en: "6 refuge floors", es: "6 pisos de refugio", de: "6 Fluchtstockwerke", nl: "6 vluchtverdiepingen" },
+          { en: "9 refuge floors", es: "9 pisos de refugio", de: "9 Fluchtstockwerke", nl: "9 vluchtverdiepingen" },
+          { en: "12 refuge floors", es: "12 pisos de refugio", de: "12 Fluchtstockwerke", nl: "12 vluchtverdiepingen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "There are 6 refuge floors designated throughout the building, located every 25 floors, providing safe areas with fire-resistant walls and independent air supply.",
+          es: "Hay 6 pisos de refugio designados en todo el edificio, ubicados cada 25 pisos, proporcionando áreas seguras con paredes resistentes al fuego y suministro de aire independiente.",
+          de: "Es gibt 6 Fluchtstockwerke im gesamten Gebäude, die alle 25 Stockwerke angeordnet sind und sichere Bereiche mit feuerfesten Wänden und unabhängiger Luftversorgung bieten.",
+          nl: "Er zijn 6 vluchtverdiepingen aangewezen in het hele gebouw, gelegen om de 25 verdiepingen, die veilige gebieden bieden met brandwerende muren en onafhankelijke luchttoevoer."
+        }
+      },
+      {
+        question: {
+          en: "What is the temperature of concrete when poured at such heights?",
+          es: "¿Cuál es la temperatura del concreto cuando se vierte a tales alturas?",
+          de: "Welche Temperatur hat der Beton beim Gießen in solchen Höhen?",
+          nl: "Wat is de temperatuur van beton wanneer het op zulke hoogtes wordt gegoten?"
+        },
+        options: [
+          { en: "Room temperature", es: "Temperatura ambiente", de: "Raumtemperatur", nl: "Kamertemperatuur" },
+          { en: "Cooled to around 2°C using ice", es: "Enfriado a alrededor de 2°C usando hielo", de: "Mit Eis auf etwa 2°C gekühlt", nl: "Gekoeld tot ongeveer 2°C met ijs" },
+          { en: "Heated to 40°C", es: "Calentado a 40°C", de: "Auf 40°C erhitzt", nl: "Verwarmd tot 40°C" },
+          { en: "Frozen solid before pouring", es: "Congelado sólido antes de verter", de: "Vor dem Gießen fest gefroren", nl: "Vast bevroren voor het gieten" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The concrete was cooled to around 2°C using ice during mixing to prevent rapid setting in Dubai's extreme heat, ensuring proper curing and strength development.",
+          es: "El concreto se enfrió a alrededor de 2°C usando hielo durante la mezcla para prevenir el fraguado rápido en el calor extremo de Dubái, asegurando el curado adecuado y el desarrollo de resistencia.",
+          de: "Der Beton wurde während des Mischens mit Eis auf etwa 2°C gekühlt, um ein schnelles Abbinden in Dubais extremer Hitze zu verhindern und eine ordnungsgemäße Aushärtung und Festigkeitsentwicklung zu gewährleisten.",
+          nl: "Het beton werd tijdens het mengen gekoeld tot ongeveer 2°C met ijs om snel verharden in de extreme hitte van Dubai te voorkomen, wat zorgt voor goede uitharding en sterkteontwikkeling."
+        }
+      },
+      {
+        question: {
+          en: "What innovative technique was used for night-time concrete pouring?",
+          es: "¿Qué técnica innovadora se usó para el vertido de concreto nocturno?",
+          de: "Welche innovative Technik wurde für nächtliches Betongießen verwendet?",
+          nl: "Welke innovatieve techniek werd gebruikt voor het betongieten 's nachts?"
+        },
+        options: [
+          { en: "No concrete was poured at night", es: "No se vertió concreto por la noche", de: "Nachts wurde kein Beton gegossen", nl: "Er werd 's nachts geen beton gegoten" },
+          { en: "Pouring during cooler night hours to reduce heat", es: "Vertido durante las horas nocturnas más frescas para reducir el calor", de: "Gießen während der kühleren Nachtstunden zur Wärmereduzierung", nl: "Gieten tijdens koelere nachtelijke uren om hitte te verminderen" },
+          { en: "Using heated concrete only", es: "Usando solo concreto calentado", de: "Nur beheizten Beton verwenden", nl: "Alleen verwarmd beton gebruiken" },
+          { en: "Halting all work at night", es: "Deteniendo todo el trabajo por la noche", de: "Nachts alle Arbeiten einstellen", nl: "Al het werk 's nachts stoppen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Concrete was primarily poured during cooler night hours to take advantage of lower temperatures, reducing the risk of thermal cracking and improving workability.",
+          es: "El concreto se vertió principalmente durante las horas nocturnas más frescas para aprovechar las temperaturas más bajas, reduciendo el riesgo de agrietamiento térmico y mejorando la trabajabilidad.",
+          de: "Beton wurde hauptsächlich während der kühleren Nachtstunden gegossen, um niedrigere Temperaturen zu nutzen, das Risiko thermischer Risse zu reduzieren und die Verarbeitbarkeit zu verbessern.",
+          nl: "Beton werd voornamelijk gegoten tijdens koelere nachtelijke uren om te profiteren van lagere temperaturen, waardoor het risico op thermische scheuren wordt verminderd en de verwerkbaarheid wordt verbeterd."
+        }
+      },
+      {
+        question: {
+          en: "How many vertical tubular steel fins are on the exterior?",
+          es: "¿Cuántas aletas tubulares de acero verticales hay en el exterior?",
+          de: "Wie viele vertikale Stahlrohrrippen befinden sich an der Außenseite?",
+          nl: "Hoeveel verticale buisvormige stalen vinnen zijn er aan de buitenkant?"
+        },
+        options: [
+          { en: "18,000 fins", es: "18,000 aletas", de: "18.000 Rippen", nl: "18.000 vinnen" },
+          { en: "22,000 fins", es: "22,000 aletas", de: "22.000 Rippen", nl: "22.000 vinnen" },
+          { en: "27,000 fins", es: "27,000 aletas", de: "27.000 Rippen", nl: "27.000 vinnen" },
+          { en: "32,000 fins", es: "32,000 aletas", de: "32.000 Rippen", nl: "32.000 vinnen" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The exterior features approximately 27,000 vertical tubular steel fins that add visual interest and help reduce heat gain through the curtain wall.",
+          es: "El exterior presenta aproximadamente 27,000 aletas tubulares de acero verticales que añaden interés visual y ayudan a reducir la ganancia de calor a través del muro cortina.",
+          de: "Die Außenseite verfügt über etwa 27.000 vertikale Stahlrohrrippen, die visuelles Interesse hinzufügen und helfen, den Wärmegewinn durch die Vorhangfassade zu reduzieren.",
+          nl: "De buitenkant heeft ongeveer 27.000 verticale buisvormige stalen vinnen die visuele interesse toevoegen en helpen warmtewinst door de vliesgevel te verminderen."
+        }
+      },
+      {
+        question: {
+          en: "What lighting system illuminates the building at night?",
+          es: "¿Qué sistema de iluminación ilumina el edificio por la noche?",
+          de: "Welches Beleuchtungssystem beleuchtet das Gebäude nachts?",
+          nl: "Welk verlichtingssysteem verlicht het gebouw 's nachts?"
+        },
+        options: [
+          { en: "Simple floodlights", es: "Reflectores simples", de: "Einfache Scheinwerfer", nl: "Eenvoudige schijnwerpers" },
+          { en: "LED system with programmable displays", es: "Sistema LED con pantallas programables", de: "LED-System mit programmierbaren Displays", nl: "LED-systeem met programmeerbare displays" },
+          { en: "No external lighting", es: "Sin iluminación externa", de: "Keine externe Beleuchtung", nl: "Geen externe verlichting" },
+          { en: "Gas lamps", es: "Lámparas de gas", de: "Gaslampen", nl: "Gaslampen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The building features a sophisticated LED lighting system that can create programmable light shows and displays, transforming the tower into a giant canvas at night.",
+          es: "El edificio presenta un sofisticado sistema de iluminación LED que puede crear espectáculos de luz y pantallas programables, transformando la torre en un lienzo gigante por la noche.",
+          de: "Das Gebäude verfügt über ein ausgeklügeltes LED-Beleuchtungssystem, das programmierbare Lichtshows und Displays erstellen kann und den Turm nachts in eine riesige Leinwand verwandelt.",
+          nl: "Het gebouw heeft een geavanceerd LED-verlichtingssysteem dat programmeerbare lichtshows en displays kan creëren, waardoor de toren 's nachts in een gigantisch canvas verandert."
+        }
+      },
+      {
+        question: {
+          en: "How much did the structural steel for the spire weigh?",
+          es: "¿Cuánto pesaba el acero estructural de la aguja?",
+          de: "Wie viel wog der Baustahl für die Spitze?",
+          nl: "Hoeveel woog het constructiestaal voor de spits?"
+        },
+        options: [
+          { en: "2,000 tons", es: "2,000 toneladas", de: "2.000 Tonnen", nl: "2.000 ton" },
+          { en: "4,000 tons", es: "4,000 toneladas", de: "4.000 Tonnen", nl: "4.000 ton" },
+          { en: "6,000 tons", es: "6,000 toneladas", de: "6.000 Tonnen", nl: "6.000 ton" },
+          { en: "8,000 tons", es: "8,000 toneladas", de: "8.000 Tonnen", nl: "8.000 ton" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The spire's structural steel weighs approximately 4,000 tons and was assembled from inside the building before being raised into position.",
+          es: "El acero estructural de la aguja pesa aproximadamente 4,000 toneladas y se ensambló desde dentro del edificio antes de ser elevado a su posición.",
+          de: "Der Baustahl der Spitze wiegt etwa 4.000 Tonnen und wurde von innen im Gebäude montiert, bevor er in Position gehoben wurde.",
+          nl: "Het constructiestaal van de spits weegt ongeveer 4.000 ton en werd van binnenuit het gebouw gemonteerd voordat het in positie werd gehesen."
+        }
+      },
+      {
+        question: {
+          en: "What is the function of the building's sky lobbies?",
+          es: "¿Cuál es la función de los lobbies del cielo del edificio?",
+          de: "Was ist die Funktion der Sky-Lobbys des Gebäudes?",
+          nl: "Wat is de functie van de sky lobby's van het gebouw?"
+        },
+        options: [
+          { en: "Decorative spaces only", es: "Espacios decorativos solamente", de: "Nur dekorative Räume", nl: "Alleen decoratieve ruimtes" },
+          { en: "Transfer points for elevator systems", es: "Puntos de transferencia para sistemas de ascensores", de: "Umsteigepunkte für Aufzugsysteme", nl: "Overstappunten voor liftsystemen" },
+          { en: "Swimming pools", es: "Piscinas", de: "Schwimmbäder", nl: "Zwembaden" },
+          { en: "Helicopter landing pads", es: "Plataformas de aterrizaje para helicópteros", de: "Hubschrauberlandeplätze", nl: "Helikopterlandingsplatforms" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Sky lobbies serve as transfer points where passengers change between different elevator banks, allowing efficient vertical transportation throughout the building's extreme height.",
+          es: "Los lobbies del cielo sirven como puntos de transferencia donde los pasajeros cambian entre diferentes bancos de ascensores, permitiendo transporte vertical eficiente a través de la altura extrema del edificio.",
+          de: "Sky-Lobbys dienen als Umsteigepunkte, wo Passagiere zwischen verschiedenen Aufzugsgruppen wechseln, was einen effizienten vertikalen Transport durch die extreme Höhe des Gebäudes ermöglicht.",
+          nl: "Sky lobby's dienen als overstappunten waar passagiers wisselen tussen verschillende liftgroepen, wat efficiënt verticaal transport door de extreme hoogte van het gebouw mogelijk maakt."
+        }
+      },
+      {
+        question: {
+          en: "What percentage of the building's height is the spire?",
+          es: "¿Qué porcentaje de la altura del edificio es la aguja?",
+          de: "Wie viel Prozent der Gebäudehöhe macht die Spitze aus?",
+          nl: "Welk percentage van de hoogte van het gebouw is de spits?"
+        },
+        options: [
+          { en: "15%", es: "15%", de: "15%", nl: "15%" },
+          { en: "20%", es: "20%", de: "20%", nl: "20%" },
+          { en: "29%", es: "29%", de: "29%", nl: "29%" },
+          { en: "35%", es: "35%", de: "35%", nl: "35%" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The spire accounts for approximately 29% of the building's total height at 244 meters out of 828 meters, making it a significant architectural element.",
+          es: "La aguja representa aproximadamente el 29% de la altura total del edificio con 244 metros de 828 metros, convirtiéndola en un elemento arquitectónico significativo.",
+          de: "Die Spitze macht etwa 29% der Gesamthöhe des Gebäudes aus, mit 244 Metern von 828 Metern, was sie zu einem bedeutenden architektonischen Element macht.",
+          nl: "De spits vertegenwoordigt ongeveer 29% van de totale hoogte van het gebouw met 244 meter van de 828 meter, waardoor het een belangrijk architectonisch element is."
+        }
+      },
+      {
+        question: {
+          en: "How many communications and broadcast companies use the spire?",
+          es: "¿Cuántas compañías de comunicaciones y transmisión usan la aguja?",
+          de: "Wie viele Kommunikations- und Rundfunkunternehmen nutzen die Spitze?",
+          nl: "Hoeveel communicatie- en omroepbedrijven gebruiken de spits?"
+        },
+        options: [
+          { en: "5 companies", es: "5 compañías", de: "5 Unternehmen", nl: "5 bedrijven" },
+          { en: "10 companies", es: "10 compañías", de: "10 Unternehmen", nl: "10 bedrijven" },
+          { en: "15 companies", es: "15 compañías", de: "15 Unternehmen", nl: "15 bedrijven" },
+          { en: "20 companies", es: "20 compañías", de: "20 Unternehmen", nl: "20 bedrijven" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The spire houses communications equipment for approximately 15 different companies, serving as a major broadcasting antenna for Dubai.",
+          es: "La aguja alberga equipos de comunicaciones para aproximadamente 15 compañías diferentes, sirviendo como una antena de transmisión importante para Dubái.",
+          de: "Die Spitze beherbergt Kommunikationsausrüstung für etwa 15 verschiedene Unternehmen und dient als wichtige Sendeantenne für Dubai.",
+          nl: "De spits herbergt communicatieapparatuur voor ongeveer 15 verschillende bedrijven en dient als belangrijke zendantenne voor Dubai."
+        }
+      },
+      {
+        question: {
+          en: "What maintenance system is used to clean the exterior windows?",
+          es: "¿Qué sistema de mantenimiento se usa para limpiar las ventanas exteriores?",
+          de: "Welches Wartungssystem wird zum Reinigen der Außenfenster verwendet?",
+          nl: "Welk onderhoudssysteem wordt gebruikt om de buitenramen te reinigen?"
+        },
+        options: [
+          { en: "Drones only", es: "Solo drones", de: "Nur Drohnen", nl: "Alleen drones" },
+          { en: "Self-cleaning glass", es: "Vidrio autolimpiante", de: "Selbstreinigendes Glas", nl: "Zelfreinigend glas" },
+          { en: "Automated window-cleaning machines and BMUs", es: "Máquinas automáticas de limpieza de ventanas y BMU", de: "Automatische Fensterputzmaschinen und BMUs", nl: "Geautomatiseerde raamschoonmaakmachines en BMU's" },
+          { en: "No window cleaning", es: "Sin limpieza de ventanas", de: "Keine Fensterreinigung", nl: "Geen raamreiniging" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The building uses specialized Building Maintenance Units (BMUs) and automated window-cleaning machines that can navigate the complex geometry of the facade, taking months to complete a full cleaning cycle.",
+          es: "El edificio usa Unidades de Mantenimiento de Edificios (BMU) especializadas y máquinas automáticas de limpieza de ventanas que pueden navegar la geometría compleja de la fachada, tomando meses para completar un ciclo de limpieza completo.",
+          de: "Das Gebäude verwendet spezialisierte Gebäudewartungseinheiten (BMUs) und automatische Fensterputzmaschinen, die die komplexe Geometrie der Fassade bewältigen können und Monate für einen vollständigen Reinigungszyklus benötigen.",
+          nl: "Het gebouw gebruikt gespecialiseerde Building Maintenance Units (BMU's) en geautomatiseerde raamschoonmaakmachines die de complexe geometrie van de gevel kunnen navigeren, waarbij maanden nodig zijn om een volledige schoonmaakcyclus te voltooien."
+        }
+      },
+      {
+        question: {
+          en: "How long does it take to clean all the exterior windows?",
+          es: "¿Cuánto tiempo lleva limpiar todas las ventanas exteriores?",
+          de: "Wie lange dauert es, alle Außenfenster zu reinigen?",
+          nl: "Hoe lang duurt het om alle buitenramen te reinigen?"
+        },
+        options: [
+          { en: "2 weeks", es: "2 semanas", de: "2 Wochen", nl: "2 weken" },
+          { en: "1 month", es: "1 mes", de: "1 Monat", nl: "1 maand" },
+          { en: "3 months", es: "3 meses", de: "3 Monate", nl: "3 maanden" },
+          { en: "6 months", es: "6 meses", de: "6 Monate", nl: "6 maanden" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "It takes approximately 3 months to clean all the exterior windows of the Burj Khalifa due to the massive surface area and complex geometry requiring careful navigation.",
+          es: "Toma aproximadamente 3 meses limpiar todas las ventanas exteriores del Burj Khalifa debido al área de superficie masiva y la geometría compleja que requiere navegación cuidadosa.",
+          de: "Es dauert etwa 3 Monate, alle Außenfenster des Burj Khalifa zu reinigen, aufgrund der massiven Oberfläche und komplexen Geometrie, die sorgfältige Navigation erfordert.",
+          nl: "Het duurt ongeveer 3 maanden om alle buitenramen van de Burj Khalifa te reinigen vanwege het enorme oppervlak en de complexe geometrie die zorgvuldige navigatie vereist."
+        }
+      },
+      {
+        question: {
+          en: "What special concrete admixture was used for the extreme climate?",
+          es: "¿Qué aditivo especial de concreto se usó para el clima extremo?",
+          de: "Welcher spezielle Betonzusatz wurde für das extreme Klima verwendet?",
+          nl: "Welke speciale betontoevoeging werd gebruikt voor het extreme klimaat?"
+        },
+        options: [
+          { en: "Standard Portland cement only", es: "Solo cemento Portland estándar", de: "Nur Standard-Portlandzement", nl: "Alleen standaard Portlandcement" },
+          { en: "High-performance concrete with fly ash and silica fume", es: "Concreto de alto rendimiento con ceniza volante y humo de sílice", de: "Hochleistungsbeton mit Flugasche und Silicafume", nl: "Hoogwaardig beton met vliegas en silicafume" },
+          { en: "Regular concrete", es: "Concreto regular", de: "Normaler Beton", nl: "Normaal beton" },
+          { en: "Plastic-based concrete", es: "Concreto a base de plástico", de: "Kunststoffbasierter Beton", nl: "Kunststof-gebaseerd beton" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "High-performance concrete containing fly ash and silica fume was specially formulated to withstand Dubai's heat, provide extra strength, and reduce shrinkage and cracking.",
+          es: "El concreto de alto rendimiento que contiene ceniza volante y humo de sílice se formuló especialmente para resistir el calor de Dubái, proporcionar resistencia adicional y reducir la contracción y el agrietamiento.",
+          de: "Hochleistungsbeton mit Flugasche und Silicafume wurde speziell formuliert, um Dubais Hitze standzuhalten, zusätzliche Festigkeit zu bieten und Schrumpfung und Rissbildung zu reduzieren.",
+          nl: "Hoogwaardig beton met vliegas en silicafume werd speciaal geformuleerd om de hitte van Dubai te weerstaan, extra sterkte te bieden en krimp en scheuren te verminderen."
+        }
       }
     ]
   };

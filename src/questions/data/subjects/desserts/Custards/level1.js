@@ -426,7 +426,427 @@
           es: "La leche entera se usa tradicionalmente para natillas porque su contenido de grasa crea una textura rica y cremosa y lleva bien el sabor.",
           de: "Vollmilch wird traditionell für Pudding verwendet, weil ihr Fettgehalt eine reichhaltige, cremige Textur erzeugt und Geschmack gut trägt.",
           nl: "Volle melk wordt traditioneel gebruikt voor custard omdat het vetgehalte een rijke, romige textuur creëert en smaak goed draagt."
-        }
+        }    },
+    {
+      question: {
+        en: "What is the main thickening agent in custard?",
+        es: "What is the main thickening agent in custard?",
+        de: "What is the main thickening agent in custard?",
+        nl: "What is the main thickening agent in custard?"
+      },
+      options: [
+        { en: "Eggs", es: "Eggs", de: "Eggs", nl: "Eggs" },
+        { en: "Flour", es: "Flour", de: "Flour", nl: "Flour" },
+        { en: "Cornstarch", es: "Cornstarch", de: "Cornstarch", nl: "Cornstarch" },
+        { en: "Gelatin", es: "Gelatin", de: "Gelatin", nl: "Gelatin" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Eggs are the primary thickening agent in custard, as the proteins coagulate when heated.",
+        es: "Eggs are the primary thickening agent in custard, as the proteins coagulate when heated.",
+        de: "Eggs are the primary thickening agent in custard, as the proteins coagulate when heated.",
+        nl: "Eggs are the primary thickening agent in custard, as the proteins coagulate when heated."
+      }
+    },
+    {
+      question: {
+        en: "What is crème brûlée?",
+        es: "What is crème brûlée?",
+        de: "What is crème brûlée?",
+        nl: "What is crème brûlée?"
+      },
+      options: [
+        { en: "Custard with caramelized sugar top", es: "Custard with caramelized sugar top", de: "Custard with caramelized sugar top", nl: "Custard with caramelized sugar top" },
+        { en: "Chocolate custard", es: "Chocolate custard", de: "Chocolate custard", nl: "Chocolate custard" },
+        { en: "Frozen custard", es: "Frozen custard", de: "Frozen custard", nl: "Frozen custard" },
+        { en: "Custard pie", es: "Custard pie", de: "Custard pie", nl: "Custard pie" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Crème brûlée is a rich custard dessert topped with a hard layer of caramelized sugar.",
+        es: "Crème brûlée is a rich custard dessert topped with a hard layer of caramelized sugar.",
+        de: "Crème brûlée is a rich custard dessert topped with a hard layer of caramelized sugar.",
+        nl: "Crème brûlée is a rich custard dessert topped with a hard layer of caramelized sugar."
+      }
+    },
+    {
+      question: {
+        en: "What temperature should custard reach to thicken?",
+        es: "What temperature should custard reach to thicken?",
+        de: "What temperature should custard reach to thicken?",
+        nl: "What temperature should custard reach to thicken?"
+      },
+      options: [
+        { en: "170-180°F (77-82°C)", es: "170-180°F (77-82°C)", de: "170-180°F (77-82°C)", nl: "170-180°F (77-82°C)" },
+        { en: "212°F (100°C)", es: "212°F (100°C)", de: "212°F (100°C)", nl: "212°F (100°C)" },
+        { en: "140°F (60°C)", es: "140°F (60°C)", de: "140°F (60°C)", nl: "140°F (60°C)" },
+        { en: "200°F (93°C)", es: "200°F (93°C)", de: "200°F (93°C)", nl: "200°F (93°C)" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Custard thickens when eggs coagulate at 170-180°F; higher temperatures risk curdling.",
+        es: "Custard thickens when eggs coagulate at 170-180°F; higher temperatures risk curdling.",
+        de: "Custard thickens when eggs coagulate at 170-180°F; higher temperatures risk curdling.",
+        nl: "Custard thickens when eggs coagulate at 170-180°F; higher temperatures risk curdling."
+      }
+    },
+    {
+      question: {
+        en: "What is flan?",
+        es: "What is flan?",
+        de: "What is flan?",
+        nl: "What is flan?"
+      },
+      options: [
+        { en: "Caramel-topped custard dessert", es: "Caramel-topped custard dessert", de: "Caramel-topped custard dessert", nl: "Caramel-topped custard dessert" },
+        { en: "Chocolate pudding", es: "Chocolate pudding", de: "Chocolate pudding", nl: "Chocolate pudding" },
+        { en: "Cream pie", es: "Cream pie", de: "Cream pie", nl: "Cream pie" },
+        { en: "Frozen dessert", es: "Frozen dessert", de: "Frozen dessert", nl: "Frozen dessert" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Flan is a baked custard dessert with a layer of soft caramel on top, popular in Latin American and European cuisines.",
+        es: "Flan is a baked custard dessert with a layer of soft caramel on top, popular in Latin American and European cuisines.",
+        de: "Flan is a baked custard dessert with a layer of soft caramel on top, popular in Latin American and European cuisines.",
+        nl: "Flan is a baked custard dessert with a layer of soft caramel on top, popular in Latin American and European cuisines."
+      }
+    },
+    {
+      question: {
+        en: "What is the difference between custard and pudding?",
+        es: "What is the difference between custard and pudding?",
+        de: "What is the difference between custard and pudding?",
+        nl: "What is the difference between custard and pudding?"
+      },
+      options: [
+        { en: "Custard uses eggs as thickener; pudding often uses starch", es: "Custard uses eggs as thickener; pudding often uses starch", de: "Custard uses eggs as thickener; pudding often uses starch", nl: "Custard uses eggs as thickener; pudding often uses starch" },
+        { en: "No difference", es: "No difference", de: "No difference", nl: "No difference" },
+        { en: "Custard is frozen", es: "Custard is frozen", de: "Custard is frozen", nl: "Custard is frozen" },
+        { en: "Pudding is baked", es: "Pudding is baked", de: "Pudding is baked", nl: "Pudding is baked" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Custard is thickened primarily with eggs, while pudding often uses cornstarch or other starches as thickeners.",
+        es: "Custard is thickened primarily with eggs, while pudding often uses cornstarch or other starches as thickeners.",
+        de: "Custard is thickened primarily with eggs, while pudding often uses cornstarch or other starches as thickeners.",
+        nl: "Custard is thickened primarily with eggs, while pudding often uses cornstarch or other starches as thickeners."
+      }
+    },
+    {
+      question: {
+        en: "What is pastry cream?",
+        es: "What is pastry cream?",
+        de: "What is pastry cream?",
+        nl: "What is pastry cream?"
+      },
+      options: [
+        { en: "Thick custard with cornstarch for stability", es: "Thick custard with cornstarch for stability", de: "Thick custard with cornstarch for stability", nl: "Thick custard with cornstarch for stability" },
+        { en: "Whipped cream", es: "Whipped cream", de: "Whipped cream", nl: "Whipped cream" },
+        { en: "Cream cheese frosting", es: "Cream cheese frosting", de: "Cream cheese frosting", nl: "Cream cheese frosting" },
+        { en: "Buttercream", es: "Buttercream", de: "Buttercream", nl: "Buttercream" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pastry cream (crème pâtissière) is custard stabilized with cornstarch or flour, used as filling for pastries and desserts.",
+        es: "Pastry cream (crème pâtissière) is custard stabilized with cornstarch or flour, used as filling for pastries and desserts.",
+        de: "Pastry cream (crème pâtissière) is custard stabilized with cornstarch or flour, used as filling for pastries and desserts.",
+        nl: "Pastry cream (crème pâtissière) is custard stabilized with cornstarch or flour, used as filling for pastries and desserts."
+      }
+    },
+    {
+      question: {
+        en: "What causes custard to curdle?",
+        es: "What causes custard to curdle?",
+        de: "What causes custard to curdle?",
+        nl: "What causes custard to curdle?"
+      },
+      options: [
+        { en: "Too high heat or overcooking", es: "Too high heat or overcooking", de: "Too high heat or overcooking", nl: "Too high heat or overcooking" },
+        { en: "Too much sugar", es: "Too much sugar", de: "Too much sugar", nl: "Too much sugar" },
+        { en: "Not enough eggs", es: "Not enough eggs", de: "Not enough eggs", nl: "Not enough eggs" },
+        { en: "Cold temperature", es: "Cold temperature", de: "Cold temperature", nl: "Cold temperature" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Custard curdles when heated too quickly or to too high a temperature, causing egg proteins to separate.",
+        es: "Custard curdles when heated too quickly or to too high a temperature, causing egg proteins to separate.",
+        de: "Custard curdles when heated too quickly or to too high a temperature, causing egg proteins to separate.",
+        nl: "Custard curdles when heated too quickly or to too high a temperature, causing egg proteins to separate."
+      }
+    },
+    {
+      question: {
+        en: "What is a water bath (bain-marie) used for in custard baking?",
+        es: "What is a water bath (bain-marie) used for in custard baking?",
+        de: "What is a water bath (bain-marie) used for in custard baking?",
+        nl: "What is a water bath (bain-marie) used for in custard baking?"
+      },
+      options: [
+        { en: "Gentle, even heat to prevent curdling", es: "Gentle, even heat to prevent curdling", de: "Gentle, even heat to prevent curdling", nl: "Gentle, even heat to prevent curdling" },
+        { en: "Speed up cooking", es: "Speed up cooking", de: "Speed up cooking", nl: "Speed up cooking" },
+        { en: "Add moisture", es: "Add moisture", de: "Add moisture", nl: "Add moisture" },
+        { en: "Cool down custard", es: "Cool down custard", de: "Cool down custard", nl: "Cool down custard" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A water bath provides gentle, even heat that prevents custard from overheating and curdling.",
+        es: "A water bath provides gentle, even heat that prevents custard from overheating and curdling.",
+        de: "A water bath provides gentle, even heat that prevents custard from overheating and curdling.",
+        nl: "A water bath provides gentle, even heat that prevents custard from overheating and curdling."
+      }
+    },
+    {
+      question: {
+        en: "What is pot de crème?",
+        es: "What is pot de crème?",
+        de: "What is pot de crème?",
+        nl: "What is pot de crème?"
+      },
+      options: [
+        { en: "French baked custard dessert", es: "French baked custard dessert", de: "French baked custard dessert", nl: "French baked custard dessert" },
+        { en: "Chocolate mousse", es: "Chocolate mousse", de: "Chocolate mousse", nl: "Chocolate mousse" },
+        { en: "Whipped cream", es: "Whipped cream", de: "Whipped cream", nl: "Whipped cream" },
+        { en: "Ice cream", es: "Ice cream", de: "Ice cream", nl: "Ice cream" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pot de crème is a French dessert of rich, creamy baked custard served in small pots or ramekins.",
+        es: "Pot de crème is a French dessert of rich, creamy baked custard served in small pots or ramekins.",
+        de: "Pot de crème is a French dessert of rich, creamy baked custard served in small pots or ramekins.",
+        nl: "Pot de crème is a French dessert of rich, creamy baked custard served in small pots or ramekins."
+      }
+    },
+    {
+      question: {
+        en: "What is zabaglione?",
+        es: "What is zabaglione?",
+        de: "What is zabaglione?",
+        nl: "What is zabaglione?"
+      },
+      options: [
+        { en: "Italian custard made with egg yolks, sugar, and wine", es: "Italian custard made with egg yolks, sugar, and wine", de: "Italian custard made with egg yolks, sugar, and wine", nl: "Italian custard made with egg yolks, sugar, and wine" },
+        { en: "French custard", es: "French custard", de: "French custard", nl: "French custard" },
+        { en: "Chocolate pudding", es: "Chocolate pudding", de: "Chocolate pudding", nl: "Chocolate pudding" },
+        { en: "Frozen custard", es: "Frozen custard", de: "Frozen custard", nl: "Frozen custard" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Zabaglione (sabayon in French) is a light Italian custard made by whisking egg yolks, sugar, and sweet wine over heat.",
+        es: "Zabaglione (sabayon in French) is a light Italian custard made by whisking egg yolks, sugar, and sweet wine over heat.",
+        de: "Zabaglione (sabayon in French) is a light Italian custard made by whisking egg yolks, sugar, and sweet wine over heat.",
+        nl: "Zabaglione (sabayon in French) is a light Italian custard made by whisking egg yolks, sugar, and sweet wine over heat."
+      }
+    },
+    {
+      question: {
+        en: "What is the purpose of tempering eggs when making custard?",
+        es: "What is the purpose of tempering eggs when making custard?",
+        de: "What is the purpose of tempering eggs when making custard?",
+        nl: "What is the purpose of tempering eggs when making custard?"
+      },
+      options: [
+        { en: "Gradually raise temperature to prevent curdling", es: "Gradually raise temperature to prevent curdling", de: "Gradually raise temperature to prevent curdling", nl: "Gradually raise temperature to prevent curdling" },
+        { en: "Add flavor", es: "Add flavor", de: "Add flavor", nl: "Add flavor" },
+        { en: "Thicken faster", es: "Thicken faster", de: "Thicken faster", nl: "Thicken faster" },
+        { en: "Change color", es: "Change color", de: "Change color", nl: "Change color" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Tempering involves slowly adding hot liquid to eggs while whisking to gradually raise their temperature without cooking them into scrambled eggs.",
+        es: "Tempering involves slowly adding hot liquid to eggs while whisking to gradually raise their temperature without cooking them into scrambled eggs.",
+        de: "Tempering involves slowly adding hot liquid to eggs while whisking to gradually raise their temperature without cooking them into scrambled eggs.",
+        nl: "Tempering involves slowly adding hot liquid to eggs while whisking to gradually raise their temperature without cooking them into scrambled eggs."
+      }
+    },
+    {
+      question: {
+        en: "What is crème anglaise?",
+        es: "What is crème anglaise?",
+        de: "What is crème anglaise?",
+        nl: "What is crème anglaise?"
+      },
+      options: [
+        { en: "Pourable vanilla custard sauce", es: "Pourable vanilla custard sauce", de: "Pourable vanilla custard sauce", nl: "Pourable vanilla custard sauce" },
+        { en: "Thick custard", es: "Thick custard", de: "Thick custard", nl: "Thick custard" },
+        { en: "Whipped cream", es: "Whipped cream", de: "Whipped cream", nl: "Whipped cream" },
+        { en: "Pudding", es: "Pudding", de: "Pudding", nl: "Pudding" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Crème anglaise is a light, pourable custard sauce flavored with vanilla, often served with desserts.",
+        es: "Crème anglaise is a light, pourable custard sauce flavored with vanilla, often served with desserts.",
+        de: "Crème anglaise is a light, pourable custard sauce flavored with vanilla, often served with desserts.",
+        nl: "Crème anglaise is a light, pourable custard sauce flavored with vanilla, often served with desserts."
+      }
+    },
+    {
+      question: {
+        en: "What is the ideal consistency of properly cooked custard?",
+        es: "What is the ideal consistency of properly cooked custard?",
+        de: "What is the ideal consistency of properly cooked custard?",
+        nl: "What is the ideal consistency of properly cooked custard?"
+      },
+      options: [
+        { en: "Coats the back of a spoon", es: "Coats the back of a spoon", de: "Coats the back of a spoon", nl: "Coats the back of a spoon" },
+        { en: "Very thick and stiff", es: "Very thick and stiff", de: "Very thick and stiff", nl: "Very thick and stiff" },
+        { en: "Completely liquid", es: "Completely liquid", de: "Completely liquid", nl: "Completely liquid" },
+        { en: "Lumpy", es: "Lumpy", de: "Lumpy", nl: "Lumpy" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Properly cooked custard should be thick enough to coat the back of a spoon and hold a line when you draw your finger through it.",
+        es: "Properly cooked custard should be thick enough to coat the back of a spoon and hold a line when you draw your finger through it.",
+        de: "Properly cooked custard should be thick enough to coat the back of a spoon and hold a line when you draw your finger through it.",
+        nl: "Properly cooked custard should be thick enough to coat the back of a spoon and hold a line when you draw your finger through it."
+      }
+    },
+    {
+      question: {
+        en: "What is diplomat cream?",
+        es: "What is diplomat cream?",
+        de: "What is diplomat cream?",
+        nl: "What is diplomat cream?"
+      },
+      options: [
+        { en: "Pastry cream lightened with whipped cream", es: "Pastry cream lightened with whipped cream", de: "Pastry cream lightened with whipped cream", nl: "Pastry cream lightened with whipped cream" },
+        { en: "Custard with alcohol", es: "Custard with alcohol", de: "Custard with alcohol", nl: "Custard with alcohol" },
+        { en: "Chocolate custard", es: "Chocolate custard", de: "Chocolate custard", nl: "Chocolate custard" },
+        { en: "Frozen custard", es: "Frozen custard", de: "Frozen custard", nl: "Frozen custard" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Diplomat cream is pastry cream folded with whipped cream, creating a lighter filling for pastries.",
+        es: "Diplomat cream is pastry cream folded with whipped cream, creating a lighter filling for pastries.",
+        de: "Diplomat cream is pastry cream folded with whipped cream, creating a lighter filling for pastries.",
+        nl: "Diplomat cream is pastry cream folded with whipped cream, creating a lighter filling for pastries."
+      }
+    },
+    {
+      question: {
+        en: "What is the French name for caramel custard?",
+        es: "What is the French name for caramel custard?",
+        de: "What is the French name for caramel custard?",
+        nl: "What is the French name for caramel custard?"
+      },
+      options: [
+        { en: "Crème caramel", es: "Crème caramel", de: "Crème caramel", nl: "Crème caramel" },
+        { en: "Crème brûlée", es: "Crème brûlée", de: "Crème brûlée", nl: "Crème brûlée" },
+        { en: "Crème anglaise", es: "Crème anglaise", de: "Crème anglaise", nl: "Crème anglaise" },
+        { en: "Pot de crème", es: "Pot de crème", de: "Pot de crème", nl: "Pot de crème" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Crème caramel is the French term for custard with liquid caramel sauce, similar to flan.",
+        es: "Crème caramel is the French term for custard with liquid caramel sauce, similar to flan.",
+        de: "Crème caramel is the French term for custard with liquid caramel sauce, similar to flan.",
+        nl: "Crème caramel is the French term for custard with liquid caramel sauce, similar to flan."
+      }
+    },
+    {
+      question: {
+        en: "What is chiboust cream?",
+        es: "What is chiboust cream?",
+        de: "What is chiboust cream?",
+        nl: "What is chiboust cream?"
+      },
+      options: [
+        { en: "Pastry cream lightened with meringue", es: "Pastry cream lightened with meringue", de: "Pastry cream lightened with meringue", nl: "Pastry cream lightened with meringue" },
+        { en: "Whipped cream", es: "Whipped cream", de: "Whipped cream", nl: "Whipped cream" },
+        { en: "Chocolate custard", es: "Chocolate custard", de: "Chocolate custard", nl: "Chocolate custard" },
+        { en: "Butter cream", es: "Butter cream", de: "Butter cream", nl: "Butter cream" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Chiboust cream is pastry cream lightened with Italian meringue, used in desserts like Saint-Honoré cake.",
+        es: "Chiboust cream is pastry cream lightened with Italian meringue, used in desserts like Saint-Honoré cake.",
+        de: "Chiboust cream is pastry cream lightened with Italian meringue, used in desserts like Saint-Honoré cake.",
+        nl: "Chiboust cream is pastry cream lightened with Italian meringue, used in desserts like Saint-Honoré cake."
+      }
+    },
+    {
+      question: {
+        en: "What milk fat percentage is best for rich custard?",
+        es: "What milk fat percentage is best for rich custard?",
+        de: "What milk fat percentage is best for rich custard?",
+        nl: "What milk fat percentage is best for rich custard?"
+      },
+      options: [
+        { en: "Whole milk or cream (3.5%+)", es: "Whole milk or cream (3.5%+)", de: "Whole milk or cream (3.5%+)", nl: "Whole milk or cream (3.5%+)" },
+        { en: "Skim milk", es: "Skim milk", de: "Skim milk", nl: "Skim milk" },
+        { en: "1% milk", es: "1% milk", de: "1% milk", nl: "1% milk" },
+        { en: "2% milk", es: "2% milk", de: "2% milk", nl: "2% milk" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Whole milk (3.5% fat) or cream creates the richest, creamiest custard texture.",
+        es: "Whole milk (3.5% fat) or cream creates the richest, creamiest custard texture.",
+        de: "Whole milk (3.5% fat) or cream creates the richest, creamiest custard texture.",
+        nl: "Whole milk (3.5% fat) or cream creates the richest, creamiest custard texture."
+      }
+    },
+    {
+      question: {
+        en: "What is a stirred custard vs. baked custard?",
+        es: "What is a stirred custard vs. baked custard?",
+        de: "What is a stirred custard vs. baked custard?",
+        nl: "What is a stirred custard vs. baked custard?"
+      },
+      options: [
+        { en: "Stirred is made on stovetop; baked in oven", es: "Stirred is made on stovetop; baked in oven", de: "Stirred is made on stovetop; baked in oven", nl: "Stirred is made on stovetop; baked in oven" },
+        { en: "Stirred has more eggs", es: "Stirred has more eggs", de: "Stirred has more eggs", nl: "Stirred has more eggs" },
+        { en: "Baked uses starch", es: "Baked uses starch", de: "Baked uses starch", nl: "Baked uses starch" },
+        { en: "No difference", es: "No difference", de: "No difference", nl: "No difference" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Stirred custard is cooked on the stovetop with constant stirring; baked custard is cooked in the oven without stirring.",
+        es: "Stirred custard is cooked on the stovetop with constant stirring; baked custard is cooked in the oven without stirring.",
+        de: "Stirred custard is cooked on the stovetop with constant stirring; baked custard is cooked in the oven without stirring.",
+        nl: "Stirred custard is cooked on the stovetop with constant stirring; baked custard is cooked in the oven without stirring."
+      }
+    },
+    {
+      question: {
+        en: "What is the purpose of straining custard?",
+        es: "What is the purpose of straining custard?",
+        de: "What is the purpose of straining custard?",
+        nl: "What is the purpose of straining custard?"
+      },
+      options: [
+        { en: "Remove any cooked egg bits for smooth texture", es: "Remove any cooked egg bits for smooth texture", de: "Remove any cooked egg bits for smooth texture", nl: "Remove any cooked egg bits for smooth texture" },
+        { en: "Add air", es: "Add air", de: "Add air", nl: "Add air" },
+        { en: "Cool it down", es: "Cool it down", de: "Cool it down", nl: "Cool it down" },
+        { en: "Thicken it", es: "Thicken it", de: "Thicken it", nl: "Thicken it" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Straining custard removes any bits of cooked egg or other lumps, ensuring a perfectly smooth, silky texture.",
+        es: "Straining custard removes any bits of cooked egg or other lumps, ensuring a perfectly smooth, silky texture.",
+        de: "Straining custard removes any bits of cooked egg or other lumps, ensuring a perfectly smooth, silky texture.",
+        nl: "Straining custard removes any bits of cooked egg or other lumps, ensuring a perfectly smooth, silky texture."
+      }
+    },
+    {
+      question: {
+        en: "What is frozen custard?",
+        es: "What is frozen custard?",
+        de: "What is frozen custard?",
+        nl: "What is frozen custard?"
+      },
+      options: [
+        { en: "Ice cream-like dessert with eggs", es: "Ice cream-like dessert with eggs", de: "Ice cream-like dessert with eggs", nl: "Ice cream-like dessert with eggs" },
+        { en: "Custard stored in freezer", es: "Custard stored in freezer", de: "Custard stored in freezer", nl: "Custard stored in freezer" },
+        { en: "Ice cream without eggs", es: "Ice cream without eggs", de: "Ice cream without eggs", nl: "Ice cream without eggs" },
+        { en: "Frozen pudding", es: "Frozen pudding", de: "Frozen pudding", nl: "Frozen pudding" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Frozen custard is similar to ice cream but contains egg yolks and is churned at a higher temperature, creating a denser, creamier texture.",
+        es: "Frozen custard is similar to ice cream but contains egg yolks and is churned at a higher temperature, creating a denser, creamier texture.",
+        de: "Frozen custard is similar to ice cream but contains egg yolks and is churned at a higher temperature, creating a denser, creamier texture.",
+        nl: "Frozen custard is similar to ice cream but contains egg yolks and is churned at a higher temperature, creating a denser, creamier texture."
+      }
+
       }
     ]
   };

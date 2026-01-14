@@ -827,6 +827,426 @@
         de: "Etwa 37.000 Kubikmeter Erde und Gestein wurden ausgegraben, um das Grundgestein zu erreichen und das Fundament zu schaffen. Dies wurde Anfang 1930 schnell abgeschlossen.",
         nl: "Ongeveer 37.000 kubieke meters aarde en gesteente werden uitgegraven om het gesteente te bereiken en de fundering te creëren. Dit werd snel voltooid begin 1930."
       }
+    },
+    {
+      question: {
+        en: "What type of steel frame construction was used?",
+        es: "¿Qué tipo de construcción de marco de acero se utilizó?",
+        de: "Welche Art von Stahlrahmenkonstruktion wurde verwendet?",
+        nl: "Welk type staalframedeonstructie werd gebruikt?"
+      },
+      options: [
+        {en: "Riveted steel frame", es: "Marco de acero remachado", de: "Genieteter Stahlrahmen", nl: "Geklonken staalframe"},
+        {en: "Welded steel frame", es: "Marco de acero soldado", de: "Geschweißter Stahlrahmen", nl: "Gelast staalframe"},
+        {en: "Bolted steel frame", es: "Marco de acero atornillado", de: "Verschraubter Stahlrahmen", nl: "Gebout staalframe"},
+        {en: "Cast iron frame", es: "Marco de hierro fundido", de: "Gusseisenrahmen", nl: "Gietijzeren frame"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Empire State Building used riveted steel frame construction, the standard method of the era. Over 3 million rivets were used to join the steel beams together, creating a strong, rigid structure.",
+        es: "El Empire State Building utilizó construcción de marco de acero remachado, el método estándar de la época. Se usaron más de 3 millones de remaches para unir las vigas de acero, creando una estructura fuerte y rígida.",
+        de: "Das Empire State Building verwendete genietete Stahlrahmenkonstruktion, die Standardmethode der Ära. Über 3 Millionen Nieten wurden verwendet, um die Stahlträger zu verbinden und eine starke, starre Struktur zu schaffen.",
+        nl: "Het Empire State Building gebruikte geklonken staalframeconstructie, de standaardmethode van die tijd. Meer dan 3 miljoen klinknagels werden gebruikt om de stalen balken samen te voegen, waardoor een sterke, stijve structuur ontstond."
+      }
+    },
+    {
+      question: {
+        en: "How many construction workers were employed at peak?",
+        es: "¿Cuántos trabajadores de construcción se emplearon en el pico?",
+        de: "Wie viele Bauarbeiter wurden auf dem Höhepunkt beschäftigt?",
+        nl: "Hoeveel bouwarbeiders waren er op het hoogtepunt in dienst?"
+      },
+      options: [
+        {en: "3,400 workers", es: "3,400 trabajadores", de: "3.400 Arbeiter", nl: "3.400 arbeiders"},
+        {en: "1,500 workers", es: "1,500 trabajadores", de: "1.500 Arbeiter", nl: "1.500 arbeiders"},
+        {en: "5,000 workers", es: "5,000 trabajadores", de: "5.000 Arbeiter", nl: "5.000 arbeiders"},
+        {en: "10,000 workers", es: "10,000 trabajadores", de: "10.000 Arbeiter", nl: "10.000 arbeiders"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "At peak construction, approximately 3,400 workers were employed daily on the Empire State Building. They worked in highly coordinated teams to achieve the unprecedented construction speed.",
+        es: "En el pico de construcción, aproximadamente 3,400 trabajadores fueron empleados diariamente en el Empire State Building. Trabajaron en equipos altamente coordinados para lograr la velocidad de construcción sin precedentes.",
+        de: "Auf dem Höhepunkt der Bauarbeiten waren täglich etwa 3.400 Arbeiter am Empire State Building beschäftigt. Sie arbeiteten in hochkoordinierten Teams, um die beispiellose Baugeschwindigkeit zu erreichen.",
+        nl: "Op het hoogtepunt van de bouw waren dagelijks ongeveer 3.400 arbeiders werkzaam aan het Empire State Building. Ze werkten in zeer gecoördineerde teams om de ongekende bouwsnelheid te bereiken."
+      }
+    },
+    {
+      question: {
+        en: "What was unique about the construction schedule?",
+        es: "¿Qué tenía de único el calendario de construcción?",
+        de: "Was war einzigartig am Bauzeitplan?",
+        nl: "Wat was uniek aan het bouwschema?"
+      },
+      options: [
+        {en: "Work continued during winter without weather delays", es: "El trabajo continuó durante el invierno sin retrasos climáticos", de: "Die Arbeit wurde im Winter ohne Wetterverzögerungen fortgesetzt", nl: "Werk ging door in de winter zonder weersvertragingen"},
+        {en: "Only worked weekends", es: "Solo trabajó fines de semana", de: "Nur am Wochenende gearbeitet", nl: "Alleen in het weekend gewerkt"},
+        {en: "Construction stopped in bad weather", es: "La construcción se detuvo con mal tiempo", de: "Bau wurde bei schlechtem Wetter gestoppt", nl: "Bouw gestopt bij slecht weer"},
+        {en: "Work only in summer months", es: "Trabajo solo en meses de verano", de: "Arbeit nur in Sommermonaten", nl: "Werk alleen in zomermaanden"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "Construction continued through the harsh winter of 1930-1931 without significant weather-related delays. The steel framework's rapid assembly and the use of temporary enclosures kept work progressing on schedule.",
+        es: "La construcción continuó durante el duro invierno de 1930-1931 sin retrasos significativos relacionados con el clima. El rápido ensamblaje del marco de acero y el uso de recintos temporales mantuvieron el trabajo progresando según lo programado.",
+        de: "Der Bau wurde durch den harten Winter 1930-1931 ohne wesentliche wetterbedingte Verzögerungen fortgesetzt. Die schnelle Montage des Stahlgerüsts und der Einsatz temporärer Umschließungen hielten die Arbeit im Zeitplan.",
+        nl: "De bouw ging door tijdens de harde winter van 1930-1931 zonder significante weergerelateerde vertragingen. De snelle montage van het staalframe en het gebruik van tijdelijke omhullingen hielden het werk op schema."
+      }
+    },
+    {
+      question: {
+        en: "Where did the limestone for the facade come from?",
+        es: "¿De dónde vino la piedra caliza para la fachada?",
+        de: "Woher kam der Kalkstein für die Fassade?",
+        nl: "Waar kwam de kalksteen voor de gevel vandaan?"
+      },
+      options: [
+        {en: "Indiana quarries", es: "Canteras de Indiana", de: "Indiana-Steinbrüche", nl: "Indiana steengroeven"},
+        {en: "Italian quarries", es: "Canteras italianas", de: "Italienische Steinbrüche", nl: "Italiaanse steengroeven"},
+        {en: "French quarries", es: "Canteras francesas", de: "Französische Steinbrüche", nl: "Franse steengroeven"},
+        {en: "Local New York quarries", es: "Canteras locales de Nueva York", de: "Lokale New Yorker Steinbrüche", nl: "Lokale New York steengroeven"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "The building's distinctive limestone facade came from Indiana limestone quarries. This high-quality limestone was prized for its uniform color and durability, giving the building its iconic cream-colored appearance.",
+        es: "La distintiva fachada de piedra caliza del edificio provino de canteras de piedra caliza de Indiana. Esta piedra caliza de alta calidad era valorada por su color uniforme y durabilidad, dándole al edificio su icónica apariencia color crema.",
+        de: "Die markante Kalksteinfassade des Gebäudes stammte aus Indiana-Kalksteinbrüchen. Dieser hochwertige Kalkstein wurde für seine einheitliche Farbe und Haltbarkeit geschätzt und verlieh dem Gebäude sein ikonisches cremefarbenes Aussehen.",
+        nl: "De kenmerkende kalksteengevel van het gebouw kwam uit Indiana-kalksteen steengroeven. Deze hoogwaardige kalksteen werd gewaardeerd om zijn uniforme kleur en duurzaamheid, waardoor het gebouw zijn iconische crèmekleurige uiterlijk kreeg."
+      }
+    },
+    {
+      question: {
+        en: "How were materials transported to upper floors?",
+        es: "¿Cómo se transportaron los materiales a los pisos superiores?",
+        de: "Wie wurden Materialien in die oberen Stockwerke transportiert?",
+        nl: "Hoe werden materialen naar de bovenste verdiepingen vervoerd?"
+      },
+      options: [
+        {en: "Specialized construction elevators and derricks", es: "Ascensores de construcción y grúas especializadas", de: "Spezialisierte Bauaufzüge und Kräne", nl: "Gespecialiseerde bouwliften en kranen"},
+        {en: "Only by stairs", es: "Solo por escaleras", de: "Nur über Treppen", nl: "Alleen via trappen"},
+        {en: "Helicopters", es: "Helicópteros", de: "Hubschrauber", nl: "Helikopters"},
+        {en: "Pulley systems only", es: "Solo sistemas de poleas", de: "Nur Flaschenzugsysteme", nl: "Alleen katrolsystemen"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "Materials were transported using specialized construction elevators and derricks that moved along with the rising structure. This efficient system allowed materials to reach workers exactly when and where needed.",
+        es: "Los materiales se transportaron utilizando ascensores de construcción y grúas especializadas que se movían junto con la estructura ascendente. Este sistema eficiente permitió que los materiales llegaran a los trabajadores exactamente cuándo y dónde se necesitaban.",
+        de: "Materialien wurden mit spezialisierten Bauaufzügen und Kränen transportiert, die sich mit der steigenden Struktur bewegten. Dieses effiziente System ermöglichte es, Materialien genau dann und dort zu liefern, wo sie benötigt wurden.",
+        nl: "Materialen werden vervoerd met gespecialiseerde bouwliften en kranen die mee bewogen met de stijgende structuur. Dit efficiënte systeem maakte het mogelijk dat materialen precies bereikten waar en wanneer arbeiders ze nodig hadden."
+      }
+    },
+    {
+      question: {
+        en: "What was the role of the 'sky boys' during construction?",
+        es: "¿Cuál fue el papel de los 'chicos del cielo' durante la construcción?",
+        de: "Was war die Rolle der 'Himmelsjungen' während des Baus?",
+        nl: "Wat was de rol van de 'luchtjongens' tijdens de bouw?"
+      },
+      options: [
+        {en: "Mohawk ironworkers who walked steel beams at height", es: "Trabajadores de hierro mohawk que caminaban sobre vigas de acero en altura", de: "Mohawk-Eisenarbeiter, die auf Stahlträgern in der Höhe gingen", nl: "Mohawk ijzerwerkers die op stalen balken op hoogte liepen"},
+        {en: "Window cleaners", es: "Limpiadores de ventanas", de: "Fensterreiniger", nl: "Raamreinigers"},
+        {en: "Elevator operators", es: "Operadores de ascensores", de: "Fahrstuhlführer", nl: "Liftbedienden"},
+        {en: "Security guards", es: "Guardias de seguridad", de: "Sicherheitspersonal", nl: "Beveiligingsmedewerkers"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "The 'sky boys' were fearless Mohawk ironworkers known for their ability to walk steel beams hundreds of feet in the air. Many Mohawk workers helped build NYC's skyscrapers, including the Empire State Building.",
+        es: "Los 'chicos del cielo' eran intrépidos trabajadores de hierro mohawk conocidos por su capacidad para caminar sobre vigas de acero a cientos de pies en el aire. Muchos trabajadores mohawk ayudaron a construir los rascacielos de NYC, incluido el Empire State Building.",
+        de: "Die 'Himmelsjungen' waren furchtlose Mohawk-Eisenarbeiter, bekannt für ihre Fähigkeit, auf Stahlträgern Hunderte von Fuß in der Luft zu gehen. Viele Mohawk-Arbeiter halfen, NYCs Wolkenkratzer zu bauen, einschließlich des Empire State Building.",
+        nl: "De 'luchtjongens' waren onverschrokken Mohawk ijzerwerkers bekend om hun vermogen om op stalen balken honderden voet in de lucht te lopen. Veel Mohawk-arbeiders hielpen de wolkenkrabbers van NYC te bouwen, inclusief het Empire State Building."
+      }
+    },
+    {
+      question: {
+        en: "How was water supplied during construction?",
+        es: "¿Cómo se suministró agua durante la construcción?",
+        de: "Wie wurde Wasser während des Baus bereitgestellt?",
+        nl: "Hoe werd water geleverd tijdens de bouw?"
+      },
+      options: [
+        {en: "Temporary water tanks pumped to each floor", es: "Tanques de agua temporales bombeados a cada piso", de: "Temporäre Wassertanks zu jedem Stockwerk gepumpt", nl: "Tijdelijke watertanks gepompt naar elke verdieping"},
+        {en: "Workers carried water buckets", es: "Los trabajadores llevaban cubos de agua", de: "Arbeiter trugen Wassereimer", nl: "Arbeiders droegen wateremmers"},
+        {en: "No water was available", es: "No había agua disponible", de: "Kein Wasser verfügbar", nl: "Geen water beschikbaar"},
+        {en: "Rain collection only", es: "Solo recolección de lluvia", de: "Nur Regensammlung", nl: "Alleen regenwater"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "Temporary water systems with tanks and pumps were installed to supply water to each floor during construction. This was essential for workers, concrete mixing, and various construction processes.",
+        es: "Se instalaron sistemas temporales de agua con tanques y bombas para suministrar agua a cada piso durante la construcción. Esto era esencial para los trabajadores, la mezcla de concreto y varios procesos de construcción.",
+        de: "Temporäre Wassersysteme mit Tanks und Pumpen wurden installiert, um jedes Stockwerk während des Baus mit Wasser zu versorgen. Dies war für Arbeiter, Betonmischung und verschiedene Bauprozesse unerlässlich.",
+        nl: "Tijdelijke watersystemen met tanks en pompen werden geïnstalleerd om elke verdieping tijdens de bouw van water te voorzien. Dit was essentieel voor arbeiders, betonmenging en verschillende bouwprocessen."
+      }
+    },
+    {
+      question: {
+        en: "What construction innovation reduced material waste?",
+        es: "¿Qué innovación de construcción redujo el desperdicio de material?",
+        de: "Welche Bauinnovation reduzierte Materialverschwendung?",
+        nl: "Welke bouwinnovatie verminderde materiaalverspilling?"
+      },
+      options: [
+        {en: "Just-in-time delivery of pre-sized materials", es: "Entrega justo a tiempo de materiales pre-dimensionados", de: "Just-in-Time-Lieferung vorgefertigter Materialien", nl: "Just-in-time levering van vooraf gemeten materialen"},
+        {en: "All materials recycled on site", es: "Todos los materiales reciclados en el sitio", de: "Alle Materialien vor Ort recycelt", nl: "Alle materialen ter plaatse gerecycled"},
+        {en: "No waste reduction methods", es: "Sin métodos de reducción de residuos", de: "Keine Abfallreduzierungsmethoden", nl: "Geen afvalverminderingsmethoden"},
+        {en: "Materials reused from other buildings", es: "Materiales reutilizados de otros edificios", de: "Materialien aus anderen Gebäuden wiederverwendet", nl: "Materialen hergebruikt van andere gebouwen"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "Materials were pre-cut and delivered just-in-time, minimizing waste and storage needs. This efficiency was borrowed from Henry Ford's automobile assembly line principles and was revolutionary for construction.",
+        es: "Los materiales se pre-cortaron y entregaron justo a tiempo, minimizando el desperdicio y las necesidades de almacenamiento. Esta eficiencia se tomó prestada de los principios de la línea de ensamblaje de automóviles de Henry Ford y fue revolucionaria para la construcción.",
+        de: "Materialien wurden vorgefertigt und just-in-time geliefert, wodurch Abfall und Lagerbedarf minimiert wurden. Diese Effizienz wurde von Henry Fords Automobil-Fließbandprinzipien übernommen und war revolutionär für den Bau.",
+        nl: "Materialen werden vooraf gesneden en just-in-time geleverd, waardoor afval en opslagbehoeften werden geminimaliseerd. Deze efficiëntie was ontleend aan Henry Ford's assemblagelijnprincipes voor auto's en was revolutionair voor de bouw."
+      }
+    },
+    {
+      question: {
+        en: "How many cubic feet of limestone were used?",
+        es: "¿Cuántos pies cúbicos de piedra caliza se usaron?",
+        de: "Wie viele Kubikfuß Kalkstein wurden verwendet?",
+        nl: "Hoeveel kubieke voet kalksteen werd gebruikt?"
+      },
+      options: [
+        {en: "200,000 cubic feet", es: "200,000 pies cúbicos", de: "200.000 Kubikfuß", nl: "200.000 kubieke voet"},
+        {en: "100,000 cubic feet", es: "100,000 pies cúbicos", de: "100.000 Kubikfuß", nl: "100.000 kubieke voet"},
+        {en: "500,000 cubic feet", es: "500,000 pies cúbicos", de: "500.000 Kubikfuß", nl: "500.000 kubieke voet"},
+        {en: "50,000 cubic feet", es: "50,000 pies cúbicos", de: "50.000 Kubikfuß", nl: "50.000 kubieke voet"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "Approximately 200,000 cubic feet of Indiana limestone and granite were used for the exterior facade. This massive amount of stone was carefully installed over the steel frame to create the building's iconic appearance.",
+        es: "Aproximadamente 200,000 pies cúbicos de piedra caliza de Indiana y granito se usaron para la fachada exterior. Esta cantidad masiva de piedra se instaló cuidadosamente sobre el marco de acero para crear la apariencia icónica del edificio.",
+        de: "Etwa 200.000 Kubikfuß Indiana-Kalkstein und Granit wurden für die Außenfassade verwendet. Diese massive Menge an Stein wurde sorgfältig über dem Stahlrahmen installiert, um das ikonische Aussehen des Gebäudes zu schaffen.",
+        nl: "Ongeveer 200.000 kubieke voet Indiana-kalksteen en graniet werd gebruikt voor de buitengevel. Deze enorme hoeveelheid steen werd zorgvuldig over het staalframe geïnstalleerd om het iconische uiterlijk van het gebouw te creëren."
+      }
+    },
+    {
+      question: {
+        en: "What powered the construction elevators?",
+        es: "¿Qué impulsó los ascensores de construcción?",
+        de: "Was trieb die Bauaufzüge an?",
+        nl: "Wat dreef de bouwliften aan?"
+      },
+      options: [
+        {en: "Electric motors", es: "Motores eléctricos", de: "Elektromotoren", nl: "Elektrische motoren"},
+        {en: "Steam engines", es: "Motores de vapor", de: "Dampfmaschinen", nl: "Stoommachines"},
+        {en: "Diesel generators", es: "Generadores diésel", de: "Dieselgeneratoren", nl: "Dieselgeneratoren"},
+        {en: "Manual hand cranks", es: "Manivelas manuales", de: "Manuelle Handkurbeln", nl: "Handmatige handslinger"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "Electric motors powered the construction elevators, providing reliable and efficient vertical transportation. Electricity was already well-established in NYC by 1930, making this the obvious choice for the project.",
+        es: "Los motores eléctricos impulsaron los ascensores de construcción, proporcionando transporte vertical confiable y eficiente. La electricidad ya estaba bien establecida en NYC en 1930, lo que convirtió esto en la elección obvia para el proyecto.",
+        de: "Elektromotoren trieben die Bauaufzüge an und boten zuverlässigen und effizienten vertikalen Transport. Elektrizität war 1930 in NYC bereits gut etabliert, was dies zur offensichtlichen Wahl für das Projekt machte.",
+        nl: "Elektrische motoren dreven de bouwliften aan, wat betrouwbaar en efficiënt verticaal transport bood. Elektriciteit was al goed gevestigd in NYC in 1930, waardoor dit de voor de hand liggende keuze was voor het project."
+      }
+    },
+    {
+      question: {
+        en: "How thick are the building's exterior walls at the base?",
+        es: "¿Qué grosor tienen las paredes exteriores del edificio en la base?",
+        de: "Wie dick sind die Außenwände des Gebäudes an der Basis?",
+        nl: "Hoe dik zijn de buitenmuren van het gebouw aan de basis?"
+      },
+      options: [
+        {en: "24 inches thick", es: "24 pulgadas de grosor", de: "24 Zoll dick", nl: "24 inch dik"},
+        {en: "12 inches thick", es: "12 pulgadas de grosor", de: "12 Zoll dick", nl: "12 inch dik"},
+        {en: "36 inches thick", es: "36 pulgadas de grosor", de: "36 Zoll dick", nl: "36 inch dik"},
+        {en: "48 inches thick", es: "48 pulgadas de grosor", de: "48 Zoll dick", nl: "48 inch dik"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "The exterior walls at the base are approximately 24 inches thick, providing structural support and insulation. The walls become thinner on upper floors where less load-bearing capacity is needed.",
+        es: "Las paredes exteriores en la base tienen aproximadamente 24 pulgadas de grosor, proporcionando soporte estructural y aislamiento. Las paredes se vuelven más delgadas en los pisos superiores donde se necesita menos capacidad de carga.",
+        de: "Die Außenwände an der Basis sind etwa 24 Zoll dick und bieten strukturelle Unterstützung und Isolierung. Die Wände werden in den oberen Stockwerken dünner, wo weniger Tragfähigkeit benötigt wird.",
+        nl: "De buitenmuren aan de basis zijn ongeveer 24 inch dik, wat structurele ondersteuning en isolatie biedt. De muren worden dunner op hogere verdiepingen waar minder draagvermogen nodig is."
+      }
+    },
+    {
+      question: {
+        en: "What construction method ensured vertical alignment?",
+        es: "¿Qué método de construcción aseguró la alineación vertical?",
+        de: "Welche Baumethode gewährleistete die vertikale Ausrichtung?",
+        nl: "Welke bouwmethode zorgde voor verticale uitlijning?"
+      },
+      options: [
+        {en: "Plumb bobs and transit levels", es: "Plomadas y niveles de tránsito", de: "Bleilot und Nivellierwerkzeuge", nl: "Schietloden en waterpassen"},
+        {en: "Laser alignment (not available in 1930)", es: "Alineación láser (no disponible en 1930)", de: "Laserausrichtung (1930 nicht verfügbar)", nl: "Laseruitlijning (niet beschikbaar in 1930)"},
+        {en: "GPS technology", es: "Tecnología GPS", de: "GPS-Technologie", nl: "GPS-technologie"},
+        {en: "No alignment methods used", es: "No se usaron métodos de alineación", de: "Keine Ausrichtungsmethoden verwendet", nl: "Geen uitlijningsmethoden gebruikt"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "Traditional plumb bobs and transit levels ensured the building stayed perfectly vertical during construction. These time-tested tools were essential for maintaining structural integrity across 102 floors.",
+        es: "Las plomadas tradicionales y los niveles de tránsito aseguraron que el edificio permaneciera perfectamente vertical durante la construcción. Estas herramientas probadas fueron esenciales para mantener la integridad estructural en 102 pisos.",
+        de: "Traditionelle Bleilote und Nivellierwerkzeuge stellten sicher, dass das Gebäude während des Baus perfekt vertikal blieb. Diese bewährten Werkzeuge waren wesentlich für die Aufrechterhaltung der strukturellen Integrität über 102 Stockwerke.",
+        nl: "Traditionele schietloden en waterpassen zorgden ervoor dat het gebouw tijdens de bouw perfect verticaal bleef. Deze beproefde gereedschappen waren essentieel voor het handhaven van structurele integriteit over 102 verdiepingen."
+      }
+    },
+    {
+      question: {
+        en: "How were the steel beams connected at joints?",
+        es: "¿Cómo se conectaron las vigas de acero en las uniones?",
+        de: "Wie wurden die Stahlträger an den Verbindungen verbunden?",
+        nl: "Hoe werden de stalen balken verbonden bij de verbindingen?"
+      },
+      options: [
+        {en: "Hot rivets driven through aligned holes", es: "Remaches calientes a través de agujeros alineados", de: "Heiße Nieten durch ausgerichtete Löcher getrieben", nl: "Hete klinknagels gedreven door uitgelijnde gaten"},
+        {en: "Welding only", es: "Solo soldadura", de: "Nur Schweißen", nl: "Alleen lassen"},
+        {en: "Wire binding", es: "Atado con alambre", de: "Drahtbindung", nl: "Draadverbinding"},
+        {en: "Concrete connections", es: "Conexiones de concreto", de: "Betonverbindungen", nl: "Betonverbindingen"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "Hot rivets were driven through pre-drilled holes in the steel beams. Rivet crews worked in teams: one heated the rivets, another caught and positioned them, and a third hammered them into place creating permanent connections.",
+        es: "Los remaches calientes se impulsaron a través de agujeros pre-perforados en las vigas de acero. Los equipos de remaches trabajaron en equipo: uno calentaba los remaches, otro los atrapaba y posicionaba, y un tercero los martillaba en su lugar creando conexiones permanentes.",
+        de: "Heiße Nieten wurden durch vorgebohrte Löcher in den Stahlträgern getrieben. Nietenteams arbeiteten in Gruppen: einer erhitzte die Nieten, ein anderer fing sie auf und positionierte sie, und ein dritter hämmerte sie fest und schuf dauerhafte Verbindungen.",
+        nl: "Hete klinknagels werden gedreven door vooraf geboorde gaten in de stalen balken. Klinknageploegen werkten in teams: één verwarmde de klinknagels, een ander ving en positioneerde ze, en een derde hamerde ze op hun plaats waardoor permanente verbindingen ontstonden."
+      }
+    },
+    {
+      question: {
+        en: "What was the maximum wind load the structure was designed for?",
+        es: "¿Cuál fue la carga máxima de viento para la que se diseñó la estructura?",
+        de: "Für welche maximale Windlast wurde die Struktur ausgelegt?",
+        nl: "Voor welke maximale windbelasting was de structuur ontworpen?"
+      },
+      options: [
+        {en: "200 pounds per square foot", es: "200 libras por pie cuadrado", de: "200 Pfund pro Quadratfuß", nl: "200 pond per vierkante voet"},
+        {en: "50 pounds per square foot", es: "50 libras por pie cuadrado", de: "50 Pfund pro Quadratfuß", nl: "50 pond per vierkante voet"},
+        {en: "500 pounds per square foot", es: "500 libras por pie cuadrado", de: "500 Pfund pro Quadratfuß", nl: "500 pond per vierkante voet"},
+        {en: "No wind load considered", es: "No se consideró carga de viento", de: "Keine Windlast berücksichtigt", nl: "Geen windbelasting overwogen"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Empire State Building was engineered to withstand wind loads up to 200 pounds per square foot. This massive over-engineering ensured stability and has allowed the building to survive hurricanes and storms for over 90 years.",
+        es: "El Empire State Building fue diseñado para resistir cargas de viento de hasta 200 libras por pie cuadrado. Esta masiva sobre-ingeniería aseguró estabilidad y ha permitido que el edificio sobreviva a huracanes y tormentas durante más de 90 años.",
+        de: "Das Empire State Building wurde entwickelt, um Windlasten bis zu 200 Pfund pro Quadratfuß standzuhalten. Diese massive Über-Konstruktion gewährleistete Stabilität und hat es dem Gebäude ermöglicht, Hurrikane und Stürme seit über 90 Jahren zu überstehen.",
+        nl: "Het Empire State Building was ontworpen om windbelastingen tot 200 pond per vierkante voet te weerstaan. Deze massieve over-engineering zorgde voor stabiliteit en heeft het gebouw in staat gesteld om orkanen en stormen voor meer dan 90 jaar te overleven."
+      }
+    },
+    {
+      question: {
+        en: "How were concrete floors poured at height?",
+        es: "¿Cómo se vertieron los pisos de concreto en altura?",
+        de: "Wie wurden Betonböden in der Höhe gegossen?",
+        nl: "Hoe werden betonvloeren op hoogte gegoten?"
+      },
+      options: [
+        {en: "Concrete pumped through pipes to each level", es: "Concreto bombeado a través de tuberías a cada nivel", de: "Beton durch Rohre zu jeder Ebene gepumpt", nl: "Beton gepompt door leidingen naar elk niveau"},
+        {en: "Mixed on each floor manually", es: "Mezclado en cada piso manualmente", de: "Auf jeder Etage manuell gemischt", nl: "Handmatig gemengd op elke verdieping"},
+        {en: "Pre-cast slabs only", es: "Solo losas prefabricadas", de: "Nur vorgefertigte Platten", nl: "Alleen geprefabriceerde platen"},
+        {en: "No concrete floors used", es: "No se usaron pisos de concreto", de: "Keine Betonböden verwendet", nl: "Geen betonvloeren gebruikt"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "Concrete was pumped through a system of pipes to each level where it was poured for floors. This innovative method was more efficient than hauling concrete manually and ensured consistent quality throughout the building.",
+        es: "El concreto se bombeó a través de un sistema de tuberías a cada nivel donde se vertió para los pisos. Este método innovador fue más eficiente que transportar concreto manualmente y aseguró una calidad consistente en todo el edificio.",
+        de: "Beton wurde durch ein Rohrsystem zu jeder Ebene gepumpt, wo er für Böden gegossen wurde. Diese innovative Methode war effizienter als manuelles Betonieren und gewährleistete durchgehend konstante Qualität im Gebäude.",
+        nl: "Beton werd gepompt door een systeem van leidingen naar elk niveau waar het werd gegoten voor vloeren. Deze innovatieve methode was efficiënter dan handmatig beton sjouwen en zorgde voor consistente kwaliteit door het hele gebouw."
+      }
+    },
+    {
+      question: {
+        en: "What protected workers from falling during construction?",
+        es: "¿Qué protegió a los trabajadores de caídas durante la construcción?",
+        de: "Was schützte Arbeiter vor Stürzen während des Baus?",
+        nl: "Wat beschermde arbeiders tegen vallen tijdens de bouw?"
+      },
+      options: [
+        {en: "Safety harnesses, nets, and guardrails", es: "Arneses de seguridad, redes y barandillas", de: "Sicherheitsgurte, Netze und Geländer", nl: "Veiligheidsharnas, netten en leuningen"},
+        {en: "Nothing - no safety measures", es: "Nada - sin medidas de seguridad", de: "Nichts - keine Sicherheitsmaßnahmen", nl: "Niets - geen veiligheidsmaatregelen"},
+        {en: "Only rope systems", es: "Solo sistemas de cuerda", de: "Nur Seilsysteme", nl: "Alleen touwsystemen"},
+        {en: "Wooden scaffolding only", es: "Solo andamios de madera", de: "Nur Holzgerüste", nl: "Alleen houten steigers"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Empire State Building construction used advanced safety measures for 1930, including harnesses, safety nets below work areas, and guardrails. These precautions contributed to the remarkably low fatality rate of 5 deaths on such a large project.",
+        es: "La construcción del Empire State Building utilizó medidas de seguridad avanzadas para 1930, incluidos arneses, redes de seguridad debajo de las áreas de trabajo y barandillas. Estas precauciones contribuyeron a la tasa de mortalidad notablemente baja de 5 muertes en un proyecto tan grande.",
+        de: "Der Bau des Empire State Building verwendete fortschrittliche Sicherheitsmaßnahmen für 1930, einschließlich Gurte, Sicherheitsnetze unter Arbeitsbereichen und Geländer. Diese Vorsichtsmaßnahmen trugen zur bemerkenswert niedrigen Todesrate von 5 Todesfällen bei einem so großen Projekt bei.",
+        nl: "De bouw van het Empire State Building gebruikte geavanceerde veiligheidsmaatregelen voor 1930, inclusief harnassen, vangnetters onder werkgebieden en leuningen. Deze voorzorgsmaatregelen droegen bij aan het opmerkelijk lage dodental van 5 doden op zo'n groot project."
+      }
+    },
+    {
+      question: {
+        en: "How many trucks delivered materials daily at peak construction?",
+        es: "¿Cuántos camiones entregaron materiales diariamente en el pico de construcción?",
+        de: "Wie viele Lastwagen lieferten täglich Material auf dem Höhepunkt des Baus?",
+        nl: "Hoeveel vrachtwagens leverden dagelijks materialen op het hoogtepunt van de bouw?"
+      },
+      options: [
+        {en: "About 300 trucks per day", es: "Alrededor de 300 camiones por día", de: "Etwa 300 Lastwagen pro Tag", nl: "Ongeveer 300 vrachtwagens per dag"},
+        {en: "50 trucks per day", es: "50 camiones por día", de: "50 Lastwagen pro Tag", nl: "50 vrachtwagens per dag"},
+        {en: "1,000 trucks per day", es: "1,000 camiones por día", de: "1.000 Lastwagen pro Tag", nl: "1.000 vrachtwagens per dag"},
+        {en: "No truck deliveries", es: "Sin entregas de camiones", de: "Keine Lkw-Lieferungen", nl: "Geen vrachtw agenleveringen"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "At peak construction, approximately 300 trucks delivered materials daily. The site's logistics were carefully coordinated to avoid delays, with materials arriving precisely when needed to maintain the rapid construction pace.",
+        es: "En el pico de construcción, aproximadamente 300 camiones entregaron materiales diariamente. La logística del sitio se coordinó cuidadosamente para evitar retrasos, con materiales llegando precisamente cuando se necesitaban para mantener el ritmo de construcción rápido.",
+        de: "Auf dem Höhepunkt des Baus lieferten täglich etwa 300 Lastwagen Material. Die Logistik der Baustelle wurde sorgfältig koordiniert, um Verzögerungen zu vermeiden, wobei Materialien genau dann ankamen, wenn sie benötigt wurden, um das schnelle Bautempo aufrechtzuerhalten.",
+        nl: "Op het hoogtepunt van de bouw leverden dagelijks ongeveer 300 vrachtwagens materialen. De logistiek op de bouwplaats werd zorgvuldig gecoördineerd om vertragingen te voorkomen, waarbij materialen precies aankwamen wanneer ze nodig waren om het snelle bouwtempo te handhaven."
+      }
+    },
+    {
+      question: {
+        en: "What type of foundation system was used?",
+        es: "¿Qué tipo de sistema de fundación se utilizó?",
+        de: "Welche Art von Fundamentsystem wurde verwendet?",
+        nl: "Welk type funderingssysteem werd gebruikt?"
+      },
+      options: [
+        {en: "Spread footings anchored to bedrock", es: "Zapatas extendidas ancladas a la roca madre", de: "Streifenfundamente im Grundgestein verankert", nl: "Verspreidingsfunderingen verankerd in gesteente"},
+        {en: "Floating foundation", es: "Fundación flotante", de: "Schwimmendes Fundament", nl: "Drijvende fundering"},
+        {en: "Pile foundation only", es: "Solo fundación de pilotes", de: "Nur Pfahlgründung", nl: "Alleen paalfundering"},
+        {en: "No formal foundation", es: "Sin fundación formal", de: "Kein formelles Fundament", nl: "Geen formele fundering"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "The building uses spread footings that extend 55 feet down to Manhattan's bedrock. These massive concrete footings distribute the building's weight across the solid rock, providing unshakeable stability for the 365,000-ton structure.",
+        es: "El edificio utiliza zapatas extendidas que se extienden 55 pies hasta la roca madre de Manhattan. Estas masivas zapatas de concreto distribuyen el peso del edificio a través de la roca sólida, proporcionando estabilidad inquebrantable para la estructura de 365,000 toneladas.",
+        de: "Das Gebäude verwendet Streifenfundamente, die 55 Fuß bis zum Grundgestein Manhattans reichen. Diese massiven Betonfundamente verteilen das Gewicht des Gebäudes über den festen Fels und bieten unerschütterliche Stabilität für die 365.000-Tonnen-Struktur.",
+        nl: "Het gebouw gebruikt verspreidingsfunderingen die zich 55 voet uitstrekken tot het gesteente van Manhattan. Deze massieve betonfunderingen verdelen het gewicht van het gebouw over de vaste rots, wat onwankelbare stabiliteit biedt voor de 365.000-ton structuur."
+      }
+    },
+    {
+      question: {
+        en: "How did construction continue during winter weather?",
+        es: "¿Cómo continuó la construcción durante el clima invernal?",
+        de: "Wie wurde der Bau bei Winterwetter fortgesetzt?",
+        nl: "Hoe ging de bouw door tijdens winterweer?"
+      },
+      options: [
+        {en: "Temporary enclosures and heated areas", es: "Recintos temporales y áreas calefaccionadas", de: "Temporäre Umschließungen und beheizte Bereiche", nl: "Tijdelijke omhullingen en verwarmde gebieden"},
+        {en: "All work stopped in winter", es: "Todo el trabajo se detuvo en invierno", de: "Alle Arbeiten im Winter gestoppt", nl: "Al het werk gestopt in de winter"},
+        {en: "Only outdoor work continued", es: "Solo el trabajo exterior continuó", de: "Nur Außenarbeiten fortgesetzt", nl: "Alleen buitenwerk ging door"},
+        {en: "No special measures taken", es: "No se tomaron medidas especiales", de: "Keine besonderen Maßnahmen ergriffen", nl: "Geen speciale maatregelen genomen"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "During the harsh 1930-1931 winter, temporary enclosures and heated areas were created to protect workers and materials. This allowed interior work to continue uninterrupted, maintaining the aggressive construction schedule.",
+        es: "Durante el duro invierno de 1930-1931, se crearon recintos temporales y áreas calefaccionadas para proteger a los trabajadores y materiales. Esto permitió que el trabajo interior continuara sin interrupción, manteniendo el agresivo calendario de construcción.",
+        de: "Während des harten Winters 1930-1931 wurden temporäre Umschließungen und beheizte Bereiche geschaffen, um Arbeiter und Materialien zu schützen. Dies ermöglichte es, dass Innenarbeiten ohne Unterbrechung fortgesetzt wurden und der aggressive Bauzeitplan eingehalten wurde.",
+        nl: "Tijdens de harde winter van 1930-1931 werden tijdelijke omhullingen en verwarmde gebieden gecreëerd om arbeiders en materialen te beschermen. Dit maakte het mogelijk dat binnenwerk ononderbroken doorging, waardoor het agressieve bouwschema werd gehandhaafd."
+      }
+    },
+    {
+      question: {
+        en: "What was unique about the electrical system installation?",
+        es: "¿Qué tenía de único la instalación del sistema eléctrico?",
+        de: "Was war einzigartig an der Installation des elektrischen Systems?",
+        nl: "Wat was uniek aan de installatie van het elektrische systeem?"
+      },
+      options: [
+        {en: "Installed concurrently with construction, not after", es: "Instalado simultáneamente con la construcción, no después", de: "Während des Baus installiert, nicht danach", nl: "Gelijktijdig met de bouw geïnstalleerd, niet daarna"},
+        {en: "No electrical system installed", es: "No se instaló sistema eléctrico", de: "Kein elektrisches System installiert", nl: "Geen elektrisch systeem geïnstalleerd"},
+        {en: "Added years after completion", es: "Agregado años después de la finalización", de: "Jahre nach Fertigstellung hinzugefügt", nl: "Jaren na voltooiing toegevoegd"},
+        {en: "Only basement electrical", es: "Solo electricidad en el sótano", de: "Nur Keller-Elektrik", nl: "Alleen kelderelektriciteit"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "Unlike most construction of the era, electrical systems were installed concurrently with construction rather than after completion. This integration saved time and demonstrated the project's advanced planning and coordination.",
+        es: "A diferencia de la mayoría de las construcciones de la época, los sistemas eléctricos se instalaron simultáneamente con la construcción en lugar de después de la finalización. Esta integración ahorró tiempo y demostró la planificación y coordinación avanzadas del proyecto.",
+        de: "Im Gegensatz zu den meisten Bauarbeiten der Ära wurden elektrische Systeme während des Baus installiert, nicht nach Fertigstellung. Diese Integration sparte Zeit und demonstrierte die fortgeschrittene Planung und Koordination des Projekts.",
+        nl: "In tegenstelling tot de meeste bouw van die tijd, werden elektrische systemen gelijktijdig met de bouw geïnstalleerd in plaats van na voltooiing. Deze integratie bespaarde tijd en toonde de geavanceerde planning en coördinatie van het project aan."
+      }
     }
   ]
 };

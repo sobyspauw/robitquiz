@@ -626,7 +626,427 @@
           es: "El té está hecho de las hojas de la planta de té (Camellia sinensis), que se secan y procesan de varias maneras.",
           de: "Tee wird aus den Blättern der Teepflanze (Camellia sinensis) hergestellt, die getrocknet und auf verschiedene Weise verarbeitet werden.",
           nl: "Thee is gemaakt van de bladeren van de theeplant (Camellia sinensis), die gedroogd en op verschillende manieren verwerkt worden."
-        }
+        }    },
+    {
+      question: {
+        en: "What plant does tea come from?",
+        es: "What plant does tea come from?",
+        de: "What plant does tea come from?",
+        nl: "What plant does tea come from?"
+      },
+      options: [
+        { en: "Camellia sinensis", es: "Camellia sinensis", de: "Camellia sinensis", nl: "Camellia sinensis" },
+        { en: "Tea tree", es: "Tea tree", de: "Tea tree", nl: "Tea tree" },
+        { en: "Mint plant", es: "Mint plant", de: "Mint plant", nl: "Mint plant" },
+        { en: "Jasmine plant", es: "Jasmine plant", de: "Jasmine plant", nl: "Jasmine plant" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "All true tea comes from the Camellia sinensis plant.",
+        es: "All true tea comes from the Camellia sinensis plant.",
+        de: "All true tea comes from the Camellia sinensis plant.",
+        nl: "All true tea comes from the Camellia sinensis plant."
+      }
+    },
+    {
+      question: {
+        en: "What are the main types of tea?",
+        es: "What are the main types of tea?",
+        de: "What are the main types of tea?",
+        nl: "What are the main types of tea?"
+      },
+      options: [
+        { en: "Black, green, white, oolong, pu-erh", es: "Black, green, white, oolong, pu-erh", de: "Black, green, white, oolong, pu-erh", nl: "Black, green, white, oolong, pu-erh" },
+        { en: "Herbal, fruit, spice", es: "Herbal, fruit, spice", de: "Herbal, fruit, spice", nl: "Herbal, fruit, spice" },
+        { en: "Hot and iced", es: "Hot and iced", de: "Hot and iced", nl: "Hot and iced" },
+        { en: "Chinese and Indian", es: "Chinese and Indian", de: "Chinese and Indian", nl: "Chinese and Indian" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The main types of true tea are black, green, white, oolong, and pu-erh, all from the same plant.",
+        es: "The main types of true tea are black, green, white, oolong, and pu-erh, all from the same plant.",
+        de: "The main types of true tea are black, green, white, oolong, and pu-erh, all from the same plant.",
+        nl: "The main types of true tea are black, green, white, oolong, and pu-erh, all from the same plant."
+      }
+    },
+    {
+      question: {
+        en: "What is the difference between black and green tea?",
+        es: "What is the difference between black and green tea?",
+        de: "What is the difference between black and green tea?",
+        nl: "What is the difference between black and green tea?"
+      },
+      options: [
+        { en: "Level of oxidation", es: "Level of oxidation", de: "Level of oxidation", nl: "Level of oxidation" },
+        { en: "Different plants", es: "Different plants", de: "Different plants", nl: "Different plants" },
+        { en: "Caffeine content", es: "Caffeine content", de: "Caffeine content", nl: "Caffeine content" },
+        { en: "Growing region", es: "Growing region", de: "Growing region", nl: "Growing region" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The difference is oxidation: black tea is fully oxidized, green tea is minimally oxidized.",
+        es: "The difference is oxidation: black tea is fully oxidized, green tea is minimally oxidized.",
+        de: "The difference is oxidation: black tea is fully oxidized, green tea is minimally oxidized.",
+        nl: "The difference is oxidation: black tea is fully oxidized, green tea is minimally oxidized."
+      }
+    },
+    {
+      question: {
+        en: "What country produces the most tea?",
+        es: "What country produces the most tea?",
+        de: "What country produces the most tea?",
+        nl: "What country produces the most tea?"
+      },
+      options: [
+        { en: "China", es: "China", de: "China", nl: "China" },
+        { en: "India", es: "India", de: "India", nl: "India" },
+        { en: "Japan", es: "Japan", de: "Japan", nl: "Japan" },
+        { en: "Sri Lanka", es: "Sri Lanka", de: "Sri Lanka", nl: "Sri Lanka" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "China is the world's largest tea producer.",
+        es: "China is the world's largest tea producer.",
+        de: "China is the world's largest tea producer.",
+        nl: "China is the world's largest tea producer."
+      }
+    },
+    {
+      question: {
+        en: "What is Earl Grey tea?",
+        es: "What is Earl Grey tea?",
+        de: "What is Earl Grey tea?",
+        nl: "What is Earl Grey tea?"
+      },
+      options: [
+        { en: "Black tea flavored with bergamot", es: "Black tea flavored with bergamot", de: "Black tea flavored with bergamot", nl: "Black tea flavored with bergamot" },
+        { en: "Green tea", es: "Green tea", de: "Green tea", nl: "Green tea" },
+        { en: "White tea", es: "White tea", de: "White tea", nl: "White tea" },
+        { en: "Herbal tea", es: "Herbal tea", de: "Herbal tea", nl: "Herbal tea" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Earl Grey is black tea flavored with oil from the bergamot orange.",
+        es: "Earl Grey is black tea flavored with oil from the bergamot orange.",
+        de: "Earl Grey is black tea flavored with oil from the bergamot orange.",
+        nl: "Earl Grey is black tea flavored with oil from the bergamot orange."
+      }
+    },
+    {
+      question: {
+        en: "What is matcha?",
+        es: "What is matcha?",
+        de: "What is matcha?",
+        nl: "What is matcha?"
+      },
+      options: [
+        { en: "Powdered green tea", es: "Powdered green tea", de: "Powdered green tea", nl: "Powdered green tea" },
+        { en: "Fermented tea", es: "Fermented tea", de: "Fermented tea", nl: "Fermented tea" },
+        { en: "Black tea", es: "Black tea", de: "Black tea", nl: "Black tea" },
+        { en: "Herbal tea", es: "Herbal tea", de: "Herbal tea", nl: "Herbal tea" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Matcha is a fine powder made from specially grown and processed green tea leaves.",
+        es: "Matcha is a fine powder made from specially grown and processed green tea leaves.",
+        de: "Matcha is a fine powder made from specially grown and processed green tea leaves.",
+        nl: "Matcha is a fine powder made from specially grown and processed green tea leaves."
+      }
+    },
+    {
+      question: {
+        en: "What is oolong tea?",
+        es: "What is oolong tea?",
+        de: "What is oolong tea?",
+        nl: "What is oolong tea?"
+      },
+      options: [
+        { en: "Partially oxidized tea", es: "Partially oxidized tea", de: "Partially oxidized tea", nl: "Partially oxidized tea" },
+        { en: "Fully oxidized tea", es: "Fully oxidized tea", de: "Fully oxidized tea", nl: "Fully oxidized tea" },
+        { en: "Unoxidized tea", es: "Unoxidized tea", de: "Unoxidized tea", nl: "Unoxidized tea" },
+        { en: "Herbal tea", es: "Herbal tea", de: "Herbal tea", nl: "Herbal tea" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Oolong tea is partially oxidized, falling between green and black tea in processing.",
+        es: "Oolong tea is partially oxidized, falling between green and black tea in processing.",
+        de: "Oolong tea is partially oxidized, falling between green and black tea in processing.",
+        nl: "Oolong tea is partially oxidized, falling between green and black tea in processing."
+      }
+    },
+    {
+      question: {
+        en: "What is herbal tea technically called?",
+        es: "What is herbal tea technically called?",
+        de: "What is herbal tea technically called?",
+        nl: "What is herbal tea technically called?"
+      },
+      options: [
+        { en: "Tisane or herbal infusion", es: "Tisane or herbal infusion", de: "Tisane or herbal infusion", nl: "Tisane or herbal infusion" },
+        { en: "False tea", es: "False tea", de: "False tea", nl: "False tea" },
+        { en: "Plant tea", es: "Plant tea", de: "Plant tea", nl: "Plant tea" },
+        { en: "Herbal blend", es: "Herbal blend", de: "Herbal blend", nl: "Herbal blend" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Herbal 'tea' is technically called a tisane, as it doesn't come from the tea plant.",
+        es: "Herbal 'tea' is technically called a tisane, as it doesn't come from the tea plant.",
+        de: "Herbal 'tea' is technically called a tisane, as it doesn't come from the tea plant.",
+        nl: "Herbal 'tea' is technically called a tisane, as it doesn't come from the tea plant."
+      }
+    },
+    {
+      question: {
+        en: "What is white tea?",
+        es: "What is white tea?",
+        de: "What is white tea?",
+        nl: "What is white tea?"
+      },
+      options: [
+        { en: "Minimally processed tea from young leaves", es: "Minimally processed tea from young leaves", de: "Minimally processed tea from young leaves", nl: "Minimally processed tea from young leaves" },
+        { en: "Tea with milk", es: "Tea with milk", de: "Tea with milk", nl: "Tea with milk" },
+        { en: "Bleached tea", es: "Bleached tea", de: "Bleached tea", nl: "Bleached tea" },
+        { en: "Caffeine-free tea", es: "Caffeine-free tea", de: "Caffeine-free tea", nl: "Caffeine-free tea" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "White tea is made from young leaves and buds with minimal processing and oxidation.",
+        es: "White tea is made from young leaves and buds with minimal processing and oxidation.",
+        de: "White tea is made from young leaves and buds with minimal processing and oxidation.",
+        nl: "White tea is made from young leaves and buds with minimal processing and oxidation."
+      }
+    },
+    {
+      question: {
+        en: "What is chai?",
+        es: "What is chai?",
+        de: "What is chai?",
+        nl: "What is chai?"
+      },
+      options: [
+        { en: "Spiced tea, often with milk", es: "Spiced tea, often with milk", de: "Spiced tea, often with milk", nl: "Spiced tea, often with milk" },
+        { en: "Chinese tea", es: "Chinese tea", de: "Chinese tea", nl: "Chinese tea" },
+        { en: "Iced tea", es: "Iced tea", de: "Iced tea", nl: "Iced tea" },
+        { en: "Green tea", es: "Green tea", de: "Green tea", nl: "Green tea" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Chai (or masala chai) is black tea brewed with spices and usually milk and sweetener.",
+        es: "Chai (or masala chai) is black tea brewed with spices and usually milk and sweetener.",
+        de: "Chai (or masala chai) is black tea brewed with spices and usually milk and sweetener.",
+        nl: "Chai (or masala chai) is black tea brewed with spices and usually milk and sweetener."
+      }
+    },
+    {
+      question: {
+        en: "What temperature should green tea be brewed at?",
+        es: "What temperature should green tea be brewed at?",
+        de: "What temperature should green tea be brewed at?",
+        nl: "What temperature should green tea be brewed at?"
+      },
+      options: [
+        { en: "160-180°F (70-80°C)", es: "160-180°F (70-80°C)", de: "160-180°F (70-80°C)", nl: "160-180°F (70-80°C)" },
+        { en: "Boiling (212°F/100°C)", es: "Boiling (212°F/100°C)", de: "Boiling (212°F/100°C)", nl: "Boiling (212°F/100°C)" },
+        { en: "Room temperature", es: "Room temperature", de: "Room temperature", nl: "Room temperature" },
+        { en: "140°F (60°C)", es: "140°F (60°C)", de: "140°F (60°C)", nl: "140°F (60°C)" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Green tea should be brewed at cooler temperatures than black tea to avoid bitterness.",
+        es: "Green tea should be brewed at cooler temperatures than black tea to avoid bitterness.",
+        de: "Green tea should be brewed at cooler temperatures than black tea to avoid bitterness.",
+        nl: "Green tea should be brewed at cooler temperatures than black tea to avoid bitterness."
+      }
+    },
+    {
+      question: {
+        en: "What is Darjeeling tea?",
+        es: "What is Darjeeling tea?",
+        de: "What is Darjeeling tea?",
+        nl: "What is Darjeeling tea?"
+      },
+      options: [
+        { en: "Black tea from Darjeeling, India", es: "Black tea from Darjeeling, India", de: "Black tea from Darjeeling, India", nl: "Black tea from Darjeeling, India" },
+        { en: "Green tea", es: "Green tea", de: "Green tea", nl: "Green tea" },
+        { en: "Chinese tea", es: "Chinese tea", de: "Chinese tea", nl: "Chinese tea" },
+        { en: "Herbal tea", es: "Herbal tea", de: "Herbal tea", nl: "Herbal tea" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Darjeeling is a premium black tea grown in the Darjeeling region of India.",
+        es: "Darjeeling is a premium black tea grown in the Darjeeling region of India.",
+        de: "Darjeeling is a premium black tea grown in the Darjeeling region of India.",
+        nl: "Darjeeling is a premium black tea grown in the Darjeeling region of India."
+      }
+    },
+    {
+      question: {
+        en: "What is pu-erh tea?",
+        es: "What is pu-erh tea?",
+        de: "What is pu-erh tea?",
+        nl: "What is pu-erh tea?"
+      },
+      options: [
+        { en: "Fermented and aged tea", es: "Fermented and aged tea", de: "Fermented and aged tea", nl: "Fermented and aged tea" },
+        { en: "Fresh green tea", es: "Fresh green tea", de: "Fresh green tea", nl: "Fresh green tea" },
+        { en: "Instant tea", es: "Instant tea", de: "Instant tea", nl: "Instant tea" },
+        { en: "Iced tea", es: "Iced tea", de: "Iced tea", nl: "Iced tea" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pu-erh is a fermented tea that can be aged for years, from Yunnan, China.",
+        es: "Pu-erh is a fermented tea that can be aged for years, from Yunnan, China.",
+        de: "Pu-erh is a fermented tea that can be aged for years, from Yunnan, China.",
+        nl: "Pu-erh is a fermented tea that can be aged for years, from Yunnan, China."
+      }
+    },
+    {
+      question: {
+        en: "What is rooibos?",
+        es: "What is rooibos?",
+        de: "What is rooibos?",
+        nl: "What is rooibos?"
+      },
+      options: [
+        { en: "South African herbal tea (not true tea)", es: "South African herbal tea (not true tea)", de: "South African herbal tea (not true tea)", nl: "South African herbal tea (not true tea)" },
+        { en: "Black tea", es: "Black tea", de: "Black tea", nl: "Black tea" },
+        { en: "Green tea", es: "Green tea", de: "Green tea", nl: "Green tea" },
+        { en: "White tea", es: "White tea", de: "White tea", nl: "White tea" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Rooibos is an herbal infusion from South Africa, not from the tea plant.",
+        es: "Rooibos is an herbal infusion from South Africa, not from the tea plant.",
+        de: "Rooibos is an herbal infusion from South Africa, not from the tea plant.",
+        nl: "Rooibos is an herbal infusion from South Africa, not from the tea plant."
+      }
+    },
+    {
+      question: {
+        en: "What is the purpose of a tea infuser?",
+        es: "What is the purpose of a tea infuser?",
+        de: "What is the purpose of a tea infuser?",
+        nl: "What is the purpose of a tea infuser?"
+      },
+      options: [
+        { en: "Hold loose tea leaves while brewing", es: "Hold loose tea leaves while brewing", de: "Hold loose tea leaves while brewing", nl: "Hold loose tea leaves while brewing" },
+        { en: "Sweeten tea", es: "Sweeten tea", de: "Sweeten tea", nl: "Sweeten tea" },
+        { en: "Cool tea", es: "Cool tea", de: "Cool tea", nl: "Cool tea" },
+        { en: "Filter water", es: "Filter water", de: "Filter water", nl: "Filter water" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A tea infuser holds loose tea leaves while they steep, keeping them contained for easy removal.",
+        es: "A tea infuser holds loose tea leaves while they steep, keeping them contained for easy removal.",
+        de: "A tea infuser holds loose tea leaves while they steep, keeping them contained for easy removal.",
+        nl: "A tea infuser holds loose tea leaves while they steep, keeping them contained for easy removal."
+      }
+    },
+    {
+      question: {
+        en: "What is bubble tea?",
+        es: "What is bubble tea?",
+        de: "What is bubble tea?",
+        nl: "What is bubble tea?"
+      },
+      options: [
+        { en: "Tea with tapioca pearls", es: "Tea with tapioca pearls", de: "Tea with tapioca pearls", nl: "Tea with tapioca pearls" },
+        { en: "Sparkling tea", es: "Sparkling tea", de: "Sparkling tea", nl: "Sparkling tea" },
+        { en: "Foamy tea", es: "Foamy tea", de: "Foamy tea", nl: "Foamy tea" },
+        { en: "Carbonated tea", es: "Carbonated tea", de: "Carbonated tea", nl: "Carbonated tea" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Bubble tea (boba tea) is tea mixed with milk or fruit and chewy tapioca pearls.",
+        es: "Bubble tea (boba tea) is tea mixed with milk or fruit and chewy tapioca pearls.",
+        de: "Bubble tea (boba tea) is tea mixed with milk or fruit and chewy tapioca pearls.",
+        nl: "Bubble tea (boba tea) is tea mixed with milk or fruit and chewy tapioca pearls."
+      }
+    },
+    {
+      question: {
+        en: "What is the caffeine content of tea vs coffee?",
+        es: "What is the caffeine content of tea vs coffee?",
+        de: "What is the caffeine content of tea vs coffee?",
+        nl: "What is the caffeine content of tea vs coffee?"
+      },
+      options: [
+        { en: "Tea typically has less caffeine than coffee", es: "Tea typically has less caffeine than coffee", de: "Tea typically has less caffeine than coffee", nl: "Tea typically has less caffeine than coffee" },
+        { en: "Tea has more caffeine", es: "Tea has more caffeine", de: "Tea has more caffeine", nl: "Tea has more caffeine" },
+        { en: "Same amount", es: "Same amount", de: "Same amount", nl: "Same amount" },
+        { en: "Tea has no caffeine", es: "Tea has no caffeine", de: "Tea has no caffeine", nl: "Tea has no caffeine" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Tea generally contains less caffeine than coffee, though amounts vary by type and brewing.",
+        es: "Tea generally contains less caffeine than coffee, though amounts vary by type and brewing.",
+        de: "Tea generally contains less caffeine than coffee, though amounts vary by type and brewing.",
+        nl: "Tea generally contains less caffeine than coffee, though amounts vary by type and brewing."
+      }
+    },
+    {
+      question: {
+        en: "What is jasmine tea?",
+        es: "What is jasmine tea?",
+        de: "What is jasmine tea?",
+        nl: "What is jasmine tea?"
+      },
+      options: [
+        { en: "Tea scented with jasmine flowers", es: "Tea scented with jasmine flowers", de: "Tea scented with jasmine flowers", nl: "Tea scented with jasmine flowers" },
+        { en: "Tea from jasmine plant", es: "Tea from jasmine plant", de: "Tea from jasmine plant", nl: "Tea from jasmine plant" },
+        { en: "Sweet tea", es: "Sweet tea", de: "Sweet tea", nl: "Sweet tea" },
+        { en: "Herbal tea", es: "Herbal tea", de: "Herbal tea", nl: "Herbal tea" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Jasmine tea is typically green tea scented with jasmine flowers.",
+        es: "Jasmine tea is typically green tea scented with jasmine flowers.",
+        de: "Jasmine tea is typically green tea scented with jasmine flowers.",
+        nl: "Jasmine tea is typically green tea scented with jasmine flowers."
+      }
+    },
+    {
+      question: {
+        en: "What is English Breakfast tea?",
+        es: "What is English Breakfast tea?",
+        de: "What is English Breakfast tea?",
+        nl: "What is English Breakfast tea?"
+      },
+      options: [
+        { en: "Blend of black teas", es: "Blend of black teas", de: "Blend of black teas", nl: "Blend of black teas" },
+        { en: "Tea served at breakfast only", es: "Tea served at breakfast only", de: "Tea served at breakfast only", nl: "Tea served at breakfast only" },
+        { en: "White tea", es: "White tea", de: "White tea", nl: "White tea" },
+        { en: "Herbal tea", es: "Herbal tea", de: "Herbal tea", nl: "Herbal tea" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "English Breakfast is a traditional blend of black teas, typically served with milk.",
+        es: "English Breakfast is a traditional blend of black teas, typically served with milk.",
+        de: "English Breakfast is a traditional blend of black teas, typically served with milk.",
+        nl: "English Breakfast is a traditional blend of black teas, typically served with milk."
+      }
+    },
+    {
+      question: {
+        en: "What are tea bags made of?",
+        es: "What are tea bags made of?",
+        de: "What are tea bags made of?",
+        nl: "What are tea bags made of?"
+      },
+      options: [
+        { en: "Filter paper or silk with tea inside", es: "Filter paper or silk with tea inside", de: "Filter paper or silk with tea inside", nl: "Filter paper or silk with tea inside" },
+        { en: "Plastic", es: "Plastic", de: "Plastic", nl: "Plastic" },
+        { en: "Cotton", es: "Cotton", de: "Cotton", nl: "Cotton" },
+        { en: "Metal mesh", es: "Metal mesh", de: "Metal mesh", nl: "Metal mesh" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Tea bags are typically made of filter paper, silk, or other porous material filled with tea leaves.",
+        es: "Tea bags are typically made of filter paper, silk, or other porous material filled with tea leaves.",
+        de: "Tea bags are typically made of filter paper, silk, or other porous material filled with tea leaves.",
+        nl: "Tea bags are typically made of filter paper, silk, or other porous material filled with tea leaves."
+      }
+
       }
     ]
   };

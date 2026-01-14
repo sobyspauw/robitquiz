@@ -8,6 +8,7 @@
       nl: "Leerproces"
     },
     questions: [
+      // Original 20 questions preserved exactly
       {
         question: {
           en: "What is the main difference between supervised and unsupervised learning?",
@@ -426,6 +427,427 @@
           es: "El descenso de gradiente en mini-lotes procesa un pequeño subconjunto de datos de entrenamiento en cada iteración, proporcionando un equilibrio entre la reducción de ruido del descenso de gradiente por lotes y la eficiencia computacional del descenso de gradiente estocástico.",
           de: "Mini-Batch-Gradientenabstieg verarbeitet eine kleine Teilmenge der Trainingsdaten bei jeder Iteration und bietet ein Gleichgewicht zwischen der Rauschreduzierung des Batch-Gradientenabstiegs und der rechnerischen Effizienz des stochastischen Gradientenabstiegs.",
           nl: "Mini-batch gradient descent verwerkt een kleine subset van trainingsdata bij elke iteratie, wat een balans biedt tussen de ruisvermindering van batch gradient descent en de computationele efficiëntie van stochastic gradient descent."
+        }
+      },
+      // NEW 20 QUESTIONS ADDED BELOW
+      {
+        question: {
+          en: "What is semi-supervised learning?",
+          es: "¿Qué es el aprendizaje semi-supervisado?",
+          de: "Was ist semi-überwachtes Lernen?",
+          nl: "Wat is semi-supervised learning?"
+        },
+        options: [
+          { en: "Learning paradigm combining small labeled dataset with large unlabeled dataset", es: "Paradigma aprendizaje combinando pequeño conjunto etiquetado con gran conjunto sin etiquetar", de: "Lernparadigma das kleinen beschrifteten Datensatz mit großem unbeschrifteten Datensatz kombiniert", nl: "Leerparadigma dat kleine gelabelde dataset combineert met grote ongelabelde dataset" },
+          { en: "Training only half of the network parameters", es: "Entrenar solo mitad de parámetros red", de: "Nur Hälfte der Netzwerkparameter trainieren", nl: "Slechts de helft van netwerkparameters trainen" },
+          { en: "Using supervision only during inference", es: "Usar supervisión solo durante inferencia", de: "Überwachung nur während Inferenz verwenden", nl: "Supervisie alleen tijdens inferentie gebruiken" },
+          { en: "Partially automating the training process", es: "Automatizar parcialmente proceso entrenamiento", de: "Trainingsprozess teilweise automatisieren", nl: "Trainingsproces gedeeltelijk automatiseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Semi-supervised learning uses a small amount of labeled data combined with a large amount of unlabeled data for training. This approach is useful when labeling data is expensive or time-consuming, leveraging unlabeled data to improve model performance beyond what labeled data alone can achieve.",
+          es: "El aprendizaje semi-supervisado usa una pequeña cantidad de datos etiquetados combinada con gran cantidad de datos sin etiquetar para entrenamiento. Este enfoque es útil cuando etiquetar datos es costoso o consume tiempo, aprovechando datos sin etiquetar para mejorar rendimiento del modelo más allá de lo que solo datos etiquetados pueden lograr.",
+          de: "Semi-überwachtes Lernen verwendet eine kleine Menge beschrifteter Daten kombiniert mit großer Menge unbeschrifteter Daten zum Training. Dieser Ansatz ist nützlich wenn Datenbeschriftung teuer oder zeitaufwendig ist, nutzt unbeschriftete Daten um Modellleistung über das hinaus zu verbessern was beschriftete Daten allein erreichen können.",
+          nl: "Semi-supervised learning gebruikt een kleine hoeveelheid gelabelde data gecombineerd met grote hoeveelheid ongelabelde data voor training. Deze aanpak is nuttig wanneer data labelen duur of tijdrovend is, maakt gebruik van ongelabelde data om modelprestaties te verbeteren boven wat gelabelde data alleen kan bereiken."
+        }
+      },
+      {
+        question: {
+          en: "What is active learning in machine learning?",
+          es: "¿Qué es el aprendizaje activo en aprendizaje automático?",
+          de: "Was ist aktives Lernen im maschinellen Lernen?",
+          nl: "Wat is actief leren in machine learning?"
+        },
+        options: [
+          { en: "Strategy where model queries oracle to label most informative examples", es: "Estrategia donde modelo consulta oráculo para etiquetar ejemplos más informativos", de: "Strategie wo Modell Orakel abfragt um informativste Beispiele zu beschriften", nl: "Strategie waarbij model oracle bevraagt om meest informatieve voorbeelden te labelen" },
+          { en: "Training models while actively using them", es: "Entrenar modelos mientras se usan activamente", de: "Modelle trainieren während sie aktiv genutzt werden", nl: "Modellen trainen terwijl ze actief gebruikt worden" },
+          { en: "Learning that requires constant user interaction", es: "Aprendizaje que requiere interacción constante usuario", de: "Lernen das konstante Benutzerinteraktion erfordert", nl: "Leren dat constante gebruikersinteractie vereist" },
+          { en: "High-energy training requiring more GPU power", es: "Entrenamiento alta energía requiriendo más poder GPU", de: "Hochenergie-Training das mehr GPU-Leistung erfordert", nl: "Hoogenergetische training die meer GPU-vermogen vereist" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Active learning intelligently selects which unlabeled examples should be labeled next based on their expected informativeness. By strategically choosing examples that maximize learning, active learning reduces the total number of labels needed while maintaining high model performance.",
+          es: "El aprendizaje activo selecciona inteligentemente qué ejemplos sin etiquetar deben etiquetarse después basándose en su informatividad esperada. Al elegir estratégicamente ejemplos que maximizan el aprendizaje, el aprendizaje activo reduce el número total de etiquetas necesarias mientras mantiene alto rendimiento del modelo.",
+          de: "Aktives Lernen wählt intelligent aus welche unbeschrifteten Beispiele als nächstes beschriftet werden sollten basierend auf ihrer erwarteten Informativität. Durch strategische Auswahl von Beispielen die Lernen maximieren, reduziert aktives Lernen die Gesamtzahl benötigter Labels während hohe Modellleistung erhalten bleibt.",
+          nl: "Actief leren selecteert intelligent welke ongelabelde voorbeelden vervolgens gelabeld moeten worden op basis van hun verwachte informativiteit. Door strategisch voorbeelden te kiezen die leren maximaliseren, vermindert actief leren het totale aantal benodigde labels terwijl hoge modelprestaties behouden blijven."
+        }
+      },
+      {
+        question: {
+          en: "What is meta-learning or learning to learn?",
+          es: "¿Qué es el meta-aprendizaje o aprender a aprender?",
+          de: "Was ist Meta-Learning oder Lernen zu lernen?",
+          nl: "Wat is meta-learning of leren te leren?"
+        },
+        options: [
+          { en: "Training models to quickly adapt to new tasks with minimal data", es: "Entrenar modelos para adaptarse rápidamente a nuevas tareas con datos mínimos", de: "Modelle trainieren um sich schnell an neue Aufgaben mit minimalen Daten anzupassen", nl: "Modellen trainen om snel aan te passen aan nieuwe taken met minimale data" },
+          { en: "Learning about the learning process itself", es: "Aprender sobre el proceso de aprendizaje mismo", de: "Über den Lernprozess selbst lernen", nl: "Leren over het leerproces zelf" },
+          { en: "Using metadata to improve training", es: "Usar metadatos para mejorar entrenamiento", de: "Metadaten verwenden um Training zu verbessern", nl: "Metadata gebruiken om training te verbeteren" },
+          { en: "Teaching models to teach other models", es: "Enseñar modelos a enseñar otros modelos", de: "Modelle lehren andere Modelle zu lehren", nl: "Modellen leren andere modellen te leren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Meta-learning aims to train models that can quickly adapt to new tasks with few examples by learning from experience across many tasks. Rather than learning a single task well, meta-learning models learn general learning strategies that transfer across tasks, enabling rapid few-shot learning.",
+          es: "El meta-aprendizaje busca entrenar modelos que puedan adaptarse rápidamente a nuevas tareas con pocos ejemplos aprendiendo de experiencia a través de muchas tareas. En lugar de aprender bien una sola tarea, los modelos de meta-aprendizaje aprenden estrategias de aprendizaje generales que transfieren a través de tareas, permitiendo aprendizaje rápido de pocos ejemplos.",
+          de: "Meta-Learning zielt darauf ab Modelle zu trainieren die sich schnell an neue Aufgaben mit wenigen Beispielen anpassen können durch Lernen aus Erfahrung über viele Aufgaben. Anstatt eine einzelne Aufgabe gut zu lernen, lernen Meta-Learning-Modelle allgemeine Lernstrategien die über Aufgaben übertragen, ermöglichen schnelles Few-Shot-Lernen.",
+          nl: "Meta-learning heeft tot doel modellen te trainen die snel kunnen aanpassen aan nieuwe taken met weinig voorbeelden door te leren van ervaring over vele taken. In plaats van een enkele taak goed te leren, leren meta-learning modellen algemene leerstrategieën die overdragen tussen taken, waardoor snel few-shot leren mogelijk wordt."
+        }
+      },
+      {
+        question: {
+          en: "What is few-shot learning?",
+          es: "¿Qué es el aprendizaje de pocos ejemplos?",
+          de: "Was ist Few-Shot Learning?",
+          nl: "Wat is few-shot learning?"
+        },
+        options: [
+          { en: "Learning new concepts from very few examples, typically 1-5 samples per class", es: "Aprender nuevos conceptos de muy pocos ejemplos, típicamente 1-5 muestras por clase", de: "Neue Konzepte aus sehr wenigen Beispielen lernen, typischerweise 1-5 Proben pro Klasse", nl: "Nieuwe concepten leren van zeer weinig voorbeelden, typisch 1-5 steekproeven per klasse" },
+          { en: "Taking few training iterations", es: "Tomar pocas iteraciones de entrenamiento", de: "Wenige Trainingsiterationen nehmen", nl: "Weinig trainingsiteraties nemen" },
+          { en: "Using few layers in the network", es: "Usar pocas capas en la red", de: "Wenige Schichten im Netzwerk verwenden", nl: "Weinig lagen in het netwerk gebruiken" },
+          { en: "Training with low computational resources", es: "Entrenar con recursos computacionales bajos", de: "Mit geringen Rechenressourcen trainieren", nl: "Trainen met lage computationele bronnen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Few-shot learning tackles the challenge of learning from extremely limited data - often just one (one-shot) or a handful of examples per class. This mimics human learning ability to recognize new objects from minimal exposure and is crucial for domains where collecting large datasets is impractical.",
+          es: "El aprendizaje de pocos ejemplos aborda el desafío de aprender de datos extremadamente limitados - a menudo solo uno (one-shot) o un puñado de ejemplos por clase. Esto imita la capacidad de aprendizaje humano para reconocer nuevos objetos con exposición mínima y es crucial para dominios donde recopilar grandes conjuntos de datos es impráctico.",
+          de: "Few-Shot Learning bewältigt die Herausforderung aus extrem begrenzten Daten zu lernen - oft nur ein (One-Shot) oder eine Handvoll Beispiele pro Klasse. Dies ahmt menschliche Lernfähigkeit nach neue Objekte aus minimaler Exposition zu erkennen und ist entscheidend für Domänen wo Sammeln großer Datensätze unpraktisch ist.",
+          nl: "Few-shot learning pakt de uitdaging aan van leren uit extreem beperkte data - vaak slechts één (one-shot) of een handvol voorbeelden per klasse. Dit bootst menselijk leervermogen na om nieuwe objecten te herkennen met minimale blootstelling en is cruciaal voor domeinen waar het verzamelen van grote datasets onpraktisch is."
+        }
+      },
+      {
+        question: {
+          en: "What is catastrophic forgetting in neural networks?",
+          es: "¿Qué es el olvido catastrófico en redes neuronales?",
+          de: "Was ist katastrophales Vergessen in neuronalen Netzwerken?",
+          nl: "Wat is catastrofaal vergeten in neurale netwerken?"
+        },
+        options: [
+          { en: "When training on new tasks causes network to forget previously learned tasks", es: "Cuando entrenar en nuevas tareas causa que red olvide tareas previamente aprendidas", de: "Wenn Training auf neuen Aufgaben Netzwerk veranlasst zuvor gelernte Aufgaben zu vergessen", nl: "Wanneer trainen op nieuwe taken ervoor zorgt dat netwerk eerder geleerde taken vergeet" },
+          { en: "Complete loss of all network weights", es: "Pérdida completa de todos pesos red", de: "Vollständiger Verlust aller Netzwerkgewichte", nl: "Volledig verlies van alle netwerkgewichten" },
+          { en: "Forgetting to save model checkpoints", es: "Olvidar guardar puntos control modelo", de: "Vergessen Modell-Checkpoints zu speichern", nl: "Vergeten model checkpoints op te slaan" },
+          { en: "Memory overflow during training", es: "Desbordamiento memoria durante entrenamiento", de: "Speicherüberlauf während Training", nl: "Geheugenoverflow tijdens training" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Catastrophic forgetting occurs when a neural network trained sequentially on multiple tasks loses performance on earlier tasks as it learns new ones. This happens because weights optimized for new tasks overwrite information needed for old tasks, making continual learning challenging.",
+          es: "El olvido catastrófico ocurre cuando una red neuronal entrenada secuencialmente en múltiples tareas pierde rendimiento en tareas anteriores al aprender nuevas. Esto sucede porque pesos optimizados para nuevas tareas sobrescriben información necesaria para tareas antiguas, haciendo el aprendizaje continuo desafiante.",
+          de: "Katastrophales Vergessen tritt auf wenn ein neuronales Netzwerk sequentiell auf mehreren Aufgaben trainiert Leistung bei früheren Aufgaben verliert während es neue lernt. Dies geschieht weil für neue Aufgaben optimierte Gewichte Informationen überschreiben die für alte Aufgaben benötigt werden, macht kontinuierliches Lernen herausfordernd.",
+          nl: "Catastrofaal vergeten treedt op wanneer een neuraal netwerk sequentieel getraind op meerdere taken prestaties verliest op eerdere taken terwijl het nieuwe leert. Dit gebeurt omdat gewichten geoptimaliseerd voor nieuwe taken informatie overschrijven die nodig is voor oude taken, wat continu leren uitdagend maakt."
+        }
+      },
+      {
+        question: {
+          en: "What is continual learning or lifelong learning?",
+          es: "¿Qué es el aprendizaje continuo o aprendizaje de por vida?",
+          de: "Was ist kontinuierliches Lernen oder lebenslanges Lernen?",
+          nl: "Wat is continu leren of levenslang leren?"
+        },
+        options: [
+          { en: "Ability to learn new tasks sequentially while retaining knowledge from previous tasks", es: "Capacidad aprender nuevas tareas secuencialmente mientras retiene conocimiento de tareas previas", de: "Fähigkeit neue Aufgaben sequentiell zu lernen während Wissen von vorherigen Aufgaben behalten wird", nl: "Vermogen om nieuwe taken sequentieel te leren terwijl kennis van eerdere taken behouden blijft" },
+          { en: "Training models continuously without stopping", es: "Entrenar modelos continuamente sin parar", de: "Modelle kontinuierlich ohne Stopp trainieren", nl: "Modellen continu trainen zonder te stoppen" },
+          { en: "Learning throughout the entire human lifespan", es: "Aprender durante toda vida humana", de: "Während gesamter menschlicher Lebensspanne lernen", nl: "Leren gedurende hele menselijke levensduur" },
+          { en: "Never finishing the training process", es: "Nunca terminar proceso entrenamiento", de: "Trainingsprozess niemals beenden", nl: "Trainingsproces nooit afmaken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Continual learning aims to develop models that can learn a sequence of tasks over time without forgetting previous knowledge. This requires techniques like elastic weight consolidation, progressive networks, or memory replay to mitigate catastrophic forgetting and enable accumulation of knowledge.",
+          es: "El aprendizaje continuo busca desarrollar modelos que puedan aprender una secuencia de tareas con el tiempo sin olvidar conocimiento previo. Esto requiere técnicas como consolidación elástica de pesos, redes progresivas o reproducción de memoria para mitigar olvido catastrófico y permitir acumulación de conocimiento.",
+          de: "Kontinuierliches Lernen zielt darauf ab Modelle zu entwickeln die eine Sequenz von Aufgaben über Zeit lernen können ohne vorheriges Wissen zu vergessen. Dies erfordert Techniken wie elastische Gewichtskonsolidierung, progressive Netzwerke oder Memory Replay um katastrophales Vergessen zu mildern und Wissensakkumulation zu ermöglichen.",
+          nl: "Continu leren heeft tot doel modellen te ontwikkelen die een reeks taken in de tijd kunnen leren zonder eerdere kennis te vergeten. Dit vereist technieken zoals elastische gewichtsconsolidatie, progressieve netwerken of geheugen replay om catastrofaal vergeten te mitigeren en kennisaccumulatie mogelijk te maken."
+        }
+      },
+      {
+        question: {
+          en: "What is knowledge distillation in neural networks?",
+          es: "¿Qué es la destilación de conocimiento en redes neuronales?",
+          de: "Was ist Wissensdestillation in neuronalen Netzwerken?",
+          nl: "Wat is kennisdistillatie in neurale netwerken?"
+        },
+        options: [
+          { en: "Transferring knowledge from large teacher model to smaller student model", es: "Transferir conocimiento de modelo maestro grande a modelo estudiante pequeño", de: "Wissen von großem Lehrer-Modell auf kleineres Schüler-Modell übertragen", nl: "Kennis overdragen van groot leraarmodel naar kleiner studentmodel" },
+          { en: "Extracting only essential features from data", es: "Extraer solo características esenciales de datos", de: "Nur wesentliche Merkmale aus Daten extrahieren", nl: "Alleen essentiële kenmerken uit data extraheren" },
+          { en: "Purifying training data", es: "Purificar datos entrenamiento", de: "Trainingsdaten reinigen", nl: "Trainingsdata zuiveren" },
+          { en: "Compressing model weights", es: "Comprimir pesos modelo", de: "Modellgewichte komprimieren", nl: "Modelgewichten comprimeren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Knowledge distillation trains a smaller student network to mimic a larger teacher network's behavior by learning from the teacher's soft predictions rather than hard labels. This produces compact models that retain much of the teacher's performance while being faster and more efficient for deployment.",
+          es: "La destilación de conocimiento entrena una red estudiante más pequeña para imitar comportamiento de red maestro más grande aprendiendo de predicciones suaves del maestro en lugar de etiquetas duras. Esto produce modelos compactos que retienen mucho del rendimiento del maestro mientras son más rápidos y eficientes para despliegue.",
+          de: "Wissensdestillation trainiert ein kleineres Schüler-Netzwerk das Verhalten eines größeren Lehrer-Netzwerks nachzuahmen durch Lernen von weichen Vorhersagen des Lehrers statt harten Labels. Dies produziert kompakte Modelle die viel von Lehrerleistung behalten während schneller und effizienter für Deployment sind.",
+          nl: "Kennisdistillatie traint een kleiner studentnetwerk om het gedrag van een groter leraarnetwerk na te bootsen door te leren van zachte voorspellingen van de leraar in plaats van harde labels. Dit produceert compacte modellen die veel van de prestaties van de leraar behouden terwijl ze sneller en efficiënter zijn voor deployment."
+        }
+      },
+      {
+        question: {
+          en: "What is neural architecture search (NAS)?",
+          es: "¿Qué es la búsqueda de arquitectura neuronal (NAS)?",
+          de: "Was ist neuronale Architektursuche (NAS)?",
+          nl: "Wat is neural architecture search (NAS)?"
+        },
+        options: [
+          { en: "Automated process of discovering optimal network architectures for specific tasks", es: "Proceso automatizado descubrir arquitecturas red óptimas para tareas específicas", de: "Automatisierter Prozess optimale Netzwerkarchitekturen für spezifische Aufgaben zu entdecken", nl: "Geautomatiseerd proces om optimale netwerkarchitecturen voor specifieke taken te ontdekken" },
+          { en: "Searching for pre-trained models online", es: "Buscar modelos pre-entrenados en línea", de: "Vortrainierte Modelle online suchen", nl: "Voorgetrainde modellen online zoeken" },
+          { en: "Finding the best hyperparameters manually", es: "Encontrar mejores hiperparámetros manualmente", de: "Beste Hyperparameter manuell finden", nl: "Beste hyperparameters handmatig vinden" },
+          { en: "Organizing network layers alphabetically", es: "Organizar capas red alfabéticamente", de: "Netzwerkschichten alphabetisch organisieren", nl: "Netwerklagen alfabetisch organiseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Neural Architecture Search automatically discovers effective network architectures through systematic exploration and optimization, often using reinforcement learning or evolutionary algorithms. NAS can find architectures that outperform human-designed networks but typically requires significant computational resources.",
+          es: "La Búsqueda de Arquitectura Neuronal descubre automáticamente arquitecturas de red efectivas a través de exploración sistemática y optimización, a menudo usando aprendizaje por refuerzo o algoritmos evolutivos. NAS puede encontrar arquitecturas que superan redes diseñadas por humanos pero típicamente requiere recursos computacionales significativos.",
+          de: "Neuronale Architektursuche entdeckt automatisch effektive Netzwerkarchitekturen durch systematische Exploration und Optimierung, oft mit Reinforcement Learning oder evolutionären Algorithmen. NAS kann Architekturen finden die von Menschen entworfene Netzwerke übertreffen aber erfordert typischerweise bedeutende Rechenressourcen.",
+          nl: "Neural Architecture Search ontdekt automatisch effectieve netwerkarchitecturen door systematische exploratie en optimalisatie, vaak met reinforcement learning of evolutionaire algoritmes. NAS kan architecturen vinden die door mensen ontworpen netwerken overtreffen maar vereist typisch aanzienlijke computationele bronnen."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between L1 and L2 regularization?",
+          es: "¿Cuál es la diferencia entre regularización L1 y L2?",
+          de: "Was ist der Unterschied zwischen L1- und L2-Regularisierung?",
+          nl: "Wat is het verschil tussen L1 en L2 regularisatie?"
+        },
+        options: [
+          { en: "L1 promotes sparsity by driving weights to zero, L2 prevents large weights through squared penalties", es: "L1 promueve dispersión llevando pesos a cero, L2 previene pesos grandes mediante penalizaciones cuadradas", de: "L1 fördert Sparsität durch Treiben von Gewichten auf Null, L2 verhindert große Gewichte durch quadratische Strafen", nl: "L1 bevordert sparsheid door gewichten naar nul te drijven, L2 voorkomt grote gewichten door gekwadrateerde straffen" },
+          { en: "L1 is faster than L2", es: "L1 es más rápido que L2", de: "L1 ist schneller als L2", nl: "L1 is sneller dan L2" },
+          { en: "L1 works only for classification, L2 for regression", es: "L1 funciona solo para clasificación, L2 para regresión", de: "L1 funktioniert nur für Klassifikation, L2 für Regression", nl: "L1 werkt alleen voor classificatie, L2 voor regressie" },
+          { en: "No significant difference exists", es: "No existe diferencia significativa", de: "Es existiert kein signifikanter Unterschied", nl: "Er bestaat geen significant verschil" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "L1 regularization (Lasso) adds absolute value of weights to loss, encouraging sparse solutions where many weights become exactly zero, providing feature selection. L2 regularization (Ridge) adds squared weights, discouraging large weights but rarely making them exactly zero, producing smoother weight distributions.",
+          es: "La regularización L1 (Lasso) agrega valor absoluto de pesos a pérdida, alentando soluciones dispersas donde muchos pesos se vuelven exactamente cero, proporcionando selección de características. La regularización L2 (Ridge) agrega pesos al cuadrado, desalentando pesos grandes pero rara vez haciéndolos exactamente cero, produciendo distribuciones de peso más suaves.",
+          de: "L1-Regularisierung (Lasso) fügt Absolutwert von Gewichten zum Verlust hinzu, fördert sparsame Lösungen wo viele Gewichte genau Null werden, bietet Merkmalsselektion. L2-Regularisierung (Ridge) fügt quadrierte Gewichte hinzu, entmutigt große Gewichte macht sie aber selten genau Null, produziert glattere Gewichtsverteilungen.",
+          nl: "L1 regularisatie (Lasso) voegt absolute waarde van gewichten toe aan verlies, moedigt sparse oplossingen aan waar veel gewichten precies nul worden, biedt kenmerksselectie. L2 regularisatie (Ridge) voegt gekwadrateerde gewichten toe, ontmoedigt grote gewichten maar maakt ze zelden precies nul, produceert gladdere gewichtsverdelingen."
+        }
+      },
+      {
+        question: {
+          en: "What is batch normalization and why is it useful?",
+          es: "¿Qué es la normalización por lotes y por qué es útil?",
+          de: "Was ist Batch-Normalisierung und warum ist sie nützlich?",
+          nl: "Wat is batch normalisatie en waarom is het nuttig?"
+        },
+        options: [
+          { en: "Normalizing layer inputs to reduce internal covariate shift and accelerate training", es: "Normalizar entradas capa para reducir cambio covarianza interna y acelerar entrenamiento", de: "Schichteingaben normalisieren um interne Kovariantenverschiebung zu reduzieren und Training zu beschleunigen", nl: "Laaginvoeren normaliseren om interne covariantieverschuiving te verminderen en training te versnellen" },
+          { en: "Creating batches of training data", es: "Crear lotes datos entrenamiento", de: "Stapel von Trainingsdaten erstellen", nl: "Batches van trainingsdata creëren" },
+          { en: "Normalizing only the final output", es: "Normalizar solo salida final", de: "Nur finale Ausgabe normalisieren", nl: "Alleen finale uitvoer normaliseren" },
+          { en: "Standardizing batch sizes", es: "Estandarizar tamaños lote", de: "Stapelgrößen standardisieren", nl: "Batchgroottes standaardiseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Batch normalization normalizes activations within each mini-batch by subtracting mean and dividing by standard deviation. This stabilizes learning, allows higher learning rates, reduces sensitivity to initialization, acts as regularization, and significantly speeds up training of deep networks.",
+          es: "La normalización por lotes normaliza activaciones dentro de cada mini-lote restando media y dividiendo por desviación estándar. Esto estabiliza aprendizaje, permite tasas aprendizaje más altas, reduce sensibilidad a inicialización, actúa como regularización y acelera significativamente entrenamiento de redes profundas.",
+          de: "Batch-Normalisierung normalisiert Aktivierungen innerhalb jedes Mini-Batches durch Subtraktion des Mittelwerts und Division durch Standardabweichung. Dies stabilisiert Lernen, erlaubt höhere Lernraten, reduziert Empfindlichkeit gegenüber Initialisierung, wirkt als Regularisierung und beschleunigt Training tiefer Netzwerke signifikant.",
+          nl: "Batch normalisatie normaliseert activaties binnen elke mini-batch door gemiddelde af te trekken en te delen door standaarddeviatie. Dit stabiliseert leren, staat hogere leersnelheden toe, vermindert gevoeligheid voor initialisatie, werkt als regularisatie en versnelt training van diepe netwerken aanzienlijk."
+        }
+      },
+      {
+        question: {
+          en: "What is learning rate scheduling?",
+          es: "¿Qué es la programación de tasa de aprendizaje?",
+          de: "Was ist Lernraten-Scheduling?",
+          nl: "Wat is learning rate scheduling?"
+        },
+        options: [
+          { en: "Adjusting learning rate during training according to predefined schedule or adaptive rules", es: "Ajustar tasa aprendizaje durante entrenamiento según programa predefinido o reglas adaptativas", de: "Lernrate während Training nach vordefiniertem Zeitplan oder adaptiven Regeln anpassen", nl: "Leersnelheid tijdens training aanpassen volgens voorgedefinieerd schema of adaptieve regels" },
+          { en: "Setting specific times for training sessions", es: "Establecer tiempos específicos para sesiones entrenamiento", de: "Spezifische Zeiten für Trainingssitzungen festlegen", nl: "Specifieke tijden voor trainingssessies instellen" },
+          { en: "Planning when to collect training data", es: "Planificar cuándo recopilar datos entrenamiento", de: "Planen wann Trainingsdaten gesammelt werden", nl: "Plannen wanneer trainingsdata te verzamelen" },
+          { en: "Organizing training epochs chronologically", es: "Organizar épocas entrenamiento cronológicamente", de: "Trainingsepochen chronologisch organisieren", nl: "Training epochs chronologisch organiseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Learning rate scheduling systematically changes the learning rate during training. Common strategies include step decay, exponential decay, cosine annealing, and adaptive methods. This helps models converge more effectively by using larger rates initially for faster progress, then smaller rates for fine-tuning.",
+          es: "La programación de tasa de aprendizaje cambia sistemáticamente la tasa de aprendizaje durante entrenamiento. Estrategias comunes incluyen decaimiento por pasos, decaimiento exponencial, recocido cosenoidal y métodos adaptativos. Esto ayuda a modelos converger más efectivamente usando tasas mayores inicialmente para progreso más rápido, luego tasas menores para ajuste fino.",
+          de: "Lernraten-Scheduling ändert systematisch die Lernrate während des Trainings. Häufige Strategien umfassen Schrittzerfall, exponentieller Zerfall, Kosinus-Annealing und adaptive Methoden. Dies hilft Modellen effektiver zu konvergieren durch Verwendung größerer Raten anfangs für schnelleren Fortschritt, dann kleinere Raten für Feinabstimmung.",
+          nl: "Learning rate scheduling verandert systematisch de leersnelheid tijdens training. Veelvoorkomende strategieën zijn step decay, exponential decay, cosine annealing en adaptieve methoden. Dit helpt modellen effectiever te convergeren door grotere snelheden aanvankelijk te gebruiken voor snellere vooruitgang, dan kleinere snelheden voor fijnafstemming."
+        }
+      },
+      {
+        question: {
+          en: "What is the warm-up period in neural network training?",
+          es: "¿Qué es el período de calentamiento en entrenamiento de redes neuronales?",
+          de: "Was ist die Aufwärmphase beim Training neuronaler Netzwerke?",
+          nl: "Wat is de opwarmperiode in neurale netwerk training?"
+        },
+        options: [
+          { en: "Initial phase with gradually increasing learning rate to stabilize early training", es: "Fase inicial con tasa aprendizaje gradualmente creciente para estabilizar entrenamiento temprano", de: "Anfangsphase mit allmählich steigender Lernrate um frühes Training zu stabilisieren", nl: "Initiële fase met geleidelijk toenemende leersnelheid om vroege training te stabiliseren" },
+          { en: "Preheating GPU before training", es: "Precalentar GPU antes entrenamiento", de: "GPU vor Training vorheizen", nl: "GPU voorverwarmen voor training" },
+          { en: "Training on easier examples first", es: "Entrenar primero en ejemplos más fáciles", de: "Zuerst auf einfacheren Beispielen trainieren", nl: "Eerst trainen op gemakkelijkere voorbeelden" },
+          { en: "Loading data into memory", es: "Cargar datos en memoria", de: "Daten in Speicher laden", nl: "Data in geheugen laden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Learning rate warm-up gradually increases the learning rate from a small value to the target value over initial training iterations. This prevents instability caused by large gradients at the start when weights are randomly initialized, particularly important for large batch training and transformer models.",
+          es: "El calentamiento de tasa de aprendizaje aumenta gradualmente la tasa de aprendizaje de un valor pequeño al valor objetivo sobre iteraciones de entrenamiento iniciales. Esto previene inestabilidad causada por gradientes grandes al inicio cuando pesos están aleatoriamente inicializados, particularmente importante para entrenamiento de lotes grandes y modelos transformer.",
+          de: "Lernraten-Aufwärmung erhöht allmählich die Lernrate von einem kleinen Wert zum Zielwert über anfängliche Trainingsiterationen. Dies verhindert Instabilität verursacht durch große Gradienten am Anfang wenn Gewichte zufällig initialisiert sind, besonders wichtig für großes Batch-Training und Transformer-Modelle.",
+          nl: "Learning rate warm-up verhoogt geleidelijk de leersnelheid van een kleine waarde naar de doelwaarde over initiële trainingsiteraties. Dit voorkomt instabiliteit veroorzaakt door grote gradiënten aan het begin wanneer gewichten willekeurig geïnitialiseerd zijn, bijzonder belangrijk voor grote batch training en transformer modellen."
+        }
+      },
+      {
+        question: {
+          en: "What is model ensembling and how does it improve performance?",
+          es: "¿Qué es el ensamblaje de modelos y cómo mejora el rendimiento?",
+          de: "Was ist Modell-Ensembling und wie verbessert es die Leistung?",
+          nl: "Wat is model ensembling en hoe verbetert het de prestaties?"
+        },
+        options: [
+          { en: "Combining predictions from multiple models to reduce variance and improve accuracy", es: "Combinar predicciones de múltiples modelos para reducir varianza y mejorar precisión", de: "Vorhersagen von mehreren Modellen kombinieren um Varianz zu reduzieren und Genauigkeit zu verbessern", nl: "Voorspellingen van meerdere modellen combineren om variantie te verminderen en nauwkeurigheid te verbeteren" },
+          { en: "Training all models together simultaneously", es: "Entrenar todos modelos juntos simultáneamente", de: "Alle Modelle gleichzeitig zusammen trainieren", nl: "Alle modellen tegelijkertijd samen trainen" },
+          { en: "Building one very large model", es: "Construir un modelo muy grande", de: "Ein sehr großes Modell bauen", nl: "Eén zeer groot model bouwen" },
+          { en: "Averaging all training data", es: "Promediar todos datos entrenamiento", de: "Alle Trainingsdaten mitteln", nl: "Alle trainingsdata middelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Model ensembling combines predictions from multiple independent models through voting, averaging, or weighted combination. This leverages diversity - different models make different errors, so combining them reduces overall error and improves robustness, though at the cost of increased computational requirements.",
+          es: "El ensamblaje de modelos combina predicciones de múltiples modelos independientes mediante votación, promediación o combinación ponderada. Esto aprovecha diversidad - diferentes modelos cometen diferentes errores, así combinarlos reduce error general y mejora robustez, aunque a costo de mayores requisitos computacionales.",
+          de: "Modell-Ensembling kombiniert Vorhersagen von mehreren unabhängigen Modellen durch Abstimmung, Mittelung oder gewichtete Kombination. Dies nutzt Diversität - verschiedene Modelle machen verschiedene Fehler, also reduziert sie zu kombinieren Gesamtfehler und verbessert Robustheit, obwohl auf Kosten erhöhter Rechenanforderungen.",
+          nl: "Model ensembling combineert voorspellingen van meerdere onafhankelijke modellen door stemmen, middelen of gewogen combinatie. Dit maakt gebruik van diversiteit - verschillende modellen maken verschillende fouten, dus het combineren ervan vermindert totale fout en verbetert robuustheid, zij het ten koste van verhoogde computationele vereisten."
+        }
+      },
+      {
+        question: {
+          en: "What is the test set and why should it never be used during training?",
+          es: "¿Qué es el conjunto de prueba y por qué nunca debe usarse durante entrenamiento?",
+          de: "Was ist der Testsatz und warum sollte er niemals während des Trainings verwendet werden?",
+          nl: "Wat is de testset en waarom moet deze nooit tijdens training gebruikt worden?"
+        },
+        options: [
+          { en: "Final holdout data for unbiased performance evaluation; using it during training causes data leakage", es: "Datos finales retenidos para evaluación rendimiento imparcial; usarlos durante entrenamiento causa fuga datos", de: "Finale zurückgehaltene Daten für unvoreingenommene Leistungsbewertung; sie während Training zu verwenden verursacht Datenleck", nl: "Finale achtergehouden data voor onbevooroordeelde prestatie-evaluatie; deze tijdens training gebruiken veroorzaakt data lekkage" },
+          { en: "Backup data in case training data is lost", es: "Datos respaldo en caso datos entrenamiento se pierdan", de: "Backup-Daten falls Trainingsdaten verloren gehen", nl: "Back-updata voor het geval trainingsdata verloren gaat" },
+          { en: "Small subset for quick evaluation", es: "Pequeño subconjunto para evaluación rápida", de: "Kleine Teilmenge für schnelle Bewertung", nl: "Kleine subset voor snelle evaluatie" },
+          { en: "Data for testing code correctness", es: "Datos para probar corrección código", de: "Daten zum Testen von Code-Korrektheit", nl: "Data voor het testen van code correctheid" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The test set is a completely separate portion of data reserved exclusively for final model evaluation after all training and hyperparameter tuning is complete. Using it during training causes data leakage, giving an overoptimistic performance estimate and failing to reflect real-world generalization.",
+          es: "El conjunto de prueba es una porción de datos completamente separada reservada exclusivamente para evaluación final del modelo después que todo entrenamiento y ajuste de hiperparámetros está completo. Usarlo durante entrenamiento causa fuga de datos, dando estimación de rendimiento demasiado optimista y no refleja generalización del mundo real.",
+          de: "Der Testsatz ist ein vollständig separater Datenteil der ausschließlich für finale Modellbewertung nach Abschluss allen Trainings und Hyperparameter-Tunings reserviert ist. Ihn während Training zu verwenden verursacht Datenleck, gibt überoptimistische Leistungsschätzung und spiegelt reale Generalisierung nicht wider.",
+          nl: "De testset is een volledig gescheiden deel data gereserveerd uitsluitend voor finale modelevaluatie na voltooiing van alle training en hyperparameter tuning. Deze tijdens training gebruiken veroorzaakt data lekkage, geeft overoptimistische prestatieschatting en weerspiegelt niet echte generalisatie."
+        }
+      },
+      {
+        question: {
+          en: "What is data leakage in machine learning?",
+          es: "¿Qué es la fuga de datos en aprendizaje automático?",
+          de: "Was ist Datenleck im maschinellen Lernen?",
+          nl: "Wat is data lekkage in machine learning?"
+        },
+        options: [
+          { en: "When information from test/validation sets influences training, causing overestimated performance", es: "Cuando información de conjuntos prueba/validación influye entrenamiento, causando rendimiento sobreestimado", de: "Wenn Informationen aus Test/Validierungs-Sets Training beeinflussen, verursacht überschätzte Leistung", nl: "Wanneer informatie uit test/validatiesets training beïnvloedt, veroorzaakt overschatte prestaties" },
+          { en: "Loss of training data due to hardware failure", es: "Pérdida datos entrenamiento por falla hardware", de: "Verlust von Trainingsdaten durch Hardware-Ausfall", nl: "Verlies van trainingsdata door hardware falen" },
+          { en: "Unauthorized access to training datasets", es: "Acceso no autorizado a conjuntos datos entrenamiento", de: "Unbefugter Zugriff auf Trainingsdatensätze", nl: "Ongeautoriseerde toegang tot trainingsdatasets" },
+          { en: "Gradients becoming too small", es: "Gradientes volviéndose demasiado pequeños", de: "Gradienten werden zu klein", nl: "Gradiënten worden te klein" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Data leakage occurs when information that wouldn't be available at prediction time improperly influences model training or evaluation. Common sources include using test data during training, features that contain target information, or improper preprocessing. This leads to unrealistically high performance that doesn't generalize.",
+          es: "La fuga de datos ocurre cuando información que no estaría disponible en tiempo de predicción influye impropiamente entrenamiento o evaluación del modelo. Fuentes comunes incluyen usar datos de prueba durante entrenamiento, características que contienen información objetivo o preprocesamiento impropio. Esto lleva a rendimiento irrealmente alto que no generaliza.",
+          de: "Datenleck tritt auf wenn Informationen die zur Vorhersagezeit nicht verfügbar wären Modelltraining oder -bewertung unangemessen beeinflussen. Häufige Quellen umfassen Verwendung von Testdaten während Training, Merkmale die Zielinformationen enthalten oder unsachgemäße Vorverarbeitung. Dies führt zu unrealistisch hoher Leistung die nicht generalisiert.",
+          nl: "Data lekkage treedt op wanneer informatie die niet beschikbaar zou zijn op voorspellingstijd modeltraining of -evaluatie ongepast beïnvloedt. Veelvoorkomende bronnen zijn het gebruik van testdata tijdens training, kenmerken die doelinformatie bevatten of onjuiste voorverwerking. Dit leidt tot onrealistisch hoge prestaties die niet generaliseren."
+        }
+      },
+      {
+        question: {
+          en: "What is stratified sampling in train-test splits?",
+          es: "¿Qué es el muestreo estratificado en divisiones entrenamiento-prueba?",
+          de: "Was ist stratifizierte Stichprobenziehung bei Train-Test-Aufteilungen?",
+          nl: "Wat is gestratificeerde steekproeftrekking in train-test splitsingen?"
+        },
+        options: [
+          { en: "Ensuring class proportions are preserved in both training and test sets", es: "Asegurar que proporciones clase se preserven en conjuntos entrenamiento y prueba", de: "Sicherstellen dass Klassenproportionen in Trainings- und Testsets erhalten bleiben", nl: "Ervoor zorgen dat klasseverhoudingen behouden blijven in zowel trainings- als testsets" },
+          { en: "Sampling data from different geographic strata", es: "Muestrear datos de diferentes estratos geográficos", de: "Daten aus verschiedenen geografischen Schichten ziehen", nl: "Data bemonsteren uit verschillende geografische lagen" },
+          { en: "Splitting data into multiple horizontal layers", es: "Dividir datos en múltiples capas horizontales", de: "Daten in mehrere horizontale Schichten aufteilen", nl: "Data splitsen in meerdere horizontale lagen" },
+          { en: "Random sampling without replacement", es: "Muestreo aleatorio sin reemplazo", de: "Zufällige Stichprobenziehung ohne Ersatz", nl: "Willekeurige steekproeftrekking zonder vervanging" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Stratified sampling maintains the same class distribution in train and test sets as in the original dataset. This is crucial for imbalanced datasets to ensure representative evaluation and prevent bias, particularly important when some classes have very few examples.",
+          es: "El muestreo estratificado mantiene la misma distribución de clases en conjuntos de entrenamiento y prueba que en conjunto de datos original. Esto es crucial para conjuntos de datos desbalanceados para asegurar evaluación representativa y prevenir sesgo, particularmente importante cuando algunas clases tienen muy pocos ejemplos.",
+          de: "Stratifizierte Stichprobenziehung erhält dieselbe Klassenverteilung in Trainings- und Testsets wie im ursprünglichen Datensatz. Dies ist entscheidend für unausgeglichene Datensätze um repräsentative Bewertung sicherzustellen und Bias zu verhindern, besonders wichtig wenn einige Klassen sehr wenige Beispiele haben.",
+          nl: "Gestratificeerde steekproeftrekking handhaaft dezelfde klassenverdeling in trainings- en testsets als in de originele dataset. Dit is cruciaal voor ongebalanceerde datasets om representatieve evaluatie te waarborgen en bias te voorkomen, bijzonder belangrijk wanneer sommige klassen zeer weinig voorbeelden hebben."
+        }
+      },
+      {
+        question: {
+          en: "What is class imbalance and how does it affect training?",
+          es: "¿Qué es el desequilibrio de clases y cómo afecta el entrenamiento?",
+          de: "Was ist Klassenungleichgewicht und wie beeinflusst es das Training?",
+          nl: "Wat is klasse-onbalans en hoe beïnvloedt het training?"
+        },
+        options: [
+          { en: "When classes have vastly different sample counts, causing models to favor majority class", es: "Cuando clases tienen recuentos muestra vastamente diferentes, causando que modelos favorezcan clase mayoritaria", de: "Wenn Klassen stark unterschiedliche Probenzahlen haben, veranlasst Modelle Mehrheitsklasse zu bevorzugen", nl: "Wanneer klassen sterk verschillende steekproefaantallen hebben, waardoor modellen meerderheidsklasse bevoordelen" },
+          { en: "Unequal importance of different classes", es: "Importancia desigual de diferentes clases", de: "Ungleiche Wichtigkeit verschiedener Klassen", nl: "Ongelijke belangrijkheid van verschillende klassen" },
+          { en: "Classes having different feature distributions", es: "Clases teniendo diferentes distribuciones características", de: "Klassen mit unterschiedlichen Merkmalsverteilungen", nl: "Klassen met verschillende kenmerkverdelingen" },
+          { en: "Imbalanced computational load per class", es: "Carga computacional desbalanceada por clase", de: "Unausgewogene Rechenlast pro Klasse", nl: "Ongebalanceerde computationele belasting per klasse" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Class imbalance occurs when training data has significantly more examples of some classes than others. Models tend to bias toward majority classes since minimizing overall error favors predicting the common class. Solutions include resampling, class weighting, synthetic data generation (SMOTE), or using appropriate evaluation metrics.",
+          es: "El desequilibrio de clases ocurre cuando datos de entrenamiento tienen significativamente más ejemplos de algunas clases que otras. Los modelos tienden a sesgar hacia clases mayoritarias ya que minimizar error general favorece predecir la clase común. Soluciones incluyen remuestreo, ponderación de clases, generación de datos sintéticos (SMOTE) o usar métricas de evaluación apropiadas.",
+          de: "Klassenungleichgewicht tritt auf wenn Trainingsdaten signifikant mehr Beispiele einiger Klassen als andere haben. Modelle neigen dazu Mehrheitsklassen zu bevorzugen da Minimierung des Gesamtfehlers Vorhersage der häufigen Klasse begünstigt. Lösungen umfassen Resampling, Klassengewichtung, synthetische Datengenerierung (SMOTE) oder Verwendung geeigneter Bewertungsmetriken.",
+          nl: "Klasse-onbalans treedt op wanneer trainingsdata aanzienlijk meer voorbeelden van sommige klassen heeft dan andere. Modellen neigen te biassen naar meerderheidsklassen aangezien minimaliseren van totale fout voorspellen van de algemene klasse bevoordeelt. Oplossingen omvatten resampling, klasse weging, synthetische datageneratie (SMOTE) of gebruik van geschikte evaluatiemetrieken."
+        }
+      },
+      {
+        question: {
+          en: "What is the no free lunch theorem in machine learning?",
+          es: "¿Qué es el teorema de no hay almuerzo gratis en aprendizaje automático?",
+          de: "Was ist das No-Free-Lunch-Theorem im maschinellen Lernen?",
+          nl: "Wat is het no free lunch theorema in machine learning?"
+        },
+        options: [
+          { en: "No single algorithm performs best for all problems; model selection depends on specific task", es: "Ningún algoritmo único rinde mejor para todos problemas; selección modelo depende tarea específica", de: "Kein einzelner Algorithmus leistet am besten für alle Probleme; Modellauswahl hängt von spezifischer Aufgabe ab", nl: "Geen enkel algoritme presteert best voor alle problemen; modelselectie hangt af van specifieke taak" },
+          { en: "Machine learning always requires computational cost", es: "Aprendizaje automático siempre requiere costo computacional", de: "Maschinelles Lernen erfordert immer Rechenkosten", nl: "Machine learning vereist altijd computationele kosten" },
+          { en: "Free datasets are never as good as paid ones", es: "Conjuntos datos gratuitos nunca son tan buenos como pagados", de: "Kostenlose Datensätze sind nie so gut wie bezahlte", nl: "Gratis datasets zijn nooit zo goed als betaalde" },
+          { en: "Training requires significant resources", es: "Entrenamiento requiere recursos significativos", de: "Training erfordert bedeutende Ressourcen", nl: "Training vereist aanzienlijke bronnen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The no free lunch theorem states that averaged across all possible problems, no machine learning algorithm is universally superior to another. Every algorithm makes assumptions that work well for some problems but poorly for others. This emphasizes the importance of understanding your specific problem and selecting appropriate algorithms.",
+          es: "El teorema de no hay almuerzo gratis establece que promediado a través de todos problemas posibles, ningún algoritmo de aprendizaje automático es universalmente superior a otro. Cada algoritmo hace suposiciones que funcionan bien para algunos problemas pero mal para otros. Esto enfatiza la importancia de entender tu problema específico y seleccionar algoritmos apropiados.",
+          de: "Das No-Free-Lunch-Theorem besagt dass gemittelt über alle möglichen Probleme kein maschineller Lernalgorithmus universell einem anderen überlegen ist. Jeder Algorithmus macht Annahmen die für einige Probleme gut funktionieren aber schlecht für andere. Dies betont die Wichtigkeit Ihr spezifisches Problem zu verstehen und geeignete Algorithmen auszuwählen.",
+          nl: "Het no free lunch theorema stelt dat gemiddeld over alle mogelijke problemen geen machine learning algoritme universeel superieur is aan een ander. Elk algoritme maakt aannames die goed werken voor sommige problemen maar slecht voor andere. Dit benadrukt het belang van het begrijpen van uw specifieke probleem en het selecteren van geschikte algoritmes."
+        }
+      },
+      {
+        question: {
+          en: "What is domain adaptation in machine learning?",
+          es: "¿Qué es la adaptación de dominio en aprendizaje automático?",
+          de: "Was ist Domänenanpassung im maschinellen Lernen?",
+          nl: "Wat is domeinaanpassing in machine learning?"
+        },
+        options: [
+          { en: "Transferring model trained on source domain to perform well on different target domain", es: "Transferir modelo entrenado en dominio fuente para rendir bien en dominio objetivo diferente", de: "Modell das auf Quelldomäne trainiert wurde übertragen um auf verschiedener Zieldomäne gut zu funktionieren", nl: "Model getraind op brondomein overdragen om goed te presteren op verschillend doeldomein" },
+          { en: "Adapting network architecture to domain requirements", es: "Adaptar arquitectura red a requisitos dominio", de: "Netzwerkarchitektur an Domänenanforderungen anpassen", nl: "Netwerkarchitectuur aanpassen aan domeinvereisten" },
+          { en: "Training models for specific internet domains", es: "Entrenar modelos para dominios internet específicos", de: "Modelle für spezifische Internet-Domänen trainieren", nl: "Modellen trainen voor specifieke internet domeinen" },
+          { en: "Converting data between different domains", es: "Convertir datos entre diferentes dominios", de: "Daten zwischen verschiedenen Domänen konvertieren", nl: "Data converteren tussen verschillende domeinen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Domain adaptation addresses the challenge when training and deployment data come from different distributions (domains). For example, a model trained on product photos needs to work on user-uploaded images. Techniques include domain-adversarial training, fine-tuning, or learning domain-invariant features.",
+          es: "La adaptación de dominio aborda el desafío cuando datos de entrenamiento y despliegue vienen de diferentes distribuciones (dominios). Por ejemplo, un modelo entrenado en fotos de productos necesita funcionar en imágenes subidas por usuarios. Las técnicas incluyen entrenamiento adversario de dominio, ajuste fino o aprender características invariantes de dominio.",
+          de: "Domänenanpassung adressiert die Herausforderung wenn Trainings- und Deployment-Daten aus verschiedenen Verteilungen (Domänen) kommen. Zum Beispiel muss ein auf Produktfotos trainiertes Modell auf von Benutzern hochgeladenen Bildern funktionieren. Techniken umfassen domänen-adversariales Training, Feinabstimmung oder Lernen domänen-invarianter Merkmale.",
+          nl: "Domeinaanpassing pakt de uitdaging aan wanneer trainings- en deployment data uit verschillende verdelingen (domeinen) komen. Bijvoorbeeld, een model getraind op productfoto's moet werken op door gebruikers geüploade afbeeldingen. Technieken omvatten domein-adversariaal trainen, fine-tuning of leren van domein-invariante kenmerken."
+        }
+      },
+      {
+        question: {
+          en: "What is model calibration?",
+          es: "¿Qué es la calibración del modelo?",
+          de: "Was ist Modellkalibrierung?",
+          nl: "Wat is modelkalibratie?"
+        },
+        options: [
+          { en: "Adjusting model predictions to accurately reflect true probabilities and confidence levels", es: "Ajustar predicciones modelo para reflejar con precisión probabilidades verdaderas y niveles confianza", de: "Modellvorhersagen anpassen um wahre Wahrscheinlichkeiten und Konfidenzniveaus genau widerzuspiegeln", nl: "Modelvoorspellingen aanpassen om echte waarschijnlijkheden en betrouwbaarheidsniveaus nauwkeurig weer te geven" },
+          { en: "Calibrating hardware for optimal performance", es: "Calibrar hardware para rendimiento óptimo", de: "Hardware für optimale Leistung kalibrieren", nl: "Hardware kalibreren voor optimale prestaties" },
+          { en: "Setting model hyperparameters", es: "Establecer hiperparámetros modelo", de: "Modell-Hyperparameter einstellen", nl: "Model hyperparameters instellen" },
+          { en: "Normalizing input features", es: "Normalizar características entrada", de: "Eingabemerkmale normalisieren", nl: "Invoerkenmerken normaliseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Model calibration ensures predicted probabilities match empirical frequencies. A well-calibrated model that predicts 80% confidence should be correct 80% of the time. Neural networks often produce overconfident predictions, requiring calibration techniques like temperature scaling or Platt scaling for reliable uncertainty estimates.",
+          es: "La calibración del modelo asegura que probabilidades predichas coincidan con frecuencias empíricas. Un modelo bien calibrado que predice 80% de confianza debería ser correcto 80% del tiempo. Las redes neuronales a menudo producen predicciones sobre-confiadas, requiriendo técnicas de calibración como escalado de temperatura o escalado de Platt para estimaciones de incertidumbre confiables.",
+          de: "Modellkalibrierung stellt sicher dass vorhergesagte Wahrscheinlichkeiten empirischen Häufigkeiten entsprechen. Ein gut kalibriertes Modell das 80% Konfidenz vorhersagt sollte 80% der Zeit korrekt sein. Neuronale Netzwerke produzieren oft übervertraute Vorhersagen, erfordern Kalibrierungstechniken wie Temperatur-Skalierung oder Platt-Skalierung für zuverlässige Unsicherheitsschätzungen.",
+          nl: "Modelkalibratie zorgt ervoor dat voorspelde waarschijnlijkheden overeenkomen met empirische frequenties. Een goed gekalibreerd model dat 80% vertrouwen voorspelt zou 80% van de tijd correct moeten zijn. Neurale netwerken produceren vaak overmoedige voorspellingen, vereisen kalibratietechnieken zoals temperatuurschaling of Platt schaling voor betrouwbare onzekerheidsschattingen."
         }
       }
     ]

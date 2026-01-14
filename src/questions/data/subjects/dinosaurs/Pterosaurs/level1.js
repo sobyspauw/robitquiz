@@ -426,7 +426,427 @@
           es: "El período Jurásico fue la edad dorada de los pterosaurios, con la mayor diversidad de especies, tamaños y nichos ecológicos siendo ocupados por estos reptiles voladores.",
           de: "Die Jura-Zeit war das goldene Zeitalter der Pterosaurier, mit der größten Vielfalt an Arten, Größen und ökologischen Nischen, die von diesen fliegenden Reptilien besetzt wurden.",
           nl: "De Jura periode was de gouden eeuw van pterosauriërs, met de grootste diversiteit aan soorten, groottes en ecologische niches die door deze vliegende reptielen werden vervuld."
-        }
+        }    },
+    {
+      question: {
+        en: "Were pterosaurs dinosaurs?",
+        es: "Were pterosaurs dinosaurs?",
+        de: "Were pterosaurs dinosaurs?",
+        nl: "Were pterosaurs dinosaurs?"
+      },
+      options: [
+        { en: "No, they were flying reptiles", es: "No, they were flying reptiles", de: "No, they were flying reptiles", nl: "No, they were flying reptiles" },
+        { en: "Yes, flying dinosaurs", es: "Yes, flying dinosaurs", de: "Yes, flying dinosaurs", nl: "Yes, flying dinosaurs" },
+        { en: "Yes, ancient birds", es: "Yes, ancient birds", de: "Yes, ancient birds", nl: "Yes, ancient birds" },
+        { en: "No, they were birds", es: "No, they were birds", de: "No, they were birds", nl: "No, they were birds" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pterosaurs were flying reptiles closely related to but distinct from dinosaurs.",
+        es: "Pterosaurs were flying reptiles closely related to but distinct from dinosaurs.",
+        de: "Pterosaurs were flying reptiles closely related to but distinct from dinosaurs.",
+        nl: "Pterosaurs were flying reptiles closely related to but distinct from dinosaurs."
+      }
+    },
+    {
+      question: {
+        en: "What does pterosaur mean?",
+        es: "What does pterosaur mean?",
+        de: "What does pterosaur mean?",
+        nl: "What does pterosaur mean?"
+      },
+      options: [
+        { en: "Winged lizard", es: "Winged lizard", de: "Winged lizard", nl: "Winged lizard" },
+        { en: "Flying dinosaur", es: "Flying dinosaur", de: "Flying dinosaur", nl: "Flying dinosaur" },
+        { en: "Ancient bird", es: "Ancient bird", de: "Ancient bird", nl: "Ancient bird" },
+        { en: "Sky reptile", es: "Sky reptile", de: "Sky reptile", nl: "Sky reptile" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pterosaur comes from Greek meaning 'winged lizard' or 'winged reptile'.",
+        es: "Pterosaur comes from Greek meaning 'winged lizard' or 'winged reptile'.",
+        de: "Pterosaur comes from Greek meaning 'winged lizard' or 'winged reptile'.",
+        nl: "Pterosaur comes from Greek meaning 'winged lizard' or 'winged reptile'."
+      }
+    },
+    {
+      question: {
+        en: "How did pterosaurs fly?",
+        es: "How did pterosaurs fly?",
+        de: "How did pterosaurs fly?",
+        nl: "How did pterosaurs fly?"
+      },
+      options: [
+        { en: "Wing membrane stretched from elongated finger", es: "Wing membrane stretched from elongated finger", de: "Wing membrane stretched from elongated finger", nl: "Wing membrane stretched from elongated finger" },
+        { en: "Feathered wings like birds", es: "Feathered wings like birds", de: "Feathered wings like birds", nl: "Feathered wings like birds" },
+        { en: "Flapping arms", es: "Flapping arms", de: "Flapping arms", nl: "Flapping arms" },
+        { en: "Gliding only", es: "Gliding only", de: "Gliding only", nl: "Gliding only" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pterosaurs had wings formed by a membrane of skin stretched from a hugely elongated fourth finger to their body.",
+        es: "Pterosaurs had wings formed by a membrane of skin stretched from a hugely elongated fourth finger to their body.",
+        de: "Pterosaurs had wings formed by a membrane of skin stretched from a hugely elongated fourth finger to their body.",
+        nl: "Pterosaurs had wings formed by a membrane of skin stretched from a hugely elongated fourth finger to their body."
+      }
+    },
+    {
+      question: {
+        en: "What is the largest pterosaur?",
+        es: "What is the largest pterosaur?",
+        de: "What is the largest pterosaur?",
+        nl: "What is the largest pterosaur?"
+      },
+      options: [
+        { en: "Quetzalcoatlus", es: "Quetzalcoatlus", de: "Quetzalcoatlus", nl: "Quetzalcoatlus" },
+        { en: "Pteranodon", es: "Pteranodon", de: "Pteranodon", nl: "Pteranodon" },
+        { en: "Pterodactylus", es: "Pterodactylus", de: "Pterodactylus", nl: "Pterodactylus" },
+        { en: "Rhamphorhynchus", es: "Rhamphorhynchus", de: "Rhamphorhynchus", nl: "Rhamphorhynchus" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Quetzalcoatlus was the largest known pterosaur with a wingspan up to 33-36 feet.",
+        es: "Quetzalcoatlus was the largest known pterosaur with a wingspan up to 33-36 feet.",
+        de: "Quetzalcoatlus was the largest known pterosaur with a wingspan up to 33-36 feet.",
+        nl: "Quetzalcoatlus was the largest known pterosaur with a wingspan up to 33-36 feet."
+      }
+    },
+    {
+      question: {
+        en: "What is Pteranodon?",
+        es: "What is Pteranodon?",
+        de: "What is Pteranodon?",
+        nl: "What is Pteranodon?"
+      },
+      options: [
+        { en: "Large Cretaceous pterosaur with head crest", es: "Large Cretaceous pterosaur with head crest", de: "Large Cretaceous pterosaur with head crest", nl: "Large Cretaceous pterosaur with head crest" },
+        { en: "Small pterosaur", es: "Small pterosaur", de: "Small pterosaur", nl: "Small pterosaur" },
+        { en: "Early pterosaur", es: "Early pterosaur", de: "Early pterosaur", nl: "Early pterosaur" },
+        { en: "Feathered pterosaur", es: "Feathered pterosaur", de: "Feathered pterosaur", nl: "Feathered pterosaur" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pteranodon was a large Late Cretaceous pterosaur with a distinctive backward-pointing head crest.",
+        es: "Pteranodon was a large Late Cretaceous pterosaur with a distinctive backward-pointing head crest.",
+        de: "Pteranodon was a large Late Cretaceous pterosaur with a distinctive backward-pointing head crest.",
+        nl: "Pteranodon was a large Late Cretaceous pterosaur with a distinctive backward-pointing head crest."
+      }
+    },
+    {
+      question: {
+        en: "Did pterosaurs have feathers?",
+        es: "Did pterosaurs have feathers?",
+        de: "Did pterosaurs have feathers?",
+        nl: "Did pterosaurs have feathers?"
+      },
+      options: [
+        { en: "No, they had hair-like fibers called pycnofibers", es: "No, they had hair-like fibers called pycnofibers", de: "No, they had hair-like fibers called pycnofibers", nl: "No, they had hair-like fibers called pycnofibers" },
+        { en: "Yes, like birds", es: "Yes, like birds", de: "Yes, like birds", nl: "Yes, like birds" },
+        { en: "No covering at all", es: "No covering at all", de: "No covering at all", nl: "No covering at all" },
+        { en: "Scales only", es: "Scales only", de: "Scales only", nl: "Scales only" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pterosaurs had hair-like structures called pycnofibers covering their bodies, not true feathers.",
+        es: "Pterosaurs had hair-like structures called pycnofibers covering their bodies, not true feathers.",
+        de: "Pterosaurs had hair-like structures called pycnofibers covering their bodies, not true feathers.",
+        nl: "Pterosaurs had hair-like structures called pycnofibers covering their bodies, not true feathers."
+      }
+    },
+    {
+      question: {
+        en: "What did most pterosaurs eat?",
+        es: "What did most pterosaurs eat?",
+        de: "What did most pterosaurs eat?",
+        nl: "What did most pterosaurs eat?"
+      },
+      options: [
+        { en: "Fish", es: "Fish", de: "Fish", nl: "Fish" },
+        { en: "Plants", es: "Plants", de: "Plants", nl: "Plants" },
+        { en: "Large dinosaurs", es: "Large dinosaurs", de: "Large dinosaurs", nl: "Large dinosaurs" },
+        { en: "Insects only", es: "Insects only", de: "Insects only", nl: "Insects only" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Most pterosaurs were piscivores (fish-eaters), catching fish from oceans and lakes.",
+        es: "Most pterosaurs were piscivores (fish-eaters), catching fish from oceans and lakes.",
+        de: "Most pterosaurs were piscivores (fish-eaters), catching fish from oceans and lakes.",
+        nl: "Most pterosaurs were piscivores (fish-eaters), catching fish from oceans and lakes."
+      }
+    },
+    {
+      question: {
+        en: "What is Pterodactylus?",
+        es: "What is Pterodactylus?",
+        de: "What is Pterodactylus?",
+        nl: "What is Pterodactylus?"
+      },
+      options: [
+        { en: "Small Jurassic pterosaur", es: "Small Jurassic pterosaur", de: "Small Jurassic pterosaur", nl: "Small Jurassic pterosaur" },
+        { en: "Largest pterosaur", es: "Largest pterosaur", de: "Largest pterosaur", nl: "Largest pterosaur" },
+        { en: "Cretaceous pterosaur", es: "Cretaceous pterosaur", de: "Cretaceous pterosaur", nl: "Cretaceous pterosaur" },
+        { en: "Flying dinosaur", es: "Flying dinosaur", de: "Flying dinosaur", nl: "Flying dinosaur" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pterodactylus was a relatively small pterosaur from the Late Jurassic, with a wingspan around 3.5 feet.",
+        es: "Pterodactylus was a relatively small pterosaur from the Late Jurassic, with a wingspan around 3.5 feet.",
+        de: "Pterodactylus was a relatively small pterosaur from the Late Jurassic, with a wingspan around 3.5 feet.",
+        nl: "Pterodactylus was a relatively small pterosaur from the Late Jurassic, with a wingspan around 3.5 feet."
+      }
+    },
+    {
+      question: {
+        en: "When did pterosaurs first appear?",
+        es: "When did pterosaurs first appear?",
+        de: "When did pterosaurs first appear?",
+        nl: "When did pterosaurs first appear?"
+      },
+      options: [
+        { en: "Late Triassic Period", es: "Late Triassic Period", de: "Late Triassic Period", nl: "Late Triassic Period" },
+        { en: "Jurassic Period", es: "Jurassic Period", de: "Jurassic Period", nl: "Jurassic Period" },
+        { en: "Cretaceous Period", es: "Cretaceous Period", de: "Cretaceous Period", nl: "Cretaceous Period" },
+        { en: "Permian Period", es: "Permian Period", de: "Permian Period", nl: "Permian Period" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pterosaurs first appeared in the Late Triassic Period, about 228 million years ago.",
+        es: "Pterosaurs first appeared in the Late Triassic Period, about 228 million years ago.",
+        de: "Pterosaurs first appeared in the Late Triassic Period, about 228 million years ago.",
+        nl: "Pterosaurs first appeared in the Late Triassic Period, about 228 million years ago."
+      }
+    },
+    {
+      question: {
+        en: "How did pterosaurs walk on land?",
+        es: "How did pterosaurs walk on land?",
+        de: "How did pterosaurs walk on land?",
+        nl: "How did pterosaurs walk on land?"
+      },
+      options: [
+        { en: "Quadrupedally, using wings as front limbs", es: "Quadrupedally, using wings as front limbs", de: "Quadrupedally, using wings as front limbs", nl: "Quadrupedally, using wings as front limbs" },
+        { en: "Bipedally like birds", es: "Bipedally like birds", de: "Bipedally like birds", nl: "Bipedally like birds" },
+        { en: "They couldn't walk", es: "They couldn't walk", de: "They couldn't walk", nl: "They couldn't walk" },
+        { en: "Hopping only", es: "Hopping only", de: "Hopping only", nl: "Hopping only" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pterosaurs walked on all fours, using their folded wings as front limbs.",
+        es: "Pterosaurs walked on all fours, using their folded wings as front limbs.",
+        de: "Pterosaurs walked on all fours, using their folded wings as front limbs.",
+        nl: "Pterosaurs walked on all fours, using their folded wings as front limbs."
+      }
+    },
+    {
+      question: {
+        en: "What is the smallest pterosaur?",
+        es: "What is the smallest pterosaur?",
+        de: "What is the smallest pterosaur?",
+        nl: "What is the smallest pterosaur?"
+      },
+      options: [
+        { en: "Nemicolopterus or Anurognathus", es: "Nemicolopterus or Anurognathus", de: "Nemicolopterus or Anurognathus", nl: "Nemicolopterus or Anurognathus" },
+        { en: "Pteranodon", es: "Pteranodon", de: "Pteranodon", nl: "Pteranodon" },
+        { en: "Quetzalcoatlus", es: "Quetzalcoatlus", de: "Quetzalcoatlus", nl: "Quetzalcoatlus" },
+        { en: "Pterodactylus", es: "Pterodactylus", de: "Pterodactylus", nl: "Pterodactylus" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The smallest pterosaurs like Nemicolopterus had wingspans of only about 10 inches.",
+        es: "The smallest pterosaurs like Nemicolopterus had wingspans of only about 10 inches.",
+        de: "The smallest pterosaurs like Nemicolopterus had wingspans of only about 10 inches.",
+        nl: "The smallest pterosaurs like Nemicolopterus had wingspans of only about 10 inches."
+      }
+    },
+    {
+      question: {
+        en: "What is Rhamphorhynchus?",
+        es: "What is Rhamphorhynchus?",
+        de: "What is Rhamphorhynchus?",
+        nl: "What is Rhamphorhynchus?"
+      },
+      options: [
+        { en: "Long-tailed Jurassic pterosaur", es: "Long-tailed Jurassic pterosaur", de: "Long-tailed Jurassic pterosaur", nl: "Long-tailed Jurassic pterosaur" },
+        { en: "Short-tailed pterosaur", es: "Short-tailed pterosaur", de: "Short-tailed pterosaur", nl: "Short-tailed pterosaur" },
+        { en: "Cretaceous pterosaur", es: "Cretaceous pterosaur", de: "Cretaceous pterosaur", nl: "Cretaceous pterosaur" },
+        { en: "Largest pterosaur", es: "Largest pterosaur", de: "Largest pterosaur", nl: "Largest pterosaur" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Rhamphorhynchus was a long-tailed pterosaur from the Late Jurassic with a distinctive diamond-shaped tail vane.",
+        es: "Rhamphorhynchus was a long-tailed pterosaur from the Late Jurassic with a distinctive diamond-shaped tail vane.",
+        de: "Rhamphorhynchus was a long-tailed pterosaur from the Late Jurassic with a distinctive diamond-shaped tail vane.",
+        nl: "Rhamphorhynchus was a long-tailed pterosaur from the Late Jurassic with a distinctive diamond-shaped tail vane."
+      }
+    },
+    {
+      question: {
+        en: "How are pterosaurs classified?",
+        es: "How are pterosaurs classified?",
+        de: "How are pterosaurs classified?",
+        nl: "How are pterosaurs classified?"
+      },
+      options: [
+        { en: "Into long-tailed and short-tailed groups", es: "Into long-tailed and short-tailed groups", de: "Into long-tailed and short-tailed groups", nl: "Into long-tailed and short-tailed groups" },
+        { en: "By size only", es: "By size only", de: "By size only", nl: "By size only" },
+        { en: "By diet only", es: "By diet only", de: "By diet only", nl: "By diet only" },
+        { en: "By location only", es: "By location only", de: "By location only", nl: "By location only" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pterosaurs are broadly classified into long-tailed (rhamphorhynchoids) and short-tailed (pterodactyloids) groups.",
+        es: "Pterosaurs are broadly classified into long-tailed (rhamphorhynchoids) and short-tailed (pterodactyloids) groups.",
+        de: "Pterosaurs are broadly classified into long-tailed (rhamphorhynchoids) and short-tailed (pterodactyloids) groups.",
+        nl: "Pterosaurs are broadly classified into long-tailed (rhamphorhynchoids) and short-tailed (pterodactyloids) groups."
+      }
+    },
+    {
+      question: {
+        en: "What was the purpose of pterosaur crests?",
+        es: "What was the purpose of pterosaur crests?",
+        de: "What was the purpose of pterosaur crests?",
+        nl: "What was the purpose of pterosaur crests?"
+      },
+      options: [
+        { en: "Display, species recognition, or aerodynamics", es: "Display, species recognition, or aerodynamics", de: "Display, species recognition, or aerodynamics", nl: "Display, species recognition, or aerodynamics" },
+        { en: "Weapons", es: "Weapons", de: "Weapons", nl: "Weapons" },
+        { en: "Storing food", es: "Storing food", de: "Storing food", nl: "Storing food" },
+        { en: "Hearing", es: "Hearing", de: "Hearing", nl: "Hearing" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Crests likely served for visual display, species recognition, or possibly aerodynamic functions.",
+        es: "Crests likely served for visual display, species recognition, or possibly aerodynamic functions.",
+        de: "Crests likely served for visual display, species recognition, or possibly aerodynamic functions.",
+        nl: "Crests likely served for visual display, species recognition, or possibly aerodynamic functions."
+      }
+    },
+    {
+      question: {
+        en: "Did pterosaurs have good eyesight?",
+        es: "Did pterosaurs have good eyesight?",
+        de: "Did pterosaurs have good eyesight?",
+        nl: "Did pterosaurs have good eyesight?"
+      },
+      options: [
+        { en: "Yes, excellent vision", es: "Yes, excellent vision", de: "Yes, excellent vision", nl: "Yes, excellent vision" },
+        { en: "No, poor vision", es: "No, poor vision", de: "No, poor vision", nl: "No, poor vision" },
+        { en: "Blind", es: "Blind", de: "Blind", nl: "Blind" },
+        { en: "Average vision", es: "Average vision", de: "Average vision", nl: "Average vision" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pterosaurs had large eyes and excellent vision for spotting prey while flying.",
+        es: "Pterosaurs had large eyes and excellent vision for spotting prey while flying.",
+        de: "Pterosaurs had large eyes and excellent vision for spotting prey while flying.",
+        nl: "Pterosaurs had large eyes and excellent vision for spotting prey while flying."
+      }
+    },
+    {
+      question: {
+        en: "What is Dimorphodon?",
+        es: "What is Dimorphodon?",
+        de: "What is Dimorphodon?",
+        nl: "What is Dimorphodon?"
+      },
+      options: [
+        { en: "Early pterosaur with large head", es: "Early pterosaur with large head", de: "Early pterosaur with large head", nl: "Early pterosaur with large head" },
+        { en: "Late pterosaur", es: "Late pterosaur", de: "Late pterosaur", nl: "Late pterosaur" },
+        { en: "Tiny pterosaur", es: "Tiny pterosaur", de: "Tiny pterosaur", nl: "Tiny pterosaur" },
+        { en: "Largest pterosaur", es: "Largest pterosaur", de: "Largest pterosaur", nl: "Largest pterosaur" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Dimorphodon was an early pterosaur with a proportionally large, deep head.",
+        es: "Dimorphodon was an early pterosaur with a proportionally large, deep head.",
+        de: "Dimorphodon was an early pterosaur with a proportionally large, deep head.",
+        nl: "Dimorphodon was an early pterosaur with a proportionally large, deep head."
+      }
+    },
+    {
+      question: {
+        en: "When did pterosaurs go extinct?",
+        es: "When did pterosaurs go extinct?",
+        de: "When did pterosaurs go extinct?",
+        nl: "When did pterosaurs go extinct?"
+      },
+      options: [
+        { en: "End of Cretaceous, 66 million years ago", es: "End of Cretaceous, 66 million years ago", de: "End of Cretaceous, 66 million years ago", nl: "End of Cretaceous, 66 million years ago" },
+        { en: "End of Jurassic", es: "End of Jurassic", de: "End of Jurassic", nl: "End of Jurassic" },
+        { en: "End of Triassic", es: "End of Triassic", de: "End of Triassic", nl: "End of Triassic" },
+        { en: "Still alive today", es: "Still alive today", de: "Still alive today", nl: "Still alive today" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pterosaurs went extinct at the end of the Cretaceous Period, in the same event that killed the dinosaurs.",
+        es: "Pterosaurs went extinct at the end of the Cretaceous Period, in the same event that killed the dinosaurs.",
+        de: "Pterosaurs went extinct at the end of the Cretaceous Period, in the same event that killed the dinosaurs.",
+        nl: "Pterosaurs went extinct at the end of the Cretaceous Period, in the same event that killed the dinosaurs."
+      }
+    },
+    {
+      question: {
+        en: "What is unique about Quetzalcoatlus?",
+        es: "What is unique about Quetzalcoatlus?",
+        de: "What is unique about Quetzalcoatlus?",
+        nl: "What is unique about Quetzalcoatlus?"
+      },
+      options: [
+        { en: "Largest flying animal ever", es: "Largest flying animal ever", de: "Largest flying animal ever", nl: "Largest flying animal ever" },
+        { en: "Smallest pterosaur", es: "Smallest pterosaur", de: "Smallest pterosaur", nl: "Smallest pterosaur" },
+        { en: "Only fish-eater", es: "Only fish-eater", de: "Only fish-eater", nl: "Only fish-eater" },
+        { en: "Only insect-eater", es: "Only insect-eater", de: "Only insect-eater", nl: "Only insect-eater" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Quetzalcoatlus was the largest known flying animal of all time.",
+        es: "Quetzalcoatlus was the largest known flying animal of all time.",
+        de: "Quetzalcoatlus was the largest known flying animal of all time.",
+        nl: "Quetzalcoatlus was the largest known flying animal of all time."
+      }
+    },
+    {
+      question: {
+        en: "How did baby pterosaurs develop?",
+        es: "How did baby pterosaurs develop?",
+        de: "How did baby pterosaurs develop?",
+        nl: "How did baby pterosaurs develop?"
+      },
+      options: [
+        { en: "Could likely fly soon after hatching", es: "Could likely fly soon after hatching", de: "Could likely fly soon after hatching", nl: "Could likely fly soon after hatching" },
+        { en: "Flightless for years", es: "Flightless for years", de: "Flightless for years", nl: "Flightless for years" },
+        { en: "Never learned to fly", es: "Never learned to fly", de: "Never learned to fly", nl: "Never learned to fly" },
+        { en: "Stayed in nests", es: "Stayed in nests", de: "Stayed in nests", nl: "Stayed in nests" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Evidence suggests baby pterosaurs could fly shortly after hatching, though they grew for years.",
+        es: "Evidence suggests baby pterosaurs could fly shortly after hatching, though they grew for years.",
+        de: "Evidence suggests baby pterosaurs could fly shortly after hatching, though they grew for years.",
+        nl: "Evidence suggests baby pterosaurs could fly shortly after hatching, though they grew for years."
+      }
+    },
+    {
+      question: {
+        en: "What is a pterosaur wing made of?",
+        es: "What is a pterosaur wing made of?",
+        de: "What is a pterosaur wing made of?",
+        nl: "What is a pterosaur wing made of?"
+      },
+      options: [
+        { en: "Muscle, skin, and blood vessels", es: "Muscle, skin, and blood vessels", de: "Muscle, skin, and blood vessels", nl: "Muscle, skin, and blood vessels" },
+        { en: "Feathers", es: "Feathers", de: "Feathers", nl: "Feathers" },
+        { en: "Scales", es: "Scales", de: "Scales", nl: "Scales" },
+        { en: "Bone only", es: "Bone only", de: "Bone only", nl: "Bone only" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pterosaur wings were complex structures of muscle, skin, blood vessels, and fibers supported by an elongated finger.",
+        es: "Pterosaur wings were complex structures of muscle, skin, blood vessels, and fibers supported by an elongated finger.",
+        de: "Pterosaur wings were complex structures of muscle, skin, blood vessels, and fibers supported by an elongated finger.",
+        nl: "Pterosaur wings were complex structures of muscle, skin, blood vessels, and fibers supported by an elongated finger."
+      }
+
       }
     ]
   };

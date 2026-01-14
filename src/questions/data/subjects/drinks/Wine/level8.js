@@ -827,7 +827,427 @@
           es: "Château Mouton Rothschild es único como el único château promovido de Second Growth a First Growth en 1973, el único cambio a la Clasificación de 1855.",
           de: "Château Mouton Rothschild ist einzigartig als das einzige Château, das 1973 vom Deuxième zum Premier Cru aufgestiegen ist, die einzige Änderung der Klassifikation von 1855.",
           nl: "Château Mouton Rothschild is uniek als het enige château dat in 1973 werd gepromoveerd van Second Growth naar First Growth status, de enige wijziging aan de 1855 Classificatie."
-        }
+        }    },
+    {
+      question: {
+        en: "What is wine made from?",
+        es: "What is wine made from?",
+        de: "What is wine made from?",
+        nl: "What is wine made from?"
+      },
+      options: [
+        { en: "Fermented grapes", es: "Fermented grapes", de: "Fermented grapes", nl: "Fermented grapes" },
+        { en: "Fermented grain", es: "Fermented grain", de: "Fermented grain", nl: "Fermented grain" },
+        { en: "Distilled grapes", es: "Distilled grapes", de: "Distilled grapes", nl: "Distilled grapes" },
+        { en: "Grape juice with alcohol added", es: "Grape juice with alcohol added", de: "Grape juice with alcohol added", nl: "Grape juice with alcohol added" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Wine is made from fermented grape juice.",
+        es: "Wine is made from fermented grape juice.",
+        de: "Wine is made from fermented grape juice.",
+        nl: "Wine is made from fermented grape juice."
+      }
+    },
+    {
+      question: {
+        en: "What are the two main categories of wine?",
+        es: "What are the two main categories of wine?",
+        de: "What are the two main categories of wine?",
+        nl: "What are the two main categories of wine?"
+      },
+      options: [
+        { en: "Red and white", es: "Red and white", de: "Red and white", nl: "Red and white" },
+        { en: "Sweet and dry", es: "Sweet and dry", de: "Sweet and dry", nl: "Sweet and dry" },
+        { en: "Old and new", es: "Old and new", de: "Old and new", nl: "Old and new" },
+        { en: "French and Italian", es: "French and Italian", de: "French and Italian", nl: "French and Italian" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The two main categories are red wine and white wine, differentiated by grape type and production method.",
+        es: "The two main categories are red wine and white wine, differentiated by grape type and production method.",
+        de: "The two main categories are red wine and white wine, differentiated by grape type and production method.",
+        nl: "The two main categories are red wine and white wine, differentiated by grape type and production method."
+      }
+    },
+    {
+      question: {
+        en: "What is a sommelier?",
+        es: "What is a sommelier?",
+        de: "What is a sommelier?",
+        nl: "What is a sommelier?"
+      },
+      options: [
+        { en: "Wine expert and steward", es: "Wine expert and steward", de: "Wine expert and steward", nl: "Wine expert and steward" },
+        { en: "Winemaker", es: "Winemaker", de: "Winemaker", nl: "Winemaker" },
+        { en: "Grape grower", es: "Grape grower", de: "Grape grower", nl: "Grape grower" },
+        { en: "Wine seller", es: "Wine seller", de: "Wine seller", nl: "Wine seller" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A sommelier is a trained wine professional specializing in wine service and pairing.",
+        es: "A sommelier is a trained wine professional specializing in wine service and pairing.",
+        de: "A sommelier is a trained wine professional specializing in wine service and pairing.",
+        nl: "A sommelier is a trained wine professional specializing in wine service and pairing."
+      }
+    },
+    {
+      question: {
+        en: "What does 'dry' wine mean?",
+        es: "What does 'dry' wine mean?",
+        de: "What does 'dry' wine mean?",
+        nl: "What does 'dry' wine mean?"
+      },
+      options: [
+        { en: "Low residual sugar", es: "Low residual sugar", de: "Low residual sugar", nl: "Low residual sugar" },
+        { en: "Low alcohol", es: "Low alcohol", de: "Low alcohol", nl: "Low alcohol" },
+        { en: "Aged wine", es: "Aged wine", de: "Aged wine", nl: "Aged wine" },
+        { en: "Red wine", es: "Red wine", de: "Red wine", nl: "Red wine" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Dry wine has low residual sugar content, opposite of sweet wine.",
+        es: "Dry wine has low residual sugar content, opposite of sweet wine.",
+        de: "Dry wine has low residual sugar content, opposite of sweet wine.",
+        nl: "Dry wine has low residual sugar content, opposite of sweet wine."
+      }
+    },
+    {
+      question: {
+        en: "What is Champagne?",
+        es: "What is Champagne?",
+        de: "What is Champagne?",
+        nl: "What is Champagne?"
+      },
+      options: [
+        { en: "Sparkling wine from Champagne, France", es: "Sparkling wine from Champagne, France", de: "Sparkling wine from Champagne, France", nl: "Sparkling wine from Champagne, France" },
+        { en: "Any sparkling wine", es: "Any sparkling wine", de: "Any sparkling wine", nl: "Any sparkling wine" },
+        { en: "Sweet white wine", es: "Sweet white wine", de: "Sweet white wine", nl: "Sweet white wine" },
+        { en: "Fortified wine", es: "Fortified wine", de: "Fortified wine", nl: "Fortified wine" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "True Champagne must be produced in the Champagne region of France using specific methods.",
+        es: "True Champagne must be produced in the Champagne region of France using specific methods.",
+        de: "True Champagne must be produced in the Champagne region of France using specific methods.",
+        nl: "True Champagne must be produced in the Champagne region of France using specific methods."
+      }
+    },
+    {
+      question: {
+        en: "What does 'tannin' in wine mean?",
+        es: "What does 'tannin' in wine mean?",
+        de: "What does 'tannin' in wine mean?",
+        nl: "What does 'tannin' in wine mean?"
+      },
+      options: [
+        { en: "Compound from grape skins causing dryness", es: "Compound from grape skins causing dryness", de: "Compound from grape skins causing dryness", nl: "Compound from grape skins causing dryness" },
+        { en: "Sweetness level", es: "Sweetness level", de: "Sweetness level", nl: "Sweetness level" },
+        { en: "Alcohol content", es: "Alcohol content", de: "Alcohol content", nl: "Alcohol content" },
+        { en: "Aging time", es: "Aging time", de: "Aging time", nl: "Aging time" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Tannins are compounds from grape skins and seeds that create a dry, puckering sensation.",
+        es: "Tannins are compounds from grape skins and seeds that create a dry, puckering sensation.",
+        de: "Tannins are compounds from grape skins and seeds that create a dry, puckering sensation.",
+        nl: "Tannins are compounds from grape skins and seeds that create a dry, puckering sensation."
+      }
+    },
+    {
+      question: {
+        en: "What is rosé wine?",
+        es: "What is rosé wine?",
+        de: "What is rosé wine?",
+        nl: "What is rosé wine?"
+      },
+      options: [
+        { en: "Pink wine with limited skin contact", es: "Pink wine with limited skin contact", de: "Pink wine with limited skin contact", nl: "Pink wine with limited skin contact" },
+        { en: "Blend of red and white wine", es: "Blend of red and white wine", de: "Blend of red and white wine", nl: "Blend of red and white wine" },
+        { en: "Sweet red wine", es: "Sweet red wine", de: "Sweet red wine", nl: "Sweet red wine" },
+        { en: "Fortified wine", es: "Fortified wine", de: "Fortified wine", nl: "Fortified wine" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Rosé gets its pink color from limited contact with red grape skins during fermentation.",
+        es: "Rosé gets its pink color from limited contact with red grape skins during fermentation.",
+        de: "Rosé gets its pink color from limited contact with red grape skins during fermentation.",
+        nl: "Rosé gets its pink color from limited contact with red grape skins during fermentation."
+      }
+    },
+    {
+      question: {
+        en: "What is the ideal temperature for storing wine?",
+        es: "What is the ideal temperature for storing wine?",
+        de: "What is the ideal temperature for storing wine?",
+        nl: "What is the ideal temperature for storing wine?"
+      },
+      options: [
+        { en: "55°F (13°C)", es: "55°F (13°C)", de: "55°F (13°C)", nl: "55°F (13°C)" },
+        { en: "Room temperature (70°F)", es: "Room temperature (70°F)", de: "Room temperature (70°F)", nl: "Room temperature (70°F)" },
+        { en: "Refrigerator temperature (40°F)", es: "Refrigerator temperature (40°F)", de: "Refrigerator temperature (40°F)", nl: "Refrigerator temperature (40°F)" },
+        { en: "Freezing temperature", es: "Freezing temperature", de: "Freezing temperature", nl: "Freezing temperature" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Wine should ideally be stored at a consistent 55°F (13°C).",
+        es: "Wine should ideally be stored at a consistent 55°F (13°C).",
+        de: "Wine should ideally be stored at a consistent 55°F (13°C).",
+        nl: "Wine should ideally be stored at a consistent 55°F (13°C)."
+      }
+    },
+    {
+      question: {
+        en: "What is a vintage wine?",
+        es: "What is a vintage wine?",
+        de: "What is a vintage wine?",
+        nl: "What is a vintage wine?"
+      },
+      options: [
+        { en: "Wine from grapes of a single year", es: "Wine from grapes of a single year", de: "Wine from grapes of a single year", nl: "Wine from grapes of a single year" },
+        { en: "Old wine", es: "Old wine", de: "Old wine", nl: "Old wine" },
+        { en: "Expensive wine", es: "Expensive wine", de: "Expensive wine", nl: "Expensive wine" },
+        { en: "First wine produced", es: "First wine produced", de: "First wine produced", nl: "First wine produced" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Vintage wine is made from grapes harvested in a specific year, which appears on the label.",
+        es: "Vintage wine is made from grapes harvested in a specific year, which appears on the label.",
+        de: "Vintage wine is made from grapes harvested in a specific year, which appears on the label.",
+        nl: "Vintage wine is made from grapes harvested in a specific year, which appears on the label."
+      }
+    },
+    {
+      question: {
+        en: "What is fortified wine?",
+        es: "What is fortified wine?",
+        de: "What is fortified wine?",
+        nl: "What is fortified wine?"
+      },
+      options: [
+        { en: "Wine with added spirits", es: "Wine with added spirits", de: "Wine with added spirits", nl: "Wine with added spirits" },
+        { en: "Extra-strong wine", es: "Extra-strong wine", de: "Extra-strong wine", nl: "Extra-strong wine" },
+        { en: "Double-fermented wine", es: "Double-fermented wine", de: "Double-fermented wine", nl: "Double-fermented wine" },
+        { en: "Aged wine", es: "Aged wine", de: "Aged wine", nl: "Aged wine" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Fortified wine has distilled spirits (usually brandy) added, increasing alcohol content.",
+        es: "Fortified wine has distilled spirits (usually brandy) added, increasing alcohol content.",
+        de: "Fortified wine has distilled spirits (usually brandy) added, increasing alcohol content.",
+        nl: "Fortified wine has distilled spirits (usually brandy) added, increasing alcohol content."
+      }
+    },
+    {
+      question: {
+        en: "What is Cabernet Sauvignon?",
+        es: "What is Cabernet Sauvignon?",
+        de: "What is Cabernet Sauvignon?",
+        nl: "What is Cabernet Sauvignon?"
+      },
+      options: [
+        { en: "Red wine grape variety", es: "Red wine grape variety", de: "Red wine grape variety", nl: "Red wine grape variety" },
+        { en: "White wine grape", es: "White wine grape", de: "White wine grape", nl: "White wine grape" },
+        { en: "Wine region", es: "Wine region", de: "Wine region", nl: "Wine region" },
+        { en: "Winemaking technique", es: "Winemaking technique", de: "Winemaking technique", nl: "Winemaking technique" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Cabernet Sauvignon is one of the world's most popular red wine grape varieties.",
+        es: "Cabernet Sauvignon is one of the world's most popular red wine grape varieties.",
+        de: "Cabernet Sauvignon is one of the world's most popular red wine grape varieties.",
+        nl: "Cabernet Sauvignon is one of the world's most popular red wine grape varieties."
+      }
+    },
+    {
+      question: {
+        en: "What is Chardonnay?",
+        es: "What is Chardonnay?",
+        de: "What is Chardonnay?",
+        nl: "What is Chardonnay?"
+      },
+      options: [
+        { en: "White wine grape variety", es: "White wine grape variety", de: "White wine grape variety", nl: "White wine grape variety" },
+        { en: "Red wine grape", es: "Red wine grape", de: "Red wine grape", nl: "Red wine grape" },
+        { en: "Sparkling wine", es: "Sparkling wine", de: "Sparkling wine", nl: "Sparkling wine" },
+        { en: "Wine region", es: "Wine region", de: "Wine region", nl: "Wine region" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Chardonnay is a green-skinned grape variety used to produce white wine.",
+        es: "Chardonnay is a green-skinned grape variety used to produce white wine.",
+        de: "Chardonnay is a green-skinned grape variety used to produce white wine.",
+        nl: "Chardonnay is a green-skinned grape variety used to produce white wine."
+      }
+    },
+    {
+      question: {
+        en: "What does 'bouquet' mean in wine?",
+        es: "What does 'bouquet' mean in wine?",
+        de: "What does 'bouquet' mean in wine?",
+        nl: "What does 'bouquet' mean in wine?"
+      },
+      options: [
+        { en: "Complex aromas from aging", es: "Complex aromas from aging", de: "Complex aromas from aging", nl: "Complex aromas from aging" },
+        { en: "Flower garnish", es: "Flower garnish", de: "Flower garnish", nl: "Flower garnish" },
+        { en: "Wine presentation", es: "Wine presentation", de: "Wine presentation", nl: "Wine presentation" },
+        { en: "Initial taste", es: "Initial taste", de: "Initial taste", nl: "Initial taste" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Bouquet refers to the complex aromas that develop in wine as it ages.",
+        es: "Bouquet refers to the complex aromas that develop in wine as it ages.",
+        de: "Bouquet refers to the complex aromas that develop in wine as it ages.",
+        nl: "Bouquet refers to the complex aromas that develop in wine as it ages."
+      }
+    },
+    {
+      question: {
+        en: "What is Pinot Noir?",
+        es: "What is Pinot Noir?",
+        de: "What is Pinot Noir?",
+        nl: "What is Pinot Noir?"
+      },
+      options: [
+        { en: "Red wine grape variety", es: "Red wine grape variety", de: "Red wine grape variety", nl: "Red wine grape variety" },
+        { en: "White wine grape", es: "White wine grape", de: "White wine grape", nl: "White wine grape" },
+        { en: "Rosé wine", es: "Rosé wine", de: "Rosé wine", nl: "Rosé wine" },
+        { en: "Sparkling wine only", es: "Sparkling wine only", de: "Sparkling wine only", nl: "Sparkling wine only" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pinot Noir is a red wine grape variety known for its delicate flavor.",
+        es: "Pinot Noir is a red wine grape variety known for its delicate flavor.",
+        de: "Pinot Noir is a red wine grape variety known for its delicate flavor.",
+        nl: "Pinot Noir is a red wine grape variety known for its delicate flavor."
+      }
+    },
+    {
+      question: {
+        en: "What is decanting?",
+        es: "What is decanting?",
+        de: "What is decanting?",
+        nl: "What is decanting?"
+      },
+      options: [
+        { en: "Pouring wine to aerate or separate sediment", es: "Pouring wine to aerate or separate sediment", de: "Pouring wine to aerate or separate sediment", nl: "Pouring wine to aerate or separate sediment" },
+        { en: "Opening the bottle", es: "Opening the bottle", de: "Opening the bottle", nl: "Opening the bottle" },
+        { en: "Aging wine", es: "Aging wine", de: "Aging wine", nl: "Aging wine" },
+        { en: "Chilling wine", es: "Chilling wine", de: "Chilling wine", nl: "Chilling wine" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Decanting involves pouring wine into another container to aerate it or separate sediment.",
+        es: "Decanting involves pouring wine into another container to aerate it or separate sediment.",
+        de: "Decanting involves pouring wine into another container to aerate it or separate sediment.",
+        nl: "Decanting involves pouring wine into another container to aerate it or separate sediment."
+      }
+    },
+    {
+      question: {
+        en: "What is Port wine?",
+        es: "What is Port wine?",
+        de: "What is Port wine?",
+        nl: "What is Port wine?"
+      },
+      options: [
+        { en: "Fortified wine from Portugal", es: "Fortified wine from Portugal", de: "Fortified wine from Portugal", nl: "Fortified wine from Portugal" },
+        { en: "French red wine", es: "French red wine", de: "French red wine", nl: "French red wine" },
+        { en: "Sparkling wine", es: "Sparkling wine", de: "Sparkling wine", nl: "Sparkling wine" },
+        { en: "Light white wine", es: "Light white wine", de: "Light white wine", nl: "Light white wine" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Port is a fortified wine from the Douro Valley in Portugal.",
+        es: "Port is a fortified wine from the Douro Valley in Portugal.",
+        de: "Port is a fortified wine from the Douro Valley in Portugal.",
+        nl: "Port is a fortified wine from the Douro Valley in Portugal."
+      }
+    },
+    {
+      question: {
+        en: "What is an appellation?",
+        es: "What is an appellation?",
+        de: "What is an appellation?",
+        nl: "What is an appellation?"
+      },
+      options: [
+        { en: "Designated wine-growing region", es: "Designated wine-growing region", de: "Designated wine-growing region", nl: "Designated wine-growing region" },
+        { en: "Wine aging process", es: "Wine aging process", de: "Wine aging process", nl: "Wine aging process" },
+        { en: "Type of grape", es: "Type of grape", de: "Type of grape", nl: "Type of grape" },
+        { en: "Wine bottle size", es: "Wine bottle size", de: "Wine bottle size", nl: "Wine bottle size" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "An appellation is an officially defined wine-producing region with specific regulations.",
+        es: "An appellation is an officially defined wine-producing region with specific regulations.",
+        de: "An appellation is an officially defined wine-producing region with specific regulations.",
+        nl: "An appellation is an officially defined wine-producing region with specific regulations."
+      }
+    },
+    {
+      question: {
+        en: "What is the cork in wine bottles made from?",
+        es: "What is the cork in wine bottles made from?",
+        de: "What is the cork in wine bottles made from?",
+        nl: "What is the cork in wine bottles made from?"
+      },
+      options: [
+        { en: "Bark of cork oak tree", es: "Bark of cork oak tree", de: "Bark of cork oak tree", nl: "Bark of cork oak tree" },
+        { en: "Plastic", es: "Plastic", de: "Plastic", nl: "Plastic" },
+        { en: "Rubber", es: "Rubber", de: "Rubber", nl: "Rubber" },
+        { en: "Compressed grapes", es: "Compressed grapes", de: "Compressed grapes", nl: "Compressed grapes" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Traditional wine corks are made from the bark of the cork oak tree.",
+        es: "Traditional wine corks are made from the bark of the cork oak tree.",
+        de: "Traditional wine corks are made from the bark of the cork oak tree.",
+        nl: "Traditional wine corks are made from the bark of the cork oak tree."
+      }
+    },
+    {
+      question: {
+        en: "What is Merlot?",
+        es: "What is Merlot?",
+        de: "What is Merlot?",
+        nl: "What is Merlot?"
+      },
+      options: [
+        { en: "Red wine grape variety", es: "Red wine grape variety", de: "Red wine grape variety", nl: "Red wine grape variety" },
+        { en: "White wine grape", es: "White wine grape", de: "White wine grape", nl: "White wine grape" },
+        { en: "Wine region", es: "Wine region", de: "Wine region", nl: "Wine region" },
+        { en: "Serving temperature", es: "Serving temperature", de: "Serving temperature", nl: "Serving temperature" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Merlot is a popular red wine grape variety known for its soft, fruity character.",
+        es: "Merlot is a popular red wine grape variety known for its soft, fruity character.",
+        de: "Merlot is a popular red wine grape variety known for its soft, fruity character.",
+        nl: "Merlot is a popular red wine grape variety known for its soft, fruity character."
+      }
+    },
+    {
+      question: {
+        en: "What does 'body' mean in wine terminology?",
+        es: "What does 'body' mean in wine terminology?",
+        de: "What does 'body' mean in wine terminology?",
+        nl: "What does 'body' mean in wine terminology?"
+      },
+      options: [
+        { en: "Weight and fullness in the mouth", es: "Weight and fullness in the mouth", de: "Weight and fullness in the mouth", nl: "Weight and fullness in the mouth" },
+        { en: "Alcohol content", es: "Alcohol content", de: "Alcohol content", nl: "Alcohol content" },
+        { en: "Color intensity", es: "Color intensity", de: "Color intensity", nl: "Color intensity" },
+        { en: "Bottle size", es: "Bottle size", de: "Bottle size", nl: "Bottle size" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Body refers to how heavy or light a wine feels in the mouth, from light-bodied to full-bodied.",
+        es: "Body refers to how heavy or light a wine feels in the mouth, from light-bodied to full-bodied.",
+        de: "Body refers to how heavy or light a wine feels in the mouth, from light-bodied to full-bodied.",
+        nl: "Body refers to how heavy or light a wine feels in the mouth, from light-bodied to full-bodied."
+      }
+
       }
     ]
   };

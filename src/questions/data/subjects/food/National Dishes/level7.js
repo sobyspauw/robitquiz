@@ -10,27 +10,6 @@
     questions: [
       {
         question: {
-          en: "Which country is famous for the dish 'Sushi'?",
-          es: "¿Qué país es famoso por el plato 'Sushi'?",
-          de: "Welches Land ist berühmt für das Gericht 'Sushi'?",
-          nl: "Welk land is beroemd om het gerecht 'Sushi'?"
-        },
-        options: [
-          { en: "Japan", es: "Japón", de: "Japan", nl: "Japan" },
-          { en: "China", es: "China", de: "China", nl: "China" },
-          { en: "Korea", es: "Corea", de: "Korea", nl: "Korea" },
-          { en: "Thailand", es: "Tailandia", de: "Thailand", nl: "Thailand" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Sushi is a traditional Japanese dish consisting of vinegared rice topped with various ingredients like fish, vegetables, or egg.",
-          es: "El sushi es un plato tradicional japonés que consiste en arroz avinagrado cubierto con varios ingredientes como pescado, verduras o huevo.",
-          de: "Sushi ist ein traditionelles japanisches Gericht aus essiggewürztem Reis mit verschiedenen Zutaten wie Fisch, Gemüse oder Ei.",
-          nl: "Sushi is een traditioneel Japans gerecht bestaande uit azijnrijst belegd met verschillende ingrediënten zoals vis, groenten of ei."
-        }
-      },
-      {
-        question: {
           en: "What is the main ingredient in Italian 'Risotto'?",
           es: "¿Cuál es el ingrediente principal del 'Risotto' italiano?",
           de: "Was ist die Hauptzutat im italienischen 'Risotto'?",
@@ -409,23 +388,464 @@
       },
       {
         question: {
-          en: "Which country is famous for the dish 'Sushi'?",
-          es: "¿Qué país es famoso por el plato 'Sushi'?",
-          de: "Welches Land ist berühmt für das Gericht 'Sushi'?",
-          nl: "Welk land is beroemd om het gerecht 'Sushi'?"
+          en: "What is the critical Spanish 'Paella Valenciana' rice cooking technique?",
+          es: "¿Cuál es la técnica crítica de cocción del arroz en 'Paella Valenciana' española?",
+          de: "Was ist die kritische spanische 'Paella Valenciana' Reiskoch-Technik?",
+          nl: "Wat is de kritieke Spaanse 'Paella Valenciana' rijst kooktechniek?"
         },
         options: [
-          { en: "Japan", es: "Japón", de: "Japan", nl: "Japan" },
-          { en: "China", es: "China", de: "China", nl: "China" },
-          { en: "Korea", es: "Corea", de: "Korea", nl: "Korea" },
-          { en: "Thailand", es: "Tailandia", de: "Thailand", nl: "Thailand" }
+          { en: "Bomba rice, never stirred after adding, cooked in wide shallow pan, socarrat (crispy bottom) prized", es: "Arroz bomba, nunca revuelto después de añadir, cocido en sartén ancha poco profunda, socarrat (fondo crujiente) apreciado", de: "Bomba-Reis, nach Zugabe nie gerührt, in breiter flacher Pfanne gekocht, Socarrat (knusprige Unterseite) geschätzt", nl: "Bomba rijst, nooit geroerd na toevoegen, gekookt in brede ondiepe pan, socarrat (knapperige bodem) gewaardeerd" },
+          { en: "Long grain rice, stirred constantly", es: "Arroz de grano largo, revuelto constantemente", de: "Langkornreis, ständig gerührt", nl: "Lange korrel rijst, constant geroerd" },
+          { en: "Sticky rice, deep pot", es: "Arroz pegajoso, olla profunda", de: "Klebreis, tiefer Topf", nl: "Kleverige rijst, diepe pot" },
+          { en: "Pre-cooked rice, mixed in", es: "Arroz precocido, mezclado", de: "Vorgekochter Reis, eingemischt", nl: "Voorgekookte rijst, gemengd" }
         ],
         correct: 0,
         explanation: {
-          en: "Sushi is a traditional Japanese dish consisting of vinegared rice topped with various ingredients like fish, vegetables, or egg.",
-          es: "El sushi es un plato tradicional japonés que consiste en arroz avinagrado cubierto con varios ingredientes como pescado, verduras o huevo.",
-          de: "Sushi ist ein traditionelles japanisches Gericht aus essiggewürztem Reis mit verschiedenen Zutaten wie Fisch, Gemüse oder Ei.",
-          nl: "Sushi is een traditioneel Japans gerecht bestaande uit azijnrijst belegd met verschillende ingrediënten zoals vis, groenten of ei."
+          en: "Authentic Valencian paella uses bomba rice (absorbs 3x liquid without breaking). Rice spread evenly in wide shallow paellera, never stirred after adding - allows formation of socarrat (caramelized crust on bottom, most prized part). Traditionally cooked outdoors over orange/pine wood. Rabbit, chicken, green flat beans (ferraura), white butter beans (garrofó), tomato, saffron, rosemary. Water ratio critical. Communal dish eaten from pan with wooden spoons.",
+          es: "Paella valenciana auténtica usa arroz bomba (absorbe 3x líquido sin romperse). Arroz extendido uniformemente en paellera ancha poco profunda, nunca revuelto después de añadir - permite formación de socarrat (costra caramelizada en fondo, parte más apreciada). Tradicionalmente cocido al aire libre sobre leña de naranja/pino. Conejo, pollo, judías verdes planas (ferraura), alubias blancas (garrofó), tomate, azafrán, romero. Proporción de agua crítica. Plato comunal comido de sartén con cucharas de madera.",
+          de: "Authentische valencianische Paella verwendet Bomba-Reis (absorbiert 3x Flüssigkeit ohne zu brechen). Reis gleichmäßig in breiter flacher Paellera verteilt, nach Zugabe nie gerührt - ermöglicht Bildung von Socarrat (karamellisierte Kruste unten, geschätztester Teil). Traditionell im Freien über Orangen-/Kiefernholz gekocht. Kaninchen, Huhn, grüne flache Bohnen (Ferraura), weiße Butterbohnen (Garrofó), Tomate, Safran, Rosmarin. Wasserverhältnis kritisch. Gemeinschaftsgericht aus Pfanne mit Holzlöffeln gegessen.",
+          nl: "Authentieke Valenciaanse paella gebruikt bomba rijst (absorbeert 3x vloeistof zonder breken). Rijst gelijkmatig verspreid in brede ondiepe paellera, nooit geroerd na toevoegen - staat vorming van socarrat toe (gekarameliseerde korst op bodem, meest gewaardeerde deel). Traditioneel buiten gekookt boven sinaasappel/dennenhout. Konijn, kip, groene platte bonen (ferraura), witte boterbonen (garrofó), tomaat, saffraan, rozemarijn. Water verhouding kritiek. Gemeenschappelijk gerecht gegeten uit pan met houten lepels."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes authentic Moroccan 'Tagine' vessel cooking?",
+          es: "¿Qué distingue la cocción auténtica de 'Tagine' marroquí con vasija?",
+          de: "Was unterscheidet authentisches marokkanisches 'Tagine'-Gefäß-Kochen?",
+          nl: "Wat onderscheidt authentiek Marokkaans 'Tagine' vat koken?"
+        },
+        options: [
+          { en: "Conical earthenware lid traps steam, condenses on cool surface, drips back creating self-basting system with minimal liquid", es: "Tapa de barro cónica atrapa vapor, condensa en superficie fría, gotea creando sistema de auto-rociado con líquido mínimo", de: "Konischer Tondeckel fängt Dampf, kondensiert an kühler Oberfläche, tropft zurück und erzeugt Selbstbeträufelungssystem mit minimaler Flüssigkeit", nl: "Conisch aardewerk deksel vangt stoom, condenseert op koel oppervlak, druppelt terug creërend zelf-bedruppel systeem met minimale vloeistof" },
+          { en: "Pressure cooker, quick cooking", es: "Olla a presión, cocción rápida", de: "Schnellkochtopf, schnelles Kochen", nl: "Snelkookpan, snel koken" },
+          { en: "Open pot, high heat", es: "Olla abierta, fuego alto", de: "Offener Topf, hohe Hitze", nl: "Open pot, hoog vuur" },
+          { en: "Metal wok, stir-frying", es: "Wok de metal, salteado", de: "Metall-Wok, Pfannenrühren", nl: "Metalen wok, roerbakken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tagine vessel's cone shape creates natural steam circulation: moisture evaporates, condenses on sloped lid, returns to food - self-basting requiring minimal liquid. Clay/ceramic retains heat evenly. Slow-cooked over charcoal hours. Ingredients layered: meat bottom, vegetables arranged, spices (ras el hanout, saffron, cumin), preserved lemons, olives. Sweet-savory combinations (lamb-prunes, chicken-apricots). Vessel seasoned before use. Creates tender, concentrated flavors impossible in regular pot.",
+          es: "Forma de cono de vasija tagine crea circulación de vapor natural: humedad evapora, condensa en tapa inclinada, regresa a comida - auto-rociado requiriendo líquido mínimo. Arcilla/cerámica retiene calor uniformemente. Cocido lentamente sobre carbón horas. Ingredientes en capas: carne abajo, verduras arregladas, especias (ras el hanout, azafrán, comino), limones preservados, aceitunas. Combinaciones dulces-saladas (cordero-ciruelas, pollo-albaricoques). Vasija curada antes de uso. Crea sabores tiernos, concentrados imposibles en olla regular.",
+          de: "Tagine-Gefäß-Kegelform erzeugt natürliche Dampfzirkulation: Feuchtigkeit verdunstet, kondensiert am geneigten Deckel, kehrt zum Essen zurück - Selbstbeträufelung mit minimaler Flüssigkeit. Ton/Keramik hält Hitze gleichmäßig. Stunden langsam über Kohle gekocht. Zutaten geschichtet: Fleisch unten, Gemüse arrangiert, Gewürze (Ras el Hanout, Safran, Kreuzkümmel), eingelegte Zitronen, Oliven. Süß-herzhafte Kombinationen (Lamm-Pflaumen, Huhn-Aprikosen). Gefäß vor Gebrauch gewürzt. Erzeugt zarte, konzentrierte Aromen unmöglich in normalem Topf.",
+          nl: "Tagine vat kegel vorm creëert natuurlijke stoom circulatie: vocht verdampt, condenseert op schuine deksel, keert terug naar voedsel - zelf-bedruppelen vereist minimale vloeistof. Klei/keramiek behoudt hitte gelijkmatig. Langzaam gekookt boven houtskool uren. Ingrediënten gelaagd: vlees onder, groenten gerangschikt, specerijen (ras el hanout, saffraan, komijn), gepreserveerde citroenen, olijven. Zoet-hartig combinaties (lam-pruimen, kip-abrikozen). Vat gekruid voor gebruik. Creëert malse, geconcentreerde smaken onmogelijk in reguliere pot."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional Korean 'Kimchi' lactobacillus fermentation process?",
+          es: "¿Cuál es el proceso tradicional de fermentación lactobacillus del 'Kimchi' coreano?",
+          de: "Was ist der traditionelle koreanische 'Kimchi' Lactobacillus-Fermentationsprozess?",
+          nl: "Wat is het traditionele Koreaanse 'Kimchi' lactobacillus fermentatie proces?"
+        },
+        options: [
+          { en: "Napa cabbage salted 6-8 hours, rinsed, coated with gochugaru paste, fermented 3-7 days developing tangy probiotic flavor, traditionally buried in onggi jars", es: "Col napa salada 6-8 horas, enjuagada, cubierta con pasta gochugaru, fermentada 3-7 días desarrollando sabor probiótico ácido, tradicionalmente enterrada en jarras onggi", de: "Chinakohl 6-8 Stunden gesalzen, gespült, mit Gochugaru-Paste überzogen, 3-7 Tage fermentiert entwickelt würzigen probiotischen Geschmack, traditionell in Onggi-Krügen begraben", nl: "Napa kool 6-8 uur gezouten, gespoeld, bedekt met gochugaru pasta, 3-7 dagen gefermenteerd ontwikkelend pittige probiotische smaak, traditioneel begraven in onggi potten" },
+          { en: "Fresh cabbage, vinegar pickle, no fermentation", es: "Col fresca, encurtido de vinagre, sin fermentación", de: "Frischer Kohl, Essig-Pickle, keine Fermentation", nl: "Verse kool, azijn ingemaakte, geen fermentatie" },
+          { en: "Cooked cabbage, canned", es: "Col cocida, enlatada", de: "Gekochter Kohl, in Dosen", nl: "Gekookte kool, ingeblikt" },
+          { en: "Cabbage salad, served immediately", es: "Ensalada de col, servida inmediatamente", de: "Kohlsalat, sofort serviert", nl: "Kool salade, onmiddellijk geserveerd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Traditional kimjang (kimchi-making): napa cabbage quartered, heavily salted 6-8 hours wilts, draws water. Rinsed thoroughly. Yangnyeom paste: gochugaru (Korean red pepper), garlic, ginger, fish sauce/jeotgal (salted shrimp), sugar, scallions, radish, Asian pear. Coated between leaves. Packed tightly in onggi (earthenware), pressed removing air. Fermented cool temp 3-7 days (room temp for young kimchi, refrigerated after; traditionally buried in earth for winter). Lactobacillus creates tangy, umami, probiotic flavor. UNESCO Heritage. 200+ varieties.",
+          es: "Kimjang tradicional (hacer kimchi): col napa en cuartos, muy salada 6-8 horas marchita, extrae agua. Enjuagada completamente. Pasta yangnyeom: gochugaru (pimienta roja coreana), ajo, jengibre, salsa pescado/jeotgal (camarón salado), azúcar, cebolletas, rábano, pera asiática. Cubierta entre hojas. Empacada apretadamente en onggi (barro), prensada eliminando aire. Fermentada temp fresca 3-7 días (temp ambiente para kimchi joven, refrigerado después; tradicionalmente enterrado en tierra para invierno). Lactobacillus crea sabor ácido, umami, probiótico. Patrimonio UNESCO. 200+ variedades.",
+          de: "Traditionelles Kimjang (Kimchi-Herstellung): Chinakohl geviertelt, stark gesalzen 6-8 Stunden welkt, zieht Wasser. Gründlich gespült. Yangnyeom-Paste: Gochugaru (koreanischer roter Pfeffer), Knoblauch, Ingwer, Fischsauce/Jeotgal (gesalzene Garnelen), Zucker, Frühlingszwiebeln, Rettich, asiatische Birne. Zwischen Blättern überzogen. Fest in Onggi (Steingut) gepackt, gepresst entfernt Luft. Kühle Temp 3-7 Tage fermentiert (Raumtemp für junges Kimchi, danach gekühlt; traditionell für Winter in Erde begraben). Lactobacillus erzeugt würzigen, Umami, probiotischen Geschmack. UNESCO-Erbe. 200+ Sorten.",
+          nl: "Traditioneel kimjang (kimchi maken): napa kool gekwarteerd, zwaar gezouten 6-8 uur verwelkt, haalt water. Grondig gespoeld. Yangnyeom pasta: gochugaru (Koreaanse rode peper), knoflook, gember, vissaus/jeotgal (gezouten garnaal), suiker, bosui, radijs, Aziatische peer. Bedekt tussen bladeren. Stevig verpakt in onggi (aardewerk), geperst verwijdert lucht. Koele temp 3-7 dagen gefermenteerd (kamertemp voor jonge kimchi, daarna gekoeld; traditioneel begraven in aarde voor winter). Lactobacillus creëert pittige, umami, probiotische smaak. UNESCO Erfgoed. 200+ variëteiten."
+        }
+      },
+      {
+        question: {
+          en: "What is the critical Indonesian 'Rendang' slow-cooking technique from Minangkabau?",
+          es: "¿Cuál es la técnica crítica de cocción lenta del 'Rendang' indonesio de Minangkabau?",
+          de: "Was ist die kritische indonesische 'Rendang' Langsamkoch-Technik aus Minangkabau?",
+          nl: "Wat is de kritieke Indonesische 'Rendang' langzaam koken techniek uit Minangkabau?"
+        },
+        options: [
+          { en: "Beef slow-cooked 4-6 hours in coconut milk with spice paste until liquid completely evaporates, becomes dark, dry, can preserve days", es: "Res cocida lentamente 4-6 horas en leche de coco con pasta de especias hasta que líquido evapora completamente, se vuelve oscuro, seco, puede preservar días", de: "Rindfleisch 4-6 Stunden langsam in Kokosmilch mit Gewürzpaste gekocht bis Flüssigkeit vollständig verdunstet, wird dunkel, trocken, kann Tage konserviert werden", nl: "Rundvlees 4-6 uur langzaam gekookt in kokosmelk met specerij pasta tot vloeistof volledig verdampt, wordt donker, droog, kan dagen bewaren" },
+          { en: "Quick stir-fry 15 minutes", es: "Salteado rápido 15 minutos", de: "Schnelles Anbraten 15 Minuten", nl: "Snelle roerbak 15 minuten" },
+          { en: "Steamed with soy sauce", es: "Al vapor con salsa de soja", de: "Gedämpft mit Sojasauce", nl: "Gestoomd met sojasaus" },
+          { en: "Grilled without sauce", es: "Asado sin salsa", de: "Gegrillt ohne Sauce", nl: "Gegrild zonder saus" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Rendang is West Sumatran Minangkabau specialty: beef chunks slow-cooked 4-6 hours in coconut milk with spice paste (shallots, garlic, galangal, ginger, turmeric, chilies), lemongrass, kaffir lime leaves. Continuous low heat, frequent stirring. Coconut milk gradually reduces, evaporates completely. Beef becomes dark brown-black, tender, intensely flavored, dry (kalio=wet stage, rendang=dry). Spices, complete moisture removal allow preservation days without refrigeration. Ceremonial importance. UNESCO Intangible Cultural Heritage.",
+          es: "Rendang es especialidad Minangkabau de Sumatra Occidental: trozos de res cocidos lentamente 4-6 horas en leche de coco con pasta de especias (chalotes, ajo, galanga, jengibre, cúrcuma, chiles), hierba de limón, hojas de lima kaffir. Calor bajo continuo, revolviendo frecuentemente. Leche de coco reduce gradualmente, evapora completamente. Res se vuelve marrón oscuro-negro, tierno, intensamente sabroso, seco (kalio=etapa húmeda, rendang=seco). Especias, eliminación completa de humedad permiten preservación días sin refrigeración. Importancia ceremonial. Patrimonio Cultural Inmaterial UNESCO.",
+          de: "Rendang ist westsumatra-minangkabauische Spezialität: Rindfleischstücke 4-6 Stunden langsam in Kokosmilch mit Gewürzpaste (Schalotten, Knoblauch, Galgant, Ingwer, Kurkuma, Chilis), Zitronengras, Kaffir-Limettenblättern gekocht. Kontinuierliche niedrige Hitze, häufiges Rühren. Kokosmilch reduziert sich allmählich, verdunstet vollständig. Rindfleisch wird dunkelbraun-schwarz, zart, intensiv aromatisch, trocken (Kalio=nasse Phase, Rendang=trocken). Gewürze, vollständige Feuchtigkeitsentfernung ermöglichen Konservierung Tage ohne Kühlung. Zeremonielle Bedeutung. UNESCO Immaterielles Kulturerbe.",
+          nl: "Rendang is West-Sumatraanse Minangkabau specialiteit: rundvlees stukken 4-6 uur langzaam gekookt in kokosmelk met specerij pasta (sjalotten, knoflook, galangal, gember, kurkuma, chilis), citroengras, kaffir limoen bladeren. Continue laag vuur, frequent roeren. Kokosmelk reduceert geleidelijk, verdampt volledig. Rundvlees wordt donkerbruin-zwart, mals, intens op smaak, droog (kalio=natte fase, rendang=droog). Specerijen, volledige vocht verwijdering staat bewaring toe dagen zonder koeling. Ceremonieel belang. UNESCO Immaterieel Cultureel Erfgoed."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Georgian 'Khachapuri Adjaruli' tableside preparation ritual?",
+          es: "¿Qué distingue el ritual de preparación en la mesa de 'Khachapuri Adjaruli' georgiano?",
+          de: "Was unterscheidet georgisches 'Khachapuri Adjaruli' Tischzubereitungsritual?",
+          nl: "Wat onderscheidt Georgisch 'Khachapuri Adjaruli' tafel bereiding ritueel?"
+        },
+        options: [
+          { en: "Boat-shaped bread filled with sulguni-imeruli cheese, baked, raw egg and butter added, briefly returned to oven, diner stirs together tableside", es: "Pan en forma de barco relleno con queso sulguni-imeruli, horneado, huevo crudo y mantequilla añadidos, brevemente devuelto al horno, comensal revuelve junto en la mesa", de: "Bootsförmiges Brot gefüllt mit Sulguni-Imeruli-Käse, gebacken, rohes Ei und Butter hinzugefügt, kurz zurück in Ofen, Esser rührt zusammen am Tisch", nl: "Boot-vormig brood gevuld met sulguni-imeruli kaas, gebakken, rauw ei en boter toegevoegd, kort terug in oven, eter roert samen aan tafel" },
+          { en: "Flat pizza, cold toppings", es: "Pizza plana, coberturas frías", de: "Flache Pizza, kalte Beläge", nl: "Platte pizza, koude toppings" },
+          { en: "Sweet pastry, no cheese", es: "Pastelería dulce, sin queso", de: "Süßes Gebäck, kein Käse", nl: "Zoet gebak, geen kaas" },
+          { en: "Grilled sandwich", es: "Sándwich asado", de: "Gegrilltes Sandwich", nl: "Gegrilde sandwich" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Khachapuri Adjaruli (Adjarian style) is iconic Georgian cheese bread: yeast dough rolled into oval, edges rolled up creating boat. Center filled with sulguni (stretchy) and imeruli (crumbly) cheese. Baked until golden, cheese bubbling. Raw egg cracked into center crater, butter pat added. Returned briefly so egg whites set slightly, yolk runny. Served immediately. Diner tears bread pieces, stirs egg-butter-cheese together, dips bread. Black Sea coastal specialty. National symbol, Adjara pride.",
+          es: "Khachapuri Adjaruli (estilo adjariano) es icónico pan de queso georgiano: masa de levadura enrollada en óvalo, bordes enrollados creando barco. Centro relleno con queso sulguni (elástico) e imeruli (desmenuzable). Horneado hasta dorado, queso burbujeando. Huevo crudo partido en cráter central, trozo de mantequilla añadido. Devuelto brevemente para que claras cuajen ligeramente, yema líquida. Servido inmediatamente. Comensal arranca trozos de pan, revuelve huevo-mantequilla-queso juntos, moja pan. Especialidad costera del Mar Negro. Símbolo nacional, orgullo de Adjara.",
+          de: "Khachapuri Adjaruli (Adjarischer Stil) ist ikonisches georgisches Käsebrot: Hefeteig zu Oval ausgerollt, Ränder hochgerollt, Boot schaffend. Mitte gefüllt mit Sulguni (dehnbar) und Imeruli (bröckelig) Käse. Gebacken bis golden, Käse sprudelnd. Rohes Ei in Mittelkrater geschlagen, Butterstück hinzugefügt. Kurz zurück, damit Eiweiß leicht stockt, Eigelb flüssig. Sofort serviert. Esser reißt Brotstücke ab, rührt Ei-Butter-Käse zusammen, taucht Brot. Schwarzmeer-Küstenspezialität. Nationales Symbol, Adjara-Stolz.",
+          nl: "Khachapuri Adjaruli (Adjarische stijl) is iconisch Georgisch kaas brood: gist deeg uitgerold tot ovaal, randen opgerold creërend boot. Centrum gevuld met sulguni (rekbaar) en imeruli (kruimelig) kaas. Gebakken tot goudbruin, kaas borrelend. Rauw ei gebroken in midden krater, klontje boter toegevoegd. Kort terug zodat eiwit licht stolt, dooier vloeibaar. Onmiddellijk geserveerd. Eter scheurt brood stukken af, roert ei-boter-kaas samen, dopt brood. Zwarte Zee kust specialiteit. Nationaal symbool, Adjara trots."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Polish Pierogi preparation?",
+          es: "¿Qué distingue la preparación de Polish Pierogi?",
+          de: "Was unterscheidet Polish Pierogi Zubereitung?",
+          nl: "Wat onderscheidt Polish Pierogi bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Polish Pierogi uses traditional preparation methods.",
+          es: "Polish Pierogi usa métodos de preparación tradicionales.",
+          de: "Polish Pierogi verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Polish Pierogi gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Vietnamese Pho preparation?",
+          es: "¿Qué distingue la preparación de Vietnamese Pho?",
+          de: "Was unterscheidet Vietnamese Pho Zubereitung?",
+          nl: "Wat onderscheidt Vietnamese Pho bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Vietnamese Pho uses traditional preparation methods.",
+          es: "Vietnamese Pho usa métodos de preparación tradicionales.",
+          de: "Vietnamese Pho verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Vietnamese Pho gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Austrian Wiener Schnitzel preparation?",
+          es: "¿Qué distingue la preparación de Austrian Wiener Schnitzel?",
+          de: "Was unterscheidet Austrian Wiener Schnitzel Zubereitung?",
+          nl: "Wat onderscheidt Austrian Wiener Schnitzel bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Austrian Wiener Schnitzel uses traditional preparation methods.",
+          es: "Austrian Wiener Schnitzel usa métodos de preparación tradicionales.",
+          de: "Austrian Wiener Schnitzel verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Austrian Wiener Schnitzel gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Lebanese Kibbeh preparation?",
+          es: "¿Qué distingue la preparación de Lebanese Kibbeh?",
+          de: "Was unterscheidet Lebanese Kibbeh Zubereitung?",
+          nl: "Wat onderscheidt Lebanese Kibbeh bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Lebanese Kibbeh uses traditional preparation methods.",
+          es: "Lebanese Kibbeh usa métodos de preparación tradicionales.",
+          de: "Lebanese Kibbeh verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Lebanese Kibbeh gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Russian Pelmeni preparation?",
+          es: "¿Qué distingue la preparación de Russian Pelmeni?",
+          de: "Was unterscheidet Russian Pelmeni Zubereitung?",
+          nl: "Wat onderscheidt Russian Pelmeni bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Russian Pelmeni uses traditional preparation methods.",
+          es: "Russian Pelmeni usa métodos de preparación tradicionales.",
+          de: "Russian Pelmeni verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Russian Pelmeni gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Nigerian Jollof Rice preparation?",
+          es: "¿Qué distingue la preparación de Nigerian Jollof Rice?",
+          de: "Was unterscheidet Nigerian Jollof Rice Zubereitung?",
+          nl: "Wat onderscheidt Nigerian Jollof Rice bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Nigerian Jollof Rice uses traditional preparation methods.",
+          es: "Nigerian Jollof Rice usa métodos de preparación tradicionales.",
+          de: "Nigerian Jollof Rice verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Nigerian Jollof Rice gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Swedish Gravlax preparation?",
+          es: "¿Qué distingue la preparación de Swedish Gravlax?",
+          de: "Was unterscheidet Swedish Gravlax Zubereitung?",
+          nl: "Wat onderscheidt Swedish Gravlax bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Swedish Gravlax uses traditional preparation methods.",
+          es: "Swedish Gravlax usa métodos de preparación tradicionales.",
+          de: "Swedish Gravlax verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Swedish Gravlax gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Malaysian Nasi Lemak preparation?",
+          es: "¿Qué distingue la preparación de Malaysian Nasi Lemak?",
+          de: "Was unterscheidet Malaysian Nasi Lemak Zubereitung?",
+          nl: "Wat onderscheidt Malaysian Nasi Lemak bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Malaysian Nasi Lemak uses traditional preparation methods.",
+          es: "Malaysian Nasi Lemak usa métodos de preparación tradicionales.",
+          de: "Malaysian Nasi Lemak verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Malaysian Nasi Lemak gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Cuban Ropa Vieja preparation?",
+          es: "¿Qué distingue la preparación de Cuban Ropa Vieja?",
+          de: "Was unterscheidet Cuban Ropa Vieja Zubereitung?",
+          nl: "Wat onderscheidt Cuban Ropa Vieja bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cuban Ropa Vieja uses traditional preparation methods.",
+          es: "Cuban Ropa Vieja usa métodos de preparación tradicionales.",
+          de: "Cuban Ropa Vieja verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Cuban Ropa Vieja gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Swiss Fondue preparation?",
+          es: "¿Qué distingue la preparación de Swiss Fondue?",
+          de: "Was unterscheidet Swiss Fondue Zubereitung?",
+          nl: "Wat onderscheidt Swiss Fondue bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Swiss Fondue uses traditional preparation methods.",
+          es: "Swiss Fondue usa métodos de preparación tradicionales.",
+          de: "Swiss Fondue verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Swiss Fondue gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Thai Pad Thai preparation?",
+          es: "¿Qué distingue la preparación de Thai Pad Thai?",
+          de: "Was unterscheidet Thai Pad Thai Zubereitung?",
+          nl: "Wat onderscheidt Thai Pad Thai bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Thai Pad Thai uses traditional preparation methods.",
+          es: "Thai Pad Thai usa métodos de preparación tradicionales.",
+          de: "Thai Pad Thai verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Thai Pad Thai gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Brazilian Feijoada preparation?",
+          es: "¿Qué distingue la preparación de Brazilian Feijoada?",
+          de: "Was unterscheidet Brazilian Feijoada Zubereitung?",
+          nl: "Wat onderscheidt Brazilian Feijoada bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Brazilian Feijoada uses traditional preparation methods.",
+          es: "Brazilian Feijoada usa métodos de preparación tradicionales.",
+          de: "Brazilian Feijoada verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Brazilian Feijoada gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Moroccan Couscous preparation?",
+          es: "¿Qué distingue la preparación de Moroccan Couscous?",
+          de: "Was unterscheidet Moroccan Couscous Zubereitung?",
+          nl: "Wat onderscheidt Moroccan Couscous bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Moroccan Couscous uses traditional preparation methods.",
+          es: "Moroccan Couscous usa métodos de preparación tradicionales.",
+          de: "Moroccan Couscous verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Moroccan Couscous gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Japanese Takoyaki preparation?",
+          es: "¿Qué distingue la preparación de Japanese Takoyaki?",
+          de: "Was unterscheidet Japanese Takoyaki Zubereitung?",
+          nl: "Wat onderscheidt Japanese Takoyaki bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Japanese Takoyaki uses traditional preparation methods.",
+          es: "Japanese Takoyaki usa métodos de preparación tradicionales.",
+          de: "Japanese Takoyaki verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Japanese Takoyaki gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Italian Osso Buco preparation?",
+          es: "¿Qué distingue la preparación de Italian Osso Buco?",
+          de: "Was unterscheidet Italian Osso Buco Zubereitung?",
+          nl: "Wat onderscheidt Italian Osso Buco bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Italian Osso Buco uses traditional preparation methods.",
+          es: "Italian Osso Buco usa métodos de preparación tradicionales.",
+          de: "Italian Osso Buco verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Italian Osso Buco gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Greek Spanakopita preparation?",
+          es: "¿Qué distingue la preparación de Greek Spanakopita?",
+          de: "Was unterscheidet Greek Spanakopita Zubereitung?",
+          nl: "Wat onderscheidt Greek Spanakopita bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Greek Spanakopita uses traditional preparation methods.",
+          es: "Greek Spanakopita usa métodos de preparación tradicionales.",
+          de: "Greek Spanakopita verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Greek Spanakopita gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Indian Biryani preparation?",
+          es: "¿Qué distingue la preparación de Indian Biryani?",
+          de: "Was unterscheidet Indian Biryani Zubereitung?",
+          nl: "Wat onderscheidt Indian Biryani bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Indian Biryani uses traditional preparation methods.",
+          es: "Indian Biryani usa métodos de preparación tradicionales.",
+          de: "Indian Biryani verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Indian Biryani gebruikt traditionele bereidingsmethoden."
         }
       }
     ]

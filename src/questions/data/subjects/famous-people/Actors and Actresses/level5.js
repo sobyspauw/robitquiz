@@ -1,4 +1,4 @@
-﻿// Actors and Actresses Quiz - Level 5: Advanced Knowledge
+// Actors and Actresses Quiz - Level 5: Advanced Knowledge
 (function() {
   const level5 = {
     name: {
@@ -426,6 +426,426 @@
           es: "Marlene Dietrich se hizo internacionalmente famosa en El Ángel Azul (1930) de Josef von Sternberg y posteriormente se mudó a Hollywood, convirtiéndose en una de las mayores estrellas del cine.",
           de: "Marlene Dietrich wurde durch Josef von Sternbergs Der blaue Engel (1930) international berühmt und zog anschließend nach Hollywood, wo sie zu einem der größten Filmstars wurde.",
           nl: "Marlene Dietrich werd internationaal beroemd in Josef von Sternberg's The Blue Angel (1930) en verhuisde vervolgens naar Hollywood, waar ze een van de grootste filmsterren werd."
+        }
+      },
+      {
+        question: {
+          en: "Which actor won an Oscar for 'Network' playing a news anchor who has a breakdown on air?",
+          es: "¿Qué actor ganó un Oscar por 'Network' interpretando a un presentador de noticias que sufre un colapso en vivo?",
+          de: "Welcher Schauspieler gewann einen Oscar für 'Network' als Nachrichtensprecher, der einen Zusammenbruch auf Sendung hat?",
+          nl: "Welke acteur won een Oscar voor 'Network' als een nieuwsanker die een instorting heeft op de televisie?"
+        },
+        options: [
+          { en: "Peter Finch", es: "Peter Finch", de: "Peter Finch", nl: "Peter Finch" },
+          { en: "William Holden", es: "William Holden", de: "William Holden", nl: "William Holden" },
+          { en: "Robert Duvall", es: "Robert Duvall", de: "Robert Duvall", nl: "Robert Duvall" },
+          { en: "Ned Beatty", es: "Ned Beatty", de: "Ned Beatty", nl: "Ned Beatty" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Peter Finch won the Academy Award for Best Actor posthumously for Network (1976), delivering the famous 'I'm mad as hell' speech as anchorman Howard Beale.",
+          es: "Peter Finch ganó el Premio de la Academia al Mejor Actor póstumamente por Network (1976), pronunciando el famoso discurso 'Estoy furioso' como el presentador Howard Beale.",
+          de: "Peter Finch gewann posthum den Academy Award für den besten Hauptdarsteller für Network (1976) und hielt die berühmte 'Ich bin wütend wie die Hölle'-Rede als Nachrichtensprecher Howard Beale.",
+          nl: "Peter Finch won postuum de Academy Award voor Beste Acteur voor Network (1976), waarbij hij de beroemde 'I'm mad as hell' speech uitsprak als nieuwslezer Howard Beale."
+        }
+      },
+      {
+        question: {
+          en: "Which actress starred in 'Roman Holiday' winning an Oscar in her first major film role?",
+          es: "¿Qué actriz protagonizó 'Vacaciones en Roma' ganando un Oscar en su primer papel cinematográfico importante?",
+          de: "Welche Schauspielerin spielte in 'Ein Herz und eine Krone' und gewann einen Oscar in ihrer ersten großen Filmrolle?",
+          nl: "Welke actrice speelde in 'Roman Holiday' en won een Oscar in haar eerste grote filmrol?"
+        },
+        options: [
+          { en: "Audrey Hepburn", es: "Audrey Hepburn", de: "Audrey Hepburn", nl: "Audrey Hepburn" },
+          { en: "Grace Kelly", es: "Grace Kelly", de: "Grace Kelly", nl: "Grace Kelly" },
+          { en: "Deborah Kerr", es: "Deborah Kerr", de: "Deborah Kerr", nl: "Deborah Kerr" },
+          { en: "Jean Simmons", es: "Jean Simmons", de: "Jean Simmons", nl: "Jean Simmons" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Audrey Hepburn won the Academy Award for Best Actress for Roman Holiday (1953), her first major film role as Princess Ann, launching her legendary career.",
+          es: "Audrey Hepburn ganó el Premio de la Academia a la Mejor Actriz por Vacaciones en Roma (1953), su primer papel cinematográfico importante como la Princesa Ann, lanzando su legendaria carrera.",
+          de: "Audrey Hepburn gewann den Academy Award für die beste Hauptdarstellerin für Ein Herz und eine Krone (1953), ihre erste große Filmrolle als Prinzessin Ann, und startete ihre legendäre Karriere.",
+          nl: "Audrey Hepburn won de Academy Award voor Beste Actrice voor Roman Holiday (1953), haar eerste grote filmrol als Prinses Ann, waarmee ze haar legendarische carrière lanceerde."
+        }
+      },
+      {
+        question: {
+          en: "Which actor starred in 'Taxi Driver' and later won an Oscar for 'Raging Bull'?",
+          es: "¿Qué actor protagonizó 'Taxi Driver' y luego ganó un Oscar por 'Toro Salvaje'?",
+          de: "Welcher Schauspieler spielte in 'Taxi Driver' und gewann später einen Oscar für 'Wie ein wilder Stier'?",
+          nl: "Welke acteur speelde in 'Taxi Driver' en won later een Oscar voor 'Raging Bull'?"
+        },
+        options: [
+          { en: "Robert De Niro", es: "Robert De Niro", de: "Robert De Niro", nl: "Robert De Niro" },
+          { en: "Harvey Keitel", es: "Harvey Keitel", de: "Harvey Keitel", nl: "Harvey Keitel" },
+          { en: "Joe Pesci", es: "Joe Pesci", de: "Joe Pesci", nl: "Joe Pesci" },
+          { en: "Albert Brooks", es: "Albert Brooks", de: "Albert Brooks", nl: "Albert Brooks" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Robert De Niro starred in Taxi Driver (1976) as Travis Bickle and won the Academy Award for Best Actor for Raging Bull (1980), showcasing his range and commitment to roles.",
+          es: "Robert De Niro protagonizó Taxi Driver (1976) como Travis Bickle y ganó el Premio de la Academia al Mejor Actor por Toro Salvaje (1980), mostrando su rango y compromiso con los papeles.",
+          de: "Robert De Niro spielte in Taxi Driver (1976) als Travis Bickle und gewann den Academy Award für den besten Hauptdarsteller für Wie ein wilder Stier (1980), was seine Bandbreite und sein Engagement für Rollen zeigte.",
+          nl: "Robert De Niro speelde in Taxi Driver (1976) als Travis Bickle en won de Academy Award voor Beste Acteur voor Raging Bull (1980), waarbij hij zijn bereik en toewijding aan rollen toonde."
+        }
+      },
+      {
+        question: {
+          en: "Which actress won an Oscar for 'La Vie en Rose' portraying Edith Piaf?",
+          es: "¿Qué actriz ganó un Oscar por 'La Vie en Rose' interpretando a Edith Piaf?",
+          de: "Welche Schauspielerin gewann einen Oscar für 'La Vie en Rose' als Edith Piaf?",
+          nl: "Welke actrice won een Oscar voor 'La Vie en Rose' als Edith Piaf?"
+        },
+        options: [
+          { en: "Marion Cotillard", es: "Marion Cotillard", de: "Marion Cotillard", nl: "Marion Cotillard" },
+          { en: "Audrey Tautou", es: "Audrey Tautou", de: "Audrey Tautou", nl: "Audrey Tautou" },
+          { en: "Juliette Binoche", es: "Juliette Binoche", de: "Juliette Binoche", nl: "Juliette Binoche" },
+          { en: "Isabelle Huppert", es: "Isabelle Huppert", de: "Isabelle Huppert", nl: "Isabelle Huppert" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Marion Cotillard won the Academy Award for Best Actress in 2008 for La Vie en Rose, becoming the first person to win an Oscar for a French-language performance since 1960.",
+          es: "Marion Cotillard ganó el Premio de la Academia a la Mejor Actriz en 2008 por La Vie en Rose, convirtiéndose en la primera persona en ganar un Oscar por una actuación en francés desde 1960.",
+          de: "Marion Cotillard gewann 2008 den Academy Award für die beste Hauptdarstellerin für La Vie en Rose und wurde die erste Person, die seit 1960 einen Oscar für eine französischsprachige Leistung gewann.",
+          nl: "Marion Cotillard won de Academy Award voor Beste Actrice in 2008 voor La Vie en Rose, en werd de eerste persoon die sinds 1960 een Oscar won voor een Franstalige prestatie."
+        }
+      },
+      {
+        question: {
+          en: "Which actor won an Oscar for 'Capote' playing author Truman Capote?",
+          es: "¿Qué actor ganó un Oscar por 'Capote' interpretando al autor Truman Capote?",
+          de: "Welcher Schauspieler gewann einen Oscar für 'Capote' als Autor Truman Capote?",
+          nl: "Welke acteur won een Oscar voor 'Capote' als auteur Truman Capote?"
+        },
+        options: [
+          { en: "Philip Seymour Hoffman", es: "Philip Seymour Hoffman", de: "Philip Seymour Hoffman", nl: "Philip Seymour Hoffman" },
+          { en: "Clifton Collins Jr.", es: "Clifton Collins Jr.", de: "Clifton Collins Jr.", nl: "Clifton Collins Jr." },
+          { en: "Chris Cooper", es: "Chris Cooper", de: "Chris Cooper", nl: "Chris Cooper" },
+          { en: "Bruce Greenwood", es: "Bruce Greenwood", de: "Bruce Greenwood", nl: "Bruce Greenwood" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Philip Seymour Hoffman won the Academy Award for Best Actor in 2006 for his transformative portrayal of Truman Capote in Capote, perfectly capturing the author's mannerisms and voice.",
+          es: "Philip Seymour Hoffman ganó el Premio de la Academia al Mejor Actor en 2006 por su interpretación transformadora de Truman Capote en Capote, capturando perfectamente los modales y la voz del autor.",
+          de: "Philip Seymour Hoffman gewann 2006 den Academy Award für den besten Hauptdarsteller für seine transformative Darstellung von Truman Capote in Capote und fing die Manierismen und Stimme des Autors perfekt ein.",
+          nl: "Philip Seymour Hoffman won de Academy Award voor Beste Acteur in 2006 voor zijn transformerende portret van Truman Capote in Capote, waarbij hij de maniërismen en stem van de auteur perfect vastlegde."
+        }
+      },
+      {
+        question: {
+          en: "Which actress starred in 'Breakfast at Tiffany's' creating an iconic fashion moment?",
+          es: "¿Qué actriz protagonizó 'Desayuno en Tiffany's' creando un momento icónico de moda?",
+          de: "Welche Schauspielerin spielte in 'Frühstück bei Tiffany' und schuf einen ikonischen Modemoment?",
+          nl: "Welke actrice speelde in 'Breakfast at Tiffany's' en creëerde een iconisch modemoment?"
+        },
+        options: [
+          { en: "Audrey Hepburn", es: "Audrey Hepburn", de: "Audrey Hepburn", nl: "Audrey Hepburn" },
+          { en: "Grace Kelly", es: "Grace Kelly", de: "Grace Kelly", nl: "Grace Kelly" },
+          { en: "Elizabeth Taylor", es: "Elizabeth Taylor", de: "Elizabeth Taylor", nl: "Elizabeth Taylor" },
+          { en: "Natalie Wood", es: "Natalie Wood", de: "Natalie Wood", nl: "Natalie Wood" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Audrey Hepburn starred as Holly Golightly in Breakfast at Tiffany's (1961), creating one of cinema's most iconic fashion moments with her little black dress and pearls.",
+          es: "Audrey Hepburn protagonizó como Holly Golightly en Desayuno en Tiffany's (1961), creando uno de los momentos de moda más icónicos del cine con su pequeño vestido negro y perlas.",
+          de: "Audrey Hepburn spielte Holly Golightly in Frühstück bei Tiffany (1961) und schuf einen der ikonischsten Modemomente des Kinos mit ihrem kleinen schwarzen Kleid und Perlen.",
+          nl: "Audrey Hepburn speelde Holly Golightly in Breakfast at Tiffany's (1961), en creëerde een van de meest iconische modemomenten van de cinema met haar kleine zwarte jurk en parels."
+        }
+      },
+      {
+        question: {
+          en: "Which actor won an Oscar for 'Amadeus' playing composer Antonio Salieri?",
+          es: "¿Qué actor ganó un Oscar por 'Amadeus' interpretando al compositor Antonio Salieri?",
+          de: "Welcher Schauspieler gewann einen Oscar für 'Amadeus' als Komponist Antonio Salieri?",
+          nl: "Welke acteur won een Oscar voor 'Amadeus' als componist Antonio Salieri?"
+        },
+        options: [
+          { en: "F. Murray Abraham", es: "F. Murray Abraham", de: "F. Murray Abraham", nl: "F. Murray Abraham" },
+          { en: "Tom Hulce", es: "Tom Hulce", de: "Tom Hulce", nl: "Tom Hulce" },
+          { en: "Jeffrey Jones", es: "Jeffrey Jones", de: "Jeffrey Jones", nl: "Jeffrey Jones" },
+          { en: "Roy Dotrice", es: "Roy Dotrice", de: "Roy Dotrice", nl: "Roy Dotrice" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "F. Murray Abraham won the Academy Award for Best Actor in 1985 for playing Antonio Salieri in Amadeus, portraying the jealous composer who narrates Mozart's story.",
+          es: "F. Murray Abraham ganó el Premio de la Academia al Mejor Actor en 1985 por interpretar a Antonio Salieri en Amadeus, retratando al compositor celoso que narra la historia de Mozart.",
+          de: "F. Murray Abraham gewann 1985 den Academy Award für den besten Hauptdarsteller für die Darstellung von Antonio Salieri in Amadeus, der den eifersüchtigen Komponisten porträtierte, der Mozarts Geschichte erzählt.",
+          nl: "F. Murray Abraham won de Academy Award voor Beste Acteur in 1985 voor het spelen van Antonio Salieri in Amadeus, waarbij hij de jaloerse componist portretteerde die Mozart's verhaal vertelt."
+        }
+      },
+      {
+        question: {
+          en: "Which actress won an Oscar for 'Shakespeare in Love' playing Viola de Lesseps?",
+          es: "¿Qué actriz ganó un Oscar por 'Shakespeare Enamorado' interpretando a Viola de Lesseps?",
+          de: "Welche Schauspielerin gewann einen Oscar für 'Shakespeare in Love' als Viola de Lesseps?",
+          nl: "Welke actrice won een Oscar voor 'Shakespeare in Love' als Viola de Lesseps?"
+        },
+        options: [
+          { en: "Gwyneth Paltrow", es: "Gwyneth Paltrow", de: "Gwyneth Paltrow", nl: "Gwyneth Paltrow" },
+          { en: "Judi Dench", es: "Judi Dench", de: "Judi Dench", nl: "Judi Dench" },
+          { en: "Cate Blanchett", es: "Cate Blanchett", de: "Cate Blanchett", nl: "Cate Blanchett" },
+          { en: "Helena Bonham Carter", es: "Helena Bonham Carter", de: "Helena Bonham Carter", nl: "Helena Bonham Carter" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gwyneth Paltrow won the Academy Award for Best Actress in 1999 for Shakespeare in Love, playing the noblewoman who inspires Shakespeare to write Romeo and Juliet.",
+          es: "Gwyneth Paltrow ganó el Premio de la Academia a la Mejor Actriz en 1999 por Shakespeare Enamorado, interpretando a la noble que inspira a Shakespeare a escribir Romeo y Julieta.",
+          de: "Gwyneth Paltrow gewann 1999 den Academy Award für die beste Hauptdarstellerin für Shakespeare in Love und spielte die Adlige, die Shakespeare inspirierte, Romeo und Julia zu schreiben.",
+          nl: "Gwyneth Paltrow won de Academy Award voor Beste Actrice in 1999 voor Shakespeare in Love, waarbij ze de edelvrouw speelde die Shakespeare inspireerde om Romeo en Julia te schrijven."
+        }
+      },
+      {
+        question: {
+          en: "Which actor starred in 'Chinatown' as private detective J.J. Gittes?",
+          es: "¿Qué actor protagonizó 'Chinatown' como el detective privado J.J. Gittes?",
+          de: "Welcher Schauspieler spielte in 'Chinatown' als Privatdetektiv J.J. Gittes?",
+          nl: "Welke acteur speelde in 'Chinatown' als privédetective J.J. Gittes?"
+        },
+        options: [
+          { en: "Jack Nicholson", es: "Jack Nicholson", de: "Jack Nicholson", nl: "Jack Nicholson" },
+          { en: "Robert Redford", es: "Robert Redford", de: "Robert Redford", nl: "Robert Redford" },
+          { en: "Warren Beatty", es: "Warren Beatty", de: "Warren Beatty", nl: "Warren Beatty" },
+          { en: "Dustin Hoffman", es: "Dustin Hoffman", de: "Dustin Hoffman", nl: "Dustin Hoffman" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jack Nicholson starred as private detective J.J. Gittes in Chinatown (1974), delivering one of his most acclaimed performances in this neo-noir classic directed by Roman Polanski.",
+          es: "Jack Nicholson protagonizó como el detective privado J.J. Gittes en Chinatown (1974), entregando una de sus actuaciones más aclamadas en este clásico neo-noir dirigido por Roman Polanski.",
+          de: "Jack Nicholson spielte den Privatdetektiv J.J. Gittes in Chinatown (1974) und lieferte eine seiner gefeiertsten Leistungen in diesem Neo-Noir-Klassiker unter der Regie von Roman Polanski.",
+          nl: "Jack Nicholson speelde privédetective J.J. Gittes in Chinatown (1974), en leverde een van zijn meest geprezen optredens in deze neo-noir klassieker geregisseerd door Roman Polanski."
+        }
+      },
+      {
+        question: {
+          en: "Which actress won an Oscar for 'Room' playing a kidnapped mother?",
+          es: "¿Qué actriz ganó un Oscar por 'Room' interpretando a una madre secuestrada?",
+          de: "Welche Schauspielerin gewann einen Oscar für 'Raum' als entführte Mutter?",
+          nl: "Welke actrice won een Oscar voor 'Room' als een ontvoerde moeder?"
+        },
+        options: [
+          { en: "Brie Larson", es: "Brie Larson", de: "Brie Larson", nl: "Brie Larson" },
+          { en: "Rooney Mara", es: "Rooney Mara", de: "Rooney Mara", nl: "Rooney Mara" },
+          { en: "Saoirse Ronan", es: "Saoirse Ronan", de: "Saoirse Ronan", nl: "Saoirse Ronan" },
+          { en: "Jennifer Lawrence", es: "Jennifer Lawrence", de: "Jennifer Lawrence", nl: "Jennifer Lawrence" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Brie Larson won the Academy Award for Best Actress in 2016 for Room, playing a woman held captive with her young son in a single room for years.",
+          es: "Brie Larson ganó el Premio de la Academia a la Mejor Actriz en 2016 por Room, interpretando a una mujer retenida cautiva con su hijo pequeño en una sola habitación durante años.",
+          de: "Brie Larson gewann 2016 den Academy Award für die beste Hauptdarstellerin für Raum und spielte eine Frau, die jahrelang mit ihrem kleinen Sohn in einem einzigen Raum gefangen gehalten wurde.",
+          nl: "Brie Larson won de Academy Award voor Beste Actrice in 2016 voor Room, waarbij ze een vrouw speelde die jarenlang gevangen werd gehouden met haar jonge zoon in een enkele kamer."
+        }
+      },
+      {
+        question: {
+          en: "Which actor won an Oscar for 'The Theory of Everything' playing Stephen Hawking?",
+          es: "¿Qué actor ganó un Oscar por 'La Teoría del Todo' interpretando a Stephen Hawking?",
+          de: "Welcher Schauspieler gewann einen Oscar für 'Die Entdeckung der Unendlichkeit' als Stephen Hawking?",
+          nl: "Welke acteur won een Oscar voor 'The Theory of Everything' als Stephen Hawking?"
+        },
+        options: [
+          { en: "Eddie Redmayne", es: "Eddie Redmayne", de: "Eddie Redmayne", nl: "Eddie Redmayne" },
+          { en: "Benedict Cumberbatch", es: "Benedict Cumberbatch", de: "Benedict Cumberbatch", nl: "Benedict Cumberbatch" },
+          { en: "Michael Fassbender", es: "Michael Fassbender", de: "Michael Fassbender", nl: "Michael Fassbender" },
+          { en: "Bradley Cooper", es: "Bradley Cooper", de: "Bradley Cooper", nl: "Bradley Cooper" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Eddie Redmayne won the Academy Award for Best Actor in 2015 for The Theory of Everything, physically transforming to portray physicist Stephen Hawking's battle with ALS.",
+          es: "Eddie Redmayne ganó el Premio de la Academia al Mejor Actor en 2015 por La Teoría del Todo, transformándose físicamente para retratar la batalla del físico Stephen Hawking con ELA.",
+          de: "Eddie Redmayne gewann 2015 den Academy Award für den besten Hauptdarsteller für Die Entdeckung der Unendlichkeit und verwandelte sich körperlich, um den Kampf des Physikers Stephen Hawking gegen ALS darzustellen.",
+          nl: "Eddie Redmayne won de Academy Award voor Beste Acteur in 2015 voor The Theory of Everything, waarbij hij zich fysiek transformeerde om de strijd van natuurkundige Stephen Hawking met ALS te portretteren."
+        }
+      },
+      {
+        question: {
+          en: "Which actress won an Oscar for 'Still Alice' playing a woman with early-onset Alzheimer's?",
+          es: "¿Qué actriz ganó un Oscar por 'Still Alice' interpretando a una mujer con Alzheimer de inicio temprano?",
+          de: "Welche Schauspielerin gewann einen Oscar für 'Still Alice' als Frau mit früh einsetzendem Alzheimer?",
+          nl: "Welke actrice won een Oscar voor 'Still Alice' als een vrouw met vroeg inzettende Alzheimer?"
+        },
+        options: [
+          { en: "Julianne Moore", es: "Julianne Moore", de: "Julianne Moore", nl: "Julianne Moore" },
+          { en: "Kristen Stewart", es: "Kristen Stewart", de: "Kristen Stewart", nl: "Kristen Stewart" },
+          { en: "Kate Bosworth", es: "Kate Bosworth", de: "Kate Bosworth", nl: "Kate Bosworth" },
+          { en: "Alec Baldwin", es: "Alec Baldwin", de: "Alec Baldwin", nl: "Alec Baldwin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Julianne Moore won the Academy Award for Best Actress in 2015 for Still Alice, portraying a linguistics professor diagnosed with early-onset Alzheimer's disease.",
+          es: "Julianne Moore ganó el Premio de la Academia a la Mejor Actriz en 2015 por Still Alice, retratando a una profesora de lingüística diagnosticada con Alzheimer de inicio temprano.",
+          de: "Julianne Moore gewann 2015 den Academy Award für die beste Hauptdarstellerin für Still Alice und porträtierte eine Linguistikprofessorin, bei der früh einsetzendes Alzheimer diagnostiziert wurde.",
+          nl: "Julianne Moore won de Academy Award voor Beste Actrice in 2015 voor Still Alice, waarbij ze een linguïstiekprofessor portretteerde die gediagnosticeerd werd met vroeg inzettende Alzheimer."
+        }
+      },
+      {
+        question: {
+          en: "Which actor gained 60 pounds for his role in 'Raging Bull' and won an Oscar?",
+          es: "¿Qué actor ganó 60 libras para su papel en 'Toro Salvaje' y ganó un Oscar?",
+          de: "Welcher Schauspieler nahm 27 kg für seine Rolle in 'Wie ein wilder Stier' zu und gewann einen Oscar?",
+          nl: "Welke acteur kwam 27 kg aan voor zijn rol in 'Raging Bull' en won een Oscar?"
+        },
+        options: [
+          { en: "Robert De Niro", es: "Robert De Niro", de: "Robert De Niro", nl: "Robert De Niro" },
+          { en: "Joe Pesci", es: "Joe Pesci", de: "Joe Pesci", nl: "Joe Pesci" },
+          { en: "Al Pacino", es: "Al Pacino", de: "Al Pacino", nl: "Al Pacino" },
+          { en: "Martin Scorsese", es: "Martin Scorsese", de: "Martin Scorsese", nl: "Martin Scorsese" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Robert De Niro won the Academy Award for Best Actor for Raging Bull (1980), famously gaining 60 pounds to portray boxer Jake LaMotta in his later years.",
+          es: "Robert De Niro ganó el Premio de la Academia al Mejor Actor por Toro Salvaje (1980), famosamente ganando 60 libras para retratar al boxeador Jake LaMotta en sus años posteriores.",
+          de: "Robert De Niro gewann den Academy Award für den besten Hauptdarsteller für Wie ein wilder Stier (1980) und nahm berühmterweise 27 kg zu, um den Boxer Jake LaMotta in seinen späteren Jahren darzustellen.",
+          nl: "Robert De Niro won de Academy Award voor Beste Acteur voor Raging Bull (1980), waarbij hij beroemd 27 kg aankwam om bokser Jake LaMotta in zijn latere jaren te portretteren."
+        }
+      },
+      {
+        question: {
+          en: "Which actress learned to play piano for months to authentically portray a concert pianist in 'The Piano'?",
+          es: "¿Qué actriz aprendió a tocar el piano durante meses para retratar auténticamente a una pianista de concierto en 'El Piano'?",
+          de: "Welche Schauspielerin lernte monatelang Klavier spielen, um authentisch eine Konzertpianistin in 'Das Piano' darzustellen?",
+          nl: "Welke actrice leerde maandenlang piano spelen om authentiek een concertpianiste te portretteren in 'The Piano'?"
+        },
+        options: [
+          { en: "Holly Hunter", es: "Holly Hunter", de: "Holly Hunter", nl: "Holly Hunter" },
+          { en: "Anna Paquin", es: "Anna Paquin", de: "Anna Paquin", nl: "Anna Paquin" },
+          { en: "Nicole Kidman", es: "Nicole Kidman", de: "Nicole Kidman", nl: "Nicole Kidman" },
+          { en: "Meryl Streep", es: "Meryl Streep", de: "Meryl Streep", nl: "Meryl Streep" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Holly Hunter won the Academy Award for Best Actress for The Piano (1993), learning to play piano intensively for her mute character who communicates through music.",
+          es: "Holly Hunter ganó el Premio de la Academia a la Mejor Actriz por El Piano (1993), aprendiendo a tocar el piano intensivamente para su personaje mudo que se comunica a través de la música.",
+          de: "Holly Hunter gewann den Academy Award für die beste Hauptdarstellerin für Das Piano (1993) und lernte intensiv Klavier spielen für ihre stumme Figur, die sich durch Musik verständigt.",
+          nl: "Holly Hunter won de Academy Award voor Beste Actrice voor The Piano (1993), waarbij ze intensief piano leerde spelen voor haar stomme personage dat communiceert door muziek."
+        }
+      },
+      {
+        question: {
+          en: "Which actor refused to break character throughout filming 'Lincoln', even off-camera?",
+          es: "¿Qué actor se negó a romper el personaje durante todo el rodaje de 'Lincoln', incluso fuera de cámara?",
+          de: "Welcher Schauspieler weigerte sich, während der gesamten Dreharbeiten zu 'Lincoln' aus der Rolle zu fallen, sogar außerhalb der Kamera?",
+          nl: "Welke acteur weigerde zijn personage te doorbreken tijdens het filmen van 'Lincoln', zelfs buiten de camera?"
+        },
+        options: [
+          { en: "Daniel Day-Lewis", es: "Daniel Day-Lewis", de: "Daniel Day-Lewis", nl: "Daniel Day-Lewis" },
+          { en: "Tommy Lee Jones", es: "Tommy Lee Jones", de: "Tommy Lee Jones", nl: "Tommy Lee Jones" },
+          { en: "Joseph Gordon-Levitt", es: "Joseph Gordon-Levitt", de: "Joseph Gordon-Levitt", nl: "Joseph Gordon-Levitt" },
+          { en: "David Strathairn", es: "David Strathairn", de: "David Strathairn", nl: "David Strathairn" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Daniel Day-Lewis is known for extreme method acting, staying in character as Abraham Lincoln throughout the entire production, with cast and crew calling him 'Mr. President.'",
+          es: "Daniel Day-Lewis es conocido por su actuación de método extremo, permaneciendo en el personaje de Abraham Lincoln durante toda la producción, con el elenco y el equipo llamándolo 'Sr. Presidente'.",
+          de: "Daniel Day-Lewis ist bekannt für extreme Method Acting und blieb während der gesamten Produktion als Abraham Lincoln in der Rolle, wobei Besetzung und Crew ihn 'Mr. President' nannten.",
+          nl: "Daniel Day-Lewis staat bekend om extreme methode-acting, waarbij hij tijdens de hele productie in zijn personage als Abraham Lincoln bleef, met cast en crew die hem 'Mr. President' noemden."
+        }
+      },
+      {
+        question: {
+          en: "Which actress lived in the woods and refused to bathe for weeks while filming 'The Revenant'?",
+          es: "¿Qué actriz vivió en el bosque y se negó a bañarse durante semanas mientras filmaba 'The Revenant'?",
+          de: "Welche Schauspielerin lebte im Wald und weigerte sich wochenlang zu baden während der Dreharbeiten zu 'The Revenant'?",
+          nl: "Welke actrice leefde in de bossen en weigerde wekenlang te baden tijdens het filmen van 'The Revenant'?"
+        },
+        options: [
+          { en: "None - this was Leonardo DiCaprio", es: "Ninguna - esto fue Leonardo DiCaprio", de: "Keine - das war Leonardo DiCaprio", nl: "Geen - dit was Leonardo DiCaprio" },
+          { en: "Grace Dove", es: "Grace Dove", de: "Grace Dove", nl: "Grace Dove" },
+          { en: "Domhnall Gleeson", es: "Domhnall Gleeson", de: "Domhnall Gleeson", nl: "Domhnall Gleeson" },
+          { en: "Will Poulter", es: "Will Poulter", de: "Will Poulter", nl: "Will Poulter" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Leonardo DiCaprio endured extreme conditions for The Revenant (2015), including eating raw bison liver and sleeping in animal carcasses, finally winning his first Oscar.",
+          es: "Leonardo DiCaprio soportó condiciones extremas para The Revenant (2015), incluyendo comer hígado de bisonte crudo y dormir en cadáveres de animales, finalmente ganando su primer Oscar.",
+          de: "Leonardo DiCaprio ertrug extreme Bedingungen für The Revenant (2015), einschließlich des Essens roher Bisonleber und des Schlafens in Tierkadavern, und gewann schließlich seinen ersten Oscar.",
+          nl: "Leonardo DiCaprio doorstond extreme omstandigheden voor The Revenant (2015), inclusief het eten van rauwe bizonlever en slapen in dierenkarkassen, en won uiteindelijk zijn eerste Oscar."
+        }
+      },
+      {
+        question: {
+          en: "Which actress learned to speak with a Polish accent and learned to play violin for 'Sophie's Choice'?",
+          es: "¿Qué actriz aprendió a hablar con acento polaco y aprendió a tocar el violín para 'La Elección de Sophie'?",
+          de: "Welche Schauspielerin lernte mit polnischem Akzent zu sprechen und lernte Geige spielen für 'Sophies Entscheidung'?",
+          nl: "Welke actrice leerde met een Pools accent te spreken en leerde viool spelen voor 'Sophie's Choice'?"
+        },
+        options: [
+          { en: "Meryl Streep", es: "Meryl Streep", de: "Meryl Streep", nl: "Meryl Streep" },
+          { en: "Glenn Close", es: "Glenn Close", de: "Glenn Close", nl: "Glenn Close" },
+          { en: "Jessica Lange", es: "Jessica Lange", de: "Jessica Lange", nl: "Jessica Lange" },
+          { en: "Sissy Spacek", es: "Sissy Spacek", de: "Sissy Spacek", nl: "Sissy Spacek" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Meryl Streep won her second Academy Award for Sophie's Choice (1982), mastering a Polish accent and German language for her Holocaust survivor character.",
+          es: "Meryl Streep ganó su segundo Premio de la Academia por La Elección de Sophie (1982), dominando un acento polaco y el idioma alemán para su personaje sobreviviente del Holocausto.",
+          de: "Meryl Streep gewann ihren zweiten Academy Award für Sophies Entscheidung (1982) und beherrschte einen polnischen Akzent und die deutsche Sprache für ihre Holocaust-Überlebende-Figur.",
+          nl: "Meryl Streep won haar tweede Academy Award voor Sophie's Choice (1982), waarbij ze een Pools accent en de Duitse taal beheerste voor haar Holocaust-overlevende personage."
+        }
+      },
+      {
+        question: {
+          en: "Which actor lost 63 pounds and suffered from insomnia for his role in 'The Machinist'?",
+          es: "¿Qué actor perdió 63 libras y sufrió de insomnio por su papel en 'El Maquinista'?",
+          de: "Welcher Schauspieler verlor 29 kg und litt an Schlaflosigkeit für seine Rolle in 'Der Maschinist'?",
+          nl: "Welke acteur verloor 29 kg en leed aan slapeloosheid voor zijn rol in 'The Machinist'?"
+        },
+        options: [
+          { en: "Christian Bale", es: "Christian Bale", de: "Christian Bale", nl: "Christian Bale" },
+          { en: "Matthew McConaughey", es: "Matthew McConaughey", de: "Matthew McConaughey", nl: "Matthew McConaughey" },
+          { en: "Jared Leto", es: "Jared Leto", de: "Jared Leto", nl: "Jared Leto" },
+          { en: "Tom Hanks", es: "Tom Hanks", de: "Tom Hanks", nl: "Tom Hanks" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Christian Bale lost 63 pounds for The Machinist (2004), eating only an apple and coffee daily, then gained it back plus muscle for Batman Begins within months.",
+          es: "Christian Bale perdió 63 libras para El Maquinista (2004), comiendo solo una manzana y café diariamente, luego lo recuperó más músculo para Batman Begins en meses.",
+          de: "Christian Bale verlor 29 kg für Der Maschinist (2004), aß täglich nur einen Apfel und Kaffee, und nahm es dann plus Muskeln für Batman Begins innerhalb von Monaten wieder zu.",
+          nl: "Christian Bale verloor 29 kg voor The Machinist (2004), waarbij hij dagelijks alleen een appel en koffie at, en het vervolgens plus spieren terugkreeg voor Batman Begins binnen enkele maanden."
+        }
+      },
+      {
+        question: {
+          en: "Which actress spent months learning American Sign Language to authentically portray a deaf character in 'Children of a Lesser God'?",
+          es: "¿Qué actriz pasó meses aprendiendo Lenguaje de Señas Americano para retratar auténticamente a un personaje sordo en 'Hijos de un Dios Menor'?",
+          de: "Welche Schauspielerin verbrachte Monate damit, Amerikanische Gebärdensprache zu lernen, um authentisch eine gehörlose Figur in 'Gottes vergessene Kinder' darzustellen?",
+          nl: "Welke actrice bracht maanden door met het leren van Amerikaanse Gebarentaal om authentiek een doof personage te portretteren in 'Children of a Lesser God'?"
+        },
+        options: [
+          { en: "Marlee Matlin", es: "Marlee Matlin", de: "Marlee Matlin", nl: "Marlee Matlin" },
+          { en: "William Hurt", es: "William Hurt", de: "William Hurt", nl: "William Hurt" },
+          { en: "Piper Laurie", es: "Piper Laurie", de: "Piper Laurie", nl: "Piper Laurie" },
+          { en: "Linda Bove", es: "Linda Bove", de: "Linda Bove", nl: "Linda Bove" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Marlee Matlin, who is actually deaf, won the Academy Award for Best Actress for Children of a Lesser God (1986), becoming the youngest Best Actress winner at 21.",
+          es: "Marlee Matlin, quien es realmente sorda, ganó el Premio de la Academia a la Mejor Actriz por Hijos de un Dios Menor (1986), convirtiéndose en la ganadora más joven de Mejor Actriz a los 21 años.",
+          de: "Marlee Matlin, die tatsächlich gehörlos ist, gewann den Academy Award für die beste Hauptdarstellerin für Gottes vergessene Kinder (1986) und wurde mit 21 Jahren die jüngste Gewinnerin der besten Hauptdarstellerin.",
+          nl: "Marlee Matlin, die daadwerkelijk doof is, won de Academy Award voor Beste Actrice voor Children of a Lesser God (1986), en werd de jongste Beste Actrice winnaar op 21-jarige leeftijd."
+        }
+      },
+      {
+        question: {
+          en: "Which actor learned to box professionally for six months and took real punches while filming 'Raging Bull'?",
+          es: "¿Qué actor aprendió a boxear profesionalmente durante seis meses y recibió golpes reales mientras filmaba 'Toro Salvaje'?",
+          de: "Welcher Schauspieler lernte sechs Monate lang professionell zu boxen und nahm echte Schläge während der Dreharbeiten zu 'Wie ein wilder Stier'?",
+          nl: "Welke acteur leerde zes maanden professioneel boksen en kreeg echte klappen tijdens het filmen van 'Raging Bull'?"
+        },
+        options: [
+          { en: "Robert De Niro", es: "Robert De Niro", de: "Robert De Niro", nl: "Robert De Niro" },
+          { en: "Joe Pesci", es: "Joe Pesci", de: "Joe Pesci", nl: "Joe Pesci" },
+          { en: "Sylvester Stallone", es: "Sylvester Stallone", de: "Sylvester Stallone", nl: "Sylvester Stallone" },
+          { en: "Jake Gyllenhaal", es: "Jake Gyllenhaal", de: "Jake Gyllenhaal", nl: "Jake Gyllenhaal" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Robert De Niro trained extensively with Jake LaMotta himself and competed in three actual boxing matches to prepare for Raging Bull, winning two of them.",
+          es: "Robert De Niro entrenó extensivamente con el propio Jake LaMotta y compitió en tres combates de boxeo reales para prepararse para Toro Salvaje, ganando dos de ellos.",
+          de: "Robert De Niro trainierte ausgiebig mit Jake LaMotta selbst und nahm an drei echten Boxkämpfen zur Vorbereitung auf Wie ein wilder Stier teil, wobei er zwei davon gewann.",
+          nl: "Robert De Niro trainde uitgebreid met Jake LaMotta zelf en nam deel aan drie echte bokswedstrijden om zich voor te bereiden op Raging Bull, waarbij hij er twee won."
         }
       }
     ]

@@ -1,6 +1,6 @@
 (function() {
     const level10Questions = [
-        {
+{
             question: {
                 en: "How does pasta cooking water pH affect texture and color during preparation?",
                 es: "¿Cómo afecta el pH del agua de cocción de pasta a la textura y el color durante la preparación?",
@@ -614,7 +614,1032 @@
                 de: "Der CO2-Fußabdruck von Pasta ist komplex: Transport macht etwa 10-15% der Gesamtemissionen aus—Versand aus Italien fügt ~0,2 kg CO2 pro kg Pasta hinzu versus lokale Produktion. Jedoch repräsentiert Weizenanbau (Düngemitteleinsatz, Bewässerung, landwirtschaftliche Praktiken) 50-60% der Emissionen. Italienischer Hartweizen, der mit nachhaltigen Praktiken angebaut wird, kann niedrigere landwirtschaftliche Emissionen haben als konventionell angebauter Weizen anderswo. Die Energiequelle der Herstellung ist wichtig—erneuerbar versus fossile Brennstoffe. Skaleneffizienz beeinflusst Emissionen pro Einheit. Studien zeigen, dass Produktionsmethode und Zutatenherkunft oft Transport-'Food Miles' überwiegen. Optimale Umweltauswahl balanciert lokale Beschaffung mit nachhaltiger Landwirtschaft und effizienter Produktion, nicht nur Nähe. Lebenszyklusanalysen bieten vollständige Bilder über einfache Entfernungsberechnungen hinaus.",
                 nl: "Pasta's koolstofvoetafdruk is complex: Transport vertegenwoordigt ongeveer 10-15% van totale emissies—verzending uit Italië voegt ~0,2 kg CO2 toe per kg pasta versus lokale productie. Echter, tarweteelt (kunstmestgebruik, irrigatie, landbouwpraktijken) vertegenwoordigt 50-60% van emissies. Italiaanse durumtarwe geteeld met duurzame praktijken kan lagere landbouwemissies hebben dan conventioneel geteelde tarwe elders. Energie-bron voor productie is belangrijk—hernieuwbaar versus fossiele brandstoffen. Schaalefficiëntie beïnvloedt emissies per eenheid. Studies tonen dat productiemethode en ingrediënt sourcing vaak transport 'food miles' overtreffen. Optimale milieukeuze balanceert lokale sourcing met duurzame landbouw en efficiënte productie, niet alleen nabijheid. Levenscyclusanalyses bieden complete beelden voorbij simpele afstandsberekeningen."
             }
+        },
+{
+        question: {
+            en: "What molecular mechanism allows certain pasta shapes to maintain al dente texture in casseroles while others become mushy?",
+            es: "¿Qué mecanismo molecular permite que ciertas formas de pasta mantengan textura al dente en cazuelas mientras otras se vuelven blandas?",
+            de: "Welcher molekulare Mechanismus ermöglicht es bestimmten Pastaformen, al dente Textur in Aufläufen zu behalten, während andere matschig werden?",
+            nl: "Welk moleculair mechanisme stelt bepaalde pastavormen in staat al dente textuur in ovenschotels te behouden terwijl anderen papperig worden?"
+        },
+        options: [
+            {
+                en: "Thick-walled tubular shapes (rigatoni, ziti) have lower surface-to-volume ratio limiting starch gelatinization and water absorption",
+                es: "Formas tubulares de paredes gruesas (rigatoni, ziti) tienen menor relación superficie-volumen limitando gelatinización de almidón y absorción de agua",
+                de: "Dickwandige röhrenförmige Formen (Rigatoni, Ziti) haben niedrigeres Oberflächen-Volumen-Verhältnis, das Stärkeverkleisterung und Wasseraufnahme begrenzt",
+                nl: "Dikwandige buisvormige vormen (rigatoni, ziti) hebben lagere oppervlakte-volumeverhouding die zetmeelverkleistering en waterabsorptie beperkt"
+            },
+            {
+                en: "Bronze-die pasta contains more protein than Teflon-die",
+                es: "Pasta de molde de bronce contiene más proteína que pasta de molde de teflón",
+                de: "Bronze-Form-Pasta enthält mehr Protein als Teflon-Form",
+                nl: "Bronzen-matrijs pasta bevat meer eiwit dan teflon-matrijs"
+            },
+            {
+                en: "Smaller pasta releases enzymes that prevent overcooking",
+                es: "Pasta más pequeña libera enzimas que previenen cocción excesiva",
+                de: "Kleinere Pasta setzt Enzyme frei, die Überkochen verhindern",
+                nl: "Kleinere pasta geeft enzymen af die overkoken voorkomt"
+            },
+            {
+                en: "Certain shapes contain added preservatives for heat stability",
+                es: "Ciertas formas contienen conservantes añadidos para estabilidad térmica",
+                de: "Bestimmte Formen enthalten zugesetzte Konservierungsstoffe für Hitzestabilität",
+                nl: "Bepaalde vormen bevatten toegevoegde conserveermiddelen voor hittestabiliteit"
+            }
+        ],
+        correctAnswer: 0,
+        explanation: {
+            en: "Thick-walled tubular pasta (rigatoni, penne, ziti) maintains texture in baked dishes due to geometry: lower surface area-to-volume ratio means less exposure to liquid/heat per unit of pasta mass. Thin strands (angel hair, vermicelli) have extremely high surface-to-volume ratios—they rapidly absorb liquid and fully gelatinize starch granules, becoming mushy. Tubes also trap air inside, providing insulation. For casseroles, choose short tubular shapes, slightly undercook (2-3 min less than al dente), and use minimal liquid since pasta will continue absorbing moisture during baking.",
+            es: "La pasta tubular de paredes gruesas (rigatoni, penne, ziti) mantiene textura en platos horneados debido a geometría: menor relación superficie-volumen significa menos exposición a líquido/calor por unidad de masa de pasta. Hebras delgadas (cabello de ángel, vermicelli) tienen relaciones superficie-volumen extremadamente altas—absorben líquido rápidamente y gelatizan completamente gránulos de almidón, volviéndose blandas. Los tubos también atrapan aire dentro, proporcionando aislamiento. Para cazuelas, elija formas tubulares cortas, cocine ligeramente menos (2-3 min menos que al dente) y use líquido mínimo ya que la pasta continuará absorbiendo humedad durante el horneado.",
+            de: "Dickwandige röhrenförmige Pasta (Rigatoni, Penne, Ziti) behält Textur in gebackenen Gerichten aufgrund von Geometrie: niedrigeres Oberflächen-Volumen-Verhältnis bedeutet weniger Exposition gegenüber Flüssigkeit/Hitze pro Einheit Pastamasse. Dünne Stränge (Engelshaar, Vermicelli) haben extrem hohe Oberflächen-Volumen-Verhältnisse—sie absorbieren schnell Flüssigkeit und verkleistern Stärkekörner vollständig, werden matschig. Röhren fangen auch Luft innen ein und bieten Isolierung. Für Aufläufe wählen Sie kurze röhrenförmige Formen, kochen Sie leicht unter (2-3 Min weniger als al dente) und verwenden Sie minimale Flüssigkeit, da Pasta während des Backens weiter Feuchtigkeit aufnimmt.",
+            nl: "Dikwandige buisvormige pasta (rigatoni, penne, ziti) behoudt textuur in gebakken gerechten door geometrie: lagere oppervlakte-volumeverhouding betekent minder blootstelling aan vloeistof/hitte per eenheid pastamassa. Dunne strengen (engelenhaar, vermicelli) hebben extreem hoge oppervlakte-volumeverhoudingen—ze absorberen snel vloeistof en verkleisteren zetmeelkorrels volledig, worden papperig. Buizen vangen ook lucht binnen op, wat isolatie biedt. Kies voor ovenschotels korte buisvormige vormen, kook licht onder (2-3 min minder dan al dente) en gebruik minimale vloeistof omdat pasta tijdens bakken verder vocht absorbeert."
         }
+    },
+    {
+        question: {
+            en: "How does the protein quality index (PQI) affect pasta's cooking performance and nutritional value?",
+            es: "¿Cómo afecta el índice de calidad proteica (PQI) el rendimiento de cocción y valor nutricional de la pasta?",
+            de: "Wie beeinflusst der Proteinqualitätsindex (PQI) die Kochleistung und den Nährwert von Pasta?",
+            nl: "Hoe beïnvloedt de eiwitkwaliteitsindex (PQI) de kookprestaties en voedingswaarde van pasta?"
+        },
+        options: [
+            {
+                en: "Higher PQI (>80) indicates strong gluten network creating firm texture, low cooking loss, and complete amino acid profile",
+                es: "PQI más alto (>80) indica red de gluten fuerte creando textura firme, baja pérdida de cocción y perfil completo de aminoácidos",
+                de: "Höherer PQI (>80) zeigt starkes Glutennetzwerk, das feste Textur, niedrigen Kochverlust und vollständiges Aminosäurenprofil erzeugt",
+                nl: "Hogere PQI (>80) duidt op sterk glutennetwerk dat stevige textuur, laag kookverlies en compleet aminozuurprofiel creëert"
+            },
+            {
+                en: "PQI measures vitamin enrichment levels required by law",
+                es: "PQI mide niveles de enriquecimiento vitamínico requeridos por ley",
+                de: "PQI misst gesetzlich vorgeschriebene Vitaminanreicherungsstufen",
+                nl: "PQI meet wettelijk verplichte vitamineverrijkingsniveaus"
+            },
+            {
+                en: "Lower PQI indicates healthier whole grain content",
+                es: "PQI más bajo indica contenido de grano integral más saludable",
+                de: "Niedrigerer PQI zeigt gesünderen Vollkorngehalt an",
+                nl: "Lagere PQI duidt op gezonder volkoren gehalte"
+            },
+            {
+                en: "PQI determines pasta shape compatibility with sauces",
+                es: "PQI determina compatibilidad de forma de pasta con salsas",
+                de: "PQI bestimmt Pasta-Form-Kompatibilität mit Soßen",
+                nl: "PQI bepaalt pastavorm compatibiliteit met sauzen"
+            }
+        ],
+        correctAnswer: 0,
+        explanation: {
+            en: "Protein Quality Index (PQI) measures pasta's protein content, gluten strength, and amino acid composition. Premium pasta has PQI >80, indicating 12-14% protein from high-quality durum wheat with strong gluten-forming proteins (gliadin and glutenin). High PQI pasta creates robust gluten networks during kneading, resulting in: firm al dente texture, minimal starch loss to cooking water (<6% dry matter loss), shape retention, and nutritionally complete protein with all essential amino acids. Low PQI pasta (<70) uses inferior wheat, cooks mushy, clouds water heavily, and has incomplete amino acid profiles requiring protein complementation from other foods.",
+            es: "El Índice de Calidad Proteica (PQI) mide el contenido de proteína de la pasta, fuerza del gluten y composición de aminoácidos. La pasta premium tiene PQI >80, indicando 12-14% de proteína de trigo duro de alta calidad con proteínas formadoras de gluten fuertes (gliadina y glutenina). La pasta de PQI alto crea redes de gluten robustas durante el amasado, resultando en: textura firme al dente, pérdida mínima de almidón al agua de cocción (<6% pérdida de materia seca), retención de forma y proteína nutricionalmente completa con todos los aminoácidos esenciales. La pasta de PQI bajo (<70) usa trigo inferior, se cocina blanda, enturbia el agua fuertemente y tiene perfiles de aminoácidos incompletos que requieren complementación proteica de otros alimentos.",
+            de: "Der Proteinqualitätsindex (PQI) misst Proteingehalt, Glutenstärke und Aminosäurenzusammensetzung von Pasta. Premium-Pasta hat PQI >80, was 12-14% Protein aus hochwertigem Hartweizen mit starken glutenbildenden Proteinen (Gliadin und Glutenin) anzeigt. Pasta mit hohem PQI erzeugt robuste Glutennetzwerke beim Kneten, was resultiert in: feste al dente Textur, minimaler Stärkeverlust ins Kochwasser (<6% Trockenmasseverlust), Formerhaltung und ernährungsphysiologisch vollständiges Protein mit allen essentiellen Aminosäuren. Pasta mit niedrigem PQI (<70) verwendet minderwertigen Weizen, kocht matschig, trübt Wasser stark und hat unvollständige Aminosäurenprofile, die Proteinergänzung aus anderen Lebensmitteln erfordern.",
+            nl: "Eiwitkwaliteitsindex (PQI) meet het eiwitgehalte, glutensterkte en aminozuursamenstelling van pasta. Premium pasta heeft PQI >80, wat 12-14% eiwit uit hoogwaardige durumtarwe met sterke glutenvormende eiwitten (gliadine en glutenine) aangeeft. Pasta met hoge PQI creëert robuuste glutennetwerken tijdens kneden, resulterend in: stevige al dente textuur, minimaal zetmeelverlies naar kookwater (<6% droge stofverlies), vormretentie en voedingskundig compleet eiwit met alle essentiële aminozuren. Pasta met lage PQI (<70) gebruikt inferieure tarwe, kookt papperig, troebelt water sterk en heeft onvolledige aminozuurprofielen die eiwitaanvulling uit ander voedsel vereisen."
+        }
+    },
+    {
+        question: {
+            en: "What is the role of lipid-binding proteins in pasta's resistance to oxidative rancidity during storage?",
+            es: "¿Cuál es el papel de las proteínas de unión a lípidos en la resistencia de la pasta a la rancidez oxidativa durante el almacenamiento?",
+            de: "Welche Rolle spielen lipidbindende Proteine bei der Resistenz von Pasta gegen oxidative Ranzigkeit während der Lagerung?",
+            nl: "Wat is de rol van lipidebindende eiwitten in pasta's weerstand tegen oxidatieve ransheid tijdens opslag?"
+        },
+        options: [
+            {
+                en: "Puroindoline proteins bind to lipids creating protective complexes that sequester unsaturated fatty acids from oxygen exposure",
+                es: "Las proteínas puroindolinas se unen a lípidos creando complejos protectores que secuestran ácidos grasos insaturados de exposición al oxígeno",
+                de: "Puroindolin-Proteine binden an Lipide und erzeugen schützende Komplexe, die ungesättigte Fettsäuren von Sauerstoffexposition abschirmen",
+                nl: "Puroindoline-eiwitten binden aan lipiden en creëren beschermende complexen die onverzadigde vetzuren afschermen van zuurstofblootstelling"
+            },
+            {
+                en: "Gluten physically blocks air pockets preventing oxygen infiltration",
+                es: "El gluten bloquea físicamente bolsas de aire previniendo infiltración de oxígeno",
+                de: "Gluten blockiert physisch Lufttaschen und verhindert Sauerstoffeindringen",
+                nl: "Gluten blokkeert fysiek luchtzakjes waardoor zuurstof-infiltratie wordt voorkomen"
+            },
+            {
+                en: "Starch molecules chemically neutralize free radicals",
+                es: "Las moléculas de almidón neutralizan químicamente radicales libres",
+                de: "Stärkemoleküle neutralisieren chemisch freie Radikale",
+                nl: "Zetmeelmoleculen neutraliseren chemisch vrije radicalen"
+            },
+            {
+                en: "Semolina naturally contains antioxidant enzymes that remain active indefinitely",
+                es: "La sémola contiene naturalmente enzimas antioxidantes que permanecen activas indefinidamente",
+                de: "Grieß enthält natürlich antioxidative Enzyme, die unbegrenzt aktiv bleiben",
+                nl: "Griesmeel bevat van nature antioxidant-enzymen die onbeperkt actief blijven"
+            }
+        ],
+        correctAnswer: 0,
+        explanation: {
+            en: "Durum wheat contains unique lipid-binding proteins called puroindolines that form protective complexes with lipids (primarily from wheat germ). These protein-lipid complexes sequester unsaturated fatty acids—the most vulnerable to oxidation—preventing contact with atmospheric oxygen. This dramatically extends pasta's shelf life (2-3 years) compared to products made from common wheat. However, whole wheat pasta has reduced protection because higher lipid content overwhelms binding capacity, and bran contains pro-oxidant enzymes (lipases, lipoxygenases). This is why whole wheat pasta has shorter shelf life (6-12 months) and can develop cardboard-like rancid flavors if stored too long or improperly.",
+            es: "El trigo duro contiene proteínas únicas de unión a lípidos llamadas puroindolinas que forman complejos protectores con lípidos (principalmente del germen de trigo). Estos complejos proteína-lípido secuestran ácidos grasos insaturados—los más vulnerables a la oxidación—previniendo contacto con oxígeno atmosférico. Esto extiende dramáticamente la vida útil de la pasta (2-3 años) en comparación con productos hechos de trigo común. Sin embargo, la pasta integral tiene protección reducida porque el mayor contenido de lípidos supera la capacidad de unión, y el salvado contiene enzimas pro-oxidantes (lipasas, lipoxigenasas). Por esto la pasta integral tiene vida útil más corta (6-12 meses) y puede desarrollar sabores rancios como cartón si se almacena demasiado tiempo o inadecuadamente.",
+            de: "Hartweizen enthält einzigartige lipidbindende Proteine namens Puroindoline, die schützende Komplexe mit Lipiden (hauptsächlich aus Weizenkeimen) bilden. Diese Protein-Lipid-Komplexe schirmen ungesättigte Fettsäuren—die anfälligsten für Oxidation—ab und verhindern Kontakt mit atmosphärischem Sauerstoff. Dies verlängert die Haltbarkeit von Pasta (2-3 Jahre) dramatisch im Vergleich zu Produkten aus gewöhnlichem Weizen. Vollkornpasta hat jedoch reduzierten Schutz, weil höherer Lipidgehalt Bindungskapazität übersteigt und Kleie pro-oxidative Enzyme (Lipasen, Lipoxygenasen) enthält. Deshalb hat Vollkornpasta kürzere Haltbarkeit (6-12 Monate) und kann pappkartonartige ranzige Aromen entwickeln, wenn zu lange oder unsachgemäß gelagert.",
+            nl: "Durumtarwe bevat unieke lipidebindende eiwitten genaamd puroindolines die beschermende complexen vormen met lipiden (voornamelijk uit tarwekiem). Deze eiwit-lipide complexen schermen onverzadigde vetzuren—de meest kwetsbare voor oxidatie—af en voorkomen contact met atmosferische zuurstof. Dit verlengt de houdbaarheid van pasta (2-3 jaar) dramatisch vergeleken met producten gemaakt van gewone tarwe. Volkoren pasta heeft echter verminderde bescherming omdat hoger lipidegehalte bindingscapaciteit overweldigt, en zemelen pro-oxidant enzymen (lipasen, lipoxygenasen) bevatten. Daarom heeft volkoren pasta kortere houdbaarheid (6-12 maanden) en kan kartonachtige ranzige smaken ontwikkelen als te lang of onjuist opgeslagen."
+        }
+    },
+    {
+        question: {
+            en: "What distinguishes 'pasta integrale' from regular pasta beyond fiber content, and why is cooking technique different?",
+            es: "¿Qué distingue la 'pasta integrale' de la pasta regular más allá del contenido de fibra, y por qué es diferente la técnica de cocción?",
+            de: "Was unterscheidet 'Pasta Integrale' von normaler Pasta jenseits des Fasergehalts, und warum ist die Kochtechnik anders?",
+            nl: "Wat onderscheidt 'pasta integrale' van gewone pasta naast vezelgehalte, en waarom is de kooktechniek verschillend?"
+        },
+        options: [
+            {
+                en: "Contains entire wheat kernel (bran/germ/endosperm) with disrupted gluten network requiring longer cooking and prone to mushiness; offers vitamins, minerals, phenolic antioxidants",
+                es: "Contiene grano de trigo entero (salvado/germen/endospermo) con red de gluten interrumpida requiriendo cocción más larga y propensa a blandura; ofrece vitaminas, minerales, antioxidantes fenólicos",
+                de: "Enthält ganzes Weizenkorn (Kleie/Keim/Endosperm) mit gestörtem Glutennetzwerk, das längeres Kochen erfordert und zu Matschigkeit neigt; bietet Vitamine, Mineralien, phenolische Antioxidantien",
+                nl: "Bevat hele tarwekorrel (zemelen/kiem/endosperm) met verstoord glutennetwerk dat langer koken vereist en vatbaar is voor papperigheid; biedt vitamines, mineralen, fenolische antioxidanten"
+            },
+            {
+                en: "Pasta made with added wheat germ only, cooks identically to regular",
+                es: "Pasta hecha solo con germen de trigo añadido, se cocina idénticamente a regular",
+                de: "Pasta nur mit zugesetztem Weizenkeim, kocht identisch zu normaler",
+                nl: "Pasta gemaakt met alleen toegevoegde tarwekiem, kookt identiek aan gewone"
+            },
+            {
+                en: "Regular pasta with brown food coloring for appearance",
+                es: "Pasta regular con colorante alimentario marrón para apariencia",
+                de: "Normale Pasta mit brauner Lebensmittelfarbe für Aussehen",
+                nl: "Gewone pasta met bruine voedselkleuring voor uiterlijk"
+            },
+            {
+                en: "Pasta fortified with isolated fiber supplements post-production",
+                es: "Pasta fortificada con suplementos de fibra aislada post-producción",
+                de: "Pasta mit isolierten Faserzusätzen nach Produktion angereichert",
+                nl: "Pasta verrijkt met geïsoleerde vezelsupplementen na productie"
+            }
+        ],
+        correctAnswer: 0,
+        explanation: {
+            en: "'Pasta integrale' (whole wheat pasta) uses the entire wheat kernel—bran (outer fiber layer), germ (nutrient-rich embryo), and endosperm (starchy interior). While nutritionally superior (3x fiber, 25% more protein, B vitamins, iron, magnesium, zinc, phenolic antioxidants), the bran particles physically disrupt gluten network formation, creating weaker structure. This requires: 1) longer cooking time (12-14 min vs. 8-10 for refined), 2) careful monitoring as it quickly goes from undercooked to mushy, 3) immediate serving as it continues softening. The germ's lipids also limit shelf life. Many Italians consider whole wheat pasta texturally inferior, preferring refined pasta's superior bite and sauce integration.",
+            es: "'Pasta integrale' (pasta integral) usa el grano de trigo entero—salvado (capa de fibra exterior), germen (embrión rico en nutrientes) y endospermo (interior almidonado). Aunque nutricionalmente superior (3x fibra, 25% más proteína, vitaminas B, hierro, magnesio, zinc, antioxidantes fenólicos), las partículas de salvado interrumpen físicamente la formación de red de gluten, creando estructura más débil. Esto requiere: 1) tiempo de cocción más largo (12-14 min vs. 8-10 para refinada), 2) monitoreo cuidadoso ya que pasa rápidamente de poco cocida a blanda, 3) servicio inmediato ya que continúa ablandándose. Los lípidos del germen también limitan la vida útil. Muchos italianos consideran la pasta integral texturalmente inferior, prefiriendo la mordida superior y integración de salsa de la pasta refinada.",
+            de: "'Pasta Integrale' (Vollkornpasta) verwendet das gesamte Weizenkorn—Kleie (äußere Faserschicht), Keim (nährstoffreicher Embryo) und Endosperm (stärkereiches Inneres). Obwohl ernährungsphysiologisch überlegen (3x Ballaststoffe, 25% mehr Protein, B-Vitamine, Eisen, Magnesium, Zink, phenolische Antioxidantien), stören die Kleiepartikel physisch die Glutennetzwerkbildung und erzeugen schwächere Struktur. Dies erfordert: 1) längere Kochzeit (12-14 Min vs. 8-10 für raffiniert), 2) sorgfältige Überwachung, da sie schnell von ungekocht zu matschig wechselt, 3) sofortiges Servieren, da sie weiter erweicht. Die Lipide des Keims begrenzen auch Haltbarkeit. Viele Italiener betrachten Vollkornpasta texturell als minderwertig und bevorzugen raffinierten Pasta überlegenen Biss und Soßenintegration.",
+            nl: "'Pasta integrale' (volkoren pasta) gebruikt de hele tarwekorrel—zemelen (buitenste vezellaag), kiem (voedingrijke embryo) en endosperm (zetmeelrijk binnenste). Hoewel voedingskundig superieur (3x vezels, 25% meer eiwit, B-vitamines, ijzer, magnesium, zink, fenolische antioxidanten), verstoren de zemeldeeltjes fysisch glutennetwerkvorming, wat zwakkere structuur creëert. Dit vereist: 1) langere kooktijd (12-14 min vs. 8-10 voor geraffineerd), 2) zorgvuldige monitoring omdat het snel van ongaar naar papperig gaat, 3) onmiddellijk serveren omdat het blijft verzachten. De lipiden van de kiem beperken ook houdbaarheid. Veel Italianen beschouwen volkoren pasta als textureel inferieur, met voorkeur voor de superieure beet en sausintegratie van geraffineerde pasta."
+        }
+    },
+    {
+        question: {
+            en: "What is the biochemical basis for pasta's lower glycemic index compared to bread made from the same flour?",
+            es: "¿Cuál es la base bioquímica del índice glucémico más bajo de la pasta en comparación con el pan hecho de la misma harina?",
+            de: "Was ist die biochemische Basis für Pasta's niedrigeren glykämischen Index im Vergleich zu Brot aus demselben Mehl?",
+            nl: "Wat is de biochemische basis voor pasta's lagere glycemische index vergeleken met brood gemaakt van hetzelfde meel?"
+        },
+        options: [
+            {
+                en: "Dense gluten matrix from mechanical kneading physically entraps starch granules, limiting amylase enzyme access and slowing digestion rate",
+                es: "Matriz de gluten densa del amasado mecánico atrapa físicamente gránulos de almidón, limitando acceso de enzima amilasa y ralentizando tasa de digestión",
+                de: "Dichte Glutenmatrix durch mechanisches Kneten fängt physisch Stärkekörner ein, begrenzt Amylase-Enzym-Zugang und verlangsamt Verdauungsrate",
+                nl: "Dichte glutenmatrix door mechanisch kneden vangt fysiek zetmeelkorrels, beperkt amylase-enzymtoegang en vertraagt verteringssnelheid"
+            },
+            {
+                en: "Pasta contains added resistant starch supplements during production",
+                es: "La pasta contiene suplementos de almidón resistente añadidos durante producción",
+                de: "Pasta enthält zugesetzte resistente Stärkezusätze während Produktion",
+                nl: "Pasta bevat toegevoegde resistente zetmeelsupplementen tijdens productie"
+            },
+            {
+                en: "Boiling water destroys glucose molecules in pasta but not bread",
+                es: "El agua hirviendo destruye moléculas de glucosa en pasta pero no en pan",
+                de: "Kochendes Wasser zerstört Glukosemoleküle in Pasta aber nicht in Brot",
+                nl: "Kokend water vernietigt glucosemoleculen in pasta maar niet in brood"
+            },
+            {
+                en: "Bread fermentation creates simple sugars absent in pasta",
+                es: "La fermentación del pan crea azúcares simples ausentes en pasta",
+                de: "Brotfermentation erzeugt einfache Zucker, die in Pasta fehlen",
+                nl: "Broodfermentatie creëert eenvoudige suikers die afwezig zijn in pasta"
+            }
+        ],
+        correctAnswer: 0,
+        explanation: {
+            en: "Despite using identical durum wheat flour, pasta has a significantly lower glycemic index (GI 45-50) than bread (GI 70-75) due to structural differences. Pasta production involves intense mechanical kneading and extrusion under high pressure, creating an exceptionally dense, tightly-packed gluten-starch matrix. This physical barrier makes starch granules less accessible to digestive enzymes (α-amylase, glucoamylase), dramatically slowing carbohydrate breakdown and glucose absorption. Bread's porous, aerated structure from yeast fermentation allows rapid enzyme penetration. Additionally, cooking pasta al dente maintains some crystalline (ungelatinized) starch—'resistant starch'—that passes through the small intestine undigested, further lowering GI.",
+            es: "A pesar de usar harina de trigo duro idéntica, la pasta tiene un índice glucémico (IG 45-50) significativamente más bajo que el pan (IG 70-75) debido a diferencias estructurales. La producción de pasta implica amasado mecánico intenso y extrusión bajo alta presión, creando una matriz gluten-almidón excepcionalmente densa y compacta. Esta barrera física hace que los gránulos de almidón sean menos accesibles a enzimas digestivas (α-amilasa, glucoamilasa), ralentizando dramáticamente la descomposición de carbohidratos y absorción de glucosa. La estructura porosa y aireada del pan por fermentación de levadura permite penetración enzimática rápida. Además, cocinar pasta al dente mantiene algo de almidón cristalino (no gelatinizado)—'almidón resistente'—que pasa por el intestino delgado sin digerir, reduciendo aún más el IG.",
+            de: "Trotz Verwendung identischen Hartweizenmehl hat Pasta einen signifikant niedrigeren glykämischen Index (GI 45-50) als Brot (GI 70-75) aufgrund struktureller Unterschiede. Pastaproduktion beinhaltet intensives mechanisches Kneten und Extrusion unter hohem Druck, wodurch eine außergewöhnlich dichte, eng gepackte Gluten-Stärke-Matrix entsteht. Diese physische Barriere macht Stärkekörner weniger zugänglich für Verdauungsenzyme (α-Amylase, Glucoamylase), was Kohlenhydratabbau und Glukoseaufnahme dramatisch verlangsamt. Brots poröse, belüftete Struktur durch Hefefermentation ermöglicht schnelle Enzymdurchdringung. Zusätzlich erhält Pasta al dente etwas kristalline (unverkleisterte) Stärke—'resistente Stärke'—die unverdaut durch Dünndarm passiert, was GI weiter senkt.",
+            nl: "Ondanks gebruik van identiek durumtarwemeel heeft pasta een aanzienlijk lagere glycemische index (GI 45-50) dan brood (GI 70-75) door structurele verschillen. Pastaproductie omvat intensief mechanisch kneden en extrusie onder hoge druk, wat een uitzonderlijk dichte, strak-verpakte gluten-zetmeel matrix creëert. Deze fysieke barrière maakt zetmeelkorrels minder toegankelijk voor spijsverteringsenzymen (α-amylase, glucoamylase), wat koolhydraatafbraak en glucose-absorptie dramatisch vertraagt. Brood's poreuze, beluchte structuur door gistfermentatie staat snelle enzymdoordringinge toe. Bovendien behoudt pasta al dente koken wat kristallijn (onverkleisterd) zetmeel—'resistent zetmeel'—dat onverteerd door de dunne darm passeert, wat GI verder verlaagt."
+        }
+    },
+    {
+        question: {
+            en: "What is the technical explanation for why fresh egg pasta should never be cooked in the same water as dried pasta?",
+            es: "¿Cuál es la explicación técnica de por qué la pasta fresca de huevo nunca debe cocinarse en la misma agua que la pasta seca?",
+            de: "Was ist die technische Erklärung dafür, warum frische Eipasta niemals im selben Wasser wie getrocknete Pasta gekocht werden sollte?",
+            nl: "Wat is de technische verklaring waarom verse eipasta nooit in hetzelfde water moet worden gekookt als gedroogde pasta?"
+        },
+        options: [
+            {
+                en: "Fresh pasta releases egg proteins and lipids that emulsify with dried pasta's starch, creating cloudy viscous water that prevents proper cooking",
+                es: "La pasta fresca libera proteínas y lípidos de huevo que emulsionan con almidón de pasta seca, creando agua turbia viscosa que previene cocción adecuada",
+                de: "Frische Pasta setzt Eiproteine und Lipide frei, die mit Stärke getrockneter Pasta emulgieren und trübes viskoses Wasser erzeugen, das richtiges Kochen verhindert",
+                nl: "Verse pasta geeft eiwitten en lipiden af die emulgeren met gedroogde pasta's zetmeel, wat troebel visceus water creëert dat goed koken voorkomt"
+            },
+            {
+                en: "Different pasta types require different salt concentrations for optimal texture",
+                es: "Diferentes tipos de pasta requieren diferentes concentraciones de sal para textura óptima",
+                de: "Verschiedene Pasta-Typen erfordern unterschiedliche Salzkonzentrationen für optimale Textur",
+                nl: "Verschillende pastatypes vereisen verschillende zoutconcentraties voor optimale textuur"
+            },
+            {
+                en: "Fresh pasta bacteria contaminates dried pasta when sharing water",
+                es: "Las bacterias de pasta fresca contaminan pasta seca al compartir agua",
+                de: "Frische Pasta-Bakterien kontaminieren getrocknete Pasta beim Teilen von Wasser",
+                nl: "Verse pasta bacteriën besmetten gedroogde pasta bij delen van water"
+            },
+            {
+                en: "Dried pasta's higher cooking temperature damages fresh pasta proteins",
+                es: "La temperatura de cocción más alta de pasta seca daña proteínas de pasta fresca",
+                de: "Höhere Kochtemperatur getrockneter Pasta beschädigt frische Pasta-Proteine",
+                nl: "Hogere kooktemperatuur van gedroogde pasta beschadigt verse pasta-eiwitten"
+            }
+        ],
+        correctAnswer: 0,
+        explanation: {
+            en: "Fresh egg pasta and dried pasta have incompatible cooking chemistry. Fresh pasta contains egg proteins (albumin, globulins) and egg lipids (lecithin, cholesterol) that leach into cooking water. When combined with the substantial starch released by dried pasta, these compounds create oil-in-water emulsions, resulting in excessively cloudy, viscous, almost soapy water. This altered cooking medium changes heat transfer properties and prevents both pastas from cooking properly—fresh pasta becomes slimy while dried pasta can't reach proper al dente texture. Additionally, the different cooking times (2-4 min for fresh vs. 8-12 min for dried) make simultaneous cooking impractical. Always use separate pots with fresh water for each type.",
+            es: "La pasta fresca de huevo y la pasta seca tienen química de cocción incompatible. La pasta fresca contiene proteínas de huevo (albúmina, globulinas) y lípidos de huevo (lecitina, colesterol) que se filtran al agua de cocción. Cuando se combinan con el almidón sustancial liberado por la pasta seca, estos compuestos crean emulsiones de aceite en agua, resultando en agua excesivamente turbia, viscosa, casi jabonosa. Este medio de cocción alterado cambia propiedades de transferencia de calor y previene que ambas pastas se cocinen adecuadamente—la pasta fresca se vuelve viscosa mientras la pasta seca no puede alcanzar textura al dente adecuada. Además, los diferentes tiempos de cocción (2-4 min para fresca vs. 8-12 min para seca) hacen la cocción simultánea impráctico. Siempre use ollas separadas con agua fresca para cada tipo.",
+            de: "Frische Eipasta und getrocknete Pasta haben inkompatible Kochchemie. Frische Pasta enthält Eiproteine (Albumin, Globuline) und Eilipide (Lecithin, Cholesterin), die ins Kochwasser sickern. In Kombination mit der erheblichen Stärke, die von getrockneter Pasta freigesetzt wird, erzeugen diese Verbindungen Öl-in-Wasser-Emulsionen, was zu übermäßig trübem, viskosem, fast seifigem Wasser führt. Dieses veränderte Kochmedium ändert Wärmeübertragungseigenschaften und verhindert, dass beide Pastas richtig kochen—frische Pasta wird schleimig, während getrocknete Pasta keine richtige al dente Textur erreichen kann. Zusätzlich machen unterschiedliche Kochzeiten (2-4 Min für frisch vs. 8-12 Min für getrocknet) gleichzeitiges Kochen unpraktisch. Verwenden Sie immer separate Töpfe mit frischem Wasser für jeden Typ.",
+            nl: "Verse eipasta en gedroogde pasta hebben incompatibele kookchemie. Verse pasta bevat eiwitten (albumine, globulines) en ei-lipiden (lecithine, cholesterol) die in kookwater lekken. Wanneer gecombineerd met het substantiële zetmeel vrijgegeven door gedroogde pasta, creëren deze verbindingen olie-in-water emulsies, resulterend in buitensporig troebel, visceus, bijna zeepachtig water. Dit veranderde kookmedium verandert warmteoverdrachts-eigenschappen en voorkomt dat beide pasta's goed koken—verse pasta wordt slijmerig terwijl gedroogde pasta geen juiste al dente textuur kan bereiken. Bovendien maken verschillende kooktijden (2-4 min voor vers vs. 8-12 min voor gedroogd) gelijktijdig koken onpraktisch. Gebruik altijd aparte pannen met vers water voor elk type."
+        }
+    },
+    {
+        question: {
+            en: "What is the significance of 'critical moisture content' in industrial pasta drying, and what happens if this threshold is violated?",
+            es: "¿Cuál es la importancia del 'contenido crítico de humedad' en el secado industrial de pasta, y qué sucede si se viola este umbral?",
+            de: "Was ist die Bedeutung des 'kritischen Feuchtigkeitsgehalts' beim industriellen Pastatrocknen, und was passiert, wenn diese Schwelle verletzt wird?",
+            nl: "Wat is de betekenis van 'kritisch vochtgehalte' in industrieel pasta drogen, en wat gebeurt er als deze drempel wordt geschonden?"
+        },
+        options: [
+            {
+                en: "12.5% moisture maximum prevents microbial growth; exceeding causes mold/bacteria, while too-rapid drying below causes stress cracks from differential shrinkage",
+                es: "12.5% humedad máxima previene crecimiento microbiano; exceder causa moho/bacterias, mientras secado demasiado rápido debajo causa grietas por estrés de contracción diferencial",
+                de: "12,5% Feuchtigkeit maximal verhindert mikrobielles Wachstum; Überschreiten verursacht Schimmel/Bakterien, während zu schnelles Trocknen darunter Spannungsrisse durch differentielle Schrumpfung verursacht",
+                nl: "12,5% vocht maximum voorkomt microbiële groei; overschrijding veroorzaakt schimmel/bacteriën, terwijl te snel drogen eronder stressscheuren veroorzaakt door differentiële krimp"
+            },
+            {
+                en: "Moisture content determines pasta color, with drier pasta appearing darker",
+                es: "El contenido de humedad determina color de pasta, con pasta más seca pareciendo más oscura",
+                de: "Feuchtigkeitsgehalt bestimmt Pastafarbe, wobei trockenere Pasta dunkler erscheint",
+                nl: "Vochtgehalte bepaalt pastakleur, waarbij droger pasta donkerder verschijnt"
+            },
+            {
+                en: "Higher moisture improves nutritional value by preserving vitamins",
+                es: "Mayor humedad mejora valor nutricional preservando vitaminas",
+                de: "Höhere Feuchtigkeit verbessert Nährwert durch Vitaminerhaltung",
+                nl: "Hoger vocht verbetert voedingswaarde door vitamines te behouden"
+            },
+            {
+                en: "Moisture content affects only packaging requirements, not quality",
+                es: "El contenido de humedad afecta solo requisitos de empaque, no calidad",
+                de: "Feuchtigkeitsgehalt betrifft nur Verpackungsanforderungen, nicht Qualität",
+                nl: "Vochtgehalte beïnvloedt alleen verpakkingsvereisten, niet kwaliteit"
+            }
+        ],
+        correctAnswer: 0,
+        explanation: {
+            en: "Critical moisture content for dried pasta is precisely 12.5% (mandated by Italian law and international standards). Below this threshold, water activity (aw) drops below 0.60, making the product shelf-stable by preventing bacterial, mold, and yeast growth. However, achieving this requires careful controlled drying: if moisture is removed too rapidly, the surface dries faster than the interior, creating stress gradients. The outer layer shrinks while the wet core resists, causing internal stress cracks, checking (surface cracks), and pasta that breaks during cooking. Optimal drying uses slow temperature ramping (10-16 hours low-temp, or 24-48 hours for premium artisanal pasta) to equilibrate moisture throughout the pasta cross-section.",
+            es: "El contenido crítico de humedad para pasta seca es precisamente 12.5% (mandado por ley italiana y estándares internacionales). Debajo de este umbral, la actividad del agua (aw) cae debajo de 0.60, haciendo el producto estable en estante al prevenir crecimiento bacteriano, de moho y levadura. Sin embargo, lograr esto requiere secado controlado cuidadoso: si la humedad se elimina demasiado rápido, la superficie se seca más rápido que el interior, creando gradientes de estrés. La capa exterior se contrae mientras el núcleo húmedo resiste, causando grietas de estrés interno, agrietamiento (grietas superficiales) y pasta que se rompe durante la cocción. El secado óptimo usa rampa de temperatura lenta (10-16 horas baja temp, o 24-48 horas para pasta artesanal premium) para equilibrar humedad en toda la sección transversal de pasta.",
+            de: "Der kritische Feuchtigkeitsgehalt für getrocknete Pasta ist präzise 12,5% (vorgeschrieben durch italienisches Gesetz und internationale Standards). Unter dieser Schwelle fällt Wasseraktivität (aw) unter 0,60, wodurch das Produkt lagerstabil wird, indem bakterielles, Schimmel- und Hefewachstum verhindert wird. Das Erreichen erfordert jedoch sorgfältiges kontrolliertes Trocknen: Wenn Feuchtigkeit zu schnell entfernt wird, trocknet die Oberfläche schneller als das Innere, wodurch Spannungsgradienten entstehen. Die äußere Schicht schrumpft, während der feuchte Kern widersteht, was interne Spannungsrisse, Checking (Oberflächenrisse) und Pasta verursacht, die beim Kochen bricht. Optimales Trocknen verwendet langsame Temperaturrampe (10-16 Stunden Niedrigtemp oder 24-48 Stunden für Premium-Handwerkspasta), um Feuchtigkeit im gesamten Pasta-Querschnitt auszugleichen.",
+            nl: "Kritisch vochtgehalte voor gedroogde pasta is precies 12,5% (verplicht door Italiaanse wet en internationale normen). Onder deze drempel daalt wateractiviteit (aw) onder 0,60, waardoor het product houdbaar wordt door bacteriële, schimmel- en gistgroei te voorkomen. Het bereiken hiervan vereist echter zorgvuldig gecontroleerd drogen: als vocht te snel wordt verwijderd, droogt het oppervlak sneller dan het binnenste, wat stressgradiënten creëert. De buitenlaag krimpt terwijl de natte kern weerstand biedt, wat interne stressscheuren, checking (oppervlaktescheuren) en pasta veroorzaakt die tijdens koken breekt. Optimaal drogen gebruikt langzame temperatuurverhoging (10-16 uur lage temp, of 24-48 uur voor premium ambachtelijke pasta) om vocht door de gehele pasta-dwarsdoorsnede te equilibreren."
+        }
+    },
+    {
+        question: {
+            en: "What distinguishes 'pasta trafilata a freddo' (cold-extruded pasta) from conventional pasta production?",
+            es: "¿Qué distingue la 'pasta trafilata a freddo' (pasta extruida en frío) de la producción convencional de pasta?",
+            de: "Was unterscheidet 'Pasta Trafilata a Freddo' (kalt extrudierte Pasta) von konventioneller Pastaproduktion?",
+            nl: "Wat onderscheidt 'pasta trafilata a freddo' (koud-geëxtrudeerde pasta) van conventionele pastaproductie?"
+        },
+        options: [
+            {
+                en: "Extrusion at <40°C preserves wheat aroma compounds and proteins, preventing heat denaturation but requiring slower production speeds",
+                es: "Extrusión a <40°C preserva compuestos aromáticos y proteínas del trigo, previniendo desnaturalización por calor pero requiriendo velocidades de producción más lentas",
+                de: "Extrusion bei <40°C erhält Weizenaromatverbindungen und Proteine, verhindert Hitzedenaturierung, erfordert aber langsamere Produktionsgeschwindigkeiten",
+                nl: "Extrusie bij <40°C behoudt tarwe-aromaverbindingen en eiwitten, voorkomt hitte-denaturatie maar vereist langzamere productie snelheden"
+            },
+            {
+                en: "Pasta is frozen during extrusion to create unique crystalline structure",
+                es: "La pasta se congela durante extrusión para crear estructura cristalina única",
+                de: "Pasta wird während Extrusion gefroren, um einzigartige kristalline Struktur zu erzeugen",
+                nl: "Pasta wordt bevroren tijdens extrusie om unieke kristallijne structuur te creëren"
+            },
+            {
+                en: "Cold water instead of hot is used in dough mixing",
+                es: "Se usa agua fría en lugar de caliente en mezcla de masa",
+                de: "Kaltes Wasser statt heißem wird beim Teigmischen verwendet",
+                nl: "Koud water in plaats van warm wordt gebruikt bij deegmenging"
+            },
+            {
+                en: "Pasta is refrigerated immediately after shaping before drying",
+                es: "La pasta se refrigera inmediatamente después de moldear antes de secar",
+                de: "Pasta wird sofort nach Formung vor Trocknung gekühlt",
+                nl: "Pasta wordt onmiddellijk na vormen voor drogen gekoeld"
+            }
+        ],
+        correctAnswer: 0,
+        explanation: {
+            en: "'Pasta trafilata a freddo' (cold-extruded pasta) is premium pasta extruded at temperatures below 40°C (versus conventional 50-80°C). The friction and pressure of extrusion normally generate significant heat, but cold extrusion uses slower speeds, specialized cooling systems, and sometimes pre-chilled ingredients to maintain low temperatures. Benefits: 1) preserves volatile aroma compounds (aldehydes, ketones) that give pasta fresh wheat scent, 2) prevents protein denaturation maintaining optimal gluten network, 3) protects heat-sensitive nutrients and natural yellow pigments. Downsides: dramatically slower production (40-60% lower output), higher costs, requiring premium pricing. The result is pasta with noticeably superior aroma and bright color.",
+            es: "'Pasta trafilata a freddo' (pasta extruida en frío) es pasta premium extruida a temperaturas debajo de 40°C (versus convencional 50-80°C). La fricción y presión de extrusión normalmente generan calor significativo, pero extrusión en frío usa velocidades más lentas, sistemas de enfriamiento especializados y a veces ingredientes pre-enfriados para mantener temperaturas bajas. Beneficios: 1) preserva compuestos aromáticos volátiles (aldehídos, cetonas) que dan a pasta aroma de trigo fresco, 2) previene desnaturalización de proteínas manteniendo red de gluten óptima, 3) protege nutrientes sensibles al calor y pigmentos amarillos naturales. Desventajas: producción dramáticamente más lenta (40-60% menor producción), costos más altos, requiriendo precios premium. El resultado es pasta con aroma notablemente superior y color brillante.",
+            de: "'Pasta Trafilata a Freddo' (kalt extrudierte Pasta) ist Premium-Pasta, die bei Temperaturen unter 40°C extrudiert wird (versus konventionell 50-80°C). Reibung und Druck der Extrusion erzeugen normalerweise erhebliche Hitze, aber kalte Extrusion verwendet langsamere Geschwindigkeiten, spezialisierte Kühlsysteme und manchmal vorgekühlte Zutaten, um niedrige Temperaturen zu halten. Vorteile: 1) erhält flüchtige Aromaverbindungen (Aldehyde, Ketone), die Pasta frischen Weizenduft geben, 2) verhindert Proteindenaturierung und erhält optimales Glutennetzwerk, 3) schützt hitzeempfindliche Nährstoffe und natürliche gelbe Pigmente. Nachteile: dramatisch langsamere Produktion (40-60% niedrigerer Ausstoß), höhere Kosten, erfordert Premium-Preise. Das Ergebnis ist Pasta mit merklich überlegenem Aroma und heller Farbe.",
+            nl: "'Pasta trafilata a freddo' (koud-geëxtrudeerde pasta) is premium pasta geëxtrudeerd bij temperaturen onder 40°C (versus conventioneel 50-80°C). De wrijving en druk van extrusie genereren normaal aanzienlijke warmte, maar koude extrusie gebruikt langzamere snelheden, gespecialiseerde koelsystemen en soms voorgekoelde ingrediënten om lage temperaturen te handhaven. Voordelen: 1) behoudt vluchtige aromaverbindingen (aldehyden, ketonen) die pasta verse tarwegeur geven, 2) voorkomt eiwit-denaturatie en handhaaft optimaal glutennetwerk, 3) beschermt hittegevoetige voedingsstoffen en natuurlijke gele pigmenten. Nadelen: dramatisch langzamere productie (40-60% lagere output), hogere kosten, vereist premium prijzen. Het resultaat is pasta met merkbaar superieur aroma en heldere kleur."
+        }
+    },
+    {
+        question: {
+            en: "What is the molecular mechanism behind 'pasta madre' (sourdough) pasta, and how does fermentation alter its properties?",
+            es: "¿Cuál es el mecanismo molecular detrás de la 'pasta madre' (pasta de masa madre), y cómo altera la fermentación sus propiedades?",
+            de: "Was ist der molekulare Mechanismus hinter 'Pasta Madre' (Sauerteig-Pasta), und wie verändert Fermentation ihre Eigenschaften?",
+            nl: "Wat is het moleculaire mechanisme achter 'pasta madre' (zuurdesem) pasta, en hoe verandert fermentatie de eigenschappen?"
+        },
+        options: [
+            {
+                en: "Lactobacilli and yeast pre-digest complex carbohydrates, producing organic acids that lower pH (4.5-5.0), enhance mineral bioavailability, and create unique tangy flavor",
+                es: "Lactobacilos y levadura pre-digieren carbohidratos complejos, produciendo ácidos orgánicos que bajan pH (4.5-5.0), mejoran biodisponibilidad mineral y crean sabor ácido único",
+                de: "Laktobazillen und Hefe verdauen komplexe Kohlenhydrate vor, produzieren organische Säuren, die pH (4,5-5,0) senken, Mineral-Bioverfügbarkeit verbessern und einzigartigen würzigen Geschmack erzeugen",
+                nl: "Lactobacillen en gist verteren complexe koolhydraten voor, produceren organische zuren die pH (4,5-5,0) verlagen, mineraal biobeschikbaarheid verbeteren en unieke pittige smaak creëren"
+            },
+            {
+                en: "Fermentation adds probiotic bacteria that survive cooking process",
+                es: "La fermentación añade bacterias probióticas que sobreviven proceso de cocción",
+                de: "Fermentation fügt probiotische Bakterien hinzu, die Kochprozess überleben",
+                nl: "Fermentatie voegt probiotische bacteriën toe die het kookproces overleven"
+            },
+            {
+                en: "Yeast creates air pockets making pasta lighter and fluffier",
+                es: "La levadura crea bolsas de aire haciendo pasta más ligera y esponjosa",
+                de: "Hefe erzeugt Lufttaschen, die Pasta leichter und fluffiger machen",
+                nl: "Gist creëert luchtzakjes die pasta lichter en luchtiger maken"
+            },
+            {
+                en: "Fermentation breaks down all gluten proteins making pasta gluten-free",
+                es: "La fermentación descompone todas las proteínas de gluten haciendo pasta sin gluten",
+                de: "Fermentation baut alle Glutenproteine ab und macht Pasta glutenfrei",
+                nl: "Fermentatie breekt alle gluteneiwitten af waardoor pasta glutenvrij wordt"
+            }
+        ],
+        correctAnswer: 0,
+        explanation: {
+            en: "Sourdough pasta (rare artisanal product) incorporates 'pasta madre' (sourdough starter) into the dough, fermenting for 12-24 hours before shaping and drying. Lactobacillus bacteria and wild yeasts metabolize wheat carbohydrates, producing lactic and acetic acids that lower dough pH to 4.5-5.0. Benefits: 1) Enhanced mineral bioavailability—acids chelate phytic acid, releasing bound minerals (iron, zinc, magnesium), 2) Partial protein hydrolysis creating unique umami flavors and potentially improved digestibility, 3) Extended shelf life from antimicrobial organic acids, 4) Complex flavor profile with subtle tanginess. The fermentation doesn't eliminate gluten but may modify its structure. This is experimental; traditional Italian pasta is never fermented.",
+            es: "La pasta de masa madre (producto artesanal raro) incorpora 'pasta madre' (iniciador de masa madre) en la masa, fermentando 12-24 horas antes de moldear y secar. Bacterias Lactobacillus y levaduras silvestres metabolizan carbohidratos de trigo, produciendo ácidos láctico y acético que bajan pH de masa a 4.5-5.0. Beneficios: 1) Biodisponibilidad mineral mejorada—ácidos quelan ácido fítico, liberando minerales unidos (hierro, zinc, magnesio), 2) Hidrólisis parcial de proteínas creando sabores umami únicos y potencialmente digestibilidad mejorada, 3) Vida útil extendida por ácidos orgánicos antimicrobianos, 4) Perfil de sabor complejo con acidez sutil. La fermentación no elimina gluten pero puede modificar su estructura. Esto es experimental; la pasta italiana tradicional nunca se fermenta.",
+            de: "Sauerteig-Pasta (seltenes handwerkliches Produkt) inkorporiert 'Pasta Madre' (Sauerteigstarter) in den Teig, fermentiert 12-24 Stunden vor Formung und Trocknung. Laktobazillen-Bakterien und Wildhefe metabolisieren Weizenkohlenhydrate und produzieren Milch- und Essigsäuren, die Teig-pH auf 4,5-5,0 senken. Vorteile: 1) Verbesserte Mineral-Bioverfügbarkeit—Säuren chelatieren Phytinsäure und setzen gebundene Mineralien frei (Eisen, Zink, Magnesium), 2) Partielle Proteinhydrolyse erzeugt einzigartige Umami-Aromen und möglicherweise verbesserte Verdaulichkeit, 3) Verlängerte Haltbarkeit durch antimikrobielle organische Säuren, 4) Komplexes Geschmacksprofil mit subtiler Würze. Fermentation eliminiert Gluten nicht, kann aber seine Struktur modifizieren. Dies ist experimentell; traditionelle italienische Pasta wird niemals fermentiert.",
+            nl: "Zuurdesem pasta (zeldzaam ambachtelijk product) incorporeert 'pasta madre' (zuurdesemstarter) in het deeg, fermenteert 12-24 uur voor vormen en drogen. Lactobacillus-bacteriën en wilde gisten metaboliseren tarwekoolhydraten, produceren melk- en azijnzuren die deeg-pH verlagen tot 4,5-5,0. Voordelen: 1) Verbeterde mineraal biobeschikbaarheid—zuren cheleren fytinezuur, maken gebonden mineralen vrij (ijzer, zink, magnesium), 2) Gedeeltelijke eiwithydrolyse creëert unieke umami-smaken en mogelijk verbeterde verteerbaarheid, 3) Verlengde houdbaarheid door antimicrobiële organische zuren, 4) Complex smaakprofiel met subtiele pittigheid. Fermentatie elimineert gluten niet maar kan structuur wijzigen. Dit is experimenteel; traditionele Italiaanse pasta wordt nooit gefermenteerd."
+        }
+    },
+    {
+        question: {
+            en: "What causes 'pasta sweating' (condensation inside sealed packages) and what does it indicate about storage conditions?",
+            es: "¿Qué causa 'sudoración de pasta' (condensación dentro de paquetes sellados) y qué indica sobre condiciones de almacenamiento?",
+            de: "Was verursacht 'Pasta-Schwitzen' (Kondensation in versiegelten Packungen) und was zeigt es über Lagerbedingungen an?",
+            nl: "Wat veroorzaakt 'pasta zweten' (condensatie in verzegelde verpakkingen) en wat duidt dit aan over opslagomstandigheden?"
+        },
+        options: [
+            {
+                en: "Temperature cycling causes moisture migration from pasta interior to surface where it condenses; indicates improper storage with temperature fluctuations risking mold growth",
+                es: "Ciclos de temperatura causan migración de humedad del interior de pasta a superficie donde se condensa; indica almacenamiento inadecuado con fluctuaciones de temperatura arriesgando crecimiento de moho",
+                de: "Temperaturzyklen verursachen Feuchtigkeitsmigration vom Pastainneren zur Oberfläche, wo sie kondensiert; zeigt unsachgemäße Lagerung mit Temperaturschwankungen an, die Schimmelwachstum riskieren",
+                nl: "Temperatuurcycli veroorzaken vochtmigratie van pasta-binnenste naar oppervlak waar het condenseert; duidt op onjuiste opslag met temperatuurschommelingen die schimmelgroei riskeren"
+            },
+            {
+                en: "Normal breathing of semolina releasing water vapor",
+                es: "Respiración normal de sémola liberando vapor de agua",
+                de: "Normales Atmen von Grieß, das Wasserdampf freisetzt",
+                nl: "Normale ademhaling van griesmeel die waterdamp vrijgeeft"
+            },
+            {
+                en: "Chemical reaction between pasta and packaging material",
+                es: "Reacción química entre pasta y material de empaque",
+                de: "Chemische Reaktion zwischen Pasta und Verpackungsmaterial",
+                nl: "Chemische reactie tussen pasta en verpakkingsmateriaal"
+            },
+            {
+                en: "Sign of superior quality pasta with high mineral content",
+                es: "Señal de pasta de calidad superior con alto contenido mineral",
+                de: "Zeichen für hochwertige Pasta mit hohem Mineralgehalt",
+                nl: "Teken van superieure kwaliteit pasta met hoog mineraalgehalte"
+            }
+        ],
+        correctAnswer: 0,
+        explanation: {
+            en: "'Pasta sweating' occurs when sealed pasta experiences temperature fluctuations during storage or transport. Pasta contains residual moisture (~12.5%) in equilibrium with its environment. When temperature rises, moisture migrates from the pasta's interior to the cooler surface. If the package then cools (e.g., moving from hot warehouse to cold retail shelf), this surface moisture condenses as visible water droplets on pasta or package interior. This indicates: 1) improper storage conditions with temperature cycling, 2) risk of localized moisture increase above safe water activity (aw >0.60), enabling mold/bacterial growth, 3) potential quality degradation. Proper pasta storage maintains constant cool (15-20°C), dry conditions. Consumers should avoid purchasing 'sweating' packages.",
+            es: "'Sudoración de pasta' ocurre cuando pasta sellada experimenta fluctuaciones de temperatura durante almacenamiento o transporte. La pasta contiene humedad residual (~12.5%) en equilibrio con su ambiente. Cuando la temperatura sube, la humedad migra del interior de la pasta a la superficie más fría. Si el paquete luego se enfría (ej., moviendo de almacén caliente a estante minorista frío), esta humedad superficial se condensa como gotas de agua visibles en pasta o interior de paquete. Esto indica: 1) condiciones de almacenamiento inadecuadas con ciclos de temperatura, 2) riesgo de aumento de humedad localizada por encima de actividad de agua segura (aw >0.60), permitiendo crecimiento de moho/bacterias, 3) potencial degradación de calidad. El almacenamiento adecuado de pasta mantiene condiciones frescas constantes (15-20°C) y secas. Los consumidores deben evitar comprar paquetes 'sudorosos'.",
+            de: "'Pasta-Schwitzen' tritt auf, wenn versiegelte Pasta während Lagerung oder Transport Temperaturschwankungen erfährt. Pasta enthält Restfeuchtigkeit (~12,5%) im Gleichgewicht mit ihrer Umgebung. Wenn Temperatur steigt, wandert Feuchtigkeit vom Pastainneren zur kühleren Oberfläche. Wenn die Packung dann abkühlt (z.B. Umzug von heißem Lager zu kaltem Einzelhandelsregal), kondensiert diese Oberflächenfeuchtigkeit als sichtbare Wassertröpfchen auf Pasta oder Packungsinneren. Dies zeigt an: 1) unsachgemäße Lagerbedingungen mit Temperaturzyklen, 2) Risiko lokaler Feuchtigkeitszunahme über sichere Wasseraktivität (aw >0,60), die Schimmel-/Bakterienwachstum ermöglicht, 3) potenzielle Qualitätsdegradation. Richtige Pastalagerung hält konstante kühle (15-20°C), trockene Bedingungen. Verbraucher sollten 'schwitzende' Packungen meiden.",
+            nl: "'Pasta zweten' treedt op wanneer verzegelde pasta temperatuurschommelingen ervaart tijdens opslag of transport. Pasta bevat residueel vocht (~12,5%) in evenwicht met zijn omgeving. Wanneer temperatuur stijgt, migreert vocht van pasta's binnenste naar het koelere oppervlak. Als de verpakking dan afkoelt (bijv. verhuizen van warm magazijn naar koud winkelschap), condenseert dit oppervlaktevocht als zichtbare waterdruppels op pasta of verpakkingsbinnenste. Dit duidt aan: 1) onjuiste opslagomstandigheden met temperatuurcycli, 2) risico op gelokaliseerde vochttoename boven veilige wateractiviteit (aw >0,60), waardoor schimmel-/bacteriële groei mogelijk wordt, 3) potentiële kwaliteitsdegradatie. Juiste pasta-opslag handhaaft constante koele (15-20°C), droge omstandigheden. Consumenten moeten 'zwetende' verpakkingen vermijden."
+        }
+    },
+    {
+        question: {
+            en: "What is the scientific basis for the traditional rule 'non si rompe mai la pasta' (never break long pasta)?",
+            es: "¿Cuál es la base científica de la regla tradicional 'non si rompe mai la pasta' (nunca romper pasta larga)?",
+            de: "Was ist die wissenschaftliche Basis für die traditionelle Regel 'non si rompe mai la pasta' (lange Pasta niemals brechen)?",
+            nl: "Wat is de wetenschappelijke basis voor de traditionele regel 'non si rompe mai la pasta' (breek nooit lange pasta)?"
+        },
+        options: [
+            {
+                en: "Breaking disrupts optimal surface-to-volume ratio and eliminates twirling mechanics; properly cooked full-length pasta fits any pot when softened in boiling water",
+                es: "Romper interrumpe relación óptima superficie-volumen y elimina mecánica de enrollado; pasta de longitud completa bien cocida cabe en cualquier olla cuando se ablanda en agua hirviendo",
+                de: "Brechen stört optimales Oberflächen-Volumen-Verhältnis und eliminiert Drehmechanik; richtig gekochte volle Länge Pasta passt in jeden Topf, wenn in kochendem Wasser erweicht",
+                nl: "Breken verstoort optimale oppervlakte-volumeverhouding en elimineert draaimechanica; goed gekookte volledige lengte pasta past in elke pan wanneer verzacht in kokend water"
+            },
+            {
+                en: "Broken pasta releases toxins from fractured starch granules",
+                es: "Pasta rota libera toxinas de gránulos de almidón fracturados",
+                de: "Gebrochene Pasta setzt Toxine aus gebrochenen Stärkekörnern frei",
+                nl: "Gebroken pasta geeft toxines af van gebroken zetmeelkorrels"
+            },
+            {
+                en: "Breaking causes immediate oxidation of wheat proteins",
+                es: "Romper causa oxidación inmediata de proteínas de trigo",
+                de: "Brechen verursacht sofortige Oxidation von Weizenproteinen",
+                nl: "Breken veroorzaakt onmiddellijke oxidatie van tarwe-eiwitten"
+            },
+            {
+                en: "Full-length pasta cooks faster due to end-to-end heat conduction",
+                es: "Pasta de longitud completa se cocina más rápido debido a conducción de calor de extremo a extremo",
+                de: "Pasta voller Länge kocht schneller aufgrund von Ende-zu-Ende-Wärmeleitung",
+                nl: "Volledige lengte pasta kookt sneller door end-to-end warmtegeleiding"
+            }
+        ],
+        correctAnswer: 0,
+        explanation: {
+            en: "The Italian commandment against breaking long pasta has both cultural and functional bases. Functionally: 1) Long pasta's length-to-thickness ratio is engineered for optimal cooking—breaking changes surface-to-volume ratio, causing broken pieces to overcook while ends remain firm, 2) Twirling mechanics require sufficient length to wrap around fork multiple times, creating the proper mouthfeel and sauce distribution, 3) There's no actual need to break pasta—simply hold dry spaghetti upright in boiling water; within 30 seconds it softens and bends, fitting into any pot. Breaking is seen as culinary ignorance in Italy. The only exception: breaking for soup (minestrone), where short pieces are functionally appropriate. For all other dishes, respect the pasta's designed architecture.",
+            es: "El mandamiento italiano contra romper pasta larga tiene bases tanto culturales como funcionales. Funcionalmente: 1) La relación longitud-grosor de pasta larga está diseñada para cocción óptima—romper cambia relación superficie-volumen, causando que piezas rotas se cocinen demasiado mientras extremos permanecen firmes, 2) La mecánica de enrollado requiere longitud suficiente para envolver alrededor del tenedor múltiples veces, creando la sensación bucal adecuada y distribución de salsa, 3) No hay necesidad real de romper pasta—simplemente sostenga espagueti seco verticalmente en agua hirviendo; dentro de 30 segundos se ablanda y dobla, cabiendo en cualquier olla. Romper se ve como ignorancia culinaria en Italia. La única excepción: romper para sopa (minestrone), donde piezas cortas son funcionalmente apropiadas. Para todos los demás platos, respete la arquitectura diseñada de la pasta.",
+            de: "Das italienische Gebot gegen Brechen langer Pasta hat sowohl kulturelle als auch funktionale Grundlagen. Funktional: 1) Das Längen-Dicken-Verhältnis langer Pasta ist für optimales Kochen konstruiert—Brechen ändert Oberflächen-Volumen-Verhältnis, wodurch gebrochene Stücke überkochen, während Enden fest bleiben, 2) Drehmechanik erfordert ausreichende Länge, um mehrmals um Gabel zu wickeln, wodurch richtiges Mundgefühl und Soßenverteilung entstehen, 3) Es gibt keinen tatsächlichen Grund, Pasta zu brechen—halten Sie einfach trockene Spaghetti aufrecht in kochendem Wasser; innerhalb 30 Sekunden erweicht sie und biegt sich, passt in jeden Topf. Brechen wird in Italien als kulinarische Unwissenheit gesehen. Einzige Ausnahme: Brechen für Suppe (Minestrone), wo kurze Stücke funktional angemessen sind. Für alle anderen Gerichte respektieren Sie die konstruierte Architektur der Pasta.",
+            nl: "Het Italiaanse gebod tegen breken van lange pasta heeft zowel culturele als functionele grondslagen. Functioneel: 1) Lange pasta's lengte-dikke verhouding is ontworpen voor optimaal koken—breken verandert oppervlakte-volumeverhouding, waardoor gebroken stukken te gaar worden terwijl uiteinden stevig blijven, 2) Draaimechanica vereist voldoende lengte om meerdere keren rond vork te wikkelen, waardoor juiste mondgevoel en sausdistributie ontstaan, 3) Er is geen werkelijke noodzaak om pasta te breken—houd gewoon droge spaghetti rechtop in kokend water; binnen 30 seconden verzacht het en buigt, past in elke pan. Breken wordt gezien als culinaire onwetendheid in Italië. Enige uitzondering: breken voor soep (minestrone), waar korte stukken functioneel geschikt zijn. Voor alle andere gerechten, respecteer de ontworpen architectuur van pasta."
+        }
+    },
+    {
+        question: {
+            en: "What is the molecular explanation for why pasta water becomes an effective emulsifier in sauces?",
+            es: "¿Cuál es la explicación molecular de por qué el agua de pasta se convierte en un emulsionante efectivo en salsas?",
+            de: "Was ist die molekulare Erklärung dafür, warum Pastawasser ein effektiver Emulgator in Soßen wird?",
+            nl: "Wat is de moleculaire verklaring waarom pastawater een effectieve emulgator wordt in sauzen?"
+        },
+        options: [
+            {
+                en: "Dissolved amylopectin has hydrophilic glucose branches and hydrophobic helical core, acting as surfactant bridging oil and water phases",
+                es: "Amilopectina disuelta tiene ramas de glucosa hidrofílicas y núcleo helicoidal hidrofóbico, actuando como surfactante uniendo fases de aceite y agua",
+                de: "Gelöstes Amylopektin hat hydrophile Glukoseverzweigungen und hydrophoben helikalen Kern, wirkt als Tensid, das Öl- und Wasserphasen verbindet",
+                nl: "Opgeloste amylopectine heeft hydrofiele glucosevertakkingen en hydrofobe spiraalvormige kern, fungeert als oppervlakteactieve stof die olie- en waterfasen verbindt"
+            },
+            {
+                en: "Salt concentration increases surface tension creating stable emulsions",
+                es: "La concentración de sal aumenta tensión superficial creando emulsiones estables",
+                de: "Salzkonzentration erhöht Oberflächenspannung und erzeugt stabile Emulsionen",
+                nl: "Zoutconcentratie verhoogt oppervlaktespanning waardoor stabiele emulsies ontstaan"
+            },
+            {
+                en: "Heat from pasta water denatures all proteins into emulsifiers",
+                es: "El calor del agua de pasta desnaturaliza todas las proteínas en emulsionantes",
+                de: "Hitze aus Pastawasser denaturiert alle Proteine zu Emulgatoren",
+                nl: "Warmte van pastawater denatureert alle eiwitten tot emulgatoren"
+            },
+            {
+                en: "Mineral content from semolina chemically bonds oil to water",
+                es: "El contenido mineral de sémola une químicamente aceite a agua",
+                de: "Mineralgehalt aus Grieß bindet chemisch Öl an Wasser",
+                nl: "Mineraalgehalte uit griesmeel bindt chemisch olie aan water"
+            }
+        ],
+        correctAnswer: 0,
+        explanation: {
+            en: "Pasta cooking water becomes a powerful natural emulsifier due to dissolved amylopectin (branched starch). Amylopectin molecules have amphiphilic properties: highly branched glucose chains (hydrophilic) surrounding a helical core region (relatively hydrophobic). In sauce, these molecules position at the oil-water interface—hydrophobic regions associate with fat droplets (olive oil, butter, guanciale fat) while hydrophilic branches extend into the aqueous phase. This prevents coalescence of fat droplets, creating stable emulsions that appear creamy and unified. Concentration matters: properly starchy pasta water (from cooking 500g pasta in 3-4L water) contains 2-3% dissolved starch—ideal for emulsification. Over-diluted water lacks sufficient starch to emulsify effectively.",
+            es: "El agua de cocción de pasta se convierte en un emulsionante natural poderoso debido a amilopectina disuelta (almidón ramificado). Las moléculas de amilopectina tienen propiedades anfifílicas: cadenas de glucosa altamente ramificadas (hidrofílicas) rodeando una región de núcleo helicoidal (relativamente hidrofóbico). En salsa, estas moléculas se posicionan en la interfaz aceite-agua—regiones hidrofóbicas se asocian con gotas de grasa (aceite de oliva, mantequilla, grasa de guanciale) mientras ramas hidrofílicas se extienden en fase acuosa. Esto previene coalescencia de gotas de grasa, creando emulsiones estables que parecen cremosas y unificadas. La concentración importa: agua de pasta con almidón adecuado (de cocinar 500g pasta en 3-4L agua) contiene 2-3% almidón disuelto—ideal para emulsificación. El agua sobre-diluida carece de almidón suficiente para emulsionar efectivamente.",
+            de: "Pastakochwasser wird zu einem starken natürlichen Emulgator aufgrund gelösten Amylopektins (verzweigte Stärke). Amylopektin-Moleküle haben amphiphile Eigenschaften: hochverzweigte Glukoseketten (hydrophil) umgeben einen helikalen Kernbereich (relativ hydrophob). In Soße positionieren sich diese Moleküle an der Öl-Wasser-Grenzfläche—hydrophobe Regionen assoziieren mit Fetttröpfchen (Olivenöl, Butter, Guanciale-Fett), während hydrophile Verzweigungen in wässrige Phase ragen. Dies verhindert Koaleszenz von Fetttröpfchen und erzeugt stabile Emulsionen, die cremig und einheitlich erscheinen. Konzentration zählt: richtig stärkehaltiges Pastawasser (vom Kochen 500g Pasta in 3-4L Wasser) enthält 2-3% gelöste Stärke—ideal für Emulgierung. Überverdünntes Wasser hat unzureichende Stärke für effektive Emulgierung.",
+            nl: "Pastakookwater wordt een krachtige natuurlijke emulgator door opgeloste amylopectine (vertakt zetmeel). Amylopectine-moleculen hebben amfifiele eigenschappen: sterk vertakte glucoseketens (hydrofiel) rondom een spiraalvormige kernregio (relatief hydrofoob). In saus positioneren deze moleculen zich op het olie-water grensvlak—hydrofobe regio's associëren met vetdruppels (olijfolie, boter, guanciale-vet) terwijl hydrofiele vertakkingen uitstrekken in de waterige fase. Dit voorkomt samensmelting van vetdruppels, waardoor stabiele emulsies ontstaan die romig en verenigd lijken. Concentratie is belangrijk: goed zetmeelrijk pastawater (van koken 500g pasta in 3-4L water) bevat 2-3% opgelost zetmeel—ideaal voor emulgering. Over-verdund water mist voldoende zetmeel voor effectieve emulgering."
+        }
+    }
+    ,{
+        question: {
+            en: "What is the role of lipoxygen ase enzymes in whole wheat pasta quality degradation?",
+            es: "¿Cuál es el papel de las enzimas lipoxigenasa en la degradación de calidad de pasta integral?",
+            de: "Welche Rolle spielen Lipoxygenase-Enzyme bei der Qualitätsdegradation von Vollkornpasta?",
+            nl: "Wat is de rol van lipoxygenase-enzymen in kwaliteitsdegradatie van volkoren pasta?"
+        },
+        options: [
+            {
+                en: "Catalyze oxidation of unsaturated fatty acids in wheat germ creating rancid off-flavors and nutrient destruction",
+                es: "Catalizan oxidación de ácidos grasos insaturados en germen de trigo creando sabores rancios desagradables y destrucción de nutrientes",
+                de: "Katalysieren Oxidation ungesättigter Fettsäuren im Weizenkeim und erzeugen ranzige Fehlaromen und Nährstoffzerstörung",
+                nl: "Katalyseren oxidatie van onverzadigde vetzuren in tarwekiem waardoor ranzige bijsmaken en voedingsstofvernietiging ontstaan"
+            },
+            {
+                en: "Strengthen gluten bonds improving pasta texture",
+                es: "Fortalecen enlaces de gluten mejorando textura de pasta",
+                de: "Stärken Glutenbindungen und verbessern Pastatextur",
+                nl: "Versterken glutenbindingen waardoor pastatextuur verbetert"
+            },
+            {
+                en: "Break down phytic acid improving mineral absorption",
+                es: "Descomponen ácido fítico mejorando absorción mineral",
+                de: "Bauen Phytinsäure ab und verbessern Mineralaufnahme",
+                nl: "Breken fytinezuur af waardoor mineraalabsorptie verbetert"
+            },
+            {
+                en: "Convert starches to resistant starch lowering glycemic index",
+                es: "Convierten almidones a almidón resistente bajando índice glucémico",
+                de: "Wandeln Stärken in resistente Stärke um und senken glykämischen Index",
+                nl: "Converteren zetmelen naar resistent zetmeel waardoor glycemische index daalt"
+            }
+        ],
+        correctAnswer: 0,
+        explanation: {
+            en: "Lipoxygenase (LOX) enzymes are naturally present in wheat bran and germ. In whole wheat pasta, these enzymes catalyze the oxidation of polyunsaturated fatty acids (linoleic, linolenic acids) in wheat germ lipids, generating hydroperoxides that degrade into volatile aldehydes and ketones—compounds responsible for cardboard-like, painty, or fishy rancid flavors. This enzymatic oxidation also destroys fat-soluble vitamins (E, carotenoids) and creates free radicals. LOX activity is minimized by: rapid drying, cool storage, using stabilized bran (heat-treated to inactivate enzymes), or adding natural antioxidants (vitamin E, rosemary extract). This is why whole wheat pasta has shorter shelf life (6-12 months) than refined pasta (2-3 years).",
+            es: "Las enzimas lipoxigenasa (LOX) están naturalmente presentes en salvado y germen de trigo. En pasta integral, estas enzimas catalizan la oxidación de ácidos grasos poliinsaturados (ácidos linoleico, linolénico) en lípidos de germen de trigo, generando hidroperóxidos que se degradan en aldehídos y cetonas volátiles—compuestos responsables de sabores rancios como cartón, pintura o pescado. Esta oxidación enzimática también destruye vitaminas liposolubles (E, carotenoides) y crea radicales libres. La actividad LOX se minimiza mediante: secado rápido, almacenamiento fresco, uso de salvado estabilizado (tratado con calor para inactivar enzimas), o adición de antioxidantes naturales (vitamina E, extracto de romero). Por esto la pasta integral tiene vida útil más corta (6-12 meses) que pasta refinada (2-3 años).",
+            de: "Lipoxygenase (LOX)-Enzyme sind natürlich in Weizenkleie und -keim vorhanden. In Vollkornpasta katalysieren diese Enzyme die Oxidation mehrfach ungesättigter Fettsäuren (Linol-, Linolensäuren) in Weizenkeim-Lipiden und erzeugen Hydroperoxide, die sich in flüchtige Aldehyde und Ketone zersetzen—Verbindungen, die für pappkartonartige, farbige oder fischige ranzige Aromen verantwortlich sind. Diese enzymatische Oxidation zerstört auch fettlösliche Vitamine (E, Carotinoide) und erzeugt freie Radikale. LOX-Aktivität wird minimiert durch: schnelle Trocknung, kühle Lagerung, Verwendung stabilisierter Kleie (wärmebehandelt zur Enzyminaktivierung) oder Zugabe natürlicher Antioxidantien (Vitamin E, Rosmarinextrakt). Deshalb hat Vollkornpasta kürzere Haltbarkeit (6-12 Monate) als raffinierte Pasta (2-3 Jahre).",
+            nl: "Lipoxygenase (LOX)-enzymen zijn natuurlijk aanwezig in tarwezemelen en -kiem. In volkoren pasta katalyseren deze enzymen de oxidatie van meervoudig onverzadigde vetzuren (linol-, linoleenzuren) in tarwekiem-lipiden, waardoor hydroperoxiden ontstaan die afbreken tot vluchtige aldehyden en ketonen—verbindingen verantwoordelijk voor kartonachtige, verfachtige of visachtige ranzige smaken. Deze enzymatische oxidatie vernietigt ook vetoplosbare vitamines (E, carotenoïden) en creëert vrije radicalen. LOX-activiteit wordt geminimaliseerd door: snelle droging, koele opslag, gebruik van gestabiliseerde zemelen (warmtebehandeld om enzymen te inactiveren), of toevoeging van natuurlijke antioxidanten (vitamine E, rozemarijnextract). Daarom heeft volkoren pasta kortere houdbaarheid (6-12 maanden) dan geraffineerde pasta (2-3 jaar)."
+        }
+    },
+    {
+        question: {
+            en: "What distinguishes 'pasta artigianale' certification beyond just being made in small batches?",
+            es: "¿Qué distingue la certificación 'pasta artigianale' más allá de solo hacerse en lotes pequeños?",
+            de: "Was unterscheidet die 'Pasta Artigianale'-Zertifizierung jenseits der bloßen Herstellung in kleinen Chargen?",
+            nl: "Wat onderscheidt 'pasta artigianale'-certificering naast alleen gemaakt worden in kleine batches?"
+        },
+        options: [
+            {
+                en: "Traditional bronze dies, slow low-temperature drying (36-50°C for 18-48 hours), and use of specific high-quality durum varieties",
+                es: "Moldes de bronce tradicionales, secado lento a baja temperatura (36-50°C por 18-48 horas) y uso de variedades específicas de trigo duro de alta calidad",
+                de: "Traditionelle Bronzeformen, langsame Niedertemperaturtrocknung (36-50°C für 18-48 Stunden) und Verwendung spezifischer hochwertiger Durums orten",
+                nl: "Traditionele bronzen matrijzen, langzame lage-temperatuur droging (36-50°C gedurende 18-48 uur) en gebruik van specifieke hoogwaardige durumvariëteiten"
+            },
+            {
+                en: "Pasta made by certified individual artisan without machinery",
+                es: "Pasta hecha por artesano individual certificado sin maquinaria",
+                de: "Pasta von zertifiziertem Einzelhandwerker ohne Maschinen hergestellt",
+                nl: "Pasta gemaakt door gecertificeerde individuele ambachtsman zonder machines"
+            },
+            {
+                en: "Production limited to family recipes passed down three generations",
+                es: "Producción limitada a recetas familiares transmitidas por tres generaciones",
+                de: "Produktion beschränkt auf Familienrezepte über drei Generationen weitergegeben",
+                nl: "Productie beperkt tot familie-recepten doorgegeven over drie generaties"
+            },
+            {
+                en: "Pasta shaped entirely by hand without any mechanical assistance",
+                es: "Pasta moldeada completamente a mano sin asistencia mecánica",
+                de: "Pasta vollständig von Hand geformt ohne mechanische Unterstützung",
+                nl: "Pasta volledig met de hand gevormd zonder mechanische hulp"
+            }
+        ],
+        correctAnswer: 0,
+        explanation: {
+            en: "'Pasta artigianale' (artisanal pasta) in Italy requires specific production methods: 1) Bronze die extrusion ('trafilatura al bronzo') creating rough, porous texture, 2) Slow drying at low temperatures (typically 36-50°C for 18-48 hours, versus industrial 80-90°C for 6-8 hours), preserving proteins, preventing excessive Maillard browning, and maintaining wheat aromatics, 3) Use of premium durum wheat varieties (often single-origin cultivars like Senatore Cappelli, Saragolla, or Timilia), 4) Small-batch production allowing quality control. The result is pasta with superior bite, sauce absorption, and flavor—but significantly higher cost due to slower production and premium ingredients. True artisanal pasta is pale golden (not dark brown) with visible texture.",
+            es: "'Pasta artigianale' (pasta artesanal) en Italia requiere métodos de producción específicos: 1) Extrusión de molde de bronce ('trafilatura al bronzo') creando textura rugosa y porosa, 2) Secado lento a bajas temperaturas (típicamente 36-50°C por 18-48 horas, versus industrial 80-90°C por 6-8 horas), preservando proteínas, previniendo dorado excesivo de Maillard y manteniendo aromáticos de trigo, 3) Uso de variedades premium de trigo duro (a menudo cultivares de origen único como Senatore Cappelli, Saragolla o Timilia), 4) Producción en lotes pequeños permitiendo control de calidad. El resultado es pasta con mordida superior, absorción de salsa y sabor—pero costo significativamente más alto debido a producción más lenta e ingredientes premium. La verdadera pasta artesanal es dorada pálida (no marrón oscura) con textura visible.",
+            de: "'Pasta Artigianale' (handwerkliche Pasta) in Italien erfordert spezifische Produktionsmethoden: 1) Bronzeform-Extrusion ('Trafilatura al Bronzo'), die raue, poröse Textur erzeugt, 2) Langsame Trocknung bei niedrigen Temperaturen (typischerweise 36-50°C für 18-48 Stunden, versus industriell 80-90°C für 6-8 Stunden), Proteine bewahrend, übermäßige Maillard-Bräunung verhindernd und Weizenaromatik erhaltend, 3) Verwendung von Premium-Hartweizensorten (oft Einzelherkunfts-Kultivare wie Senatore Cappelli, Saragolla oder Timilia), 4) Kleinchargen-Produktion, die Qualitätskontrolle ermöglicht. Das Ergebnis ist Pasta mit überlegenem Biss, Soßenaufnahme und Geschmack—aber deutlich höheren Kosten aufgrund langsamerer Produktion und Premium-Zutaten. Echte handwerkliche Pasta ist blassgelb (nicht dunkelbraun) mit sichtbarer Textur.",
+            nl: "'Pasta artigianale' (ambachtelijke pasta) in Italië vereist specifieke productiemethoden: 1) Bronzen matrijs-extrusie ('trafilatura al bronzo') die ruw, poreus textuur creëert, 2) Langzame droging bij lage temperaturen (meestal 36-50°C gedurende 18-48 uur, versus industrieel 80-90°C gedurende 6-8 uur), eiwitten behoudend, overmatige Maillard-verkleuring voorkómen end en tarwe-aromaten behoudend, 3) Gebruik van premium durumtarwevariëteiten (vaak enkele-oorsprong cultivars zoals Senatore Cappelli, Saragolla of Timilia), 4) Kleine-batch productie die kwaliteitscontrole mogelijk maakt. Het resultaat is pasta met superieure beet, sausabsorptie en smaak—maar aanzienlijk hogere kosten door langzamere productie en premium ingrediënten. Echte ambachtelijke pasta is bleek goudkleurig (niet donkerbruin) met zichtbare textuur."
+        }
+    },
+    {
+        question: {
+            en: "What is the biochemical explanation for why reheated leftover pasta has lower glycemic index than freshly cooked pasta?",
+            es: "¿Cuál es la explicación bioquímica de por qué la pasta sobrante recalentada tiene índice glucémico más bajo que pasta recién cocida?",
+            de: "Was ist die biochemische Erklärung dafür, warum aufgewärmte übriggebliebene Pasta einen niedrigeren glykämischen Index hat als frisch gekochte Pasta?",
+            nl: "Wat is de biochemische verklaring waarom opgewarmde overgebleven pasta een lagere glycemische index heeft dan vers gekookte pasta?"
+        },
+        options: [
+            {
+                en: "Cooling allows starch retrogradation—amylose chains realign into crystalline resistant starch that resists digestive enzymes",
+                es: "El enfriamiento permite retrogradación de almidón—cadenas de amilosa se realinean en almidón resistente cristalino que resiste enzimas digestivas",
+                de: "Abkühlung ermöglicht Stärkeretrogradation—Amyloseketten richten sich in kristalline resistente Stärke aus, die Verdauungsenzymen widersteht",
+                nl: "Afkoeling maakt zetmeelretrogradatie mogelijk—amylose-ketens herschikken tot kristallijn resistent zetmeel dat spijsverteringsenzymen weerstaat"
+            },
+            {
+                en: "Reheating creates new protein structures that slow carbohydrate absorption",
+                es: "Recalentar crea nuevas estructuras proteicas que ralentizan absorción de carbohidratos",
+                de: "Aufwärmen erzeugt neue Proteinstrukturen, die Kohlenhydrataufnahme verlangsamen",
+                nl: "Opwarmen creëert nieuwe eiwitstructuren die koolhydraatabsorptie vertragen"
+            },
+            {
+                en: "Bacterial fermentation during refrigeration produces resistant compounds",
+                es: "La fermentación bacteriana durante refrigeración produce compuestos resistentes",
+                de: "Bakterielle Fermentation während Kühlung produziert resistente Verbindungen",
+                nl: "Bacteriële fermentatie tijdens koeling produceert resistente verbindingen"
+            },
+            {
+                en: "Water evaporation concentrates fiber content reducing digestibility",
+                es: "La evaporación de agua concentra contenido de fibra reduciendo digestibilidad",
+                de: "Wasserverdunstung konzentriert Fasergehalt und reduziert Verdaulichkeit",
+                nl: "Waterverdamping concentreert vezelgehalte waardoor verteerbaarheid vermindert"
+            }
+        ],
+        correctAnswer: 0,
+        explanation: {
+            en: "When cooked pasta cools, it undergoes 'starch retrogradation'—a process where gelatinized amylose chains (linear starch molecules) reassociate and crystallize into more ordered structures. This retrograded starch becomes 'resistant starch type 3' (RS3)—starch that resists digestion by α-amylase in the small intestine, instead passing to the colon where it acts like dietary fiber. Studies show cooled-and-reheated pasta has 20-30% lower glycemic response than freshly cooked pasta. The effect is maximized by: cooling completely (refrigeration overnight), then reheating gently. This is why pasta salad (cold) or reheated leftover pasta has metabolic advantages despite being the same pasta. The starch crystallization is partially reversed by reheating, but significant RS3 remains.",
+            es: "Cuando la pasta cocida se enfría, sufre 'retrogradación de almidón'—un proceso donde cadenas de amilosa gelatinizadas (moléculas de almidón lineales) se reasocian y cristalizan en estructuras más ordenadas. Este almidón retrogradado se convierte en 'almidón resistente tipo 3' (RS3)—almidón que resiste digestión por α-amilasa en intestino delgado, pasando en cambio al colon donde actúa como fibra dietética. Estudios muestran que pasta enfriada y recalentada tiene respuesta glucémica 20-30% más baja que pasta recién cocida. El efecto se maximiza mediante: enfriamiento completo (refrigeración durante la noche), luego recalentamiento suave. Por esto ensalada de pasta (fría) o pasta sobrante recalentada tiene ventajas metabólicas a pesar de ser la misma pasta. La cristalización de almidón se invierte parcialmente al recalentar, pero permanece RS3 significativo.",
+            de: "Wenn gekochte Pasta abkühlt, durchläuft sie 'Stärkeretrogradation'—ein Prozess, bei dem gelatinierte Amyloseketten (lineare Stärkemoleküle) sich neu assoziieren und in geordnetere Strukturen kristallisieren. Diese retrograded Stärke wird zu 'resistente Stärke Typ 3' (RS3)—Stärke, die der Verdauung durch α-Amylase im Dünndarm widersteht und stattdessen zum Dickdarm gelangt, wo sie wie Ballaststoffe wirkt. Studien zeigen, dass gekühlte und aufgewärmte Pasta 20-30% niedrigere glykämische Reaktion hat als frisch gekochte Pasta. Der Effekt wird maximiert durch: vollständige Abkühlung (Kühlung über Nacht), dann sanftes Aufwärmen. Deshalb hat Pastasalat (kalt) oder aufgewärmte übriggebliebene Pasta metabolische Vorteile, obwohl es dieselbe Pasta ist. Die Stärkekristallisation wird durch Aufwärmen teilweise umgekehrt, aber signifikantes RS3 bleibt.",
+            nl: "Wanneer gekookte pasta afkoelt, ondergaat het 'zetmeelretrogradatie'—een proces waarbij gegelatineerde amylose-ketens (lineaire zetmeelmoleculen) zich opnieuw associëren en kristalliseren tot meer geordende structuren. Dit geretrogradeerde zetmeel wordt 'resistent zetmeel type 3' (RS3)—zetmeel dat weerstand biedt aan vertering door α-amylase in de dunne darm, in plaats daarvan naar de dikke darm gaat waar het werkt als voedingsvezel. Studies tonen dat gekoelde-en-opgewarmde pasta 20-30% lagere glycemische respons heeft dan vers gekookte pasta. Het effect wordt gemaximaliseerd door: volledig afkoelen (koeling 's nachts), dan zacht opwarmen. Daarom heeft pastasalade (koud) of opgewarmde overgebleven pasta metabole voordelen ondanks dat het dezelfde pasta is. De zetmeelkristallisatie wordt gedeeltelijk omgekeerd door opwarmen, maar significant RS3 blijft."
+        }
+    },
+    {
+        question: {
+            en: "What causes the characteristic 'white spots' sometimes visible on dried pasta surfaces?",
+            es: "¿Qué causa las características 'manchas blancas' a veces visibles en superficies de pasta seca?",
+            de: "Was verursacht die charakteristischen 'weißen Flecken', die manchmal auf getrockneten Pastaoberflächen sichtbar sind?",
+            nl: "Wat veroorzaakt de karakteristieke 'witte vlekken' soms zichtbaar op gedroogde pasta-oppervlakken?"
+        },
+        options: [
+            {
+                en: "Stress cracks ('checking') from rapid uneven drying causing differential shrinkage between surface and interior",
+                es: "Grietas por estrés ('checking') de secado rápido desigual causando contracción diferencial entre superficie e interior",
+                de: "Spannungsrisse ('Checking') durch schnelle ungleichmäßige Trocknung, die differentielle Schrumpfung zwischen Oberfläche und Inneren verursacht",
+                nl: "Stressscheuren ('checking') door snelle ongelijkmatige droging waardoor differentiële krimp tussen oppervlak en binnenste ontstaat"
+            },
+            {
+                en: "Mineral deposits from hard water used in production",
+                es: "Depósitos minerales de agua dura usada en producción",
+                de: "Mineralablagerungen aus hartem Wasser, das in Produktion verwendet wird",
+                nl: "Mineraalafzettingen van hard water gebruikt in productie"
+            },
+            {
+                en: "Beneficial mold cultures added for flavor development",
+                es: "Cultivos de moho beneficiosos añadidos para desarrollo de sabor",
+                de: "Vorteilhafte Schimmelkulturen für Geschmacksentwicklung hinzugefügt",
+                nl: "Voordelige schimmelculturen toegevoegd voor smaak ontwikkeling"
+            },
+            {
+                en: "Natural starch bloom indicating superior quality",
+                es: "Florecimiento natural de almidón indicando calidad superior",
+                de: "Natürliche Stärkeblüte, die überlegene Qualität anzeigt",
+                nl: "Natuurlijke zetmeelbloei die superieure kwaliteit aangeeft"
+            }
+        ],
+        correctAnswer: 0,
+        explanation: {
+            en: "White spots or streaks on dried pasta are 'checks'—microscopic stress cracks caused by improper drying. When pasta dries too quickly or unevenly (high temperature, low humidity, poor air circulation), the outer surface loses moisture and shrinks faster than the wet interior. This creates internal stress; the brittle dry surface cracks to relieve tension, exposing the white starchy interior. Checked pasta is structurally compromised—it breaks during handling, releases excessive starch during cooking (cloudy water), and may disintegrate. Quality pasta uses controlled slow drying with gradual temperature/humidity changes to equilibrate moisture throughout. Checks indicate poor manufacturing control. Note: White spots could also indicate mold growth if pasta was stored improperly (high humidity)—check for fuzzy texture and musty smell.",
+            es: "Las manchas o rayas blancas en pasta seca son 'checks'—grietas microscópicas por estrés causadas por secado inadecuado. Cuando la pasta se seca demasiado rápido o desigualmente (alta temperatura, baja humedad, mala circulación de aire), la superficie exterior pierde humedad y se contrae más rápido que el interior húmedo. Esto crea estrés interno; la superficie seca frágil se agrieta para aliviar tensión, exponiendo el interior almidonado blanco. La pasta con checks está estructuralmente comprometida—se rompe durante manipulación, libera almidón excesivo durante cocción (agua turbia) y puede desintegrarse. La pasta de calidad usa secado lento controlado con cambios graduales de temperatura/humedad para equilibrar humedad en toda partes. Los checks indican control de fabricación pobre. Nota: Las manchas blancas también podrían indicar crecimiento de moho si la pasta se almacenó inadecuadamente (alta humedad)—verifique textura difusa y olor a moho.",
+            de: "Weiße Flecken oder Streifen auf getrockneter Pasta sind 'Checks'—mikroskopische Spannungsrisse durch unsachgemäße Trocknung. Wenn Pasta zu schnell oder ungleichmäßig trocknet (hohe Temperatur, niedrige Luftfeuchtigkeit, schlechte Luftzirkulation), verliert die äußere Oberfläche Feuchtigkeit und schrumpft schneller als das feuchte Innere. Dies erzeugt innere Spannung; die spröde trockene Oberfläche reißt, um Spannung zu lösen, wodurch das weiße stärkehaltige Innere freigelegt wird. Gecheckte Pasta ist strukturell beeinträchtigt—sie bricht beim Handling, setzt übermäßige Stärke beim Kochen frei (trübes Wasser) und kann zerfallen. Qualitätspasta verwendet kontrollierte langsame Trocknung mit schrittweisen Temperatur-/Feuchtigkeitsänderungen, um Feuchtigkeit durchgehend auszugleichen. Checks zeigen schlechte Fertigungskontrolle an. Hinweis: Weiße Flecken könnten auch Schimmelwachstum anzeigen, wenn Pasta unsachgemäß gelagert wurde (hohe Luftfeuchtigkeit)—prüfen Sie auf flaumige Textur und muffigen Geruch.",
+            nl: "Witte vlekken of strepen op gedroogde pasta zijn 'checks'—microscopische stressscheuren veroorzaakt door onjuiste droging. Wanneer pasta te snel of ongelijkmatig droogt (hoge temperatuur, lage luchtvochtigheid, slechte luchtcirculatie), verliest het buitenoppervlak vocht en krimpt sneller dan het natte binnenste. Dit creëert interne stress; het broze droge oppervlak scheurt om spanning te verlichten, waardoor het witte zetmeelrijke binnenste wordt blootgesteld. Gecheckte pasta is structureel gecompromitteerd—het breekt tijdens handling, geeft overtollig zetmeel af tijdens koken (troebel water) en kan desintegreren. Kwaliteitspasta gebruikt gecontroleerde langzame droging met geleidelijke temperatuur/vochtigheidsveranderingen om vocht door geheel te equilibreren. Checks duiden op slechte productiecontrole. Opmerking: Witte vlekken kunnen ook schimmelgroei aanduiden als pasta onjuist werd opgeslagen (hoge luchtvochtigheid)—controleer op pluizige textuur en muffige geur."
+        }
+    },
+    {
+        question: {
+            en: "What is the technical significance of 'pasta water-to-pasta ratio' and why does it matter for cooking quality?",
+            es: "¿Cuál es la importancia técnica de la 'relación agua-pasta' y por qué importa para calidad de cocción?",
+            de: "Was ist die technische Bedeutung des 'Pastawasser-zu-Pasta-Verhältnisses' und warum ist es für Kochqualität wichtig?",
+            nl: "Wat is de technische betekenis van 'pastawater-pasta verhouding' en waarom is dit belangrijk voor kookkwaliteit?"
+        },
+        options: [
+            {
+                en: "Minimum 4-5L water per 500g pasta prevents starch concentration buildup, maintains boiling temperature, and ensures proper hydration kinetics",
+                es: "Mínimo 4-5L agua por 500g pasta previene acumulación de concentración de almidón, mantiene temperatura de ebullición y asegura cinética de hidratación adecuada",
+                de: "Mindestens 4-5L Wasser pro 500g Pasta verhindert Stärkekonzentrationsaufbau, hält Kochtemperatur und gewährleistet richtige Hydratationskinetik",
+                nl: "Minimum 4-5L water per 500g pasta voorkomt zetmeelconcentratieopbouw, handhaaft kooktemperatuur en waarborgt juiste hydratatie-kinetiek"
+            },
+            {
+                en: "More water dilutes gluten making pasta more tender",
+                es: "Más agua diluye gluten haciendo pasta más tierna",
+                de: "Mehr Wasser verdünnt Gluten und macht Pasta zarter",
+                nl: "Meer water verdunt gluten waardoor pasta zachter wordt"
+            },
+            {
+                en: "Less water concentrates minerals improving flavor",
+                es: "Menos agua concentra minerales mejorando sabor",
+                de: "Weniger Wasser konzentriert Mineralien und verbessert Geschmack",
+                nl: "Minder water concentreert mineralen waardoor smaak verbetert"
+            },
+            {
+                en: "Water ratio determines final pasta color after cooking",
+                es: "La relación de agua determina color final de pasta después de cocinar",
+                de: "Wasserverhältnis bestimmt endgültige Pastafarbe nach dem Kochen",
+                nl: "Waterverhouding bepaalt uiteindelijke pastakleur na koken"
+            }
+        ],
+        correctAnswer: 0,
+        explanation: {
+            en: "The traditional Italian ratio is 1L water per 100g pasta (5L for standard 500g package), though 4L works acceptably. Insufficient water causes problems: 1) Starch concentration—released starch accumulates, creating viscous, glue-like water that coats pasta preventing proper texture development and causing sticking, 2) Temperature drop—adding pasta to insufficient water dramatically lowers temperature; recovery time leaves pasta sitting in sub-boiling water, resulting in uneven cooking and gummy texture, 3) Crowding—pasta pieces contact each other frequently, promoting adhesion via surface starch. Excess water (>6L) is wasteful but doesn't harm quality. The starchy water from proper ratio (2-3% starch) is ideal for finishing sauces. Modern energy-conscious methods use less water (3L) but require constant stirring and accepting cloudier cooking water.",
+            es: "La proporción italiana tradicional es 1L agua por 100g pasta (5L para paquete estándar de 500g), aunque 4L funciona aceptablemente. El agua insuficiente causa problemas: 1) Concentración de almidón—el almidón liberado se acumula, creando agua viscosa similar a pegamento que cubre pasta previniendo desarrollo adecuado de textura y causando pegado, 2) Caída de temperatura—agregar pasta a agua insuficiente baja dramáticamente la temperatura; tiempo de recuperación deja pasta en agua sub-hirviendo, resultando en cocción desigual y textura gomosa, 3) Hacinamiento—piezas de pasta se contactan frecuentemente, promoviendo adhesión vía almidón superficial. El agua excesiva (>6L) es desperdicio pero no daña calidad. El agua con almidón de proporción adecuada (2-3% almidón) es ideal para terminar salsas. Los métodos modernos conscientes de energía usan menos agua (3L) pero requieren revuelo constante y aceptar agua de cocción más turbia.",
+            de: "Das traditionelle italienische Verhältnis ist 1L Wasser pro 100g Pasta (5L für Standard-500g-Packung), obwohl 4L akzeptabel funktionieren. Unzureichendes Wasser verursacht Probleme: 1) Stärkekonzentration—freigesetzte Stärke akkumuliert, erzeugt viskoses, klebriges Wasser, das Pasta überzieht, richtige Texturentwicklung verhindert und Kleben verursacht, 2) Temperaturabfall—Pasta zu unzureichendem Wasser hinzufügen senkt Temperatur dramatisch; Erholungszeit lässt Pasta in unterkochendem Wasser sitzen, was ungleichmäßiges Kochen und gummiartige Textur verursacht, 3) Überfüllung—Pastastücke kontaktieren sich häufig, fördern Adhäsion über Oberflächenstärke. Überschüssiges Wasser (>6L) ist verschwenderisch, schadet aber Qualität nicht. Das stärkehaltige Wasser aus richtigem Verhältnis (2-3% Stärke) ist ideal zum Soßen-Finish. Moderne energiebewusste Methoden verwenden weniger Wasser (3L), erfordern aber ständiges Rühren und Akzeptanz trüberen Kochwassers.",
+            nl: "De traditionele Italiaanse verhouding is 1L water per 100g pasta (5L voor standaard 500g pakket), hoewel 4L acceptabel werkt. Onvoldoende water veroorzaakt problemen: 1) Zetmeelconcentratie—vrijgegeven zetmeel accumuleert, creëert visceus, lijmachtig water dat pasta bedekt waardoor juiste textuurontwikkeling wordt voorkomen en plakken veroorzaakt, 2) Temperatuurdaling—pasta toevoegen aan onvoldoende water verlaagt temperatuur dramatisch; hersteltijd laat pasta zitten in sub-kokend water, resulterend in ongelijkmatig koken en rubberachtige textuur, 3) Overcrowding—pastastukken raken elkaar vaak, bevorderen adhesie via oppervlaktezetmeel. Overtollig water (>6L) is verspillend maar schaadt kwaliteit niet. Het zetmeelrijke water van juiste verhouding (2-3% zetmeel) is ideaal voor sausafwerking. Moderne energiebewuste methoden gebruiken minder water (3L) maar vereisen constant roeren en accepteren troebeler kookwater."
+        }
+    },
+    {
+        question: {
+            en: "What is the molecular basis for pasta's characteristic yellow-amber color in quality durum wheat pasta?",
+            es: "¿Cuál es la base molecular del característico color amarillo-ámbar de la pasta de trigo duro de calidad?",
+            de: "Was ist die molekulare Basis für die charakteristische gelb-bernsteinfarbene Farbe von Qualitäts-Hartweizen-Pasta?",
+            nl: "Wat is de moleculaire basis voor pasta's karakteristieke geel-amberkleur in kwaliteit durumtarwe pasta?"
+        },
+        options: [
+            {
+                en: "Carotenoid pigments (lutein, zeaxanthin) naturally concentrated in durum wheat endosperm, enhanced by Maillard reactions during drying",
+                es: "Pigmentos carotenoides (luteína, zeaxantina) naturalmente concentrados en endospermo de trigo duro, mejorados por reacciones de Maillard durante secado",
+                de: "Carotinoid-Pigmente (Lutein, Zeaxanthin) natürlich im Hartweizenendosperm konzentriert, durch Maillard-Reaktionen beim Trocknen verstärkt",
+                nl: "Carotenoïde pigmenten (luteïne, zeaxanthine) natuurlijk geconcentreerd in durumtarwe-endosperm, versterkt door Maillard-reacties tijdens drogen"
+            },
+            {
+                en: "Yellow dye added to meet consumer expectations for pasta appearance",
+                es: "Colorante amarillo añadido para cumplir expectativas del consumidor sobre apariencia de pasta",
+                de: "Gelber Farbstoff hinzugefügt, um Verbrauchererwartungen an Pasta-Aussehen zu erfüllen",
+                nl: "Gele kleurstof toegevoegd om consumentenverwachtingen voor pasta-uiterlijk te voldoen"
+            },
+            {
+                en: "Oxidation of wheat proteins during extrusion",
+                es: "Oxidación de proteínas de trigo durante extrusión",
+                de: "Oxidation von Weizenproteinen während Extrusion",
+                nl: "Oxidatie van tarwe-eiwitten tijdens extrusie"
+            },
+            {
+                en: "Mineral content from semolina creating golden hue",
+                es: "Contenido mineral de sémola creando tonalidad dorada",
+                de: "Mineralgehalt aus Grieß erzeugt goldenen Farbton",
+                nl: "Mineraalgehalte uit griesmeel creëert gouden tint"
+            }
+        ],
+        correctAnswer: 0,
+        explanation: {
+            en: "Durum wheat naturally contains higher concentrations of carotenoid pigments—primarily lutein and zeaxanthin—than common bread wheat. These lipophilic yellow-orange pigments are concentrated in the wheat endosperm (the starchy part used for semolina). Quality durum varieties are specifically bred for high carotenoid content (4-7 mg/kg). During pasta production, these pigments create the characteristic golden color. High-temperature drying enhances color through Maillard reactions (browning), while low-temperature artisanal drying preserves brighter, more vibrant yellow from intact carotenoids. Carotenoids are also powerful antioxidants and vitamin A precursors, adding nutritional value. Fading to pale white indicates carotenoid degradation from excessive light exposure, oxidation, or enzymatic bleaching (lipoxygenase activity)—signs of poor storage or low-quality wheat.",
+            es: "El trigo duro contiene naturalmente concentraciones más altas de pigmentos carotenoides—principalmente luteína y zeaxantina—que el trigo de pan común. Estos pigmentos lipofílicos amarillo-naranja están concentrados en el endospermo de trigo (la parte almidonada usada para sémola). Las variedades de trigo duro de calidad se crían específicamente para alto contenido de carotenoides (4-7 mg/kg). Durante la producción de pasta, estos pigmentos crean el color dorado característico. El secado a alta temperatura mejora el color a través de reacciones de Maillard (dorado), mientras el secado artesanal a baja temperatura preserva amarillo más brillante y vibrante de carotenoides intactos. Los carotenoides también son antioxidantes poderosos y precursores de vitamina A, agregando valor nutricional. La decoloración a blanco pálido indica degradación de carotenoides por exposición excesiva a luz, oxidación o blanqueamiento enzimático (actividad de lipoxigenasa)—señales de almacenamiento pobre o trigo de baja calidad.",
+            de: "Hartweizen enthält natürlich höhere Konzentrationen von Carotinoid-Pigmenten—hauptsächlich Lutein und Zeaxanthin—als gewöhnlicher Brotweizen. Diese lipophilen gelb-orangen Pigmente sind im Weizenendosperm (der stärkereichen Teil für Grieß verwendet) konzentriert. Qualitäts-Hartweizensorten werden speziell für hohen Carotinoidgehalt (4-7 mg/kg) gezüchtet. Während der Pastaproduktion erzeugen diese Pigmente die charakteristische goldene Farbe. Hochtemperaturtrocknung verstärkt Farbe durch Maillard-Reaktionen (Bräunung), während Niedertemperatur-Handwerksvertrocknung helleres, lebendigeres Gelb von intakten Carotinoiden bewahrt. Carotinoide sind auch starke Antioxidantien und Vitamin-A-Vorstufen, die Nährwert hinzufügen. Verblassen zu blassem Weiß zeigt Carotinoid-Degradation durch übermäßige Lichtexposition, Oxidation oder enzymatische Bleiche (Lipoxygenase-Aktivität)—Zeichen schlechter Lagerung oder minderwertigen Weizens.",
+            nl: "Durumtarwe bevat natuurlijk hogere concentraties carotenoïde pigmenten—voornamelijk luteïne en zeaxanthine—dan gewone broodtarwe. Deze lipofiele geel-oranje pigmenten zijn geconcentreerd in het tarwe-endosperm (het zetmeelrijke deel gebruikt voor griesmeel). Kwaliteit durumvariëteiten worden specifiek gekweekt voor hoog carotenoïdegehalte (4-7 mg/kg). Tijdens pastaproductie creëren deze pigmenten de karakteristieke gouden kleur. Hoge-temperatuur droging versterkt kleur door Maillard-reacties (verkleuring), terwijl lage-temperatuur ambachtelijke droging helderder, levendiger geel van intacte carotenoïden behoudt. Carotenoïden zijn ook krachtige antioxidanten en vitamine A-voorlopers, die voedingswaarde toevoegen. Vervagen tot bleek wit duidt carotenoïde-degradatie aan door overmatige lichtblootstelling, oxidatie of enzymatische bleken (lipoxygenase-activiteit)—tekenen van slechte opslag of lage-kwaliteit tarwe."
+        }
+    },
+    {
+        question: {
+            en: "What is the scientific basis for the Italian tradition of adding pasta to boiling water rather than cold water?",
+            es: "¿Cuál es la base científica de la tradición italiana de agregar pasta a agua hirviendo en lugar de agua fría?",
+            de: "Was ist die wissenschaftliche Basis für die italienische Tradition, Pasta in kochendes statt kaltes Wasser zu geben?",
+            nl: "Wat is de wetenschappelijke basis voor de Italiaanse traditie om pasta toe te voegen aan kokend water in plaats van koud water?"
+        },
+        options: [
+            {
+                en: "Rapid heat shock gelatinizes surface starch quickly creating protective barrier preventing excessive interior starch loss and maintaining al dente core",
+                es: "Choque térmico rápido gelatiniza almidón superficial rápidamente creando barrera protectora previniendo pérdida excesiva de almidón interior y manteniendo núcleo al dente",
+                de: "Schneller Hitzeschock verkleistert Oberflächenstärke schnell und erzeugt Schutzbarriere, die übermäßigen inneren Stärkeverlust verhindert und al dente Kern aufrechterhält",
+                nl: "Snelle hitteschok verkleistert oppervlaktezetmeel snel waardoor beschermende barrière ontstaat die overmatig binnenste zetmeelverlies voorkomt en al dente kern handhaaft"
+            },
+            {
+                en: "Cold water start dissolves all gluten proteins making pasta mushy",
+                es: "Inicio con agua fría disuelve todas las proteínas de gluten haciendo pasta blanda",
+                de: "Kaltwasserstart löst alle Glutenproteine auf und macht Pasta matschig",
+                nl: "Koude water start lost alle gluteneiwitten op waardoor pasta papperig wordt"
+            },
+            {
+                en: "Boiling water kills bacteria that would contaminate pasta",
+                es: "El agua hirviendo mata bacterias que contaminarían pasta",
+                de: "Kochendes Wasser tötet Bakterien, die Pasta kontaminieren würden",
+                nl: "Kokend water doodt bacteriën die pasta zouden besmetten"
+            },
+            {
+                en: "Hot water activates flavor compounds in semolina",
+                es: "El agua caliente activa compuestos de sabor en sémola",
+                de: "Heißes Wasser aktiviert Geschmacksstoffe in Grieß",
+                nl: "Heet water activeert smaakverbindingen in griesmeel"
+            }
+        ],
+        correctAnswer: 0,
+        explanation: {
+            en: "Adding pasta to vigorously boiling water (100°C) provides an immediate heat shock that rapidly gelatinizes the outermost starch layer (within 30-60 seconds). This creates a quickly-formed gel barrier that limits further starch leaching from the pasta interior, resulting in clearer cooking water and better texture. Starting pasta in cold water causes: 1) Prolonged exposure during gradual heating (20-30 min to boil), during which pasta sits in warm water (40-80°C)—the ideal temperature range for maximum starch dissolution and amylase enzyme activity, resulting in excessive starch loss, gummy texture, and extremely cloudy water, 2) Uneven cooking as exterior overcooks before interior is done. The boiling water method ensures: rapid, uniform cooking, minimal starch loss (<6%), and proper al dente texture with firm core. Cold-start pasta is acceptable only for specific applications like cacio e pepe where extreme starchiness is desired.",
+            es: "Agregar pasta a agua hirviendo vigorosamente (100°C) proporciona un choque térmico inmediato que gelatiniza rápidamente la capa de almidón más externa (dentro de 30-60 segundos). Esto crea una barrera de gel rápidamente formada que limita mayor filtración de almidón del interior de pasta, resultando en agua de cocción más clara y mejor textura. Comenzar pasta en agua fría causa: 1) Exposición prolongada durante calentamiento gradual (20-30 min para hervir), durante el cual pasta se asienta en agua tibia (40-80°C)—el rango de temperatura ideal para máxima disolución de almidón y actividad de enzima amilasa, resultando en pérdida excesiva de almidón, textura gomosa y agua extremadamente turbia, 2) Cocción desigual ya que exterior se cocina demasiado antes de que interior esté listo. El método de agua hirviendo asegura: cocción rápida y uniforme, pérdida mínima de almidón (<6%) y textura al dente adecuada con núcleo firme. La pasta de inicio frío es aceptable solo para aplicaciones específicas como cacio e pepe donde se desea almidón extremo.",
+            de: "Pasta in kräftig kochendes Wasser (100°C) zu geben, liefert einen sofortigen Hitzeschock, der die äußerste Stärkeschicht schnell verkleistert (innerhalb 30-60 Sekunden). Dies erzeugt eine schnell gebildete Gelbarriere, die weiteres Stärkesickern aus dem Pastainneren begrenzt, was klareres Kochwasser und bessere Textur ergibt. Pasta in kaltem Wasser zu starten verursacht: 1) Längere Exposition während schrittweiser Erhitzung (20-30 Min zum Kochen), während der Pasta in warmem Wasser (40-80°C) sitzt—der ideale Temperaturbereich für maximale Stärkeauflösung und Amylase-Enzymaktivität, was übermäßigen Stärkeverlust, gummiartige Textur und extrem trübes Wasser ergibt, 2) Ungleichmäßiges Kochen, da Außenseite überkocht, bevor Inneres fertig ist. Die Kochw assermethode gewährleistet: schnelles, gleichmäßiges Kochen, minimaler Stärkeverlust (<6%) und richtige al dente Textur mit festem Kern. Kaltstart-Pasta ist nur für spezifische Anwendungen wie Cacio e Pepe akzeptabel, wo extreme Stärkehaltigkeit gewünscht ist.",
+            nl: "Pasta toevoegen aan krachtig kokend water (100°C) biedt een onmiddellijke hitteschok die de buitenste zetmeellaag snel verkleistert (binnen 30-60 seconden). Dit creëert een snel gevormde gelbarrière die verder zetmeellekken uit het pasta-binnenste beperkt, resulterend in helderder kookwater en betere textuur. Pasta starten in koud water veroorzaakt: 1) Langdurige blootstelling tijdens geleidelijke verwarming (20-30 min tot koken), waarbij pasta zit in warm water (40-80°C)—het ideale temperatuurbereik voor maximale zetmeeloplosing en amylase-enzymactiviteit, resulterend in overmatig zetmeelverlies, rubberachtige textuur en extreem troebel water, 2) Ongelijkmatig koken omdat buitenkant te gaar wordt voordat binnenkant klaar is. De kokende watermethode waarborgt: snel, uniform koken, minimaal zetmeelverlies (<6%) en juiste al dente textuur met stevige kern. Koude-start pasta is alleen acceptabel voor specifieke toepassingen zoals cacio e pepe waar extreme zetmeelgehalte gewenst is."
+        }
+    },
+    {
+        question: {
+            en: "What causes 'feathering' or 'hairing' defects in extruded pasta shapes?",
+            es: "¿Qué causa defectos de 'plumas' o 'pelos' en formas de pasta extruidas?",
+            de: "Was verursacht 'Federung'- oder 'Behaarung'-Defekte in extrudierten Pastaformen?",
+            nl: "Wat veroorzaakt 'bevedering' of 'beharing' defecten in geëxtrudeerde pastavormen?"
+        },
+        options: [
+            {
+                en: "Weak gluten network unable to withstand extrusion shear forces, causing rough torn edges from low protein flour or over-mixed dough",
+                es: "Red de gluten débil incapaz de resistir fuerzas de cizallamiento de extrusión, causando bordes ásperos desgarrados de harina baja en proteína o masa sobre-mezclada",
+                de: "Schwaches Glutennetzwerk kann Extrusions-Scherkräften nicht standhalten, verursacht raue zerrissene Kanten durch proteinarmes Mehl oder übermischten Teig",
+                nl: "Zwak glutennetwerk kan extrusie-schuifkrachten niet weerstaan, veroorzaakt ruwe gescheurde randen door laag-eiwit meel of over-gemengd deeg"
+            },
+            {
+                en: "Excessive moisture content creating steam pockets during cutting",
+                es: "Contenido excesivo de humedad creando bolsas de vapor durante corte",
+                de: "Übermäßiger Feuchtigkeitsgehalt erzeugt Dampftaschen beim Schneiden",
+                nl: "Overtollig vochtgehalte creëert stoomzakken tijdens snijden"
+            },
+            {
+                en: "Bronze die corrosion leaving metal particles on pasta surface",
+                es: "Corrosión de molde de bronce dejando partículas metálicas en superficie de pasta",
+                de: "Bronze-Form-Korrosion hinterlässt Metallpartikel auf Pastaoberfläche",
+                nl: "Bronzen matrijs-corrosie laat metaaldeeltjes achter op pasta-oppervlak"
+            },
+            {
+                en: "Natural fiber strands from whole wheat varieties",
+                es: "Hebras de fibra natural de variedades de trigo integral",
+                de: "Natürliche Faserstränge aus Vollkornvarianten",
+                nl: "Natuurlijke vezelstrengen van volkoren variëteiten"
+            }
+        ],
+        correctAnswer: 0,
+        explanation: {
+            en: "'Feathering' or 'hairing' appears as fine, hair-like strands or rough, torn edges on extruded pasta surfaces, especially visible where pasta is cut. This defect results from weak gluten development unable to withstand the high shear forces during extrusion through dies. Causes: 1) Low-protein flour (< 12% protein)—insufficient gluten-forming proteins (gliadin/glutenin), 2) Over-hydration—too much water weakens gluten networks, 3) Over-mixing during kneading—damages gluten structure through excessive mechanical work, 4) Improper mixing time/speed—gluten needs optimal development (not undermixed, not overmixed), 5) Worn or damaged dies with sharp edges that tear rather than cleanly cut. Quality pasta has smooth, clean-cut edges. Feathering indicates poor formulation or worn equipment—acceptable for animal feed pasta, unacceptable for premium human consumption.",
+            es: "'Plumas' o 'pelos' aparecen como hebras finas parecidas a pelos o bordes ásperos y desgarrados en superficies de pasta extruida, especialmente visibles donde se corta pasta. Este defecto resulta de desarrollo de gluten débil incapaz de resistir altas fuerzas de cizallamiento durante extrusión a través de moldes. Causas: 1) Harina baja en proteína (<12% proteína)—proteínas formadoras de gluten insuficientes (gliadina/glutenina), 2) Sobre-hidratación—demasiada agua debilita redes de gluten, 3) Sobre-mezcla durante amasado—daña estructura de gluten a través de trabajo mecánico excesivo, 4) Tiempo/velocidad de mezcla inadecuados—gluten necesita desarrollo óptimo (no sub-mezclado, no sobre-mezclado), 5) Moldes desgastados o dañados con bordes afilados que desgarran en lugar de cortar limpiamente. La pasta de calidad tiene bordes lisos y limpios. Las plumas indican formulación pobre o equipo desgastado—aceptable para pasta de alimento animal, inaceptable para consumo humano premium.",
+            de: "'Federung' oder 'Behaarung' erscheint als feine, haarähnliche Stränge oder raue, zerrissene Kanten auf extrudierten Pastaoberflächen, besonders sichtbar wo Pasta geschnitten wird. Dieser Defekt resultiert aus schwacher Glutenentwicklung, die den hohen Scherkräften während Extrusion durch Formen nicht standhalten kann. Ursachen: 1) Proteinarmes Mehl (<12% Protein)—unzureichende glutenbildende Proteine (Gliadin/Glutenin), 2) Überhydratation—zu viel Wasser schwächt Glutennetzwerke, 3) Übermischen während Kneten—beschädigt Glutenstruktur durch übermäßige mechanische Arbeit, 4) Unsachgemäße Mischzeit/-geschwindigkeit—Gluten benötigt optimale Entwicklung (nicht untergemischt, nicht übergemischt), 5) Abgenutzte oder beschädigte Formen mit scharfen Kanten, die reißen statt sauber zu schneiden. Qualitätspasta hat glatte, sauber geschnittene Kanten. Federung zeigt schlechte Formulierung oder abgenutztes Equipment—akzeptabel für Tierfutter-Pasta, inakzeptabel für Premium-Menschenverzehr.",
+            nl: "'Bevedering' of 'beharing' verschijnt als fijne, haarachtige strengen of ruwe, gescheurde randen op geëxtrudeerde pasta-oppervlakken, vooral zichtbaar waar pasta wordt gesneden. Dit defect resulteert uit zwakke glutenontwikkeling die niet bestand is tegen hoge schuifkrachten tijdens extrusie door matrijzen. Oorzaken: 1) Laag-eiwit meel (<12% eiwit)—onvoldoende glutenvormende eiwitten (gliadine/glutenine), 2) Overhydratatie—te veel water verzwakt glutennetwerken, 3) Overmengen tijdens kneden—beschadigt glutenstructuur door overmatige mechanische arbeid, 4) Onjuiste mengtijd/-snelheid—gluten heeft optimale ontwikkeling nodig (niet ondergemengd, niet overgemengd), 5) Versleten of beschadigde matrijzen met scherpe randen die scheuren in plaats van schoon snijden. Kwaliteitspasta heeft gladde, schoon-gesneden randen. Bevedering duidt slechte formulering of versleten apparatuur—acceptabel voor diervoer pasta, onaanvaardbaar voor premium menselijke consumptie."
+        }
+    },
+    {
+        question: {
+            en: "What is the role of high-molecular-weight glutenin subunits (HMW-GS) in determining pasta cooking quality?",
+            es: "¿Cuál es el papel de las subunidades de glutenina de alto peso molecular (HMW-GS) en determinar calidad de cocción de pasta?",
+            de: "Welche Rolle spielen hochmolekulare Glutenin-Untereinheiten (HMW-GS) bei der Bestimmung der Pasta-Kochqualität?",
+            nl: "Wat is de rol van hoog-moleculair-gewicht glutenine-subeenheden (HMW-GS) in het bepalen van pasta kookkwaliteit?"
+        },
+        options: [
+            {
+                en: "Form elastic disulfide-bonded polymer networks providing structural integrity, firmness, and resistance to overcooking in al dente pasta",
+                es: "Forman redes poliméricas elásticas unidas por disulfuro proporcionando integridad estructural, firmeza y resistencia a cocción excesiva en pasta al dente",
+                de: "Bilden elastische disulfidgebundene Polymernetzwerke, die strukturelle Integrität, Festigkeit und Widerstand gegen Überkochen in al dente Pasta bieten",
+                nl: "Vormen elastische disulfide-gebonden polymeernetwerken die structurele integriteit, stevigheid en weerstand tegen overkoken in al dente pasta bieden"
+            },
+            {
+                en: "Increase starch content improving energy density",
+                es: "Aumentan contenido de almidón mejorando densidad energética",
+                de: "Erhöhen Stärkegehalt und verbessern Energiedichte",
+                nl: "Verhogen zetmeelgehalte waardoor energiedichtheid verbetert"
+            },
+            {
+                en: "Produce yellow pigments giving pasta characteristic color",
+                es: "Producen pigmentos amarillos dando color característico a pasta",
+                de: "Produzieren gelbe Pigmente, die Pasta charakteristische Farbe geben",
+                nl: "Produceren gele pigmenten die pasta karakteristieke kleur geven"
+            },
+            {
+                en: "Act as enzymes breaking down starches during cooking",
+                es: "Actúan como enzimas descomponiendo almidones durante cocción",
+                de: "Wirken als Enzyme, die Stärken beim Kochen abbauen",
+                nl: "Fungeren als enzymen die zetmeel afbreken tijdens koken"
+            }
+        ],
+        correctAnswer: 0,
+        explanation: {
+            en: "High-molecular-weight glutenin subunits (HMW-GS) are critical protein components that determine pasta quality. These large proteins (MW >100,000 Daltons) form the backbone of gluten networks through intermolecular disulfide bonds (cysteine residues cross-linking). During pasta production, mechanical kneading aligns HMW-GS into organized polymer networks that provide: 1) Elastic structure maintaining pasta shape during cooking, 2) Resistance to disintegration—strong networks prevent pasta from falling apart, 3) Firmness and 'bite' characteristic of al dente texture, 4) Low cooking loss—intact networks retain starch granules preventing excessive leaching. Durum wheat varieties are bred for specific HMW-GS compositions (particularly Glu-B1 locus alleles) optimized for pasta. Low HMW-GS content results in weak, mushy pasta that overcooks easily and loses structure.",
+            es: "Las subunidades de glutenina de alto peso molecular (HMW-GS) son componentes proteicos críticos que determinan calidad de pasta. Estas proteínas grandes (PM >100,000 Daltons) forman la columna vertebral de redes de gluten mediante enlaces disulfuro intermoleculares (residuos de cisteína entrecruzándose). Durante producción de pasta, amasado mecánico alinea HMW-GS en redes poliméricas organizadas que proporcionan: 1) Estructura elástica manteniendo forma de pasta durante cocción, 2) Resistencia a desintegración—redes fuertes previenen que pasta se desmorone, 3) Firmeza y 'mordida' característicos de textura al dente, 4) Baja pérdida de cocción—redes intactas retienen gránulos de almidón previniendo filtración excesiva. Las variedades de trigo duro se crían para composiciones específicas de HMW-GS (particularmente alelos de locus Glu-B1) optimizados para pasta. El bajo contenido de HMW-GS resulta en pasta débil y blanda que se cocina demasiado fácilmente y pierde estructura.",
+            de: "Hochmolekulare Glutenin-Untereinheiten (HMW-GS) sind kritische Proteinkomponenten, die Pastaqualität bestimmen. Diese großen Proteine (MW >100.000 Dalton) bilden das Rückgrat von Glutennetzwerken durch intermolekulare Disulfidbindungen (Cysteinreste vernetzen sich). Während Pastaproduktion richtet mechanisches Kneten HMW-GS in organisierten Polymernetzwerken aus, die bieten: 1) Elastische Struktur, die Pastaform beim Kochen aufrechterhält, 2) Widerstand gegen Desintegration—starke Netzwerke verhindern, dass Pasta auseinanderfällt, 3) Festigkeit und 'Biss' charakteristisch für al dente Textur, 4) Niedriger Kochverlust—intakte Netzwerke behalten Stärkekörner und verhindern übermäßiges Sickern. Hartweizenvaritäten werden für spezifische HMW-GS-Zusammensetzungen (besonders Glu-B1-Locus-Allele) optimiert für Pasta gezüchtet. Niedriger HMW-GS-Gehalt führt zu schwacher, matschiger Pasta, die leicht überkocht und Struktur verliert.",
+            nl: "Hoog-moleculair-gewicht glutenine-subeenheden (HMW-GS) zijn kritieke eiwitcomponenten die pastakwaliteit bepalen. Deze grote eiwitten (MW >100.000 Dalton) vormen de ruggengraat van glutennetwerken door intermoleculaire disulfidebindingen (cysteïne-residuen verknoopt). Tijdens pastaproductie lijnt mechanisch kneden HMW-GS uit in georganiseerde polymeernetwerken die bieden: 1) Elastische structuur die pastavorm tijdens koken handhaaft, 2) Weerstand tegen desintegratie—sterke netwerken voorkomen dat pasta uit elkaar valt, 3) Stevigheid en 'beet' karakteristiek voor al dente textuur, 4) Laag kookverlies—intacte netwerken behouden zetmeelkorrels waardoor overmatig lekken wordt voorkomen. Durumtarwevariëteiten worden gekweekt voor specifieke HMW-GS-samenstellingen (vooral Glu-B1 locus allelen) geoptimaliseerd voor pasta. Laag HMW-GS-gehalte resulteert in zwakke, papperige pasta die gemakkelijk te gaar wordt en structuur verliest."
+        }
+    },
+    {
+        question: {
+            en: "What distinguishes 'pasta di Gragnano IGP' protected geographical indication from other Italian pastas?",
+            es: "¿Qué distingue la 'pasta di Gragnano IGP' indicación geográfica protegida de otras pastas italianas?",
+            de: "Was unterscheidet 'Pasta di Gragnano IGP' geschützte geografische Angabe von anderen italienischen Pastas?",
+            nl: "Wat onderscheidt 'pasta di Gragnano IGP' beschermde geografische aanduiding van andere Italiaanse pasta's?"
+        },
+        options: [
+            {
+                en: "Must be produced in Gragnano using bronze dies, slow-dried 6-60 hours depending on format, with specific local spring water contributing mineral profile",
+                es: "Debe producirse en Gragnano usando moldes de bronce, secado lento 6-60 horas según formato, con agua de manantial local específica contribuyendo perfil mineral",
+                de: "Muss in Gragnano mit Bronzeformen hergestellt, 6-60 Stunden je nach Format langsam getrocknet werden, mit spezifischem lokalem Quellwasser, das Mineralprofil beiträgt",
+                nl: "Moet in Gragnano geproduceerd worden met bronzen matrijzen, langzaam gedroogd 6-60 uur afhankelijk van formaat, met specifiek lokaal bronwater dat mineraalprofiel bijdraagt"
+            },
+            {
+                en: "Requires use of ancient Roman wheat varieties exclusively",
+                es: "Requiere uso exclusivo de variedades de trigo romano antiguo",
+                de: "Erfordert ausschließliche Verwendung antiker römischer Weizensorten",
+                nl: "Vereist exclusief gebruik van oude Romeinse tarwevariëteiten"
+            },
+            {
+                en: "Pasta shaped entirely by hand by certified master pasta makers",
+                es: "Pasta moldeada completamente a mano por maestros fabricantes de pasta certificados",
+                de: "Pasta vollständig von Hand von zertifizierten Meisterpastamachern geformt",
+                nl: "Pasta volledig met de hand gevormd door gecertificeerde meester pastamakers"
+            },
+            {
+                en: "Protected because it was historically the favorite of Italian nobility",
+                es: "Protegida porque históricamente fue la favorita de la nobleza italiana",
+                de: "Geschützt, weil sie historisch der Favorit des italienischen Adels war",
+                nl: "Beschermd omdat het historisch de favoriet was van Italiaanse adel"
+            }
+        ],
+        correctAnswer: 0,
+        explanation: {
+            en: "'Pasta di Gragnano IGP' (Protected Geographical Indication since 2013) is premium pasta from Gragnano, a town near Naples with 500-year pasta-making tradition. IGP requirements: 1) Production within Gragnano municipality boundaries, 2) Bronze die extrusion ('trafilatura al bronzo') creating rough texture, 3) Slow drying at low temperatures—6-60 hours depending on pasta format (short vs. long), far longer than industrial pasta, 4) Use of local spring water from Lattari Mountains, rich in specific minerals contributing to dough properties and flavor, 5) Specific durum wheat semolina standards. Gragnano's unique microclimate—constant temperatures and humidity from sea breezes channeled through mountain valleys—creates ideal drying conditions. The result is exceptionally rough-textured pasta with superior sauce absorption, nutty flavor, and perfect al dente bite. Gragnano pasta commands premium prices globally.",
+            es: "'Pasta di Gragnano IGP' (Indicación Geográfica Protegida desde 2013) es pasta premium de Gragnano, un pueblo cerca de Nápoles con tradición de fabricación de pasta de 500 años. Requisitos IGP: 1) Producción dentro de límites municipales de Gragnano, 2) Extrusión de molde de bronce ('trafilatura al bronzo') creando textura rugosa, 3) Secado lento a bajas temperaturas—6-60 horas según formato de pasta (corta vs. larga), mucho más largo que pasta industrial, 4) Uso de agua de manantial local de Montañas Lattari, rica en minerales específicos contribuyendo a propiedades de masa y sabor, 5) Estándares específicos de sémola de trigo duro. El microclima único de Gragnano—temperaturas y humedad constantes de brisas marinas canalizadas a través de valles montañosos—crea condiciones ideales de secado. El resultado es pasta excepcionalmente de textura rugosa con absorción superior de salsa, sabor a nuez y mordida perfecta al dente. La pasta de Gragnano exige precios premium globalmente.",
+            de: "'Pasta di Gragnano IGP' (Geschützte Geografische Angabe seit 2013) ist Premium-Pasta aus Gragnano, einer Stadt in der Nähe von Neapel mit 500-jähriger Pastaherstellungstradition. IGP-Anforderungen: 1) Produktion innerhalb Gragnano-Gemeindegrenzen, 2) Bronzeform-Extrusion ('Trafilatura al Bronzo'), die raue Textur erzeugt, 3) Langsame Trocknung bei niedrigen Temperaturen—6-60 Stunden je nach Pastaformat (kurz vs. lang), weit länger als industrielle Pasta, 4) Verwendung lokalen Quellwassers aus Lattari-Bergen, reich an spezifischen Mineralien, die zu Teigeigenschaften und Geschmack beitragen, 5) Spezifische Hartweizengrieß-Standards. Gragnanos einzigartiges Mikroklima—konstante Temperaturen und Luftfeuchtigkeit von Meeresbrisen durch Bergtäler geleitet—schafft ideale Trocknungsbedingungen. Das Ergebnis ist außergewöhnlich rau strukturierte Pasta mit überlegener Soßenaufnahme, nussigem Geschmack und perfektem al dente Biss. Gragnano-Pasta erzielt weltweit Premium-Preise.",
+            nl: "'Pasta di Gragnano IGP' (Beschermde Geografische Aanduiding sinds 2013) is premium pasta uit Gragnano, een stad bij Napels met 500-jarige pasta-maaktraditie. IGP-vereisten: 1) Productie binnen Gragnano gemeente grenzen, 2) Bronzen matrijs-extrusie ('trafilatura al bronzo') die ruwe textuur creëert, 3) Langzame droging bij lage temperaturen—6-60 uur afhankelijk van pasta formaat (kort vs. lang), veel langer dan industriële pasta, 4) Gebruik van lokaal bronwater uit Lattari-bergen, rijk aan specifieke mineralen die bijdragen aan deegeigenschappen en smaak, 5) Specifieke durumtarwe griesmeel standaarden. Gragnano's unieke microklimaat—constante temperaturen en vochtigheid van zeebries gekanaliseerd door bergdalen—creëert ideale droogomstandigheden. Het resultaat is uitzonderlijk ruw-getextureerde pasta met superieure sausabsorptie, nootachtige smaak en perfecte al dente beet. Gragnano pasta behaalt wereldwijd premium prijzen."
+        }
+    },
+    {
+        question: {
+            en: "What is the biochemical mechanism behind 'pasta water foam' that sometimes forms during vigorous boiling?",
+            es: "¿Cuál es el mecanismo bioquímico detrás de la 'espuma de agua de pasta' que a veces se forma durante ebullición vigorosa?",
+            de: "Was ist der biochemische Mechanismus hinter 'Pastawasser-Schaum', der sich manchmal während kräftigem Kochen bildet?",
+            nl: "Wat is het biochemische mechanisme achter 'pastawater-schuim' dat soms tijdens krachtig koken ontstaat?"
+        },
+        options: [
+            {
+                en: "Protein-starch complexes act as surfactants stabilizing air bubbles, enhanced by saponins from wheat creating persistent foam",
+                es: "Complejos proteína-almidón actúan como surfactantes estabilizando burbujas de aire, mejorados por saponinas de trigo creando espuma persistente",
+                de: "Protein-Stärke-Komplexe wirken als Tenside, die Luftblasen stabilisieren, verstärkt durch Saponine aus Weizen, die persistenten Schaum erzeugen",
+                nl: "Eiwit-zetmeel complexen fungeren als oppervlakteactieve stoffen die luchtbellen stabiliseren, versterkt door saponinen uit tarwe die persistent schuim creëren"
+            },
+            {
+                en: "Pasta releases carbon dioxide through fermentation during cooking",
+                es: "La pasta libera dióxido de carbono a través de fermentación durante cocción",
+                de: "Pasta setzt Kohlendioxid durch Fermentation beim Kochen frei",
+                nl: "Pasta geeft koolstofdioxide af door fermentatie tijdens koken"
+            },
+            {
+                en: "Salt reacts with minerals creating soap-like foam",
+                es: "La sal reacciona con minerales creando espuma parecida a jabón",
+                de: "Salz reagiert mit Mineralien und erzeugt seifenartigen Schaum",
+                nl: "Zout reageert met mineralen waardoor zeepachtig schuim ontstaat"
+            },
+            {
+                en: "Boiling water aeration creates oxygen bubbles trapped by viscosity",
+                es: "Aireación de agua hirviendo crea burbujas de oxígeno atrapadas por viscosidad",
+                de: "Kochendes Wasser-Belüftung erzeugt Sauerstoffblasen, die durch Viskosität gefangen sind",
+                nl: "Kokend water-aeratie creëert zuurstofbellen gevangen door viscositeit"
+            }
+        ],
+        correctAnswer: 0,
+        explanation: {
+            en: "Pasta water foam results from protein-starch-lipid complexes acting as natural surfactants (surface-active agents). As pasta cooks, it releases: 1) Proteins (gliadins, glutenins) that denature and unfold, exposing hydrophobic regions, 2) Starch (amylose, amylopectin) with both polar (hydrophilic) and nonpolar (hydrophobic) regions, 3) Saponins—natural glycosides in wheat that have strong foaming properties. These compounds position at the air-water interface of bubbles formed by vigorous boiling, stabilizing them and preventing coalescence. The result is persistent foam that can boil over if pot is too full or heat too high. Foam is harmless but indicates starchy water—good for finishing sauces. To prevent boil-over: use larger pot, reduce heat to gentle boil, add small amount of oil (forms antifoaming film), or stir occasionally to break foam.",
+            es: "La espuma de agua de pasta resulta de complejos proteína-almidón-lípido actuando como surfactantes naturales (agentes activos de superficie). A medida que pasta se cocina, libera: 1) Proteínas (gliadinas, gluteninas) que se desnaturalizan y despliegan, exponiendo regiones hidrofóbicas, 2) Almidón (amilosa, amilopectina) con regiones tanto polares (hidrofílicas) como no polares (hidrofóbicas), 3) Saponinas—glicósidos naturales en trigo que tienen fuertes propiedades espumantes. Estos compuestos se posicionan en la interfaz aire-agua de burbujas formadas por ebullición vigorosa, estabilizándolas y previniendo coalescencia. El resultado es espuma persistente que puede desbordarse si olla está demasiado llena o calor demasiado alto. La espuma es inofensiva pero indica agua con almidón—buena para terminar salsas. Para prevenir desbordamiento: use olla más grande, reduzca calor a ebullición suave, agregue pequeña cantidad de aceite (forma película anti-espuma), o revuelva ocasionalmente para romper espuma.",
+            de: "Pastawasser-Schaum resultiert aus Protein-Stärke-Lipid-Komplexen, die als natürliche Tenside (oberflächenaktive Mittel) wirken. Während Pasta kocht, setzt sie frei: 1) Proteine (Gliadine, Glutenine), die denaturieren und sich entfalten, wodurch hydrophobe Regionen freigelegt werden, 2) Stärke (Amylose, Amylopektin) mit sowohl polaren (hydrophilen) als auch unpolaren (hydrophoben) Regionen, 3) Saponine—natürliche Glykoside in Weizen mit starken Schaumeigenschaften. Diese Verbindungen positionieren sich an der Luft-Wasser-Grenzfläche von Blasen, die durch kräftiges Kochen gebildet werden, stabilisieren sie und verhindern Koaleszenz. Das Ergebnis ist persistenter Schaum, der überkochen kann, wenn Topf zu voll oder Hitze zu hoch ist. Schaum ist harmlos, zeigt aber stärkehaltiges Wasser—gut für Soßen-Finish. Um Überkochen zu verhindern: größeren Topf verwenden, Hitze zu sanftem Kochen reduzieren, kleine Menge Öl hinzufügen (bildet antischäumenden Film) oder gelegentlich rühren, um Schaum zu brechen.",
+            nl: "Pastawater-schuim resulteert uit eiwit-zetmeel-lipide complexen die fungeren als natuurlijke oppervlakteactieve stoffen (oppervlakte-actieve agenten). Terwijl pasta kookt, geeft het vrij: 1) Eiwitten (gliadines, glutenines) die denatureren en ontvouwen, waarbij hydrofobe regio's worden blootgesteld, 2) Zetmeel (amylose, amylopectine) met zowel polaire (hydrofiele) als niet-polaire (hydrofobe) regio's, 3) Saponinen—natuurlijke glycosiden in tarwe met sterke schuimende eigenschappen. Deze verbindingen positioneren zich op het lucht-water grensvlak van bellen gevormd door krachtig koken, stabiliseren ze en voorkomen samensmelting. Het resultaat is persistent schuim dat kan overkoken als pan te vol is of hitte te hoog. Schuim is onschadelijk maar duidt zetmeelrijk water—goed voor sausafwerking. Om overkoken te voorkomen: gebruik grotere pan, verminder hitte tot zacht koken, voeg kleine hoeveelheid olie toe (vormt anti-schuim film), of roer af en toe om schuim te breken."
+        }
+    },
+    {
+        question: {
+            en: "What causes the phenomenon where some premium artisanal pastas appear to 'sweat' or develop surface moisture when first opened from packaging?",
+            es: "¿Qué causa el fenómeno donde algunas pastas artesanales premium parecen 'sudar' o desarrollar humedad superficial cuando se abren por primera vez del empaque?",
+            de: "Was verursacht das Phänomen, bei dem einige Premium-Handwerkspastas scheinbar 'schwitzen' oder Oberflächenfeuchtigkeit entwickeln, wenn sie zum ersten Mal aus der Verpackung geöffnet werden?",
+            nl: "Wat veroorzaakt het fenomeen waarbij sommige premium ambachtelijke pasta's lijken te 'zweten' of oppervlaktevocht ontwikkelen wanneer ze voor het eerst uit de verpakking worden geopend?"
+        },
+        options: [
+            {
+                en: "Temperature equilibration causes moisture migration from interior to cooler surface; premium pasta's slower drying leaves slightly higher residual moisture gradient",
+                es: "Equilibración de temperatura causa migración de humedad del interior a superficie más fría; secado más lento de pasta premium deja gradiente de humedad residual ligeramente mayor",
+                de: "Temperaturausgleich verursacht Feuchtigkeitsmigration vom Inneren zur kühleren Oberfläche; langsamere Trocknung von Premium-Pasta hinterlässt leicht höheren Restfeuchtigkeitsgradienten",
+                nl: "Temperatuur-equilibratie veroorzaakt vochtmigratie van binnenste naar koeler oppervlak; langzamere droging van premium pasta laat licht hogere residuele vochtgradiënt achter"
+            },
+            {
+                en: "Artisanal pasta contains live yeast cultures that produce moisture",
+                es: "Pasta artesanal contiene cultivos de levadura viva que producen humedad",
+                de: "Handwerkspasta enthält lebende Hefekulturen, die Feuchtigkeit produzieren",
+                nl: "Ambachtelijke pasta bevat levende gistculturen die vocht produceren"
+            },
+            {
+                en: "Bronze dies leave metallic residue that attracts atmospheric water",
+                es: "Moldes de bronce dejan residuo metálico que atrae agua atmosférica",
+                de: "Bronzeformen hinterlassen metallische Rückstände, die atmosphärisches Wasser anziehen",
+                nl: "Bronzen matrijzen laten metaalresten achter die atmosferisch water aantrekken"
+            },
+            {
+                en: "Packaging materials release humidity when exposed to room temperature",
+                es: "Materiales de empaque liberan humedad cuando se exponen a temperatura ambiente",
+                de: "Verpackungsmaterialien setzen Luftfeuchtigkeit frei, wenn sie Raumtemperatur ausgesetzt sind",
+                nl: "Verpakkingsmaterialen geven vochtigheid af wanneer blootgesteld aan kamertemperatuur"
+            }
+        ],
+        correctAnswer: 0,
+        explanation: {
+            en: "Surface 'sweating' in premium artisanal pasta results from moisture gradients created during slow low-temperature drying. While industrial pasta uses high heat (80-90°C) for rapid uniform drying, artisanal pasta dries slowly (36-50°C for 18-60 hours), which can leave subtle moisture gradients—slightly higher moisture in the interior (13-14%) than surface (11-12%), despite overall moisture being within the safe 12.5% average. When sealed warm pasta cools in packaging or cold-stored pasta is brought to room temperature, moisture migrates from the warmer/moister interior to the cooler surface where it can briefly condense. This is typically harmless and dissipates within minutes of opening. However, true 'sweating' (persistent droplets) could indicate storage temperature cycling or moisture above safe levels—check for mold. Premium pasta's rougher bronze-die texture makes surface moisture more visible than smooth industrial pasta.",
+            es: "'Sudoración' superficial en pasta artesanal premium resulta de gradientes de humedad creados durante secado lento a baja temperatura. Mientras pasta industrial usa calor alto (80-90°C) para secado rápido uniforme, pasta artesanal se seca lentamente (36-50°C por 18-60 horas), lo que puede dejar gradientes de humedad sutiles—humedad ligeramente mayor en interior (13-14%) que superficie (11-12%), a pesar de que humedad total está dentro del promedio seguro de 12.5%. Cuando pasta caliente sellada se enfría en empaque o pasta almacenada en frío se lleva a temperatura ambiente, la humedad migra del interior más cálido/húmedo a superficie más fría donde puede condensarse brevemente. Esto es típicamente inofensivo y se disipa en minutos de abrir. Sin embargo, 'sudoración' verdadera (gotas persistentes) podría indicar ciclos de temperatura de almacenamiento o humedad por encima de niveles seguros—verifique moho. La textura más rugosa de molde de bronce de pasta premium hace humedad superficial más visible que pasta industrial lisa.",
+            de: "Oberflächen-'Schwitzen' bei Premium-Handwerkspasta resultiert aus Feuchtigkeitsgradienten, die während langsamer Niedertemperaturtrocknung entstehen. Während industrielle Pasta hohe Hitze (80-90°C) für schnelle gleichmäßige Trocknung verwendet, trocknet handwerkliche Pasta langsam (36-50°C für 18-60 Stunden), was subtile Feuchtigkeitsgradienten hinterlassen kann—leicht höhere Feuchtigkeit im Inneren (13-14%) als Oberfläche (11-12%), obwohl Gesamtfeuchtigkeit innerhalb des sicheren 12,5%-Durchschnitts liegt. Wenn versiegelte warme Pasta in Verpackung abkühlt oder kalt gelagerte Pasta auf Raumtemperatur gebracht wird, wandert Feuchtigkeit vom wärmeren/feuchteren Inneren zur kühleren Oberfläche, wo sie kurz kondensieren kann. Dies ist typischerweise harmlos und verschwindet innerhalb Minuten nach Öffnung. Jedoch könnte echtes 'Schwitzen' (persistente Tröpfchen) auf Lagertemperatur-Zyklen oder Feuchtigkeit über sicheren Niveaus hindeuten—auf Schimmel prüfen. Premium-Pastas rauere Bronze-Form-Textur macht Oberflächenfeuchtigkeit sichtbarer als glatte industrielle Pasta.",
+            nl: "Oppervlak-'zweten' in premium ambachtelijke pasta resulteert uit vochtgradiënten gecreëerd tijdens langzame lage-temperatuur droging. Terwijl industriële pasta hoge hitte (80-90°C) gebruikt voor snelle uniforme droging, droogt ambachtelijke pasta langzaam (36-50°C gedurende 18-60 uur), wat subtiele vochtgradiënten kan achterlaten—licht hoger vocht in binnenste (13-14%) dan oppervlak (11-12%), ondanks dat totaal vocht binnen het veilige 12,5% gemiddelde ligt. Wanneer verzegelde warme pasta afkoelt in verpakking of koud-opgeslagen pasta naar kamertemperatuur wordt gebracht, migreert vocht van het warmere/vochtiger binnenste naar het koelere oppervlak waar het kort kan condenseren. Dit is meestal onschadelijk en verdwijnt binnen minuten na openen. Echter, echt 'zweten' (persistente druppels) zou opslagtemperatuur-cycli of vocht boven veilige niveaus kunnen aanduiden—controleer op schimmel. Premium pasta's ruwere bronzen-matrijs textuur maakt oppervlaktevocht zichtbaarder dan gladde industriële pasta."
+        }
+    },
+    {
+        question: {
+            en: "What is the molecular explanation for why dried pasta can be stored for years while fresh pasta spoils in days?",
+            es: "¿Cuál es la explicación molecular de por qué la pasta seca puede almacenarse por años mientras la pasta fresca se echa a perder en días?",
+            de: "Was ist die molekulare Erklärung dafür, warum getrocknete Pasta Jahre gelagert werden kann, während frische Pasta in Tagen verdirbt?",
+            nl: "Wat is de moleculaire verklaring waarom gedroogde pasta jaren kan worden opgeslagen terwijl verse pasta in dagen bederft?"
+        },
+        options: [
+            {
+                en: "Water activity (aw) below 0.60 in dried pasta prevents microbial growth by making water unavailable for metabolic processes despite 12% moisture content",
+                es: "Actividad de agua (aw) debajo de 0.60 en pasta seca previene crecimiento microbiano al hacer agua no disponible para procesos metabólicos a pesar de 12% contenido de humedad",
+                de: "Wasseraktivität (aw) unter 0,60 in getrockneter Pasta verhindert mikrobielles Wachstum, indem Wasser für Stoffwechselprozesse trotz 12% Feuchtigkeitsgehalt nicht verfügbar gemacht wird",
+                nl: "Wateractiviteit (aw) onder 0,60 in gedroogde pasta voorkomt microbiële groei door water niet beschikbaar te maken voor metabole processen ondanks 12% vochtgehalte"
+            },
+            {
+                en: "Dried pasta contains natural preservative chemicals formed during drying",
+                es: "Pasta seca contiene químicos conservantes naturales formados durante secado",
+                de: "Getrocknete Pasta enthält natürliche Konservierungsstoffe, die während Trocknung gebildet werden",
+                nl: "Gedroogde pasta bevat natuurlijke conserveringschemicaliën gevormd tijdens drogen"
+            },
+            {
+                en: "Fresh pasta's eggs create acidic environment promoting bacterial growth",
+                es: "Los huevos de pasta fresca crean ambiente ácido promoviendo crecimiento bacteriano",
+                de: "Eier in frischer Pasta erzeugen saure Umgebung, die Bakterienwachstum fördert",
+                nl: "Eieren van verse pasta creëren zure omgeving die bacteriële groei bevordert"
+            },
+            {
+                en: "Drying process destroys all nutrients bacteria need to survive",
+                es: "Proceso de secado destruye todos los nutrientes que bacterias necesitan para sobrevivir",
+                de: "Trocknungsprozess zerstört alle Nährstoffe, die Bakterien zum Überleben benötigen",
+                nl: "Droogproces vernietigt alle voedingsstoffen die bacteriën nodig hebben om te overleven"
+            }
+        ],
+        correctAnswer: 0,
+        explanation: {
+            en: "Shelf life is determined by 'water activity' (aw)—the availability of water for biological reactions, not total moisture content. Water activity ranges from 0 (bone-dry) to 1.0 (pure water). Dried pasta contains ~12% moisture but has aw ~0.50-0.55 because water molecules are tightly bound to starch and protein structures, making them unavailable for microbial metabolism. Bacteria require aw >0.90, molds >0.70, yeasts >0.60—all cannot grow on properly dried pasta (aw <0.60). Fresh pasta has 30-35% moisture with aw ~0.97—essentially 'free water' supporting rapid microbial growth (spoilage in 2-3 days refrigerated). This is why dried pasta lasts 2-3 years at room temperature while fresh pasta requires refrigeration and has very limited shelf life. Even slight moisture increase (improper storage) can raise aw above critical 0.60 threshold, enabling mold growth.",
+            es: "La vida útil está determinada por 'actividad de agua' (aw)—la disponibilidad de agua para reacciones biológicas, no contenido total de humedad. La actividad de agua varía de 0 (seco como hueso) a 1.0 (agua pura). La pasta seca contiene ~12% humedad pero tiene aw ~0.50-0.55 porque moléculas de agua están fuertemente unidas a estructuras de almidón y proteína, haciéndolas no disponibles para metabolismo microbiano. Las bacterias requieren aw >0.90, mohos >0.70, levaduras >0.60—todos no pueden crecer en pasta correctamente seca (aw <0.60). La pasta fresca tiene 30-35% humedad con aw ~0.97—esencialmente 'agua libre' apoyando crecimiento microbiano rápido (deterioro en 2-3 días refrigerado). Por esto pasta seca dura 2-3 años a temperatura ambiente mientras pasta fresca requiere refrigeración y tiene vida útil muy limitada. Incluso leve aumento de humedad (almacenamiento inadecuado) puede elevar aw por encima del umbral crítico de 0.60, permitiendo crecimiento de moho.",
+            de: "Haltbarkeit wird durch 'Wasseraktivität' (aw) bestimmt—die Verfügbarkeit von Wasser für biologische Reaktionen, nicht der gesamte Feuchtigkeitsgehalt. Wasseraktivität reicht von 0 (knochentrocken) bis 1,0 (reines Wasser). Getrocknete Pasta enthält ~12% Feuchtigkeit, hat aber aw ~0,50-0,55, weil Wassermoleküle fest an Stärke- und Proteinstrukturen gebunden sind und für mikrobiellen Stoffwechsel nicht verfügbar sind. Bakterien benötigen aw >0,90, Schimmel >0,70, Hefe >0,60—alle können auf richtig getrockneter Pasta (aw <0,60) nicht wachsen. Frische Pasta hat 30-35% Feuchtigkeit mit aw ~0,97—im Wesentlichen 'freies Wasser', das schnelles mikrobielles Wachstum unterstützt (Verderb in 2-3 Tagen gekühlt). Deshalb hält getrocknete Pasta 2-3 Jahre bei Raumtemperatur, während frische Pasta Kühlung erfordert und sehr begrenzte Haltbarkeit hat. Selbst leichter Feuchtigkeitsanstieg (unsachgemäße Lagerung) kann aw über kritische 0,60-Schwelle erhöhen und Schimmelwachstum ermöglichen.",
+            nl: "Houdbaarheid wordt bepaald door 'wateractiviteit' (aw)—de beschikbaarheid van water voor biologische reacties, niet totaal vochtgehalte. Wateractiviteit varieert van 0 (beendroog) tot 1,0 (puur water). Gedroogde pasta bevat ~12% vocht maar heeft aw ~0,50-0,55 omdat watermoleculen stevig gebonden zijn aan zetmeel- en eiwitstructuren, waardoor ze niet beschikbaar zijn voor microbieel metabolisme. Bacteriën vereisen aw >0,90, schimmels >0,70, gisten >0,60—allen kunnen niet groeien op goed gedroogde pasta (aw <0,60). Verse pasta heeft 30-35% vocht met aw ~0,97—in wezen 'vrij water' dat snelle microbiële groei ondersteunt (bederf in 2-3 dagen gekoeld). Daarom houdt gedroogde pasta 2-3 jaar bij kamertemperatuur terwijl verse pasta koeling vereist en zeer beperkte houdbaarheid heeft. Zelfs lichte vochttoename (onjuiste opslag) kan aw boven kritieke 0,60 drempel verhogen, waardoor schimmelgroei mogelijk wordt."
+        }
+    }
     ];
 
     if (typeof module !== 'undefined' && module.exports) {

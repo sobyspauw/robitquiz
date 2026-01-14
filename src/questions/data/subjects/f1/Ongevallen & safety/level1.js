@@ -2,438 +2,259 @@
 (function() {
   const level1 = {
     name: {
-      en: "Ongevallen & safety Level 1",
-      es: "Ongevallen & safety Nivel 1",
-      de: "Ongevallen & safety Stufe 1",
-      nl: "Ongevallen & safety Level 1"
+      en: "Accidents & Safety Level 1",
+      es: "Accidentes y Seguridad Nivel 1",
+      de: "Unfälle & Sicherheit Stufe 1",
+      nl: "Ongevallen & Veiligheid Level 1"
     },
     questions: [
-      {
-        question: {
-          en: "Which tragic accident at the 1994 San Marino Grand Prix led to major safety improvements in F1?",
-          es: "Que accidente tragico en el Gran Premio de San Marino de 1994 llevo a grandes mejoras de seguridad en F1?",
-          de: "Welcher tragische Unfall beim San Marino GP 1994 fuehrte zu grossen Sicherheitsverbesserungen in der F1?",
-          nl: "Welk tragisch ongeluk bij de San Marino Grand Prix van 1994 leidde tot grote veiligheidsverbeteringen in F1?"
-        },
-        options: [
-          { en: "Ayrton Senna's fatal crash", es: "El accidente fatal de Ayrton Senna", de: "Ayrton Sennas toedlicher Unfall", nl: "Ayrton Senna's fatale crash" },
-          { en: "Roland Ratzenberger's crash", es: "El accidente de Roland Ratzenberger", de: "Roland Ratzenbergers Unfall", nl: "Roland Ratzenberger's crash" },
-          { en: "Both drivers' accidents", es: "Los accidentes de ambos pilotos", de: "Beide Fahrer-Unfaelle", nl: "Beide coureurs' ongevallen" },
-          { en: "Rubens Barrichello's crash", es: "El accidente de Rubens Barrichello", de: "Rubens Barrichellos Unfall", nl: "Rubens Barrichello's crash" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Both Ayrton Senna's fatal accident and Roland Ratzenberger's death at the 1994 San Marino Grand Prix prompted massive safety reforms, including improved barriers, cockpit protection, and medical procedures.",
-          es: "Tanto el accidente fatal de Ayrton Senna como la muerte de Roland Ratzenberger en el Gran Premio de San Marino 1994 motivaron reformas masivas de seguridad, incluyendo barreras mejoradas, proteccion de cabina y procedimientos medicos.",
-          de: "Sowohl Ayrton Sennas toedlicher Unfall als auch Roland Ratzenbergers Tod beim San Marino GP 1994 fuehrten zu massiven Sicherheitsreformen, einschliesslich verbesserter Barrieren, Cockpitschutz und medizinischer Verfahren.",
-          nl: "Zowel Ayrton Senna's fatale ongeluk als Roland Ratzenberger's dood bij de San Marino Grand Prix 1994 leidden tot massale veiligheidshervorming, inclusief verbeterde barriÃ¨res, cockpit bescherming en medische procedures."
-        }
-      },
-      {
-        question: {
-          en: "What safety device helps prevent basilar skull fractures in high-impact crashes?",
-          es: "Que dispositivo de seguridad ayuda a prevenir fracturas de craneo basilar en choques de alto impacto?",
-          de: "Welches Sicherheitsgeraet hilft, Schaedelbasisfrakturen bei harten Aufpraellen zu verhindern?",
-          nl: "Welk veiligheidsapparaat helpt schedelbasisbreuken in hoge-impact crashes te voorkomen?"
-        },
-        options: [
-          { en: "HANS device", es: "Dispositivo HANS", de: "HANS-System", nl: "HANS apparaat" },
-          { en: "Halo system", es: "Sistema Halo", de: "Halo-System", nl: "Halo systeem" },
-          { en: "Safety harness", es: "Arnes de seguridad", de: "Sicherheitsgurt", nl: "Veiligheidsharnas" },
-          { en: "Roll cage", es: "Jaula antivuelco", de: "Ueberrollkaefig", nl: "Rolkooi" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The HANS (Head And Neck Support) device prevents the driver's head from snapping forward violently in a crash, reducing the risk of basilar skull fractures which were often fatal.",
-          es: "El dispositivo HANS (Soporte de Cabeza y Cuello) previene que la cabeza del piloto se mueva violentamente hacia adelante en un choque, reduciendo el riesgo de fracturas de craneo basilar que a menudo eran fatales.",
-          de: "Das HANS (Head And Neck Support) System verhindert, dass der Kopf des Fahrers bei einem Unfall heftig nach vorn schnellt und reduziert das Risiko von Schaedelbasisfrakturen, die oft toedlich waren.",
-          nl: "Het HANS (Head And Neck Support) apparaat voorkomt dat de coureurs hoofd gewelddadig naar voren schiet in een crash, wat het risico op schedelbasisbreuken vermindert die vaak fataal waren."
-        }
-      },
-      {
-        question: {
-          en: "Which F1 circuit section was nicknamed 'The Green Hell' due to its dangerous nature?",
-          es: "Que seccion del circuito de F1 fue apodada 'El Infierno Verde' debido a su naturaleza peligrosa?",
-          de: "Welcher F1-Streckenabschnitt wurde wegen seiner Gefaehrlichkeit 'Die Gruene Hoelle' genannt?",
-          nl: "Welk F1 circuit gedeelte kreeg de bijnaam 'De Groene Hel' vanwege zijn gevaarlijke aard?"
-        },
-        options: [
-          { en: "Monaco hairpin", es: "Horquilla de Monaco", de: "Monaco-Haarnadelkurve", nl: "Monaco haarspeldbocht" },
-          { en: "Nurburgring Nordschleife", es: "Nurburgring Nordschleife", de: "Nurburgring Nordschleife", nl: "Nurburgring Nordschleife" },
-          { en: "Eau Rouge at Spa", es: "Eau Rouge en Spa", de: "Eau Rouge in Spa", nl: "Eau Rouge op Spa" },
-          { en: "130R at Suzuka", es: "130R en Suzuka", de: "130R in Suzuka", nl: "130R op Suzuka" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The Nurburgring Nordschleife was called 'The Green Hell' by Jackie Stewart. This 20km circuit through the Eifel forest was extremely dangerous and F1 stopped racing there after 1976.",
-          es: "El Nurburgring Nordschleife fue llamado 'El Infierno Verde' por Jackie Stewart. Este circuito de 20km a traves del bosque Eifel era extremadamente peligroso y F1 dejo de correr alli despues de 1976.",
-          de: "Die Nurburgring Nordschleife wurde von Jackie Stewart 'Die Gruene Hoelle' genannt. Diese 20km-Strecke durch den Eifelwald war extrem gefaehrlich und die F1 hoerte 1976 auf, dort zu fahren.",
-          nl: "De Nurburgring Nordschleife werd 'De Groene Hel' genoemd door Jackie Stewart. Dit 20km circuit door het Eifel bos was extreem gevaarlijk en F1 stopte er in 1976 mee racen."
-        }
-      },
-      {
-        question: {
-          en: "Which modern safety car innovation helps neutralize the race while maintaining tire and engine temperatures?",
-          es: "Que innovacion moderna del safety car ayuda a neutralizar la carrera mientras mantiene temperaturas de neumaticos y motor?",
-          de: "Welche moderne Safety-Car-Innovation hilft, das Rennen zu neutralisieren und dabei Reifen- und Motortemperaturen aufrechtzuerhalten?",
-          nl: "Welke moderne safety car innovatie helpt de race te neutraliseren terwijl band- en motortemperaturen behouden blijven?"
-        },
-        options: [
-          { en: "Safety Car periods", es: "Periodos de Safety Car", de: "Safety-Car-Phasen", nl: "Safety Car periodes" },
-          { en: "Virtual Safety Car (VSC)", es: "Safety Car Virtual (VSC)", de: "Virtual Safety Car (VSC)", nl: "Virtual Safety Car (VSC)" },
-          { en: "Red flag procedures", es: "Procedimientos de bandera roja", de: "Rote Flagge Verfahren", nl: "Rode vlag procedures" },
-          { en: "Yellow flag zones", es: "Zonas de bandera amarilla", de: "Gelbflaggenzonen", nl: "Gele vlag zones" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The Virtual Safety Car (VSC) was introduced in 2015, requiring drivers to slow down by a specific percentage while maintaining gaps, keeping tires and engines warm without bunching the field.",
-          es: "El Safety Car Virtual (VSC) se introdujo en 2015, requiriendo que los pilotos reduzcan velocidad en un porcentaje especifico mientras mantienen distancias, manteniendo neumaticos y motores calientes sin agrupar el pelaton.",
-          de: "Das Virtual Safety Car (VSC) wurde 2015 eingefuehrt und verlangt von den Fahrern, um einen bestimmten Prozentsatz zu verlangsamen und dabei Abstaende zu halten, was Reifen und Motoren warm haelt ohne das Feld zusammenzudraengen.",
-          nl: "De Virtual Safety Car (VSC) werd geÃ¯ntroduceerd in 2015, vereist dat coureurs met een specifiek percentage vertragen terwijl ze gaten behouden, waardoor banden en motoren warm blijven zonder het veld samen te brengen."
-        }
-      },
-      {
-        question: {
-          en: "Which driver survived one of the most spectacular crashes in recent F1 history at the 2020 Bahrain Grand Prix?",
-          es: "Que piloto sobrevivio a uno de los choques mas espectaculares en la historia reciente de F1 en el Gran Premio de Bahrein 2020?",
-          de: "Welcher Fahrer ueberlebte einen der spektakulaersten Unfaelle der jueengeren F1-Geschichte beim Bahrain GP 2020?",
-          nl: "Welke coureur overleefde een van de meest spectaculaire crashes in recente F1 geschiedenis bij de 2020 Bahrein Grand Prix?"
-        },
-        options: [
-          { en: "Charles Leclerc", es: "Charles Leclerc", de: "Charles Leclerc", nl: "Charles Leclerc" },
-          { en: "Romain Grosjean", es: "Romain Grosjean", de: "Romain Grosjean", nl: "Romain Grosjean" },
-          { en: "Kevin Magnussen", es: "Kevin Magnussen", de: "Kevin Magnussen", nl: "Kevin Magnussen" },
-          { en: "Sergio Perez", es: "Sergio Perez", de: "Sergio Perez", nl: "Sergio Perez" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Romain Grosjean survived a horrific crash where his Haas car split in half and caught fire after hitting the barrier at 192 km/h, demonstrating the effectiveness of modern F1 safety systems.",
-          es: "Romain Grosjean sobrevivio a un choque horrible donde su auto Haas se partio por la mitad y se incendio despues de golpear la barrera a 192 km/h, demostrando la efectividad de los sistemas de seguridad modernos de F1.",
-          de: "Romain Grosjean ueberlebte einen schrecklichen Unfall, bei dem sein Haas-Auto in zwei Teile zerbrach und Feuer fing, nachdem er mit 192 km/h in die Barriere gekracht war, was die Wirksamkeit moderner F1-Sicherheitssysteme demonstrierte.",
-          nl: "Romain Grosjean overleefde een verschrikkelijke crash waarbij zijn Haas auto in tweeÃ«n brak en vlam vatte na het raken van de barriÃ¨re met 192 km/u, wat de effectiviteit van moderne F1 veiligheidssystemen toonde."
-        }
-      },
-      {
-        question: {
-          en: "Which tragic accident at the 1994 San Marino Grand Prix led to major safety improvements in F1?",
-          es: "Que accidente tragico en el Gran Premio de San Marino de 1994 llevo a grandes mejoras de seguridad en F1?",
-          de: "Welcher tragische Unfall beim San Marino GP 1994 fuehrte zu grossen Sicherheitsverbesserungen in der F1?",
-          nl: "Welk tragisch ongeluk bij de San Marino Grand Prix van 1994 leidde tot grote veiligheidsverbeteringen in F1?"
-        },
-        options: [
-          { en: "Ayrton Senna's fatal crash", es: "El accidente fatal de Ayrton Senna", de: "Ayrton Sennas toedlicher Unfall", nl: "Ayrton Senna's fatale crash" },
-          { en: "Roland Ratzenberger's crash", es: "El accidente de Roland Ratzenberger", de: "Roland Ratzenbergers Unfall", nl: "Roland Ratzenberger's crash" },
-          { en: "Both drivers' accidents", es: "Los accidentes de ambos pilotos", de: "Beide Fahrer-Unfaelle", nl: "Beide coureurs' ongevallen" },
-          { en: "Rubens Barrichello's crash", es: "El accidente de Rubens Barrichello", de: "Rubens Barrichellos Unfall", nl: "Rubens Barrichello's crash" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Both Ayrton Senna's fatal accident and Roland Ratzenberger's death at the 1994 San Marino Grand Prix prompted massive safety reforms, including improved barriers, cockpit protection, and medical procedures.",
-          es: "Tanto el accidente fatal de Ayrton Senna como la muerte de Roland Ratzenberger en el Gran Premio de San Marino 1994 motivaron reformas masivas de seguridad, incluyendo barreras mejoradas, proteccion de cabina y procedimientos medicos.",
-          de: "Sowohl Ayrton Sennas toedlicher Unfall als auch Roland Ratzenbergers Tod beim San Marino GP 1994 fuehrten zu massiven Sicherheitsreformen, einschliesslich verbesserter Barrieren, Cockpitschutz und medizinischer Verfahren.",
-          nl: "Zowel Ayrton Senna's fatale ongeluk als Roland Ratzenberger's dood bij de San Marino Grand Prix 1994 leidden tot massale veiligheidshervorming, inclusief verbeterde barriÃ¨res, cockpit bescherming en medische procedures."
-        }
-      },
-      {
-        question: {
-          en: "What safety device helps prevent basilar skull fractures in high-impact crashes?",
-          es: "Que dispositivo de seguridad ayuda a prevenir fracturas de craneo basilar en choques de alto impacto?",
-          de: "Welches Sicherheitsgeraet hilft, Schaedelbasisfrakturen bei harten Aufpraellen zu verhindern?",
-          nl: "Welk veiligheidsapparaat helpt schedelbasisbreuken in hoge-impact crashes te voorkomen?"
-        },
-        options: [
-          { en: "HANS device", es: "Dispositivo HANS", de: "HANS-System", nl: "HANS apparaat" },
-          { en: "Halo system", es: "Sistema Halo", de: "Halo-System", nl: "Halo systeem" },
-          { en: "Safety harness", es: "Arnes de seguridad", de: "Sicherheitsgurt", nl: "Veiligheidsharnas" },
-          { en: "Roll cage", es: "Jaula antivuelco", de: "Ueberrollkaefig", nl: "Rolkooi" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The HANS (Head And Neck Support) device prevents the driver's head from snapping forward violently in a crash, reducing the risk of basilar skull fractures which were often fatal.",
-          es: "El dispositivo HANS (Soporte de Cabeza y Cuello) previene que la cabeza del piloto se mueva violentamente hacia adelante en un choque, reduciendo el riesgo de fracturas de craneo basilar que a menudo eran fatales.",
-          de: "Das HANS (Head And Neck Support) System verhindert, dass der Kopf des Fahrers bei einem Unfall heftig nach vorn schnellt und reduziert das Risiko von Schaedelbasisfrakturen, die oft toedlich waren.",
-          nl: "Het HANS (Head And Neck Support) apparaat voorkomt dat de coureurs hoofd gewelddadig naar voren schiet in een crash, wat het risico op schedelbasisbreuken vermindert die vaak fataal waren."
-        }
-      },
-      {
-        question: {
-          en: "Which F1 circuit section was nicknamed 'The Green Hell' due to its dangerous nature?",
-          es: "Que seccion del circuito de F1 fue apodada 'El Infierno Verde' debido a su naturaleza peligrosa?",
-          de: "Welcher F1-Streckenabschnitt wurde wegen seiner Gefaehrlichkeit 'Die Gruene Hoelle' genannt?",
-          nl: "Welk F1 circuit gedeelte kreeg de bijnaam 'De Groene Hel' vanwege zijn gevaarlijke aard?"
-        },
-        options: [
-          { en: "Monaco hairpin", es: "Horquilla de Monaco", de: "Monaco-Haarnadelkurve", nl: "Monaco haarspeldbocht" },
-          { en: "Nurburgring Nordschleife", es: "Nurburgring Nordschleife", de: "Nurburgring Nordschleife", nl: "Nurburgring Nordschleife" },
-          { en: "Eau Rouge at Spa", es: "Eau Rouge en Spa", de: "Eau Rouge in Spa", nl: "Eau Rouge op Spa" },
-          { en: "130R at Suzuka", es: "130R en Suzuka", de: "130R in Suzuka", nl: "130R op Suzuka" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The Nurburgring Nordschleife was called 'The Green Hell' by Jackie Stewart. This 20km circuit through the Eifel forest was extremely dangerous and F1 stopped racing there after 1976.",
-          es: "El Nurburgring Nordschleife fue llamado 'El Infierno Verde' por Jackie Stewart. Este circuito de 20km a traves del bosque Eifel era extremadamente peligroso y F1 dejo de correr alli despues de 1976.",
-          de: "Die Nurburgring Nordschleife wurde von Jackie Stewart 'Die Gruene Hoelle' genannt. Diese 20km-Strecke durch den Eifelwald war extrem gefaehrlich und die F1 hoerte 1976 auf, dort zu fahren.",
-          nl: "De Nurburgring Nordschleife werd 'De Groene Hel' genoemd door Jackie Stewart. Dit 20km circuit door het Eifel bos was extreem gevaarlijk en F1 stopte er in 1976 mee racen."
-        }
-      },
-      {
-        question: {
-          en: "Which modern safety car innovation helps neutralize the race while maintaining tire and engine temperatures?",
-          es: "Que innovacion moderna del safety car ayuda a neutralizar la carrera mientras mantiene temperaturas de neumaticos y motor?",
-          de: "Welche moderne Safety-Car-Innovation hilft, das Rennen zu neutralisieren und dabei Reifen- und Motortemperaturen aufrechtzuerhalten?",
-          nl: "Welke moderne safety car innovatie helpt de race te neutraliseren terwijl band- en motortemperaturen behouden blijven?"
-        },
-        options: [
-          { en: "Safety Car periods", es: "Periodos de Safety Car", de: "Safety-Car-Phasen", nl: "Safety Car periodes" },
-          { en: "Virtual Safety Car (VSC)", es: "Safety Car Virtual (VSC)", de: "Virtual Safety Car (VSC)", nl: "Virtual Safety Car (VSC)" },
-          { en: "Red flag procedures", es: "Procedimientos de bandera roja", de: "Rote Flagge Verfahren", nl: "Rode vlag procedures" },
-          { en: "Yellow flag zones", es: "Zonas de bandera amarilla", de: "Gelbflaggenzonen", nl: "Gele vlag zones" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The Virtual Safety Car (VSC) was introduced in 2015, requiring drivers to slow down by a specific percentage while maintaining gaps, keeping tires and engines warm without bunching the field.",
-          es: "El Safety Car Virtual (VSC) se introdujo en 2015, requiriendo que los pilotos reduzcan velocidad en un porcentaje especifico mientras mantienen distancias, manteniendo neumaticos y motores calientes sin agrupar el pelaton.",
-          de: "Das Virtual Safety Car (VSC) wurde 2015 eingefuehrt und verlangt von den Fahrern, um einen bestimmten Prozentsatz zu verlangsamen und dabei Abstaende zu halten, was Reifen und Motoren warm haelt ohne das Feld zusammenzudraengen.",
-          nl: "De Virtual Safety Car (VSC) werd geÃ¯ntroduceerd in 2015, vereist dat coureurs met een specifiek percentage vertragen terwijl ze gaten behouden, waardoor banden en motoren warm blijven zonder het veld samen te brengen."
-        }
-      },
-      {
-        question: {
-          en: "Which driver survived one of the most spectacular crashes in recent F1 history at the 2020 Bahrain Grand Prix?",
-          es: "Que piloto sobrevivio a uno de los choques mas espectaculares en la historia reciente de F1 en el Gran Premio de Bahrein 2020?",
-          de: "Welcher Fahrer ueberlebte einen der spektakulaersten Unfaelle der jueengeren F1-Geschichte beim Bahrain GP 2020?",
-          nl: "Welke coureur overleefde een van de meest spectaculaire crashes in recente F1 geschiedenis bij de 2020 Bahrein Grand Prix?"
-        },
-        options: [
-          { en: "Charles Leclerc", es: "Charles Leclerc", de: "Charles Leclerc", nl: "Charles Leclerc" },
-          { en: "Romain Grosjean", es: "Romain Grosjean", de: "Romain Grosjean", nl: "Romain Grosjean" },
-          { en: "Kevin Magnussen", es: "Kevin Magnussen", de: "Kevin Magnussen", nl: "Kevin Magnussen" },
-          { en: "Sergio Perez", es: "Sergio Perez", de: "Sergio Perez", nl: "Sergio Perez" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Romain Grosjean survived a horrific crash where his Haas car split in half and caught fire after hitting the barrier at 192 km/h, demonstrating the effectiveness of modern F1 safety systems.",
-          es: "Romain Grosjean sobrevivio a un choque horrible donde su auto Haas se partio por la mitad y se incendio despues de golpear la barrera a 192 km/h, demostrando la efectividad de los sistemas de seguridad modernos de F1.",
-          de: "Romain Grosjean ueberlebte einen schrecklichen Unfall, bei dem sein Haas-Auto in zwei Teile zerbrach und Feuer fing, nachdem er mit 192 km/h in die Barriere gekracht war, was die Wirksamkeit moderner F1-Sicherheitssysteme demonstrierte.",
-          nl: "Romain Grosjean overleefde een verschrikkelijke crash waarbij zijn Haas auto in tweeÃ«n brak en vlam vatte na het raken van de barriÃ¨re met 192 km/u, wat de effectiviteit van moderne F1 veiligheidssystemen toonde."
-        }
-      },
-      {
-        question: {
-          en: "Which tragic accident at the 1994 San Marino Grand Prix led to major safety improvements in F1?",
-          es: "Que accidente tragico en el Gran Premio de San Marino de 1994 llevo a grandes mejoras de seguridad en F1?",
-          de: "Welcher tragische Unfall beim San Marino GP 1994 fuehrte zu grossen Sicherheitsverbesserungen in der F1?",
-          nl: "Welk tragisch ongeluk bij de San Marino Grand Prix van 1994 leidde tot grote veiligheidsverbeteringen in F1?"
-        },
-        options: [
-          { en: "Ayrton Senna's fatal crash", es: "El accidente fatal de Ayrton Senna", de: "Ayrton Sennas toedlicher Unfall", nl: "Ayrton Senna's fatale crash" },
-          { en: "Roland Ratzenberger's crash", es: "El accidente de Roland Ratzenberger", de: "Roland Ratzenbergers Unfall", nl: "Roland Ratzenberger's crash" },
-          { en: "Both drivers' accidents", es: "Los accidentes de ambos pilotos", de: "Beide Fahrer-Unfaelle", nl: "Beide coureurs' ongevallen" },
-          { en: "Rubens Barrichello's crash", es: "El accidente de Rubens Barrichello", de: "Rubens Barrichellos Unfall", nl: "Rubens Barrichello's crash" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Both Ayrton Senna's fatal accident and Roland Ratzenberger's death at the 1994 San Marino Grand Prix prompted massive safety reforms, including improved barriers, cockpit protection, and medical procedures.",
-          es: "Tanto el accidente fatal de Ayrton Senna como la muerte de Roland Ratzenberger en el Gran Premio de San Marino 1994 motivaron reformas masivas de seguridad, incluyendo barreras mejoradas, proteccion de cabina y procedimientos medicos.",
-          de: "Sowohl Ayrton Sennas toedlicher Unfall als auch Roland Ratzenbergers Tod beim San Marino GP 1994 fuehrten zu massiven Sicherheitsreformen, einschliesslich verbesserter Barrieren, Cockpitschutz und medizinischer Verfahren.",
-          nl: "Zowel Ayrton Senna's fatale ongeluk als Roland Ratzenberger's dood bij de San Marino Grand Prix 1994 leidden tot massale veiligheidshervorming, inclusief verbeterde barriÃ¨res, cockpit bescherming en medische procedures."
-        }
-      },
-      {
-        question: {
-          en: "What safety device helps prevent basilar skull fractures in high-impact crashes?",
-          es: "Que dispositivo de seguridad ayuda a prevenir fracturas de craneo basilar en choques de alto impacto?",
-          de: "Welches Sicherheitsgeraet hilft, Schaedelbasisfrakturen bei harten Aufpraellen zu verhindern?",
-          nl: "Welk veiligheidsapparaat helpt schedelbasisbreuken in hoge-impact crashes te voorkomen?"
-        },
-        options: [
-          { en: "HANS device", es: "Dispositivo HANS", de: "HANS-System", nl: "HANS apparaat" },
-          { en: "Halo system", es: "Sistema Halo", de: "Halo-System", nl: "Halo systeem" },
-          { en: "Safety harness", es: "Arnes de seguridad", de: "Sicherheitsgurt", nl: "Veiligheidsharnas" },
-          { en: "Roll cage", es: "Jaula antivuelco", de: "Ueberrollkaefig", nl: "Rolkooi" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The HANS (Head And Neck Support) device prevents the driver's head from snapping forward violently in a crash, reducing the risk of basilar skull fractures which were often fatal.",
-          es: "El dispositivo HANS (Soporte de Cabeza y Cuello) previene que la cabeza del piloto se mueva violentamente hacia adelante en un choque, reduciendo el riesgo de fracturas de craneo basilar que a menudo eran fatales.",
-          de: "Das HANS (Head And Neck Support) System verhindert, dass der Kopf des Fahrers bei einem Unfall heftig nach vorn schnellt und reduziert das Risiko von Schaedelbasisfrakturen, die oft toedlich waren.",
-          nl: "Het HANS (Head And Neck Support) apparaat voorkomt dat de coureurs hoofd gewelddadig naar voren schiet in een crash, wat het risico op schedelbasisbreuken vermindert die vaak fataal waren."
-        }
-      },
-      {
-        question: {
-          en: "Which F1 circuit section was nicknamed 'The Green Hell' due to its dangerous nature?",
-          es: "Que seccion del circuito de F1 fue apodada 'El Infierno Verde' debido a su naturaleza peligrosa?",
-          de: "Welcher F1-Streckenabschnitt wurde wegen seiner Gefaehrlichkeit 'Die Gruene Hoelle' genannt?",
-          nl: "Welk F1 circuit gedeelte kreeg de bijnaam 'De Groene Hel' vanwege zijn gevaarlijke aard?"
-        },
-        options: [
-          { en: "Monaco hairpin", es: "Horquilla de Monaco", de: "Monaco-Haarnadelkurve", nl: "Monaco haarspeldbocht" },
-          { en: "Nurburgring Nordschleife", es: "Nurburgring Nordschleife", de: "Nurburgring Nordschleife", nl: "Nurburgring Nordschleife" },
-          { en: "Eau Rouge at Spa", es: "Eau Rouge en Spa", de: "Eau Rouge in Spa", nl: "Eau Rouge op Spa" },
-          { en: "130R at Suzuka", es: "130R en Suzuka", de: "130R in Suzuka", nl: "130R op Suzuka" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The Nurburgring Nordschleife was called 'The Green Hell' by Jackie Stewart. This 20km circuit through the Eifel forest was extremely dangerous and F1 stopped racing there after 1976.",
-          es: "El Nurburgring Nordschleife fue llamado 'El Infierno Verde' por Jackie Stewart. Este circuito de 20km a traves del bosque Eifel era extremadamente peligroso y F1 dejo de correr alli despues de 1976.",
-          de: "Die Nurburgring Nordschleife wurde von Jackie Stewart 'Die Gruene Hoelle' genannt. Diese 20km-Strecke durch den Eifelwald war extrem gefaehrlich und die F1 hoerte 1976 auf, dort zu fahren.",
-          nl: "De Nurburgring Nordschleife werd 'De Groene Hel' genoemd door Jackie Stewart. Dit 20km circuit door het Eifel bos was extreem gevaarlijk en F1 stopte er in 1976 mee racen."
-        }
-      },
-      {
-        question: {
-          en: "Which modern safety car innovation helps neutralize the race while maintaining tire and engine temperatures?",
-          es: "Que innovacion moderna del safety car ayuda a neutralizar la carrera mientras mantiene temperaturas de neumaticos y motor?",
-          de: "Welche moderne Safety-Car-Innovation hilft, das Rennen zu neutralisieren und dabei Reifen- und Motortemperaturen aufrechtzuerhalten?",
-          nl: "Welke moderne safety car innovatie helpt de race te neutraliseren terwijl band- en motortemperaturen behouden blijven?"
-        },
-        options: [
-          { en: "Safety Car periods", es: "Periodos de Safety Car", de: "Safety-Car-Phasen", nl: "Safety Car periodes" },
-          { en: "Virtual Safety Car (VSC)", es: "Safety Car Virtual (VSC)", de: "Virtual Safety Car (VSC)", nl: "Virtual Safety Car (VSC)" },
-          { en: "Red flag procedures", es: "Procedimientos de bandera roja", de: "Rote Flagge Verfahren", nl: "Rode vlag procedures" },
-          { en: "Yellow flag zones", es: "Zonas de bandera amarilla", de: "Gelbflaggenzonen", nl: "Gele vlag zones" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The Virtual Safety Car (VSC) was introduced in 2015, requiring drivers to slow down by a specific percentage while maintaining gaps, keeping tires and engines warm without bunching the field.",
-          es: "El Safety Car Virtual (VSC) se introdujo en 2015, requiriendo que los pilotos reduzcan velocidad en un porcentaje especifico mientras mantienen distancias, manteniendo neumaticos y motores calientes sin agrupar el pelaton.",
-          de: "Das Virtual Safety Car (VSC) wurde 2015 eingefuehrt und verlangt von den Fahrern, um einen bestimmten Prozentsatz zu verlangsamen und dabei Abstaende zu halten, was Reifen und Motoren warm haelt ohne das Feld zusammenzudraengen.",
-          nl: "De Virtual Safety Car (VSC) werd geÃ¯ntroduceerd in 2015, vereist dat coureurs met een specifiek percentage vertragen terwijl ze gaten behouden, waardoor banden en motoren warm blijven zonder het veld samen te brengen."
-        }
-      },
-      {
-        question: {
-          en: "Which driver survived one of the most spectacular crashes in recent F1 history at the 2020 Bahrain Grand Prix?",
-          es: "Que piloto sobrevivio a uno de los choques mas espectaculares en la historia reciente de F1 en el Gran Premio de Bahrein 2020?",
-          de: "Welcher Fahrer ueberlebte einen der spektakulaersten Unfaelle der jueengeren F1-Geschichte beim Bahrain GP 2020?",
-          nl: "Welke coureur overleefde een van de meest spectaculaire crashes in recente F1 geschiedenis bij de 2020 Bahrein Grand Prix?"
-        },
-        options: [
-          { en: "Charles Leclerc", es: "Charles Leclerc", de: "Charles Leclerc", nl: "Charles Leclerc" },
-          { en: "Romain Grosjean", es: "Romain Grosjean", de: "Romain Grosjean", nl: "Romain Grosjean" },
-          { en: "Kevin Magnussen", es: "Kevin Magnussen", de: "Kevin Magnussen", nl: "Kevin Magnussen" },
-          { en: "Sergio Perez", es: "Sergio Perez", de: "Sergio Perez", nl: "Sergio Perez" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Romain Grosjean survived a horrific crash where his Haas car split in half and caught fire after hitting the barrier at 192 km/h, demonstrating the effectiveness of modern F1 safety systems.",
-          es: "Romain Grosjean sobrevivio a un choque horrible donde su auto Haas se partio por la mitad y se incendio despues de golpear la barrera a 192 km/h, demostrando la efectividad de los sistemas de seguridad modernos de F1.",
-          de: "Romain Grosjean ueberlebte einen schrecklichen Unfall, bei dem sein Haas-Auto in zwei Teile zerbrach und Feuer fing, nachdem er mit 192 km/h in die Barriere gekracht war, was die Wirksamkeit moderner F1-Sicherheitssysteme demonstrierte.",
-          nl: "Romain Grosjean overleefde een verschrikkelijke crash waarbij zijn Haas auto in tweeÃ«n brak en vlam vatte na het raken van de barriÃ¨re met 192 km/u, wat de effectiviteit van moderne F1 veiligheidssystemen toonde."
-        }
-      },
-      {
-        question: {
-          en: "Which tragic accident at the 1994 San Marino Grand Prix led to major safety improvements in F1?",
-          es: "Que accidente tragico en el Gran Premio de San Marino de 1994 llevo a grandes mejoras de seguridad en F1?",
-          de: "Welcher tragische Unfall beim San Marino GP 1994 fuehrte zu grossen Sicherheitsverbesserungen in der F1?",
-          nl: "Welk tragisch ongeluk bij de San Marino Grand Prix van 1994 leidde tot grote veiligheidsverbeteringen in F1?"
-        },
-        options: [
-          { en: "Ayrton Senna's fatal crash", es: "El accidente fatal de Ayrton Senna", de: "Ayrton Sennas toedlicher Unfall", nl: "Ayrton Senna's fatale crash" },
-          { en: "Roland Ratzenberger's crash", es: "El accidente de Roland Ratzenberger", de: "Roland Ratzenbergers Unfall", nl: "Roland Ratzenberger's crash" },
-          { en: "Both drivers' accidents", es: "Los accidentes de ambos pilotos", de: "Beide Fahrer-Unfaelle", nl: "Beide coureurs' ongevallen" },
-          { en: "Rubens Barrichello's crash", es: "El accidente de Rubens Barrichello", de: "Rubens Barrichellos Unfall", nl: "Rubens Barrichello's crash" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Both Ayrton Senna's fatal accident and Roland Ratzenberger's death at the 1994 San Marino Grand Prix prompted massive safety reforms, including improved barriers, cockpit protection, and medical procedures.",
-          es: "Tanto el accidente fatal de Ayrton Senna como la muerte de Roland Ratzenberger en el Gran Premio de San Marino 1994 motivaron reformas masivas de seguridad, incluyendo barreras mejoradas, proteccion de cabina y procedimientos medicos.",
-          de: "Sowohl Ayrton Sennas toedlicher Unfall als auch Roland Ratzenbergers Tod beim San Marino GP 1994 fuehrten zu massiven Sicherheitsreformen, einschliesslich verbesserter Barrieren, Cockpitschutz und medizinischer Verfahren.",
-          nl: "Zowel Ayrton Senna's fatale ongeluk als Roland Ratzenberger's dood bij de San Marino Grand Prix 1994 leidden tot massale veiligheidshervorming, inclusief verbeterde barriÃ¨res, cockpit bescherming en medische procedures."
-        }
-      },
-      {
-        question: {
-          en: "What safety device helps prevent basilar skull fractures in high-impact crashes?",
-          es: "Que dispositivo de seguridad ayuda a prevenir fracturas de craneo basilar en choques de alto impacto?",
-          de: "Welches Sicherheitsgeraet hilft, Schaedelbasisfrakturen bei harten Aufpraellen zu verhindern?",
-          nl: "Welk veiligheidsapparaat helpt schedelbasisbreuken in hoge-impact crashes te voorkomen?"
-        },
-        options: [
-          { en: "HANS device", es: "Dispositivo HANS", de: "HANS-System", nl: "HANS apparaat" },
-          { en: "Halo system", es: "Sistema Halo", de: "Halo-System", nl: "Halo systeem" },
-          { en: "Safety harness", es: "Arnes de seguridad", de: "Sicherheitsgurt", nl: "Veiligheidsharnas" },
-          { en: "Roll cage", es: "Jaula antivuelco", de: "Ueberrollkaefig", nl: "Rolkooi" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The HANS (Head And Neck Support) device prevents the driver's head from snapping forward violently in a crash, reducing the risk of basilar skull fractures which were often fatal.",
-          es: "El dispositivo HANS (Soporte de Cabeza y Cuello) previene que la cabeza del piloto se mueva violentamente hacia adelante en un choque, reduciendo el riesgo de fracturas de craneo basilar que a menudo eran fatales.",
-          de: "Das HANS (Head And Neck Support) System verhindert, dass der Kopf des Fahrers bei einem Unfall heftig nach vorn schnellt und reduziert das Risiko von Schaedelbasisfrakturen, die oft toedlich waren.",
-          nl: "Het HANS (Head And Neck Support) apparaat voorkomt dat de coureurs hoofd gewelddadig naar voren schiet in een crash, wat het risico op schedelbasisbreuken vermindert die vaak fataal waren."
-        }
-      },
-      {
-        question: {
-          en: "Which F1 circuit section was nicknamed 'The Green Hell' due to its dangerous nature?",
-          es: "Que seccion del circuito de F1 fue apodada 'El Infierno Verde' debido a su naturaleza peligrosa?",
-          de: "Welcher F1-Streckenabschnitt wurde wegen seiner Gefaehrlichkeit 'Die Gruene Hoelle' genannt?",
-          nl: "Welk F1 circuit gedeelte kreeg de bijnaam 'De Groene Hel' vanwege zijn gevaarlijke aard?"
-        },
-        options: [
-          { en: "Monaco hairpin", es: "Horquilla de Monaco", de: "Monaco-Haarnadelkurve", nl: "Monaco haarspeldbocht" },
-          { en: "Nurburgring Nordschleife", es: "Nurburgring Nordschleife", de: "Nurburgring Nordschleife", nl: "Nurburgring Nordschleife" },
-          { en: "Eau Rouge at Spa", es: "Eau Rouge en Spa", de: "Eau Rouge in Spa", nl: "Eau Rouge op Spa" },
-          { en: "130R at Suzuka", es: "130R en Suzuka", de: "130R in Suzuka", nl: "130R op Suzuka" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The Nurburgring Nordschleife was called 'The Green Hell' by Jackie Stewart. This 20km circuit through the Eifel forest was extremely dangerous and F1 stopped racing there after 1976.",
-          es: "El Nurburgring Nordschleife fue llamado 'El Infierno Verde' por Jackie Stewart. Este circuito de 20km a traves del bosque Eifel era extremadamente peligroso y F1 dejo de correr alli despues de 1976.",
-          de: "Die Nurburgring Nordschleife wurde von Jackie Stewart 'Die Gruene Hoelle' genannt. Diese 20km-Strecke durch den Eifelwald war extrem gefaehrlich und die F1 hoerte 1976 auf, dort zu fahren.",
-          nl: "De Nurburgring Nordschleife werd 'De Groene Hel' genoemd door Jackie Stewart. Dit 20km circuit door het Eifel bos was extreem gevaarlijk en F1 stopte er in 1976 mee racen."
-        }
-      },
-      {
-        question: {
-          en: "Which modern safety car innovation helps neutralize the race while maintaining tire and engine temperatures?",
-          es: "Que innovacion moderna del safety car ayuda a neutralizar la carrera mientras mantiene temperaturas de neumaticos y motor?",
-          de: "Welche moderne Safety-Car-Innovation hilft, das Rennen zu neutralisieren und dabei Reifen- und Motortemperaturen aufrechtzuerhalten?",
-          nl: "Welke moderne safety car innovatie helpt de race te neutraliseren terwijl band- en motortemperaturen behouden blijven?"
-        },
-        options: [
-          { en: "Safety Car periods", es: "Periodos de Safety Car", de: "Safety-Car-Phasen", nl: "Safety Car periodes" },
-          { en: "Virtual Safety Car (VSC)", es: "Safety Car Virtual (VSC)", de: "Virtual Safety Car (VSC)", nl: "Virtual Safety Car (VSC)" },
-          { en: "Red flag procedures", es: "Procedimientos de bandera roja", de: "Rote Flagge Verfahren", nl: "Rode vlag procedures" },
-          { en: "Yellow flag zones", es: "Zonas de bandera amarilla", de: "Gelbflaggenzonen", nl: "Gele vlag zones" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The Virtual Safety Car (VSC) was introduced in 2015, requiring drivers to slow down by a specific percentage while maintaining gaps, keeping tires and engines warm without bunching the field.",
-          es: "El Safety Car Virtual (VSC) se introdujo en 2015, requiriendo que los pilotos reduzcan velocidad en un porcentaje especifico mientras mantienen distancias, manteniendo neumaticos y motores calientes sin agrupar el pelaton.",
-          de: "Das Virtual Safety Car (VSC) wurde 2015 eingefuehrt und verlangt von den Fahrern, um einen bestimmten Prozentsatz zu verlangsamen und dabei Abstaende zu halten, was Reifen und Motoren warm haelt ohne das Feld zusammenzudraengen.",
-          nl: "De Virtual Safety Car (VSC) werd geÃ¯ntroduceerd in 2015, vereist dat coureurs met een specifiek percentage vertragen terwijl ze gaten behouden, waardoor banden en motoren warm blijven zonder het veld samen te brengen."
-        }
-      },
-      {
-        question: {
-          en: "Which driver survived one of the most spectacular crashes in recent F1 history at the 2020 Bahrain Grand Prix?",
-          es: "Que piloto sobrevivio a uno de los choques mas espectaculares en la historia reciente de F1 en el Gran Premio de Bahrein 2020?",
-          de: "Welcher Fahrer ueberlebte einen der spektakulaersten Unfaelle der jueengeren F1-Geschichte beim Bahrain GP 2020?",
-          nl: "Welke coureur overleefde een van de meest spectaculaire crashes in recente F1 geschiedenis bij de 2020 Bahrein Grand Prix?"
-        },
-        options: [
-          { en: "Charles Leclerc", es: "Charles Leclerc", de: "Charles Leclerc", nl: "Charles Leclerc" },
-          { en: "Romain Grosjean", es: "Romain Grosjean", de: "Romain Grosjean", nl: "Romain Grosjean" },
-          { en: "Kevin Magnussen", es: "Kevin Magnussen", de: "Kevin Magnussen", nl: "Kevin Magnussen" },
-          { en: "Sergio Perez", es: "Sergio Perez", de: "Sergio Perez", nl: "Sergio Perez" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Romain Grosjean survived a horrific crash where his Haas car split in half and caught fire after hitting the barrier at 192 km/h, demonstrating the effectiveness of modern F1 safety systems.",
-          es: "Romain Grosjean sobrevivio a un choque horrible donde su auto Haas se partio por la mitad y se incendio despues de golpear la barrera a 192 km/h, demostrando la efectividad de los sistemas de seguridad modernos de F1.",
-          de: "Romain Grosjean ueberlebte einen schrecklichen Unfall, bei dem sein Haas-Auto in zwei Teile zerbrach und Feuer fing, nachdem er mit 192 km/h in die Barriere gekracht war, was die Wirksamkeit moderner F1-Sicherheitssysteme demonstrierte.",
-          nl: "Romain Grosjean overleefde een verschrikkelijke crash waarbij zijn Haas auto in tweeÃ«n brak en vlam vatte na het raken van de barriÃ¨re met 192 km/u, wat de effectiviteit van moderne F1 veiligheidssystemen toonde."
-        }
-      }
+{
+    question:{en:"Which safety device protects drivers' heads from debris and impacts since 2018?",es:"¿Qué dispositivo de seguridad protege las cabezas de los pilotos de escombros e impactos desde 2018?",de:"Welches Sicherheitsgerät schützt Fahrerköpfe seit 2018 vor Trümmern und Aufprallen?",nl:"Welk veiligheidsapparaat beschermt coureurs hoofden tegen puin en impacts sinds 2018?"},
+    options:["Halo device","HANS device","Roll cage","Helmet visor"],
+    correct:0,
+    explanation:{en:"The Halo is a titanium structure that sits above the driver's cockpit, protecting their head from large debris and impacts. Introduced in 2018, it has already saved multiple lives including Romain Grosjean's in 2020.",es:"El Halo es una estructura de titanio que se sitúa sobre la cabina del piloto, protegiendo su cabeza de grandes escombros e impactos. Introducido en 2018, ya ha salvado múltiples vidas incluyendo la de Romain Grosjean en 2020.",de:"Der Halo ist eine Titanstruktur über dem Fahrercockpit, die den Kopf vor großen Trümmern und Aufprallen schützt. 2018 eingeführt, hat es bereits mehrere Leben gerettet, einschließlich Romain Grosjean 2020.",nl:"De Halo is een titanium structuur boven de coureur cockpit, die het hoofd beschermt tegen grote puinbrokken en impacts. Geïntroduceerd in 2018, heeft het al meerdere levens gered waaronder Romain Grosjean in 2020."}
+  },
+  {
+    question:{en:"What safety device prevents the driver's head from snapping forward in crashes?",es:"¿Qué dispositivo de seguridad previene que la cabeza del piloto se mueva bruscamente hacia adelante en choques?",de:"Welches Sicherheitsgerät verhindert das Nach-vorn-Schnellen des Fahrerkopfes bei Unfällen?",nl:"Welk veiligheidsapparaat voorkomt dat de coureur zijn hoofd vooruit schiet bij crashes?"},
+    options:["HANS device","Halo system","Seat belts","Neck brace"],
+    correct:0,
+    explanation:{en:"The HANS (Head And Neck Support) device has been mandatory since 2003. It connects the helmet to the body harness, preventing dangerous head movement that could cause basilar skull fractures.",es:"El dispositivo HANS (Soporte de Cabeza y Cuello) es obligatorio desde 2003. Conecta el casco al arnés del cuerpo, previniendo movimientos peligrosos de la cabeza que podrían causar fracturas de cráneo basilar.",de:"Das HANS (Head And Neck Support) Gerät ist seit 2003 Pflicht. Es verbindet den Helm mit dem Körpergurt und verhindert gefährliche Kopfbewegungen die Schädelbasisbrüche verursachen könnten.",nl:"Het HANS (Head And Neck Support) apparaat is verplicht sinds 2003. Het verbindt de helm met het lichaam harnas, gevaarlijke hoofdbewegingen voorkomend die schedelbasisbreuken kunnen veroorzaken."}
+  },
+  {
+    question:{en:"Which type of barrier is designed to absorb energy and reduce deceleration in crashes?",es:"¿Qué tipo de barrera está diseñada para absorber energía y reducir la desaceleración en choques?",de:"Welcher Barrieretyp ist entwickelt um Energie zu absorbieren und Verzögerung bei Unfällen zu reduzieren?",nl:"Welk type barrière is ontworpen om energie te absorberen en vertraging bij crashes te verminderen?"},
+    options:["TecPro barriers","Concrete walls","Metal barriers","Tire walls"],
+    correct:0,
+    explanation:{en:"TecPro barriers are foam-filled energy-absorbing barriers that reduce the g-forces experienced by drivers in crashes. They replaced older tire barriers and concrete walls at many circuits for improved safety.",es:"Las barreras TecPro son barreras llenas de espuma que absorben energía, reduciendo las fuerzas g experimentadas por los pilotos en choques. Reemplazaron antiguas barreras de neumáticos y muros de concreto en muchos circuitos para mejorar seguridad.",de:"TecPro-Barrieren sind schaumgefüllte energieabsorbierende Barrieren die die g-Kräfte bei Unfällen reduzieren. Sie ersetzten ältere Reifenbarrieren und Betonwände auf vielen Strecken für verbesserte Sicherheit.",nl:"TecPro barrières zijn schuimgevulde energie-absorberende barrières die de g-krachten bij crashes verminderen. Ze vervingen oudere bandenbarrières en betonnen muren op veel circuits voor verbeterde veiligheid."}
+  },
+  {
+    question:{en:"What safety feature in the cockpit allows drivers to quickly exit the car in emergencies?",es:"¿Qué característica de seguridad en la cabina permite a los pilotos salir rápidamente del coche en emergencias?",de:"Welches Sicherheitsmerkmal im Cockpit ermöglicht Fahrern schnelles Aussteigen bei Notfällen?",nl:"Welk veiligheids kenmerk in de cockpit stelt coureurs in staat om snel uit de auto te komen bij noodgevallen?"},
+    options:["Quick-release steering wheel","Halo opening","Side doors","Roof hatch"],
+    correct:0,
+    explanation:{en:"F1 cars have a quick-release steering wheel mechanism that allows drivers to detach the wheel and climb out quickly. Drivers must be able to exit the car within 5 seconds during safety tests.",es:"Los autos F1 tienen un mecanismo de volante de liberación rápida que permite a los pilotos desprender el volante y salir rápidamente. Los pilotos deben poder salir del auto en 5 segundos durante pruebas de seguridad.",de:"F1-Autos haben einen Schnellentriegelungs-Lenkradmechanismus der Fahrern ermöglicht das Lenkrad zu lösen und schnell auszusteigen. Fahrer müssen das Auto in 5 Sekunden bei Sicherheitstests verlassen können.",nl:"F1 auto's hebben een snelkoppeling stuurwiel mechanisme dat coureurs toestaat het stuur los te maken en snel uit te stappen. Coureurs moeten binnen 5 seconden uit de auto kunnen tijdens veiligheids tests."}
+  },
+  {
+    question:{en:"Which fire-resistant material must F1 driver suits be made from?",es:"¿De qué material resistente al fuego deben estar hechos los trajes de pilotos de F1?",de:"Aus welchem feuerfesten Material müssen F1-Fahreranzüge hergestellt sein?",nl:"Van welk brandwerend materiaal moeten F1 coureurs pakken gemaakt zijn?"},
+    options:["Nomex","Cotton","Leather","Polyester"],
+    correct:0,
+    explanation:{en:"Nomex is a flame-resistant fabric that can withstand temperatures up to 400°C. F1 drivers wear multiple layers of Nomex including suits, gloves, boots, and underwear for protection in fires.",es:"Nomex es un tejido resistente a las llamas que puede soportar temperaturas hasta 400°C. Los pilotos de F1 usan múltiples capas de Nomex incluyendo trajes, guantes, botas y ropa interior para protección en incendios.",de:"Nomex ist ein flammfestes Gewebe das Temperaturen bis 400°C standhält. F1-Fahrer tragen mehrere Nomex-Schichten einschließlich Anzüge, Handschuhe, Stiefel und Unterwäsche zum Schutz bei Bränden.",nl:"Nomex is een vlamvertragend weefsel dat temperaturen tot 400°C kan weerstaan. F1 coureurs dragen meerdere lagen Nomex inclusief pakken, handschoenen, laarzen en ondergoed voor bescherming bij branden."}
+  },
+  {
+    question:{en:"What is the survival cell in an F1 car made from?",es:"¿De qué está hecha la celda de supervivencia en un auto F1?",de:"Woraus besteht die Überlebenszelle in einem F1-Auto?",nl:"Waarvan is de overlevingscel in een F1 auto gemaakt?"},
+    options:["Carbon fiber","Steel","Aluminum","Titanium"],
+    correct:0,
+    explanation:{en:"The survival cell (monocoque) is constructed from carbon fiber composite, creating an incredibly strong yet lightweight protective shell around the driver. It must pass rigorous crash tests before being approved for racing.",es:"La celda de supervivencia (monocasco) está construida de composite de fibra de carbono, creando un caparazón protector increíblemente fuerte pero ligero alrededor del piloto. Debe pasar rigurosas pruebas de choque antes de aprobarse para carreras.",de:"Die Überlebenszelle (Monocoque) ist aus Carbonfaser-Verbundwerkstoff konstruiert und bildet eine unglaublich starke aber leichte Schutzhülle um den Fahrer. Sie muss rigorose Crashtests bestehen vor Rennzulassung.",nl:"De overlevingscel (monocoque) is geconstrueerd van carbon fiber composiet, creërend een ongelooflijk sterke maar lichte beschermende schaal rond de coureur. Het moet strenge crash tests doorstaan voordat het goedgekeurd wordt voor racen."}
+  },
+  {
+    question:{en:"How long must F1 driver suits protect against fire exposure?",es:"¿Cuánto tiempo deben proteger los trajes de pilotos de F1 contra la exposición al fuego?",de:"Wie lange müssen F1-Fahreranzüge vor Feuereinwirkung schützen?",nl:"Hoe lang moeten F1 coureurs pakken beschermen tegen blootstelling aan vuur?"},
+    options:["10 seconds","20 seconds","30 seconds","60 seconds"],
+    correct:1,
+    explanation:{en:"F1 Nomex suits must protect drivers for at least 20 seconds in direct fire exposure. This gives marshals time to arrive with fire extinguishers. Multiple layers provide extended protection beyond the minimum requirement.",es:"Los trajes Nomex de F1 deben proteger a los pilotos durante al menos 20 segundos en exposición directa al fuego. Esto da tiempo a los comisarios para llegar con extintores. Múltiples capas proporcionan protección extendida más allá del requisito mínimo.",de:"F1-Nomex-Anzüge müssen Fahrer mindestens 20 Sekunden bei direkter Feuereinwirkung schützen. Dies gibt Streckenposten Zeit mit Feuerlöschern anzukommen. Mehrere Schichten bieten erweiterten Schutz über Mindestanforderung hinaus.",nl:"F1 Nomex pakken moeten coureurs minstens 20 seconden beschermen bij directe blootstelling aan vuur. Dit geeft marshals tijd om aan te komen met brandblussers. Meerdere lagen bieden uitgebreide bescherming boven minimale vereiste."}
+  },
+  {
+    question:{en:"What safety measure prevents debris from hitting spectators?",es:"¿Qué medida de seguridad previene que los escombros golpeen a los espectadores?",de:"Welche Sicherheitsmaßnahme verhindert dass Trümmer Zuschauer treffen?",nl:"Welke veiligheidsmaatregel voorkomt dat puin toeschouwers raakt?"},
+    options:["Catch fencing","Safety car","Barriers","Gravel traps"],
+    correct:0,
+    explanation:{en:"Catch fencing is high-tensile wire mesh installed above barriers to prevent car parts and debris from entering spectator areas. It has been standard at F1 circuits since the 1960s and continuously improved.",es:"El cercado de captura es malla de alambre de alta tensión instalada sobre barreras para prevenir que partes de autos y escombros entren en áreas de espectadores. Ha sido estándar en circuitos F1 desde los 1960s y continuamente mejorado.",de:"Fangzäune sind Hochzugdrahtgitter die über Barrieren installiert sind um zu verhindern dass Autoteile und Trümmer in Zuschauerbereiche gelangen. Sie sind seit den 1960er Jahren Standard auf F1-Strecken und kontinuierlich verbessert.",nl:"Vangnet hekwerk is hoog-treksterkte draadgaas geïnstalleerd boven barrières om te voorkomen dat autodelen en puin toeschouwersgebieden binnenkomen. Het is standaard op F1 circuits sinds de jaren 1960 en continu verbeterd."}
+  },
+  {
+    question:{en:"What color flag warns drivers of oil or debris on the track?",es:"¿Qué color de bandera advierte a los pilotos de aceite o escombros en la pista?",de:"Welche Flaggenfarbe warnt Fahrer vor Öl oder Trümmern auf der Strecke?",nl:"Welke kleur vlag waarschuwt coureurs voor olie of puin op het circuit?"},
+    options:["Yellow flag","Red flag","Blue flag","White flag"],
+    correct:0,
+    explanation:{en:"Yellow flags warn drivers of danger ahead, such as crashed cars, oil, or debris. Drivers must slow down and be prepared to stop. Double yellow flags mean no overtaking is allowed in that sector.",es:"Las banderas amarillas advierten a los pilotos de peligro adelante, como autos chocados, aceite o escombros. Los pilotos deben reducir velocidad y estar preparados para detenerse. Doble bandera amarilla significa que no se permite adelantar en ese sector.",de:"Gelbe Flaggen warnen Fahrer vor Gefahr voraus wie verunfallte Autos, Öl oder Trümmer. Fahrer müssen verlangsamen und bereit sein zu stoppen. Doppelt gelbe Flaggen bedeuten kein Überholen in diesem Sektor.",nl:"Gele vlaggen waarschuwen coureurs voor gevaar vooruit, zoals gecrashte auto's, olie of puin. Coureurs moeten vertragen en voorbereid zijn om te stoppen. Dubbele gele vlaggen betekenen geen inhalen toegestaan in die sector."}
+  },
+  {
+    question:{en:"Which medical vehicle follows the race start to quickly respond to incidents?",es:"¿Qué vehículo médico sigue la salida de la carrera para responder rápidamente a incidentes?",de:"Welches Medizinfahrzeug folgt dem Rennstart um schnell auf Zwischenfälle zu reagieren?",nl:"Welk medisch voertuig volgt de race start om snel te reageren op incidenten?"},
+    options:["Medical car","Ambulance","Safety car","Fire truck"],
+    correct:0,
+    explanation:{en:"The medical car, staffed with an FIA doctor and experienced driver, follows the field for the first lap of every race. It can reach incidents quickly while cars are bunched together, providing immediate medical response.",es:"El auto médico, con un doctor FIA y conductor experimentado, sigue al pelotón en la primera vuelta de cada carrera. Puede alcanzar incidentes rápidamente mientras los autos están agrupados, proporcionando respuesta médica inmediata.",de:"Das Medizinfahrzeug, besetzt mit FIA-Arzt und erfahrenem Fahrer, folgt dem Feld in der ersten Runde jedes Rennens. Es kann Zwischenfälle schnell erreichen während Autos zusammen sind, sofortige medizinische Versorgung bietend.",nl:"De medische auto, bemand met een FIA dokter en ervaren coureur, volgt het veld voor de eerste ronde van elke race. Het kan incidenten snel bereiken terwijl auto's bij elkaar zijn, onmiddellijke medische hulp biedend."}
+  },
+{
+    question:{en:"Which tragic accident at the 1994 San Marino Grand Prix led to major safety reforms?",es:"¿Qué accidente trágico en el Gran Premio de San Marino de 1994 llevó a grandes reformas de seguridad?",de:"Welcher tragische Unfall beim San Marino GP 1994 führte zu großen Sicherheitsreformen?",nl:"Welk tragisch ongeluk bij de San Marino Grand Prix van 1994 leidde tot grote veiligheidshervorming?"},
+    options:["Ayrton Senna's fatal crash","Roland Ratzenberger's crash","Both drivers' deaths","Rubens Barrichello's crash"],
+    correct:2,
+    explanation:{en:"Both Ayrton Senna's fatal crash on Sunday and Roland Ratzenberger's death on Saturday at the 1994 San Marino GP prompted massive safety reforms including improved barriers, cockpit protection, and circuit modifications.",es:"Tanto el choque fatal de Ayrton Senna el domingo como la muerte de Roland Ratzenberger el sábado en el GP de San Marino 1994 motivaron reformas masivas de seguridad incluyendo barreras mejoradas, protección de cabina y modificaciones de circuito.",de:"Sowohl Ayrton Sennas tödlicher Unfall am Sonntag als auch Roland Ratzenbergers Tod am Samstag beim San Marino GP 1994 führten zu massiven Sicherheitsreformen einschließlich verbesserter Barrieren, Cockpitschutz und Streckenmodifikationen.",nl:"Zowel Ayrton Senna's fatale crash op zondag als Roland Ratzenberger's dood op zaterdag bij de San Marino GP 1994 leidden tot massale veiligheidshervorming inclusief verbeterde barrières, cockpit bescherming en circuit modificaties."}
+  },
+  {
+    question:{en:"What safety innovation did Jackie Stewart champion in the 1960s and 1970s?",es:"¿Qué innovación de seguridad defendió Jackie Stewart en los años 1960 y 1970?",de:"Welche Sicherheitsinnovation setzte sich Jackie Stewart in den 1960er und 1970er Jahren ein?",nl:"Welke veiligheids innovatie promootte Jackie Stewart in de jaren 1960 en 1970?"},
+    options:["Safety barriers and medical facilities","Faster cars","More races","Bigger engines"],
+    correct:0,
+    explanation:{en:"Jackie Stewart campaigned tirelessly for improved safety including better barriers, runoff areas, medical facilities, and fire equipment. After losing friends to preventable accidents, he transformed F1's approach to driver safety despite initial resistance.",es:"Jackie Stewart hizo campaña incansablemente por seguridad mejorada incluyendo mejores barreras, áreas de escape, instalaciones médicas y equipo contra incendios. Después de perder amigos en accidentes prevenibles, transformó el enfoque de F1 hacia la seguridad del piloto pese a resistencia inicial.",de:"Jackie Stewart setzte sich unermüdlich für verbesserte Sicherheit ein einschließlich besserer Barrieren, Auslaufzonen, Medizineinrichtungen und Feuerlöschausrüstung. Nach Verlust von Freunden durch vermeidbare Unfälle transformierte er F1s Ansatz zur Fahrersicherheit trotz anfänglichem Widerstand.",nl:"Jackie Stewart campagne voerde onvermoeibaar voor verbeterde veiligheid inclusief betere barrières, uitloop gebieden, medische faciliteiten en brandblusapparatuur. Na vrienden verloren aan vermijdbare ongevallen, transformeerde hij F1's benadering van coureur veiligheid ondanks initiële weerstand."}
+  },
+  {
+    question:{en:"What is the minimum time drivers must be able to exit their car during safety tests?",es:"¿Cuál es el tiempo mínimo que los pilotos deben poder salir de su auto durante pruebas de seguridad?",de:"Was ist die Mindestzeit die Fahrer ihr Auto bei Sicherheitstests verlassen können müssen?",nl:"Wat is de minimale tijd dat coureurs hun auto moeten kunnen verlaten tijdens veiligheids tests?"},
+    options:["3 seconds","5 seconds","7 seconds","10 seconds"],
+    correct:1,
+    explanation:{en:"Drivers must demonstrate they can remove the steering wheel and exit the car within 5 seconds during safety tests. This ensures quick evacuation in emergencies like fires or crashes in dangerous positions.",es:"Los pilotos deben demostrar que pueden quitar el volante y salir del auto en 5 segundos durante pruebas de seguridad. Esto asegura evacuación rápida en emergencias como incendios o choques en posiciones peligrosas.",de:"Fahrer müssen demonstrieren dass sie das Lenkrad entfernen und das Auto in 5 Sekunden bei Sicherheitstests verlassen können. Dies gewährleistet schnelle Evakuierung bei Notfällen wie Bränden oder Unfällen in gefährlichen Positionen.",nl:"Coureurs moeten demonstreren dat ze het stuur kunnen verwijderen en de auto binnen 5 seconden kunnen verlaten tijdens veiligheids tests. Dit verzekert snelle evacuatie bij noodgevallen zoals branden of crashes op gevaarlijke posities."}
+  },
+  {
+    question:{en:"What type of run-off area is most effective for slowing cars safely?",es:"¿Qué tipo de área de escape es más efectiva para frenar autos de manera segura?",de:"Welcher Typ Auslaufzone ist am effektivsten um Autos sicher zu verlangsamen?",nl:"Welk type uitloop gebied is het meest effectief om auto's veilig te vertragen?"},
+    options:["Gravel traps","Asphalt","Grass","Concrete"],
+    correct:0,
+    explanation:{en:"Gravel traps are highly effective at slowing cars as the wheels dig into the gravel, creating significant deceleration. However, modern circuits often use asphalt for motorcycle racing compatibility, relying on larger runoff distances.",es:"Las trampas de grava son altamente efectivas para frenar autos ya que las ruedas se entierran en la grava, creando desaceleración significativa. Sin embargo, circuitos modernos a menudo usan asfalto por compatibilidad con carreras de motocicletas, confiando en mayores distancias de escape.",de:"Kiesbetten sind hocheffektiv beim Verlangsamen von Autos da sich die Räder in den Kies graben und signifikante Verzögerung erzeugen. Moderne Strecken nutzen jedoch oft Asphalt für Motorrad-Rennkompatibilität und verlassen sich auf größere Auslaufdistanzen.",nl:"Grindbakken zijn zeer effectief bij het vertragen van auto's omdat de wielen in de grind graven, aanzienlijke vertraging creërend. Moderne circuits gebruiken echter vaak asfalt voor motor race compatibiliteit, vertrouwend op grotere uitloop afstanden."}
+  },
+  {
+    question:{en:"Which FIA safety standard must all F1 helmets meet?",es:"¿Qué estándar de seguridad de la FIA deben cumplir todos los cascos de F1?",de:"Welchem FIA-Sicherheitsstandard müssen alle F1-Helme entsprechen?",nl:"Aan welke FIA veiligheids standaard moeten alle F1 helmen voldoen?"},
+    options:["FIA 8860 standard","FIA 8000 standard","FIA 5000 standard","FIA 2000 standard"],
+    correct:0,
+    explanation:{en:"All F1 helmets must meet the FIA 8860 standard, which tests impact resistance, penetration protection, flame resistance, and visor strength. Helmets undergo rigorous testing including ballistic impacts and fire exposure before approval.",es:"Todos los cascos F1 deben cumplir el estándar FIA 8860, que prueba resistencia al impacto, protección contra penetración, resistencia a llamas y resistencia de visera. Los cascos pasan pruebas rigurosas incluyendo impactos balísticos y exposición al fuego antes de aprobación.",de:"Alle F1-Helme müssen dem FIA 8860-Standard entsprechen der Schlagfestigkeit, Durchdringungsschutz, Flammfestigkeit und Visierstärke testet. Helme durchlaufen rigorose Tests einschließlich ballistischer Einschläge und Feuereinwirkung vor Genehmigung.",nl:"Alle F1 helmen moeten voldoen aan de FIA 8860 standaard, die slagvastheid, penetratie bescherming, vlambestendigheid en vizier sterkte test. Helmen ondergaan rigoureuze testen inclusief ballistische impacts en vuur blootstelling voor goedkeuring."}
+  },
+  {
+    question:{en:"What is the purpose of the Safety Car in Formula 1?",es:"¿Cuál es el propósito del Auto de Seguridad en Fórmula 1?",de:"Was ist der Zweck des Safety Cars in der Formel 1?",nl:"Wat is het doel van de Safety Car in Formule 1?"},
+    options:["Slow the field during hazards","Lead the race start","Transport officials","Clean the track"],
+    correct:0,
+    explanation:{en:"The Safety Car is deployed when conditions are too dangerous for racing but not dangerous enough to stop the race. It bunches the field together at reduced speed while marshals clear debris or attend to incidents.",es:"El Auto de Seguridad se despliega cuando las condiciones son demasiado peligrosas para carreras pero no lo suficientemente peligrosas para detener la carrera. Agrupa al pelotón a velocidad reducida mientras comisarios limpian escombros o atienden incidentes.",de:"Das Safety Car wird eingesetzt wenn Bedingungen zu gefährlich zum Rennen aber nicht gefährlich genug zum Stoppen sind. Es bündelt das Feld bei reduzierter Geschwindigkeit während Streckenposten Trümmer beseitigen oder Zwischenfälle bearbeiten.",nl:"De Safety Car wordt ingezet wanneer omstandigheden te gevaarlijk zijn voor racen maar niet gevaarlijk genoeg om de race te stoppen. Het bundelt het veld bij verminderde snelheid terwijl marshals puin opruimen of incidenten behandelen."}
+  },
+  {
+    question:{en:"What safety feature was introduced in 2009 to prevent cars from starting with wheels not properly attached?",es:"¿Qué característica de seguridad se introdujo en 2009 para prevenir que autos arranquen con ruedas no correctamente sujetas?",de:"Welches Sicherheitsmerkmal wurde 2009 eingeführt um zu verhindern dass Autos mit nicht richtig befestigten Rädern starten?",nl:"Welk veiligheids kenmerk werd geïntroduceerd in 2009 om te voorkomen dat auto's starten met wielen die niet goed vast zitten?"},
+    options:["Wheel gun sensor system","Lollipop indicator","Pit lane speed limit","Traffic light system"],
+    correct:0,
+    explanation:{en:"After several incidents of cars leaving pit boxes with loose wheels, F1 introduced wheel gun sensors that alert teams if wheels aren't properly secured. The car won't receive the release signal until all four sensors confirm attachment.",es:"Después de varios incidentes de autos saliendo de boxes con ruedas sueltas, F1 introdujo sensores de pistola de ruedas que alertan a equipos si ruedas no están correctamente aseguradas. El auto no recibirá señal de liberación hasta que los cuatro sensores confirmen fijación.",de:"Nach mehreren Vorfällen von Autos die Boxen mit losen Rädern verließen führte F1 Radschrauber-Sensoren ein die Teams warnen wenn Räder nicht richtig gesichert sind. Das Auto erhält kein Freigabesignal bis alle vier Sensoren Befestigung bestätigen.",nl:"Na verschillende incidenten van auto's die pit boxes verlieten met losse wielen, introduceerde F1 wielmoersleutel sensoren die teams waarschuwen als wielen niet goed vast zitten. De auto ontvangt geen vrijgave signaal totdat alle vier sensoren bevestiging bevestigen."}
+  },
+  {
+    question:{en:"How many layers of protection do F1 driver suits typically have?",es:"¿Cuántas capas de protección tienen típicamente los trajes de pilotos de F1?",de:"Wie viele Schutzschichten haben F1-Fahreranzüge typischerweise?",nl:"Hoeveel lagen bescherming hebben F1 coureurs pakken typisch?"},
+    options:["1 layer","2 layers","3 layers","5 layers"],
+    correct:2,
+    explanation:{en:"F1 driver suits have at least 3 layers of Nomex material providing fire protection. Combined with Nomex underwear, gloves, boots, and balaclava, drivers wear up to 6 total layers of fire-resistant protection.",es:"Los trajes de pilotos F1 tienen al menos 3 capas de material Nomex proporcionando protección contra fuego. Combinados con ropa interior, guantes, botas y pasamontañas Nomex, los pilotos usan hasta 6 capas totales de protección resistente al fuego.",de:"F1-Fahreranzüge haben mindestens 3 Schichten Nomex-Material das Feuerschutz bietet. Kombiniert mit Nomex-Unterwäsche, Handschuhen, Stiefeln und Sturmhaube tragen Fahrer bis zu 6 Gesamtschichten feuerfester Schutz.",nl:"F1 coureurs pakken hebben minstens 3 lagen Nomex materiaal die brand bescherming bieden. Gecombineerd met Nomex ondergoed, handschoenen, laarzen en bivakmuts, dragen coureurs tot 6 totale lagen brandwerende bescherming."}
+  },
+  {
+    question:{en:"What does a red flag during a race indicate?",es:"¿Qué indica una bandera roja durante una carrera?",de:"Was zeigt eine rote Flagge während eines Rennens an?",nl:"Wat geeft een rode vlag tijdens een race aan?"},
+    options:["Race stopped immediately","Danger ahead","Oil on track","Last lap"],
+    correct:0,
+    explanation:{en:"A red flag stops the race immediately. All drivers must slow down and return to the pit lane. Red flags are shown for severe accidents, extreme weather, or track conditions too dangerous to continue racing.",es:"Una bandera roja detiene la carrera inmediatamente. Todos los pilotos deben reducir velocidad y regresar al pit lane. Las banderas rojas se muestran por accidentes graves, clima extremo o condiciones de pista demasiado peligrosas para continuar carreras.",de:"Eine rote Flagge stoppt das Rennen sofort. Alle Fahrer müssen verlangsamen und zur Boxengasse zurückkehren. Rote Flaggen werden gezeigt bei schweren Unfällen, extremem Wetter oder Streckenbedingungen die zu gefährlich zum Weiterrennen sind.",nl:"Een rode vlag stopt de race onmiddellijk. Alle coureurs moeten vertragen en terugkeren naar de pit lane. Rode vlaggen worden getoond bij ernstige ongevallen, extreem weer of circuit condities te gevaarlijk om door te racen."}
+  },
+  {
+    question:{en:"What safety improvement did the 2022 regulations introduce to car design?",es:"¿Qué mejora de seguridad introdujeron las regulaciones de 2022 al diseño del auto?",de:"Welche Sicherheitsverbesserung führten die 2022-Vorschriften beim Autodesign ein?",nl:"Welke veiligheids verbetering introduceerden de 2022 reglementen in auto ontwerp?"},
+    options:["Stronger side impact protection","Bigger engines","Wider wings","Softer tires"],
+    correct:0,
+    explanation:{en:"The 2022 regulations mandated stronger side impact structures to better protect drivers in T-bone collisions. The changes followed analysis of Zhou Guanyu's 2022 Silverstone crash and other incidents highlighting lateral impact vulnerabilities.",es:"Las regulaciones 2022 ordenaron estructuras de impacto lateral más fuertes para proteger mejor a pilotos en colisiones en T. Los cambios siguieron análisis del choque de Zhou Guanyu 2022 Silverstone y otros incidentes destacando vulnerabilidades de impacto lateral.",de:"Die 2022-Vorschriften schrieben stärkere Seitenaufprallstrukturen vor um Fahrer bei T-Knochen-Kollisionen besser zu schützen. Die Änderungen folgten Analyse von Zhou Guanyus 2022 Silverstone-Unfall und anderen Vorfällen die laterale Aufprall-Schwachstellen hervorhoben.",nl:"De 2022 reglementen schreven sterkere zij-impact structuren voor om coureurs beter te beschermen bij T-botst botsingen. De veranderingen volgden analyse van Zhou Guanyu's 2022 Silverstone crash en andere incidenten die laterale impact kwetsbaarheden benadrukten."}
+  },
+{
+    question:{en:"What is the pit lane speed limit at most F1 circuits?",es:"¿Cuál es el límite de velocidad del pit lane en la mayoría de circuitos F1?",de:"Was ist das Boxengassen-Tempolimit auf den meisten F1-Strecken?",nl:"Wat is de pit lane snelheidslimiet op de meeste F1 circuits?"},
+    options:["60 km/h","80 km/h","100 km/h","120 km/h"],
+    correct:1,
+    explanation:{en:"Most F1 circuits have an 80 km/h (50 mph) pit lane speed limit to ensure safety for mechanics and marshals working in the pits. Monaco has a 60 km/h limit due to its tighter pit lane configuration.",es:"La mayoría de circuitos F1 tienen un límite de velocidad de pit lane de 80 km/h (50 mph) para asegurar seguridad para mecánicos y comisarios trabajando en los pits. Mónaco tiene límite de 60 km/h debido a su configuración de pit lane más estrecha.",de:"Die meisten F1-Strecken haben ein 80 km/h (50 mph) Boxengassen-Tempolimit um Sicherheit für Mechaniker und Streckenposten in den Boxen zu gewährleisten. Monaco hat 60 km/h Limit aufgrund engerer Boxengassen-Konfiguration.",nl:"De meeste F1 circuits hebben een 80 km/h (50 mph) pit lane snelheidslimiet om veiligheid te waarborgen voor monteurs en marshals werkend in de pits. Monaco heeft een 60 km/h limiet vanwege zijn krappere pit lane configuratie."}
+  },
+  {
+    question:{en:"Which safety system automatically cuts fuel flow in the event of a crash?",es:"¿Qué sistema de seguridad corta automáticamente el flujo de combustible en caso de choque?",de:"Welches Sicherheitssystem schneidet automatisch den Kraftstofffluss bei einem Unfall ab?",nl:"Welk veiligheids systeem snijdt automatisch brandstof stroom af bij een crash?"},
+    options:["Crash sensor fuel cut-off","Manual switch","Fire extinguisher","Emergency brake"],
+    correct:0,
+    explanation:{en:"F1 cars have crash sensors that automatically cut fuel flow and kill the engine in the event of a significant impact. This prevents fuel from feeding potential fires and allows the driver to exit safely.",es:"Los autos F1 tienen sensores de choque que cortan automáticamente el flujo de combustible y apagan el motor en caso de impacto significativo. Esto previene que combustible alimente potenciales incendios y permite al piloto salir de manera segura.",de:"F1-Autos haben Crashsensoren die automatisch Kraftstofffluss abschneiden und Motor bei signifikantem Aufprall abschalten. Dies verhindert dass Kraftstoff potenzielle Brände speist und ermöglicht dem Fahrer sicher auszusteigen.",nl:"F1 auto's hebben crash sensoren die automatisch brandstof stroom afsnijden en de motor doden bij een significante impact. Dit voorkomt dat brandstof potentiële branden voedt en stelt de coureur in staat veilig uit te stappen."}
+  },
+  {
+    question:{en:"What onboard fire extinguisher system do all F1 cars carry?",es:"¿Qué sistema de extintor de incendios a bordo llevan todos los autos F1?",de:"Welches Onboard-Feuerlöschsystem tragen alle F1-Autos?",nl:"Welk boord brandblusser systeem dragen alle F1 auto's?"},
+    options:["Automatic and manual systems","Water sprinklers","CO2 bottles","Foam dispensers"],
+    correct:0,
+    explanation:{en:"F1 cars have both automatic and driver-activated fire extinguisher systems using AFFF (Aqueous Film-Forming Foam). The automatic system triggers on impact, while drivers can manually activate it from the cockpit if needed.",es:"Los autos F1 tienen sistemas de extintor de incendios automáticos y activados por piloto usando AFFF (Espuma Formadora de Película Acuosa). El sistema automático se activa en impacto, mientras pilotos pueden activarlo manualmente desde la cabina si es necesario.",de:"F1-Autos haben sowohl automatische als auch fahreraktivierte Feuerlöschsysteme mit AFFF (Wasserfilm-bildender Schaum). Das automatische System löst bei Aufprall aus, während Fahrer es bei Bedarf manuell vom Cockpit aktivieren können.",nl:"F1 auto's hebben zowel automatische als coureur-geactiveerde brandblusser systemen die AFFF (Waterig Film-Vormend Schuim) gebruiken. Het automatische systeem activeert bij impact, terwijl coureurs het handmatig vanuit de cockpit kunnen activeren indien nodig."}
+  },
+  {
+    question:{en:"How many certified marshals are typically stationed around an F1 circuit?",es:"¿Cuántos comisarios certificados están típicamente estacionados alrededor de un circuito F1?",de:"Wie viele zertifizierte Streckenposten sind typischerweise um eine F1-Strecke stationiert?",nl:"Hoeveel gecertificeerde marshals zijn typisch gestationeerd rond een F1 circuit?"},
+    options:["100-150","200-300","400-500","600-700"],
+    correct:2,
+    explanation:{en:"F1 circuits typically have 400-500 trained marshals stationed at various posts around the track. They handle flag signals, fire response, car recovery, and debris removal. All marshals must complete FIA-approved safety training.",es:"Los circuitos F1 típicamente tienen 400-500 comisarios entrenados estacionados en varios puestos alrededor de la pista. Manejan señales de banderas, respuesta a incendios, recuperación de autos y remoción de escombros. Todos los comisarios deben completar entrenamiento de seguridad aprobado por FIA.",de:"F1-Strecken haben typischerweise 400-500 ausgebildete Streckenposten an verschiedenen Posten um die Strecke stationiert. Sie handhaben Flaggensignale, Brandbekämpfung, Autobergung und Trümmerbeseitigung. Alle Posten müssen FIA-genehmigtes Sicherheitstraining absolvieren.",nl:"F1 circuits hebben typisch 400-500 getrainde marshals gestationeerd op verschillende posten rond het circuit. Ze behandelen vlag signalen, brand respons, auto berging en puin verwijdering. Alle marshals moeten FIA-goedgekeurde veiligheids training voltooien."}
+  },
+  {
+    question:{en:"What safety innovation did Felipe Massa's 2009 Hungary accident lead to?",es:"¿A qué innovación de seguridad condujo el accidente de Felipe Massa 2009 en Hungría?",de:"Zu welcher Sicherheitsinnovation führte Felipe Massas 2009 Ungarn-Unfall?",nl:"Tot welke veiligheids innovatie leidde Felipe Massa's 2009 Hongarije ongeval?"},
+    options:["Stronger helmet visors","Halo device","HANS device","Safer barriers"],
+    correct:0,
+    explanation:{en:"After Massa was struck in the helmet by a suspension spring during qualifying, the FIA mandated stronger, more impact-resistant helmet visors. His injury also influenced development of the Halo device introduced years later.",es:"Después de que Massa fue golpeado en el casco por un resorte de suspensión durante clasificación, la FIA ordenó viseras de casco más fuertes y resistentes al impacto. Su lesión también influyó en desarrollo del dispositivo Halo introducido años después.",de:"Nachdem Massa während des Qualifyings von einer Aufhängungsfeder am Helm getroffen wurde ordnete die FIA stärkere, schlagfestere Helmvisiere an. Seine Verletzung beeinflusste auch Entwicklung des Halo-Geräts das Jahre später eingeführt wurde.",nl:"Nadat Massa tijdens kwalificatie door een vering veer op de helm werd geraakt, schreef de FIA sterkere, meer slagvaste helm vizieren voor. Zijn verwonding beïnvloedde ook ontwikkeling van het Halo apparaat geïntroduceerd jaren later."}
+  },
+  {
+    question:{en:"What does the Virtual Safety Car (VSC) do?",es:"¿Qué hace el Auto de Seguridad Virtual (VSC)?",de:"Was macht das virtuelle Safety Car (VSC)?",nl:"Wat doet de Virtual Safety Car (VSC)?"},
+    options:["Slows all cars by set percentage","Shows video replays","Monitors car speeds","Controls pit stops"],
+    correct:0,
+    explanation:{en:"The Virtual Safety Car requires all drivers to slow by approximately 30-40% and maintain delta times shown on their dashboards. It's used for incidents requiring slower speeds but not a full Safety Car, preserving race gaps better.",es:"El Auto de Seguridad Virtual requiere que todos los pilotos reduzcan velocidad aproximadamente 30-40% y mantengan tiempos delta mostrados en sus tableros. Se usa para incidentes que requieren velocidades más lentas pero no Auto de Seguridad completo, preservando mejor brechas de carrera.",de:"Das virtuelle Safety Car verlangt dass alle Fahrer um etwa 30-40% verlangsamen und Delta-Zeiten auf ihren Armaturenbrettern einhalten. Es wird bei Zwischenfällen genutzt die langsamere Geschwindigkeiten aber kein volles Safety Car erfordern, Rennabstände besser bewahrend.",nl:"De Virtual Safety Car vereist dat alle coureurs met ongeveer 30-40% vertragen en delta tijden getoond op hun dashboards handhaven. Het wordt gebruikt voor incidenten die langzamere snelheden vereisen maar geen volledige Safety Car, race gaten beter bewarend."}
+  },
+  {
+    question:{en:"What safety feature prevents cars from being released from pit stops into traffic?",es:"¿Qué característica de seguridad previene que autos sean liberados de paradas en boxes hacia el tráfico?",de:"Welches Sicherheitsmerkmal verhindert dass Autos aus Boxenstopps in den Verkehr entlassen werden?",nl:"Welk veiligheids kenmerk voorkomt dat auto's van pit stops worden vrijgegeven in het verkeer?"},
+    options:["Lollipop/traffic light system","Speed limit","Pit lane barriers","Team radio"],
+    correct:0,
+    explanation:{en:"Teams use lollipop signs or automated traffic light systems to signal when it's safe to release cars from pit stops. The crew chief monitors pit lane traffic and only gives release signal when the path is clear.",es:"Los equipos usan señales de paleta o sistemas de semáforo automatizados para señalar cuándo es seguro liberar autos de paradas en boxes. El jefe de equipo monitorea tráfico de pit lane y solo da señal de liberación cuando el camino está despejado.",de:"Teams nutzen Lollipop-Schilder oder automatisierte Ampelsysteme um zu signalisieren wann es sicher ist Autos aus Boxenstopps zu entlassen. Der Crew-Chef überwacht Boxengassenverkehr und gibt nur Freigabesignal wenn Weg frei ist.",nl:"Teams gebruiken lolly borden of geautomatiseerde verkeerslicht systemen om te signaleren wanneer het veilig is auto's van pit stops vrij te geven. De crew chief bewaakt pit lane verkeer en geeft alleen vrijgave signaal wanneer het pad vrij is."}
+  },
+  {
+    question:{en:"What minimum weight must F1 cars meet for safety reasons?",es:"¿Qué peso mínimo deben cumplir los autos F1 por razones de seguridad?",de:"Welches Mindestgewicht müssen F1-Autos aus Sicherheitsgründen erreichen?",nl:"Welk minimum gewicht moeten F1 auto's halen om veiligheidsredenen?"},
+    options:["798 kg (2023)","700 kg","650 kg","850 kg"],
+    correct:0,
+    explanation:{en:"The 2023 minimum weight is 798kg including driver. Minimum weights prevent teams from making cars too light and fragile for safety. The weight has increased over years as safety equipment like Halo and stronger structures were added.",es:"El peso mínimo 2023 es 798kg incluyendo piloto. Los pesos mínimos previenen que equipos hagan autos demasiado ligeros y frágiles para seguridad. El peso ha aumentado con los años a medida que equipo de seguridad como Halo y estructuras más fuertes fueron agregados.",de:"Das 2023 Mindestgewicht beträgt 798kg einschließlich Fahrer. Mindestgewichte verhindern dass Teams Autos zu leicht und zerbrechlich für Sicherheit machen. Das Gewicht ist über Jahre gestiegen da Sicherheitsausrüstung wie Halo und stärkere Strukturen hinzugefügt wurden.",nl:"Het 2023 minimum gewicht is 798kg inclusief coureur. Minimum gewichten voorkomen dat teams auto's te licht en fragiel maken voor veiligheid. Het gewicht is gestegen door de jaren naarmate veiligheids uitrusting zoals Halo en sterkere structuren werden toegevoegd."}
+  },
+  {
+    question:{en:"Which color flag signals the end of a practice or qualifying session?",es:"¿Qué color de bandera señala el final de una sesión de práctica o clasificación?",de:"Welche Flaggenfarbe signalisiert das Ende einer Trainings- oder Qualifyingsitzung?",nl:"Welke kleur vlag geeft het einde van een trainings of kwalificatie sessie aan?"},
+    options:["Checkered flag","Red flag","Yellow flag","Green flag"],
+    correct:0,
+    explanation:{en:"The checkered flag signals the end of sessions and races. When shown during practice or qualifying, drivers must complete their current lap and return to the pits. Any lap started after the checkered flag won't count.",es:"La bandera a cuadros señala el final de sesiones y carreras. Cuando se muestra durante práctica o clasificación, los pilotos deben completar su vuelta actual y regresar a los pits. Cualquier vuelta iniciada después de la bandera a cuadros no contará.",de:"Die Zielflagge signalisiert das Ende von Sitzungen und Rennen. Wenn während Training oder Qualifying gezeigt müssen Fahrer ihre aktuelle Runde beenden und zu den Boxen zurückkehren. Jede nach Zielflagge gestartete Runde zählt nicht.",nl:"De geblokte vlag geeft het einde van sessies en races aan. Wanneer getoond tijdens training of kwalificatie, moeten coureurs hun huidige ronde voltooien en terugkeren naar de pits. Elke ronde gestart na de geblokte vlag telt niet."}
+  },
+  {
+    question:{en:"What safety upgrade was made to fuel tanks after fiery crashes in the early 2000s?",es:"¿Qué mejora de seguridad se hizo a tanques de combustible después de choques con fuego en los primeros años 2000?",de:"Welches Sicherheitsupgrade wurde an Kraftstofftanks nach feurigen Unfällen Anfang der 2000er Jahre vorgenommen?",nl:"Welke veiligheids upgrade werd gemaakt aan brandstof tanks na vurige crashes in de vroege jaren 2000?"},
+    options:["Self-sealing bladders","Larger tanks","Metal tanks","External tanks"],
+    correct:0,
+    explanation:{en:"Modern F1 fuel tanks use self-sealing rubber bladders that automatically seal punctures to prevent fuel leaks in crashes. The bladders are also surrounded by deformable structures that absorb impact energy before it reaches the tank.",es:"Los tanques de combustible F1 modernos usan vejigas de goma autosellantes que sellan automáticamente pinchazos para prevenir fugas de combustible en choques. Las vejigas también están rodeadas de estructuras deformables que absorben energía de impacto antes de alcanzar el tanque.",de:"Moderne F1-Kraftstofftanks nutzen selbstdichtende Gummiblasen die Durchstiche automatisch versiegeln um Kraftstofflecks bei Unfällen zu verhindern. Die Blasen sind auch von verformbaren Strukturen umgeben die Aufprallenergie absorbieren bevor sie Tank erreicht.",nl:"Moderne F1 brandstof tanks gebruiken zelfsluitende rubber blazen die automatisch gaatjes verzegelen om brandstof lekken bij crashes te voorkomen. De blazen zijn ook omringd door vervormbare structuren die impact energie absorberen voordat het de tank bereikt."}
+  },
+{
+    question:{en:"What safety system prevents cars from bouncing dangerously at high speeds?",es:"¿Qué sistema de seguridad previene que autos reboten peligrosamente a altas velocidades?",de:"Welches Sicherheitssystem verhindert gefährliches Springen von Autos bei hohen Geschwindigkeiten?",nl:"Welk veiligheids systeem voorkomt dat auto's gevaarlijk stuiteren bij hoge snelheden?"},
+    options:["Suspension and ride height rules","Speed limiters","Aerodynamic wings","Soft tires"],
+    correct:0,
+    explanation:{en:"F1 has strict rules on suspension systems and minimum ride heights to prevent dangerous porpoising and bouncing. The 2023 regulations introduced anti-porpoising measures after severe bouncing issues in 2022 raised safety concerns.",es:"F1 tiene reglas estrictas sobre sistemas de suspensión y alturas de conducción mínimas para prevenir peligroso porpoising y rebotes. Las regulaciones 2023 introdujeron medidas anti-porpoising después de problemas severos de rebote en 2022 plantearon preocupaciones de seguridad.",de:"F1 hat strenge Regeln für Aufhängungssysteme und Mindestbodenfreiheiten um gefährliches Porpoising und Springen zu verhindern. Die 2023-Vorschriften führten Anti-Porpoising-Maßnahmen ein nach schweren Springproblemen 2022 die Sicherheitsbedenken aufwarfen.",nl:"F1 heeft strikte regels over ophanging systemen en minimum rijhoogtes om gevaarlijk porpoising en stuiteren te voorkomen. De 2023 reglementen introduceerden anti-porpoising maatregelen na ernstige stuiterproblemen in 2022 veiligheidszorgen opriepen."}
+  },
+  {
+    question:{en:"What lighting must be used on cars during wet weather conditions?",es:"¿Qué iluminación debe usarse en autos durante condiciones de clima húmedo?",de:"Welche Beleuchtung muss bei nassen Wetterbedingungen an Autos verwendet werden?",nl:"Welke verlichting moet gebruikt worden op auto's tijdens natte weersomstandigheden?"},
+    options:["Red rear rain light","Headlights","Blue lights","Green lights"],
+    correct:0,
+    explanation:{en:"Cars must use a bright red rear rain light in wet conditions to improve visibility for following drivers through spray. The light is mandatory whenever intermediate or wet tires are fitted during sessions.",es:"Los autos deben usar una luz trasera roja brillante en condiciones húmedas para mejorar visibilidad para pilotos siguientes a través de spray. La luz es obligatoria cuando neumáticos intermedios o mojados están montados durante sesiones.",de:"Autos müssen bei nassen Bedingungen ein helles rotes Heck-Regenlicht nutzen um Sichtbarkeit für nachfolgende Fahrer durch Gischt zu verbessern. Das Licht ist Pflicht wenn Zwischen- oder Nassreifen während Sitzungen montiert sind.",nl:"Auto's moeten een helder rood achter regenl icht gebruiken bij natte omstandigheden om zichtbaarheid voor volgende coureurs door spray te verbeteren. Het licht is verplicht wanneer tussenliggende of natte banden gemonteerd zijn tijdens sessies."}
+  },
+  {
+    question:{en:"How many G-forces can modern F1 safety equipment help drivers survive?",es:"¿Cuántas fuerzas G puede ayudar el equipo de seguridad F1 moderno a los pilotos a sobrevivir?",de:"Wie viele G-Kräfte können moderne F1-Sicherheitsausrüstungen Fahrern helfen zu überleben?",nl:"Hoeveel G-krachten kan moderne F1 veiligheids uitrusting coureurs helpen overleven?"},
+    options:["60-70 G peak impacts","20-30 G","40-50 G","100+ G"],
+    correct:0,
+    explanation:{en:"Modern F1 safety cells with Halo, HANS device, and energy-absorbing structures can protect drivers in impacts exceeding 60-70G. Robert Kubica survived a 75G crash in 2007, while Max Verstappen experienced 51G at Silverstone 2021.",es:"Las celdas de seguridad F1 modernas con Halo, dispositivo HANS y estructuras absorbentes de energía pueden proteger pilotos en impactos excediendo 60-70G. Robert Kubica sobrevivió choque de 75G en 2007, mientras Max Verstappen experimentó 51G en Silverstone 2021.",de:"Moderne F1-Sicherheitszellen mit Halo, HANS-Gerät und energieabsorbierenden Strukturen können Fahrer bei Aufprallen über 60-70G schützen. Robert Kubica überlebte 75G-Unfall 2007, während Max Verstappen 51G bei Silverstone 2021 erlebte.",nl:"Moderne F1 veiligheidscellen met Halo, HANS apparaat en energie-absorberende structuren kunnen coureurs beschermen bij impacts boven 60-70G. Robert Kubica overleefde een 75G crash in 2007, terwijl Max Verstappen 51G ervoer bij Silverstone 2021."}
+  },
+  {
+    question:{en:"What safety feature prevents tire failures from causing major accidents?",es:"¿Qué característica de seguridad previene que fallos de neumáticos causen accidentes mayores?",de:"Welches Sicherheitsmerkmal verhindert dass Reifenausfälle große Unfälle verursachen?",nl:"Welk veiligheids kenmerk voorkomt dat banden falen grote ongevallen veroorzaken?"},
+    options:["Tethered wheel assemblies","Stronger tires","Lower pressures","Spare wheels"],
+    correct:0,
+    explanation:{en:"Wheels are attached to the car with high-strength tethers that prevent them from flying off in crashes or tire failures. This system has prevented numerous potential spectator injuries since its introduction.",es:"Las ruedas están unidas al auto con amarres de alta resistencia que previenen que salgan volando en choques o fallos de neumáticos. Este sistema ha prevenido numerosas potenciales lesiones de espectadores desde su introducción.",de:"Räder sind mit hochfesten Seilen am Auto befestigt die verhindern dass sie bei Unfällen oder Reifenausfällen wegfliegen. Dieses System hat zahlreiche potenzielle Zuschauerverletzungen seit Einführung verhindert.",nl:"Wielen zijn bevestigd aan de auto met hoog-sterkte kabels die voorkomen dat ze wegvliegen bij crashes of banden falen. Dit systeem heeft talloze potentiële toeschouwer verwondingen voorkomen sinds introductie."}
+  },
+  {
+    question:{en:"What happens when a driver fails to slow sufficiently under yellow flags?",es:"¿Qué sucede cuando un piloto no reduce suficientemente la velocidad bajo banderas amarillas?",de:"Was passiert wenn ein Fahrer unter gelben Flaggen nicht ausreichend verlangsamt?",nl:"Wat gebeurt er wanneer een coureur niet voldoende vertraagt onder gele vlaggen?"},
+    options:["Time penalty or grid drop","Warning only","Race ban","Points deduction"],
+    correct:0,
+    explanation:{en:"Failing to slow under yellow flags results in time penalties, grid drops, or even disqualification depending on severity. The FIA monitors all drivers' speeds through GPS data to ensure compliance with yellow flag procedures.",es:"No reducir velocidad bajo banderas amarillas resulta en penalizaciones de tiempo, caídas de parrilla o incluso descalificación dependiendo de gravedad. La FIA monitorea velocidades de todos los pilotos mediante datos GPS para asegurar cumplimiento con procedimientos de bandera amarilla.",de:"Nicht-Verlangsamen unter gelben Flaggen führt zu Zeitstrafen, Startplatzverlusten oder sogar Disqualifikation je nach Schwere. Die FIA überwacht alle Fahrergeschwindigkeiten durch GPS-Daten um Einhaltung gelber Flaggenprozeduren sicherzustellen.",nl:"Niet vertragen onder gele vlaggen resulteert in tijd straffen, grid drops of zelfs diskwalificatie afhankelijk van ernst. De FIA bewaakt alle coureurs snelheden via GPS data om naleving van gele vlag procedures te verzekeren."}
+  },
+  {
+    question:{en:"What safety briefing must all drivers attend before racing?",es:"¿Qué sesión informativa de seguridad deben asistir todos los pilotos antes de carreras?",de:"An welcher Sicherheitsbesprechung müssen alle Fahrer vor dem Rennen teilnehmen?",nl:"Welke veiligheids briefing moeten alle coureurs bijwonen voor racen?"},
+    options:["Drivers' briefing on Friday","Team meeting","Press conference","Fan event"],
+    correct:0,
+    explanation:{en:"The mandatory Friday drivers' briefing covers track-specific safety issues, procedure updates, and concerns from previous races. Race director, FIA officials, and all drivers attend to discuss safety and sporting regulations.",es:"La sesión informativa obligatoria de pilotos del viernes cubre problemas de seguridad específicos de pista, actualizaciones de procedimientos y preocupaciones de carreras previas. Director de carrera, oficiales FIA y todos los pilotos asisten para discutir seguridad y regulaciones deportivas.",de:"Die Pflicht-Freitags-Fahrerbesprechung behandelt streckenspeziefische Sicherheitsfragen, Verfahrensupdates und Bedenken von vorherigen Rennen. Renndirektor, FIA-Offizielle und alle Fahrer nehmen teil um Sicherheit und Sportregulierungen zu besprechen.",nl:"De verplichte vrijdag coureurs briefing behandelt circuit-specifieke veiligheidskwesties, procedure updates en zorgen van vorige races. Race directeur, FIA officials en alle coureurs wonen bij om veiligheid en sport reglementen te bespreken."}
+  },
+  {
+    question:{en:"What medical personnel must be present at all F1 events?",es:"¿Qué personal médico debe estar presente en todos los eventos F1?",de:"Welches medizinische Personal muss bei allen F1-Veranstaltungen anwesend sein?",nl:"Welk medisch personeel moet aanwezig zijn bij alle F1 evenementen?"},
+    options:["FIA doctor and medical team","Paramedics only","Local hospital on call","Team doctors"],
+    correct:0,
+    explanation:{en:"An FIA-appointed doctor and fully-equipped medical team including trauma specialists must be present at all F1 events. The medical car with FIA doctor follows the first lap, and a medical helicopter must be available for rapid evacuation.",es:"Un doctor designado por FIA y equipo médico completamente equipado incluyendo especialistas en trauma deben estar presentes en todos los eventos F1. El auto médico con doctor FIA sigue la primera vuelta, y un helicóptero médico debe estar disponible para evacuación rápida.",de:"Ein FIA-ernannter Arzt und vollständig ausgerüstetes medizinisches Team einschließlich Trauma-Spezialisten müssen bei allen F1-Veranstaltungen anwesend sein. Das Medizinfahrzeug mit FIA-Arzt folgt der ersten Runde und ein Rettungshubschrauber muss für schnelle Evakuierung verfügbar sein.",nl:"Een FIA-aangewezen dokter en volledig uitgerust medisch team inclusief trauma specialisten moeten aanwezig zijn bij alle F1 evenementen. De medische auto met FIA dokter volgt de eerste ronde, en een medische helikopter moet beschikbaar zijn voor snelle evacuatie."}
+  },
+  {
+    question:{en:"What safety test must F1 helmets pass involving a metal spike?",es:"¿Qué prueba de seguridad deben pasar los cascos F1 que involucra un pico de metal?",de:"Welchen Sicherheitstest müssen F1-Helme bestehen der einen Metallspieß beinhaltet?",nl:"Welke veiligheids test moeten F1 helmen doorstaan met een metalen pin?"},
+    options:["Penetration resistance test","Weight test","Fire test","Comfort test"],
+    correct:0,
+    explanation:{en:"Helmet penetration tests drop a 3kg metal spike from height onto the helmet to ensure the shell can't be penetrated by debris. This followed accidents where sharp debris struck drivers' helmets at high speeds.",es:"Las pruebas de penetración de casco dejan caer un pico de metal de 3kg desde altura sobre el casco para asegurar que el caparazón no pueda ser penetrado por escombros. Esto siguió accidentes donde escombros afilados golpearon cascos de pilotos a altas velocidades.",de:"Helm-Penetrationstests lassen einen 3kg Metallspieß aus Höhe auf den Helm fallen um sicherzustellen dass die Schale nicht von Trümmern durchdrungen werden kann. Dies folgte Unfällen wo scharfe Trümmer Fahrerhelme bei hohen Geschwindigkeiten trafen.",nl:"Helm penetratie tests laten een 3kg metalen pin van hoogte op de helm vallen om te verzekeren dat de schaal niet kan worden doorboord door puin. Dit volgde ongevallen waar scherp puin coureurs helmen raakte bij hoge snelheden."}
+  },
+  {
+    question:{en:"What safety improvement came from analyzing Jules Bianchi's 2014 crash?",es:"¿Qué mejora de seguridad provino de analizar el choque de Jules Bianchi de 2014?",de:"Welche Sicherheitsverbesserung kam aus der Analyse von Jules Bianchis 2014-Unfall?",nl:"Welke veiligheids verbetering kwam uit analyse van Jules Bianchi's 2014 crash?"},
+    options:["Halo device and VSC deployment","Softer barriers","Lower speeds","Smaller cars"],
+    correct:0,
+    explanation:{en:"Bianchi's fatal crash under yellows led to the Halo device and stricter Virtual Safety Car deployment rules. The accident highlighted need for overhead protection and better speed control during hazardous conditions.",es:"El choque fatal de Bianchi bajo amarillas llevó al dispositivo Halo y reglas más estrictas de despliegue de Auto de Seguridad Virtual. El accidente destacó necesidad de protección superior y mejor control de velocidad durante condiciones peligrosas.",de:"Bianchis tödlicher Unfall unter Gelb führte zum Halo-Gerät und strengeren virtuellen Safety Car-Einsatzregeln. Der Unfall hob Bedarf für Überkopfschutz und bessere Geschwindigkeitskontrolle bei gefährlichen Bedingungen hervor.",nl:"Bianchi's fatale crash onder geel leidde tot het Halo apparaat en striktere Virtual Safety Car inzet regels. Het ongeval benadrukte behoefte aan overhead bescherming en betere snelheids controle tijdens gevaarlijke omstandigheden."}
+  },
+  {
+    question:{en:"What minimum crash test speed must F1 survival cells withstand?",es:"¿Qué velocidad mínima de prueba de choque deben resistir las celdas de supervivencia F1?",de:"Welcher Mindest-Crashtest-Geschwindigkeit müssen F1-Überlebenszellen standhalten?",nl:"Welke minimum crash test snelheid moeten F1 overlevingscellen weerstaan?"},
+    options:["15 m/s frontal impact","10 m/s","20 m/s","30 m/s"],
+    correct:0,
+    explanation:{en:"F1 monocoques must survive 15 m/s (54 km/h) frontal impact tests, 12 m/s side impacts, and 7 m/s rear impacts without deforming the survival cell. These tests are far more stringent than road car safety standards.",es:"Los monocascos F1 deben sobrevivir pruebas de impacto frontal de 15 m/s (54 km/h), impactos laterales de 12 m/s e impactos traseros de 7 m/s sin deformar la celda de supervivencia. Estas pruebas son mucho más estrictas que estándares de seguridad de autos de calle.",de:"F1-Monocoques müssen 15 m/s (54 km/h) Frontalaufpralltests, 12 m/s Seitenaufpralle und 7 m/s Heckaufpralle überstehen ohne Überlebenszelle zu verformen. Diese Tests sind weit strenger als Straßenauto-Sicherheitsstandards.",nl:"F1 monocoques moeten 15 m/s (54 km/h) frontale impact tests, 12 m/s zij impacts en 7 m/s achter impacts overleven zonder de overlevingscel te vervormen. Deze tests zijn veel strenger dan veiligheids standaarden voor straatauto's."}
+  }
     ]
   };
 
-  if (typeof module !== 'undefined' && module.exports) {
+  if (typeof module \!== 'undefined' && module.exports) {
     module.exports = level1;
-  } else if (typeof window !== 'undefined') {
-    window.level1 = level1;
+  } else {
+    window.quizData = window.quizData || {};
+    window.quizData.level1 = level1;
   }
 })();

@@ -428,6 +428,426 @@
           nl: "Sapopbrengst is het percentage sap geëxtraheerd uit rauwe vrucht. Het wordt verbeterd door pectinase enzymen te gebruiken om celwanden af te breken, juiste maceratie, geoptimaliseerde persdruk en temperatuurcontrole."
         }
       },
+      {
+        question: {
+          en: "What is 'flash pasteurization' in juice processing?",
+          es: "¿Qué es la 'pasteurización flash' en el procesamiento de jugos?",
+          de: "Was ist 'Flash-Pasteurisierung' in der Saftverarbeitung?",
+          nl: "Wat is 'flash pasteurisatie' in sapverwerking?"
+        },
+        options: [
+          { en: "Heating to 90-95°C for 15-30 seconds then rapidly cooling", es: "Calentar a 90-95°C por 15-30 segundos luego enfriar rápidamente", de: "Erhitzen auf 90-95°C für 15-30 Sekunden dann schnelles Abkühlen", nl: "Verhitten tot 90-95°C voor 15-30 seconden dan snel koelen" },
+          { en: "Using bright light to kill bacteria", es: "Usar luz brillante para matar bacterias", de: "Helles Licht verwenden um Bakterien zu töten", nl: "Fel licht gebruiken om bacteriën te doden" },
+          { en: "Very slow heating over hours", es: "Calentamiento muy lento durante horas", de: "Sehr langsames Erhitzen über Stunden", nl: "Zeer langzaam verhitten gedurende uren" },
+          { en: "Freezing then thawing quickly", es: "Congelar luego descongelar rápidamente", de: "Einfrieren dann schnell auftauen", nl: "Bevriezen dan snel ontdooien" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Flash pasteurization (HTST - High Temperature Short Time) rapidly heats juice to 90-95°C for 15-30 seconds then immediately cools it, killing pathogens while better preserving nutrients and fresh flavor compared to traditional pasteurization.",
+          es: "La pasteurización flash (HTST - Alta Temperatura Corto Tiempo) calienta rápidamente el jugo a 90-95°C por 15-30 segundos luego lo enfría inmediatamente, matando patógenos mientras preserva mejor nutrientes y sabor fresco comparado con pasteurización tradicional.",
+          de: "Flash-Pasteurisierung (HTST - Hochtemperatur Kurzzeiterhitzung) erhitzt Saft schnell auf 90-95°C für 15-30 Sekunden und kühlt ihn dann sofort ab, tötet Krankheitserreger während sie Nährstoffe und frischen Geschmack besser erhält als traditionelle Pasteurisierung.",
+          nl: "Flash pasteurisatie (HTST - Hoge Temperatuur Korte Tijd) verhit sap snel tot 90-95°C voor 15-30 seconden en koelt het dan onmiddellijk, doodt pathogenen terwijl het voedingsstoffen en verse smaak beter behoudt vergeleken met traditionele pasteurisatie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'enzymatic browning' and how is it prevented in apple juice?",
+          es: "¿Qué es el 'pardeamiento enzimático' y cómo se previene en el jugo de manzana?",
+          de: "Was ist 'enzymatische Bräunung' und wie wird sie in Apfelsaft verhindert?",
+          nl: "Wat is 'enzymatische bruining' en hoe wordt het voorkomen in appelsap?"
+        },
+        options: [
+          { en: "Oxidation by polyphenol oxidase; prevented by heating, ascorbic acid, or nitrogen", es: "Oxidación por polifenol oxidasa; prevenido por calentamiento, ácido ascórbico o nitrógeno", de: "Oxidation durch Polyphenoloxidase; verhindert durch Erhitzen, Ascorbinsäure oder Stickstoff", nl: "Oxidatie door polyfenoloxidase; voorkomen door verhitting, ascorbinezuur of stikstof" },
+          { en: "Natural caramelization of sugars", es: "Caramelización natural de azúcares", de: "Natürliche Karamellisierung von Zuckern", nl: "Natuurlijke karamelisatie van suikers" },
+          { en: "Bacterial contamination", es: "Contaminación bacteriana", de: "Bakterielle Kontamination", nl: "Bacteriële besmetting" },
+          { en: "Addition of brown coloring", es: "Adición de coloración marrón", de: "Zugabe brauner Färbung", nl: "Toevoeging van bruine kleuring" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Enzymatic browning occurs when polyphenol oxidase (PPO) enzyme reacts with phenolic compounds in presence of oxygen, creating brown pigments. Prevention methods include heat inactivation of PPO, adding ascorbic acid (antioxidant), or nitrogen flushing to exclude oxygen.",
+          es: "El pardeamiento enzimático ocurre cuando la enzima polifenol oxidasa (PPO) reacciona con compuestos fenólicos en presencia de oxígeno, creando pigmentos marrones. Los métodos de prevención incluyen inactivación térmica de PPO, añadir ácido ascórbico (antioxidante), o purgado con nitrógeno para excluir oxígeno.",
+          de: "Enzymatische Bräunung tritt auf, wenn Polyphenoloxidase (PPO) Enzym mit phenolischen Verbindungen in Gegenwart von Sauerstoff reagiert und braune Pigmente erzeugt. Präventionsmethoden umfassen Hitzeinaktivierung von PPO, Zugabe von Ascorbinsäure (Antioxidans) oder Stickstoffspülung zum Ausschluss von Sauerstoff.",
+          nl: "Enzymatische bruining treedt op wanneer polyfenoloxidase (PPO) enzym reageert met fenolische verbindingen in aanwezigheid van zuurstof, waardoor bruine pigmenten ontstaan. Preventiemethoden omvatten warmte-inactivering van PPO, toevoegen van ascorbinezuur (antioxidant), of stikstof spoelen om zuurstof uit te sluiten."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of 'homogenization' in juice processing?",
+          es: "¿Cuál es el propósito de la 'homogeneización' en el procesamiento de jugos?",
+          de: "Was ist der Zweck der 'Homogenisierung' in der Saftverarbeitung?",
+          nl: "Wat is het doel van 'homogenisatie' in sapverwerking?"
+        },
+        options: [
+          { en: "Breaking down particles to uniform size for stability and smooth texture", es: "Descomponer partículas a tamaño uniforme para estabilidad y textura suave", de: "Partikel auf einheitliche Größe zerkleinern für Stabilität und glatte Textur", nl: "Deeltjes afbreken tot uniforme grootte voor stabiliteit en gladde textuur" },
+          { en: "Adding water to juice", es: "Añadir agua al jugo", de: "Wasser zum Saft hinzufügen", nl: "Water toevoegen aan sap" },
+          { en: "Mixing different juice types", es: "Mezclar diferentes tipos de jugo", de: "Verschiedene Saftarten mischen", nl: "Verschillende saptypes mengen" },
+          { en: "Removing all pulp", es: "Remover toda la pulpa", de: "Gesamtes Fruchtfleisch entfernen", nl: "Alle pulp verwijderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Homogenization forces juice through small openings under high pressure, breaking down fat globules, pulp particles, and cell fragments to uniform microscopic size. This prevents separation, improves stability, creates smooth texture, and enhances appearance.",
+          es: "La homogeneización fuerza el jugo a través de pequeñas aberturas bajo alta presión, descomponiendo glóbulos de grasa, partículas de pulpa y fragmentos celulares a tamaño microscópico uniforme. Esto previene separación, mejora estabilidad, crea textura suave y mejora apariencia.",
+          de: "Homogenisierung presst Saft durch kleine Öffnungen unter hohem Druck und zerkleinert Fettkügelchen, Fruchtfleischpartikel und Zellfragmente auf einheitliche mikroskopische Größe. Dies verhindert Trennung, verbessert Stabilität, schafft glatte Textur und verbessert das Aussehen.",
+          nl: "Homogenisatie dwingt sap door kleine openingen onder hoge druk, waardoor vetbolletjes, pulpdeeltjes en celfragmenten worden afgebroken tot uniforme microscopische grootte. Dit voorkomt scheiding, verbetert stabiliteit, creëert gladde textuur en verbetert uiterlijk."
+        }
+      },
+      {
+        question: {
+          en: "What are 'cold chain logistics' in juice distribution?",
+          es: "¿Qué es la 'logística de cadena de frío' en la distribución de jugos?",
+          de: "Was ist 'Kühlkettenlogistik' in der Saftverteilung?",
+          nl: "Wat is 'koelketen logistiek' in sapdistributie?"
+        },
+        options: [
+          { en: "Maintaining continuous refrigeration from production to consumer", es: "Mantener refrigeración continua desde producción hasta consumidor", de: "Kontinuierliche Kühlung von Produktion bis Verbraucher aufrechterhalten", nl: "Continue koeling onderhouden van productie tot consument" },
+          { en: "Shipping only in winter months", es: "Enviar solo en meses de invierno", de: "Nur in Wintermonaten versenden", nl: "Alleen verzenden in wintermaanden" },
+          { en: "Using ice in packaging", es: "Usar hielo en empaque", de: "Eis in Verpackung verwenden", nl: "Ijs gebruiken in verpakking" },
+          { en: "Cold storage at factory only", es: "Almacenamiento en frío solo en fábrica", de: "Kühllagerung nur im Werk", nl: "Koude opslag alleen in fabriek" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cold chain logistics ensures fresh juice is kept at proper refrigeration temperature (typically 2-4°C) throughout the entire distribution process - from production, through transport, warehousing, retail, to final consumer - to maintain quality, safety, and shelf life.",
+          es: "La logística de cadena de frío asegura que el jugo fresco se mantenga a temperatura de refrigeración adecuada (típicamente 2-4°C) durante todo el proceso de distribución - desde producción, a través de transporte, almacenamiento, venta minorista, hasta consumidor final - para mantener calidad, seguridad y vida útil.",
+          de: "Kühlkettenlogistik stellt sicher, dass frischer Saft während des gesamten Vertriebsprozesses - von Produktion, über Transport, Lagerung, Einzelhandel bis zum Endverbraucher - bei richtiger Kühltemperatur (typisch 2-4°C) gehalten wird, um Qualität, Sicherheit und Haltbarkeit zu erhalten.",
+          nl: "Koelketen logistiek zorgt ervoor dat vers sap op de juiste koeltemperatuur (typisch 2-4°C) wordt gehouden tijdens het gehele distributieproces - van productie, via transport, opslag, detailhandel tot eindconsument - om kwaliteit, veiligheid en houdbaarheid te behouden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'non-enzymatic browning' (Maillard reaction) in juice?",
+          es: "¿Qué es el 'pardeamiento no enzimático' (reacción de Maillard) en el jugo?",
+          de: "Was ist 'nicht-enzymatische Bräunung' (Maillard-Reaktion) in Saft?",
+          nl: "Wat is 'niet-enzymatische bruining' (Maillard reactie) in sap?"
+        },
+        options: [
+          { en: "Chemical reaction between sugars and amino acids during heat treatment or storage", es: "Reacción química entre azúcares y aminoácidos durante tratamiento térmico o almacenamiento", de: "Chemische Reaktion zwischen Zuckern und Aminosäuren während Wärmebehandlung oder Lagerung", nl: "Chemische reactie tussen suikers en aminozuren tijdens warmtebehandeling of opslag" },
+          { en: "Enzymatic oxidation process", es: "Proceso de oxidación enzimática", de: "Enzymatischer Oxidationsprozess", nl: "Enzymatisch oxidatieproces" },
+          { en: "Bacterial contamination", es: "Contaminación bacteriana", de: "Bakterielle Kontamination", nl: "Bacteriële besmetting" },
+          { en: "Normal color development", es: "Desarrollo normal del color", de: "Normale Farbentwicklung", nl: "Normale kleurontwikkeling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Maillard reaction is a chemical reaction between reducing sugars and amino acids/proteins that occurs during thermal processing or prolonged storage at elevated temperatures. It creates brown pigments (melanoidins), changes flavor, and reduces nutritional value, especially lysine content.",
+          es: "La reacción de Maillard es una reacción química entre azúcares reductores y aminoácidos/proteínas que ocurre durante procesamiento térmico o almacenamiento prolongado a temperaturas elevadas. Crea pigmentos marrones (melanoidinas), cambia sabor y reduce valor nutricional, especialmente contenido de lisina.",
+          de: "Maillard-Reaktion ist eine chemische Reaktion zwischen reduzierenden Zuckern und Aminosäuren/Proteinen, die während thermischer Verarbeitung oder längerer Lagerung bei erhöhten Temperaturen auftritt. Sie erzeugt braune Pigmente (Melanoidine), verändert Geschmack und reduziert Nährwert, besonders Lysingehalt.",
+          nl: "Maillard reactie is een chemische reactie tussen reducerende suikers en aminozuren/eiwitten die optreedt tijdens thermische verwerking of langdurige opslag bij verhoogde temperaturen. Het creëert bruine pigmenten (melanoidines), verandert smaak en vermindert voedingswaarde, vooral lysinegehalte."
+        }
+      },
+      {
+        question: {
+          en: "What is 'specific gravity' and why is it measured in juice?",
+          es: "¿Qué es la 'gravedad específica' y por qué se mide en el jugo?",
+          de: "Was ist 'spezifisches Gewicht' und warum wird es in Saft gemessen?",
+          nl: "Wat is 'soortelijk gewicht' en waarom wordt het gemeten in sap?"
+        },
+        options: [
+          { en: "Density relative to water; indicates dissolved solids and quality", es: "Densidad relativa al agua; indica sólidos disueltos y calidad", de: "Dichte relativ zu Wasser; zeigt gelöste Feststoffe und Qualität an", nl: "Dichtheid relatief aan water; geeft opgeloste stoffen en kwaliteit aan" },
+          { en: "Weight of the juice container", es: "Peso del envase de jugo", de: "Gewicht des Saftbehälters", nl: "Gewicht van de sapcontainer" },
+          { en: "Force of gravity on juice", es: "Fuerza de gravedad sobre el jugo", de: "Schwerkraft auf Saft", nl: "Zwaartekracht op sap" },
+          { en: "Thickness of juice", es: "Espesor del jugo", de: "Dicke des Saftes", nl: "Dikte van sap" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Specific gravity is the ratio of juice density to water density at the same temperature. It correlates with dissolved solids (sugars, acids, minerals) and is used to verify juice concentration, detect adulteration, ensure consistency, and calculate Brix from density.",
+          es: "La gravedad específica es la relación de densidad del jugo con densidad del agua a la misma temperatura. Se correlaciona con sólidos disueltos (azúcares, ácidos, minerales) y se usa para verificar concentración de jugo, detectar adulteración, asegurar consistencia y calcular Brix desde densidad.",
+          de: "Spezifisches Gewicht ist das Verhältnis von Saftdichte zu Wasserdichte bei gleicher Temperatur. Es korreliert mit gelösten Feststoffen (Zucker, Säuren, Mineralien) und wird verwendet um Saftkonzentration zu verifizieren, Verfälschung zu erkennen, Konsistenz sicherzustellen und Brix aus Dichte zu berechnen.",
+          nl: "Soortelijk gewicht is de verhouding van sapdichtheid tot waterdichtheid bij dezelfde temperatuur. Het correleert met opgeloste stoffen (suikers, zuren, mineralen) en wordt gebruikt om sapconcentratie te verifiëren, vervalsing te detecteren, consistentie te waarborgen en Brix te berekenen uit dichtheid."
+        }
+      },
+      {
+        question: {
+          en: "What is 'HPP' (High Pressure Processing) in juice technology?",
+          es: "¿Qué es 'HPP' (Procesamiento de Alta Presión) en tecnología de jugos?",
+          de: "Was ist 'HPP' (Hochdruckverarbeitung) in Safttechnologie?",
+          nl: "Wat is 'HPP' (Hoge Druk Verwerking) in saptechnologie?"
+        },
+        options: [
+          { en: "Non-thermal pasteurization using 400-600 MPa pressure to kill pathogens", es: "Pasteurización no térmica usando presión 400-600 MPa para matar patógenos", de: "Nicht-thermische Pasteurisierung mit 400-600 MPa Druck um Krankheitserreger zu töten", nl: "Niet-thermische pasteurisatie met 400-600 MPa druk om pathogenen te doden" },
+          { en: "Using very hot water under pressure", es: "Usar agua muy caliente bajo presión", de: "Sehr heißes Wasser unter Druck verwenden", nl: "Zeer heet water onder druk gebruiken" },
+          { en: "High speed blending", es: "Licuado de alta velocidad", de: "Hochgeschwindigkeitsmischen", nl: "Hoge snelheid mengen" },
+          { en: "Highly pressurized storage tanks", es: "Tanques de almacenamiento altamente presurizados", de: "Hochdruckspeichertanks", nl: "Hoge druk opslagtanks" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "HPP (High Pressure Processing/Pascalization) subjects packaged juice to extreme pressure (400-600 MPa or 58,000-87,000 psi) for several minutes at room temperature. This inactivates microorganisms and enzymes without heat, preserving fresh flavor, color, nutrients, and extending shelf life to 30-45 days refrigerated.",
+          es: "HPP (Procesamiento de Alta Presión/Pascalización) somete jugo empacado a presión extrema (400-600 MPa o 58,000-87,000 psi) por varios minutos a temperatura ambiente. Esto inactiva microorganismos y enzimas sin calor, preservando sabor fresco, color, nutrientes y extendiendo vida útil a 30-45 días refrigerado.",
+          de: "HPP (Hochdruckverarbeitung/Pascalisierung) setzt verpackten Saft extremem Druck (400-600 MPa oder 58.000-87.000 psi) für mehrere Minuten bei Raumtemperatur aus. Dies inaktiviert Mikroorganismen und Enzyme ohne Hitze, erhält frischen Geschmack, Farbe, Nährstoffe und verlängert Haltbarkeit auf 30-45 Tage gekühlt.",
+          nl: "HPP (Hoge Druk Verwerking/Pascalisatie) onderwerpt verpakt sap aan extreme druk (400-600 MPa of 58.000-87.000 psi) voor enkele minuten bij kamertemperatuur. Dit inactiveert micro-organismen en enzymen zonder warmte, behoudt verse smaak, kleur, voedingsstoffen en verlengt houdbaarheid tot 30-45 dagen gekoeld."
+        }
+      },
+      {
+        question: {
+          en: "What is 'fining' in juice clarification?",
+          es: "¿Qué es el 'clarificado' en la clarificación de jugos?",
+          de: "Was ist 'Schönung' bei der Saftklärängerung?",
+          nl: "Wat is 'klaring' bij sapheldering?"
+        },
+        options: [
+          { en: "Adding agents like gelatin or bentonite to remove suspended particles and proteins", es: "Añadir agentes como gelatina o bentonita para remover partículas suspendidas y proteínas", de: "Zusätze wie Gelatine oder Bentonit hinzufügen um suspendierte Partikel und Proteine zu entfernen", nl: "Middelen zoals gelatine of bentoniet toevoegen om zwevende deeltjes en eiwitten te verwijderen" },
+          { en: "Making juice taste better", es: "Hacer que el jugo sepa mejor", de: "Saft besser schmecken lassen", nl: "Sap beter laten smaken" },
+          { en: "Grinding fruit very finely", es: "Moler fruta muy finamente", de: "Frucht sehr fein mahlen", nl: "Vrucht zeer fijn malen" },
+          { en: "Adding sweeteners", es: "Añadir edulcorantes", de: "Süßstoffe hinzufügen", nl: "Zoetstoffen toevoegen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Fining uses clarifying agents that bind with suspended particles, tannins, and proteins, causing them to aggregate and settle out or be filtered. Common fining agents include gelatin (binds tannins), bentonite clay (removes proteins), and PVPP (removes polyphenols). This produces crystal-clear juice.",
+          es: "El clarificado usa agentes clarificantes que se unen con partículas suspendidas, taninos y proteínas, causando que se agreguen y sedimenten o sean filtradas. Agentes clarificantes comunes incluyen gelatina (une taninos), arcilla bentonita (remueve proteínas), y PVPP (remueve polifenoles). Esto produce jugo cristalino.",
+          de: "Schönung verwendet Klärungsmittel, die sich mit suspendierten Partikeln, Tanninen und Proteinen verbinden und bewirken, dass sie aggregieren und sich absetzen oder gefiltert werden. Übliche Schönungsmittel umfassen Gelatine (bindet Tannine), Bentonit-Ton (entfernt Proteine) und PVPP (entfernt Polyphenole). Dies erzeugt kristallklaren Saft.",
+          nl: "Klaring gebruikt helderende middelen die binden met zwevende deeltjes, tannines en eiwitten, waardoor ze aggregeren en bezinken of gefilterd worden. Veel voorkomende klaringsmiddelen zijn gelatine (bindt tannines), bentoniet klei (verwijdert eiwitten) en PVPP (verwijdert polyfenolen). Dit produceert kristalhelder sap."
+        }
+      },
+      {
+        question: {
+          en: "What is 'aseptic filling' technology?",
+          es: "¿Qué es la tecnología de 'llenado aséptico'?",
+          de: "Was ist 'aseptische Abfülltechnologie'?",
+          nl: "Wat is 'aseptische vultechnologie'?"
+        },
+        options: [
+          { en: "Sterilizing juice and packaging separately, then filling in sterile environment", es: "Esterilizar jugo y empaque por separado, luego llenar en ambiente estéril", de: "Saft und Verpackung separat sterilisieren, dann in steriler Umgebung füllen", nl: "Sap en verpakking afzonderlijk steriliseren, dan vullen in steriele omgeving" },
+          { en: "Filling juice very slowly", es: "Llenar jugo muy lentamente", de: "Saft sehr langsam füllen", nl: "Sap zeer langzaam vullen" },
+          { en: "Using antiseptic chemicals", es: "Usar químicos antisépticos", de: "Antiseptische Chemikalien verwenden", nl: "Antiseptische chemicaliën gebruiken" },
+          { en: "Cold filling only", es: "Llenado en frío solamente", de: "Nur Kaltfüllung", nl: "Alleen koude vulling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Aseptic filling sterilizes juice (usually by UHT) and packaging materials separately using heat, hydrogen peroxide, or UV. Filling occurs in a completely sterile environment, allowing shelf-stable juice at room temperature for 6-12 months without refrigeration or preservatives.",
+          es: "El llenado aséptico esteriliza jugo (usualmente por UHT) y materiales de empaque por separado usando calor, peróxido de hidrógeno o UV. El llenado ocurre en ambiente completamente estéril, permitiendo jugo estable a temperatura ambiente por 6-12 meses sin refrigeración o conservantes.",
+          de: "Aseptische Abfüllung sterilisiert Saft (normalerweise durch UHT) und Verpackungsmaterialien separat mit Hitze, Wasserstoffperoxid oder UV. Die Füllung erfolgt in völlig steriler Umgebung und ermöglicht lagerstabilen Saft bei Raumtemperatur für 6-12 Monate ohne Kühlung oder Konservierungsstoffe.",
+          nl: "Aseptische vulling steriliseert sap (meestal door UHT) en verpakkingsmaterialen afzonderlijk met warmte, waterstofperoxide of UV. Vulling vindt plaats in een volledig steriele omgeving, waardoor houdbaar sap bij kamertemperatuur voor 6-12 maanden mogelijk is zonder koeling of conserveermiddelen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'water activity' (aw) and why does it matter in juice?",
+          es: "¿Qué es la 'actividad de agua' (aw) y por qué importa en el jugo?",
+          de: "Was ist 'Wasseraktivität' (aw) und warum ist sie wichtig in Saft?",
+          nl: "Wat is 'wateractiviteit' (aw) en waarom is het belangrijk in sap?"
+        },
+        options: [
+          { en: "Measure of available water for microbial growth; lower aw inhibits spoilage", es: "Medida de agua disponible para crecimiento microbiano; aw menor inhibe deterioro", de: "Maß für verfügbares Wasser für mikrobielles Wachstum; niedrigere aw hemmt Verderb", nl: "Maat voor beschikbaar water voor microbiële groei; lagere aw remt bederf" },
+          { en: "How active the water molecules are", es: "Qué tan activas son las moléculas de agua", de: "Wie aktiv die Wassermoleküle sind", nl: "Hoe actief de watermoleculen zijn" },
+          { en: "Amount of water added", es: "Cantidad de agua añadida", de: "Menge zugesetzten Wassers", nl: "Hoeveelheid toegevoegd water" },
+          { en: "Water temperature", es: "Temperatura del agua", de: "Wassertemperatur", nl: "Watertemperatuur" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Water activity (aw) measures the ratio of vapor pressure of water in juice to that of pure water (scale 0-1). Most bacteria need aw >0.90, yeasts >0.85, molds >0.80. Fresh juice has aw ~0.97-0.99, concentrated juice ~0.75-0.85. Lower aw inhibits microbial growth and enzymatic reactions, extending shelf life.",
+          es: "La actividad de agua (aw) mide la relación de presión de vapor de agua en jugo a la de agua pura (escala 0-1). La mayoría de bacterias necesitan aw >0.90, levaduras >0.85, mohos >0.80. Jugo fresco tiene aw ~0.97-0.99, jugo concentrado ~0.75-0.85. Menor aw inhibe crecimiento microbiano y reacciones enzimáticas, extendiendo vida útil.",
+          de: "Wasseraktivität (aw) misst das Verhältnis des Dampfdrucks von Wasser in Saft zu dem von reinem Wasser (Skala 0-1). Die meisten Bakterien brauchen aw >0,90, Hefen >0,85, Schimmelpilze >0,80. Frischer Saft hat aw ~0,97-0,99, konzentrierter Saft ~0,75-0,85. Niedrigere aw hemmt mikrobielles Wachstum und enzymatische Reaktionen, verlängert Haltbarkeit.",
+          nl: "Wateractiviteit (aw) meet de verhouding van dampdruk van water in sap tot die van zuiver water (schaal 0-1). Meeste bacteriën hebben aw >0,90 nodig, gisten >0,85, schimmels >0,80. Vers sap heeft aw ~0,97-0,99, geconcentreerd sap ~0,75-0,85. Lagere aw remt microbiële groei en enzymatische reacties, verlengt houdbaarheid."
+        }
+      },
+      {
+        question: {
+          en: "What are 'mycotoxins' and why are they monitored in apple juice?",
+          es: "¿Qué son las 'micotoxinas' y por qué se monitorean en el jugo de manzana?",
+          de: "Was sind 'Mykotoxine' und warum werden sie in Apfelsaft überwacht?",
+          nl: "Wat zijn 'mycotoxinen' en waarom worden ze gemonitord in appelsap?"
+        },
+        options: [
+          { en: "Toxic compounds from mold; patulin from rotten apples can contaminate juice", es: "Compuestos tóxicos del moho; patulina de manzanas podridas puede contaminar jugo", de: "Giftige Verbindungen aus Schimmel; Patulin aus verfaulten Äpfeln kann Saft kontaminieren", nl: "Giftige verbindingen van schimmel; patuline van rotte appels kan sap besmetten" },
+          { en: "Natural vitamins in juice", es: "Vitaminas naturales en jugo", de: "Natürliche Vitamine in Saft", nl: "Natuurlijke vitamines in sap" },
+          { en: "Beneficial probiotics", es: "Probióticos beneficiosos", de: "Vorteilhafte Probiotika", nl: "Nuttige probiotica" },
+          { en: "Aroma compounds", es: "Compuestos aromáticos", de: "Aromaverbindungen", nl: "Aromaverbindingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mycotoxins are toxic secondary metabolites produced by molds. Patulin, produced by Penicillium expansum in rotten apples, is the main concern in apple juice. Regulations limit patulin to 50 μg/L (ppb). Prevention includes inspecting fruit, removing damaged apples, and testing finished products.",
+          es: "Las micotoxinas son metabolitos secundarios tóxicos producidos por mohos. Patulina, producida por Penicillium expansum en manzanas podridas, es la principal preocupación en jugo de manzana. Las regulaciones limitan patulina a 50 μg/L (ppb). La prevención incluye inspeccionar fruta, remover manzanas dañadas y probar productos terminados.",
+          de: "Mykotoxine sind giftige Sekundärmetaboliten, die von Schimmelpilzen produziert werden. Patulin, produziert von Penicillium expansum in verfaulten Äpfeln, ist das Hauptproblem in Apfelsaft. Vorschriften begrenzen Patulin auf 50 μg/L (ppb). Prävention umfasst Fruchtinspektion, Entfernung beschädigter Äpfel und Prüfung fertiger Produkte.",
+          nl: "Mycotoxinen zijn giftige secundaire metabolieten geproduceerd door schimmels. Patuline, geproduceerd door Penicillium expansum in rotte appels, is de belangrijkste zorg in appelsap. Regelgeving beperkt patuline tot 50 μg/L (ppb). Preventie omvat fruit inspecteren, beschadigde appels verwijderen en eindproducten testen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'sensory evaluation' in juice quality control?",
+          es: "¿Qué es la 'evaluación sensorial' en control de calidad de jugos?",
+          de: "Was ist 'sensorische Bewertung' in der Saftkvalitätskontrolle?",
+          nl: "Wat is 'sensorische evaluatie' in sapkwaliteitscontrole?"
+        },
+        options: [
+          { en: "Trained panel systematically assessing appearance, aroma, taste, and texture", es: "Panel entrenado evaluando sistemáticamente apariencia, aroma, sabor y textura", de: "Geschultes Panel systematisch bewertend Aussehen, Aroma, Geschmack und Textur", nl: "Getraind panel systematisch beoordelend uiterlijk, aroma, smaak en textuur" },
+          { en: "Measuring with electronic sensors only", es: "Medir solo con sensores electrónicos", de: "Nur mit elektronischen Sensoren messen", nl: "Alleen meten met elektronische sensoren" },
+          { en: "Checking juice temperature", es: "Verificar temperatura del jugo", de: "Safttemperatur prüfen", nl: "Saptemperatuur controleren" },
+          { en: "Testing vitamin content", es: "Probar contenido de vitaminas", de: "Vitamingehalt testen", nl: "Vitaminegehalte testen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sensory evaluation uses trained panelists to objectively assess juice quality using standardized methods. They evaluate appearance (color, clarity), aroma (intensity, type), taste (sweet, sour, bitter), mouthfeel (viscosity, astringency), and overall acceptability. This complements chemical/physical testing and detects quality issues instruments might miss.",
+          es: "La evaluación sensorial usa panelistas entrenados para evaluar objetivamente la calidad del jugo usando métodos estandarizados. Evalúan apariencia (color, claridad), aroma (intensidad, tipo), sabor (dulce, agrio, amargo), sensación en boca (viscosidad, astringencia) y aceptabilidad general. Esto complementa pruebas químicas/físicas y detecta problemas de calidad que instrumentos podrían perder.",
+          de: "Sensorische Bewertung nutzt geschulte Verkoster zur objektiven Beurteilung der Saftqualität mit standardisierten Methoden. Sie bewerten Aussehen (Farbe, Klarheit), Aroma (Intensität, Art), Geschmack (süß, sauer, bitter), Mundgefühl (Viskosität, Adstringenz) und Gesamtakzeptanz. Dies ergänzt chemische/physikalische Tests und erkennt Qualitätsprobleme, die Instrumente übersehen könnten.",
+          nl: "Sensorische evaluatie gebruikt getrainde panelleden om sapkwaliteit objectief te beoordelen met gestandaardiseerde methoden. Ze evalueren uiterlijk (kleur, helderheid), aroma (intensiteit, type), smaak (zoet, zuur, bitter), mondgevoel (viscositeit, samentrekkendheid) en algemene aanvaardbaarheid. Dit vult chemische/fysische tests aan en detecteert kwaliteitsproblemen die instrumenten mogelijk missen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'juice authentication' and why is it important?",
+          es: "¿Qué es la 'autenticación de jugo' y por qué es importante?",
+          de: "Was ist 'Saftauthentifizierung' und warum ist sie wichtig?",
+          nl: "Wat is 'sapverificatie' en waarom is het belangrijk?"
+        },
+        options: [
+          { en: "Testing to verify juice is genuine and not adulterated with cheaper ingredients", es: "Pruebas para verificar que el jugo es genuino y no adulterado con ingredientes más baratos", de: "Tests um zu verifizieren dass Saft echt ist und nicht mit billigeren Zutaten verfälscht", nl: "Testen om te verifiëren dat sap echt is en niet vervalst met goedkopere ingrediënten" },
+          { en: "Checking expiration dates", es: "Verificar fechas de vencimiento", de: "Verfallsdaten prüfen", nl: "Vervaldatums controleren" },
+          { en: "Verifying brand name", es: "Verificar nombre de marca", de: "Markennamen verifizieren", nl: "Merknaam verifiëren" },
+          { en: "Testing packaging integrity", es: "Probar integridad del empaque", de: "Verpackungsintegrität testen", nl: "Verpakkingsintegriteit testen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Juice authentication uses analytical methods (isotope ratio mass spectrometry, NMR, DNA testing, chemical profiling) to detect adulteration - adding water, sugar, cheaper juices, synthetic acids, or mislabeling. This protects consumers from fraud and ensures product meets label claims and regulations.",
+          es: "La autenticación de jugo usa métodos analíticos (espectrometría de masas de relación isotópica, RMN, pruebas de ADN, perfilado químico) para detectar adulteración - añadir agua, azúcar, jugos más baratos, ácidos sintéticos o etiquetado erróneo. Esto protege a consumidores del fraude y asegura que producto cumple declaraciones de etiqueta y regulaciones.",
+          de: "Saftauthentifizierung verwendet analytische Methoden (Isotopenverhältnis-Massenspektrometrie, NMR, DNA-Tests, chemische Profilierung) um Verfälschung zu erkennen - Zugabe von Wasser, Zucker, billigeren Säften, synthetischen Säuren oder Fehlkennzeichnung. Dies schützt Verbraucher vor Betrug und stellt sicher, dass Produkt Etikettenangaben und Vorschriften erfüllt.",
+          nl: "Sapverificatie gebruikt analytische methoden (isotoopverhouding massaspectrometrie, NMR, DNA-testen, chemische profilering) om vervalsing te detecteren - toevoegen van water, suiker, goedkopere sappen, synthetische zuren of verkeerde etikettering. Dit beschermt consumenten tegen fraude en zorgt ervoor dat product aan etikettenclaims en regelgeving voldoet."
+        }
+      },
+      {
+        question: {
+          en: "What is 'CIP' (Clean-In-Place) in juice production facilities?",
+          es: "¿Qué es 'CIP' (Limpieza en Sitio) en instalaciones de producción de jugos?",
+          de: "Was ist 'CIP' (Reinigung vor Ort) in Saftproduktionsanlagen?",
+          nl: "Wat is 'CIP' (Reinigen op Plaats) in sapproductiefaciliteiten?"
+        },
+        options: [
+          { en: "Automated cleaning system circulating detergents through equipment without disassembly", es: "Sistema de limpieza automatizado circulando detergentes a través del equipo sin desmontar", de: "Automatisiertes Reinigungssystem das Reinigungsmittel durch Ausrüstung zirkuliert ohne Demontage", nl: "Geautomatiseerd schoonmaaksysteem dat reinigingsmiddelen door apparatuur circuleert zonder demontage" },
+          { en: "Chemical preservative added to juice", es: "Conservante químico añadido al jugo", de: "Chemisches Konservierungsmittel zu Saft hinzugefügt", nl: "Chemisch conserveermiddel toegevoegd aan sap" },
+          { en: "Manual cleaning by workers", es: "Limpieza manual por trabajadores", de: "Manuelle Reinigung durch Arbeiter", nl: "Handmatige reiniging door arbeiders" },
+          { en: "Pressure testing equipment", es: "Equipo de prueba de presión", de: "Druckprüfungsausrüstung", nl: "Druktest apparatuur" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "CIP is an automated cleaning system that circulates cleaning solutions (caustic, acid, sanitizers) through pipes, tanks, and processing equipment at controlled temperatures and flow rates. This ensures thorough sanitation without disassembling equipment, saving time, labor, and reducing contamination risk while maintaining hygiene standards.",
+          es: "CIP es un sistema de limpieza automatizado que circula soluciones de limpieza (cáustico, ácido, sanitizantes) a través de tuberías, tanques y equipo de procesamiento a temperaturas y tasas de flujo controladas. Esto asegura sanitización completa sin desmontar equipo, ahorrando tiempo, mano de obra y reduciendo riesgo de contaminación mientras mantiene estándares de higiene.",
+          de: "CIP ist ein automatisiertes Reinigungssystem, das Reinigungslösungen (Lauge, Säure, Desinfektionsmittel) durch Rohre, Tanks und Verarbeitungsausrüstung bei kontrollierten Temperaturen und Durchflussraten zirkuliert. Dies gewährleistet gründliche Desinfektion ohne Demontage der Ausrüstung, spart Zeit, Arbeit und reduziert Kontaminationsrisiko bei Aufrechterhaltung von Hygienestandards.",
+          nl: "CIP is een geautomatiseerd schoonmaaksysteem dat schoonmaakoplossingen (loog, zuur, ontsmettingsmiddelen) door leidingen, tanks en verwerkingsapparatuur circuleert bij gecontroleerde temperaturen en stromingssnelheden. Dit zorgt voor grondige sanitatie zonder apparatuur te demonteren, bespaart tijd, arbeid en vermindert besmettingsrisico terwijl hygiënestandaarden worden gehandhaafd."
+        }
+      },
+      {
+        question: {
+          en: "What is 'HACCP' in juice production?",
+          es: "¿Qué es 'HACCP' en la producción de jugos?",
+          de: "Was ist 'HACCP' in der Saftproduktion?",
+          nl: "Wat is 'HACCP' in sapproductie?"
+        },
+        options: [
+          { en: "Hazard Analysis Critical Control Points - systematic food safety management system", es: "Análisis de Peligros y Puntos Críticos de Control - sistema sistemático de gestión de seguridad alimentaria", de: "Gefahrenanalyse Kritische Kontrollpunkte - systematisches Lebensmittelsicherheits-Managementsystem", nl: "Hazard Analysis Critical Control Points - systematisch voedselveiligheidsbeheersysteem" },
+          { en: "High Acid Content Control Program", es: "Programa de Control de Alto Contenido Ácido", de: "Hochsäuregehalt-Kontrollprogramm", nl: "Hoog Zuurgehalte Controleprogramma" },
+          { en: "Hygiene and Cleanliness Certification Process", es: "Proceso de Certificación de Higiene y Limpieza", de: "Hygiene- und Sauberkeitszertifizierungsprozess", nl: "Hygiëne en Netheid Certificeringsproces" },
+          { en: "Heat Application and Cooling Control Procedure", es: "Procedimiento de Control de Aplicación de Calor y Enfriamiento", de: "Wärmeanwendungs- und Kühlungskontrollverfahren", nl: "Warmtetoepassing en Koeling Controle Procedure" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "HACCP (Hazard Analysis Critical Control Points) is a systematic preventive approach identifying physical, chemical, and biological hazards in food production, determining critical control points (like pasteurization temperature), establishing monitoring procedures, corrective actions, verification, and documentation. It's required for juice manufacturers to ensure food safety.",
+          es: "HACCP (Análisis de Peligros y Puntos Críticos de Control) es un enfoque preventivo sistemático identificando peligros físicos, químicos y biológicos en producción de alimentos, determinando puntos de control críticos (como temperatura de pasteurización), estableciendo procedimientos de monitoreo, acciones correctivas, verificación y documentación. Es requerido para fabricantes de jugo para asegurar seguridad alimentaria.",
+          de: "HACCP (Gefahrenanalyse Kritische Kontrollpunkte) ist ein systematischer präventiver Ansatz zur Identifizierung physikalischer, chemischer und biologischer Gefahren in der Lebensmittelproduktion, Bestimmung kritischer Kontrollpunkte (wie Pasteurisierungstemperatur), Festlegung von Überwachungsverfahren, Korrekturmaßnahmen, Verifizierung und Dokumentation. Es ist für Safthersteller erforderlich um Lebensmittelsicherheit zu gewährleisten.",
+          nl: "HACCP (Hazard Analysis Critical Control Points) is een systematische preventieve benadering die fysische, chemische en biologische gevaren in voedselproductie identificeert, kritieke controlepunten bepaalt (zoals pasteurisatietemperatuur), monitoringprocedures, corrigerende acties, verificatie en documentatie vaststelt. Het is vereist voor sapfabrikanten om voedselveiligheid te waarborgen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'glycemic index' and why does it matter for fruit juices?",
+          es: "¿Qué es el 'índice glucémico' y por qué importa para los jugos de frutas?",
+          de: "Was ist der 'glykämische Index' und warum ist er wichtig für Fruchtsäfte?",
+          nl: "Wat is de 'glycemische index' en waarom is het belangrijk voor vruchtensappen?"
+        },
+        options: [
+          { en: "How quickly juice raises blood sugar; high GI juices cause rapid spikes", es: "Qué tan rápido el jugo eleva azúcar en sangre; jugos de alto IG causan picos rápidos", de: "Wie schnell Saft Blutzucker erhöht; hoher GI-Saft verursacht schnelle Spitzen", nl: "Hoe snel sap bloedsuiker verhoogt; hoge GI sappen veroorzaken snelle pieken" },
+          { en: "Sugar content per liter", es: "Contenido de azúcar por litro", de: "Zuckergehalt pro Liter", nl: "Suikergehalte per liter" },
+          { en: "Glycerin concentration", es: "Concentración de glicerina", de: "Glycerinkonzentration", nl: "Glycerineconcentratie" },
+          { en: "Glucose flavor rating", es: "Calificación de sabor a glucosa", de: "Glukose-Geschmacksbewertung", nl: "Glucose smaakverwachting" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Glycemic index (GI) measures how quickly foods raise blood glucose levels (scale 0-100, glucose=100). Most fruit juices have high GI (50-70+) because fiber is removed and sugars are readily absorbed. This causes rapid blood sugar spikes followed by crashes, which is concerning for diabetics and overall health. Whole fruit has lower GI due to fiber.",
+          es: "El índice glucémico (IG) mide qué tan rápido los alimentos elevan niveles de glucosa en sangre (escala 0-100, glucosa=100). La mayoría de jugos de frutas tienen alto IG (50-70+) porque se remueve fibra y azúcares se absorben fácilmente. Esto causa picos rápidos de azúcar en sangre seguidos de caídas, lo cual es preocupante para diabéticos y salud general. Fruta entera tiene menor IG debido a fibra.",
+          de: "Glykämischer Index (GI) misst wie schnell Lebensmittel Blutzuckerspiegel erhöhen (Skala 0-100, Glukose=100). Die meisten Fruchtsäfte haben hohen GI (50-70+) weil Ballaststoffe entfernt sind und Zucker leicht absorbiert werden. Dies verursacht schnelle Blutzuckerspitzen gefolgt von Abstürzen, was für Diabetiker und allgemeine Gesundheit besorgniserregend ist. Ganze Frucht hat niedrigeren GI wegen Ballaststoffen.",
+          nl: "Glycemische index (GI) meet hoe snel voedsel bloedglucosewaarden verhoogt (schaal 0-100, glucose=100). Meeste vruchtensappen hebben hoge GI (50-70+) omdat vezels zijn verwijderd en suikers gemakkelijk worden opgenomen. Dit veroorzaakt snelle bloedsuikerpieken gevolgd door crashes, wat zorgwekkend is voor diabetici en algemene gezondheid. Hele vrucht heeft lagere GI vanwege vezels."
+        }
+      },
+      {
+        question: {
+          en: "What is 'spray drying' used for in juice processing?",
+          es: "¿Para qué se usa el 'secado por aspersión' en el procesamiento de jugos?",
+          de: "Wofür wird 'Sprühtrocknung' in der Saftverarbeitung verwendet?",
+          nl: "Waarvoor wordt 'sproeidrogen' gebruikt in sapverwerking?"
+        },
+        options: [
+          { en: "Converting concentrated juice into powder form for extended shelf life and easy transport", es: "Convertir jugo concentrado en forma de polvo para vida útil extendida y transporte fácil", de: "Konzentrierten Saft in Pulverform für längere Haltbarkeit und einfachen Transport umwandeln", nl: "Geconcentreerd sap omzetten in poedervorm voor verlengde houdbaarheid en gemakkelijk transport" },
+          { en: "Washing fruit before juicing", es: "Lavar fruta antes de exprimir", de: "Frucht vor dem Entsaften waschen", nl: "Vrucht wassen voor sapwinning" },
+          { en: "Spraying water into juice", es: "Rociar agua en jugo", de: "Wasser in Saft sprühen", nl: "Water in sap spuiten" },
+          { en: "Applying preservative spray", es: "Aplicar spray conservante", de: "Konservierungsspray auftragen", nl: "Conserverende spray aanbrengen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Spray drying atomizes concentrated juice into fine droplets and exposes them to hot air (150-200°C) in a drying chamber. Water evaporates rapidly, leaving fine powder particles. This creates shelf-stable juice powder that can be reconstituted with water, is lightweight for shipping, and has extended shelf life (12-24 months).",
+          es: "El secado por aspersión atomiza jugo concentrado en gotitas finas y las expone a aire caliente (150-200°C) en cámara de secado. El agua se evapora rápidamente, dejando partículas finas de polvo. Esto crea polvo de jugo estable que puede reconstituirse con agua, es liviano para envío, y tiene vida útil extendida (12-24 meses).",
+          de: "Sprühtrocknung zerstäubt konzentrierten Saft in feine Tröpfchen und setzt sie heißer Luft (150-200°C) in einer Trockenkammer aus. Wasser verdunstet schnell und hinterlässt feine Pulverpartikel. Dies erzeugt lagerstabiles Saftpulver, das mit Wasser rekonstituiert werden kann, leicht zu versenden ist und verlängerte Haltbarkeit (12-24 Monate) hat.",
+          nl: "Sproeidrogen verstuift geconcentreerd sap in fine druppels en stelt ze bloot aan hete lucht (150-200°C) in een droogkamer. Water verdampt snel en laat fijne poederdeeltjes achter. Dit creëert houdbaar sappoeder dat met water gereconstitueerd kan worden, licht is voor verzending, en verlengde houdbaarheid (12-24 maanden) heeft."
+        }
+      },
+      {
+        question: {
+          en: "What is 'juice formulation' in commercial production?",
+          es: "¿Qué es la 'formulación de jugo' en producción comercial?",
+          de: "Was ist 'Saftformulierung' in der kommerziellen Produktion?",
+          nl: "Wat is 'sapformulering' in commerciële productie?"
+        },
+        options: [
+          { en: "Blending ingredients, adjusting ratios, and adding nutrients to create consistent product", es: "Mezclar ingredientes, ajustar proporciones y añadir nutrientes para crear producto consistente", de: "Zutaten mischen, Verhältnisse anpassen und Nährstoffe hinzufügen um konsistentes Produkt zu schaffen", nl: "Ingrediënten mengen, verhoudingen aanpassen en voedingsstoffen toevoegen om consistent product te creëren" },
+          { en: "Chemical formula of fruit sugars", es: "Fórmula química de azúcares de frutas", de: "Chemische Formel von Fruchtzuckern", nl: "Chemische formule van vruchtensuikers" },
+          { en: "Mathematical calculation of yield", es: "Cálculo matemático de rendimiento", de: "Mathematische Berechnung der Ausbeute", nl: "Wiskundige berekening van opbrengst" },
+          { en: "Recipe for making juice at home", es: "Receta para hacer jugo en casa", de: "Rezept für Saftherstellung zu Hause", nl: "Recept voor sap maken thuis" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Juice formulation is the process of developing and standardizing commercial juice products by blending juice varieties, adjusting Brix and acidity, adding back essence, fortifying with vitamins/minerals, controlling pulp content, and balancing flavor profiles. This ensures batch-to-batch consistency, desired sensory properties, nutritional targets, and regulatory compliance.",
+          es: "La formulación de jugo es el proceso de desarrollar y estandarizar productos de jugo comerciales mezclando variedades de jugo, ajustando Brix y acidez, añadiendo esencia de vuelta, fortificando con vitaminas/minerales, controlando contenido de pulpa y balanceando perfiles de sabor. Esto asegura consistencia lote a lote, propiedades sensoriales deseadas, objetivos nutricionales y cumplimiento regulatorio.",
+          de: "Saftformulierung ist der Prozess der Entwicklung und Standardisierung kommerzieller Saftprodukte durch Mischen von Saftsorten, Anpassung von Brix und Säure, Rückgabe von Essenz, Anreicherung mit Vitaminen/Mineralien, Kontrolle des Fruchtfleischgehalts und Ausgleich von Geschmacksprofilen. Dies gewährleistet Charge-zu-Charge-Konsistenz, gewünschte sensorische Eigenschaften, Ernährungsziele und regulatorische Konformität.",
+          nl: "Sapformulering is het proces van ontwikkelen en standaardiseren van commerciële sapproducten door sapvariëteiten te mengen, Brix en zuurgraad aan te passen, essence terug toe te voegen, te verrijken met vitamines/mineralen, pulpgehalte te controleren en smaakprofielen in evenwicht te brengen. Dit zorgt voor batch-tot-batch consistentie, gewenste sensorische eigenschappen, voedingsdoelen en naleving van regelgeving."
+        }
+      },
+      {
+        question: {
+          en: "What is 'cold chain breach' and what are its consequences?",
+          es: "¿Qué es la 'ruptura de cadena de frío' y cuáles son sus consecuencias?",
+          de: "Was ist 'Kühlkettenbruch' und was sind seine Folgen?",
+          nl: "Wat is 'koelketen breuk' en wat zijn de gevolgen?"
+        },
+        options: [
+          { en: "Temperature exceeding safe range during storage/transport; accelerates spoilage and quality loss", es: "Temperatura excediendo rango seguro durante almacenamiento/transporte; acelera deterioro y pérdida de calidad", de: "Temperatur überschreitet sicheren Bereich während Lagerung/Transport; beschleunigt Verderb und Qualitätsverlust", nl: "Temperatuur overschrijdt veilig bereik tijdens opslag/transport; versnelt bederf en kwaliteitsverlies" },
+          { en: "Breaking ice in frozen juice", es: "Romper hielo en jugo congelado", de: "Eis in gefrorenem Saft brechen", nl: "Ijs breken in bevroren sap" },
+          { en: "Refrigerator mechanical failure only", es: "Solo falla mecánica del refrigerador", de: "Nur mechanischer Kühlschrankausfall", nl: "Alleen koelkast mechanisch falen" },
+          { en: "Using cold water to dilute juice", es: "Usar agua fría para diluir jugo", de: "Kaltes Wasser zur Saftverdünnung verwenden", nl: "Koud water gebruiken om sap te verdunnen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cold chain breach occurs when refrigerated juice is exposed to temperatures above the safe range (>4-7°C) during storage, transport, or retail. Consequences include accelerated microbial growth, vitamin degradation (especially C), enzyme activation causing off-flavors, color changes, fermentation, shorter shelf life, and potential food safety hazards. Temperature monitoring and quick action are critical.",
+          es: "La ruptura de cadena de frío ocurre cuando jugo refrigerado se expone a temperaturas sobre rango seguro (>4-7°C) durante almacenamiento, transporte o venta. Las consecuencias incluyen crecimiento microbiano acelerado, degradación de vitaminas (especialmente C), activación de enzimas causando sabores desagradables, cambios de color, fermentación, vida útil más corta y peligros potenciales de seguridad alimentaria. Monitoreo de temperatura y acción rápida son críticos.",
+          de: "Kühlkettenbruch tritt auf, wenn gekühlter Saft Temperaturen über dem sicheren Bereich (>4-7°C) während Lagerung, Transport oder Einzelhandel ausgesetzt ist. Folgen umfassen beschleunigtes mikrobielles Wachstum, Vitaminabbau (besonders C), Enzymaktivierung die Fehlaromen verursacht, Farbveränderungen, Fermentation, kürzere Haltbarkeit und potenzielle Lebensmittelsicherheitsgefahren. Temperaturüberwachung und schnelles Handeln sind kritisch.",
+          nl: "Koelketen breuk treedt op wanneer gekoeld sap wordt blootgesteld aan temperaturen boven het veilige bereik (>4-7°C) tijdens opslag, transport of detailhandel. Gevolgen omvatten versnelde microbiële groei, vitamineafbraak (vooral C), enzymactivering die off-smaken veroorzaakt, kleurveranderingen, fermentatie, kortere houdbaarheid en potentiële voedselveiligheidsrisico's. Temperatuurmonitoring en snelle actie zijn cruciaal."
+        }
+      },
+      {
+        question: {
+          en: "What is 'enzymatic liquefaction' in juice extraction?",
+          es: "¿Qué es la 'licuefacción enzimática' en la extracción de jugos?",
+          de: "Was ist 'enzymatische Verflüssigung' in der Saftextraktion?",
+          nl: "Wat is 'enzymatische vloeibaarmaking' in sapextractie?"
+        },
+        options: [
+          { en: "Using cellulase and pectinase to break down fruit tissue for maximum juice recovery", es: "Usar celulasa y pectinasa para descomponer tejido de fruta para máxima recuperación de jugo", de: "Cellulase und Pektinase verwenden um Fruchtgewebe für maximale Saftgewinnung abzubauen", nl: "Cellulase en pectinase gebruiken om vruchtweefsel af te breken voor maximale sapwinning" },
+          { en: "Turning juice into liquid form", es: "Convertir jugo en forma líquida", de: "Saft in flüssige Form bringen", nl: "Sap in vloeibare vorm brengen" },
+          { en: "Melting frozen concentrate", es: "Derretir concentrado congelado", de: "Gefrorenes Konzentrat schmelzen", nl: "Bevroren concentraat smelten" },
+          { en: "Removing solid particles", es: "Remover partículas sólidas", de: "Feste Partikel entfernen", nl: "Vaste deeltjes verwijderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Enzymatic liquefaction uses a cocktail of enzymes (cellulase, hemicellulase, pectinase) to break down cell walls and middle lamella in fruit tissue. This significantly increases juice yield (10-30% improvement), reduces viscosity, improves clarity, and allows extraction from pulpy fruits that are difficult to press conventionally.",
+          es: "La licuefacción enzimática usa un cóctel de enzimas (celulasa, hemicelulasa, pectinasa) para descomponer paredes celulares y lámina media en tejido de fruta. Esto aumenta significativamente el rendimiento de jugo (mejora 10-30%), reduce viscosidad, mejora claridad, y permite extracción de frutas pulposas difíciles de prensar convencionalmente.",
+          de: "Enzymatische Verflüssigung verwendet einen Enzym-Cocktail (Cellulase, Hemicellulase, Pektinase) um Zellwände und Mittellamelle im Fruchtgewebe abzubauen. Dies erhöht die Saftausbeute signifikant (10-30% Verbesserung), reduziert Viskosität, verbessert Klarheit, und ermöglicht Extraktion aus fruchtfleischreichen Früchten die konventionell schwer zu pressen sind.",
+          nl: "Enzymatische vloeibaarmaking gebruikt een cocktail van enzymen (cellulase, hemicellulase, pectinase) om celwanden en middenlamella in vruchtweefsel af te breken. Dit verhoogt de sapopbrengst aanzienlijk (10-30% verbetering), vermindert viscositeit, verbetert helderheid, en maakt extractie mogelijk uit pulpachtige vruchten die moeilijk conventioneel te persen zijn."
+        }
+      },
     ]
   };
 

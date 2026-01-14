@@ -427,6 +427,426 @@
           de: "Jede Seite des quadratischen Turms misst an seiner Basis etwa 12 Meter. Der Turm verjüngt sich leicht nach oben und verleiht ihm elegante Proportionen im neugotischen Stil.",
           nl: "Elke kant van de vierkante toren meet ongeveer 12 meter aan de basis. De toren loopt licht taps toe naarmate hij stijgt, wat hem elegante proporties geeft in neogotische stijl."
         }
+      },
+      {
+        question: {
+          en: "What is the diameter of the pendulum bob?",
+          es: "¿Cuál es el diámetro de la lenteja del péndulo?",
+          de: "Was ist der Durchmesser der Pendellinse?",
+          nl: "Wat is de diameter van het slingergewicht?"
+        },
+        options: [
+          { en: "30 cm", es: "30 cm", de: "30 cm", nl: "30 cm" },
+          { en: "45 cm", es: "45 cm", de: "45 cm", nl: "45 cm" },
+          { en: "60 cm", es: "60 cm", de: "60 cm", nl: "60 cm" },
+          { en: "75 cm", es: "75 cm", de: "75 cm", nl: "75 cm" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The pendulum bob has a diameter of 60 cm and weighs 300 kg. Its large size helps maintain steady, consistent movement despite environmental variations.",
+          es: "La lenteja del péndulo tiene un diámetro de 60 cm y pesa 300 kg. Su gran tamaño ayuda a mantener un movimiento constante y uniforme a pesar de las variaciones ambientales.",
+          de: "Die Pendellinse hat einen Durchmesser von 60 cm und wiegt 300 kg. Ihre große Größe hilft, eine gleichmäßige, konstante Bewegung trotz Umweltschwankungen aufrechtzuerhalten.",
+          nl: "Het slingergewicht heeft een diameter van 60 cm en weegt 300 kg. Zijn grote formaat helpt een gestage, consistente beweging te behouden ondanks omgevingsvariaties."
+        }
+      },
+      {
+        question: {
+          en: "How many steps are there in the spiral staircase to the belfry?",
+          es: "¿Cuántos escalones hay en la escalera de caracol hasta el campanario?",
+          de: "Wie viele Stufen gibt es in der Wendeltreppe zum Glockenturm?",
+          nl: "Hoeveel treden zijn er in de wenteltrap naar de klokkentoren?"
+        },
+        options: [
+          { en: "234 steps", es: "234 escalones", de: "234 Stufen", nl: "234 treden" },
+          { en: "296 steps", es: "296 escalones", de: "296 Stufen", nl: "296 treden" },
+          { en: "334 steps", es: "334 escalones", de: "334 Stufen", nl: "334 treden" },
+          { en: "372 steps", es: "372 escalones", de: "372 Stufen", nl: "372 treden" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "There are 334 steps in the narrow spiral staircase leading to the belfry. The climb takes about 15-20 minutes for most visitors.",
+          es: "Hay 334 escalones en la estrecha escalera de caracol que conduce al campanario. La subida toma alrededor de 15-20 minutos para la mayoría de visitantes.",
+          de: "Es gibt 334 Stufen in der engen Wendeltreppe, die zum Glockenturm führt. Der Aufstieg dauert für die meisten Besucher etwa 15-20 Minuten.",
+          nl: "Er zijn 334 treden in de smalle wenteltrap die naar de klokkentoren leidt. De klim duurt ongeveer 15-20 minuten voor de meeste bezoekers."
+        }
+      },
+      {
+        question: {
+          en: "What is the maximum amplitude swing of the pendulum?",
+          es: "¿Cuál es la amplitud máxima de oscilación del péndulo?",
+          de: "Was ist die maximale Schwingungsamplitude des Pendels?",
+          nl: "Wat is de maximale zwaai-amplitude van de slinger?"
+        },
+        options: [
+          { en: "8 degrees", es: "8 grados", de: "8 Grad", nl: "8 graden" },
+          { en: "12 degrees", es: "12 grados", de: "12 Grad", nl: "12 graden" },
+          { en: "16 degrees", es: "16 grados", de: "16 Grad", nl: "16 graden" },
+          { en: "20 degrees", es: "20 grados", de: "20 Grad", nl: "20 graden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The pendulum swings with a maximum amplitude of 8 degrees from vertical. This relatively small swing provides the precision needed for accurate timekeeping.",
+          es: "El péndulo oscila con una amplitud máxima de 8 grados desde la vertical. Esta oscilación relativamente pequeña proporciona la precisión necesaria para un cronometraje preciso.",
+          de: "Das Pendel schwingt mit einer maximalen Amplitude von 8 Grad von der Vertikalen. Diese relativ kleine Schwingung bietet die Präzision, die für genaue Zeitmessung benötigt wird.",
+          nl: "De slinger zwaait met een maximale amplitude van 8 graden vanaf verticaal. Deze relatief kleine zwaai biedt de precisie die nodig is voor nauwkeurige tijdmeting."
+        }
+      },
+      {
+        question: {
+          en: "What metal alloy are the clock hands constructed from?",
+          es: "¿De qué aleación metálica están construidas las manecillas del reloj?",
+          de: "Aus welcher Metalllegierung sind die Uhrzeiger konstruiert?",
+          nl: "Uit welke metaallegering zijn de wijzers gemaakt?"
+        },
+        options: [
+          { en: "Solid brass", es: "Latón sólido", de: "Massives Messing", nl: "Massief messing" },
+          { en: "Copper-plated steel", es: "Acero recubierto de cobre", de: "Kupferplattierter Stahl", nl: "Verkoperd staal" },
+          { en: "Copper sheet over iron framework", es: "Lámina de cobre sobre armazón de hierro", de: "Kupferblech über Eisenrahmen", nl: "Koperplaat over ijzeren frame" },
+          { en: "Bronze", es: "Bronce", de: "Bronze", nl: "Brons" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The hands are made of copper sheet mounted on an iron framework. This combination provides strength while keeping weight manageable for the mechanism.",
+          es: "Las manecillas están hechas de lámina de cobre montada sobre un armazón de hierro. Esta combinación proporciona resistencia mientras mantiene el peso manejable para el mecanismo.",
+          de: "Die Zeiger bestehen aus Kupferblech, das auf einem Eisenrahmen montiert ist. Diese Kombination bietet Festigkeit, während das Gewicht für den Mechanismus handhabbar bleibt.",
+          nl: "De wijzers zijn gemaakt van koperplaat gemonteerd op een ijzeren frame. Deze combinatie biedt kracht terwijl het gewicht beheersbaar blijft voor het mechanisme."
+        }
+      },
+      {
+        question: {
+          en: "What is the escapement type used in Big Ben's clock mechanism?",
+          es: "¿Qué tipo de escape se usa en el mecanismo del reloj de Big Ben?",
+          de: "Welche Art von Hemmung wird im Uhrmechanismus von Big Ben verwendet?",
+          nl: "Welk type ontsnapping wordt gebruikt in het klokmechanisme van Big Ben?"
+        },
+        options: [
+          { en: "Deadbeat escapement", es: "Escape deadbeat", de: "Ruhende Ankerhemmung", nl: "Deadbeat-ontsnapping" },
+          { en: "Gravity escapement", es: "Escape de gravedad", de: "Schwerkrafthemmung", nl: "Zwaartekracht-ontsnapping" },
+          { en: "Anchor escapement", es: "Escape de áncora", de: "Ankerhemmung", nl: "Ankerontsnapping" },
+          { en: "Graham escapement", es: "Escape Graham", de: "Graham-Hemmung", nl: "Graham-ontsnapping" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Big Ben uses a double three-legged gravity escapement designed by Denison. This superior design isolates the pendulum from external forces, ensuring exceptional accuracy.",
+          es: "Big Ben usa un escape de gravedad doble de tres patas diseñado por Denison. Este diseño superior aísla el péndulo de fuerzas externas, asegurando una precisión excepcional.",
+          de: "Big Ben verwendet eine doppelte dreiarmige Schwerkrafthemmung, die von Denison entworfen wurde. Dieses überlegene Design isoliert das Pendel von äußeren Kräften und gewährleistet außergewöhnliche Genauigkeit.",
+          nl: "Big Ben gebruikt een dubbele driepootige zwaartekracht-ontsnapping ontworpen door Denison. Dit superieure ontwerp isoleert de slinger van externe krachten, wat uitzonderlijke nauwkeurigheid garandeert."
+        }
+      },
+      {
+        question: {
+          en: "How many times per day must the clock faces be inspected during normal operation?",
+          es: "¿Cuántas veces al día deben inspeccionarse las caras del reloj durante operación normal?",
+          de: "Wie oft pro Tag müssen die Zifferblätter während des normalen Betriebs inspiziert werden?",
+          nl: "Hoeveel keer per dag moeten de wijzerplaten geïnspecteerd worden tijdens normale werking?"
+        },
+        options: [
+          { en: "Once daily", es: "Una vez al día", de: "Einmal täglich", nl: "Eenmaal per dag" },
+          { en: "Twice daily", es: "Dos veces al día", de: "Zweimal täglich", nl: "Tweemaal per dag" },
+          { en: "Four times daily", es: "Cuatro veces al día", de: "Viermal täglich", nl: "Vier keer per dag" },
+          { en: "Hourly checks", es: "Controles cada hora", de: "Stündliche Kontrollen", nl: "Uurlijkse controles" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Clock keepers inspect the mechanism twice daily to ensure proper operation. They check the time accuracy, mechanism sounds, and overall condition of the system.",
+          es: "Los guardias del reloj inspeccionan el mecanismo dos veces al día para asegurar el funcionamiento adecuado. Verifican la precisión del tiempo, los sonidos del mecanismo y la condición general del sistema.",
+          de: "Uhrenwärter inspizieren den Mechanismus zweimal täglich, um den ordnungsgemäßen Betrieb sicherzustellen. Sie überprüfen die Zeitgenauigkeit, Mechanismusgeräusche und den Gesamtzustand des Systems.",
+          nl: "Klokbewaarders inspecteren het mechanisme tweemaal per dag om goede werking te garanderen. Ze controleren de tijdnauwkeurigheid, mechanismegeluiden en algemene staat van het systeem."
+        }
+      },
+      {
+        question: {
+          en: "What is the distance the driving weights fall during one complete winding cycle?",
+          es: "¿Cuál es la distancia que caen los pesos motores durante un ciclo completo de enrollado?",
+          de: "Wie weit fallen die Antriebsgewichte während eines vollständigen Aufziehzyklus?",
+          nl: "Wat is de afstand die de aandrijfgewichten vallen tijdens een complete opwindcyclus?"
+        },
+        options: [
+          { en: "2 meters", es: "2 metros", de: "2 Meter", nl: "2 meter" },
+          { en: "4 meters", es: "4 metros", de: "4 Meter", nl: "4 meter" },
+          { en: "6 meters", es: "6 metros", de: "6 Meter", nl: "6 meter" },
+          { en: "8 meters", es: "8 metros", de: "8 Meter", nl: "8 meter" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The driving weights fall approximately 6 meters during each winding cycle. This descent provides the energy needed to power the clock mechanism for several days.",
+          es: "Los pesos motores caen aproximadamente 6 metros durante cada ciclo de enrollado. Este descenso proporciona la energía necesaria para alimentar el mecanismo del reloj durante varios días.",
+          de: "Die Antriebsgewichte fallen während jedes Aufziehzyklus etwa 6 Meter. Dieser Abstieg liefert die Energie, die benötigt wird, um den Uhrmechanismus mehrere Tage lang anzutreiben.",
+          nl: "De aandrijfgewichten vallen ongeveer 6 meter tijdens elke opwindcyclus. Deze daling levert de energie die nodig is om het klokmechanisme meerdere dagen aan te drijven."
+        }
+      },
+      {
+        question: {
+          en: "What is the typical maintenance interval for the bell hammers?",
+          es: "¿Cuál es el intervalo de mantenimiento típico para los martillos de las campanas?",
+          de: "Was ist das typische Wartungsintervall für die Glockenhämmer?",
+          nl: "Wat is het typische onderhoudsinterval voor de klokhamers?"
+        },
+        options: [
+          { en: "Every 3 months", es: "Cada 3 meses", de: "Alle 3 Monate", nl: "Elke 3 maanden" },
+          { en: "Every 6 months", es: "Cada 6 meses", de: "Alle 6 Monate", nl: "Elke 6 maanden" },
+          { en: "Annually", es: "Anualmente", de: "Jährlich", nl: "Jaarlijks" },
+          { en: "Every 2 years", es: "Cada 2 años", de: "Alle 2 Jahre", nl: "Om de 2 jaar" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Bell hammers undergo annual maintenance to check for wear, alignment, and striking force. The leather striking surfaces are inspected and replaced as needed.",
+          es: "Los martillos de las campanas se someten a mantenimiento anual para verificar el desgaste, alineación y fuerza de golpe. Las superficies de golpeo de cuero se inspeccionan y reemplazan según sea necesario.",
+          de: "Glockenhämmer werden jährlich gewartet, um Verschleiß, Ausrichtung und Schlagkraft zu überprüfen. Die lederbezogenen Schlagflächen werden inspiziert und bei Bedarf ersetzt.",
+          nl: "Klokhamers ondergaan jaarlijks onderhoud om slijtage, uitlijning en slagkracht te controleren. De leren slagoppervlakken worden geïnspecteerd en indien nodig vervangen."
+        }
+      },
+      {
+        question: {
+          en: "What is the tensile strength requirement for the pendulum suspension spring?",
+          es: "¿Cuál es el requisito de resistencia a la tracción para el resorte de suspensión del péndulo?",
+          de: "Was ist die Zugfestigkeitsanforderung für die Pendelaufhängungsfeder?",
+          nl: "Wat is de treksterkte-eis voor de slinger ophangende veer?"
+        },
+        options: [
+          { en: "500 kg", es: "500 kg", de: "500 kg", nl: "500 kg" },
+          { en: "750 kg", es: "750 kg", de: "750 kg", nl: "750 kg" },
+          { en: "1,000 kg", es: "1.000 kg", de: "1.000 kg", nl: "1.000 kg" },
+          { en: "1,500 kg", es: "1.500 kg", de: "1.500 kg", nl: "1.500 kg" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The pendulum suspension spring must support at least 1,000 kg of tensile force. This high-strength spring allows the pendulum to swing freely while maintaining precise regulation.",
+          es: "El resorte de suspensión del péndulo debe soportar al menos 1.000 kg de fuerza de tracción. Este resorte de alta resistencia permite que el péndulo oscile libremente mientras mantiene una regulación precisa.",
+          de: "Die Pendelaufhängungsfeder muss mindestens 1.000 kg Zugkraft tragen. Diese hochfeste Feder ermöglicht es dem Pendel, frei zu schwingen und gleichzeitig eine präzise Regulierung aufrechtzuerhalten.",
+          nl: "De slinger ophangende veer moet minimaal 1.000 kg trekkracht kunnen dragen. Deze hoogsterke veer stelt de slinger in staat vrij te zwaaien terwijl precieze regulering behouden blijft."
+        }
+      },
+      {
+        question: {
+          en: "How many oil reservoirs are integrated into the clock mechanism?",
+          es: "¿Cuántos depósitos de aceite están integrados en el mecanismo del reloj?",
+          de: "Wie viele Ölreservoirs sind in den Uhrmechanismus integriert?",
+          nl: "Hoeveel oliereservoirs zijn geïntegreerd in het klokmechanisme?"
+        },
+        options: [
+          { en: "8 reservoirs", es: "8 depósitos", de: "8 Reservoirs", nl: "8 reservoirs" },
+          { en: "16 reservoirs", es: "16 depósitos", de: "16 Reservoirs", nl: "16 reservoirs" },
+          { en: "24 reservoirs", es: "24 depósitos", de: "24 Reservoirs", nl: "24 reservoirs" },
+          { en: "32 reservoirs", es: "32 depósitos", de: "32 Reservoirs", nl: "32 reservoirs" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The mechanism contains 16 oil reservoirs at critical bearing points. These ensure continuous lubrication of moving parts, reducing friction and wear.",
+          es: "El mecanismo contiene 16 depósitos de aceite en puntos de cojinete críticos. Estos aseguran la lubricación continua de las partes móviles, reduciendo la fricción y el desgaste.",
+          de: "Der Mechanismus enthält 16 Ölreservoirs an kritischen Lagerpunkten. Diese gewährleisten die kontinuierliche Schmierung beweglicher Teile und reduzieren Reibung und Verschleiß.",
+          nl: "Het mechanisme bevat 16 oliereservoirs op kritieke lagerpunten. Deze zorgen voor continue smering van bewegende delen, wat wrijving en slijtage vermindert."
+        }
+      },
+      {
+        question: {
+          en: "What is the temperature stability range required for accurate timekeeping?",
+          es: "¿Cuál es el rango de estabilidad de temperatura requerido para cronometraje preciso?",
+          de: "Was ist der Temperaturstabilitätsbereich, der für genaue Zeitmessung erforderlich ist?",
+          nl: "Wat is het temperatuurstabiliteitsbereik dat nodig is voor nauwkeurige tijdmeting?"
+        },
+        options: [
+          { en: "±2°C variation", es: "Variación de ±2°C", de: "±2°C Schwankung", nl: "±2°C variatie" },
+          { en: "±5°C variation", es: "Variación de ±5°C", de: "±5°C Schwankung", nl: "±5°C variatie" },
+          { en: "±10°C variation", es: "Variación de ±10°C", de: "±10°C Schwankung", nl: "±10°C variatie" },
+          { en: "±15°C variation", es: "Variación de ±15°C", de: "±15°C Schwankung", nl: "±15°C variatie" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The clock mechanism requires temperature stability within ±5°C for optimal accuracy. Larger variations are compensated by adjusting pennies on the pendulum.",
+          es: "El mecanismo del reloj requiere estabilidad de temperatura dentro de ±5°C para una precisión óptima. Las variaciones mayores se compensan ajustando monedas en el péndulo.",
+          de: "Der Uhrmechanismus erfordert Temperaturstabilität innerhalb von ±5°C für optimale Genauigkeit. Größere Schwankungen werden durch Anpassung der Pennies am Pendel ausgeglichen.",
+          nl: "Het klokmechanisme vereist temperatuurstabiliteit binnen ±5°C voor optimale nauwkeurigheid. Grotere variaties worden gecompenseerd door pennies op de slinger aan te passen."
+        }
+      },
+      {
+        question: {
+          en: "What is the maximum load capacity of the clock room floor?",
+          es: "¿Cuál es la capacidad de carga máxima del piso de la sala del reloj?",
+          de: "Was ist die maximale Tragfähigkeit des Uhrenraumbodens?",
+          nl: "Wat is de maximale draagcapaciteit van de klokenkamervloer?"
+        },
+        options: [
+          { en: "5 tonnes", es: "5 toneladas", de: "5 Tonnen", nl: "5 ton" },
+          { en: "10 tonnes", es: "10 toneladas", de: "10 Tonnen", nl: "10 ton" },
+          { en: "15 tonnes", es: "15 toneladas", de: "15 Tonnen", nl: "15 ton" },
+          { en: "20 tonnes", es: "20 toneladas", de: "20 Tonnen", nl: "20 ton" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The clock room floor is engineered to support up to 15 tonnes. This includes the weight of the mechanism, bells, and maintenance equipment.",
+          es: "El piso de la sala del reloj está diseñado para soportar hasta 15 toneladas. Esto incluye el peso del mecanismo, campanas y equipo de mantenimiento.",
+          de: "Der Uhrenraumboden ist so konstruiert, dass er bis zu 15 Tonnen trägt. Dies umfasst das Gewicht des Mechanismus, der Glocken und der Wartungsausrüstung.",
+          nl: "De klokenkamervloer is ontworpen om tot 15 ton te dragen. Dit omvat het gewicht van het mechanisme, klokken en onderhoudsapparatuur."
+        }
+      },
+      {
+        question: {
+          en: "How many maintenance personnel are regularly assigned to Big Ben?",
+          es: "¿Cuántos trabajadores de mantenimiento están asignados regularmente a Big Ben?",
+          de: "Wie viele Wartungsmitarbeiter sind regelmäßig Big Ben zugewiesen?",
+          nl: "Hoeveel onderhoudspersoneel is regelmatig toegewezen aan Big Ben?"
+        },
+        options: [
+          { en: "1 keeper", es: "1 guardián", de: "1 Wärter", nl: "1 bewaarder" },
+          { en: "2 keepers", es: "2 guardianes", de: "2 Wärter", nl: "2 bewaarders" },
+          { en: "3 keepers", es: "3 guardianes", de: "3 Wärter", nl: "3 bewaarders" },
+          { en: "5 keepers", es: "5 guardianes", de: "5 Wärter", nl: "5 bewaarders" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Three specialized clock keepers maintain Big Ben. They work in rotation to ensure 24/7 monitoring and perform all necessary adjustments and repairs.",
+          es: "Tres guardianes especializados del reloj mantienen Big Ben. Trabajan en rotación para asegurar monitoreo 24/7 y realizar todos los ajustes y reparaciones necesarias.",
+          de: "Drei spezialisierte Uhrenwärter warten Big Ben. Sie arbeiten im Wechsel, um eine 24/7-Überwachung sicherzustellen und alle notwendigen Anpassungen und Reparaturen durchzuführen.",
+          nl: "Drie gespecialiseerde klokbewaarders onderhouden Big Ben. Ze werken in rotatie om 24/7 monitoring te garanderen en alle noodzakelijke aanpassingen en reparaties uit te voeren."
+        }
+      },
+      {
+        question: {
+          en: "What is the composition of the bell metal used in Big Ben?",
+          es: "¿Cuál es la composición del metal de campana usado en Big Ben?",
+          de: "Was ist die Zusammensetzung des Glockenmetalls, das in Big Ben verwendet wird?",
+          nl: "Wat is de samenstelling van het klokmetaal dat gebruikt wordt in Big Ben?"
+        },
+        options: [
+          { en: "80% copper, 20% tin", es: "80% cobre, 20% estaño", de: "80% Kupfer, 20% Zinn", nl: "80% koper, 20% tin" },
+          { en: "77% copper, 23% tin", es: "77% cobre, 23% estaño", de: "77% Kupfer, 23% Zinn", nl: "77% koper, 23% tin" },
+          { en: "75% copper, 25% tin", es: "75% cobre, 25% estaño", de: "75% Kupfer, 25% Zinn", nl: "75% koper, 25% tin" },
+          { en: "70% copper, 30% tin", es: "70% cobre, 30% estaño", de: "70% Kupfer, 30% Zinn", nl: "70% koper, 30% tin" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Big Ben is cast from bell metal containing 77% copper and 23% tin. This precise ratio produces the optimal acoustic properties and durability.",
+          es: "Big Ben está fundido de metal de campana que contiene 77% cobre y 23% estaño. Esta proporción precisa produce las propiedades acústicas y durabilidad óptimas.",
+          de: "Big Ben ist aus Glockenmetall gegossen, das 77% Kupfer und 23% Zinn enthält. Dieses präzise Verhältnis erzeugt optimale akustische Eigenschaften und Haltbarkeit.",
+          nl: "Big Ben is gegoten uit klokmetaal met 77% koper en 23% tin. Deze precieze verhouding produceert de optimale akoestische eigenschappen en duurzaamheid."
+        }
+      },
+      {
+        question: {
+          en: "What is the clearance between the hammer and Big Ben at rest?",
+          es: "¿Cuál es la distancia entre el martillo y Big Ben en reposo?",
+          de: "Was ist der Abstand zwischen dem Hammer und Big Ben im Ruhezustand?",
+          nl: "Wat is de afstand tussen de hamer en Big Ben in rust?"
+        },
+        options: [
+          { en: "5 cm", es: "5 cm", de: "5 cm", nl: "5 cm" },
+          { en: "15 cm", es: "15 cm", de: "15 cm", nl: "15 cm" },
+          { en: "25 cm", es: "25 cm", de: "25 cm", nl: "25 cm" },
+          { en: "35 cm", es: "35 cm", de: "35 cm", nl: "35 cm" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The hammer rests 25 cm from the bell. When activated, it swings to strike the bell with controlled force, producing Big Ben's distinctive tone.",
+          es: "El martillo descansa a 25 cm de la campana. Cuando se activa, oscila para golpear la campana con fuerza controlada, produciendo el tono distintivo de Big Ben.",
+          de: "Der Hammer ruht 25 cm von der Glocke entfernt. Bei Aktivierung schwingt er, um die Glocke mit kontrollierter Kraft zu schlagen und Big Bens unverwechselbaren Ton zu erzeugen.",
+          nl: "De hamer rust 25 cm van de klok. Wanneer geactiveerd, zwaait hij om de klok met gecontroleerde kracht te raken, wat de kenmerkende toon van Big Ben produceert."
+        }
+      },
+      {
+        question: {
+          en: "What is the vibration frequency of the tower during bell strikes?",
+          es: "¿Cuál es la frecuencia de vibración de la torre durante los golpes de campana?",
+          de: "Was ist die Vibrationsfrequenz des Turms während der Glockenschläge?",
+          nl: "Wat is de trilfrekwentie van de toren tijdens klokslagen?"
+        },
+        options: [
+          { en: "0.5-2 Hz", es: "0,5-2 Hz", de: "0,5-2 Hz", nl: "0,5-2 Hz" },
+          { en: "2-5 Hz", es: "2-5 Hz", de: "2-5 Hz", nl: "2-5 Hz" },
+          { en: "5-8 Hz", es: "5-8 Hz", de: "5-8 Hz", nl: "5-8 Hz" },
+          { en: "8-12 Hz", es: "8-12 Hz", de: "8-12 Hz", nl: "8-12 Hz" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The tower vibrates at 0.5-2 Hz when the bells strike. These low-frequency vibrations are carefully monitored to ensure structural integrity.",
+          es: "La torre vibra a 0,5-2 Hz cuando las campanas suenan. Estas vibraciones de baja frecuencia se monitorean cuidadosamente para asegurar la integridad estructural.",
+          de: "Der Turm vibriert bei 0,5-2 Hz, wenn die Glocken schlagen. Diese niederfrequenten Vibrationen werden sorgfältig überwacht, um die strukturelle Integrität zu gewährleisten.",
+          nl: "De toren trilt op 0,5-2 Hz wanneer de klokken slaan. Deze laagfrequente trillingen worden zorgvuldig gecontroleerd om structurele integriteit te waarborgen."
+        }
+      },
+      {
+        question: {
+          en: "How many restoration paint layers were documented during the 2017 project?",
+          es: "¿Cuántas capas de pintura de restauración se documentaron durante el proyecto de 2017?",
+          de: "Wie viele Restaurierungsfarbschichten wurden während des Projekts 2017 dokumentiert?",
+          nl: "Hoeveel restauratie verflagen werden gedocumenteerd tijdens het project van 2017?"
+        },
+        options: [
+          { en: "8 distinct layers", es: "8 capas distintas", de: "8 verschiedene Schichten", nl: "8 verschillende lagen" },
+          { en: "14 distinct layers", es: "14 capas distintas", de: "14 verschiedene Schichten", nl: "14 verschillende lagen" },
+          { en: "22 distinct layers", es: "22 capas distintas", de: "22 verschiedene Schichten", nl: "22 verschillende lagen" },
+          { en: "30 distinct layers", es: "30 capas distintas", de: "30 verschiedene Schichten", nl: "30 verschillende lagen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Analysis revealed 14 distinct paint layers dating back to 1859. Each layer provided historical insights into maintenance practices and color schemes used over time.",
+          es: "El análisis reveló 14 capas distintas de pintura que datan de 1859. Cada capa proporcionó información histórica sobre prácticas de mantenimiento y esquemas de color usados a lo largo del tiempo.",
+          de: "Die Analyse ergab 14 verschiedene Farbschichten aus dem Jahr 1859. Jede Schicht lieferte historische Einblicke in Wartungspraktiken und im Laufe der Zeit verwendete Farbschemata.",
+          nl: "Analyse onthulde 14 verschillende verflagen die dateren uit 1859. Elke laag bood historische inzichten in onderhoudspraktijken en kleurenschema's die in de loop van de tijd werden gebruikt."
+        }
+      },
+      {
+        question: {
+          en: "What is the acoustic decay time of Big Ben's strike tone?",
+          es: "¿Cuál es el tiempo de decaimiento acústico del tono de golpe de Big Ben?",
+          de: "Was ist die akustische Abklingzeit des Schlagtons von Big Ben?",
+          nl: "Wat is de akoestische verval tijd van de slagtoon van Big Ben?"
+        },
+        options: [
+          { en: "15 seconds", es: "15 segundos", de: "15 Sekunden", nl: "15 seconden" },
+          { en: "30 seconds", es: "30 segundos", de: "30 Sekunden", nl: "30 seconden" },
+          { en: "45 seconds", es: "45 segundos", de: "45 Sekunden", nl: "45 seconden" },
+          { en: "60 seconds", es: "60 segundos", de: "60 Sekunden", nl: "60 seconden" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The bell's acoustic signature takes approximately 45 seconds to fully decay. This long resonance contributes to Big Ben's powerful, far-reaching sound.",
+          es: "La firma acústica de la campana tarda aproximadamente 45 segundos en decaer completamente. Esta larga resonancia contribuye al sonido poderoso y de largo alcance de Big Ben.",
+          de: "Die akustische Signatur der Glocke braucht etwa 45 Sekunden, um vollständig abzuklingen. Diese lange Resonanz trägt zu Big Bens kraftvollem, weitreichendem Klang bei.",
+          nl: "De akoestische signatuur van de klok duurt ongeveer 45 seconden om volledig te vervallen. Deze lange resonantie draagt bij aan het krachtige, verreikende geluid van Big Ben."
+        }
+      },
+      {
+        question: {
+          en: "What material insulates the clock mechanism room?",
+          es: "¿Qué material aísla la sala del mecanismo del reloj?",
+          de: "Welches Material isoliert den Uhrmechanismusraum?",
+          nl: "Welk materiaal isoleert de klokmechanismekamer?"
+        },
+        options: [
+          { en: "Cork panels", es: "Paneles de corcho", de: "Korkplatten", nl: "Kurkpanelen" },
+          { en: "Felt padding", es: "Acolchado de fieltro", de: "Filzpolsterung", nl: "Vilten vulling" },
+          { en: "Timber and plaster", es: "Madera y yeso", de: "Holz und Gips", nl: "Hout en pleister" },
+          { en: "Mineral wool", es: "Lana mineral", de: "Mineralwolle", nl: "Minerale wol" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Traditional timber and plaster construction provides insulation. This maintains stable temperature and reduces external vibration transmission to the sensitive mechanism.",
+          es: "La construcción tradicional de madera y yeso proporciona aislamiento. Esto mantiene temperatura estable y reduce la transmisión de vibración externa al mecanismo sensible.",
+          de: "Traditionelle Holz- und Gipskonstruktion bietet Isolierung. Dies hält stabile Temperaturen aufrecht und reduziert externe Vibrationsübertragung auf den empfindlichen Mechanismus.",
+          nl: "Traditionele hout- en pleisterconstructie biedt isolatie. Dit handhaaft stabiele temperatuur en vermindert externe trillingoverdracht naar het gevoelige mechanisme."
+        }
+      },
+      {
+        question: {
+          en: "What is the force applied by the hammer when striking Big Ben?",
+          es: "¿Cuál es la fuerza aplicada por el martillo al golpear Big Ben?",
+          de: "Welche Kraft wird vom Hammer beim Anschlagen von Big Ben ausgeübt?",
+          nl: "Wat is de kracht uitgeoefend door de hamer bij het slaan van Big Ben?"
+        },
+        options: [
+          { en: "150 kg-force", es: "150 kg-fuerza", de: "150 kg-Kraft", nl: "150 kg-kracht" },
+          { en: "200 kg-force", es: "200 kg-fuerza", de: "200 kg-Kraft", nl: "200 kg-kracht" },
+          { en: "250 kg-force", es: "250 kg-fuerza", de: "250 kg-Kraft", nl: "250 kg-kracht" },
+          { en: "300 kg-force", es: "300 kg-fuerza", de: "300 kg-Kraft", nl: "300 kg-kracht" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The hammer strikes with approximately 200 kg of force. This controlled impact generates Big Ben's distinctive tone while minimizing stress on the cracked bell.",
+          es: "El martillo golpea con aproximadamente 200 kg de fuerza. Este impacto controlado genera el tono distintivo de Big Ben mientras minimiza el estrés en la campana agrietada.",
+          de: "Der Hammer schlägt mit etwa 200 kg Kraft zu. Dieser kontrollierte Aufprall erzeugt Big Bens unverwechselbaren Ton und minimiert gleichzeitig die Belastung der gerissenen Glocke.",
+          nl: "De hamer slaat met ongeveer 200 kg kracht. Deze gecontroleerde impact genereert de kenmerkende toon van Big Ben terwijl stress op de gescheurde klok wordt geminimaliseerd."
+        }
       }
     ]
   };

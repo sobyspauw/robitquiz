@@ -426,7 +426,427 @@
           es: "La preservación excepcional de impresiones de almohadillas digitales en huellas de saurópodos revela adaptaciones biomecánicas sofisticadas incluyendo sistemas de absorción de impactos de rigidez variable que podrían adaptarse a diferentes condiciones de sustrato, revolucionando nuestra comprensión de sus capacidades locomotoras.",
           de: "Außergewöhnliche Erhaltung digitaler Polsterabdrücke in Sauropoden-Spuren zeigt ausgeklügelte biomechanische Anpassungen einschließlich variabler Steifigkeits-Stoßdämpfungssysteme, die sich an verschiedene Substratbedingungen anpassen konnten und unser Verständnis ihrer Fortbewegungsfähigkeiten revolutionieren.",
           nl: "Uitzonderlijke bewaring van digitale kussen afdrukken in sauropode sporen onthult verfijnde biomechanische aanpassingen inclusief variabele-stijfheid schok absorptie systemen die konden aanpassen aan verschillende substraat condities, wat ons begrip van hun voortbewegings capaciteiten revolutioneert."
-        }
+        }    },
+    {
+      question: {
+        en: "What is a sauropod?",
+        es: "What is a sauropod?",
+        de: "What is a sauropod?",
+        nl: "What is a sauropod?"
+      },
+      options: [
+        { en: "Long-necked herbivorous dinosaur", es: "Long-necked herbivorous dinosaur", de: "Long-necked herbivorous dinosaur", nl: "Long-necked herbivorous dinosaur" },
+        { en: "Carnivorous dinosaur", es: "Carnivorous dinosaur", de: "Carnivorous dinosaur", nl: "Carnivorous dinosaur" },
+        { en: "Flying dinosaur", es: "Flying dinosaur", de: "Flying dinosaur", nl: "Flying dinosaur" },
+        { en: "Marine reptile", es: "Marine reptile", de: "Marine reptile", nl: "Marine reptile" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Sauropods were massive herbivorous dinosaurs characterized by long necks, long tails, small heads, and four pillar-like legs.",
+        es: "Sauropods were massive herbivorous dinosaurs characterized by long necks, long tails, small heads, and four pillar-like legs.",
+        de: "Sauropods were massive herbivorous dinosaurs characterized by long necks, long tails, small heads, and four pillar-like legs.",
+        nl: "Sauropods were massive herbivorous dinosaurs characterized by long necks, long tails, small heads, and four pillar-like legs."
+      }
+    },
+    {
+      question: {
+        en: "What is the largest sauropod?",
+        es: "What is the largest sauropod?",
+        de: "What is the largest sauropod?",
+        nl: "What is the largest sauropod?"
+      },
+      options: [
+        { en: "Argentinosaurus or Patagotitan", es: "Argentinosaurus or Patagotitan", de: "Argentinosaurus or Patagotitan", nl: "Argentinosaurus or Patagotitan" },
+        { en: "Brachiosaurus", es: "Brachiosaurus", de: "Brachiosaurus", nl: "Brachiosaurus" },
+        { en: "Diplodocus", es: "Diplodocus", de: "Diplodocus", nl: "Diplodocus" },
+        { en: "Apatosaurus", es: "Apatosaurus", de: "Apatosaurus", nl: "Apatosaurus" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Argentinosaurus and Patagotitan are among the largest sauropods, possibly weighing up to 100 tons.",
+        es: "Argentinosaurus and Patagotitan are among the largest sauropods, possibly weighing up to 100 tons.",
+        de: "Argentinosaurus and Patagotitan are among the largest sauropods, possibly weighing up to 100 tons.",
+        nl: "Argentinosaurus and Patagotitan are among the largest sauropods, possibly weighing up to 100 tons."
+      }
+    },
+    {
+      question: {
+        en: "What did sauropods eat?",
+        es: "What did sauropods eat?",
+        de: "What did sauropods eat?",
+        nl: "What did sauropods eat?"
+      },
+      options: [
+        { en: "Plants", es: "Plants", de: "Plants", nl: "Plants" },
+        { en: "Meat", es: "Meat", de: "Meat", nl: "Meat" },
+        { en: "Fish", es: "Fish", de: "Fish", nl: "Fish" },
+        { en: "Insects", es: "Insects", de: "Insects", nl: "Insects" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "All sauropods were herbivores that fed on plants, particularly high vegetation.",
+        es: "All sauropods were herbivores that fed on plants, particularly high vegetation.",
+        de: "All sauropods were herbivores that fed on plants, particularly high vegetation.",
+        nl: "All sauropods were herbivores that fed on plants, particularly high vegetation."
+      }
+    },
+    {
+      question: {
+        en: "What is Brachiosaurus known for?",
+        es: "What is Brachiosaurus known for?",
+        de: "What is Brachiosaurus known for?",
+        nl: "What is Brachiosaurus known for?"
+      },
+      options: [
+        { en: "Front legs longer than rear legs", es: "Front legs longer than rear legs", de: "Front legs longer than rear legs", nl: "Front legs longer than rear legs" },
+        { en: "Longest tail", es: "Longest tail", de: "Longest tail", nl: "Longest tail" },
+        { en: "Smallest sauropod", es: "Smallest sauropod", de: "Smallest sauropod", nl: "Smallest sauropod" },
+        { en: "Fastest sauropod", es: "Fastest sauropod", de: "Fastest sauropod", nl: "Fastest sauropod" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Brachiosaurus had unusually long front legs, making its back slope downward from shoulders to hips.",
+        es: "Brachiosaurus had unusually long front legs, making its back slope downward from shoulders to hips.",
+        de: "Brachiosaurus had unusually long front legs, making its back slope downward from shoulders to hips.",
+        nl: "Brachiosaurus had unusually long front legs, making its back slope downward from shoulders to hips."
+      }
+    },
+    {
+      question: {
+        en: "What is Diplodocus?",
+        es: "What is Diplodocus?",
+        de: "What is Diplodocus?",
+        nl: "What is Diplodocus?"
+      },
+      options: [
+        { en: "Long sauropod with whip-like tail", es: "Long sauropod with whip-like tail", de: "Long sauropod with whip-like tail", nl: "Long sauropod with whip-like tail" },
+        { en: "Short-necked sauropod", es: "Short-necked sauropod", de: "Short-necked sauropod", nl: "Short-necked sauropod" },
+        { en: "Carnivorous dinosaur", es: "Carnivorous dinosaur", de: "Carnivorous dinosaur", nl: "Carnivorous dinosaur" },
+        { en: "Flying dinosaur", es: "Flying dinosaur", de: "Flying dinosaur", nl: "Flying dinosaur" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Diplodocus was one of the longest dinosaurs, with an extremely long whip-like tail.",
+        es: "Diplodocus was one of the longest dinosaurs, with an extremely long whip-like tail.",
+        de: "Diplodocus was one of the longest dinosaurs, with an extremely long whip-like tail.",
+        nl: "Diplodocus was one of the longest dinosaurs, with an extremely long whip-like tail."
+      }
+    },
+    {
+      question: {
+        en: "How did sauropods support their massive weight?",
+        es: "How did sauropods support their massive weight?",
+        de: "How did sauropods support their massive weight?",
+        nl: "How did sauropods support their massive weight?"
+      },
+      options: [
+        { en: "Hollow bones and efficient body structure", es: "Hollow bones and efficient body structure", de: "Hollow bones and efficient body structure", nl: "Hollow bones and efficient body structure" },
+        { en: "Dense solid bones", es: "Dense solid bones", de: "Dense solid bones", nl: "Dense solid bones" },
+        { en: "Living in water", es: "Living in water", de: "Living in water", nl: "Living in water" },
+        { en: "Extra legs", es: "Extra legs", de: "Extra legs", nl: "Extra legs" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Sauropods had hollow bones filled with air sacs, reducing weight while maintaining strength.",
+        es: "Sauropods had hollow bones filled with air sacs, reducing weight while maintaining strength.",
+        de: "Sauropods had hollow bones filled with air sacs, reducing weight while maintaining strength.",
+        nl: "Sauropods had hollow bones filled with air sacs, reducing weight while maintaining strength."
+      }
+    },
+    {
+      question: {
+        en: "What is the longest sauropod?",
+        es: "What is the longest sauropod?",
+        de: "What is the longest sauropod?",
+        nl: "What is the longest sauropod?"
+      },
+      options: [
+        { en: "Supersaurus or Diplodocus", es: "Supersaurus or Diplodocus", de: "Supersaurus or Diplodocus", nl: "Supersaurus or Diplodocus" },
+        { en: "Brachiosaurus", es: "Brachiosaurus", de: "Brachiosaurus", nl: "Brachiosaurus" },
+        { en: "Argentinosaurus", es: "Argentinosaurus", de: "Argentinosaurus", nl: "Argentinosaurus" },
+        { en: "Camarasaurus", es: "Camarasaurus", de: "Camarasaurus", nl: "Camarasaurus" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Supersaurus and Diplodocus were among the longest dinosaurs, up to 110 feet long.",
+        es: "Supersaurus and Diplodocus were among the longest dinosaurs, up to 110 feet long.",
+        de: "Supersaurus and Diplodocus were among the longest dinosaurs, up to 110 feet long.",
+        nl: "Supersaurus and Diplodocus were among the longest dinosaurs, up to 110 feet long."
+      }
+    },
+    {
+      question: {
+        en: "What were sauropod teeth like?",
+        es: "What were sauropod teeth like?",
+        de: "What were sauropod teeth like?",
+        nl: "What were sauropod teeth like?"
+      },
+      options: [
+        { en: "Peg-like or spoon-shaped for stripping leaves", es: "Peg-like or spoon-shaped for stripping leaves", de: "Peg-like or spoon-shaped for stripping leaves", nl: "Peg-like or spoon-shaped for stripping leaves" },
+        { en: "Sharp for meat", es: "Sharp for meat", de: "Sharp for meat", nl: "Sharp for meat" },
+        { en: "Flat for grinding", es: "Flat for grinding", de: "Flat for grinding", nl: "Flat for grinding" },
+        { en: "No teeth", es: "No teeth", de: "No teeth", nl: "No teeth" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Most sauropods had simple peg-like or spoon-shaped teeth for stripping leaves, not for chewing.",
+        es: "Most sauropods had simple peg-like or spoon-shaped teeth for stripping leaves, not for chewing.",
+        de: "Most sauropods had simple peg-like or spoon-shaped teeth for stripping leaves, not for chewing.",
+        nl: "Most sauropods had simple peg-like or spoon-shaped teeth for stripping leaves, not for chewing."
+      }
+    },
+    {
+      question: {
+        en: "What is Apatosaurus?",
+        es: "What is Apatosaurus?",
+        de: "What is Apatosaurus?",
+        nl: "What is Apatosaurus?"
+      },
+      options: [
+        { en: "Large Jurassic sauropod", es: "Large Jurassic sauropod", de: "Large Jurassic sauropod", nl: "Large Jurassic sauropod" },
+        { en: "Cretaceous carnivore", es: "Cretaceous carnivore", de: "Cretaceous carnivore", nl: "Cretaceous carnivore" },
+        { en: "Small dinosaur", es: "Small dinosaur", de: "Small dinosaur", nl: "Small dinosaur" },
+        { en: "Flying reptile", es: "Flying reptile", de: "Flying reptile", nl: "Flying reptile" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Apatosaurus (once called Brontosaurus) was a large Jurassic sauropod up to 75 feet long.",
+        es: "Apatosaurus (once called Brontosaurus) was a large Jurassic sauropod up to 75 feet long.",
+        de: "Apatosaurus (once called Brontosaurus) was a large Jurassic sauropod up to 75 feet long.",
+        nl: "Apatosaurus (once called Brontosaurus) was a large Jurassic sauropod up to 75 feet long."
+      }
+    },
+    {
+      question: {
+        en: "Did sauropods chew their food?",
+        es: "Did sauropods chew their food?",
+        de: "Did sauropods chew their food?",
+        nl: "Did sauropods chew their food?"
+      },
+      options: [
+        { en: "No, they swallowed it whole", es: "No, they swallowed it whole", de: "No, they swallowed it whole", nl: "No, they swallowed it whole" },
+        { en: "Yes, extensively", es: "Yes, extensively", de: "Yes, extensively", nl: "Yes, extensively" },
+        { en: "Sometimes", es: "Sometimes", de: "Sometimes", nl: "Sometimes" },
+        { en: "Unknown", es: "Unknown", de: "Unknown", nl: "Unknown" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Sauropods didn't chew; they swallowed vegetation whole, using stomach stones (gastroliths) to help grind food.",
+        es: "Sauropods didn't chew; they swallowed vegetation whole, using stomach stones (gastroliths) to help grind food.",
+        de: "Sauropods didn't chew; they swallowed vegetation whole, using stomach stones (gastroliths) to help grind food.",
+        nl: "Sauropods didn't chew; they swallowed vegetation whole, using stomach stones (gastroliths) to help grind food."
+      }
+    },
+    {
+      question: {
+        en: "What is Titanosaur?",
+        es: "What is Titanosaur?",
+        de: "What is Titanosaur?",
+        nl: "What is Titanosaur?"
+      },
+      options: [
+        { en: "Group of sauropods including the largest dinosaurs", es: "Group of sauropods including the largest dinosaurs", de: "Group of sauropods including the largest dinosaurs", nl: "Group of sauropods including the largest dinosaurs" },
+        { en: "Single dinosaur species", es: "Single dinosaur species", de: "Single dinosaur species", nl: "Single dinosaur species" },
+        { en: "Carnivorous dinosaur", es: "Carnivorous dinosaur", de: "Carnivorous dinosaur", nl: "Carnivorous dinosaur" },
+        { en: "Flying dinosaur", es: "Flying dinosaur", de: "Flying dinosaur", nl: "Flying dinosaur" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Titanosaurs were a diverse group of sauropods that included some of the largest dinosaurs ever.",
+        es: "Titanosaurs were a diverse group of sauropods that included some of the largest dinosaurs ever.",
+        de: "Titanosaurs were a diverse group of sauropods that included some of the largest dinosaurs ever.",
+        nl: "Titanosaurs were a diverse group of sauropods that included some of the largest dinosaurs ever."
+      }
+    },
+    {
+      question: {
+        en: "How long was a typical sauropod neck?",
+        es: "How long was a typical sauropod neck?",
+        de: "How long was a typical sauropod neck?",
+        nl: "How long was a typical sauropod neck?"
+      },
+      options: [
+        { en: "20-40 feet on average for large species", es: "20-40 feet on average for large species", de: "20-40 feet on average for large species", nl: "20-40 feet on average for large species" },
+        { en: "5 feet", es: "5 feet", de: "5 feet", nl: "5 feet" },
+        { en: "100 feet", es: "100 feet", de: "100 feet", nl: "100 feet" },
+        { en: "10 feet", es: "10 feet", de: "10 feet", nl: "10 feet" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Large sauropods typically had necks 20-40 feet long, allowing them to reach high vegetation.",
+        es: "Large sauropods typically had necks 20-40 feet long, allowing them to reach high vegetation.",
+        de: "Large sauropods typically had necks 20-40 feet long, allowing them to reach high vegetation.",
+        nl: "Large sauropods typically had necks 20-40 feet long, allowing them to reach high vegetation."
+      }
+    },
+    {
+      question: {
+        en: "What is Camarasaurus?",
+        es: "What is Camarasaurus?",
+        de: "What is Camarasaurus?",
+        nl: "What is Camarasaurus?"
+      },
+      options: [
+        { en: "Common Jurassic North American sauropod", es: "Common Jurassic North American sauropod", de: "Common Jurassic North American sauropod", nl: "Common Jurassic North American sauropod" },
+        { en: "Rare sauropod", es: "Rare sauropod", de: "Rare sauropod", nl: "Rare sauropod" },
+        { en: "Carnivorous dinosaur", es: "Carnivorous dinosaur", de: "Carnivorous dinosaur", nl: "Carnivorous dinosaur" },
+        { en: "Marine reptile", es: "Marine reptile", de: "Marine reptile", nl: "Marine reptile" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Camarasaurus was one of the most common sauropods in Late Jurassic North America.",
+        es: "Camarasaurus was one of the most common sauropods in Late Jurassic North America.",
+        de: "Camarasaurus was one of the most common sauropods in Late Jurassic North America.",
+        nl: "Camarasaurus was one of the most common sauropods in Late Jurassic North America."
+      }
+    },
+    {
+      question: {
+        en: "What are gastroliths?",
+        es: "What are gastroliths?",
+        de: "What are gastroliths?",
+        nl: "What are gastroliths?"
+      },
+      options: [
+        { en: "Stomach stones swallowed to grind food", es: "Stomach stones swallowed to grind food", de: "Stomach stones swallowed to grind food", nl: "Stomach stones swallowed to grind food" },
+        { en: "Fossils", es: "Fossils", de: "Fossils", nl: "Fossils" },
+        { en: "Teeth", es: "Teeth", de: "Teeth", nl: "Teeth" },
+        { en: "Bones", es: "Bones", de: "Bones", nl: "Bones" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Gastroliths are stones swallowed by sauropods to help grind plant material in their stomachs.",
+        es: "Gastroliths are stones swallowed by sauropods to help grind plant material in their stomachs.",
+        de: "Gastroliths are stones swallowed by sauropods to help grind plant material in their stomachs.",
+        nl: "Gastroliths are stones swallowed by sauropods to help grind plant material in their stomachs."
+      }
+    },
+    {
+      question: {
+        en: "What is Mamenchisaurus?",
+        es: "What is Mamenchisaurus?",
+        de: "What is Mamenchisaurus?",
+        nl: "What is Mamenchisaurus?"
+      },
+      options: [
+        { en: "Chinese sauropod with extremely long neck", es: "Chinese sauropod with extremely long neck", de: "Chinese sauropod with extremely long neck", nl: "Chinese sauropod with extremely long neck" },
+        { en: "Short-necked sauropod", es: "Short-necked sauropod", de: "Short-necked sauropod", nl: "Short-necked sauropod" },
+        { en: "American sauropod", es: "American sauropod", de: "American sauropod", nl: "American sauropod" },
+        { en: "Carnivorous dinosaur", es: "Carnivorous dinosaur", de: "Carnivorous dinosaur", nl: "Carnivorous dinosaur" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Mamenchisaurus was a Chinese sauropod with one of the longest necks, up to 46 feet.",
+        es: "Mamenchisaurus was a Chinese sauropod with one of the longest necks, up to 46 feet.",
+        de: "Mamenchisaurus was a Chinese sauropod with one of the longest necks, up to 46 feet.",
+        nl: "Mamenchisaurus was a Chinese sauropod with one of the longest necks, up to 46 feet."
+      }
+    },
+    {
+      question: {
+        en: "How much did large sauropods weigh?",
+        es: "How much did large sauropods weigh?",
+        de: "How much did large sauropods weigh?",
+        nl: "How much did large sauropods weigh?"
+      },
+      options: [
+        { en: "50-100 tons", es: "50-100 tons", de: "50-100 tons", nl: "50-100 tons" },
+        { en: "1-5 tons", es: "1-5 tons", de: "1-5 tons", nl: "1-5 tons" },
+        { en: "200-300 tons", es: "200-300 tons", de: "200-300 tons", nl: "200-300 tons" },
+        { en: "10-20 tons", es: "10-20 tons", de: "10-20 tons", nl: "10-20 tons" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The largest sauropods weighed between 50-100 tons, making them the heaviest land animals ever.",
+        es: "The largest sauropods weighed between 50-100 tons, making them the heaviest land animals ever.",
+        de: "The largest sauropods weighed between 50-100 tons, making them the heaviest land animals ever.",
+        nl: "The largest sauropods weighed between 50-100 tons, making them the heaviest land animals ever."
+      }
+    },
+    {
+      question: {
+        en: "What is Saltasaurus?",
+        es: "What is Saltasaurus?",
+        de: "What is Saltasaurus?",
+        nl: "What is Saltasaurus?"
+      },
+      options: [
+        { en: "Armored sauropod with bony plates", es: "Armored sauropod with bony plates", de: "Armored sauropod with bony plates", nl: "Armored sauropod with bony plates" },
+        { en: "Carnivorous dinosaur", es: "Carnivorous dinosaur", de: "Carnivorous dinosaur", nl: "Carnivorous dinosaur" },
+        { en: "Flying dinosaur", es: "Flying dinosaur", de: "Flying dinosaur", nl: "Flying dinosaur" },
+        { en: "Marine reptile", es: "Marine reptile", de: "Marine reptile", nl: "Marine reptile" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Saltasaurus was unusual among sauropods in having bony armor plates embedded in its skin.",
+        es: "Saltasaurus was unusual among sauropods in having bony armor plates embedded in its skin.",
+        de: "Saltasaurus was unusual among sauropods in having bony armor plates embedded in its skin.",
+        nl: "Saltasaurus was unusual among sauropods in having bony armor plates embedded in its skin."
+      }
+    },
+    {
+      question: {
+        en: "Did sauropods live in herds?",
+        es: "Did sauropods live in herds?",
+        de: "Did sauropods live in herds?",
+        nl: "Did sauropods live in herds?"
+      },
+      options: [
+        { en: "Likely yes, based on trackways", es: "Likely yes, based on trackways", de: "Likely yes, based on trackways", nl: "Likely yes, based on trackways" },
+        { en: "No, solitary only", es: "No, solitary only", de: "No, solitary only", nl: "No, solitary only" },
+        { en: "Unknown", es: "Unknown", de: "Unknown", nl: "Unknown" },
+        { en: "Only when young", es: "Only when young", de: "Only when young", nl: "Only when young" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Fossil trackways suggest sauropods traveled in herds, with young in the center for protection.",
+        es: "Fossil trackways suggest sauropods traveled in herds, with young in the center for protection.",
+        de: "Fossil trackways suggest sauropods traveled in herds, with young in the center for protection.",
+        nl: "Fossil trackways suggest sauropods traveled in herds, with young in the center for protection."
+      }
+    },
+    {
+      question: {
+        en: "What posture did sauropods have?",
+        es: "What posture did sauropods have?",
+        de: "What posture did sauropods have?",
+        nl: "What posture did sauropods have?"
+      },
+      options: [
+        { en: "Quadrupedal with horizontal neck", es: "Quadrupedal with horizontal neck", de: "Quadrupedal with horizontal neck", nl: "Quadrupedal with horizontal neck" },
+        { en: "Bipedal", es: "Bipedal", de: "Bipedal", nl: "Bipedal" },
+        { en: "Vertical neck always", es: "Vertical neck always", de: "Vertical neck always", nl: "Vertical neck always" },
+        { en: "Lying down", es: "Lying down", de: "Lying down", nl: "Lying down" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Sauropods walked on four legs with their necks held mostly horizontal, though they could raise them.",
+        es: "Sauropods walked on four legs with their necks held mostly horizontal, though they could raise them.",
+        de: "Sauropods walked on four legs with their necks held mostly horizontal, though they could raise them.",
+        nl: "Sauropods walked on four legs with their necks held mostly horizontal, though they could raise them."
+      }
+    },
+    {
+      question: {
+        en: "What period did most sauropods live in?",
+        es: "What period did most sauropods live in?",
+        de: "What period did most sauropods live in?",
+        nl: "What period did most sauropods live in?"
+      },
+      options: [
+        { en: "Jurassic and Cretaceous", es: "Jurassic and Cretaceous", de: "Jurassic and Cretaceous", nl: "Jurassic and Cretaceous" },
+        { en: "Triassic only", es: "Triassic only", de: "Triassic only", nl: "Triassic only" },
+        { en: "Permian", es: "Permian", de: "Permian", nl: "Permian" },
+        { en: "Cenozoic", es: "Cenozoic", de: "Cenozoic", nl: "Cenozoic" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Sauropods were most diverse during the Jurassic and Cretaceous Periods.",
+        es: "Sauropods were most diverse during the Jurassic and Cretaceous Periods.",
+        de: "Sauropods were most diverse during the Jurassic and Cretaceous Periods.",
+        nl: "Sauropods were most diverse during the Jurassic and Cretaceous Periods."
+      }
+
       }
     ]
   };

@@ -426,7 +426,427 @@
           es: "El ámbar jurásico preserva detalles extraordinarios de comunidades de artrópodos contemporáneos, revelando redes ecológicas complejas incluyendo relaciones tempranas polinizador-planta que apoyaron la base alimentaria de dinosaurios.",
           de: "Jura-Bernstein konserviert außergewöhnliche Details zeitgenössischer Arthropoden-Gemeinschaften und enthüllt komplexe ökologische Netze einschließlich früher Bestäuber-Pflanzen-Beziehungen, die die Dinosaurier-Nahrungsgrundlage unterstützten.",
           nl: "Jura barnsteen bewaart buitengewone details van eigentijdse artropode gemeenschappen, onthullend complexe ecologische netwerken inclusief vroege bestuiver-plant relaties die de dinosaurus voedselbasis ondersteunden."
-        }
+        }    },
+    {
+      question: {
+        en: "What period did Jurassic dinosaurs live in?",
+        es: "What period did Jurassic dinosaurs live in?",
+        de: "What period did Jurassic dinosaurs live in?",
+        nl: "What period did Jurassic dinosaurs live in?"
+      },
+      options: [
+        { en: "Jurassic Period", es: "Jurassic Period", de: "Jurassic Period", nl: "Jurassic Period" },
+        { en: "Cretaceous Period", es: "Cretaceous Period", de: "Cretaceous Period", nl: "Cretaceous Period" },
+        { en: "Triassic Period", es: "Triassic Period", de: "Triassic Period", nl: "Triassic Period" },
+        { en: "Permian Period", es: "Permian Period", de: "Permian Period", nl: "Permian Period" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Jurassic dinosaurs lived during the Jurassic Period, from about 201 to 145 million years ago.",
+        es: "Jurassic dinosaurs lived during the Jurassic Period, from about 201 to 145 million years ago.",
+        de: "Jurassic dinosaurs lived during the Jurassic Period, from about 201 to 145 million years ago.",
+        nl: "Jurassic dinosaurs lived during the Jurassic Period, from about 201 to 145 million years ago."
+      }
+    },
+    {
+      question: {
+        en: "What famous dinosaur is from the Jurassic?",
+        es: "What famous dinosaur is from the Jurassic?",
+        de: "What famous dinosaur is from the Jurassic?",
+        nl: "What famous dinosaur is from the Jurassic?"
+      },
+      options: [
+        { en: "Stegosaurus", es: "Stegosaurus", de: "Stegosaurus", nl: "Stegosaurus" },
+        { en: "Tyrannosaurus Rex", es: "Tyrannosaurus Rex", de: "Tyrannosaurus Rex", nl: "Tyrannosaurus Rex" },
+        { en: "Triceratops", es: "Triceratops", de: "Triceratops", nl: "Triceratops" },
+        { en: "Velociraptor", es: "Velociraptor", de: "Velociraptor", nl: "Velociraptor" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Stegosaurus is one of the most iconic Jurassic dinosaurs, with distinctive plates on its back.",
+        es: "Stegosaurus is one of the most iconic Jurassic dinosaurs, with distinctive plates on its back.",
+        de: "Stegosaurus is one of the most iconic Jurassic dinosaurs, with distinctive plates on its back.",
+        nl: "Stegosaurus is one of the most iconic Jurassic dinosaurs, with distinctive plates on its back."
+      }
+    },
+    {
+      question: {
+        en: "What was the climate like in the Jurassic?",
+        es: "What was the climate like in the Jurassic?",
+        de: "What was the climate like in the Jurassic?",
+        nl: "What was the climate like in the Jurassic?"
+      },
+      options: [
+        { en: "Warm and humid", es: "Warm and humid", de: "Warm and humid", nl: "Warm and humid" },
+        { en: "Cold and dry", es: "Cold and dry", de: "Cold and dry", nl: "Cold and dry" },
+        { en: "Frozen", es: "Frozen", de: "Frozen", nl: "Frozen" },
+        { en: "Desert-like", es: "Desert-like", de: "Desert-like", nl: "Desert-like" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Jurassic Period had a warm, humid climate with lush vegetation.",
+        es: "The Jurassic Period had a warm, humid climate with lush vegetation.",
+        de: "The Jurassic Period had a warm, humid climate with lush vegetation.",
+        nl: "The Jurassic Period had a warm, humid climate with lush vegetation."
+      }
+    },
+    {
+      question: {
+        en: "Which giant sauropod lived in the Jurassic?",
+        es: "Which giant sauropod lived in the Jurassic?",
+        de: "Which giant sauropod lived in the Jurassic?",
+        nl: "Which giant sauropod lived in the Jurassic?"
+      },
+      options: [
+        { en: "Brachiosaurus", es: "Brachiosaurus", de: "Brachiosaurus", nl: "Brachiosaurus" },
+        { en: "Tyrannosaurus", es: "Tyrannosaurus", de: "Tyrannosaurus", nl: "Tyrannosaurus" },
+        { en: "Triceratops", es: "Triceratops", de: "Triceratops", nl: "Triceratops" },
+        { en: "Velociraptor", es: "Velociraptor", de: "Velociraptor", nl: "Velociraptor" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Brachiosaurus was a massive Jurassic sauropod with a long neck and front legs longer than rear legs.",
+        es: "Brachiosaurus was a massive Jurassic sauropod with a long neck and front legs longer than rear legs.",
+        de: "Brachiosaurus was a massive Jurassic sauropod with a long neck and front legs longer than rear legs.",
+        nl: "Brachiosaurus was a massive Jurassic sauropod with a long neck and front legs longer than rear legs."
+      }
+    },
+    {
+      question: {
+        en: "What is Allosaurus?",
+        es: "What is Allosaurus?",
+        de: "What is Allosaurus?",
+        nl: "What is Allosaurus?"
+      },
+      options: [
+        { en: "Large Jurassic predator", es: "Large Jurassic predator", de: "Large Jurassic predator", nl: "Large Jurassic predator" },
+        { en: "Herbivore", es: "Herbivore", de: "Herbivore", nl: "Herbivore" },
+        { en: "Flying reptile", es: "Flying reptile", de: "Flying reptile", nl: "Flying reptile" },
+        { en: "Marine reptile", es: "Marine reptile", de: "Marine reptile", nl: "Marine reptile" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Allosaurus was the apex predator of the Late Jurassic, up to 28 feet long.",
+        es: "Allosaurus was the apex predator of the Late Jurassic, up to 28 feet long.",
+        de: "Allosaurus was the apex predator of the Late Jurassic, up to 28 feet long.",
+        nl: "Allosaurus was the apex predator of the Late Jurassic, up to 28 feet long."
+      }
+    },
+    {
+      question: {
+        en: "What supercontinent was breaking apart in the Jurassic?",
+        es: "What supercontinent was breaking apart in the Jurassic?",
+        de: "What supercontinent was breaking apart in the Jurassic?",
+        nl: "What supercontinent was breaking apart in the Jurassic?"
+      },
+      options: [
+        { en: "Pangaea", es: "Pangaea", de: "Pangaea", nl: "Pangaea" },
+        { en: "Rodinia", es: "Rodinia", de: "Rodinia", nl: "Rodinia" },
+        { en: "Gondwana only", es: "Gondwana only", de: "Gondwana only", nl: "Gondwana only" },
+        { en: "None", es: "None", de: "None", nl: "None" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The supercontinent Pangaea began breaking apart during the Jurassic Period.",
+        es: "The supercontinent Pangaea began breaking apart during the Jurassic Period.",
+        de: "The supercontinent Pangaea began breaking apart during the Jurassic Period.",
+        nl: "The supercontinent Pangaea began breaking apart during the Jurassic Period."
+      }
+    },
+    {
+      question: {
+        en: "What is the Morrison Formation?",
+        es: "What is the Morrison Formation?",
+        de: "What is the Morrison Formation?",
+        nl: "What is the Morrison Formation?"
+      },
+      options: [
+        { en: "Rock layer rich in Jurassic fossils", es: "Rock layer rich in Jurassic fossils", de: "Rock layer rich in Jurassic fossils", nl: "Rock layer rich in Jurassic fossils" },
+        { en: "Mountain range", es: "Mountain range", de: "Mountain range", nl: "Mountain range" },
+        { en: "Ocean", es: "Ocean", de: "Ocean", nl: "Ocean" },
+        { en: "Desert", es: "Desert", de: "Desert", nl: "Desert" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Morrison Formation is a Late Jurassic rock layer in western North America famous for abundant dinosaur fossils.",
+        es: "The Morrison Formation is a Late Jurassic rock layer in western North America famous for abundant dinosaur fossils.",
+        de: "The Morrison Formation is a Late Jurassic rock layer in western North America famous for abundant dinosaur fossils.",
+        nl: "The Morrison Formation is a Late Jurassic rock layer in western North America famous for abundant dinosaur fossils."
+      }
+    },
+    {
+      question: {
+        en: "What dinosaur had plates on its back?",
+        es: "What dinosaur had plates on its back?",
+        de: "What dinosaur had plates on its back?",
+        nl: "What dinosaur had plates on its back?"
+      },
+      options: [
+        { en: "Stegosaurus", es: "Stegosaurus", de: "Stegosaurus", nl: "Stegosaurus" },
+        { en: "Allosaurus", es: "Allosaurus", de: "Allosaurus", nl: "Allosaurus" },
+        { en: "Brachiosaurus", es: "Brachiosaurus", de: "Brachiosaurus", nl: "Brachiosaurus" },
+        { en: "Diplodocus", es: "Diplodocus", de: "Diplodocus", nl: "Diplodocus" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Stegosaurus had two rows of large bony plates running down its back.",
+        es: "Stegosaurus had two rows of large bony plates running down its back.",
+        de: "Stegosaurus had two rows of large bony plates running down its back.",
+        nl: "Stegosaurus had two rows of large bony plates running down its back."
+      }
+    },
+    {
+      question: {
+        en: "What is Diplodocus known for?",
+        es: "What is Diplodocus known for?",
+        de: "What is Diplodocus known for?",
+        nl: "What is Diplodocus known for?"
+      },
+      options: [
+        { en: "Extremely long whip-like tail", es: "Extremely long whip-like tail", de: "Extremely long whip-like tail", nl: "Extremely long whip-like tail" },
+        { en: "Large plates", es: "Large plates", de: "Large plates", nl: "Large plates" },
+        { en: "Sharp teeth", es: "Sharp teeth", de: "Sharp teeth", nl: "Sharp teeth" },
+        { en: "Flying ability", es: "Flying ability", de: "Flying ability", nl: "Flying ability" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Diplodocus had one of the longest tails of any dinosaur, used possibly as a whip for defense.",
+        es: "Diplodocus had one of the longest tails of any dinosaur, used possibly as a whip for defense.",
+        de: "Diplodocus had one of the longest tails of any dinosaur, used possibly as a whip for defense.",
+        nl: "Diplodocus had one of the longest tails of any dinosaur, used possibly as a whip for defense."
+      }
+    },
+    {
+      question: {
+        en: "What was the dominant predator of the Jurassic?",
+        es: "What was the dominant predator of the Jurassic?",
+        de: "What was the dominant predator of the Jurassic?",
+        nl: "What was the dominant predator of the Jurassic?"
+      },
+      options: [
+        { en: "Allosaurus", es: "Allosaurus", de: "Allosaurus", nl: "Allosaurus" },
+        { en: "T-Rex", es: "T-Rex", de: "T-Rex", nl: "T-Rex" },
+        { en: "Spinosaurus", es: "Spinosaurus", de: "Spinosaurus", nl: "Spinosaurus" },
+        { en: "Velociraptor", es: "Velociraptor", de: "Velociraptor", nl: "Velociraptor" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Allosaurus was the dominant large predator during the Late Jurassic Period.",
+        es: "Allosaurus was the dominant large predator during the Late Jurassic Period.",
+        de: "Allosaurus was the dominant large predator during the Late Jurassic Period.",
+        nl: "Allosaurus was the dominant large predator during the Late Jurassic Period."
+      }
+    },
+    {
+      question: {
+        en: "What is Archaeopteryx?",
+        es: "What is Archaeopteryx?",
+        de: "What is Archaeopteryx?",
+        nl: "What is Archaeopteryx?"
+      },
+      options: [
+        { en: "Earliest known bird from Late Jurassic", es: "Earliest known bird from Late Jurassic", de: "Earliest known bird from Late Jurassic", nl: "Earliest known bird from Late Jurassic" },
+        { en: "Flying dinosaur", es: "Flying dinosaur", de: "Flying dinosaur", nl: "Flying dinosaur" },
+        { en: "Marine reptile", es: "Marine reptile", de: "Marine reptile", nl: "Marine reptile" },
+        { en: "Mammal", es: "Mammal", de: "Mammal", nl: "Mammal" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Archaeopteryx is considered the earliest known bird, showing both bird and dinosaur features.",
+        es: "Archaeopteryx is considered the earliest known bird, showing both bird and dinosaur features.",
+        de: "Archaeopteryx is considered the earliest known bird, showing both bird and dinosaur features.",
+        nl: "Archaeopteryx is considered the earliest known bird, showing both bird and dinosaur features."
+      }
+    },
+    {
+      question: {
+        en: "How long was the Jurassic Period?",
+        es: "How long was the Jurassic Period?",
+        de: "How long was the Jurassic Period?",
+        nl: "How long was the Jurassic Period?"
+      },
+      options: [
+        { en: "About 56 million years", es: "About 56 million years", de: "About 56 million years", nl: "About 56 million years" },
+        { en: "About 100 million years", es: "About 100 million years", de: "About 100 million years", nl: "About 100 million years" },
+        { en: "About 30 million years", es: "About 30 million years", de: "About 30 million years", nl: "About 30 million years" },
+        { en: "About 80 million years", es: "About 80 million years", de: "About 80 million years", nl: "About 80 million years" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Jurassic Period lasted approximately 56 million years, from 201 to 145 million years ago.",
+        es: "The Jurassic Period lasted approximately 56 million years, from 201 to 145 million years ago.",
+        de: "The Jurassic Period lasted approximately 56 million years, from 201 to 145 million years ago.",
+        nl: "The Jurassic Period lasted approximately 56 million years, from 201 to 145 million years ago."
+      }
+    },
+    {
+      question: {
+        en: "What ocean was forming during the Jurassic?",
+        es: "What ocean was forming during the Jurassic?",
+        de: "What ocean was forming during the Jurassic?",
+        nl: "What ocean was forming during the Jurassic?"
+      },
+      options: [
+        { en: "Atlantic Ocean", es: "Atlantic Ocean", de: "Atlantic Ocean", nl: "Atlantic Ocean" },
+        { en: "Pacific Ocean", es: "Pacific Ocean", de: "Pacific Ocean", nl: "Pacific Ocean" },
+        { en: "Indian Ocean", es: "Indian Ocean", de: "Indian Ocean", nl: "Indian Ocean" },
+        { en: "Arctic Ocean", es: "Arctic Ocean", de: "Arctic Ocean", nl: "Arctic Ocean" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Atlantic Ocean began forming as Pangaea split apart during the Jurassic.",
+        es: "The Atlantic Ocean began forming as Pangaea split apart during the Jurassic.",
+        de: "The Atlantic Ocean began forming as Pangaea split apart during the Jurassic.",
+        nl: "The Atlantic Ocean began forming as Pangaea split apart during the Jurassic."
+      }
+    },
+    {
+      question: {
+        en: "What is Compsognathus?",
+        es: "What is Compsognathus?",
+        de: "What is Compsognathus?",
+        nl: "What is Compsognathus?"
+      },
+      options: [
+        { en: "Small chicken-sized carnivore", es: "Small chicken-sized carnivore", de: "Small chicken-sized carnivore", nl: "Small chicken-sized carnivore" },
+        { en: "Large predator", es: "Large predator", de: "Large predator", nl: "Large predator" },
+        { en: "Giant herbivore", es: "Giant herbivore", de: "Giant herbivore", nl: "Giant herbivore" },
+        { en: "Flying dinosaur", es: "Flying dinosaur", de: "Flying dinosaur", nl: "Flying dinosaur" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Compsognathus was one of the smallest known dinosaurs, about the size of a chicken.",
+        es: "Compsognathus was one of the smallest known dinosaurs, about the size of a chicken.",
+        de: "Compsognathus was one of the smallest known dinosaurs, about the size of a chicken.",
+        nl: "Compsognathus was one of the smallest known dinosaurs, about the size of a chicken."
+      }
+    },
+    {
+      question: {
+        en: "What pterosaur lived in the Jurassic?",
+        es: "What pterosaur lived in the Jurassic?",
+        de: "What pterosaur lived in the Jurassic?",
+        nl: "What pterosaur lived in the Jurassic?"
+      },
+      options: [
+        { en: "Pterodactylus", es: "Pterodactylus", de: "Pterodactylus", nl: "Pterodactylus" },
+        { en: "Pteranodon", es: "Pteranodon", de: "Pteranodon", nl: "Pteranodon" },
+        { en: "Quetzalcoatlus", es: "Quetzalcoatlus", de: "Quetzalcoatlus", nl: "Quetzalcoatlus" },
+        { en: "None", es: "None", de: "None", nl: "None" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pterodactylus was a small pterosaur from the Late Jurassic.",
+        es: "Pterodactylus was a small pterosaur from the Late Jurassic.",
+        de: "Pterodactylus was a small pterosaur from the Late Jurassic.",
+        nl: "Pterodactylus was a small pterosaur from the Late Jurassic."
+      }
+    },
+    {
+      question: {
+        en: "What is the function of Stegosaurus plates?",
+        es: "What is the function of Stegosaurus plates?",
+        de: "What is the function of Stegosaurus plates?",
+        nl: "What is the function of Stegosaurus plates?"
+      },
+      options: [
+        { en: "Temperature regulation and display", es: "Temperature regulation and display", de: "Temperature regulation and display", nl: "Temperature regulation and display" },
+        { en: "Flying", es: "Flying", de: "Flying", nl: "Flying" },
+        { en: "Defense only", es: "Defense only", de: "Defense only", nl: "Defense only" },
+        { en: "Swimming", es: "Swimming", de: "Swimming", nl: "Swimming" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Stegosaurus plates likely helped with temperature regulation and visual display.",
+        es: "Stegosaurus plates likely helped with temperature regulation and visual display.",
+        de: "Stegosaurus plates likely helped with temperature regulation and visual display.",
+        nl: "Stegosaurus plates likely helped with temperature regulation and visual display."
+      }
+    },
+    {
+      question: {
+        en: "What is Ceratosaurus?",
+        es: "What is Ceratosaurus?",
+        de: "What is Ceratosaurus?",
+        nl: "What is Ceratosaurus?"
+      },
+      options: [
+        { en: "Horned Jurassic predator", es: "Horned Jurassic predator", de: "Horned Jurassic predator", nl: "Horned Jurassic predator" },
+        { en: "Horned herbivore", es: "Horned herbivore", de: "Horned herbivore", nl: "Horned herbivore" },
+        { en: "Long-necked dinosaur", es: "Long-necked dinosaur", de: "Long-necked dinosaur", nl: "Long-necked dinosaur" },
+        { en: "Flying reptile", es: "Flying reptile", de: "Flying reptile", nl: "Flying reptile" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Ceratosaurus was a Jurassic predator with a prominent horn on its nose.",
+        es: "Ceratosaurus was a Jurassic predator with a prominent horn on its nose.",
+        de: "Ceratosaurus was a Jurassic predator with a prominent horn on its nose.",
+        nl: "Ceratosaurus was a Jurassic predator with a prominent horn on its nose."
+      }
+    },
+    {
+      question: {
+        en: "What sea reptile dominated Jurassic oceans?",
+        es: "What sea reptile dominated Jurassic oceans?",
+        de: "What sea reptile dominated Jurassic oceans?",
+        nl: "What sea reptile dominated Jurassic oceans?"
+      },
+      options: [
+        { en: "Plesiosaurs and ichthyosaurs", es: "Plesiosaurs and ichthyosaurs", de: "Plesiosaurs and ichthyosaurs", nl: "Plesiosaurs and ichthyosaurs" },
+        { en: "Mosasaurs", es: "Mosasaurs", de: "Mosasaurs", nl: "Mosasaurs" },
+        { en: "Dinosaurs", es: "Dinosaurs", de: "Dinosaurs", nl: "Dinosaurs" },
+        { en: "Sharks", es: "Sharks", de: "Sharks", nl: "Sharks" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Plesiosaurs and ichthyosaurs were the dominant marine reptiles in Jurassic seas.",
+        es: "Plesiosaurs and ichthyosaurs were the dominant marine reptiles in Jurassic seas.",
+        de: "Plesiosaurs and ichthyosaurs were the dominant marine reptiles in Jurassic seas.",
+        nl: "Plesiosaurs and ichthyosaurs were the dominant marine reptiles in Jurassic seas."
+      }
+    },
+    {
+      question: {
+        en: "What is Apatosaurus?",
+        es: "What is Apatosaurus?",
+        de: "What is Apatosaurus?",
+        nl: "What is Apatosaurus?"
+      },
+      options: [
+        { en: "Large Jurassic sauropod", es: "Large Jurassic sauropod", de: "Large Jurassic sauropod", nl: "Large Jurassic sauropod" },
+        { en: "Small predator", es: "Small predator", de: "Small predator", nl: "Small predator" },
+        { en: "Flying reptile", es: "Flying reptile", de: "Flying reptile", nl: "Flying reptile" },
+        { en: "Horned dinosaur", es: "Horned dinosaur", de: "Horned dinosaur", nl: "Horned dinosaur" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Apatosaurus (formerly called Brontosaurus) was a large Jurassic sauropod up to 75 feet long.",
+        es: "Apatosaurus (formerly called Brontosaurus) was a large Jurassic sauropod up to 75 feet long.",
+        de: "Apatosaurus (formerly called Brontosaurus) was a large Jurassic sauropod up to 75 feet long.",
+        nl: "Apatosaurus (formerly called Brontosaurus) was a large Jurassic sauropod up to 75 feet long."
+      }
+    },
+    {
+      question: {
+        en: "What plants dominated the Jurassic?",
+        es: "What plants dominated the Jurassic?",
+        de: "What plants dominated the Jurassic?",
+        nl: "What plants dominated the Jurassic?"
+      },
+      options: [
+        { en: "Conifers and ferns", es: "Conifers and ferns", de: "Conifers and ferns", nl: "Conifers and ferns" },
+        { en: "Flowering plants", es: "Flowering plants", de: "Flowering plants", nl: "Flowering plants" },
+        { en: "Grasses", es: "Grasses", de: "Grasses", nl: "Grasses" },
+        { en: "Mosses only", es: "Mosses only", de: "Mosses only", nl: "Mosses only" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Conifers, ferns, and cycads dominated Jurassic vegetation; flowering plants hadn't evolved yet.",
+        es: "Conifers, ferns, and cycads dominated Jurassic vegetation; flowering plants hadn't evolved yet.",
+        de: "Conifers, ferns, and cycads dominated Jurassic vegetation; flowering plants hadn't evolved yet.",
+        nl: "Conifers, ferns, and cycads dominated Jurassic vegetation; flowering plants hadn't evolved yet."
+      }
+
       }
     ]
   };

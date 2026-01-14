@@ -426,7 +426,427 @@
           es: "Un Tequila Sunrise se hace con tequila y jugo de naranja, con granadina vertida lentamente para crear un efecto degradado de amanecer.",
           de: "Ein Tequila Sunrise wird mit Tequila und Orangensaft zubereitet, wobei Grenadine langsam eingegossen wird, um einen Sonnenaufgang-Farbverlauf zu erzeugen.",
           nl: "Een Tequila Sunrise wordt gemaakt met tequila en sinaasappelsap, met grenadine langzaam gegoten om een verloop zonsopgang-effect te creëren."
-        }
+        }    },
+    {
+      question: {
+        en: "What is a cocktail?",
+        es: "What is a cocktail?",
+        de: "What is a cocktail?",
+        nl: "What is a cocktail?"
+      },
+      options: [
+        { en: "Mixed drink with alcohol", es: "Mixed drink with alcohol", de: "Mixed drink with alcohol", nl: "Mixed drink with alcohol" },
+        { en: "Non-alcoholic drink", es: "Non-alcoholic drink", de: "Non-alcoholic drink", nl: "Non-alcoholic drink" },
+        { en: "Hot beverage", es: "Hot beverage", de: "Hot beverage", nl: "Hot beverage" },
+        { en: "Beer-based drink", es: "Beer-based drink", de: "Beer-based drink", nl: "Beer-based drink" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A cocktail is a mixed drink typically containing one or more types of alcohol mixed with other ingredients.",
+        es: "A cocktail is a mixed drink typically containing one or more types of alcohol mixed with other ingredients.",
+        de: "A cocktail is a mixed drink typically containing one or more types of alcohol mixed with other ingredients.",
+        nl: "A cocktail is a mixed drink typically containing one or more types of alcohol mixed with other ingredients."
+      }
+    },
+    {
+      question: {
+        en: "What is a martini made with?",
+        es: "What is a martini made with?",
+        de: "What is a martini made with?",
+        nl: "What is a martini made with?"
+      },
+      options: [
+        { en: "Gin and vermouth", es: "Gin and vermouth", de: "Gin and vermouth", nl: "Gin and vermouth" },
+        { en: "Vodka and cranberry", es: "Vodka and cranberry", de: "Vodka and cranberry", nl: "Vodka and cranberry" },
+        { en: "Rum and cola", es: "Rum and cola", de: "Rum and cola", nl: "Rum and cola" },
+        { en: "Whiskey and soda", es: "Whiskey and soda", de: "Whiskey and soda", nl: "Whiskey and soda" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A classic martini is made with gin and dry vermouth, garnished with an olive or lemon twist.",
+        es: "A classic martini is made with gin and dry vermouth, garnished with an olive or lemon twist.",
+        de: "A classic martini is made with gin and dry vermouth, garnished with an olive or lemon twist.",
+        nl: "A classic martini is made with gin and dry vermouth, garnished with an olive or lemon twist."
+      }
+    },
+    {
+      question: {
+        en: "What is a mojito?",
+        es: "What is a mojito?",
+        de: "What is a mojito?",
+        nl: "What is a mojito?"
+      },
+      options: [
+        { en: "Rum, mint, lime, sugar, soda water", es: "Rum, mint, lime, sugar, soda water", de: "Rum, mint, lime, sugar, soda water", nl: "Rum, mint, lime, sugar, soda water" },
+        { en: "Tequila and lime", es: "Tequila and lime", de: "Tequila and lime", nl: "Tequila and lime" },
+        { en: "Vodka and orange juice", es: "Vodka and orange juice", de: "Vodka and orange juice", nl: "Vodka and orange juice" },
+        { en: "Gin and tonic", es: "Gin and tonic", de: "Gin and tonic", nl: "Gin and tonic" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A mojito is a Cuban cocktail made with white rum, mint, lime juice, sugar, and soda water.",
+        es: "A mojito is a Cuban cocktail made with white rum, mint, lime juice, sugar, and soda water.",
+        de: "A mojito is a Cuban cocktail made with white rum, mint, lime juice, sugar, and soda water.",
+        nl: "A mojito is a Cuban cocktail made with white rum, mint, lime juice, sugar, and soda water."
+      }
+    },
+    {
+      question: {
+        en: "What spirit is in a margarita?",
+        es: "What spirit is in a margarita?",
+        de: "What spirit is in a margarita?",
+        nl: "What spirit is in a margarita?"
+      },
+      options: [
+        { en: "Tequila", es: "Tequila", de: "Tequila", nl: "Tequila" },
+        { en: "Vodka", es: "Vodka", de: "Vodka", nl: "Vodka" },
+        { en: "Rum", es: "Rum", de: "Rum", nl: "Rum" },
+        { en: "Gin", es: "Gin", de: "Gin", nl: "Gin" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A margarita is made with tequila, lime juice, and orange liqueur (like Cointreau or Triple Sec).",
+        es: "A margarita is made with tequila, lime juice, and orange liqueur (like Cointreau or Triple Sec).",
+        de: "A margarita is made with tequila, lime juice, and orange liqueur (like Cointreau or Triple Sec).",
+        nl: "A margarita is made with tequila, lime juice, and orange liqueur (like Cointreau or Triple Sec)."
+      }
+    },
+    {
+      question: {
+        en: "What is a cosmopolitan?",
+        es: "What is a cosmopolitan?",
+        de: "What is a cosmopolitan?",
+        nl: "What is a cosmopolitan?"
+      },
+      options: [
+        { en: "Vodka, cranberry, lime, triple sec", es: "Vodka, cranberry, lime, triple sec", de: "Vodka, cranberry, lime, triple sec", nl: "Vodka, cranberry, lime, triple sec" },
+        { en: "Gin and vermouth", es: "Gin and vermouth", de: "Gin and vermouth", nl: "Gin and vermouth" },
+        { en: "Rum and cola", es: "Rum and cola", de: "Rum and cola", nl: "Rum and cola" },
+        { en: "Whiskey sour", es: "Whiskey sour", de: "Whiskey sour", nl: "Whiskey sour" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A cosmopolitan is made with vodka, cranberry juice, lime juice, and triple sec.",
+        es: "A cosmopolitan is made with vodka, cranberry juice, lime juice, and triple sec.",
+        de: "A cosmopolitan is made with vodka, cranberry juice, lime juice, and triple sec.",
+        nl: "A cosmopolitan is made with vodka, cranberry juice, lime juice, and triple sec."
+      }
+    },
+    {
+      question: {
+        en: "What is a bartender's tool for mixing called?",
+        es: "What is a bartender's tool for mixing called?",
+        de: "What is a bartender's tool for mixing called?",
+        nl: "What is a bartender's tool for mixing called?"
+      },
+      options: [
+        { en: "Cocktail shaker", es: "Cocktail shaker", de: "Cocktail shaker", nl: "Cocktail shaker" },
+        { en: "Muddler", es: "Muddler", de: "Muddler", nl: "Muddler" },
+        { en: "Jigger", es: "Jigger", de: "Jigger", nl: "Jigger" },
+        { en: "Strainer", es: "Strainer", de: "Strainer", nl: "Strainer" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A cocktail shaker is used to mix ingredients by shaking with ice.",
+        es: "A cocktail shaker is used to mix ingredients by shaking with ice.",
+        de: "A cocktail shaker is used to mix ingredients by shaking with ice.",
+        nl: "A cocktail shaker is used to mix ingredients by shaking with ice."
+      }
+    },
+    {
+      question: {
+        en: "What is a daiquiri made with?",
+        es: "What is a daiquiri made with?",
+        de: "What is a daiquiri made with?",
+        nl: "What is a daiquiri made with?"
+      },
+      options: [
+        { en: "Rum, lime juice, simple syrup", es: "Rum, lime juice, simple syrup", de: "Rum, lime juice, simple syrup", nl: "Rum, lime juice, simple syrup" },
+        { en: "Vodka and strawberry", es: "Vodka and strawberry", de: "Vodka and strawberry", nl: "Vodka and strawberry" },
+        { en: "Tequila and lime", es: "Tequila and lime", de: "Tequila and lime", nl: "Tequila and lime" },
+        { en: "Gin and tonic", es: "Gin and tonic", de: "Gin and tonic", nl: "Gin and tonic" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A classic daiquiri is made with white rum, lime juice, and simple syrup.",
+        es: "A classic daiquiri is made with white rum, lime juice, and simple syrup.",
+        de: "A classic daiquiri is made with white rum, lime juice, and simple syrup.",
+        nl: "A classic daiquiri is made with white rum, lime juice, and simple syrup."
+      }
+    },
+    {
+      question: {
+        en: "What is a Manhattan cocktail?",
+        es: "What is a Manhattan cocktail?",
+        de: "What is a Manhattan cocktail?",
+        nl: "What is a Manhattan cocktail?"
+      },
+      options: [
+        { en: "Whiskey, sweet vermouth, bitters", es: "Whiskey, sweet vermouth, bitters", de: "Whiskey, sweet vermouth, bitters", nl: "Whiskey, sweet vermouth, bitters" },
+        { en: "Vodka and cranberry", es: "Vodka and cranberry", de: "Vodka and cranberry", nl: "Vodka and cranberry" },
+        { en: "Gin and dry vermouth", es: "Gin and dry vermouth", de: "Gin and dry vermouth", nl: "Gin and dry vermouth" },
+        { en: "Rum and cola", es: "Rum and cola", de: "Rum and cola", nl: "Rum and cola" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A Manhattan is made with whiskey, sweet vermouth, and aromatic bitters.",
+        es: "A Manhattan is made with whiskey, sweet vermouth, and aromatic bitters.",
+        de: "A Manhattan is made with whiskey, sweet vermouth, and aromatic bitters.",
+        nl: "A Manhattan is made with whiskey, sweet vermouth, and aromatic bitters."
+      }
+    },
+    {
+      question: {
+        en: "What garnish is traditional for a martini?",
+        es: "What garnish is traditional for a martini?",
+        de: "What garnish is traditional for a martini?",
+        nl: "What garnish is traditional for a martini?"
+      },
+      options: [
+        { en: "Olive or lemon twist", es: "Olive or lemon twist", de: "Olive or lemon twist", nl: "Olive or lemon twist" },
+        { en: "Cherry", es: "Cherry", de: "Cherry", nl: "Cherry" },
+        { en: "Orange slice", es: "Orange slice", de: "Orange slice", nl: "Orange slice" },
+        { en: "Mint", es: "Mint", de: "Mint", nl: "Mint" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A classic martini is garnished with either an olive or a lemon twist.",
+        es: "A classic martini is garnished with either an olive or a lemon twist.",
+        de: "A classic martini is garnished with either an olive or a lemon twist.",
+        nl: "A classic martini is garnished with either an olive or a lemon twist."
+      }
+    },
+    {
+      question: {
+        en: "What is muddling in cocktail making?",
+        es: "What is muddling in cocktail making?",
+        de: "What is muddling in cocktail making?",
+        nl: "What is muddling in cocktail making?"
+      },
+      options: [
+        { en: "Crushing ingredients to release flavors", es: "Crushing ingredients to release flavors", de: "Crushing ingredients to release flavors", nl: "Crushing ingredients to release flavors" },
+        { en: "Mixing with ice", es: "Mixing with ice", de: "Mixing with ice", nl: "Mixing with ice" },
+        { en: "Shaking vigorously", es: "Shaking vigorously", de: "Shaking vigorously", nl: "Shaking vigorously" },
+        { en: "Straining liquid", es: "Straining liquid", de: "Straining liquid", nl: "Straining liquid" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Muddling involves pressing and crushing ingredients like mint or fruit to release their flavors.",
+        es: "Muddling involves pressing and crushing ingredients like mint or fruit to release their flavors.",
+        de: "Muddling involves pressing and crushing ingredients like mint or fruit to release their flavors.",
+        nl: "Muddling involves pressing and crushing ingredients like mint or fruit to release their flavors."
+      }
+    },
+    {
+      question: {
+        en: "What is a piña colada made with?",
+        es: "What is a piña colada made with?",
+        de: "What is a piña colada made with?",
+        nl: "What is a piña colada made with?"
+      },
+      options: [
+        { en: "Rum, coconut cream, pineapple", es: "Rum, coconut cream, pineapple", de: "Rum, coconut cream, pineapple", nl: "Rum, coconut cream, pineapple" },
+        { en: "Vodka and orange juice", es: "Vodka and orange juice", de: "Vodka and orange juice", nl: "Vodka and orange juice" },
+        { en: "Tequila and lime", es: "Tequila and lime", de: "Tequila and lime", nl: "Tequila and lime" },
+        { en: "Gin and tonic", es: "Gin and tonic", de: "Gin and tonic", nl: "Gin and tonic" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A piña colada is made with rum, coconut cream, and pineapple juice, often blended with ice.",
+        es: "A piña colada is made with rum, coconut cream, and pineapple juice, often blended with ice.",
+        de: "A piña colada is made with rum, coconut cream, and pineapple juice, often blended with ice.",
+        nl: "A piña colada is made with rum, coconut cream, and pineapple juice, often blended with ice."
+      }
+    },
+    {
+      question: {
+        en: "What is the base spirit in an Old Fashioned?",
+        es: "What is the base spirit in an Old Fashioned?",
+        de: "What is the base spirit in an Old Fashioned?",
+        nl: "What is the base spirit in an Old Fashioned?"
+      },
+      options: [
+        { en: "Whiskey", es: "Whiskey", de: "Whiskey", nl: "Whiskey" },
+        { en: "Vodka", es: "Vodka", de: "Vodka", nl: "Vodka" },
+        { en: "Gin", es: "Gin", de: "Gin", nl: "Gin" },
+        { en: "Rum", es: "Rum", de: "Rum", nl: "Rum" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "An Old Fashioned is made with whiskey, sugar, bitters, and a twist of citrus.",
+        es: "An Old Fashioned is made with whiskey, sugar, bitters, and a twist of citrus.",
+        de: "An Old Fashioned is made with whiskey, sugar, bitters, and a twist of citrus.",
+        nl: "An Old Fashioned is made with whiskey, sugar, bitters, and a twist of citrus."
+      }
+    },
+    {
+      question: {
+        en: "What is a jigger?",
+        es: "What is a jigger?",
+        de: "What is a jigger?",
+        nl: "What is a jigger?"
+      },
+      options: [
+        { en: "Measuring tool for cocktails", es: "Measuring tool for cocktails", de: "Measuring tool for cocktails", nl: "Measuring tool for cocktails" },
+        { en: "Type of cocktail", es: "Type of cocktail", de: "Type of cocktail", nl: "Type of cocktail" },
+        { en: "Mixing spoon", es: "Mixing spoon", de: "Mixing spoon", nl: "Mixing spoon" },
+        { en: "Ice crusher", es: "Ice crusher", de: "Ice crusher", nl: "Ice crusher" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A jigger is a measuring device used to ensure accurate proportions in cocktail mixing.",
+        es: "A jigger is a measuring device used to ensure accurate proportions in cocktail mixing.",
+        de: "A jigger is a measuring device used to ensure accurate proportions in cocktail mixing.",
+        nl: "A jigger is a measuring device used to ensure accurate proportions in cocktail mixing."
+      }
+    },
+    {
+      question: {
+        en: "What makes a cocktail 'on the rocks'?",
+        es: "What makes a cocktail 'on the rocks'?",
+        de: "What makes a cocktail 'on the rocks'?",
+        nl: "What makes a cocktail 'on the rocks'?"
+      },
+      options: [
+        { en: "Served over ice", es: "Served over ice", de: "Served over ice", nl: "Served over ice" },
+        { en: "Blended with ice", es: "Blended with ice", de: "Blended with ice", nl: "Blended with ice" },
+        { en: "No ice", es: "No ice", de: "No ice", nl: "No ice" },
+        { en: "Shaken with ice then strained", es: "Shaken with ice then strained", de: "Shaken with ice then strained", nl: "Shaken with ice then strained" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A drink served 'on the rocks' is poured over ice cubes in the glass.",
+        es: "A drink served 'on the rocks' is poured over ice cubes in the glass.",
+        de: "A drink served 'on the rocks' is poured over ice cubes in the glass.",
+        nl: "A drink served 'on the rocks' is poured over ice cubes in the glass."
+      }
+    },
+    {
+      question: {
+        en: "What is a Bloody Mary made with?",
+        es: "What is a Bloody Mary made with?",
+        de: "What is a Bloody Mary made with?",
+        nl: "What is a Bloody Mary made with?"
+      },
+      options: [
+        { en: "Vodka and tomato juice", es: "Vodka and tomato juice", de: "Vodka and tomato juice", nl: "Vodka and tomato juice" },
+        { en: "Rum and cola", es: "Rum and cola", de: "Rum and cola", nl: "Rum and cola" },
+        { en: "Gin and tonic", es: "Gin and tonic", de: "Gin and tonic", nl: "Gin and tonic" },
+        { en: "Tequila and orange juice", es: "Tequila and orange juice", de: "Tequila and orange juice", nl: "Tequila and orange juice" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A Bloody Mary is made with vodka, tomato juice, and various spices and flavorings.",
+        es: "A Bloody Mary is made with vodka, tomato juice, and various spices and flavorings.",
+        de: "A Bloody Mary is made with vodka, tomato juice, and various spices and flavorings.",
+        nl: "A Bloody Mary is made with vodka, tomato juice, and various spices and flavorings."
+      }
+    },
+    {
+      question: {
+        en: "What is simple syrup?",
+        es: "What is simple syrup?",
+        de: "What is simple syrup?",
+        nl: "What is simple syrup?"
+      },
+      options: [
+        { en: "Sugar dissolved in water", es: "Sugar dissolved in water", de: "Sugar dissolved in water", nl: "Sugar dissolved in water" },
+        { en: "Lemon juice", es: "Lemon juice", de: "Lemon juice", nl: "Lemon juice" },
+        { en: "Fruit syrup", es: "Fruit syrup", de: "Fruit syrup", nl: "Fruit syrup" },
+        { en: "Alcohol mixture", es: "Alcohol mixture", de: "Alcohol mixture", nl: "Alcohol mixture" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Simple syrup is equal parts sugar and water, heated until sugar dissolves, used to sweeten cocktails.",
+        es: "Simple syrup is equal parts sugar and water, heated until sugar dissolves, used to sweeten cocktails.",
+        de: "Simple syrup is equal parts sugar and water, heated until sugar dissolves, used to sweeten cocktails.",
+        nl: "Simple syrup is equal parts sugar and water, heated until sugar dissolves, used to sweeten cocktails."
+      }
+    },
+    {
+      question: {
+        en: "What is a Tom Collins?",
+        es: "What is a Tom Collins?",
+        de: "What is a Tom Collins?",
+        nl: "What is a Tom Collins?"
+      },
+      options: [
+        { en: "Gin, lemon, sugar, soda water", es: "Gin, lemon, sugar, soda water", de: "Gin, lemon, sugar, soda water", nl: "Gin, lemon, sugar, soda water" },
+        { en: "Vodka and cranberry", es: "Vodka and cranberry", de: "Vodka and cranberry", nl: "Vodka and cranberry" },
+        { en: "Rum and cola", es: "Rum and cola", de: "Rum and cola", nl: "Rum and cola" },
+        { en: "Whiskey sour", es: "Whiskey sour", de: "Whiskey sour", nl: "Whiskey sour" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A Tom Collins is made with gin, lemon juice, simple syrup, and soda water.",
+        es: "A Tom Collins is made with gin, lemon juice, simple syrup, and soda water.",
+        de: "A Tom Collins is made with gin, lemon juice, simple syrup, and soda water.",
+        nl: "A Tom Collins is made with gin, lemon juice, simple syrup, and soda water."
+      }
+    },
+    {
+      question: {
+        en: "What does 'neat' mean for serving spirits?",
+        es: "What does 'neat' mean for serving spirits?",
+        de: "What does 'neat' mean for serving spirits?",
+        nl: "What does 'neat' mean for serving spirits?"
+      },
+      options: [
+        { en: "Straight, no ice or mixers", es: "Straight, no ice or mixers", de: "Straight, no ice or mixers", nl: "Straight, no ice or mixers" },
+        { en: "Over ice", es: "Over ice", de: "Over ice", nl: "Over ice" },
+        { en: "With water", es: "With water", de: "With water", nl: "With water" },
+        { en: "Mixed with soda", es: "Mixed with soda", de: "Mixed with soda", nl: "Mixed with soda" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A spirit served 'neat' is poured straight from the bottle with no ice or mixers.",
+        es: "A spirit served 'neat' is poured straight from the bottle with no ice or mixers.",
+        de: "A spirit served 'neat' is poured straight from the bottle with no ice or mixers.",
+        nl: "A spirit served 'neat' is poured straight from the bottle with no ice or mixers."
+      }
+    },
+    {
+      question: {
+        en: "What is a mai tai made with?",
+        es: "What is a mai tai made with?",
+        de: "What is a mai tai made with?",
+        nl: "What is a mai tai made with?"
+      },
+      options: [
+        { en: "Rum, lime, orgeat, orange liqueur", es: "Rum, lime, orgeat, orange liqueur", de: "Rum, lime, orgeat, orange liqueur", nl: "Rum, lime, orgeat, orange liqueur" },
+        { en: "Vodka and pineapple", es: "Vodka and pineapple", de: "Vodka and pineapple", nl: "Vodka and pineapple" },
+        { en: "Tequila and lime", es: "Tequila and lime", de: "Tequila and lime", nl: "Tequila and lime" },
+        { en: "Gin and tonic", es: "Gin and tonic", de: "Gin and tonic", nl: "Gin and tonic" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A mai tai is made with rum, lime juice, orgeat syrup, and orange liqueur.",
+        es: "A mai tai is made with rum, lime juice, orgeat syrup, and orange liqueur.",
+        de: "A mai tai is made with rum, lime juice, orgeat syrup, and orange liqueur.",
+        nl: "A mai tai is made with rum, lime juice, orgeat syrup, and orange liqueur."
+      }
+    },
+    {
+      question: {
+        en: "What is the difference between shaken and stirred?",
+        es: "What is the difference between shaken and stirred?",
+        de: "What is the difference between shaken and stirred?",
+        nl: "What is the difference between shaken and stirred?"
+      },
+      options: [
+        { en: "Shaken is more vigorous; stirred is gentle", es: "Shaken is more vigorous; stirred is gentle", de: "Shaken is more vigorous; stirred is gentle", nl: "Shaken is more vigorous; stirred is gentle" },
+        { en: "No difference", es: "No difference", de: "No difference", nl: "No difference" },
+        { en: "Shaken uses ice; stirred doesn't", es: "Shaken uses ice; stirred doesn't", de: "Shaken uses ice; stirred doesn't", nl: "Shaken uses ice; stirred doesn't" },
+        { en: "Stirred is faster", es: "Stirred is faster", de: "Stirred is faster", nl: "Stirred is faster" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Shaken cocktails are vigorously shaken with ice for dilution and aeration; stirred cocktails are gently mixed.",
+        es: "Shaken cocktails are vigorously shaken with ice for dilution and aeration; stirred cocktails are gently mixed.",
+        de: "Shaken cocktails are vigorously shaken with ice for dilution and aeration; stirred cocktails are gently mixed.",
+        nl: "Shaken cocktails are vigorously shaken with ice for dilution and aeration; stirred cocktails are gently mixed."
+      }
+
       }
     ]
   };

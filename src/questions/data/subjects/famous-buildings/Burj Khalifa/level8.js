@@ -427,6 +427,279 @@
           de: "Etwa 45% der Baumaterialien stammten von regionalen Lieferanten im Umkreis von 500 Kilometern, wodurch transportbedingte CO2-Emissionen während des Baus erheblich reduziert wurden.",
           nl: "Ongeveer 45% van de bouwmaterialen werd betrokken van regionale leveranciers binnen 500 kilometer, waardoor transport-gerelateerde koolstofemissies tijdens de bouw aanzienlijk werden verminderd."
         }
+      },
+      {
+        question: {
+          en: "What innovative window cleaning system reduces water consumption?",
+          es: "¿Qué sistema innovador de limpieza de ventanas reduce el consumo de agua?",
+          de: "Welches innovative Fensterreinigungssystem reduziert den Wasserverbrauch?",
+          nl: "Welk innovatief raamreiniging systeem vermindert waterverbruik?"
+        },
+        options: [
+          { en: "Robotic cleaners with recycling", es: "Limpiadores robóticos con reciclaje", de: "Roboter-Reiniger mit Recycling", nl: "Robotische schoonmakers met recycling" },
+          { en: "Self-cleaning nanotechnology coating", es: "Revestimiento de nanotecnología autolimpiable", de: "Selbstreinigende Nanotechnologie-Beschichtung", nl: "Zelfreinigend nanotechnologie coating" },
+          { en: "Rainwater collection for cleaning", es: "Recolección de agua de lluvia para limpieza", de: "Regenwassersammlung zur Reinigung", nl: "Regenwateropvang voor reiniging" },
+          { en: "Dry cleaning brushes", es: "Cepillos de limpieza en seco", de: "Trockenreinigungsbürsten", nl: "Droog reinigingsborstels" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The building uses automated robotic window cleaning systems that recycle and filter water, reducing overall water consumption by 80% compared to traditional cleaning methods.",
+          es: "El edificio utiliza sistemas robóticos automatizados de limpieza de ventanas que reciclan y filtran agua, reduciendo el consumo general de agua en un 80% en comparación con métodos de limpieza tradicionales.",
+          de: "Das Gebäude verwendet automatisierte Roboter-Fensterreinigungssysteme, die Wasser recyceln und filtern, wodurch der Gesamtwasserverbrauch im Vergleich zu traditionellen Reinigungsmethoden um 80% reduziert wird.",
+          nl: "Het gebouw gebruikt geautomatiseerde robotische raamreinigingssystemen die water recyclen en filteren, waardoor het totale waterverbruik met 80% wordt verminderd vergeleken met traditionele schoonmaakmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What heat recovery system is integrated into the HVAC design?",
+          es: "¿Qué sistema de recuperación de calor está integrado en el diseño de HVAC?",
+          de: "Welches Wärmerückgewinnungssystem ist in das HVAC-Design integriert?",
+          nl: "Welk warmte terugwinningssysteem is geïntegreerd in het HVAC-ontwerp?"
+        },
+        options: [
+          { en: "Heat exchangers in exhaust air", es: "Intercambiadores de calor en aire de escape", de: "Wärmetauscher in Abluft", nl: "Warmtewisselaars in uitlaatlucht" },
+          { en: "Thermal storage tanks", es: "Tanques de almacenamiento térmico", de: "Thermische Speichertanks", nl: "Thermische opslagtanks" },
+          { en: "Ground-source heat pumps", es: "Bombas de calor geotérmicas", de: "Erdwärmepumpen", nl: "Grondwater warmtepompen" },
+          { en: "Phase change materials", es: "Materiales de cambio de fase", de: "Phasenwechselmaterialien", nl: "Fase-veranderingsmaterialen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The HVAC system incorporates heat exchangers that capture waste heat from exhaust air, using it to pre-cool incoming fresh air, reducing energy demand by up to 15%.",
+          es: "El sistema HVAC incorpora intercambiadores de calor que capturan el calor residual del aire de escape, usándolo para pre-enfriar el aire fresco entrante, reduciendo la demanda de energía hasta en un 15%.",
+          de: "Das HVAC-System enthält Wärmetauscher, die Abwärme aus der Abluft erfassen und damit einströmende Frischluft vorkühlen, wodurch der Energiebedarf um bis zu 15% reduziert wird.",
+          nl: "Het HVAC-systeem bevat warmtewisselaars die afvalwarmte van uitlaatlucht opvangen en gebruiken om binnenkomende verse lucht voor te koelen, waardoor de energievraag met tot 15% wordt verminderd."
+        }
+      },
+      {
+        question: {
+          en: "How does the building reduce urban heat island effect?",
+          es: "¿Cómo reduce el edificio el efecto de isla de calor urbana?",
+          de: "Wie reduziert das Gebäude den städtischen Wärmeinseleffekt?",
+          de: "Hoe vermindert het gebouw het stedelijke hitte-eilandeffect?"
+        },
+        options: [
+          { en: "Green roof systems", es: "Sistemas de techo verde", de: "Gründachsysteme", nl: "Groene daksystemen" },
+          { en: "Reflective glass facade", es: "Fachada de vidrio reflectante", de: "Reflektierende Glasfassade", nl: "Reflecterende glazen gevel" },
+          { en: "Underground parking", es: "Estacionamiento subterráneo", de: "Tiefgarage", nl: "Ondergrondse parkeergarage" },
+          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "The Burj Khalifa employs multiple strategies including reflective glass that reduces heat absorption, underground parking that minimizes surface heat, and landscaping features that collectively reduce the urban heat island effect.",
+          es: "El Burj Khalifa emplea múltiples estrategias incluyendo vidrio reflectante que reduce la absorción de calor, estacionamiento subterráneo que minimiza el calor superficial, y características de paisajismo que colectivamente reducen el efecto de isla de calor urbana.",
+          de: "Der Burj Khalifa setzt mehrere Strategien ein, darunter reflektierendes Glas zur Reduzierung der Wärmeaufnahme, Tiefgaragen zur Minimierung der Oberflächenwärme und Landschaftsgestaltung, die gemeinsam den städtischen Wärmeinseleffekt reduzieren.",
+          nl: "De Burj Khalifa gebruikt meerdere strategieën waaronder reflecterend glas dat warmteabsorptie vermindert, ondergrondse parkeergarages die oppervlaktewarmte minimaliseren, en landschapskenmerken die gezamenlijk het stedelijke hitte-eilandeffect verminderen."
+        }
+      },
+      {
+        question: {
+          en: "What percentage of indoor water use is supplied by the condensate system?",
+          es: "¿Qué porcentaje del uso de agua interior es suministrado por el sistema de condensado?",
+          de: "Wie viel Prozent des Innenwasserverbrauchs wird durch das Kondensatsystem gedeckt?",
+          nl: "Welk percentage van het binnenwater gebruik wordt geleverd door het condensaatsysteem?"
+        },
+        options: [
+          { en: "10%", es: "10%", de: "10%", nl: "10%" },
+          { en: "25%", es: "25%", de: "25%", nl: "25%" },
+          { en: "40%", es: "40%", de: "40%", nl: "40%" },
+          { en: "55%", es: "55%", de: "55%", nl: "55%" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The condensate collection system provides approximately 25% of the building's non-potable water needs, significantly reducing demand on Dubai's municipal water supply.",
+          es: "El sistema de recolección de condensado proporciona aproximadamente el 25% de las necesidades de agua no potable del edificio, reduciendo significativamente la demanda del suministro municipal de agua de Dubai.",
+          de: "Das Kondensatsammelsystem deckt etwa 25% des Brauchwasserbedarfs des Gebäudes und reduziert damit erheblich die Nachfrage nach der städtischen Wasserversorgung Dubais.",
+          nl: "Het condensaatverzamelingssysteem levert ongeveer 25% van de niet-drinkwaterbehoeften van het gebouw, waardoor de vraag naar de gemeentelijke watervoorziening van Dubai aanzienlijk wordt verminderd."
+        }
+      },
+      {
+        question: {
+          en: "What material innovation reduces the building's cooling requirements?",
+          es: "¿Qué innovación material reduce los requisitos de enfriamiento del edificio?",
+          de: "Welche Materialinnovation reduziert den Kühlbedarf des Gebäudes?",
+          nl: "Welke materiaalinnovatie vermindert de koelvereisten van het gebouw?"
+        },
+        options: [
+          { en: "Phase-change drywall", es: "Paneles de yeso de cambio de fase", de: "Phasenwechsel-Trockenbau", nl: "Fase-verandering gipsplaten" },
+          { en: "Insulated aluminum panels", es: "Paneles de aluminio aislados", de: "Isolierte Aluminiumpaneele", nl: "Geïsoleerde aluminium panelen" },
+          { en: "Aerogel insulation", es: "Aislamiento de aerogel", de: "Aerogel-Isolierung", nl: "Aerogel isolatie" },
+          { en: "Reflective ceramic coating", es: "Revestimiento cerámico reflectante", de: "Reflektierende Keramikbeschichtung", nl: "Reflecterende keramische coating" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The building uses insulated aluminum panels with integrated thermal breaks that provide excellent insulation while remaining lightweight, reducing cooling loads by approximately 18%.",
+          es: "El edificio utiliza paneles de aluminio aislados con rupturas térmicas integradas que proporcionan excelente aislamiento mientras permanecen ligeros, reduciendo las cargas de enfriamiento en aproximadamente un 18%.",
+          de: "Das Gebäude verwendet isolierte Aluminiumpaneele mit integrierten thermischen Trennungen, die hervorragende Isolierung bei geringem Gewicht bieten und die Kühllasten um etwa 18% reduzieren.",
+          nl: "Het gebouw gebruikt geïsoleerde aluminium panelen met geïntegreerde thermische onderbrekingen die uitstekende isolatie bieden terwijl ze licht blijven, waardoor de koellasten met ongeveer 18% worden verminderd."
+        }
+      },
+      {
+        question: {
+          en: "What strategy is used to reduce peak electricity demand?",
+          es: "¿Qué estrategia se utiliza para reducir la demanda pico de electricidad?",
+          de: "Welche Strategie wird zur Reduzierung des Spitzenstrombedarfs verwendet?",
+          nl: "Welke strategie wordt gebruikt om de piek elektriciteitsvraag te verminderen?"
+        },
+        options: [
+          { en: "Battery storage systems", es: "Sistemas de almacenamiento de baterías", de: "Batteriespeichersysteme", nl: "Batterij opslagsystemen" },
+          { en: "Ice storage cooling", es: "Enfriamiento por almacenamiento de hielo", de: "Eisspeicherkühlung", nl: "IJs opslag koeling" },
+          { en: "Solar power generation", es: "Generación de energía solar", de: "Solarstromerzeugung", nl: "Zonne-energie opwekking" },
+          { en: "Wind turbines", es: "Turbinas eólicas", de: "Windturbinen", nl: "Windturbines" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The building uses ice storage systems that create ice during off-peak hours at night, then use it for cooling during peak daytime hours, reducing peak demand by 30%.",
+          es: "El edificio utiliza sistemas de almacenamiento de hielo que crean hielo durante las horas de menor consumo por la noche, luego lo usan para enfriamiento durante las horas pico del día, reduciendo la demanda pico en un 30%.",
+          de: "Das Gebäude nutzt Eisspeichersysteme, die nachts während Nebenzeiten Eis erzeugen und es dann tagsüber während Spitzenzeiten zur Kühlung verwenden, wodurch die Spitzenlast um 30% reduziert wird.",
+          nl: "Het gebouw gebruikt ijs opslagsystemen die 's nachts tijdens daluren ijs maken en dit vervolgens gebruiken voor koeling tijdens piekuren overdag, waardoor de piekvraag met 30% wordt verminderd."
+        }
+      },
+      {
+        question: {
+          en: "How much CO2 emissions does the building save annually through sustainability measures?",
+          es: "¿Cuántas emisiones de CO2 ahorra el edificio anualmente a través de medidas de sostenibilidad?",
+          de: "Wie viel CO2-Emissionen spart das Gebäude jährlich durch Nachhaltigkeitsmaßnahmen?",
+          nl: "Hoeveel CO2-uitstoot bespaart het gebouw jaarlijks door duurzaamheidsmaatregelen?"
+        },
+        options: [
+          { en: "2,000 tons", es: "2.000 toneladas", de: "2.000 Tonnen", nl: "2.000 ton" },
+          { en: "5,500 tons", es: "5.500 toneladas", de: "5.500 Tonnen", nl: "5.500 ton" },
+          { en: "8,750 tons", es: "8.750 toneladas", de: "8.750 Tonnen", nl: "8.750 ton" },
+          { en: "12,000 tons", es: "12.000 toneladas", de: "12.000 Tonnen", nl: "12.000 ton" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Through combined energy efficiency measures including efficient HVAC, LED lighting, and building management systems, the Burj Khalifa saves approximately 8,750 tons of CO2 emissions annually.",
+          es: "A través de medidas combinadas de eficiencia energética que incluyen HVAC eficiente, iluminación LED y sistemas de gestión de edificios, el Burj Khalifa ahorra aproximadamente 8.750 toneladas de emisiones de CO2 anualmente.",
+          de: "Durch kombinierte Energieeffizienzmaßnahmen einschließlich effizienter HVAC, LED-Beleuchtung und Gebäudemanagementsysteme spart der Burj Khalifa jährlich etwa 8.750 Tonnen CO2-Emissionen ein.",
+          nl: "Door gecombineerde energie-efficiëntiemaatregelen waaronder efficiënte HVAC, LED-verlichting en gebouwbeheersystemen bespaart de Burj Khalifa jaarlijks ongeveer 8.750 ton CO2-uitstoot."
+        }
+      },
+      {
+        question: {
+          en: "What percentage of the building uses energy-efficient variable speed drives?",
+          es: "¿Qué porcentaje del edificio utiliza variadores de velocidad de eficiencia energética?",
+          de: "Wie viel Prozent des Gebäudes verwenden energieeffiziente Frequenzumrichter?",
+          nl: "Welk percentage van het gebouw gebruikt energie-efficiënte variabele snelheidsregelaars?"
+        },
+        options: [
+          { en: "50%", es: "50%", de: "50%", nl: "50%" },
+          { en: "70%", es: "70%", de: "70%", nl: "70%" },
+          { en: "85%", es: "85%", de: "85%", nl: "85%" },
+          { en: "100%", es: "100%", de: "100%", nl: "100%" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "All motors and pumps in the Burj Khalifa use variable speed drives (VSDs) that adjust power consumption based on demand, reducing energy waste by continuously optimizing performance.",
+          es: "Todos los motores y bombas en el Burj Khalifa utilizan variadores de velocidad (VSD) que ajustan el consumo de energía según la demanda, reduciendo el desperdicio de energía al optimizar continuamente el rendimiento.",
+          de: "Alle Motoren und Pumpen im Burj Khalifa verwenden Frequenzumrichter (VSD), die den Energieverbrauch an den Bedarf anpassen und Energieverschwendung durch kontinuierliche Leistungsoptimierung reduzieren.",
+          nl: "Alle motoren en pompen in de Burj Khalifa gebruiken variabele snelheidsregelaars (VSD's) die het energieverbruik aanpassen op basis van vraag, waardoor energieverspilling wordt verminderd door continu prestaties te optimaliseren."
+        }
+      },
+      {
+        question: {
+          en: "What air quality monitoring system ensures healthy indoor environments?",
+          es: "¿Qué sistema de monitoreo de calidad del aire asegura ambientes interiores saludables?",
+          de: "Welches Luftqualitätsüberwachungssystem sorgt für gesunde Innenräume?",
+          nl: "Welk luchtkwaliteit monitoringsysteem zorgt voor gezonde binnenomgevingen?"
+        },
+        options: [
+          { en: "CO2 sensors only", es: "Solo sensores de CO2", de: "Nur CO2-Sensoren", nl: "Alleen CO2-sensoren" },
+          { en: "PM2.5 particle monitors", es: "Monitores de partículas PM2.5", de: "PM2.5-Partikelmonitore", nl: "PM2.5 deeltjesmonitoren" },
+          { en: "Multi-parameter air quality sensors", es: "Sensores de calidad de aire multiparamétricos", de: "Multiparameter-Luftqualitätssensoren", nl: "Multi-parameter luchtkwaliteit sensoren" },
+          { en: "Manual testing only", es: "Solo pruebas manuales", de: "Nur manuelle Tests", nl: "Alleen handmatige tests" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The building employs multi-parameter air quality sensors that continuously monitor CO2, VOCs, humidity, and particulate matter, automatically adjusting ventilation to maintain optimal indoor air quality.",
+          es: "El edificio emplea sensores de calidad de aire multiparamétricos que monitorean continuamente CO2, COV, humedad y material particulado, ajustando automáticamente la ventilación para mantener una calidad de aire interior óptima.",
+          de: "Das Gebäude verwendet Multiparameter-Luftqualitätssensoren, die kontinuierlich CO2, VOCs, Feuchtigkeit und Feinstaub überwachen und die Belüftung automatisch anpassen, um optimale Raumluftqualität zu gewährleisten.",
+          nl: "Het gebouw gebruikt multi-parameter luchtkwaliteit sensoren die continu CO2, VOS'en, vochtigheid en fijnstof monitoren en automatisch de ventilatie aanpassen om optimale binnenluchtkwaliteit te handhaven."
+        }
+      },
+      {
+        question: {
+          en: "What drainage system manages stormwater sustainably?",
+          es: "¿Qué sistema de drenaje gestiona el agua de lluvia de manera sostenible?",
+          de: "Welches Entwässerungssystem bewirtschaftet Regenwasser nachhaltig?",
+          nl: "Welk afwatering systeem beheert regenwater duurzaam?"
+        },
+        options: [
+          { en: "Direct to municipal sewers", es: "Directo a alcantarillas municipales", de: "Direkt in städtische Abwasserkanäle", nl: "Direct naar gemeentelijke riolen" },
+          { en: "Collection tanks with filtration", es: "Tanques de recolección con filtración", de: "Sammeltanks mit Filterung", nl: "Opvangtanks met filtratie" },
+          { en: "Surface evaporation only", es: "Solo evaporación superficial", de: "Nur Oberflächenverdunstung", nl: "Alleen oppervlakte verdamping" },
+          { en: "No drainage system", es: "Sin sistema de drenaje", de: "Kein Entwässerungssystem", nl: "Geen afwatering systeem" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The building captures stormwater in collection tanks where it's filtered and used for irrigation and cooling tower makeup water, reducing municipal water consumption and stormwater runoff.",
+          es: "El edificio captura agua de lluvia en tanques de recolección donde se filtra y se usa para riego y agua de reposición de torres de enfriamiento, reduciendo el consumo de agua municipal y la escorrentía de agua de lluvia.",
+          de: "Das Gebäude fängt Regenwasser in Sammeltanks auf, wo es gefiltert und für Bewässerung und Kühlturm-Nachspeisewasser verwendet wird, wodurch städtischer Wasserverbrauch und Regenwasserabfluss reduziert werden.",
+          nl: "Het gebouw vangt regenwater op in verzameltanks waar het wordt gefilterd en gebruikt voor irrigatie en koeltoren aanvulwater, waardoor gemeentelijk waterverbruik en regenwater afvoer worden verminderd."
+        }
+      },
+      {
+        question: {
+          en: "How does the building's elevator regenerative braking system contribute to sustainability?",
+          es: "¿Cómo contribuye el sistema de frenado regenerativo de los ascensores del edificio a la sostenibilidad?",
+          de: "Wie trägt das regenerative Bremssystem der Aufzüge des Gebäudes zur Nachhaltigkeit bei?",
+          nl: "Hoe draagt het regeneratieve remsysteem van de liften van het gebouw bij aan duurzaamheid?"
+        },
+        options: [
+          { en: "Converts braking energy to heat", es: "Convierte energía de frenado en calor", de: "Wandelt Bremsenergie in Wärme um", nl: "Zet remenergie om in warmte" },
+          { en: "Returns energy to building grid", es: "Devuelve energía a la red del edificio", de: "Gibt Energie an Gebäudenetz zurück", nl: "Geeft energie terug aan gebouwnetwerk" },
+          { en: "Stores energy in batteries", es: "Almacena energía en baterías", de: "Speichert Energie in Batterien", nl: "Slaat energie op in batterijen" },
+          { en: "No energy recovery", es: "Sin recuperación de energía", de: "Keine Energierückgewinnung", nl: "Geen energieterugwinning" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The elevators use regenerative braking that captures energy during descent and feeds it back into the building's electrical grid, recovering up to 75% of braking energy and reducing overall electricity consumption.",
+          es: "Los ascensores utilizan frenado regenerativo que captura energía durante el descenso y la devuelve a la red eléctrica del edificio, recuperando hasta el 75% de la energía de frenado y reduciendo el consumo general de electricidad.",
+          de: "Die Aufzüge verwenden regeneratives Bremsen, das Energie während der Abfahrt erfasst und sie in das elektrische Netz des Gebäudes zurückspeist, wodurch bis zu 75% der Bremsenergie zurückgewonnen und der Gesamtstromverbrauch reduziert wird.",
+          nl: "De liften gebruiken regeneratief remmen dat energie opvangt tijdens de afdaling en deze terugvoert naar het elektrische netwerk van het gebouw, waardoor tot 75% van de remenergie wordt teruggewonnen en het totale elektriciteitsverbruik wordt verminderd."
+        }
+      },
+      {
+        question: {
+          en: "What sustainable landscaping practice is employed around the building?",
+          es: "¿Qué práctica de paisajismo sostenible se emplea alrededor del edificio?",
+          de: "Welche nachhaltige Landschaftsgestaltungspraxis wird rund um das Gebäude angewendet?",
+          nl: "Welke duurzame landschapspraktijk wordt toegepast rond het gebouw?"
+        },
+        options: [
+          { en: "High-water turf grass", es: "Césped de alto consumo de agua", de: "Wasserintensiver Rasen", nl: "Hoog-water gazongraas" },
+          { en: "Xeriscaping with native plants", es: "Xeriscaping con plantas nativas", de: "Xeriscaping mit einheimischen Pflanzen", nl: "Xeriscaping met inheemse planten" },
+          { en: "Artificial turf only", es: "Solo césped artificial", de: "Nur Kunstrasen", nl: "Alleen kunstgras" },
+          { en: "No landscaping", es: "Sin paisajismo", de: "Keine Landschaftsgestaltung", nl: "Geen landschapsaanleg" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The landscaping uses xeriscaping principles with drought-resistant native and adapted plants that require 50% less water than traditional landscaping, irrigated entirely with recycled condensate water.",
+          es: "El paisajismo utiliza principios de xeriscaping con plantas nativas y adaptadas resistentes a la sequía que requieren un 50% menos de agua que el paisajismo tradicional, irrigadas completamente con agua condensada reciclada.",
+          de: "Die Landschaftsgestaltung nutzt Xeriscaping-Prinzipien mit dürreresistenten einheimischen und angepassten Pflanzen, die 50% weniger Wasser als traditionelle Landschaftsgestaltung benötigen und vollständig mit recyceltem Kondenswasser bewässert werden.",
+          nl: "De landschapsaanleg gebruikt xeriscaping principes met droogteresistente inheemse en aangepaste planten die 50% minder water nodig hebben dan traditionele landschapsaanleg, volledig geïrrigeerd met gerecycled condenswater."
+        }
+      },
+      {
+        question: {
+          en: "What percentage reduction in energy use does the building achieve compared to typical similar buildings?",
+          es: "¿Qué porcentaje de reducción en el uso de energía logra el edificio en comparación con edificios similares típicos?",
+          de: "Wie viel Prozent Energieeinsparung erreicht das Gebäude im Vergleich zu typischen ähnlichen Gebäuden?",
+          nl: "Welk percentage vermindering in energiegebruik bereikt het gebouw vergeleken met typische vergelijkbare gebouwen?"
+        },
+        options: [
+          { en: "10%", es: "10%", de: "10%", nl: "10%" },
+          { en: "20%", es: "20%", de: "20%", nl: "20%" },
+          { en: "35%", es: "35%", de: "35%", nl: "35%" },
+          { en: "50%", es: "50%", de: "50%", nl: "50%" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Through comprehensive sustainability measures including efficient systems, renewable energy, and smart building management, the Burj Khalifa achieves approximately 35% energy savings compared to conventional buildings of similar size and function.",
+          es: "A través de medidas integrales de sostenibilidad que incluyen sistemas eficientes, energía renovable y gestión inteligente de edificios, el Burj Khalifa logra aproximadamente un 35% de ahorro de energía en comparación con edificios convencionales de tamaño y función similares.",
+          de: "Durch umfassende Nachhaltigkeitsmaßnahmen einschließlich effizienter Systeme, erneuerbarer Energie und intelligenter Gebäudeverwaltung erreicht der Burj Khalifa etwa 35% Energieeinsparungen im Vergleich zu konventionellen Gebäuden ähnlicher Größe und Funktion.",
+          nl: "Door uitgebreide duurzaamheidsmaatregelen waaronder efficiënte systemen, hernieuwbare energie en slim gebouwbeheer bereikt de Burj Khalifa ongeveer 35% energiebesparing vergeleken met conventionele gebouwen van vergelijkbare grootte en functie."
+        }
       }
     ]
   };

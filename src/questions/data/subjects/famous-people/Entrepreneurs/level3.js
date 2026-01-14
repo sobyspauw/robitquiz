@@ -1,4 +1,4 @@
-﻿// Entrepreneurs Quiz - Level 3: Easy-Medium
+// Entrepreneurs Quiz - Level 3: Easy-Medium
 (function() {
   const level3 = {
     name: {
@@ -426,6 +426,300 @@
           es: "Oprah Winfrey fundó Harpo Productions en 1986, luego creó OWN Network y O Magazine, construyendo un imperio mediático integral que abarca televisión, impresión y medios digitales.",
           de: "Oprah Winfrey gründete Harpo Productions 1986, schuf später OWN Network und O Magazine und baute ein umfassendes Medienimperium auf, das Fernsehen, Print und digitale Medien umfasst.",
           nl: "Oprah Winfrey richtte Harpo Productions op in 1986, later creëerde zij OWN Network en O Magazine, zij bouwde een uitgebreid media-imperium op dat televisie, print en digitale media omvat."
+        }
+      },
+      {
+        question: {
+          en: "Who founded FedEx Corporation, revolutionizing overnight delivery?",
+          es: "¿Quién fundó FedEx Corporation, revolucionando la entrega nocturna?",
+          de: "Wer gründete FedEx Corporation und revolutionierte die Übernacht-Lieferung?",
+          nl: "Wie heeft FedEx Corporation opgericht en de overnight-bezorging gerevolutioneerd?"
+        },
+        options: [
+          { en: "Frederick W. Smith", es: "Frederick W. Smith", de: "Frederick W. Smith", nl: "Frederick W. Smith" },
+          { en: "Jim Casey", es: "Jim Casey", de: "Jim Casey", nl: "Jim Casey" },
+          { en: "Malcolm McLean", es: "Malcolm McLean", de: "Malcolm McLean", nl: "Malcolm McLean" },
+          { en: "Ray Kroc", es: "Ray Kroc", de: "Ray Kroc", nl: "Ray Kroc" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Frederick W. Smith founded FedEx in 1971, pioneering overnight delivery with a hub-and-spoke distribution system. His Yale term paper outlining the concept famously received a C grade.",
+          es: "Frederick W. Smith fundó FedEx en 1971, siendo pionero en la entrega nocturna con un sistema de distribución hub-and-spoke. Su trabajo de término de Yale que describía el concepto recibió famosamente una calificación de C.",
+          de: "Frederick W. Smith gründete FedEx 1971 und war Pionier der Übernacht-Lieferung mit einem Hub-and-Spoke-Verteilungssystem. Seine Yale-Seminararbeit über das Konzept erhielt berühmterweise die Note C.",
+          nl: "Frederick W. Smith heeft FedEx opgericht in 1971, pionier in overnight-bezorging met een hub-and-spoke distributiesysteem. Zijn Yale-eindwerkstuk met het concept kreeg beroemd genoeg een C cijfer."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Whole Foods Market, pioneering organic grocery retail?",
+          es: "¿Qué empresario fundó Whole Foods Market, pionero en el comercio minorista de comestibles orgánicos?",
+          de: "Welcher Unternehmer gründete Whole Foods Market und war Pionier des Bio-Lebensmittelhandels?",
+          nl: "Welke ondernemer heeft Whole Foods Market opgericht, pionier in biologische levensmiddelenretail?"
+        },
+        options: [
+          { en: "John Mackey", es: "John Mackey", de: "John Mackey", nl: "John Mackey" },
+          { en: "Jeff Bezos", es: "Jeff Bezos", de: "Jeff Bezos", nl: "Jeff Bezos" },
+          { en: "Howard Schultz", es: "Howard Schultz", de: "Howard Schultz", nl: "Howard Schultz" },
+          { en: "Ray Kroc", es: "Ray Kroc", de: "Ray Kroc", nl: "Ray Kroc" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "John Mackey co-founded Whole Foods Market in 1980, pioneering natural and organic foods retailing. Amazon acquired the company for $13.7 billion in 2017.",
+          es: "John Mackey cofundó Whole Foods Market en 1980, siendo pionero en el comercio minorista de alimentos naturales y orgánicos. Amazon adquirió la compañía por $13.7 mil millones en 2017.",
+          de: "John Mackey gründete Whole Foods Market 1980 mit und war Pionier des Handels mit natürlichen und biologischen Lebensmitteln. Amazon kaufte das Unternehmen 2017 für 13,7 Milliarden Dollar.",
+          nl: "John Mackey heeft Whole Foods Market mede opgericht in 1980, pionier in de retail van natuurlijke en biologische voeding. Amazon kocht het bedrijf in 2017 voor $13,7 miljard."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Southwest Airlines, pioneering the low-cost airline model?",
+          es: "¿Quién fundó Southwest Airlines, pionero del modelo de aerolínea de bajo costo?",
+          de: "Wer gründete Southwest Airlines und war Pionier des Billigflugmodells?",
+          nl: "Wie heeft Southwest Airlines opgericht, pionier van het low-cost luchtvaartmodel?"
+        },
+        options: [
+          { en: "Herb Kelleher", es: "Herb Kelleher", de: "Herb Kelleher", nl: "Herb Kelleher" },
+          { en: "Richard Branson", es: "Richard Branson", de: "Richard Branson", nl: "Richard Branson" },
+          { en: "David Neeleman", es: "David Neeleman", de: "David Neeleman", nl: "David Neeleman" },
+          { en: "Juan Trippe", es: "Juan Trippe", de: "Juan Trippe", nl: "Juan Trippe" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Herb Kelleher co-founded Southwest Airlines in 1967, pioneering the low-cost carrier model with point-to-point routes, no frills service, and high aircraft utilization that transformed the airline industry.",
+          es: "Herb Kelleher cofundó Southwest Airlines en 1967, siendo pionero en el modelo de aerolínea de bajo costo con rutas punto a punto, servicio sin lujos y alta utilización de aeronaves que transformó la industria aérea.",
+          de: "Herb Kelleher gründete 1967 Southwest Airlines mit und war Pionier des Billigflieger-Modells mit Punkt-zu-Punkt-Routen, No-Frills-Service und hoher Flugzeugauslastung, das die Luftfahrtbranche transformierte.",
+          nl: "Herb Kelleher heeft Southwest Airlines mede opgericht in 1967, pionier van het low-cost carriermodel met punt-naar-punt routes, geen-frills service en hoog vliegtuiggebruik dat de luchtvaartindustrie transformeerde."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Gap Inc., the casual clothing retail chain?",
+          es: "¿Qué empresario fundó Gap Inc., la cadena minorista de ropa casual?",
+          de: "Welcher Unternehmer gründete Gap Inc., die Freizeitbekleidungs-Einzelhandelskette?",
+          nl: "Welke ondernemer heeft Gap Inc. opgericht, de casual kledingretailketen?"
+        },
+        options: [
+          { en: "Donald Fisher", es: "Donald Fisher", de: "Donald Fisher", nl: "Donald Fisher" },
+          { en: "Mickey Drexler", es: "Mickey Drexler", de: "Mickey Drexler", nl: "Mickey Drexler" },
+          { en: "Phil Knight", es: "Phil Knight", de: "Phil Knight", nl: "Phil Knight" },
+          { en: "Ralph Lauren", es: "Ralph Lauren", de: "Ralph Lauren", nl: "Ralph Lauren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Donald Fisher founded Gap Inc. in 1969 with his wife Doris, starting with a single store selling Levi's jeans. Gap grew into a major fashion retailer with brands including Old Navy and Banana Republic.",
+          es: "Donald Fisher fundó Gap Inc. en 1969 con su esposa Doris, comenzando con una sola tienda que vendía jeans Levi's. Gap creció hasta convertirse en un importante minorista de moda con marcas como Old Navy y Banana Republic.",
+          de: "Donald Fisher gründete 1969 Gap Inc. mit seiner Frau Doris und begann mit einem einzigen Geschäft, das Levi's Jeans verkaufte. Gap wurde zu einem großen Modehändler mit Marken wie Old Navy und Banana Republic.",
+          nl: "Donald Fisher heeft Gap Inc. opgericht in 1969 met zijn vrouw Doris, te beginnen met een enkele winkel die Levi's jeans verkocht. Gap groeide uit tot een grote mode-retailer met merken zoals Old Navy en Banana Republic."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Blackstone Group, one of the world's largest private equity firms?",
+          es: "¿Quién fundó Blackstone Group, una de las firmas de capital privado más grandes del mundo?",
+          de: "Wer gründete Blackstone Group, eines der weltgrößten Private-Equity-Unternehmen?",
+          nl: "Wie heeft Blackstone Group opgericht, een van 's werelds grootste private equity-bedrijven?"
+        },
+        options: [
+          { en: "Stephen Schwarzman", es: "Stephen Schwarzman", de: "Stephen Schwarzman", nl: "Stephen Schwarzman" },
+          { en: "Henry Kravis", es: "Henry Kravis", de: "Henry Kravis", nl: "Henry Kravis" },
+          { en: "Carl Icahn", es: "Carl Icahn", de: "Carl Icahn", nl: "Carl Icahn" },
+          { en: "David Rubenstein", es: "David Rubenstein", de: "David Rubenstein", nl: "David Rubenstein" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Stephen Schwarzman co-founded Blackstone Group in 1985 with Pete Peterson. The firm became the world's largest alternative asset manager, managing over $900 billion in assets.",
+          es: "Stephen Schwarzman cofundó Blackstone Group en 1985 con Pete Peterson. La firma se convirtió en el administrador de activos alternativos más grande del mundo, gestionando más de $900 mil millones en activos.",
+          de: "Stephen Schwarzman gründete 1985 Blackstone Group zusammen mit Pete Peterson. Die Firma wurde zum weltgrößten alternativen Vermögensverwalter mit über 900 Milliarden Dollar verwalteten Vermögen.",
+          nl: "Stephen Schwarzman heeft Blackstone Group mede opgericht in 1985 met Pete Peterson. Het bedrijf werd 's werelds grootste alternatieve vermogensbeheerder, die meer dan $900 miljard aan activa beheert."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Bridgewater Associates, the world's largest hedge fund?",
+          es: "¿Qué empresario fundó Bridgewater Associates, el fondo de cobertura más grande del mundo?",
+          de: "Welcher Unternehmer gründete Bridgewater Associates, den weltgrößten Hedgefonds?",
+          nl: "Welke ondernemer heeft Bridgewater Associates opgericht, 's werelds grootste hedgefonds?"
+        },
+        options: [
+          { en: "Ray Dalio", es: "Ray Dalio", de: "Ray Dalio", nl: "Ray Dalio" },
+          { en: "George Soros", es: "George Soros", de: "George Soros", nl: "George Soros" },
+          { en: "Ken Griffin", es: "Ken Griffin", de: "Ken Griffin", nl: "Ken Griffin" },
+          { en: "Paul Tudor Jones", es: "Paul Tudor Jones", de: "Paul Tudor Jones", nl: "Paul Tudor Jones" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ray Dalio founded Bridgewater Associates in 1975, growing it into the world's largest hedge fund with over $140 billion in assets. His principles-based management philosophy has been widely influential.",
+          es: "Ray Dalio fundó Bridgewater Associates en 1975, convirtiéndola en el fondo de cobertura más grande del mundo con más de $140 mil millones en activos. Su filosofía de gestión basada en principios ha sido ampliamente influyente.",
+          de: "Ray Dalio gründete 1975 Bridgewater Associates und ließ es zum weltgrößten Hedgefonds mit über 140 Milliarden Dollar Vermögen wachsen. Seine prinzipienbasierte Managementphilosophie war weithin einflussreich.",
+          nl: "Ray Dalio heeft Bridgewater Associates opgericht in 1975, het uitbouwend tot 's werelds grootste hedgefonds met meer dan $140 miljard aan activa. Zijn op principes gebaseerde managementfilosofie was zeer invloedrijk."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Virgin Group, the British multinational conglomerate?",
+          es: "¿Quién fundó Virgin Group, el conglomerado multinacional británico?",
+          de: "Wer gründete Virgin Group, das britische multinationale Konglomerat?",
+          nl: "Wie heeft Virgin Group opgericht, het Britse multinationale conglomeraat?"
+        },
+        options: [
+          { en: "Richard Branson", es: "Richard Branson", de: "Richard Branson", nl: "Richard Branson" },
+          { en: "James Dyson", es: "James Dyson", de: "James Dyson", nl: "James Dyson" },
+          { en: "Philip Green", es: "Philip Green", de: "Philip Green", nl: "Philip Green" },
+          { en: "Alan Sugar", es: "Alan Sugar", de: "Alan Sugar", nl: "Alan Sugar" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Richard Branson founded Virgin as a mail-order record business in 1970, expanding into Virgin Records, Virgin Atlantic Airways, Virgin Mobile, and over 400 companies across various industries.",
+          es: "Richard Branson fundó Virgin como un negocio de discos por correo en 1970, expandiéndose a Virgin Records, Virgin Atlantic Airways, Virgin Mobile y más de 400 compañías en varias industrias.",
+          de: "Richard Branson gründete Virgin 1970 als Versandhandel für Schallplatten und expandierte zu Virgin Records, Virgin Atlantic Airways, Virgin Mobile und über 400 Unternehmen in verschiedenen Branchen.",
+          nl: "Richard Branson heeft Virgin opgericht als een postorderplatenbedrijf in 1970, uitbreidend naar Virgin Records, Virgin Atlantic Airways, Virgin Mobile en meer dan 400 bedrijven in verschillende industrieën."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Dyson, the vacuum cleaner company?",
+          es: "¿Qué empresario fundó Dyson, la compañía de aspiradoras?",
+          de: "Welcher Unternehmer gründete Dyson, das Staubsauger-Unternehmen?",
+          nl: "Welke ondernemer heeft Dyson opgericht, het stofzuigerbedrijf?"
+        },
+        options: [
+          { en: "James Dyson", es: "James Dyson", de: "James Dyson", nl: "James Dyson" },
+          { en: "Richard Branson", es: "Richard Branson", de: "Richard Branson", nl: "Richard Branson" },
+          { en: "Elon Musk", es: "Elon Musk", de: "Elon Musk", nl: "Elon Musk" },
+          { en: "Steve Jobs", es: "Steve Jobs", de: "Steve Jobs", nl: "Steve Jobs" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "James Dyson founded Dyson Ltd in 1991 after developing the first bagless vacuum cleaner. After 5,127 prototypes over 15 years, his revolutionary cyclonic technology transformed the industry.",
+          es: "James Dyson fundó Dyson Ltd en 1991 después de desarrollar la primera aspiradora sin bolsa. Después de 5,127 prototipos durante 15 años, su revolucionaria tecnología ciclónica transformó la industria.",
+          de: "James Dyson gründete 1991 Dyson Ltd, nachdem er den ersten beutellosen Staubsauger entwickelt hatte. Nach 5.127 Prototypen über 15 Jahre transformierte seine revolutionäre Zyklon-Technologie die Branche.",
+          nl: "James Dyson heeft Dyson Ltd opgericht in 1991 na het ontwikkelen van de eerste zakloze stofzuiger. Na 5.127 prototypes over 15 jaar transformeerde zijn revolutionaire cyclonische technologie de industrie."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Zara and Inditex, becoming one of the world's richest fashion retailers?",
+          es: "¿Quién fundó Zara e Inditex, convirtiéndose en uno de los minoristas de moda más ricos del mundo?",
+          de: "Wer gründete Zara und Inditex und wurde zu einem der reichsten Modehändler der Welt?",
+          nl: "Wie heeft Zara en Inditex opgericht en werd een van 's werelds rijkste modehandelaren?"
+        },
+        options: [
+          { en: "Amancio Ortega", es: "Amancio Ortega", de: "Amancio Ortega", nl: "Amancio Ortega" },
+          { en: "Bernard Arnault", es: "Bernard Arnault", de: "Bernard Arnault", nl: "Bernard Arnault" },
+          { en: "Stefan Persson", es: "Stefan Persson", de: "Stefan Persson", nl: "Stefan Persson" },
+          { en: "Phil Knight", es: "Phil Knight", de: "Phil Knight", nl: "Phil Knight" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Amancio Ortega founded Zara in 1975 and Inditex holding company. His fast-fashion model revolutionized retail, making him one of the world's wealthiest people with a fortune exceeding $60 billion.",
+          es: "Amancio Ortega fundó Zara en 1975 y la empresa holding Inditex. Su modelo de moda rápida revolucionó el comercio minorista, convirtiéndolo en una de las personas más ricas del mundo con una fortuna que supera los $60 mil millones.",
+          de: "Amancio Ortega gründete 1975 Zara und die Holdinggesellschaft Inditex. Sein Fast-Fashion-Modell revolutionierte den Einzelhandel und machte ihn zu einem der reichsten Menschen der Welt mit einem Vermögen von über 60 Milliarden Dollar.",
+          nl: "Amancio Ortega heeft Zara opgericht in 1975 en holdingbedrijf Inditex. Zijn fast-fashion model revolutioneerde de retail, waardoor hij een van 's werelds rijkste mensen werd met een fortuin van meer dan $60 miljard."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded IKEA, the Swedish furniture retail giant?",
+          es: "¿Qué empresario fundó IKEA, el gigante minorista de muebles sueco?",
+          de: "Welcher Unternehmer gründete IKEA, den schwedischen Möbelhandelsriesen?",
+          nl: "Welke ondernemer heeft IKEA opgericht, de Zweedse meubelretailreus?"
+        },
+        options: [
+          { en: "Ingvar Kamprad", es: "Ingvar Kamprad", de: "Ingvar Kamprad", nl: "Ingvar Kamprad" },
+          { en: "Erling Persson", es: "Erling Persson", de: "Erling Persson", nl: "Erling Persson" },
+          { en: "Stefan Persson", es: "Stefan Persson", de: "Stefan Persson", nl: "Stefan Persson" },
+          { en: "Ingrid Kamprad", es: "Ingrid Kamprad", de: "Ingrid Kamprad", nl: "Ingrid Kamprad" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ingvar Kamprad founded IKEA in 1943 at age 17, revolutionizing furniture retail with flat-pack designs and self-assembly. The name IKEA comes from his initials plus his farm and village names.",
+          es: "Ingvar Kamprad fundó IKEA en 1943 a los 17 años, revolucionando el comercio minorista de muebles con diseños de paquete plano y autoensamblaje. El nombre IKEA proviene de sus iniciales más los nombres de su granja y pueblo.",
+          de: "Ingvar Kamprad gründete IKEA 1943 im Alter von 17 Jahren und revolutionierte den Möbelhandel mit Flatpack-Designs und Selbstmontage. Der Name IKEA stammt von seinen Initialen plus Farm- und Dorfnamen.",
+          nl: "Ingvar Kamprad heeft IKEA opgericht in 1943 op 17-jarige leeftijd, hij revolutioneerde de meubelretail met flatpack-ontwerpen en zelfmontage. De naam IKEA komt van zijn initialen plus zijn boerderij- en dorpsnamen."
+        }
+      },
+      {
+        question: {
+          en: "Who founded H&M (Hennes & Mauritz), the Swedish fashion retailer?",
+          es: "¿Quién fundó H&M (Hennes & Mauritz), el minorista de moda sueco?",
+          de: "Wer gründete H&M (Hennes & Mauritz), den schwedischen Modehändler?",
+          nl: "Wie heeft H&M (Hennes & Mauritz) opgericht, de Zweedse mode-retailer?"
+        },
+        options: [
+          { en: "Erling Persson", es: "Erling Persson", de: "Erling Persson", nl: "Erling Persson" },
+          { en: "Ingvar Kamprad", es: "Ingvar Kamprad", de: "Ingvar Kamprad", nl: "Ingvar Kamprad" },
+          { en: "Stefan Persson", es: "Stefan Persson", de: "Stefan Persson", nl: "Stefan Persson" },
+          { en: "Amancio Ortega", es: "Amancio Ortega", de: "Amancio Ortega", nl: "Amancio Ortega" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Erling Persson founded H&M in 1947 in Sweden, starting as Hennes (Swedish for 'hers') selling women's clothing. After acquiring Mauritz Widforss in 1968, it became H&M and expanded globally.",
+          es: "Erling Persson fundó H&M en 1947 en Suecia, comenzando como Hennes (sueco para 'ella') vendiendo ropa de mujer. Después de adquirir Mauritz Widforss en 1968, se convirtió en H&M y se expandió globalmente.",
+          de: "Erling Persson gründete H&M 1947 in Schweden, begann als Hennes (schwedisch für 'ihr') mit Damenbekleidung. Nach der Übernahme von Mauritz Widforss 1968 wurde es zu H&M und expandierte weltweit.",
+          nl: "Erling Persson heeft H&M opgericht in 1947 in Zweden, te beginnen als Hennes (Zweeds voor 'haar') met dameskleding. Na de overname van Mauritz Widforss in 1968 werd het H&M en breidde wereldwijd uit."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded L'Oréal, the world's largest cosmetics company?",
+          es: "¿Qué empresario fundó L'Oréal, la empresa de cosméticos más grande del mundo?",
+          de: "Welcher Unternehmer gründete L'Oréal, das weltgrößte Kosmetikunternehmen?",
+          nl: "Welke ondernemer heeft L'Oréal opgericht, 's werelds grootste cosmeticabedrijf?"
+        },
+        options: [
+          { en: "Eugène Schueller", es: "Eugène Schueller", de: "Eugène Schueller", nl: "Eugène Schueller" },
+          { en: "François Dalle", es: "François Dalle", de: "François Dalle", nl: "François Dalle" },
+          { en: "Liliane Bettencourt", es: "Liliane Bettencourt", de: "Liliane Bettencourt", nl: "Liliane Bettencourt" },
+          { en: "Jean-Paul Agon", es: "Jean-Paul Agon", de: "Jean-Paul Agon", nl: "Jean-Paul Agon" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Eugène Schueller founded L'Oréal in 1909, initially creating synthetic hair dyes. His daughter Liliane Bettencourt inherited the company and became one of the world's wealthiest women.",
+          es: "Eugène Schueller fundó L'Oréal en 1909, creando inicialmente tintes para el cabello sintéticos. Su hija Liliane Bettencourt heredó la compañía y se convirtió en una de las mujeres más ricas del mundo.",
+          de: "Eugène Schueller gründete L'Oréal 1909 und entwickelte zunächst synthetische Haarfärbemittel. Seine Tochter Liliane Bettencourt erbte das Unternehmen und wurde zu einer der reichsten Frauen der Welt.",
+          nl: "Eugène Schueller heeft L'Oréal opgericht in 1909, aanvankelijk synthetische haarverf creërend. Zijn dochter Liliane Bettencourt erfde het bedrijf en werd een van 's werelds rijkste vrouwen."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Chanel, the French luxury fashion house?",
+          es: "¿Quién fundó Chanel, la casa de moda de lujo francesa?",
+          de: "Wer gründete Chanel, das französische Luxusmodehaus?",
+          nl: "Wie heeft Chanel opgericht, het Franse luxe modehuis?"
+        },
+        options: [
+          { en: "Coco Chanel", es: "Coco Chanel", de: "Coco Chanel", nl: "Coco Chanel" },
+          { en: "Christian Dior", es: "Christian Dior", de: "Christian Dior", nl: "Christian Dior" },
+          { en: "Yves Saint Laurent", es: "Yves Saint Laurent", de: "Yves Saint Laurent", nl: "Yves Saint Laurent" },
+          { en: "Karl Lagerfeld", es: "Karl Lagerfeld", de: "Karl Lagerfeld", nl: "Karl Lagerfeld" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Coco Chanel founded Chanel in 1910, revolutionizing women's fashion with elegant simplicity, creating iconic products like Chanel No. 5 perfume and the little black dress.",
+          es: "Coco Chanel fundó Chanel en 1910, revolucionando la moda femenina con elegancia simple, creando productos icónicos como el perfume Chanel No. 5 y el pequeño vestido negro.",
+          de: "Coco Chanel gründete Chanel 1910 und revolutionierte die Damenmode mit eleganter Schlichtheit, schuf ikonische Produkte wie das Parfüm Chanel No. 5 und das kleine Schwarze.",
+          nl: "Coco Chanel heeft Chanel opgericht in 1910, zij revolutioneerde damesmode met elegante eenvoud, creërend iconische producten zoals Chanel No. 5 parfum en het kleine zwarte jurkje."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded LVMH, the world's largest luxury goods company?",
+          es: "¿Qué empresario fundó LVMH, la empresa de artículos de lujo más grande del mundo?",
+          de: "Welcher Unternehmer gründete LVMH, das weltgrößte Luxusgüterunternehmen?",
+          nl: "Welke ondernemer heeft LVMH opgericht, 's werelds grootste luxegoederen bedrijf?"
+        },
+        options: [
+          { en: "Bernard Arnault", es: "Bernard Arnault", de: "Bernard Arnault", nl: "Bernard Arnault" },
+          { en: "François Pinault", es: "François Pinault", de: "François Pinault", nl: "François Pinault" },
+          { en: "Alain Wertheimer", es: "Alain Wertheimer", de: "Alain Wertheimer", nl: "Alain Wertheimer" },
+          { en: "Johann Rupert", es: "Johann Rupert", de: "Johann Rupert", nl: "Johann Rupert" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bernard Arnault acquired and merged companies to create LVMH (Louis Vuitton Moët Hennessy) in 1987, building an empire of luxury brands including Dior, Fendi, and Tiffany & Co., making him one of the world's wealthiest people.",
+          es: "Bernard Arnault adquirió y fusionó empresas para crear LVMH (Louis Vuitton Moët Hennessy) en 1987, construyendo un imperio de marcas de lujo que incluye Dior, Fendi y Tiffany & Co., convirtiéndolo en una de las personas más ricas del mundo.",
+          de: "Bernard Arnault erwarb und fusionierte Unternehmen zur Gründung von LVMH (Louis Vuitton Moët Hennessy) 1987 und baute ein Imperium von Luxusmarken auf, darunter Dior, Fendi und Tiffany & Co., was ihn zu einem der reichsten Menschen der Welt machte.",
+          nl: "Bernard Arnault verwierf en fuseerde bedrijven om LVMH (Louis Vuitton Moët Hennessy) te creëren in 1987, hij bouwde een imperium van luxemerken op inclusief Dior, Fendi en Tiffany & Co., waardoor hij een van 's werelds rijkste mensen werd."
         }
       }
     ]

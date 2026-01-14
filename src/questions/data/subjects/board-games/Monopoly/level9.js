@@ -839,29 +839,7 @@
         de: "Feiglingsspiel: zwei Spieler die gegenseitig Monopole blockieren weigern sich zu handeln (beide 'ausweichen' = Gesicht verlieren, 'Kurs halten' = gegenseitige Zerstörung), ermöglicht drittem Spieler unangefochten zu entwickeln und zu gewinnen. Spieltheoretischer Deadlock.",
         nl: "Kip dilemma: twee spelers die elkaars monopolies blokkeren weigeren te ruilen (beide 'uitwijken' = gezicht verliezen, 'koers houden' = wederzijdse vernietiging), waardoor derde speler ongemoeid kan ontwikkelen en winnen. Speltheoretische impasse."
       }
-    },
-    {
-      question: {
-        en: "What is the 'bounded rationality threshold' in real-time Monopoly decision-making?",
-        es: "¿Qué es el 'umbral de racionalidad limitada' en la toma de decisiones en tiempo real de Monopoly?",
-        de: "Was ist die 'begrenzte Rationalitätsschwelle' in Echtzeit-Monopoly-Entscheidungsfindung?",
-        nl: "Wat is de 'begrensde rationaliteitsdrempel' in real-time Monopoly besluitvorming?"
-      },
-      options: [
-        { en: "Players can only calculate 2-3 moves ahead accurately", es: "Los jugadores solo pueden calcular 2-3 movimientos adelante con precisión", de: "Spieler können nur 2-3 Züge voraus genau berechnen", nl: "Spelers kunnen slechts 2-3 zetten vooruit nauwkeurig berekenen" },
-        { en: "Cognitive limit where heuristics replace full game tree analysis (~5-6 decision nodes)", es: "Límite cognitivo donde heurísticas reemplazan análisis completo del árbol de juego (~5-6 nodos de decisión)", de: "Kognitive Grenze wo Heuristiken vollständige Spielbaum-Analyse ersetzen (~5-6 Entscheidungsknoten)", nl: "Cognitieve limiet waar heuristieken volledige spelboom analyse vervangen (~5-6 beslissingsknopen)" },
-        { en: "Point where emotions override strategy", es: "Punto donde las emociones anulan la estrategia", de: "Punkt wo Emotionen Strategie überschreiben", nl: "Punt waar emoties strategie overschrijven" },
-        { en: "Maximum number of properties to track", es: "Número máximo de propiedades para rastrear", de: "Maximale Anzahl von Grundstücken zu verfolgen", nl: "Maximum aantal eigendommen om te volgen" }
-      ],
-      correct: 1,
-      explanation: {
-        en: "Research shows humans can maintain ~5-6 decision nodes in working memory during time-pressured Monopoly play. Beyond this, players rely on heuristics (rules of thumb) rather than optimal game tree evaluation.",
-        es: "La investigación muestra que los humanos pueden mantener ~5-6 nodos de decisión en la memoria de trabajo durante juego de Monopoly bajo presión de tiempo. Más allá de esto, los jugadores confían en heurísticas (reglas empíricas) en lugar de evaluación óptima del árbol de juego.",
-        de: "Forschung zeigt Menschen können ~5-6 Entscheidungsknoten im Arbeitsgedächtnis während zeitlich begrenztem Monopoly-Spiel halten. Darüber hinaus verlassen sich Spieler auf Heuristiken (Faustregeln) statt optimaler Spielbaum-Bewertung.",
-        nl: "Onderzoek toont mensen kunnen ~5-6 beslissingsknopen in werkgeheugen behouden tijdens tijdsdruk Monopoly spel. Hierboven vertrouwen spelers op heuristieken (vuistregels) in plaats van optimale spelboom evaluatie."
-      }
-    }
-  ];
+    },  ];
 
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = questions;

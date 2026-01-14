@@ -826,6 +826,48 @@
           de: "Selbst wenn du weißt, dass ein Vorschlag unmöglich ist basierend auf deinen Karten, solltest du den normalen Spielregeln folgen. Zeige nur eine Karte, wenn erforderlich, und lass sie die Wahrheit durch das Spiel entdecken.",
           nl: "Zelfs als je weet dat een suggestie onmogelijk is op basis van je kaarten, moet je de normale spelregels volgen. Toon alleen een kaart als vereist, en laat ze de waarheid door gameplay ontdekken."
         }
+,
+    {
+      question: {
+        en: "What is the Clue deduction grid used for?",
+        es: "What is the Clue deduction grid used for?",
+        de: "What is the Clue deduction grid used for?",
+        nl: "What is the Clue deduction grid used for?"
+      },
+      options: [
+        {
+          en: "Tracking which cards have been seen or eliminated to deduce the solution",
+          es: "Tracking which cards have been seen or eliminated to deduce the solution",
+          de: "Tracking which cards have been seen or eliminated to deduce the solution",
+          nl: "Tracking which cards have been seen or eliminated to deduce the solution"
+        },
+        {
+          en: "Drawing the game board",
+          es: "Drawing the game board",
+          de: "Drawing the game board",
+          nl: "Drawing the game board"
+        },
+        {
+          en: "Keeping score",
+          es: "Keeping score",
+          de: "Keeping score",
+          nl: "Keeping score"
+        },
+        {
+          en: "Recording dice rolls",
+          es: "Recording dice rolls",
+          de: "Recording dice rolls",
+          nl: "Recording dice rolls"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The deduction grid helps players track shown cards and eliminate possibilities systematically to deduce who, what, and where.",
+        es: "The deduction grid helps players track shown cards and eliminate possibilities systematically to deduce who, what, and where.",
+        de: "The deduction grid helps players track shown cards and eliminate possibilities systematically to deduce who, what, and where.",
+        nl: "The deduction grid helps players track shown cards and eliminate possibilities systematically to deduce who, what, and where."
+      }
+    }
       }
     ]
   };

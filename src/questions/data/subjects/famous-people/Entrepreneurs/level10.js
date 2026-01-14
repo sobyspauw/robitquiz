@@ -427,6 +427,216 @@
           de: "Die Radhaniten betrieben mehrsprachige Handelsrouten (8.-11. Jahrhundert) von Francia bis China, handelten mit Sklaven, Pelzen und Gewürzen über feindliche christliche und islamische Gebiete und waren Pioniere des internationalen Handels während Europas dunklem Zeitalter.",
           nl: "De Radhanites onderhielden meertalige handelsroutes (8e-11e eeuw) van Francia tot China, handelden in slaven, bont en specerijen door vijandige christelijke en islamitische gebieden, en waren pioniers in internationale handel tijdens Europa's Middeleeuwen."
         }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Standard Oil and became the world's first billionaire through oil refining monopoly?",
+          es: "¿Qué empresario fundó Standard Oil y se convirtió en el primer multimillonario del mundo a través del monopolio de refinación de petróleo?",
+          de: "Welcher Unternehmer gründete Standard Oil und wurde durch ein Ölraffinerie-Monopol zum ersten Milliardär der Welt?",
+          nl: "Welke ondernemer heeft Standard Oil opgericht en werd 's werelds eerste miljardair door een olieraffinage-monopolie?"
+        },
+        options: [
+          { en: "John D. Rockefeller", es: "John D. Rockefeller", de: "John D. Rockefeller", nl: "John D. Rockefeller" },
+          { en: "Andrew Carnegie", es: "Andrew Carnegie", de: "Andrew Carnegie", nl: "Andrew Carnegie" },
+          { en: "J.P. Morgan", es: "J.P. Morgan", de: "J.P. Morgan", nl: "J.P. Morgan" },
+          { en: "Cornelius Vanderbilt", es: "Cornelius Vanderbilt", de: "Cornelius Vanderbilt", nl: "Cornelius Vanderbilt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "John D. Rockefeller founded Standard Oil in 1870, controlling 90% of US oil refineries by 1880. His ruthless business tactics created America's first great monopoly. He became the world's first billionaire and pioneered modern philanthropy, donating over $500 million during his lifetime.",
+          es: "John D. Rockefeller fundó Standard Oil en 1870, controlando el 90% de las refinerías de petróleo de EE. UU. para 1880. Sus tácticas comerciales despiadadas crearon el primer gran monopolio de Estados Unidos. Se convirtió en el primer multimillonario del mundo y fue pionero en la filantropía moderna, donando más de $500 millones durante su vida.",
+          de: "John D. Rockefeller gründete 1870 Standard Oil und kontrollierte 1880 90% der US-Ölraffinerien. Seine rücksichtslosen Geschäftstaktiken schufen Amerikas erstes großes Monopol. Er wurde der erste Milliardär der Welt und war Pionier moderner Philanthropie, spendete während seines Lebens über 500 Millionen Dollar.",
+          nl: "John D. Rockefeller heeft Standard Oil opgericht in 1870 en controleerde tegen 1880 90% van de Amerikaanse olieraffinage. Zijn meedogenloze zakentactieken creëerden Amerika's eerste grote monopolie. Hij werd 's werelds eerste miljardair en was pionier in moderne filantropie, waarbij hij tijdens zijn leven meer dan $500 miljoen doneerde."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Carnegie Steel Company and later donated most of his fortune to build public libraries?",
+          es: "¿Quién fundó Carnegie Steel Company y más tarde donó la mayor parte de su fortuna para construir bibliotecas públicas?",
+          de: "Wer gründete die Carnegie Steel Company und spendete später den größten Teil seines Vermögens für den Bau öffentlicher Bibliotheken?",
+          nl: "Wie heeft Carnegie Steel Company opgericht en later het grootste deel van zijn fortuin gedoneerd om openbare bibliotheken te bouwen?"
+        },
+        options: [
+          { en: "Andrew Carnegie", es: "Andrew Carnegie", de: "Andrew Carnegie", nl: "Andrew Carnegie" },
+          { en: "Henry Clay Frick", es: "Henry Clay Frick", de: "Henry Clay Frick", nl: "Henry Clay Frick" },
+          { en: "Charles M. Schwab", es: "Charles M. Schwab", de: "Charles M. Schwab", nl: "Charles M. Schwab" },
+          { en: "Elbert H. Gary", es: "Elbert H. Gary", de: "Elbert H. Gary", nl: "Elbert H. Gary" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Andrew Carnegie built Carnegie Steel into America's largest steel company, selling it to J.P. Morgan for $480 million in 1901. He then devoted his life to philanthropy, writing 'The Gospel of Wealth' and donating $350 million to build 2,509 libraries, universities, and cultural institutions worldwide.",
+          es: "Andrew Carnegie construyó Carnegie Steel en la empresa de acero más grande de Estados Unidos, vendiéndola a J.P. Morgan por $480 millones en 1901. Luego dedicó su vida a la filantropía, escribiendo 'El Evangelio de la Riqueza' y donando $350 millones para construir 2,509 bibliotecas, universidades e instituciones culturales en todo el mundo.",
+          de: "Andrew Carnegie baute Carnegie Steel zum größten Stahlunternehmen Amerikas aus und verkaufte es 1901 für 480 Millionen Dollar an J.P. Morgan. Danach widmete er sein Leben der Philanthropie, schrieb 'Das Evangelium des Reichtums' und spendete 350 Millionen Dollar für den Bau von 2.509 Bibliotheken, Universitäten und Kultureinrichtungen weltweit.",
+          nl: "Andrew Carnegie bouwde Carnegie Steel uit tot Amerika's grootste staalbedrijf en verkocht het in 1901 voor $480 miljoen aan J.P. Morgan. Daarna wijdde hij zijn leven aan filantropie, schreef 'The Gospel of Wealth' en doneerde $350 miljoen om wereldwijd 2.509 bibliotheken, universiteiten en culturele instellingen te bouwen."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Ford Motor Company and revolutionized manufacturing with the assembly line?",
+          es: "¿Qué empresario fundó Ford Motor Company y revolucionó la fabricación con la línea de ensamblaje?",
+          de: "Welcher Unternehmer gründete die Ford Motor Company und revolutionierte die Fertigung mit dem Fließband?",
+          nl: "Welke ondernemer heeft Ford Motor Company opgericht en de productie gerevolutioneerd met de assemblagelijn?"
+        },
+        options: [
+          { en: "Henry Ford", es: "Henry Ford", de: "Henry Ford", nl: "Henry Ford" },
+          { en: "Ransom E. Olds", es: "Ransom E. Olds", de: "Ransom E. Olds", nl: "Ransom E. Olds" },
+          { en: "Walter Chrysler", es: "Walter Chrysler", de: "Walter Chrysler", nl: "Walter Chrysler" },
+          { en: "William C. Durant", es: "William C. Durant", de: "William C. Durant", nl: "William C. Durant" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Henry Ford founded Ford Motor Company in 1903 and revolutionized manufacturing with the moving assembly line (1913), reducing Model T production time from 12 hours to 93 minutes. He paid workers $5/day (double the average), creating middle-class consumers who could afford his cars.",
+          es: "Henry Ford fundó Ford Motor Company en 1903 y revolucionó la fabricación con la línea de ensamblaje móvil (1913), reduciendo el tiempo de producción del Model T de 12 horas a 93 minutos. Pagó a los trabajadores $5/día (el doble del promedio), creando consumidores de clase media que podían permitirse sus autos.",
+          de: "Henry Ford gründete 1903 die Ford Motor Company und revolutionierte die Fertigung mit dem Fließband (1913), wodurch die Produktionszeit des Model T von 12 Stunden auf 93 Minuten reduziert wurde. Er zahlte Arbeitern 5$/Tag (das Doppelte des Durchschnitts) und schuf Mittelschicht-Konsumenten, die sich seine Autos leisten konnten.",
+          nl: "Henry Ford heeft Ford Motor Company opgericht in 1903 en revolutioneerde de productie met de lopende assemblagelijn (1913), waarbij de productietijd van Model T werd verkort van 12 uur tot 93 minuten. Hij betaalde werknemers $5/dag (dubbel het gemiddelde), waardoor middenklasse-consumenten ontstonden die zijn auto's konden betalen."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Microsoft and became the world's richest person through personal computer software?",
+          es: "¿Quién fundó Microsoft y se convirtió en la persona más rica del mundo a través del software de computadoras personales?",
+          de: "Wer gründete Microsoft und wurde durch Personal-Computer-Software zum reichsten Menschen der Welt?",
+          nl: "Wie heeft Microsoft opgericht en werd 's werelds rijkste persoon door personal computer software?"
+        },
+        options: [
+          { en: "Bill Gates", es: "Bill Gates", de: "Bill Gates", nl: "Bill Gates" },
+          { en: "Paul Allen", es: "Paul Allen", de: "Paul Allen", nl: "Paul Allen" },
+          { en: "Steve Ballmer", es: "Steve Ballmer", de: "Steve Ballmer", nl: "Steve Ballmer" },
+          { en: "Steve Jobs", es: "Steve Jobs", de: "Steve Jobs", nl: "Steve Jobs" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bill Gates co-founded Microsoft with Paul Allen in 1975. Microsoft's MS-DOS and Windows operating systems dominated personal computing, making Gates the world's richest person (1995-2017). He pioneered modern tech philanthropy through the Bill & Melinda Gates Foundation, donating over $50 billion.",
+          es: "Bill Gates cofundó Microsoft con Paul Allen en 1975. Los sistemas operativos MS-DOS y Windows de Microsoft dominaron la computación personal, convirtiendo a Gates en la persona más rica del mundo (1995-2017). Fue pionero en la filantropía tecnológica moderna a través de la Fundación Bill y Melinda Gates, donando más de $50 mil millones.",
+          de: "Bill Gates gründete 1975 zusammen mit Paul Allen Microsoft. Microsofts Betriebssysteme MS-DOS und Windows dominierten das Personal Computing und machten Gates zum reichsten Menschen der Welt (1995-2017). Er war Pionier moderner Tech-Philanthropie durch die Bill & Melinda Gates Foundation und spendete über 50 Milliarden Dollar.",
+          nl: "Bill Gates heeft samen met Paul Allen Microsoft opgericht in 1975. Microsoft's MS-DOS en Windows besturingssystemen domineerden personal computing, waardoor Gates 's werelds rijkste persoon werd (1995-2017). Hij was pionier in moderne tech-filantropie via de Bill & Melinda Gates Foundation, waarbij hij meer dan $50 miljard doneerde."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur co-founded Apple and revolutionized personal computing, music, and smartphones?",
+          es: "¿Qué empresario cofundó Apple y revolucionó la computación personal, la música y los teléfonos inteligentes?",
+          de: "Welcher Unternehmer war Mitbegründer von Apple und revolutionierte Personal Computing, Musik und Smartphones?",
+          nl: "Welke ondernemer heeft Apple mede opgericht en personal computing, muziek en smartphones gerevolutioneerd?"
+        },
+        options: [
+          { en: "Steve Jobs", es: "Steve Jobs", de: "Steve Jobs", nl: "Steve Jobs" },
+          { en: "Steve Wozniak", es: "Steve Wozniak", de: "Steve Wozniak", nl: "Steve Wozniak" },
+          { en: "Tim Cook", es: "Tim Cook", de: "Tim Cook", nl: "Tim Cook" },
+          { en: "Ronald Wayne", es: "Ronald Wayne", de: "Ronald Wayne", nl: "Ronald Wayne" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Steve Jobs co-founded Apple in 1976, creating the Macintosh (1984), iPod (2001), iPhone (2007), and iPad (2010). His obsession with design and user experience transformed Apple into the world's most valuable company. Jobs pioneered the digital music revolution and smartphone era.",
+          es: "Steve Jobs cofundó Apple en 1976, creando la Macintosh (1984), iPod (2001), iPhone (2007) e iPad (2010). Su obsesión con el diseño y la experiencia del usuario transformó Apple en la empresa más valiosa del mundo. Jobs fue pionero en la revolución de la música digital y la era de los teléfonos inteligentes.",
+          de: "Steve Jobs war 1976 Mitbegründer von Apple und schuf den Macintosh (1984), iPod (2001), iPhone (2007) und iPad (2010). Seine Besessenheit von Design und Benutzererfahrung verwandelte Apple in das wertvollste Unternehmen der Welt. Jobs war Pionier der digitalen Musikrevolution und des Smartphone-Zeitalters.",
+          nl: "Steve Jobs heeft Apple mede opgericht in 1976 en creëerde de Macintosh (1984), iPod (2001), iPhone (2007) en iPad (2010). Zijn obsessie met design en gebruikerservaring transformeerde Apple tot 's werelds meest waardevolle bedrijf. Jobs was pionier van de digitale muziekrevolutie en het smartphone-tijdperk."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Amazon as an online bookstore and transformed it into the world's largest e-commerce company?",
+          es: "¿Quién fundó Amazon como una librería en línea y la transformó en la empresa de comercio electrónico más grande del mundo?",
+          de: "Wer gründete Amazon als Online-Buchhandlung und verwandelte es in das weltgrößte E-Commerce-Unternehmen?",
+          nl: "Wie heeft Amazon opgericht als online boekwinkel en het getransformeerd tot 's werelds grootste e-commerce bedrijf?"
+        },
+        options: [
+          { en: "Jeff Bezos", es: "Jeff Bezos", de: "Jeff Bezos", nl: "Jeff Bezos" },
+          { en: "Jack Ma", es: "Jack Ma", de: "Jack Ma", nl: "Jack Ma" },
+          { en: "Pierre Omidyar", es: "Pierre Omidyar", de: "Pierre Omidyar", nl: "Pierre Omidyar" },
+          { en: "Marc Benioff", es: "Marc Benioff", de: "Marc Benioff", nl: "Marc Benioff" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jeff Bezos founded Amazon in 1994 as an online bookstore from his garage. He expanded it into 'everything store,' revolutionizing retail with Prime membership, AWS cloud computing, and Kindle e-readers. Amazon became the world's most valuable retailer, and Bezos briefly became the world's richest person.",
+          es: "Jeff Bezos fundó Amazon en 1994 como una librería en línea desde su garaje. La expandió a la 'tienda de todo', revolucionando el comercio minorista con la membresía Prime, la computación en la nube de AWS y los lectores electrónicos Kindle. Amazon se convirtió en el minorista más valioso del mundo y Bezos brevemente se convirtió en la persona más rica del mundo.",
+          de: "Jeff Bezos gründete 1994 Amazon als Online-Buchhandlung in seiner Garage. Er erweiterte es zum 'Alles-Laden' und revolutionierte den Einzelhandel mit Prime-Mitgliedschaft, AWS Cloud Computing und Kindle E-Readern. Amazon wurde zum wertvollsten Einzelhändler der Welt und Bezos kurzzeitig zum reichsten Menschen der Welt.",
+          nl: "Jeff Bezos heeft Amazon opgericht in 1994 als online boekwinkel vanuit zijn garage. Hij breidde het uit tot de 'alles-winkel', revolutioneerde detailhandel met Prime-lidmaatschap, AWS cloud computing en Kindle e-readers. Amazon werd 's werelds meest waardevolle detailhandelaar en Bezos werd kortstondig 's werelds rijkste persoon."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Tesla and SpaceX, revolutionizing electric vehicles and space exploration?",
+          es: "¿Qué empresario fundó Tesla y SpaceX, revolucionando los vehículos eléctricos y la exploración espacial?",
+          de: "Welcher Unternehmer gründete Tesla und SpaceX und revolutionierte Elektrofahrzeuge und Weltraumforschung?",
+          nl: "Welke ondernemer heeft Tesla en SpaceX opgericht en elektrische voertuigen en ruimteverkenning gerevolutioneerd?"
+        },
+        options: [
+          { en: "Elon Musk", es: "Elon Musk", de: "Elon Musk", nl: "Elon Musk" },
+          { en: "Martin Eberhard", es: "Martin Eberhard", de: "Martin Eberhard", nl: "Martin Eberhard" },
+          { en: "Jeff Bezos", es: "Jeff Bezos", de: "Jeff Bezos", nl: "Jeff Bezos" },
+          { en: "Richard Branson", es: "Richard Branson", de: "Richard Branson", nl: "Richard Branson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Elon Musk co-founded PayPal, then founded SpaceX (2002) and joined Tesla (2004), becoming CEO. Tesla popularized electric vehicles, while SpaceX pioneered reusable rockets and commercial spaceflight. Musk also founded Neuralink, Boring Company, and acquired Twitter (X). He became the world's richest person in 2021.",
+          es: "Elon Musk cofundó PayPal, luego fundó SpaceX (2002) y se unió a Tesla (2004), convirtiéndose en CEO. Tesla popularizó los vehículos eléctricos, mientras SpaceX fue pionera en cohetes reutilizables y vuelos espaciales comerciales. Musk también fundó Neuralink, Boring Company y adquirió Twitter (X). Se convirtió en la persona más rica del mundo en 2021.",
+          de: "Elon Musk war Mitbegründer von PayPal, gründete dann SpaceX (2002) und trat Tesla bei (2004), wurde CEO. Tesla popularisierte Elektrofahrzeuge, während SpaceX wiederverwendbare Raketen und kommerzielle Raumfahrt pionierte. Musk gründete auch Neuralink, Boring Company und erwarb Twitter (X). Er wurde 2021 zum reichsten Menschen der Welt.",
+          nl: "Elon Musk heeft PayPal mede opgericht, vervolgens SpaceX opgericht (2002) en ging bij Tesla werken (2004), waar hij CEO werd. Tesla populariseerde elektrische voertuigen, terwijl SpaceX pionier was in herbruikbare raketten en commerciële ruimtevaart. Musk heeft ook Neuralink en Boring Company opgericht en Twitter (X) overgenomen. Hij werd in 2021 's werelds rijkste persoon."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Facebook (Meta) and became the youngest self-made billionaire in history?",
+          es: "¿Quién fundó Facebook (Meta) y se convirtió en el multimillonario hecho a sí mismo más joven de la historia?",
+          de: "Wer gründete Facebook (Meta) und wurde zum jüngsten selbstgemachten Milliardär der Geschichte?",
+          nl: "Wie heeft Facebook (Meta) opgericht en werd 's werelds jongste self-made miljardair uit de geschiedenis?"
+        },
+        options: [
+          { en: "Mark Zuckerberg", es: "Mark Zuckerberg", de: "Mark Zuckerberg", nl: "Mark Zuckerberg" },
+          { en: "Eduardo Saverin", es: "Eduardo Saverin", de: "Eduardo Saverin", nl: "Eduardo Saverin" },
+          { en: "Dustin Moskovitz", es: "Dustin Moskovitz", de: "Dustin Moskovitz", nl: "Dustin Moskovitz" },
+          { en: "Sean Parker", es: "Sean Parker", de: "Sean Parker", nl: "Sean Parker" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mark Zuckerberg founded Facebook in 2004 from his Harvard dorm room at age 19. Facebook grew to 3 billion users, becoming the world's largest social network. Zuckerberg became a billionaire at 23, the youngest self-made billionaire ever. He rebranded Facebook as Meta in 2021, focusing on virtual reality.",
+          es: "Mark Zuckerberg fundó Facebook en 2004 desde su dormitorio en Harvard a los 19 años. Facebook creció a 3 mil millones de usuarios, convirtiéndose en la red social más grande del mundo. Zuckerberg se convirtió en multimillonario a los 23, el multimillonario hecho a sí mismo más joven de la historia. Rebautizó Facebook como Meta en 2021, enfocándose en realidad virtual.",
+          de: "Mark Zuckerberg gründete 2004 Facebook aus seinem Harvard-Wohnheim im Alter von 19 Jahren. Facebook wuchs auf 3 Milliarden Nutzer und wurde zum weltgrößten sozialen Netzwerk. Zuckerberg wurde mit 23 Milliardär, der jüngste selbstgemachte Milliardär aller Zeiten. Er benannte Facebook 2021 in Meta um und konzentriert sich auf Virtual Reality.",
+          nl: "Mark Zuckerberg heeft Facebook opgericht in 2004 vanuit zijn Harvard-studentenkamer op 19-jarige leeftijd. Facebook groeide tot 3 miljard gebruikers en werd 's werelds grootste sociale netwerk. Zuckerberg werd miljardair op 23-jarige leeftijd, de jongste self-made miljardair ooit. Hij hernoemde Facebook tot Meta in 2021, met focus op virtual reality."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Virgin Group, creating a business empire spanning airlines, music, and space tourism?",
+          es: "¿Qué empresario fundó Virgin Group, creando un imperio empresarial que abarca aerolíneas, música y turismo espacial?",
+          de: "Welcher Unternehmer gründete Virgin Group und schuf ein Geschäftsimperium mit Fluggesellschaften, Musik und Weltraumtourismus?",
+          nl: "Welke ondernemer heeft Virgin Group opgericht en een zakelijk imperium gecreëerd met luchtvaartmaatschappijen, muziek en ruimtetoerisme?"
+        },
+        options: [
+          { en: "Richard Branson", es: "Richard Branson", de: "Richard Branson", nl: "Richard Branson" },
+          { en: "Freddie Laker", es: "Freddie Laker", de: "Freddie Laker", nl: "Freddie Laker" },
+          { en: "Stelios Haji-Ioannou", es: "Stelios Haji-Ioannou", de: "Stelios Haji-Ioannou", nl: "Stelios Haji-Ioannou" },
+          { en: "Herb Kelleher", es: "Herb Kelleher", de: "Herb Kelleher", nl: "Herb Kelleher" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Richard Branson founded Virgin Records in 1972 and expanded into Virgin Atlantic (1984), Virgin Mobile, Virgin Galactic (space tourism), and 400+ companies. Known for his adventurous personality and marketing genius, Branson built one of the world's most recognizable brands across diverse industries.",
+          es: "Richard Branson fundó Virgin Records en 1972 y expandió a Virgin Atlantic (1984), Virgin Mobile, Virgin Galactic (turismo espacial) y más de 400 empresas. Conocido por su personalidad aventurera y genio del marketing, Branson construyó una de las marcas más reconocibles del mundo en diversas industrias.",
+          de: "Richard Branson gründete 1972 Virgin Records und expandierte zu Virgin Atlantic (1984), Virgin Mobile, Virgin Galactic (Weltraumtourismus) und über 400 Unternehmen. Bekannt für seine abenteuerliche Persönlichkeit und Marketing-Genie baute Branson eine der bekanntesten Marken der Welt in verschiedenen Branchen auf.",
+          nl: "Richard Branson heeft Virgin Records opgericht in 1972 en breidde uit naar Virgin Atlantic (1984), Virgin Mobile, Virgin Galactic (ruimtetoerisme) en meer dan 400 bedrijven. Bekend om zijn avontuurlijke persoonlijkheid en marketinggenie, bouwde Branson een van 's werelds meest herkenbare merken op in diverse industrieën."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Alibaba, China's largest e-commerce company, after facing numerous rejections?",
+          es: "¿Quién fundó Alibaba, la empresa de comercio electrónico más grande de China, después de enfrentar numerosos rechazos?",
+          de: "Wer gründete Alibaba, Chinas größtes E-Commerce-Unternehmen, nachdem er zahlreiche Ablehnungen erlebt hatte?",
+          nl: "Wie heeft Alibaba opgericht, China's grootste e-commerce bedrijf, na talrijke afwijzingen te hebben ondervonden?"
+        },
+        options: [
+          { en: "Jack Ma (Ma Yun)", es: "Jack Ma (Ma Yun)", de: "Jack Ma (Ma Yun)", nl: "Jack Ma (Ma Yun)" },
+          { en: "Pony Ma", es: "Pony Ma", de: "Pony Ma", nl: "Pony Ma" },
+          { en: "Robin Li", es: "Robin Li", de: "Robin Li", nl: "Robin Li" },
+          { en: "Lei Jun", es: "Lei Jun", de: "Lei Jun", nl: "Lei Jun" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jack Ma founded Alibaba in 1999 from his apartment after being rejected from Harvard 10 times and KFC (where 24 were hired but not him). Alibaba became the world's largest e-commerce company, and Ma China's richest person. His inspirational story emphasizes persistence and vision despite repeated failure.",
+          es: "Jack Ma fundó Alibaba en 1999 desde su apartamento después de ser rechazado de Harvard 10 veces y de KFC (donde contrataron a 24 pero no a él). Alibaba se convirtió en la empresa de comercio electrónico más grande del mundo, y Ma en la persona más rica de China. Su historia inspiradora enfatiza la persistencia y la visión a pesar del fracaso repetido.",
+          de: "Jack Ma gründete 1999 Alibaba aus seiner Wohnung, nachdem er 10 Mal von Harvard und von KFC abgelehnt wurde (wo 24 eingestellt wurden, aber nicht er). Alibaba wurde zum weltgrößten E-Commerce-Unternehmen und Ma zu Chinas reichstem Menschen. Seine inspirierende Geschichte betont Beharrlichkeit und Vision trotz wiederholten Scheiterns.",
+          nl: "Jack Ma heeft Alibaba opgericht in 1999 vanuit zijn appartement na 10 keer te zijn afgewezen door Harvard en door KFC (waar 24 werden aangenomen maar hij niet). Alibaba werd 's werelds grootste e-commerce bedrijf en Ma China's rijkste persoon. Zijn inspirerende verhaal benadrukt doorzettingsvermogen en visie ondanks herhaalde mislukking."
+        }
       }
     ]
   };

@@ -427,6 +427,258 @@
           de: "Der Bau hielt eine außergewöhnliche vertikale Ausrichtungstoleranz von 6mm von der wahren Vertikalen über die gesamte Höhe von 828 Metern ein, erreicht durch fortschrittliche GPS- und Lasersysteme.",
           nl: "De bouw handhaafde een uitzonderlijke verticale uitlijningstolerantie van binnen 6mm van ware verticaal over de gehele hoogte van 828 meter, bereikt door geavanceerde GPS- en lasersystemen."
         }
+      },
+      {
+        question: {
+          en: "What specialized admixture was added to the concrete to enhance workability at extreme heights?",
+          es: "¿Qué aditivo especializado se agregó al concreto para mejorar la trabajabilidad a alturas extremas?",
+          de: "Welcher spezialisierte Zusatzstoff wurde dem Beton hinzugefügt, um die Verarbeitbarkeit in extremen Höhen zu verbessern?",
+          nl: "Welke gespecialiseerde toevoeging werd aan het beton toegevoegd om de verwerkbaarheid op extreme hoogtes te verbeteren?"
+        },
+        options: [
+          { en: "Superplasticizers only", es: "Solo superplastificantes", de: "Nur Superplastifizierer", nl: "Alleen superplasticizers" },
+          { en: "Ice crystals", es: "Cristales de hielo", de: "Eiskristalle", nl: "IJskristallen" },
+          { en: "Silica fume and fly ash", es: "Humo de sílice y ceniza volante", de: "Silikastaub und Flugasche", nl: "Silica fume en vliegas" },
+          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The concrete mixture incorporated silica fume and fly ash along with superplasticizers to enhance strength, reduce permeability, and maintain workability during the long pumping process to extreme heights.",
+          es: "La mezcla de concreto incorporó humo de sílice y ceniza volante junto con superplastificantes para mejorar la resistencia, reducir la permeabilidad y mantener la trabajabilidad durante el largo proceso de bombeo a alturas extremas.",
+          de: "Die Betonmischung enthielt Silikastaub und Flugasche zusammen mit Superplastifizierern, um die Festigkeit zu erhöhen, die Durchlässigkeit zu verringern und die Verarbeitbarkeit während des langen Pumpvorgangs in extreme Höhen aufrechtzuerhalten.",
+          nl: "Het betonmengsel bevatte silica fume en vliegas samen met superplasticizers om de sterkte te verhogen, de permeabiliteit te verminderen en de verwerkbaarheid te behouden tijdens het lange pompproces naar extreme hoogtes."
+        }
+      },
+      {
+        question: {
+          en: "What is the structural damping ratio designed into the Burj Khalifa to reduce oscillations?",
+          es: "¿Cuál es la relación de amortiguamiento estructural diseñada en el Burj Khalifa para reducir las oscilaciones?",
+          de: "Wie hoch ist das strukturelle Dämpfungsverhältnis, das in den Burj Khalifa eingebaut wurde, um Schwingungen zu reduzieren?",
+          nl: "Wat is de structurele dempingsverhouding ontworpen in de Burj Khalifa om oscillaties te verminderen?"
+        },
+        options: [
+          { en: "0.5% of critical", es: "0,5% de crítico", de: "0,5% der kritischen", nl: "0,5% van kritisch" },
+          { en: "1.5% of critical", es: "1,5% de crítico", de: "1,5% der kritischen", nl: "1,5% van kritisch" },
+          { en: "2.5% of critical", es: "2,5% de crítico", de: "2,5% der kritischen", nl: "2,5% van kritisch" },
+          { en: "4% of critical", es: "4% de crítico", de: "4% der kritischen", nl: "4% van kritisch" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Burj Khalifa's structural system incorporates approximately 1.5% damping ratio of critical damping through its buttressed core design and material properties, naturally reducing wind-induced oscillations without mechanical dampers.",
+          es: "El sistema estructural del Burj Khalifa incorpora aproximadamente 1,5% de relación de amortiguamiento del amortiguamiento crítico a través de su diseño de núcleo con contrafuertes y propiedades de materiales, reduciendo naturalmente las oscilaciones inducidas por el viento sin amortiguadores mecánicos.",
+          de: "Das Struktursystem des Burj Khalifa enthält etwa 1,5% Dämpfungsverhältnis der kritischen Dämpfung durch sein Buttressed-Core-Design und Materialeigenschaften, wodurch windinduzierte Schwingungen natürlich ohne mechanische Dämpfer reduziert werden.",
+          nl: "Het structurele systeem van de Burj Khalifa bevat ongeveer 1,5% dempingsverhouding van kritische demping door zijn buttressed kernontwerp en materiaaleigenschappen, waardoor door wind veroorzaakte oscillaties natuurlijk worden verminderd zonder mechanische dempers."
+        }
+      },
+      {
+        question: {
+          en: "What was the peak concrete placement rate achieved during construction?",
+          es: "¿Cuál fue la tasa máxima de colocación de concreto alcanzada durante la construcción?",
+          de: "Welche Spitzen-Betoneinbaurate wurde während des Baus erreicht?",
+          nl: "Wat was de piek betonplaatsingssnelheid behaald tijdens de bouw?"
+        },
+        options: [
+          { en: "One floor every 7 days", es: "Un piso cada 7 días", de: "Ein Stockwerk alle 7 Tage", nl: "Eén verdieping elke 7 dagen" },
+          { en: "One floor every 5 days", es: "Un piso cada 5 días", de: "Ein Stockwerk alle 5 Tage", nl: "Eén verdieping elke 5 dagen" },
+          { en: "One floor every 3 days", es: "Un piso cada 3 días", de: "Ein Stockwerk alle 3 Tage", nl: "Eén verdieping elke 3 dagen" },
+          { en: "One floor every 2 days", es: "Un piso cada 2 días", de: "Ein Stockwerk alle 2 Tage", nl: "Eén verdieping elke 2 dagen" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "At peak construction efficiency, the building crews achieved a remarkable rate of completing one floor every 3 days, utilizing advanced jump-form systems and continuous concrete pumping operations.",
+          es: "En el pico de eficiencia de construcción, los equipos de construcción lograron una tasa notable de completar un piso cada 3 días, utilizando sistemas avanzados de encofrado deslizante y operaciones continuas de bombeo de concreto.",
+          de: "Auf dem Höhepunkt der Baueffizienz erreichten die Bauteams eine bemerkenswerte Rate von einem Stockwerk alle 3 Tage unter Verwendung fortschrittlicher Gleitschalungssysteme und kontinuierlicher Betonpumpvorgänge.",
+          nl: "Op het hoogtepunt van de bouwefficiëntie bereikten de bouwteams een opmerkelijke snelheid van het voltooien van één verdieping elke 3 dagen, gebruikmakend van geavanceerde glijbekistingssystemen en continue betonpompoperaties."
+        }
+      },
+      {
+        question: {
+          en: "What structural redundancy factor was built into the Burj Khalifa's design?",
+          es: "¿Qué factor de redundancia estructural se incorporó en el diseño del Burj Khalifa?",
+          de: "Welcher strukturelle Redundanzfaktor wurde in das Design des Burj Khalifa eingebaut?",
+          nl: "Welke structurele redundantiefactor werd ingebouwd in het ontwerp van de Burj Khalifa?"
+        },
+        options: [
+          { en: "1.5x safety factor", es: "Factor de seguridad 1,5x", de: "1,5x Sicherheitsfaktor", nl: "1,5x veiligheidsfactor" },
+          { en: "2x safety factor", es: "Factor de seguridad 2x", de: "2x Sicherheitsfaktor", nl: "2x veiligheidsfactor" },
+          { en: "Multiple load paths", es: "Múltiples caminos de carga", de: "Mehrere Lastpfade", nl: "Meerdere lastpaden" },
+          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "The Burj Khalifa incorporates extensive structural redundancy including safety factors exceeding 2x in critical areas and multiple independent load paths, ensuring the building can redistribute loads if any single structural element fails.",
+          es: "El Burj Khalifa incorpora una extensa redundancia estructural incluyendo factores de seguridad que superan 2x en áreas críticas y múltiples caminos de carga independientes, asegurando que el edificio pueda redistribuir cargas si falla cualquier elemento estructural individual.",
+          de: "Der Burj Khalifa verfügt über umfangreiche strukturelle Redundanz, einschließlich Sicherheitsfaktoren von über 2x in kritischen Bereichen und mehreren unabhängigen Lastpfaden, um sicherzustellen, dass das Gebäude Lasten umverteilen kann, wenn ein einzelnes Strukturelement versagt.",
+          nl: "De Burj Khalifa bevat uitgebreide structurele redundantie inclusief veiligheidsfactoren die 2x overschrijden in kritieke gebieden en meerdere onafhankelijke lastpaden, waardoor het gebouw belastingen kan herverdelen als een enkel structureel element faalt."
+        }
+      },
+      {
+        question: {
+          en: "What innovative technology was used to control concrete temperature during curing?",
+          es: "¿Qué tecnología innovadora se utilizó para controlar la temperatura del concreto durante el curado?",
+          de: "Welche innovative Technologie wurde verwendet, um die Betontemperatur während des Aushärtens zu kontrollieren?",
+          nl: "Welke innovatieve technologie werd gebruikt om de betontemperatuur tijdens het uitharden te controleren?"
+        },
+        options: [
+          { en: "Ice-cooled aggregate", es: "Agregado enfriado con hielo", de: "Eisgekühlte Zuschlagstoffe", nl: "IJsgekoeld toeslagmateriaal" },
+          { en: "Chilled water circulation pipes", es: "Tuberías de circulación de agua enfriada", de: "Gekühlte Wasserzirkulationsrohre", nl: "Gekoelde watercirculatieleidingen" },
+          { en: "Night-time placement only", es: "Colocación solo nocturna", de: "Nur nächtliche Platzierung", nl: "Alleen 's nachts plaatsing" },
+          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "To prevent thermal cracking in the massive concrete sections, engineers used ice-cooled aggregates, embedded chilled water circulation pipes within the concrete, and scheduled major pours during cooler night hours when ambient temperatures were lower.",
+          es: "Para prevenir el agrietamiento térmico en las secciones masivas de concreto, los ingenieros utilizaron agregados enfriados con hielo, tuberías de circulación de agua enfriada embebidas dentro del concreto, y programaron los vertidos principales durante las horas nocturnas más frescas cuando las temperaturas ambientes eran más bajas.",
+          de: "Um thermische Rissbildung in den massiven Betonabschnitten zu verhindern, verwendeten Ingenieure eisgekühlte Zuschlagstoffe, eingebettete gekühlte Wasserzirkulationsrohre im Beton und planten größere Betonierungen während kühlerer Nachtstunden, wenn die Umgebungstemperaturen niedriger waren.",
+          nl: "Om thermische scheuren in de massieve betonsecties te voorkomen, gebruikten ingenieurs ijsgekoeld toeslagmateriaal, ingesloten gekoelde watercirculatieleidingen binnen het beton, en planden grote stortingen tijdens koelere nachtelijke uren wanneer de omgevingstemperaturen lager waren."
+        }
+      },
+      {
+        question: {
+          en: "What is the natural frequency of the Burj Khalifa's first mode of vibration?",
+          es: "¿Cuál es la frecuencia natural del primer modo de vibración del Burj Khalifa?",
+          de: "Was ist die Eigenfrequenz des ersten Schwingungsmodus des Burj Khalifa?",
+          nl: "Wat is de natuurlijke frequentie van de eerste trilmodus van de Burj Khalifa?"
+        },
+        options: [
+          { en: "0.05 Hz", es: "0,05 Hz", de: "0,05 Hz", nl: "0,05 Hz" },
+          { en: "0.12 Hz", es: "0,12 Hz", de: "0,12 Hz", nl: "0,12 Hz" },
+          { en: "0.20 Hz", es: "0,20 Hz", de: "0,20 Hz", nl: "0,20 Hz" },
+          { en: "0.35 Hz", es: "0,35 Hz", de: "0,35 Hz", nl: "0,35 Hz" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Burj Khalifa's fundamental natural frequency is approximately 0.12 Hz (period of about 8.3 seconds), which was carefully designed to avoid resonance with typical wind vortex shedding frequencies and provide occupant comfort.",
+          es: "La frecuencia natural fundamental del Burj Khalifa es aproximadamente 0,12 Hz (período de aproximadamente 8,3 segundos), que fue cuidadosamente diseñada para evitar la resonancia con las frecuencias típicas de desprendimiento de vórtices por viento y proporcionar comodidad a los ocupantes.",
+          de: "Die grundlegende Eigenfrequenz des Burj Khalifa beträgt etwa 0,12 Hz (Periode von etwa 8,3 Sekunden), die sorgfältig entworfen wurde, um Resonanz mit typischen Wind-Wirbelablösungsfrequenzen zu vermeiden und Komfort für die Bewohner zu bieten.",
+          nl: "De fundamentele natuurlijke frequentie van de Burj Khalifa is ongeveer 0,12 Hz (periode van ongeveer 8,3 seconden), die zorgvuldig werd ontworpen om resonantie met typische windwervelverliesfrequenties te vermijden en comfort voor bewoners te bieden."
+        }
+      },
+      {
+        question: {
+          en: "What specialized steel grade was used for the perimeter columns at the base?",
+          es: "¿Qué grado especializado de acero se utilizó para las columnas perimetrales en la base?",
+          de: "Welche spezielle Stahlgüte wurde für die Umfangsstützen an der Basis verwendet?",
+          nl: "Welke gespecialiseerde staalsoort werd gebruikt voor de perimeterkolommen aan de basis?"
+        },
+        options: [
+          { en: "Grade 350 steel", es: "Acero grado 350", de: "Stahl Güte 350", nl: "Staal graad 350" },
+          { en: "Grade 450 steel", es: "Acero grado 450", de: "Stahl Güte 450", nl: "Staal graad 450" },
+          { en: "Grade 550 steel", es: "Acero grado 550", de: "Stahl Güte 550", nl: "Staal graad 550" },
+          { en: "High-strength concrete only", es: "Solo concreto de alta resistencia", de: "Nur hochfester Beton", nl: "Alleen hoge-sterkte beton" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The perimeter columns at the base levels utilize Grade 550 high-strength steel (550 MPa yield strength), providing exceptional load-bearing capacity while minimizing column sizes to maximize usable floor space.",
+          es: "Las columnas perimetrales en los niveles base utilizan acero de alta resistencia Grado 550 (resistencia a la fluencia de 550 MPa), proporcionando capacidad de carga excepcional mientras minimizan los tamaños de columna para maximizar el espacio útil del piso.",
+          de: "Die Umfangsstützen an den Basisebenen verwenden hochfesten Stahl der Güte 550 (550 MPa Streckgrenze), der außergewöhnliche Tragfähigkeit bietet und gleichzeitig die Stützengrößen minimiert, um die nutzbare Bodenfläche zu maximieren.",
+          nl: "De perimeterkolommen op de basisniveaus gebruiken hoogsterkte staal Graad 550 (550 MPa vloeigrens), wat uitzonderlijke draagcapaciteit biedt terwijl kolomgroottes worden geminimaliseerd om bruikbare vloerruimte te maximaliseren."
+        }
+      },
+      {
+        question: {
+          en: "What acceleration limit was set for occupant comfort at the observation decks?",
+          es: "¿Qué límite de aceleración se estableció para el confort de los ocupantes en los miradores?",
+          de: "Welches Beschleunigungslimit wurde für den Komfort der Bewohner auf den Aussichtsplattformen festgelegt?",
+          nl: "Welke versnellingslimiet werd ingesteld voor het comfort van bewoners op de observatiedekken?"
+        },
+        options: [
+          { en: "5 milli-g", es: "5 mili-g", de: "5 Milli-g", nl: "5 milli-g" },
+          { en: "10 milli-g", es: "10 mili-g", de: "10 Milli-g", nl: "10 milli-g" },
+          { en: "15 milli-g", es: "15 mili-g", de: "15 Milli-g", nl: "15 milli-g" },
+          { en: "20 milli-g", es: "20 mili-g", de: "20 Milli-g", nl: "20 milli-g" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Burj Khalifa was designed with an acceleration limit of approximately 15 milli-g (0.015g) for the observation decks under 10-year return wind conditions, ensuring occupants experience minimal perceptible motion.",
+          es: "El Burj Khalifa fue diseñado con un límite de aceleración de aproximadamente 15 mili-g (0,015g) para los miradores bajo condiciones de viento de retorno de 10 años, asegurando que los ocupantes experimenten un movimiento perceptible mínimo.",
+          de: "Der Burj Khalifa wurde mit einem Beschleunigungslimit von etwa 15 Milli-g (0,015g) für die Aussichtsplattformen unter 10-Jahres-Wiederkehr-Windbedingungen entworfen, um sicherzustellen, dass Bewohner minimale wahrnehmbare Bewegung erfahren.",
+          nl: "De Burj Khalifa werd ontworpen met een versnellingslimiet van ongeveer 15 milli-g (0,015g) voor de observatiedekken onder 10-jaars terugkeer windomstandigheden, waardoor bewoners minimale waarneembare beweging ervaren."
+        }
+      },
+      {
+        question: {
+          en: "What proprietary software package did Skidmore, Owings & Merrill develop specifically for the Burj Khalifa's structural analysis?",
+          es: "¿Qué paquete de software propietario desarrolló Skidmore, Owings & Merrill específicamente para el análisis estructural del Burj Khalifa?",
+          de: "Welches proprietäre Softwarepaket entwickelte Skidmore, Owings & Merrill speziell für die Strukturanalyse des Burj Khalifa?",
+          nl: "Welk eigen softwarepakket ontwikkelde Skidmore, Owings & Merrill specifiek voor de structurele analyse van de Burj Khalifa?"
+        },
+        options: [
+          { en: "Custom ETABS extensions", es: "Extensiones personalizadas de ETABS", de: "Benutzerdefinierte ETABS-Erweiterungen", nl: "Aangepaste ETABS-extensies" },
+          { en: "Proprietary wind analysis tools", es: "Herramientas propietarias de análisis de viento", de: "Proprietäre Windanalyse-Tools", nl: "Eigen windanalysetools" },
+          { en: "Specialized concrete optimization algorithms", es: "Algoritmos especializados de optimización de concreto", de: "Spezialisierte Betonoptimierungsalgorithmen", nl: "Gespecialiseerde betonoptimalisatie-algoritmen" },
+          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "SOM's engineering team developed custom extensions to ETABS structural software, proprietary wind analysis tools integrating wind tunnel data, and specialized concrete optimization algorithms to handle the unprecedented complexity and scale of the Burj Khalifa's design and construction.",
+          es: "El equipo de ingeniería de SOM desarrolló extensiones personalizadas para el software estructural ETABS, herramientas propietarias de análisis de viento integrando datos de túnel de viento, y algoritmos especializados de optimización de concreto para manejar la complejidad y escala sin precedentes del diseño y construcción del Burj Khalifa.",
+          de: "Das Ingenieurteam von SOM entwickelte benutzerdefinierte Erweiterungen für die ETABS-Struktursoftware, proprietäre Windanalyse-Tools zur Integration von Windkanaldaten und spezialisierte Betonoptimierungsalgorithmen, um mit der beispiellosen Komplexität und dem Ausmaß des Designs und Baus des Burj Khalifa umzugehen.",
+          nl: "Het engineeringteam van SOM ontwikkelde aangepaste extensies voor ETABS structurele software, eigen windanalysetools die windtunneldata integreren, en gespecialiseerde betonoptimalisatie-algoritmen om de ongekende complexiteit en schaal van het ontwerp en de bouw van de Burj Khalifa aan te kunnen."
+        }
+      },
+      {
+        question: {
+          en: "What is the structural aspect ratio (height to width) of the Burj Khalifa?",
+          es: "¿Cuál es la relación de aspecto estructural (altura a ancho) del Burj Khalifa?",
+          de: "Was ist das strukturelle Seitenverhältnis (Höhe zu Breite) des Burj Khalifa?",
+          nl: "Wat is de structurele aspectverhouding (hoogte tot breedte) van de Burj Khalifa?"
+        },
+        options: [
+          { en: "Approximately 12:1", es: "Aproximadamente 12:1", de: "Etwa 12:1", nl: "Ongeveer 12:1" },
+          { en: "Approximately 18:1", es: "Aproximadamente 18:1", de: "Etwa 18:1", nl: "Ongeveer 18:1" },
+          { en: "Approximately 23:1", es: "Aproximadamente 23:1", de: "Etwa 23:1", nl: "Ongeveer 23:1" },
+          { en: "Approximately 30:1", es: "Aproximadamente 30:1", de: "Etwa 30:1", nl: "Ongeveer 30:1" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Burj Khalifa has an exceptional aspect ratio of approximately 23:1 (height of 828m to effective base width of about 36m), making it one of the most slender supertall structures ever built and requiring innovative structural solutions for stability.",
+          es: "El Burj Khalifa tiene una relación de aspecto excepcional de aproximadamente 23:1 (altura de 828m a ancho de base efectivo de aproximadamente 36m), convirtiéndolo en una de las estructuras super altas más esbeltas jamás construidas y requiriendo soluciones estructurales innovadoras para la estabilidad.",
+          de: "Der Burj Khalifa hat ein außergewöhnliches Seitenverhältnis von etwa 23:1 (Höhe von 828m zu effektiver Basisbreite von etwa 36m), was ihn zu einer der schlanksten jemals gebauten Superhochstrukturen macht und innovative strukturelle Lösungen für Stabilität erfordert.",
+          nl: "De Burj Khalifa heeft een uitzonderlijke aspectverhouding van ongeveer 23:1 (hoogte van 828m tot effectieve basisbreedte van ongeveer 36m), waarmee het een van de slanke superhoge structuren ooit gebouwd is en innovatieve structurele oplossingen voor stabiliteit vereist."
+        }
+      },
+      {
+        question: {
+          en: "What groundwater management system was implemented to prevent foundation undermining?",
+          es: "¿Qué sistema de gestión de aguas subterráneas se implementó para prevenir el socavamiento de los cimientos?",
+          de: "Welches Grundwassermanagementsystem wurde implementiert, um eine Unterspülung des Fundaments zu verhindern?",
+          nl: "Welk grondwaterbeheerssysteem werd geïmplementeerd om ondergraving van de fundering te voorkomen?"
+        },
+        options: [
+          { en: "Dewatering wells around perimeter", es: "Pozos de desagüe alrededor del perímetro", de: "Entwässerungsbrunnen um den Umfang", nl: "Ontwateringsbronnen rond de omtrek" },
+          { en: "Impermeable cutoff walls", es: "Muros de corte impermeables", de: "Undurchlässige Dichtwände", nl: "Ondoorlatende afsnijdingsmuren" },
+          { en: "Monitoring system with piezometers", es: "Sistema de monitoreo con piezómetros", de: "Überwachungssystem mit Piezometern", nl: "Monitoringsysteem met piezometers" },
+          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "A comprehensive groundwater management system was installed including dewatering wells to control water table, impermeable cutoff walls extending deep into bedrock to prevent water migration, and continuous monitoring with piezometers to track groundwater pressure and ensure foundation integrity.",
+          es: "Se instaló un sistema integral de gestión de aguas subterráneas que incluía pozos de desagüe para controlar el nivel freático, muros de corte impermeables que se extienden profundamente en la roca madre para prevenir la migración de agua, y monitoreo continuo con piezómetros para rastrear la presión del agua subterránea y asegurar la integridad de los cimientos.",
+          de: "Ein umfassendes Grundwassermanagementsystem wurde installiert, einschließlich Entwässerungsbrunnen zur Kontrolle des Grundwasserspiegels, undurchlässiger Dichtwände, die tief ins Grundgestein reichen, um Wassermigration zu verhindern, und kontinuierlicher Überwachung mit Piezometern, um den Grundwasserdruck zu verfolgen und die Fundament-Integrität zu gewährleisten.",
+          nl: "Een uitgebreid grondwaterbeheerssysteem werd geïnstalleerd inclusief ontwateringsbronnen om het grondwaterniveau te controleren, ondoorlatende afsnijdingsmuren die diep in het rotsfundament reiken om watermigratie te voorkomen, en continue monitoring met piezometers om grondwaterdruk te volgen en funderingsintegriteit te waarborgen."
+        }
+      },
+      {
+        question: {
+          en: "What vortex shedding mitigation strategy does the Burj Khalifa's shape employ?",
+          es: "¿Qué estrategia de mitigación de desprendimiento de vórtices emplea la forma del Burj Khalifa?",
+          de: "Welche Strategie zur Reduzierung der Wirbelablösung verwendet die Form des Burj Khalifa?",
+          nl: "Welke wervelverliesmittigatiestrategie gebruikt de vorm van de Burj Khalifa?"
+        },
+        options: [
+          { en: "Spiral setback geometry", es: "Geometría de retroceso espiral", de: "Spiralförmige Rücksprunggeometrie", nl: "Spiraal teruggetrokken geometrie" },
+          { en: "Varying cross-sections with height", es: "Secciones transversales variables con la altura", de: "Variierende Querschnitte mit der Höhe", nl: "Variërende dwarsdoorsneden met hoogte" },
+          { en: "Sharp edges to break up vortices", es: "Bordes afilados para romper vórtices", de: "Scharfe Kanten zum Aufbrechen von Wirbeln", nl: "Scherpe randen om wervels te breken" },
+          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "The Burj Khalifa employs multiple vortex shedding mitigation strategies including its spiraling setback geometry that confuses wind patterns, continuously varying cross-sections with height that prevent coherent vortex formation, and sharp edges at setback points that actively break up vortex structures, collectively reducing wind-induced vibrations by approximately 24%.",
+          es: "El Burj Khalifa emplea múltiples estrategias de mitigación de desprendimiento de vórtices incluyendo su geometría de retroceso espiral que confunde los patrones de viento, secciones transversales que varían continuamente con la altura que previenen la formación coherente de vórtices, y bordes afilados en puntos de retroceso que rompen activamente las estructuras de vórtices, reduciendo colectivamente las vibraciones inducidas por el viento en aproximadamente 24%.",
+          de: "Der Burj Khalifa verwendet mehrere Strategien zur Reduzierung der Wirbelablösung, darunter seine spiralförmige Rücksprunggeometrie, die Windmuster verwirrt, kontinuierlich variierende Querschnitte mit der Höhe, die kohärente Wirbelbildung verhindern, und scharfe Kanten an Rücksprungpunkten, die aktiv Wirbelstrukturen aufbrechen, wodurch windinduzierte Vibrationen insgesamt um etwa 24% reduziert werden.",
+          nl: "De Burj Khalifa gebruikt meerdere wervelverliesmittigatiestrategieën inclusief zijn spiralende teruggetrokken geometrie die windpatronen verward, continu variërende dwarsdoorsneden met hoogte die coherente wervelvorming voorkomen, en scherpe randen bij teruggetrokken punten die actief wervelstructuren breken, waarbij windgeïnduceerde trillingen gezamenlijk met ongeveer 24% worden verminderd."
+        }
       }
     ]
   };

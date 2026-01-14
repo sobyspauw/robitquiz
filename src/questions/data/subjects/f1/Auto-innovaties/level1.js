@@ -319,6 +319,326 @@
                 de: "Hybrid-Antriebseinheiten mit Turbo-V6-Motoren und Energierückgewinnungssystemen wurden 2014 eingeführt.",
                 nl: "Hybride aandrijfeenheden met turbo V6-motoren en energieterugwinsystemen werden in 2014 geïntroduceerd."
             }
+        },
+        {
+            question: {
+                en: "What is the halo device in Formula 1?",
+                es: "¿Qué es el dispositivo halo en la Fórmula 1?",
+                de: "Was ist das Halo-System in der Formel 1?",
+                nl: "Wat is het halo-apparaat in Formule 1?"
+            },
+            options: ["A tire sensor", "A cockpit protection bar", "An engine part", "A steering wheel feature"],
+            correct: 1,
+            explanation: {
+                en: "The halo is a titanium protection structure above the cockpit, introduced in 2018 to protect drivers' heads.",
+                es: "El halo es una estructura de protección de titanio sobre el cockpit, introducida en 2018 para proteger la cabeza de los pilotos.",
+                de: "Das Halo ist eine Titan-Schutzstruktur über dem Cockpit, 2018 eingeführt zum Schutz der Fahrerköpfe.",
+                nl: "De halo is een titanium beschermingsstructuur boven de cockpit, geïntroduceerd in 2018 om de hoofden van coureurs te beschermen."
+            }
+        },
+        {
+            question: {
+                en: "What are brake ducts used for?",
+                es: "¿Para qué se usan los conductos de freno?",
+                de: "Wofür werden Bremsschächte verwendet?",
+                nl: "Waar worden remkanalen voor gebruikt?"
+            },
+            options: ["Increase brake weight", "Cool the brakes", "Generate downforce", "Store brake fluid"],
+            correct: 1,
+            explanation: {
+                en: "Brake ducts channel air to cool the brakes, which can reach over 1000°C during heavy braking.",
+                es: "Los conductos de freno canalizan aire para enfriar los frenos, que pueden alcanzar más de 1000°C durante frenadas fuertes.",
+                de: "Bremsschächte leiten Luft zur Kühlung der Bremsen, die beim starken Bremsen über 1000°C erreichen können.",
+                nl: "Remkanalen leiden lucht om de remmen te koelen, die bij zwaar remmen meer dan 1000°C kunnen bereiken."
+            }
+        },
+        {
+            question: {
+                en: "What is anti-lock braking system (ABS) status in F1?",
+                es: "¿Cuál es el estado del sistema de frenos antibloqueo (ABS) en F1?",
+                de: "Wie ist der Status des Antiblockiersystems (ABS) in der F1?",
+                nl: "Wat is de status van het anti-blokkeersysteem (ABS) in F1?"
+            },
+            options: ["Required on all cars", "Optional", "Banned", "Only for wet conditions"],
+            correct: 2,
+            explanation: {
+                en: "ABS is banned in Formula 1 to keep driver skill important in braking performance.",
+                es: "El ABS está prohibido en Fórmula 1 para mantener la habilidad del piloto importante en el rendimiento de frenado.",
+                de: "ABS ist in der Formel 1 verboten, um die Fahrerfertigkeiten beim Bremsen wichtig zu halten.",
+                nl: "ABS is verboden in Formule 1 om de coureursvaardigheid belangrijk te houden bij remprestaties."
+            }
+        },
+        {
+            question: {
+                en: "What do F1 teams use wind tunnels for?",
+                es: "¿Para qué usan los equipos de F1 los túneles de viento?",
+                de: "Wofür nutzen F1-Teams Windkanäle?",
+                nl: "Waarvoor gebruiken F1-teams windtunnels?"
+            },
+            options: ["Test engine power", "Test aerodynamics", "Train drivers", "Store equipment"],
+            correct: 1,
+            explanation: {
+                en: "Wind tunnels test car aerodynamics using scale models to optimize airflow and downforce.",
+                es: "Los túneles de viento prueban la aerodinámica del coche usando modelos a escala para optimizar el flujo de aire.",
+                de: "Windkanäle testen die Fahrzeugaerodynamik mit Modellen, um Luftstrom und Abtrieb zu optimieren.",
+                nl: "Windtunnels testen de aerodynamica van de auto met schaalmodellen om luchtstroom en neerwaartse druk te optimaliseren."
+            }
+        },
+        {
+            question: {
+                en: "What are barge boards in Formula 1?",
+                es: "¿Qué son las barge boards en la Fórmula 1?",
+                de: "Was sind Barge Boards in der Formel 1?",
+                nl: "Wat zijn barge boards in Formule 1?"
+            },
+            options: ["Storage compartments", "Aerodynamic panels", "Brake components", "Suspension parts"],
+            correct: 1,
+            explanation: {
+                en: "Barge boards are vertical aerodynamic panels that direct airflow around the car's sides.",
+                es: "Las barge boards son paneles aerodinámicos verticales que dirigen el flujo de aire alrededor de los lados del coche.",
+                de: "Barge Boards sind vertikale aerodynamische Paneele, die den Luftstrom um die Fahrzeugseiten lenken.",
+                nl: "Barge boards zijn verticale aerodynamische panelen die de luchtstroom rond de zijkanten van de auto leiden."
+            }
+        },
+        {
+            question: {
+                en: "When were semi-automatic gearboxes introduced?",
+                es: "¿Cuándo se introdujeron las cajas de cambios semiautomáticas?",
+                de: "Wann wurden halbautomatische Getriebe eingeführt?",
+                nl: "Wanneer werden semi-automatische versnellingsbakken geïntroduceerd?"
+            },
+            options: ["1980s", "1990s", "2000s", "2010s"],
+            correct: 1,
+            explanation: {
+                en: "Semi-automatic gearboxes were introduced in 1989 by Ferrari, eliminating the clutch pedal except for starts.",
+                es: "Las cajas de cambios semiautomáticas se introdujeron en 1989 por Ferrari, eliminando el pedal de embrague excepto para salidas.",
+                de: "Halbautomatische Getriebe wurden 1989 von Ferrari eingeführt und eliminierten das Kupplungspedal außer beim Start.",
+                nl: "Semi-automatische versnellingsbakken werden in 1989 door Ferrari geïntroduceerd, waarmee het koppelingspedaal werd geëlimineerd behalve bij starts."
+            }
+        },
+        {
+            question: {
+                en: "What is traction control in F1?",
+                es: "¿Qué es el control de tracción en F1?",
+                de: "Was ist Traktionskontrolle in der F1?",
+                nl: "Wat is tractiecontrole in F1?"
+            },
+            options: ["A banned driver aid", "A required safety feature", "A tire type", "A brake system"],
+            correct: 0,
+            explanation: {
+                en: "Traction control prevents wheel spin but has been banned since 2008 to increase driver skill importance.",
+                es: "El control de tracción previene el patinaje de ruedas pero está prohibido desde 2008 para aumentar la importancia de la habilidad del piloto.",
+                de: "Traktionskontrolle verhindert Durchdrehen der Räder, ist aber seit 2008 verboten um Fahrerfertigkeiten wichtiger zu machen.",
+                nl: "Tractiecontrole voorkomt wielslip maar is sinds 2008 verboden om coureursvaardigheid belangrijker te maken."
+            }
+        },
+        {
+            question: {
+                en: "What are tire compounds in F1?",
+                es: "¿Qué son los compuestos de neumáticos en F1?",
+                de: "Was sind Reifenmischungen in der F1?",
+                nl: "Wat zijn bandensamenstellingen in F1?"
+            },
+            options: ["Different tire sizes", "Different rubber hardness levels", "Different rim types", "Different tread patterns"],
+            correct: 1,
+            explanation: {
+                en: "Tire compounds are different rubber hardness levels, with softer tires gripping better but wearing faster.",
+                es: "Los compuestos de neumáticos son diferentes niveles de dureza del caucho, los más blandos agarran mejor pero se desgastan más rápido.",
+                de: "Reifenmischungen sind verschiedene Gummihärtegrade, wobei weichere Reifen besser greifen aber schneller verschleißen.",
+                nl: "Bandensamenstellingen zijn verschillende rubberhardheid niveaus, waarbij zachtere banden beter grijpen maar sneller slijten."
+            }
+        },
+        {
+            question: {
+                en: "What is a diffuser on an F1 car?",
+                es: "¿Qué es un difusor en un coche de F1?",
+                de: "Was ist ein Diffusor an einem F1-Auto?",
+                nl: "Wat is een diffuser op een F1-auto?"
+            },
+            options: ["An engine component", "An underbody aerodynamic element", "A brake part", "A steering mechanism"],
+            correct: 1,
+            explanation: {
+                en: "A diffuser is an underbody element that speeds up airflow underneath the car to generate downforce.",
+                es: "Un difusor es un elemento bajo el coche que acelera el flujo de aire debajo para generar carga aerodinámica.",
+                de: "Ein Diffusor ist ein Unterbodenelement das den Luftstrom unter dem Auto beschleunigt um Abtrieb zu erzeugen.",
+                nl: "Een diffuser is een onderkant element dat de luchtstroom onder de auto versnelt om neerwaartse druk te genereren."
+            }
+        },
+        {
+            question: {
+                en: "When were active suspension systems banned?",
+                es: "¿Cuándo se prohibieron los sistemas de suspensión activa?",
+                de: "Wann wurden aktive Federungssysteme verboten?",
+                nl: "Wanneer werden actieve ophangsystemen verboden?"
+            },
+            options: ["1985", "1994", "2000", "2010"],
+            correct: 1,
+            explanation: {
+                en: "Active suspension was banned after 1993 to reduce costs and technological complexity.",
+                es: "La suspensión activa se prohibió después de 1993 para reducir costos y complejidad tecnológica.",
+                de: "Aktive Federung wurde nach 1993 verboten um Kosten und technologische Komplexität zu reduzieren.",
+                nl: "Actieve ophanging werd na 1993 verboden om kosten en technologische complexiteit te verminderen."
+            }
+        },
+        {
+            question: {
+                en: "What is the purpose of the F1 front wing?",
+                es: "¿Cuál es el propósito del alerón delantero de F1?",
+                de: "Was ist der Zweck des F1-Frontflügels?",
+                nl: "Wat is het doel van de F1-voorvleugel?"
+            },
+            options: ["Reduce drag only", "Generate downforce and direct airflow", "Protect the nose", "Improve visibility"],
+            correct: 1,
+            explanation: {
+                en: "The front wing generates downforce on the front axle and directs airflow around and under the car.",
+                es: "El alerón delantero genera carga aerodinámica en el eje delantero y dirige el flujo de aire alrededor y debajo del coche.",
+                de: "Der Frontflügel erzeugt Abtrieb an der Vorderachse und lenkt den Luftstrom um und unter das Auto.",
+                nl: "De voorvleugel genereert neerwaartse druk op de vooras en leidt luchtstroom rond en onder de auto."
+            }
+        },
+        {
+            question: {
+                en: "What are intermediate tires used for?",
+                es: "¿Para qué se usan los neumáticos intermedios?",
+                de: "Wofür werden Intermediates-Reifen verwendet?",
+                nl: "Waarvoor worden intermediate banden gebruikt?"
+            },
+            options: ["Dry conditions", "Light rain or drying track", "Heavy rain", "Qualifying only"],
+            correct: 1,
+            explanation: {
+                en: "Intermediate tires are designed for light rain or drying conditions, bridging the gap between slicks and full wets.",
+                es: "Los neumáticos intermedios están diseñados para lluvia ligera o pistas secándose, entre los lisos y los de lluvia.",
+                de: "Intermediates-Reifen sind für leichten Regen oder trocknende Bedingungen konzipiert, zwischen Slicks und Regenreifen.",
+                nl: "Intermediate banden zijn ontworpen voor lichte regen of opdrogende omstandigheden, tussen slicks en regenbanden."
+            }
+        },
+        {
+            question: {
+                en: "What do push-rod and pull-rod refer to?",
+                es: "¿A qué se refieren push-rod y pull-rod?",
+                de: "Worauf beziehen sich Push-Rod und Pull-Rod?",
+                nl: "Waar verwijzen push-rod en pull-rod naar?"
+            },
+            options: ["Engine types", "Suspension designs", "Brake systems", "Steering mechanisms"],
+            correct: 1,
+            explanation: {
+                en: "Push-rod and pull-rod are different suspension designs that connect the wheels to the dampers.",
+                es: "Push-rod y pull-rod son diseños de suspensión diferentes que conectan las ruedas a los amortiguadores.",
+                de: "Push-Rod und Pull-Rod sind verschiedene Federungsdesigns die die Räder mit den Dämpfern verbinden.",
+                nl: "Push-rod en pull-rod zijn verschillende ophangsystemen die de wielen verbinden met de dempers."
+            }
+        },
+        {
+            question: {
+                en: "What is the power unit MGU-K?",
+                es: "¿Qué es el MGU-K de la unidad de potencia?",
+                de: "Was ist die MGU-K der Antriebseinheit?",
+                nl: "Wat is de power unit MGU-K?"
+            },
+            options: ["A fuel system", "Motor Generator Unit - Kinetic", "A cooling system", "A brake component"],
+            correct: 1,
+            explanation: {
+                en: "MGU-K recovers kinetic energy from braking and converts it to electrical energy for power boost.",
+                es: "El MGU-K recupera energía cinética del frenado y la convierte en energía eléctrica para impulso de potencia.",
+                de: "MGU-K gewinnt kinetische Energie beim Bremsen zurück und wandelt sie in elektrische Energie für Leistungsschub um.",
+                nl: "MGU-K wint kinetische energie terug bij het remmen en zet het om in elektrische energie voor vermogensboost."
+            }
+        },
+        {
+            question: {
+                en: "What is the MGU-H in hybrid F1 engines?",
+                es: "¿Qué es el MGU-H en los motores híbridos de F1?",
+                de: "Was ist die MGU-H in Hybrid-F1-Motoren?",
+                nl: "Wat is de MGU-H in hybride F1-motoren?"
+            },
+            options: ["Hydraulic system", "Motor Generator Unit - Heat", "Fuel injector", "Air filter"],
+            correct: 1,
+            explanation: {
+                en: "MGU-H recovers energy from exhaust heat via the turbocharger to generate electricity.",
+                es: "El MGU-H recupera energía del calor del escape a través del turbocompresor para generar electricidad.",
+                de: "MGU-H gewinnt Energie aus Abgashitze über den Turbolader zurück um Strom zu erzeugen.",
+                nl: "MGU-H wint energie terug van uitlaatgaswarmte via de turbocharger om elektriciteit te genereren."
+            }
+        },
+        {
+            question: {
+                en: "What is DAS (Dual Axis Steering)?",
+                es: "¿Qué es el DAS (Dual Axis Steering)?",
+                de: "Was ist DAS (Dual Axis Steering)?",
+                nl: "Wat is DAS (Dual Axis Steering)?"
+            },
+            options: ["A banned innovation", "Current standard system", "A brake technology", "An engine feature"],
+            correct: 0,
+            explanation: {
+                en: "DAS allowed toe angle adjustment by pushing/pulling the steering wheel. Mercedes used it in 2020 before it was banned.",
+                es: "El DAS permitía ajustar el ángulo de convergencia empujando/tirando del volante. Mercedes lo usó en 2020 antes de ser prohibido.",
+                de: "DAS erlaubte Sturzwinkel-Anpassung durch Drücken/Ziehen des Lenkrads. Mercedes nutzte es 2020 bevor es verboten wurde.",
+                nl: "DAS maakte toe-hoek aanpassing mogelijk door het stuur te duwen/trekken. Mercedes gebruikte het in 2020 voordat het werd verboden."
+            }
+        },
+        {
+            question: {
+                en: "What are wet weather tires designed to do?",
+                es: "¿Para qué están diseñados los neumáticos de lluvia?",
+                de: "Wofür sind Regenreifen konzipiert?",
+                nl: "Waarvoor zijn regenbanden ontworpen?"
+            },
+            options: ["Increase speed", "Disperse water from the track", "Last longer", "Generate heat"],
+            correct: 1,
+            explanation: {
+                en: "Wet tires have deep grooves to disperse up to 65 liters of water per second at high speed.",
+                es: "Los neumáticos de lluvia tienen surcos profundos para dispersar hasta 65 litros de agua por segundo a alta velocidad.",
+                de: "Regenreifen haben tiefe Rillen um bis zu 65 Liter Wasser pro Sekunde bei hoher Geschwindigkeit zu verdrängen.",
+                nl: "Regenbanden hebben diepe groeven om tot 65 liter water per seconde bij hoge snelheid te verspreiden."
+            }
+        },
+        {
+            question: {
+                en: "What is engine mapping in F1?",
+                es: "¿Qué es el mapeo del motor en F1?",
+                de: "Was ist Engine Mapping in der F1?",
+                nl: "Wat is motor mapping in F1?"
+            },
+            options: ["Physical engine layout", "Software control of engine performance", "Cooling system design", "Fuel storage planning"],
+            correct: 1,
+            explanation: {
+                en: "Engine mapping is software that controls how the engine responds to throttle input for different conditions.",
+                es: "El mapeo del motor es software que controla cómo responde el motor al acelerador en diferentes condiciones.",
+                de: "Engine Mapping ist Software die steuert wie der Motor auf Gaspedalinput in verschiedenen Bedingungen reagiert.",
+                nl: "Motor mapping is software die regelt hoe de motor reageert op gaspedaalinput onder verschillende omstandigheden."
+            }
+        },
+        {
+            question: {
+                en: "What are flow-vis paints used for in F1?",
+                es: "¿Para qué se usan las pinturas flow-vis en F1?",
+                de: "Wofür werden Flow-Vis-Farben in der F1 verwendet?",
+                nl: "Waarvoor worden flow-vis verven gebruikt in F1?"
+            },
+            options: ["Decoration", "Visualizing airflow patterns", "Protecting carbon fiber", "Reducing weight"],
+            correct: 1,
+            explanation: {
+                en: "Flow-vis is fluorescent paint applied to visualize airflow patterns during testing.",
+                es: "Flow-vis es pintura fluorescente aplicada para visualizar patrones de flujo de aire durante pruebas.",
+                de: "Flow-Vis ist fluoreszierende Farbe die aufgetragen wird um Luftströmungsmuster beim Testen zu visualisieren.",
+                nl: "Flow-vis is fluorescerende verf die wordt aangebracht om luchtstroom patronen tijdens testen te visualiseren."
+            }
+        },
+        {
+            question: {
+                en: "What is the energy store in hybrid F1 cars?",
+                es: "¿Qué es el almacén de energía en los coches híbridos de F1?",
+                de: "Was ist der Energiespeicher in Hybrid-F1-Autos?",
+                nl: "Wat is de energie-opslag in hybride F1-auto's?"
+            },
+            options: ["Fuel tank", "Battery system", "Exhaust reservoir", "Brake fluid container"],
+            correct: 1,
+            explanation: {
+                en: "The energy store is a battery that stores electrical energy recovered by the MGU-K and MGU-H systems.",
+                es: "El almacén de energía es una batería que almacena energía eléctrica recuperada por los sistemas MGU-K y MGU-H.",
+                de: "Der Energiespeicher ist eine Batterie die elektrische Energie speichert die von MGU-K und MGU-H-Systemen zurückgewonnen wird.",
+                nl: "De energie-opslag is een batterij die elektrische energie opslaat die wordt teruggewonnen door de MGU-K en MGU-H systemen."
+            }
         }
     ];
 

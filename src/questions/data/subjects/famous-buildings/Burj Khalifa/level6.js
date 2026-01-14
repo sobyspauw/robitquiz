@@ -427,6 +427,426 @@
           de: "Ein Kletterschalungssystem wurde verwendet, bei dem die Schalung zum Betonieren Stockwerk für Stockwerk angehoben wurde. Dies ermöglichte kontinuierliche, effiziente Bauarbeiten ohne auf das vollständige Aushärten unterer Stockwerke zu warten.",
           nl: "Een klimbekistingssysteem werd gebruikt, waarbij de bekisting voor het gieten van beton verdieping voor verdieping werd verhoogd. Dit zorgde voor continue, efficiënte bouw zonder te wachten tot lagere verdiepingen volledig uitgehard waren."
         }
+      },
+      {
+        question: {
+          en: "What structural material was used for the spire of the Burj Khalifa?",
+          es: "¿Qué material estructural se utilizó para la aguja del Burj Khalifa?",
+          de: "Welches Strukturmaterial wurde für die Turmspitze des Burj Khalifa verwendet?",
+          nl: "Welk structureel materiaal werd gebruikt voor de spits van de Burj Khalifa?"
+        },
+        options: [
+          { en: "Titanium alloy", es: "Aleación de titanio", de: "Titanlegierung", nl: "Titanium legering" },
+          { en: "Stainless steel", es: "Acero inoxidable", de: "Edelstahl", nl: "Roestvrij staal" },
+          { en: "Carbon fiber", es: "Fibra de carbono", de: "Kohlefaser", nl: "Koolstofvezel" },
+          { en: "Aluminum", es: "Aluminio", de: "Aluminium", nl: "Aluminium" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The 200-meter spire is made of over 4,000 tonnes of structural stainless steel, assembled in sections and pushed upward from inside the building.",
+          es: "La aguja de 200 metros está hecha de más de 4.000 toneladas de acero inoxidable estructural, ensamblada en secciones y empujada hacia arriba desde el interior del edificio.",
+          de: "Die 200 Meter hohe Turmspitze besteht aus über 4.000 Tonnen strukturellem Edelstahl, der in Abschnitten montiert und von innen im Gebäude nach oben geschoben wurde.",
+          nl: "De 200 meter spits is gemaakt van meer dan 4.000 ton structureel roestvrij staal, gemonteerd in secties en van binnenuit het gebouw omhoog geduwd."
+        }
+      },
+      {
+        question: {
+          en: "How deep is the foundation mat of the Burj Khalifa?",
+          es: "¿Qué profundidad tiene la losa de cimentación del Burj Khalifa?",
+          de: "Wie tief ist die Fundamentplatte des Burj Khalifa?",
+          nl: "Hoe diep is de funderingsmat van de Burj Khalifa?"
+        },
+        options: [
+          { en: "2.5 meters", es: "2,5 metros", de: "2,5 Meter", nl: "2,5 meter" },
+          { en: "3.7 meters", es: "3,7 metros", de: "3,7 Meter", nl: "3,7 meter" },
+          { en: "5.0 meters", es: "5,0 metros", de: "5,0 Meter", nl: "5,0 meter" },
+          { en: "6.5 meters", es: "6,5 metros", de: "6,5 Meter", nl: "6,5 meter" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The reinforced concrete raft foundation is 3.7 meters thick and weighs approximately 110,000 tonnes, distributing the building's massive weight.",
+          es: "La losa de cimentación de concreto armado tiene 3,7 metros de espesor y pesa aproximadamente 110.000 toneladas, distribuyendo el peso masivo del edificio.",
+          de: "Die Stahlbeton-Fundamentplatte ist 3,7 Meter dick und wiegt etwa 110.000 Tonnen, wodurch das massive Gewicht des Gebäudes verteilt wird.",
+          nl: "De gewapend betonnen vloerplaat fundering is 3,7 meter dik en weegt ongeveer 110.000 ton, waardoor het massieve gewicht van het gebouw wordt verdeeld."
+        }
+      },
+      {
+        question: {
+          en: "What percentage of the building's facade is glass?",
+          es: "¿Qué porcentaje de la fachada del edificio es vidrio?",
+          de: "Wie viel Prozent der Gebäudefassade besteht aus Glas?",
+          nl: "Welk percentage van de gevel van het gebouw is glas?"
+        },
+        options: [
+          { en: "60%", es: "60%", de: "60%", nl: "60%" },
+          { en: "70%", es: "70%", de: "70%", nl: "70%" },
+          { en: "83%", es: "83%", de: "83%", nl: "83%" },
+          { en: "90%", es: "90%", de: "90%", nl: "90%" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Approximately 83% of the facade is covered in reflective glass panels, totaling 142,000 square meters, designed to withstand extreme temperatures.",
+          es: "Aproximadamente el 83% de la fachada está cubierta con paneles de vidrio reflectante, totalizando 142.000 metros cuadrados, diseñados para resistir temperaturas extremas.",
+          de: "Etwa 83% der Fassade sind mit reflektierenden Glaspaneelen bedeckt, insgesamt 142.000 Quadratmeter, die extremen Temperaturen standhalten sollen.",
+          nl: "Ongeveer 83% van de gevel is bedekt met reflecterende glazen panelen, in totaal 142.000 vierkante meter, ontworpen om extreme temperaturen te weerstaan."
+        }
+      },
+      {
+        question: {
+          en: "What is the total weight of aluminum used in the Burj Khalifa's cladding?",
+          es: "¿Cuál es el peso total del aluminio utilizado en el revestimiento del Burj Khalifa?",
+          de: "Wie hoch ist das Gesamtgewicht des Aluminiums in der Verkleidung des Burj Khalifa?",
+          nl: "Wat is het totale gewicht van aluminium gebruikt in de bekleding van de Burj Khalifa?"
+        },
+        options: [
+          { en: "1,400 tonnes", es: "1.400 toneladas", de: "1.400 Tonnen", nl: "1.400 ton" },
+          { en: "2,200 tonnes", es: "2.200 toneladas", de: "2.200 Tonnen", nl: "2.200 ton" },
+          { en: "3,100 tonnes", es: "3.100 toneladas", de: "3.100 Tonnen", nl: "3.100 ton" },
+          { en: "4,500 tonnes", es: "4.500 toneladas", de: "4.500 Tonnen", nl: "4.500 ton" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Over 3,100 tonnes of aluminum panels were used in the exterior cladding system, providing both structural support and aesthetic appeal.",
+          es: "Se utilizaron más de 3.100 toneladas de paneles de aluminio en el sistema de revestimiento exterior, proporcionando tanto soporte estructural como atractivo estético.",
+          de: "Über 3.100 Tonnen Aluminiumplatten wurden im Außenverkleidungssystem verwendet und bieten sowohl strukturelle Unterstützung als auch ästhetischen Reiz.",
+          nl: "Meer dan 3.100 ton aluminium panelen werden gebruikt in het exterieur bekledingssysteem, wat zowel structurele ondersteuning als esthetische aantrekkingskracht biedt."
+        }
+      },
+      {
+        question: {
+          en: "How many countries' workers contributed to building the Burj Khalifa?",
+          es: "¿Los trabajadores de cuántos países contribuyeron a construir el Burj Khalifa?",
+          de: "Arbeiter aus wie vielen Ländern trugen zum Bau des Burj Khalifa bei?",
+          nl: "Arbeiders uit hoeveel landen droegen bij aan de bouw van de Burj Khalifa?"
+        },
+        options: [
+          { en: "50 countries", es: "50 países", de: "50 Länder", nl: "50 landen" },
+          { en: "Over 100 countries", es: "Más de 100 países", de: "Über 100 Länder", nl: "Meer dan 100 landen" },
+          { en: "Over 150 countries", es: "Más de 150 países", de: "Über 150 Länder", nl: "Meer dan 150 landen" },
+          { en: "Over 200 countries", es: "Más de 200 países", de: "Über 200 Länder", nl: "Meer dan 200 landen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Workers from over 100 different countries participated in the construction, making it a truly international collaborative effort.",
+          es: "Trabajadores de más de 100 países diferentes participaron en la construcción, convirtiéndolo en un esfuerzo colaborativo verdaderamente internacional.",
+          de: "Arbeiter aus über 100 verschiedenen Ländern beteiligten sich am Bau, was es zu einem wirklich internationalen gemeinschaftlichen Projekt macht.",
+          nl: "Arbeiders uit meer dan 100 verschillende landen participeerden in de bouw, waarmee het een waarlijk internationaal samenwerkingsproject werd."
+        }
+      },
+      {
+        question: {
+          en: "What was the average rate of vertical construction per week during peak building?",
+          es: "¿Cuál fue la tasa promedio de construcción vertical por semana durante el pico de construcción?",
+          de: "Wie hoch war die durchschnittliche vertikale Baurate pro Woche während des Bauhöhepunkts?",
+          nl: "Wat was het gemiddelde verticale bouwtempo per week tijdens de piekbouw?"
+        },
+        options: [
+          { en: "One floor per week", es: "Un piso por semana", de: "Ein Stockwerk pro Woche", nl: "Eén verdieping per week" },
+          { en: "Two floors per week", es: "Dos pisos por semana", de: "Zwei Stockwerke pro Woche", nl: "Twee verdiepingen per week" },
+          { en: "Three floors per week", es: "Tres pisos por semana", de: "Drei Stockwerke pro Woche", nl: "Drie verdiepingen per week" },
+          { en: "Four floors per week", es: "Cuatro pisos por semana", de: "Vier Stockwerke pro Woche", nl: "Vier verdiepingen per week" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "During peak construction efficiency, the team completed approximately two floors per week, showcasing remarkable coordination and construction speed.",
+          es: "Durante la eficiencia máxima de construcción, el equipo completó aproximadamente dos pisos por semana, mostrando coordinación y velocidad de construcción notables.",
+          de: "Während der maximalen Baueffizienz stellte das Team etwa zwei Stockwerke pro Woche fertig, was bemerkenswerte Koordination und Baugeschwindigkeit zeigt.",
+          nl: "Tijdens de piek van bouwefficiëntie voltooide het team ongeveer twee verdiepingen per week, wat opmerkelijke coördinatie en bouwsnelheid toont."
+        }
+      },
+      {
+        question: {
+          en: "What width reduction strategy was used as the building rises?",
+          es: "¿Qué estrategia de reducción de ancho se utilizó a medida que el edificio se eleva?",
+          de: "Welche Breitenreduktionsstrategie wurde beim Aufstieg des Gebäudes verwendet?",
+          nl: "Welke breedte-reductiestrategie werd gebruikt naarmate het gebouw stijgt?"
+        },
+        options: [
+          { en: "Uniform taper throughout", es: "Ahusamiento uniforme en todo", de: "Gleichmäßige Verjüngung durchgehend", nl: "Uniforme tapse over geheel" },
+          { en: "Stepped setbacks at specific levels", es: "Retranqueos escalonados en niveles específicos", de: "Gestufte Rücksprünge auf bestimmten Ebenen", nl: "Stapsgewijze terrassen op specifieke niveaus" },
+          { en: "Random width changes", es: "Cambios de ancho aleatorios", de: "Zufällige Breitenänderungen", nl: "Willekeurige breedteveranderingen" },
+          { en: "No width reduction", es: "Sin reducción de ancho", de: "Keine Breitenreduzierung", nl: "Geen breedte-reductie" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The building features stepped setbacks at 26 specific levels, reducing the cross-section as it rises and improving aerodynamic performance.",
+          es: "El edificio presenta retranqueos escalonados en 26 niveles específicos, reduciendo la sección transversal a medida que se eleva y mejorando el rendimiento aerodinámico.",
+          de: "Das Gebäude verfügt über gestufte Rücksprünge auf 26 bestimmten Ebenen, wodurch der Querschnitt beim Aufstieg verringert und die aerodynamische Leistung verbessert wird.",
+          nl: "Het gebouw heeft stapsgewijze terrassen op 26 specifieke niveaus, waardoor de doorsnede vermindert naarmate het stijgt en de aerodynamische prestaties verbeteren."
+        }
+      },
+      {
+        question: {
+          en: "What was done with the concrete during hot summer months to ensure quality?",
+          es: "¿Qué se hizo con el concreto durante los meses calurosos de verano para garantizar la calidad?",
+          de: "Was wurde mit dem Beton während der heißen Sommermonate gemacht, um Qualität zu gewährleisten?",
+          nl: "Wat werd gedaan met het beton tijdens hete zomermaanden om kwaliteit te waarborgen?"
+        },
+        options: [
+          { en: "Construction was halted", es: "Se detuvo la construcción", de: "Bau wurde eingestellt", nl: "Bouw werd stopgezet" },
+          { en: "Ice and chilled water were added", es: "Se agregaron hielo y agua fría", de: "Eis und gekühltes Wasser wurden hinzugefügt", nl: "IJs en koud water werden toegevoegd" },
+          { en: "Only night pours were performed", es: "Solo se realizaron vertidos nocturnos", de: "Nur Nachtgüsse wurden durchgeführt", nl: "Alleen nachtelijke stortingen werden uitgevoerd" },
+          { en: "Special heat-resistant additives", es: "Aditivos especiales resistentes al calor", de: "Spezielle hitzebeständige Zusätze", nl: "Speciale hittebestendige toevoegingen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Ice and chilled water were added to the concrete mix during summer to cool it below 30°C, preventing premature setting and ensuring proper curing.",
+          es: "Se agregaron hielo y agua fría a la mezcla de concreto durante el verano para enfriarlo por debajo de 30°C, evitando el fraguado prematuro y asegurando un curado adecuado.",
+          de: "Eis und gekühltes Wasser wurden im Sommer der Betonmischung hinzugefügt, um sie unter 30°C zu kühlen und vorzeitiges Abbinden zu verhindern und ordnungsgemäße Aushärtung zu gewährleisten.",
+          nl: "IJs en koud water werden tijdens de zomer aan het betonmengsel toegevoegd om het onder 30°C te koelen, waardoor voortijdige verharding werd voorkomen en juiste uitharding werd gewaarborgd."
+        }
+      },
+      {
+        question: {
+          en: "How many stairwells does the Burj Khalifa have for emergency evacuation?",
+          es: "¿Cuántas escaleras de emergencia tiene el Burj Khalifa para evacuación?",
+          de: "Wie viele Treppenhäuser hat der Burj Khalifa für Notevakuierungen?",
+          nl: "Hoeveel trappenhuizen heeft de Burj Khalifa voor noodevacuatie?"
+        },
+        options: [
+          { en: "2 stairwells", es: "2 escaleras", de: "2 Treppenhäuser", nl: "2 trappenhuizen" },
+          { en: "4 stairwells", es: "4 escaleras", de: "4 Treppenhäuser", nl: "4 trappenhuizen" },
+          { en: "6 stairwells", es: "6 escaleras", de: "6 Treppenhäuser", nl: "6 trappenhuizen" },
+          { en: "8 stairwells", es: "8 escaleras", de: "8 Treppenhäuser", nl: "8 trappenhuizen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The building has four emergency stairwells with pressurized, air-conditioned refuge areas approximately every 25 floors for safe evacuation.",
+          es: "El edificio tiene cuatro escaleras de emergencia con áreas de refugio presurizadas y con aire acondicionado aproximadamente cada 25 pisos para evacuación segura.",
+          de: "Das Gebäude verfügt über vier Nottreppenhäuser mit druckbeaufschlagten, klimatisierten Zufluchtsräumen etwa alle 25 Stockwerke für sichere Evakuierung.",
+          nl: "Het gebouw heeft vier noodtrappenhuizen met onder druk staande, geklimatiseerde vluchtgebieden ongeveer elke 25 verdiepingen voor veilige evacuatie."
+        }
+      },
+      {
+        question: {
+          en: "What curing time was required for the Burj Khalifa's high-strength concrete?",
+          es: "¿Qué tiempo de curado se requirió para el concreto de alta resistencia del Burj Khalifa?",
+          de: "Welche Aushärtungszeit war für den Hochleistungsbeton des Burj Khalifa erforderlich?",
+          nl: "Welke uithardingstijd was vereist voor het hoge-sterkte beton van de Burj Khalifa?"
+        },
+        options: [
+          { en: "7 days", es: "7 días", de: "7 Tage", nl: "7 dagen" },
+          { en: "14 days", es: "14 días", de: "14 Tage", nl: "14 dagen" },
+          { en: "28 days", es: "28 días", de: "28 Tage", nl: "28 dagen" },
+          { en: "56 days", es: "56 días", de: "56 Tage", nl: "56 dagen" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The high-strength concrete required a standard 28-day curing period to reach its design strength, though it continued to gain strength over time.",
+          es: "El concreto de alta resistencia requirió un período de curado estándar de 28 días para alcanzar su resistencia de diseño, aunque continuó ganando resistencia con el tiempo.",
+          de: "Der Hochleistungsbeton benötigte eine Standard-Aushärtungszeit von 28 Tagen, um seine Designfestigkeit zu erreichen, obwohl er im Laufe der Zeit weiter an Festigkeit gewann.",
+          nl: "Het hoge-sterkte beton vereiste een standaard uithardingsperiode van 28 dagen om zijn ontwerpsterkte te bereiken, hoewel het in de loop van de tijd verder aan sterkte won."
+        }
+      },
+      {
+        question: {
+          en: "How thick are the concrete walls at the base of the Burj Khalifa's core?",
+          es: "¿Qué grosor tienen las paredes de concreto en la base del núcleo del Burj Khalifa?",
+          de: "Wie dick sind die Betonwände an der Basis des Burj Khalifa-Kerns?",
+          nl: "Hoe dik zijn de betonmuren aan de basis van de kern van de Burj Khalifa?"
+        },
+        options: [
+          { en: "0.5 meters", es: "0,5 metros", de: "0,5 Meter", nl: "0,5 meter" },
+          { en: "1 meter", es: "1 metro", de: "1 Meter", nl: "1 meter" },
+          { en: "1.3 meters", es: "1,3 metros", de: "1,3 Meter", nl: "1,3 meter" },
+          { en: "2 meters", es: "2 metros", de: "2 Meter", nl: "2 meter" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The concrete walls at the base of the hexagonal core are 1.3 meters thick, gradually reducing to 200mm at higher levels.",
+          es: "Las paredes de concreto en la base del núcleo hexagonal tienen 1,3 metros de espesor, reduciéndose gradualmente a 200mm en niveles superiores.",
+          de: "Die Betonwände an der Basis des sechseckigen Kerns sind 1,3 Meter dick und verringern sich allmählich auf 200mm in höheren Ebenen.",
+          nl: "De betonmuren aan de basis van de zeshoekige kern zijn 1,3 meter dik, geleidelijk afnemend tot 200mm op hogere niveaus."
+        }
+      },
+      {
+        question: {
+          en: "What was the maximum load capacity of the tower cranes used?",
+          es: "¿Cuál fue la capacidad máxima de carga de las grúas torre utilizadas?",
+          de: "Was war die maximale Tragfähigkeit der verwendeten Turmkräne?",
+          nl: "Wat was de maximale draagcapaciteit van de gebruikte torenkranen?"
+        },
+        options: [
+          { en: "15 tonnes", es: "15 toneladas", de: "15 Tonnen", nl: "15 ton" },
+          { en: "25 tonnes", es: "25 toneladas", de: "25 Tonnen", nl: "25 ton" },
+          { en: "40 tonnes", es: "40 toneladas", de: "40 Tonnen", nl: "40 ton" },
+          { en: "60 tonnes", es: "60 toneladas", de: "60 Tonnen", nl: "60 ton" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The heavy-duty tower cranes used had a maximum lifting capacity of 40 tonnes, essential for hoisting massive structural components to extreme heights.",
+          es: "Las grúas torre de servicio pesado utilizadas tenían una capacidad máxima de elevación de 40 toneladas, esencial para izar componentes estructurales masivos a alturas extremas.",
+          de: "Die verwendeten Schwerlast-Turmkräne hatten eine maximale Hubkapazität von 40 Tonnen, die für das Heben massiver Strukturkomponenten in extreme Höhen unerlässlich war.",
+          nl: "De zware torenkranen die werden gebruikt hadden een maximale hefcapaciteit van 40 ton, essentieel voor het hijsen van massieve structurele componenten naar extreme hoogten."
+        }
+      },
+      {
+        question: {
+          en: "What electrical capacity was installed to power the Burj Khalifa?",
+          es: "¿Qué capacidad eléctrica se instaló para alimentar el Burj Khalifa?",
+          de: "Welche elektrische Kapazität wurde installiert, um den Burj Khalifa zu versorgen?",
+          nl: "Welke elektrische capaciteit werd geïnstalleerd om de Burj Khalifa van stroom te voorzien?"
+        },
+        options: [
+          { en: "25 megawatts", es: "25 megavatios", de: "25 Megawatt", nl: "25 megawatt" },
+          { en: "35 megawatts", es: "35 megavatios", de: "35 Megawatt", nl: "35 megawatt" },
+          { en: "50 megawatts", es: "50 megavatios", de: "50 Megawatt", nl: "50 megawatt" },
+          { en: "75 megawatts", es: "75 megavatios", de: "75 Megawatt", nl: "75 megawatt" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The building has an installed electrical capacity of approximately 50 megawatts, equivalent to powering a small town, with sophisticated power management systems.",
+          es: "El edificio tiene una capacidad eléctrica instalada de aproximadamente 50 megavatios, equivalente a alimentar un pueblo pequeño, con sofisticados sistemas de gestión de energía.",
+          de: "Das Gebäude hat eine installierte elektrische Kapazität von etwa 50 Megawatt, was der Versorgung einer Kleinstadt entspricht, mit ausgeklügelten Energiemanagementsystemen.",
+          nl: "Het gebouw heeft een geïnstalleerde elektrische capaciteit van ongeveer 50 megawatt, equivalent aan het voeden van een kleine stad, met geavanceerde energiebeheersystemen."
+        }
+      },
+      {
+        question: {
+          en: "How many kilometers of electrical wiring were installed in the Burj Khalifa?",
+          es: "¿Cuántos kilómetros de cableado eléctrico se instalaron en el Burj Khalifa?",
+          de: "Wie viele Kilometer elektrische Verkabelung wurden im Burj Khalifa installiert?",
+          nl: "Hoeveel kilometer elektrische bedrading werd geïnstalleerd in de Burj Khalifa?"
+        },
+        options: [
+          { en: "250 kilometers", es: "250 kilómetros", de: "250 Kilometer", nl: "250 kilometer" },
+          { en: "500 kilometers", es: "500 kilómetros", de: "500 Kilometer", nl: "500 kilometer" },
+          { en: "800 kilometers", es: "800 kilómetros", de: "800 Kilometer", nl: "800 kilometer" },
+          { en: "Over 1,000 kilometers", es: "Más de 1.000 kilómetros", de: "Über 1.000 Kilometer", nl: "Meer dan 1.000 kilometer" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "Over 1,000 kilometers of electrical wiring snake through the building, enough to stretch from Dubai to Tehran, powering all systems and services.",
+          es: "Más de 1.000 kilómetros de cableado eléctrico serpentean por el edificio, suficiente para extenderse desde Dubai a Teherán, alimentando todos los sistemas y servicios.",
+          de: "Über 1.000 Kilometer elektrische Verkabelung schlängeln sich durch das Gebäude, genug um von Dubai nach Teheran zu reichen und alle Systeme und Dienstleistungen zu versorgen.",
+          nl: "Meer dan 1.000 kilometer elektrische bedrading slingert door het gebouw, genoeg om van Dubai naar Teheran te reiken, waarmee alle systemen en diensten worden gevoed."
+        }
+      },
+      {
+        question: {
+          en: "What was the primary challenge in mixing concrete at such large quantities?",
+          es: "¿Cuál fue el desafío principal al mezclar concreto en cantidades tan grandes?",
+          de: "Was war die größte Herausforderung beim Mischen von Beton in so großen Mengen?",
+          nl: "Wat was de primaire uitdaging bij het mengen van beton in zulke grote hoeveelheden?"
+        },
+        options: [
+          { en: "Maintaining consistent quality", es: "Mantener calidad consistente", de: "Konsistente Qualität aufrechterhalten", nl: "Consistente kwaliteit behouden" },
+          { en: "Managing heat generation", es: "Gestionar generación de calor", de: "Wärmeerzeugung verwalten", nl: "Warmtegeneratie beheren" },
+          { en: "Preventing segregation", es: "Prevenir segregación", de: "Entmischung verhindern", nl: "Segregatie voorkomen" },
+          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "All these challenges existed: maintaining quality consistency across batches, managing heat from hydration reactions, and preventing material segregation required sophisticated quality control.",
+          es: "Todos estos desafíos existieron: mantener la consistencia de calidad entre lotes, gestionar el calor de las reacciones de hidratación y prevenir la segregación de materiales requirió un sofisticado control de calidad.",
+          de: "All diese Herausforderungen existierten: Die Aufrechterhaltung der Qualitätskonsistenz über Chargen hinweg, das Management der Wärme aus Hydratationsreaktionen und die Verhinderung von Materialentmischung erforderten ausgeklügelte Qualitätskontrolle.",
+          nl: "Al deze uitdagingen bestonden: het behouden van kwaliteitsconsistentie over batches, het beheren van warmte van hydratatiereacties en het voorkomen van materiaalsegregatie vereisten geavanceerde kwaliteitscontrole."
+        }
+      },
+      {
+        question: {
+          en: "What material protects the structural steel from fire?",
+          es: "¿Qué material protege el acero estructural del fuego?",
+          de: "Welches Material schützt den Strukturstahl vor Feuer?",
+          nl: "Welk materiaal beschermt het structurele staal tegen vuur?"
+        },
+        options: [
+          { en: "Ceramic tiles", es: "Azulejos cerámicos", de: "Keramikfliesen", nl: "Keramische tegels" },
+          { en: "Intumescent paint", es: "Pintura intumescente", de: "Intumeszente Farbe", nl: "Intumescente verf" },
+          { en: "Concrete encasement", es: "Revestimiento de concreto", de: "Betonummantelung", nl: "Beton ommanteling" },
+          { en: "Asbestos insulation", es: "Aislamiento de asbesto", de: "Asbestisolierung", nl: "Asbest isolatie" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Intumescent paint was applied to structural steel, which expands when heated to form an insulating layer, providing up to 4 hours of fire protection.",
+          es: "Se aplicó pintura intumescente al acero estructural, que se expande cuando se calienta para formar una capa aislante, proporcionando hasta 4 horas de protección contra incendios.",
+          de: "Intumeszente Farbe wurde auf den Strukturstahl aufgetragen, die sich bei Erhitzung ausdehnt, um eine isolierende Schicht zu bilden und bis zu 4 Stunden Brandschutz zu bieten.",
+          nl: "Intumescente verf werd aangebracht op structureel staal, dat uitzet bij verhitting om een isolerende laag te vormen, wat tot 4 uur brandwerendheid biedt."
+        }
+      },
+      {
+        question: {
+          en: "What structural system connects the wings to the central core?",
+          es: "¿Qué sistema estructural conecta las alas al núcleo central?",
+          de: "Welches Struktursystem verbindet die Flügel mit dem zentralen Kern?",
+          nl: "Welk structureel systeem verbindt de vleugels met de centrale kern?"
+        },
+        options: [
+          { en: "Steel trusses", es: "Armaduras de acero", de: "Stahlfachwerke", nl: "Stalen vakwerken" },
+          { en: "Concrete outriggers", es: "Estabilizadores de concreto", de: "Beton-Ausleger", nl: "Beton outriggers" },
+          { en: "Suspended cables", es: "Cables suspendidos", de: "Aufgehängte Kabel", nl: "Opgehangen kabels" },
+          { en: "Rigid frames", es: "Marcos rígidos", de: "Starre Rahmen", nl: "Stijve frames" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Concrete outrigger walls at strategic levels connect the wings to the hexagonal core, transferring lateral loads and stiffening the structure.",
+          es: "Muros estabilizadores de concreto en niveles estratégicos conectan las alas al núcleo hexagonal, transfiriendo cargas laterales y rigidizando la estructura.",
+          de: "Beton-Ausleger an strategischen Ebenen verbinden die Flügel mit dem sechseckigen Kern, übertragen Seitenlasten und versteifen die Struktur.",
+          nl: "Beton outrigger muren op strategische niveaus verbinden de vleugels met de zeshoekige kern, waarbij laterale belastingen worden overgedragen en de structuur wordt verstijfd."
+        }
+      },
+      {
+        question: {
+          en: "How many separate concrete pours were required to complete the foundation?",
+          es: "¿Cuántos vertidos separados de concreto se requirieron para completar la cimentación?",
+          de: "Wie viele separate Betongüsse waren erforderlich, um das Fundament fertigzustellen?",
+          nl: "Hoeveel afzonderlijke betonstortingen waren nodig om de fundering te voltooien?"
+        },
+        options: [
+          { en: "Single continuous pour", es: "Vertido continuo único", de: "Einzelner kontinuierlicher Guss", nl: "Enkele continue storting" },
+          { en: "10 separate pours", es: "10 vertidos separados", de: "10 separate Güsse", nl: "10 afzonderlijke stortingen" },
+          { en: "25 separate pours", es: "25 vertidos separados", de: "25 separate Güsse", nl: "25 afzonderlijke stortingen" },
+          { en: "50 separate pours", es: "50 vertidos separados", de: "50 separate Güsse", nl: "50 afzonderlijke stortingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The foundation was completed in a single continuous concrete pour lasting 22 hours, requiring careful coordination and multiple concrete trucks working simultaneously.",
+          es: "La cimentación se completó en un vertido continuo de concreto que duró 22 horas, requiriendo coordinación cuidadosa y múltiples camiones de concreto trabajando simultáneamente.",
+          de: "Das Fundament wurde in einem einzigen kontinuierlichen Betonguss fertiggestellt, der 22 Stunden dauerte und sorgfältige Koordination und mehrere gleichzeitig arbeitende Betonmischer erforderte.",
+          nl: "De fundering werd voltooid in een enkele continue betonstorting die 22 uur duurde, waarbij zorgvuldige coördinatie en meerdere betonwagens tegelijkertijd werkten nodig waren."
+        }
+      },
+      {
+        question: {
+          en: "What measures were taken to prevent the concrete from cracking during curing?",
+          es: "¿Qué medidas se tomaron para evitar que el concreto se agrietara durante el curado?",
+          de: "Welche Maßnahmen wurden ergriffen, um zu verhindern, dass der Beton während der Aushärtung reißt?",
+          nl: "Welke maatregelen werden genomen om te voorkomen dat het beton tijdens het uitharden scheurt?"
+        },
+        options: [
+          { en: "Continuous water spraying", es: "Rociado continuo de agua", de: "Kontinuierliche Wasserbesprühung", nl: "Continue waterverneveling" },
+          { en: "Protective curing compounds", es: "Compuestos de curado protectores", de: "Schützende Aushärtungsverbindungen", nl: "Beschermende uithardingsmiddelen" },
+          { en: "Temperature monitoring", es: "Monitoreo de temperatura", de: "Temperaturüberwachung", nl: "Temperatuurmonitoring" },
+          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "Multiple methods were used including continuous water curing, protective compounds to retain moisture, and temperature monitoring to prevent thermal cracking from heat generation.",
+          es: "Se utilizaron múltiples métodos incluyendo curado continuo con agua, compuestos protectores para retener humedad, y monitoreo de temperatura para prevenir grietas térmicas de la generación de calor.",
+          de: "Mehrere Methoden wurden verwendet, darunter kontinuierliche Wasserhärtung, Schutzverbindungen zur Feuchtigkeitsspeicherung und Temperaturüberwachung zur Verhinderung thermischer Rissbildung durch Wärmeerzeugung.",
+          nl: "Meerdere methoden werden gebruikt inclusief continue wateruitharding, beschermende middelen om vocht vast te houden, en temperatuurmonitoring om thermische scheuren door warmtegeneratie te voorkomen."
+        }
+      },
+      {
+        question: {
+          en: "What total height does the building's service core extend to?",
+          es: "¿A qué altura total se extiende el núcleo de servicios del edificio?",
+          de: "Bis zu welcher Gesamthöhe erstreckt sich der Gebäudetechnikkern?",
+          nl: "Tot welke totale hoogte strekt de service kern van het gebouw zich uit?"
+        },
+        options: [
+          { en: "To floor 125", es: "Hasta el piso 125", de: "Bis zur 125. Etage", nl: "Tot verdieping 125" },
+          { en: "To floor 140", es: "Hasta el piso 140", de: "Bis zur 140. Etage", nl: "Tot verdieping 140" },
+          { en: "To floor 156", es: "Hasta el piso 156", de: "Bis zur 156. Etage", nl: "Tot verdieping 156" },
+          { en: "To the top of the spire", es: "Hasta la parte superior de la aguja", de: "Bis zur Spitze der Turmspitze", nl: "Tot de top van de spits" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The hexagonal reinforced concrete service core extends to the 156th floor, above which the structural system transitions to the steel spire.",
+          es: "El núcleo de servicios de concreto reforzado hexagonal se extiende hasta el piso 156, por encima del cual el sistema estructural hace transición a la aguja de acero.",
+          de: "Der sechseckige Stahlbeton-Technikkern erstreckt sich bis zur 156. Etage, darüber geht das Struktursystem in die Stahlturmspitze über.",
+          nl: "De zeshoekige gewapend betonnen service kern strekt zich uit tot de 156e verdieping, waarboven het structurele systeem overgaat naar de stalen spits."
+        }
       }
     ]
   };

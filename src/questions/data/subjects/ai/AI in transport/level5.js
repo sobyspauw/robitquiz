@@ -427,6 +427,426 @@
           de: "Hierarchische Aufgabenplanung ermöglicht autonomen Fahrzeugen komplexe, mehrstufige Missionen zu bewältigen durch Aufgliederung in strategische, taktische und operative Entscheidungsebenen.",
           nl: "Hiërarchische taakplanning stelt autonome voertuigen in staat complexe, meerstaps missies te behandelen door ze op te delen in strategische, tactische en operationele besluitvormingsniveaus."
         }
+      },
+      {
+        question: {
+          en: "What is 'probabilistic robotics' enabling in autonomous vehicle uncertainty management?",
+          es: "¿Qué está permitiendo la 'robótica probabilística' en gestión de incertidumbre de vehículos autónomos?",
+          de: "Was ermöglicht 'probabilistische Robotik' im Unsicherheitsmanagement autonomer Fahrzeuge?",
+          nl: "Wat maakt 'probabilistische robotica' mogelijk in onzekerheidsbeheer van autonome voertuigen?"
+        },
+        options: [
+          { en: "Representing all sensor measurements, vehicle states, and environmental conditions as probability distributions to handle inherent uncertainty", es: "Representar todas las mediciones de sensores, estados del vehículo y condiciones ambientales como distribuciones de probabilidad para manejar incertidumbre inherente", de: "Alle Sensormessungen, Fahrzeugzustände und Umgebungsbedingungen als Wahrscheinlichkeitsverteilungen darstellen um inhärente Unsicherheit zu bewältigen", nl: "Alle sensormetingen, voertuigtoestanden en omgevingscondities weergeven als waarschijnlijkheidsverdelingen om inherente onzekerheid te beheren" },
+          { en: "Calculating probability of robot malfunctions", es: "Calcular probabilidad de fallas de robot", de: "Wahrscheinlichkeit von Roboterausfällen berechnen", nl: "Waarschijnlijkheid van robotstoringen berekenen" },
+          { en: "Probability of vehicle purchase decisions", es: "Probabilidad de decisiones de compra de vehículo", de: "Wahrscheinlichkeit von Fahrzeugkaufentscheidungen", nl: "Waarschijnlijkheid van voertuigaankoopbeslissingen" },
+          { en: "Probabilistic maintenance scheduling", es: "Programación probabilística de mantenimiento", de: "Probabilistische Wartungsplanung", nl: "Probabilistische onderhoudsplanning" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Probabilistic robotics frameworks like Bayesian filtering enable autonomous vehicles to make robust decisions despite sensor noise, measurement uncertainty, and incomplete information.",
+          es: "Los marcos de robótica probabilística como el filtrado bayesiano permiten a vehículos autónomos tomar decisiones robustas a pesar del ruido de sensores, incertidumbre de medición e información incompleta.",
+          de: "Probabilistische Robotik-Frameworks wie Bayessche Filterung ermöglichen autonomen Fahrzeugen robuste Entscheidungen zu treffen trotz Sensorrauschen, Messungenauigkeit und unvollständiger Information.",
+          nl: "Probabilistische robotica frameworks zoals Bayesiaanse filtering stellen autonome voertuigen in staat robuuste beslissingen te nemen ondanks sensorruis, meetonzekerheid en incomplete informatie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'intention prediction' achieving in autonomous vehicle interaction with human drivers?",
+          es: "¿Qué está logrando la 'predicción de intención' en interacción de vehículos autónomos con conductores humanos?",
+          de: "Was erreicht 'Absichtsvorhersage' in der Interaktion autonomer Fahrzeuge mit menschlichen Fahrern?",
+          nl: "Wat bereikt 'intentie voorspelling' in interactie van autonome voertuigen met menselijke bestuurders?"
+        },
+        options: [
+          { en: "Anticipating the future actions of human-driven vehicles based on subtle behavioral cues to enable proactive and safe navigation", es: "Anticipar acciones futuras de vehículos conducidos por humanos basándose en señales sutiles de comportamiento para permitir navegación proactiva y segura", de: "Zukünftige Aktionen von menschlich gesteuerten Fahrzeugen basierend auf subtilen Verhaltenshinweisen antizipieren um proaktive und sichere Navigation zu ermöglichen", nl: "Toekomstige acties van door mensen bestuurde voertuigen anticiperen op basis van subtiele gedragssignalen om proactieve en veilige navigatie mogelijk te maken" },
+          { en: "Reading driver intentions through mind-reading", es: "Leer intenciones del conductor a través de lectura mental", de: "Fahrerabsichten durch Gedankenlesen lesen", nl: "Bestuurdersintent lezen door gedachten te lezen" },
+          { en: "Predicting vehicle purchase intentions", es: "Predecir intenciones de compra de vehículo", de: "Fahrzeugkaufabsichten vorhersagen", nl: "Voertuigaankoopintenties voorspellen" },
+          { en: "Intention-based marketing in vehicles", es: "Marketing basado en intención en vehículos", de: "Absichtsbasiertes Marketing in Fahrzeugen", nl: "Intentie-gebaseerde marketing in voertuigen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Intention prediction systems analyze indicators like vehicle position, speed, turn signals, and trajectory to infer what human drivers are planning to do, enabling safer mixed-traffic navigation.",
+          es: "Los sistemas de predicción de intención analizan indicadores como posición del vehículo, velocidad, señales de giro y trayectoria para inferir qué planean hacer conductores humanos, permitiendo navegación más segura en tráfico mixto.",
+          de: "Absichtsvorhersage-Systeme analysieren Indikatoren wie Fahrzeugposition, Geschwindigkeit, Blinker und Trajektorie um zu schlussfolgern was menschliche Fahrer planen zu tun, ermöglicht sicherere Navigation im gemischten Verkehr.",
+          nl: "Intentie voorspellingssystemen analyseren indicatoren zoals voertuigpositie, snelheid, richtingaanwijzers en traject om af te leiden wat menselijke bestuurders van plan zijn te doen, waardoor veiligere mixed-traffic navigatie mogelijk wordt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'trajectory optimization' solving in autonomous vehicle motion planning?",
+          es: "¿Qué está resolviendo la 'optimización de trayectoria' en planificación de movimiento de vehículos autónomos?",
+          de: "Was löst 'Trajektorienoptimierung' in der Bewegungsplanung autonomer Fahrzeuge?",
+          nl: "Wat lost 'traject optimalisatie' op in bewegingsplanning van autonome voertuigen?"
+        },
+        options: [
+          { en: "Finding the optimal path through space and time that minimizes cost functions while satisfying kinematic, dynamic, and safety constraints", es: "Encontrar la ruta óptima a través del espacio y tiempo que minimiza funciones de costo mientras satisface restricciones cinemáticas, dinámicas y de seguridad", de: "Den optimalen Pfad durch Raum und Zeit finden der Kostenfunktionen minimiert während kinematische, dynamische und Sicherheitseinschränkungen erfüllt werden", nl: "Het optimale pad door ruimte en tijd vinden dat kostenfuncties minimaliseert terwijl kinematische, dynamische en veiligheidsbeperkingen worden vervuld" },
+          { en: "Optimizing vehicle trajectory for fuel only", es: "Optimizar trayectoria del vehículo solo para combustible", de: "Fahrzeugtrajektorie nur für Kraftstoff optimieren", nl: "Voertuigtraject alleen voor brandstof optimaliseren" },
+          { en: "Trajectory visualization optimization", es: "Optimización de visualización de trayectoria", de: "Trajektorien-Visualisierungsoptimierung", nl: "Traject visualisatie optimalisatie" },
+          { en: "Historical trajectory analysis", es: "Análisis de trayectoria histórica", de: "Historische Trajektorienanalyse", nl: "Historische traject analyse" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Trajectory optimization uses mathematical techniques to compute smooth, efficient, and safe vehicle motions that account for vehicle physics, road geometry, and surrounding traffic.",
+          es: "La optimización de trayectoria usa técnicas matemáticas para computar movimientos del vehículo suaves, eficientes y seguros que consideran física del vehículo, geometría de carretera y tráfico circundante.",
+          de: "Trajektorienoptimierung verwendet mathematische Techniken um glatte, effiziente und sichere Fahrzeugbewegungen zu berechnen die Fahrzeugphysik, Straßengeometrie und umgebenden Verkehr berücksichtigen.",
+          nl: "Traject optimalisatie gebruikt wiskundige technieken om vloeiende, efficiënte en veilige voertuigbewegingen te berekenen die rekening houden met voertuigfysica, weggeometrie en omringend verkeer."
+        }
+      },
+      {
+        question: {
+          en: "What is 'semantic mapping' providing for autonomous vehicle navigation?",
+          es: "¿Qué está proporcionando el 'mapeo semántico' para navegación de vehículos autónomos?",
+          de: "Was bietet 'semantisches Kartieren' für die Navigation autonomer Fahrzeuge?",
+          nl: "Wat biedt 'semantische mapping' voor navigatie van autonome voertuigen?"
+        },
+        options: [
+          { en: "Maps enriched with meaningful labels identifying road types, lane markings, traffic signs, and contextual information beyond geometric data", es: "Mapas enriquecidos con etiquetas significativas que identifican tipos de carretera, marcas de carril, señales de tráfico e información contextual más allá de datos geométricos", de: "Karten angereichert mit bedeutungsvollen Beschriftungen die Straßentypen, Fahrbahnmarkierungen, Verkehrszeichen und kontextuelle Informationen über geometrische Daten hinaus identifizieren", nl: "Kaarten verrijkt met betekenisvolle labels die wegtypen, rijstrookmarkeringen, verkeersborden en contextuele informatie identificeren naast geometrische data" },
+          { en: "Maps with semantic web links", es: "Mapas con enlaces web semánticos", de: "Karten mit semantischen Weblinks", nl: "Kaarten met semantische weblinks" },
+          { en: "Semantically correct street names", es: "Nombres de calles semánticamente correctos", de: "Semantisch korrekte Straßennamen", nl: "Semantisch correcte straatnamen" },
+          { en: "Mapping semantic search engines", es: "Mapear motores de búsqueda semánticos", de: "Semantische Suchmaschinen kartieren", nl: "Semantische zoekmachines mappen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Semantic maps enable autonomous vehicles to understand the meaning and function of environmental features, supporting higher-level reasoning about appropriate driving behaviors.",
+          es: "Los mapas semánticos permiten a vehículos autónomos comprender el significado y función de características ambientales, apoyando razonamiento de nivel superior sobre comportamientos apropiados de conducción.",
+          de: "Semantische Karten ermöglichen autonomen Fahrzeugen die Bedeutung und Funktion von Umgebungsmerkmalen zu verstehen, unterstützen höherstufiges Denken über angemessene Fahrverhaltensweisen.",
+          nl: "Semantische kaarten stellen autonome voertuigen in staat de betekenis en functie van omgevingskenmerken te begrijpen, ondersteunen hoger-niveau redenering over gepast rijgedrag."
+        }
+      },
+      {
+        question: {
+          en: "What is 'occlusion reasoning' enabling in autonomous vehicle perception?",
+          es: "¿Qué está permitiendo el 'razonamiento de oclusión' en percepción de vehículos autónomos?",
+          de: "Was ermöglicht 'Verdeckungs-Schlussfolgerung' in der Wahrnehmung autonomer Fahrzeuge?",
+          nl: "Wat maakt 'occlusie redenering' mogelijk in perceptie van autonome voertuigen?"
+        },
+        options: [
+          { en: "Inferring the presence and behavior of hidden objects behind obstacles by reasoning about what cannot be directly observed", es: "Inferir la presencia y comportamiento de objetos ocultos detrás de obstáculos razonando sobre lo que no puede ser directamente observado", de: "Das Vorhandensein und Verhalten verborgener Objekte hinter Hindernissen schlussfolgern durch Denken über was nicht direkt beobachtet werden kann", nl: "De aanwezigheid en gedrag van verborgen objecten achter obstakels afleiden door te redeneren over wat niet direct kan worden waargenomen" },
+          { en: "Reasoning about eye occlusion in drivers", es: "Razonar sobre oclusión ocular en conductores", de: "Über Augenverdeckung bei Fahrern nachdenken", nl: "Redeneren over oog occlusie bij bestuurders" },
+          { en: "Occlusion detection in windshields", es: "Detección de oclusión en parabrisas", de: "Verdeckungserkennung in Windschutzscheiben", nl: "Occlusie detectie in voorruiten" },
+          { en: "Reasoning about occluded road signs only", es: "Razonar solo sobre señales de tráfico ocluidas", de: "Nur über verdeckte Verkehrsschilder nachdenken", nl: "Alleen redeneren over verborgen verkeersborden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Occlusion reasoning helps autonomous vehicles anticipate potential hazards that are temporarily hidden, such as pedestrians behind parked cars, improving safety in complex urban scenarios.",
+          es: "El razonamiento de oclusión ayuda a vehículos autónomos anticipar peligros potenciales temporalmente ocultos, como peatones detrás de coches estacionados, mejorando seguridad en escenarios urbanos complejos.",
+          de: "Verdeckungs-Schlussfolgerung hilft autonomen Fahrzeugen potenzielle Gefahren zu antizipieren die temporär verborgen sind, wie Fußgänger hinter geparkten Autos, verbessert Sicherheit in komplexen urbanen Szenarien.",
+          nl: "Occlusie redenering helpt autonome voertuigen potentiële gevaren te anticiperen die tijdelijk verborgen zijn, zoals voetgangers achter geparkeerde auto's, verbetert veiligheid in complexe stedelijke scenario's."
+        }
+      },
+      {
+        question: {
+          en: "What is 'dynamic replanning' achieving in autonomous vehicle navigation?",
+          es: "¿Qué está logrando la 'replanificación dinámica' en navegación de vehículos autónomos?",
+          de: "Was erreicht 'dynamische Neuplanung' in der Navigation autonomer Fahrzeuge?",
+          nl: "Wat bereikt 'dynamische herplanning' in navigatie van autonome voertuigen?"
+        },
+        options: [
+          { en: "Continuously updating paths and trajectories in response to changing traffic conditions, new obstacles, and unexpected events", es: "Actualizar continuamente rutas y trayectorias en respuesta a condiciones cambiantes de tráfico, nuevos obstáculos y eventos inesperados", de: "Kontinuierliches Aktualisieren von Pfaden und Trajektorien als Reaktion auf sich ändernde Verkehrsbedingungen, neue Hindernisse und unerwartete Ereignisse", nl: "Continu paden en trajecten bijwerken in reactie op veranderende verkeersomstandigheden, nieuwe obstakels en onverwachte gebeurtenissen" },
+          { en: "Replanning only when destination changes", es: "Replanificar solo cuando cambia el destino", de: "Nur neuplanung wenn Ziel sich ändert", nl: "Alleen herplannen wanneer bestemming verandert" },
+          { en: "Dynamic vehicle maintenance replanning", es: "Replanificación dinámica de mantenimiento de vehículo", de: "Dynamische Fahrzeugwartungs-Neuplanung", nl: "Dynamische voertuigonderhoud herplanning" },
+          { en: "Replanning marketing strategies", es: "Replanificar estrategias de marketing", de: "Marketing-Strategien neu planen", nl: "Marketing strategieën herplannen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dynamic replanning ensures autonomous vehicles remain responsive and safe by adapting plans in real-time as the environment changes, avoiding becoming stuck with outdated routes.",
+          es: "La replanificación dinámica asegura que vehículos autónomos permanezcan receptivos y seguros adaptando planes en tiempo real mientras el entorno cambia, evitando quedarse atascados con rutas obsoletas.",
+          de: "Dynamische Neuplanung stellt sicher dass autonome Fahrzeuge responsiv und sicher bleiben durch Anpassung von Plänen in Echtzeit während sich die Umgebung ändert, verhindert Festsitzen mit veralteten Routen.",
+          nl: "Dynamische herplanning zorgt ervoor dat autonome voertuigen responsief en veilig blijven door plannen in realtime aan te passen terwijl de omgeving verandert, voorkomt vastlopen met verouderde routes."
+        }
+      },
+      {
+        question: {
+          en: "What is 'temporal logic' contributing to autonomous vehicle behavior specification?",
+          es: "¿Qué está contribuyendo la 'lógica temporal' a la especificación de comportamiento de vehículos autónomos?",
+          de: "Was trägt 'temporale Logik' zur Verhaltensspezifikation autonomer Fahrzeuge bei?",
+          nl: "Wat draagt 'temporale logica' bij aan gedragsspecificatie van autonome voertuigen?"
+        },
+        options: [
+          { en: "Formally specifying time-dependent safety requirements and correct ordering of actions using mathematical logic frameworks", es: "Especificar formalmente requisitos de seguridad dependientes del tiempo y orden correcto de acciones usando marcos de lógica matemática", de: "Formales Spezifizieren zeitabhängiger Sicherheitsanforderungen und korrekter Aktionsreihenfolge mit mathematischen Logik-Frameworks", nl: "Formeel tijdsafhankelijke veiligheidsvereisten en correcte volgorde van acties specificeren met wiskundige logica frameworks" },
+          { en: "Logic for temporary vehicle operations only", es: "Lógica solo para operaciones temporales de vehículos", de: "Logik nur für temporäre Fahrzeugoperationen", nl: "Logica alleen voor tijdelijke voertuigoperaties" },
+          { en: "Temporal scheduling of vehicle tasks", es: "Programación temporal de tareas de vehículo", de: "Temporale Planung von Fahrzeugaufgaben", nl: "Temporale planning van voertuigtaken" },
+          { en: "Time-based vehicle rental logic", es: "Lógica de alquiler de vehículo basada en tiempo", de: "Zeitbasierte Fahrzeugvermietungslogik", nl: "Tijd-gebaseerde voertuigverhuur logica" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Temporal logic enables precise specification of safety properties like 'always maintain safe following distance' or 'eventually reach destination', supporting formal verification of autonomous systems.",
+          es: "La lógica temporal permite especificación precisa de propiedades de seguridad como 'siempre mantener distancia segura de seguimiento' o 'eventualmente alcanzar destino', apoyando verificación formal de sistemas autónomos.",
+          de: "Temporale Logik ermöglicht präzise Spezifikation von Sicherheitseigenschaften wie 'immer sicheren Folgeabstand halten' oder 'letztendlich Ziel erreichen', unterstützt formale Verifikation autonomer Systeme.",
+          nl: "Temporale logica maakt precieze specificatie van veiligheidseigenschappen mogelijk zoals 'altijd veilige volgafstand handhaven' of 'uiteindelijk bestemming bereiken', ondersteunt formele verificatie van autonome systemen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'game-theoretic planning' enabling in autonomous vehicle interaction scenarios?",
+          es: "¿Qué está permitiendo la 'planificación de teoría de juegos' en escenarios de interacción de vehículos autónomos?",
+          de: "Was ermöglicht 'spieltheoretische Planung' in Interaktionsszenarien autonomer Fahrzeuge?",
+          nl: "Wat maakt 'speltheoretische planning' mogelijk in interactiescenario's van autonome voertuigen?"
+        },
+        options: [
+          { en: "Modeling multi-agent interactions where each vehicle's optimal decision depends on predicting and influencing the decisions of others", es: "Modelar interacciones multi-agente donde la decisión óptima de cada vehículo depende de predecir e influir las decisiones de otros", de: "Multi-Agenten-Interaktionen modellieren wo jedes Fahrzeugs optimale Entscheidung vom Vorhersagen und Beeinflussen der Entscheidungen anderer abhängt", nl: "Multi-agent interacties modelleren waarbij de optimale beslissing van elk voertuig afhangt van het voorspellen en beïnvloeden van beslissingen van anderen" },
+          { en: "Gaming entertainment systems in vehicles", es: "Sistemas de entretenimiento de juegos en vehículos", de: "Gaming-Unterhaltungssysteme in Fahrzeugen", nl: "Gaming entertainmentsystemen in voertuigen" },
+          { en: "Planning game-related vehicle features", es: "Planificar características de vehículo relacionadas con juegos", de: "Spielbezogene Fahrzeugfunktionen planen", nl: "Game-gerelateerde voertuigfuncties plannen" },
+          { en: "Theoretical game physics in simulations", es: "Física de juego teórica en simulaciones", de: "Theoretische Spielphysik in Simulationen", nl: "Theoretische game fysica in simulaties" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Game theory helps autonomous vehicles reason about strategic interactions like merging, lane changes, and intersections where outcomes depend on the coordinated actions of multiple agents.",
+          es: "La teoría de juegos ayuda a vehículos autónomos razonar sobre interacciones estratégicas como fusiones, cambios de carril e intersecciones donde resultados dependen de acciones coordinadas de múltiples agentes.",
+          de: "Spieltheorie hilft autonomen Fahrzeugen über strategische Interaktionen wie Einfädeln, Spurwechsel und Kreuzungen nachzudenken wo Ergebnisse von koordinierten Aktionen mehrerer Agenten abhängen.",
+          nl: "Speltheorie helpt autonome voertuigen redeneren over strategische interacties zoals samenvoegen, rijstrookwisselingen en kruispunten waar uitkomsten afhangen van gecoördineerde acties van meerdere agenten."
+        }
+      },
+      {
+        question: {
+          en: "What is 'learning from demonstration' achieving in autonomous vehicle training?",
+          es: "¿Qué está logrando el 'aprendizaje desde demostración' en entrenamiento de vehículos autónomos?",
+          de: "Was erreicht 'Lernen durch Demonstration' im Training autonomer Fahrzeuge?",
+          nl: "Wat bereikt 'leren door demonstratie' in training van autonome voertuigen?"
+        },
+        options: [
+          { en: "Acquiring driving policies by observing and imitating expert human drivers, learning complex behaviors without explicit programming", es: "Adquirir políticas de conducción observando e imitando conductores humanos expertos, aprender comportamientos complejos sin programación explícita", de: "Fahrpolitiken durch Beobachten und Imitieren erfahrener menschlicher Fahrer erwerben, komplexe Verhaltensweisen ohne explizite Programmierung lernen", nl: "Rijbeleid verwerven door expert menselijke bestuurders te observeren en imiteren, complexe gedragingen leren zonder expliciete programmering" },
+          { en: "Learning only from vehicle demonstrations", es: "Aprender solo desde demostraciones de vehículos", de: "Nur von Fahrzeugdemonstrationen lernen", nl: "Alleen leren van voertuigdemonstraties" },
+          { en: "Demonstration of vehicle features to customers", es: "Demostración de características del vehículo a clientes", de: "Demonstration von Fahrzeugfunktionen an Kunden", nl: "Demonstratie van voertuigfuncties aan klanten" },
+          { en: "Learning demonstration techniques", es: "Aprender técnicas de demostración", de: "Demonstrationstechniken lernen", nl: "Demonstratietechnieken leren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Learning from demonstration allows autonomous vehicles to acquire nuanced driving behaviors like smooth merging or courteous yielding by studying how skilled humans handle similar situations.",
+          es: "El aprendizaje desde demostración permite a vehículos autónomos adquirir comportamientos matizados de conducción como fusión suave o ceder cortésmente estudiando cómo humanos hábiles manejan situaciones similares.",
+          de: "Lernen durch Demonstration ermöglicht autonomen Fahrzeugen nuancierte Fahrverhaltensweisen wie glattes Einfädeln oder höfliches Nachgeben zu erwerben durch Studieren wie geschickte Menschen ähnliche Situationen handhaben.",
+          nl: "Leren door demonstratie stelt autonome voertuigen in staat genuanceerde rijgedragingen te verwerven zoals soepel samenvoegen of hoffelijk voorrang verlenen door te bestuderen hoe bekwame mensen vergelijkbare situaties aanpakken."
+        }
+      },
+      {
+        question: {
+          en: "What is 'cost map generation' providing for autonomous vehicle path planning?",
+          es: "¿Qué está proporcionando la 'generación de mapa de costos' para planificación de rutas de vehículos autónomos?",
+          de: "Was bietet 'Kostenkarten-Generierung' für die Pfadplanung autonomer Fahrzeuge?",
+          nl: "Wat biedt 'kostenkaart generatie' voor padplanning van autonome voertuigen?"
+        },
+        options: [
+          { en: "Creating spatial representations where each location has an associated cost based on factors like safety, legality, and efficiency for route optimization", es: "Crear representaciones espaciales donde cada ubicación tiene un costo asociado basado en factores como seguridad, legalidad y eficiencia para optimización de rutas", de: "Räumliche Darstellungen erstellen wo jeder Standort zugeordnete Kosten hat basierend auf Faktoren wie Sicherheit, Legalität und Effizienz für Routenoptimierung", nl: "Ruimtelijke representaties creëren waarbij elke locatie geassocieerde kosten heeft gebaseerd op factoren zoals veiligheid, wettigheid en efficiëntie voor route-optimalisatie" },
+          { en: "Generating financial cost estimates only", es: "Generar solo estimaciones de costo financiero", de: "Nur finanzielle Kostenschätzungen generieren", nl: "Alleen financiële kostenschattingen genereren" },
+          { en: "Mapping vehicle manufacturing costs", es: "Mapear costos de fabricación de vehículos", de: "Fahrzeugherstellungskosten kartieren", nl: "Voertuigproductiekosten mappen" },
+          { en: "Cost analysis of map production", es: "Análisis de costo de producción de mapas", de: "Kostenanalyse der Kartenproduktion", nl: "Kostenanalyse van kaartproductie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cost maps enable planners to weight different areas of the environment appropriately, favoring safe, legal, and efficient paths while penalizing dangerous or prohibited zones.",
+          es: "Los mapas de costos permiten a planificadores ponderar diferentes áreas del entorno apropiadamente, favoreciendo rutas seguras, legales y eficientes mientras penalizan zonas peligrosas o prohibidas.",
+          de: "Kostenkarten ermöglichen Planern verschiedene Bereiche der Umgebung angemessen zu gewichten, bevorzugen sichere, legale und effiziente Pfade während gefährliche oder verbotene Zonen bestraft werden.",
+          nl: "Kostenkaarten stellen planners in staat verschillende gebieden van de omgeving geschikt te wegen, bevoordeelt veilige, legale en efficiënte paden terwijl gevaarlijke of verboden zones worden bestraft."
+        }
+      },
+      {
+        question: {
+          en: "What is 'velocity obstacle method' solving in collision avoidance?",
+          es: "¿Qué está resolviendo el 'método de obstáculo de velocidad' en evitación de colisiones?",
+          de: "Was löst die 'Geschwindigkeitshindernis-Methode' in der Kollisionsvermeidung?",
+          nl: "Wat lost de 'snelheidsobstakel methode' op in botsing vermijding?"
+        },
+        options: [
+          { en: "Identifying velocities that would lead to future collisions with moving objects and selecting safe alternative velocities in real-time", es: "Identificar velocidades que conducirían a colisiones futuras con objetos en movimiento y seleccionar velocidades alternativas seguras en tiempo real", de: "Geschwindigkeiten identifizieren die zu zukünftigen Kollisionen mit sich bewegenden Objekten führen würden und sichere alternative Geschwindigkeiten in Echtzeit auswählen", nl: "Snelheden identificeren die tot toekomstige botsingen met bewegende objecten zouden leiden en veilige alternatieve snelheden in realtime selecteren" },
+          { en: "Obstacles that reduce vehicle velocity", es: "Obstáculos que reducen velocidad del vehículo", de: "Hindernisse die Fahrzeuggeschwindigkeit reduzieren", nl: "Obstakels die voertuigsnelheid verminderen" },
+          { en: "Velocity measurement of obstacles", es: "Medición de velocidad de obstáculos", de: "Geschwindigkeitsmessung von Hindernissen", nl: "Snelheidsmeting van obstakels" },
+          { en: "Obstacle velocity prediction only", es: "Solo predicción de velocidad de obstáculos", de: "Nur Hindernisgeschwindigkeitsvorhersage", nl: "Alleen obstakelsnelheid voorspelling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The velocity obstacle method provides an elegant geometric framework for real-time collision avoidance with moving obstacles by computing which velocities are safe in velocity space.",
+          es: "El método de obstáculo de velocidad proporciona un marco geométrico elegante para evitación de colisiones en tiempo real con obstáculos en movimiento computando qué velocidades son seguras en espacio de velocidad.",
+          de: "Die Geschwindigkeitshindernis-Methode bietet einen eleganten geometrischen Rahmen für Echtzeitkollisionsvermeidung mit sich bewegenden Hindernissen durch Berechnung welche Geschwindigkeiten im Geschwindigkeitsraum sicher sind.",
+          nl: "De snelheidsobstakel methode biedt een elegant geometrisch raamwerk voor realtime botsing vermijding met bewegende obstakels door te berekenen welke snelheden veilig zijn in snelheidsruimte."
+        }
+      },
+      {
+        question: {
+          en: "What is 'map matching' accomplishing in autonomous vehicle localization?",
+          es: "¿Qué está logrando la 'coincidencia de mapas' en localización de vehículos autónomos?",
+          de: "Was erreicht 'Kartenabgleich' in der Lokalisierung autonomer Fahrzeuge?",
+          nl: "Wat bereikt 'kaart matching' in lokalisatie van autonome voertuigen?"
+        },
+        options: [
+          { en: "Aligning noisy GPS and sensor observations with high-definition road maps to determine precise vehicle position on the road network", es: "Alinear observaciones ruidosas de GPS y sensores con mapas de carreteras de alta definición para determinar posición precisa del vehículo en la red vial", de: "Verrauschte GPS- und Sensorbeobachtungen mit hochauflösenden Straßenkarten abgleichen um präzise Fahrzeugposition im Straßennetz zu bestimmen", nl: "Ruizige GPS en sensorwaarnemingen uitlijnen met high-definition wegenkaarten om precieze voertuigpositie op het wegennetwerk te bepalen" },
+          { en: "Matching maps to find identical ones", es: "Emparejar mapas para encontrar idénticos", de: "Karten abgleichen um identische zu finden", nl: "Kaarten matchen om identieke te vinden" },
+          { en: "Matching vehicle colors to maps", es: "Emparejar colores de vehículo con mapas", de: "Fahrzeugfarben mit Karten abgleichen", nl: "Voertuigkleuren matchen met kaarten" },
+          { en: "Map quality matching algorithms", es: "Algoritmos de coincidencia de calidad de mapas", de: "Kartenqualität-Abgleichalgorithmen", nl: "Kaartkwaliteit matching algoritmes" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Map matching improves localization accuracy by constraining estimated positions to plausible road locations, correcting GPS errors and ensuring the vehicle knows which lane it occupies.",
+          es: "La coincidencia de mapas mejora precisión de localización restringiendo posiciones estimadas a ubicaciones plausibles de carretera, corrigiendo errores GPS y asegurando que el vehículo sepa qué carril ocupa.",
+          de: "Kartenabgleich verbessert Lokalisierungsgenauigkeit durch Beschränkung geschätzter Positionen auf plausible Straßenstandorte, korrigiert GPS-Fehler und stellt sicher dass das Fahrzeug weiß welche Spur es belegt.",
+          nl: "Kaart matching verbetert lokalisatieaccuraatheid door geschatte posities te beperken tot plausibele weglocaties, corrigeert GPS-fouten en zorgt ervoor dat het voertuig weet welke rijstrook het bezet."
+        }
+      },
+      {
+        question: {
+          en: "What is 'context-aware navigation' enabling in autonomous vehicles?",
+          es: "¿Qué está permitiendo la 'navegación consciente del contexto' en vehículos autónomos?",
+          de: "Was ermöglicht 'kontextbewusste Navigation' in autonomen Fahrzeugen?",
+          nl: "Wat maakt 'context-bewuste navigatie' mogelijk in autonome voertuigen?"
+        },
+        options: [
+          { en: "Adapting driving behavior based on environmental context like weather, time of day, traffic density, and cultural driving norms", es: "Adaptar comportamiento de conducción basado en contexto ambiental como clima, hora del día, densidad de tráfico y normas culturales de conducción", de: "Fahrverhalten basierend auf Umgebungskontext wie Wetter, Tageszeit, Verkehrsdichte und kulturelle Fahrnormen anpassen", nl: "Rijgedrag aanpassen op basis van omgevingscontext zoals weer, tijd van de dag, verkeersdichtheid en culturele rijgewoonten" },
+          { en: "Navigation with contextual advertisements", es: "Navegación con anuncios contextuales", de: "Navigation mit kontextbezogenen Werbungen", nl: "Navigatie met contextuele advertenties" },
+          { en: "Context menus in navigation systems", es: "Menús contextuales en sistemas de navegación", de: "Kontextmenüs in Navigationssystemen", nl: "Contextmenu's in navigatiesystemen" },
+          { en: "Awareness of navigation context only", es: "Solo conciencia del contexto de navegación", de: "Nur Bewusstsein des Navigationskontexts", nl: "Alleen bewustzijn van navigatiecontext" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Context-aware navigation ensures autonomous vehicles drive appropriately for the situation, such as driving more cautiously in school zones or adapting to local merging conventions.",
+          es: "La navegación consciente del contexto asegura que vehículos autónomos conduzcan apropiadamente para la situación, como conducir más cautelosamente en zonas escolares o adaptarse a convenciones locales de fusión.",
+          de: "Kontextbewusste Navigation stellt sicher dass autonome Fahrzeuge situationsgerecht fahren, wie vorsichtiger in Schulzonen fahren oder sich an lokale Einfädelkonventionen anpassen.",
+          nl: "Context-bewuste navigatie zorgt ervoor dat autonome voertuigen gepast rijden voor de situatie, zoals voorzichtiger rijden in schoolzones of aanpassen aan lokale samenvoeg conventies."
+        }
+      },
+      {
+        question: {
+          en: "What is 'cooperative localization' achieving in autonomous vehicle networks?",
+          es: "¿Qué está logrando la 'localización cooperativa' en redes de vehículos autónomos?",
+          de: "Was erreicht 'kooperative Lokalisierung' in autonomen Fahrzeugnetzwerken?",
+          nl: "Wat bereikt 'coöperatieve lokalisatie' in autonome voertuignetwerken?"
+        },
+        options: [
+          { en: "Improving individual vehicle position estimates by sharing observations and measurements among connected vehicles in the network", es: "Mejorar estimaciones de posición de vehículos individuales compartiendo observaciones y mediciones entre vehículos conectados en la red", de: "Individuelle Fahrzeugpositionsschätzungen verbessern durch Teilen von Beobachtungen und Messungen unter vernetzten Fahrzeugen im Netzwerk", nl: "Individuele voertuigpositie schattingen verbeteren door observaties en metingen te delen tussen verbonden voertuigen in het netwerk" },
+          { en: "Cooperative parking localization only", es: "Solo localización cooperativa de estacionamiento", de: "Nur kooperative Parklokalisierung", nl: "Alleen coöperatieve parkeer lokalisatie" },
+          { en: "Location sharing for social purposes", es: "Compartir ubicación para propósitos sociales", de: "Standortfreigabe für soziale Zwecke", nl: "Locatie delen voor sociale doeleinden" },
+          { en: "Localization cooperation with infrastructure", es: "Cooperación de localización con infraestructura", de: "Lokalisierungskooperation mit Infrastruktur", nl: "Lokalisatie samenwerking met infrastructuur" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cooperative localization leverages vehicle-to-vehicle communication to enhance positioning accuracy by combining multiple perspectives and reducing individual sensor uncertainty.",
+          es: "La localización cooperativa aprovecha comunicación vehículo-a-vehículo para mejorar precisión de posicionamiento combinando múltiples perspectivas y reduciendo incertidumbre individual de sensores.",
+          de: "Kooperative Lokalisierung nutzt Fahrzeug-zu-Fahrzeug-Kommunikation um Positionierungsgenauigkeit zu verbessern durch Kombination mehrerer Perspektiven und Reduzierung individueller Sensorunsicherheit.",
+          nl: "Coöperatieve lokalisatie benut voertuig-naar-voertuig communicatie om positioneringsaccuraatheid te verbeteren door meerdere perspectieven te combineren en individuele sensoronzekerheid te verminderen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'hybrid planning' combining in autonomous vehicle decision-making?",
+          es: "¿Qué está combinando la 'planificación híbrida' en toma de decisiones de vehículos autónomos?",
+          de: "Was kombiniert 'hybride Planung' in der Entscheidungsfindung autonomer Fahrzeuge?",
+          nl: "Wat combineert 'hybride planning' in besluitvorming van autonome voertuigen?"
+        },
+        options: [
+          { en: "Integrating discrete logical decision-making with continuous trajectory optimization to handle both high-level reasoning and low-level control", es: "Integrar toma de decisiones lógica discreta con optimización continua de trayectoria para manejar tanto razonamiento de alto nivel como control de bajo nivel", de: "Diskrete logische Entscheidungsfindung mit kontinuierlicher Trajektorienoptimierung integrieren um sowohl hochstufiges Denken als auch niedrigstufige Kontrolle zu handhaben", nl: "Discrete logische besluitvorming integreren met continue traject optimalisatie om zowel hoog-niveau redenering als laag-niveau controle te behandelen" },
+          { en: "Hybrid vehicle planning only", es: "Solo planificación de vehículo híbrido", de: "Nur Hybrid-Fahrzeugplanung", nl: "Alleen hybride voertuig planning" },
+          { en: "Planning for hybrid engines", es: "Planificación para motores híbridos", de: "Planung für Hybridmotoren", nl: "Planning voor hybride motoren" },
+          { en: "Hybrid map and GPS planning", es: "Planificación híbrida de mapa y GPS", de: "Hybride Karten- und GPS-Planung", nl: "Hybride kaart en GPS planning" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hybrid planning architectures enable autonomous vehicles to seamlessly combine symbolic reasoning about maneuvers with numerical optimization of smooth, dynamically feasible paths.",
+          es: "Las arquitecturas de planificación híbrida permiten a vehículos autónomos combinar sin problemas razonamiento simbólico sobre maniobras con optimización numérica de caminos suaves y dinámicamente factibles.",
+          de: "Hybride Planungsarchitekturen ermöglichen autonomen Fahrzeugen nahtlos symbolisches Denken über Manöver mit numerischer Optimierung glatter, dynamisch machbarer Pfade zu kombinieren.",
+          nl: "Hybride planning architecturen stellen autonome voertuigen in staat naadloos symbolisch redeneren over manoeuvres te combineren met numerieke optimalisatie van vloeiende, dynamisch haalbare paden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'risk assessment' providing for autonomous vehicle safety?",
+          es: "¿Qué está proporcionando la 'evaluación de riesgos' para seguridad de vehículos autónomos?",
+          de: "Was bietet 'Risikobewertung' für die Sicherheit autonomer Fahrzeuge?",
+          nl: "Wat biedt 'risicobeoordeling' voor veiligheid van autonome voertuigen?"
+        },
+        options: [
+          { en: "Quantifying potential hazards by estimating collision probabilities, severity, and uncertainty to make informed safety-critical decisions", es: "Cuantificar peligros potenciales estimando probabilidades de colisión, severidad e incertidumbre para tomar decisiones informadas críticas de seguridad", de: "Potenzielle Gefahren quantifizieren durch Schätzung von Kollisionswahrscheinlichkeiten, Schweregrad und Unsicherheit um informierte sicherheitskritische Entscheidungen zu treffen", nl: "Potentiële gevaren kwantificeren door botsing waarschijnlijkheden, ernst en onzekerheid te schatten om geïnformeerde veiligheidskritieke beslissingen te nemen" },
+          { en: "Risk assessment for vehicle insurance only", es: "Evaluación de riesgos solo para seguro de vehículo", de: "Risikobewertung nur für Fahrzeugversicherung", nl: "Risicobeoordeling alleen voor voertuigverzekering" },
+          { en: "Financial risk assessment", es: "Evaluación de riesgo financiero", de: "Finanzielle Risikobewertung", nl: "Financiële risicobeoordeling" },
+          { en: "Risk of vehicle component failure only", es: "Solo riesgo de falla de componente del vehículo", de: "Nur Risiko von Fahrzeugkomponentenausfall", nl: "Alleen risico van voertuigcomponent falen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Risk assessment frameworks help autonomous vehicles prioritize actions, choosing conservative behaviors when uncertainty is high and more efficient maneuvers when confidence is strong.",
+          es: "Los marcos de evaluación de riesgos ayudan a vehículos autónomos priorizar acciones, elegir comportamientos conservadores cuando incertidumbre es alta y maniobras más eficientes cuando confianza es fuerte.",
+          de: "Risikobewertungs-Frameworks helfen autonomen Fahrzeugen Aktionen zu priorisieren, wählen konservative Verhaltensweisen wenn Unsicherheit hoch ist und effizientere Manöver wenn Vertrauen stark ist.",
+          nl: "Risicobeoordeling frameworks helpen autonome voertuigen acties te prioriteren, kiezen conservatieve gedragingen wanneer onzekerheid hoog is en efficiëntere manoeuvres wanneer vertrouwen sterk is."
+        }
+      },
+      {
+        question: {
+          en: "What is 'scenario-based testing' accomplishing in autonomous vehicle validation?",
+          es: "¿Qué está logrando la 'prueba basada en escenarios' en validación de vehículos autónomos?",
+          de: "Was erreicht 'szenariobasiertes Testen' in der Validierung autonomer Fahrzeuge?",
+          nl: "Wat bereikt 'scenario-gebaseerd testen' in validatie van autonome voertuigen?"
+        },
+        options: [
+          { en: "Systematically evaluating vehicle performance across diverse, realistic traffic scenarios including rare edge cases to ensure safety", es: "Evaluar sistemáticamente rendimiento del vehículo a través de diversos escenarios de tráfico realistas incluyendo casos límite raros para asegurar seguridad", de: "Systematische Bewertung der Fahrzeugleistung über verschiedene, realistische Verkehrsszenarien einschließlich seltener Randfälle um Sicherheit zu gewährleisten", nl: "Systematisch voertuigprestaties evalueren over diverse, realistische verkeersscenario's inclusief zeldzame randgevallen om veiligheid te waarborgen" },
+          { en: "Testing scenarios for vehicle marketing", es: "Probar escenarios para marketing de vehículos", de: "Szenarien für Fahrzeugmarketing testen", nl: "Scenario's testen voor voertuigmarketing" },
+          { en: "Scenario planning for vehicle sales", es: "Planificación de escenarios para ventas de vehículos", de: "Szenarioplanung für Fahrzeugverkäufe", nl: "Scenario planning voor voertuigverkoop" },
+          { en: "Testing only common scenarios", es: "Probar solo escenarios comunes", de: "Nur häufige Szenarien testen", nl: "Alleen veelvoorkomende scenario's testen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Scenario-based testing ensures autonomous vehicles can handle challenging situations like cut-ins, pedestrian crossings, and adverse weather before deployment on public roads.",
+          es: "Las pruebas basadas en escenarios aseguran que vehículos autónomos puedan manejar situaciones desafiantes como cortes, cruces de peatones y clima adverso antes del despliegue en carreteras públicas.",
+          de: "Szenariobasiertes Testen stellt sicher dass autonome Fahrzeuge herausfordernde Situationen wie Einscherer, Fußgängerübergänge und widrige Wetterbedingungen vor Einsatz auf öffentlichen Straßen bewältigen können.",
+          nl: "Scenario-gebaseerd testen zorgt ervoor dat autonome voertuigen uitdagende situaties zoals invoegers, voetgangersoversteken en slecht weer aankunnen voor inzet op openbare wegen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'energy-efficient routing' optimizing in autonomous electric vehicles?",
+          es: "¿Qué está optimizando el 'enrutamiento eficiente en energía' en vehículos eléctricos autónomos?",
+          de: "Was optimiert 'energieeffizientes Routing' in autonomen Elektrofahrzeugen?",
+          nl: "Wat optimaliseert 'energie-efficiënte routing' in autonome elektrische voertuigen?"
+        },
+        options: [
+          { en: "Routes that minimize energy consumption by considering factors like elevation changes, traffic patterns, and regenerative braking opportunities", es: "Rutas que minimizan consumo de energía considerando factores como cambios de elevación, patrones de tráfico y oportunidades de frenado regenerativo", de: "Routen die Energieverbrauch minimieren durch Berücksichtigung von Faktoren wie Höhenänderungen, Verkehrsmustern und regenerativen Bremsmöglichkeiten", nl: "Routes die energieverbruik minimaliseren door factoren zoals hoogteverschillen, verkeerspatronen en regeneratieve remkansen te overwegen" },
+          { en: "Energy-efficient route calculation algorithms only", es: "Solo algoritmos de cálculo de ruta eficiente en energía", de: "Nur energieeffiziente Routenberechnungsalgorithmen", nl: "Alleen energie-efficiënte route berekeningsalgoritmes" },
+          { en: "Routing to nearest charging stations", es: "Enrutamiento a estaciones de carga más cercanas", de: "Routing zu nächsten Ladestationen", nl: "Routing naar dichtstbijzijnde laadstations" },
+          { en: "Energy monitoring during routing", es: "Monitoreo de energía durante enrutamiento", de: "Energieüberwachung während Routing", nl: "Energie monitoring tijdens routing" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Energy-efficient routing extends electric vehicle range by selecting paths that reduce energy usage, accounting for terrain, speed profiles, and the ability to recover energy through regenerative braking.",
+          es: "El enrutamiento eficiente en energía extiende el alcance de vehículos eléctricos seleccionando caminos que reducen uso de energía, considerando terreno, perfiles de velocidad y capacidad de recuperar energía mediante frenado regenerativo.",
+          de: "Energieeffizientes Routing erweitert die Reichweite von Elektrofahrzeugen durch Auswahl von Pfaden die Energieverbrauch reduzieren, berücksichtigt Gelände, Geschwindigkeitsprofile und Fähigkeit Energie durch regeneratives Bremsen zurückzugewinnen.",
+          nl: "Energie-efficiënte routing vergroot het bereik van elektrische voertuigen door paden te selecteren die energiegebruik verminderen, houdt rekening met terrein, snelheidsprofielen en het vermogen om energie terug te winnen door regeneratief remmen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'formal verification' providing for autonomous vehicle software safety?",
+          es: "¿Qué está proporcionando la 'verificación formal' para seguridad de software de vehículos autónomos?",
+          de: "Was bietet 'formale Verifikation' für die Softwaresicherheit autonomer Fahrzeuge?",
+          nl: "Wat biedt 'formele verificatie' voor software veiligheid van autonome voertuigen?"
+        },
+        options: [
+          { en: "Mathematical proofs that software satisfies critical safety properties and behaves correctly under all specified conditions", es: "Pruebas matemáticas de que el software satisface propiedades críticas de seguridad y se comporta correctamente bajo todas las condiciones especificadas", de: "Mathematische Beweise dass Software kritische Sicherheitseigenschaften erfüllt und sich unter allen spezifizierten Bedingungen korrekt verhält", nl: "Wiskundige bewijzen dat software kritieke veiligheidseigenschappen voldoet en zich correct gedraagt onder alle gespecificeerde condities" },
+          { en: "Formal documentation verification only", es: "Solo verificación formal de documentación", de: "Nur formale Dokumentationsverifikation", nl: "Alleen formele documentatie verificatie" },
+          { en: "Verification of formal contracts", es: "Verificación de contratos formales", de: "Verifikation formaler Verträge", nl: "Verificatie van formele contracten" },
+          { en: "Formal testing procedures", es: "Procedimientos formales de prueba", de: "Formale Testverfahren", nl: "Formele testprocedures" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Formal verification uses mathematical techniques to prove that autonomous vehicle software will never violate safety constraints, providing higher assurance than testing alone.",
+          es: "La verificación formal usa técnicas matemáticas para probar que software de vehículos autónomos nunca violará restricciones de seguridad, proporcionando mayor garantía que solo pruebas.",
+          de: "Formale Verifikation verwendet mathematische Techniken um zu beweisen dass autonome Fahrzeugsoftware niemals Sicherheitseinschränkungen verletzt, bietet höhere Sicherheit als Testen allein.",
+          nl: "Formele verificatie gebruikt wiskundige technieken om te bewijzen dat autonome voertuigsoftware nooit veiligheidsbeperkingen zal schenden, biedt hogere zekerheid dan alleen testen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'contingency planning' preparing autonomous vehicles for?",
+          es: "¿Para qué está preparando la 'planificación de contingencias' a vehículos autónomos?",
+          de: "Wofür bereitet 'Notfallplanung' autonome Fahrzeuge vor?",
+          nl: "Waarvoor bereidt 'contingentie planning' autonome voertuigen voor?"
+        },
+        options: [
+          { en: "Unexpected failures, sensor degradation, or emergency situations by maintaining backup plans and safe fallback behaviors", es: "Fallas inesperadas, degradación de sensores o situaciones de emergencia manteniendo planes de respaldo y comportamientos de reserva seguros", de: "Unerwartete Ausfälle, Sensordegradation oder Notsituationen durch Aufrechterhalten von Backup-Plänen und sicheren Ausweichverhaltensweisen", nl: "Onverwachte storingen, sensordegradatie of noodsituaties door back-up plannen en veilige terugval gedragingen te handhaven" },
+          { en: "Contingent vehicle financing options", es: "Opciones de financiación contingente de vehículos", de: "Bedingte Fahrzeugfinanzierungsoptionen", nl: "Contingente voertuigfinancieringsopties" },
+          { en: "Planning for vehicle contingencies only", es: "Planificar solo para contingencias de vehículos", de: "Nur für Fahrzeugkontingenzen planen", nl: "Alleen plannen voor voertuig contingenten" },
+          { en: "Contingency insurance planning", es: "Planificación de seguro de contingencia", de: "Kontingenzversicherungsplanung", nl: "Contingentie verzekering planning" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Contingency planning ensures autonomous vehicles can safely handle component failures or unexpected events by switching to degraded but safe operating modes or executing emergency maneuvers.",
+          es: "La planificación de contingencias asegura que vehículos autónomos puedan manejar con seguridad fallas de componentes o eventos inesperados cambiando a modos operativos degradados pero seguros o ejecutando maniobras de emergencia.",
+          de: "Notfallplanung stellt sicher dass autonome Fahrzeuge Komponentenausfälle oder unerwartete Ereignisse sicher bewältigen können durch Umschalten auf degradierte aber sichere Betriebsmodi oder Ausführung von Notmanövern.",
+          nl: "Contingentie planning zorgt ervoor dat autonome voertuigen componentenstoringen of onverwachte gebeurtenissen veilig kunnen afhandelen door over te schakelen naar gedegradeerde maar veilige bedrijfsmodi of noodmanoeuvres uit te voeren."
+        }
       }
     ]
   };

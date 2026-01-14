@@ -427,6 +427,405 @@
           de: "Bias-Terme bieten einen Offset oder Schwellenwert der es Neuronen ermöglicht zu aktivieren auch wenn alle gewichteten Eingaben null ergeben. Sie geben dem Netzwerk mehr Flexibilität durch horizontales Verschieben der Aktivierungsfunktion, wodurch Neuronen lernen können wann sie 'feuern' sollen unabhängig von den Eingabemustern.",
           nl: "Bias-termen bieden een verschuiving of drempelwaarde die neuronen toestaat te activeren zelfs wanneer alle gewogen invoer nul opteelt. Ze geven het netwerk meer flexibiliteit door de activatiefunctie horizontaal te verschuiven, waardoor neuronen kunnen leren wanneer ze moeten 'vuren' onafhankelijk van de invoerpatronen."
         }
+      },
+      {
+        question: {
+          en: "What is the chain rule in the context of neural network backpropagation?",
+          es: "¿Qué es la regla de la cadena en el contexto de retropropagación de redes neuronales?",
+          de: "Was ist die Kettenregel im Kontext der neuronalen Netzwerk-Rückpropagation?",
+          nl: "Wat is de kettingregel in de context van neurale netwerk backpropagation?"
+        },
+        options: [
+          { en: "A calculus rule used to compute gradients of composite functions layer by layer in the network", es: "Regla de cálculo usada para calcular gradientes de funciones compuestas capa por capa en la red", de: "Kalkülregel zur Berechnung von Gradienten zusammengesetzter Funktionen Schicht für Schicht im Netzwerk", nl: "Calculusregel gebruikt om gradiënten van samengestelde functies laag voor laag in het netwerk te berekenen" },
+          { en: "A method for linking multiple neural networks together", es: "Método para enlazar múltiples redes neuronales juntas", de: "Methode zum Verknüpfen mehrerer neuronaler Netzwerke", nl: "Methode om meerdere neurale netwerken te koppelen" },
+          { en: "A technique for chaining training epochs sequentially", es: "Técnica para encadenar épocas de entrenamiento secuencialmente", de: "Technik zum sequentiellen Verketten von Trainingsepochen", nl: "Techniek voor het opeenvolgend koppelen van training epochs" },
+          { en: "A rule for determining the order of layer execution", es: "Regla para determinar el orden de ejecución de capas", de: "Regel zur Bestimmung der Reihenfolge der Schichtausführung", nl: "Regel voor het bepalen van de volgorde van laaguitvoering" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The chain rule is a fundamental calculus principle that backpropagation relies on. It allows us to compute the derivative of a composite function by multiplying derivatives at each layer, enabling efficient calculation of how each weight affects the final loss through all intermediate layers.",
+          es: "La regla de la cadena es un principio fundamental del cálculo en el que se basa la retropropagación. Nos permite calcular la derivada de una función compuesta multiplicando derivadas en cada capa, permitiendo cálculo eficiente de cómo cada peso afecta la pérdida final a través de todas las capas intermedias.",
+          de: "Die Kettenregel ist ein fundamentales Kalkülprinzip auf dem Rückpropagation basiert. Sie ermöglicht uns die Ableitung einer zusammengesetzten Funktion zu berechnen durch Multiplikation von Ableitungen an jeder Schicht, ermöglicht effiziente Berechnung wie jedes Gewicht den finalen Verlust durch alle Zwischenschichten beeinflusst.",
+          nl: "De kettingregel is een fundamenteel calculusprincipe waarop backpropagation berust. Het stelt ons in staat de afgeleide van een samengestelde functie te berekenen door afgeleiden bij elke laag te vermenigvuldigen, waardoor efficiënte berekening mogelijk is van hoe elk gewicht het finale verlies beïnvloedt door alle tussenliggende lagen."
+        }
+      },
+      {
+        question: {
+          en: "What is momentum in gradient descent optimization?",
+          es: "¿Qué es el momento en la optimización de descenso de gradiente?",
+          de: "Was ist Momentum in der Gradientenabstiegs-Optimierung?",
+          nl: "Wat is momentum in gradient descent optimalisatie?"
+        },
+        options: [
+          { en: "Technique accumulating gradients from previous steps to accelerate convergence and reduce oscillations", es: "Técnica que acumula gradientes de pasos previos para acelerar convergencia y reducir oscilaciones", de: "Technik die Gradienten von vorherigen Schritten akkumuliert um Konvergenz zu beschleunigen und Oszillationen zu reduzieren", nl: "Techniek die gradiënten van vorige stappen accumuleert om convergentie te versnellen en oscillaties te verminderen" },
+          { en: "The speed at which neurons activate", es: "La velocidad a la que se activan las neuronas", de: "Die Geschwindigkeit mit der Neuronen aktivieren", nl: "De snelheid waarmee neuronen activeren" },
+          { en: "The force pushing data through the network", es: "La fuerza que empuja datos a través de la red", de: "Die Kraft die Daten durch das Netzwerk schiebt", nl: "De kracht die data door het netwerk duwt" },
+          { en: "A measure of training progress velocity", es: "Una medida de velocidad de progreso de entrenamiento", de: "Ein Maß für Trainingsfortschrittsgeschwindigkeit", nl: "Een maat voor trainingsvoortgangssnelheid" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Momentum is an optimization technique that adds a fraction of the previous weight update to the current update. This helps gradient descent accelerate in consistent directions and dampens oscillations, allowing it to navigate ravines and escape poor local minima more effectively.",
+          es: "El momento es una técnica de optimización que agrega una fracción de la actualización de peso anterior a la actualización actual. Esto ayuda al descenso de gradiente a acelerar en direcciones consistentes y amortigua oscilaciones, permitiéndole navegar barrancos y escapar de mínimos locales pobres más efectivamente.",
+          de: "Momentum ist eine Optimierungstechnik die einen Bruchteil des vorherigen Gewichts-Updates zum aktuellen Update hinzufügt. Dies hilft Gradientenabstieg in konsistenten Richtungen zu beschleunigen und dämpft Oszillationen, ermöglicht es Schluchten zu navigieren und schlechte lokale Minima effektiver zu entkommen.",
+          nl: "Momentum is een optimalisatietechniek die een fractie van de vorige gewichtsupdate toevoegt aan de huidige update. Dit helpt gradient descent versnellen in consistente richtingen en dempt oscillaties, waardoor het ravijnen kan navigeren en slechte lokale minima effectiever kan ontsnappen."
+        }
+      },
+      {
+        question: {
+          en: "What is a hyperparameter in neural networks?",
+          es: "¿Qué es un hiperparámetro en redes neuronales?",
+          de: "Was ist ein Hyperparameter in neuronalen Netzwerken?",
+          nl: "Wat is een hyperparameter in neurale netwerken?"
+        },
+        options: [
+          { en: "Configuration variable set before training that controls the learning process but isn't learned from data", es: "Variable de configuración establecida antes del entrenamiento que controla el proceso de aprendizaje pero no se aprende de los datos", de: "Konfigurationsvariable die vor dem Training gesetzt wird und den Lernprozess kontrolliert aber nicht aus Daten gelernt wird", nl: "Configuratievariabele ingesteld voor training die het leerproces controleert maar niet geleerd wordt uit data" },
+          { en: "A parameter with extremely high values", es: "Parámetro con valores extremadamente altos", de: "Parameter mit extrem hohen Werten", nl: "Parameter met extreem hoge waarden" },
+          { en: "The final output parameter of the network", es: "Parámetro de salida final de la red", de: "Finaler Ausgabeparameter des Netzwerks", nl: "Finale uitvoerparameter van het netwerk" },
+          { en: "A weight that updates faster than other weights", es: "Peso que actualiza más rápido que otros pesos", de: "Gewicht das schneller aktualisiert als andere Gewichte", nl: "Gewicht dat sneller update dan andere gewichten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hyperparameters are settings chosen before training begins, such as learning rate, batch size, number of layers, and number of neurons per layer. Unlike weights and biases which are learned during training, hyperparameters must be set manually or through automated search methods like grid search or Bayesian optimization.",
+          es: "Los hiperparámetros son configuraciones elegidas antes de que comience el entrenamiento, como tasa de aprendizaje, tamaño de lote, número de capas y número de neuronas por capa. A diferencia de pesos y sesgos que se aprenden durante el entrenamiento, los hiperparámetros deben establecerse manualmente o mediante métodos de búsqueda automatizados como búsqueda de cuadrícula u optimización bayesiana.",
+          de: "Hyperparameter sind Einstellungen die vor Trainingsbeginn gewählt werden, wie Lernrate, Stapelgröße, Anzahl Schichten und Anzahl Neuronen pro Schicht. Im Gegensatz zu Gewichten und Bias die während des Trainings gelernt werden, müssen Hyperparameter manuell oder durch automatisierte Suchmethoden wie Gittersuche oder Bayessche Optimierung gesetzt werden.",
+          nl: "Hyperparameters zijn instellingen gekozen voordat training begint, zoals leersnelheid, batchgrootte, aantal lagen en aantal neuronen per laag. In tegenstelling tot gewichten en biases die geleerd worden tijdens training, moeten hyperparameters handmatig ingesteld worden of via geautomatiseerde zoekmethoden zoals grid search of Bayesiaanse optimalisatie."
+        }
+      },
+      {
+        question: {
+          en: "What is early stopping in neural network training?",
+          es: "¿Qué es la detención temprana en el entrenamiento de redes neuronales?",
+          de: "Was ist frühzeitiges Stoppen beim Training neuronaler Netzwerke?",
+          nl: "Wat is vroeg stoppen in neurale netwerk training?"
+        },
+        options: [
+          { en: "Technique that halts training when validation performance stops improving to prevent overfitting", es: "Técnica que detiene entrenamiento cuando rendimiento de validación deja de mejorar para prevenir sobreajuste", de: "Technik die Training stoppt wenn Validierungsleistung aufhört sich zu verbessern um Überanpassung zu verhindern", nl: "Techniek die training stopt wanneer validatieprestaties stoppen met verbeteren om overfitting te voorkomen" },
+          { en: "Stopping training after the first epoch", es: "Detener entrenamiento después de la primera época", de: "Training nach der ersten Epoche stoppen", nl: "Training stoppen na de eerste epoch" },
+          { en: "Terminating training when loss reaches zero", es: "Terminar entrenamiento cuando pérdida alcanza cero", de: "Training beenden wenn Verlust Null erreicht", nl: "Training beëindigen wanneer verlies nul bereikt" },
+          { en: "Ending training at a predetermined time", es: "Finalizar entrenamiento en tiempo predeterminado", de: "Training zu vorbestimmter Zeit beenden", nl: "Training beëindigen op vooraf bepaalde tijd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Early stopping monitors validation performance during training and stops when it hasn't improved for a specified number of epochs (patience). This prevents overfitting by avoiding training for too long, effectively using the validation set as a signal for when the model has learned enough without memorizing training data.",
+          es: "La detención temprana monitorea rendimiento de validación durante entrenamiento y se detiene cuando no ha mejorado durante un número especificado de épocas (paciencia). Esto previene sobreajuste evitando entrenar demasiado tiempo, usando efectivamente el conjunto de validación como señal de cuándo el modelo ha aprendido suficiente sin memorizar datos de entrenamiento.",
+          de: "Frühzeitiges Stoppen überwacht Validierungsleistung während des Trainings und stoppt wenn sie sich für eine bestimmte Anzahl Epochen (Geduld) nicht verbessert hat. Dies verhindert Überanpassung durch Vermeidung zu langen Trainings, verwendet effektiv das Validierungsset als Signal wann das Modell genug gelernt hat ohne Trainingsdaten auswendig zu lernen.",
+          nl: "Vroeg stoppen monitort validatieprestaties tijdens training en stopt wanneer het niet verbeterd is voor een gespecificeerd aantal epochs (geduld). Dit voorkomt overfitting door te lange training te vermijden, gebruikt effectief de validatieset als signaal voor wanneer het model genoeg geleerd heeft zonder trainingsdata te memoriseren."
+        }
+      },
+      {
+        question: {
+          en: "What is a validation set used for in neural network training?",
+          es: "¿Para qué se usa un conjunto de validación en entrenamiento de redes neuronales?",
+          de: "Wofür wird ein Validierungsset beim Training neuronaler Netzwerke verwendet?",
+          nl: "Waarvoor wordt een validatieset gebruikt in neurale netwerk training?"
+        },
+        options: [
+          { en: "To tune hyperparameters and monitor overfitting during training without touching the test set", es: "Para ajustar hiperparámetros y monitorear sobreajuste durante entrenamiento sin tocar conjunto de prueba", de: "Um Hyperparameter zu tunen und Überanpassung während des Trainings zu überwachen ohne Testset zu berühren", nl: "Om hyperparameters af te stemmen en overfitting te monitoren tijdens training zonder de testset aan te raken" },
+          { en: "To replace the training set after initial training", es: "Para reemplazar conjunto de entrenamiento después de entrenamiento inicial", de: "Um Trainingsset nach initialem Training zu ersetzen", nl: "Om de trainingsset te vervangen na initiële training" },
+          { en: "To validate user input data", es: "Para validar datos de entrada del usuario", de: "Um Benutzereingabedaten zu validieren", nl: "Om gebruikersinvoerdata te valideren" },
+          { en: "To check if the network architecture is valid", es: "Para verificar si la arquitectura de la red es válida", de: "Um zu prüfen ob die Netzwerkarchitektur gültig ist", nl: "Om te controleren of de netwerkarchitectuur geldig is" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The validation set is a held-out portion of data used during training to evaluate model performance on unseen data, tune hyperparameters, and implement early stopping. It provides an unbiased evaluation without contaminating the test set, which should only be used for final model assessment.",
+          es: "El conjunto de validación es una porción de datos retenida usada durante entrenamiento para evaluar rendimiento del modelo en datos no vistos, ajustar hiperparámetros e implementar detención temprana. Proporciona evaluación imparcial sin contaminar conjunto de prueba, que solo debe usarse para evaluación final del modelo.",
+          de: "Das Validierungsset ist ein zurückgehaltener Datenteil der während des Trainings verwendet wird um Modellleistung auf ungesehenen Daten zu bewerten, Hyperparameter zu tunen und frühzeitiges Stoppen zu implementieren. Es bietet unvoreingenommene Bewertung ohne Testset zu kontaminieren, das nur für finale Modellbewertung verwendet werden sollte.",
+          nl: "De validatieset is een achtergehouden deel data gebruikt tijdens training om modelprestaties op ongeziene data te evalueren, hyperparameters af te stemmen en vroeg stoppen te implementeren. Het biedt onbevooroordeelde evaluatie zonder de testset te contamineren, die alleen gebruikt moet worden voor finale modelbeoordeling."
+        }
+      },
+      {
+        question: {
+          en: "What is the vanishing gradient problem?",
+          es: "¿Qué es el problema del gradiente que se desvanece?",
+          de: "Was ist das Problem des verschwindenden Gradienten?",
+          nl: "Wat is het verdwijnende gradiënt probleem?"
+        },
+        options: [
+          { en: "Gradients become extremely small in deep networks making earlier layers learn very slowly", es: "Gradientes se vuelven extremadamente pequeños en redes profundas haciendo que capas anteriores aprendan muy lentamente", de: "Gradienten werden in tiefen Netzwerken extrem klein wodurch frühere Schichten sehr langsam lernen", nl: "Gradiënten worden extreem klein in diepe netwerken waardoor eerdere lagen zeer langzaam leren" },
+          { en: "Gradients are deleted from memory during training", es: "Gradientes se eliminan de la memoria durante entrenamiento", de: "Gradienten werden während des Trainings aus dem Speicher gelöscht", nl: "Gradiënten worden tijdens training uit geheugen verwijderd" },
+          { en: "The loss function disappears after training", es: "La función de pérdida desaparece después del entrenamiento", de: "Die Verlustfunktion verschwindet nach dem Training", nl: "De verliesfunctie verdwijnt na training" },
+          { en: "Training data gradually gets corrupted", es: "Los datos de entrenamiento se corrompen gradualmente", de: "Trainingsdaten werden allmählich beschädigt", nl: "Trainingsdata raakt geleidelijk beschadigd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The vanishing gradient problem occurs when gradients become progressively smaller as they propagate back through layers during backpropagation. This happens especially with certain activation functions like sigmoid or tanh, making it difficult to train deep networks as early layers receive negligible weight updates.",
+          es: "El problema del gradiente que se desvanece ocurre cuando los gradientes se vuelven progresivamente más pequeños a medida que se propagan hacia atrás a través de las capas durante la retropropagación. Esto sucede especialmente con ciertas funciones de activación como sigmoid o tanh, dificultando el entrenamiento de redes profundas ya que las primeras capas reciben actualizaciones de peso insignificantes.",
+          de: "Das Problem des verschwindenden Gradienten tritt auf wenn Gradienten progressiv kleiner werden während sie während der Rückpropagation durch Schichten zurück propagieren. Dies geschieht besonders bei bestimmten Aktivierungsfunktionen wie Sigmoid oder Tanh, was das Training tiefer Netzwerke erschwert da frühe Schichten vernachlässigbare Gewichtsaktualisierungen erhalten.",
+          nl: "Het verdwijnende gradiënt probleem treedt op wanneer gradiënten progressief kleiner worden terwijl ze terug propageren door lagen tijdens backpropagation. Dit gebeurt vooral met bepaalde activatiefuncties zoals sigmoid of tanh, waardoor het moeilijk wordt om diepe netwerken te trainen aangezien vroege lagen verwaarloosbare gewichtsupdates ontvangen."
+        }
+      },
+      {
+        question: {
+          en: "What is the exploding gradient problem?",
+          es: "¿Qué es el problema del gradiente explosivo?",
+          de: "Was ist das Problem der explodierenden Gradienten?",
+          nl: "Wat is het exploderende gradiënt probleem?"
+        },
+        options: [
+          { en: "Gradients become extremely large causing weight updates to overshoot and destabilize training", es: "Gradientes se vuelven extremadamente grandes causando que actualizaciones de peso sobrepasen y desestabilicen entrenamiento", de: "Gradienten werden extrem groß wodurch Gewichtsaktualisierungen überschießen und Training destabilisieren", nl: "Gradiënten worden extreem groot waardoor gewichtsupdates overschrijden en training destabiliseren" },
+          { en: "The network explodes and stops functioning", es: "La red explota y deja de funcionar", de: "Das Netzwerk explodiert und hört auf zu funktionieren", nl: "Het netwerk explodeert en stopt met functioneren" },
+          { en: "Too many gradients are computed simultaneously", es: "Demasiados gradientes se calculan simultáneamente", de: "Zu viele Gradienten werden gleichzeitig berechnet", nl: "Te veel gradiënten worden simultaan berekend" },
+          { en: "Gradients increase linearly with each epoch", es: "Gradientes aumentan linealmente con cada época", de: "Gradienten steigen linear mit jeder Epoche", nl: "Gradiënten nemen lineair toe met elke epoch" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The exploding gradient problem occurs when gradients become excessively large during backpropagation, often due to multiplying many values greater than 1. This causes weight updates to be too large, leading to numerical instability, NaN values, and failed training. Gradient clipping is commonly used to mitigate this issue.",
+          es: "El problema del gradiente explosivo ocurre cuando los gradientes se vuelven excesivamente grandes durante la retropropagación, a menudo debido a multiplicar muchos valores mayores que 1. Esto causa que las actualizaciones de peso sean demasiado grandes, llevando a inestabilidad numérica, valores NaN y entrenamiento fallido. El recorte de gradiente se usa comúnmente para mitigar este problema.",
+          de: "Das Problem der explodierenden Gradienten tritt auf wenn Gradienten während der Rückpropagation übermäßig groß werden, oft durch Multiplikation vieler Werte größer als 1. Dies verursacht zu große Gewichtsaktualisierungen, führt zu numerischer Instabilität, NaN-Werten und fehlgeschlagenem Training. Gradientenbeschneidung wird häufig verwendet um dieses Problem zu mildern.",
+          nl: "Het exploderende gradiënt probleem treedt op wanneer gradiënten buitensporig groot worden tijdens backpropagation, vaak door het vermenigvuldigen van veel waarden groter dan 1. Dit veroorzaakt te grote gewichtsupdates, leidend tot numerieke instabiliteit, NaN-waarden en mislukte training. Gradiënt clipping wordt vaak gebruikt om dit probleem te verzachten."
+        }
+      },
+      {
+        question: {
+          en: "What is gradient clipping?",
+          es: "¿Qué es el recorte de gradiente?",
+          de: "Was ist Gradientenbeschneidung?",
+          nl: "Wat is gradiënt clipping?"
+        },
+        options: [
+          { en: "Technique that limits gradient magnitude to prevent exploding gradients during training", es: "Técnica que limita la magnitud del gradiente para prevenir gradientes explosivos durante entrenamiento", de: "Technik die Gradientengröße begrenzt um explodierende Gradienten während des Trainings zu verhindern", nl: "Techniek die gradiëntgrootte beperkt om exploderende gradiënten tijdens training te voorkomen" },
+          { en: "Removing gradients that are too small", es: "Eliminar gradientes que son demasiado pequeños", de: "Entfernen von Gradienten die zu klein sind", nl: "Verwijderen van gradiënten die te klein zijn" },
+          { en: "Cutting off parts of the network during training", es: "Cortar partes de la red durante el entrenamiento", de: "Abschneiden von Netzwerkteilen während des Trainings", nl: "Afsnijden van delen van het netwerk tijdens training" },
+          { en: "Shortening the training time by skipping epochs", es: "Acortar tiempo de entrenamiento saltando épocas", de: "Verkürzen der Trainingszeit durch Überspringen von Epochen", nl: "Verkorten van trainingstijd door epochs over te slaan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gradient clipping is a technique that sets a threshold value and scales down gradients that exceed this threshold. This prevents the exploding gradient problem by ensuring gradients never become too large, maintaining numerical stability especially in recurrent neural networks and deep architectures.",
+          es: "El recorte de gradiente es una técnica que establece un valor umbral y reduce gradientes que exceden este umbral. Esto previene el problema del gradiente explosivo asegurando que los gradientes nunca se vuelvan demasiado grandes, manteniendo estabilidad numérica especialmente en redes neuronales recurrentes y arquitecturas profundas.",
+          de: "Gradientenbeschneidung ist eine Technik die einen Schwellenwert setzt und Gradienten die diesen Schwellenwert überschreiten herunterskaliert. Dies verhindert das Problem der explodierenden Gradienten indem sichergestellt wird dass Gradienten nie zu groß werden, wodurch numerische Stabilität besonders in rekurrenten neuronalen Netzwerken und tiefen Architekturen erhalten bleibt.",
+          nl: "Gradiënt clipping is een techniek die een drempelwaarde instelt en gradiënten die deze drempel overschrijden schaalt. Dit voorkomt het exploderende gradiënt probleem door ervoor te zorgen dat gradiënten nooit te groot worden, waardoor numerieke stabiliteit behouden blijft vooral in recurrente neurale netwerken en diepe architecturen."
+        }
+      },
+      {
+        question: {
+          en: "What is a learning rate schedule?",
+          es: "¿Qué es un cronograma de tasa de aprendizaje?",
+          de: "Was ist ein Lernratenplan?",
+          nl: "Wat is een leersnelheidsschema?"
+        },
+        options: [
+          { en: "Strategy that adjusts the learning rate during training, typically decreasing it over time", es: "Estrategia que ajusta la tasa de aprendizaje durante el entrenamiento, típicamente disminuyéndola con el tiempo", de: "Strategie die die Lernrate während des Trainings anpasst, typischerweise im Laufe der Zeit verringernd", nl: "Strategie die de leersnelheid tijdens training aanpast, typisch verminderend over tijd" },
+          { en: "A timetable for when to train the network", es: "Un horario de cuándo entrenar la red", de: "Ein Zeitplan wann das Netzwerk zu trainieren ist", nl: "Een tijdschema voor wanneer het netwerk te trainen" },
+          { en: "The order in which layers learn", es: "El orden en que las capas aprenden", de: "Die Reihenfolge in der Schichten lernen", nl: "De volgorde waarin lagen leren" },
+          { en: "A plan for adding more training data over time", es: "Plan para agregar más datos de entrenamiento con el tiempo", de: "Plan zum Hinzufügen weiterer Trainingsdaten im Laufe der Zeit", nl: "Plan voor het toevoegen van meer trainingsdata over tijd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A learning rate schedule systematically changes the learning rate during training. Common strategies include step decay (reduce by factor at intervals), exponential decay (continuous reduction), or cosine annealing. This helps the model converge faster initially with large steps, then fine-tune with smaller steps later.",
+          es: "Un cronograma de tasa de aprendizaje cambia sistemáticamente la tasa de aprendizaje durante el entrenamiento. Las estrategias comunes incluyen decaimiento por pasos (reducir por factor en intervalos), decaimiento exponencial (reducción continua) o recocido coseno. Esto ayuda al modelo a converger más rápido inicialmente con pasos grandes, luego afinar con pasos más pequeños más tarde.",
+          de: "Ein Lernratenplan ändert die Lernrate systematisch während des Trainings. Häufige Strategien umfassen Schrittabfall (Reduzierung um Faktor in Intervallen), exponentieller Abfall (kontinuierliche Reduzierung) oder Kosinus-Tempern. Dies hilft dem Modell anfangs schneller mit großen Schritten zu konvergieren, dann später mit kleineren Schritten zu verfeinern.",
+          nl: "Een leersnelheidsschema verandert systematisch de leersnelheid tijdens training. Veelvoorkomende strategieën zijn stap-verval (verminderen met factor op intervallen), exponentieel verval (continue vermindering) of cosinus annealing. Dit helpt het model sneller te convergeren aanvankelijk met grote stappen, daarna verfijnen met kleinere stappen later."
+        }
+      },
+      {
+        question: {
+          en: "What is the Adam optimizer?",
+          es: "¿Qué es el optimizador Adam?",
+          de: "Was ist der Adam-Optimierer?",
+          nl: "Wat is de Adam optimizer?"
+        },
+        options: [
+          { en: "Adaptive optimization algorithm combining momentum and adaptive learning rates for each parameter", es: "Algoritmo de optimización adaptativa que combina momento y tasas de aprendizaje adaptativas para cada parámetro", de: "Adaptiver Optimierungsalgorithmus der Momentum und adaptive Lernraten für jeden Parameter kombiniert", nl: "Adaptief optimalisatie-algoritme dat momentum en adaptieve leersnelheden voor elke parameter combineert" },
+          { en: "The first version of gradient descent", es: "La primera versión del descenso de gradiente", de: "Die erste Version des Gradientenabstiegs", nl: "De eerste versie van gradient descent" },
+          { en: "An optimizer designed only for image processing", es: "Optimizador diseñado solo para procesamiento de imágenes", de: "Optimierer der nur für Bildverarbeitung entwickelt wurde", nl: "Optimizer alleen ontworpen voor beeldverwerking" },
+          { en: "A simple learning rate adjustment method", es: "Método simple de ajuste de tasa de aprendizaje", de: "Einfache Lernratenanpassungsmethode", nl: "Eenvoudige leersnelheidsaanpassingsmethode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Adam (Adaptive Moment Estimation) is a popular optimization algorithm that computes adaptive learning rates for each parameter by maintaining running averages of both gradients (first moment) and squared gradients (second moment). It combines the benefits of momentum and RMSprop, making it effective for many deep learning tasks.",
+          es: "Adam (Estimación de Momento Adaptativo) es un algoritmo de optimización popular que calcula tasas de aprendizaje adaptativas para cada parámetro manteniendo promedios móviles de gradientes (primer momento) y gradientes al cuadrado (segundo momento). Combina los beneficios de momentum y RMSprop, haciéndolo efectivo para muchas tareas de aprendizaje profundo.",
+          de: "Adam (Adaptive Moment Estimation) ist ein beliebter Optimierungsalgorithmus der adaptive Lernraten für jeden Parameter berechnet durch Aufrechterhaltung laufender Durchschnitte von Gradienten (erstes Moment) und quadrierten Gradienten (zweites Moment). Er kombiniert die Vorteile von Momentum und RMSprop, wodurch er für viele Deep-Learning-Aufgaben effektiv ist.",
+          nl: "Adam (Adaptive Moment Estimation) is een populair optimalisatie-algoritme dat adaptieve leersnelheden voor elke parameter berekent door lopende gemiddelden van gradiënten (eerste moment) en gekwadrateerde gradiënten (tweede moment) bij te houden. Het combineert de voordelen van momentum en RMSprop, waardoor het effectief is voor veel deep learning taken."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between SGD and Adam optimizers?",
+          es: "¿Cuál es la diferencia entre los optimizadores SGD y Adam?",
+          de: "Was ist der Unterschied zwischen SGD- und Adam-Optimierern?",
+          nl: "Wat is het verschil tussen SGD en Adam optimizers?"
+        },
+        options: [
+          { en: "SGD uses fixed learning rate for all parameters while Adam adapts learning rates individually per parameter", es: "SGD usa tasa de aprendizaje fija para todos los parámetros mientras Adam adapta tasas de aprendizaje individualmente por parámetro", de: "SGD verwendet feste Lernrate für alle Parameter während Adam Lernraten individuell pro Parameter anpasst", nl: "SGD gebruikt vaste leersnelheid voor alle parameters terwijl Adam leersnelheden individueel per parameter aanpast" },
+          { en: "SGD is faster but Adam is more accurate", es: "SGD es más rápido pero Adam es más preciso", de: "SGD ist schneller aber Adam ist genauer", nl: "SGD is sneller maar Adam is nauwkeuriger" },
+          { en: "SGD is for classification and Adam is for regression", es: "SGD es para clasificación y Adam es para regresión", de: "SGD ist für Klassifikation und Adam ist für Regression", nl: "SGD is voor classificatie en Adam is voor regressie" },
+          { en: "There is no significant difference", es: "No hay diferencia significativa", de: "Es gibt keinen signifikanten Unterschied", nl: "Er is geen significant verschil" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Stochastic Gradient Descent (SGD) uses a uniform learning rate for all parameters and requires manual tuning. Adam automatically adapts learning rates for each parameter based on historical gradients, often converging faster and requiring less hyperparameter tuning. However, SGD with proper tuning can sometimes generalize better.",
+          es: "El Descenso de Gradiente Estocástico (SGD) usa una tasa de aprendizaje uniforme para todos los parámetros y requiere ajuste manual. Adam adapta automáticamente tasas de aprendizaje para cada parámetro basado en gradientes históricos, a menudo convergiendo más rápido y requiriendo menos ajuste de hiperparámetros. Sin embargo, SGD con ajuste apropiado a veces puede generalizar mejor.",
+          de: "Stochastischer Gradientenabstieg (SGD) verwendet eine einheitliche Lernrate für alle Parameter und erfordert manuelle Abstimmung. Adam passt Lernraten für jeden Parameter automatisch basierend auf historischen Gradienten an, konvergiert oft schneller und erfordert weniger Hyperparameter-Tuning. Allerdings kann SGD mit richtiger Abstimmung manchmal besser generalisieren.",
+          nl: "Stochastische Gradient Descent (SGD) gebruikt een uniforme leersnelheid voor alle parameters en vereist handmatige afstemming. Adam past leersnelheden automatisch aan voor elke parameter gebaseerd op historische gradiënten, convergeert vaak sneller en vereist minder hyperparameter tuning. Echter, SGD met juiste afstemming kan soms beter generaliseren."
+        }
+      },
+      {
+        question: {
+          en: "What is convergence in neural network training?",
+          es: "¿Qué es la convergencia en el entrenamiento de redes neuronales?",
+          de: "Was ist Konvergenz beim Training neuronaler Netzwerke?",
+          nl: "Wat is convergentie in neurale netwerk training?"
+        },
+        options: [
+          { en: "The state when the loss function stabilizes and stops decreasing significantly", es: "Estado cuando la función de pérdida se estabiliza y deja de disminuir significativamente", de: "Zustand wenn die Verlustfunktion sich stabilisiert und aufhört signifikant zu sinken", nl: "De staat wanneer de verliesfunctie stabiliseert en stopt met significant dalen" },
+          { en: "When all layers produce identical outputs", es: "Cuando todas las capas producen salidas idénticas", de: "Wenn alle Schichten identische Ausgaben erzeugen", nl: "Wanneer alle lagen identieke uitvoer produceren" },
+          { en: "When training and validation accuracy become equal", es: "Cuando la precisión de entrenamiento y validación se vuelven iguales", de: "Wenn Trainings- und Validierungsgenauigkeit gleich werden", nl: "Wanneer trainings- en validatienauwkeurigheid gelijk worden" },
+          { en: "The moment when the network architecture is finalized", es: "El momento cuando se finaliza la arquitectura de la red", de: "Der Moment wenn die Netzwerkarchitektur finalisiert wird", nl: "Het moment wanneer de netwerkarchitectuur gefinaliseerd wordt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Convergence occurs when the optimization algorithm has found a minimum (local or global) where the loss function no longer decreases meaningfully with additional training. The network's weights have settled into a stable configuration that represents learned patterns from the training data.",
+          es: "La convergencia ocurre cuando el algoritmo de optimización ha encontrado un mínimo (local o global) donde la función de pérdida ya no disminuye significativamente con entrenamiento adicional. Los pesos de la red se han asentado en una configuración estable que representa patrones aprendidos de los datos de entrenamiento.",
+          de: "Konvergenz tritt auf wenn der Optimierungsalgorithmus ein Minimum (lokal oder global) gefunden hat wo die Verlustfunktion mit zusätzlichem Training nicht mehr bedeutend sinkt. Die Gewichte des Netzwerks haben sich in einer stabilen Konfiguration eingependelt die gelernte Muster aus den Trainingsdaten repräsentiert.",
+          nl: "Convergentie vindt plaats wanneer het optimalisatie-algoritme een minimum (lokaal of globaal) heeft gevonden waar de verliesfunctie niet langer betekenisvol daalt met additionele training. De gewichten van het netwerk hebben zich ingesteld in een stabiele configuratie die geleerde patronen uit de trainingsdata vertegenwoordigt."
+        }
+      },
+      {
+        question: {
+          en: "What is a local minimum in the context of neural network optimization?",
+          es: "¿Qué es un mínimo local en el contexto de optimización de redes neuronales?",
+          de: "Was ist ein lokales Minimum im Kontext der Optimierung neuronaler Netzwerke?",
+          nl: "Wat is een lokaal minimum in de context van neurale netwerk optimalisatie?"
+        },
+        options: [
+          { en: "Point where loss is lower than surrounding points but not the global lowest possible value", es: "Punto donde la pérdida es menor que puntos circundantes pero no el valor más bajo posible global", de: "Punkt wo Verlust niedriger ist als umgebende Punkte aber nicht der global niedrigste mögliche Wert", nl: "Punt waar verlies lager is dan omringende punten maar niet de globaal laagst mogelijke waarde" },
+          { en: "The minimum number of layers needed", es: "El número mínimo de capas necesarias", de: "Die minimale Anzahl benötigter Schichten", nl: "Het minimum aantal benodigde lagen" },
+          { en: "The smallest batch size that can be used", es: "El tamaño de lote más pequeño que se puede usar", de: "Die kleinste Stapelgröße die verwendet werden kann", nl: "De kleinste batchgrootte die gebruikt kan worden" },
+          { en: "The minimum training time required", es: "El tiempo mínimo de entrenamiento requerido", de: "Die minimale benötigte Trainingszeit", nl: "De minimale vereiste trainingstijd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A local minimum is a point in the loss landscape where the loss is lower than all nearby points, but there may exist other points with even lower loss elsewhere. Gradient descent can get stuck in local minima, though modern techniques like momentum, adaptive learning rates, and proper initialization help escape them.",
+          es: "Un mínimo local es un punto en el paisaje de pérdida donde la pérdida es menor que todos los puntos cercanos, pero puede haber otros puntos con pérdida aún menor en otro lugar. El descenso de gradiente puede quedarse atascado en mínimos locales, aunque técnicas modernas como momentum, tasas de aprendizaje adaptativas e inicialización apropiada ayudan a escapar de ellos.",
+          de: "Ein lokales Minimum ist ein Punkt in der Verlustlandschaft wo der Verlust niedriger ist als alle nahen Punkte, aber es können andere Punkte mit noch niedrigerem Verlust anderswo existieren. Gradientenabstieg kann in lokalen Minima stecken bleiben, obwohl moderne Techniken wie Momentum, adaptive Lernraten und richtige Initialisierung helfen ihnen zu entkommen.",
+          nl: "Een lokaal minimum is een punt in het verlieslandschap waar het verlies lager is dan alle nabije punten, maar er kunnen andere punten met nog lager verlies elders bestaan. Gradient descent kan vast komen te zitten in lokale minima, hoewel moderne technieken zoals momentum, adaptieve leersnelheden en juiste initialisatie helpen om eraan te ontsnappen."
+        }
+      },
+      {
+        question: {
+          en: "What is a global minimum in optimization?",
+          es: "¿Qué es un mínimo global en optimización?",
+          de: "Was ist ein globales Minimum in der Optimierung?",
+          nl: "Wat is een globaal minimum in optimalisatie?"
+        },
+        options: [
+          { en: "The absolute lowest point of the loss function across the entire parameter space", es: "El punto más bajo absoluto de la función de pérdida en todo el espacio de parámetros", de: "Der absolut niedrigste Punkt der Verlustfunktion über den gesamten Parameterraum", nl: "Het absoluut laagste punt van de verliesfunctie over de hele parameterruimte" },
+          { en: "The minimum used worldwide in neural networks", es: "El mínimo usado mundialmente en redes neuronales", de: "Das weltweit in neuronalen Netzwerken verwendete Minimum", nl: "Het minimum dat wereldwijd gebruikt wordt in neurale netwerken" },
+          { en: "The smallest possible network architecture", es: "La arquitectura de red más pequeña posible", de: "Die kleinstmögliche Netzwerkarchitektur", nl: "De kleinst mogelijke netwerkarchitectuur" },
+          { en: "The minimum accuracy acceptable for deployment", es: "La precisión mínima aceptable para despliegue", de: "Die minimale akzeptable Genauigkeit für Bereitstellung", nl: "De minimale acceptabele nauwkeurigheid voor deployment" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The global minimum represents the absolute best solution - the parameter configuration that yields the lowest possible loss across the entire search space. While finding it is theoretically ideal, in practice for complex neural networks with non-convex loss landscapes, we often settle for good local minima that generalize well.",
+          es: "El mínimo global representa la mejor solución absoluta - la configuración de parámetros que produce la pérdida más baja posible en todo el espacio de búsqueda. Aunque encontrarlo es teóricamente ideal, en la práctica para redes neuronales complejas con paisajes de pérdida no convexos, a menudo nos conformamos con buenos mínimos locales que generalizan bien.",
+          de: "Das globale Minimum repräsentiert die absolut beste Lösung - die Parameterkonfiguration die den niedrigst möglichen Verlust über den gesamten Suchraum liefert. Während es theoretisch ideal ist es zu finden, begnügen wir uns in der Praxis für komplexe neuronale Netzwerke mit nicht-konvexen Verlustlandschaften oft mit guten lokalen Minima die gut generalisieren.",
+          nl: "Het globale minimum vertegenwoordigt de absoluut beste oplossing - de parameterconfiguratie die het laagst mogelijke verlies oplevert over de hele zoekruimte. Hoewel het vinden ervan theoretisch ideaal is, nemen we in de praktijk voor complexe neurale netwerken met niet-convexe verlieslandschappen vaak genoegen met goede lokale minima die goed generaliseren."
+        }
+      },
+      {
+        question: {
+          en: "What is batch normalization in neural networks?",
+          es: "¿Qué es la normalización por lotes en redes neuronales?",
+          de: "Was ist Batch-Normalisierung in neuronalen Netzwerken?",
+          nl: "Wat is batch normalisatie in neurale netwerken?"
+        },
+        options: [
+          { en: "Technique that normalizes layer inputs to have zero mean and unit variance within each mini-batch", es: "Técnica que normaliza entradas de capa para tener media cero y varianza unitaria dentro de cada mini-lote", de: "Technik die Schichteingaben normalisiert um Nullmittelwert und Einheitsvarianz innerhalb jedes Mini-Batches zu haben", nl: "Techniek die laagtinvoer normaliseert om nulgemiddelde en eenheidsvariatie binnen elke mini-batch te hebben" },
+          { en: "Making all batches the same size", es: "Hacer que todos los lotes tengan el mismo tamaño", de: "Alle Stapel auf dieselbe Größe bringen", nl: "Alle batches dezelfde grootte maken" },
+          { en: "Normalizing the final output predictions", es: "Normalizar las predicciones de salida finales", de: "Normalisieren der finalen Ausgabevorhersagen", nl: "Normaliseren van de finale uitvoervoorspellingen" },
+          { en: "Standardizing the training data before feeding to network", es: "Estandarizar los datos de entrenamiento antes de alimentar a la red", de: "Standardisieren der Trainingsdaten vor Eingabe ins Netzwerk", nl: "Standaardiseren van trainingsdata voor invoer in netwerk" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Batch normalization normalizes the inputs to each layer within a mini-batch, reducing internal covariate shift. This technique allows higher learning rates, reduces sensitivity to initialization, acts as regularization, and generally accelerates training while improving model performance.",
+          es: "La normalización por lotes normaliza las entradas a cada capa dentro de un mini-lote, reduciendo el cambio de covariable interno. Esta técnica permite tasas de aprendizaje más altas, reduce la sensibilidad a la inicialización, actúa como regularización y generalmente acelera el entrenamiento mientras mejora el rendimiento del modelo.",
+          de: "Batch-Normalisierung normalisiert die Eingaben zu jeder Schicht innerhalb eines Mini-Batches, reduziert interne Kovariatenverschiebung. Diese Technik ermöglicht höhere Lernraten, reduziert Empfindlichkeit gegenüber Initialisierung, wirkt als Regularisierung und beschleunigt generell Training während Modellleistung verbessert wird.",
+          nl: "Batch normalisatie normaliseert de invoer naar elke laag binnen een mini-batch, vermindert interne covariantieverschuiving. Deze techniek maakt hogere leersnelheden mogelijk, vermindert gevoeligheid voor initialisatie, werkt als regularisatie en versnelt over het algemeen training terwijl modelprestaties verbeterd worden."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of shuffling training data?",
+          es: "¿Cuál es el propósito de mezclar los datos de entrenamiento?",
+          de: "Was ist der Zweck des Mischens von Trainingsdaten?",
+          nl: "Wat is het doel van het schudden van trainingsdata?"
+        },
+        options: [
+          { en: "To prevent the model from learning spurious patterns based on data order and improve generalization", es: "Para evitar que el modelo aprenda patrones espurios basados en orden de datos y mejorar generalización", de: "Um zu verhindern dass das Modell falsche Muster basierend auf Datenreihenfolge lernt und Generalisierung zu verbessern", nl: "Om te voorkomen dat het model valse patronen leert gebaseerd op datavolgorde en generalisatie te verbeteren" },
+          { en: "To increase the size of the training set", es: "Para aumentar el tamaño del conjunto de entrenamiento", de: "Um die Größe des Trainingssatzes zu erhöhen", nl: "Om de grootte van de trainingsset te verhogen" },
+          { en: "To speed up the training process", es: "Para acelerar el proceso de entrenamiento", de: "Um den Trainingsprozess zu beschleunigen", nl: "Om het trainingsproces te versnellen" },
+          { en: "To reduce memory usage during training", es: "Para reducir el uso de memoria durante el entrenamiento", de: "Um Speichernutzung während des Trainings zu reduzieren", nl: "Om geheugengebruik tijdens training te verminderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Shuffling training data randomizes the order in which samples are presented to the model, preventing it from learning patterns related to the sequence rather than the actual features. This is especially important when data is ordered by class or other characteristics, ensuring each batch is representative of the overall distribution.",
+          es: "Mezclar datos de entrenamiento aleatoriza el orden en que se presentan muestras al modelo, evitando que aprenda patrones relacionados con la secuencia en lugar de las características reales. Esto es especialmente importante cuando los datos están ordenados por clase u otras características, asegurando que cada lote sea representativo de la distribución general.",
+          de: "Mischen von Trainingsdaten randomisiert die Reihenfolge in der Proben dem Modell präsentiert werden, verhindert dass es Muster im Zusammenhang mit der Sequenz statt den tatsächlichen Merkmalen lernt. Dies ist besonders wichtig wenn Daten nach Klasse oder anderen Merkmalen geordnet sind, stellt sicher dass jeder Stapel repräsentativ für die Gesamtverteilung ist.",
+          nl: "Schudden van trainingsdata randomiseert de volgorde waarin steekproeven aan het model gepresenteerd worden, voorkomt dat het patronen leert gerelateerd aan de volgorde in plaats van de werkelijke kenmerken. Dit is vooral belangrijk wanneer data geordend is per klasse of andere kenmerken, zorgt ervoor dat elke batch representatief is voor de totale verdeling."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between online learning and batch learning?",
+          es: "¿Cuál es la diferencia entre aprendizaje en línea y aprendizaje por lotes?",
+          de: "Was ist der Unterschied zwischen Online-Lernen und Batch-Lernen?",
+          nl: "Wat is het verschil tussen online leren en batch leren?"
+        },
+        options: [
+          { en: "Online learning updates weights after each sample while batch learning uses all data before updating", es: "Aprendizaje en línea actualiza pesos después de cada muestra mientras aprendizaje por lotes usa todos los datos antes de actualizar", de: "Online-Lernen aktualisiert Gewichte nach jeder Probe während Batch-Lernen alle Daten verwendet vor Aktualisierung", nl: "Online leren update gewichten na elke steekproef terwijl batch leren alle data gebruikt voor update" },
+          { en: "Online learning requires internet connection while batch learning works offline", es: "Aprendizaje en línea requiere conexión a internet mientras aprendizaje por lotes funciona sin conexión", de: "Online-Lernen erfordert Internetverbindung während Batch-Lernen offline funktioniert", nl: "Online leren vereist internetverbinding terwijl batch leren offline werkt" },
+          { en: "Online learning is faster while batch learning is slower", es: "Aprendizaje en línea es más rápido mientras aprendizaje por lotes es más lento", de: "Online-Lernen ist schneller während Batch-Lernen langsamer ist", nl: "Online leren is sneller terwijl batch leren langzamer is" },
+          { en: "Online learning uses neural networks while batch learning uses other algorithms", es: "Aprendizaje en línea usa redes neuronales mientras aprendizaje por lotes usa otros algoritmos", de: "Online-Lernen verwendet neuronale Netzwerke während Batch-Lernen andere Algorithmen verwendet", nl: "Online leren gebruikt neurale netwerken terwijl batch leren andere algoritmes gebruikt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Online learning (or stochastic learning) updates model parameters after processing each individual training example, allowing continuous adaptation. Batch learning processes the entire dataset before making weight updates, providing more stable gradients but requiring more memory and potentially slower adaptation to new patterns.",
+          es: "El aprendizaje en línea (o aprendizaje estocástico) actualiza parámetros del modelo después de procesar cada ejemplo de entrenamiento individual, permitiendo adaptación continua. El aprendizaje por lotes procesa todo el conjunto de datos antes de hacer actualizaciones de peso, proporcionando gradientes más estables pero requiriendo más memoria y potencialmente adaptación más lenta a nuevos patrones.",
+          de: "Online-Lernen (oder stochastisches Lernen) aktualisiert Modellparameter nach Verarbeitung jedes einzelnen Trainingsbeispiels, ermöglicht kontinuierliche Anpassung. Batch-Lernen verarbeitet den gesamten Datensatz vor Gewichtsaktualisierungen, bietet stabilere Gradienten erfordert aber mehr Speicher und potenziell langsamere Anpassung an neue Muster.",
+          nl: "Online leren (of stochastisch leren) update modelparameters na verwerking van elk individueel trainingsvoorbeeld, maakt continue aanpassing mogelijk. Batch leren verwerkt de hele dataset voor gewichtsupdates, biedt stabielere gradiënten maar vereist meer geheugen en potentieel langzamere aanpassing aan nieuwe patronen."
+        }
+      },
+      {
+        question: {
+          en: "What is the dying ReLU problem?",
+          es: "¿Qué es el problema del ReLU moribundo?",
+          de: "Was ist das Problem des sterbenden ReLU?",
+          nl: "Wat is het stervende ReLU probleem?"
+        },
+        options: [
+          { en: "Neurons get stuck outputting zero for all inputs and stop learning during training", es: "Neuronas se atascan produciendo cero para todas las entradas y dejan de aprender durante entrenamiento", de: "Neuronen stecken fest bei Ausgabe von Null für alle Eingaben und hören auf zu lernen während Training", nl: "Neuronen raken vast met het uitvoeren van nul voor alle invoer en stoppen met leren tijdens training" },
+          { en: "ReLU activation function becomes slower over time", es: "Función de activación ReLU se vuelve más lenta con el tiempo", de: "ReLU-Aktivierungsfunktion wird im Laufe der Zeit langsamer", nl: "ReLU activatiefunctie wordt langzamer over tijd" },
+          { en: "Network loses ability to use ReLU after many epochs", es: "Red pierde capacidad de usar ReLU después de muchas épocas", de: "Netzwerk verliert Fähigkeit ReLU nach vielen Epochen zu verwenden", nl: "Netwerk verliest vermogen om ReLU te gebruiken na veel epochs" },
+          { en: "ReLU causes overfitting in deep networks", es: "ReLU causa sobreajuste en redes profundas", de: "ReLU verursacht Überanpassung in tiefen Netzwerken", nl: "ReLU veroorzaakt overfitting in diepe netwerken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The dying ReLU problem occurs when neurons consistently receive negative inputs, causing ReLU to always output zero. Since the gradient is also zero for negative inputs, these neurons never update their weights and effectively 'die', contributing nothing to the network. Variants like Leaky ReLU help mitigate this issue.",
+          es: "El problema del ReLU moribundo ocurre cuando las neuronas reciben consistentemente entradas negativas, causando que ReLU siempre produzca cero. Como el gradiente también es cero para entradas negativas, estas neuronas nunca actualizan sus pesos y efectivamente 'mueren', sin contribuir nada a la red. Variantes como Leaky ReLU ayudan a mitigar este problema.",
+          de: "Das Problem des sterbenden ReLU tritt auf wenn Neuronen konsistent negative Eingaben erhalten, wodurch ReLU immer Null ausgibt. Da der Gradient auch Null für negative Eingaben ist, aktualisieren diese Neuronen nie ihre Gewichte und 'sterben' effektiv, tragen nichts zum Netzwerk bei. Varianten wie Leaky ReLU helfen dieses Problem zu mildern.",
+          nl: "Het stervende ReLU probleem treedt op wanneer neuronen consistent negatieve invoer ontvangen, waardoor ReLU altijd nul uitvoert. Omdat de gradiënt ook nul is voor negatieve invoer, updaten deze neuronen nooit hun gewichten en 'sterven' effectief, dragen niets bij aan het netwerk. Varianten zoals Leaky ReLU helpen dit probleem te verzachten."
+        }
+      },
+      {
+        question: {
+          en: "What is transfer of learning rate warmup?",
+          es: "¿Qué es el calentamiento de la tasa de aprendizaje?",
+          de: "Was ist Lernraten-Warmup?",
+          nl: "Wat is leersnelheid opwarmen?"
+        },
+        options: [
+          { en: "Gradually increasing learning rate from small value at start of training to prevent instability", es: "Aumentar gradualmente tasa de aprendizaje desde valor pequeño al inicio del entrenamiento para prevenir inestabilidad", de: "Allmähliches Erhöhen der Lernrate von kleinem Wert zu Beginn des Trainings um Instabilität zu verhindern", nl: "Geleidelijk verhogen van leersnelheid vanaf kleine waarde aan start van training om instabiliteit te voorkomen" },
+          { en: "Preheating the GPU before training starts", es: "Precalentar la GPU antes de que comience el entrenamiento", de: "Vorheizen der GPU bevor Training beginnt", nl: "Voorverwarmen van GPU voordat training begint" },
+          { en: "Training on easier examples first", es: "Entrenar primero con ejemplos más fáciles", de: "Zuerst auf einfacheren Beispielen trainieren", nl: "Eerst trainen op makkelijkere voorbeelden" },
+          { en: "Running preliminary epochs to prepare the model", es: "Ejecutar épocas preliminares para preparar el modelo", de: "Vorläufige Epochen ausführen um Modell vorzubereiten", nl: "Voorlopige epochs uitvoeren om model voor te bereiden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Learning rate warmup starts training with a very small learning rate and gradually increases it to the target value over the first few epochs or iterations. This helps stabilize training at the beginning when gradients may be large and unstable, especially useful for large batch sizes and complex optimizers like Adam.",
+          es: "El calentamiento de tasa de aprendizaje comienza el entrenamiento con una tasa de aprendizaje muy pequeña y la aumenta gradualmente al valor objetivo durante las primeras épocas o iteraciones. Esto ayuda a estabilizar el entrenamiento al principio cuando los gradientes pueden ser grandes e inestables, especialmente útil para tamaños de lote grandes y optimizadores complejos como Adam.",
+          de: "Lernraten-Warmup beginnt Training mit sehr kleiner Lernrate und erhöht sie allmählich zum Zielwert über die ersten Epochen oder Iterationen. Dies hilft Training am Anfang zu stabilisieren wenn Gradienten groß und instabil sein können, besonders nützlich für große Stapelgrößen und komplexe Optimierer wie Adam.",
+          nl: "Leersnelheid opwarmen begint training met een zeer kleine leersnelheid en verhoogt deze geleidelijk naar de doelwaarde over de eerste epochs of iteraties. Dit helpt training stabiliseren aan het begin wanneer gradiënten groot en instabiel kunnen zijn, vooral nuttig voor grote batchgroottes en complexe optimizers zoals Adam."
+        }
       }
     ]
   };

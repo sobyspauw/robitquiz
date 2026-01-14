@@ -427,6 +427,426 @@
           de: "KI-biologische Schnittstellen werden wahrscheinlich nahtlose Zusammenarbeit zwischen menschlicher Intelligenz und KI-Systemen ermöglichen, wodurch verbessertes Gedächtnis, Verarbeitungsgeschwindigkeit, Mustererkennung und Entscheidungsfindung ermöglicht wird während menschliches Bewusstsein und Identität bewahrt werden.",
           nl: "AI-biologische interfaces zullen waarschijnlijk naadloze samenwerking tussen menselijke intelligentie en AI-systemen mogelijk maken, verbeterd geheugen, verwerkingssnelheid, patroonherkenning en besluitvorming mogelijk makend terwijl menselijk bewustzijn en identiteit behouden blijven."
         }
+      },
+      {
+        question: {
+          en: "How might AI transform retail and customer experience by 2050?",
+          es: "¿Cómo podría la IA transformar el comercio minorista y la experiencia del cliente para 2050?",
+          de: "Wie könnte KI Einzelhandel und Kundenerlebnis bis 2050 verändern?",
+          nl: "Hoe zou AI detailhandel en klantervaring tegen 2050 kunnen transformeren?"
+        },
+        options: [
+          { en: "Creating hyper-personalized shopping experiences while maintaining human service for complex needs", es: "Creando experiencias de compra hiper-personalizadas mientras mantiene servicio humano para necesidades complejas", de: "Hyper-personalisierte Einkaufserfahrungen schaffen während menschlicher Service für komplexe Bedürfnisse beibehalten wird", nl: "Hyper-gepersonaliseerde winkelervaringen creëren terwijl menselijke service voor complexe behoeften behouden blijft" },
+          { en: "Eliminating all physical stores permanently", es: "Eliminando permanentemente todas las tiendas físicas", de: "Alle physischen Geschäfte dauerhaft eliminieren", nl: "Alle fysieke winkels permanent elimineren" },
+          { en: "Making all products exactly the same for everyone", es: "Haciendo todos los productos exactamente iguales para todos", de: "Alle Produkte für alle genau gleich machen", nl: "Alle producten precies hetzelfde maken voor iedereen" },
+          { en: "Replacing human shoppers with robots", es: "Reemplazando compradores humanos con robots", de: "Menschliche Käufer durch Roboter ersetzen", nl: "Menselijke shoppers vervangen door robots" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will revolutionize retail by creating ultra-personalized shopping experiences, predictive inventory management, seamless omnichannel integration, and intelligent customer service, while human staff focus on relationship building, complex consultations, and experiential retail.",
+          es: "La IA revolucionará el comercio minorista creando experiencias de compra ultra-personalizadas, gestión predictiva de inventario, integración omnicanal fluida y servicio al cliente inteligente, mientras personal humano se enfoca en construcción de relaciones, consultas complejas y comercio minorista experiencial.",
+          de: "KI wird Einzelhandel durch Schaffung ultra-personalisierter Einkaufserfahrungen, prädiktiver Bestandsverwaltung, nahtloser Omnichannel-Integration und intelligenter Kundenservice revolutionieren, während menschliches Personal sich auf Beziehungsaufbau, komplexe Beratungen und erlebnisorientiertem Einzelhandel konzentriert.",
+          nl: "AI zal detailhandel revolutioneren door ultra-gepersonaliseerde winkelervaringen te creëren, voorspellend voorraadbeheer, naadloze omnichannel-integratie en intelligente klantenservice, terwijl menselijk personeel zich richt op relatieopbouw, complexe consultaties en ervaringsgerichte retail."
+        }
+      },
+      {
+        question: {
+          en: "What impact might AI have on journalism and media professions by 2055?",
+          es: "¿Qué impacto podría tener la IA en el periodismo y profesiones de medios para 2055?",
+          de: "Welchen Einfluss könnte KI auf Journalismus und Medienberufe bis 2055 haben?",
+          nl: "Welke impact zou AI kunnen hebben op journalistiek en mediaberoepen tegen 2055?"
+        },
+        options: [
+          { en: "Automating routine reporting while journalists focus on investigative work and storytelling", es: "Automatizando reportajes rutinarios mientras periodistas se enfocan en trabajo investigativo y narración", de: "Routine-Berichterstattung automatisieren während Journalisten sich auf investigative Arbeit und Storytelling konzentrieren", nl: "Routinerapportage automatiseren terwijl journalisten zich richten op onderzoeksjournalistiek en storytelling" },
+          { en: "Replacing all journalists with AI writers", es: "Reemplazando todos los periodistas con escritores de IA", de: "Alle Journalisten durch KI-Autoren ersetzen", nl: "Alle journalisten vervangen door AI-schrijvers" },
+          { en: "Making all news articles identical", es: "Haciendo todos los artículos de noticias idénticos", de: "Alle Nachrichtenartikel identisch machen", nl: "Alle nieuwsartikelen identiek maken" },
+          { en: "Eliminating human judgment in news reporting", es: "Eliminando juicio humano en reportajes de noticias", de: "Menschliches Urteilsvermögen in Nachrichtenberichterstattung eliminieren", nl: "Menselijk oordeel in nieuwsrapportage elimineren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will transform journalism by automating data analysis, routine reporting, and content distribution, while human journalists focus on investigative reporting, ethical judgment, source cultivation, narrative craftsmanship, and maintaining journalistic integrity in an automated landscape.",
+          es: "La IA transformará el periodismo automatizando análisis de datos, reportajes rutinarios y distribución de contenido, mientras periodistas humanos se enfocan en reportajes investigativos, juicio ético, cultivo de fuentes, artesanía narrativa y mantenimiento de integridad periodística en un paisaje automatizado.",
+          de: "KI wird Journalismus transformieren durch Automatisierung von Datenanalyse, Routine-Berichterstattung und Inhaltsverteilung, während menschliche Journalisten sich auf investigative Berichterstattung, ethisches Urteilsvermögen, Quellenpflege, narrative Handwerkskunst und Wahrung journalistischer Integrität in einer automatisierten Landschaft konzentrieren.",
+          nl: "AI zal journalistiek transformeren door data-analyse, routinerapportage en contentdistributie te automatiseren, terwijl menselijke journalisten zich richten op onderzoeksjournalistiek, ethisch oordeel, bronnenwerving, narratief vakmanschap en handhaving van journalistieke integriteit in een geautomatiseerd landschap."
+        }
+      },
+      {
+        question: {
+          en: "How might AI impact agriculture and farming careers by 2050?",
+          es: "¿Cómo podría la IA impactar la agricultura y carreras agrícolas para 2050?",
+          de: "Wie könnte KI Landwirtschaft und landwirtschaftliche Laufbahnen bis 2050 beeinflussen?",
+          nl: "Hoe zou AI landbouw en agrarische carrières tegen 2050 kunnen beïnvloeden?"
+        },
+        options: [
+          { en: "Automating precision farming while farmers become data analysts and sustainability managers", es: "Automatizando agricultura de precisión mientras agricultores se convierten en analistas de datos y gerentes de sostenibilidad", de: "Präzisionslandwirtschaft automatisieren während Landwirte Datenanalysten und Nachhaltigkeitsmanager werden", nl: "Precisielandbouw automatiseren terwijl boeren data-analisten en duurzaamheidsmanagers worden" },
+          { en: "Eliminating all human farmers completely", es: "Eliminando completamente todos los agricultores humanos", de: "Alle menschlichen Landwirte vollständig eliminieren", nl: "Alle menselijke boeren volledig elimineren" },
+          { en: "Making all crops grow without soil or water", es: "Haciendo que todos los cultivos crezcan sin suelo o agua", de: "Alle Pflanzen ohne Boden oder Wasser wachsen lassen", nl: "Alle gewassen zonder grond of water laten groeien" },
+          { en: "Replacing traditional farming with synthetic food only", es: "Reemplazando agricultura tradicional solo con comida sintética", de: "Traditionelle Landwirtschaft nur durch synthetische Nahrung ersetzen", nl: "Traditionele landbouw alleen vervangen door synthetisch voedsel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will transform agriculture by handling crop monitoring, pest detection, and autonomous machinery operation, while farmers evolve into agricultural technologists who manage AI systems, make strategic decisions, and focus on sustainable land stewardship and biodiversity conservation.",
+          es: "La IA transformará la agricultura manejando monitoreo de cultivos, detección de plagas y operación de maquinaria autónoma, mientras agricultores evolucionan en tecnólogos agrícolas que gestionan sistemas de IA, toman decisiones estratégicas y se enfocan en administración sostenible de tierras y conservación de biodiversidad.",
+          de: "KI wird Landwirtschaft transformieren durch Pflanzenüberwachung, Schädlingserkennung und autonomen Maschinenbetrieb, während Landwirte zu landwirtschaftlichen Technologen werden die KI-Systeme verwalten, strategische Entscheidungen treffen und sich auf nachhaltige Landbewirtschaftung und Biodiversitätserhaltung konzentrieren.",
+          nl: "AI zal landbouw transformeren door gewasmonitoring, plaagdetectie en autonome machine-operatie te behandelen, terwijl boeren evolueren naar agrarische technologen die AI-systemen beheren, strategische beslissingen nemen en zich richten op duurzaam landbeheer en biodiversiteitsbehoud."
+        }
+      },
+      {
+        question: {
+          en: "What role might AI play in scientific research careers by 2055?",
+          es: "¿Qué papel podría jugar la IA en carreras de investigación científica para 2055?",
+          de: "Welche Rolle könnte KI in wissenschaftlichen Forschungskarrieren bis 2055 spielen?",
+          nl: "Welke rol zou AI kunnen spelen in wetenschappelijke onderzoekscarrières tegen 2055?"
+        },
+        options: [
+          { en: "Accelerating hypothesis generation and experimentation while scientists focus on creative insights", es: "Acelerando generación de hipótesis y experimentación mientras científicos se enfocan en insights creativos", de: "Hypothesengenerierung und Experimente beschleunigen während Wissenschaftler sich auf kreative Einsichten konzentrieren", nl: "Hypothesegeneratie en experimentatie versnellen terwijl wetenschappers zich richten op creatieve inzichten" },
+          { en: "Replacing all human scientists with AI researchers", es: "Reemplazando todos los científicos humanos con investigadores de IA", de: "Alle menschlichen Wissenschaftler durch KI-Forscher ersetzen", nl: "Alle menselijke wetenschappers vervangen door AI-onderzoekers" },
+          { en: "Making all scientific discoveries predictable", es: "Haciendo todos los descubrimientos científicos predecibles", de: "Alle wissenschaftlichen Entdeckungen vorhersagbar machen", nl: "Alle wetenschappelijke ontdekkingen voorspelbaar maken" },
+          { en: "Eliminating the need for scientific experimentation", es: "Eliminando la necesidad de experimentación científica", de: "Die Notwendigkeit wissenschaftlicher Experimente eliminieren", nl: "De noodzaak van wetenschappelijke experimenten elimineren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will revolutionize scientific research by automating literature reviews, experimental design, data analysis, and pattern recognition, allowing scientists to focus on creative hypothesis formation, interdisciplinary insights, ethical considerations, and breakthrough conceptual thinking.",
+          es: "La IA revolucionará la investigación científica automatizando revisiones de literatura, diseño experimental, análisis de datos y reconocimiento de patrones, permitiendo que científicos se enfoquen en formación creativa de hipótesis, insights interdisciplinarios, consideraciones éticas y pensamiento conceptual revolucionario.",
+          de: "KI wird wissenschaftliche Forschung revolutionieren durch Automatisierung von Literaturübersichten, experimentellem Design, Datenanalyse und Mustererkennung, wodurch Wissenschaftler sich auf kreative Hypothesenbildung, interdisziplinäre Einsichten, ethische Überlegungen und bahnbrechendes konzeptionelles Denken konzentrieren können.",
+          nl: "AI zal wetenschappelijk onderzoek revolutioneren door literatuuroverzichten, experimenteel ontwerp, data-analyse en patroonherkenning te automatiseren, waardoor wetenschappers zich kunnen richten op creatieve hypothesevorming, interdisciplinaire inzichten, ethische overwegingen en baanbrekend conceptueel denken."
+        }
+      },
+      {
+        question: {
+          en: "How might AI transform architecture and construction professions by 2050?",
+          es: "¿Cómo podría la IA transformar las profesiones de arquitectura y construcción para 2050?",
+          de: "Wie könnte KI Architektur- und Bauberufe bis 2050 verändern?",
+          nl: "Hoe zou AI architectuur- en bouwberoepen tegen 2050 kunnen transformeren?"
+        },
+        options: [
+          { en: "Optimizing designs and automating construction while architects focus on creativity and human needs", es: "Optimizando diseños y automatizando construcción mientras arquitectos se enfocan en creatividad y necesidades humanas", de: "Designs optimieren und Bau automatisieren während Architekten sich auf Kreativität und menschliche Bedürfnisse konzentrieren", nl: "Ontwerpen optimaliseren en constructie automatiseren terwijl architecten zich richten op creativiteit en menselijke behoeften" },
+          { en: "Replacing all architects with building algorithms", es: "Reemplazando todos los arquitectos con algoritmos de construcción", de: "Alle Architekten durch Baualgorithmen ersetzen", nl: "Alle architecten vervangen door bouwalgoritmen" },
+          { en: "Making all buildings identical worldwide", es: "Haciendo todos los edificios idénticos mundialmente", de: "Alle Gebäude weltweit identisch machen", nl: "Alle gebouwen wereldwijd identiek maken" },
+          { en: "Eliminating human input in building design", es: "Eliminando aporte humano en diseño de edificios", de: "Menschlichen Beitrag im Gebäudedesign eliminieren", nl: "Menselijke input in gebouwontwerp elimineren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will transform architecture by generating optimized designs, simulating building performance, and coordinating autonomous construction, while architects focus on aesthetic vision, user experience, cultural context, sustainability, and creative problem-solving that balances technology with human needs.",
+          es: "La IA transformará la arquitectura generando diseños optimizados, simulando rendimiento de edificios y coordinando construcción autónoma, mientras arquitectos se enfocan en visión estética, experiencia del usuario, contexto cultural, sostenibilidad y resolución creativa de problemas que equilibra tecnología con necesidades humanas.",
+          de: "KI wird Architektur transformieren durch Generierung optimierter Designs, Simulation von Gebäudeleistung und Koordinierung autonomer Konstruktion, während Architekten sich auf ästhetische Vision, Benutzererfahrung, kulturellen Kontext, Nachhaltigkeit und kreative Problemlösung konzentrieren die Technologie mit menschlichen Bedürfnissen ausbalanciert.",
+          nl: "AI zal architectuur transformeren door geoptimaliseerde ontwerpen te genereren, gebouwprestaties te simuleren en autonome constructie te coördineren, terwijl architecten zich richten op esthetische visie, gebruikerservaring, culturele context, duurzaamheid en creatieve probleemoplossing die technologie balanceert met menselijke behoeften."
+        }
+      },
+      {
+        question: {
+          en: "What impact might AI have on social work and counseling professions by 2055?",
+          es: "¿Qué impacto podría tener la IA en el trabajo social y profesiones de consejería para 2055?",
+          de: "Welchen Einfluss könnte KI auf Sozialarbeit und Beratungsberufe bis 2055 haben?",
+          nl: "Welke impact zou AI kunnen hebben op maatschappelijk werk en counselingberoepen tegen 2055?"
+        },
+        options: [
+          { en: "Supporting case management and analysis while humans provide empathy and complex interventions", es: "Apoyando gestión y análisis de casos mientras humanos proporcionan empatía e intervenciones complejas", de: "Fallmanagement und Analyse unterstützen während Menschen Empathie und komplexe Interventionen bieten", nl: "Casusmanagement en analyse ondersteunen terwijl mensen empathie en complexe interventies bieden" },
+          { en: "Replacing all social workers with chatbots", es: "Reemplazando todos los trabajadores sociales con chatbots", de: "Alle Sozialarbeiter durch Chatbots ersetzen", nl: "Alle maatschappelijk werkers vervangen door chatbots" },
+          { en: "Making all counseling sessions automated", es: "Haciendo todas las sesiones de consejería automatizadas", de: "Alle Beratungssitzungen automatisiert machen", nl: "Alle counselingsessies geautomatiseerd maken" },
+          { en: "Eliminating the need for human empathy", es: "Eliminando la necesidad de empatía humana", de: "Die Notwendigkeit menschlicher Empathie eliminieren", nl: "De noodzaak van menselijke empathie elimineren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will augment social work by handling administrative tasks, risk assessment, resource matching, and pattern detection, while human professionals focus on building therapeutic relationships, providing emotional support, making nuanced ethical judgments, and delivering personalized interventions.",
+          es: "La IA aumentará el trabajo social manejando tareas administrativas, evaluación de riesgos, emparejamiento de recursos y detección de patrones, mientras profesionales humanos se enfocan en construir relaciones terapéuticas, proporcionar apoyo emocional, hacer juicios éticos matizados y entregar intervenciones personalizadas.",
+          de: "KI wird Sozialarbeit verstärken durch Behandlung administrativer Aufgaben, Risikobewertung, Ressourcenzuordnung und Mustererkennung, während menschliche Fachkräfte sich auf Aufbau therapeutischer Beziehungen, emotionale Unterstützung, nuancierte ethische Urteile und personalisierte Interventionen konzentrieren.",
+          nl: "AI zal maatschappelijk werk versterken door administratieve taken, risicobeoordeling, resource matching en patroondetectie te behandelen, terwijl menselijke professionals zich richten op het opbouwen van therapeutische relaties, emotionele ondersteuning bieden, genuanceerde ethische oordelen maken en gepersonaliseerde interventies leveren."
+        }
+      },
+      {
+        question: {
+          en: "How might AI change logistics and supply chain management careers by 2050?",
+          es: "¿Cómo podría la IA cambiar las carreras de logística y gestión de cadena de suministro para 2050?",
+          de: "Wie könnte KI Logistik- und Lieferkettenmanagementkarrieren bis 2050 verändern?",
+          nl: "Hoe zou AI logistiek- en supply chain managementcarrières tegen 2050 kunnen veranderen?"
+        },
+        options: [
+          { en: "Automating routing and inventory while humans handle strategic planning and crisis management", es: "Automatizando enrutamiento e inventario mientras humanos manejan planificación estratégica y gestión de crisis", de: "Routing und Inventar automatisieren während Menschen strategische Planung und Krisenmanagement handhaben", nl: "Routing en voorraad automatiseren terwijl mensen strategische planning en crisismanagement behandelen" },
+          { en: "Replacing all supply chain workers with robots", es: "Reemplazando todos los trabajadores de cadena de suministro con robots", de: "Alle Lieferkettenarbeiter durch Roboter ersetzen", nl: "Alle supply chain werknemers vervangen door robots" },
+          { en: "Making all deliveries instantaneous", es: "Haciendo todas las entregas instantáneas", de: "Alle Lieferungen sofortig machen", nl: "Alle leveringen onmiddellijk maken" },
+          { en: "Eliminating the need for physical transportation", es: "Eliminando la necesidad de transporte físico", de: "Die Notwendigkeit physischen Transports eliminieren", nl: "De noodzaak van fysiek transport elimineren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will revolutionize supply chains by optimizing routes, predicting demand, automating warehouses, and managing inventory, while human professionals focus on strategic partnerships, crisis response, sustainability initiatives, and complex decision-making that requires contextual understanding.",
+          es: "La IA revolucionará las cadenas de suministro optimizando rutas, prediciendo demanda, automatizando almacenes y gestionando inventario, mientras profesionales humanos se enfocan en asociaciones estratégicas, respuesta a crisis, iniciativas de sostenibilidad y toma de decisiones complejas que requiere comprensión contextual.",
+          de: "KI wird Lieferketten revolutionieren durch Optimierung von Routen, Nachfragevorhersage, Lagerautomatisierung und Bestandsverwaltung, während menschliche Fachkräfte sich auf strategische Partnerschaften, Krisenreaktion, Nachhaltigkeitsinitiativen und komplexe Entscheidungsfindung konzentrieren die kontextuelles Verständnis erfordert.",
+          nl: "AI zal supply chains revolutioneren door routes te optimaliseren, vraag te voorspellen, magazijnen te automatiseren en voorraad te beheren, terwijl menselijke professionals zich richten op strategische partnerschappen, crisisrespons, duurzaamheidsinitiatieven en complexe besluitvorming die contextueel begrip vereist."
+        }
+      },
+      {
+        question: {
+          en: "What new interdisciplinary roles might emerge from AI advancement by 2055?",
+          es: "¿Qué nuevos roles interdisciplinarios podrían surgir del avance de IA para 2055?",
+          de: "Welche neuen interdisziplinären Rollen könnten aus dem KI-Fortschritt bis 2055 entstehen?",
+          nl: "Welke nieuwe interdisciplinaire rollen zouden kunnen ontstaan uit AI-vooruitgang tegen 2055?"
+        },
+        options: [
+          { en: "AI-human collaboration specialists, algorithmic impact assessors, and digital wellness coaches", es: "Especialistas en colaboración IA-humano, evaluadores de impacto algorítmico y coaches de bienestar digital", de: "KI-Mensch-Kollaborationsspezialisten, algorithmische Impact-Bewerter und digitale Wellness-Coaches", nl: "AI-mens samenwerkingsspecialisten, algoritmische impact beoordelaars en digitale wellness coaches" },
+          { en: "Only computer programmers will be needed", es: "Solo se necesitarán programadores de computadoras", de: "Nur Computerprogrammierer werden gebraucht", nl: "Alleen computerprogrammeurs zullen nodig zijn" },
+          { en: "All professions will merge into one universal job", es: "Todas las profesiones se fusionarán en un trabajo universal", de: "Alle Berufe verschmelzen zu einem universellen Job", nl: "Alle beroepen zullen samensmelten tot één universele baan" },
+          { en: "Specialization will completely disappear", es: "La especialización desaparecerá completamente", de: "Spezialisierung wird vollständig verschwinden", nl: "Specialisatie zal volledig verdwijnen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "New interdisciplinary roles will emerge that blend technical expertise with domain knowledge, including roles that bridge human-AI interaction, assess societal impacts of algorithms, manage AI governance, and help individuals and organizations navigate the psychological and social implications of AI integration.",
+          es: "Nuevos roles interdisciplinarios surgirán que combinan experiencia técnica con conocimiento de dominio, incluyendo roles que conectan interacción humano-IA, evalúan impactos sociales de algoritmos, gestionan gobernanza de IA y ayudan a individuos y organizaciones a navegar las implicaciones psicológicas y sociales de integración de IA.",
+          de: "Neue interdisziplinäre Rollen werden entstehen die technisches Fachwissen mit Domänenwissen verbinden, einschließlich Rollen die Mensch-KI-Interaktion überbrücken, gesellschaftliche Auswirkungen von Algorithmen bewerten, KI-Governance verwalten und Einzelpersonen und Organisationen helfen die psychologischen und sozialen Auswirkungen der KI-Integration zu navigieren.",
+          nl: "Nieuwe interdisciplinaire rollen zullen ontstaan die technische expertise combineren met domeinkennis, inclusief rollen die mens-AI interactie overbruggen, maatschappelijke impacts van algoritmen beoordelen, AI-governance beheren en individuen en organisaties helpen de psychologische en sociale implicaties van AI-integratie te navigeren."
+        }
+      },
+      {
+        question: {
+          en: "How might AI transform hospitality and service industries by 2050?",
+          es: "¿Cómo podría la IA transformar las industrias de hospitalidad y servicios para 2050?",
+          de: "Wie könnte KI Gastgewerbe und Dienstleistungsbranchen bis 2050 verändern?",
+          nl: "Hoe zou AI horeca en dienstverleningsindustrieën tegen 2050 kunnen transformeren?"
+        },
+        options: [
+          { en: "Personalizing guest experiences while humans provide warmth, creativity, and complex problem-solving", es: "Personalizando experiencias de huéspedes mientras humanos proporcionan calidez, creatividad y resolución compleja de problemas", de: "Gästeerlebnisse personalisieren während Menschen Wärme, Kreativität und komplexe Problemlösung bieten", nl: "Gastervaringen personaliseren terwijl mensen warmte, creativiteit en complexe probleemoplossing bieden" },
+          { en: "Replacing all hotel and restaurant staff with robots", es: "Reemplazando todo el personal de hoteles y restaurantes con robots", de: "Alle Hotel- und Restaurantpersonal durch Roboter ersetzen", nl: "Alle hotel- en restaurantpersoneel vervangen door robots" },
+          { en: "Making all service interactions completely automated", es: "Haciendo todas las interacciones de servicio completamente automatizadas", de: "Alle Service-Interaktionen vollständig automatisiert machen", nl: "Alle service-interacties volledig geautomatiseerd maken" },
+          { en: "Eliminating personalized service entirely", es: "Eliminando completamente el servicio personalizado", de: "Personalisierten Service vollständig eliminieren", nl: "Gepersonaliseerde service volledig elimineren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will transform hospitality by handling reservations, personalization, and routine tasks, while human staff focus on creating memorable experiences, handling complex guest needs, demonstrating cultural sensitivity, and providing the emotional intelligence that defines exceptional service.",
+          es: "La IA transformará la hospitalidad manejando reservaciones, personalización y tareas rutinarias, mientras personal humano se enfoca en crear experiencias memorables, manejar necesidades complejas de huéspedes, demostrar sensibilidad cultural y proporcionar la inteligencia emocional que define servicio excepcional.",
+          de: "KI wird Gastgewerbe transformieren durch Behandlung von Reservierungen, Personalisierung und Routineaufgaben, während menschliches Personal sich auf Schaffung unvergesslicher Erfahrungen, Behandlung komplexer Gästebedürfnisse, kulturelle Sensibilität und Bereitstellung emotionaler Intelligenz konzentriert die außergewöhnlichen Service definiert.",
+          nl: "AI zal horeca transformeren door reserveringen, personalisatie en routinetaken te behandelen, terwijl menselijk personeel zich richt op het creëren van onvergetelijke ervaringen, complexe gastbehoeften behandelen, culturele gevoeligheid tonen en de emotionele intelligentie bieden die uitzonderlijke service definieert."
+        }
+      },
+      {
+        question: {
+          en: "What impact might AI have on environmental science and conservation careers by 2055?",
+          es: "¿Qué impacto podría tener la IA en la ciencia ambiental y carreras de conservación para 2055?",
+          de: "Welchen Einfluss könnte KI auf Umweltwissenschaft und Naturschutzkarrieren bis 2055 haben?",
+          nl: "Welke impact zou AI kunnen hebben op milieuwetenschappen en natuurbehoudcarrières tegen 2055?"
+        },
+        options: [
+          { en: "Enhancing monitoring and prediction while humans make conservation decisions and policy", es: "Mejorando monitoreo y predicción mientras humanos toman decisiones de conservación y políticas", de: "Überwachung und Vorhersage verbessern während Menschen Naturschutzentscheidungen und Politik treffen", nl: "Monitoring en voorspelling verbeteren terwijl mensen behoudbeslissingen en beleid maken" },
+          { en: "Eliminating the need for environmental scientists", es: "Eliminando la necesidad de científicos ambientales", de: "Die Notwendigkeit von Umweltwissenschaftlern eliminieren", nl: "De noodzaak van milieuwetenschappers elimineren" },
+          { en: "Making all conservation automatic without human input", es: "Haciendo toda conservación automática sin aporte humano", de: "Alle Naturschutzmaßnahmen automatisch ohne menschlichen Beitrag machen", nl: "Alle natuurbehoud automatisch maken zonder menselijke input" },
+          { en: "Replacing nature with AI-controlled ecosystems", es: "Reemplazando naturaleza con ecosistemas controlados por IA", de: "Natur durch KI-kontrollierte Ökosysteme ersetzen", nl: "Natuur vervangen door AI-gecontroleerde ecosystemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will revolutionize environmental work by providing unprecedented ecosystem monitoring, species tracking, climate modeling, and threat prediction, while human scientists focus on conservation strategy, stakeholder engagement, policy advocacy, and ethical decisions about environmental tradeoffs.",
+          es: "La IA revolucionará el trabajo ambiental proporcionando monitoreo sin precedentes de ecosistemas, rastreo de especies, modelado climático y predicción de amenazas, mientras científicos humanos se enfocan en estrategia de conservación, participación de stakeholders, defensa de políticas y decisiones éticas sobre compensaciones ambientales.",
+          de: "KI wird Umweltarbeit revolutionieren durch beispiellose Ökosystemüberwachung, Artenverfolgung, Klimamodellierung und Bedrohungsvorhersage, während menschliche Wissenschaftler sich auf Naturschutzstrategie, Stakeholder-Einbindung, Politikvertretung und ethische Entscheidungen über Umwelt-Abwägungen konzentrieren.",
+          nl: "AI zal milieuwerk revolutioneren door ongekende ecosysteemmonitoring, soortentracking, klimaatmodellering en bedreigingsvoorspelling te bieden, terwijl menselijke wetenschappers zich richten op behousstrategie, stakeholder betrokkenheid, beleidsadvocatie en ethische beslissingen over milieuafwegingen."
+        }
+      },
+      {
+        question: {
+          en: "How might AI change transportation and logistics careers by 2050?",
+          es: "¿Cómo podría la IA cambiar las carreras de transporte y logística para 2050?",
+          de: "Wie könnte KI Transport- und Logistikkarrieren bis 2050 verändern?",
+          nl: "Hoe zou AI transport- en logistieke carrières tegen 2050 kunnen veranderen?"
+        },
+        options: [
+          { en: "Automating vehicle operation while humans manage networks, safety, and exceptional situations", es: "Automatizando operación de vehículos mientras humanos gestionan redes, seguridad y situaciones excepcionales", de: "Fahrzeugbetrieb automatisieren während Menschen Netzwerke, Sicherheit und außergewöhnliche Situationen verwalten", nl: "Voertuigbediening automatiseren terwijl mensen netwerken, veiligheid en uitzonderlijke situaties beheren" },
+          { en: "Eliminating all transportation jobs completely", es: "Eliminando completamente todos los trabajos de transporte", de: "Alle Transportjobs vollständig eliminieren", nl: "Alle transportbanen volledig elimineren" },
+          { en: "Making humans obsolete in all vehicle-related work", es: "Haciendo humanos obsoletos en todo trabajo relacionado con vehículos", de: "Menschen in aller fahrzeugbezogenen Arbeit obsolet machen", nl: "Mensen overbodig maken in al het voertuiggerelateerde werk" },
+          { en: "Replacing physical transport with teleportation", es: "Reemplazando transporte físico con teletransportación", de: "Physischen Transport durch Teleportation ersetzen", nl: "Fysiek transport vervangen door teleportatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will transform transportation by enabling autonomous vehicles and optimized logistics, while human professionals evolve to manage complex transportation networks, ensure safety oversight, handle edge cases, coordinate multimodal systems, and address the social and regulatory challenges of autonomous transport.",
+          es: "La IA transformará el transporte habilitando vehículos autónomos y logística optimizada, mientras profesionales humanos evolucionan para gestionar redes complejas de transporte, asegurar supervisión de seguridad, manejar casos límite, coordinar sistemas multimodales y abordar desafíos sociales y regulatorios del transporte autónomo.",
+          de: "KI wird Transport transformieren durch autonome Fahrzeuge und optimierte Logistik, während menschliche Fachkräfte sich weiterentwickeln um komplexe Transportnetzwerke zu verwalten, Sicherheitsaufsicht sicherzustellen, Grenzfälle zu handhaben, multimodale Systeme zu koordinieren und die sozialen und regulatorischen Herausforderungen autonomen Transports anzugehen.",
+          nl: "AI zal transport transformeren door autonome voertuigen en geoptimaliseerde logistiek mogelijk te maken, terwijl menselijke professionals evolueren om complexe transportnetwerken te beheren, veiligheidstoezicht te waarborgen, randgevallen te behandelen, multimodale systemen te coördineren en de sociale en regelgevende uitdagingen van autonoom transport aan te pakken."
+        }
+      },
+      {
+        question: {
+          en: "What role might AI play in shaping future HR and talent development by 2055?",
+          es: "¿Qué papel podría jugar la IA en dar forma al futuro de RR.HH. y desarrollo de talento para 2055?",
+          de: "Welche Rolle könnte KI bei der Gestaltung zukünftiger HR und Talententwicklung bis 2055 spielen?",
+          nl: "Welke rol zou AI kunnen spelen bij het vormgeven van toekomstige HR en talentontwikkeling tegen 2055?"
+        },
+        options: [
+          { en: "Personalizing career development while HR focuses on culture, leadership, and strategic workforce planning", es: "Personalizando desarrollo profesional mientras RR.HH. se enfoca en cultura, liderazgo y planificación estratégica de fuerza laboral", de: "Karriereentwicklung personalisieren während HR sich auf Kultur, Führung und strategische Personalplanung konzentriert", nl: "Carrièreontwikkeling personaliseren terwijl HR zich richt op cultuur, leiderschap en strategische personeelsplanning" },
+          { en: "Replacing all HR professionals with algorithms", es: "Reemplazando todos los profesionales de RR.HH. con algoritmos", de: "Alle HR-Fachleute durch Algorithmen ersetzen", nl: "Alle HR-professionals vervangen door algoritmes" },
+          { en: "Making all career paths identical for everyone", es: "Haciendo todas las trayectorias profesionales idénticas para todos", de: "Alle Karrierewege für alle identisch machen", nl: "Alle carrièrepaden identiek maken voor iedereen" },
+          { en: "Eliminating human judgment from talent decisions", es: "Eliminando juicio humano de decisiones de talento", de: "Menschliches Urteilsvermögen aus Talententscheidungen eliminieren", nl: "Menselijk oordeel uit talentbeslissingen elimineren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will transform HR by personalizing learning paths, predicting skill gaps, optimizing workforce planning, and reducing bias in talent processes, while HR professionals focus on organizational culture, leadership development, change management, and the human dimensions of work that require empathy and judgment.",
+          es: "La IA transformará RR.HH. personalizando caminos de aprendizaje, prediciendo brechas de habilidades, optimizando planificación de fuerza laboral y reduciendo sesgo en procesos de talento, mientras profesionales de RR.HH. se enfocan en cultura organizacional, desarrollo de liderazgo, gestión de cambio y las dimensiones humanas del trabajo que requieren empatía y juicio.",
+          de: "KI wird HR transformieren durch Personalisierung von Lernpfaden, Vorhersage von Kompetenzlücken, Optimierung der Personalplanung und Reduzierung von Verzerrungen in Talentprozessen, während HR-Fachleute sich auf Organisationskultur, Führungsentwicklung, Change Management und die menschlichen Dimensionen der Arbeit konzentrieren die Empathie und Urteilsvermögen erfordern.",
+          nl: "AI zal HR transformeren door leerpaden te personaliseren, vaardigheidskloven te voorspellen, personeelsplanning te optimaliseren en vooroordelen in talentprocessen te verminderen, terwijl HR-professionals zich richten op organisatiecultuur, leiderschapsontwikkeling, verandermanagement en de menselijke dimensies van werk die empathie en oordeel vereisen."
+        }
+      },
+      {
+        question: {
+          en: "How might AI impact sports and athletic careers by 2050?",
+          es: "¿Cómo podría la IA impactar los deportes y carreras atléticas para 2050?",
+          de: "Wie könnte KI Sport und athletische Laufbahnen bis 2050 beeinflussen?",
+          nl: "Hoe zou AI sport en atletische carrières tegen 2050 kunnen beïnvloeden?"
+        },
+        options: [
+          { en: "Optimizing training and performance analysis while athletes focus on competitive execution and mental game", es: "Optimizando entrenamiento y análisis de rendimiento mientras atletas se enfocan en ejecución competitiva y juego mental", de: "Training und Leistungsanalyse optimieren während Athleten sich auf Wettkampfausführung und mentales Spiel konzentrieren", nl: "Training en prestatieanalyse optimaliseren terwijl atleten zich richten op competitieve uitvoering en mentaal spel" },
+          { en: "Replacing all human athletes with robots", es: "Reemplazando todos los atletas humanos con robots", de: "Alle menschlichen Athleten durch Roboter ersetzen", nl: "Alle menselijke atleten vervangen door robots" },
+          { en: "Making all sports outcomes predictable", es: "Haciendo todos los resultados deportivos predecibles", de: "Alle Sportergebnisse vorhersagbar machen", nl: "Alle sportresultaten voorspelbaar maken" },
+          { en: "Eliminating physical competition entirely", es: "Eliminando completamente la competencia física", de: "Physischen Wettbewerb vollständig eliminieren", nl: "Fysieke competitie volledig elimineren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will revolutionize sports through advanced performance analytics, personalized training optimization, injury prevention, and tactical analysis, while athletes remain central to competition, with their physical abilities, mental resilience, and competitive spirit defining sporting excellence.",
+          es: "La IA revolucionará los deportes a través de análisis avanzado de rendimiento, optimización personalizada de entrenamiento, prevención de lesiones y análisis táctico, mientras atletas permanecen centrales en la competencia, con sus habilidades físicas, resistencia mental y espíritu competitivo definiendo excelencia deportiva.",
+          de: "KI wird Sport durch fortgeschrittene Leistungsanalyse, personalisierte Trainingsoptimierung, Verletzungsprävention und taktische Analyse revolutionieren, während Athleten zentral im Wettbewerb bleiben, wobei ihre körperlichen Fähigkeiten, mentale Widerstandsfähigkeit und Wettkampfgeist sportliche Exzellenz definieren.",
+          nl: "AI zal sport revolutioneren door geavanceerde prestatieanalyse, gepersonaliseerde trainingsoptimalisatie, blessurepreventie en tactische analyse, terwijl atleten centraal blijven in competitie, met hun fysieke vaardigheden, mentale veerkracht en competitieve geest die sportieve excellentie definiëren."
+        }
+      },
+      {
+        question: {
+          en: "What new government and policy roles might emerge from AI governance needs by 2055?",
+          es: "¿Qué nuevos roles gubernamentales y de políticas podrían surgir de las necesidades de gobernanza de IA para 2055?",
+          de: "Welche neuen Regierungs- und Politikrollen könnten aus KI-Governance-Bedürfnissen bis 2055 entstehen?",
+          nl: "Welke nieuwe overheids- en beleidsrollen zouden kunnen ontstaan uit AI-governance behoeften tegen 2055?"
+        },
+        options: [
+          { en: "AI policy specialists, algorithmic auditors, and digital rights advocates ensuring responsible AI deployment", es: "Especialistas en políticas de IA, auditores algorítmicos y defensores de derechos digitales asegurando despliegue responsable de IA", de: "KI-Politikspezialisten, algorithmische Prüfer und digitale Rechtsverteidiger sichern verantwortungsvollen KI-Einsatz", nl: "AI-beleidsspecialisten, algoritmische auditors en digitale rechtenadvocaten die verantwoorde AI-implementatie waarborgen" },
+          { en: "Eliminating all government oversight of AI", es: "Eliminando toda supervisión gubernamental de IA", de: "Alle staatliche Aufsicht über KI eliminieren", nl: "Alle overheidstoezicht op AI elimineren" },
+          { en: "Replacing all politicians with AI decision-makers", es: "Reemplazando todos los políticos con tomadores de decisiones de IA", de: "Alle Politiker durch KI-Entscheidungsträger ersetzen", nl: "Alle politici vervangen door AI-besluitvormers" },
+          { en: "Making all policy decisions automatic", es: "Haciendo todas las decisiones políticas automáticas", de: "Alle politischen Entscheidungen automatisch machen", nl: "Alle beleidsbeslissingen automatisch maken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "New governance roles will emerge to regulate AI development, ensure algorithmic fairness, protect digital rights, assess societal impacts, coordinate international AI policy, and balance innovation with safety, requiring professionals who understand both technology and public policy.",
+          es: "Nuevos roles de gobernanza surgirán para regular desarrollo de IA, asegurar equidad algorítmica, proteger derechos digitales, evaluar impactos sociales, coordinar política internacional de IA y equilibrar innovación con seguridad, requiriendo profesionales que entiendan tanto tecnología como política pública.",
+          de: "Neue Governance-Rollen werden entstehen um KI-Entwicklung zu regulieren, algorithmische Fairness sicherzustellen, digitale Rechte zu schützen, gesellschaftliche Auswirkungen zu bewerten, internationale KI-Politik zu koordinieren und Innovation mit Sicherheit auszubalancieren, was Fachkräfte erfordert die sowohl Technologie als auch öffentliche Politik verstehen.",
+          nl: "Nieuwe governance rollen zullen ontstaan om AI-ontwikkeling te reguleren, algoritmische eerlijkheid te waarborgen, digitale rechten te beschermen, maatschappelijke impacts te beoordelen, internationaal AI-beleid te coördineren en innovatie met veiligheid te balanceren, wat professionals vereist die zowel technologie als openbaar beleid begrijpen."
+        }
+      },
+      {
+        question: {
+          en: "How might AI transform customer service and support careers by 2050?",
+          es: "¿Cómo podría la IA transformar las carreras de servicio y soporte al cliente para 2050?",
+          de: "Wie könnte KI Kundenservice- und Supportkarrieren bis 2050 verändern?",
+          nl: "Hoe zou AI klantenservice en supportcarrières tegen 2050 kunnen transformeren?"
+        },
+        options: [
+          { en: "Handling routine queries while humans resolve complex issues and build customer relationships", es: "Manejando consultas rutinarias mientras humanos resuelven problemas complejos y construyen relaciones con clientes", de: "Routineanfragen behandeln während Menschen komplexe Probleme lösen und Kundenbeziehungen aufbauen", nl: "Routinevragen behandelen terwijl mensen complexe problemen oplossen en klantrelaties opbouwen" },
+          { en: "Replacing all customer service representatives with chatbots", es: "Reemplazando todos los representantes de servicio al cliente con chatbots", de: "Alle Kundenservicemitarbeiter durch Chatbots ersetzen", nl: "Alle klantenservicemedewerkers vervangen door chatbots" },
+          { en: "Making customer service completely automated with no human contact", es: "Haciendo el servicio al cliente completamente automatizado sin contacto humano", de: "Kundenservice vollständig automatisiert ohne menschlichen Kontakt machen", nl: "Klantenservice volledig geautomatiseerd maken zonder menselijk contact" },
+          { en: "Eliminating the need for customer support entirely", es: "Eliminando completamente la necesidad de soporte al cliente", de: "Die Notwendigkeit von Kundensupport vollständig eliminieren", nl: "De behoefte aan klantenondersteuning volledig elimineren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will handle routine customer inquiries, provide instant responses, and escalate complex issues to human agents who focus on relationship building, empathy-driven problem-solving, handling emotional situations, and delivering personalized service that requires human judgment and connection.",
+          es: "La IA manejará consultas rutinarias de clientes, proporcionará respuestas instantáneas y escalará problemas complejos a agentes humanos que se enfocan en construcción de relaciones, resolución de problemas impulsada por empatía, manejo de situaciones emocionales y entrega de servicio personalizado que requiere juicio y conexión humanos.",
+          de: "KI wird routinemäßige Kundenanfragen behandeln, sofortige Antworten geben und komplexe Probleme an menschliche Agenten eskalieren die sich auf Beziehungsaufbau, empathiegetriebene Problemlösung, Umgang mit emotionalen Situationen und personalisierten Service konzentrieren der menschliches Urteilsvermögen und Verbindung erfordert.",
+          nl: "AI zal routineklantaanvragen behandelen, directe antwoorden geven en complexe problemen escaleren naar menselijke agenten die zich richten op relatieopbouw, empathie-gedreven probleemoplossing, omgaan met emotionele situaties en het leveren van gepersonaliseerde service die menselijk oordeel en verbinding vereist."
+        }
+      },
+      {
+        question: {
+          en: "What impact might AI have on real estate and property management careers by 2055?",
+          es: "¿Qué impacto podría tener la IA en las carreras de bienes raíces y gestión de propiedades para 2055?",
+          de: "Welchen Einfluss könnte KI auf Immobilien- und Immobilienverwaltungskarrieren bis 2055 haben?",
+          nl: "Welke impact zou AI kunnen hebben op vastgoed- en vastgoedbeheercarrières tegen 2055?"
+        },
+        options: [
+          { en: "Automating valuations and marketing while agents focus on negotiation and client relationships", es: "Automatizando valuaciones y marketing mientras agentes se enfocan en negociación y relaciones con clientes", de: "Bewertungen und Marketing automatisieren während Agenten sich auf Verhandlung und Kundenbeziehungen konzentrieren", nl: "Waarderingen en marketing automatiseren terwijl agenten zich richten op onderhandeling en klantrelaties" },
+          { en: "Replacing all real estate agents with algorithms", es: "Reemplazando todos los agentes de bienes raíces con algoritmos", de: "Alle Immobilienmakler durch Algorithmen ersetzen", nl: "Alle makelaars vervangen door algoritmes" },
+          { en: "Making all property transactions identical", es: "Haciendo todas las transacciones de propiedad idénticas", de: "Alle Immobilientransaktionen identisch machen", nl: "Alle vastgoedtransacties identiek maken" },
+          { en: "Eliminating human involvement in real estate entirely", es: "Eliminando completamente la participación humana en bienes raíces", de: "Menschliche Beteiligung an Immobilien vollständig eliminieren", nl: "Menselijke betrokkenheid bij vastgoed volledig elimineren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will transform real estate by automating property valuations, virtual tours, market analysis, and tenant screening, while human professionals focus on complex negotiations, understanding client needs, managing relationships, providing local expertise, and handling the emotional aspects of property transactions.",
+          es: "La IA transformará los bienes raíces automatizando valuaciones de propiedades, tours virtuales, análisis de mercado y evaluación de inquilinos, mientras profesionales humanos se enfocan en negociaciones complejas, entender necesidades de clientes, gestionar relaciones, proporcionar experiencia local y manejar aspectos emocionales de transacciones de propiedades.",
+          de: "KI wird Immobilien transformieren durch Automatisierung von Immobilienbewertungen, virtuellen Besichtigungen, Marktanalysen und Mieterbewertung, während menschliche Fachkräfte sich auf komplexe Verhandlungen, Verständnis von Kundenbedürfnissen, Beziehungsmanagement, lokale Expertise und Umgang mit emotionalen Aspekten von Immobilientransaktionen konzentrieren.",
+          nl: "AI zal vastgoed transformeren door vastgoedwaarderingen, virtuele tours, marktanalyse en huurderscreening te automatiseren, terwijl menselijke professionals zich richten op complexe onderhandelingen, begrip van klantbehoeften, relatiebeheer, lokale expertise bieden en omgaan met de emotionele aspecten van vastgoedtransacties."
+        }
+      },
+      {
+        question: {
+          en: "How might AI influence nonprofit and social impact careers by 2050?",
+          es: "¿Cómo podría la IA influir en las carreras de organizaciones sin fines de lucro e impacto social para 2050?",
+          de: "Wie könnte KI gemeinnützige und soziale Impact-Karrieren bis 2050 beeinflussen?",
+          nl: "Hoe zou AI non-profit en sociale impact carrières tegen 2050 kunnen beïnvloeden?"
+        },
+        options: [
+          { en: "Optimizing resource allocation and impact measurement while humans drive mission and community engagement", es: "Optimizando asignación de recursos y medición de impacto mientras humanos impulsan misión y participación comunitaria", de: "Ressourcenzuweisung und Impact-Messung optimieren während Menschen Mission und Community-Engagement vorantreiben", nl: "Toewijzing van middelen en impactmeting optimaliseren terwijl mensen missie en gemeenschapsbetrokkenheid aandrijven" },
+          { en: "Replacing all nonprofit workers with automated systems", es: "Reemplazando todos los trabajadores sin fines de lucro con sistemas automatizados", de: "Alle gemeinnützigen Mitarbeiter durch automatisierte Systeme ersetzen", nl: "Alle non-profit werknemers vervangen door geautomatiseerde systemen" },
+          { en: "Making all social impact work identical worldwide", es: "Haciendo todo el trabajo de impacto social idéntico mundialmente", de: "Alle soziale Impact-Arbeit weltweit identisch machen", nl: "Al het sociale impactwerk wereldwijd identiek maken" },
+          { en: "Eliminating the need for human compassion in nonprofit work", es: "Eliminando la necesidad de compasión humana en trabajo sin fines de lucro", de: "Die Notwendigkeit menschlichen Mitgefühls in gemeinnütziger Arbeit eliminieren", nl: "De behoefte aan menselijk medeleven in non-profit werk elimineren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will enhance nonprofit work by optimizing fundraising, measuring program impact, identifying needs, and allocating resources efficiently, while human professionals focus on mission leadership, community relationships, advocacy, storytelling, and the deeply human work of creating social change.",
+          es: "La IA mejorará el trabajo sin fines de lucro optimizando recaudación de fondos, midiendo impacto de programas, identificando necesidades y asignando recursos eficientemente, mientras profesionales humanos se enfocan en liderazgo de misión, relaciones comunitarias, defensa, narración y el trabajo profundamente humano de crear cambio social.",
+          de: "KI wird gemeinnützige Arbeit verbessern durch Optimierung von Fundraising, Messung von Programmauswirkungen, Identifizierung von Bedürfnissen und effiziente Ressourcenzuweisung, während menschliche Fachkräfte sich auf Missionsführung, Community-Beziehungen, Advocacy, Storytelling und die zutiefst menschliche Arbeit der Schaffung sozialen Wandels konzentrieren.",
+          nl: "AI zal non-profit werk verbeteren door fondsenwerving te optimaliseren, programma-impact te meten, behoeften te identificeren en middelen efficiënt toe te wijzen, terwijl menselijke professionals zich richten op missieleiderschap, gemeenschapsrelaties, belangenbehartiging, storytelling en het diep menselijke werk van het creëren van sociale verandering."
+        }
+      },
+      {
+        question: {
+          en: "What new forms of creative collaboration might emerge between humans and AI by 2055?",
+          es: "¿Qué nuevas formas de colaboración creativa podrían surgir entre humanos e IA para 2055?",
+          de: "Welche neuen Formen kreativer Zusammenarbeit könnten zwischen Menschen und KI bis 2055 entstehen?",
+          nl: "Welke nieuwe vormen van creatieve samenwerking zouden kunnen ontstaan tussen mensen en AI tegen 2055?"
+        },
+        options: [
+          { en: "Co-creation partnerships where AI generates variations and humans provide vision and curation", es: "Asociaciones de co-creación donde IA genera variaciones y humanos proporcionan visión y curación", de: "Ko-Kreationspartnerschaften in denen KI Variationen generiert und Menschen Vision und Kuration bieten", nl: "Co-creatie partnerschappen waar AI variaties genereert en mensen visie en curatie bieden" },
+          { en: "AI creating all art without any human involvement", es: "IA creando todo el arte sin ninguna participación humana", de: "KI schafft alle Kunst ohne menschliche Beteiligung", nl: "AI creëert alle kunst zonder enige menselijke betrokkenheid" },
+          { en: "Humans becoming obsolete in all creative fields", es: "Humanos volviéndose obsoletos en todos los campos creativos", de: "Menschen werden in allen kreativen Bereichen obsolet", nl: "Mensen worden overbodig in alle creatieve velden" },
+          { en: "Eliminating human creativity entirely", es: "Eliminando completamente la creatividad humana", de: "Menschliche Kreativität vollständig eliminieren", nl: "Menselijke creativiteit volledig elimineren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Human-AI creative partnerships will enable new art forms where AI generates possibilities, variations, and technical execution while humans provide conceptual vision, emotional depth, cultural context, and curatorial judgment, creating works neither could produce alone.",
+          es: "Las asociaciones creativas humano-IA permitirán nuevas formas de arte donde IA genera posibilidades, variaciones y ejecución técnica mientras humanos proporcionan visión conceptual, profundidad emocional, contexto cultural y juicio curatorial, creando obras que ninguno podría producir solo.",
+          de: "Mensch-KI-Kreativpartnerschaften werden neue Kunstformen ermöglichen in denen KI Möglichkeiten, Variationen und technische Ausführung generiert während Menschen konzeptuelle Vision, emotionale Tiefe, kulturellen Kontext und kuratorisches Urteilsvermögen bieten, wodurch Werke geschaffen werden die keiner allein produzieren könnte.",
+          nl: "Mens-AI creatieve partnerschappen zullen nieuwe kunstvormen mogelijk maken waar AI mogelijkheden, variaties en technische uitvoering genereert terwijl mensen conceptuele visie, emotionele diepte, culturele context en curatorieel oordeel bieden, waarbij werken worden gecreëerd die geen van beiden alleen kon produceren."
+        }
+      },
+      {
+        question: {
+          en: "How might AI reshape work-life balance and career longevity by 2050?",
+          es: "¿Cómo podría la IA remodelar el equilibrio trabajo-vida y la longevidad profesional para 2050?",
+          de: "Wie könnte KI Work-Life-Balance und Karrierelanglebigkeit bis 2050 umgestalten?",
+          nl: "Hoe zou AI werk-privébalans en carrière-duurzaamheid tegen 2050 kunnen hervormen?"
+        },
+        options: [
+          { en: "Enabling flexible careers with AI handling routine tasks and supporting continuous skill development", es: "Habilitando carreras flexibles con IA manejando tareas rutinarias y apoyando desarrollo continuo de habilidades", de: "Flexible Karrieren ermöglichen wobei KI Routineaufgaben übernimmt und kontinuierliche Kompetenzentwicklung unterstützt", nl: "Flexibele carrières mogelijk maken waarbij AI routinetaken behandelt en continue vaardigheidsontwikkeling ondersteunt" },
+          { en: "Making everyone work 24/7 without breaks", es: "Haciendo que todos trabajen 24/7 sin descansos", de: "Alle 24/7 ohne Pausen arbeiten lassen", nl: "Iedereen 24/7 zonder pauzes laten werken" },
+          { en: "Eliminating retirement completely", es: "Eliminando completamente la jubilación", de: "Ruhestand vollständig eliminieren", nl: "Pensioen volledig elimineren" },
+          { en: "Forcing everyone to change careers every year", es: "Forzando a todos a cambiar de carrera cada año", de: "Alle dazu zwingen jedes Jahr die Karriere zu wechseln", nl: "Iedereen dwingen elk jaar van carrière te veranderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will enable more flexible work arrangements by automating routine tasks, supporting lifelong learning, allowing career transitions, and potentially shortening work hours while maintaining productivity, creating opportunities for better work-life balance and extended, more fulfilling careers.",
+          es: "La IA permitirá arreglos de trabajo más flexibles automatizando tareas rutinarias, apoyando aprendizaje de por vida, permitiendo transiciones profesionales y potencialmente acortando horas de trabajo mientras mantiene productividad, creando oportunidades para mejor equilibrio trabajo-vida y carreras extendidas más satisfactorias.",
+          de: "KI wird flexiblere Arbeitsarrangements ermöglichen durch Automatisierung von Routineaufgaben, Unterstützung lebenslangen Lernens, Ermöglichung von Karriereübergängen und potenziell Verkürzung der Arbeitszeit bei Aufrechterhaltung der Produktivität, wodurch Chancen für bessere Work-Life-Balance und erweiterte, erfüllendere Karrieren geschaffen werden.",
+          nl: "AI zal flexibelere werkregelingen mogelijk maken door routinetaken te automatiseren, levenslang leren te ondersteunen, carrièretransities mogelijk te maken en mogelijk werkuren te verkorten terwijl productiviteit behouden blijft, waardoor kansen ontstaan voor betere werk-privébalans en uitgebreide, meer bevredigende carrières."
+        }
+      },
+      {
+        question: {
+          en: "What ethical debates might arise about AI consciousness and rights by 2055?",
+          es: "¿Qué debates éticos podrían surgir sobre la conciencia y los derechos de la IA para 2055?",
+          de: "Welche ethischen Debatten könnten bis 2055 über KI-Bewusstsein und -Rechte entstehen?",
+          nl: "Welke ethische debatten zouden tegen 2055 kunnen ontstaan over AI-bewustzijn en rechten?"
+        },
+        options: [
+          { en: "Questions about whether advanced AI systems deserve moral consideration and legal protections", es: "Preguntas sobre si los sistemas de IA avanzados merecen consideración moral y protecciones legales", de: "Fragen ob fortgeschrittene KI-Systeme moralische Berücksichtigung und rechtlichen Schutz verdienen", nl: "Vragen over of geavanceerde AI-systemen morele overweging en juridische bescherming verdienen" },
+          { en: "Granting all AI systems full human rights immediately", es: "Otorgar a todos los sistemas de IA derechos humanos completos inmediatamente", de: "Allen KI-Systemen sofort volle Menschenrechte gewähren", nl: "Alle AI-systemen onmiddellijk volledige mensenrechten verlenen" },
+          { en: "Treating all AI as property with no ethical considerations", es: "Tratar toda IA como propiedad sin consideraciones éticas", de: "Alle KI als Eigentum ohne ethische Erwägungen behandeln", nl: "Alle AI behandelen als eigendom zonder ethische overwegingen" },
+          { en: "Avoiding all discussions about AI ethics completely", es: "Evitar completamente todas las discusiones sobre ética de IA", de: "Alle Diskussionen über KI-Ethik vollständig vermeiden", nl: "Alle discussies over AI-ethiek volledig vermijden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "As AI systems become more sophisticated, society will grapple with questions about whether they possess subjective experiences, deserve moral consideration, should have legal rights, and how to balance AI welfare with human interests, requiring frameworks we're only beginning to develop.",
+          es: "A medida que los sistemas de IA se vuelven más sofisticados, la sociedad lidiará con preguntas sobre si poseen experiencias subjetivas, merecen consideración moral, deberían tener derechos legales y cómo equilibrar el bienestar de IA con intereses humanos, requiriendo marcos que apenas estamos comenzando a desarrollar.",
+          de: "Während KI-Systeme sophistizierter werden wird die Gesellschaft mit Fragen ringen ob sie subjektive Erfahrungen besitzen, moralische Berücksichtigung verdienen, rechtliche Rechte haben sollten und wie KI-Wohlergehen mit menschlichen Interessen ausbalanciert werden kann, was Rahmenwerke erfordert die wir erst beginnen zu entwickeln.",
+          nl: "Naarmate AI-systemen geavanceerder worden zal de samenleving worstelen met vragen of ze subjectieve ervaringen bezitten, morele overweging verdienen, juridische rechten zouden moeten hebben en hoe AI-welzijn te balanceren met menselijke belangen, wat raamwerken vereist die we pas beginnen te ontwikkelen."
+        }
       }
     ]
   };

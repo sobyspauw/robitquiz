@@ -427,6 +427,405 @@
           de: "Das Taj Mahal ist in der Vollmondnacht und zwei Nächte davor und danach für nächtliche Besichtigungen geöffnet und bietet einen magischen Blick auf das von Mondlicht überflutete Monument.",
           nl: "De Taj Mahal is open voor nachtelijk bezoek op de avond van de volle maan en twee nachten ervoor en erna, wat een magisch uitzicht biedt op het monument badend in maanlicht."
         }
+      },
+      {
+        question: {
+          en: "What architectural feature creates the Taj Mahal's changing colors throughout the day?",
+          es: "¿Qué característica arquitectónica crea los colores cambiantes del Taj Mahal durante el día?",
+          de: "Welches architektonische Merkmal erzeugt die wechselnden Farben des Taj Mahal im Laufe des Tages?",
+          nl: "Welk architectonisch kenmerk creëert de veranderende kleuren van de Taj Mahal gedurende de dag?"
+        },
+        options: [
+          { en: "LED lighting system", es: "Sistema de iluminación LED", de: "LED-Beleuchtungssystem", nl: "LED-verlichtingssysteem" },
+          { en: "Translucent marble quality", es: "Calidad de mármol translúcido", de: "Durchscheinende Marmorqualität", nl: "Doorschijnende marmerkwaliteit" },
+          { en: "Painted surfaces", es: "Superficies pintadas", de: "Bemalte Oberflächen", nl: "Geschilderde oppervlakken" },
+          { en: "Mirror reflections", es: "Reflejos de espejo", de: "Spiegelreflexionen", nl: "Spiegelreflecties" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The white Makrana marble is semi-translucent, reflecting different wavelengths of light throughout the day, creating the illusion of changing colors from pink to white to golden.",
+          es: "El mármol blanco de Makrana es semi-translúcido, reflejando diferentes longitudes de onda de luz durante el día, creando la ilusión de colores cambiantes de rosa a blanco a dorado.",
+          de: "Der weiße Makrana-Marmor ist halbtransparent und reflektiert im Laufe des Tages verschiedene Lichtwellenlängen, wodurch die Illusion wechselnder Farben von Rosa über Weiß bis Gold entsteht.",
+          nl: "Het witte Makrana-marmer is semi-doorschijnend en reflecteert verschillende golflengtes van licht gedurende de dag, waardoor de illusie ontstaat van veranderende kleuren van roze naar wit naar goudkleurig."
+        }
+      },
+      {
+        question: {
+          en: "How many subsidiary tombs exist in the Taj Mahal complex?",
+          es: "¿Cuántas tumbas subsidiarias existen en el complejo del Taj Mahal?",
+          de: "Wie viele Nebengräber gibt es im Taj Mahal-Komplex?",
+          nl: "Hoeveel extra graven bestaan er in het Taj Mahal-complex?"
+        },
+        options: [
+          { en: "None", es: "Ninguna", de: "Keine", nl: "Geen" },
+          { en: "2", es: "2", de: "2", nl: "2" },
+          { en: "4", es: "4", de: "4", nl: "4" },
+          { en: "6", es: "6", de: "6", nl: "6" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "There are four subsidiary tombs in the Taj Mahal complex, believed to house the graves of Mumtaz Mahal's other wives and favorite servants.",
+          es: "Hay cuatro tumbas subsidiarias en el complejo del Taj Mahal, que se cree albergan las tumbas de otras esposas de Mumtaz Mahal y sirvientes favoritos.",
+          de: "Es gibt vier Nebengräber im Taj Mahal-Komplex, von denen angenommen wird, dass sie die Gräber anderer Ehefrauen und Lieblingsdiener von Mumtaz Mahal beherbergen.",
+          nl: "Er zijn vier extra graven in het Taj Mahal-complex, waarvan wordt aangenomen dat ze de graven bevatten van andere vrouwen van Mumtaz Mahal en favoriete bedienden."
+        }
+      },
+      {
+        question: {
+          en: "What design pattern is used in the Taj Mahal's garden layout?",
+          es: "¿Qué patrón de diseño se utiliza en el diseño del jardín del Taj Mahal?",
+          de: "Welches Designmuster wird im Gartenlayout des Taj Mahal verwendet?",
+          nl: "Welk ontwerppatroon wordt gebruikt in de tuinindeling van de Taj Mahal?"
+        },
+        options: [
+          { en: "Zen garden", es: "Jardín zen", de: "Zen-Garten", nl: "Zentuin" },
+          { en: "English landscape", es: "Paisaje inglés", de: "Englische Landschaft", nl: "Engels landschap" },
+          { en: "Charbagh", es: "Charbagh", de: "Charbagh", nl: "Charbagh" },
+          { en: "French formal", es: "Formal francés", de: "Französisch formal", nl: "Frans formeel" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Taj Mahal gardens follow the Persian Charbagh design, dividing the space into four quadrants by water channels, symbolizing the four rivers of Paradise in Islamic tradition.",
+          es: "Los jardines del Taj Mahal siguen el diseño persa Charbagh, dividiendo el espacio en cuatro cuadrantes por canales de agua, simbolizando los cuatro ríos del Paraíso en la tradición islámica.",
+          de: "Die Gärten des Taj Mahal folgen dem persischen Charbagh-Design und teilen den Raum durch Wasserkanäle in vier Quadranten, die die vier Flüsse des Paradieses in der islamischen Tradition symbolisieren.",
+          nl: "De tuinen van de Taj Mahal volgen het Perzische Charbagh-ontwerp, waarbij de ruimte door waterkanalen in vier kwadranten wordt verdeeld, als symbool voor de vier rivieren van het Paradijs in de islamitische traditie."
+        }
+      },
+      {
+        question: {
+          en: "Where in Burhanpur did Mumtaz Mahal die?",
+          es: "¿Dónde en Burhanpur murió Mumtaz Mahal?",
+          de: "Wo in Burhanpur starb Mumtaz Mahal?",
+          nl: "Waar in Burhanpur stierf Mumtaz Mahal?"
+        },
+        options: [
+          { en: "During a military campaign", es: "Durante una campaña militar", de: "Während eines Feldzugs", nl: "Tijdens een militaire campagne" },
+          { en: "At a palace celebration", es: "En una celebración de palacio", de: "Bei einer Palastfeier", nl: "Bij een paleisviering" },
+          { en: "On a pilgrimage", es: "En una peregrinación", de: "Auf einer Pilgerreise", nl: "Op een bedevaart" },
+          { en: "During a diplomatic visit", es: "Durante una visita diplomática", de: "Bei einem diplomatischen Besuch", nl: "Tijdens een diplomatiek bezoek" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mumtaz Mahal died in Burhanpur while accompanying Shah Jahan on a military campaign in the Deccan region, giving birth to their 14th child in 1631.",
+          es: "Mumtaz Mahal murió en Burhanpur mientras acompañaba a Shah Jahan en una campaña militar en la región de Decán, dando a luz a su decimocuarto hijo en 1631.",
+          de: "Mumtaz Mahal starb in Burhanpur, während sie Shah Jahan auf einem Feldzug in der Deccan-Region begleitete und ihr 14. Kind zur Welt brachte.",
+          nl: "Mumtaz Mahal stierf in Burhanpur terwijl ze Shah Jahan vergezelde tijdens een militaire campagne in de Deccan-regio, waar ze hun 14e kind baarde in 1631."
+        }
+      },
+      {
+        question: {
+          en: "What is the total area of the Taj Mahal complex?",
+          es: "¿Cuál es el área total del complejo del Taj Mahal?",
+          de: "Wie groß ist die Gesamtfläche des Taj Mahal-Komplexes?",
+          nl: "Wat is de totale oppervlakte van het Taj Mahal-complex?"
+        },
+        options: [
+          { en: "17 hectares", es: "17 hectáreas", de: "17 Hektar", nl: "17 hectare" },
+          { en: "27 hectares", es: "27 hectáreas", de: "27 Hektar", nl: "27 hectare" },
+          { en: "37 hectares", es: "37 hectáreas", de: "37 Hektar", nl: "37 hectare" },
+          { en: "47 hectares", es: "47 hectáreas", de: "47 Hektar", nl: "47 hectare" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Taj Mahal complex covers approximately 17 hectares (42 acres), including the main mausoleum, mosque, guest house, gardens, and surrounding walls.",
+          es: "El complejo del Taj Mahal cubre aproximadamente 17 hectáreas (42 acres), incluyendo el mausoleo principal, mezquita, casa de huéspedes, jardines y muros circundantes.",
+          de: "Der Taj Mahal-Komplex erstreckt sich über etwa 17 Hektar (42 Acres), einschließlich des Hauptmausoleums, der Moschee, des Gästehauses, der Gärten und der umgebenden Mauern.",
+          nl: "Het Taj Mahal-complex beslaat ongeveer 17 hectare (42 acres), inclusief het hoofdmausoleum, moskee, gastenverblijf, tuinen en omringende muren."
+        }
+      },
+      {
+        question: {
+          en: "What structure flanks the mosque on the western side of the Taj Mahal?",
+          es: "¿Qué estructura flanquea la mezquita en el lado occidental del Taj Mahal?",
+          de: "Welche Struktur flankiert die Moschee auf der Westseite des Taj Mahal?",
+          nl: "Welke structuur flankeerde de moskee aan de westkant van de Taj Mahal?"
+        },
+        options: [
+          { en: "A library", es: "Una biblioteca", de: "Eine Bibliothek", nl: "Een bibliotheek" },
+          { en: "A guest house (jawab)", es: "Una casa de huéspedes (jawab)", de: "Ein Gästehaus (jawab)", nl: "Een gastenverblijf (jawab)" },
+          { en: "A palace", es: "Un palacio", de: "Ein Palast", nl: "Een paleis" },
+          { en: "A fortress", es: "Una fortaleza", de: "Eine Festung", nl: "Een fort" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The jawab (meaning 'answer' or 'mirror') is a guest house that mirrors the mosque on the opposite side, maintaining the complex's perfect bilateral symmetry even though it serves no religious function.",
+          es: "El jawab (que significa 'respuesta' o 'espejo') es una casa de huéspedes que refleja la mezquita en el lado opuesto, manteniendo la perfecta simetría bilateral del complejo aunque no tenga función religiosa.",
+          de: "Der Jawab (bedeutet 'Antwort' oder 'Spiegel') ist ein Gästehaus, das die Moschee auf der gegenüberliegenden Seite spiegelt und die perfekte bilaterale Symmetrie des Komplexes aufrechterhält, obwohl es keine religiöse Funktion hat.",
+          nl: "De jawab (betekent 'antwoord' of 'spiegel') is een gastenverblijf dat de moskee aan de andere kant spiegelt, waardoor de perfecte bilaterale symmetrie van het complex behouden blijft, hoewel het geen religieuze functie heeft."
+        }
+      },
+      {
+        question: {
+          en: "How many types of precious and semi-precious stones were used in the Taj Mahal?",
+          es: "¿Cuántos tipos de piedras preciosas y semipreciosas se utilizaron en el Taj Mahal?",
+          de: "Wie viele Arten von Edel- und Halbedelsteinen wurden im Taj Mahal verwendet?",
+          nl: "Hoeveel soorten edel- en halfedelstenen werden gebruikt in de Taj Mahal?"
+        },
+        options: [
+          { en: "18", es: "18", de: "18", nl: "18" },
+          { en: "23", es: "23", de: "23", nl: "23" },
+          { en: "28", es: "28", de: "28", nl: "28" },
+          { en: "33", es: "33", de: "33", nl: "33" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Over 28 different types of precious and semi-precious stones, including jade, crystal, lapis lazuli, amethyst, and turquoise, were inlaid into the white marble using the pietra dura technique.",
+          es: "Más de 28 tipos diferentes de piedras preciosas y semipreciosas, incluyendo jade, cristal, lapislázuli, amatista y turquesa, se incrustaron en el mármol blanco utilizando la técnica de pietra dura.",
+          de: "Über 28 verschiedene Arten von Edel- und Halbedelsteinen, darunter Jade, Kristall, Lapislazuli, Amethyst und Türkis, wurden mit der Pietra-dura-Technik in den weißen Marmor eingelegt.",
+          nl: "Meer dan 28 verschillende soorten edel- en halfedelstenen, waaronder jade, kristal, lapis lazuli, amethist en turkoois, werden in het witte marmer ingelegd met behulp van de pietra dura-techniek."
+        }
+      },
+      {
+        question: {
+          en: "What was the estimated cost of building the Taj Mahal in 1653?",
+          es: "¿Cuál fue el costo estimado de construir el Taj Mahal en 1653?",
+          de: "Was waren die geschätzten Kosten für den Bau des Taj Mahal im Jahr 1653?",
+          nl: "Wat waren de geschatte kosten voor het bouwen van de Taj Mahal in 1653?"
+        },
+        options: [
+          { en: "12 million rupees", es: "12 millones de rupias", de: "12 Millionen Rupien", nl: "12 miljoen roepies" },
+          { en: "22 million rupees", es: "22 millones de rupias", de: "22 Millionen Rupien", nl: "22 miljoen roepies" },
+          { en: "32 million rupees", es: "32 millones de rupias", de: "32 Millionen Rupien", nl: "32 miljoen roepies" },
+          { en: "42 million rupees", es: "42 millones de rupias", de: "42 Millionen Rupien", nl: "42 miljoen roepies" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The construction cost was estimated at 32 million rupees in 1653, which would be worth over $1 billion today when adjusted for inflation and purchasing power.",
+          es: "El costo de construcción se estimó en 32 millones de rupias en 1653, lo que valdría más de $1 mil millones hoy ajustado por inflación y poder adquisitivo.",
+          de: "Die Baukosten wurden 1653 auf 32 Millionen Rupien geschätzt, was heute inflationsbereinigt und kaufkraftbereinigt über 1 Milliarde Dollar wert wäre.",
+          nl: "De bouwkosten werden in 1653 geschat op 32 miljoen roepies, wat vandaag meer dan $1 miljard zou zijn na aanpassing voor inflatie en koopkracht."
+        }
+      },
+      {
+        question: {
+          en: "What happened to Shah Jahan in his final years?",
+          es: "¿Qué le pasó a Shah Jahan en sus últimos años?",
+          de: "Was geschah mit Shah Jahan in seinen letzten Jahren?",
+          nl: "Wat gebeurde er met Shah Jahan in zijn laatste jaren?"
+        },
+        options: [
+          { en: "He ruled until his death", es: "Gobernó hasta su muerte", de: "Er regierte bis zu seinem Tod", nl: "Hij regeerde tot zijn dood" },
+          { en: "He abdicated voluntarily", es: "Abdicó voluntariamente", de: "Er dankte freiwillig ab", nl: "Hij deed vrijwillig afstand" },
+          { en: "He was imprisoned by his son", es: "Fue encarcelado por su hijo", de: "Er wurde von seinem Sohn eingekerkert", nl: "Hij werd gevangen gezet door zijn zoon" },
+          { en: "He went into exile", es: "Se exilió", de: "Er ging ins Exil", nl: "Hij ging in ballingschap" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Shah Jahan was imprisoned by his son Aurangzeb in Agra Fort for the last eight years of his life. From his cell, he could see the Taj Mahal across the Yamuna River.",
+          es: "Shah Jahan fue encarcelado por su hijo Aurangzeb en el Fuerte de Agra durante los últimos ocho años de su vida. Desde su celda, podía ver el Taj Mahal al otro lado del río Yamuna.",
+          de: "Shah Jahan wurde von seinem Sohn Aurangzeb die letzten acht Jahre seines Lebens im Agra Fort eingesperrt. Von seiner Zelle aus konnte er das Taj Mahal über den Yamuna-Fluss sehen.",
+          nl: "Shah Jahan werd door zijn zoon Aurangzeb de laatste acht jaar van zijn leven gevangen gehouden in Agra Fort. Vanuit zijn cel kon hij de Taj Mahal over de Yamuna-rivier zien."
+        }
+      },
+      {
+        question: {
+          en: "What material is used for the platform base of the Taj Mahal?",
+          es: "¿Qué material se utiliza para la base de la plataforma del Taj Mahal?",
+          de: "Welches Material wird für die Plattformbasis des Taj Mahal verwendet?",
+          nl: "Welk materiaal wordt gebruikt voor de platformbasis van de Taj Mahal?"
+        },
+        options: [
+          { en: "White marble", es: "Mármol blanco", de: "Weißer Marmor", nl: "Wit marmer" },
+          { en: "Red sandstone", es: "Piedra arenisca roja", de: "Roter Sandstein", nl: "Rode zandsteen" },
+          { en: "Granite", es: "Granito", de: "Granit", nl: "Graniet" },
+          { en: "Limestone", es: "Piedra caliza", de: "Kalkstein", nl: "Kalksteen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The platform or plinth on which the Taj Mahal sits is constructed of red sandstone, which contrasts beautifully with the white marble of the main structure and reaches about 7 meters in height.",
+          es: "La plataforma o plinto sobre el que se asienta el Taj Mahal está construido de piedra arenisca roja, que contrasta hermosamente con el mármol blanco de la estructura principal y alcanza unos 7 metros de altura.",
+          de: "Die Plattform oder der Sockel, auf dem das Taj Mahal steht, besteht aus rotem Sandstein, der wunderschön mit dem weißen Marmor der Hauptstruktur kontrastiert und etwa 7 Meter hoch ist.",
+          nl: "Het platform of plint waarop de Taj Mahal staat is gebouwd van rode zandsteen, die mooi contrasteert met het witte marmer van de hoofdstructuur en ongeveer 7 meter hoog is."
+        }
+      },
+      {
+        question: {
+          en: "What is the diameter of the central dome of the Taj Mahal?",
+          es: "¿Cuál es el diámetro de la cúpula central del Taj Mahal?",
+          de: "Was ist der Durchmesser der zentralen Kuppel des Taj Mahal?",
+          nl: "Wat is de diameter van de centrale koepel van de Taj Mahal?"
+        },
+        options: [
+          { en: "17 meters", es: "17 metros", de: "17 Meter", nl: "17 meter" },
+          { en: "22 meters", es: "22 metros", de: "22 Meter", nl: "22 meter" },
+          { en: "27 meters", es: "27 metros", de: "27 Meter", nl: "27 meter" },
+          { en: "32 meters", es: "32 metros", de: "32 Meter", nl: "32 meter" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The central onion dome has a diameter of approximately 17 meters and is nearly the same height, creating a harmonious proportion that is a hallmark of Mughal architecture.",
+          es: "La cúpula de cebolla central tiene un diámetro de aproximadamente 17 metros y casi la misma altura, creando una proporción armoniosa que es un sello distintivo de la arquitectura mogol.",
+          de: "Die zentrale Zwiebelkuppel hat einen Durchmesser von etwa 17 Metern und ist fast gleich hoch, was harmonische Proportionen schafft, die ein Markenzeichen der Mogul-Architektur sind.",
+          nl: "De centrale uikoepel heeft een diameter van ongeveer 17 meter en is bijna even hoog, wat harmonieuze proporties creëert die een kenmerk zijn van Mogol-architectuur."
+        }
+      },
+      {
+        question: {
+          en: "How are the actual tombs of Mumtaz Mahal and Shah Jahan positioned relative to each other?",
+          es: "¿Cómo están posicionadas las tumbas reales de Mumtaz Mahal y Shah Jahan una con respecto a la otra?",
+          de: "Wie sind die tatsächlichen Gräber von Mumtaz Mahal und Shah Jahan zueinander positioniert?",
+          nl: "Hoe zijn de echte graven van Mumtaz Mahal en Shah Jahan ten opzichte van elkaar gepositioneerd?"
+        },
+        options: [
+          { en: "Side by side", es: "Lado a lado", de: "Nebeneinander", nl: "Naast elkaar" },
+          { en: "Shah Jahan's tomb is centered", es: "La tumba de Shah Jahan está centrada", de: "Shah Jahans Grab ist zentriert", nl: "Shah Jahan's graf is gecentreerd" },
+          { en: "Mumtaz's tomb is centered", es: "La tumba de Mumtaz está centrada", de: "Mumtaz' Grab ist zentriert", nl: "Mumtaz' graf is gecentreerd" },
+          { en: "In separate chambers", es: "En cámaras separadas", de: "In separaten Kammern", nl: "In aparte kamers" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Mumtaz Mahal's tomb is perfectly centered beneath the main dome. Shah Jahan's tomb was later placed beside hers, slightly disrupting the perfect symmetry of the original design.",
+          es: "La tumba de Mumtaz Mahal está perfectamente centrada debajo de la cúpula principal. La tumba de Shah Jahan se colocó más tarde junto a la de ella, interrumpiendo ligeramente la perfecta simetría del diseño original.",
+          de: "Mumtaz Mahals Grab ist perfekt unter der Hauptkuppel zentriert. Shah Jahans Grab wurde später neben ihrem platziert, was die perfekte Symmetrie des ursprünglichen Designs leicht stört.",
+          nl: "Mumtaz Mahal's graf is perfect gecentreerd onder de hoofdkoepel. Shah Jahan's graf werd later naast het hare geplaatst, wat de perfecte symmetrie van het oorspronkelijke ontwerp enigszins verstoort."
+        }
+      },
+      {
+        question: {
+          en: "What cleaning method is used to maintain the Taj Mahal's white marble?",
+          es: "¿Qué método de limpieza se utiliza para mantener el mármol blanco del Taj Mahal?",
+          de: "Welche Reinigungsmethode wird verwendet, um den weißen Marmor des Taj Mahal zu erhalten?",
+          nl: "Welke reinigingsmethode wordt gebruikt om het witte marmer van de Taj Mahal te onderhouden?"
+        },
+        options: [
+          { en: "Chemical bleaching", es: "Blanqueamiento químico", de: "Chemisches Bleichen", nl: "Chemisch bleken" },
+          { en: "Fuller's earth mud pack", es: "Paquete de barro de tierra de batán", de: "Fuller-Erde-Schlammpackung", nl: "Fuller's earth modderpack" },
+          { en: "High-pressure water jets", es: "Chorros de agua a alta presión", de: "Hochdruck-Wasserstrahlen", nl: "Hogedruk waterstralen" },
+          { en: "Sandblasting", es: "Arenado", de: "Sandstrahlen", nl: "Zandstralen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Fuller's earth, a natural clay material, is applied as a mud pack to draw out pollutants and stains from the marble. This traditional method is gentle and doesn't damage the stone's surface.",
+          es: "La tierra de batán, un material de arcilla natural, se aplica como un paquete de barro para extraer contaminantes y manchas del mármol. Este método tradicional es suave y no daña la superficie de la piedra.",
+          de: "Fuller-Erde, ein natürliches Tonmaterial, wird als Schlammpackung aufgetragen, um Schadstoffe und Flecken aus dem Marmor zu ziehen. Diese traditionelle Methode ist sanft und beschädigt die Steinoberfläche nicht.",
+          nl: "Fuller's earth, een natuurlijk kleimateriaal, wordt als modderpack aangebracht om verontreinigingen en vlekken uit het marmer te trekken. Deze traditionele methode is zacht en beschadigt het oppervlak van de steen niet."
+        }
+      },
+      {
+        question: {
+          en: "What type of script is used for the calligraphy on the Taj Mahal?",
+          es: "¿Qué tipo de escritura se utiliza para la caligrafía del Taj Mahal?",
+          de: "Welche Art von Schrift wird für die Kalligraphie am Taj Mahal verwendet?",
+          nl: "Welk type schrift wordt gebruikt voor de kalligrafie op de Taj Mahal?"
+        },
+        options: [
+          { en: "Kufi", es: "Kufi", de: "Kufi", nl: "Kufi" },
+          { en: "Thuluth", es: "Thuluth", de: "Thuluth", nl: "Thuluth" },
+          { en: "Naskh", es: "Naskh", de: "Naskh", nl: "Naskh" },
+          { en: "Diwani", es: "Diwani", de: "Diwani", nl: "Diwani" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The calligraphy uses Thuluth script, an elegant cursive style of Arabic calligraphy. The calligrapher Amanat Khan signed his work, a rare honor indicating the high artistic value.",
+          es: "La caligrafía utiliza escritura Thuluth, un elegante estilo cursivo de caligrafía árabe. El calígrafo Amanat Khan firmó su trabajo, un raro honor que indica el alto valor artístico.",
+          de: "Die Kalligraphie verwendet Thuluth-Schrift, einen eleganten kursiven Stil arabischer Kalligraphie. Der Kalligraph Amanat Khan signierte sein Werk, eine seltene Ehre, die den hohen künstlerischen Wert anzeigt.",
+          nl: "De kalligrafie gebruikt Thuluth-schrift, een elegante cursieve stijl van Arabische kalligrafie. De kalligraaf Amanat Khan ondertekende zijn werk, een zeldzame eer die de hoge artistieke waarde aangeeft."
+        }
+      },
+      {
+        question: {
+          en: "What engineering technique was used to prevent the minarets from damaging the main tomb if they collapsed?",
+          es: "¿Qué técnica de ingeniería se utilizó para evitar que los minaretes dañaran la tumba principal si se derrumbaban?",
+          de: "Welche Ingenieurtechnik wurde verwendet, um zu verhindern, dass die Minarette das Hauptgrab bei einem Einsturz beschädigen?",
+          nl: "Welke technische techniek werd gebruikt om te voorkomen dat de minaretten het hoofdgraf zouden beschadigen als ze instortten?"
+        },
+        options: [
+          { en: "They were built shorter", es: "Se construyeron más cortos", de: "Sie wurden kürzer gebaut", nl: "Ze werden korter gebouwd" },
+          { en: "They lean outward slightly", es: "Se inclinan ligeramente hacia afuera", de: "Sie neigen sich leicht nach außen", nl: "Ze hellen licht naar buiten" },
+          { en: "They have internal supports", es: "Tienen soportes internos", de: "Sie haben innere Stützen", nl: "Ze hebben interne steunen" },
+          { en: "They are hollow", es: "Son huecos", de: "Sie sind hohl", nl: "Ze zijn hol" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The minarets are designed to lean slightly outward (away from the main structure). In case of an earthquake or collapse, they would fall away from the tomb rather than onto it, protecting the main monument.",
+          es: "Los minaretes están diseñados para inclinarse ligeramente hacia afuera (lejos de la estructura principal). En caso de terremoto o colapso, caerían alejándose de la tumba en lugar de sobre ella, protegiendo el monumento principal.",
+          de: "Die Minarette sind so konstruiert, dass sie sich leicht nach außen neigen (von der Hauptstruktur weg). Im Falle eines Erdbebens oder Einsturzes würden sie von der Grabstätte weg fallen, anstatt darauf, und so das Hauptmonument schützen.",
+          nl: "De minaretten zijn ontworpen om licht naar buiten te hellen (weg van de hoofdstructuur). In geval van een aardbeving of instorting zouden ze van het graf af vallen in plaats van erop, waardoor het hoofdmonument wordt beschermd."
+        }
+      },
+      {
+        question: {
+          en: "What is the significance of the lotus design on top of the main dome?",
+          es: "¿Cuál es el significado del diseño de loto en la parte superior de la cúpula principal?",
+          de: "Was ist die Bedeutung des Lotus-Designs auf der Hauptkuppel?",
+          nl: "Wat is de betekenis van het lotusontwerp bovenop de hoofdkoepel?"
+        },
+        options: [
+          { en: "Represents wealth", es: "Representa riqueza", de: "Repräsentiert Reichtum", nl: "Vertegenwoordigt rijkdom" },
+          { en: "Symbolizes purity and eternity", es: "Simboliza pureza y eternidad", de: "Symbolisiert Reinheit und Ewigkeit", nl: "Symboliseert zuiverheid en eeuwigheid" },
+          { en: "Indicates royal power", es: "Indica poder real", de: "Zeigt königliche Macht", nl: "Geeft koninklijke macht aan" },
+          { en: "Marks architectural innovation", es: "Marca innovación arquitectónica", de: "Kennzeichnet architektonische Innovation", nl: "Markeert architectonische innovatie" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The lotus design topped with a gilded finial symbolizes purity and eternity in both Hindu and Islamic traditions, representing the perfect union of different cultural influences in Mughal architecture.",
+          es: "El diseño de loto coronado con un remate dorado simboliza pureza y eternidad tanto en las tradiciones hindú como islámica, representando la unión perfecta de diferentes influencias culturales en la arquitectura mogol.",
+          de: "Das Lotus-Design mit einer vergoldeten Spitze symbolisiert Reinheit und Ewigkeit sowohl in hinduistischen als auch islamischen Traditionen und repräsentiert die perfekte Vereinigung verschiedener kultureller Einflüsse in der Mogul-Architektur.",
+          nl: "Het lotusontwerp met een vergulde top symboliseert zuiverheid en eeuwigheid in zowel hindoeïstische als islamitische tradities, en vertegenwoordigt de perfecte vereniging van verschillende culturele invloeden in Mogol-architectuur."
+        }
+      },
+      {
+        question: {
+          en: "What year did the Taj Mahal appear on Indian currency?",
+          es: "¿En qué año apareció el Taj Mahal en la moneda india?",
+          de: "In welchem Jahr erschien das Taj Mahal auf indischer Währung?",
+          nl: "In welk jaar verscheen de Taj Mahal op Indiase valuta?"
+        },
+        options: [
+          { en: "1947", es: "1947", de: "1947", nl: "1947" },
+          { en: "1969", es: "1969", de: "1969", nl: "1969" },
+          { en: "1983", es: "1983", de: "1983", nl: "1983" },
+          { en: "2007", es: "2007", de: "2007", nl: "2007" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Taj Mahal has been featured on Indian currency since 1969, appearing on various denominations of rupee notes, symbolizing India's rich cultural heritage and architectural achievement.",
+          es: "El Taj Mahal ha aparecido en la moneda india desde 1969, en varias denominaciones de billetes de rupia, simbolizando la rica herencia cultural y el logro arquitectónico de India.",
+          de: "Das Taj Mahal ist seit 1969 auf indischer Währung abgebildet und erscheint auf verschiedenen Stückelungen von Rupien-Scheinen, was Indiens reiches kulturelles Erbe und architektonische Leistung symbolisiert.",
+          nl: "De Taj Mahal staat sinds 1969 afgebeeld op Indiase valuta, op verschillende coupures van roepiebiljetten, als symbool van India's rijke culturele erfgoed en architectonische prestatie."
+        }
+      },
+      {
+        question: {
+          en: "What restrictions exist for visitors to the Taj Mahal?",
+          es: "¿Qué restricciones existen para los visitantes del Taj Mahal?",
+          de: "Welche Einschränkungen gibt es für Besucher des Taj Mahal?",
+          nl: "Welke beperkingen bestaan er voor bezoekers van de Taj Mahal?"
+        },
+        options: [
+          { en: "No photography allowed", es: "No se permite fotografía", de: "Fotografieren nicht erlaubt", nl: "Fotograferen niet toegestaan" },
+          { en: "Shoe covers or removal required", es: "Se requieren cubrezapatos o quitárselos", de: "Schuhüberzieher oder Entfernung erforderlich", nl: "Schoenbeschermers of verwijderen vereist" },
+          { en: "Only guided tours permitted", es: "Solo se permiten visitas guiadas", de: "Nur geführte Touren erlaubt", nl: "Alleen rondleidingen toegestaan" },
+          { en: "Maximum 2-hour visit limit", es: "Límite máximo de visita de 2 horas", de: "Maximale Besuchszeit 2 Stunden", nl: "Maximaal 2 uur bezoektijd" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Visitors must either wear shoe covers or remove their shoes before entering the main mausoleum platform to protect the marble from wear and damage. Other items like food and tobacco are also prohibited.",
+          es: "Los visitantes deben usar cubrezapatos o quitarse los zapatos antes de entrar a la plataforma del mausoleo principal para proteger el mármol del desgaste y daño. También están prohibidos otros artículos como comida y tabaco.",
+          de: "Besucher müssen entweder Schuhüberzieher tragen oder ihre Schuhe ausziehen, bevor sie die Hauptmausoleums-Plattform betreten, um den Marmor vor Abnutzung und Beschädigung zu schützen. Andere Gegenstände wie Essen und Tabak sind ebenfalls verboten.",
+          nl: "Bezoekers moeten schoenbeschermers dragen of hun schoenen uittrekken voordat ze het hoofdmausoleumplatform betreden om het marmer te beschermen tegen slijtage en schade. Andere items zoals voedsel en tabak zijn ook verboden."
+        }
+      },
+      {
+        question: {
+          en: "What historical period does the Taj Mahal represent?",
+          es: "¿Qué período histórico representa el Taj Mahal?",
+          de: "Welche historische Periode repräsentiert das Taj Mahal?",
+          nl: "Welke historische periode vertegenwoordigt de Taj Mahal?"
+        },
+        options: [
+          { en: "The golden age of Mughal architecture", es: "La edad de oro de la arquitectura mogol", de: "Das goldene Zeitalter der Mogul-Architektur", nl: "De gouden eeuw van Mogol-architectuur" },
+          { en: "The decline of Mughal power", es: "El declive del poder mogol", de: "Der Niedergang der Mogul-Macht", nl: "De neergang van Mogol-macht" },
+          { en: "The British colonial era", es: "La era colonial británica", de: "Die britische Kolonialzeit", nl: "Het Britse koloniale tijdperk" },
+          { en: "The post-independence period", es: "El período post-independencia", de: "Die Zeit nach der Unabhängigkeit", nl: "De periode na de onafhankelijkheid" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Taj Mahal represents the pinnacle of Mughal architecture during its golden age in the 17th century, combining Persian, Islamic, and Indian architectural elements in perfect harmony.",
+          es: "El Taj Mahal representa el pináculo de la arquitectura mogol durante su edad de oro en el siglo XVII, combinando elementos arquitectónicos persas, islámicos e indios en perfecta armonía.",
+          de: "Das Taj Mahal repräsentiert den Höhepunkt der Mogul-Architektur während ihres goldenen Zeitalters im 17. Jahrhundert und vereint persische, islamische und indische architektonische Elemente in perfekter Harmonie.",
+          nl: "De Taj Mahal vertegenwoordigt het hoogtepunt van Mogol-architectuur tijdens de gouden eeuw in de 17e eeuw, waarbij Perzische, islamitische en Indiase architectonische elementen in perfecte harmonie worden gecombineerd."
+        }
       }
     ]
   };

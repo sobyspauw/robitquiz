@@ -826,6 +826,47 @@
           de: "Konsolidierung bedeutet, einen Vorteil zu sichern und zu erhalten, indem Schwächen verteidigt, Figuren koordiniert und Gegenspiel verhindert wird, nachdem Material oder positioneller Vorteil gewonnen wurde.",
           nl: "Consolidatie betekent een voordeel veiligstellen en behouden door zwaktes te verdedigen, stukken te coördineren en tegenaanvallen te voorkomen na het winnen van materiaal of positioneel voordeel."
         }
+      },
+      {
+        question: {
+                  "en": "What is an 'isolated pawn' and why is it often a weakness?",
+                  "es": "¿Qué es un 'peón aislado' y por qué es a menudo una debilidad?",
+                  "de": "Was ist ein 'isolierter Bauer' und warum ist er oft eine Schwäche?",
+                  "nl": "Wat is een 'geïsoleerde pion' en waarom is het vaak een zwakte?"
+        },
+        options: [
+                  {
+                            "en": "Pawn with no friendly pawns on adjacent files; cannot be defended by pawns",
+                            "es": "Peón sin peones amigos en columnas adyacentes; no puede ser defendido por peones",
+                            "de": "Bauer ohne befreundete Bauern auf benachbarten Linien; kann nicht durch Bauern verteidigt werden",
+                            "nl": "Pion zonder eigen pionnen op aangrenzende lijnen; kan niet door pionnen verdedigd worden"
+                  },
+                  {
+                            "en": "Pawn on the edge of the board",
+                            "es": "Peón en el borde del tablero",
+                            "de": "Bauer am Brettrand",
+                            "nl": "Pion aan de rand van het bord"
+                  },
+                  {
+                            "en": "Pawn separated from the king",
+                            "es": "Peón separado del rey",
+                            "de": "Vom König getrennter Bauer",
+                            "nl": "Pion gescheiden van de koning"
+                  },
+                  {
+                            "en": "Backward pawn",
+                            "es": "Peón retrasado",
+                            "de": "Rückständiger Bauer",
+                            "nl": "Achtergebleven pion"
+                  }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "An isolated pawn has no friendly pawns on adjacent files, making it impossible to defend with pawns. It often becomes a target, though it can provide space and active piece play.",
+                  "es": "Un peón aislado no tiene peones amigos en columnas adyacentes, lo que hace imposible defenderlo con peones. A menudo se convierte en un objetivo, aunque puede proporcionar espacio y juego activo de piezas.",
+                  "de": "Ein isolierter Bauer hat keine befreundeten Bauern auf benachbarten Linien, was eine Verteidigung durch Bauern unmöglich macht. Er wird oft zum Ziel, kann aber Raum und aktives Figurenspiel bieten.",
+                  "nl": "Een geïsoleerde pion heeft geen eigen pionnen op aangrenzende lijnen, waardoor verdediging door pionnen onmogelijk is. Het wordt vaak een doelwit, hoewel het ruimte en actief stukkenspel kan bieden."
+        }
       }
     ]
   };

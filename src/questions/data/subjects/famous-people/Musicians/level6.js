@@ -19,28 +19,7 @@
           { en: "Miles Davis", es: "Miles Davis", de: "Miles Davis", nl: "Miles Davis" },
           { en: "Dizzy Gillespie", es: "Dizzy Gillespie", de: "Dizzy Gillespie", nl: "Dizzy Gillespie" },
           { en: "Louis Armstrong", es: "Louis Armstrong", de: "Louis Armstrong", nl: "Louis Armstrong" },
-          { en: "Chet Baker", es: "Chet Baker", de: "Chet Baker", nl: "Chet Baker" },
-        {
-            question: {
-                en: "Which composer suffered from severe hearing loss and was completely deaf by the end of his life?",
-                es: "¿Qué compositor sufrió una severa pérdida auditiva y estaba completamente sordo al final de su vida?",
-                de: "Welcher Komponist litt unter schwerem Hörverlust und war am Ende seines Lebens vollständig taub?",
-                nl: "Welke componist leed aan ernstig gehoorverlies en was volledig doof aan het einde van zijn leven?"
-            },
-            options: [
-                { en: "Ludwig van Beethoven", es: "Ludwig van Beethoven", de: "Ludwig van Beethoven", nl: "Ludwig van Beethoven" },
-                { en: "Wolfgang Amadeus Mozart", es: "Wolfgang Amadeus Mozart", de: "Wolfgang Amadeus Mozart", nl: "Wolfgang Amadeus Mozart" },
-                { en: "Franz Schubert", es: "Franz Schubert", de: "Franz Schubert", nl: "Franz Schubert" },
-                { en: "Johannes Brahms", es: "Johannes Brahms", de: "Johannes Brahms", nl: "Johannes Brahms" }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Ludwig van Beethoven began losing his hearing in his late 20s and was almost completely deaf by 1814. Despite this, he composed some of his greatest works including the Ninth Symphony while completely deaf, conducting its premiere in 1824 without being able to hear it.",
-                es: "Ludwig van Beethoven comenzó a perder la audición a finales de sus 20 años y estaba casi completamente sordo en 1814. A pesar de esto, compuso algunas de sus mejores obras incluyendo la Novena Sinfonía mientras estaba completamente sordo, dirigiendo su estreno en 1824 sin poder oírla.",
-                de: "Ludwig van Beethoven begann Ende seiner 20er Jahre sein Gehör zu verlieren und war bis 1814 fast vollständig taub. Trotzdem komponierte er einige seiner größten Werke einschließlich der Neunten Symphonie während er vollständig taub war und dirigierte 1824 ihre Uraufführung, ohne sie hören zu können.",
-                nl: "Ludwig van Beethoven begon zijn gehoor te verliezen tegen het einde van zijn 20e levensjaar en was tegen 1814 bijna volledig doof. Ondanks dit componeerde hij enkele van zijn grootste werken waaronder de Negende Symfonie terwijl hij volledig doof was, en dirigeerde hij de première ervan in 1824 zonder het te kunnen horen."
-            }
-        }
+          { en: "Chet Baker", es: "Chet Baker", de: "Chet Baker", nl: "Chet Baker" }
         ],
         correct: 0,
         explanation: {
@@ -325,23 +304,23 @@
       },
       {
         question: {
-          en: "Which New Orleans jazz clarinetist was known as 'King Oliver'?",
-          es: "¿Qué clarinetista de jazz de Nueva Orleans era conocido como 'King Oliver'?",
-          de: "Welcher New Orleans Jazz-Klarinettist war als 'King Oliver' bekannt?",
-          nl: "Welke New Orleans jazz-klarinettist stond bekend als 'King Oliver'?"
+          en: "Which New Orleans jazz cornetist was known as 'King Oliver'?",
+          es: "¿Qué corneta de jazz de Nueva Orleans era conocido como 'King Oliver'?",
+          de: "Welcher New Orleans Jazz-Kornettist war als 'King Oliver' bekannt?",
+          nl: "Welke New Orleans jazz-cornettist stond bekend als 'King Oliver'?"
         },
         options: [
-          { en: "Joe Oliver (Cornet)", es: "Joe Oliver (Corneta)", de: "Joe Oliver (Kornett)", nl: "Joe Oliver (Cornet)" },
+          { en: "Joe Oliver", es: "Joe Oliver", de: "Joe Oliver", nl: "Joe Oliver" },
           { en: "Sidney Bechet", es: "Sidney Bechet", de: "Sidney Bechet", nl: "Sidney Bechet" },
           { en: "Johnny Dodds", es: "Johnny Dodds", de: "Johnny Dodds", nl: "Johnny Dodds" },
           { en: "Jimmie Noone", es: "Jimmie Noone", de: "Jimmie Noone", nl: "Jimmie Noone" }
         ],
         correct: 0,
         explanation: {
-          en: "Joe 'King' Oliver was actually a cornet player, not clarinet, who led one of the most important early jazz bands. He mentored Louis Armstrong and helped spread jazz from New Orleans to Chicago.",
-          es: "Joe 'King' Oliver era en realidad un corneta, no clarinetista, que dirigió una de las bandas de jazz temprano más importantes. Fue mentor de Louis Armstrong y ayudó a extender el jazz de Nueva Orleans a Chicago.",
-          de: "Joe 'King' Oliver war eigentlich ein Kornett-Spieler, nicht Klarinettist, der eine der wichtigsten frühen Jazz-Bands leitete. Er war Louis Armstrongs Mentor und half dabei, Jazz von New Orleans nach Chicago zu verbreiten.",
-          nl: "Joe 'King' Oliver was eigenlijk een cornet-speler, geen klarinettist, die een van de belangrijkste vroege jazz-bands leidde. Hij was mentor van Louis Armstrong en hielp jazz van New Orleans naar Chicago te verspreiden."
+          en: "Joe 'King' Oliver was a cornet player who led one of the most important early jazz bands. He mentored Louis Armstrong and helped spread jazz from New Orleans to Chicago.",
+          es: "Joe 'King' Oliver fue un corneta que dirigió una de las bandas de jazz temprano más importantes. Fue mentor de Louis Armstrong y ayudó a extender el jazz de Nueva Orleans a Chicago.",
+          de: "Joe 'King' Oliver war ein Kornett-Spieler, der eine der wichtigsten frühen Jazz-Bands leitete. Er war Louis Armstrongs Mentor und half dabei, Jazz von New Orleans nach Chicago zu verbreiten.",
+          nl: "Joe 'King' Oliver was een cornet-speler die een van de belangrijkste vroege jazz-bands leidde. Hij was mentor van Louis Armstrong en hielp jazz van New Orleans naar Chicago te verspreiden."
         }
       },
       {
@@ -426,6 +405,321 @@
           es: "El Festival de Blues de Chicago, celebrado anualmente en Grant Park, se convirtió en el festival de blues gratuito más grande del mundo y la vitrina más importante para artistas de blues, celebrando el patrimonio blues de la ciudad.",
           de: "Das Chicago Blues Festival, jährlich im Grant Park abgehalten, wurde zum weltweit größten kostenlosen Blues-Festival und zur wichtigsten Bühne für Blues-Künstler, das das Blues-Erbe der Stadt feiert.",
           nl: "Het Chicago Blues Festival, jaarlijks gehouden in Grant Park, werd het grootste gratis blues-festival ter wereld en de belangrijkste showcase voor blues-artiesten, ter viering van het blues-erfgoed van de stad."
+        }
+      },
+      {
+        question: {
+          en: "Which jazz pianist was known for his incredible speed and virtuosity?",
+          es: "¿Qué pianista de jazz era conocido por su increíble velocidad y virtuosismo?",
+          de: "Welcher Jazz-Pianist war für seine unglaubliche Geschwindigkeit und Virtuosität bekannt?",
+          nl: "Welke jazz-pianist stond bekend om zijn ongelooflijke snelheid en virtuositeit?"
+        },
+        options: [
+          { en: "Art Tatum", es: "Art Tatum", de: "Art Tatum", nl: "Art Tatum" },
+          { en: "Bud Powell", es: "Bud Powell", de: "Bud Powell", nl: "Bud Powell" },
+          { en: "McCoy Tyner", es: "McCoy Tyner", de: "McCoy Tyner", nl: "McCoy Tyner" },
+          { en: "Herbie Hancock", es: "Herbie Hancock", de: "Herbie Hancock", nl: "Herbie Hancock" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Art Tatum is considered one of the greatest jazz pianists ever, known for his superhuman technical ability and lightning-fast runs. Despite being nearly blind, his virtuosity influenced generations of pianists.",
+          es: "Art Tatum es considerado uno de los mejores pianistas de jazz de todos los tiempos, conocido por su habilidad técnica sobrehumana y escalas ultrarrápidas. A pesar de ser casi ciego, su virtuosismo influyó generaciones de pianistas.",
+          de: "Art Tatum gilt als einer der größten Jazz-Pianisten überhaupt, bekannt für seine übermenschliche technische Fähigkeit und blitzschnelle Läufe. Trotz fast völliger Blindheit beeinflusste seine Virtuosität Generationen von Pianisten.",
+          nl: "Art Tatum wordt beschouwd als een van de grootste jazz-pianisten ooit, bekend om zijn bovenmenselijke technische vaardigheid en bliksemssnelle runs. Ondanks dat hij bijna blind was, beïnvloedde zijn virtuositeit generaties pianisten."
+        }
+      },
+      {
+        question: {
+          en: "Which blues guitarist was known for playing slide guitar and wrote 'The Sky Is Crying'?",
+          es: "¿Qué guitarrista de blues era conocido por tocar slide guitar y escribió 'The Sky Is Crying'?",
+          de: "Welcher Blues-Gitarrist war für Slide-Gitarre bekannt und schrieb 'The Sky Is Crying'?",
+          nl: "Welke blues-gitarist stond bekend om het spelen van slide guitar en schreef 'The Sky Is Crying'?"
+        },
+        options: [
+          { en: "Elmore James", es: "Elmore James", de: "Elmore James", nl: "Elmore James" },
+          { en: "Albert King", es: "Albert King", de: "Albert King", nl: "Albert King" },
+          { en: "Freddie King", es: "Freddie King", de: "Freddie King", nl: "Freddie King" },
+          { en: "Albert Collins", es: "Albert Collins", de: "Albert Collins", nl: "Albert Collins" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Elmore James was the master of slide guitar and electric blues. His signature song 'Dust My Broom' and 'The Sky Is Crying' showcased his distinctive slide guitar style that influenced rock guitarists for decades.",
+          es: "Elmore James fue el maestro de la slide guitar y el blues eléctrico. Su canción distintiva 'Dust My Broom' y 'The Sky Is Crying' mostraron su estilo distintivo de slide guitar que influyó a guitarristas de rock por décadas.",
+          de: "Elmore James war der Meister der Slide-Gitarre und des elektrischen Blues. Seine charakteristischen Songs 'Dust My Broom' und 'The Sky Is Crying' zeigten seinen unverwechselbaren Slide-Gitarren-Stil, der Rockgitarristen jahrzehntelang beeinflusste.",
+          nl: "Elmore James was de meester van de slide guitar en elektrische blues. Zijn kenmerkende lied 'Dust My Broom' en 'The Sky Is Crying' toonden zijn onderscheidende slide guitar stijl die rockgitaristen decennialang beïnvloedde."
+        }
+      },
+      {
+        question: {
+          en: "Which jazz saxophonist was known for 'Giant Steps' and his 'sheets of sound' technique?",
+          es: "¿Qué saxofonista de jazz era conocido por 'Giant Steps' y su técnica de 'hojas de sonido'?",
+          de: "Welcher Jazz-Saxophonist war für 'Giant Steps' und seine 'Klangwände'-Technik bekannt?",
+          nl: "Welke jazz-saxofonist stond bekend om 'Giant Steps' en zijn 'sheets of sound' techniek?"
+        },
+        options: [
+          { en: "John Coltrane", es: "John Coltrane", de: "John Coltrane", nl: "John Coltrane" },
+          { en: "Cannonball Adderley", es: "Cannonball Adderley", de: "Cannonball Adderley", nl: "Cannonball Adderley" },
+          { en: "Wayne Shorter", es: "Wayne Shorter", de: "Wayne Shorter", nl: "Wayne Shorter" },
+          { en: "Dexter Gordon", es: "Dexter Gordon", de: "Dexter Gordon", nl: "Dexter Gordon" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "John Coltrane developed the 'sheets of sound' technique, playing cascades of notes at incredible speed. 'Giant Steps' (1960) featured complex chord progressions that became a benchmark for jazz musicians.",
+          es: "John Coltrane desarrolló la técnica de 'hojas de sonido', tocando cascadas de notas a velocidad increíble. 'Giant Steps' (1960) presentó progresiones de acordes complejas que se convirtieron en un punto de referencia para músicos de jazz.",
+          de: "John Coltrane entwickelte die 'Klangwände'-Technik und spielte Kaskaden von Noten mit unglaublicher Geschwindigkeit. 'Giant Steps' (1960) zeigte komplexe Akkordfolgen, die zum Maßstab für Jazzmusiker wurden.",
+          nl: "John Coltrane ontwikkelde de 'sheets of sound' techniek, waarbij hij cascades van noten met ongelooflijke snelheid speelde. 'Giant Steps' (1960) bevatte complexe akkoordprogressies die een maatstaf werden voor jazz-muzikanten."
+        }
+      },
+      {
+        question: {
+          en: "Which blues singer was known as 'The Mother of the Blues'?",
+          es: "¿Qué cantante de blues era conocida como 'La Madre del Blues'?",
+          de: "Welche Blues-Sängerin war als 'Die Mutter des Blues' bekannt?",
+          nl: "Welke blues-zangeres stond bekend als 'De Moeder van de Blues'?"
+        },
+        options: [
+          { en: "Ma Rainey", es: "Ma Rainey", de: "Ma Rainey", nl: "Ma Rainey" },
+          { en: "Bessie Smith", es: "Bessie Smith", de: "Bessie Smith", nl: "Bessie Smith" },
+          { en: "Memphis Minnie", es: "Memphis Minnie", de: "Memphis Minnie", nl: "Memphis Minnie" },
+          { en: "Big Mama Thornton", es: "Big Mama Thornton", de: "Big Mama Thornton", nl: "Big Mama Thornton" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ma Rainey (Gertrude Pridgett) was one of the earliest professional blues singers and was called 'The Mother of the Blues'. She began performing in the early 1900s and influenced countless blues and jazz vocalists.",
+          es: "Ma Rainey (Gertrude Pridgett) fue una de las primeras cantantes profesionales de blues y fue llamada 'La Madre del Blues'. Comenzó a actuar a principios de 1900 e influyó a innumerables vocalistas de blues y jazz.",
+          de: "Ma Rainey (Gertrude Pridgett) war eine der frühesten professionellen Blues-Sängerinnen und wurde 'Die Mutter des Blues' genannt. Sie begann in den frühen 1900er Jahren aufzutreten und beeinflusste unzählige Blues- und Jazz-Vokalistinnen.",
+          nl: "Ma Rainey (Gertrude Pridgett) was een van de vroegste professionele blues-zangeressen en werd 'De Moeder van de Blues' genoemd. Ze begon op te treden in de vroege jaren 1900 en beïnvloedde talloze blues- en jazz-vocalisten."
+        }
+      },
+      {
+        question: {
+          en: "Which jazz trumpeter was known for his bent trumpet and unique cheek puffing technique?",
+          es: "¿Qué trompetista de jazz era conocido por su trompeta doblada y técnica única de inflar las mejillas?",
+          de: "Welcher Jazz-Trompeter war für seine gebogene Trompete und einzigartige Backenaufblas-Technik bekannt?",
+          nl: "Welke jazz-trompettist stond bekend om zijn gebogen trompet en unieke wangopblaas-techniek?"
+        },
+        options: [
+          { en: "Dizzy Gillespie", es: "Dizzy Gillespie", de: "Dizzy Gillespie", nl: "Dizzy Gillespie" },
+          { en: "Clifford Brown", es: "Clifford Brown", de: "Clifford Brown", nl: "Clifford Brown" },
+          { en: "Lee Morgan", es: "Lee Morgan", de: "Lee Morgan", nl: "Lee Morgan" },
+          { en: "Freddie Hubbard", es: "Freddie Hubbard", de: "Freddie Hubbard", nl: "Freddie Hubbard" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dizzy Gillespie was a bebop pioneer known for his bent trumpet (45-degree angle), distinctive puffed cheeks when playing, and innovative harmonic concepts. He helped develop Afro-Cuban jazz with songs like 'A Night in Tunisia'.",
+          es: "Dizzy Gillespie fue un pionero del bebop conocido por su trompeta doblada (ángulo de 45 grados), mejillas hinchadas distintivas al tocar y conceptos armónicos innovadores. Ayudó a desarrollar el jazz afrocubano con canciones como 'A Night in Tunisia'.",
+          de: "Dizzy Gillespie war ein Bebop-Pionier, bekannt für seine gebogene Trompete (45-Grad-Winkel), charakteristische aufgeblasene Wangen beim Spielen und innovative harmonische Konzepte. Er half bei der Entwicklung des afro-kubanischen Jazz mit Liedern wie 'A Night in Tunisia'.",
+          nl: "Dizzy Gillespie was een bebop-pionier bekend om zijn gebogen trompet (45-graden hoek), onderscheidende opgepompte wangen tijdens het spelen en innovatieve harmonische concepten. Hij hielp Afro-Cubaanse jazz te ontwikkelen met liedjes zoals 'A Night in Tunisia'."
+        }
+      },
+      {
+        question: {
+          en: "Which blues musician was known for his distinctive guitar sound on Texas blues?",
+          es: "¿Qué músico de blues era conocido por su sonido distintivo de guitarra en el Texas blues?",
+          de: "Welcher Blues-Musiker war für seinen charakteristischen Gitarrensound im Texas Blues bekannt?",
+          nl: "Welke blues-muzikant stond bekend om zijn onderscheidende gitaargeluid in Texas blues?"
+        },
+        options: [
+          { en: "Stevie Ray Vaughan", es: "Stevie Ray Vaughan", de: "Stevie Ray Vaughan", nl: "Stevie Ray Vaughan" },
+          { en: "Johnny Winter", es: "Johnny Winter", de: "Johnny Winter", nl: "Johnny Winter" },
+          { en: "Eric Johnson", es: "Eric Johnson", de: "Eric Johnson", nl: "Eric Johnson" },
+          { en: "Billy Gibbons", es: "Billy Gibbons", de: "Billy Gibbons", nl: "Billy Gibbons" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Stevie Ray Vaughan revitalized blues music in the 1980s with his powerful Texas blues style. His virtuosic guitar playing on albums like 'Texas Flood' inspired a new generation of blues musicians.",
+          es: "Stevie Ray Vaughan revitalizó la música blues en los años 80 con su poderoso estilo Texas blues. Su virtuoso toque de guitarra en álbumes como 'Texas Flood' inspiró una nueva generación de músicos de blues.",
+          de: "Stevie Ray Vaughan belebte die Blues-Musik in den 1980er Jahren mit seinem kraftvollen Texas Blues-Stil wieder. Sein virtuoses Gitarrenspiel auf Alben wie 'Texas Flood' inspirierte eine neue Generation von Blues-Musikern.",
+          nl: "Stevie Ray Vaughan gaf de bluesmuziek nieuw leven in de jaren '80 met zijn krachtige Texas blues-stijl. Zijn virtuoze gitaarspel op albums zoals 'Texas Flood' inspireerde een nieuwe generatie blues-muzikanten."
+        }
+      },
+      {
+        question: {
+          en: "Which jazz pianist was known for his impressionistic style and work with Miles Davis on 'Kind of Blue'?",
+          es: "¿Qué pianista de jazz era conocido por su estilo impresionista y trabajo con Miles Davis en 'Kind of Blue'?",
+          de: "Welcher Jazz-Pianist war für seinen impressionistischen Stil und seine Arbeit mit Miles Davis an 'Kind of Blue' bekannt?",
+          nl: "Welke jazz-pianist stond bekend om zijn impressionistische stijl en werk met Miles Davis op 'Kind of Blue'?"
+        },
+        options: [
+          { en: "Bill Evans", es: "Bill Evans", de: "Bill Evans", nl: "Bill Evans" },
+          { en: "Wynton Kelly", es: "Wynton Kelly", de: "Wynton Kelly", nl: "Wynton Kelly" },
+          { en: "Red Garland", es: "Red Garland", de: "Red Garland", nl: "Red Garland" },
+          { en: "Tommy Flanagan", es: "Tommy Flanagan", de: "Tommy Flanagan", nl: "Tommy Flanagan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bill Evans was known for his lyrical, impressionistic piano style. His work on Miles Davis's 'Kind of Blue' and his own trio recordings revolutionized jazz piano with his sophisticated harmonic approach and introspective sound.",
+          es: "Bill Evans era conocido por su estilo de piano lírico e impresionista. Su trabajo en 'Kind of Blue' de Miles Davis y sus propias grabaciones de trío revolucionaron el piano de jazz con su enfoque armónico sofisticado y sonido introspectivo.",
+          de: "Bill Evans war bekannt für seinen lyrischen, impressionistischen Klavierstil. Seine Arbeit an Miles Davis' 'Kind of Blue' und seine eigenen Trio-Aufnahmen revolutionierten das Jazz-Klavier mit seinem raffinierten harmonischen Ansatz und introspektiven Klang.",
+          nl: "Bill Evans stond bekend om zijn lyrische, impressionistische pianostijl. Zijn werk op Miles Davis' 'Kind of Blue' en zijn eigen trio-opnames revolutioneerden jazz-piano met zijn verfijnde harmonische benadering en introspectieve geluid."
+        }
+      },
+      {
+        question: {
+          en: "Which blues harmonica player was known as 'Sonny Boy Williamson II'?",
+          es: "¿Qué armonicista de blues era conocido como 'Sonny Boy Williamson II'?",
+          de: "Welcher Blues-Harmonikaspieler war als 'Sonny Boy Williamson II' bekannt?",
+          nl: "Welke blues-mondharmonicaspeler stond bekend als 'Sonny Boy Williamson II'?"
+        },
+        options: [
+          { en: "Rice Miller", es: "Rice Miller", de: "Rice Miller", nl: "Rice Miller" },
+          { en: "John Lee Williamson", es: "John Lee Williamson", de: "John Lee Williamson", nl: "John Lee Williamson" },
+          { en: "Sonny Terry", es: "Sonny Terry", de: "Sonny Terry", nl: "Sonny Terry" },
+          { en: "Junior Wells", es: "Junior Wells", de: "Junior Wells", nl: "Junior Wells" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Rice Miller performed as 'Sonny Boy Williamson II' (the original was John Lee Williamson). He was one of the most influential blues harmonica players and hosted the 'King Biscuit Time' radio show, one of the first to feature blues music.",
+          es: "Rice Miller actuó como 'Sonny Boy Williamson II' (el original fue John Lee Williamson). Fue uno de los armonicistas de blues más influyentes y presentó el programa de radio 'King Biscuit Time', uno de los primeros en presentar música blues.",
+          de: "Rice Miller trat als 'Sonny Boy Williamson II' auf (das Original war John Lee Williamson). Er war einer der einflussreichsten Blues-Harmonikaspieler und moderierte die Radiosendung 'King Biscuit Time', eine der ersten, die Blues-Musik präsentierte.",
+          nl: "Rice Miller trad op als 'Sonny Boy Williamson II' (het origineel was John Lee Williamson). Hij was een van de meest invloedrijke blues-mondharmonicaspelers en presenteerde de radioshow 'King Biscuit Time', een van de eerste die bluesmuziek presenteerde."
+        }
+      },
+      {
+        question: {
+          en: "Which jazz saxophonist was known for free jazz and his album 'The Shape of Jazz to Come'?",
+          es: "¿Qué saxofonista de jazz era conocido por el free jazz y su álbum 'The Shape of Jazz to Come'?",
+          de: "Welcher Jazz-Saxophonist war für Free Jazz und sein Album 'The Shape of Jazz to Come' bekannt?",
+          nl: "Welke jazz-saxofonist stond bekend om free jazz en zijn album 'The Shape of Jazz to Come'?"
+        },
+        options: [
+          { en: "Ornette Coleman", es: "Ornette Coleman", de: "Ornette Coleman", nl: "Ornette Coleman" },
+          { en: "Eric Dolphy", es: "Eric Dolphy", de: "Eric Dolphy", nl: "Eric Dolphy" },
+          { en: "Albert Ayler", es: "Albert Ayler", de: "Albert Ayler", nl: "Albert Ayler" },
+          { en: "Pharoah Sanders", es: "Pharoah Sanders", de: "Pharoah Sanders", nl: "Pharoah Sanders" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ornette Coleman was a pioneer of free jazz, breaking traditional jazz conventions with his 1959 album 'The Shape of Jazz to Come'. His approach to improvisation without predetermined chord progressions revolutionized jazz.",
+          es: "Ornette Coleman fue un pionero del free jazz, rompiendo las convenciones tradicionales del jazz con su álbum de 1959 'The Shape of Jazz to Come'. Su enfoque de improvisación sin progresiones de acordes predeterminadas revolucionó el jazz.",
+          de: "Ornette Coleman war ein Pionier des Free Jazz und brach mit seinem Album 'The Shape of Jazz to Come' von 1959 traditionelle Jazz-Konventionen. Sein Ansatz zur Improvisation ohne vorgegebene Akkordfolgen revolutionierte den Jazz.",
+          nl: "Ornette Coleman was een pionier van free jazz, die traditionele jazz-conventies doorbrak met zijn album 'The Shape of Jazz to Come' uit 1959. Zijn benadering van improvisatie zonder vooraf bepaalde akkoordprogressies revolutioneerde jazz."
+        }
+      },
+      {
+        question: {
+          en: "Which blues guitarist was known for his left-handed playing and 'flying V' guitar?",
+          es: "¿Qué guitarrista de blues era conocido por tocar zurdo y su guitarra 'flying V'?",
+          de: "Welcher Blues-Gitarrist war für sein linkshändiges Spiel und seine 'Flying V'-Gitarre bekannt?",
+          nl: "Welke blues-gitarist stond bekend om zijn linkshandig spel en 'flying V' gitaar?"
+        },
+        options: [
+          { en: "Albert King", es: "Albert King", de: "Albert King", nl: "Albert King" },
+          { en: "Freddie King", es: "Freddie King", de: "Freddie King", nl: "Freddie King" },
+          { en: "B.B. King", es: "B.B. King", de: "B.B. King", nl: "B.B. King" },
+          { en: "Buddy Guy", es: "Buddy Guy", de: "Buddy Guy", nl: "Buddy Guy" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Albert King played a Gibson Flying V guitar left-handed but with the strings upside down. His powerful string bending and unique tone on songs like 'Born Under a Bad Sign' influenced countless rock and blues guitarists.",
+          es: "Albert King tocaba una guitarra Gibson Flying V zurda pero con las cuerdas al revés. Su poderoso bend de cuerdas y tono único en canciones como 'Born Under a Bad Sign' influyó a innumerables guitarristas de rock y blues.",
+          de: "Albert King spielte eine Gibson Flying V Gitarre linkshändig, aber mit den Saiten verkehrt herum. Sein kraftvolles Saitenbending und einzigartiger Ton auf Songs wie 'Born Under a Bad Sign' beeinflussten unzählige Rock- und Blues-Gitarristen.",
+          nl: "Albert King speelde een Gibson Flying V gitaar linkshandig maar met de snaren ondersteboven. Zijn krachtige string bending en unieke toon op nummers zoals 'Born Under a Bad Sign' beïnvloedden talloze rock- en blues-gitaristen."
+        }
+      },
+      {
+        question: {
+          en: "Which jazz trombonist was known for his innovative use of the plunger mute?",
+          es: "¿Qué trombonista de jazz era conocido por su uso innovador del plunger mute?",
+          de: "Welcher Jazz-Posaunist war für seine innovative Verwendung des Plunger-Dämpfers bekannt?",
+          nl: "Welke jazz-trombonist stond bekend om zijn innovatieve gebruik van de plunger mute?"
+        },
+        options: [
+          { en: "J.J. Johnson", es: "J.J. Johnson", de: "J.J. Johnson", nl: "J.J. Johnson" },
+          { en: "Slide Hampton", es: "Slide Hampton", de: "Slide Hampton", nl: "Slide Hampton" },
+          { en: "Curtis Fuller", es: "Curtis Fuller", de: "Curtis Fuller", nl: "Curtis Fuller" },
+          { en: "Kai Winding", es: "Kai Winding", de: "Kai Winding", nl: "Kai Winding" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "J.J. Johnson revolutionized jazz trombone by bringing bebop techniques to the instrument. His smooth, fast playing proved the trombone could be as agile as the saxophone in modern jazz.",
+          es: "J.J. Johnson revolucionó el trombón de jazz trayendo técnicas bebop al instrumento. Su toque suave y rápido probó que el trombón podía ser tan ágil como el saxofón en el jazz moderno.",
+          de: "J.J. Johnson revolutionierte die Jazz-Posaune, indem er Bebop-Techniken auf das Instrument brachte. Sein geschmeidiges, schnelles Spiel bewies, dass die Posaune im modernen Jazz genauso beweglich sein kann wie das Saxophon.",
+          nl: "J.J. Johnson revolutioneerde de jazz-trombone door bebop-technieken naar het instrument te brengen. Zijn soepele, snelle spel bewees dat de trombone net zo wendbaar kon zijn als de saxofoon in moderne jazz."
+        }
+      },
+      {
+        question: {
+          en: "Which blues singer was known as 'The Empress of Soul' and recorded 'I'd Rather Go Blind'?",
+          es: "¿Qué cantante de blues era conocida como 'La Emperatriz del Soul' y grabó 'I'd Rather Go Blind'?",
+          de: "Welche Blues-Sängerin war als 'Kaiserin des Soul' bekannt und nahm 'I'd Rather Go Blind' auf?",
+          nl: "Welke blues-zangeres stond bekend als 'De Keizerin van Soul' en nam 'I'd Rather Go Blind' op?"
+        },
+        options: [
+          { en: "Etta James", es: "Etta James", de: "Etta James", nl: "Etta James" },
+          { en: "Aretha Franklin", es: "Aretha Franklin", de: "Aretha Franklin", nl: "Aretha Franklin" },
+          { en: "Gladys Knight", es: "Gladys Knight", de: "Gladys Knight", nl: "Gladys Knight" },
+          { en: "Mavis Staples", es: "Mavis Staples", de: "Mavis Staples", nl: "Mavis Staples" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Etta James was known for her powerful voice that crossed R&B, blues, soul, and rock. Her emotional performances of songs like 'At Last' and 'I'd Rather Go Blind' showcased her incredible vocal range and emotional depth.",
+          es: "Etta James era conocida por su voz poderosa que cruzaba R&B, blues, soul y rock. Sus interpretaciones emocionales de canciones como 'At Last' y 'I'd Rather Go Blind' mostraron su increíble rango vocal y profundidad emocional.",
+          de: "Etta James war bekannt für ihre kraftvolle Stimme, die R&B, Blues, Soul und Rock überbrückte. Ihre emotionalen Darbietungen von Liedern wie 'At Last' und 'I'd Rather Go Blind' zeigten ihre unglaubliche Stimmreichweite und emotionale Tiefe.",
+          nl: "Etta James stond bekend om haar krachtige stem die R&B, blues, soul en rock combineerde. Haar emotionele uitvoeringen van nummers zoals 'At Last' en 'I'd Rather Go Blind' toonden haar ongelooflijke stembereik en emotionele diepgang."
+        }
+      },
+      {
+        question: {
+          en: "Which jazz composer wrote 'Take the A Train'?",
+          es: "¿Qué compositor de jazz escribió 'Take the A Train'?",
+          de: "Welcher Jazz-Komponist schrieb 'Take the A Train'?",
+          de: "Welke jazz-componist schreef 'Take the A Train'?"
+        },
+        options: [
+          { en: "Billy Strayhorn", es: "Billy Strayhorn", de: "Billy Strayhorn", nl: "Billy Strayhorn" },
+          { en: "Duke Ellington", es: "Duke Ellington", de: "Duke Ellington", nl: "Duke Ellington" },
+          { en: "Count Basie", es: "Count Basie", de: "Count Basie", nl: "Count Basie" },
+          { en: "Fletcher Henderson", es: "Fletcher Henderson", de: "Fletcher Henderson", nl: "Fletcher Henderson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Billy Strayhorn composed 'Take the A Train', which became the signature tune of Duke Ellington's orchestra. Strayhorn was Ellington's longtime collaborator and arranged many of the band's most famous pieces.",
+          es: "Billy Strayhorn compuso 'Take the A Train', que se convirtió en la melodía distintiva de la orquesta de Duke Ellington. Strayhorn fue el colaborador de largo plazo de Ellington y arregló muchas de las piezas más famosas de la banda.",
+          de: "Billy Strayhorn komponierte 'Take the A Train', das zur Erkennungsmelodie von Duke Ellingtons Orchester wurde. Strayhorn war Ellingtons langjähriger Mitarbeiter und arrangierte viele der berühmtesten Stücke der Band.",
+          nl: "Billy Strayhorn componeerde 'Take the A Train', dat het kenmerkende nummer werd van Duke Ellington's orkest. Strayhorn was Ellington's langdurige medewerker en arrangeerde veel van de beroemdste stukken van de band."
+        }
+      },
+      {
+        question: {
+          en: "Which blues musician was known for his work with the slide guitar and the song 'Statesboro Blues'?",
+          es: "¿Qué músico de blues era conocido por su trabajo con la slide guitar y la canción 'Statesboro Blues'?",
+          de: "Welcher Blues-Musiker war für seine Arbeit mit der Slide-Gitarre und dem Lied 'Statesboro Blues' bekannt?",
+          nl: "Welke blues-muzikant stond bekend om zijn werk met de slide guitar en het nummer 'Statesboro Blues'?"
+        },
+        options: [
+          { en: "Blind Willie McTell", es: "Blind Willie McTell", de: "Blind Willie McTell", nl: "Blind Willie McTell" },
+          { en: "Tampa Red", es: "Tampa Red", de: "Tampa Red", nl: "Tampa Red" },
+          { en: "Kokomo Arnold", es: "Kokomo Arnold", de: "Kokomo Arnold", nl: "Kokomo Arnold" },
+          { en: "Casey Bill Weldon", es: "Casey Bill Weldon", de: "Casey Bill Weldon", nl: "Casey Bill Weldon" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Blind Willie McTell was a Piedmont blues guitarist known for his virtuosic 12-string guitar playing and distinctive voice. His 'Statesboro Blues' was later covered by the Allman Brothers Band and became a Southern rock classic.",
+          es: "Blind Willie McTell fue un guitarrista de Piedmont blues conocido por su virtuoso toque de guitarra de 12 cuerdas y voz distintiva. Su 'Statesboro Blues' fue posteriormente versionado por Allman Brothers Band y se convirtió en un clásico del Southern rock.",
+          de: "Blind Willie McTell war ein Piedmont Blues-Gitarrist, bekannt für sein virtuoses 12-saitiges Gitarrenspiel und seine unverwechselbare Stimme. Sein 'Statesboro Blues' wurde später von der Allman Brothers Band gecovert und wurde zu einem Southern Rock-Klassiker.",
+          nl: "Blind Willie McTell was een Piedmont blues-gitarist bekend om zijn virtuoze 12-snarige gitaarspel en onderscheidende stem. Zijn 'Statesboro Blues' werd later gecoverd door de Allman Brothers Band en werd een Southern rock-klassieker."
+        }
+      },
+      {
+        question: {
+          en: "Which jazz bandleader was known as 'The Duke' and composed 'Mood Indigo'?",
+          es: "¿Qué líder de banda de jazz era conocido como 'The Duke' y compuso 'Mood Indigo'?",
+          de: "Welcher Jazz-Bandleader war als 'The Duke' bekannt und komponierte 'Mood Indigo'?",
+          nl: "Welke jazz-bandleider stond bekend als 'The Duke' en componeerde 'Mood Indigo'?"
+        },
+        options: [
+          { en: "Duke Ellington", es: "Duke Ellington", de: "Duke Ellington", nl: "Duke Ellington" },
+          { en: "Count Basie", es: "Count Basie", de: "Count Basie", nl: "Count Basie" },
+          { en: "Benny Goodman", es: "Benny Goodman", de: "Benny Goodman", nl: "Benny Goodman" },
+          { en: "Woody Herman", es: "Woody Herman", de: "Woody Herman", nl: "Woody Herman" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Duke Ellington was one of the most important composers in jazz history. Over his 50-year career, he wrote thousands of compositions including 'Mood Indigo', 'Sophisticated Lady', and 'It Don't Mean a Thing'.",
+          es: "Duke Ellington fue uno de los compositores más importantes en la historia del jazz. Durante su carrera de 50 años, escribió miles de composiciones incluyendo 'Mood Indigo', 'Sophisticated Lady' y 'It Don't Mean a Thing'.",
+          de: "Duke Ellington war einer der wichtigsten Komponisten in der Jazz-Geschichte. Über seine 50-jährige Karriere schrieb er Tausende von Kompositionen, darunter 'Mood Indigo', 'Sophisticated Lady' und 'It Don't Mean a Thing'.",
+          nl: "Duke Ellington was een van de belangrijkste componisten in de jazzgeschiedenis. Tijdens zijn 50-jarige carrière schreef hij duizenden composities, waaronder 'Mood Indigo', 'Sophisticated Lady' en 'It Don't Mean a Thing'."
         }
       }
     ]

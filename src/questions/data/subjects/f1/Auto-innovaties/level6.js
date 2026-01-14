@@ -319,6 +319,331 @@
                 de: "Strömungskonditionierungsvorrichtungen lenken und bereiten Luftstrom vor, damit er nachfolgende Komponenten optimal erreicht.",
                 nl: "Flow conditioning apparaten leiden en bereiden luchtstroom voor zodat het bij stroomafwaartse componenten aankomt in optimale conditie."
             }
+        },
+        {
+            question: {
+                en: "What is the purpose of floor edge vortices?",
+                es: "¿Cuál es el propósito de los vórtices del borde del piso?",
+                de: "Was ist der Zweck von Bodenkanten-Wirbeln?",
+                nl: "Wat is het doel van vloerrand vortexen?"
+            },
+            options: ["Decoration", "Seal floor edges preventing air leakage and maximizing ground effect", "Cooling", "Structural support"],
+            correct: 1,
+            explanation: {
+                en: "Floor edge vortices create aerodynamic seals preventing high-pressure air from leaking under the floor, maximizing ground effect.",
+                es: "Los vórtices del borde del piso crean sellos aerodinámicos previniendo que aire de alta presión se filtre bajo el piso.",
+                de: "Bodenkanten-Wirbel schaffen aerodynamische Abdichtungen und verhindern dass Hochdruckluft unter den Boden dringt.",
+                nl: "Vloerrand vortexen creëren aerodynamische afsluitingen die voorkomen dat hogedruk lucht onder de vloer lekt, wat grondeffect maximaliseert."
+            }
+        },
+        {
+            question: {
+                en: "What is the venturi effect in F1 underbody aerodynamics?",
+                es: "¿Qué es el efecto venturi en la aerodinámica inferior de F1?",
+                de: "Was ist der Venturi-Effekt in der F1-Unterboden-Aerodynamik?",
+                nl: "Wat is het venturi-effect in F1-onderkant aerodynamica?"
+            },
+            options: ["Engine cooling", "Accelerating air through narrowing channel creates low pressure", "Brake cooling", "Fuel injection"],
+            correct: 1,
+            explanation: {
+                en: "The venturi effect accelerates air through narrowing channels, reducing pressure and sucking the car to the ground.",
+                es: "El efecto venturi acelera el aire a través de canales estrechos, reduciendo presión y succionando el coche al suelo.",
+                de: "Der Venturi-Effekt beschleunigt Luft durch verengende Kanäle, reduziert Druck und saugt das Auto zum Boden.",
+                nl: "Het venturi-effect versnelt lucht door vernauwende kanalen, wat druk vermindert en de auto naar de grond zuigt."
+            }
+        },
+        {
+            question: {
+                en: "What are edge floors and how do they work?",
+                es: "¿Qué son los pisos con bordes y cómo funcionan?",
+                de: "Was sind Kantenboden und wie funktionieren sie?",
+                nl: "Wat zijn rand-vloeren en hoe werken ze?"
+            },
+            options: ["Flat floors", "Sculpted floor edges creating vortices for sealing", "Reinforced floors", "Adjustable floors"],
+            correct: 1,
+            explanation: {
+                en: "Edge floors feature sculpted geometries along edges that generate vortices, creating aerodynamic skirts sealing the floor.",
+                es: "Los pisos con bordes tienen geometrías esculpidas en los bordes que generan vórtices, creando faldones aerodinámicos.",
+                de: "Kantenboden haben geformte Geometrien an Kanten die Wirbel erzeugen und aerodynamische Schürzen bilden.",
+                nl: "Rand-vloeren hebben gebeeldhouwde geometrieën langs randen die vortexen genereren, wat aerodynamische rokken creëert die de vloer verzegelen."
+            }
+        },
+        {
+            question: {
+                en: "What is the boundary layer and why is it important?",
+                es: "¿Qué es la capa límite y por qué es importante?",
+                de: "Was ist die Grenzschicht und warum ist sie wichtig?",
+                nl: "Wat is de grenslaag en waarom is het belangrijk?"
+            },
+            options: ["Track boundary", "Thin layer of slow-moving air near surfaces affecting flow separation", "Safety barrier", "Floor material"],
+            correct: 1,
+            explanation: {
+                en: "The boundary layer is slow-moving air near surfaces; managing it prevents flow separation and maintains downforce.",
+                es: "La capa límite es aire de movimiento lento cerca de superficies; gestionarla previene separación y mantiene carga.",
+                de: "Die Grenzschicht ist langsam bewegte Luft nahe Oberflächen; ihre Steuerung verhindert Strömungsabriss.",
+                nl: "De grenslaag is langzaam bewegende lucht nabij oppervlakken; het beheren ervan voorkomt flow-scheiding en handhaaft neerwaartse druk."
+            }
+        },
+        {
+            question: {
+                en: "What is adverse pressure gradient in diffusers?",
+                es: "¿Qué es el gradiente de presión adverso en difusores?",
+                de: "Was ist adverser Druckgradient in Diffusoren?",
+                nl: "Wat is nadelige drukgradiënt in diffusers?"
+            },
+            options: ["Positive effect", "Pressure increase causing potential flow separation", "Cooling problem", "Structural issue"],
+            correct: 1,
+            explanation: {
+                en: "Adverse pressure gradient is increasing pressure in diffuser expansion that can cause flow separation if too aggressive.",
+                es: "El gradiente adverso es aumento de presión en expansión del difusor que puede causar separación si es muy agresivo.",
+                de: "Adverser Druckgradient ist Druckanstieg in Diffusor-Expansion der Strömungsabriss verursachen kann.",
+                nl: "Nadelige drukgradiënt is toenemende druk in diffuser-expansie die flow-scheiding kan veroorzaken als te agressief."
+            }
+        },
+        {
+            question: {
+                en: "What are floor fences or strakes?",
+                es: "¿Qué son las vallas o strakes del piso?",
+                de: "Was sind Bodenzäune oder Strakes?",
+                nl: "Wat zijn vloerhekken of strakes?"
+            },
+            options: ["Decorative lines", "Vertical elements generating vortices to seal floor flow", "Structural beams", "Cooling ducts"],
+            correct: 1,
+            explanation: {
+                en: "Floor fences are vertical elements that generate vortices along the floor edges, preventing air spillage and maximizing downforce.",
+                es: "Las vallas del piso son elementos verticales que generan vórtices a lo largo de los bordes, previniendo fuga de aire.",
+                de: "Bodenzäune sind vertikale Elemente die Wirbel an Bodenkanten erzeugen und Luftverlust verhindern.",
+                nl: "Vloerhekken zijn verticale elementen die vortexen genereren langs vloerranden, wat luchtlekkage voorkomt en neerwaartse druk maximaliseert."
+            }
+        },
+        {
+            question: {
+                en: "What is the diffuser throat and its importance?",
+                es: "¿Qué es la garganta del difusor y su importancia?",
+                de: "Was ist der Diffusor-Hals und seine Bedeutung?",
+                nl: "Wat is de diffuser keel en het belang ervan?"
+            },
+            options: ["Entry point", "Narrowest point where air accelerates most before expansion", "Exit point", "Cooling channel"],
+            correct: 1,
+            explanation: {
+                en: "The diffuser throat is the narrowest point where airflow reaches maximum velocity before expanding, creating low pressure.",
+                es: "La garganta del difusor es el punto más estrecho donde el flujo alcanza velocidad máxima antes de expandirse.",
+                de: "Der Diffusor-Hals ist der engste Punkt wo Luftstrom maximale Geschwindigkeit erreicht vor Expansion.",
+                nl: "De diffuser keel is het smalste punt waar luchtstroom maximale snelheid bereikt voor expansie, wat lage druk creëert."
+            }
+        },
+        {
+            question: {
+                en: "What are turning vanes and their function?",
+                es: "¿Qué son las turning vanes y su función?",
+                de: "Was sind Turning Vanes und ihre Funktion?",
+                nl: "Wat zijn turning vanes en hun functie?"
+            },
+            options: ["Steering aids", "Complex aerodynamic fins redirecting airflow to specific areas", "Brake ducts", "Suspension parts"],
+            correct: 1,
+            explanation: {
+                en: "Turning vanes are intricate aerodynamic fins that redirect and condition airflow to sidepods, floor, and rear of car.",
+                es: "Las turning vanes son aletas aerodinámicas intrincadas que redirigen y condicionan flujo a pontones, piso y parte trasera.",
+                de: "Turning Vanes sind komplexe aerodynamische Finnen die Luftstrom zu Seitenkästen, Boden und Heck umleiten.",
+                nl: "Turning vanes zijn ingewikkelde aerodynamische vinnen die luchtstroom omleiden en conditioneren naar sidepods, vloer en achterkant."
+            }
+        },
+        {
+            question: {
+                en: "What is the delta wing section on sidepods?",
+                es: "¿Qué es la sección delta wing en los pontones?",
+                de: "Was ist der Delta-Wing-Abschnitt an Seitenkästen?",
+                nl: "Wat is de delta wing sectie op sidepods?"
+            },
+            options: ["Decorative element", "Swept leading edge creating vortex for flow management", "Cooling inlet", "Structural component"],
+            correct: 1,
+            explanation: {
+                en: "Delta wing sections on sidepods create strong vortices that help manage airflow around and under the car.",
+                es: "Las secciones delta wing en pontones crean vórtices fuertes que ayudan a gestionar flujo alrededor y debajo del coche.",
+                de: "Delta-Wing-Abschnitte an Seitenkästen erzeugen starke Wirbel zur Luftstromsteuerung um und unter dem Auto.",
+                nl: "Delta wing secties op sidepods creëren sterke vortexen die helpen luchtstroom rond en onder de auto te beheren."
+            }
+        },
+        {
+            question: {
+                en: "What is the undercut design philosophy?",
+                es: "¿Qué es la filosofía de diseño de undercut?",
+                de: "Was ist die Undercut-Design-Philosophie?",
+                nl: "Wat is de undercut ontwerp filosofie?"
+            },
+            options: ["Engine placement", "Narrowing sidepods to maximize floor airflow", "Fuel tank shape", "Cockpit design"],
+            correct: 1,
+            explanation: {
+                en: "Undercut narrows sidepods dramatically to allow maximum airflow to reach the floor and diffuser for downforce.",
+                es: "El undercut estrecha los pontones dramáticamente para permitir máximo flujo al piso y difusor para carga.",
+                de: "Undercut verengt Seitenkästen dramatisch um maximalen Luftstrom zu Boden und Diffusor zu ermöglichen.",
+                nl: "Undercut vernauwt sidepods dramatisch om maximale luchtstroom naar vloer en diffuser toe te staan voor neerwaartse druk."
+            }
+        },
+        {
+            question: {
+                en: "What are S-ducts and their purpose?",
+                es: "¿Qué son los S-ducts y su propósito?",
+                de: "Was sind S-Ducts und ihr Zweck?",
+                nl: "Wat zijn S-ducts en hun doel?"
+            },
+            options: ["Brake cooling", "Nose inlet channeling air through to upper surface for downforce", "Engine cooling", "Fuel lines"],
+            correct: 1,
+            explanation: {
+                en: "S-ducts take air in through nose, route it through S-shaped channel, and exit on top creating downforce via acceleration.",
+                es: "Los S-ducts toman aire por la nariz, lo enrutan por canal en S y salen arriba creando carga por aceleración.",
+                de: "S-Ducts nehmen Luft durch die Nase auf, leiten sie durch S-förmigen Kanal und erzeugen Abtrieb durch Beschleunigung.",
+                nl: "S-ducts nemen lucht in via neus, leiden het door S-vormig kanaal en komen uit bovenop wat neerwaartse druk creëert via versnelling."
+            }
+        },
+        {
+            question: {
+                en: "What is the purpose of cape and sidepod winglets?",
+                es: "¿Cuál es el propósito de las cape y winglets de pontones?",
+                de: "Was ist der Zweck von Cape und Seitenkasten-Winglets?",
+                nl: "Wat is het doel van cape en sidepod winglets?"
+            },
+            options: ["Aesthetics", "Generate vortices managing tire wake and floor feed", "Structural support", "Driver visibility"],
+            correct: 1,
+            explanation: {
+                en: "Cape and sidepod winglets generate vortices that manage turbulent tire wake and feed clean air to the floor.",
+                es: "Las cape y winglets generan vórtices que gestionan turbulencia de ruedas y alimentan aire limpio al piso.",
+                de: "Cape und Winglets erzeugen Wirbel die turbulenten Radnachlauf steuern und saubere Luft zum Boden führen.",
+                nl: "Cape en sidepod winglets genereren vortexen die turbulente wielwake beheren en schone lucht naar de vloer voeden."
+            }
+        },
+        {
+            question: {
+                en: "What is vortex shedding and why is it problematic?",
+                es: "¿Qué es el desprendimiento de vórtice y por qué es problemático?",
+                de: "Was ist Wirbelablösung und warum ist es problematisch?",
+                nl: "Wat is vortex shedding en waarom is het problematisch?"
+            },
+            options: ["Positive effect", "Uncontrolled vortex release causing wake turbulence", "Cooling effect", "Weight reduction"],
+            correct: 1,
+            explanation: {
+                en: "Vortex shedding is uncontrolled vortex release creating turbulent wake that disturbs following cars and reduces efficiency.",
+                es: "El desprendimiento de vórtice es liberación descontrolada que crea estela turbulenta perturbando coches siguientes.",
+                de: "Wirbelablösung ist unkontrollierte Wirbelfreisetzung die turbulenten Nachlauf erzeugt und nachfolgende Autos stört.",
+                nl: "Vortex shedding is ongecontroleerde vortex-afgifte die turbulente wake creëert wat volgende auto's verstoort en efficiëntie vermindert."
+            }
+        },
+        {
+            question: {
+                en: "What is the concept of beam wing loading?",
+                es: "¿Qué es el concepto de carga del beam wing?",
+                de: "Was ist das Konzept der Beam-Wing-Belastung?",
+                nl: "Wat is het concept van beam wing loading?"
+            },
+            options: ["Weight distribution", "Aerodynamic load distribution on small rear wing element", "Structural stress", "Fuel distribution"],
+            correct: 1,
+            explanation: {
+                en: "Beam wing loading refers to how aerodynamic load is distributed across the small horizontal element above the diffuser.",
+                es: "La carga del beam wing se refiere a cómo se distribuye la carga aerodinámica en el pequeño elemento horizontal.",
+                de: "Beam-Wing-Belastung bezieht sich auf Verteilung der aerodynamischen Last auf dem kleinen horizontalen Element.",
+                nl: "Beam wing loading verwijst naar hoe aerodynamische belasting verdeeld wordt over het kleine horizontale element boven de diffuser."
+            }
+        },
+        {
+            question: {
+                en: "What are floor scrolls and their aerodynamic function?",
+                es: "¿Qué son los scrolls del piso y su función aerodinámica?",
+                de: "Was sind Boden-Scrolls und ihre aerodynamische Funktion?",
+                nl: "Wat zijn vloer-scrolls en hun aerodynamische functie?"
+            },
+            options: ["Decorative curves", "Curved floor edges creating strong sealing vortices", "Structural ribs", "Cooling channels"],
+            correct: 1,
+            explanation: {
+                en: "Floor scrolls are aggressively curved floor edges that generate powerful vortices sealing the floor from air leakage.",
+                es: "Los scrolls del piso son bordes curvados agresivamente que generan vórtices poderosos sellando el piso de fugas.",
+                de: "Boden-Scrolls sind aggressiv gekrümmte Bodenkanten die starke Wirbel zur Bodenversiegelung erzeugen.",
+                nl: "Vloer-scrolls zijn agressief gebogen vloerranden die krachtige vortexen genereren die de vloer verzegelen tegen luchtlekkage."
+            }
+        },
+        {
+            question: {
+                en: "What is the throat area ratio in diffusers?",
+                es: "¿Qué es la relación de área de garganta en difusores?",
+                de: "Was ist das Hals-Flächenverhältnis in Diffusoren?",
+                nl: "Wat is de keel-oppervlakte verhouding in diffusers?"
+            },
+            options: ["Random measurement", "Ratio between throat and exit determining expansion rate", "Structural measurement", "Cooling ratio"],
+            correct: 1,
+            explanation: {
+                en: "Throat area ratio compares narrowest point to exit, determining expansion rate and maximum downforce potential without separation.",
+                es: "La relación de área de garganta compara punto más estrecho con salida, determinando tasa de expansión y potencial máximo.",
+                de: "Hals-Flächenverhältnis vergleicht engsten Punkt mit Ausgang und bestimmt Expansionsrate und Abtriebspotenzial.",
+                nl: "Keel-oppervlakte verhouding vergelijkt smalste punt met uitgang, wat expansiesnelheid en maximale neerwaartse druk potentieel bepaalt zonder scheiding."
+            }
+        },
+        {
+            question: {
+                en: "What is the significance of diffuser kicker elements?",
+                es: "¿Cuál es la importancia de los elementos kicker del difusor?",
+                de: "Was ist die Bedeutung von Diffusor-Kicker-Elementen?",
+                nl: "Wat is de betekenis van diffuser kicker-elementen?"
+            },
+            options: ["Decorative", "Upturned rear sections increasing expansion angle", "Structural", "Cooling"],
+            correct: 1,
+            explanation: {
+                en: "Diffuser kickers are aggressively upturned rear sections that maximize expansion angle at the last moment for peak downforce.",
+                es: "Los kickers del difusor son secciones traseras muy levantadas que maximizan ángulo de expansión al final para máxima carga.",
+                de: "Diffusor-Kicker sind aggressiv aufgebogene Heckabschnitte die Expansionswinkel im letzten Moment maximieren.",
+                nl: "Diffuser kickers zijn agressief opgebogen achterse secties die expansiehoek op het laatste moment maximaliseren voor piek neerwaartse druk."
+            }
+        },
+        {
+            question: {
+                en: "What is the purpose of floor stays in 2023+ regulations?",
+                es: "¿Cuál es el propósito de los refuerzos de piso en regulaciones 2023+?",
+                de: "Was ist der Zweck von Bodenversteifungen in 2023+ Regeln?",
+                nl: "Wat is het doel van vloersteun in 2023+ reglementen?"
+            },
+            options: ["Add weight", "Prevent excessive floor flex and porpoising", "Improve aesthetics", "Increase downforce"],
+            correct: 1,
+            explanation: {
+                en: "Floor stays are mandatory metal supports limiting floor flexibility to reduce porpoising and prevent extreme ride height manipulation.",
+                es: "Los refuerzos de piso son soportes metálicos obligatorios que limitan flexibilidad para reducir porpoising.",
+                de: "Bodenversteifungen sind verpflichtende Metallstützen die Bodenflexibilität begrenzen um Porpoising zu reduzieren.",
+                nl: "Vloersteun zijn verplichte metalen steunen die vloerflexibiliteit beperken om porpoising te verminderen en extreme rijhoogte-manipulatie te voorkomen."
+            }
+        },
+        {
+            question: {
+                en: "What is flow separation and how do teams prevent it?",
+                es: "¿Qué es la separación de flujo y cómo la previenen los equipos?",
+                de: "Was ist Strömungsabriss und wie verhindern Teams ihn?",
+                nl: "Wat is flow-scheiding en hoe voorkomen teams het?"
+            },
+            options: ["Positive effect", "Airflow detaching from surfaces; prevented by vortex generators and careful shaping", "Cooling issue", "Structural problem"],
+            correct: 1,
+            explanation: {
+                en: "Flow separation occurs when airflow detaches from surfaces, losing downforce; teams use vortex generators and careful contouring to prevent it.",
+                es: "La separación ocurre cuando el flujo se desprende de superficies perdiendo carga; equipos usan generadores de vórtice para prevenirlo.",
+                de: "Strömungsabriss tritt auf wenn Luftstrom sich von Oberflächen löst; Teams nutzen Wirbel-Generatoren zur Verhinderung.",
+                nl: "Flow-scheiding treedt op wanneer luchtstroom zich losmaakt van oppervlakken, wat neerwaartse druk verliest; teams gebruiken vortex generators om het te voorkomen."
+            }
+        },
+        {
+            question: {
+                en: "What innovation did McLaren introduce with 'brake steer' in the 1990s before it was banned?",
+                es: "¿Qué innovación introdujo McLaren con el 'brake steer' en los años 90 antes de ser prohibido?",
+                de: "Welche Innovation führte McLaren mit 'Brake Steer' in den 1990ern ein, bevor es verboten wurde?",
+                nl: "Welke innovatie introduceerde McLaren met 'brake steer' in de jaren 90 voordat het verboden werd?"
+            },
+            options: [
+                { en: "A system allowing the driver to brake individual rear wheels to tighten cornering", es: "Un sistema que permitía al piloto frenar ruedas traseras individuales para cerrar curvas", de: "Ein System das dem Fahrer erlaubte einzelne Hinterräder zu bremsen für engere Kurvenfahrt", nl: "Een systeem dat de coureur toestond individuele achterwielen te remmen voor scherpere bochten" },
+                { en: "Automatic braking on corner entry", es: "Frenado automático en entrada de curva", de: "Automatisches Bremsen beim Kurveneingang", nl: "Automatisch remmen bij bocht ingang" },
+                { en: "Steering wheel mounted brake controls", es: "Controles de freno montados en volante", de: "Am Lenkrad montierte Bremssteuerung", nl: "Remcontroles gemonteerd op stuurwiel" },
+                { en: "Rear-only braking system", es: "Sistema de frenado solo trasero", de: "Nur-Hinterrad-Bremssystem", nl: "Alleen-achter remsysteem" }
+            ],
+            correct: 0,
+            explanation: {
+                en: "McLaren's brake steer system allowed drivers to brake individual rear wheels via a second pedal, effectively steering the car through differential braking. This provided significant cornering advantage before being banned by FIA in 1998 for being a moveable aerodynamic device.",
+                es: "El sistema brake steer de McLaren permitía a los pilotos frenar ruedas traseras individuales vía un segundo pedal, efectivamente dirigiendo el auto mediante frenado diferencial. Esto proporcionó ventaja significativa en curvas antes de ser prohibido por FIA en 1998 por ser dispositivo aerodinámico móvil.",
+                de: "McLarens Brake-Steer-System erlaubte Fahrern einzelne Hinterräder über ein zweites Pedal zu bremsen, wodurch das Auto effektiv durch Differenzialbremsung gesteuert wurde. Dies bot erheblichen Kurven-Vorteil bevor es 1998 von der FIA als bewegliches aerodynamisches Gerät verboten wurde.",
+                nl: "McLaren's brake steer systeem stelde coureurs in staat individuele achterwielen te remmen via een tweede pedaal, effectief het sturen van de auto door differentieel remmen. Dit bood significant bocht voordeel voordat het in 1998 door FIA verboden werd als bewegend aerodynamisch apparaat."
+            }
         }
     ];
 

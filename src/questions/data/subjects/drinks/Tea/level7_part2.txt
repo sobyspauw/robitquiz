@@ -1,0 +1,287 @@
+            {
+                question: {
+                    en: "What chemical compounds create the umami sensation in high-quality Japanese green teas like gyokuro?",
+                    es: "¿Qué compuestos químicos crean la sensación umami en tés verdes japoneses de alta calidad como gyokuro?",
+                    de: "Welche chemischen Verbindungen erzeugen das Umami-Gefühl in hochwertigen japanischen Grüntees wie Gyokuro?",
+                    nl: "Welke chemische verbindingen creëren de umami sensatie in hoogwaardige Japanse groene thee zoals gyokuro?"
+                },
+                options: [
+                    {
+                        en: "L-theanine and glutamic acid, elevated by shade-growing which increases amino acid concentrations",
+                        es: "L-teanina y ácido glutámico, elevados por cultivo en sombra que aumenta concentraciones de aminoácidos",
+                        de: "L-Theanin und Glutaminsäure, erhöht durch Schatten-Anbau, der Aminosäurekonzentrationen steigert",
+                        nl: "L-theanine en glutaminezuur, verhoogd door schaduw-teelt wat aminozuur concentraties verhoogt"
+                    },
+                    {
+                        en: "High tannin content from extended oxidation",
+                        es: "Alto contenido de taninos de oxidación extendida",
+                        de: "Hoher Tanningehalt durch verlängerte Oxidation",
+                        nl: "Hoog tannine gehalte van verlengde oxidatie"
+                    },
+                    {
+                        en: "Caffeine molecules binding to taste receptors",
+                        es: "Moléculas de cafeína uniéndose a receptores de sabor",
+                        de: "Koffeinmoleküle, die an Geschmacksrezeptoren binden",
+                        nl: "Cafeïne moleculen die binden aan smaak receptoren"
+                    },
+                    {
+                        en: "Added MSG during processing",
+                        es: "MSG añadido durante procesamiento",
+                        de: "Während der Verarbeitung hinzugefügtes MSG",
+                        nl: "Toegevoegd MSG tijdens verwerking"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Shade-growing (20-30 days before harvest) dramatically increases L-theanine and glutamic acid in tea leaves. Without photosynthesis converting these amino acids into catechins and polyphenols, their concentrations can reach 3-4% of dry leaf weight. L-theanine has a savory, brothy umami taste that defines premium Japanese greens. This is why gyokuro, kabusecha, and matcha (all shade-grown) have such pronounced umami character compared to sencha (sun-grown). The umami sweetness also balances any residual astringency.",
+                    es: "Cultivo en sombra (20-30 días antes de cosecha) aumenta dramáticamente L-teanina y ácido glutámico en hojas de té. Sin fotosíntesis convirtiendo estos aminoácidos en catequinas y polifenoles, sus concentraciones pueden alcanzar 3-4% del peso de hoja seca. L-teanina tiene sabor umami sabroso y caldoso que define verdes japoneses premium. Por esto gyokuro, kabusecha y matcha (todos cultivados en sombra) tienen carácter umami tan pronunciado comparado con sencha (cultivado al sol). Dulzura umami también equilibra cualquier astringencia residual.",
+                    de: "Schatten-Anbau (20-30 Tage vor Ernte) erhöht L-Theanin und Glutaminsäure in Teeblättern dramatisch. Ohne Photosynthese, die diese Aminosäuren in Catechine und Polyphenole umwandelt, können ihre Konzentrationen 3-4% des Trockenblattgewichts erreichen. L-Theanin hat einen herzhaften, brühartigen Umami-Geschmack, der Premium-Japangrüns definiert. Deshalb haben Gyokuro, Kabusecha und Matcha (alle im Schatten angebaut) so ausgeprägten Umami-Charakter im Vergleich zu Sencha (Sonnen-Anbau). Die Umami-Süße gleicht auch jede restliche Adstringenz aus.",
+                    nl: "Schaduw-teelt (20-30 dagen voor oogst) verhoogt L-theanine en glutaminezuur in thee bladeren dramatisch. Zonder fotosynthese die deze aminozuren omzet in catechines en polyfenolen, kunnen hun concentraties 3-4% van droog bladgewicht bereiken. L-theanine heeft een hartige, bouillon-achtige umami smaak die premium Japanse groene thee definieert. Daarom hebben gyokuro, kabusecha en matcha (allemaal schaduw-geteeld) zo'n uitgesproken umami karakter vergeleken met sencha (zon-geteeld). De umami zoetheid balanceert ook eventuele resterende samentrekking."
+                }
+            },
+            {
+                question: {
+                    en: "What is 'tea drunk' or 'cha qi' and what is its biochemical basis?",
+                    es: "¿Qué es 'tea drunk' o 'cha qi' y cuál es su base bioquímica?",
+                    de: "Was ist 'Tea Drunk' oder 'Cha Qi' und was ist seine biochemische Grundlage?",
+                    nl: "Wat is 'tea drunk' of 'cha qi' en wat is de biochemische basis ervan?"
+                },
+                options: [
+                    {
+                        en: "A relaxed alertness from L-theanine modulating caffeine's effects by increasing alpha brain waves and GABA activity",
+                        es: "Alerta relajada de L-teanina modulando efectos de cafeína al aumentar ondas cerebrales alfa y actividad GABA",
+                        de: "Eine entspannte Wachsamkeit durch L-Theanin, das die Wirkungen von Koffein durch Erhöhung von Alpha-Gehirnwellen und GABA-Aktivität moduliert",
+                        nl: "Een ontspannen alertheid van L-theanine dat cafeïne effecten moduleert door alfa hersengolven en GABA activiteit te verhogen"
+                    },
+                    {
+                        en: "Actual intoxication from alcohol produced during fermentation",
+                        es: "Intoxicación real de alcohol producido durante fermentación",
+                        de: "Tatsächliche Vergiftung durch während der Fermentation produzierten Alkohol",
+                        nl: "Werkelijke intoxicatie van alcohol geproduceerd tijdens fermentatie"
+                    },
+                    {
+                        en: "Dehydration from drinking too much tea",
+                        es: "Deshidratación por beber demasiado té",
+                        de: "Dehydrierung durch zu viel Teetrinken",
+                        nl: "Uitdroging van te veel thee drinken"
+                    },
+                    {
+                        en: "Purely psychological placebo effect with no chemical basis",
+                        es: "Efecto placebo puramente psicológico sin base química",
+                        de: "Rein psychologischer Placebo-Effekt ohne chemische Grundlage",
+                        nl: "Puur psychologisch placebo effect zonder chemische basis"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "'Tea drunk' or 'cha qi' is a distinctive mental state characterized by calm focus, mild euphoria, and heightened awareness. The effect comes from L-theanine (50-200mg per cup in quality teas) crossing the blood-brain barrier and increasing alpha wave activity (8-12 Hz), associated with relaxed alertness. L-theanine also increases GABA, dopamine, and serotonin production while modulating caffeine's stimulant effects—providing energy without jitters. The L-theanine:caffeine ratio (2:1 to 5:1 in tea vs almost none in coffee) creates this unique psychoactive profile. High-mountain oolongs, aged sheng puerh, and shade-grown Japanese greens produce the strongest cha qi.",
+                    es: "'Tea drunk' o 'cha qi' es un estado mental distintivo caracterizado por enfoque calmado, euforia leve y conciencia elevada. El efecto viene de L-teanina (50-200mg por taza en tés de calidad) cruzando barrera hematoencefálica y aumentando actividad de ondas alfa (8-12 Hz), asociadas con alerta relajada. L-teanina también aumenta producción de GABA, dopamina y serotonina mientras modula efectos estimulantes de cafeína—proporcionando energía sin nerviosismo. Ratio L-teanina:cafeína (2:1 a 5:1 en té vs casi nada en café) crea este perfil psicoactivo único. Oolongs de alta montaña, puerh sheng envejecido y verdes japoneses cultivados en sombra producen el cha qi más fuerte.",
+                    de: "'Tea Drunk' oder 'Cha Qi' ist ein charakteristischer mentaler Zustand, gekennzeichnet durch ruhigen Fokus, leichte Euphorie und erhöhtes Bewusstsein. Der Effekt kommt von L-Theanin (50-200mg pro Tasse in Qualitätstees), das die Blut-Hirn-Schranke überquert und Alpha-Wellenaktivität (8-12 Hz) erhöht, verbunden mit entspannter Wachsamkeit. L-Theanin erhöht auch GABA-, Dopamin- und Serotonin-Produktion, während es Koffeins stimulierende Wirkungen moduliert—Energie ohne Zittern liefernd. Das L-Theanin:Koffein-Verhältnis (2:1 bis 5:1 in Tee vs fast keins in Kaffee) erzeugt dieses einzigartige psychoaktive Profil. Hochgebirgs-Oolongs, gereifter Sheng Puerh und im Schatten angebaute Japangrüns produzieren das stärkste Cha Qi.",
+                    nl: "'Tea drunk' of 'cha qi' is een onderscheidende mentale staat gekenmerkt door kalme focus, milde euforie en verhoogd bewustzijn. Het effect komt van L-theanine (50-200mg per kop in kwaliteit thee) die de bloed-hersenbarrière kruist en alfa golf activiteit (8-12 Hz) verhoogt, geassocieerd met ontspannen alertheid. L-theanine verhoogt ook GABA, dopamine en serotonine productie terwijl het cafeïne's stimulerende effecten moduleert—energie leverend zonder trillen. De L-theanine:cafeïne verhouding (2:1 tot 5:1 in thee vs bijna geen in koffie) creëert dit unieke psychoactieve profiel. Hoge-berg oolongs, gerijpte sheng puerh en schaduw-geteelde Japanse groene thee produceren de sterkste cha qi."
+                }
+            },
+            {
+                question: {
+                    en: "What is the molecular basis for 'astringency' in tea and how does it differ from bitterness?",
+                    es: "¿Cuál es la base molecular para 'astringencia' en té y cómo difiere de amargor?",
+                    de: "Was ist die molekulare Grundlage für 'Adstringenz' in Tee und wie unterscheidet sie sich von Bitterkeit?",
+                    nl: "Wat is de moleculaire basis voor 'samentrekking' in thee en hoe verschilt dit van bitterheid?"
+                },
+                options: [
+                    {
+                        en: "Astringency is a tactile sensation from tannins binding to salivary proteins causing puckering, while bitterness is a taste from catechins activating TAS2R receptors",
+                        es: "Astringencia es sensación táctil de taninos uniéndose a proteínas salivales causando fruncido, mientras amargor es sabor de catequinas activando receptores TAS2R",
+                        de: "Adstringenz ist ein taktiles Gefühl durch Tannine, die an Speichelproteine binden und Zusammenziehen verursachen, während Bitterkeit ein Geschmack durch Catechine ist, die TAS2R-Rezeptoren aktivieren",
+                        nl: "Samentrekking is een tactiele sensatie van tannines die binden aan speeksel eiwitten wat samentrekken veroorzaakt, terwijl bitterheid een smaak is van catechines die TAS2R receptoren activeren"
+                    },
+                    {
+                        en: "Astringency and bitterness are the same sensation caused by the same compounds",
+                        es: "Astringencia y amargor son la misma sensación causada por los mismos compuestos",
+                        de: "Adstringenz und Bitterkeit sind dasselbe Gefühl, verursacht durch dieselben Verbindungen",
+                        nl: "Samentrekking en bitterheid zijn dezelfde sensatie veroorzaakt door dezelfde verbindingen"
+                    },
+                    {
+                        en: "Astringency is caused by acids while bitterness comes from tannins",
+                        es: "Astringencia es causada por ácidos mientras amargor viene de taninos",
+                        de: "Adstringenz wird durch Säuren verursacht, während Bitterkeit von Tanninen kommt",
+                        nl: "Samentrekking wordt veroorzaakt door zuren terwijl bitterheid van tannines komt"
+                    },
+                    {
+                        en: "Both are purely psychological sensations without chemical triggers",
+                        es: "Ambas son sensaciones puramente psicológicas sin desencadenantes químicos",
+                        de: "Beide sind rein psychologische Empfindungen ohne chemische Auslöser",
+                        nl: "Beide zijn puur psychologische sensaties zonder chemische triggers"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Astringency is a tactile mouthfeel, not a taste. It occurs when polyphenolic tannins (especially oligomeric and polymeric catechins) bind to proline-rich proteins in saliva, precipitating them. This reduces lubrication and creates the characteristic dry, puckering sensation. Bitterness is an actual taste sensation caused by catechins (EGCG, ECG) and caffeine activating bitter taste receptors (TAS2R family) on the tongue. Over-steeped or poorly processed tea exhibits excessive astringency. Quality tea balances astringency with sweetness and umami. Interestingly, milk proteins bind tannins, reducing astringency—the scientific basis for milk tea.",
+                    es: "Astringencia es sensación bucal táctil, no sabor. Ocurre cuando taninos polifenólicos (especialmente catequinas oligoméricas y poliméricas) se unen a proteínas ricas en prolina en saliva, precipitándolas. Esto reduce lubricación y crea sensación característica seca y fruncida. Amargor es sensación de sabor real causada por catequinas (EGCG, ECG) y cafeína activando receptores de sabor amargo (familia TAS2R) en lengua. Té sobre-remojado o mal procesado exhibe astringencia excesiva. Té de calidad equilibra astringencia con dulzura y umami. Curiosamente, proteínas lácteas unen taninos, reduciendo astringencia—base científica para té con leche.",
+                    de: "Adstringenz ist ein taktiles Mundgefühl, kein Geschmack. Sie tritt auf, wenn polyphenolische Tannine (besonders oligomere und polymere Catechine) an prolinreiche Proteine im Speichel binden und diese ausfällen. Dies reduziert Schmierung und erzeugt das charakteristische trockene, zusammenziehende Gefühl. Bitterkeit ist eine tatsächliche Geschmacksempfindung, verursacht durch Catechine (EGCG, ECG) und Koffein, die Bitterrezeptoren (TAS2R-Familie) auf der Zunge aktivieren. Überziehter oder schlecht verarbeiteter Tee zeigt übermäßige Adstringenz. Qualitätstee balanciert Adstringenz mit Süße und Umami. Interessanterweise binden Milchproteine Tannine und reduzieren Adstringenz—die wissenschaftliche Grundlage für Milchtee.",
+                    nl: "Samentrekking is een tactiel mondgevoel, geen smaak. Het treedt op wanneer polyfenolische tannines (vooral oligomere en polymere catechines) binden aan proline-rijke eiwitten in speeksel, deze precipiterend. Dit vermindert smering en creëert de karakteristieke droge, samentrekkende sensatie. Bitterheid is een werkelijke smaaksensatie veroorzaakt door catechines (EGCG, ECG) en cafeïne die bitter smaak receptoren (TAS2R familie) op de tong activeren. Over-getrokken of slecht verwerkte thee vertoont excessieve samentrekking. Kwaliteit thee balanceert samentrekking met zoetheid en umami. Interessant is dat melk eiwitten tannines binden, samentrekking verminderend—de wetenschappelijke basis voor melk thee."
+                }
+            },
+            {
+                question: {
+                    en: "What chemical transformation occurs during 'aging' of puerh tea that develops its characteristic earthy complexity?",
+                    es: "¿Qué transformación química ocurre durante 'envejecimiento' de té puerh que desarrolla su complejidad terrosa característica?",
+                    de: "Welche chemische Transformation tritt während der 'Reifung' von Puerh-Tee auf, die seine charakteristische erdige Komplexität entwickelt?",
+                    nl: "Welke chemische transformatie vindt plaats tijdens 'rijping' van puerh thee die zijn karakteristieke aardse complexiteit ontwikkelt?"
+                },
+                options: [
+                    {
+                        en: "Microbial fermentation by Aspergillus, yeasts, and bacteria converts catechins into theabrownins, statins, and complex polysaccharides over years",
+                        es: "Fermentación microbiana por Aspergillus, levaduras y bacterias convierte catequinas en teabrownins, estatinas y polisacáridos complejos durante años",
+                        de: "Mikrobielle Fermentation durch Aspergillus, Hefen und Bakterien wandelt Catechine über Jahre in Theabrownins, Statine und komplexe Polysaccharide um",
+                        nl: "Microbiële fermentatie door Aspergillus, gisten en bacteriën zet catechines om in theabrownins, statines en complexe polysachariden over jaren"
+                    },
+                    {
+                        en: "Simple oxidation from air exposure like wine aging",
+                        es: "Oxidación simple por exposición al aire como envejecimiento de vino",
+                        de: "Einfache Oxidation durch Luftexposition wie Weinreifung",
+                        nl: "Simpele oxidatie door lucht blootstelling zoals wijn rijping"
+                    },
+                    {
+                        en: "Evaporation of water concentrating existing compounds",
+                        es: "Evaporación de agua concentrando compuestos existentes",
+                        de: "Verdunstung von Wasser, die bestehende Verbindungen konzentriert",
+                        nl: "Verdamping van water wat bestaande verbindingen concentreert"
+                    },
+                    {
+                        en: "Chemical additives applied periodically during storage",
+                        es: "Aditivos químicos aplicados periódicamente durante almacenamiento",
+                        de: "Chemische Zusatzstoffe, die während der Lagerung periodisch angewendet werden",
+                        nl: "Chemische additieven periodiek toegepast tijdens opslag"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Puerh aging (especially raw/sheng puerh) is a complex microbial fermentation process spanning years or decades. Aspergillus niger, A. glaucus, yeasts (Saccharomyces, Blastobotrys), and bacteria (Lactobacillus, Streptococcus) colonize the tea. These microorganisms enzymatically transform bitter catechins into smooth theabrownins (brown polymers), produce lovastatin-like statins, generate polysaccharides, and create unique volatile compounds (geosmin, pyrazines, terpenes). This creates the characteristic earthy, woody, sweet complexity. Proper storage (60-70% humidity, 20-30°C) is crucial—too dry stalls fermentation, too humid risks unpleasant mold. Aged sheng puerh can appreciate in value like fine wine.",
+                    es: "Envejecimiento puerh (especialmente puerh crudo/sheng) es proceso complejo de fermentación microbiana abarcando años o décadas. Aspergillus niger, A. glaucus, levaduras (Saccharomyces, Blastobotrys) y bacterias (Lactobacillus, Streptococcus) colonizan el té. Estos microorganismos transforman enzimáticamente catequinas amargas en theabrownins suaves (polímeros marrones), producen estatinas similares a lovastatina, generan polisacáridos y crean compuestos volátiles únicos (geosmina, pirazinas, terpenos). Esto crea complejidad terrosa, amaderada y dulce característica. Almacenamiento apropiado (60-70% humedad, 20-30°C) es crucial—demasiado seco detiene fermentación, demasiado húmedo arriesga moho desagradable. Puerh sheng envejecido puede apreciarse en valor como vino fino.",
+                    de: "Puerh-Reifung (besonders roher/Sheng-Puerh) ist ein komplexer mikrobieller Fermentationsprozess über Jahre oder Jahrzehnte. Aspergillus niger, A. glaucus, Hefen (Saccharomyces, Blastobotrys) und Bakterien (Lactobacillus, Streptococcus) besiedeln den Tee. Diese Mikroorganismen wandeln enzymatisch bittere Catechine in glatte Theabrownins (braune Polymere) um, produzieren Lovastatin-ähnliche Statine, generieren Polysaccharide und erzeugen einzigartige flüchtige Verbindungen (Geosmin, Pyrazine, Terpene). Dies schafft die charakteristische erdige, holzige, süße Komplexität. Richtige Lagerung (60-70% Luftfeuchtigkeit, 20-30°C) ist entscheidend—zu trocken stoppt Fermentation, zu feucht riskiert unangenehmen Schimmel. Gereifter Sheng Puerh kann im Wert steigen wie Wein.",
+                    nl: "Puerh rijping (vooral rauwe/sheng puerh) is een complex microbieel fermentatie proces dat jaren of decennia duurt. Aspergillus niger, A. glaucus, gisten (Saccharomyces, Blastobotrys) en bacteriën (Lactobacillus, Streptococcus) koloniseren de thee. Deze micro-organismen transformeren enzymatisch bittere catechines in gladde theabrownins (bruine polymeren), produceren lovastatin-achtige statines, genereren polysachariden en creëren unieke vluchtige verbindingen (geosmin, pyrazines, terpenen). Dit creëert de karakteristieke aardse, houtige, zoete complexiteit. Juiste opslag (60-70% vochtigheid, 20-30°C) is cruciaal—te droog stopt fermentatie, te vochtig riskeert onaangename schimmel. Gerijpte sheng puerh kan in waarde stijgen zoals fijne wijn."
+                }
+            },
+            {
+                question: {
+                    en: "What is the scientific basis for 'tea ceremony' water temperature variations for different tea types?",
+                    es: "¿Cuál es la base científica para variaciones de temperatura del agua en 'ceremonia del té' para diferentes tipos de té?",
+                    de: "Was ist die wissenschaftliche Grundlage für Wassertemperaturvariationen in der 'Teezeremonie' für verschiedene Teetypen?",
+                    nl: "Wat is de wetenschappelijke basis voor water temperatuur variaties in 'thee ceremonie' voor verschillende thee types?"
+                },
+                options: [
+                    {
+                        en: "Different temperatures selectively extract specific compounds: lower temps (60-70°C) favor amino acids/sweetness, higher temps (90-100°C) extract more catechins/tannins",
+                        es: "Diferentes temperaturas extraen selectivamente compuestos específicos: temps más bajas (60-70°C) favorecen aminoácidos/dulzura, temps más altas (90-100°C) extraen más catequinas/taninos",
+                        de: "Verschiedene Temperaturen extrahieren selektiv spezifische Verbindungen: niedrigere Temps (60-70°C) begünstigen Aminosäuren/Süße, höhere Temps (90-100°C) extrahieren mehr Catechine/Tannine",
+                        nl: "Verschillende temperaturen extraheren selectief specifieke verbindingen: lagere temps (60-70°C) bevorderen aminozuren/zoetheid, hogere temps (90-100°C) extraheren meer catechines/tannines"
+                    },
+                    {
+                        en: "Temperature variations are purely traditional with no chemical basis",
+                        es: "Variaciones de temperatura son puramente tradicionales sin base química",
+                        de: "Temperaturvariationen sind rein traditionell ohne chemische Grundlage",
+                        nl: "Temperatuur variaties zijn puur traditioneel zonder chemische basis"
+                    },
+                    {
+                        en: "All teas should be brewed at boiling temperature for maximum extraction",
+                        es: "Todos los tés deben prepararse a temperatura de ebullición para máxima extracción",
+                        de: "Alle Tees sollten bei Siedetemperatur für maximale Extraktion gebrüht werden",
+                        nl: "Alle thee zou moeten worden gezet op kooktemperatuur voor maximale extractie"
+                    },
+                    {
+                        en: "Lower temperatures are only used to prevent burning the tongue",
+                        es: "Temperaturas más bajas solo se usan para prevenir quemar la lengua",
+                        de: "Niedrigere Temperaturen werden nur verwendet, um Verbrennung der Zunge zu verhindern",
+                        nl: "Lagere temperaturen worden alleen gebruikt om verbranding van de tong te voorkomen"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Water temperature dramatically affects extraction kinetics of different compounds. Amino acids (L-theanine, glutamic acid) are water-soluble and extract well at lower temperatures (60-75°C), providing sweetness and umami. Catechins and tannins require higher temperatures (80-100°C) for efficient extraction but can overwhelm delicate teas with bitterness and astringency. This is why: Japanese greens use 60-70°C (preserving sweet amino acid profile), Chinese greens 75-85°C (balance), oolongs 85-95°C (moderate oxidation tolerates heat), black teas 90-100°C (fully oxidized, needs full extraction). Water chemistry also matters—soft water (low TDS) extracts more gently than hard water.",
+                    es: "Temperatura del agua afecta dramáticamente cinética de extracción de diferentes compuestos. Aminoácidos (L-teanina, ácido glutámico) son solubles en agua y extraen bien a temperaturas más bajas (60-75°C), proporcionando dulzura y umami. Catequinas y taninos requieren temperaturas más altas (80-100°C) para extracción eficiente pero pueden abrumar tés delicados con amargor y astringencia. Por esto: verdes japoneses usan 60-70°C (preservando perfil dulce de aminoácidos), verdes chinos 75-85°C (balance), oolongs 85-95°C (oxidación moderada tolera calor), tés negros 90-100°C (completamente oxidados, necesitan extracción completa). Química del agua también importa—agua blanda (bajo TDS) extrae más suavemente que agua dura.",
+                    de: "Wassertemperatur beeinflusst die Extraktionskinetik verschiedener Verbindungen dramatisch. Aminosäuren (L-Theanin, Glutaminsäure) sind wasserlöslich und extrahieren gut bei niedrigeren Temperaturen (60-75°C), liefern Süße und Umami. Catechine und Tannine erfordern höhere Temperaturen (80-100°C) für effiziente Extraktion, können aber zarte Tees mit Bitterkeit und Adstringenz überwältigen. Deshalb: Japangrüns verwenden 60-70°C (Bewahrung süßen Aminosäureprofils), Chinagrüns 75-85°C (Balance), Oolongs 85-95°C (moderate Oxidation toleriert Hitze), Schwarztees 90-100°C (vollständig oxidiert, benötigen volle Extraktion). Wasserchemie ist auch wichtig—weiches Wasser (niedriger TDS) extrahiert sanfter als hartes Wasser.",
+                    nl: "Water temperatuur beïnvloedt de extractie kinetiek van verschillende verbindingen dramatisch. Aminozuren (L-theanine, glutaminezuur) zijn water-oplosbaar en extraheren goed bij lagere temperaturen (60-75°C), wat zoetheid en umami levert. Catechines en tannines vereisen hogere temperaturen (80-100°C) voor efficiënte extractie maar kunnen delicate thee overweldigen met bitterheid en samentrekking. Daarom: Japanse groene thee gebruikt 60-70°C (behoud van zoet aminozuur profiel), Chinese groene thee 75-85°C (balans), oolongs 85-95°C (gematigde oxidatie tolereert hitte), zwarte thee 90-100°C (volledig geoxideerd, vereist volledige extractie). Water chemie is ook belangrijk—zacht water (laag TDS) extraheert zachter dan hard water."
+                }
+            },
+            {
+                question: {
+                    en: "What molecular changes occur in tea leaves during the 'rolling' or 'bruising' process?",
+                    es: "¿Qué cambios moleculares ocurren en hojas de té durante el proceso de 'enrollado' o 'magulladura'?",
+                    de: "Welche molekularen Veränderungen treten in Teeblättern während des 'Roll-' oder 'Quetsch'-Prozesses auf?",
+                    nl: "Welke moleculaire veranderingen treden op in thee bladeren tijdens het 'rollen' of 'kneuzen' proces?"
+                },
+                options: [
+                    {
+                        en: "Cell wall rupture releases polyphenol oxidase enzymes that contact catechin substrates, initiating enzymatic oxidation and flavor development",
+                        es: "Ruptura de pared celular libera enzimas polifenol oxidasa que contactan sustratos de catequina, iniciando oxidación enzimática y desarrollo de sabor",
+                        de: "Zellwandruptur setzt Polyphenoloxidase-Enzyme frei, die Catechin-Substrate kontaktieren und enzymatische Oxidation und Geschmacksentwicklung initiieren",
+                        nl: "Celwand breuk geeft polyfenol oxidase enzymen vrij die catechine substraten contacteren, wat enzymatische oxidatie en smaakontwikkeling initieert"
+                    },
+                    {
+                        en: "Rolling only shapes leaves for aesthetic appearance without chemical changes",
+                        es: "Enrollado solo da forma a hojas para apariencia estética sin cambios químicos",
+                        de: "Rollen formt nur Blätter für ästhetisches Aussehen ohne chemische Veränderungen",
+                        nl: "Rollen vormt alleen bladeren voor esthetisch uiterlijk zonder chemische veranderingen"
+                    },
+                    {
+                        en: "Mechanical pressure squeezes out bitter compounds into waste water",
+                        es: "Presión mecánica exprime compuestos amargos en agua residual",
+                        de: "Mechanischer Druck presst bittere Verbindungen in Abwasser aus",
+                        nl: "Mechanische druk perst bittere verbindingen uit in afvalwater"
+                    },
+                    {
+                        en: "Rolling adds oils from the roller machinery that create flavor",
+                        es: "Enrollado añade aceites de maquinaria enrolladora que crean sabor",
+                        de: "Rollen fügt Öle von der Rollmaschine hinzu, die Geschmack erzeugen",
+                        nl: "Rollen voegt oliën toe van de rol machine die smaak creëren"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Rolling or bruising is mechanically critical for tea oxidation. In intact leaf cells, catechins (substrates) and polyphenol oxidase (PPO) enzymes are separated in different cellular compartments—catechins in vacuoles, PPO in chloroplasts. Rolling ruptures cell walls and membranes, mixing these previously separated components. PPO catalyzes oxidation of catechins (EGCG, ECG, EC) into orange theaflavins and brown thearubigins. The degree of rolling controls oxidation intensity: light rolling for oolongs (partial oxidation), aggressive rolling for black teas (full oxidation). Rolling also releases essential oils from damaged oil glands, enhancing aroma.",
+                    es: "Enrollado o magulladura es mecánicamente crítico para oxidación del té. En células de hoja intactas, catequinas (sustratos) y enzimas polifenol oxidasa (PPO) están separadas en diferentes compartimentos celulares—catequinas en vacuolas, PPO en cloroplastos. Enrollado rompe paredes y membranas celulares, mezclando estos componentes previamente separados. PPO cataliza oxidación de catequinas (EGCG, ECG, EC) en teaflavinas naranjas y tearrubiginas marrones. Grado de enrollado controla intensidad de oxidación: enrollado ligero para oolongs (oxidación parcial), enrollado agresivo para tés negros (oxidación completa). Enrollado también libera aceites esenciales de glándulas de aceite dañadas, mejorando aroma.",
+                    de: "Rollen oder Quetschen ist mechanisch kritisch für Tee-Oxidation. In intakten Blattzellen sind Catechine (Substrate) und Polyphenoloxidase (PPO)-Enzyme in verschiedenen zellulären Kompartimenten getrennt—Catechine in Vakuolen, PPO in Chloroplasten. Rollen zerreißt Zellwände und Membranen und mischt diese zuvor getrennten Komponenten. PPO katalysiert Oxidation von Catechinen (EGCG, ECG, EC) zu orangefarbenen Theaflavinen und braunen Thearubiginen. Der Grad des Rollens kontrolliert Oxidationsintensität: leichtes Rollen für Oolongs (teilweise Oxidation), aggressives Rollen für Schwarztees (volle Oxidation). Rollen setzt auch ätherische Öle aus beschädigten Öldrüsen frei und verstärkt Aroma.",
+                    nl: "Rollen of kneuzen is mechanisch kritiek voor thee oxidatie. In intacte bladcellen zijn catechines (substraten) en polyfenol oxidase (PPO) enzymen gescheiden in verschillende cellulaire compartimenten—catechines in vacuolen, PPO in chloroplasten. Rollen breekt celwanden en membranen, wat deze voorheen gescheiden componenten mengt. PPO katalyseert oxidatie van catechines (EGCG, ECG, EC) tot oranje theaflavines en bruine thearubigines. De mate van rollen controleert oxidatie intensiteit: licht rollen voor oolongs (gedeeltelijke oxidatie), agressief rollen voor zwarte thee (volledige oxidatie). Rollen geeft ook essentiële oliën vrij van beschadigde olie klieren, wat aroma versterkt."
+                }
+            },
+            {
+                question: {
+                    en: "What is the biochemical reason why high-altitude teas command premium prices?",
+                    es: "¿Cuál es la razón bioquímica por la que tés de gran altitud obtienen precios premium?",
+                    de: "Was ist der biochemische Grund, warum Hochland-Tees Premiumpreise erzielen?",
+                    nl: "Wat is de biochemische reden waarom hoog-gelegen thee premium prijzen haalt?"
+                },
+                options: [
+                    {
+                        en: "Slower growth from cooler temps and UV stress increases secondary metabolite production (catechins, amino acids, aromatics) creating more complex flavor profiles",
+                        es: "Crecimiento más lento por temperaturas más frías y estrés UV aumenta producción de metabolitos secundarios (catequinas, aminoácidos, aromáticos) creando perfiles de sabor más complejos",
+                        de: "Langsameres Wachstum durch kühlere Temperaturen und UV-Stress erhöht Sekundärmetabolit-Produktion (Catechine, Aminosäuren, Aromastoffe) und schafft komplexere Geschmacksprofile",
+                        nl: "Langzamere groei door koelere temps en UV stress verhoogt secundaire metaboliet productie (catechines, aminozuren, aromaten) wat complexere smaakprofielen creëert"
+                    },
+                    {
+                        en: "High altitude only affects rarity/scarcity, not actual tea chemistry",
+                        es: "Gran altitud solo afecta rareza/escasez, no química real del té",
+                        de: "Hochland beeinflusst nur Seltenheit/Knappheit, nicht tatsächliche Tee-Chemie",
+                        nl: "Hoge hoogte beïnvloedt alleen zeldzaamheid/schaarste, niet werkelijke thee chemie"
+                    },
+                    {
+                        en: "Mountain mist adds moisture that dilutes flavor compounds",
+                        es: "Niebla de montaña añade humedad que diluye compuestos de sabor",
+                        de: "Bergnebel fügt Feuchtigkeit hinzu, die Geschmacksverbindungen verdünnt",
+                        nl: "Berg mist voegt vocht toe dat smaak verbindingen verdunt"
+                    },
+                    {
+                        en: "Altitude prevents tea plants from producing caffeine",
+                        es: "Altitud previene que plantas de té produzcan cafeína",
+                        de: "Höhe verhindert, dass Teepflanzen Koffein produzieren",
+                        nl: "Hoogte voorkomt dat thee planten cafeïne produceren"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "High-altitude tea gardens (1000-2500m) experience cooler temperatures, greater diurnal temperature swings, intense UV radiation, and often misty conditions. These environmental stresses slow plant growth, allowing more time for complex flavor compound development. Specifically: 1) UV stress triggers increased polyphenol (catechin) production as photoprotection; 2) Cool temps promote amino acid (theanine) accumulation; 3) Slower growth concentrates aromatic compounds; 4) Stress-induced terpene production adds floral/fruity notes. The result is teas with exceptional depth, sweetness, and floral character. Famous examples: Darjeeling (2000m), Taiwan high-mountain oolong (1500-2600m), Yunnan ancient tree puerh (1500-2300m).",
+                    es: "Jardines de té de gran altitud (1000-2500m) experimentan temperaturas más frías, mayores oscilaciones de temperatura diurna, radiación UV intensa y a menudo condiciones neblinosas. Estos estreses ambientales ralentizan crecimiento de planta, permitiendo más tiempo para desarrollo de compuestos de sabor complejos. Específicamente: 1) Estrés UV desencadena producción aumentada de polifenoles (catequina) como fotoprotección; 2) Temperaturas frías promueven acumulación de aminoácidos (teanina); 3) Crecimiento más lento concentra compuestos aromáticos; 4) Producción de terpenos inducida por estrés añade notas florales/afrutadas. Resultado son tés con profundidad excepcional, dulzura y carácter floral. Ejemplos famosos: Darjeeling (2000m), oolong de alta montaña taiwanés (1500-2600m), puerh de árbol antiguo de Yunnan (1500-2300m).",
+                    de: "Hochland-Teegärten (1000-2500m) erleben kühlere Temperaturen, größere tägliche Temperaturschwankungen, intensive UV-Strahlung und oft neblige Bedingungen. Diese Umweltstresse verlangsamen Pflanzenwachstum und erlauben mehr Zeit für komplexe Geschmacksverbindungsentwicklung. Spezifisch: 1) UV-Stress löst erhöhte Polyphenol (Catechin)-Produktion als Fotoprotektion aus; 2) Kühle Temps fördern Aminosäure (Theanin)-Ansammlung; 3) Langsameres Wachstum konzentriert Aromaverbindungen; 4) Stress-induzierte Terpen-Produktion fügt blumige/fruchtige Noten hinzu. Ergebnis sind Tees mit außergewöhnlicher Tiefe, Süße und blumigem Charakter. Berühmte Beispiele: Darjeeling (2000m), Taiwan Hochgebirgs-Oolong (1500-2600m), Yunnan Urbaum-Puerh (1500-2300m).",
+                    nl: "Hoog-gelegen thee tuinen (1000-2500m) ervaren koelere temperaturen, grotere dagelijkse temperatuur schommelingen, intense UV straling en vaak mistige omstandigheden. Deze omgevings stresses vertragen planten groei, wat meer tijd geeft voor complexe smaak verbinding ontwikkeling. Specifiek: 1) UV stress triggert verhoogde polyfenol (catechine) productie als fotobescherming; 2) Koele temps bevorderen aminozuur (theanine) accumulatie; 3) Langzamere groei concentreert aromatische verbindingen; 4) Stress-geïnduceerde terpeen productie voegt bloemen/fruitige tonen toe. Resultaat zijn thee met uitzonderlijke diepte, zoetheid en bloemig karakter. Beroemde voorbeelden: Darjeeling (2000m), Taiwan hoge-berg oolong (1500-2600m), Yunnan oude boom puerh (1500-2300m)."
+                }
+            }

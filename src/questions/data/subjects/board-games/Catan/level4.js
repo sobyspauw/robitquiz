@@ -847,27 +847,6 @@
           de: "Straßenbau lässt dich sofort 2 kostenlose Straßen platzieren. Seine besten strategischen Verwendungen sind: (1) die längste Straße zu sichern, indem du sofort von 3 auf 5 Straßen springst, oder (2) zu einem wertvollen Siedlungsstandort zu eilen, bevor ein Gegner dich blockieren kann. Spart 2 Holz + 2 Lehm.",
           nl: "Wegenbouw laat je onmiddellijk 2 gratis wegen plaatsen. De beste strategische toepassingen zijn: (1) Langste Weg veiligstellen door instant van 3 naar 5 wegen te springen, of (2) racen om een waardevolle nederzettingslocatie te bereiken voordat een tegenstander je kan blokkeren. Bespaart 2 hout + 2 baksteen."
         }
-      },
-      {
-        question: {
-          en: "Why is the second settlement placement (in reverse order) strategically important?",
-          es: "¿Por qué es estratégicamente importante la colocación del segundo asentamiento (en orden inverso)?",
-          de: "Warum ist die zweite Siedlungsplatzierung (in umgekehrter Reihenfolge) strategisch wichtig?",
-          nl: "Waarom is de tweede nederzettingsplaatsing (in omgekeerde volgorde) strategisch belangrijk?"
-        },
-        options: [
-          { en: "You get starting resources from it, and last player picks twice consecutively", es: "Obtienes recursos iniciales de ella, y el último jugador elige dos veces consecutivamente", de: "Du erhältst Startressourcen davon, und der letzte Spieler wählt zweimal hintereinander", nl: "Je krijgt starthulpbronnen ervan, en laatste speler kiest tweemaal achtereenvolgens" },
-          { en: "It's worth double victory points", es: "Vale el doble de puntos de victoria", de: "Sie ist doppelte Siegpunkte wert", nl: "Het is dubbele overwinningspunten waard" },
-          { en: "It can be placed anywhere without restrictions", es: "Se puede colocar en cualquier lugar sin restricciones", de: "Sie kann überall ohne Einschränkungen platziert werden", nl: "Het kan overal zonder beperkingen worden geplaatst" },
-          { en: "It always produces more resources", es: "Siempre produce más recursos", de: "Sie produziert immer mehr Ressourcen", nl: "Het produceert altijd meer hulpbronnen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The second settlement gives you starting resources (one of each adjacent hex type), helping you build on turn 1. Additionally, going last in turn order means you place both your second and first settlement back-to-back, allowing you to secure two complementary locations without interference.",
-          es: "El segundo asentamiento te da recursos iniciales (uno de cada tipo de hexágono adyacente), ayudándote a construir en el turno 1. Además, ir último en el orden de turnos significa que colocas tu segundo y primer asentamiento consecutivamente, permitiéndote asegurar dos ubicaciones complementarias sin interferencia.",
-          de: "Die zweite Siedlung gibt dir Startressourcen (eine von jedem angrenzenden Feldtyp), was dir hilft, in Runde 1 zu bauen. Außerdem bedeutet das Gehen als Letzter in der Zugreihenfolge, dass du deine zweite und erste Siedlung hintereinander platzierst, was es dir ermöglicht, zwei komplementäre Standorte ohne Störung zu sichern.",
-          nl: "De tweede nederzetting geeft je starthulpbronnen (één van elk aangrenzend hextype), wat je helpt om in beurt 1 te bouwen. Bovendien betekent als laatste in beurtvolgorde gaan dat je zowel je tweede als eerste nederzetting achter elkaar plaatst, waardoor je twee complementaire locaties kunt beveiligen zonder storing."
-        }
       }
     ]
   };

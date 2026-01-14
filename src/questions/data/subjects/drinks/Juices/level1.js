@@ -838,6 +838,426 @@
           nl: "Als sap te lang buiten de koelkast wordt gelaten, kan het bederven, bacteriën kweken en vies smaken of je ziek maken."
         }
       },
+      {
+        question: {
+          en: "What fruit makes peach juice?",
+          es: "¿Qué fruta hace el jugo de durazno?",
+          de: "Welche Frucht macht Pfirsichsaft?",
+          nl: "Welke vrucht maakt perziksap?"
+        },
+        options: [
+          { en: "Peach", es: "Durazno", de: "Pfirsich", nl: "Perzik" },
+          { en: "Lemon", es: "Limón", de: "Zitrone", nl: "Citroen" },
+          { en: "Cucumber", es: "Pepino", de: "Gurke", nl: "Komkommer" },
+          { en: "Tomato", es: "Tomate", de: "Tomate", nl: "Tomaat" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Peach juice is made from peaches, which are soft, fuzzy fruits with sweet flavor.",
+          es: "El jugo de durazno se hace de duraznos, que son frutas suaves y peludas con sabor dulce.",
+          de: "Pfirsichsaft wird aus Pfirsichen hergestellt, weichen, flaumigen Früchten mit süßem Geschmack.",
+          nl: "Perziksap wordt gemaakt van perziken, die zachte, harige vruchten zijn met zoete smaak."
+        }
+      },
+      {
+        question: {
+          en: "Which vegetable makes green juice?",
+          es: "¿Qué vegetal hace jugo verde?",
+          de: "Welches Gemüse macht grünen Saft?",
+          nl: "Welke groente maakt groen sap?"
+        },
+        options: [
+          { en: "Spinach or cucumber", es: "Espinaca o pepino", de: "Spinat oder Gurke", nl: "Spinazie of komkommer" },
+          { en: "Potato", es: "Papa", de: "Kartoffel", nl: "Aardappel" },
+          { en: "Corn", es: "Maíz", de: "Mais", nl: "Maïs" },
+          { en: "Beet", es: "Remolacha", de: "Rübe", nl: "Biet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Green vegetables like spinach and cucumber make green juice that is very healthy.",
+          es: "Vegetales verdes como espinaca y pepino hacen jugo verde que es muy saludable.",
+          de: "Grünes Gemüse wie Spinat und Gurke macht grünen Saft, der sehr gesund ist.",
+          nl: "Groene groenten zoals spinazie en komkommer maken groen sap dat zeer gezond is."
+        }
+      },
+      {
+        question: {
+          en: "Can juice be frozen into popsicles?",
+          es: "¿Se puede congelar el jugo en paletas?",
+          de: "Kann man Saft zu Eis am Stiel einfrieren?",
+          nl: "Kan sap worden bevroren tot ijslollys?"
+        },
+        options: [
+          { en: "Yes, juice makes delicious frozen treats", es: "Sí, el jugo hace deliciosas golosinas congeladas", de: "Ja, Saft macht köstliche gefrorene Leckereien", nl: "Ja, sap maakt heerlijke bevroren lekkernijen" },
+          { en: "No, juice never freezes", es: "No, el jugo nunca se congela", de: "Nein, Saft friert nie ein", nl: "Nee, sap bevriest nooit" },
+          { en: "Only milk can be frozen", es: "Solo la leche se puede congelar", de: "Nur Milch kann eingefroren werden", nl: "Alleen melk kan worden bevroren" },
+          { en: "Freezing ruins juice", es: "Congelar arruina el jugo", de: "Einfrieren verdirbt Saft", nl: "Bevriezen bederft sap" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Juice can be frozen into popsicles or ice cubes for a refreshing frozen treat.",
+          es: "El jugo se puede congelar en paletas o cubitos de hielo para un refrigerio congelado refrescante.",
+          de: "Saft kann zu Eis am Stiel oder Eiswürfeln eingefroren werden für eine erfrischende gefrorene Leckerei.",
+          nl: "Sap kan worden bevroren tot ijslollys of ijsblokjes voor een verfrissende bevroren lekkernij."
+        }
+      },
+      {
+        question: {
+          en: "What makes pomegranate juice red?",
+          es: "¿Qué hace que el jugo de granada sea rojo?",
+          de: "Was macht Granatapfelsaft rot?",
+          nl: "Wat maakt granaatappelsap rood?"
+        },
+        options: [
+          { en: "The red seeds inside the pomegranate", es: "Las semillas rojas dentro de la granada", de: "Die roten Samen im Granatapfel", nl: "De rode zaadjes in de granaatappel" },
+          { en: "Food coloring", es: "Colorante alimentario", de: "Lebensmittelfarbe", nl: "Voedselkleurstof" },
+          { en: "Red flowers", es: "Flores rojas", de: "Rote Blumen", nl: "Rode bloemen" },
+          { en: "Beets", es: "Remolachas", de: "Rüben", nl: "Bieten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pomegranate juice is red because it comes from the red seeds (arils) inside the pomegranate fruit.",
+          es: "El jugo de granada es rojo porque proviene de las semillas rojas (arilos) dentro de la fruta de granada.",
+          de: "Granatapfelsaft ist rot, weil er aus den roten Samen (Arilli) im Inneren der Granatapfelfrucht kommt.",
+          nl: "Granaatappelsap is rood omdat het komt van de rode zaadjes (pitjes) in de granaatappelvrucht."
+        }
+      },
+      {
+        question: {
+          en: "Is freshly squeezed juice better than juice from a bottle?",
+          es: "¿Es mejor el jugo recién exprimido que el jugo de una botella?",
+          de: "Ist frisch gepresster Saft besser als Saft aus der Flasche?",
+          nl: "Is vers geperst sap beter dan sap uit een fles?"
+        },
+        options: [
+          { en: "Fresh juice usually has more vitamins", es: "El jugo fresco generalmente tiene más vitaminas", de: "Frischer Saft hat normalerweise mehr Vitamine", nl: "Vers sap heeft meestal meer vitamines" },
+          { en: "Bottled juice is always better", es: "El jugo embotellado siempre es mejor", de: "Flaschensaft ist immer besser", nl: "Flessensap is altijd beter" },
+          { en: "They are exactly the same", es: "Son exactamente lo mismo", de: "Sie sind genau gleich", nl: "Ze zijn precies hetzelfde" },
+          { en: "Fresh juice has no vitamins", es: "El jugo fresco no tiene vitaminas", de: "Frischer Saft hat keine Vitamine", nl: "Vers sap heeft geen vitamines" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Freshly squeezed juice usually has more vitamins because it hasn't been stored for a long time.",
+          es: "El jugo recién exprimido generalmente tiene más vitaminas porque no ha sido almacenado por mucho tiempo.",
+          de: "Frisch gepresster Saft hat normalerweise mehr Vitamine, weil er nicht lange gelagert wurde.",
+          nl: "Vers geperst sap heeft meestal meer vitamines omdat het niet lang is opgeslagen."
+        }
+      },
+      {
+        question: {
+          en: "What fruit makes kiwi juice green?",
+          es: "¿Qué fruta hace que el jugo de kiwi sea verde?",
+          de: "Welche Frucht macht Kiwisaft grün?",
+          nl: "Welke vrucht maakt kiwisap groen?"
+        },
+        options: [
+          { en: "Kiwi fruit, which is green inside", es: "Fruta de kiwi, que es verde por dentro", de: "Kiwifrucht, die innen grün ist", nl: "Kiwivrucht, die van binnen groen is" },
+          { en: "Green apples", es: "Manzanas verdes", de: "Grüne Äpfel", nl: "Groene appels" },
+          { en: "Limes", es: "Limas", de: "Limetten", nl: "Limoenen" },
+          { en: "Green paint", es: "Pintura verde", de: "Grüne Farbe", nl: "Groene verf" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Kiwi juice is green because kiwi fruit has bright green flesh inside with tiny black seeds.",
+          es: "El jugo de kiwi es verde porque la fruta de kiwi tiene pulpa verde brillante por dentro con pequeñas semillas negras.",
+          de: "Kiwisaft ist grün, weil Kiwifrucht innen hellgrünes Fruchtfleisch mit winzigen schwarzen Samen hat.",
+          nl: "Kiwisap is groen omdat kiwivrucht helder groen vruchtvlees heeft van binnen met kleine zwarte zaadjes."
+        }
+      },
+      {
+        question: {
+          en: "How much juice should you drink each day?",
+          es: "¿Cuánto jugo debes beber cada día?",
+          de: "Wie viel Saft solltest du jeden Tag trinken?",
+          nl: "Hoeveel sap moet je elke dag drinken?"
+        },
+        options: [
+          { en: "A small glass is enough", es: "Un vaso pequeño es suficiente", de: "Ein kleines Glas ist genug", nl: "Een klein glas is genoeg" },
+          { en: "As much as you want", es: "Todo lo que quieras", de: "So viel du willst", nl: "Zoveel als je wilt" },
+          { en: "10 glasses a day", es: "10 vasos al día", de: "10 Gläser am Tag", nl: "10 glazen per dag" },
+          { en: "You should never drink juice", es: "Nunca debes beber jugo", de: "Du solltest niemals Saft trinken", nl: "Je moet nooit sap drinken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A small glass of juice each day is enough because juice has sugar, and too much sugar isn't healthy.",
+          es: "Un vaso pequeño de jugo cada día es suficiente porque el jugo tiene azúcar, y demasiada azúcar no es saludable.",
+          de: "Ein kleines Glas Saft pro Tag ist genug, weil Saft Zucker enthält, und zu viel Zucker ist nicht gesund.",
+          nl: "Een klein glas sap per dag is genoeg omdat sap suiker bevat, en te veel suiker is niet gezond."
+        }
+      },
+      {
+        question: {
+          en: "What makes beet juice purple-red?",
+          es: "¿Qué hace que el jugo de remolacha sea rojo-morado?",
+          de: "Was macht Rübensaft lila-rot?",
+          nl: "Wat maakt bietensap paars-rood?"
+        },
+        options: [
+          { en: "The color of beets", es: "El color de las remolachas", de: "Die Farbe der Rüben", nl: "De kleur van bieten" },
+          { en: "Added berries", es: "Bayas añadidas", de: "Zugesetzte Beeren", nl: "Toegevoegde bessen" },
+          { en: "Purple carrots", es: "Zanahorias moradas", de: "Lila Karotten", nl: "Paarse wortels" },
+          { en: "Wine", es: "Vino", de: "Wein", nl: "Wijn" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Beet juice is purple-red because beets are naturally deep purple-red vegetables.",
+          es: "El jugo de remolacha es rojo-morado porque las remolachas son naturalmente vegetales de color rojo-morado profundo.",
+          de: "Rübensaft ist lila-rot, weil Rüben natürlich tiefviolett-rotes Gemüse sind.",
+          nl: "Bietensap is paars-rood omdat bieten van nature diep paars-rode groenten zijn."
+        }
+      },
+      {
+        question: {
+          en: "Which juice has tiny seeds in it?",
+          es: "¿Qué jugo tiene semillas pequeñas?",
+          de: "Welcher Saft hat winzige Samen drin?",
+          nl: "Welk sap heeft kleine zaadjes erin?"
+        },
+        options: [
+          { en: "Strawberry or raspberry juice", es: "Jugo de fresa o frambuesa", de: "Erdbeer- oder Himbeersaft", nl: "Aardbei- of framboossap" },
+          { en: "Water", es: "Agua", de: "Wasser", nl: "Water" },
+          { en: "Milk", es: "Leche", de: "Milch", nl: "Melk" },
+          { en: "Soda", es: "Refresco", de: "Limonade", nl: "Frisdrank" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Strawberry and raspberry juice often have tiny seeds because these fruits have small seeds on the outside.",
+          es: "El jugo de fresa y frambuesa a menudo tiene semillas pequeñas porque estas frutas tienen semillas pequeñas en el exterior.",
+          de: "Erdbeer- und Himbeersaft haben oft winzige Samen, weil diese Früchte kleine Samen außen haben.",
+          nl: "Aardbei- en framboossap hebben vaak kleine zaadjes omdat deze vruchten kleine zaadjes aan de buitenkant hebben."
+        }
+      },
+      {
+        question: {
+          en: "What does 'pulp' mean in orange juice?",
+          es: "¿Qué significa 'pulpa' en el jugo de naranja?",
+          de: "Was bedeutet 'Fruchtfleisch' bei Orangensaft?",
+          nl: "Wat betekent 'vruchtvlees' in sinaasappelsap?"
+        },
+        options: [
+          { en: "Small pieces of the fruit", es: "Pequeños pedazos de la fruta", de: "Kleine Stücke der Frucht", nl: "Kleine stukjes van de vrucht" },
+          { en: "Sugar added to juice", es: "Azúcar añadida al jugo", de: "Zucker zum Saft hinzugefügt", nl: "Suiker toegevoegd aan sap" },
+          { en: "The bottle it comes in", es: "La botella en la que viene", de: "Die Flasche, in der es kommt", nl: "De fles waarin het zit" },
+          { en: "Ice cubes", es: "Cubitos de hielo", de: "Eiswürfel", nl: "IJsblokjes" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pulp in orange juice means small pieces of the fruit that give the juice texture.",
+          es: "La pulpa en el jugo de naranja significa pequeños pedazos de la fruta que le dan textura al jugo.",
+          de: "Fruchtfleisch in Orangensaft bedeutet kleine Fruchtstücke, die dem Saft Textur geben.",
+          nl: "Vruchtvlees in sinaasappelsap betekent kleine stukjes van de vrucht die het sap textuur geven."
+        }
+      },
+      {
+        question: {
+          en: "Which juice comes from a fruit that grows on a vine?",
+          es: "¿Qué jugo proviene de una fruta que crece en una vid?",
+          de: "Welcher Saft kommt von einer Frucht, die an einer Rebe wächst?",
+          nl: "Welk sap komt van een vrucht die aan een wijnstok groeit?"
+        },
+        options: [
+          { en: "Grape juice", es: "Jugo de uva", de: "Traubensaft", nl: "Druivensap" },
+          { en: "Orange juice", es: "Jugo de naranja", de: "Orangensaft", nl: "Sinaasappelsap" },
+          { en: "Banana juice", es: "Jugo de plátano", de: "Bananensaft", nl: "Bananensap" },
+          { en: "Coconut juice", es: "Jugo de coco", de: "Kokosnusssaft", nl: "Kokossap" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Grape juice comes from grapes, which grow in bunches on vines.",
+          es: "El jugo de uva proviene de las uvas, que crecen en racimos en las vides.",
+          de: "Traubensaft kommt von Trauben, die in Trauben an Reben wachsen.",
+          nl: "Druivensap komt van druiven, die in trossen aan wijnstokken groeien."
+        }
+      },
+      {
+        question: {
+          en: "What makes apple juice different colors (clear or cloudy)?",
+          es: "¿Qué hace que el jugo de manzana tenga diferentes colores (claro o turbio)?",
+          de: "Was macht Apfelsaft unterschiedlich farbig (klar oder trüb)?",
+          nl: "Wat maakt appelsap verschillende kleuren (helder of troebel)?"
+        },
+        options: [
+          { en: "Whether the pulp is filtered out or left in", es: "Si la pulpa es filtrada o dejada", de: "Ob das Fruchtfleisch herausgefiltert oder dringelassen wird", nl: "Of het vruchtvlees eruit gefilterd wordt of erin blijft" },
+          { en: "Different types of sugar", es: "Diferentes tipos de azúcar", de: "Verschiedene Zuckerarten", nl: "Verschillende soorten suiker" },
+          { en: "The time of day it's made", es: "La hora del día en que se hace", de: "Die Tageszeit, zu der es gemacht wird", nl: "Het tijdstip van de dag waarop het gemaakt wordt" },
+          { en: "The color of the bottle", es: "El color de la botella", de: "Die Farbe der Flasche", nl: "De kleur van de fles" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Apple juice can be clear if the pulp is filtered out, or cloudy if some pulp is left in the juice.",
+          es: "El jugo de manzana puede ser claro si la pulpa es filtrada, o turbio si algo de pulpa queda en el jugo.",
+          de: "Apfelsaft kann klar sein, wenn das Fruchtfleisch herausgefiltert wird, oder trüb, wenn etwas Fruchtfleisch im Saft bleibt.",
+          nl: "Appelsap kan helder zijn als het vruchtvlees eruit gefilterd wordt, of troebel als wat vruchtvlees in het sap blijft."
+        }
+      },
+      {
+        question: {
+          en: "Why do some juices have added sugar?",
+          es: "¿Por qué algunos jugos tienen azúcar añadida?",
+          de: "Warum haben manche Säfte zugesetzten Zucker?",
+          nl: "Waarom hebben sommige sappen toegevoegde suiker?"
+        },
+        options: [
+          { en: "To make sour fruits taste sweeter", es: "Para hacer que las frutas agrias sepan más dulces", de: "Um saure Früchte süßer zu machen", nl: "Om zure vruchten zoeter te laten smaken" },
+          { en: "To make juice healthier", es: "Para hacer el jugo más saludable", de: "Um Saft gesünder zu machen", nl: "Om sap gezonder te maken" },
+          { en: "To change the color", es: "Para cambiar el color", de: "Um die Farbe zu ändern", nl: "Om de kleur te veranderen" },
+          { en: "To make juice freeze better", es: "Para que el jugo se congele mejor", de: "Damit Saft besser gefriert", nl: "Om sap beter te laten bevriezen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Some juices have added sugar to make sour fruits like cranberries or grapefruit taste sweeter, but natural juice without added sugar is healthier.",
+          es: "Algunos jugos tienen azúcar añadida para hacer que frutas agrias como arándanos o toronja sepan más dulces, pero el jugo natural sin azúcar añadida es más saludable.",
+          de: "Manche Säfte haben zugesetzten Zucker, um saure Früchte wie Cranberries oder Grapefruits süßer zu machen, aber natürlicher Saft ohne zugesetzten Zucker ist gesünder.",
+          nl: "Sommige sappen hebben toegevoegde suiker om zure vruchten zoals veenbessen of grapefruit zoeter te laten smaken, maar natuurlijk sap zonder toegevoegde suiker is gezonder."
+        }
+      },
+      {
+        question: {
+          en: "Can you drink too much juice?",
+          es: "¿Puedes beber demasiado jugo?",
+          de: "Kannst du zu viel Saft trinken?",
+          nl: "Kun je te veel sap drinken?"
+        },
+        options: [
+          { en: "Yes, too much juice can give you too much sugar", es: "Sí, demasiado jugo puede darte demasiada azúcar", de: "Ja, zu viel Saft kann zu viel Zucker geben", nl: "Ja, te veel sap kan te veel suiker geven" },
+          { en: "No, you can never have too much juice", es: "No, nunca puedes tener demasiado jugo", de: "Nein, man kann nie zu viel Saft haben", nl: "Nee, je kunt nooit te veel sap hebben" },
+          { en: "Juice has no sugar", es: "El jugo no tiene azúcar", de: "Saft hat keinen Zucker", nl: "Sap heeft geen suiker" },
+          { en: "Only adults can drink too much", es: "Solo los adultos pueden beber demasiado", de: "Nur Erwachsene können zu viel trinken", nl: "Alleen volwassenen kunnen te veel drinken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Yes, drinking too much juice can give you too much sugar, which isn't healthy. It's better to also eat whole fruits and drink water.",
+          es: "Sí, beber demasiado jugo puede darte demasiada azúcar, lo cual no es saludable. Es mejor también comer frutas enteras y beber agua.",
+          de: "Ja, zu viel Saft trinken kann zu viel Zucker geben, was nicht gesund ist. Es ist besser, auch ganze Früchte zu essen und Wasser zu trinken.",
+          nl: "Ja, te veel sap drinken kan te veel suiker geven, wat niet gezond is. Het is beter om ook hele vruchten te eten en water te drinken."
+        }
+      },
+      {
+        question: {
+          en: "Which juice is made from a citrus fruit?",
+          es: "¿Qué jugo se hace de una fruta cítrica?",
+          de: "Welcher Saft wird aus einer Zitrusfrucht gemacht?",
+          nl: "Welk sap wordt gemaakt van een citrusvrucht?"
+        },
+        options: [
+          { en: "Orange, lemon, or lime juice", es: "Jugo de naranja, limón o lima", de: "Orangen-, Zitronen- oder Limettensaft", nl: "Sinaasappel-, citroen- of limoensap" },
+          { en: "Apple juice", es: "Jugo de manzana", de: "Apfelsaft", nl: "Appelsap" },
+          { en: "Grape juice", es: "Jugo de uva", de: "Traubensaft", nl: "Druivensap" },
+          { en: "Carrot juice", es: "Jugo de zanahoria", de: "Karottensaft", nl: "Wortelsap" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Citrus fruits include oranges, lemons, limes, and grapefruits. They all make tangy, vitamin-rich juices.",
+          es: "Las frutas cítricas incluyen naranjas, limones, limas y toronjas. Todas hacen jugos ácidos ricos en vitaminas.",
+          de: "Zitrusfrüchte umfassen Orangen, Zitronen, Limetten und Grapefruits. Sie alle machen würzige, vitaminreiche Säfte.",
+          nl: "Citrusvruchten zijn sinaasappels, citroenen, limoenen en grapefruits. Ze maken allemaal pittig, vitamine-rijk sap."
+        }
+      },
+      {
+        question: {
+          en: "What is concentrate juice?",
+          es: "¿Qué es el jugo concentrado?",
+          de: "Was ist Konzentrat-Saft?",
+          nl: "Wat is geconcentreerd sap?"
+        },
+        options: [
+          { en: "Juice with water removed, that you add water to later", es: "Jugo con agua eliminada, al que agregas agua después", de: "Saft, dem Wasser entzogen wurde, dem man später Wasser hinzufügt", nl: "Sap waar water uit is gehaald, waar je later water aan toevoegt" },
+          { en: "Very thick juice you can't drink", es: "Jugo muy espeso que no puedes beber", de: "Sehr dicker Saft, den man nicht trinken kann", nl: "Zeer dik sap dat je niet kunt drinken" },
+          { en: "Juice made from concentrate oranges", es: "Jugo hecho de naranjas concentradas", de: "Saft aus konzentrierten Orangen", nl: "Sap gemaakt van geconcentreerde sinaasappels" },
+          { en: "Juice that makes you concentrate better", es: "Jugo que te hace concentrarte mejor", de: "Saft, der dich besser konzentrieren lässt", nl: "Sap dat je beter laat concentreren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Concentrate juice has most of the water removed to make it smaller for shipping. You add water back to drink it.",
+          es: "El jugo concentrado tiene la mayor parte del agua eliminada para hacerlo más pequeño para el envío. Agregas agua de vuelta para beberlo.",
+          de: "Konzentrat-Saft hat das meiste Wasser entfernt, um ihn für den Versand kleiner zu machen. Man fügt Wasser hinzu, um ihn zu trinken.",
+          nl: "Geconcentreerd sap heeft het meeste water verwijderd om het kleiner te maken voor verzending. Je voegt water toe om het te drinken."
+        }
+      },
+      {
+        question: {
+          en: "Why is it good to drink water along with juice?",
+          es: "¿Por qué es bueno beber agua junto con el jugo?",
+          de: "Warum ist es gut, Wasser zusammen mit Saft zu trinken?",
+          nl: "Waarom is het goed om water samen met sap te drinken?"
+        },
+        options: [
+          { en: "Water helps your body and has no sugar", es: "El agua ayuda a tu cuerpo y no tiene azúcar", de: "Wasser hilft deinem Körper und hat keinen Zucker", nl: "Water helpt je lichaam en heeft geen suiker" },
+          { en: "Water tastes better than juice", es: "El agua sabe mejor que el jugo", de: "Wasser schmeckt besser als Saft", nl: "Water smaakt beter dan sap" },
+          { en: "You don't need water if you drink juice", es: "No necesitas agua si bebes jugo", de: "Du brauchst kein Wasser, wenn du Saft trinkst", nl: "Je hebt geen water nodig als je sap drinkt" },
+          { en: "Water makes juice taste better", es: "El agua hace que el jugo sepa mejor", de: "Wasser lässt Saft besser schmecken", nl: "Water laat sap beter smaken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Water is important for your body and has no sugar, while juice has natural sugar. Drinking both is a good balance.",
+          es: "El agua es importante para tu cuerpo y no tiene azúcar, mientras que el jugo tiene azúcar natural. Beber ambos es un buen equilibrio.",
+          de: "Wasser ist wichtig für deinen Körper und hat keinen Zucker, während Saft natürlichen Zucker hat. Beides zu trinken ist eine gute Balance.",
+          nl: "Water is belangrijk voor je lichaam en heeft geen suiker, terwijl sap natuurlijke suiker heeft. Beide drinken is een goede balans."
+        }
+      },
+      {
+        question: {
+          en: "What makes cherry juice dark red?",
+          es: "¿Qué hace que el jugo de cereza sea rojo oscuro?",
+          de: "Was macht Kirschsaft dunkelrot?",
+          nl: "Wat maakt kersensap donkerrood?"
+        },
+        options: [
+          { en: "The deep red color of cherries", es: "El color rojo profundo de las cerezas", de: "Die tiefrote Farbe der Kirschen", nl: "De dieprode kleur van kersen" },
+          { en: "Beet juice mixed in", es: "Jugo de remolacha mezclado", de: "Rübensaft gemischt", nl: "Bietensap gemengd" },
+          { en: "Red food coloring", es: "Colorante rojo", de: "Rote Lebensmittelfarbe", nl: "Rode voedselkleurstof" },
+          { en: "Tomato juice added", es: "Jugo de tomate agregado", de: "Tomatensaft hinzugefügt", nl: "Tomatensap toegevoegd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cherry juice is dark red because cherries are naturally deep red fruits.",
+          es: "El jugo de cereza es rojo oscuro porque las cerezas son naturalmente frutas de color rojo profundo.",
+          de: "Kirschsaft ist dunkelrot, weil Kirschen natürlich tiefrote Früchte sind.",
+          nl: "Kersensap is donkerrood omdat kersen van nature dieprode vruchten zijn."
+        }
+      },
+      {
+        question: {
+          en: "Which juice helps you when you have a cold?",
+          es: "¿Qué jugo te ayuda cuando tienes un resfriado?",
+          de: "Welcher Saft hilft dir bei einer Erkältung?",
+          nl: "Welk sap helpt je als je verkouden bent?"
+        },
+        options: [
+          { en: "Orange juice with vitamin C", es: "Jugo de naranja con vitamina C", de: "Orangensaft mit Vitamin C", nl: "Sinaasappelsap met vitamine C" },
+          { en: "Soda", es: "Refresco", de: "Limonade", nl: "Frisdrank" },
+          { en: "Coffee", es: "Café", de: "Kaffee", nl: "Koffie" },
+          { en: "Salt water", es: "Agua salada", de: "Salzwasser", nl: "Zout water" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Orange juice has vitamin C, which can help your body fight a cold and feel better.",
+          es: "El jugo de naranja tiene vitamina C, que puede ayudar a tu cuerpo a combatir un resfriado y sentirte mejor.",
+          de: "Orangensaft hat Vitamin C, das deinem Körper helfen kann, eine Erkältung zu bekämpfen und sich besser zu fühlen.",
+          nl: "Sinaasappelsap heeft vitamine C, wat je lichaam kan helpen een verkoudheid te bestrijden en je beter te voelen."
+        }
+      },
+      {
+        question: {
+          en: "What makes coconut water different from coconut milk?",
+          es: "¿Qué hace que el agua de coco sea diferente de la leche de coco?",
+          de: "Was macht Kokoswasser anders als Kokosmilch?",
+          nl: "Wat maakt kokoswater anders dan kokosmelk?"
+        },
+        options: [
+          { en: "Coconut water is the liquid inside the coconut, coconut milk is made from the coconut meat", es: "El agua de coco es el líquido dentro del coco, la leche de coco se hace de la carne del coco", de: "Kokoswasser ist die Flüssigkeit im Inneren der Kokosnuss, Kokosmilch wird aus dem Kokosfleisch hergestellt", nl: "Kokoswater is de vloeistof in de kokosnoot, kokosmelk wordt gemaakt van het kokosvruchtvlees" },
+          { en: "They are exactly the same thing", es: "Son exactamente lo mismo", de: "Sie sind genau dasselbe", nl: "Ze zijn precies hetzelfde" },
+          { en: "Coconut water is just milk with water added", es: "El agua de coco es solo leche con agua agregada", de: "Kokoswasser ist nur Milch mit Wasser", nl: "Kokoswater is gewoon melk met water toegevoegd" },
+          { en: "Coconut milk comes from cows", es: "La leche de coco viene de las vacas", de: "Kokosmilch kommt von Kühen", nl: "Kokosmelk komt van koeien" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Coconut water is the clear liquid naturally found inside young coconuts, while coconut milk is made by blending coconut meat with water.",
+          es: "El agua de coco es el líquido claro que se encuentra naturalmente dentro de los cocos jóvenes, mientras que la leche de coco se hace mezclando carne de coco con agua.",
+          de: "Kokoswasser ist die klare Flüssigkeit, die natürlich in jungen Kokosnüssen vorkommt, während Kokosmilch durch Mischen von Kokosfleisch mit Wasser hergestellt wird.",
+          nl: "Kokoswater is de heldere vloeistof die van nature in jonge kokosnoten voorkomt, terwijl kokosmelk wordt gemaakt door kokosvruchtvlees met water te mengen."
+        }
+      },
     ]
   };
 

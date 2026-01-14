@@ -1605,7 +1605,18 @@
           es: "La explotación de zugzwang es el arte de maniobrar sistemáticamente piezas para crear posiciones donde el oponente debe mover pero cualquier movimiento legal empeora su posición, efectivamente usando la compulsión a mover como un arma táctica.",
           de: "Zugzwang-Ausnutzung ist die Kunst, Steine systematisch zu manövrieren, um Positionen zu schaffen, in denen der Gegner ziehen muss, aber jeder legale Zug seine Position verschlechtert, wobei der Zwang zu ziehen effektiv als taktische Waffe eingesetzt wird.",
           nl: "Zugzwang exploitatie is de kunst van systematisch stukken manoeuvreren om posities te creëren waar de tegenstander moet zetten maar elke legale zet hun positie verslechtert, effectief de dwang om te zetten gebruikend als tactisch wapen."
-        }
+        }    },
+    {
+      question: {en: "What is strategy in games?", es: "What is strategy in games?", de: "What is strategy in games?", nl: "What is strategy in games?"},
+      options: [
+        {en: "Planning to achieve objectives", es: "Planning to achieve objectives", de: "Planning to achieve objectives", nl: "Planning to achieve objectives"},
+        {en: "Random moves", es: "Random moves", de: "Random moves", nl: "Random moves"},
+        {en: "Luck only", es: "Luck only", de: "Luck only", nl: "Luck only"},
+        {en: "No planning", es: "No planning", de: "No planning", nl: "No planning"}
+      ],
+      correct: 0,
+      explanation: {en: "Strategy involves planning and decision-making to achieve game objectives.", es: "Strategy involves planning and decision-making to achieve game objectives.", de: "Strategy involves planning and decision-making to achieve game objectives.", nl: "Strategy involves planning and decision-making to achieve game objectives."}
+
       }
     ]
   };

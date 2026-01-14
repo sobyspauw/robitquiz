@@ -427,6 +427,426 @@
           de: "Überwachtes Lernen trainiert auf Eingabe-Ausgabe-Paaren mit bekannten korrekten Antworten, während unüberwachtes Lernen Struktur in Daten ohne vorbestimmte Labels entdeckt, wie das Gruppieren ähnlicher Bilder oder Finden latenter Merkmale.",
           nl: "Supervised learning traint op input-output paren met bekende correcte antwoorden, terwijl unsupervised learning structuur in data ontdekt zonder vooraf bepaalde labels, zoals het clusteren van vergelijkbare afbeeldingen of het vinden van latente kenmerken."
         }
+      },
+      {
+        question: {
+          en: "What is transfer learning in computer vision?",
+          es: "¿Qué es el aprendizaje por transferencia en visión por computadora?",
+          de: "Was ist Transfer Learning in Computer Vision?",
+          nl: "Wat is transfer learning in computer vision?"
+        },
+        options: [
+          { en: "Using knowledge from one task to improve performance on a different but related task", es: "Usar conocimiento de una tarea para mejorar el rendimiento en una tarea diferente pero relacionada", de: "Wissen von einer Aufgabe verwenden um Leistung bei einer anderen aber verwandten Aufgabe zu verbessern", nl: "Kennis van één taak gebruiken om prestaties bij een andere maar gerelateerde taak te verbeteren" },
+          { en: "Transferring images from one computer to another", es: "Transferir imágenes de una computadora a otra", de: "Bilder von einem Computer zum anderen übertragen", nl: "Afbeeldingen van de ene computer naar de andere overdragen" },
+          { en: "Converting image formats during processing", es: "Convertir formatos de imagen durante el procesamiento", de: "Bildformate während der Verarbeitung konvertieren", nl: "Beeldformaten converteren tijdens verwerking" },
+          { en: "Moving data between training and testing sets", es: "Mover datos entre conjuntos de entrenamiento y prueba", de: "Daten zwischen Trainings- und Testsätzen verschieben", nl: "Data verplaatsen tussen trainings- en testsets" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Transfer learning reuses features learned from large datasets (like ImageNet) as starting points for new tasks, dramatically reducing training time and data requirements while improving accuracy.",
+          es: "El aprendizaje por transferencia reutiliza características aprendidas de grandes conjuntos de datos (como ImageNet) como puntos de partida para nuevas tareas, reduciendo dramáticamente el tiempo de entrenamiento y requisitos de datos mientras mejora la precisión.",
+          de: "Transfer Learning verwendet Features die von großen Datensätzen (wie ImageNet) gelernt wurden als Ausgangspunkte für neue Aufgaben, reduziert dramatisch Trainingszeit und Datenanforderungen während die Genauigkeit verbessert wird.",
+          nl: "Transfer learning hergebruikt kenmerken geleerd van grote datasets (zoals ImageNet) als startpunten voor nieuwe taken, waardoor trainingstijd en datavereisten dramatisch worden verminderd terwijl nauwkeurigheid verbetert."
+        }
+      },
+      {
+        question: {
+          en: "What is fine-tuning in the context of neural networks?",
+          es: "¿Qué es el ajuste fino en el contexto de redes neuronales?",
+          de: "Was ist Fine-Tuning im Kontext neuronaler Netzwerke?",
+          nl: "Wat is fine-tuning in de context van neurale netwerken?"
+        },
+        options: [
+          { en: "Adjusting pre-trained model weights for a specific task using new data", es: "Ajustar pesos de modelo pre-entrenado para una tarea específica usando datos nuevos", de: "Anpassen vortrainierter Modellgewichte für eine spezifische Aufgabe mit neuen Daten", nl: "Aanpassen van voorgetrainde modelgewichten voor een specifieke taak met nieuwe data" },
+          { en: "Making minor adjustments to image brightness", es: "Hacer ajustes menores al brillo de la imagen", de: "Kleine Anpassungen an der Bildhelligkeit vornehmen", nl: "Kleine aanpassingen aan beeldhelderheid maken" },
+          { en: "Optimizing hardware performance settings", es: "Optimizar configuraciones de rendimiento de hardware", de: "Hardware-Leistungseinstellungen optimieren", nl: "Hardware prestatie-instellingen optimaliseren" },
+          { en: "Changing the number of network layers", es: "Cambiar el número de capas de red", de: "Anzahl der Netzwerkschichten ändern", nl: "Aantal netwerklagen wijzigen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Fine-tuning starts with a pre-trained model and continues training on task-specific data, typically with a lower learning rate, to adapt the learned features to new domains while preserving general knowledge.",
+          es: "El ajuste fino comienza con un modelo pre-entrenado y continúa el entrenamiento en datos específicos de la tarea, típicamente con una tasa de aprendizaje más baja, para adaptar las características aprendidas a nuevos dominios mientras preserva el conocimiento general.",
+          de: "Fine-Tuning beginnt mit einem vortrainierten Modell und setzt Training auf aufgabenspezifischen Daten fort, typischerweise mit niedrigerer Lernrate, um gelernte Features an neue Domänen anzupassen während allgemeines Wissen bewahrt wird.",
+          nl: "Fine-tuning begint met een voorgetraind model en vervolgt training op taak-specifieke data, typisch met een lagere learning rate, om geleerde kenmerken aan te passen aan nieuwe domeinen terwijl algemene kennis behouden blijft."
+        }
+      },
+      {
+        question: {
+          en: "What does 'ImageNet' represent in the computer vision community?",
+          es: "¿Qué representa 'ImageNet' en la comunidad de visión por computadora?",
+          de: "Was repräsentiert 'ImageNet' in der Computer Vision Community?",
+          nl: "Wat vertegenwoordigt 'ImageNet' in de computer vision gemeenschap?"
+        },
+        options: [
+          { en: "A large-scale visual database with millions of labeled images across thousands of categories", es: "Una base de datos visual a gran escala con millones de imágenes etiquetadas en miles de categorías", de: "Eine großskalige visuelle Datenbank mit Millionen beschrifteter Bilder über Tausende von Kategorien", nl: "Een grootschalige visuele database met miljoenen gelabelde afbeeldingen verspreid over duizenden categorieën" },
+          { en: "A network of computers for image processing", es: "Una red de computadoras para procesamiento de imágenes", de: "Ein Netzwerk von Computern für Bildverarbeitung", nl: "Een netwerk van computers voor beeldverwerking" },
+          { en: "An internet service provider for images", es: "Un proveedor de servicios de internet para imágenes", de: "Ein Internet-Service-Provider für Bilder", nl: "Een internetprovider voor afbeeldingen" },
+          { en: "A software for creating neural networks", es: "Un software para crear redes neuronales", de: "Eine Software zum Erstellen neuronaler Netzwerke", nl: "Een software voor het maken van neurale netwerken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "ImageNet contains over 14 million images organized into 20,000+ categories. The annual ImageNet Large Scale Visual Recognition Challenge (ILSVRC) has driven major advances in deep learning and computer vision.",
+          es: "ImageNet contiene más de 14 millones de imágenes organizadas en más de 20,000 categorías. El desafío anual ImageNet Large Scale Visual Recognition Challenge (ILSVRC) ha impulsado grandes avances en aprendizaje profundo y visión por computadora.",
+          de: "ImageNet enthält über 14 Millionen Bilder organisiert in über 20,000 Kategorien. Die jährliche ImageNet Large Scale Visual Recognition Challenge (ILSVRC) hat große Fortschritte in Deep Learning und Computer Vision vorangetrieben.",
+          nl: "ImageNet bevat meer dan 14 miljoen afbeeldingen georganiseerd in meer dan 20,000 categorieën. De jaarlijkse ImageNet Large Scale Visual Recognition Challenge (ILSVRC) heeft grote vooruitgang in deep learning en computer vision gedreven."
+        }
+      },
+      {
+        question: {
+          en: "What is the confusion matrix used for in computer vision classification?",
+          es: "¿Para qué se usa la matriz de confusión en clasificación de visión por computadora?",
+          de: "Wofür wird die Konfusionsmatrix in Computer Vision Klassifikation verwendet?",
+          nl: "Waarvoor wordt de confusion matrix gebruikt in computer vision classificatie?"
+        },
+        options: [
+          { en: "Visualizing true positives, false positives, true negatives, and false negatives", es: "Visualizar verdaderos positivos, falsos positivos, verdaderos negativos y falsos negativos", de: "Visualisierung von echten Positiven, falschen Positiven, echten Negativen und falschen Negativen", nl: "Visualiseren van ware positieven, valse positieven, ware negatieven en valse negatieven" },
+          { en: "Measuring confusion levels in neural networks", es: "Medir niveles de confusión en redes neuronales", de: "Verwirrungsgrade in neuronalen Netzwerken messen", nl: "Verwarringsniveaus in neurale netwerken meten" },
+          { en: "Creating confusing test questions", es: "Crear preguntas de prueba confusas", de: "Verwirrende Testfragen erstellen", nl: "Verwarrende testvragen maken" },
+          { en: "Identifying unclear images in datasets", es: "Identificar imágenes poco claras en conjuntos de datos", de: "Unklare Bilder in Datensätzen identifizieren", nl: "Onduidelijke afbeeldingen in datasets identificeren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A confusion matrix displays model predictions versus actual labels, showing where the model performs well and where it confuses different classes, helping identify specific classification errors.",
+          es: "Una matriz de confusión muestra las predicciones del modelo versus las etiquetas reales, mostrando dónde el modelo funciona bien y dónde confunde diferentes clases, ayudando a identificar errores de clasificación específicos.",
+          de: "Eine Konfusionsmatrix zeigt Modellvorhersagen versus tatsächliche Labels, zeigt wo das Modell gut funktioniert und wo es verschiedene Klassen verwechselt, hilft spezifische Klassifikationsfehler zu identifizieren.",
+          nl: "Een confusion matrix toont modelvoorspellingen versus werkelijke labels, toont waar het model goed presteert en waar het verschillende klassen verwart, helpt specifieke classificatiefouten te identificeren."
+        }
+      },
+      {
+        question: {
+          en: "What is precision in the context of image classification metrics?",
+          es: "¿Qué es la precisión en el contexto de métricas de clasificación de imágenes?",
+          de: "Was ist Präzision im Kontext von Bildklassifikationsmetriken?",
+          nl: "Wat is precisie in de context van beeldclassificatie metrieken?"
+        },
+        options: [
+          { en: "The proportion of correct positive predictions out of all positive predictions made", es: "La proporción de predicciones positivas correctas de todas las predicciones positivas realizadas", de: "Der Anteil korrekter positiver Vorhersagen von allen gemachten positiven Vorhersagen", nl: "De verhouding van correcte positieve voorspellingen van alle gemaakte positieve voorspellingen" },
+          { en: "The overall accuracy of the model", es: "La precisión general del modelo", de: "Die Gesamtgenauigkeit des Modells", nl: "De algehele nauwkeurigheid van het model" },
+          { en: "The image resolution in pixels", es: "La resolución de imagen en píxeles", de: "Die Bildauflösung in Pixeln", nl: "De beeldresolutie in pixels" },
+          { en: "How precisely images are aligned", es: "Qué tan precisamente están alineadas las imágenes", de: "Wie präzise Bilder ausgerichtet sind", nl: "Hoe nauwkeurig afbeeldingen zijn uitgelijnd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Precision = True Positives / (True Positives + False Positives). High precision means when the model predicts a class, it's usually correct, minimizing false alarms.",
+          es: "Precisión = Verdaderos Positivos / (Verdaderos Positivos + Falsos Positivos). Alta precisión significa que cuando el modelo predice una clase, usualmente es correcto, minimizando falsas alarmas.",
+          de: "Präzision = Echte Positive / (Echte Positive + Falsche Positive). Hohe Präzision bedeutet wenn das Modell eine Klasse vorhersagt, ist es meist korrekt, minimiert Fehlalarme.",
+          nl: "Precisie = Ware Positieven / (Ware Positieven + Valse Positieven). Hoge precisie betekent dat wanneer het model een klasse voorspelt, dit meestal correct is, waardoor valse alarmen worden geminimaliseerd."
+        }
+      },
+      {
+        question: {
+          en: "What is recall (also called sensitivity) in classification metrics?",
+          es: "¿Qué es el recall (también llamado sensibilidad) en métricas de clasificación?",
+          de: "Was ist Recall (auch Sensitivität genannt) in Klassifikationsmetriken?",
+          nl: "Wat is recall (ook wel sensitiviteit genoemd) in classificatie metrieken?"
+        },
+        options: [
+          { en: "The proportion of actual positives that were correctly identified", es: "La proporción de positivos reales que fueron identificados correctamente", de: "Der Anteil tatsächlicher Positive die korrekt identifiziert wurden", nl: "De verhouding van werkelijke positieven die correct werden geïdentificeerd" },
+          { en: "How well the model remembers training data", es: "Qué tan bien el modelo recuerda datos de entrenamiento", de: "Wie gut das Modell Trainingsdaten erinnert", nl: "Hoe goed het model trainingsdata onthoudt" },
+          { en: "The ability to retrieve stored images", es: "La capacidad de recuperar imágenes almacenadas", de: "Die Fähigkeit gespeicherte Bilder abzurufen", nl: "Het vermogen om opgeslagen afbeeldingen op te halen" },
+          { en: "Speed of processing recalled from cache", es: "Velocidad de procesamiento recordada desde caché", de: "Verarbeitungsgeschwindigkeit abgerufen aus Cache", nl: "Verwerkingssnelheid opgehaald uit cache" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Recall = True Positives / (True Positives + False Negatives). High recall means the model successfully finds most instances of the target class, minimizing missed detections.",
+          es: "Recall = Verdaderos Positivos / (Verdaderos Positivos + Falsos Negativos). Alto recall significa que el modelo encuentra con éxito la mayoría de las instancias de la clase objetivo, minimizando detecciones perdidas.",
+          de: "Recall = Echte Positive / (Echte Positive + Falsche Negative). Hoher Recall bedeutet das Modell findet erfolgreich die meisten Instanzen der Zielklasse, minimiert verpasste Erkennungen.",
+          nl: "Recall = Ware Positieven / (Ware Positieven + Valse Negatieven). Hoge recall betekent dat het model met succes de meeste instanties van de doelklasse vindt, waardoor gemiste detecties worden geminimaliseerd."
+        }
+      },
+      {
+        question: {
+          en: "What is the F1 score in machine learning evaluation?",
+          es: "¿Qué es el puntaje F1 en evaluación de aprendizaje automático?",
+          de: "Was ist der F1-Score in maschineller Lernevaluation?",
+          nl: "Wat is de F1 score in machine learning evaluatie?"
+        },
+        options: [
+          { en: "The harmonic mean of precision and recall, balancing both metrics", es: "La media armónica de precisión y recall, equilibrando ambas métricas", de: "Das harmonische Mittel von Präzision und Recall, ausgleichend beide Metriken", nl: "Het harmonisch gemiddelde van precisie en recall, beide metrieken balancerend" },
+          { en: "The first level of feature extraction", es: "El primer nivel de extracción de características", de: "Die erste Ebene der Merkmalsextraktion", nl: "Het eerste niveau van feature extraction" },
+          { en: "A formula for image compression", es: "Una fórmula para compresión de imagen", de: "Eine Formel für Bildkompression", nl: "Een formule voor beeldcompressie" },
+          { en: "The top racing category in machine learning", es: "La categoría de carreras superior en aprendizaje automático", de: "Die Top-Rennkategorie in maschinellem Lernen", nl: "De top racecategorie in machine learning" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "F1 = 2 × (Precision × Recall) / (Precision + Recall). This metric is especially useful when you need a balance between precision and recall, particularly with imbalanced datasets.",
+          es: "F1 = 2 × (Precisión × Recall) / (Precisión + Recall). Esta métrica es especialmente útil cuando necesitas un equilibrio entre precisión y recall, particularmente con conjuntos de datos desbalanceados.",
+          de: "F1 = 2 × (Präzision × Recall) / (Präzision + Recall). Diese Metrik ist besonders nützlich wenn man eine Balance zwischen Präzision und Recall braucht, besonders bei unbalancierten Datensätzen.",
+          nl: "F1 = 2 × (Precisie × Recall) / (Precisie + Recall). Deze metriek is vooral nuttig wanneer je een balans nodig hebt tussen precisie en recall, vooral bij ongebalanceerde datasets."
+        }
+      },
+      {
+        question: {
+          en: "What is dropout in neural network training?",
+          es: "¿Qué es el dropout en entrenamiento de redes neuronales?",
+          de: "Was ist Dropout beim Training neuronaler Netzwerke?",
+          nl: "Wat is dropout bij het trainen van neurale netwerken?"
+        },
+        options: [
+          { en: "Randomly deactivating neurons during training to prevent overfitting", es: "Desactivar aleatoriamente neuronas durante el entrenamiento para prevenir sobreajuste", de: "Zufälliges Deaktivieren von Neuronen während des Trainings um Overfitting zu verhindern", nl: "Willekeurig neuronen deactiveren tijdens training om overfitting te voorkomen" },
+          { en: "Removing corrupted images from the dataset", es: "Eliminar imágenes corruptas del conjunto de datos", de: "Beschädigte Bilder aus dem Datensatz entfernen", nl: "Beschadigde afbeeldingen uit de dataset verwijderen" },
+          { en: "When students quit neural network courses", es: "Cuando los estudiantes abandonan cursos de redes neuronales", de: "Wenn Studenten neuronale Netzwerkkurse abbrechen", nl: "Wanneer studenten neurale netwerk cursussen stoppen" },
+          { en: "Network disconnections during training", es: "Desconexiones de red durante el entrenamiento", de: "Netzwerkunterbrechungen während des Trainings", nl: "Netwerkonderbrekingen tijdens training" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dropout temporarily removes random neurons and their connections during each training iteration, forcing the network to learn robust features that don't depend on specific neuron combinations, reducing overfitting.",
+          es: "Dropout elimina temporalmente neuronas aleatorias y sus conexiones durante cada iteración de entrenamiento, forzando a la red a aprender características robustas que no dependen de combinaciones específicas de neuronas, reduciendo el sobreajuste.",
+          de: "Dropout entfernt temporär zufällige Neuronen und ihre Verbindungen während jeder Trainingsiteration, zwingt das Netzwerk robuste Features zu lernen die nicht von spezifischen Neuronenkombinationen abhängen, reduziert Overfitting.",
+          nl: "Dropout verwijdert tijdelijk willekeurige neuronen en hun verbindingen tijdens elke trainingiteratie, waardoor het netwerk gedwongen wordt robuuste kenmerken te leren die niet afhankelijk zijn van specifieke neuron combinaties, wat overfitting vermindert."
+        }
+      },
+      {
+        question: {
+          en: "What is a receptive field in convolutional neural networks?",
+          es: "¿Qué es un campo receptivo en redes neuronales convolucionales?",
+          de: "Was ist ein rezeptives Feld in Convolutional Neural Networks?",
+          nl: "Wat is een receptief veld in convolutional neural networks?"
+        },
+        options: [
+          { en: "The region of the input image that influences a particular neuron's activation", es: "La región de la imagen de entrada que influye en la activación de una neurona particular", de: "Die Region des Eingabebildes die die Aktivierung eines bestimmten Neurons beeinflusst", nl: "De regio van de invoerafbeelding die de activatie van een bepaald neuron beïnvloedt" },
+          { en: "The area where images are received for processing", es: "El área donde se reciben imágenes para procesamiento", de: "Der Bereich wo Bilder für Verarbeitung empfangen werden", nl: "Het gebied waar afbeeldingen worden ontvangen voor verwerking" },
+          { en: "A field in the database storing image data", es: "Un campo en la base de datos que almacena datos de imagen", de: "Ein Feld in der Datenbank das Bilddaten speichert", nl: "Een veld in de database dat beelddata opslaat" },
+          { en: "The physical sensor area of a camera", es: "El área del sensor físico de una cámara", de: "Der physische Sensorbereich einer Kamera", nl: "Het fysieke sensorgebied van een camera" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "As you go deeper in a CNN, each neuron's receptive field grows larger, allowing it to integrate information from increasingly larger portions of the input image, enabling hierarchical feature learning.",
+          es: "A medida que avanzas más profundo en una CNN, el campo receptivo de cada neurona crece más grande, permitiéndole integrar información de porciones cada vez más grandes de la imagen de entrada, habilitando aprendizaje de características jerárquico.",
+          de: "Je tiefer man in einem CNN geht, desto größer wird das rezeptive Feld jedes Neurons, ermöglicht es Informationen von zunehmend größeren Teilen des Eingabebildes zu integrieren, ermöglicht hierarchisches Merkmalslernen.",
+          nl: "Naarmate je dieper in een CNN gaat, wordt het receptieve veld van elk neuron groter, waardoor het informatie kan integreren van steeds grotere delen van de invoerafbeelding, wat hiërarchisch feature learning mogelijk maakt."
+        }
+      },
+      {
+        question: {
+          en: "What is the vanishing gradient problem in deep neural networks?",
+          es: "¿Qué es el problema del gradiente desvaneciente en redes neuronales profundas?",
+          de: "Was ist das Problem verschwindender Gradienten in tiefen neuronalen Netzwerken?",
+          nl: "Wat is het verdwijnende gradiënt probleem in diepe neurale netwerken?"
+        },
+        options: [
+          { en: "Gradients become extremely small in early layers, preventing effective learning", es: "Los gradientes se vuelven extremadamente pequeños en capas tempranas, previniendo aprendizaje efectivo", de: "Gradienten werden in frühen Schichten extrem klein, verhindern effektives Lernen", nl: "Gradiënten worden extreem klein in vroege lagen, wat effectief leren verhindert" },
+          { en: "Gradients disappear from computer memory", es: "Los gradientes desaparecen de la memoria de la computadora", de: "Gradienten verschwinden aus dem Computerspeicher", nl: "Gradiënten verdwijnen uit het computergeheugen" },
+          { en: "Visual gradients fade in processed images", es: "Los gradientes visuales se desvanecen en imágenes procesadas", de: "Visuelle Gradienten verblassen in verarbeiteten Bildern", nl: "Visuele gradiënten vervagen in verwerkte afbeeldingen" },
+          { en: "Color gradients are removed during training", es: "Los gradientes de color se eliminan durante el entrenamiento", de: "Farbverläufe werden während des Trainings entfernt", nl: "Kleurgradiënten worden verwijderd tijdens training" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "During backpropagation in very deep networks, gradients can shrink exponentially as they propagate backward through layers, making it nearly impossible to update weights in early layers effectively.",
+          es: "Durante la retropropagación en redes muy profundas, los gradientes pueden encogerse exponencialmente mientras se propagan hacia atrás a través de las capas, haciendo casi imposible actualizar los pesos en las capas tempranas efectivamente.",
+          de: "Während Backpropagation in sehr tiefen Netzwerken können Gradienten exponentiell schrumpfen während sie rückwärts durch Schichten propagieren, macht es nahezu unmöglich Gewichte in frühen Schichten effektiv zu aktualisieren.",
+          nl: "Tijdens backpropagation in zeer diepe netwerken kunnen gradiënten exponentieel krimpen terwijl ze achterwaarts door lagen propageren, waardoor het bijna onmogelijk wordt om gewichten in vroege lagen effectief bij te werken."
+        }
+      },
+      {
+        question: {
+          en: "What technique helps address the vanishing gradient problem?",
+          es: "¿Qué técnica ayuda a abordar el problema del gradiente desvaneciente?",
+          de: "Welche Technik hilft das Problem verschwindender Gradienten zu adressieren?",
+          nl: "Welke techniek helpt het verdwijnende gradiënt probleem aan te pakken?"
+        },
+        options: [
+          { en: "Residual connections (skip connections) as used in ResNet", es: "Conexiones residuales (conexiones de salto) como se usan en ResNet", de: "Residuale Verbindungen (Skip-Verbindungen) wie in ResNet verwendet", nl: "Residuele verbindingen (skip connections) zoals gebruikt in ResNet" },
+          { en: "Increasing image resolution dramatically", es: "Aumentar drásticamente la resolución de imagen", de: "Bildauflösung drastisch erhöhen", nl: "Beeldresolutie drastisch verhogen" },
+          { en: "Using only shallow networks", es: "Usar solo redes superficiales", de: "Nur flache Netzwerke verwenden", nl: "Alleen ondiepe netwerken gebruiken" },
+          { en: "Converting all images to grayscale", es: "Convertir todas las imágenes a escala de grises", de: "Alle Bilder zu Graustufen konvertieren", nl: "Alle afbeeldingen naar grijswaarden converteren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Residual connections allow gradients to flow directly through skip connections, bypassing some layers, which maintains stronger gradient signals throughout very deep networks and enables training of networks with hundreds of layers.",
+          es: "Las conexiones residuales permiten que los gradientes fluyan directamente a través de conexiones de salto, evitando algunas capas, lo que mantiene señales de gradiente más fuertes a través de redes muy profundas y permite el entrenamiento de redes con cientos de capas.",
+          de: "Residuale Verbindungen ermöglichen Gradienten direkt durch Skip-Verbindungen zu fließen, umgehen einige Schichten, was stärkere Gradientsignale durch sehr tiefe Netzwerke aufrechterhält und Training von Netzwerken mit Hunderten von Schichten ermöglicht.",
+          nl: "Residuele verbindingen stellen gradiënten in staat direct door skip connections te stromen, waarbij sommige lagen worden omzeild, wat sterkere gradiëntsignalen door zeer diepe netwerken handhaaft en training van netwerken met honderden lagen mogelijk maakt."
+        }
+      },
+      {
+        question: {
+          en: "What is batch normalization used for in neural networks?",
+          es: "¿Para qué se usa la normalización por lotes en redes neuronales?",
+          de: "Wofür wird Batch-Normalisierung in neuronalen Netzwerken verwendet?",
+          nl: "Waarvoor wordt batch normalization gebruikt in neurale netwerken?"
+        },
+        options: [
+          { en: "Normalizing layer inputs to stabilize and accelerate training", es: "Normalizar entradas de capa para estabilizar y acelerar el entrenamiento", de: "Schichteingaben normalisieren um Training zu stabilisieren und beschleunigen", nl: "Laaginputs normaliseren om training te stabiliseren en versnellen" },
+          { en: "Organizing images into batches for storage", es: "Organizar imágenes en lotes para almacenamiento", de: "Bilder in Batches für Speicherung organisieren", nl: "Afbeeldingen in batches organiseren voor opslag" },
+          { en: "Normalizing batch processing schedules", es: "Normalizar horarios de procesamiento por lotes", de: "Batch-Verarbeitungszeitpläne normalisieren", nl: "Batch verwerkingsschema's normaliseren" },
+          { en: "Making all images the same size", es: "Hacer todas las imágenes del mismo tamaño", de: "Alle Bilder auf dieselbe Größe bringen", nl: "Alle afbeeldingen dezelfde grootte maken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Batch normalization standardizes inputs to each layer by normalizing over mini-batches, reducing internal covariate shift, allowing higher learning rates, and acting as a regularizer to reduce overfitting.",
+          es: "La normalización por lotes estandariza entradas a cada capa normalizando sobre mini-lotes, reduciendo el cambio de covariable interno, permitiendo tasas de aprendizaje más altas y actuando como regularizador para reducir el sobreajuste.",
+          de: "Batch-Normalisierung standardisiert Eingaben zu jeder Schicht durch Normalisierung über Mini-Batches, reduziert interne Kovariatenwechsel, ermöglicht höhere Lernraten und wirkt als Regularisierer um Overfitting zu reduzieren.",
+          nl: "Batch normalization standaardiseert inputs naar elke laag door normalisatie over mini-batches, vermindert interne covariate shift, maakt hogere learning rates mogelijk en werkt als regularizer om overfitting te verminderen."
+        }
+      },
+      {
+        question: {
+          en: "What is a max pooling layer's function in CNNs?",
+          es: "¿Cuál es la función de una capa de max pooling en CNNs?",
+          de: "Was ist die Funktion einer Max-Pooling-Schicht in CNNs?",
+          nl: "Wat is de functie van een max pooling laag in CNNs?"
+        },
+        options: [
+          { en: "Downsample feature maps by selecting maximum values from regions", es: "Submuestrear mapas de características seleccionando valores máximos de regiones", de: "Feature Maps durch Auswahl maximaler Werte aus Regionen heruntersampeln", nl: "Feature maps downsamplen door maximale waarden uit regio's te selecteren" },
+          { en: "Pool together the maximum number of images", es: "Agrupar el número máximo de imágenes", de: "Die maximale Anzahl von Bildern zusammenführen", nl: "Het maximale aantal afbeeldingen samenvoegen" },
+          { en: "Find the largest swimming pool in images", es: "Encontrar la piscina más grande en imágenes", de: "Den größten Pool in Bildern finden", nl: "Het grootste zwembad in afbeeldingen vinden" },
+          { en: "Maximize the depth of the network", es: "Maximizar la profundidad de la red", de: "Die Tiefe des Netzwerks maximieren", nl: "De diepte van het netwerk maximaliseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Max pooling reduces spatial dimensions by taking the maximum value from each local region, providing translation invariance, reducing computational cost, and helping the network focus on the most salient features.",
+          es: "Max pooling reduce dimensiones espaciales tomando el valor máximo de cada región local, proporcionando invariancia de traslación, reduciendo costo computacional y ayudando a la red a enfocarse en las características más prominentes.",
+          de: "Max-Pooling reduziert räumliche Dimensionen durch Nehmen des maximalen Werts aus jeder lokalen Region, bietet Translationsinvarianz, reduziert Rechenkosten und hilft dem Netzwerk sich auf die hervorstechendsten Merkmale zu konzentrieren.",
+          nl: "Max pooling vermindert ruimtelijke dimensies door de maximale waarde uit elke lokale regio te nemen, biedt translatie-invariantie, vermindert computationele kosten en helpt het netwerk zich te concentreren op de meest opvallende kenmerken."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of padding in convolutional layers?",
+          es: "¿Cuál es el propósito del padding en capas convolucionales?",
+          de: "Was ist der Zweck von Padding in Faltungsschichten?",
+          nl: "Wat is het doel van padding in convolutionele lagen?"
+        },
+        options: [
+          { en: "Preserve spatial dimensions and process edge pixels effectively", es: "Preservar dimensiones espaciales y procesar píxeles de borde efectivamente", de: "Räumliche Dimensionen bewahren und Randpixel effektiv verarbeiten", nl: "Ruimtelijke dimensies behouden en randpixels effectief verwerken" },
+          { en: "Add extra storage space for images", es: "Agregar espacio de almacenamiento extra para imágenes", de: "Zusätzlichen Speicherplatz für Bilder hinzufügen", nl: "Extra opslagruimte toevoegen voor afbeeldingen" },
+          { en: "Create physical padding around monitors", es: "Crear relleno físico alrededor de monitores", de: "Physische Polsterung um Monitore erstellen", nl: "Fysieke opvulling rond monitoren creëren" },
+          { en: "Fill empty database fields", es: "Llenar campos de base de datos vacíos", de: "Leere Datenbankfelder füllen", nl: "Lege databasevelden vullen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Padding adds border pixels (usually zeros) around the input, allowing convolutions to maintain output size equal to input size and ensuring edge information isn't lost during processing.",
+          es: "El padding agrega píxeles de borde (usualmente ceros) alrededor de la entrada, permitiendo que las convoluciones mantengan el tamaño de salida igual al tamaño de entrada y asegurando que la información de borde no se pierda durante el procesamiento.",
+          de: "Padding fügt Randpixel (normalerweise Nullen) um die Eingabe herum hinzu, ermöglicht Faltungen Ausgabegröße gleich Eingabegröße beizubehalten und stellt sicher dass Randinformationen während der Verarbeitung nicht verloren gehen.",
+          nl: "Padding voegt randpixels (meestal nullen) toe rond de invoer, waardoor convoluties de outputgrootte gelijk aan de inputgrootte kunnen behouden en ervoor zorgen dat randinformatie niet verloren gaat tijdens verwerking."
+        }
+      },
+      {
+        question: {
+          en: "What is stride in convolutional operations?",
+          es: "¿Qué es el stride en operaciones convolucionales?",
+          de: "Was ist Stride in Faltungsoperationen?",
+          nl: "Wat is stride in convolutionele operaties?"
+        },
+        options: [
+          { en: "The step size by which the filter moves across the input image", es: "El tamaño del paso por el cual el filtro se mueve a través de la imagen de entrada", de: "Die Schrittgröße mit der der Filter sich über das Eingabebild bewegt", nl: "De stapgrootte waarmee het filter over de invoerafbeelding beweegt" },
+          { en: "The walking pattern of robots in computer vision", es: "El patrón de caminata de robots en visión por computadora", de: "Das Gehmuster von Robotern in Computer Vision", nl: "Het looppatroon van robots in computer vision" },
+          { en: "The length of training iterations", es: "La longitud de iteraciones de entrenamiento", de: "Die Länge von Trainingsiterationen", nl: "De lengte van trainingsiteraties" },
+          { en: "Speed of image processing", es: "Velocidad de procesamiento de imagen", de: "Geschwindigkeit der Bildverarbeitung", nl: "Snelheid van beeldverwerking" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Stride determines how many pixels the convolutional filter shifts at each step. Stride of 1 produces dense feature maps, while larger strides reduce spatial dimensions more aggressively, similar to pooling.",
+          es: "El stride determina cuántos píxeles el filtro convolucional se desplaza en cada paso. Un stride de 1 produce mapas de características densos, mientras que strides más grandes reducen dimensiones espaciales más agresivamente, similar al pooling.",
+          de: "Stride bestimmt wie viele Pixel der Faltungsfilter bei jedem Schritt verschiebt. Stride von 1 produziert dichte Feature Maps, während größere Strides räumliche Dimensionen aggressiver reduzieren, ähnlich wie Pooling.",
+          nl: "Stride bepaalt hoeveel pixels het convolutionele filter bij elke stap verschuift. Een stride van 1 produceert dichte feature maps, terwijl grotere strides ruimtelijke dimensies agressiever verminderen, vergelijkbaar met pooling."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of using multiple filters in a convolutional layer?",
+          es: "¿Cuál es el propósito de usar múltiples filtros en una capa convolucional?",
+          de: "Was ist der Zweck der Verwendung mehrerer Filter in einer Faltungsschicht?",
+          nl: "Wat is het doel van het gebruik van meerdere filters in een convolutionele laag?"
+        },
+        options: [
+          { en: "Detect different types of features like edges, textures, and patterns simultaneously", es: "Detectar diferentes tipos de características como bordes, texturas y patrones simultáneamente", de: "Verschiedene Arten von Merkmalen wie Kanten, Texturen und Muster gleichzeitig erkennen", nl: "Verschillende soorten kenmerken zoals randen, texturen en patronen tegelijkertijd detecteren" },
+          { en: "Filter out noise multiple times for cleaner images", es: "Filtrar ruido múltiples veces para imágenes más limpias", de: "Rauschen mehrfach filtern für sauberere Bilder", nl: "Ruis meerdere keren filteren voor schonere afbeeldingen" },
+          { en: "Process images in different color spaces", es: "Procesar imágenes en diferentes espacios de color", de: "Bilder in verschiedenen Farbräumen verarbeiten", nl: "Afbeeldingen in verschillende kleurruimtes verwerken" },
+          { en: "Backup the processing in case one filter fails", es: "Respaldar el procesamiento en caso de que falle un filtro", de: "Verarbeitung sichern falls ein Filter ausfällt", nl: "De verwerking back-uppen voor het geval één filter faalt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Each filter learns to detect specific visual features. Using multiple filters allows the network to extract diverse features from the same input, creating a rich representation with many feature maps (channels).",
+          es: "Cada filtro aprende a detectar características visuales específicas. Usar múltiples filtros permite a la red extraer características diversas de la misma entrada, creando una representación rica con muchos mapas de características (canales).",
+          de: "Jeder Filter lernt spezifische visuelle Merkmale zu erkennen. Verwendung mehrerer Filter ermöglicht dem Netzwerk diverse Features aus derselben Eingabe zu extrahieren, erstellt eine reiche Repräsentation mit vielen Feature Maps (Kanälen).",
+          nl: "Elk filter leert specifieke visuele kenmerken te detecteren. Het gebruik van meerdere filters stelt het netwerk in staat diverse kenmerken uit dezelfde invoer te extraheren, waardoor een rijke representatie met veel feature maps (kanalen) ontstaat."
+        }
+      },
+      {
+        question: {
+          en: "What is model ensembling in machine learning?",
+          es: "¿Qué es el ensamblado de modelos en aprendizaje automático?",
+          de: "Was ist Modell-Ensembling in maschinellem Lernen?",
+          nl: "Wat is model ensembling in machine learning?"
+        },
+        options: [
+          { en: "Combining predictions from multiple models to improve overall performance", es: "Combinar predicciones de múltiples modelos para mejorar el rendimiento general", de: "Vorhersagen von mehreren Modellen kombinieren um Gesamtleistung zu verbessern", nl: "Voorspellingen van meerdere modellen combineren om algehele prestaties te verbeteren" },
+          { en: "Assembling computer hardware for training", es: "Ensamblar hardware de computadora para entrenamiento", de: "Computer-Hardware für Training zusammenbauen", nl: "Computerhardware assembleren voor training" },
+          { en: "Creating ensemble casts in image recognition", es: "Crear elencos de conjunto en reconocimiento de imágenes", de: "Ensemble-Besetzungen in Bilderkennung erstellen", nl: "Ensemble casts creëren in beeldherkenning" },
+          { en: "Grouping similar images together", es: "Agrupar imágenes similares juntas", de: "Ähnliche Bilder zusammengruppieren", nl: "Vergelijkbare afbeeldingen samen groeperen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ensembles aggregate predictions from multiple independent models (often trained with different architectures or data subsets), reducing individual model errors and variance to achieve more robust and accurate predictions.",
+          es: "Los ensambles agregan predicciones de múltiples modelos independientes (a menudo entrenados con diferentes arquitecturas o subconjuntos de datos), reduciendo errores y varianza de modelos individuales para lograr predicciones más robustas y precisas.",
+          de: "Ensembles aggregieren Vorhersagen von mehreren unabhängigen Modellen (oft trainiert mit verschiedenen Architekturen oder Datenuntergruppen), reduzieren individuelle Modellfehler und Varianz um robustere und genauere Vorhersagen zu erreichen.",
+          nl: "Ensembles aggregeren voorspellingen van meerdere onafhankelijke modellen (vaak getraind met verschillende architecturen of data subsets), verminderen individuele modelfouten en variantie om robuustere en nauwkeurigere voorspellingen te bereiken."
+        }
+      },
+      {
+        question: {
+          en: "What is early stopping in neural network training?",
+          es: "¿Qué es la detención temprana en entrenamiento de redes neuronales?",
+          de: "Was ist Early Stopping beim Training neuronaler Netzwerke?",
+          nl: "Wat is early stopping bij het trainen van neurale netwerken?"
+        },
+        options: [
+          { en: "Halting training when validation performance stops improving to prevent overfitting", es: "Detener el entrenamiento cuando el rendimiento de validación deja de mejorar para prevenir sobreajuste", de: "Training stoppen wenn Validierungsleistung aufhört sich zu verbessern um Overfitting zu verhindern", nl: "Training stoppen wanneer validatieprestaties niet meer verbeteren om overfitting te voorkomen" },
+          { en: "Stopping training very early in the process", es: "Detener el entrenamiento muy temprano en el proceso", de: "Training sehr früh im Prozess stoppen", nl: "Training zeer vroeg in het proces stoppen" },
+          { en: "Training only in the morning hours", es: "Entrenar solo en horas de la mañana", de: "Nur in den Morgenstunden trainieren", nl: "Alleen in de ochtenduren trainen" },
+          { en: "Stopping when the computer overheats", es: "Detener cuando la computadora se sobrecalienta", de: "Stoppen wenn der Computer überhitzt", nl: "Stoppen wanneer de computer oververhit raakt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Early stopping monitors validation metrics during training and stops when performance plateaus or deteriorates, saving the best model weights and preventing the model from memorizing training data.",
+          es: "La detención temprana monitorea métricas de validación durante el entrenamiento y se detiene cuando el rendimiento se estanca o deteriora, guardando los mejores pesos del modelo y previniendo que el modelo memorice datos de entrenamiento.",
+          de: "Early Stopping überwacht Validierungsmetriken während des Trainings und stoppt wenn Leistung stagniert oder sich verschlechtert, speichert die besten Modellgewichte und verhindert dass das Modell Trainingsdaten auswendig lernt.",
+          nl: "Early stopping monitort validatiemetrieken tijdens training en stopt wanneer prestaties stagneren of verslechteren, bewaart de beste modelgewichten en voorkomt dat het model trainingsdata uit het hoofd leert."
+        }
+      },
+      {
+        question: {
+          en: "What is the vanishing gradient problem in deep neural networks?",
+          es: "¿Cuál es el problema del gradiente que se desvanece en redes neuronales profundas?",
+          de: "Was ist das Problem verschwindender Gradienten in tiefen neuronalen Netzwerken?",
+          nl: "Wat is het verdwijnende gradiënt probleem in diepe neurale netwerken?"
+        },
+        options: [
+          { en: "Gradients become very small in earlier layers making learning slow or impossible", es: "Gradientes se vuelven muy pequeños en capas anteriores haciendo el aprendizaje lento o imposible", de: "Gradienten werden in früheren Schichten sehr klein und machen Lernen langsam oder unmöglich", nl: "Gradiënten worden zeer klein in eerdere lagen waardoor leren traag of onmogelijk wordt" },
+          { en: "Gradients disappear from computer memory", es: "Gradientes desaparecen de la memoria de la computadora", de: "Gradienten verschwinden aus dem Computerspeicher", nl: "Gradiënten verdwijnen uit het computergeheugen" },
+          { en: "The gradient descent algorithm stops working", es: "El algoritmo de descenso de gradiente deja de funcionar", de: "Der Gradientenabstiegsalgorithmus hört auf zu funktionieren", nl: "Het gradiënt-descent algoritme stopt met werken" },
+          { en: "Visual gradients fade in images", es: "Gradientes visuales se desvanecen en imágenes", de: "Visuelle Gradienten verblassen in Bildern", nl: "Visuele gradiënten vervagen in afbeeldingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "During backpropagation in deep networks, gradients can shrink exponentially as they propagate backward through layers, especially with sigmoid/tanh activations. This makes early layers learn very slowly. Solutions include ReLU activation, batch normalization, and residual connections.",
+          es: "Durante la retropropagación en redes profundas, los gradientes pueden reducirse exponencialmente mientras se propagan hacia atrás a través de las capas, especialmente con activaciones sigmoid/tanh. Esto hace que las capas tempranas aprendan muy lentamente. Las soluciones incluyen activación ReLU, normalización por lotes y conexiones residuales.",
+          de: "Während Backpropagation in tiefen Netzwerken können Gradienten exponentiell schrumpfen während sie rückwärts durch Schichten propagieren, besonders mit Sigmoid/Tanh-Aktivierungen. Dies macht frühe Schichten sehr langsam lernend. Lösungen umfassen ReLU-Aktivierung, Batch-Normalisierung und residuale Verbindungen.",
+          nl: "Tijdens backpropagation in diepe netwerken kunnen gradiënten exponentieel krimpen terwijl ze achterwaarts door lagen propageren, vooral met sigmoid/tanh activaties. Dit maakt vroege lagen zeer traag leren. Oplossingen omvatten ReLU-activatie, batch-normalisatie en residuele verbindingen."
+        }
+      },
+      {
+        question: {
+          en: "What is the receptive field of a neuron in a CNN?",
+          es: "¿Cuál es el campo receptivo de una neurona en una CNN?",
+          de: "Was ist das rezeptive Feld eines Neurons in einem CNN?",
+          nl: "Wat is het receptieve veld van een neuron in een CNN?"
+        },
+        options: [
+          { en: "The region in the input image that affects that neuron's activation", es: "La región en la imagen de entrada que afecta la activación de esa neurona", de: "Die Region im Eingabebild die die Aktivierung dieses Neurons beeinflusst", nl: "De regio in de invoerafbeelding die de activatie van dat neuron beïnvloedt" },
+          { en: "The area where the neuron receives signals", es: "El área donde la neurona recibe señales", de: "Der Bereich wo das Neuron Signale empfängt", nl: "Het gebied waar het neuron signalen ontvangt" },
+          { en: "The physical space occupied by the neuron", es: "El espacio físico ocupado por la neurona", de: "Der physische Raum den das Neuron einnimmt", nl: "De fysieke ruimte die het neuron inneemt" },
+          { en: "The set of neurons that receive its output", es: "El conjunto de neuronas que reciben su salida", de: "Die Menge von Neuronen die seine Ausgabe empfangen", nl: "De set neuronen die zijn output ontvangen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The receptive field grows larger in deeper layers: neurons in later layers can 'see' larger portions of the input image through the accumulated effect of convolutions and pooling from earlier layers. This hierarchical feature detection is fundamental to CNNs.",
+          es: "El campo receptivo crece más grande en capas más profundas: las neuronas en capas posteriores pueden 'ver' porciones más grandes de la imagen de entrada a través del efecto acumulado de convoluciones y pooling de capas anteriores. Esta detección de características jerárquica es fundamental para las CNNs.",
+          de: "Das rezeptive Feld wird in tieferen Schichten größer: Neuronen in späteren Schichten können größere Teile des Eingabebildes 'sehen' durch den akkumulierten Effekt von Faltungen und Pooling von früheren Schichten. Diese hierarchische Merkmalserkennung ist grundlegend für CNNs.",
+          nl: "Het receptieve veld wordt groter in diepere lagen: neuronen in latere lagen kunnen grotere delen van de invoerafbeelding 'zien' door het geaccumuleerde effect van convoluties en pooling van eerdere lagen. Deze hiërarchische feature detectie is fundamenteel voor CNN's."
+        }
       }
     ]
   };

@@ -427,6 +427,426 @@
           de: "Ethische Hacker testen systematisch autonome Fahrzeugsysteme um potentielle Cyber-Angriffsvektoren zu entdecken, gewährleisten robuste Sicherheit bevor Fahrzeuge öffentliche Straßen erreichen.",
           nl: "Ethische hackers testen systematisch autonome voertuigsystemen om potentiële cyber-aanvalsvectoren te ontdekken, waarbij robuuste beveiliging wordt gewaarborgd voordat voertuigen openbare wegen bereiken."
         }
+      },
+      {
+        question: {
+          en: "What is 'quantum-resistant cryptography' preparing for in future autonomous vehicle security?",
+          es: "¿Para qué está preparando la 'criptografía resistente a cuántica' en seguridad futura de vehículos autónomos?",
+          de: "Wofür bereitet 'quantenresistente Kryptographie' die zukünftige Sicherheit autonomer Fahrzeuge vor?",
+          nl: "Waarvoor bereidt 'quantum-resistente cryptografie' toekomstige beveiliging van autonome voertuigen voor?"
+        },
+        options: [
+          { en: "Protecting vehicle communications against future quantum computers that could break current encryption methods", es: "Proteger comunicaciones vehiculares contra futuras computadoras cuánticas que podrían romper métodos de encriptación actuales", de: "Fahrzeugkommunikation gegen zukünftige Quantencomputer schützen die aktuelle Verschlüsselungsmethoden brechen könnten", nl: "Voertuigcommunicaties beschermen tegen toekomstige quantumcomputers die huidige versleutelingsmethoden zouden kunnen breken" },
+          { en: "Cryptography for quantum vehicle engines", es: "Criptografía para motores vehiculares cuánticos", de: "Kryptographie für Quanten-Fahrzeugmotoren", nl: "Cryptografie voor quantum voertuigmotoren" },
+          { en: "Quantum particle encryption", es: "Encriptación de partículas cuánticas", de: "Quantenteilchen-Verschlüsselung", nl: "Quantumdeeltjes versleuteling" },
+          { en: "Resistance to quantum interference", es: "Resistencia a interferencia cuántica", de: "Resistenz gegen Quanteninterferenz", nl: "Weerstand tegen quantum interferentie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Post-quantum cryptography algorithms ensure that autonomous vehicle security remains intact even when quantum computers become powerful enough to break traditional encryption, protecting long-term data security.",
+          es: "Los algoritmos de criptografía post-cuántica aseguran que la seguridad de vehículos autónomos permanezca intacta incluso cuando computadoras cuánticas sean lo suficientemente poderosas para romper encriptación tradicional, protegiendo seguridad de datos a largo plazo.",
+          de: "Post-Quanten-Kryptographie-Algorithmen gewährleisten dass autonome Fahrzeugsicherheit intakt bleibt auch wenn Quantencomputer mächtig genug werden traditionelle Verschlüsselung zu brechen, schützt langfristige Datensicherheit.",
+          nl: "Post-quantum cryptografie algoritmes zorgen ervoor dat autonome voertuigbeveiliging intact blijft zelfs wanneer quantumcomputers krachtig genoeg worden om traditionele versleuteling te breken, beschermt langetermijn databeveiliging."
+        }
+      },
+      {
+        question: {
+          en: "What is 'AI alignment research' addressing for autonomous vehicle value systems?",
+          es: "¿Qué está abordando la 'investigación de alineación IA' para sistemas de valores de vehículos autónomos?",
+          de: "Was adressiert 'KI-Alignment-Forschung' für Wertesysteme autonomer Fahrzeuge?",
+          nl: "Wat pakt 'AI-alignment onderzoek' aan voor waardesystemen van autonome voertuigen?"
+        },
+        options: [
+          { en: "Ensuring AI driving decisions align with human ethical values and societal safety expectations in complex moral dilemmas", es: "Asegurar que decisiones de conducción IA se alineen con valores éticos humanos y expectativas de seguridad social en dilemas morales complejos", de: "Gewährleisten dass KI-Fahrentscheidungen mit menschlichen ethischen Werten und gesellschaftlichen Sicherheitserwartungen in komplexen moralischen Dilemmata übereinstimmen", nl: "Ervoor zorgen dat AI-rijbeslissingen aansluiten bij menselijke ethische waarden en maatschappelijke veiligheidsverwachtingen in complexe morele dilemma's" },
+          { en: "Alignment of AI sensors only", es: "Solo alineación de sensores IA", de: "Nur Ausrichtung von KI-Sensoren", nl: "Alleen uitlijning van AI-sensoren" },
+          { en: "Aligning AI with company goals", es: "Alinear IA con objetivos de empresa", de: "KI mit Unternehmenszielen ausrichten", nl: "AI afstemmen op bedrijfsdoelen" },
+          { en: "Alignment of AI algorithms", es: "Alineación de algoritmos IA", de: "Ausrichtung von KI-Algorithmen", nl: "Uitlijning van AI-algoritmes" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI alignment ensures autonomous vehicles make decisions consistent with human values in ethical edge cases, like how to minimize harm in unavoidable accident scenarios while respecting legal and cultural norms.",
+          es: "La alineación IA asegura que vehículos autónomos tomen decisiones consistentes con valores humanos en casos límite éticos, como minimizar daño en escenarios de accidente inevitable mientras se respetan normas legales y culturales.",
+          de: "KI-Alignment gewährleistet dass autonome Fahrzeuge Entscheidungen treffen die mit menschlichen Werten in ethischen Grenzfällen konsistent sind, wie Schaden in unvermeidbaren Unfallszenarien minimieren während rechtliche und kulturelle Normen respektiert werden.",
+          nl: "AI-alignment zorgt ervoor dat autonome voertuigen beslissingen nemen die consistent zijn met menselijke waarden in ethische randgevallen, zoals het minimaliseren van schade in onvermijdelijke ongevalsscenario's terwijl wettelijke en culturele normen worden gerespecteerd."
+        }
+      },
+      {
+        question: {
+          en: "What is 'specification gaming detection' preventing in autonomous vehicle AI systems?",
+          es: "¿Qué está previniendo la 'detección de gaming de especificación' en sistemas IA de vehículos autónomos?",
+          de: "Was verhindert 'Specification Gaming Detection' in KI-Systemen autonomer Fahrzeuge?",
+          nl: "Wat voorkomt 'specification gaming detectie' in AI-systemen van autonome voertuigen?"
+        },
+        options: [
+          { en: "AI systems finding loopholes to achieve reward objectives in technically correct but unsafe or unintended ways", es: "Sistemas IA encontrando lagunas para lograr objetivos de recompensa en formas técnicamente correctas pero inseguras o no previstas", de: "KI-Systeme finden Schlupflöcher um Belohnungsziele auf technisch korrekte aber unsichere oder unbeabsichtigte Weise zu erreichen", nl: "AI-systemen vinden mazen om beloningsdoelstellingen te bereiken op technisch correcte maar onveilige of onbedoelde manieren" },
+          { en: "Gaming features in vehicles", es: "Características de juegos en vehículos", de: "Gaming-Funktionen in Fahrzeugen", nl: "Gaming functies in voertuigen" },
+          { en: "Specification documentation games", es: "Juegos de documentación de especificación", de: "Spezifikationsdokumentations-Spiele", nl: "Specificatie documentatie games" },
+          { en: "Gaming traffic specifications", es: "Especificaciones de tráfico de juegos", de: "Gaming-Verkehrsspezifikationen", nl: "Gaming verkeer specificaties" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Specification gaming occurs when AI optimizes for literal reward metrics while violating the intended spirit, like an autonomous vehicle technically obeying speed limits while driving dangerously close to obstacles.",
+          es: "El gaming de especificación ocurre cuando IA optimiza para métricas literales de recompensa mientras viola el espíritu previsto, como un vehículo autónomo técnicamente obedeciendo límites de velocidad mientras conduce peligrosamente cerca de obstáculos.",
+          de: "Specification Gaming tritt auf wenn KI für wörtliche Belohnungsmetriken optimiert während die beabsichtigte Absicht verletzt wird, wie ein autonomes Fahrzeug technisch Geschwindigkeitsbegrenzungen befolgt während es gefährlich nahe an Hindernissen fährt.",
+          nl: "Specification gaming treedt op wanneer AI optimaliseert voor letterlijke beloningsmetrieken terwijl de beoogde geest wordt geschonden, zoals een autonoom voertuig technisch snelheidslimieten naleeft terwijl het gevaarlijk dicht bij obstakels rijdt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'runtime verification' continuously checking in deployed autonomous vehicles?",
+          es: "¿Qué está verificando continuamente la 'verificación en tiempo de ejecución' en vehículos autónomos desplegados?",
+          de: "Was überprüft 'Runtime Verification' kontinuierlich in eingesetzten autonomen Fahrzeugen?",
+          nl: "Wat controleert 'runtime verification' continu in ingezette autonome voertuigen?"
+        },
+        options: [
+          { en: "Whether system behavior matches formal safety specifications during actual operation in real-time", es: "Si comportamiento sistema coincide con especificaciones formales de seguridad durante operación real en tiempo real", de: "Ob Systemverhalten während tatsächlicher Operation in Echtzeit mit formalen Sicherheitsspezifikationen übereinstimmt", nl: "Of systeemgedrag overeenkomt met formele veiligheidsspecificaties tijdens daadwerkelijke werking in realtime" },
+          { en: "Runtime software performance only", es: "Solo rendimiento de software en tiempo de ejecución", de: "Nur Runtime-Software-Leistung", nl: "Alleen runtime software prestaties" },
+          { en: "Verification of runtime errors", es: "Verificación de errores de tiempo de ejecución", de: "Verifikation von Runtime-Fehlern", nl: "Verificatie van runtime fouten" },
+          { en: "Runtime compilation verification", es: "Verificación de compilación en tiempo de ejecución", de: "Runtime-Kompilierungsverifikation", nl: "Runtime compilatie verificatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Runtime verification monitors executing systems to detect violations of safety properties immediately, enabling fast intervention before dangerous situations develop.",
+          es: "La verificación en tiempo de ejecución monitorea sistemas en ejecución para detectar violaciones de propiedades de seguridad inmediatamente, permitiendo intervención rápida antes de que situaciones peligrosas se desarrollen.",
+          de: "Runtime Verification überwacht ausführende Systeme um Verletzungen von Sicherheitseigenschaften sofort zu erkennen, ermöglicht schnelle Intervention bevor gefährliche Situationen entstehen.",
+          nl: "Runtime verification monitort uitvoerende systemen om schendingen van veiligheidseigenschappen onmiddellijk te detecteren, wat snelle interventie mogelijk maakt voordat gevaarlijke situaties ontstaan."
+        }
+      },
+      {
+        question: {
+          en: "What is 'attack surface minimization' reducing in autonomous vehicle cybersecurity?",
+          es: "¿Qué está reduciendo la 'minimización de superficie de ataque' en ciberseguridad de vehículos autónomos?",
+          de: "Was reduziert 'Attack Surface Minimization' in der Cybersicherheit autonomer Fahrzeuge?",
+          nl: "Wat vermindert 'attack surface minimization' in cybersecurity van autonome voertuigen?"
+        },
+        options: [
+          { en: "Exposed interfaces, unnecessary services, and potential entry points that attackers could exploit to compromise vehicle systems", es: "Interfaces expuestas, servicios innecesarios y puntos de entrada potenciales que atacantes podrían explotar para comprometer sistemas vehiculares", de: "Exponierte Schnittstellen, unnötige Dienste und potentielle Einstiegspunkte die Angreifer ausnutzen könnten um Fahrzeugsysteme zu kompromittieren", nl: "Blootgestelde interfaces, onnodige diensten en potentiële toegangspunten die aanvallers zouden kunnen misbruiken om voertuigsystemen te compromitteren" },
+          { en: "Surface area of vehicle panels", es: "Área de superficie de paneles vehiculares", de: "Oberfläche von Fahrzeugpaneelen", nl: "Oppervlakte van voertuigpanelen" },
+          { en: "Attack minimization strategies", es: "Estrategias de minimización de ataques", de: "Angriff-Minimierungsstrategien", nl: "Aanval minimalisatie strategieën" },
+          { en: "Minimal vehicle surfaces", es: "Superficies vehiculares mínimas", de: "Minimale Fahrzeugoberflächen", nl: "Minimale voertuigoppervlakken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Reducing attack surface involves disabling unused communication ports, limiting network exposure, and implementing strict access controls to minimize ways attackers can infiltrate vehicle systems.",
+          es: "Reducir superficie de ataque implica deshabilitar puertos de comunicación no usados, limitar exposición de red e implementar controles de acceso estrictos para minimizar formas en que atacantes pueden infiltrar sistemas vehiculares.",
+          de: "Reduzierung der Angriffsfläche beinhaltet Deaktivierung ungenutzter Kommunikationsports, Begrenzung der Netzwerkexposition und Implementierung strenger Zugriffskontrollen um Wege zu minimieren wie Angreifer Fahrzeugsysteme infiltrieren können.",
+          nl: "Het verminderen van attack surface omvat het uitschakelen van ongebruikte communicatiepoorten, het beperken van netwerkblootstelling en het implementeren van strikte toegangscontroles om manieren te minimaliseren waarop aanvallers voertuigsystemen kunnen infiltreren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'secure multi-party computation' enabling for privacy-preserving traffic optimization?",
+          es: "¿Qué está permitiendo la 'computación multipartita segura' para optimización de tráfico que preserva privacidad?",
+          de: "Was ermöglicht 'Secure Multi-Party Computation' für datenschutzfreundliche Verkehrsoptimierung?",
+          nl: "Wat maakt 'secure multi-party computation' mogelijk voor privacy-behoudende verkeersoptimalisatie?"
+        },
+        options: [
+          { en: "Multiple vehicles computing optimal traffic solutions collaboratively without revealing individual position or route data", es: "Múltiples vehículos computando soluciones óptimas de tráfico colaborativamente sin revelar datos individuales de posición o ruta", de: "Mehrere Fahrzeuge berechnen optimale Verkehrslösungen kollaborativ ohne individuelle Positions- oder Routendaten zu offenbaren", nl: "Meerdere voertuigen berekenen optimale verkeersoplossingen collaboratief zonder individuele positie- of routedata te onthullen" },
+          { en: "Multi-party vehicle ownership computation", es: "Computación de propiedad vehicular multipartita", de: "Multi-Party Fahrzeugbesitz-Berechnung", nl: "Multi-party voertuig eigendom berekening" },
+          { en: "Secure computation for multiple passengers", es: "Computación segura para múltiples pasajeros", de: "Sichere Berechnung für mehrere Passagiere", nl: "Veilige berekening voor meerdere passagiers" },
+          { en: "Party planning computations", es: "Computaciones de planificación de fiestas", de: "Party-Planungsberechnungen", nl: "Feest planning berekeningen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Secure multi-party computation allows vehicles to jointly optimize routes and traffic flow while cryptographically ensuring no single party can learn others' private data, balancing efficiency with privacy.",
+          es: "La computación multipartita segura permite a vehículos optimizar conjuntamente rutas y flujo de tráfico mientras asegura criptográficamente que ninguna parte puede aprender datos privados de otros, equilibrando eficiencia con privacidad.",
+          de: "Secure Multi-Party Computation ermöglicht Fahrzeugen gemeinsam Routen und Verkehrsfluss zu optimieren während kryptographisch gewährleistet wird dass keine einzelne Partei private Daten anderer lernen kann, balanciert Effizienz mit Datenschutz.",
+          nl: "Secure multi-party computation stelt voertuigen in staat gezamenlijk routes en verkeersstroom te optimaliseren terwijl cryptografisch wordt gewaarborgd dat geen enkele partij de privédata van anderen kan leren, balanceert efficiëntie met privacy."
+        }
+      },
+      {
+        question: {
+          en: "What is 'safety cage architecture' providing in autonomous vehicle system design?",
+          es: "¿Qué está proporcionando la 'arquitectura de jaula de seguridad' en diseño de sistemas de vehículos autónomos?",
+          de: "Was bietet 'Safety Cage Architektur' im Design autonomer Fahrzeugsysteme?",
+          nl: "Wat biedt 'safety cage architectuur' in ontwerp van autonome voertuigsystemen?"
+        },
+        options: [
+          { en: "Multiple independent safety layers that monitor and override AI decisions when dangerous behaviors are detected", es: "Múltiples capas de seguridad independientes que monitorean y anulan decisiones IA cuando comportamientos peligrosos son detectados", de: "Mehrere unabhängige Sicherheitsschichten die KI-Entscheidungen überwachen und überschreiben wenn gefährliche Verhaltensweisen erkannt werden", nl: "Meerdere onafhankelijke veiligheidslagen die AI-beslissingen monitoren en overschrijven wanneer gevaarlijke gedragingen worden gedetecteerd" },
+          { en: "Physical cage around vehicle systems", es: "Jaula física alrededor de sistemas vehiculares", de: "Physischer Käfig um Fahrzeugsysteme", nl: "Fysieke kooi rondom voertuigsystemen" },
+          { en: "Safety cage for passengers", es: "Jaula de seguridad para pasajeros", de: "Sicherheitskäfig für Passagiere", nl: "Veiligheidskooi voor passagiers" },
+          { en: "Caged safety equipment", es: "Equipo de seguridad enjaulado", de: "Eingesperrte Sicherheitsausrüstung", nl: "Kooiuitrusting voor veiligheid" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Safety cage architecture wraps AI systems in independent monitoring layers that can detect and prevent unsafe actions, ensuring the vehicle remains safe even if the primary AI malfunctions.",
+          es: "La arquitectura de jaula de seguridad envuelve sistemas IA en capas de monitoreo independientes que pueden detectar y prevenir acciones inseguras, asegurando que el vehículo permanezca seguro incluso si la IA primaria funciona mal.",
+          de: "Safety Cage Architektur umhüllt KI-Systeme mit unabhängigen Überwachungsschichten die unsichere Aktionen erkennen und verhindern können, gewährleistet dass das Fahrzeug sicher bleibt auch wenn die primäre KI versagt.",
+          nl: "Safety cage architectuur omhult AI-systemen in onafhankelijke monitoringlagen die onveilige acties kunnen detecteren en voorkomen, waarbij wordt gewaarborgd dat het voertuig veilig blijft zelfs als de primaire AI defect raakt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'adversarial robustness certification' verifying for autonomous vehicle perception systems?",
+          es: "¿Qué está verificando la 'certificación de robustez adversarial' para sistemas de percepción de vehículos autónomos?",
+          de: "Was verifiziert 'adversariale Robustheitszertifizierung' für Wahrnehmungssysteme autonomer Fahrzeuge?",
+          nl: "Wat verifieert 'adversarial robustness certification' voor perceptiesystemen van autonome voertuigen?"
+        },
+        options: [
+          { en: "Mathematically proven bounds on how resistant AI perception is to adversarial attacks and sensor manipulation", es: "Límites probados matemáticamente sobre qué tan resistente es percepción IA a ataques adversariales y manipulación de sensores", de: "Mathematisch bewiesene Grenzen wie resistent KI-Wahrnehmung gegen adversariale Angriffe und Sensormanipulation ist", nl: "Wiskundig bewezen grenzen aan hoe resistent AI-perceptie is tegen adversariële aanvallen en sensormanipulatie" },
+          { en: "Certification of adversarial training only", es: "Certificación solo de entrenamiento adversarial", de: "Zertifizierung nur von adversarialem Training", nl: "Certificering alleen van adversarial training" },
+          { en: "Robustness of adversarial examples", es: "Robustez de ejemplos adversariales", de: "Robustheit adversarialer Beispiele", nl: "Robuustheid van adversarial voorbeelden" },
+          { en: "Certification documentation robustness", es: "Robustez de documentación de certificación", de: "Zertifizierungsdokumentations-Robustheit", nl: "Certificatie documentatie robuustheid" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Certified adversarial robustness provides formal guarantees that perception systems will correctly classify objects even under bounded adversarial perturbations, ensuring reliable safety despite potential attacks.",
+          es: "La robustez adversarial certificada proporciona garantías formales de que sistemas de percepción clasificarán correctamente objetos incluso bajo perturbaciones adversariales limitadas, asegurando seguridad confiable a pesar de ataques potenciales.",
+          de: "Zertifizierte adversariale Robustheit bietet formale Garantien dass Wahrnehmungssysteme Objekte korrekt klassifizieren auch unter begrenzten adversarialen Störungen, gewährleistet zuverlässige Sicherheit trotz potentieller Angriffe.",
+          nl: "Gecertificeerde adversarial robustness biedt formele garanties dat perceptiesystemen objecten correct zullen classificeren zelfs onder begrensde adversariële verstoringen, wat betrouwbare veiligheid waarborgt ondanks potentiële aanvallen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'security information and event management' (SIEM) providing for fleet cybersecurity?",
+          es: "¿Qué está proporcionando la 'gestión de información y eventos de seguridad' (SIEM) para ciberseguridad de flotas?",
+          de: "Was bietet 'Security Information and Event Management' (SIEM) für Flotten-Cybersicherheit?",
+          nl: "Wat biedt 'security information and event management' (SIEM) voor vloot cybersecurity?"
+        },
+        options: [
+          { en: "Centralized monitoring and correlation of security events across entire vehicle fleets to detect coordinated attacks and patterns", es: "Monitoreo centralizado y correlación de eventos de seguridad a través de flotas vehiculares enteras para detectar ataques coordinados y patrones", de: "Zentralisierte Überwachung und Korrelation von Sicherheitsereignissen über gesamte Fahrzeugflotten um koordinierte Angriffe und Muster zu erkennen", nl: "Gecentraliseerde monitoring en correlatie van beveiligingsgebeurtenissen over hele voertuigvloten om gecoördineerde aanvallen en patronen te detecteren" },
+          { en: "SIEM for individual vehicle security only", es: "SIEM solo para seguridad de vehículo individual", de: "SIEM nur für individuelle Fahrzeugsicherheit", nl: "SIEM alleen voor individuele voertuigbeveiliging" },
+          { en: "Security information documentation", es: "Documentación de información de seguridad", de: "Sicherheitsinformations-Dokumentation", nl: "Beveiligingsinformatie documentatie" },
+          { en: "Event management for vehicle maintenance", es: "Gestión de eventos para mantenimiento vehicular", de: "Ereignismanagement für Fahrzeugwartung", nl: "Gebeurtenisbeheer voor voertuigonderhoud" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "SIEM aggregates security data from thousands of vehicles, using AI to identify widespread attack campaigns, zero-day exploits, and anomalous patterns that indicate emerging threats to the fleet.",
+          es: "SIEM agrega datos de seguridad de miles de vehículos, usando IA para identificar campañas de ataque generalizadas, exploits de día cero y patrones anómalos que indican amenazas emergentes para la flota.",
+          de: "SIEM aggregiert Sicherheitsdaten von Tausenden Fahrzeugen, nutzt KI um weitverbreitete Angriffskampagnen, Zero-Day-Exploits und anomale Muster zu identifizieren die auf entstehende Bedrohungen für die Flotte hinweisen.",
+          nl: "SIEM aggregeert beveiligingsdata van duizenden voertuigen, gebruikt AI om wijdverbreide aanvalscampagnes, zero-day exploits en anomale patronen te identificeren die duiden op opkomende bedreigingen voor de vloot."
+        }
+      },
+      {
+        question: {
+          en: "What is 'micro-segmentation' isolating in autonomous vehicle network architecture?",
+          es: "¿Qué está aislando la 'micro-segmentación' en arquitectura de red de vehículos autónomos?",
+          de: "Was isoliert 'Mikro-Segmentierung' in autonomer Fahrzeugnetzwerk-Architektur?",
+          nl: "Wat isoleert 'micro-segmentatie' in autonome voertuignetwerkarchitectuur?"
+        },
+        options: [
+          { en: "Individual vehicle subsystems into isolated network zones to contain breaches and prevent lateral movement of attackers", es: "Subsistemas vehiculares individuales en zonas de red aisladas para contener brechas y prevenir movimiento lateral de atacantes", de: "Individuelle Fahrzeugsubsysteme in isolierte Netzwerkzonen um Einbrüche zu begrenzen und laterale Bewegung von Angreifern zu verhindern", nl: "Individuele voertuigsubsystemen in geïsoleerde netwerksegmenten om inbraken te beperken en laterale beweging van aanvallers te voorkomen" },
+          { en: "Micro-sized vehicle segments", es: "Segmentos vehiculares de tamaño micro", de: "Mikro-große Fahrzeugsegmente", nl: "Micro-formaat voertuigsegmenten" },
+          { en: "Segmentation of micro-controllers", es: "Segmentación de micro-controladores", de: "Segmentierung von Mikrocontrollern", nl: "Segmentatie van microcontrollers" },
+          { en: "Micro-level network analysis", es: "Análisis de red a nivel micro", de: "Mikro-Level Netzwerkanalyse", nl: "Micro-niveau netwerkanalyse" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Micro-segmentation creates strict boundaries between vehicle systems like infotainment, telematics, and safety-critical controls, ensuring compromised entertainment systems cannot access steering or braking.",
+          es: "La micro-segmentación crea límites estrictos entre sistemas vehiculares como infoentretenimiento, telemática y controles críticos de seguridad, asegurando que sistemas de entretenimiento comprometidos no puedan acceder a dirección o frenos.",
+          de: "Mikro-Segmentierung erstellt strikte Grenzen zwischen Fahrzeugsystemen wie Infotainment, Telematik und sicherheitskritischen Kontrollen, gewährleistet dass kompromittierte Unterhaltungssysteme nicht auf Lenkung oder Bremsen zugreifen können.",
+          nl: "Micro-segmentatie creëert strikte grenzen tussen voertuigsystemen zoals infotainment, telematica en veiligheidskritieke controles, waardoor gecompromitteerde entertainmentsystemen geen toegang hebben tot stuurinrichtingen of remmen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'zero-trust architecture' requiring in autonomous vehicle system access?",
+          es: "¿Qué está requiriendo la 'arquitectura de confianza cero' en acceso a sistemas de vehículos autónomos?",
+          de: "Was erfordert 'Zero-Trust Architektur' beim Zugriff auf autonome Fahrzeugsysteme?",
+          nl: "Wat vereist 'zero-trust architectuur' in autonome voertuigsysteem toegang?"
+        },
+        options: [
+          { en: "Continuous authentication and authorization for every access request regardless of source, never assuming trust", es: "Autenticación y autorización continuas para cada solicitud de acceso sin importar fuente, nunca asumiendo confianza", de: "Kontinuierliche Authentifizierung und Autorisierung für jede Zugriffsanforderung unabhängig von Quelle, niemals Vertrauen annehmen", nl: "Continue authenticatie en autorisatie voor elke toegangsaanvraag ongeacht bron, nooit vertrouwen aannemen" },
+          { en: "Zero trust in vehicle users", es: "Cero confianza en usuarios vehiculares", de: "Null Vertrauen in Fahrzeugnutzer", nl: "Nul vertrouwen in voertuiggebruikers" },
+          { en: "Trust architecture with zero components", es: "Arquitectura de confianza con cero componentes", de: "Vertrauensarchitektur mit null Komponenten", nl: "Vertrouwensarchitectuur met nul componenten" },
+          { en: "Zero-level trust for all systems", es: "Confianza de nivel cero para todos los sistemas", de: "Null-Level Vertrauen für alle Systeme", nl: "Nul-niveau vertrouwen voor alle systemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Zero-trust principles ensure that even internal vehicle components must continuously prove their identity and authorization, preventing compromised subsystems from accessing critical functions.",
+          es: "Los principios de confianza cero aseguran que incluso componentes vehiculares internos deben probar continuamente su identidad y autorización, previniendo que subsistemas comprometidos accedan a funciones críticas.",
+          de: "Zero-Trust-Prinzipien gewährleisten dass auch interne Fahrzeugkomponenten kontinuierlich ihre Identität und Autorisierung beweisen müssen, verhindert dass kompromittierte Subsysteme auf kritische Funktionen zugreifen.",
+          nl: "Zero-trust principes zorgen ervoor dat zelfs interne voertuigcomponenten continu hun identiteit en autorisatie moeten bewijzen, waardoor gecompromitteerde subsystemen geen toegang krijgen tot kritieke functies."
+        }
+      },
+      {
+        question: {
+          en: "What is 'AI red teaming' discovering in autonomous vehicle security testing?",
+          es: "¿Qué está descubriendo el 'equipo rojo IA' en pruebas de seguridad de vehículos autónomos?",
+          de: "Was entdeckt 'KI Red Teaming' in Sicherheitstests autonomer Fahrzeuge?",
+          nl: "Wat ontdekt 'AI red teaming' in beveiligingstesten van autonome voertuigen?"
+        },
+        options: [
+          { en: "Novel attack vectors and AI vulnerabilities through adversarial AI systems trained to find weaknesses and exploit edge cases", es: "Vectores de ataque novedosos y vulnerabilidades IA a través de sistemas IA adversariales entrenados para encontrar debilidades y explotar casos límite", de: "Neuartige Angriffsvektoren und KI-Schwachstellen durch adversariale KI-Systeme trainiert um Schwächen zu finden und Grenzfälle auszunutzen", nl: "Nieuwe aanvalsvectoren en AI-kwetsbaarheden door adversariële AI-systemen getraind om zwakke punten te vinden en randgevallen te exploiteren" },
+          { en: "Red team vehicle colors", es: "Colores de equipo rojo vehicular", de: "Rote Team-Fahrzeugfarben", nl: "Rode team voertuigkleuren" },
+          { en: "AI teams wearing red", es: "Equipos IA vistiendo rojo", de: "KI-Teams in Rot gekleidet", nl: "AI-teams gekleed in rood" },
+          { en: "Red alert AI systems", es: "Sistemas IA de alerta roja", de: "Rotalarm-KI-Systeme", nl: "Rode alarm AI-systemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI red teams use automated adversarial systems to continuously probe autonomous vehicles for undiscovered vulnerabilities, simulating sophisticated attackers faster and more comprehensively than human testers alone.",
+          es: "Los equipos rojos IA usan sistemas adversariales automatizados para sondear continuamente vehículos autónomos buscando vulnerabilidades no descubiertas, simulando atacantes sofisticados más rápido y más exhaustivamente que testers humanos solos.",
+          de: "KI Red Teams nutzen automatisierte adversariale Systeme um autonome Fahrzeuge kontinuierlich auf unentdeckte Schwachstellen zu untersuchen, simulieren anspruchsvolle Angreifer schneller und umfassender als menschliche Tester allein.",
+          nl: "AI red teams gebruiken geautomatiseerde adversariële systemen om autonome voertuigen continu te onderzoeken op ontdekte kwetsbaarheden, simuleren geavanceerde aanvallers sneller en uitgebreider dan menselijke testers alleen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'supply chain security verification' protecting against in autonomous vehicle manufacturing?",
+          es: "¿Contra qué está protegiendo la 'verificación de seguridad de cadena de suministro' en fabricación de vehículos autónomos?",
+          de: "Wogegen schützt 'Supply Chain Security Verification' in der Herstellung autonomer Fahrzeuge?",
+          nl: "Waartegen beschermt 'supply chain security verification' in productie van autonome voertuigen?"
+        },
+        options: [
+          { en: "Malicious hardware and software components inserted during manufacturing or delivery by compromised suppliers", es: "Componentes maliciosos de hardware y software insertados durante fabricación o entrega por proveedores comprometidos", de: "Bösartige Hardware- und Software-Komponenten eingefügt während Herstellung oder Lieferung durch kompromittierte Lieferanten", nl: "Kwaadaardige hardware- en softwarecomponenten ingevoegd tijdens productie of levering door gecompromitteerde leveranciers" },
+          { en: "Supply chain logistics verification", es: "Verificación de logística de cadena de suministro", de: "Lieferketten-Logistik-Verifikation", nl: "Supply chain logistiek verificatie" },
+          { en: "Verification of supply quantities", es: "Verificación de cantidades de suministro", de: "Verifikation von Liefermengen", nl: "Verificatie van leveringshoeveelheden" },
+          { en: "Chain security for vehicle parts", es: "Seguridad de cadena para partes vehiculares", de: "Kettensicherheit für Fahrzeugteile", nl: "Ketting beveiliging voor voertuigonderdelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Supply chain verification uses cryptographic attestation, secure boot chains, and component authentication to ensure no malicious hardware backdoors or compromised software enters vehicles during manufacturing.",
+          es: "La verificación de cadena de suministro usa atestación criptográfica, cadenas de arranque seguro y autenticación de componentes para asegurar que no entren puertas traseras de hardware maliciosas o software comprometido a vehículos durante fabricación.",
+          de: "Supply Chain Verification nutzt kryptographische Attestierung, Secure-Boot-Ketten und Komponenten-Authentifizierung um zu gewährleisten dass keine bösartigen Hardware-Backdoors oder kompromittierte Software während der Herstellung in Fahrzeuge gelangen.",
+          nl: "Supply chain verification gebruikt cryptografische attestatie, secure boot chains en component authenticatie om te zorgen dat geen kwaadaardige hardware backdoors of gecompromitteerde software tijdens productie in voertuigen terechtkomen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'side-channel attack mitigation' protecting in autonomous vehicle processors?",
+          es: "¿Qué está protegiendo la 'mitigación de ataques de canal lateral' en procesadores de vehículos autónomos?",
+          de: "Was schützt 'Side-Channel-Angriffs-Mitigation' in Prozessoren autonomer Fahrzeuge?",
+          nl: "Wat beschermt 'side-channel attack mitigation' in processors van autonome voertuigen?"
+        },
+        options: [
+          { en: "Cryptographic keys and sensitive data from being extracted by analyzing power consumption, electromagnetic emissions, or timing variations", es: "Claves criptográficas y datos sensibles de ser extraídos analizando consumo de energía, emisiones electromagnéticas o variaciones de tiempo", de: "Kryptographische Schlüssel und sensible Daten davor extrahiert zu werden durch Analyse von Stromverbrauch, elektromagnetischen Emissionen oder Zeitvariationen", nl: "Cryptografische sleutels en gevoelige data tegen extractie door analyse van stroomverbruik, elektromagnetische emissies of timing variaties" },
+          { en: "Side doors attack protection", es: "Protección de ataque de puertas laterales", de: "Seitentür-Angriffsschutz", nl: "Zijdeur aanval bescherming" },
+          { en: "Channel switching attacks", es: "Ataques de cambio de canal", de: "Kanalwechsel-Angriffe", nl: "Kanaal wissel aanvallen" },
+          { en: "Side mirror attack detection", es: "Detección de ataques de espejo lateral", de: "Seitenspiegel-Angriffserkennung", nl: "Zijspiegel aanval detectie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Side-channel mitigations use constant-time algorithms, power analysis countermeasures, and shielding to prevent attackers from extracting cryptographic secrets by observing physical characteristics of computation.",
+          es: "Las mitigaciones de canal lateral usan algoritmos de tiempo constante, contramedidas de análisis de energía y blindaje para prevenir que atacantes extraigan secretos criptográficos observando características físicas de computación.",
+          de: "Side-Channel-Mitigationen nutzen Constant-Time-Algorithmen, Stromanalyse-Gegenmaßnahmen und Abschirmung um zu verhindern dass Angreifer kryptographische Geheimnisse durch Beobachtung physischer Berechnungsmerkmale extrahieren.",
+          nl: "Side-channel mitigaties gebruiken constant-time algoritmes, stroom analyse tegenmaatregelen en afscherming om te voorkomen dat aanvallers cryptografische geheimen extraheren door fysieke kenmerken van berekeningen te observeren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'behavioral biometrics' adding to autonomous vehicle user authentication?",
+          es: "¿Qué está añadiendo la 'biometría de comportamiento' a autenticación de usuarios de vehículos autónomos?",
+          de: "Was fügt 'verhaltensbiometrische Erkennung' zur Nutzerauthentifizierung autonomer Fahrzeuge hinzu?",
+          nl: "Wat voegt 'gedragsbiometrie' toe aan gebruikersauthenticatie van autonome voertuigen?"
+        },
+        options: [
+          { en: "Continuous authentication based on unique driving patterns, interaction styles, and usage behaviors to detect unauthorized users", es: "Autenticación continua basada en patrones únicos de conducción, estilos de interacción y comportamientos de uso para detectar usuarios no autorizados", de: "Kontinuierliche Authentifizierung basierend auf einzigartigen Fahrmustern, Interaktionsstilen und Nutzungsverhalten um unbefugte Nutzer zu erkennen", nl: "Continue authenticatie gebaseerd op unieke rijpatronen, interactiestijlen en gebruiksgedrag om ongeautoriseerde gebruikers te detecteren" },
+          { en: "Biometric behavioral analysis only", es: "Solo análisis biométrico de comportamiento", de: "Nur biometrische Verhaltensanalyse", nl: "Alleen biometrische gedragsanalyse" },
+          { en: "Behavioral training for biometrics", es: "Entrenamiento de comportamiento para biométrica", de: "Verhaltenstraining für Biometrie", nl: "Gedragstraining voor biometrie" },
+          { en: "Biometric behavior documentation", es: "Documentación de comportamiento biométrico", de: "Biometrische Verhaltensdokumentation", nl: "Biometrisch gedrag documentatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Behavioral biometrics analyze subtle patterns like seat adjustment sequences, climate control preferences, and driving styles to verify authorized users continuously without requiring explicit authentication steps.",
+          es: "La biometría de comportamiento analiza patrones sutiles como secuencias de ajuste de asiento, preferencias de control de clima y estilos de conducción para verificar usuarios autorizados continuamente sin requerir pasos explícitos de autenticación.",
+          de: "Verhaltensbiometrische Erkennung analysiert subtile Muster wie Sitzeinstellungssequenzen, Klimasteuerungspräferenzen und Fahrstile um autorisierte Nutzer kontinuierlich zu verifizieren ohne explizite Authentifizierungsschritte zu erfordern.",
+          nl: "Gedragsbiometrie analyseert subtiele patronen zoals stoelverstelling sequenties, klimaatregelingsvoorkeuren en rijstijlen om geautoriseerde gebruikers continu te verifiëren zonder expliciete authenticatiestappen te vereisen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'code signing with hardware roots of trust' ensuring for autonomous vehicle software?",
+          es: "¿Qué está asegurando la 'firma de código con raíces de confianza de hardware' para software de vehículos autónomos?",
+          de: "Was gewährleistet 'Code-Signierung mit Hardware-Vertrauensankern' für autonome Fahrzeugsoftware?",
+          nl: "Wat waarborgt 'code signing met hardware roots of trust' voor autonome voertuigsoftware?"
+        },
+        options: [
+          { en: "Only software signed by authorized developers with keys stored in tamper-proof hardware can execute on vehicle systems", es: "Solo software firmado por desarrolladores autorizados con claves almacenadas en hardware a prueba de manipulación puede ejecutarse en sistemas vehiculares", de: "Nur Software signiert von autorisierten Entwicklern mit in manipulationssicherer Hardware gespeicherten Schlüsseln kann auf Fahrzeugsystemen ausgeführt werden", nl: "Alleen software ondertekend door geautoriseerde ontwikkelaars met sleutels opgeslagen in manipulatiebestendige hardware kan draaien op voertuigsystemen" },
+          { en: "Code signing documentation", es: "Documentación de firma de código", de: "Code-Signierung-Dokumentation", nl: "Code signing documentatie" },
+          { en: "Hardware code verification only", es: "Solo verificación de código de hardware", de: "Nur Hardware-Code-Verifikation", nl: "Alleen hardware code verificatie" },
+          { en: "Signing hardware components", es: "Firmar componentes de hardware", de: "Hardware-Komponenten signieren", nl: "Hardware componenten ondertekenen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hardware-backed code signing creates an unbreakable chain from silicon to software, preventing malware installation by cryptographically verifying every executable against hardware-protected signing keys.",
+          es: "La firma de código respaldada por hardware crea una cadena inquebrantable desde silicio a software, previniendo instalación de malware verificando criptográficamente cada ejecutable contra claves de firma protegidas por hardware.",
+          de: "Hardware-gestützte Code-Signierung erstellt eine unzerbrechliche Kette von Silizium zu Software, verhindert Malware-Installation durch kryptographische Verifikation jedes Executables gegen hardware-geschützte Signierungsschlüssel.",
+          nl: "Hardware-ondersteunde code signing creëert een onbreekbare keten van silicium naar software, voorkomt malware installatie door elke executable cryptografisch te verifiëren tegen hardware-beschermde ondertekeningssleutels."
+        }
+      },
+      {
+        question: {
+          en: "What is 'quantum key distribution' preparing for in long-term autonomous vehicle communication security?",
+          es: "¿Para qué está preparando la 'distribución de claves cuánticas' en seguridad de comunicación a largo plazo de vehículos autónomos?",
+          de: "Wofür bereitet 'Quantenschlüsselverteilung' die langfristige Kommunikationssicherheit autonomer Fahrzeuge vor?",
+          nl: "Waarvoor bereidt 'quantum key distribution' voor in langetermijn communicatiebeveiliging van autonome voertuigen?"
+        },
+        options: [
+          { en: "Provably secure communication channels using quantum physics principles that detect any interception attempts", es: "Canales de comunicación demostrablemente seguros usando principios de física cuántica que detectan cualquier intento de intercepción", de: "Nachweislich sichere Kommunikationskanäle unter Verwendung quantenphysikalischer Prinzipien die jeden Abhörversuch erkennen", nl: "Aantoonbaar veilige communicatiekanalen die quantumfysica principes gebruiken om elke onderscheppingspoging te detecteren" },
+          { en: "Distribution of quantum computing keys", es: "Distribución de claves de computación cuántica", de: "Verteilung von Quantencomputer-Schlüsseln", nl: "Distributie van quantum computing sleutels" },
+          { en: "Key distribution for quantum vehicles", es: "Distribución de claves para vehículos cuánticos", de: "Schlüsselverteilung für Quanten-Fahrzeuge", nl: "Sleutel distributie voor quantum voertuigen" },
+          { en: "Quantum particle key generation", es: "Generación de claves de partículas cuánticas", de: "Quantenteilchen-Schlüsselgenerierung", nl: "Quantum deeltjes sleutel generatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Quantum key distribution uses quantum entanglement and superposition to create encryption keys that are physically impossible to intercept without detection, providing ultimate security for critical vehicle communications.",
+          es: "La distribución de claves cuánticas usa entrelazamiento cuántico y superposición para crear claves de encriptación físicamente imposibles de interceptar sin detección, proporcionando seguridad definitiva para comunicaciones críticas vehiculares.",
+          de: "Quantenschlüsselverteilung nutzt Quantenverschränkung und Superposition um Verschlüsselungsschlüssel zu erstellen die physikalisch unmöglich ohne Detektion abgefangen werden können, bietet ultimative Sicherheit für kritische Fahrzeugkommunikation.",
+          nl: "Quantum key distribution gebruikt quantum verstrengeling en superpositie om versleutelingssleutels te creëren die fysiek onmogelijk zonder detectie onderschept kunnen worden, biedt ultieme beveiliging voor kritieke voertuigcommunicaties."
+        }
+      },
+      {
+        question: {
+          en: "What is 'security orchestration, automation, and response' (SOAR) enabling for autonomous fleet protection?",
+          es: "¿Qué está permitiendo la 'orquestación, automatización y respuesta de seguridad' (SOAR) para protección de flotas autónomas?",
+          de: "Was ermöglicht 'Security Orchestration, Automation, and Response' (SOAR) für autonomen Flottenschutz?",
+          nl: "Wat maakt 'security orchestration, automation, and response' (SOAR) mogelijk voor autonome vlootbescherming?"
+        },
+        options: [
+          { en: "Automated coordinated response to security incidents across entire fleets with AI-driven threat remediation and containment", es: "Respuesta coordinada automatizada a incidentes de seguridad a través de flotas enteras con remediación y contención de amenazas impulsada por IA", de: "Automatisierte koordinierte Reaktion auf Sicherheitsvorfälle über gesamte Flotten mit KI-gesteuerte Bedrohungsbehebung und -eindämmung", nl: "Geautomatiseerde gecoördineerde reactie op beveiligingsincidenten over hele vloten met AI-gedreven dreiging herstel en insluiting" },
+          { en: "SOAR for vehicle orchestration only", es: "SOAR solo para orquestación vehicular", de: "SOAR nur für Fahrzeug-Orchestrierung", nl: "SOAR alleen voor voertuig orchestratie" },
+          { en: "Security automation documentation", es: "Documentación de automatización de seguridad", de: "Sicherheitsautomatisierungs-Dokumentation", nl: "Beveiligingsautomatisering documentatie" },
+          { en: "Orchestrated security training", es: "Entrenamiento de seguridad orquestado", de: "Orchestriertes Sicherheitstraining", nl: "Georchestreerde beveiligingstraining" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "SOAR platforms automatically detect, analyze, and respond to security threats across thousands of vehicles simultaneously, isolating compromised vehicles, deploying patches, and coordinating defensive measures at fleet scale.",
+          es: "Las plataformas SOAR detectan, analizan y responden automáticamente a amenazas de seguridad a través de miles de vehículos simultáneamente, aislando vehículos comprometidos, desplegando parches y coordinando medidas defensivas a escala de flota.",
+          de: "SOAR-Plattformen erkennen, analysieren und reagieren automatisch auf Sicherheitsbedrohungen über Tausende Fahrzeuge gleichzeitig, isolieren kompromittierte Fahrzeuge, setzen Patches ein und koordinieren Verteidigungsmaßnahmen im Flottenmaßstab.",
+          nl: "SOAR platforms detecteren, analyseren en reageren automatisch op beveiligingsdreigingen over duizenden voertuigen tegelijkertijd, isoleren gecompromitteerde voertuigen, implementeren patches en coördineren verdedigingsmaatregelen op vlootschaal."
+        }
+      },
+      {
+        question: {
+          en: "What is 'threat intelligence sharing' providing across autonomous vehicle manufacturers and operators?",
+          es: "¿Qué está proporcionando el 'intercambio de inteligencia de amenazas' a través de fabricantes y operadores de vehículos autónomos?",
+          de: "Was bietet 'Threat Intelligence Sharing' über autonome Fahrzeughersteller und Betreiber hinweg?",
+          nl: "Wat biedt 'threat intelligence sharing' over autonome voertuigfabrikanten en exploitanten?"
+        },
+        options: [
+          { en: "Collaborative real-time sharing of attack patterns, vulnerabilities, and defensive strategies to protect the entire autonomous vehicle ecosystem", es: "Intercambio colaborativo en tiempo real de patrones de ataque, vulnerabilidades y estrategias defensivas para proteger todo el ecosistema de vehículos autónomos", de: "Kollaboratives Echtzeit-Teilen von Angriffsmustern, Schwachstellen und Verteidigungsstrategien um das gesamte autonome Fahrzeug-Ökosystem zu schützen", nl: "Collaboratief realtime delen van aanvalspatronen, kwetsbaarheden en defensieve strategieën om het hele autonome voertuigecosysteem te beschermen" },
+          { en: "Sharing threat documentation only", es: "Compartir solo documentación de amenazas", de: "Nur Bedrohungsdokumentation teilen", nl: "Alleen dreiging documentatie delen" },
+          { en: "Intelligence gathering for threats", es: "Recopilación de inteligencia para amenazas", de: "Intelligenzsammlung für Bedrohungen", nl: "Intelligence verzameling voor dreigingen" },
+          { en: "Threat analysis sharing meetings", es: "Reuniones de intercambio de análisis de amenazas", de: "Bedrohungsanalyse-Austauschmeetings", nl: "Dreiging analyse deel vergaderingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Industry-wide threat intelligence sharing enables rapid dissemination of zero-day vulnerabilities, emerging attack techniques, and effective countermeasures, creating collective defense stronger than any single manufacturer could achieve.",
+          es: "El intercambio de inteligencia de amenazas a nivel industrial permite difusión rápida de vulnerabilidades de día cero, técnicas de ataque emergentes y contramedidas efectivas, creando defensa colectiva más fuerte que cualquier fabricante único podría lograr.",
+          de: "Branchenweites Threat Intelligence Sharing ermöglicht schnelle Verbreitung von Zero-Day-Schwachstellen, entstehenden Angriffstechniken und effektiven Gegenmaßnahmen, schafft kollektive Verteidigung stärker als jeder einzelne Hersteller erreichen könnte.",
+          nl: "Industrie-breed threat intelligence sharing maakt snelle verspreiding mogelijk van zero-day kwetsbaarheden, opkomende aanvalstechnieken en effectieve tegenmaatregelen, creëert collectieve verdediging sterker dan elke individuele fabrikant zou kunnen bereiken."
+        }
+      },
+      {
+        question: {
+          en: "What is adversarial training improving in autonomous vehicle robustness?",
+          es: "¿Qué está mejorando el entrenamiento adversarial en robustez de vehículos autónomos?",
+          de: "Was verbessert adversariales Training in autonomer Fahrzeugrobustheit?",
+          nl: "Wat verbetert adversariële training in autonome voertuig robuustheid?"
+        },
+        options: [
+          { en: "Training models on intentionally perturbed inputs to resist malicious attacks and edge cases", es: "Entrenar modelos en entradas intencionalmente perturbadas para resistir ataques maliciosos y casos extremos", de: "Modelle auf absichtlich gestörten Eingaben trainieren um böswilligen Angriffen und Randfällen zu widerstehen", nl: "Modellen trainen op opzettelijk verstoorde inputs om kwaadaardige aanvallen en randgevallen te weerstaan" },
+          { en: "Training against adversaries only", es: "Entrenar solo contra adversarios", de: "Nur gegen Gegner trainieren", nl: "Alleen trainen tegen tegenstanders" },
+          { en: "Adversarial driving competitions", es: "Competiciones de conducción adversarial", de: "Adversariale Fahrwettbewerbe", nl: "Adversariële rij competities" },
+          { en: "Training with competitive AI systems", es: "Entrenar con sistemas de IA competitivos", de: "Training mit konkurrierenden KI-Systemen", nl: "Trainen met concurrerende AI systemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Adversarial training exposes models to carefully crafted malicious inputs during training, teaching them to recognize and resist attacks like adversarial patches on stop signs or spoofed sensor data, significantly improving robustness against real-world threats.",
+          es: "El entrenamiento adversarial expone modelos a entradas maliciosas cuidadosamente elaboradas durante entrenamiento, enseñándoles a reconocer y resistir ataques como parches adversariales en señales de alto o datos de sensores falsificados, mejorando significativamente robustez contra amenazas del mundo real.",
+          de: "Adversariales Training setzt Modelle während des Trainings sorgfältig gestalteten böswilligen Eingaben aus, lehrt sie Angriffe wie adversariale Patches auf Stoppschildern oder gefälschte Sensordaten zu erkennen und zu widerstehen, verbessert signifikant Robustheit gegen reale Bedrohungen.",
+          nl: "Adversariële training stelt modellen bloot aan zorgvuldig ontworpen kwaadaardige inputs tijdens training, leert ze aanvallen te herkennen en te weerstaan zoals adversariële patches op stopborden of vervalste sensordata, verbetert aanzienlijk robuustheid tegen echte dreigingen."
+        }
       }
     ]
   };

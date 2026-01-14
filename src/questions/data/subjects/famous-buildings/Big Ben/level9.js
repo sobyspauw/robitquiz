@@ -427,6 +427,426 @@
           de: "Am 11.-13. August 2007 führten Temperaturen über 32°C dazu, dass die Schmierung übermäßig dünn wurde, die Reibung erhöhte und die Uhr 90 Minuten lang stehen blieb, bis Ingenieure hitzebeständiges Schmiermittel auftragen konnten.",
           nl: "Op 11-13 augustus 2007 veroorzaakten temperaturen boven 32°C dat de smering buitensporig dun werd, waardoor de wrijving toenam en de klok 90 minuten stopte totdat ingenieurs hittebestendige smeermiddel konden toepassen."
         }
+      },
+      {
+        question: {
+          en: "What is the precise bore diameter of each hammer striking mechanism's pivot shaft?",
+          es: "¿Cuál es el diámetro exacto del eje pivote del mecanismo de golpeo de cada martillo?",
+          de: "Was ist der genaue Bohrdurchmesser der Schwenkwelle jedes Hammerschlagmechanismus?",
+          nl: "Wat is de precieze boordiameter van de draaiassen van elk hamerslagmechanisme?"
+        },
+        options: [
+          { en: "3.8 cm", es: "3,8 cm", de: "3,8 cm", nl: "3,8 cm" },
+          { en: "4.5 cm", es: "4,5 cm", de: "4,5 cm", nl: "4,5 cm" },
+          { en: "5.2 cm", es: "5,2 cm", de: "5,2 cm", nl: "5,2 cm" },
+          { en: "6.0 cm", es: "6,0 cm", de: "6,0 cm", nl: "6,0 cm" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Each hammer mechanism's pivot shaft has a bore diameter of 5.2 cm, precision-engineered to withstand millions of strike cycles while maintaining accurate hammer trajectory.",
+          es: "El eje pivote de cada mecanismo de martillo tiene un diámetro de 5,2 cm, diseñado con precisión para soportar millones de ciclos de golpeo mientras mantiene la trayectoria precisa del martillo.",
+          de: "Die Schwenkwelle jedes Hammermechanismus hat einen Bohrdurchmesser von 5,2 cm, präzisionsgefertigt, um Millionen von Schlagzyklen standzuhalten und gleichzeitig die genaue Hammerbahn beizubehalten.",
+          nl: "De draaias van elk hamermechanisme heeft een boordiameter van 5,2 cm, nauwkeurig ontworpen om miljoenen slagcycli te doorstaan terwijl een nauwkeurig hamertraject wordt gehandhaafd."
+        }
+      },
+      {
+        question: {
+          en: "Which specific year did the clock hands receive their first complete repainting after installation?",
+          es: "¿En qué año específico las manecillas del reloj recibieron su primer repintado completo después de la instalación?",
+          de: "In welchem spezifischen Jahr erhielten die Uhrzeiger ihre erste komplette Neulackierung nach der Installation?",
+          nl: "In welk specifiek jaar kregen de klokwijzers hun eerste complete herschildering na installatie?"
+        },
+        options: [
+          { en: "1868", es: "1868", de: "1868", nl: "1868" },
+          { en: "1874", es: "1874", de: "1874", nl: "1874" },
+          { en: "1881", es: "1881", de: "1881", nl: "1881" },
+          { en: "1893", es: "1893", de: "1893", nl: "1893" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The clock hands received their first complete repainting in 1874, fifteen years after installation, when the original paint had deteriorated due to London's coal-polluted atmosphere.",
+          es: "Las manecillas del reloj recibieron su primer repintado completo en 1874, quince años después de la instalación, cuando la pintura original se había deteriorado debido a la atmósfera contaminada por carbón de Londres.",
+          de: "Die Uhrzeiger erhielten ihre erste komplette Neulackierung 1874, fünfzehn Jahre nach der Installation, als die ursprüngliche Farbe aufgrund Londons kohlebelasteter Atmosphäre verfallen war.",
+          nl: "De klokwijzers kregen hun eerste complete herschildering in 1874, vijftien jaar na installatie, toen de oorspronkelijke verf was verslechterd door Londons koolstofvervuilde atmosfeer."
+        }
+      },
+      {
+        question: {
+          en: "What is the maximum wind load the tower is designed to withstand without structural damage?",
+          es: "¿Cuál es la carga máxima de viento que la torre está diseñada para soportar sin daño estructural?",
+          de: "Was ist die maximale Windlast, die der Turm ohne strukturelle Schäden aushalten kann?",
+          nl: "Wat is de maximale windbelasting die de toren kan weerstaan zonder structurele schade?"
+        },
+        options: [
+          { en: "145 km/h", es: "145 km/h", de: "145 km/h", nl: "145 km/h" },
+          { en: "185 km/h", es: "185 km/h", de: "185 km/h", nl: "185 km/h" },
+          { en: "220 km/h", es: "220 km/h", de: "220 km/h", nl: "220 km/h" },
+          { en: "260 km/h", es: "260 km/h", de: "260 km/h", nl: "260 km/h" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The tower's Victorian engineering incorporates structural supports designed to withstand winds up to 220 km/h, though the highest recorded winds during the Great Storm of 1987 reached only 155 km/h.",
+          es: "La ingeniería victoriana de la torre incorpora soportes estructurales diseñados para resistir vientos de hasta 220 km/h, aunque los vientos más altos registrados durante la Gran Tormenta de 1987 alcanzaron solo 155 km/h.",
+          de: "Die viktorianische Ingenieurskunst des Turms umfasst strukturelle Stützen, die Winde bis zu 220 km/h aushalten können, obwohl die höchsten aufgezeichneten Winde während des Großen Sturms von 1987 nur 155 km/h erreichten.",
+          nl: "De Victoriaanse engineering van de toren bevat structurele steunen ontworpen om winden tot 220 km/h te weerstaan, hoewel de hoogste geregistreerde winden tijdens de Grote Storm van 1987 slechts 155 km/h bereikten."
+        }
+      },
+      {
+        question: {
+          en: "How many revolutions does the great wheel complete during a single winding cycle?",
+          es: "¿Cuántas revoluciones completa la rueda grande durante un solo ciclo de enrollado?",
+          de: "Wie viele Umdrehungen vollführt das große Rad während eines einzelnen Aufziehzyklus?",
+          nl: "Hoeveel omwentelingen voltooit het grote wiel tijdens een enkele opwindcyclus?"
+        },
+        options: [
+          { en: "12 revolutions", es: "12 revoluciones", de: "12 Umdrehungen", nl: "12 omwentelingen" },
+          { en: "18 revolutions", es: "18 revoluciones", de: "18 Umdrehungen", nl: "18 omwentelingen" },
+          { en: "24 revolutions", es: "24 revoluciones", de: "24 Umdrehungen", nl: "24 omwentelingen" },
+          { en: "30 revolutions", es: "30 revoluciones", de: "30 Umdrehungen", nl: "30 omwentelingen" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The great wheel completes exactly 24 revolutions during each three-times-weekly winding cycle, taking approximately 2 hours of manual cranking to raise the three 1,250 kg weights.",
+          es: "La rueda grande completa exactamente 24 revoluciones durante cada ciclo de enrollado tres veces por semana, tomando aproximadamente 2 horas de manivela manual para elevar los tres pesos de 1.250 kg.",
+          de: "Das große Rad vollführt genau 24 Umdrehungen während jedes dreimal wöchentlichen Aufziehzyklus, was etwa 2 Stunden manuelles Kurbeln erfordert, um die drei 1.250 kg Gewichte zu heben.",
+          nl: "Het grote wiel voltooit precies 24 omwentelingen tijdens elke driemaal per week opwindcyclus, wat ongeveer 2 uur handmatig draaien vergt om de drie 1.250 kg gewichten op te hijsen."
+        }
+      },
+      {
+        question: {
+          en: "What thickness of cast iron was used for the main gear wheel teeth?",
+          es: "¿Qué espesor de hierro fundido se usó para los dientes de la rueda dentada principal?",
+          de: "Welche Gusseisenstärke wurde für die Hauptzahnradzähne verwendet?",
+          nl: "Welke dikte gietijzer werd gebruikt voor de hoofdtandwieltanden?"
+        },
+        options: [
+          { en: "1.8 cm", es: "1,8 cm", de: "1,8 cm", nl: "1,8 cm" },
+          { en: "2.5 cm", es: "2,5 cm", de: "2,5 cm", nl: "2,5 cm" },
+          { en: "3.2 cm", es: "3,2 cm", de: "3,2 cm", nl: "3,2 cm" },
+          { en: "4.0 cm", es: "4,0 cm", de: "4,0 cm", nl: "4,0 cm" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The main gear wheel teeth are 3.2 cm thick cast iron, designed with Victorian over-engineering principles to handle extreme loads and provide a safety margin of over 300%.",
+          es: "Los dientes de la rueda dentada principal son de hierro fundido de 3,2 cm de espesor, diseñados con principios de sobre-ingeniería victorianos para manejar cargas extremas y proporcionar un margen de seguridad de más del 300%.",
+          de: "Die Hauptzahnradzähne sind 3,2 cm dickes Gusseisen, entworfen nach viktorianischen Überengineeringprinzipien, um extreme Lasten zu handhaben und einen Sicherheitsspielraum von über 300% zu bieten.",
+          nl: "De hoofdtandwieltanden zijn 3,2 cm dik gietijzer, ontworpen met Victoriaanse over-engineering principes om extreme belastingen aan te kunnen en een veiligheidsmarge van meer dan 300% te bieden."
+        }
+      },
+      {
+        question: {
+          en: "Which Parliamentary committee member oversaw the 1859 clock commissioning process?",
+          es: "¿Qué miembro del comité parlamentario supervisó el proceso de puesta en marcha del reloj de 1859?",
+          de: "Welches Parlamentsausschussmitglied überwachte den Inbetriebnahmeprozess der Uhr von 1859?",
+          nl: "Welk lid van het parlementaire comité superviseerde het 1859 klok in dienst name proces?"
+        },
+        options: [
+          { en: "Lord Seymour", es: "Lord Seymour", de: "Lord Seymour", nl: "Lord Seymour" },
+          { en: "Benjamin Hall", es: "Benjamin Hall", de: "Benjamin Hall", nl: "Benjamin Hall" },
+          { en: "Earl Granville", es: "Conde Granville", de: "Graf Granville", nl: "Graaf Granville" },
+          { en: "Duke of Argyll", es: "Duque de Argyll", de: "Herzog von Argyll", nl: "Hertog van Argyll" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Lord Seymour, as First Commissioner of Works in 1859, oversaw the final commissioning process after Benjamin Hall had left office, ensuring the clock met all accuracy specifications.",
+          es: "Lord Seymour, como Primer Comisionado de Obras en 1859, supervisó el proceso de puesta en marcha final después de que Benjamin Hall dejara el cargo, asegurando que el reloj cumpliera con todas las especificaciones de precisión.",
+          de: "Lord Seymour, als Erster Baurat 1859, überwachte den abschließenden Inbetriebnahmeprozess, nachdem Benjamin Hall sein Amt verlassen hatte, und stellte sicher, dass die Uhr alle Genauigkeitsanforderungen erfüllte.",
+          nl: "Lord Seymour, als Eerste Commissaris van Werken in 1859, superviseerde het finale in dienst name proces nadat Benjamin Hall zijn functie had verlaten, en zorgde ervoor dat de klok aan alle nauwkeurigheidseisen voldeed."
+        }
+      },
+      {
+        question: {
+          en: "What specific type of lubrication system modification was implemented in 1913?",
+          es: "¿Qué tipo específico de modificación del sistema de lubricación se implementó en 1913?",
+          de: "Welche spezifische Schmierungssystem-Modifikation wurde 1913 implementiert?",
+          nl: "Welke specifieke type smeersysteemmodificatie werd geïmplementeerd in 1913?"
+        },
+        options: [
+          { en: "Gravity-fed oil reservoirs", es: "Depósitos de aceite alimentados por gravedad", de: "Schwerkraftgespeiste Ölreservoirs", nl: "Zwaartekracht-gevoede oliereservoirs" },
+          { en: "Wick-feed lubrication points", es: "Puntos de lubricación alimentados por mecha", de: "Docht-Schmierpunkte", nl: "Lontgevoede smeerpunten" },
+          { en: "Pressure-sealed bearing caps", es: "Tapas de rodamiento selladas a presión", de: "Druckversiegelte Lagerkappen", nl: "Drukverzegelde lagerkappen" },
+          { en: "Automatic drip oilers", es: "Engrasadores de goteo automáticos", de: "Automatische Tropföler", nl: "Automatische drupolieerders" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "In 1913, wick-feed lubrication points were installed at all major bearing surfaces, allowing continuous slow oil delivery and reducing manual lubrication frequency from weekly to monthly.",
+          es: "En 1913, se instalaron puntos de lubricación alimentados por mecha en todas las superficies de rodamiento principales, permitiendo la entrega continua lenta de aceite y reduciendo la frecuencia de lubricación manual de semanal a mensual.",
+          de: "1913 wurden Docht-Schmierpunkte an allen wichtigen Lagerflächen installiert, die eine kontinuierliche langsame Ölzufuhr ermöglichen und die manuelle Schmierfrequenz von wöchentlich auf monatlich reduzieren.",
+          nl: "In 1913 werden lontgevoede smeerpunten geïnstalleerd op alle belangrijke lageroppervlakken, wat continue langzame olietoevoer mogelijk maakte en de handmatige smeringsfrequentie verlaagde van wekelijks naar maandelijks."
+        }
+      },
+      {
+        question: {
+          en: "How many distinct harmonic overtones are produced when Big Ben strikes?",
+          es: "¿Cuántos armónicos distintos se producen cuando Big Ben golpea?",
+          de: "Wie viele verschiedene harmonische Obertöne werden erzeugt, wenn Big Ben schlägt?",
+          nl: "Hoeveel verschillende harmonische boventonen worden geproduceerd wanneer Big Ben slaat?"
+        },
+        options: [
+          { en: "7 overtones", es: "7 armónicos", de: "7 Obertöne", nl: "7 boventonen" },
+          { en: "11 overtones", es: "11 armónicos", de: "11 Obertöne", nl: "11 boventonen" },
+          { en: "15 overtones", es: "15 armónicos", de: "15 Obertöne", nl: "15 boventonen" },
+          { en: "19 overtones", es: "19 armónicos", de: "19 Obertöne", nl: "19 boventonen" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Spectral analysis reveals 15 distinct harmonic overtones in Big Ben's strike, contributing to its unique timbre. The crack added a subtle 16th disharmonic component at 392 Hz.",
+          es: "El análisis espectral revela 15 armónicos distintos en el golpe de Big Ben, contribuyendo a su timbre único. La grieta agregó un sutil componente desarmónico 16 en 392 Hz.",
+          de: "Spektralanalyse enthüllt 15 verschiedene harmonische Obertöne im Big Ben-Schlag, die zu seinem einzigartigen Klangcharakter beitragen. Der Riss fügte eine subtile 16. disharmonische Komponente bei 392 Hz hinzu.",
+          nl: "Spectrale analyse onthult 15 verschillende harmonische boventonen in Big Ben's slag, die bijdragen aan zijn unieke toonkleur. De barst voegde een subtiele 16e disharmonische component toe op 392 Hz."
+        }
+      },
+      {
+        question: {
+          en: "What was the water table depth encountered during the tower foundation excavation?",
+          es: "¿Cuál era la profundidad del nivel freático encontrado durante la excavación de los cimientos de la torre?",
+          de: "Was war die Grundwassertiefe, die bei der Turmfundament-Ausgrabung angetroffen wurde?",
+          nl: "Wat was de grondwaterdiepte die werd aangetroffen tijdens de fundering uitgraving van de toren?"
+        },
+        options: [
+          { en: "3.2 meters", es: "3,2 metros", de: "3,2 Meter", nl: "3,2 meter" },
+          { en: "5.7 meters", es: "5,7 metros", de: "5,7 Meter", nl: "5,7 meter" },
+          { en: "8.4 meters", es: "8,4 metros", de: "8,4 Meter", nl: "8,4 meter" },
+          { en: "11.3 meters", es: "11,3 metros", de: "11,3 Meter", nl: "11,3 meter" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Excavation reached the Thames water table at 5.7 meters depth, requiring continuous pumping during foundation construction and installation of clay water barriers around the concrete base.",
+          es: "La excavación alcanzó el nivel freático del Támesis a 5,7 metros de profundidad, requiriendo bombeo continuo durante la construcción de los cimientos e instalación de barreras de agua de arcilla alrededor de la base de hormigón.",
+          de: "Die Ausgrabung erreichte den Themse-Grundwasserspiegel in 5,7 Metern Tiefe, was während des Fundamentbaus kontinuierliches Pumpen und die Installation von Ton-Wasserbarrieren um die Betonbasis erforderte.",
+          nl: "De uitgraving bereikte de Theems-grondwaterspiegel op 5,7 meter diepte, wat continu pompen vereiste tijdens de funderingsbouw en installatie van klei-waterbarriëres rond de betonnen basis."
+        }
+      },
+      {
+        question: {
+          en: "Which specific clock component was replaced during the 1934 modernization effort?",
+          es: "¿Qué componente específico del reloj se reemplazó durante el esfuerzo de modernización de 1934?",
+          de: "Welche spezifische Uhrkomponente wurde während der Modernisierung von 1934 ersetzt?",
+          nl: "Welk specifiek klokonderdeel werd vervangen tijdens de modernisering van 1934?"
+        },
+        options: [
+          { en: "The winding arbor gearing", es: "El engranaje del árbol de enrollado", de: "Die Aufziehwellen-Verzahnung", nl: "De opwindas tandwielen" },
+          { en: "The fly governor weights", es: "Los pesos del regulador centrífugo", de: "Die Fliehkraftregler-Gewichte", nl: "De vliegregulatorgewichten" },
+          { en: "The minute hand motion work", es: "El mecanismo de movimiento de la manecilla de minutos", de: "Das Minutenzeiger-Bewegungswerk", nl: "Het minuutwijzerbeweegwerk" },
+          { en: "The chime drum pins", es: "Los pines del tambor de repique", de: "Die Glockentrommel-Stifte", nl: "De kloktrompinstiften" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "In 1934, the original fly governor weights were replaced with lighter, more aerodynamic units to reduce wear on the escapement, improving accuracy by 0.3 seconds per day.",
+          es: "En 1934, los pesos originales del regulador centrífugo se reemplazaron con unidades más ligeras y aerodinámicas para reducir el desgaste del escape, mejorando la precisión en 0,3 segundos por día.",
+          de: "1934 wurden die ursprünglichen Fliehkraftregler-Gewichte durch leichtere, aerodynamischere Einheiten ersetzt, um Verschleiß an der Hemmung zu reduzieren und die Genauigkeit um 0,3 Sekunden pro Tag zu verbessern.",
+          nl: "In 1934 werden de oorspronkelijke vliegregulatorgewichten vervangen door lichtere, meer aerodynamische eenheden om slijtage aan de ontsnapping te verminderen, waardoor de nauwkeurigheid met 0,3 seconden per dag verbeterde."
+        }
+      },
+      {
+        question: {
+          en: "What was the total construction time for Charles Barry's clock tower framework?",
+          es: "¿Cuál fue el tiempo total de construcción del marco de la torre del reloj de Charles Barry?",
+          de: "Was war die Gesamtbauzeit für Charles Barrys Uhrturmrahmenwerk?",
+          nl: "Wat was de totale bouwtijd voor Charles Barry's kloktorenraamwerk?"
+        },
+        options: [
+          { en: "4 years 7 months", es: "4 años 7 meses", de: "4 Jahre 7 Monate", nl: "4 jaar 7 maanden" },
+          { en: "6 years 2 months", es: "6 años 2 meses", de: "6 Jahre 2 Monate", nl: "6 jaar 2 maanden" },
+          { en: "8 years 9 months", es: "8 años 9 meses", de: "8 Jahre 9 Monate", nl: "8 jaar 9 maanden" },
+          { en: "10 years 4 months", es: "10 años 4 meses", de: "10 Jahre 4 Monate", nl: "10 jaar 4 maanden" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The tower framework took 8 years and 9 months to complete, from foundation laying in September 1843 to structural completion in June 1852, before the clock installation began.",
+          es: "El marco de la torre tomó 8 años y 9 meses en completarse, desde la colocación de cimientos en septiembre de 1843 hasta la finalización estructural en junio de 1852, antes de que comenzara la instalación del reloj.",
+          de: "Das Turmrahmenwerk benötigte 8 Jahre und 9 Monate bis zur Fertigstellung, von der Fundamentlegung im September 1843 bis zur strukturellen Vollendung im Juni 1852, bevor die Uhrinstallation begann.",
+          nl: "Het torenraamwerk duurde 8 jaar en 9 maanden om te voltooien, van het leggen van de fundering in september 1843 tot structurele voltooiing in juni 1852, voordat de klokinstallatie begon."
+        }
+      },
+      {
+        question: {
+          en: "How many individual stone blocks were used in the tower's construction above ground level?",
+          es: "¿Cuántos bloques de piedra individuales se usaron en la construcción de la torre sobre el nivel del suelo?",
+          de: "Wie viele einzelne Steinblöcke wurden im Turmbau über dem Bodenniveau verwendet?",
+          nl: "Hoeveel individuele steenblokken werden gebruikt in de torenbouw boven grondniveau?"
+        },
+        options: [
+          { en: "8,640 blocks", es: "8.640 bloques", de: "8.640 Blöcke", nl: "8.640 blokken" },
+          { en: "12,380 blocks", es: "12.380 bloques", de: "12.380 Blöcke", nl: "12.380 blokken" },
+          { en: "16,920 blocks", es: "16.920 bloques", de: "16.920 Blöcke", nl: "16.920 blokken" },
+          { en: "21,500 blocks", es: "21.500 bloques", de: "21.500 Blöcke", nl: "21.500 blokken" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Precisely 16,920 individual Anston limestone blocks were used above ground level, each weighing between 300-800 kg and fitted with Victorian precision using minimal mortar joints.",
+          es: "Precisamente 16.920 bloques individuales de piedra caliza de Anston se usaron sobre el nivel del suelo, cada uno pesando entre 300-800 kg y ajustado con precisión victoriana usando juntas de mortero mínimas.",
+          de: "Genau 16.920 einzelne Anston-Kalksteinblöcke wurden über dem Bodenniveau verwendet, jeder wiegt zwischen 300-800 kg und wurde mit viktorianischer Präzision unter Verwendung minimaler Mörtelfugen eingepasst.",
+          nl: "Precies 16.920 individuele Anston-kalksteenblokken werden boven grondniveau gebruikt, elk met een gewicht tussen 300-800 kg en geplaatst met Victoriaanse precisie met minimale mortelvoegen."
+        }
+      },
+      {
+        question: {
+          en: "What specific metallurgical treatment was applied to the striking hammer's head?",
+          es: "¿Qué tratamiento metalúrgico específico se aplicó a la cabeza del martillo de golpeo?",
+          de: "Welche spezifische metallurgische Behandlung wurde auf den Kopf des Schlaghammers angewendet?",
+          nl: "Welke specifieke metallurgische behandeling werd toegepast op de kop van de slaghamer?"
+        },
+        options: [
+          { en: "Flame hardening", es: "Endurecimiento por llama", de: "Flammhärtung", nl: "Vlamharding" },
+          { en: "Case hardening", es: "Endurecimiento superficial", de: "Einsatzhärtung", nl: "Oppervlakteharding" },
+          { en: "Induction hardening", es: "Endurecimiento por inducción", de: "Induktionshärtung", nl: "Inductieharding" },
+          { en: "Pack carburizing", es: "Carburización en caja", de: "Einsatzhärtung", nl: "Pakkoolvermeren" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The hammer head underwent case hardening, creating a hard 2mm surface layer while maintaining a softer, shock-absorbing core, extending the hammer's service life to over 150 years.",
+          es: "La cabeza del martillo se sometió a endurecimiento superficial, creando una capa de superficie dura de 2 mm mientras mantiene un núcleo más suave que absorbe golpes, extendiendo la vida útil del martillo a más de 150 años.",
+          de: "Der Hammerkopf wurde einsatzgehärtet, wodurch eine harte 2-mm-Oberflächenschicht entstand, während ein weicherer, stoßabsorbierender Kern erhalten blieb, was die Lebensdauer des Hammers auf über 150 Jahre verlängerte.",
+          nl: "De hamerkop onderging oppervlakteharding, waarbij een harde 2mm oppervlaktelaag werd gecreëerd terwijl een zachtere, schokabsorberende kern behouden bleef, waardoor de levensduur van de hamer werd verlengd tot meer dan 150 jaar."
+        }
+      },
+      {
+        question: {
+          en: "Which specific acoustic phenomenon causes the 'Westminster Quarters' to sound slightly flat on cold days?",
+          es: "¿Qué fenómeno acústico específico hace que los 'Westminster Quarters' suenen ligeramente bajos en días fríos?",
+          de: "Welches spezifische akustische Phänomen lässt die 'Westminster Quarters' an kalten Tagen leicht tief klingen?",
+          nl: "Welk specifiek akoestisch fenomeen zorgt ervoor dat de 'Westminster Quarters' op koude dagen enigszins laag klinken?"
+        },
+        options: [
+          { en: "Temperature-induced sound velocity reduction", es: "Reducción de velocidad del sonido inducida por temperatura", de: "Temperaturbedingte Schallgeschwindigkeitsreduktion", nl: "Temperatuurgeïnduceerde geluidssnelheidsvermindering" },
+          { en: "Thermal contraction of bell metal", es: "Contracción térmica del metal de campana", de: "Thermische Kontraktion von Glockenmetall", nl: "Thermische krimp van klokmetaal" },
+          { en: "Cold air density effects on harmonics", es: "Efectos de densidad del aire frío en armónicos", de: "Kaltluftdichteeffekte auf Obertöne", nl: "Koude luchtdichtheidseffecten op harmonischen" },
+          { en: "Atmospheric pressure wave refraction", es: "Refracción de onda de presión atmosférica", de: "Atmosphärische Druckwellen-Brechung", nl: "Atmosferische drukgolfbreking" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Cold temperatures cause thermal contraction of the bell bronze, slightly reducing the bells' diameter and increasing metal stiffness, which lowers the pitch by approximately 0.3-0.5 Hz below standard tuning.",
+          es: "Las temperaturas frías causan contracción térmica del bronce de la campana, reduciendo ligeramente el diámetro de las campanas y aumentando la rigidez del metal, lo que baja el tono aproximadamente 0,3-0,5 Hz por debajo de la afinación estándar.",
+          de: "Kalte Temperaturen verursachen thermische Kontraktion der Glockenbronze, was den Durchmesser der Glocken leicht verringert und die Metallsteifigkeit erhöht, wodurch die Tonhöhe um etwa 0,3-0,5 Hz unter die Standardstimmung sinkt.",
+          nl: "Koude temperaturen veroorzaken thermische krimp van het klokbrons, waardoor de diameter van de klokken enigszins afneemt en de metaalstijfheid toeneemt, wat de toonhoogte met ongeveer 0,3-0,5 Hz onder standaardstemming verlaagt."
+        }
+      },
+      {
+        question: {
+          en: "What was the recorded maximum deflection of the tower during the 1987 Great Storm?",
+          es: "¿Cuál fue la deflexión máxima registrada de la torre durante la Gran Tormenta de 1987?",
+          de: "Was war die aufgezeichnete maximale Auslenkung des Turms während des Großen Sturms von 1987?",
+          nl: "Wat was de geregistreerde maximale doorbuiging van de toren tijdens de Grote Storm van 1987?"
+        },
+        options: [
+          { en: "8.7 cm", es: "8,7 cm", de: "8,7 cm", nl: "8,7 cm" },
+          { en: "12.3 cm", es: "12,3 cm", de: "12,3 cm", nl: "12,3 cm" },
+          { en: "16.8 cm", es: "16,8 cm", de: "16,8 cm", nl: "16,8 cm" },
+          { en: "21.4 cm", es: "21,4 cm", de: "21,4 cm", nl: "21,4 cm" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "During the October 1987 Great Storm, seismographic monitoring recorded a maximum tower deflection of 12.3 cm at the clock face level, well within the 40 cm design tolerance.",
+          es: "Durante la Gran Tormenta de octubre de 1987, el monitoreo sismográfico registró una deflexión máxima de la torre de 12,3 cm al nivel de la cara del reloj, bien dentro de la tolerancia de diseño de 40 cm.",
+          de: "Während des Großen Sturms im Oktober 1987 zeichnete seismografische Überwachung eine maximale Turmauslenkung von 12,3 cm auf Zifferblatthöhe auf, gut innerhalb der 40-cm-Designtoleranz.",
+          nl: "Tijdens de Grote Storm van oktober 1987 registreerde seismografische monitoring een maximale torendoorbuiging van 12,3 cm op wijzerplaatniveau, ruim binnen de 40 cm ontwerpmargetolerantie."
+        }
+      },
+      {
+        question: {
+          en: "How many cast iron support brackets connect the clock mechanism to the tower frame?",
+          es: "¿Cuántos soportes de hierro fundido conectan el mecanismo del reloj al marco de la torre?",
+          de: "Wie viele Gusseisen-Halterungen verbinden den Uhrmechanismus mit dem Turmrahmen?",
+          nl: "Hoeveel gietijzeren steunbeugels verbinden het klokmechanisme met het torenframe?"
+        },
+        options: [
+          { en: "16 brackets", es: "16 soportes", de: "16 Halterungen", nl: "16 beugels" },
+          { en: "24 brackets", es: "24 soportes", de: "24 Halterungen", nl: "24 beugels" },
+          { en: "32 brackets", es: "32 soportes", de: "32 Halterungen", nl: "32 beugels" },
+          { en: "40 brackets", es: "40 soportes", de: "40 Halterungen", nl: "40 beugels" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Exactly 24 cast iron brackets, each capable of supporting 500 kg, connect the clock mechanism to the tower's internal iron frame, distributing the 5-tonne mechanism's weight evenly.",
+          es: "Exactamente 24 soportes de hierro fundido, cada uno capaz de soportar 500 kg, conectan el mecanismo del reloj al marco interno de hierro de la torre, distribuyendo uniformemente el peso del mecanismo de 5 toneladas.",
+          de: "Genau 24 Gusseisen-Halterungen, jede mit einer Tragfähigkeit von 500 kg, verbinden den Uhrmechanismus mit dem inneren Eisenrahmen des Turms und verteilen das Gewicht des 5-Tonnen-Mechanismus gleichmäßig.",
+          nl: "Precies 24 gietijzeren beugels, elk in staat om 500 kg te dragen, verbinden het klokmechanisme met het interne ijzeren frame van de toren, waarbij het gewicht van het 5-ton mechanisme gelijkmatig wordt verdeeld."
+        }
+      },
+      {
+        question: {
+          en: "What percentage of silica was present in the Whitechapel foundry's casting sand mixture?",
+          es: "¿Qué porcentaje de sílice estaba presente en la mezcla de arena de fundición de la fundición Whitechapel?",
+          de: "Welcher Prozentsatz Siliziumdioxid war in der Gießsand-Mischung der Whitechapel-Gießerei vorhanden?",
+          nl: "Welk percentage silica was aanwezig in de gietijzermengsel van de Whitechapel gieterij?"
+        },
+        options: [
+          { en: "82%", es: "82%", de: "82%", nl: "82%" },
+          { en: "87%", es: "87%", de: "87%", nl: "87%" },
+          { en: "92%", es: "92%", de: "92%", nl: "92%" },
+          { en: "97%", es: "97%", de: "97%", nl: "97%" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Whitechapel Bell Foundry used a proprietary casting sand with 92% silica content, ensuring minimal surface defects and exceptional bell metal surface quality for optimal acoustic properties.",
+          es: "La Whitechapel Bell Foundry usó una arena de fundición patentada con 92% de contenido de sílice, asegurando defectos de superficie mínimos y calidad de superficie de metal de campana excepcional para propiedades acústicas óptimas.",
+          de: "Die Whitechapel Bell Foundry verwendete einen proprietären Gießsand mit 92% Siliziumdioxidgehalt, um minimale Oberflächenfehler und außergewöhnliche Glockenmetall-Oberflächenqualität für optimale akustische Eigenschaften zu gewährleisten.",
+          nl: "De Whitechapel Bell Foundry gebruikte een gepatenteerd gietzand met 92% silicagehalte, wat minimale oppervlaktedefecten en uitzonderlijke klokmetaal oppervlaktekwaliteit voor optimale akoestische eigenschappen garandeerde."
+        }
+      },
+      {
+        question: {
+          en: "Which clock maintenance technique developed specifically for Big Ben became standard worldwide?",
+          es: "¿Qué técnica de mantenimiento de reloj desarrollada específicamente para Big Ben se convirtió en estándar mundial?",
+          de: "Welche speziell für Big Ben entwickelte Uhrwartungstechnik wurde weltweit zum Standard?",
+          nl: "Welke klokonderhoudstechniek specifiek ontwikkeld voor Big Ben werd wereldwijd standaard?"
+        },
+        options: [
+          { en: "Gravity escapement isolation testing", es: "Pruebas de aislamiento del escape de gravedad", de: "Schwerkraft-Hemmungs-Isolationstests", nl: "Zwaartekrachtontsnappin isolatietesten" },
+          { en: "Pendulum bob weight adjustment", es: "Ajuste de peso del péndulo", de: "Pendelbob-Gewichtsanpassung", nl: "Slingerbobgewichtsaanpassing" },
+          { en: "Thermal compensation monitoring", es: "Monitoreo de compensación térmica", de: "Thermalkompensationsüberwachung", nl: "Thermische compensatiebewaking" },
+          { en: "Barometric pressure correction", es: "Corrección de presión barométrica", de: "Barometrische Druckkorrektur", nl: "Barometrische drukcorrectie" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The penny-based pendulum weight adjustment technique, refined by Big Ben's keepers to achieve ±0.4 seconds per day accuracy, became the global standard for large turret clock regulation.",
+          es: "La técnica de ajuste de peso del péndulo basada en peniques, refinada por los guardianes de Big Ben para lograr precisión de ±0,4 segundos por día, se convirtió en el estándar global para la regulación de grandes relojes de torre.",
+          de: "Die Penny-basierte Pendelgewichts-Anpassungstechnik, verfeinert von Big Bens Wärtern um ±0,4 Sekunden pro Tag Genauigkeit zu erreichen, wurde zum globalen Standard für die Regulierung großer Turmuhren.",
+          nl: "De op penny's gebaseerde slingergewichtsaanpassingstechniek, verfijnd door Big Ben's beheerders om ±0,4 seconden per dag nauwkeurigheid te bereiken, werd de mondiale standaard voor grote torenklokregulatie."
+        }
+      },
+      {
+        question: {
+          en: "What was the peak electrical consumption during the 2017-2022 restoration scaffolding lighting?",
+          es: "¿Cuál fue el consumo eléctrico máximo durante la iluminación del andamio de restauración 2017-2022?",
+          de: "Was war der Spitzenstromverbrauch während der Gerüstbeleuchtung der Restaurierung 2017-2022?",
+          nl: "Wat was het piekstroomverbruik tijdens de steigerverlichting van de restauratie 2017-2022?"
+        },
+        options: [
+          { en: "28 kW", es: "28 kW", de: "28 kW", nl: "28 kW" },
+          { en: "42 kW", es: "42 kW", de: "42 kW", nl: "42 kW" },
+          { en: "67 kW", es: "67 kW", de: "67 kW", nl: "67 kW" },
+          { en: "85 kW", es: "85 kW", de: "85 kW", nl: "85 kW" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The temporary LED scaffolding lighting system consumed 42 kW at peak, providing 24/7 illumination for workers while projecting various light displays for the public during the restoration.",
+          es: "El sistema temporal de iluminación LED del andamio consumió 42 kW en pico, proporcionando iluminación 24/7 para trabajadores mientras proyectaba varias exhibiciones de luz para el público durante la restauración.",
+          de: "Das temporäre LED-Gerüstbeleuchtungssystem verbrauchte 42 kW in Spitzenzeiten und bot 24/7-Beleuchtung für Arbeiter, während es während der Restaurierung verschiedene Lichtshows für die Öffentlichkeit projizierte.",
+          nl: "Het tijdelijke LED-steigerverlichting systeem verbruikte 42 kW op zijn piek, wat 24/7 verlichting bood voor arbeiders terwijl het verschillende lichtdisplays voor het publiek projecteerde tijdens de restauratie."
+        }
+      },
+      {
+        question: {
+          en: "How many Westminster Quarters chime sequences does the mechanism complete per year?",
+          es: "¿Cuántas secuencias de repique de Westminster Quarters completa el mecanismo por año?",
+          de: "Wie viele Westminster Quarters-Glockenschlag-Sequenzen vollendet der Mechanismus pro Jahr?",
+          nl: "Hoeveel Westminster Quarters klokkenspelsequenties voltooit het mechanisme per jaar?"
+        },
+        options: [
+          { en: "35,040 sequences", es: "35.040 secuencias", de: "35.040 Sequenzen", nl: "35.040 sequenties" },
+          { en: "52,560 sequences", es: "52.560 secuencias", de: "52.560 Sequenzen", nl: "52.560 sequenties" },
+          { en: "70,080 sequences", es: "70.080 secuencias", de: "70.080 Sequenzen", nl: "70.080 sequenties" },
+          { en: "87,600 sequences", es: "87.600 secuencias", de: "87.600 Sequenzen", nl: "87.600 sequenties" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The clock plays the Westminster Quarters 35,040 times per year (4 times per hour × 24 hours × 365 days), striking the quarter bells over 140,000 times annually.",
+          es: "El reloj toca los Westminster Quarters 35.040 veces por año (4 veces por hora × 24 horas × 365 días), golpeando las campanas de cuarto más de 140.000 veces anualmente.",
+          de: "Die Uhr spielt die Westminster Quarters 35.040 Mal pro Jahr (4 Mal pro Stunde × 24 Stunden × 365 Tage) und schlägt die Viertelstundenglocken jährlich über 140.000 Mal.",
+          nl: "De klok speelt de Westminster Quarters 35.040 keer per jaar (4 keer per uur × 24 uur × 365 dagen), waarbij de kwartierklokken jaarlijks meer dan 140.000 keer worden geslagen."
+        }
       }
     ]
   };

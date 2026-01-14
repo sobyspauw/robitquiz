@@ -426,6 +426,406 @@
           es: "El desarrollo de instrumentos financieros sofisticados como letras de cambio y cartas de crédito, junto con redes bancarias internacionales, permitió que gran parte del comercio internacional se liquidara sin envíos reales de oro, haciendo el patrón oro más eficiente y práctico.",
           de: "Die Entwicklung sophistizierter Finanzinstrumente wie Wechsel und Akkreditive sowie internationale Bankennetzwerke ermöglichten es, dass ein Großteil des internationalen Handels ohne tatsächliche Goldsendungen abgewickelt werden konnte, wodurch der Goldstandard effizienter und praktischer wurde.",
           nl: "De ontwikkeling van geavanceerde financiële instrumenten zoals wisselbrieven en kredietbrieven, samen met internationale banknetwerken, maakte het mogelijk dat veel internationale handel werd afgewikkeld zonder werkelijke goudverzendingen, waardoor de goudstandaard efficiënter en praktischer werd."
+        }      },
+      {
+        question: {
+          en: "What is the gold standard?",
+          es: "What is the gold standard?",
+          de: "What is the gold standard?",
+          nl: "What is the gold standard?"
+        },
+        options: [
+          { en: "Currency backed by gold reserves", es: "Currency backed by gold reserves", de: "Currency backed by gold reserves", nl: "Currency backed by gold reserves" },
+          { en: "Price of gold", es: "Price of gold", de: "Price of gold", nl: "Price of gold" },
+          { en: "Gold mining regulation", es: "Gold mining regulation", de: "Gold mining regulation", nl: "Gold mining regulation" },
+          { en: "Gold trading system", es: "Gold trading system", de: "Gold trading system", nl: "Gold trading system" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The gold standard is a monetary system where currency value is directly linked to gold.",
+          es: "The gold standard is a monetary system where currency value is directly linked to gold.",
+          de: "The gold standard is a monetary system where currency value is directly linked to gold.",
+          nl: "The gold standard is a monetary system where currency value is directly linked to gold."
+        }      },
+      {
+        question: {
+          en: "When did US leave gold standard?",
+          es: "When did US leave gold standard?",
+          de: "When did US leave gold standard?",
+          nl: "When did US leave gold standard?"
+        },
+        options: [
+          { en: "1971", es: "1971", de: "1971", nl: "1971" },
+          { en: "1933", es: "1933", de: "1933", nl: "1933" },
+          { en: "1945", es: "1945", de: "1945", nl: "1945" },
+          { en: "1913", es: "1913", de: "1913", nl: "1913" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "President Nixon ended the gold standard in 1971, ending direct dollar-gold convertibility.",
+          es: "President Nixon ended the gold standard in 1971, ending direct dollar-gold convertibility.",
+          de: "President Nixon ended the gold standard in 1971, ending direct dollar-gold convertibility.",
+          nl: "President Nixon ended the gold standard in 1971, ending direct dollar-gold convertibility."
+        }      },
+      {
+        question: {
+          en: "What is the Bretton Woods system?",
+          es: "What is the Bretton Woods system?",
+          de: "What is the Bretton Woods system?",
+          nl: "What is the Bretton Woods system?"
+        },
+        options: [
+          { en: "Post-WWII monetary agreement", es: "Post-WWII monetary agreement", de: "Post-WWII monetary agreement", nl: "Post-WWII monetary agreement" },
+          { en: "Gold mining location", es: "Gold mining location", de: "Gold mining location", nl: "Gold mining location" },
+          { en: "Currency exchange", es: "Currency exchange", de: "Currency exchange", nl: "Currency exchange" },
+          { en: "Banking regulation", es: "Banking regulation", de: "Banking regulation", nl: "Banking regulation" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bretton Woods established fixed exchange rates tied to gold from 1944 to 1971.",
+          es: "Bretton Woods established fixed exchange rates tied to gold from 1944 to 1971.",
+          de: "Bretton Woods established fixed exchange rates tied to gold from 1944 to 1971.",
+          nl: "Bretton Woods established fixed exchange rates tied to gold from 1944 to 1971."
+        }      },
+      {
+        question: {
+          en: "What does fiat currency mean?",
+          es: "What does fiat currency mean?",
+          de: "What does fiat currency mean?",
+          nl: "What does fiat currency mean?"
+        },
+        options: [
+          { en: "Money not backed by physical commodity", es: "Money not backed by physical commodity", de: "Money not backed by physical commodity", nl: "Money not backed by physical commodity" },
+          { en: "Gold-backed money", es: "Gold-backed money", de: "Gold-backed money", nl: "Gold-backed money" },
+          { en: "Foreign currency", es: "Foreign currency", de: "Foreign currency", nl: "Foreign currency" },
+          { en: "Cryptocurrency", es: "Cryptocurrency", de: "Cryptocurrency", nl: "Cryptocurrency" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Fiat currency has value by government decree, not backed by gold or other commodities.",
+          es: "Fiat currency has value by government decree, not backed by gold or other commodities.",
+          de: "Fiat currency has value by government decree, not backed by gold or other commodities.",
+          nl: "Fiat currency has value by government decree, not backed by gold or other commodities."
+        }      },
+      {
+        question: {
+          en: "Who suspended gold standard in 1933?",
+          es: "Who suspended gold standard in 1933?",
+          de: "Who suspended gold standard in 1933?",
+          nl: "Who suspended gold standard in 1933?"
+        },
+        options: [
+          { en: "Franklin D. Roosevelt", es: "Franklin D. Roosevelt", de: "Franklin D. Roosevelt", nl: "Franklin D. Roosevelt" },
+          { en: "Herbert Hoover", es: "Herbert Hoover", de: "Herbert Hoover", nl: "Herbert Hoover" },
+          { en: "Woodrow Wilson", es: "Woodrow Wilson", de: "Woodrow Wilson", nl: "Woodrow Wilson" },
+          { en: "Richard Nixon", es: "Richard Nixon", de: "Richard Nixon", nl: "Richard Nixon" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "FDR suspended domestic gold standard in 1933 during the Great Depression.",
+          es: "FDR suspended domestic gold standard in 1933 during the Great Depression.",
+          de: "FDR suspended domestic gold standard in 1933 during the Great Depression.",
+          nl: "FDR suspended domestic gold standard in 1933 during the Great Depression."
+        }      },
+      {
+        question: {
+          en: "What is gold parity?",
+          es: "What is gold parity?",
+          de: "What is gold parity?",
+          nl: "What is gold parity?"
+        },
+        options: [
+          { en: "Fixed exchange rate to gold", es: "Fixed exchange rate to gold", de: "Fixed exchange rate to gold", nl: "Fixed exchange rate to gold" },
+          { en: "Gold quality measure", es: "Gold quality measure", de: "Gold quality measure", nl: "Gold quality measure" },
+          { en: "Mining output", es: "Mining output", de: "Mining output", nl: "Mining output" },
+          { en: "Gold price", es: "Gold price", de: "Gold price", nl: "Gold price" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gold parity is the official rate at which currency can be exchanged for gold.",
+          es: "Gold parity is the official rate at which currency can be exchanged for gold.",
+          de: "Gold parity is the official rate at which currency can be exchanged for gold.",
+          nl: "Gold parity is the official rate at which currency can be exchanged for gold."
+        }      },
+      {
+        question: {
+          en: "What was the classical gold standard era?",
+          es: "What was the classical gold standard era?",
+          de: "What was the classical gold standard era?",
+          nl: "What was the classical gold standard era?"
+        },
+        options: [
+          { en: "1870s-1914", es: "1870s-1914", de: "1870s-1914", nl: "1870s-1914" },
+          { en: "1945-1971", es: "1945-1971", de: "1945-1971", nl: "1945-1971" },
+          { en: "1800-1850", es: "1800-1850", de: "1800-1850", nl: "1800-1850" },
+          { en: "1920-1933", es: "1920-1933", de: "1920-1933", nl: "1920-1933" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The classical gold standard operated from the 1870s until World War I in 1914.",
+          es: "The classical gold standard operated from the 1870s until World War I in 1914.",
+          de: "The classical gold standard operated from the 1870s until World War I in 1914.",
+          nl: "The classical gold standard operated from the 1870s until World War I in 1914."
+        }      },
+      {
+        question: {
+          en: "What is gold convertibility?",
+          es: "What is gold convertibility?",
+          de: "What is gold convertibility?",
+          nl: "What is gold convertibility?"
+        },
+        options: [
+          { en: "Exchanging currency for gold", es: "Exchanging currency for gold", de: "Exchanging currency for gold", nl: "Exchanging currency for gold" },
+          { en: "Gold mining process", es: "Gold mining process", de: "Gold mining process", nl: "Gold mining process" },
+          { en: "Gold refining", es: "Gold refining", de: "Gold refining", nl: "Gold refining" },
+          { en: "Gold trading", es: "Gold trading", de: "Gold trading", nl: "Gold trading" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gold convertibility allows currency holders to exchange notes for physical gold.",
+          es: "Gold convertibility allows currency holders to exchange notes for physical gold.",
+          de: "Gold convertibility allows currency holders to exchange notes for physical gold.",
+          nl: "Gold convertibility allows currency holders to exchange notes for physical gold."
+        }      },
+      {
+        question: {
+          en: "What ended Bretton Woods?",
+          es: "What ended Bretton Woods?",
+          de: "What ended Bretton Woods?",
+          nl: "What ended Bretton Woods?"
+        },
+        options: [
+          { en: "Nixon Shock of 1971", es: "Nixon Shock of 1971", de: "Nixon Shock of 1971", nl: "Nixon Shock of 1971" },
+          { en: "World War II", es: "World War II", de: "World War II", nl: "World War II" },
+          { en: "Great Depression", es: "Great Depression", de: "Great Depression", nl: "Great Depression" },
+          { en: "Oil crisis", es: "Oil crisis", de: "Oil crisis", nl: "Oil crisis" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Nixon Shock in 1971 ended dollar-gold convertibility, collapsing Bretton Woods.",
+          es: "The Nixon Shock in 1971 ended dollar-gold convertibility, collapsing Bretton Woods.",
+          de: "The Nixon Shock in 1971 ended dollar-gold convertibility, collapsing Bretton Woods.",
+          nl: "The Nixon Shock in 1971 ended dollar-gold convertibility, collapsing Bretton Woods."
+        }      },
+      {
+        question: {
+          en: "What is bimetallism?",
+          es: "What is bimetallism?",
+          de: "What is bimetallism?",
+          nl: "What is bimetallism?"
+        },
+        options: [
+          { en: "Currency backed by two metals", es: "Currency backed by two metals", de: "Currency backed by two metals", nl: "Currency backed by two metals" },
+          { en: "Gold and silver mining", es: "Gold and silver mining", de: "Gold and silver mining", nl: "Gold and silver mining" },
+          { en: "Two currencies", es: "Two currencies", de: "Two currencies", nl: "Two currencies" },
+          { en: "Dual exchange rates", es: "Dual exchange rates", de: "Dual exchange rates", nl: "Dual exchange rates" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bimetallism uses both gold and silver as the basis for monetary standard.",
+          es: "Bimetallism uses both gold and silver as the basis for monetary standard.",
+          de: "Bimetallism uses both gold and silver as the basis for monetary standard.",
+          nl: "Bimetallism uses both gold and silver as the basis for monetary standard."
+        }      },
+      {
+        question: {
+          en: "What is gold reserve?",
+          es: "What is gold reserve?",
+          de: "What is gold reserve?",
+          nl: "What is gold reserve?"
+        },
+        options: [
+          { en: "Gold held by central bank", es: "Gold held by central bank", de: "Gold held by central bank", nl: "Gold held by central bank" },
+          { en: "Mining deposit", es: "Mining deposit", de: "Mining deposit", nl: "Mining deposit" },
+          { en: "Gold storage facility", es: "Gold storage facility", de: "Gold storage facility", nl: "Gold storage facility" },
+          { en: "Investment fund", es: "Investment fund", de: "Investment fund", nl: "Investment fund" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gold reserves are gold bullion held by central banks to back currency.",
+          es: "Gold reserves are gold bullion held by central banks to back currency.",
+          de: "Gold reserves are gold bullion held by central banks to back currency.",
+          nl: "Gold reserves are gold bullion held by central banks to back currency."
+        }      },
+      {
+        question: {
+          en: "What was the gold exchange standard?",
+          es: "What was the gold exchange standard?",
+          de: "What was the gold exchange standard?",
+          nl: "What was the gold exchange standard?"
+        },
+        options: [
+          { en: "Currencies pegged to gold-backed currency", es: "Currencies pegged to gold-backed currency", de: "Currencies pegged to gold-backed currency", nl: "Currencies pegged to gold-backed currency" },
+          { en: "Direct gold backing", es: "Direct gold backing", de: "Direct gold backing", nl: "Direct gold backing" },
+          { en: "Gold trading system", es: "Gold trading system", de: "Gold trading system", nl: "Gold trading system" },
+          { en: "Mining regulation", es: "Mining regulation", de: "Mining regulation", nl: "Mining regulation" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Under gold exchange standard, currencies were pegged to a gold-backed currency like the dollar.",
+          es: "Under gold exchange standard, currencies were pegged to a gold-backed currency like the dollar.",
+          de: "Under gold exchange standard, currencies were pegged to a gold-backed currency like the dollar.",
+          nl: "Under gold exchange standard, currencies were pegged to a gold-backed currency like the dollar."
+        }      },
+      {
+        question: {
+          en: "What is monetary inflation under gold standard?",
+          es: "What is monetary inflation under gold standard?",
+          de: "What is monetary inflation under gold standard?",
+          nl: "What is monetary inflation under gold standard?"
+        },
+        options: [
+          { en: "Limited by gold supply", es: "Limited by gold supply", de: "Limited by gold supply", nl: "Limited by gold supply" },
+          { en: "Unlimited", es: "Unlimited", de: "Unlimited", nl: "Unlimited" },
+          { en: "Set by government", es: "Set by government", de: "Set by government", nl: "Set by government" },
+          { en: "Based on GDP", es: "Based on GDP", de: "Based on GDP", nl: "Based on GDP" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Under gold standard, inflation is naturally limited by the finite gold supply.",
+          es: "Under gold standard, inflation is naturally limited by the finite gold supply.",
+          de: "Under gold standard, inflation is naturally limited by the finite gold supply.",
+          nl: "Under gold standard, inflation is naturally limited by the finite gold supply."
+        }      },
+      {
+        question: {
+          en: "What is the gold window?",
+          es: "What is the gold window?",
+          de: "What is the gold window?",
+          nl: "What is the gold window?"
+        },
+        options: [
+          { en: "Ability to exchange dollars for gold", es: "Ability to exchange dollars for gold", de: "Ability to exchange dollars for gold", nl: "Ability to exchange dollars for gold" },
+          { en: "Gold selling location", es: "Gold selling location", de: "Gold selling location", nl: "Gold selling location" },
+          { en: "Mining operation", es: "Mining operation", de: "Mining operation", nl: "Mining operation" },
+          { en: "Banking term", es: "Banking term", de: "Banking term", nl: "Banking term" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The gold window refers to the ability to convert dollars to gold, closed in 1971.",
+          es: "The gold window refers to the ability to convert dollars to gold, closed in 1971.",
+          de: "The gold window refers to the ability to convert dollars to gold, closed in 1971.",
+          nl: "The gold window refers to the ability to convert dollars to gold, closed in 1971."
+        }      },
+      {
+        question: {
+          en: "What is gold backing ratio?",
+          es: "What is gold backing ratio?",
+          de: "What is gold backing ratio?",
+          nl: "What is gold backing ratio?"
+        },
+        options: [
+          { en: "Proportion of currency backed by gold", es: "Proportion of currency backed by gold", de: "Proportion of currency backed by gold", nl: "Proportion of currency backed by gold" },
+          { en: "Gold purity", es: "Gold purity", de: "Gold purity", nl: "Gold purity" },
+          { en: "Mining efficiency", es: "Mining efficiency", de: "Mining efficiency", nl: "Mining efficiency" },
+          { en: "Price ratio", es: "Price ratio", de: "Price ratio", nl: "Price ratio" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gold backing ratio shows what percentage of money supply is backed by gold reserves.",
+          es: "Gold backing ratio shows what percentage of money supply is backed by gold reserves.",
+          de: "Gold backing ratio shows what percentage of money supply is backed by gold reserves.",
+          nl: "Gold backing ratio shows what percentage of money supply is backed by gold reserves."
+        }      },
+      {
+        question: {
+          en: "What caused 1933 gold confiscation?",
+          es: "What caused 1933 gold confiscation?",
+          de: "What caused 1933 gold confiscation?",
+          nl: "What caused 1933 gold confiscation?"
+        },
+        options: [
+          { en: "Banking crisis and deflation", es: "Banking crisis and deflation", de: "Banking crisis and deflation", nl: "Banking crisis and deflation" },
+          { en: "War effort", es: "War effort", de: "War effort", nl: "War effort" },
+          { en: "Gold shortage", es: "Gold shortage", de: "Gold shortage", nl: "Gold shortage" },
+          { en: "Inflation", es: "Inflation", de: "Inflation", nl: "Inflation" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Executive Order 6102 confiscated gold to increase money supply during Depression.",
+          es: "Executive Order 6102 confiscated gold to increase money supply during Depression.",
+          de: "Executive Order 6102 confiscated gold to increase money supply during Depression.",
+          nl: "Executive Order 6102 confiscated gold to increase money supply during Depression."
+        }      },
+      {
+        question: {
+          en: "What is gold bullion standard?",
+          es: "What is gold bullion standard?",
+          de: "What is gold bullion standard?",
+          nl: "What is gold bullion standard?"
+        },
+        options: [
+          { en: "Only bars traded, not coins", es: "Only bars traded, not coins", de: "Only bars traded, not coins", nl: "Only bars traded, not coins" },
+          { en: "Coin-based standard", es: "Coin-based standard", de: "Coin-based standard", nl: "Coin-based standard" },
+          { en: "Mining standard", es: "Mining standard", de: "Mining standard", nl: "Mining standard" },
+          { en: "Purity measure", es: "Purity measure", de: "Purity measure", nl: "Purity measure" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gold bullion standard uses gold bars rather than coins for international settlement.",
+          es: "Gold bullion standard uses gold bars rather than coins for international settlement.",
+          de: "Gold bullion standard uses gold bars rather than coins for international settlement.",
+          nl: "Gold bullion standard uses gold bars rather than coins for international settlement."
+        }      },
+      {
+        question: {
+          en: "What was Gold Reserve Act of 1934?",
+          es: "What was Gold Reserve Act of 1934?",
+          de: "What was Gold Reserve Act of 1934?",
+          nl: "What was Gold Reserve Act of 1934?"
+        },
+        options: [
+          { en: "Nationalized gold and set price", es: "Nationalized gold and set price", de: "Nationalized gold and set price", nl: "Nationalized gold and set price" },
+          { en: "Ended gold standard", es: "Ended gold standard", de: "Ended gold standard", nl: "Ended gold standard" },
+          { en: "Began gold standard", es: "Began gold standard", de: "Began gold standard", nl: "Began gold standard" },
+          { en: "Mining regulation", es: "Mining regulation", de: "Mining regulation", nl: "Mining regulation" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The 1934 Act transferred gold ownership to Treasury and set price at $35/ounce.",
+          es: "The 1934 Act transferred gold ownership to Treasury and set price at $35/ounce.",
+          de: "The 1934 Act transferred gold ownership to Treasury and set price at $35/ounce.",
+          nl: "The 1934 Act transferred gold ownership to Treasury and set price at $35/ounce."
+        }      },
+      {
+        question: {
+          en: "What is gold sterilization?",
+          es: "What is gold sterilization?",
+          de: "What is gold sterilization?",
+          nl: "What is gold sterilization?"
+        },
+        options: [
+          { en: "Preventing gold flows from affecting money supply", es: "Preventing gold flows from affecting money supply", de: "Preventing gold flows from affecting money supply", nl: "Preventing gold flows from affecting money supply" },
+          { en: "Gold purification", es: "Gold purification", de: "Gold purification", nl: "Gold purification" },
+          { en: "Price control", es: "Price control", de: "Price control", nl: "Price control" },
+          { en: "Reserve management", es: "Reserve management", de: "Reserve management", nl: "Reserve management" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gold sterilization is when central banks offset gold flow effects on money supply.",
+          es: "Gold sterilization is when central banks offset gold flow effects on money supply.",
+          de: "Gold sterilization is when central banks offset gold flow effects on money supply.",
+          nl: "Gold sterilization is when central banks offset gold flow effects on money supply."
+        }      },
+      {
+        question: {
+          en: "What is the trilemma of gold standard?",
+          es: "What is the trilemma of gold standard?",
+          de: "What is the trilemma of gold standard?",
+          nl: "What is the trilemma of gold standard?"
+        },
+        options: [
+          { en: "Can't have fixed rates, free capital, and independent policy", es: "Can't have fixed rates, free capital, and independent policy", de: "Can't have fixed rates, free capital, and independent policy", nl: "Can't have fixed rates, free capital, and independent policy" },
+          { en: "Three types of gold", es: "Three types of gold", de: "Three types of gold", nl: "Three types of gold" },
+          { en: "Three exchange rates", es: "Three exchange rates", de: "Three exchange rates", nl: "Three exchange rates" },
+          { en: "Three reserve levels", es: "Three reserve levels", de: "Three reserve levels", nl: "Three reserve levels" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The trilemma states countries can't simultaneously maintain fixed exchange rates, free capital movement, and independent monetary policy.",
+          es: "The trilemma states countries can't simultaneously maintain fixed exchange rates, free capital movement, and independent monetary policy.",
+          de: "The trilemma states countries can't simultaneously maintain fixed exchange rates, free capital movement, and independent monetary policy.",
+          nl: "The trilemma states countries can't simultaneously maintain fixed exchange rates, free capital movement, and independent monetary policy."
         }
       }
     ]

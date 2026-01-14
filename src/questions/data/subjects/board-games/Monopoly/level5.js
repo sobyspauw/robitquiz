@@ -1606,6 +1606,47 @@
         de: "St. James Place ist genau 6 Felder vom Gefängnis entfernt - häufigster Wurf (6 oder Pasch 3+3) landet hier.",
         nl: "St. James Place is precies 6 vakken van de Gevangenis - meest voorkomende worp (6 of dubbel 3+3) landt hier."
       }
+    },
+    {
+      question: {
+        en: "What is the 'Pennsylvania Railroad paradox' in advanced strategy?",
+        es: "¿Cuál es la 'paradoja de Pennsylvania Railroad' en estrategia avanzada?",
+        de: "Was ist das 'Pennsylvania Railroad Paradox' in fortgeschrittener Strategie?",
+        nl: "Wat is de 'Pennsylvania Railroad paradox' in geavanceerde strategie?"
+      },
+      options: [
+        {
+          en: "Most valuable railroad position-wise, but least valuable for completing railroad monopoly",
+          es: "Posición de ferrocarril más valiosa posicionalmente, pero menos valiosa para completar monopolio de ferrocarril",
+          de: "Positionell wertvollste Bahnstation, aber am wenigsten wertvoll für Bahnstations-Monopol",
+          nl: "Meest waardevolle spoorweg positioneel, maar minst waardevol voor het voltooien van spoorweg monopolie"
+        },
+        {
+          en: "Always skip buying it",
+          es: "Siempre omitir comprarlo",
+          de: "Immer überspringen",
+          nl: "Altijd overslaan"
+        },
+        {
+          en: "It has the highest rent",
+          es: "Tiene el alquiler más alto",
+          de: "Es hat die höchste Miete",
+          nl: "Het heeft de hoogste huur"
+        },
+        {
+          en: "Trade it immediately",
+          es: "Negociarlo inmediatamente",
+          de: "Sofort handeln",
+          nl: "Direct ruilen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Penn Railroad has high individual value (late-game position) but is farthest from other railroads, making it hardest to use for railroad monopoly completion via trades.",
+        es: "Penn Railroad tiene alto valor individual (posición de fin de juego) pero está más lejos de otros ferrocarriles, haciéndolo más difícil de usar para completar monopolio de ferrocarril vía intercambios.",
+        de: "Penn Railroad hat hohen Einzelwert (Endspiel-Position) aber ist am weitesten von anderen Bahnhöfen entfernt, macht es am schwierigsten für Bahnstation-Monopol-Vollendung via Handel.",
+        nl: "Penn Railroad heeft hoge individuele waarde (late-game positie) maar is verst van andere spoorwegen, waardoor het moeilijkst te gebruiken is voor spoorweg monopolie voltooiing via ruilhandel."
+      }
     }
   ]
 };

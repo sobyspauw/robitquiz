@@ -829,6 +829,826 @@
           nl: "Horchata in Midden-Amerika wordt traditioneel gemaakt van rijst, kaneel, vanille en suiker, anders dan de Spaanse versie gemaakt van aardamandelen."
         }
       },
+      {
+        question: {
+          en: "What is the traditional Tennessee whiskey filtering process called?",
+          es: "¿Cómo se llama el proceso de filtrado tradicional del whisky de Tennessee?",
+          de: "Wie heißt der traditionelle Filterprozess für Tennessee Whiskey?",
+          nl: "Hoe heet het traditionele filtratie proces voor Tennessee whiskey?"
+        },
+        options: [
+          {
+            en: "Lincoln County Process",
+            es: "Proceso de Lincoln County",
+            de: "Lincoln County Prozess",
+            nl: "Lincoln County proces"
+          },
+          {
+            en: "Charcoal mellowing",
+            es: "Suavizado con carbón",
+            de: "Kohle-Reifung",
+            nl: "Houtskool verzachting"
+          },
+          {
+            en: "Maple filtering",
+            es: "Filtrado de arce",
+            de: "Ahorn-Filterung",
+            nl: "Esdoorn filtratie"
+          },
+          {
+            en: "Sweet water filtering",
+            es: "Filtrado de agua dulce",
+            de: "Süßwasser-Filterung",
+            nl: "Zoet water filtratie"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Lincoln County Process is the traditional Tennessee whiskey filtering method where whiskey is filtered through sugar maple charcoal before aging, giving it a distinctive smoothness. Jack Daniel's and George Dickel are famous examples using this process.",
+          es: "El Proceso de Lincoln County es el método tradicional de filtrado de whisky de Tennessee donde el whisky se filtra a través de carbón de arce de azúcar antes del envejecimiento, dándole una suavidad distintiva. Jack Daniel's y George Dickel son ejemplos famosos que usan este proceso.",
+          de: "Der Lincoln County Prozess ist die traditionelle Tennessee Whiskey-Filtermethode, bei der Whiskey vor der Reifung durch Zuckerahorn-Kohle gefiltert wird, was ihm eine charakteristische Geschmeidigkeit verleiht. Jack Daniel's und George Dickel sind berühmte Beispiele für diesen Prozess.",
+          nl: "Het Lincoln County proces is de traditionele Tennessee whiskey filtratie methode waarbij whiskey door suikeresdoorn houtskool wordt gefilterd voor rijping, wat het een kenmerkende zachtheid geeft. Jack Daniel's en George Dickel zijn beroemde voorbeelden die dit proces gebruiken."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional Mexican chocolate-based drink flavored with cinnamon called?",
+          es: "¿Cómo se llama la bebida mexicana tradicional basada en chocolate aromatizada con canela?",
+          de: "Wie heißt das traditionelle mexikanische Getränk auf Schokoladenbasis mit Zimt?",
+          nl: "Hoe heet de traditionele Mexicaanse drank op chocolade basis gearomatiseerd met kaneel?"
+        },
+        options: [
+          {
+            en: "Champurrado",
+            es: "Champurrado",
+            de: "Champurrado",
+            nl: "Champurrado"
+          },
+          {
+            en: "Atole",
+            es: "Atole",
+            de: "Atole",
+            nl: "Atole"
+          },
+          {
+            en: "Tejate",
+            es: "Tejate",
+            de: "Tejate",
+            nl: "Tejate"
+          },
+          {
+            en: "Agua de jamaica",
+            es: "Agua de jamaica",
+            de: "Agua de Jamaica",
+            nl: "Agua de jamaica"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Champurrado is a traditional Mexican hot chocolate drink made with masa (corn dough), Mexican chocolate, cinnamon, and piloncillo (unrefined cane sugar). It's thick, rich, and traditionally consumed during Day of the Dead and Christmas celebrations.",
+          es: "Champurrado es una bebida caliente de chocolate mexicana tradicional hecha con masa (masa de maíz), chocolate mexicano, canela y piloncillo (azúcar de caña sin refinar). Es espesa, rica y tradicionalmente consumida durante el Día de Muertos y celebraciones navideñas.",
+          de: "Champurrado ist ein traditionelles mexikanisches heißes Schokoladengetränk aus Masa (Maisteig), mexikanischer Schokolade, Zimt und Piloncillo (unraffinierter Rohrzucker). Es ist dick, reichhaltig und wird traditionell während des Tages der Toten und Weihnachtsfeiern konsumiert.",
+          nl: "Champurrado is een traditionele Mexicaanse warme chocolade drank gemaakt met masa (maïsdeeg), Mexicaanse chocolade, kaneel en piloncillo (ongeraffineerde rietsuiker). Het is dik, rijk en wordt traditioneel geconsumeerd tijdens de Dag van de Doden en Kerstmis vieringen."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional American rye whiskey that must contain at least 51% rye?",
+          es: "¿Cuál es el whisky de centeno americano tradicional que debe contener al menos 51% centeno?",
+          de: "Was ist der traditionelle amerikanische Roggenwhiskey, der mindestens 51% Roggen enthalten muss?",
+          nl: "Wat is de traditionele Amerikaanse rogge whiskey die minstens 51% rogge moet bevatten?"
+        },
+        options: [
+          {
+            en: "Rye whiskey",
+            es: "Whisky de centeno",
+            de: "Roggenwhiskey",
+            nl: "Rogge whiskey"
+          },
+          {
+            en: "Bourbon",
+            es: "Bourbon",
+            de: "Bourbon",
+            nl: "Bourbon"
+          },
+          {
+            en: "Wheat whiskey",
+            es: "Whisky de trigo",
+            de: "Weizenwhiskey",
+            nl: "Tarwe whiskey"
+          },
+          {
+            en: "Corn whiskey",
+            es: "Whisky de maíz",
+            de: "Maiswhiskey",
+            nl: "Maïs whiskey"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Rye whiskey is a traditional American whiskey that must contain at least 51% rye grain in its mash bill. It has a spicier, more robust flavor than bourbon and was the dominant American whiskey before Prohibition. Brands like Rittenhouse, Sazerac, and WhistlePig are popular examples.",
+          es: "El whisky de centeno es un whisky americano tradicional que debe contener al menos 51% de grano de centeno en su mezcla. Tiene un sabor más picante y robusto que el bourbon y fue el whisky americano dominante antes de la Prohibición. Marcas como Rittenhouse, Sazerac y WhistlePig son ejemplos populares.",
+          de: "Roggenwhiskey ist ein traditioneller amerikanischer Whiskey, der mindestens 51% Roggenkorn in seiner Maische enthalten muss. Er hat einen würzigeren, robusteren Geschmack als Bourbon und war vor der Prohibition der dominierende amerikanische Whiskey. Marken wie Rittenhouse, Sazerac und WhistlePig sind beliebte Beispiele.",
+          nl: "Rogge whiskey is een traditionele Amerikaanse whiskey die minstens 51% rogge graan in zijn mash bill moet bevatten. Het heeft een pittigere, robustere smaak dan bourbon en was de dominante Amerikaanse whiskey voor de Drooglegging. Merken zoals Rittenhouse, Sazerac en WhistlePig zijn populaire voorbeelden."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional Haitian rum-based spirit called?",
+          es: "¿Cómo se llama el licor haitiano tradicional basado en ron?",
+          de: "Wie heißt der traditionelle haitianische Rum-basierte Schnaps?",
+          nl: "Hoe heet de traditionele Haïtiaanse rum-gebaseerde spirit?"
+        },
+        options: [
+          {
+            en: "Clairin",
+            es: "Clairin",
+            de: "Clairin",
+            nl: "Clairin"
+          },
+          {
+            en: "Rhum agricole",
+            es: "Rhum agricole",
+            de: "Rhum Agricole",
+            nl: "Rhum agricole"
+          },
+          {
+            en: "Barbancourt",
+            es: "Barbancourt",
+            de: "Barbancourt",
+            nl: "Barbancourt"
+          },
+          {
+            en: "Ti-Malice",
+            es: "Ti-Malice",
+            de: "Ti-Malice",
+            nl: "Ti-Malice"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Clairin is a traditional Haitian artisanal rum made from fresh sugar cane juice using wild yeast fermentation. Each batch is unique and reflects the terroir of Haiti. It's unaged, clear, and has a funkier, more complex flavor profile than typical rum.",
+          es: "Clairin es un ron artesanal haitiano tradicional hecho de jugo fresco de caña de azúcar usando fermentación con levadura salvaje. Cada lote es único y refleja el terroir de Haití. No está envejecido, es claro y tiene un perfil de sabor más funky y complejo que el ron típico.",
+          de: "Clairin ist ein traditioneller haitianischer handwerklicher Rum aus frischem Zuckerrohrsaft mit Wildhefen-Fermentation. Jede Charge ist einzigartig und spiegelt das Terroir Haitis wider. Er ist ungereift, klar und hat ein funkigeres, komplexeres Geschmacksprofil als typischer Rum.",
+          nl: "Clairin is een traditionele Haïtiaanse ambachtelijke rum gemaakt van vers suikerrietsap met wilde gist fermentatie. Elke batch is uniek en weerspiegelt het terroir van Haïti. Het is ongerijpt, helder en heeft een funkier, complexer smaakprofiel dan typische rum."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional Costa Rican sugarcane spirit called?",
+          es: "¿Cómo se llama el licor de caña de azúcar costarricense tradicional?",
+          de: "Wie heißt der traditionelle costa-ricanische Zuckerrohrschnaps?",
+          nl: "Hoe heet de traditionele Costa Ricaanse suikerriet spirit?"
+        },
+        options: [
+          {
+            en: "Guaro",
+            es: "Guaro",
+            de: "Guaro",
+            nl: "Guaro"
+          },
+          {
+            en: "Cacique",
+            es: "Cacique",
+            de: "Cacique",
+            nl: "Cacique"
+          },
+          {
+            en: "Aguardiente",
+            es: "Aguardiente",
+            de: "Aguardiente",
+            nl: "Aguardiente"
+          },
+          {
+            en: "Cachaça",
+            es: "Cachaça",
+            de: "Cachaça",
+            nl: "Cachaça"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Guaro is Costa Rica's traditional clear spirit distilled from sugar cane. The most famous brand is Cacique Guaro, produced by the state-owned FANAL distillery. It's typically 30% ABV and consumed straight, with soda, or in cocktails like Guaro Sour or Chiliguaro.",
+          es: "Guaro es el licor claro tradicional de Costa Rica destilado de caña de azúcar. La marca más famosa es Cacique Guaro, producida por la destilería estatal FANAL. Típicamente es 30% ABV y se consume solo, con soda, o en cócteles como Guaro Sour o Chiliguaro.",
+          de: "Guaro ist Costa Ricas traditioneller klarer Schnaps aus Zuckerrohr. Die berühmteste Marke ist Cacique Guaro, hergestellt von der staatlichen Destillerie FANAL. Er hat typischerweise 30% ABV und wird pur, mit Soda oder in Cocktails wie Guaro Sour oder Chiliguaro konsumiert.",
+          nl: "Guaro is Costa Rica's traditionele heldere spirit gedistilleerd uit suikerriet. Het meest beroemde merk is Cacique Guaro, geproduceerd door de staatsdistilleerderij FANAL. Het is meestal 30% ABV en wordt puur, met frisdrank of in cocktails zoals Guaro Sour of Chiliguaro geconsumeerd."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional Mexican spirit made from the desert spoon plant?",
+          es: "¿Cuál es el licor mexicano tradicional hecho de la planta cuchara del desierto?",
+          de: "Was ist der traditionelle mexikanische Schnaps aus der Wüstenlöffel-Pflanze?",
+          nl: "Wat is de traditionele Mexicaanse spirit gemaakt van de woestijnlepel plant?"
+        },
+        options: [
+          {
+            en: "Sotol",
+            es: "Sotol",
+            de: "Sotol",
+            nl: "Sotol"
+          },
+          {
+            en: "Tequila",
+            es: "Tequila",
+            de: "Tequila",
+            nl: "Tequila"
+          },
+          {
+            en: "Mezcal",
+            es: "Mezcal",
+            de: "Mezcal",
+            nl: "Mezcal"
+          },
+          {
+            en: "Raicilla",
+            es: "Raicilla",
+            de: "Raicilla",
+            nl: "Raicilla"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sotol is a traditional Mexican spirit distilled from the desert spoon plant (Dasylirion wheeleri), not agave. It's produced primarily in Chihuahua, Durango, and Coahuila states. Sotol has earthy, herbaceous flavors and has been made for over 800 years by indigenous peoples.",
+          es: "Sotol es un licor mexicano tradicional destilado de la planta cuchara del desierto (Dasylirion wheeleri), no agave. Se produce principalmente en los estados de Chihuahua, Durango y Coahuila. Sotol tiene sabores terrosos y herbáceos y ha sido hecho durante más de 800 años por pueblos indígenas.",
+          de: "Sotol ist ein traditioneller mexikanischer Schnaps, destilliert aus der Wüstenlöffel-Pflanze (Dasylirion wheeleri), nicht aus Agave. Er wird hauptsächlich in den Bundesstaaten Chihuahua, Durango und Coahuila produziert. Sotol hat erdige, kräuterige Aromen und wird seit über 800 Jahren von indigenen Völkern hergestellt.",
+          nl: "Sotol is een traditionele Mexicaanse spirit gedistilleerd uit de woestijnlepel plant (Dasylirion wheeleri), niet agave. Het wordt voornamelijk geproduceerd in de staten Chihuahua, Durango en Coahuila. Sotol heeft aardse, kruidachtige smaken en wordt al meer dan 800 jaar gemaakt door inheemse volkeren."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional Guatemalan rum aging classification for rum aged 23 years?",
+          es: "¿Cuál es la clasificación tradicional guatemalteca de envejecimiento para ron envejecido 23 años?",
+          de: "Was ist die traditionelle guatemaltekische Rum-Altersklassifikation für 23 Jahre alten Rum?",
+          nl: "Wat is de traditionele Guatemalteekse rum rijpings classificatie voor 23 jaar gerijpte rum?"
+        },
+        options: [
+          {
+            en: "Solera 23",
+            es: "Solera 23",
+            de: "Solera 23",
+            nl: "Solera 23"
+          },
+          {
+            en: "Gran Reserva",
+            es: "Gran Reserva",
+            de: "Gran Reserva",
+            nl: "Gran Reserva"
+          },
+          {
+            en: "XO",
+            es: "XO",
+            de: "XO",
+            nl: "XO"
+          },
+          {
+            en: "Ron Añejo",
+            es: "Ron Añejo",
+            de: "Ron Añejo",
+            nl: "Ron Añejo"
+          }
+        },
+        correct: 0,
+        explanation: {
+          en: "Guatemalan rum producers like Ron Zacapa use the 'Solera' aging system with the number indicating the average age of rums in the blend. Zacapa 23 (Solera 23) is one of the world's most awarded rums, aged using the Spanish solera method at high altitude.",
+          es: "Los productores de ron guatemalteco como Ron Zacapa usan el sistema de envejecimiento 'Solera' con el número indicando la edad promedio de los rones en la mezcla. Zacapa 23 (Solera 23) es uno de los rones más premiados del mundo, envejecido usando el método solera español a gran altitud.",
+          de: "Guatemaltekische Rumproduzenten wie Ron Zacapa verwenden das 'Solera'-Reifungssystem, wobei die Zahl das Durchschnittsalter der Rums in der Mischung angibt. Zacapa 23 (Solera 23) ist einer der meistausgezeichneten Rums der Welt, gereift nach der spanischen Solera-Methode in großer Höhe.",
+          nl: "Guatemalteekse rum producenten zoals Ron Zacapa gebruiken het 'Solera' rijpingssysteem waarbij het nummer de gemiddelde leeftijd van de rums in de blend aangeeft. Zacapa 23 (Solera 23) is een van de meest bekroonde rums ter wereld, gerijpt met de Spaanse solera methode op grote hoogte."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional Nicaraguan corn and cacao drink called?",
+          es: "¿Cómo se llama la bebida nicaragüense tradicional de maíz y cacao?",
+          de: "Wie heißt das traditionelle nicaraguanische Getränk aus Mais und Kakao?",
+          nl: "Hoe heet de traditionele Nicaraguaanse maïs en cacao drank?"
+        },
+        options: [
+          {
+            en: "Pinolillo",
+            es: "Pinolillo",
+            de: "Pinolillo",
+            nl: "Pinolillo"
+          },
+          {
+            en: "Chicha",
+            es: "Chicha",
+            de: "Chicha",
+            nl: "Chicha"
+          },
+          {
+            en: "Atole",
+            es: "Atole",
+            de: "Atole",
+            nl: "Atole"
+          },
+          {
+            en: "Pozol",
+            es: "Pozol",
+            de: "Pozol",
+            nl: "Pozol"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pinolillo is Nicaragua's national drink, made from toasted corn, cacao, cinnamon, and sometimes cloves. The name comes from 'pinol' (toasted corn flour). It's served cold and is so important to Nicaraguan identity that Nicaraguans are sometimes called 'pinoleros'.",
+          es: "Pinolillo es la bebida nacional de Nicaragua, hecha de maíz tostado, cacao, canela y a veces clavo. El nombre viene de 'pinol' (harina de maíz tostado). Se sirve frío y es tan importante para la identidad nicaragüense que los nicaragüenses a veces se llaman 'pinoleros'.",
+          de: "Pinolillo ist Nicaraguas Nationalgetränk, hergestellt aus geröstetem Mais, Kakao, Zimt und manchmal Nelken. Der Name kommt von 'Pinol' (geröstetes Maismehl). Es wird kalt serviert und ist so wichtig für die nicaraguanische Identität, dass Nicaraguaner manchmal 'Pinoleros' genannt werden.",
+          nl: "Pinolillo is Nicaragua's nationale drank, gemaakt van geroosterde maïs, cacao, kaneel en soms kruidnagel. De naam komt van 'pinol' (geroosterd maïsmeel). Het wordt koud geserveerd en is zo belangrijk voor de Nicaraguaanse identiteit dat Nicaraguanen soms 'pinoleros' worden genoemd."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional Chilean grape brandy similar to Pisco called?",
+          es: "¿Cómo se llama el brandy de uva chileno tradicional similar al Pisco?",
+          de: "Wie heißt der traditionelle chilenische Traubenbrand ähnlich wie Pisco?",
+          nl: "Hoe heet de traditionele Chileense druivenbrandy vergelijkbaar met Pisco?"
+        },
+        options: [
+          {
+            en: "Pisco chileno",
+            es: "Pisco chileno",
+            de: "Pisco Chileno",
+            nl: "Pisco chileno"
+          },
+          {
+            en: "Aguardiente de uva",
+            es: "Aguardiente de uva",
+            de: "Aguardiente de Uva",
+            nl: "Aguardiente de uva"
+          },
+          {
+            en: "Mistela",
+            es: "Mistela",
+            de: "Mistela",
+            nl: "Mistela"
+          },
+          {
+            en: "Chicha de uva",
+            es: "Chicha de uva",
+            de: "Chicha de Uva",
+            nl: "Chicha de uva"
+          }
+        },
+        correct: 0,
+        explanation: {
+          en: "Chilean Pisco (Pisco chileno) is Chile's national spirit, a grape brandy with strict production regulations. The Peru-Chile Pisco dispute is one of South America's longest-running cultural conflicts, with both countries claiming to be Pisco's birthplace. Chilean Pisco can be aged in wood, unlike Peruvian Pisco.",
+          es: "El Pisco chileno es el licor nacional de Chile, un brandy de uva con regulaciones de producción estrictas. La disputa del Pisco entre Perú y Chile es uno de los conflictos culturales más largos de Sudamérica, con ambos países reclamando ser el lugar de nacimiento del Pisco. El Pisco chileno puede envejecerse en madera, a diferencia del Pisco peruano.",
+          de: "Chilenischer Pisco (Pisco chileno) ist Chiles Nationalschnaps, ein Traubenbrand mit strengen Produktionsvorschriften. Der Peru-Chile-Pisco-Streit ist einer der längsten kulturellen Konflikte Südamerikas, wobei beide Länder beanspruchen, der Geburtsort des Pisco zu sein. Chilenischer Pisco kann in Holz gereift werden, im Gegensatz zu peruanischem Pisco.",
+          nl: "Chileense Pisco (Pisco chileno) is Chili's nationale spirit, een druivenbrandy met strikte productie regelgeving. Het Peru-Chili Pisco geschil is een van Zuid-Amerika's langstlopende culturele conflicten, waarbij beide landen beweren de geboorteplaats van Pisco te zijn. Chileense Pisco kan in hout worden gerijpt, in tegenstelling tot Peruaanse Pisco."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional Mexican mezcal made with wild agave called?",
+          es: "¿Cómo se llama el mezcal mexicano tradicional hecho con agave silvestre?",
+          de: "Wie heißt der traditionelle mexikanische Mezcal aus wildem Agave?",
+          nl: "Hoe heet de traditionele Mexicaanse mezcal gemaakt met wilde agave?"
+        },
+        options: [
+          {
+            en: "Mezcal silvestre",
+            es: "Mezcal silvestre",
+            de: "Mezcal Silvestre",
+            nl: "Mezcal silvestre"
+          },
+          {
+            en: "Mezcal artesanal",
+            es: "Mezcal artesanal",
+            de: "Mezcal Artesanal",
+            nl: "Mezcal artesanal"
+          },
+          {
+            en: "Mezcal joven",
+            es: "Mezcal joven",
+            de: "Mezcal Joven",
+            nl: "Mezcal joven"
+          },
+          {
+            en: "Mezcal espadín",
+            es: "Mezcal espadín",
+            de: "Mezcal Espadín",
+            nl: "Mezcal espadín"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mezcal silvestre ('wild mezcal') is made from wild agave species like tobalá, tepeztate, or jabalí, rather than cultivated agave. These wild agaves can take 15-35 years to mature and produce complex, unique flavors. Mezcal silvestre is rarer and typically more expensive than mezcal made from cultivated espadín agave.",
+          es: "Mezcal silvestre se hace de especies de agave silvestre como tobalá, tepeztate o jabalí, en lugar de agave cultivado. Estos agaves silvestres pueden tardar 15-35 años en madurar y producir sabores complejos y únicos. El mezcal silvestre es más raro y típicamente más caro que el mezcal hecho de agave espadín cultivado.",
+          de: "Mezcal silvestre ('wilder Mezcal') wird aus wilden Agave-Arten wie Tobalá, Tepeztate oder Jabalí hergestellt, nicht aus kultivierter Agave. Diese wilden Agaven können 15-35 Jahre zur Reife brauchen und erzeugen komplexe, einzigartige Aromen. Mezcal silvestre ist seltener und typischerweise teurer als Mezcal aus kultivierter Espadín-Agave.",
+          nl: "Mezcal silvestre ('wilde mezcal') wordt gemaakt van wilde agave soorten zoals tobalá, tepeztate of jabalí, in plaats van gecultiveerde agave. Deze wilde agaves kunnen 15-35 jaar nodig hebben om te rijpen en produceren complexe, unieke smaken. Mezcal silvestre is zeldzamer en meestal duurder dan mezcal gemaakt van gecultiveerde espadín agave."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional Salvadoran fermented pineapple drink called?",
+          es: "¿Cómo se llama la bebida salvadoreña tradicional de piña fermentada?",
+          de: "Wie heißt das traditionelle salvadorianische fermentierte Ananasgetränk?",
+          nl: "Hoe heet de traditionele Salvadoraanse gefermenteerde ananas drank?"
+        },
+        options: [
+          {
+            en: "Chicha de piña",
+            es: "Chicha de piña",
+            de: "Chicha de Piña",
+            nl: "Chicha de piña"
+          },
+          {
+            en: "Tepache",
+            es: "Tepache",
+            de: "Tepache",
+            nl: "Tepache"
+          },
+          {
+            en: "Guarapo",
+            es: "Guarapo",
+            de: "Guarapo",
+            nl: "Guarapo"
+          },
+          {
+            en: "Atol de elote",
+            es: "Atol de elote",
+            de: "Atol de Elote",
+            nl: "Atol de elote"
+          }
+        },
+        correct: 0,
+        explanation: {
+          en: "Chicha de piña is a traditional Salvadoran fermented drink made from pineapple rinds, panela (unrefined sugar), water, and spices. It's lightly fermented, slightly effervescent, and consumed during festivals and celebrations. The fermentation gives it a tangy, slightly alcoholic character.",
+          es: "Chicha de piña es una bebida fermentada salvadoreña tradicional hecha de cáscaras de piña, panela (azúcar sin refinar), agua y especias. Está ligeramente fermentada, ligeramente efervescente, y se consume durante festivales y celebraciones. La fermentación le da un carácter ácido, ligeramente alcohólico.",
+          de: "Chicha de piña ist ein traditionelles salvadorianisches fermentiertes Getränk aus Ananasschalen, Panela (unraffinierter Zucker), Wasser und Gewürzen. Es ist leicht fermentiert, leicht sprudelnd und wird während Festivals und Feiern konsumiert. Die Fermentation verleiht ihm einen würzigen, leicht alkoholischen Charakter.",
+          nl: "Chicha de piña is een traditionele Salvadoraanse gefermenteerde drank gemaakt van ananas schillen, panela (ongeraffineerde suiker), water en kruiden. Het is licht gefermenteerd, licht bruisend, en wordt geconsumeerd tijdens festivals en vieringen. De fermentatie geeft het een pittig, licht alcoholisch karakter."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional Honduran corn and milk drink flavored with cinnamon called?",
+          es: "¿Cómo se llama la bebida hondureña tradicional de maíz y leche aromatizada con canela?",
+          de: "Wie heißt das traditionelle honduranische Getränk aus Mais und Milch mit Zimt?",
+          nl: "Hoe heet de traditionele Hondurese maïs en melk drank gearomatiseerd met kaneel?"
+        },
+        options: [
+          {
+            en: "Atol de elote",
+            es: "Atol de elote",
+            de: "Atol de Elote",
+            nl: "Atol de elote"
+          },
+          {
+            en: "Horchata",
+            es: "Horchata",
+            de: "Horchata",
+            nl: "Horchata"
+          },
+          {
+            en: "Pinol",
+            es: "Pinol",
+            de: "Pinol",
+            nl: "Pinol"
+          },
+          {
+            en: "Chilate",
+            es: "Chilate",
+            de: "Chilate",
+            nl: "Chilate"
+          }
+        },
+        correct: 0,
+        explanation: {
+          en: "Atol de elote (or atole de elote) is a traditional Central American drink made from fresh sweet corn, milk, cinnamon, and sugar. It's thick, creamy, and often served hot. In Honduras, it's particularly popular during corn harvest season and consumed as a comforting breakfast or evening drink.",
+          es: "Atol de elote (o atole de elote) es una bebida tradicional centroamericana hecha de maíz dulce fresco, leche, canela y azúcar. Es espesa, cremosa y a menudo se sirve caliente. En Honduras, es particularmente popular durante la temporada de cosecha de maíz y se consume como desayuno reconfortante o bebida nocturna.",
+          de: "Atol de elote (oder Atole de elote) ist ein traditionelles zentralamerikanisches Getränk aus frischem Süßmais, Milch, Zimt und Zucker. Es ist dick, cremig und wird oft heiß serviert. In Honduras ist es besonders während der Maisernte beliebt und wird als wohltuendes Frühstücks- oder Abendgetränk konsumiert.",
+          nl: "Atol de elote (of atole de elote) is een traditionele Midden-Amerikaanse drank gemaakt van verse zoete maïs, melk, kaneel en suiker. Het is dik, romig en wordt vaak warm geserveerd. In Honduras is het bijzonder populair tijdens het maïs oogstseizoen en wordt geconsumeerd als troostend ontbijt of avonddrank."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional Panamanian spirit distilled from sugar cane called?",
+          es: "¿Cómo se llama el licor panameño tradicional destilado de caña de azúcar?",
+          de: "Wie heißt der traditionelle panamaische Schnaps aus Zuckerrohr?",
+          nl: "Hoe heet de traditionele Panamese spirit gedistilleerd uit suikerriet?"
+        },
+        options: [
+          {
+            en: "Seco Herrerano",
+            es: "Seco Herrerano",
+            de: "Seco Herrerano",
+            nl: "Seco Herrerano"
+          },
+          {
+            en: "Ron Abuelo",
+            es: "Ron Abuelo",
+            de: "Ron Abuelo",
+            nl: "Ron Abuelo"
+          },
+          {
+            en: "Guaro",
+            es: "Guaro",
+            de: "Guaro",
+            nl: "Guaro"
+          },
+          {
+            en: "Aguardiente",
+            es: "Aguardiente",
+            de: "Aguardiente",
+            nl: "Aguardiente"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Seco Herrerano is Panama's national spirit, a clear distilled spirit made from sugar cane. Produced in Herrera province since 1936, it's typically mixed with milk (creating 'Seco con leche') or coconut water. Seco is essential to Panamanian celebrations and is less sweet than rum.",
+          es: "Seco Herrerano es el licor nacional de Panamá, un licor destilado claro hecho de caña de azúcar. Producido en la provincia de Herrera desde 1936, típicamente se mezcla con leche (creando 'Seco con leche') o agua de coco. Seco es esencial para las celebraciones panameñas y es menos dulce que el ron.",
+          de: "Seco Herrerano ist Panamas Nationalschnaps, ein klarer destillierter Schnaps aus Zuckerrohr. Seit 1936 in der Provinz Herrera produziert, wird er typischerweise mit Milch (wodurch 'Seco con leche' entsteht) oder Kokoswasser gemischt. Seco ist wesentlich für panamaische Feiern und ist weniger süß als Rum.",
+          nl: "Seco Herrerano is Panama's nationale spirit, een heldere gedestilleerde spirit gemaakt van suikerriet. Geproduceerd in de provincie Herrera sinds 1936, wordt het meestal gemengd met melk (wat 'Seco con leche' creëert) of kokoswater. Seco is essentieel voor Panamese vieringen en is minder zoet dan rum."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional American moonshine typically made from?",
+          es: "¿De qué se hace típicamente el moonshine americano tradicional?",
+          de: "Woraus wird traditioneller amerikanischer Moonshine typischerweise hergestellt?",
+          nl: "Waar wordt traditionele Amerikaanse moonshine meestal van gemaakt?"
+        },
+        options: [
+          {
+            en: "Corn",
+            es: "Maíz",
+            de: "Mais",
+            nl: "Maïs"
+          },
+          {
+            en: "Wheat",
+            es: "Trigo",
+            de: "Weizen",
+            nl: "Tarwe"
+          },
+          {
+            en: "Rye",
+            es: "Centeno",
+            de: "Roggen",
+            nl: "Rogge"
+          },
+          {
+            en: "Barley",
+            es: "Cebada",
+            de: "Gerste",
+            nl: "Gerst"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Traditional American moonshine is typically made from corn, sugar, and water, distilled illegally without government taxation. The term 'moonshine' comes from the practice of distilling at night by moonlight to avoid detection. During Prohibition, moonshine production flourished in the Appalachian region.",
+          es: "El moonshine americano tradicional se hace típicamente de maíz, azúcar y agua, destilado ilegalmente sin impuestos gubernamentales. El término 'moonshine' viene de la práctica de destilar de noche a la luz de la luna para evitar detección. Durante la Prohibición, la producción de moonshine floreció en la región de los Apalaches.",
+          de: "Traditioneller amerikanischer Moonshine wird typischerweise aus Mais, Zucker und Wasser hergestellt, illegal ohne staatliche Besteuerung destilliert. Der Begriff 'Moonshine' kommt von der Praxis, nachts bei Mondlicht zu destillieren, um der Entdeckung zu entgehen. Während der Prohibition blühte die Moonshine-Produktion in der Appalachen-Region.",
+          nl: "Traditionele Amerikaanse moonshine wordt meestal gemaakt van maïs, suiker en water, illegaal gedistilleerd zonder overheidsheffing. De term 'moonshine' komt van de praktijk van 's nachts bij maanlicht distilleren om ontdekking te vermijden. Tijdens de Drooglegging bloeide de moonshine productie in de Appalachen regio."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional Belizean cashew fruit wine called?",
+          es: "¿Cómo se llama el vino tradicional de fruta de anacardo beliceño?",
+          de: "Wie heißt der traditionelle belizianische Cashewfrucht-Wein?",
+          nl: "Hoe heet de traditionele Belizaanse cashewvrucht wijn?"
+        },
+        options: [
+          {
+            en: "Cashew wine",
+            es: "Vino de anacardo",
+            de: "Cashew-Wein",
+            nl: "Cashew wijn"
+          },
+          {
+            en: "Rum",
+            es: "Ron",
+            de: "Rum",
+            nl: "Rum"
+          },
+          {
+            en: "Berry wine",
+            es: "Vino de bayas",
+            de: "Beerenwein",
+            nl: "Bessen wijn"
+          },
+          {
+            en: "Fruit punch",
+            es: "Ponche de frutas",
+            de: "Fruchtpunsch",
+            nl: "Fruit punch"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cashew wine is a traditional Belizean alcoholic beverage made from fermented cashew apples (the fruit of the cashew tree, not the nut). The wine has a unique sweet-tart flavor and golden color. Belize produces cashew wine commercially, but homemade versions are also common in rural areas.",
+          es: "El vino de anacardo es una bebida alcohólica beliceña tradicional hecha de manzanas de anacardo fermentadas (la fruta del árbol de anacardo, no la nuez). El vino tiene un sabor agridulce único y color dorado. Belice produce vino de anacardo comercialmente, pero las versiones caseras también son comunes en áreas rurales.",
+          de: "Cashew-Wein ist ein traditionelles belizianisches alkoholisches Getränk aus fermentierten Cashew-Äpfeln (der Frucht des Cashewbaums, nicht der Nuss). Der Wein hat einen einzigartigen süß-säuerlichen Geschmack und eine goldene Farbe. Belize produziert Cashew-Wein kommerziell, aber hausgemachte Versionen sind auch in ländlichen Gebieten üblich.",
+          nl: "Cashew wijn is een traditionele Belizaanse alcoholische drank gemaakt van gefermenteerde cashew appels (de vrucht van de cashewboom, niet de noot). De wijn heeft een unieke zoetzure smaak en gouden kleur. Belize produceert cashew wijn commercieel, maar huisgemaakte versies zijn ook gebruikelijk in landelijke gebieden."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional Mexican fermented agave drink that predates tequila?",
+          es: "¿Cuál es la bebida mexicana tradicional de agave fermentado anterior al tequila?",
+          de: "Was ist das traditionelle mexikanische fermentierte Agaven-Getränk, das älter als Tequila ist?",
+          nl: "Wat is de traditionele Mexicaanse gefermenteerde agave drank die ouder is dan tequila?"
+        },
+        options: [
+          {
+            en: "Pulque",
+            es: "Pulque",
+            de: "Pulque",
+            nl: "Pulque"
+          },
+          {
+            en: "Mezcal",
+            es: "Mezcal",
+            de: "Mezcal",
+            nl: "Mezcal"
+          },
+          {
+            en: "Tepache",
+            es: "Tepache",
+            de: "Tepache",
+            nl: "Tepache"
+          },
+          {
+            en: "Aguamiel",
+            es: "Aguamiel",
+            de: "Aguamiel",
+            nl: "Aguamiel"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pulque is an ancient Mexican alcoholic beverage made from fermented agave sap (aguamiel or 'honey water'). Dating back over 2,000 years to the Aztec civilization, pulque was considered sacred and used in religious ceremonies. It's milky-white, viscous, slightly sour, and typically 4-6% alcohol. Pulque must be consumed fresh within days of production.",
+          es: "Pulque es una bebida alcohólica mexicana antigua hecha de savia de agave fermentada (aguamiel o 'agua de miel'). Con más de 2,000 años desde la civilización azteca, el pulque era considerado sagrado y usado en ceremonias religiosas. Es blanco lechoso, viscoso, ligeramente ácido y típicamente 4-6% de alcohol. El pulque debe consumirse fresco dentro de días de producción.",
+          de: "Pulque ist ein altes mexikanisches alkoholisches Getränk aus fermentiertem Agavensaft (Aguamiel oder 'Honigwasser'). Mit über 2.000 Jahren seit der aztekischen Zivilisation wurde Pulque als heilig betrachtet und in religiösen Zeremonien verwendet. Es ist milchig-weiß, viskos, leicht sauer und typischerweise 4-6% Alkohol. Pulque muss frisch innerhalb von Tagen nach der Produktion konsumiert werden.",
+          nl: "Pulque is een oude Mexicaanse alcoholische drank gemaakt van gefermenteerd agave sap (aguamiel of 'honing water'). Met meer dan 2.000 jaar sinds de Azteekse beschaving, werd pulque als heilig beschouwd en gebruikt in religieuze ceremonies. Het is melkwit, stroperig, licht zuur en meestal 4-6% alcohol. Pulque moet vers worden geconsumeerd binnen dagen na productie."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional Barbadian rum distilled in copper pot stills called?",
+          es: "¿Cómo se llama el ron barbadense tradicional destilado en alambiques de cobre?",
+          de: "Wie heißt der traditionelle barbadische Rum, destilliert in Kupfer-Pot-Stills?",
+          nl: "Hoe heet de traditionele Barbadaanse rum gedistilleerd in koperen pot stills?"
+        },
+        options: [
+          {
+            en: "Mount Gay Rum",
+            es: "Ron Mount Gay",
+            de: "Mount Gay Rum",
+            nl: "Mount Gay Rum"
+          },
+          {
+            en: "Pot still rum",
+            es: "Ron de alambique",
+            de: "Pot-Still-Rum",
+            nl: "Pot still rum"
+          },
+          {
+            en: "Bajan rum",
+            es: "Ron Bajan",
+            de: "Bajan-Rum",
+            nl: "Bajan rum"
+          },
+          {
+            en: "All of the above",
+            es: "Todas las anteriores",
+            de: "Alle oben genannten",
+            nl: "Alle bovenstaande"
+          }
+        },
+        correct: 3,
+        explanation: {
+          en: "Barbadian rum (or Bajan rum) is traditionally distilled in copper pot stills, with Mount Gay being the world's oldest rum distillery (est. 1703). Barbadian rum is known for its smooth, refined character. The island's rum-making tradition influenced the entire Caribbean rum industry and Barbados is often called the 'birthplace of rum'.",
+          es: "El ron barbadense (o ron Bajan) se destila tradicionalmente en alambiques de cobre, siendo Mount Gay la destilería de ron más antigua del mundo (est. 1703). El ron barbadense es conocido por su carácter suave y refinado. La tradición ronera de la isla influyó en toda la industria del ron caribeño y Barbados a menudo se llama el 'lugar de nacimiento del ron'.",
+          de: "Barbadischer Rum (oder Bajan-Rum) wird traditionell in Kupfer-Pot-Stills destilliert, wobei Mount Gay die älteste Rumdestillerie der Welt ist (gegr. 1703). Barbadischer Rum ist für seinen geschmeidigen, raffinierten Charakter bekannt. Die Rum-Tradition der Insel beeinflusste die gesamte karibische Rumindustrie und Barbados wird oft als 'Geburtsort des Rums' bezeichnet.",
+          nl: "Barbadaanse rum (of Bajan rum) wordt traditioneel gedistilleerd in koperen pot stills, waarbij Mount Gay 's werelds oudste rum distilleerderij is (opgericht 1703). Barbadaanse rum staat bekend om zijn zachte, verfijnde karakter. De rum-traditie van het eiland beïnvloedde de hele Caribische rum industrie en Barbados wordt vaak de 'geboorteplaats van rum' genoemd."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional Mexican fermented pineapple beverage called?",
+          es: "¿Cómo se llama la bebida mexicana tradicional de piña fermentada?",
+          de: "Wie heißt das traditionelle mexikanische fermentierte Ananasgetränk?",
+          nl: "Hoe heet de traditionele Mexicaanse gefermenteerde ananas drank?"
+        },
+        options: [
+          {
+            en: "Tepache",
+            es: "Tepache",
+            de: "Tepache",
+            nl: "Tepache"
+          },
+          {
+            en: "Chicha de piña",
+            es: "Chicha de piña",
+            de: "Chicha de Piña",
+            nl: "Chicha de piña"
+          },
+          {
+            en: "Agua de piña",
+            es: "Agua de piña",
+            de: "Agua de Piña",
+            nl: "Agua de piña"
+          },
+          {
+            en: "Jugo de piña",
+            es: "Jugo de piña",
+            de: "Jugo de Piña",
+            nl: "Jugo de piña"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tepache is a traditional Mexican fermented drink made from pineapple rinds, piloncillo (unrefined cane sugar), and spices like cinnamon and cloves. It's lightly fermented for 2-3 days, resulting in a slightly alcoholic (2-3% ABV), sweet, tangy, effervescent beverage. Tepache has pre-Hispanic origins and is popular as a refreshing street drink.",
+          es: "Tepache es una bebida fermentada mexicana tradicional hecha de cáscaras de piña, piloncillo (azúcar de caña sin refinar) y especias como canela y clavo. Se fermenta ligeramente durante 2-3 días, resultando en una bebida ligeramente alcohólica (2-3% ABV), dulce, ácida y efervescente. Tepache tiene orígenes prehispánicos y es popular como bebida refrescante callejera.",
+          de: "Tepache ist ein traditionelles mexikanisches fermentiertes Getränk aus Ananasschalen, Piloncillo (unraffinierter Rohrzucker) und Gewürzen wie Zimt und Nelken. Es wird 2-3 Tage leicht fermentiert, was zu einem leicht alkoholischen (2-3% ABV), süßen, würzigen, sprudelnden Getränk führt. Tepache hat prähispanische Ursprünge und ist als erfrischendes Straßengetränk beliebt.",
+          nl: "Tepache is een traditionele Mexicaanse gefermenteerde drank gemaakt van ananas schillen, piloncillo (ongeraffineerde rietsuiker) en kruiden zoals kaneel en kruidnagel. Het wordt 2-3 dagen licht gefermenteerd, resulterend in een licht alcoholische (2-3% ABV), zoete, pittige, bruisende drank. Tepache heeft pre-Spaanse oorsprong en is populair als verfrissende straatdrank."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional American apple cider that is unfiltered and unpasteurized called?",
+          es: "¿Cómo se llama la sidra de manzana americana tradicional sin filtrar y sin pasteurizar?",
+          de: "Wie heißt der traditionelle amerikanische Apfelmost, der ungefiltert und unpasteurisiert ist?",
+          nl: "Hoe heet de traditionele Amerikaanse appelcider die ongefilterd en ongepasteuriseerd is?"
+        },
+        options: [
+          {
+            en: "Fresh cider",
+            es: "Sidra fresca",
+            de: "Frischer Most",
+            nl: "Verse cider"
+          },
+          {
+            en: "Sweet cider",
+            es: "Sidra dulce",
+            de: "Süßer Most",
+            nl: "Zoete cider"
+          },
+          {
+            en: "Hard cider",
+            es: "Sidra dura",
+            de: "Harter Most",
+            nl: "Harde cider"
+          },
+          {
+            en: "Apple juice",
+            es: "Jugo de manzana",
+            de: "Apfelsaft",
+            nl: "Appelsap"
+          }
+        },
+        correct: 1,
+        explanation: {
+          en: "Sweet cider (or fresh cider) is traditional American unfiltered, unpasteurized apple juice that retains the natural apple sediment. It's non-alcoholic, cloudy, and has a rich apple flavor. In the US, 'cider' without 'hard' modifier means sweet cider, while 'hard cider' refers to the alcoholic fermented version. Sweet cider is especially popular in autumn during apple harvest season.",
+          es: "La sidra dulce (o sidra fresca) es jugo de manzana americano tradicional sin filtrar, sin pasteurizar que retiene el sedimento natural de manzana. No es alcohólica, turbia y tiene un rico sabor a manzana. En EE.UU., 'cider' sin el modificador 'hard' significa sidra dulce, mientras que 'hard cider' se refiere a la versión fermentada alcohólica. La sidra dulce es especialmente popular en otoño durante la temporada de cosecha de manzanas.",
+          de: "Süßer Most (oder frischer Most) ist traditioneller amerikanischer ungefilterter, unpasteurisierter Apfelsaft, der das natürliche Apfelsediment behält. Er ist nicht alkoholisch, trüb und hat einen reichen Apfelgeschmack. In den USA bedeutet 'Cider' ohne 'Hard'-Zusatz süßer Most, während 'Hard Cider' sich auf die alkoholische fermentierte Version bezieht. Süßer Most ist besonders im Herbst während der Apfelernte beliebt.",
+          nl: "Zoete cider (of verse cider) is traditionele Amerikaanse ongefilterd, ongepasteuriseerd appelsap dat het natuurlijke appel sediment behoudt. Het is niet-alcoholisch, troebel en heeft een rijke appelsmaak. In de VS betekent 'cider' zonder 'hard' toevoeging zoete cider, terwijl 'hard cider' verwijst naar de alcoholische gefermenteerde versie. Zoete cider is vooral populair in de herfst tijdens het appeloogst seizoen."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional Mexican drink made from hibiscus flowers called?",
+          es: "¿Cómo se llama la bebida mexicana tradicional hecha de flores de jamaica?",
+          de: "Wie heißt das traditionelle mexikanische Getränk aus Hibiskusblüten?",
+          nl: "Hoe heet de traditionele Mexicaanse drank gemaakt van hibiscus bloemen?"
+        },
+        options: [
+          {
+            en: "Agua de jamaica",
+            es: "Agua de jamaica",
+            de: "Agua de Jamaica",
+            nl: "Agua de jamaica"
+          },
+          {
+            en: "Agua de horchata",
+            es: "Agua de horchata",
+            de: "Agua de Horchata",
+            nl: "Agua de horchata"
+          },
+          {
+            en: "Agua de tamarindo",
+            es: "Agua de tamarindo",
+            de: "Agua de Tamarindo",
+            nl: "Agua de tamarindo"
+          },
+          {
+            en: "Agua fresca",
+            es: "Agua fresca",
+            de: "Agua Fresca",
+            nl: "Agua fresca"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Agua de jamaica is a traditional Mexican drink made from dried hibiscus flowers (Hibiscus sabdariffa), water, and sugar. Despite the name 'jamaica' (pronounced ha-MY-ca), it has no relation to the Caribbean island. The drink is deep red, tart, and refreshing, rich in vitamin C and antioxidants. It's one of the most popular aguas frescas in Mexico.",
+          es: "Agua de jamaica es una bebida mexicana tradicional hecha de flores de jamaica secas (Hibiscus sabdariffa), agua y azúcar. A pesar del nombre 'jamaica' (pronunciado ha-MAI-ca), no tiene relación con la isla caribeña. La bebida es rojo oscuro, ácida y refrescante, rica en vitamina C y antioxidantes. Es una de las aguas frescas más populares en México.",
+          de: "Agua de jamaica ist ein traditionelles mexikanisches Getränk aus getrockneten Hibiskusblüten (Hibiscus sabdariffa), Wasser und Zucker. Trotz des Namens 'Jamaica' (ausgesprochen ha-MY-ca) hat es keine Beziehung zur karibischen Insel. Das Getränk ist tiefrot, herb und erfrischend, reich an Vitamin C und Antioxidantien. Es ist eines der beliebtesten Aguas Frescas in Mexiko.",
+          nl: "Agua de jamaica is een traditionele Mexicaanse drank gemaakt van gedroogde hibiscus bloemen (Hibiscus sabdariffa), water en suiker. Ondanks de naam 'jamaica' (uitgesproken als ha-MY-ca), heeft het geen relatie met het Caribisch eiland. De drank is diep rood, zuur en verfrissend, rijk aan vitamine C en antioxidanten. Het is een van de meest populaire aguas frescas in Mexico."
+        }
+      }
     ]
   };
 

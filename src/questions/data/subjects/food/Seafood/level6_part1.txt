@@ -1,0 +1,423 @@
+// Seafood Quiz - Level 6 - Part 1 (Questions 1-20)
+// Theme: Sustainable fishing, fish anatomy, basic cooking techniques
+
+{
+  question: {
+    en: "What is the main indicator of freshness in whole fish?",
+    es: "¿Cuál es el principal indicador de frescura en pescado entero?",
+    de: "Was ist der Hauptindikator für Frische bei ganzem Fisch?",
+    nl: "Wat is de belangrijkste indicator van versheid bij hele vis?"
+  },
+  options: [
+    { en: "Clear, bright eyes and firm flesh that springs back when pressed", es: "Ojos claros y brillantes y carne firme que rebota al presionarla", de: "Klare, helle Augen und festes Fleisch, das beim Drücken zurückfedert", nl: "Heldere, glanzende ogen en stevig vlees dat terugveert bij druk" },
+    { en: "Strong fishy smell", es: "Fuerte olor a pescado", de: "Starker Fischgeruch", nl: "Sterke vislucht" },
+    { en: "Cloudy eyes", es: "Ojos nublados", de: "Trübe Augen", nl: "Troebele ogen" },
+    { en: "Slimy texture", es: "Textura viscosa", de: "Schleimige Textur", nl: "Slijmerige textuur" }
+  ],
+  correct: 0,
+  explanation: {
+    en: "Fresh fish has clear, bright, bulging eyes with black pupils, firm flesh that springs back when pressed, bright red or pink gills, and a mild ocean smell. Cloudy sunken eyes, strong fishy odor, and soft flesh indicate the fish is not fresh.",
+    es: "El pescado fresco tiene ojos claros, brillantes y saltones con pupilas negras, carne firme que rebota al presionarla, branquias rojas o rosadas brillantes, y un suave olor a océano. Ojos nublados y hundidos, olor fuerte a pescado y carne blanda indican que el pescado no está fresco.",
+    de: "Frischer Fisch hat klare, helle, pralle Augen mit schwarzen Pupillen, festes Fleisch, das beim Drücken zurückfedert, hellrote oder rosa Kiemen und einen milden Meeresgeruch. Trübe, eingefallene Augen, starker Fischgeruch und weiches Fleisch zeigen an, dass der Fisch nicht frisch ist.",
+    nl: "Verse vis heeft heldere, glanzende, uitpuilende ogen met zwarte pupillen, stevig vlees dat terugveert bij druk, helderrode of roze kieuwen, en een milde oceaangeur. Troebele, ingevallen ogen, sterke vislucht en zacht vlees geven aan dat de vis niet vers is."
+  }
+},
+{
+  question: {
+    en: "What does MSC certification on seafood indicate?",
+    es: "¿Qué indica la certificación MSC en mariscos?",
+    de: "Was zeigt die MSC-Zertifizierung bei Meeresfrüchten an?",
+    nl: "Wat geeft MSC-certificering op zeevruchten aan?"
+  },
+  options: [
+    { en: "The seafood comes from sustainable, well-managed fisheries", es: "Los mariscos provienen de pesquerías sostenibles y bien gestionadas", de: "Die Meeresfrüchte stammen aus nachhaltigen, gut verwalteten Fischereien", nl: "De zeevruchten komen van duurzame, goed beheerde visserijen" },
+    { en: "The seafood is organic", es: "Los mariscos son orgánicos", de: "Die Meeresfrüchte sind biologisch", nl: "De zeevruchten zijn biologisch" },
+    { en: "The seafood is frozen", es: "Los mariscos están congelados", de: "Die Meeresfrüchte sind gefroren", nl: "De zeevruchten zijn bevroren" },
+    { en: "The seafood contains no mercury", es: "Los mariscos no contienen mercurio", de: "Die Meeresfrüchte enthalten kein Quecksilber", nl: "De zeevruchten bevatten geen kwik" }
+  ],
+  correct: 0,
+  explanation: {
+    en: "MSC (Marine Stewardship Council) certification indicates that seafood comes from fisheries that meet rigorous sustainability standards: healthy fish stocks, minimal environmental impact, and effective management. This blue label helps consumers make environmentally responsible seafood choices.",
+    es: "La certificación MSC (Marine Stewardship Council) indica que los mariscos provienen de pesquerías que cumplen con rigurosos estándares de sostenibilidad: poblaciones de peces saludables, impacto ambiental mínimo y gestión efectiva. Esta etiqueta azul ayuda a los consumidores a tomar decisiones ambientalmente responsables sobre mariscos.",
+    de: "Die MSC-Zertifizierung (Marine Stewardship Council) zeigt an, dass Meeresfrüchte aus Fischereien stammen, die strenge Nachhaltigkeitsstandards erfüllen: gesunde Fischbestände, minimale Umweltauswirkungen und effektives Management. Dieses blaue Label hilft Verbrauchern, umweltbewusste Meeresfrüchte-Entscheidungen zu treffen.",
+    nl: "MSC-certificering (Marine Stewardship Council) geeft aan dat zeevruchten afkomstig zijn van visserijen die voldoen aan strenge duurzaamheidsnormen: gezonde visbestanden, minimale milieu-impact en effectief beheer. Dit blauwe label helpt consumenten milieubewuste keuzes te maken bij zeevruchten."
+  }
+},
+{
+  question: {
+    en: "What is the white protein substance that appears on salmon when cooking?",
+    es: "¿Qué es la sustancia proteica blanca que aparece en el salmón al cocinarlo?",
+    de: "Was ist die weiße Proteinsubstanz, die beim Kochen von Lachs erscheint?",
+    nl: "Wat is de witte eiwitstof die verschijnt op zalm tijdens het koken?"
+  },
+  options: [
+    { en: "Albumin, a harmless protein that coagulates when heated", es: "Albúmina, una proteína inofensiva que se coagula al calentarse", de: "Albumin, ein harmloses Protein, das beim Erhitzen gerinnt", nl: "Albumine, een onschadelijk eiwit dat stolt bij verhitting" },
+    { en: "Fat from the fish", es: "Grasa del pescado", de: "Fett vom Fisch", nl: "Vet van de vis" },
+    { en: "A sign of spoiled fish", es: "Una señal de pescado echado a perder", de: "Ein Zeichen für verdorbenen Fisch", nl: "Een teken van bedorven vis" },
+    { en: "Mercury contamination", es: "Contaminación por mercurio", de: "Quecksilberkontamination", nl: "Kwikverontreiniging" }
+  ],
+  correct: 0,
+  explanation: {
+    en: "The white substance is albumin, a water-soluble protein naturally present in fish muscle. When salmon is cooked (especially at high heat or overcooked), albumin coagulates and is pushed to the surface. It's completely harmless and edible. Cooking at lower temperatures (120-140°F/49-60°C) minimizes albumin release.",
+    es: "La sustancia blanca es albúmina, una proteína soluble en agua naturalmente presente en el músculo del pescado. Cuando el salmón se cocina (especialmente a fuego alto o sobrecocido), la albúmina se coagula y se empuja a la superficie. Es completamente inofensiva y comestible. Cocinar a temperaturas más bajas (120-140°F/49-60°C) minimiza la liberación de albúmina.",
+    de: "Die weiße Substanz ist Albumin, ein wasserlösliches Protein, das natürlich im Fischmuskel vorhanden ist. Wenn Lachs gekocht wird (besonders bei hoher Hitze oder zu lange gekocht), gerinnt Albumin und wird an die Oberfläche gedrückt. Es ist völlig harmlos und essbar. Kochen bei niedrigeren Temperaturen (49-60°C) minimiert die Albuminfreisetzung.",
+    nl: "De witte substantie is albumine, een wateroplosbaar eiwit dat van nature aanwezig is in visspier. Wanneer zalm wordt gekookt (vooral op hoge temperatuur of te lang), stolt albumine en wordt naar het oppervlak geduwd. Het is volledig onschadelijk en eetbaar. Koken op lagere temperaturen (49-60°C) minimaliseert albumine afgifte."
+  }
+},
+{
+  question: {
+    en: "What is the purpose of brining fish before cooking?",
+    es: "¿Cuál es el propósito de salar pescado antes de cocinarlo?",
+    de: "Was ist der Zweck des Salzens von Fisch vor dem Kochen?",
+    nl: "Wat is het doel van het pekelen van vis voor het koken?"
+  },
+  options: [
+    { en: "To season throughout, retain moisture, and create firmer texture", es: "Para sazonar completamente, retener humedad y crear textura más firme", de: "Um durchgehend zu würzen, Feuchtigkeit zu bewahren und festere Textur zu schaffen", nl: "Om volledig op smaak te brengen, vocht vast te houden en stevigere textuur te creëren" },
+    { en: "To make fish taste saltier", es: "Para hacer que el pescado sepa más salado", de: "Um Fisch salziger zu machen", nl: "Om vis zoutiger te laten smaken" },
+    { en: "To speed up cooking time", es: "Para acelerar el tiempo de cocción", de: "Um Kochzeit zu verkürzen", nl: "Om kooktijd te versnellen" },
+    { en: "To change the color", es: "Para cambiar el color", de: "Um die Farbe zu ändern", nl: "Om de kleur te veranderen" }
+  ],
+  correct: 0,
+  explanation: {
+    en: "Brining fish (soaking in salt water solution, typically 5-10% salt for 15-30 minutes) serves multiple purposes: salt penetrates the flesh for even seasoning, protein denaturation helps retain moisture during cooking, and the texture becomes firmer and more resilient. A basic brine is 1/4 cup salt per quart of water. Sugar can be added for balance.",
+    es: "Salar pescado (remojar en solución de agua salada, típicamente 5-10% de sal durante 15-30 minutos) tiene múltiples propósitos: la sal penetra la carne para un sazonado uniforme, la desnaturalización de proteínas ayuda a retener humedad durante la cocción, y la textura se vuelve más firme y resistente. Una salmuera básica es 1/4 taza de sal por litro de agua. Se puede añadir azúcar para equilibrio.",
+    de: "Das Salzen von Fisch (Einweichen in Salzwasserlösung, typischerweise 5-10% Salz für 15-30 Minuten) dient mehreren Zwecken: Salz dringt ins Fleisch ein für gleichmäßige Würzung, Proteindenaturierung hilft Feuchtigkeit beim Kochen zu bewahren, und die Textur wird fester und widerstandsfähiger. Eine grundlegende Salzlake ist 60g Salz pro Liter Wasser. Zucker kann für Balance hinzugefügt werden.",
+    nl: "Pekelen van vis (weken in zoutwater oplossing, meestal 5-10% zout gedurende 15-30 minuten) dient meerdere doelen: zout dringt het vlees binnen voor gelijkmatige kruiding, eiwit denaturatie helpt vocht vast te houden tijdens koken, en de textuur wordt steviger en veerkrachtiger. Een basis pekel is 60g zout per liter water. Suiker kan worden toegevoegd voor balans."
+  }
+},
+{
+  question: {
+    en: "What is the '10-minute rule' for cooking fish?",
+    es: "¿Qué es la 'regla de 10 minutos' para cocinar pescado?",
+    de: "Was ist die '10-Minuten-Regel' für das Kochen von Fisch?",
+    nl: "Wat is de '10-minuten regel' voor het koken van vis?"
+  },
+  options: [
+    { en: "Cook fish 10 minutes per inch of thickness at 450°F, measured at the thickest point", es: "Cocinar pescado 10 minutos por pulgada de grosor a 450°F, medido en el punto más grueso", de: "Fisch 10 Minuten pro Zoll Dicke bei 230°C kochen, am dicksten Punkt gemessen", nl: "Kook vis 10 minuten per inch dikte bij 230°C, gemeten op het dikste punt" },
+    { en: "Always cook fish for exactly 10 minutes", es: "Siempre cocinar pescado exactamente 10 minutos", de: "Fisch immer genau 10 Minuten kochen", nl: "Kook vis altijd precies 10 minuten" },
+    { en: "Let fish rest 10 minutes before serving", es: "Dejar reposar el pescado 10 minutos antes de servir", de: "Fisch 10 Minuten ruhen lassen vor dem Servieren", nl: "Laat vis 10 minuten rusten voor het serveren" },
+    { en: "Marinate fish for 10 minutes", es: "Marinar pescado durante 10 minutos", de: "Fisch 10 Minuten marinieren", nl: "Marineer vis gedurende 10 minuten" }
+  ],
+  correct: 0,
+  explanation: {
+    en: "The Canadian 10-minute rule states: measure fish at its thickest point and cook 10 minutes per inch (2.5 cm) of thickness at 450°F (230°C), turning halfway through if not baking. For example, a 1-inch thick fillet cooks 10 minutes, a 2-inch thick piece cooks 20 minutes. This works for most cooking methods. Fish is done when it reaches 145°F (63°C) internal temperature and flakes easily.",
+    es: "La regla canadiense de 10 minutos establece: medir el pescado en su punto más grueso y cocinar 10 minutos por pulgada (2.5 cm) de grosor a 450°F (230°C), volteando a la mitad si no se hornea. Por ejemplo, un filete de 1 pulgada de grosor se cocina 10 minutos, una pieza de 2 pulgadas se cocina 20 minutos. Esto funciona para la mayoría de métodos de cocción. El pescado está listo cuando alcanza 145°F (63°C) de temperatura interna y se desmenuza fácilmente.",
+    de: "Die kanadische 10-Minuten-Regel besagt: Fisch am dicksten Punkt messen und 10 Minuten pro Zoll (2,5 cm) Dicke bei 230°C kochen, zur Hälfte wenden wenn nicht im Ofen. Zum Beispiel kocht ein 2,5 cm dickes Filet 10 Minuten, ein 5 cm dickes Stück 20 Minuten. Dies funktioniert für die meisten Kochmethoden. Fisch ist fertig bei 63°C Innentemperatur und lässt sich leicht in Flocken teilen.",
+    nl: "De Canadese 10-minuten regel stelt: meet vis op het dikste punt en kook 10 minuten per inch (2,5 cm) dikte bij 230°C, halverwege omdraaien indien niet bakken. Bijvoorbeeld, een 2,5 cm dik filet kookt 10 minuten, een 5 cm dik stuk kookt 20 minuten. Dit werkt voor de meeste kookmethoden. Vis is klaar bij 63°C interne temperatuur en valt gemakkelijk in vlokken."
+  }
+},
+{
+  question: {
+    en: "What distinguishes wild-caught salmon from farmed salmon in appearance?",
+    es: "¿Qué distingue el salmón salvaje del salmón de granja en apariencia?",
+    de: "Was unterscheidet Wildlachs von Zuchtlachs im Aussehen?",
+    nl: "Wat onderscheidt in het wild gevangen zalm van gekweekte zalm in uiterlijk?"
+  },
+  options: [
+    { en: "Wild salmon has deeper red color from natural astaxanthin in diet and leaner fat content with thinner white lines", es: "El salmón salvaje tiene color rojo más profundo por astaxantina natural en dieta y contenido de grasa más magro con líneas blancas más delgadas", de: "Wildlachs hat tiefere rote Farbe von natürlichem Astaxanthin in Ernährung und magereren Fettgehalt mit dünneren weißen Linien", nl: "Wilde zalm heeft diepere rode kleur van natuurlijke astaxanthine in dieet en magerder vetgehalte met dunnere witte lijnen" },
+    { en: "Wild salmon is always gray", es: "El salmón salvaje siempre es gris", de: "Wildlachs ist immer grau", nl: "Wilde zalm is altijd grijs" },
+    { en: "No visual difference", es: "Sin diferencia visual", de: "Kein visueller Unterschied", nl: "Geen visueel verschil" },
+    { en: "Farmed salmon is darker", es: "El salmón de granja es más oscuro", de: "Zuchtlachs ist dunkler", nl: "Gekweekte zalm is donkerder" }
+  ],
+  correct: 0,
+  explanation: {
+    en: "Wild salmon has deeper, more vibrant red-orange color from natural astaxanthin (carotenoid from eating krill and shrimp), leaner flesh with thinner white fat marbling, and firmer texture from swimming in ocean currents. Farmed salmon is paler pink (unless fed astaxanthin supplements), has thicker white fat lines from less exercise and higher-fat feed, and softer texture.",
+    es: "El salmón salvaje tiene color rojo-naranja más profundo y vibrante por astaxantina natural (carotenoide de comer krill y camarones), carne más magra con vetas blancas de grasa más delgadas, y textura más firme por nadar en corrientes oceánicas. El salmón de granja es rosa más pálido (a menos que se alimente con suplementos de astaxantina), tiene líneas blancas de grasa más gruesas por menos ejercicio y alimento con más grasa, y textura más suave.",
+    de: "Wildlachs hat tiefere, lebendigere rot-orange Farbe von natürlichem Astaxanthin (Carotinoid vom Fressen von Krill und Garnelen), magereres Fleisch mit dünnerer weißer Fettmarmorierung, und festere Textur vom Schwimmen in Meeresströmungen. Zuchtlachs ist blasser rosa (außer mit Astaxanthin-Zusätzen gefüttert), hat dickere weiße Fettlinien von weniger Bewegung und fettreichem Futter, und weichere Textur.",
+    nl: "Wilde zalm heeft diepere, levendigere rood-oranje kleur van natuurlijke astaxanthine (carotenoïde van het eten van krill en garnalen), magerder vlees met dunnere witte vet marmerering, en stevigere textuur van zwemmen in oceaanstromingen. Gekweekte zalm is bleker roze (tenzij gevoerd met astaxanthine supplementen), heeft dikkere witte vetlijnen van minder beweging en vetrijker voer, en zachtere textuur."
+  }
+},
+{
+  question: {
+    en: "What is the function of fish scales?",
+    es: "¿Cuál es la función de las escamas de pescado?",
+    de: "Was ist die Funktion von Fischschuppen?",
+    nl: "Wat is de functie van visschubben?"
+  },
+  options: [
+    { en: "Protection from parasites, predators, and physical damage while reducing water resistance", es: "Protección contra parásitos, depredadores y daño físico mientras reduce resistencia al agua", de: "Schutz vor Parasiten, Raubtieren und physischen Schäden während Verringerung des Wasserwiderstands", nl: "Bescherming tegen parasieten, roofdieren en fysieke schade terwijl waterweerstand vermindert" },
+    { en: "Only for decoration", es: "Solo para decoración", de: "Nur zur Dekoration", nl: "Alleen voor decoratie" },
+    { en: "To help fish breathe", es: "Para ayudar al pescado a respirar", de: "Um Fischen beim Atmen zu helfen", nl: "Om vissen te helpen ademen" },
+    { en: "To regulate body temperature", es: "Para regular temperatura corporal", de: "Um Körpertemperatur zu regulieren", nl: "Om lichaamstemperatuur te reguleren" }
+  ],
+  correct: 0,
+  explanation: {
+    en: "Fish scales serve multiple protective functions: they create a flexible armor against parasites, bacteria, and predator attacks; protect skin from physical damage; and their overlapping structure (like roof tiles) creates a smooth surface that reduces water resistance while swimming. Scales also help retain moisture and electrolyte balance. Scale types include cycloid (smooth), ctenoid (rough), placoid (shark), and ganoid (gar).",
+    es: "Las escamas de pescado tienen múltiples funciones protectoras: crean una armadura flexible contra parásitos, bacterias y ataques de depredadores; protegen la piel de daño físico; y su estructura superpuesta (como tejas) crea una superficie lisa que reduce resistencia al agua mientras nadan. Las escamas también ayudan a retener humedad y equilibrio de electrolitos. Tipos de escamas incluyen cicloides (lisas), ctenoides (ásperas), placoides (tiburón) y ganoides (pejelagarto).",
+    de: "Fischschuppen dienen mehreren Schutzfunktionen: sie schaffen flexible Rüstung gegen Parasiten, Bakterien und Raubtierangriffe; schützen Haut vor physischen Schäden; und ihre überlappende Struktur (wie Dachziegel) schafft glatte Oberfläche, die Wasserwiderstand beim Schwimmen reduziert. Schuppen helfen auch Feuchtigkeit und Elektrolytbalance zu bewahren. Schuppentypen umfassen Cycloid (glatt), Ctenoid (rau), Placoid (Hai) und Ganoid (Knochenhecht).",
+    nl: "Visschubben dienen meerdere beschermende functies: ze creëren flexibel pantser tegen parasieten, bacteriën en roofdieraanvallen; beschermen huid tegen fysieke schade; en hun overlappende structuur (zoals dakpannen) creëert glad oppervlak dat waterweerstand vermindert tijdens zwemmen. Schubben helpen ook vocht en elektrolyt balans te behouden. Schubben types zijn cycloid (glad), ctenoid (ruw), placoid (haai) en ganoid (beensnoekvissen)."
+  }
+},
+{
+  question: {
+    en: "Why should fish be patted dry before pan-searing?",
+    es: "¿Por qué se debe secar el pescado antes de sellarlo en sartén?",
+    de: "Warum sollte Fisch vor dem Anbraten trocken getupft werden?",
+    nl: "Waarom moet vis drooggedept worden voor het aanbraden?"
+  },
+  options: [
+    { en: "Moisture prevents proper browning (Maillard reaction) and causes steaming instead of searing, resulting in poor crust", es: "La humedad previene dorado adecuado (reacción de Maillard) y causa vaporización en lugar de sellado, resultando en corteza pobre", de: "Feuchtigkeit verhindert richtiges Bräunen (Maillard-Reaktion) und verursacht Dämpfen statt Anbraten, was zu schlechter Kruste führt", nl: "Vocht verhindert goed bruinen (Maillard reactie) en veroorzaakt stomen in plaats van aanbraden, resulterend in slechte korst" },
+    { en: "To remove flavor", es: "Para quitar sabor", de: "Um Geschmack zu entfernen", nl: "Om smaak te verwijderen" },
+    { en: "Makes fish cook faster", es: "Hace que el pescado se cocine más rápido", de: "Lässt Fisch schneller kochen", nl: "Laat vis sneller koken" },
+    { en: "Prevents sticking only", es: "Solo previene que se pegue", de: "Verhindert nur Anhaften", nl: "Voorkomt alleen plakken" }
+  ],
+  correct: 0,
+  explanation: {
+    en: "Surface moisture must be removed before searing to achieve proper browning. Water on fish surface must first evaporate (at 212°F/100°C) before Maillard reaction begins (300°F/150°C). Wet fish steams instead of sears, resulting in pale, rubbery exterior. Pat fish completely dry with paper towels, season, then immediately place skin-side down in hot oil. This creates crispy, golden-brown crust while keeping interior moist.",
+    es: "La humedad superficial debe eliminarse antes de sellar para lograr dorado adecuado. El agua en la superficie del pescado debe primero evaporarse (a 212°F/100°C) antes de que comience la reacción de Maillard (300°F/150°C). El pescado húmedo se vaporiza en lugar de sellarse, resultando en exterior pálido y gomoso. Seque completamente el pescado con toallas de papel, sazone, luego coloque inmediatamente con piel hacia abajo en aceite caliente. Esto crea corteza crujiente y dorada mientras mantiene el interior húmedo.",
+    de: "Oberflächenfeuchtigkeit muss vor dem Anbraten entfernt werden, um richtiges Bräunen zu erreichen. Wasser auf Fischoberfläche muss zuerst verdampfen (bei 100°C) bevor Maillard-Reaktion beginnt (150°C). Nasser Fisch dämpft statt anbrät, was zu blasem, gummiartigem Äußeren führt. Fisch vollständig mit Papiertüchern trocken tupfen, würzen, dann sofort mit Hautseite nach unten in heißes Öl legen. Dies schafft knusprige, goldbraune Kruste während Inneres feucht bleibt.",
+    nl: "Oppervlakte vocht moet worden verwijderd voor aanbraden om goed bruinen te bereiken. Water op vis oppervlak moet eerst verdampen (bij 100°C) voordat Maillard reactie begint (150°C). Natte vis stoomt in plaats van aanbraden, resulterend in bleek, rubberachtig buitenkant. Dep vis volledig droog met keukenpapier, kruid, plaats dan onmiddellijk met vel naar beneden in hete olie. Dit creëert knapperige, goudbruine korst terwijl binnenkant vochtig blijft."
+  }
+},
+{
+  question: {
+    en: "What causes the 'fishy' smell in older seafood?",
+    es: "¿Qué causa el olor 'a pescado' en mariscos viejos?",
+    de: "Was verursacht den 'fischigen' Geruch in älteren Meeresfrüchten?",
+    nl: "Wat veroorzaakt de 'visachtige' geur in oudere zeevruchten?"
+  },
+  options: [
+    { en: "Breakdown of trimethylamine oxide (TMAO) into trimethylamine (TMA) by bacterial enzymes", es: "Descomposición de óxido de trimetilamina (TMAO) en trimetilamina (TMA) por enzimas bacterianas", de: "Abbau von Trimethylaminoxid (TMAO) zu Trimethylamin (TMA) durch bakterielle Enzyme", nl: "Afbraak van trimethylamine oxide (TMAO) naar trimethylamine (TMA) door bacteriële enzymen" },
+    { en: "Natural oils in fish", es: "Aceites naturales en pescado", de: "Natürliche Öle in Fisch", nl: "Natuurlijke oliën in vis" },
+    { en: "Salt water residue", es: "Residuo de agua salada", de: "Salzwasserrückstand", nl: "Zout water residu" },
+    { en: "Fish scales decomposing", es: "Escamas de pescado descomponiéndose", de: "Fischschuppen zersetzend", nl: "Visschubben ontbindend" }
+  ],
+  correct: 0,
+  explanation: {
+    en: "Fresh fish contains trimethylamine oxide (TMAO), an odorless compound that helps marine fish regulate osmotic pressure. After death, bacterial enzymes convert TMAO into trimethylamine (TMA), a volatile compound with characteristic 'fishy' ammonia-like smell. Fresh fish has minimal TMA and smells mildly of ocean/seaweed. Strong fishy odor indicates bacterial growth and spoilage. Proper cold storage (32-39°F/0-4°C) slows this conversion.",
+    es: "El pescado fresco contiene óxido de trimetilamina (TMAO), un compuesto inodoro que ayuda a los peces marinos a regular la presión osmótica. Después de la muerte, las enzimas bacterianas convierten TMAO en trimetilamina (TMA), un compuesto volátil con olor característico 'a pescado' similar al amoníaco. El pescado fresco tiene TMA mínimo y huele suavemente a océano/algas. Olor fuerte a pescado indica crecimiento bacteriano y deterioro. Almacenamiento frío adecuado (32-39°F/0-4°C) ralentiza esta conversión.",
+    de: "Frischer Fisch enthält Trimethylaminoxid (TMAO), eine geruchlose Verbindung, die Meeresfischen hilft, osmotischen Druck zu regulieren. Nach dem Tod wandeln bakterielle Enzyme TMAO in Trimethylamin (TMA) um, eine flüchtige Verbindung mit charakteristischem 'fischigem' ammoniakähnlichem Geruch. Frischer Fisch hat minimales TMA und riecht mild nach Ozean/Seetang. Starker Fischgeruch zeigt bakterielles Wachstum und Verderb an. Richtige Kühllagerung (0-4°C) verlangsamt diese Umwandlung.",
+    nl: "Verse vis bevat trimethylamine oxide (TMAO), een geurloze verbinding die mariene vissen helpt osmotische druk te reguleren. Na de dood zetten bacteriële enzymen TMAO om in trimethylamine (TMA), een vluchtige verbinding met karakteristieke 'visachtige' ammonia-achtige geur. Verse vis heeft minimale TMA en ruikt mild naar oceaan/zeewier. Sterke visgeur duidt op bacteriële groei en bederf. Juiste koude opslag (0-4°C) vertraagt deze omzetting."
+  }
+},
+{
+  question: {
+    en: "What is the purpose of scoring fish skin before cooking?",
+    es: "¿Cuál es el propósito de marcar la piel del pescado antes de cocinarlo?",
+    de: "Was ist der Zweck des Einschneidens der Fischhaut vor dem Kochen?",
+    nl: "Wat is het doel van het inkerven van visvel voor het koken?"
+  },
+  options: [
+    { en: "Prevents curling by releasing tension and allows fat to render out for crispier skin", es: "Previene que se curve liberando tensión y permite que la grasa se derrita para piel más crujiente", de: "Verhindert Einrollen durch Freigabe von Spannung und ermöglicht Fett auszutreten für knusprigere Haut", nl: "Voorkomt krullen door spanning vrij te maken en laat vet eruit renderen voor knapperiger vel" },
+    { en: "Only for decoration", es: "Solo para decoración", de: "Nur zur Dekoration", nl: "Alleen voor decoratie" },
+    { en: "To remove scales", es: "Para quitar escamas", de: "Um Schuppen zu entfernen", nl: "Om schubben te verwijderen" },
+    { en: "Makes fish cook faster", es: "Hace que el pescado se cocine más rápido", de: "Lässt Fisch schneller kochen", nl: "Laat vis sneller koken" }
+  ],
+  correct: 0,
+  explanation: {
+    en: "Scoring fish skin (making shallow diagonal cuts 1-2 inches apart, not cutting into flesh) serves two purposes: 1) Releases tension that causes skin to contract and curl when heated, keeping fillet flat for even cooking. 2) Allows subcutaneous fat to render out, resulting in crispier skin. Score particularly thick-skinned fish like sea bass, snapper, or mackerel. Place skin-side down in hot pan without moving for crispy results.",
+    es: "Marcar la piel del pescado (hacer cortes diagonales superficiales separados 2.5-5 cm, sin cortar la carne) tiene dos propósitos: 1) Libera tensión que causa que la piel se contraiga y se curve al calentarse, manteniendo el filete plano para cocción uniforme. 2) Permite que la grasa subcutánea se derrita, resultando en piel más crujiente. Marque especialmente pescados con piel gruesa como lubina, pargo o caballa. Coloque con piel hacia abajo en sartén caliente sin mover para resultados crujientes.",
+    de: "Einschneiden der Fischhaut (flache diagonale Schnitte 2,5-5 cm auseinander machen, nicht ins Fleisch schneiden) dient zwei Zwecken: 1) Setzt Spannung frei, die Haut beim Erhitzen zusammenziehen und einrollen lässt, hält Filet flach für gleichmäßiges Kochen. 2) Ermöglicht subkutanes Fett auszutreten, was zu knusprigerer Haut führt. Schneiden Sie besonders dickhäutige Fische wie Seebarsch, Schnapper oder Makrele ein. Mit Hautseite nach unten in heißer Pfanne ohne Bewegen für knusprige Ergebnisse platzieren.",
+    nl: "Inkerven van visvel (ondiepe diagonale sneden maken 2,5-5 cm uit elkaar, niet in vlees snijden) dient twee doelen: 1) Maakt spanning vrij die vel doet krimpen en krullen bij verhitting, houdt filet plat voor gelijkmatig koken. 2) Laat onderhuidse vet eruit renderen, resulterend in knapperiger vel. Kerf vooral dikke vel vissen zoals zeebaars, snapper of makreel in. Plaats met vel naar beneden in hete pan zonder bewegen voor knapperige resultaten."
+  }
+},
+{
+  question: {
+    en: "What does 'sushi-grade' or 'sashimi-grade' fish actually mean?",
+    es: "¿Qué significa realmente pescado de 'grado sushi' o 'grado sashimi'?",
+    de: "Was bedeutet 'Sushi-Qualität' oder 'Sashimi-Qualität' Fisch tatsächlich?",
+    nl: "Wat betekent 'sushi-kwaliteit' of 'sashimi-kwaliteit' vis eigenlijk?"
+  },
+  options: [
+    { en: "Marketing term for highest quality fish that has been frozen to kill parasites, meeting FDA guidelines for raw consumption", es: "Término de marketing para pescado de máxima calidad que ha sido congelado para matar parásitos, cumpliendo con pautas de FDA para consumo crudo", de: "Marketingbegriff für hochwertigsten Fisch, der gefroren wurde, um Parasiten zu töten, entspricht FDA-Richtlinien für rohen Verzehr", nl: "Marketing term voor hoogste kwaliteit vis die is bevroren om parasieten te doden, voldoet aan FDA richtlijnen voor rauwe consumptie" },
+    { en: "Official government certification", es: "Certificación gubernamental oficial", de: "Offizielle Regierungszertifizierung", nl: "Officiële overheids certificering" },
+    { en: "Fish caught in Japan only", es: "Pescado capturado solo en Japón", de: "Nur in Japan gefangener Fisch", nl: "Alleen in Japan gevangen vis" },
+    { en: "Fish that is never frozen", es: "Pescado que nunca se congela", de: "Fisch der nie gefroren wird", nl: "Vis die nooit bevroren is" }
+  ],
+  correct: 0,
+  explanation: {
+    en: "Sushi/sashimi-grade is a marketing term, not an official certification. It indicates: 1) Highest quality, freshest fish with best color, texture, fat content. 2) Previously frozen at -4°F (-20°C) for 7 days OR -31°F (-35°C) for 15 hours to kill parasites per FDA guidelines. 3) Handled with strict hygiene. Most fish (except tuna) must be frozen before raw consumption. Reputable suppliers follow these standards even without official regulation.",
+    es: "Grado sushi/sashimi es un término de marketing, no una certificación oficial. Indica: 1) Pescado de máxima calidad y más fresco con mejor color, textura, contenido de grasa. 2) Previamente congelado a -4°F (-20°C) durante 7 días O -31°F (-35°C) durante 15 horas para matar parásitos según pautas de FDA. 3) Manejado con higiene estricta. La mayoría del pescado (excepto atún) debe congelarse antes del consumo crudo. Proveedores confiables siguen estos estándares incluso sin regulación oficial.",
+    de: "Sushi/Sashimi-Qualität ist ein Marketingbegriff, keine offizielle Zertifizierung. Es zeigt an: 1) Hochwertigster, frischester Fisch mit bester Farbe, Textur, Fettgehalt. 2) Zuvor gefroren bei -20°C für 7 Tage ODER -35°C für 15 Stunden, um Parasiten gemäß FDA-Richtlinien zu töten. 3) Mit strenger Hygiene gehandhabt. Die meisten Fische (außer Thunfisch) müssen vor rohem Verzehr gefroren werden. Seriöse Lieferanten folgen diesen Standards auch ohne offizielle Regulierung.",
+    nl: "Sushi/sashimi-kwaliteit is een marketing term, geen officiële certificering. Het geeft aan: 1) Hoogste kwaliteit, verste vis met beste kleur, textuur, vetgehalte. 2) Eerder bevroren op -20°C gedurende 7 dagen OF -35°C gedurende 15 uur om parasieten te doden volgens FDA richtlijnen. 3) Behandeld met strikte hygiëne. De meeste vis (behalve tonijn) moet bevroren worden voor rauwe consumptie. Betrouwbare leveranciers volgen deze normen zelfs zonder officiële regulering."
+  }
+},
+{
+  question: {
+    en: "What is the purpose of 'curing' fish with salt and sugar?",
+    es: "¿Cuál es el propósito de 'curar' pescado con sal y azúcar?",
+    de: "Was ist der Zweck des 'Pökelns' von Fisch mit Salz und Zucker?",
+    nl: "Wat is het doel van het 'pekelen' van vis met zout en suiker?"
+  },
+  options: [
+    { en: "Draws out moisture through osmosis, inhibits bacterial growth, and adds flavor while firming texture", es: "Extrae humedad por ósmosis, inhibe crecimiento bacteriano y añade sabor mientras firma textura", de: "Zieht Feuchtigkeit durch Osmose heraus, hemmt bakterielles Wachstum und fügt Geschmack hinzu während Textur gefestigt wird", nl: "Trekt vocht eruit door osmose, remt bacteriële groei en voegt smaak toe terwijl textuur steviger wordt" },
+    { en: "Makes fish sweeter", es: "Hace que el pescado sea más dulce", de: "Macht Fisch süßer", nl: "Maakt vis zoeter" },
+    { en: "Changes fish color only", es: "Solo cambia el color del pescado", de: "Ändert nur Fischfarbe", nl: "Verandert alleen vis kleur" },
+    { en: "Speeds up cooking", es: "Acelera la cocción", de: "Beschleunigt das Kochen", nl: "Versnelt koken" }
+  ],
+  correct: 0,
+  explanation: {
+    en: "Curing (like gravlax) uses salt-sugar mixture (typically 1:1 ratio) to preserve and flavor fish. Salt draws out moisture through osmosis, creating hostile environment for bacteria while concentrating flavor. Sugar balances salt's harshness and aids protein denaturation. Process: coat fish with cure mix, refrigerate 24-48 hours weighted down, rinse, pat dry. Results in firm, translucent, intensely flavored fish. Variations add dill, citrus zest, or spirits.",
+    es: "Curar (como gravlax) usa mezcla de sal-azúcar (típicamente proporción 1:1) para preservar y dar sabor al pescado. La sal extrae humedad por ósmosis, creando ambiente hostil para bacterias mientras concentra sabor. El azúcar equilibra la dureza de la sal y ayuda a la desnaturalización de proteínas. Proceso: cubrir pescado con mezcla de curado, refrigerar 24-48 horas con peso encima, enjuagar, secar. Resulta en pescado firme, translúcido, con sabor intenso. Variaciones añaden eneldo, ralladura de cítricos o licores.",
+    de: "Pökeln (wie Gravlax) verwendet Salz-Zucker-Mischung (typischerweise 1:1 Verhältnis), um Fisch zu konservieren und zu würzen. Salz zieht Feuchtigkeit durch Osmose heraus, schafft feindliche Umgebung für Bakterien während Geschmack konzentriert wird. Zucker balanciert Salzhärte und unterstützt Proteindenaturierung. Prozess: Fisch mit Pökelmischung bedecken, 24-48 Stunden beschwert kühlen, spülen, trocken tupfen. Ergibt festen, durchscheinenden, intensiv gewürzten Fisch. Variationen fügen Dill, Zitrusschale oder Spirituosen hinzu.",
+    nl: "Pekelen (zoals gravlax) gebruikt zout-suiker mengsel (meestal 1:1 verhouding) om vis te bewaren en op smaak te brengen. Zout trekt vocht eruit door osmose, creëert vijandige omgeving voor bacteriën terwijl smaak geconcentreerd wordt. Suiker balanceert zout hardheid en helpt eiwit denaturatie. Proces: bedek vis met pekelmengsel, koel 24-48 uur belast, spoel, dep droog. Resulteert in stevige, doorschijnende, intens gearomatiseerde vis. Variaties voegen dille, citrusschil of sterke drank toe."
+  }
+},
+{
+  question: {
+    en: "Why do some fish have white flesh while others have red/dark flesh?",
+    es: "¿Por qué algunos peces tienen carne blanca mientras otros tienen carne roja/oscura?",
+    de: "Warum haben manche Fische weißes Fleisch während andere rotes/dunkles Fleisch haben?",
+    nl: "Waarom hebben sommige vissen wit vlees terwijl anderen rood/donker vlees hebben?"
+  },
+  options: [
+    { en: "Myoglobin content: active swimmers need more oxygen-carrying myoglobin in muscles, creating darker flesh", es: "Contenido de mioglobina: nadadores activos necesitan más mioglobina transportadora de oxígeno en músculos, creando carne más oscura", de: "Myoglobingehalt: aktive Schwimmer benötigen mehr sauerstofftragendes Myoglobin in Muskeln, was dunkleres Fleisch erzeugt", nl: "Myoglobine gehalte: actieve zwemmers hebben meer zuurstof-dragend myoglobine nodig in spieren, creërend donkerder vlees" },
+    { en: "Water temperature determines color", es: "La temperatura del agua determina el color", de: "Wassertemperatur bestimmt Farbe", nl: "Watertemperatuur bepaalt kleur" },
+    { en: "Age of fish only", es: "Solo la edad del pescado", de: "Nur Fischalter", nl: "Alleen leeftijd van vis" },
+    { en: "All fish start white and darken", es: "Todos los peces comienzan blancos y se oscurecen", de: "Alle Fische beginnen weiß und dunkeln", nl: "Alle vissen beginnen wit en worden donkerder" }
+  ],
+  correct: 0,
+  explanation: {
+    en: "Flesh color depends on myoglobin (oxygen-storing protein). Fast, migratory fish (tuna, mackerel, swordfish) are constant swimmers needing sustained energy, so have high myoglobin in muscles = dark red flesh. Sedentary fish (cod, halibut, flounder) use short bursts of speed, need less oxygen storage = white flesh. Salmon/trout are pink from astaxanthin carotenoids in diet, not myoglobin. Dark flesh has stronger flavor, more omega-3s, but spoils faster.",
+    es: "El color de la carne depende de la mioglobina (proteína que almacena oxígeno). Peces rápidos y migratorios (atún, caballa, pez espada) son nadadores constantes que necesitan energía sostenida, tienen alta mioglobina en músculos = carne roja oscura. Peces sedentarios (bacalao, halibut, platija) usan ráfagas cortas de velocidad, necesitan menos almacenamiento de oxígeno = carne blanca. Salmón/trucha son rosa por carotenoides astaxantina en dieta, no mioglobina. La carne oscura tiene sabor más fuerte, más omega-3, pero se echa a perder más rápido.",
+    de: "Fleischfarbe hängt von Myoglobin (sauerstoffspeicherndes Protein) ab. Schnelle, wandernde Fische (Thunfisch, Makrele, Schwertfisch) sind konstante Schwimmer, die nachhaltige Energie benötigen, haben hohes Myoglobin in Muskeln = dunkelrotes Fleisch. Sesshafte Fische (Kabeljau, Heilbutt, Flunder) nutzen kurze Geschwindigkeitsschübe, benötigen weniger Sauerstoffspeicherung = weißes Fleisch. Lachs/Forelle sind rosa von Astaxanthin-Carotinoiden in Ernährung, nicht Myoglobin. Dunkles Fleisch hat stärkeren Geschmack, mehr Omega-3, verdirbt aber schneller.",
+    nl: "Vlees kleur hangt af van myoglobine (zuurstof-opslagend eiwit). Snelle, migrerende vissen (tonijn, makreel, zwaardvis) zijn constante zwemmers die duurzame energie nodig hebben, hebben hoog myoglobine in spieren = donker rood vlees. Sedentaire vissen (kabeljauw, heilbot, bot) gebruiken korte snelheidsuitbarstingen, hebben minder zuurstof opslag nodig = wit vlees. Zalm/forel zijn roze van astaxanthine carotenoïden in dieet, niet myoglobine. Donker vlees heeft sterkere smaak, meer omega-3, maar bederft sneller."
+  }
+},
+{
+  question: {
+    en: "What is the benefit of letting fish reach room temperature before cooking?",
+    es: "¿Cuál es el beneficio de dejar que el pescado alcance temperatura ambiente antes de cocinarlo?",
+    de: "Was ist der Vorteil, Fisch vor dem Kochen Raumtemperatur erreichen zu lassen?",
+    nl: "Wat is het voordeel van vis kamertemperatuur te laten bereiken voor het koken?"
+  },
+  options: [
+    { en: "Ensures even cooking throughout without overcooking exterior while waiting for cold center to cook", es: "Asegura cocción uniforme sin sobrecocinar el exterior mientras se espera que el centro frío se cocine", de: "Gewährleistet gleichmäßiges Garen ohne Überhitzen des Äußeren während kaltes Zentrum gart", nl: "Zorgt voor gelijkmatig koken zonder buitenkant te veel te koken terwijl koud centrum kookt" },
+    { en: "Makes fish taste better", es: "Hace que el pescado sepa mejor", de: "Lässt Fisch besser schmecken", nl: "Laat vis beter smaken" },
+    { en: "Reduces cooking time significantly", es: "Reduce significativamente el tiempo de cocción", de: "Reduziert Kochzeit erheblich", nl: "Vermindert kooktijd aanzienlijk" },
+    { en: "Prevents sticking to pan", es: "Previene que se pegue a la sartén", de: "Verhindert Anhaften an Pfanne", nl: "Voorkomt plakken aan pan" }
+  ],
+  correct: 0,
+  explanation: {
+    en: "Letting fish sit at room temperature 15-20 minutes before cooking promotes even cooking. Cold fish from refrigerator (38°F/3°C) creates temperature gradient: exterior overcooks while center stays cold. Room temperature fish cooks more uniformly, achieving proper doneness throughout. This is especially important for thick cuts. Don't leave fish out longer than 20 minutes for food safety. Season while tempering for better salt penetration.",
+    es: "Dejar que el pescado repose a temperatura ambiente 15-20 minutos antes de cocinar promueve cocción uniforme. Pescado frío del refrigerador (38°F/3°C) crea gradiente de temperatura: el exterior se sobrecocina mientras el centro permanece frío. El pescado a temperatura ambiente se cocina más uniformemente, logrando cocción adecuada en todo. Esto es especialmente importante para cortes gruesos. No dejar el pescado fuera más de 20 minutos por seguridad alimentaria. Sazonar mientras se atempera para mejor penetración de sal.",
+    de: "Fisch 15-20 Minuten vor dem Kochen auf Raumtemperatur bringen fördert gleichmäßiges Garen. Kalter Fisch aus Kühlschrank (3°C) schafft Temperaturgradient: Äußeres übergart während Zentrum kalt bleibt. Raumtemperatur-Fisch gart gleichmäßiger, erreicht richtige Garung durchgehend. Dies ist besonders wichtig für dicke Schnitte. Fisch nicht länger als 20 Minuten draußen lassen für Lebensmittelsicherheit. Während Temperieren würzen für bessere Salzpenetration.",
+    nl: "Vis 15-20 minuten voor koken op kamertemperatuur laten brengen bevordert gelijkmatig koken. Koude vis uit koelkast (3°C) creëert temperatuur gradiënt: buitenkant overkookt terwijl centrum koud blijft. Kamertemperatuur vis kookt gelijkmatiger, bereikt juiste gaarheid overal. Dit is vooral belangrijk voor dikke stukken. Laat vis niet langer dan 20 minuten buiten voor voedselveiligheid. Kruid tijdens temperen voor betere zout penetratie."
+  }
+},
+{
+  question: {
+    en: "What is the difference between cold-water and warm-water lobster?",
+    es: "¿Cuál es la diferencia entre langosta de agua fría y langosta de agua cálida?",
+    de: "Was ist der Unterschied zwischen Kaltwasser- und Warmwasser-Hummer?",
+    nl: "Wat is het verschil tussen koud-water en warm-water kreeft?"
+  },
+  options: [
+    { en: "Cold-water lobster has claws and sweeter, firmer meat; warm-water lobster has no claws and softer, less sweet meat", es: "Langosta de agua fría tiene pinzas y carne más dulce y firme; langosta de agua cálida no tiene pinzas y carne más suave y menos dulce", de: "Kaltwasser-Hummer hat Scheren und süßeres, festeres Fleisch; Warmwasser-Hummer hat keine Scheren und weicheres, weniger süßes Fleisch", nl: "Koud-water kreeft heeft scharen en zoeter, steviger vlees; warm-water kreeft heeft geen scharen en zachter, minder zoet vlees" },
+    { en: "No difference in taste or appearance", es: "Sin diferencia en sabor o apariencia", de: "Kein Unterschied in Geschmack oder Aussehen", nl: "Geen verschil in smaak of uiterlijk" },
+    { en: "Warm-water is always larger", es: "Agua cálida siempre es más grande", de: "Warmwasser ist immer größer", nl: "Warm-water is altijd groter" },
+    { en: "Only color differs", es: "Solo el color difiere", de: "Nur Farbe unterscheidet sich", nl: "Alleen kleur verschilt" }
+  ],
+  correct: 0,
+  explanation: {
+    en: "Cold-water lobster (Maine, Canadian) has large claws, lives in 35-65°F (2-18°C) water, grows slowly resulting in sweeter, more tender, firmer meat, primarily in tail and claws. Most prized. Warm-water lobster (Caribbean spiny/rock lobster) has no claws (only small appendages), long antennae, lives in tropical waters, faster growth = tougher, less sweet meat mainly in tail. Also called langouste.",
+    es: "Langosta de agua fría (Maine, Canadá) tiene pinzas grandes, vive en agua de 35-65°F (2-18°C), crece lentamente resultando en carne más dulce, tierna y firme, principalmente en cola y pinzas. Más valorada. Langosta de agua cálida (langosta espinosa/de roca del Caribe) no tiene pinzas (solo pequeños apéndices), antenas largas, vive en aguas tropicales, crecimiento más rápido = carne más dura y menos dulce principalmente en cola. También llamada langouste.",
+    de: "Kaltwasser-Hummer (Maine, Kanada) hat große Scheren, lebt in 2-18°C Wasser, wächst langsam was zu süßerem, zarterem, festerem Fleisch führt, hauptsächlich in Schwanz und Scheren. Am wertvollsten. Warmwasser-Hummer (Karibischer Stachel-/Felshummer) hat keine Scheren (nur kleine Anhänge), lange Antennen, lebt in tropischen Gewässern, schnelleres Wachstum = zäheres, weniger süßes Fleisch hauptsächlich im Schwanz. Auch Langouste genannt.",
+    nl: "Koud-water kreeft (Maine, Canada) heeft grote scharen, leeft in 2-18°C water, groeit langzaam resulterend in zoeter, zachter, steviger vlees, voornamelijk in staart en scharen. Meest gewaardeerd. Warm-water kreeft (Caribische stekel/rots kreeft) heeft geen scharen (alleen kleine aanhangsels), lange antennes, leeft in tropische wateren, snellere groei = taaier, minder zoet vlees voornamelijk in staart. Ook langouste genoemd."
+  }
+},
+{
+  question: {
+    en: "Why should shellfish like mussels and clams be kept alive until cooking?",
+    es: "¿Por qué los mariscos como mejillones y almejas deben mantenerse vivos hasta cocinarlos?",
+    de: "Warum sollten Schalentiere wie Muscheln und Venusmuscheln bis zum Kochen am Leben gehalten werden?",
+    nl: "Waarom moeten schelpdieren zoals mosselen en kokkels levend gehouden worden tot het koken?"
+  },
+  options: [
+    { en: "Dead shellfish rapidly develop harmful bacteria and toxins that can cause severe food poisoning", es: "Mariscos muertos desarrollan rápidamente bacterias dañinas y toxinas que pueden causar intoxicación alimentaria severa", de: "Tote Schalentiere entwickeln schnell schädliche Bakterien und Toxine, die schwere Lebensmittelvergiftung verursachen können", nl: "Dode schelpdieren ontwikkelen snel schadelijke bacteriën en toxines die ernstige voedselvergiftiging kunnen veroorzaken" },
+    { en: "For better flavor only", es: "Solo por mejor sabor", de: "Nur für besseren Geschmack", nl: "Alleen voor betere smaak" },
+    { en: "Shells open easier when alive", es: "Las conchas se abren más fácil cuando están vivas", de: "Schalen öffnen sich leichter wenn lebendig", nl: "Schelpen openen makkelijker als levend" },
+    { en: "Traditional practice with no real reason", es: "Práctica tradicional sin razón real", de: "Traditionelle Praxis ohne wirklichen Grund", nl: "Traditionele praktijk zonder echte reden" }
+  ],
+  correct: 0,
+  explanation: {
+    en: "Live bivalves filter large volumes of water and can contain bacteria. Once dead, they rapidly spoil and develop dangerous bacteria and toxins within hours at room temperature. Signs of life: shells tightly closed or close when tapped, smells fresh/briny. Discard any with broken shells, open shells that don't close when tapped, or those that don't open after cooking. Store at 35-40°F (2-4°C) in breathable container, use within 1-2 days.",
+    es: "Bivalvos vivos filtran grandes volúmenes de agua y pueden contener bacterias. Una vez muertos, se echan a perder rápidamente y desarrollan bacterias peligrosas y toxinas en horas a temperatura ambiente. Señales de vida: conchas bien cerradas o se cierran al golpearlas, huelen fresco/salino. Desechar cualquiera con conchas rotas, conchas abiertas que no se cierran al golpearlas, o aquellas que no se abren después de cocinar. Almacenar a 35-40°F (2-4°C) en contenedor respirable, usar en 1-2 días.",
+    de: "Lebende Muscheln filtern große Wassermengen und können Bakterien enthalten. Einmal tot verderben sie schnell und entwickeln gefährliche Bakterien und Toxine innerhalb von Stunden bei Raumtemperatur. Lebenszeichen: Schalen fest geschlossen oder schließen beim Klopfen, riechen frisch/salzig. Entsorgen Sie alle mit gebrochenen Schalen, offenen Schalen die beim Klopfen nicht schließen, oder die nach dem Kochen nicht öffnen. Bei 2-4°C in atmungsaktivem Behälter lagern, innerhalb 1-2 Tagen verwenden.",
+    nl: "Levende tweekleppigen filteren grote volumes water en kunnen bacteriën bevatten. Eenmaal dood bederven ze snel en ontwikkelen gevaarlijke bacteriën en toxines binnen uren bij kamertemperatuur. Tekenen van leven: schelpen stevig gesloten of sluiten bij tikken, ruiken vers/zout. Gooi alle weg met gebroken schelpen, open schelpen die niet sluiten bij tikken, of die niet openen na koken. Bewaar op 2-4°C in ademend bakje, gebruik binnen 1-2 dagen."
+  }
+},
+{
+  question: {
+    en: "What causes the rainbow/iridescent sheen on some cooked fish and deli meats?",
+    es: "¿Qué causa el brillo arcoíris/iridiscente en algunos pescados cocidos y carnes de delicatessen?",
+    de: "Was verursacht den regenbogen/schillernden Glanz auf manchen gekochten Fischen und Aufschnitt?",
+    nl: "Wat veroorzaakt de regenboog/iriserende glans op sommige gekookte vis en vleeswaren?"
+  },
+  options: [
+    { en: "Light diffraction through muscle fiber structure, completely harmless and indicates proper cooking", es: "Difracción de luz a través de estructura de fibras musculares, completamente inofensivo e indica cocción adecuada", de: "Lichtbeugung durch Muskelfaserstruktur, völlig harmlos und zeigt richtiges Garen an", nl: "Licht diffractie door spiervezel structuur, volledig onschadelijk en geeft goede garing aan" },
+    { en: "Bacterial contamination", es: "Contaminación bacteriana", de: "Bakterielle Kontamination", nl: "Bacteriële besmetting" },
+    { en: "Chemical additives", es: "Aditivos químicos", de: "Chemische Zusätze", nl: "Chemische additieven" },
+    { en: "Mold growth", es: "Crecimiento de moho", de: "Schimmelwachstum", nl: "Schimmel groei" }
+  ],
+  correct: 0,
+  explanation: {
+    en: "The rainbow sheen is optical phenomenon from light diffraction. Cooking denatures muscle proteins causing fibers to align in parallel gratings. When light hits these regular structures, it diffracts into spectrum colors (like CD surface or oil slick). More common in tuna, beef, ham. Completely safe - actually indicates proper protein structure. Not related to freshness or spoilage. Different from dull gray color which may indicate oxidation.",
+    es: "El brillo arcoíris es fenómeno óptico de difracción de luz. Cocinar desnaturaliza proteínas musculares causando que fibras se alineen en rejillas paralelas. Cuando la luz golpea estas estructuras regulares, se difracta en colores del espectro (como superficie de CD o mancha de aceite). Más común en atún, res, jamón. Completamente seguro - en realidad indica estructura proteica adecuada. No relacionado con frescura o deterioro. Diferente del color gris opaco que puede indicar oxidación.",
+    de: "Der Regenbogenglanz ist optisches Phänomen von Lichtbeugung. Kochen denaturiert Muskelproteine, wodurch Fasern sich in parallelen Gittern ausrichten. Wenn Licht diese regelmäßigen Strukturen trifft, beugt es sich in Spektrumfarben (wie CD-Oberfläche oder Ölfleck). Häufiger bei Thunfisch, Rindfleisch, Schinken. Völlig sicher - zeigt tatsächlich richtige Proteinstruktur an. Nicht mit Frische oder Verderb verbunden. Unterschiedlich von matt grauer Farbe die Oxidation anzeigen kann.",
+    nl: "De regenboog glans is optisch fenomeen van licht diffractie. Koken denatureert spiereiwitten waardoor vezels parallel rasters vormen. Wanneer licht deze regelmatige structuren raakt, diffracteert het in spectrum kleuren (zoals CD oppervlak of olievlek). Vaker bij tonijn, rundvlees, ham. Volledig veilig - geeft eigenlijk goede eiwit structuur aan. Niet gerelateerd aan versheid of bederf. Anders dan doffe grijze kleur die oxidatie kan aangeven."
+  }
+},
+{
+  question: {
+    en: "What is the purpose of 'shocking' seafood in ice water after cooking?",
+    es: "¿Cuál es el propósito de 'chocar' mariscos en agua helada después de cocinarlos?",
+    de: "Was ist der Zweck des 'Schockens' von Meeresfrüchten in Eiswasser nach dem Kochen?",
+    nl: "Wat is het doel van het 'schokken' van zeevruchten in ijswater na het koken?"
+  },
+  options: [
+    { en: "Stops carryover cooking immediately, preserves texture, and makes shells easier to remove", es: "Detiene cocción residual inmediatamente, preserva textura y hace que conchas sean más fáciles de quitar", de: "Stoppt Nachwärme sofort, bewahrt Textur und macht Schalen leichter zu entfernen", nl: "Stopt nabakken onmiddellijk, behoudt textuur en maakt schillen makkelijker te verwijderen" },
+    { en: "Only for flavor", es: "Solo por sabor", de: "Nur für Geschmack", nl: "Alleen voor smaak" },
+    { en: "Makes seafood cook faster", es: "Hace que los mariscos se cocinen más rápido", de: "Lässt Meeresfrüchte schneller garen", nl: "Laat zeevruchten sneller koken" },
+    { en: "Removes salt only", es: "Solo quita sal", de: "Entfernt nur Salz", nl: "Verwijdert alleen zout" }
+  ],
+  correct: 0,
+  explanation: {
+    en: "Ice bath (shocking) immediately stops cooking process, preventing overcooking from residual heat. Crucial for delicate seafood like shrimp, lobster, crab which continue cooking after removal from heat. Quick temperature drop preserves tender texture, prevents rubbery consistency. Thermal shock also helps separate shell from meat, making peeling easier. Plunge cooked seafood into ice water for 2-3 minutes, then drain. Particularly important when serving cold.",
+    es: "Baño de hielo (chocar) detiene inmediatamente el proceso de cocción, previniendo sobrecocción por calor residual. Crucial para mariscos delicados como camarones, langosta, cangrejo que continúan cocinándose después de retirarlos del calor. La caída rápida de temperatura preserva textura tierna, previene consistencia gomosa. Choque térmico también ayuda a separar concha de carne, facilitando pelar. Sumergir mariscos cocidos en agua helada durante 2-3 minutos, luego escurrir. Particularmente importante al servir frío.",
+    de: "Eisbad (Schocken) stoppt sofort Garprozess, verhindert Übergaren durch Restwärme. Entscheidend für zarte Meeresfrüchte wie Garnelen, Hummer, Krabbe, die nach Entfernen von Hitze weitergaren. Schneller Temperaturabfall bewahrt zarte Textur, verhindert gummiartige Konsistenz. Thermischer Schock hilft auch Schale von Fleisch zu trennen, erleichtert Schälen. Gekochte Meeresfrüchte 2-3 Minuten in Eiswasser tauchen, dann abtropfen. Besonders wichtig beim kalten Servieren.",
+    nl: "IJsbad (schokken) stopt onmiddellijk kookproces, voorkomt overkoken door restwarmte. Cruciaal voor delicate zeevruchten zoals garnalen, kreeft, krab die doorgaan met koken na verwijdering van warmte. Snelle temperatuur daling behoudt zachte textuur, voorkomt rubberachtige consistentie. Thermische schok helpt ook schil van vlees te scheiden, maakt pellen makkelijker. Dompel gekookte zeevruchten 2-3 minuten in ijswater, laat dan uitlekken. Bijzonder belangrijk bij koud serveren."
+  }
+},
+{
+  question: {
+    en: "What does 'deveining' shrimp actually remove?",
+    es: "¿Qué realmente remueve 'desvenar' camarones?",
+    de: "Was entfernt das 'Entdarmen' von Garnelen tatsächlich?",
+    nl: "Wat verwijdert het 'ontdarmen' van garnalen eigenlijk?"
+  },
+  options: [
+    { en: "The digestive tract containing sand, grit, and undigested food, not a vein", es: "El tracto digestivo que contiene arena, arenilla y comida no digerida, no una vena", de: "Der Verdauungstrakt mit Sand, Grit und unverdauter Nahrung, keine Vene", nl: "Het spijsverteringskanaal met zand, gruis en onverteerd voedsel, geen ader" },
+    { en: "An actual blood vein", es: "Una vena de sangre real", de: "Eine tatsächliche Blutader", nl: "Een echte bloedvat" },
+    { en: "Toxic substance", es: "Sustancia tóxica", de: "Giftige Substanz", nl: "Giftige substantie" },
+    { en: "The nervous system", es: "El sistema nervioso", de: "Das Nervensystem", nl: "Het zenuwstelsel" }
+  ],
+  correct: 0,
+  explanation: {
+    en: "The dark line along shrimp's back is the digestive tract (intestine), not a vein. It contains sand, grit, and partially digested food. While not harmful, it can taste gritty and look unappealing, especially in large shrimp. To devein: make shallow cut along back, remove dark tract with knife tip or under running water. Small shrimp often don't require deveining. The white 'vein' on belly side is actually the ventral nerve cord - harmless and can stay.",
+    es: "La línea oscura a lo largo del dorso del camarón es el tracto digestivo (intestino), no una vena. Contiene arena, arenilla y comida parcialmente digerida. Aunque no es dañino, puede saber arenoso y verse poco apetitoso, especialmente en camarones grandes. Para desvenar: hacer corte superficial a lo largo del dorso, remover tracto oscuro con punta de cuchillo o bajo agua corriente. Camarones pequeños a menudo no requieren desvene. La 'vena' blanca en el lado ventral es en realidad el cordón nervioso ventral - inofensivo y puede quedarse.",
+    de: "Die dunkle Linie entlang des Garnelenrückens ist der Verdauungstrakt (Darm), keine Vene. Er enthält Sand, Grit und teilweise verdaute Nahrung. Obwohl nicht schädlich, kann es körnig schmecken und unappetitlich aussehen, besonders bei großen Garnelen. Zum Entdarmen: flachen Schnitt entlang Rücken machen, dunklen Trakt mit Messerspitze oder unter fließendem Wasser entfernen. Kleine Garnelen benötigen oft kein Entdarmen. Die weiße 'Vene' an Bauchseite ist tatsächlich das ventrale Nervenstrang - harmlos und kann bleiben.",
+    nl: "De donkere lijn langs garnalen rug is het spijsverteringskanaal (darm), geen ader. Het bevat zand, gruis en gedeeltelijk verteerd voedsel. Hoewel niet schadelijk, kan het korrelig smaken en onaantrekkelijk lijken, vooral bij grote garnalen. Om te ontdarmen: maak ondiepe snede langs rug, verwijder donker kanaal met mespunt of onder stromend water. Kleine garnalen hoeven vaak niet ontdarmd. De witte 'ader' aan buikzijde is eigenlijk het ventrale zenuwkoord - onschadelijk en kan blijven."
+  }
+},
+{
+  question: {
+    en: "What is 'IQF' seafood and what are its advantages?",
+    es: "¿Qué son mariscos 'IQF' y cuáles son sus ventajas?",
+    de: "Was ist 'IQF' Meeresfrüchte und was sind seine Vorteile?",
+    nl: "Wat is 'IQF' zeevruchten en wat zijn de voordelen?"
+  },
+  options: [
+    { en: "Individually Quick Frozen - each piece frozen separately preventing clumping, maintaining quality, and allowing partial use", es: "Congelado Rápido Individual - cada pieza congelada por separado previniendo aglomeración, manteniendo calidad y permitiendo uso parcial", de: "Einzeln Schnell Gefroren - jedes Stück separat gefroren verhindert Verklumpen, erhält Qualität und ermöglicht Teilverwendung", nl: "Individueel Snel Bevroren - elk stuk apart bevroren voorkomt klonteren, behoudt kwaliteit en maakt gedeeltelijk gebruik mogelijk" },
+    { en: "International Quality Fish certification", es: "Certificación Internacional de Pescado de Calidad", de: "Internationale Qualitätsfisch-Zertifizierung", nl: "Internationale Kwaliteit Vis certificering" },
+    { en: "Instant Quick Frying method", es: "Método de Fritura Rápida Instantánea", de: "Sofortige Schnell-Braten-Methode", nl: "Instant Snel Bakken methode" },
+    { en: "Ice Quality Freshness standard", es: "Estándar de Frescura de Calidad de Hielo", de: "Eis-Qualität-Frische-Standard", nl: "IJs Kwaliteit Versheid standaard" }
+  ],
+  correct: 0,
+  explanation: {
+    en: "IQF (Individually Quick Frozen) freezes each seafood piece separately using blast freezing at -40°F (-40°C) or colder. Advantages: 1) Pieces don't clump together - can remove only what you need. 2) Faster freezing creates smaller ice crystals, preserving cell structure and texture better than slow freezing. 3) Less freezer burn. 4) Better portion control. 5) Longer shelf life while maintaining quality. Common for shrimp, scallops, fish fillets. Thaw only what you need.",
+    es: "IQF (Congelado Rápido Individual) congela cada pieza de marisco por separado usando congelación rápida a -40°F (-40°C) o más frío. Ventajas: 1) Las piezas no se aglomeran - puede quitar solo lo que necesita. 2) Congelación más rápida crea cristales de hielo más pequeños, preservando estructura celular y textura mejor que congelación lenta. 3) Menos quemadura por congelador. 4) Mejor control de porciones. 5) Vida útil más larga mientras mantiene calidad. Común para camarones, vieiras, filetes de pescado. Descongele solo lo que necesite.",
+    de: "IQF (Einzeln Schnell Gefroren) friert jedes Meeresfrüchte-Stück separat mit Schockgefrieren bei -40°C oder kälter ein. Vorteile: 1) Stücke klumpen nicht zusammen - können nur entnehmen was Sie brauchen. 2) Schnelleres Einfrieren erzeugt kleinere Eiskristalle, bewahrt Zellstruktur und Textur besser als langsames Einfrieren. 3) Weniger Gefrierbrand. 4) Bessere Portionskontrolle. 5) Längere Haltbarkeit bei Qualitätserhalt. Üblich für Garnelen, Jakobsmuscheln, Fischfilets. Nur auftauen was Sie brauchen.",
+    nl: "IQF (Individueel Snel Bevroren) bevriest elk zeevruchten stuk apart met shock bevriezen bij -40°C of kouder. Voordelen: 1) Stukken klonteren niet samen - kunt alleen verwijderen wat nodig is. 2) Sneller bevriezen creëert kleinere ijskristallen, behoudt celstructuur en textuur beter dan langzaam bevriezen. 3) Minder vriesbrand. 4) Betere portie controle. 5) Langere houdbaarheid terwijl kwaliteit behouden blijft. Gebruikelijk voor garnalen, sint-jakobsschelpen, visfilets. Ontdooi alleen wat nodig is."
+  }
+}

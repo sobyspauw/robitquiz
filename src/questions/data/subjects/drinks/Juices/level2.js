@@ -428,6 +428,426 @@
           nl: "Het witte schuim op vers sinaasappelsap is natuurlijk en komt van pulpvezels en pectine die tijdens het persen naar de oppervlakte stijgen - het is volkomen veilig om te drinken."
         }
       },
+      {
+        question: {
+          en: "Which juice has the highest natural sugar content?",
+          es: "¿Qué jugo tiene el mayor contenido de azúcar natural?",
+          de: "Welcher Saft hat den höchsten natürlichen Zuckergehalt?",
+          nl: "Welk sap heeft het hoogste natuurlijke suikergehalte?"
+        },
+        options: [
+          { en: "Grape juice", es: "Jugo de uva", de: "Traubensaft", nl: "Druivensap" },
+          { en: "Lemon juice", es: "Jugo de limón", de: "Zitronensaft", nl: "Citroensap" },
+          { en: "Tomato juice", es: "Jugo de tomate", de: "Tomatensaft", nl: "Tomatensap" },
+          { en: "Cucumber juice", es: "Jugo de pepino", de: "Gurkensaft", nl: "Komkommersap" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Grape juice has one of the highest natural sugar contents among fruit juices, which is why it tastes very sweet.",
+          es: "El jugo de uva tiene uno de los contenidos de azúcar natural más altos entre los jugos de frutas, por eso sabe muy dulce.",
+          de: "Traubensaft hat einen der höchsten natürlichen Zuckergehalte unter Fruchtsäften, weshalb er sehr süß schmeckt.",
+          nl: "Druivensap heeft een van de hoogste natuurlijke suikergehaltes onder vruchtensappen, daarom smaakt het zeer zoet."
+        }
+      },
+      {
+        question: {
+          en: "What does 'cold-pressed' juice mean?",
+          es: "¿Qué significa jugo 'prensado en frío'?",
+          de: "Was bedeutet 'kaltgepresster' Saft?",
+          nl: "Wat betekent 'koudgeperst' sap?"
+        },
+        options: [
+          { en: "Juice extracted without heat to preserve nutrients", es: "Jugo extraído sin calor para preservar nutrientes", de: "Saft ohne Hitze extrahiert, um Nährstoffe zu erhalten", nl: "Sap geëxtraheerd zonder warmte om voedingsstoffen te behouden" },
+          { en: "Juice stored in a refrigerator", es: "Jugo almacenado en refrigerador", de: "Saft im Kühlschrank gelagert", nl: "Sap bewaard in koelkast" },
+          { en: "Frozen juice", es: "Jugo congelado", de: "Gefrorener Saft", nl: "Bevroren sap" },
+          { en: "Juice with ice added", es: "Jugo con hielo añadido", de: "Saft mit Eis", nl: "Sap met ijs toegevoegd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cold-pressed juice is extracted using hydraulic pressure without heat, which helps preserve more vitamins, enzymes, and nutrients compared to traditional juicing methods.",
+          es: "El jugo prensado en frío se extrae usando presión hidráulica sin calor, lo que ayuda a preservar más vitaminas, enzimas y nutrientes en comparación con métodos tradicionales de extracción.",
+          de: "Kaltgepresster Saft wird mit hydraulischem Druck ohne Hitze extrahiert, was hilft, mehr Vitamine, Enzyme und Nährstoffe zu erhalten im Vergleich zu traditionellen Entsaftungsmethoden.",
+          nl: "Koudgeperst sap wordt geëxtraheerd met hydraulische druk zonder warmte, wat helpt meer vitamines, enzymen en voedingsstoffen te behouden vergeleken met traditionele persmethoden."
+        }
+      },
+      {
+        question: {
+          en: "Why is cranberry juice often mixed with other juices?",
+          es: "¿Por qué el jugo de arándano a menudo se mezcla con otros jugos?",
+          de: "Warum wird Cranberrysaft oft mit anderen Säften gemischt?",
+          nl: "Waarom wordt veenbessensap vaak gemengd met andere sappen?"
+        },
+        options: [
+          { en: "Pure cranberry juice is very tart and sour", es: "El jugo puro de arándano es muy ácido y agrio", de: "Reiner Cranberrysaft ist sehr herb und sauer", nl: "Puur veenbessensap is zeer wrang en zuur" },
+          { en: "It's too expensive alone", es: "Es demasiado caro solo", de: "Es ist allein zu teuer", nl: "Het is te duur alleen" },
+          { en: "It's illegal to sell pure cranberry juice", es: "Es ilegal vender jugo puro de arándano", de: "Es ist illegal, reinen Cranberrysaft zu verkaufen", nl: "Het is illegaal om puur veenbessensap te verkopen" },
+          { en: "It spoils too quickly", es: "Se echa a perder demasiado rápido", de: "Es verdirbt zu schnell", nl: "Het bederft te snel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pure cranberry juice is extremely tart and sour, so it's commonly mixed with sweeter juices like apple or grape, or sweetened with sugar to make it more palatable.",
+          es: "El jugo puro de arándano es extremadamente ácido y agrio, por lo que comúnmente se mezcla con jugos más dulces como manzana o uva, o se endulza con azúcar para hacerlo más agradable al paladar.",
+          de: "Reiner Cranberrysaft ist extrem herb und sauer, daher wird er häufig mit süßeren Säften wie Apfel oder Traube gemischt oder mit Zucker gesüßt, um ihn schmackhafter zu machen.",
+          nl: "Puur veenbessensap is extreem wrang en zuur, dus wordt het vaak gemengd met zoetere sappen zoals appel of druif, of gezoet met suiker om het aangenamer te maken."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between apple juice and apple cider?",
+          es: "¿Cuál es la diferencia entre jugo de manzana y sidra de manzana?",
+          de: "Was ist der Unterschied zwischen Apfelsaft und Apfelwein?",
+          nl: "Wat is het verschil tussen appelsap en appelcider?"
+        },
+        options: [
+          { en: "Apple juice is filtered and clear, cider is unfiltered and cloudy", es: "El jugo de manzana es filtrado y claro, la sidra no está filtrada y es turbia", de: "Apfelsaft ist gefiltert und klar, Apfelwein ist ungefiltert und trüb", nl: "Appelsap is gefilterd en helder, cider is ongefilterd en troebel" },
+          { en: "They are exactly the same", es: "Son exactamente lo mismo", de: "Sie sind genau gleich", nl: "Ze zijn precies hetzelfde" },
+          { en: "Cider always contains alcohol", es: "La sidra siempre contiene alcohol", de: "Apfelwein enthält immer Alkohol", nl: "Cider bevat altijd alcohol" },
+          { en: "Apple juice is carbonated", es: "El jugo de manzana está carbonatado", de: "Apfelsaft ist kohlensäurehaltig", nl: "Appelsap is koolzuurhoudend" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Apple juice is typically filtered to remove pulp and sediment, making it clear, while apple cider is unfiltered or lightly filtered, giving it a cloudy appearance and more robust flavor.",
+          es: "El jugo de manzana típicamente se filtra para remover pulpa y sedimento, haciéndolo claro, mientras que la sidra de manzana no se filtra o se filtra ligeramente, dándole una apariencia turbia y un sabor más robusto.",
+          de: "Apfelsaft wird typischerweise gefiltert, um Fruchtfleisch und Sediment zu entfernen und klar zu machen, während Apfelwein ungefiltert oder leicht gefiltert ist, was ihm ein trübes Aussehen und robusteren Geschmack verleiht.",
+          nl: "Appelsap wordt meestal gefilterd om pulp en sediment te verwijderen, waardoor het helder wordt, terwijl appelcider ongefilterd of licht gefilterd is, wat het een troebel uiterlijk en robuustere smaak geeft."
+        }
+      },
+      {
+        question: {
+          en: "Which mineral is often added to fortified orange juice?",
+          es: "¿Qué mineral se añade a menudo al jugo de naranja fortificado?",
+          de: "Welches Mineral wird häufig zu angereichertem Orangensaft hinzugefügt?",
+          nl: "Welk mineraal wordt vaak toegevoegd aan verrijkt sinaasappelsap?"
+        },
+        options: [
+          { en: "Calcium", es: "Calcio", de: "Kalzium", nl: "Calcium" },
+          { en: "Copper", es: "Cobre", de: "Kupfer", nl: "Koper" },
+          { en: "Silver", es: "Plata", de: "Silber", nl: "Zilver" },
+          { en: "Lead", es: "Plomo", de: "Blei", nl: "Lood" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Calcium is frequently added to orange juice to boost bone health benefits, making it a good source of this essential mineral along with Vitamin C.",
+          es: "El calcio se añade frecuentemente al jugo de naranja para aumentar los beneficios para la salud ósea, convirtiéndolo en una buena fuente de este mineral esencial junto con la Vitamina C.",
+          de: "Kalzium wird häufig zu Orangensaft hinzugefügt, um die Vorteile für die Knochengesundheit zu steigern und ihn zu einer guten Quelle dieses essentiellen Minerals neben Vitamin C zu machen.",
+          nl: "Calcium wordt vaak toegevoegd aan sinaasappelsap om de voordelen voor botgezondheid te vergroten, waardoor het een goede bron van dit essentiële mineraal wordt naast vitamine C."
+        }
+      },
+      {
+        question: {
+          en: "What gives carrot juice its orange color?",
+          es: "¿Qué le da al jugo de zanahoria su color naranja?",
+          de: "Was gibt Karottensaft seine orange Farbe?",
+          nl: "Wat geeft wortelsap zijn oranje kleur?"
+        },
+        options: [
+          { en: "Beta-carotene", es: "Betacaroteno", de: "Beta-Carotin", nl: "Bètacaroteen" },
+          { en: "Food coloring", es: "Colorante alimentario", de: "Lebensmittelfarbe", nl: "Voedselkleurstof" },
+          { en: "Vitamin C", es: "Vitamina C", de: "Vitamin C", nl: "Vitamine C" },
+          { en: "Orange juice added", es: "Jugo de naranja añadido", de: "Zugesetzter Orangensaft", nl: "Toegevoegd sinaasappelsap" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Beta-carotene, a powerful antioxidant that the body converts to Vitamin A, gives carrots and carrot juice their distinctive orange color.",
+          es: "El betacaroteno, un poderoso antioxidante que el cuerpo convierte en Vitamina A, le da a las zanahorias y al jugo de zanahoria su distintivo color naranja.",
+          de: "Beta-Carotin, ein starkes Antioxidans, das der Körper in Vitamin A umwandelt, gibt Karotten und Karottensaft ihre charakteristische orange Farbe.",
+          nl: "Bètacaroteen, een krachtige antioxidant die het lichaam omzet in vitamine A, geeft wortels en wortelsap hun kenmerkende oranje kleur."
+        }
+      },
+      {
+        question: {
+          en: "How long does fresh-squeezed orange juice typically last in the refrigerator?",
+          es: "¿Cuánto tiempo dura típicamente el jugo de naranja recién exprimido en el refrigerador?",
+          de: "Wie lange hält sich frisch gepresster Orangensaft typischerweise im Kühlschrank?",
+          nl: "Hoe lang blijft vers geperst sinaasappelsap meestal goed in de koelkast?"
+        },
+        options: [
+          { en: "2-3 days", es: "2-3 días", de: "2-3 Tage", nl: "2-3 dagen" },
+          { en: "2-3 weeks", es: "2-3 semanas", de: "2-3 Wochen", nl: "2-3 weken" },
+          { en: "2-3 months", es: "2-3 meses", de: "2-3 Monate", nl: "2-3 maanden" },
+          { en: "1 year", es: "1 año", de: "1 Jahr", nl: "1 jaar" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Fresh-squeezed orange juice without preservatives typically lasts only 2-3 days in the refrigerator before starting to lose quality and freshness.",
+          es: "El jugo de naranja recién exprimido sin conservantes típicamente dura solo 2-3 días en el refrigerador antes de comenzar a perder calidad y frescura.",
+          de: "Frisch gepresster Orangensaft ohne Konservierungsstoffe hält sich typischerweise nur 2-3 Tage im Kühlschrank, bevor er an Qualität und Frische zu verlieren beginnt.",
+          nl: "Vers geperst sinaasappelsap zonder conserveermiddelen blijft meestal slechts 2-3 dagen goed in de koelkast voordat het kwaliteit en versheid begint te verliezen."
+        }
+      },
+      {
+        question: {
+          en: "What is the main health benefit of drinking beet juice?",
+          es: "¿Cuál es el principal beneficio de salud de beber jugo de remolacha?",
+          de: "Was ist der Hauptgesundheitsvorteil des Trinkens von Rote-Bete-Saft?",
+          nl: "Wat is het belangrijkste gezondheidsvoordeel van het drinken van bietensap?"
+        },
+        options: [
+          { en: "Improves blood flow and lowers blood pressure", es: "Mejora el flujo sanguíneo y reduce la presión arterial", de: "Verbessert die Durchblutung und senkt den Blutdruck", nl: "Verbetert de bloedstroom en verlaagt bloeddruk" },
+          { en: "Whitens teeth", es: "Blanquea los dientes", de: "Bleicht die Zähne", nl: "Maakt tanden witter" },
+          { en: "Grows hair faster", es: "Hace crecer el cabello más rápido", de: "Lässt Haare schneller wachsen", nl: "Laat haar sneller groeien" },
+          { en: "Improves eyesight at night", es: "Mejora la visión nocturna", de: "Verbessert die Nachtsicht", nl: "Verbetert nachtzicht" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Beet juice is rich in nitrates that the body converts to nitric oxide, which helps dilate blood vessels, improve blood flow, and lower blood pressure.",
+          es: "El jugo de remolacha es rico en nitratos que el cuerpo convierte en óxido nítrico, lo que ayuda a dilatar los vasos sanguíneos, mejorar el flujo sanguíneo y reducir la presión arterial.",
+          de: "Rote-Bete-Saft ist reich an Nitraten, die der Körper in Stickstoffmonoxid umwandelt, was hilft, Blutgefäße zu erweitern, die Durchblutung zu verbessern und den Blutdruck zu senken.",
+          nl: "Bietensap is rijk aan nitraten die het lichaam omzet in stikstofmonoxide, wat helpt bloedvaten te verwijden, de bloedstroom te verbeteren en de bloeddruk te verlagen."
+        }
+      },
+      {
+        question: {
+          en: "Which juice brand is known for its 'No Pulp, Some Pulp, Lots of Pulp' options?",
+          es: "¿Qué marca de jugo es conocida por sus opciones 'Sin Pulpa, Algo de Pulpa, Mucha Pulpa'?",
+          de: "Welche Saftmarke ist bekannt für ihre 'Kein Fruchtfleisch, Etwas Fruchtfleisch, Viel Fruchtfleisch' Optionen?",
+          nl: "Welk sapmerk staat bekend om zijn 'Geen Vruchtvlees, Wat Vruchtvlees, Veel Vruchtvlees' opties?"
+        },
+        options: [
+          { en: "Tropicana", es: "Tropicana", de: "Tropicana", nl: "Tropicana" },
+          { en: "Minute Maid", es: "Minute Maid", de: "Minute Maid", nl: "Minute Maid" },
+          { en: "Dole", es: "Dole", de: "Dole", nl: "Dole" },
+          { en: "V8", es: "V8", de: "V8", nl: "V8" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tropicana is famous for offering orange juice with different pulp levels: No Pulp, Some Pulp, and Lots of Pulp, allowing consumers to choose their preferred texture.",
+          es: "Tropicana es famosa por ofrecer jugo de naranja con diferentes niveles de pulpa: Sin Pulpa, Algo de Pulpa y Mucha Pulpa, permitiendo a los consumidores elegir su textura preferida.",
+          de: "Tropicana ist berühmt dafür, Orangensaft mit verschiedenen Fruchtfleischstufen anzubieten: Kein Fruchtfleisch, Etwas Fruchtfleisch und Viel Fruchtfleisch, damit Verbraucher ihre bevorzugte Textur wählen können.",
+          nl: "Tropicana is beroemd om het aanbieden van sinaasappelsap met verschillende vruchtvleesniveaus: Geen Vruchtvlees, Wat Vruchtvlees en Veel Vruchtvlees, waardoor consumenten hun voorkeurstextuur kunnen kiezen."
+        }
+      },
+      {
+        question: {
+          en: "Why does grapefruit juice interact with some medications?",
+          es: "¿Por qué el jugo de toronja interactúa con algunos medicamentos?",
+          de: "Warum interagiert Grapefruitsaft mit einigen Medikamenten?",
+          nl: "Waarom interacteert grapefruitsap met sommige medicijnen?"
+        },
+        options: [
+          { en: "It contains compounds that affect drug metabolism", es: "Contiene compuestos que afectan el metabolismo de medicamentos", de: "Es enthält Verbindungen, die den Arzneimittelstoffwechsel beeinflussen", nl: "Het bevat stoffen die de medicijnafbraak beïnvloeden" },
+          { en: "It's too acidic", es: "Es demasiado ácido", de: "Es ist zu sauer", nl: "Het is te zuur" },
+          { en: "It has too much sugar", es: "Tiene demasiada azúcar", de: "Es hat zu viel Zucker", nl: "Het heeft te veel suiker" },
+          { en: "It dilutes the medication", es: "Diluye el medicamento", de: "Es verdünnt das Medikament", nl: "Het verdunt het medicijn" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Grapefruit juice contains compounds called furanocoumarins that can interfere with enzymes in the liver and intestines that metabolize medications, potentially leading to dangerous drug levels.",
+          es: "El jugo de toronja contiene compuestos llamados furanocumarinas que pueden interferir con las enzimas en el hígado e intestinos que metabolizan medicamentos, potencialmente llevando a niveles peligrosos de medicamentos.",
+          de: "Grapefruitsaft enthält Verbindungen namens Furanocumarine, die Enzyme in Leber und Darm stören können, die Medikamente metabolisieren, was potenziell zu gefährlichen Arzneimittelspiegeln führen kann.",
+          nl: "Grapefruitsap bevat stoffen genaamd furanocoumarines die enzymen in de lever en darmen kunnen verstoren die medicijnen afbreken, wat mogelijk tot gevaarlijke medicijnspiegels kan leiden."
+        }
+      },
+      {
+        question: {
+          en: "What type of juice is V8 known for?",
+          es: "¿Por qué tipo de jugo es conocido V8?",
+          de: "Für welche Art von Saft ist V8 bekannt?",
+          nl: "Voor welk type sap staat V8 bekend?"
+        },
+        options: [
+          { en: "Vegetable juice blend", es: "Mezcla de jugos de vegetales", de: "Gemüsesaftmischung", nl: "Groentensapmengsel" },
+          { en: "Pure orange juice", es: "Jugo de naranja puro", de: "Reiner Orangensaft", nl: "Puur sinaasappelsap" },
+          { en: "Apple juice", es: "Jugo de manzana", de: "Apfelsaft", nl: "Appelsap" },
+          { en: "Grape juice", es: "Jugo de uva", de: "Traubensaft", nl: "Druivensap" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "V8 is famous for its vegetable juice blend containing 8 vegetables: tomatoes, carrots, celery, beets, parsley, lettuce, watercress, and spinach.",
+          es: "V8 es famoso por su mezcla de jugos de vegetales que contiene 8 vegetales: tomates, zanahorias, apio, remolachas, perejil, lechuga, berro y espinaca.",
+          de: "V8 ist berühmt für seine Gemüsesaftmischung, die 8 Gemüse enthält: Tomaten, Karotten, Sellerie, Rüben, Petersilie, Salat, Brunnenkresse und Spinat.",
+          nl: "V8 is beroemd om zijn groentensapmengsel dat 8 groenten bevat: tomaten, wortels, selderij, bieten, peterselie, sla, waterkers en spinazie."
+        }
+      },
+      {
+        question: {
+          en: "What is the process called when juice is heated briefly to kill bacteria?",
+          es: "¿Cómo se llama el proceso cuando el jugo se calienta brevemente para matar bacterias?",
+          de: "Wie heißt der Prozess, wenn Saft kurz erhitzt wird, um Bakterien abzutöten?",
+          nl: "Hoe heet het proces waarbij sap kort wordt verhit om bacteriën te doden?"
+        },
+        options: [
+          { en: "Pasteurization", es: "Pasteurización", de: "Pasteurisierung", nl: "Pasteurisatie" },
+          { en: "Carbonation", es: "Carbonatación", de: "Karbonisierung", nl: "Koolzuurtoevoeging" },
+          { en: "Fermentation", es: "Fermentación", de: "Fermentation", nl: "Fermentatie" },
+          { en: "Filtration", es: "Filtración", de: "Filtration", nl: "Filtratie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pasteurization is the process of heating juice briefly to a specific temperature to kill harmful bacteria and extend shelf life while preserving most nutrients.",
+          es: "La pasteurización es el proceso de calentar el jugo brevemente a una temperatura específica para matar bacterias dañinas y extender la vida útil mientras se preservan la mayoría de los nutrientes.",
+          de: "Pasteurisierung ist der Prozess des kurzen Erhitzens von Saft auf eine bestimmte Temperatur, um schädliche Bakterien abzutöten und die Haltbarkeit zu verlängern, während die meisten Nährstoffe erhalten bleiben.",
+          nl: "Pasteurisatie is het proces van het kort verhitten van sap tot een specifieke temperatuur om schadelijke bacteriën te doden en de houdbaarheid te verlengen terwijl de meeste voedingsstoffen behouden blijven."
+        }
+      },
+      {
+        question: {
+          en: "Which juice is commonly recommended for urinary tract health?",
+          es: "¿Qué jugo se recomienda comúnmente para la salud del tracto urinario?",
+          de: "Welcher Saft wird häufig für die Gesundheit der Harnwege empfohlen?",
+          nl: "Welk sap wordt vaak aanbevolen voor de gezondheid van de urinewegen?"
+        },
+        options: [
+          { en: "Cranberry juice", es: "Jugo de arándano", de: "Cranberrysaft", nl: "Veenbessensap" },
+          { en: "Orange juice", es: "Jugo de naranja", de: "Orangensaft", nl: "Sinaasappelsap" },
+          { en: "Apple juice", es: "Jugo de manzana", de: "Apfelsaft", nl: "Appelsap" },
+          { en: "Pineapple juice", es: "Jugo de piña", de: "Ananassaft", nl: "Ananassap" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cranberry juice is often recommended for urinary tract health because it contains compounds that may help prevent bacteria from adhering to the urinary tract walls.",
+          es: "El jugo de arándano se recomienda a menudo para la salud del tracto urinario porque contiene compuestos que pueden ayudar a prevenir que las bacterias se adhieran a las paredes del tracto urinario.",
+          de: "Cranberrysaft wird oft für die Gesundheit der Harnwege empfohlen, weil er Verbindungen enthält, die helfen können, zu verhindern, dass Bakterien an den Harnwegswänden haften.",
+          nl: "Veenbessensap wordt vaak aanbevolen voor de gezondheid van de urinewegen omdat het stoffen bevat die kunnen helpen voorkomen dat bacteriën aan de wanden van de urinewegen hechten."
+        }
+      },
+      {
+        question: {
+          en: "What does HPP stand for in juice processing?",
+          es: "¿Qué significa HPP en el procesamiento de jugos?",
+          de: "Wofür steht HPP in der Saftverarbeitung?",
+          nl: "Waar staat HPP voor bij sapverwerking?"
+        },
+        options: [
+          { en: "High Pressure Processing", es: "Procesamiento de Alta Presión", de: "Hochdruckverarbeitung", nl: "Hoge Druk Verwerking" },
+          { en: "Hot Pulp Pressing", es: "Prensado de Pulpa Caliente", de: "Heißes Fruchtfleischpressen", nl: "Hete Pulp Persing" },
+          { en: "Healthy Pure Product", es: "Producto Puro Saludable", de: "Gesundes Reines Produkt", nl: "Gezond Puur Product" },
+          { en: "Hand Picked Premium", es: "Premium Recogido a Mano", de: "Handverlesenes Premium", nl: "Handgeplukt Premium" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "HPP (High Pressure Processing) is a method that uses extreme pressure instead of heat to kill bacteria in juice, preserving more nutrients and fresh flavor.",
+          es: "HPP (Procesamiento de Alta Presión) es un método que usa presión extrema en lugar de calor para matar bacterias en el jugo, preservando más nutrientes y sabor fresco.",
+          de: "HPP (Hochdruckverarbeitung) ist eine Methode, die extremen Druck statt Hitze verwendet, um Bakterien im Saft abzutöten und dabei mehr Nährstoffe und frischen Geschmack zu erhalten.",
+          nl: "HPP (Hoge Druk Verwerking) is een methode die extreme druk in plaats van warmte gebruikt om bacteriën in sap te doden, waarbij meer voedingsstoffen en verse smaak behouden blijven."
+        }
+      },
+      {
+        question: {
+          en: "Why does lemon juice prevent cut apples from browning?",
+          es: "¿Por qué el jugo de limón previene que las manzanas cortadas se pongan marrones?",
+          de: "Warum verhindert Zitronensaft, dass geschnittene Äpfel braun werden?",
+          nl: "Waarom voorkomt citroensap dat gesneden appels bruin worden?"
+        },
+        options: [
+          { en: "The acid and vitamin C slow oxidation", es: "El ácido y la vitamina C ralentizan la oxidación", de: "Die Säure und Vitamin C verlangsamen die Oxidation", nl: "Het zuur en vitamine C vertragen oxidatie" },
+          { en: "It changes the apple's color", es: "Cambia el color de la manzana", de: "Es ändert die Farbe des Apfels", nl: "Het verandert de kleur van de appel" },
+          { en: "It adds a protective coating", es: "Añade una capa protectora", de: "Es fügt eine Schutzschicht hinzu", nl: "Het voegt een beschermende laag toe" },
+          { en: "It kills the apple cells", es: "Mata las células de la manzana", de: "Es tötet die Apfelzellen", nl: "Het doodt de appelcellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Lemon juice contains citric acid and vitamin C (ascorbic acid) which act as antioxidants, slowing down the oxidation process that causes apples to turn brown when exposed to air.",
+          es: "El jugo de limón contiene ácido cítrico y vitamina C (ácido ascórbico) que actúan como antioxidantes, ralentizando el proceso de oxidación que hace que las manzanas se pongan marrones cuando se exponen al aire.",
+          de: "Zitronensaft enthält Zitronensäure und Vitamin C (Ascorbinsäure), die als Antioxidantien wirken und den Oxidationsprozess verlangsamen, der Äpfel braun werden lässt, wenn sie der Luft ausgesetzt sind.",
+          nl: "Citroensap bevat citroenzuur en vitamine C (ascorbinezuur) die als antioxidanten werken, waardoor het oxidatieproces wordt vertraagd dat appels bruin laat worden wanneer ze aan lucht worden blootgesteld."
+        }
+      },
+      {
+        question: {
+          en: "What is the typical shelf life of unopened pasteurized orange juice?",
+          es: "¿Cuál es la vida útil típica del jugo de naranja pasteurizado sin abrir?",
+          de: "Was ist die typische Haltbarkeit von ungeöffnetem pasteurisiertem Orangensaft?",
+          nl: "Wat is de typische houdbaarheid van ongeopend gepasteuriseerd sinaasappelsap?"
+        },
+        options: [
+          { en: "1-2 weeks refrigerated", es: "1-2 semanas refrigerado", de: "1-2 Wochen gekühlt", nl: "1-2 weken gekoeld" },
+          { en: "1-2 days", es: "1-2 días", de: "1-2 Tage", nl: "1-2 dagen" },
+          { en: "6 months at room temperature", es: "6 meses a temperatura ambiente", de: "6 Monate bei Raumtemperatur", nl: "6 maanden bij kamertemperatuur" },
+          { en: "Several years", es: "Varios años", de: "Mehrere Jahre", nl: "Meerdere jaren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Unopened pasteurized orange juice stored in the refrigerator typically lasts 1-2 weeks. Once opened, it should be consumed within 7-10 days.",
+          es: "El jugo de naranja pasteurizado sin abrir almacenado en el refrigerador típicamente dura 1-2 semanas. Una vez abierto, debe consumirse dentro de 7-10 días.",
+          de: "Ungeöffneter pasteurisierter Orangensaft im Kühlschrank hält sich typischerweise 1-2 Wochen. Nach dem Öffnen sollte er innerhalb von 7-10 Tagen verbraucht werden.",
+          nl: "Ongeopend gepasteuriseerd sinaasappelsap bewaard in de koelkast blijft meestal 1-2 weken goed. Eenmaal geopend moet het binnen 7-10 dagen worden geconsumeerd."
+        }
+      },
+      {
+        question: {
+          en: "Which juice contains bromelain, an enzyme that can tenderize meat?",
+          es: "¿Qué jugo contiene bromelina, una enzima que puede ablandar la carne?",
+          de: "Welcher Saft enthält Bromelain, ein Enzym, das Fleisch zart machen kann?",
+          nl: "Welk sap bevat bromelaïne, een enzym dat vlees mals kan maken?"
+        },
+        options: [
+          { en: "Pineapple juice", es: "Jugo de piña", de: "Ananassaft", nl: "Ananassap" },
+          { en: "Orange juice", es: "Jugo de naranja", de: "Orangensaft", nl: "Sinaasappelsap" },
+          { en: "Apple juice", es: "Jugo de manzana", de: "Apfelsaft", nl: "Appelsap" },
+          { en: "Grape juice", es: "Jugo de uva", de: "Traubensaft", nl: "Druivensap" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pineapple juice contains bromelain, a proteolytic enzyme that breaks down protein, making it useful for tenderizing meat in marinades.",
+          es: "El jugo de piña contiene bromelina, una enzima proteolítica que descompone las proteínas, haciéndola útil para ablandar la carne en adobos.",
+          de: "Ananassaft enthält Bromelain, ein proteolytisches Enzym, das Protein abbaut und es nützlich macht, um Fleisch in Marinaden zart zu machen.",
+          nl: "Ananassap bevat bromelaïne, een proteolytisch enzym dat eiwit afbreekt, waardoor het nuttig is voor het mals maken van vlees in marinades."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between juice and juice drink?",
+          es: "¿Cuál es la diferencia entre jugo y bebida de jugo?",
+          de: "Was ist der Unterschied zwischen Saft und Saftgetränk?",
+          nl: "Wat is het verschil tussen sap en sapdrank?"
+        },
+        options: [
+          { en: "Juice is 100% fruit, juice drink contains added water and sugar", es: "El jugo es 100% fruta, la bebida de jugo contiene agua y azúcar añadidos", de: "Saft ist 100% Frucht, Saftgetränk enthält zugesetztes Wasser und Zucker", nl: "Sap is 100% vrucht, sapdrank bevat toegevoegd water en suiker" },
+          { en: "They are exactly the same", es: "Son exactamente lo mismo", de: "Sie sind genau gleich", nl: "Ze zijn precies hetzelfde" },
+          { en: "Juice drink is healthier", es: "La bebida de jugo es más saludable", de: "Saftgetränk ist gesünder", nl: "Sapdrank is gezonder" },
+          { en: "Juice is always carbonated", es: "El jugo siempre está carbonatado", de: "Saft ist immer kohlensäurehaltig", nl: "Sap is altijd koolzuurhoudend" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "True juice is 100% fruit or vegetable juice, while a 'juice drink' or 'juice cocktail' typically contains only 5-95% juice with added water, sugar, and flavoring.",
+          es: "El jugo verdadero es 100% jugo de fruta o vegetal, mientras que una 'bebida de jugo' o 'cóctel de jugo' típicamente contiene solo 5-95% de jugo con agua, azúcar y saborizantes añadidos.",
+          de: "Echter Saft ist 100% Frucht- oder Gemüsesaft, während ein 'Saftgetränk' oder 'Saftcocktail' typischerweise nur 5-95% Saft mit zugesetztem Wasser, Zucker und Aromen enthält.",
+          nl: "Echt sap is 100% vrucht- of groentensap, terwijl een 'sapdrank' of 'sapcocktail' meestal slechts 5-95% sap bevat met toegevoegd water, suiker en smaakstoffen."
+        }
+      },
+      {
+        question: {
+          en: "Why is fresh-squeezed juice considered healthier than store-bought?",
+          es: "¿Por qué el jugo recién exprimido se considera más saludable que el comprado en tienda?",
+          de: "Warum gilt frisch gepresster Saft als gesünder als im Laden gekaufter?",
+          nl: "Waarom wordt vers geperst sap als gezonder beschouwd dan in de winkel gekocht sap?"
+        },
+        options: [
+          { en: "Higher vitamin content and no preservatives", es: "Mayor contenido de vitaminas y sin conservantes", de: "Höherer Vitamingehalt und keine Konservierungsstoffe", nl: "Hoger vitaminegehalte en geen conserveermiddelen" },
+          { en: "It has more sugar", es: "Tiene más azúcar", de: "Es hat mehr Zucker", nl: "Het heeft meer suiker" },
+          { en: "It's more expensive", es: "Es más caro", de: "Es ist teurer", nl: "Het is duurder" },
+          { en: "It comes in fancy bottles", es: "Viene en botellas elegantes", de: "Es kommt in schicken Flaschen", nl: "Het komt in mooie flessen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Fresh-squeezed juice retains more vitamins and enzymes because it hasn't been pasteurized or had preservatives added, though it spoils faster than store-bought juice.",
+          es: "El jugo recién exprimido retiene más vitaminas y enzimas porque no ha sido pasteurizado ni tiene conservantes añadidos, aunque se echa a perder más rápido que el jugo comprado en tienda.",
+          de: "Frisch gepresster Saft behält mehr Vitamine und Enzyme, weil er nicht pasteurisiert wurde und keine Konservierungsstoffe enthält, obwohl er schneller verdirbt als im Laden gekaufter Saft.",
+          nl: "Vers geperst sap behoudt meer vitamines en enzymen omdat het niet is gepasteuriseerd of conserveermiddelen toegevoegd heeft, hoewel het sneller bederft dan in de winkel gekocht sap."
+        }
+      },
+      {
+        question: {
+          en: "What gives prune juice its natural laxative effect?",
+          es: "¿Qué le da al jugo de ciruela pasa su efecto laxante natural?",
+          de: "Was gibt Pflaumensaft seine natürliche abführende Wirkung?",
+          nl: "Wat geeft pruimedantensap zijn natuurlijke laxerende effect?"
+        },
+        options: [
+          { en: "High fiber and sorbitol content", es: "Alto contenido de fibra y sorbitol", de: "Hoher Ballaststoff- und Sorbitolgehalt", nl: "Hoog vezel- en sorbitolgehalte" },
+          { en: "Added chemicals", es: "Químicos añadidos", de: "Zugesetzte Chemikalien", nl: "Toegevoegde chemicaliën" },
+          { en: "Carbonation", es: "Carbonatación", de: "Karbonisierung", nl: "Koolzuur" },
+          { en: "Extra water", es: "Agua extra", de: "Extra Wasser", nl: "Extra water" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Prune juice is naturally high in fiber and sorbitol (a sugar alcohol), both of which help promote digestive movement and relieve constipation.",
+          es: "El jugo de ciruela pasa es naturalmente alto en fibra y sorbitol (un alcohol de azúcar), ambos ayudan a promover el movimiento digestivo y aliviar el estreñimiento.",
+          de: "Pflaumensaft ist natürlicherweise reich an Ballaststoffen und Sorbitol (ein Zuckeralkohol), die beide helfen, die Verdauung zu fördern und Verstopfung zu lindern.",
+          nl: "Pruimedantensap is van nature rijk aan vezels en sorbitol (een suikeralcohol), die beide helpen de spijsvertering te bevorderen en obstipatie te verlichten."
+        }
+      },
     ]
   };
 

@@ -427,7 +427,426 @@
           de: "Algorithmisches ordentliches Verfahren bezieht sich auf die verfahrensrechtlichen Schutzmaßnahmen die notwendig sind wenn KI-Systeme Entscheidungen treffen die Individuen betreffen, einschließlich Rechte auf Erklaerung, Ueberpruefung, Berufung und menschliche Aufsicht um Fairness sicherzustellen und vor willkuerlichen oder diskriminierenden Ergebnissen zu schuetzen.",
           nl: "Algoritmisch behoorlijk bestuur verwijst naar de procedurele waarborgen die nodig zijn wanneer AI systemen beslissingen nemen die individuen beïnvloeden, inclusief rechten op uitleg, herziening, beroep en menselijk toezicht om eerlijkheid te waarborgen en te beschermen tegen willekeurige of discriminerende uitkomsten."
         }
-      
+      },
+      {
+        question: {
+          en: "What is 'group fairness' versus 'individual fairness' in algorithmic decisions?",
+          es: "Que es 'equidad grupal' versus 'equidad individual' en decisiones algoritmicas?",
+          de: "Was ist 'Gruppenfairness' versus 'individuelle Fairness' bei algorithmischen Entscheidungen?",
+          nl: "Wat is 'groep eerlijkheid' versus 'individuele eerlijkheid' bij algoritmische beslissingen?"
+        },
+        options: [
+          { en: "Group fairness focuses on equal outcomes across demographics; individual fairness treats similar people similarly", es: "Equidad grupal se enfoca en resultados iguales entre demografias; equidad individual trata personas similares similarmente", de: "Gruppenfairness fokussiert auf gleiche Ergebnisse ueber Demografien; individuelle Fairness behandelt aehnliche Menschen aehnlich", nl: "Groep eerlijkheid richt zich op gelijke uitkomsten tussen demografieën; individuele eerlijkheid behandelt vergelijkbare mensen vergelijkbaar" },
+          { en: "Both concepts mean exactly the same thing", es: "Ambos conceptos significan exactamente lo mismo", de: "Beide Konzepte bedeuten genau dasselbe", nl: "Beide concepten betekenen precies hetzelfde" },
+          { en: "Group fairness is for organizations; individual fairness is for people", es: "Equidad grupal es para organizaciones; equidad individual es para personas", de: "Gruppenfairness ist fuer Organisationen; individuelle Fairness ist fuer Menschen", nl: "Groep eerlijkheid is voor organisaties; individuele eerlijkheid is voor mensen" },
+          { en: "Group fairness applies to large datasets; individual fairness to small ones", es: "Equidad grupal aplica a grandes conjuntos de datos; equidad individual a pequenos", de: "Gruppenfairness gilt fuer grosse Datensaetze; individuelle Fairness fuer kleine", nl: "Groep eerlijkheid geldt voor grote datasets; individuele eerlijkheid voor kleine" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Group fairness ensures statistical parity or equal error rates across demographic groups, while individual fairness requires that similar individuals receive similar algorithmic treatment regardless of group membership, creating tension between these two fairness notions.",
+          es: "La equidad grupal asegura paridad estadistica o tasas de error iguales entre grupos demograficos, mientras que equidad individual requiere que individuos similares reciban trato algoritmico similar independientemente de pertenencia grupal, creando tension entre estas dos nociones de equidad.",
+          de: "Gruppenfairness stellt statistische Paritaet oder gleiche Fehlerraten ueber demografische Gruppen sicher, waehrend individuelle Fairness erfordert dass aehnliche Individuen aehnliche algorithmische Behandlung erhalten unabhaengig von Gruppenzugehoerigkeit, was Spannung zwischen diesen beiden Fairness-Vorstellungen schafft.",
+          nl: "Groep eerlijkheid waarborgt statistische pariteit of gelijke foutpercentages tussen demografische groepen, terwijl individuele eerlijkheid vereist dat vergelijkbare individuen vergelijkbare algoritmische behandeling krijgen ongeacht groepslidmaatschap, wat spanning creëert tussen deze twee eerlijkheidsnoties."
+        }
+      },
+      {
+        question: {
+          en: "What is 'demographic parity' in algorithmic fairness?",
+          es: "Que es 'paridad demografica' en equidad algoritmica?",
+          de: "Was ist 'demografische Paritaet' bei algorithmischer Fairness?",
+          nl: "Wat is 'demografische pariteit' bij algoritmische eerlijkheid?"
+        },
+        options: [
+          { en: "Ensuring algorithms produce similar positive outcome rates across different demographic groups", es: "Asegurar que algoritmos produzcan tasas de resultados positivos similares entre grupos demograficos diferentes", de: "Sicherstellen dass Algorithmen aehnliche positive Ergebnisraten ueber verschiedene demografische Gruppen produzieren", nl: "Ervoor zorgen dat algoritmes vergelijkbare positieve uitkomstpercentages produceren over verschillende demografische groepen" },
+          { en: "Making sure all demographics have equal data representation", es: "Asegurar que todas las demografias tengan representacion de datos igual", de: "Sicherstellen dass alle Demografien gleiche Datenrepraesentation haben", nl: "Ervoor zorgen dat alle demografieën gelijke data representatie hebben" },
+          { en: "Treating all demographic groups identically", es: "Tratar todos los grupos demograficos identicamente", de: "Alle demografischen Gruppen identisch behandeln", nl: "Alle demografische groepen identiek behandelen" },
+          { en: "Balancing demographic variables in algorithms", es: "Balancear variables demograficas en algoritmos", de: "Demografische Variablen in Algorithmen ausbalancieren", nl: "Demografische variabelen in algoritmes balanceren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Demographic parity requires that algorithmic decisions produce equal acceptance rates, approval rates, or other positive outcomes across different demographic groups, regardless of base rates or other factors, aiming to prevent disparate impact.",
+          es: "La paridad demografica requiere que decisiones algoritmicas produzcan tasas de aceptacion, aprobacion u otros resultados positivos iguales entre diferentes grupos demograficos, independientemente de tasas base u otros factores, apuntando a prevenir impacto dispar.",
+          de: "Demografische Paritaet erfordert dass algorithmische Entscheidungen gleiche Akzeptanzraten, Genehmigungsraten oder andere positive Ergebnisse ueber verschiedene demografische Gruppen produzieren, unabhaengig von Basisraten oder anderen Faktoren, mit dem Ziel unterschiedliche Auswirkungen zu verhindern.",
+          nl: "Demografische pariteit vereist dat algoritmische beslissingen gelijke acceptatiepercentages, goedkeuringspercentages of andere positieve uitkomsten produceren over verschillende demografische groepen, ongeacht basispercentages of andere factoren, met als doel ongelijke impact te voorkomen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'equalized odds' in fair machine learning?",
+          es: "Que es 'probabilidades equalizadas' en aprendizaje automatico justo?",
+          de: "Was sind 'ausgeglichene Gewinnchancen' im fairen maschinellen Lernen?",
+          nl: "Wat is 'gelijkgestelde kansen' in eerlijk machine learning?"
+        },
+        options: [
+          { en: "Requiring equal true positive and false positive rates across demographic groups", es: "Requerir tasas de verdaderos positivos y falsos positivos iguales entre grupos demograficos", de: "Gleiche Richtig-Positiv- und Falsch-Positiv-Raten ueber demografische Gruppen erfordern", nl: "Vereisen van gelijke true positive en false positive percentages over demografische groepen" },
+          { en: "Making all predictions equally probable", es: "Hacer todas las predicciones igualmente probables", de: "Alle Vorhersagen gleich wahrscheinlich machen", nl: "Alle voorspellingen even waarschijnlijk maken" },
+          { en: "Balancing positive and negative outcomes equally", es: "Balancear resultados positivos y negativos igualmente", de: "Positive und negative Ergebnisse gleich ausbalancieren", nl: "Positieve en negatieve uitkomsten gelijk balanceren" },
+          { en: "Ensuring equal accuracy across all groups", es: "Asegurar precision igual en todos los grupos", de: "Gleiche Genauigkeit ueber alle Gruppen sicherstellen", nl: "Gelijke nauwkeurigheid over alle groepen waarborgen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Equalized odds requires that algorithmic classifiers have equal true positive rates and equal false positive rates across protected groups, ensuring that prediction errors are distributed fairly regardless of demographic characteristics.",
+          es: "Las probabilidades equalizadas requieren que clasificadores algoritmicos tengan tasas de verdaderos positivos iguales y tasas de falsos positivos iguales entre grupos protegidos, asegurando que errores de prediccion se distribuyan justamente independientemente de caracteristicas demograficas.",
+          de: "Ausgeglichene Gewinnchancen erfordern dass algorithmische Klassifikatoren gleiche Richtig-Positiv-Raten und gleiche Falsch-Positiv-Raten ueber geschuetzte Gruppen haben, was sicherstellt dass Vorhersagefehler fair verteilt werden unabhaengig von demografischen Merkmalen.",
+          nl: "Gelijkgestelde kansen vereisen dat algoritmische classificeerders gelijke true positive percentages en gelijke false positive percentages hebben over beschermde groepen, wat waarborgt dat voorspellingsfouten eerlijk verdeeld worden ongeacht demografische kenmerken."
+        }
+      },
+      {
+        question: {
+          en: "What is 'proxy discrimination' in algorithmic decision-making?",
+          es: "Que es 'discriminacion por proxy' en toma de decisiones algoritmica?",
+          de: "Was ist 'Proxy-Diskriminierung' bei algorithmischer Entscheidungsfindung?",
+          nl: "Wat is 'proxy discriminatie' bij algoritmische besluitvorming?"
+        },
+        options: [
+          { en: "Using seemingly neutral variables that correlate with protected characteristics to discriminate indirectly", es: "Usar variables aparentemente neutrales que correlacionan con caracteristicas protegidas para discriminar indirectamente", de: "Scheinbar neutrale Variablen verwenden die mit geschuetzten Merkmalen korrelieren um indirekt zu diskriminieren", nl: "Schijnbaar neutrale variabelen gebruiken die correleren met beschermde kenmerken om indirect te discrimineren" },
+          { en: "Discrimination conducted through proxy servers", es: "Discriminacion conducida a traves de servidores proxy", de: "Diskriminierung durch Proxy-Server durchgefuehrt", nl: "Discriminatie uitgevoerd via proxy servers" },
+          { en: "Having representatives discriminate on behalf of others", es: "Tener representantes discriminando en nombre de otros", de: "Vertreter im Namen anderer diskriminieren lassen", nl: "Vertegenwoordigers laten discrimineren namens anderen" },
+          { en: "Using intermediary algorithms for discrimination", es: "Usar algoritmos intermediarios para discriminacion", de: "Vermittler-Algorithmen fuer Diskriminierung verwenden", nl: "Tussenliggende algoritmes gebruiken voor discriminatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Proxy discrimination occurs when algorithms use variables like zip code, purchasing patterns, or language that correlate with protected attributes (race, gender) to make discriminatory decisions, even when protected attributes aren't directly used.",
+          es: "La discriminacion por proxy ocurre cuando algoritmos usan variables como codigo postal, patrones de compra o idioma que correlacionan con atributos protegidos (raza, genero) para tomar decisiones discriminatorias, incluso cuando atributos protegidos no se usan directamente.",
+          de: "Proxy-Diskriminierung tritt auf wenn Algorithmen Variablen wie Postleitzahl, Kaufmuster oder Sprache verwenden die mit geschuetzten Attributen (Rasse, Geschlecht) korrelieren um diskriminierende Entscheidungen zu treffen, selbst wenn geschuetzte Attribute nicht direkt verwendet werden.",
+          nl: "Proxy discriminatie treedt op wanneer algoritmes variabelen zoals postcode, aankooppatronen of taal gebruiken die correleren met beschermde attributen (ras, geslacht) om discriminerende beslissingen te nemen, zelfs wanneer beschermde attributen niet direct gebruikt worden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'calibration' in the context of fair algorithms?",
+          es: "Que es 'calibracion' en el contexto de algoritmos justos?",
+          de: "Was ist 'Kalibrierung' im Kontext fairer Algorithmen?",
+          nl: "Wat is 'calibratie' in de context van eerlijke algoritmes?"
+        },
+        options: [
+          { en: "Ensuring predicted probabilities match actual outcomes equally well across different groups", es: "Asegurar que probabilidades predichas coincidan con resultados reales igualmente bien entre grupos diferentes", de: "Sicherstellen dass vorhergesagte Wahrscheinlichkeiten tatsaechliche Ergebnisse gleichmaessig gut ueber verschiedene Gruppen entsprechen", nl: "Ervoor zorgen dat voorspelde kansen even goed overeenkomen met werkelijke uitkomsten over verschillende groepen" },
+          { en: "Adjusting algorithm parameters for optimal performance", es: "Ajustar parametros de algoritmo para rendimiento optimo", de: "Algorithmus-Parameter fuer optimale Leistung anpassen", nl: "Algoritme parameters aanpassen voor optimale prestaties" },
+          { en: "Setting the same threshold for all predictions", es: "Establecer el mismo umbral para todas las predicciones", de: "Den gleichen Schwellenwert fuer alle Vorhersagen setzen", nl: "Dezelfde drempel instellen voor alle voorspellingen" },
+          { en: "Normalizing algorithm outputs", es: "Normalizar salidas de algoritmos", de: "Algorithmus-Ausgaben normalisieren", nl: "Algoritme outputs normaliseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Calibration requires that when an algorithm assigns a probability score (e.g., 70% risk), that probability is accurate across different demographic groups, meaning predicted risks should match observed outcomes equally well for all groups.",
+          es: "La calibracion requiere que cuando un algoritmo asigna una puntuacion de probabilidad (ej. 70% de riesgo), esa probabilidad sea precisa entre diferentes grupos demograficos, significando que riesgos predichos deberian coincidir con resultados observados igualmente bien para todos los grupos.",
+          de: "Kalibrierung erfordert dass wenn ein Algorithmus eine Wahrscheinlichkeitsbewertung zuweist (z.B. 70% Risiko), diese Wahrscheinlichkeit ueber verschiedene demografische Gruppen genau ist, was bedeutet dass vorhergesagte Risiken beobachteten Ergebnissen fuer alle Gruppen gleich gut entsprechen sollten.",
+          nl: "Calibratie vereist dat wanneer een algoritme een kans score toekent (bijv. 70% risico), die kans nauwkeurig is over verschillende demografische groepen, wat betekent dat voorspelde risico's even goed moeten overeenkomen met waargenomen uitkomsten voor alle groepen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'disparate impact' in algorithmic decision-making?",
+          es: "Que es 'impacto dispar' en toma de decisiones algoritmica?",
+          de: "Was ist 'unterschiedliche Auswirkung' bei algorithmischer Entscheidungsfindung?",
+          nl: "Wat is 'ongelijke impact' bij algoritmische besluitvorming?"
+        },
+        options: [
+          { en: "When facially neutral policies disproportionately harm certain protected groups", es: "Cuando politicas aparentemente neutrales danan desproporcionadamente ciertos grupos protegidos", de: "Wenn scheinbar neutrale Richtlinien bestimmte geschuetzte Gruppen unverhaeltnismaessig schaedigen", nl: "Wanneer schijnbaar neutrale beleidslijnen bepaalde beschermde groepen onevenredig schaden" },
+          { en: "Different algorithms producing different impacts", es: "Diferentes algoritmos produciendo diferentes impactos", de: "Verschiedene Algorithmen produzieren verschiedene Auswirkungen", nl: "Verschillende algoritmes die verschillende impacts produceren" },
+          { en: "Algorithms impacting various sectors differently", es: "Algoritmos impactando varios sectores diferentemente", de: "Algorithmen beeinflussen verschiedene Sektoren unterschiedlich", nl: "Algoritmes die verschillende sectoren anders beïnvloeden" },
+          { en: "Unequal distribution of algorithm benefits", es: "Distribucion desigual de beneficios de algoritmos", de: "Ungleiche Verteilung von Algorithmus-Vorteilen", nl: "Ongelijke verdeling van algoritme voordelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Disparate impact occurs when algorithmic systems that appear neutral on their face have significantly different adverse effects on protected groups compared to others, even without discriminatory intent, violating anti-discrimination laws.",
+          es: "El impacto dispar ocurre cuando sistemas algoritmicos que parecen neutrales en su superficie tienen efectos adversos significativamente diferentes en grupos protegidos comparados con otros, incluso sin intencion discriminatoria, violando leyes anti-discriminacion.",
+          de: "Unterschiedliche Auswirkung tritt auf wenn algorithmische Systeme die an der Oberflaeche neutral erscheinen signifikant unterschiedliche nachteilige Auswirkungen auf geschuetzte Gruppen im Vergleich zu anderen haben, selbst ohne diskriminierende Absicht, was Anti-Diskriminierungsgesetze verletzt.",
+          nl: "Ongelijke impact treedt op wanneer algoritmische systemen die neutraal lijken significant verschillende nadelige effecten hebben op beschermde groepen vergeleken met anderen, zelfs zonder discriminerende intentie, wat anti-discriminatiewetten schendt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'feedback loop bias' in algorithmic systems?",
+          es: "Que es 'sesgo de bucle de retroalimentacion' en sistemas algoritmicos?",
+          de: "Was ist 'Rueckkopplungsschleifen-Voreingenommenheit' in algorithmischen Systemen?",
+          nl: "Wat is 'feedback loop bias' in algoritmische systemen?"
+        },
+        options: [
+          { en: "When algorithmic decisions create data that reinforces and amplifies existing biases over time", es: "Cuando decisiones algoritmicas crean datos que refuerzan y amplifican sesgos existentes con el tiempo", de: "Wenn algorithmische Entscheidungen Daten schaffen die existierende Voreingenommenheiten im Laufe der Zeit verstaerken", nl: "Wanneer algoritmische beslissingen data creëren die bestaande vooroordelen versterken en vergroten in de loop van de tijd" },
+          { en: "Users providing biased feedback to algorithms", es: "Usuarios proporcionando retroalimentacion sesgada a algoritmos", de: "Benutzer geben voreingenommenes Feedback an Algorithmen", nl: "Gebruikers die bevooroordeelde feedback geven aan algoritmes" },
+          { en: "Algorithms getting stuck in loops", es: "Algoritmos quedandose atascados en bucles", de: "Algorithmen bleiben in Schleifen stecken", nl: "Algoritmes die vast komen te zitten in loops" },
+          { en: "Circular logic in algorithm design", es: "Logica circular en diseno de algoritmos", de: "Zirkulaere Logik im Algorithmus-Design", nl: "Circulaire logica in algoritme ontwerp" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Feedback loop bias occurs when algorithmic predictions influence future behavior and data collection, which then trains future models, creating self-fulfilling prophecies that perpetuate and worsen initial biases (e.g., predictive policing targeting the same neighborhoods repeatedly).",
+          es: "El sesgo de bucle de retroalimentacion ocurre cuando predicciones algoritmicas influyen comportamiento futuro y recoleccion de datos, que luego entrena modelos futuros, creando profecias autocumplidas que perpetuan y empeoran sesgos iniciales (ej. policia predictiva dirigiendose repetidamente a los mismos vecindarios).",
+          de: "Rueckkopplungsschleifen-Voreingenommenheit tritt auf wenn algorithmische Vorhersagen zukuenftiges Verhalten und Datensammlung beeinflussen, was dann zukuenftige Modelle trainiert, selbsterfuellende Prophezeiungen schafft die anfaengliche Voreingenommenheiten verewigen und verschlechtern (z.B. Predictive Policing zielt wiederholt auf dieselben Nachbarschaften).",
+          nl: "Feedback loop bias treedt op wanneer algoritmische voorspellingen toekomstig gedrag en datacollectie beïnvloeden, wat vervolgens toekomstige modellen traint, zelfvervullende voorspellingen creëert die initiële vooroordelen bestendigen en verergeren (bijv. predictive policing die herhaaldelijk dezelfde buurten target)."
+        }
+      },
+      {
+        question: {
+          en: "What is 'explainable AI' (XAI) and why is it important for decision-making?",
+          es: "Que es 'IA explicable' (XAI) y por que es importante para toma de decisiones?",
+          de: "Was ist 'erklaerbare KI' (XAI) und warum ist sie wichtig fuer Entscheidungsfindung?",
+          nl: "Wat is 'uitlegbare AI' (XAI) en waarom is het belangrijk voor besluitvorming?"
+        },
+        options: [
+          { en: "AI systems designed to provide understandable reasoning for their decisions to human users", es: "Sistemas de IA disenados para proporcionar razonamiento comprensible para sus decisiones a usuarios humanos", de: "KI-Systeme entworfen um verstaendliche Begruendung fuer ihre Entscheidungen an menschliche Nutzer zu liefern", nl: "AI systemen ontworpen om begrijpelijke redeneringen te bieden voor hun beslissingen aan menselijke gebruikers" },
+          { en: "AI that can explain other AI systems", es: "IA que puede explicar otros sistemas de IA", de: "KI die andere KI-Systeme erklaeren kann", nl: "AI die andere AI systemen kan uitleggen" },
+          { en: "AI systems that only use simple algorithms", es: "Sistemas de IA que solo usan algoritmos simples", de: "KI-Systeme die nur einfache Algorithmen verwenden", nl: "AI systemen die alleen eenvoudige algoritmes gebruiken" },
+          { en: "AI with built-in teaching capabilities", es: "IA con capacidades de ensenanza incorporadas", de: "KI mit eingebauten Lehrfaehigkeiten", nl: "AI met ingebouwde lesmogelijkheden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Explainable AI enables users to understand how and why algorithmic decisions are made, supporting accountability, trust, debugging, and compliance with regulations requiring transparency in automated decision-making, especially for high-stakes applications.",
+          es: "La IA explicable permite a usuarios entender como y por que se toman decisiones algoritmicas, apoyando responsabilidad, confianza, depuracion y cumplimiento con regulaciones que requieren transparencia en toma de decisiones automatizada, especialmente para aplicaciones de alto riesgo.",
+          de: "Erklaerbare KI ermoeglicht es Nutzern zu verstehen wie und warum algorithmische Entscheidungen getroffen werden, unterstuetzt Verantwortlichkeit, Vertrauen, Debugging und Einhaltung von Vorschriften die Transparenz in automatisierter Entscheidungsfindung erfordern, besonders fuer Hochrisiko-Anwendungen.",
+          nl: "Uitlegbare AI stelt gebruikers in staat te begrijpen hoe en waarom algoritmische beslissingen worden genomen, wat verantwoordelijkheid, vertrouwen, debugging en naleving van regelgeving die transparantie in geautomatiseerde besluitvorming vereisen ondersteunt, vooral voor hoog-risico toepassingen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'opacity' in algorithmic decision-making and why is it problematic?",
+          es: "Que es 'opacidad' en toma de decisiones algoritmica y por que es problematico?",
+          de: "Was ist 'Undurchsichtigkeit' bei algorithmischer Entscheidungsfindung und warum ist sie problematisch?",
+          nl: "Wat is 'ondoorzichtigheid' bij algoritmische besluitvorming en waarom is het problematisch?"
+        },
+        options: [
+          { en: "When decision-making processes are hidden or incomprehensible, undermining accountability and trust", es: "Cuando procesos de toma de decisiones estan ocultos o son incomprensibles, socavando responsabilidad y confianza", de: "Wenn Entscheidungsprozesse verborgen oder unverstaendlich sind, was Verantwortlichkeit und Vertrauen untergräbt", nl: "Wanneer besluitvormingsprocessen verborgen of onbegrijpelijk zijn, wat verantwoordelijkheid en vertrouwen ondermijnt" },
+          { en: "Visual opacity of AI interfaces", es: "Opacidad visual de interfaces de IA", de: "Visuelle Undurchsichtigkeit von KI-Schnittstellen", nl: "Visuele ondoorzichtigheid van AI interfaces" },
+          { en: "Algorithms running slowly", es: "Algoritmos ejecutandose lentamente", de: "Algorithmen laufen langsam", nl: "Algoritmes die langzaam draaien" },
+          { en: "Unclear documentation of AI systems", es: "Documentacion poco clara de sistemas de IA", de: "Unklare Dokumentation von KI-Systemen", nl: "Onduidelijke documentatie van AI systemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Algorithmic opacity—whether due to complexity, proprietary secrecy, or technical barriers—prevents stakeholders from understanding how decisions are made, making it difficult to identify bias, contest decisions, or ensure accountability.",
+          es: "La opacidad algoritmica—ya sea por complejidad, secreto propietario o barreras tecnicas—previene que partes interesadas entiendan como se toman decisiones, haciendo dificil identificar sesgo, contestar decisiones o asegurar responsabilidad.",
+          de: "Algorithmische Undurchsichtigkeit—ob durch Komplexitaet, proprietaere Geheimhaltung oder technische Barrieren—verhindert dass Stakeholder verstehen wie Entscheidungen getroffen werden, was es schwierig macht Voreingenommenheit zu identifizieren, Entscheidungen anzufechten oder Verantwortlichkeit sicherzustellen.",
+          nl: "Algoritmische ondoorzichtigheid—of het nu door complexiteit, eigendomsgeheimhouding of technische barrières is—voorkomt dat belanghebbenden begrijpen hoe beslissingen worden genomen, wat het moeilijk maakt om bias te identificeren, beslissingen aan te vechten of verantwoordelijkheid te waarborgen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'model inversion' and what privacy risks does it pose?",
+          es: "Que es 'inversion de modelo' y que riesgos de privacidad plantea?",
+          de: "Was ist 'Modellinversion' und welche Datenschutzrisiken birgt sie?",
+          nl: "Wat is 'model inversie' en welke privacyrisico's brengt het met zich mee?"
+        },
+        options: [
+          { en: "Technique to reconstruct training data or infer sensitive attributes from model outputs", es: "Tecnica para reconstruir datos de entrenamiento o inferir atributos sensibles de salidas de modelo", de: "Technik um Trainingsdaten zu rekonstruieren oder sensible Attribute aus Modellausgaben zu folgern", nl: "Techniek om trainingsdata te reconstrueren of gevoelige attributen af te leiden uit model outputs" },
+          { en: "Reversing algorithm logic to make opposite predictions", es: "Revertir logica de algoritmo para hacer predicciones opuestas", de: "Algorithmus-Logik umkehren um gegenteilige Vorhersagen zu machen", nl: "Algoritme logica omkeren om tegenovergestelde voorspellingen te maken" },
+          { en: "Using models in reverse chronological order", es: "Usar modelos en orden cronologico inverso", de: "Modelle in umgekehrter chronologischer Reihenfolge verwenden", nl: "Modellen in omgekeerde chronologische volgorde gebruiken" },
+          { en: "Inverting model parameters for optimization", es: "Invertir parametros de modelo para optimizacion", de: "Modellparameter fuer Optimierung invertieren", nl: "Model parameters inverteren voor optimalisatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Model inversion attacks exploit algorithmic decision systems to extract information about training data or infer sensitive attributes about individuals, demonstrating that even deployed models can leak private information through their decision patterns.",
+          es: "Los ataques de inversion de modelo explotan sistemas de decision algoritmica para extraer informacion sobre datos de entrenamiento o inferir atributos sensibles sobre individuos, demostrando que incluso modelos desplegados pueden filtrar informacion privada a traves de sus patrones de decision.",
+          de: "Modellinversionsangriffe nutzen algorithmische Entscheidungssysteme aus um Informationen ueber Trainingsdaten zu extrahieren oder sensible Attribute ueber Individuen zu folgern, was demonstriert dass selbst bereitgestellte Modelle private Informationen durch ihre Entscheidungsmuster durchsickern lassen koennen.",
+          nl: "Model inversie aanvallen misbruiken algoritmische beslissingssystemen om informatie over trainingsdata te extraheren of gevoelige attributen over individuen af te leiden, wat aantoont dat zelfs geïmplementeerde modellen privé-informatie kunnen lekken via hun beslissingspatronen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'algorithmic determinism' and what are its implications?",
+          es: "Que es 'determinismo algoritmico' y cuales son sus implicaciones?",
+          de: "Was ist 'algorithmischer Determinismus' und was sind seine Implikationen?",
+          nl: "Wat is 'algoritmisch determinisme' en wat zijn de implicaties?"
+        },
+        options: [
+          { en: "The belief that algorithmic predictions define or constrain individual futures, limiting agency and opportunity", es: "La creencia de que predicciones algoritmicas definen o restringen futuros individuales, limitando agencia y oportunidad", de: "Der Glaube dass algorithmische Vorhersagen individuelle Zukuenfte definieren oder einschraenken, was Handlungsfaehigkeit begrenzt", nl: "De overtuiging dat algoritmische voorspellingen individuele toekomsten definiëren of beperken, wat handelingsvermogen beperkt" },
+          { en: "Algorithms that always produce the same output", es: "Algoritmos que siempre producen la misma salida", de: "Algorithmen die immer die gleiche Ausgabe produzieren", nl: "Algoritmes die altijd dezelfde output produceren" },
+          { en: "Predetermined algorithm behavior", es: "Comportamiento predeterminado de algoritmos", de: "Vorbestimmtes Algorithmus-Verhalten", nl: "Vooraf bepaald algoritme gedrag" },
+          { en: "Using deterministic rather than probabilistic models", es: "Usar modelos deterministicos en lugar de probabilisticos", de: "Deterministische anstatt probabilistische Modelle verwenden", nl: "Deterministische in plaats van probabilistische modellen gebruiken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Algorithmic determinism emerges when risk scores or predictions are treated as definitive judgments rather than probabilistic estimates, potentially creating self-fulfilling prophecies and denying individuals opportunities for change or redemption.",
+          es: "El determinismo algoritmico emerge cuando puntuaciones de riesgo o predicciones son tratadas como juicios definitivos en lugar de estimaciones probabilisticas, potencialmente creando profecias autocumplidas y negando a individuos oportunidades de cambio o redencion.",
+          de: "Algorithmischer Determinismus entsteht wenn Risikobewertungen oder Vorhersagen als definitive Urteile anstatt probabilistische Schaetzungen behandelt werden, was moeglicherweise selbsterfuellende Prophezeiungen schafft und Individuen Chancen auf Veraenderung oder Erloesung verweigert.",
+          nl: "Algoritmisch determinisme ontstaat wanneer risicoscores of voorspellingen behandeld worden als definitieve oordelen in plaats van probabilistische schattingen, wat mogelijk zelfvervullende voorspellingen creëert en individuen kansen op verandering of verlossing ontzegt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'right to contest' in automated decision-making?",
+          es: "Que es 'derecho a contestar' en toma de decisiones automatizada?",
+          de: "Was ist 'Recht auf Anfechtung' bei automatisierten Entscheidungen?",
+          nl: "Wat is 'recht op betwisting' bij geautomatiseerde besluitvorming?"
+        },
+        options: [
+          { en: "The ability to challenge and appeal algorithmic decisions through human review", es: "La capacidad de desafiar y apelar decisiones algoritmicas a traves de revision humana", de: "Die Faehigkeit algorithmische Entscheidungen durch menschliche Ueberpruefung anzufechten und zu berufen", nl: "Het vermogen om algoritmische beslissingen aan te vechten en in beroep te gaan via menselijke review" },
+          { en: "The right to participate in algorithm competitions", es: "El derecho a participar en competiciones de algoritmos", de: "Das Recht an Algorithmus-Wettbewerben teilzunehmen", nl: "Het recht om deel te nemen aan algoritme wedstrijden" },
+          { en: "The ability to dispute algorithm ownership", es: "La capacidad de disputar propiedad de algoritmos", de: "Die Faehigkeit Algorithmus-Eigentum anzufechten", nl: "Het vermogen om algoritme eigendom te betwisten" },
+          { en: "The right to question algorithm developers", es: "El derecho a cuestionar desarrolladores de algoritmos", de: "Das Recht Algorithmus-Entwickler zu befragen", nl: "Het recht om algoritme ontwikkelaars te ondervragen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The right to contest ensures individuals can challenge automated decisions that significantly affect them, requiring mechanisms for human review, explanation of the decision basis, and potential correction or reversal of erroneous algorithmic outcomes.",
+          es: "El derecho a contestar asegura que individuos puedan desafiar decisiones automatizadas que les afectan significativamente, requiriendo mecanismos para revision humana, explicacion de la base de decision y correccion o reversion potencial de resultados algoritmicos erroneos.",
+          de: "Das Recht auf Anfechtung stellt sicher dass Individuen automatisierte Entscheidungen die sie erheblich betreffen anfechten koennen, was Mechanismen fuer menschliche Ueberpruefung, Erklaerung der Entscheidungsgrundlage und potentielle Korrektur oder Umkehrung fehlerhafter algorithmischer Ergebnisse erfordert.",
+          nl: "Het recht op betwisting waarborgt dat individuen geautomatiseerde beslissingen die hen significant beïnvloeden kunnen aanvechten, wat mechanismen vereist voor menselijke review, uitleg van de beslissingsbasis en potentiële correctie of omkering van foutieve algoritmische uitkomsten."
+        }
+      },
+      {
+        question: {
+          en: "What is 'temporal validity' in algorithmic models and why does it matter?",
+          es: "Que es 'validez temporal' en modelos algoritmicos y por que importa?",
+          de: "Was ist 'zeitliche Gueltigkeit' bei algorithmischen Modellen und warum ist sie wichtig?",
+          nl: "Wat is 'temporele validiteit' bij algoritmische modellen en waarom is het belangrijk?"
+        },
+        options: [
+          { en: "How long a model remains accurate as the world changes, affecting fairness and reliability of decisions", es: "Cuanto tiempo un modelo permanece preciso mientras el mundo cambia, afectando equidad y confiabilidad de decisiones", de: "Wie lange ein Modell genau bleibt waehrend die Welt sich aendert, was Fairness und Zuverlaessigkeit von Entscheidungen beeinflusst", nl: "Hoe lang een model nauwkeurig blijft terwijl de wereld verandert, wat eerlijkheid en betrouwbaarheid van beslissingen beïnvloedt" },
+          { en: "The time it takes for algorithms to make decisions", es: "El tiempo que toma a algoritmos tomar decisiones", de: "Die Zeit die Algorithmen brauchen um Entscheidungen zu treffen", nl: "De tijd die algoritmes nodig hebben om beslissingen te nemen" },
+          { en: "When algorithms should be updated", es: "Cuando algoritmos deberian actualizarse", de: "Wann Algorithmen aktualisiert werden sollten", nl: "Wanneer algoritmes bijgewerkt moeten worden" },
+          { en: "The lifespan of algorithm deployment", es: "La vida util del despliegue de algoritmos", de: "Die Lebensdauer der Algorithmus-Bereitstellung", nl: "De levensduur van algoritme implementatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Temporal validity concerns how algorithmic models degrade over time as patterns in data and society shift, requiring continuous monitoring and updating to prevent decisions based on outdated patterns that may become unfair or inaccurate.",
+          es: "La validez temporal concierne como modelos algoritmicos se degradan con el tiempo mientras patrones en datos y sociedad cambian, requiriendo monitoreo y actualizacion continua para prevenir decisiones basadas en patrones obsoletos que pueden volverse injustos o inexactos.",
+          de: "Zeitliche Gueltigkeit betrifft wie algorithmische Modelle im Laufe der Zeit degradieren waehrend Muster in Daten und Gesellschaft sich verschieben, was kontinuierliche Ueberwachung und Aktualisierung erfordert um Entscheidungen basierend auf veralteten Mustern zu verhindern die unfair oder ungenau werden koennen.",
+          nl: "Temporele validiteit betreft hoe algoritmische modellen degraderen in de loop van de tijd terwijl patronen in data en samenleving verschuiven, wat continue monitoring en updating vereist om beslissingen gebaseerd op verouderde patronen die oneerlijk of onnauwkeurig kunnen worden te voorkomen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'algorithmic monoculture' and what risks does it pose?",
+          es: "Que es 'monocultivo algoritmico' y que riesgos plantea?",
+          de: "Was ist 'algorithmische Monokultur' und welche Risiken birgt sie?",
+          nl: "Wat is 'algoritmische monocultuur' en welke risico's brengt het met zich mee?"
+        },
+        options: [
+          { en: "When similar algorithms are widely deployed, creating systemic risks and reducing diversity of decision-making", es: "Cuando algoritmos similares se despliegan ampliamente, creando riesgos sistemicos y reduciendo diversidad de toma de decisiones", de: "Wenn aehnliche Algorithmen weit verbreitet werden, was systemische Risiken schafft und Vielfalt der Entscheidungsfindung reduziert", nl: "Wanneer vergelijkbare algoritmes breed worden ingezet, wat systemische risico's creëert en diversiteit van besluitvorming vermindert" },
+          { en: "Using algorithms only in agricultural applications", es: "Usar algoritmos solo en aplicaciones agricolas", de: "Algorithmen nur in landwirtschaftlichen Anwendungen verwenden", nl: "Algoritmes alleen gebruiken in landbouwtoepassingen" },
+          { en: "Algorithms that produce uniform outputs", es: "Algoritmos que producen salidas uniformes", de: "Algorithmen die einheitliche Ausgaben produzieren", nl: "Algoritmes die uniforme outputs produceren" },
+          { en: "Single-purpose algorithm deployment", es: "Despliegue de algoritmos de proposito unico", de: "Einzweck-Algorithmus-Bereitstellung", nl: "Enkel-doeleinden algoritme implementatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Algorithmic monoculture occurs when many organizations adopt similar algorithmic approaches, creating correlated failures, reducing resilience, amplifying biases across systems, and making it difficult for individuals to escape algorithmic judgments.",
+          es: "El monocultivo algoritmico ocurre cuando muchas organizaciones adoptan enfoques algoritmicos similares, creando fallas correlacionadas, reduciendo resiliencia, amplificando sesgos entre sistemas y haciendo dificil que individuos escapen juicios algoritmicos.",
+          de: "Algorithmische Monokultur tritt auf wenn viele Organisationen aehnliche algorithmische Ansaetze uebernehmen, was korrelierte Ausfaelle schafft, Widerstandsfaehigkeit reduziert, Voreingenommenheiten ueber Systeme verstaerkt und es Individuen schwer macht algorithmischen Urteilen zu entkommen.",
+          nl: "Algoritmische monocultuur treedt op wanneer veel organisaties vergelijkbare algoritmische benaderingen adopteren, wat gecorreleerde mislukkingen creëert, veerkracht vermindert, vooroordelen over systemen versterkt en het moeilijk maakt voor individuen om aan algoritmische oordelen te ontsnappen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'value-sensitive design' in algorithmic systems?",
+          es: "Que es 'diseno sensible a valores' en sistemas algoritmicos?",
+          de: "Was ist 'wertesensitives Design' bei algorithmischen Systemen?",
+          nl: "Wat is 'waarde-sensitief ontwerp' bij algoritmische systemen?"
+        },
+        options: [
+          { en: "Proactively accounting for human values like fairness, privacy, and autonomy in system design", es: "Tener en cuenta proactivamente valores humanos como equidad, privacidad y autonomia en diseno de sistemas", de: "Menschliche Werte wie Fairness, Privatsphaere und Autonomie proaktiv im Systemdesign beruecksichtigen", nl: "Proactief rekening houden met menselijke waarden zoals eerlijkheid, privacy en autonomie in systeemontwerp" },
+          { en: "Designing algorithms that maximize economic value", es: "Disenar algoritmos que maximicen valor economico", de: "Algorithmen entwerfen die wirtschaftlichen Wert maximieren", nl: "Algoritmes ontwerpen die economische waarde maximaliseren" },
+          { en: "Creating systems sensitive to price changes", es: "Crear sistemas sensibles a cambios de precio", de: "Systeme erstellen die preissensitiv sind", nl: "Systemen creëren die gevoelig zijn voor prijsveranderingen" },
+          { en: "Building algorithms that respect data values", es: "Construir algoritmos que respeten valores de datos", de: "Algorithmen bauen die Datenwerte respektieren", nl: "Algoritmes bouwen die datawaarden respecteren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Value-sensitive design integrates ethical values and stakeholder concerns throughout the algorithmic development process, from initial conception through deployment, ensuring technical decisions reflect and respect human values rather than just optimizing for efficiency.",
+          es: "El diseno sensible a valores integra valores eticos y preocupaciones de partes interesadas a lo largo del proceso de desarrollo algoritmico, desde concepcion inicial hasta despliegue, asegurando que decisiones tecnicas reflejen y respeten valores humanos en lugar de solo optimizar para eficiencia.",
+          de: "Wertesensitives Design integriert ethische Werte und Stakeholder-Anliegen waehrend des gesamten algorithmischen Entwicklungsprozesses, von der anfaenglichen Konzeption bis zur Bereitstellung, und stellt sicher dass technische Entscheidungen menschliche Werte reflektieren und respektieren anstatt nur fuer Effizienz zu optimieren.",
+          nl: "Waarde-sensitief ontwerp integreert ethische waarden en stakeholder zorgen gedurende het hele algoritmische ontwikkelingsproces, van initiële conceptie tot implementatie, wat waarborgt dat technische beslissingen menselijke waarden reflecteren en respecteren in plaats van alleen optimaliseren voor efficiëntie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'consequential decision' in algorithmic ethics?",
+          es: "Que es 'decision consecuencial' en etica algoritmica?",
+          de: "Was ist 'folgenreiche Entscheidung' in algorithmischer Ethik?",
+          nl: "Wat is 'consequente beslissing' in algoritmische ethiek?"
+        },
+        options: [
+          { en: "Automated decisions that significantly affect individuals' rights, opportunities, or well-being", es: "Decisiones automatizadas que afectan significativamente derechos, oportunidades o bienestar de individuos", de: "Automatisierte Entscheidungen die Rechte, Chancen oder Wohlergehen von Individuen erheblich beeinflussen", nl: "Geautomatiseerde beslissingen die rechten, kansen of welzijn van individuen significant beïnvloeden" },
+          { en: "Decisions about the consequences of algorithm failures", es: "Decisiones sobre las consecuencias de fallas de algoritmos", de: "Entscheidungen ueber die Konsequenzen von Algorithmus-Fehlern", nl: "Beslissingen over de gevolgen van algoritme mislukkingen" },
+          { en: "Sequential algorithmic decisions", es: "Decisiones algoritmicas secuenciales", de: "Sequenzielle algorithmische Entscheidungen", nl: "Sequentiële algoritmische beslissingen" },
+          { en: "Decisions based on consequence analysis", es: "Decisiones basadas en analisis de consecuencias", de: "Entscheidungen basierend auf Konsequenzanalyse", nl: "Beslissingen gebaseerd op consequentie analyse" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Consequential decisions are those that produce legal or similarly significant effects on individuals—such as credit denials, job rejections, or criminal sentencing—requiring heightened procedural protections, transparency, and human oversight.",
+          es: "Las decisiones consecuenciales son aquellas que producen efectos legales o similarmente significativos en individuos—como denegaciones de credito, rechazos de trabajo o sentencias criminales—requiriendo protecciones procedurales elevadas, transparencia y supervision humana.",
+          de: "Folgenreiche Entscheidungen sind solche die rechtliche oder aehnlich bedeutende Auswirkungen auf Individuen produzieren—wie Kreditablehnungen, Jobablehnungen oder strafrechtliche Verurteilungen—was erhoehte verfahrensrechtliche Schutzmaßnahmen, Transparenz und menschliche Aufsicht erfordert.",
+          nl: "Consequente beslissingen zijn die welke juridische of vergelijkbaar significante effecten op individuen produceren—zoals kredietafwijzingen, baanafwijzingen of strafrechtelijke veroordelingen—wat verhoogde procedurele bescherming, transparantie en menselijk toezicht vereist."
+        }
+      },
+      {
+        question: {
+          en: "What is 'algorithmic paternalism' and why is it concerning?",
+          es: "Que es 'paternalismo algoritmico' y por que es preocupante?",
+          de: "Was ist 'algorithmischer Paternalismus' und warum ist er besorgniserregend?",
+          nl: "Wat is 'algoritmisch paternalisme' en waarom is het zorgwekkend?"
+        },
+        options: [
+          { en: "When algorithms make decisions 'for people's own good' without their meaningful input or consent", es: "Cuando algoritmos toman decisiones 'por el bien de las personas' sin su aporte significativo o consentimiento", de: "Wenn Algorithmen Entscheidungen 'zum Wohl der Menschen' treffen ohne ihre bedeutungsvolle Eingabe oder Zustimmung", nl: "Wanneer algoritmes beslissingen nemen 'voor het eigen goed van mensen' zonder hun betekenisvolle input of toestemming" },
+          { en: "Algorithms designed by paternal figures", es: "Algoritmos disenados por figuras paternas", de: "Algorithmen entworfen von vaterlichen Figuren", nl: "Algoritmes ontworpen door vaderlijke figuren" },
+          { en: "AI systems that protect like fathers", es: "Sistemas de IA que protegen como padres", de: "KI-Systeme die wie Vaeter schuetzen", nl: "AI systemen die beschermen als vaders" },
+          { en: "Hierarchical algorithm structures", es: "Estructuras jerarquicas de algoritmos", de: "Hierarchische Algorithmus-Strukturen", nl: "Hiërarchische algoritme structuren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Algorithmic paternalism occurs when systems override individual preferences or autonomy based on algorithmic judgments about what's best for people, raising concerns about freedom, dignity, and the appropriateness of automated systems making value-laden choices for individuals.",
+          es: "El paternalismo algoritmico ocurre cuando sistemas anulan preferencias individuales o autonomia basadas en juicios algoritmicos sobre lo que es mejor para las personas, generando preocupaciones sobre libertad, dignidad y lo apropiado de sistemas automatizados haciendo elecciones cargadas de valores para individuos.",
+          de: "Algorithmischer Paternalismus tritt auf wenn Systeme individuelle Praeferenzen oder Autonomie basierend auf algorithmischen Urteilen darueber was am besten fuer Menschen ist uebersteuern, was Bedenken ueber Freiheit, Wuerde und die Angemessenheit automatisierter Systeme die wertbeladene Entscheidungen fuer Individuen treffen aufwirft.",
+          nl: "Algoritmisch paternalisme treedt op wanneer systemen individuele voorkeuren of autonomie overschrijven gebaseerd op algoritmische oordelen over wat het beste is voor mensen, wat zorgen oproept over vrijheid, waardigheid en de geschiktheid van geautomatiseerde systemen die waarde-geladen keuzes maken voor individuen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'data minimization' in algorithmic decision-making contexts?",
+          es: "Que es 'minimizacion de datos' en contextos de toma de decisiones algoritmica?",
+          de: "Was ist 'Datenminimierung' in Kontexten algorithmischer Entscheidungsfindung?",
+          nl: "Wat is 'data minimalisatie' in contexten van algoritmische besluitvorming?"
+        },
+        options: [
+          { en: "Collecting and using only the data necessary for the specific decision purpose", es: "Recolectar y usar solo los datos necesarios para el proposito de decision especifico", de: "Nur die fuer den spezifischen Entscheidungszweck notwendigen Daten sammeln und verwenden", nl: "Alleen de data verzamelen en gebruiken die nodig is voor het specifieke beslissingsdoel" },
+          { en: "Reducing file sizes of algorithmic data", es: "Reducir tamanos de archivo de datos algoritmicos", de: "Dateigroessen von algorithmischen Daten reduzieren", nl: "Bestandsgroottes van algoritmische data verkleinen" },
+          { en: "Using minimal computational resources", es: "Usar recursos computacionales minimos", de: "Minimale Rechenressourcen verwenden", nl: "Minimale computationele middelen gebruiken" },
+          { en: "Simplifying algorithms to use less data", es: "Simplificar algoritmos para usar menos datos", de: "Algorithmen vereinfachen um weniger Daten zu verwenden", nl: "Algoritmes vereenvoudigen om minder data te gebruiken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Data minimization limits data collection and processing to what is strictly necessary for the stated purpose, reducing privacy risks, limiting potential for function creep, and constraining the scope for algorithmic decision-making to appropriate bounds.",
+          es: "La minimizacion de datos limita recoleccion y procesamiento de datos a lo estrictamente necesario para el proposito declarado, reduciendo riesgos de privacidad, limitando potencial de desplazamiento de funcion y restringiendo el alcance de toma de decisiones algoritmica a limites apropiados.",
+          de: "Datenminimierung begrenzt Datensammlung und -verarbeitung auf das fuer den angegebenen Zweck strikt Notwendige, reduziert Datenschutzrisiken, begrenzt das Potenzial fuer Funktionsausweitung und beschraenkt den Umfang algorithmischer Entscheidungsfindung auf angemessene Grenzen.",
+          nl: "Data minimalisatie beperkt datacollectie en -verwerking tot wat strikt noodzakelijk is voor het aangegeven doel, wat privacyrisico's vermindert, potentieel voor functie-uitbreiding beperkt en de reikwijdte van algoritmische besluitvorming beperkt tot passende grenzen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'consent theater' in algorithmic decision contexts?",
+          es: "Que es 'teatro de consentimiento' en contextos de decision algoritmica?",
+          de: "Was ist 'Einwilligungs-Theater' in algorithmischen Entscheidungskontexten?",
+          nl: "Wat is 'toestemmingstheater' in algoritmische beslissingscontexten?"
+        },
+        options: [
+          { en: "Superficial consent mechanisms that give illusion of control without meaningful choice or understanding", es: "Mecanismos de consentimiento superficiales que dan ilusion de control sin eleccion significativa o comprension", de: "Oberflaechliche Einwilligungsmechanismen die Illusion von Kontrolle ohne bedeutungsvolle Wahl oder Verstaendnis geben", nl: "Oppervlakkige toestemmingsmechanismen die illusie van controle geven zonder betekenisvolle keuze of begrip" },
+          { en: "Public performances about consent requirements", es: "Actuaciones publicas sobre requisitos de consentimiento", de: "Oeffentliche Auffuehrungen ueber Einwilligungsanforderungen", nl: "Publieke voorstellingen over toestemmingsvereisten" },
+          { en: "Theatrical presentations of algorithm consent forms", es: "Presentaciones teatrales de formularios de consentimiento de algoritmos", de: "Theatralische Praesentationen von Algorithmus-Einwilligungsformularen", nl: "Theatrale presentaties van algoritme toestemmingsformulieren" },
+          { en: "Drama around consent violations", es: "Drama alrededor de violaciones de consentimiento", de: "Drama um Einwilligungsverletzungen", nl: "Drama rondom toestemmingsschendingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Consent theater describes situations where organizations collect consent through complex terms of service, buried settings, or take-it-or-leave-it scenarios that technically fulfill legal requirements but don't provide genuine informed consent or meaningful user control.",
+          es: "El teatro de consentimiento describe situaciones donde organizaciones recolectan consentimiento a traves de terminos de servicio complejos, configuraciones ocultas o escenarios de tomar-o-dejar que tecnicamente cumplen requisitos legales pero no proporcionan consentimiento informado genuino o control significativo del usuario.",
+          de: "Einwilligungs-Theater beschreibt Situationen wo Organisationen Einwilligung durch komplexe Nutzungsbedingungen, versteckte Einstellungen oder Friss-oder-Stirb-Szenarien sammeln die technisch rechtliche Anforderungen erfuellen aber keine echte informierte Einwilligung oder bedeutungsvolle Benutzerkontrolle bieten.",
+          nl: "Toestemmingstheater beschrijft situaties waar organisaties toestemming verzamelen via complexe gebruiksvoorwaarden, verborgen instellingen of neem-het-of-laat-het scenario's die technisch aan wettelijke vereisten voldoen maar geen echte geïnformeerde toestemming of betekenisvolle gebruikerscontrole bieden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'strategic gaming' of algorithmic systems?",
+          es: "Que es 'juego estrategico' de sistemas algoritmicos?",
+          de: "Was ist 'strategisches Gaming' von algorithmischen Systemen?",
+          nl: "Wat is 'strategisch gamen' van algoritmische systemen?"
+        },
+        options: [
+          { en: "Deliberately manipulating behavior or data to achieve favorable algorithmic outcomes", es: "Manipular deliberadamente comportamiento o datos para lograr resultados algoritmicos favorables", de: "Absichtlich Verhalten oder Daten manipulieren um guenstige algorithmische Ergebnisse zu erzielen", nl: "Opzettelijk gedrag of data manipuleren om gunstige algoritmische uitkomsten te bereiken" },
+          { en: "Using algorithms for gaming applications", es: "Usar algoritmos para aplicaciones de juegos", de: "Algorithmen fuer Gaming-Anwendungen verwenden", nl: "Algoritmes gebruiken voor gaming toepassingen" },
+          { en: "Developing strategic AI for games", es: "Desarrollar IA estrategica para juegos", de: "Strategische KI fuer Spiele entwickeln", nl: "Strategische AI ontwikkelen voor games" },
+          { en: "Competitive algorithm optimization", es: "Optimizacion competitiva de algoritmos", de: "Wettbewerbsorientierte Algorithmus-Optimierung", nl: "Competitieve algoritme optimalisatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Strategic gaming emerges when individuals or organizations learn to exploit algorithmic decision rules—such as resume keyword stuffing for hiring algorithms or teaching to the test in educational metrics—potentially undermining the system's original purpose.",
+          es: "El juego estrategico emerge cuando individuos u organizaciones aprenden a explotar reglas de decision algoritmica—como rellenar palabras clave en curriculos para algoritmos de contratacion o ensenar para el examen en metricas educativas—potencialmente socavando el proposito original del sistema.",
+          de: "Strategisches Gaming entsteht wenn Individuen oder Organisationen lernen algorithmische Entscheidungsregeln auszunutzen—wie Lebenslauf-Keyword-Stuffing fuer Einstellungsalgorithmen oder Teaching-to-the-Test bei Bildungsmetriken—was moeglicherweise den urspruenglichen Zweck des Systems untergräbt.",
+          nl: "Strategisch gamen ontstaat wanneer individuen of organisaties leren algoritmische beslissingsregels te exploiteren—zoals cv sleutelwoord vulling voor wervingsalgoritmes of lesgeven voor de test in onderwijsmetrieken—wat mogelijk het oorspronkelijke doel van het systeem ondermijnt."
+        }
       }
     ]
   };

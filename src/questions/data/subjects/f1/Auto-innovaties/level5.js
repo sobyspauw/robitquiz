@@ -319,6 +319,310 @@
                 de: "Radabdeckungen reduzieren turbulente Luft von rotierenden Rädern für engeres Folgen.",
                 nl: "Wielkappen verminderen turbulente lucht gecreëerd door draaiende wielen, wat nauw volgen makkelijker maakt."
             }
+        },
+        {
+            question: {
+                en: "What is porpoising and how is it addressed?",
+                es: "¿Qué es el porpoising y cómo se aborda?",
+                de: "Was ist Porpoising und wie wird es angegangen?",
+                nl: "Wat is porpoising en hoe wordt het aangepakt?"
+            },
+            options: ["Tire bouncing", "Aerodynamic bouncing requiring raised ride height or floor modifications", "Engine vibration", "Suspension issue"],
+            correct: 1,
+            explanation: {
+                en: "Porpoising is bouncing from aerodynamic stalling; teams address it with raised ride height, floor stays, or active suspension-like systems.",
+                es: "Porpoising es rebote por pérdida aerodinámica; equipos lo abordan con altura elevada, refuerzos de piso o sistemas similares.",
+                de: "Porpoising ist Hüpfen durch aerodynamisches Abreißen; Teams lösen es mit erhöhter Fahrhöhe oder Bodenversteifungen.",
+                nl: "Porpoising is stuiteren door aerodynamisch stallen; teams pakken het aan met verhoogde rijhoogte, vloersteun of actieve ophanging-achtige systemen."
+            }
+        },
+        {
+            question: {
+                en: "What are floor stays introduced in 2023?",
+                es: "¿Qué son los refuerzos de piso introducidos en 2023?",
+                de: "Was sind die 2023 eingeführten Bodenversteifungen?",
+                nl: "Wat zijn de vloersteunpunten geïntroduceerd in 2023?"
+            },
+            options: ["Structural supports", "Metal supports to prevent extreme floor flexing and porpoising", "Tire warmers", "Brake ducts"],
+            correct: 1,
+            explanation: {
+                en: "Floor stays are mandatory metal supports introduced in 2023 to limit floor flexing that contributed to porpoising.",
+                es: "Los refuerzos de piso son soportes metálicos obligatorios introducidos en 2023 para limitar flexión que contribuía al porpoising.",
+                de: "Bodenversteifungen sind verpflichtende Metallstützen ab 2023 zur Begrenzung von Bodenflex.",
+                nl: "Vloersteunpunten zijn verplichte metalen steunen geïntroduceerd in 2023 om vloerflexibiliteit te beperken die bijdroeg aan porpoising."
+            }
+        },
+        {
+            question: {
+                en: "What is the 2026 power unit regulation change?",
+                es: "¿Cuál es el cambio de regulación de unidad de potencia para 2026?",
+                de: "Was ist die Änderung der Antriebsregeln 2026?",
+                nl: "Wat is de power unit regelwijziging voor 2026?"
+            },
+            options: ["Pure electric", "Increased electrical power from MGU-K and removal of MGU-H", "Return to V10", "Hydrogen engines"],
+            correct: 1,
+            explanation: {
+                en: "2026 regulations remove MGU-H, increase MGU-K output to around 350kW, and mandate 100% sustainable fuel.",
+                es: "Las regulaciones 2026 eliminan MGU-H, aumentan salida de MGU-K a 350kW, y exigen combustible 100% sostenible.",
+                de: "2026-Regeln entfernen MGU-H, erhöhen MGU-K-Leistung auf etwa 350kW und schreiben 100% nachhaltigen Kraftstoff vor.",
+                nl: "Regels voor 2026 verwijderen MGU-H, verhogen MGU-K-output naar ongeveer 350kW, en verplichten 100% duurzame brandstof."
+            }
+        },
+        {
+            question: {
+                en: "Why is MGU-H being removed in 2026?",
+                es: "¿Por qué se elimina el MGU-H en 2026?",
+                de: "Warum wird MGU-H 2026 entfernt?",
+                nl: "Waarom wordt MGU-H verwijderd in 2026?"
+            },
+            options: ["Too expensive and complex with limited road car relevance", "Not effective", "Too heavy", "Environmental concerns"],
+            correct: 0,
+            explanation: {
+                en: "MGU-H is extremely complex and expensive with little relevance to road cars, making it unattractive for manufacturers.",
+                es: "MGU-H es extremadamente complejo y caro con poca relevancia para coches de calle, haciéndolo poco atractivo.",
+                de: "MGU-H ist extrem komplex und teuer mit geringer Straßenrelevanz, was es für Hersteller unattraktiv macht.",
+                nl: "MGU-H is extreem complex en duur met weinig relevantie voor straatauto's, wat het onaantrekkelijk maakt voor fabrikanten."
+            }
+        },
+        {
+            question: {
+                en: "What is the 2026 power split target?",
+                es: "¿Cuál es el objetivo de división de potencia 2026?",
+                de: "Was ist das Leistungsaufteilungsziel 2026?",
+                nl: "Wat is het vermogensverdeling doel voor 2026?"
+            },
+            options: ["100% combustion", "Roughly 50/50 between ICE and electrical power", "75/25 split", "100% electrical"],
+            correct: 1,
+            explanation: {
+                en: "2026 regulations aim for roughly equal power contribution from internal combustion engine and electrical systems.",
+                es: "Las regulaciones 2026 buscan contribución de potencia aproximadamente igual entre motor de combustión y sistemas eléctricos.",
+                de: "2026-Regeln zielen auf etwa gleiche Leistungsanteile von Verbrennungsmotor und elektrischen Systemen ab.",
+                nl: "Regels voor 2026 streven naar ongeveer gelijke vermogensbijdrage van verbrandingsmotor en elektrische systemen."
+            }
+        },
+        {
+            question: {
+                en: "What are over-the-wall limits in pit stops?",
+                es: "¿Qué son los límites over-the-wall en paradas en boxes?",
+                de: "Was sind Over-the-Wall-Limits bei Boxenstopps?",
+                nl: "Wat zijn over-the-wall limieten bij pit stops?"
+            },
+            options: ["No limits", "Maximum number of crew members allowed over pit wall", "Speed limits", "Tool restrictions"],
+            correct: 1,
+            explanation: {
+                en: "Regulations limit the number of mechanics allowed over the pit wall during pit stops to control costs and safety.",
+                es: "Las regulaciones limitan el número de mecánicos permitidos sobre el muro del pit para controlar costos y seguridad.",
+                de: "Regeln begrenzen die Anzahl der Mechaniker über der Boxenmauer um Kosten und Sicherheit zu kontrollieren.",
+                nl: "Regelgeving beperkt het aantal monteurs toegestaan over de pit wall tijdens pit stops om kosten en veiligheid te beheersen."
+            }
+        },
+        {
+            question: {
+                en: "What is the minimum pit stop time regulation introduced in 2021?",
+                es: "¿Qué es la regulación de tiempo mínimo de parada en boxes introducida en 2021?",
+                de: "Was ist die 2021 eingeführte Mindest-Boxenstoppzeit-Regelung?",
+                nl: "Wat is de minimale pit stop tijd regeling geïntroduceerd in 2021?"
+            },
+            options: ["No minimum", "0.15 seconds minimum for safety during wheel changes", "1 second minimum", "5 seconds minimum"],
+            correct: 1,
+            explanation: {
+                en: "A minimum 0.15-second delay was introduced for wheel gun operation to prevent unsafe releases from ultra-fast stops.",
+                es: "Se introdujo un retraso mínimo de 0.15 segundos en la operación de pistola de ruedas para prevenir liberaciones inseguras.",
+                de: "Eine Mindestverzögerung von 0,15 Sekunden wurde für Radmutternbetrieb eingeführt um unsichere Freigaben zu verhindern.",
+                nl: "Een minimum 0.15-seconde vertraging werd geïntroduceerd voor wielmoer operatie om onveilige vrijgaves van ultrasnelle stops te voorkomen."
+            }
+        },
+        {
+            question: {
+                en: "What are the tire blanket temperature limits?",
+                es: "¿Cuáles son los límites de temperatura de mantas para neumáticos?",
+                de: "Was sind die Temperaturlimits für Reifendecken?",
+                nl: "Wat zijn de temperatuurlimieten voor bandenwarmers?"
+            },
+            options: ["No limits", "Maximum 70°C front, 100°C rear for slicks", "All tires 50°C", "All tires 150°C"],
+            correct: 1,
+            explanation: {
+                en: "Tire blankets are limited to 70°C for fronts and 100°C for rears to reduce performance advantage from pre-heating.",
+                es: "Las mantas están limitadas a 70°C adelante y 100°C atrás para reducir ventaja de rendimiento por precalentamiento.",
+                de: "Reifendecken sind auf 70°C vorne und 100°C hinten begrenzt um Leistungsvorteil durch Vorheizen zu reduzieren.",
+                nl: "Bandenwarmers zijn beperkt tot 70°C voor en 100°C achter om prestatievoordeel van voorverwarmen te verminderen."
+            }
+        },
+        {
+            question: {
+                en: "When will tire blankets be banned?",
+                es: "¿Cuándo se prohibirán las mantas para neumáticos?",
+                de: "Wann werden Reifendecken verboten?",
+                nl: "Wanneer worden bandenwarmers verboden?"
+            },
+            options: ["2024", "2025", "2026", "2030"],
+            correct: 2,
+            explanation: {
+                en: "Tire blankets are planned to be banned from 2026 to improve sustainability and road relevance.",
+                es: "Las mantas para neumáticos se planean prohibir desde 2026 para mejorar sostenibilidad y relevancia vial.",
+                de: "Reifendecken sollen ab 2026 verboten werden um Nachhaltigkeit und Straßenrelevanz zu verbessern.",
+                nl: "Bandenwarmers zijn gepland om te worden verboden vanaf 2026 om duurzaamheid en straatrelevantie te verbeteren."
+            }
+        },
+        {
+            question: {
+                en: "What is the sprint race format impact on regulations?",
+                es: "¿Cuál es el impacto del formato de carrera sprint en las regulaciones?",
+                de: "Welchen Einfluss hat das Sprint-Rennen-Format auf Regeln?",
+                nl: "Wat is de impact van het sprint race format op reglementen?"
+            },
+            options: ["No impact", "Modified parc fermé rules allowing one practice session setup change", "Completely different cars", "No regulations"],
+            correct: 1,
+            explanation: {
+                en: "Sprint weekends modify parc fermé to allow setup changes between FP1 and qualifying, then lock after qualifying.",
+                es: "Los fines de semana sprint modifican parc fermé para permitir cambios de configuración entre FP1 y clasificación.",
+                de: "Sprint-Wochenenden ändern Parc Fermé um Setup-Änderungen zwischen FP1 und Qualifying zu erlauben.",
+                nl: "Sprint weekenden wijzigen parc fermé om setup wijzigingen tussen FP1 en kwalificatie toe te staan, daarna vergrendeld na kwalificatie."
+            }
+        },
+        {
+            question: {
+                en: "What are the overtaking metrics improvements from 2022 regulations?",
+                es: "¿Cuáles son las mejoras en métricas de adelantamiento de las regulaciones 2022?",
+                de: "Was sind die Überholverbesserungen durch 2022-Regeln?",
+                nl: "Wat zijn de inhaalstatistiek verbeteringen van de 2022 reglementen?"
+            },
+            options: ["No improvement", "Cars can follow 5-10 meters closer in corners", "Worse following", "No change"],
+            correct: 1,
+            explanation: {
+                en: "FIA data shows 2022 cars can follow 5-10 meters closer through corners compared to 2021 regulations.",
+                es: "Datos de la FIA muestran que coches 2022 pueden seguir 5-10 metros más cerca en curvas comparado con 2021.",
+                de: "FIA-Daten zeigen dass 2022-Autos 5-10 Meter näher in Kurven folgen können als 2021-Autos.",
+                nl: "FIA-gegevens tonen dat 2022-auto's 5-10 meter dichter kunnen volgen door bochten vergeleken met 2021-reglementen."
+            }
+        },
+        {
+            question: {
+                en: "What is the standardized steering wheel regulation?",
+                es: "¿Qué es la regulación de volante estandarizado?",
+                de: "Was ist die standardisierte Lenkradregelung?",
+                nl: "Wat is de gestandaardiseerde stuurwiel regeling?"
+            },
+            options: ["All teams same wheel", "Mandated button layout and safety features", "No wheels allowed", "Completely custom"],
+            correct: 1,
+            explanation: {
+                en: "While teams design their own wheels, FIA mandates specific safety button positions like neutral and pit limiter.",
+                es: "Aunque los equipos diseñan sus volantes, la FIA exige posiciones específicas de botones de seguridad.",
+                de: "Obwohl Teams ihre eigenen Lenkräder entwerfen, schreibt die FIA spezifische Sicherheitsknopfpositionen vor.",
+                nl: "Hoewel teams hun eigen sturen ontwerpen, verplicht FIA specifieke veiligheidsknoppen posities zoals neutraal en pit limiter."
+            }
+        },
+        {
+            question: {
+                en: "What is the roll hoop strength requirement?",
+                es: "¿Cuál es el requisito de resistencia del roll hoop?",
+                de: "Was ist die Festigkeitsanforderung für den Überrollbügel?",
+                nl: "Wat is de sterkte vereiste voor de roll hoop?"
+            },
+            options: ["Decorative only", "Must withstand vertical load of 116 kN (equivalent to 12 tons)", "100 kg load", "No requirement"],
+            correct: 1,
+            explanation: {
+                en: "The roll hoop must withstand a vertical load of 116 kilonewtons, equivalent to approximately 12 tons.",
+                es: "El roll hoop debe resistir una carga vertical de 116 kilonewtons, equivalente a aproximadamente 12 toneladas.",
+                de: "Der Überrollbügel muss einer vertikalen Last von 116 Kilonewton standhalten, etwa 12 Tonnen entsprechend.",
+                nl: "De roll hoop moet een verticale belasting van 116 kilonewton weerstaan, gelijk aan ongeveer 12 ton."
+            }
+        },
+        {
+            question: {
+                en: "What are the fuel system safety regulations?",
+                es: "¿Cuáles son las regulaciones de seguridad del sistema de combustible?",
+                de: "Was sind die Kraftstoffsystem-Sicherheitsvorschriften?",
+                nl: "Wat zijn de brandstof systeem veiligheidsregels?"
+            },
+            options: ["No regulations", "Crash-tested bladder tanks with automatic shutoff valves", "Metal tanks only", "Plastic containers"],
+            correct: 1,
+            explanation: {
+                en: "Fuel must be stored in FIA-approved crash-tested rubber bladder tanks with automatic shutoff systems.",
+                es: "El combustible debe almacenarse en tanques de vejiga de goma aprobados por FIA con sistemas de cierre automático.",
+                de: "Kraftstoff muss in FIA-zugelassenen crashgetesteten Gummiblasen-Tanks mit automatischen Absperrsystemen gespeichert werden.",
+                nl: "Brandstof moet worden opgeslagen in FIA-goedgekeurde crash-geteste rubber bladder tanks met automatische afsluitssystemen."
+            }
+        },
+        {
+            question: {
+                en: "What is the halo load test requirement?",
+                es: "¿Cuál es el requisito de prueba de carga del halo?",
+                de: "Was ist die Halo-Belastungstestvorgabe?",
+                nl: "Wat is de halo belastingtest vereiste?"
+            },
+            options: ["No test needed", "Must withstand 125 kN from above (12.7 tons)", "10 kg load", "Decorative only"],
+            correct: 1,
+            explanation: {
+                en: "The Halo must withstand 125 kilonewtons from above, equivalent to the weight of a double-decker bus.",
+                es: "El Halo debe resistir 125 kilonewtons desde arriba, equivalente al peso de un autobús de dos pisos.",
+                de: "Das Halo muss 125 Kilonewton von oben standhalten, dem Gewicht eines Doppeldeckerbusses entsprechend.",
+                nl: "De Halo moet 125 kilonewton van boven weerstaan, gelijk aan het gewicht van een dubbeldekker bus."
+            }
+        },
+        {
+            question: {
+                en: "What are the rear light regulations?",
+                es: "¿Cuáles son las regulaciones de luz trasera?",
+                de: "Was sind die Rücklicht-Vorschriften?",
+                nl: "Wat zijn de achterlicht reglementen?"
+            },
+            options: ["Optional", "Mandatory red rain light and high-visibility mode", "No lights needed", "Headlights only"],
+            correct: 1,
+            explanation: {
+                en: "Cars must have a working rear rain light and high-visibility flashing mode for low visibility conditions.",
+                es: "Los coches deben tener luz trasera de lluvia funcional y modo intermitente de alta visibilidad.",
+                de: "Autos müssen ein funktionierendes Regenlicht und blinkenden Hochsichtbarkeitsmodus für schlechte Sicht haben.",
+                nl: "Auto's moeten een werkend achter regenlicht hebben en hoge zichtbaarheid knippermodus voor lage zichtbaarheidsomstandigheden."
+            }
+        },
+        {
+            question: {
+                en: "What is the camera mounting regulation?",
+                es: "¿Qué es la regulación de montaje de cámara?",
+                de: "Was ist die Kameramontageregelung?",
+                nl: "Wat is de camera montage regeling?"
+            },
+            options: ["No cameras required", "Minimum 6 FIA-mandated camera positions", "Teams choose locations", "1 camera only"],
+            correct: 1,
+            explanation: {
+                en: "Teams must mount at least 6 FIA-specified cameras for broadcast, including onboard, rear-facing, and 360-degree views.",
+                es: "Los equipos deben montar al menos 6 cámaras especificadas por FIA para transmisión.",
+                de: "Teams müssen mindestens 6 FIA-spezifizierte Kameras für Übertragung montieren.",
+                nl: "Teams moeten minimaal 6 FIA-gespecificeerde camera's monteren voor uitzending, inclusief onboard, achterwaarts en 360-graden views."
+            }
+        },
+        {
+            question: {
+                en: "What are the driver extraction time requirements?",
+                es: "¿Cuáles son los requisitos de tiempo de extracción del piloto?",
+                de: "Was sind die Anforderungen an die Fahrerextraktionszeit?",
+                nl: "Wat zijn de coureur extractie tijd vereisten?"
+            },
+            options: ["No requirement", "Driver must be able to exit car within 10 seconds", "30 seconds", "No time limit"],
+            correct: 1,
+            explanation: {
+                en: "Drivers must demonstrate they can remove the steering wheel and exit the car within 10 seconds during safety tests.",
+                es: "Los pilotos deben demostrar que pueden quitar el volante y salir del coche en 10 segundos durante pruebas de seguridad.",
+                de: "Fahrer müssen zeigen dass sie Lenkrad entfernen und Auto in 10 Sekunden verlassen können bei Sicherheitstests.",
+                nl: "Coureurs moeten aantonen dat ze het stuur kunnen verwijderen en binnen 10 seconden de auto kunnen verlaten tijdens veiligheidstests."
+            }
+        },
+        {
+            question: {
+                en: "What is the survival cell side impact test requirement?",
+                es: "¿Cuál es el requisito de prueba de impacto lateral de la célula de supervivencia?",
+                de: "Was ist die Seitenaufprall-Testvorgabe für die Überlebenszelle?",
+                nl: "Wat is de veiligheidscel zij-impact test vereiste?"
+            },
+            options: ["No test", "Must absorb energy from 10 m/s impact", "5 m/s impact", "Visual inspection only"],
+            correct: 1,
+            explanation: {
+                en: "The survival cell must pass side impact tests at 10 meters per second to protect drivers in T-bone collisions.",
+                es: "La célula de supervivencia debe pasar pruebas de impacto lateral a 10 metros por segundo para proteger en colisiones laterales.",
+                de: "Die Überlebenszelle muss Seitenaufpralltests bei 10 Metern pro Sekunde bestehen um Fahrer bei T-Bone-Kollisionen zu schützen.",
+                nl: "De veiligheidscel moet zij-impact tests doorstaan bij 10 meter per seconde om coureurs te beschermen bij T-bone botsingen."
+            }
         }
     ];
 

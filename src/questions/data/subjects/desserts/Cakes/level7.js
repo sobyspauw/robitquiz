@@ -426,7 +426,427 @@
           es: "La masa laminada usa técnica específica donde mantequilla se encierra en masa y se pliega repetidamente para crear cientos de capas distintas (como croissants, hojaldre), mientras masa enriquecida simplemente mezcla mantequilla en la masa (como brioche).",
           de: "Laminierter Teig verwendet eine spezifische Technik wo Butter in Teig eingeschlossen und wiederholt gefaltet wird um Hunderte deutliche Schichten zu schaffen (wie Croissants, Blätterteig), während angereicherter Teig einfach Butter in den Teig mischt (wie Brioche).",
           nl: "Gelamineerd deeg gebruikt een specifieke techniek waarbij boter wordt ingesloten in deeg en herhaaldelijk wordt gevouwen om honderden duidelijke lagen te creëren (zoals croissants, bladerdeeg), terwijl verrijkt deeg eenvoudig boter in het deeg mengt (zoals brioche)."
-        }
+        }    },
+    {
+      question: {
+        en: "What is the main ingredient in sponge cake?",
+        es: "What is the main ingredient in sponge cake?",
+        de: "What is the main ingredient in sponge cake?",
+        nl: "What is the main ingredient in sponge cake?"
+      },
+      options: [
+        { en: "Eggs", es: "Eggs", de: "Eggs", nl: "Eggs" },
+        { en: "Butter", es: "Butter", de: "Butter", nl: "Butter" },
+        { en: "Flour", es: "Flour", de: "Flour", nl: "Flour" },
+        { en: "Sugar", es: "Sugar", de: "Sugar", nl: "Sugar" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Eggs are the key ingredient that gives sponge cake its light, airy texture through whipped air incorporation.",
+        es: "Eggs are the key ingredient that gives sponge cake its light, airy texture through whipped air incorporation.",
+        de: "Eggs are the key ingredient that gives sponge cake its light, airy texture through whipped air incorporation.",
+        nl: "Eggs are the key ingredient that gives sponge cake its light, airy texture through whipped air incorporation."
+      }
+    },
+    {
+      question: {
+        en: "What country is the Black Forest cake from?",
+        es: "What country is the Black Forest cake from?",
+        de: "What country is the Black Forest cake from?",
+        nl: "What country is the Black Forest cake from?"
+      },
+      options: [
+        { en: "Germany", es: "Germany", de: "Germany", nl: "Germany" },
+        { en: "France", es: "France", de: "France", nl: "France" },
+        { en: "Austria", es: "Austria", de: "Austria", nl: "Austria" },
+        { en: "Switzerland", es: "Switzerland", de: "Switzerland", nl: "Switzerland" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Black Forest cake (Schwarzwälder Kirschtorte) originated in the Black Forest region of Germany.",
+        es: "Black Forest cake (Schwarzwälder Kirschtorte) originated in the Black Forest region of Germany.",
+        de: "Black Forest cake (Schwarzwälder Kirschtorte) originated in the Black Forest region of Germany.",
+        nl: "Black Forest cake (Schwarzwälder Kirschtorte) originated in the Black Forest region of Germany."
+      }
+    },
+    {
+      question: {
+        en: "What is a bundt cake?",
+        es: "What is a bundt cake?",
+        de: "What is a bundt cake?",
+        nl: "What is a bundt cake?"
+      },
+      options: [
+        { en: "Cake baked in a ring-shaped pan", es: "Cake baked in a ring-shaped pan", de: "Cake baked in a ring-shaped pan", nl: "Cake baked in a ring-shaped pan" },
+        { en: "Layered cake", es: "Layered cake", de: "Layered cake", nl: "Layered cake" },
+        { en: "Sheet cake", es: "Sheet cake", de: "Sheet cake", nl: "Sheet cake" },
+        { en: "Cupcake", es: "Cupcake", de: "Cupcake", nl: "Cupcake" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A bundt cake is baked in a distinctive ring-shaped bundt pan with decorative fluting.",
+        es: "A bundt cake is baked in a distinctive ring-shaped bundt pan with decorative fluting.",
+        de: "A bundt cake is baked in a distinctive ring-shaped bundt pan with decorative fluting.",
+        nl: "A bundt cake is baked in a distinctive ring-shaped bundt pan with decorative fluting."
+      }
+    },
+    {
+      question: {
+        en: "What is angel food cake known for?",
+        es: "What is angel food cake known for?",
+        de: "What is angel food cake known for?",
+        nl: "What is angel food cake known for?"
+      },
+      options: [
+        { en: "Being light and fat-free", es: "Being light and fat-free", de: "Being light and fat-free", nl: "Being light and fat-free" },
+        { en: "Rich chocolate flavor", es: "Rich chocolate flavor", de: "Rich chocolate flavor", nl: "Rich chocolate flavor" },
+        { en: "Heavy texture", es: "Heavy texture", de: "Heavy texture", nl: "Heavy texture" },
+        { en: "Cream cheese frosting", es: "Cream cheese frosting", de: "Cream cheese frosting", nl: "Cream cheese frosting" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Angel food cake is light, fluffy, and contains no fat - made primarily from egg whites, sugar, and flour.",
+        es: "Angel food cake is light, fluffy, and contains no fat - made primarily from egg whites, sugar, and flour.",
+        de: "Angel food cake is light, fluffy, and contains no fat - made primarily from egg whites, sugar, and flour.",
+        nl: "Angel food cake is light, fluffy, and contains no fat - made primarily from egg whites, sugar, and flour."
+      }
+    },
+    {
+      question: {
+        en: "What is the traditional frosting for red velvet cake?",
+        es: "What is the traditional frosting for red velvet cake?",
+        de: "What is the traditional frosting for red velvet cake?",
+        nl: "What is the traditional frosting for red velvet cake?"
+      },
+      options: [
+        { en: "Cream cheese frosting", es: "Cream cheese frosting", de: "Cream cheese frosting", nl: "Cream cheese frosting" },
+        { en: "Buttercream", es: "Buttercream", de: "Buttercream", nl: "Buttercream" },
+        { en: "Ganache", es: "Ganache", de: "Ganache", nl: "Ganache" },
+        { en: "Whipped cream", es: "Whipped cream", de: "Whipped cream", nl: "Whipped cream" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Traditional red velvet cake is topped with cream cheese frosting, complementing its subtle cocoa flavor.",
+        es: "Traditional red velvet cake is topped with cream cheese frosting, complementing its subtle cocoa flavor.",
+        de: "Traditional red velvet cake is topped with cream cheese frosting, complementing its subtle cocoa flavor.",
+        nl: "Traditional red velvet cake is topped with cream cheese frosting, complementing its subtle cocoa flavor."
+      }
+    },
+    {
+      question: {
+        en: "What makes a pound cake?",
+        es: "What makes a pound cake?",
+        de: "What makes a pound cake?",
+        nl: "What makes a pound cake?"
+      },
+      options: [
+        { en: "Equal weights of butter, sugar, eggs, flour", es: "Equal weights of butter, sugar, eggs, flour", de: "Equal weights of butter, sugar, eggs, flour", nl: "Equal weights of butter, sugar, eggs, flour" },
+        { en: "It weighs one pound", es: "It weighs one pound", de: "It weighs one pound", nl: "It weighs one pound" },
+        { en: "Contains a pound of chocolate", es: "Contains a pound of chocolate", de: "Contains a pound of chocolate", nl: "Contains a pound of chocolate" },
+        { en: "Served by the pound", es: "Served by the pound", de: "Served by the pound", nl: "Served by the pound" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Traditional pound cake uses equal weights (originally one pound each) of butter, sugar, eggs, and flour.",
+        es: "Traditional pound cake uses equal weights (originally one pound each) of butter, sugar, eggs, and flour.",
+        de: "Traditional pound cake uses equal weights (originally one pound each) of butter, sugar, eggs, and flour.",
+        nl: "Traditional pound cake uses equal weights (originally one pound each) of butter, sugar, eggs, and flour."
+      }
+    },
+    {
+      question: {
+        en: "What is tres leches cake soaked in?",
+        es: "What is tres leches cake soaked in?",
+        de: "What is tres leches cake soaked in?",
+        nl: "What is tres leches cake soaked in?"
+      },
+      options: [
+        { en: "Three types of milk", es: "Three types of milk", de: "Three types of milk", nl: "Three types of milk" },
+        { en: "Coffee", es: "Coffee", de: "Coffee", nl: "Coffee" },
+        { en: "Rum", es: "Rum", de: "Rum", nl: "Rum" },
+        { en: "Fruit syrup", es: "Fruit syrup", de: "Fruit syrup", nl: "Fruit syrup" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Tres leches cake is soaked in three milks: evaporated milk, condensed milk, and heavy cream.",
+        es: "Tres leches cake is soaked in three milks: evaporated milk, condensed milk, and heavy cream.",
+        de: "Tres leches cake is soaked in three milks: evaporated milk, condensed milk, and heavy cream.",
+        nl: "Tres leches cake is soaked in three milks: evaporated milk, condensed milk, and heavy cream."
+      }
+    },
+    {
+      question: {
+        en: "What is a chiffon cake?",
+        es: "What is a chiffon cake?",
+        de: "What is a chiffon cake?",
+        nl: "What is a chiffon cake?"
+      },
+      options: [
+        { en: "Light cake made with oil", es: "Light cake made with oil", de: "Light cake made with oil", nl: "Light cake made with oil" },
+        { en: "Dense butter cake", es: "Dense butter cake", de: "Dense butter cake", nl: "Dense butter cake" },
+        { en: "Flourless cake", es: "Flourless cake", de: "Flourless cake", nl: "Flourless cake" },
+        { en: "Frozen cake", es: "Frozen cake", de: "Frozen cake", nl: "Frozen cake" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Chiffon cake is a light, airy cake made with vegetable oil instead of butter.",
+        es: "Chiffon cake is a light, airy cake made with vegetable oil instead of butter.",
+        de: "Chiffon cake is a light, airy cake made with vegetable oil instead of butter.",
+        nl: "Chiffon cake is a light, airy cake made with vegetable oil instead of butter."
+      }
+    },
+    {
+      question: {
+        en: "What is genoise?",
+        es: "What is genoise?",
+        de: "What is genoise?",
+        nl: "What is genoise?"
+      },
+      options: [
+        { en: "Italian sponge cake", es: "Italian sponge cake", de: "Italian sponge cake", nl: "Italian sponge cake" },
+        { en: "French chocolate cake", es: "French chocolate cake", de: "French chocolate cake", nl: "French chocolate cake" },
+        { en: "German fruit cake", es: "German fruit cake", de: "German fruit cake", nl: "German fruit cake" },
+        { en: "Austrian nut cake", es: "Austrian nut cake", de: "Austrian nut cake", nl: "Austrian nut cake" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Genoise is a light Italian sponge cake made with whole eggs whipped with sugar.",
+        es: "Genoise is a light Italian sponge cake made with whole eggs whipped with sugar.",
+        de: "Genoise is a light Italian sponge cake made with whole eggs whipped with sugar.",
+        nl: "Genoise is a light Italian sponge cake made with whole eggs whipped with sugar."
+      }
+    },
+    {
+      question: {
+        en: "What is upside-down cake?",
+        es: "What is upside-down cake?",
+        de: "What is upside-down cake?",
+        nl: "What is upside-down cake?"
+      },
+      options: [
+        { en: "Fruit on bottom, flipped when baked", es: "Fruit on bottom, flipped when baked", de: "Fruit on bottom, flipped when baked", nl: "Fruit on bottom, flipped when baked" },
+        { en: "Cake with holes", es: "Cake with holes", de: "Cake with holes", nl: "Cake with holes" },
+        { en: "Inverted layers", es: "Inverted layers", de: "Inverted layers", nl: "Inverted layers" },
+        { en: "Cake served upside down", es: "Cake served upside down", de: "Cake served upside down", nl: "Cake served upside down" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Upside-down cake has fruit and caramel on the pan bottom, then flipped after baking so fruit is on top.",
+        es: "Upside-down cake has fruit and caramel on the pan bottom, then flipped after baking so fruit is on top.",
+        de: "Upside-down cake has fruit and caramel on the pan bottom, then flipped after baking so fruit is on top.",
+        nl: "Upside-down cake has fruit and caramel on the pan bottom, then flipped after baking so fruit is on top."
+      }
+    },
+    {
+      question: {
+        en: "What is a flourless cake made with?",
+        es: "What is a flourless cake made with?",
+        de: "What is a flourless cake made with?",
+        nl: "What is a flourless cake made with?"
+      },
+      options: [
+        { en: "Ground nuts or chocolate", es: "Ground nuts or chocolate", de: "Ground nuts or chocolate", nl: "Ground nuts or chocolate" },
+        { en: "Rice flour", es: "Rice flour", de: "Rice flour", nl: "Rice flour" },
+        { en: "Cornmeal", es: "Cornmeal", de: "Cornmeal", nl: "Cornmeal" },
+        { en: "Potato starch", es: "Potato starch", de: "Potato starch", nl: "Potato starch" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Flourless cakes typically use ground almonds, hazelnuts, or pure chocolate as the structure instead of wheat flour.",
+        es: "Flourless cakes typically use ground almonds, hazelnuts, or pure chocolate as the structure instead of wheat flour.",
+        de: "Flourless cakes typically use ground almonds, hazelnuts, or pure chocolate as the structure instead of wheat flour.",
+        nl: "Flourless cakes typically use ground almonds, hazelnuts, or pure chocolate as the structure instead of wheat flour."
+      }
+    },
+    {
+      question: {
+        en: "What is Battenberg cake?",
+        es: "What is Battenberg cake?",
+        de: "What is Battenberg cake?",
+        nl: "What is Battenberg cake?"
+      },
+      options: [
+        { en: "Pink and yellow checkered cake", es: "Pink and yellow checkered cake", de: "Pink and yellow checkered cake", nl: "Pink and yellow checkered cake" },
+        { en: "Chocolate layer cake", es: "Chocolate layer cake", de: "Chocolate layer cake", nl: "Chocolate layer cake" },
+        { en: "Fruit cake", es: "Fruit cake", de: "Fruit cake", nl: "Fruit cake" },
+        { en: "Sponge roll", es: "Sponge roll", de: "Sponge roll", nl: "Sponge roll" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Battenberg is a light sponge cake with pink and yellow squares arranged in a checkered pattern, wrapped in marzipan.",
+        es: "Battenberg is a light sponge cake with pink and yellow squares arranged in a checkered pattern, wrapped in marzipan.",
+        de: "Battenberg is a light sponge cake with pink and yellow squares arranged in a checkered pattern, wrapped in marzipan.",
+        nl: "Battenberg is a light sponge cake with pink and yellow squares arranged in a checkered pattern, wrapped in marzipan."
+      }
+    },
+    {
+      question: {
+        en: "What is a sheet cake?",
+        es: "What is a sheet cake?",
+        de: "What is a sheet cake?",
+        nl: "What is a sheet cake?"
+      },
+      options: [
+        { en: "Flat cake baked in a sheet pan", es: "Flat cake baked in a sheet pan", de: "Flat cake baked in a sheet pan", nl: "Flat cake baked in a sheet pan" },
+        { en: "Layered cake", es: "Layered cake", de: "Layered cake", nl: "Layered cake" },
+        { en: "Ring-shaped cake", es: "Ring-shaped cake", de: "Ring-shaped cake", nl: "Ring-shaped cake" },
+        { en: "Individual cake", es: "Individual cake", de: "Individual cake", nl: "Individual cake" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Sheet cake is a flat, single-layer cake baked in a large, shallow rectangular pan.",
+        es: "Sheet cake is a flat, single-layer cake baked in a large, shallow rectangular pan.",
+        de: "Sheet cake is a flat, single-layer cake baked in a large, shallow rectangular pan.",
+        nl: "Sheet cake is a flat, single-layer cake baked in a large, shallow rectangular pan."
+      }
+    },
+    {
+      question: {
+        en: "What is the difference between cake and torte?",
+        es: "What is the difference between cake and torte?",
+        de: "What is the difference between cake and torte?",
+        nl: "What is the difference between cake and torte?"
+      },
+      options: [
+        { en: "Torte uses less flour, more eggs/nuts", es: "Torte uses less flour, more eggs/nuts", de: "Torte uses less flour, more eggs/nuts", nl: "Torte uses less flour, more eggs/nuts" },
+        { en: "Torte has frosting", es: "Torte has frosting", de: "Torte has frosting", nl: "Torte has frosting" },
+        { en: "Cake is denser", es: "Cake is denser", de: "Cake is denser", nl: "Cake is denser" },
+        { en: "No difference", es: "No difference", de: "No difference", nl: "No difference" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Tortes typically use ground nuts or breadcrumbs instead of much flour, and contain more eggs than traditional cakes.",
+        es: "Tortes typically use ground nuts or breadcrumbs instead of much flour, and contain more eggs than traditional cakes.",
+        de: "Tortes typically use ground nuts or breadcrumbs instead of much flour, and contain more eggs than traditional cakes.",
+        nl: "Tortes typically use ground nuts or breadcrumbs instead of much flour, and contain more eggs than traditional cakes."
+      }
+    },
+    {
+      question: {
+        en: "What is opera cake?",
+        es: "What is opera cake?",
+        de: "What is opera cake?",
+        nl: "What is opera cake?"
+      },
+      options: [
+        { en: "French almond sponge with coffee buttercream", es: "French almond sponge with coffee buttercream", de: "French almond sponge with coffee buttercream", nl: "French almond sponge with coffee buttercream" },
+        { en: "Italian cream cake", es: "Italian cream cake", de: "Italian cream cake", nl: "Italian cream cake" },
+        { en: "German chocolate cake", es: "German chocolate cake", de: "German chocolate cake", nl: "German chocolate cake" },
+        { en: "Austrian apple cake", es: "Austrian apple cake", de: "Austrian apple cake", nl: "Austrian apple cake" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Opera cake is a French cake with layers of almond sponge soaked in coffee syrup, layered with coffee buttercream and chocolate ganache.",
+        es: "Opera cake is a French cake with layers of almond sponge soaked in coffee syrup, layered with coffee buttercream and chocolate ganache.",
+        de: "Opera cake is a French cake with layers of almond sponge soaked in coffee syrup, layered with coffee buttercream and chocolate ganache.",
+        nl: "Opera cake is a French cake with layers of almond sponge soaked in coffee syrup, layered with coffee buttercream and chocolate ganache."
+      }
+    },
+    {
+      question: {
+        en: "What is devil's food cake?",
+        es: "What is devil's food cake?",
+        de: "What is devil's food cake?",
+        nl: "What is devil's food cake?"
+      },
+      options: [
+        { en: "Rich chocolate cake", es: "Rich chocolate cake", de: "Rich chocolate cake", nl: "Rich chocolate cake" },
+        { en: "Spicy cake", es: "Spicy cake", de: "Spicy cake", nl: "Spicy cake" },
+        { en: "Dark fruit cake", es: "Dark fruit cake", de: "Dark fruit cake", nl: "Dark fruit cake" },
+        { en: "Red cake", es: "Red cake", de: "Red cake", nl: "Red cake" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Devil's food cake is a rich, moist chocolate cake, often considered the chocolate counterpart to angel food cake.",
+        es: "Devil's food cake is a rich, moist chocolate cake, often considered the chocolate counterpart to angel food cake.",
+        de: "Devil's food cake is a rich, moist chocolate cake, often considered the chocolate counterpart to angel food cake.",
+        nl: "Devil's food cake is a rich, moist chocolate cake, often considered the chocolate counterpart to angel food cake."
+      }
+    },
+    {
+      question: {
+        en: "What is a marble cake?",
+        es: "What is a marble cake?",
+        de: "What is a marble cake?",
+        nl: "What is a marble cake?"
+      },
+      options: [
+        { en: "Vanilla and chocolate swirled together", es: "Vanilla and chocolate swirled together", de: "Vanilla and chocolate swirled together", nl: "Vanilla and chocolate swirled together" },
+        { en: "Cake with nuts", es: "Cake with nuts", de: "Cake with nuts", nl: "Cake with nuts" },
+        { en: "Layered cake", es: "Layered cake", de: "Layered cake", nl: "Layered cake" },
+        { en: "Glazed cake", es: "Glazed cake", de: "Glazed cake", nl: "Glazed cake" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Marble cake features vanilla and chocolate batters swirled together to create a marbled pattern.",
+        es: "Marble cake features vanilla and chocolate batters swirled together to create a marbled pattern.",
+        de: "Marble cake features vanilla and chocolate batters swirled together to create a marbled pattern.",
+        nl: "Marble cake features vanilla and chocolate batters swirled together to create a marbled pattern."
+      }
+    },
+    {
+      question: {
+        en: "What is a dump cake?",
+        es: "What is a dump cake?",
+        de: "What is a dump cake?",
+        nl: "What is a dump cake?"
+      },
+      options: [
+        { en: "Cake made by dumping ingredients in pan", es: "Cake made by dumping ingredients in pan", de: "Cake made by dumping ingredients in pan", nl: "Cake made by dumping ingredients in pan" },
+        { en: "Failed cake", es: "Failed cake", de: "Failed cake", nl: "Failed cake" },
+        { en: "Upside down cake", es: "Upside down cake", de: "Upside down cake", nl: "Upside down cake" },
+        { en: "Layered cake", es: "Layered cake", de: "Layered cake", nl: "Layered cake" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Dump cake is made by dumping ingredients directly into the baking pan without mixing - typically fruit, cake mix, and butter.",
+        es: "Dump cake is made by dumping ingredients directly into the baking pan without mixing - typically fruit, cake mix, and butter.",
+        de: "Dump cake is made by dumping ingredients directly into the baking pan without mixing - typically fruit, cake mix, and butter.",
+        nl: "Dump cake is made by dumping ingredients directly into the baking pan without mixing - typically fruit, cake mix, and butter."
+      }
+    },
+    {
+      question: {
+        en: "What is Baumkuchen?",
+        es: "What is Baumkuchen?",
+        de: "What is Baumkuchen?",
+        nl: "What is Baumkuchen?"
+      },
+      options: [
+        { en: "German tree ring cake", es: "German tree ring cake", de: "German tree ring cake", nl: "German tree ring cake" },
+        { en: "French sponge cake", es: "French sponge cake", de: "French sponge cake", nl: "French sponge cake" },
+        { en: "Italian nut cake", es: "Italian nut cake", de: "Italian nut cake", nl: "Italian nut cake" },
+        { en: "Austrian chocolate cake", es: "Austrian chocolate cake", de: "Austrian chocolate cake", nl: "Austrian chocolate cake" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Baumkuchen is a German cake baked in thin layers on a rotating spit, creating rings that resemble tree rings when sliced.",
+        es: "Baumkuchen is a German cake baked in thin layers on a rotating spit, creating rings that resemble tree rings when sliced.",
+        de: "Baumkuchen is a German cake baked in thin layers on a rotating spit, creating rings that resemble tree rings when sliced.",
+        nl: "Baumkuchen is a German cake baked in thin layers on a rotating spit, creating rings that resemble tree rings when sliced."
+      }
+    },
+    {
+      question: {
+        en: "What is the purpose of creaming butter and sugar?",
+        es: "What is the purpose of creaming butter and sugar?",
+        de: "What is the purpose of creaming butter and sugar?",
+        nl: "What is the purpose of creaming butter and sugar?"
+      },
+      options: [
+        { en: "Incorporate air for lightness", es: "Incorporate air for lightness", de: "Incorporate air for lightness", nl: "Incorporate air for lightness" },
+        { en: "Add flavor", es: "Add flavor", de: "Add flavor", nl: "Add flavor" },
+        { en: "Dissolve sugar", es: "Dissolve sugar", de: "Dissolve sugar", nl: "Dissolve sugar" },
+        { en: "Melt butter", es: "Melt butter", de: "Melt butter", nl: "Melt butter" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Creaming butter and sugar together incorporates air into the mixture, creating a lighter cake texture.",
+        es: "Creaming butter and sugar together incorporates air into the mixture, creating a lighter cake texture.",
+        de: "Creaming butter and sugar together incorporates air into the mixture, creating a lighter cake texture.",
+        nl: "Creaming butter and sugar together incorporates air into the mixture, creating a lighter cake texture."
+      }
+
       }
     ]
   };

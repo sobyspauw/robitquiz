@@ -426,7 +426,427 @@
           es: "La evidencia arqueológica de los pueblos de trabajadores muestra panaderías y cervecerías a gran escala que producían pan y cerveza, los alimentos básicos del antiguo Egipto. Estas instalaciones podían alimentar a miles de trabajadores diariamente, demostrando organización logística sofisticada.",
           de: "Archäologische Beweise aus Arbeiterdörfern zeigen großangelegte Bäckereien und Brauereien, die Brot und Bier produzierten—die Grundnahrungsmittel des alten Ägypten. Diese Einrichtungen konnten täglich Tausende von Arbeitern ernähren und demonstrierten ausgeklügelte logistische Organisation.",
           nl: "Archeologisch bewijs uit werkersdorpen toont grootschalige bakkerijen en brouwerijen die brood en bier produceerden—de basisvoedingsmiddelen van het oude Egypte. Deze faciliteiten konden dagelijks duizenden arbeiders voeden, wat geavanceerde logistieke organisatie aantoont."
-        }
+        }    },
+    {
+      question: {
+        en: "What is the Great Pyramid also called?",
+        es: "What is the Great Pyramid also called?",
+        de: "What is the Great Pyramid also called?",
+        nl: "What is the Great Pyramid also called?"
+      },
+      options: [
+        { en: "Pyramid of Khufu/Cheops", es: "Pyramid of Khufu/Cheops", de: "Pyramid of Khufu/Cheops", nl: "Pyramid of Khufu/Cheops" },
+        { en: "Pyramid of Khafre", es: "Pyramid of Khafre", de: "Pyramid of Khafre", nl: "Pyramid of Khafre" },
+        { en: "Pyramid of Giza", es: "Pyramid of Giza", de: "Pyramid of Giza", nl: "Pyramid of Giza" },
+        { en: "Pyramid of Egypt", es: "Pyramid of Egypt", de: "Pyramid of Egypt", nl: "Pyramid of Egypt" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Great Pyramid is also known as the Pyramid of Khufu (or Cheops in Greek).",
+        es: "The Great Pyramid is also known as the Pyramid of Khufu (or Cheops in Greek).",
+        de: "The Great Pyramid is also known as the Pyramid of Khufu (or Cheops in Greek).",
+        nl: "The Great Pyramid is also known as the Pyramid of Khufu (or Cheops in Greek)."
+      }
+    },
+    {
+      question: {
+        en: "Where are the three main pyramids located?",
+        es: "Where are the three main pyramids located?",
+        de: "Where are the three main pyramids located?",
+        nl: "Where are the three main pyramids located?"
+      },
+      options: [
+        { en: "Giza plateau", es: "Giza plateau", de: "Giza plateau", nl: "Giza plateau" },
+        { en: "Luxor", es: "Luxor", de: "Luxor", nl: "Luxor" },
+        { en: "Cairo city center", es: "Cairo city center", de: "Cairo city center", nl: "Cairo city center" },
+        { en: "Saqqara", es: "Saqqara", de: "Saqqara", nl: "Saqqara" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The three famous pyramids of Khufu, Khafre, and Menkaure are on the Giza plateau.",
+        es: "The three famous pyramids of Khufu, Khafre, and Menkaure are on the Giza plateau.",
+        de: "The three famous pyramids of Khufu, Khafre, and Menkaure are on the Giza plateau.",
+        nl: "The three famous pyramids of Khufu, Khafre, and Menkaure are on the Giza plateau."
+      }
+    },
+    {
+      question: {
+        en: "What was the purpose of pyramids?",
+        es: "What was the purpose of pyramids?",
+        de: "What was the purpose of pyramids?",
+        nl: "What was the purpose of pyramids?"
+      },
+      options: [
+        { en: "Royal tombs and monuments", es: "Royal tombs and monuments", de: "Royal tombs and monuments", nl: "Royal tombs and monuments" },
+        { en: "Temples", es: "Temples", de: "Temples", nl: "Temples" },
+        { en: "Observatories", es: "Observatories", de: "Observatories", nl: "Observatories" },
+        { en: "Fortresses", es: "Fortresses", de: "Fortresses", nl: "Fortresses" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pyramids served as elaborate tombs and monuments for pharaohs.",
+        es: "Pyramids served as elaborate tombs and monuments for pharaohs.",
+        de: "Pyramids served as elaborate tombs and monuments for pharaohs.",
+        nl: "Pyramids served as elaborate tombs and monuments for pharaohs."
+      }
+    },
+    {
+      question: {
+        en: "What is the oldest pyramid?",
+        es: "What is the oldest pyramid?",
+        de: "What is the oldest pyramid?",
+        nl: "What is the oldest pyramid?"
+      },
+      options: [
+        { en: "Step Pyramid of Djoser", es: "Step Pyramid of Djoser", de: "Step Pyramid of Djoser", nl: "Step Pyramid of Djoser" },
+        { en: "Great Pyramid", es: "Great Pyramid", de: "Great Pyramid", nl: "Great Pyramid" },
+        { en: "Bent Pyramid", es: "Bent Pyramid", de: "Bent Pyramid", nl: "Bent Pyramid" },
+        { en: "Red Pyramid", es: "Red Pyramid", de: "Red Pyramid", nl: "Red Pyramid" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Step Pyramid at Saqqara, built for Djoser, is Egypt's oldest pyramid.",
+        es: "The Step Pyramid at Saqqara, built for Djoser, is Egypt's oldest pyramid.",
+        de: "The Step Pyramid at Saqqara, built for Djoser, is Egypt's oldest pyramid.",
+        nl: "The Step Pyramid at Saqqara, built for Djoser, is Egypt's oldest pyramid."
+      }
+    },
+    {
+      question: {
+        en: "Who designed the Step Pyramid?",
+        es: "Who designed the Step Pyramid?",
+        de: "Who designed the Step Pyramid?",
+        nl: "Who designed the Step Pyramid?"
+      },
+      options: [
+        { en: "Imhotep", es: "Imhotep", de: "Imhotep", nl: "Imhotep" },
+        { en: "Khufu", es: "Khufu", de: "Khufu", nl: "Khufu" },
+        { en: "Sneferu", es: "Sneferu", de: "Sneferu", nl: "Sneferu" },
+        { en: "Hemiunu", es: "Hemiunu", de: "Hemiunu", nl: "Hemiunu" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Imhotep, Djoser's vizier, is credited with designing the Step Pyramid.",
+        es: "Imhotep, Djoser's vizier, is credited with designing the Step Pyramid.",
+        de: "Imhotep, Djoser's vizier, is credited with designing the Step Pyramid.",
+        nl: "Imhotep, Djoser's vizier, is credited with designing the Step Pyramid."
+      }
+    },
+    {
+      question: {
+        en: "How many pyramids are in Egypt?",
+        es: "How many pyramids are in Egypt?",
+        de: "How many pyramids are in Egypt?",
+        nl: "How many pyramids are in Egypt?"
+      },
+      options: [
+        { en: "Over 100", es: "Over 100", de: "Over 100", nl: "Over 100" },
+        { en: "Three", es: "Three", de: "Three", nl: "Three" },
+        { en: "Ten", es: "Ten", de: "Ten", nl: "Ten" },
+        { en: "Fifty", es: "Fifty", de: "Fifty", nl: "Fifty" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Archaeologists have identified over 100 pyramids in Egypt.",
+        es: "Archaeologists have identified over 100 pyramids in Egypt.",
+        de: "Archaeologists have identified over 100 pyramids in Egypt.",
+        nl: "Archaeologists have identified over 100 pyramids in Egypt."
+      }
+    },
+    {
+      question: {
+        en: "What aligned the pyramids?",
+        es: "What aligned the pyramids?",
+        de: "What aligned the pyramids?",
+        nl: "What aligned the pyramids?"
+      },
+      options: [
+        { en: "Cardinal directions (north, south, east, west)", es: "Cardinal directions (north, south, east, west)", de: "Cardinal directions (north, south, east, west)", nl: "Cardinal directions (north, south, east, west)" },
+        { en: "Stars", es: "Stars", de: "Stars", nl: "Stars" },
+        { en: "Rivers", es: "Rivers", de: "Rivers", nl: "Rivers" },
+        { en: "Random placement", es: "Random placement", de: "Random placement", nl: "Random placement" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The pyramids are precisely aligned with the cardinal directions.",
+        es: "The pyramids are precisely aligned with the cardinal directions.",
+        de: "The pyramids are precisely aligned with the cardinal directions.",
+        nl: "The pyramids are precisely aligned with the cardinal directions."
+      }
+    },
+    {
+      question: {
+        en: "What covered the pyramids originally?",
+        es: "What covered the pyramids originally?",
+        de: "What covered the pyramids originally?",
+        nl: "What covered the pyramids originally?"
+      },
+      options: [
+        { en: "Smooth white limestone casing", es: "Smooth white limestone casing", de: "Smooth white limestone casing", nl: "Smooth white limestone casing" },
+        { en: "Gold", es: "Gold", de: "Gold", nl: "Gold" },
+        { en: "Paint", es: "Paint", de: "Paint", nl: "Paint" },
+        { en: "Nothing", es: "Nothing", de: "Nothing", nl: "Nothing" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pyramids were originally covered in smooth, polished white limestone casing stones.",
+        es: "Pyramids were originally covered in smooth, polished white limestone casing stones.",
+        de: "Pyramids were originally covered in smooth, polished white limestone casing stones.",
+        nl: "Pyramids were originally covered in smooth, polished white limestone casing stones."
+      }
+    },
+    {
+      question: {
+        en: "What is inside the Great Pyramid?",
+        es: "What is inside the Great Pyramid?",
+        de: "What is inside the Great Pyramid?",
+        nl: "What is inside the Great Pyramid?"
+      },
+      options: [
+        { en: "Chambers and passageways", es: "Chambers and passageways", de: "Chambers and passageways", nl: "Chambers and passageways" },
+        { en: "Treasure", es: "Treasure", de: "Treasure", nl: "Treasure" },
+        { en: "Nothing", es: "Nothing", de: "Nothing", nl: "Nothing" },
+        { en: "Furniture", es: "Furniture", de: "Furniture", nl: "Furniture" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Great Pyramid contains chambers, galleries, and shafts, including the King's and Queen's Chambers.",
+        es: "The Great Pyramid contains chambers, galleries, and shafts, including the King's and Queen's Chambers.",
+        de: "The Great Pyramid contains chambers, galleries, and shafts, including the King's and Queen's Chambers.",
+        nl: "The Great Pyramid contains chambers, galleries, and shafts, including the King's and Queen's Chambers."
+      }
+    },
+    {
+      question: {
+        en: "How tall was the Great Pyramid originally?",
+        es: "How tall was the Great Pyramid originally?",
+        de: "How tall was the Great Pyramid originally?",
+        nl: "How tall was the Great Pyramid originally?"
+      },
+      options: [
+        { en: "About 481 feet (146.5 meters)", es: "About 481 feet (146.5 meters)", de: "About 481 feet (146.5 meters)", nl: "About 481 feet (146.5 meters)" },
+        { en: "300 feet", es: "300 feet", de: "300 feet", nl: "300 feet" },
+        { en: "600 feet", es: "600 feet", de: "600 feet", nl: "600 feet" },
+        { en: "200 feet", es: "200 feet", de: "200 feet", nl: "200 feet" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Great Pyramid originally stood about 481 feet tall, now about 455 feet due to erosion.",
+        es: "The Great Pyramid originally stood about 481 feet tall, now about 455 feet due to erosion.",
+        de: "The Great Pyramid originally stood about 481 feet tall, now about 455 feet due to erosion.",
+        nl: "The Great Pyramid originally stood about 481 feet tall, now about 455 feet due to erosion."
+      }
+    },
+    {
+      question: {
+        en: "How long did it take to build the Great Pyramid?",
+        es: "How long did it take to build the Great Pyramid?",
+        de: "How long did it take to build the Great Pyramid?",
+        nl: "How long did it take to build the Great Pyramid?"
+      },
+      options: [
+        { en: "About 20 years", es: "About 20 years", de: "About 20 years", nl: "About 20 years" },
+        { en: "5 years", es: "5 years", de: "5 years", nl: "5 years" },
+        { en: "100 years", es: "100 years", de: "100 years", nl: "100 years" },
+        { en: "50 years", es: "50 years", de: "50 years", nl: "50 years" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Estimates suggest the Great Pyramid took approximately 20 years to build.",
+        es: "Estimates suggest the Great Pyramid took approximately 20 years to build.",
+        de: "Estimates suggest the Great Pyramid took approximately 20 years to build.",
+        nl: "Estimates suggest the Great Pyramid took approximately 20 years to build."
+      }
+    },
+    {
+      question: {
+        en: "What is the Bent Pyramid?",
+        es: "What is the Bent Pyramid?",
+        de: "What is the Bent Pyramid?",
+        nl: "What is the Bent Pyramid?"
+      },
+      options: [
+        { en: "Pyramid with two different angles", es: "Pyramid with two different angles", de: "Pyramid with two different angles", nl: "Pyramid with two different angles" },
+        { en: "Collapsed pyramid", es: "Collapsed pyramid", de: "Collapsed pyramid", nl: "Collapsed pyramid" },
+        { en: "Unfinished pyramid", es: "Unfinished pyramid", de: "Unfinished pyramid", nl: "Unfinished pyramid" },
+        { en: "Smallest pyramid", es: "Smallest pyramid", de: "Smallest pyramid", nl: "Smallest pyramid" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Bent Pyramid at Dahshur has two distinct angles, changing partway up.",
+        es: "The Bent Pyramid at Dahshur has two distinct angles, changing partway up.",
+        de: "The Bent Pyramid at Dahshur has two distinct angles, changing partway up.",
+        nl: "The Bent Pyramid at Dahshur has two distinct angles, changing partway up."
+      }
+    },
+    {
+      question: {
+        en: "Who built the Bent Pyramid?",
+        es: "Who built the Bent Pyramid?",
+        de: "Who built the Bent Pyramid?",
+        nl: "Who built the Bent Pyramid?"
+      },
+      options: [
+        { en: "Sneferu", es: "Sneferu", de: "Sneferu", nl: "Sneferu" },
+        { en: "Khufu", es: "Khufu", de: "Khufu", nl: "Khufu" },
+        { en: "Djoser", es: "Djoser", de: "Djoser", nl: "Djoser" },
+        { en: "Khafre", es: "Khafre", de: "Khafre", nl: "Khafre" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pharaoh Sneferu built the Bent Pyramid during the 4th Dynasty.",
+        es: "Pharaoh Sneferu built the Bent Pyramid during the 4th Dynasty.",
+        de: "Pharaoh Sneferu built the Bent Pyramid during the 4th Dynasty.",
+        nl: "Pharaoh Sneferu built the Bent Pyramid during the 4th Dynasty."
+      }
+    },
+    {
+      question: {
+        en: "What stone composes most pyramids?",
+        es: "What stone composes most pyramids?",
+        de: "What stone composes most pyramids?",
+        nl: "What stone composes most pyramids?"
+      },
+      options: [
+        { en: "Limestone", es: "Limestone", de: "Limestone", nl: "Limestone" },
+        { en: "Granite", es: "Granite", de: "Granite", nl: "Granite" },
+        { en: "Sandstone", es: "Sandstone", de: "Sandstone", nl: "Sandstone" },
+        { en: "Marble", es: "Marble", de: "Marble", nl: "Marble" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Most pyramids are primarily constructed of limestone blocks.",
+        es: "Most pyramids are primarily constructed of limestone blocks.",
+        de: "Most pyramids are primarily constructed of limestone blocks.",
+        nl: "Most pyramids are primarily constructed of limestone blocks."
+      }
+    },
+    {
+      question: {
+        en: "What is the Red Pyramid?",
+        es: "What is the Red Pyramid?",
+        de: "What is the Red Pyramid?",
+        nl: "What is the Red Pyramid?"
+      },
+      options: [
+        { en: "Egypt's first true smooth-sided pyramid", es: "Egypt's first true smooth-sided pyramid", de: "Egypt's first true smooth-sided pyramid", nl: "Egypt's first true smooth-sided pyramid" },
+        { en: "Pyramid painted red", es: "Pyramid painted red", de: "Pyramid painted red", nl: "Pyramid painted red" },
+        { en: "Pyramid made of red stone", es: "Pyramid made of red stone", de: "Pyramid made of red stone", nl: "Pyramid made of red stone" },
+        { en: "Modern name for Great Pyramid", es: "Modern name for Great Pyramid", de: "Modern name for Great Pyramid", nl: "Modern name for Great Pyramid" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Red Pyramid at Dahshur is Egypt's first successful smooth-sided pyramid.",
+        es: "The Red Pyramid at Dahshur is Egypt's first successful smooth-sided pyramid.",
+        de: "The Red Pyramid at Dahshur is Egypt's first successful smooth-sided pyramid.",
+        nl: "The Red Pyramid at Dahshur is Egypt's first successful smooth-sided pyramid."
+      }
+    },
+    {
+      question: {
+        en: "How were pyramid blocks moved?",
+        es: "How were pyramid blocks moved?",
+        de: "How were pyramid blocks moved?",
+        nl: "How were pyramid blocks moved?"
+      },
+      options: [
+        { en: "Sledges, rollers, ramps", es: "Sledges, rollers, ramps", de: "Sledges, rollers, ramps", nl: "Sledges, rollers, ramps" },
+        { en: "Cranes", es: "Cranes", de: "Cranes", nl: "Cranes" },
+        { en: "Wheels", es: "Wheels", de: "Wheels", nl: "Wheels" },
+        { en: "Aliens", es: "Aliens", de: "Aliens", nl: "Aliens" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Blocks were moved using wooden sledges, rollers, ramps, and human labor.",
+        es: "Blocks were moved using wooden sledges, rollers, ramps, and human labor.",
+        de: "Blocks were moved using wooden sledges, rollers, ramps, and human labor.",
+        nl: "Blocks were moved using wooden sledges, rollers, ramps, and human labor."
+      }
+    },
+    {
+      question: {
+        en: "What guards the Giza pyramids?",
+        es: "What guards the Giza pyramids?",
+        de: "What guards the Giza pyramids?",
+        nl: "What guards the Giza pyramids?"
+      },
+      options: [
+        { en: "Great Sphinx", es: "Great Sphinx", de: "Great Sphinx", nl: "Great Sphinx" },
+        { en: "Temple", es: "Temple", de: "Temple", nl: "Temple" },
+        { en: "Wall", es: "Wall", de: "Wall", nl: "Wall" },
+        { en: "Statues", es: "Statues", de: "Statues", nl: "Statues" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Great Sphinx guards the Giza pyramid complex.",
+        es: "The Great Sphinx guards the Giza pyramid complex.",
+        de: "The Great Sphinx guards the Giza pyramid complex.",
+        nl: "The Great Sphinx guards the Giza pyramid complex."
+      }
+    },
+    {
+      question: {
+        en: "How many blocks in the Great Pyramid?",
+        es: "How many blocks in the Great Pyramid?",
+        de: "How many blocks in the Great Pyramid?",
+        nl: "How many blocks in the Great Pyramid?"
+      },
+      options: [
+        { en: "About 2.3 million", es: "About 2.3 million", de: "About 2.3 million", nl: "About 2.3 million" },
+        { en: "100,000", es: "100,000", de: "100,000", nl: "100,000" },
+        { en: "500,000", es: "500,000", de: "500,000", nl: "500,000" },
+        { en: "10 million", es: "10 million", de: "10 million", nl: "10 million" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Great Pyramid contains approximately 2.3 million stone blocks.",
+        es: "The Great Pyramid contains approximately 2.3 million stone blocks.",
+        de: "The Great Pyramid contains approximately 2.3 million stone blocks.",
+        nl: "The Great Pyramid contains approximately 2.3 million stone blocks."
+      }
+    },
+    {
+      question: {
+        en: "What was the pyramidion?",
+        es: "What was the pyramidion?",
+        de: "What was the pyramidion?",
+        nl: "What was the pyramidion?"
+      },
+      options: [
+        { en: "Capstone at pyramid's apex", es: "Capstone at pyramid's apex", de: "Capstone at pyramid's apex", nl: "Capstone at pyramid's apex" },
+        { en: "Base stone", es: "Base stone", de: "Base stone", nl: "Base stone" },
+        { en: "Door", es: "Door", de: "Door", nl: "Door" },
+        { en: "Corner stone", es: "Corner stone", de: "Corner stone", nl: "Corner stone" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The pyramidion was the pointed capstone that topped the pyramid.",
+        es: "The pyramidion was the pointed capstone that topped the pyramid.",
+        de: "The pyramidion was the pointed capstone that topped the pyramid.",
+        nl: "The pyramidion was the pointed capstone that topped the pyramid."
+      }
+    },
+    {
+      question: {
+        en: "Are pyramids wonders of the world?",
+        es: "Are pyramids wonders of the world?",
+        de: "Are pyramids wonders of the world?",
+        nl: "Are pyramids wonders of the world?"
+      },
+      options: [
+        { en: "Great Pyramid is the only surviving ancient wonder", es: "Great Pyramid is the only surviving ancient wonder", de: "Great Pyramid is the only surviving ancient wonder", nl: "Great Pyramid is the only surviving ancient wonder" },
+        { en: "All pyramids are wonders", es: "All pyramids are wonders", de: "All pyramids are wonders", nl: "All pyramids are wonders" },
+        { en: "No pyramids are wonders", es: "No pyramids are wonders", de: "No pyramids are wonders", nl: "No pyramids are wonders" },
+        { en: "They're modern wonders", es: "They're modern wonders", de: "They're modern wonders", nl: "They're modern wonders" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Great Pyramid of Giza is the only surviving structure of the Seven Wonders of the Ancient World.",
+        es: "The Great Pyramid of Giza is the only surviving structure of the Seven Wonders of the Ancient World.",
+        de: "The Great Pyramid of Giza is the only surviving structure of the Seven Wonders of the Ancient World.",
+        nl: "The Great Pyramid of Giza is the only surviving structure of the Seven Wonders of the Ancient World."
+      }
+
       }
     ]
   };

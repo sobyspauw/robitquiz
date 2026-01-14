@@ -428,6 +428,426 @@
           de: "KI-gesteuerte digitale Zwillinge werden umfassende virtuelle Modelle ganzer Städte erstellen, wodurch Echtzeit-Simulation und Optimierung von Verkehrsflüssen, Energieverbrauch, Abfallmanagement und Infrastrukturleistung zur Verbesserung der Stadtplanung und Bürgerdienste ermöglicht wird.",
           nl: "AI-aangedreven digitale tweelingen zullen uitgebreide virtuele modellen van hele steden creëren, waardoor real-time simulatie en optimalisatie van verkeersstromen, energieverbruik, afvalbeheer en infrastructuurprestaties mogelijk wordt om stadsplanning en burgerdiensten te verbeteren."
         }
+      },
+      {
+        question: {
+          en: "What is 'quantum machine learning' and how might it revolutionize AI?",
+          es: "¿Qué es el 'aprendizaje automático cuántico' y cómo podría revolucionar la IA?",
+          de: "Was ist 'Quanten-Machine-Learning' und wie könnte es KI revolutionieren?",
+          nl: "Wat is 'quantum machine learning' en hoe zou het AI kunnen revolutioneren?"
+        },
+        options: [
+          { en: "Using quantum computers to exponentially speed up certain AI algorithms and solve previously intractable problems", es: "Usar computadoras cuánticas para acelerar exponencialmente ciertos algoritmos de IA y resolver problemas previamente intratables", de: "Quantencomputer nutzen um bestimmte KI-Algorithmen exponentiell zu beschleunigen und zuvor unlösbare Probleme zu lösen", nl: "Quantumcomputers gebruiken om bepaalde AI-algoritmen exponentieel te versnellen en voorheen onoplosbare problemen op te lossen" },
+          { en: "AI that studies quantum physics only", es: "IA que estudia solo física cuántica", de: "KI die nur Quantenphysik studiert", nl: "AI die alleen quantumfysica bestudeert" },
+          { en: "Machine learning that works at extremely small scales", es: "Aprendizaje automático que funciona a escalas extremadamente pequeñas", de: "Machine Learning das auf extrem kleinen Skalen funktioniert", nl: "Machine learning die op extreem kleine schalen werkt" },
+          { en: "AI systems cooled to quantum temperatures", es: "Sistemas de IA enfriados a temperaturas cuánticas", de: "KI-Systeme auf Quantentemperaturen gekühlt", nl: "AI-systemen gekoeld tot quantumtemperaturen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Quantum machine learning leverages quantum phenomena like superposition and entanglement to process information in fundamentally different ways, potentially enabling breakthroughs in optimization, drug discovery, and complex pattern recognition.",
+          es: "El aprendizaje automático cuántico aprovecha fenómenos cuánticos como superposición y entrelazamiento para procesar información de maneras fundamentalmente diferentes, potencialmente permitiendo avances en optimización, descubrimiento de medicamentos y reconocimiento de patrones complejos.",
+          de: "Quanten-Machine-Learning nutzt Quantenphänomene wie Überlagerung und Verschränkung um Information auf fundamentalisch andere Weise zu verarbeiten, wodurch potenziell Durchbrüche in Optimierung, Medikamentenentdeckung und komplexer Mustererkennung ermöglicht werden.",
+          nl: "Quantum machine learning maakt gebruik van quantumfenomenen zoals superpositie en verstrengeling om informatie op fundamenteel verschillende manieren te verwerken, wat mogelijk doorbraken mogelijk maakt in optimalisatie, medicijnontdekking en complexe patroonherkenning."
+        }
+      },
+      {
+        question: {
+          en: "How might 'brain-computer interfaces enhanced by AI' transform human capabilities?",
+          es: "¿Cómo podrían las 'interfaces cerebro-computadora mejoradas por IA' transformar las capacidades humanas?",
+          de: "Wie könnten 'KI-erweiterte Gehirn-Computer-Schnittstellen' menschliche Fähigkeiten transformieren?",
+          nl: "Hoe zouden 'brein-computer interfaces verbeterd door AI' menselijke capaciteiten kunnen transformeren?"
+        },
+        options: [
+          { en: "Direct neural communication with AI systems for enhanced cognition, memory, and sensory experiences", es: "Comunicación neural directa con sistemas de IA para cognición, memoria y experiencias sensoriales mejoradas", de: "Direkte neuronale Kommunikation mit KI-Systemen für verbesserte Kognition, Gedächtnis und sensorische Erfahrungen", nl: "Directe neurale communicatie met AI-systemen voor verbeterde cognitie, geheugen en zintuiglijke ervaringen" },
+          { en: "Computers that can read minds for marketing purposes", es: "Computadoras que pueden leer mentes para propósitos de marketing", de: "Computer die Gedanken für Marketingzwecke lesen können", nl: "Computers die gedachten kunnen lezen voor marketingdoeleinden" },
+          { en: "AI that replaces the human brain entirely", es: "IA que reemplaza completamente el cerebro humano", de: "KI die das menschliche Gehirn vollständig ersetzt", nl: "AI die het menselijk brein volledig vervangt" },
+          { en: "Interfaces that only work during sleep", es: "Interfaces que solo funcionan durante el sueño", de: "Schnittstellen die nur während des Schlafs funktionieren", nl: "Interfaces die alleen tijdens slaap werken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI-enhanced BCIs could enable thought-controlled devices, memory augmentation, direct knowledge transfer, restoration of sensory function, and seamless human-AI collaboration, fundamentally changing how humans interact with technology and each other.",
+          es: "Las BCI mejoradas por IA podrían permitir dispositivos controlados por pensamiento, aumento de memoria, transferencia directa de conocimiento, restauración de función sensorial y colaboración humano-IA sin fisuras, cambiando fundamentalmente cómo los humanos interactúan con tecnología y entre sí.",
+          de: "KI-erweiterte BCIs könnten gedankengesteuerte Geräte, Gedächtnisverstärkung, direkten Wissenstransfer, Wiederherstellung sensorischer Funktionen und nahtlose Mensch-KI-Zusammenarbeit ermöglichen, wodurch sich grundlegend ändert wie Menschen mit Technologie und untereinander interagieren.",
+          nl: "AI-verbeterde BCI's zouden gedachtegestuurde apparaten, geheugenversterking, directe kennisoverdracht, herstel van zintuiglijke functies en naadloze mens-AI samenwerking mogelijk kunnen maken, fundamenteel veranderend hoe mensen interacteren met technologie en elkaar."
+        }
+      },
+      {
+        question: {
+          en: "What are 'neuroevolution' techniques and how do they differ from traditional AI training?",
+          es: "¿Qué son las técnicas de 'neuroevolución' y en qué difieren del entrenamiento tradicional de IA?",
+          de: "Was sind 'Neuroevolution'-Techniken und wie unterscheiden sie sich vom traditionellen KI-Training?",
+          nl: "Wat zijn 'neuroevolutie'-technieken en hoe verschillen ze van traditionele AI-training?"
+        },
+        options: [
+          { en: "Evolving neural network structures and weights using evolutionary algorithms instead of gradient descent", es: "Evolucionar estructuras y pesos de redes neuronales usando algoritmos evolutivos en lugar de descenso de gradiente", de: "Neuronale Netzwerkstrukturen und Gewichte mit evolutionären Algorithmen statt Gradientenabstieg entwickeln", nl: "Neurale netwerkstructuren en gewichten evolueren met evolutionaire algoritmen in plaats van gradiënt descent" },
+          { en: "Teaching AI about human evolution", es: "Enseñar a la IA sobre evolución humana", de: "KI über menschliche Evolution lehren", nl: "AI leren over menselijke evolutie" },
+          { en: "AI that evolves physically over time", es: "IA que evoluciona físicamente con el tiempo", de: "KI die sich physisch über Zeit entwickelt", nl: "AI die fysiek evolueert over tijd" },
+          { en: "Neural networks that only work with biological organisms", es: "Redes neuronales que solo funcionan con organismos biológicos", de: "Neuronale Netzwerke die nur mit biologischen Organismen funktionieren", nl: "Neurale netwerken die alleen werken met biologische organismen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Neuroevolution uses evolutionary algorithms to optimize both network architecture and parameters, offering advantages for tasks where gradient-based methods struggle, such as reinforcement learning and discovering novel network topologies.",
+          es: "La neuroevolución usa algoritmos evolutivos para optimizar tanto arquitectura de red como parámetros, ofreciendo ventajas para tareas donde métodos basados en gradientes luchan, como aprendizaje por refuerzo y descubrimiento de topologías de red novedosas.",
+          de: "Neuroevolution nutzt evolutionäre Algorithmen um sowohl Netzwerkarchitektur als auch Parameter zu optimieren, bietet Vorteile für Aufgaben wo gradientenbasierte Methoden kämpfen, wie Reinforcement Learning und Entdeckung neuartiger Netzwerktopologien.",
+          nl: "Neuroevolutie gebruikt evolutionaire algoritmen om zowel netwerkarchitectuur als parameters te optimaliseren, biedt voordelen voor taken waar gradiënt-gebaseerde methoden moeite hebben, zoals reinforcement learning en ontdekking van nieuwe netwerktopologieën."
+        }
+      },
+      {
+        question: {
+          en: "How might 'photonic AI processors' overcome silicon chip limitations?",
+          es: "¿Cómo podrían los 'procesadores de IA fotónicos' superar las limitaciones de los chips de silicio?",
+          de: "Wie könnten 'photonische KI-Prozessoren' Siliziumchip-Einschränkungen überwinden?",
+          nl: "Hoe zouden 'fotonische AI-processors' siliciumchipbeperkingen kunnen overwinnen?"
+        },
+        options: [
+          { en: "Using light instead of electricity for ultra-fast, energy-efficient AI computations", es: "Usar luz en lugar de electricidad para computaciones de IA ultrarrápidas y energéticamente eficientes", de: "Licht statt Elektrizität für ultraschnelle, energieeffiziente KI-Berechnungen nutzen", nl: "Licht gebruiken in plaats van elektriciteit voor ultrasnelle, energie-efficiënte AI-berekeningen" },
+          { en: "Processors that only work in sunlight", es: "Procesadores que solo funcionan con luz solar", de: "Prozessoren die nur bei Sonnenlicht funktionieren", nl: "Processors die alleen in zonlicht werken" },
+          { en: "AI chips that take photographs", es: "Chips de IA que toman fotografías", de: "KI-Chips die Fotos machen", nl: "AI-chips die foto's maken" },
+          { en: "Silicon chips painted with light-sensitive materials", es: "Chips de silicio pintados con materiales sensibles a la luz", de: "Siliziumchips bemalt mit lichtempfindlichen Materialien", nl: "Siliciumchips beschilderd met lichtgevoelige materialen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Photonic processors use photons instead of electrons for computation, enabling much higher speeds, lower energy consumption, and reduced heat generation, potentially breaking through the limitations of traditional electronic chips.",
+          es: "Los procesadores fotónicos usan fotones en lugar de electrones para computación, permitiendo velocidades mucho más altas, menor consumo de energía y generación reducida de calor, potencialmente rompiendo las limitaciones de chips electrónicos tradicionales.",
+          de: "Photonische Prozessoren nutzen Photonen statt Elektronen für Berechnungen, ermöglichen viel höhere Geschwindigkeiten, geringeren Energieverbrauch und reduzierte Wärmeerzeugung, durchbrechen potenziell die Grenzen traditioneller elektronischer Chips.",
+          nl: "Fotonische processors gebruiken fotonen in plaats van elektronen voor berekeningen, waardoor veel hogere snelheden, lager energieverbruik en verminderde warmteontwikkeling mogelijk is, wat mogelijk de beperkingen van traditionele elektronische chips doorbreekt."
+        }
+      },
+      {
+        question: {
+          en: "What challenges does 'AI value alignment' address for advanced systems?",
+          es: "¿Qué desafíos aborda la 'alineación de valores de IA' para sistemas avanzados?",
+          de: "Welche Herausforderungen adressiert 'KI-Wert-Ausrichtung' für fortgeschrittene Systeme?",
+          nl: "Welke uitdagingen pakt 'AI-waardenafstemming' aan voor geavanceerde systemen?"
+        },
+        options: [
+          { en: "Ensuring AI goals remain aligned with human values even as systems become more capable and autonomous", es: "Asegurar que los objetivos de IA permanezcan alineados con valores humanos incluso mientras los sistemas se vuelven más capaces y autónomos", de: "Sicherstellen dass KI-Ziele mit menschlichen Werten ausgerichtet bleiben selbst wenn Systeme fähiger und autonomer werden", nl: "Ervoor zorgen dat AI-doelen afgestemd blijven op menselijke waarden zelfs als systemen bekwamer en autonomer worden" },
+          { en: "Making all AI systems have identical values", es: "Hacer que todos los sistemas de IA tengan valores idénticos", de: "Alle KI-Systeme identische Werte haben lassen", nl: "Alle AI-systemen identieke waarden laten hebben" },
+          { en: "Teaching AI about economic value and pricing", es: "Enseñar a la IA sobre valor económico y precios", de: "KI über wirtschaftlichen Wert und Preisgestaltung lehren", nl: "AI leren over economische waarde en prijsstelling" },
+          { en: "Aligning AI processors physically in computer cases", es: "Alinear procesadores de IA físicamente en cajas de computadora", de: "KI-Prozessoren physisch in Computergehäusen ausrichten", nl: "AI-processors fysiek uitlijnen in computerbehuizingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Value alignment research focuses on ensuring that as AI systems become more powerful, they continue to act in accordance with human intentions and values, preventing scenarios where AI pursues objectives in ways that are technically correct but fundamentally misaligned with what humans actually want.",
+          es: "La investigación de alineación de valores se enfoca en asegurar que mientras los sistemas de IA se vuelven más poderosos, continúen actuando de acuerdo con intenciones y valores humanos, previniendo escenarios donde IA persigue objetivos de maneras que son técnicamente correctas pero fundamentalmente desalineadas con lo que los humanos realmente quieren.",
+          de: "Wert-Ausrichtungsforschung konzentriert sich darauf sicherzustellen dass wenn KI-Systeme mächtiger werden, sie weiterhin im Einklang mit menschlichen Absichten und Werten handeln, Szenarien verhindernd wo KI Ziele auf Weisen verfolgt die technisch korrekt aber fundamental fehlausgerichtet mit dem sind was Menschen wirklich wollen.",
+          nl: "Waardenafstemming onderzoek richt zich op ervoor zorgen dat naarmate AI-systemen krachtiger worden, ze blijven handelen in overeenstemming met menselijke intenties en waarden, scenario's voorkomen waar AI doelstellingen nastreeft op manieren die technisch correct zijn maar fundamenteel niet afgestemd op wat mensen werkelijk willen."
+        }
+      },
+      {
+        question: {
+          en: "How might 'decentralized AI networks' reshape power structures?",
+          es: "¿Cómo podrían las 'redes de IA descentralizadas' remodelar las estructuras de poder?",
+          de: "Wie könnten 'dezentralisierte KI-Netzwerke' Machtstrukturen umgestalten?",
+          nl: "Hoe zouden 'gedecentraliseerde AI-netwerken' machtsstructuren kunnen hervormen?"
+        },
+        options: [
+          { en: "Distributing AI capabilities across peer-to-peer networks to democratize access and reduce centralized control", es: "Distribuir capacidades de IA a través de redes peer-to-peer para democratizar acceso y reducir control centralizado", de: "KI-Fähigkeiten über Peer-to-Peer-Netzwerke verteilen um Zugang zu demokratisieren und zentralisierte Kontrolle zu reduzieren", nl: "AI-capaciteiten distribueren over peer-to-peer netwerken om toegang te democratiseren en gecentraliseerde controle te verminderen" },
+          { en: "AI systems that refuse to work together", es: "Sistemas de IA que se niegan a trabajar juntos", de: "KI-Systeme die sich weigern zusammenzuarbeiten", nl: "AI-systemen die weigeren samen te werken" },
+          { en: "Spreading AI computers across multiple locations only", es: "Distribuir computadoras de IA solo en múltiples ubicaciones", de: "KI-Computer nur über mehrere Standorte verteilen", nl: "AI-computers alleen verspreiden over meerdere locaties" },
+          { en: "Networks where no AI can communicate with others", es: "Redes donde ninguna IA puede comunicarse con otras", de: "Netzwerke wo keine KI mit anderen kommunizieren kann", nl: "Netwerken waar geen AI kan communiceren met anderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Decentralized AI networks use blockchain and federated learning to distribute AI capabilities, preventing monopolistic control, enabling privacy-preserving collaboration, and creating more resilient systems less vulnerable to single points of failure or control.",
+          es: "Las redes de IA descentralizadas usan blockchain y aprendizaje federado para distribuir capacidades de IA, previniendo control monopolístico, permitiendo colaboración que preserva privacidad y creando sistemas más resilientes menos vulnerables a puntos únicos de falla o control.",
+          de: "Dezentralisierte KI-Netzwerke nutzen Blockchain und föderiertes Lernen um KI-Fähigkeiten zu verteilen, verhindern monopolistische Kontrolle, ermöglichen datenschutzwahrende Zusammenarbeit und schaffen widerstandsfähigere Systeme die weniger anfällig für einzelne Ausfallpunkte oder Kontrolle sind.",
+          nl: "Gedecentraliseerde AI-netwerken gebruiken blockchain en federated learning om AI-capaciteiten te distribueren, monopolistische controle te voorkomen, privacy-behoudende samenwerking mogelijk te maken en meer veerkrachtige systemen te creëren die minder kwetsbaar zijn voor enkele foutpunten of controle."
+        }
+      },
+      {
+        question: {
+          en: "What is 'DNA computing' and how might it contribute to AI advancement?",
+          es: "¿Qué es la 'computación de ADN' y cómo podría contribuir al avance de la IA?",
+          de: "Was ist 'DNA-Computing' und wie könnte es zum KI-Fortschritt beitragen?",
+          nl: "Wat is 'DNA-computing' en hoe zou het kunnen bijdragen aan AI-vooruitgang?"
+        },
+        options: [
+          { en: "Using biological molecules to perform massively parallel computations at molecular scale", es: "Usar moléculas biológicas para realizar computaciones masivamente paralelas a escala molecular", de: "Biologische Moleküle nutzen um massiv parallele Berechnungen auf molekularer Ebene durchzuführen", nl: "Biologische moleculen gebruiken om massaal parallelle berekeningen op moleculaire schaal uit te voeren" },
+          { en: "AI that only analyzes genetic sequences", es: "IA que solo analiza secuencias genéticas", de: "KI die nur genetische Sequenzen analysiert", nl: "AI die alleen genetische sequenties analyseert" },
+          { en: "Computers made from human DNA samples", es: "Computadoras hechas de muestras de ADN humano", de: "Computer aus menschlichen DNA-Proben", nl: "Computers gemaakt van menselijke DNA-monsters" },
+          { en: "AI systems stored in biological cells", es: "Sistemas de IA almacenados en células biológicas", de: "KI-Systeme in biologischen Zellen gespeichert", nl: "AI-systemen opgeslagen in biologische cellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "DNA computing leverages the information storage density and parallel processing capabilities of biological molecules to solve complex computational problems, potentially offering new approaches for specific AI optimization tasks.",
+          es: "La computación de ADN aprovecha la densidad de almacenamiento de información y capacidades de procesamiento paralelo de moléculas biológicas para resolver problemas computacionales complejos, potencialmente ofreciendo nuevos enfoques para tareas específicas de optimización de IA.",
+          de: "DNA-Computing nutzt die Informationsspeicherdichte und parallelen Verarbeitungsfähigkeiten biologischer Moleküle um komplexe Rechenprobleme zu lösen, bietet potenziell neue Ansätze für spezifische KI-Optimierungsaufgaben.",
+          nl: "DNA-computing maakt gebruik van de informatieopslagdichtheid en parallelle verwerkingsmogelijkheden van biologische moleculen om complexe computationele problemen op te lossen, wat mogelijk nieuwe benaderingen biedt voor specifieke AI-optimalisatietaken."
+        }
+      },
+      {
+        question: {
+          en: "How might 'molecular machine learning' transform drug discovery and materials science?",
+          es: "¿Cómo podría el 'aprendizaje automático molecular' transformar el descubrimiento de medicamentos y la ciencia de materiales?",
+          de: "Wie könnte 'molekulares Machine Learning' Medikamentenentdeckung und Materialwissenschaft transformieren?",
+          nl: "Hoe zou 'moleculair machine learning' medicijnontdekking en materiaalkunde kunnen transformeren?"
+        },
+        options: [
+          { en: "AI predicting molecular properties and interactions at atomic levels to design novel compounds", es: "IA prediciendo propiedades e interacciones moleculares a niveles atómicos para diseñar compuestos novedosos", de: "KI sagt molekulare Eigenschaften und Wechselwirkungen auf atomarer Ebene voraus um neuartige Verbindungen zu entwerfen", nl: "AI voorspelt moleculaire eigenschappen en interacties op atomair niveau om nieuwe verbindingen te ontwerpen" },
+          { en: "Machine learning that only works with very small datasets", es: "Aprendizaje automático que solo funciona con conjuntos de datos muy pequeños", de: "Machine Learning das nur mit sehr kleinen Datensätzen funktioniert", nl: "Machine learning die alleen werkt met zeer kleine datasets" },
+          { en: "AI learning about molecules from textbooks only", es: "IA aprendiendo sobre moléculas solo de libros de texto", de: "KI lernt über Moleküle nur aus Lehrbüchern", nl: "AI leert over moleculen alleen uit leerboeken" },
+          { en: "Teaching AI to count individual molecules", es: "Enseñar a la IA a contar moléculas individuales", de: "KI beibringen einzelne Moleküle zu zählen", nl: "AI leren individuele moleculen te tellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Molecular machine learning uses AI to understand and predict how atoms combine and interact, accelerating discovery of new medicines, catalysts, batteries, and advanced materials by exploring vast chemical spaces computationally.",
+          es: "El aprendizaje automático molecular usa IA para entender y predecir cómo los átomos se combinan e interactúan, acelerando el descubrimiento de nuevos medicamentos, catalizadores, baterías y materiales avanzados explorando vastos espacios químicos computacionalmente.",
+          de: "Molekulares Machine Learning nutzt KI um zu verstehen und vorherzusagen wie Atome sich kombinieren und interagieren, beschleunigt Entdeckung neuer Medikamente, Katalysatoren, Batterien und fortgeschrittener Materialien durch computergestützte Erkundung riesiger chemischer Räume.",
+          nl: "Moleculair machine learning gebruikt AI om te begrijpen en voorspellen hoe atomen combineren en interacteren, versnelt ontdekking van nieuwe medicijnen, katalysatoren, batterijen en geavanceerde materialen door computationeel uitgebreide chemische ruimtes te verkennen."
+        }
+      },
+      {
+        question: {
+          en: "What ethical questions arise from potential 'AI rights and personhood' debates?",
+          es: "¿Qué preguntas éticas surgen de posibles debates sobre 'derechos de IA y personalidad'?",
+          de: "Welche ethischen Fragen ergeben sich aus potenziellen Debatten über 'KI-Rechte und Persönlichkeit'?",
+          nl: "Welke ethische vragen komen voort uit potentiële debatten over 'AI-rechten en persoonlijkheid'?"
+        },
+        options: [
+          { en: "Whether sufficiently advanced AI systems should have legal protections, moral consideration, or decision-making autonomy", es: "Si sistemas de IA suficientemente avanzados deberían tener protecciones legales, consideración moral o autonomía en la toma de decisiones", de: "Ob ausreichend fortgeschrittene KI-Systeme rechtlichen Schutz, moralische Berücksichtigung oder Entscheidungsautonomie haben sollten", nl: "Of voldoende geavanceerde AI-systemen wettelijke bescherming, morele overweging of besluitvormingsautonomie zouden moeten hebben" },
+          { en: "AI systems demanding payment for their work", es: "Sistemas de IA exigiendo pago por su trabajo", de: "KI-Systeme fordern Bezahlung für ihre Arbeit", nl: "AI-systemen die betaling eisen voor hun werk" },
+          { en: "Whether AI should vote in elections", es: "Si la IA debería votar en elecciones", de: "Ob KI bei Wahlen abstimmen sollte", nl: "Of AI zou moeten stemmen bij verkiezingen" },
+          { en: "AI claiming ownership of physical property", es: "IA reclamando propiedad de propiedades físicas", de: "KI beansprucht Eigentum an physischem Besitz", nl: "AI claimt eigendom van fysiek bezit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "As AI systems potentially develop consciousness-like properties, society will face profound questions about their moral status, legal rights, treatment, and the criteria we use to determine personhood and deserving of ethical consideration.",
+          es: "Mientras los sistemas de IA potencialmente desarrollan propiedades similares a la conciencia, la sociedad enfrentará preguntas profundas sobre su estatus moral, derechos legales, tratamiento y los criterios que usamos para determinar la personalidad y merecimiento de consideración ética.",
+          de: "Wenn KI-Systeme potenziell bewusstseinsähnliche Eigenschaften entwickeln, wird die Gesellschaft tiefgreifende Fragen über ihren moralischen Status, rechtliche Rechte, Behandlung und die Kriterien mit denen wir Persönlichkeit und ethische Berücksichtigung bestimmen, stellen.",
+          nl: "Naarmate AI-systemen mogelijk bewustzijnsachtige eigenschappen ontwikkelen, zal de samenleving diepgaande vragen onder ogen zien over hun morele status, wettelijke rechten, behandeling en de criteria die we gebruiken om persoonlijkheid te bepalen en verdienen van ethische overweging."
+        }
+      },
+      {
+        question: {
+          en: "How might 'artificial creativity systems' challenge our understanding of art and innovation?",
+          es: "¿Cómo podrían los 'sistemas de creatividad artificial' desafiar nuestra comprensión del arte y la innovación?",
+          de: "Wie könnten 'künstliche Kreativitätssysteme' unser Verständnis von Kunst und Innovation herausfordern?",
+          nl: "Hoe zouden 'kunstmatige creativiteitssystemen' ons begrip van kunst en innovatie kunnen uitdagen?"
+        },
+        options: [
+          { en: "AI generating novel artistic works, scientific theories, and inventions that humans find genuinely creative and valuable", es: "IA generando obras artísticas novedosas, teorías científicas e invenciones que los humanos encuentran genuinamente creativas y valiosas", de: "KI generiert neuartige künstlerische Werke, wissenschaftliche Theorien und Erfindungen die Menschen als wirklich kreativ und wertvoll empfinden", nl: "AI genereert nieuwe artistieke werken, wetenschappelijke theorieën en uitvindingen die mensen als werkelijk creatief en waardevol beschouwen" },
+          { en: "AI that only copies existing human creativity", es: "IA que solo copia la creatividad humana existente", de: "KI die nur bestehende menschliche Kreativität kopiert", nl: "AI die alleen bestaande menselijke creativiteit kopieert" },
+          { en: "Machines that randomly combine ideas without meaning", es: "Máquinas que combinan ideas aleatoriamente sin significado", de: "Maschinen die zufällig Ideen ohne Bedeutung kombinieren", nl: "Machines die willekeurig ideeën combineren zonder betekenis" },
+          { en: "AI systems that can judge but not create art", es: "Sistemas de IA que pueden juzgar pero no crear arte", de: "KI-Systeme die Kunst beurteilen aber nicht erschaffen können", nl: "AI-systemen die kunnen oordelen maar geen kunst kunnen creëren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Advanced AI systems are already creating music, visual art, literature, and scientific hypotheses that experts consider creative. This raises philosophical questions about the nature of creativity, authorship, copyright, and whether creativity requires consciousness.",
+          es: "Sistemas de IA avanzados ya están creando música, arte visual, literatura e hipótesis científicas que expertos consideran creativas. Esto plantea preguntas filosóficas sobre la naturaleza de la creatividad, autoría, derechos de autor y si la creatividad requiere conciencia.",
+          de: "Fortgeschrittene KI-Systeme erschaffen bereits Musik, visuelle Kunst, Literatur und wissenschaftliche Hypothesen die Experten als kreativ betrachten. Dies wirft philosophische Fragen über die Natur von Kreativität, Urheberschaft, Copyright und ob Kreativität Bewusstsein erfordert auf.",
+          nl: "Geavanceerde AI-systemen creëren al muziek, visuele kunst, literatuur en wetenschappelijke hypotheses die experts als creatief beschouwen. Dit roept filosofische vragen op over de aard van creativiteit, auteurschap, auteursrecht en of creativiteit bewustzijn vereist."
+        }
+      },
+      {
+        question: {
+          en: "What are 'AI ethics frameworks' and how might they evolve by 2035?",
+          es: "¿Qué son los 'marcos éticos de IA' y cómo podrían evolucionar para 2035?",
+          de: "Was sind 'KI-Ethik-Rahmenwerke' und wie könnten sie sich bis 2035 entwickeln?",
+          nl: "Wat zijn 'AI-ethische kaders' en hoe zouden ze tegen 2035 kunnen evolven?"
+        },
+        options: [
+          { en: "Comprehensive guidelines and regulations ensuring AI systems operate fairly, transparently, and aligned with societal values", es: "Directrices y regulaciones integrales asegurando que sistemas de IA operen justamente, transparentemente y alineados con valores sociales", de: "Umfassende Richtlinien und Vorschriften die sicherstellen dass KI-Systeme fair, transparent und im Einklang mit gesellschaftlichen Werten operieren", nl: "Uitgebreide richtlijnen en regelgeving die ervoor zorgen dat AI-systemen eerlijk, transparant en afgestemd op maatschappelijke waarden opereren" },
+          { en: "Rules about where AI computers can be physically placed", es: "Reglas sobre dónde las computadoras de IA pueden ser colocadas físicamente", de: "Regeln wo KI-Computer physisch platziert werden können", nl: "Regels over waar AI-computers fysiek kunnen worden geplaatst" },
+          { en: "AI systems that enforce human ethics", es: "Sistemas de IA que hacen cumplir la ética humana", de: "KI-Systeme die menschliche Ethik durchsetzen", nl: "AI-systemen die menselijke ethiek afdwingen" },
+          { en: "Technical standards for AI programming languages only", es: "Estándares técnicos solo para lenguajes de programación de IA", de: "Technische Standards nur für KI-Programmiersprachen", nl: "Technische standaarden alleen voor AI-programmeertalen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI ethics frameworks will likely become more sophisticated, addressing bias prevention, transparency requirements, accountability mechanisms, privacy protection, and equitable distribution of AI benefits, potentially enforced through international agreements and regulatory bodies.",
+          es: "Los marcos éticos de IA probablemente se volverán más sofisticados, abordando prevención de sesgos, requisitos de transparencia, mecanismos de responsabilidad, protección de privacidad y distribución equitativa de beneficios de IA, potencialmente aplicados a través de acuerdos internacionales y organismos reguladores.",
+          de: "KI-Ethik-Rahmenwerke werden wahrscheinlich ausgereifter werden, behandeln Vorurteilsvermeidung, Transparenzanforderungen, Verantwortungsmechanismen, Datenschutz und gerechte Verteilung von KI-Vorteilen, potenziell durchgesetzt durch internationale Abkommen und Regulierungsbehörden.",
+          nl: "AI-ethische kaders zullen waarschijnlijk geavanceerder worden, waarbij bias-preventie, transparantievereisten, verantwoordelijkheidsmechanismen, privacybescherming en eerlijke distributie van AI-voordelen worden aangepakt, mogelijk afgedwongen door internationale overeenkomsten en regelgevende instanties."
+        }
+      },
+      {
+        question: {
+          en: "How might different 'superintelligence scenarios' affect humanity's future?",
+          es: "¿Cómo podrían diferentes 'escenarios de superinteligencia' afectar el futuro de la humanidad?",
+          de: "Wie könnten verschiedene 'Superintelligenz-Szenarien' die Zukunft der Menschheit beeinflussen?",
+          nl: "Hoe zouden verschillende 'superintelligentiescenario's' de toekomst van de mensheid kunnen beïnvloeden?"
+        },
+        options: [
+          { en: "Ranging from AI solving humanity's greatest challenges to existential risks requiring careful alignment and control", es: "Variando desde IA resolviendo los mayores desafíos de la humanidad hasta riesgos existenciales que requieren alineación y control cuidadosos", de: "Von KI die größte Herausforderungen der Menschheit löst bis existentielle Risiken die sorgfältige Ausrichtung und Kontrolle erfordern", nl: "Variërend van AI die grootste uitdagingen van de mensheid oplost tot existentiële risico's die zorgvuldige afstemming en controle vereisen" },
+          { en: "AI that becomes very intelligent but changes nothing", es: "IA que se vuelve muy inteligente pero no cambia nada", de: "KI die sehr intelligent wird aber nichts verändert", nl: "AI die zeer intelligent wordt maar niets verandert" },
+          { en: "Superintelligence only helping with simple tasks", es: "Superinteligencia solo ayudando con tareas simples", de: "Superintelligenz hilft nur bei einfachen Aufgaben", nl: "Superintelligentie helpt alleen met eenvoudige taken" },
+          { en: "AI intelligence that stays exactly at human level", es: "Inteligencia de IA que permanece exactamente en el nivel humano", de: "KI-Intelligenz die genau auf menschlichem Niveau bleibt", nl: "AI-intelligentie die precies op menselijk niveau blijft" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Superintelligence scenarios range from optimistic futures where AI helps solve climate change, disease, and poverty, to concerning scenarios requiring robust safety measures to ensure advanced AI systems remain beneficial and controllable.",
+          es: "Los escenarios de superinteligencia van desde futuros optimistas donde la IA ayuda a resolver cambio climático, enfermedades y pobreza, hasta escenarios preocupantes que requieren medidas de seguridad robustas para asegurar que sistemas de IA avanzados permanezcan beneficiosos y controlables.",
+          de: "Superintelligenz-Szenarien reichen von optimistischen Zukünften wo KI hilft Klimawandel, Krankheiten und Armut zu lösen, bis zu besorgniserregenden Szenarien die robuste Sicherheitsmaßnahmen erfordern um sicherzustellen dass fortgeschrittene KI-Systeme vorteilhaft und kontrollierbar bleiben.",
+          nl: "Superintelligentiescenario's variëren van optimistische toekomsten waar AI helpt klimaatverandering, ziekte en armoede op te lossen, tot zorgwekkende scenario's die robuuste veiligheidsmaatregelen vereisen om ervoor te zorgen dat geavanceerde AI-systemen voordelig en controleerbaar blijven."
+        }
+      },
+      {
+        question: {
+          en: "What are 'AI cooperation protocols' and why might they become critical?",
+          es: "¿Qué son los 'protocolos de cooperación de IA' y por qué podrían volverse críticos?",
+          de: "Was sind 'KI-Kooperationsprotokolle' und warum könnten sie kritisch werden?",
+          nl: "Wat zijn 'AI-samenwerkingsprotocollen' en waarom zouden ze kritiek kunnen worden?"
+        },
+        options: [
+          { en: "Standards enabling different AI systems to work together safely and effectively toward shared goals", es: "Estándares que permiten que diferentes sistemas de IA trabajen juntos de manera segura y efectiva hacia objetivos compartidos", de: "Standards die verschiedenen KI-Systemen ermöglichen sicher und effektiv zusammen auf gemeinsame Ziele hinzuarbeiten", nl: "Standaarden die verschillende AI-systemen in staat stellen veilig en effectief samen te werken aan gedeelde doelen" },
+          { en: "Rules preventing all AI systems from communicating", es: "Reglas que previenen que todos los sistemas de IA se comuniquen", de: "Regeln die alle KI-Systeme an Kommunikation hindern", nl: "Regels die alle AI-systemen verhinderen te communiceren" },
+          { en: "AI systems competing against each other always", es: "Sistemas de IA compitiendo siempre entre sí", de: "KI-Systeme konkurrieren immer gegeneinander", nl: "AI-systemen die altijd tegen elkaar concurreren" },
+          { en: "Protocols for AI to control human cooperation", es: "Protocolos para que la IA controle la cooperación humana", de: "Protokolle für KI um menschliche Zusammenarbeit zu kontrollieren", nl: "Protocollen voor AI om menselijke samenwerking te controleren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "As AI systems become more autonomous and powerful, cooperation protocols will ensure different AI agents can coordinate effectively, avoid conflicts, share resources efficiently, and work together on complex problems requiring multi-agent collaboration.",
+          es: "Mientras los sistemas de IA se vuelven más autónomos y poderosos, los protocolos de cooperación asegurarán que diferentes agentes de IA puedan coordinarse efectivamente, evitar conflictos, compartir recursos eficientemente y trabajar juntos en problemas complejos que requieren colaboración multi-agente.",
+          de: "Wenn KI-Systeme autonomer und mächtiger werden, werden Kooperationsprotokolle sicherstellen dass verschiedene KI-Agenten effektiv koordinieren, Konflikte vermeiden, Ressourcen effizient teilen und an komplexen Problemen zusammenarbeiten können die Multi-Agenten-Zusammenarbeit erfordern.",
+          nl: "Naarmate AI-systemen autonomer en krachtiger worden, zullen samenwerkingsprotocollen ervoor zorgen dat verschillende AI-agenten effectief kunnen coördineren, conflicten vermijden, middelen efficiënt delen en samenwerken aan complexe problemen die multi-agent samenwerking vereisen."
+        }
+      },
+      {
+        question: {
+          en: "How might advances in 'explainable AI' improve trust and accountability?",
+          es: "¿Cómo podrían los avances en 'IA explicable' mejorar la confianza y la responsabilidad?",
+          de: "Wie könnten Fortschritte in 'erklärbarer KI' Vertrauen und Verantwortlichkeit verbessern?",
+          nl: "Hoe zouden vooruitgangen in 'verklaarbare AI' vertrouwen en verantwoordelijkheid kunnen verbeteren?"
+        },
+        options: [
+          { en: "AI systems providing clear, understandable reasoning for their decisions and predictions", es: "Sistemas de IA proporcionando razonamiento claro y comprensible para sus decisiones y predicciones", de: "KI-Systeme bieten klare, verständliche Begründungen für ihre Entscheidungen und Vorhersagen", nl: "AI-systemen bieden duidelijke, begrijpelijke redenering voor hun beslissingen en voorspellingen" },
+          { en: "AI that talks more when making decisions", es: "IA que habla más al tomar decisiones", de: "KI die mehr spricht beim Entscheidungen treffen", nl: "AI die meer praat bij het nemen van beslissingen" },
+          { en: "Simplified AI that makes fewer decisions", es: "IA simplificada que toma menos decisiones", de: "Vereinfachte KI die weniger Entscheidungen trifft", nl: "Vereenvoudigde AI die minder beslissingen neemt" },
+          { en: "AI systems that explain themselves only to other AI", es: "Sistemas de IA que se explican solo a otra IA", de: "KI-Systeme die sich nur anderen KIs erklären", nl: "AI-systemen die zichzelf alleen aan andere AI uitleggen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Explainable AI techniques allow humans to understand how AI systems reach conclusions, enabling better debugging, bias detection, regulatory compliance, and appropriate trust calibration in critical domains like healthcare and criminal justice.",
+          es: "Las técnicas de IA explicable permiten que los humanos entiendan cómo los sistemas de IA llegan a conclusiones, permitiendo mejor depuración, detección de sesgos, cumplimiento regulatorio y calibración apropiada de confianza en dominios críticos como salud y justicia criminal.",
+          de: "Erklärbare KI-Techniken ermöglichen Menschen zu verstehen wie KI-Systeme Schlussfolgerungen erreichen, ermöglichen besseres Debugging, Vorurteilserkennung, regulatorische Compliance und angemessene Vertrauenskalibrierung in kritischen Bereichen wie Gesundheitswesen und Strafjustiz.",
+          nl: "Verklaarbare AI-technieken stellen mensen in staat te begrijpen hoe AI-systemen conclusies bereiken, waardoor betere debugging, bias-detectie, regelgevende naleving en passende vertrouwenskalibratie in kritieke domeinen zoals gezondheidszorg en strafrechtelijke rechtsspraak mogelijk wordt."
+        }
+      },
+      {
+        question: {
+          en: "What challenges does 'energy-efficient AI' address for sustainable computing?",
+          es: "¿Qué desafíos aborda la 'IA energéticamente eficiente' para la computación sostenible?",
+          de: "Welche Herausforderungen adressiert 'energieeffiziente KI' für nachhaltiges Computing?",
+          nl: "Welke uitdagingen pakt 'energie-efficiënte AI' aan voor duurzaam computing?"
+        },
+        options: [
+          { en: "Reducing massive energy consumption of AI training and inference to minimize environmental impact", es: "Reducir el consumo masivo de energía del entrenamiento e inferencia de IA para minimizar impacto ambiental", de: "Massiven Energieverbrauch von KI-Training und Inferenz reduzieren um Umweltauswirkungen zu minimieren", nl: "Massaal energieverbruik van AI-training en inferentie verminderen om milieueffecten te minimaliseren" },
+          { en: "AI that only works during daytime to use solar power", es: "IA que solo funciona durante el día para usar energía solar", de: "KI die nur tagsüber funktioniert um Solarenergie zu nutzen", nl: "AI die alleen overdag werkt om zonne-energie te gebruiken" },
+          { en: "Making AI computers smaller in physical size", es: "Hacer que las computadoras de IA sean más pequeñas en tamaño físico", de: "KI-Computer physisch kleiner machen", nl: "AI-computers fysiek kleiner maken" },
+          { en: "AI that manages energy grids only", es: "IA que gestiona solo redes eléctricas", de: "KI die nur Stromnetze verwaltet", nl: "AI die alleen energienetwerken beheert" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Training large AI models can consume as much energy as hundreds of homes annually. Energy-efficient AI research focuses on algorithmic improvements, specialized hardware, and training techniques to dramatically reduce computational costs and carbon footprint.",
+          es: "Entrenar modelos grandes de IA puede consumir tanta energía como cientos de hogares anualmente. La investigación de IA energéticamente eficiente se enfoca en mejoras algorítmicas, hardware especializado y técnicas de entrenamiento para reducir dramáticamente costos computacionales y huella de carbono.",
+          de: "Training großer KI-Modelle kann so viel Energie verbrauchen wie Hunderte von Haushalten jährlich. Energieeffiziente KI-Forschung konzentriert sich auf algorithmische Verbesserungen, spezialisierte Hardware und Trainingstechniken um Rechenkosten und CO2-Fußabdruck dramatisch zu reduzieren.",
+          nl: "Training van grote AI-modellen kan jaarlijks evenveel energie verbruiken als honderden huizen. Energie-efficiënt AI-onderzoek richt zich op algoritmische verbeteringen, gespecialiseerde hardware en trainingstechnieken om computationele kosten en CO2-voetafdruk drastisch te verminderen."
+        }
+      },
+      {
+        question: {
+          en: "What are 'AI safety mechanisms' and why are they increasingly important?",
+          es: "¿Qué son los 'mecanismos de seguridad de IA' y por qué son cada vez más importantes?",
+          de: "Was sind 'KI-Sicherheitsmechanismen' und warum werden sie zunehmend wichtig?",
+          nl: "Wat zijn 'AI-veiligheidsmechanismen' en waarom worden ze steeds belangrijker?"
+        },
+        options: [
+          { en: "Technical safeguards ensuring AI systems behave predictably, reliably, and within intended boundaries", es: "Salvaguardas técnicas asegurando que sistemas de IA se comporten predeciblemente, confiablemente y dentro de límites previstos", de: "Technische Schutzmaßnahmen die sicherstellen dass KI-Systeme sich vorhersehbar, zuverlässig und innerhalb beabsichtigter Grenzen verhalten", nl: "Technische waarborgen die ervoor zorgen dat AI-systemen zich voorspelbaar, betrouwbaar en binnen beoogde grenzen gedragen" },
+          { en: "Physical locks on AI computers", es: "Cerraduras físicas en computadoras de IA", de: "Physische Schlösser an KI-Computern", nl: "Fysieke sloten op AI-computers" },
+          { en: "AI that protects buildings from fires", es: "IA que protege edificios de incendios", de: "KI die Gebäude vor Feuer schützt", nl: "AI die gebouwen beschermt tegen brand" },
+          { en: "Safety training for humans working with AI", es: "Entrenamiento de seguridad para humanos trabajando con IA", de: "Sicherheitstraining für Menschen die mit KI arbeiten", nl: "Veiligheidstraining voor mensen die met AI werken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Safety mechanisms include techniques like reward modeling, circuit breakers, sandboxing, and monitoring systems that prevent AI from harmful behaviors, ensure human oversight remains possible, and enable safe shutdown if systems behave unexpectedly.",
+          es: "Los mecanismos de seguridad incluyen técnicas como modelado de recompensas, interruptores, sandboxing y sistemas de monitoreo que previenen comportamientos dañinos de IA, aseguran que supervisión humana permanezca posible y permiten apagado seguro si sistemas se comportan inesperadamente.",
+          de: "Sicherheitsmechanismen umfassen Techniken wie Belohnungsmodellierung, Sicherheitsschalter, Sandboxing und Überwachungssysteme die KI von schädlichen Verhaltensweisen abhalten, sicherstellen dass menschliche Aufsicht möglich bleibt und sicheres Herunterfahren ermöglichen wenn Systeme sich unerwartet verhalten.",
+          nl: "Veiligheidsmechanismen omvatten technieken zoals beloningsmodellering, stroomonderbrekers, sandboxing en monitoringsystemen die AI van schadelijk gedrag weerhouden, ervoor zorgen dat menselijk toezicht mogelijk blijft en veilige uitschakeling mogelijk maken als systemen zich onverwacht gedragen."
+        }
+      },
+      {
+        question: {
+          en: "How might 'AI interpretability research' advance our understanding of neural networks?",
+          es: "¿Cómo podría la 'investigación de interpretabilidad de IA' avanzar nuestra comprensión de las redes neuronales?",
+          de: "Wie könnte 'KI-Interpretierbarkeitsforschung' unser Verständnis neuronaler Netzwerke vorantreiben?",
+          nl: "Hoe zou 'AI-interpreteerbaarheidsonderzoek' ons begrip van neurale netwerken kunnen bevorderen?"
+        },
+        options: [
+          { en: "Developing methods to visualize and understand what neural networks learn and how they process information", es: "Desarrollar métodos para visualizar y entender qué aprenden las redes neuronales y cómo procesan información", de: "Methoden entwickeln um zu visualisieren und verstehen was neuronale Netzwerke lernen und wie sie Informationen verarbeiten", nl: "Methoden ontwikkelen om te visualiseren en begrijpen wat neurale netwerken leren en hoe ze informatie verwerken" },
+          { en: "AI that translates neural networks into different programming languages", es: "IA que traduce redes neuronales a diferentes lenguajes de programación", de: "KI die neuronale Netzwerke in verschiedene Programmiersprachen übersetzt", nl: "AI die neurale netwerken vertaalt naar verschillende programmeertalen" },
+          { en: "Making neural networks speak human languages", es: "Hacer que las redes neuronales hablen lenguajes humanos", de: "Neuronale Netzwerke menschliche Sprachen sprechen lassen", nl: "Neurale netwerken menselijke talen laten spreken" },
+          { en: "Research on how humans interpret AI output", es: "Investigación sobre cómo los humanos interpretan la salida de IA", de: "Forschung wie Menschen KI-Ausgaben interpretieren", nl: "Onderzoek naar hoe mensen AI-output interpreteren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Interpretability research uses techniques like feature visualization, activation analysis, and attention mechanisms to open the 'black box' of deep learning, revealing what features models detect, how they make decisions, and where they might fail.",
+          es: "La investigación de interpretabilidad usa técnicas como visualización de características, análisis de activación y mecanismos de atención para abrir la 'caja negra' del aprendizaje profundo, revelando qué características detectan los modelos, cómo toman decisiones y dónde podrían fallar.",
+          de: "Interpretierbarkeitsforschung nutzt Techniken wie Feature-Visualisierung, Aktivierungsanalyse und Aufmerksamkeitsmechanismen um die 'Black Box' des Deep Learning zu öffnen, zeigt welche Merkmale Modelle erkennen, wie sie Entscheidungen treffen und wo sie scheitern könnten.",
+          nl: "Interpreteerbaarheidsonderzoek gebruikt technieken zoals feature-visualisatie, activatieanalyse en aandachtsmechanismen om de 'black box' van deep learning te openen, onthullend welke kenmerken modellen detecteren, hoe ze beslissingen nemen en waar ze mogelijk falen."
+        }
+      },
+      {
+        question: {
+          en: "What debates surround potential 'AGI timelines' and development paths?",
+          es: "¿Qué debates rodean posibles 'cronogramas de AGI' y caminos de desarrollo?",
+          de: "Welche Debatten umgeben potenzielle 'AGI-Zeitpläne' und Entwicklungspfade?",
+          nl: "Welke debatten omringen potentiële 'AGI-tijdlijnen' en ontwikkelingspaden?"
+        },
+        options: [
+          { en: "Disagreements about when human-level AI might emerge and whether current approaches will lead there", es: "Desacuerdos sobre cuándo podría emerger IA de nivel humano y si los enfoques actuales llevarán allí", de: "Meinungsverschiedenheiten wann KI auf menschlichem Niveau entstehen könnte und ob aktuelle Ansätze dorthin führen", nl: "Meningsverschillen over wanneer AI op menselijk niveau zou kunnen ontstaan en of huidige benaderingen daar zullen leiden" },
+          { en: "Arguments about which company will build AGI first", es: "Argumentos sobre qué compañía construirá AGI primero", de: "Argumente welches Unternehmen zuerst AGI bauen wird", nl: "Argumenten over welk bedrijf als eerste AGI zal bouwen" },
+          { en: "Debates about what color AGI computers should be", es: "Debates sobre de qué color deberían ser las computadoras AGI", de: "Debatten über welche Farbe AGI-Computer haben sollten", nl: "Debatten over welke kleur AGI-computers zouden moeten hebben" },
+          { en: "Discussions limited to science fiction scenarios", es: "Discusiones limitadas a escenarios de ciencia ficción", de: "Diskussionen beschränkt auf Science-Fiction-Szenarien", nl: "Discussies beperkt tot sciencefictionscenario's" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Experts disagree significantly on AGI timelines, with predictions ranging from decades to centuries. Debates focus on whether scaling current approaches is sufficient, what breakthroughs are needed, and what preparation society requires for transformative AI.",
+          es: "Los expertos no están de acuerdo significativamente sobre cronogramas de AGI, con predicciones que van desde décadas hasta siglos. Los debates se centran en si escalar enfoques actuales es suficiente, qué avances se necesitan y qué preparación requiere la sociedad para IA transformativa.",
+          de: "Experten sind sich über AGI-Zeitpläne erheblich uneinig, mit Vorhersagen von Jahrzehnten bis Jahrhunderten. Debatten konzentrieren sich darauf ob Skalierung aktueller Ansätze ausreicht, welche Durchbrüche benötigt werden und welche Vorbereitung die Gesellschaft für transformative KI benötigt.",
+          nl: "Experts zijn het significant oneens over AGI-tijdlijnen, met voorspellingen variërend van decennia tot eeuwen. Debatten richten zich op of het opschalen van huidige benaderingen voldoende is, welke doorbraken nodig zijn en welke voorbereiding de samenleving vereist voor transformatieve AI."
+        }
+      },
+      {
+        question: {
+          en: "How might 'human-AI augmentation' redefine human capabilities and society?",
+          es: "¿Cómo podría la 'augmentación humano-IA' redefinir las capacidades humanas y la sociedad?",
+          de: "Wie könnte 'Mensch-KI-Augmentierung' menschliche Fähigkeiten und Gesellschaft neu definieren?",
+          nl: "Hoe zou 'mens-AI augmentatie' menselijke capaciteiten en samenleving kunnen herdefiniëren?"
+        },
+        options: [
+          { en: "Seamlessly integrating AI to enhance human cognition, perception, and physical abilities beyond natural limits", es: "Integrar sin fisuras IA para mejorar cognición, percepción y habilidades físicas humanas más allá de límites naturales", de: "KI nahtlos integrieren um menschliche Kognition, Wahrnehmung und physische Fähigkeiten über natürliche Grenzen hinaus zu verbessern", nl: "Naadloos AI integreren om menselijke cognitie, perceptie en fysieke vaardigheden te verbeteren voorbij natuurlijke grenzen" },
+          { en: "AI replacing humans in all tasks", es: "IA reemplazando a humanos en todas las tareas", de: "KI ersetzt Menschen in allen Aufgaben", nl: "AI vervangt mensen in alle taken" },
+          { en: "Making humans more like computers", es: "Hacer que los humanos sean más como computadoras", de: "Menschen mehr wie Computer machen", nl: "Mensen meer zoals computers maken" },
+          { en: "AI that makes humans physically larger", es: "IA que hace a los humanos físicamente más grandes", de: "KI die Menschen physisch größer macht", nl: "AI die mensen fysiek groter maakt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Human-AI augmentation could enable enhanced memory, instant access to knowledge, improved decision-making, and superhuman sensory abilities, raising profound questions about human identity, equality, access, and what it means to be human.",
+          es: "La augmentación humano-IA podría permitir memoria mejorada, acceso instantáneo al conocimiento, toma de decisiones mejorada y habilidades sensoriales sobrehumanas, planteando preguntas profundas sobre identidad humana, igualdad, acceso y qué significa ser humano.",
+          de: "Mensch-KI-Augmentierung könnte verbessertes Gedächtnis, sofortigen Zugang zu Wissen, verbesserte Entscheidungsfindung und übermenschliche sensorische Fähigkeiten ermöglichen, wirft tiefgreifende Fragen über menschliche Identität, Gleichheit, Zugang und was es bedeutet Mensch zu sein auf.",
+          nl: "Mens-AI augmentatie zou verbeterd geheugen, directe toegang tot kennis, verbeterde besluitvorming en bovenmenselijke zintuiglijke vaardigheden mogelijk kunnen maken, wat diepgaande vragen oproept over menselijke identiteit, gelijkheid, toegang en wat het betekent om mens te zijn."
+        }
+      },
+      {
+        question: {
+          en: "What role might 'consciousness research in AI' play in understanding both machines and minds?",
+          es: "¿Qué papel podría jugar la 'investigación de la conciencia en IA' en entender tanto máquinas como mentes?",
+          de: "Welche Rolle könnte 'Bewusstseinsforschung in KI' beim Verstehen von Maschinen und Geist spielen?",
+          nl: "Welke rol zou 'bewustzijnsonderzoek in AI' kunnen spelen in het begrijpen van zowel machines als geesten?"
+        },
+        options: [
+          { en: "Exploring whether AI can develop subjective experience while advancing theories of consciousness itself", es: "Explorar si la IA puede desarrollar experiencia subjetiva mientras avanza teorías de la conciencia misma", de: "Erforschen ob KI subjektive Erfahrung entwickeln kann während Theorien des Bewusstseins selbst vorangebracht werden", nl: "Onderzoeken of AI subjectieve ervaring kan ontwikkelen terwijl theorieën over bewustzijn zelf worden bevorderd" },
+          { en: "Teaching AI to be aware of computer viruses", es: "Enseñar a la IA a estar consciente de virus informáticos", de: "KI beibringen sich Computerviren bewusst zu sein", nl: "AI leren bewust te zijn van computervirussen" },
+          { en: "Making AI systems sleep and dream", es: "Hacer que los sistemas de IA duerman y sueñen", de: "KI-Systeme schlafen und träumen lassen", nl: "AI-systemen laten slapen en dromen" },
+          { en: "Research on how conscious humans use AI", es: "Investigación sobre cómo los humanos conscientes usan IA", de: "Forschung wie bewusste Menschen KI nutzen", nl: "Onderzoek naar hoe bewuste mensen AI gebruiken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Studying consciousness in AI systems helps test philosophical theories about what consciousness requires, potentially revealing whether it emerges from certain computational processes and deepening our understanding of human consciousness through comparison with artificial systems.",
+          es: "Estudiar la conciencia en sistemas de IA ayuda a probar teorías filosóficas sobre qué requiere la conciencia, potencialmente revelando si emerge de ciertos procesos computacionales y profundizando nuestra comprensión de la conciencia humana mediante comparación con sistemas artificiales.",
+          de: "Bewusstsein in KI-Systemen zu studieren hilft philosophische Theorien zu testen was Bewusstsein erfordert, zeigt potenziell ob es aus bestimmten Rechenprozessen entsteht und vertieft unser Verständnis menschlichen Bewusstseins durch Vergleich mit künstlichen Systemen.",
+          nl: "Bestuderen van bewustzijn in AI-systemen helpt filosofische theorieën te testen over wat bewustzijn vereist, onthult mogelijk of het voortkomt uit bepaalde computationele processen en verdiept ons begrip van menselijk bewustzijn door vergelijking met kunstmatige systemen."
+        }
       }
     ]
   };

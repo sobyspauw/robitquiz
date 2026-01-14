@@ -427,6 +427,426 @@
           de: "KI wird das Bauwesen durch Design energieeffizienter Gebäude, Optimierung der Materialauswahl für Nachhaltigkeit, Vorhersage der Gebäudeleistung, Automatisierung von Bauprozessen zur Abfallreduzierung und Schaffung intelligenter Gebäudesysteme die sich an Umweltbedingungen anpassen transformieren.",
           nl: "AI zal de bouw transformeren door energie-efficiënte gebouwen te ontwerpen, materiaalselectie voor duurzaamheid te optimaliseren, gebouwprestaties te voorspellen, bouwprocessen te automatiseren om afval te verminderen en slimme gebouwsystemen te creëren die zich aanpassen aan omgevingsomstandigheden."
         }
+      },
+      {
+        question: {
+          en: "What role might AI play in protecting endangered species by 2050?",
+          es: "¿Qué papel podría jugar la IA en proteger especies en peligro para 2050?",
+          de: "Welche Rolle könnte KI beim Schutz gefährdeter Arten bis 2050 spielen?",
+          nl: "Welke rol zou AI kunnen spelen bij het beschermen van bedreigde soorten tegen 2050?"
+        },
+        options: [
+          { en: "Tracking populations with drones, predicting poaching patterns, and optimizing habitat corridors", es: "Rastreando poblaciones con drones, prediciendo patrones de caza furtiva y optimizando corredores de hábitat", de: "Populationen mit Drohnen verfolgen, Wildereimuster vorhersagen und Habitatkorridore optimieren", nl: "Populaties volgen met drones, stroperijpatronen voorspellen en habitatcorridors optimaliseren" },
+          { en: "Cloning all endangered species immediately", es: "Clonando inmediatamente todas las especies en peligro", de: "Alle gefährdeten Arten sofort klonen", nl: "Alle bedreigde soorten onmiddellijk klonen" },
+          { en: "Moving all animals to zoos permanently", es: "Moviendo permanentemente todos los animales a zoológicos", de: "Alle Tiere dauerhaft in Zoos bringen", nl: "Alle dieren permanent naar dierentuinen verplaatsen" },
+          { en: "Creating artificial habitats only", es: "Creando solo hábitats artificiales", de: "Nur künstliche Lebensräume schaffen", nl: "Alleen kunstmatige habitats maken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will enhance conservation through autonomous monitoring with drones and camera traps, analyzing animal behavior patterns, predicting poaching activities, designing wildlife corridors, and coordinating international conservation strategies to protect endangered species.",
+          es: "La IA mejorará la conservación a través de monitoreo autónomo con drones y cámaras trampa, analizando patrones de comportamiento animal, prediciendo actividades de caza furtiva, diseñando corredores de vida silvestre y coordinando estrategias internacionales de conservación para proteger especies en peligro.",
+          de: "KI wird den Naturschutz durch autonome Überwachung mit Drohnen und Kamerafallen, Analyse von Tierverhaltenmustern, Vorhersage von Wilderei, Design von Wildtierkorridoren und Koordinierung internationaler Schutzstrategien zum Schutz gefährdeter Arten verbessern.",
+          nl: "AI zal natuurbehoud verbeteren door autonome monitoring met drones en cameravallen, analyse van diergedragspatronen, voorspellen van stroperijactiviteiten, ontwerpen van wildlifecorridors en coördineren van internationale beschermingsstrategieën om bedreigde soorten te beschermen."
+        }
+      },
+      {
+        question: {
+          en: "How might AI transform public health responses to pandemics by 2045?",
+          es: "¿Cómo podría la IA transformar las respuestas de salud pública a pandemias para 2045?",
+          de: "Wie könnte KI Reaktionen der öffentlichen Gesundheit auf Pandemien bis 2045 verändern?",
+          nl: "Hoe zou AI reacties van de volksgezondheid op pandemieën tegen 2045 kunnen transformeren?"
+        },
+        options: [
+          { en: "Early outbreak detection, real-time tracking, and optimized resource allocation during health crises", es: "Detección temprana de brotes, rastreo en tiempo real y asignación optimizada de recursos durante crisis de salud", de: "Früherkennung von Ausbrüchen, Echtzeit-Verfolgung und optimierte Ressourcenzuweisung während Gesundheitskrisen", nl: "Vroege uitbraakdetectie, realtime tracking en geoptimaliseerde toewijzing van middelen tijdens gezondheidscrises" },
+          { en: "Preventing all diseases from ever existing", es: "Previniendo que todas las enfermedades existan alguna vez", de: "Verhindern dass Krankheiten jemals existieren", nl: "Voorkomen dat alle ziektes ooit bestaan" },
+          { en: "Curing all illnesses instantly without treatment", es: "Curando todas las enfermedades instantáneamente sin tratamiento", de: "Alle Krankheiten sofort ohne Behandlung heilen", nl: "Alle ziektes onmiddellijk genezen zonder behandeling" },
+          { en: "Making humans immune to all pathogens", es: "Haciendo a humanos inmunes a todos los patógenos", de: "Menschen gegen alle Pathogene immun machen", nl: "Mensen immuun maken voor alle pathogenen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will revolutionize pandemic response by analyzing global health data to detect outbreaks early, predicting disease spread patterns, optimizing vaccine distribution, coordinating healthcare resources, and enabling rapid development of treatments through accelerated drug discovery.",
+          es: "La IA revolucionará la respuesta a pandemias analizando datos de salud global para detectar brotes temprano, prediciendo patrones de propagación de enfermedades, optimizando distribución de vacunas, coordinando recursos de salud y permitiendo desarrollo rápido de tratamientos a través de descubrimiento acelerado de medicamentos.",
+          de: "KI wird Pandemie-Reaktion durch Analyse globaler Gesundheitsdaten zur Früherkennung von Ausbrüchen, Vorhersage von Krankheitsausbreitungsmustern, Optimierung der Impfstoffverteilung, Koordinierung von Gesundheitsressourcen und Ermöglichung schneller Behandlungsentwicklung durch beschleunigte Arzneimittelentdeckung revolutionieren.",
+          nl: "AI zal pandemische respons revolutioneren door wereldwijde gezondheidsdata te analyseren om uitbraken vroeg te detecteren, ziekteverspreidingspatronen te voorspellen, vaccinverdeling te optimaliseren, gezondheidszorgmiddelen te coördineren en snelle ontwikkeling van behandelingen mogelijk te maken door versnelde medicijnontdekking."
+        }
+      },
+      {
+        question: {
+          en: "What potential does AI have for sustainable aviation and reducing flight emissions?",
+          es: "¿Qué potencial tiene la IA para la aviación sostenible y reducir emisiones de vuelos?",
+          de: "Welches Potenzial hat KI für nachhaltige Luftfahrt und Reduzierung von Flugemissionen?",
+          nl: "Welk potentieel heeft AI voor duurzame luchtvaart en het verminderen van vluchtemissies?"
+        },
+        options: [
+          { en: "Optimizing flight routes, improving fuel efficiency, and coordinating sustainable aviation fuels", es: "Optimizando rutas de vuelo, mejorando eficiencia de combustible y coordinando combustibles de aviación sostenibles", de: "Flugrouten optimieren, Kraftstoffeffizienz verbessern und nachhaltige Flugkraftstoffe koordinieren", nl: "Vliegroutes optimaliseren, brandstofefficiëntie verbeteren en duurzame luchtvaartbrandstoffen coördineren" },
+          { en: "Replacing all planes with teleportation devices", es: "Reemplazando todos los aviones con dispositivos de teletransportación", de: "Alle Flugzeuge durch Teleportationsgeräte ersetzen", nl: "Alle vliegtuigen vervangen door teleportatieapparatuur" },
+          { en: "Making aviation completely solar-powered only", es: "Haciendo la aviación completamente alimentada solo por energía solar", de: "Luftfahrt vollständig nur solarbetrieben machen", nl: "Luchtvaart volledig alleen op zonne-energie laten werken" },
+          { en: "Banning all air travel permanently", es: "Prohibiendo permanentemente todos los viajes aéreos", de: "Alle Flugreisen dauerhaft verbieten", nl: "Alle luchtreizen permanent verbieden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will make aviation more sustainable by calculating optimal flight paths that minimize fuel consumption, predicting weather patterns for efficient routing, coordinating air traffic to reduce delays, and accelerating development of sustainable aviation fuels and electric aircraft technologies.",
+          es: "La IA hará la aviación más sostenible calculando rutas de vuelo óptimas que minimicen consumo de combustible, prediciendo patrones climáticos para enrutamiento eficiente, coordinando tráfico aéreo para reducir demoras y acelerando desarrollo de combustibles de aviación sostenibles y tecnologías de aeronaves eléctricas.",
+          de: "KI wird Luftfahrt nachhaltiger machen durch Berechnung optimaler Flugrouten die Kraftstoffverbrauch minimieren, Vorhersage von Wettermustern für effizientes Routing, Koordinierung des Luftverkehrs zur Verzögerungsreduzierung und Beschleunigung der Entwicklung nachhaltiger Flugkraftstoffe und elektrischer Luftfahrttechnologien.",
+          nl: "AI zal luchtvaart duurzamer maken door optimale vliegroutes te berekenen die brandstofverbruik minimaliseren, weerpatronen te voorspellen voor efficiënte routing, luchtverkeer te coördineren om vertragingen te verminderen en ontwikkeling van duurzame luchtvaartbrandstoffen en elektrische vliegtuigtechnologieën te versnellen."
+        }
+      },
+      {
+        question: {
+          en: "How might AI help address plastic pollution in oceans by 2050?",
+          es: "¿Cómo podría la IA ayudar a abordar la contaminación plástica en océanos para 2050?",
+          de: "Wie könnte KI bei der Bekämpfung von Plastikverschmutzung in Ozeanen bis 2050 helfen?",
+          nl: "Hoe zou AI kunnen helpen bij het aanpakken van plastic vervuiling in oceanen tegen 2050?"
+        },
+        options: [
+          { en: "Tracking plastic accumulation, optimizing cleanup operations, and developing biodegradable alternatives", es: "Rastreando acumulación de plástico, optimizando operaciones de limpieza y desarrollando alternativas biodegradables", de: "Plastikansammlung verfolgen, Reinigungsoperationen optimieren und biologisch abbaubare Alternativen entwickeln", nl: "Plasticophoping volgen, opruimoperaties optimaliseren en biologisch afbreekbare alternatieven ontwikkelen" },
+          { en: "Making all plastic disappear magically", es: "Haciendo que todo el plástico desaparezca mágicamente", de: "Allen Kunststoff magisch verschwinden lassen", nl: "Alle plastic magisch laten verdwijnen" },
+          { en: "Converting ocean plastic directly into fuel instantly", es: "Convirtiendo plástico oceánico directamente en combustible instantáneamente", de: "Ozean-Kunststoff sofort direkt in Kraftstoff umwandeln", nl: "Oceaanplastic onmiddellijk direct omzetten in brandstof" },
+          { en: "Training fish to eat all plastic waste", es: "Entrenando peces para comer todos los residuos plásticos", de: "Fische trainieren allen Plastikabfall zu fressen", nl: "Vissen trainen om al het plastic afval te eten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will combat ocean plastic pollution through satellite monitoring of plastic accumulation zones, optimizing autonomous cleanup vessel routes, predicting ocean current patterns to intercept plastic, and accelerating development of biodegradable materials and plastic-eating enzymes.",
+          es: "La IA combatirá la contaminación plástica oceánica a través de monitoreo satelital de zonas de acumulación de plástico, optimizando rutas de embarcaciones de limpieza autónomas, prediciendo patrones de corrientes oceánicas para interceptar plástico y acelerando desarrollo de materiales biodegradables y enzimas que comen plástico.",
+          de: "KI wird Ozean-Plastikverschmutzung durch Satellitenüberwachung von Plastikansammlungszonen, Optimierung autonomer Reinigungsschiffrouten, Vorhersage ozeanischer Strömungsmuster zur Plastikabfangung und Beschleunigung der Entwicklung biologisch abbaubarer Materialien und kunststofffressender Enzyme bekämpfen.",
+          nl: "AI zal oceaanplastic vervuiling bestrijden door satellietmonitoring van plasticophopingszones, optimaliseren van autonome schoonmaakschepenroutes, voorspellen van oceaanstromingspatronen om plastic te onderscheppen en ontwikkeling van biologisch afbreekbare materialen en plastic-etende enzymen te versnellen."
+        }
+      },
+      {
+        question: {
+          en: "What role might AI play in personalized environmental impact tracking by 2045?",
+          es: "¿Qué papel podría jugar la IA en el seguimiento personalizado del impacto ambiental para 2045?",
+          de: "Welche Rolle könnte KI bei der personalisierten Umweltauswirkungsverfolgung bis 2045 spielen?",
+          nl: "Welke rol zou AI kunnen spelen bij gepersonaliseerde milieueffect tracking tegen 2045?"
+        },
+        options: [
+          { en: "Calculating individual carbon footprints and providing personalized sustainability recommendations", es: "Calculando huellas de carbono individuales y proporcionando recomendaciones de sostenibilidad personalizadas", de: "Individuelle CO2-Fußabdrücke berechnen und personalisierte Nachhaltigkeitsempfehlungen bereitstellen", nl: "Individuele koolstofvoetafdrukken berekenen en gepersonaliseerde duurzaamheidsaanbevelingen bieden" },
+          { en: "Making everyone have identical environmental impacts", es: "Haciendo que todos tengan impactos ambientales idénticos", de: "Alle identische Umweltauswirkungen haben lassen", nl: "Iedereen identieke milieueffecten laten hebben" },
+          { en: "Eliminating all personal environmental responsibility", es: "Eliminando toda responsabilidad ambiental personal", de: "Alle persönliche Umweltverantwortung eliminieren", nl: "Alle persoonlijke milieuverantwoordelijkheid elimineren" },
+          { en: "Tracking only government environmental impacts", es: "Rastreando solo impactos ambientales gubernamentales", de: "Nur staatliche Umweltauswirkungen verfolgen", nl: "Alleen overheids milieueffecten volgen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will enable individuals to track their environmental footprint through analysis of consumption patterns, travel choices, energy use, and waste generation, while providing personalized recommendations and gamified incentives to reduce environmental impact.",
+          es: "La IA permitirá a individuos rastrear su huella ambiental a través de análisis de patrones de consumo, opciones de viaje, uso de energía y generación de residuos, mientras proporciona recomendaciones personalizadas e incentivos gamificados para reducir impacto ambiental.",
+          de: "KI wird Einzelpersonen ermöglichen ihren Umwelt-Fußabdruck durch Analyse von Konsummustern, Reiseentscheidungen, Energieverbrauch und Abfallerzeugung zu verfolgen, während personalisierte Empfehlungen und gamifizierte Anreize zur Reduzierung der Umweltauswirkungen bereitgestellt werden.",
+          nl: "AI zal individuen in staat stellen hun milieuvoetafdruk te volgen door analyse van consumptiepatronen, reiskeuzes, energiegebruik en afvalproductie, terwijl gepersonaliseerde aanbevelingen en gamified incentives worden geboden om milieueffect te verminderen."
+        }
+      },
+      {
+        question: {
+          en: "How might AI transform renewable energy forecasting and grid reliability?",
+          es: "¿Cómo podría la IA transformar el pronóstico de energía renovable y la confiabilidad de la red?",
+          de: "Wie könnte KI Prognose erneuerbarer Energien und Netzzuverlässigkeit verändern?",
+          nl: "Hoe zou AI voorspelling van hernieuwbare energie en netwerkbetrouwbaarheid kunnen transformeren?"
+        },
+        options: [
+          { en: "Predicting renewable output with high accuracy and balancing intermittent sources seamlessly", es: "Prediciendo producción renovable con alta precisión y equilibrando fuentes intermitentes sin problemas", de: "Erneuerbare Produktion mit hoher Genauigkeit vorhersagen und intermittierende Quellen nahtlos ausbalancieren", nl: "Hernieuwbare output met hoge nauwkeurigheid voorspellen en intermitterende bronnen naadloos balanceren" },
+          { en: "Making solar panels work at night naturally", es: "Haciendo que paneles solares funcionen de noche naturalmente", de: "Solarpanele nachts natürlich funktionieren lassen", nl: "Zonnepanelen 's nachts natuurlijk laten werken" },
+          { en: "Eliminating weather variability entirely", es: "Eliminando completamente la variabilidad climática", de: "Wettervariabilität vollständig eliminieren", nl: "Weervariabiliteit volledig elimineren" },
+          { en: "Creating energy only when demand is zero", es: "Creando energía solo cuando la demanda es cero", de: "Energie nur erzeugen wenn Nachfrage null ist", nl: "Energie alleen creëren als vraag nul is" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will revolutionize renewable energy reliability by analyzing weather patterns, historical data, and grid conditions to predict solar and wind output with unprecedented accuracy, enabling better integration of intermittent renewable sources into stable power grids.",
+          es: "La IA revolucionará la confiabilidad de energía renovable analizando patrones climáticos, datos históricos y condiciones de red para predecir producción solar y eólica con precisión sin precedentes, permitiendo mejor integración de fuentes renovables intermitentes en redes eléctricas estables.",
+          de: "KI wird Zuverlässigkeit erneuerbarer Energien durch Analyse von Wettermustern, historischen Daten und Netzbedingungen revolutionieren um Solar- und Windproduktion mit beispielloser Genauigkeit vorherzusagen, was bessere Integration intermittierender erneuerbarer Quellen in stabile Stromnetze ermöglicht.",
+          nl: "AI zal betrouwbaarheid van hernieuwbare energie revolutioneren door weerpatronen, historische data en netomstandigheden te analyseren om zonne- en windproductie met ongekende nauwkeurigheid te voorspellen, waardoor betere integratie van intermitterende hernieuwbare bronnen in stabiele elektriciteitsnetten mogelijk wordt."
+        }
+      },
+      {
+        question: {
+          en: "What potential does AI have for sustainable shipping and maritime transport?",
+          es: "¿Qué potencial tiene la IA para el transporte marítimo y naval sostenible?",
+          de: "Welches Potenzial hat KI für nachhaltigen Versand und Seetransport?",
+          nl: "Welk potentieel heeft AI voor duurzame scheepvaart en maritiem transport?"
+        },
+        options: [
+          { en: "Optimizing shipping routes, reducing fuel consumption, and coordinating autonomous cargo vessels", es: "Optimizando rutas de envío, reduciendo consumo de combustible y coordinando buques de carga autónomos", de: "Schiffsrouten optimieren, Kraftstoffverbrauch reduzieren und autonome Frachtschiffe koordinieren", nl: "Scheepvaartroutes optimaliseren, brandstofverbruik verminderen en autonome vrachtschepen coördineren" },
+          { en: "Making all ships fly instead of sailing", es: "Haciendo que todos los barcos vuelen en lugar de navegar", de: "Alle Schiffe fliegen statt segeln lassen", nl: "Alle schepen laten vliegen in plaats van varen" },
+          { en: "Replacing ocean transport with underground tunnels", es: "Reemplazando transporte oceánico con túneles subterráneos", de: "Ozeantransport durch unterirdische Tunnel ersetzen", nl: "Oceaantransport vervangen door ondergrondse tunnels" },
+          { en: "Eliminating international shipping entirely", es: "Eliminando completamente el transporte internacional", de: "Internationalen Versand vollständig eliminieren", nl: "Internationale scheepvaart volledig elimineren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will make shipping more sustainable by calculating fuel-efficient routes considering weather and ocean currents, optimizing cargo loading, coordinating port operations to reduce waiting times, and enabling autonomous ships that operate with maximum efficiency and minimal emissions.",
+          es: "La IA hará el transporte más sostenible calculando rutas eficientes en combustible considerando clima y corrientes oceánicas, optimizando carga de mercancías, coordinando operaciones portuarias para reducir tiempos de espera y habilitando barcos autónomos que operan con máxima eficiencia y emisiones mínimas.",
+          de: "KI wird Versand nachhaltiger machen durch Berechnung kraftstoffeffizienter Routen unter Berücksichtigung von Wetter und Meeresströmungen, Optimierung der Frachtbeladung, Koordinierung von Hafenoperationen zur Reduzierung von Wartezeiten und Ermöglichung autonomer Schiffe die mit maximaler Effizienz und minimalen Emissionen operieren.",
+          nl: "AI zal scheepvaart duurzamer maken door brandstofefficiënte routes te berekenen rekening houdend met weer en oceaanstromingen, vracht laden te optimaliseren, havenoperaties te coördineren om wachttijden te verminderen en autonome schepen mogelijk te maken die opereren met maximale efficiëntie en minimale uitstoot."
+        }
+      },
+      {
+        question: {
+          en: "How might AI help with soil health monitoring and regenerative agriculture?",
+          es: "¿Cómo podría la IA ayudar con el monitoreo de salud del suelo y agricultura regenerativa?",
+          de: "Wie könnte KI bei der Überwachung der Bodengesundheit und regenerativen Landwirtschaft helfen?",
+          nl: "Hoe zou AI kunnen helpen met bodemgezondheidsmonitoring en regeneratieve landbouw?"
+        },
+        options: [
+          { en: "Analyzing soil microbiomes, optimizing crop rotation, and tracking carbon sequestration in soil", es: "Analizando microbiomas del suelo, optimizando rotación de cultivos y rastreando secuestro de carbono en suelo", de: "Bodenmikrobiome analysieren, Fruchtfolge optimieren und Kohlenstoffbindung im Boden verfolgen", nl: "Bodemmicrobiomen analyseren, gewasrotatie optimaliseren en koolstofopslag in grond volgen" },
+          { en: "Making soil completely artificial and synthetic", es: "Haciendo el suelo completamente artificial y sintético", de: "Boden völlig künstlich und synthetisch machen", nl: "Grond volledig kunstmatig en synthetisch maken" },
+          { en: "Eliminating the need for soil entirely", es: "Eliminando completamente la necesidad de suelo", de: "Die Notwendigkeit von Boden vollständig eliminieren", nl: "De noodzaak van grond volledig elimineren" },
+          { en: "Growing all crops in water only", es: "Cultivando todos los cultivos solo en agua", de: "Alle Pflanzen nur in Wasser anbauen", nl: "Alle gewassen alleen in water verbouwen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will revolutionize soil management by analyzing soil composition, microbial health, and nutrient levels to guide regenerative farming practices, optimize crop rotation for soil restoration, and track carbon capture in agricultural soils to combat climate change.",
+          es: "La IA revolucionará la gestión del suelo analizando composición del suelo, salud microbiana y niveles de nutrientes para guiar prácticas agrícolas regenerativas, optimizar rotación de cultivos para restauración del suelo y rastrear captura de carbono en suelos agrícolas para combatir el cambio climático.",
+          de: "KI wird Bodenbewirtschaftung durch Analyse von Bodenzusammensetzung, mikrobieller Gesundheit und Nährstoffwerten revolutionieren um regenerative Landwirtschaftspraktiken zu leiten, Fruchtfolge für Bodenrestaurierung zu optimieren und Kohlenstoffbindung in landwirtschaftlichen Böden zu verfolgen um Klimawandel zu bekämpfen.",
+          nl: "AI zal bodembeheer revolutioneren door bodemsamenstelling, microbiële gezondheid en voedingsniveaus te analyseren om regeneratieve landbouwpraktijken te begeleiden, gewasrotatie voor bodemherstel te optimaliseren en koolstofopname in landbouwgronden te volgen om klimaatverandering te bestrijden."
+        }
+      },
+      {
+        question: {
+          en: "What role might AI play in sustainable aquaculture and ocean farming by 2050?",
+          es: "¿Qué papel podría jugar la IA en la acuicultura sostenible y cultivo oceánico para 2050?",
+          de: "Welche Rolle könnte KI in nachhaltiger Aquakultur und Ozeanfischerei bis 2050 spielen?",
+          nl: "Welke rol zou AI kunnen spelen in duurzame aquacultuur en oceaanlandbouw tegen 2050?"
+        },
+        options: [
+          { en: "Monitoring fish health, optimizing feeding schedules, and minimizing environmental impact of fish farms", es: "Monitoreando salud de peces, optimizando horarios de alimentación y minimizando impacto ambiental de piscifactorías", de: "Fischgesundheit überwachen, Fütterungspläne optimieren und Umweltauswirkungen von Fischfarmen minimieren", nl: "Visgezondheid monitoren, voedingsschema's optimaliseren en milieueffecten van viskwekerijen minimaliseren" },
+          { en: "Creating artificial fish from plastic materials", es: "Creando peces artificiales de materiales plásticos", de: "Künstliche Fische aus Kunststoffmaterialien schaffen", nl: "Kunstmatige vissen maken van plastic materialen" },
+          { en: "Eliminating all ocean farming permanently", es: "Eliminando permanentemente todo cultivo oceánico", de: "Alle Ozeanfischerei dauerhaft eliminieren", nl: "Alle oceaanlandbouw permanent elimineren" },
+          { en: "Making fish grow to full size instantly", es: "Haciendo que los peces crezcan a tamaño completo instantáneamente", de: "Fische sofort auf volle Größe wachsen lassen", nl: "Vissen onmiddellijk op volle grootte laten groeien" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will transform aquaculture by monitoring water quality continuously, detecting fish diseases early, optimizing feeding to reduce waste, predicting optimal harvest times, and designing sustainable ocean farming systems that minimize ecosystem disruption while maximizing food production.",
+          es: "La IA transformará la acuicultura monitoreando calidad del agua continuamente, detectando enfermedades de peces temprano, optimizando alimentación para reducir residuos, prediciendo tiempos óptimos de cosecha y diseñando sistemas de cultivo oceánico sostenibles que minimizan perturbación de ecosistemas mientras maximizan producción de alimentos.",
+          de: "KI wird Aquakultur durch kontinuierliche Überwachung der Wasserqualität, Früherkennung von Fischkrankheiten, Optimierung der Fütterung zur Abfallreduzierung, Vorhersage optimaler Erntezeiten und Design nachhaltiger Ozeanfischereisysteme die Ökosystemstörungen minimieren während Nahrungsmittelproduktion maximiert wird transformieren.",
+          nl: "AI zal aquacultuur transformeren door waterkwaliteit continu te monitoren, visziektes vroeg te detecteren, voeding te optimaliseren om afval te verminderen, optimale oogsttijden te voorspellen en duurzame oceaanlandbouwsystemen te ontwerpen die ecosysteem verstoring minimaliseren terwijl voedselproductie wordt gemaximaliseerd."
+        }
+      },
+      {
+        question: {
+          en: "How might AI help combat air pollution in megacities by 2045?",
+          es: "¿Cómo podría la IA ayudar a combatir la contaminación del aire en megaciudades para 2045?",
+          de: "Wie könnte KI bei der Bekämpfung der Luftverschmutzung in Megastädten bis 2045 helfen?",
+          nl: "Hoe zou AI kunnen helpen bij het bestrijden van luchtvervuiling in megasteden tegen 2045?"
+        },
+        options: [
+          { en: "Real-time pollution monitoring, optimizing traffic flow, and coordinating air purification systems", es: "Monitoreo de contaminación en tiempo real, optimizando flujo de tráfico y coordinando sistemas de purificación del aire", de: "Echtzeit-Verschmutzungsüberwachung, Verkehrsflussoptimierung und Koordinierung von Luftreinigungssystemen", nl: "Realtime vervuilingsmonitoring, verkeersstroom optimaliseren en luchtzuiveringssystemen coördineren" },
+          { en: "Creating protective domes over all cities", es: "Creando cúpulas protectoras sobre todas las ciudades", de: "Schutzkuppeln über allen Städten schaffen", nl: "Beschermende koepels over alle steden maken" },
+          { en: "Moving all populations to underground cities", es: "Moviendo todas las poblaciones a ciudades subterráneas", de: "Alle Bevölkerungen in unterirdische Städte verlegen", nl: "Alle bevolkingen naar ondergrondse steden verplaatsen" },
+          { en: "Eliminating all industrial activity in cities", es: "Eliminando toda actividad industrial en ciudades", de: "Alle industrielle Aktivität in Städten eliminieren", nl: "Alle industriële activiteit in steden elimineren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will combat urban air pollution through dense sensor networks monitoring air quality in real-time, optimizing traffic patterns to reduce emissions, coordinating public transit, controlling smart air filtration systems, and identifying pollution sources for targeted interventions.",
+          es: "La IA combatirá la contaminación del aire urbano a través de densas redes de sensores monitoreando calidad del aire en tiempo real, optimizando patrones de tráfico para reducir emisiones, coordinando transporte público, controlando sistemas inteligentes de filtración del aire e identificando fuentes de contaminación para intervenciones dirigidas.",
+          de: "KI wird städtische Luftverschmutzung durch dichte Sensornetzwerke die Luftqualität in Echtzeit überwachen, Verkehrsmuster zur Emissionsreduzierung optimieren, öffentlichen Verkehr koordinieren, intelligente Luftfiltersysteme steuern und Verschmutzungsquellen für gezielte Interventionen identifizieren bekämpfen.",
+          nl: "AI zal stedelijke luchtvervuiling bestrijden door dichte sensornetwerken die luchtkwaliteit in realtime monitoren, verkeerspatronen optimaliseren om uitstoot te verminderen, openbaar vervoer coördineren, slimme luchtfiltersystemen controleren en vervuilingsbronnen identificeren voor gerichte interventies."
+        }
+      },
+      {
+        question: {
+          en: "What potential does AI have for sustainable battery technology and energy storage?",
+          es: "¿Qué potencial tiene la IA para tecnología de baterías sostenibles y almacenamiento de energía?",
+          de: "Welches Potenzial hat KI für nachhaltige Batterietechnologie und Energiespeicherung?",
+          nl: "Welk potentieel heeft AI voor duurzame batterijtechnologie en energie-opslag?"
+        },
+        options: [
+          { en: "Discovering new battery materials, optimizing charging cycles, and extending battery lifespan", es: "Descubriendo nuevos materiales para baterías, optimizando ciclos de carga y extendiendo vida útil de baterías", de: "Neue Batteriematerialien entdecken, Ladezyklen optimieren und Batterielebensdauer verlängern", nl: "Nieuwe batterijmaterialen ontdekken, oplaadcycli optimaliseren en batterijlevensduur verlengen" },
+          { en: "Creating batteries that never need charging", es: "Creando baterías que nunca necesitan carga", de: "Batterien schaffen die nie Aufladung brauchen", nl: "Batterijen maken die nooit opladen nodig hebben" },
+          { en: "Making all batteries from rare earth metals only", es: "Haciendo todas las baterías solo de metales de tierras raras", de: "Alle Batterien nur aus Seltenen Erden machen", nl: "Alle batterijen alleen van zeldzame aardmetalen maken" },
+          { en: "Eliminating the need for energy storage", es: "Eliminando la necesidad de almacenamiento de energía", de: "Die Notwendigkeit der Energiespeicherung eliminieren", nl: "De noodzaak van energie-opslag elimineren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will revolutionize battery technology by simulating millions of material combinations to discover more efficient, sustainable battery chemistries, optimizing charging algorithms to extend battery life, and designing recycling processes to recover valuable materials from old batteries.",
+          es: "La IA revolucionará la tecnología de baterías simulando millones de combinaciones de materiales para descubrir químicas de baterías más eficientes y sostenibles, optimizando algoritmos de carga para extender vida de baterías y diseñando procesos de reciclaje para recuperar materiales valiosos de baterías viejas.",
+          de: "KI wird Batterietechnologie durch Simulation von Millionen Materialkombinationen revolutionieren um effizientere nachhaltige Batteriechemien zu entdecken, Ladealgorithmen zur Verlängerung der Batterielebensdauer zu optimieren und Recyclingprozesse zur Rückgewinnung wertvoller Materialien aus alten Batterien zu entwerfen.",
+          nl: "AI zal batterijtechnologie revolutioneren door miljoenen materiaalcombinaties te simuleren om efficiëntere, duurzame batterijchemieën te ontdekken, oplaadalgoritmes te optimaliseren om batterijlevensduur te verlengen en recyclingprocessen te ontwerpen om waardevolle materialen uit oude batterijen te halen."
+        }
+      },
+      {
+        question: {
+          en: "How might AI transform wildfire prediction and prevention by 2050?",
+          es: "¿Cómo podría la IA transformar la predicción y prevención de incendios forestales para 2050?",
+          de: "Wie könnte KI Waldbrandvorhersage und -prävention bis 2050 verändern?",
+          nl: "Hoe zou AI bosbranden voorspelling en preventie tegen 2050 kunnen transformeren?"
+        },
+        options: [
+          { en: "Analyzing weather patterns, vegetation dryness, and coordinating early intervention strategies", es: "Analizando patrones climáticos, sequedad de vegetación y coordinando estrategias de intervención temprana", de: "Wettermuster analysieren, Vegetationstrockenheit und Frühinterventionsstrategien koordinieren", nl: "Weerpatronen analyseren, vegetatiedroogte en vroege interventiestrategieën coördineren" },
+          { en: "Making all forests fireproof permanently", es: "Haciendo todos los bosques permanentemente a prueba de fuego", de: "Alle Wälder dauerhaft feuerfest machen", nl: "Alle bossen permanent brandwerend maken" },
+          { en: "Controlling weather to prevent all fires", es: "Controlando el clima para prevenir todos los incendios", de: "Wetter kontrollieren um alle Brände zu verhindern", nl: "Weer controleren om alle branden te voorkomen" },
+          { en: "Eliminating all forests to prevent wildfires", es: "Eliminando todos los bosques para prevenir incendios forestales", de: "Alle Wälder eliminieren um Waldbrände zu verhindern", nl: "Alle bossen elimineren om bosbranden te voorkomen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will transform wildfire management by analyzing satellite imagery, weather data, and vegetation conditions to predict high-risk areas, deploying autonomous drones for early fire detection, optimizing firefighting resource allocation, and coordinating controlled burns to reduce fuel buildup.",
+          es: "La IA transformará la gestión de incendios forestales analizando imágenes satelitales, datos meteorológicos y condiciones de vegetación para predecir áreas de alto riesgo, desplegando drones autónomos para detección temprana de incendios, optimizando asignación de recursos de extinción y coordinando quemas controladas para reducir acumulación de combustible.",
+          de: "KI wird Waldbrandmanagement durch Analyse von Satellitenbildern, Wetterdaten und Vegetationsbedingungen zur Vorhersage von Hochrisikobereichen, Einsatz autonomer Drohnen zur Früherkennung von Bränden, Optimierung der Feuerwehrressourcenzuweisung und Koordinierung kontrollierter Verbrennungen zur Reduzierung von Brennstoffansammlungen transformieren.",
+          nl: "AI zal bosbrandbeheer transformeren door satellietbeelden, weergegevens en vegetatiecondities te analyseren om hoogrisico-gebieden te voorspellen, autonome drones in te zetten voor vroege branddetectie, toewijzing van brandbestrijdingsmiddelen te optimaliseren en gecontroleerde brandingen te coördineren om brandstofophoping te verminderen."
+        }
+      },
+      {
+        question: {
+          en: "What role might AI play in sustainable urban heat island mitigation?",
+          es: "¿Qué papel podría jugar la IA en la mitigación sostenible de islas de calor urbanas?",
+          de: "Welche Rolle könnte KI bei der nachhaltigen Minderung städtischer Wärmeinseln spielen?",
+          nl: "Welke rol zou AI kunnen spelen bij duurzame mitigatie van stedelijke hitte-eilanden?"
+        },
+        options: [
+          { en: "Optimizing green space placement, cool roof materials, and urban ventilation design", es: "Optimizando ubicación de espacios verdes, materiales de techos frescos y diseño de ventilación urbana", de: "Platzierung von Grünflächen, kühle Dachmaterialien und städtisches Belüftungsdesign optimieren", nl: "Plaatsing van groene ruimtes, koele dakmaterialen en stedelijk ventilatieontwerp optimaliseren" },
+          { en: "Air conditioning all outdoor spaces permanently", es: "Climatizando permanentemente todos los espacios exteriores", de: "Alle Außenbereiche dauerhaft klimatisieren", nl: "Alle buitenruimtes permanent klimatiseren" },
+          { en: "Moving all cities to polar regions", es: "Moviendo todas las ciudades a regiones polares", de: "Alle Städte in Polarregionen verlegen", nl: "Alle steden naar poolgebieden verplaatsen" },
+          { en: "Building cities only underground", es: "Construyendo ciudades solo bajo tierra", de: "Städte nur unterirdisch bauen", nl: "Steden alleen ondergronds bouwen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will combat urban heat islands by analyzing temperature patterns to identify hotspots, optimizing placement of green infrastructure and reflective surfaces, designing urban layouts for better airflow, and coordinating building materials that minimize heat absorption.",
+          es: "La IA combatirá islas de calor urbanas analizando patrones de temperatura para identificar puntos calientes, optimizando ubicación de infraestructura verde y superficies reflectantes, diseñando diseños urbanos para mejor flujo de aire y coordinando materiales de construcción que minimizan absorción de calor.",
+          de: "KI wird städtische Wärmeinseln durch Analyse von Temperaturmustern zur Identifizierung von Hotspots, Optimierung der Platzierung grüner Infrastruktur und reflektierender Oberflächen, Design städtischer Layouts für besseren Luftstrom und Koordinierung von Baumaterialien die Wärmeaufnahme minimieren bekämpfen.",
+          nl: "AI zal stedelijke hitte-eilanden bestrijden door temperatuurpatronen te analyseren om hotspots te identificeren, plaatsing van groene infrastructuur en reflecterende oppervlakken te optimaliseren, stedelijke layouts te ontwerpen voor betere luchtstroom en bouwmaterialen te coördineren die warmteabsorptie minimaliseren."
+        }
+      },
+      {
+        question: {
+          en: "How might AI help with sustainable pharmaceutical production and drug waste reduction?",
+          es: "¿Cómo podría la IA ayudar con la producción farmacéutica sostenible y reducción de residuos de medicamentos?",
+          de: "Wie könnte KI bei nachhaltiger pharmazeutischer Produktion und Arzneimittelabfallreduzierung helfen?",
+          nl: "Hoe zou AI kunnen helpen met duurzame farmaceutische productie en medicijnafvalvermindering?"
+        },
+        options: [
+          { en: "Optimizing production processes, predicting demand, and reducing pharmaceutical pollution", es: "Optimizando procesos de producción, prediciendo demanda y reduciendo contaminación farmacéutica", de: "Produktionsprozesse optimieren, Nachfrage vorhersagen und pharmazeutische Verschmutzung reduzieren", nl: "Productieprocessen optimaliseren, vraag voorspellen en farmaceutische vervuiling verminderen" },
+          { en: "Making all medications from synthetic materials only", es: "Haciendo todos los medicamentos solo de materiales sintéticos", de: "Alle Medikamente nur aus synthetischen Materialien herstellen", nl: "Alle medicijnen alleen van synthetische materialen maken" },
+          { en: "Eliminating expiration dates on all drugs", es: "Eliminando fechas de vencimiento en todos los medicamentos", de: "Verfallsdaten bei allen Medikamenten eliminieren", nl: "Vervaldatums op alle medicijnen elimineren" },
+          { en: "Creating self-disposing medications", es: "Creando medicamentos que se auto-eliminan", de: "Selbstentsorgende Medikamente schaffen", nl: "Zelfverwijderende medicijnen maken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will make pharmaceutical production more sustainable by optimizing manufacturing processes to reduce chemical waste, predicting medication demand to minimize overproduction, designing greener synthesis pathways, and tracking pharmaceutical pollution in water systems for remediation.",
+          es: "La IA hará la producción farmacéutica más sostenible optimizando procesos de fabricación para reducir residuos químicos, prediciendo demanda de medicamentos para minimizar sobreproducción, diseñando rutas de síntesis más verdes y rastreando contaminación farmacéutica en sistemas de agua para remediación.",
+          de: "KI wird pharmazeutische Produktion nachhaltiger machen durch Optimierung von Herstellungsprozessen zur Reduzierung chemischer Abfälle, Vorhersage des Medikamentenbedarfs zur Minimierung von Überproduktion, Design umweltfreundlicherer Synthesewege und Verfolgung pharmazeutischer Verschmutzung in Wassersystemen zur Sanierung.",
+          nl: "AI zal farmaceutische productie duurzamer maken door productieprocessen te optimaliseren om chemisch afval te verminderen, medicijnvraag te voorspellen om overproductie te minimaliseren, groenere syntheseroutes te ontwerpen en farmaceutische vervuiling in watersystemen te volgen voor sanering."
+        }
+      },
+      {
+        question: {
+          en: "What potential does AI have for glacier and ice sheet monitoring in climate science?",
+          es: "¿Qué potencial tiene la IA para el monitoreo de glaciares y capas de hielo en ciencia climática?",
+          de: "Welches Potenzial hat KI für die Überwachung von Gletschern und Eisschilden in der Klimawissenschaft?",
+          nl: "Welk potentieel heeft AI voor gletsjer- en ijsplaatmonitoring in klimaatwetenschap?"
+        },
+        options: [
+          { en: "Tracking ice loss rates, predicting sea level rise, and modeling glacier dynamics globally", es: "Rastreando tasas de pérdida de hielo, prediciendo aumento del nivel del mar y modelando dinámica de glaciares globalmente", de: "Eisverlustraten verfolgen, Meeresspiegelanstieg vorhersagen und Gletscherdynamik global modellieren", nl: "IJsverliessnelheden volgen, zeespiegelstijging voorspellen en gletsjerdynamiek wereldwijd modelleren" },
+          { en: "Rebuilding glaciers using artificial ice", es: "Reconstruyendo glaciares usando hielo artificial", de: "Gletscher mit künstlichem Eis wiederaufbauen", nl: "Gletsjers herbouwen met kunstmatig ijs" },
+          { en: "Stopping all glacier melting permanently", es: "Deteniendo permanentemente todo derretimiento de glaciares", de: "Allen Gletscherschmelze dauerhaft stoppen", nl: "Alle gletsjersmelting permanent stoppen" },
+          { en: "Moving glaciers to safer locations", es: "Moviendo glaciares a ubicaciones más seguras", de: "Gletscher an sicherere Orte verlegen", nl: "Gletsjers naar veiliger locaties verplaatsen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will revolutionize ice sheet monitoring by analyzing satellite imagery to track glacier retreat, modeling ice dynamics to predict future melting rates, estimating sea level rise impacts, and identifying tipping points in polar ice systems critical for climate projections.",
+          es: "La IA revolucionará el monitoreo de capas de hielo analizando imágenes satelitales para rastrear retroceso de glaciares, modelando dinámica de hielo para predecir tasas futuras de derretimiento, estimando impactos de aumento del nivel del mar e identificando puntos de inflexión en sistemas de hielo polar críticos para proyecciones climáticas.",
+          de: "KI wird Eisschildüberwachung durch Analyse von Satellitenbildern zur Verfolgung des Gletscherrückgangs, Modellierung der Eisdynamik zur Vorhersage zukünftiger Schmelzraten, Schätzung der Auswirkungen des Meeresspiegelanstiegs und Identifizierung von Kipppunkten in polaren Eissystemen die für Klimaprojektionen kritisch sind revolutionieren.",
+          nl: "AI zal ijsplaatmonitoring revolutioneren door satellietbeelden te analyseren om gletsjersmelting te volgen, ijsdynamiek te modelleren om toekomstige smeltsnelheden te voorspellen, zeespiegelstijgingseffecten te schatten en kantelpunten in polaire ijssystemen te identificeren die cruciaal zijn voor klimaatprojecties."
+        }
+      },
+      {
+        question: {
+          en: "How might AI transform sustainable electronics manufacturing and e-waste management?",
+          es: "¿Cómo podría la IA transformar la fabricación sostenible de electrónica y gestión de residuos electrónicos?",
+          de: "Wie könnte KI nachhaltige Elektronikfertigung und E-Waste-Management verändern?",
+          nl: "Hoe zou AI duurzame elektronica-productie en e-waste beheer kunnen transformeren?"
+        },
+        options: [
+          { en: "Designing modular electronics, optimizing recycling processes, and tracking valuable materials", es: "Diseñando electrónica modular, optimizando procesos de reciclaje y rastreando materiales valiosos", de: "Modulare Elektronik entwerfen, Recyclingprozesse optimieren und wertvolle Materialien verfolgen", nl: "Modulaire elektronica ontwerpen, recyclingprocessen optimaliseren en waardevolle materialen volgen" },
+          { en: "Making all electronics biodegradable instantly", es: "Haciendo toda la electrónica biodegradable instantáneamente", de: "Alle Elektronik sofort biologisch abbaubar machen", nl: "Alle elektronica onmiddellijk biologisch afbreekbaar maken" },
+          { en: "Banning all electronic devices permanently", es: "Prohibiendo permanentemente todos los dispositivos electrónicos", de: "Alle elektronischen Geräte dauerhaft verbieten", nl: "Alle elektronische apparaten permanent verbieden" },
+          { en: "Creating electronics that never break or wear out", es: "Creando electrónica que nunca se rompe o desgasta", de: "Elektronik schaffen die nie kaputt geht oder verschleißt", nl: "Elektronica maken die nooit kapot gaat of verslijt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will make electronics more sustainable by designing products for easy disassembly and repair, optimizing material selection to avoid toxic components, improving automated e-waste sorting and recycling, and tracking valuable materials through product lifecycles for recovery.",
+          es: "La IA hará la electrónica más sostenible diseñando productos para fácil desmontaje y reparación, optimizando selección de materiales para evitar componentes tóxicos, mejorando clasificación y reciclaje automatizado de residuos electrónicos y rastreando materiales valiosos a través de ciclos de vida de productos para recuperación.",
+          de: "KI wird Elektronik nachhaltiger machen durch Design von Produkten für einfache Demontage und Reparatur, Optimierung der Materialauswahl zur Vermeidung toxischer Komponenten, Verbesserung der automatisierten E-Waste-Sortierung und des Recyclings und Verfolgung wertvoller Materialien durch Produktlebenszyklen zur Rückgewinnung.",
+          nl: "AI zal elektronica duurzamer maken door producten te ontwerpen voor eenvoudige demontage en reparatie, materiaalselectie te optimaliseren om toxische componenten te vermijden, geautomatiseerde e-waste sortering en recycling te verbeteren, en waardevolle materialen door productlevenscycli te volgen voor terugwinning."
+        }
+      },
+      {
+        question: {
+          en: "What role might AI play in sustainable coffee and cocoa production by 2050?",
+          es: "¿Qué papel podría jugar la IA en la producción sostenible de café y cacao para 2050?",
+          de: "Welche Rolle könnte KI in nachhaltiger Kaffee- und Kakaoproduktion bis 2050 spielen?",
+          nl: "Welke rol zou AI kunnen spelen in duurzame koffie- en cacaoproductie tegen 2050?"
+        },
+        options: [
+          { en: "Monitoring crop diseases, optimizing shade management, and ensuring fair trade practices", es: "Monitoreando enfermedades de cultivos, optimizando gestión de sombra y asegurando prácticas de comercio justo", de: "Pflanzenkrankheiten überwachen, Schattenmanagement optimieren und fairen Handel sicherstellen", nl: "Gewasziektes monitoren, schaduwbeheer optimaliseren en eerlijke handelspraktijken waarborgen" },
+          { en: "Replacing all coffee and cocoa with synthetic alternatives", es: "Reemplazando todo café y cacao con alternativas sintéticas", de: "Allen Kaffee und Kakao durch synthetische Alternativen ersetzen", nl: "Alle koffie en cacao vervangen door synthetische alternatieven" },
+          { en: "Making coffee and cocoa grow in all climates", es: "Haciendo que café y cacao crezcan en todos los climas", de: "Kaffee und Kakao in allen Klimazonen wachsen lassen", nl: "Koffie en cacao in alle klimaten laten groeien" },
+          { en: "Eliminating coffee and cocoa production entirely", es: "Eliminando completamente la producción de café y cacao", de: "Kaffee- und Kakaoproduktion vollständig eliminieren", nl: "Koffie- en cacaoproductie volledig elimineren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will improve sustainability in coffee and cocoa production by detecting crop diseases early through image analysis, optimizing agroforestry practices for climate resilience, tracking supply chains for fair trade compliance, and predicting climate impacts on growing regions to guide adaptation strategies.",
+          es: "La IA mejorará la sostenibilidad en producción de café y cacao detectando enfermedades de cultivos temprano mediante análisis de imágenes, optimizando prácticas agroforestales para resiliencia climática, rastreando cadenas de suministro para cumplimiento de comercio justo y prediciendo impactos climáticos en regiones de cultivo para guiar estrategias de adaptación.",
+          de: "KI wird Nachhaltigkeit in Kaffee- und Kakaoproduktion durch Früherkennung von Pflanzenkrankheiten mittels Bildanalyse, Optimierung agroforstwirtschaftlicher Praktiken für Klimaresilienz, Verfolgung von Lieferketten für Fair-Trade-Compliance und Vorhersage von Klimaauswirkungen auf Anbauregionen zur Anleitung von Anpassungsstrategien verbessern.",
+          nl: "AI zal duurzaamheid in koffie- en cacaoproductie verbeteren door gewasziektes vroeg te detecteren via beeldanalyse, agroforestrypraktijken te optimaliseren voor klimaatbestendigheid, toeleveringsketens te volgen voor eerlijke handelscompliance en klimaateffecten op teeltgebieden te voorspellen om aanpassingsstrategieën te begeleiden."
+        }
+      },
+      {
+        question: {
+          en: "How might AI help with sustainable hydrogen production and fuel cell technology?",
+          es: "¿Cómo podría la IA ayudar con la producción sostenible de hidrógeno y tecnología de celdas de combustible?",
+          de: "Wie könnte KI bei nachhaltiger Wasserstoffproduktion und Brennstoffzellentechnologie helfen?",
+          nl: "Hoe zou AI kunnen helpen met duurzame waterstofproductie en brandstofceltechnologie?"
+        },
+        options: [
+          { en: "Optimizing electrolysis processes, discovering better catalysts, and improving fuel cell efficiency", es: "Optimizando procesos de electrólisis, descubriendo mejores catalizadores y mejorando eficiencia de celdas de combustible", de: "Elektrolyseprozesse optimieren, bessere Katalysatoren entdecken und Brennstoffzelleneffizienz verbessern", nl: "Elektrolyseprocessen optimaliseren, betere katalysatoren ontdekken en brandstofcelefficiëntie verbeteren" },
+          { en: "Creating unlimited hydrogen from nothing", es: "Creando hidrógeno ilimitado de la nada", de: "Unbegrenzten Wasserstoff aus dem Nichts schaffen", nl: "Onbeperkte waterstof uit niets maken" },
+          { en: "Making hydrogen completely safe without any precautions", es: "Haciendo hidrógeno completamente seguro sin ninguna precaución", de: "Wasserstoff völlig sicher ohne Vorsichtsmaßnahmen machen", nl: "Waterstof volledig veilig maken zonder voorzorgsmaatregelen" },
+          { en: "Eliminating the need for hydrogen in clean energy", es: "Eliminando la necesidad de hidrógeno en energía limpia", de: "Die Notwendigkeit von Wasserstoff in sauberer Energie eliminieren", nl: "De noodzaak van waterstof in schone energie elimineren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will advance sustainable hydrogen technology by optimizing green hydrogen production through efficient electrolysis, discovering novel catalyst materials to reduce costs, improving fuel cell design for better performance, and integrating hydrogen systems with renewable energy grids.",
+          es: "La IA avanzará la tecnología de hidrógeno sostenible optimizando producción de hidrógeno verde a través de electrólisis eficiente, descubriendo materiales catalizadores novedosos para reducir costos, mejorando diseño de celdas de combustible para mejor rendimiento e integrando sistemas de hidrógeno con redes de energía renovable.",
+          de: "KI wird nachhaltige Wasserstofftechnologie durch Optimierung grüner Wasserstoffproduktion durch effiziente Elektrolyse, Entdeckung neuartiger Katalysatormaterialien zur Kostensenkung, Verbesserung des Brennstoffzellendesigns für bessere Leistung und Integration von Wasserstoffsystemen mit erneuerbaren Energienetzen vorantreiben.",
+          nl: "AI zal duurzame watersoftechnologie bevorderen door groene waterstofproductie te optimaliseren via efficiënte elektrolyse, nieuwe katalysatormaterialen te ontdekken om kosten te verlagen, brandstofcelontwerp te verbeteren voor betere prestaties en waterstofsystemen te integreren met hernieuwbare energienetwerken."
+        }
+      },
+      {
+        question: {
+          en: "What impact might AI have on sustainable data center operations and cloud computing?",
+          es: "¿Qué impacto podría tener la IA en operaciones sostenibles de centros de datos y computación en la nube?",
+          de: "Welchen Einfluss könnte KI auf nachhaltige Rechenzentrumsbetriebe und Cloud Computing haben?",
+          nl: "Welke impact zou AI kunnen hebben op duurzame datacenterbewerkingen en cloud computing?"
+        },
+        options: [
+          { en: "Optimizing cooling systems, managing workload distribution, and using renewable energy sources", es: "Optimizando sistemas de enfriamiento, gestionando distribución de carga de trabajo y usando fuentes de energía renovable", de: "Kühlsysteme optimieren, Workload-Verteilung verwalten und erneuerbare Energiequellen nutzen", nl: "Koelsystemen optimaliseren, workloadverdeling beheren en hernieuwbare energiebronnen gebruiken" },
+          { en: "Making data centers run without any electricity", es: "Haciendo que centros de datos funcionen sin electricidad", de: "Rechenzentren ohne Strom betreiben", nl: "Datacenters laten werken zonder elektriciteit" },
+          { en: "Eliminating all cloud computing permanently", es: "Eliminando permanentemente toda computación en la nube", de: "Alle Cloud Computing dauerhaft eliminieren", nl: "Alle cloud computing permanent elimineren" },
+          { en: "Moving all data centers to outer space", es: "Moviendo todos los centros de datos al espacio exterior", de: "Alle Rechenzentren in den Weltraum verlegen", nl: "Alle datacenters naar de ruimte verplaatsen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will make data centers more sustainable by optimizing cooling efficiency through predictive temperature management, distributing computational workloads to times when renewable energy is abundant, designing more energy-efficient server configurations, and minimizing idle power consumption.",
+          es: "La IA hará los centros de datos más sostenibles optimizando eficiencia de enfriamiento a través de gestión predictiva de temperatura, distribuyendo cargas de trabajo computacionales a momentos cuando energía renovable es abundante, diseñando configuraciones de servidores más eficientes energéticamente y minimizando consumo de energía en reposo.",
+          de: "KI wird Rechenzentren nachhaltiger machen durch Optimierung der Kühlungseffizienz mittels prädiktivem Temperaturmanagement, Verteilung von Rechenlasten auf Zeiten wenn erneuerbare Energie reichlich vorhanden ist, Design energieeffizienterer Serverkonfigurationen und Minimierung des Leerlaufstromverbrauchs.",
+          nl: "AI zal datacenters duurzamer maken door koelingsefficiëntie te optimaliseren via voorspellend temperatuurbeheer, computationele workloads te verdelen naar tijden wanneer hernieuwbare energie overvloedig is, energie-efficiëntere serverconfiguraties te ontwerpen en inactief stroomverbruik te minimaliseren."
+        }
+      },
+      {
+        question: {
+          en: "How might AI contribute to sustainable textile dyeing and reducing water pollution?",
+          es: "¿Cómo podría la IA contribuir al teñido sostenible de textiles y reducir la contaminación del agua?",
+          de: "Wie könnte KI zu nachhaltiger Textilfärbung und Reduzierung von Wasserverschmutzung beitragen?",
+          nl: "Hoe zou AI kunnen bijdragen aan duurzaam textielverven en het verminderen van watervervuiling?"
+        },
+        options: [
+          { en: "Optimizing dye formulations, reducing water usage, and developing waterless dyeing methods", es: "Optimizando formulaciones de tintes, reduciendo uso de agua y desarrollando métodos de teñido sin agua", de: "Farbstoffformulierungen optimieren, Wasserverbrauch reduzieren und wasserlose Färbemethoden entwickeln", nl: "Verfformuleringen optimaliseren, watergebruik verminderen en waterloze verfmethoden ontwikkelen" },
+          { en: "Making all textiles permanently colorfast without dyeing", es: "Haciendo todos los textiles permanentemente resistentes al color sin teñir", de: "Alle Textilien dauerhaft farbecht ohne Färben machen", nl: "Alle textielen permanent kleurecht maken zonder verven" },
+          { en: "Eliminating colored clothing entirely", es: "Eliminando completamente la ropa de color", de: "Farbige Kleidung vollständig eliminieren", nl: "Gekleurde kleding volledig elimineren" },
+          { en: "Using only natural dyes from endangered plants", es: "Usando solo tintes naturales de plantas en peligro", de: "Nur natürliche Farbstoffe von gefährdeten Pflanzen verwenden", nl: "Alleen natuurlijke verfstoffen van bedreigde planten gebruiken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will revolutionize textile dyeing by optimizing dye chemistry to minimize toxic chemicals, predicting optimal dye absorption to reduce water waste, developing waterless dyeing technologies, and designing closed-loop systems that recycle dyeing water and chemicals.",
+          es: "La IA revolucionará el teñido textil optimizando química de tintes para minimizar químicos tóxicos, prediciendo absorción óptima de tinte para reducir desperdicio de agua, desarrollando tecnologías de teñido sin agua y diseñando sistemas de circuito cerrado que reciclan agua y químicos de teñido.",
+          de: "KI wird Textilfärbung durch Optimierung der Farbstoffchemie zur Minimierung toxischer Chemikalien, Vorhersage optimaler Farbstoffabsorption zur Reduzierung von Wasserverschwendung, Entwicklung wasserloser Färbetechnologien und Design geschlossener Systeme die Färbewasser und Chemikalien recyceln revolutionieren.",
+          nl: "AI zal textielverven revolutioneren door verfchemie te optimaliseren om toxische chemicaliën te minimaliseren, optimale verfabsorptie te voorspellen om waterverspilling te verminderen, waterloze verftech nologieën te ontwikkelen en gesloten-loop systemen te ontwerpen die verfwater en chemicaliën recyclen."
+        }
       }
     ]
   };

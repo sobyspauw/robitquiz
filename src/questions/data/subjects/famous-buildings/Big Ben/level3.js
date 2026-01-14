@@ -419,6 +419,426 @@
                 de: "Während der Renovierung war Big Ben die meiste Zeit stumm, läutete aber weiterhin zu wichtigen Anlässen wie Silvester und Remembrance Sunday. Dieses Gleichgewicht ermöglichte wesentliche Arbeiten bei gleichzeitiger Aufrechterhaltung der Tradition an bedeutenden Daten.",
                 nl: "Tijdens de renovatie was Big Ben de meeste tijd stil, maar bleef het luiden bij belangrijke gelegenheden zoals oudejaarsavond en Remembrance Sunday. Deze balans maakte essentieel werk mogelijk terwijl de traditie op belangrijke data behouden bleef."
             }
+        },
+        {
+            question: {
+                en: "What is the gear ratio between the pendulum and the minute hand?",
+                es: "¿Cuál es la relación de transmisión entre el péndulo y la manecilla de minutos?",
+                de: "Wie ist das Übersetzungsverhältnis zwischen Pendel und Minutenzeiger?",
+                nl: "Wat is de tandwielverhouding tussen de slinger en de minutenwijzer?"
+            },
+            options: {
+                en: ["60:1", "120:1", "300:1", "600:1"],
+                es: ["60:1", "120:1", "300:1", "600:1"],
+                de: ["60:1", "120:1", "300:1", "600:1"],
+                nl: ["60:1", "120:1", "300:1", "600:1"]
+            },
+            correct: 2,
+            explanation: {
+                en: "The gear train has a 300:1 ratio, meaning the pendulum beats 300 times for every rotation of the minute hand. With the pendulum beating once per second, this creates a precise one-minute rotation of the minute hand through 6 degrees.",
+                es: "El tren de engranajes tiene una relación de 300:1, lo que significa que el péndulo late 300 veces por cada rotación de la manecilla de minutos. Con el péndulo latiendo una vez por segundo, esto crea una rotación precisa de un minuto de la manecilla de minutos a través de 6 grados.",
+                de: "Das Zahnradgetriebe hat ein Verhältnis von 300:1, was bedeutet, dass das Pendel 300 Mal schlägt für jede Umdrehung des Minutenzeigers. Mit dem Pendel, das einmal pro Sekunde schlägt, erzeugt dies eine präzise einminütige Drehung des Minutenzeigers durch 6 Grad.",
+                nl: "De tandwieltrein heeft een verhouding van 300:1, wat betekent dat de slinger 300 keer slaat voor elke rotatie van de minutenwijzer. Met de slinger die eenmaal per seconde slaat, creëert dit een precieze rotatie van één minuut van de minutenwijzer door 6 graden."
+            }
+        },
+        {
+            question: {
+                en: "How many teeth does the great wheel (largest gear) have?",
+                es: "¿Cuántos dientes tiene la rueda grande (engranaje más grande)?",
+                de: "Wie viele Zähne hat das große Rad (größtes Zahnrad)?",
+                nl: "Hoeveel tanden heeft het grote wiel (grootste tandwiel)?"
+            },
+            options: {
+                en: ["180 teeth", "240 teeth", "360 teeth", "480 teeth"],
+                es: ["180 dientes", "240 dientes", "360 dientes", "480 dientes"],
+                de: ["180 Zähne", "240 Zähne", "360 Zähne", "480 Zähne"],
+                nl: ["180 tanden", "240 tanden", "360 tanden", "480 tanden"]
+            },
+            correct: 2,
+            explanation: {
+                en: "The great wheel, which is the largest gear in the clock mechanism, has 360 teeth. This wheel is driven by the falling weight and provides the initial power to the entire gear train that drives both the hands and the escapement.",
+                es: "La rueda grande, que es el engranaje más grande en el mecanismo del reloj, tiene 360 dientes. Esta rueda es impulsada por el peso que cae y proporciona la potencia inicial a todo el tren de engranajes que impulsa tanto las manecillas como el escape.",
+                de: "Das große Rad, das das größte Zahnrad im Uhrmechanismus ist, hat 360 Zähne. Dieses Rad wird vom fallenden Gewicht angetrieben und liefert die anfängliche Kraft an das gesamte Zahnradgetriebe, das sowohl die Zeiger als auch die Hemmung antreibt.",
+                nl: "Het grote wiel, dat het grootste tandwiel in het klokmechanisme is, heeft 360 tanden. Dit wiel wordt aangedreven door het vallende gewicht en levert de initiële kracht aan de hele tandwieltrein die zowel de wijzers als de ontsnapping aandrijft."
+            }
+        },
+        {
+            question: {
+                en: "What material are the bearings made from?",
+                es: "¿De qué material están hechos los cojinetes?",
+                de: "Aus welchem Material bestehen die Lager?",
+                nl: "Uit welk materiaal zijn de lagers gemaakt?"
+            },
+            options: {
+                en: ["Steel", "Bronze", "Iron", "Copper alloy"],
+                es: ["Acero", "Bronce", "Hierro", "Aleación de cobre"],
+                de: ["Stahl", "Bronze", "Eisen", "Kupferlegierung"],
+                nl: ["Staal", "Brons", "IJzer", "Koperlegering"]
+            },
+            correct: 1,
+            explanation: {
+                en: "The bearings are made from bronze, which provides excellent low-friction properties and durability. Bronze bearings were the standard for precision clockwork in the Victorian era and continue to perform reliably after more than 160 years of operation.",
+                es: "Los cojinetes están hechos de bronce, que proporciona excelentes propiedades de baja fricción y durabilidad. Los cojinetes de bronce eran el estándar para la relojería de precisión en la era victoriana y continúan funcionando de manera confiable después de más de 160 años de operación.",
+                de: "Die Lager bestehen aus Bronze, die hervorragende reibungsarme Eigenschaften und Haltbarkeit bietet. Bronzelager waren der Standard für Präzisionsuhrwerke in der viktorianischen Ära und funktionieren auch nach mehr als 160 Jahren Betrieb zuverlässig.",
+                nl: "De lagers zijn gemaakt van brons, dat uitstekende eigenschappen met lage wrijving en duurzaamheid biedt. Bronzen lagers waren de standaard voor precisie uurwerken in het Victoriaanse tijdperk en blijven betrouwbaar functioneren na meer dan 160 jaar werking."
+            }
+        },
+        {
+            question: {
+                en: "How is the chiming mechanism powered?",
+                es: "¿Cómo se alimenta el mecanismo de campanadas?",
+                de: "Wie wird der Läutmechanismus angetrieben?",
+                nl: "Hoe wordt het luimechanisme aangedreven?"
+            },
+            options: {
+                en: ["Electric motor", "Separate weight system from timekeeping", "Same weight as timekeeping", "Spring mechanism"],
+                es: ["Motor eléctrico", "Sistema de pesas separado del cronometraje", "Mismo peso que el cronometraje", "Mecanismo de resorte"],
+                de: ["Elektromotor", "Separates Gewichtssystem von der Zeitmessung", "Gleiches Gewicht wie Zeitmessung", "Federmechanismus"],
+                nl: ["Elektromotor", "Gescheiden gewichtssysteem van tijdmeting", "Zelfde gewicht als tijdmeting", "Veermechanisme"]
+            },
+            correct: 1,
+            explanation: {
+                en: "The chiming mechanism is powered by a completely separate weight system from the timekeeping mechanism. This dual-weight design means the clock can keep time even if the chiming mechanism fails, and vice versa, providing redundancy.",
+                es: "El mecanismo de campanadas está alimentado por un sistema de pesas completamente separado del mecanismo de cronometraje. Este diseño de peso dual significa que el reloj puede mantener el tiempo incluso si el mecanismo de campanadas falla, y viceversa, proporcionando redundancia.",
+                de: "Der Läutmechanismus wird von einem völlig separaten Gewichtssystem vom Zeitmessmechanismus angetrieben. Dieses Doppelgewichtsdesign bedeutet, dass die Uhr die Zeit halten kann, auch wenn der Läutmechanismus versagt, und umgekehrt, was Redundanz bietet.",
+                nl: "Het luimechanisme wordt aangedreven door een volledig gescheiden gewichtssysteem van het tijdmetingsmechanisme. Dit dubbele gewichtsontwerp betekent dat de klok de tijd kan bijhouden, zelfs als het luimechanisme faalt, en omgekeerd, wat redundantie biedt."
+            }
+        },
+        {
+            question: {
+                en: "What Victorian safety feature prevents overwinding?",
+                es: "¿Qué característica de seguridad victoriana previene el sobreenrollado?",
+                de: "Welche viktorianische Sicherheitsfunktion verhindert Überaufziehen?",
+                nl: "Welke Victoriaanse veiligheidsfunctie voorkomt overopwinden?"
+            },
+            options: {
+                en: ["Automatic shutoff", "Ratchet pawl system", "Weight limiter", "Spring clutch"],
+                es: ["Apagado automático", "Sistema de trinquete", "Limitador de peso", "Embrague de resorte"],
+                de: ["Automatische Abschaltung", "Sperrklinken-System", "Gewichtsbegrenzer", "Federkupplung"],
+                nl: ["Automatische uitschakeling", "Ratel pawl systeem", "Gewichtbegrenzer", "Veerkoppeling"]
+            },
+            correct: 1,
+            explanation: {
+                en: "A sophisticated ratchet pawl system prevents overwinding by allowing the weights to be raised only to their maximum safe height. Once reached, the pawls engage to prevent further winding, protecting the mechanism from damage that would occur if the weights were raised too high.",
+                es: "Un sofisticado sistema de trinquete previene el sobreenrollado al permitir que las pesas se eleven solo hasta su altura máxima segura. Una vez alcanzada, los trinquetes se enganchan para prevenir más enrollado, protegiendo el mecanismo de daños que ocurrirían si las pesas se elevaran demasiado alto.",
+                de: "Ein ausgeklügeltes Sperrklinken-System verhindert Überaufziehen, indem es ermöglicht, dass die Gewichte nur bis zu ihrer maximalen sicheren Höhe angehoben werden. Sobald dies erreicht ist, greifen die Sperrklinken ein, um weiteres Aufziehen zu verhindern und den Mechanismus vor Schäden zu schützen, die auftreten würden, wenn die Gewichte zu hoch angehoben würden.",
+                nl: "Een geavanceerd ratel pawl systeem voorkomt overopwinden door de gewichten alleen tot hun maximale veilige hoogte te laten optrekken. Eenmaal bereikt, grijpen de pawls in om verder opwinden te voorkomen, waardoor het mechanisme wordt beschermd tegen schade die zou optreden als de gewichten te hoog werden opgetrokken."
+            }
+        },
+        {
+            question: {
+                en: "How accurate is Big Ben typically maintained?",
+                es: "¿Qué tan preciso se mantiene típicamente Big Ben?",
+                de: "Wie genau wird Big Ben normalerweise gehalten?",
+                nl: "Hoe nauwkeurig wordt Big Ben doorgaans onderhouden?"
+            },
+            options: {
+                en: ["Within 1 minute per day", "Within 1 second per day", "Within 2 seconds per week", "Within 1 second per week"],
+                es: ["Dentro de 1 minuto por día", "Dentro de 1 segundo por día", "Dentro de 2 segundos por semana", "Dentro de 1 segundo por semana"],
+                de: ["Innerhalb 1 Minute pro Tag", "Innerhalb 1 Sekunde pro Tag", "Innerhalb 2 Sekunden pro Woche", "Innerhalb 1 Sekunde pro Woche"],
+                nl: ["Binnen 1 minuut per dag", "Binnen 1 seconde per dag", "Binnen 2 seconden per week", "Binnen 1 seconde per week"]
+            },
+            correct: 2,
+            explanation: {
+                en: "Big Ben is maintained to an accuracy of within 2 seconds per week. This remarkable precision is achieved through careful regulation using the penny-adjustment system and the Denison gravity escapement, making it one of the most accurate large mechanical clocks in the world.",
+                es: "Big Ben se mantiene con una precisión de dentro de 2 segundos por semana. Esta notable precisión se logra a través de una regulación cuidadosa utilizando el sistema de ajuste de peniques y el escape de gravedad Denison, convirtiéndolo en uno de los relojes mecánicos grandes más precisos del mundo.",
+                de: "Big Ben wird auf eine Genauigkeit von innerhalb 2 Sekunden pro Woche gehalten. Diese bemerkenswerte Präzision wird durch sorgfältige Regulierung unter Verwendung des Penny-Anpassungssystems und der Denison-Schwerkrafthemmung erreicht, was ihn zu einer der genauesten großen mechanischen Uhren der Welt macht.",
+                nl: "Big Ben wordt onderhouden op een nauwkeurigheid van binnen 2 seconden per week. Deze opmerkelijke precisie wordt bereikt door zorgvuldige regulatie met behulp van het penny-aanpassingssysteem en de Denison zwaartekrachtontsnapping, waardoor het een van de meest nauwkeurige grote mechanische klokken ter wereld is."
+            }
+        },
+        {
+            question: {
+                en: "What causes the clock to lose or gain time during storms?",
+                es: "¿Qué hace que el reloj pierda o gane tiempo durante las tormentas?",
+                de: "Was führt dazu, dass die Uhr während Stürmen Zeit verliert oder gewinnt?",
+                nl: "Wat zorgt ervoor dat de klok tijd verliest of wint tijdens stormen?"
+            },
+            options: {
+                en: ["Lightning interference", "Wind pressure on clock hands and faces", "Atmospheric pressure changes", "Rain affecting the mechanism"],
+                es: ["Interferencia de rayos", "Presión del viento en manecillas y esferas", "Cambios de presión atmosférica", "Lluvia afectando el mecanismo"],
+                de: ["Blitzstörungen", "Winddruck auf Uhrzeiger und Zifferblätter", "Atmosphärische Druckänderungen", "Regen, der den Mechanismus beeinflusst"],
+                nl: ["Blikseminterferentie", "Winddruk op klokwijzers en wijzerplaten", "Atmosferische drukveranderingen", "Regen die het mechanisme beïnvloedt"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Strong winds during storms create pressure on the massive clock hands and faces, adding resistance to their movement. This increased resistance can slow the clock slightly, requiring adjustment after severe weather. The Airy ventilated dials help minimize this effect.",
+                es: "Los vientos fuertes durante las tormentas crean presión en las masivas manecillas y esferas del reloj, agregando resistencia a su movimiento. Esta resistencia aumentada puede ralentizar ligeramente el reloj, requiriendo ajuste después del clima severo. Los diales ventilados Airy ayudan a minimizar este efecto.",
+                de: "Starke Winde während Stürmen erzeugen Druck auf die massiven Uhrzeiger und Zifferblätter und erhöhen den Widerstand ihrer Bewegung. Dieser erhöhte Widerstand kann die Uhr leicht verlangsamen und erfordert nach schwerem Wetter eine Anpassung. Die Airy-belüfteten Zifferblätter helfen, diesen Effekt zu minimieren.",
+                nl: "Sterke wind tijdens stormen creëert druk op de massieve klokwijzers en wijzerplaten, wat weerstand toevoegt aan hun beweging. Deze verhoogde weerstand kan de klok enigszins vertragen, wat aanpassing vereist na zwaar weer. De Airy geventileerde wijzerplaten helpen dit effect te minimaliseren."
+            }
+        },
+        {
+            question: {
+                en: "How does snow accumulation affect timekeeping?",
+                es: "¿Cómo afecta la acumulación de nieve al cronometraje?",
+                de: "Wie beeinflusst Schneeanhäufung die Zeitmessung?",
+                nl: "Hoe beïnvloedt sneeuwophoping de tijdmeting?"
+            },
+            options: {
+                en: ["No effect", "Adds weight to hands, slowing the clock", "Freezes the mechanism", "Blocks the chimes"],
+                es: ["Sin efecto", "Agrega peso a las manecillas, ralentizando el reloj", "Congela el mecanismo", "Bloquea las campanadas"],
+                de: ["Keine Wirkung", "Fügt Gewicht zu den Zeigern hinzu und verlangsamt die Uhr", "Friert den Mechanismus ein", "Blockiert die Glocken"],
+                nl: ["Geen effect", "Voegt gewicht toe aan wijzers, vertraagt de klok", "Bevriest het mechanisme", "Blokkeert de klokslagen"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Snow accumulating on the minute hands adds extra weight, creating additional resistance that slows the clock. The clockkeepers must monitor weather conditions and make adjustments to compensate for this effect, particularly during heavy snowfall in winter.",
+                es: "La nieve que se acumula en las manecillas de minutos agrega peso extra, creando resistencia adicional que ralentiza el reloj. Los relojeros deben monitorear las condiciones climáticas y hacer ajustes para compensar este efecto, particularmente durante fuertes nevadas en invierno.",
+                de: "Schnee, der sich auf den Minutenzeigern ansammelt, fügt zusätzliches Gewicht hinzu und erzeugt zusätzlichen Widerstand, der die Uhr verlangsamt. Die Uhrmacher müssen die Wetterbedingungen überwachen und Anpassungen vornehmen, um diesen Effekt auszugleichen, insbesondere bei starkem Schneefall im Winter.",
+                nl: "Sneeuw die zich ophoopt op de minutenwijzers voegt extra gewicht toe, wat extra weerstand creëert die de klok vertraagt. De klokbeheerders moeten weersomstandigheden monitoren en aanpassingen maken om dit effect te compenseren, vooral tijdens hevige sneeuwval in de winter."
+            }
+        },
+        {
+            question: {
+                en: "What is the function of the fly governor in the striking mechanism?",
+                es: "¿Cuál es la función del regulador de volante en el mecanismo de golpeo?",
+                de: "Was ist die Funktion des Fliehkraftreglers im Schlagwerk?",
+                nl: "Wat is de functie van de vliegregulator in het slagmechanisme?"
+            },
+            options: {
+                en: ["Controls bell volume", "Regulates striking speed to prevent runaway", "Counts the strikes", "Triggers the chimes"],
+                es: ["Controla el volumen de la campana", "Regula la velocidad de golpeo para prevenir desbocamiento", "Cuenta los golpes", "Activa las campanadas"],
+                de: ["Steuert Glockenlautstärke", "Reguliert Schlaggeschwindigkeit zur Verhinderung von Durchgehen", "Zählt die Schläge", "Löst die Glocken aus"],
+                nl: ["Regelt klokvolume", "Reguleert slagsnelheid om wegrennen te voorkomen", "Telt de slagen", "Activeert de klokslagen"]
+            },
+            correct: 1,
+            explanation: {
+                en: "The fly governor is a critical safety device that regulates the speed of the striking mechanism. It uses air resistance on rotating vanes to prevent the heavy striking weights from falling too quickly, which would cause the hammer to strike the bell dangerously fast and potentially damage both bell and mechanism.",
+                es: "El regulador de volante es un dispositivo de seguridad crítico que regula la velocidad del mecanismo de golpeo. Utiliza la resistencia del aire en paletas giratorias para evitar que las pesadas pesas de golpeo caigan demasiado rápido, lo que haría que el martillo golpee la campana peligrosamente rápido y potencialmente dañe tanto la campana como el mecanismo.",
+                de: "Der Fliehkraftregler ist ein kritisches Sicherheitsgerät, das die Geschwindigkeit des Schlagwerks reguliert. Er nutzt Luftwiderstand an rotierenden Flügeln, um zu verhindern, dass die schweren Schlaggewichte zu schnell fallen, was dazu führen würde, dass der Hammer gefährlich schnell auf die Glocke schlägt und möglicherweise sowohl Glocke als auch Mechanismus beschädigt.",
+                nl: "De vliegregulator is een kritisch veiligheidsapparaat dat de snelheid van het slagmechanisme regelt. Het gebruikt luchtweerstand op roterende schoepen om te voorkomen dat de zware slaggewichten te snel vallen, wat zou zorgen dat de hamer gevaarlijk snel op de klok slaat en mogelijk zowel klok als mechanisme beschadigt."
+            }
+        },
+        {
+            question: {
+                en: "How many pinions (small gears) are in the going train?",
+                es: "¿Cuántos piñones (engranajes pequeños) hay en el tren de marcha?",
+                de: "Wie viele Ritzel (kleine Zahnräder) gibt es im Gangwerk?",
+                nl: "Hoeveel pignons (kleine tandwielen) zitten er in de gaande trein?"
+            },
+            options: {
+                en: ["3 pinions", "4 pinions", "5 pinions", "6 pinions"],
+                es: ["3 piñones", "4 piñones", "5 piñones", "6 piñones"],
+                de: ["3 Ritzel", "4 Ritzel", "5 Ritzel", "6 Ritzel"],
+                nl: ["3 pignons", "4 pignons", "5 pignons", "6 pignons"]
+            },
+            correct: 2,
+            explanation: {
+                en: "The going train (timekeeping mechanism) contains 5 pinions that work in conjunction with 5 wheels to create the precise gear ratios needed. This five-stage reduction transfers power from the falling weight through to the escapement and pendulum while achieving the correct speed for the minute and hour hands.",
+                es: "El tren de marcha (mecanismo de cronometraje) contiene 5 piñones que trabajan en conjunto con 5 ruedas para crear las relaciones de engranaje precisas necesarias. Esta reducción de cinco etapas transfiere potencia desde el peso que cae hasta el escape y el péndulo mientras logra la velocidad correcta para las manecillas de minutos y horas.",
+                de: "Das Gangwerk (Zeitmessmechanismus) enthält 5 Ritzel, die zusammen mit 5 Rädern arbeiten, um die erforderlichen präzisen Übersetzungsverhältnisse zu schaffen. Diese fünfstufige Reduktion überträgt Kraft vom fallenden Gewicht durch zur Hemmung und zum Pendel, während die richtige Geschwindigkeit für die Minuten- und Stundenzeiger erreicht wird.",
+                nl: "De gaande trein (tijdmetingsmechanisme) bevat 5 pignons die samenwerken met 5 wielen om de benodigde precieze tandwielratio's te creëren. Deze vijf-fase reductie draagt kracht over van het vallende gewicht door naar de ontsnapping en slinger terwijl de juiste snelheid voor de minuten- en uurwijzers wordt bereikt."
+            }
+        },
+        {
+            question: {
+                en: "What metal alloy is used for the clock hands?",
+                es: "¿Qué aleación de metal se usa para las manecillas del reloj?",
+                de: "Welche Metalllegierung wird für die Uhrzeiger verwendet?",
+                nl: "Welke metaallegering wordt gebruikt voor de klokwijzers?"
+            },
+            options: {
+                en: ["Steel", "Aluminum", "Copper", "Cast iron"],
+                es: ["Acero", "Aluminio", "Cobre", "Hierro fundido"],
+                de: ["Stahl", "Aluminium", "Kupfer", "Gusseisen"],
+                nl: ["Staal", "Aluminium", "Koper", "Gietijzer"]
+            },
+            correct: 2,
+            explanation: {
+                en: "The clock hands are made from copper, which is strong enough to maintain rigidity at their enormous size (14 feet for minute hands) while being light enough not to overburden the clock mechanism. The copper is gilded with gold for visibility and weather protection.",
+                es: "Las manecillas del reloj están hechas de cobre, que es lo suficientemente fuerte para mantener rigidez en su enorme tamaño (14 pies para las manecillas de minutos) mientras es lo suficientemente ligero para no sobrecargar el mecanismo del reloj. El cobre está dorado con oro para visibilidad y protección contra el clima.",
+                de: "Die Uhrzeiger bestehen aus Kupfer, das stark genug ist, um bei ihrer enormen Größe (14 Fuß für Minutenzeiger) Steifigkeit zu bewahren, während es leicht genug ist, um den Uhrmechanismus nicht zu überlasten. Das Kupfer ist mit Gold vergoldet für Sichtbarkeit und Wetterschutz.",
+                nl: "De klokwijzers zijn gemaakt van koper, dat sterk genoeg is om rigiditeit te behouden bij hun enorme grootte (14 voet voor minutenwijzers) terwijl het licht genoeg is om het klokmechanisme niet te overbelasten. Het koper is verguld met goud voor zichtbaarheid en weerbescherming."
+            }
+        },
+        {
+            question: {
+                en: "How deep are the foundations of the Clock Tower?",
+                es: "¿Qué tan profundos son los cimientos de la Torre del Reloj?",
+                de: "Wie tief sind die Fundamente des Uhrenturms?",
+                nl: "Hoe diep zijn de fundamenten van de Kloktoren?"
+            },
+            options: {
+                en: ["3 meters (10 feet)", "7 meters (23 feet)", "10 meters (33 feet)", "13 meters (43 feet)"],
+                es: ["3 metros (10 pies)", "7 metros (23 pies)", "10 metros (33 pies)", "13 metros (43 pies)"],
+                de: ["3 Meter (10 Fuß)", "7 Meter (23 Fuß)", "10 Meter (33 Fuß)", "13 Meter (43 Fuß)"],
+                nl: ["3 meter (10 voet)", "7 meter (23 voet)", "10 meter (33 voet)", "13 meter (43 voet)"]
+            },
+            correct: 1,
+            explanation: {
+                en: "The foundations extend 7 meters (23 feet) deep into the London clay. This depth was necessary to support the tower's 8,600-ton weight on the soft riverbank soil near the Thames. The foundations use a concrete raft design to distribute the massive load.",
+                es: "Los cimientos se extienden 7 metros (23 pies) de profundidad en la arcilla de Londres. Esta profundidad fue necesaria para soportar el peso de 8,600 toneladas de la torre en el suelo blando de la ribera cerca del Támesis. Los cimientos usan un diseño de balsa de hormigón para distribuir la carga masiva.",
+                de: "Die Fundamente reichen 7 Meter (23 Fuß) tief in den Londoner Ton. Diese Tiefe war notwendig, um das 8.600-Tonnen-Gewicht des Turms auf dem weichen Uferboden in der Nähe der Themse zu tragen. Die Fundamente verwenden ein Betonflößdesign, um die massive Last zu verteilen.",
+                nl: "De fundamenten strekken zich 7 meter (23 voet) diep uit in de Londense klei. Deze diepte was nodig om het gewicht van 8.600 ton van de toren te ondersteunen op de zachte oevergrond nabij de Theems. De fundamenten gebruiken een betonplaat ontwerp om de massieve last te verdelen."
+            }
+        },
+        {
+            question: {
+                en: "What causes the tower's famous tilt of 0.26 degrees?",
+                es: "¿Qué causa la famosa inclinación de 0.26 grados de la torre?",
+                de: "Was verursacht die berühmte Neigung des Turms von 0,26 Grad?",
+                nl: "Wat veroorzaakt de beroemde helling van 0,26 graden van de toren?"
+            },
+            options: {
+                en: ["Design flaw", "Bomb damage from WWII", "Underground railway construction", "Wind erosion"],
+                es: ["Falla de diseño", "Daño de bombardeo de la Segunda Guerra Mundial", "Construcción de ferrocarril subterráneo", "Erosión por viento"],
+                de: ["Konstruktionsfehler", "Bombenschaden aus dem Zweiten Weltkrieg", "U-Bahn-Bau", "Winderosion"],
+                nl: ["Ontwerpfout", "Bomschade uit WO II", "Aanleg ondergrondse spoorweg", "Winderosie"]
+            },
+            correct: 2,
+            explanation: {
+                en: "The tower's northwest tilt of 0.26 degrees (43 centimeters at the top) was primarily caused by underground railway construction in the 1990s. The Jubilee Line extension tunneling affected the ground beneath the tower, causing differential settlement in the soft Thames clay. Engineers stabilized it but couldn't fully correct the tilt.",
+                es: "La inclinación noroeste de la torre de 0.26 grados (43 centímetros en la parte superior) fue causada principalmente por la construcción del ferrocarril subterráneo en la década de 1990. La excavación de túneles de la extensión de la Línea Jubilee afectó el suelo debajo de la torre, causando asentamiento diferencial en la arcilla blanda del Támesis. Los ingenieros la estabilizaron pero no pudieron corregir completamente la inclinación.",
+                de: "Die nordwestliche Neigung des Turms von 0,26 Grad (43 Zentimeter oben) wurde hauptsächlich durch den U-Bahn-Bau in den 1990er Jahren verursacht. Der Tunnelbau der Jubilee-Line-Erweiterung beeinflusste den Boden unter dem Turm und verursachte unterschiedliche Setzungen im weichen Ton der Themse. Ingenieure stabilisierten ihn, konnten die Neigung aber nicht vollständig korrigieren.",
+                nl: "De noordwestelijke helling van de toren van 0,26 graden (43 centimeter aan de top) werd voornamelijk veroorzaakt door de aanleg van de ondergrondse spoorweg in de jaren 1990. De tunnelbouw van de Jubilee Line-uitbreiding beïnvloedde de grond onder de toren, wat differentiële zetting veroorzaakte in de zachte Theems-klei. Ingenieurs stabiliseerden het maar konden de helling niet volledig corrigeren."
+            }
+        },
+        {
+            question: {
+                en: "How many stairs lead to the belfry where the bells are housed?",
+                es: "¿Cuántas escaleras conducen al campanario donde se alojan las campanas?",
+                de: "Wie viele Stufen führen zum Glockenturm, wo die Glocken untergebracht sind?",
+                nl: "Hoeveel trappen leiden naar de klokkentoren waar de klokken gehuisvest zijn?"
+            },
+            options: {
+                en: ["234 steps", "296 steps", "334 steps", "399 steps"],
+                es: ["234 escalones", "296 escalones", "334 escalones", "399 escalones"],
+                de: ["234 Stufen", "296 Stufen", "334 Stufen", "399 Stufen"],
+                nl: ["234 trappen", "296 trappen", "334 trappen", "399 trappen"]
+            },
+            correct: 2,
+            explanation: {
+                en: "There are 334 steps in the spiral staircase leading to the belfry. This climb was particularly demanding for the original clockkeepers who had to make it three times weekly to wind the clock. There is no elevator, making it a challenging ascent even today for maintenance staff.",
+                es: "Hay 334 escalones en la escalera de caracol que conduce al campanario. Esta subida era particularmente exigente para los relojeros originales que tenían que hacerla tres veces por semana para dar cuerda al reloj. No hay ascensor, lo que la convierte en un ascenso desafiante incluso hoy para el personal de mantenimiento.",
+                de: "Es gibt 334 Stufen in der Wendeltreppe, die zum Glockenturm führt. Dieser Aufstieg war besonders anspruchsvoll für die ursprünglichen Uhrmacher, die ihn dreimal wöchentlich machen mussten, um die Uhr aufzuziehen. Es gibt keinen Aufzug, was ihn auch heute noch zu einem herausfordernden Aufstieg für Wartungspersonal macht.",
+                nl: "Er zijn 334 trappen in de wenteltrap die naar de klokkentoren leidt. Deze klim was bijzonder veeleisend voor de oorspronkelijke klokbeheerders die het drie keer per week moesten maken om de klok op te winden. Er is geen lift, wat het zelfs vandaag nog een uitdagende beklimming maakt voor onderhoudspersoneel."
+            }
+        },
+        {
+            question: {
+                en: "What unique feature does the strike counting mechanism have?",
+                es: "¿Qué característica única tiene el mecanismo de conteo de golpes?",
+                de: "Welches einzigartige Merkmal hat der Schlagzählmechanismus?",
+                nl: "Welke unieke functie heeft het slag telmechanisme?"
+            },
+            options: {
+                en: ["Digital counter", "Self-correcting rack and snail system", "Manual setting required", "Electronic sensor"],
+                es: ["Contador digital", "Sistema de cremallera y caracol autocorrector", "Ajuste manual requerido", "Sensor electrónico"],
+                de: ["Digitaler Zähler", "Selbstkorrigierendes Zahnstangen- und Schneckensystem", "Manuelle Einstellung erforderlich", "Elektronischer Sensor"],
+                nl: ["Digitale teller", "Zelfcorrigerend tandheugel en slak systeem", "Handmatige instelling vereist", "Elektronische sensor"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Big Ben uses a sophisticated self-correcting rack and snail system for counting strikes. The snail cam follows the hour hand position, and the rack drops onto it to determine how many times to strike. This mechanical system is remarkably reliable and self-correcting if the hands are moved, unlike simpler count-wheel systems.",
+                es: "Big Ben utiliza un sofisticado sistema de cremallera y caracol autocorrector para contar golpes. La leva de caracol sigue la posición de la manecilla de las horas, y la cremallera cae sobre ella para determinar cuántas veces golpear. Este sistema mecánico es notablemente confiable y autocorrector si las manecillas se mueven, a diferencia de sistemas de rueda contadora más simples.",
+                de: "Big Ben verwendet ein ausgeklügeltes selbstkorrigierendes Zahnstangen- und Schneckensystem zum Zählen von Schlägen. Die Schneckennocke folgt der Position des Stundenzeigers, und die Zahnstange fällt darauf, um zu bestimmen, wie oft geschlagen werden soll. Dieses mechanische System ist bemerkenswert zuverlässig und selbstkorrigierend, wenn die Zeiger bewegt werden, im Gegensatz zu einfacheren Zählrad-Systemen.",
+                nl: "Big Ben gebruikt een geavanceerd zelfcorrigerend tandheugel en slak systeem voor het tellen van slagen. De slaknocken volgt de positie van de uurwijzer, en de tandheugel valt erop om te bepalen hoe vaak geslagen moet worden. Dit mechanische systeem is opmerkelijk betrouwbaar en zelfcorrigerend als de wijzers worden verplaatst, in tegenstelling tot eenvoudigere telwielsystemen."
+            }
+        },
+        {
+            question: {
+                en: "What Latin inscription appears on the clock faces beneath the dial?",
+                es: "¿Qué inscripción latina aparece en las esferas del reloj debajo del dial?",
+                de: "Welche lateinische Inschrift erscheint auf den Zifferblättern unter dem Zifferblatt?",
+                nl: "Welke Latijnse inscriptie verschijnt op de wijzerplaten onder de wijzerplaat?"
+            },
+            options: {
+                en: ["TEMPUS FUGIT (Time Flies)", "DOMINE SALVAM FAC REGINAM NOSTRAM VICTORIAM PRIMAM (O Lord, keep safe our Queen Victoria the First)", "IN OMNIA PARATUS (Prepared for all things)", "VERITAS VOS LIBERABIT (Truth shall set you free)"],
+                es: ["TEMPUS FUGIT (El tiempo vuela)", "DOMINE SALVAM FAC REGINAM NOSTRAM VICTORIAM PRIMAM (Oh Señor, mantén a salvo a nuestra Reina Victoria la Primera)", "IN OMNIA PARATUS (Preparado para todas las cosas)", "VERITAS VOS LIBERABIT (La verdad os hará libres)"],
+                de: ["TEMPUS FUGIT (Die Zeit fliegt)", "DOMINE SALVAM FAC REGINAM NOSTRAM VICTORIAM PRIMAM (O Herr, halte unsere Königin Victoria die Erste sicher)", "IN OMNIA PARATUS (Auf alles vorbereitet)", "VERITAS VOS LIBERABIT (Wahrheit wird euch befreien)"],
+                nl: ["TEMPUS FUGIT (Tijd vliegt)", "DOMINE SALVAM FAC REGINAM NOSTRAM VICTORIAM PRIMAM (O Heer, bewaar onze Koningin Victoria de Eerste)", "IN OMNIA PARATUS (Voorbereid op alle dingen)", "VERITAS VOS LIBERABIT (Waarheid zal je bevrijden)"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Each clock face bears the Latin inscription 'DOMINE SALVAM FAC REGINAM NOSTRAM VICTORIAM PRIMAM' which translates to 'O Lord, keep safe our Queen Victoria the First.' This dedication honors Queen Victoria, during whose reign the tower was built, and reflects the Victorian era's blend of engineering achievement and religious faith.",
+                es: "Cada esfera del reloj lleva la inscripción latina 'DOMINE SALVAM FAC REGINAM NOSTRAM VICTORIAM PRIMAM' que se traduce como 'Oh Señor, mantén a salvo a nuestra Reina Victoria la Primera.' Esta dedicación honra a la Reina Victoria, durante cuyo reinado se construyó la torre, y refleja la mezcla de la era victoriana de logro ingenieril y fe religiosa.",
+                de: "Jedes Zifferblatt trägt die lateinische Inschrift 'DOMINE SALVAM FAC REGINAM NOSTRAM VICTORIAM PRIMAM', was übersetzt 'O Herr, halte unsere Königin Victoria die Erste sicher' bedeutet. Diese Widmung ehrt Königin Victoria, während deren Herrschaft der Turm gebaut wurde, und spiegelt die Mischung der viktorianischen Ära aus ingenieurtechnischer Leistung und religiösem Glauben wider.",
+                nl: "Elke wijzerplaat draagt de Latijnse inscriptie 'DOMINE SALVAM FAC REGINAM NOSTRAM VICTORIAM PRIMAM' wat vertaalt naar 'O Heer, bewaar onze Koningin Victoria de Eerste.' Deze opdracht eert Koningin Victoria, tijdens wiens bewind de toren werd gebouwd, en weerspiegelt de mix van het Victoriaanse tijdperk van technische prestaties en religieus geloof."
+            }
+        },
+        {
+            question: {
+                en: "How often must the clock mechanism be oiled?",
+                es: "¿Con qué frecuencia debe lubricarse el mecanismo del reloj?",
+                de: "Wie oft muss der Uhrmechanismus geölt werden?",
+                nl: "Hoe vaak moet het klokmechanisme worden gesmeerd?"
+            },
+            options: {
+                en: ["Weekly", "Monthly", "Every 6 months", "Every 2 years"],
+                es: ["Semanalmente", "Mensualmente", "Cada 6 meses", "Cada 2 años"],
+                de: ["Wöchentlich", "Monatlich", "Alle 6 Monate", "Alle 2 Jahre"],
+                nl: ["Wekelijks", "Maandelijks", "Elke 6 maanden", "Elke 2 jaar"]
+            },
+            correct: 2,
+            explanation: {
+                en: "The clock mechanism requires oiling every 6 months. This regular lubrication schedule maintains the bronze bearings and reduces friction in the gear train. The clockkeepers use special clock oil that doesn't gum up or freeze in London's variable temperatures, ensuring smooth operation year-round.",
+                es: "El mecanismo del reloj requiere lubricación cada 6 meses. Este calendario regular de lubricación mantiene los cojinetes de bronce y reduce la fricción en el tren de engranajes. Los relojeros usan aceite especial para relojes que no se pega ni se congela en las temperaturas variables de Londres, asegurando una operación suave durante todo el año.",
+                de: "Der Uhrmechanismus muss alle 6 Monate geölt werden. Dieser regelmäßige Schmierplan erhält die Bronzelager und reduziert die Reibung im Zahnradgetriebe. Die Uhrmacher verwenden spezielles Uhrenöl, das bei Londons wechselnden Temperaturen nicht verklebt oder einfriert und das ganze Jahr über einen reibungslosen Betrieb gewährleistet.",
+                nl: "Het klokmechanisme vereist smering elke 6 maanden. Dit regelmatige smeerschema onderhoudt de bronzen lagers en vermindert wrijving in de tandwieltrein. De klokbeheerders gebruiken speciale klokolie die niet kleverig wordt of bevriest bij de wisselende temperaturen van Londen, wat het hele jaar door soepele werking garandeert."
+            }
+        },
+        {
+            question: {
+                en: "What role did Sir Benjamin Hall play in Big Ben's history?",
+                es: "¿Qué papel jugó Sir Benjamin Hall en la historia de Big Ben?",
+                de: "Welche Rolle spielte Sir Benjamin Hall in Big Bens Geschichte?",
+                nl: "Welke rol speelde Sir Benjamin Hall in de geschiedenis van Big Ben?"
+            },
+            options: {
+                en: ["Designed the clock", "Chief Commissioner of Works who oversaw construction", "Bell founder", "Architect"],
+                es: ["Diseñó el reloj", "Comisionado Jefe de Obras que supervisó la construcción", "Fundidor de campanas", "Arquitecto"],
+                de: ["Entwarf die Uhr", "Oberkommissar für Arbeiten, der den Bau überwachte", "Glockengießer", "Architekt"],
+                nl: ["Ontwierp de klok", "Hoofd Commissaris van Werken die het bouwtoezicht had", "Klokgieter", "Architect"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Sir Benjamin Hall served as Chief Commissioner of Works during the tower's construction and supervised the installation of the great bell in 1858. Standing over 6 feet tall, he was a large man, and many believe the bell was nicknamed 'Big Ben' after him, though some attribute the name to heavyweight boxer Ben Caunt.",
+                es: "Sir Benjamin Hall sirvió como Comisionado Jefe de Obras durante la construcción de la torre y supervisó la instalación de la gran campana en 1858. Con una altura de más de 6 pies, era un hombre grande, y muchos creen que la campana recibió el apodo de 'Big Ben' en su honor, aunque algunos atribuyen el nombre al boxeador de peso pesado Ben Caunt.",
+                de: "Sir Benjamin Hall diente während des Turmbaus als Oberkommissar für Arbeiten und überwachte 1858 die Installation der großen Glocke. Mit über 6 Fuß Körpergröße war er ein großer Mann, und viele glauben, dass die Glocke nach ihm 'Big Ben' genannt wurde, obwohl einige den Namen dem Schwergewichtsboxer Ben Caunt zuschreiben.",
+                nl: "Sir Benjamin Hall diende als Hoofd Commissaris van Werken tijdens de bouw van de toren en hield toezicht op de installatie van de grote klok in 1858. Met een lengte van meer dan 6 voet was hij een grote man, en velen geloven dat de klok naar hem werd vernoemd als 'Big Ben', hoewel sommigen de naam toeschrijven aan zwaargewicht bokser Ben Caunt."
+            }
+        },
+        {
+            question: {
+                en: "What backup system exists if the main clock mechanism fails?",
+                es: "¿Qué sistema de respaldo existe si el mecanismo principal del reloj falla?",
+                de: "Welches Backup-System existiert, wenn der Hauptuhrmechanismus ausfällt?",
+                nl: "Welk back-upsysteem bestaat er als het hoofdklokmechanisme faalt?"
+            },
+            options: {
+                en: ["Electronic backup clock", "Secondary mechanical clock", "Manual operation only", "No backup system"],
+                es: ["Reloj de respaldo electrónico", "Reloj mecánico secundario", "Solo operación manual", "Sin sistema de respaldo"],
+                de: ["Elektronische Backup-Uhr", "Sekundäre mechanische Uhr", "Nur manueller Betrieb", "Kein Backup-System"],
+                nl: ["Elektronische back-upklok", "Secundaire mechanische klok", "Alleen handmatige bediening", "Geen back-upsysteem"]
+            },
+            correct: 0,
+            explanation: {
+                en: "Modern additions include an electronic backup clock that can drive the hands if the Victorian mechanism fails. This was added during the 20th century to ensure continuous timekeeping during maintenance or mechanical failure. However, preference is always given to operating the original 1859 mechanism whenever possible.",
+                es: "Las adiciones modernas incluyen un reloj de respaldo electrónico que puede impulsar las manecillas si el mecanismo victoriano falla. Esto se agregó durante el siglo XX para asegurar el cronometraje continuo durante el mantenimiento o fallo mecánico. Sin embargo, siempre se da preferencia a operar el mecanismo original de 1859 cuando sea posible.",
+                de: "Moderne Ergänzungen umfassen eine elektronische Backup-Uhr, die die Zeiger antreiben kann, wenn der viktorianische Mechanismus ausfällt. Dies wurde im 20. Jahrhundert hinzugefügt, um kontinuierliche Zeitmessung während Wartung oder mechanischem Versagen zu gewährleisten. Die Präferenz gilt jedoch immer dem Betrieb des ursprünglichen Mechanismus von 1859, wann immer möglich.",
+                nl: "Moderne toevoegingen omvatten een elektronische back-upklok die de wijzers kan aandrijven als het Victoriaanse mechanisme faalt. Dit werd toegevoegd tijdens de 20e eeuw om continue tijdmeting te waarborgen tijdens onderhoud of mechanisch falen. De voorkeur gaat echter altijd uit naar het bedienen van het originele mechanisme van 1859 wanneer mogelijk."
+            }
+        },
+        {
+            question: {
+                en: "How is the Ayrton Light used as a communication signal?",
+                es: "¿Cómo se usa la Luz Ayrton como señal de comunicación?",
+                de: "Wie wird das Ayrton-Licht als Kommunikationssignal verwendet?",
+                nl: "Hoe wordt het Ayrton-licht gebruikt als communicatiesignaal?"
+            },
+            options: {
+                en: ["Time signal", "Parliament is sitting when lit", "Emergency warning", "Clock malfunction indicator"],
+                es: ["Señal horaria", "El Parlamento está en sesión cuando está encendida", "Advertencia de emergencia", "Indicador de mal funcionamiento del reloj"],
+                de: ["Zeitsignal", "Parlament tagt, wenn beleuchtet", "Notfallwarnung", "Uhrenfehlanzeige"],
+                nl: ["Tijdsignaal", "Parlement is in zitting wanneer verlicht", "Noodwaarschuwing", "Klok storingsindicator"]
+            },
+            correct: 1,
+            explanation: {
+                en: "The Ayrton Light, located above the belfry, is illuminated whenever the House of Commons is sitting after dark. This beacon, named after Acton Smee Ayrton who commissioned it in 1873, allows Londoners to see at a glance whether Parliament is in session during evening hours.",
+                es: "La Luz Ayrton, ubicada sobre el campanario, se ilumina cuando la Cámara de los Comunes está en sesión después del anochecer. Este faro, nombrado en honor a Acton Smee Ayrton quien lo encargó en 1873, permite a los londinenses ver de un vistazo si el Parlamento está en sesión durante las horas de la tarde.",
+                de: "Das Ayrton-Licht, das sich über dem Glockenturm befindet, wird beleuchtet, wenn das House of Commons nach Einbruch der Dunkelheit tagt. Dieses Leuchtfeuer, benannt nach Acton Smee Ayrton, der es 1873 in Auftrag gab, ermöglicht es Londonern, auf einen Blick zu sehen, ob das Parlament während der Abendstunden tagt.",
+                nl: "Het Ayrton-licht, gelegen boven de klokkentoren, wordt verlicht wanneer het Lagerhuis na het donker in zitting is. Dit baken, genoemd naar Acton Smee Ayrton die het in 1873 opdroeg, stelt Londenaren in staat om in één oogopslag te zien of het Parlement tijdens de avonduren in zitting is."
+            }
         }
     ];
 

@@ -427,6 +427,426 @@
           de: "Ensemble-Methoden wie Bagging, Boosting und Stacking kombinieren Vorhersagen mehrerer Modelle, reduzieren Varianz und Bias um robustere und genauere Vorhersagen als jedes einzelne Modell zu erreichen.",
           nl: "Ensemble methoden zoals bagging, boosting en stacking combineren voorspellingen van meerdere modellen, verminderen variantie en bias om robustere en nauwkeurigere voorspellingen te bereiken dan elk individueel model."
         }
+      },
+      {
+        question: {
+          en: "What is gradient boosting?",
+          es: "¿Qué es gradient boosting?",
+          de: "Was ist Gradient Boosting?",
+          nl: "Wat is gradient boosting?"
+        },
+        options: [
+          { en: "An ensemble method that sequentially builds models to correct previous errors", es: "Un método ensemble que construye modelos secuencialmente para corregir errores previos", de: "Eine Ensemble-Methode die sequenziell Modelle baut um frühere Fehler zu korrigieren", nl: "Een ensemble methode die opeenvolgend modellen bouwt om eerdere fouten te corrigeren" },
+          { en: "A way to speed up gradient descent", es: "Una forma de acelerar gradient descent", de: "Eine Methode um Gradientenabstieg zu beschleunigen", nl: "Een manier om gradient descent te versnellen" },
+          { en: "Increasing the learning rate gradually", es: "Aumentar gradualmente la tasa de aprendizaje", de: "Lernrate allmählich erhöhen", nl: "De learning rate geleidelijk verhogen" },
+          { en: "Boosting computer performance for gradient calculations", es: "Aumentar el rendimiento del ordenador para cálculos de gradiente", de: "Computerleistung für Gradientenberechnungen steigern", nl: "Computerprestaties verhogen voor gradiëntberekeningen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gradient boosting builds models sequentially, where each new model focuses on correcting errors from previous models by fitting residuals, leading to powerful ensemble performance.",
+          es: "Gradient boosting construye modelos secuencialmente, donde cada nuevo modelo se enfoca en corregir errores de modelos previos ajustando residuos, llevando a rendimiento ensemble poderoso.",
+          de: "Gradient Boosting baut Modelle sequenziell, wobei jedes neue Modell sich auf Korrektur von Fehlern früherer Modelle konzentriert durch Fitting von Residuen, führt zu leistungsstarker Ensemble-Performance.",
+          nl: "Gradient boosting bouwt modellen opeenvolgend, waarbij elk nieuw model zich richt op het corrigeren van fouten van eerdere modellen door residuen te fitten, leidt tot krachtige ensemble prestaties."
+        }
+      },
+      {
+        question: {
+          en: "What are word embeddings in NLP?",
+          es: "¿Qué son word embeddings en NLP?",
+          de: "Was sind Word Embeddings in NLP?",
+          nl: "Wat zijn word embeddings in NLP?"
+        },
+        options: [
+          { en: "Dense vector representations of words capturing semantic relationships", es: "Representaciones vectoriales densas de palabras que capturan relaciones semánticas", de: "Dichte Vektordarstellungen von Wörtern die semantische Beziehungen erfassen", nl: "Dichte vectorrepresentaties van woorden die semantische relaties vastleggen" },
+          { en: "Words embedded in sentences", es: "Palabras incrustadas en oraciones", de: "Wörter eingebettet in Sätzen", nl: "Woorden ingebed in zinnen" },
+          { en: "Dictionary definitions of words", es: "Definiciones de diccionario de palabras", de: "Wörterbuchdefinitionen von Wörtern", nl: "Woordenboekdefinities van woorden" },
+          { en: "Frequency counts of words", es: "Conteos de frecuencia de palabras", de: "Häufigkeitszählungen von Wörtern", nl: "Frequentietellingen van woorden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Word embeddings like Word2Vec or GloVe represent words as dense vectors where similar words have similar vectors, capturing semantic meaning through vector arithmetic (e.g., king - man + woman ≈ queen).",
+          es: "Word embeddings como Word2Vec o GloVe representan palabras como vectores densos donde palabras similares tienen vectores similares, capturando significado semántico mediante aritmética vectorial (ej., rey - hombre + mujer ≈ reina).",
+          de: "Word Embeddings wie Word2Vec oder GloVe stellen Wörter als dichte Vektoren dar wo ähnliche Wörter ähnliche Vektoren haben, erfassen semantische Bedeutung durch Vektorarithmetik (z.B., König - Mann + Frau ≈ Königin).",
+          nl: "Word embeddings zoals Word2Vec of GloVe vertegenwoordigen woorden als dichte vectoren waarbij vergelijkbare woorden vergelijkbare vectoren hebben, leggen semantische betekenis vast door vectorrekenkunde (bijv., koning - man + vrouw ≈ koningin)."
+        }
+      },
+      {
+        question: {
+          en: "What is the attention mechanism in neural networks?",
+          es: "¿Qué es el mecanismo de atención en redes neuronales?",
+          de: "Was ist der Aufmerksamkeitsmechanismus in neuronalen Netzwerken?",
+          nl: "Wat is het attention mechanisme in neurale netwerken?"
+        },
+        options: [
+          { en: "A mechanism that allows models to focus on relevant parts of input", es: "Un mecanismo que permite a los modelos enfocarse en partes relevantes de la entrada", de: "Ein Mechanismus der Modellen ermöglicht sich auf relevante Teile der Eingabe zu konzentrieren", nl: "Een mechanisme dat modellen in staat stelt zich te richten op relevante delen van de input" },
+          { en: "Making models more attentive to training time", es: "Hacer modelos más atentos al tiempo de entrenamiento", de: "Modelle aufmerksamer für Trainingszeit machen", nl: "Modellen attentiever maken voor trainingstijd" },
+          { en: "User attention tracking during inference", es: "Seguimiento de atención del usuario durante inferencia", de: "Benutzeraufmerksamkeitsverfolgung während Inferenz", nl: "Gebruikersaandacht volgen tijdens inferentie" },
+          { en: "A warning system for model errors", es: "Un sistema de advertencia para errores del modelo", de: "Ein Warnsystem für Modellfehler", nl: "Een waarschuwingssysteem voor modelfouten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Attention mechanisms assign different weights to different parts of the input, allowing the model to focus on the most relevant information for each prediction, crucial in transformers and sequence-to-sequence models.",
+          es: "Los mecanismos de atención asignan diferentes pesos a diferentes partes de la entrada, permitiendo al modelo enfocarse en la información más relevante para cada predicción, crucial en transformers y modelos secuencia-a-secuencia.",
+          de: "Aufmerksamkeitsmechanismen weisen verschiedenen Teilen der Eingabe unterschiedliche Gewichte zu, ermöglichen dem Modell sich auf die relevanteste Information für jede Vorhersage zu konzentrieren, entscheidend in Transformern und Sequenz-zu-Sequenz-Modellen.",
+          nl: "Attention mechanismen kennen verschillende gewichten toe aan verschillende delen van de input, stellen het model in staat zich te richten op de meest relevante informatie voor elke voorspelling, cruciaal in transformers en sequence-to-sequence modellen."
+        }
+      },
+      {
+        question: {
+          en: "What is grid search for hyperparameter tuning?",
+          es: "¿Qué es grid search para ajuste de hiperparámetros?",
+          de: "Was ist Grid Search für Hyperparameter-Tuning?",
+          nl: "Wat is grid search voor hyperparameter tuning?"
+        },
+        options: [
+          { en: "Exhaustively trying all combinations of predefined parameter values", es: "Probar exhaustivamente todas las combinaciones de valores de parámetros predefinidos", de: "Erschöpfendes Ausprobieren aller Kombinationen vordefinierter Parameterwerte", nl: "Uitputtend alle combinaties van voorgedefinieerde parameterwaarden proberen" },
+          { en: "Searching for data in a grid structure", es: "Buscar datos en una estructura de cuadrícula", de: "Daten in einer Gitterstruktur suchen", nl: "Zoeken naar data in een rasterstructuur" },
+          { en: "Organizing hyperparameters in a visual grid", es: "Organizar hiperparámetros en una cuadrícula visual", de: "Hyperparameter in einem visuellen Gitter organisieren", nl: "Hyperparameters organiseren in een visueel raster" },
+          { en: "Random search in parameter space", es: "Búsqueda aleatoria en espacio de parámetros", de: "Zufällige Suche im Parameterraum", nl: "Willekeurig zoeken in parameterruimte" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Grid search systematically tries every combination of hyperparameter values from predefined ranges, evaluating model performance for each. While thorough, it can be computationally expensive for many parameters.",
+          es: "Grid search prueba sistemáticamente cada combinación de valores de hiperparámetros de rangos predefinidos, evaluando rendimiento del modelo para cada uno. Aunque exhaustivo, puede ser computacionalmente costoso para muchos parámetros.",
+          de: "Grid Search probiert systematisch jede Kombination von Hyperparameterwerten aus vordefinierten Bereichen aus, bewertet Modellleistung für jede. Obwohl gründlich, kann es rechenintensiv für viele Parameter sein.",
+          nl: "Grid search probeert systematisch elke combinatie van hyperparameterwaarden uit voorgedefinieerde bereiken, evalueert modelprestaties voor elk. Hoewel grondig, kan het rekenintensief zijn voor veel parameters."
+        }
+      },
+      {
+        question: {
+          en: "What is data leakage in machine learning?",
+          es: "¿Qué es data leakage en machine learning?",
+          de: "Was ist Data Leakage im maschinellen Lernen?",
+          nl: "Wat is data leakage in machine learning?"
+        },
+        options: [
+          { en: "When test/validation data information leaks into the training process", es: "Cuando información de datos de test/validación se filtra en el proceso de entrenamiento", de: "Wenn Test-/Validierungsdateninformationen in den Trainingsprozess lecken", nl: "Wanneer test/validatie data informatie lekt in het trainingsproces" },
+          { en: "Data being stolen by hackers", es: "Datos siendo robados por hackers", de: "Daten werden von Hackern gestohlen", nl: "Data wordt gestolen door hackers" },
+          { en: "Memory leaks in the code", es: "Fugas de memoria en el código", de: "Speicherlecks im Code", nl: "Geheugenlekken in de code" },
+          { en: "Data being lost during training", es: "Datos perdiéndose durante entrenamiento", de: "Daten gehen während Training verloren", nl: "Data raakt verloren tijdens training" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Data leakage occurs when information from outside the training dataset influences the model, leading to overly optimistic performance estimates. Examples include using future data, improperly preprocessing before splitting, or including target-derived features.",
+          es: "Data leakage ocurre cuando información fuera del conjunto de entrenamiento influye en el modelo, llevando a estimaciones de rendimiento demasiado optimistas. Ejemplos incluyen usar datos futuros, preprocesar incorrectamente antes de dividir, o incluir características derivadas del objetivo.",
+          de: "Data Leakage tritt auf wenn Information außerhalb des Trainingsdatensatzes das Modell beeinflusst, führt zu übermäßig optimistischen Leistungsschätzungen. Beispiele sind Verwendung zukünftiger Daten, unsachgemäßes Vorverarbeiten vor Aufteilung, oder Einbeziehen zielabgeleiteter Features.",
+          nl: "Data leakage treedt op wanneer informatie van buiten de trainingsdataset het model beïnvloedt, leidt tot te optimistische prestatieschattingen. Voorbeelden zijn toekomstige data gebruiken, onjuist voorverwerken voor splitsen, of doel-afgeleide features opnemen."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between eager and lazy evaluation?",
+          es: "¿Cuál es la diferencia entre evaluación eager y lazy?",
+          de: "Was ist der Unterschied zwischen Eager- und Lazy-Evaluierung?",
+          nl: "Wat is het verschil tussen eager en lazy evaluatie?"
+        },
+        options: [
+          { en: "Eager evaluates immediately, lazy delays until result is needed", es: "Eager evalúa inmediatamente, lazy retrasa hasta que se necesita el resultado", de: "Eager wertet sofort aus, Lazy verzögert bis Ergebnis benötigt wird", nl: "Eager evalueert direct, lazy stelt uit tot resultaat nodig is" },
+          { en: "Eager is faster, lazy is slower", es: "Eager es más rápido, lazy es más lento", de: "Eager ist schneller, Lazy ist langsamer", nl: "Eager is sneller, lazy is langzamer" },
+          { en: "Eager uses more memory, lazy uses less", es: "Eager usa más memoria, lazy usa menos", de: "Eager verwendet mehr Speicher, Lazy weniger", nl: "Eager gebruikt meer geheugen, lazy minder" },
+          { en: "They are the same concept", es: "Son el mismo concepto", de: "Sie sind dasselbe Konzept", nl: "Het zijn hetzelfde concept" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Eager evaluation computes operations immediately when defined (like PyTorch's default), while lazy evaluation builds a computation graph first and executes later (like TensorFlow 1.x), allowing for optimization but adding complexity.",
+          es: "Eager evaluation computa operaciones inmediatamente cuando se definen (como predeterminado de PyTorch), mientras lazy evaluation construye un grafo de computación primero y ejecuta después (como TensorFlow 1.x), permitiendo optimización pero añadiendo complejidad.",
+          de: "Eager Evaluation berechnet Operationen sofort wenn definiert (wie PyTorch Standard), während Lazy Evaluation zuerst einen Berechnungsgraphen baut und später ausführt (wie TensorFlow 1.x), ermöglicht Optimierung aber fügt Komplexität hinzu.",
+          nl: "Eager evaluatie berekent operaties direct wanneer gedefinieerd (zoals PyTorch standaard), terwijl lazy evaluatie eerst een berekeningsgrafiek bouwt en later uitvoert (zoals TensorFlow 1.x), maakt optimalisatie mogelijk maar voegt complexiteit toe."
+        }
+      },
+      {
+        question: {
+          en: "What is adversarial training?",
+          es: "¿Qué es entrenamiento adversarial?",
+          de: "Was ist Adversarial Training?",
+          nl: "Wat is adversarial training?"
+        },
+        options: [
+          { en: "Training models with intentionally perturbed examples to improve robustness", es: "Entrenar modelos con ejemplos intencionalmente perturbados para mejorar robustez", de: "Modelle mit absichtlich gestörten Beispielen trainieren um Robustheit zu verbessern", nl: "Modellen trainen met opzettelijk verstoorde voorbeelden om robuustheid te verbeteren" },
+          { en: "Training two models to compete against each other", es: "Entrenar dos modelos para competir entre sí", de: "Zwei Modelle trainieren um gegeneinander zu konkurrieren", nl: "Twee modellen trainen om tegen elkaar te concurreren" },
+          { en: "Training models on adversarial datasets", es: "Entrenar modelos en conjuntos de datos adversariales", de: "Modelle auf adversarialen Datensätzen trainieren", nl: "Modellen trainen op adversariale datasets" },
+          { en: "Training in hostile environments", es: "Entrenar en entornos hostiles", de: "In feindlichen Umgebungen trainieren", nl: "Trainen in vijandige omgevingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Adversarial training augments training data with adversarial examples (inputs with small perturbations that fool the model), forcing the model to learn more robust features and defend against adversarial attacks.",
+          es: "Adversarial training aumenta datos de entrenamiento con ejemplos adversariales (entradas con pequeñas perturbaciones que engañan al modelo), forzando al modelo a aprender características más robustas y defenderse contra ataques adversariales.",
+          de: "Adversarial Training erweitert Trainingsdaten mit adversarialen Beispielen (Eingaben mit kleinen Störungen die das Modell täuschen), zwingt das Modell robustere Features zu lernen und sich gegen adversariale Angriffe zu verteidigen.",
+          nl: "Adversarial training vergroot trainingsdata met adversariale voorbeelden (inputs met kleine verstoringen die het model misleiden), dwingt het model robuustere features te leren en zich te verdedigen tegen adversariale aanvallen."
+        }
+      },
+      {
+        question: {
+          en: "What is meta-learning?",
+          es: "¿Qué es meta-learning?",
+          de: "Was ist Meta-Learning?",
+          nl: "Wat is meta-learning?"
+        },
+        options: [
+          { en: "Learning how to learn - training models to adapt quickly to new tasks", es: "Aprender a aprender - entrenar modelos para adaptarse rápidamente a nuevas tareas", de: "Lernen zu lernen - Modelle trainieren um sich schnell an neue Aufgaben anzupassen", nl: "Leren te leren - modellen trainen om snel aan te passen aan nieuwe taken" },
+          { en: "Learning metadata about datasets", es: "Aprender metadatos sobre conjuntos de datos", de: "Metadaten über Datensätze lernen", nl: "Metadata leren over datasets" },
+          { en: "High-level abstract learning", es: "Aprendizaje abstracto de alto nivel", de: "Hochrangiges abstraktes Lernen", nl: "Hoog-niveau abstract leren" },
+          { en: "Learning from meta tags", es: "Aprender de meta etiquetas", de: "Von Meta-Tags lernen", nl: "Leren van meta tags" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Meta-learning trains models on a variety of tasks so they can quickly adapt to new, similar tasks with minimal data. Also called 'learning to learn', it's crucial for few-shot learning scenarios.",
+          es: "Meta-learning entrena modelos en una variedad de tareas para que puedan adaptarse rápidamente a tareas nuevas similares con datos mínimos. También llamado 'aprender a aprender', es crucial para escenarios de few-shot learning.",
+          de: "Meta-Learning trainiert Modelle auf verschiedenen Aufgaben damit sie sich schnell an neue ähnliche Aufgaben mit minimalen Daten anpassen können. Auch 'Lernen zu lernen' genannt, ist entscheidend für Few-Shot-Learning-Szenarien.",
+          nl: "Meta-learning traint modellen op diverse taken zodat ze snel kunnen aanpassen aan nieuwe, vergelijkbare taken met minimale data. Ook 'leren te leren' genoemd, is cruciaal voor few-shot learning scenario's."
+        }
+      },
+      {
+        question: {
+          en: "What is the Markov assumption in sequence models?",
+          es: "¿Qué es la asunción de Markov en modelos de secuencia?",
+          de: "Was ist die Markov-Annahme in Sequenzmodellen?",
+          nl: "Wat is de Markov assumptie in sequentiemodellen?"
+        },
+        options: [
+          { en: "The future state depends only on the current state, not the full history", es: "El estado futuro depende solo del estado actual, no del historial completo", de: "Der zukünftige Zustand hängt nur vom aktuellen Zustand ab, nicht von der vollständigen Historie", nl: "De toekomstige staat hangt alleen af van de huidige staat, niet van de volledige geschiedenis" },
+          { en: "All states are equally probable", es: "Todos los estados son igualmente probables", de: "Alle Zustände sind gleich wahrscheinlich", nl: "Alle staten zijn even waarschijnlijk" },
+          { en: "States change randomly", es: "Los estados cambian aleatoriamente", de: "Zustände ändern sich zufällig", nl: "Staten veranderen willekeurig" },
+          { en: "The model was created by Markov", es: "El modelo fue creado por Markov", de: "Das Modell wurde von Markov erstellt", nl: "Het model is gemaakt door Markov" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Markov assumption states that the probability of a future state depends only on the current state (first-order) or a fixed number of previous states, not the entire sequence history. This simplifies computation but may lose long-range dependencies.",
+          es: "La asunción de Markov establece que la probabilidad de un estado futuro depende solo del estado actual (primer orden) o un número fijo de estados previos, no del historial completo de la secuencia. Esto simplifica computación pero puede perder dependencias de largo alcance.",
+          de: "Die Markov-Annahme besagt dass die Wahrscheinlichkeit eines zukünftigen Zustands nur vom aktuellen Zustand (erster Ordnung) oder einer festen Anzahl vorheriger Zustände abhängt, nicht von der gesamten Sequenzhistorie. Dies vereinfacht Berechnung kann aber Langstrecken-Abhängigkeiten verlieren.",
+          nl: "De Markov assumptie stelt dat de waarschijnlijkheid van een toekomstige staat alleen afhangt van de huidige staat (eerste-orde) of een vast aantal vorige staten, niet van de hele sequentiegeschiedenis. Dit vereenvoudigt berekening maar kan lange-afstand afhankelijkheden verliezen."
+        }
+      },
+      {
+        question: {
+          en: "What is model compression?",
+          es: "¿Qué es compresión de modelo?",
+          de: "Was ist Modellkompression?",
+          nl: "Wat is modelcompressie?"
+        },
+        options: [
+          { en: "Techniques to reduce model size while maintaining performance", es: "Técnicas para reducir tamaño del modelo manteniendo rendimiento", de: "Techniken zur Reduzierung der Modellgröße bei Beibehaltung der Leistung", nl: "Technieken om modelgrootte te reduceren met behoud van prestaties" },
+          { en: "Compressing training data", es: "Comprimir datos de entrenamiento", de: "Trainingsdaten komprimieren", nl: "Trainingsdata comprimeren" },
+          { en: "Zipping model files", es: "Comprimir archivos de modelo", de: "Modelldateien zippen", nl: "Modelbestanden zippen" },
+          { en: "Reducing training time", es: "Reducir tiempo de entrenamiento", de: "Trainingszeit reduzieren", nl: "Trainingstijd reduceren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Model compression techniques like pruning, quantization, and knowledge distillation reduce model size and computational requirements while trying to preserve accuracy, enabling deployment on resource-constrained devices.",
+          es: "Técnicas de compresión de modelo como pruning, quantization y knowledge distillation reducen tamaño del modelo y requisitos computacionales mientras intentan preservar exactitud, permitiendo despliegue en dispositivos con recursos limitados.",
+          de: "Modellkompressionstechniken wie Pruning, Quantisierung und Knowledge Distillation reduzieren Modellgröße und Rechenanforderungen während sie versuchen Genauigkeit zu bewahren, ermöglichen Deployment auf ressourcenbeschränkten Geräten.",
+          nl: "Modelcompressie technieken zoals pruning, quantization en knowledge distillation reduceren modelgrootte en rekenvereisten terwijl ze proberen nauwkeurigheid te behouden, maken deployment mogelijk op apparaten met beperkte middelen."
+        }
+      },
+      {
+        question: {
+          en: "What is knowledge distillation?",
+          es: "¿Qué es destilación de conocimiento?",
+          de: "Was ist Knowledge Distillation?",
+          nl: "Wat is knowledge distillation?"
+        },
+        options: [
+          { en: "Training a smaller model to mimic a larger teacher model", es: "Entrenar un modelo más pequeño para imitar un modelo maestro más grande", de: "Ein kleineres Modell trainieren um ein größeres Lehrermodell nachzuahmen", nl: "Een kleiner model trainen om een groter leraar model na te bootsen" },
+          { en: "Extracting pure knowledge from data", es: "Extraer conocimiento puro de datos", de: "Reines Wissen aus Daten extrahieren", nl: "Zuivere kennis uit data extraheren" },
+          { en: "Removing unnecessary knowledge", es: "Eliminar conocimiento innecesario", de: "Unnötiges Wissen entfernen", nl: "Onnodige kennis verwijderen" },
+          { en: "Converting knowledge to liquid form", es: "Convertir conocimiento a forma líquida", de: "Wissen in flüssige Form umwandeln", nl: "Kennis omzetten naar vloeibare vorm" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Knowledge distillation transfers knowledge from a large, complex teacher model to a smaller student model by training the student to match the teacher's output probabilities, creating a compact model with similar performance.",
+          es: "Knowledge distillation transfiere conocimiento de un modelo maestro grande y complejo a un modelo estudiante más pequeño entrenando al estudiante para igualar las probabilidades de salida del maestro, creando un modelo compacto con rendimiento similar.",
+          de: "Knowledge Distillation überträgt Wissen von einem großen komplexen Lehrermodell zu einem kleineren Schülermodell indem der Schüler trainiert wird die Ausgabewahrscheinlichkeiten des Lehrers zu entsprechen, erstellt ein kompaktes Modell mit ähnlicher Leistung.",
+          nl: "Knowledge distillation draagt kennis over van een groot, complex leraar model naar een kleiner student model door de student te trainen om de uitvoerwaarschijnlijkheden van de leraar te evenaren, creëert een compact model met vergelijkbare prestaties."
+        }
+      },
+      {
+        question: {
+          en: "What is the exploration-exploitation tradeoff?",
+          es: "¿Qué es el tradeoff exploración-explotación?",
+          de: "Was ist der Exploration-Exploitation-Tradeoff?",
+          nl: "Wat is de exploration-exploitation tradeoff?"
+        },
+        options: [
+          { en: "Balancing trying new actions vs using known good actions", es: "Balancear probar nuevas acciones vs usar acciones buenas conocidas", de: "Ausbalancieren neuer Aktionen ausprobieren vs bekannte gute Aktionen nutzen", nl: "Balanceren tussen nieuwe acties proberen vs bekende goede acties gebruiken" },
+          { en: "Exploring data vs exploiting resources", es: "Explorar datos vs explotar recursos", de: "Daten erkunden vs Ressourcen ausbeuten", nl: "Data verkennen vs middelen exploiteren" },
+          { en: "Mining data vs using it", es: "Minar datos vs usarlos", de: "Daten abbauen vs verwenden", nl: "Data mijnen vs gebruiken" },
+          { en: "Discovering vs applying knowledge", es: "Descubrir vs aplicar conocimiento", de: "Wissen entdecken vs anwenden", nl: "Kennis ontdekken vs toepassen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In reinforcement learning, exploration-exploitation balances trying new actions to discover better strategies (exploration) versus choosing known rewarding actions (exploitation). Too much exploration wastes time; too much exploitation may miss better solutions.",
+          es: "En reinforcement learning, exploration-exploitation balancea probar nuevas acciones para descubrir mejores estrategias (exploración) versus elegir acciones recompensadoras conocidas (explotación). Demasiada exploración desperdicia tiempo; demasiada explotación puede perder mejores soluciones.",
+          de: "In Reinforcement Learning balanciert Exploration-Exploitation das Ausprobieren neuer Aktionen um bessere Strategien zu entdecken (Exploration) versus bekannte belohnende Aktionen wählen (Exploitation). Zu viel Exploration verschwendet Zeit; zu viel Exploitation kann bessere Lösungen verpassen.",
+          nl: "In reinforcement learning balanceert exploration-exploitation het proberen van nieuwe acties om betere strategieën te ontdekken (exploration) versus bekende belonende acties kiezen (exploitation). Te veel exploration verspilt tijd; te veel exploitation kan betere oplossingen missen."
+        }
+      },
+      {
+        question: {
+          en: "What is temporal difference (TD) learning?",
+          es: "¿Qué es aprendizaje de diferencia temporal (TD)?",
+          de: "Was ist Temporal Difference (TD) Learning?",
+          nl: "Wat is temporal difference (TD) learning?"
+        },
+        options: [
+          { en: "Learning by comparing predictions at different time steps", es: "Aprender comparando predicciones en diferentes pasos temporales", de: "Lernen durch Vergleich von Vorhersagen zu verschiedenen Zeitpunkten", nl: "Leren door voorspellingen op verschillende tijdstappen te vergelijken" },
+          { en: "Learning time series patterns", es: "Aprender patrones de series temporales", de: "Zeitreihenmuster lernen", nl: "Tijdreekspatronen leren" },
+          { en: "Calculating time differences in training", es: "Calcular diferencias de tiempo en entrenamiento", de: "Zeitunterschiede im Training berechnen", nl: "Tijdverschillen berekenen in training" },
+          { en: "Training at different times", es: "Entrenar en diferentes momentos", de: "Zu verschiedenen Zeiten trainieren", nl: "Op verschillende tijden trainen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "TD learning is a reinforcement learning method that updates value estimates based on the difference between successive predictions (TD error), combining ideas from Monte Carlo and dynamic programming without needing complete episodes.",
+          es: "TD learning es un método de reinforcement learning que actualiza estimaciones de valor basándose en la diferencia entre predicciones sucesivas (error TD), combinando ideas de Monte Carlo y programación dinámica sin necesitar episodios completos.",
+          de: "TD Learning ist eine Reinforcement-Learning-Methode die Wertschätzungen basierend auf der Differenz zwischen aufeinanderfolgenden Vorhersagen (TD-Fehler) aktualisiert, kombiniert Ideen von Monte Carlo und dynamischer Programmierung ohne vollständige Episoden zu benötigen.",
+          nl: "TD learning is een reinforcement learning methode die waardeschattingen bijwerkt gebaseerd op het verschil tussen opeenvolgende voorspellingen (TD fout), combineert ideeën van Monte Carlo en dynamisch programmeren zonder complete episodes nodig te hebben."
+        }
+      },
+      {
+        question: {
+          en: "What is curriculum learning?",
+          es: "¿Qué es aprendizaje curricular?",
+          de: "Was ist Curriculum Learning?",
+          nl: "Wat is curriculum learning?"
+        },
+        options: [
+          { en: "Training on easier examples first, gradually increasing difficulty", es: "Entrenar primero en ejemplos más fáciles, aumentando gradualmente dificultad", de: "Zuerst auf einfacheren Beispielen trainieren, Schwierigkeit allmählich erhöhen", nl: "Eerst trainen op makkelijkere voorbeelden, geleidelijk moeilijkheid verhogen" },
+          { en: "Learning school curriculums", es: "Aprender currículos escolares", de: "Schullehrpläne lernen", nl: "Schoolcurricula leren" },
+          { en: "Creating learning schedules", es: "Crear horarios de aprendizaje", de: "Lernpläne erstellen", nl: "Leerplannen maken" },
+          { en: "Learning multiple subjects simultaneously", es: "Aprender múltiples materias simultáneamente", de: "Mehrere Fächer gleichzeitig lernen", nl: "Meerdere vakken tegelijk leren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Curriculum learning presents training examples in a meaningful order, starting with simpler examples and progressively introducing more complex ones, mimicking human learning and often improving convergence and final performance.",
+          es: "Curriculum learning presenta ejemplos de entrenamiento en un orden significativo, comenzando con ejemplos más simples y progresivamente introduciendo más complejos, imitando aprendizaje humano y a menudo mejorando convergencia y rendimiento final.",
+          de: "Curriculum Learning präsentiert Trainingsbeispiele in sinnvoller Reihenfolge, beginnend mit einfacheren Beispielen und progressiv komplexere einführend, ahmt menschliches Lernen nach und verbessert oft Konvergenz und finale Leistung.",
+          nl: "Curriculum learning presenteert trainingsvoorbeelden in een betekenisvolle volgorde, beginnend met eenvoudigere voorbeelden en progressief complexere introducerend, bootst menselijk leren na en verbetert vaak convergentie en uiteindelijke prestaties."
+        }
+      },
+      {
+        question: {
+          en: "What is few-shot learning?",
+          es: "¿Qué es few-shot learning?",
+          de: "Was ist Few-Shot Learning?",
+          nl: "Wat is few-shot learning?"
+        },
+        options: [
+          { en: "Learning to perform tasks with very few training examples", es: "Aprender a realizar tareas con muy pocos ejemplos de entrenamiento", de: "Lernen Aufgaben mit sehr wenigen Trainingsbeispielen durchzuführen", nl: "Leren taken uit te voeren met zeer weinig trainingsvoorbeelden" },
+          { en: "Training with few epochs", es: "Entrenar con pocas épocas", de: "Mit wenigen Epochen trainieren", nl: "Trainen met weinig epochs" },
+          { en: "Quick learning sessions", es: "Sesiones de aprendizaje rápidas", de: "Schnelle Lernsitzungen", nl: "Snelle leersessies" },
+          { en: "Learning a small number of classes", es: "Aprender un pequeño número de clases", de: "Eine kleine Anzahl von Klassen lernen", nl: "Een klein aantal klassen leren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Few-shot learning enables models to learn new concepts from just a handful (1-10) of examples, typically using meta-learning or transfer learning. Zero-shot (0 examples) and one-shot (1 example) are special cases.",
+          es: "Few-shot learning permite a modelos aprender nuevos conceptos de solo un puñado (1-10) de ejemplos, típicamente usando meta-learning o transfer learning. Zero-shot (0 ejemplos) y one-shot (1 ejemplo) son casos especiales.",
+          de: "Few-Shot Learning ermöglicht Modellen neue Konzepte von nur einer Handvoll (1-10) Beispielen zu lernen, typischerweise unter Verwendung von Meta-Learning oder Transfer Learning. Zero-Shot (0 Beispiele) und One-Shot (1 Beispiel) sind Sonderfälle.",
+          nl: "Few-shot learning stelt modellen in staat nieuwe concepten te leren van slechts een handvol (1-10) voorbeelden, meestal met meta-learning of transfer learning. Zero-shot (0 voorbeelden) en one-shot (1 voorbeeld) zijn speciale gevallen."
+        }
+      },
+      {
+        question: {
+          en: "What is contrastive learning?",
+          es: "¿Qué es aprendizaje contrastivo?",
+          de: "Was ist Contrastive Learning?",
+          nl: "Wat is contrastive learning?"
+        },
+        options: [
+          { en: "Learning by contrasting similar and dissimilar examples", es: "Aprender contrastando ejemplos similares y disímiles", de: "Lernen durch Kontrast ähnlicher und unähnlicher Beispiele", nl: "Leren door vergelijkbare en ongelijksoortige voorbeelden te contrasteren" },
+          { en: "Comparing different learning methods", es: "Comparar diferentes métodos de aprendizaje", de: "Verschiedene Lernmethoden vergleichen", nl: "Verschillende leermethoden vergelijken" },
+          { en: "Learning from contrasting colors", es: "Aprender de colores contrastantes", de: "Von kontrastierenden Farben lernen", nl: "Leren van contrasterende kleuren" },
+          { en: "Learning opposite concepts", es: "Aprender conceptos opuestos", de: "Gegensätzliche Konzepte lernen", nl: "Tegenovergestelde concepten leren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Contrastive learning trains models to bring similar examples closer together in representation space while pushing dissimilar ones apart. It's effective for self-supervised learning without labels, learning robust feature representations.",
+          es: "Contrastive learning entrena modelos para acercar ejemplos similares en el espacio de representación mientras aleja disímiles. Es efectivo para aprendizaje auto-supervisado sin etiquetas, aprendiendo representaciones de características robustas.",
+          de: "Contrastive Learning trainiert Modelle um ähnliche Beispiele im Darstellungsraum näher zusammenzubringen während unähnliche auseinander geschoben werden. Es ist effektiv für selbstüberwachtes Lernen ohne Labels, lernt robuste Feature-Repräsentationen.",
+          nl: "Contrastive learning traint modellen om vergelijkbare voorbeelden dichter bij elkaar te brengen in representatieruimte terwijl ongelijksoortige uit elkaar worden geduwd. Het is effectief voor zelf-gesuperviseerd leren zonder labels, leert robuuste feature representaties."
+        }
+      },
+      {
+        question: {
+          en: "What is self-supervised learning?",
+          es: "¿Qué es aprendizaje auto-supervisado?",
+          de: "Was ist selbstüberwachtes Lernen?",
+          nl: "Wat is zelf-gesuperviseerd leren?"
+        },
+        options: [
+          { en: "Learning from unlabeled data by creating pretext tasks from the data itself", es: "Aprender de datos sin etiquetar creando tareas pretexto de los datos mismos", de: "Aus unbeschrifteten Daten lernen durch Erstellen von Vorwand-Aufgaben aus den Daten selbst", nl: "Leren van ongelabelde data door pretext taken te creëren van de data zelf" },
+          { en: "Models learning without any supervision", es: "Modelos aprendiendo sin supervisión", de: "Modelle lernen ohne Aufsicht", nl: "Modellen leren zonder supervisie" },
+          { en: "Models teaching themselves", es: "Modelos enseñándose a sí mismos", de: "Modelle bringen sich selbst bei", nl: "Modellen leren zichzelf" },
+          { en: "Automated supervised learning", es: "Aprendizaje supervisado automatizado", de: "Automatisiertes überwachtes Lernen", nl: "Geautomatiseerd gesuperviseerd leren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Self-supervised learning generates supervisory signals from the data itself (e.g., predicting masked words, image rotations, or next frames), enabling learning from vast unlabeled datasets like BERT and GPT do with text.",
+          es: "Self-supervised learning genera señales supervisoras de los datos mismos (ej., predecir palabras enmascaradas, rotaciones de imagen, o próximos frames), permitiendo aprender de vastos conjuntos de datos sin etiquetar como BERT y GPT hacen con texto.",
+          de: "Selbstüberwachtes Lernen generiert Überwachungssignale aus den Daten selbst (z.B. maskierte Wörter vorhersagen, Bildrotationen, oder nächste Frames), ermöglicht Lernen aus riesigen unbeschrifteten Datensätzen wie BERT und GPT mit Text machen.",
+          nl: "Zelf-gesuperviseerd leren genereert toezichtsignalen van de data zelf (bijv. gemaskeerde woorden voorspellen, beeldrotaties, of volgende frames), maakt leren mogelijk van enorme ongelabelde datasets zoals BERT en GPT doen met tekst."
+        }
+      },
+      {
+        question: {
+          en: "What is domain adaptation?",
+          es: "¿Qué es adaptación de dominio?",
+          de: "Was ist Domain Adaptation?",
+          nl: "Wat is domainaanpassing?"
+        },
+        options: [
+          { en: "Adapting a model trained on one domain to work on a different domain", es: "Adaptar un modelo entrenado en un dominio para trabajar en un dominio diferente", de: "Ein auf einer Domäne trainiertes Modell für eine andere Domäne anpassen", nl: "Een model getraind op één domein aanpassen om te werken op een ander domein" },
+          { en: "Changing the model's domain name", es: "Cambiar el nombre de dominio del modelo", de: "Den Domainnamen des Modells ändern", nl: "De domeinnaam van het model veranderen" },
+          { en: "Adapting to new hardware", es: "Adaptarse a nuevo hardware", de: "An neue Hardware anpassen", nl: "Aanpassen aan nieuwe hardware" },
+          { en: "Learning multiple domains simultaneously", es: "Aprender múltiples dominios simultáneamente", de: "Mehrere Domänen gleichzeitig lernen", nl: "Meerdere domeinen tegelijk leren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Domain adaptation transfers knowledge from a source domain (where labeled data exists) to a target domain (with different distribution), addressing domain shift. Techniques include fine-tuning, adversarial training, and feature alignment.",
+          es: "Domain adaptation transfiere conocimiento de un dominio fuente (donde existen datos etiquetados) a un dominio objetivo (con distribución diferente), abordando cambio de dominio. Técnicas incluyen fine-tuning, entrenamiento adversarial y alineación de características.",
+          de: "Domain Adaptation überträgt Wissen von einer Quelldomäne (wo beschriftete Daten existieren) zu einer Zieldomäne (mit anderer Verteilung), adressiert Domain Shift. Techniken beinhalten Fine-Tuning, Adversarial Training und Feature-Ausrichtung.",
+          nl: "Domainaanpassing draagt kennis over van een brondomein (waar gelabelde data bestaat) naar een doeldomein (met andere distributie), pakt domain shift aan. Technieken omvatten fine-tuning, adversarial training en feature uitlijning."
+        }
+      },
+      {
+        question: {
+          en: "What is quantization in neural networks?",
+          es: "¿Qué es quantization en redes neuronales?",
+          de: "Was ist Quantisierung in neuronalen Netzwerken?",
+          nl: "Wat is quantization in neurale netwerken?"
+        },
+        options: [
+          { en: "Reducing precision of weights and activations to use fewer bits", es: "Reducir precisión de pesos y activaciones para usar menos bits", de: "Präzision von Gewichten und Aktivierungen reduzieren um weniger Bits zu nutzen", nl: "Precisie van gewichten en activaties verminderen om minder bits te gebruiken" },
+          { en: "Measuring quantum effects in networks", es: "Medir efectos cuánticos en redes", de: "Quanteneffekte in Netzwerken messen", nl: "Kwantumeffecten in netwerken meten" },
+          { en: "Dividing the network into quantities", es: "Dividir la red en cantidades", de: "Das Netzwerk in Mengen aufteilen", nl: "Het netwerk verdelen in hoeveelheden" },
+          { en: "Adding quantum layers", es: "Añadir capas cuánticas", de: "Quantenschichten hinzufügen", nl: "Kwantumlagen toevoegen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Quantization converts high-precision floating-point weights (32-bit) to lower precision (8-bit, 4-bit, or even binary), drastically reducing model size and inference speed while accepting minimal accuracy loss, crucial for mobile deployment.",
+          es: "Quantization convierte pesos de punto flotante de alta precisión (32-bit) a menor precisión (8-bit, 4-bit, o incluso binario), reduciendo drásticamente tamaño del modelo y velocidad de inferencia aceptando pérdida mínima de exactitud, crucial para despliegue móvil.",
+          de: "Quantisierung konvertiert hochpräzise Gleitkomma-Gewichte (32-Bit) zu niedrigerer Präzision (8-Bit, 4-Bit, oder sogar binär), reduziert drastisch Modellgröße und Inferenzgeschwindigkeit bei minimaler Genauigkeitseinbuße, entscheidend für Mobile-Deployment.",
+          nl: "Quantization converteert hoge-precisie floating-point gewichten (32-bit) naar lagere precisie (8-bit, 4-bit, of zelfs binair), vermindert drastisch modelgrootte en inference snelheid met minimaal nauwkeurigheidsverlies, cruciaal voor mobiele deployment."
+        }
+      },
+      {
+        question: {
+          en: "What is neural architecture search (NAS)?",
+          es: "¿Qué es búsqueda de arquitectura neuronal (NAS)?",
+          de: "Was ist Neural Architecture Search (NAS)?",
+          nl: "Wat is neural architecture search (NAS)?"
+        },
+        options: [
+          { en: "Automatically finding optimal neural network architectures", es: "Encontrar automáticamente arquitecturas óptimas de redes neuronales", de: "Automatisches Finden optimaler neuronaler Netzwerkarchitekturen", nl: "Automatisch optimale neurale netwerkarchitecturen vinden" },
+          { en: "Searching for neural networks online", es: "Buscar redes neuronales en línea", de: "Online nach neuronalen Netzwerken suchen", nl: "Online zoeken naar neurale netwerken" },
+          { en: "Organizing neural network documentation", es: "Organizar documentación de redes neuronales", de: "Dokumentation neuronaler Netzwerke organisieren", nl: "Neurale netwerk documentatie organiseren" },
+          { en: "Finding neurons in brain scans", es: "Encontrar neuronas en escaneos cerebrales", de: "Neuronen in Gehirnscans finden", nl: "Neuronen vinden in hersenscans" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "NAS uses algorithms (often reinforcement learning or evolutionary methods) to automatically design neural network architectures, discovering novel designs that can outperform human-designed architectures but requiring significant computational resources.",
+          es: "NAS usa algoritmos (a menudo reinforcement learning o métodos evolutivos) para diseñar automáticamente arquitecturas de redes neuronales, descubriendo diseños novedosos que pueden superar arquitecturas diseñadas por humanos pero requiriendo recursos computacionales significativos.",
+          de: "NAS verwendet Algorithmen (oft Reinforcement Learning oder evolutionäre Methoden) um automatisch neuronale Netzwerkarchitekturen zu entwerfen, entdeckt neuartige Designs die menschengestaltete Architekturen übertreffen können aber erhebliche Rechenressourcen erfordern.",
+          nl: "NAS gebruikt algoritmen (vaak reinforcement learning of evolutionaire methoden) om automatisch neurale netwerkarchitecturen te ontwerpen, ontdekt vernieuwende designs die mensontworpen architecturen kunnen overtreffen maar vereist aanzienlijke rekenresources."
+        }
       }
     ]
   };

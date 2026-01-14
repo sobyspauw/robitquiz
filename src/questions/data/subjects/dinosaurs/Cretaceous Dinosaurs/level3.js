@@ -426,7 +426,427 @@
           es: "Therizinosaurus tenía garras enormes de hasta 3 pies de largo que usaba para arrancar vegetación y potencialmente para defensa. A pesar de ser un terópodo, en realidad era herbívoro.",
           de: "Therizinosaurus hatte massive Krallen bis zu 3 Fuß lang, die er zum Abstreifen von Vegetation und möglicherweise zur Verteidigung verwendete. Obwohl ein Theropode, war er tatsächlich herbivore.",
           nl: "Therizinosaurus had massieve klauwen tot 3 voet lang die hij gebruikte voor het afstropen van vegetatie en mogelijk voor verdediging. Ondanks dat hij een theropode was, was hij eigenlijk herbivoor."
-        }
+        }    },
+    {
+      question: {
+        en: "What period did Cretaceous dinosaurs live in?",
+        es: "What period did Cretaceous dinosaurs live in?",
+        de: "What period did Cretaceous dinosaurs live in?",
+        nl: "What period did Cretaceous dinosaurs live in?"
+      },
+      options: [
+        { en: "Cretaceous Period", es: "Cretaceous Period", de: "Cretaceous Period", nl: "Cretaceous Period" },
+        { en: "Jurassic Period", es: "Jurassic Period", de: "Jurassic Period", nl: "Jurassic Period" },
+        { en: "Triassic Period", es: "Triassic Period", de: "Triassic Period", nl: "Triassic Period" },
+        { en: "Permian Period", es: "Permian Period", de: "Permian Period", nl: "Permian Period" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Cretaceous dinosaurs lived during the Cretaceous Period, from about 145 to 66 million years ago.",
+        es: "Cretaceous dinosaurs lived during the Cretaceous Period, from about 145 to 66 million years ago.",
+        de: "Cretaceous dinosaurs lived during the Cretaceous Period, from about 145 to 66 million years ago.",
+        nl: "Cretaceous dinosaurs lived during the Cretaceous Period, from about 145 to 66 million years ago."
+      }
+    },
+    {
+      question: {
+        en: "What major event ended the Cretaceous Period?",
+        es: "What major event ended the Cretaceous Period?",
+        de: "What major event ended the Cretaceous Period?",
+        nl: "What major event ended the Cretaceous Period?"
+      },
+      options: [
+        { en: "Asteroid impact/mass extinction", es: "Asteroid impact/mass extinction", de: "Asteroid impact/mass extinction", nl: "Asteroid impact/mass extinction" },
+        { en: "Ice age", es: "Ice age", de: "Ice age", nl: "Ice age" },
+        { en: "Volcanic eruption", es: "Volcanic eruption", de: "Volcanic eruption", nl: "Volcanic eruption" },
+        { en: "Climate cooling", es: "Climate cooling", de: "Climate cooling", nl: "Climate cooling" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Cretaceous Period ended with a mass extinction event, likely caused by an asteroid impact about 66 million years ago.",
+        es: "The Cretaceous Period ended with a mass extinction event, likely caused by an asteroid impact about 66 million years ago.",
+        de: "The Cretaceous Period ended with a mass extinction event, likely caused by an asteroid impact about 66 million years ago.",
+        nl: "The Cretaceous Period ended with a mass extinction event, likely caused by an asteroid impact about 66 million years ago."
+      }
+    },
+    {
+      question: {
+        en: "Which dinosaur is famous from the Cretaceous?",
+        es: "Which dinosaur is famous from the Cretaceous?",
+        de: "Which dinosaur is famous from the Cretaceous?",
+        nl: "Which dinosaur is famous from the Cretaceous?"
+      },
+      options: [
+        { en: "Tyrannosaurus Rex", es: "Tyrannosaurus Rex", de: "Tyrannosaurus Rex", nl: "Tyrannosaurus Rex" },
+        { en: "Stegosaurus", es: "Stegosaurus", de: "Stegosaurus", nl: "Stegosaurus" },
+        { en: "Brachiosaurus", es: "Brachiosaurus", de: "Brachiosaurus", nl: "Brachiosaurus" },
+        { en: "Diplodocus", es: "Diplodocus", de: "Diplodocus", nl: "Diplodocus" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Tyrannosaurus Rex is one of the most famous Cretaceous dinosaurs, living at the very end of the period.",
+        es: "Tyrannosaurus Rex is one of the most famous Cretaceous dinosaurs, living at the very end of the period.",
+        de: "Tyrannosaurus Rex is one of the most famous Cretaceous dinosaurs, living at the very end of the period.",
+        nl: "Tyrannosaurus Rex is one of the most famous Cretaceous dinosaurs, living at the very end of the period."
+      }
+    },
+    {
+      question: {
+        en: "What was the climate like in the Cretaceous?",
+        es: "What was the climate like in the Cretaceous?",
+        de: "What was the climate like in the Cretaceous?",
+        nl: "What was the climate like in the Cretaceous?"
+      },
+      options: [
+        { en: "Warm and tropical", es: "Warm and tropical", de: "Warm and tropical", nl: "Warm and tropical" },
+        { en: "Cold and icy", es: "Cold and icy", de: "Cold and icy", nl: "Cold and icy" },
+        { en: "Dry desert", es: "Dry desert", de: "Dry desert", nl: "Dry desert" },
+        { en: "Frozen tundra", es: "Frozen tundra", de: "Frozen tundra", nl: "Frozen tundra" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Cretaceous Period had a warm, tropical climate with high sea levels and no polar ice caps.",
+        es: "The Cretaceous Period had a warm, tropical climate with high sea levels and no polar ice caps.",
+        de: "The Cretaceous Period had a warm, tropical climate with high sea levels and no polar ice caps.",
+        nl: "The Cretaceous Period had a warm, tropical climate with high sea levels and no polar ice caps."
+      }
+    },
+    {
+      question: {
+        en: "What were the first flowering plants called?",
+        es: "What were the first flowering plants called?",
+        de: "What were the first flowering plants called?",
+        nl: "What were the first flowering plants called?"
+      },
+      options: [
+        { en: "Angiosperms", es: "Angiosperms", de: "Angiosperms", nl: "Angiosperms" },
+        { en: "Gymnosperms", es: "Gymnosperms", de: "Gymnosperms", nl: "Gymnosperms" },
+        { en: "Ferns", es: "Ferns", de: "Ferns", nl: "Ferns" },
+        { en: "Cycads", es: "Cycads", de: "Cycads", nl: "Cycads" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Angiosperms (flowering plants) first appeared and diversified during the Cretaceous Period.",
+        es: "Angiosperms (flowering plants) first appeared and diversified during the Cretaceous Period.",
+        de: "Angiosperms (flowering plants) first appeared and diversified during the Cretaceous Period.",
+        nl: "Angiosperms (flowering plants) first appeared and diversified during the Cretaceous Period."
+      }
+    },
+    {
+      question: {
+        en: "Which Cretaceous dinosaur had a sail on its back?",
+        es: "Which Cretaceous dinosaur had a sail on its back?",
+        de: "Which Cretaceous dinosaur had a sail on its back?",
+        nl: "Which Cretaceous dinosaur had a sail on its back?"
+      },
+      options: [
+        { en: "Spinosaurus", es: "Spinosaurus", de: "Spinosaurus", nl: "Spinosaurus" },
+        { en: "T-Rex", es: "T-Rex", de: "T-Rex", nl: "T-Rex" },
+        { en: "Triceratops", es: "Triceratops", de: "Triceratops", nl: "Triceratops" },
+        { en: "Velociraptor", es: "Velociraptor", de: "Velociraptor", nl: "Velociraptor" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Spinosaurus had a large sail-like structure on its back, possibly for temperature regulation or display.",
+        es: "Spinosaurus had a large sail-like structure on its back, possibly for temperature regulation or display.",
+        de: "Spinosaurus had a large sail-like structure on its back, possibly for temperature regulation or display.",
+        nl: "Spinosaurus had a large sail-like structure on its back, possibly for temperature regulation or display."
+      }
+    },
+    {
+      question: {
+        en: "What is unique about Cretaceous bird fossils?",
+        es: "What is unique about Cretaceous bird fossils?",
+        de: "What is unique about Cretaceous bird fossils?",
+        nl: "What is unique about Cretaceous bird fossils?"
+      },
+      options: [
+        { en: "First modern bird features appeared", es: "First modern bird features appeared", de: "First modern bird features appeared", nl: "First modern bird features appeared" },
+        { en: "All birds were flightless", es: "All birds were flightless", de: "All birds were flightless", nl: "All birds were flightless" },
+        { en: "Birds went extinct", es: "Birds went extinct", de: "Birds went extinct", nl: "Birds went extinct" },
+        { en: "No bird fossils exist", es: "No bird fossils exist", de: "No bird fossils exist", nl: "No bird fossils exist" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Cretaceous saw the evolution of modern bird features, with early birds diversifying significantly.",
+        es: "The Cretaceous saw the evolution of modern bird features, with early birds diversifying significantly.",
+        de: "The Cretaceous saw the evolution of modern bird features, with early birds diversifying significantly.",
+        nl: "The Cretaceous saw the evolution of modern bird features, with early birds diversifying significantly."
+      }
+    },
+    {
+      question: {
+        en: "Which ocean expanded during the Cretaceous?",
+        es: "Which ocean expanded during the Cretaceous?",
+        de: "Which ocean expanded during the Cretaceous?",
+        nl: "Which ocean expanded during the Cretaceous?"
+      },
+      options: [
+        { en: "Western Interior Seaway in North America", es: "Western Interior Seaway in North America", de: "Western Interior Seaway in North America", nl: "Western Interior Seaway in North America" },
+        { en: "Pacific Ocean", es: "Pacific Ocean", de: "Pacific Ocean", nl: "Pacific Ocean" },
+        { en: "Atlantic Ocean", es: "Atlantic Ocean", de: "Atlantic Ocean", nl: "Atlantic Ocean" },
+        { en: "Indian Ocean", es: "Indian Ocean", de: "Indian Ocean", nl: "Indian Ocean" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Western Interior Seaway split North America in two during the Cretaceous Period.",
+        es: "The Western Interior Seaway split North America in two during the Cretaceous Period.",
+        de: "The Western Interior Seaway split North America in two during the Cretaceous Period.",
+        nl: "The Western Interior Seaway split North America in two during the Cretaceous Period."
+      }
+    },
+    {
+      question: {
+        en: "What dinosaur had the thickest skull?",
+        es: "What dinosaur had the thickest skull?",
+        de: "What dinosaur had the thickest skull?",
+        nl: "What dinosaur had the thickest skull?"
+      },
+      options: [
+        { en: "Pachycephalosaurus", es: "Pachycephalosaurus", de: "Pachycephalosaurus", nl: "Pachycephalosaurus" },
+        { en: "T-Rex", es: "T-Rex", de: "T-Rex", nl: "T-Rex" },
+        { en: "Triceratops", es: "Triceratops", de: "Triceratops", nl: "Triceratops" },
+        { en: "Ankylosaurus", es: "Ankylosaurus", de: "Ankylosaurus", nl: "Ankylosaurus" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pachycephalosaurus had an extremely thick, domed skull up to 10 inches thick.",
+        es: "Pachycephalosaurus had an extremely thick, domed skull up to 10 inches thick.",
+        de: "Pachycephalosaurus had an extremely thick, domed skull up to 10 inches thick.",
+        nl: "Pachycephalosaurus had an extremely thick, domed skull up to 10 inches thick."
+      }
+    },
+    {
+      question: {
+        en: "Which Cretaceous dinosaur could swim?",
+        es: "Which Cretaceous dinosaur could swim?",
+        de: "Which Cretaceous dinosaur could swim?",
+        nl: "Which Cretaceous dinosaur could swim?"
+      },
+      options: [
+        { en: "Spinosaurus", es: "Spinosaurus", de: "Spinosaurus", nl: "Spinosaurus" },
+        { en: "T-Rex", es: "T-Rex", de: "T-Rex", nl: "T-Rex" },
+        { en: "Triceratops", es: "Triceratops", de: "Triceratops", nl: "Triceratops" },
+        { en: "Velociraptor", es: "Velociraptor", de: "Velociraptor", nl: "Velociraptor" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Spinosaurus is believed to be semi-aquatic, with adaptations for swimming and catching fish.",
+        es: "Spinosaurus is believed to be semi-aquatic, with adaptations for swimming and catching fish.",
+        de: "Spinosaurus is believed to be semi-aquatic, with adaptations for swimming and catching fish.",
+        nl: "Spinosaurus is believed to be semi-aquatic, with adaptations for swimming and catching fish."
+      }
+    },
+    {
+      question: {
+        en: "What is the Cretaceous named after?",
+        es: "What is the Cretaceous named after?",
+        de: "What is the Cretaceous named after?",
+        nl: "What is the Cretaceous named after?"
+      },
+      options: [
+        { en: "Chalk deposits (Latin: creta)", es: "Chalk deposits (Latin: creta)", de: "Chalk deposits (Latin: creta)", nl: "Chalk deposits (Latin: creta)" },
+        { en: "A scientist", es: "A scientist", de: "A scientist", nl: "A scientist" },
+        { en: "A location", es: "A location", de: "A location", nl: "A location" },
+        { en: "A dinosaur", es: "A dinosaur", de: "A dinosaur", nl: "A dinosaur" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Cretaceous Period is named after the extensive chalk deposits (Latin 'creta') from this time.",
+        es: "The Cretaceous Period is named after the extensive chalk deposits (Latin 'creta') from this time.",
+        de: "The Cretaceous Period is named after the extensive chalk deposits (Latin 'creta') from this time.",
+        nl: "The Cretaceous Period is named after the extensive chalk deposits (Latin 'creta') from this time."
+      }
+    },
+    {
+      question: {
+        en: "Which continent split apart during the Cretaceous?",
+        es: "Which continent split apart during the Cretaceous?",
+        de: "Which continent split apart during the Cretaceous?",
+        nl: "Which continent split apart during the Cretaceous?"
+      },
+      options: [
+        { en: "Gondwana", es: "Gondwana", de: "Gondwana", nl: "Gondwana" },
+        { en: "Pangaea", es: "Pangaea", de: "Pangaea", nl: "Pangaea" },
+        { en: "Laurasia", es: "Laurasia", de: "Laurasia", nl: "Laurasia" },
+        { en: "Rodinia", es: "Rodinia", de: "Rodinia", nl: "Rodinia" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The supercontinent Gondwana continued breaking apart during the Cretaceous Period.",
+        es: "The supercontinent Gondwana continued breaking apart during the Cretaceous Period.",
+        de: "The supercontinent Gondwana continued breaking apart during the Cretaceous Period.",
+        nl: "The supercontinent Gondwana continued breaking apart during the Cretaceous Period."
+      }
+    },
+    {
+      question: {
+        en: "What was the largest land predator of the Cretaceous?",
+        es: "What was the largest land predator of the Cretaceous?",
+        de: "What was the largest land predator of the Cretaceous?",
+        nl: "What was the largest land predator of the Cretaceous?"
+      },
+      options: [
+        { en: "Spinosaurus or Giganotosaurus", es: "Spinosaurus or Giganotosaurus", de: "Spinosaurus or Giganotosaurus", nl: "Spinosaurus or Giganotosaurus" },
+        { en: "T-Rex", es: "T-Rex", de: "T-Rex", nl: "T-Rex" },
+        { en: "Allosaurus", es: "Allosaurus", de: "Allosaurus", nl: "Allosaurus" },
+        { en: "Velociraptor", es: "Velociraptor", de: "Velociraptor", nl: "Velociraptor" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Spinosaurus and Giganotosaurus were among the largest land predators, possibly larger than T-Rex.",
+        es: "Spinosaurus and Giganotosaurus were among the largest land predators, possibly larger than T-Rex.",
+        de: "Spinosaurus and Giganotosaurus were among the largest land predators, possibly larger than T-Rex.",
+        nl: "Spinosaurus and Giganotosaurus were among the largest land predators, possibly larger than T-Rex."
+      }
+    },
+    {
+      question: {
+        en: "Which Cretaceous dinosaur had feathers?",
+        es: "Which Cretaceous dinosaur had feathers?",
+        de: "Which Cretaceous dinosaur had feathers?",
+        nl: "Which Cretaceous dinosaur had feathers?"
+      },
+      options: [
+        { en: "Many theropods including raptors", es: "Many theropods including raptors", de: "Many theropods including raptors", nl: "Many theropods including raptors" },
+        { en: "None", es: "None", de: "None", nl: "None" },
+        { en: "All dinosaurs", es: "All dinosaurs", de: "All dinosaurs", nl: "All dinosaurs" },
+        { en: "Only birds", es: "Only birds", de: "Only birds", nl: "Only birds" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Many theropod dinosaurs, especially smaller ones like raptors, had feathers during the Cretaceous.",
+        es: "Many theropod dinosaurs, especially smaller ones like raptors, had feathers during the Cretaceous.",
+        de: "Many theropod dinosaurs, especially smaller ones like raptors, had feathers during the Cretaceous.",
+        nl: "Many theropod dinosaurs, especially smaller ones like raptors, had feathers during the Cretaceous."
+      }
+    },
+    {
+      question: {
+        en: "What marine reptile lived in Cretaceous seas?",
+        es: "What marine reptile lived in Cretaceous seas?",
+        de: "What marine reptile lived in Cretaceous seas?",
+        nl: "What marine reptile lived in Cretaceous seas?"
+      },
+      options: [
+        { en: "Mosasaurus", es: "Mosasaurus", de: "Mosasaurus", nl: "Mosasaurus" },
+        { en: "Ichthyosaurus", es: "Ichthyosaurus", de: "Ichthyosaurus", nl: "Ichthyosaurus" },
+        { en: "Plesiosaurus", es: "Plesiosaurus", de: "Plesiosaurus", nl: "Plesiosaurus" },
+        { en: "Nothosaurus", es: "Nothosaurus", de: "Nothosaurus", nl: "Nothosaurus" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Mosasaurus was a large marine reptile that dominated Cretaceous oceans.",
+        es: "Mosasaurus was a large marine reptile that dominated Cretaceous oceans.",
+        de: "Mosasaurus was a large marine reptile that dominated Cretaceous oceans.",
+        nl: "Mosasaurus was a large marine reptile that dominated Cretaceous oceans."
+      }
+    },
+    {
+      question: {
+        en: "How long did the Cretaceous Period last?",
+        es: "How long did the Cretaceous Period last?",
+        de: "How long did the Cretaceous Period last?",
+        nl: "How long did the Cretaceous Period last?"
+      },
+      options: [
+        { en: "About 79 million years", es: "About 79 million years", de: "About 79 million years", nl: "About 79 million years" },
+        { en: "About 50 million years", es: "About 50 million years", de: "About 50 million years", nl: "About 50 million years" },
+        { en: "About 100 million years", es: "About 100 million years", de: "About 100 million years", nl: "About 100 million years" },
+        { en: "About 30 million years", es: "About 30 million years", de: "About 30 million years", nl: "About 30 million years" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Cretaceous Period lasted approximately 79 million years, from 145 to 66 million years ago.",
+        es: "The Cretaceous Period lasted approximately 79 million years, from 145 to 66 million years ago.",
+        de: "The Cretaceous Period lasted approximately 79 million years, from 145 to 66 million years ago.",
+        nl: "The Cretaceous Period lasted approximately 79 million years, from 145 to 66 million years ago."
+      }
+    },
+    {
+      question: {
+        en: "Which dinosaur had the longest claws?",
+        es: "Which dinosaur had the longest claws?",
+        de: "Which dinosaur had the longest claws?",
+        nl: "Which dinosaur had the longest claws?"
+      },
+      options: [
+        { en: "Therizinosaurus", es: "Therizinosaurus", de: "Therizinosaurus", nl: "Therizinosaurus" },
+        { en: "Velociraptor", es: "Velociraptor", de: "Velociraptor", nl: "Velociraptor" },
+        { en: "T-Rex", es: "T-Rex", de: "T-Rex", nl: "T-Rex" },
+        { en: "Triceratops", es: "Triceratops", de: "Triceratops", nl: "Triceratops" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Therizinosaurus had the longest claws of any known animal, up to 3 feet long.",
+        es: "Therizinosaurus had the longest claws of any known animal, up to 3 feet long.",
+        de: "Therizinosaurus had the longest claws of any known animal, up to 3 feet long.",
+        nl: "Therizinosaurus had the longest claws of any known animal, up to 3 feet long."
+      }
+    },
+    {
+      question: {
+        en: "What percentage of species went extinct at the end of the Cretaceous?",
+        es: "What percentage of species went extinct at the end of the Cretaceous?",
+        de: "What percentage of species went extinct at the end of the Cretaceous?",
+        nl: "What percentage of species went extinct at the end of the Cretaceous?"
+      },
+      options: [
+        { en: "About 75%", es: "About 75%", de: "About 75%", nl: "About 75%" },
+        { en: "About 25%", es: "About 25%", de: "About 25%", nl: "About 25%" },
+        { en: "About 50%", es: "About 50%", de: "About 50%", nl: "About 50%" },
+        { en: "About 90%", es: "About 90%", de: "About 90%", nl: "About 90%" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The end-Cretaceous mass extinction event killed approximately 75% of all species on Earth.",
+        es: "The end-Cretaceous mass extinction event killed approximately 75% of all species on Earth.",
+        de: "The end-Cretaceous mass extinction event killed approximately 75% of all species on Earth.",
+        nl: "The end-Cretaceous mass extinction event killed approximately 75% of all species on Earth."
+      }
+    },
+    {
+      question: {
+        en: "Which Cretaceous dinosaur is known for its intelligence?",
+        es: "Which Cretaceous dinosaur is known for its intelligence?",
+        de: "Which Cretaceous dinosaur is known for its intelligence?",
+        nl: "Which Cretaceous dinosaur is known for its intelligence?"
+      },
+      options: [
+        { en: "Troodon", es: "Troodon", de: "Troodon", nl: "Troodon" },
+        { en: "T-Rex", es: "T-Rex", de: "T-Rex", nl: "T-Rex" },
+        { en: "Brachiosaurus", es: "Brachiosaurus", de: "Brachiosaurus", nl: "Brachiosaurus" },
+        { en: "Stegosaurus", es: "Stegosaurus", de: "Stegosaurus", nl: "Stegosaurus" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Troodon had one of the largest brain-to-body ratios among dinosaurs, suggesting higher intelligence.",
+        es: "Troodon had one of the largest brain-to-body ratios among dinosaurs, suggesting higher intelligence.",
+        de: "Troodon had one of the largest brain-to-body ratios among dinosaurs, suggesting higher intelligence.",
+        nl: "Troodon had one of the largest brain-to-body ratios among dinosaurs, suggesting higher intelligence."
+      }
+    },
+    {
+      question: {
+        en: "What era did the Cretaceous Period belong to?",
+        es: "What era did the Cretaceous Period belong to?",
+        de: "What era did the Cretaceous Period belong to?",
+        nl: "What era did the Cretaceous Period belong to?"
+      },
+      options: [
+        { en: "Mesozoic Era", es: "Mesozoic Era", de: "Mesozoic Era", nl: "Mesozoic Era" },
+        { en: "Paleozoic Era", es: "Paleozoic Era", de: "Paleozoic Era", nl: "Paleozoic Era" },
+        { en: "Cenozoic Era", es: "Cenozoic Era", de: "Cenozoic Era", nl: "Cenozoic Era" },
+        { en: "Precambrian Era", es: "Precambrian Era", de: "Precambrian Era", nl: "Precambrian Era" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Cretaceous was the final period of the Mesozoic Era, the 'Age of Reptiles'.",
+        es: "The Cretaceous was the final period of the Mesozoic Era, the 'Age of Reptiles'.",
+        de: "The Cretaceous was the final period of the Mesozoic Era, the 'Age of Reptiles'.",
+        nl: "The Cretaceous was the final period of the Mesozoic Era, the 'Age of Reptiles'."
+      }
+
       }
     ]
   };

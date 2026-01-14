@@ -1,4 +1,4 @@
-﻿// Authors and Writers Quiz - Level 5: Knowledge about Authors and Writers
+// Authors and Writers Quiz - Level 5: Knowledge about Authors and Writers
 (function() {
   const level5 = {
     name: {
@@ -426,6 +426,237 @@
           es: "Chinua Achebe publicó 'Todo se desmorona' en 1958. Ambientada en Nigeria precolonial, retrata el choque entre la sociedad igbo tradicional y el colonialismo europeo. Es una de las novelas africanas más leídas en todo el mundo.",
           de: "Chinua Achebe veröffentlichte 'Alles zerfällt' 1958. Der in Nigeria vor der Kolonialzeit spielende Roman schildert den Zusammenstoß zwischen der traditionellen Igbo-Gesellschaft und dem europäischen Kolonialismus. Es ist einer der weltweit meistgelesenen afrikanischen Romane.",
           nl: "Chinua Achebe publiceerde 'Things Fall Apart' in 1958. Gesitueerd in pre-koloniaal Nigeria, toont het de botsing tussen de traditionele Igbo-samenleving en het Europese kolonialisme. Het is een van de meest gelezen Afrikaanse romans wereldwijd."
+        }
+      },
+      {
+        question: {
+          en: "Which American author created the character Holden Caulfield in 'The Catcher in the Rye'?",
+          es: "¿Qué autor estadounidense creó el personaje Holden Caulfield en 'El guardián entre el centeno'?",
+          de: "Welcher amerikanische Autor schuf die Figur Holden Caulfield in 'Der Fänger im Roggen'?",
+          nl: "Welke Amerikaanse auteur creëerde het personage Holden Caulfield in 'De Vanger in het Graan'?"
+        },
+        options: [
+          {en: "J.D. Salinger", es: "J.D. Salinger", de: "J.D. Salinger", nl: "J.D. Salinger"},
+          {en: "F. Scott Fitzgerald", es: "F. Scott Fitzgerald", de: "F. Scott Fitzgerald", nl: "F. Scott Fitzgerald"},
+          {en: "John Updike", es: "John Updike", de: "John Updike", nl: "John Updike"},
+          {en: "Philip Roth", es: "Philip Roth", de: "Philip Roth", nl: "Philip Roth"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "J.D. Salinger created Holden Caulfield in 'The Catcher in the Rye' (1951), a novel that became a defining work of teenage angst and rebellion. The character's voice influenced generations of writers exploring adolescent alienation.",
+          es: "J.D. Salinger creó a Holden Caulfield en 'El guardián entre el centeno' (1951), una novela que se convirtió en una obra definitoria de la angustia adolescente y la rebelión. La voz del personaje influyó en generaciones de escritores que exploran la alienación adolescente.",
+          de: "J.D. Salinger schuf Holden Caulfield in 'Der Fänger im Roggen' (1951), einem Roman, der zu einem definierenden Werk über jugendliche Angst und Rebellion wurde. Die Stimme der Figur beeinflusste Generationen von Schriftstellern, die jugendliche Entfremdung erforschen.",
+          nl: "J.D. Salinger creëerde Holden Caulfield in 'De Vanger in het Graan' (1951), een roman die een bepalend werk werd van tienerangst en rebellie. De stem van het personage beïnvloedde generaties schrijvers die adolescente vervreemding verkenden."
+        }
+      },
+      {
+        question: {
+          en: "Which South African author wrote 'Cry, the Beloved Country', depicting racial injustice during apartheid?",
+          es: "¿Qué autor sudafricano escribió 'Llanto por la tierra amada', retratando la injusticia racial durante el apartheid?",
+          de: "Welcher südafrikanische Autor schrieb 'Denn sie sollen getröstet werden', das die Rassenungerechtigkeit während der Apartheid darstellt?",
+          nl: "Welke Zuid-Afrikaanse auteur schreef 'Cry, the Beloved Country', waarin raciale onrechtvaardigheid tijdens de apartheid wordt afgebeeld?"
+        },
+        options: [
+          {en: "Alan Paton", es: "Alan Paton", de: "Alan Paton", nl: "Alan Paton"},
+          {en: "Nadine Gordimer", es: "Nadine Gordimer", de: "Nadine Gordimer", nl: "Nadine Gordimer"},
+          {en: "J.M. Coetzee", es: "J.M. Coetzee", de: "J.M. Coetzee", nl: "J.M. Coetzee"},
+          {en: "André Brink", es: "André Brink", de: "André Brink", nl: "André Brink"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Alan Paton wrote 'Cry, the Beloved Country' (1948), a powerful novel about racial injustice in South Africa. The book drew international attention to apartheid and became one of the most important South African novels of the 20th century.",
+          es: "Alan Paton escribió 'Llanto por la tierra amada' (1948), una novela poderosa sobre la injusticia racial en Sudáfrica. El libro atrajo atención internacional hacia el apartheid y se convirtió en una de las novelas sudafricanas más importantes del siglo XX.",
+          de: "Alan Paton schrieb 'Denn sie sollen getröstet werden' (1948), einen kraftvollen Roman über Rassenungerechtigkeit in Südafrika. Das Buch lenkte internationale Aufmerksamkeit auf die Apartheid und wurde zu einem der wichtigsten südafrikanischen Romane des 20. Jahrhunderts.",
+          nl: "Alan Paton schreef 'Cry, the Beloved Country' (1948), een krachtige roman over raciale onrechtvaardigheid in Zuid-Afrika. Het boek trok internationale aandacht naar de apartheid en werd een van de belangrijkste Zuid-Afrikaanse romans van de 20e eeuw."
+        }
+      },
+      {
+        question: {
+          en: "Which Scottish poet wrote the epic poem 'The Waste Land' inspired by T.S. Eliot's style?",
+          es: "¿Qué poeta escocés escribió el poema épico 'The Waste Land' inspirado en el estilo de T.S. Eliot?",
+          de: "Welcher schottische Dichter schrieb das epische Gedicht 'The Waste Land', inspiriert von T.S. Eliots Stil?",
+          nl: "Welke Schotse dichter schreef het epische gedicht 'The Waste Land' geïnspireerd door T.S. Eliot's stijl?"
+        },
+        options: [
+          {en: "Hugh MacDiarmid", es: "Hugh MacDiarmid", de: "Hugh MacDiarmid", nl: "Hugh MacDiarmid"},
+          {en: "Robert Burns", es: "Robert Burns", de: "Robert Burns", nl: "Robert Burns"},
+          {en: "Edwin Muir", es: "Edwin Muir", de: "Edwin Muir", nl: "Edwin Muir"},
+          {en: "Norman MacCaig", es: "Norman MacCaig", de: "Norman MacCaig", nl: "Norman MacCaig"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "This is a trick question - 'The Waste Land' was written by T.S. Eliot himself, not a Scottish poet. Hugh MacDiarmid was a major Scottish modernist poet, but he wrote 'A Drunk Man Looks at the Thistle', not 'The Waste Land'.",
+          es: "Esta es una pregunta capciosa - 'The Waste Land' fue escrita por el propio T.S. Eliot, no por un poeta escocés. Hugh MacDiarmid fue un poeta modernista escocés importante, pero escribió 'Un borracho mira el cardo', no 'The Waste Land'.",
+          de: "Dies ist eine Trickfrage - 'The Waste Land' wurde von T.S. Eliot selbst geschrieben, nicht von einem schottischen Dichter. Hugh MacDiarmid war ein bedeutender schottischer modernistischer Dichter, aber er schrieb 'Ein betrunkener Mann betrachtet die Distel', nicht 'The Waste Land'.",
+          nl: "Dit is een strikvraag - 'The Waste Land' werd geschreven door T.S. Eliot zelf, niet door een Schotse dichter. Hugh MacDiarmid was een belangrijke Schotse modernistische dichter, maar hij schreef 'Een Dronken Man Kijkt naar de Distel', niet 'The Waste Land'."
+        }
+      },
+      {
+        question: {
+          en: "Which Italian author wrote 'The Name of the Rose', a historical mystery set in a medieval monastery?",
+          es: "¿Qué autor italiano escribió 'El nombre de la rosa', un misterio histórico ambientado en un monasterio medieval?",
+          de: "Welcher italienische Autor schrieb 'Der Name der Rose', ein historischer Krimi in einem mittelalterlichen Kloster?",
+          nl: "Welke Italiaanse auteur schreef 'De Naam van de Roos', een historische mysterie gesitueerd in een middeleeuws klooster?"
+        },
+        options: [
+          {en: "Umberto Eco", es: "Umberto Eco", de: "Umberto Eco", nl: "Umberto Eco"},
+          {en: "Italo Calvino", es: "Italo Calvino", de: "Italo Calvino", nl: "Italo Calvino"},
+          {en: "Alberto Moravia", es: "Alberto Moravia", de: "Alberto Moravia", nl: "Alberto Moravia"},
+          {en: "Primo Levi", es: "Primo Levi", de: "Primo Levi", nl: "Primo Levi"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Umberto Eco wrote 'The Name of the Rose' (1980), a complex novel combining medieval history, semiotics, and detective fiction. The book became an international bestseller and established Eco as both a scholar and popular novelist.",
+          es: "Umberto Eco escribió 'El nombre de la rosa' (1980), una novela compleja que combina historia medieval, semiótica y ficción detectivesca. El libro se convirtió en un bestseller internacional y estableció a Eco como académico y novelista popular.",
+          de: "Umberto Eco schrieb 'Der Name der Rose' (1980), einen komplexen Roman, der mittelalterliche Geschichte, Semiotik und Kriminalfiktion kombiniert. Das Buch wurde ein internationaler Bestseller und etablierte Eco sowohl als Gelehrten als auch als populären Romanautor.",
+          nl: "Umberto Eco schreef 'De Naam van de Roos' (1980), een complexe roman die middeleeuwse geschiedenis, semiotiek en detectivefictie combineert. Het boek werd een internationale bestseller en vestigde Eco als zowel geleerde als populaire romanschrijver."
+        }
+      },
+      {
+        question: {
+          en: "Which Nigerian-American author wrote 'Americanah', exploring race and identity across continents?",
+          es: "¿Qué autora nigeriana-estadounidense escribió 'Americanah', explorando raza e identidad a través de continentes?",
+          de: "Welche nigerianisch-amerikanische Autorin schrieb 'Americanah' und erforschte Rasse und Identität über Kontinente hinweg?",
+          nl: "Welke Nigeriaans-Amerikaanse auteur schreef 'Americanah', waarin ras en identiteit over continenten heen worden verkend?"
+        },
+        options: [
+          {en: "Chimamanda Ngozi Adichie", es: "Chimamanda Ngozi Adichie", de: "Chimamanda Ngozi Adichie", nl: "Chimamanda Ngozi Adichie"},
+          {en: "Teju Cole", es: "Teju Cole", de: "Teju Cole", nl: "Teju Cole"},
+          {en: "NoViolet Bulawayo", es: "NoViolet Bulawayo", de: "NoViolet Bulawayo", nl: "NoViolet Bulawayo"},
+          {en: "Yaa Gyasi", es: "Yaa Gyasi", de: "Yaa Gyasi", nl: "Yaa Gyasi"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Chimamanda Ngozi Adichie wrote 'Americanah' (2013), a novel exploring race, identity, and immigration through the story of a Nigerian woman navigating life in America and Britain. The book won numerous awards and critical acclaim.",
+          es: "Chimamanda Ngozi Adichie escribió 'Americanah' (2013), una novela que explora raza, identidad e inmigración a través de la historia de una mujer nigeriana navegando la vida en América y Gran Bretaña. El libro ganó numerosos premios y aclamación crítica.",
+          de: "Chimamanda Ngozi Adichie schrieb 'Americanah' (2013), einen Roman, der Rasse, Identität und Immigration durch die Geschichte einer nigerianischen Frau erforscht, die sich im Leben in Amerika und Großbritannien zurechtfindet. Das Buch gewann zahlreiche Auszeichnungen und Kritikerlob.",
+          nl: "Chimamanda Ngozi Adichie schreef 'Americanah' (2013), een roman die ras, identiteit en immigratie verkent door het verhaal van een Nigeriaanse vrouw die zich door het leven in Amerika en Groot-Brittannië navigeert. Het boek won talrijke prijzen en kritische lof."
+        }
+      },
+      {
+        question: {
+          en: "Which Caribbean author wrote 'Wide Sargasso Sea', a prequel to 'Jane Eyre'?",
+          es: "¿Qué autora caribeña escribió 'Ancho mar de los Sargazos', una precuela de 'Jane Eyre'?",
+          de: "Welche karibische Autorin schrieb 'Weite Sargassosee', ein Prequel zu 'Jane Eyre'?",
+          nl: "Welke Caribische auteur schreef 'Wide Sargasso Sea', een prequel op 'Jane Eyre'?"
+        },
+        options: [
+          {en: "Jean Rhys", es: "Jean Rhys", de: "Jean Rhys", nl: "Jean Rhys"},
+          {en: "Jamaica Kincaid", es: "Jamaica Kincaid", de: "Jamaica Kincaid", nl: "Jamaica Kincaid"},
+          {en: "V.S. Naipaul", es: "V.S. Naipaul", de: "V.S. Naipaul", nl: "V.S. Naipaul"},
+          {en: "Derek Walcott", es: "Derek Walcott", de: "Derek Walcott", nl: "Derek Walcott"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jean Rhys wrote 'Wide Sargasso Sea' (1966), giving voice to Bertha Mason, the 'mad woman in the attic' from Charlotte Brontë's 'Jane Eyre'. The novel explores colonialism, race, and the Caribbean experience.",
+          es: "Jean Rhys escribió 'Ancho mar de los Sargazos' (1966), dando voz a Bertha Mason, la 'mujer loca en el ático' de 'Jane Eyre' de Charlotte Brontë. La novela explora colonialismo, raza y la experiencia caribeña.",
+          de: "Jean Rhys schrieb 'Weite Sargassosee' (1966), die Bertha Mason, der 'verrückten Frau auf dem Dachboden' aus Charlotte Brontës 'Jane Eyre', eine Stimme gibt. Der Roman erforscht Kolonialismus, Rasse und die karibische Erfahrung.",
+          nl: "Jean Rhys schreef 'Wide Sargasso Sea' (1966), waarin ze een stem gaf aan Bertha Mason, de 'gekke vrouw op zolder' uit Charlotte Brontë's 'Jane Eyre'. De roman verkent kolonialisme, ras en de Caribische ervaring."
+        }
+      },
+      {
+        question: {
+          en: "Which Australian author wrote 'Oscar and Lucinda', winning the Booker Prize in 1988?",
+          es: "¿Qué autor australiano escribió 'Oscar y Lucinda', ganando el Premio Booker en 1988?",
+          de: "Welcher australische Autor schrieb 'Oscar und Lucinda' und gewann 1988 den Booker Prize?",
+          nl: "Welke Australische auteur schreef 'Oscar en Lucinda', waarbij de Booker Prize in 1988 werd gewonnen?"
+        },
+        options: [
+          {en: "Peter Carey", es: "Peter Carey", de: "Peter Carey", nl: "Peter Carey"},
+          {en: "Thomas Keneally", es: "Thomas Keneally", de: "Thomas Keneally", nl: "Thomas Keneally"},
+          {en: "Patrick White", es: "Patrick White", de: "Patrick White", nl: "Patrick White"},
+          {en: "David Malouf", es: "David Malouf", de: "David Malouf", nl: "David Malouf"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Peter Carey wrote 'Oscar and Lucinda' (1988), a historical novel about two compulsive gamblers in 19th-century Australia. The book won the Booker Prize and was later adapted into a film starring Ralph Fiennes and Cate Blanchett.",
+          es: "Peter Carey escribió 'Oscar y Lucinda' (1988), una novela histórica sobre dos apostadores compulsivos en Australia del siglo XIX. El libro ganó el Premio Booker y más tarde fue adaptado a una película protagonizada por Ralph Fiennes y Cate Blanchett.",
+          de: "Peter Carey schrieb 'Oscar und Lucinda' (1988), einen historischen Roman über zwei zwanghafte Spieler im Australien des 19. Jahrhunderts. Das Buch gewann den Booker Prize und wurde später mit Ralph Fiennes und Cate Blanchett verfilmt.",
+          nl: "Peter Carey schreef 'Oscar en Lucinda' (1988), een historische roman over twee dwangmatige gokkers in 19e-eeuws Australië. Het boek won de Booker Prize en werd later verfilmd met Ralph Fiennes en Cate Blanchett in de hoofdrollen."
+        }
+      },
+      {
+        question: {
+          en: "Which Egyptian author won the Nobel Prize in Literature in 1988?",
+          es: "¿Qué autor egipcio ganó el Premio Nobel de Literatura en 1988?",
+          de: "Welcher ägyptische Autor gewann 1988 den Nobelpreis für Literatur?",
+          nl: "Welke Egyptische auteur won de Nobelprijs voor Literatuur in 1988?"
+        },
+        options: [
+          {en: "Naguib Mahfouz", es: "Naguib Mahfouz", de: "Naguib Mahfouz", nl: "Naguib Mahfouz"},
+          {en: "Taha Hussein", es: "Taha Hussein", de: "Taha Hussein", nl: "Taha Hussein"},
+          {en: "Tawfiq al-Hakim", es: "Tawfiq al-Hakim", de: "Tawfiq al-Hakim", nl: "Tawfiq al-Hakim"},
+          {en: "Alaa Al Aswany", es: "Alaa Al Aswany", de: "Alaa Al Aswany", nl: "Alaa Al Aswany"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Naguib Mahfouz won the Nobel Prize in Literature in 1988, becoming the first Arab writer to receive this honor. His Cairo Trilogy is considered one of the masterpieces of 20th-century Arabic literature.",
+          es: "Naguib Mahfouz ganó el Premio Nobel de Literatura en 1988, convirtiéndose en el primer escritor árabe en recibir este honor. Su Trilogía de El Cairo se considera una de las obras maestras de la literatura árabe del siglo XX.",
+          de: "Naguib Mahfouz gewann 1988 den Nobelpreis für Literatur und war damit der erste arabische Schriftsteller, der diese Ehre erhielt. Seine Kairo-Trilogie gilt als eines der Meisterwerke der arabischen Literatur des 20. Jahrhunderts.",
+          nl: "Naguib Mahfouz won de Nobelprijs voor Literatuur in 1988 en werd daarmee de eerste Arabische schrijver die deze eer ontving. Zijn Cairo Trilogie wordt beschouwd als een van de meesterwerken van de 20e-eeuwse Arabische literatuur."
+        }
+      },
+      {
+        question: {
+          en: "Which German author wrote 'The Tin Drum', a landmark novel of postwar German literature?",
+          es: "¿Qué autor alemán escribió 'El tambor de hojalata', una novela emblemática de la literatura alemana de posguerra?",
+          de: "Welcher deutsche Autor schrieb 'Die Blechtrommel', einen Meilenstein der deutschen Nachkriegsliteratur?",
+          nl: "Welke Duitse auteur schreef 'De Blikken Trommel', een mijlpaal van de naoorlogse Duitse literatuur?"
+        },
+        options: [
+          {en: "Günter Grass", es: "Günter Grass", de: "Günter Grass", nl: "Günter Grass"},
+          {en: "Heinrich Böll", es: "Heinrich Böll", de: "Heinrich Böll", nl: "Heinrich Böll"},
+          {en: "Thomas Mann", es: "Thomas Mann", de: "Thomas Mann", nl: "Thomas Mann"},
+          {en: "Bertolt Brecht", es: "Bertolt Brecht", de: "Bertolt Brecht", nl: "Bertolt Brecht"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Günter Grass wrote 'The Tin Drum' (1959), a groundbreaking novel narrated by Oskar Matzerath, who refuses to grow up during the Nazi era. The book launched Grass's career and he later won the Nobel Prize in Literature in 1999.",
+          es: "Günter Grass escribió 'El tambor de hojalata' (1959), una novela innovadora narrada por Oskar Matzerath, quien se niega a crecer durante la era nazi. El libro lanzó la carrera de Grass y más tarde ganó el Premio Nobel de Literatura en 1999.",
+          de: "Günter Grass schrieb 'Die Blechtrommel' (1959), einen bahnbrechenden Roman, erzählt von Oskar Matzerath, der sich weigert, während der Nazi-Ära zu wachsen. Das Buch startete Grass' Karriere und er gewann später 1999 den Nobelpreis für Literatur.",
+          nl: "Günter Grass schreef 'De Blikken Trommel' (1959), een baanbrekende roman verteld door Oskar Matzerath, die weigert op te groeien tijdens het nazi-tijdperk. Het boek lanceerde Grass' carrière en hij won later de Nobelprijs voor Literatuur in 1999."
+        }
+      },
+      {
+        question: {
+          en: "Which Korean author wrote 'The Vegetarian', winning the Man Booker International Prize in 2016?",
+          es: "¿Qué autora coreana escribió 'La vegetariana', ganando el Premio Internacional Man Booker en 2016?",
+          de: "Welche koreanische Autorin schrieb 'Die Vegetarierin' und gewann 2016 den Man Booker International Prize?",
+          nl: "Welke Koreaanse auteur schreef 'De Vegetariër', waarbij de Man Booker International Prize in 2016 werd gewonnen?"
+        },
+        options: [
+          {en: "Han Kang", es: "Han Kang", de: "Han Kang", nl: "Han Kang"},
+          {en: "Shin Kyung-sook", es: "Shin Kyung-sook", de: "Shin Kyung-sook", nl: "Shin Kyung-sook"},
+          {en: "Kim Young-ha", es: "Kim Young-ha", de: "Kim Young-ha", nl: "Kim Young-ha"},
+          {en: "Park Min-gyu", es: "Park Min-gyu", de: "Park Min-gyu", nl: "Park Min-gyu"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Han Kang wrote 'The Vegetarian' (2007, English translation 2015), a provocative novel about a woman's radical transformation after deciding to stop eating meat. The book won the Man Booker International Prize in 2016.",
+          es: "Han Kang escribió 'La vegetariana' (2007, traducción al inglés 2015), una novela provocativa sobre la transformación radical de una mujer después de decidir dejar de comer carne. El libro ganó el Premio Internacional Man Booker en 2016.",
+          de: "Han Kang schrieb 'Die Vegetarierin' (2007, englische Übersetzung 2015), einen provokanten Roman über die radikale Transformation einer Frau, nachdem sie beschlossen hat, kein Fleisch mehr zu essen. Das Buch gewann 2016 den Man Booker International Prize.",
+          nl: "Han Kang schreef 'De Vegetariër' (2007, Engelse vertaling 2015), een provocerende roman over de radicale transformatie van een vrouw na te beslissen te stoppen met vlees eten. Het boek won de Man Booker International Prize in 2016."
+        }
+      },
+      {
+        question: {
+          en: "Which Mexican author wrote 'The Labyrinth of Solitude', exploring Mexican identity and culture?",
+          es: "¿Qué autor mexicano escribió 'El laberinto de la soledad', explorando la identidad y cultura mexicana?",
+          de: "Welcher mexikanische Autor schrieb 'Das Labyrinth der Einsamkeit' und erforschte mexikanische Identität und Kultur?",
+          nl: "Welke Mexicaanse auteur schreef 'Het Labyrint van de Eenzaamheid', waarin Mexicaanse identiteit en cultuur worden verkend?"
+        },
+        options: [
+          {en: "Carlos Fuentes", es: "Carlos Fuentes", de: "Carlos Fuentes", nl: "Carlos Fuentes"},
+          {en: "Octavio Paz", es: "Octavio Paz", de: "Octavio Paz", nl: "Octavio Paz"},
+          {en: "Juan Rulfo", es: "Juan Rulfo", de: "Juan Rulfo", nl: "Juan Rulfo"},
+          {en: "Elena Poniatowska", es: "Elena Poniatowska", de: "Elena Poniatowska", nl: "Elena Poniatowska"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Octavio Paz wrote 'The Labyrinth of Solitude' (1950), a collection of essays examining Mexican identity, history, and culture. Paz won the Nobel Prize in Literature in 1990 for his poetry and prose.",
+          es: "Octavio Paz escribió 'El laberinto de la soledad' (1950), una colección de ensayos que examinan la identidad, historia y cultura mexicana. Paz ganó el Premio Nobel de Literatura en 1990 por su poesía y prosa.",
+          de: "Octavio Paz schrieb 'Das Labyrinth der Einsamkeit' (1950), eine Sammlung von Essays, die mexikanische Identität, Geschichte und Kultur untersuchen. Paz gewann 1990 den Nobelpreis für Literatur für seine Gedichte und Prosa.",
+          nl: "Octavio Paz schreef 'Het Labyrint van de Eenzaamheid' (1950), een verzameling essays die Mexicaanse identiteit, geschiedenis en cultuur onderzoeken. Paz won de Nobelprijs voor Literatuur in 1990 voor zijn poëzie en proza."
         }
       }
     ]

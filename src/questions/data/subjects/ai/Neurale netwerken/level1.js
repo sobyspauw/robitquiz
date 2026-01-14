@@ -427,6 +427,426 @@
           de: "Neuronale Netzwerke zeichnen sich in Mustererkennung aus weil sie automatisch hierarchische Repräsentationen lernen können, wobei einfache Merkmale zu zunehmend komplexen Mustern kombiniert werden. Ihre Fähigkeit nichtlineare Beziehungen zu modellieren ermöglicht ihnen subtile Muster zu erfassen die lineare Methoden verpassen.",
           nl: "Neurale netwerken blinken uit in patroonherkenning omdat ze automatisch hiërarchische representaties kunnen leren, waarbij eenvoudige kenmerken gecombineerd worden tot steeds complexere patronen. Hun vermogen om niet-lineaire relaties te modelleren stelt hen in staat subtiele patronen vast te leggen die lineaire methoden missen."
         }
+      },
+      {
+        question: {
+          en: "What is a perceptron in neural network terminology?",
+          es: "¿Qué es un perceptrón en terminología de redes neuronales?",
+          de: "Was ist ein Perceptron in der Terminologie neuronaler Netzwerke?",
+          nl: "Wat is een perceptron in neurale netwerk terminologie?"
+        },
+        options: [
+          { en: "The simplest type of artificial neuron with binary step activation function", es: "El tipo más simple de neurona artificial con función de activación de paso binario", de: "Der einfachste Typ künstlichen Neurons mit binärer Schritt-Aktivierungsfunktion", nl: "Het eenvoudigste type kunstmatig neuron met binaire stap activeringsfunctie" },
+          { en: "A layer that perceives color in images", es: "Una capa que percibe color en imágenes", de: "Eine Schicht die Farbe in Bildern wahrnimmt", nl: "Een laag die kleur in afbeeldingen waarneemt" },
+          { en: "A deep neural network with many layers", es: "Una red neuronal profunda con muchas capas", de: "Ein tiefes neuronales Netzwerk mit vielen Schichten", nl: "Een diep neuraal netwerk met veel lagen" },
+          { en: "A type of convolutional filter", es: "Un tipo de filtro convolucional", de: "Eine Art Faltungsfilter", nl: "Een type convolutioneel filter" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A perceptron is the simplest form of a neural network, consisting of a single artificial neuron that takes weighted inputs, sums them, and applies a binary step function to produce an output of 0 or 1. It was one of the first neural network models developed in the 1950s.",
+          es: "Un perceptrón es la forma más simple de una red neuronal, consistiendo en una sola neurona artificial que toma entradas ponderadas, las suma y aplica una función de paso binario para producir una salida de 0 o 1. Fue uno de los primeros modelos de redes neuronales desarrollados en los años 1950.",
+          de: "Ein Perceptron ist die einfachste Form eines neuronalen Netzwerks, bestehend aus einem einzelnen künstlichen Neuron das gewichtete Eingaben nimmt, sie aufsummiert und eine binäre Schrittfunktion anwendet um eine Ausgabe von 0 oder 1 zu erzeugen. Es war eines der ersten in den 1950er Jahren entwickelten neuronalen Netzwerkmodelle.",
+          nl: "Een perceptron is de eenvoudigste vorm van een neuraal netwerk, bestaande uit een enkel kunstmatig neuron dat gewogen invoeren neemt, ze optelt en een binaire stapfunctie toepast om een uitvoer van 0 of 1 te produceren. Het was een van de eerste neurale netwerkmodellen ontwikkeld in de jaren 1950."
+        }
+      },
+      {
+        question: {
+          en: "What is the vanishing gradient problem in neural networks?",
+          es: "¿Qué es el problema del gradiente que desaparece en redes neuronales?",
+          de: "Was ist das Problem des verschwindenden Gradienten in neuronalen Netzwerken?",
+          nl: "Wat is het verdwijnende gradiënt probleem in neurale netwerken?"
+        },
+        options: [
+          { en: "Gradients become extremely small in deep networks, making early layers difficult to train", es: "Gradientes se vuelven extremadamente pequeños en redes profundas, dificultando entrenar capas tempranas", de: "Gradienten werden in tiefen Netzwerken extrem klein, erschwert Training früher Schichten", nl: "Gradiënten worden extreem klein in diepe netwerken, waardoor vroege lagen moeilijk te trainen zijn" },
+          { en: "The network loses all its gradients during training", es: "La red pierde todos sus gradientes durante entrenamiento", de: "Das Netzwerk verliert alle Gradienten während des Trainings", nl: "Het netwerk verliest al zijn gradiënten tijdens training" },
+          { en: "Gradients disappear from computer memory", es: "Los gradientes desaparecen de la memoria de la computadora", de: "Gradienten verschwinden aus dem Computerspeicher", nl: "Gradiënten verdwijnen uit computergeheugen" },
+          { en: "The learning rate becomes too small", es: "La tasa de aprendizaje se vuelve demasiado pequeña", de: "Die Lernrate wird zu klein", nl: "Het leerpercentage wordt te klein" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The vanishing gradient problem occurs when gradients become progressively smaller as they propagate backward through deep networks, especially with sigmoid or tanh activations. This makes it difficult for early layers to update their weights effectively, slowing or preventing learning.",
+          es: "El problema del gradiente que desaparece ocurre cuando los gradientes se vuelven progresivamente más pequeños al propagarse hacia atrás a través de redes profundas, especialmente con activaciones sigmoid o tanh. Esto dificulta que las capas tempranas actualicen sus pesos efectivamente, ralentizando o previniendo el aprendizaje.",
+          de: "Das Problem des verschwindenden Gradienten tritt auf wenn Gradienten progressiv kleiner werden während sie rückwärts durch tiefe Netzwerke propagieren, besonders mit Sigmoid- oder tanh-Aktivierungen. Dies erschwert es frühen Schichten ihre Gewichte effektiv zu aktualisieren, verlangsamt oder verhindert Lernen.",
+          nl: "Het verdwijnende gradiënt probleem treedt op wanneer gradiënten progressief kleiner worden terwijl ze achterwaarts door diepe netwerken propageren, vooral met sigmoid of tanh activeringen. Dit maakt het moeilijk voor vroege lagen om hun gewichten effectief bij te werken, vertraagt of verhindert leren."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between a feedforward and recurrent neural network?",
+          es: "¿Cuál es la diferencia entre una red neuronal feedforward y recurrente?",
+          de: "Was ist der Unterschied zwischen einem Feedforward- und rekurrenten neuronalen Netzwerk?",
+          nl: "Wat is het verschil tussen een feedforward en recurrent neuraal netwerk?"
+        },
+        options: [
+          { en: "Feedforward processes data in one direction, recurrent has loops allowing feedback connections", es: "Feedforward procesa datos en una dirección, recurrente tiene bucles permitiendo conexiones de retroalimentación", de: "Feedforward verarbeitet Daten in eine Richtung, rekurrent hat Schleifen die Rückkopplungsverbindungen ermöglichen", nl: "Feedforward verwerkt data in één richting, recurrent heeft lussen die feedback verbindingen toestaan" },
+          { en: "Feedforward is faster than recurrent networks", es: "Feedforward es más rápido que redes recurrentes", de: "Feedforward ist schneller als rekurrente Netzwerke", nl: "Feedforward is sneller dan recurrente netwerken" },
+          { en: "Recurrent networks only work with images", es: "Redes recurrentes solo funcionan con imágenes", de: "Rekurrente Netzwerke funktionieren nur mit Bildern", nl: "Recurrente netwerken werken alleen met afbeeldingen" },
+          { en: "Feedforward networks cannot be trained", es: "Redes feedforward no pueden ser entrenadas", de: "Feedforward-Netzwerke können nicht trainiert werden", nl: "Feedforward netwerken kunnen niet getraind worden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Feedforward networks pass information in one direction from input to output without loops, ideal for static data like images. Recurrent networks have feedback connections that create loops, allowing them to maintain memory and process sequential data like text or time series.",
+          es: "Redes feedforward pasan información en una dirección desde entrada a salida sin bucles, ideales para datos estáticos como imágenes. Redes recurrentes tienen conexiones de retroalimentación que crean bucles, permitiéndoles mantener memoria y procesar datos secuenciales como texto o series temporales.",
+          de: "Feedforward-Netzwerke leiten Informationen in eine Richtung von Eingabe zu Ausgabe ohne Schleifen, ideal für statische Daten wie Bilder. Rekurrente Netzwerke haben Rückkopplungsverbindungen die Schleifen erstellen, ermöglichen ihnen Gedächtnis zu behalten und sequentielle Daten wie Text oder Zeitreihen zu verarbeiten.",
+          nl: "Feedforward netwerken geven informatie in één richting door van invoer naar uitvoer zonder lussen, ideaal voor statische data zoals afbeeldingen. Recurrente netwerken hebben feedback verbindingen die lussen creëren, waardoor ze geheugen kunnen behouden en sequentiële data zoals tekst of tijdreeksen kunnen verwerken."
+        }
+      },
+      {
+        question: {
+          en: "What is batch normalization in neural networks?",
+          es: "¿Qué es la normalización por lotes en redes neuronales?",
+          de: "Was ist Batch-Normalisierung in neuronalen Netzwerken?",
+          nl: "Wat is batch normalisatie in neurale netwerken?"
+        },
+        options: [
+          { en: "Technique normalizing layer inputs to improve training stability and speed", es: "Técnica que normaliza entradas de capa para mejorar estabilidad y velocidad de entrenamiento", de: "Technik die Schichteingaben normalisiert um Trainingsstabilität und -geschwindigkeit zu verbessern", nl: "Techniek die laaginvoeren normaliseert om trainingsstabiliteit en -snelheid te verbeteren" },
+          { en: "Processing data in batches to save memory", es: "Procesar datos en lotes para ahorrar memoria", de: "Daten in Stapeln verarbeiten um Speicher zu sparen", nl: "Data in batches verwerken om geheugen te besparen" },
+          { en: "Normalizing the output layer only", es: "Normalizar solo la capa de salida", de: "Nur die Ausgabeschicht normalisieren", nl: "Alleen de uitvoerlaag normaliseren" },
+          { en: "Creating batches of similar training examples", es: "Crear lotes de ejemplos de entrenamiento similares", de: "Stapel ähnlicher Trainingsbeispiele erstellen", nl: "Batches van vergelijkbare trainingsvoorbeelden creëren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Batch normalization normalizes the inputs of each layer by adjusting and scaling activations within a batch. This reduces internal covariate shift, allows higher learning rates, acts as regularization, and significantly speeds up training while improving model stability.",
+          es: "La normalización por lotes normaliza las entradas de cada capa ajustando y escalando activaciones dentro de un lote. Esto reduce el cambio de covarianza interna, permite tasas de aprendizaje más altas, actúa como regularización y acelera significativamente el entrenamiento mientras mejora la estabilidad del modelo.",
+          de: "Batch-Normalisierung normalisiert die Eingaben jeder Schicht durch Anpassen und Skalieren von Aktivierungen innerhalb eines Stapels. Dies reduziert interne Kovariantenverschiebung, ermöglicht höhere Lernraten, wirkt als Regularisierung und beschleunigt Training erheblich während Modellstabilität verbessert wird.",
+          nl: "Batch normalisatie normaliseert de invoeren van elke laag door activeringen binnen een batch aan te passen en te schalen. Dit vermindert interne covariantieverschuiving, staat hogere leersnelheden toe, werkt als regularisatie en versnelt training aanzienlijk terwijl modelstabiliteit verbetert."
+        }
+      },
+      {
+        question: {
+          en: "What is overfitting in neural networks?",
+          es: "¿Qué es el sobreajuste en redes neuronales?",
+          de: "Was ist Überanpassung in neuronalen Netzwerken?",
+          nl: "Wat is overfitting in neurale netwerken?"
+        },
+        options: [
+          { en: "Model learns training data too well, performs poorly on new unseen data", es: "Modelo aprende datos de entrenamiento demasiado bien, rinde mal con datos nuevos no vistos", de: "Modell lernt Trainingsdaten zu gut, leistet schlecht auf neuen ungesehenen Daten", nl: "Model leert trainingsdata te goed, presteert slecht op nieuwe ongeziene data" },
+          { en: "The network has too many neurons", es: "La red tiene demasiadas neuronas", de: "Das Netzwerk hat zu viele Neuronen", nl: "Het netwerk heeft te veel neuronen" },
+          { en: "Training takes too long", es: "El entrenamiento toma demasiado tiempo", de: "Training dauert zu lange", nl: "Training duurt te lang" },
+          { en: "The model is too simple for the task", es: "El modelo es demasiado simple para la tarea", de: "Das Modell ist zu einfach für die Aufgabe", nl: "Het model is te eenvoudig voor de taak" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Overfitting occurs when a neural network learns the training data too well, including noise and outliers, rather than learning general patterns. The model achieves high accuracy on training data but fails to generalize to new data. Solutions include regularization, dropout, and more training data.",
+          es: "El sobreajuste ocurre cuando una red neuronal aprende los datos de entrenamiento demasiado bien, incluyendo ruido y valores atípicos, en lugar de aprender patrones generales. El modelo logra alta precisión en datos de entrenamiento pero falla en generalizar a datos nuevos. Las soluciones incluyen regularización, dropout y más datos de entrenamiento.",
+          de: "Überanpassung tritt auf wenn ein neuronales Netzwerk die Trainingsdaten zu gut lernt, einschließlich Rauschen und Ausreißern, anstatt allgemeine Muster zu lernen. Das Modell erreicht hohe Genauigkeit auf Trainingsdaten scheitert aber bei Generalisierung auf neue Daten. Lösungen beinhalten Regularisierung, Dropout und mehr Trainingsdaten.",
+          nl: "Overfitting treedt op wanneer een neuraal netwerk de trainingsdata te goed leert, inclusief ruis en uitschieters, in plaats van algemene patronen te leren. Het model bereikt hoge nauwkeurigheid op trainingsdata maar faalt te generaliseren naar nieuwe data. Oplossingen omvatten regularisatie, dropout en meer trainingsdata."
+        }
+      },
+      {
+        question: {
+          en: "What is underfitting in neural network training?",
+          es: "¿Qué es el subajuste en entrenamiento de redes neuronales?",
+          de: "Was ist Unteranpassung im Training neuronaler Netzwerke?",
+          nl: "Wat is underfitting in neurale netwerk training?"
+        },
+        options: [
+          { en: "Model is too simple to capture underlying patterns in both training and test data", es: "Modelo es demasiado simple para capturar patrones subyacentes en datos de entrenamiento y prueba", de: "Modell ist zu einfach um zugrundeliegende Muster in Trainings- und Testdaten zu erfassen", nl: "Model is te eenvoudig om onderliggende patronen in zowel trainings- als testdata vast te leggen" },
+          { en: "The network trains too quickly", es: "La red entrena demasiado rápido", de: "Das Netzwerk trainiert zu schnell", nl: "Het netwerk traint te snel" },
+          { en: "There is not enough training data", es: "No hay suficientes datos de entrenamiento", de: "Es gibt nicht genug Trainingsdaten", nl: "Er is niet genoeg trainingsdata" },
+          { en: "The activation functions are wrong", es: "Las funciones de activación son incorrectas", de: "Die Aktivierungsfunktionen sind falsch", nl: "De activeringsfuncties zijn verkeerd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Underfitting happens when a model is too simple to capture the complexity of the data, resulting in poor performance on both training and test sets. The network fails to learn important patterns. Solutions include using more complex architectures, adding more layers or neurons, or training longer.",
+          es: "El subajuste ocurre cuando un modelo es demasiado simple para capturar la complejidad de los datos, resultando en bajo rendimiento tanto en conjuntos de entrenamiento como de prueba. La red falla en aprender patrones importantes. Las soluciones incluyen usar arquitecturas más complejas, agregar más capas o neuronas, o entrenar más tiempo.",
+          de: "Unteranpassung tritt auf wenn ein Modell zu einfach ist um die Komplexität der Daten zu erfassen, resultiert in schlechter Leistung sowohl auf Trainings- als auch Testsets. Das Netzwerk scheitert wichtige Muster zu lernen. Lösungen beinhalten komplexere Architekturen zu verwenden, mehr Schichten oder Neuronen hinzuzufügen oder länger zu trainieren.",
+          nl: "Underfitting gebeurt wanneer een model te eenvoudig is om de complexiteit van de data vast te leggen, resulterend in slechte prestaties op zowel trainings- als testsets. Het netwerk faalt belangrijke patronen te leren. Oplossingen omvatten complexere architecturen gebruiken, meer lagen of neuronen toevoegen, of langer trainen."
+        }
+      },
+      {
+        question: {
+          en: "What is dropout in neural networks?",
+          es: "¿Qué es el dropout en redes neuronales?",
+          de: "Was ist Dropout in neuronalen Netzwerken?",
+          nl: "Wat is dropout in neurale netwerken?"
+        },
+        options: [
+          { en: "Regularization technique randomly deactivating neurons during training to prevent overfitting", es: "Técnica de regularización que desactiva neuronas aleatoriamente durante entrenamiento para prevenir sobreajuste", de: "Regularisierungstechnik die Neuronen während des Trainings zufällig deaktiviert um Überanpassung zu verhindern", nl: "Regularisatietechniek die neuronen willekeurig deactiveert tijdens training om overfitting te voorkomen" },
+          { en: "Removing neurons that don't contribute to learning", es: "Eliminar neuronas que no contribuyen al aprendizaje", de: "Neuronen entfernen die nicht zum Lernen beitragen", nl: "Neuronen verwijderen die niet bijdragen aan leren" },
+          { en: "Students leaving a neural network course", es: "Estudiantes abandonando un curso de redes neuronales", de: "Studenten die einen Kurs für neuronale Netzwerke verlassen", nl: "Studenten die een neurale netwerkcursus verlaten" },
+          { en: "Decreasing the learning rate during training", es: "Disminuir la tasa de aprendizaje durante entrenamiento", de: "Lernrate während des Trainings verringern", nl: "Het leerpercentage verlagen tijdens training" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dropout randomly sets a fraction of neurons to zero during each training iteration, forcing the network to learn redundant representations and preventing co-adaptation of neurons. This powerful regularization technique reduces overfitting and improves generalization without requiring architectural changes.",
+          es: "Dropout establece aleatoriamente una fracción de neuronas a cero durante cada iteración de entrenamiento, forzando a la red a aprender representaciones redundantes y previniendo co-adaptación de neuronas. Esta poderosa técnica de regularización reduce sobreajuste y mejora generalización sin requerir cambios arquitectónicos.",
+          de: "Dropout setzt zufällig einen Bruchteil von Neuronen auf Null während jeder Trainingsiteration, zwingt das Netzwerk redundante Repräsentationen zu lernen und verhindert Ko-Adaptation von Neuronen. Diese mächtige Regularisierungstechnik reduziert Überanpassung und verbessert Generalisierung ohne architektonische Änderungen zu erfordern.",
+          nl: "Dropout zet willekeurig een fractie van neuronen op nul tijdens elke trainingiteratie, dwingt het netwerk redundante representaties te leren en voorkomt co-adaptatie van neuronen. Deze krachtige regularisatietechniek vermindert overfitting en verbetert generalisatie zonder architectonische veranderingen te vereisen."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of an epoch in neural network training?",
+          es: "¿Cuál es el propósito de una época en entrenamiento de redes neuronales?",
+          de: "Was ist der Zweck einer Epoche im Training neuronaler Netzwerke?",
+          nl: "Wat is het doel van een epoch in neurale netwerk training?"
+        },
+        options: [
+          { en: "One complete pass through entire training dataset during learning process", es: "Un pase completo por todo el conjunto de datos de entrenamiento durante proceso de aprendizaje", de: "Ein vollständiger Durchlauf durch gesamten Trainingsdatensatz während Lernprozess", nl: "Eén volledige doorgang door volledige trainingsdataset tijdens leerproces" },
+          { en: "A time period in which the network rests", es: "Un período de tiempo en el que la red descansa", de: "Ein Zeitraum in dem das Netzwerk ruht", nl: "Een tijdsperiode waarin het netwerk rust" },
+          { en: "The final stage of training", es: "La etapa final del entrenamiento", de: "Die Endphase des Trainings", nl: "De eindstage van training" },
+          { en: "A measurement of network accuracy", es: "Una medida de precisión de la red", de: "Eine Messung der Netzwerkgenauigkeit", nl: "Een meting van netwerknauwkeurigheid" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "An epoch represents one complete iteration through the entire training dataset. During one epoch, the network sees every training example once and updates its weights accordingly. Training typically involves multiple epochs, allowing the network to refine its learning over successive passes through the data.",
+          es: "Una época representa una iteración completa a través de todo el conjunto de datos de entrenamiento. Durante una época, la red ve cada ejemplo de entrenamiento una vez y actualiza sus pesos en consecuencia. El entrenamiento típicamente involucra múltiples épocas, permitiendo que la red refine su aprendizaje en pases sucesivos por los datos.",
+          de: "Eine Epoche repräsentiert eine vollständige Iteration durch den gesamten Trainingsdatensatz. Während einer Epoche sieht das Netzwerk jedes Trainingsbeispiel einmal und aktualisiert seine Gewichte entsprechend. Training beinhaltet typischerweise mehrere Epochen, ermöglicht dem Netzwerk sein Lernen über sukzessive Durchläufe durch die Daten zu verfeinern.",
+          nl: "Een epoch vertegenwoordigt één volledige iteratie door de volledige trainingsdataset. Tijdens één epoch ziet het netwerk elk trainingsvoorbeeld eenmaal en werkt zijn gewichten dienovereenkomstig bij. Training omvat typisch meerdere epochs, waardoor het netwerk zijn leren kan verfijnen over opeenvolgende doorgangen door de data."
+        }
+      },
+      {
+        question: {
+          en: "What is a loss function in neural networks?",
+          es: "¿Qué es una función de pérdida en redes neuronales?",
+          de: "Was ist eine Verlustfunktion in neuronalen Netzwerken?",
+          nl: "Wat is een loss functie in neurale netwerken?"
+        },
+        options: [
+          { en: "Mathematical function measuring difference between predicted and actual outputs", es: "Función matemática que mide diferencia entre salidas predichas y reales", de: "Mathematische Funktion die Differenz zwischen vorhergesagten und tatsächlichen Ausgaben misst", nl: "Wiskundige functie die verschil meet tussen voorspelde en werkelijke uitvoer" },
+          { en: "Function that causes the network to lose data", es: "Función que hace que la red pierda datos", de: "Funktion die das Netzwerk Daten verlieren lässt", nl: "Functie die het netwerk data doet verliezen" },
+          { en: "The rate at which neurons die during training", es: "La tasa a la que las neuronas mueren durante entrenamiento", de: "Die Rate mit der Neuronen während des Trainings sterben", nl: "De snelheid waarmee neuronen sterven tijdens training" },
+          { en: "A function for removing bad training examples", es: "Una función para eliminar ejemplos de entrenamiento malos", de: "Eine Funktion zum Entfernen schlechter Trainingsbeispiele", nl: "Een functie voor het verwijderen van slechte trainingsvoorbeelden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A loss function quantifies how far the network's predictions are from the true values, providing a single number that training algorithms aim to minimize. Common examples include mean squared error for regression and cross-entropy for classification. The choice of loss function depends on the specific task.",
+          es: "Una función de pérdida cuantifica qué tan lejos están las predicciones de la red de los valores verdaderos, proporcionando un número único que los algoritmos de entrenamiento buscan minimizar. Ejemplos comunes incluyen error cuadrático medio para regresión y entropía cruzada para clasificación. La elección de la función de pérdida depende de la tarea específica.",
+          de: "Eine Verlustfunktion quantifiziert wie weit die Vorhersagen des Netzwerks von den wahren Werten entfernt sind, liefert eine einzelne Zahl die Trainingsalgorithmen zu minimieren versuchen. Häufige Beispiele sind mittlerer quadratischer Fehler für Regression und Kreuzentropie für Klassifikation. Die Wahl der Verlustfunktion hängt von der spezifischen Aufgabe ab.",
+          nl: "Een loss functie kwantificeert hoe ver de voorspellingen van het netwerk van de werkelijke waarden zijn, levert een enkel getal dat trainingsalgoritmes proberen te minimaliseren. Veelvoorkomende voorbeelden zijn gemiddelde kwadratische fout voor regressie en cross-entropy voor classificatie. De keuze van loss functie hangt af van de specifieke taak."
+        }
+      },
+      {
+        question: {
+          en: "What does the term 'deep learning' refer to?",
+          es: "¿A qué se refiere el término 'aprendizaje profundo'?",
+          de: "Worauf bezieht sich der Begriff 'Deep Learning'?",
+          nl: "Waar verwijst de term 'deep learning' naar?"
+        },
+        options: [
+          { en: "Machine learning using neural networks with multiple hidden layers", es: "Aprendizaje automático usando redes neuronales con múltiples capas ocultas", de: "Maschinelles Lernen mit neuronalen Netzwerken mit mehreren versteckten Schichten", nl: "Machine learning gebruikmakend van neurale netwerken met meerdere verborgen lagen" },
+          { en: "Learning that goes very deep into a single topic", es: "Aprendizaje que profundiza mucho en un solo tema", de: "Lernen das sehr tief in ein einzelnes Thema geht", nl: "Leren dat zeer diep in een enkel onderwerp gaat" },
+          { en: "Networks that are physically deeper in computer hardware", es: "Redes que son físicamente más profundas en hardware de computadora", de: "Netzwerke die physisch tiefer in Computerhardware sind", nl: "Netwerken die fysiek dieper in computerhardware zijn" },
+          { en: "Advanced philosophical understanding of AI", es: "Comprensión filosófica avanzada de IA", de: "Fortgeschrittenes philosophisches Verständnis von KI", nl: "Geavanceerd filosofisch begrip van AI" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Deep learning refers to neural networks with many hidden layers (typically more than 2-3) that can learn hierarchical representations of data. The 'depth' comes from the multiple processing layers, enabling these networks to learn complex patterns and abstractions that shallow networks cannot capture.",
+          es: "El aprendizaje profundo se refiere a redes neuronales con muchas capas ocultas (típicamente más de 2-3) que pueden aprender representaciones jerárquicas de datos. La 'profundidad' proviene de las múltiples capas de procesamiento, permitiendo que estas redes aprendan patrones complejos y abstracciones que las redes superficiales no pueden capturar.",
+          de: "Deep Learning bezieht sich auf neuronale Netzwerke mit vielen versteckten Schichten (typischerweise mehr als 2-3) die hierarchische Repräsentationen von Daten lernen können. Die 'Tiefe' kommt von den mehreren Verarbeitungsschichten, ermöglicht diesen Netzwerken komplexe Muster und Abstraktionen zu lernen die flache Netzwerke nicht erfassen können.",
+          nl: "Deep learning verwijst naar neurale netwerken met veel verborgen lagen (typisch meer dan 2-3) die hiërarchische representaties van data kunnen leren. De 'diepte' komt van de meerdere verwerkingslagen, waardoor deze netwerken complexe patronen en abstracties kunnen leren die oppervlakkige netwerken niet kunnen vastleggen."
+        }
+      },
+      {
+        question: {
+          en: "What is forward propagation in a neural network?",
+          es: "¿Qué es la propagación hacia adelante en una red neuronal?",
+          de: "Was ist Forward Propagation in einem neuronalen Netzwerk?",
+          nl: "Wat is forward propagation in een neuraal netwerk?"
+        },
+        options: [
+          { en: "Process of passing input data through network layers to produce an output", es: "Proceso de pasar datos de entrada a través de capas de red para producir una salida", de: "Prozess der Weitergabe von Eingabedaten durch Netzwerkschichten um eine Ausgabe zu produzieren", nl: "Proces van het doorgeven van invoerdata door netwerklagen om een uitvoer te produceren" },
+          { en: "Moving the network forward in time", es: "Mover la red hacia adelante en el tiempo", de: "Das Netzwerk vorwärts in der Zeit bewegen", nl: "Het netwerk vooruit bewegen in de tijd" },
+          { en: "Propagating errors forward through the network", es: "Propagar errores hacia adelante a través de la red", de: "Fehler vorwärts durch das Netzwerk propagieren", nl: "Fouten voorwaarts door het netwerk propageren" },
+          { en: "Adding new layers to the front of the network", es: "Agregar nuevas capas al frente de la red", de: "Neue Schichten an die Vorderseite des Netzwerks hinzufügen", nl: "Nieuwe lagen toevoegen aan de voorkant van het netwerk" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Forward propagation is the process where input data flows through the network from input layer through hidden layers to output layer. Each neuron receives inputs, applies weights and bias, passes through an activation function, and sends output to the next layer until producing final predictions.",
+          es: "La propagación hacia adelante es el proceso donde los datos de entrada fluyen a través de la red desde la capa de entrada a través de capas ocultas hasta la capa de salida. Cada neurona recibe entradas, aplica pesos y sesgo, pasa por una función de activación y envía salida a la siguiente capa hasta producir predicciones finales.",
+          de: "Forward Propagation ist der Prozess bei dem Eingabedaten durch das Netzwerk von der Eingabeschicht durch versteckte Schichten zur Ausgabeschicht fließen. Jedes Neuron empfängt Eingaben, wendet Gewichte und Bias an, durchläuft eine Aktivierungsfunktion und sendet Ausgabe an die nächste Schicht bis finale Vorhersagen produziert werden.",
+          nl: "Forward propagation is het proces waarbij invoerdata door het netwerk stroomt van invoerlaag via verborgen lagen naar uitvoerlaag. Elk neuron ontvangt invoer, past gewichten en bias toe, gaat door een activeringsfunctie en stuurt uitvoer naar de volgende laag totdat uiteindelijke voorspellingen worden geproduceerd."
+        }
+      },
+      {
+        question: {
+          en: "What is the role of weights in a neural network?",
+          es: "¿Cuál es el papel de los pesos en una red neuronal?",
+          de: "Was ist die Rolle von Gewichten in einem neuronalen Netzwerk?",
+          nl: "Wat is de rol van gewichten in een neuraal netwerk?"
+        },
+        options: [
+          { en: "Parameters determining strength of connections between neurons, learned during training", es: "Parámetros que determinan fuerza de conexiones entre neuronas, aprendidos durante entrenamiento", de: "Parameter die Stärke von Verbindungen zwischen Neuronen bestimmen, während Training gelernt", nl: "Parameters die sterkte van verbindingen tussen neuronen bepalen, geleerd tijdens training" },
+          { en: "The physical size of the network", es: "El tamaño físico de la red", de: "Die physische Größe des Netzwerks", nl: "De fysieke grootte van het netwerk" },
+          { en: "How heavy the computational load is", es: "Qué tan pesada es la carga computacional", de: "Wie schwer die Rechenlast ist", nl: "Hoe zwaar de computationele belasting is" },
+          { en: "The importance ranking of different neurons", es: "El ranking de importancia de diferentes neuronas", de: "Das Wichtigkeitsranking verschiedener Neuronen", nl: "De belangrijkheidsrangschikking van verschillende neuronen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Weights are the learnable parameters that control the strength of connections between neurons. During training, weights are adjusted through backpropagation to minimize the loss function. They transform input signals and determine which features the network considers important for making predictions.",
+          es: "Los pesos son los parámetros aprendibles que controlan la fuerza de las conexiones entre neuronas. Durante el entrenamiento, los pesos se ajustan a través de retropropagación para minimizar la función de pérdida. Transforman señales de entrada y determinan qué características la red considera importantes para hacer predicciones.",
+          de: "Gewichte sind die lernbaren Parameter die die Stärke der Verbindungen zwischen Neuronen steuern. Während des Trainings werden Gewichte durch Backpropagation angepasst um die Verlustfunktion zu minimieren. Sie transformieren Eingangssignale und bestimmen welche Features das Netzwerk für Vorhersagen als wichtig erachtet.",
+          nl: "Gewichten zijn de leerbare parameters die de sterkte van verbindingen tussen neuronen controleren. Tijdens training worden gewichten aangepast via backpropagation om de loss functie te minimaliseren. Ze transformeren invoersignalen en bepalen welke kenmerken het netwerk belangrijk acht voor het maken van voorspellingen."
+        }
+      },
+      {
+        question: {
+          en: "What is a bias term in neural networks?",
+          es: "¿Qué es un término de sesgo en redes neuronales?",
+          de: "Was ist ein Bias-Term in neuronalen Netzwerken?",
+          nl: "Wat is een bias term in neurale netwerken?"
+        },
+        options: [
+          { en: "Additional parameter allowing neurons to shift activation function, improving model flexibility", es: "Parámetro adicional que permite a neuronas desplazar función de activación, mejorando flexibilidad del modelo", de: "Zusätzlicher Parameter der Neuronen erlaubt Aktivierungsfunktion zu verschieben, verbessert Modellflexibilität", nl: "Extra parameter die neuronen toestaat activeringsfunctie te verschuiven, verbetert modelflexibiliteit" },
+          { en: "Prejudice or discrimination in the network", es: "Prejuicio o discriminación en la red", de: "Vorurteil oder Diskriminierung im Netzwerk", nl: "Vooroordeel of discriminatie in het netwerk" },
+          { en: "Error in the training data", es: "Error en los datos de entrenamiento", de: "Fehler in den Trainingsdaten", nl: "Fout in de trainingsdata" },
+          { en: "The tendency of a network to prefer certain outputs", es: "La tendencia de una red a preferir ciertas salidas", de: "Die Tendenz eines Netzwerks bestimmte Ausgaben zu bevorzugen", nl: "De neiging van een netwerk om bepaalde uitvoer te prefereren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The bias is a learnable parameter added to the weighted sum of inputs before applying the activation function. It allows the neuron to activate even when all inputs are zero, providing flexibility to shift the activation threshold and enabling the network to fit data patterns more effectively.",
+          es: "El sesgo es un parámetro aprendible añadido a la suma ponderada de entradas antes de aplicar la función de activación. Permite que la neurona se active incluso cuando todas las entradas son cero, proporcionando flexibilidad para desplazar el umbral de activación y permitiendo que la red se ajuste a patrones de datos más efectivamente.",
+          de: "Der Bias ist ein lernbarer Parameter der zur gewichteten Summe der Eingaben hinzugefügt wird bevor die Aktivierungsfunktion angewendet wird. Er erlaubt dem Neuron zu aktivieren auch wenn alle Eingaben null sind, bietet Flexibilität die Aktivierungsschwelle zu verschieben und ermöglicht dem Netzwerk sich effektiver an Datenmuster anzupassen.",
+          nl: "De bias is een leerbare parameter toegevoegd aan de gewogen som van invoer voordat de activeringsfunctie wordt toegepast. Het stelt het neuron in staat te activeren zelfs wanneer alle invoer nul is, biedt flexibiliteit om de activeringsdrempel te verschuiven en stelt het netwerk in staat zich effectiever aan datapatronen aan te passen."
+        }
+      },
+      {
+        question: {
+          en: "What is the gradient in gradient descent?",
+          es: "¿Qué es el gradiente en descenso de gradiente?",
+          de: "Was ist der Gradient im Gradientenabstieg?",
+          nl: "Wat is de gradiënt in gradient descent?"
+        },
+        options: [
+          { en: "Vector of partial derivatives indicating direction of steepest increase in loss function", es: "Vector de derivadas parciales que indica dirección de mayor aumento en función de pérdida", de: "Vektor partieller Ableitungen der die Richtung des steilsten Anstiegs in Verlustfunktion anzeigt", nl: "Vector van partiële afgeleiden die richting van steilste toename in loss functie aangeeft" },
+          { en: "The slope of the learning curve", es: "La pendiente de la curva de aprendizaje", de: "Die Steigung der Lernkurve", nl: "De helling van de leercurve" },
+          { en: "A gradual change in network architecture", es: "Un cambio gradual en arquitectura de red", de: "Eine allmähliche Änderung der Netzwerkarchitektur", nl: "Een geleidelijke verandering in netwerkarchitectuur" },
+          { en: "The rate of descent during training", es: "La tasa de descenso durante entrenamiento", de: "Die Abstiegsrate während des Trainings", nl: "De daalsnelheid tijdens training" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The gradient is a vector containing partial derivatives of the loss function with respect to each parameter (weight and bias). It points in the direction of steepest ascent, so moving in the negative gradient direction (gradient descent) reduces the loss, enabling the network to learn optimal parameters.",
+          es: "El gradiente es un vector que contiene derivadas parciales de la función de pérdida con respecto a cada parámetro (peso y sesgo). Apunta en la dirección de ascenso más empinado, por lo que moverse en la dirección del gradiente negativo (descenso de gradiente) reduce la pérdida, permitiendo que la red aprenda parámetros óptimos.",
+          de: "Der Gradient ist ein Vektor der partielle Ableitungen der Verlustfunktion bezüglich jeden Parameters (Gewicht und Bias) enthält. Er zeigt in die Richtung des steilsten Aufstiegs, daher reduziert Bewegung in negativer Gradientenrichtung (Gradientenabstieg) den Verlust, ermöglicht dem Netzwerk optimale Parameter zu lernen.",
+          nl: "De gradiënt is een vector met partiële afgeleiden van de loss functie met betrekking tot elke parameter (gewicht en bias). Het wijst in de richting van steilste stijging, dus bewegen in de negatieve gradiëntrichting (gradient descent) vermindert het verlies, stelt het netwerk in staat optimale parameters te leren."
+        }
+      },
+      {
+        question: {
+          en: "What is a training set in machine learning?",
+          es: "¿Qué es un conjunto de entrenamiento en aprendizaje automático?",
+          de: "Was ist ein Trainingssatz im maschinellen Lernen?",
+          nl: "Wat is een trainingsset in machine learning?"
+        },
+        options: [
+          { en: "Portion of data used to train model by adjusting weights based on examples", es: "Porción de datos usada para entrenar modelo ajustando pesos basándose en ejemplos", de: "Teil der Daten verwendet um Modell zu trainieren durch Anpassen von Gewichten basierend auf Beispielen", nl: "Deel van data gebruikt om model te trainen door gewichten aan te passen op basis van voorbeelden" },
+          { en: "Exercises for training the programmer", es: "Ejercicios para entrenar al programador", de: "Übungen zum Trainieren des Programmierers", nl: "Oefeningen voor het trainen van de programmeur" },
+          { en: "The final test data for evaluation", es: "Los datos de prueba finales para evaluación", de: "Die finalen Testdaten zur Evaluation", nl: "De finale testdata voor evaluatie" },
+          { en: "Validation data for tuning hyperparameters", es: "Datos de validación para ajustar hiperparámetros", de: "Validierungsdaten zum Abstimmen von Hyperparametern", nl: "Validatiedata voor het afstemmen van hyperparameters" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The training set is the subset of data used to train the neural network by adjusting its parameters. The model learns patterns from these labeled examples through repeated exposure during training. It's typically the largest portion of available data, separate from validation and test sets.",
+          es: "El conjunto de entrenamiento es el subconjunto de datos usado para entrenar la red neuronal ajustando sus parámetros. El modelo aprende patrones de estos ejemplos etiquetados a través de exposición repetida durante entrenamiento. Típicamente es la porción más grande de datos disponibles, separada de conjuntos de validación y prueba.",
+          de: "Der Trainingssatz ist die Teilmenge von Daten verwendet um das neuronale Netzwerk zu trainieren durch Anpassen seiner Parameter. Das Modell lernt Muster aus diesen beschrifteten Beispielen durch wiederholte Exposition während des Trainings. Es ist typischerweise der größte Teil verfügbarer Daten, getrennt von Validierungs- und Testsätzen.",
+          nl: "De trainingsset is de subset van data gebruikt om het neurale netwerk te trainen door zijn parameters aan te passen. Het model leert patronen uit deze gelabelde voorbeelden door herhaalde blootstelling tijdens training. Het is typisch het grootste deel van beschikbare data, gescheiden van validatie- en testsets."
+        }
+      },
+      {
+        question: {
+          en: "What is a validation set used for?",
+          es: "¿Para qué se usa un conjunto de validación?",
+          de: "Wofür wird ein Validierungssatz verwendet?",
+          nl: "Waarvoor wordt een validatieset gebruikt?"
+        },
+        options: [
+          { en: "Tuning hyperparameters and monitoring model performance during training without biasing final evaluation", es: "Ajustar hiperparámetros y monitorear rendimiento del modelo durante entrenamiento sin sesgar evaluación final", de: "Hyperparameter abstimmen und Modellleistung während Training überwachen ohne finale Evaluation zu verzerren", nl: "Hyperparameters afstemmen en modelprestaties monitoren tijdens training zonder finale evaluatie te beïnvloeden" },
+          { en: "Validating that the training data is correct", es: "Validar que los datos de entrenamiento son correctos", de: "Validieren dass die Trainingsdaten korrekt sind", nl: "Valideren dat de trainingsdata correct is" },
+          { en: "Final testing of model accuracy", es: "Prueba final de precisión del modelo", de: "Finaler Test der Modellgenauigkeit", nl: "Finale test van modelnauwkeurigheid" },
+          { en: "Training the model on additional examples", es: "Entrenar el modelo en ejemplos adicionales", de: "Das Modell auf zusätzlichen Beispielen trainieren", nl: "Het model trainen op extra voorbeelden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The validation set is used to evaluate model performance during training, help select hyperparameters, and detect overfitting without touching the test set. It provides unbiased feedback on how well the model generalizes, guiding decisions about architecture and training duration while preserving test set integrity.",
+          es: "El conjunto de validación se usa para evaluar rendimiento del modelo durante entrenamiento, ayudar a seleccionar hiperparámetros y detectar sobreajuste sin tocar el conjunto de prueba. Proporciona retroalimentación imparcial sobre qué tan bien generaliza el modelo, guiando decisiones sobre arquitectura y duración de entrenamiento mientras preserva integridad del conjunto de prueba.",
+          de: "Der Validierungssatz wird verwendet um Modellleistung während Training zu evaluieren, bei Auswahl von Hyperparametern zu helfen und Überanpassung zu erkennen ohne den Testsatz zu berühren. Er liefert unvoreingenommenes Feedback wie gut das Modell generalisiert, leitet Entscheidungen über Architektur und Trainingsdauer während Testsatz-Integrität bewahrt wird.",
+          nl: "De validatieset wordt gebruikt om modelprestaties tijdens training te evalueren, te helpen bij het selecteren van hyperparameters en overfitting te detecteren zonder de testset aan te raken. Het biedt onbevooroordeelde feedback over hoe goed het model generaliseert, begeleidt beslissingen over architectuur en trainingsduur terwijl testset integriteit behouden blijft."
+        }
+      },
+      {
+        question: {
+          en: "What is a test set in machine learning?",
+          es: "¿Qué es un conjunto de prueba en aprendizaje automático?",
+          de: "Was ist ein Testsatz im maschinellen Lernen?",
+          nl: "Wat is een testset in machine learning?"
+        },
+        options: [
+          { en: "Separate data reserved for final unbiased evaluation of trained model performance", es: "Datos separados reservados para evaluación final imparcial del rendimiento del modelo entrenado", de: "Separate Daten reserviert für finale unvoreingenommene Evaluation trainierter Modellleistung", nl: "Aparte data gereserveerd voor finale onbevooroordeelde evaluatie van getrainde modelprestaties" },
+          { en: "Data used to test if training is working", es: "Datos usados para probar si el entrenamiento funciona", de: "Daten verwendet um zu testen ob Training funktioniert", nl: "Data gebruikt om te testen of training werkt" },
+          { en: "Sample questions for the neural network exam", es: "Preguntas de muestra para el examen de red neuronal", de: "Beispielfragen für die Prüfung neuronaler Netzwerke", nl: "Voorbeeldvragen voor het neurale netwerk examen" },
+          { en: "Additional training examples for improvement", es: "Ejemplos de entrenamiento adicionales para mejora", de: "Zusätzliche Trainingsbeispiele zur Verbesserung", nl: "Extra trainingsvoorbeelden voor verbetering" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The test set is a completely separate portion of data never seen during training or validation, used only once for final model evaluation. It provides an unbiased estimate of how well the model will perform on new, unseen data in real-world applications, measuring true generalization ability.",
+          es: "El conjunto de prueba es una porción completamente separada de datos nunca vista durante entrenamiento o validación, usada solo una vez para evaluación final del modelo. Proporciona una estimación imparcial de qué tan bien rendirá el modelo en datos nuevos no vistos en aplicaciones del mundo real, midiendo verdadera capacidad de generalización.",
+          de: "Der Testsatz ist ein komplett separater Teil von Daten nie während Training oder Validierung gesehen, nur einmal für finale Modellevaluation verwendet. Er liefert eine unvoreingenommene Schätzung wie gut das Modell auf neuen, ungesehenen Daten in realen Anwendungen abschneiden wird, misst wahre Generalisierungsfähigkeit.",
+          nl: "De testset is een compleet apart deel van data nooit gezien tijdens training of validatie, slechts eenmaal gebruikt voor finale modelevaluatie. Het biedt een onbevooroordeelde schatting van hoe goed het model zal presteren op nieuwe, ongeziene data in real-world toepassingen, meet ware generalisatiecapaciteit."
+        }
+      },
+      {
+        question: {
+          en: "What are hyperparameters in neural networks?",
+          es: "¿Qué son los hiperparámetros en redes neuronales?",
+          de: "Was sind Hyperparameter in neuronalen Netzwerken?",
+          nl: "Wat zijn hyperparameters in neurale netwerken?"
+        },
+        options: [
+          { en: "Configuration settings set before training like learning rate and network architecture, not learned from data", es: "Configuraciones establecidas antes de entrenamiento como tasa de aprendizaje y arquitectura de red, no aprendidas de datos", de: "Konfigurationseinstellungen vor Training festgelegt wie Lernrate und Netzwerkarchitektur, nicht aus Daten gelernt", nl: "Configuratie-instellingen ingesteld vóór training zoals leersnelheid en netwerkarchitectuur, niet geleerd uit data" },
+          { en: "Parameters that are more important than regular parameters", es: "Parámetros que son más importantes que parámetros regulares", de: "Parameter die wichtiger sind als reguläre Parameter", nl: "Parameters die belangrijker zijn dan reguliere parameters" },
+          { en: "The maximum values parameters can reach", es: "Los valores máximos que los parámetros pueden alcanzar", de: "Die maximalen Werte die Parameter erreichen können", nl: "De maximale waarden die parameters kunnen bereiken" },
+          { en: "Parameters learned after regular training completes", es: "Parámetros aprendidos después de completar entrenamiento regular", de: "Parameter gelernt nachdem reguläres Training abgeschlossen ist", nl: "Parameters geleerd nadat reguliere training is voltooid" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hyperparameters are configuration choices made before training begins, including learning rate, batch size, number of layers, neurons per layer, and activation functions. Unlike weights and biases which are learned during training, hyperparameters must be set manually or through automated tuning methods like grid search.",
+          es: "Los hiperparámetros son elecciones de configuración hechas antes de comenzar el entrenamiento, incluyendo tasa de aprendizaje, tamaño de lote, número de capas, neuronas por capa y funciones de activación. A diferencia de pesos y sesgos que se aprenden durante entrenamiento, los hiperparámetros deben establecerse manualmente o mediante métodos de ajuste automatizado como búsqueda en cuadrícula.",
+          de: "Hyperparameter sind Konfigurationsentscheidungen vor Trainingsbeginn getroffen, einschließlich Lernrate, Stapelgröße, Anzahl Schichten, Neuronen pro Schicht und Aktivierungsfunktionen. Anders als Gewichte und Bias die während Training gelernt werden, müssen Hyperparameter manuell oder durch automatisierte Abstimmungsmethoden wie Grid Search eingestellt werden.",
+          nl: "Hyperparameters zijn configuratiekeuzes gemaakt voordat training begint, inclusief leersnelheid, batchgrootte, aantal lagen, neuronen per laag en activeringsfuncties. Anders dan gewichten en biases die worden geleerd tijdens training, moeten hyperparameters handmatig worden ingesteld of via geautomatiseerde afstemmethoden zoals grid search."
+        }
+      },
+      {
+        question: {
+          en: "What is a mini-batch in neural network training?",
+          es: "¿Qué es un mini-lote en entrenamiento de redes neuronales?",
+          de: "Was ist ein Mini-Batch im Training neuronaler Netzwerke?",
+          nl: "Wat is een mini-batch in neurale netwerk training?"
+        },
+        options: [
+          { en: "Small subset of training examples processed together before updating weights, balancing speed and stability", es: "Pequeño subconjunto de ejemplos de entrenamiento procesados juntos antes de actualizar pesos, equilibrando velocidad y estabilidad", de: "Kleine Teilmenge von Trainingsbeispielen zusammen verarbeitet vor Gewichtsaktualisierung, balanciert Geschwindigkeit und Stabilität", nl: "Kleine subset van trainingsvoorbeelden samen verwerkt voordat gewichten worden bijgewerkt, balanceert snelheid en stabiliteit" },
+          { en: "A smaller neural network for faster training", es: "Una red neuronal más pequeña para entrenamiento más rápido", de: "Ein kleineres neuronales Netzwerk für schnelleres Training", nl: "Een kleiner neuraal netwerk voor snellere training" },
+          { en: "The minimum amount of training data needed", es: "La cantidad mínima de datos de entrenamiento necesarios", de: "Die minimale Menge an Trainingsdaten benötigt", nl: "De minimale hoeveelheid trainingsdata benodigd" },
+          { en: "Training done in very short time periods", es: "Entrenamiento hecho en períodos de tiempo muy cortos", de: "Training durchgeführt in sehr kurzen Zeiträumen", nl: "Training gedaan in zeer korte tijdsperioden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A mini-batch is a subset of training data (typically 32-256 examples) processed together before updating model parameters. This approach combines benefits of stochastic (single example) and batch (all examples) gradient descent, providing computational efficiency through parallelization while maintaining reasonably stable gradient estimates.",
+          es: "Un mini-lote es un subconjunto de datos de entrenamiento (típicamente 32-256 ejemplos) procesados juntos antes de actualizar parámetros del modelo. Este enfoque combina beneficios de descenso de gradiente estocástico (ejemplo único) y por lotes (todos ejemplos), proporcionando eficiencia computacional mediante paralelización mientras mantiene estimaciones de gradiente razonablemente estables.",
+          de: "Ein Mini-Batch ist eine Teilmenge von Trainingsdaten (typischerweise 32-256 Beispiele) zusammen verarbeitet vor Aktualisierung der Modellparameter. Dieser Ansatz kombiniert Vorteile von stochastischem (einzelnes Beispiel) und Batch (alle Beispiele) Gradientenabstieg, bietet rechnerische Effizienz durch Parallelisierung während vernünftig stabile Gradientenschätzungen beibehalten werden.",
+          nl: "Een mini-batch is een subset van trainingsdata (typisch 32-256 voorbeelden) samen verwerkt voordat modelparameters worden bijgewerkt. Deze aanpak combineert voordelen van stochastische (enkel voorbeeld) en batch (alle voorbeelden) gradient descent, biedt computationele efficiëntie via parallellisatie terwijl redelijk stabiele gradiëntschattingen behouden blijven."
+        }
+      },
+      {
+        question: {
+          en: "What is regularization in neural networks?",
+          es: "¿Qué es la regularización en redes neuronales?",
+          de: "Was ist Regularisierung in neuronalen Netzwerken?",
+          nl: "Wat is regularisatie in neurale netwerken?"
+        },
+        options: [
+          { en: "Techniques to prevent overfitting by constraining model complexity and encouraging simpler solutions", es: "Técnicas para prevenir sobreajuste limitando complejidad del modelo y fomentando soluciones más simples", de: "Techniken um Überanpassung zu verhindern durch Einschränkung der Modellkomplexität und Förderung einfacherer Lösungen", nl: "Technieken om overfitting te voorkomen door modelcomplexiteit te beperken en eenvoudigere oplossingen aan te moedigen" },
+          { en: "Making the network regular in shape and size", es: "Hacer la red regular en forma y tamaño", de: "Das Netzwerk in Form und Größe regelmäßig machen", nl: "Het netwerk regelmatig maken in vorm en grootte" },
+          { en: "Scheduling training at regular intervals", es: "Programar entrenamiento a intervalos regulares", de: "Training in regelmäßigen Abständen planen", nl: "Training plannen op regelmatige intervallen" },
+          { en: "Normalizing all input data", es: "Normalizar todos los datos de entrada", de: "Alle Eingabedaten normalisieren", nl: "Alle invoerdata normaliseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Regularization includes techniques like L1/L2 weight penalties, dropout, early stopping, and data augmentation that prevent the model from fitting training data too closely. These methods add constraints or noise during training, encouraging the network to learn more general patterns that transfer better to unseen data.",
+          es: "La regularización incluye técnicas como penalizaciones de peso L1/L2, dropout, parada temprana y aumento de datos que previenen que el modelo se ajuste demasiado cerca a datos de entrenamiento. Estos métodos añaden restricciones o ruido durante entrenamiento, fomentando que la red aprenda patrones más generales que se transfieran mejor a datos no vistos.",
+          de: "Regularisierung umfasst Techniken wie L1/L2-Gewichtsstrafen, Dropout, frühzeitiges Stoppen und Datenaugmentierung die verhindern dass das Modell sich zu eng an Trainingsdaten anpasst. Diese Methoden fügen Einschränkungen oder Rauschen während Training hinzu, fördern dass das Netzwerk allgemeinere Muster lernt die besser auf ungesehene Daten übertragen.",
+          nl: "Regularisatie omvat technieken zoals L1/L2-gewichtsboetes, dropout, vroeg stoppen en data-augmentatie die voorkomen dat het model te nauw aansluit bij trainingsdata. Deze methoden voegen beperkingen of ruis toe tijdens training, moedigen het netwerk aan om meer algemene patronen te leren die beter overdragen naar ongeziene data."
+        }
       }
     ]
   };

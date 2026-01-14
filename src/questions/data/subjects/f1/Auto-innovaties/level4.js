@@ -319,6 +319,310 @@
                 de: "Verstöße gegen Parc-Fermé-Regeln erfordern typischerweise Start aus der Boxengasse als Strafe.",
                 nl: "Het overtreden van parc fermé regels vereist doorgaans dat de auto vanaf de pitlane start als straf."
             }
+        },
+        {
+            question: {
+                en: "What was the fan car developed by Brabham in 1978?",
+                es: "¿Qué era el coche con ventilador desarrollado por Brabham en 1978?",
+                de: "Was war das Fan-Car das Brabham 1978 entwickelte?",
+                nl: "Wat was de fan car ontwikkeld door Brabham in 1978?"
+            },
+            options: ["Cooling system", "Large fan sucking car to ground for downforce", "Turbocharger", "Engine component"],
+            correct: 1,
+            explanation: {
+                en: "The Brabham BT46B used a large fan to suck the car to the ground, creating massive downforce. Won once before being voluntarily withdrawn.",
+                es: "El Brabham BT46B usó un gran ventilador para succionar el coche al suelo. Ganó una vez antes de retirarse voluntariamente.",
+                de: "Der Brabham BT46B nutzte einen großen Lüfter um das Auto zum Boden zu saugen. Gewann einmal bevor er freiwillig zurückgezogen wurde.",
+                nl: "De Brabham BT46B gebruikte een grote ventilator om de auto naar de grond te zuigen. Won eens voor vrijwillige terugtrekking."
+            }
+        },
+        {
+            question: {
+                en: "What was the Tyrrell P34 six-wheeler innovation?",
+                es: "¿Qué era la innovación del Tyrrell P34 de seis ruedas?",
+                de: "Was war die Tyrrell P34 Sechsrad-Innovation?",
+                nl: "Wat was de Tyrrell P34 zeswieler innovatie?"
+            },
+            options: ["Four rear wheels", "Four small front wheels for better grip and less drag", "Six wheels same size", "Extra wheels for stability"],
+            correct: 1,
+            explanation: {
+                en: "The Tyrrell P34 used four small front wheels to increase contact patch while reducing frontal drag. Used 1976-1977.",
+                es: "El Tyrrell P34 usó cuatro ruedas delanteras pequeñas para aumentar contacto y reducir resistencia. Usado 1976-1977.",
+                de: "Der Tyrrell P34 nutzte vier kleine Vorderräder für mehr Auflagefläche bei weniger Frontaldrag. 1976-1977 genutzt.",
+                nl: "De Tyrrell P34 gebruikte vier kleine voorwielen voor meer contactoppervlak bij minder frontale luchtweerstand. Gebruikt 1976-1977."
+            }
+        },
+        {
+            question: {
+                en: "When were blown diffusers banned?",
+                es: "¿Cuándo se prohibieron los difusores soplados?",
+                de: "Wann wurden angeblasene Diffusoren verboten?",
+                nl: "Wanneer werden geblazen diffusers verboden?"
+            },
+            options: ["2009", "2010", "2012", "2014"],
+            correct: 2,
+            explanation: {
+                en: "Blown diffusers were banned from the 2012 season after dominating 2010-2011, particularly with Red Bull Racing.",
+                es: "Los difusores soplados se prohibieron desde la temporada 2012 después de dominar 2010-2011, particularmente con Red Bull Racing.",
+                de: "Angeblasene Diffusoren wurden ab 2012 verboten nach Dominanz 2010-2011, besonders bei Red Bull Racing.",
+                nl: "Geblazen diffusers werden verboden vanaf seizoen 2012 na dominantie 2010-2011, vooral met Red Bull Racing."
+            }
+        },
+        {
+            question: {
+                en: "What is the purpose of CFD (Computational Fluid Dynamics) restrictions?",
+                es: "¿Cuál es el propósito de las restricciones CFD?",
+                de: "Was ist der Zweck von CFD-Beschränkungen?",
+                nl: "Wat is het doel van CFD-beperkingen?"
+            },
+            options: ["No purpose", "Control costs and level playing field between teams", "Improve safety only", "Environmental concerns"],
+            correct: 1,
+            explanation: {
+                en: "CFD restrictions limit simulation time to control development costs and help smaller teams compete with larger budgets.",
+                es: "Las restricciones CFD limitan tiempo de simulación para controlar costos y ayudar a equipos pequeños competir.",
+                de: "CFD-Beschränkungen limitieren Simulationszeit um Kosten zu kontrollieren und kleineren Teams zu helfen.",
+                nl: "CFD-beperkingen beperken simulatietijd om kosten te beheersen en kleinere teams te helpen concurreren met grotere budgetten."
+            }
+        },
+        {
+            question: {
+                en: "What is the wind tunnel testing restriction?",
+                es: "¿Cuál es la restricción de pruebas en túnel de viento?",
+                de: "Was ist die Windkanal-Testbeschränkung?",
+                nl: "Wat is de windtunnel-testbeperking?"
+            },
+            options: ["No restrictions", "Limited runs based on championship position", "Completely banned", "Only for new teams"],
+            correct: 1,
+            explanation: {
+                en: "Teams are allocated sliding scale of wind tunnel runs based on championship position - lower teams get more testing time.",
+                es: "Los equipos reciben tiempo de túnel variable según posición en campeonato - equipos bajos obtienen más tiempo.",
+                de: "Teams erhalten gestaffelte Windkanaltests basierend auf Meisterschaftsposition - untere Teams bekommen mehr Zeit.",
+                nl: "Teams krijgen variabele windtunneltijd gebaseerd op kampioenschap positie - lagere teams krijgen meer testtijd."
+            }
+        },
+        {
+            question: {
+                en: "What was the DAS (Dual Axis Steering) system?",
+                es: "¿Qué era el sistema DAS (Dual Axis Steering)?",
+                de: "Was war das DAS (Dual Axis Steering) System?",
+                nl: "Wat was het DAS (Dual Axis Steering) systeem?"
+            },
+            options: ["Power steering", "Toe angle adjustment by pushing/pulling steering wheel", "Active suspension", "DRS activation"],
+            correct: 1,
+            explanation: {
+                en: "DAS allowed Mercedes to adjust front toe angle by pushing/pulling the steering wheel. Used in 2020 before being banned for 2021.",
+                es: "DAS permitía a Mercedes ajustar ángulo de convergencia empujando/tirando del volante. Usado en 2020 antes de prohibirse en 2021.",
+                de: "DAS erlaubte Mercedes Sturzwinkel durch Drücken/Ziehen des Lenkrads anzupassen. 2020 genutzt dann 2021 verboten.",
+                nl: "DAS stelde Mercedes in staat toe-hoek aan te passen door stuur te duwen/trekken. Gebruikt in 2020 voor het werd verboden in 2021."
+            }
+        },
+        {
+            question: {
+                en: "What is the technical directive process in F1?",
+                es: "¿Qué es el proceso de directiva técnica en F1?",
+                de: "Was ist der Prozess technischer Direktiven in F1?",
+                nl: "Wat is het technische richtlijn proces in F1?"
+            },
+            options: ["Team decisions", "FIA clarifications on rules and regulations", "Driver instructions", "Media guidelines"],
+            correct: 1,
+            explanation: {
+                en: "Technical directives are FIA clarifications on technical regulations, often issued to close loopholes or address grey areas.",
+                es: "Las directivas técnicas son aclaraciones de la FIA sobre regulaciones, emitidas para cerrar lagunas o áreas grises.",
+                de: "Technische Direktiven sind FIA-Klarstellungen zu Regeln, oft erlassen um Lücken zu schließen oder Grauzonen zu adressieren.",
+                nl: "Technische richtlijnen zijn FIA-verduidelijkingen over technische regels, vaak uitgegeven om mazen te dichten of grijze gebieden aan te pakken."
+            }
+        },
+        {
+            question: {
+                en: "What is plank wear measurement for?",
+                es: "¿Para qué es la medición del desgaste del plank?",
+                de: "Wofür ist die Plank-Verschleißmessung?",
+                nl: "Waarvoor is plank slijtage meting?"
+            },
+            options: ["Tire wear", "Ensure minimum ride height compliance", "Engine wear", "Brake wear"],
+            correct: 1,
+            explanation: {
+                en: "The wooden plank underneath the car is measured post-race; excessive wear indicates illegal low ride height.",
+                es: "El plank de madera bajo el coche se mide post-carrera; desgaste excesivo indica altura ilegal baja.",
+                de: "Die Holzplatte unter dem Auto wird nach dem Rennen gemessen; übermäßiger Verschleiß zeigt illegale niedrige Fahrhöhe.",
+                nl: "De houten plank onder de auto wordt na de race gemeten; overmatige slijtage wijst op illegaal lage rijhoogte."
+            }
+        },
+        {
+            question: {
+                en: "What is the fuel temperature regulation?",
+                es: "¿Cuál es la regulación de temperatura del combustible?",
+                de: "Was ist die Kraftstofftemperatur-Regelung?",
+                nl: "Wat is de brandstoftemperatuur regeling?"
+            },
+            options: ["No limit", "Must not be more than 10°C below ambient", "Must be frozen", "Must be heated"],
+            correct: 1,
+            explanation: {
+                en: "Fuel temperature cannot be more than 10°C below ambient to prevent cooling fuel for extra density and power.",
+                es: "La temperatura del combustible no puede ser más de 10°C bajo ambiente para prevenir enfriamiento para densidad extra.",
+                de: "Kraftstofftemperatur darf nicht mehr als 10°C unter Umgebung sein um Kühlung für Extra-Dichte zu verhindern.",
+                nl: "Brandstoftemperatuur mag niet meer dan 10°C onder omgevingstemperatuur zijn om koeling voor extra dichtheid te voorkomen."
+            }
+        },
+        {
+            question: {
+                en: "What are skid blocks (planks) made of?",
+                es: "¿De qué están hechos los skid blocks (planks)?",
+                de: "Woraus bestehen Skid Blocks (Planks)?",
+                nl: "Waar zijn skid blocks (planks) van gemaakt?"
+            },
+            options: ["Carbon fiber", "Titanium", "Jabroc (wood-based material)", "Aluminum"],
+            correct: 2,
+            explanation: {
+                en: "Skid blocks are made of Jabroc, a wood-based material, and must not wear more than 1mm to ensure ride height compliance.",
+                es: "Los skid blocks están hechos de Jabroc, material a base de madera, y no deben desgastarse más de 1mm.",
+                de: "Skid Blocks bestehen aus Jabroc, einem Holzmaterial, und dürfen nicht mehr als 1mm abnutzen.",
+                nl: "Skid blocks zijn gemaakt van Jabroc, een houtgebaseerd materiaal, en mogen niet meer dan 1mm slijten om rijhoogte naleving te waarborgen."
+            }
+        },
+        {
+            question: {
+                en: "When were V10 engines phased out?",
+                es: "¿Cuándo se eliminaron progresivamente los motores V10?",
+                de: "Wann wurden V10-Motoren ausgemustert?",
+                nl: "Wanneer werden V10-motoren uitgefaseerd?"
+            },
+            options: ["2004", "2006", "2008", "2010"],
+            correct: 1,
+            explanation: {
+                en: "V10 engines were replaced by V8 engines for the 2006 season as part of cost reduction measures.",
+                es: "Los motores V10 fueron reemplazados por V8 para la temporada 2006 como medida de reducción de costos.",
+                de: "V10-Motoren wurden 2006 durch V8-Motoren ersetzt als Teil von Kostensenkungsmaßnahmen.",
+                nl: "V10-motoren werden vervangen door V8-motoren voor het seizoen 2006 als onderdeel van kostenbesparingsmaatregelen."
+            }
+        },
+        {
+            question: {
+                en: "What was the maximum RPM limit for V8 engines?",
+                es: "¿Cuál era el límite máximo de RPM para motores V8?",
+                de: "Was war die maximale Drehzahlgrenze für V8-Motoren?",
+                nl: "Wat was de maximale RPM-limiet voor V8-motoren?"
+            },
+            options: ["15,000 RPM", "18,000 RPM", "19,000 RPM", "No limit"],
+            correct: 1,
+            explanation: {
+                en: "V8 engines (2006-2013) were limited to 18,000 RPM to control costs and reduce noise.",
+                es: "Los motores V8 (2006-2013) estaban limitados a 18,000 RPM para controlar costos y reducir ruido.",
+                de: "V8-Motoren (2006-2013) waren auf 18.000 U/min begrenzt um Kosten zu kontrollieren und Lärm zu reduzieren.",
+                nl: "V8-motoren (2006-2013) werden beperkt tot 18.000 RPM om kosten te beheersen en geluid te verminderen."
+            }
+        },
+        {
+            question: {
+                en: "What is the cost cap introduced in 2021?",
+                es: "¿Cuál es el tope de costos introducido en 2021?",
+                de: "Was ist die 2021 eingeführte Budgetobergrenze?",
+                nl: "Wat is de kostenbeperking geïntroduceerd in 2021?"
+            },
+            options: ["No limit", "$145 million per team per season", "£100 million", "€200 million"],
+            correct: 1,
+            explanation: {
+                en: "The cost cap started at $145 million in 2021, excluding driver salaries, marketing, and top management salaries.",
+                es: "El tope de costos comenzó en $145 millones en 2021, excluyendo salarios de pilotos, marketing y alta gerencia.",
+                de: "Die Budgetobergrenze begann 2021 bei $145 Millionen, ohne Fahrer-, Marketing- und Top-Management-Gehälter.",
+                nl: "De kostenbeperking begon op $145 miljoen in 2021, exclusief coureurssalarissen, marketing en top management salarissen."
+            }
+        },
+        {
+            question: {
+                en: "What is the penalty for exceeding the cost cap?",
+                es: "¿Cuál es la penalización por exceder el tope de costos?",
+                de: "Was ist die Strafe für Überschreitung der Budgetobergrenze?",
+                nl: "Wat is de straf voor overschrijding van de kostenbeperking?"
+            },
+            options: ["Warning only", "Financial penalties and/or points deductions", "Immediate disqualification", "No penalty"],
+            correct: 1,
+            explanation: {
+                en: "Exceeding the cost cap can result in financial penalties, points deductions, wind tunnel time restrictions, or even exclusion.",
+                es: "Exceder el tope puede resultar en multas financieras, deducciones de puntos, restricciones de túnel o exclusión.",
+                de: "Überschreitung kann zu Geldstrafen, Punktabzug, Windkanal-Einschränkungen oder Ausschluss führen.",
+                nl: "Overschrijding kan leiden tot financiële boetes, puntenaftrek, windtunnel-tijdbeperkingen of zelfs uitsluiting."
+            }
+        },
+        {
+            question: {
+                en: "What is the minimum weight distribution regulation?",
+                es: "¿Cuál es la regulación de distribución de peso mínima?",
+                de: "Was ist die Mindestgewichtsverteilungsregelung?",
+                nl: "Wat is de minimum gewichtsverdelingsregeling?"
+            },
+            options: ["No regulation", "Minimum weight on each axle to prevent extreme bias", "Must be 50/50", "All weight at rear"],
+            correct: 1,
+            explanation: {
+                en: "Regulations specify minimum weight that must be on each axle to prevent teams from creating extreme weight distribution.",
+                es: "Las regulaciones especifican peso mínimo en cada eje para prevenir distribuciones de peso extremas.",
+                de: "Regeln spezifizieren Mindestgewicht pro Achse um extreme Gewichtsverteilungen zu verhindern.",
+                nl: "Regelgeving specificeert minimumgewicht per as om te voorkomen dat teams extreme gewichtsverdelingen creëren."
+            }
+        },
+        {
+            question: {
+                en: "What is the power unit allocation system?",
+                es: "¿Qué es el sistema de asignación de unidades de potencia?",
+                de: "Was ist das Antriebseinheit-Zuweisungssystem?",
+                nl: "Wat is het power unit allocatiesysteem?"
+            },
+            options: ["Unlimited engines", "Limited number of components per season with grid penalties for extras", "One engine per race", "Two engines per season"],
+            correct: 1,
+            explanation: {
+                en: "Drivers get limited power unit components (ICE, turbo, MGU-K, MGU-H, etc.) per season; exceeding allocation incurs grid penalties.",
+                es: "Los pilotos reciben componentes limitados por temporada; exceder la asignación incurre en penalizaciones de parrilla.",
+                de: "Fahrer erhalten begrenzte Antriebskomponenten pro Saison; Überschreitung führt zu Gridstrafen.",
+                nl: "Coureurs krijgen beperkte power unit componenten per seizoen; overschrijding levert grid penalties op."
+            }
+        },
+        {
+            question: {
+                en: "What is the scrutineering process?",
+                es: "¿Qué es el proceso de scrutineering?",
+                de: "Was ist der Scrutineering-Prozess?",
+                nl: "Wat is het scrutineering proces?"
+            },
+            options: ["Media inspection", "Technical inspection to verify car compliance", "Driver medical check", "Team budget review"],
+            correct: 1,
+            explanation: {
+                en: "Scrutineering is the FIA's technical inspection process to verify cars meet all technical regulations before competition.",
+                es: "Scrutineering es el proceso de inspección técnica de la FIA para verificar cumplimiento antes de competición.",
+                de: "Scrutineering ist der technische Inspektionsprozess der FIA zur Regelkonformität vor dem Wettbewerb.",
+                nl: "Scrutineering is het technische inspectieproces van de FIA om te verifiëren dat auto's voldoen aan alle technische regels voor competitie."
+            }
+        },
+        {
+            question: {
+                en: "What are crash test requirements?",
+                es: "¿Cuáles son los requisitos de pruebas de choque?",
+                de: "Was sind die Crashtest-Anforderungen?",
+                nl: "Wat zijn de crashtest vereisten?"
+            },
+            options: ["No tests required", "Extensive static and dynamic tests for safety certification", "Only frontal impact", "Optional tests"],
+            correct: 1,
+            explanation: {
+                en: "All F1 cars must pass extensive FIA crash tests including frontal, side, and rear impacts before racing.",
+                es: "Todos los coches de F1 deben pasar extensas pruebas de choque FIA incluyendo impactos frontales, laterales y traseros.",
+                de: "Alle F1-Autos müssen umfangreiche FIA-Crashtests bestehen einschließlich Front-, Seiten- und Heckaufprällen.",
+                nl: "Alle F1-auto's moeten uitgebreide FIA crashtests doorstaan inclusief frontale, zij- en achterimpacts voor ze mogen racen."
+            }
+        },
+        {
+            question: {
+                en: "What is the homologation process?",
+                es: "¿Qué es el proceso de homologación?",
+                de: "Was ist der Homologationsprozess?",
+                nl: "Wat is het homologatieproces?"
+            },
+            options: ["Team registration", "Official FIA approval and certification of car components", "Driver licensing", "Circuit approval"],
+            correct: 1,
+            explanation: {
+                en: "Homologation is the FIA's official approval process where teams submit components for testing and certification.",
+                es: "La homologación es el proceso de aprobación oficial donde equipos someten componentes para pruebas y certificación.",
+                de: "Homologation ist der offizielle FIA-Genehmigungsprozess wo Teams Komponenten zur Prüfung und Zertifizierung einreichen.",
+                nl: "Homologatie is het officiële FIA-goedkeuringsproces waarbij teams componenten indienen voor testen en certificering."
+            }
         }
     ];
 

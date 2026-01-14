@@ -1,0 +1,823 @@
+// Pasta Types Level 8 - Part 2 (Questions 21-40)
+
+        {
+            question: {
+                en: "What distinguishes pappardelle from other ribbon pasta?",
+                es: "¿Qué distingue a las pappardelle de otras pastas de cinta?",
+                de: "Was unterscheidet Pappardelle von anderen Bandnudeln?",
+                nl: "Wat onderscheidt pappardelle van andere lintpasta?"
+            },
+            options: {
+                en: [
+                    "Very wide ribbons (2-3cm) from Tuscany, traditionally served with wild game ragù",
+                    "Thin ribbons from Sicily with seafood",
+                    "Medium ribbons from Veneto with cream sauce",
+                    "Narrow ribbons from Lazio with butter"
+                ],
+                es: [
+                    "Cintas muy anchas (2-3cm) de Toscana, tradicionalmente servidas con ragú de caza",
+                    "Cintas delgadas de Sicilia con mariscos",
+                    "Cintas medianas del Véneto con salsa de nata",
+                    "Cintas estrechas de Lacio con mantequilla"
+                ],
+                de: [
+                    "Sehr breite Bänder (2-3cm) aus der Toskana, traditionell mit Wildragout serviert",
+                    "Dünne Bänder aus Sizilien mit Meeresfrüchten",
+                    "Mittlere Bänder aus Venetien mit Sahnesauce",
+                    "Schmale Bänder aus Latium mit Butter"
+                ],
+                nl: [
+                    "Zeer brede linten (2-3cm) uit Toscane, traditioneel geserveerd met wild ragù",
+                    "Dunne linten uit Sicilië met zeevruchten",
+                    "Middelgrote linten uit Veneto met roomsaus",
+                    "Smalle linten uit Lazio met boter"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Pappardelle are the widest ribbon pasta (2-3cm wide), originating from Tuscany. The name comes from 'pappare' (to gobble up). Their substantial width makes them perfect for hearty, chunky sauces like wild boar ragù (pappardelle al cinghiale), hare ragù, or rich mushroom sauces. The wide surface area catches and holds thick sauces better than narrower pasta. Traditionally made fresh with eggs.",
+                es: "Las pappardelle son la pasta de cinta más ancha (2-3cm de ancho), originaria de Toscana. El nombre proviene de 'pappare' (engullir). Su ancho sustancial las hace perfectas para salsas abundantes y gruesas como ragú de jabalí (pappardelle al cinghiale), ragú de liebre o salsas ricas de hongos. El área superficial amplia atrapa y sostiene salsas espesas mejor que pasta más estrecha. Tradicionalmente hechas frescas con huevos.",
+                de: "Pappardelle sind die breitesten Bandnudeln (2-3cm breit), stammend aus der Toskana. Der Name kommt von 'pappare' (verschlingen). Ihre beträchtliche Breite macht sie perfekt für herzhafte, stückige Saucen wie Wildschweinragout (Pappardelle al Cinghiale), Hasenragout oder reichhaltige Pilzsaucen. Die breite Oberfläche fängt und hält dicke Saucen besser als schmalere Pasta. Traditionell frisch mit Eiern hergestellt.",
+                nl: "Pappardelle zijn de breedste lintpasta (2-3cm breed), afkomstig uit Toscane. De naam komt van 'pappare' (opschrokken). Hun substantiële breedte maakt ze perfect voor stevige, grove sauzen zoals everzwijn ragù (pappardelle al cinghiale), hazen ragù of rijke paddenstoelen sauzen. Het brede oppervlak vangt en houdt dikke sauzen beter vast dan smallere pasta. Traditioneel vers gemaakt met eieren."
+            }
+        },
+        {
+            question: {
+                en: "What are caramelle pasta and why are they named 'candies'?",
+                es: "¿Qué son las caramelle pasta y por qué se llaman 'caramelos'?",
+                de: "Was sind Caramelle-Nudeln und warum heißen sie 'Bonbons'?",
+                nl: "Wat zijn caramelle pasta en waarom heten ze 'snoepjes'?"
+            },
+            options: {
+                en: [
+                    "Stuffed pasta pinched at ends to resemble wrapped candies, often with sweet/savory fillings",
+                    "Sweet pasta made with sugar for desserts",
+                    "Small round pasta colored like candies",
+                    "Candy-flavored pasta for children"
+                ],
+                es: [
+                    "Pasta rellena pellizcada en los extremos para parecerse a caramelos envueltos, a menudo con rellenos dulces/salados",
+                    "Pasta dulce hecha con azúcar para postres",
+                    "Pasta pequeña redonda coloreada como caramelos",
+                    "Pasta con sabor a caramelo para niños"
+                ],
+                de: [
+                    "Gefüllte Nudeln an den Enden eingeklemmt, um eingewickelten Bonbons zu ähneln, oft mit süßen/herzhaften Füllungen",
+                    "Süße Pasta mit Zucker für Desserts",
+                    "Kleine runde Pasta wie Bonbons gefärbt",
+                    "Bonbongeschmack-Pasta für Kinder"
+                ],
+                nl: [
+                    "Gevulde pasta geknepen aan uiteinden om op ingepakte snoepjes te lijken, vaak met zoete/hartige vullingen",
+                    "Zoete pasta gemaakt met suiker voor desserts",
+                    "Kleine ronde pasta gekleurd als snoepjes",
+                    "Snoep-smaak pasta voor kinderen"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Caramelle ('candies' in Italian) are stuffed pasta shaped like wrapped hard candies - rectangular pouches with twisted/pinched ends. The decorative shape comes from folding filled pasta squares and twisting both ends. Fillings range from traditional ricotta-spinach to creative sweet-savory combinations (butternut squash with amaretti, pear-gorgonzola). The candy-wrapper appearance makes them visually appealing for special occasions. Usually served with butter-based sauces to highlight delicate fillings.",
+                es: "Las caramelle ('caramelos' en italiano) son pasta rellena con forma de caramelos duros envueltos - bolsas rectangulares con extremos retorcidos/pellizcados. La forma decorativa proviene de doblar cuadrados de pasta rellenos y retorcer ambos extremos. Los rellenos van desde ricotta-espinaca tradicional hasta combinaciones creativas dulces-saladas (calabaza butternut con amaretti, pera-gorgonzola). La apariencia de envoltorio de caramelo las hace visualmente atractivas para ocasiones especiales. Usualmente servidas con salsas a base de mantequilla para resaltar rellenos delicados.",
+                de: "Caramelle ('Bonbons' auf Italienisch) sind gefüllte Nudeln in Form von eingewickelten harten Bonbons - rechteckige Beutel mit gedrehten/eingeklemmten Enden. Die dekorative Form entsteht durch Falten gefüllter Pasta-Quadrate und Drehen beider Enden. Füllungen reichen von traditionellem Ricotta-Spinat bis zu kreativen süß-herzhaften Kombinationen (Butternusskürbis mit Amaretti, Birne-Gorgonzola). Das Bonbon-Verpackungs-Aussehen macht sie optisch ansprechend für besondere Anlässe. Meist mit Butter-basierten Saucen serviert, um zarte Füllungen hervorzuheben.",
+                nl: "Caramelle ('snoepjes' in het Italiaans) zijn gevulde pasta gevormd als ingepakte harde snoepjes - rechthoekige zakjes met gedraaide/geknepen uiteinden. De decoratieve vorm komt van het vouwen van gevulde pasta vierkanten en draaien van beide uiteinden. Vullingen variëren van traditionele ricotta-spinazie tot creatieve zoet-hartige combinaties (butternut pompoen met amaretti, peer-gorgonzola). Het snoepwikkel uiterlijk maakt ze visueel aantrekkelijk voor speciale gelegenheden. Meestal geserveerd met boter-gebaseerde sauzen om delicate vullingen te benadrukken."
+            }
+        },
+        {
+            question: {
+                en: "What are paccheri and what is their traditional use?",
+                es: "¿Qué son los paccheri y cuál es su uso tradicional?",
+                de: "Was sind Paccheri und was ist ihre traditionelle Verwendung?",
+                nl: "Wat zijn paccheri en wat is hun traditionele gebruik?"
+            },
+            options: {
+                en: [
+                    "Large diameter tubes from Campania, perfect for stuffing or catching chunky seafood sauces",
+                    "Small shells from Sicily for soup",
+                    "Thin ribbons from Piedmont with truffle",
+                    "Twisted spirals from Puglia with vegetables"
+                ],
+                es: [
+                    "Tubos de gran diámetro de Campania, perfectos para rellenar o atrapar salsas gruesas de mariscos",
+                    "Conchas pequeñas de Sicilia para sopa",
+                    "Cintas delgadas del Piamonte con trufa",
+                    "Espirales retorcidas de Puglia con verduras"
+                ],
+                de: [
+                    "Große Durchmesser-Röhren aus Kampanien, perfekt zum Füllen oder Auffangen stückiger Meeresfrüchtesaucen",
+                    "Kleine Muscheln aus Sizilien für Suppe",
+                    "Dünne Bänder aus dem Piemont mit Trüffel",
+                    "Gedrehte Spiralen aus Apulien mit Gemüse"
+                ],
+                nl: [
+                    "Grote diameter buizen uit Campanië, perfect om te vullen of grove zeevruchten sauzen op te vangen",
+                    "Kleine schelpen uit Sicilië voor soep",
+                    "Dunne linten uit Piemonte met truffel",
+                    "Gedraaide spiralen uit Puglia met groenten"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Paccheri are very large, smooth tube pasta from Campania (Naples region), resembling giant rigatoni but smooth rather than ridged. Their wide diameter (~3cm) and short length make them ideal for: 1) Stuffing with ricotta, seafood, or meat fillings for baked dishes, 2) Catching chunky sauces like Neapolitan ragù or seafood (paccheri ai frutti di mare). Legend says they were used to smuggle garlic cloves from Italy to Prussia when garlic was heavily taxed.",
+                es: "Los paccheri son pasta de tubo muy grande y lisa de Campania (región de Nápoles), parecidos a rigatoni gigante pero lisos en lugar de estriados. Su diámetro amplio (~3cm) y longitud corta los hacen ideales para: 1) Rellenar con ricotta, mariscos o rellenos de carne para platos horneados, 2) Atrapar salsas gruesas como ragú napolitano o mariscos (paccheri ai frutti di mare). La leyenda dice que se usaban para contrabandear dientes de ajo de Italia a Prusia cuando el ajo era fuertemente gravado.",
+                de: "Paccheri sind sehr große, glatte Röhrennudeln aus Kampanien (Region Neapel), die riesigen Rigatoni ähneln, aber glatt statt gerillt sind. Ihr großer Durchmesser (~3cm) und kurze Länge machen sie ideal für: 1) Füllung mit Ricotta, Meeresfrüchten oder Fleischfüllungen für gebackene Gerichte, 2) Auffangen stückiger Saucen wie neapolitanisches Ragout oder Meeresfrüchte (Paccheri ai Frutti di Mare). Die Legende besagt, sie wurden verwendet, um Knoblauchzehen von Italien nach Preußen zu schmuggeln, als Knoblauch stark besteuert wurde.",
+                nl: "Paccheri zijn zeer grote, gladde buispasta uit Campanië (regio Napels), lijkend op gigantische rigatoni maar glad in plaats van gegroefd. Hun grote diameter (~3cm) en korte lengte maken ze ideaal voor: 1) Vullen met ricotta, zeevruchten of vleesvullingen voor ovenschotels, 2) Opvangen van grove sauzen zoals Napolitaanse ragù of zeevruchten (paccheri ai frutti di mare). De legende zegt dat ze gebruikt werden om knoflookteentjes van Italië naar Pruisen te smokkelen toen knoflook zwaar belast werd."
+            }
+        },
+        {
+            question: {
+                en: "What are ditali and ditalini, and how do they differ?",
+                es: "¿Qué son los ditali y ditalini, y en qué se diferencian?",
+                de: "Was sind Ditali und Ditalini und wie unterscheiden sie sich?",
+                nl: "Wat zijn ditali en ditalini, en hoe verschillen ze?"
+            },
+            options: {
+                en: [
+                    "Short tube pasta named 'thimbles' - ditali are larger, ditalini are smaller versions for soups",
+                    "Ditali are stuffed, ditalini are not",
+                    "Same pasta, different regional names",
+                    "Ditali are from north, ditalini from south Italy"
+                ],
+                es: [
+                    "Pasta de tubo corto llamada 'dedales' - ditali son más grandes, ditalini son versiones más pequeñas para sopas",
+                    "Ditali están rellenos, ditalini no",
+                    "Misma pasta, diferentes nombres regionales",
+                    "Ditali son del norte, ditalini del sur de Italia"
+                ],
+                de: [
+                    "Kurze Röhrennudeln namens 'Fingerhüte' - Ditali sind größer, Ditalini sind kleinere Versionen für Suppen",
+                    "Ditali sind gefüllt, Ditalini nicht",
+                    "Gleiche Pasta, unterschiedliche regionale Namen",
+                    "Ditali sind aus dem Norden, Ditalini aus Süditalien"
+                ],
+                nl: [
+                    "Korte buispasta genaamd 'vingerhoed' - ditali zijn groter, ditalini zijn kleinere versies voor soepen",
+                    "Ditali zijn gevuld, ditalini niet",
+                    "Zelfde pasta, verschillende regionale namen",
+                    "Ditali zijn uit het noorden, ditalini uit Zuid-Italië"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Ditali and ditalini both mean 'little thimbles' (from 'ditale' = thimble), referring to their short tubular shape. Ditali are larger (resembling cut penne) used in pasta e fagioli or pasta salads. Ditalini are smaller, better for minestrone and other soups where tiny pasta is needed. Both are smooth tubes cut straight across. The size difference determines their application - larger ditali for heartier dishes, smaller ditalini for delicate soups.",
+                es: "Ditali y ditalini significan 'pequeños dedales' (de 'ditale' = dedal), refiriéndose a su forma tubular corta. Los ditali son más grandes (parecidos a penne cortados) usados en pasta e fagioli o ensaladas de pasta. Los ditalini son más pequeños, mejores para minestrone y otras sopas donde se necesita pasta diminuta. Ambos son tubos lisos cortados directamente. La diferencia de tamaño determina su aplicación - ditali más grandes para platos más abundantes, ditalini más pequeños para sopas delicadas.",
+                de: "Ditali und Ditalini bedeuten beide 'kleine Fingerhüte' (von 'ditale' = Fingerhut), bezogen auf ihre kurze röhrenförmige Form. Ditali sind größer (ähnlich geschnittenen Penne), verwendet in Pasta e Fagioli oder Nudelsalaten. Ditalini sind kleiner, besser für Minestrone und andere Suppen, wo winzige Pasta benötigt wird. Beide sind glatte Röhren gerade abgeschnitten. Der Größenunterschied bestimmt ihre Anwendung - größere Ditali für herzhaftere Gerichte, kleinere Ditalini für zarte Suppen.",
+                nl: "Ditali en ditalini betekenen beide 'kleine vingerhoeden' (van 'ditale' = vingerhoed), verwijzend naar hun korte buisvormige vorm. Ditali zijn groter (lijkend op gesneden penne) gebruikt in pasta e fagioli of pastasalades. Ditalini zijn kleiner, beter voor minestrone en andere soepen waar kleine pasta nodig is. Beide zijn gladde buizen recht afgesneden. Het grootte verschil bepaalt hun toepassing - grotere ditali voor stevigere gerechten, kleinere ditalini voor delicate soepen."
+            }
+        },
+        {
+            question: {
+                en: "What are gemelli and how are they formed?",
+                es: "¿Qué son los gemelli y cómo se forman?",
+                de: "Was sind Gemelli und wie werden sie geformt?",
+                nl: "Wat zijn gemelli en hoe worden ze gevormd?"
+            },
+            options: {
+                en: [
+                    "Single S-shaped strand twisted to look like two intertwined strands ('twins')",
+                    "Two separate strands braided together",
+                    "Hollow tubes twisted into spirals",
+                    "Flat ribbons folded and twisted"
+                ],
+                es: [
+                    "Hebra única en forma de S retorcida para parecer dos hebras entrelazadas ('gemelos')",
+                    "Dos hebras separadas trenzadas juntas",
+                    "Tubos huecos retorcidos en espirales",
+                    "Cintas planas dobladas y retorcidas"
+                ],
+                de: [
+                    "Einzelner S-förmiger Strang gedreht, um wie zwei verflochtene Stränge auszusehen ('Zwillinge')",
+                    "Zwei separate Stränge zusammengeflochten",
+                    "Hohle Röhren zu Spiralen gedreht",
+                    "Flache Bänder gefaltet und gedreht"
+                ],
+                nl: [
+                    "Enkele S-vormige streng gedraaid om eruit te zien als twee verstrengelde strengen ('tweelingen')",
+                    "Twee afzonderlijke strengen samen gevlochten",
+                    "Holle buizen gedraaid in spiralen",
+                    "Platte linten gevouwen en gedraaid"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Gemelli means 'twins' in Italian, but they're actually a single S-shaped strand twisted on itself to create the illusion of two intertwined strands. Not actually two pieces braided together as often believed. The twisted shape with grooves holds sauce exceptionally well - excellent with pesto, cream sauces, or chunky vegetable sauces. The compact spiral shape makes them sturdy for pasta salads. Also called 'rotini' in some regions.",
+                es: "Gemelli significa 'gemelos' en italiano, pero en realidad son una hebra única en forma de S retorcida sobre sí misma para crear la ilusión de dos hebras entrelazadas. No son realmente dos piezas trenzadas juntas como se cree a menudo. La forma retorcida con ranuras sostiene la salsa excepcionalmente bien - excelente con pesto, salsas de nata o salsas de verduras gruesas. La forma espiral compacta los hace resistentes para ensaladas de pasta. También llamados 'rotini' en algunas regiones.",
+                de: "Gemelli bedeutet 'Zwillinge' auf Italienisch, aber sie sind tatsächlich ein einzelner S-förmiger Strang, der auf sich selbst gedreht ist, um die Illusion von zwei verflochtenen Strängen zu erzeugen. Nicht tatsächlich zwei Stücke zusammengeflochten, wie oft geglaubt. Die gedrehte Form mit Rillen hält Sauce außergewöhnlich gut - ausgezeichnet mit Pesto, Sahnesaucen oder stückigen Gemüsesaucen. Die kompakte Spiralform macht sie robust für Nudelsalate. Auch 'Rotini' in einigen Regionen genannt.",
+                nl: "Gemelli betekent 'tweelingen' in het Italiaans, maar het is eigenlijk een enkele S-vormige streng gedraaid op zichzelf om de illusie van twee verstrengelde strengen te creëren. Niet echt twee stukken samen gevlochten zoals vaak gedacht. De gedraaide vorm met groeven houdt saus uitzonderlijk goed vast - uitstekend met pesto, roomsauzen of grove groentensauzen. De compacte spiraalvorm maakt ze stevig voor pastasalades. Ook wel 'rotini' genoemd in sommige regio's."
+            }
+        },
+        {
+            question: {
+                en: "What are radiatori and what inspired their design?",
+                es: "¿Qué son los radiatori y qué inspiró su diseño?",
+                de: "Was sind Radiatori und was inspirierte ihr Design?",
+                nl: "Wat zijn radiatori en wat inspireerde hun ontwerp?"
+            },
+            options: {
+                en: [
+                    "Ruffled pasta resembling radiators, designed in 1960s to maximize sauce-holding surface area",
+                    "Ancient Roman pasta shape rediscovered",
+                    "Traditional Sicilian pasta from 1800s",
+                    "Pasta shaped like bicycle wheels"
+                ],
+                es: [
+                    "Pasta ondulada parecida a radiadores, diseñada en los años 1960 para maximizar área superficial de retención de salsa",
+                    "Forma de pasta romana antigua redescubierta",
+                    "Pasta tradicional siciliana de los años 1800",
+                    "Pasta con forma de ruedas de bicicleta"
+                ],
+                de: [
+                    "Gekräuselte Pasta ähnlich Heizkörpern, in den 1960ern entworfen um Sauce-haltende Oberfläche zu maximieren",
+                    "Alte römische Pasta-Form wiederentdeckt",
+                    "Traditionelle sizilianische Pasta aus den 1800ern",
+                    "Pasta in Form von Fahrradrädern"
+                ],
+                nl: [
+                    "Geplooide pasta lijkend op radiatoren, ontworpen in jaren 1960 om sausvasthoudenend oppervlak te maximaliseren",
+                    "Oude Romeinse pastavorm herontdekt",
+                    "Traditionele Siciliaanse pasta uit 1800s",
+                    "Pasta gevormd als fietswielen"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Radiatori are relatively modern pasta (1960s) designed to look like old-fashioned radiators with ruffled edges and ridges. Created specifically to maximize surface area for holding sauce - the deep grooves, ruffles, and central cavity catch both thick and thin sauces excellently. This industrial-age design shows pasta innovation continued into modern times. Popular in North America for mac and cheese and chunky sauces. The name literally means 'radiators' in Italian.",
+                es: "Los radiatori son pasta relativamente moderna (años 1960) diseñada para parecer radiadores antiguos con bordes ondulados y estrías. Creados específicamente para maximizar el área superficial para retener salsa - las ranuras profundas, ondulaciones y cavidad central atrapan tanto salsas espesas como delgadas excelentemente. Este diseño de la era industrial muestra que la innovación de pasta continuó en tiempos modernos. Popular en América del Norte para mac and cheese y salsas gruesas. El nombre significa literalmente 'radiadores' en italiano.",
+                de: "Radiatori sind relativ moderne Pasta (1960er), entworfen um wie altmodische Heizkörper mit gekräuselten Rändern und Rillen auszusehen. Speziell geschaffen, um Oberfläche für Saucen-Halt zu maximieren - die tiefen Rillen, Kräuselungen und zentrale Höhle fangen sowohl dicke als auch dünne Saucen ausgezeichnet. Dieses Industriezeitalter-Design zeigt, dass Pasta-Innovation bis in moderne Zeiten fortsetzte. Beliebt in Nordamerika für Mac and Cheese und stückige Saucen. Der Name bedeutet wörtlich 'Heizkörper' auf Italienisch.",
+                nl: "Radiatori zijn relatief moderne pasta (jaren 1960) ontworpen om eruit te zien als ouderwetse radiatoren met geplooide randen en groeven. Speciaal gecreëerd om oppervlak voor sausvasthouding te maximaliseren - de diepe groeven, plooien en centrale holte vangen zowel dikke als dunne sauzen uitstekend op. Dit industriële tijdperk ontwerp toont dat pasta innovatie doorging in moderne tijden. Populair in Noord-Amerika voor mac and cheese en grove sauzen. De naam betekent letterlijk 'radiatoren' in het Italiaans."
+            }
+        },
+        {
+            question: {
+                en: "What are stelline and what are they primarily used for?",
+                es: "¿Qué son las stelline y para qué se usan principalmente?",
+                de: "Was sind Stelline und wofür werden sie hauptsächlich verwendet?",
+                nl: "Wat zijn stelline en waarvoor worden ze voornamelijk gebruikt?"
+            },
+            options: {
+                en: [
+                    "Tiny star-shaped pasta for broths and children's soups, part of 'pastina' family",
+                    "Large star pasta for baked dishes",
+                    "Stuffed star-shaped pasta with cheese",
+                    "Star-shaped pasta for salads"
+                ],
+                es: [
+                    "Pasta diminuta en forma de estrella para caldos y sopas infantiles, parte de la familia 'pastina'",
+                    "Pasta grande en forma de estrella para platos horneados",
+                    "Pasta rellena en forma de estrella con queso",
+                    "Pasta en forma de estrella para ensaladas"
+                ],
+                de: [
+                    "Winzige sternförmige Pasta für Brühen und Kindersuppen, Teil der 'Pastina'-Familie",
+                    "Große Stern-Pasta für gebackene Gerichte",
+                    "Gefüllte sternförmige Pasta mit Käse",
+                    "Sternförmige Pasta für Salate"
+                ],
+                nl: [
+                    "Kleine stervormige pasta voor bouillons en kindersoepen, deel van 'pastina' familie",
+                    "Grote ster pasta voor ovenschotels",
+                    "Gevulde stervormige pasta met kaas",
+                    "Stervormige pasta voor salades"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Stelline ('little stars') are tiny star-shaped pasta from the 'pastina' (tiny pasta) family, traditionally used in Italian children's soups and light broths. Their small size and appealing star shape make them perfect for: 1) Chicken broth or vegetable soup (stelline in brodo), 2) Children's meals - easy to eat and visually fun, 3) Light soups for sick people. Cook very quickly (2-3 minutes) due to their tiny size. Other pastina shapes include orzo, alphabets, and tiny tubes.",
+                es: "Las stelline ('pequeñas estrellas') son pasta diminuta en forma de estrella de la familia 'pastina' (pasta diminuta), tradicionalmente usada en sopas infantiles italianas y caldos ligeros. Su pequeño tamaño y atractiva forma de estrella las hacen perfectas para: 1) Caldo de pollo o sopa de verduras (stelline in brodo), 2) Comidas infantiles - fáciles de comer y visualmente divertidas, 3) Sopas ligeras para personas enfermas. Cocinan muy rápido (2-3 minutos) debido a su tamaño diminuto. Otras formas de pastina incluyen orzo, alfabetos y tubos diminutos.",
+                de: "Stelline ('kleine Sterne') sind winzige sternförmige Pasta aus der 'Pastina'-Familie (winzige Pasta), traditionell in italienischen Kindersuppen und leichten Brühen verwendet. Ihre geringe Größe und ansprechende Sternform machen sie perfekt für: 1) Hühnerbrühe oder Gemüsesuppe (Stelline in Brodo), 2) Kindermahlzeiten - leicht zu essen und visuell lustig, 3) Leichte Suppen für kranke Menschen. Kochen sehr schnell (2-3 Minuten) aufgrund ihrer winzigen Größe. Andere Pastina-Formen umfassen Orzo, Alphabete und winzige Röhren.",
+                nl: "Stelline ('kleine sterren') zijn kleine stervormige pasta uit de 'pastina' (kleine pasta) familie, traditioneel gebruikt in Italiaanse kindersoepen en lichte bouillons. Hun kleine formaat en aantrekkelijke stervorm maken ze perfect voor: 1) Kippenbouillon of groentensoep (stelline in brodo), 2) Kindermaaltijden - gemakkelijk te eten en visueel leuk, 3) Lichte soepen voor zieke mensen. Koken zeer snel (2-3 minuten) door hun kleine formaat. Andere pastina vormen omvatten orzo, alfabetten en kleine buisjes."
+            }
+        },
+        {
+            question: {
+                en: "What are mafaldine and what is their royal connection?",
+                es: "¿Qué son las mafaldine y cuál es su conexión real?",
+                de: "Was sind Mafaldine und was ist ihre königliche Verbindung?",
+                nl: "Wat zijn mafaldine en wat is hun koninklijke connectie?"
+            },
+            options: {
+                en: [
+                    "Ribbon pasta with ruffled edges, named after Italian Princess Mafalda of Savoy",
+                    "Pasta invented by Queen Margherita for pizza",
+                    "Royal stuffed pasta served only to nobility",
+                    "Pasta shaped like crowns for coronations"
+                ],
+                es: [
+                    "Pasta de cinta con bordes ondulados, nombrada por la Princesa italiana Mafalda de Saboya",
+                    "Pasta inventada por la Reina Margherita para pizza",
+                    "Pasta rellena real servida solo a la nobleza",
+                    "Pasta con forma de coronas para coronaciones"
+                ],
+                de: [
+                    "Bandnudeln mit gekräuselten Rändern, benannt nach italienischer Prinzessin Mafalda von Savoyen",
+                    "Pasta von Königin Margherita für Pizza erfunden",
+                    "Königliche gefüllte Pasta nur für Adel serviert",
+                    "Pasta in Kronenform für Krönungen"
+                ],
+                nl: [
+                    "Lintpasta met geplooide randen, genoemd naar Italiaanse Prinses Mafalda van Savoye",
+                    "Pasta uitgevonden door Koningin Margherita voor pizza",
+                    "Koninklijke gevulde pasta alleen voor adel geserveerd",
+                    "Pasta gevormd als kronen voor kroningen"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Mafaldine (also called reginette = 'little queens' or mafalda) are long ribbon pasta (~1cm wide) with distinctive ruffled or rippled edges on both sides. Named after Princess Mafalda of Savoy (1902-1944), daughter of King Victor Emmanuel III. The elegant ruffled edges were meant to honor her. Also called 'doppio riccia' (double curl). The waves catch sauce beautifully, making them excellent with Bolognese, cream sauces, or rich meat ragùs.",
+                es: "Las mafaldine (también llamadas reginette = 'pequeñas reinas' o mafalda) son pasta larga de cinta (~1cm de ancho) con bordes ondulados o rizados distintivos en ambos lados. Nombradas por la Princesa Mafalda de Saboya (1902-1944), hija del Rey Víctor Manuel III. Los elegantes bordes ondulados fueron pensados para honrarla. También llamadas 'doppio riccia' (doble rizado). Las ondas atrapan la salsa maravillosamente, haciéndolas excelentes con boloñesa, salsas de nata o ragús de carne ricos.",
+                de: "Mafaldine (auch Reginette = 'kleine Königinnen' oder Mafalda genannt) sind lange Bandnudeln (~1cm breit) mit charakteristischen gekräuselten oder gewellten Rändern auf beiden Seiten. Benannt nach Prinzessin Mafalda von Savoyen (1902-1944), Tochter von König Viktor Emanuel III. Die eleganten gekräuselten Ränder sollten sie ehren. Auch 'Doppio Riccia' (doppelte Locke) genannt. Die Wellen fangen Sauce wunderbar, wodurch sie ausgezeichnet mit Bolognese, Sahnesaucen oder reichhaltigen Fleischragouts sind.",
+                nl: "Mafaldine (ook wel reginette = 'kleine koninginnen' of mafalda genoemd) zijn lange lintpasta (~1cm breed) met kenmerkende geplooide of gegolfde randen aan beide zijden. Genoemd naar Prinses Mafalda van Savoye (1902-1944), dochter van Koning Victor Emanuel III. De elegante geplooide randen waren bedoeld om haar te eren. Ook wel 'doppio riccia' (dubbele krul) genoemd. De golven vangen saus prachtig op, waardoor ze uitstekend zijn met Bolognese, roomsauzen of rijke vlees ragù's."
+            }
+        },
+        {
+            question: {
+                en: "What are conchiglie and how do different sizes determine their use?",
+                es: "¿Qué son las conchiglie y cómo determinan los diferentes tamaños su uso?",
+                de: "Was sind Conchiglie und wie bestimmen verschiedene Größen ihre Verwendung?",
+                nl: "Wat zijn conchiglie en hoe bepalen verschillende maten hun gebruik?"
+            },
+            options: {
+                en: [
+                    "Shell-shaped pasta: conchigliette (small) for soup, conchiglie (medium) for sauces, conchiglioni (large) for stuffing",
+                    "All same size, just different regional names",
+                    "Conchiglie are fresh, conchiglioni are dried",
+                    "Size based on cooking time preference only"
+                ],
+                es: [
+                    "Pasta en forma de concha: conchigliette (pequeñas) para sopa, conchiglie (medianas) para salsas, conchiglioni (grandes) para rellenar",
+                    "Todo mismo tamaño, solo nombres regionales diferentes",
+                    "Conchiglie son frescas, conchiglioni son secas",
+                    "Tamaño basado solo en preferencia de tiempo de cocción"
+                ],
+                de: [
+                    "Muschelförmige Pasta: Conchigliette (klein) für Suppe, Conchiglie (mittel) für Saucen, Conchiglioni (groß) zum Füllen",
+                    "Alle gleiche Größe, nur unterschiedliche regionale Namen",
+                    "Conchiglie sind frisch, Conchiglioni sind getrocknet",
+                    "Größe nur basierend auf Kochzeit-Präferenz"
+                ],
+                nl: [
+                    "Schelpvormige pasta: conchigliette (klein) voor soep, conchiglie (medium) voor sauzen, conchiglioni (groot) voor vullen",
+                    "Allemaal zelfde grootte, alleen verschillende regionale namen",
+                    "Conchiglie zijn vers, conchiglioni zijn gedroogd",
+                    "Maat gebaseerd op kooktijd voorkeur alleen"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Conchiglie means 'shells' in Italian, pasta shaped like seashells with ridged exterior and smooth cavity. Size variations serve different purposes: 1) Conchigliette (tiny shells) for minestrone and soups, 2) Conchiglie or conchiglie rigate (medium, ~2-3cm) for capturing cream sauces, pesto, or chunky vegetable sauces - the cavity holds sauce inside, 3) Conchiglioni (large shells, ~5cm) for stuffing with ricotta, meat, or seafood fillings and baking. The shell shape is one of pasta's most versatile forms.",
+                es: "Conchiglie significa 'conchas' en italiano, pasta con forma de conchas marinas con exterior estriado y cavidad lisa. Las variaciones de tamaño sirven diferentes propósitos: 1) Conchigliette (conchas diminutas) para minestrone y sopas, 2) Conchiglie o conchiglie rigate (medianas, ~2-3cm) para capturar salsas de nata, pesto o salsas de verduras gruesas - la cavidad sostiene salsa dentro, 3) Conchiglioni (conchas grandes, ~5cm) para rellenar con ricotta, carne o rellenos de mariscos y hornear. La forma de concha es una de las formas más versátiles de pasta.",
+                de: "Conchiglie bedeutet 'Muscheln' auf Italienisch, Pasta in Form von Muscheln mit gerilltem Äußeren und glatter Höhle. Größenvariationen dienen unterschiedlichen Zwecken: 1) Conchigliette (winzige Muscheln) für Minestrone und Suppen, 2) Conchiglie oder Conchiglie Rigate (mittel, ~2-3cm) zum Auffangen von Sahnesaucen, Pesto oder stückigen Gemüsesaucen - die Höhle hält Sauce innen, 3) Conchiglioni (große Muscheln, ~5cm) zum Füllen mit Ricotta, Fleisch oder Meeresfrüchtefüllungen und Backen. Die Muschelform ist eine der vielseitigsten Pasta-Formen.",
+                nl: "Conchiglie betekent 'schelpen' in het Italiaans, pasta gevormd als zeeschelpen met gegroefd buitenkant en glad holte. Maatvariaties dienen verschillende doeleinden: 1) Conchigliette (kleine schelpen) voor minestrone en soepen, 2) Conchiglie of conchiglie rigate (medium, ~2-3cm) voor het opvangen van roomsauzen, pesto of grove groentensauzen - de holte houdt saus binnenin, 3) Conchiglioni (grote schelpen, ~5cm) voor vullen met ricotta, vlees of zeevruchten vullingen en bakken. De schelpvorm is een van pasta's meest veelzijdige vormen."
+            }
+        },
+        {
+            question: {
+                en: "What are mezze maniche and what does their name mean?",
+                es: "¿Qué son las mezze maniche y qué significa su nombre?",
+                de: "Was sind Mezze Maniche und was bedeutet ihr Name?",
+                nl: "Wat zijn mezze maniche en wat betekent hun naam?"
+            },
+            options: {
+                en: [
+                    "'Half sleeves' - short, wide ridged tubes similar to rigatoni but shorter",
+                    "'Small hands' - tiny stuffed pasta shapes",
+                    "'Medium ribbons' - flat noodles from Sicily",
+                    "'Half moons' - curved filled pasta"
+                ],
+                es: [
+                    "'Medias mangas' - tubos estriados cortos y anchos similares a rigatoni pero más cortos",
+                    "'Manos pequeñas' - formas diminutas de pasta rellena",
+                    "'Cintas medianas' - fideos planos de Sicilia",
+                    "'Medias lunas' - pasta curva rellena"
+                ],
+                de: [
+                    "'Halbe Ärmel' - kurze, breite gerillte Röhren ähnlich wie Rigatoni aber kürzer",
+                    "'Kleine Hände' - winzige gefüllte Pasta-Formen",
+                    "'Mittlere Bänder' - flache Nudeln aus Sizilien",
+                    "'Halbmonde' - gebogene gefüllte Pasta"
+                ],
+                nl: [
+                    "'Halve mouwen' - korte, brede gegroefd buizen vergelijkbaar met rigatoni maar korter",
+                    "'Kleine handen' - kleine gevulde pasta vormen",
+                    "'Medium linten' - platte noedels uit Sicilië",
+                    "'Halve manen' - gebogen gevulde pasta"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Mezze maniche literally means 'half sleeves' in Italian, referring to their short, stubby tube shape with ridged exterior - like cutting a sleeve in half. They're essentially shorter, wider versions of rigatoni (about half the length). Popular in Roman cuisine, especially for all'amatriciana or cacio e pepe. The short tubes with wide opening catch chunky sauces excellently while the ridges (rigate) help sauce adhere. Sometimes called 'mezzi rigatoni' or just 'maniche' (sleeves).",
+                es: "Mezze maniche significa literalmente 'medias mangas' en italiano, refiriéndose a su forma de tubo corto y rechoncho con exterior estriado - como cortar una manga por la mitad. Son esencialmente versiones más cortas y anchas de rigatoni (aproximadamente la mitad de largo). Populares en la cocina romana, especialmente para all'amatriciana o cacio e pepe. Los tubos cortos con abertura ancha atrapan salsas gruesas excelentemente mientras que las estrías (rigate) ayudan a que la salsa se adhiera. A veces llamadas 'mezzi rigatoni' o solo 'maniche' (mangas).",
+                de: "Mezze Maniche bedeutet wörtlich 'halbe Ärmel' auf Italienisch und bezieht sich auf ihre kurze, stämmige Röhrenform mit gerilltem Äußeren - wie das Halbieren eines Ärmels. Sie sind im Wesentlichen kürzere, breitere Versionen von Rigatoni (etwa halbe Länge). Beliebt in der römischen Küche, besonders für All'Amatriciana oder Cacio e Pepe. Die kurzen Röhren mit breiter Öffnung fangen stückige Saucen ausgezeichnet, während die Rillen (Rigate) Sauce haften helfen. Manchmal 'Mezzi Rigatoni' oder nur 'Maniche' (Ärmel) genannt.",
+                nl: "Mezze maniche betekent letterlijk 'halve mouwen' in het Italiaans, verwijzend naar hun korte, gedrongen buisvorm met gegroefd buitenkant - zoals het halveren van een mouw. Ze zijn in essentie kortere, bredere versies van rigatoni (ongeveer halve lengte). Populair in Romeinse keuken, vooral voor all'amatriciana of cacio e pepe. De korte buizen met brede opening vangen grove sauzen uitstekend terwijl de groeven (rigate) helpen saus vast te houden. Soms 'mezzi rigatoni' of gewoon 'maniche' (mouwen) genoemd."
+            }
+        },
+        {
+            question: {
+                en: "What are bucatini and how do they differ from spaghetti?",
+                es: "¿Qué son los bucatini y en qué se diferencian de los espaguetis?",
+                de: "Was sind Bucatini und wie unterscheiden sie sich von Spaghetti?",
+                nl: "Wat zijn bucatini en hoe verschillen ze van spaghetti?"
+            },
+            options: {
+                en: [
+                    "Thick spaghetti with hollow center running through length, from Rome/Lazio region",
+                    "Flat ribbon pasta wider than spaghetti",
+                    "Spaghetti twisted into spirals",
+                    "Spaghetti made with whole wheat flour"
+                ],
+                es: [
+                    "Espaguetis gruesos con centro hueco que atraviesa la longitud, de la región Roma/Lacio",
+                    "Pasta de cinta plana más ancha que espaguetis",
+                    "Espaguetis retorcidos en espirales",
+                    "Espaguetis hechos con harina integral"
+                ],
+                de: [
+                    "Dicke Spaghetti mit hohlem Zentrum durch die Länge, aus Rom/Latium Region",
+                    "Flache Bandnudeln breiter als Spaghetti",
+                    "Spaghetti zu Spiralen gedreht",
+                    "Spaghetti aus Vollkornmehl"
+                ],
+                nl: [
+                    "Dikke spaghetti met hol centrum door de lengte, uit Rome/Lazio regio",
+                    "Platte lintpasta breder dan spaghetti",
+                    "Spaghetti gedraaid in spiralen",
+                    "Spaghetti gemaakt met volkoren meel"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Bucatini (from 'buco' = hole) are thick, hollow spaghetti with a tiny hole running through the center, from Rome and Lazio region. Thicker than spaghetti (~3mm diameter vs ~2mm), the hollow center allows sauce to flow inside and outside, creating unique texture and sauce distribution. Classic preparation: bucatini all'amatriciana (tomato-guanciale sauce). The hole makes them take slightly longer to cook and creates satisfying bite with sauce trapped inside. Also called perciatelli in southern Italy.",
+                es: "Los bucatini (de 'buco' = agujero) son espaguetis gruesos y huecos con un agujero diminuto que atraviesa el centro, de Roma y la región de Lacio. Más gruesos que los espaguetis (~3mm de diámetro vs ~2mm), el centro hueco permite que la salsa fluya dentro y fuera, creando textura única y distribución de salsa. Preparación clásica: bucatini all'amatriciana (salsa de tomate-guanciale). El agujero hace que tarden ligeramente más en cocinarse y crea mordida satisfactoria con salsa atrapada dentro. También llamados perciatelli en el sur de Italia.",
+                de: "Bucatini (von 'buco' = Loch) sind dicke, hohle Spaghetti mit einem winzigen Loch durch die Mitte, aus Rom und der Region Latium. Dicker als Spaghetti (~3mm Durchmesser vs ~2mm), ermöglicht das hohle Zentrum Sauce innen und außen zu fließen und schafft einzigartige Textur und Sauceverteilung. Klassische Zubereitung: Bucatini all'Amatriciana (Tomaten-Guanciale-Sauce). Das Loch lässt sie etwas länger kochen und schafft befriedigenden Biss mit Sauce innen gefangen. Auch Perciatelli in Süditalien genannt.",
+                nl: "Bucatini (van 'buco' = gat) zijn dikke, holle spaghetti met een klein gaatje door het centrum, uit Rome en Lazio regio. Dikker dan spaghetti (~3mm diameter vs ~2mm), laat het holle centrum saus binnen en buiten stromen, creërend unieke textuur en sausverdeling. Klassieke bereiding: bucatini all'amatriciana (tomaat-guanciale saus). Het gat zorgt dat ze iets langer koken en creëert bevredigende hap met saus binnenin gevangen. Ook wel perciatelli genoemd in Zuid-Italië."
+            }
+        },
+        {
+            question: {
+                en: "What are bavette and how do they compare to linguine?",
+                es: "¿Qué son las bavette y cómo se comparan con los linguine?",
+                de: "Was sind Bavette und wie vergleichen sie sich mit Linguine?",
+                nl: "Wat zijn bavette en hoe vergelijken ze met linguine?"
+            },
+            options: {
+                en: [
+                    "Slightly narrower and thicker than linguine, oval/convex cross-section from Liguria",
+                    "Wider ribbons than linguine for meat sauces",
+                    "Same as linguine, just different name",
+                    "Stuffed version of linguine"
+                ],
+                es: [
+                    "Ligeramente más estrechas y gruesas que linguine, sección transversal oval/convexa de Liguria",
+                    "Cintas más anchas que linguine para salsas de carne",
+                    "Igual que linguine, solo nombre diferente",
+                    "Versión rellena de linguine"
+                ],
+                de: [
+                    "Etwas schmaler und dicker als Linguine, ovaler/konvexer Querschnitt aus Ligurien",
+                    "Breitere Bänder als Linguine für Fleischsaucen",
+                    "Gleich wie Linguine, nur anderer Name",
+                    "Gefüllte Version von Linguine"
+                ],
+                nl: [
+                    "Iets smaller en dikker dan linguine, ovale/convexe doorsnede uit Ligurië",
+                    "Bredere linten dan linguine voor vleessauzen",
+                    "Hetzelfde als linguine, alleen andere naam",
+                    "Gevulde versie van linguine"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Bavette are narrow, flat ribbon pasta from Liguria, similar to linguine but slightly narrower and with a more rounded/convex cross-section rather than completely flat. The name means 'little drools' or 'bibs'. Traditional in Ligurian cuisine, classically served with pesto alla genovese. The slightly thicker, narrower profile compared to linguine gives them different mouthfeel and sauce interaction. In some regions, bavette and linguine are used interchangeably, but traditionally bavette are distinguished by their oval cross-section.",
+                es: "Las bavette son pasta de cinta estrecha y plana de Liguria, similar a linguine pero ligeramente más estrecha y con sección transversal más redondeada/convexa en lugar de completamente plana. El nombre significa 'pequeñas babas' o 'baberos'. Tradicionales en la cocina ligur, servidas clásicamente con pesto alla genovese. El perfil ligeramente más grueso y estrecho comparado con linguine les da diferente sensación en boca e interacción con salsa. En algunas regiones, bavette y linguine se usan indistintamente, pero tradicionalmente bavette se distinguen por su sección transversal oval.",
+                de: "Bavette sind schmale, flache Bandnudeln aus Ligurien, ähnlich wie Linguine, aber etwas schmaler und mit runderem/konvexem Querschnitt statt vollständig flach. Der Name bedeutet 'kleine Sabberer' oder 'Lätzchen'. Traditionell in der ligurischen Küche, klassisch mit Pesto alla Genovese serviert. Das etwas dickere, schmalere Profil im Vergleich zu Linguine gibt ihnen anderes Mundgefühl und Saucen-Interaktion. In einigen Regionen werden Bavette und Linguine austauschbar verwendet, aber traditionell unterscheiden sich Bavette durch ihren ovalen Querschnitt.",
+                nl: "Bavette zijn smalle, platte lintpasta uit Ligurië, vergelijkbaar met linguine maar iets smaller en met rondere/convexe doorsnede in plaats van volledig plat. De naam betekent 'kleine kwijlers' of 'slabbetjes'. Traditioneel in Ligurische keuken, klassiek geserveerd met pesto alla genovese. Het iets dikkere, smallere profiel vergeleken met linguine geeft ze ander mondgevoel en saus interactie. In sommige regio's worden bavette en linguine door elkaar gebruikt, maar traditioneel onderscheiden bavette zich door hun ovale doorsnede."
+            }
+        },
+        {
+            question: {
+                en: "What are orecchiette and what traditional dish are they known for?",
+                es: "¿Qué son las orecchiette y por qué plato tradicional son conocidas?",
+                de: "Was sind Orecchiette und für welches traditionelle Gericht sind sie bekannt?",
+                nl: "Wat zijn orecchiette en voor welk traditioneel gerecht staan ze bekend?"
+            },
+            options: {
+                en: [
+                    "Ear-shaped pasta from Puglia, traditionally served with cime di rapa (broccoli rabe)",
+                    "Ring-shaped pasta from Sicily with seafood",
+                    "Tube pasta from Calabria with spicy sauce",
+                    "Ribbon pasta from Tuscany with wild boar"
+                ],
+                es: [
+                    "Pasta en forma de oreja de Puglia, tradicionalmente servida con cime di rapa (brócoli rabe)",
+                    "Pasta en forma de anillo de Sicilia con mariscos",
+                    "Pasta de tubo de Calabria con salsa picante",
+                    "Pasta de cinta de Toscana con jabalí"
+                ],
+                de: [
+                    "Ohrförmige Pasta aus Apulien, traditionell mit Cime di Rapa (Stängelkohl) serviert",
+                    "Ringförmige Pasta aus Sizilien mit Meeresfrüchten",
+                    "Röhrenpasta aus Kalabrien mit scharfer Sauce",
+                    "Bandnudeln aus der Toskana mit Wildschwein"
+                ],
+                nl: [
+                    "Oorvormige pasta uit Puglia, traditioneel geserveerd met cime di rapa (broccoletti)",
+                    "Ringvormige pasta uit Sicilië met zeevruchten",
+                    "Buispasta uit Calabrië met pittige saus",
+                    "Lintpasta uit Toscane met everzwijn"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Orecchiette means 'little ears' in Italian, perfectly describing their concave disc shape from Puglia (Bari region). Traditionally hand-formed by pressing and dragging dough with a knife, creating rough texture that holds sauce. The classic dish is 'orecchiette con cime di rapa' - with broccoli rabe, garlic, anchovies, and chili flakes. The cup shape catches vegetables and sauce pieces perfectly. Making authentic orecchiette by hand is a time-honored skill passed through generations in Pugliese families.",
+                es: "Orecchiette significa 'pequeñas orejas' en italiano, describiendo perfectamente su forma de disco cóncavo de Puglia (región de Bari). Tradicionalmente formadas a mano presionando y arrastrando masa con cuchillo, creando textura rugosa que sostiene salsa. El plato clásico es 'orecchiette con cime di rapa' - con brócoli rabe, ajo, anchoas y hojuelas de chile. La forma de copa atrapa vegetales y piezas de salsa perfectamente. Hacer orecchiette auténticas a mano es una habilidad tradicional transmitida por generaciones en familias de Puglia.",
+                de: "Orecchiette bedeutet 'kleine Ohren' auf Italienisch und beschreibt perfekt ihre konkave Scheibenform aus Apulien (Region Bari). Traditionell von Hand geformt durch Drücken und Ziehen von Teig mit einem Messer, wodurch raue Textur entsteht, die Sauce hält. Das klassische Gericht ist 'Orecchiette con Cime di Rapa' - mit Stängelkohl, Knoblauch, Sardellen und Chiliflocken. Die Schalenform fängt Gemüse und Saucenstücke perfekt. Authentische Orecchiette von Hand zu machen ist eine traditionsreiche Fertigkeit, die durch Generationen in apulischen Familien weitergegeben wird.",
+                nl: "Orecchiette betekent 'kleine oren' in het Italiaans, perfect beschrijvend voor hun concave schijfvorm uit Puglia (regio Bari). Traditioneel met de hand gevormd door deeg te persen en te slepen met een mes, creërend ruwe textuur die saus vasthoudt. Het klassieke gerecht is 'orecchiette con cime di rapa' - met broccoletti, knoflook, ansjovis en chilipeper vlokken. De komvorm vangt groenten en sausstukjes perfect op. Authentieke orecchiette met de hand maken is een eeuwenoude vaardigheid doorgegeven door generaties in Pugliese families."
+            }
+        },
+        {
+            question: {
+                en: "What are ziti and how do they differ from penne?",
+                es: "¿Qué son los ziti y en qué se diferencian de los penne?",
+                de: "Was sind Ziti und wie unterscheiden sie sich von Penne?",
+                nl: "Wat zijn ziti en hoe verschillen ze van penne?"
+            },
+            options: {
+                en: [
+                    "Long, smooth tubes cut straight (not diagonal), traditionally broken before cooking for baked dishes",
+                    "Ridged tubes cut at same angle as penne",
+                    "Stuffed tube pasta with cheese filling",
+                    "Spiral-shaped pasta similar to fusilli"
+                ],
+                es: [
+                    "Tubos largos y lisos cortados rectos (no diagonal), tradicionalmente rotos antes de cocinar para platos horneados",
+                    "Tubos estriados cortados al mismo ángulo que penne",
+                    "Pasta de tubo rellena con relleno de queso",
+                    "Pasta en forma de espiral similar a fusilli"
+                ],
+                de: [
+                    "Lange, glatte Röhren gerade geschnitten (nicht diagonal), traditionell vor dem Kochen für gebackene Gerichte gebrochen",
+                    "Gerillte Röhren im gleichen Winkel wie Penne geschnitten",
+                    "Gefüllte Röhrenpasta mit Käsefüllung",
+                    "Spiralförmige Pasta ähnlich wie Fusilli"
+                ],
+                nl: [
+                    "Lange, gladde buizen recht gesneden (niet diagonaal), traditioneel gebroken voor koken voor ovenschotels",
+                    "Gegroefd buizen gesneden in zelfde hoek als penne",
+                    "Gevulde buispasta met kaas vulling",
+                    "Spiraalvormige pasta vergelijkbaar met fusilli"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Ziti are long, smooth tube pasta with straight-cut ends (not diagonal like penne), traditionally from Campania. The name comes from 'zita' (bride) - historically served at Neapolitan weddings. Unlike penne, ziti are: 1) Longer tubes (sometimes 25-30cm before breaking), 2) Always smooth (never ridged), 3) Cut straight across rather than at an angle. Traditionally broken into 5-7cm pieces before cooking. Perfect for baked ziti - layered with sauce, ricotta, and mozzarella. The smooth surface works well with creamy, clingy sauces.",
+                es: "Los ziti son pasta de tubo largo y liso con extremos cortados rectos (no diagonal como penne), tradicionalmente de Campania. El nombre proviene de 'zita' (novia) - históricamente servido en bodas napolitanas. A diferencia de penne, los ziti son: 1) Tubos más largos (a veces 25-30cm antes de romper), 2) Siempre lisos (nunca estriados), 3) Cortados rectos en lugar de en ángulo. Tradicionalmente rotos en trozos de 5-7cm antes de cocinar. Perfectos para ziti horneados - en capas con salsa, ricotta y mozzarella. La superficie lisa funciona bien con salsas cremosas y pegajosas.",
+                de: "Ziti sind lange, glatte Röhrennudeln mit gerade geschnittenen Enden (nicht diagonal wie Penne), traditionell aus Kampanien. Der Name kommt von 'Zita' (Braut) - historisch bei neapolitanischen Hochzeiten serviert. Im Gegensatz zu Penne sind Ziti: 1) Längere Röhren (manchmal 25-30cm vor dem Brechen), 2) Immer glatt (nie gerillt), 3) Gerade geschnitten statt schräg. Traditionell vor dem Kochen in 5-7cm Stücke gebrochen. Perfekt für gebackene Ziti - geschichtet mit Sauce, Ricotta und Mozzarella. Die glatte Oberfläche funktioniert gut mit cremigen, anhaftenden Saucen.",
+                nl: "Ziti zijn lange, gladde buispasta met recht gesneden uiteinden (niet diagonaal zoals penne), traditioneel uit Campanië. De naam komt van 'zita' (bruid) - historisch geserveerd op Napolitaanse bruiloften. In tegenstelling tot penne zijn ziti: 1) Langere buizen (soms 25-30cm voor breken), 2) Altijd glad (nooit gegroefd), 3) Recht afgesneden in plaats van schuin. Traditioneel gebroken in 5-7cm stukken voor koken. Perfect voor gebakken ziti - gelaagd met saus, ricotta en mozzarella. Het gladde oppervlak werkt goed met romige, klevende sauzen."
+            }
+        },
+        {
+            question: {
+                en: "What are candele and what makes them challenging to cook?",
+                es: "¿Qué son las candele y qué las hace desafiantes de cocinar?",
+                de: "Was sind Candele und was macht sie herausfordernd zu kochen?",
+                nl: "Wat zijn candele en wat maakt ze uitdagend om te koken?"
+            },
+            options: {
+                en: [
+                    "Very long tubes (25-30cm) that must be broken or require special tall pots, from Naples",
+                    "Tiny pasta that cooks in 30 seconds",
+                    "Delicate stuffed pasta that easily breaks",
+                    "Pasta that requires constant stirring"
+                ],
+                es: [
+                    "Tubos muy largos (25-30cm) que deben romperse o requieren ollas altas especiales, de Nápoles",
+                    "Pasta diminuta que cocina en 30 segundos",
+                    "Pasta rellena delicada que se rompe fácilmente",
+                    "Pasta que requiere agitación constante"
+                ],
+                de: [
+                    "Sehr lange Röhren (25-30cm), die gebrochen werden müssen oder spezielle hohe Töpfe benötigen, aus Neapel",
+                    "Winzige Pasta, die in 30 Sekunden kocht",
+                    "Zarte gefüllte Pasta, die leicht bricht",
+                    "Pasta, die ständiges Rühren erfordert"
+                ],
+                nl: [
+                    "Zeer lange buizen (25-30cm) die gebroken moeten worden of speciale hoge pannen vereisen, uit Napels",
+                    "Kleine pasta die in 30 seconden kookt",
+                    "Delicate gevulde pasta die gemakkelijk breekt",
+                    "Pasta die constant roeren vereist"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Candele ('candles') are extremely long, thick tube pasta from Naples - originally 50cm long like candles, now typically 25-30cm. The challenge: they don't fit in standard pots. Solutions: 1) Break into shorter pieces (candele spezzate), 2) Use special tall pasta pots, 3) Gradually push them into boiling water as they soften. Traditionally served at celebrations, particularly weddings. When served whole (unbroken), they make dramatic presentation. Similar to ziti but much longer and sometimes slightly ridged (candele rigate).",
+                es: "Las candele ('velas') son pasta de tubo extremadamente larga y gruesa de Nápoles - originalmente 50cm de largo como velas, ahora típicamente 25-30cm. El desafío: no caben en ollas estándar. Soluciones: 1) Romper en trozos más cortos (candele spezzate), 2) Usar ollas altas especiales para pasta, 3) Empujarlas gradualmente al agua hirviendo mientras se ablandan. Tradicionalmente servidas en celebraciones, particularmente bodas. Cuando se sirven enteras (sin romper), hacen presentación dramática. Similar a ziti pero mucho más largas y a veces ligeramente estriadas (candele rigate).",
+                de: "Candele ('Kerzen') sind extrem lange, dicke Röhrennudeln aus Neapel - ursprünglich 50cm lang wie Kerzen, jetzt typischerweise 25-30cm. Die Herausforderung: sie passen nicht in Standardtöpfe. Lösungen: 1) In kürzere Stücke brechen (Candele Spezzate), 2) Spezielle hohe Pasta-Töpfe verwenden, 3) Allmählich ins kochende Wasser drücken während sie weich werden. Traditionell bei Feiern serviert, besonders Hochzeiten. Wenn ganz (ungebrochen) serviert, machen sie dramatische Präsentation. Ähnlich wie Ziti, aber viel länger und manchmal leicht gerillt (Candele Rigate).",
+                nl: "Candele ('kaarsen') zijn extreem lange, dikke buispasta uit Napels - oorspronkelijk 50cm lang zoals kaarsen, nu meestal 25-30cm. De uitdaging: ze passen niet in standaard pannen. Oplossingen: 1) Breken in kortere stukken (candele spezzate), 2) Speciale hoge pasta pannen gebruiken, 3) Geleidelijk in kokend water duwen terwijl ze zachter worden. Traditioneel geserveerd bij vieringen, met name bruiloften. Wanneer heel (ongebroken) geserveerd, maken ze dramatische presentatie. Vergelijkbaar met ziti maar veel langer en soms licht gegroefd (candele rigate)."
+            }
+        },
+        {
+            question: {
+                en: "What are tortelloni and how do they differ from tortellini?",
+                es: "¿Qué son los tortelloni y en qué se diferencian de los tortellini?",
+                de: "Was sind Tortelloni und wie unterscheiden sie sich von Tortellini?",
+                nl: "Wat zijn tortelloni en hoe verschillen ze van tortellini?"
+            },
+            options: {
+                en: [
+                    "Larger ring-shaped pasta with ricotta/spinach filling vs tortellini's smaller size with meat",
+                    "Same size, just different regional name",
+                    "Square-shaped vs tortellini's round shape",
+                    "Tortelloni are dried, tortellini are fresh only"
+                ],
+                es: [
+                    "Pasta en forma de anillo más grande con relleno de ricotta/espinaca vs tamaño más pequeño de tortellini con carne",
+                    "Mismo tamaño, solo nombre regional diferente",
+                    "Forma cuadrada vs forma redonda de tortellini",
+                    "Tortelloni son secos, tortellini son solo frescos"
+                ],
+                de: [
+                    "Größere ringförmige Pasta mit Ricotta-/Spinatfüllung vs. kleinere Tortellini mit Fleisch",
+                    "Gleiche Größe, nur unterschiedlicher regionaler Name",
+                    "Quadratische Form vs. runde Form von Tortellini",
+                    "Tortelloni sind getrocknet, Tortellini nur frisch"
+                ],
+                nl: [
+                    "Grotere ringvormige pasta met ricotta/spinazie vulling vs kleinere tortellini met vlees",
+                    "Zelfde grootte, alleen andere regionale naam",
+                    "Vierkante vorm vs ronde vorm van tortellini",
+                    "Tortelloni zijn gedroogd, tortellini zijn alleen vers"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Tortelloni are larger versions of tortellini - about 2-3x bigger. Key differences: 1) Size - tortelloni are 3-5cm, tortellini are 2-3cm, 2) Filling - tortelloni typically have ricotta-spinach or pumpkin (vegetable-based), tortellini traditionally have meat filling from Bologna, 3) Serving - tortelloni often with butter-sage or cream sauces, tortellini in broth (tortellini in brodo). Both share the same ring/navel shape formed by folding filled pasta squares around a finger. The 'oni' suffix indicates larger size in Italian.",
+                es: "Los tortelloni son versiones más grandes de tortellini - aproximadamente 2-3x más grandes. Diferencias clave: 1) Tamaño - tortelloni son 3-5cm, tortellini son 2-3cm, 2) Relleno - tortelloni típicamente tienen ricotta-espinaca o calabaza (a base de verduras), tortellini tradicionalmente tienen relleno de carne de Bolonia, 3) Servicio - tortelloni a menudo con salsas de mantequilla-salvia o nata, tortellini en caldo (tortellini in brodo). Ambos comparten la misma forma de anillo/ombligo formada doblando cuadrados de pasta rellenos alrededor de un dedo. El sufijo 'oni' indica mayor tamaño en italiano.",
+                de: "Tortelloni sind größere Versionen von Tortellini - etwa 2-3x größer. Hauptunterschiede: 1) Größe - Tortelloni sind 3-5cm, Tortellini sind 2-3cm, 2) Füllung - Tortelloni haben typischerweise Ricotta-Spinat oder Kürbis (gemüsebasiert), Tortellini haben traditionell Fleischfüllung aus Bologna, 3) Servieren - Tortelloni oft mit Butter-Salbei oder Sahnesaucen, Tortellini in Brühe (Tortellini in Brodo). Beide teilen die gleiche Ring-/Nabelform, gebildet durch Falten gefüllter Pasta-Quadrate um einen Finger. Das Suffix 'oni' zeigt größere Größe auf Italienisch an.",
+                nl: "Tortelloni zijn grotere versies van tortellini - ongeveer 2-3x groter. Belangrijkste verschillen: 1) Grootte - tortelloni zijn 3-5cm, tortellini zijn 2-3cm, 2) Vulling - tortelloni hebben meestal ricotta-spinazie of pompoen (groente-gebaseerd), tortellini hebben traditioneel vleesvulling uit Bologna, 3) Serveren - tortelloni vaak met boter-salie of roomsauzen, tortellini in bouillon (tortellini in brodo). Beide delen dezelfde ring/navel vorm gevormd door gevulde pasta vierkanten om een vinger te vouwen. Het 'oni' achtervoegsel geeft grotere maat aan in het Italiaans."
+            }
+        },
+        {
+            question: {
+                en: "What are sciala tielli and where do they originate?",
+                es: "¿Qué son los scialatielli y de dónde son originarios?",
+                de: "Was sind Scialatielli und woher stammen sie?",
+                nl: "Wat zijn scialatielli en waar komen ze vandaan?"
+            },
+            options: {
+                en: [
+                    "Short, thick ribbons from Amalfi Coast with cheese in dough, for seafood sauces",
+                    "Long thin noodles from Venice with tomato",
+                    "Stuffed squares from Turin with meat",
+                    "Spiral tubes from Sicily with vegetables"
+                ],
+                es: [
+                    "Cintas cortas y gruesas de la Costa Amalfitana con queso en la masa, para salsas de mariscos",
+                    "Fideos largos y delgados de Venecia con tomate",
+                    "Cuadrados rellenos de Turín con carne",
+                    "Tubos espirales de Sicilia con verduras"
+                ],
+                de: [
+                    "Kurze, dicke Bänder von der Amalfiküste mit Käse im Teig, für Meeresfrüchtesaucen",
+                    "Lange dünne Nudeln aus Venedig mit Tomate",
+                    "Gefüllte Quadrate aus Turin mit Fleisch",
+                    "Spiralröhren aus Sizilien mit Gemüse"
+                ],
+                nl: [
+                    "Korte, dikke linten van Amalfi Kust met kaas in deeg, voor zeevruchten sauzen",
+                    "Lange dunne noedels uit Venetië met tomaat",
+                    "Gevulde vierkanten uit Turijn met vlees",
+                    "Spiraalbuizen uit Sicilië met groenten"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Scialatielli are fresh pasta from the Amalfi Coast (Campania), invented in the 1960s. Distinctive features: 1) Short, thick ribbons (~1cm wide, 5-6cm long) with irregular, slightly curled edges, 2) Made with milk and grated cheese (usually pecorino or parmigiano) mixed into the dough - unusual for fresh pasta, 3) Rough texture from bronze die or hand-rolling. Specifically created to pair with seafood sauces - classic preparation is scialatielli ai frutti di mare. The cheese in dough helps sauce adhere and adds savory flavor complementing seafood.",
+                es: "Los scialatielli son pasta fresca de la Costa Amalfitana (Campania), inventados en los años 1960. Características distintivas: 1) Cintas cortas y gruesas (~1cm de ancho, 5-6cm de largo) con bordes irregulares ligeramente rizados, 2) Hechos con leche y queso rallado (usualmente pecorino o parmigiano) mezclado en la masa - inusual para pasta fresca, 3) Textura rugosa de matriz de bronce o enrollado a mano. Específicamente creados para combinar con salsas de mariscos - la preparación clásica es scialatielli ai frutti di mare. El queso en la masa ayuda a que la salsa se adhiera y añade sabor salado complementando los mariscos.",
+                de: "Scialatielli sind frische Pasta von der Amalfiküste (Kampanien), in den 1960ern erfunden. Charakteristische Merkmale: 1) Kurze, dicke Bänder (~1cm breit, 5-6cm lang) mit unregelmäßigen, leicht gekräuselten Rändern, 2) Mit Milch und geriebenem Käse (meist Pecorino oder Parmigiano) im Teig gemacht - ungewöhnlich für frische Pasta, 3) Raue Textur von Bronzematrize oder Handrollen. Speziell geschaffen, um mit Meeresfrüchtesaucen zu harmonieren - klassische Zubereitung ist Scialatielli ai Frutti di Mare. Der Käse im Teig hilft Sauce zu haften und fügt herzhaften Geschmack hinzu, der Meeresfrüchte ergänzt.",
+                nl: "Scialatielli zijn verse pasta van de Amalfi Kust (Campanië), uitgevonden in de jaren 1960. Onderscheidende kenmerken: 1) Korte, dikke linten (~1cm breed, 5-6cm lang) met onregelmatige, licht gekrulde randen, 2) Gemaakt met melk en geraspte kaas (meestal pecorino of parmigiano) gemengd in het deeg - ongebruikelijk voor verse pasta, 3) Ruwe textuur van bronzen matrijs of handrollen. Speciaal gecreëerd om te paren met zeevruchten sauzen - klassieke bereiding is scialatielli ai frutti di mare. De kaas in deeg helpt saus vasthouden en voegt hartige smaak toe die zeevruchten aanvult."
+            }
+        },
+        {
+            question: {
+                en: "What are lasagnette and how do they differ from lasagna?",
+                es: "¿Qué son las lasagnette y en qué se diferencian de la lasagna?",
+                de: "Was sind Lasagnette und wie unterscheiden sie sich von Lasagne?",
+                nl: "Wat zijn lasagnette en hoe verschillen ze van lasagne?"
+            },
+            options: {
+                en: [
+                    "Narrow ribbons with ruffled edges, served like fettuccine (not layered), smaller than lasagna sheets",
+                    "Mini lasagna sheets for individual portions",
+                    "Same as lasagna, just different name",
+                    "Fried lasagna chips for snacking"
+                ],
+                es: [
+                    "Cintas estrechas con bordes ondulados, servidas como fettuccine (no en capas), más pequeñas que láminas de lasagna",
+                    "Láminas mini de lasagna para porciones individuales",
+                    "Igual que lasagna, solo nombre diferente",
+                    "Chips de lasagna fritos para picar",
+                    "Láminas de lasagna en capas más pequeñas"
+                ],
+                de: [
+                    "Schmale Bänder mit gekräuselten Rändern, wie Fettuccine serviert (nicht geschichtet), kleiner als Lasagneplatten",
+                    "Mini-Lasagneplatten für einzelne Portionen",
+                    "Gleich wie Lasagne, nur anderer Name",
+                    "Frittierte Lasagne-Chips zum Snacken"
+                ],
+                nl: [
+                    "Smalle linten met geplooide randen, geserveerd zoals fettuccine (niet gelaagd), kleiner dan lasagne vellen",
+                    "Mini lasagne vellen voor individuele porties",
+                    "Hetzelfde als lasagne, alleen andere naam",
+                    "Gefrituurde lasagne chips om te snacken"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Lasagnette are narrow ribbon pasta (~1-2cm wide) with wavy/ruffled edges on one or both sides - essentially miniature lasagna sheets used differently. Unlike lasagna sheets (used for layered baked dishes), lasagnette are: 1) Much narrower, 2) Cooked and served like regular ribbon pasta (fettuccine-style) with sauces, not layered, 3) Often have decorative ruffled edges (mafaldine are similar). The name means 'little lasagna'. Good with rich sauces that catch in the ruffles. Shows how same base shape can be transformed by size into different pasta types.",
+                es: "Las lasagnette son pasta de cinta estrecha (~1-2cm de ancho) con bordes ondulados/rizados en uno o ambos lados - esencialmente láminas de lasagna en miniatura usadas diferentemente. A diferencia de las láminas de lasagna (usadas para platos horneados en capas), las lasagnette son: 1) Mucho más estrechas, 2) Cocinadas y servidas como pasta de cinta regular (estilo fettuccine) con salsas, no en capas, 3) A menudo tienen bordes ondulados decorativos (las mafaldine son similares). El nombre significa 'pequeña lasagna'. Buenas con salsas ricas que se atrapan en los rizos. Muestra cómo la misma forma base puede transformarse por tamaño en diferentes tipos de pasta.",
+                de: "Lasagnette sind schmale Bandnudeln (~1-2cm breit) mit welligen/gekräuselten Rändern an einer oder beiden Seiten - im Wesentlichen Miniatur-Lasagneplatten anders verwendet. Im Gegensatz zu Lasagneplatten (für geschichtete gebackene Gerichte verwendet) sind Lasagnette: 1) Viel schmaler, 2) Wie normale Bandnudeln gekocht und serviert (Fettuccine-Stil) mit Saucen, nicht geschichtet, 3) Haben oft dekorative gekräuselte Ränder (Mafaldine sind ähnlich). Der Name bedeutet 'kleine Lasagne'. Gut mit reichhaltigen Saucen, die sich in den Kräuselungen fangen. Zeigt, wie gleiche Grundform durch Größe in verschiedene Nudeltypen verwandelt werden kann.",
+                nl: "Lasagnette zijn smalle lintpasta (~1-2cm breed) met golvende/geplooide randen aan één of beide zijden - in essentie miniatuur lasagne vellen anders gebruikt. In tegenstelling tot lasagne vellen (gebruikt voor gelaagde ovenschotels) zijn lasagnette: 1) Veel smaller, 2) Gekookt en geserveerd zoals gewone lintpasta (fettuccine-stijl) met sauzen, niet gelaagd, 3) Hebben vaak decoratieve geplooide randen (mafaldine zijn vergelijkbaar). De naam betekent 'kleine lasagne'. Goed met rijke sauzen die in de plooien vangen. Toont hoe dezelfde basisvorm door maat getransformeerd kan worden in verschillende pastatypes."
+            }
+        },
+        {
+            question: {
+                en: "What are pizzoccheri's unique nutritional characteristics?",
+                es: "¿Cuáles son las características nutricionales únicas de los pizzoccheri?",
+                de: "Was sind die einzigartigen ernährungsphysiologischen Eigenschaften von Pizzoccheri?",
+                nl: "Wat zijn de unieke voedingskenmerken van pizzoccheri?"
+            },
+            options: {
+                en: [
+                    "Made with buckwheat flour providing higher protein, fiber, and gluten-free option",
+                    "Made with almond flour for keto diet",
+                    "Fortified with vitamins and minerals",
+                    "Made with rice flour for low-calorie option"
+                ],
+                es: [
+                    "Hechos con harina de trigo sarraceno proporcionando mayor proteína, fibra y opción sin gluten",
+                    "Hechos con harina de almendra para dieta keto",
+                    "Fortificados con vitaminas y minerales",
+                    "Hechos con harina de arroz para opción baja en calorías"
+                ],
+                de: [
+                    "Aus Buchweizenmehl hergestellt, bietet höheres Protein, Ballaststoffe und glutenfreie Option",
+                    "Aus Mandelmehl für Keto-Diät",
+                    "Mit Vitaminen und Mineralien angereichert",
+                    "Aus Reismehl für kalorienarme Option"
+                ],
+                nl: [
+                    "Gemaakt met boekweitmeel wat hoger eiwit, vezels en glutenvrije optie biedt",
+                    "Gemaakt met amandelmeel voor keto dieet",
+                    "Verrijkt met vitamines en mineralen",
+                    "Gemaakt met rijstmeel voor laag-calorieën optie"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "Pizzoccheri are made from buckwheat flour (grano saraceno) mixed with wheat flour (typically 80% buckwheat, 20% wheat). Nutritional advantages: 1) Higher protein than regular pasta (~13-15% vs 12-13%), 2) Rich in fiber, particularly resistant starch, 3) Contains rutin (antioxidant) beneficial for circulation, 4) Lower glycemic index than wheat pasta, 5) Despite the name, buckwheat is gluten-free (though pizzoccheri usually contain some wheat flour). The hearty buckwheat flavor pairs perfectly with rich Alpine ingredients like cabbage, potatoes, and mountain cheeses.",
+                es: "Los pizzoccheri están hechos de harina de trigo sarraceno (grano saraceno) mezclada con harina de trigo (típicamente 80% trigo sarraceno, 20% trigo). Ventajas nutricionales: 1) Mayor proteína que la pasta regular (~13-15% vs 12-13%), 2) Rica en fibra, particularmente almidón resistente, 3) Contiene rutina (antioxidante) beneficiosa para la circulación, 4) Índice glucémico más bajo que la pasta de trigo, 5) A pesar del nombre, el trigo sarraceno es sin gluten (aunque los pizzoccheri usualmente contienen algo de harina de trigo). El robusto sabor del trigo sarraceno combina perfectamente con ingredientes alpinos ricos como col, patatas y quesos de montaña.",
+                de: "Pizzoccheri werden aus Buchweizenmehl (Grano Saraceno) gemischt mit Weizenmehl hergestellt (typischerweise 80% Buchweizen, 20% Weizen). Ernährungsvorteile: 1) Höheres Protein als normale Pasta (~13-15% vs 12-13%), 2) Reich an Ballaststoffen, besonders resistenter Stärke, 3) Enthält Rutin (Antioxidans) vorteilhaft für Durchblutung, 4) Niedrigerer glykämischer Index als Weizenpasta, 5) Trotz des Namens ist Buchweizen glutenfrei (obwohl Pizzoccheri normalerweise etwas Weizenmehl enthalten). Der herzhafte Buchweizengeschmack passt perfekt zu reichhaltigen alpinen Zutaten wie Kohl, Kartoffeln und Bergkäse.",
+                nl: "Pizzoccheri zijn gemaakt van boekweitmeel (grano saraceno) gemengd met tarwemeel (meestal 80% boekweit, 20% tarwe). Voedingsvoordelen: 1) Hoger eiwit dan gewone pasta (~13-15% vs 12-13%), 2) Rijk aan vezels, met name resistent zetmeel, 3) Bevat rutine (antioxidant) gunstig voor circulatie, 4) Lagere glycemische index dan tarwepasta, 5) Ondanks de naam is boekweit glutenvrij (hoewel pizzoccheri meestal wat tarwemeel bevatten). De stevige boekweitsmaak past perfect bij rijke Alpine ingrediënten zoals kool, aardappelen en bergkazen."
+            }
+        },
+        {
+            question: {
+                en: "What are the three classic Roman pasta sauces and their key ingredients?",
+                es: "¿Cuáles son las tres salsas clásicas romanas de pasta y sus ingredientes clave?",
+                de: "Was sind die drei klassischen römischen Pastasaucen und ihre Hauptzutaten?",
+                nl: "Wat zijn de drie klassieke Romeinse pastasauzen en hun belangrijkste ingrediënten?"
+            },
+            options: {
+                en: [
+                    "Cacio e pepe (pecorino-pepper), carbonara (guanciale-egg-pecorino), amatriciana (guanciale-tomato-pecorino)",
+                    "Bolognese, pesto, marinara",
+                    "Alfredo, vodka sauce, arrabbiata",
+                    "Puttanesca, napoletana, siciliana"
+                ],
+                es: [
+                    "Cacio e pepe (pecorino-pimienta), carbonara (guanciale-huevo-pecorino), amatriciana (guanciale-tomate-pecorino)",
+                    "Boloñesa, pesto, marinara",
+                    "Alfredo, salsa vodka, arrabbiata",
+                    "Puttanesca, napolitana, siciliana"
+                ],
+                de: [
+                    "Cacio e Pepe (Pecorino-Pfeffer), Carbonara (Guanciale-Ei-Pecorino), Amatriciana (Guanciale-Tomate-Pecorino)",
+                    "Bolognese, Pesto, Marinara",
+                    "Alfredo, Wodka-Sauce, Arrabbiata",
+                    "Puttanesca, Napoletana, Siciliana"
+                ],
+                nl: [
+                    "Cacio e pepe (pecorino-peper), carbonara (guanciale-ei-pecorino), amatriciana (guanciale-tomaat-pecorino)",
+                    "Bolognese, pesto, marinara",
+                    "Alfredo, vodka saus, arrabbiata",
+                    "Puttanesca, napoletana, siciliana"
+                ]
+            },
+            correctAnswer: 0,
+            explanation: {
+                en: "The 'Holy Trinity' of Roman pasta: 1) Cacio e pepe - simplest, just pecorino romano, black pepper, pasta water (no cream, no butter), 2) Carbonara - adds guanciale (cured pork jowl) and egg yolk to pecorino base (no cream!), 3) Amatriciana - guanciale, tomato, pecorino, chili. All three share pecorino romano as base cheese. A fourth related sauce, gricia, is amatriciana without tomato. These showcase Roman cucina povera - humble ingredients elevated through technique. Tonnarelli or rigatoni traditionally used.",
+                es: "La 'Trinidad Sagrada' de la pasta romana: 1) Cacio e pepe - la más simple, solo pecorino romano, pimienta negra, agua de pasta (sin nata, sin mantequilla), 2) Carbonara - añade guanciale (papada de cerdo curada) y yema de huevo a la base de pecorino (¡sin nata!), 3) Amatriciana - guanciale, tomate, pecorino, chile. Las tres comparten pecorino romano como queso base. Una cuarta salsa relacionada, gricia, es amatriciana sin tomate. Estas muestran la cucina povera romana - ingredientes humildes elevados mediante técnica. Tradicionalmente se usa tonnarelli o rigatoni.",
+                de: "Die 'Heilige Dreifaltigkeit' römischer Pasta: 1) Cacio e Pepe - am einfachsten, nur Pecorino Romano, schwarzer Pfeffer, Nudelwasser (keine Sahne, keine Butter), 2) Carbonara - fügt Guanciale (gepökelte Schweinebacke) und Eigelb zur Pecorino-Basis hinzu (keine Sahne!), 3) Amatriciana - Guanciale, Tomate, Pecorino, Chili. Alle drei teilen Pecorino Romano als Basiskäse. Eine vierte verwandte Sauce, Gricia, ist Amatriciana ohne Tomate. Diese zeigen römische Cucina Povera - bescheidene Zutaten durch Technik erhöht. Traditionell mit Tonnarelli oder Rigatoni verwendet.",
+                nl: "De 'Heilige Drie-eenheid' van Romeinse pasta: 1) Cacio e pepe - simpelst, alleen pecorino romano, zwarte peper, pastawater (geen room, geen boter), 2) Carbonara - voegt guanciale (gezouten varkenskaak) en eigeel toe aan pecorino basis (geen room!), 3) Amatriciana - guanciale, tomaat, pecorino, chili. Alle drie delen pecorino romano als basiskaas. Een vierde gerelateerde saus, gricia, is amatriciana zonder tomaat. Deze tonen Romeinse cucina povera - bescheiden ingrediënten verheven door techniek. Traditioneel gebruikt met tonnarelli of rigatoni."
+            }
+        }

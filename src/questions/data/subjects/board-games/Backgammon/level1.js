@@ -825,7 +825,18 @@
           es: "Cuando sacas tu última (15ª) ficha, ganas el juego inmediatamente. El tipo de victoria (regular, gammon o backgammon) depende de la posición del oponente.",
           de: "Wenn du deinen letzten (15.) Stein auswürfelst, gewinnst du sofort das Spiel. Die Art des Sieges (normal, Gammon oder Backgammon) hängt von der Position des Gegners ab.",
           nl: "Wanneer je je laatste (15e) steen uitspeelt, win je het spel onmiddellijk. Het type overwinning (gewoon, gammon of backgammon) hangt af van de positie van de tegenstander."
-        }
+        }    },
+    {
+      question: {en: "What is strategy in games?", es: "What is strategy in games?", de: "What is strategy in games?", nl: "What is strategy in games?"},
+      options: [
+        {en: "Planning to achieve objectives", es: "Planning to achieve objectives", de: "Planning to achieve objectives", nl: "Planning to achieve objectives"},
+        {en: "Random moves", es: "Random moves", de: "Random moves", nl: "Random moves"},
+        {en: "Luck only", es: "Luck only", de: "Luck only", nl: "Luck only"},
+        {en: "No planning", es: "No planning", de: "No planning", nl: "No planning"}
+      ],
+      correct: 0,
+      explanation: {en: "Strategy involves planning and decision-making to achieve game objectives.", es: "Strategy involves planning and decision-making to achieve game objectives.", de: "Strategy involves planning and decision-making to achieve game objectives.", nl: "Strategy involves planning and decision-making to achieve game objectives."}
+
       }
     ]
   };

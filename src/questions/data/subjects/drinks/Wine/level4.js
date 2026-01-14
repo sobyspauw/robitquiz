@@ -1036,9 +1036,430 @@
                   "es": "El trasiego es transferir vino de un recipiente a otro, dejando atrás sedimentos. Esto aclara el vino y puede introducir exposición controlada al oxígeno para el desarrollo.",
                   "de": "Abziehen ist das Umfüllen von Wein von einem Behälter in einen anderen unter Zurücklassung von Sediment. Dies klärt den Wein und kann kontrollierte Sauerstoffexposition für die Entwicklung einführen.",
                   "nl": "Aftappen is het overgieten van wijn van de ene container naar een andere, waarbij sediment achterblijft. Dit klaart wijn en kan gecontroleerde zuurstofblootstelling voor ontwikkeling introduceren."
-            }
+            }    },
+    {
+      question: {
+        en: "What is the difference between French and American oak barrels?",
+        es: "¿Cuál es la diferencia entre barricas de roble francés y americano?",
+        de: "Was ist der Unterschied zwischen französischen und amerikanischen Eichenfässern?",
+        nl: "Wat is het verschil tussen Franse en Amerikaanse eiken vaten?"
+      },
+      options: [
+        { en: "French oak is tighter-grained and more subtle", es: "El roble francés tiene grano más apretado y es más sutil", de: "Französische Eiche ist feinkörniger und subtiler", nl: "Frans eiken is fijner van nerf en subtieler" },
+        { en: "American oak is more expensive", es: "El roble americano es más caro", de: "Amerikanische Eiche ist teurer", nl: "Amerikaans eiken is duurder" },
+        { en: "French oak comes in smaller barrels", es: "El roble francés viene en barricas más pequeñas", de: "Französische Eiche kommt in kleineren Fässern", nl: "Frans eiken komt in kleinere vaten" },
+        { en: "There is no significant difference", es: "No hay diferencia significativa", de: "Es gibt keinen signifikanten Unterschied", nl: "Er is geen significant verschil" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "French oak has tighter grain and imparts more subtle flavors (vanilla, spice), while American oak is more porous with bolder flavors (coconut, dill).",
+        es: "El roble francés tiene un grano más apretado e imparte sabores más sutiles (vainilla, especias), mientras que el roble americano es más poroso con sabores más audaces (coco, eneldo).",
+        de: "Französische Eiche hat feineres Korn und verleiht subtilere Aromen (Vanille, Gewürze), während amerikanische Eiche poröser ist mit kräftigeren Aromen (Kokosnuss, Dill).",
+        nl: "Frans eiken heeft fijnere nerf en geeft subtielere smaken (vanille, kruiden), terwijl Amerikaans eiken poreuzer is met krachtigere smaken (kokos, dille)."
       }
-    ]
+    },
+    {
+      question: {
+        en: "What is barrel toasting in wine production?",
+        es: "¿Qué es el tostado de barricas en la producción de vino?",
+        de: "Was ist Fassröstung in der Weinproduktion?",
+        nl: "Wat is vat roosteren bij wijnproductie?"
+      },
+      options: [
+        { en: "Heating barrel staves over fire", es: "Calentar duelas de barrica sobre fuego", de: "Fassdauben über Feuer erhitzen", nl: "Vatduigen boven vuur verhitten" },
+        { en: "Toasting bread with wine", es: "Tostar pan con vino", de: "Brot mit Wein rösten", nl: "Brood roosteren met wijn" },
+        { en: "Aging wine in hot climates", es: "Envejecer vino en climas cálidos", de: "Wein in heißen Klimazonen altern", nl: "Wijn rijpen in warme klimaten" },
+        { en: "Baking barrels to dry them", es: "Hornear barricas para secarlas", de: "Fässer zum Trocknen backen", nl: "Vaten bakken om ze te drogen" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Barrel toasting chars the inside of barrels over fire, creating different flavor compounds. Light, medium, and heavy toast levels produce vanilla, caramel, or smoky notes.",
+        es: "El tostado de barricas carboniza el interior de las barricas sobre fuego, creando diferentes compuestos de sabor. Los niveles de tostado ligero, medio y pesado producen notas de vainilla, caramelo o ahumadas.",
+        de: "Fassröstung verkohlt das Innere von Fässern über Feuer und erzeugt verschiedene Geschmacksverbindungen. Leichte, mittlere und starke Röstgrade erzeugen Vanille-, Karamell- oder Rauchnoten.",
+        nl: "Vat roosteren verkoolt de binnenkant van vaten boven vuur, wat verschillende smaakverbindingen creëert. Licht, medium en zwaar geroosterde niveaus produceren vanille-, karamel- of rokerige tonen."
+      }
+    },
+    {
+      question: {
+        en: "What is extended maceration in red winemaking?",
+        es: "¿Qué es la maceración extendida en la vinificación de vino tinto?",
+        de: "Was ist verlängerte Mazeration bei der Rotweinerzeugung?",
+        nl: "Wat is verlengde maceratie bij rode wijnproductie?"
+      },
+      options: [
+        { en: "Long skin contact after fermentation", es: "Contacto prolongado con la piel después de la fermentación", de: "Langer Schalenkontakt nach der Gärung", nl: "Lang schilcontact na fermentatie" },
+        { en: "Fermenting for many months", es: "Fermentar durante muchos meses", de: "Viele Monate lang gären", nl: "Maandenlang fermenteren" },
+        { en: "Soaking grapes before pressing", es: "Remojar uvas antes de prensar", de: "Trauben vor dem Pressen einweichen", nl: "Druiven weken voor persen" },
+        { en: "Extended barrel aging", es: "Envejecimiento prolongado en barrica", de: "Verlängerte Fassreifung", nl: "Verlengde vatrijping" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Extended maceration keeps wine in contact with skins for weeks or months after fermentation finishes, extracting softer tannins and deeper flavors without harshness.",
+        es: "La maceración extendida mantiene el vino en contacto con las pieles durante semanas o meses después de que termina la fermentación, extrayendo taninos más suaves y sabores más profundos sin aspereza.",
+        de: "Verlängerte Mazeration hält Wein wochen- oder monatelang nach Ende der Gärung in Kontakt mit Schalen und extrahiert weichere Tannine und tiefere Aromen ohne Härte.",
+        nl: "Verlengde maceratie houdt wijn weken of maanden in contact met schillen nadat fermentatie is afgelopen, wat zachtere tannines en diepere smaken extraheert zonder hardheid."
+      }
+    },
+    {
+      question: {
+        en: "What are concrete eggs used for in winemaking?",
+        es: "¿Para qué se utilizan los huevos de hormigón en la vinificación?",
+        de: "Wofür werden Betoneier in der Weinherstellung verwendet?",
+        nl: "Waarvoor worden betonnen eieren gebruikt bij wijnmaken?"
+      },
+      options: [
+        { en: "Fermentation and aging vessels", es: "Recipientes de fermentación y envejecimiento", de: "Gär- und Reifebehälter", nl: "Fermentatie- en rijpingsvaten" },
+        { en: "Egg white fining agents", es: "Agentes clarificantes de clara de huevo", de: "Eiweiß-Schönungsmittel", nl: "Eiwit zuiveringsmiddelen" },
+        { en: "Decorative cellar items", es: "Artículos decorativos de bodega", de: "Dekorative Kellerartikel", nl: "Decoratieve kelderobjecten" },
+        { en: "Temperature control devices", es: "Dispositivos de control de temperatura", de: "Temperaturkontrollgeräte", nl: "Temperatuurcontrole apparaten" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Concrete eggs are egg-shaped fermentation vessels that create natural convection currents, keeping lees suspended and adding texture without oak flavors.",
+        es: "Los huevos de hormigón son recipientes de fermentación en forma de huevo que crean corrientes de convección naturales, manteniendo las lías en suspensión y añadiendo textura sin sabores de roble.",
+        de: "Betoneier sind eiförmige Gärbehälter, die natürliche Konvektionsströmungen erzeugen, die Hefe in der Schwebe halten und Textur ohne Eichenaromen hinzufügen.",
+        nl: "Betonnen eieren zijn eivormige fermentatievaten die natuurlijke convectiestromen creëren, die droesem in suspensie houden en textuur toevoegen zonder eikensmaak."
+      }
+    },
+    {
+      question: {
+        en: "What is cross-flow filtration?",
+        es: "¿Qué es la filtración de flujo cruzado?",
+        de: "Was ist Querstromfiltration?",
+        nl: "Wat is crossflow filtratie?"
+      },
+      options: [
+        { en: "Advanced tangential filtration technique", es: "Técnica avanzada de filtración tangencial", de: "Fortschrittliche Tangentialfiltrationstechnik", nl: "Geavanceerde tangentiële filtratietechniek" },
+        { en: "Filtering wine across vineyard rows", es: "Filtrar vino a través de hileras de viñedos", de: "Wein über Weinbergreihen filtern", nl: "Wijn filteren over wijngaardrijen" },
+        { en: "Using crossed filter papers", es: "Usar papeles de filtro cruzados", de: "Verwendung von gekreuzten Filterpapieren", nl: "Gebruik van gekruiste filterpapers" },
+        { en: "Traditional barrel filtration", es: "Filtración tradicional de barrica", de: "Traditionelle Fassfiltration", nl: "Traditionele vatfiltratie" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Cross-flow filtration pumps wine parallel to filter membranes, preventing clogging and removing particles while preserving wine quality better than traditional methods.",
+        es: "La filtración de flujo cruzado bombea vino paralelo a las membranas del filtro, evitando obstrucciones y eliminando partículas mientras preserva mejor la calidad del vino que los métodos tradicionales.",
+        de: "Querstromfiltration pumpt Wein parallel zu Filtermembranen, verhindert Verstopfung und entfernt Partikel, während die Weinqualität besser erhalten bleibt als bei traditionellen Methoden.",
+        nl: "Crossflow filtratie pompt wijn parallel aan filtermembranen, voorkomt verstopping en verwijdert deeltjes terwijl wijnkwaliteit beter behouden blijft dan traditionele methoden."
+      }
+    },
+    {
+      question: {
+        en: "What are amphoras in winemaking?",
+        es: "¿Qué son las ánforas en la vinificación?",
+        de: "Was sind Amphoren in der Weinherstellung?",
+        nl: "Wat zijn amfora's bij wijnmaken?"
+      },
+      options: [
+        { en: "Ancient clay fermentation vessels", es: "Recipientes antiguos de fermentación de arcilla", de: "Antike Tongefäße zur Gärung", nl: "Oude kleien fermentatievaten" },
+        { en: "Modern steel tanks", es: "Tanques modernos de acero", de: "Moderne Stahltanks", nl: "Moderne stalen tanks" },
+        { en: "French oak barrels", es: "Barricas de roble francés", de: "Französische Eichenfässer", nl: "Franse eiken vaten" },
+        { en: "Grape pressing machines", es: "Máquinas de prensar uvas", de: "Traubenpressen", nl: "Druivenpersers" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Amphoras are egg-shaped terracotta vessels used for 8,000 years, now revived in natural winemaking. They allow micro-oxygenation without oak influence.",
+        es: "Las ánforas son recipientes de terracota en forma de huevo utilizados durante 8,000 años, ahora revividos en la vinificación natural. Permiten micro-oxigenación sin influencia de roble.",
+        de: "Amphoren sind eiförmige Terrakottagefäße, die seit 8.000 Jahren verwendet werden und jetzt in der natürlichen Weinherstellung wiederbelebt wurden. Sie ermöglichen Mikro-Oxygenierung ohne Eicheneinfluss.",
+        nl: "Amfora's zijn eivormige terracotta vaten die 8.000 jaar zijn gebruikt, nu herleefd in natuurlijke wijnmakerij. Ze maken micro-oxygenatie mogelijk zonder eiken invloed."
+      }
+    },
+    {
+      question: {
+        en: "What is the purpose of adding sulfites (SO2) to wine?",
+        es: "¿Cuál es el propósito de agregar sulfitos (SO2) al vino?",
+        de: "Was ist der Zweck der Zugabe von Sulfiten (SO2) zum Wein?",
+        nl: "Wat is het doel van het toevoegen van sulfieten (SO2) aan wijn?"
+      },
+      options: [
+        { en: "Preservation and antioxidant protection", es: "Preservación y protección antioxidante", de: "Konservierung und antioxidativer Schutz", nl: "Conservering en antioxidant bescherming" },
+        { en: "Adding sweetness", es: "Añadir dulzura", de: "Süße hinzufügen", nl: "Zoetheid toevoegen" },
+        { en: "Increasing alcohol content", es: "Aumentar el contenido de alcohol", de: "Alkoholgehalt erhöhen", nl: "Alcoholgehalte verhogen" },
+        { en: "Clarifying wine", es: "Clarificar el vino", de: "Wein klären", nl: "Wijn klaren" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Sulfites prevent oxidation and microbial spoilage. Even 'no added sulfite' wines contain natural sulfites from fermentation. Used since Roman times.",
+        es: "Los sulfitos previenen la oxidación y el deterioro microbiano. Incluso los vinos 'sin sulfitos añadidos' contienen sulfitos naturales de la fermentación. Usado desde tiempos romanos.",
+        de: "Sulfite verhindern Oxidation und mikrobiellen Verderb. Selbst 'ohne zugesetzte Sulfite'-Weine enthalten natürliche Sulfite aus der Gärung. Seit römischer Zeit verwendet.",
+        nl: "Sulfieten voorkomen oxidatie en microbieel bederf. Zelfs 'geen toegevoegde sulfiet' wijnen bevatten natuurlijke sulfieten van fermentatie. Gebruikt sinds Romeinse tijden."
+      }
+    },
+    {
+      question: {
+        en: "What is bentonite used for in winemaking?",
+        es: "¿Para qué se utiliza la bentonita en la vinificación?",
+        de: "Wofür wird Bentonit in der Weinherstellung verwendet?",
+        nl: "Waarvoor wordt bentoniet gebruikt bij wijnmaken?"
+      },
+      options: [
+        { en: "Fining agent to remove proteins", es: "Agente clarificante para eliminar proteínas", de: "Schönungsmittel zum Entfernen von Proteinen", nl: "Zuiveringsmiddel om eiwitten te verwijderen" },
+        { en: "Adding minerals to wine", es: "Añadir minerales al vino", de: "Mineralien zum Wein hinzufügen", nl: "Mineralen toevoegen aan wijn" },
+        { en: "Preventing fermentation", es: "Prevenir la fermentación", de: "Gärung verhindern", nl: "Fermentatie voorkomen" },
+        { en: "Adjusting acidity", es: "Ajustar la acidez", de: "Säure anpassen", nl: "Zuurgraad aanpassen" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Bentonite is a clay-based fining agent that removes unstable proteins from white wines, preventing haziness. It binds to proteins and settles out.",
+        es: "La bentonita es un agente clarificante a base de arcilla que elimina proteínas inestables de los vinos blancos, previniendo la turbidez. Se une a las proteínas y se asienta.",
+        de: "Bentonit ist ein tonbasiertes Schönungsmittel, das instabile Proteine aus Weißweinen entfernt und Trübung verhindert. Es bindet an Proteine und setzt sich ab.",
+        nl: "Bentoniet is een klei-gebaseerd zuiveringsmiddel dat instabiele eiwitten uit witte wijnen verwijdert, waardoor troebeling wordt voorkomen. Het bindt aan eiwitten en bezinkt."
+      }
+    },
+    {
+      question: {
+        en: "What is a rotary fermenter?",
+        es: "¿Qué es un fermentador rotativo?",
+        de: "Was ist ein Rotationsgärbehälter?",
+        nl: "Wat is een roterende fermenter?"
+      },
+      options: [
+        { en: "Horizontal rotating tank for extraction", es: "Tanque giratorio horizontal para extracción", de: "Horizontal rotierender Tank zur Extraktion", nl: "Horizontale roterende tank voor extractie" },
+        { en: "Traditional wooden barrel", es: "Barrica tradicional de madera", de: "Traditionelles Holzfass", nl: "Traditioneel houten vat" },
+        { en: "Spinning filter device", es: "Dispositivo de filtro giratorio", de: "Drehendes Filtergerät", nl: "Draaiend filterapparaat" },
+        { en: "Automated stirring mechanism", es: "Mecanismo de agitación automático", de: "Automatischer Rührmechanismus", nl: "Geautomatiseerd roermechanisme" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Rotary fermenters are horizontal tanks that rotate during fermentation, gently extracting color and tannins without harsh pumping over or punching down.",
+        es: "Los fermentadores rotativos son tanques horizontales que rotan durante la fermentación, extrayendo suavemente color y taninos sin bombeo duro o pisado.",
+        de: "Rotationsgärbehälter sind horizontale Tanks, die während der Gärung rotieren und sanft Farbe und Tannine extrahieren ohne hartes Überpumpen oder Unterstoßen.",
+        nl: "Roterende fermenters zijn horizontale tanks die tijdens fermentatie roteren, wat zachtjes kleur en tannines extraheert zonder hard overpompen of onderstampen."
+      }
+    },
+    {
+      question: {
+        en: "What is flash détente?",
+        es: "¿Qué es la flash détente?",
+        de: "Was ist Flash Détente?",
+        nl: "Wat is flash détente?"
+      },
+      options: [
+        { en: "Rapid heating and cooling for extraction", es: "Calentamiento y enfriamiento rápido para extracción", de: "Schnelles Erhitzen und Kühlen zur Extraktion", nl: "Snel verwarmen en koelen voor extractie" },
+        { en: "Quick fermentation method", es: "Método de fermentación rápida", de: "Schnelle Gärungsmethode", nl: "Snelle fermentatiemethode" },
+        { en: "Fast filtration technique", es: "Técnica de filtración rápida", de: "Schnelle Filtrationstechnik", nl: "Snelle filtratietechniek" },
+        { en: "Instant barrel aging", es: "Envejecimiento instantáneo en barrica", de: "Sofortige Fassreifung", nl: "Directe vatrijping" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Flash détente heats crushed grapes to 85°C then rapidly cools under vacuum, bursting cells to extract intense color and flavor, used in value wines and challenging vintages.",
+        es: "Flash détente calienta uvas trituradas a 85°C y luego enfría rápidamente al vacío, rompiendo células para extraer color y sabor intensos, usado en vinos de valor y cosechas desafiantes.",
+        de: "Flash Détente erhitzt zerdrückte Trauben auf 85°C und kühlt dann schnell unter Vakuum, wodurch Zellen platzen, um intensive Farbe und Geschmack zu extrahieren, verwendet bei Wertweinen und schwierigen Jahrgängen.",
+        nl: "Flash détente verwarmt geperste druiven tot 85°C en koelt dan snel onder vacuüm, waarbij cellen barsten om intense kleur en smaak te extraheren, gebruikt bij waardevolle wijnen en uitdagende oogsten."
+      }
+    },
+    {
+      question: {
+        en: "What does 'vegan wine' mean?",
+        es: "¿Qué significa 'vino vegano'?",
+        de: "Was bedeutet 'veganer Wein'?",
+        nl: "Wat betekent 'veganistische wijn'?"
+      },
+      options: [
+        { en: "No animal-derived fining agents used", es: "No se utilizan agentes clarificantes derivados de animales", de: "Keine tierischen Schönungsmittel verwendet", nl: "Geen dierlijke zuiveringsmiddelen gebruikt" },
+        { en: "Made from vegan grapes", es: "Hecho de uvas veganas", de: "Aus veganen Trauben hergestellt", nl: "Gemaakt van veganistische druiven" },
+        { en: "Organic wine only", es: "Solo vino orgánico", de: "Nur Bio-Wein", nl: "Alleen biologische wijn" },
+        { en: "No alcohol content", es: "Sin contenido de alcohol", de: "Kein Alkoholgehalt", nl: "Geen alcoholgehalte" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Vegan wines avoid animal-derived fining agents like egg whites, gelatin, or isinglass (fish bladder). They use bentonite clay or mechanical filtration instead.",
+        es: "Los vinos veganos evitan agentes clarificantes derivados de animales como claras de huevo, gelatina o cola de pescado. Usan arcilla bentonita o filtración mecánica en su lugar.",
+        de: "Vegane Weine vermeiden tierische Schönungsmittel wie Eiweiß, Gelatine oder Hausenblase. Sie verwenden stattdessen Bentonit-Ton oder mechanische Filtration.",
+        nl: "Veganistische wijnen vermijden dierlijke zuiveringsmiddelen zoals eiwitten, gelatine of vislijm. Ze gebruiken in plaats daarvan bentonietklei of mechanische filtratie."
+      }
+    },
+    {
+      question: {
+        en: "What is the Charmat method for sparkling wine?",
+        es: "¿Qué es el método Charmat para vino espumoso?",
+        de: "Was ist die Charmat-Methode für Schaumwein?",
+        nl: "Wat is de Charmat methode voor mousserende wijn?"
+      },
+      options: [
+        { en: "Second fermentation in pressurized tanks", es: "Segunda fermentación en tanques presurizados", de: "Zweite Gärung in Drucktanks", nl: "Tweede fermentatie in druktanks" },
+        { en: "Hand-riddling bottles", es: "Removido manual de botellas", de: "Handgerütteltes Flaschen", nl: "Handmatig flessen remu
+
+eren" },
+        { en: "Aging on lees for years", es: "Envejecimiento sobre lías durante años", de: "Jahrelanges Reifen auf Hefe", nl: "Jarenlang rijpen op droesem" },
+        { en: "Adding CO2 directly", es: "Añadir CO2 directamente", de: "CO2 direkt hinzufügen", nl: "CO2 direct toevoegen" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Charmat method conducts secondary fermentation in large pressurized tanks instead of bottles, making fresher, fruitier sparklings like Prosecco faster and cheaper.",
+        es: "El método Charmat realiza la fermentación secundaria en grandes tanques presurizados en lugar de botellas, haciendo espumosos más frescos y afrutados como Prosecco más rápido y barato.",
+        de: "Die Charmat-Methode führt die zweite Gärung in großen Drucktanks statt in Flaschen durch und erzeugt frischere, fruchtigere Schaumweine wie Prosecco schneller und günstiger.",
+        nl: "De Charmat methode voert secundaire fermentatie uit in grote druktanks in plaats van flessen, wat frisser, fruitigere mousserende wijnen zoals Prosecco sneller en goedkoper maakt."
+      }
+    },
+    {
+      question: {
+        en: "What is skin contact in white winemaking?",
+        es: "¿Qué es el contacto con la piel en la vinificación de vino blanco?",
+        de: "Was ist Schalenkontakt bei der Weißweinerzeugung?",
+        nl: "Wat is schilcontact bij witte wijnproductie?"
+      },
+      options: [
+        { en: "Leaving juice with skins before fermentation", es: "Dejar el jugo con las pieles antes de la fermentación", de: "Saft vor der Gärung mit Schalen lassen", nl: "Sap met schillen laten voor fermentatie" },
+        { en: "Touching grapes by hand", es: "Tocar uvas con la mano", de: "Trauben mit der Hand berühren", nl: "Druiven met de hand aanraken" },
+        { en: "Removing all grape skins", es: "Eliminar todas las pieles de uva", de: "Alle Traubenschalen entfernen", nl: "Alle druivenschillen verwijderen" },
+        { en: "Aging in skin-like containers", es: "Envejecer en recipientes similares a la piel", de: "Reifung in hautähnlichen Behältern", nl: "Rijpen in huidachtige containers" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Skin contact (maceration) for white wines extracts aromatics, phenolics, and texture from grape skins, creating more complex, fuller-bodied wines. Extended contact makes orange wines.",
+        es: "El contacto con la piel (maceración) para vinos blancos extrae aromáticos, fenólicos y textura de las pieles de uva, creando vinos más complejos y con cuerpo. El contacto extendido hace vinos naranjas.",
+        de: "Schalenkontakt (Mazeration) bei Weißweinen extrahiert Aromastoffe, Phenole und Textur aus Traubenschalen und erzeugt komplexere, vollmundigere Weine. Verlängerter Kontakt macht Orange-Weine.",
+        nl: "Schilcontact (maceratie) voor witte wijnen extraheert aroma's, fenolen en textuur uit druivenschillen, wat complexere, vollere wijnen creëert. Verlengd contact maakt oranje wijnen."
+      }
+    },
+    {
+      question: {
+        en: "What is reverse osmosis in winemaking?",
+        es: "¿Qué es la ósmosis inversa en la vinificación?",
+        de: "Was ist Umkehrosmose in der Weinherstellung?",
+        nl: "Wat is omgekeerde osmose bij wijnmaken?"
+      },
+      options: [
+        { en: "Membrane filtration to adjust alcohol/water", es: "Filtración por membrana para ajustar alcohol/agua", de: "Membranfiltration zur Anpassung von Alkohol/Wasser", nl: "Membraanfiltratie om alcohol/water aan te passen" },
+        { en: "Backwards fermentation process", es: "Proceso de fermentación inverso", de: "Rückwärtiger Gärungsprozess", nl: "Achterwaarts fermentatieproces" },
+        { en: "Osmotic pressure aging", es: "Envejecimiento por presión osmótica", de: "Osmotischer Druckalterung", nl: "Osmotische druk rijping" },
+        { en: "Reversing wine oxidation", es: "Revertir la oxidación del vino", de: "Weinoxidation umkehren", nl: "Wijnoxidatie omkeren" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Reverse osmosis uses semi-permeable membranes to remove water (concentrating wine) or alcohol (reducing ABV). Controversial but useful for adjusting wine in challenging vintages.",
+        es: "La ósmosis inversa usa membranas semipermeables para eliminar agua (concentrando vino) o alcohol (reduciendo ABV). Controvertido pero útil para ajustar vino en cosechas desafiantes.",
+        de: "Umkehrosmose verwendet halbdurchlässige Membranen, um Wasser (Wein konzentrieren) oder Alkohol (ABV reduzieren) zu entfernen. Umstritten aber nützlich zur Anpassung von Wein in schwierigen Jahrgängen.",
+        nl: "Omgekeerde osmose gebruikt semi-permeabele membranen om water (wijn concentreren) of alcohol (ABV verlagen) te verwijderen. Controversieel maar nuttig voor aanpassing van wijn in uitdagende oogsten."
+      }
+    },
+    {
+      question: {
+        en: "What is whole-bunch pressing in sparkling wine production?",
+        es: "¿Qué es el prensado de racimo entero en la producción de vino espumoso?",
+        de: "Was ist Ganztraubenpressung in der Schaumweinproduktion?",
+        nl: "Wat is hele-tros persen bij mousserende wijnproductie?"
+      },
+      options: [
+        { en: "Pressing uncrushed grape clusters gently", es: "Prensar racimos de uva sin triturar suavemente", de: "Ungequetschte Traubenbüschel sanft pressen", nl: "Ongeperste druiventrossen zachtjes persen" },
+        { en: "Crushing all grapes together", es: "Triturar todas las uvas juntas", de: "Alle Trauben zusammen quetschen", nl: "Alle druiven samen pletten" },
+        { en: "Machine harvesting grapes", es: "Cosecha mecánica de uvas", de: "Maschinelle Traubenernte", nl: "Machinaal druiven oogsten" },
+        { en: "Foot-treading grapes", es: "Pisar uvas con los pies", de: "Trauben mit den Füßen treten", nl: "Druiven met voeten trappen" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Whole-bunch pressing gently presses intact grape clusters without crushing, extracting cleaner juice with less phenolics for delicate sparkling wines like Champagne.",
+        es: "El prensado de racimo entero prensa suavemente racimos de uva intactos sin triturar, extrayendo jugo más limpio con menos fenólicos para vinos espumosos delicados como Champagne.",
+        de: "Ganztraubenpressung presst sanft intakte Traubenbüschel ohne Quetschen und extrahiert saubereren Saft mit weniger Phenolen für delikate Schaumweine wie Champagner.",
+        nl: "Hele-tros persen perst zachtjes intacte druiventrossen zonder pletten, wat schoner sap extraheert met minder fenolen voor delicate mousserende wijnen zoals Champagne."
+      }
+    },
+    {
+      question: {
+        en: "What is indigenous or wild yeast fermentation?",
+        es: "¿Qué es la fermentación con levaduras indígenas o silvestres?",
+        de: "Was ist indigene oder wilde Hefefermentation?",
+        nl: "Wat is inheemse of wilde gistfermentatie?"
+      },
+      options: [
+        { en: "Fermentation with natural vineyard yeasts", es: "Fermentación con levaduras naturales del viñedo", de: "Gärung mit natürlichen Weinberghefen", nl: "Fermentatie met natuurlijke wijngaardgisten" },
+        { en: "Using laboratory-cultured yeasts", es: "Usar levaduras cultivadas en laboratorio", de: "Verwendung von im Labor kultivierten Hefen", nl: "Gebruik van laboratorium gekweekte gisten" },
+        { en: "Fermenting without any yeast", es: "Fermentar sin levadura", de: "Gären ohne Hefe", nl: "Fermenteren zonder gist" },
+        { en: "Importing yeasts from other countries", es: "Importar levaduras de otros países", de: "Hefen aus anderen Ländern importieren", nl: "Gisten importeren uit andere landen" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Indigenous fermentation relies on native yeasts from vineyard and winery, creating more complex, terroir-driven wines but with higher risk of stuck fermentation or off-flavors.",
+        es: "La fermentación indígena se basa en levaduras nativas del viñedo y la bodega, creando vinos más complejos impulsados por el terroir pero con mayor riesgo de fermentación atascada o sabores desagradables.",
+        de: "Indigene Gärung verlässt sich auf einheimische Hefen vom Weinberg und Weingut und erzeugt komplexere, terroir-getriebene Weine, aber mit höherem Risiko für stockende Gärung oder Fehlaromen.",
+        nl: "Inheemse fermentatie vertrouwt op inheemse gisten van wijngaard en wijnmakerij, wat complexere, terroir-gedreven wijnen creëert maar met hoger risico op vastgelopen fermentatie of ongewenste smaken."
+      }
+    },
+    {
+      question: {
+        en: "What is disgorgement in sparkling wine production?",
+        es: "¿Qué es el degüelle en la producción de vino espumoso?",
+        de: "Was ist Degorgieren in der Schaumweinproduktion?",
+        nl: "Wat is degorgeren bij mousserende wijnproductie?"
+      },
+      options: [
+        { en: "Removing sediment from bottle neck", es: "Eliminar sedimento del cuello de la botella", de: "Sediment aus dem Flaschenhals entfernen", nl: "Sediment uit de flessenhals verwijderen" },
+        { en: "Adding sugar dosage", es: "Añadir dosificación de azúcar", de: "Zuckerdosierung hinzufügen", nl: "Suikerdosering toevoegen" },
+        { en: "Riddling bottles", es: "Removido de botellas", de: "Flaschen rütteln", nl: "Flessen remueren" },
+        { en: "Second fermentation", es: "Segunda fermentación", de: "Zweite Gärung", nl: "Tweede fermentatie" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Disgorgement freezes the bottle neck, pops out the frozen sediment plug, then adds dosage (sugar and wine) before final corking in méthode champenoise.",
+        es: "El degüelle congela el cuello de la botella, expulsa el tapón de sedimento congelado, luego añade dosificación (azúcar y vino) antes del corcho final en el método champenoise.",
+        de: "Degorgieren friert den Flaschenhals ein, stößt den gefrorenen Sedimentpfropfen aus, fügt dann Dosage (Zucker und Wein) vor dem endgültigen Verkorken in der Méthode Champenoise hinzu.",
+        nl: "Degorgeren bevriest de flessenhals, laat de bevroren sedimentplug eruit springen, voegt dan dosage (suiker en wijn) toe voor definitieve kurken in méthode champenoise."
+      }
+    },
+    {
+      question: {
+        en: "What is the dosage in Champagne production?",
+        es: "¿Qué es la dosificación en la producción de Champagne?",
+        de: "Was ist die Dosage in der Champagnerproduktion?",
+        nl: "Wat is de dosage bij Champagneproductie?"
+      },
+      options: [
+        { en: "Sugar and wine mixture added before corking", es: "Mezcla de azúcar y vino añadida antes del corcho", de: "Zucker-Wein-Mischung vor dem Verkorken hinzugefügt", nl: "Suiker-wijn mengsel toegevoegd voor kurken" },
+        { en: "Amount of yeast added", es: "Cantidad de levadura añadida", de: "Menge der hinzugefügten Hefe", nl: "Hoeveelheid toegevoegde gist" },
+        { en: "Alcohol percentage", es: "Porcentaje de alcohol", de: "Alkoholprozentsatz", nl: "Alcoholpercentage" },
+        { en: "Aging time in cellar", es: "Tiempo de envejecimiento en bodega", de: "Reifezeit im Keller", nl: "Rijpingstijd in kelder" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Dosage (liqueur d'expédition) is a mixture of wine and sugar added after disgorgement to adjust sweetness level, from Brut Nature (0g/L) to Doux (50+g/L).",
+        es: "La dosificación (licor de expedición) es una mezcla de vino y azúcar añadida después del degüelle para ajustar el nivel de dulzura, desde Brut Nature (0g/L) hasta Doux (50+g/L).",
+        de: "Dosage (Versandlikör) ist eine Mischung aus Wein und Zucker, die nach dem Degorgieren hinzugefügt wird, um den Süßegrad anzupassen, von Brut Nature (0g/L) bis Doux (50+g/L).",
+        nl: "Dosage (liqueur d'expédition) is een mengsel van wijn en suiker toegevoegd na degorgeren om het zoetheid niveau aan te passen, van Brut Nature (0g/L) tot Doux (50+g/L)."
+      }
+    },
+    {
+      question: {
+        en: "What is remontage (pumping over) in red winemaking?",
+        es: "¿Qué es el remontage (bombeo) en la vinificación de vino tinto?",
+        de: "Was ist Remontage (Überpumpen) bei der Rotweinerzeugung?",
+        nl: "Wat is remontage (overpompen) bij rode wijnproductie?"
+      },
+      options: [
+        { en: "Pumping juice over the grape cap", es: "Bombear jugo sobre el sombrero de uva", de: "Saft über den Tresterhut pumpen", nl: "Sap over de druivenkap pompen" },
+        { en: "Transferring wine between barrels", es: "Transferir vino entre barricas", de: "Wein zwischen Fässern umfüllen", nl: "Wijn tussen vaten overpompen" },
+        { en: "Pumping wine for aeration", es: "Bombear vino para aireación", de: "Wein zur Belüftung pumpen", nl: "Wijn pompen voor beluchting" },
+        { en: "Removing sediment", es: "Eliminar sedimento", de: "Sediment entfernen", nl: "Sediment verwijderen" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Remontage pumps fermenting juice from the bottom of the tank over the floating grape cap to extract color, tannins, and flavors during red wine fermentation.",
+        es: "El remontage bombea jugo en fermentación desde el fondo del tanque sobre el sombrero de uva flotante para extraer color, taninos y sabores durante la fermentación del vino tinto.",
+        de: "Remontage pumpt gärenden Saft vom Boden des Tanks über den schwimmenden Tresterhut, um Farbe, Tannine und Aromen während der Rotweingärung zu extrahieren.",
+        nl: "Remontage pompt gistend sap vanaf de bodem van de tank over de drijvende druivenkap om kleur, tannines en smaken te extraheren tijdens rode wijnfermentatie."
+      }
+    },
+    {
+      question: {
+        en: "What is the delestage technique?",
+        es: "¿Qué es la técnica de delestage?",
+        de: "Was ist die Delestage-Technik?",
+        nl: "Wat is de delestage techniek?"
+      },
+      options: [
+        { en: "Rack and return method during fermentation", es: "Método de trasiego y retorno durante la fermentación", de: "Abzieh- und Rückführmethode während der Gärung", nl: "Aftap- en terugkeermethode tijdens fermentatie" },
+        { en: "Foot-treading grapes", es: "Pisar uvas con los pies", de: "Trauben mit den Füßen treten", nl: "Druiven met voeten trappen" },
+        { en: "Cold soaking technique", es: "Técnica de remojo en frío", de: "Kaltmazeration Technik", nl: "Koud weken techniek" },
+        { en: "Filtering through layers", es: "Filtrar a través de capas", de: "Durch Schichten filtern", nl: "Filteren door lagen" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Delestage drains fermenting wine from the tank, aerating it, while the dry cap breaks apart. Wine is then pumped back, providing gentle extraction and oxygen exposure.",
+        es: "El delestage drena vino en fermentación del tanque, aireándolo, mientras el sombrero seco se rompe. Luego se bombea el vino de regreso, proporcionando extracción suave y exposición al oxígeno.",
+        de: "Delestage lässt gärenden Wein aus dem Tank ab und belüftet ihn, während sich der trockene Hut auflöst. Wein wird dann zurückgepumpt, was sanfte Extraktion und Sauerstoffzufuhr ermöglicht.",
+        nl: "Delestage tapt gistende wijn af uit de tank, waarbij het wordt belucht, terwijl de droge kap uit elkaar valt. Wijn wordt dan teruggepompt, wat zachte extractie en zuurstofblootstelling biedt."
+      }
+    }
+  ]
   };
 
   // Export for use in the quiz application

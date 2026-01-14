@@ -827,6 +827,826 @@
                   de: "Die kleinen Öffnungen in den Türmen sorgen für Belüftung und lassen Licht durchscheinen. Sie reduzieren auch den Windwiderstand und das Gesamtgewicht der Türme, während sie die strukturelle Integrität beibehalten.",
                   nl: "De kleine openingen in de torens zorgen voor ventilatie en laten licht doorschijnen. Ze verminderen ook de luchtweerstand en het totale gewicht van de torens terwijl ze de structurele integriteit behouden."
             }
+      },
+      {
+            question: {
+                  en: "What geometric shape are the columns in the Sagrada Familia based on?",
+                  es: "¿En qué forma geométrica se basan las columnas de la Sagrada Familia?",
+                  de: "Auf welcher geometrischen Form basieren die Säulen der Sagrada Familia?",
+                  nl: "Op welke geometrische vorm zijn de kolommen van de Sagrada Familia gebaseerd?"
+            },
+            options: [
+                  {
+                        en: "Cylinders",
+                        es: "Cilindros",
+                        de: "Zylinder",
+                        nl: "Cilinders"
+                  },
+                  {
+                        en: "Helicoids and hyperboloids",
+                        es: "Helicoides e hiperboloides",
+                        de: "Helikoide und Hyperboloide",
+                        nl: "Helicoïden en hyperboloïden"
+                  },
+                  {
+                        en: "Cubes",
+                        es: "Cubos",
+                        de: "Würfel",
+                        nl: "Kubussen"
+                  },
+                  {
+                        en: "Pyramids",
+                        es: "Pirámides",
+                        de: "Pyramiden",
+                        nl: "Piramides"
+                  }
+            ],
+            correct: 1,
+            explanation: {
+                  en: "Gaudí used helicoids and hyperboloids for the columns, shapes found in nature that provide optimal structural support while creating the tree-like branching effect.",
+                  es: "Gaudí utilizó helicoides e hiperboloides para las columnas, formas encontradas en la naturaleza que proporcionan un soporte estructural óptimo mientras crean el efecto de ramificación similar a un árbol.",
+                  de: "Gaudí verwendete Helikoide und Hyperboloide für die Säulen, Formen aus der Natur, die optimale strukturelle Unterstützung bieten und gleichzeitig den baumartigen Verzweigungseffekt erzeugen.",
+                  nl: "Gaudí gebruikte helicoïden en hyperboloïden voor de kolommen, vormen die in de natuur voorkomen en optimale structurele ondersteuning bieden terwijl ze het boomachtige vertakkingseffect creëren."
+            }
+      },
+      {
+            question: {
+                  en: "What material are most of the external sculptures made from?",
+                  es: "¿De qué material están hechas la mayoría de las esculturas externas?",
+                  de: "Aus welchem Material bestehen die meisten Außenskulpturen?",
+                  nl: "Uit welk materiaal zijn de meeste externe sculpturen gemaakt?"
+            },
+            options: [
+                  {
+                        en: "Marble",
+                        es: "Mármol",
+                        de: "Marmor",
+                        nl: "Marmer"
+                  },
+                  {
+                        en: "Bronze",
+                        es: "Bronce",
+                        de: "Bronze",
+                        nl: "Brons"
+                  },
+                  {
+                        en: "Stone",
+                        es: "Piedra",
+                        de: "Stein",
+                        nl: "Steen"
+                  },
+                  {
+                        en: "Wood",
+                        es: "Madera",
+                        de: "Holz",
+                        nl: "Hout"
+                  }
+            ],
+            correct: 2,
+            explanation: {
+                  en: "The external sculptures are primarily carved from stone, specifically different types including limestone and sandstone, chosen for durability and workability.",
+                  es: "Las esculturas externas están principalmente talladas en piedra, específicamente diferentes tipos incluyendo piedra caliza y arenisca, elegidas por su durabilidad y trabajabilidad.",
+                  de: "Die Außenskulpturen sind hauptsächlich aus Stein gemeißelt, speziell verschiedene Arten einschließlich Kalkstein und Sandstein, gewählt für Haltbarkeit und Bearbeitbarkeit.",
+                  nl: "De externe sculpturen zijn voornamelijk gehouwen uit steen, specifiek verschillende soorten waaronder kalksteen en zandsteen, gekozen voor duurzaamheid en bewerkbaarheid."
+            }
+      },
+      {
+            question: {
+                  en: "What architectural element allows the nave to be column-free?",
+                  es: "¿Qué elemento arquitectónico permite que la nave esté libre de columnas?",
+                  de: "Welches architektonische Element ermöglicht es dem Kirchenschiff, säulenfrei zu sein?",
+                  nl: "Welk architectonisch element maakt het middenschip kolomvrij?"
+            },
+            options: [
+                  {
+                        en: "Steel beams",
+                        es: "Vigas de acero",
+                        de: "Stahlträger",
+                        nl: "Stalen balken"
+                  },
+                  {
+                        en: "Flying buttresses",
+                        es: "Arbotantes",
+                        de: "Strebepfeiler",
+                        nl: "Luchtbogen"
+                  },
+                  {
+                        en: "Tree-like branching columns at the sides",
+                        es: "Columnas ramificadas como árboles en los lados",
+                        de: "Baumartige verzweigte Säulen an den Seiten",
+                        nl: "Boomachtige vertakkende kolommen aan de zijkanten"
+                  },
+                  {
+                        en: "Concrete reinforcement",
+                        es: "Refuerzo de hormigón",
+                        de: "Betonbewehrung",
+                        nl: "Betonversterking"
+                  }
+            ],
+            correct: 2,
+            explanation: {
+                  en: "The tree-like branching columns positioned along the sides of the nave distribute the roof's weight efficiently, eliminating the need for columns in the central space.",
+                  es: "Las columnas ramificadas como árboles posicionadas a lo largo de los lados de la nave distribuyen el peso del techo eficientemente, eliminando la necesidad de columnas en el espacio central.",
+                  de: "Die baumartigen verzweigten Säulen entlang der Seiten des Kirchenschiffs verteilen das Gewicht des Dachs effizient und eliminieren die Notwendigkeit von Säulen im zentralen Raum.",
+                  nl: "De boomachtige vertakkende kolommen gepositioneerd langs de zijkanten van het schip verdelen het gewicht van het dak efficiënt, waardoor kolommen in de centrale ruimte overbodig worden."
+            }
+      },
+      {
+            question: {
+                  en: "What is the significance of the turtle sculptures at the base?",
+                  es: "¿Cuál es el significado de las esculturas de tortugas en la base?",
+                  de: "Was ist die Bedeutung der Schildkrötenskulpturen an der Basis?",
+                  nl: "Wat is de betekenis van de schildpaddensculpturen aan de basis?"
+            },
+            options: [
+                  {
+                        en: "They represent longevity",
+                        es: "Representan longevidad",
+                        de: "Sie repräsentieren Langlebigkeit",
+                        nl: "Ze vertegenwoordigen een lang leven"
+                  },
+                  {
+                        en: "They are decorative only",
+                        es: "Son solo decorativas",
+                        de: "Sie sind nur dekorativ",
+                        nl: "Ze zijn alleen decoratief"
+                  },
+                  {
+                        en: "They symbolize the foundation on earth and sea",
+                        es: "Simbolizan la fundación en tierra y mar",
+                        de: "Sie symbolisieren das Fundament auf Land und Meer",
+                        nl: "Ze symboliseren het fundament op aarde en zee"
+                  },
+                  {
+                        en: "They represent Spanish culture",
+                        es: "Representan la cultura española",
+                        de: "Sie repräsentieren die spanische Kultur",
+                        nl: "Ze vertegenwoordigen de Spaanse cultuur"
+                  }
+            ],
+            correct: 2,
+            explanation: {
+                  en: "Turtles at the base of columns symbolize the foundation - land turtles on one side and sea turtles on the other, representing the church's foundation on both earth and sea.",
+                  es: "Las tortugas en la base de las columnas simbolizan la fundación: tortugas terrestres en un lado y tortugas marinas en el otro, representando la fundación de la iglesia en tierra y mar.",
+                  de: "Schildkröten an der Basis der Säulen symbolisieren das Fundament - Landschildkröten auf einer Seite und Meeresschildkröten auf der anderen, die das Fundament der Kirche auf Land und Meer repräsentieren.",
+                  nl: "Schildpadden aan de basis van de kolommen symboliseren het fundament - landschildpadden aan de ene kant en zeeschildpadden aan de andere, die het fundament van de kerk op zowel aarde als zee vertegenwoordigen."
+            }
+      },
+      {
+            question: {
+                  en: "What is the planned height of the Jesus Christ tower?",
+                  es: "¿Cuál es la altura planificada de la torre de Jesucristo?",
+                  de: "Was ist die geplante Höhe des Jesus-Christus-Turms?",
+                  nl: "Wat is de geplande hoogte van de Jezus Christus-toren?"
+            },
+            options: [
+                  {
+                        en: "150 meters",
+                        es: "150 metros",
+                        de: "150 Meter",
+                        nl: "150 meter"
+                  },
+                  {
+                        en: "172.5 meters",
+                        es: "172.5 metros",
+                        de: "172,5 Meter",
+                        nl: "172,5 meter"
+                  },
+                  {
+                        en: "200 meters",
+                        es: "200 metros",
+                        de: "200 Meter",
+                        nl: "200 meter"
+                  },
+                  {
+                        en: "250 meters",
+                        es: "250 metros",
+                        de: "250 Meter",
+                        nl: "250 meter"
+                  }
+            ],
+            correct: 1,
+            explanation: {
+                  en: "The Jesus Christ tower will reach 172.5 meters, making it slightly shorter than Montjuïc hill, as Gaudí believed human creation should not surpass God's work.",
+                  es: "La torre de Jesucristo alcanzará 172.5 metros, haciéndola ligeramente más baja que la colina de Montjuïc, ya que Gaudí creía que la creación humana no debería superar la obra de Dios.",
+                  de: "Der Jesus-Christus-Turm wird 172,5 Meter erreichen und damit etwas niedriger als der Montjuïc-Hügel sein, da Gaudí glaubte, dass menschliche Schöpfung Gottes Werk nicht übertreffen sollte.",
+                  nl: "De Jezus Christus-toren zal 172,5 meter bereiken, waardoor deze iets lager is dan de Montjuïc-heuvel, omdat Gaudí geloofde dat menselijke creatie Gods werk niet zou moeten overtreffen."
+            }
+      },
+      {
+            question: {
+                  en: "What type of vault does the ceiling use?",
+                  es: "¿Qué tipo de bóveda usa el techo?",
+                  de: "Welche Art von Gewölbe verwendet die Decke?",
+                  nl: "Welk type gewelf gebruikt het plafond?"
+            },
+            options: [
+                  {
+                        en: "Barrel vault",
+                        es: "Bóveda de cañón",
+                        de: "Tonnengewölbe",
+                        nl: "Tongewelf"
+                  },
+                  {
+                        en: "Groin vault",
+                        es: "Bóveda de arista",
+                        de: "Kreuzgratgewölbe",
+                        nl: "Kruisgewelf"
+                  },
+                  {
+                        en: "Hyperboloid vault",
+                        es: "Bóveda hiperboloide",
+                        de: "Hyperboloidgewölbe",
+                        nl: "Hyperboloïde gewelf"
+                  },
+                  {
+                        en: "Dome",
+                        es: "Cúpula",
+                        de: "Kuppel",
+                        nl: "Koepel"
+                  }
+            ],
+            correct: 2,
+            explanation: {
+                  en: "The ceiling uses hyperboloid vaults, ruled surfaces that are both structurally efficient and create the forest canopy effect Gaudí envisioned.",
+                  es: "El techo usa bóvedas hiperboloides, superficies regladas que son estructuralmente eficientes y crean el efecto de dosel forestal que Gaudí imaginó.",
+                  de: "Die Decke verwendet Hyperboloidgewölbe, geregelte Flächen, die sowohl strukturell effizient sind als auch den Waldbaldachineffekt erzeugen, den Gaudí sich vorstellte.",
+                  nl: "Het plafond gebruikt hyperboloïde gewelven, geregelde oppervlakken die zowel structureel efficiënt zijn als het boskrooneffect creëren dat Gaudí zich voorstelde."
+            }
+      },
+      {
+            question: {
+                  en: "What is unique about the apse design?",
+                  es: "¿Qué es único en el diseño del ábside?",
+                  de: "Was ist einzigartig am Apsis-Design?",
+                  nl: "Wat is uniek aan het apsis-ontwerp?"
+            },
+            options: [
+                  {
+                        en: "It has seven chapels radiating from the center",
+                        es: "Tiene siete capillas radiando desde el centro",
+                        de: "Es hat sieben Kapellen, die vom Zentrum ausstrahlen",
+                        nl: "Het heeft zeven kapellen die vanaf het midden uitstralen"
+                  },
+                  {
+                        en: "It is underground",
+                        es: "Está bajo tierra",
+                        de: "Es ist unterirdisch",
+                        nl: "Het is ondergronds"
+                  },
+                  {
+                        en: "It has no windows",
+                        es: "No tiene ventanas",
+                        de: "Es hat keine Fenster",
+                        nl: "Het heeft geen ramen"
+                  },
+                  {
+                        en: "It is made entirely of glass",
+                        es: "Está hecho completamente de vidrio",
+                        de: "Es ist vollständig aus Glas",
+                        nl: "Het is volledig van glas gemaakt"
+                  }
+            ],
+            correct: 0,
+            explanation: {
+                  en: "The apse features seven chapels radiating from the ambulatory, each dedicated to different aspects of the Holy Family's joys and sorrows, creating a symbolic circular arrangement.",
+                  es: "El ábside presenta siete capillas radiando desde el deambulatorio, cada una dedicada a diferentes aspectos de las alegrías y penas de la Sagrada Familia, creando una disposición circular simbólica.",
+                  de: "Die Apsis verfügt über sieben Kapellen, die vom Chorumgang ausstrahlen, jede verschiedenen Aspekten der Freuden und Leiden der Heiligen Familie gewidmet, was eine symbolische kreisförmige Anordnung schafft.",
+                  nl: "De apsis heeft zeven kapellen die vanaf de kooromgang uitstralen, elk gewijd aan verschillende aspecten van de vreugden en smarten van de Heilige Familie, waardoor een symbolische cirkelvormige opstelling ontstaat."
+            }
+      },
+      {
+            question: {
+                  en: "What decorative element appears repeatedly on the Nativity Facade?",
+                  es: "¿Qué elemento decorativo aparece repetidamente en la Fachada de la Natividad?",
+                  de: "Welches dekorative Element erscheint wiederholt auf der Geburtsfassade?",
+                  nl: "Welk decoratief element verschijnt herhaaldelijk op de Geboortegevel?"
+            },
+            options: [
+                  {
+                        en: "Geometric patterns",
+                        es: "Patrones geométricos",
+                        de: "Geometrische Muster",
+                        nl: "Geometrische patronen"
+                  },
+                  {
+                        en: "Plants, animals, and natural forms",
+                        es: "Plantas, animales y formas naturales",
+                        de: "Pflanzen, Tiere und natürliche Formen",
+                        nl: "Planten, dieren en natuurlijke vormen"
+                  },
+                  {
+                        en: "Abstract symbols",
+                        es: "Símbolos abstractos",
+                        de: "Abstrakte Symbole",
+                        nl: "Abstracte symbolen"
+                  },
+                  {
+                        en: "Classical columns",
+                        es: "Columnas clásicas",
+                        de: "Klassische Säulen",
+                        nl: "Klassieke kolommen"
+                  }
+            ],
+            correct: 1,
+            explanation: {
+                  en: "The Nativity Facade is richly decorated with plants, animals, and natural forms, reflecting Gaudí's belief that nature was God's creation and the best inspiration for architecture.",
+                  es: "La Fachada de la Natividad está ricamente decorada con plantas, animales y formas naturales, reflejando la creencia de Gaudí de que la naturaleza era la creación de Dios y la mejor inspiración para la arquitectura.",
+                  de: "Die Geburtsfassade ist reich mit Pflanzen, Tieren und natürlichen Formen verziert, was Gaudís Überzeugung widerspiegelt, dass die Natur Gottes Schöpfung und die beste Inspiration für Architektur war.",
+                  nl: "De Geboortegevel is rijk versierd met planten, dieren en natuurlijke vormen, wat Gaudí's geloof weerspiegelt dat de natuur Gods schepping was en de beste inspiratie voor architectuur."
+            }
+      },
+      {
+            question: {
+                  en: "How are the columns color-coded in the interior?",
+                  es: "¿Cómo están codificadas por color las columnas en el interior?",
+                  de: "Wie sind die Säulen im Inneren farbkodiert?",
+                  nl: "Hoe zijn de kolommen in het interieur kleurgecodeerd?"
+            },
+            options: [
+                  {
+                        en: "All columns are the same color",
+                        es: "Todas las columnas son del mismo color",
+                        de: "Alle Säulen haben die gleiche Farbe",
+                        nl: "Alle kolommen hebben dezelfde kleur"
+                  },
+                  {
+                        en: "Different stone types create varied colors",
+                        es: "Diferentes tipos de piedra crean colores variados",
+                        de: "Verschiedene Steinarten erzeugen unterschiedliche Farben",
+                        nl: "Verschillende steensoorten creëren gevarieerde kleuren"
+                  },
+                  {
+                        en: "They are painted different colors",
+                        es: "Están pintadas de diferentes colores",
+                        de: "Sie sind in verschiedenen Farben bemalt",
+                        nl: "Ze zijn in verschillende kleuren geschilderd"
+                  },
+                  {
+                        en: "They have colored light projections",
+                        es: "Tienen proyecciones de luz de colores",
+                        de: "Sie haben farbige Lichtprojektionen",
+                        nl: "Ze hebben gekleurde lichtprojecties"
+                  }
+            ],
+            correct: 1,
+            explanation: {
+                  en: "Different types of stone - including basalt, granite, and porphyry - create natural color variations in the columns, ranging from dark grey to reddish tones, adding visual richness to the forest-like interior.",
+                  es: "Diferentes tipos de piedra - incluyendo basalto, granito y pórfido - crean variaciones naturales de color en las columnas, que van desde gris oscuro hasta tonos rojizos, añadiendo riqueza visual al interior similar a un bosque.",
+                  de: "Verschiedene Steinarten - einschließlich Basalt, Granit und Porphyr - erzeugen natürliche Farbvariationen in den Säulen, von dunkelgrau bis zu rötlichen Tönen, was dem waldähnlichen Innenraum visuelle Fülle verleiht.",
+                  nl: "Verschillende soorten steen - waaronder basalt, graniet en porfier - creëren natuurlijke kleurvariaties in de kolommen, variërend van donkergrijs tot roodachtige tinten, wat visuele rijkdom toevoegt aan het bosachtige interieur."
+            }
+      },
+      {
+            question: {
+                  en: "What is the purpose of the inclined columns on the exterior?",
+                  es: "¿Cuál es el propósito de las columnas inclinadas en el exterior?",
+                  de: "Was ist der Zweck der geneigten Säulen an der Außenseite?",
+                  nl: "Wat is het doel van de hellende kolommen aan de buitenkant?"
+            },
+            options: [
+                  {
+                        en: "Aesthetic design only",
+                        es: "Solo diseño estético",
+                        de: "Nur ästhetisches Design",
+                        nl: "Alleen esthetisch ontwerp"
+                  },
+                  {
+                        en: "To direct forces to the ground efficiently",
+                        es: "Para dirigir las fuerzas al suelo eficientemente",
+                        de: "Um Kräfte effizient zum Boden zu leiten",
+                        nl: "Om krachten efficiënt naar de grond te leiden"
+                  },
+                  {
+                        en: "Earthquake protection",
+                        es: "Protección contra terremotos",
+                        de: "Erdbebenschutz",
+                        nl: "Aardbevingsbescherming"
+                  },
+                  {
+                        en: "To collect rainwater",
+                        es: "Para recoger agua de lluvia",
+                        de: "Um Regenwasser zu sammeln",
+                        nl: "Om regenwater op te vangen"
+                  }
+            ],
+            correct: 1,
+            explanation: {
+                  en: "The inclined columns are positioned at angles that follow the natural load paths, efficiently directing structural forces to the ground without needing flying buttresses, inspired by tree trunks supporting branches.",
+                  es: "Las columnas inclinadas están posicionadas en ángulos que siguen las trayectorias naturales de carga, dirigiendo eficientemente las fuerzas estructurales al suelo sin necesitar arbotantes, inspiradas en troncos de árboles que sostienen ramas.",
+                  de: "Die geneigten Säulen sind in Winkeln positioniert, die den natürlichen Lastpfaden folgen und strukturelle Kräfte effizient zum Boden leiten, ohne Strebepfeiler zu benötigen, inspiriert von Baumstämmen, die Äste stützen.",
+                  nl: "De hellende kolommen zijn gepositioneerd in hoeken die de natuurlijke belastingspaden volgen, waarbij structurele krachten efficiënt naar de grond worden geleid zonder luchtbogen nodig te hebben, geïnspireerd door boomstammen die takken ondersteunen."
+            }
+      },
+      {
+            question: {
+                  en: "What architectural feature tops each of the apostle towers?",
+                  es: "¿Qué característica arquitectónica corona cada una de las torres de los apóstoles?",
+                  de: "Welches architektonische Merkmal krönt jeden der Aposteltürme?",
+                  nl: "Welk architectonisch kenmerk bekroont elk van de aposteltorens?"
+            },
+            options: [
+                  {
+                        en: "A bell",
+                        es: "Una campana",
+                        de: "Eine Glocke",
+                        nl: "Een klok"
+                  },
+                  {
+                        en: "A colorful mosaic pinnacle",
+                        es: "Un pináculo de mosaico colorido",
+                        de: "Eine bunte Mosaikspitze",
+                        nl: "Een kleurrijke mozaïekspits"
+                  },
+                  {
+                        en: "A statue of the apostle",
+                        es: "Una estatua del apóstol",
+                        de: "Eine Statue des Apostels",
+                        nl: "Een standbeeld van de apostel"
+                  },
+                  {
+                        en: "A cross",
+                        es: "Una cruz",
+                        de: "Ein Kreuz",
+                        nl: "Een kruis"
+                  }
+            ],
+            correct: 1,
+            explanation: {
+                  en: "Each apostle tower is topped with colorful mosaic pinnacles covered in Venetian glass, representing the bishops' mitres and symbolizing the apostles' role as church leaders.",
+                  es: "Cada torre de apóstol está coronada con pináculos de mosaico colorido cubiertos de vidrio veneciano, representando las mitras de los obispos y simbolizando el papel de los apóstoles como líderes de la iglesia.",
+                  de: "Jeder Apostelturm wird von bunten Mosaikspitzen aus venezianischem Glas gekrönt, die die Bischofsmitras darstellen und die Rolle der Apostel als Kirchenführer symbolisieren.",
+                  nl: "Elke aposteltoren wordt bekroond met kleurrijke mozaïekspitsen bedekt met Venetiaans glas, die de bisschopsmijters vertegenwoordigen en de rol van de apostelen als kerkleiders symboliseren."
+            }
+      },
+      {
+            question: {
+                  en: "What is the symbolic meaning of the three portals on each facade?",
+                  es: "¿Cuál es el significado simbólico de los tres portales en cada fachada?",
+                  de: "Was ist die symbolische Bedeutung der drei Portale an jeder Fassade?",
+                  nl: "Wat is de symbolische betekenis van de drie portalen op elke gevel?"
+            },
+            options: [
+                  {
+                        en: "The three wise men",
+                        es: "Los tres reyes magos",
+                        de: "Die drei Weisen",
+                        nl: "De drie wijzen"
+                  },
+                  {
+                        en: "Faith, Hope, and Charity",
+                        es: "Fe, Esperanza y Caridad",
+                        de: "Glaube, Hoffnung und Nächstenliebe",
+                        nl: "Geloof, Hoop en Liefde"
+                  },
+                  {
+                        en: "Past, Present, and Future",
+                        es: "Pasado, Presente y Futuro",
+                        de: "Vergangenheit, Gegenwart und Zukunft",
+                        nl: "Verleden, Heden en Toekomst"
+                  },
+                  {
+                        en: "Heaven, Earth, and Hell",
+                        es: "Cielo, Tierra e Infierno",
+                        de: "Himmel, Erde und Hölle",
+                        nl: "Hemel, Aarde en Hel"
+                  }
+            ],
+            correct: 1,
+            explanation: {
+                  en: "The three portals on each facade represent the theological virtues: Faith, Hope, and Charity. This tripartite division carries deep religious symbolism throughout the building.",
+                  es: "Los tres portales en cada fachada representan las virtudes teologales: Fe, Esperanza y Caridad. Esta división tripartita lleva un profundo simbolismo religioso a través del edificio.",
+                  de: "Die drei Portale an jeder Fassade repräsentieren die theologischen Tugenden: Glaube, Hoffnung und Nächstenliebe. Diese dreiteilige Gliederung trägt tiefe religiöse Symbolik durch das Gebäude.",
+                  nl: "De drie portalen op elke gevel vertegenwoordigen de goddelijke deugden: Geloof, Hoop en Liefde. Deze driedelige verdeling draagt diepe religieuze symboliek door het hele gebouw."
+            }
+      },
+      {
+            question: {
+                  en: "What makes the acoustics of the Sagrada Familia special?",
+                  es: "¿Qué hace que la acústica de la Sagrada Familia sea especial?",
+                  de: "Was macht die Akustik der Sagrada Familia besonders?",
+                  nl: "Wat maakt de akoestiek van de Sagrada Familia speciaal?"
+            },
+            options: [
+                  {
+                        en: "Electronic sound system",
+                        es: "Sistema de sonido electrónico",
+                        de: "Elektronisches Soundsystem",
+                        nl: "Elektronisch geluidssysteem"
+                  },
+                  {
+                        en: "The tree-like columns create natural reverberation",
+                        es: "Las columnas como árboles crean reverberación natural",
+                        de: "Die baumartigen Säulen erzeugen natürlichen Nachhall",
+                        nl: "De boomachtige kolommen creëren natuurlijke nagalm"
+                  },
+                  {
+                        en: "Completely soundproof walls",
+                        es: "Paredes completamente insonorizadas",
+                        de: "Vollständig schalldichte Wände",
+                        nl: "Volledig geluiddichte muren"
+                  },
+                  {
+                        en: "Underground echo chambers",
+                        es: "Cámaras de eco subterráneas",
+                        de: "Unterirdische Echokammern",
+                        nl: "Ondergrondse echokamers"
+                  }
+            ],
+            correct: 1,
+            explanation: {
+                  en: "The tree-like columnar structure and vaulted ceiling were designed to create optimal natural acoustics for sacred music, with sound reflecting and diffusing throughout the space like in a forest.",
+                  es: "La estructura columnar como árbol y el techo abovedado fueron diseñados para crear una acústica natural óptima para música sacra, con el sonido reflejándose y difundiéndose por todo el espacio como en un bosque.",
+                  de: "Die baumartige Säulenstruktur und die gewölbte Decke wurden entworfen, um optimale natürliche Akustik für sakrale Musik zu schaffen, wobei sich der Klang im Raum wie in einem Wald reflektiert und verbreitet.",
+                  nl: "De boomachtige kolomstructuur en gewelfd plafond werden ontworpen om optimale natuurlijke akoestiek voor sacrale muziek te creëren, waarbij geluid door de ruimte reflecteert en diffundeert zoals in een bos."
+            }
+      },
+      {
+            question: {
+                  en: "What structural innovation allows the towers to be so tall?",
+                  es: "¿Qué innovación estructural permite que las torres sean tan altas?",
+                  de: "Welche strukturelle Innovation ermöglicht es den Türmen, so hoch zu sein?",
+                  nl: "Welke structurele innovatie maakt het mogelijk dat de torens zo hoog zijn?"
+            },
+            options: [
+                  {
+                        en: "Steel framework",
+                        es: "Estructura de acero",
+                        de: "Stahlgerüst",
+                        nl: "Stalen raamwerk"
+                  },
+                  {
+                        en: "Lightweight hollow construction",
+                        es: "Construcción hueca ligera",
+                        de: "Leichte Hohlkonstruktion",
+                        nl: "Lichtgewicht holle constructie"
+                  },
+                  {
+                        en: "Carbon fiber reinforcement",
+                        es: "Refuerzo de fibra de carbono",
+                        de: "Kohlefaserverstärkung",
+                        nl: "Koolstofvezelversterking"
+                  },
+                  {
+                        en: "Underground foundations",
+                        es: "Cimientos subterráneos",
+                        de: "Unterirdische Fundamente",
+                        nl: "Ondergrondse fundamenten"
+                  }
+            ],
+            correct: 1,
+            explanation: {
+                  en: "The towers use a lightweight hollow construction with internal spiral staircases, reducing weight while maintaining structural strength, allowing them to reach impressive heights without massive foundations.",
+                  es: "Las torres usan una construcción hueca ligera con escaleras de caracol internas, reduciendo el peso mientras mantienen la resistencia estructural, permitiéndoles alcanzar alturas impresionantes sin cimientos masivos.",
+                  de: "Die Türme verwenden eine leichte Hohlkonstruktion mit internen Wendeltreppen, die das Gewicht reduziert und gleichzeitig die strukturelle Festigkeit beibehält, sodass sie beeindruckende Höhen ohne massive Fundamente erreichen können.",
+                  nl: "De torens gebruiken een lichtgewicht holle constructie met interne spiraaltrappen, waardoor het gewicht wordt verminderd terwijl de structurele sterkte behouden blijft, waardoor ze indrukwekkende hoogtes kunnen bereiken zonder massieve fundamenten."
+            }
+      },
+      {
+            question: {
+                  en: "How does natural light enter the interior?",
+                  es: "¿Cómo entra la luz natural al interior?",
+                  de: "Wie gelangt natürliches Licht ins Innere?",
+                  nl: "Hoe komt natuurlijk licht in het interieur?"
+            },
+            options: [
+                  {
+                        en: "Only through the main entrance",
+                        es: "Solo por la entrada principal",
+                        de: "Nur durch den Haupteingang",
+                        nl: "Alleen via de hoofdingang"
+                  },
+                  {
+                        en: "Through stained glass windows at multiple levels",
+                        es: "A través de vidrieras en múltiples niveles",
+                        de: "Durch Buntglasfenster auf mehreren Ebenen",
+                        nl: "Door gebrandschilderde ramen op meerdere niveaus"
+                  },
+                  {
+                        en: "Through skylights only",
+                        es: "Solo a través de tragaluces",
+                        de: "Nur durch Oberlichter",
+                        nl: "Alleen door dakramen"
+                  },
+                  {
+                        en: "Through clear glass walls",
+                        es: "A través de paredes de vidrio transparente",
+                        de: "Durch durchsichtige Glaswände",
+                        nl: "Door heldere glazen wanden"
+                  }
+            ],
+            correct: 1,
+            explanation: {
+                  en: "Natural light floods in through stained glass windows positioned at multiple levels, creating a gradient from cool blues and greens to warm reds and oranges, simulating light filtering through a forest canopy.",
+                  es: "La luz natural entra a raudales a través de vidrieras posicionadas en múltiples niveles, creando un degradado de azules y verdes fríos a rojos y naranjas cálidos, simulando la luz filtrándose a través de un dosel forestal.",
+                  de: "Natürliches Licht strömt durch Buntglasfenster auf mehreren Ebenen herein und erzeugt einen Farbverlauf von kühlen Blau- und Grüntönen zu warmen Rot- und Orangetönen, der Licht simuliert, das durch ein Waldbaldachin fällt.",
+                  nl: "Natuurlijk licht stroomt binnen door gebrandschilderde ramen gepositioneerd op meerdere niveaus, waardoor een verloop ontstaat van koele blauw- en groentinten naar warme rood- en oranje tinten, waarmee licht wordt gesimuleerd dat door een boskroon filtert."
+            }
+      },
+      {
+            question: {
+                  en: "What is the function of the lantern tower above the crossing?",
+                  es: "¿Cuál es la función de la torre linterna sobre el crucero?",
+                  de: "Was ist die Funktion des Laternenturms über der Vierung?",
+                  nl: "Wat is de functie van de lantaarntoren boven de kruising?"
+            },
+            options: [
+                  {
+                        en: "Bell tower",
+                        es: "Campanario",
+                        de: "Glockenturm",
+                        nl: "Klokkentoren"
+                  },
+                  {
+                        en: "Ventilation shaft",
+                        es: "Conducto de ventilación",
+                        de: "Belüftungsschacht",
+                        nl: "Ventilatieschacht"
+                  },
+                  {
+                        en: "Illuminate the altar area from above",
+                        es: "Iluminar el área del altar desde arriba",
+                        de: "Den Altarbereich von oben beleuchten",
+                        nl: "Het altaargebied van bovenaf verlichten"
+                  },
+                  {
+                        en: "Observatory",
+                        es: "Observatorio",
+                        de: "Observatorium",
+                        nl: "Observatorium"
+                  }
+            ],
+            correct: 2,
+            explanation: {
+                  en: "The lantern tower above the crossing is designed to illuminate the altar and central space from above with natural light, creating a celestial effect and drawing attention to the liturgical focus of the church.",
+                  es: "La torre linterna sobre el crucero está diseñada para iluminar el altar y el espacio central desde arriba con luz natural, creando un efecto celestial y atrayendo la atención al foco litúrgico de la iglesia.",
+                  de: "Der Laternenturm über der Vierung ist entworfen, um den Altar und den zentralen Raum von oben mit natürlichem Licht zu beleuchten, einen himmlischen Effekt zu erzeugen und die Aufmerksamkeit auf den liturgischen Fokus der Kirche zu lenken.",
+                  nl: "De lantaarntoren boven de kruising is ontworpen om het altaar en de centrale ruimte van bovenaf te verlichten met natuurlijk licht, waardoor een hemels effect ontstaat en de aandacht wordt getrokken naar de liturgische focus van de kerk."
+            }
+      },
+      {
+            question: {
+                  en: "What material innovation helped speed up recent construction?",
+                  es: "¿Qué innovación de materiales ayudó a acelerar la construcción reciente?",
+                  de: "Welche Materialinnovation half, den jüngsten Bau zu beschleunigen?",
+                  nl: "Welke materiaalinnovatie hielp de recente bouw te versnellen?"
+            },
+            options: [
+                  {
+                        en: "3D-printed stone",
+                        es: "Piedra impresa en 3D",
+                        de: "3D-gedruckter Stein",
+                        nl: "3D-geprinte steen"
+                  },
+                  {
+                        en: "Pre-cast concrete elements",
+                        es: "Elementos de hormigón prefabricado",
+                        de: "Vorgefertigte Betonelemente",
+                        nl: "Geprefabriceerde betonelementen"
+                  },
+                  {
+                        en: "Plastic composites",
+                        es: "Compuestos plásticos",
+                        de: "Kunststoffverbundwerkstoffe",
+                        nl: "Plastic composieten"
+                  },
+                  {
+                        en: "Aluminum framework",
+                        es: "Estructura de aluminio",
+                        de: "Aluminiumgerüst",
+                        nl: "Aluminium raamwerk"
+                  }
+            ],
+            correct: 1,
+            explanation: {
+                  en: "The use of pre-cast concrete elements, precisely fabricated using CAD/CAM technology, has significantly accelerated construction by allowing complex shapes to be manufactured off-site and assembled quickly.",
+                  es: "El uso de elementos de hormigón prefabricado, fabricados con precisión usando tecnología CAD/CAM, ha acelerado significativamente la construcción al permitir que formas complejas sean fabricadas fuera del sitio y ensambladas rápidamente.",
+                  de: "Die Verwendung vorgefertigter Betonelemente, die mit CAD/CAM-Technologie präzise gefertigt werden, hat den Bau erheblich beschleunigt, indem komplexe Formen außerhalb des Standorts hergestellt und schnell zusammengebaut werden können.",
+                  nl: "Het gebruik van geprefabriceerde betonelementen, nauwkeurig vervaardigd met CAD/CAM-technologie, heeft de bouw aanzienlijk versneld door complexe vormen buiten de locatie te laten fabriceren en snel te assembleren."
+            }
+      },
+      {
+            question: {
+                  en: "What is unique about the organ design planned for the basilica?",
+                  es: "¿Qué es único del diseño del órgano planificado para la basílica?",
+                  de: "Was ist einzigartig am geplanten Orgeldesign für die Basilika?",
+                  nl: "Wat is uniek aan het geplande orgelontwerp voor de basiliek?"
+            },
+            options: [
+                  {
+                        en: "It will be the world's largest",
+                        es: "Será el más grande del mundo",
+                        de: "Es wird das größte der Welt sein",
+                        nl: "Het zal het grootste ter wereld zijn"
+                  },
+                  {
+                        en: "Multiple organs distributed throughout the space",
+                        es: "Múltiples órganos distribuidos por todo el espacio",
+                        de: "Mehrere Orgeln im ganzen Raum verteilt",
+                        nl: "Meerdere orgels verdeeld door de ruimte"
+                  },
+                  {
+                        en: "It will be completely electronic",
+                        es: "Será completamente electrónico",
+                        de: "Es wird vollständig elektronisch sein",
+                        nl: "Het zal volledig elektronisch zijn"
+                  },
+                  {
+                        en: "It uses glass pipes",
+                        es: "Usa tubos de vidrio",
+                        de: "Es verwendet Glaspfeifen",
+                        nl: "Het gebruikt glazen pijpen"
+                  }
+            ],
+            correct: 1,
+            explanation: {
+                  en: "Rather than a single organ, the plan includes multiple organs distributed throughout the basilica, creating a surround-sound effect that enhances the forest-like acoustics Gaudí envisioned.",
+                  es: "En lugar de un solo órgano, el plan incluye múltiples órganos distribuidos por toda la basílica, creando un efecto de sonido envolvente que mejora la acústica similar a un bosque que Gaudí imaginó.",
+                  de: "Anstelle einer einzelnen Orgel sieht der Plan mehrere Orgeln vor, die in der gesamten Basilika verteilt sind und einen Surround-Sound-Effekt erzeugen, der die waldähnliche Akustik verstärkt, die Gaudí sich vorstellte.",
+                  nl: "In plaats van een enkel orgel omvat het plan meerdere orgels verdeeld door de hele basiliek, waardoor een surround-sound-effect ontstaat dat de bosachtige akoestiek versterkt die Gaudí zich voorstelde."
+            }
+      },
+      {
+            question: {
+                  en: "How does the Glory Facade differ architecturally from the others?",
+                  es: "¿En qué se diferencia arquitectónicamente la Fachada de la Gloria de las otras?",
+                  de: "Wie unterscheidet sich die Glorienfassade architektonisch von den anderen?",
+                  nl: "Hoe verschilt de Gloriegevel architectonisch van de anderen?"
+            },
+            options: [
+                  {
+                        en: "It will be the largest and most ornate",
+                        es: "Será la más grande y ornamentada",
+                        de: "Sie wird die größte und prächtigste sein",
+                        nl: "Het zal de grootste en meest versierde zijn"
+                  },
+                  {
+                        en: "It has no towers",
+                        es: "No tiene torres",
+                        de: "Sie hat keine Türme",
+                        nl: "Het heeft geen torens"
+                  },
+                  {
+                        en: "It is made of glass",
+                        es: "Está hecha de vidrio",
+                        de: "Sie ist aus Glas",
+                        nl: "Het is van glas gemaakt"
+                  },
+                  {
+                        en: "It is underground",
+                        es: "Está bajo tierra",
+                        de: "Sie ist unterirdisch",
+                        nl: "Het is ondergronds"
+                  }
+            ],
+            correct: 0,
+            explanation: {
+                  en: "The Glory Facade, still under construction, is planned to be the largest and most ornate of the three facades, serving as the main entrance and representing humanity's path to divine glory.",
+                  es: "La Fachada de la Gloria, aún en construcción, está planificada para ser la más grande y ornamentada de las tres fachadas, sirviendo como entrada principal y representando el camino de la humanidad hacia la gloria divina.",
+                  de: "Die Glorienfassade, noch im Bau, soll die größte und prächtigste der drei Fassaden werden und als Haupteingang dienen, der den Weg der Menschheit zur göttlichen Herrlichkeit darstellt.",
+                  nl: "De Gloriegevel, nog in aanbouw, is gepland als de grootste en meest versierde van de drie gevels, dienend als hoofdingang en de weg van de mensheid naar goddelijke glorie vertegenwoordigend."
+            }
+      },
+      {
+            question: {
+                  en: "What architectural principle guides the overall structural design?",
+                  es: "¿Qué principio arquitectónico guía el diseño estructural general?",
+                  de: "Welches architektonische Prinzip leitet das gesamte strukturelle Design?",
+                  nl: "Welk architectonisch principe leidt het algemene structurele ontwerp?"
+            },
+            options: [
+                  {
+                        en: "Gothic flying buttresses",
+                        es: "Arbotantes góticos",
+                        de: "Gotische Strebepfeiler",
+                        nl: "Gotische luchtbogen"
+                  },
+                  {
+                        en: "Ruled geometric surfaces and natural load paths",
+                        es: "Superficies geométricas regladas y trayectorias naturales de carga",
+                        de: "Geregelte geometrische Flächen und natürliche Lastpfade",
+                        nl: "Geregelde geometrische oppervlakken en natuurlijke belastingspaden"
+                  },
+                  {
+                        en: "Roman arches",
+                        es: "Arcos romanos",
+                        de: "Römische Bögen",
+                        nl: "Romeinse bogen"
+                  },
+                  {
+                        en: "Modern steel frames",
+                        es: "Marcos de acero modernos",
+                        de: "Moderne Stahlrahmen",
+                        nl: "Moderne stalen frames"
+                  }
+            ],
+            correct: 1,
+            explanation: {
+                  en: "The design uses ruled geometric surfaces (hyperboloids, paraboloids, helicoids) that follow natural load paths, eliminating the need for flying buttresses and creating a structurally efficient, organically inspired building.",
+                  es: "El diseño usa superficies geométricas regladas (hiperboloides, paraboloides, helicoides) que siguen trayectorias naturales de carga, eliminando la necesidad de arbotantes y creando un edificio estructuralmente eficiente e inspirado orgánicamente.",
+                  de: "Das Design verwendet geregelte geometrische Flächen (Hyperboloide, Paraboloide, Helikoide), die natürlichen Lastpfaden folgen, Strebepfeiler überflüssig machen und ein strukturell effizientes, organisch inspiriertes Gebäude schaffen.",
+                  nl: "Het ontwerp gebruikt geregelde geometrische oppervlakken (hyperboloïden, paraboloïden, helicoïden) die natuurlijke belastingspaden volgen, waardoor luchtbogen overbodig worden en een structureel efficiënt, organisch geïnspireerd gebouw ontstaat."
+            }
       }
 ]
   };

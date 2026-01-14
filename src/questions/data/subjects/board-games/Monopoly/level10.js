@@ -818,6 +818,27 @@
         de: "Gemeinsames Wissen erfordert jeder weiß X, jeder weiß dass jeder X weiß, usw. Verstecktes Bargeld bricht dies: Sie wissen Ihr Bargeld, Gegner nicht; Sie wissen sie wissen nicht, aber sie wissen Sie wissen etwas das sie nicht wissen - unendlicher Regress unmöglich.",
         nl: "Gemeenschappelijke kennis vereist iedereen weet X, iedereen weet dat iedereen X weet, etc. Verborgen cash breekt dit: jij weet je cash, tegenstander niet; jij weet dat ze het niet weten, maar ze weten dat jij iets weet dat ze niet weten - oneindige regressie onmogelijk."
       }
+    },
+    {
+      question: {
+        en: "What is the computational complexity class of solving optimal Monopoly strategy?",
+        es: "¿Cuál es la clase de complejidad computacional de resolver la estrategia óptima de Monopoly?",
+        de: "Was ist die Berechnungskomplexitätsklasse der Lösung optimaler Monopoly-Strategie?",
+        nl: "Wat is de computationele complexiteitsklasse van het oplossen van optimale Monopoly strategie?"
+      },
+      options: [
+        { en: "P (polynomial time)", es: "P (tiempo polinomial)", de: "P (polynomiale Zeit)", nl: "P (polynomiale tijd)" },
+        { en: "NP-hard due to combinatorial trade space and probabilistic game tree", es: "NP-hard debido a espacio de negociación combinatorio y árbol de juego probabilístico", de: "NP-hard aufgrund kombinatorischen Handelsraums und probabilistischem Spielbaum", nl: "NP-hard door combinatorische handelsruimte en probabilistische spelboom" },
+        { en: "PSPACE-complete", es: "PSPACE-completo", de: "PSPACE-vollständig", nl: "PSPACE-compleet" },
+        { en: "Decidable in constant time", es: "Decidible en tiempo constante", de: "Entscheidbar in konstanter Zeit", nl: "Beslisbaar in constante tijd" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Monopoly is NP-hard: the combinatorial trade negotiation space (2^28 property subsets × continuous price ranges) combined with stochastic game tree (dice rolls, card draws) makes finding provably optimal strategy computationally intractable. Monte Carlo methods and heuristics approximate solutions.",
+        es: "Monopoly es NP-hard: el espacio de negociación de negociación combinatorio (2^28 subconjuntos de propiedades × rangos de precios continuos) combinado con árbol de juego estocástico (tiradas de dados, extracciones de cartas) hace que encontrar estrategia provadamente óptima sea computacionalmente intratable. Métodos Monte Carlo y heurísticas aproximan soluciones.",
+        de: "Monopoly ist NP-hard: der kombinatorische Handelsverhandlungsraum (2^28 Grundstücks-Teilmengen × kontinuierliche Preisspannen) kombiniert mit stochastischem Spielbaum (Würfelwürfe, Kartenziehungen) macht das Finden nachweislich optimaler Strategie rechnerisch unlösbar. Monte-Carlo-Methoden und Heuristiken approximieren Lösungen.",
+        nl: "Monopoly is NP-hard: de combinatorische handelsonderhandelingsruimte (2^28 eigendom subsets × continue prijs ranges) gecombineerd met stochastische spelboom (dobbelstenen worpen, kaart trekkingen) maakt het vinden van aantoonbaar optimale strategie computationeel onoplosbaar. Monte Carlo methoden en heuristieken benaderen oplossingen."
+      }
     }
   ];
 

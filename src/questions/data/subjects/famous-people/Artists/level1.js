@@ -427,6 +427,426 @@
           de: "Grant Wood malte 'American Gothic' 1930 und zeigt einen Farmer und seine Tochter vor ihrem Haus in Iowa. Es ist eines der berühmtesten amerikanischen Gemälde.",
           nl: "Grant Wood schilderde 'American Gothic' in 1930, waarbij hij een boer en zijn dochter toont voor hun huis in Iowa. Het is een van de beroemdste Amerikaanse schilderijen."
         }
+      },
+      {
+        question: {
+          en: "Who painted 'The Great Wave off Kanagawa'?",
+          es: "¿Quién pintó 'La Gran Ola de Kanagawa'?",
+          de: "Wer malte 'Die große Welle vor Kanagawa'?",
+          nl: "Wie schilderde 'De Grote Golf voor Kanagawa'?"
+        },
+        options: [
+          { en: "Hokusai", es: "Hokusai", de: "Hokusai", nl: "Hokusai" },
+          { en: "Hiroshige", es: "Hiroshige", de: "Hiroshige", nl: "Hiroshige" },
+          { en: "Utamaro", es: "Utamaro", de: "Utamaro", nl: "Utamaro" },
+          { en: "Kuniyoshi", es: "Kuniyoshi", de: "Kuniyoshi", nl: "Kuniyoshi" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Katsushika Hokusai created 'The Great Wave off Kanagawa' around 1830-1832. This iconic woodblock print shows a giant wave threatening boats with Mount Fuji in the background.",
+          es: "Katsushika Hokusai creó 'La Gran Ola de Kanagawa' alrededor de 1830-1832. Esta icónica xilografía muestra una ola gigante amenazando botes con el Monte Fuji al fondo.",
+          de: "Katsushika Hokusai schuf 'Die große Welle vor Kanagawa' um 1830-1832. Dieser ikonische Holzschnitt zeigt eine riesige Welle, die Boote bedroht, mit dem Berg Fuji im Hintergrund.",
+          nl: "Katsushika Hokusai creëerde 'De Grote Golf voor Kanagawa' rond 1830-1832. Deze iconische houtsnede toont een gigantische golf die boten bedreigt met Mount Fuji op de achtergrond."
+        }
+      },
+      {
+        question: {
+          en: "Which artist created 'The Thinker' sculpture?",
+          es: "¿Qué artista creó la escultura 'El Pensador'?",
+          de: "Welcher Künstler schuf die Skulptur 'Der Denker'?",
+          nl: "Welke kunstenaar creëerde het beeldhouwwerk 'De Denker'?"
+        },
+        options: [
+          { en: "Auguste Rodin", es: "Auguste Rodin", de: "Auguste Rodin", nl: "Auguste Rodin" },
+          { en: "Michelangelo", es: "Miguel Ángel", de: "Michelangelo", nl: "Michelangelo" },
+          { en: "Donatello", es: "Donatello", de: "Donatello", nl: "Donatello" },
+          { en: "Bernini", es: "Bernini", de: "Bernini", nl: "Bernini" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Auguste Rodin created 'The Thinker' in 1902. Originally part of his larger work 'The Gates of Hell', it represents a man in deep contemplation.",
+          es: "Auguste Rodin creó 'El Pensador' en 1902. Originalmente parte de su obra mayor 'Las Puertas del Infierno', representa a un hombre en profunda contemplación.",
+          de: "Auguste Rodin schuf 'Der Denker' 1902. Ursprünglich Teil seines größeren Werks 'Das Höllentor', stellt es einen Mann in tiefer Kontemplation dar.",
+          nl: "Auguste Rodin creëerde 'De Denker' in 1902. Oorspronkelijk onderdeel van zijn grotere werk 'De Poorten van de Hel', vertegenwoordigt het een man in diepe overpeinzing."
+        }
+      },
+      {
+        question: {
+          en: "Who painted 'The Persistence of Memory' with melting clocks?",
+          es: "¿Quién pintó 'La Persistencia de la Memoria' con relojes derretidos?",
+          de: "Wer malte 'Die Beständigkeit der Erinnerung' mit schmelzenden Uhren?",
+          nl: "Wie schilderde 'De Volharding der Herinnering' met smeltende klokken?"
+        },
+        options: [
+          { en: "Salvador Dalí", es: "Salvador Dalí", de: "Salvador Dalí", nl: "Salvador Dalí" },
+          { en: "Pablo Picasso", es: "Pablo Picasso", de: "Pablo Picasso", nl: "Pablo Picasso" },
+          { en: "René Magritte", es: "René Magritte", de: "René Magritte", nl: "René Magritte" },
+          { en: "Joan Miró", es: "Joan Miró", de: "Joan Miró", nl: "Joan Miró" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Salvador Dalí painted 'The Persistence of Memory' in 1931. This surrealist masterpiece features soft, melting pocket watches in a dreamlike landscape.",
+          es: "Salvador Dalí pintó 'La Persistencia de la Memoria' en 1931. Esta obra maestra surrealista presenta relojes de bolsillo blandos y derretidos en un paisaje onírico.",
+          de: "Salvador Dalí malte 'Die Beständigkeit der Erinnerung' 1931. Dieses surrealistische Meisterwerk zeigt weiche, schmelzende Taschenuhren in einer traumhaften Landschaft.",
+          nl: "Salvador Dalí schilderde 'De Volharding der Herinnering' in 1931. Dit surrealistische meesterwerk toont zachte, smeltende zakhorloges in een droomachtig landschap."
+        }
+      },
+      {
+        question: {
+          en: "Which artist is famous for painting ballerinas?",
+          es: "¿Qué artista es famoso por pintar bailarinas?",
+          de: "Welcher Künstler ist berühmt für das Malen von Ballerinas?",
+          nl: "Welke kunstenaar is beroemd om het schilderen van ballerina's?"
+        },
+        options: [
+          { en: "Edgar Degas", es: "Edgar Degas", de: "Edgar Degas", nl: "Edgar Degas" },
+          { en: "Pierre-Auguste Renoir", es: "Pierre-Auguste Renoir", de: "Pierre-Auguste Renoir", nl: "Pierre-Auguste Renoir" },
+          { en: "Henri de Toulouse-Lautrec", es: "Henri de Toulouse-Lautrec", de: "Henri de Toulouse-Lautrec", nl: "Henri de Toulouse-Lautrec" },
+          { en: "Édouard Manet", es: "Édouard Manet", de: "Édouard Manet", nl: "Édouard Manet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Edgar Degas is renowned for his paintings of ballet dancers. He captured them in rehearsals, performances, and behind-the-scenes moments with great sensitivity.",
+          es: "Edgar Degas es reconocido por sus pinturas de bailarinas de ballet. Las capturó en ensayos, actuaciones y momentos entre bastidores con gran sensibilidad.",
+          de: "Edgar Degas ist bekannt für seine Gemälde von Balletttänzerinnen. Er erfasste sie in Proben, Aufführungen und Momenten hinter den Kulissen mit großer Sensibilität.",
+          nl: "Edgar Degas staat bekend om zijn schilderijen van balletdansers. Hij legde ze vast tijdens repetities, voorstellingen en momenten achter de schermen met grote gevoeligheid."
+        }
+      },
+      {
+        question: {
+          en: "Who created the sculpture 'The Kiss'?",
+          es: "¿Quién creó la escultura 'El Beso'?",
+          de: "Wer schuf die Skulptur 'Der Kuss'?",
+          nl: "Wie creëerde de sculptuur 'De Kus'?"
+        },
+        options: [
+          { en: "Auguste Rodin", es: "Auguste Rodin", de: "Auguste Rodin", nl: "Auguste Rodin" },
+          { en: "Constantin Brâncuși", es: "Constantin Brâncuși", de: "Constantin Brâncuși", nl: "Constantin Brâncuși" },
+          { en: "Henry Moore", es: "Henry Moore", de: "Henry Moore", nl: "Henry Moore" },
+          { en: "Alberto Giacometti", es: "Alberto Giacometti", de: "Alberto Giacometti", nl: "Alberto Giacometti" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Auguste Rodin created 'The Kiss' in 1889. This marble sculpture depicts a passionate embrace between two lovers and is one of his most famous works.",
+          es: "Auguste Rodin creó 'El Beso' en 1889. Esta escultura de mármol representa un abrazo apasionado entre dos amantes y es una de sus obras más famosas.",
+          de: "Auguste Rodin schuf 'Der Kuss' 1889. Diese Marmorskulptur zeigt eine leidenschaftliche Umarmung zwischen zwei Liebenden und ist eines seiner berühmtesten Werke.",
+          nl: "Auguste Rodin creëerde 'De Kus' in 1889. Deze marmeren sculptuur toont een hartstochtelijke omhelzing tussen twee geliefden en is een van zijn beroemdste werken."
+        }
+      },
+      {
+        question: {
+          en: "Which artist painted 'Girl with a Pearl Earring'?",
+          es: "¿Qué artista pintó 'La joven de la perla'?",
+          de: "Welcher Künstler malte 'Das Mädchen mit dem Perlenohrgehänge'?",
+          nl: "Welke kunstenaar schilderde 'Meisje met de parel'?"
+        },
+        options: [
+          { en: "Johannes Vermeer", es: "Johannes Vermeer", de: "Johannes Vermeer", nl: "Johannes Vermeer" },
+          { en: "Rembrandt van Rijn", es: "Rembrandt van Rijn", de: "Rembrandt van Rijn", nl: "Rembrandt van Rijn" },
+          { en: "Frans Hals", es: "Frans Hals", de: "Frans Hals", nl: "Frans Hals" },
+          { en: "Jan Steen", es: "Jan Steen", de: "Jan Steen", nl: "Jan Steen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Johannes Vermeer painted 'Girl with a Pearl Earring' around 1665. Often called the 'Mona Lisa of the North', it shows a girl looking over her shoulder with a large pearl earring.",
+          es: "Johannes Vermeer pintó 'La joven de la perla' alrededor de 1665. A menudo llamada la 'Mona Lisa del Norte', muestra a una chica mirando por encima del hombro con un gran pendiente de perla.",
+          de: "Johannes Vermeer malte 'Das Mädchen mit dem Perlenohrgehänge' um 1665. Oft als 'Mona Lisa des Nordens' bezeichnet, zeigt es ein Mädchen, das über die Schulter blickt mit einem großen Perlenohrring.",
+          nl: "Johannes Vermeer schilderde 'Meisje met de parel' rond 1665. Vaak de 'Mona Lisa van het Noorden' genoemd, toont het een meisje dat over haar schouder kijkt met een grote parel oorbel."
+        }
+      },
+      {
+        question: {
+          en: "Who painted 'The Birth of Venus'?",
+          es: "¿Quién pintó 'El Nacimiento de Venus'?",
+          de: "Wer malte 'Die Geburt der Venus'?",
+          nl: "Wie schilderde 'De Geboorte van Venus'?"
+        },
+        options: [
+          { en: "Sandro Botticelli", es: "Sandro Botticelli", de: "Sandro Botticelli", nl: "Sandro Botticelli" },
+          { en: "Leonardo da Vinci", es: "Leonardo da Vinci", de: "Leonardo da Vinci", nl: "Leonardo da Vinci" },
+          { en: "Raphael", es: "Rafael", de: "Raffael", nl: "Rafaël" },
+          { en: "Titian", es: "Tiziano", de: "Tizian", nl: "Titiaan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sandro Botticelli painted 'The Birth of Venus' around 1485. This Renaissance masterpiece shows the goddess Venus emerging from the sea on a shell.",
+          es: "Sandro Botticelli pintó 'El Nacimiento de Venus' alrededor de 1485. Esta obra maestra del Renacimiento muestra a la diosa Venus emergiendo del mar en una concha.",
+          de: "Sandro Botticelli malte 'Die Geburt der Venus' um 1485. Dieses Renaissance-Meisterwerk zeigt die Göttin Venus, die aus dem Meer auf einer Muschel auftaucht.",
+          nl: "Sandro Botticelli schilderde 'De Geboorte van Venus' rond 1485. Dit Renaissance meesterwerk toont de godin Venus die uit de zee op een schelp verschijnt."
+        }
+      },
+      {
+        question: {
+          en: "Which artist is known for his Blue Period?",
+          es: "¿Qué artista es conocido por su Período Azul?",
+          de: "Welcher Künstler ist für seine Blaue Periode bekannt?",
+          nl: "Welke kunstenaar staat bekend om zijn Blauwe Periode?"
+        },
+        options: [
+          { en: "Pablo Picasso", es: "Pablo Picasso", de: "Pablo Picasso", nl: "Pablo Picasso" },
+          { en: "Henri Matisse", es: "Henri Matisse", de: "Henri Matisse", nl: "Henri Matisse" },
+          { en: "Marc Chagall", es: "Marc Chagall", de: "Marc Chagall", nl: "Marc Chagall" },
+          { en: "Paul Klee", es: "Paul Klee", de: "Paul Klee", nl: "Paul Klee" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pablo Picasso's Blue Period (1901-1904) featured somber paintings in shades of blue, reflecting his depression after a friend's suicide.",
+          es: "El Período Azul de Pablo Picasso (1901-1904) presentó pinturas sombrías en tonos de azul, reflejando su depresión después del suicidio de un amigo.",
+          de: "Pablo Picassos Blaue Periode (1901-1904) zeigte düstere Gemälde in Blautönen, die seine Depression nach dem Selbstmord eines Freundes widerspiegelten.",
+          nl: "Pablo Picasso's Blauwe Periode (1901-1904) kenmerkte zich door sombere schilderijen in blauwtinten, als weerspiegeling van zijn depressie na de zelfmoord van een vriend."
+        }
+      },
+      {
+        question: {
+          en: "Who painted 'The Creation of Adam' on the Sistine Chapel ceiling?",
+          es: "¿Quién pintó 'La Creación de Adán' en el techo de la Capilla Sixtina?",
+          de: "Wer malte 'Die Erschaffung Adams' an der Decke der Sixtinischen Kapelle?",
+          nl: "Wie schilderde 'De Schepping van Adam' op het plafond van de Sixtijnse Kapel?"
+        },
+        options: [
+          { en: "Michelangelo", es: "Miguel Ángel", de: "Michelangelo", nl: "Michelangelo" },
+          { en: "Leonardo da Vinci", es: "Leonardo da Vinci", de: "Leonardo da Vinci", nl: "Leonardo da Vinci" },
+          { en: "Raphael", es: "Rafael", de: "Raffael", nl: "Rafaël" },
+          { en: "Botticelli", es: "Botticelli", de: "Botticelli", nl: "Botticelli" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Michelangelo painted 'The Creation of Adam' as part of the Sistine Chapel ceiling frescoes (1508-1512). The iconic image shows God reaching out to give life to Adam.",
+          es: "Miguel Ángel pintó 'La Creación de Adán' como parte de los frescos del techo de la Capilla Sixtina (1508-1512). La imagen icónica muestra a Dios extendiéndose para dar vida a Adán.",
+          de: "Michelangelo malte 'Die Erschaffung Adams' als Teil der Deckenfresken der Sixtinischen Kapelle (1508-1512). Das ikonische Bild zeigt Gott, der sich ausstreckt, um Adam Leben zu geben.",
+          nl: "Michelangelo schilderde 'De Schepping van Adam' als onderdeel van de Sixtijnse Kapel plafondfrescos (1508-1512). Het iconische beeld toont God die zich uitstrekt om Adam leven te geven."
+        }
+      },
+      {
+        question: {
+          en: "Which artist is famous for his soup can paintings?",
+          es: "¿Qué artista es famoso por sus pinturas de latas de sopa?",
+          de: "Welcher Künstler ist berühmt für seine Suppendosen-Gemälde?",
+          nl: "Welke kunstenaar is beroemd om zijn soepblik schilderijen?"
+        },
+        options: [
+          { en: "Andy Warhol", es: "Andy Warhol", de: "Andy Warhol", nl: "Andy Warhol" },
+          { en: "Roy Lichtenstein", es: "Roy Lichtenstein", de: "Roy Lichtenstein", nl: "Roy Lichtenstein" },
+          { en: "Jasper Johns", es: "Jasper Johns", de: "Jasper Johns", nl: "Jasper Johns" },
+          { en: "Robert Rauschenberg", es: "Robert Rauschenberg", de: "Robert Rauschenberg", nl: "Robert Rauschenberg" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Andy Warhol created his famous Campbell's Soup Cans series in 1962, becoming a leading figure in the Pop Art movement by turning everyday objects into art.",
+          es: "Andy Warhol creó su famosa serie de Latas de Sopa Campbell en 1962, convirtiéndose en una figura destacada del movimiento Pop Art al convertir objetos cotidianos en arte.",
+          de: "Andy Warhol schuf 1962 seine berühmte Campbell's Suppendosen-Serie und wurde zu einer führenden Figur der Pop-Art-Bewegung, indem er Alltagsgegenstände in Kunst verwandelte.",
+          nl: "Andy Warhol creëerde zijn beroemde Campbell's Soepblikken serie in 1962, en werd een leidende figuur in de Pop Art beweging door alledaagse objecten in kunst te veranderen."
+        }
+      },
+      {
+        question: {
+          en: "Who painted 'The Night Watch'?",
+          es: "¿Quién pintó 'La Ronda de Noche'?",
+          de: "Wer malte 'Die Nachtwache'?",
+          nl: "Wie schilderde 'De Nachtwacht'?"
+        },
+        options: [
+          { en: "Rembrandt van Rijn", es: "Rembrandt van Rijn", de: "Rembrandt van Rijn", nl: "Rembrandt van Rijn" },
+          { en: "Johannes Vermeer", es: "Johannes Vermeer", de: "Johannes Vermeer", nl: "Johannes Vermeer" },
+          { en: "Frans Hals", es: "Frans Hals", de: "Frans Hals", nl: "Frans Hals" },
+          { en: "Peter Paul Rubens", es: "Peter Paul Rubens", de: "Peter Paul Rubens", nl: "Peter Paul Rubens" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Rembrandt van Rijn painted 'The Night Watch' in 1642. This massive group portrait of a militia company is one of the most famous Dutch Golden Age paintings.",
+          es: "Rembrandt van Rijn pintó 'La Ronda de Noche' en 1642. Este masivo retrato grupal de una compañía de milicia es una de las pinturas más famosas de la Edad de Oro holandesa.",
+          de: "Rembrandt van Rijn malte 'Die Nachtwache' 1642. Dieses massive Gruppenporträt einer Milizenkompanie ist eines der berühmtesten Gemälde des Goldenen Zeitalters der Niederlande.",
+          nl: "Rembrandt van Rijn schilderde 'De Nachtwacht' in 1642. Dit massieve groepsportret van een schutterscompagnie is een van de beroemdste schilderijen uit de Nederlandse Gouden Eeuw."
+        }
+      },
+      {
+        question: {
+          en: "Which artist painted 'Impression, Sunrise'?",
+          es: "¿Qué artista pintó 'Impresión, Sol Naciente'?",
+          de: "Welcher Künstler malte 'Impression, Sonnenaufgang'?",
+          nl: "Welke kunstenaar schilderde 'Impressie, Zonsopgang'?"
+        },
+        options: [
+          { en: "Claude Monet", es: "Claude Monet", de: "Claude Monet", nl: "Claude Monet" },
+          { en: "Pierre-Auguste Renoir", es: "Pierre-Auguste Renoir", de: "Pierre-Auguste Renoir", nl: "Pierre-Auguste Renoir" },
+          { en: "Camille Pissarro", es: "Camille Pissarro", de: "Camille Pissarro", nl: "Camille Pissarro" },
+          { en: "Alfred Sisley", es: "Alfred Sisley", de: "Alfred Sisley", nl: "Alfred Sisley" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Claude Monet painted 'Impression, Sunrise' in 1872. This painting gave its name to the Impressionist movement when critics mocked it as merely an 'impression'.",
+          es: "Claude Monet pintó 'Impresión, Sol Naciente' en 1872. Esta pintura dio su nombre al movimiento impresionista cuando los críticos se burlaron de ella como meramente una 'impresión'.",
+          de: "Claude Monet malte 'Impression, Sonnenaufgang' 1872. Dieses Gemälde gab der impressionistischen Bewegung ihren Namen, als Kritiker es als bloße 'Impression' verspotteten.",
+          nl: "Claude Monet schilderde 'Impressie, Zonsopgang' in 1872. Dit schilderij gaf zijn naam aan de Impressionistische beweging toen critici het bespotten als slechts een 'impressie'."
+        }
+      },
+      {
+        question: {
+          en: "Who sculpted 'David' in marble?",
+          es: "¿Quién esculpió 'David' en mármol?",
+          de: "Wer schuf 'David' aus Marmor?",
+          nl: "Wie beeldhouwde 'David' in marmer?"
+        },
+        options: [
+          { en: "Michelangelo", es: "Miguel Ángel", de: "Michelangelo", nl: "Michelangelo" },
+          { en: "Donatello", es: "Donatello", de: "Donatello", nl: "Donatello" },
+          { en: "Bernini", es: "Bernini", de: "Bernini", nl: "Bernini" },
+          { en: "Verrocchio", es: "Verrocchio", de: "Verrocchio", nl: "Verrocchio" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Michelangelo sculpted the 17-foot tall marble statue of David between 1501-1504. It's considered one of the greatest masterpieces of Renaissance sculpture.",
+          es: "Miguel Ángel esculpió la estatua de mármol de David de 5 metros de altura entre 1501-1504. Se considera una de las mayores obras maestras de la escultura renacentista.",
+          de: "Michelangelo schuf die 5 Meter hohe Marmorstatue David zwischen 1501-1504. Sie gilt als eines der größten Meisterwerke der Renaissance-Skulptur.",
+          nl: "Michelangelo beeldhouwde het 5 meter hoge marmeren standbeeld van David tussen 1501-1504. Het wordt beschouwd als een van de grootste meesterwerken van Renaissance beeldhouwkunst."
+        }
+      },
+      {
+        question: {
+          en: "Which artist painted 'The Garden of Earthly Delights'?",
+          es: "¿Qué artista pintó 'El Jardín de las Delicias'?",
+          de: "Welcher Künstler malte 'Der Garten der Lüste'?",
+          nl: "Welke kunstenaar schilderde 'De Tuin der Lusten'?"
+        },
+        options: [
+          { en: "Hieronymus Bosch", es: "Hieronymus Bosch", de: "Hieronymus Bosch", nl: "Hieronymus Bosch" },
+          { en: "Pieter Bruegel", es: "Pieter Bruegel", de: "Pieter Bruegel", nl: "Pieter Bruegel" },
+          { en: "Jan van Eyck", es: "Jan van Eyck", de: "Jan van Eyck", nl: "Jan van Eyck" },
+          { en: "Albrecht Dürer", es: "Alberto Durero", de: "Albrecht Dürer", nl: "Albrecht Dürer" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hieronymus Bosch painted 'The Garden of Earthly Delights' around 1490-1510. This triptych is filled with fantastical imagery depicting paradise, earthly pleasures, and hell.",
+          es: "Hieronymus Bosch pintó 'El Jardín de las Delicias' alrededor de 1490-1510. Este tríptico está lleno de imágenes fantásticas que representan el paraíso, los placeres terrenales y el infierno.",
+          de: "Hieronymus Bosch malte 'Der Garten der Lüste' um 1490-1510. Dieses Triptychon ist voll von fantastischen Bildern, die Paradies, irdische Freuden und Hölle darstellen.",
+          nl: "Hieronymus Bosch schilderde 'De Tuin der Lusten' rond 1490-1510. Dit drieluik is gevuld met fantastische beelden die het paradijs, aardse genoegens en de hel uitbeelden."
+        }
+      },
+      {
+        question: {
+          en: "Who painted 'Water Lilies' series?",
+          es: "¿Quién pintó la serie 'Nenúfares'?",
+          de: "Wer malte die 'Seerosen'-Serie?",
+          nl: "Wie schilderde de 'Waterlelies' serie?"
+        },
+        options: [
+          { en: "Claude Monet", es: "Claude Monet", de: "Claude Monet", nl: "Claude Monet" },
+          { en: "Pierre-Auguste Renoir", es: "Pierre-Auguste Renoir", de: "Pierre-Auguste Renoir", nl: "Pierre-Auguste Renoir" },
+          { en: "Paul Cézanne", es: "Paul Cézanne", de: "Paul Cézanne", nl: "Paul Cézanne" },
+          { en: "Camille Pissarro", es: "Camille Pissarro", de: "Camille Pissarro", nl: "Camille Pissarro" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Claude Monet painted around 250 paintings of water lilies in his garden at Giverny, France, creating one of the most famous series in art history.",
+          es: "Claude Monet pintó alrededor de 250 pinturas de nenúfares en su jardín en Giverny, Francia, creando una de las series más famosas de la historia del arte.",
+          de: "Claude Monet malte etwa 250 Gemälde von Seerosen in seinem Garten in Giverny, Frankreich, und schuf eine der berühmtesten Serien der Kunstgeschichte.",
+          nl: "Claude Monet schilderde ongeveer 250 schilderijen van waterlelies in zijn tuin in Giverny, Frankrijk, waarmee hij een van de beroemdste series in de kunstgeschiedenis creëerde."
+        }
+      },
+      {
+        question: {
+          en: "Which artist painted 'Las Meninas'?",
+          es: "¿Qué artista pintó 'Las Meninas'?",
+          de: "Welcher Künstler malte 'Las Meninas'?",
+          nl: "Welke kunstenaar schilderde 'Las Meninas'?"
+        },
+        options: [
+          { en: "Diego Velázquez", es: "Diego Velázquez", de: "Diego Velázquez", nl: "Diego Velázquez" },
+          { en: "Francisco Goya", es: "Francisco Goya", de: "Francisco Goya", nl: "Francisco Goya" },
+          { en: "El Greco", es: "El Greco", de: "El Greco", nl: "El Greco" },
+          { en: "Bartolomé Murillo", es: "Bartolomé Murillo", de: "Bartolomé Murillo", nl: "Bartolomé Murillo" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Diego Velázquez painted 'Las Meninas' in 1656, depicting the Spanish royal family. It's considered one of the most important paintings in Western art history.",
+          es: "Diego Velázquez pintó 'Las Meninas' en 1656, representando a la familia real española. Se considera una de las pinturas más importantes de la historia del arte occidental.",
+          de: "Diego Velázquez malte 'Las Meninas' 1656 und zeigte die spanische Königsfamilie. Es gilt als eines der wichtigsten Gemälde der westlichen Kunstgeschichte.",
+          nl: "Diego Velázquez schilderde 'Las Meninas' in 1656, met de Spaanse koninklijke familie. Het wordt beschouwd als een van de belangrijkste schilderijen in de westerse kunstgeschiedenis."
+        }
+      },
+      {
+        question: {
+          en: "Who created the sculpture 'The Little Mermaid' in Copenhagen?",
+          es: "¿Quién creó la escultura 'La Sirenita' en Copenhague?",
+          de: "Wer schuf die Skulptur 'Die kleine Meerjungfrau' in Kopenhagen?",
+          nl: "Wie creëerde de sculptuur 'De Kleine Zeemeermin' in Kopenhagen?"
+        },
+        options: [
+          { en: "Edvard Eriksen", es: "Edvard Eriksen", de: "Edvard Eriksen", nl: "Edvard Eriksen" },
+          { en: "Bertel Thorvaldsen", es: "Bertel Thorvaldsen", de: "Bertel Thorvaldsen", nl: "Bertel Thorvaldsen" },
+          { en: "Bjørn Nørgaard", es: "Bjørn Nørgaard", de: "Bjørn Nørgaard", nl: "Bjørn Nørgaard" },
+          { en: "Jens Laugesen", es: "Jens Laugesen", de: "Jens Laugesen", nl: "Jens Laugesen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Edvard Eriksen created 'The Little Mermaid' bronze statue in 1913, inspired by Hans Christian Andersen's fairy tale. It has become an iconic symbol of Copenhagen.",
+          es: "Edvard Eriksen creó la estatua de bronce 'La Sirenita' en 1913, inspirada en el cuento de hadas de Hans Christian Andersen. Se ha convertido en un símbolo icónico de Copenhague.",
+          de: "Edvard Eriksen schuf 1913 die Bronzestatue 'Die kleine Meerjungfrau', inspiriert von Hans Christian Andersens Märchen. Sie ist zu einem ikonischen Symbol Kopenhagens geworden.",
+          nl: "Edvard Eriksen creëerde het bronzen beeld 'De Kleine Zeemeermin' in 1913, geïnspireerd door het sprookje van Hans Christian Andersen. Het is een iconisch symbool van Kopenhagen geworden."
+        }
+      },
+      {
+        question: {
+          en: "Which artist painted 'Sunday Afternoon on the Island of La Grande Jatte'?",
+          es: "¿Qué artista pintó 'Una tarde de domingo en la isla de la Grande Jatte'?",
+          de: "Welcher Künstler malte 'Ein Sonntagnachmittag auf der Insel La Grande Jatte'?",
+          nl: "Welke kunstenaar schilderde 'Een zondagmiddag op het eiland La Grande Jatte'?"
+        },
+        options: [
+          { en: "Georges Seurat", es: "Georges Seurat", de: "Georges Seurat", nl: "Georges Seurat" },
+          { en: "Paul Signac", es: "Paul Signac", de: "Paul Signac", nl: "Paul Signac" },
+          { en: "Claude Monet", es: "Claude Monet", de: "Claude Monet", nl: "Claude Monet" },
+          { en: "Camille Pissarro", es: "Camille Pissarro", de: "Camille Pissarro", nl: "Camille Pissarro" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Georges Seurat painted this masterpiece using pointillism technique (1884-1886), creating the image with thousands of tiny dots of color that blend optically.",
+          es: "Georges Seurat pintó esta obra maestra usando la técnica del puntillismo (1884-1886), creando la imagen con miles de pequeños puntos de color que se mezclan ópticamente.",
+          de: "Georges Seurat malte dieses Meisterwerk mit der Pointillismus-Technik (1884-1886) und schuf das Bild mit Tausenden winziger Farbpunkte, die optisch verschmelzen.",
+          nl: "Georges Seurat schilderde dit meesterwerk met de pointillistische techniek (1884-1886), waarbij hij het beeld creëerde met duizenden kleine kleurpunten die optisch mengen."
+        }
+      },
+      {
+        question: {
+          en: "Who painted 'The Son of Man' featuring a man in a bowler hat?",
+          es: "¿Quién pintó 'El Hijo del Hombre' con un hombre con bombín?",
+          de: "Wer malte 'Der Sohn des Menschen' mit einem Mann mit Melone?",
+          nl: "Wie schilderde 'De Mensenzoon' met een man met een bolhoed?"
+        },
+        options: [
+          { en: "René Magritte", es: "René Magritte", de: "René Magritte", nl: "René Magritte" },
+          { en: "Salvador Dalí", es: "Salvador Dalí", de: "Salvador Dalí", nl: "Salvador Dalí" },
+          { en: "Max Ernst", es: "Max Ernst", de: "Max Ernst", nl: "Max Ernst" },
+          { en: "Giorgio de Chirico", es: "Giorgio de Chirico", de: "Giorgio de Chirico", nl: "Giorgio de Chirico" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "René Magritte painted 'The Son of Man' in 1964. This surrealist painting shows a man in a bowler hat with his face obscured by a floating green apple.",
+          es: "René Magritte pintó 'El Hijo del Hombre' en 1964. Esta pintura surrealista muestra a un hombre con bombín con su rostro oscurecido por una manzana verde flotante.",
+          de: "René Magritte malte 'Der Sohn des Menschen' 1964. Dieses surrealistische Gemälde zeigt einen Mann mit Melone, dessen Gesicht von einem schwebenden grünen Apfel verdeckt wird.",
+          nl: "René Magritte schilderde 'De Mensenzoon' in 1964. Dit surrealistische schilderij toont een man met een bolhoed wiens gezicht wordt verduisterd door een zwevende groene appel."
+        }
+      },
+      {
+        question: {
+          en: "Who painted 'The Great Wave off Kanagawa'?",
+          es: "¿Quién pintó 'La gran ola de Kanagawa'?",
+          de: "Wer malte 'Die große Welle vor Kanagawa'?",
+          nl: "Wie schilderde 'De grote golf bij Kanagawa'?"
+        },
+        options: [
+          { en: "Katsushika Hokusai", es: "Katsushika Hokusai", de: "Katsushika Hokusai", nl: "Katsushika Hokusai" },
+          { en: "Utagawa Hiroshige", es: "Utagawa Hiroshige", de: "Utagawa Hiroshige", nl: "Utagawa Hiroshige" },
+          { en: "Kitagawa Utamaro", es: "Kitagawa Utamaro", de: "Kitagawa Utamaro", nl: "Kitagawa Utamaro" },
+          { en: "Toshusai Sharaku", es: "Toshusai Sharaku", de: "Toshusai Sharaku", nl: "Toshusai Sharaku" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Katsushika Hokusai created 'The Great Wave off Kanagawa' around 1831. This iconic woodblock print is part of his series 'Thirty-six Views of Mount Fuji'.",
+          es: "Katsushika Hokusai creó 'La gran ola de Kanagawa' alrededor de 1831. Esta icónica xilografía es parte de su serie 'Treinta y seis vistas del monte Fuji'.",
+          de: "Katsushika Hokusai schuf 'Die große Welle vor Kanagawa' um 1831. Dieser ikonische Holzschnitt ist Teil seiner Serie 'Sechsunddreißig Ansichten des Berges Fuji'.",
+          nl: "Katsushika Hokusai creëerde 'De grote golf bij Kanagawa' rond 1831. Deze iconische houtsnede maakt deel uit van zijn serie 'Zesendertig gezichten op de berg Fuji'."
+        }
       }
     ]
   };

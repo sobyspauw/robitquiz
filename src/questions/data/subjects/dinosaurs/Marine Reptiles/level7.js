@@ -426,7 +426,427 @@
           es: "El análisis morfométrico de fósiles de reptiles marinos revela asimetría fluctuante disminuida en estructuras emparejadas bilateralmente (aletas, elementos craneales) en linajes acuáticos más derivados comparados con sus parientes terrestres, sugiriendo evolución de estabilidad del desarrollo mejorada y canalización como adaptaciones al ambiente acuático exigente que requería integración morfológica más precisa.",
           de: "Morphometrische Analyse von Meeresreptilien-Fossilien zeigt verringerte fluktuierende Asymmetrie in bilateral gepaarten Strukturen (Flossen, Schädelelemente) in abgeleiteteren aquatischen Linien im Vergleich zu ihren terrestrischen Verwandten, was Evolution verbesserter Entwicklungsstabilität und Kanalisierung als Anpassungen an die anspruchsvolle aquatische Umgebung nahelegt, die präzisere morphologische Integration erforderte.",
           nl: "Morfometrische analyse van zeereptiel fossielen onthult verminderde fluctuerende asymmetrie in bilateraal gepaarde structuren (vinnen, schedel elementen) in meer afgeleide aquatische linages vergeleken met hun terrestrische verwanten, suggererend evolutie van verbeterde ontwikkelingsstabiliteit en kanalisatie als aanpassingen aan de veeleisende aquatische omgeving die meer precieze morfologische integratie vereiste."
-        }
+        }    },
+    {
+      question: {
+        en: "Were marine reptiles dinosaurs?",
+        es: "Were marine reptiles dinosaurs?",
+        de: "Were marine reptiles dinosaurs?",
+        nl: "Were marine reptiles dinosaurs?"
+      },
+      options: [
+        { en: "No, they were different reptiles", es: "No, they were different reptiles", de: "No, they were different reptiles", nl: "No, they were different reptiles" },
+        { en: "Yes, all were dinosaurs", es: "Yes, all were dinosaurs", de: "Yes, all were dinosaurs", nl: "Yes, all were dinosaurs" },
+        { en: "Some were dinosaurs", es: "Some were dinosaurs", de: "Some were dinosaurs", nl: "Some were dinosaurs" },
+        { en: "They were fish", es: "They were fish", de: "They were fish", nl: "They were fish" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Marine reptiles like ichthyosaurs and plesiosaurs were not dinosaurs, but different groups of reptiles.",
+        es: "Marine reptiles like ichthyosaurs and plesiosaurs were not dinosaurs, but different groups of reptiles.",
+        de: "Marine reptiles like ichthyosaurs and plesiosaurs were not dinosaurs, but different groups of reptiles.",
+        nl: "Marine reptiles like ichthyosaurs and plesiosaurs were not dinosaurs, but different groups of reptiles."
+      }
+    },
+    {
+      question: {
+        en: "What is an Ichthyosaur?",
+        es: "What is an Ichthyosaur?",
+        de: "What is an Ichthyosaur?",
+        nl: "What is an Ichthyosaur?"
+      },
+      options: [
+        { en: "Dolphin-like marine reptile", es: "Dolphin-like marine reptile", de: "Dolphin-like marine reptile", nl: "Dolphin-like marine reptile" },
+        { en: "Swimming dinosaur", es: "Swimming dinosaur", de: "Swimming dinosaur", nl: "Swimming dinosaur" },
+        { en: "Fish", es: "Fish", de: "Fish", nl: "Fish" },
+        { en: "Shark", es: "Shark", de: "Shark", nl: "Shark" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Ichthyosaurs were dolphin-like marine reptiles that lived during the Mesozoic Era.",
+        es: "Ichthyosaurs were dolphin-like marine reptiles that lived during the Mesozoic Era.",
+        de: "Ichthyosaurs were dolphin-like marine reptiles that lived during the Mesozoic Era.",
+        nl: "Ichthyosaurs were dolphin-like marine reptiles that lived during the Mesozoic Era."
+      }
+    },
+    {
+      question: {
+        en: "What is a Plesiosaur?",
+        es: "What is a Plesiosaur?",
+        de: "What is a Plesiosaur?",
+        nl: "What is a Plesiosaur?"
+      },
+      options: [
+        { en: "Marine reptile with long neck or large head", es: "Marine reptile with long neck or large head", de: "Marine reptile with long neck or large head", nl: "Marine reptile with long neck or large head" },
+        { en: "Flying reptile", es: "Flying reptile", de: "Flying reptile", nl: "Flying reptile" },
+        { en: "Swimming dinosaur", es: "Swimming dinosaur", de: "Swimming dinosaur", nl: "Swimming dinosaur" },
+        { en: "Fish", es: "Fish", de: "Fish", nl: "Fish" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Plesiosaurs were marine reptiles with either long necks and small heads, or short necks and large heads.",
+        es: "Plesiosaurs were marine reptiles with either long necks and small heads, or short necks and large heads.",
+        de: "Plesiosaurs were marine reptiles with either long necks and small heads, or short necks and large heads.",
+        nl: "Plesiosaurs were marine reptiles with either long necks and small heads, or short necks and large heads."
+      }
+    },
+    {
+      question: {
+        en: "What is a Mosasaur?",
+        es: "What is a Mosasaur?",
+        de: "What is a Mosasaur?",
+        nl: "What is a Mosasaur?"
+      },
+      options: [
+        { en: "Large predatory marine reptile from Cretaceous", es: "Large predatory marine reptile from Cretaceous", de: "Large predatory marine reptile from Cretaceous", nl: "Large predatory marine reptile from Cretaceous" },
+        { en: "Dinosaur", es: "Dinosaur", de: "Dinosaur", nl: "Dinosaur" },
+        { en: "Fish", es: "Fish", de: "Fish", nl: "Fish" },
+        { en: "Shark", es: "Shark", de: "Shark", nl: "Shark" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Mosasaurs were large predatory marine reptiles that dominated Late Cretaceous seas.",
+        es: "Mosasaurs were large predatory marine reptiles that dominated Late Cretaceous seas.",
+        de: "Mosasaurs were large predatory marine reptiles that dominated Late Cretaceous seas.",
+        nl: "Mosasaurs were large predatory marine reptiles that dominated Late Cretaceous seas."
+      }
+    },
+    {
+      question: {
+        en: "Did marine reptiles lay eggs?",
+        es: "Did marine reptiles lay eggs?",
+        de: "Did marine reptiles lay eggs?",
+        nl: "Did marine reptiles lay eggs?"
+      },
+      options: [
+        { en: "Some gave live birth; some laid eggs on land", es: "Some gave live birth; some laid eggs on land", de: "Some gave live birth; some laid eggs on land", nl: "Some gave live birth; some laid eggs on land" },
+        { en: "All laid eggs", es: "All laid eggs", de: "All laid eggs", nl: "All laid eggs" },
+        { en: "None laid eggs", es: "None laid eggs", de: "None laid eggs", nl: "None laid eggs" },
+        { en: "Unknown", es: "Unknown", de: "Unknown", nl: "Unknown" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Some marine reptiles like ichthyosaurs gave live birth, while others laid eggs on beaches like sea turtles.",
+        es: "Some marine reptiles like ichthyosaurs gave live birth, while others laid eggs on beaches like sea turtles.",
+        de: "Some marine reptiles like ichthyosaurs gave live birth, while others laid eggs on beaches like sea turtles.",
+        nl: "Some marine reptiles like ichthyosaurs gave live birth, while others laid eggs on beaches like sea turtles."
+      }
+    },
+    {
+      question: {
+        en: "What is the Loch Ness Monster legend based on?",
+        es: "What is the Loch Ness Monster legend based on?",
+        de: "What is the Loch Ness Monster legend based on?",
+        nl: "What is the Loch Ness Monster legend based on?"
+      },
+      options: [
+        { en: "Alleged plesiosaur survival", es: "Alleged plesiosaur survival", de: "Alleged plesiosaur survival", nl: "Alleged plesiosaur survival" },
+        { en: "Ichthyosaur sighting", es: "Ichthyosaur sighting", de: "Ichthyosaur sighting", nl: "Ichthyosaur sighting" },
+        { en: "Mosasaur evidence", es: "Mosasaur evidence", de: "Mosasaur evidence", nl: "Mosasaur evidence" },
+        { en: "Fish migration", es: "Fish migration", de: "Fish migration", nl: "Fish migration" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Loch Ness Monster legend imagines a plesiosaur somehow surviving to modern times, though this is impossible.",
+        es: "The Loch Ness Monster legend imagines a plesiosaur somehow surviving to modern times, though this is impossible.",
+        de: "The Loch Ness Monster legend imagines a plesiosaur somehow surviving to modern times, though this is impossible.",
+        nl: "The Loch Ness Monster legend imagines a plesiosaur somehow surviving to modern times, though this is impossible."
+      }
+    },
+    {
+      question: {
+        en: "What is a Kronosaurus?",
+        es: "What is a Kronosaurus?",
+        de: "What is a Kronosaurus?",
+        nl: "What is a Kronosaurus?"
+      },
+      options: [
+        { en: "Giant short-necked plesiosaur", es: "Giant short-necked plesiosaur", de: "Giant short-necked plesiosaur", nl: "Giant short-necked plesiosaur" },
+        { en: "Long-necked plesiosaur", es: "Long-necked plesiosaur", de: "Long-necked plesiosaur", nl: "Long-necked plesiosaur" },
+        { en: "Ichthyosaur", es: "Ichthyosaur", de: "Ichthyosaur", nl: "Ichthyosaur" },
+        { en: "Mosasaur", es: "Mosasaur", de: "Mosasaur", nl: "Mosasaur" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Kronosaurus was a massive short-necked plesiosaur (pliosaur) with a huge head and powerful jaws.",
+        es: "Kronosaurus was a massive short-necked plesiosaur (pliosaur) with a huge head and powerful jaws.",
+        de: "Kronosaurus was a massive short-necked plesiosaur (pliosaur) with a huge head and powerful jaws.",
+        nl: "Kronosaurus was a massive short-necked plesiosaur (pliosaur) with a huge head and powerful jaws."
+      }
+    },
+    {
+      question: {
+        en: "How did ichthyosaurs breathe?",
+        es: "How did ichthyosaurs breathe?",
+        de: "How did ichthyosaurs breathe?",
+        nl: "How did ichthyosaurs breathe?"
+      },
+      options: [
+        { en: "Came to surface for air", es: "Came to surface for air", de: "Came to surface for air", nl: "Came to surface for air" },
+        { en: "Through gills", es: "Through gills", de: "Through gills", nl: "Through gills" },
+        { en: "Through skin", es: "Through skin", de: "Through skin", nl: "Through skin" },
+        { en: "Didn't breathe", es: "Didn't breathe", de: "Didn't breathe", nl: "Didn't breathe" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Ichthyosaurs were air-breathing reptiles that had to surface regularly to breathe, like modern dolphins.",
+        es: "Ichthyosaurs were air-breathing reptiles that had to surface regularly to breathe, like modern dolphins.",
+        de: "Ichthyosaurs were air-breathing reptiles that had to surface regularly to breathe, like modern dolphins.",
+        nl: "Ichthyosaurs were air-breathing reptiles that had to surface regularly to breathe, like modern dolphins."
+      }
+    },
+    {
+      question: {
+        en: "What is a Nothosaur?",
+        es: "What is a Nothosaur?",
+        de: "What is a Nothosaur?",
+        nl: "What is a Nothosaur?"
+      },
+      options: [
+        { en: "Early marine reptile, plesiosaur relative", es: "Early marine reptile, plesiosaur relative", de: "Early marine reptile, plesiosaur relative", nl: "Early marine reptile, plesiosaur relative" },
+        { en: "Late marine reptile", es: "Late marine reptile", de: "Late marine reptile", nl: "Late marine reptile" },
+        { en: "Flying reptile", es: "Flying reptile", de: "Flying reptile", nl: "Flying reptile" },
+        { en: "Dinosaur", es: "Dinosaur", de: "Dinosaur", nl: "Dinosaur" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Nothosaurs were early marine reptiles from the Triassic, related to but more primitive than plesiosaurs.",
+        es: "Nothosaurs were early marine reptiles from the Triassic, related to but more primitive than plesiosaurs.",
+        de: "Nothosaurs were early marine reptiles from the Triassic, related to but more primitive than plesiosaurs.",
+        nl: "Nothosaurs were early marine reptiles from the Triassic, related to but more primitive than plesiosaurs."
+      }
+    },
+    {
+      question: {
+        en: "What was the largest mosasaur?",
+        es: "What was the largest mosasaur?",
+        de: "What was the largest mosasaur?",
+        nl: "What was the largest mosasaur?"
+      },
+      options: [
+        { en: "Mosasaurus hoffmannii", es: "Mosasaurus hoffmannii", de: "Mosasaurus hoffmannii", nl: "Mosasaurus hoffmannii" },
+        { en: "Tylosaurus", es: "Tylosaurus", de: "Tylosaurus", nl: "Tylosaurus" },
+        { en: "Hainosaurus", es: "Hainosaurus", de: "Hainosaurus", nl: "Hainosaurus" },
+        { en: "Plotosaurus", es: "Plotosaurus", de: "Plotosaurus", nl: "Plotosaurus" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Mosasaurus hoffmannii was one of the largest mosasaurs, reaching up to 56 feet in length.",
+        es: "Mosasaurus hoffmannii was one of the largest mosasaurs, reaching up to 56 feet in length.",
+        de: "Mosasaurus hoffmannii was one of the largest mosasaurs, reaching up to 56 feet in length.",
+        nl: "Mosasaurus hoffmannii was one of the largest mosasaurs, reaching up to 56 feet in length."
+      }
+    },
+    {
+      question: {
+        en: "What did plesiosaurs eat?",
+        es: "What did plesiosaurs eat?",
+        de: "What did plesiosaurs eat?",
+        nl: "What did plesiosaurs eat?"
+      },
+      options: [
+        { en: "Fish and other marine animals", es: "Fish and other marine animals", de: "Fish and other marine animals", nl: "Fish and other marine animals" },
+        { en: "Plankton only", es: "Plankton only", de: "Plankton only", nl: "Plankton only" },
+        { en: "Plants", es: "Plants", de: "Plants", nl: "Plants" },
+        { en: "Nothing", es: "Nothing", de: "Nothing", nl: "Nothing" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Plesiosaurs were carnivores that fed on fish, squid, and other marine animals.",
+        es: "Plesiosaurs were carnivores that fed on fish, squid, and other marine animals.",
+        de: "Plesiosaurs were carnivores that fed on fish, squid, and other marine animals.",
+        nl: "Plesiosaurs were carnivores that fed on fish, squid, and other marine animals."
+      }
+    },
+    {
+      question: {
+        en: "What is the difference between plesiosaurs and pliosaurs?",
+        es: "What is the difference between plesiosaurs and pliosaurs?",
+        de: "What is the difference between plesiosaurs and pliosaurs?",
+        nl: "What is the difference between plesiosaurs and pliosaurs?"
+      },
+      options: [
+        { en: "Plesiosaurs had long necks; pliosaurs had large heads", es: "Plesiosaurs had long necks; pliosaurs had large heads", de: "Plesiosaurs had long necks; pliosaurs had large heads", nl: "Plesiosaurs had long necks; pliosaurs had large heads" },
+        { en: "No difference", es: "No difference", de: "No difference", nl: "No difference" },
+        { en: "Different time periods", es: "Different time periods", de: "Different time periods", nl: "Different time periods" },
+        { en: "Different ocean habitats", es: "Different ocean habitats", de: "Different ocean habitats", nl: "Different ocean habitats" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Plesiosaurs had long necks and small heads, while pliosaurs had short necks and massive heads.",
+        es: "Plesiosaurs had long necks and small heads, while pliosaurs had short necks and massive heads.",
+        de: "Plesiosaurs had long necks and small heads, while pliosaurs had short necks and massive heads.",
+        nl: "Plesiosaurs had long necks and small heads, while pliosaurs had short necks and massive heads."
+      }
+    },
+    {
+      question: {
+        en: "How fast could ichthyosaurs swim?",
+        es: "How fast could ichthyosaurs swim?",
+        de: "How fast could ichthyosaurs swim?",
+        nl: "How fast could ichthyosaurs swim?"
+      },
+      options: [
+        { en: "Very fast, like modern dolphins", es: "Very fast, like modern dolphins", de: "Very fast, like modern dolphins", nl: "Very fast, like modern dolphins" },
+        { en: "Very slow", es: "Very slow", de: "Very slow", nl: "Very slow" },
+        { en: "Moderate speed", es: "Moderate speed", de: "Moderate speed", nl: "Moderate speed" },
+        { en: "Couldn't swim", es: "Couldn't swim", de: "Couldn't swim", nl: "Couldn't swim" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Ichthyosaurs were fast swimmers, with streamlined bodies similar to modern dolphins.",
+        es: "Ichthyosaurs were fast swimmers, with streamlined bodies similar to modern dolphins.",
+        de: "Ichthyosaurs were fast swimmers, with streamlined bodies similar to modern dolphins.",
+        nl: "Ichthyosaurs were fast swimmers, with streamlined bodies similar to modern dolphins."
+      }
+    },
+    {
+      question: {
+        en: "What is Elasmosaurus?",
+        es: "What is Elasmosaurus?",
+        de: "What is Elasmosaurus?",
+        nl: "What is Elasmosaurus?"
+      },
+      options: [
+        { en: "Plesiosaur with extremely long neck", es: "Plesiosaur with extremely long neck", de: "Plesiosaur with extremely long neck", nl: "Plesiosaur with extremely long neck" },
+        { en: "Short-necked pliosaur", es: "Short-necked pliosaur", de: "Short-necked pliosaur", nl: "Short-necked pliosaur" },
+        { en: "Ichthyosaur", es: "Ichthyosaur", de: "Ichthyosaur", nl: "Ichthyosaur" },
+        { en: "Mosasaur", es: "Mosasaur", de: "Mosasaur", nl: "Mosasaur" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Elasmosaurus had an extremely long neck with up to 72 vertebrae, making up more than half its body length.",
+        es: "Elasmosaurus had an extremely long neck with up to 72 vertebrae, making up more than half its body length.",
+        de: "Elasmosaurus had an extremely long neck with up to 72 vertebrae, making up more than half its body length.",
+        nl: "Elasmosaurus had an extremely long neck with up to 72 vertebrae, making up more than half its body length."
+      }
+    },
+    {
+      question: {
+        en: "Did marine reptiles go extinct with the dinosaurs?",
+        es: "Did marine reptiles go extinct with the dinosaurs?",
+        de: "Did marine reptiles go extinct with the dinosaurs?",
+        nl: "Did marine reptiles go extinct with the dinosaurs?"
+      },
+      options: [
+        { en: "Yes, in the same extinction event", es: "Yes, in the same extinction event", de: "Yes, in the same extinction event", nl: "Yes, in the same extinction event" },
+        { en: "No, they survived", es: "No, they survived", de: "No, they survived", nl: "No, they survived" },
+        { en: "Some survived", es: "Some survived", de: "Some survived", nl: "Some survived" },
+        { en: "They went extinct earlier", es: "They went extinct earlier", de: "They went extinct earlier", nl: "They went extinct earlier" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Most marine reptiles went extinct in the same extinction event that killed the dinosaurs 66 million years ago.",
+        es: "Most marine reptiles went extinct in the same extinction event that killed the dinosaurs 66 million years ago.",
+        de: "Most marine reptiles went extinct in the same extinction event that killed the dinosaurs 66 million years ago.",
+        nl: "Most marine reptiles went extinct in the same extinction event that killed the dinosaurs 66 million years ago."
+      }
+    },
+    {
+      question: {
+        en: "What is unique about ichthyosaur eyes?",
+        es: "What is unique about ichthyosaur eyes?",
+        de: "What is unique about ichthyosaur eyes?",
+        nl: "What is unique about ichthyosaur eyes?"
+      },
+      options: [
+        { en: "Some had the largest eyes of any vertebrate", es: "Some had the largest eyes of any vertebrate", de: "Some had the largest eyes of any vertebrate", nl: "Some had the largest eyes of any vertebrate" },
+        { en: "Smallest eyes", es: "Smallest eyes", de: "Smallest eyes", nl: "Smallest eyes" },
+        { en: "No eyes", es: "No eyes", de: "No eyes", nl: "No eyes" },
+        { en: "Eyes on top of head", es: "Eyes on top of head", de: "Eyes on top of head", nl: "Eyes on top of head" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Some ichthyosaurs had enormous eyes, the largest of any known vertebrate, for hunting in deep water.",
+        es: "Some ichthyosaurs had enormous eyes, the largest of any known vertebrate, for hunting in deep water.",
+        de: "Some ichthyosaurs had enormous eyes, the largest of any known vertebrate, for hunting in deep water.",
+        nl: "Some ichthyosaurs had enormous eyes, the largest of any known vertebrate, for hunting in deep water."
+      }
+    },
+    {
+      question: {
+        en: "What is a Tylosaurus?",
+        es: "What is a Tylosaurus?",
+        de: "What is a Tylosaurus?",
+        nl: "What is a Tylosaurus?"
+      },
+      options: [
+        { en: "Type of large mosasaur", es: "Type of large mosasaur", de: "Type of large mosasaur", nl: "Type of large mosasaur" },
+        { en: "Plesiosaur", es: "Plesiosaur", de: "Plesiosaur", nl: "Plesiosaur" },
+        { en: "Ichthyosaur", es: "Ichthyosaur", de: "Ichthyosaur", nl: "Ichthyosaur" },
+        { en: "Dinosaur", es: "Dinosaur", de: "Dinosaur", nl: "Dinosaur" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Tylosaurus was a large mosasaur from the Late Cretaceous, up to 45 feet long.",
+        es: "Tylosaurus was a large mosasaur from the Late Cretaceous, up to 45 feet long.",
+        de: "Tylosaurus was a large mosasaur from the Late Cretaceous, up to 45 feet long.",
+        nl: "Tylosaurus was a large mosasaur from the Late Cretaceous, up to 45 feet long."
+      }
+    },
+    {
+      question: {
+        en: "How are marine reptiles related to modern animals?",
+        es: "How are marine reptiles related to modern animals?",
+        de: "How are marine reptiles related to modern animals?",
+        nl: "How are marine reptiles related to modern animals?"
+      },
+      options: [
+        { en: "Distant relatives of modern reptiles", es: "Distant relatives of modern reptiles", de: "Distant relatives of modern reptiles", nl: "Distant relatives of modern reptiles" },
+        { en: "Ancestors of dolphins", es: "Ancestors of dolphins", de: "Ancestors of dolphins", nl: "Ancestors of dolphins" },
+        { en: "Ancestors of fish", es: "Ancestors of fish", de: "Ancestors of fish", nl: "Ancestors of fish" },
+        { en: "No living relatives", es: "No living relatives", de: "No living relatives", nl: "No living relatives" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Marine reptiles were reptiles, distantly related to modern lizards, snakes, and crocodiles, but with no direct living descendants.",
+        es: "Marine reptiles were reptiles, distantly related to modern lizards, snakes, and crocodiles, but with no direct living descendants.",
+        de: "Marine reptiles were reptiles, distantly related to modern lizards, snakes, and crocodiles, but with no direct living descendants.",
+        nl: "Marine reptiles were reptiles, distantly related to modern lizards, snakes, and crocodiles, but with no direct living descendants."
+      }
+    },
+    {
+      question: {
+        en: "What did mosasaurs evolve from?",
+        es: "What did mosasaurs evolve from?",
+        de: "What did mosasaurs evolve from?",
+        nl: "What did mosasaurs evolve from?"
+      },
+      options: [
+        { en: "Land-dwelling lizards", es: "Land-dwelling lizards", de: "Land-dwelling lizards", nl: "Land-dwelling lizards" },
+        { en: "Dinosaurs", es: "Dinosaurs", de: "Dinosaurs", nl: "Dinosaurs" },
+        { en: "Fish", es: "Fish", de: "Fish", nl: "Fish" },
+        { en: "Plesiosaurs", es: "Plesiosaurs", de: "Plesiosaurs", nl: "Plesiosaurs" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Mosasaurs evolved from land-dwelling lizards that returned to the sea.",
+        es: "Mosasaurs evolved from land-dwelling lizards that returned to the sea.",
+        de: "Mosasaurs evolved from land-dwelling lizards that returned to the sea.",
+        nl: "Mosasaurs evolved from land-dwelling lizards that returned to the sea."
+      }
+    },
+    {
+      question: {
+        en: "What is a Shonisaurus?",
+        es: "What is a Shonisaurus?",
+        de: "What is a Shonisaurus?",
+        nl: "What is a Shonisaurus?"
+      },
+      options: [
+        { en: "Giant Triassic ichthyosaur", es: "Giant Triassic ichthyosaur", de: "Giant Triassic ichthyosaur", nl: "Giant Triassic ichthyosaur" },
+        { en: "Jurassic plesiosaur", es: "Jurassic plesiosaur", de: "Jurassic plesiosaur", nl: "Jurassic plesiosaur" },
+        { en: "Cretaceous mosasaur", es: "Cretaceous mosasaur", de: "Cretaceous mosasaur", nl: "Cretaceous mosasaur" },
+        { en: "Dinosaur", es: "Dinosaur", de: "Dinosaur", nl: "Dinosaur" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Shonisaurus was one of the largest ichthyosaurs, from the Late Triassic, up to 50 feet long.",
+        es: "Shonisaurus was one of the largest ichthyosaurs, from the Late Triassic, up to 50 feet long.",
+        de: "Shonisaurus was one of the largest ichthyosaurs, from the Late Triassic, up to 50 feet long.",
+        nl: "Shonisaurus was one of the largest ichthyosaurs, from the Late Triassic, up to 50 feet long."
+      }
+
       }
     ]
   };

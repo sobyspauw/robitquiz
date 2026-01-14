@@ -427,6 +427,426 @@
           de: "Aufmerksamkeitsmechanismen ermöglichen neuronalen Netzwerken sich dynamisch auf verschiedene Teile der Eingabesequenz oder Feature Map zu konzentrieren, berechnen gewichtete Repräsentationen basierend auf Relevanz, verbessern stark die Leistung bei Aufgaben die selektiven Fokus erfordern.",
           nl: "Aandachtsmechanismen stellen neurale netwerken in staat dynamisch te focussen op verschillende delen van de invoer sequentie of feature map, berekenen gewogen representaties gebaseerd op relevantie, verbeteren prestaties sterk bij taken die selectieve focus vereisen."
         }
+      },
+      {
+        question: {
+          en: "What is ResNet and what problem does it solve?",
+          es: "¿Qué es ResNet y qué problema resuelve?",
+          de: "Was ist ResNet und welches Problem löst es?",
+          nl: "Wat is ResNet en welk probleem lost het op?"
+        },
+        options: [
+          { en: "A deep network using skip connections to enable training of very deep networks", es: "Una red profunda usando conexiones de salto para permitir entrenamiento de redes muy profundas", de: "Ein tiefes Netzwerk das Skip-Verbindungen verwendet um Training sehr tiefer Netzwerke zu ermöglichen", nl: "Een diep netwerk dat skip connections gebruikt om training van zeer diepe netwerken mogelijk te maken" },
+          { en: "A network for resetting training progress", es: "Una red para reiniciar progreso de entrenamiento", de: "Ein Netzwerk zum Zurücksetzen des Trainingsfortschritts", nl: "Een netwerk voor het resetten van trainingsvoortgang" },
+          { en: "A residential network architecture", es: "Una arquitectura de red residencial", de: "Eine Wohnnetzarchitektur", nl: "Een residentiële netwerkarchitectuur" },
+          { en: "A resource management network", es: "Una red de gestión de recursos", de: "Ein Ressourcenverwaltungsnetzwerk", nl: "Een resource management netwerk" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "ResNet introduces skip connections that add the input of a block directly to its output, mitigating vanishing gradients and enabling successful training of networks with hundreds of layers.",
+          es: "ResNet introduce conexiones de salto que agregan la entrada de un bloque directamente a su salida, mitigando gradientes que desaparecen y permitiendo entrenamiento exitoso de redes con cientos de capas.",
+          de: "ResNet führt Skip-Verbindungen ein die die Eingabe eines Blocks direkt zu seiner Ausgabe hinzufügen, mildert verschwindende Gradienten und ermöglicht erfolgreiches Training von Netzwerken mit Hunderten von Schichten.",
+          nl: "ResNet introduceert skip connections die de input van een blok direct aan zijn output toevoegen, verzacht verdwijnende gradiënten en maakt succesvolle training van netwerken met honderden lagen mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What is DenseNet and how does it differ from ResNet?",
+          es: "¿Qué es DenseNet y en qué difiere de ResNet?",
+          de: "Was ist DenseNet und wie unterscheidet es sich von ResNet?",
+          nl: "Wat is DenseNet en hoe verschilt het van ResNet?"
+        },
+        options: [
+          { en: "DenseNet connects each layer to all subsequent layers, ResNet only skips over blocks", es: "DenseNet conecta cada capa a todas las capas subsiguientes, ResNet solo salta sobre bloques", de: "DenseNet verbindet jede Schicht mit allen nachfolgenden Schichten, ResNet überspringt nur Blöcke", nl: "DenseNet verbindt elke laag met alle volgende lagen, ResNet slaat alleen blokken over" },
+          { en: "DenseNet is denser in parameters than ResNet", es: "DenseNet es más denso en parámetros que ResNet", de: "DenseNet ist dichter in Parametern als ResNet", nl: "DenseNet is dichter in parameters dan ResNet" },
+          { en: "They are the same architecture", es: "Son la misma arquitectura", de: "Sie sind dieselbe Architektur", nl: "Het zijn dezelfde architectuur" },
+          { en: "DenseNet is for dense data only", es: "DenseNet es solo para datos densos", de: "DenseNet ist nur für dichte Daten", nl: "DenseNet is alleen voor dense data" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "DenseNet uses dense connectivity where each layer receives feature maps from all previous layers, promoting feature reuse and reducing parameters compared to traditional networks while maintaining performance.",
+          es: "DenseNet usa conectividad densa donde cada capa recibe mapas de características de todas las capas previas, promoviendo reutilización de características y reduciendo parámetros comparado con redes tradicionales mientras mantiene rendimiento.",
+          de: "DenseNet verwendet dichte Konnektivität wo jede Schicht Feature Maps von allen vorherigen Schichten erhält, fördert Feature-Wiederverwendung und reduziert Parameter im Vergleich zu traditionellen Netzwerken bei Beibehaltung der Leistung.",
+          nl: "DenseNet gebruikt dense connectivity waarbij elke laag feature maps ontvangt van alle eerdere lagen, bevordert feature hergebruik en vermindert parameters vergeleken met traditionele netwerken terwijl prestaties behouden blijven."
+        }
+      },
+      {
+        question: {
+          en: "What is the Leaky ReLU activation function?",
+          es: "¿Qué es la función de activación Leaky ReLU?",
+          de: "Was ist die Leaky ReLU Aktivierungsfunktion?",
+          nl: "Wat is de Leaky ReLU activatiefunctie?"
+        },
+        options: [
+          { en: "A variant of ReLU with a small slope for negative values instead of zero", es: "Una variante de ReLU con pendiente pequeña para valores negativos en lugar de cero", de: "Eine Variante von ReLU mit kleiner Steigung für negative Werte anstatt Null", nl: "Een variant van ReLU met een kleine helling voor negatieve waarden in plaats van nul" },
+          { en: "A ReLU that leaks memory", es: "Un ReLU que pierde memoria", de: "Ein ReLU das Speicher verliert", nl: "Een ReLU die geheugen lekt" },
+          { en: "A version that outputs random leaks", es: "Una versión que produce fugas aleatorias", de: "Eine Version die zufällige Lecks ausgibt", nl: "Een versie die willekeurige lekken produceert" },
+          { en: "ReLU with data leakage", es: "ReLU con fuga de datos", de: "ReLU mit Datenleck", nl: "ReLU met datalekken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Leaky ReLU solves the dying ReLU problem by allowing a small, non-zero gradient when x < 0 (typically 0.01x), preventing neurons from becoming permanently inactive during training.",
+          es: "Leaky ReLU resuelve el problema de ReLU muriendo permitiendo un gradiente pequeño no cero cuando x < 0 (típicamente 0.01x), previniendo que neuronas se vuelvan permanentemente inactivas durante entrenamiento.",
+          de: "Leaky ReLU löst das Dying ReLU Problem durch Erlauben eines kleinen nicht-null Gradienten wenn x < 0 (typischerweise 0.01x), verhindert dass Neuronen während Training dauerhaft inaktiv werden.",
+          nl: "Leaky ReLU lost het dying ReLU probleem op door een kleine, niet-nul gradiënt toe te staan wanneer x < 0 (typisch 0.01x), voorkomt dat neuronen permanent inactief worden tijdens training."
+        }
+      },
+      {
+        question: {
+          en: "What is Xavier initialization?",
+          es: "¿Qué es la inicialización Xavier?",
+          de: "Was ist Xavier-Initialisierung?",
+          nl: "Wat is Xavier initialisatie?"
+        },
+        options: [
+          { en: "A weight initialization method that scales weights based on number of input and output neurons", es: "Un método de inicialización de pesos que escala pesos según número de neuronas de entrada y salida", de: "Eine Gewichtsinitialisierungsmethode die Gewichte basierend auf Anzahl von Eingabe- und Ausgabeneuronen skaliert", nl: "Een gewicht initialisatie methode die gewichten schaalt gebaseerd op aantal input en output neuronen" },
+          { en: "A person who invented neural networks", es: "Una persona que inventó redes neuronales", de: "Eine Person die neuronale Netzwerke erfunden hat", nl: "Een persoon die neurale netwerken uitvond" },
+          { en: "Setting all weights to X values", es: "Establecer todos los pesos a valores X", de: "Alle Gewichte auf X-Werte setzen", nl: "Alle gewichten instellen op X waarden" },
+          { en: "A type of activation function", es: "Un tipo de función de activación", de: "Eine Art Aktivierungsfunktion", nl: "Een type activatiefunctie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Xavier initialization sets weights with variance inversely proportional to the average of input and output dimensions, helping maintain signal variance across layers and preventing vanishing/exploding gradients in sigmoid/tanh networks.",
+          es: "Inicialización Xavier establece pesos con varianza inversamente proporcional al promedio de dimensiones de entrada y salida, ayudando mantener varianza de señal a través de capas y previniendo gradientes que desaparecen/explotan en redes sigmoid/tanh.",
+          de: "Xavier-Initialisierung setzt Gewichte mit Varianz umgekehrt proportional zum Durchschnitt von Eingabe- und Ausgabedimensionen, hilft Signalvarianz über Schichten zu erhalten und verhindert verschwindende/explodierende Gradienten in Sigmoid/Tanh-Netzwerken.",
+          nl: "Xavier initialisatie stelt gewichten in met variantie omgekeerd evenredig aan het gemiddelde van input en output dimensies, helpt signaaldvariantie over lagen te behouden en voorkomt verdwijnende/exploderende gradiënten in sigmoid/tanh netwerken."
+        }
+      },
+      {
+        question: {
+          en: "What is He initialization and when should it be used?",
+          es: "¿Qué es la inicialización He y cuándo debe usarse?",
+          de: "Was ist He-Initialisierung und wann sollte sie verwendet werden?",
+          nl: "Wat is He initialisatie en wanneer moet het gebruikt worden?"
+        },
+        options: [
+          { en: "Weight initialization optimized for ReLU activations, using variance scaled by 2/n_in", es: "Inicialización de pesos optimizada para activaciones ReLU, usando varianza escalada por 2/n_in", de: "Gewichtsinitialisierung optimiert für ReLU-Aktivierungen, verwendet Varianz skaliert mit 2/n_in", nl: "Gewicht initialisatie geoptimaliseerd voor ReLU activaties, gebruikt variantie geschaald met 2/n_in" },
+          { en: "Initialization method named after a male pronoun", es: "Método de inicialización nombrado por un pronombre masculino", de: "Initialisierungsmethode benannt nach einem männlichen Pronomen", nl: "Initialisatie methode vernoemd naar een mannelijk voornaamwoord" },
+          { en: "A high-energy initialization", es: "Una inicialización de alta energía", de: "Eine hochenergetische Initialisierung", nl: "Een hoge-energie initialisatie" },
+          { en: "Initialization for health monitoring networks", es: "Inicialización para redes de monitoreo de salud", de: "Initialisierung für Gesundheitsüberwachungsnetzwerke", nl: "Initialisatie voor gezondheidsmonitoring netwerken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "He initialization is specifically designed for ReLU and variants, accounting for the fact that ReLU zeros out half the activations, maintaining proper variance throughout deep ReLU networks.",
+          es: "Inicialización He está específicamente diseñada para ReLU y variantes, teniendo en cuenta que ReLU pone a cero la mitad de las activaciones, manteniendo varianza apropiada a través de redes ReLU profundas.",
+          de: "He-Initialisierung ist speziell für ReLU und Varianten entwickelt, berücksichtigt dass ReLU die Hälfte der Aktivierungen auf null setzt, erhält richtige Varianz durch tiefe ReLU-Netzwerke.",
+          nl: "He initialisatie is specifiek ontworpen voor ReLU en varianten, houdt rekening met het feit dat ReLU de helft van de activaties op nul zet, behoudt juiste variantie door diepe ReLU netwerken."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of global average pooling?",
+          es: "¿Cuál es el propósito del pooling de promedio global?",
+          de: "Was ist der Zweck von Global Average Pooling?",
+          nl: "Wat is het doel van global average pooling?"
+        },
+        options: [
+          { en: "Reducing each feature map to a single value by averaging, replacing fully connected layers", es: "Reducir cada mapa de características a un solo valor promediando, reemplazando capas completamente conectadas", de: "Jede Feature Map auf einen einzelnen Wert reduzieren durch Mittelung, ersetzt vollständig verbundene Schichten", nl: "Elke feature map reduceren tot één enkele waarde door te middelen, vervangt volledig verbonden lagen" },
+          { en: "Pooling from global datasets", es: "Pooling de conjuntos de datos globales", de: "Pooling aus globalen Datensätzen", nl: "Pooling uit globale datasets" },
+          { en: "Average pooling across multiple networks", es: "Pooling promedio a través de múltiples redes", de: "Durchschnittliches Pooling über mehrere Netzwerke", nl: "Gemiddelde pooling over meerdere netwerken" },
+          { en: "International data pooling", es: "Pooling de datos internacional", de: "Internationales Daten-Pooling", nl: "Internationaal data pooling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Global average pooling reduces spatial dimensions to 1×1 by averaging each feature map, drastically reducing parameters compared to dense layers while maintaining spatial information and reducing overfitting.",
+          es: "Pooling de promedio global reduce dimensiones espaciales a 1×1 promediando cada mapa de características, reduciendo drásticamente parámetros comparado con capas densas mientras mantiene información espacial y reduce sobreajuste.",
+          de: "Global Average Pooling reduziert räumliche Dimensionen auf 1×1 durch Mittelung jeder Feature Map, reduziert drastisch Parameter im Vergleich zu dichten Schichten während räumliche Information erhalten bleibt und Overfitting reduziert wird.",
+          nl: "Global average pooling vermindert ruimtelijke dimensies tot 1×1 door elke feature map te middelen, vermindert drastisch parameters vergeleken met dense lagen terwijl ruimtelijke informatie behouden blijft en overfitting vermindert."
+        }
+      },
+      {
+        question: {
+          en: "What is label smoothing in classification?",
+          es: "¿Qué es el suavizado de etiquetas en clasificación?",
+          de: "Was ist Label Smoothing in der Klassifikation?",
+          nl: "Wat is label smoothing in classificatie?"
+        },
+        options: [
+          { en: "A regularization technique that softens hard targets by assigning small probabilities to incorrect classes", es: "Una técnica de regularización que suaviza objetivos duros asignando probabilidades pequeñas a clases incorrectas", de: "Eine Regularisierungstechnik die harte Ziele weicher macht durch Zuweisen kleiner Wahrscheinlichkeiten zu falschen Klassen", nl: "Een regularisatie techniek die harde doelen verzacht door kleine waarschijnlijkheden toe te wijzen aan incorrecte klassen" },
+          { en: "Making label text smoother for reading", es: "Hacer texto de etiquetas más suave para leer", de: "Etikettentext glatter zum Lesen machen", nl: "Label tekst gladder maken voor lezen" },
+          { en: "Smoothing transitions between labels", es: "Suavizar transiciones entre etiquetas", de: "Übergänge zwischen Etiketten glätten", nl: "Overgangen tussen labels gladstrijken" },
+          { en: "Averaging similar labels together", es: "Promediar etiquetas similares juntas", de: "Ähnliche Etiketten zusammen mitteln", nl: "Vergelijkbare labels samen middelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Label smoothing prevents overconfident predictions by using soft labels (e.g., 0.9 for correct class, 0.1 distributed among others) instead of hard one-hot encoding, improving generalization and calibration.",
+          es: "Suavizado de etiquetas previene predicciones sobreconseguras usando etiquetas suaves (ej. 0.9 para clase correcta, 0.1 distribuido entre otras) en lugar de codificación one-hot dura, mejorando generalización y calibración.",
+          de: "Label Smoothing verhindert übersichere Vorhersagen durch Verwendung weicher Labels (z.B. 0.9 für korrekte Klasse, 0.1 verteilt auf andere) anstatt harter One-Hot-Kodierung, verbessert Generalisierung und Kalibrierung.",
+          nl: "Label smoothing voorkomt te zelfverzekerde voorspellingen door zachte labels te gebruiken (bijv. 0.9 voor correcte klasse, 0.1 verdeeld over anderen) in plaats van harde one-hot encoding, verbetert generalisatie en kalibratie."
+        }
+      },
+      {
+        question: {
+          en: "What is mixup data augmentation?",
+          es: "¿Qué es el aumento de datos mixup?",
+          de: "Was ist Mixup-Datenaugmentation?",
+          nl: "Wat is mixup data augmentatie?"
+        },
+        options: [
+          { en: "Training on linear interpolations of pairs of examples and their labels", es: "Entrenar en interpolaciones lineales de pares de ejemplos y sus etiquetas", de: "Training auf linearen Interpolationen von Beispielpaaren und ihren Labels", nl: "Trainen op lineaire interpolaties van paren voorbeelden en hun labels" },
+          { en: "Mixing different datasets together", es: "Mezclar diferentes conjuntos de datos juntos", de: "Verschiedene Datensätze zusammenmischen", nl: "Verschillende datasets samen mengen" },
+          { en: "Randomly mixing training batches", es: "Mezclar aleatoriamente lotes de entrenamiento", de: "Trainingsbatches zufällig mischen", nl: "Willekeurig training batches mengen" },
+          { en: "Augmenting by mixing colors", es: "Aumentar mezclando colores", de: "Augmentieren durch Farbmischung", nl: "Augmenteren door kleuren te mengen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mixup creates virtual training examples by blending two images and their labels (e.g., 0.7×image1 + 0.3×image2), encouraging smoother decision boundaries and improved robustness to adversarial examples.",
+          es: "Mixup crea ejemplos de entrenamiento virtuales mezclando dos imágenes y sus etiquetas (ej. 0.7×imagen1 + 0.3×imagen2), fomentando límites de decisión más suaves y robustez mejorada a ejemplos adversarios.",
+          de: "Mixup erstellt virtuelle Trainingsbeispiele durch Mischen zweier Bilder und ihrer Labels (z.B. 0.7×Bild1 + 0.3×Bild2), fördert glattere Entscheidungsgrenzen und verbesserte Robustheit gegen adversarielle Beispiele.",
+          nl: "Mixup creëert virtuele trainingsvoorbeelden door twee afbeeldingen en hun labels te mengen (bijv. 0.7×afbeelding1 + 0.3×afbeelding2), moedigt gladdere beslissingsgrenzen aan en verbeterde robuustheid tegen adversariele voorbeelden."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of temperature in softmax?",
+          es: "¿Cuál es el propósito de la temperatura en softmax?",
+          de: "Was ist der Zweck der Temperatur in Softmax?",
+          nl: "Wat is het doel van temperature in softmax?"
+        },
+        options: [
+          { en: "Controlling how sharp or smooth the output probability distribution is", es: "Controlar qué tan aguda o suave es la distribución de probabilidad de salida", de: "Kontrollieren wie scharf oder glatt die Ausgabewahrscheinlichkeitsverteilung ist", nl: "Controleren hoe scherp of glad de uitvoer waarschijnlijkheidsverdeling is" },
+          { en: "Monitoring GPU temperature", es: "Monitorear temperatura de GPU", de: "GPU-Temperatur überwachen", nl: "GPU temperatuur monitoren" },
+          { en: "Measuring training heat", es: "Medir calor de entrenamiento", de: "Trainingshitze messen", nl: "Trainingshitte meten" },
+          { en: "Cooling down neural networks", es: "Enfriar redes neuronales", de: "Neuronale Netzwerke abkühlen", nl: "Neurale netwerken afkoelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Temperature scaling divides logits before softmax: T>1 softens probabilities (more uncertainty), T<1 sharpens them (more confidence), useful in knowledge distillation and ensemble methods.",
+          es: "Escalado de temperatura divide logits antes de softmax: T>1 suaviza probabilidades (más incertidumbre), T<1 las agudiza (más confianza), útil en destilación de conocimiento y métodos de conjunto.",
+          de: "Temperaturskalierung teilt Logits vor Softmax: T>1 macht Wahrscheinlichkeiten weicher (mehr Unsicherheit), T<1 schärft sie (mehr Vertrauen), nützlich bei Knowledge Distillation und Ensemble-Methoden.",
+          nl: "Temperature scaling deelt logits voor softmax: T>1 verzacht waarschijnlijkheden (meer onzekerheid), T<1 scherpt ze aan (meer vertrouwen), nuttig bij knowledge distillation en ensemble methoden."
+        }
+      },
+      {
+        question: {
+          en: "What is cosine annealing for learning rate scheduling?",
+          es: "¿Qué es el recocido coseno para programación de tasa de aprendizaje?",
+          de: "Was ist Cosine Annealing für Lernraten-Scheduling?",
+          nl: "Wat is cosine annealing voor learning rate scheduling?"
+        },
+        options: [
+          { en: "Decreasing learning rate following a cosine curve from initial to minimum value", es: "Disminuir tasa de aprendizaje siguiendo curva coseno de valor inicial a mínimo", de: "Lernrate verringern entlang einer Kosinuskurve von Anfangs- zu Minimalwert", nl: "Learning rate verminderen volgens een cosinus curve van initiële naar minimum waarde" },
+          { en: "Annealing with cosine activation functions", es: "Recocido con funciones de activación coseno", de: "Annealing mit Kosinus-Aktivierungsfunktionen", nl: "Annealing met cosinus activatiefuncties" },
+          { en: "Scheduling based on cosine similarity", es: "Programación basada en similitud coseno", de: "Scheduling basierend auf Kosinus-Ähnlichkeit", nl: "Scheduling gebaseerd op cosinus similariteit" },
+          { en: "Using cosine waves for data augmentation", es: "Usar ondas coseno para aumento de datos", de: "Kosinuswellen für Datenaugmentation verwenden", nl: "Cosinus golven gebruiken voor data augmentatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cosine annealing smoothly decreases learning rate following a cosine function, often with warm restarts, allowing escape from local minima and potentially finding better solutions through periodic exploration.",
+          es: "Recocido coseno disminuye suavemente tasa de aprendizaje siguiendo función coseno, a menudo con reinicios cálidos, permitiendo escape de mínimos locales y potencialmente encontrar mejores soluciones mediante exploración periódica.",
+          de: "Cosine Annealing verringert Lernrate glatt entlang einer Kosinusfunktion, oft mit warmen Neustarts, ermöglicht Entkommen aus lokalen Minima und potentiell bessere Lösungen durch periodische Exploration.",
+          nl: "Cosine annealing vermindert learning rate glad volgens een cosinus functie, vaak met warme herstarts, maakt ontsnappen uit lokale minima mogelijk en mogelijk betere oplossingen vinden door periodieke exploratie."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of warmup in learning rate scheduling?",
+          es: "¿Cuál es el propósito del calentamiento en programación de tasa de aprendizaje?",
+          de: "Was ist der Zweck von Warmup in Lernraten-Scheduling?",
+          nl: "Wat is het doel van warmup in learning rate scheduling?"
+        },
+        options: [
+          { en: "Gradually increasing learning rate from low to target value at training start", es: "Aumentar gradualmente tasa de aprendizaje de bajo a valor objetivo al inicio de entrenamiento", de: "Lernrate allmählich von niedrig zu Zielwert am Trainingsstart erhöhen", nl: "Geleidelijk learning rate verhogen van laag naar doelwaarde bij trainingsstart" },
+          { en: "Warming up the GPU before training", es: "Calentar la GPU antes de entrenar", de: "Die GPU vor Training aufwärmen", nl: "De GPU opwarmen voor training" },
+          { en: "Preparing data before training", es: "Preparar datos antes de entrenar", de: "Daten vor Training vorbereiten", nl: "Data voorbereiden voor training" },
+          { en: "Initial test run of the model", es: "Ejecución de prueba inicial del modelo", de: "Initialer Testlauf des Modells", nl: "Initiële testrun van het model" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Warmup prevents instability at training start when weights are randomly initialized, gradually increasing learning rate over initial steps allows the model to stabilize before full-speed optimization.",
+          es: "Calentamiento previene inestabilidad al inicio de entrenamiento cuando pesos están inicializados aleatoriamente, aumentar gradualmente tasa de aprendizaje durante pasos iniciales permite al modelo estabilizarse antes de optimización a velocidad completa.",
+          de: "Warmup verhindert Instabilität am Trainingsstart wenn Gewichte zufällig initialisiert sind, allmähliches Erhöhen der Lernrate über anfängliche Schritte ermöglicht dem Modell zu stabilisieren vor Vollgeschwindigkeits-Optimierung.",
+          nl: "Warmup voorkomt instabiliteit bij trainingsstart wanneer gewichten willekeurig geïnitialiseerd zijn, geleidelijk verhogen van learning rate over initiële stappen maakt het model mogelijk te stabiliseren voor volledige snelheid optimalisatie."
+        }
+      },
+      {
+        question: {
+          en: "What is gradient accumulation?",
+          es: "¿Qué es la acumulación de gradientes?",
+          de: "Was ist Gradientenakkumulation?",
+          nl: "Wat is gradient accumulation?"
+        },
+        options: [
+          { en: "Summing gradients over multiple mini-batches before updating weights", es: "Sumar gradientes sobre múltiples mini-lotes antes de actualizar pesos", de: "Gradienten über mehrere Mini-Batches summieren vor Gewichtsaktualisierung", nl: "Gradiënten optellen over meerdere mini-batches voor gewichten bij te werken" },
+          { en: "Saving gradients for later use", es: "Guardar gradientes para uso posterior", de: "Gradienten für spätere Verwendung speichern", nl: "Gradiënten bewaren voor later gebruik" },
+          { en: "Accumulating errors over time", es: "Acumular errores con el tiempo", de: "Fehler über Zeit akkumulieren", nl: "Fouten accumuleren over tijd" },
+          { en: "Building up gradient values", es: "Construir valores de gradiente", de: "Gradientenwerte aufbauen", nl: "Gradiënt waarden opbouwen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gradient accumulation simulates larger batch sizes when memory is limited by accumulating gradients from several forward/backward passes before performing weight updates, trading computation time for memory.",
+          es: "Acumulación de gradientes simula tamaños de lote más grandes cuando memoria es limitada acumulando gradientes de varios pases adelante/atrás antes de realizar actualizaciones de pesos, intercambiando tiempo de cómputo por memoria.",
+          de: "Gradientenakkumulation simuliert größere Batch-Größen wenn Speicher begrenzt ist durch Akkumulieren von Gradienten aus mehreren Vorwärts/Rückwärts-Durchläufen vor Gewichtsaktualisierungen, tauscht Rechenzeit gegen Speicher.",
+          nl: "Gradient accumulation simuleert grotere batch groottes wanneer geheugen beperkt is door gradiënten te accumuleren van verschillende forward/backward passes voor gewicht updates uit te voeren, ruilt rekentijd voor geheugen."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between batch normalization and layer normalization?",
+          es: "¿Cuál es la diferencia entre normalización por lotes y normalización por capas?",
+          de: "Was ist der Unterschied zwischen Batch-Normalisierung und Layer-Normalisierung?",
+          nl: "Wat is het verschil tussen batch normalization en layer normalization?"
+        },
+        options: [
+          { en: "Batch norm normalizes across batch dimension, layer norm across feature dimension", es: "Norm por lotes normaliza a través de dimensión de lote, norm por capas a través de dimensión de características", de: "Batch Norm normalisiert über Batch-Dimension, Layer Norm über Feature-Dimension", nl: "Batch norm normaliseert over batch dimensie, layer norm over feature dimensie" },
+          { en: "They are the same technique", es: "Son la misma técnica", de: "Sie sind dieselbe Technik", nl: "Het zijn dezelfde techniek" },
+          { en: "Batch norm is faster than layer norm", es: "Norm por lotes es más rápido que norm por capas", de: "Batch Norm ist schneller als Layer Norm", nl: "Batch norm is sneller dan layer norm" },
+          { en: "Layer norm is only for RNNs", es: "Norm por capas es solo para RNNs", de: "Layer Norm ist nur für RNNs", nl: "Layer norm is alleen voor RNNs" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Batch normalization normalizes across the batch for each feature, while layer normalization normalizes across all features for each example, making layer norm more suitable for RNNs and small batches.",
+          es: "Normalización por lotes normaliza a través del lote para cada característica, mientras normalización por capas normaliza a través de todas las características para cada ejemplo, haciendo norm por capas más adecuada para RNNs y lotes pequeños.",
+          de: "Batch-Normalisierung normalisiert über den Batch für jedes Feature, während Layer-Normalisierung über alle Features für jedes Beispiel normalisiert, macht Layer Norm geeigneter für RNNs und kleine Batches.",
+          nl: "Batch normalization normaliseert over de batch voor elke feature, terwijl layer normalization normaliseert over alle features voor elk voorbeeld, maakt layer norm geschikter voor RNNs en kleine batches."
+        }
+      },
+      {
+        question: {
+          en: "What is weight decay and how does it relate to L2 regularization?",
+          es: "¿Qué es el decaimiento de pesos y cómo se relaciona con la regularización L2?",
+          de: "Was ist Weight Decay und wie bezieht es sich auf L2-Regularisierung?",
+          nl: "Wat is weight decay en hoe verhoudt het zich tot L2 regularisatie?"
+        },
+        options: [
+          { en: "Weight decay directly shrinks weights during optimization, equivalent to L2 for standard SGD", es: "Decaimiento de pesos encoge directamente pesos durante optimización, equivalente a L2 para SGD estándar", de: "Weight Decay schrumpft Gewichte direkt während Optimierung, äquivalent zu L2 für Standard-SGD", nl: "Weight decay krimpt gewichten direct tijdens optimalisatie, equivalent aan L2 voor standaard SGD" },
+          { en: "Weights naturally decay over time", es: "Pesos naturalmente decaen con el tiempo", de: "Gewichte zerfallen natürlich über Zeit", nl: "Gewichten vervallen natuurlijk over tijd" },
+          { en: "Removing old weights from network", es: "Eliminar pesos viejos de la red", de: "Alte Gewichte aus Netzwerk entfernen", nl: "Oude gewichten uit netwerk verwijderen" },
+          { en: "Weights becoming weaker", es: "Pesos volviéndose más débiles", de: "Gewichte werden schwächer", nl: "Gewichten worden zwakker" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Weight decay multiplies weights by a factor slightly less than 1 each step (e.g., 0.9999), effectively the same as L2 regularization for SGD but differs for adaptive optimizers like Adam.",
+          es: "Decaimiento de pesos multiplica pesos por factor ligeramente menor que 1 cada paso (ej. 0.9999), efectivamente igual que regularización L2 para SGD pero difiere para optimizadores adaptativos como Adam.",
+          de: "Weight Decay multipliziert Gewichte mit einem Faktor leicht weniger als 1 jeden Schritt (z.B. 0.9999), effektiv dasselbe wie L2-Regularisierung für SGD aber unterscheidet sich für adaptive Optimierer wie Adam.",
+          nl: "Weight decay vermenigvuldigt gewichten met een factor iets minder dan 1 elke stap (bijv. 0.9999), effectief hetzelfde als L2 regularisatie voor SGD maar verschilt voor adaptieve optimizers zoals Adam."
+        }
+      },
+      {
+        question: {
+          en: "What is the role of skip connections in training deep networks?",
+          es: "¿Cuál es el rol de las conexiones de salto en entrenar redes profundas?",
+          de: "Was ist die Rolle von Skip-Verbindungen beim Training tiefer Netzwerke?",
+          nl: "Wat is de rol van skip connections in het trainen van diepe netwerken?"
+        },
+        options: [
+          { en: "Providing gradient highways that allow direct flow to early layers", es: "Proporcionar autopistas de gradiente que permiten flujo directo a capas tempranas", de: "Bereitstellen von Gradienten-Highways die direkten Fluss zu frühen Schichten ermöglichen", nl: "Bieden van gradiënt snelwegen die directe stroom naar vroege lagen mogelijk maken" },
+          { en: "Skipping unnecessary computations", es: "Saltar computaciones innecesarias", de: "Unnötige Berechnungen überspringen", nl: "Onnodige berekeningen overslaan" },
+          { en: "Connecting non-adjacent layers randomly", es: "Conectar capas no adyacentes aleatoriamente", de: "Nicht-benachbarte Schichten zufällig verbinden", nl: "Niet-aangrenzende lagen willekeurig verbinden" },
+          { en: "Bypassing entire network sections", es: "Evitar secciones enteras de red", de: "Ganze Netzwerksektionen umgehen", nl: "Hele netwerk secties omzeilen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Skip connections create identity mappings that allow gradients to flow directly backward, preventing degradation as networks get deeper and enabling training of networks with hundreds of layers successfully.",
+          es: "Conexiones de salto crean mapeos de identidad que permiten a gradientes fluir directamente hacia atrás, previniendo degradación a medida que redes se vuelven más profundas y permitiendo entrenar redes con cientos de capas exitosamente.",
+          de: "Skip-Verbindungen erstellen Identitätsabbildungen die Gradienten ermöglichen direkt rückwärts zu fließen, verhindern Degradierung wenn Netzwerke tiefer werden und ermöglichen erfolgreiches Training von Netzwerken mit Hunderten von Schichten.",
+          nl: "Skip connections creëren identiteitsmappings die gradiënten toestaan direct achterwaarts te stromen, voorkomen degradatie naarmate netwerken dieper worden en maken succesvolle training van netwerken met honderden lagen mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What is the 1x1 convolution and what is it used for?",
+          es: "¿Qué es la convolución 1x1 y para qué se usa?",
+          de: "Was ist die 1x1-Faltung und wofür wird sie verwendet?",
+          nl: "Wat is de 1x1 convolutie en waarvoor wordt het gebruikt?"
+        },
+        options: [
+          { en: "A pointwise convolution for changing channel dimensions and adding non-linearity", es: "Una convolución puntual para cambiar dimensiones de canal y agregar no linealidad", de: "Eine punktweise Faltung zum Ändern von Kanaldimensionen und Hinzufügen von Nichtlinearität", nl: "Een puntsgewijze convolutie voor het veranderen van kanaaldimensies en toevoegen van non-lineariteit" },
+          { en: "The smallest possible convolution", es: "La convolución más pequeña posible", de: "Die kleinstmögliche Faltung", nl: "De kleinst mogelijke convolutie" },
+          { en: "A convolution that does nothing", es: "Una convolución que no hace nada", de: "Eine Faltung die nichts tut", nl: "Een convolutie die niets doet" },
+          { en: "Convolution for 1-pixel images", es: "Convolución para imágenes de 1 píxel", de: "Faltung für 1-Pixel-Bilder", nl: "Convolutie voor 1-pixel afbeeldingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "1x1 convolutions project channel dimensions, reduce computational cost (bottleneck layers), and add non-linearity without affecting spatial dimensions, widely used in inception and residual networks.",
+          es: "Convoluciones 1x1 proyectan dimensiones de canal, reducen costo computacional (capas de cuello de botella), y agregan no linealidad sin afectar dimensiones espaciales, ampliamente usadas en redes inception y residuales.",
+          de: "1x1-Faltungen projizieren Kanaldimensionen, reduzieren Rechenkosten (Bottleneck-Schichten), und fügen Nichtlinearität hinzu ohne räumliche Dimensionen zu beeinflussen, weit verbreitet in Inception- und Residualnetzwerken.",
+          nl: "1x1 convoluties projecteren kanaaldimensies, verminderen computationele kosten (bottleneck lagen), en voegen non-lineariteit toe zonder ruimtelijke dimensies te beïnvloeden, veel gebruikt in inception en residuele netwerken."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of depthwise separable convolution?",
+          es: "¿Cuál es el propósito de la convolución separable en profundidad?",
+          de: "Was ist der Zweck der depthwise separable Faltung?",
+          nl: "Wat is het doel van depthwise separable convolution?"
+        },
+        options: [
+          { en: "Reducing parameters and computation by separating spatial and channel-wise convolutions", es: "Reducir parámetros y computación separando convoluciones espaciales y por canal", de: "Parameter und Berechnungen reduzieren durch Trennung räumlicher und kanalweiser Faltungen", nl: "Parameters en berekeningen verminderen door ruimtelijke en kanaalwijze convoluties te scheiden" },
+          { en: "Convolution at different depths only", es: "Convolución solo a diferentes profundidades", de: "Faltung nur in verschiedenen Tiefen", nl: "Convolutie alleen op verschillende dieptes" },
+          { en: "Separating training and testing", es: "Separar entrenamiento y prueba", de: "Training und Testing trennen", nl: "Training en testing scheiden" },
+          { en: "Deep and wide convolutions", es: "Convoluciones profundas y anchas", de: "Tiefe und breite Faltungen", nl: "Diepe en brede convoluties" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Depthwise separable convolutions factorize standard convolutions into depthwise (spatial filtering per channel) and pointwise (1x1 cross-channel) steps, drastically reducing parameters while maintaining performance, popularized by MobileNet.",
+          es: "Convoluciones separables en profundidad factorizan convoluciones estándar en pasos en profundidad (filtrado espacial por canal) y puntual (1x1 entre canales), reduciendo drásticamente parámetros mientras mantienen rendimiento, popularizadas por MobileNet.",
+          de: "Depthwise separable Faltungen faktorisieren Standard-Faltungen in depthwise (räumliche Filterung pro Kanal) und pointwise (1x1 kanalübergreifende) Schritte, reduzieren drastisch Parameter bei Beibehaltung der Leistung, popularisiert durch MobileNet.",
+          nl: "Depthwise separable convoluties factoriseren standaard convoluties in depthwise (ruimtelijke filtering per kanaal) en pointwise (1x1 cross-channel) stappen, verminderen drastisch parameters terwijl prestaties behouden blijven, gepopulariseerd door MobileNet."
+        }
+      },
+      {
+        question: {
+          en: "What is the concept of receptive field in CNNs?",
+          es: "¿Cuál es el concepto de campo receptivo en CNNs?",
+          de: "Was ist das Konzept des rezeptiven Feldes in CNNs?",
+          nl: "Wat is het concept van receptief veld in CNN's?"
+        },
+        options: [
+          { en: "The region of input that influences a particular neuron's activation", es: "La región de entrada que influye en la activación de una neurona particular", de: "Die Eingaberegion die die Aktivierung eines bestimmten Neurons beeinflusst", nl: "De invoerregio die de activatie van een bepaald neuron beïnvloedt" },
+          { en: "The field where data is received", es: "El campo donde se reciben datos", de: "Das Feld wo Daten empfangen werden", nl: "Het veld waar data ontvangen wordt" },
+          { en: "Input layer size", es: "Tamaño de capa de entrada", de: "Eingabeschichtgröße", nl: "Invoerlaag grootte" },
+          { en: "Network reception area", es: "Área de recepción de red", de: "Netzwerk-Empfangsbereich", nl: "Netwerk ontvangst gebied" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Receptive field grows with network depth: each layer sees a larger input region through accumulated smaller views, allowing deeper neurons to capture increasingly global context and complex patterns.",
+          es: "Campo receptivo crece con profundidad de red: cada capa ve región de entrada más grande a través de vistas más pequeñas acumuladas, permitiendo neuronas más profundas capturar contexto cada vez más global y patrones complejos.",
+          de: "Rezeptives Feld wächst mit Netzwerktiefe: jede Schicht sieht größere Eingaberegion durch akkumulierte kleinere Ansichten, ermöglicht tieferen Neuronen zunehmend globalen Kontext und komplexe Muster zu erfassen.",
+          nl: "Receptief veld groeit met netwerkdiepte: elke laag ziet grotere invoerregio door geaccumuleerde kleinere weergaven, maakt diepere neuronen mogelijk steeds globalere context en complexe patronen vast te leggen."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of dilated convolution?",
+          es: "¿Cuál es el propósito de la convolución dilatada?",
+          de: "Was ist der Zweck der dilatierten Faltung?",
+          nl: "Wat is het doel van dilated convolution?"
+        },
+        options: [
+          { en: "Increasing receptive field without adding parameters by using spaced filters", es: "Aumentar campo receptivo sin agregar parámetros usando filtros espaciados", de: "Rezeptives Feld vergrößern ohne Parameter hinzuzufügen durch Verwendung beabstandeter Filter", nl: "Receptief veld vergroten zonder parameters toe te voegen door gespreide filters te gebruiken" },
+          { en: "Dilating images before processing", es: "Dilatar imágenes antes de procesar", de: "Bilder vor Verarbeitung dilatieren", nl: "Afbeeldingen verwijden voor verwerking" },
+          { en: "Expanding network width", es: "Expandir ancho de red", de: "Netzwerkbreite erweitern", nl: "Netwerkbreedte uitbreiden" },
+          { en: "Making convolutions larger", es: "Hacer convoluciones más grandes", de: "Faltungen größer machen", nl: "Convoluties groter maken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dilated convolutions insert gaps between filter elements, allowing larger receptive fields without increasing computation, useful for dense prediction tasks like semantic segmentation where multi-scale context is important.",
+          es: "Convoluciones dilatadas insertan espacios entre elementos de filtro, permitiendo campos receptivos más grandes sin aumentar computación, útil para tareas de predicción densa como segmentación semántica donde contexto multi-escala es importante.",
+          de: "Dilatierte Faltungen fügen Lücken zwischen Filterelementen ein, ermöglichen größere rezeptive Felder ohne Berechnung zu erhöhen, nützlich für dichte Vorhersageaufgaben wie semantische Segmentierung wo Multi-Skalen-Kontext wichtig ist.",
+          nl: "Dilated convolutions voegen gaten toe tussen filter elementen, maken grotere receptieve velden mogelijk zonder berekening te verhogen, nuttig voor dense prediction taken zoals semantische segmentatie waar multi-schaal context belangrijk is."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of global average pooling?",
+          es: "¿Cuál es el propósito del global average pooling?",
+          de: "Was ist der Zweck von Global Average Pooling?",
+          nl: "Wat is het doel van global average pooling?"
+        },
+        options: [
+          { en: "Reduce spatial dimensions to single values per channel, replacing fully connected layers", es: "Reducir dimensiones espaciales a valores únicos por canal, reemplazando capas completamente conectadas", de: "Räumliche Dimensionen auf einzelne Werte pro Kanal reduzieren und vollständig verbundene Schichten ersetzen", nl: "Ruimtelijke dimensies verminderen tot enkele waarden per kanaal, volledig verbonden lagen vervangend" },
+          { en: "Average all layers globally", es: "Promediar todas las capas globalmente", de: "Alle Schichten global mitteln", nl: "Alle lagen globaal middelen" },
+          { en: "Pool features across entire dataset", es: "Agrupar características en todo el conjunto de datos", de: "Features über gesamten Datensatz poolen", nl: "Features over hele dataset poolen" },
+          { en: "Calculate world-wide feature averages", es: "Calcular promedios de características mundiales", de: "Weltweite Feature-Durchschnitte berechnen", nl: "Wereldwijde feature gemiddelden berekenen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Global average pooling averages each feature map to a single value, reducing overfitting compared to fully connected layers while maintaining spatial translation invariance, commonly used before final classification layer.",
+          es: "Global average pooling promedia cada mapa de características a un solo valor, reduciendo sobreajuste comparado con capas completamente conectadas mientras mantiene invariancia de translación espacial, comúnmente usado antes de capa de clasificación final.",
+          de: "Global Average Pooling mittelt jede Feature-Map zu einem einzelnen Wert, reduziert Overfitting im Vergleich zu vollständig verbundenen Schichten während räumliche Translationsinvarianz beibehalten wird, häufig vor finaler Klassifizierungsschicht verwendet.",
+          nl: "Global average pooling middelt elke feature map tot een enkele waarde, vermindert overfitting vergeleken met volledig verbonden lagen terwijl ruimtelijke translatie-invariantie behouden blijft, vaak gebruikt voor finale classificatielaag."
+        }
       }
     ]
   };

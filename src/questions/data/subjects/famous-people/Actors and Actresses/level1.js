@@ -427,6 +427,426 @@
           de: "Brie Larson spielt Carol Danvers/Captain Marvel, eine der mächtigsten Heldinnen im Marvel Cinematic Universe mit kosmischen Fähigkeiten.",
           nl: "Brie Larson speelt Carol Danvers/Captain Marvel, een van de krachtigste helden in het Marvel Cinematic Universe met kosmische krachten."
         }
+      },
+      {
+        question: {
+          en: "Who played Iron Man in the Marvel movies?",
+          es: "¿Quién interpretó a Iron Man en las películas de Marvel?",
+          de: "Wer spielte Iron Man in den Marvel-Filmen?",
+          nl: "Wie speelde Iron Man in de Marvel films?"
+        },
+        options: [
+          { en: "Robert Downey Jr.", es: "Robert Downey Jr.", de: "Robert Downey Jr.", nl: "Robert Downey Jr." },
+          { en: "Chris Evans", es: "Chris Evans", de: "Chris Evans", nl: "Chris Evans" },
+          { en: "Mark Ruffalo", es: "Mark Ruffalo", de: "Mark Ruffalo", nl: "Mark Ruffalo" },
+          { en: "Chris Hemsworth", es: "Chris Hemsworth", de: "Chris Hemsworth", nl: "Chris Hemsworth" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Robert Downey Jr. played Tony Stark/Iron Man from 2008 to 2019, launching the Marvel Cinematic Universe and becoming one of cinema's most iconic superheroes.",
+          es: "Robert Downey Jr. interpretó a Tony Stark/Iron Man de 2008 a 2019, lanzando el Universo Cinematográfico de Marvel y convirtiéndose en uno de los superhéroes más icónicos del cine.",
+          de: "Robert Downey Jr. spielte Tony Stark/Iron Man von 2008 bis 2019, startete das Marvel Cinematic Universe und wurde zu einem der ikonischsten Superhelden des Kinos.",
+          nl: "Robert Downey Jr. speelde Tony Stark/Iron Man van 2008 tot 2019, lanceerde het Marvel Cinematic Universe en werd een van de meest iconische superhelden van de cinema."
+        }
+      },
+      {
+        question: {
+          en: "Which actor voices Buzz Lightyear in Toy Story?",
+          es: "¿Qué actor da voz a Buzz Lightyear en Toy Story?",
+          de: "Welcher Schauspieler spricht Buzz Lightyear in Toy Story?",
+          nl: "Welke acteur spreekt Buzz Lightyear in Toy Story?"
+        },
+        options: [
+          { en: "Tim Allen", es: "Tim Allen", de: "Tim Allen", nl: "Tim Allen" },
+          { en: "Tom Hanks", es: "Tom Hanks", de: "Tom Hanks", nl: "Tom Hanks" },
+          { en: "John Goodman", es: "John Goodman", de: "John Goodman", nl: "John Goodman" },
+          { en: "Billy Crystal", es: "Billy Crystal", de: "Billy Crystal", nl: "Billy Crystal" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tim Allen voices the space ranger Buzz Lightyear in all Toy Story films, bringing enthusiasm and humor to the character's catchphrase 'To infinity and beyond!'",
+          es: "Tim Allen da voz al guardián espacial Buzz Lightyear en todas las películas de Toy Story, aportando entusiasmo y humor a la frase característica del personaje '¡Hasta el infinito y más allá!'",
+          de: "Tim Allen spricht den Space Ranger Buzz Lightyear in allen Toy Story-Filmen und bringt Enthusiasmus und Humor in die charakteristische Phrase 'Bis zur Unendlichkeit und noch viel weiter!'",
+          nl: "Tim Allen spreekt de ruimte ranger Buzz Lightyear in alle Toy Story films, en brengt enthousiasme en humor naar de catchphrase van het personage 'To infinity and beyond!'"
+        }
+      },
+      {
+        question: {
+          en: "Who played Harry Potter in all the Harry Potter films?",
+          es: "¿Quién interpretó a Harry Potter en todas las películas de Harry Potter?",
+          de: "Wer spielte Harry Potter in allen Harry Potter Filmen?",
+          nl: "Wie speelde Harry Potter in alle Harry Potter films?"
+        },
+        options: [
+          { en: "Daniel Radcliffe", es: "Daniel Radcliffe", de: "Daniel Radcliffe", nl: "Daniel Radcliffe" },
+          { en: "Rupert Grint", es: "Rupert Grint", de: "Rupert Grint", nl: "Rupert Grint" },
+          { en: "Tom Felton", es: "Tom Felton", de: "Tom Felton", nl: "Tom Felton" },
+          { en: "Matthew Lewis", es: "Matthew Lewis", de: "Matthew Lewis", nl: "Matthew Lewis" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Daniel Radcliffe played the title character Harry Potter in all eight films, growing up on screen as the young wizard from age 11 to 21.",
+          es: "Daniel Radcliffe interpretó al personaje titular Harry Potter en las ocho películas, creciendo en pantalla como el joven mago desde los 11 hasta los 21 años.",
+          de: "Daniel Radcliffe spielte die Titelfigur Harry Potter in allen acht Filmen und wuchs vor der Kamera als junger Zauberer von 11 bis 21 Jahren auf.",
+          nl: "Daniel Radcliffe speelde het titelpersonage Harry Potter in alle acht films, opgroeiend op het scherm als de jonge tovenaar van 11 tot 21 jaar."
+        }
+      },
+      {
+        question: {
+          en: "Which actress played Princess Leia in the original Star Wars trilogy?",
+          es: "¿Qué actriz interpretó a la Princesa Leia en la trilogía original de Star Wars?",
+          de: "Welche Schauspielerin spielte Prinzessin Leia in der ursprünglichen Star Wars-Trilogie?",
+          nl: "Welke actrice speelde Prinses Leia in de originele Star Wars trilogie?"
+        },
+        options: [
+          { en: "Carrie Fisher", es: "Carrie Fisher", de: "Carrie Fisher", nl: "Carrie Fisher" },
+          { en: "Natalie Portman", es: "Natalie Portman", de: "Natalie Portman", nl: "Natalie Portman" },
+          { en: "Daisy Ridley", es: "Daisy Ridley", de: "Daisy Ridley", nl: "Daisy Ridley" },
+          { en: "Felicity Jones", es: "Felicity Jones", de: "Felicity Jones", nl: "Felicity Jones" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Carrie Fisher portrayed Princess Leia Organa in the original Star Wars trilogy and returned for the sequel trilogy, becoming an iconic figure in science fiction cinema.",
+          es: "Carrie Fisher interpretó a la Princesa Leia Organa en la trilogía original de Star Wars y regresó para la trilogía secuela, convirtiéndose en una figura icónica del cine de ciencia ficción.",
+          de: "Carrie Fisher verkörperte Prinzessin Leia Organa in der ursprünglichen Star Wars-Trilogie und kehrte für die Sequel-Trilogie zurück, wodurch sie zu einer ikonischen Figur des Science-Fiction-Kinos wurde.",
+          nl: "Carrie Fisher speelde Prinses Leia Organa in de originele Star Wars trilogie en keerde terug voor de sequel trilogie, en werd een iconisch figuur in de science fiction cinema."
+        }
+      },
+      {
+        question: {
+          en: "Who played Superman in the recent DC movies?",
+          es: "¿Quién interpretó a Superman en las recientes películas de DC?",
+          de: "Wer spielte Superman in den neueren DC-Filmen?",
+          nl: "Wie speelde Superman in de recente DC films?"
+        },
+        options: [
+          { en: "Henry Cavill", es: "Henry Cavill", de: "Henry Cavill", nl: "Henry Cavill" },
+          { en: "Brandon Routh", es: "Brandon Routh", de: "Brandon Routh", nl: "Brandon Routh" },
+          { en: "Christopher Reeve", es: "Christopher Reeve", de: "Christopher Reeve", nl: "Christopher Reeve" },
+          { en: "Tom Welling", es: "Tom Welling", de: "Tom Welling", nl: "Tom Welling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Henry Cavill portrayed Superman/Clark Kent in the DC Extended Universe films starting with Man of Steel (2013), bringing a modern take to the iconic hero.",
+          es: "Henry Cavill interpretó a Superman/Clark Kent en las películas del Universo Extendido de DC comenzando con El Hombre de Acero (2013), aportando una versión moderna al héroe icónico.",
+          de: "Henry Cavill verkörperte Superman/Clark Kent in den DC Extended Universe-Filmen, beginnend mit Man of Steel (2013), und brachte eine moderne Interpretation des ikonischen Helden.",
+          nl: "Henry Cavill speelde Superman/Clark Kent in de DC Extended Universe films beginnend met Man of Steel (2013), en bracht een moderne kijk op de iconische held."
+        }
+      },
+      {
+        question: {
+          en: "Which actor played Batman in The Dark Knight trilogy?",
+          es: "¿Qué actor interpretó a Batman en la trilogía The Dark Knight?",
+          de: "Welcher Schauspieler spielte Batman in der Dark Knight-Trilogie?",
+          nl: "Welke acteur speelde Batman in The Dark Knight trilogie?"
+        },
+        options: [
+          { en: "Christian Bale", es: "Christian Bale", de: "Christian Bale", nl: "Christian Bale" },
+          { en: "Ben Affleck", es: "Ben Affleck", de: "Ben Affleck", nl: "Ben Affleck" },
+          { en: "Robert Pattinson", es: "Robert Pattinson", de: "Robert Pattinson", nl: "Robert Pattinson" },
+          { en: "Michael Keaton", es: "Michael Keaton", de: "Michael Keaton", nl: "Michael Keaton" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Christian Bale played Batman/Bruce Wayne in Christopher Nolan's Dark Knight trilogy from 2005 to 2012, earning critical acclaim for his intense portrayal.",
+          es: "Christian Bale interpretó a Batman/Bruce Wayne en la trilogía Dark Knight de Christopher Nolan de 2005 a 2012, obteniendo aclamación crítica por su intensa interpretación.",
+          de: "Christian Bale spielte Batman/Bruce Wayne in Christopher Nolans Dark Knight-Trilogie von 2005 bis 2012 und erhielt kritisches Lob für seine intensive Darstellung.",
+          nl: "Christian Bale speelde Batman/Bruce Wayne in Christopher Nolan's Dark Knight trilogie van 2005 tot 2012, en kreeg kritische bijval voor zijn intense vertolking."
+        }
+      },
+      {
+        question: {
+          en: "Who voices Anna in the Disney movie Frozen?",
+          es: "¿Quién da voz a Anna en la película de Disney Frozen?",
+          de: "Wer spricht Anna in Disneys Die Eiskönigin?",
+          nl: "Wie spreekt Anna in de Disney film Frozen?"
+        },
+        options: [
+          { en: "Kristen Bell", es: "Kristen Bell", de: "Kristen Bell", nl: "Kristen Bell" },
+          { en: "Idina Menzel", es: "Idina Menzel", de: "Idina Menzel", nl: "Idina Menzel" },
+          { en: "Mandy Moore", es: "Mandy Moore", de: "Mandy Moore", nl: "Mandy Moore" },
+          { en: "Emma Watson", es: "Emma Watson", de: "Emma Watson", nl: "Emma Watson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Kristen Bell voices Princess Anna, Elsa's optimistic and adventurous sister, in both Frozen movies, bringing warmth and humor to the character.",
+          es: "Kristen Bell da voz a la Princesa Anna, la hermana optimista y aventurera de Elsa, en ambas películas de Frozen, aportando calidez y humor al personaje.",
+          de: "Kristen Bell spricht Prinzessin Anna, Elsas optimistische und abenteuerlustige Schwester, in beiden Frozen-Filmen und bringt Wärme und Humor in die Figur.",
+          nl: "Kristen Bell spreekt Prinses Anna, Elsa's optimistische en avontuurlijke zus, in beide Frozen films, en brengt warmte en humor naar het personage."
+        }
+      },
+      {
+        question: {
+          en: "Which actor played Aquaman in the DC movies?",
+          es: "¿Qué actor interpretó a Aquaman en las películas de DC?",
+          de: "Welcher Schauspieler spielte Aquaman in den DC-Filmen?",
+          nl: "Welke acteur speelde Aquaman in de DC films?"
+        },
+        options: [
+          { en: "Jason Momoa", es: "Jason Momoa", de: "Jason Momoa", nl: "Jason Momoa" },
+          { en: "Chris Pratt", es: "Chris Pratt", de: "Chris Pratt", nl: "Chris Pratt" },
+          { en: "Dwayne Johnson", es: "Dwayne Johnson", de: "Dwayne Johnson", nl: "Dwayne Johnson" },
+          { en: "Vin Diesel", es: "Vin Diesel", de: "Vin Diesel", nl: "Vin Diesel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jason Momoa portrayed Arthur Curry/Aquaman in the DC Extended Universe, bringing a powerful and charismatic take to the underwater superhero.",
+          es: "Jason Momoa interpretó a Arthur Curry/Aquaman en el Universo Extendido de DC, aportando una versión poderosa y carismática al superhéroe submarino.",
+          de: "Jason Momoa verkörperte Arthur Curry/Aquaman im DC Extended Universe und brachte eine kraftvolle und charismatische Interpretation des Unterwasser-Superhelden.",
+          nl: "Jason Momoa speelde Arthur Curry/Aquaman in het DC Extended Universe, en bracht een krachtige en charismatische kijk op de onderwaterheld."
+        }
+      },
+      {
+        question: {
+          en: "Who played Shuri in Black Panther?",
+          es: "¿Quién interpretó a Shuri en Black Panther?",
+          de: "Wer spielte Shuri in Black Panther?",
+          nl: "Wie speelde Shuri in Black Panther?"
+        },
+        options: [
+          { en: "Letitia Wright", es: "Letitia Wright", de: "Letitia Wright", nl: "Letitia Wright" },
+          { en: "Lupita Nyong'o", es: "Lupita Nyong'o", de: "Lupita Nyong'o", nl: "Lupita Nyong'o" },
+          { en: "Danai Gurira", es: "Danai Gurira", de: "Danai Gurira", nl: "Danai Gurira" },
+          { en: "Angela Bassett", es: "Angela Bassett", de: "Angela Bassett", nl: "Angela Bassett" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Letitia Wright played Shuri, T'Challa's brilliant tech-genius sister, in the Black Panther films, bringing intelligence and humor to the Wakandan princess.",
+          es: "Letitia Wright interpretó a Shuri, la brillante hermana genio tecnológico de T'Challa, en las películas de Black Panther, aportando inteligencia y humor a la princesa de Wakanda.",
+          de: "Letitia Wright spielte Shuri, T'Challas brillante Tech-Genie-Schwester, in den Black Panther-Filmen und brachte Intelligenz und Humor in die wakandische Prinzessin.",
+          nl: "Letitia Wright speelde Shuri, T'Challa's briljante tech-genie zus, in de Black Panther films, en bracht intelligentie en humor naar de Wakandaanse prinses."
+        }
+      },
+      {
+        question: {
+          en: "Which actor played Star-Lord in Guardians of the Galaxy?",
+          es: "¿Qué actor interpretó a Star-Lord en Guardianes de la Galaxia?",
+          de: "Welcher Schauspieler spielte Star-Lord in Guardians of the Galaxy?",
+          nl: "Welke acteur speelde Star-Lord in Guardians of the Galaxy?"
+        },
+        options: [
+          { en: "Chris Pratt", es: "Chris Pratt", de: "Chris Pratt", nl: "Chris Pratt" },
+          { en: "Chris Evans", es: "Chris Evans", de: "Chris Evans", nl: "Chris Evans" },
+          { en: "Chris Pine", es: "Chris Pine", de: "Chris Pine", nl: "Chris Pine" },
+          { en: "Ryan Reynolds", es: "Ryan Reynolds", de: "Ryan Reynolds", nl: "Ryan Reynolds" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Chris Pratt plays Peter Quill/Star-Lord, the witty and music-loving leader of the Guardians of the Galaxy in the Marvel Cinematic Universe.",
+          es: "Chris Pratt interpreta a Peter Quill/Star-Lord, el ingenioso líder amante de la música de los Guardianes de la Galaxia en el Universo Cinematográfico de Marvel.",
+          de: "Chris Pratt spielt Peter Quill/Star-Lord, den witzigen und musikliebenden Anführer der Guardians of the Galaxy im Marvel Cinematic Universe.",
+          nl: "Chris Pratt speelt Peter Quill/Star-Lord, de geestige en muziekliefhebbende leider van de Guardians of the Galaxy in het Marvel Cinematic Universe."
+        }
+      },
+      {
+        question: {
+          en: "Who played Ron Weasley in the Harry Potter films?",
+          es: "¿Quién interpretó a Ron Weasley en las películas de Harry Potter?",
+          de: "Wer spielte Ron Weasley in den Harry Potter Filmen?",
+          nl: "Wie speelde Ron Weasley in de Harry Potter films?"
+        },
+        options: [
+          { en: "Rupert Grint", es: "Rupert Grint", de: "Rupert Grint", nl: "Rupert Grint" },
+          { en: "Daniel Radcliffe", es: "Daniel Radcliffe", de: "Daniel Radcliffe", nl: "Daniel Radcliffe" },
+          { en: "Tom Felton", es: "Tom Felton", de: "Tom Felton", nl: "Tom Felton" },
+          { en: "James Phelps", es: "James Phelps", de: "James Phelps", nl: "James Phelps" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Rupert Grint played Ron Weasley, Harry's loyal best friend, throughout all eight Harry Potter films, bringing humor and heart to the character.",
+          es: "Rupert Grint interpretó a Ron Weasley, el leal mejor amigo de Harry, en las ocho películas de Harry Potter, aportando humor y corazón al personaje.",
+          de: "Rupert Grint spielte Ron Weasley, Harrys treuen besten Freund, in allen acht Harry Potter-Filmen und brachte Humor und Herz in die Figur.",
+          nl: "Rupert Grint speelde Ron Weasley, Harry's trouwe beste vriend, in alle acht Harry Potter films, en bracht humor en hart naar het personage."
+        }
+      },
+      {
+        question: {
+          en: "Which actress played Harley Quinn in Suicide Squad?",
+          es: "¿Qué actriz interpretó a Harley Quinn en Suicide Squad?",
+          de: "Welche Schauspielerin spielte Harley Quinn in Suicide Squad?",
+          nl: "Welke actrice speelde Harley Quinn in Suicide Squad?"
+        },
+        options: [
+          { en: "Margot Robbie", es: "Margot Robbie", de: "Margot Robbie", nl: "Margot Robbie" },
+          { en: "Cara Delevingne", es: "Cara Delevingne", de: "Cara Delevingne", nl: "Cara Delevingne" },
+          { en: "Emma Stone", es: "Emma Stone", de: "Emma Stone", nl: "Emma Stone" },
+          { en: "Scarlett Johansson", es: "Scarlett Johansson", de: "Scarlett Johansson", nl: "Scarlett Johansson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Margot Robbie brought the quirky and unpredictable Harley Quinn to life in Suicide Squad and subsequent DC films, making the character a fan favorite.",
+          es: "Margot Robbie dio vida a la peculiar e impredecible Harley Quinn en Suicide Squad y películas posteriores de DC, convirtiendo al personaje en favorito de los fans.",
+          de: "Margot Robbie erweckte die schrullige und unberechenbare Harley Quinn in Suicide Squad und nachfolgenden DC-Filmen zum Leben und machte die Figur zu einem Fan-Favoriten.",
+          nl: "Margot Robbie bracht de eigenwijze en onvoorspelbare Harley Quinn tot leven in Suicide Squad en daaropvolgende DC films, waardoor het personage een fan favoriet werd."
+        }
+      },
+      {
+        question: {
+          en: "Who played the Joker in The Dark Knight?",
+          es: "¿Quién interpretó al Joker en The Dark Knight?",
+          de: "Wer spielte den Joker in The Dark Knight?",
+          nl: "Wie speelde de Joker in The Dark Knight?"
+        },
+        options: [
+          { en: "Heath Ledger", es: "Heath Ledger", de: "Heath Ledger", nl: "Heath Ledger" },
+          { en: "Jared Leto", es: "Jared Leto", de: "Jared Leto", nl: "Jared Leto" },
+          { en: "Joaquin Phoenix", es: "Joaquin Phoenix", de: "Joaquin Phoenix", nl: "Joaquin Phoenix" },
+          { en: "Jack Nicholson", es: "Jack Nicholson", de: "Jack Nicholson", nl: "Jack Nicholson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Heath Ledger delivered an iconic performance as the Joker in The Dark Knight (2008), earning a posthumous Academy Award for Best Supporting Actor.",
+          es: "Heath Ledger entregó una actuación icónica como el Joker en The Dark Knight (2008), obteniendo un Premio de la Academia póstumo al Mejor Actor de Reparto.",
+          de: "Heath Ledger lieferte eine ikonische Leistung als Joker in The Dark Knight (2008) und erhielt posthum einen Academy Award für den besten Nebendarsteller.",
+          nl: "Heath Ledger leverde een iconische prestatie als de Joker in The Dark Knight (2008), en kreeg postuum een Academy Award voor Beste Bijrolacteur."
+        }
+      },
+      {
+        question: {
+          en: "Which actress played Moana in the Disney movie?",
+          es: "¿Qué actriz dio voz a Moana en la película de Disney?",
+          de: "Welche Schauspielerin sprach Moana im Disney-Film?",
+          nl: "Welke actrice sprak Moana in de Disney film?"
+        },
+        options: [
+          { en: "Auli'i Cravalho", es: "Auli'i Cravalho", de: "Auli'i Cravalho", nl: "Auli'i Cravalho" },
+          { en: "Zendaya", es: "Zendaya", de: "Zendaya", nl: "Zendaya" },
+          { en: "Halle Bailey", es: "Halle Bailey", de: "Halle Bailey", nl: "Halle Bailey" },
+          { en: "Naomi Scott", es: "Naomi Scott", de: "Naomi Scott", nl: "Naomi Scott" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Auli'i Cravalho voiced the brave Polynesian princess Moana in the 2016 Disney film, making her film debut at just 16 years old.",
+          es: "Auli'i Cravalho dio voz a la valiente princesa polinesia Moana en la película de Disney de 2016, haciendo su debut cinematográfico con solo 16 años.",
+          de: "Auli'i Cravalho sprach die mutige polynesische Prinzessin Moana im Disney-Film von 2016 und gab ihr Filmdebüt im Alter von nur 16 Jahren.",
+          nl: "Auli'i Cravalho sprak de moedige Polynesische prinses Moana in de 2016 Disney film, en maakte haar filmdebuut op slechts 16-jarige leeftijd."
+        }
+      },
+      {
+        question: {
+          en: "Who played Hawkeye in the Marvel movies?",
+          es: "¿Quién interpretó a Hawkeye en las películas de Marvel?",
+          de: "Wer spielte Hawkeye in den Marvel-Filmen?",
+          nl: "Wie speelde Hawkeye in de Marvel films?"
+        },
+        options: [
+          { en: "Jeremy Renner", es: "Jeremy Renner", de: "Jeremy Renner", nl: "Jeremy Renner" },
+          { en: "Paul Rudd", es: "Paul Rudd", de: "Paul Rudd", nl: "Paul Rudd" },
+          { en: "Sebastian Stan", es: "Sebastian Stan", de: "Sebastian Stan", nl: "Sebastian Stan" },
+          { en: "Anthony Mackie", es: "Anthony Mackie", de: "Anthony Mackie", nl: "Anthony Mackie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jeremy Renner plays Clint Barton/Hawkeye, the master archer and original Avenger who fights alongside Earth's mightiest heroes.",
+          es: "Jeremy Renner interpreta a Clint Barton/Hawkeye, el maestro arquero y Vengador original que lucha junto a los héroes más poderosos de la Tierra.",
+          de: "Jeremy Renner spielt Clint Barton/Hawkeye, den Meisterbogenschützen und ursprünglichen Avenger, der an der Seite der mächtigsten Helden der Erde kämpft.",
+          nl: "Jeremy Renner speelt Clint Barton/Hawkeye, de meester boogschutter en originele Avenger die vecht naast de machtigste helden van de Aarde."
+        }
+      },
+      {
+        question: {
+          en: "Which actor played the Flash in the DC movies?",
+          es: "¿Qué actor interpretó a Flash en las películas de DC?",
+          de: "Welcher Schauspieler spielte Flash in den DC-Filmen?",
+          nl: "Welke acteur speelde Flash in de DC films?"
+        },
+        options: [
+          { en: "Ezra Miller", es: "Ezra Miller", de: "Ezra Miller", nl: "Ezra Miller" },
+          { en: "Grant Gustin", es: "Grant Gustin", de: "Grant Gustin", nl: "Grant Gustin" },
+          { en: "Tom Holland", es: "Tom Holland", de: "Tom Holland", nl: "Tom Holland" },
+          { en: "Timothée Chalamet", es: "Timothée Chalamet", de: "Timothée Chalamet", nl: "Timothée Chalamet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ezra Miller portrayed Barry Allen/The Flash in the DC Extended Universe films, bringing speed and humor to the fastest man alive.",
+          es: "Ezra Miller interpretó a Barry Allen/The Flash en las películas del Universo Extendido de DC, aportando velocidad y humor al hombre más rápido del mundo.",
+          de: "Ezra Miller verkörperte Barry Allen/The Flash in den DC Extended Universe-Filmen und brachte Geschwindigkeit und Humor zum schnellsten Mann der Welt.",
+          nl: "Ezra Miller speelde Barry Allen/The Flash in de DC Extended Universe films, en bracht snelheid en humor naar de snelste man ter wereld."
+        }
+      },
+      {
+        question: {
+          en: "Who voiced Simba in the 2019 Lion King remake?",
+          es: "¿Quién dio voz a Simba en el remake de El Rey León de 2019?",
+          de: "Wer sprach Simba im 2019 König der Löwen Remake?",
+          nl: "Wie sprak Simba in de 2019 Lion King remake?"
+        },
+        options: [
+          { en: "Donald Glover", es: "Donald Glover", de: "Donald Glover", nl: "Donald Glover" },
+          { en: "Chiwetel Ejiofor", es: "Chiwetel Ejiofor", de: "Chiwetel Ejiofor", nl: "Chiwetel Ejiofor" },
+          { en: "Seth Rogen", es: "Seth Rogen", de: "Seth Rogen", nl: "Seth Rogen" },
+          { en: "Billy Eichner", es: "Billy Eichner", de: "Billy Eichner", nl: "Billy Eichner" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Donald Glover voiced adult Simba in Disney's 2019 photorealistic remake of The Lion King, bringing depth and emotion to the iconic character.",
+          es: "Donald Glover dio voz al Simba adulto en el remake fotorrealista de Disney de El Rey León de 2019, aportando profundidad y emoción al personaje icónico.",
+          de: "Donald Glover sprach den erwachsenen Simba in Disneys photorealistischem Remake von Der König der Löwen 2019 und brachte Tiefe und Emotion in die ikonische Figur.",
+          nl: "Donald Glover sprak de volwassen Simba in Disney's 2019 fotorealistische remake van The Lion King, en bracht diepte en emotie naar het iconische personage."
+        }
+      },
+      {
+        question: {
+          en: "Which actress played Gamora in Guardians of the Galaxy?",
+          es: "¿Qué actriz interpretó a Gamora en Guardianes de la Galaxia?",
+          de: "Welche Schauspielerin spielte Gamora in Guardians of the Galaxy?",
+          nl: "Welke actrice speelde Gamora in Guardians of the Galaxy?"
+        },
+        options: [
+          { en: "Zoe Saldana", es: "Zoe Saldana", de: "Zoe Saldana", nl: "Zoe Saldana" },
+          { en: "Karen Gillan", es: "Karen Gillan", de: "Karen Gillan", nl: "Karen Gillan" },
+          { en: "Pom Klementieff", es: "Pom Klementieff", de: "Pom Klementieff", nl: "Pom Klementieff" },
+          { en: "Brie Larson", es: "Brie Larson", de: "Brie Larson", nl: "Brie Larson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Zoe Saldana plays Gamora, the deadly warrior and member of the Guardians of the Galaxy, bringing strength and complexity to the green-skinned assassin.",
+          es: "Zoe Saldana interpreta a Gamora, la guerrera mortal y miembro de los Guardianes de la Galaxia, aportando fuerza y complejidad a la asesina de piel verde.",
+          de: "Zoe Saldana spielt Gamora, die tödliche Kriegerin und Mitglied der Guardians of the Galaxy, und bringt Stärke und Komplexität in die grünhäutige Assassinin.",
+          nl: "Zoe Saldana speelt Gamora, de dodelijke krijger en lid van de Guardians of the Galaxy, en brengt kracht en complexiteit naar de groenhuidige moordenares."
+        }
+      },
+      {
+        question: {
+          en: "Who played Loki in the Marvel movies?",
+          es: "¿Quién interpretó a Loki en las películas de Marvel?",
+          de: "Wer spielte Loki in den Marvel-Filmen?",
+          nl: "Wie speelde Loki in de Marvel films?"
+        },
+        options: [
+          { en: "Tom Hiddleston", es: "Tom Hiddleston", de: "Tom Hiddleston", nl: "Tom Hiddleston" },
+          { en: "Chris Hemsworth", es: "Chris Hemsworth", de: "Chris Hemsworth", nl: "Chris Hemsworth" },
+          { en: "Benedict Cumberbatch", es: "Benedict Cumberbatch", de: "Benedict Cumberbatch", nl: "Benedict Cumberbatch" },
+          { en: "Tom Hardy", es: "Tom Hardy", de: "Tom Hardy", nl: "Tom Hardy" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tom Hiddleston plays Loki, Thor's mischievous adopted brother and one of the Marvel Cinematic Universe's most beloved villains turned anti-hero.",
+          es: "Tom Hiddleston interpreta a Loki, el hermano adoptivo travieso de Thor y uno de los villanos más queridos del Universo Cinematográfico de Marvel convertido en anti-héroe.",
+          de: "Tom Hiddleston spielt Loki, Thors schelmischen Adoptivbruder und einen der beliebtesten Bösewichte des Marvel Cinematic Universe, der zum Anti-Helden wurde.",
+          nl: "Tom Hiddleston speelt Loki, Thor's ondeugende geadopteerde broer en een van de meest geliefde slechteriken van het Marvel Cinematic Universe die een anti-held werd."
+        }
+      },
+      {
+        question: {
+          en: "Which actor plays Ant-Man in the Marvel Cinematic Universe?",
+          es: "¿Qué actor interpreta a Ant-Man en el Universo Cinematográfico de Marvel?",
+          de: "Welcher Schauspieler spielt Ant-Man im Marvel Cinematic Universe?",
+          nl: "Welke acteur speelt Ant-Man in het Marvel Cinematic Universe?"
+        },
+        options: [
+          { en: "Paul Rudd", es: "Paul Rudd", de: "Paul Rudd", nl: "Paul Rudd" },
+          { en: "Michael Douglas", es: "Michael Douglas", de: "Michael Douglas", nl: "Michael Douglas" },
+          { en: "Evangeline Lilly", es: "Evangeline Lilly", de: "Evangeline Lilly", nl: "Evangeline Lilly" },
+          { en: "Michael Peña", es: "Michael Peña", de: "Michael Peña", nl: "Michael Peña" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Paul Rudd plays Scott Lang, the modern-day Ant-Man who can shrink to microscopic size and communicate with ants, bringing humor and heart to the role.",
+          es: "Paul Rudd interpreta a Scott Lang, el Ant-Man moderno que puede encogerse a tamaño microscópico y comunicarse con hormigas, aportando humor y corazón al papel.",
+          de: "Paul Rudd spielt Scott Lang, den modernen Ant-Man, der auf mikroskopische Größe schrumpfen und mit Ameisen kommunizieren kann, und bringt Humor und Herz in die Rolle.",
+          nl: "Paul Rudd speelt Scott Lang, de moderne Ant-Man die kan krimpen tot microscopische grootte en kan communiceren met mieren, en brengt humor en hart naar de rol."
+        }
       }
     ]
   };

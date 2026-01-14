@@ -427,6 +427,426 @@
           de: "KI-Sicherheitsausrichtung stellt sicher dass autonome Spiele-KI-Systeme beabsichtigte Ziele verfolgen ohne unbeabsichtigte Konsequenzen zu verursachen, ethisches Verhalten beibehalten, Spielerwohlbefinden respektieren und Manipulation oder suchterzeugende Muster vermeiden.",
           nl: "AI-veiligheidsuitlijning zorgt ervoor dat autonome game AI-systemen beoogde doelstellingen nastreven zonder onbedoelde gevolgen te veroorzaken, ethisch gedrag behouden, spelerwelzijn respecteren en manipulatie of verslavingsopwekkende patronen vermijden."
         }
+      },
+      {
+        question: {
+          en: "What is 'sim-to-real transfer' achieving in game AI research?",
+          es: "¿Qué está logrando la 'transferencia sim-a-real' en investigación de IA de juegos?",
+          de: "Was erreicht 'Sim-to-Real Transfer' in Spiele-KI-Forschung?",
+          nl: "Wat bereikt 'sim-to-real transfer' in game AI onderzoek?"
+        },
+        options: [
+          { en: "Transferring AI trained in simulated game environments to real-world applications", es: "Transferir IA entrenada en entornos de juego simulados a aplicaciones del mundo real", de: "Transfer von in simulierten Spielumgebungen trainierter KI zu realen Anwendungen", nl: "Overdragen van AI getraind in gesimuleerde spelomgevingen naar real-world toepassingen" },
+          { en: "Simulating real-world graphics in games", es: "Simular gráficos del mundo real en juegos", de: "Echtwelt-Grafiken in Spielen simulieren", nl: "Real-world graphics simuleren in games" },
+          { en: "Transferring games to simulation platforms", es: "Transferir juegos a plataformas de simulación", de: "Spiele auf Simulationsplattformen übertragen", nl: "Games overdragen naar simulatieplatforms" },
+          { en: "Real-time simulation transfers", es: "Transferencias de simulación en tiempo real", de: "Echtzeit-Simulationsübertragungen", nl: "Real-time simulatie overdrachten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sim-to-real transfer uses games as training grounds for AI that will operate in real environments, leveraging game engines' cost-effective simulation capabilities to develop AI for robotics, autonomous vehicles, and other real-world applications.",
+          es: "La transferencia sim-a-real usa juegos como terrenos de entrenamiento para IA que operará en entornos reales, aprovechando capacidades de simulación rentables de motores de juego para desarrollar IA para robótica, vehículos autónomos y otras aplicaciones del mundo real.",
+          de: "Sim-to-Real Transfer nutzt Spiele als Trainingsgelände für KI die in realen Umgebungen operieren wird, nutzt kosteneffektive Simulationsfähigkeiten von Game-Engines um KI für Robotik, autonome Fahrzeuge und andere reale Anwendungen zu entwickeln.",
+          nl: "Sim-to-real transfer gebruikt games als trainingsterrein voor AI die in echte omgevingen zal opereren, waarbij gebruik wordt gemaakt van kosteneffectieve simulatiemogelijkheden van game engines om AI te ontwikkelen voor robotica, autonome voertuigen en andere real-world toepassingen."
+        }
+      },
+      {
+        question: {
+          en: "How does 'energy-based models' enhance game AI decision-making?",
+          es: "¿Cómo mejoran los 'modelos basados en energía' la toma de decisiones de IA de juegos?",
+          de: "Wie verbessern 'energiebasierte Modelle' Spiele-KI-Entscheidungsfindung?",
+          nl: "Hoe verbeteren 'energie-gebaseerde modellen' game AI besluitvorming?"
+        },
+        options: [
+          { en: "Assigns energy scores to game states to guide AI toward favorable configurations", es: "Asigna puntuaciones de energía a estados del juego para guiar IA hacia configuraciones favorables", de: "Weist Energiewerte Spielzuständen zu um KI zu günstigen Konfigurationen zu leiten", nl: "Wijst energiescores toe aan speltoestanden om AI naar gunstige configuraties te leiden" },
+          { en: "Models only energy consumption in games", es: "Solo modela consumo de energía en juegos", de: "Modelliert nur Energieverbrauch in Spielen", nl: "Modelleert alleen energieverbruik in games" },
+          { en: "Energy management for game servers", es: "Gestión de energía para servidores de juego", de: "Energiemanagement für Spielserver", nl: "Energiebeheer voor spelservers" },
+          { en: "Physical energy simulation in games", es: "Simulación de energía física en juegos", de: "Physikalische Energiesimulation in Spielen", nl: "Fysische energiesimulatie in games" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Energy-based models provide a principled framework for evaluating game states by assigning energy values, where lower energy indicates more desirable states, enabling AI to optimize strategies through energy minimization and providing uncertainty estimates.",
+          es: "Los modelos basados en energía proporcionan un marco fundamentado para evaluar estados del juego asignando valores de energía, donde menor energía indica estados más deseables, permitiendo a la IA optimizar estrategias a través de minimización de energía y proporcionando estimaciones de incertidumbre.",
+          de: "Energiebasierte Modelle bieten einen prinzipiellen Rahmen zur Bewertung von Spielzuständen durch Zuweisung von Energiewerten, wobei niedrigere Energie wünschenswertere Zustände anzeigt, ermöglicht KI Strategien durch Energieminimierung zu optimieren und bietet Unsicherheitsschätzungen.",
+          nl: "Energie-gebaseerde modellen bieden een principieel kader voor het evalueren van speltoestanden door energiewaarden toe te wijzen, waarbij lagere energie meer wenselijke toestanden aangeeft, wat AI in staat stelt om strategieën te optimaliseren door energieminimalisatie en onzekerheidsschattingen te bieden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'world models' enabling in imaginative game AI planning?",
+          es: "¿Qué están permitiendo los 'modelos del mundo' en planificación imaginativa de IA de juegos?",
+          de: "Was ermöglichen 'Weltmodelle' in imaginativer Spiele-KI-Planung?",
+          nl: "Wat maken 'wereldmodellen' mogelijk in imaginatieve game AI planning?"
+        },
+        options: [
+          { en: "Learning internal simulations of game environments to plan without actual environment interaction", es: "Aprender simulaciones internas de entornos del juego para planear sin interacción real con el entorno", de: "Lernen interner Simulationen von Spielumgebungen um ohne tatsächliche Umgebungsinteraktion zu planen", nl: "Leren van interne simulaties van spelomgevingen om te plannen zonder daadwerkelijke omgevingsinteractie" },
+          { en: "Creating world maps for games only", es: "Solo crear mapas del mundo para juegos", de: "Nur Weltkarten für Spiele erstellen", nl: "Alleen wereldkaarten creëren voor games" },
+          { en: "Modeling game world physics", es: "Modelar física del mundo del juego", de: "Spielweltphysik modellieren", nl: "Spelwereld fysica modelleren" },
+          { en: "World-building tools for developers", es: "Herramientas de construcción de mundos para desarrolladores", de: "Weltbauwerkzeuge für Entwickler", nl: "Wereldbouw tools voor ontwikkelaars" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "World models learn compact representations of game dynamics, enabling AI to mentally simulate future scenarios and plan actions without costly real environment interactions, improving sample efficiency and enabling model-based planning in complex games.",
+          es: "Los modelos del mundo aprenden representaciones compactas de dinámicas del juego, permitiendo a la IA simular mentalmente escenarios futuros y planear acciones sin costosas interacciones reales con el entorno, mejorando eficiencia de muestras y habilitando planificación basada en modelo en juegos complejos.",
+          de: "Weltmodelle lernen kompakte Darstellungen von Spieldynamiken, ermöglichen KI zukünftige Szenarien mental zu simulieren und Aktionen zu planen ohne kostspielige reale Umgebungsinteraktionen, verbessert Sample-Effizienz und ermöglicht modellbasierte Planung in komplexen Spielen.",
+          nl: "Wereldmodellen leren compacte representaties van speldynamiek, waardoor AI mentaal toekomstige scenario's kan simuleren en acties kan plannen zonder kostbare echte omgevingsinteracties, wat sample-efficiëntie verbetert en model-gebaseerde planning in complexe games mogelijk maakt."
+        }
+      },
+      {
+        question: {
+          en: "How does 'hindsight experience replay' improve learning efficiency in sparse reward games?",
+          es: "¿Cómo mejora la 'repetición de experiencia retrospectiva' la eficiencia de aprendizaje en juegos de recompensa escasa?",
+          de: "Wie verbessert 'Hindsight Experience Replay' Lerneffizienz in Spielen mit spärlichen Belohnungen?",
+          nl: "Hoe verbetert 'hindsight experience replay' leerefficiëntie in schaarse beloning games?"
+        },
+        options: [
+          { en: "Reinterprets failed attempts as successful by changing the goal retrospectively", es: "Reinterpreta intentos fallidos como exitosos cambiando el objetivo retrospectivamente", de: "Interpretiert gescheiterte Versuche als erfolgreich durch retrospektive Zieländerung", nl: "Herinterpreteert mislukte pogingen als succesvol door het doel achteraf te veranderen" },
+          { en: "Only replays hindsight camera views", es: "Solo repite vistas de cámara retrospectivas", de: "Wiederholt nur Rückblick-Kamera-Ansichten", nl: "Speelt alleen terugblik camera views opnieuw af" },
+          { en: "Hindsight analysis of game replays", es: "Análisis retrospectivo de repeticiones de juego", de: "Rückblickanalyse von Spiel-Replays", nl: "Terugblik analyse van spelreplays" },
+          { en: "Replaying past experiences only", es: "Solo repetir experiencias pasadas", de: "Nur vergangene Erfahrungen wiederholen", nl: "Alleen verleden ervaringen opnieuw afspelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hindsight experience replay treats failed attempts as successes for alternative goals, effectively learning from every experience even in sparse reward environments. This dramatically improves sample efficiency by extracting useful information from unsuccessful trajectories.",
+          es: "La repetición de experiencia retrospectiva trata intentos fallidos como éxitos para objetivos alternativos, efectivamente aprendiendo de cada experiencia incluso en entornos de recompensa escasa. Esto mejora dramáticamente eficiencia de muestras extrayendo información útil de trayectorias no exitosas.",
+          de: "Hindsight Experience Replay behandelt gescheiterte Versuche als Erfolge für alternative Ziele, lernt effektiv von jeder Erfahrung auch in spärlichen Belohnungsumgebungen. Dies verbessert Sample-Effizienz dramatisch durch Extraktion nützlicher Informationen aus erfolglosen Trajektorien.",
+          nl: "Hindsight experience replay behandelt mislukte pogingen als successen voor alternatieve doelen, waarbij effectief wordt geleerd van elke ervaring zelfs in schaarse beloningsomgevingen. Dit verbetert sample-efficiëntie dramatisch door nuttige informatie te extraheren uit onsuccesvolle trajecten."
+        }
+      },
+      {
+        question: {
+          en: "What is 'graph attention networks' enabling in game AI?",
+          es: "¿Qué están permitiendo las 'redes de atención de grafos' en IA de juegos?",
+          de: "Was ermöglichen 'Graph Attention Networks' in Spiele-KI?",
+          nl: "Wat maken 'graph attention networks' mogelijk in game AI?"
+        },
+        options: [
+          { en: "Dynamically weights importance of different entities and their relationships in complex game scenarios", es: "Pondera dinámicamente importancia de diferentes entidades y sus relaciones en escenarios complejos del juego", de: "Gewichtet dynamisch Wichtigkeit verschiedener Entitäten und ihrer Beziehungen in komplexen Spielszenarien", nl: "Weegt dynamisch het belang van verschillende entiteiten en hun relaties in complexe spelscenario's" },
+          { en: "Attention mechanisms for graph visualizations only", es: "Solo mecanismos de atención para visualizaciones de grafos", de: "Nur Aufmerksamkeitsmechanismen für Graph-Visualisierungen", nl: "Alleen aandachtsmechanismen voor graafvisualisaties" },
+          { en: "Graphical attention effects in games", es: "Efectos gráficos de atención en juegos", de: "Grafische Aufmerksamkeitseffekte in Spielen", nl: "Grafische aandachtseffecten in games" },
+          { en: "Network attention for graphs", es: "Atención de red para gráficos", de: "Netzwerk-Aufmerksamkeit für Graphen", nl: "Netwerkaandacht voor grafen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Graph attention networks allow AI to focus on the most relevant entities and connections in complex game scenarios with many interacting objects, units, or players, improving decision-making in strategy games, team coordination, and spatial reasoning tasks.",
+          es: "Las redes de atención de grafos permiten a la IA enfocarse en las entidades y conexiones más relevantes en escenarios complejos del juego con muchos objetos, unidades o jugadores interactuando, mejorando toma de decisiones en juegos de estrategia, coordinación de equipo y tareas de razonamiento espacial.",
+          de: "Graph Attention Networks erlauben KI sich auf relevanteste Entitäten und Verbindungen in komplexen Spielszenarien mit vielen interagierenden Objekten, Einheiten oder Spielern zu konzentrieren, verbessert Entscheidungsfindung in Strategiespielen, Teamkoordination und räumliche Denkaufgaben.",
+          nl: "Graph attention networks stellen AI in staat om te focussen op de meest relevante entiteiten en verbindingen in complexe spelscenario's met veel interacterende objecten, eenheden of spelers, wat besluitvorming verbetert in strategiespellen, teamcoördinatie en ruimtelijke redeneertaken."
+        }
+      },
+      {
+        question: {
+          en: "How does 'mixture of experts' improve game AI scalability?",
+          es: "¿Cómo mejora la 'mezcla de expertos' la escalabilidad de IA de juegos?",
+          de: "Wie verbessert 'Mixture of Experts' Spiele-KI-Skalierbarkeit?",
+          nl: "Hoe verbetert 'mixture of experts' game AI schaalbaarheid?"
+        },
+        options: [
+          { en: "Combines specialized sub-networks that each handle different aspects of game AI", es: "Combina sub-redes especializadas que cada una maneja diferentes aspectos de IA de juegos", de: "Kombiniert spezialisierte Sub-Netzwerke die jeweils verschiedene Aspekte von Spiele-KI handhaben", nl: "Combineert gespecialiseerde sub-netwerken die elk verschillende aspecten van game AI behandelen" },
+          { en: "Mixes expert player strategies only", es: "Solo mezcla estrategias de jugadores expertos", de: "Mischt nur Expertenspielstrategien", nl: "Mengt alleen expertspelerstrategieën" },
+          { en: "Expert AI consultation services", es: "Servicios de consultoría de IA experta", de: "Experten-KI-Beratungsdienste", nl: "Expert AI-adviesdiensten" },
+          { en: "Mixing different expert opinions", es: "Mezclar diferentes opiniones de expertos", de: "Verschiedene Expertenmeinungen mischen", nl: "Verschillende expertmeningen mengen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mixture of experts architectures use gating networks to route inputs to specialized expert sub-networks, allowing efficient scaling and specialization where different experts handle specific game situations, strategies, or sensory modalities, improving overall performance and efficiency.",
+          es: "Las arquitecturas de mezcla de expertos usan redes de compuerta para enrutar entradas a sub-redes expertas especializadas, permitiendo escalado y especialización eficientes donde diferentes expertos manejan situaciones específicas del juego, estrategias o modalidades sensoriales, mejorando rendimiento y eficiencia general.",
+          de: "Mixture of Experts-Architekturen nutzen Gating-Netzwerke um Eingaben zu spezialisierten Experten-Sub-Netzwerken zu routen, ermöglichen effiziente Skalierung und Spezialisierung wo verschiedene Experten spezifische Spielsituationen, Strategien oder sensorische Modalitäten handhaben, verbessert Gesamtleistung und Effizienz.",
+          nl: "Mixture of experts architecturen gebruiken gating networks om inputs te routeren naar gespecialiseerde expert sub-netwerken, wat efficiënte schaling en specialisatie mogelijk maakt waarbij verschillende experts specifieke spelsituaties, strategieën of sensorische modaliteiten behandelen, wat algehele prestaties en efficiëntie verbetert."
+        }
+      },
+      {
+        question: {
+          en: "What is 'concept bottleneck models' providing for interpretable game AI?",
+          es: "¿Qué están proporcionando los 'modelos de cuello de botella de concepto' para IA interpretable de juegos?",
+          de: "Was bieten 'Concept Bottleneck Models' für interpretierbare Spiele-KI?",
+          nl: "Wat bieden 'concept bottleneck modellen' voor interpreteerbare game AI?"
+        },
+        options: [
+          { en: "Forces AI to make decisions through human-understandable concepts for transparency", es: "Fuerza a la IA a tomar decisiones a través de conceptos comprensibles por humanos para transparencia", de: "Zwingt KI Entscheidungen durch menschlich verständliche Konzepte zu treffen für Transparenz", nl: "Dwingt AI om beslissingen te nemen via menselijk begrijpbare concepten voor transparantie" },
+          { en: "Bottlenecks in concept understanding only", es: "Solo cuellos de botella en comprensión de conceptos", de: "Nur Engpässe im Konzeptverständnis", nl: "Alleen knelpunten in conceptbegrip" },
+          { en: "Conceptual design bottlenecks", es: "Cuellos de botella de diseño conceptual", de: "Konzeptionelle Designengpässe", nl: "Conceptuele ontwerpknelpunten" },
+          { en: "Network bottleneck concepts", es: "Conceptos de cuello de botella de red", de: "Netzwerk-Engpass-Konzepte", nl: "Netwerk knelpuntconcepten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Concept bottleneck models force AI reasoning through an intermediate layer of human-interpretable concepts (like 'enemy nearby', 'low health'), making AI decisions transparent and debuggable while maintaining high performance, crucial for trustworthy game AI.",
+          es: "Los modelos de cuello de botella de concepto fuerzan razonamiento IA a través de una capa intermedia de conceptos interpretables por humanos (como 'enemigo cerca', 'salud baja'), haciendo decisiones IA transparentes y depurables mientras mantienen alto rendimiento, crucial para IA de juegos confiable.",
+          de: "Concept Bottleneck Models zwingen KI-Argumentation durch eine Zwischenschicht menschlich interpretierbarer Konzepte (wie 'Feind in der Nähe', 'niedrige Gesundheit'), macht KI-Entscheidungen transparent und debuggbar während hohe Leistung beibehalten wird, entscheidend für vertrauenswürdige Spiele-KI.",
+          nl: "Concept bottleneck modellen dwingen AI-redenering door een tussenlaag van menselijk interpreteerbare concepten (zoals 'vijand nabij', 'lage gezondheid'), wat AI-beslissingen transparant en debuggable maakt terwijl hoge prestaties behouden blijven, cruciaal voor betrouwbare game AI."
+        }
+      },
+      {
+        question: {
+          en: "How does 'skill chaining' enable complex behaviors in game AI?",
+          es: "¿Cómo habilita el 'encadenamiento de habilidades' comportamientos complejos en IA de juegos?",
+          de: "Wie ermöglicht 'Skill Chaining' komplexe Verhaltensweisen in Spiele-KI?",
+          nl: "Hoe maakt 'skill chaining' complexe gedragingen mogelijk in game AI?"
+        },
+        options: [
+          { en: "Combines learned primitive skills into sequences to achieve complex objectives", es: "Combina habilidades primitivas aprendidas en secuencias para lograr objetivos complejos", de: "Kombiniert gelernte primitive Fähigkeiten in Sequenzen um komplexe Ziele zu erreichen", nl: "Combineert geleerde primitieve vaardigheden in sequenties om complexe doelstellingen te bereiken" },
+          { en: "Chaining skill points in RPGs only", es: "Solo encadenar puntos de habilidad en RPGs", de: "Nur Skill-Punkte in RPGs verketten", nl: "Alleen skill punten koppelen in RPGs" },
+          { en: "Skill tree connections", es: "Conexiones de árbol de habilidades", de: "Fähigkeitsbaum-Verbindungen", nl: "Vaardigheidsboom verbindingen" },
+          { en: "Chain attacks in fighting games", es: "Ataques en cadena en juegos de lucha", de: "Kettenangriffe in Kampfspielen", nl: "Keten aanvallen in vechtgames" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Skill chaining learns modular, reusable skills that can be composed together, enabling AI to solve novel problems by combining previously learned capabilities in new ways, improving transfer learning and reducing training time for complex tasks.",
+          es: "El encadenamiento de habilidades aprende habilidades modulares y reutilizables que pueden componerse juntas, permitiendo a la IA resolver problemas novedosos combinando capacidades previamente aprendidas de nuevas formas, mejorando aprendizaje por transferencia y reduciendo tiempo de entrenamiento para tareas complejas.",
+          de: "Skill Chaining lernt modulare, wiederverwendbare Fähigkeiten die zusammengesetzt werden können, ermöglicht KI neuartige Probleme zu lösen durch Kombination zuvor gelernter Fähigkeiten auf neue Weisen, verbessert Transfer Learning und reduziert Trainingszeit für komplexe Aufgaben.",
+          nl: "Skill chaining leert modulaire, herbruikbare vaardigheden die samen kunnen worden gecombineerd, waardoor AI nieuwe problemen kan oplossen door eerder geleerde mogelijkheden op nieuwe manieren te combineren, wat transfer learning verbetert en trainingstijd voor complexe taken vermindert."
+        }
+      },
+      {
+        question: {
+          en: "What is 'self-supervised learning' achieving in game AI without labeled data?",
+          es: "¿Qué está logrando el 'aprendizaje auto-supervisado' en IA de juegos sin datos etiquetados?",
+          de: "Was erreicht 'selbst-überwachtes Lernen' in Spiele-KI ohne gelabelte Daten?",
+          nl: "Wat bereikt 'self-supervised learning' in game AI zonder gelabelde data?"
+        },
+        options: [
+          { en: "Learns useful representations from unlabeled game data by predicting hidden information", es: "Aprende representaciones útiles de datos no etiquetados del juego prediciendo información oculta", de: "Lernt nützliche Repräsentationen aus ungelabelten Spieldaten durch Vorhersage verborgener Informationen", nl: "Leert nuttige representaties van ongelabelde speldata door verborgen informatie te voorspellen" },
+          { en: "AI that supervises itself only", es: "Solo IA que se supervisa a sí misma", de: "Nur KI die sich selbst überwacht", nl: "Alleen AI die zichzelf superviseert" },
+          { en: "Self-directed learning paths", es: "Caminos de aprendizaje auto-dirigidos", de: "Selbstgesteuerte Lernpfade", nl: "Zelfgestuurde leerpaden" },
+          { en: "Supervised learning without supervisors", es: "Aprendizaje supervisado sin supervisores", de: "Überwachtes Lernen ohne Betreuer", nl: "Supervised learning zonder supervisors" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Self-supervised learning creates training signals from the data itself (like predicting future frames, masked parts, or rotation), enabling AI to learn rich representations from vast amounts of unlabeled gameplay data, reducing dependency on expensive human annotations.",
+          es: "El aprendizaje auto-supervisado crea señales de entrenamiento de los datos mismos (como predecir fotogramas futuros, partes enmascaradas o rotación), permitiendo a la IA aprender representaciones ricas de vastas cantidades de datos no etiquetados de jugabilidad, reduciendo dependencia en anotaciones humanas costosas.",
+          de: "Selbst-überwachtes Lernen schafft Trainingssignale aus den Daten selbst (wie Vorhersage zukünftiger Frames, maskierter Teile oder Rotation), ermöglicht KI reiche Repräsentationen aus riesigen Mengen ungelabelter Gameplay-Daten zu lernen, reduziert Abhängigkeit von teuren menschlichen Annotationen.",
+          nl: "Self-supervised learning creëert trainingsignalen vanuit de data zelf (zoals het voorspellen van toekomstige frames, gemaskeerde delen of rotatie), waardoor AI rijke representaties kan leren van enorme hoeveelheden ongelabelde gameplay data, wat afhankelijkheid van dure menselijke annotaties vermindert."
+        }
+      },
+      {
+        question: {
+          en: "How does 'knowledge distillation' compress large game AI models?",
+          es: "¿Cómo comprime la 'destilación de conocimiento' modelos grandes de IA de juegos?",
+          de: "Wie komprimiert 'Knowledge Distillation' große Spiele-KI-Modelle?",
+          nl: "Hoe comprimeert 'knowledge distillation' grote game AI modellen?"
+        },
+        options: [
+          { en: "Transfers knowledge from large teacher models to smaller, efficient student models", es: "Transfiere conocimiento de modelos maestros grandes a modelos estudiantes más pequeños y eficientes", de: "Überträgt Wissen von großen Lehrer-Modellen zu kleineren, effizienten Schüler-Modellen", nl: "Draagt kennis over van grote leraar modellen naar kleinere, efficiënte student modellen" },
+          { en: "Distills game knowledge into documentation", es: "Destila conocimiento del juego en documentación", de: "Destilliert Spielwissen in Dokumentation", nl: "Distilleert spelkennis in documentatie" },
+          { en: "Knowledge compression algorithms", es: "Algoritmos de compresión de conocimiento", de: "Wissenskompressionsalgorithmen", nl: "Kenniscompressie algoritmes" },
+          { en: "Distilling essential game features", es: "Destilar características esenciales del juego", de: "Wesentliche Spielfunktionen destillieren", nl: "Essentiële spelkenmerken distilleren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Knowledge distillation trains lightweight models to mimic the behavior of larger, more accurate models, enabling deployment of sophisticated AI on resource-constrained devices like mobile phones while maintaining near-original performance, crucial for widespread game AI deployment.",
+          es: "La destilación de conocimiento entrena modelos ligeros para imitar el comportamiento de modelos más grandes y precisos, habilitando despliegue de IA sofisticada en dispositivos con recursos limitados como teléfonos móviles mientras mantiene rendimiento casi original, crucial para despliegue amplio de IA de juegos.",
+          de: "Knowledge Distillation trainiert leichtgewichtige Modelle um Verhalten größerer, genauerer Modelle nachzuahmen, ermöglicht Deployment raffinierter KI auf ressourcenbeschränkten Geräten wie Mobiltelefonen während nahezu Original-Leistung beibehalten wird, entscheidend für weitverbreitetes Spiele-KI-Deployment.",
+          nl: "Knowledge distillation traint lichtgewicht modellen om het gedrag van grotere, nauwkeurigere modellen na te bootsen, wat deployment van geavanceerde AI mogelijk maakt op resource-beperkte apparaten zoals mobiele telefoons terwijl bijna originele prestaties behouden blijven, cruciaal voor wijdverbreide game AI deployment."
+        }
+      },
+      {
+        question: {
+          en: "What is 'neural program synthesis' enabling for procedural game content?",
+          es: "¿Qué está permitiendo la 'síntesis de programas neuronales' para contenido procedural de juegos?",
+          de: "Was ermöglicht 'Neural Program Synthesis' für prozeduralen Spielinhalt?",
+          nl: "Wat maakt 'neural program synthesis' mogelijk voor procedurele spelcontent?"
+        },
+        options: [
+          { en: "Automatically generates game logic code from high-level specifications or examples", es: "Genera automáticamente código de lógica del juego desde especificaciones de alto nivel o ejemplos", de: "Generiert automatisch Spiellogik-Code aus High-Level-Spezifikationen oder Beispielen", nl: "Genereert automatisch spellogica code vanuit hoog-niveau specificaties of voorbeelden" },
+          { en: "Neural networks for program synthesis only", es: "Solo redes neuronales para síntesis de programas", de: "Nur neuronale Netzwerke für Programmsynthese", nl: "Alleen neurale netwerken voor programmasynthese" },
+          { en: "Synthesizing neural network programs", es: "Sintetizar programas de redes neuronales", de: "Neuronale Netzwerk-Programme synthetisieren", nl: "Neurale netwerk programma's synthetiseren" },
+          { en: "Program generation for neural training", es: "Generación de programas para entrenamiento neural", de: "Programmgenerierung für neuronales Training", nl: "Programma generatie voor neurale training" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Neural program synthesis uses AI to automatically write game logic, level generators, or rule systems from examples or descriptions, enabling rapid prototyping, automated content creation, and democratizing game development for non-programmers.",
+          es: "La síntesis de programas neuronales usa IA para escribir automáticamente lógica de juego, generadores de nivel o sistemas de reglas desde ejemplos o descripciones, habilitando prototipado rápido, creación automatizada de contenido y democratizando desarrollo de juegos para no programadores.",
+          de: "Neural Program Synthesis nutzt KI um automatisch Spiellogik, Level-Generatoren oder Regelsysteme aus Beispielen oder Beschreibungen zu schreiben, ermöglicht schnelles Prototyping, automatisierte Inhaltserstellung und demokratisiert Spielentwicklung für Nicht-Programmierer.",
+          nl: "Neural program synthesis gebruikt AI om automatisch spellogica, level generators of regelsystemen te schrijven vanuit voorbeelden of beschrijvingen, wat snel prototyping, geautomatiseerde content creatie mogelijk maakt en spelontwikkeling democratiseert voor niet-programmeurs."
+        }
+      },
+      {
+        question: {
+          en: "How does 'graph convolutional networks' enhance strategic game AI?",
+          es: "¿Cómo mejoran las 'redes convolucionales de grafos' la IA de juegos estratégicos?",
+          de: "Wie verbessern 'Graph Convolutional Networks' strategische Spiele-KI?",
+          nl: "Hoe verbeteren 'graph convolutional networks' strategische game AI?"
+        },
+        options: [
+          { en: "Processes graph-structured game data like unit formations, resource networks, and territorial control", es: "Procesa datos estructurados en grafo del juego como formaciones de unidades, redes de recursos y control territorial", de: "Verarbeitet graph-strukturierte Spieldaten wie Einheitenformationen, Ressourcennetzwerke und territoriale Kontrolle", nl: "Verwerkt graaf-gestructureerde speldata zoals eenheidsformaties, bronnenetwerken en territoriale controle" },
+          { en: "Convolutions on graph visualizations only", es: "Solo convoluciones en visualizaciones de grafos", de: "Nur Faltungen auf Graph-Visualisierungen", nl: "Alleen convoluties op graafvisualisaties" },
+          { en: "Graphical convolution filters", es: "Filtros de convolución gráfica", de: "Grafische Faltungsfilter", nl: "Grafische convolutie filters" },
+          { en: "Network graph convolutions", es: "Convoluciones de grafos de red", de: "Netzwerk-Graph-Faltungen", nl: "Netwerk graafconvoluties" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Graph convolutional networks operate on graph-structured game data, effectively modeling relationships between units, territories, resources, and strategic positions, enabling AI to understand and exploit complex strategic patterns in games with rich relational structure.",
+          es: "Las redes convolucionales de grafos operan en datos estructurados en grafo del juego, modelando efectivamente relaciones entre unidades, territorios, recursos y posiciones estratégicas, permitiendo a la IA entender y explotar patrones estratégicos complejos en juegos con rica estructura relacional.",
+          de: "Graph Convolutional Networks operieren auf graph-strukturierten Spieldaten, modellieren effektiv Beziehungen zwischen Einheiten, Territorien, Ressourcen und strategischen Positionen, ermöglichen KI komplexe strategische Muster in Spielen mit reicher relationaler Struktur zu verstehen und auszunutzen.",
+          nl: "Graph convolutional networks opereren op graaf-gestructureerde speldata, waarbij effectief relaties tussen eenheden, territoria, bronnen en strategische posities worden gemodelleerd, wat AI in staat stelt om complexe strategische patronen in games met rijke relationele structuur te begrijpen en te exploiteren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'reward shaping' optimizing in reinforcement learning for games?",
+          es: "¿Qué está optimizando el 'moldeado de recompensa' en aprendizaje por refuerzo para juegos?",
+          de: "Was optimiert 'Reward Shaping' in Reinforcement Learning für Spiele?",
+          nl: "Wat optimaliseert 'reward shaping' in reinforcement learning voor games?"
+        },
+        options: [
+          { en: "Designs intermediate rewards to guide learning toward desired behaviors more efficiently", es: "Diseña recompensas intermedias para guiar aprendizaje hacia comportamientos deseados más eficientemente", de: "Entwirft Zwischenbelohnungen um Lernen effizienter zu gewünschten Verhaltensweisen zu leiten", nl: "Ontwerpt tussenbeloningen om leren efficiënter naar gewenste gedragingen te leiden" },
+          { en: "Shaping physical rewards in games", es: "Dar forma a recompensas físicas en juegos", de: "Physische Belohnungen in Spielen formen", nl: "Fysieke beloningen in games vormgeven" },
+          { en: "Reward distribution shapes", es: "Formas de distribución de recompensas", de: "Belohnungsverteilungsformen", nl: "Beloningsdistributievormen" },
+          { en: "Visual reward shaping", es: "Modelado visual de recompensas", de: "Visuelles Belohnungs-Shaping", nl: "Visuele beloning vormgeving" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Reward shaping adds auxiliary rewards to guide AI learning without changing the optimal policy, accelerating training by providing informative feedback for intermediate progress, crucial for complex games where final rewards are sparse and delayed.",
+          es: "El moldeado de recompensa agrega recompensas auxiliares para guiar aprendizaje IA sin cambiar la política óptima, acelerando entrenamiento proporcionando retroalimentación informativa para progreso intermedio, crucial para juegos complejos donde recompensas finales son escasas y retrasadas.",
+          de: "Reward Shaping fügt zusätzliche Belohnungen hinzu um KI-Lernen zu leiten ohne optimale Policy zu ändern, beschleunigt Training durch Bereitstellung informativer Rückmeldung für Zwischenfortschritt, entscheidend für komplexe Spiele wo Endbelohnungen spärlich und verzögert sind.",
+          nl: "Reward shaping voegt hulpbeloningen toe om AI-leren te begeleiden zonder het optimale beleid te veranderen, versnelt training door informatieve feedback te geven voor tussenliggende vooruitgang, cruciaal voor complexe games waar eindbeloningen schaars en vertraagd zijn."
+        }
+      },
+      {
+        question: {
+          en: "How does 'episodic memory' enhance game AI learning and adaptation?",
+          es: "¿Cómo mejora la 'memoria episódica' el aprendizaje y adaptación de IA de juegos?",
+          de: "Wie verbessert 'episodisches Gedächtnis' Spiele-KI-Lernen und Anpassung?",
+          nl: "Hoe verbetert 'episodisch geheugen' game AI leren en aanpassing?"
+        },
+        options: [
+          { en: "Stores and retrieves specific past experiences to inform current decision-making", es: "Almacena y recupera experiencias pasadas específicas para informar toma actual de decisiones", de: "Speichert und ruft spezifische vergangene Erfahrungen ab um aktuelle Entscheidungsfindung zu informieren", nl: "Slaat specifieke vorige ervaringen op en haalt ze op om huidige besluitvorming te informeren" },
+          { en: "Memory for game episodes only", es: "Solo memoria para episodios de juego", de: "Nur Gedächtnis für Spiel-Episoden", nl: "Alleen geheugen voor spelepisodes" },
+          { en: "Episode tracking in games", es: "Seguimiento de episodios en juegos", de: "Episoden-Tracking in Spielen", nl: "Episode tracking in games" },
+          { en: "Episodic game content memory", es: "Memoria de contenido de juego episódico", de: "Episodisches Spielinhalt-Gedächtnis", nl: "Episodisch spelcontent geheugen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Episodic memory systems allow AI to remember and recall specific game situations and their outcomes, enabling rapid adaptation through analogical reasoning and few-shot learning by matching current situations to relevant past experiences.",
+          es: "Los sistemas de memoria episódica permiten a la IA recordar y recuperar situaciones específicas del juego y sus resultados, habilitando adaptación rápida a través de razonamiento analógico y aprendizaje de pocos ejemplos emparejando situaciones actuales con experiencias pasadas relevantes.",
+          de: "Episodische Gedächtnissysteme erlauben KI sich an spezifische Spielsituationen und ihre Ergebnisse zu erinnern und sie abzurufen, ermöglichen schnelle Anpassung durch analogisches Denken und Few-Shot-Learning durch Abgleich aktueller Situationen mit relevanten vergangenen Erfahrungen.",
+          nl: "Episodische geheugensystemen stellen AI in staat om specifieke spelsituaties en hun uitkomsten te onthouden en op te roepen, wat snelle aanpassing mogelijk maakt door analogisch redeneren en few-shot learning door huidige situaties te matchen met relevante vorige ervaringen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'intrinsic motivation' providing for autonomous game AI exploration?",
+          es: "¿Qué está proporcionando la 'motivación intrínseca' para exploración autónoma de IA de juegos?",
+          de: "Was bietet 'intrinsische Motivation' für autonome Spiele-KI-Exploration?",
+          nl: "Wat biedt 'intrinsieke motivatie' voor autonome game AI exploratie?"
+        },
+        options: [
+          { en: "Internal reward signals that encourage exploration of novel states and skills", es: "Señales de recompensa internas que alientan exploración de estados y habilidades novedosas", de: "Interne Belohnungssignale die Exploration neuartiger Zustände und Fähigkeiten fördern", nl: "Interne beloningssignalen die exploratie van nieuwe toestanden en vaardigheden aanmoedigen" },
+          { en: "Motivation to play games intrinsically", es: "Motivación para jugar juegos intrínsecamente", de: "Motivation Spiele intrinsisch zu spielen", nl: "Motivatie om games intrinsiek te spelen" },
+          { en: "Internal game motivation systems", es: "Sistemas de motivación interna del juego", de: "Interne Spielmotivationssysteme", nl: "Interne spelmotivatiesystemen" },
+          { en: "Intrinsic game difficulty", es: "Dificultad intrínseca del juego", de: "Intrinsische Spielschwierigkeit", nl: "Intrinsieke spelmoeilijkheid" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Intrinsic motivation mechanisms reward AI for discovering novel experiences, improving skills, or reducing uncertainty, enabling autonomous exploration and skill acquisition even in environments without external rewards, fostering creative and diverse behaviors.",
+          es: "Los mecanismos de motivación intrínseca recompensan a la IA por descubrir experiencias novedosas, mejorar habilidades o reducir incertidumbre, habilitando exploración autónoma y adquisición de habilidades incluso en entornos sin recompensas externas, fomentando comportamientos creativos y diversos.",
+          de: "Intrinsische Motivationsmechanismen belohnen KI für Entdeckung neuartiger Erfahrungen, Verbesserung von Fähigkeiten oder Reduktion von Unsicherheit, ermöglichen autonome Exploration und Fähigkeitserwerb auch in Umgebungen ohne externe Belohnungen, fördert kreative und diverse Verhaltensweisen.",
+          nl: "Intrinsieke motivatiemechanismen belonen AI voor het ontdekken van nieuwe ervaringen, het verbeteren van vaardigheden of het verminderen van onzekerheid, wat autonome exploratie en vaardigheidverwerving mogelijk maakt zelfs in omgevingen zonder externe beloningen, wat creatieve en diverse gedragingen bevordert."
+        }
+      },
+      {
+        question: {
+          en: "How does 'zero-shot learning' enable game AI generalization?",
+          es: "¿Cómo habilita el 'aprendizaje de cero disparos' la generalización de IA de juegos?",
+          de: "Wie ermöglicht 'Zero-Shot Learning' Spiele-KI-Generalisierung?",
+          nl: "Hoe maakt 'zero-shot learning' game AI generalisatie mogelijk?"
+        },
+        options: [
+          { en: "Performs tasks or recognizes concepts never seen during training through semantic understanding", es: "Realiza tareas o reconoce conceptos nunca vistos durante entrenamiento a través de comprensión semántica", de: "Führt Aufgaben aus oder erkennt Konzepte die nie während des Trainings gesehen wurden durch semantisches Verständnis", nl: "Voert taken uit of herkent concepten die nooit tijdens training zijn gezien door semantisch begrip" },
+          { en: "Zero accuracy shooting in games", es: "Disparo con precisión cero en juegos", de: "Null-Genauigkeits-Schießen in Spielen", nl: "Nul nauwkeurigheid schieten in games" },
+          { en: "Learning without any shots fired", es: "Aprender sin ningún disparo", de: "Lernen ohne Schüsse", nl: "Leren zonder shots afgevuurd" },
+          { en: "Zero training examples only", es: "Solo cero ejemplos de entrenamiento", de: "Nur null Trainingsbeispiele", nl: "Alleen nul trainingsvoorbeelden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Zero-shot learning enables AI to handle completely new game scenarios, characters, or mechanics by leveraging semantic knowledge and compositional understanding, transferring learned concepts to novel situations without requiring additional training data.",
+          es: "El aprendizaje de cero disparos habilita a la IA a manejar escenarios completamente nuevos del juego, personajes o mecánicas aprovechando conocimiento semántico y comprensión composicional, transfiriendo conceptos aprendidos a situaciones novedosas sin requerir datos adicionales de entrenamiento.",
+          de: "Zero-Shot Learning ermöglicht KI völlig neue Spielszenarien, Charaktere oder Mechaniken zu handhaben durch Nutzung semantischen Wissens und kompositionellem Verständnis, überträgt gelernte Konzepte auf neuartige Situationen ohne zusätzliche Trainingsdaten zu benötigen.",
+          nl: "Zero-shot learning stelt AI in staat om volledig nieuwe spelscenario's, karakters of mechanica te behandelen door semantische kennis en compositioneel begrip te benutten, waarbij geleerde concepten worden overgedragen naar nieuwe situaties zonder aanvullende trainingsdata nodig te hebben."
+        }
+      },
+      {
+        question: {
+          en: "What is 'abstract strategy learning' enabling in high-level game AI?",
+          es: "¿Qué está permitiendo el 'aprendizaje de estrategia abstracta' en IA de juegos de alto nivel?",
+          de: "Was ermöglicht 'abstraktes Strategielernen' in High-Level-Spiele-KI?",
+          nl: "Wat maakt 'abstract strategie leren' mogelijk in hoog-niveau game AI?"
+        },
+        options: [
+          { en: "Learns generalizable strategic principles that transfer across different games and domains", es: "Aprende principios estratégicos generalizables que se transfieren a través de diferentes juegos y dominios", de: "Lernt verallgemeinerbare strategische Prinzipien die über verschiedene Spiele und Domänen übertragen werden", nl: "Leert generaliseerbare strategische principes die overdragen over verschillende games en domeinen" },
+          { en: "Abstract art strategies in games", es: "Estrategias de arte abstracto en juegos", de: "Abstrakte Kunststrategien in Spielen", nl: "Abstracte kunst strategieën in games" },
+          { en: "Learning only abstract concepts", es: "Aprender solo conceptos abstractos", de: "Nur abstrakte Konzepte lernen", nl: "Alleen abstracte concepten leren" },
+          { en: "Abstract game theory only", es: "Solo teoría de juegos abstracta", de: "Nur abstrakte Spieltheorie", nl: "Alleen abstracte speltheorie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Abstract strategy learning discovers high-level strategic concepts and decision-making principles that transcend specific game mechanics, enabling AI to apply learned strategic thinking across diverse game types and facilitating rapid mastery of new games through strategic transfer.",
+          es: "El aprendizaje de estrategia abstracta descubre conceptos estratégicos de alto nivel y principios de toma de decisiones que trascienden mecánicas específicas del juego, habilitando a la IA a aplicar pensamiento estratégico aprendido a través de diversos tipos de juegos y facilitando dominio rápido de nuevos juegos a través de transferencia estratégica.",
+          de: "Abstraktes Strategielernen entdeckt hochrangige strategische Konzepte und Entscheidungsprinzipien die spezifische Spielmechaniken transzendieren, ermöglicht KI gelerntes strategisches Denken über diverse Spieltypen anzuwenden und erleichtert schnelle Beherrschung neuer Spiele durch strategischen Transfer.",
+          nl: "Abstract strategie leren ontdekt hoog-niveau strategische concepten en besluitvormingsprincipes die specifieke spelmechanica overstijgen, waardoor AI geleerd strategisch denken kan toepassen over diverse speltypes en snelle beheersing van nieuwe games faciliteert door strategische overdracht."
+        }
+      },
+      {
+        question: {
+          en: "How does 'curriculum generation' automate training progression in game AI?",
+          es: "¿Cómo automatiza la 'generación de currículo' la progresión de entrenamiento en IA de juegos?",
+          de: "Wie automatisiert 'Curriculum Generation' Trainingsprogression in Spiele-KI?",
+          nl: "Hoe automatiseert 'curriculum generatie' trainingsprogressie in game AI?"
+        },
+        options: [
+          { en: "Automatically creates sequences of training tasks that gradually increase in difficulty", es: "Crea automáticamente secuencias de tareas de entrenamiento que aumentan gradualmente en dificultad", de: "Erstellt automatisch Sequenzen von Trainingsaufgaben die graduell schwieriger werden", nl: "Creëert automatisch sequenties van trainingstaken die geleidelijk toenemen in moeilijkheid" },
+          { en: "Generates game curricula for players", es: "Genera currículos de juego para jugadores", de: "Generiert Spiel-Curricula für Spieler", nl: "Genereert spelcurricula voor spelers" },
+          { en: "Curriculum documentation generation", es: "Generación de documentación de currículo", de: "Curriculum-Dokumentationsgenerierung", nl: "Curriculum documentatie generatie" },
+          { en: "Educational game curriculum", es: "Currículo de juegos educativos", de: "Bildungsspiel-Curriculum", nl: "Educatief spelcurriculum" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Curriculum generation dynamically creates personalized learning sequences tailored to AI's current capabilities, automatically generating appropriately challenging scenarios that optimize learning efficiency and prevent both boredom from too-easy tasks and frustration from too-hard ones.",
+          es: "La generación de currículo crea dinámicamente secuencias de aprendizaje personalizadas adaptadas a capacidades actuales de la IA, generando automáticamente escenarios apropiadamente desafiantes que optimizan eficiencia de aprendizaje y previenen tanto aburrimiento de tareas muy fáciles como frustración de muy difíciles.",
+          de: "Curriculum Generation erstellt dynamisch personalisierte Lernsequenzen angepasst an aktuelle KI-Fähigkeiten, generiert automatisch angemessen herausfordernde Szenarien die Lerneffizienz optimieren und sowohl Langeweile von zu einfachen Aufgaben als auch Frustration von zu schweren verhindern.",
+          nl: "Curriculum generatie creëert dynamisch gepersonaliseerde leersequenties aangepast aan de huidige mogelijkheden van AI, genereert automatisch passend uitdagende scenario's die leerefficiëntie optimaliseren en zowel verveling van te gemakkelijke taken als frustratie van te moeilijke voorkomt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'latent space optimization' achieving in game AI policy search?",
+          es: "¿Qué está logrando la 'optimización del espacio latente' en búsqueda de política de IA de juegos?",
+          de: "Was erreicht 'Latent Space Optimization' in Spiele-KI Policy-Suche?",
+          nl: "Wat bereikt 'latente ruimte optimalisatie' in game AI beleidszoeken?"
+        },
+        options: [
+          { en: "Optimizes policies in compressed latent representations for more efficient search", es: "Optimiza políticas en representaciones latentes comprimidas para búsqueda más eficiente", de: "Optimiert Policies in komprimierten latenten Repräsentationen für effizientere Suche", nl: "Optimaliseert beleid in gecomprimeerde latente representaties voor efficiënter zoeken" },
+          { en: "Optimizing latent game variables only", es: "Solo optimizar variables latentes del juego", de: "Nur latente Spielvariablen optimieren", nl: "Alleen latente spelvariabelen optimaliseren" },
+          { en: "Spatial optimization in games", es: "Optimización espacial en juegos", de: "Räumliche Optimierung in Spielen", nl: "Ruimtelijke optimalisatie in games" },
+          { en: "Latency optimization for games", es: "Optimización de latencia para juegos", de: "Latenz-Optimierung für Spiele", nl: "Latentie optimalisatie voor games" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Latent space optimization searches for optimal policies in low-dimensional learned representations rather than high-dimensional raw game states, dramatically improving search efficiency and enabling discovery of novel strategies in complex games with massive state spaces.",
+          es: "La optimización del espacio latente busca políticas óptimas en representaciones aprendidas de baja dimensión en lugar de estados crudos del juego de alta dimensión, mejorando dramáticamente eficiencia de búsqueda y habilitando descubrimiento de estrategias novedosas en juegos complejos con espacios de estado masivos.",
+          de: "Latent Space Optimization sucht nach optimalen Policies in niedrigdimensionalen gelernten Repräsentationen statt hochdimensionalen rohen Spielzuständen, verbessert Sucheffizienz dramatisch und ermöglicht Entdeckung neuartiger Strategien in komplexen Spielen mit massiven Zustandsräumen.",
+          nl: "Latente ruimte optimalisatie zoekt naar optimaal beleid in laag-dimensionale geleerde representaties in plaats van hoog-dimensionale ruwe speltoestanden, wat zoekefficiëntie dramatisch verbetert en ontdekking van nieuwe strategieën mogelijk maakt in complexe games met massieve toestandsruimtes."
+        }
+      },
+      {
+        question: {
+          en: "How does 'adaptive exploration noise' improve reinforcement learning in games?",
+          es: "¿Cómo mejora el 'ruido de exploración adaptativo' el aprendizaje por refuerzo en juegos?",
+          de: "Wie verbessert 'adaptives Explorations-Rauschen' Reinforcement Learning in Spielen?",
+          nl: "Hoe verbetert 'adaptieve exploratie ruis' reinforcement learning in games?"
+        },
+        options: [
+          { en: "Dynamically adjusts exploration randomness based on learning progress and uncertainty", es: "Ajusta dinámicamente aleatoriedad de exploración basándose en progreso de aprendizaje e incertidumbre", de: "Passt Explorations-Zufälligkeit dynamisch basierend auf Lernfortschritt und Unsicherheit an", nl: "Past exploratie willekeurigheid dynamisch aan gebaseerd op leervoortgang en onzekerheid" },
+          { en: "Adds adaptive noise to game audio", es: "Agrega ruido adaptativo al audio del juego", de: "Fügt adaptives Rauschen zum Spiel-Audio hinzu", nl: "Voegt adaptieve ruis toe aan spelgeluid" },
+          { en: "Noise reduction in exploration", es: "Reducción de ruido en exploración", de: "Rauschreduzierung in Exploration", nl: "Ruisreductie in exploratie" },
+          { en: "Adaptive network noise", es: "Ruido de red adaptativo", de: "Adaptives Netzwerkrauschen", nl: "Adaptieve netwerkruis" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Adaptive exploration noise automatically tunes exploration intensity throughout training, exploring more when uncertain and exploiting more when confident, optimizing the exploration-exploitation tradeoff for faster convergence and better final performance in complex game environments.",
+          es: "El ruido de exploración adaptativo ajusta automáticamente intensidad de exploración durante el entrenamiento, explorando más cuando hay incertidumbre y explotando más cuando hay confianza, optimizando el equilibrio exploración-explotación para convergencia más rápida y mejor rendimiento final en entornos complejos de juegos.",
+          de: "Adaptives Explorations-Rauschen stimmt Explorationsintensität automatisch während des Trainings ab, erkundet mehr bei Unsicherheit und nutzt mehr bei Sicherheit, optimiert Exploration-Exploitation-Tradeoff für schnellere Konvergenz und bessere Endleistung in komplexen Spielumgebungen.",
+          nl: "Adaptieve exploratie ruis stemt exploratie-intensiteit automatisch af tijdens training, exploreert meer bij onzekerheid en exploiteert meer bij zekerheid, optimaliseert de exploratie-exploitatie afweging voor snellere convergentie en betere eindprestaties in complexe spelomgevingen."
+        }
       }
     ]
   };

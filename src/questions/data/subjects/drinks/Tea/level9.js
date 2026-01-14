@@ -420,6 +420,1236 @@
                     nl: "Geavanceerde actieve verpakkingssystemen gebruiken ingebedde zuurstof vangsters om oxidatie te voorkomen en vocht-controle polymeren die optimale vochtigheid niveaus behouden terwijl vluchtige verbindingen beschermd worden tegen degradatie."
                 }
             },
+            {
+                question: {
+                    en: "What is blockchain technology's role in premium tea authentication?",
+                    es: "¿Cuál es el papel de blockchain en la autenticación de té premium?",
+                    de: "Welche Rolle spielt Blockchain bei der Authentifizierung von Premium-Tee?",
+                    nl: "Wat is de rol van blockchain in premium thee authenticatie?"
+                },
+                options: [
+                    {
+                        en: "Creating immutable supply chain records for provenance verification",
+                        es: "Crear registros inmutables de cadena de suministro para verificación de procedencia",
+                        de: "Erstellen unveränderlicher Lieferkettenaufzeichnungen für Herkunftsnachweis",
+                        nl: "Creëren van onveranderlijke supply chain records voor herkomst verificatie"
+                    },
+                    {
+                        en: "Making tea more expensive through cryptocurrency",
+                        es: "Hacer té más caro a través de criptomoneda",
+                        de: "Tee durch Kryptowährung teurer machen",
+                        nl: "Thee duurder maken door cryptocurrency"
+                    },
+                    {
+                        en: "Storing tea information on paper ledgers",
+                        es: "Almacenar información de té en libros de contabilidad",
+                        de: "Tee-Informationen in Papierbüchern speichern",
+                        nl: "Thee informatie opslaan in papieren grootboeken"
+                    },
+                    {
+                        en: "Creating digital artwork of tea leaves",
+                        es: "Crear arte digital de hojas de té",
+                        de: "Digitale Kunstwerke von Teeblättern erstellen",
+                        nl: "Digitale kunstwerken van thee bladeren creëren"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Blockchain provides transparent, tamper-proof tracking from specific gardens through processing, allowing consumers to verify authenticity of rare teas and preventing fraud.",
+                    es: "Blockchain proporciona seguimiento transparente a prueba de manipulación desde jardines específicos, permitiendo verificar autenticidad de tés raros y previniendo fraude.",
+                    de: "Blockchain bietet transparente, manipulationssichere Verfolgung von spezifischen Gärten, wodurch Verbraucher Authentizität seltener Tees verifizieren können.",
+                    nl: "Blockchain biedt transparante, manipulatie-vrije tracking van specifieke tuinen, consumenten in staat stellend authenticiteit van zeldzame theeën te verifiëren."
+                }
+            },
+            {
+                question: {
+                    en: "Which advanced technique maps tea terroir at unprecedented detail?",
+                    es: "¿Qué técnica avanzada mapea el terroir del té con detalle sin precedentes?",
+                    de: "Welche fortgeschrittene Technik kartiert Tee-Terroir mit beispielloser Detailgenauigkeit?",
+                    nl: "Welke geavanceerde techniek brengt thee terroir in kaart met ongekend detail?"
+                },
+                options: [
+                    {
+                        en: "Hyperspectral imaging combined with soil microbiome DNA sequencing",
+                        es: "Imágenes hiperespectrales combinadas con secuenciación de ADN del microbioma del suelo",
+                        de: "Hyperspektrale Bildgebung kombiniert mit Boden-Mikrobiom-DNA-Sequenzierung",
+                        nl: "Hyperspectrale beeldvorming gecombineerd met bodem microbioom DNA sequenering"
+                    },
+                    {
+                        en: "Simple taste testing in different regions",
+                        es: "Prueba simple de sabor en diferentes regiones",
+                        de: "Einfache Geschmackstests in verschiedenen Regionen",
+                        nl: "Simpele smaak testen in verschillende regio's"
+                    },
+                    {
+                        en: "Traditional soil pH testing only",
+                        es: "Solo pruebas tradicionales de pH del suelo",
+                        de: "Nur traditionelle Boden-pH-Tests",
+                        nl: "Alleen traditionele bodem pH testen"
+                    },
+                    {
+                        en: "Visual inspection of tea gardens",
+                        es: "Inspección visual de jardines de té",
+                        de: "Visuelle Inspektion von Teegärten",
+                        nl: "Visuele inspectie van thee tuinen"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Hyperspectral imaging reveals mineral composition and plant health at centimeter resolution, while soil microbiome sequencing identifies unique bacterial communities that influence tea flavor profiles.",
+                    es: "Las imágenes hiperespectrales revelan composición mineral y salud de las plantas a resolución de centímetros, mientras que secuenciación del microbioma del suelo identifica comunidades bacterianas únicas que influencian perfiles de sabor del té.",
+                    de: "Hyperspektrale Bildgebung zeigt Mineralzusammensetzung und Pflanzengesundheit in Zentimeterauflösung, während Mikrobiom-Sequenzierung einzigartige Bakteriengemeinschaften identifiziert, die Tee-Geschmacksprofile beeinflussen.",
+                    nl: "Hyperspectrale beeldvorming onthult minerale samenstelling en plant gezondheid op centimeter resolutie, terwijl bodem microbioom sequenering unieke bacteriële gemeenschappen identificeert die thee smaakprofielen beïnvloeden."
+                }
+            },
+            {
+                question: {
+                    en: "What experimental processing method creates unprecedented flavor complexity?",
+                    es: "¿Qué método experimental de procesamiento crea complejidad de sabor sin precedentes?",
+                    de: "Welche experimentelle Verarbeitungsmethode erzeugt beispiellose Geschmackskomplexität?",
+                    nl: "Welke experimentele verwerkings methode creëert ongekende smaak complexiteit?"
+                },
+                options: [
+                    {
+                        en: "Sequential multi-stage oxidation with precise enzymatic control",
+                        es: "Oxidación multietapa secuencial con control enzimático preciso",
+                        de: "Sequenzielle mehrstufige Oxidation mit präziser enzymatischer Kontrolle",
+                        nl: "Sequentiële multi-fase oxidatie met precieze enzymatische controle"
+                    },
+                    {
+                        en: "Single-step oxidation at room temperature",
+                        es: "Oxidación de un solo paso a temperatura ambiente",
+                        de: "Einstufige Oxidation bei Raumtemperatur",
+                        nl: "Enkele-stap oxidatie bij kamertemperatuur"
+                    },
+                    {
+                        en: "Complete prevention of all oxidation",
+                        es: "Prevención completa de toda oxidación",
+                        de: "Vollständige Verhinderung jeder Oxidation",
+                        nl: "Volledige preventie van alle oxidatie"
+                    },
+                    {
+                        en: "Random oxidation without monitoring",
+                        es: "Oxidación aleatoria sin monitoreo",
+                        de: "Zufällige Oxidation ohne Überwachung",
+                        nl: "Willekeurige oxidatie zonder monitoring"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Advanced producers use multiple controlled oxidation stages at different temperatures and humidity levels, activating specific enzyme pathways to create layered flavor profiles impossible through traditional single-stage processing.",
+                    es: "Productores avanzados usan múltiples etapas de oxidación controladas a diferentes temperaturas y niveles de humedad, activando vías enzimáticas específicas para crear perfiles de sabor estratificados imposibles a través de procesamiento tradicional de una sola etapa.",
+                    de: "Fortgeschrittene Produzenten verwenden mehrere kontrollierte Oxidationsstufen bei verschiedenen Temperaturen und Feuchtigkeitsniveaus, wodurch spezifische Enzymwege aktiviert werden, um geschichtete Geschmacksprofile zu schaffen, die durch traditionelle einstufige Verarbeitung unmöglich sind.",
+                    nl: "Geavanceerde producenten gebruiken meerdere gecontroleerde oxidatie fasen bij verschillende temperaturen en vochtigheid niveaus, specifieke enzym routes activerend om gelaagde smaakprofielen te creëren die onmogelijk zijn door traditionele enkele-fase verwerking."
+                }
+            },
+            {
+                question: {
+                    en: "Which biotechnology application could revolutionize tea plant breeding?",
+                    es: "¿Qué aplicación de biotecnología podría revolucionar la cría de plantas de té?",
+                    de: "Welche Biotechnologie-Anwendung könnte die Tee-Pflanzenzucht revolutionieren?",
+                    nl: "Welke biotechnologie toepassing zou thee plant veredeling kunnen revolutioneren?"
+                },
+                options: [
+                    {
+                        en: "CRISPR gene editing for enhanced flavor compound production",
+                        es: "Edición genética CRISPR para producción mejorada de compuestos de sabor",
+                        de: "CRISPR-Genbearbeitung für verbesserte Geschmacksverbindungsproduktion",
+                        nl: "CRISPR gen bewerking voor verbeterde smaak verbinding productie"
+                    },
+                    {
+                        en: "Traditional cross-pollination only",
+                        es: "Solo polinización cruzada tradicional",
+                        de: "Nur traditionelle Kreuzbestäubung",
+                        nl: "Alleen traditionele kruisbestuiving"
+                    },
+                    {
+                        en: "Grafting different varieties together",
+                        es: "Injertar diferentes variedades juntas",
+                        de: "Verschiedene Sorten zusammen veredeln",
+                        nl: "Verschillende variëteiten samen enten"
+                    },
+                    {
+                        en: "Selecting seeds from best-tasting plants",
+                        es: "Seleccionar semillas de plantas de mejor sabor",
+                        de: "Samen von am besten schmeckenden Pflanzen auswählen",
+                        nl: "Zaden selecteren van best smakende planten"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "CRISPR gene editing enables precise modification of metabolic pathways to increase L-theanine, catechins, or specific aromatic compounds, potentially creating cultivars with enhanced desired characteristics.",
+                    es: "La edición genética CRISPR permite modificación precisa de vías metabólicas para aumentar L-teanina, catequinas o compuestos aromáticos específicos, potencialmente creando cultivares con características deseadas mejoradas.",
+                    de: "CRISPR-Genbearbeitung ermöglicht präzise Modifikation metabolischer Wege zur Erhöhung von L-Theanin, Catechinen oder spezifischen aromatischen Verbindungen, wodurch möglicherweise Kultivare mit verbesserten gewünschten Eigenschaften entstehen.",
+                    nl: "CRISPR gen bewerking maakt precieze modificatie van metabolische routes mogelijk om L-theanine, catechinen of specifieke aromatische verbindingen te verhogen, potentieel cultivars creërend met verbeterde gewenste kenmerken."
+                }
+            },
+            {
+                question: {
+                    en: "What advanced drying technique preserves maximum volatile aromatics?",
+                    es: "¿Qué técnica avanzada de secado preserva el máximo de aromáticos volátiles?",
+                    de: "Welche fortgeschrittene Trocknungstechnik erhält maximale flüchtige Aromastoffe?",
+                    nl: "Welke geavanceerde droog techniek bewaart maximale vluchtige aromaten?"
+                },
+                options: [
+                    {
+                        en: "Freeze-drying under vacuum to prevent thermal degradation",
+                        es: "Liofilización bajo vacío para prevenir degradación térmica",
+                        de: "Gefriertrocknung unter Vakuum zur Verhinderung thermischer Degradation",
+                        nl: "Vriesdroog onder vacuüm om thermische degradatie te voorkomen"
+                    },
+                    {
+                        en: "High-temperature roasting in open air",
+                        es: "Tostado a alta temperatura al aire libre",
+                        de: "Hochtemperaturröstung an offener Luft",
+                        nl: "Hoge temperatuur roosteren in open lucht"
+                    },
+                    {
+                        en: "Sun-drying on concrete surfaces",
+                        es: "Secado al sol en superficies de concreto",
+                        de: "Sonnentrocknung auf Betonoberflächen",
+                        nl: "Zonnedroog op beton oppervlakken"
+                    },
+                    {
+                        en: "Industrial tumble drying at maximum heat",
+                        es: "Secado industrial en tambor a calor máximo",
+                        de: "Industrielle Trommeltrocknung bei maximaler Hitze",
+                        nl: "Industriële trommel droging bij maximale hitte"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Freeze-drying removes water through sublimation at low temperatures and pressures, preserving delicate volatile compounds that would be lost through conventional heat-based drying methods.",
+                    es: "La liofilización elimina agua a través de sublimación a bajas temperaturas y presiones, preservando compuestos volátiles delicados que se perderían a través de métodos convencionales de secado basados en calor.",
+                    de: "Gefriertrocknung entfernt Wasser durch Sublimation bei niedrigen Temperaturen und Drücken, wodurch empfindliche flüchtige Verbindungen erhalten bleiben, die durch konventionelle hitzebasierte Trocknungsmethoden verloren gehen würden.",
+                    nl: "Vriesdrogen verwijdert water door sublimatie bij lage temperaturen en drukken, delicate vluchtige verbindingen bewarend die verloren zouden gaan door conventionele hitte-gebaseerde droog methoden."
+                }
+            },
+            {
+                question: {
+                    en: "Which emerging analytical tool provides real-time quality assessment during processing?",
+                    es: "¿Qué herramienta analítica emergente proporciona evaluación de calidad en tiempo real durante el procesamiento?",
+                    de: "Welches aufkommende Analysewerkzeug bietet Echtzeitqualitätsbewertung während der Verarbeitung?",
+                    nl: "Welke opkomende analytische tool biedt real-time kwaliteit beoordeling tijdens verwerking?"
+                },
+                options: [
+                    {
+                        en: "Portable Raman spectroscopy for on-site molecular fingerprinting",
+                        es: "Espectroscopia Raman portátil para huella molecular en sitio",
+                        de: "Tragbare Raman-Spektroskopie für Vor-Ort-Molekül-Fingerabdruck",
+                        nl: "Draagbare Raman spectroscopie voor ter plaatse moleculaire vingerafdruk"
+                    },
+                    {
+                        en: "Visual color charts compared manually",
+                        es: "Gráficos de color visual comparados manualmente",
+                        de: "Visuelle Farbkarten manuell verglichen",
+                        nl: "Visuele kleur grafieken handmatig vergeleken"
+                    },
+                    {
+                        en: "Sending samples to laboratories for weekly reports",
+                        es: "Enviar muestras a laboratorios para informes semanales",
+                        de: "Proben an Labore für wöchentliche Berichte senden",
+                        nl: "Monsters sturen naar laboratoria voor wekelijkse rapporten"
+                    },
+                    {
+                        en: "Traditional taste testing by master tasters",
+                        es: "Prueba de sabor tradicional por maestros catadores",
+                        de: "Traditionelle Geschmackstests durch Meisterverkoster",
+                        nl: "Traditionele smaak testen door meester proevers"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Portable Raman spectroscopy enables instant molecular identification of tea compounds during processing, allowing real-time adjustments to optimize quality without laboratory delays.",
+                    es: "La espectroscopia Raman portátil permite identificación molecular instantánea de compuestos de té durante el procesamiento, permitiendo ajustes en tiempo real para optimizar calidad sin demoras de laboratorio.",
+                    de: "Tragbare Raman-Spektroskopie ermöglicht sofortige molekulare Identifikation von Teeverbindungen während der Verarbeitung und erlaubt Echtzeitanpassungen zur Qualitätsoptimierung ohne Laborverzögerungen.",
+                    nl: "Draagbare Raman spectroscopie maakt instant moleculaire identificatie van thee verbindingen mogelijk tijdens verwerking, real-time aanpassingen toestaan om kwaliteit te optimaliseren zonder laboratorium vertragingen."
+                }
+            },
+            {
+                question: {
+                    en: "What innovative storage method extends aged tea shelf life indefinitely?",
+                    es: "¿Qué método innovador de almacenamiento extiende la vida útil del té envejecido indefinidamente?",
+                    de: "Welche innovative Lagermethode verlängert die Haltbarkeit von gereiftem Tee unbegrenzt?",
+                    nl: "Welke innovatieve opslag methode verlengt gerijpte thee houdbaarheid onbeperkt?"
+                },
+                options: [
+                    {
+                        en: "Controlled atmosphere storage with precisely regulated O2, CO2, and humidity",
+                        es: "Almacenamiento en atmósfera controlada con O2, CO2 y humedad regulados precisamente",
+                        de: "Kontrollierte Atmosphärenlagerung mit präzise reguliertem O2, CO2 und Feuchtigkeit",
+                        nl: "Gecontroleerde atmosfeer opslag met precies gereguleerde O2, CO2 en vochtigheid"
+                    },
+                    {
+                        en: "Storing in cardboard boxes in basements",
+                        es: "Almacenar en cajas de cartón en sótanos",
+                        de: "Lagerung in Kartons in Kellern",
+                        nl: "Opslaan in kartonnen dozen in kelders"
+                    },
+                    {
+                        en: "Keeping tea in open containers near windows",
+                        es: "Mantener té en contenedores abiertos cerca de ventanas",
+                        de: "Tee in offenen Behältern in Fensternähe aufbewahren",
+                        nl: "Thee bewaren in open containers bij ramen"
+                    },
+                    {
+                        en: "Regular plastic bags at room temperature",
+                        es: "Bolsas de plástico regulares a temperatura ambiente",
+                        de: "Normale Plastiktüten bei Raumtemperatur",
+                        nl: "Reguliere plastic zakken bij kamertemperatuur"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Controlled atmosphere storage maintains precise gas composition and humidity levels that prevent oxidation while supporting beneficial microbial activity in aged teas like puerh, enabling indefinite aging without degradation.",
+                    es: "El almacenamiento en atmósfera controlada mantiene composición precisa de gas y niveles de humedad que previenen oxidación mientras apoyan actividad microbiana beneficiosa en tés envejecidos como puerh, permitiendo envejecimiento indefinido sin degradación.",
+                    de: "Kontrollierte Atmosphärenlagerung hält präzise Gaszusammensetzung und Feuchtigkeitsniveaus aufrecht, die Oxidation verhindern und gleichzeitig nützliche mikrobielle Aktivität in gereiften Tees wie Puerh unterstützen, wodurch unbegrenzte Reifung ohne Degradation ermöglicht wird.",
+                    nl: "Gecontroleerde atmosfeer opslag handhaaft precieze gas samenstelling en vochtigheid niveaus die oxidatie voorkomen terwijl nuttige microbiële activiteit in gerijpte theeën zoals puerh ondersteund wordt, onbeperkte rijping zonder degradatie mogelijk makend."
+                }
+            },
+            {
+                question: {
+                    en: "Which computational method optimizes tea blending for target flavor profiles?",
+                    es: "¿Qué método computacional optimiza mezclas de té para perfiles de sabor objetivo?",
+                    de: "Welche Rechenmethode optimiert Teemischungen für Zielgeschmacksprofile?",
+                    nl: "Welke computationele methode optimaliseert thee mengen voor doel smaakprofielen?"
+                },
+                options: [
+                    {
+                        en: "Machine learning algorithms analyzing chemical composition and sensory data",
+                        es: "Algoritmos de aprendizaje automático analizando composición química y datos sensoriales",
+                        de: "Maschinelle Lernalgorithmen, die chemische Zusammensetzung und sensorische Daten analysieren",
+                        nl: "Machine learning algoritmes die chemische samenstelling en sensorische data analyseren"
+                    },
+                    {
+                        en: "Random mixing of different tea types",
+                        es: "Mezcla aleatoria de diferentes tipos de té",
+                        de: "Zufälliges Mischen verschiedener Teesorten",
+                        nl: "Willekeurig mengen van verschillende thee types"
+                    },
+                    {
+                        en: "Traditional trial and error methods only",
+                        es: "Solo métodos tradicionales de prueba y error",
+                        de: "Nur traditionelle Versuch-und-Irrtum-Methoden",
+                        nl: "Alleen traditionele trial and error methoden"
+                    },
+                    {
+                        en: "Following ancient recipes without modification",
+                        es: "Seguir recetas antiguas sin modificación",
+                        de: "Alte Rezepte ohne Änderung befolgen",
+                        nl: "Oude recepten volgen zonder modificatie"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Machine learning algorithms analyze chemical profiles and sensory evaluations from thousands of tea samples to predict optimal blend ratios for achieving specific target flavor profiles with minimal trial batches.",
+                    es: "Algoritmos de aprendizaje automático analizan perfiles químicos y evaluaciones sensoriales de miles de muestras de té para predecir proporciones óptimas de mezcla para lograr perfiles específicos de sabor objetivo con lotes de prueba mínimos.",
+                    de: "Maschinelle Lernalgorithmen analysieren chemische Profile und sensorische Bewertungen von Tausenden von Teeproben, um optimale Mischverhältnisse zur Erreichung spezifischer Zielgeschmacksprofile mit minimalen Testchargen vorherzusagen.",
+                    nl: "Machine learning algoritmes analyseren chemische profielen en sensorische evaluaties van duizenden thee monsters om optimale mengsel verhoudingen te voorspellen voor het bereiken van specifieke doel smaakprofielen met minimale test batches."
+                }
+            },
+            {
+                question: {
+                    en: "What emerging extraction technology maximizes catechin recovery while preserving bioactivity?",
+                    es: "¿Qué tecnología de extracción emergente maximiza recuperación de catequinas mientras preserva bioactividad?",
+                    de: "Welche aufkommende Extraktionstechnologie maximiert Catechin-Gewinnung bei Erhaltung der Bioaktivität?",
+                    nl: "Welke opkomende extractie technologie maximaliseert catechine terugwinning terwijl bioactiviteit behouden blijft?"
+                },
+                options: [
+                    {
+                        en: "Pulsed electric field extraction at controlled temperatures",
+                        es: "Extracción por campo eléctrico pulsado a temperaturas controladas",
+                        de: "Gepulste elektrische Feld-Extraktion bei kontrollierten Temperaturen",
+                        nl: "Gepulseerde elektrisch veld extractie bij gecontroleerde temperaturen"
+                    },
+                    {
+                        en: "Boiling tea leaves for extended periods",
+                        es: "Hervir hojas de té durante períodos prolongados",
+                        de: "Teeblätter über längere Zeiträume kochen",
+                        nl: "Thee bladeren koken voor lange perioden"
+                    },
+                    {
+                        en: "Cold water steeping for weeks",
+                        es: "Maceración en agua fría durante semanas",
+                        de: "Kaltwasserziehung über Wochen",
+                        nl: "Koud water trekken voor weken"
+                    },
+                    {
+                        en: "Mechanical grinding followed by filtering",
+                        es: "Molienda mecánica seguida de filtrado",
+                        de: "Mechanisches Mahlen gefolgt von Filtrierung",
+                        nl: "Mechanisch malen gevolgd door filtreren"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Pulsed electric field technology creates temporary pores in cell walls, enabling rapid catechin extraction at low temperatures that preserve antioxidant activity and bioavailability.",
+                    es: "La tecnología de campo eléctrico pulsado crea poros temporales en paredes celulares, permitiendo extracción rápida de catequinas a bajas temperaturas que preservan actividad antioxidante y biodisponibilidad.",
+                    de: "Gepulste elektrische Feld-Technologie erzeugt temporäre Poren in Zellwänden, wodurch schnelle Catechin-Extraktion bei niedrigen Temperaturen ermöglicht wird, die antioxidative Aktivität und Bioverfügbarkeit bewahren.",
+                    nl: "Gepulseerde elektrisch veld technologie creëert tijdelijke poriën in celwanden, snelle catechine extractie bij lage temperaturen mogelijk makend die antioxidant activiteit en biologische beschikbaarheid behouden."
+                }
+            },
+            {
+                question: {
+                    en: "Which advanced fermentation monitoring system ensures consistency in puerh production?",
+                    es: "¿Qué sistema avanzado de monitoreo de fermentación asegura consistencia en producción de puerh?",
+                    de: "Welches fortgeschrittene Fermentationsüberwachungssystem gewährleistet Konsistenz in der Puerh-Produktion?",
+                    nl: "Welk geavanceerd fermentatie monitoring systeem garandeert consistentie in puerh productie?"
+                },
+                options: [
+                    {
+                        en: "Real-time metabolomics tracking with automated environmental adjustments",
+                        es: "Seguimiento metabolómico en tiempo real con ajustes ambientales automatizados",
+                        de: "Echtzeit-Metabolomik-Tracking mit automatisierten Umgebungsanpassungen",
+                        nl: "Real-time metabolomics tracking met geautomatiseerde omgevings aanpassingen"
+                    },
+                    {
+                        en: "Checking temperature once per month manually",
+                        es: "Verificar temperatura una vez al mes manualmente",
+                        de: "Temperatur einmal im Monat manuell prüfen",
+                        nl: "Temperatuur eenmaal per maand handmatig controleren"
+                    },
+                    {
+                        en: "Relying on visual inspection of pile color",
+                        es: "Confiar en inspección visual del color de la pila",
+                        de: "Auf visuelle Inspektion der Haufenfarbe verlassen",
+                        nl: "Vertrouwen op visuele inspectie van stapel kleur"
+                    },
+                    {
+                        en: "Traditional aroma sniffing only",
+                        es: "Solo olfateo tradicional del aroma",
+                        de: "Nur traditionelles Aroma-Riechen",
+                        nl: "Alleen traditioneel aroma ruiken"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Advanced systems use continuous metabolomic analysis to track fermentation biochemistry in real-time, automatically adjusting temperature, humidity, and oxygen levels to maintain optimal conditions for consistent puerh quality.",
+                    es: "Sistemas avanzados usan análisis metabolómico continuo para rastrear bioquímica de fermentación en tiempo real, ajustando automáticamente temperatura, humedad y niveles de oxígeno para mantener condiciones óptimas para calidad consistente de puerh.",
+                    de: "Fortgeschrittene Systeme verwenden kontinuierliche metabolomische Analyse zur Echtzeitverfolgung der Fermentationsbiochemie und passen automatisch Temperatur, Feuchtigkeit und Sauerstoffniveaus an, um optimale Bedingungen für konsistente Puerh-Qualität aufrechtzuerhalten.",
+                    nl: "Geavanceerde systemen gebruiken continue metabolomische analyse om fermentatie biochemie in real-time te volgen, automatisch temperatuur, vochtigheid en zuurstof niveaus aanpassend om optimale condities voor consistente puerh kwaliteit te behouden."
+                }
+            },
+            {
+                question: {
+                    en: "What cutting-edge technique identifies counterfeit premium teas?",
+                    es: "¿Qué técnica de vanguardia identifica tés premium falsificados?",
+                    de: "Welche hochmoderne Technik identifiziert gefälschte Premium-Tees?",
+                    nl: "Welke baanbrekende techniek identificeert vervalste premium theeën?"
+                },
+                options: [
+                    {
+                        en: "Stable isotope ratio analysis combined with elemental fingerprinting",
+                        es: "Análisis de relación de isótopos estables combinado con huella elemental",
+                        de: "Stabile Isotopenverhältnis-Analyse kombiniert mit elementarem Fingerabdruck",
+                        nl: "Stabiele isotoop ratio analyse gecombineerd met elementaire vingerafdruk"
+                    },
+                    {
+                        en: "Checking if the package looks authentic",
+                        es: "Verificar si el paquete parece auténtico",
+                        de: "Prüfen ob die Verpackung authentisch aussieht",
+                        nl: "Controleren of de verpakking authentiek lijkt"
+                    },
+                    {
+                        en: "Comparing prices with average market values",
+                        es: "Comparar precios con valores promedio del mercado",
+                        de: "Preise mit durchschnittlichen Marktwerten vergleichen",
+                        nl: "Prijzen vergelijken met gemiddelde markt waarden"
+                    },
+                    {
+                        en: "Reading seller reviews online",
+                        es: "Leer reseñas de vendedores en línea",
+                        de: "Online-Verkäuferbewertungen lesen",
+                        nl: "Online verkoper beoordelingen lezen"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Stable isotope ratios and trace element profiles create unique regional fingerprints that reveal tea origin with high accuracy, making geographic fraud virtually impossible to conceal.",
+                    es: "Relaciones de isótopos estables y perfiles de elementos traza crean huellas regionales únicas que revelan origen del té con alta precisión, haciendo fraude geográfico virtualmente imposible de ocultar.",
+                    de: "Stabile Isotopenverhältnisse und Spurenelement-Profile schaffen einzigartige regionale Fingerabdrücke, die Tee-Herkunft mit hoher Genauigkeit offenbaren und geografischen Betrug praktisch unmöglich zu verbergen machen.",
+                    nl: "Stabiele isotoop verhoudingen en spoor element profielen creëren unieke regionale vingerafdrukken die thee oorsprong met hoge nauwkeurigheid onthullen, geografische fraude vrijwel onmogelijk te verbergen makend."
+                }
+            },
+            {
+                question: {
+                    en: "Which innovative cultivation practice maximizes secondary metabolite production?",
+                    es: "¿Qué práctica innovadora de cultivo maximiza producción de metabolitos secundarios?",
+                    de: "Welche innovative Anbaupraktik maximiert die Sekundärmetaboliten-Produktion?",
+                    nl: "Welke innovatieve teelt praktijk maximaliseert secundaire metaboliet productie?"
+                },
+                options: [
+                    {
+                        en: "Controlled stress exposure through precision deficit irrigation",
+                        es: "Exposición a estrés controlado a través de riego deficitario de precisión",
+                        de: "Kontrollierte Stressexposition durch Präzisions-Defizit-Bewässerung",
+                        nl: "Gecontroleerde stress blootstelling door precisie deficit irrigatie"
+                    },
+                    {
+                        en: "Constant maximum watering and fertilization",
+                        es: "Riego y fertilización máximos constantes",
+                        de: "Konstante maximale Bewässerung und Düngung",
+                        nl: "Constante maximum bewatering en bemesting"
+                    },
+                    {
+                        en: "Complete drought conditions",
+                        es: "Condiciones de sequía completa",
+                        de: "Vollständige Dürrebedingungen",
+                        nl: "Volledige droogte omstandigheden"
+                    },
+                    {
+                        en: "Random irrigation without monitoring",
+                        es: "Riego aleatorio sin monitoreo",
+                        de: "Zufällige Bewässerung ohne Überwachung",
+                        nl: "Willekeurige irrigatie zonder monitoring"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Controlled water stress triggers defensive metabolite production in tea plants, increasing catechins, L-theanine, and aromatic compounds. Precision irrigation optimizes this stress response without compromising plant health.",
+                    es: "El estrés hídrico controlado desencadena producción de metabolitos defensivos en plantas de té, aumentando catequinas, L-teanina y compuestos aromáticos. Riego de precisión optimiza esta respuesta al estrés sin comprometer salud de la planta.",
+                    de: "Kontrollierter Wasserstress löst defensive Metaboliten-Produktion in Tee-Pflanzen aus und erhöht Catechine, L-Theanin und aromatische Verbindungen. Präzisionsbewässerung optimiert diese Stressreaktion ohne Pflanzengesundheit zu beeinträchtigen.",
+                    nl: "Gecontroleerde water stress triggert defensieve metaboliet productie in thee planten, catechinen, L-theanine en aromatische verbindingen verhogend. Precisie irrigatie optimaliseert deze stress respons zonder plant gezondheid te compromitteren."
+                }
+            },
+            {
+                question: {
+                    en: "What advanced technique extends green tea shelf life without refrigeration?",
+                    es: "¿Qué técnica avanzada extiende vida útil del té verde sin refrigeración?",
+                    de: "Welche fortgeschrittene Technik verlängert die Haltbarkeit von grünem Tee ohne Kühlung?",
+                    nl: "Welke geavanceerde techniek verlengt groene thee houdbaarheid zonder koeling?"
+                },
+                options: [
+                    {
+                        en: "Modified atmosphere packaging with nitrogen flushing",
+                        es: "Empaque de atmósfera modificada con lavado de nitrógeno",
+                        de: "Modifizierte Atmosphären-Verpackung mit Stickstoffspülung",
+                        nl: "Gemodificeerde atmosfeer verpakking met stikstof spoeling"
+                    },
+                    {
+                        en: "Storing in clear glass containers in sunlight",
+                        es: "Almacenar en contenedores de vidrio transparente a la luz solar",
+                        de: "Lagerung in klaren Glasbehältern im Sonnenlicht",
+                        nl: "Opslaan in heldere glazen containers in zonlicht"
+                    },
+                    {
+                        en: "Keeping in open paper bags",
+                        es: "Mantener en bolsas de papel abiertas",
+                        de: "In offenen Papiertüten aufbewahren",
+                        nl: "Bewaren in open papieren zakken"
+                    },
+                    {
+                        en: "Regular plastic wrap at room temperature",
+                        es: "Envoltura de plástico regular a temperatura ambiente",
+                        de: "Normale Plastikfolie bei Raumtemperatur",
+                        nl: "Reguliere plastic wrap bij kamertemperatuur"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Nitrogen flushing removes oxygen before sealing, preventing oxidative degradation of catechins and chlorophyll. This extends green tea freshness for months at room temperature without flavor loss.",
+                    es: "El lavado con nitrógeno elimina oxígeno antes de sellar, previniendo degradación oxidativa de catequinas y clorofila. Esto extiende frescura del té verde por meses a temperatura ambiente sin pérdida de sabor.",
+                    de: "Stickstoffspülung entfernt Sauerstoff vor dem Versiegeln und verhindert oxidative Degradation von Catechinen und Chlorophyll. Dies verlängert Frische von grünem Tee für Monate bei Raumtemperatur ohne Geschmacksverlust.",
+                    nl: "Stikstof spoeling verwijdert zuurstof voor afdichting, oxidatieve degradatie van catechinen en chlorofyl voorkomen. Dit verlengt groene thee versheid voor maanden bij kamertemperatuur zonder smaak verlies."
+                }
+            },
+            {
+                question: {
+                    en: "Which futuristic brewing device uses AI to optimize extraction parameters?",
+                    es: "¿Qué dispositivo futurista de preparación usa IA para optimizar parámetros de extracción?",
+                    de: "Welches futuristische Brühgerät verwendet KI zur Optimierung von Extraktionsparametern?",
+                    nl: "Welk futuristisch zet apparaat gebruikt AI om extractie parameters te optimaliseren?"
+                },
+                options: [
+                    {
+                        en: "Smart brewers with spectroscopic sensors and adaptive algorithms",
+                        es: "Preparadores inteligentes con sensores espectroscópicos y algoritmos adaptativos",
+                        de: "Intelligente Brüher mit spektroskopischen Sensoren und adaptiven Algorithmen",
+                        nl: "Slimme zet apparaten met spectroscopische sensoren en adaptieve algoritmes"
+                    },
+                    {
+                        en: "Traditional ceramic teapots with timers",
+                        es: "Teteras de cerámica tradicionales con temporizadores",
+                        de: "Traditionelle Keramik-Teekannen mit Timern",
+                        nl: "Traditionele keramische theepotten met timers"
+                    },
+                    {
+                        en: "Electric kettles that boil water",
+                        es: "Hervidores eléctricos que hierven agua",
+                        de: "Elektrische Wasserkocher die Wasser kochen",
+                        nl: "Elektrische waterkokers die water koken"
+                    },
+                    {
+                        en: "Manual pourover devices",
+                        es: "Dispositivos manuales de vertido",
+                        de: "Manuelle Pourover-Geräte",
+                        nl: "Handmatige pourover apparaten"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "AI-enabled brewers use inline spectroscopy to analyze extraction in real-time, dynamically adjusting temperature, agitation, and timing to achieve optimal flavor extraction for each specific tea.",
+                    es: "Preparadores habilitados con IA usan espectroscopia en línea para analizar extracción en tiempo real, ajustando dinámicamente temperatura, agitación y tiempo para lograr extracción óptima de sabor para cada té específico.",
+                    de: "KI-fähige Brüher verwenden Inline-Spektroskopie zur Echtzeitanalyse der Extraktion und passen dynamisch Temperatur, Rührung und Timing an, um optimale Geschmacksextraktion für jeden spezifischen Tee zu erreichen.",
+                    nl: "AI-enabled zet apparaten gebruiken inline spectroscopie om extractie in real-time te analyseren, dynamisch temperatuur, agitatie en timing aanpassend om optimale smaak extractie voor elke specifieke thee te bereiken."
+                }
+            },
+            {
+                question: {
+                    en: "What advanced roasting technique creates complex aroma development in oolongs?",
+                    es: "¿Qué técnica avanzada de tostado crea desarrollo complejo de aroma en oolongs?",
+                    de: "Welche fortgeschrittene Rösttechnik erzeugt komplexe Aromaentwicklung in Oolongs?",
+                    nl: "Welke geavanceerde rooster techniek creëert complexe aroma ontwikkeling in oolongs?"
+                },
+                options: [
+                    {
+                        en: "Multi-stage roasting with varying temperatures and durations",
+                        es: "Tostado multietapa con temperaturas y duraciones variables",
+                        de: "Mehrstufiges Rösten mit variierenden Temperaturen und Dauern",
+                        nl: "Multi-fase roosteren met variërende temperaturen en duur"
+                    },
+                    {
+                        en: "Single high-temperature roast only",
+                        es: "Solo tostado único a alta temperatura",
+                        de: "Nur einstufige Hochtemperatur-Röstung",
+                        nl: "Alleen enkele hoge temperatuur roost"
+                    },
+                    {
+                        en: "No roasting at all",
+                        es: "Sin tostado en absoluto",
+                        de: "Überhaupt kein Rösten",
+                        nl: "Helemaal geen roosteren"
+                    },
+                    {
+                        en: "Continuous roasting for 24 hours",
+                        es: "Tostado continuo durante 24 horas",
+                        de: "Kontinuierliches Rösten für 24 Stunden",
+                        nl: "Continue roosteren voor 24 uur"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Master roasters use multiple roasting stages at different temperatures to develop layered aromas through Maillard reactions, caramelization, and controlled pyrolysis, creating complex flavor profiles impossible through single-stage roasting.",
+                    es: "Maestros tostadores usan múltiples etapas de tostado a diferentes temperaturas para desarrollar aromas estratificados a través de reacciones de Maillard, caramelización y pirólisis controlada, creando perfiles de sabor complejos imposibles a través de tostado de una sola etapa.",
+                    de: "Meisterröster verwenden mehrere Röststufen bei verschiedenen Temperaturen zur Entwicklung geschichteter Aromen durch Maillard-Reaktionen, Karamellisierung und kontrollierte Pyrolyse, wodurch komplexe Geschmacksprofile entstehen, die durch einstufiges Rösten unmöglich sind.",
+                    nl: "Meester roosters gebruiken meerdere rooster fasen bij verschillende temperaturen om gelaagde aroma's te ontwikkelen door Maillard reacties, karamelisatie en gecontroleerde pyrolyse, complexe smaakprofielen creërend die onmogelijk zijn door enkele-fase roosteren."
+                }
+            },
+            {
+                question: {
+                    en: "Which emerging technology enables personalized tea recommendations?",
+                    es: "¿Qué tecnología emergente permite recomendaciones personalizadas de té?",
+                    de: "Welche aufkommende Technologie ermöglicht personalisierte Tee-Empfehlungen?",
+                    nl: "Welke opkomende technologie maakt gepersonaliseerde thee aanbevelingen mogelijk?"
+                },
+                options: [
+                    {
+                        en: "Genetic taste profiling combined with preference learning algorithms",
+                        es: "Perfilado de gusto genético combinado con algoritmos de aprendizaje de preferencias",
+                        de: "Genetisches Geschmacksprofiling kombiniert mit Präferenz-Lernalgorithmen",
+                        nl: "Genetische smaak profilering gecombineerd met voorkeur leer algoritmes"
+                    },
+                    {
+                        en: "Asking customers their favorite color",
+                        es: "Preguntar a clientes su color favorito",
+                        de: "Kunden nach ihrer Lieblingsfarbe fragen",
+                        nl: "Klanten vragen naar hun favoriete kleur"
+                    },
+                    {
+                        en: "Random selection from available teas",
+                        es: "Selección aleatoria de tés disponibles",
+                        de: "Zufällige Auswahl aus verfügbaren Tees",
+                        nl: "Willekeurige selectie uit beschikbare theeën"
+                    },
+                    {
+                        en: "Only recommending the most expensive teas",
+                        es: "Solo recomendar los tés más caros",
+                        de: "Nur die teuersten Tees empfehlen",
+                        nl: "Alleen de duurste theeën aanbevelen"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Genetic analysis of taste receptor variants (TAS2R, TAS1R) combined with machine learning on user feedback creates highly personalized tea recommendations based on individual taste sensitivities and preferences.",
+                    es: "Análisis genético de variantes de receptores de gusto (TAS2R, TAS1R) combinado con aprendizaje automático sobre retroalimentación de usuarios crea recomendaciones de té altamente personalizadas basadas en sensibilidades y preferencias de gusto individuales.",
+                    de: "Genetische Analyse von Geschmacksrezeptor-Varianten (TAS2R, TAS1R) kombiniert mit maschinellem Lernen über Nutzerfeedback schafft hochgradig personalisierte Tee-Empfehlungen basierend auf individuellen Geschmacksempfindlichkeiten und Präferenzen.",
+                    nl: "Genetische analyse van smaak receptor varianten (TAS2R, TAS1R) gecombineerd met machine learning op gebruikers feedback creëert zeer gepersonaliseerde thee aanbevelingen gebaseerd op individuele smaak gevoeligheden en voorkeuren."
+                }
+            },
+            {
+                question: {
+                    en: "What innovative processing creates tea with enhanced health benefits?",
+                    es: "¿Qué procesamiento innovador crea té con beneficios de salud mejorados?",
+                    de: "Welche innovative Verarbeitung erzeugt Tee mit verbesserten Gesundheitsvorteilen?",
+                    nl: "Welke innovatieve verwerking creëert thee met verbeterde gezondheids voordelen?"
+                },
+                options: [
+                    {
+                        en: "Biofermentation with probiotic cultures to enhance polyphenol bioavailability",
+                        es: "Biofermentación con cultivos probióticos para mejorar biodisponibilidad de polifenoles",
+                        de: "Biofermentation mit probiotischen Kulturen zur Verbesserung der Polyphenol-Bioverfügbarkeit",
+                        nl: "Biofermentatie met probiotische culturen om polyfenol biologische beschikbaarheid te verbeteren"
+                    },
+                    {
+                        en: "Adding synthetic vitamins to dried leaves",
+                        es: "Agregar vitaminas sintéticas a hojas secas",
+                        de: "Synthetische Vitamine zu getrockneten Blättern hinzufügen",
+                        nl: "Synthetische vitamines toevoegen aan gedroogde bladeren"
+                    },
+                    {
+                        en: "Mixing tea with sugar for energy",
+                        es: "Mezclar té con azúcar para energía",
+                        de: "Tee mit Zucker für Energie mischen",
+                        nl: "Thee mengen met suiker voor energie"
+                    },
+                    {
+                        en: "Processing at maximum heat to sterilize",
+                        es: "Procesar a calor máximo para esterilizar",
+                        de: "Bei maximaler Hitze verarbeiten zur Sterilisation",
+                        nl: "Verwerken bij maximale hitte om te steriliseren"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Biofermentation with specific probiotic strains converts complex polyphenols into more bioavailable forms while adding beneficial bacteria, creating synergistic health benefits beyond traditional tea.",
+                    es: "La biofermentación con cepas probióticas específicas convierte polifenoles complejos en formas más biodisponibles mientras agrega bacterias beneficiosas, creando beneficios sinérgicos para la salud más allá del té tradicional.",
+                    de: "Biofermentation mit spezifischen probiotischen Stämmen wandelt komplexe Polyphenole in bioverfügbarere Formen um und fügt nützliche Bakterien hinzu, wodurch synergistische Gesundheitsvorteile über traditionellen Tee hinaus entstehen.",
+                    nl: "Biofermentatie met specifieke probiotische stammen converteert complexe polyfenolen naar meer biologisch beschikbare vormen terwijl nuttige bacteriën toegevoegd worden, synergistische gezondheids voordelen creërend voorbij traditionele thee."
+                }
+            },
+            {
+                question: {
+                    en: "Which advanced quality control system detects contamination in real-time?",
+                    es: "¿Qué sistema avanzado de control de calidad detecta contaminación en tiempo real?",
+                    de: "Welches fortgeschrittene Qualitätskontrollsystem erkennt Kontamination in Echtzeit?",
+                    nl: "Welk geavanceerd kwaliteit controle systeem detecteert contaminatie in real-time?"
+                },
+                options: [
+                    {
+                        en: "Hyperspectral imaging with rapid mycotoxin and pesticide detection",
+                        es: "Imágenes hiperespectrales con detección rápida de micotoxinas y pesticidas",
+                        de: "Hyperspektrale Bildgebung mit schneller Mykotoxin- und Pestizid-Detektion",
+                        nl: "Hyperspectrale beeldvorming met snelle mycotoxine en pesticide detectie"
+                    },
+                    {
+                        en: "Visual inspection once per year",
+                        es: "Inspección visual una vez al año",
+                        de: "Visuelle Inspektion einmal im Jahr",
+                        nl: "Visuele inspectie eenmaal per jaar"
+                    },
+                    {
+                        en: "Smell testing by untrained workers",
+                        es: "Prueba de olor por trabajadores no entrenados",
+                        de: "Geruchstests durch ungeschulte Arbeiter",
+                        nl: "Geur testen door ongetrainde werkers"
+                    },
+                    {
+                        en: "Waiting for customer complaints",
+                        es: "Esperar quejas de clientes",
+                        de: "Auf Kundenbeschwerden warten",
+                        nl: "Wachten op klanten klachten"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Hyperspectral imaging systems analyze reflected light across hundreds of wavelengths to detect chemical signatures of contaminants, enabling non-destructive, real-time quality screening of entire production batches.",
+                    es: "Sistemas de imágenes hiperespectrales analizan luz reflejada a través de cientos de longitudes de onda para detectar firmas químicas de contaminantes, permitiendo detección no destructiva en tiempo real de calidad de lotes completos de producción.",
+                    de: "Hyperspektrale Bildgebungssysteme analysieren reflektiertes Licht über Hunderte von Wellenlängen, um chemische Signaturen von Kontaminanten zu erkennen und ermöglichen zerstörungsfreie Echtzeit-Qualitätsprüfung ganzer Produktionschargen.",
+                    nl: "Hyperspectrale beeldvorming systemen analyseren gereflecteerd licht over honderden golflengtes om chemische handtekeningen van contaminanten te detecteren, niet-destructieve, real-time kwaliteit screening van volledige productie batches mogelijk makend."
+                }
+            },
+            {
+                question: {
+                    en: "What experimental drying method preserves maximum enzymatic activity for later fermentation?",
+                    es: "¿Qué método experimental de secado preserva máxima actividad enzimática para fermentación posterior?",
+                    de: "Welche experimentelle Trocknungsmethode erhält maximale enzymatische Aktivität für spätere Fermentation?",
+                    nl: "Welke experimentele droog methode bewaart maximale enzymatische activiteit voor latere fermentatie?"
+                },
+                options: [
+                    {
+                        en: "Infrared-assisted low-temperature drying with moisture monitoring",
+                        es: "Secado a baja temperatura asistido por infrarrojos con monitoreo de humedad",
+                        de: "Infrarot-unterstützte Niedertemperaturtrocknung mit Feuchtigkeitsüberwachung",
+                        nl: "Infrarood-ondersteunde lage temperatuur droging met vocht monitoring"
+                    },
+                    {
+                        en: "Extended sun-drying for multiple days",
+                        es: "Secado solar extendido durante múltiples días",
+                        de: "Verlängerte Sonnentrocknung über mehrere Tage",
+                        nl: "Verlengde zonnedroog voor meerdere dagen"
+                    },
+                    {
+                        en: "High-heat industrial ovens",
+                        es: "Hornos industriales de alto calor",
+                        de: "Hochtemperatur-Industrieöfen",
+                        nl: "Hoge-hitte industriële ovens"
+                    },
+                    {
+                        en: "Microwave drying at maximum power",
+                        es: "Secado por microondas a potencia máxima",
+                        de: "Mikrowellentrocknung bei maximaler Leistung",
+                        nl: "Magnetron droging bij maximum vermogen"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Infrared drying at precisely controlled low temperatures (<40°C) preserves enzyme structures while removing moisture, enabling storage of enzymatically active tea that can be reactivated for controlled fermentation.",
+                    es: "Secado por infrarrojos a temperaturas bajas controladas con precisión (<40°C) preserva estructuras enzimáticas mientras elimina humedad, permitiendo almacenamiento de té enzimáticamente activo que puede reactivarse para fermentación controlada.",
+                    de: "Infrarottrocknung bei präzise kontrollierten niedrigen Temperaturen (<40°C) erhält Enzymstrukturen bei gleichzeitiger Feuchtigkeitsentfernung und ermöglicht Lagerung enzymatisch aktiven Tees, der für kontrollierte Fermentation reaktiviert werden kann.",
+                    nl: "Infrarood droging bij precies gecontroleerde lage temperaturen (<40°C) bewaart enzym structuren terwijl vocht verwijderd wordt, opslag van enzymatisch actieve thee mogelijk makend die gereactiveerd kan worden voor gecontroleerde fermentatie."
+                }
+            },
+            {
+                question: {
+                    en: "Which futuristic cultivation system enables year-round production of high-quality tea?",
+                    es: "¿Qué sistema futurista de cultivo permite producción durante todo el año de té de alta calidad?",
+                    de: "Welches futuristische Anbausystem ermöglicht ganzjährige Produktion von hochwertigem Tee?",
+                    nl: "Welk futuristisch teelt systeem maakt jaar-rond productie van hoge kwaliteit thee mogelijk?"
+                },
+                options: [
+                    {
+                        en: "Vertical hydroponic farms with LED spectrum optimization",
+                        es: "Granjas hidropónicas verticales con optimización del espectro LED",
+                        de: "Vertikale hydroponische Farmen mit LED-Spektrum-Optimierung",
+                        nl: "Verticale hydroponische boerderijen met LED spectrum optimalisatie"
+                    },
+                    {
+                        en: "Traditional outdoor fields only",
+                        es: "Solo campos tradicionales al aire libre",
+                        de: "Nur traditionelle Außenfelder",
+                        nl: "Alleen traditionele buiten velden"
+                    },
+                    {
+                        en: "Greenhouses with no climate control",
+                        es: "Invernaderos sin control climático",
+                        de: "Gewächshäuser ohne Klimakontrolle",
+                        nl: "Broeikassen zonder klimaat controle"
+                    },
+                    {
+                        en: "Wild harvesting from forests",
+                        es: "Cosecha silvestre de bosques",
+                        de: "Wildernte aus Wäldern",
+                        nl: "Wilde oogst uit bossen"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Vertical hydroponic systems enable precise control of light spectrum, nutrients, and environment, producing consistent high-quality tea year-round regardless of climate while using 95% less water than traditional cultivation.",
+                    es: "Sistemas hidropónicos verticales permiten control preciso del espectro de luz, nutrientes y ambiente, produciendo té de alta calidad consistente durante todo el año independientemente del clima mientras usan 95% menos agua que cultivo tradicional.",
+                    de: "Vertikale hydroponische Systeme ermöglichen präzise Kontrolle von Lichtspektrum, Nährstoffen und Umgebung, produzieren ganzjährig konsistenten hochwertigen Tee unabhängig vom Klima bei 95% weniger Wasserverbrauch als traditioneller Anbau.",
+                    nl: "Verticale hydroponische systemen maken precieze controle van licht spectrum, voedingsstoffen en omgeving mogelijk, consistente hoge kwaliteit thee jaar-rond producerend ongeacht klimaat terwijl 95% minder water gebruikt wordt dan traditionele teelt."
+                }
+            },
+            {
+                question: {
+                    en: "What cutting-edge technique maps tea flavor evolution during aging?",
+                    es: "¿Qué técnica de vanguardia mapea evolución del sabor del té durante envejecimiento?",
+                    de: "Welche hochmoderne Technik kartiert Tee-Geschmacksentwicklung während der Alterung?",
+                    nl: "Welke baanbrekende techniek brengt thee smaak evolutie in kaart tijdens rijping?"
+                },
+                options: [
+                    {
+                        en: "Time-resolved mass spectrometry tracking compound transformations",
+                        es: "Espectrometría de masas resuelta en el tiempo rastreando transformaciones de compuestos",
+                        de: "Zeitaufgelöste Massenspektrometrie zur Verfolgung von Verbindungstransformationen",
+                        nl: "Tijd-opgeloste massa spectrometrie die verbinding transformaties volgt"
+                    },
+                    {
+                        en: "Tasting samples once every decade",
+                        es: "Degustar muestras una vez cada década",
+                        de: "Proben einmal pro Jahrzehnt verkosten",
+                        nl: "Monsters proeven eenmaal per decennium"
+                    },
+                    {
+                        en: "Comparing color changes visually",
+                        es: "Comparar cambios de color visualmente",
+                        de: "Farbveränderungen visuell vergleichen",
+                        nl: "Kleur veranderingen visueel vergelijken"
+                    },
+                    {
+                        en: "Recording storage temperature only",
+                        es: "Registrar solo temperatura de almacenamiento",
+                        de: "Nur Lagertemperatur aufzeichnen",
+                        nl: "Alleen opslag temperatuur vastleggen"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Time-resolved mass spectrometry enables continuous monitoring of chemical transformations during aging, revealing how specific compounds convert into new flavor molecules and predicting optimal aging endpoints.",
+                    es: "Espectrometría de masas resuelta en el tiempo permite monitoreo continuo de transformaciones químicas durante envejecimiento, revelando cómo compuestos específicos se convierten en nuevas moléculas de sabor y prediciendo puntos finales óptimos de envejecimiento.",
+                    de: "Zeitaufgelöste Massenspektrometrie ermöglicht kontinuierliche Überwachung chemischer Transformationen während der Alterung und zeigt, wie sich spezifische Verbindungen in neue Geschmacksmoleküle umwandeln und optimale Alterungsendpunkte vorhersagen.",
+                    nl: "Tijd-opgeloste massa spectrometrie maakt continue monitoring van chemische transformaties tijdens rijping mogelijk, onthullend hoe specifieke verbindingen converteren naar nieuwe smaak moleculen en optimale rijping eindpunten voorspellend."
+                }
+            },
+            {
+                question: {
+                    en: "Which innovative packaging provides interactive consumer education?",
+                    es: "¿Qué empaque innovador proporciona educación interactiva al consumidor?",
+                    de: "Welche innovative Verpackung bietet interaktive Verbraucherbildung?",
+                    nl: "Welke innovatieve verpakking biedt interactieve consument educatie?"
+                },
+                options: [
+                    {
+                        en: "NFC-enabled smart labels with AR brewing guides and origin stories",
+                        es: "Etiquetas inteligentes habilitadas con NFC con guías de preparación AR e historias de origen",
+                        de: "NFC-fähige intelligente Etiketten mit AR-Brühanleitungen und Herkunftsgeschichten",
+                        nl: "NFC-enabled slimme labels met AR zet gidsen en oorsprongs verhalen"
+                    },
+                    {
+                        en: "Plain paper labels with no information",
+                        es: "Etiquetas de papel simple sin información",
+                        de: "Einfache Papieretiketten ohne Informationen",
+                        nl: "Eenvoudige papieren labels zonder informatie"
+                    },
+                    {
+                        en: "Handwritten notes on bags",
+                        es: "Notas manuscritas en bolsas",
+                        de: "Handgeschriebene Notizen auf Tüten",
+                        nl: "Handgeschreven notities op zakken"
+                    },
+                    {
+                        en: "Unlabeled containers",
+                        es: "Contenedores sin etiquetar",
+                        de: "Unbeschriftete Behälter",
+                        nl: "Ongelabelde containers"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "NFC smart labels enable smartphone interaction, providing augmented reality brewing instructions, virtual garden tours, producer videos, and blockchain-verified origin information for enhanced consumer engagement and education.",
+                    es: "Etiquetas inteligentes NFC permiten interacción con smartphone, proporcionando instrucciones de preparación en realidad aumentada, tours virtuales de jardines, videos de productores e información de origen verificada con blockchain para mayor compromiso y educación del consumidor.",
+                    de: "NFC-Smart-Labels ermöglichen Smartphone-Interaktion und bieten Augmented-Reality-Brühanleitungen, virtuelle Gartentouren, Produzenten-Videos und Blockchain-verifizierte Herkunftsinformationen für verbesserte Verbraucher-Engagement und -Bildung.",
+                    nl: "NFC slimme labels maken smartphone interactie mogelijk, augmented reality zet instructies, virtuele tuin tours, producent video's en blockchain-geverifieerde oorsprong informatie biedend voor verbeterde consument betrokkenheid en educatie."
+                }
+            },
+            {
+                question: {
+                    en: "What advanced photobioreactor system optimizes catechin production?",
+                    es: "¿Qué sistema avanzado de fotobiorreactor optimiza producción de catequinas?",
+                    de: "Welches fortgeschrittene Photobioreaktor-System optimiert Catechin-Produktion?",
+                    nl: "Welk geavanceerd photobioreactor systeem optimaliseert catechine productie?"
+                },
+                options: [
+                    {
+                        en: "LED arrays programmed to mimic optimal solar spectrum wavelengths",
+                        es: "Matrices LED programadas para imitar longitudes de onda óptimas del espectro solar",
+                        de: "LED-Arrays programmiert zur Nachahmung optimaler Sonnenspektrum-Wellenlängen",
+                        nl: "LED arrays geprogrammeerd om optimale zonnespectrumgolflengtes na te bootsen"
+                    },
+                    {
+                        en: "Random lighting schedules",
+                        es: "Horarios de iluminación aleatorios",
+                        de: "Zufällige Beleuchtungspläne",
+                        nl: "Willekeurige verlichtings schema's"
+                    },
+                    {
+                        en: "Constant darkness to preserve energy",
+                        es: "Oscuridad constante para preservar energía",
+                        de: "Konstante Dunkelheit zur Energieeinsparung",
+                        nl: "Constante duisternis om energie te behouden"
+                    },
+                    {
+                        en: "Only natural sunlight through windows",
+                        es: "Solo luz solar natural a través de ventanas",
+                        de: "Nur natürliches Sonnenlicht durch Fenster",
+                        nl: "Alleen natuurlijk zonlicht door ramen"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Advanced photobioreactors use programmable LED arrays that emit specific wavelengths proven to maximize catechin biosynthesis pathways, increasing beneficial compounds by 40-60% compared to traditional cultivation.",
+                    es: "Fotobiorreactores avanzados usan matrices LED programables que emiten longitudes de onda específicas probadas para maximizar vías de biosíntesis de catequinas, aumentando compuestos beneficiosos en 40-60% comparado con cultivo tradicional.",
+                    de: "Fortgeschrittene Photobioreaktoren verwenden programmierbare LED-Arrays, die spezifische Wellenlängen emittieren, die nachweislich Catechin-Biosynthese-Wege maximieren und vorteilhafte Verbindungen um 40-60% im Vergleich zu traditionellem Anbau erhöhen.",
+                    nl: "Geavanceerde photobioreactors gebruiken programmeerbare LED arrays die specifieke golflengtes uitzenden waarvan bewezen is dat ze catechine biosynthese routes maximaliseren, gunstige verbindingen verhogend met 40-60% vergeleken met traditionele teelt."
+                }
+            },
+            {
+                question: {
+                    en: "Which nano-material application improves tea packaging sustainability?",
+                    es: "¿Qué aplicación de nanomaterial mejora sostenibilidad del empaque de té?",
+                    de: "Welche Nanomaterial-Anwendung verbessert Nachhaltigkeit von Tee-Verpackungen?",
+                    nl: "Welke nanomateriaal toepassing verbetert thee verpakking duurzaamheid?"
+                },
+                options: [
+                    {
+                        en: "Biodegradable cellulose nanofibers with barrier properties",
+                        es: "Nanofibras de celulosa biodegradables con propiedades de barrera",
+                        de: "Biologisch abbaubare Zellulose-Nanofasern mit Barriereeigenschaften",
+                        nl: "Biologisch afbreekbare cellulose nanovezels met barrière eigenschappen"
+                    },
+                    {
+                        en: "Traditional plastic films only",
+                        es: "Solo películas plásticas tradicionales",
+                        de: "Nur traditionelle Plastikfolien",
+                        nl: "Alleen traditionele plastic films"
+                    },
+                    {
+                        en: "Thick metal containers",
+                        es: "Contenedores de metal gruesos",
+                        de: "Dicke Metallbehälter",
+                        nl: "Dikke metalen containers"
+                    },
+                    {
+                        en: "Non-recyclable composites",
+                        es: "Compuestos no reciclables",
+                        de: "Nicht recycelbare Verbundwerkstoffe",
+                        nl: "Niet-recycleerbare composieten"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Cellulose nanofibers create biodegradable films with oxygen and moisture barrier properties comparable to plastic, offering sustainable packaging that decomposes naturally while maintaining tea freshness.",
+                    es: "Nanofibras de celulosa crean películas biodegradables con propiedades de barrera de oxígeno y humedad comparables al plástico, ofreciendo empaque sostenible que se descompone naturalmente mientras mantiene frescura del té.",
+                    de: "Zellulose-Nanofasern schaffen biologisch abbaubare Filme mit Sauerstoff- und Feuchtigkeitsbarriere-Eigenschaften vergleichbar mit Plastik und bieten nachhaltige Verpackung, die natürlich zersetzt wird und gleichzeitig Tee-Frische erhält.",
+                    nl: "Cellulose nanovezels creëren biologisch afbreekbare films met zuurstof en vocht barrière eigenschappen vergelijkbaar met plastic, duurzame verpakking biedend die natuurlijk afbreekt terwijl thee versheid behouden blijft."
+                }
+            },
+            {
+                question: {
+                    en: "What computational fluid dynamics application optimizes withering airflow?",
+                    es: "¿Qué aplicación de dinámica de fluidos computacional optimiza flujo de aire de marchitamiento?",
+                    de: "Welche rechnerische Strömungsdynamik-Anwendung optimiert Welk-Luftstrom?",
+                    nl: "Welke computational fluid dynamics toepassing optimaliseert verwelkings luchtstroom?"
+                },
+                options: [
+                    {
+                        en: "CFD modeling predicting optimal airflow patterns for uniform moisture removal",
+                        es: "Modelado CFD prediciendo patrones óptimos de flujo de aire para eliminación uniforme de humedad",
+                        de: "CFD-Modellierung zur Vorhersage optimaler Luftstrommuster für gleichmäßige Feuchtigkeitsentfernung",
+                        nl: "CFD modellering die optimale luchtstroom patronen voorspelt voor uniforme vocht verwijdering"
+                    },
+                    {
+                        en: "Random fan placement without analysis",
+                        es: "Colocación aleatoria de ventiladores sin análisis",
+                        de: "Zufällige Ventilatorplatzierung ohne Analyse",
+                        nl: "Willekeurige ventilator plaatsing zonder analyse"
+                    },
+                    {
+                        en: "Natural air movement only",
+                        es: "Solo movimiento de aire natural",
+                        de: "Nur natürliche Luftbewegung",
+                        nl: "Alleen natuurlijke lucht beweging"
+                    },
+                    {
+                        en: "Traditional trial and error positioning",
+                        es: "Posicionamiento tradicional de prueba y error",
+                        de: "Traditionelle Versuch-und-Irrtum-Positionierung",
+                        nl: "Traditionele trial and error positionering"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "CFD simulations model complex airflow patterns during withering, enabling optimal fan placement and settings that ensure uniform moisture reduction across all leaf layers, improving quality consistency.",
+                    es: "Simulaciones CFD modelan patrones complejos de flujo de aire durante marchitamiento, permitiendo colocación y configuración óptimas de ventiladores que aseguran reducción uniforme de humedad a través de todas las capas de hojas, mejorando consistencia de calidad.",
+                    de: "CFD-Simulationen modellieren komplexe Luftstrommuster während des Welkens und ermöglichen optimale Ventilatorplatzierung und -einstellungen, die gleichmäßige Feuchtigkeitsreduzierung über alle Blattschichten gewährleisten und Qualitätskonsistenz verbessern.",
+                    nl: "CFD simulaties modelleren complexe luchtstroom patronen tijdens verwelking, optimale ventilator plaatsing en instellingen mogelijk makend die uniforme vocht reductie over alle blad lagen garanderen, kwaliteit consistentie verbeterend."
+                }
+            },
+            {
+                question: {
+                    en: "Which enzyme inhibition technique prevents over-oxidation in premium oolongs?",
+                    es: "¿Qué técnica de inhibición enzimática previene sobre-oxidación en oolongs premium?",
+                    de: "Welche Enzymhemmungs-Technik verhindert Über-Oxidation in Premium-Oolongs?",
+                    nl: "Welke enzym inhibitie techniek voorkomt over-oxidatie in premium oolongs?"
+                },
+                options: [
+                    {
+                        en: "Rapid heating with precise temperature ramps halting polyphenol oxidase",
+                        es: "Calentamiento rápido con rampas de temperatura precisas deteniendo polifenol oxidasa",
+                        de: "Schnelle Erhitzung mit präzisen Temperaturrampen zum Stoppen von Polyphenoloxidase",
+                        nl: "Snelle verwarming met precieze temperatuur hellingen die polyfenol oxidase stoppen"
+                    },
+                    {
+                        en: "Slow gradual temperature increases",
+                        es: "Aumentos graduales lentos de temperatura",
+                        de: "Langsame graduelle Temperaturerhöhungen",
+                        nl: "Langzame geleidelijke temperatuur verhogingen"
+                    },
+                    {
+                        en: "Cooling leaves to freeze them",
+                        es: "Enfriar hojas para congelarlas",
+                        de: "Blätter zum Einfrieren abkühlen",
+                        nl: "Bladeren afkoelen om ze te bevriezen"
+                    },
+                    {
+                        en: "Adding chemical preservatives",
+                        es: "Agregar conservantes químicos",
+                        de: "Chemische Konservierungsstoffe hinzufügen",
+                        nl: "Chemische bewaarmiddelen toevoegen"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Premium oolong production requires precise heat application at critical moments to denature polyphenol oxidase enzymes, halting oxidation at exactly the desired level to preserve the tea's characteristic flavor profile.",
+                    es: "Producción de oolong premium requiere aplicación precisa de calor en momentos críticos para desnaturalizar enzimas polifenol oxidasa, deteniendo oxidación exactamente al nivel deseado para preservar perfil de sabor característico del té.",
+                    de: "Premium-Oolong-Produktion erfordert präzise Wärmeanwendung in kritischen Momenten zur Denaturierung von Polyphenoloxidase-Enzymen, wodurch Oxidation genau auf dem gewünschten Niveau gestoppt wird, um das charakteristische Geschmacksprofil des Tees zu bewahren.",
+                    nl: "Premium oolong productie vereist precieze warmte toepassing op kritieke momenten om polyfenol oxidase enzymen te denatureren, oxidatie stoppend op exact het gewenste niveau om het karakteristieke smaakprofiel van de thee te behouden."
+                }
+            },
+            {
+                question: {
+                    en: "What biosensor technology enables real-time L-theanine monitoring during processing?",
+                    es: "¿Qué tecnología de biosensor permite monitoreo en tiempo real de L-teanina durante procesamiento?",
+                    de: "Welche Biosensor-Technologie ermöglicht Echtzeit-L-Theanin-Überwachung während der Verarbeitung?",
+                    nl: "Welke biosensor technologie maakt real-time L-theanine monitoring mogelijk tijdens verwerking?"
+                },
+                options: [
+                    {
+                        en: "Electrochemical biosensors with glutamate dehydrogenase immobilization",
+                        es: "Biosensores electroquímicos con inmovilización de glutamato deshidrogenasa",
+                        de: "Elektrochemische Biosensoren mit Glutamat-Dehydrogenase-Immobilisierung",
+                        nl: "Elektrochemische biosensoren met glutamaat dehydrogenase immobilisatie"
+                    },
+                    {
+                        en: "Visual observation of leaf color",
+                        es: "Observación visual del color de las hojas",
+                        de: "Visuelle Beobachtung der Blattfarbe",
+                        nl: "Visuele observatie van blad kleur"
+                    },
+                    {
+                        en: "Taste testing by processors",
+                        es: "Prueba de sabor por procesadores",
+                        de: "Geschmackstests durch Verarbeiter",
+                        nl: "Smaak testen door verwerkers"
+                    },
+                    {
+                        en: "Laboratory analysis after processing",
+                        es: "Análisis de laboratorio después del procesamiento",
+                        de: "Laboranalyse nach der Verarbeitung",
+                        nl: "Laboratorium analyse na verwerking"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Electrochemical biosensors with immobilized enzymes provide continuous, real-time L-theanine quantification, allowing processors to adjust parameters immediately to maximize this valued amino acid during production.",
+                    es: "Biosensores electroquímicos con enzimas inmovilizadas proporcionan cuantificación continua en tiempo real de L-teanina, permitiendo a procesadores ajustar parámetros inmediatamente para maximizar este aminoácido valorado durante producción.",
+                    de: "Elektrochemische Biosensoren mit immobilisierten Enzymen bieten kontinuierliche Echtzeit-L-Theanin-Quantifizierung und ermöglichen Verarbeitern sofortige Parameteranpassungen zur Maximierung dieser wertvollen Aminosäure während der Produktion.",
+                    nl: "Elektrochemische biosensoren met geïmmobiliseerde enzymen bieden continue, real-time L-theanine kwantificatie, verwerkers in staat stellend parameters onmiddellijk aan te passen om dit gewaardeerde aminozuur tijdens productie te maximaliseren."
+                }
+            },
+            {
+                question: {
+                    en: "Which microencapsulation technique protects volatile tea aromatics during storage?",
+                    es: "¿Qué técnica de microencapsulación protege aromáticos volátiles del té durante almacenamiento?",
+                    de: "Welche Mikroverkapselungstechnik schützt flüchtige Tee-Aromastoffe während der Lagerung?",
+                    nl: "Welke microencapsulatie techniek beschermt vluchtige thee aromaten tijdens opslag?"
+                },
+                options: [
+                    {
+                        en: "Spray-drying with maltodextrin matrices for controlled release",
+                        es: "Secado por aspersión con matrices de maltodextrina para liberación controlada",
+                        de: "Sprühtrocknung mit Maltodextrin-Matrizen für kontrollierte Freisetzung",
+                        nl: "Spray-drogen met maltodextrine matrices voor gecontroleerde afgifte"
+                    },
+                    {
+                        en: "Storing tea in open containers",
+                        es: "Almacenar té en contenedores abiertos",
+                        de: "Tee in offenen Behältern lagern",
+                        nl: "Thee opslaan in open containers"
+                    },
+                    {
+                        en: "Exposing tea to air regularly",
+                        es: "Exponer té al aire regularmente",
+                        de: "Tee regelmäßig Luft aussetzen",
+                        nl: "Thee regelmatig blootstellen aan lucht"
+                    },
+                    {
+                        en: "Using no protective measures",
+                        es: "Usar ninguna medida protectora",
+                        de: "Keine Schutzmaßnahmen verwenden",
+                        nl: "Geen beschermende maatregelen gebruiken"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Spray-drying microencapsulation traps volatile aromatics within protective maltodextrin matrices that release compounds only upon contact with hot water, preserving fresh tea aroma indefinitely during storage.",
+                    es: "Microencapsulación por secado por aspersión atrapa aromáticos volátiles dentro de matrices protectoras de maltodextrina que liberan compuestos solo al contacto con agua caliente, preservando aroma fresco del té indefinidamente durante almacenamiento.",
+                    de: "Sprühtrocknung-Mikroverkapselung fängt flüchtige Aromastoffe in schützenden Maltodextrin-Matrizen ein, die Verbindungen nur bei Kontakt mit heißem Wasser freisetzen und frisches Tee-Aroma während der Lagerung unbegrenzt bewahren.",
+                    nl: "Spray-drogen microencapsulatie vangt vluchtige aromaten in beschermende maltodextrine matrices die verbindingen alleen vrijgeven bij contact met heet water, verse thee aroma onbeperkt bewarend tijdens opslag."
+                }
+            },
+            {
+                question: {
+                    en: "What advanced fermentation control uses metabolic flux analysis?",
+                    es: "¿Qué control avanzado de fermentación usa análisis de flujo metabólico?",
+                    de: "Welche fortgeschrittene Fermentationskontrolle verwendet metabolische Flussanalyse?",
+                    nl: "Welke geavanceerde fermentatie controle gebruikt metabolische flux analyse?"
+                },
+                options: [
+                    {
+                        en: "Tracking biochemical pathway rates to optimize flavor compound production",
+                        es: "Rastrear tasas de vías bioquímicas para optimizar producción de compuestos de sabor",
+                        de: "Verfolgung biochemischer Weggeschwindigkeiten zur Optimierung der Geschmacksverbindungsproduktion",
+                        nl: "Biochemische route snelheden volgen om smaak verbinding productie te optimaliseren"
+                    },
+                    {
+                        en: "Guessing when fermentation is complete",
+                        es: "Adivinar cuándo fermentación está completa",
+                        de: "Raten wann Fermentation abgeschlossen ist",
+                        nl: "Gissen wanneer fermentatie compleet is"
+                    },
+                    {
+                        en: "Using fixed time schedules regardless of conditions",
+                        es: "Usar horarios fijos independientemente de condiciones",
+                        de: "Feste Zeitpläne unabhängig von Bedingungen verwenden",
+                        nl: "Vaste tijd schema's gebruiken ongeacht condities"
+                    },
+                    {
+                        en: "Relying only on temperature measurements",
+                        es: "Confiar solo en mediciones de temperatura",
+                        de: "Sich nur auf Temperaturmessungen verlassen",
+                        nl: "Alleen vertrouwen op temperatuur metingen"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Metabolic flux analysis quantifies rates of specific biochemical pathways during fermentation, enabling precise control over which flavor compounds are produced by adjusting conditions to favor desired metabolic routes.",
+                    es: "Análisis de flujo metabólico cuantifica tasas de vías bioquímicas específicas durante fermentación, permitiendo control preciso sobre qué compuestos de sabor se producen ajustando condiciones para favorecer rutas metabólicas deseadas.",
+                    de: "Metabolische Flussanalyse quantifiziert Raten spezifischer biochemischer Wege während der Fermentation und ermöglicht präzise Kontrolle darüber, welche Geschmacksverbindungen durch Anpassung der Bedingungen zur Begünstigung gewünschter metabolischer Routen produziert werden.",
+                    nl: "Metabolische flux analyse kwantificeert snelheden van specifieke biochemische routes tijdens fermentatie, precieze controle mogelijk makend over welke smaak verbindingen geproduceerd worden door condities aan te passen om gewenste metabolische routes te bevoordelen."
+                }
+            },
+            {
+                question: {
+                    en: "Which quantum sensing technology could revolutionize tea quality assessment?",
+                    es: "¿Qué tecnología de detección cuántica podría revolucionar evaluación de calidad del té?",
+                    de: "Welche Quantensensortechnologie könnte Tee-Qualitätsbewertung revolutionieren?",
+                    nl: "Welke quantum sensing technologie zou thee kwaliteit beoordeling kunnen revolutioneren?"
+                },
+                options: [
+                    {
+                        en: "Nitrogen-vacancy diamond sensors detecting molecular signatures at quantum level",
+                        es: "Sensores de diamante con vacancia de nitrógeno detectando firmas moleculares a nivel cuántico",
+                        de: "Stickstoff-Fehlstellen-Diamantsensoren, die molekulare Signaturen auf Quantenebene erkennen",
+                        nl: "Stikstof-vacature diamant sensoren die moleculaire handtekeningen op quantum niveau detecteren"
+                    },
+                    {
+                        en: "Traditional optical microscopes",
+                        es: "Microscopios ópticos tradicionales",
+                        de: "Traditionelle optische Mikroskope",
+                        nl: "Traditionele optische microscopen"
+                    },
+                    {
+                        en: "Standard weighing scales",
+                        es: "Balanzas estándar de pesaje",
+                        de: "Standard-Waagen",
+                        nl: "Standaard weegschalen"
+                    },
+                    {
+                        en: "Basic pH meters",
+                        es: "Medidores de pH básicos",
+                        de: "Grundlegende pH-Meter",
+                        nl: "Basis pH meters"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Nitrogen-vacancy diamond quantum sensors can detect individual molecules and their quantum states, potentially enabling unprecedented sensitivity in identifying tea compounds and authenticity markers at molecular resolution.",
+                    es: "Sensores cuánticos de diamante con vacancia de nitrógeno pueden detectar moléculas individuales y sus estados cuánticos, potencialmente permitiendo sensibilidad sin precedentes en identificar compuestos de té y marcadores de autenticidad a resolución molecular.",
+                    de: "Stickstoff-Fehlstellen-Diamant-Quantensensoren können einzelne Moleküle und ihre Quantenzustände erkennen, wodurch möglicherweise beispiellose Empfindlichkeit bei der Identifizierung von Teeverbindungen und Authentizitätsmarkern auf molekularer Auflösung ermöglicht wird.",
+                    nl: "Stikstof-vacature diamant quantum sensoren kunnen individuele moleculen en hun quantum toestanden detecteren, potentieel ongekende gevoeligheid mogelijk makend in het identificeren van thee verbindingen en authenticiteit markers op moleculaire resolutie."
+                }
+            }
     ]
   };
 

@@ -427,6 +427,468 @@
           de: "Große Ausgrabungen in den 1990er und 2000er Jahren legten die komplexe Bodenebene des Hypogeums vollständig frei und restaurierten sie, sodass Besucher das ausgeklügelte unterirdische Maschinensystem sehen können. Diese Arbeiten legten die anspruchsvolle Technik frei, einschließlich Aufzugsschächte, Tierkäfige und Gänge, die zuvor vergraben oder unzugänglich waren.",
           nl: "Grote opgravingen in de jaren 1990 en 2000 onthulden en restaureerden volledig het complexe vloerniveau van het hypogeum, waardoor bezoekers het uitgebreide ondergrondse machinesysteem konden zien. Dit werk legde de geavanceerde engineering bloot, inclusief liftschachten, dierenkooien en gangen die voorheen begraven of ontoegankelijk waren."
         }
+      },
+      {
+        question: {
+          en: "What was the specific role of the 'editor' at Colosseum games?",
+          es: "¿Cuál era el rol específico del 'editor' en los juegos del Coliseo?",
+          de: "Welche spezifische Rolle hatte der 'Editor' bei den Spielen im Kolosseum?",
+          nl: "Wat was de specifieke rol van de 'editor' bij de spelen in het Colosseum?"
+        },
+        options: [
+          { en: "Chief architect", es: "Arquitecto jefe", de: "Chefarchitekt", nl: "Hoofdarchitect" },
+          { en: "The sponsor who financed the games", es: "El patrocinador que financiaba los juegos", de: "Der Sponsor, der die Spiele finanzierte", nl: "De sponsor die de spelen financierde" },
+          { en: "Arena floor manager", es: "Gerente del piso de la arena", de: "Arena-Bodenmanager", nl: "Arenabodembeheerder" },
+          { en: "Animal trainer", es: "Entrenador de animales", de: "Tiertrainer", nl: "Dierentrainer" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The editor was the person who sponsored and organized the games, often a wealthy politician seeking public favor. The editor paid for everything including gladiators, animals, and prizes. This was an expensive but effective way to gain political support and demonstrate wealth and generosity.",
+          es: "El editor era la persona que patrocinaba y organizaba los juegos, a menudo un político rico que buscaba el favor público. El editor pagaba por todo, incluyendo gladiadores, animales y premios. Esta era una forma costosa pero efectiva de ganar apoyo político y demostrar riqueza y generosidad.",
+          de: "Der Editor war die Person, die die Spiele sponserte und organisierte, oft ein wohlhabender Politiker, der öffentliche Gunst suchte. Der Editor bezahlte für alles, einschließlich Gladiatoren, Tiere und Preise. Dies war eine teure, aber effektive Möglichkeit, politische Unterstützung zu gewinnen und Reichtum und Großzügigkeit zu demonstrieren.",
+          nl: "De editor was de persoon die de spelen sponsorde en organiseerde, vaak een rijke politicus die publieke gunst zocht. De editor betaalde voor alles inclusief gladiatoren, dieren en prijzen. Dit was een dure maar effectieve manier om politieke steun te winnen en rijkdom en vrijgevigheid te tonen."
+        }
+      },
+      {
+        question: {
+          en: "Which Roman historian provided the most detailed account of the Colosseum's opening games?",
+          es: "¿Qué historiador romano proporcionó el relato más detallado de los juegos de apertura del Coliseo?",
+          de: "Welcher römische Historiker lieferte den detailliertesten Bericht über die Eröffnungsspiele des Kolosseums?",
+          nl: "Welke Romeinse geschiedschrijver gaf de meest gedetailleerde beschrijving van de openingsspelen van het Colosseum?"
+        },
+        options: [
+          { en: "Tacitus", es: "Tácito", de: "Tacitus", nl: "Tacitus" },
+          { en: "Suetonius", es: "Suetonio", de: "Sueton", nl: "Suetonius" },
+          { en: "Cassius Dio", es: "Casio Dión", de: "Cassius Dio", nl: "Cassius Dio" },
+          { en: "Pliny the Elder", es: "Plinio el Viejo", de: "Plinius der Ältere", nl: "Plinius de Oudere" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Cassius Dio, a Roman historian writing in the 3rd century AD, provided one of the most detailed surviving accounts of the Colosseum's opening games in 80 AD. His description includes the 100-day festival, animal hunts, and gladiatorial contests, though he wrote about 120 years after the events.",
+          es: "Casio Dión, un historiador romano que escribió en el siglo III d.C., proporcionó uno de los relatos supervivientes más detallados de los juegos de apertura del Coliseo en 80 d.C. Su descripción incluye el festival de 100 días, cacerías de animales y combates de gladiadores, aunque escribió unos 120 años después de los eventos.",
+          de: "Cassius Dio, ein römischer Historiker, der im 3. Jahrhundert n.Chr. schrieb, lieferte einen der detailliertesten überlebenden Berichte über die Eröffnungsspiele des Kolosseums im Jahr 80 n.Chr. Seine Beschreibung umfasst das 100-tägige Festival, Tierjagden und Gladiatorenkämpfe, obwohl er etwa 120 Jahre nach den Ereignissen schrieb.",
+          nl: "Cassius Dio, een Romeinse geschiedschrijver die in de 3e eeuw na Chr. schreef, gaf een van de meest gedetailleerde overgebleven beschrijvingen van de openingsspelen van het Colosseum in 80 na Chr. Zijn beschrijving omvat het 100-daagse festival, dierenjachten en gladiatorengevechten, hoewel hij ongeveer 120 jaar na de gebeurtenissen schreef."
+        }
+      },
+      {
+        question: {
+          en: "What significant restoration work did Pope Gregory XVI undertake in the 1800s?",
+          es: "¿Qué obra de restauración significativa emprendió el Papa Gregorio XVI en el siglo XIX?",
+          de: "Welche bedeutende Restaurierungsarbeit unternahm Papst Gregor XVI. in den 1800er Jahren?",
+          nl: "Welke belangrijke restauratiewerkzaamheden ondernam paus Gregorius XVI in de jaren 1800?"
+        },
+        options: [
+          { en: "Demolished the remaining structure", es: "Demolió la estructura restante", de: "Abriss der verbleibenden Struktur", nl: "Sloopte de resterende structuur" },
+          { en: "Rebuilt the collapsed southern section", es: "Reconstruyó la sección sur colapsada", de: "Wiederaufbau des eingestürzten südlichen Abschnitts", nl: "Herbouwde de ingestorte zuidelijke sectie" },
+          { en: "Built brick wedges to support the outer wall", es: "Construyó cuñas de ladrillo para soportar el muro exterior", de: "Baute Backsteinkeile zur Stützung der Außenwand", nl: "Bouwde bakstenen wiggen ter ondersteuning van de buitenmuur" },
+          { en: "Added a roof over the entire structure", es: "Añadió un techo sobre toda la estructura", de: "Fügte ein Dach über die gesamte Struktur hinzu", nl: "Voegde een dak toe over de hele structuur" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Pope Gregory XVI commissioned architect Giuseppe Valadier to build distinctive brick buttresses in the 1820s-30s to shore up the exterior walls and prevent further collapse. These triangular brick wedges are still visible today and represent an important phase of preservation that saved the structure from further deterioration.",
+          es: "El Papa Gregorio XVI encargó al arquitecto Giuseppe Valadier construir distintivos contrafuertes de ladrillo en las décadas de 1820-30 para apuntalar los muros exteriores y prevenir más colapsos. Estas cuñas de ladrillo triangulares aún son visibles hoy y representan una fase importante de preservación que salvó la estructura de más deterioro.",
+          de: "Papst Gregor XVI. beauftragte den Architekten Giuseppe Valadier in den 1820er-30er Jahren mit dem Bau markanter Backsteinstreben, um die Außenwände zu stützen und weiteren Einsturz zu verhindern. Diese dreieckigen Backsteinkeile sind heute noch sichtbar und repräsentieren eine wichtige Phase der Erhaltung, die die Struktur vor weiterem Verfall rettete.",
+          nl: "Paus Gregorius XVI gaf architect Giuseppe Valadier opdracht om in de jaren 1820-30 onderscheidende bakstenen steunberen te bouwen om de buitenmuren te stutten en verdere instorting te voorkomen. Deze driehoekige bakstenen wiggen zijn vandaag nog zichtbaar en vertegenwoordigen een belangrijke fase van behoud die de structuur voor verder verval behoedde."
+        }
+      },
+      {
+        question: {
+          en: "What was the purpose of the rooms and passages beneath the arena floor?",
+          es: "¿Cuál era el propósito de las salas y pasajes debajo del piso de la arena?",
+          de: "Was war der Zweck der Räume und Gänge unter dem Arenaboden?",
+          nl: "Wat was het doel van de kamers en gangen onder de arenabodem?"
+        },
+        options: [
+          { en: "Storage for building materials", es: "Almacenamiento de materiales de construcción", de: "Lagerung von Baumaterialien", nl: "Opslag van bouwmaterialen" },
+          { en: "Housing animals, gladiators, and operating machinery", es: "Albergar animales, gladiadores y operar maquinaria", de: "Unterbringung von Tieren, Gladiatoren und Betrieb von Maschinen", nl: "Huisvesting van dieren, gladiatoren en bedienen van machines" },
+          { en: "Water reservoir for naval battles", es: "Depósito de agua para batallas navales", de: "Wasserreservoir für Seeschlachten", nl: "Waterreservoir voor zeeslagen" },
+          { en: "Burial chambers for fallen gladiators", es: "Cámaras funerarias para gladiadores caídos", de: "Grabkammern für gefallene Gladiatoren", nl: "Grafkamers voor gevallen gladiatoren" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The hypogeum was a complex two-level underground system housing caged animals, gladiators awaiting combat, and elaborate mechanical equipment. The hypogeum featured trap doors, elevators, and ramps that allowed dramatic surprise entrances for combatants and animals, creating spectacular theatrical effects for the audience above.",
+          es: "El hipogeo era un complejo sistema subterráneo de dos niveles que albergaba animales enjaulados, gladiadores esperando combate y elaborado equipo mecánico. El hipogeo presentaba trampillas, elevadores y rampas que permitían dramáticas entradas sorpresa para combatientes y animales, creando espectaculares efectos teatrales para la audiencia arriba.",
+          de: "Das Hypogäum war ein komplexes zweistöckiges unterirdisches System, das Käfigtiere, auf den Kampf wartende Gladiatoren und ausgeklügelte mechanische Ausrüstung beherbergte. Das Hypogäum verfügte über Falltüren, Aufzüge und Rampen, die dramatische Überraschungsauftritte für Kämpfer und Tiere ermöglichten und spektakuläre theatralische Effekte für das Publikum oben schufen.",
+          nl: "Het hypogeum was een complex ondergronds systeem met twee niveaus dat kooien met dieren, gladiatoren die wachtten op gevechten en uitgebreide mechanische apparatuur herbergde. Het hypogeum had valluiken, liften en hellingen die dramatische verrassende ingangen voor strijders en dieren mogelijk maakten, wat spectaculaire theatrale effecten creëerde voor het publiek boven."
+        }
+      },
+      {
+        question: {
+          en: "How did the Colosseum's construction demonstrate Roman imperial propaganda?",
+          es: "¿Cómo demostró la construcción del Coliseo la propaganda imperial romana?",
+          de: "Wie demonstrierte der Bau des Kolosseums römische imperiale Propaganda?",
+          nl: "Hoe toonde de bouw van het Colosseum Romeinse keizerlijke propaganda?"
+        },
+        options: [
+          { en: "It was built entirely by volunteer labor", es: "Fue construido completamente por trabajo voluntario", de: "Es wurde vollständig durch freiwillige Arbeit gebaut", nl: "Het werd volledig gebouwd door vrijwillige arbeid" },
+          { en: "Jewish slaves from the Jerusalem conquest built it", es: "Esclavos judíos de la conquista de Jerusalén lo construyeron", de: "Jüdische Sklaven aus der Eroberung Jerusalems bauten es", nl: "Joodse slaven van de Jeruzalem-verovering bouwden het" },
+          { en: "It was a gift from Greece", es: "Fue un regalo de Grecia", de: "Es war ein Geschenk aus Griechenland", nl: "Het was een geschenk van Griekenland" },
+          { en: "Christian communities funded it", es: "Comunidades cristianas lo financiaron", de: "Christliche Gemeinden finanzierten es", nl: "Christelijke gemeenschappen financierden het" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Colosseum was built using spoils from the Jewish War and the sack of Jerusalem in 70 AD, funded by treasures from the Temple of Jerusalem. Jewish prisoners were likely among the labor force. This demonstrated Roman military might and the Flavian dynasty's success, while also providing entertainment to distract from political issues.",
+          es: "El Coliseo fue construido usando botín de la Guerra Judía y el saqueo de Jerusalén en 70 d.C., financiado por tesoros del Templo de Jerusalén. Prisioneros judíos probablemente estuvieron entre la fuerza laboral. Esto demostró el poder militar romano y el éxito de la dinastía Flavia, mientras también proporcionaba entretenimiento para distraer de problemas políticos.",
+          de: "Das Kolosseum wurde mit Beute aus dem Jüdischen Krieg und der Plünderung Jerusalems im Jahr 70 n.Chr. gebaut, finanziert durch Schätze aus dem Tempel von Jerusalem. Jüdische Gefangene waren wahrscheinlich Teil der Arbeitskräfte. Dies demonstrierte römische militärische Macht und den Erfolg der flavischen Dynastie, während es auch Unterhaltung bot, um von politischen Problemen abzulenken.",
+          nl: "Het Colosseum werd gebouwd met buit van de Joodse Oorlog en de plundering van Jeruzalem in 70 na Chr., gefinancierd door schatten uit de Tempel van Jeruzalem. Joodse gevangenen waren waarschijnlijk onder de arbeidskrachten. Dit toonde Romeinse militaire macht en het succes van de Flavische dynastie, terwijl het ook entertainment bood om af te leiden van politieke problemen."
+        }
+      },
+      {
+        question: {
+          en: "What happened to the Colosseum during the sack of Rome in 410 AD?",
+          es: "¿Qué sucedió con el Coliseo durante el saqueo de Roma en 410 d.C.?",
+          de: "Was geschah mit dem Kolosseum während der Plünderung Roms im Jahr 410 n.Chr.?",
+          nl: "Wat gebeurde er met het Colosseum tijdens de plundering van Rome in 410 na Chr.?"
+        },
+        options: [
+          { en: "It was completely destroyed", es: "Fue completamente destruido", de: "Es wurde vollständig zerstört", nl: "Het werd volledig verwoest" },
+          { en: "It was largely spared from damage", es: "Fue en gran parte salvado de daños", de: "Es blieb weitgehend von Schäden verschont", nl: "Het bleef grotendeels gespaard van schade" },
+          { en: "It was converted into a fortress", es: "Fue convertido en una fortaleza", de: "Es wurde in eine Festung umgewandelt", nl: "Het werd omgebouwd tot een fort" },
+          { en: "It was flooded and abandoned", es: "Fue inundado y abandonado", de: "Es wurde überflutet und aufgegeben", nl: "Het werd overstroomd en verlaten" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "During the Visigothic sack of Rome in 410 AD, the Colosseum was largely spared significant damage. The Visigoths focused on plundering treasures and supplies rather than destroying buildings. By this time, gladiatorial games had already ended, and the structure's primary use for entertainment was waning.",
+          es: "Durante el saqueo visigodo de Roma en 410 d.C., el Coliseo fue en gran parte salvado de daños significativos. Los visigodos se enfocaron en saquear tesoros y suministros en lugar de destruir edificios. Para ese momento, los juegos de gladiadores ya habían terminado, y el uso principal de la estructura para entretenimiento estaba decayendo.",
+          de: "Während der westgotischen Plünderung Roms im Jahr 410 n.Chr. blieb das Kolosseum weitgehend von erheblichen Schäden verschont. Die Westgoten konzentrierten sich auf die Plünderung von Schätzen und Vorräten, anstatt Gebäude zu zerstören. Zu dieser Zeit waren die Gladiatorenspiele bereits beendet, und die primäre Nutzung der Struktur für Unterhaltung nahm ab.",
+          nl: "Tijdens de Visigotische plundering van Rome in 410 na Chr. bleef het Colosseum grotendeels gespaard van aanzienlijke schade. De Visigoten richtten zich op het plunderen van schatten en voorraden in plaats van het vernietigen van gebouwen. Tegen die tijd waren gladiatorenspelen al geëindigd en was het primaire gebruik van de structuur voor entertainment aan het afnemen."
+        }
+      },
+      {
+        question: {
+          en: "What modern archaeological technique revealed hidden details of the hypogeum?",
+          es: "¿Qué técnica arqueológica moderna reveló detalles ocultos del hipogeo?",
+          de: "Welche moderne archäologische Technik enthüllte verborgene Details des Hypogäums?",
+          nl: "Welke moderne archeologische techniek onthulde verborgen details van het hypogeum?"
+        },
+        options: [
+          { en: "Carbon dating", es: "Datación por carbono", de: "Kohlenstoffdatierung", nl: "Koolstofdatering" },
+          { en: "Ground-penetrating radar and 3D scanning", es: "Radar de penetración terrestre y escaneo 3D", de: "Bodenradar und 3D-Scanning", nl: "Grondradar en 3D-scanning" },
+          { en: "X-ray photography", es: "Fotografía de rayos X", de: "Röntgenfotografie", nl: "Röntgenfotografie" },
+          { en: "Infrared spectroscopy", es: "Espectroscopía infrarroja", de: "Infrarotspektroskopie", nl: "Infraroodspectroscopie" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Modern archaeological work has used ground-penetrating radar and advanced 3D laser scanning to map the complex underground structure of the hypogeum. These techniques revealed previously unknown passages, elevator shafts, and mechanical systems without excavation. This technology has been crucial for planning restoration work and understanding Roman engineering.",
+          es: "El trabajo arqueológico moderno ha usado radar de penetración terrestre y escaneo láser 3D avanzado para mapear la compleja estructura subterránea del hipogeo. Estas técnicas revelaron pasajes, pozos de elevador y sistemas mecánicos previamente desconocidos sin excavación. Esta tecnología ha sido crucial para planificar trabajos de restauración y comprender la ingeniería romana.",
+          de: "Moderne archäologische Arbeiten haben Bodenradar und fortschrittliches 3D-Laserscanning verwendet, um die komplexe unterirdische Struktur des Hypogäums zu kartieren. Diese Techniken enthüllten zuvor unbekannte Gänge, Aufzugsschächte und mechanische Systeme ohne Ausgrabung. Diese Technologie war entscheidend für die Planung von Restaurierungsarbeiten und das Verständnis römischer Ingenieurskunst.",
+          nl: "Modern archeologisch werk heeft grondradar en geavanceerde 3D-laserscanning gebruikt om de complexe ondergrondse structuur van het hypogeum in kaart te brengen. Deze technieken onthulden voorheen onbekende gangen, liftschachten en mechanische systemen zonder opgravingen. Deze technologie is cruciaal geweest voor het plannen van restauratiewerk en het begrijpen van Romeinse engineering."
+        }
+      },
+      {
+        question: {
+          en: "What type of spectacle was the 'damnatio ad bestias'?",
+          es: "¿Qué tipo de espectáculo era la 'damnatio ad bestias'?",
+          de: "Welche Art von Spektakel war die 'Damnatio ad Bestias'?",
+          nl: "Wat voor soort spektakel was de 'damnatio ad bestias'?"
+        },
+        options: [
+          { en: "Animal training demonstrations", es: "Demostraciones de entrenamiento de animales", de: "Tiertrainingsdemonstrationen", nl: "Dierentrainingdemonstraties" },
+          { en: "Execution of criminals by wild beasts", es: "Ejecución de criminales por bestias salvajes", de: "Hinrichtung von Kriminellen durch wilde Tiere", nl: "Executie van criminelen door wilde beesten" },
+          { en: "Gladiatorial combat with animals", es: "Combate de gladiadores con animales", de: "Gladiatorenkampf mit Tieren", nl: "Gladiatorengevecht met dieren" },
+          { en: "Peaceful animal parades", es: "Desfiles pacíficos de animales", de: "Friedliche Tierparaden", nl: "Vreedzame dierenparades" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Damnatio ad bestias ('condemnation to beasts') was a form of Roman capital punishment where criminals were executed by being thrown to wild animals. This was considered entertainment and typically occurred during midday at the Colosseum. Victims were often tied to stakes or crosses, unable to defend themselves, and were killed by lions, bears, leopards, or other predators.",
+          es: "Damnatio ad bestias ('condena a las bestias') era una forma de pena capital romana donde los criminales eran ejecutados siendo arrojados a animales salvajes. Esto se consideraba entretenimiento y típicamente ocurría al mediodía en el Coliseo. Las víctimas a menudo eran atadas a estacas o cruces, incapaces de defenderse, y eran asesinadas por leones, osos, leopardos u otros depredadores.",
+          de: "Damnatio ad Bestias ('Verurteilung zu den Bestien') war eine Form römischer Todesstrafe, bei der Kriminelle hingerichtet wurden, indem sie wilden Tieren vorgeworfen wurden. Dies galt als Unterhaltung und fand typischerweise mittags im Kolosseum statt. Opfer wurden oft an Pfähle oder Kreuze gebunden, unfähig sich zu verteidigen, und wurden von Löwen, Bären, Leoparden oder anderen Raubtieren getötet.",
+          nl: "Damnatio ad bestias ('veroordeling tot de beesten') was een vorm van Romeinse doodstraf waarbij criminelen werden geëxecuteerd door ze aan wilde dieren voor te werpen. Dit werd als entertainment beschouwd en vond meestal op de middag plaats in het Colosseum. Slachtoffers waren vaak vastgebonden aan palen of kruisen, niet in staat zich te verdedigen, en werden gedood door leeuwen, beren, luipaarden of andere roofdieren."
+        }
+      },
+      {
+        question: {
+          en: "Which emperor attempted to ban spectacles involving human bloodshed before Constantine?",
+          es: "¿Qué emperador intentó prohibir espectáculos que involucraban derramamiento de sangre humana antes de Constantino?",
+          de: "Welcher Kaiser versuchte, Spektakel mit menschlichem Blutvergießen vor Konstantin zu verbieten?",
+          nl: "Welke keizer probeerde spektakels met menselijk bloedvergieten te verbieden voor Constantijn?"
+        },
+        options: [
+          { en: "Marcus Aurelius", es: "Marco Aurelio", de: "Marcus Aurelius", nl: "Marcus Aurelius" },
+          { en: "Septimius Severus", es: "Septimio Severo", de: "Septimius Severus", nl: "Septimius Severus" },
+          { en: "Hadrian", es: "Adriano", de: "Hadrian", nl: "Hadrianus" },
+          { en: "Caracalla", es: "Caracalla", de: "Caracalla", nl: "Caracalla" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Emperor Marcus Aurelius, the philosopher-emperor, attempted to reduce bloodshed in the arena by ordering that gladiators fight with blunted weapons. However, this proved unpopular with crowds who demanded traditional combat. His reforms were largely ignored after his death. Constantine I later issued more comprehensive bans in the early 4th century.",
+          es: "El emperador Marco Aurelio, el emperador filósofo, intentó reducir el derramamiento de sangre en la arena ordenando que los gladiadores lucharan con armas embotadas. Sin embargo, esto resultó impopular con las multitudes que exigían combate tradicional. Sus reformas fueron en gran parte ignoradas después de su muerte. Constantino I emitió posteriormente prohibiciones más completas a principios del siglo IV.",
+          de: "Kaiser Marcus Aurelius, der Philosophenkaiser, versuchte, das Blutvergießen in der Arena zu reduzieren, indem er anordnete, dass Gladiatoren mit stumpfen Waffen kämpften. Dies erwies sich jedoch bei den Menschenmassen als unpopulär, die traditionelle Kämpfe forderten. Seine Reformen wurden nach seinem Tod weitgehend ignoriert. Konstantin I. erließ später umfassendere Verbote im frühen 4. Jahrhundert.",
+          nl: "Keizer Marcus Aurelius, de filosoof-keizer, probeerde het bloedvergieten in de arena te verminderen door te bevelen dat gladiatoren met botte wapens vochten. Dit bleek echter impopulair bij menigtes die traditioneel gevecht eisten. Zijn hervormingen werden grotendeels genegeerd na zijn dood. Constantijn I vaardigde later uitgebreidere verboden uit in de vroege 4e eeuw."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of the awning (velarium) color?",
+          es: "¿Cuál era la significancia del color del toldo (velarium)?",
+          de: "Was war die Bedeutung der Farbe der Markise (Velarium)?",
+          nl: "Wat was de betekenis van de kleur van de luifel (velarium)?"
+        },
+        options: [
+          { en: "Red indicated imperial presence", es: "Rojo indicaba presencia imperial", de: "Rot zeigte kaiserliche Anwesenheit an", nl: "Rood gaf keizerlijke aanwezigheid aan" },
+          { en: "Color had no significance", es: "El color no tenía significancia", de: "Farbe hatte keine Bedeutung", nl: "Kleur had geen betekenis" },
+          { en: "Different colors for different social classes", es: "Diferentes colores para diferentes clases sociales", de: "Verschiedene Farben für verschiedene soziale Klassen", nl: "Verschillende kleuren voor verschillende sociale klassen" },
+          { en: "Purple was reserved for executions", es: "Púrpura estaba reservado para ejecuciones", de: "Purpur war für Hinrichtungen reserviert", nl: "Paars was gereserveerd voor executies" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The velarium's color indicated the nature of the games and who was sponsoring them. Red awnings often signified imperial sponsorship or the emperor's presence. The canvas was likely treated to be fire-resistant and waterproof. Specialized sailors from the Roman navy operated the complex rope system required to deploy and adjust this massive awning.",
+          es: "El color del velarium indicaba la naturaleza de los juegos y quién los patrocinaba. Los toldos rojos a menudo significaban patrocinio imperial o la presencia del emperador. La lona probablemente estaba tratada para ser resistente al fuego y al agua. Marineros especializados de la armada romana operaban el complejo sistema de cuerdas requerido para desplegar y ajustar este toldo masivo.",
+          de: "Die Farbe des Velariums zeigte die Art der Spiele und wer sie sponserte. Rote Markisen signalisierten oft kaiserliche Förderung oder die Anwesenheit des Kaisers. Die Leinwand war wahrscheinlich feuerbeständig und wasserdicht behandelt. Spezialisierte Seeleute der römischen Marine betrieben das komplexe Seilsystem, das erforderlich war, um diese massive Markise auszubreiten und anzupassen.",
+          nl: "De kleur van het velarium gaf de aard van de spelen aan en wie ze sponsorde. Rode luifels betekenden vaak keizerlijke sponsoring of de aanwezigheid van de keizer. Het canvas was waarschijnlijk vuurbestendig en waterdicht behandeld. Gespecialiseerde matrozen van de Romeinse marine bedienden het complexe touwen systeem dat nodig was om deze massieve luifel uit te zetten en aan te passen."
+        }
+      },
+      {
+        question: {
+          en: "What role did women play in Colosseum spectacles?",
+          es: "¿Qué papel jugaban las mujeres en los espectáculos del Coliseo?",
+          de: "Welche Rolle spielten Frauen bei den Spektakeln im Kolosseum?",
+          nl: "Welke rol speelden vrouwen bij de spektakels in het Colosseum?"
+        },
+        options: [
+          { en: "Women were banned from attending", es: "Las mujeres tenían prohibido asistir", de: "Frauen war der Besuch verboten", nl: "Vrouwen mochten niet aanwezig zijn" },
+          { en: "Female gladiators (gladiatrices) fought until banned by Septimius Severus", es: "Gladiadoras luchaban hasta que fueron prohibidas por Septimio Severo", de: "Gladiatorinnen kämpften bis zum Verbot durch Septimius Severus", nl: "Vrouwelijke gladiatoren (gladiatrices) vochten tot ze werden verboden door Septimius Severus" },
+          { en: "Women only served refreshments", es: "Las mujeres solo servían refrigerios", de: "Frauen servierten nur Erfrischungen", nl: "Vrouwen serveerden alleen versnaperingen" },
+          { en: "Women fought only against animals", es: "Las mujeres solo luchaban contra animales", de: "Frauen kämpften nur gegen Tiere", nl: "Vrouwen vochten alleen tegen dieren" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Female gladiators, called gladiatrices, did exist and fought in the arena, though they were rare and considered novelty acts. Emperor Septimius Severus banned women from gladiatorial combat in 200 AD. Women spectators were relegated to the highest seating sections, far from the arena, reflecting their lower social status in Roman society.",
+          es: "Las gladiadoras, llamadas gladiatrices, sí existieron y lucharon en la arena, aunque eran raras y consideradas actos de novedad. El emperador Septimio Severo prohibió a las mujeres el combate de gladiadores en 200 d.C. Las mujeres espectadoras estaban relegadas a las secciones de asientos más altas, lejos de la arena, reflejando su estatus social inferior en la sociedad romana.",
+          de: "Weibliche Gladiatoren, Gladiatrices genannt, existierten tatsächlich und kämpften in der Arena, obwohl sie selten waren und als Neuheiten galten. Kaiser Septimius Severus verbot Frauen im Jahr 200 n.Chr. den Gladiatorenkampf. Weibliche Zuschauer wurden in die höchsten Sitzbereiche verbannt, weit von der Arena entfernt, was ihren niedrigeren sozialen Status in der römischen Gesellschaft widerspiegelte.",
+          nl: "Vrouwelijke gladiatoren, gladiatrices genoemd, bestonden en vochten in de arena, hoewel ze zeldzaam waren en als noviteitsacten werden beschouwd. Keizer Septimius Severus verbood vrouwen gladiatorengevechten in 200 na Chr. Vrouwelijke toeschouwers werden verbannen naar de hoogste zitplaatsen, ver van de arena, wat hun lagere sociale status in de Romeinse samenleving weerspiegelde."
+        }
+      },
+      {
+        question: {
+          en: "How did the Colosseum influence later European architecture?",
+          es: "¿Cómo influyó el Coliseo en la arquitectura europea posterior?",
+          de: "Wie beeinflusste das Kolosseum spätere europäische Architektur?",
+          nl: "Hoe beïnvloedde het Colosseum latere Europese architectuur?"
+        },
+        options: [
+          { en: "It had no lasting influence", es: "No tuvo influencia duradera", de: "Es hatte keinen dauerhaften Einfluss", nl: "Het had geen blijvende invloed" },
+          { en: "Renaissance architects studied and adapted its design principles", es: "Los arquitectos renacentistas estudiaron y adaptaron sus principios de diseño", de: "Renaissance-Architekten studierten und adaptierten seine Designprinzipien", nl: "Renaissance-architecten bestudeerden en pasten zijn ontwerpprincipes aan" },
+          { en: "Only used for military fortifications", es: "Solo se usó para fortificaciones militares", de: "Nur für militärische Befestigungen verwendet", nl: "Alleen gebruikt voor militaire vestingwerken" },
+          { en: "Influenced only church design", es: "Solo influyó en el diseño de iglesias", de: "Beeinflusste nur Kirchendesign", nl: "Beïnvloedde alleen kerkontwerp" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Renaissance architects extensively studied the Colosseum as a model of classical architecture. Its use of arches, vaults, and the hierarchical arrangement of classical orders influenced countless buildings. Architects like Palladio incorporated Colosseum-inspired arcades and facades into palaces and public buildings. The structure became a textbook for understanding Roman engineering.",
+          es: "Los arquitectos renacentistas estudiaron extensamente el Coliseo como modelo de arquitectura clásica. Su uso de arcos, bóvedas y la disposición jerárquica de órdenes clásicos influyó en innumerables edificios. Arquitectos como Palladio incorporaron arcadas y fachadas inspiradas en el Coliseo en palacios y edificios públicos. La estructura se convirtió en un libro de texto para comprender la ingeniería romana.",
+          de: "Renaissance-Architekten studierten das Kolosseum ausführlich als Modell klassischer Architektur. Seine Verwendung von Bögen, Gewölben und der hierarchischen Anordnung klassischer Ordnungen beeinflusste unzählige Gebäude. Architekten wie Palladio integrierten vom Kolosseum inspirierte Arkaden und Fassaden in Paläste und öffentliche Gebäude. Die Struktur wurde zu einem Lehrbuch für das Verständnis römischer Ingenieurskunst.",
+          nl: "Renaissance-architecten bestudeerden het Colosseum uitgebreid als model van klassieke architectuur. Het gebruik van bogen, gewelven en de hiërarchische rangschikking van klassieke orden beïnvloedde talloze gebouwen. Architecten zoals Palladio incorporeerden door het Colosseum geïnspireerde arcaden en gevels in paleizen en openbare gebouwen. De structuur werd een leerboek voor het begrijpen van Romeinse engineering."
+        }
+      },
+      {
+        question: {
+          en: "What was the typical daily schedule of events at the Colosseum?",
+          es: "¿Cuál era el horario diario típico de eventos en el Coliseo?",
+          de: "Was war der typische Tagesablauf der Veranstaltungen im Kolosseum?",
+          nl: "Wat was het typische dagelijkse schema van evenementen in het Colosseum?"
+        },
+        options: [
+          { en: "All events occurred simultaneously", es: "Todos los eventos ocurrían simultáneamente", de: "Alle Ereignisse fanden gleichzeitig statt", nl: "Alle evenementen vonden tegelijkertijd plaats" },
+          { en: "Morning animal hunts, noon executions, afternoon gladiator fights", es: "Cacerías de animales matutinas, ejecuciones al mediodía, peleas de gladiadores por la tarde", de: "Morgendliche Tierjagden, mittägliche Hinrichtungen, nachmittägliche Gladiatorenkämpfe", nl: "Ochtend dierenjachten, middag executies, namiddag gladiatorengevechten" },
+          { en: "Only evening performances", es: "Solo presentaciones nocturnas", de: "Nur Abendvorstellungen", nl: "Alleen avondvoorstellingen" },
+          { en: "Random scheduling with no pattern", es: "Programación aleatoria sin patrón", de: "Zufällige Planung ohne Muster", nl: "Willekeurige planning zonder patroon" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Games followed a predictable schedule: morning featured venationes (animal hunts), midday brought public executions including damnatio ad bestias, and afternoon showcased the main event - gladiatorial combat. This structure maintained audience interest throughout the day, with the most anticipated spectacle reserved for when the largest crowds attended.",
+          es: "Los juegos seguían un horario predecible: la mañana presentaba venationes (cacerías de animales), el mediodía traía ejecuciones públicas incluyendo damnatio ad bestias, y la tarde mostraba el evento principal - combate de gladiadores. Esta estructura mantenía el interés de la audiencia durante todo el día, con el espectáculo más anticipado reservado para cuando asistían las multitudes más grandes.",
+          de: "Die Spiele folgten einem vorhersehbaren Zeitplan: morgens gab es Venationes (Tierjagden), mittags öffentliche Hinrichtungen einschließlich Damnatio ad Bestias, und nachmittags das Hauptereignis - Gladiatorenkämpfe. Diese Struktur hielt das Interesse des Publikums den ganzen Tag über aufrecht, wobei das am meisten erwartete Spektakel für die Zeit reserviert war, wenn die größten Menschenmengen anwesend waren.",
+          nl: "Spelen volgden een voorspelbaar schema: 's ochtends waren er venationes (dierenjachten), 's middags openbare executies inclusief damnatio ad bestias, en 's middags het hoofdevenement - gladiatorengevechten. Deze structuur hield de interesse van het publiek de hele dag vast, met het meest verwachte spektakel gereserveerd voor wanneer de grootste menigten aanwezig waren."
+        }
+      },
+      {
+        question: {
+          en: "What inscription once appeared above the main entrance?",
+          es: "¿Qué inscripción apareció una vez sobre la entrada principal?",
+          de: "Welche Inschrift erschien einst über dem Haupteingang?",
+          nl: "Welke inscriptie verscheen ooit boven de hoofdingang?"
+        },
+        options: [
+          { en: "A dedication to the Flavian emperors", es: "Una dedicación a los emperadores Flavios", de: "Eine Widmung an die flavischen Kaiser", nl: "Een toewijding aan de Flavische keizers" },
+          { en: "Warning to criminals", es: "Advertencia a criminales", de: "Warnung an Kriminelle", nl: "Waarschuwing aan criminelen" },
+          { en: "List of construction workers", es: "Lista de trabajadores de construcción", de: "Liste der Bauarbeiter", nl: "Lijst van bouwvakkers" },
+          { en: "No inscription ever existed", es: "Nunca existió inscripción", de: "Es gab nie eine Inschrift", nl: "Er bestond nooit een inscriptie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Though the original bronze dedication inscription has been lost, historical records indicate it honored the Flavian dynasty - Vespasian who began construction and Titus who completed it. The inscription was likely removed during medieval times when the bronze was melted down for reuse. Stone mounting holes where the letters were attached are still visible today.",
+          es: "Aunque la inscripción de dedicación de bronce original se ha perdido, los registros históricos indican que honraba a la dinastía Flavia - Vespasiano quien comenzó la construcción y Tito quien la completó. La inscripción probablemente fue removida durante tiempos medievales cuando el bronce fue fundido para reutilización. Los agujeros de montaje de piedra donde las letras estaban unidas aún son visibles hoy.",
+          de: "Obwohl die ursprüngliche bronzene Widmungsinschrift verloren gegangen ist, zeigen historische Aufzeichnungen, dass sie die flavische Dynastie ehrte - Vespasian, der den Bau begann, und Titus, der ihn vollendete. Die Inschrift wurde wahrscheinlich im Mittelalter entfernt, als die Bronze zur Wiederverwendung eingeschmolzen wurde. Stein-Montagelöcher, wo die Buchstaben befestigt waren, sind heute noch sichtbar.",
+          nl: "Hoewel de originele bronzen toewijdingsinscriptie verloren is gegaan, geven historische gegevens aan dat het de Flavische dynastie eerde - Vespasianus die de bouw begon en Titus die het voltooide. De inscriptie werd waarschijnlijk tijdens de Middeleeuwen verwijderd toen het brons werd omgesmolten voor hergebruik. Stenen montagegaten waar de letters waren bevestigd zijn vandaag nog zichtbaar."
+        }
+      },
+      {
+        question: {
+          en: "How were exotic animals transported to Rome for the games?",
+          es: "¿Cómo se transportaban animales exóticos a Roma para los juegos?",
+          de: "Wie wurden exotische Tiere für die Spiele nach Rom transportiert?",
+          nl: "Hoe werden exotische dieren naar Rome getransporteerd voor de spelen?"
+        },
+        options: [
+          { en: "By boat only", es: "Solo por barco", de: "Nur per Boot", nl: "Alleen per boot" },
+          { en: "Complex networks of ships, carts, and cages across the empire", es: "Redes complejas de barcos, carretas y jaulas a través del imperio", de: "Komplexe Netzwerke von Schiffen, Karren und Käfigen im gesamten Reich", nl: "Complexe netwerken van schepen, karren en kooien door het hele rijk" },
+          { en: "Animals were bred locally in Rome", es: "Los animales eran criados localmente en Roma", de: "Tiere wurden lokal in Rom gezüchtet", nl: "Dieren werden lokaal in Rome gefokt" },
+          { en: "Teleportation devices", es: "Dispositivos de teletransportación", de: "Teleportationsgeräte", nl: "Teleportatieapparaten" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Procuring exotic animals required a vast logistical network spanning the Roman Empire. Animals from Africa and Asia were trapped by specialized hunters, transported by ship to Ostia (Rome's port), then moved by wagon to Rome. Purpose-built cages, experienced handlers, and veterinary care were necessary. The cost was enormous, contributing to the financial burden on sponsors.",
+          es: "Procurar animales exóticos requería una vasta red logística que abarcaba el Imperio Romano. Los animales de África y Asia eran atrapados por cazadores especializados, transportados por barco a Ostia (el puerto de Roma), luego movidos por vagón a Roma. Se necesitaban jaulas construidas especialmente, manipuladores experimentados y cuidado veterinario. El costo era enorme, contribuyendo a la carga financiera sobre los patrocinadores.",
+          de: "Die Beschaffung exotischer Tiere erforderte ein riesiges logistisches Netzwerk, das das Römische Reich umspannte. Tiere aus Afrika und Asien wurden von spezialisierten Jägern gefangen, per Schiff nach Ostia (Roms Hafen) transportiert und dann per Wagen nach Rom gebracht. Speziell gebaute Käfige, erfahrene Pfleger und tierärztliche Versorgung waren notwendig. Die Kosten waren enorm und trugen zur finanziellen Belastung der Sponsoren bei.",
+          nl: "Het verkrijgen van exotische dieren vereiste een uitgebreid logistiek netwerk over het Romeinse Rijk. Dieren uit Afrika en Azië werden gevangen door gespecialiseerde jagers, per schip getransporteerd naar Ostia (Rome's haven), en vervolgens per wagen naar Rome vervoerd. Speciaal gebouwde kooien, ervaren verzorgers en veterinaire zorg waren noodzakelijk. De kosten waren enorm, wat bijdroeg aan de financiële last voor sponsors."
+        }
+      },
+      {
+        question: {
+          en: "What modern event was hosted at the Colosseum in recent decades?",
+          es: "¿Qué evento moderno se organizó en el Coliseo en décadas recientes?",
+          de: "Welches moderne Ereignis wurde in den letzten Jahrzehnten im Kolosseum veranstaltet?",
+          nl: "Welk modern evenement werd in recente decennia in het Colosseum georganiseerd?"
+        },
+        options: [
+          { en: "Olympic Games ceremonies", es: "Ceremonias de Juegos Olímpicos", de: "Olympische Spiele Zeremonien", nl: "Olympische Spelen ceremonies" },
+          { en: "Classical music concerts and papal events", es: "Conciertos de música clásica y eventos papales", de: "Klassische Musikkonzerte und päpstliche Veranstaltungen", nl: "Klassieke muziekconcerten en pauselijke evenementen" },
+          { en: "Modern gladiatorial reenactments", es: "Recreaciones modernas de gladiadores", de: "Moderne Gladiatoren-Nachstellungen", nl: "Moderne gladiatorenre-enactments" },
+          { en: "No modern events are permitted", es: "No se permiten eventos modernos", de: "Keine modernen Veranstaltungen erlaubt", nl: "Geen moderne evenementen toegestaan" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Colosseum has hosted select modern events including classical music concerts by renowned performers and papal religious ceremonies. In 2000, Pope John Paul II led a Way of the Cross ceremony there. However, such events are rare and carefully controlled to prevent damage. The monument primarily serves as a museum and tourist attraction, with conservation being the top priority.",
+          es: "El Coliseo ha albergado eventos modernos selectos incluyendo conciertos de música clásica de intérpretes reconocidos y ceremonias religiosas papales. En 2000, el Papa Juan Pablo II dirigió una ceremonia del Vía Crucis allí. Sin embargo, tales eventos son raros y cuidadosamente controlados para prevenir daños. El monumento sirve principalmente como museo y atracción turística, siendo la conservación la máxima prioridad.",
+          de: "Das Kolosseum hat ausgewählte moderne Veranstaltungen beherbergt, darunter klassische Musikkonzerte renommierter Interpreten und päpstliche religiöse Zeremonien. Im Jahr 2000 leitete Papst Johannes Paul II. dort eine Kreuzweg-Zeremonie. Solche Veranstaltungen sind jedoch selten und sorgfältig kontrolliert, um Schäden zu vermeiden. Das Monument dient hauptsächlich als Museum und Touristenattraktion, wobei die Erhaltung oberste Priorität hat.",
+          nl: "Het Colosseum heeft selecte moderne evenementen gehost, waaronder klassieke muziekconcerten door gerenommeerde artiesten en pauselijke religieuze ceremonies. In 2000 leidde paus Johannes Paulus II daar een Kruisweg-ceremonie. Dergelijke evenementen zijn echter zeldzaam en zorgvuldig gecontroleerd om schade te voorkomen. Het monument dient voornamelijk als museum en toeristische attractie, waarbij behoud de hoogste prioriteit heeft."
+        }
+      },
+      {
+        question: {
+          en: "What was the lifespan of a typical gladiator in the arena?",
+          es: "¿Cuál era la vida útil de un gladiador típico en la arena?",
+          de: "Wie lange lebte ein typischer Gladiator in der Arena?",
+          nl: "Wat was de levensduur van een typische gladiator in de arena?"
+        },
+        options: [
+          { en: "Most died in their first fight", es: "La mayoría moría en su primera pelea", de: "Die meisten starben in ihrem ersten Kampf", nl: "De meesten stierven in hun eerste gevecht" },
+          { en: "Average of 10-15 fights before death or retirement", es: "Promedio de 10-15 peleas antes de muerte o retiro", de: "Durchschnittlich 10-15 Kämpfe vor Tod oder Ruhestand", nl: "Gemiddeld 10-15 gevechten voor dood of pensioen" },
+          { en: "All gladiators survived and retired wealthy", es: "Todos los gladiadores sobrevivieron y se retiraron ricos", de: "Alle Gladiatoren überlebten und gingen wohlhabend in den Ruhestand", nl: "Alle gladiatoren overleefden en gingen rijk met pensioen" },
+          { en: "One year maximum before execution", es: "Un año máximo antes de ejecución", de: "Maximal ein Jahr vor Hinrichtung", nl: "Maximaal een jaar voor executie" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Contrary to popular belief, gladiatorial combat wasn't always fight-to-death. Trained gladiators were expensive investments. Studies of gladiator remains suggest mortality rates of 10-20% per fight. Many survived 10-15 bouts over several years. Successful gladiators could earn their freedom (rudis) and retire, though many continued fighting for fame and money. The spectacle demanded skilled combat, not just slaughter.",
+          es: "Contrario a la creencia popular, el combate de gladiadores no siempre era a muerte. Los gladiadores entrenados eran inversiones costosas. Los estudios de restos de gladiadores sugieren tasas de mortalidad del 10-20% por pelea. Muchos sobrevivieron 10-15 combates durante varios años. Los gladiadores exitosos podían ganar su libertad (rudis) y retirarse, aunque muchos continuaban luchando por fama y dinero. El espectáculo exigía combate hábil, no solo matanza.",
+          de: "Entgegen der landläufigen Meinung war der Gladiatorenkampf nicht immer ein Kampf auf Leben und Tod. Trainierte Gladiatoren waren teure Investitionen. Studien von Gladiatorenüberresten deuten auf Sterblichkeitsraten von 10-20% pro Kampf hin. Viele überlebten 10-15 Kämpfe über mehrere Jahre. Erfolgreiche Gladiatoren konnten ihre Freiheit (Rudis) verdienen und in den Ruhestand gehen, obwohl viele für Ruhm und Geld weiterkämpften. Das Spektakel erforderte geschickten Kampf, nicht nur Gemetzel.",
+          nl: "In tegenstelling tot wat algemeen wordt aangenomen, was gladiatorengevecht niet altijd op leven en dood. Getrainde gladiatoren waren dure investeringen. Studies van gladiator-overblijfselen suggereren sterftecijfers van 10-20% per gevecht. Velen overleefden 10-15 gevechten over meerdere jaren. Succesvolle gladiatoren konden hun vrijheid (rudis) verdienen en met pensioen gaan, hoewel velen bleven vechten voor roem en geld. Het spektakel vereiste bekwaam gevecht, niet alleen slachting."
+        }
+      },
+      {
+        question: {
+          en: "How did Christian martyrdom legends affect the Colosseum's historical preservation?",
+          es: "¿Cómo afectaron las leyendas del martirio cristiano la preservación histórica del Coliseo?",
+          de: "Wie beeinflussten christliche Märtyrerlegenden die historische Erhaltung des Kolosseums?",
+          nl: "Hoe beïnvloedden christelijke martelaarslegenden het historische behoud van het Colosseum?"
+        },
+        options: [
+          { en: "Led to its immediate destruction", es: "Llevó a su destrucción inmediata", de: "Führte zu seiner sofortigen Zerstörung", nl: "Leidde tot zijn onmiddellijke vernietiging" },
+          { en: "Sacred status protected it from quarrying and demolition", es: "El estatus sagrado lo protegió de la cantera y demolición", de: "Heiliger Status schützte es vor Steinbruch und Abriss", nl: "Heilige status beschermde het tegen steenwinning en sloop" },
+          { en: "Had no effect on preservation", es: "No tuvo efecto en la preservación", de: "Hatte keinen Einfluss auf die Erhaltung", nl: "Had geen effect op behoud" },
+          { en: "Caused it to be converted entirely into a church", es: "Causó que se convirtiera completamente en una iglesia", de: "Verursachte seine vollständige Umwandlung in eine Kirche", nl: "Veroorzaakte dat het volledig werd omgebouwd tot een kerk" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "In 1749, Pope Benedict XIV declared the Colosseum sacred to early Christian martyrs believed to have died there, though historical evidence for mass Christian martyrdom specifically at the Colosseum is limited. This sacred designation halted centuries of stone quarrying and preservation. The Stations of the Cross were installed, transforming the site from a quarry into a pilgrimage destination and ensuring its survival.",
+          es: "En 1749, el Papa Benedicto XIV declaró el Coliseo sagrado para los primeros mártires cristianos que se creía habían muerto allí, aunque la evidencia histórica del martirio cristiano masivo específicamente en el Coliseo es limitada. Esta designación sagrada detuvo siglos de extracción de piedra y preservación. Se instalaron las Estaciones de la Cruz, transformando el sitio de una cantera en un destino de peregrinación y asegurando su supervivencia.",
+          de: "1749 erklärte Papst Benedikt XIV. das Kolosseum als heilig für frühe christliche Märtyrer, die dort gestorben sein sollen, obwohl historische Beweise für massenhaftes christliches Martyrium speziell im Kolosseum begrenzt sind. Diese heilige Bezeichnung stoppte jahrhundertelangen Steinabbau und Erhaltung. Die Kreuzwegstationen wurden installiert, wodurch der Ort von einem Steinbruch zu einem Pilgerziel umgewandelt und sein Überleben gesichert wurde.",
+          nl: "In 1749 verklaarde paus Benedictus XIV het Colosseum heilig voor vroege christelijke martelaren waarvan werd aangenomen dat ze daar waren gestorven, hoewel historisch bewijs voor massaal christelijk martelaarschap specifiek in het Colosseum beperkt is. Deze heilige aanwijzing stopte eeuwen van steenwinning en behoud. De Kruisweg werd geïnstalleerd, waardoor de locatie van een steengroeve in een bedevaartbestemming veranderde en het voortbestaan ervan werd gewaarborgd."
+        }
+      },
+      {
+        question: {
+          en: "What specialized medical care did gladiators receive?",
+          es: "¿Qué atención médica especializada recibían los gladiadores?",
+          de: "Welche spezialisierte medizinische Versorgung erhielten Gladiatoren?",
+          nl: "Welke gespecialiseerde medische zorg kregen gladiatoren?"
+        },
+        options: [
+          { en: "No medical care was provided", es: "No se proporcionaba atención médica", de: "Es wurde keine medizinische Versorgung bereitgestellt", nl: "Er werd geen medische zorg verstrekt" },
+          { en: "Dedicated physicians and surgical facilities at gladiatorial schools", es: "Médicos dedicados e instalaciones quirúrgicas en escuelas de gladiadores", de: "Dedizierte Ärzte und chirurgische Einrichtungen an Gladiatorenschulen", nl: "Toegewijde artsen en chirurgische faciliteiten bij gladiatorenscholen" },
+          { en: "Only prayer and religious rites", es: "Solo oración y ritos religiosos", de: "Nur Gebet und religiöse Riten", nl: "Alleen gebed en religieuze riten" },
+          { en: "Self-treatment only", es: "Solo auto-tratamiento", de: "Nur Selbstbehandlung", nl: "Alleen zelfbehandeling" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Gladiators received sophisticated medical care from specialized physicians (medici). Gladiatorial schools (ludi) had infirmaries and surgical facilities. The famous physician Galen began his career treating gladiators in Pergamon, developing surgical techniques. Evidence shows successful bone-setting, wound treatment, and even brain surgery. This care protected valuable investments and kept skilled fighters competitive.",
+          es: "Los gladiadores recibían atención médica sofisticada de médicos especializados (medici). Las escuelas de gladiadores (ludi) tenían enfermerías e instalaciones quirúrgicas. El famoso médico Galeno comenzó su carrera tratando gladiadores en Pérgamo, desarrollando técnicas quirúrgicas. La evidencia muestra reducción exitosa de huesos, tratamiento de heridas e incluso cirugía cerebral. Esta atención protegía inversiones valiosas y mantenía competitivos a los luchadores hábiles.",
+          de: "Gladiatoren erhielten ausgeklügelte medizinische Versorgung von spezialisierten Ärzten (Medici). Gladiatorenschulen (Ludi) hatten Krankenstationen und chirurgische Einrichtungen. Der berühmte Arzt Galen begann seine Karriere mit der Behandlung von Gladiatoren in Pergamon und entwickelte chirurgische Techniken. Beweise zeigen erfolgreiches Knochenrichten, Wundbehandlung und sogar Hirnchirurgie. Diese Versorgung schützte wertvolle Investitionen und hielt geschickte Kämpfer wettbewerbsfähig.",
+          nl: "Gladiatoren ontvingen geavanceerde medische zorg van gespecialiseerde artsen (medici). Gladiatorenscholen (ludi) hadden zieken boegen en chirurgische faciliteiten. De beroemde arts Galenus begon zijn carrière met het behandelen van gladiatoren in Pergamon, waarbij hij chirurgische technieken ontwikkelde. Bewijs toont succesvol botzetten, wondbehandeling en zelfs hersenoperaties. Deze zorg beschermde waardevolle investeringen en hield bekwame vechters competitief."
+        }
+      },
+      {
+        question: {
+          en: "What symbolic meaning did the Colosseum hold for medieval Romans?",
+          es: "¿Qué significado simbólico tenía el Coliseo para los romanos medievales?",
+          de: "Welche symbolische Bedeutung hatte das Kolosseum für mittelalterliche Römer?",
+          nl: "Welke symbolische betekenis had het Colosseum voor middeleeuwse Romeinen?"
+        },
+        options: [
+          { en: "A reminder of pagan excess to be destroyed", es: "Un recordatorio del exceso pagano a ser destruido", de: "Eine Erinnerung an heidnischen Exzess, der zerstört werden sollte", nl: "Een herinnering aan heidense buitensporigheid die vernietigd moest worden" },
+          { en: "Both a monument to Rome's past glory and a quarry for new buildings", es: "Tanto un monumento a la gloria pasada de Roma como una cantera para nuevos edificios", de: "Sowohl ein Monument für Roms vergangenen Ruhm als auch ein Steinbruch für neue Gebäude", nl: "Zowel een monument voor Rome's vroegere glorie als een steengroeve voor nieuwe gebouwen" },
+          { en: "A military fortress only", es: "Solo una fortaleza militar", de: "Nur eine militärische Festung", nl: "Alleen een militair fort" },
+          { en: "It held no significance", es: "No tenía significancia", de: "Es hatte keine Bedeutung", nl: "Het had geen betekenis" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Medieval Romans had conflicting attitudes toward the Colosseum. It represented the grandeur of ancient Rome and served as a quarry for building material, with its stone used in St. Peter's Basilica, Palazzo Venezia, and other structures. Noble families fortified and inhabited it. This duality - veneration and exploitation - characterized medieval treatment of many Roman ruins.",
+          es: "Los romanos medievales tenían actitudes conflictivas hacia el Coliseo. Representaba la grandeza de la Roma antigua y servía como cantera de material de construcción, con su piedra usada en la Basílica de San Pedro, Palazzo Venezia y otras estructuras. Familias nobles lo fortificaron y habitaron. Esta dualidad - veneración y explotación - caracterizó el tratamiento medieval de muchas ruinas romanas.",
+          de: "Mittelalterliche Römer hatten widersprüchliche Einstellungen zum Kolosseum. Es repräsentierte die Pracht des antiken Rom und diente als Steinbruch für Baumaterial, wobei sein Stein im Petersdom, Palazzo Venezia und anderen Strukturen verwendet wurde. Adelsfamilien befestigten und bewohnten es. Diese Dualität - Verehrung und Ausbeutung - charakterisierte die mittelalterliche Behandlung vieler römischer Ruinen.",
+          nl: "Middeleeuwse Romeinen hadden tegenstrijdige houdingen tegenover het Colosseum. Het vertegenwoordigde de grootsheid van het oude Rome en diende als steengroeve voor bouwmateriaal, waarbij de steen werd gebruikt in de Sint-Pietersbasiliek, Palazzo Venezia en andere structuren. Adellijke families versterkten en bewoonden het. Deze dualiteit - verering en exploitatie - kenmerkte de middeleeuwse behandeling van veel Romeinse ruïnes."
+        }
+      },
+      {
+        question: {
+          en: "What technological innovation is being used to monitor the Colosseum's structural health?",
+          es: "¿Qué innovación tecnológica se está usando para monitorear la salud estructural del Coliseo?",
+          de: "Welche technologische Innovation wird verwendet, um die strukturelle Gesundheit des Kolosseums zu überwachen?",
+          nl: "Welke technologische innovatie wordt gebruikt om de structurele gezondheid van het Colosseum te monitoren?"
+        },
+        options: [
+          { en: "Visual inspections only", es: "Solo inspecciones visuales", de: "Nur visuelle Inspektionen", nl: "Alleen visuele inspecties" },
+          { en: "Sensor networks monitoring vibrations, temperature, and movement", es: "Redes de sensores monitoreando vibraciones, temperatura y movimiento", de: "Sensornetzwerke zur Überwachung von Vibrationen, Temperatur und Bewegung", nl: "Sensornetwerken die trillingen, temperatuur en beweging monitoren" },
+          { en: "Annual photographs", es: "Fotografías anuales", de: "Jährliche Fotografien", nl: "Jaarlijkse foto's" },
+          { en: "No monitoring is conducted", es: "No se realiza monitoreo", de: "Es wird keine Überwachung durchgeführt", nl: "Er wordt geen monitoring uitgevoerd" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Modern conservation employs advanced sensor networks throughout the structure monitoring micro-movements, vibrations (especially from nearby Metro lines), temperature fluctuations, and humidity. This real-time data helps conservators identify potential problems before they become critical. Combined with periodic laser scanning and photogrammetry, these technologies create a comprehensive health monitoring system for this ancient structure.",
+          es: "La conservación moderna emplea redes de sensores avanzadas en toda la estructura monitoreando micro-movimientos, vibraciones (especialmente de líneas de Metro cercanas), fluctuaciones de temperatura y humedad. Estos datos en tiempo real ayudan a los conservadores a identificar problemas potenciales antes de que se vuelvan críticos. Combinadas con escaneo láser periódico y fotogrametría, estas tecnologías crean un sistema integral de monitoreo de salud para esta estructura antigua.",
+          de: "Moderne Konservierung nutzt fortschrittliche Sensornetzwerke in der gesamten Struktur zur Überwachung von Mikrobewegungen, Vibrationen (insbesondere von nahegelegenen Metro-Linien), Temperaturschwankungen und Feuchtigkeit. Diese Echtzeitdaten helfen Konservatoren, potenzielle Probleme zu identifizieren, bevor sie kritisch werden. In Kombination mit periodischem Laser-Scanning und Photogrammetrie schaffen diese Technologien ein umfassendes Gesundheitsüberwachungssystem für diese alte Struktur.",
+          nl: "Moderne conservatie maakt gebruik van geavanceerde sensornetwerken door de hele structuur die microbewegingen, trillingen (vooral van nabijgelegen metrolijnen), temperatuurschommelingen en vochtigheid monitoren. Deze real-time gegevens helpen conservatoren potentiële problemen te identificeren voordat ze kritiek worden. Gecombineerd met periodieke laserscanning en fotogrammetrie creëren deze technologieën een uitgebreid gezondheidsmonitoringsysteem voor deze oude structuur."
+        }
+      },
+      {
+        question: {
+          en: "What is the significance of the Colosseum being declared a UNESCO World Heritage Site?",
+          es: "¿Cuál es la importancia de que el Coliseo sea declarado Patrimonio Mundial de la UNESCO?",
+          de: "Was ist die Bedeutung der Erklärung des Kolosseums zum UNESCO-Weltkulturerbe?",
+          nl: "Wat is de betekenis van het Colosseum dat wordt uitgeroepen tot UNESCO Werelderfgoed?"
+        },
+        options: [
+          { en: "No practical significance", es: "Sin significancia práctica", de: "Keine praktische Bedeutung", nl: "Geen praktische betekenis" },
+          { en: "International recognition and protection standards", es: "Reconocimiento internacional y estándares de protección", de: "Internationale Anerkennung und Schutzstandards", nl: "Internationale erkenning en beschermingsstandaarden" },
+          { en: "Allows unlimited tourism", es: "Permite turismo ilimitado", de: "Erlaubt unbegrenzten Tourismus", nl: "Staat onbeperkt toerisme toe" },
+          { en: "Prevents all restoration work", es: "Previene todo trabajo de restauración", de: "Verhindert alle Restaurierungsarbeiten", nl: "Voorkomt alle restauratiewerkzaamheden" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Colosseum was inscribed as a UNESCO World Heritage Site in 1980 as part of 'Historic Centre of Rome.' This designation brings international recognition, establishes conservation standards, provides access to expert guidance and funding, and commits Italy to preservation. It also raises awareness of the monument's universal cultural value and helps regulate development around the site to protect its integrity.",
+          es: "El Coliseo fue inscrito como Patrimonio Mundial de la UNESCO en 1980 como parte del 'Centro Histórico de Roma.' Esta designación trae reconocimiento internacional, establece estándares de conservación, proporciona acceso a orientación experta y financiamiento, y compromete a Italia con la preservación. También aumenta la conciencia del valor cultural universal del monumento y ayuda a regular el desarrollo alrededor del sitio para proteger su integridad.",
+          de: "Das Kolosseum wurde 1980 als Teil des 'Historischen Zentrums von Rom' zum UNESCO-Weltkulturerbe erklärt. Diese Bezeichnung bringt internationale Anerkennung, etabliert Konservierungsstandards, bietet Zugang zu Expertenberatung und Finanzierung und verpflichtet Italien zur Erhaltung. Sie erhöht auch das Bewusstsein für den universellen kulturellen Wert des Monuments und hilft, die Entwicklung rund um die Stätte zu regulieren, um ihre Integrität zu schützen.",
+          nl: "Het Colosseum werd in 1980 ingeschreven als UNESCO Werelderfgoed als onderdeel van het 'Historisch Centrum van Rome.' Deze aanwijzing brengt internationale erkenning, stelt conserveringsnormen vast, biedt toegang tot deskundige begeleiding en financiering, en verplicht Italië tot behoud. Het vergroot ook het bewustzijn van de universele culturele waarde van het monument en helpt de ontwikkeling rond de locatie te reguleren om de integriteit ervan te beschermen."
+        }
       }
     ]
   };

@@ -1,4 +1,4 @@
-﻿// Authors and Writers Quiz - Level 7: Knowledge about Authors and Writers
+// Authors and Writers Quiz - Level 7: Knowledge about Authors and Writers
 (function() {
   const level7 = {
     name: {
@@ -426,6 +426,237 @@
           es: "Gabriel García Márquez ganó el Premio Nobel de Literatura en 1982, principalmente por 'Cien años de soledad' (1967), que narra la familia Buendía a través de siete generaciones en el pueblo ficticio de Macondo, estableciendo el realismo mágico como un movimiento literario importante.",
           de: "Gabriel García Márquez gewann 1982 den Nobelpreis für Literatur, hauptsächlich für 'Hundert Jahre Einsamkeit' (1967), das die Familie Buendía über sieben Generationen in der fiktiven Stadt Macondo erzählt und den magischen Realismus als wichtige literarische Bewegung etablierte.",
           nl: "Gabriel García Márquez won de Nobelprijs voor Literatuur in 1982, voornamelijk voor 'Honderd jaar eenzaamheid' (1967), dat de familie Buendía door zeven generaties in het fictieve stadje Macondo volgt en magisch realisme als belangrijke literaire beweging vestigde."
+        }
+      },
+      {
+        question: {
+          en: "Which Japanese author wrote 'Snow Country', exploring beauty and isolation in rural Japan?",
+          es: "¿Qué autor japonés escribió 'País de nieve', explorando la belleza y el aislamiento en el Japón rural?",
+          de: "Welcher japanische Autor schrieb 'Schneeland', das Schönheit und Isolation im ländlichen Japan erforscht?",
+          nl: "Welke Japanse auteur schreef 'Snow Country', waarin schoonheid en isolatie in het landelijke Japan worden verkend?"
+        },
+        options: [
+          {en: "Yukio Mishima", es: "Yukio Mishima", de: "Yukio Mishima", nl: "Yukio Mishima"},
+          {en: "Yasunari Kawabata", es: "Yasunari Kawabata", de: "Yasunari Kawabata", nl: "Yasunari Kawabata"},
+          {en: "Kenzaburo Oe", es: "Kenzaburo Oe", de: "Kenzaburo Oe", nl: "Kenzaburo Oe"},
+          {en: "Junichiro Tanizaki", es: "Junichiro Tanizaki", de: "Junichiro Tanizaki", nl: "Junichiro Tanizaki"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Yasunari Kawabata wrote 'Snow Country' (1935-1947), a lyrical novel about a doomed love affair set in hot spring resorts. Kawabata became the first Japanese author to win the Nobel Prize in Literature in 1968.",
+          es: "Yasunari Kawabata escribió 'País de nieve' (1935-1947), una novela lírica sobre una historia de amor condenada en balnearios de aguas termales. Kawabata se convirtió en el primer autor japonés en ganar el Premio Nobel de Literatura en 1968.",
+          de: "Yasunari Kawabata schrieb 'Schneeland' (1935-1947), einen lyrischen Roman über eine verurteilte Liebesaffäre in Thermalquellen-Resorts. Kawabata wurde 1968 der erste japanische Autor, der den Nobelpreis für Literatur gewann.",
+          nl: "Yasunari Kawabata schreef 'Snow Country' (1935-1947), een lyrische roman over een gedoemde liefdesaffaire in warmwaterbronresorts. Kawabata werd de eerste Japanse auteur die de Nobelprijs voor Literatuur won in 1968."
+        }
+      },
+      {
+        question: {
+          en: "Which Irish author wrote 'Ulysses', a modernist masterpiece following Leopold Bloom through Dublin?",
+          es: "¿Qué autor irlandés escribió 'Ulises', una obra maestra modernista que sigue a Leopold Bloom por Dublín?",
+          de: "Welcher irische Autor schrieb 'Ulysses', ein modernistisches Meisterwerk, das Leopold Bloom durch Dublin folgt?",
+          nl: "Welke Ierse auteur schreef 'Ulysses', een modernistisch meesterwerk dat Leopold Bloom door Dublin volgt?"
+        },
+        options: [
+          {en: "James Joyce", es: "James Joyce", de: "James Joyce", nl: "James Joyce"},
+          {en: "W.B. Yeats", es: "W.B. Yeats", de: "W.B. Yeats", nl: "W.B. Yeats"},
+          {en: "Samuel Beckett", es: "Samuel Beckett", de: "Samuel Beckett", nl: "Samuel Beckett"},
+          {en: "Oscar Wilde", es: "Oscar Wilde", de: "Oscar Wilde", nl: "Oscar Wilde"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "James Joyce wrote 'Ulysses' (1922), chronicling a single day in Dublin through revolutionary narrative techniques including stream-of-consciousness. The novel parallels Homer's Odyssey and is considered one of the most important works of modernist literature.",
+          es: "James Joyce escribió 'Ulises' (1922), narrando un solo día en Dublín a través de técnicas narrativas revolucionarias incluido el flujo de conciencia. La novela es paralela a la Odisea de Homero y se considera una de las obras más importantes de la literatura modernista.",
+          de: "James Joyce schrieb 'Ulysses' (1922), das einen einzigen Tag in Dublin durch revolutionäre Erzähltechniken einschließlich Bewusstseinsstrom erzählt. Der Roman parallelt Homers Odyssee und gilt als eines der wichtigsten Werke der modernistischen Literatur.",
+          nl: "James Joyce schreef 'Ulysses' (1922), waarin een enkele dag in Dublin wordt beschreven door revolutionaire verhaaltechnieken waaronder bewustzijnsstroom. De roman loopt parallel met Homerus' Odyssee en wordt beschouwd als een van de belangrijkste werken van de modernistische literatuur."
+        }
+      },
+      {
+        question: {
+          en: "Which French author wrote 'In Search of Lost Time', exploring memory through seven volumes?",
+          es: "¿Qué autor francés escribió 'En busca del tiempo perdido', explorando la memoria a través de siete volúmenes?",
+          de: "Welcher französische Autor schrieb 'Auf der Suche nach der verlorenen Zeit', das Erinnerung durch sieben Bände erforscht?",
+          nl: "Welke Franse auteur schreef 'Op zoek naar de verloren tijd', waarin geheugen wordt verkend door zeven delen?"
+        },
+        options: [
+          {en: "Marcel Proust", es: "Marcel Proust", de: "Marcel Proust", nl: "Marcel Proust"},
+          {en: "André Gide", es: "André Gide", de: "André Gide", nl: "André Gide"},
+          {en: "Gustave Flaubert", es: "Gustave Flaubert", de: "Gustave Flaubert", nl: "Gustave Flaubert"},
+          {en: "Émile Zola", es: "Émile Zola", de: "Émile Zola", nl: "Émile Zola"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Marcel Proust wrote 'In Search of Lost Time' (1913-1927), a seven-volume novel exploring involuntary memory and time. The work's intricate prose and psychological depth made it one of the most influential novels of the 20th century.",
+          es: "Marcel Proust escribió 'En busca del tiempo perdido' (1913-1927), una novela de siete volúmenes que explora la memoria involuntaria y el tiempo. La prosa intrincada de la obra y su profundidad psicológica la convirtieron en una de las novelas más influyentes del siglo XX.",
+          de: "Marcel Proust schrieb 'Auf der Suche nach der verlorenen Zeit' (1913-1927), einen siebenbändigen Roman, der unwillkürliche Erinnerung und Zeit erforscht. Die komplexe Prosa des Werks und psychologische Tiefe machten es zu einem der einflussreichsten Romane des 20. Jahrhunderts.",
+          nl: "Marcel Proust schreef 'Op zoek naar de verloren tijd' (1913-1927), een zevendelige roman die onwillekeurig geheugen en tijd verkent. De ingewikkelde proza van het werk en psychologische diepte maakten het een van de meest invloedrijke romans van de 20e eeuw."
+        }
+      },
+      {
+        question: {
+          en: "Which American author wrote 'Beloved', exploring the trauma of slavery through magical realism?",
+          es: "¿Qué autora estadounidense escribió 'Beloved', explorando el trauma de la esclavitud a través del realismo mágico?",
+          de: "Welche amerikanische Autorin schrieb 'Beloved', das das Trauma der Sklaverei durch magischen Realismus erforscht?",
+          nl: "Welke Amerikaanse auteur schreef 'Beloved', waarin het trauma van slavernij wordt verkend door magisch realisme?"
+        },
+        options: [
+          {en: "Toni Morrison", es: "Toni Morrison", de: "Toni Morrison", nl: "Toni Morrison"},
+          {en: "Alice Walker", es: "Alice Walker", de: "Alice Walker", nl: "Alice Walker"},
+          {en: "Maya Angelou", es: "Maya Angelou", de: "Maya Angelou", nl: "Maya Angelou"},
+          {en: "Zora Neale Hurston", es: "Zora Neale Hurston", de: "Zora Neale Hurston", nl: "Zora Neale Hurston"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Toni Morrison wrote 'Beloved' (1987), which won the Pulitzer Prize and examines slavery's psychological legacy through the story of Sethe and her murdered daughter's ghost. Morrison won the Nobel Prize in Literature in 1993.",
+          es: "Toni Morrison escribió 'Beloved' (1987), que ganó el Premio Pulitzer y examina el legado psicológico de la esclavitud a través de la historia de Sethe y el fantasma de su hija asesinada. Morrison ganó el Premio Nobel de Literatura en 1993.",
+          de: "Toni Morrison schrieb 'Beloved' (1987), das den Pulitzer-Preis gewann und das psychologische Erbe der Sklaverei durch die Geschichte von Sethe und dem Geist ihrer ermordeten Tochter untersucht. Morrison gewann 1993 den Nobelpreis für Literatur.",
+          nl: "Toni Morrison schreef 'Beloved' (1987), dat de Pulitzer Prize won en de psychologische erfenis van slavernij onderzoekt door het verhaal van Sethe en de geest van haar vermoorde dochter. Morrison won de Nobelprijs voor Literatuur in 1993."
+        }
+      },
+      {
+        question: {
+          en: "Which German author wrote 'The Tin Drum', depicting German history through a boy who refuses to grow?",
+          es: "¿Qué autor alemán escribió 'El tambor de hojalata', representando la historia alemana a través de un niño que se niega a crecer?",
+          de: "Welcher deutsche Autor schrieb 'Die Blechtrommel', die deutsche Geschichte durch einen Jungen darstellt, der sich weigert zu wachsen?",
+          nl: "Welke Duitse auteur schreef 'De Blikken Trommel', waarin de Duitse geschiedenis wordt uitgebeeld door een jongen die weigert te groeien?"
+        },
+        options: [
+          {en: "Günter Grass", es: "Günter Grass", de: "Günter Grass", nl: "Günter Grass"},
+          {en: "Heinrich Böll", es: "Heinrich Böll", de: "Heinrich Böll", nl: "Heinrich Böll"},
+          {en: "Thomas Mann", es: "Thomas Mann", de: "Thomas Mann", nl: "Thomas Mann"},
+          {en: "Hermann Hesse", es: "Hermann Hesse", de: "Hermann Hesse", nl: "Hermann Hesse"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Günter Grass wrote 'The Tin Drum' (1959), narrated by Oskar Matzerath who refuses to grow past age three. The novel's picaresque journey through Nazi Germany and postwar reconstruction established Grass as a major literary voice, earning him the Nobel Prize in 1999.",
+          es: "Günter Grass escribió 'El tambor de hojalata' (1959), narrado por Oskar Matzerath quien se niega a crecer más allá de los tres años. El viaje picaresco de la novela por la Alemania nazi y la reconstrucción de posguerra estableció a Grass como una voz literaria importante, ganándole el Nobel en 1999.",
+          de: "Günter Grass schrieb 'Die Blechtrommel' (1959), erzählt von Oskar Matzerath, der sich weigert, über drei Jahre alt zu werden. Die pikaresque Reise des Romans durch Nazi-Deutschland und den Wiederaufbau nach dem Krieg etablierte Grass als wichtige literarische Stimme und brachte ihm 1999 den Nobelpreis ein.",
+          nl: "Günter Grass schreef 'De Blikken Trommel' (1959), verteld door Oskar Matzerath die weigert verder te groeien dan driejarige leeftijd. De picaresque reis van de roman door Nazi-Duitsland en naoorlogse wederopbouw vestigde Grass als een belangrijke literaire stem, waarmee hij de Nobelprijs won in 1999."
+        }
+      },
+      {
+        question: {
+          en: "Which Chinese author wrote 'Dream of the Red Chamber', one of China's Four Great Classical Novels?",
+          es: "¿Qué autor chino escribió 'El sueño del pabellón rojo', una de las Cuatro Grandes Novelas Clásicas de China?",
+          de: "Welcher chinesische Autor schrieb 'Der Traum der roten Kammer', einer der Vier Großen Klassischen Romane Chinas?",
+          nl: "Welke Chinese auteur schreef 'Droom van de Rode Kamer', een van de Vier Grote Klassieke Romans van China?"
+        },
+        options: [
+          {en: "Cao Xueqin", es: "Cao Xueqin", de: "Cao Xueqin", nl: "Cao Xueqin"},
+          {en: "Wu Cheng'en", es: "Wu Cheng'en", de: "Wu Cheng'en", nl: "Wu Cheng'en"},
+          {en: "Luo Guanzhong", es: "Luo Guanzhong", de: "Luo Guanzhong", nl: "Luo Guanzhong"},
+          {en: "Shi Nai'an", es: "Shi Nai'an", de: "Shi Nai'an", nl: "Shi Nai'an"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cao Xueqin wrote 'Dream of the Red Chamber' (18th century), a semi-autobiographical novel about the rise and fall of the Jia family. Considered the pinnacle of Chinese fiction, it offers detailed observations of aristocratic life in Qing Dynasty China.",
+          es: "Cao Xueqin escribió 'El sueño del pabellón rojo' (siglo XVIII), una novela semi-autobiográfica sobre el ascenso y caída de la familia Jia. Considerada la cumbre de la ficción china, ofrece observaciones detalladas de la vida aristocrática en la China de la dinastía Qing.",
+          de: "Cao Xueqin schrieb 'Der Traum der roten Kammer' (18. Jahrhundert), einen semi-autobiographischen Roman über Aufstieg und Fall der Familie Jia. Als Höhepunkt der chinesischen Fiktion betrachtet, bietet er detaillierte Beobachtungen des aristokratischen Lebens im Qing-Dynastie-China.",
+          nl: "Cao Xueqin schreef 'Droom van de Rode Kamer' (18e eeuw), een semi-autobiografische roman over de opkomst en ondergang van de Jia-familie. Beschouwd als het hoogtepunt van Chinese fictie, biedt het gedetailleerde observaties van aristocratisch leven in Qing-dynastie China."
+        }
+      },
+      {
+        question: {
+          en: "Which Colombian-American author wrote 'The Brief Wondrous Life of Oscar Wao', blending Dominican history with geek culture?",
+          es: "¿Qué autor colombiano-estadounidense escribió 'La breve y maravillosa vida de Óscar Wao', mezclando la historia dominicana con la cultura friki?",
+          de: "Welcher kolumbianisch-amerikanische Autor schrieb 'Das kurze wundersame Leben des Oscar Wao', das dominikanische Geschichte mit Geek-Kultur verbindet?",
+          nl: "Welke Colombiaans-Amerikaanse auteur schreef 'Het korte maar fantastische leven van Oscar Wao', waarin Dominicaanse geschiedenis wordt vermengd met geek-cultuur?"
+        },
+        options: [
+          {en: "Junot Díaz", es: "Junot Díaz", de: "Junot Díaz", nl: "Junot Díaz"},
+          {en: "Edwidge Danticat", es: "Edwidge Danticat", de: "Edwidge Danticat", nl: "Edwidge Danticat"},
+          {en: "Julia Alvarez", es: "Julia Alvarez", de: "Julia Alvarez", nl: "Julia Alvarez"},
+          {en: "Sandra Cisneros", es: "Sandra Cisneros", de: "Sandra Cisneros", nl: "Sandra Cisneros"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Junot Díaz wrote 'The Brief Wondrous Life of Oscar Wao' (2007), which won the Pulitzer Prize. The novel blends science fiction references with the brutal history of the Trujillo dictatorship in the Dominican Republic.",
+          es: "Junot Díaz escribió 'La breve y maravillosa vida de Óscar Wao' (2007), que ganó el Premio Pulitzer. La novela mezcla referencias de ciencia ficción con la brutal historia de la dictadura de Trujillo en República Dominicana.",
+          de: "Junot Díaz schrieb 'Das kurze wundersame Leben des Oscar Wao' (2007), das den Pulitzer-Preis gewann. Der Roman verbindet Science-Fiction-Referenzen mit der brutalen Geschichte der Trujillo-Diktatur in der Dominikanischen Republik.",
+          nl: "Junot Díaz schreef 'Het korte maar fantastische leven van Oscar Wao' (2007), dat de Pulitzer Prize won. De roman vermengt science fiction-verwijzingen met de brute geschiedenis van de Trujillo-dictatuur in de Dominicaanse Republiek."
+        }
+      },
+      {
+        question: {
+          en: "Which Senegalese author wrote 'So Long a Letter', exploring women's experiences in post-colonial Africa?",
+          es: "¿Qué autora senegalesa escribió 'Una tan larga carta', explorando las experiencias de las mujeres en África post-colonial?",
+          de: "Welche senegalesische Autorin schrieb 'So langer Brief', das die Erfahrungen von Frauen im postkolonialen Afrika erforscht?",
+          nl: "Welke Senegalese auteur schreef 'Zo'n lange brief', waarin de ervaringen van vrouwen in post-koloniaal Afrika worden verkend?"
+        },
+        options: [
+          {en: "Mariama Bâ", es: "Mariama Bâ", de: "Mariama Bâ", nl: "Mariama Bâ"},
+          {en: "Chimamanda Ngozi Adichie", es: "Chimamanda Ngozi Adichie", de: "Chimamanda Ngozi Adichie", nl: "Chimamanda Ngozi Adichie"},
+          {en: "Ama Ata Aidoo", es: "Ama Ata Aidoo", de: "Ama Ata Aidoo", nl: "Ama Ata Aidoo"},
+          {en: "Buchi Emecheta", es: "Buchi Emecheta", de: "Buchi Emecheta", nl: "Buchi Emecheta"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mariama Bâ wrote 'So Long a Letter' (1979), an epistolary novel about a woman writing to her friend after her husband takes a second wife. The work explores polygamy, women's rights, and modernization in Senegalese society.",
+          es: "Mariama Bâ escribió 'Una tan larga carta' (1979), una novela epistolar sobre una mujer que escribe a su amiga después de que su esposo toma una segunda esposa. La obra explora la poligamia, los derechos de las mujeres y la modernización en la sociedad senegalesa.",
+          de: "Mariama Bâ schrieb 'So langer Brief' (1979), einen Briefroman über eine Frau, die ihrer Freundin schreibt, nachdem ihr Mann eine zweite Frau nimmt. Das Werk erforscht Polygamie, Frauenrechte und Modernisierung in der senegalesischen Gesellschaft.",
+          nl: "Mariama Bâ schreef 'Zo'n lange brief' (1979), een epistolaire roman over een vrouw die haar vriendin schrijft nadat haar man een tweede vrouw neemt. Het werk verkent polygamie, vrouwenrechten en modernisering in de Senegalese samenleving."
+        }
+      },
+      {
+        question: {
+          en: "Which Greek author wrote 'Zorba the Greek', celebrating life's vitality and spontaneity?",
+          es: "¿Qué autor griego escribió 'Zorba el griego', celebrando la vitalidad y espontaneidad de la vida?",
+          de: "Welcher griechische Autor schrieb 'Alexis Sorbas', das die Vitalität und Spontaneität des Lebens feiert?",
+          nl: "Welke Griekse auteur schreef 'Zorba de Griek', waarin de vitaliteit en spontaniteit van het leven wordt gevierd?"
+        },
+        options: [
+          {en: "Nikos Kazantzakis", es: "Nikos Kazantzakis", de: "Nikos Kazantzakis", nl: "Nikos Kazantzakis"},
+          {en: "Constantine Cavafy", es: "Constantine Cavafy", de: "Constantine Cavafy", nl: "Constantine Cavafy"},
+          {en: "George Seferis", es: "George Seferis", de: "George Seferis", nl: "George Seferis"},
+          {en: "Odysseas Elytis", es: "Odysseas Elytis", de: "Odysseas Elytis", nl: "Odysseas Elytis"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Nikos Kazantzakis wrote 'Zorba the Greek' (1946), exploring the friendship between an intellectual writer and the earthy, life-embracing Zorba. The novel celebrates passion, freedom, and living fully in the moment.",
+          es: "Nikos Kazantzakis escribió 'Zorba el griego' (1946), explorando la amistad entre un escritor intelectual y el terrenal Zorba que abraza la vida. La novela celebra la pasión, la libertad y vivir plenamente el momento.",
+          de: "Nikos Kazantzakis schrieb 'Alexis Sorbas' (1946), das die Freundschaft zwischen einem intellektuellen Schriftsteller und dem bodenständigen, lebensbejahenden Zorba erforscht. Der Roman feiert Leidenschaft, Freiheit und das volle Leben im Moment.",
+          nl: "Nikos Kazantzakis schreef 'Zorba de Griek' (1946), waarin de vriendschap wordt verkend tussen een intellectuele schrijver en de aardse, levensomarmende Zorba. De roman viert passie, vrijheid en het volledig leven in het moment."
+        }
+      },
+      {
+        question: {
+          en: "Which Afghan author wrote 'The Kite Runner', exploring friendship and redemption against Afghanistan's turbulent history?",
+          es: "¿Qué autor afgano escribió 'Cometas en el cielo', explorando la amistad y redención contra la historia turbulenta de Afganistán?",
+          de: "Welcher afghanische Autor schrieb 'Drachenläufer', das Freundschaft und Erlösung vor Afghanistans turbulenter Geschichte erforscht?",
+          nl: "Welke Afghaanse auteur schreef 'De Vliegeraar', waarin vriendschap en verlossing worden verkend tegen de turbulente geschiedenis van Afghanistan?"
+        },
+        options: [
+          {en: "Khaled Hosseini", es: "Khaled Hosseini", de: "Khaled Hosseini", nl: "Khaled Hosseini"},
+          {en: "Atiq Rahimi", es: "Atiq Rahimi", de: "Atiq Rahimi", nl: "Atiq Rahimi"},
+          {en: "Hossein Mortezaian", es: "Hossein Mortezaian", de: "Hossein Mortezaian", nl: "Hossein Mortezaian"},
+          {en: "Sayd Bahodine Majrouh", es: "Sayd Bahodine Majrouh", de: "Sayd Bahodine Majrouh", nl: "Sayd Bahodine Majrouh"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Khaled Hosseini wrote 'The Kite Runner' (2003), his debut novel about childhood friends Amir and Hassan in Kabul. The story spans decades of Afghan history, from the monarchy through Soviet occupation to Taliban rule.",
+          es: "Khaled Hosseini escribió 'Cometas en el cielo' (2003), su novela debut sobre los amigos de la infancia Amir y Hassan en Kabul. La historia abarca décadas de historia afgana, desde la monarquía pasando por la ocupación soviética hasta el gobierno talibán.",
+          de: "Khaled Hosseini schrieb 'Drachenläufer' (2003), seinen Debütroman über die Kindheitsfreunde Amir und Hassan in Kabul. Die Geschichte umfasst Jahrzehnte afghanischer Geschichte, von der Monarchie über die sowjetische Besatzung bis zur Taliban-Herrschaft.",
+          nl: "Khaled Hosseini schreef 'De Vliegeraar' (2003), zijn debuutroman over kindervrienden Amir en Hassan in Kabul. Het verhaal beslaat decennia van Afghaanse geschiedenis, van de monarchie door de Sovjetbezetting tot de Taliban-heerschappij."
+        }
+      },
+      {
+        question: {
+          en: "Which Nigerian author wrote 'Things Fall Apart', depicting pre-colonial Igbo society?",
+          es: "¿Qué autor nigeriano escribió 'Todo se desmorona', representando la sociedad igbo precolonial?",
+          de: "Welcher nigerianische Autor schrieb 'Alles zerfällt', das die präkoloniale Igbo-Gesellschaft darstellt?",
+          nl: "Welke Nigeriaanse auteur schreef 'Dingen vallen uit elkaar', waarin de pre-koloniale Igbo-samenleving wordt uitgebeeld?"
+        },
+        options: [
+          {en: "Chinua Achebe", es: "Chinua Achebe", de: "Chinua Achebe", nl: "Chinua Achebe"},
+          {en: "Wole Soyinka", es: "Wole Soyinka", de: "Wole Soyinka", nl: "Wole Soyinka"},
+          {en: "Ben Okri", es: "Ben Okri", de: "Ben Okri", nl: "Ben Okri"},
+          {en: "Cyprian Ekwensi", es: "Cyprian Ekwensi", de: "Cyprian Ekwensi", nl: "Cyprian Ekwensi"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Chinua Achebe wrote 'Things Fall Apart' (1958), depicting Igbo society before and after European colonization. The novel became a cornerstone of African literature, challenging Western stereotypes and presenting African perspectives on colonialism.",
+          es: "Chinua Achebe escribió 'Todo se desmorona' (1958), representando la sociedad igbo antes y después de la colonización europea. La novela se convirtió en piedra angular de la literatura africana, desafiando estereotipos occidentales y presentando perspectivas africanas sobre el colonialismo.",
+          de: "Chinua Achebe schrieb 'Alles zerfällt' (1958), das die Igbo-Gesellschaft vor und nach der europäischen Kolonisierung darstellt. Der Roman wurde zu einem Grundpfeiler der afrikanischen Literatur, der westliche Stereotypen herausforderte und afrikanische Perspektiven auf den Kolonialismus präsentierte.",
+          nl: "Chinua Achebe schreef 'Dingen vallen uit elkaar' (1958), waarin de Igbo-samenleving voor en na de Europese kolonisatie wordt uitgebeeld. De roman werd een hoeksteen van de Afrikaanse literatuur, waarbij westerse stereotypen werden uitgedaagd en Afrikaanse perspectieven op het kolonialisme werden gepresenteerd."
         }
       }
     ]

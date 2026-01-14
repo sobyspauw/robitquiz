@@ -426,6 +426,406 @@
           es: "Al lama nunca se le da un título formal en la novela. Se le describe como un monje erudito de un monasterio cerca de Such-zen que está en una peregrinación para encontrar el legendario Río de la Flecha que lavará los pecados. Se le llama simplemente 'el lama' en toda la obra.",
           de: "Der Lama erhält im Roman nie einen formellen Titel. Er wird als gelehrter Mönch aus einem Kloster in der Nähe von Such-zen beschrieben, der auf einer Pilgerreise ist, um den legendären Fluss des Pfeils zu finden, der die Sünde wegwaschen wird. Er wird durchgehend einfach als 'der Lama' bezeichnet.",
           nl: "De lama krijgt nooit een formele titel in de roman. Hij wordt beschreven als een geleerde monnik uit een klooster nabij Such-zen die op bedevaart is om de legendarische Rivier van de Pijl te vinden die de zonden zal wegwassen. Hij wordt simpelweg 'de lama' genoemd door de hele roman."
+        }      },
+      {
+        question: {
+          en: "Who wrote The Scarlet Pimpernel?",
+          es: "Who wrote The Scarlet Pimpernel?",
+          de: "Who wrote The Scarlet Pimpernel?",
+          nl: "Who wrote The Scarlet Pimpernel?"
+        },
+        options: [
+          { en: "Baroness Orczy", es: "Baroness Orczy", de: "Baroness Orczy", nl: "Baroness Orczy" },
+          { en: "Alexandre Dumas", es: "Alexandre Dumas", de: "Alexandre Dumas", nl: "Alexandre Dumas" },
+          { en: "Victor Hugo", es: "Victor Hugo", de: "Victor Hugo", nl: "Victor Hugo" },
+          { en: "Charles Dickens", es: "Charles Dickens", de: "Charles Dickens", nl: "Charles Dickens" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Baroness Orczy wrote The Scarlet Pimpernel in 1905 about a hero rescuing aristocrats during French Revolution.",
+          es: "Baroness Orczy wrote The Scarlet Pimpernel in 1905 about a hero rescuing aristocrats during French Revolution.",
+          de: "Baroness Orczy wrote The Scarlet Pimpernel in 1905 about a hero rescuing aristocrats during French Revolution.",
+          nl: "Baroness Orczy wrote The Scarlet Pimpernel in 1905 about a hero rescuing aristocrats during French Revolution."
+        }      },
+      {
+        question: {
+          en: "What is the name of Captain Nemos submarine?",
+          es: "What is the name of Captain Nemos submarine?",
+          de: "What is the name of Captain Nemos submarine?",
+          nl: "What is the name of Captain Nemos submarine?"
+        },
+        options: [
+          { en: "Nautilus", es: "Nautilus", de: "Nautilus", nl: "Nautilus" },
+          { en: "Triton", es: "Triton", de: "Triton", nl: "Triton" },
+          { en: "Poseidon", es: "Poseidon", de: "Poseidon", nl: "Poseidon" },
+          { en: "Leviathan", es: "Leviathan", de: "Leviathan", nl: "Leviathan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Nautilus is the advanced submarine in Twenty Thousand Leagues Under the Sea.",
+          es: "The Nautilus is the advanced submarine in Twenty Thousand Leagues Under the Sea.",
+          de: "The Nautilus is the advanced submarine in Twenty Thousand Leagues Under the Sea.",
+          nl: "The Nautilus is the advanced submarine in Twenty Thousand Leagues Under the Sea."
+        }      },
+      {
+        question: {
+          en: "Who wrote The Coral Island?",
+          es: "Who wrote The Coral Island?",
+          de: "Who wrote The Coral Island?",
+          nl: "Who wrote The Coral Island?"
+        },
+        options: [
+          { en: "R.M. Ballantyne", es: "R.M. Ballantyne", de: "R.M. Ballantyne", nl: "R.M. Ballantyne" },
+          { en: "Daniel Defoe", es: "Daniel Defoe", de: "Daniel Defoe", nl: "Daniel Defoe" },
+          { en: "Robert Louis Stevenson", es: "Robert Louis Stevenson", de: "Robert Louis Stevenson", nl: "Robert Louis Stevenson" },
+          { en: "Jules Verne", es: "Jules Verne", de: "Jules Verne", nl: "Jules Verne" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "R.M. Ballantyne wrote The Coral Island in 1857 about boys stranded on a Pacific island.",
+          es: "R.M. Ballantyne wrote The Coral Island in 1857 about boys stranded on a Pacific island.",
+          de: "R.M. Ballantyne wrote The Coral Island in 1857 about boys stranded on a Pacific island.",
+          nl: "R.M. Ballantyne wrote The Coral Island in 1857 about boys stranded on a Pacific island."
+        }      },
+      {
+        question: {
+          en: "In which book does Natty Bumppo appear?",
+          es: "In which book does Natty Bumppo appear?",
+          de: "In which book does Natty Bumppo appear?",
+          nl: "In which book does Natty Bumppo appear?"
+        },
+        options: [
+          { en: "The Leatherstocking Tales", es: "The Leatherstocking Tales", de: "The Leatherstocking Tales", nl: "The Leatherstocking Tales" },
+          { en: "The Last Mohican", es: "The Last Mohican", de: "The Last Mohican", nl: "The Last Mohican" },
+          { en: "The Pathfinder", es: "The Pathfinder", de: "The Pathfinder", nl: "The Pathfinder" },
+          { en: "All of the above", es: "All of the above", de: "All of the above", nl: "All of the above" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Natty Bumppo appears throughout James Fenimore Coopers Leatherstocking Tales series.",
+          es: "Natty Bumppo appears throughout James Fenimore Coopers Leatherstocking Tales series.",
+          de: "Natty Bumppo appears throughout James Fenimore Coopers Leatherstocking Tales series.",
+          nl: "Natty Bumppo appears throughout James Fenimore Coopers Leatherstocking Tales series."
+        }      },
+      {
+        question: {
+          en: "Who created the character Phileas Fogg?",
+          es: "Who created the character Phileas Fogg?",
+          de: "Who created the character Phileas Fogg?",
+          nl: "Who created the character Phileas Fogg?"
+        },
+        options: [
+          { en: "Jules Verne", es: "Jules Verne", de: "Jules Verne", nl: "Jules Verne" },
+          { en: "H.G. Wells", es: "H.G. Wells", de: "H.G. Wells", nl: "H.G. Wells" },
+          { en: "Arthur Conan Doyle", es: "Arthur Conan Doyle", de: "Arthur Conan Doyle", nl: "Arthur Conan Doyle" },
+          { en: "Mark Twain", es: "Mark Twain", de: "Mark Twain", nl: "Mark Twain" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jules Verne created Phileas Fogg for Around the World in Eighty Days.",
+          es: "Jules Verne created Phileas Fogg for Around the World in Eighty Days.",
+          de: "Jules Verne created Phileas Fogg for Around the World in Eighty Days.",
+          nl: "Jules Verne created Phileas Fogg for Around the World in Eighty Days."
+        }      },
+      {
+        question: {
+          en: "What is Bagheera in The Jungle Book?",
+          es: "What is Bagheera in The Jungle Book?",
+          de: "What is Bagheera in The Jungle Book?",
+          nl: "What is Bagheera in The Jungle Book?"
+        },
+        options: [
+          { en: "A black panther", es: "A black panther", de: "A black panther", nl: "A black panther" },
+          { en: "A brown bear", es: "A brown bear", de: "A brown bear", nl: "A brown bear" },
+          { en: "A wolf", es: "A wolf", de: "A wolf", nl: "A wolf" },
+          { en: "A tiger", es: "A tiger", de: "A tiger", nl: "A tiger" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bagheera is the sleek black panther who befriends and protects Mowgli.",
+          es: "Bagheera is the sleek black panther who befriends and protects Mowgli.",
+          de: "Bagheera is the sleek black panther who befriends and protects Mowgli.",
+          nl: "Bagheera is the sleek black panther who befriends and protects Mowgli."
+        }      },
+      {
+        question: {
+          en: "Who wrote She about adventures in Africa?",
+          es: "Who wrote She about adventures in Africa?",
+          de: "Who wrote She about adventures in Africa?",
+          nl: "Who wrote She about adventures in Africa?"
+        },
+        options: [
+          { en: "H. Rider Haggard", es: "H. Rider Haggard", de: "H. Rider Haggard", nl: "H. Rider Haggard" },
+          { en: "Joseph Conrad", es: "Joseph Conrad", de: "Joseph Conrad", nl: "Joseph Conrad" },
+          { en: "Rudyard Kipling", es: "Rudyard Kipling", de: "Rudyard Kipling", nl: "Rudyard Kipling" },
+          { en: "Edgar Rice Burroughs", es: "Edgar Rice Burroughs", de: "Edgar Rice Burroughs", nl: "Edgar Rice Burroughs" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "H. Rider Haggard wrote She in 1887 about the immortal queen Ayesha.",
+          es: "H. Rider Haggard wrote She in 1887 about the immortal queen Ayesha.",
+          de: "H. Rider Haggard wrote She in 1887 about the immortal queen Ayesha.",
+          nl: "H. Rider Haggard wrote She in 1887 about the immortal queen Ayesha."
+        }      },
+      {
+        question: {
+          en: "In Moby Dick, who is the narrator?",
+          es: "In Moby Dick, who is the narrator?",
+          de: "In Moby Dick, who is the narrator?",
+          nl: "In Moby Dick, who is the narrator?"
+        },
+        options: [
+          { en: "Ishmael", es: "Ishmael", de: "Ishmael", nl: "Ishmael" },
+          { en: "Ahab", es: "Ahab", de: "Ahab", nl: "Ahab" },
+          { en: "Starbuck", es: "Starbuck", de: "Starbuck", nl: "Starbuck" },
+          { en: "Queequeg", es: "Queequeg", de: "Queequeg", nl: "Queequeg" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ishmael is the narrator who begins with Call me Ishmael.",
+          es: "Ishmael is the narrator who begins with Call me Ishmael.",
+          de: "Ishmael is the narrator who begins with Call me Ishmael.",
+          nl: "Ishmael is the narrator who begins with Call me Ishmael."
+        }      },
+      {
+        question: {
+          en: "Who wrote The Man in the Iron Mask?",
+          es: "Who wrote The Man in the Iron Mask?",
+          de: "Who wrote The Man in the Iron Mask?",
+          nl: "Who wrote The Man in the Iron Mask?"
+        },
+        options: [
+          { en: "Alexandre Dumas", es: "Alexandre Dumas", de: "Alexandre Dumas", nl: "Alexandre Dumas" },
+          { en: "Victor Hugo", es: "Victor Hugo", de: "Victor Hugo", nl: "Victor Hugo" },
+          { en: "Emile Zola", es: "Emile Zola", de: "Emile Zola", nl: "Emile Zola" },
+          { en: "Honore de Balzac", es: "Honore de Balzac", de: "Honore de Balzac", nl: "Honore de Balzac" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Alexandre Dumas wrote The Man in the Iron Mask as part of The Vicomte of Bragelonne.",
+          es: "Alexandre Dumas wrote The Man in the Iron Mask as part of The Vicomte of Bragelonne.",
+          de: "Alexandre Dumas wrote The Man in the Iron Mask as part of The Vicomte of Bragelonne.",
+          nl: "Alexandre Dumas wrote The Man in the Iron Mask as part of The Vicomte of Bragelonne."
+        }      },
+      {
+        question: {
+          en: "What ship is featured in Treasure Island?",
+          es: "What ship is featured in Treasure Island?",
+          de: "What ship is featured in Treasure Island?",
+          nl: "What ship is featured in Treasure Island?"
+        },
+        options: [
+          { en: "Hispaniola", es: "Hispaniola", de: "Hispaniola", nl: "Hispaniola" },
+          { en: "Pequod", es: "Pequod", de: "Pequod", nl: "Pequod" },
+          { en: "Nautilus", es: "Nautilus", de: "Nautilus", nl: "Nautilus" },
+          { en: "Bounty", es: "Bounty", de: "Bounty", nl: "Bounty" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Hispaniola is the ship that sails to Treasure Island.",
+          es: "The Hispaniola is the ship that sails to Treasure Island.",
+          de: "The Hispaniola is the ship that sails to Treasure Island.",
+          nl: "The Hispaniola is the ship that sails to Treasure Island."
+        }      },
+      {
+        question: {
+          en: "Who is the author of The Thirty-Nine Steps?",
+          es: "Who is the author of The Thirty-Nine Steps?",
+          de: "Who is the author of The Thirty-Nine Steps?",
+          nl: "Who is the author of The Thirty-Nine Steps?"
+        },
+        options: [
+          { en: "John Buchan", es: "John Buchan", de: "John Buchan", nl: "John Buchan" },
+          { en: "Eric Ambler", es: "Eric Ambler", de: "Eric Ambler", nl: "Eric Ambler" },
+          { en: "Graham Greene", es: "Graham Greene", de: "Graham Greene", nl: "Graham Greene" },
+          { en: "Ian Fleming", es: "Ian Fleming", de: "Ian Fleming", nl: "Ian Fleming" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "John Buchan wrote The Thirty-Nine Steps in 1915 featuring Richard Hannay.",
+          es: "John Buchan wrote The Thirty-Nine Steps in 1915 featuring Richard Hannay.",
+          de: "John Buchan wrote The Thirty-Nine Steps in 1915 featuring Richard Hannay.",
+          nl: "John Buchan wrote The Thirty-Nine Steps in 1915 featuring Richard Hannay."
+        }      },
+      {
+        question: {
+          en: "In King Solomons Mines, what are they searching for?",
+          es: "In King Solomons Mines, what are they searching for?",
+          de: "In King Solomons Mines, what are they searching for?",
+          nl: "In King Solomons Mines, what are they searching for?"
+        },
+        options: [
+          { en: "Diamond mines", es: "Diamond mines", de: "Diamond mines", nl: "Diamond mines" },
+          { en: "Gold mines", es: "Gold mines", de: "Gold mines", nl: "Gold mines" },
+          { en: "Lost city", es: "Lost city", de: "Lost city", nl: "Lost city" },
+          { en: "Ancient scrolls", es: "Ancient scrolls", de: "Ancient scrolls", nl: "Ancient scrolls" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "They search for the legendary diamond mines of King Solomon in Africa.",
+          es: "They search for the legendary diamond mines of King Solomon in Africa.",
+          de: "They search for the legendary diamond mines of King Solomon in Africa.",
+          nl: "They search for the legendary diamond mines of King Solomon in Africa."
+        }      },
+      {
+        question: {
+          en: "Who wrote Two Years Before the Mast?",
+          es: "Who wrote Two Years Before the Mast?",
+          de: "Who wrote Two Years Before the Mast?",
+          nl: "Who wrote Two Years Before the Mast?"
+        },
+        options: [
+          { en: "Richard Henry Dana Jr.", es: "Richard Henry Dana Jr.", de: "Richard Henry Dana Jr.", nl: "Richard Henry Dana Jr." },
+          { en: "Herman Melville", es: "Herman Melville", de: "Herman Melville", nl: "Herman Melville" },
+          { en: "Jack London", es: "Jack London", de: "Jack London", nl: "Jack London" },
+          { en: "Joseph Conrad", es: "Joseph Conrad", de: "Joseph Conrad", nl: "Joseph Conrad" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Richard Henry Dana Jr. wrote this 1840 memoir of life as a sailor.",
+          es: "Richard Henry Dana Jr. wrote this 1840 memoir of life as a sailor.",
+          de: "Richard Henry Dana Jr. wrote this 1840 memoir of life as a sailor.",
+          nl: "Richard Henry Dana Jr. wrote this 1840 memoir of life as a sailor."
+        }      },
+      {
+        question: {
+          en: "What is the name of Tom Sawyers girlfriend?",
+          es: "What is the name of Tom Sawyers girlfriend?",
+          de: "What is the name of Tom Sawyers girlfriend?",
+          nl: "What is the name of Tom Sawyers girlfriend?"
+        },
+        options: [
+          { en: "Becky Thatcher", es: "Becky Thatcher", de: "Becky Thatcher", nl: "Becky Thatcher" },
+          { en: "Mary Jane", es: "Mary Jane", de: "Mary Jane", nl: "Mary Jane" },
+          { en: "Sally Harper", es: "Sally Harper", de: "Sally Harper", nl: "Sally Harper" },
+          { en: "Susan Miller", es: "Susan Miller", de: "Susan Miller", nl: "Susan Miller" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Becky Thatcher is Tom Sawyers love interest in Mark Twains novels.",
+          es: "Becky Thatcher is Tom Sawyers love interest in Mark Twains novels.",
+          de: "Becky Thatcher is Tom Sawyers love interest in Mark Twains novels.",
+          nl: "Becky Thatcher is Tom Sawyers love interest in Mark Twains novels."
+        }      },
+      {
+        question: {
+          en: "Who created Allan Quatermain?",
+          es: "Who created Allan Quatermain?",
+          de: "Who created Allan Quatermain?",
+          nl: "Who created Allan Quatermain?"
+        },
+        options: [
+          { en: "H. Rider Haggard", es: "H. Rider Haggard", de: "H. Rider Haggard", nl: "H. Rider Haggard" },
+          { en: "Arthur Conan Doyle", es: "Arthur Conan Doyle", de: "Arthur Conan Doyle", nl: "Arthur Conan Doyle" },
+          { en: "Edgar Rice Burroughs", es: "Edgar Rice Burroughs", de: "Edgar Rice Burroughs", nl: "Edgar Rice Burroughs" },
+          { en: "Jules Verne", es: "Jules Verne", de: "Jules Verne", nl: "Jules Verne" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "H. Rider Haggard created the hunter Allan Quatermain in King Solomons Mines.",
+          es: "H. Rider Haggard created the hunter Allan Quatermain in King Solomons Mines.",
+          de: "H. Rider Haggard created the hunter Allan Quatermain in King Solomons Mines.",
+          nl: "H. Rider Haggard created the hunter Allan Quatermain in King Solomons Mines."
+        }      },
+      {
+        question: {
+          en: "In The Count of Monte Cristo, what is the treasure island called?",
+          es: "In The Count of Monte Cristo, what is the treasure island called?",
+          de: "In The Count of Monte Cristo, what is the treasure island called?",
+          nl: "In The Count of Monte Cristo, what is the treasure island called?"
+        },
+        options: [
+          { en: "Monte Cristo", es: "Monte Cristo", de: "Monte Cristo", nl: "Monte Cristo" },
+          { en: "Elba", es: "Elba", de: "Elba", nl: "Elba" },
+          { en: "Corsica", es: "Corsica", de: "Corsica", nl: "Corsica" },
+          { en: "Sardinia", es: "Sardinia", de: "Sardinia", nl: "Sardinia" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The treasure is hidden on the island of Monte Cristo where Dantes finds his fortune.",
+          es: "The treasure is hidden on the island of Monte Cristo where Dantes finds his fortune.",
+          de: "The treasure is hidden on the island of Monte Cristo where Dantes finds his fortune.",
+          nl: "The treasure is hidden on the island of Monte Cristo where Dantes finds his fortune."
+        }      },
+      {
+        question: {
+          en: "Who wrote Master and Commander?",
+          es: "Who wrote Master and Commander?",
+          de: "Who wrote Master and Commander?",
+          nl: "Who wrote Master and Commander?"
+        },
+        options: [
+          { en: "Patrick OBrian", es: "Patrick OBrian", de: "Patrick OBrian", nl: "Patrick OBrian" },
+          { en: "C.S. Forester", es: "C.S. Forester", de: "C.S. Forester", nl: "C.S. Forester" },
+          { en: "Herman Melville", es: "Herman Melville", de: "Herman Melville", nl: "Herman Melville" },
+          { en: "Joseph Conrad", es: "Joseph Conrad", de: "Joseph Conrad", nl: "Joseph Conrad" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Patrick OBrian wrote Master and Commander starting the Aubrey-Maturin series in 1969.",
+          es: "Patrick OBrian wrote Master and Commander starting the Aubrey-Maturin series in 1969.",
+          de: "Patrick OBrian wrote Master and Commander starting the Aubrey-Maturin series in 1969.",
+          nl: "Patrick OBrian wrote Master and Commander starting the Aubrey-Maturin series in 1969."
+        }      },
+      {
+        question: {
+          en: "What animal is Kaa in The Jungle Book?",
+          es: "What animal is Kaa in The Jungle Book?",
+          de: "What animal is Kaa in The Jungle Book?",
+          nl: "What animal is Kaa in The Jungle Book?"
+        },
+        options: [
+          { en: "Python", es: "Python", de: "Python", nl: "Python" },
+          { en: "Cobra", es: "Cobra", de: "Cobra", nl: "Cobra" },
+          { en: "Viper", es: "Viper", de: "Viper", nl: "Viper" },
+          { en: "Anaconda", es: "Anaconda", de: "Anaconda", nl: "Anaconda" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Kaa is a python who uses hypnosis and appears in several Jungle Book stories.",
+          es: "Kaa is a python who uses hypnosis and appears in several Jungle Book stories.",
+          de: "Kaa is a python who uses hypnosis and appears in several Jungle Book stories.",
+          nl: "Kaa is a python who uses hypnosis and appears in several Jungle Book stories."
+        }      },
+      {
+        question: {
+          en: "Who is the villain in The Three Musketeers?",
+          es: "Who is the villain in The Three Musketeers?",
+          de: "Who is the villain in The Three Musketeers?",
+          nl: "Who is the villain in The Three Musketeers?"
+        },
+        options: [
+          { en: "Cardinal Richelieu", es: "Cardinal Richelieu", de: "Cardinal Richelieu", nl: "Cardinal Richelieu" },
+          { en: "Milady de Winter", es: "Milady de Winter", de: "Milady de Winter", nl: "Milady de Winter" },
+          { en: "Both A and B", es: "Both A and B", de: "Both A and B", nl: "Both A and B" },
+          { en: "Comte de Rochefort", es: "Comte de Rochefort", de: "Comte de Rochefort", nl: "Comte de Rochefort" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Both Cardinal Richelieu and Milady de Winter serve as antagonists.",
+          es: "Both Cardinal Richelieu and Milady de Winter serve as antagonists.",
+          de: "Both Cardinal Richelieu and Milady de Winter serve as antagonists.",
+          nl: "Both Cardinal Richelieu and Milady de Winter serve as antagonists."
+        }      },
+      {
+        question: {
+          en: "In Robinson Crusoe, how many years is he stranded?",
+          es: "In Robinson Crusoe, how many years is he stranded?",
+          de: "In Robinson Crusoe, how many years is he stranded?",
+          nl: "In Robinson Crusoe, how many years is he stranded?"
+        },
+        options: [
+          { en: "28 years", es: "28 years", de: "28 years", nl: "28 years" },
+          { en: "10 years", es: "10 years", de: "10 years", nl: "10 years" },
+          { en: "15 years", es: "15 years", de: "15 years", nl: "15 years" },
+          { en: "20 years", es: "20 years", de: "20 years", nl: "20 years" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Robinson Crusoe is stranded for 28 years before being rescued.",
+          es: "Robinson Crusoe is stranded for 28 years before being rescued.",
+          de: "Robinson Crusoe is stranded for 28 years before being rescued.",
+          nl: "Robinson Crusoe is stranded for 28 years before being rescued."
         }
       }
     ]

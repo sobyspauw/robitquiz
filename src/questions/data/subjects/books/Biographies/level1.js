@@ -425,6 +425,406 @@
           es: "Anthony Bourdain escribió 'Kitchen Confidential' (2000), una memoria cándida y a menudo impactante sobre sus experiencias trabajando en cocinas de restaurantes y el mundo culinario.",
           de: "Anthony Bourdain schrieb 'Kitchen Confidential' (2000), eine offene und oft schockierende Memoiren über seine Erfahrungen in Restaurantküchen und der kulinarischen Welt.",
           nl: "Anthony Bourdain schreef 'Kitchen Confidential' (2000), een openhartige en vaak schokkende memoire over zijn ervaringen in restaurantkeukens en de culinaire wereld."
+        }      },
+      {
+        question: {
+          en: "Who wrote The Diary of a Young Girl?",
+          es: "Who wrote The Diary of a Young Girl?",
+          de: "Who wrote The Diary of a Young Girl?",
+          nl: "Who wrote The Diary of a Young Girl?"
+        },
+        options: [
+          { en: "Anne Frank", es: "Anne Frank", de: "Anne Frank", nl: "Anne Frank" },
+          { en: "Helen Keller", es: "Helen Keller", de: "Helen Keller", nl: "Helen Keller" },
+          { en: "Malala Yousafzai", es: "Malala Yousafzai", de: "Malala Yousafzai", nl: "Malala Yousafzai" },
+          { en: "Marie Curie", es: "Marie Curie", de: "Marie Curie", nl: "Marie Curie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Anne Frank wrote her famous diary while hiding from Nazis in Amsterdam during WWII.",
+          es: "Anne Frank wrote her famous diary while hiding from Nazis in Amsterdam during WWII.",
+          de: "Anne Frank wrote her famous diary while hiding from Nazis in Amsterdam during WWII.",
+          nl: "Anne Frank wrote her famous diary while hiding from Nazis in Amsterdam during WWII."
+        }      },
+      {
+        question: {
+          en: "Which autobiography is by Nelson Mandela?",
+          es: "Which autobiography is by Nelson Mandela?",
+          de: "Which autobiography is by Nelson Mandela?",
+          nl: "Which autobiography is by Nelson Mandela?"
+        },
+        options: [
+          { en: "Long Walk to Freedom", es: "Long Walk to Freedom", de: "Long Walk to Freedom", nl: "Long Walk to Freedom" },
+          { en: "I Know Why the Caged Bird Sings", es: "I Know Why the Caged Bird Sings", de: "I Know Why the Caged Bird Sings", nl: "I Know Why the Caged Bird Sings" },
+          { en: "Dreams from My Father", es: "Dreams from My Father", de: "Dreams from My Father", nl: "Dreams from My Father" },
+          { en: "Becoming", es: "Becoming", de: "Becoming", nl: "Becoming" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Long Walk to Freedom chronicles Mandelas life and fight against apartheid.",
+          es: "Long Walk to Freedom chronicles Mandelas life and fight against apartheid.",
+          de: "Long Walk to Freedom chronicles Mandelas life and fight against apartheid.",
+          nl: "Long Walk to Freedom chronicles Mandelas life and fight against apartheid."
+        }      },
+      {
+        question: {
+          en: "Who wrote Steve Jobs biography?",
+          es: "Who wrote Steve Jobs biography?",
+          de: "Who wrote Steve Jobs biography?",
+          nl: "Who wrote Steve Jobs biography?"
+        },
+        options: [
+          { en: "Walter Isaacson", es: "Walter Isaacson", de: "Walter Isaacson", nl: "Walter Isaacson" },
+          { en: "Malcolm Gladwell", es: "Malcolm Gladwell", de: "Malcolm Gladwell", nl: "Malcolm Gladwell" },
+          { en: "Michael Lewis", es: "Michael Lewis", de: "Michael Lewis", nl: "Michael Lewis" },
+          { en: "Ben Mezrich", es: "Ben Mezrich", de: "Ben Mezrich", nl: "Ben Mezrich" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Walter Isaacson wrote the authorized biography of Steve Jobs in 2011.",
+          es: "Walter Isaacson wrote the authorized biography of Steve Jobs in 2011.",
+          de: "Walter Isaacson wrote the authorized biography of Steve Jobs in 2011.",
+          nl: "Walter Isaacson wrote the authorized biography of Steve Jobs in 2011."
+        }      },
+      {
+        question: {
+          en: "Malala Yousafzais autobiography is titled?",
+          es: "Malala Yousafzais autobiography is titled?",
+          de: "Malala Yousafzais autobiography is titled?",
+          nl: "Malala Yousafzais autobiography is titled?"
+        },
+        options: [
+          { en: "I Am Malala", es: "I Am Malala", de: "I Am Malala", nl: "I Am Malala" },
+          { en: "Educated", es: "Educated", de: "Educated", nl: "Educated" },
+          { en: "Becoming", es: "Becoming", de: "Becoming", nl: "Becoming" },
+          { en: "Dare to Dream", es: "Dare to Dream", de: "Dare to Dream", nl: "Dare to Dream" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "I Am Malala tells her story of fighting for girls education.",
+          es: "I Am Malala tells her story of fighting for girls education.",
+          de: "I Am Malala tells her story of fighting for girls education.",
+          nl: "I Am Malala tells her story of fighting for girls education."
+        }      },
+      {
+        question: {
+          en: "Who wrote The Autobiography of Benjamin Franklin?",
+          es: "Who wrote The Autobiography of Benjamin Franklin?",
+          de: "Who wrote The Autobiography of Benjamin Franklin?",
+          nl: "Who wrote The Autobiography of Benjamin Franklin?"
+        },
+        options: [
+          { en: "Benjamin Franklin", es: "Benjamin Franklin", de: "Benjamin Franklin", nl: "Benjamin Franklin" },
+          { en: "Thomas Jefferson", es: "Thomas Jefferson", de: "Thomas Jefferson", nl: "Thomas Jefferson" },
+          { en: "John Adams", es: "John Adams", de: "John Adams", nl: "John Adams" },
+          { en: "George Washington", es: "George Washington", de: "George Washington", nl: "George Washington" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Franklin wrote his own autobiography chronicling his remarkable life.",
+          es: "Franklin wrote his own autobiography chronicling his remarkable life.",
+          de: "Franklin wrote his own autobiography chronicling his remarkable life.",
+          nl: "Franklin wrote his own autobiography chronicling his remarkable life."
+        }      },
+      {
+        question: {
+          en: "Michelle Obamas memoir is called?",
+          es: "Michelle Obamas memoir is called?",
+          de: "Michelle Obamas memoir is called?",
+          nl: "Michelle Obamas memoir is called?"
+        },
+        options: [
+          { en: "Becoming", es: "Becoming", de: "Becoming", nl: "Becoming" },
+          { en: "Educated", es: "Educated", de: "Educated", nl: "Educated" },
+          { en: "I Am Malala", es: "I Am Malala", de: "I Am Malala", nl: "I Am Malala" },
+          { en: "Bossypants", es: "Bossypants", de: "Bossypants", nl: "Bossypants" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Becoming is Michelle Obamas 2018 bestselling memoir.",
+          es: "Becoming is Michelle Obamas 2018 bestselling memoir.",
+          de: "Becoming is Michelle Obamas 2018 bestselling memoir.",
+          nl: "Becoming is Michelle Obamas 2018 bestselling memoir."
+        }      },
+      {
+        question: {
+          en: "Who is the subject of The Immortal Life?",
+          es: "Who is the subject of The Immortal Life?",
+          de: "Who is the subject of The Immortal Life?",
+          nl: "Who is the subject of The Immortal Life?"
+        },
+        options: [
+          { en: "Henrietta Lacks", es: "Henrietta Lacks", de: "Henrietta Lacks", nl: "Henrietta Lacks" },
+          { en: "Marie Curie", es: "Marie Curie", de: "Marie Curie", nl: "Marie Curie" },
+          { en: "Rosa Parks", es: "Rosa Parks", de: "Rosa Parks", nl: "Rosa Parks" },
+          { en: "Frida Kahlo", es: "Frida Kahlo", de: "Frida Kahlo", nl: "Frida Kahlo" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Immortal Life of Henrietta Lacks tells her story and medical ethics.",
+          es: "The Immortal Life of Henrietta Lacks tells her story and medical ethics.",
+          de: "The Immortal Life of Henrietta Lacks tells her story and medical ethics.",
+          nl: "The Immortal Life of Henrietta Lacks tells her story and medical ethics."
+        }      },
+      {
+        question: {
+          en: "Educated is a memoir by?",
+          es: "Educated is a memoir by?",
+          de: "Educated is a memoir by?",
+          nl: "Educated is a memoir by?"
+        },
+        options: [
+          { en: "Tara Westover", es: "Tara Westover", de: "Tara Westover", nl: "Tara Westover" },
+          { en: "Malala Yousafzai", es: "Malala Yousafzai", de: "Malala Yousafzai", nl: "Malala Yousafzai" },
+          { en: "Michelle Obama", es: "Michelle Obama", de: "Michelle Obama", nl: "Michelle Obama" },
+          { en: "Cheryl Strayed", es: "Cheryl Strayed", de: "Cheryl Strayed", nl: "Cheryl Strayed" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tara Westover wrote Educated about growing up in survivalist family.",
+          es: "Tara Westover wrote Educated about growing up in survivalist family.",
+          de: "Tara Westover wrote Educated about growing up in survivalist family.",
+          nl: "Tara Westover wrote Educated about growing up in survivalist family."
+        }      },
+      {
+        question: {
+          en: "Who wrote Wild about hiking the Pacific Crest Trail?",
+          es: "Who wrote Wild about hiking the Pacific Crest Trail?",
+          de: "Who wrote Wild about hiking the Pacific Crest Trail?",
+          nl: "Who wrote Wild about hiking the Pacific Crest Trail?"
+        },
+        options: [
+          { en: "Cheryl Strayed", es: "Cheryl Strayed", de: "Cheryl Strayed", nl: "Cheryl Strayed" },
+          { en: "Tara Westover", es: "Tara Westover", de: "Tara Westover", nl: "Tara Westover" },
+          { en: "Elizabeth Gilbert", es: "Elizabeth Gilbert", de: "Elizabeth Gilbert", nl: "Elizabeth Gilbert" },
+          { en: "Jeannette Walls", es: "Jeannette Walls", de: "Jeannette Walls", nl: "Jeannette Walls" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cheryl Strayed wrote Wild about her solo hike for healing.",
+          es: "Cheryl Strayed wrote Wild about her solo hike for healing.",
+          de: "Cheryl Strayed wrote Wild about her solo hike for healing.",
+          nl: "Cheryl Strayed wrote Wild about her solo hike for healing."
+        }      },
+      {
+        question: {
+          en: "The Glass Castle is a memoir by?",
+          es: "The Glass Castle is a memoir by?",
+          de: "The Glass Castle is a memoir by?",
+          nl: "The Glass Castle is a memoir by?"
+        },
+        options: [
+          { en: "Jeannette Walls", es: "Jeannette Walls", de: "Jeannette Walls", nl: "Jeannette Walls" },
+          { en: "Tara Westover", es: "Tara Westover", de: "Tara Westover", nl: "Tara Westover" },
+          { en: "Mary Karr", es: "Mary Karr", de: "Mary Karr", nl: "Mary Karr" },
+          { en: "Augusten Burroughs", es: "Augusten Burroughs", de: "Augusten Burroughs", nl: "Augusten Burroughs" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jeannette Walls wrote The Glass Castle about her unconventional upbringing.",
+          es: "Jeannette Walls wrote The Glass Castle about her unconventional upbringing.",
+          de: "Jeannette Walls wrote The Glass Castle about her unconventional upbringing.",
+          nl: "Jeannette Walls wrote The Glass Castle about her unconventional upbringing."
+        }      },
+      {
+        question: {
+          en: "Who wrote Angelas Ashes?",
+          es: "Who wrote Angelas Ashes?",
+          de: "Who wrote Angelas Ashes?",
+          nl: "Who wrote Angelas Ashes?"
+        },
+        options: [
+          { en: "Frank McCourt", es: "Frank McCourt", de: "Frank McCourt", nl: "Frank McCourt" },
+          { en: "James Joyce", es: "James Joyce", de: "James Joyce", nl: "James Joyce" },
+          { en: "Oscar Wilde", es: "Oscar Wilde", de: "Oscar Wilde", nl: "Oscar Wilde" },
+          { en: "Samuel Beckett", es: "Samuel Beckett", de: "Samuel Beckett", nl: "Samuel Beckett" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Frank McCourt wrote Angelas Ashes about his impoverished Irish childhood.",
+          es: "Frank McCourt wrote Angelas Ashes about his impoverished Irish childhood.",
+          de: "Frank McCourt wrote Angelas Ashes about his impoverished Irish childhood.",
+          nl: "Frank McCourt wrote Angelas Ashes about his impoverished Irish childhood."
+        }      },
+      {
+        question: {
+          en: "Born a Crime is an autobiography by?",
+          es: "Born a Crime is an autobiography by?",
+          de: "Born a Crime is an autobiography by?",
+          nl: "Born a Crime is an autobiography by?"
+        },
+        options: [
+          { en: "Trevor Noah", es: "Trevor Noah", de: "Trevor Noah", nl: "Trevor Noah" },
+          { en: "Nelson Mandela", es: "Nelson Mandela", de: "Nelson Mandela", nl: "Nelson Mandela" },
+          { en: "Desmond Tutu", es: "Desmond Tutu", de: "Desmond Tutu", nl: "Desmond Tutu" },
+          { en: "Barack Obama", es: "Barack Obama", de: "Barack Obama", nl: "Barack Obama" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Trevor Noah wrote Born a Crime about growing up in apartheid South Africa.",
+          es: "Trevor Noah wrote Born a Crime about growing up in apartheid South Africa.",
+          de: "Trevor Noah wrote Born a Crime about growing up in apartheid South Africa.",
+          nl: "Trevor Noah wrote Born a Crime about growing up in apartheid South Africa."
+        }      },
+      {
+        question: {
+          en: "Who wrote The Story of My Life while deaf and blind?",
+          es: "Who wrote The Story of My Life while deaf and blind?",
+          de: "Who wrote The Story of My Life while deaf and blind?",
+          nl: "Who wrote The Story of My Life while deaf and blind?"
+        },
+        options: [
+          { en: "Helen Keller", es: "Helen Keller", de: "Helen Keller", nl: "Helen Keller" },
+          { en: "Anne Frank", es: "Anne Frank", de: "Anne Frank", nl: "Anne Frank" },
+          { en: "Marie Curie", es: "Marie Curie", de: "Marie Curie", nl: "Marie Curie" },
+          { en: "Rosa Parks", es: "Rosa Parks", de: "Rosa Parks", nl: "Rosa Parks" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Helen Keller wrote her autobiography despite being deaf and blind.",
+          es: "Helen Keller wrote her autobiography despite being deaf and blind.",
+          de: "Helen Keller wrote her autobiography despite being deaf and blind.",
+          nl: "Helen Keller wrote her autobiography despite being deaf and blind."
+        }      },
+      {
+        question: {
+          en: "Dreams from My Father is by?",
+          es: "Dreams from My Father is by?",
+          de: "Dreams from My Father is by?",
+          nl: "Dreams from My Father is by?"
+        },
+        options: [
+          { en: "Barack Obama", es: "Barack Obama", de: "Barack Obama", nl: "Barack Obama" },
+          { en: "Nelson Mandela", es: "Nelson Mandela", de: "Nelson Mandela", nl: "Nelson Mandela" },
+          { en: "Martin Luther King Jr.", es: "Martin Luther King Jr.", de: "Martin Luther King Jr.", nl: "Martin Luther King Jr." },
+          { en: "Malcolm X", es: "Malcolm X", de: "Malcolm X", nl: "Malcolm X" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Barack Obama wrote this memoir before becoming president.",
+          es: "Barack Obama wrote this memoir before becoming president.",
+          de: "Barack Obama wrote this memoir before becoming president.",
+          nl: "Barack Obama wrote this memoir before becoming president."
+        }      },
+      {
+        question: {
+          en: "Who wrote the biography Alexander Hamilton?",
+          es: "Who wrote the biography Alexander Hamilton?",
+          de: "Who wrote the biography Alexander Hamilton?",
+          nl: "Who wrote the biography Alexander Hamilton?"
+        },
+        options: [
+          { en: "Ron Chernow", es: "Ron Chernow", de: "Ron Chernow", nl: "Ron Chernow" },
+          { en: "David McCullough", es: "David McCullough", de: "David McCullough", nl: "David McCullough" },
+          { en: "Doris Kearns Goodwin", es: "Doris Kearns Goodwin", de: "Doris Kearns Goodwin", nl: "Doris Kearns Goodwin" },
+          { en: "Walter Isaacson", es: "Walter Isaacson", de: "Walter Isaacson", nl: "Walter Isaacson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ron Chernow wrote the biography that inspired the musical Hamilton.",
+          es: "Ron Chernow wrote the biography that inspired the musical Hamilton.",
+          de: "Ron Chernow wrote the biography that inspired the musical Hamilton.",
+          nl: "Ron Chernow wrote the biography that inspired the musical Hamilton."
+        }      },
+      {
+        question: {
+          en: "I Know Why the Caged Bird Sings is by?",
+          es: "I Know Why the Caged Bird Sings is by?",
+          de: "I Know Why the Caged Bird Sings is by?",
+          nl: "I Know Why the Caged Bird Sings is by?"
+        },
+        options: [
+          { en: "Maya Angelou", es: "Maya Angelou", de: "Maya Angelou", nl: "Maya Angelou" },
+          { en: "Toni Morrison", es: "Toni Morrison", de: "Toni Morrison", nl: "Toni Morrison" },
+          { en: "Alice Walker", es: "Alice Walker", de: "Alice Walker", nl: "Alice Walker" },
+          { en: "Zora Neale Hurston", es: "Zora Neale Hurston", de: "Zora Neale Hurston", nl: "Zora Neale Hurston" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Maya Angelou wrote this powerful autobiography in 1969.",
+          es: "Maya Angelou wrote this powerful autobiography in 1969.",
+          de: "Maya Angelou wrote this powerful autobiography in 1969.",
+          nl: "Maya Angelou wrote this powerful autobiography in 1969."
+        }      },
+      {
+        question: {
+          en: "Who wrote The Autobiography of Malcolm X?",
+          es: "Who wrote The Autobiography of Malcolm X?",
+          de: "Who wrote The Autobiography of Malcolm X?",
+          nl: "Who wrote The Autobiography of Malcolm X?"
+        },
+        options: [
+          { en: "Alex Haley with Malcolm X", es: "Alex Haley with Malcolm X", de: "Alex Haley with Malcolm X", nl: "Alex Haley with Malcolm X" },
+          { en: "James Baldwin", es: "James Baldwin", de: "James Baldwin", nl: "James Baldwin" },
+          { en: "Maya Angelou", es: "Maya Angelou", de: "Maya Angelou", nl: "Maya Angelou" },
+          { en: "Malcolm X alone", es: "Malcolm X alone", de: "Malcolm X alone", nl: "Malcolm X alone" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Alex Haley collaborated with Malcolm X on this autobiography.",
+          es: "Alex Haley collaborated with Malcolm X on this autobiography.",
+          de: "Alex Haley collaborated with Malcolm X on this autobiography.",
+          nl: "Alex Haley collaborated with Malcolm X on this autobiography."
+        }      },
+      {
+        question: {
+          en: "Unbroken is a biography of?",
+          es: "Unbroken is a biography of?",
+          de: "Unbroken is a biography of?",
+          nl: "Unbroken is a biography of?"
+        },
+        options: [
+          { en: "Louis Zamperini", es: "Louis Zamperini", de: "Louis Zamperini", nl: "Louis Zamperini" },
+          { en: "Jesse Owens", es: "Jesse Owens", de: "Jesse Owens", nl: "Jesse Owens" },
+          { en: "Muhammad Ali", es: "Muhammad Ali", de: "Muhammad Ali", nl: "Muhammad Ali" },
+          { en: "Jackie Robinson", es: "Jackie Robinson", de: "Jackie Robinson", nl: "Jackie Robinson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Laura Hillenbrand wrote Unbroken about Olympic runner and WWII POW Louis Zamperini.",
+          es: "Laura Hillenbrand wrote Unbroken about Olympic runner and WWII POW Louis Zamperini.",
+          de: "Laura Hillenbrand wrote Unbroken about Olympic runner and WWII POW Louis Zamperini.",
+          nl: "Laura Hillenbrand wrote Unbroken about Olympic runner and WWII POW Louis Zamperini."
+        }      },
+      {
+        question: {
+          en: "Who wrote Into the Wild about Christopher McCandless?",
+          es: "Who wrote Into the Wild about Christopher McCandless?",
+          de: "Who wrote Into the Wild about Christopher McCandless?",
+          nl: "Who wrote Into the Wild about Christopher McCandless?"
+        },
+        options: [
+          { en: "Jon Krakauer", es: "Jon Krakauer", de: "Jon Krakauer", nl: "Jon Krakauer" },
+          { en: "Cheryl Strayed", es: "Cheryl Strayed", de: "Cheryl Strayed", nl: "Cheryl Strayed" },
+          { en: "Jack Kerouac", es: "Jack Kerouac", de: "Jack Kerouac", nl: "Jack Kerouac" },
+          { en: "Hunter S. Thompson", es: "Hunter S. Thompson", de: "Hunter S. Thompson", nl: "Hunter S. Thompson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jon Krakauer wrote Into the Wild about McCandless journey to Alaska.",
+          es: "Jon Krakauer wrote Into the Wild about McCandless journey to Alaska.",
+          de: "Jon Krakauer wrote Into the Wild about McCandless journey to Alaska.",
+          nl: "Jon Krakauer wrote Into the Wild about McCandless journey to Alaska."
+        }      },
+      {
+        question: {
+          en: "The Wright Brothers biography is by?",
+          es: "The Wright Brothers biography is by?",
+          de: "The Wright Brothers biography is by?",
+          nl: "The Wright Brothers biography is by?"
+        },
+        options: [
+          { en: "David McCullough", es: "David McCullough", de: "David McCullough", nl: "David McCullough" },
+          { en: "Ron Chernow", es: "Ron Chernow", de: "Ron Chernow", nl: "Ron Chernow" },
+          { en: "Walter Isaacson", es: "Walter Isaacson", de: "Walter Isaacson", nl: "Walter Isaacson" },
+          { en: "Doris Kearns Goodwin", es: "Doris Kearns Goodwin", de: "Doris Kearns Goodwin", nl: "Doris Kearns Goodwin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "David McCullough wrote The Wright Brothers about aviation pioneers.",
+          es: "David McCullough wrote The Wright Brothers about aviation pioneers.",
+          de: "David McCullough wrote The Wright Brothers about aviation pioneers.",
+          nl: "David McCullough wrote The Wright Brothers about aviation pioneers."
         }
       }
     ]

@@ -1,4 +1,4 @@
-// Quiz Template - Level 1: Bord spelletjes - Dammen
+// Quiz Template - Level 1: Board Games - Checkers
 (function() {
   const level1 = {
     name: {
@@ -776,7 +776,7 @@
           { en: "Draw", es: "Empate", de: "Unentschieden", nl: "Remise" },
           { en: "Tie", es: "Empate", de: "Gleichstand", nl: "Gelijkspel" },
           { en: "All of the above", es: "Todas las anteriores", de: "Alle oben genannten", nl: "Alle bovenstaande" }
-        },
+        ],
         correct: 3,
         explanation: {
           en: "A game with no winner can be called a draw, tie, or result in stalemate. All these terms are used in checkers to describe a game that ends without a clear victor.",
@@ -825,6 +825,27 @@
           es: "Una 'jugada' en las damas se refiere al turno completo de un jugador, que podría ser un solo movimiento sin captura o una secuencia completa de saltos múltiples. El turno termina cuando no hay más capturas posibles.",
           de: "Ein 'Zug' beim Dame bezieht sich auf die vollständige Runde eines Spielers, die entweder ein einzelner nicht-schlagender Zug oder eine vollständige Sequenz mehrerer Sprünge sein könnte. Der Zug endet, wenn keine weiteren Schläge möglich sind.",
           nl: "Een 'zet' bij dammen verwijst naar de complete beurt van een speler, wat een enkele niet-slaande zet of een complete sequentie van meerdere sprongen kan zijn. De beurt eindigt wanneer er geen slagen meer mogelijk zijn."
+        }
+      },
+      {
+        question: {
+          en: "How many total dark squares are on an 8x8 checkerboard?",
+          es: "¿Cuántas casillas oscuras hay en total en un tablero de damas 8x8?",
+          de: "Wie viele dunkle Felder gibt es insgesamt auf einem 8x8 Dame-Brett?",
+          nl: "Hoeveel donkere vakjes zijn er in totaal op een 8x8 dambord?"
+        },
+        options: [
+          { en: "24", es: "24", de: "24", nl: "24" },
+          { en: "28", es: "28", de: "28", nl: "28" },
+          { en: "32", es: "32", de: "32", nl: "32" },
+          { en: "36", es: "36", de: "36", nl: "36" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "An 8x8 checkerboard has 32 dark squares and 32 light squares, for a total of 64 squares. Only the 32 dark squares are used in gameplay.",
+          es: "Un tablero de damas 8x8 tiene 32 casillas oscuras y 32 casillas claras, para un total de 64 casillas. Solo las 32 casillas oscuras se usan en el juego.",
+          de: "Ein 8x8 Dame-Brett hat 32 dunkle Felder und 32 helle Felder, insgesamt 64 Felder. Nur die 32 dunklen Felder werden im Spiel verwendet.",
+          nl: "Een 8x8 dambord heeft 32 donkere vakjes en 32 lichte vakjes, in totaal 64 vakjes. Alleen de 32 donkere vakjes worden gebruikt in het spel."
         }
       }
     ]

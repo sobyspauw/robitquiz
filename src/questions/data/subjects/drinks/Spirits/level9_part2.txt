@@ -1,0 +1,369 @@
+            {
+                question: {
+                    en: "What is the molecular mechanism behind 'peat reek' phenolic compounds adhering to barley during malting?",
+                    es: "¿Cuál es el mecanismo molecular detrás de los compuestos fenólicos de 'reek de turba' adhiriéndose a la cebada durante el malteado?",
+                    de: "Was ist der molekulare Mechanismus hinter phenolischen Verbindungen des 'Torf-Rauchs', die während des Mälzens an der Gerste haften?",
+                    nl: "Wat is het moleculaire mechanisme achter 'turfgeur' fenolische verbindingen die zich hechten aan gerst tijdens het mouten?"
+                },
+                options: [
+                    {
+                        en: "Hydrophobic phenols bind to barley lipids and embed in starch granule surfaces during heat exposure",
+                        es: "Fenoles hidrófobos se unen a lípidos de cebada y se incrustan en superficies de gránulos de almidón durante exposición al calor",
+                        de: "Hydrophobe Phenole binden an Gersten-Lipide und betten sich während Hitzeeinwirkung in Stärkegranulat-Oberflächen ein",
+                        nl: "Hydrofobe fenolen binden aan gerst lipiden en nestelen zich in zetmeelkorrel oppervlakken tijdens hitte blootstelling"
+                    },
+                    {
+                        en: "Phenols dissolve in barley moisture content through simple absorption",
+                        es: "Fenoles se disuelven en el contenido de humedad de la cebada mediante absorción simple",
+                        de: "Phenole lösen sich durch einfache Absorption im Feuchtigkeitsgehalt der Gerste",
+                        nl: "Fenolen lossen op in gerst vochtgehalte door simpele absorptie"
+                    },
+                    {
+                        en: "Smoke particles mechanically coat the barley surface without chemical bonding",
+                        es: "Partículas de humo recubren mecánicamente la superficie de la cebada sin enlace químico",
+                        de: "Rauchpartikel beschichten mechanisch die Gerstenoberfläche ohne chemische Bindung",
+                        nl: "Rookdeeltjes coaten mechanisch het gerst oppervlak zonder chemische binding"
+                    },
+                    {
+                        en: "Phenolic compounds crystallize on cooled barley surfaces after kilning",
+                        es: "Compuestos fenólicos cristalizan en superficies de cebada enfriadas después del secado",
+                        de: "Phenolische Verbindungen kristallisieren auf gekühlten Gerstenoberflächen nach dem Darren",
+                        nl: "Fenolische verbindingen kristalliseren op gekoelde gerst oppervlakken na drogen"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "During peat smoking, hydrophobic phenolic compounds like guaiacol and cresol preferentially bind to the lipid-rich surfaces of barley and become physically embedded in starch granule structures through heat-induced reactions. This molecular incorporation explains why peated whisky retains its smoky character through distillation and aging.",
+                    es: "Durante el ahumado con turba, compuestos fenólicos hidrófobos como guayacol y cresol se unen preferentemente a las superficies ricas en lípidos de la cebada y se incrustan físicamente en estructuras de gránulos de almidón mediante reacciones inducidas por calor. Esta incorporación molecular explica por qué el whisky turbado retiene su carácter ahumado durante destilación y envejecimiento.",
+                    de: "Während des Torfrauchs binden hydrophobe phenolische Verbindungen wie Guajacol und Kresol bevorzugt an die lipidreichen Oberflächen der Gerste und werden durch hitzeinduzierte Reaktionen physisch in Stärkegranulat-Strukturen eingebettet. Diese molekulare Einbindung erklärt, warum getorfter Whisky seinen rauchigen Charakter durch Destillation und Reifung behält.",
+                    nl: "Tijdens het roken met turf binden hydrofobe fenolische verbindingen zoals guaiacol en cresol bij voorkeur aan de lipide-rijke oppervlakken van gerst en worden fysiek ingebed in zetmeelkorrel structuren door hitte-geïnduceerde reacties. Deze moleculaire incorporatie verklaart waarom geturfde whisky zijn rokerige karakter behoudt tijdens distillatie en rijping."
+                }
+            },
+            {
+                question: {
+                    en: "What is the biochemical function of 'dunder' in traditional Jamaican rum fermentation?",
+                    es: "¿Cuál es la función bioquímica del 'dunder' en la fermentación tradicional de ron jamaicano?",
+                    de: "Was ist die biochemische Funktion von 'Dunder' bei der traditionellen jamaikanischen Rum-Fermentation?",
+                    nl: "Wat is de biochemische functie van 'dunder' in traditionele Jamaicaanse rum fermentatie?"
+                },
+                options: [
+                    {
+                        en: "Acidic stillage containing bacteria that produce ester-forming organic acids through secondary fermentation",
+                        es: "Vinaza ácida que contiene bacterias que producen ácidos orgánicos formadores de ésteres mediante fermentación secundaria",
+                        de: "Saure Schlempe mit Bakterien, die durch Sekundärfermentation esterbildende organische Säuren produzieren",
+                        nl: "Zure spoeling met bacteriën die ester-vormende organische zuren produceren door secundaire fermentatie"
+                    },
+                    {
+                        en: "Neutral pH buffer to stabilize yeast activity during fermentation",
+                        es: "Buffer de pH neutro para estabilizar la actividad de levadura durante fermentación",
+                        de: "Neutraler pH-Puffer zur Stabilisierung der Hefeaktivität während der Fermentation",
+                        nl: "Neutrale pH buffer om gistactiviteit tijdens fermentatie te stabiliseren"
+                    },
+                    {
+                        en: "Sugar-rich syrup to boost alcohol content in the final distillate",
+                        es: "Jarabe rico en azúcar para aumentar el contenido de alcohol en el destilado final",
+                        de: "Zuckerreicher Sirup zur Steigerung des Alkoholgehalts im Enddestillat",
+                        nl: "Suikerrijke siroop om alcoholgehalte in het finale distillaat te verhogen"
+                    },
+                    {
+                        en: "Caramelized molasses added for color development",
+                        es: "Melaza caramelizada agregada para desarrollo de color",
+                        de: "Karamellisierte Melasse für die Farbentwicklung",
+                        nl: "Gekarameliseerde melasse toegevoegd voor kleurontwikkeling"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Dunder is the acidic residue from previous distillations that contains lactic acid bacteria and other microorganisms. These create butyric and other organic acids that react with alcohols during fermentation to form complex esters, giving high-ester Jamaican rums their characteristic funky, fruity profiles. Some distilleries age dunder in pits for months to concentrate these bacteria.",
+                    es: "Dunder es el residuo ácido de destilaciones anteriores que contiene bacterias de ácido láctico y otros microorganismos. Estos crean ácido butírico y otros ácidos orgánicos que reaccionan con alcoholes durante fermentación para formar ésteres complejos, dando a los rones jamaicanos de alto éster sus perfiles característicos funky y afrutados. Algunas destilerías envejecen dunder en fosas durante meses para concentrar estas bacterias.",
+                    de: "Dunder ist der saure Rückstand früherer Destillationen, der Milchsäurebakterien und andere Mikroorganismen enthält. Diese erzeugen Buttersäure und andere organische Säuren, die während der Fermentation mit Alkoholen reagieren, um komplexe Ester zu bilden, die hochesterigen jamaikanischen Rums ihr charakteristisches funkiges, fruchtiges Profil verleihen. Einige Brennereien lagern Dunder monatelang in Gruben, um diese Bakterien zu konzentrieren.",
+                    nl: "Dunder is het zure residu van eerdere distillaties dat melkzuurbacteriën en andere micro-organismen bevat. Deze creëren boterzuur en andere organische zuren die reageren met alcoholen tijdens fermentatie om complexe esters te vormen, wat hoog-ester Jamaicaanse rums hun karakteristieke funky, fruitige profielen geeft. Sommige distilleerderijen laten dunder maanden rijpen in putten om deze bacteriën te concentreren."
+                }
+            },
+            {
+                question: {
+                    en: "What is the thermodynamic principle behind 'fractional freezing' or freeze distillation used in traditional applejack production?",
+                    es: "¿Cuál es el principio termodinámico detrás de la 'congelación fraccional' o destilación por congelación usada en la producción tradicional de applejack?",
+                    de: "Was ist das thermodynamische Prinzip hinter 'fraktioniertem Gefrieren' oder Gefrierdestillation, die bei der traditionellen Applejack-Produktion verwendet wird?",
+                    nl: "Wat is het thermodynamische principe achter 'fractioneel bevriezen' of vriesd distillatie gebruikt in traditionele applejack productie?"
+                },
+                options: [
+                    {
+                        en: "Water's higher freezing point (-0°C) compared to ethanol (-114°C) allows selective ice crystallization while concentrating alcohol",
+                        es: "El punto de congelación más alto del agua (-0°C) comparado con etanol (-114°C) permite cristalización selectiva de hielo mientras concentra alcohol",
+                        de: "Der höhere Gefrierpunkt von Wasser (-0°C) im Vergleich zu Ethanol (-114°C) ermöglicht selektive Eiskristallisation bei gleichzeitiger Alkoholkonzentration",
+                        nl: "Waters hogere vriespunt (-0°C) vergeleken met ethanol (-114°C) maakt selectieve ijskristallisatie mogelijk terwijl alcohol geconcentreerd wordt"
+                    },
+                    {
+                        en: "Rapid temperature changes cause alcohol molecules to separate from water through density stratification",
+                        es: "Cambios rápidos de temperatura causan que moléculas de alcohol se separen del agua mediante estratificación de densidad",
+                        de: "Schnelle Temperaturänderungen verursachen die Trennung von Alkoholmolekülen vom Wasser durch Dichteschichtung",
+                        nl: "Snelle temperatuurveranderingen zorgen dat alcohol moleculen scheiden van water door dichtheid stratificatie"
+                    },
+                    {
+                        en: "Freezing catalyzes chemical reactions that convert sugars to higher alcohol concentrations",
+                        es: "La congelación cataliza reacciones químicas que convierten azúcares a concentraciones de alcohol más altas",
+                        de: "Gefrieren katalysiert chemische Reaktionen, die Zucker in höhere Alkoholkonzentrationen umwandeln",
+                        nl: "Bevriezen katalyseert chemische reacties die suikers omzetten naar hogere alcohol concentraties"
+                    },
+                    {
+                        en: "Ice crystals physically trap water molecules while releasing alcohol through sublimation",
+                        es: "Cristales de hielo atrapan físicamente moléculas de agua mientras liberan alcohol mediante sublimación",
+                        de: "Eiskristalle fangen Wassermoleküle physisch ein, während sie Alkohol durch Sublimation freisetzen",
+                        nl: "IJskristallen vangen fysisch watermoleculen terwijl ze alcohol vrijgeven door sublimatie"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Freeze distillation exploits the large difference in freezing points between water (0°C) and ethanol (-114°C). When hard cider is frozen to temperatures around -5°C to -10°C, water forms ice crystals that can be removed, leaving behind a liquid with concentrated alcohol and flavor compounds. This technique was historically used for applejack and eisbock beer. Note: this process also concentrates methanol and fusel alcohols, which is why many jurisdictions prohibit freeze distillation.",
+                    es: "La destilación por congelación explota la gran diferencia en puntos de congelación entre agua (0°C) y etanol (-114°C). Cuando sidra dura se congela a temperaturas alrededor de -5°C a -10°C, el agua forma cristales de hielo que pueden ser removidos, dejando atrás un líquido con alcohol concentrado y compuestos de sabor. Esta técnica fue históricamente usada para applejack y cerveza eisbock. Nota: este proceso también concentra metanol y alcoholes de fusel, por lo que muchas jurisdicciones prohíben destilación por congelación.",
+                    de: "Gefrierdestillation nutzt den großen Unterschied in den Gefrierpunkten zwischen Wasser (0°C) und Ethanol (-114°C) aus. Wenn harter Apfelwein auf Temperaturen um -5°C bis -10°C gefroren wird, bildet Wasser Eiskristalle, die entfernt werden können, wobei eine Flüssigkeit mit konzentriertem Alkohol und Geschmacksverbindungen zurückbleibt. Diese Technik wurde historisch für Applejack und Eisbock-Bier verwendet. Hinweis: Dieser Prozess konzentriert auch Methanol und Fuselöle, weshalb viele Gerichtsbarkeiten Gefrierdestillation verbieten.",
+                    nl: "Vriesdistillatie benut het grote verschil in vriespunten tussen water (0°C) en ethanol (-114°C). Wanneer harde cider wordt bevroren tot temperaturen rond -5°C tot -10°C, vormt water ijskristallen die verwijderd kunnen worden, waarbij een vloeistof met geconcentreerde alcohol en smaakverbindingen achterblijft. Deze techniek werd historisch gebruikt voor applejack en eisbock bier. Let op: dit proces concentreert ook methanol en fuselolieën, daarom verbieden veel rechtsgebieden vriesdistillatie."
+                }
+            },
+            {
+                question: {
+                    en: "What is the enzymatic process behind 'koji' (Aspergillus oryzae) in Japanese sake and shochu production that differs from barley malting?",
+                    es: "¿Cuál es el proceso enzimático detrás del 'koji' (Aspergillus oryzae) en la producción de sake y shochu japonés que difiere del malteado de cebada?",
+                    de: "Was ist der enzymatische Prozess hinter 'Koji' (Aspergillus oryzae) bei der japanischen Sake- und Shochu-Produktion, der sich vom Gerstenmalz unterscheidet?",
+                    nl: "Wat is het enzymatische proces achter 'koji' (Aspergillus oryzae) in Japanse sake en shochu productie dat verschilt van gerst mouten?"
+                },
+                options: [
+                    {
+                        en: "Koji secretes amylase enzymes externally to break down rice starch into fermentable sugars without germination",
+                        es: "Koji secreta enzimas amilasa externamente para descomponer almidón de arroz en azúcares fermentables sin germinación",
+                        de: "Koji sezerniert Amylase-Enzyme extern, um Reisstärke ohne Keimung in fermentierbare Zucker abzubauen",
+                        nl: "Koji scheidt amylase enzymen extern af om rijstzetmeel af te breken tot fermenteerbare suikers zonder ontkieming"
+                    },
+                    {
+                        en: "Rice grains germinate like barley, activating internal enzymes",
+                        es: "Granos de arroz germinan como cebada, activando enzimas internas",
+                        de: "Reiskörner keimen wie Gerste und aktivieren interne Enzyme",
+                        nl: "Rijstkorrels kiemen zoals gerst, waardoor interne enzymen geactiveerd worden"
+                    },
+                    {
+                        en: "Koji produces alcohol directly without requiring separate fermentation",
+                        es: "Koji produce alcohol directamente sin requerir fermentación separada",
+                        de: "Koji produziert Alkohol direkt ohne separate Fermentation",
+                        nl: "Koji produceert alcohol direct zonder aparte fermentatie te vereisen"
+                    },
+                    {
+                        en: "Koji physically crushes rice starch through mechanical pressure",
+                        es: "Koji tritura físicamente el almidón de arroz mediante presión mecánica",
+                        de: "Koji zerkleinert Reisstärke physisch durch mechanischen Druck",
+                        nl: "Koji verbrijzelt fysisch rijstzetmeel door mechanische druk"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Koji mold (Aspergillus oryzae) grows on steamed rice and secretes powerful amylase enzymes that break down rice starches into fermentable sugars. Unlike barley malting where the grain germinates to produce its own enzymes, koji is an external fungus that does this work. This allows multiple parallel fermentation (heiko fukuhakko) where saccharification and alcohol fermentation occur simultaneously. Koji also produces proteases, lipases, and other enzymes that create unique flavor profiles.",
+                    es: "El moho koji (Aspergillus oryzae) crece en arroz al vapor y secreta poderosas enzimas amilasa que descomponen almidones de arroz en azúcares fermentables. A diferencia del malteado de cebada donde el grano germina para producir sus propias enzimas, koji es un hongo externo que hace este trabajo. Esto permite fermentación paralela múltiple (heiko fukuhakko) donde sacarificación y fermentación alcohólica ocurren simultáneamente. Koji también produce proteasas, lipasas y otras enzimas que crean perfiles de sabor únicos.",
+                    de: "Koji-Schimmel (Aspergillus oryzae) wächst auf gedämpftem Reis und sezerniert starke Amylase-Enzyme, die Reisstärken in fermentierbare Zucker abbauen. Im Gegensatz zum Gerstenmalz, wo das Korn keimt, um seine eigenen Enzyme zu produzieren, ist Koji ein externer Pilz, der diese Arbeit verrichtet. Dies ermöglicht multiple parallele Fermentation (heiko fukuhakko), bei der Saccharifizierung und Alkoholfermentation gleichzeitig stattfinden. Koji produziert auch Proteasen, Lipasen und andere Enzyme, die einzigartige Geschmacksprofile erzeugen.",
+                    nl: "Koji schimmel (Aspergillus oryzae) groeit op gestoomde rijst en scheidt krachtige amylase enzymen af die rijstzetmelen afbreken tot fermenteerbare suikers. Anders dan gerst mouten waar het graan ontkiemt om zijn eigen enzymen te produceren, is koji een externe schimmel die dit werk doet. Dit maakt meervoudige parallelle fermentatie (heiko fukuhakko) mogelijk waarbij verzuring en alcoholfermentatie gelijktijdig plaatsvinden. Koji produceert ook proteasen, lipasen en andere enzymen die unieke smaakprofielen creëren."
+                }
+            },
+            {
+                question: {
+                    en: "What is the chemical mechanism behind 'esterification' that creates fruity flavors during long fermentation in high-ester rums?",
+                    es: "¿Cuál es el mecanismo químico detrás de la 'esterificación' que crea sabores afrutados durante fermentación larga en rones de alto éster?",
+                    de: "Was ist der chemische Mechanismus hinter 'Esterifizierung', die fruchtige Aromen während langer Fermentation in hochesterigen Rums erzeugt?",
+                    nl: "Wat is het chemische mechanisme achter 'esterificatie' dat fruitige smaken creëert tijdens lange fermentatie in hoog-ester rums?"
+                },
+                options: [
+                    {
+                        en: "Organic acids react with alcohols in the presence of enzymes to form ester compounds with fruit-like aromas",
+                        es: "Ácidos orgánicos reaccionan con alcoholes en presencia de enzimas para formar compuestos éster con aromas afrutados",
+                        de: "Organische Säuren reagieren in Anwesenheit von Enzymen mit Alkoholen, um Esterverbindungen mit fruchtigen Aromen zu bilden",
+                        nl: "Organische zuren reageren met alcoholen in aanwezigheid van enzymen om ester verbindingen te vormen met fruitachtige aroma's"
+                    },
+                    {
+                        en: "Sugars caramelize during fermentation creating fruit flavors",
+                        es: "Azúcares se carameliza durante fermentación creando sabores de frutas",
+                        de: "Zucker karamellisiert während der Fermentation und erzeugt Fruchtaromen",
+                        nl: "Suikers karameliseren tijdens fermentatie wat fruitsmaken creëert"
+                    },
+                    {
+                        en: "Yeast directly produces fruit essences as byproducts",
+                        es: "Levadura produce directamente esencias de frutas como subproductos",
+                        de: "Hefe produziert direkt Fruchtessenzen als Nebenprodukte",
+                        nl: "Gist produceert direct fruit essences als bijproducten"
+                    },
+                    {
+                        en: "Fruit particles added to fermentation dissolve into the wash",
+                        es: "Partículas de fruta agregadas a fermentación se disuelven en el mosto",
+                        de: "Fruchtpartikel, die der Fermentation hinzugefügt werden, lösen sich in der Maische auf",
+                        nl: "Fruit deeltjes toegevoegd aan fermentatie lossen op in de wash"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Esterification is a chemical reaction where organic acids (like acetic, propionic, or butyric acid) combine with alcohols (ethanol and higher alcohols) to form esters. These reactions are catalyzed by enzymes from yeast and bacteria during fermentation. Esters have distinctive fruity aromas—ethyl acetate smells like pears, ethyl butyrate like pineapple, isoamyl acetate like banana. Extended fermentation times (7-21 days) and high fermentation temperatures promote ester formation, which is why Jamaican and Haitian rums can reach 500-1600 grams of esters per hectoliter.",
+                    es: "Esterificación es una reacción química donde ácidos orgánicos (como acético, propiónico o butírico) se combinan con alcoholes (etanol y alcoholes superiores) para formar ésteres. Estas reacciones son catalizadas por enzimas de levadura y bacterias durante fermentación. Ésteres tienen aromas afrutados distintivos—acetato de etilo huele a peras, butirato de etilo a piña, acetato de isoamilo a banana. Tiempos de fermentación extendidos (7-21 días) y temperaturas altas de fermentación promueven formación de ésteres, razón por la cual rones jamaicanos y haitianos pueden alcanzar 500-1600 gramos de ésteres por hectolitro.",
+                    de: "Esterifizierung ist eine chemische Reaktion, bei der organische Säuren (wie Essig-, Propion- oder Buttersäure) sich mit Alkoholen (Ethanol und höheren Alkoholen) verbinden, um Ester zu bilden. Diese Reaktionen werden durch Enzyme aus Hefe und Bakterien während der Fermentation katalysiert. Ester haben charakteristische fruchtige Aromen—Ethylacetat riecht nach Birnen, Ethylbutyrat nach Ananas, Isoamylacetat nach Banane. Verlängerte Fermentationszeiten (7-21 Tage) und hohe Fermentationstemperaturen fördern die Esterbildung, weshalb jamaikanische und haitianische Rums 500-1600 Gramm Ester pro Hektoliter erreichen können.",
+                    nl: "Esterificatie is een chemische reactie waarbij organische zuren (zoals azijnzuur, propionzuur of boterzuur) combineren met alcoholen (ethanol en hogere alcoholen) om esters te vormen. Deze reacties worden gekatalyseerd door enzymen van gist en bacteriën tijdens fermentatie. Esters hebben kenmerkende fruitige aroma's—ethylacetaat ruikt naar peren, ethylbutyraat naar ananas, isoamylacetaat naar banaan. Verlengde fermentatietijden (7-21 dagen) en hoge fermentatietemperaturen bevorderen estervorming, daarom kunnen Jamaicaanse en Haïtiaanse rums 500-1600 gram esters per hectoliter bereiken."
+                }
+            },
+            {
+                question: {
+                    en: "What is the scientific basis for 'angel's share' variation between Scottish Highland and Islay distilleries despite similar climates?",
+                    es: "¿Cuál es la base científica para la variación del 'angel's share' entre destilerías Highland y de Islay escocesas a pesar de climas similares?",
+                    de: "Was ist die wissenschaftliche Grundlage für die Variation des 'Engelsanteils' zwischen schottischen Highland- und Islay-Brennereien trotz ähnlicher Klimata?",
+                    nl: "Wat is de wetenschappelijke basis voor 'angel's share' variatie tussen Schotse Highland en Islay distilleerderijen ondanks vergelijkbare klimaten?"
+                },
+                options: [
+                    {
+                        en: "Coastal sea salt aerosols increase humidity and alter evaporation rates, with Islay losing more water while Highland loses more alcohol",
+                        es: "Aerosoles de sal marina costera aumentan humedad y alteran tasas de evaporación, con Islay perdiendo más agua mientras Highland pierde más alcohol",
+                        de: "Küsten-Meersalz-Aerosole erhöhen die Luftfeuchtigkeit und verändern Verdunstungsraten, wobei Islay mehr Wasser verliert, während Highland mehr Alkohol verliert",
+                        nl: "Kust zeezout aerosolen verhogen vochtigheid en veranderen verdampingssnelheden, waarbij Islay meer water verliest terwijl Highland meer alcohol verliest"
+                    },
+                    {
+                        en: "Highland warehouses are naturally colder, preventing evaporation",
+                        es: "Almacenes Highland son naturalmente más fríos, previniendo evaporación",
+                        de: "Highland-Lager sind natürlich kälter und verhindern Verdunstung",
+                        nl: "Highland pakhuizen zijn natuurlijk kouder, wat verdamping voorkomt"
+                    },
+                    {
+                        en: "Islay uses different barrel wood that absorbs more spirit",
+                        es: "Islay usa madera de barril diferente que absorbe más licor",
+                        de: "Islay verwendet anderes Fassholz, das mehr Spirituosen absorbiert",
+                        nl: "Islay gebruikt ander vaathout dat meer sterke drank absorbeert"
+                    },
+                    {
+                        en: "Highland distilleries add compounds to reduce evaporation rates",
+                        es: "Destilerías Highland añaden compuestos para reducir tasas de evaporación",
+                        de: "Highland-Brennereien fügen Verbindungen hinzu, um Verdunstungsraten zu reduzieren",
+                        nl: "Highland distilleerderijen voegen verbindingen toe om verdampingssnelheden te verminderen"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "The 'angel's share' (annual evaporation loss) behaves differently in coastal vs inland locations due to relative humidity. Islay's maritime environment has sea salt aerosols that increase ambient humidity (70-85%), causing barrels to lose proportionally more water than alcohol, gradually increasing ABV. Highland inland warehouses have lower humidity (60-75%), causing more alcohol to evaporate than water, reducing ABV over time. This phenomenon affects maturation strategy—coastal whiskies can handle longer aging without over-oaking, while inland whiskies develop different flavor profiles.",
+                    es: "El 'angel's share' (pérdida anual por evaporación) se comporta diferente en ubicaciones costeras vs interiores debido a humedad relativa. El ambiente marítimo de Islay tiene aerosoles de sal marina que aumentan humedad ambiente (70-85%), causando que barriles pierdan proporcionalmente más agua que alcohol, aumentando gradualmente ABV. Almacenes Highland tierra adentro tienen menor humedad (60-75%), causando que más alcohol se evapore que agua, reduciendo ABV con tiempo. Este fenómeno afecta estrategia de maduración—whiskies costeros pueden manejar envejecimiento más largo sin sobre-enroble, mientras whiskies tierra adentro desarrollan perfiles de sabor diferentes.",
+                    de: "Der 'Engelsanteil' (jährlicher Verdunstungsverlust) verhält sich in Küsten- vs. Binnenstandorten unterschiedlich aufgrund relativer Luftfeuchtigkeit. Islays maritime Umgebung hat Meersalz-Aerosole, die die Umgebungsluftfeuchtigkeit erhöhen (70-85%), wodurch Fässer proportional mehr Wasser als Alkohol verlieren und der ABV allmählich steigt. Highland-Binnenlager haben niedrigere Luftfeuchtigkeit (60-75%), wodurch mehr Alkohol als Wasser verdunstet und der ABV im Laufe der Zeit sinkt. Dieses Phänomen beeinflusst die Reifungsstrategie—Küstenwhiskys vertragen längere Reifung ohne Übereiche, während Binnenwhiskys unterschiedliche Geschmacksprofile entwickeln.",
+                    nl: "Het 'angel's share' (jaarlijks verdampingsverlies) gedraagt zich anders in kust vs binnenland locaties vanwege relatieve vochtigheid. Islays maritieme omgeving heeft zeezout aerosolen die omgevingsvochtigheid verhogen (70-85%), waardoor vaten proportioneel meer water dan alcohol verliezen, geleidelijk ABV verhogend. Highland binnenland pakhuizen hebben lagere vochtigheid (60-75%), waardoor meer alcohol verdampt dan water, ABV verlagend over tijd. Dit fenomeen beïnvloedt rijpingsstrategie—kust whisky's kunnen langere rijping aan zonder over-eiken, terwijl binnenland whisky's verschillende smaakprofielen ontwikkelen."
+                }
+            },
+            {
+                question: {
+                    en: "What is the role of 'Saccharomyces cerevisiae' strain selection in creating distinctive flavor profiles in craft spirits?",
+                    es: "¿Cuál es el papel de la selección de cepas de 'Saccharomyces cerevisiae' en la creación de perfiles de sabor distintivos en licores artesanales?",
+                    de: "Welche Rolle spielt die Auswahl von 'Saccharomyces cerevisiae'-Stämmen bei der Schaffung charakteristischer Geschmacksprofile in handwerklichen Spirituosen?",
+                    nl: "Wat is de rol van 'Saccharomyces cerevisiae' stam selectie in het creëren van onderscheidende smaakprofielen in ambachtelijke sterke dranken?"
+                },
+                options: [
+                    {
+                        en: "Different strains produce varying ratios of esters, phenols, and higher alcohols through unique enzymatic pathways",
+                        es: "Diferentes cepas producen proporciones variables de ésteres, fenoles y alcoholes superiores mediante vías enzimáticas únicas",
+                        de: "Verschiedene Stämme produzieren unterschiedliche Verhältnisse von Estern, Phenolen und höheren Alkoholen durch einzigartige enzymatische Wege",
+                        nl: "Verschillende stammen produceren variërende verhoudingen van esters, fenolen en hogere alcoholen via unieke enzymatische routes"
+                    },
+                    {
+                        en: "Yeast strains only affect fermentation speed, not flavor",
+                        es: "Cepas de levadura solo afectan velocidad de fermentación, no sabor",
+                        de: "Hefestämme beeinflussen nur die Fermentationsgeschwindigkeit, nicht den Geschmack",
+                        nl: "Gist stammen beïnvloeden alleen fermentatiesnelheid, niet smaak"
+                    },
+                    {
+                        en: "All Saccharomyces strains produce identical flavors; only temperature matters",
+                        es: "Todas las cepas de Saccharomyces producen sabores idénticos; solo importa la temperatura",
+                        de: "Alle Saccharomyces-Stämme produzieren identische Aromen; nur die Temperatur ist wichtig",
+                        nl: "Alle Saccharomyces stammen produceren identieke smaken; alleen temperatuur is belangrijk"
+                    },
+                    {
+                        en: "Yeast dies before distillation and contributes no flavor compounds",
+                        es: "Levadura muere antes de destilación y no contribuye compuestos de sabor",
+                        de: "Hefe stirbt vor der Destillation und trägt keine Geschmacksverbindungen bei",
+                        nl: "Gist sterft voor distillatie en draagt geen smaakverbindingen bij"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Different strains of Saccharomyces cerevisiae have distinct genetic profiles that affect their metabolic pathways. Some strains produce high levels of fruity esters (like banana or apple notes), others create spicy phenolic compounds (clove, vanilla), and others generate higher alcohols (fusel oils) that add complexity. Craft distillers often use multiple yeast strains or proprietary blends—whiskey might use ale yeast for fruity esters, while gin producers might select strains that produce neutral profiles to let botanicals shine. Temperature, pH, and nutrient availability also interact with yeast genetics to shape final flavor.",
+                    es: "Diferentes cepas de Saccharomyces cerevisiae tienen perfiles genéticos distintos que afectan sus vías metabólicas. Algunas cepas producen altos niveles de ésteres afrutados (como notas de banana o manzana), otras crean compuestos fenólicos especiados (clavo, vainilla), y otras generan alcoholes superiores (aceites de fusel) que añaden complejidad. Destiladores artesanales a menudo usan múltiples cepas de levadura o mezclas propietarias—whiskey podría usar levadura de cerveza para ésteres afrutados, mientras productores de gin podrían seleccionar cepas que producen perfiles neutrales para dejar brillar botánicos. Temperatura, pH y disponibilidad de nutrientes también interactúan con genética de levadura para formar sabor final.",
+                    de: "Verschiedene Stämme von Saccharomyces cerevisiae haben unterschiedliche genetische Profile, die ihre Stoffwechselwege beeinflussen. Einige Stämme produzieren hohe Mengen fruchtiger Ester (wie Bananen- oder Apfelnoten), andere erzeugen würzige phenolische Verbindungen (Nelke, Vanille), und wieder andere generieren höhere Alkohole (Fuselöle), die Komplexität hinzufügen. Handwerkliche Destillateure verwenden oft mehrere Hefestämme oder proprietäre Mischungen—Whiskey könnte Bierhefe für fruchtige Ester verwenden, während Gin-Produzenten Stämme wählen könnten, die neutrale Profile produzieren, um Botanicals hervorzuheben. Temperatur, pH und Nährstoffverfügbarkeit interagieren ebenfalls mit Hefegenetics, um das endgültige Aroma zu formen.",
+                    nl: "Verschillende stammen van Saccharomyces cerevisiae hebben onderscheidende genetische profielen die hun metabolische routes beïnvloeden. Sommige stammen produceren hoge niveaus van fruitige esters (zoals banaan of appel tonen), anderen creëren kruidige fenolische verbindingen (kruidnagel, vanille), en anderen genereren hogere alcoholen (fuselolieën) die complexiteit toevoegen. Ambachtelijke distilleerders gebruiken vaak meerdere gist stammen of eigen blends—whiskey zou ale gist kunnen gebruiken voor fruitige esters, terwijl gin producenten stammen zouden kunnen selecteren die neutrale profielen produceren om botanicals te laten schitteren. Temperatuur, pH en voedingsstof beschikbaarheid interacteren ook met gist genetica om finale smaak te vormen."
+                }
+            },
+            {
+                question: {
+                    en: "What is the chemical transformation that occurs during 'solera' aging that makes old sherry casks so prized for whisky maturation?",
+                    es: "¿Cuál es la transformación química que ocurre durante el envejecimiento 'solera' que hace tan preciados los barriles de jerez viejos para maduración de whisky?",
+                    de: "Was ist die chemische Transformation, die während der 'Solera'-Reifung auftritt und alte Sherry-Fässer für die Whisky-Reifung so wertvoll macht?",
+                    nl: "Wat is de chemische transformatie die plaatsvindt tijdens 'solera' rijping die oude sherry vaten zo gewaardeerd maakt voor whisky rijping?"
+                },
+                options: [
+                    {
+                        en: "Decades of sherry exposure polymerizes tannins and creates lignin breakdown products in the wood that release slowly during whisky aging",
+                        es: "Décadas de exposición a jerez polimeriz tannins y crea productos de descomposición de lignina en la madera que liberan lentamente durante envejecimiento de whisky",
+                        de: "Jahrzehnte der Sherry-Exposition polymerisieren Tannine und erzeugen Ligninabbau-Produkte im Holz, die sich während der Whisky-Reifung langsam freisetzen",
+                        nl: "Tientallen jaren sherry blootstelling polymeriseert tannines en creëert lignine afbraakproducten in het hout die langzaam vrijkomen tijdens whisky rijping"
+                    },
+                    {
+                        en: "Sherry simply adds sweetness; the age of the cask doesn't matter",
+                        es: "Jerez simplemente añade dulzura; la edad del barril no importa",
+                        de: "Sherry fügt einfach Süße hinzu; das Alter des Fasses spielt keine Rolle",
+                        nl: "Sherry voegt simpelweg zoetheid toe; de leeftijd van het vat maakt niet uit"
+                    },
+                    {
+                        en: "Old casks are softer wood that absorbs whisky better",
+                        es: "Barriles viejos son madera más suave que absorbe whisky mejor",
+                        de: "Alte Fässer sind weicheres Holz, das Whisky besser absorbiert",
+                        nl: "Oude vaten zijn zachter hout dat whisky beter absorbeert"
+                    },
+                    {
+                        en: "Extended sherry contact kills bacteria in the wood making it safer",
+                        es: "Contacto extendido con jerez mata bacterias en la madera haciéndola más segura",
+                        de: "Längerer Sherry-Kontakt tötet Bakterien im Holz und macht es sicherer",
+                        nl: "Verlengd sherry contact doodt bacteriën in het hout waardoor het veiliger wordt"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "During solera aging (which can span 30-100+ years), sherry undergoes oxidative and biological aging that transforms the wood itself. Tannins polymerize into longer-chain compounds, lignin breaks down into vanillin and other aromatic aldehydes, and sherry compounds penetrate deep into the wood structure. When these seasoned casks are filled with whisky, they release complex fruity, nutty, and spice notes slowly over years. First-fill sherry casks from old soleras are especially prized because they've developed this rich chemical profile without being 'exhausted' like repeatedly-used bourbon barrels. The Pedro Ximénez and Oloroso sherries create particularly sought-after maturation profiles.",
+                    es: "Durante envejecimiento solera (que puede abarcar 30-100+ años), jerez sufre envejecimiento oxidativo y biológico que transforma la madera misma. Tannins se polimerizan en compuestos de cadena más larga, lignina se descompone en vainillina y otros aldehídos aromáticos, y compuestos de jerez penetran profundo en estructura de madera. Cuando estos barriles experimentados se llenan con whisky, liberan notas complejas afrutadas, de nuez y especias lentamente durante años. Barriles de jerez de primer llenado de soleras antiguas son especialmente preciados porque han desarrollado este rico perfil químico sin estar 'agotados' como barriles de bourbon usados repetidamente. Los jereces Pedro Ximénez y Oloroso crean perfiles de maduración particularmente buscados.",
+                    de: "Während der Solera-Reifung (die 30-100+ Jahre umfassen kann) durchläuft Sherry eine oxidative und biologische Reifung, die das Holz selbst transformiert. Tannine polymerisieren zu längerkettigen Verbindungen, Lignin zerfällt in Vanillin und andere aromatische Aldehyde, und Sherry-Verbindungen dringen tief in die Holzstruktur ein. Wenn diese erfahrenen Fässer mit Whisky gefüllt werden, geben sie komplexe fruchtige, nussige und würzige Noten über Jahre langsam ab. Erst-Befüllung Sherry-Fässer aus alten Soleras sind besonders geschätzt, weil sie dieses reiche chemische Profil entwickelt haben, ohne 'erschöpft' zu sein wie wiederholt verwendete Bourbon-Fässer. Die Pedro Ximénez und Oloroso Sherries schaffen besonders begehrte Reifungsprofile.",
+                    nl: "Tijdens solera rijping (die 30-100+ jaar kan duren), ondergaat sherry oxidatieve en biologische rijping die het hout zelf transformeert. Tannines polymeriseren tot langer-keten verbindingen, lignine breekt af tot vanilline en andere aromatische aldehyden, en sherry verbindingen dringen diep door in de houtstructuur. Wanneer deze ervaren vaten gevuld worden met whisky, geven ze complexe fruitige, notige en kruidige tonen langzaam af over jaren. Eerste-vulling sherry vaten van oude soleras zijn bijzonder gewaardeerd omdat ze dit rijke chemische profiel hebben ontwikkeld zonder 'uitgeput' te zijn zoals herhaaldelijk gebruikte bourbon vaten. De Pedro Ximénez en Oloroso sherries creëren bijzonder gewilde rijpingsprofielen."
+                }
+            },
+            {
+                question: {
+                    en: "What is the molecular basis for 'mouthfeel' or viscosity differences between spirits of identical alcohol content?",
+                    es: "¿Cuál es la base molecular para las diferencias de 'sensación en boca' o viscosidad entre licores de contenido de alcohol idéntico?",
+                    de: "Was ist die molekulare Grundlage für 'Mundgefühl'- oder Viskositätsunterschiede zwischen Spirituosen mit identischem Alkoholgehalt?",
+                    nl: "Wat is de moleculaire basis voor 'mondgevoel' of viscositeit verschillen tussen sterke dranken met identiek alcoholgehalte?"
+                },
+                options: [
+                    {
+                        en: "Long-chain fatty acid esters, glycerol, and polysaccharides from fermentation and wood extraction create textural differences",
+                        es: "Ésteres de ácidos grasos de cadena larga, glicerol y polisacáridos de fermentación y extracción de madera crean diferencias texturales",
+                        de: "Langkettige Fettsäureester, Glycerin und Polysaccharide aus Fermentation und Holzextraktion schaffen texturale Unterschiede",
+                        nl: "Langketige vetzuur esters, glycerol en polysachariden van fermentatie en houtextractie creëren texturele verschillen"
+                    },
+                    {
+                        en: "Alcohol percentage is the only factor affecting mouthfeel",
+                        es: "Porcentaje de alcohol es el único factor que afecta sensación en boca",
+                        de: "Alkoholprozentsatz ist der einzige Faktor, der das Mundgefühl beeinflusst",
+                        nl: "Alcoholpercentage is de enige factor die mondgevoel beïnvloedt"
+                    },
+                    {
+                        en: "Temperature differences create all perceived viscosity variations",
+                        es: "Diferencias de temperatura crean todas las variaciones de viscosidad percibidas",
+                        de: "Temperaturunterschiede schaffen alle wahrgenommenen Viskositätsvariationen",
+                        nl: "Temperatuurverschillen creëren alle waargenomen viscositeit variaties"
+                    },
+                    {
+                        en: "Mouthfeel is purely psychological and not based on chemical compounds",
+                        es: "Sensación en boca es puramente psicológica y no basada en compuestos químicos",
+                        de: "Mundgefühl ist rein psychologisch und nicht auf chemischen Verbindungen basierend",
+                        nl: "Mondgevoel is puur psychologisch en niet gebaseerd op chemische verbindingen"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Mouthfeel is influenced by non-volatile compounds that affect viscosity and texture. Glycerol (produced during fermentation) adds smoothness and slight sweetness. Long-chain fatty acid esters create an oily, coating sensation. Polysaccharides extracted from oak barrels during aging (like arabinoxylans and rhamnogalacturonans) increase viscosity. Tannins provide astringency and weight. Higher alcohols (fusel oils) can add body and warmth. This is why an 80-proof bourbon can feel much richer than an 80-proof vodka—the bourbon has significantly more of these textural compounds from fermentation and barrel aging.",
+                    es: "Sensación en boca es influenciada por compuestos no volátiles que afectan viscosidad y textura. Glicerol (producido durante fermentación) añade suavidad y ligera dulzura. Ésteres de ácidos grasos de cadena larga crean sensación oleosa y recubridora. Polisacáridos extraídos de barriles de roble durante envejecimiento (como arabinoxilanos y ramnogalacturonanos) aumentan viscosidad. Tannins proporcionan astringencia y peso. Alcoholes superiores (aceites de fusel) pueden añadir cuerpo y calidez. Por esto un bourbon de 80 grados puede sentirse mucho más rico que un vodka de 80 grados—el bourbon tiene significativamente más de estos compuestos texturales de fermentación y envejecimiento en barril.",
+                    de: "Mundgefühl wird durch nicht-flüchtige Verbindungen beeinflusst, die Viskosität und Textur beeinflussen. Glycerin (während der Fermentation produziert) fügt Geschmeidigkeit und leichte Süße hinzu. Langkettige Fettsäureester erzeugen ein öliges, beschichtendes Gefühl. Polysaccharide, die während der Reifung aus Eichenfässern extrahiert werden (wie Arabinoxylane und Rhamnogalacturonane), erhöhen die Viskosität. Tannine bieten Adstringenz und Gewicht. Höhere Alkohole (Fuselöle) können Körper und Wärme hinzufügen. Deshalb kann sich ein 80-Proof Bourbon viel reicher anfühlen als ein 80-Proof Wodka—der Bourbon hat deutlich mehr dieser texturalen Verbindungen aus Fermentation und Fassreifung.",
+                    nl: "Mondgevoel wordt beïnvloed door niet-vluchtige verbindingen die viscositeit en textuur beïnvloeden. Glycerol (geproduceerd tijdens fermentatie) voegt gladheid en lichte zoetheid toe. Langketige vetzuur esters creëren een olieachtig, coaterend gevoel. Polysachariden geëxtraheerd uit eiken vaten tijdens rijping (zoals arabinoxylanen en rhamnogalacturonanen) verhogen viscositeit. Tannines bieden samentrekkendheid en gewicht. Hogere alcoholen (fuselolieën) kunnen body en warmte toevoegen. Daarom kan een 80-proof bourbon veel rijker aanvoelen dan een 80-proof vodka—de bourbon heeft significant meer van deze texturele verbindingen van fermentatie en vat rijping."
+                }
+            }

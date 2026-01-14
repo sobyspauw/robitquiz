@@ -1,4 +1,4 @@
-﻿// Authors and Writers Quiz - Level 1: Knowledge about Authors and Writers
+// Authors and Writers Quiz - Level 1: Knowledge about Authors and Writers
 (function() {
   const level1 = {
     name: {
@@ -426,6 +426,405 @@
           es: "Roald Dahl escribió 'Charlie y la Fábrica de Chocolate' en 1964. El querido libro infantil fue luego adaptado en populares películas y producciones teatrales.",
           de: "Roald Dahl schrieb 'Charlie und die Schokoladenfabrik' im Jahr 1964. Das beliebte Kinderbuch wurde später in beliebte Filme und Bühnenproduktionen adaptiert.",
           nl: "Roald Dahl schreef 'Charlie en de Chocoladefabriek' in 1964. Het geliefde kinderboek werd later bewerkt tot populaire films en toneelproducties."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'Moby-Dick'?",
+          es: "¿Quién escribió 'Moby-Dick'?",
+          de: "Wer schrieb 'Moby-Dick'?",
+          nl: "Wie schreef 'Moby-Dick'?"
+        },
+        options: [
+          {en: "Mark Twain", es: "Mark Twain", de: "Mark Twain", nl: "Mark Twain"},
+          {en: "Herman Melville", es: "Herman Melville", de: "Herman Melville", nl: "Herman Melville"},
+          {en: "Nathaniel Hawthorne", es: "Nathaniel Hawthorne", de: "Nathaniel Hawthorne", nl: "Nathaniel Hawthorne"},
+          {en: "Edgar Allan Poe", es: "Edgar Allan Poe", de: "Edgar Allan Poe", nl: "Edgar Allan Poe"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Herman Melville wrote 'Moby-Dick' in 1851. This epic novel about Captain Ahab's obsessive quest for a white whale is considered one of the greatest American novels.",
+          es: "Herman Melville escribió 'Moby-Dick' en 1851. Esta novela épica sobre la búsqueda obsesiva del Capitán Ahab de una ballena blanca se considera una de las mejores novelas estadounidenses.",
+          de: "Herman Melville schrieb 'Moby-Dick' im Jahr 1851. Dieser epische Roman über Captain Ahabs obsessive Suche nach einem weißen Wal gilt als einer der größten amerikanischen Romane.",
+          nl: "Herman Melville schreef 'Moby-Dick' in 1851. Deze epische roman over Captain Ahabs obsessieve zoektocht naar een witte walvis wordt beschouwd als een van de grootste Amerikaanse romans."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'The Adventures of Tom Sawyer'?",
+          es: "¿Quién escribió 'Las aventuras de Tom Sawyer'?",
+          de: "Wer schrieb 'Die Abenteuer des Tom Sawyer'?",
+          nl: "Wie schreef 'De avonturen van Tom Sawyer'?"
+        },
+        options: [
+          {en: "Mark Twain", es: "Mark Twain", de: "Mark Twain", nl: "Mark Twain"},
+          {en: "Robert Louis Stevenson", es: "Robert Louis Stevenson", de: "Robert Louis Stevenson", nl: "Robert Louis Stevenson"},
+          {en: "Louisa May Alcott", es: "Louisa May Alcott", de: "Louisa May Alcott", nl: "Louisa May Alcott"},
+          {en: "Jules Verne", es: "Jules Verne", de: "Jules Verne", nl: "Jules Verne"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mark Twain wrote 'The Adventures of Tom Sawyer' in 1876. The novel about a mischievous boy growing up along the Mississippi River became a classic of American literature.",
+          es: "Mark Twain escribió 'Las aventuras de Tom Sawyer' en 1876. La novela sobre un chico travieso creciendo a lo largo del río Mississippi se convirtió en un clásico de la literatura estadounidense.",
+          de: "Mark Twain schrieb 'Die Abenteuer des Tom Sawyer' im Jahr 1876. Der Roman über einen schelmischen Jungen, der am Mississippi aufwächst, wurde zu einem Klassiker der amerikanischen Literatur.",
+          nl: "Mark Twain schreef 'De avonturen van Tom Sawyer' in 1876. De roman over een ondeugende jongen die opgroeit langs de Mississippi rivier werd een klassieker van de Amerikaanse literatuur."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'Little Women'?",
+          es: "¿Quién escribió 'Mujercitas'?",
+          de: "Wer schrieb 'Betty und ihre Schwestern'?",
+          nl: "Wie schreef 'Onder moeders vleugels'?"
+        },
+        options: [
+          {en: "Charlotte Brontë", es: "Charlotte Brontë", de: "Charlotte Brontë", nl: "Charlotte Brontë"},
+          {en: "Louisa May Alcott", es: "Louisa May Alcott", de: "Louisa May Alcott", nl: "Louisa May Alcott"},
+          {en: "Harriet Beecher Stowe", es: "Harriet Beecher Stowe", de: "Harriet Beecher Stowe", nl: "Harriet Beecher Stowe"},
+          {en: "Emily Brontë", es: "Emily Brontë", de: "Emily Brontë", nl: "Emily Brontë"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Louisa May Alcott wrote 'Little Women' in 1868. The semi-autobiographical novel about four sisters growing up during the Civil War became a beloved classic.",
+          es: "Louisa May Alcott escribió 'Mujercitas' en 1868. La novela semi-autobiográfica sobre cuatro hermanas creciendo durante la Guerra Civil se convirtió en un clásico querido.",
+          de: "Louisa May Alcott schrieb 'Betty und ihre Schwestern' im Jahr 1868. Der halbautobiografische Roman über vier Schwestern, die während des Bürgerkriegs aufwachsen, wurde zu einem geliebten Klassiker.",
+          nl: "Louisa May Alcott schreef 'Onder moeders vleugels' in 1868. De semi-autobiografische roman over vier zussen die opgroeien tijdens de Burgeroorlog werd een geliefd klassieker."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'The Jungle Book'?",
+          es: "¿Quién escribió 'El libro de la selva'?",
+          de: "Wer schrieb 'Das Dschungelbuch'?",
+          nl: "Wie schreef 'Het jungleboek'?"
+        },
+        options: [
+          {en: "Rudyard Kipling", es: "Rudyard Kipling", de: "Rudyard Kipling", nl: "Rudyard Kipling"},
+          {en: "Edgar Rice Burroughs", es: "Edgar Rice Burroughs", de: "Edgar Rice Burroughs", nl: "Edgar Rice Burroughs"},
+          {en: "Robert Louis Stevenson", es: "Robert Louis Stevenson", de: "Robert Louis Stevenson", nl: "Robert Louis Stevenson"},
+          {en: "Kenneth Grahame", es: "Kenneth Grahame", de: "Kenneth Grahame", nl: "Kenneth Grahame"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Rudyard Kipling wrote 'The Jungle Book' in 1894. The collection of stories about Mowgli, a boy raised by wolves in the Indian jungle, has been adapted many times.",
+          es: "Rudyard Kipling escribió 'El libro de la selva' en 1894. La colección de historias sobre Mowgli, un niño criado por lobos en la jungla india, ha sido adaptada muchas veces.",
+          de: "Rudyard Kipling schrieb 'Das Dschungelbuch' im Jahr 1894. Die Sammlung von Geschichten über Mowgli, einen von Wölfen aufgezogenen Jungen im indischen Dschungel, wurde viele Male adaptiert.",
+          nl: "Rudyard Kipling schreef 'Het jungleboek' in 1894. De verzameling verhalen over Mowgli, een jongen die door wolven werd grootgebracht in de Indiase jungle, is vele malen bewerkt."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'Anne of Green Gables'?",
+          es: "¿Quién escribió 'Ana de las Tejas Verdes'?",
+          de: "Wer schrieb 'Anne auf Green Gables'?",
+          nl: "Wie schreef 'Anne van het Groene Huis'?"
+        },
+        options: [
+          {en: "L.M. Montgomery", es: "L.M. Montgomery", de: "L.M. Montgomery", nl: "L.M. Montgomery"},
+          {en: "Frances Hodgson Burnett", es: "Frances Hodgson Burnett", de: "Frances Hodgson Burnett", nl: "Frances Hodgson Burnett"},
+          {en: "Kate Douglas Wiggin", es: "Kate Douglas Wiggin", de: "Kate Douglas Wiggin", nl: "Kate Douglas Wiggin"},
+          {en: "Eleanor H. Porter", es: "Eleanor H. Porter", de: "Eleanor H. Porter", nl: "Eleanor H. Porter"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "L.M. Montgomery wrote 'Anne of Green Gables' in 1908. The story of the imaginative orphan Anne Shirley on Prince Edward Island became a beloved Canadian classic.",
+          es: "L.M. Montgomery escribió 'Ana de las Tejas Verdes' en 1908. La historia de la huérfana imaginativa Anne Shirley en la Isla del Príncipe Eduardo se convirtió en un querido clásico canadiense.",
+          de: "L.M. Montgomery schrieb 'Anne auf Green Gables' im Jahr 1908. Die Geschichte der fantasievollen Waise Anne Shirley auf Prince Edward Island wurde zu einem geliebten kanadischen Klassiker.",
+          nl: "L.M. Montgomery schreef 'Anne van het Groene Huis' in 1908. Het verhaal van de fantasierijke wees Anne Shirley op Prince Edward Island werd een geliefd Canadees klassieker."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'The Diary of a Young Girl'?",
+          es: "¿Quién escribió 'El diario de Ana Frank'?",
+          de: "Wer schrieb 'Das Tagebuch der Anne Frank'?",
+          nl: "Wie schreef 'Het Achterhuis'?"
+        },
+        options: [
+          {en: "Anne Frank", es: "Anne Frank", de: "Anne Frank", nl: "Anne Frank"},
+          {en: "Elie Wiesel", es: "Elie Wiesel", de: "Elie Wiesel", nl: "Elie Wiesel"},
+          {en: "Primo Levi", es: "Primo Levi", de: "Primo Levi", nl: "Primo Levi"},
+          {en: "Viktor Frankl", es: "Viktor Frankl", de: "Viktor Frankl", nl: "Viktor Frankl"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Anne Frank wrote her diary while hiding from the Nazis in Amsterdam during World War II. Published posthumously in 1947, it became one of the most important accounts of the Holocaust.",
+          es: "Anne Frank escribió su diario mientras se escondía de los nazis en Ámsterdam durante la Segunda Guerra Mundial. Publicado póstumamente en 1947, se convirtió en uno de los relatos más importantes del Holocausto.",
+          de: "Anne Frank schrieb ihr Tagebuch, während sie sich während des Zweiten Weltkriegs vor den Nazis in Amsterdam versteckte. Posthum 1947 veröffentlicht, wurde es zu einem der wichtigsten Zeugnisse des Holocaust.",
+          nl: "Anne Frank schreef haar dagboek terwijl ze zich tijdens de Tweede Wereldoorlog voor de nazi's verborg in Amsterdam. Postuum gepubliceerd in 1947, werd het een van de belangrijkste verslagen van de Holocaust."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'Peter Pan'?",
+          es: "¿Quién escribió 'Peter Pan'?",
+          de: "Wer schrieb 'Peter Pan'?",
+          nl: "Wie schreef 'Peter Pan'?"
+        },
+        options: [
+          {en: "J.M. Barrie", es: "J.M. Barrie", de: "J.M. Barrie", nl: "J.M. Barrie"},
+          {en: "Lewis Carroll", es: "Lewis Carroll", de: "Lewis Carroll", nl: "Lewis Carroll"},
+          {en: "A.A. Milne", es: "A.A. Milne", de: "A.A. Milne", nl: "A.A. Milne"},
+          {en: "Kenneth Grahame", es: "Kenneth Grahame", de: "Kenneth Grahame", nl: "Kenneth Grahame"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "J.M. Barrie wrote 'Peter Pan' as a play in 1904, later adapting it into a novel in 1911. The story of the boy who never grows up has become a timeless classic.",
+          es: "J.M. Barrie escribió 'Peter Pan' como una obra de teatro en 1904, adaptándola posteriormente en una novela en 1911. La historia del niño que nunca crece se ha convertido en un clásico atemporal.",
+          de: "J.M. Barrie schrieb 'Peter Pan' 1904 als Theaterstück und adaptierte es 1911 zu einem Roman. Die Geschichte vom Jungen, der nie erwachsen wird, ist zu einem zeitlosen Klassiker geworden.",
+          nl: "J.M. Barrie schreef 'Peter Pan' als toneelstuk in 1904 en bewerkte het later tot een roman in 1911. Het verhaal van de jongen die nooit opgroeit is een tijdloze klassieker geworden."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'Treasure Island'?",
+          es: "¿Quién escribió 'La isla del tesoro'?",
+          de: "Wer schrieb 'Die Schatzinsel'?",
+          nl: "Wie schreef 'Schateiland'?"
+        },
+        options: [
+          {en: "Daniel Defoe", es: "Daniel Defoe", de: "Daniel Defoe", nl: "Daniel Defoe"},
+          {en: "Robert Louis Stevenson", es: "Robert Louis Stevenson", de: "Robert Louis Stevenson", nl: "Robert Louis Stevenson"},
+          {en: "Herman Melville", es: "Herman Melville", de: "Herman Melville", nl: "Herman Melville"},
+          {en: "Jules Verne", es: "Jules Verne", de: "Jules Verne", nl: "Jules Verne"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Robert Louis Stevenson wrote 'Treasure Island' in 1883. This adventure novel about pirates and buried treasure introduced iconic characters like Long John Silver.",
+          es: "Robert Louis Stevenson escribió 'La isla del tesoro' en 1883. Esta novela de aventuras sobre piratas y tesoros enterrados introdujo personajes icónicos como Long John Silver.",
+          de: "Robert Louis Stevenson schrieb 'Die Schatzinsel' im Jahr 1883. Dieser Abenteuerroman über Piraten und vergrabene Schätze führte ikonische Charaktere wie Long John Silver ein.",
+          nl: "Robert Louis Stevenson schreef 'Schateiland' in 1883. Deze avonturenroman over piraten en begraven schatten introduceerde iconische personages zoals Long John Silver."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'A Christmas Carol'?",
+          es: "¿Quién escribió 'Cuento de Navidad'?",
+          de: "Wer schrieb 'Eine Weihnachtsgeschichte'?",
+          nl: "Wie schreef 'Een Kerstlied in Proza'?"
+        },
+        options: [
+          {en: "Charles Dickens", es: "Charles Dickens", de: "Charles Dickens", nl: "Charles Dickens"},
+          {en: "Washington Irving", es: "Washington Irving", de: "Washington Irving", nl: "Washington Irving"},
+          {en: "O. Henry", es: "O. Henry", de: "O. Henry", nl: "O. Henry"},
+          {en: "Hans Christian Andersen", es: "Hans Christian Andersen", de: "Hans Christian Andersen", nl: "Hans Christian Andersen"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Charles Dickens wrote 'A Christmas Carol' in 1843. The story of Ebenezer Scrooge's redemption has become one of the most popular Christmas stories of all time.",
+          es: "Charles Dickens escribió 'Cuento de Navidad' en 1843. La historia de la redención de Ebenezer Scrooge se ha convertido en una de las historias navideñas más populares de todos los tiempos.",
+          de: "Charles Dickens schrieb 'Eine Weihnachtsgeschichte' im Jahr 1843. Die Geschichte von Ebenezer Scrooges Erlösung ist zu einer der beliebtesten Weihnachtsgeschichten aller Zeiten geworden.",
+          nl: "Charles Dickens schreef 'Een Kerstlied in Proza' in 1843. Het verhaal van Ebenezer Scrooge's verlossing is een van de populairste kerstverhalen aller tijden geworden."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'The Cat in the Hat'?",
+          es: "¿Quién escribió 'El gato en el sombrero'?",
+          de: "Wer schrieb 'Der Kater mit Hut'?",
+          nl: "Wie schreef 'De Kat met de Hoed'?"
+        },
+        options: [
+          {en: "Dr. Seuss", es: "Dr. Seuss", de: "Dr. Seuss", nl: "Dr. Seuss"},
+          {en: "Eric Carle", es: "Eric Carle", de: "Eric Carle", nl: "Eric Carle"},
+          {en: "Maurice Sendak", es: "Maurice Sendak", de: "Maurice Sendak", nl: "Maurice Sendak"},
+          {en: "Shel Silverstein", es: "Shel Silverstein", de: "Shel Silverstein", nl: "Shel Silverstein"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dr. Seuss (Theodor Geisel) wrote 'The Cat in the Hat' in 1957. This rhyming children's book revolutionized early reading and became one of his most famous works.",
+          es: "Dr. Seuss (Theodor Geisel) escribió 'El gato en el sombrero' en 1957. Este libro infantil con rimas revolucionó la lectura temprana y se convirtió en una de sus obras más famosas.",
+          de: "Dr. Seuss (Theodor Geisel) schrieb 'Der Kater mit Hut' im Jahr 1957. Dieses gereimte Kinderbuch revolutionierte das frühe Lesen und wurde zu einem seiner berühmtesten Werke.",
+          nl: "Dr. Seuss (Theodor Geisel) schreef 'De Kat met de Hoed' in 1957. Dit rijmende kinderboek revolutioneerde het vroege lezen en werd een van zijn beroemdste werken."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'War and Peace'?",
+          es: "¿Quién escribió 'Guerra y Paz'?",
+          de: "Wer schrieb 'Krieg und Frieden'?",
+          nl: "Wie schreef 'Oorlog en Vrede'?"
+        },
+        options: [
+          {en: "Fyodor Dostoevsky", es: "Fiódor Dostoyevski", de: "Fjodor Dostojewski", nl: "Fjodor Dostojevski"},
+          {en: "Leo Tolstoy", es: "León Tolstói", de: "Leo Tolstoj", nl: "Leo Tolstoj"},
+          {en: "Anton Chekhov", es: "Antón Chéjov", de: "Anton Tschechow", nl: "Anton Tsjechov"},
+          {en: "Ivan Turgenev", es: "Iván Turguénev", de: "Iwan Turgenew", nl: "Ivan Toergenjev"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Leo Tolstoy wrote 'War and Peace' between 1865-1869. This epic novel about Russian society during the Napoleonic Wars is considered one of the greatest novels ever written.",
+          es: "León Tolstói escribió 'Guerra y Paz' entre 1865-1869. Esta novela épica sobre la sociedad rusa durante las Guerras Napoleónicas se considera una de las mejores novelas jamás escritas.",
+          de: "Leo Tolstoj schrieb 'Krieg und Frieden' zwischen 1865-1869. Dieser epische Roman über die russische Gesellschaft während der Napoleonischen Kriege gilt als einer der größten Romane, die je geschrieben wurden.",
+          nl: "Leo Tolstoj schreef 'Oorlog en Vrede' tussen 1865-1869. Deze epische roman over de Russische samenleving tijdens de Napoleontische oorlogen wordt beschouwd als een van de grootste romans ooit geschreven."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'The Old Man and the Sea'?",
+          es: "¿Quién escribió 'El viejo y el mar'?",
+          de: "Wer schrieb 'Der alte Mann und das Meer'?",
+          nl: "Wie schreef 'De oude man en de zee'?"
+        },
+        options: [
+          {en: "Ernest Hemingway", es: "Ernest Hemingway", de: "Ernest Hemingway", nl: "Ernest Hemingway"},
+          {en: "John Steinbeck", es: "John Steinbeck", de: "John Steinbeck", nl: "John Steinbeck"},
+          {en: "William Faulkner", es: "William Faulkner", de: "William Faulkner", nl: "William Faulkner"},
+          {en: "F. Scott Fitzgerald", es: "F. Scott Fitzgerald", de: "F. Scott Fitzgerald", nl: "F. Scott Fitzgerald"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ernest Hemingway wrote 'The Old Man and the Sea' in 1952. This novella about an aging Cuban fisherman won the Pulitzer Prize and helped Hemingway earn the Nobel Prize.",
+          es: "Ernest Hemingway escribió 'El viejo y el mar' en 1952. Esta novela corta sobre un pescador cubano envejecido ganó el Premio Pulitzer y ayudó a Hemingway a ganar el Premio Nobel.",
+          de: "Ernest Hemingway schrieb 'Der alte Mann und das Meer' im Jahr 1952. Diese Novelle über einen alternden kubanischen Fischer gewann den Pulitzer-Preis und half Hemingway, den Nobelpreis zu gewinnen.",
+          nl: "Ernest Hemingway schreef 'De oude man en de zee' in 1952. Deze novelle over een verouderende Cubaanse visser won de Pulitzer Prize en hielp Hemingway de Nobelprijs te verdienen."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'The Wonderful Wizard of Oz'?",
+          es: "¿Quién escribió 'El maravilloso mago de Oz'?",
+          de: "Wer schrieb 'Der Zauberer von Oz'?",
+          nl: "Wie schreef 'De Tovenaar van Oz'?"
+        },
+        options: [
+          {en: "L. Frank Baum", es: "L. Frank Baum", de: "L. Frank Baum", nl: "L. Frank Baum"},
+          {en: "Lewis Carroll", es: "Lewis Carroll", de: "Lewis Carroll", nl: "Lewis Carroll"},
+          {en: "J.M. Barrie", es: "J.M. Barrie", de: "J.M. Barrie", nl: "J.M. Barrie"},
+          {en: "Beatrix Potter", es: "Beatrix Potter", de: "Beatrix Potter", nl: "Beatrix Potter"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "L. Frank Baum wrote 'The Wonderful Wizard of Oz' in 1900. The story of Dorothy's adventures in the magical land of Oz became an American classic and inspired numerous adaptations.",
+          es: "L. Frank Baum escribió 'El maravilloso mago de Oz' en 1900. La historia de las aventuras de Dorothy en la tierra mágica de Oz se convirtió en un clásico estadounidense e inspiró numerosas adaptaciones.",
+          de: "L. Frank Baum schrieb 'Der Zauberer von Oz' im Jahr 1900. Die Geschichte von Dorothys Abenteuern im magischen Land Oz wurde zu einem amerikanischen Klassiker und inspirierte zahlreiche Adaptionen.",
+          nl: "L. Frank Baum schreef 'De Tovenaar van Oz' in 1900. Het verhaal van Dorothy's avonturen in het magische land Oz werd een Amerikaans klassieker en inspireerde tal van bewerkingen."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'The Three Musketeers'?",
+          es: "¿Quién escribió 'Los tres mosqueteros'?",
+          de: "Wer schrieb 'Die drei Musketiere'?",
+          nl: "Wie schreef 'De drie musketiers'?"
+        },
+        options: [
+          {en: "Victor Hugo", es: "Victor Hugo", de: "Victor Hugo", nl: "Victor Hugo"},
+          {en: "Alexandre Dumas", es: "Alexandre Dumas", de: "Alexandre Dumas", nl: "Alexandre Dumas"},
+          {en: "Jules Verne", es: "Jules Verne", de: "Jules Verne", nl: "Jules Verne"},
+          {en: "Honoré de Balzac", es: "Honoré de Balzac", de: "Honoré de Balzac", nl: "Honoré de Balzac"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Alexandre Dumas wrote 'The Three Musketeers' in 1844. This adventure novel about d'Artagnan and his musketeer friends became one of the most popular French novels ever written.",
+          es: "Alexandre Dumas escribió 'Los tres mosqueteros' en 1844. Esta novela de aventuras sobre d'Artagnan y sus amigos mosqueteros se convirtió en una de las novelas francesas más populares jamás escritas.",
+          de: "Alexandre Dumas schrieb 'Die drei Musketiere' im Jahr 1844. Dieser Abenteuerroman über d'Artagnan und seine Musketier-Freunde wurde zu einem der beliebtesten französischen Romane, die je geschrieben wurden.",
+          nl: "Alexandre Dumas schreef 'De drie musketiers' in 1844. Deze avonturenroman over d'Artagnan en zijn musketiervrienden werd een van de populairste Franse romans ooit geschreven."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'The Count of Monte Cristo'?",
+          es: "¿Quién escribió 'El conde de Montecristo'?",
+          de: "Wer schrieb 'Der Graf von Monte Cristo'?",
+          nl: "Wie schreef 'De graaf van Monte-Cristo'?"
+        },
+        options: [
+          {en: "Alexandre Dumas", es: "Alexandre Dumas", de: "Alexandre Dumas", nl: "Alexandre Dumas"},
+          {en: "Victor Hugo", es: "Victor Hugo", de: "Victor Hugo", nl: "Victor Hugo"},
+          {en: "Gustave Flaubert", es: "Gustave Flaubert", de: "Gustave Flaubert", nl: "Gustave Flaubert"},
+          {en: "Stendhal", es: "Stendhal", de: "Stendhal", nl: "Stendhal"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Alexandre Dumas wrote 'The Count of Monte Cristo' in 1844. This adventure novel about revenge and redemption is considered one of the best French novels of all time.",
+          es: "Alexandre Dumas escribió 'El conde de Montecristo' en 1844. Esta novela de aventuras sobre venganza y redención se considera una de las mejores novelas francesas de todos los tiempos.",
+          de: "Alexandre Dumas schrieb 'Der Graf von Monte Cristo' im Jahr 1844. Dieser Abenteuerroman über Rache und Erlösung gilt als einer der besten französischen Romane aller Zeiten.",
+          nl: "Alexandre Dumas schreef 'De graaf van Monte-Cristo' in 1844. Deze avonturenroman over wraak en verlossing wordt beschouwd als een van de beste Franse romans aller tijden."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'Around the World in Eighty Days'?",
+          es: "¿Quién escribió 'La vuelta al mundo en ochenta días'?",
+          de: "Wer schrieb 'Reise um die Erde in 80 Tagen'?",
+          nl: "Wie schreef 'In tachtig dagen rond de wereld'?"
+        },
+        options: [
+          {en: "Jules Verne", es: "Jules Verne", de: "Jules Verne", nl: "Jules Verne"},
+          {en: "Alexandre Dumas", es: "Alexandre Dumas", de: "Alexandre Dumas", nl: "Alexandre Dumas"},
+          {en: "H.G. Wells", es: "H.G. Wells", de: "H.G. Wells", nl: "H.G. Wells"},
+          {en: "Robert Louis Stevenson", es: "Robert Louis Stevenson", de: "Robert Louis Stevenson", nl: "Robert Louis Stevenson"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jules Verne wrote 'Around the World in Eighty Days' in 1873. This adventure novel about Phileas Fogg's journey around the globe became one of Verne's most popular works.",
+          es: "Jules Verne escribió 'La vuelta al mundo en ochenta días' en 1873. Esta novela de aventuras sobre el viaje de Phileas Fogg alrededor del globo se convirtió en una de las obras más populares de Verne.",
+          de: "Jules Verne schrieb 'Reise um die Erde in 80 Tagen' im Jahr 1873. Dieser Abenteuerroman über Phileas Foggs Reise um die Welt wurde zu einem von Vernes beliebtesten Werken.",
+          nl: "Jules Verne schreef 'In tachtig dagen rond de wereld' in 1873. Deze avonturenroman over Phileas Fogg's reis rond de wereld werd een van Verne's populairste werken."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'Wuthering Heights'?",
+          es: "¿Quién escribió 'Cumbres Borrascosas'?",
+          de: "Wer schrieb 'Sturmhöhe'?",
+          nl: "Wie schreef 'De Woeste Hoogte'?"
+        },
+        options: [
+          {en: "Charlotte Brontë", es: "Charlotte Brontë", de: "Charlotte Brontë", nl: "Charlotte Brontë"},
+          {en: "Emily Brontë", es: "Emily Brontë", de: "Emily Brontë", nl: "Emily Brontë"},
+          {en: "Anne Brontë", es: "Anne Brontë", de: "Anne Brontë", nl: "Anne Brontë"},
+          {en: "Jane Austen", es: "Jane Austen", de: "Jane Austen", nl: "Jane Austen"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Emily Brontë wrote 'Wuthering Heights' in 1847. This passionate novel about love and revenge on the Yorkshire moors is considered a masterpiece of English literature.",
+          es: "Emily Brontë escribió 'Cumbres Borrascosas' en 1847. Esta apasionada novela sobre amor y venganza en los páramos de Yorkshire se considera una obra maestra de la literatura inglesa.",
+          de: "Emily Brontë schrieb 'Sturmhöhe' im Jahr 1847. Dieser leidenschaftliche Roman über Liebe und Rache in den Yorkshire Mooren gilt als Meisterwerk der englischen Literatur.",
+          nl: "Emily Brontë schreef 'De Woeste Hoogte' in 1847. Deze hartstochtelijke roman over liefde en wraak op de Yorkshire heuvels wordt beschouwd als een meesterwerk van de Engelse literatuur."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'Jane Eyre'?",
+          es: "¿Quién escribió 'Jane Eyre'?",
+          de: "Wer schrieb 'Jane Eyre'?",
+          nl: "Wie schreef 'Jane Eyre'?"
+        },
+        options: [
+          {en: "Emily Brontë", es: "Emily Brontë", de: "Emily Brontë", nl: "Emily Brontë"},
+          {en: "Charlotte Brontë", es: "Charlotte Brontë", de: "Charlotte Brontë", nl: "Charlotte Brontë"},
+          {en: "George Eliot", es: "George Eliot", de: "George Eliot", nl: "George Eliot"},
+          {en: "Elizabeth Gaskell", es: "Elizabeth Gaskell", de: "Elizabeth Gaskell", nl: "Elizabeth Gaskell"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Charlotte Brontë wrote 'Jane Eyre' in 1847. This novel about an independent governess challenged Victorian social conventions and became a landmark of feminist literature.",
+          es: "Charlotte Brontë escribió 'Jane Eyre' en 1847. Esta novela sobre una institutriz independiente desafió las convenciones sociales victorianas y se convirtió en un hito de la literatura feminista.",
+          de: "Charlotte Brontë schrieb 'Jane Eyre' im Jahr 1847. Dieser Roman über eine unabhängige Gouvernante forderte viktorianische soziale Konventionen heraus und wurde zu einem Meilenstein der feministischen Literatur.",
+          nl: "Charlotte Brontë schreef 'Jane Eyre' in 1847. Deze roman over een onafhankelijke gouvernante daagde Victoriaanse sociale conventies uit en werd een mijlpaal van feministische literatuur."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'A Tale of Two Cities'?",
+          es: "¿Quién escribió 'Historia de dos ciudades'?",
+          de: "Wer schrieb 'Eine Geschichte zweier Städte'?",
+          nl: "Wie schreef 'Een verhaal van twee steden'?"
+        },
+        options: [
+          {en: "Charles Dickens", es: "Charles Dickens", de: "Charles Dickens", nl: "Charles Dickens"},
+          {en: "Thomas Hardy", es: "Thomas Hardy", de: "Thomas Hardy", nl: "Thomas Hardy"},
+          {en: "William Thackeray", es: "William Thackeray", de: "William Thackeray", nl: "William Thackeray"},
+          {en: "Anthony Trollope", es: "Anthony Trollope", de: "Anthony Trollope", nl: "Anthony Trollope"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Charles Dickens wrote 'A Tale of Two Cities' in 1859. Set during the French Revolution, it begins with the famous line 'It was the best of times, it was the worst of times'.",
+          es: "Charles Dickens escribió 'Historia de dos ciudades' en 1859. Ambientada durante la Revolución Francesa, comienza con la famosa línea 'Era el mejor de los tiempos, era el peor de los tiempos'.",
+          de: "Charles Dickens schrieb 'Eine Geschichte zweier Städte' im Jahr 1859. Der während der Französischen Revolution spielende Roman beginnt mit der berühmten Zeile 'Es war die beste Zeit, es war die schlimmste Zeit'.",
+          nl: "Charles Dickens schreef 'Een verhaal van twee steden' in 1859. Het speelt zich af tijdens de Franse Revolutie en begint met de beroemde regel 'Het was de beste tijd, het was de slechtste tijd'."
         }
       }
     ]

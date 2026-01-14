@@ -426,7 +426,427 @@
           es: "La Gran Pirámide contiene aproximadamente 2.3 millones de bloques de piedra caliza. Cada bloque pesa un promedio de 2.5 toneladas, algunos pesan hasta 80 toneladas. El peso total se estima en 6 millones de toneladas.",
           de: "Die Große Pyramide enthält etwa 2,3 Millionen Kalksteinblöcke. Jeder Block wiegt durchschnittlich 2,5 Tonnen, einige wiegen bis zu 80 Tonnen. Das Gesamtgewicht wird auf 6 Millionen Tonnen geschätzt.",
           nl: "De Grote Piramide bevat ongeveer 2,3 miljoen kalkstenen blokken. Elk blok weegt gemiddeld 2,5 ton, sommige wegen tot 80 ton. Het totale gewicht wordt geschat op 6 miljoen ton."
-        }
+        }    },
+    {
+      question: {
+        en: "What is mummification?",
+        es: "What is mummification?",
+        de: "What is mummification?",
+        nl: "What is mummification?"
+      },
+      options: [
+        { en: "Preserving bodies for afterlife", es: "Preserving bodies for afterlife", de: "Preserving bodies for afterlife", nl: "Preserving bodies for afterlife" },
+        { en: "Burial ritual", es: "Burial ritual", de: "Burial ritual", nl: "Burial ritual" },
+        { en: "Tomb decoration", es: "Tomb decoration", de: "Tomb decoration", nl: "Tomb decoration" },
+        { en: "Pyramid building", es: "Pyramid building", de: "Pyramid building", nl: "Pyramid building" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Mummification is the process of preserving a corpse to prevent decay for the afterlife.",
+        es: "Mummification is the process of preserving a corpse to prevent decay for the afterlife.",
+        de: "Mummification is the process of preserving a corpse to prevent decay for the afterlife.",
+        nl: "Mummification is the process of preserving a corpse to prevent decay for the afterlife."
+      }
+    },
+    {
+      question: {
+        en: "How long did mummification take?",
+        es: "How long did mummification take?",
+        de: "How long did mummification take?",
+        nl: "How long did mummification take?"
+      },
+      options: [
+        { en: "70 days", es: "70 days", de: "70 days", nl: "70 days" },
+        { en: "7 days", es: "7 days", de: "7 days", nl: "7 days" },
+        { en: "700 days", es: "700 days", de: "700 days", nl: "700 days" },
+        { en: "30 days", es: "30 days", de: "30 days", nl: "30 days" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The complete mummification process took approximately 70 days.",
+        es: "The complete mummification process took approximately 70 days.",
+        de: "The complete mummification process took approximately 70 days.",
+        nl: "The complete mummification process took approximately 70 days."
+      }
+    },
+    {
+      question: {
+        en: "What organ was left in the body?",
+        es: "What organ was left in the body?",
+        de: "What organ was left in the body?",
+        nl: "What organ was left in the body?"
+      },
+      options: [
+        { en: "Heart", es: "Heart", de: "Heart", nl: "Heart" },
+        { en: "Lungs", es: "Lungs", de: "Lungs", nl: "Lungs" },
+        { en: "Liver", es: "Liver", de: "Liver", nl: "Liver" },
+        { en: "Brain", es: "Brain", de: "Brain", nl: "Brain" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The heart was left in the body as it was needed for the judgment of the dead.",
+        es: "The heart was left in the body as it was needed for the judgment of the dead.",
+        de: "The heart was left in the body as it was needed for the judgment of the dead.",
+        nl: "The heart was left in the body as it was needed for the judgment of the dead."
+      }
+    },
+    {
+      question: {
+        en: "What was done with the brain?",
+        es: "What was done with the brain?",
+        de: "What was done with the brain?",
+        nl: "What was done with the brain?"
+      },
+      options: [
+        { en: "Removed through the nose", es: "Removed through the nose", de: "Removed through the nose", nl: "Removed through the nose" },
+        { en: "Preserved in body", es: "Preserved in body", de: "Preserved in body", nl: "Preserved in body" },
+        { en: "Placed in canopic jar", es: "Placed in canopic jar", de: "Placed in canopic jar", nl: "Placed in canopic jar" },
+        { en: "Buried separately", es: "Buried separately", de: "Buried separately", nl: "Buried separately" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The brain was removed through the nose with a hook and discarded as unimportant.",
+        es: "The brain was removed through the nose with a hook and discarded as unimportant.",
+        de: "The brain was removed through the nose with a hook and discarded as unimportant.",
+        nl: "The brain was removed through the nose with a hook and discarded as unimportant."
+      }
+    },
+    {
+      question: {
+        en: "What were canopic jars used for?",
+        es: "What were canopic jars used for?",
+        de: "What were canopic jars used for?",
+        nl: "What were canopic jars used for?"
+      },
+      options: [
+        { en: "Storing removed organs", es: "Storing removed organs", de: "Storing removed organs", nl: "Storing removed organs" },
+        { en: "Holding oils", es: "Holding oils", de: "Holding oils", nl: "Holding oils" },
+        { en: "Containing food", es: "Containing food", de: "Containing food", nl: "Containing food" },
+        { en: "Storing jewelry", es: "Storing jewelry", de: "Storing jewelry", nl: "Storing jewelry" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Canopic jars held the mummified internal organs (lungs, liver, stomach, intestines).",
+        es: "Canopic jars held the mummified internal organs (lungs, liver, stomach, intestines).",
+        de: "Canopic jars held the mummified internal organs (lungs, liver, stomach, intestines).",
+        nl: "Canopic jars held the mummified internal organs (lungs, liver, stomach, intestines)."
+      }
+    },
+    {
+      question: {
+        en: "What substance was used to dry the body?",
+        es: "What substance was used to dry the body?",
+        de: "What substance was used to dry the body?",
+        nl: "What substance was used to dry the body?"
+      },
+      options: [
+        { en: "Natron salt", es: "Natron salt", de: "Natron salt", nl: "Natron salt" },
+        { en: "Sand", es: "Sand", de: "Sand", nl: "Sand" },
+        { en: "Water", es: "Water", de: "Water", nl: "Water" },
+        { en: "Oil", es: "Oil", de: "Oil", nl: "Oil" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Natron, a natural salt mixture, was used to desiccate the body.",
+        es: "Natron, a natural salt mixture, was used to desiccate the body.",
+        de: "Natron, a natural salt mixture, was used to desiccate the body.",
+        nl: "Natron, a natural salt mixture, was used to desiccate the body."
+      }
+    },
+    {
+      question: {
+        en: "What wrapped the mummy?",
+        es: "What wrapped the mummy?",
+        de: "What wrapped the mummy?",
+        nl: "What wrapped the mummy?"
+      },
+      options: [
+        { en: "Linen bandages", es: "Linen bandages", de: "Linen bandages", nl: "Linen bandages" },
+        { en: "Silk", es: "Silk", de: "Silk", nl: "Silk" },
+        { en: "Cotton", es: "Cotton", de: "Cotton", nl: "Cotton" },
+        { en: "Papyrus", es: "Papyrus", de: "Papyrus", nl: "Papyrus" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Mummies were wrapped in hundreds of yards of linen bandages.",
+        es: "Mummies were wrapped in hundreds of yards of linen bandages.",
+        de: "Mummies were wrapped in hundreds of yards of linen bandages.",
+        nl: "Mummies were wrapped in hundreds of yards of linen bandages."
+      }
+    },
+    {
+      question: {
+        en: "Who performed mummification?",
+        es: "Who performed mummification?",
+        de: "Who performed mummification?",
+        nl: "Who performed mummification?"
+      },
+      options: [
+        { en: "Priests and embalmers", es: "Priests and embalmers", de: "Priests and embalmers", nl: "Priests and embalmers" },
+        { en: "Pharaohs", es: "Pharaohs", de: "Pharaohs", nl: "Pharaohs" },
+        { en: "Family members", es: "Family members", de: "Family members", nl: "Family members" },
+        { en: "Soldiers", es: "Soldiers", de: "Soldiers", nl: "Soldiers" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Specialized priests and embalmers performed the mummification ritual.",
+        es: "Specialized priests and embalmers performed the mummification ritual.",
+        de: "Specialized priests and embalmers performed the mummification ritual.",
+        nl: "Specialized priests and embalmers performed the mummification ritual."
+      }
+    },
+    {
+      question: {
+        en: "What protected the mummy?",
+        es: "What protected the mummy?",
+        de: "What protected the mummy?",
+        nl: "What protected the mummy?"
+      },
+      options: [
+        { en: "Sarcophagus and amulets", es: "Sarcophagus and amulets", de: "Sarcophagus and amulets", nl: "Sarcophagus and amulets" },
+        { en: "Curses", es: "Curses", de: "Curses", nl: "Curses" },
+        { en: "Guards", es: "Guards", de: "Guards", nl: "Guards" },
+        { en: "Locks", es: "Locks", de: "Locks", nl: "Locks" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Sarcophagi (coffins) and protective amulets were placed with mummies.",
+        es: "Sarcophagi (coffins) and protective amulets were placed with mummies.",
+        de: "Sarcophagi (coffins) and protective amulets were placed with mummies.",
+        nl: "Sarcophagi (coffins) and protective amulets were placed with mummies."
+      }
+    },
+    {
+      question: {
+        en: "What god oversaw mummification?",
+        es: "What god oversaw mummification?",
+        de: "What god oversaw mummification?",
+        nl: "What god oversaw mummification?"
+      },
+      options: [
+        { en: "Anubis", es: "Anubis", de: "Anubis", nl: "Anubis" },
+        { en: "Osiris", es: "Osiris", de: "Osiris", nl: "Osiris" },
+        { en: "Ra", es: "Ra", de: "Ra", nl: "Ra" },
+        { en: "Horus", es: "Horus", de: "Horus", nl: "Horus" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Anubis, the jackal-headed god, was the patron of mummification and embalming.",
+        es: "Anubis, the jackal-headed god, was the patron of mummification and embalming.",
+        de: "Anubis, the jackal-headed god, was the patron of mummification and embalming.",
+        nl: "Anubis, the jackal-headed god, was the patron of mummification and embalming."
+      }
+    },
+    {
+      question: {
+        en: "How many canopic jars were used?",
+        es: "How many canopic jars were used?",
+        de: "How many canopic jars were used?",
+        nl: "How many canopic jars were used?"
+      },
+      options: [
+        { en: "Four", es: "Four", de: "Four", nl: "Four" },
+        { en: "Seven", es: "Seven", de: "Seven", nl: "Seven" },
+        { en: "Ten", es: "Ten", de: "Ten", nl: "Ten" },
+        { en: "One", es: "One", de: "One", nl: "One" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Four canopic jars were used, each protected by a different deity.",
+        es: "Four canopic jars were used, each protected by a different deity.",
+        de: "Four canopic jars were used, each protected by a different deity.",
+        nl: "Four canopic jars were used, each protected by a different deity."
+      }
+    },
+    {
+      question: {
+        en: "What oils were applied to the body?",
+        es: "What oils were applied to the body?",
+        de: "What oils were applied to the body?",
+        nl: "What oils were applied to the body?"
+      },
+      options: [
+        { en: "Cedar oil, palm wine, myrrh", es: "Cedar oil, palm wine, myrrh", de: "Cedar oil, palm wine, myrrh", nl: "Cedar oil, palm wine, myrrh" },
+        { en: "Olive oil only", es: "Olive oil only", de: "Olive oil only", nl: "Olive oil only" },
+        { en: "Water", es: "Water", de: "Water", nl: "Water" },
+        { en: "Animal fat", es: "Animal fat", de: "Animal fat", nl: "Animal fat" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Various oils and resins including cedar oil, palm wine, and myrrh were used.",
+        es: "Various oils and resins including cedar oil, palm wine, and myrrh were used.",
+        de: "Various oils and resins including cedar oil, palm wine, and myrrh were used.",
+        nl: "Various oils and resins including cedar oil, palm wine, and myrrh were used."
+      }
+    },
+    {
+      question: {
+        en: "What was placed over the mummy's face?",
+        es: "What was placed over the mummy's face?",
+        de: "What was placed over the mummy's face?",
+        nl: "What was placed over the mummy's face?"
+      },
+      options: [
+        { en: "Funeral mask", es: "Funeral mask", de: "Funeral mask", nl: "Funeral mask" },
+        { en: "Cloth only", es: "Cloth only", de: "Cloth only", nl: "Cloth only" },
+        { en: "Gold coins", es: "Gold coins", de: "Gold coins", nl: "Gold coins" },
+        { en: "Flowers", es: "Flowers", de: "Flowers", nl: "Flowers" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A funeral mask, sometimes gold for royalty, was placed over the mummy's face.",
+        es: "A funeral mask, sometimes gold for royalty, was placed over the mummy's face.",
+        de: "A funeral mask, sometimes gold for royalty, was placed over the mummy's face.",
+        nl: "A funeral mask, sometimes gold for royalty, was placed over the mummy's face."
+      }
+    },
+    {
+      question: {
+        en: "What book was buried with mummies?",
+        es: "What book was buried with mummies?",
+        de: "What book was buried with mummies?",
+        nl: "What book was buried with mummies?"
+      },
+      options: [
+        { en: "Book of the Dead", es: "Book of the Dead", de: "Book of the Dead", nl: "Book of the Dead" },
+        { en: "Book of Kings", es: "Book of Kings", de: "Book of Kings", nl: "Book of Kings" },
+        { en: "Book of Life", es: "Book of Life", de: "Book of Life", nl: "Book of Life" },
+        { en: "Book of Gods", es: "Book of Gods", de: "Book of Gods", nl: "Book of Gods" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Book of the Dead, containing spells and guidance, was often buried with mummies.",
+        es: "The Book of the Dead, containing spells and guidance, was often buried with mummies.",
+        de: "The Book of the Dead, containing spells and guidance, was often buried with mummies.",
+        nl: "The Book of the Dead, containing spells and guidance, was often buried with mummies."
+      }
+    },
+    {
+      question: {
+        en: "What position were mummies placed in?",
+        es: "What position were mummies placed in?",
+        de: "What position were mummies placed in?",
+        nl: "What position were mummies placed in?"
+      },
+      options: [
+        { en: "Extended on back", es: "Extended on back", de: "Extended on back", nl: "Extended on back" },
+        { en: "Sitting up", es: "Sitting up", de: "Sitting up", nl: "Sitting up" },
+        { en: "Fetal position", es: "Fetal position", de: "Fetal position", nl: "Fetal position" },
+        { en: "Standing", es: "Standing", de: "Standing", nl: "Standing" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Most mummies were placed extended on their backs in coffins.",
+        es: "Most mummies were placed extended on their backs in coffins.",
+        de: "Most mummies were placed extended on their backs in coffins.",
+        nl: "Most mummies were placed extended on their backs in coffins."
+      }
+    },
+    {
+      question: {
+        en: "What animals were also mummified?",
+        es: "What animals were also mummified?",
+        de: "What animals were also mummified?",
+        nl: "What animals were also mummified?"
+      },
+      options: [
+        { en: "Cats, dogs, crocodiles, birds, bulls", es: "Cats, dogs, crocodiles, birds, bulls", de: "Cats, dogs, crocodiles, birds, bulls", nl: "Cats, dogs, crocodiles, birds, bulls" },
+        { en: "Only cats", es: "Only cats", de: "Only cats", nl: "Only cats" },
+        { en: "No animals", es: "No animals", de: "No animals", nl: "No animals" },
+        { en: "Only sacred bulls", es: "Only sacred bulls", de: "Only sacred bulls", nl: "Only sacred bulls" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Egyptians mummified many animals including cats, dogs, crocodiles, ibises, and bulls.",
+        es: "Egyptians mummified many animals including cats, dogs, crocodiles, ibises, and bulls.",
+        de: "Egyptians mummified many animals including cats, dogs, crocodiles, ibises, and bulls.",
+        nl: "Egyptians mummified many animals including cats, dogs, crocodiles, ibises, and bulls."
+      }
+    },
+    {
+      question: {
+        en: "What incision was made during mummification?",
+        es: "What incision was made during mummification?",
+        de: "What incision was made during mummification?",
+        nl: "What incision was made during mummification?"
+      },
+      options: [
+        { en: "Left side of abdomen", es: "Left side of abdomen", de: "Left side of abdomen", nl: "Left side of abdomen" },
+        { en: "Chest", es: "Chest", de: "Chest", nl: "Chest" },
+        { en: "Back", es: "Back", de: "Back", nl: "Back" },
+        { en: "Right side", es: "Right side", de: "Right side", nl: "Right side" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A cut was made in the left side of the abdomen to remove internal organs.",
+        es: "A cut was made in the left side of the abdomen to remove internal organs.",
+        de: "A cut was made in the left side of the abdomen to remove internal organs.",
+        nl: "A cut was made in the left side of the abdomen to remove internal organs."
+      }
+    },
+    {
+      question: {
+        en: "What closed the incision?",
+        es: "What closed the incision?",
+        de: "What closed the incision?",
+        nl: "What closed the incision?"
+      },
+      options: [
+        { en: "Wax or resin seal", es: "Wax or resin seal", de: "Wax or resin seal", nl: "Wax or resin seal" },
+        { en: "Stitches", es: "Stitches", de: "Stitches", nl: "Stitches" },
+        { en: "Bandages only", es: "Bandages only", de: "Bandages only", nl: "Bandages only" },
+        { en: "Left open", es: "Left open", de: "Left open", nl: "Left open" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The abdominal incision was covered with a wax or resin plate.",
+        es: "The abdominal incision was covered with a wax or resin plate.",
+        de: "The abdominal incision was covered with a wax or resin plate.",
+        nl: "The abdominal incision was covered with a wax or resin plate."
+      }
+    },
+    {
+      question: {
+        en: "What prayers were recited?",
+        es: "What prayers were recited?",
+        de: "What prayers were recited?",
+        nl: "What prayers were recited?"
+      },
+      options: [
+        { en: "Spells from Book of the Dead", es: "Spells from Book of the Dead", de: "Spells from Book of the Dead", nl: "Spells from Book of the Dead" },
+        { en: "Hymns to Ra", es: "Hymns to Ra", de: "Hymns to Ra", nl: "Hymns to Ra" },
+        { en: "Royal decrees", es: "Royal decrees", de: "Royal decrees", nl: "Royal decrees" },
+        { en: "None", es: "None", de: "None", nl: "None" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Priests recited protective spells from funerary texts during mummification.",
+        es: "Priests recited protective spells from funerary texts during mummification.",
+        de: "Priests recited protective spells from funerary texts during mummification.",
+        nl: "Priests recited protective spells from funerary texts during mummification."
+      }
+    },
+    {
+      question: {
+        en: "Why was mummification important?",
+        es: "Why was mummification important?",
+        de: "Why was mummification important?",
+        nl: "Why was mummification important?"
+      },
+      options: [
+        { en: "Body needed for afterlife", es: "Body needed for afterlife", de: "Body needed for afterlife", nl: "Body needed for afterlife" },
+        { en: "Religious law", es: "Religious law", de: "Religious law", nl: "Religious law" },
+        { en: "Preventing disease", es: "Preventing disease", de: "Preventing disease", nl: "Preventing disease" },
+        { en: "Honoring pharaohs only", es: "Honoring pharaohs only", de: "Honoring pharaohs only", nl: "Honoring pharaohs only" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Egyptians believed the preserved body was necessary for the soul to have eternal life.",
+        es: "Egyptians believed the preserved body was necessary for the soul to have eternal life.",
+        de: "Egyptians believed the preserved body was necessary for the soul to have eternal life.",
+        nl: "Egyptians believed the preserved body was necessary for the soul to have eternal life."
+      }
+
       }
     ]
   };

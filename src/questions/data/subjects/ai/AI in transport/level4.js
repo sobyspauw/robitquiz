@@ -427,6 +427,426 @@
           de: "Bewegungsunschärfe-Kompensation verwendet fortgeschrittene Algorithmen und Hochgeschwindigkeits-Bildgebungstechniken um scharfe, klare Bilder für Computer-Vision-Systeme zu erhalten auch wenn das Fahrzeug mit Autobahngeschwindigkeit fährt.",
           nl: "Bewegingsonscherpte compensatie gebruikt geavanceerde algoritmes en hoge-snelheid beeldtechnieken om scherpe, heldere beelden te behouden voor computer vision systemen zelfs wanneer het voertuig met snelwegsnelheden beweegt."
         }
+      },
+      {
+        question: {
+          en: "What is 'end-to-end learning' in autonomous driving systems?",
+          es: "¿Qué es el 'aprendizaje de extremo a extremo' en sistemas de conducción autónoma?",
+          de: "Was ist 'End-to-End-Lernen' in autonomen Fahrsystemen?",
+          nl: "Wat is 'end-to-end learning' in autonome rijsystemen?"
+        },
+        options: [
+          { en: "Neural networks that directly map sensor inputs to steering commands without explicit intermediate steps", es: "Redes neuronales que mapean directamente entradas de sensores a comandos de dirección sin pasos intermedios explícitos", de: "Neuronale Netzwerke die Sensoreingaben direkt auf Lenkbefehle abbilden ohne explizite Zwischenschritte", nl: "Neurale netwerken die sensorinputs direct naar stuurcommando's mappen zonder expliciete tussenstappen" },
+          { en: "Learning that occurs from start to finish of journey", es: "Aprendizaje que ocurre desde inicio hasta fin del viaje", de: "Lernen das vom Anfang bis Ende der Reise erfolgt", nl: "Leren dat plaatsvindt van begin tot einde van reis" },
+          { en: "End-of-life vehicle learning systems", es: "Sistemas de aprendizaje de fin de vida del vehículo", de: "Fahrzeug-End-of-Life-Lernsysteme", nl: "Einde-levensduur voertuig leersystemen" },
+          { en: "Learning endpoints for navigation routes", es: "Aprender puntos finales para rutas de navegación", de: "Endpunkte für Navigationsrouten lernen", nl: "Eindpunten leren voor navigatieroutes" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "End-to-end learning trains neural networks to learn the entire driving task holistically, from raw sensor data to control outputs, potentially discovering optimal strategies that human-designed systems might miss.",
+          es: "El aprendizaje de extremo a extremo entrena redes neuronales para aprender toda la tarea de conducción holísticamente, desde datos brutos de sensores hasta salidas de control, potencialmente descubriendo estrategias óptimas que sistemas diseñados por humanos podrían perder.",
+          de: "End-to-End-Lernen trainiert neuronale Netzwerke die gesamte Fahraufgabe ganzheitlich zu lernen, von Roh-Sensordaten bis Steuerausgaben, entdeckt potenziell optimale Strategien die menschendesignte Systeme verpassen könnten.",
+          nl: "End-to-end learning traint neurale netwerken om de gehele rijtaak holistisch te leren, van ruwe sensordata tot controle-outputs, waarbij mogelijk optimale strategieën worden ontdekt die door mensen ontworpen systemen zouden kunnen missen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'domain adaptation' addressing in autonomous vehicle AI?",
+          es: "¿Qué está abordando la 'adaptación de dominio' en IA de vehículos autónomos?",
+          de: "Was adressiert 'Domänenanpassung' in autonomer Fahrzeug-KI?",
+          nl: "Wat pakt 'domein aanpassing' aan in autonome voertuig AI?"
+        },
+        options: [
+          { en: "Enabling AI trained in one environment to work effectively in different geographic or weather conditions", es: "Habilitar IA entrenada en un entorno para trabajar efectivamente en diferentes condiciones geográficas o climáticas", de: "KI die in einer Umgebung trainiert wurde befähigen in verschiedenen geografischen oder Wetterbedingungen effektiv zu arbeiten", nl: "AI getraind in één omgeving in staat stellen om effectief te werken in verschillende geografische of weersomstandigheden" },
+          { en: "Adapting domain names for vehicle networks", es: "Adaptar nombres de dominio para redes vehiculares", de: "Domänennamen für Fahrzeugnetzwerke anpassen", nl: "Domeinnamen aanpassen voor voertuignetwerken" },
+          { en: "Domain-specific language adaptation", es: "Adaptación de lenguaje específico de dominio", de: "Domänenspezifische Sprachanpassung", nl: "Domein-specifieke taaladaptatie" },
+          { en: "Adapting to different vehicle ownership domains", es: "Adaptarse a diferentes dominios de propiedad de vehículos", de: "Anpassung an verschiedene Fahrzeugeigentums-Domänen", nl: "Aanpassen aan verschillende voertuig eigendomsdomeinen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Domain adaptation techniques allow AI systems trained on sunny California roads to generalize to snowy European cities or Asian megacities, reducing the need for extensive retraining in every new environment.",
+          es: "Las técnicas de adaptación de dominio permiten a sistemas IA entrenados en carreteras soleadas de California generalizar a ciudades europeas nevadas o megaciudades asiáticas, reduciendo la necesidad de reentrenamiento extensivo en cada nuevo entorno.",
+          de: "Domänenanpassungstechniken ermöglichen KI-Systemen die auf sonnigen kalifornischen Straßen trainiert wurden auf verschneite europäische Städte oder asiatische Megastädte zu generalisieren, reduziert Bedarf an umfangreichem Neutraining in jeder neuen Umgebung.",
+          nl: "Domein aanpassingstechnieken stellen AI-systemen getraind op zonnige Californische wegen in staat om te generaliseren naar besneeuwde Europese steden of Aziatische megasteden, wat de behoefte aan uitgebreide hertraining in elke nieuwe omgeving vermindert."
+        }
+      },
+      {
+        question: {
+          en: "What is 'adversarial training' improving in autonomous vehicle robustness?",
+          es: "¿Qué está mejorando el 'entrenamiento adversarial' en robustez de vehículos autónomos?",
+          de: "Was verbessert 'adversariales Training' in Robustheit autonomer Fahrzeuge?",
+          nl: "Wat verbetert 'adversarial training' in robuustheid van autonome voertuigen?"
+        },
+        options: [
+          { en: "Resistance to adversarial attacks and edge cases by training on intentionally challenging examples", es: "Resistencia a ataques adversariales y casos extremos entrenando en ejemplos intencionalmente desafiantes", de: "Widerstand gegen adversariale Angriffe und Randfälle durch Training an absichtlich herausfordernden Beispielen", nl: "Weerstand tegen adversariale aanvallen en edge cases door te trainen op opzettelijk uitdagende voorbeelden" },
+          { en: "Training against adversarial competitors only", es: "Solo entrenar contra competidores adversariales", de: "Nur gegen adversariale Wettbewerber trainieren", nl: "Alleen trainen tegen adversariale concurrenten" },
+          { en: "Adversarial marketing strategies", es: "Estrategias de marketing adversarial", de: "Adversariale Marketingstrategien", nl: "Adversariale marketingstrategieën" },
+          { en: "Training in adverse weather only", es: "Solo entrenar en clima adverso", de: "Nur bei widrigem Wetter trainieren", nl: "Alleen trainen bij slecht weer" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Adversarial training exposes AI to deliberately crafted challenging scenarios, making it more resilient to unusual inputs, sensor glitches, and potential attacks that could compromise safety.",
+          es: "El entrenamiento adversarial expone a IA a escenarios desafiantes deliberadamente elaborados, haciéndola más resistente a entradas inusuales, fallos de sensores y ataques potenciales que podrían comprometer la seguridad.",
+          de: "Adversariales Training setzt KI absichtlich gestalteten herausfordernden Szenarien aus, macht sie widerstandsfähiger gegen ungewöhnliche Eingaben, Sensorfehler und potenzielle Angriffe die Sicherheit gefährden könnten.",
+          nl: "Adversarial training stelt AI bloot aan opzettelijk gecreëerde uitdagende scenario's, waardoor het veerkrachtiger wordt tegen ongebruikelijke inputs, sensorstoringen en potentiële aanvallen die veiligheid in gevaar zouden kunnen brengen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'model compression' enabling for edge deployment of AI in vehicles?",
+          es: "¿Qué está habilitando la 'compresión de modelos' para despliegue en el borde de IA en vehículos?",
+          de: "Was ermöglicht 'Modellkompression' für Edge-Bereitstellung von KI in Fahrzeugen?",
+          nl: "Wat maakt 'model compressie' mogelijk voor edge deployment van AI in voertuigen?"
+        },
+        options: [
+          { en: "Running complex neural networks on resource-constrained vehicle hardware with minimal performance loss", es: "Ejecutar redes neuronales complejas en hardware vehicular con recursos limitados con pérdida mínima de rendimiento", de: "Ausführung komplexer neuronaler Netzwerke auf ressourcenbeschränkter Fahrzeughardware mit minimalem Leistungsverlust", nl: "Complexe neurale netwerken uitvoeren op resource-beperkte voertuig hardware met minimaal prestatieverlies" },
+          { en: "Compressing vehicle models into smaller sizes", es: "Comprimir modelos de vehículos en tamaños más pequeños", de: "Fahrzeugmodelle in kleinere Größen komprimieren", nl: "Voertuig modellen comprimeren in kleinere maten" },
+          { en: "Model car compression for storage", es: "Compresión de coches modelo para almacenamiento", de: "Modellauto-Kompression für Lagerung", nl: "Modelauto compressie voor opslag" },
+          { en: "Compressing 3D vehicle models", es: "Comprimir modelos 3D de vehículos", de: "3D-Fahrzeugmodelle komprimieren", nl: "3D voertuig modellen comprimeren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Model compression techniques like pruning, quantization, and knowledge distillation reduce neural network size and computational requirements, enabling real-time AI inference on vehicle computers with limited power and memory.",
+          es: "Las técnicas de compresión de modelos como poda, cuantización y destilación de conocimiento reducen tamaño de redes neuronales y requisitos computacionales, habilitando inferencia IA en tiempo real en computadoras vehiculares con potencia y memoria limitadas.",
+          de: "Modellkompressionstechniken wie Pruning, Quantisierung und Knowledge Distillation reduzieren neuronale Netzwerkgröße und Rechenanforderungen, ermöglichen Echtzeit-KI-Inferenz auf Fahrzeugcomputern mit begrenzter Leistung und Speicher.",
+          nl: "Model compressie technieken zoals pruning, quantisatie en knowledge distillation verminderen neurale netwerk grootte en computationele vereisten, wat real-time AI-inferentie mogelijk maakt op voertuigcomputers met beperkte stroom en geheugen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'federated learning' offering for collaborative autonomous vehicle AI development?",
+          es: "¿Qué está ofreciendo el 'aprendizaje federado' para desarrollo colaborativo de IA de vehículos autónomos?",
+          de: "Was bietet 'föderiertes Lernen' für kollaborative autonome Fahrzeug-KI-Entwicklung?",
+          nl: "Wat biedt 'federated learning' voor collaboratieve autonome voertuig AI-ontwikkeling?"
+        },
+        options: [
+          { en: "Training shared AI models across vehicle fleets without exposing individual vehicle data, preserving privacy", es: "Entrenar modelos IA compartidos a través de flotas de vehículos sin exponer datos de vehículos individuales, preservando privacidad", de: "Geteilte KI-Modelle über Fahrzeugflotten trainieren ohne individuelle Fahrzeugdaten offenzulegen, Privatsphäre bewahren", nl: "Gedeelde AI-modellen trainen over voertuigvloten zonder individuele voertuigdata bloot te stellen, privacy behouden" },
+          { en: "Federal government vehicle learning programs", es: "Programas de aprendizaje de vehículos del gobierno federal", de: "Bundesregierungs-Fahrzeuglernprogramme", nl: "Federale overheids voertuig leerprogramma's" },
+          { en: "Federation of vehicle manufacturers learning", es: "Aprendizaje de federación de fabricantes de vehículos", de: "Fahrzeughersteller-Föderation Lernen", nl: "Federatie van voertuigfabrikanten leren" },
+          { en: "Federated network protocols for vehicles", es: "Protocolos de red federados para vehículos", de: "Föderierte Netzwerkprotokolle für Fahrzeuge", nl: "Gefedereerde netwerk protocollen voor voertuigen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Federated learning allows manufacturers to improve AI models by learning from millions of vehicles' experiences while keeping sensitive driving data local to each vehicle, addressing privacy concerns while enabling continuous improvement.",
+          es: "El aprendizaje federado permite a fabricantes mejorar modelos IA aprendiendo de experiencias de millones de vehículos mientras mantiene datos sensibles de conducción locales a cada vehículo, abordando preocupaciones de privacidad mientras habilita mejora continua.",
+          de: "Föderiertes Lernen ermöglicht Herstellern KI-Modelle zu verbessern durch Lernen aus Erfahrungen von Millionen Fahrzeugen während sensible Fahrdaten lokal in jedem Fahrzeug bleiben, adressiert Datenschutzbedenken während kontinuierliche Verbesserung ermöglicht wird.",
+          nl: "Federated learning stelt fabrikanten in staat om AI-modellen te verbeteren door te leren van ervaringen van miljoenen voertuigen terwijl gevoelige rijdata lokaal bij elk voertuig blijven, wat privacyzorgen aanpakt terwijl continue verbetering mogelijk wordt gemaakt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'sim-to-real transfer' addressing in autonomous driving AI development?",
+          es: "¿Qué está abordando la 'transferencia de sim a real' en desarrollo de IA de conducción autónoma?",
+          de: "Was adressiert 'Sim-to-Real-Transfer' in autonomer Fahr-KI-Entwicklung?",
+          nl: "Wat pakt 'sim-to-real transfer' aan in autonome rijden AI-ontwikkeling?"
+        },
+        options: [
+          { en: "Bridging the gap between AI trained in simulation and real-world performance", es: "Cerrar la brecha entre IA entrenada en simulación y rendimiento en el mundo real", de: "Lücke zwischen in Simulation trainierter KI und realer Leistung überbrücken", nl: "De kloof overbruggen tussen AI getraind in simulatie en echte wereld prestaties" },
+          { en: "Transferring SIM cards between vehicles", es: "Transferir tarjetas SIM entre vehículos", de: "SIM-Karten zwischen Fahrzeugen übertragen", nl: "SIM-kaarten overdragen tussen voertuigen" },
+          { en: "Real-time simulation transfers", es: "Transferencias de simulación en tiempo real", de: "Echtzeit-Simulationsübertragungen", nl: "Real-time simulatie overdrachten" },
+          { en: "Transferring simulation software licenses", es: "Transferir licencias de software de simulación", de: "Simulationssoftware-Lizenzen übertragen", nl: "Simulatie software licenties overdragen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sim-to-real transfer techniques ensure AI trained in virtual environments performs reliably when deployed in actual vehicles, using domain randomization and reality gap minimization to handle differences between simulation and reality.",
+          es: "Las técnicas de transferencia de sim a real aseguran que IA entrenada en entornos virtuales funcione confiablemente cuando se despliega en vehículos reales, usando aleatorización de dominio y minimización de brecha de realidad para manejar diferencias entre simulación y realidad.",
+          de: "Sim-to-Real-Transfer-Techniken stellen sicher dass in virtuellen Umgebungen trainierte KI zuverlässig funktioniert wenn in tatsächlichen Fahrzeugen eingesetzt, nutzt Domain-Randomisierung und Reality-Gap-Minimierung um Unterschiede zwischen Simulation und Realität zu behandeln.",
+          nl: "Sim-to-real transfer technieken zorgen ervoor dat AI getraind in virtuele omgevingen betrouwbaar presteert wanneer ingezet in daadwerkelijke voertuigen, waarbij domein randomisatie en reality gap minimalisatie worden gebruikt om verschillen tussen simulatie en realiteit te behandelen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'uncertainty quantification' providing in autonomous vehicle decision-making?",
+          es: "¿Qué está proporcionando la 'cuantificación de incertidumbre' en toma de decisiones de vehículos autónomos?",
+          de: "Was bietet 'Unsicherheitsquantifizierung' in autonomer Fahrzeugentscheidungsfindung?",
+          nl: "Wat biedt 'onzekerheids kwantificatie' in autonome voertuig besluitvorming?"
+        },
+        options: [
+          { en: "Measuring AI confidence levels to know when predictions are reliable versus uncertain", es: "Medir niveles de confianza de IA para saber cuándo predicciones son confiables versus inciertas", de: "KI-Konfidenzniveaus messen um zu wissen wann Vorhersagen zuverlässig versus unsicher sind", nl: "AI-vertrouwensniveaus meten om te weten wanneer voorspellingen betrouwbaar versus onzeker zijn" },
+          { en: "Quantifying uncertain vehicle sales", es: "Cuantificar ventas inciertas de vehículos", de: "Unsichere Fahrzeugverkäufe quantifizieren", nl: "Onzekere voertuigverkopen kwantificeren" },
+          { en: "Uncertainty in fuel consumption estimates", es: "Incertidumbre en estimaciones de consumo de combustible", de: "Unsicherheit bei Kraftstoffverbrauchsschätzungen", nl: "Onzekerheid in brandstofverbruik schattingen" },
+          { en: "Quantifying manufacturing uncertainties", es: "Cuantificar incertidumbres de fabricación", de: "Fertigungsunsicherheiten quantifizieren", nl: "Productie onzekerheden kwantificeren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Uncertainty quantification enables autonomous vehicles to assess their own confidence in perceptions and decisions, triggering fallback behaviors or requesting human intervention when confidence is low.",
+          es: "La cuantificación de incertidumbre habilita a vehículos autónomos evaluar su propia confianza en percepciones y decisiones, activando comportamientos de respaldo o solicitando intervención humana cuando la confianza es baja.",
+          de: "Unsicherheitsquantifizierung ermöglicht autonomen Fahrzeugen ihr eigenes Vertrauen in Wahrnehmungen und Entscheidungen zu bewerten, löst Fallback-Verhalten aus oder fordert menschliches Eingreifen wenn Vertrauen niedrig ist.",
+          nl: "Onzekerheids kwantificatie stelt autonome voertuigen in staat om hun eigen vertrouwen in waarnemingen en beslissingen te beoordelen, wat fallback gedragingen activeert of menselijke interventie vraagt wanneer vertrouwen laag is."
+        }
+      },
+      {
+        question: {
+          en: "What is 'active learning' optimizing in autonomous vehicle AI training?",
+          es: "¿Qué está optimizando el 'aprendizaje activo' en entrenamiento de IA de vehículos autónomos?",
+          de: "Was optimiert 'aktives Lernen' in autonomem Fahrzeug-KI-Training?",
+          nl: "Wat optimaliseert 'actief leren' in autonome voertuig AI-training?"
+        },
+        options: [
+          { en: "Intelligently selecting the most valuable data samples for annotation and training", es: "Seleccionar inteligentemente las muestras de datos más valiosas para anotación y entrenamiento", de: "Intelligente Auswahl der wertvollsten Datenproben für Annotation und Training", nl: "Intelligent de meest waardevolle data samples selecteren voor annotatie en training" },
+          { en: "Active physical training for AI systems", es: "Entrenamiento físico activo para sistemas IA", de: "Aktives körperliches Training für KI-Systeme", nl: "Actieve fysieke training voor AI-systemen" },
+          { en: "Learning only during active driving", es: "Aprender solo durante conducción activa", de: "Nur während aktiver Fahrt lernen", nl: "Alleen leren tijdens actief rijden" },
+          { en: "Active noise learning in vehicles", es: "Aprendizaje de ruido activo en vehículos", de: "Aktives Rauschlernen in Fahrzeugen", nl: "Actief ruisleren in voertuigen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Active learning identifies edge cases and uncertain scenarios that provide maximum learning value, focusing human annotation efforts on the most informative examples rather than random data, dramatically improving training efficiency.",
+          es: "El aprendizaje activo identifica casos extremos y escenarios inciertos que proporcionan máximo valor de aprendizaje, enfocando esfuerzos de anotación humana en ejemplos más informativos en lugar de datos aleatorios, mejorando dramáticamente eficiencia de entrenamiento.",
+          de: "Aktives Lernen identifiziert Randfälle und unsichere Szenarien die maximalen Lernwert bieten, fokussiert menschliche Annotationsanstrengungen auf informativsten Beispiele statt zufällige Daten, verbessert Trainingseffizienz dramatisch.",
+          nl: "Actief leren identificeert edge cases en onzekere scenario's die maximale leerwaarde bieden, focust menselijke annotatie inspanningen op de meest informatieve voorbeelden in plaats van willekeurige data, wat trainingsefficiëntie dramatisch verbetert."
+        }
+      },
+      {
+        question: {
+          en: "What is 'continual learning' enabling for deployed autonomous vehicles?",
+          es: "¿Qué está habilitando el 'aprendizaje continuo' para vehículos autónomos desplegados?",
+          de: "Was ermöglicht 'kontinuierliches Lernen' für eingesetzte autonome Fahrzeuge?",
+          nl: "Wat maakt 'continu leren' mogelijk voor gedeployeerde autonome voertuigen?"
+        },
+        options: [
+          { en: "Learning from new experiences over time without forgetting previously learned behaviors", es: "Aprender de nuevas experiencias con el tiempo sin olvidar comportamientos aprendidos previamente", de: "Aus neuen Erfahrungen über Zeit lernen ohne zuvor gelernte Verhaltensweisen zu vergessen", nl: "Leren van nieuwe ervaringen in de tijd zonder eerder geleerde gedragingen te vergeten" },
+          { en: "Continuous vehicle operation learning", es: "Aprendizaje de operación continua de vehículos", de: "Kontinuierliches Fahrzeugbetriebs-Lernen", nl: "Continue voertuigoperatie leren" },
+          { en: "Learning during continuous charging", es: "Aprender durante carga continua", de: "Lernen während kontinuierlichem Laden", nl: "Leren tijdens continu opladen" },
+          { en: "Continual maintenance learning", es: "Aprendizaje de mantenimiento continuo", de: "Kontinuierliches Wartungslernen", nl: "Continu onderhoud leren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Continual learning allows autonomous vehicles to adapt to new road layouts, traffic patterns, and scenarios encountered in operation while preserving their existing knowledge, avoiding catastrophic forgetting.",
+          es: "El aprendizaje continuo permite a vehículos autónomos adaptarse a nuevos diseños de carreteras, patrones de tráfico y escenarios encontrados en operación mientras preserva su conocimiento existente, evitando olvido catastrófico.",
+          de: "Kontinuierliches Lernen ermöglicht autonomen Fahrzeugen sich an neue Straßenlayouts, Verkehrsmuster und im Betrieb angetroffene Szenarien anzupassen während bestehendes Wissen bewahrt wird, vermeidet katastrophales Vergessen.",
+          nl: "Continu leren stelt autonome voertuigen in staat om zich aan te passen aan nieuwe wegindelingen, verkeerspatronen en scenario's aangetroffen in bedrijf terwijl bestaande kennis behouden blijft, waarbij catastrofaal vergeten wordt vermeden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'multi-task learning' achieving in autonomous vehicle AI architectures?",
+          es: "¿Qué está logrando el 'aprendizaje multi-tarea' en arquitecturas de IA de vehículos autónomos?",
+          de: "Was erreicht 'Multi-Task-Lernen' in autonomen Fahrzeug-KI-Architekturen?",
+          nl: "Wat bereikt 'multi-task learning' in autonome voertuig AI-architecturen?"
+        },
+        options: [
+          { en: "Training single models to perform multiple related tasks simultaneously, improving efficiency and shared representations", es: "Entrenar modelos únicos para realizar múltiples tareas relacionadas simultáneamente, mejorando eficiencia y representaciones compartidas", de: "Einzelne Modelle trainieren um mehrere verwandte Aufgaben gleichzeitig durchzuführen, verbessert Effizienz und geteilte Repräsentationen", nl: "Enkele modellen trainen om meerdere gerelateerde taken gelijktijdig uit te voeren, wat efficiëntie en gedeelde representaties verbetert" },
+          { en: "Learning multiple vehicle tasks separately", es: "Aprender múltiples tareas de vehículos por separado", de: "Mehrere Fahrzeugaufgaben separat lernen", nl: "Meerdere voertuig taken afzonderlijk leren" },
+          { en: "Task management for vehicle operators", es: "Gestión de tareas para operadores de vehículos", de: "Aufgabenverwaltung für Fahrzeugbetreiber", nl: "Taakbeheer voor voertuigoperators" },
+          { en: "Multi-tasking by human drivers", es: "Multitarea por conductores humanos", de: "Multitasking von menschlichen Fahrern", nl: "Multitasking door menselijke bestuurders" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Multi-task learning enables one neural network to handle object detection, lane detection, depth estimation, and other tasks simultaneously, sharing learned features across tasks for better performance and computational efficiency.",
+          es: "El aprendizaje multi-tarea habilita a una red neuronal manejar detección de objetos, detección de carriles, estimación de profundidad y otras tareas simultáneamente, compartiendo características aprendidas a través de tareas para mejor rendimiento y eficiencia computacional.",
+          de: "Multi-Task-Lernen ermöglicht einem neuronalen Netzwerk Objekterkennung, Spurerkennung, Tiefenschätzung und andere Aufgaben gleichzeitig zu bewältigen, teilt gelernte Merkmale über Aufgaben für bessere Leistung und Recheneffizienz.",
+          nl: "Multi-task learning stelt één neuraal netwerk in staat om objectdetectie, rijstrookdetectie, diepte schatting en andere taken gelijktijdig te behandelen, waarbij geleerde kenmerken over taken worden gedeeld voor betere prestaties en computationele efficiëntie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'attention mechanisms' improving in autonomous vehicle perception models?",
+          es: "¿Qué están mejorando los 'mecanismos de atención' en modelos de percepción de vehículos autónomos?",
+          de: "Was verbessern 'Aufmerksamkeitsmechanismen' in autonomen Fahrzeugwahrnehmungsmodellen?",
+          nl: "Wat verbeteren 'aandachtsmechanismen' in autonome voertuig perceptie modellen?"
+        },
+        options: [
+          { en: "Focusing computational resources on the most relevant parts of sensor data for better decision-making", es: "Enfocar recursos computacionales en las partes más relevantes de datos de sensores para mejor toma de decisiones", de: "Rechenressourcen auf relevanteste Teile von Sensordaten fokussieren für bessere Entscheidungsfindung", nl: "Computationele middelen focussen op de meest relevante delen van sensordata voor betere besluitvorming" },
+          { en: "Attention-grabbing vehicle design features", es: "Características de diseño vehicular que captan atención", de: "Aufmerksamkeitserregende Fahrzeugdesign-Merkmale", nl: "Aandacht-trekkende voertuig design kenmerken" },
+          { en: "Driver attention monitoring only", es: "Solo monitoreo de atención del conductor", de: "Nur Fahreraufmerksamkeitsüberwachung", nl: "Alleen bestuurder aandacht monitoring" },
+          { en: "Attention management for passengers", es: "Gestión de atención para pasajeros", de: "Aufmerksamkeitsverwaltung für Passagiere", nl: "Aandachtbeheer voor passagiers" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Attention mechanisms allow neural networks to dynamically weight different parts of input data, focusing on important objects or regions while filtering noise, significantly improving perception accuracy and contextual understanding.",
+          es: "Los mecanismos de atención permiten a redes neuronales ponderar dinámicamente diferentes partes de datos de entrada, enfocándose en objetos o regiones importantes mientras filtra ruido, mejorando significativamente precisión de percepción y comprensión contextual.",
+          de: "Aufmerksamkeitsmechanismen ermöglichen neuronalen Netzwerken verschiedene Teile von Eingabedaten dynamisch zu gewichten, fokussieren auf wichtige Objekte oder Regionen während Rauschen gefiltert wird, verbessert Wahrnehmungsgenauigkeit und kontextuelles Verständnis signifikant.",
+          nl: "Aandachtsmechanismen stellen neurale netwerken in staat om verschillende delen van inputdata dynamisch te wegen, waarbij wordt gefocust op belangrijke objecten of regio's terwijl ruis wordt gefilterd, wat perceptie nauwkeurigheid en contextueel begrip aanzienlijk verbetert."
+        }
+      },
+      {
+        question: {
+          en: "What is 'transformer architecture' revolutionizing in autonomous driving perception?",
+          es: "¿Qué está revolucionando la 'arquitectura transformer' en percepción de conducción autónoma?",
+          de: "Was revolutioniert 'Transformer-Architektur' in autonomer Fahrwahrnehmung?",
+          nl: "Wat revolutioneert 'transformer architectuur' in autonome rijden perceptie?"
+        },
+        options: [
+          { en: "Processing sequences and spatial relationships with self-attention for superior scene understanding", es: "Procesar secuencias y relaciones espaciales con auto-atención para comprensión superior de escena", de: "Verarbeitung von Sequenzen und räumlichen Beziehungen mit Selbst-Aufmerksamkeit für überlegenes Szenenverständnis", nl: "Verwerken van sequenties en ruimtelijke relaties met zelf-aandacht voor superieur scènebegrip" },
+          { en: "Electrical transformers for vehicle power", es: "Transformadores eléctricos para energía vehicular", de: "Elektrische Transformatoren für Fahrzeugstrom", nl: "Elektrische transformatoren voor voertuig stroom" },
+          { en: "Transforming vehicle shapes and designs", es: "Transformar formas y diseños de vehículos", de: "Fahrzeugformen und -designs transformieren", nl: "Voertuigvormen en -ontwerpen transformeren" },
+          { en: "Data transformation protocols", es: "Protocolos de transformación de datos", de: "Datentransformations-Protokolle", nl: "Data transformatie protocollen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Transformer architectures excel at capturing long-range dependencies and contextual relationships in visual data, enabling better understanding of complex traffic scenarios and interactions between multiple road users.",
+          es: "Las arquitecturas transformer sobresalen capturando dependencias de largo alcance y relaciones contextuales en datos visuales, habilitando mejor comprensión de escenarios de tráfico complejos e interacciones entre múltiples usuarios de carretera.",
+          de: "Transformer-Architekturen übertreffen bei Erfassung weitreichender Abhängigkeiten und kontextueller Beziehungen in visuellen Daten, ermöglichen besseres Verständnis komplexer Verkehrsszenarien und Interaktionen zwischen mehreren Verkehrsteilnehmern.",
+          nl: "Transformer architecturen blinken uit in het vastleggen van lange-afstand afhankelijkheden en contextuele relaties in visuele data, wat beter begrip mogelijk maakt van complexe verkeersscenario's en interacties tussen meerdere weggebruikers."
+        }
+      },
+      {
+        question: {
+          en: "What is 'neural radiance fields (NeRF)' enabling for autonomous vehicle scene reconstruction?",
+          es: "¿Qué están habilitando los 'campos de radiancia neural (NeRF)' para reconstrucción de escena de vehículos autónomos?",
+          de: "Was ermöglichen 'neuronale Radianzfelder (NeRF)' für autonome Fahrzeugszenrekonstruktion?",
+          nl: "Wat maken 'neural radiance fields (NeRF)' mogelijk voor autonome voertuig scène reconstructie?"
+        },
+        options: [
+          { en: "Creating photorealistic 3D scene representations from multiple camera views for simulation and training", es: "Crear representaciones de escena 3D fotorrealistas desde múltiples vistas de cámara para simulación y entrenamiento", de: "Fotorealistische 3D-Szenenrepräsentationen aus mehreren Kameraansichten für Simulation und Training erstellen", nl: "Fotorealistische 3D-scène representaties creëren vanuit meerdere cameraperspectieven voor simulatie en training" },
+          { en: "Neural field theory for vehicle physics", es: "Teoría de campo neural para física vehicular", de: "Neurale Feldtheorie für Fahrzeugphysik", nl: "Neurale veld theorie voor voertuig fysica" },
+          { en: "Radiance lighting for vehicle interiors", es: "Iluminación de radiancia para interiores vehiculares", de: "Radianz-Beleuchtung für Fahrzeuginnenräume", nl: "Radiance verlichting voor voertuig interieurs" },
+          { en: "Field testing neural networks", es: "Pruebas de campo de redes neuronales", de: "Feldtests neuronaler Netzwerke", nl: "Veldtesten van neurale netwerken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "NeRF technology synthesizes detailed 3D environments from 2D images, enabling creation of realistic virtual training scenarios from real-world data and supporting novel view synthesis for comprehensive scene understanding.",
+          es: "La tecnología NeRF sintetiza entornos 3D detallados desde imágenes 2D, habilitando creación de escenarios de entrenamiento virtuales realistas desde datos del mundo real y apoyando síntesis de vista novedosa para comprensión comprehensiva de escena.",
+          de: "NeRF-Technologie synthetisiert detaillierte 3D-Umgebungen aus 2D-Bildern, ermöglicht Erstellung realistischer virtueller Trainingsszenarien aus realen Daten und unterstützt neuartige Ansichtssynthese für umfassendes Szenenverständnis.",
+          nl: "NeRF technologie synthetiseert gedetailleerde 3D-omgevingen uit 2D-afbeeldingen, wat creatie van realistische virtuele trainingsscenario's mogelijk maakt vanuit echte wereld data en nieuwe weergave synthese ondersteunt voor uitgebreid scènebegrip."
+        }
+      },
+      {
+        question: {
+          en: "What is 'few-shot learning' addressing in autonomous vehicle AI deployment?",
+          es: "¿Qué está abordando el 'aprendizaje de pocos ejemplos' en despliegue de IA de vehículos autónomos?",
+          de: "Was adressiert 'Few-Shot-Lernen' in autonomer Fahrzeug-KI-Bereitstellung?",
+          nl: "Wat pakt 'few-shot learning' aan in autonome voertuig AI-deployment?"
+        },
+        options: [
+          { en: "Quickly adapting to new object types or scenarios with minimal training examples", es: "Adaptarse rápidamente a nuevos tipos de objetos o escenarios con ejemplos mínimos de entrenamiento", de: "Schnelle Anpassung an neue Objekttypen oder Szenarien mit minimalen Trainingsbeispielen", nl: "Snel aanpassen aan nieuwe objecttypes of scenario's met minimale trainingsvoorbeelden" },
+          { en: "Learning from a few driving shots only", es: "Aprender solo de unos pocos intentos de conducción", de: "Nur aus wenigen Fahrversuchen lernen", nl: "Alleen leren van een paar rijpogingen" },
+          { en: "Few-shot photography in vehicles", es: "Fotografía de pocos disparos en vehículos", de: "Few-Shot-Fotografie in Fahrzeugen", nl: "Few-shot fotografie in voertuigen" },
+          { en: "Learning with few sensors", es: "Aprender con pocos sensores", de: "Mit wenigen Sensoren lernen", nl: "Leren met weinig sensoren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Few-shot learning enables autonomous vehicles to recognize rare objects or handle unusual scenarios after seeing only a handful of examples, reducing the need for massive labeled datasets for every possible situation.",
+          es: "El aprendizaje de pocos ejemplos habilita a vehículos autónomos reconocer objetos raros o manejar escenarios inusuales después de ver solo un puñado de ejemplos, reduciendo necesidad de conjuntos de datos etiquetados masivos para cada situación posible.",
+          de: "Few-Shot-Lernen ermöglicht autonomen Fahrzeugen seltene Objekte zu erkennen oder ungewöhnliche Szenarien zu bewältigen nach dem Sehen nur weniger Beispiele, reduziert Bedarf an riesigen gelabelten Datensätzen für jede mögliche Situation.",
+          nl: "Few-shot learning stelt autonome voertuigen in staat om zeldzame objecten te herkennen of ongebruikelijke scenario's te behandelen na het zien van slechts een handvol voorbeelden, wat de behoefte aan massieve gelabelde datasets voor elke mogelijke situatie vermindert."
+        }
+      },
+      {
+        question: {
+          en: "What is 'meta-learning' providing for autonomous vehicle AI systems?",
+          es: "¿Qué está proporcionando el 'meta-aprendizaje' para sistemas de IA de vehículos autónomos?",
+          de: "Was bietet 'Meta-Learning' für autonome Fahrzeug-KI-Systeme?",
+          nl: "Wat biedt 'meta-learning' voor autonome voertuig AI-systemen?"
+        },
+        options: [
+          { en: "Learning how to learn efficiently, enabling rapid adaptation to new tasks and environments", es: "Aprender cómo aprender eficientemente, habilitando adaptación rápida a nuevas tareas y entornos", de: "Lernen wie man effizient lernt, ermöglicht schnelle Anpassung an neue Aufgaben und Umgebungen", nl: "Leren hoe efficiënt te leren, wat snelle aanpassing aan nieuwe taken en omgevingen mogelijk maakt" },
+          { en: "Meta-data management for vehicles", es: "Gestión de metadatos para vehículos", de: "Metadaten-Verwaltung für Fahrzeuge", nl: "Metadata beheer voor voertuigen" },
+          { en: "Learning about learning theory only", es: "Solo aprender sobre teoría del aprendizaje", de: "Nur über Lerntheorie lernen", nl: "Alleen leren over leertheorie" },
+          { en: "Meta-cognitive vehicle systems", es: "Sistemas vehiculares metacognitivos", de: "Metakognitive Fahrzeugsysteme", nl: "Metacognitieve voertuig systemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Meta-learning trains AI systems to quickly acquire new skills from limited data, enabling autonomous vehicles to adapt to novel driving conditions, road types, or regional differences with minimal additional training.",
+          es: "El meta-aprendizaje entrena sistemas IA para adquirir rápidamente nuevas habilidades desde datos limitados, habilitando a vehículos autónomos adaptarse a condiciones de conducción novedosas, tipos de carretera o diferencias regionales con entrenamiento adicional mínimo.",
+          de: "Meta-Learning trainiert KI-Systeme neue Fähigkeiten schnell aus begrenzten Daten zu erwerben, ermöglicht autonomen Fahrzeugen sich an neuartige Fahrbedingungen, Straßentypen oder regionale Unterschiede mit minimalem zusätzlichem Training anzupassen.",
+          nl: "Meta-learning traint AI-systemen om snel nieuwe vaardigheden te verwerven uit beperkte data, wat autonome voertuigen in staat stelt om zich aan te passen aan nieuwe rijomstandigheden, wegtypes of regionale verschillen met minimale aanvullende training."
+        }
+      },
+      {
+        question: {
+          en: "What is 'causal reasoning' improving in autonomous vehicle safety systems?",
+          es: "¿Qué está mejorando el 'razonamiento causal' en sistemas de seguridad de vehículos autónomos?",
+          de: "Was verbessert 'kausales Denken' in Sicherheitssystemen autonomer Fahrzeuge?",
+          nl: "Wat verbetert 'causaal redeneren' in veiligheidssystemen van autonome voertuigen?"
+        },
+        options: [
+          { en: "Understanding cause-effect relationships rather than just correlations for more robust decision-making", es: "Entender relaciones causa-efecto en lugar de solo correlaciones para toma de decisiones más robusta", de: "Ursache-Wirkungs-Beziehungen verstehen statt nur Korrelationen für robustere Entscheidungsfindung", nl: "Oorzaak-gevolg relaties begrijpen in plaats van alleen correlaties voor robuustere besluitvorming" },
+          { en: "Causal analysis of vehicle accidents only", es: "Solo análisis causal de accidentes vehiculares", de: "Nur kausale Analyse von Fahrzeugunfällen", nl: "Alleen causale analyse van voertuigongevallen" },
+          { en: "Reasoning about vehicle causes of failure", es: "Razonar sobre causas de falla de vehículos", de: "Über Ursachen von Fahrzeugausfällen nachdenken", nl: "Redeneren over voertuig oorzaken van storing" },
+          { en: "Causal relationships in vehicle sales", es: "Relaciones causales en ventas de vehículos", de: "Kausale Beziehungen bei Fahrzeugverkäufen", nl: "Causale relaties in voertuigverkoop" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Causal reasoning enables autonomous vehicles to understand why events occur, predict consequences of actions more accurately, and generalize better to new situations beyond pattern recognition alone.",
+          es: "El razonamiento causal habilita a vehículos autónomos entender por qué ocurren eventos, predecir consecuencias de acciones más precisamente y generalizar mejor a nuevas situaciones más allá de solo reconocimiento de patrones.",
+          de: "Kausales Denken ermöglicht autonomen Fahrzeugen zu verstehen warum Ereignisse auftreten, Konsequenzen von Aktionen genauer vorherzusagen und besser auf neue Situationen zu generalisieren über bloße Mustererkennung hinaus.",
+          nl: "Causaal redeneren stelt autonome voertuigen in staat om te begrijpen waarom gebeurtenissen optreden, gevolgen van acties nauwkeuriger te voorspellen en beter te generaliseren naar nieuwe situaties voorbij patroonherkenning alleen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'neural architecture search' optimizing for vehicle AI deployment?",
+          es: "¿Qué está optimizando la 'búsqueda de arquitectura neural' para despliegue de IA vehicular?",
+          de: "Was optimiert 'neuronale Architektursuche' für Fahrzeug-KI-Bereitstellung?",
+          nl: "Wat optimaliseert 'neural architecture search' voor voertuig AI-deployment?"
+        },
+        options: [
+          { en: "Automatically discovering optimal neural network structures for specific autonomous driving tasks", es: "Descubrir automáticamente estructuras de redes neuronales óptimas para tareas específicas de conducción autónoma", de: "Automatisches Entdecken optimaler neuronaler Netzwerkstrukturen für spezifische autonome Fahraufgaben", nl: "Automatisch optimale neurale netwerkstructuren ontdekken voor specifieke autonome rijtaken" },
+          { en: "Searching for neural network documentation", es: "Buscar documentación de redes neuronales", de: "Nach neuronaler Netzwerk-Dokumentation suchen", nl: "Zoeken naar neurale netwerk documentatie" },
+          { en: "Architecture design for vehicle structures", es: "Diseño arquitectónico para estructuras vehiculares", de: "Architekturdesign für Fahrzeugstrukturen", nl: "Architectuur ontwerp voor voertuigstructuren" },
+          { en: "Searching neural pathways in brains", es: "Buscar vías neuronales en cerebros", de: "Neuronale Pfade in Gehirnen suchen", nl: "Neurale paden in hersenen zoeken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Neural architecture search automates the design of neural networks, finding architectures optimized for vehicle hardware constraints, real-time requirements, and specific perception tasks without manual trial-and-error.",
+          es: "La búsqueda de arquitectura neural automatiza el diseño de redes neuronales, encontrando arquitecturas optimizadas para restricciones de hardware vehicular, requisitos en tiempo real y tareas de percepción específicas sin prueba y error manual.",
+          de: "Neuronale Architektursuche automatisiert das Design neuronaler Netzwerke, findet Architekturen optimiert für Fahrzeughardware-Beschränkungen, Echtzeitanforderungen und spezifische Wahrnehmungsaufgaben ohne manuelle Trial-and-Error.",
+          nl: "Neural architecture search automatiseert het ontwerp van neurale netwerken, vindt architecturen geoptimaliseerd voor voertuig hardware beperkingen, real-time vereisten en specifieke perceptie taken zonder handmatige trial-and-error."
+        }
+      },
+      {
+        question: {
+          en: "What is 'explainable AI (XAI)' providing for autonomous vehicle accountability?",
+          es: "¿Qué está proporcionando la 'IA explicable (XAI)' para responsabilidad de vehículos autónomos?",
+          de: "Was bietet 'erklärbare KI (XAI)' für autonome Fahrzeug-Verantwortlichkeit?",
+          nl: "Wat biedt 'verklaarbare AI (XAI)' voor autonome voertuig verantwoordelijkheid?"
+        },
+        options: [
+          { en: "Interpretable insights into AI decision-making processes for debugging, validation, and legal compliance", es: "Perspectivas interpretables en procesos de toma de decisiones de IA para depuración, validación y cumplimiento legal", de: "Interpretierbare Einblicke in KI-Entscheidungsprozesse für Debugging, Validierung und rechtliche Compliance", nl: "Interpreteerbare inzichten in AI besluitvormingsprocessen voor debugging, validatie en juridische compliance" },
+          { en: "Explaining AI to passengers only", es: "Solo explicar IA a pasajeros", de: "Nur KI an Passagiere erklären", nl: "Alleen AI uitleggen aan passagiers" },
+          { en: "Explainable vehicle manuals", es: "Manuales de vehículos explicables", de: "Erklärbare Fahrzeughandbücher", nl: "Verklaarbare voertuig handleidingen" },
+          { en: "AI explanation interfaces", es: "Interfaces de explicación de IA", de: "KI-Erklärungsschnittstellen", nl: "AI uitleg interfaces" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "XAI techniques provide transparency into why autonomous vehicles make specific decisions, essential for safety validation, accident investigation, regulatory approval, and building public trust.",
+          es: "Las técnicas XAI proporcionan transparencia sobre por qué vehículos autónomos toman decisiones específicas, esencial para validación de seguridad, investigación de accidentes, aprobación regulatoria y construcción de confianza pública.",
+          de: "XAI-Techniken bieten Transparenz darüber warum autonome Fahrzeuge spezifische Entscheidungen treffen, wesentlich für Sicherheitsvalidierung, Unfalluntersuchung, regulatorische Genehmigung und Aufbau öffentlichen Vertrauens.",
+          nl: "XAI technieken bieden transparantie over waarom autonome voertuigen specifieke beslissingen nemen, essentieel voor veiligheidsvalidatie, ongevalonderzoek, regelgevende goedkeuring en het opbouwen van publiek vertrouwen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'knowledge distillation' enabling for efficient autonomous vehicle AI?",
+          es: "¿Qué está habilitando la 'destilación de conocimiento' para IA eficiente de vehículos autónomos?",
+          de: "Was ermöglicht 'Wissensdestillation' für effiziente autonome Fahrzeug-KI?",
+          nl: "Wat maakt 'knowledge distillation' mogelijk voor efficiënte autonome voertuig AI?"
+        },
+        options: [
+          { en: "Transferring knowledge from large complex models to smaller, faster models suitable for vehicle deployment", es: "Transferir conocimiento de modelos grandes y complejos a modelos más pequeños y rápidos adecuados para despliegue vehicular", de: "Wissen von großen komplexen Modellen auf kleinere, schnellere Modelle übertragen geeignet für Fahrzeugbereitstellung", nl: "Kennis overdragen van grote complexe modellen naar kleinere, snellere modellen geschikt voor voertuig deployment" },
+          { en: "Distilling fuel for knowledge engines", es: "Destilar combustible para motores de conocimiento", de: "Kraftstoff für Wissensmaschinen destillieren", nl: "Brandstof distilleren voor kennis motoren" },
+          { en: "Knowledge base distillation processes", es: "Procesos de destilación de base de conocimiento", de: "Wissensbasis-Destillationsprozesse", nl: "Kennisbasis distillatieprocessen" },
+          { en: "Distilling training data only", es: "Solo destilar datos de entrenamiento", de: "Nur Trainingsdaten destillieren", nl: "Alleen trainingsdata distilleren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Knowledge distillation trains compact student models to mimic the behavior of larger teacher models, achieving similar accuracy with lower computational requirements ideal for real-time vehicle operation.",
+          es: "La destilación de conocimiento entrena modelos estudiantes compactos para imitar comportamiento de modelos maestros más grandes, logrando precisión similar con requisitos computacionales más bajos ideales para operación vehicular en tiempo real.",
+          de: "Wissensdestillation trainiert kompakte Studenten-Modelle das Verhalten größerer Lehrer-Modelle nachzuahmen, erreicht ähnliche Genauigkeit mit niedrigeren Rechenanforderungen ideal für Echtzeit-Fahrzeugbetrieb.",
+          nl: "Knowledge distillation traint compacte student modellen om het gedrag van grotere leraar modellen na te bootsen, bereikt vergelijkbare nauwkeurigheid met lagere computationele vereisten ideaal voor real-time voertuigoperatie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'self-supervised learning' reducing in autonomous vehicle AI development?",
+          es: "¿Qué está reduciendo el 'aprendizaje autosupervisado' en desarrollo de IA de vehículos autónomos?",
+          de: "Was reduziert 'selbstüberwachtes Lernen' in autonomer Fahrzeug-KI-Entwicklung?",
+          nl: "Wat vermindert 'zelf-gesuperviseerd leren' in autonome voertuig AI-ontwikkeling?"
+        },
+        options: [
+          { en: "Dependency on expensive manual data labeling by learning from unlabeled sensor data", es: "Dependencia en etiquetado manual costoso de datos aprendiendo desde datos de sensores sin etiquetar", de: "Abhängigkeit von teurer manueller Datenkennzeichnung durch Lernen aus ungelabelten Sensordaten", nl: "Afhankelijkheid van dure handmatige data labeling door te leren van ongelabelde sensordata" },
+          { en: "Self-driving vehicle supervision needs", es: "Necesidades de supervisión de vehículos autónomos", de: "Selbstfahr-Fahrzeug-Überwachungsbedarf", nl: "Zelfrijdende voertuig toezicht behoeften" },
+          { en: "Supervised driving instruction only", es: "Solo instrucción de conducción supervisada", de: "Nur überwachte Fahranweisung", nl: "Alleen gesuperviseerde rijinstructie" },
+          { en: "Self-maintenance supervision", es: "Supervisión de automantenimiento", de: "Selbstwartungs-Überwachung", nl: "Zelfonderhoud toezicht" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Self-supervised learning creates training signals from the data itself (predicting future frames, reconstructing masked inputs), enabling AI to learn useful representations from vast amounts of unlabeled driving footage.",
+          es: "El aprendizaje autosupervisado crea señales de entrenamiento desde los datos mismos (prediciendo fotogramas futuros, reconstruyendo entradas enmascaradas), habilitando a IA aprender representaciones útiles desde vastas cantidades de metraje de conducción sin etiquetar.",
+          de: "Selbstüberwachtes Lernen erstellt Trainingssignale aus den Daten selbst (zukünftige Frames vorhersagen, maskierte Eingaben rekonstruieren), ermöglicht KI nützliche Repräsentationen aus riesigen Mengen ungelabelter Fahraufnahmen zu lernen.",
+          nl: "Zelf-gesuperviseerd leren creëert trainings signalen uit de data zelf (toekomstige frames voorspellen, gemaskeerde inputs reconstrueren), wat AI in staat stelt om nuttige representaties te leren uit enorme hoeveelheden ongelabeld rijmateriaal."
+        }
       }
     ]
   };

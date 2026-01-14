@@ -679,6 +679,174 @@
           de: "Nach der Platzierung deiner zweiten Siedlung während der Vorbereitung erhältst du eine Ressourcenkarte für jedes Feld neben dieser Siedlung. Deine erste Siedlung liefert keine Startressourcen.",
           nl: "Na het plaatsen van je tweede nederzetting tijdens de opzet, ontvang je één hulpbronkaart voor elke zeshoek naast die nederzetting. Je eerste nederzetting levert geen startbronnen."
         }
+      },
+      {
+        question: {
+          en: "What color are the most probable numbers (6 and 8) marked in?",
+          es: "¿De qué color están marcados los números más probables (6 y 8)?",
+          de: "In welcher Farbe sind die wahrscheinlichsten Zahlen (6 und 8) markiert?",
+          nl: "In welke kleur zijn de meest waarschijnlijke nummers (6 en 8) gemarkeerd?"
+        },
+        options: [
+          { en: "Red", es: "Rojo", de: "Rot", nl: "Rood" },
+          { en: "Blue", es: "Azul", de: "Blau", nl: "Blauw" },
+          { en: "Green", es: "Verde", de: "Grün", nl: "Groen" },
+          { en: "Black", es: "Negro", de: "Schwarz", nl: "Zwart" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The numbers 6 and 8 are marked in red on the tokens because they have the highest probability of being rolled (5/36 each), making them the most valuable production numbers.",
+          es: "Los números 6 y 8 están marcados en rojo en las fichas porque tienen la mayor probabilidad de ser lanzados (5/36 cada uno), lo que los convierte en los números de producción más valiosos.",
+          de: "Die Zahlen 6 und 8 sind auf den Plättchen rot markiert, weil sie die höchste Wahrscheinlichkeit haben, gewürfelt zu werden (jeweils 5/36), was sie zu den wertvollsten Produktionszahlen macht.",
+          nl: "De nummers 6 en 8 zijn rood gemarkeerd op de fiches omdat ze de hoogste waarschijnlijkheid hebben om gegooid te worden (elk 5/36), waardoor ze de meest waardevolle productienummers zijn."
+        }
+      },
+      {
+        question: {
+          en: "How many roads does each player start with during setup?",
+          es: "¿Con cuántos caminos comienza cada jugador durante la preparación?",
+          de: "Mit wie vielen Straßen beginnt jeder Spieler während der Vorbereitung?",
+          nl: "Met hoeveel wegen begint elke speler tijdens de opzet?"
+        },
+        options: [
+          { en: "0", es: "0", de: "0", nl: "0" },
+          { en: "1", es: "1", de: "1", nl: "1" },
+          { en: "2", es: "2", de: "2", nl: "2" },
+          { en: "3", es: "3", de: "3", nl: "3" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "During setup, each player places 2 settlements and 2 roads for free. The roads must connect to each settlement.",
+          es: "Durante la preparación, cada jugador coloca 2 asentamientos y 2 caminos gratis. Los caminos deben conectarse a cada asentamiento.",
+          de: "Während der Vorbereitung platziert jeder Spieler 2 Siedlungen und 2 Straßen kostenlos. Die Straßen müssen mit jeder Siedlung verbunden sein.",
+          nl: "Tijdens de opzet plaatst elke speler 2 nederzettingen en 2 wegen gratis. De wegen moeten verbonden zijn met elke nederzetting."
+        }
+      },
+      {
+        question: {
+          en: "Can you play a development card on the same turn you buy it?",
+          es: "¿Puedes jugar una carta de desarrollo en el mismo turno que la compras?",
+          de: "Kannst du eine Entwicklungskarte in derselben Runde spielen, in der du sie kaufst?",
+          nl: "Kun je een ontwikkelingskaart spelen in dezelfde beurt waarin je hem koopt?"
+        },
+        options: [
+          { en: "Yes, always", es: "Sí, siempre", de: "Ja, immer", nl: "Ja, altijd" },
+          { en: "No, must wait until next turn", es: "No, debes esperar hasta el siguiente turno", de: "Nein, muss bis zur nächsten Runde warten", nl: "Nee, moet wachten tot de volgende beurt" },
+          { en: "Only Knight cards", es: "Solo cartas de Caballero", de: "Nur Ritterkarten", nl: "Alleen Ridderkaarten" },
+          { en: "Only if you roll a 7", es: "Solo si tiras un 7", de: "Nur wenn du eine 7 würfelst", nl: "Alleen als je een 7 gooit" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "You cannot play a development card on the same turn you buy it. You must wait until your next turn to play it (except Victory Point cards, which are revealed when you win).",
+          es: "No puedes jugar una carta de desarrollo en el mismo turno que la compras. Debes esperar hasta tu siguiente turno para jugarla (excepto las cartas de Punto de Victoria, que se revelan cuando ganas).",
+          de: "Du kannst keine Entwicklungskarte in derselben Runde spielen, in der du sie kaufst. Du musst bis zu deiner nächsten Runde warten, um sie zu spielen (außer Siegpunkt-Karten, die aufgedeckt werden, wenn du gewinnst).",
+          nl: "Je kunt geen ontwikkelingskaart spelen in dezelfde beurt waarin je hem koopt. Je moet wachten tot je volgende beurt om hem te spelen (behalve Overwinningspunt kaarten, die worden onthuld wanneer je wint)."
+        }
+      },
+      {
+        question: {
+          en: "What happens to your settlement piece when you upgrade it to a city?",
+          es: "¿Qué pasa con tu pieza de asentamiento cuando la mejoras a una ciudad?",
+          de: "Was passiert mit deiner Siedlungsfigur, wenn du sie zu einer Stadt aufwertest?",
+          nl: "Wat gebeurt er met je nederzettingsstuk wanneer je het upgradet naar een stad?"
+        },
+        options: [
+          { en: "It stays on the board", es: "Permanece en el tablero", de: "Es bleibt auf dem Brett", nl: "Het blijft op het bord" },
+          { en: "It returns to your supply", es: "Vuelve a tu suministro", de: "Es kehrt in deinen Vorrat zurück", nl: "Het keert terug naar je voorraad" },
+          { en: "It is removed from game", es: "Se retira del juego", de: "Es wird aus dem Spiel entfernt", nl: "Het wordt uit het spel verwijderd" },
+          { en: "Given to another player", es: "Se le da a otro jugador", de: "Wird einem anderen Spieler gegeben", nl: "Gegeven aan een andere speler" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "When you upgrade a settlement to a city, the settlement piece returns to your supply, allowing you to build another settlement elsewhere if you have the resources.",
+          es: "Cuando mejoras un asentamiento a una ciudad, la pieza de asentamiento vuelve a tu suministro, permitiéndote construir otro asentamiento en otro lugar si tienes los recursos.",
+          de: "Wenn du eine Siedlung zu einer Stadt aufwertest, kehrt die Siedlungsfigur in deinen Vorrat zurück, sodass du eine weitere Siedlung an anderer Stelle bauen kannst, wenn du die Ressourcen hast.",
+          nl: "Wanneer je een nederzetting naar een stad upgradet, keert het nederzettingsstuk terug naar je voorraad, waardoor je een andere nederzetting elders kunt bouwen als je de hulpbronnen hebt."
+        }
+      },
+      {
+        question: {
+          en: "How many dots does the number 2 have on its token?",
+          es: "¿Cuántos puntos tiene el número 2 en su ficha?",
+          de: "Wie viele Punkte hat die Zahl 2 auf ihrem Plättchen?",
+          nl: "Hoeveel stippen heeft het nummer 2 op zijn fiche?"
+        },
+        options: [
+          { en: "1", es: "1", de: "1", nl: "1" },
+          { en: "2", es: "2", de: "2", nl: "2" },
+          { en: "3", es: "3", de: "3", nl: "3" },
+          { en: "5", es: "5", de: "5", nl: "5" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The number 2 has only 1 dot because it has the lowest probability of being rolled with two dice (1/36). More dots indicate higher probability, with 6 and 8 having 5 dots each.",
+          es: "El número 2 tiene solo 1 punto porque tiene la menor probabilidad de ser lanzado con dos dados (1/36). Más puntos indican mayor probabilidad, con 6 y 8 teniendo 5 puntos cada uno.",
+          de: "Die Zahl 2 hat nur 1 Punkt, weil sie die geringste Wahrscheinlichkeit hat, mit zwei Würfeln gewürfelt zu werden (1/36). Mehr Punkte zeigen höhere Wahrscheinlichkeit an, wobei 6 und 8 jeweils 5 Punkte haben.",
+          nl: "Het nummer 2 heeft slechts 1 stip omdat het de laagste waarschijnlijkheid heeft om met twee dobbelstenen gegooid te worden (1/36). Meer stippen duiden op hogere waarschijnlijkheid, waarbij 6 en 8 elk 5 stippen hebben."
+        }
+      },
+      {
+        question: {
+          en: "Can you build roads on water in base Catan?",
+          es: "¿Puedes construir caminos en el agua en Catan básico?",
+          de: "Kannst du Straßen auf Wasser im Basis-Catan bauen?",
+          nl: "Kun je wegen op water bouwen in basis Catan?"
+        },
+        options: [
+          { en: "Yes, roads can be built anywhere", es: "Sí, los caminos se pueden construir en cualquier lugar", de: "Ja, Straßen können überall gebaut werden", nl: "Ja, wegen kunnen overal worden gebouwd" },
+          { en: "No, only on land edges", es: "No, solo en bordes terrestres", de: "Nein, nur auf Landkanten", nl: "Nee, alleen op landgrenzen" },
+          { en: "Yes, but costs double", es: "Sí, pero cuesta el doble", de: "Ja, aber kostet doppelt", nl: "Ja, maar kost dubbel" },
+          { en: "Only with special card", es: "Solo con carta especial", de: "Nur mit Spezialkarte", nl: "Alleen met speciale kaart" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "In base Catan, roads can only be built on land edges (between land hexes or land-to-coast). Ships are introduced in the Seafarers expansion for traveling on water.",
+          es: "En Catan básico, los caminos solo se pueden construir en bordes terrestres (entre hexágonos terrestres o tierra-costa). Los barcos se introducen en la expansión Navegantes para viajar por agua.",
+          de: "Im Basis-Catan können Straßen nur auf Landkanten gebaut werden (zwischen Landfeldern oder Land-zu-Küste). Schiffe werden in der Seefahrer-Erweiterung für Reisen auf Wasser eingeführt.",
+          nl: "In basis Catan kunnen wegen alleen op landgrenzen worden gebouwd (tussen landhexen of land-naar-kust). Schepen worden geïntroduceerd in de Zeevaarders uitbreiding voor reizen over water."
+        }
+      },
+      {
+        question: {
+          en: "What do you get for building on a harbor location?",
+          es: "¿Qué obtienes por construir en una ubicación de puerto?",
+          de: "Was bekommst du für den Bau an einem Hafenstandort?",
+          nl: "Wat krijg je voor bouwen op een havenlocatie?"
+        },
+        options: [
+          { en: "Extra victory point", es: "Punto de victoria extra", de: "Extra Siegpunkt", nl: "Extra overwinningspunt" },
+          { en: "Better trading rates", es: "Mejores tasas de comercio", de: "Bessere Handelsraten", nl: "Betere handelspercentages" },
+          { en: "Free resources", es: "Recursos gratis", de: "Kostenlose Ressourcen", nl: "Gratis hulpbronnen" },
+          { en: "Extra development card", es: "Carta de desarrollo extra", de: "Extra Entwicklungskarte", nl: "Extra ontwikkelingskaart" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Building a settlement on a harbor location gives you access to better trading rates: 3:1 for generic harbors or 2:1 for specific resource harbors.",
+          es: "Construir un asentamiento en una ubicación de puerto te da acceso a mejores tasas de comercio: 3:1 para puertos genéricos o 2:1 para puertos de recursos específicos.",
+          de: "Der Bau einer Siedlung an einem Hafenstandort gibt dir Zugang zu besseren Handelsraten: 3:1 für generische Häfen oder 2:1 für spezifische Ressourcenhäfen.",
+          nl: "Een nederzetting bouwen op een havenlocatie geeft je toegang tot betere handelspercentages: 3:1 voor generieke havens of 2:1 voor specifieke hulpbronhavens."
+        }
+      },
+      {
+        question: {
+          en: "Who goes first in Catan?",
+          es: "¿Quién va primero en Catan?",
+          de: "Wer geht zuerst in Catan?",
+          nl: "Wie gaat eerst in Catan?"
+        },
+        options: [
+          { en: "Youngest player", es: "Jugador más joven", de: "Jüngster Spieler", nl: "Jongste speler" },
+          { en: "Oldest player", es: "Jugador más viejo", de: "Ältester Spieler", nl: "Oudste speler" },
+          { en: "Player who rolls highest", es: "Jugador que saca el número más alto", de: "Spieler, der am höchsten würfelt", nl: "Speler die het hoogste gooit" },
+          { en: "Player who owns the game", es: "Jugador que posee el juego", de: "Spieler, dem das Spiel gehört", nl: "Speler die eigenaar is van het spel" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "In Catan, all players roll the dice, and the player who rolls the highest number goes first. In case of a tie, those players roll again.",
+          es: "En Catan, todos los jugadores tiran los dados y el jugador que saca el número más alto va primero. En caso de empate, esos jugadores vuelven a tirar.",
+          de: "In Catan würfeln alle Spieler, und der Spieler, der die höchste Zahl würfelt, geht zuerst. Bei Gleichstand würfeln diese Spieler erneut.",
+          nl: "In Catan gooien alle spelers de dobbelstenen, en de speler die het hoogste nummer gooit gaat eerst. Bij gelijkspel gooien die spelers opnieuw."
+        }
       }
     ]
   };

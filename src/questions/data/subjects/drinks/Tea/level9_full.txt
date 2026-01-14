@@ -1,0 +1,123 @@
+            {
+                question: {
+                    en: "What is the quantum-chemical basis for EGCG's antioxidant potency exceeding vitamin C by 100-fold?",
+                    es: "¿Cuál es la base químico-cuántica para que la potencia antioxidante de EGCG exceda la vitamina C por 100 veces?",
+                    de: "Was ist die quantenchemische Grundlage für EGCG's Antioxidans-Potenz, die Vitamin C um das 100-fache übersteigt?",
+                    nl: "Wat is de kwantumchemische basis voor EGCG's antioxidant potentie die vitamine C met 100-voud overschrijdt?"
+                },
+                options: [
+                    {
+                        en: "Tri-hydroxyl phenolic B-ring structure enables multiple electron donation sites with resonance stabilization",
+                        es: "Estructura de anillo B fenólico tri-hidroxilo permite múltiples sitios de donación de electrones con estabilización por resonancia",
+                        de: "Tri-Hydroxyl-phenolische B-Ring-Struktur ermöglicht mehrere Elektronendonationsstellen mit Resonanzstabilisierung",
+                        nl: "Tri-hydroxyl fenolische B-ring structuur maakt meerdere elektronen donatie plaatsen mogelijk met resonantie stabilisatie"
+                    },
+                    {
+                        en: "EGCG has higher molecular weight only",
+                        es: "EGCG solo tiene mayor peso molecular",
+                        de: "EGCG hat nur höheres Molekulargewicht",
+                        nl: "EGCG heeft alleen hoger moleculair gewicht"
+                    },
+                    {
+                        en: "EGCG is more water soluble than vitamin C",
+                        es: "EGCG es más soluble en agua que vitamina C",
+                        de: "EGCG ist wasserlöslicher als Vitamin C",
+                        nl: "EGCG is meer water oplosbaar dan vitamine C"
+                    },
+                    {
+                        en: "EGCG simply tastes better in supplements",
+                        es: "EGCG simplemente sabe mejor en suplementos",
+                        de: "EGCG schmeckt einfach besser in Nahrungsergänzungsmitteln",
+                        nl: "EGCG smaakt simpelweg beter in supplementen"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "EGCG's extraordinary antioxidant power stems from 8 phenolic hydroxyl groups providing multiple electron donation sites. The tri-hydroxyl B-ring (pyrogallol) allows electron delocalization through conjugated aromatic rings, creating stable semi-quinone radicals. This structural advantage enables EGCG to neutralize multiple free radicals sequentially.",
+                    es: "Poder antioxidante extraordinario de EGCG proviene de 8 grupos hidroxilo fenólicos proporcionando múltiples sitios de donación de electrones. Anillo B tri-hidroxilo (pirogalol) permite deslocalización electrónica mediante anillos aromáticos conjugados, creando radicales semi-quinona estables. Esta ventaja estructural permite a EGCG neutralizar múltiples radicales libres secuencialmente.",
+                    de: "EGCGs außergewöhnliche Antioxidans-Kraft stammt aus 8 phenolischen Hydroxylgruppen, die mehrere Elektronenspendestellen bieten. Der Tri-Hydroxyl-B-Ring (Pyrogallol) ermöglicht Elektronendelokalisierung durch konjugierte aromatische Ringe und erzeugt stabile Semichinon-Radikale. Dieser strukturelle Vorteil ermöglicht EGCG, mehrere freie Radikale sequenziell zu neutralisieren.",
+                    nl: "EGCG's buitengewone antioxidant kracht komt voort uit 8 fenolische hydroxyl groepen die meerdere elektronen donatie plaatsen bieden. De tri-hydroxyl B-ring (pyrogallol) maakt elektronen delocalisatie mogelijk door geconjugeerde aromatische ringen, wat stabiele semi-quinone radicalen creëert. Dit structurele voordeel stelt EGCG in staat meerdere vrije radicalen opeenvolgend te neutraliseren."
+                }
+            },
+            {
+                question: {
+                    en: "What molecular mechanism allows aged puerh tea to develop probiotic properties through microbial fermentation?",
+                    es: "¿Qué mecanismo molecular permite al té puerh envejecido desarrollar propiedades probióticas mediante fermentación microbiana?",
+                    de: "Welcher molekulare Mechanismus ermöglicht gealtertem Puerh-Tee, probiotische Eigenschaften durch mikrobielle Fermentation zu entwickeln?",
+                    nl: "Welk moleculair mechanisme maakt het mogelijk dat gerijpte puerh thee probiotische eigenschappen ontwikkelt door microbiële fermentatie?"
+                },
+                options: [
+                    {
+                        en: "Aspergillus and beneficial bacteria produce bioactive metabolites (statins, GABA) while transforming catechins into digestible polysaccharides",
+                        es: "Aspergillus y bacterias beneficiosas producen metabolitos bioactivos (estatinas, GABA) mientras transforman catequinas en polisacáridos digeribles",
+                        de: "Aspergillus und nützliche Bakterien produzieren bioaktive Metaboliten (Statine, GABA) während sie Catechine in verdauliche Polysaccharide umwandeln",
+                        nl: "Aspergillus en nuttige bacteriën produceren bioactieve metabolieten (statines, GABA) terwijl ze catechines transformeren in verteerbare polysachariden"
+                    },
+                    {
+                        en: "Puerh tea contains added commercial probiotics",
+                        es: "Té puerh contiene probióticos comerciales añadidos",
+                        de: "Puerh-Tee enthält zugesetzte kommerzielle Probiotika",
+                        nl: "Puerh thee bevat toegevoegde commerciële probiotica"
+                    },
+                    {
+                        en: "Aging only concentrates existing compounds",
+                        es: "Envejecimiento solo concentra compuestos existentes",
+                        de: "Alterung konzentriert nur bestehende Verbindungen",
+                        nl: "Rijping concentreert alleen bestaande verbindingen"
+                    },
+                    {
+                        en: "Sugar fermentation creates alcohol content",
+                        es: "Fermentación de azúcar crea contenido alcohólico",
+                        de: "Zuckerfermentation erzeugt Alkoholgehalt",
+                        nl: "Suiker fermentatie creëert alcohol gehalte"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "During puerh aging, beneficial microorganisms including Aspergillus niger, Saccharomyces, and Lactobacillus species colonize the tea. These produce lovastatin-like compounds (cholesterol-lowering), GABA (calming neurotransmitter), and convert bitter catechins into smooth polysaccharides and theabrownins. The result is improved digestibility and unique health benefits beyond standard tea.",
+                    es: "Durante envejecimiento puerh, microorganismos beneficiosos incluyendo especies Aspergillus niger, Saccharomyces y Lactobacillus colonizan té. Estos producen compuestos similares a lovastatina (reductor de colesterol), GABA (neurotransmisor calmante), y convierten catequinas amargas en polisacáridos suaves y theabrownins. Resultado es mejor digestibilidad y beneficios únicos de salud más allá de té estándar.",
+                    de: "Während Puerh-Alterung besiedeln nützliche Mikroorganismen einschließlich Aspergillus niger, Saccharomyces und Lactobacillus-Arten den Tee. Diese produzieren Lovastatin-ähnliche Verbindungen (Cholesterin-senkend), GABA (beruhigender Neurotransmitter) und wandeln bittere Catechine in glatte Polysaccharide und Theabrownins um. Ergebnis ist verbesserte Verdaulichkeit und einzigartige Gesundheitsvorteile jenseits von Standard-Tee.",
+                    nl: "Tijdens puerh rijping koloniseren gunstige micro-organismen inclusief Aspergillus niger, Saccharomyces en Lactobacillus soorten de thee. Deze produceren lovastatin-achtige verbindingen (cholesterol-verlagend), GABA (kalmerend neurotransmitter), en converteren bittere catechines tot gladde polysachariden en theabrownins. Resultaat is verbeterde verteerbaarheid en unieke gezondheidsvoordelen voorbij standaard thee."
+                }
+            },
+            {
+                question: {
+                    en: "What advanced spectroscopic technique can authenticate tea origin and detect adulteration at molecular level?",
+                    es: "¿Qué técnica espectroscópica avanzada puede autenticar origen del té y detectar adulteración a nivel molecular?",
+                    de: "Welche fortgeschrittene spektroskopische Technik kann Tee-Herkunft authentifizieren und Verfälschung auf molekularer Ebene erkennen?",
+                    nl: "Welke geavanceerde spectroscopische techniek kan thee oorsprong authenticeren en vervalsing op moleculair niveau detecteren?"
+                },
+                options: [
+                    {
+                        en: "Stable isotope ratio mass spectrometry (IRMS) analyzing δ13C, δ15N, and δ18O signatures unique to geographic terroir",
+                        es: "Espectrometría de masas de relación de isótopos estables (IRMS) analizando firmas δ13C, δ15N y δ18O únicas del terroir geográfico",
+                        de: "Stabilisotopenverhältnis-Massenspektrometrie (IRMS) analysiert δ13C-, δ15N- und δ18O-Signaturen einzigartig für geografisches Terroir",
+                        nl: "Stabiele isotoop verhouding massaspectrometrie (IRMS) analyseert δ13C, δ15N en δ18O handtekeningen uniek voor geografisch terroir"
+                    },
+                    {
+                        en: "Simple visual inspection of leaf color",
+                        es: "Inspección visual simple del color de hoja",
+                        de: "Einfache visuelle Inspektion der Blattfarbe",
+                        nl: "Simpele visuele inspectie van blad kleur"
+                    },
+                    {
+                        en: "Taste testing by expert panels only",
+                        es: "Solo prueba de sabor por paneles expertos",
+                        de: "Nur Geschmackstests durch Expertengremien",
+                        nl: "Alleen smaak testen door expert panels"
+                    },
+                    {
+                        en: "pH measurement of brewed tea",
+                        es: "Medición de pH de té preparado",
+                        de: "pH-Messung von gebrühtem Tee",
+                        nl: "pH meting van gezette thee"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "IRMS analyzes stable isotope ratios (carbon-13/12, nitrogen-15/14, oxygen-18/16) which vary based on climate, soil, water source, and agricultural practices. Each tea-growing region has a unique isotopic fingerprint. This technique can detect geographic mislabeling, mixing of teas from different origins, and even identify organic vs conventional cultivation practices. Combined with elemental analysis, it provides forensic-level authentication.",
+                    es: "IRMS analiza ratios de isótopos estables (carbono-13/12, nitrógeno-15/14, oxígeno-18/16) que varían según clima, suelo, fuente de agua y prácticas agrícolas. Cada región productora de té tiene huella isotópica única. Esta técnica puede detectar etiquetado geográfico erróneo, mezcla de tés de diferentes orígenes, e incluso identificar prácticas de cultivo orgánico vs convencional. Combinado con análisis elemental, proporciona autenticación a nivel forense.",
+                    de: "IRMS analysiert stabile Isotopenverhältnisse (Kohlenstoff-13/12, Stickstoff-15/14, Sauerstoff-18/16), die basierend auf Klima, Boden, Wasserquelle und landwirtschaftlichen Praktiken variieren. Jede Teeanbauregion hat einen einzigartigen Isotopen-Fingerabdruck. Diese Technik kann geografische Fehlkennzeichnung, Vermischung von Tees unterschiedlicher Herkunft und sogar organische vs. konventionelle Anbaumethoden identifizieren. In Kombination mit Elementaranalyse bietet sie forensische Authentifizierung.",
+                    nl: "IRMS analyseert stabiele isotoop verhoudingen (koolstof-13/12, stikstof-15/14, zuurstof-18/16) die variëren gebaseerd op klimaat, grond, water bron en landbouw praktijken. Elke thee-teelt regio heeft een unieke isotopische vingerafdruk. Deze techniek kan geografische verkeerde etikettering, menging van thee van verschillende oorsprongen, en zelfs organische vs conventionele teelt praktijken identificeren. Gecombineerd met elementaire analyse biedt het forensische authenticatie."
+                }
+            }

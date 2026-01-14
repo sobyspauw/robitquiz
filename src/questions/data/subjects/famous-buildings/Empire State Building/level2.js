@@ -448,6 +448,426 @@
         de: "Nach den Terroranschlägen vom 11. September 2001, die das World Trade Center zerstörten, wurde das Empire State Building wieder New Yorks höchstes Gebäude bis zur Fertigstellung des One World Trade Center im Jahr 2013.",
         nl: "Na de terroristische aanslagen van 11 september 2001 die het World Trade Center vernietigden, werd het Empire State Building opnieuw het hoogste gebouw van New York tot de voltooiing van One World Trade Center in 2013."
       }
+    },
+    {
+      question: {
+        en: "How many floors per week were added at the peak of construction?",
+        es: "¿Cuántos pisos por semana se agregaron en el pico de construcción?",
+        de: "Wie viele Stockwerke pro Woche wurden auf dem Höhepunkt des Baus hinzugefügt?",
+        nl: "Hoeveel verdiepingen per week werden toegevoegd op het hoogtepunt van de bouw?"
+      },
+      options: [
+        {en: "4.5 floors per week", es: "4.5 pisos por semana", de: "4,5 Stockwerke pro Woche", nl: "4,5 verdiepingen per week"},
+        {en: "2 floors per week", es: "2 pisos por semana", de: "2 Stockwerke pro Woche", nl: "2 verdiepingen per week"},
+        {en: "7 floors per week", es: "7 pisos por semana", de: "7 Stockwerke pro Woche", nl: "7 verdiepingen per week"},
+        {en: "1 floor per week", es: "1 piso por semana", de: "1 Stockwerk pro Woche", nl: "1 verdieping per week"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "At the peak of construction, workers added an incredible 4.5 floors per week. This unprecedented pace was achieved through meticulous planning, prefabrication, and a highly organized workforce of up to 3,400 workers.",
+        es: "En el pico de construcción, los trabajadores agregaron increíbles 4.5 pisos por semana. Este ritmo sin precedentes se logró mediante planificación meticulosa, prefabricación y una fuerza laboral altamente organizada de hasta 3,400 trabajadores.",
+        de: "Auf dem Höhepunkt des Baus fügten Arbeiter unglaubliche 4,5 Stockwerke pro Woche hinzu. Dieses beispiellose Tempo wurde durch sorgfältige Planung, Vorfertigung und eine hochorganisierte Belegschaft von bis zu 3.400 Arbeitern erreicht.",
+        nl: "Op het hoogtepunt van de bouw voegden arbeiders ongelooflijke 4,5 verdiepingen per week toe. Dit ongekende tempo werd bereikt door nauwgezette planning, prefabricage en een zeer georganiseerd personeelsbestand van maximaal 3.400 arbeiders."
+      }
+    },
+    {
+      question: {
+        en: "What percentage of the building was occupied when it first opened?",
+        es: "¿Qué porcentaje del edificio estaba ocupado cuando abrió por primera vez?",
+        de: "Wie viel Prozent des Gebäudes waren bei der Eröffnung belegt?",
+        nl: "Welk percentage van het gebouw was bezet toen het voor het eerst opende?"
+      },
+      options: [
+        {en: "About 25%", es: "Aproximadamente 25%", de: "Etwa 25%", nl: "Ongeveer 25%"},
+        {en: "About 75%", es: "Aproximadamente 75%", de: "Etwa 75%", nl: "Ongeveer 75%"},
+        {en: "100%", es: "100%", de: "100%", nl: "100%"},
+        {en: "About 50%", es: "Aproximadamente 50%", de: "Etwa 50%", nl: "Ongeveer 50%"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "When it opened in 1931, only about 25% of the office space was rented. The Great Depression made it difficult to find tenants. The observation decks, however, were immediately popular and helped keep the building financially viable.",
+        es: "Cuando abrió en 1931, solo alrededor del 25% del espacio de oficinas estaba alquilado. La Gran Depresión dificultó encontrar inquilinos. Sin embargo, las plataformas de observación fueron inmediatamente populares y ayudaron a mantener el edificio financieramente viable.",
+        de: "Bei der Eröffnung 1931 waren nur etwa 25% der Büroflächen vermietet. Die Weltwirtschaftskrise erschwerte die Mietersuche. Die Aussichtsplattformen waren jedoch sofort beliebt und halfen, das Gebäude finanziell lebensfähig zu halten.",
+        nl: "Bij de opening in 1931 was slechts ongeveer 25% van de kantoorruimte verhuurd. De Grote Depressie maakte het moeilijk om huurders te vinden. De observatiedekken waren echter onmiddellijk populair en hielpen het gebouw financieel levensvatbaar te houden."
+      }
+    },
+    {
+      question: {
+        en: "When was construction on the Empire State Building officially begun?",
+        es: "¿Cuándo comenzó oficialmente la construcción del Empire State Building?",
+        de: "Wann wurde mit dem Bau des Empire State Building offiziell begonnen?",
+        nl: "Wanneer begon de bouw van het Empire State Building officieel?"
+      },
+      options: [
+        {en: "March 17, 1930", es: "17 de marzo de 1930", de: "17. März 1930", nl: "17 maart 1930"},
+        {en: "January 1, 1930", es: "1 de enero de 1930", de: "1. Januar 1930", nl: "1 januari 1930"},
+        {en: "September 1, 1929", es: "1 de septiembre de 1929", de: "1. September 1929", nl: "1 september 1929"},
+        {en: "June 15, 1930", es: "15 de junio de 1930", de: "15. Juni 1930", nl: "15 juni 1930"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "Construction officially began on March 17, 1930, St. Patrick's Day. The site had been cleared and excavation completed earlier, but steel construction started on this date and proceeded at a remarkable pace.",
+        es: "La construcción comenzó oficialmente el 17 de marzo de 1930, el Día de San Patricio. El sitio había sido despejado y la excavación completada antes, pero la construcción de acero comenzó en esta fecha y procedió a un ritmo notable.",
+        de: "Der Bau begann offiziell am 17. März 1930, dem St. Patrick's Day. Das Gelände war geräumt und die Ausgrabung abgeschlossen, aber die Stahlkonstruktion begann an diesem Datum und verlief in bemerkenswertem Tempo.",
+        nl: "De bouw begon officieel op 17 maart 1930, St. Patrick's Day. Het terrein was ontruimd en de opgraving voltooid, maar de staalconstructie begon op deze datum en verliep in een opmerkelijk tempo."
+      }
+    },
+    {
+      question: {
+        en: "What was the name of the construction company that built the Empire State Building?",
+        es: "¿Cuál era el nombre de la empresa constructora que construyó el Empire State Building?",
+        de: "Wie hieß das Bauunternehmen, das das Empire State Building baute?",
+        nl: "Wat was de naam van het bouwbedrijf dat het Empire State Building bouwde?"
+      },
+      options: [
+        {en: "Starrett Brothers and Eken", es: "Starrett Brothers and Eken", de: "Starrett Brothers and Eken", nl: "Starrett Brothers and Eken"},
+        {en: "Turner Construction", es: "Turner Construction", de: "Turner Construction", nl: "Turner Construction"},
+        {en: "Bechtel Corporation", es: "Bechtel Corporation", de: "Bechtel Corporation", nl: "Bechtel Corporation"},
+        {en: "Skanska USA", es: "Skanska USA", de: "Skanska USA", nl: "Skanska USA"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "Starrett Brothers and Eken was the construction company responsible for building the Empire State Building. They completed the project in record time under the supervision of construction superintendent John W. Bowser.",
+        es: "Starrett Brothers and Eken fue la empresa constructora responsable de construir el Empire State Building. Completaron el proyecto en tiempo récord bajo la supervisión del superintendente de construcción John W. Bowser.",
+        de: "Starrett Brothers and Eken war das Bauunternehmen, das für den Bau des Empire State Building verantwortlich war. Sie vollendeten das Projekt in Rekordzeit unter der Aufsicht des Bauaufsehers John W. Bowser.",
+        nl: "Starrett Brothers and Eken was het bouwbedrijf dat verantwoordelijk was voor de bouw van het Empire State Building. Ze voltooiden het project in recordtijd onder toezicht van bouwopzichter John W. Bowser."
+      }
+    },
+    {
+      question: {
+        en: "Who were the primary financial backers of the Empire State Building?",
+        es: "¿Quiénes fueron los principales patrocinadores financieros del Empire State Building?",
+        de: "Wer waren die Hauptfinanziers des Empire State Building?",
+        nl: "Wie waren de belangrijkste financiële backers van het Empire State Building?"
+      },
+      options: [
+        {en: "John J. Raskob and Pierre S. du Pont", es: "John J. Raskob y Pierre S. du Pont", de: "John J. Raskob und Pierre S. du Pont", nl: "John J. Raskob en Pierre S. du Pont"},
+        {en: "J.P. Morgan and Andrew Carnegie", es: "J.P. Morgan y Andrew Carnegie", de: "J.P. Morgan und Andrew Carnegie", nl: "J.P. Morgan en Andrew Carnegie"},
+        {en: "John D. Rockefeller and Henry Ford", es: "John D. Rockefeller y Henry Ford", de: "John D. Rockefeller und Henry Ford", nl: "John D. Rockefeller en Henry Ford"},
+        {en: "William Randolph Hearst and Joseph Kennedy", es: "William Randolph Hearst y Joseph Kennedy", de: "William Randolph Hearst und Joseph Kennedy", nl: "William Randolph Hearst en Joseph Kennedy"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "John J. Raskob, a financier and former General Motors executive, and Pierre S. du Pont, of the du Pont family, were the primary financial backers. They formed Empire State, Inc. to manage the project's financing and construction.",
+        es: "John J. Raskob, un financiero y ex ejecutivo de General Motors, y Pierre S. du Pont, de la familia du Pont, fueron los principales patrocinadores financieros. Formaron Empire State, Inc. para gestionar la financiación y construcción del proyecto.",
+        de: "John J. Raskob, ein Finanzier und ehemaliger General Motors-Manager, und Pierre S. du Pont aus der du Pont-Familie waren die Hauptfinanziers. Sie gründeten Empire State, Inc. zur Verwaltung der Projektfinanzierung und des Baus.",
+        nl: "John J. Raskob, een financier en voormalig General Motors-directeur, en Pierre S. du Pont, van de du Pont-familie, waren de belangrijkste financiële backers. Ze vormden Empire State, Inc. om de financiering en bouw van het project te beheren."
+      }
+    },
+    {
+      question: {
+        en: "How many pounds of steel were used in the building's construction?",
+        es: "¿Cuántas libras de acero se usaron en la construcción del edificio?",
+        de: "Wie viele Pfund Stahl wurden beim Bau des Gebäudes verwendet?",
+        nl: "Hoeveel pond staal werd gebruikt bij de bouw van het gebouw?"
+      },
+      options: [
+        {en: "60,000 tons (120 million pounds)", es: "60,000 toneladas (120 millones de libras)", de: "60.000 Tonnen (120 Millionen Pfund)", nl: "60.000 ton (120 miljoen pond)"},
+        {en: "30,000 tons", es: "30,000 toneladas", de: "30.000 Tonnen", nl: "30.000 ton"},
+        {en: "90,000 tons", es: "90,000 toneladas", de: "90.000 Tonnen", nl: "90.000 ton"},
+        {en: "45,000 tons", es: "45,000 toneladas", de: "45.000 Tonnen", nl: "45.000 ton"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Empire State Building contains approximately 60,000 tons of steel, equivalent to 120 million pounds. The steel framework was erected at an average rate of 4.5 floors per week, an unprecedented achievement.",
+        es: "El Empire State Building contiene aproximadamente 60,000 toneladas de acero, equivalentes a 120 millones de libras. La estructura de acero se erigió a una tasa promedio de 4.5 pisos por semana, un logro sin precedentes.",
+        de: "Das Empire State Building enthält etwa 60.000 Tonnen Stahl, entsprechend 120 Millionen Pfund. Das Stahlgerüst wurde mit durchschnittlich 4,5 Stockwerken pro Woche errichtet, eine beispiellose Leistung.",
+        nl: "Het Empire State Building bevat ongeveer 60.000 ton staal, gelijk aan 120 miljoen pond. Het staalframe werd opgericht met een gemiddelde snelheid van 4,5 verdiepingen per week, een ongekende prestatie."
+      }
+    },
+    {
+      question: {
+        en: "What innovation allowed for such rapid construction?",
+        es: "¿Qué innovación permitió una construcción tan rápida?",
+        de: "Welche Innovation ermöglichte einen so schnellen Bau?",
+        nl: "Welke innovatie maakte zo'n snelle bouw mogelijk?"
+      },
+      options: [
+        {en: "Assembly-line techniques and prefabricated parts", es: "Técnicas de línea de ensamblaje y partes prefabricadas", de: "Fließbandtechniken und vorgefertigte Teile", nl: "Assemblagelijn-technieken en geprefabriceerde onderdelen"},
+        {en: "Concrete pumping systems", es: "Sistemas de bombeo de concreto", de: "Betonpumpsysteme", nl: "Betonpompsystemen"},
+        {en: "Helicopter lifting equipment", es: "Equipo de elevación por helicóptero", de: "Hubschrauber-Hebeausrüstung", nl: "Helikopter hefuitrusting"},
+        {en: "Computer-aided design", es: "Diseño asistido por computadora", de: "Computergestütztes Design", nl: "Computerondersteund ontwerp"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "The builders used assembly-line techniques borrowed from automobile manufacturing, with prefabricated parts delivered just-in-time. Materials arrived as workers needed them, reducing storage and increasing efficiency dramatically.",
+        es: "Los constructores utilizaron técnicas de línea de ensamblaje prestadas de la fabricación de automóviles, con partes prefabricadas entregadas justo a tiempo. Los materiales llegaban cuando los trabajadores los necesitaban, reduciendo el almacenamiento y aumentando la eficiencia dramáticamente.",
+        de: "Die Bauherren nutzten Fließbandtechniken aus der Automobilherstellung mit just-in-time gelieferten vorgefertigten Teilen. Materialien kamen an, wenn Arbeiter sie brauchten, was Lagerung reduzierte und Effizienz dramatisch steigerte.",
+        nl: "De bouwers gebruikten assemblagelijn-technieken ontleend aan autofabricage, met geprefabriceerde onderdelen die just-in-time werden geleverd. Materialen arriveerden wanneer arbeiders ze nodig hadden, wat opslag verminderde en efficiëntie dramatisch verhoogde."
+      }
+    },
+    {
+      question: {
+        en: "What was the elevator operator's experience during the 1945 plane crash?",
+        es: "¿Cuál fue la experiencia del operador de ascensor durante el accidente aéreo de 1945?",
+        de: "Was war die Erfahrung des Fahrstuhlführers während des Flugzeugabsturzes 1945?",
+        nl: "Wat was de ervaring van de liftbediende tijdens de vliegtuigcrash van 1945?"
+      },
+      options: [
+        {en: "Betty Lou Oliver survived a 75-floor elevator fall", es: "Betty Lou Oliver sobrevivió a una caída de ascensor de 75 pisos", de: "Betty Lou Oliver überlebte einen 75-stöckigen Aufzugsturz", nl: "Betty Lou Oliver overleefde een liftval van 75 verdiepingen"},
+        {en: "The elevator was undamaged", es: "El ascensor no sufrió daños", de: "Der Aufzug war unbeschädigt", nl: "De lift bleef onbeschadigd"},
+        {en: "All elevators were shut down", es: "Todos los ascensores fueron apagados", de: "Alle Aufzüge wurden abgeschaltet", nl: "Alle liften werden stilgelegd"},
+        {en: "The operator escaped unharmed", es: "El operador escapó ileso", de: "Der Bediener entkam unverletzt", nl: "De bediende ontsnapte ongedeerd"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "Betty Lou Oliver, an elevator operator, survived a 75-story fall when her elevator cables were severed by the plane crash. She fell from the 75th floor to the basement, protected by elevator safety features. This remains a Guinness World Record for longest survived elevator fall.",
+        es: "Betty Lou Oliver, operadora de ascensor, sobrevivió a una caída de 75 pisos cuando los cables de su ascensor fueron cortados por el accidente aéreo. Cayó del piso 75 al sótano, protegida por características de seguridad del ascensor. Esto sigue siendo un récord mundial Guinness por la caída de ascensor más larga sobrevivida.",
+        de: "Betty Lou Oliver, eine Fahrstuhlführerin, überlebte einen 75-stöckigen Sturz, als ihre Aufzugkabel durch den Flugzeugabsturz durchtrennt wurden. Sie fiel vom 75. Stock in den Keller, geschützt durch Aufzugsicherheitsmerkmale. Dies bleibt ein Guinness-Weltrekord für den längsten überlebten Aufzugsturz.",
+        nl: "Betty Lou Oliver, een liftbediende, overleefde een val van 75 verdiepingen toen haar liftkabels werden doorgesneden door de vliegtuigcrash. Ze viel van de 75e verdieping naar de kelder, beschermd door liftveiligheidsvoorzieningen. Dit blijft een Guinness World Record voor de langste overleefde liftval."
+      }
+    },
+    {
+      question: {
+        en: "When was the Empire State Building's TV antenna first installed?",
+        es: "¿Cuándo se instaló por primera vez la antena de TV del Empire State Building?",
+        de: "Wann wurde die TV-Antenne des Empire State Building erstmals installiert?",
+        nl: "Wanneer werd de tv-antenne van het Empire State Building voor het eerst geïnstalleerd?"
+      },
+      options: [
+        {en: "1950", es: "1950", de: "1950", nl: "1950"},
+        {en: "1931", es: "1931", de: "1931", nl: "1931"},
+        {en: "1965", es: "1965", de: "1965", nl: "1965"},
+        {en: "1980", es: "1980", de: "1980", nl: "1980"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "The first TV antenna was installed in 1950, and the building became a major broadcast hub for New York City television and radio stations. Today it serves as a transmission point for multiple broadcasters.",
+        es: "La primera antena de TV se instaló en 1950, y el edificio se convirtió en un importante centro de transmisión para las estaciones de televisión y radio de la ciudad de Nueva York. Hoy sirve como punto de transmisión para múltiples emisoras.",
+        de: "Die erste TV-Antenne wurde 1950 installiert, und das Gebäude wurde zu einem wichtigen Sendezentrum für Fernseh- und Radiosender in New York City. Heute dient es als Übertragungspunkt für mehrere Sender.",
+        nl: "De eerste tv-antenne werd geïnstalleerd in 1950, en het gebouw werd een belangrijk uitzendcentrum voor televisie- en radiostations in New York City. Vandaag dient het als transmissiepunt voor meerdere omroepen."
+      }
+    },
+    {
+      question: {
+        en: "What material makes up the building's iconic Art Deco lobby?",
+        es: "¿Qué material compone el icónico vestíbulo Art Déco del edificio?",
+        de: "Aus welchem Material besteht die ikonische Art-Déco-Lobby des Gebäudes?",
+        nl: "Welk materiaal vormt de iconische Art Deco-lobby van het gebouw?"
+      },
+      options: [
+        {en: "Marble imported from various countries", es: "Mármol importado de varios países", de: "Marmor aus verschiedenen Ländern importiert", nl: "Marmer geïmporteerd uit verschillende landen"},
+        {en: "American granite only", es: "Solo granito americano", de: "Nur amerikanischer Granit", nl: "Alleen Amerikaans graniet"},
+        {en: "Concrete with gold paint", es: "Concreto con pintura dorada", de: "Beton mit Goldfarbe", nl: "Beton met goudverf"},
+        {en: "Synthetic materials", es: "Materiales sintéticos", de: "Synthetische Materialien", nl: "Synthetische materialen"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "The stunning Art Deco lobby features marble from France, Italy, Germany, and Belgium. The ceiling is adorned with aluminum and 23-karat gold leaf, creating a luxurious atmosphere that represents 1930s elegance.",
+        es: "El impresionante vestíbulo Art Déco presenta mármol de Francia, Italia, Alemania y Bélgica. El techo está adornado con aluminio y hoja de oro de 23 quilates, creando una atmósfera lujosa que representa la elegancia de los años 30.",
+        de: "Die atemberaubende Art-Déco-Lobby verfügt über Marmor aus Frankreich, Italien, Deutschland und Belgien. Die Decke ist mit Aluminium und 23-karätigem Blattgold verziert und schafft eine luxuriöse Atmosphäre, die die Eleganz der 1930er Jahre repräsentiert.",
+        nl: "De prachtige Art Deco-lobby bevat marmer uit Frankrijk, Italië, Duitsland en België. Het plafond is versierd met aluminium en 23-karaats bladgoud, wat een luxueuze sfeer creëert die de elegantie van de jaren 1930 vertegenwoordigt."
+      }
+    },
+    {
+      question: {
+        en: "When did the Empire State Building first turn off its lights for environmental reasons?",
+        es: "¿Cuándo apagó el Empire State Building sus luces por primera vez por razones ambientales?",
+        de: "Wann schaltete das Empire State Building erstmals seine Lichter aus Umweltgründen aus?",
+        nl: "Wanneer deed het Empire State Building zijn lichten voor het eerst uit om milieuredenen?"
+      },
+      options: [
+        {en: "2008 (for Earth Hour)", es: "2008 (para la Hora del Planeta)", de: "2008 (für Earth Hour)", nl: "2008 (voor Earth Hour)"},
+        {en: "1990", es: "1990", de: "1990", nl: "1990"},
+        {en: "2015", es: "2015", de: "2015", nl: "2015"},
+        {en: "1975", es: "1975", de: "1975", nl: "1975"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "In 2008, the Empire State Building first participated in Earth Hour by turning off its tower lights for one hour. It has continued this tradition annually to raise awareness about climate change and energy conservation.",
+        es: "En 2008, el Empire State Building participó por primera vez en la Hora del Planeta apagando las luces de su torre durante una hora. Ha continuado esta tradición anualmente para crear conciencia sobre el cambio climático y la conservación de energía.",
+        de: "2008 nahm das Empire State Building erstmals an der Earth Hour teil, indem es seine Turmlichter für eine Stunde ausschaltete. Es hat diese Tradition jährlich fortgesetzt, um das Bewusstsein für Klimawandel und Energieeinsparung zu schärfen.",
+        nl: "In 2008 nam het Empire State Building voor het eerst deel aan Earth Hour door zijn torenlichten een uur uit te doen. Het heeft deze traditie jaarlijks voortgezet om het bewustzijn over klimaatverandering en energiebesparing te vergroten."
+      }
+    },
+    {
+      question: {
+        en: "How many bricks were used in the construction?",
+        es: "¿Cuántos ladrillos se usaron en la construcción?",
+        de: "Wie viele Ziegel wurden beim Bau verwendet?",
+        nl: "Hoeveel bakstenen werden gebruikt bij de bouw?"
+      },
+      options: [
+        {en: "10 million bricks", es: "10 millones de ladrillos", de: "10 Millionen Ziegel", nl: "10 miljoen bakstenen"},
+        {en: "5 million bricks", es: "5 millones de ladrillos", de: "5 Millionen Ziegel", nl: "5 miljoen bakstenen"},
+        {en: "20 million bricks", es: "20 millones de ladrillos", de: "20 Millionen Ziegel", nl: "20 miljoen bakstenen"},
+        {en: "No bricks were used", es: "No se usaron ladrillos", de: "Es wurden keine Ziegel verwendet", nl: "Er werden geen bakstenen gebruikt"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Empire State Building required approximately 10 million bricks for its construction. These were used for interior walls and shaft linings, while the exterior featured limestone and granite panels over a steel frame.",
+        es: "El Empire State Building requirió aproximadamente 10 millones de ladrillos para su construcción. Estos se usaron para paredes interiores y revestimientos de pozos, mientras que el exterior presentaba paneles de piedra caliza y granito sobre un marco de acero.",
+        de: "Das Empire State Building benötigte etwa 10 Millionen Ziegel für seinen Bau. Diese wurden für Innenwände und Schachtverkleidungen verwendet, während die Außenfassade Kalkstein- und Granitplatten über einem Stahlrahmen aufwies.",
+        nl: "Het Empire State Building had ongeveer 10 miljoen bakstenen nodig voor de bouw. Deze werden gebruikt voor binnenmuren en schachtbekleding, terwijl de buitenkant kalkste en granieten panelen over een stalen frame had."
+      }
+    },
+    {
+      question: {
+        en: "What was unique about the building's foundation?",
+        es: "¿Qué tenía de único la fundación del edificio?",
+        de: "Was war an der Grundlage des Gebäudes einzigartig?",
+        nl: "Wat was uniek aan de fundering van het gebouw?"
+      },
+      options: [
+        {en: "It was built on bedrock 55 feet below street level", es: "Se construyó sobre roca madre 55 pies bajo el nivel de la calle", de: "Es wurde auf Grundgestein 55 Fuß unter Straßenniveau gebaut", nl: "Het werd gebouwd op vast gesteente 55 voet onder straatniveau"},
+        {en: "It floats on water", es: "Flota sobre agua", de: "Es schwimmt auf Wasser", nl: "Het drijft op water"},
+        {en: "It uses wooden pilings", es: "Usa pilotes de madera", de: "Es verwendet Holzpfähle", nl: "Het gebruikt houten heipalen"},
+        {en: "It has no foundation", es: "No tiene fundación", de: "Es hat keine Grundlage", nl: "Het heeft geen fundering"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "The building's foundation extends 55 feet below street level to Manhattan's solid bedrock. This stable foundation was crucial for supporting the enormous weight of the 102-story skyscraper, estimated at 365,000 tons.",
+        es: "La fundación del edificio se extiende 55 pies bajo el nivel de la calle hasta la roca madre sólida de Manhattan. Esta fundación estable fue crucial para soportar el enorme peso del rascacielos de 102 pisos, estimado en 365,000 toneladas.",
+        de: "Die Grundlage des Gebäudes erstreckt sich 55 Fuß unter Straßenniveau bis zum festen Grundgestein Manhattans. Diese stabile Grundlage war entscheidend für das Tragen des enormen Gewichts des 102-stöckigen Wolkenkratzers, geschätzt auf 365.000 Tonnen.",
+        nl: "De fundering van het gebouw strekt zich 55 voet onder straatniveau uit tot het vaste gesteente van Manhattan. Deze stabiele fundering was cruciaal voor het dragen van het enorme gewicht van de 102 verdiepingen tellende wolkenkrabber, geschat op 365.000 ton."
+      }
+    },
+    {
+      question: {
+        en: "Which famous aviator attempted to dock an airship at the building in 1931?",
+        es: "¿Qué aviador famoso intentó atracar un dirigible en el edificio en 1931?",
+        de: "Welcher berühmte Flieger versuchte 1931, ein Luftschiff am Gebäude anzudocken?",
+        nl: "Welke beroemde vlieger probeerde in 1931 een luchtschip aan het gebouw aan te meren?"
+      },
+      options: [
+        {en: "A privately-owned airship made one successful docking attempt", es: "Un dirigible de propiedad privada hizo un intento exitoso de atraque", de: "Ein privates Luftschiff machte einen erfolgreichen Andockversuch", nl: "Een privé-luchtschip deed één geslaagde aanmeerpoging"},
+        {en: "Charles Lindbergh", es: "Charles Lindbergh", de: "Charles Lindbergh", nl: "Charles Lindbergh"},
+        {en: "Amelia Earhart", es: "Amelia Earhart", de: "Amelia Earhart", nl: "Amelia Earhart"},
+        {en: "Howard Hughes", es: "Howard Hughes", de: "Howard Hughes", nl: "Howard Hughes"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "In September 1931, a privately-owned blimp managed to dock briefly at the mooring mast, delivering newspapers. However, dangerous updrafts made this impractical, and the idea was abandoned. The spire later became an antenna tower.",
+        es: "En septiembre de 1931, un dirigible de propiedad privada logró atracar brevemente en el mástil de amarre, entregando periódicos. Sin embargo, las corrientes ascendentes peligrosas hicieron esto poco práctico, y la idea fue abandonada. La aguja se convirtió más tarde en una torre de antena.",
+        de: "Im September 1931 gelang es einem privaten Luftschiff kurz am Ankermast anzudocken und Zeitungen zu liefern. Gefährliche Aufwinde machten dies jedoch unpraktisch, und die Idee wurde aufgegeben. Die Spitze wurde später ein Antennenturm.",
+        nl: "In september 1931 slaagde een privé-luchtschip erin kort aan te meren bij de aanmeermast en kranten te bezorgen. Gevaarlijke opwaartse luchtstromingen maakten dit echter onpraktisch, en het idee werd opgegeven. De spits werd later een antennetoren."
+      }
+    },
+    {
+      question: {
+        en: "What record did the Empire State Building hold regarding construction speed?",
+        es: "¿Qué récord mantuvo el Empire State Building con respecto a la velocidad de construcción?",
+        de: "Welchen Rekord hielt das Empire State Building bezüglich der Baugeschwindigkeit?",
+        nl: "Welk record hield het Empire State Building met betrekking tot bouwsnelheid?"
+      },
+      options: [
+        {en: "Fastest skyscraper construction of its era", es: "Construcción de rascacielos más rápida de su época", de: "Schnellster Wolkenkratzerbau seiner Zeit", nl: "Snelste wolkenkrabberbouw van zijn tijd"},
+        {en: "Slowest construction project", es: "Proyecto de construcción más lento", de: "Langsamstes Bauprojekt", nl: "Langzaamste bouwproject"},
+        {en: "Most expensive per day", es: "Más caro por día", de: "Teuerster pro Tag", nl: "Duurste per dag"},
+        {en: "Longest construction period", es: "Período de construcción más largo", de: "Längste Bauzeit", nl: "Langste bouwperiode"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Empire State Building was the fastest major skyscraper construction of its time, completed in just 410 days. This record remained unmatched for decades and demonstrated American engineering prowess during the Depression era.",
+        es: "El Empire State Building fue la construcción de rascacielos importante más rápida de su tiempo, completada en solo 410 días. Este récord permaneció sin igual durante décadas y demostró la destreza de ingeniería estadounidense durante la era de la Depresión.",
+        de: "Das Empire State Building war der schnellste große Wolkenkratzerbau seiner Zeit, fertiggestellt in nur 410 Tagen. Dieser Rekord blieb jahrzehntelang unübertroffen und demonstrierte amerikanisches Ingenieurwesen während der Depressionszeit.",
+        nl: "Het Empire State Building was de snelste grote wolkenkrabberbouw van zijn tijd, voltooid in slechts 410 dagen. Dit record bleef decennialang ongeëvenaard en demonstreerde Amerikaanse engineering tijdens het Depressie-tijdperk."
+      }
+    },
+    {
+      question: {
+        en: "What safety measure was revolutionary for its time during construction?",
+        es: "¿Qué medida de seguridad fue revolucionaria para su época durante la construcción?",
+        de: "Welche Sicherheitsmaßnahme war für ihre Zeit während des Baus revolutionär?",
+        nl: "Welke veiligheidsmaatregel was revolutionair voor zijn tijd tijdens de bouw?"
+      },
+      options: [
+        {en: "Safety nets and harnesses for all workers", es: "Redes de seguridad y arneses para todos los trabajadores", de: "Sicherheitsnetze und Gurte für alle Arbeiter", nl: "Vangnetters en harnassen voor alle arbeiders"},
+        {en: "No safety measures were used", es: "No se usaron medidas de seguridad", de: "Es wurden keine Sicherheitsmaßnahmen verwendet", nl: "Er werden geen veiligheidsmaatregelen gebruikt"},
+        {en: "Remote-controlled robots", es: "Robots controlados remotamente", de: "Ferngesteuerte Roboter", nl: "Op afstand bestuurde robots"},
+        {en: "Wooden scaffolding only", es: "Solo andamios de madera", de: "Nur Holzgerüste", nl: "Alleen houten steigers"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Empire State Building construction used extensive safety measures including safety nets, harnesses, and strict protocols. This was revolutionary for 1930 and contributed to the remarkably low death toll of only 5 workers on such a massive project.",
+        es: "La construcción del Empire State Building utilizó medidas de seguridad extensas que incluyen redes de seguridad, arneses y protocolos estrictos. Esto fue revolucionario para 1930 y contribuyó al número de muertes notablemente bajo de solo 5 trabajadores en un proyecto tan masivo.",
+        de: "Der Bau des Empire State Building verwendete umfangreiche Sicherheitsmaßnahmen einschließlich Sicherheitsnetze, Gurte und strenge Protokolle. Dies war 1930 revolutionär und trug zur bemerkenswert niedrigen Todeszahl von nur 5 Arbeitern bei einem so massiven Projekt bei.",
+        nl: "De bouw van het Empire State Building gebruikte uitgebreide veiligheidsmaatregelen inclusief vangnetters, harnassen en strikte protocollen. Dit was revolutionair voor 1930 en droeg bij aan het opmerkelijk lage dodental van slechts 5 arbeiders op zo'n massaal project."
+      }
+    },
+    {
+      question: {
+        en: "How much did the observation deck tickets cost when the building opened?",
+        es: "¿Cuánto costaban las entradas del observatorio cuando abrió el edificio?",
+        de: "Wie viel kosteten die Tickets für die Aussichtsplattform bei Eröffnung des Gebäudes?",
+        nl: "Hoeveel kostten de observatiedektickets toen het gebouw opende?"
+      },
+      options: [
+        {en: "$1.10 (equivalent to about $20 today)", es: "$1.10 (equivalente a unos $20 hoy)", de: "$1,10 (entspricht heute etwa $20)", nl: "$1,10 (equivalent aan ongeveer $20 vandaag)"},
+        {en: "$5", es: "$5", de: "$5", nl: "$5"},
+        {en: "$0.50", es: "$0.50", de: "$0,50", nl: "$0,50"},
+        {en: "Free", es: "Gratis", de: "Kostenlos", nl: "Gratis"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "When the building opened in 1931, observation deck tickets cost $1.10. Despite the Depression, this proved popular and provided crucial revenue when office space was hard to rent. The observation decks essentially kept the building financially viable.",
+        es: "Cuando el edificio abrió en 1931, las entradas del observatorio costaban $1.10. A pesar de la Depresión, esto resultó popular y proporcionó ingresos cruciales cuando el espacio de oficinas era difícil de alquilar. Los observatorios esencialmente mantuvieron el edificio financieramente viable.",
+        de: "Bei der Eröffnung des Gebäudes 1931 kosteten Tickets für die Aussichtsplattform $1,10. Trotz der Depression erwies sich dies als beliebt und lieferte wichtige Einnahmen, als Büroflächen schwer zu vermieten waren. Die Aussichtsplattformen hielten das Gebäude im Wesentlichen finanziell lebensfähig.",
+        nl: "Toen het gebouw in 1931 opende, kostten observatiedektickets $1,10. Ondanks de Depressie bleek dit populair en leverde het cruciale inkomsten toen kantoorruimte moeilijk te verhuren was. De observatiedekken hielden het gebouw in wezen financieel levensvatbaar."
+      }
+    },
+    {
+      question: {
+        en: "What iconic structure was temporarily built atop the building in 2011?",
+        es: "¿Qué estructura icónica se construyó temporalmente encima del edificio en 2011?",
+        de: "Welche ikonische Struktur wurde 2011 vorübergehend auf dem Gebäude errichtet?",
+        nl: "Welke iconische structuur werd tijdelijk bovenop het gebouw gebouwd in 2011?"
+      },
+      options: [
+        {en: "A replica of King Kong for the 80th anniversary", es: "Una réplica de King Kong para el 80 aniversario", de: "Eine Nachbildung von King Kong zum 80. Jahrestag", nl: "Een replica van King Kong voor het 80-jarig jubileum"},
+        {en: "A helicopter pad", es: "Una plataforma para helicópteros", de: "Ein Hubschrauberlandeplatz", nl: "Een helikopterplatform"},
+        {en: "A restaurant", es: "Un restaurante", de: "Ein Restaurant", nl: "Een restaurant"},
+        {en: "A garden", es: "Un jardín", de: "Ein Garten", nl: "Een tuin"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "For the building's 80th anniversary in 2011, a large inflatable King Kong replica was placed atop the building, recreating the iconic 1933 film scene. This celebrated the building's deep connection to popular culture.",
+        es: "Para el 80 aniversario del edificio en 2011, se colocó una gran réplica inflable de King Kong encima del edificio, recreando la escena icónica de la película de 1933. Esto celebró la conexión profunda del edificio con la cultura popular.",
+        de: "Zum 80. Jahrestag des Gebäudes im Jahr 2011 wurde eine große aufblasbare King-Kong-Nachbildung auf dem Gebäude platziert, die die ikonische Filmszene von 1933 nachstellte. Dies feierte die tiefe Verbindung des Gebäudes zur Popkultur.",
+        nl: "Voor het 80-jarig jubileum van het gebouw in 2011 werd een grote opblaasbare King Kong-replica bovenop het gebouw geplaatst, waarmee de iconische filmscène uit 1933 werd nagespeeld. Dit vierde de diepe verbinding van het gebouw met de populaire cultuur."
+      }
+    },
+    {
+      question: {
+        en: "When was the building's first major modernization of elevators completed?",
+        es: "¿Cuándo se completó la primera modernización importante de ascensores del edificio?",
+        de: "Wann wurde die erste große Modernisierung der Aufzüge des Gebäudes abgeschlossen?",
+        nl: "Wanneer werd de eerste grote modernisering van de liften van het gebouw voltooid?"
+      },
+      options: [
+        {en: "1990s", es: "Años 90", de: "1990er Jahre", nl: "Jaren 1990"},
+        {en: "1950s", es: "Años 50", de: "1950er Jahre", nl: "Jaren 1950"},
+        {en: "2010s", es: "Años 2010", de: "2010er Jahre", nl: "Jaren 2010"},
+        {en: "Never modernized", es: "Nunca modernizado", de: "Nie modernisiert", nl: "Nooit gemoderniseerd"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "The building underwent its first major elevator modernization in the 1990s, replacing the original 1930s systems with computer-controlled elevators. This improved efficiency while maintaining the Art Deco aesthetic of the elevator lobbies.",
+        es: "El edificio experimentó su primera modernización importante de ascensores en los años 90, reemplazando los sistemas originales de los años 30 con ascensores controlados por computadora. Esto mejoró la eficiencia mientras mantenía la estética Art Déco de los vestíbulos de ascensores.",
+        de: "Das Gebäude wurde in den 1990er Jahren seiner ersten großen Aufzugmodernisierung unterzogen und ersetzte die ursprünglichen Systeme der 1930er Jahre durch computergesteuerte Aufzüge. Dies verbesserte die Effizienz bei Beibehaltung der Art-Déco-Ästhetik der Aufzugslobbys.",
+        nl: "Het gebouw onderging zijn eerste grote liftmodernisering in de jaren 1990, waarbij de originele systemen uit de jaren 1930 werden vervangen door computergestuurde liften. Dit verbeterde de efficiëntie terwijl de Art Deco-esthetiek van de liftlobbies behouden bleef."
+      }
+    },
+    {
+      question: {
+        en: "What was the building's original planned height before the spire was added?",
+        es: "¿Cuál era la altura planeada original del edificio antes de agregar la aguja?",
+        de: "Was war die ursprünglich geplante Höhe des Gebäudes, bevor die Spitze hinzugefügt wurde?",
+        nl: "Wat was de oorspronkelijk geplande hoogte van het gebouw voordat de spits werd toegevoegd?"
+      },
+      options: [
+        {en: "1,050 feet (without the 200-foot spire)", es: "1,050 pies (sin la aguja de 200 pies)", de: "1.050 Fuß (ohne die 200-Fuß-Spitze)", nl: "1.050 voet (zonder de 200 voet spits)"},
+        {en: "900 feet", es: "900 pies", de: "900 Fuß", nl: "900 voet"},
+        {en: "1,200 feet", es: "1,200 pies", de: "1.200 Fuß", nl: "1.200 voet"},
+        {en: "800 feet", es: "800 pies", de: "800 Fuß", nl: "800 voet"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "The building was originally designed to reach 1,050 feet. The 200-foot spire was added to surpass the Chrysler Building and serve as a dirigible mooring mast, bringing the total height to 1,250 feet (381 meters).",
+        es: "El edificio fue originalmente diseñado para alcanzar 1,050 pies. La aguja de 200 pies se agregó para superar al Chrysler Building y servir como mástil de amarre para dirigibles, elevando la altura total a 1,250 pies (381 metros).",
+        de: "Das Gebäude war ursprünglich für eine Höhe von 1.050 Fuß konzipiert. Die 200-Fuß-Spitze wurde hinzugefügt, um das Chrysler Building zu übertreffen und als Ankermast für Luftschiffe zu dienen, wodurch die Gesamthöhe auf 1.250 Fuß (381 Meter) stieg.",
+        nl: "Het gebouw was oorspronkelijk ontworpen om 1.050 voet te bereiken. De 200 voet spits werd toegevoegd om het Chrysler Building te overtreffen en te dienen als aanmeermast voor luchtschepen, waardoor de totale hoogte 1.250 voet (381 meter) werd."
+      }
     }
   ]
 };

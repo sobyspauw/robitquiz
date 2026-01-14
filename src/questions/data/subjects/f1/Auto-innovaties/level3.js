@@ -319,6 +319,342 @@
                 de: "Das F-Duct wurde verboten, weil Fahrer ihre Hände vom Lenkrad nehmen mussten, was Sicherheitsbedenken aufwarf.",
                 nl: "Het F-duct werd verboden omdat coureurs hun handen van het stuur moesten halen om het te bedienen, wat veiligheidsproblemen opleverde."
             }
+        },
+        {
+            question: {
+                en: "What is the Coanda effect in F1 aerodynamics?",
+                es: "¿Qué es el efecto Coanda en la aerodinámica de F1?",
+                de: "Was ist der Coanda-Effekt in der F1-Aerodynamik?",
+                nl: "Wat is het Coanda-effect in F1-aerodynamica?"
+            },
+            options: ["Tire grip effect", "Airflow tendency to follow curved surfaces", "Engine cooling effect", "Brake efficiency"],
+            correct: 1,
+            explanation: {
+                en: "The Coanda effect describes how airflow tends to follow curved surfaces, used to direct exhaust gases and improve aerodynamics.",
+                es: "El efecto Coanda describe cómo el flujo de aire tiende a seguir superficies curvas, usado para dirigir gases de escape.",
+                de: "Der Coanda-Effekt beschreibt wie Luftstrom gekrümmten Oberflächen folgt, genutzt um Abgase zu lenken.",
+                nl: "Het Coanda-effect beschrijft hoe luchtstroom de neiging heeft gebogen oppervlakken te volgen, gebruikt om uitlaatgassen te leiden."
+            }
+        },
+        {
+            question: {
+                en: "What is a seamless-shift gearbox?",
+                es: "¿Qué es una caja de cambios de cambio sin interrupciones?",
+                de: "Was ist ein nahtloses Schaltgetriebe?",
+                nl: "Wat is een seamless-shift versnellingsbak?"
+            },
+            options: ["Automatic gearbox", "Gearbox that shifts without power interruption", "Manual gearbox", "CVT transmission"],
+            correct: 1,
+            explanation: {
+                en: "Seamless-shift gearboxes can change gears without any interruption in power delivery, maintaining acceleration through shifts.",
+                es: "Las cajas de cambio sin interrupciones cambian marchas sin interrupción en la entrega de potencia.",
+                de: "Nahtlose Schaltgetriebe können Gänge ohne Unterbrechung der Kraftübertragung wechseln.",
+                nl: "Seamless-shift versnellingsbakken kunnen schakelen zonder onderbreking van vermogensafgifte."
+            }
+        },
+        {
+            question: {
+                en: "What is porpoising in ground effect cars?",
+                es: "¿Qué es el porpoising en coches de efecto suelo?",
+                de: "Was ist Porpoising bei Bodeneffekt-Autos?",
+                nl: "Wat is porpoising bij grondeffect-auto's?"
+            },
+            options: ["Tire vibration", "Bouncing caused by aerodynamic stalling", "Engine vibration", "Brake judder"],
+            correct: 1,
+            explanation: {
+                en: "Porpoising is vertical bouncing caused when ground effect tunnels stall and recover repeatedly at high speed.",
+                es: "Porpoising es el rebote vertical causado cuando los túneles de efecto suelo se anulan y recuperan repetidamente.",
+                de: "Porpoising ist vertikales Hüpfen wenn Bodeneffekt-Tunnel bei hoher Geschwindigkeit wiederholt abbrechen und sich erholen.",
+                nl: "Porpoising is verticaal stuiteren veroorzaakt wanneer grondeffecttunnels herhaaldelijk stallen en herstellen bij hoge snelheid."
+            }
+        },
+        {
+            question: {
+                en: "What are bargeboards used for?",
+                es: "¿Para qué se usan las bargeboards?",
+                de: "Wofür werden Bargeboards verwendet?",
+                nl: "Waarvoor worden bargeboards gebruikt?"
+            },
+            options: ["Driver protection", "Direct airflow around sidepods", "Support rear wing", "Cool brakes"],
+            correct: 1,
+            explanation: {
+                en: "Bargeboards are vertical aerodynamic elements that direct and condition airflow around the car's sidepods and floor.",
+                es: "Las bargeboards son elementos aerodinámicos verticales que dirigen el flujo de aire alrededor de los pontones.",
+                de: "Bargeboards sind vertikale aerodynamische Elemente die Luftstrom um Seitenkästen und Boden lenken.",
+                nl: "Bargeboards zijn verticale aerodynamische elementen die luchtstroom rond de sidepods en vloer leiden en conditioneren."
+            }
+        },
+        {
+            question: {
+                en: "What is the energy store in hybrid F1 cars?",
+                es: "¿Qué es el almacén de energía en coches híbridos de F1?",
+                de: "Was ist der Energiespeicher in Hybrid-F1-Autos?",
+                nl: "Wat is de energieopslag in hybride F1-auto's?"
+            },
+            options: ["Extra fuel tank", "High-performance battery for ERS", "Flywheel system", "Compressed air tank"],
+            correct: 1,
+            explanation: {
+                en: "The energy store is a lithium-ion battery that stores electrical energy recovered by MGU-K and MGU-H for deployment.",
+                es: "El almacén de energía es una batería de iones de litio que almacena energía eléctrica recuperada por MGU-K y MGU-H.",
+                de: "Der Energiespeicher ist eine Lithium-Ionen-Batterie die von MGU-K und MGU-H zurückgewonnene Energie speichert.",
+                nl: "De energieopslag is een lithium-ion batterij die elektrische energie opslaat teruggewonnen door MGU-K en MGU-H."
+            }
+        },
+        {
+            question: {
+                en: "What is the maximum fuel capacity in modern F1 cars?",
+                es: "¿Cuál es la capacidad máxima de combustible en coches modernos de F1?",
+                de: "Was ist die maximale Kraftstoffkapazität in modernen F1-Autos?",
+                nl: "Wat is de maximale brandstofcapaciteit in moderne F1-auto's?"
+            },
+            options: ["80 kg", "100 kg", "110 kg", "120 kg"],
+            correct: 2,
+            explanation: {
+                en: "F1 cars can carry a maximum of 110 kg of fuel, with fuel flow limited to 100 kg/hour during the race.",
+                es: "Los coches de F1 pueden llevar un máximo de 110 kg de combustible, con flujo limitado a 100 kg/hora.",
+                de: "F1-Autos können maximal 110 kg Kraftstoff mitführen, der Durchfluss ist auf 100 kg/Stunde begrenzt.",
+                nl: "F1-auto's kunnen maximaal 110 kg brandstof meenemen, met brandstofstroom beperkt tot 100 kg/uur."
+            }
+        },
+        {
+            question: {
+                en: "What is the control electronics (ECU) regulation?",
+                es: "¿Qué es la regulación de la electrónica de control (ECU)?",
+                de: "Was ist die Regelung für Steuerungselektronik (ECU)?",
+                nl: "Wat is de regeling voor besturingselektronica (ECU)?"
+            },
+            options: ["Teams design own ECU", "Standard McLaren-supplied ECU for all teams", "No ECU allowed", "Each engine manufacturer provides ECU"],
+            correct: 1,
+            explanation: {
+                en: "All teams must use a standard ECU supplied by McLaren Electronics to ensure fairness and prevent hidden electronic aids.",
+                es: "Todos los equipos deben usar un ECU estándar suministrado por McLaren Electronics para asegurar equidad.",
+                de: "Alle Teams müssen ein Standard-ECU von McLaren Electronics verwenden um Fairness zu gewährleisten.",
+                nl: "Alle teams moeten een standaard ECU gebruiken geleverd door McLaren Electronics om eerlijkheid te waarborgen."
+            }
+        },
+        {
+            question: {
+                en: "How does tire degradation affect strategy?",
+                es: "¿Cómo afecta la degradación de neumáticos a la estrategia?",
+                de: "Wie beeinflusst Reifenverschleiß die Strategie?",
+                nl: "Hoe beïnvloedt bandenslijtage de strategie?"
+            },
+            options: ["No effect", "Teams must balance speed vs tire life for pit stop timing", "Only affects qualifying", "Random factor only"],
+            correct: 1,
+            explanation: {
+                en: "Teams must balance pushing for speed with managing tire degradation to optimize pit stop windows and race pace.",
+                es: "Los equipos deben equilibrar velocidad con gestión de degradación para optimizar ventanas de pit stop.",
+                de: "Teams müssen Geschwindigkeit mit Reifenverschleiß-Management ausbalancieren um Boxenstopp-Zeitfenster zu optimieren.",
+                nl: "Teams moeten snelheid balanceren met bandenslijtagebeheer om pit stop tijden en racetempo te optimaliseren."
+            }
+        },
+        {
+            question: {
+                en: "What is the minimum car weight in modern F1?",
+                es: "¿Cuál es el peso mínimo del coche en F1 moderna?",
+                de: "Was ist das Mindestgewicht des Autos in modernem F1?",
+                nl: "Wat is het minimumgewicht van de auto in moderne F1?"
+            },
+            options: ["640 kg", "710 kg", "796 kg", "850 kg"],
+            correct: 2,
+            explanation: {
+                en: "The minimum weight is 796 kg including driver but excluding fuel, increased to accommodate safety features like the Halo.",
+                es: "El peso mínimo es 796 kg incluyendo piloto pero excluyendo combustible, aumentado para acomodar el Halo.",
+                de: "Das Mindestgewicht beträgt 796 kg inklusive Fahrer aber ohne Kraftstoff, erhöht für Sicherheitsmerkmale wie Halo.",
+                nl: "Het minimumgewicht is 796 kg inclusief coureur maar exclusief brandstof, verhoogd voor veiligheidsvoorzieningen zoals de Halo."
+            }
+        },
+        {
+            question: {
+                en: "What is the DRS detection point?",
+                es: "¿Qué es el punto de detección DRS?",
+                de: "Was ist der DRS-Erkennungspunkt?",
+                nl: "Wat is het DRS-detectiepunt?"
+            },
+            options: ["Where DRS activates", "Point before DRS zone measuring 1-second gap", "Finish line only", "Pit lane entry"],
+            correct: 1,
+            explanation: {
+                en: "The detection point is located before the DRS activation zone to measure if a car is within 1 second of the car ahead.",
+                es: "El punto de detección está antes de la zona DRS para medir si un coche está a menos de 1 segundo del de delante.",
+                de: "Der Erkennungspunkt liegt vor der DRS-Aktivierungszone um zu messen ob ein Auto weniger als 1 Sekunde hinter dem Vordermann ist.",
+                nl: "Het detectiepunt ligt voor de DRS-activatiezone om te meten of een auto binnen 1 seconde van de auto ervoor zit."
+            }
+        },
+        {
+            question: {
+                en: "What are flow-vis paints used for?",
+                es: "¿Para qué se usan las pinturas flow-vis?",
+                de: "Wofür werden Flow-Vis-Farben verwendet?",
+                nl: "Waarvoor worden flow-vis verven gebruikt?"
+            },
+            options: ["Decoration", "Visualizing airflow patterns during testing", "Weight reduction", "Protecting carbon fiber"],
+            correct: 1,
+            explanation: {
+                en: "Flow-vis is fluorescent paint that shows airflow patterns on the car, helping teams analyze and optimize aerodynamics.",
+                es: "Flow-vis es pintura fluorescente que muestra patrones de flujo de aire, ayudando a analizar aerodinámica.",
+                de: "Flow-Vis ist fluoreszierende Farbe die Luftströmungsmuster zeigt und Teams hilft Aerodynamik zu analysieren.",
+                nl: "Flow-vis is fluorescerende verf die luchtstroom patronen toont, wat teams helpt aerodynamica te analyseren en optimaliseren."
+            }
+        },
+        {
+            question: {
+                en: "What is the wastegate in turbocharged engines?",
+                es: "¿Qué es la wastegate en motores turboalimentados?",
+                de: "Was ist das Wastegate in Turbomotoren?",
+                nl: "Wat is de wastegate in turbomotoren?"
+            },
+            options: ["Fuel valve", "Valve controlling boost pressure by bypassing exhaust", "Air filter", "Cooling system"],
+            correct: 1,
+            explanation: {
+                en: "The wastegate controls turbo boost pressure by allowing some exhaust to bypass the turbine when needed.",
+                es: "La wastegate controla la presión del turbo permitiendo que escape pase por alto la turbina cuando sea necesario.",
+                de: "Das Wastegate kontrolliert Turbodruck indem es bei Bedarf Abgas an der Turbine vorbeileitet.",
+                nl: "De wastegate regelt turbodruk door indien nodig uitlaatgas langs de turbine te leiden."
+            }
+        },
+        {
+            question: {
+                en: "What is thermal efficiency in F1 hybrid engines?",
+                es: "¿Qué es la eficiencia térmica en motores híbridos de F1?",
+                de: "Was ist thermische Effizienz in F1-Hybridmotoren?",
+                nl: "Wat is thermische efficiëntie in F1-hybride motoren?"
+            },
+            options: ["Engine temperature", "Percentage of fuel energy converted to power", "Cooling efficiency", "Exhaust temperature"],
+            correct: 1,
+            explanation: {
+                en: "Modern F1 hybrid engines achieve over 50% thermal efficiency, converting more than half of fuel energy into power.",
+                es: "Los motores híbridos modernos logran más del 50% de eficiencia térmica, convirtiendo más de la mitad de energía en potencia.",
+                de: "Moderne F1-Hybridmotoren erreichen über 50% thermische Effizienz und wandeln mehr als die Hälfte der Kraftstoffenergie in Leistung um.",
+                nl: "Moderne F1-hybride motoren behalen meer dan 50% thermische efficiëntie, wat meer dan de helft van brandstofenergie omzet in vermogen."
+            }
+        },
+        {
+            question: {
+                en: "What are wheel tethers designed to prevent?",
+                es: "¿Qué están diseñados para prevenir los cables de rueda?",
+                de: "Was sollen Radkabel verhindern?",
+                nl: "Wat zijn wielbevestigingen ontworpen om te voorkomen?"
+            },
+            options: ["Tire punctures", "Wheels detaching in accidents", "Brake overheating", "Suspension failure"],
+            correct: 1,
+            explanation: {
+                en: "Wheel tethers are strong cables connecting wheels to the chassis to prevent them from flying off in accidents.",
+                es: "Los cables de rueda son cables fuertes que conectan ruedas al chasis para evitar que salgan volando en accidentes.",
+                de: "Radkabel sind starke Kabel die Räder mit dem Chassis verbinden um zu verhindern dass sie bei Unfällen wegfliegen.",
+                nl: "Wielbevestigingen zijn sterke kabels die wielen verbinden met het chassis om te voorkomen dat ze bij ongevallen wegvliegen."
+            }
+        },
+        {
+            question: {
+                en: "What is the purpose of the safety cell (survival cell)?",
+                es: "¿Cuál es el propósito de la célula de seguridad?",
+                de: "Was ist der Zweck der Sicherheitszelle?",
+                nl: "Wat is het doel van de veiligheidscel?"
+            },
+            options: ["Hold fuel", "Protect driver in impacts with strong carbon structure", "Store batteries", "Cool the engine"],
+            correct: 1,
+            explanation: {
+                en: "The safety cell is the reinforced carbon fiber structure around the driver designed to withstand massive impacts.",
+                es: "La célula de seguridad es la estructura reforzada de fibra de carbono alrededor del piloto para resistir impactos masivos.",
+                de: "Die Sicherheitszelle ist die verstärkte Kohlefaserstruktur um den Fahrer zum Schutz bei massiven Aufprällen.",
+                nl: "De veiligheidscel is de versterkte carbon fiber structuur rond de coureur ontworpen om massieve impacts te weerstaan."
+            }
+        },
+        {
+            question: {
+                en: "What is anti-stall in F1 engines?",
+                es: "¿Qué es el anti-stall en motores de F1?",
+                de: "Was ist Anti-Stall in F1-Motoren?",
+                nl: "Wat is anti-stall in F1-motoren?"
+            },
+            options: ["Cooling system", "Prevents engine from stalling when stopped", "Turbo boost system", "Fuel injection mode"],
+            correct: 1,
+            explanation: {
+                en: "Anti-stall automatically engages the clutch and keeps the engine running if it would otherwise stall during incidents.",
+                es: "El anti-stall activa automáticamente el embrague y mantiene el motor funcionando si se pararía durante incidentes.",
+                de: "Anti-Stall aktiviert automatisch die Kupplung und hält den Motor am Laufen wenn er sonst bei Zwischenfällen absterben würde.",
+                nl: "Anti-stall activeert automatisch de koppeling en houdt de motor draaiende als deze anders zou afslaan tijdens incidenten."
+            }
+        },
+        {
+            question: {
+                en: "What is the fuel flow meter's purpose?",
+                es: "¿Cuál es el propósito del medidor de flujo de combustible?",
+                de: "Was ist der Zweck des Kraftstoffdurchflussmessers?",
+                nl: "Wat is het doel van de brandstofstroommeter?"
+            },
+            options: ["Calculate remaining fuel", "Ensure teams don't exceed 100 kg/h fuel flow limit", "Measure fuel temperature", "Control fuel pressure"],
+            correct: 1,
+            explanation: {
+                en: "The FIA-mandated fuel flow meter ensures teams comply with the 100 kg/hour maximum fuel flow regulation.",
+                es: "El medidor de flujo mandatorio de la FIA asegura que los equipos cumplan con el límite de 100 kg/hora.",
+                de: "Der von der FIA vorgeschriebene Durchflussmesser stellt sicher dass Teams die 100 kg/Stunde-Grenze einhalten.",
+                nl: "De door FIA verplichte brandstofstroommeter zorgt dat teams voldoen aan de 100 kg/uur maximum brandstofstroom regeling."
+            }
+        },
+        {
+            question: {
+                en: "What are floor edges (floor fences) designed for?",
+                es: "¿Para qué están diseñados los bordes del piso?",
+                de: "Wofür sind Bodenkanten konzipiert?",
+                nl: "Waarvoor zijn vloeranden ontworpen?"
+            },
+            options: ["Structural strength", "Control airflow under the car", "Protect against debris", "Reduce weight"],
+            correct: 1,
+            explanation: {
+                en: "Floor edges create vortices and seal the floor edges to prevent air from escaping, maximizing ground effect.",
+                es: "Los bordes del piso crean vórtices y sellan los bordes para evitar que escape aire, maximizando efecto suelo.",
+                de: "Bodenkanten erzeugen Wirbel und versiegeln die Bodenkanten um Luftaustritt zu verhindern und Bodeneffekt zu maximieren.",
+                nl: "Vloeranden creëren vortexen en verzegelen de vloerkanten om te voorkomen dat lucht ontsnapt, wat grondeffect maximaliseert."
+            }
+        },
+        {
+            question: {
+                en: "What is the beam wing's function?",
+                es: "¿Cuál es la función del beam wing?",
+                de: "Was ist die Funktion des Beam Wing?",
+                nl: "Wat is de functie van de beam wing?"
+            },
+            options: ["Structural support only", "Small rear wing element generating additional downforce", "Exhaust pipe", "DRS mechanism"],
+            correct: 1,
+            explanation: {
+                en: "The beam wing is a small horizontal element above the diffuser that generates additional rear downforce.",
+                es: "El beam wing es un pequeño elemento horizontal sobre el difusor que genera carga aerodinámica trasera adicional.",
+                de: "Der Beam Wing ist ein kleines horizontales Element über dem Diffusor das zusätzlichen Heck-Abtrieb erzeugt.",
+                nl: "De beam wing is een klein horizontaal element boven de diffuser dat extra achterwaartse neerwaartse druk genereert."
+            }
+        },
+        {
+            question: {
+                en: "What is the function of turning vanes?",
+                es: "¿Cuál es la función de las turning vanes?",
+                de: "Was ist die Funktion von Turning Vanes?",
+                nl: "Wat is de functie van turning vanes?"
+            },
+            options: ["Steering assistance", "Direct airflow to optimal areas", "Support suspension", "Cool brakes"],
+            correct: 1,
+            explanation: {
+                en: "Turning vanes are small aerodynamic elements that redirect and condition airflow to different parts of the car.",
+                es: "Las turning vanes son pequeños elementos aerodinámicos que redirigen el flujo de aire a diferentes partes del coche.",
+                de: "Turning Vanes sind kleine aerodynamische Elemente die Luftstrom zu verschiedenen Autoteilen umleiten.",
+                nl: "Turning vanes zijn kleine aerodynamische elementen die luchtstroom omleiden naar verschillende delen van de auto."
+            }
+        },
+        {
+            question: {
+                en: "What is the purpose of ride height sensors?",
+                es: "¿Cuál es el propósito de los sensores de altura de marcha?",
+                de: "Was ist der Zweck von Fahrhöhensensoren?",
+                nl: "Wat is het doel van rijhoogtesensoren?"
+            },
+            options: ["Measure speed", "Monitor car's distance from ground for optimal aerodynamics", "Control suspension", "Measure tire pressure"],
+            correct: 1,
+            explanation: {
+                en: "Ride height sensors measure the car's distance from the ground, helping teams optimize aerodynamic performance and prevent floor strikes.",
+                es: "Los sensores de altura miden la distancia del coche al suelo, ayudando a optimizar rendimiento aerodinámico.",
+                de: "Fahrhöhensensoren messen die Distanz des Autos vom Boden und helfen aerodynamische Leistung zu optimieren.",
+                nl: "Rijhoogtesensoren meten de afstand van de auto tot de grond, wat teams helpt aerodynamische prestaties te optimaliseren en vloercontact te voorkomen."
+            }
         }
     ];
 

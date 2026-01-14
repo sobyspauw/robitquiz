@@ -427,6 +427,426 @@
           de: "RLHF integriert menschliche Urteile über KI-Verhaltensqualität, Präferenzen für bestimmte Aktionen und Zufriedenheitsbewertungen um KI-Systeme zu trainieren die besser mit menschlichen Werten übereinstimmen und angenehmere Spielerfahrungen schaffen.",
           nl: "RLHF integreert menselijke oordelen over AI-gedragskwaliteit, voorkeuren voor bepaalde acties en tevredenheidsbeoordeelingen om AI-systemen te trainen die beter aansluiten bij menselijke waarden en meer plezierige speelervaringen creëren."
         }
+      },
+      {
+        question: {
+          en: "What is 'emergent gameplay' from AI systems?",
+          es: "¿Qué es el 'juego emergente' desde sistemas IA?",
+          de: "Was ist 'emergentes Gameplay' aus KI-Systemen?",
+          nl: "Wat is 'emergente gameplay' van AI-systemen?"
+        },
+        options: [
+          { en: "Unexpected behaviors and scenarios arising from AI interactions not explicitly programmed", es: "Comportamientos y escenarios inesperados que surgen de interacciones IA no explícitamente programadas", de: "Unerwartete Verhaltensweisen und Szenarien die aus KI-Interaktionen entstehen die nicht explizit programmiert sind", nl: "Onverwachte gedragingen en scenario's die voortkomen uit AI-interacties die niet expliciet geprogrammeerd zijn" },
+          { en: "Emergency gameplay protocols", es: "Protocolos de juego de emergencia", de: "Notfall-Gameplay-Protokolle", nl: "Noodgameplay protocollen" },
+          { en: "Gameplay that emerges from menus", es: "Jugabilidad que emerge de menús", de: "Gameplay das aus Menüs entsteht", nl: "Gameplay die opduikt uit menu's" },
+          { en: "Emergency exit features in games", es: "Características de salida de emergencia en juegos", de: "Notausgangsfunktionen in Spielen", nl: "Nooduitgang functies in games" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Emergent gameplay occurs when complex AI systems interact in ways that create new, unplanned gameplay situations and strategies, leading to rich, dynamic experiences that surprise both players and developers.",
+          es: "El juego emergente ocurre cuando sistemas IA complejos interactúan de maneras que crean situaciones y estrategias de jugabilidad nuevas y no planificadas, llevando a experiencias ricas y dinámicas que sorprenden tanto a jugadores como desarrolladores.",
+          de: "Emergentes Gameplay tritt auf wenn komplexe KI-Systeme auf Weisen interagieren die neue, ungeplante Gameplay-Situationen und Strategien schaffen, führt zu reichen, dynamischen Erfahrungen die sowohl Spieler als auch Entwickler überraschen.",
+          nl: "Emergente gameplay ontstaat wanneer complexe AI-systemen op manieren interageren die nieuwe, ongeplande gameplay-situaties en strategieën creëren, wat leidt tot rijke, dynamische ervaringen die zowel spelers als ontwikkelaars verrassen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'procedural character generation' using AI accomplishing?",
+          es: "¿Qué está logrando la 'generación procedural de personajes' usando IA?",
+          de: "Was erreicht 'prozedurale Charaktergenerierung' mit KI?",
+          nl: "Wat bereikt 'procedurele karaktergeneratie' met AI?"
+        },
+        options: [
+          { en: "Creating unique NPCs with distinct personalities, appearances, and backstories dynamically", es: "Crear NPCs únicos con personalidades, apariencias e historias de fondo distintas dinámicamente", de: "Dynamisches Erstellen einzigartiger NPCs mit unterschiedlichen Persönlichkeiten, Erscheinungen und Hintergrundgeschichten", nl: "Dynamisch unieke NPCs creëren met onderscheidende persoonlijkheden, uiterlijk en achtergrondverhalen" },
+          { en: "Only generating procedural textures for characters", es: "Solo generar texturas procedurales para personajes", de: "Nur prozedurale Texturen für Charaktere generieren", nl: "Alleen procedurele textures genereren voor karakters" },
+          { en: "Character creation menus", es: "Menús de creación de personajes", de: "Charaktererstellungsmenüs", nl: "Karakter creatie menu's" },
+          { en: "Procedural character animations only", es: "Solo animaciones de personajes procedurales", de: "Nur prozedurale Charakteranimationen", nl: "Alleen procedurele karakter animaties" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI-powered procedural character generation creates endless variety in NPCs by combining different personality traits, visual characteristics, dialogue styles, and behavioral patterns, making each character feel unique and believable.",
+          es: "La generación procedural de personajes impulsada por IA crea variedad infinita en NPCs combinando diferentes rasgos de personalidad, características visuales, estilos de diálogo y patrones de comportamiento, haciendo que cada personaje se sienta único y creíble.",
+          de: "KI-gestützte prozedurale Charaktergenerierung schafft endlose Vielfalt in NPCs durch Kombination verschiedener Persönlichkeitsmerkmale, visueller Eigenschaften, Dialogstile und Verhaltensmuster, macht jeden Charakter einzigartig und glaubwürdig.",
+          nl: "AI-aangedreven procedurele karaktergeneratie creëert oneindige variatie in NPCs door verschillende persoonlijkheidskenmerken, visuele karakteristieken, dialoogstijlen en gedragspatronen te combineren, waardoor elk karakter uniek en geloofwaardig aanvoelt."
+        }
+      },
+      {
+        question: {
+          en: "How does 'semantic understanding' improve AI dialogue systems in games?",
+          es: "¿Cómo mejora la 'comprensión semántica' los sistemas de diálogo IA en juegos?",
+          de: "Wie verbessert 'semantisches Verständnis' KI-Dialogsysteme in Spielen?",
+          nl: "Hoe verbetert 'semantisch begrip' AI-dialoogsystemen in games?"
+        },
+        options: [
+          { en: "Enables AI to understand meaning and context beyond keyword matching for natural conversations", es: "Permite a la IA entender significado y contexto más allá de coincidencia de palabras clave para conversaciones naturales", de: "Ermöglicht KI Bedeutung und Kontext über Keyword-Matching hinaus zu verstehen für natürliche Konversationen", nl: "Stelt AI in staat om betekenis en context te begrijpen voorbij keyword matching voor natuurlijke gesprekken" },
+          { en: "Understanding semantic HTML in game websites", es: "Entender HTML semántico en sitios web de juegos", de: "Semantisches HTML in Spiel-Websites verstehen", nl: "Semantische HTML in spelwebsites begrijpen" },
+          { en: "Semantic versioning of game updates", es: "Versionado semántico de actualizaciones de juego", de: "Semantische Versionierung von Spiel-Updates", nl: "Semantische versioning van spelupdate" },
+          { en: "Understanding dialogue semantics in scripts", es: "Entender semántica de diálogos en guiones", de: "Semantik von Dialogen in Skripten verstehen", nl: "Semantiek van dialogen in scripts begrijpen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Semantic understanding allows dialogue AI to grasp the intent, emotion, and meaning behind player statements, enabling contextually appropriate responses that feel natural and maintain coherent conversations even with unexpected inputs.",
+          es: "La comprensión semántica permite a la IA de diálogo captar la intención, emoción y significado detrás de declaraciones del jugador, habilitando respuestas contextualmente apropiadas que se sienten naturales y mantienen conversaciones coherentes incluso con entradas inesperadas.",
+          de: "Semantisches Verständnis erlaubt Dialog-KI die Absicht, Emotion und Bedeutung hinter Spieleraussagen zu erfassen, ermöglicht kontextuell angemessene Antworten die natürlich wirken und kohärente Konversationen auch bei unerwarteten Eingaben erhalten.",
+          nl: "Semantisch begrip stelt dialoog-AI in staat om de intentie, emotie en betekenis achter spelerverklaringen te begrijpen, wat contextueel gepaste reacties mogelijk maakt die natuurlijk aanvoelen en coherente gesprekken behouden zelfs met onverwachte inputs."
+        }
+      },
+      {
+        question: {
+          en: "What is 'hierarchical planning' enabling in complex game AI?",
+          es: "¿Qué está permitiendo la 'planificación jerárquica' en IA compleja de juegos?",
+          de: "Was ermöglicht 'hierarchische Planung' in komplexer Spiele-KI?",
+          nl: "Wat maakt 'hiërarchische planning' mogelijk in complexe game AI?"
+        },
+        options: [
+          { en: "Breaking down complex goals into manageable sub-tasks for more intelligent decision-making", es: "Descomponer objetivos complejos en subtareas manejables para toma de decisiones más inteligente", de: "Komplexe Ziele in handhabbare Teilaufgaben zerlegen für intelligentere Entscheidungsfindung", nl: "Complexe doelen opdelen in beheersbare subtaken voor meer intelligente besluitvorming" },
+          { en: "Planning organizational hierarchies for NPCs", es: "Planificar jerarquías organizacionales para NPCs", de: "Organisationshierarchien für NPCs planen", nl: "Organisatorische hiërarchieën plannen voor NPCs" },
+          { en: "Creating hierarchical game menus", es: "Crear menús jerárquicos de juego", de: "Hierarchische Spielmenüs erstellen", nl: "Hiërarchische spelmenu's creëren" },
+          { en: "Planning difficulty hierarchy levels", es: "Planificar niveles de jerarquía de dificultad", de: "Schwierigkeitshierarchie-Level planen", nl: "Moeilijkheidshiërarchie niveaus plannen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hierarchical planning allows AI to decompose high-level objectives (like 'conquer the city') into intermediate goals ('secure resources', 'recruit army') and specific actions, creating more strategic and human-like decision-making processes.",
+          es: "La planificación jerárquica permite a la IA descomponer objetivos de alto nivel (como 'conquistar la ciudad') en metas intermedias ('asegurar recursos', 'reclutar ejército') y acciones específicas, creando procesos de toma de decisiones más estratégicos y similares a los humanos.",
+          de: "Hierarchische Planung erlaubt KI hochrangige Ziele (wie 'Stadt erobern') in Zwischenziele ('Ressourcen sichern', 'Armee rekrutieren') und spezifische Aktionen zu zerlegen, schafft strategischere und menschenähnlichere Entscheidungsprozesse.",
+          nl: "Hiërarchische planning stelt AI in staat om doelen op hoog niveau (zoals 'verover de stad') op te delen in tussenliggende doelen ('beveilig bronnen', 'rekruteer leger') en specifieke acties, wat meer strategische en mensachtige besluitvormingsprocessen creëert."
+        }
+      },
+      {
+        question: {
+          en: "How does 'spatial reasoning AI' enhance game character behavior?",
+          es: "¿Cómo mejora la 'IA de razonamiento espacial' el comportamiento de personajes de juego?",
+          de: "Wie verbessert 'räumliche Denk-KI' Spielcharakter-Verhalten?",
+          nl: "Hoe verbetert 'ruimtelijke redenering AI' spelkarakter gedrag?"
+        },
+        options: [
+          { en: "Enables AI to understand and utilize 3D space, cover positions, and tactical geometry", es: "Permite a la IA entender y utilizar espacio 3D, posiciones de cobertura y geometría táctica", de: "Ermöglicht KI 3D-Raum, Deckungspositionen und taktische Geometrie zu verstehen und zu nutzen", nl: "Stelt AI in staat om 3D-ruimte, dekkingsposities en tactische geometrie te begrijpen en te gebruiken" },
+          { en: "Only for spatial audio positioning", es: "Solo para posicionamiento de audio espacial", de: "Nur für räumliche Audio-Positionierung", nl: "Alleen voor ruimtelijke audio positionering" },
+          { en: "Creating spatial game maps", es: "Crear mapas espaciales de juego", de: "Räumliche Spielkarten erstellen", nl: "Ruimtelijke spelkaarten creëren" },
+          { en: "Understanding space-themed games", es: "Entender juegos con temática espacial", de: "Weltraumthemen-Spiele verstehen", nl: "Ruimte-thema games begrijpen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Spatial reasoning allows AI characters to analyze environments for tactical advantages, find optimal positioning, understand line-of-sight relationships, and navigate complex 3D spaces intelligently like skilled human players.",
+          es: "El razonamiento espacial permite a personajes IA analizar entornos para ventajas tácticas, encontrar posicionamiento óptimo, entender relaciones de línea de visión y navegar espacios 3D complejos inteligentemente como jugadores humanos hábiles.",
+          de: "Räumliches Denken erlaubt KI-Charakteren Umgebungen für taktische Vorteile zu analysieren, optimale Positionierung zu finden, Sichtlinienbeziehungen zu verstehen und komplexe 3D-Räume intelligent wie geschickte menschliche Spieler zu navigieren.",
+          nl: "Ruimtelijke redenering stelt AI-karakters in staat om omgevingen te analyseren voor tactische voordelen, optimale positionering te vinden, zichtlijnrelaties te begrijpen en complexe 3D-ruimtes intelligent te navigeren zoals bekwame menselijke spelers."
+        }
+      },
+      {
+        question: {
+          en: "What is 'voice synthesis AI' bringing to character immersion?",
+          es: "¿Qué está aportando la 'IA de síntesis de voz' a la inmersión de personajes?",
+          de: "Was bringt 'Sprachsynthese-KI' zur Charakter-Immersion?",
+          nl: "Wat brengt 'spraaksynthese AI' naar karakter immersie?"
+        },
+        options: [
+          { en: "Dynamically generated character voices that respond to emotional states and context", es: "Voces de personajes generadas dinámicamente que responden a estados emocionales y contexto", de: "Dynamisch generierte Charakterstimmen die auf emotionale Zustände und Kontext reagieren", nl: "Dynamisch gegenereerde karakterstemmen die reageren op emotionele toestanden en context" },
+          { en: "Only pre-recorded voice lines", es: "Solo líneas de voz pregrabadas", de: "Nur vorab aufgenommene Sprachzeilen", nl: "Alleen vooraf opgenomen stemregels" },
+          { en: "Voice commands for game control", es: "Comandos de voz para control del juego", de: "Sprachbefehle zur Spielsteuerung", nl: "Spraakopdrachten voor spelbesturing" },
+          { en: "Synthesizing game soundtracks", es: "Sintetizar bandas sonoras de juego", de: "Spiel-Soundtracks synthetisieren", nl: "Spelsoundtracks synthetiseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI voice synthesis creates realistic character voices on-the-fly with appropriate emotional inflections, enabling truly dynamic dialogue where NPCs can speak any generated text with personality and emotion, vastly expanding narrative possibilities.",
+          es: "La síntesis de voz IA crea voces realistas de personajes sobre la marcha con inflexiones emocionales apropiadas, habilitando diálogo verdaderamente dinámico donde NPCs pueden hablar cualquier texto generado con personalidad y emoción, expandiendo vastamente posibilidades narrativas.",
+          de: "KI-Sprachsynthese erstellt realistische Charakterstimmen on-the-fly mit angemessenen emotionalen Betonungen, ermöglicht wahrhaft dynamischen Dialog wo NPCs jeden generierten Text mit Persönlichkeit und Emotion sprechen können, erweitert narrative Möglichkeiten enorm.",
+          nl: "AI-spraaksynthese creëert realistische karakterstemmen on-the-fly met gepaste emotionele inflecties, wat echt dynamische dialoog mogelijk maakt waarbij NPCs elke gegenereerde tekst met persoonlijkheid en emotie kunnen uitspreken, wat narratieve mogelijkheden enorm uitbreidt."
+        }
+      },
+      {
+        question: {
+          en: "How does 'predictive animation' with AI improve character responsiveness?",
+          es: "¿Cómo mejora la 'animación predictiva' con IA la capacidad de respuesta de personajes?",
+          de: "Wie verbessert 'prädiktive Animation' mit KI die Charakter-Reaktionsfähigkeit?",
+          nl: "Hoe verbetert 'voorspellende animatie' met AI karakter responsiviteit?"
+        },
+        options: [
+          { en: "Anticipates player actions to begin animations early, reducing perceived input lag", es: "Anticipa acciones del jugador para comenzar animaciones temprano, reduciendo retraso de entrada percibido", de: "Antizipiert Spieleraktionen um Animationen früh zu beginnen, reduziert wahrgenommenen Eingabe-Lag", nl: "Anticipeert speleracties om animaties vroeg te beginnen, waardoor waargenomen input lag vermindert" },
+          { en: "Only predicting future game events", es: "Solo predecir eventos futuros del juego", de: "Nur zukünftige Spielereignisse vorhersagen", nl: "Alleen toekomstige spelevenementen voorspellen" },
+          { en: "Animations that predict weather", es: "Animaciones que predicen el clima", de: "Animationen die Wetter vorhersagen", nl: "Animaties die weer voorspellen" },
+          { en: "Predicting animation file sizes", es: "Predecir tamaños de archivos de animación", de: "Animationsdateigrößen vorhersagen", nl: "Animatiebestandsgroottes voorspellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Predictive animation AI analyzes player input patterns and game context to anticipate likely actions, starting transition animations slightly early to create smoother, more responsive-feeling character controls without actual latency reduction.",
+          es: "La IA de animación predictiva analiza patrones de entrada del jugador y contexto del juego para anticipar acciones probables, comenzando animaciones de transición ligeramente temprano para crear controles de personaje más suaves y responsivos sin reducción real de latencia.",
+          de: "Prädiktive Animations-KI analysiert Spielereingabemuster und Spielkontext um wahrscheinliche Aktionen zu antizipieren, beginnt Übergangsanimationen leicht früh um glattere, reaktionsfähiger wirkende Charaktersteuerungen ohne tatsächliche Latenzreduktion zu schaffen.",
+          nl: "Voorspellende animatie AI analyseert spelerinputpatronen en spelcontext om waarschijnlijke acties te anticiperen, waardoor overgangsanimaties iets eerder worden gestart om soepelere, responsiever aanvoelende karakterbesturing te creëren zonder daadwerkelijke latentievermindering."
+        }
+      },
+      {
+        question: {
+          en: "What is 'generative world building' using AI achieving in open-world games?",
+          es: "¿Qué está logrando la 'construcción generativa de mundos' usando IA en juegos de mundo abierto?",
+          de: "Was erreicht 'generatives Weltbauen' mit KI in Open-World-Spielen?",
+          nl: "Wat bereikt 'generatieve wereldbouw' met AI in open-world games?"
+        },
+        options: [
+          { en: "Creating vast, coherent game worlds with unique locations, histories, and ecosystems automatically", es: "Crear mundos de juego vastos y coherentes con ubicaciones únicas, historias y ecosistemas automáticamente", de: "Automatisches Erstellen weitläufiger, kohärenter Spielwelten mit einzigartigen Orten, Geschichten und Ökosystemen", nl: "Automatisch uitgestrekte, coherente spelwerelden creëren met unieke locaties, geschiedenissen en ecosystemen" },
+          { en: "Only generating random terrain", es: "Solo generar terreno aleatorio", de: "Nur zufälliges Terrain generieren", nl: "Alleen willekeurig terrein genereren" },
+          { en: "Building construction mechanics in games", es: "Mecánicas de construcción de edificios en juegos", de: "Baumechanik in Spielen", nl: "Bouwmechanica in games" },
+          { en: "World map generation only", es: "Solo generación de mapas del mundo", de: "Nur Weltkartengenerierung", nl: "Alleen wereldkaart generatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Generative world building AI creates expansive game environments by intelligently placing biomes, settlements, points of interest, and natural features while maintaining geographical coherence, cultural logic, and narrative consistency.",
+          es: "La IA de construcción generativa de mundos crea entornos de juego expansivos colocando inteligentemente biomas, asentamientos, puntos de interés y características naturales mientras mantiene coherencia geográfica, lógica cultural y consistencia narrativa.",
+          de: "Generatives Weltbau-KI erstellt weitläufige Spielumgebungen durch intelligentes Platzieren von Biomen, Siedlungen, Interessenspunkten und natürlichen Merkmalen während geografische Kohärenz, kulturelle Logik und narrative Konsistenz erhalten bleiben.",
+          nl: "Generatieve wereldbouw AI creëert uitgestrekte spelomgevingen door intelligent biomen, nederzettingen, interessepunten en natuurlijke kenmerken te plaatsen terwijl geografische coherentie, culturele logica en narratieve consistentie behouden blijven."
+        }
+      },
+      {
+        question: {
+          en: "How does 'affective computing' enhance emotional engagement in games?",
+          es: "¿Cómo mejora la 'computación afectiva' el compromiso emocional en juegos?",
+          de: "Wie verbessert 'affektives Computing' emotionales Engagement in Spielen?",
+          nl: "Hoe verbetert 'affectieve computing' emotionele betrokkenheid in games?"
+        },
+        options: [
+          { en: "AI detects and responds to player emotional states through behavior analysis and biometric signals", es: "IA detecta y responde a estados emocionales del jugador a través de análisis de comportamiento y señales biométricas", de: "KI erkennt und reagiert auf Spieler-Emotionszustände durch Verhaltensanalyse und biometrische Signale", nl: "AI detecteert en reageert op emotionele toestanden van spelers via gedragsanalyse en biometrische signalen" },
+          { en: "Only creating emotional cutscenes", es: "Solo crear escenas cinematográficas emocionales", de: "Nur emotionale Zwischensequenzen erstellen", nl: "Alleen emotionele cutscenes creëren" },
+          { en: "Computing emotional statistics", es: "Calcular estadísticas emocionales", de: "Emotionale Statistiken berechnen", nl: "Emotionele statistieken berekenen" },
+          { en: "Affecting game performance emotionally", es: "Afectar rendimiento del juego emocionalmente", de: "Spielleistung emotional beeinflussen", nl: "Spelprestaties emotioneel beïnvloeden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Affective computing analyzes player inputs, in-game decisions, facial expressions, voice tone, and physiological data to detect emotions like frustration, excitement, or boredom, then adapts gameplay, difficulty, narrative, and pacing accordingly.",
+          es: "La computación afectiva analiza entradas del jugador, decisiones en el juego, expresiones faciales, tono de voz y datos fisiológicos para detectar emociones como frustración, emoción o aburrimiento, luego adapta jugabilidad, dificultad, narrativa y ritmo en consecuencia.",
+          de: "Affektives Computing analysiert Spielereingaben, In-Game-Entscheidungen, Gesichtsausdrücke, Stimmton und physiologische Daten um Emotionen wie Frustration, Aufregung oder Langeweile zu erkennen, passt dann Gameplay, Schwierigkeit, Narrative und Tempo entsprechend an.",
+          nl: "Affectieve computing analyseert spelerinputs, in-game beslissingen, gezichtsuitdrukkingen, stemtoon en fysiologische data om emoties zoals frustratie, opwinding of verveling te detecteren, waarna gameplay, moeilijkheid, narratief en tempo dienovereenkomstig worden aangepast."
+        }
+      },
+      {
+        question: {
+          en: "What is 'tactical knowledge representation' in strategy game AI?",
+          es: "¿Qué es la 'representación del conocimiento táctico' en IA de juegos de estrategia?",
+          de: "Was ist 'taktische Wissensrepräsentation' in Strategie-Spiele-KI?",
+          nl: "Wat is 'tactische kennisrepresentatie' in strategie game AI?"
+        },
+        options: [
+          { en: "Encoding strategic concepts, unit relationships, and tactical principles for intelligent decision-making", es: "Codificar conceptos estratégicos, relaciones de unidades y principios tácticos para toma inteligente de decisiones", de: "Kodierung strategischer Konzepte, Einheitenbeziehungen und taktischer Prinzipien für intelligente Entscheidungsfindung", nl: "Coderen van strategische concepten, eenheidsrelaties en tactische principes voor intelligente besluitvorming" },
+          { en: "Only representing tactical maps visually", es: "Solo representar mapas tácticos visualmente", de: "Nur taktische Karten visuell darstellen", nl: "Alleen tactische kaarten visueel representeren" },
+          { en: "Knowledge base documentation", es: "Documentación de base de conocimientos", de: "Wissensbasis-Dokumentation", nl: "Kennisbank documentatie" },
+          { en: "Tactical UI representation", es: "Representación de interfaz táctica", de: "Taktische UI-Darstellung", nl: "Tactische UI-representatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tactical knowledge representation structures strategic information about unit counters, terrain advantages, resource economics, and combat principles, enabling AI to reason about complex strategic situations and make expert-level decisions.",
+          es: "La representación del conocimiento táctico estructura información estratégica sobre contadores de unidades, ventajas del terreno, economía de recursos y principios de combate, habilitando a la IA a razonar sobre situaciones estratégicas complejas y tomar decisiones de nivel experto.",
+          de: "Taktische Wissensrepräsentation strukturiert strategische Informationen über Einheiten-Counter, Terrainvorteile, Ressourcenwirtschaft und Kampfprinzipien, ermöglicht KI über komplexe strategische Situationen zu argumentieren und Entscheidungen auf Expertenniveau zu treffen.",
+          nl: "Tactische kennisrepresentatie structureert strategische informatie over eenheids-counters, terreinvoordelen, bronneneconomie en gevechtsbeginsel, wat AI in staat stelt om te redeneren over complexe strategische situaties en beslissingen op expertniveau te nemen."
+        }
+      },
+      {
+        question: {
+          en: "How does 'gesture recognition AI' enhance player interaction?",
+          es: "¿Cómo mejora la 'IA de reconocimiento de gestos' la interacción del jugador?",
+          de: "Wie verbessert 'Gestenerkennungs-KI' die Spielerinteraktion?",
+          nl: "Hoe verbetert 'gebaar herkenning AI' spelerinteractie?"
+        },
+        options: [
+          { en: "Interprets physical movements and hand gestures as game controls for intuitive interaction", es: "Interpreta movimientos físicos y gestos de manos como controles del juego para interacción intuitiva", de: "Interpretiert physische Bewegungen und Handgesten als Spielsteuerungen für intuitive Interaktion", nl: "Interpreteert fysieke bewegingen en handgebaren als spelbesturingen voor intuïtieve interactie" },
+          { en: "Only recognizing mouse gestures", es: "Solo reconocer gestos del mouse", de: "Nur Mausgesten erkennen", nl: "Alleen muisgebaren herkennen" },
+          { en: "Gesture-based emotes only", es: "Solo emotes basados en gestos", de: "Nur gestenbasierte Emotes", nl: "Alleen op gebaren gebaseerde emotes" },
+          { en: "Recognizing game controller patterns", es: "Reconocer patrones de controladores de juego", de: "Spielcontroller-Muster erkennen", nl: "Spelcontroller patronen herkennen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI-powered gesture recognition enables natural interaction through body movements, hand signals, and physical actions, creating immersive VR/AR experiences and accessible control schemes that don't rely on traditional input devices.",
+          es: "El reconocimiento de gestos impulsado por IA habilita interacción natural a través de movimientos corporales, señales de manos y acciones físicas, creando experiencias inmersivas VR/AR y esquemas de control accesibles que no dependen de dispositivos de entrada tradicionales.",
+          de: "KI-gestützte Gestenerkennung ermöglicht natürliche Interaktion durch Körperbewegungen, Handzeichen und physische Aktionen, schafft immersive VR/AR-Erfahrungen und zugängliche Steuerungsschemata die nicht auf traditionellen Eingabegeräten beruhen.",
+          nl: "AI-aangedreven gebaar herkenning maakt natuurlijke interactie mogelijk via lichaamsbewegingen, handsignalen en fysieke acties, wat immersieve VR/AR-ervaringen creëert en toegankelijke besturingsschema's die niet afhankelijk zijn van traditionele invoerapparaten."
+        }
+      },
+      {
+        question: {
+          en: "What is 'meta-game analysis AI' providing to competitive gaming?",
+          es: "¿Qué está proporcionando la 'IA de análisis meta-juego' a los juegos competitivos?",
+          de: "Was bietet 'Meta-Game-Analyse-KI' für kompetitives Gaming?",
+          nl: "Wat biedt 'meta-game analyse AI' aan competitieve gaming?"
+        },
+        options: [
+          { en: "Analysis of strategy trends, popular builds, and evolving tactics across player populations", es: "Análisis de tendencias estratégicas, construcciones populares y tácticas en evolución a través de poblaciones de jugadores", de: "Analyse von Strategie-Trends, beliebten Builds und sich entwickelnden Taktiken über Spielerpopulationen", nl: "Analyse van strategietrends, populaire builds en evoluerende tactieken over spelerpopulaties" },
+          { en: "Only analyzing game metadata", es: "Solo analizar metadatos del juego", de: "Nur Spiel-Metadaten analysieren", nl: "Alleen spelmetadata analyseren" },
+          { en: "Meta-commentary on games", es: "Meta-comentarios sobre juegos", de: "Meta-Kommentare zu Spielen", nl: "Meta-commentaar op games" },
+          { en: "Analyzing metagame progression systems", es: "Analizar sistemas de progresión metagame", de: "Metagame-Progressionssysteme analysieren", nl: "Metagame progressiesystemen analyseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Meta-game AI analyzes millions of matches to identify dominant strategies, counter-strategies, emerging trends, and balance issues, helping developers tune gameplay and players understand the competitive landscape.",
+          es: "La IA meta-juego analiza millones de partidas para identificar estrategias dominantes, contra-estrategias, tendencias emergentes y problemas de equilibrio, ayudando a desarrolladores a ajustar jugabilidad y jugadores a entender el panorama competitivo.",
+          de: "Meta-Game-KI analysiert Millionen von Matches um dominante Strategien, Gegen-Strategien, aufkommende Trends und Balance-Probleme zu identifizieren, hilft Entwicklern Gameplay zu tunen und Spielern die kompetitive Landschaft zu verstehen.",
+          nl: "Meta-game AI analyseert miljoenen wedstrijden om dominante strategieën, tegenstrategieën, opkomende trends en balanceringsproblemen te identificeren, wat ontwikkelaars helpt gameplay af te stemmen en spelers het competitieve landschap te begrijpen."
+        }
+      },
+      {
+        question: {
+          en: "How does 'physics-based AI reasoning' improve environmental interaction?",
+          es: "¿Cómo mejora el 'razonamiento IA basado en física' la interacción ambiental?",
+          de: "Wie verbessert 'physikbasiertes KI-Denken' Umweltinteraktion?",
+          nl: "Hoe verbetert 'op fysica gebaseerde AI-redenering' omgevingsinteractie?"
+        },
+        options: [
+          { en: "AI understands physical properties to manipulate objects and environment strategically", es: "IA entiende propiedades físicas para manipular objetos y entorno estratégicamente", de: "KI versteht physikalische Eigenschaften um Objekte und Umgebung strategisch zu manipulieren", nl: "AI begrijpt fysieke eigenschappen om objecten en omgeving strategisch te manipuleren" },
+          { en: "Only for physics simulation accuracy", es: "Solo para precisión de simulación física", de: "Nur für Physik-Simulationsgenauigkeit", nl: "Alleen voor fysica-simulatie nauwkeurigheid" },
+          { en: "Physics engine optimization", es: "Optimización del motor de física", de: "Physik-Engine-Optimierung", nl: "Fysica-engine optimalisatie" },
+          { en: "Reasoning about physics equations", es: "Razonar sobre ecuaciones físicas", de: "Über Physikgleichungen argumentieren", nl: "Redeneren over fysica vergelijkingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Physics-based AI reasoning enables characters to understand concepts like weight, leverage, balance, and momentum, allowing them to use environmental objects as tools, predict physical outcomes, and create emergent tactical solutions.",
+          es: "El razonamiento IA basado en física permite a personajes entender conceptos como peso, apalancamiento, equilibrio e impulso, permitiéndoles usar objetos ambientales como herramientas, predecir resultados físicos y crear soluciones tácticas emergentes.",
+          de: "Physikbasiertes KI-Denken ermöglicht Charakteren Konzepte wie Gewicht, Hebelwirkung, Gleichgewicht und Impuls zu verstehen, erlaubt ihnen Umgebungsobjekte als Werkzeuge zu nutzen, physikalische Ergebnisse vorherzusagen und emergente taktische Lösungen zu schaffen.",
+          nl: "Op fysica gebaseerde AI-redenering stelt karakters in staat om concepten zoals gewicht, hefboomwerking, balans en momentum te begrijpen, waardoor ze omgevingsobjecten als gereedschap kunnen gebruiken, fysieke uitkomsten kunnen voorspellen en emergente tactische oplossingen kunnen creëren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'asymmetric AI design' creating in multiplayer experiences?",
+          es: "¿Qué está creando el 'diseño IA asimétrico' en experiencias multijugador?",
+          de: "Was schafft 'asymmetrisches KI-Design' in Mehrspieler-Erfahrungen?",
+          nl: "Wat creëert 'asymmetrisch AI-ontwerp' in multiplayer ervaringen?"
+        },
+        options: [
+          { en: "Different AI capabilities and goals for different roles, creating unique gameplay dynamics", es: "Diferentes capacidades y objetivos IA para diferentes roles, creando dinámicas de jugabilidad únicas", de: "Verschiedene KI-Fähigkeiten und Ziele für verschiedene Rollen schaffen einzigartige Gameplay-Dynamiken", nl: "Verschillende AI-capaciteiten en doelen voor verschillende rollen, wat unieke gameplay-dynamiek creëert" },
+          { en: "Asymmetric graphics for AI characters", es: "Gráficos asimétricos para personajes IA", de: "Asymmetrische Grafiken für KI-Charaktere", nl: "Asymmetrische graphics voor AI-karakters" },
+          { en: "Unbalanced AI difficulty only", es: "Solo dificultad IA desequilibrada", de: "Nur unausgeglichene KI-Schwierigkeit", nl: "Alleen ongebalanceerde AI-moeilijkheid" },
+          { en: "Asymmetric network architecture", es: "Arquitectura de red asimétrica", de: "Asymmetrische Netzwerkarchitektur", nl: "Asymmetrische netwerkarchitectuur" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Asymmetric AI design gives different player roles fundamentally different AI capabilities, objectives, and information access, creating rich strategic diversity as in games where one player hunts while others hide, each with tailored AI support.",
+          es: "El diseño IA asimétrico da a diferentes roles de jugador capacidades IA, objetivos y acceso a información fundamentalmente diferentes, creando rica diversidad estratégica como en juegos donde un jugador caza mientras otros se esconden, cada uno con soporte IA personalizado.",
+          de: "Asymmetrisches KI-Design gibt verschiedenen Spielerrollen grundlegend verschiedene KI-Fähigkeiten, Ziele und Informationszugang, schafft reiche strategische Vielfalt wie in Spielen wo ein Spieler jagt während andere sich verstecken, jeder mit maßgeschneiderter KI-Unterstützung.",
+          nl: "Asymmetrisch AI-ontwerp geeft verschillende spelerrollen fundamenteel verschillende AI-capaciteiten, doelstellingen en informatietoegang, wat rijke strategische diversiteit creëert zoals in games waar één speler jaagt terwijl anderen zich verbergen, elk met op maat gemaakte AI-ondersteuning."
+        }
+      },
+      {
+        question: {
+          en: "How does 'cultural simulation AI' enhance world-building in RPGs?",
+          es: "¿Cómo mejora la 'IA de simulación cultural' la construcción de mundos en RPGs?",
+          de: "Wie verbessert 'kulturelle Simulations-KI' Weltbau in RPGs?",
+          nl: "Hoe verbetert 'culturele simulatie AI' wereldbouw in RPGs?"
+        },
+        options: [
+          { en: "Simulates evolving cultures with beliefs, traditions, conflicts, and social dynamics", es: "Simula culturas en evolución con creencias, tradiciones, conflictos y dinámicas sociales", de: "Simuliert sich entwickelnde Kulturen mit Überzeugungen, Traditionen, Konflikten und sozialen Dynamiken", nl: "Simuleert evoluerende culturen met overtuigingen, tradities, conflicten en sociale dynamiek" },
+          { en: "Only cultural references in dialogue", es: "Solo referencias culturales en diálogos", de: "Nur kulturelle Referenzen in Dialogen", nl: "Alleen culturele verwijzingen in dialoog" },
+          { en: "Cultural art style generation", es: "Generación de estilos artísticos culturales", de: "Generierung kultureller Kunststile", nl: "Culturele kunststijl generatie" },
+          { en: "Simulating cultural music only", es: "Simular solo música cultural", de: "Nur kulturelle Musik simulieren", nl: "Alleen culturele muziek simuleren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cultural simulation AI creates living, breathing civilizations that develop unique customs, religious beliefs, political systems, and inter-group relationships over time, making game worlds feel authentic and dynamically responsive to player actions.",
+          es: "La IA de simulación cultural crea civilizaciones vivas que desarrollan costumbres únicas, creencias religiosas, sistemas políticos y relaciones intergrupales con el tiempo, haciendo que mundos del juego se sientan auténticos y dinámicamente responsivos a acciones del jugador.",
+          de: "Kulturelle Simulations-KI erschafft lebendige Zivilisationen die einzigartige Bräuche, religiöse Überzeugungen, politische Systeme und Intergruppen-Beziehungen im Laufe der Zeit entwickeln, macht Spielwelten authentisch und dynamisch reaktiv auf Spieleraktionen.",
+          nl: "Culturele simulatie AI creëert levende beschavingen die unieke gewoonten, religieuze overtuigingen, politieke systemen en intergroepsrelaties ontwikkelen in de loop van de tijd, waardoor spelwerelden authentiek en dynamisch responsief aanvoelen op speleracties."
+        }
+      },
+      {
+        question: {
+          en: "What is 'skill progression tracking AI' enabling in adaptive learning games?",
+          es: "¿Qué está permitiendo la 'IA de seguimiento de progresión de habilidades' en juegos de aprendizaje adaptativo?",
+          de: "Was ermöglicht 'Fähigkeitsprogression-Tracking-KI' in adaptiven Lernspielen?",
+          nl: "Wat maakt 'vaardigheidsprogressie tracking AI' mogelijk in adaptieve leergames?"
+        },
+        options: [
+          { en: "Monitors player skill development and adapts challenges to optimize learning and engagement", es: "Monitorea desarrollo de habilidades del jugador y adapta desafíos para optimizar aprendizaje y compromiso", de: "Überwacht Spieler-Fähigkeitsentwicklung und passt Herausforderungen an um Lernen und Engagement zu optimieren", nl: "Monitort spelervaardigheidsontwikkeling en past uitdagingen aan om leren en betrokkenheid te optimaliseren" },
+          { en: "Only tracking skill points in RPGs", es: "Solo rastrear puntos de habilidad en RPGs", de: "Nur Fähigkeitspunkte in RPGs verfolgen", nl: "Alleen vaardigheidspunten tracken in RPGs" },
+          { en: "Skill tree visualization", es: "Visualización de árbol de habilidades", de: "Fähigkeitsbaum-Visualisierung", nl: "Vaardigheidsboom visualisatie" },
+          { en: "Tracking player achievements", es: "Rastrear logros del jugador", de: "Spielerfolge verfolgen", nl: "Speler prestaties volgen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Skill progression AI analyzes performance patterns to identify learning plateaus, mastery areas, and struggle points, then dynamically adjusts content difficulty, introduces new concepts at optimal times, and provides targeted practice opportunities.",
+          es: "La IA de progresión de habilidades analiza patrones de rendimiento para identificar mesetas de aprendizaje, áreas de dominio y puntos de dificultad, luego ajusta dinámicamente dificultad del contenido, introduce nuevos conceptos en momentos óptimos y proporciona oportunidades de práctica dirigidas.",
+          de: "Fähigkeitsprogression-KI analysiert Leistungsmuster um Lernplateaus, Meisterschaftsbereiche und Problemstellen zu identifizieren, passt dann dynamisch Inhalts-Schwierigkeit an, führt neue Konzepte zu optimalen Zeiten ein und bietet gezielte Übungsmöglichkeiten.",
+          nl: "Vaardigheidsprogressie AI analyseert prestatiepatronen om leerplateaus, meesterschapsgebieden en worstel punten te identificeren, past vervolgens dynamisch content moeilijkheid aan, introduceert nieuwe concepten op optimale tijden en biedt gerichte oefenmogelijkheden."
+        }
+      },
+      {
+        question: {
+          en: "How does 'attention-based decision making' improve AI priority systems?",
+          es: "¿Cómo mejora la 'toma de decisiones basada en atención' los sistemas de prioridad IA?",
+          de: "Wie verbessert 'aufmerksamkeitsbasierte Entscheidungsfindung' KI-Prioritätssysteme?",
+          nl: "Hoe verbetert 'op aandacht gebaseerde besluitvorming' AI-prioriteitssystemen?"
+        },
+        options: [
+          { en: "AI dynamically focuses on most relevant stimuli while filtering distractions like humans do", es: "IA se enfoca dinámicamente en estímulos más relevantes mientras filtra distracciones como hacen los humanos", de: "KI fokussiert sich dynamisch auf relevanteste Stimuli während Ablenkungen wie Menschen gefiltert werden", nl: "AI focust dynamisch op meest relevante stimuli terwijl afleiding wordt gefilterd zoals mensen doen" },
+          { en: "Only paying attention to player input", es: "Solo prestar atención a entrada del jugador", de: "Nur auf Spielereingabe achten", nl: "Alleen aandacht besteden aan spelerinput" },
+          { en: "Attention-getting visual effects", es: "Efectos visuales que llaman la atención", de: "Aufmerksamkeitserregende visuelle Effekte", nl: "Aandacht-trekkende visuele effecten" },
+          { en: "Decision tree attention weights", es: "Pesos de atención de árboles de decisión", de: "Entscheidungsbaum-Aufmerksamkeitsgewichte", nl: "Beslissingsboom aandachtsgewichten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Attention-based decision making uses neural attention mechanisms to dynamically weight the importance of different game elements, enabling AI to focus cognitive resources on critical threats and opportunities while maintaining awareness of the broader context.",
+          es: "La toma de decisiones basada en atención usa mecanismos de atención neural para ponderar dinámicamente la importancia de diferentes elementos del juego, permitiendo a la IA enfocar recursos cognitivos en amenazas críticas y oportunidades mientras mantiene conciencia del contexto más amplio.",
+          de: "Aufmerksamkeitsbasierte Entscheidungsfindung nutzt neurale Aufmerksamkeitsmechanismen um die Wichtigkeit verschiedener Spielelemente dynamisch zu gewichten, ermöglicht KI kognitive Ressourcen auf kritische Bedrohungen und Chancen zu fokussieren während Bewusstsein für breiteren Kontext erhalten bleibt.",
+          nl: "Op aandacht gebaseerde besluitvorming gebruikt neurale aandachtsmechanismen om dynamisch het belang van verschillende spelelementen te wegen, wat AI in staat stelt om cognitieve middelen te focussen op kritieke bedreigingen en kansen terwijl bewustzijn van de bredere context behouden blijft."
+        }
+      },
+      {
+        question: {
+          en: "What is 'behavioral debugging AI' providing to game development?",
+          es: "¿Qué está proporcionando la 'IA de depuración de comportamiento' al desarrollo de juegos?",
+          de: "Was bietet 'Verhaltens-Debugging-KI' für die Spielentwicklung?",
+          nl: "Wat biedt 'gedragsdebug AI' aan game ontwikkeling?"
+        },
+        options: [
+          { en: "Automatically identifies and explains unexpected AI behaviors during development and testing", es: "Identifica y explica automáticamente comportamientos IA inesperados durante desarrollo y pruebas", de: "Identifiziert und erklärt automatisch unerwartete KI-Verhaltensweisen während Entwicklung und Test", nl: "Identificeert en verklaart automatisch onverwachte AI-gedragingen tijdens ontwikkeling en testen" },
+          { en: "Only debugging code syntax errors", es: "Solo depurar errores de sintaxis de código", de: "Nur Code-Syntaxfehler debuggen", nl: "Alleen code syntax fouten debuggen" },
+          { en: "Behavioral analytics for players", es: "Análisis de comportamiento para jugadores", de: "Verhaltensanalyse für Spieler", nl: "Gedragsanalyse voor spelers" },
+          { en: "Debugging behavior trees visually", es: "Depurar árboles de comportamiento visualmente", de: "Verhaltensbäume visuell debuggen", nl: "Gedragsbomen visueel debuggen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Behavioral debugging AI analyzes AI decision-making processes to detect anomalies, explain why characters made specific choices, identify logic flaws, and suggest fixes, dramatically accelerating the development and refinement of game AI systems.",
+          es: "La IA de depuración de comportamiento analiza procesos de toma de decisiones IA para detectar anomalías, explicar por qué personajes tomaron elecciones específicas, identificar fallas lógicas y sugerir correcciones, acelerando dramáticamente el desarrollo y refinamiento de sistemas IA de juegos.",
+          de: "Verhaltens-Debugging-KI analysiert KI-Entscheidungsprozesse um Anomalien zu erkennen, zu erklären warum Charaktere spezifische Entscheidungen trafen, Logikfehler zu identifizieren und Korrekturen vorzuschlagen, beschleunigt dramatisch Entwicklung und Verfeinerung von Spiele-KI-Systemen.",
+          nl: "Gedragsdebug AI analyseert AI-besluitvormingsprocessen om anomalieën te detecteren, uit te leggen waarom karakters specifieke keuzes maakten, logische fouten te identificeren en fixes voor te stellen, wat de ontwikkeling en verfijning van game AI-systemen dramatisch versnelt."
+        }
+      },
+      {
+        question: {
+          en: "How does 'contextual memory systems' enhance NPC believability?",
+          es: "¿Cómo mejoran los 'sistemas de memoria contextual' la credibilidad de NPCs?",
+          de: "Wie verbessern 'kontextuelle Gedächtnissysteme' NPC-Glaubwürdigkeit?",
+          nl: "Hoe verbeteren 'contextuele geheugensystemen' NPC-geloofwaardigheid?"
+        },
+        options: [
+          { en: "NPCs remember specific interactions, locations, and events with contextual details for continuity", es: "NPCs recuerdan interacciones específicas, ubicaciones y eventos con detalles contextuales para continuidad", de: "NPCs erinnern sich an spezifische Interaktionen, Orte und Ereignisse mit kontextuellen Details für Kontinuität", nl: "NPCs onthouden specifieke interacties, locaties en gebeurtenissen met contextuele details voor continuïteit" },
+          { en: "Only short-term memory for current interactions", es: "Solo memoria a corto plazo para interacciones actuales", de: "Nur Kurzzeitgedächtnis für aktuelle Interaktionen", nl: "Alleen kortetermijngeheugen voor huidige interacties" },
+          { en: "Memory allocation for game systems", es: "Asignación de memoria para sistemas del juego", de: "Speicherzuweisung für Spielsysteme", nl: "Geheugen toewijzing voor spelsystemen" },
+          { en: "Contextual help memory", es: "Memoria de ayuda contextual", de: "Kontextuelle Hilfe-Speicher", nl: "Contextueel hulpgeheugen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Contextual memory allows NPCs to recall past encounters with the player, remember promises made, track relationship history, and reference shared experiences, creating consistent personalities that evolve based on accumulated interactions.",
+          es: "La memoria contextual permite a NPCs recordar encuentros pasados con el jugador, recordar promesas hechas, rastrear historial de relaciones y referenciar experiencias compartidas, creando personalidades consistentes que evolucionan basándose en interacciones acumuladas.",
+          de: "Kontextuelles Gedächtnis erlaubt NPCs sich an vergangene Begegnungen mit dem Spieler zu erinnern, gemachte Versprechen zu erinnern, Beziehungsgeschichte zu verfolgen und gemeinsame Erfahrungen zu referenzieren, schafft konsistente Persönlichkeiten die basierend auf akkumulierten Interaktionen evolvieren.",
+          nl: "Contextueel geheugen stelt NPCs in staat om vorige ontmoetingen met de speler te herinneren, gemaakte beloften te onthouden, relatiegeschiedenis bij te houden en gedeelde ervaringen te refereren, wat consistente persoonlijkheden creëert die evolueren op basis van geaccumuleerde interacties."
+        }
+      },
+      {
+        question: {
+          en: "What is 'autonomous testing AI' contributing to game quality assurance?",
+          es: "¿Qué está contribuyendo la 'IA de pruebas autónomas' a la garantía de calidad de juegos?",
+          de: "Was trägt 'autonome Test-KI' zur Spiele-Qualitätssicherung bei?",
+          nl: "Wat draagt 'autonome test AI' bij aan game kwaliteitsborging?"
+        },
+        options: [
+          { en: "AI agents automatically playtest games to find bugs, exploits, and balance issues", es: "Agentes IA prueban automáticamente juegos para encontrar errores, exploits y problemas de equilibrio", de: "KI-Agenten testen automatisch Spiele um Fehler, Exploits und Balance-Probleme zu finden", nl: "AI-agenten testen automatisch games om bugs, exploits en balanceringsproblemen te vinden" },
+          { en: "Only testing game loading times", es: "Solo probar tiempos de carga del juego", de: "Nur Spiel-Ladezeiten testen", nl: "Alleen spellaadtijden testen" },
+          { en: "Autonomous unit testing for code", es: "Pruebas unitarias autónomas para código", de: "Autonome Unit-Tests für Code", nl: "Autonome unit testen voor code" },
+          { en: "Testing autonomous vehicle games", es: "Probar juegos de vehículos autónomos", de: "Autonome Fahrzeugspiele testen", nl: "Autonome voertuig games testen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Autonomous testing AI plays through games exploring different strategies and edge cases, discovering bugs, level design flaws, progression blockers, and balance issues faster and more thoroughly than human testers can, improving game quality.",
+          es: "La IA de pruebas autónomas juega a través de juegos explorando diferentes estrategias y casos extremos, descubriendo errores, fallas de diseño de nivel, bloqueadores de progresión y problemas de equilibrio más rápido y completamente que probadores humanos pueden, mejorando calidad del juego.",
+          de: "Autonome Test-KI spielt durch Spiele und erkundet verschiedene Strategien und Grenzfälle, entdeckt Fehler, Level-Design-Mängel, Progressionsblocker und Balance-Probleme schneller und gründlicher als menschliche Tester können, verbessert Spielqualität.",
+          nl: "Autonome test AI speelt games door en verkent verschillende strategieën en randgevallen, ontdekt bugs, level design gebreken, progressieblokkades en balanceringsproblemen sneller en grondiger dan menselijke testers kunnen, wat spelkwaliteit verbetert."
+        }
       }
     ]
   };

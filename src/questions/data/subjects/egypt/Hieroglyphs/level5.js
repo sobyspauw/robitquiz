@@ -428,7 +428,427 @@
           es: "El Papiro matemático de Rhind (c. 1650 a.C.) es uno de los documentos matemáticos egipcios antiguos mejor conservados. Contiene 84 problemas que cubren aritmética, geometría y álgebra, escritos en escritura hierática.",
           de: "Der Rhind-Mathematikpapyrus (ca. 1650 v. Chr.) ist eines der besterhaltenen altägyptischen mathematischen Dokumente. Er enthält 84 Probleme zu Arithmetik, Geometrie und Algebra, geschrieben in hieratischer Schrift.",
           nl: "De Rhind Wiskundige Papyrus (ca. 1650 v.Chr.) is een van de best bewaarde oude Egyptische wiskundige documenten. Het bevat 84 problemen over rekenkunde, meetkunde en algebra, geschreven in hieratisch schrift."
-        }
+        }    },
+    {
+      question: {
+        en: "What are hieroglyphs?",
+        es: "What are hieroglyphs?",
+        de: "What are hieroglyphs?",
+        nl: "What are hieroglyphs?"
+      },
+      options: [
+        { en: "Ancient Egyptian writing system", es: "Ancient Egyptian writing system", de: "Ancient Egyptian writing system", nl: "Ancient Egyptian writing system" },
+        { en: "Egyptian gods", es: "Egyptian gods", de: "Egyptian gods", nl: "Egyptian gods" },
+        { en: "Tomb decorations", es: "Tomb decorations", de: "Tomb decorations", nl: "Tomb decorations" },
+        { en: "Pyramid designs", es: "Pyramid designs", de: "Pyramid designs", nl: "Pyramid designs" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Hieroglyphs are the formal writing system of ancient Egypt using pictorial symbols.",
+        es: "Hieroglyphs are the formal writing system of ancient Egypt using pictorial symbols.",
+        de: "Hieroglyphs are the formal writing system of ancient Egypt using pictorial symbols.",
+        nl: "Hieroglyphs are the formal writing system of ancient Egypt using pictorial symbols."
+      }
+    },
+    {
+      question: {
+        en: "What stone helped decode hieroglyphs?",
+        es: "What stone helped decode hieroglyphs?",
+        de: "What stone helped decode hieroglyphs?",
+        nl: "What stone helped decode hieroglyphs?"
+      },
+      options: [
+        { en: "Rosetta Stone", es: "Rosetta Stone", de: "Rosetta Stone", nl: "Rosetta Stone" },
+        { en: "Pyramid Stone", es: "Pyramid Stone", de: "Pyramid Stone", nl: "Pyramid Stone" },
+        { en: "Sphinx Stone", es: "Sphinx Stone", de: "Sphinx Stone", nl: "Sphinx Stone" },
+        { en: "Nile Stone", es: "Nile Stone", de: "Nile Stone", nl: "Nile Stone" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Rosetta Stone, discovered in 1799, provided the key to deciphering hieroglyphs.",
+        es: "The Rosetta Stone, discovered in 1799, provided the key to deciphering hieroglyphs.",
+        de: "The Rosetta Stone, discovered in 1799, provided the key to deciphering hieroglyphs.",
+        nl: "The Rosetta Stone, discovered in 1799, provided the key to deciphering hieroglyphs."
+      }
+    },
+    {
+      question: {
+        en: "Who deciphered hieroglyphs?",
+        es: "Who deciphered hieroglyphs?",
+        de: "Who deciphered hieroglyphs?",
+        nl: "Who deciphered hieroglyphs?"
+      },
+      options: [
+        { en: "Jean-François Champollion", es: "Jean-François Champollion", de: "Jean-François Champollion", nl: "Jean-François Champollion" },
+        { en: "Howard Carter", es: "Howard Carter", de: "Howard Carter", nl: "Howard Carter" },
+        { en: "Napoleon", es: "Napoleon", de: "Napoleon", nl: "Napoleon" },
+        { en: "Ptolemy", es: "Ptolemy", de: "Ptolemy", nl: "Ptolemy" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "French scholar Jean-François Champollion deciphered hieroglyphs in 1822.",
+        es: "French scholar Jean-François Champollion deciphered hieroglyphs in 1822.",
+        de: "French scholar Jean-François Champollion deciphered hieroglyphs in 1822.",
+        nl: "French scholar Jean-François Champollion deciphered hieroglyphs in 1822."
+      }
+    },
+    {
+      question: {
+        en: "How many hieroglyphic symbols existed?",
+        es: "How many hieroglyphic symbols existed?",
+        de: "How many hieroglyphic symbols existed?",
+        nl: "How many hieroglyphic symbols existed?"
+      },
+      options: [
+        { en: "Over 700", es: "Over 700", de: "Over 700", nl: "Over 700" },
+        { en: "26 letters", es: "26 letters", de: "26 letters", nl: "26 letters" },
+        { en: "100", es: "100", de: "100", nl: "100" },
+        { en: "50", es: "50", de: "50", nl: "50" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Ancient Egyptian hieroglyphs included over 700 distinct symbols.",
+        es: "Ancient Egyptian hieroglyphs included over 700 distinct symbols.",
+        de: "Ancient Egyptian hieroglyphs included over 700 distinct symbols.",
+        nl: "Ancient Egyptian hieroglyphs included over 700 distinct symbols."
+      }
+    },
+    {
+      question: {
+        en: "What direction could hieroglyphs be written?",
+        es: "What direction could hieroglyphs be written?",
+        de: "What direction could hieroglyphs be written?",
+        nl: "What direction could hieroglyphs be written?"
+      },
+      options: [
+        { en: "Any direction (left, right, up, down)", es: "Any direction (left, right, up, down)", de: "Any direction (left, right, up, down)", nl: "Any direction (left, right, up, down)" },
+        { en: "Left to right only", es: "Left to right only", de: "Left to right only", nl: "Left to right only" },
+        { en: "Right to left only", es: "Right to left only", de: "Right to left only", nl: "Right to left only" },
+        { en: "Top to bottom only", es: "Top to bottom only", de: "Top to bottom only", nl: "Top to bottom only" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Hieroglyphs could be written in multiple directions; the direction animals/people faced showed reading direction.",
+        es: "Hieroglyphs could be written in multiple directions; the direction animals/people faced showed reading direction.",
+        de: "Hieroglyphs could be written in multiple directions; the direction animals/people faced showed reading direction.",
+        nl: "Hieroglyphs could be written in multiple directions; the direction animals/people faced showed reading direction."
+      }
+    },
+    {
+      question: {
+        en: "What is hieratic script?",
+        es: "What is hieratic script?",
+        de: "What is hieratic script?",
+        nl: "What is hieratic script?"
+      },
+      options: [
+        { en: "Cursive form of hieroglyphs", es: "Cursive form of hieroglyphs", de: "Cursive form of hieroglyphs", nl: "Cursive form of hieroglyphs" },
+        { en: "Sacred hieroglyphs", es: "Sacred hieroglyphs", de: "Sacred hieroglyphs", nl: "Sacred hieroglyphs" },
+        { en: "Foreign script", es: "Foreign script", de: "Foreign script", nl: "Foreign script" },
+        { en: "Number system", es: "Number system", de: "Number system", nl: "Number system" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Hieratic was a cursive, simplified form of hieroglyphic writing used for everyday documents.",
+        es: "Hieratic was a cursive, simplified form of hieroglyphic writing used for everyday documents.",
+        de: "Hieratic was a cursive, simplified form of hieroglyphic writing used for everyday documents.",
+        nl: "Hieratic was a cursive, simplified form of hieroglyphic writing used for everyday documents."
+      }
+    },
+    {
+      question: {
+        en: "What is demotic script?",
+        es: "What is demotic script?",
+        de: "What is demotic script?",
+        nl: "What is demotic script?"
+      },
+      options: [
+        { en: "Even more simplified Egyptian writing", es: "Even more simplified Egyptian writing", de: "Even more simplified Egyptian writing", nl: "Even more simplified Egyptian writing" },
+        { en: "Sacred hieroglyphs", es: "Sacred hieroglyphs", de: "Sacred hieroglyphs", nl: "Sacred hieroglyphs" },
+        { en: "Greek writing", es: "Greek writing", de: "Greek writing", nl: "Greek writing" },
+        { en: "Royal script", es: "Royal script", de: "Royal script", nl: "Royal script" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Demotic was an even more simplified script that developed later, used for business and literature.",
+        es: "Demotic was an even more simplified script that developed later, used for business and literature.",
+        de: "Demotic was an even more simplified script that developed later, used for business and literature.",
+        nl: "Demotic was an even more simplified script that developed later, used for business and literature."
+      }
+    },
+    {
+      question: {
+        en: "What material did Egyptians write on?",
+        es: "What material did Egyptians write on?",
+        de: "What material did Egyptians write on?",
+        nl: "What material did Egyptians write on?"
+      },
+      options: [
+        { en: "Papyrus", es: "Papyrus", de: "Papyrus", nl: "Papyrus" },
+        { en: "Paper", es: "Paper", de: "Paper", nl: "Paper" },
+        { en: "Clay tablets", es: "Clay tablets", de: "Clay tablets", nl: "Clay tablets" },
+        { en: "Animal skins", es: "Animal skins", de: "Animal skins", nl: "Animal skins" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Egyptians wrote on papyrus, a paper-like material made from papyrus plant.",
+        es: "Egyptians wrote on papyrus, a paper-like material made from papyrus plant.",
+        de: "Egyptians wrote on papyrus, a paper-like material made from papyrus plant.",
+        nl: "Egyptians wrote on papyrus, a paper-like material made from papyrus plant."
+      }
+    },
+    {
+      question: {
+        en: "What is a determinative in hieroglyphs?",
+        es: "What is a determinative in hieroglyphs?",
+        de: "What is a determinative in hieroglyphs?",
+        nl: "What is a determinative in hieroglyphs?"
+      },
+      options: [
+        { en: "Symbol clarifying meaning of words", es: "Symbol clarifying meaning of words", de: "Symbol clarifying meaning of words", nl: "Symbol clarifying meaning of words" },
+        { en: "Vowel marker", es: "Vowel marker", de: "Vowel marker", nl: "Vowel marker" },
+        { en: "Punctuation", es: "Punctuation", de: "Punctuation", nl: "Punctuation" },
+        { en: "Number", es: "Number", de: "Number", nl: "Number" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Determinatives are symbols placed at word ends to clarify meaning and category.",
+        es: "Determinatives are symbols placed at word ends to clarify meaning and category.",
+        de: "Determinatives are symbols placed at word ends to clarify meaning and category.",
+        nl: "Determinatives are symbols placed at word ends to clarify meaning and category."
+      }
+    },
+    {
+      question: {
+        en: "What symbol represents the sound 'n'?",
+        es: "What symbol represents the sound 'n'?",
+        de: "What symbol represents the sound 'n'?",
+        nl: "What symbol represents the sound 'n'?"
+      },
+      options: [
+        { en: "Water ripple", es: "Water ripple", de: "Water ripple", nl: "Water ripple" },
+        { en: "Reed", es: "Reed", de: "Reed", nl: "Reed" },
+        { en: "Owl", es: "Owl", de: "Owl", nl: "Owl" },
+        { en: "Mouth", es: "Mouth", de: "Mouth", nl: "Mouth" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The water ripple hieroglyph represented the sound 'n'.",
+        es: "The water ripple hieroglyph represented the sound 'n'.",
+        de: "The water ripple hieroglyph represented the sound 'n'.",
+        nl: "The water ripple hieroglyph represented the sound 'n'."
+      }
+    },
+    {
+      question: {
+        en: "What animal represents the sound 'm'?",
+        es: "What animal represents the sound 'm'?",
+        de: "What animal represents the sound 'm'?",
+        nl: "What animal represents the sound 'm'?"
+      },
+      options: [
+        { en: "Owl", es: "Owl", de: "Owl", nl: "Owl" },
+        { en: "Bird", es: "Bird", de: "Bird", nl: "Bird" },
+        { en: "Snake", es: "Snake", de: "Snake", nl: "Snake" },
+        { en: "Lion", es: "Lion", de: "Lion", nl: "Lion" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The owl hieroglyph represented the sound 'm'.",
+        es: "The owl hieroglyph represented the sound 'm'.",
+        de: "The owl hieroglyph represented the sound 'm'.",
+        nl: "The owl hieroglyph represented the sound 'm'."
+      }
+    },
+    {
+      question: {
+        en: "Did hieroglyphs represent only pictures?",
+        es: "Did hieroglyphs represent only pictures?",
+        de: "Did hieroglyphs represent only pictures?",
+        nl: "Did hieroglyphs represent only pictures?"
+      },
+      options: [
+        { en: "No, they were phonetic too", es: "No, they were phonetic too", de: "No, they were phonetic too", nl: "No, they were phonetic too" },
+        { en: "Yes, only pictures", es: "Yes, only pictures", de: "Yes, only pictures", nl: "Yes, only pictures" },
+        { en: "Only sounds", es: "Only sounds", de: "Only sounds", nl: "Only sounds" },
+        { en: "Only ideas", es: "Only ideas", de: "Only ideas", nl: "Only ideas" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Hieroglyphs functioned as logograms (concepts), phonograms (sounds), and determinatives.",
+        es: "Hieroglyphs functioned as logograms (concepts), phonograms (sounds), and determinatives.",
+        de: "Hieroglyphs functioned as logograms (concepts), phonograms (sounds), and determinatives.",
+        nl: "Hieroglyphs functioned as logograms (concepts), phonograms (sounds), and determinatives."
+      }
+    },
+    {
+      question: {
+        en: "What is a cartouche used for?",
+        es: "What is a cartouche used for?",
+        de: "What is a cartouche used for?",
+        nl: "What is a cartouche used for?"
+      },
+      options: [
+        { en: "Enclosing royal names", es: "Enclosing royal names", de: "Enclosing royal names", nl: "Enclosing royal names" },
+        { en: "Marking tomb entrances", es: "Marking tomb entrances", de: "Marking tomb entrances", nl: "Marking tomb entrances" },
+        { en: "Decorative borders", es: "Decorative borders", de: "Decorative borders", nl: "Decorative borders" },
+        { en: "Mathematical symbols", es: "Mathematical symbols", de: "Mathematical symbols", nl: "Mathematical symbols" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Cartouches are oval frames that enclosed hieroglyphs spelling royal names.",
+        es: "Cartouches are oval frames that enclosed hieroglyphs spelling royal names.",
+        de: "Cartouches are oval frames that enclosed hieroglyphs spelling royal names.",
+        nl: "Cartouches are oval frames that enclosed hieroglyphs spelling royal names."
+      }
+    },
+    {
+      question: {
+        en: "What does the ankh symbol mean?",
+        es: "What does the ankh symbol mean?",
+        de: "What does the ankh symbol mean?",
+        nl: "What does the ankh symbol mean?"
+      },
+      options: [
+        { en: "Life", es: "Life", de: "Life", nl: "Life" },
+        { en: "Death", es: "Death", de: "Death", nl: "Death" },
+        { en: "Power", es: "Power", de: "Power", nl: "Power" },
+        { en: "Water", es: "Water", de: "Water", nl: "Water" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The ankh hieroglyph symbolizes life and was often carried by gods and pharaohs.",
+        es: "The ankh hieroglyph symbolizes life and was often carried by gods and pharaohs.",
+        de: "The ankh hieroglyph symbolizes life and was often carried by gods and pharaohs.",
+        nl: "The ankh hieroglyph symbolizes life and was often carried by gods and pharaohs."
+      }
+    },
+    {
+      question: {
+        en: "When did hieroglyphic writing end?",
+        es: "When did hieroglyphic writing end?",
+        de: "When did hieroglyphic writing end?",
+        nl: "When did hieroglyphic writing end?"
+      },
+      options: [
+        { en: "Around 400 CE", es: "Around 400 CE", de: "Around 400 CE", nl: "Around 400 CE" },
+        { en: "100 BCE", es: "100 BCE", de: "100 BCE", nl: "100 BCE" },
+        { en: "1000 CE", es: "1000 CE", de: "1000 CE", nl: "1000 CE" },
+        { en: "Still used today", es: "Still used today", de: "Still used today", nl: "Still used today" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The last known hieroglyphic inscription dates to 394 CE.",
+        es: "The last known hieroglyphic inscription dates to 394 CE.",
+        de: "The last known hieroglyphic inscription dates to 394 CE.",
+        nl: "The last known hieroglyphic inscription dates to 394 CE."
+      }
+    },
+    {
+      question: {
+        en: "What tool was used to write on papyrus?",
+        es: "What tool was used to write on papyrus?",
+        de: "What tool was used to write on papyrus?",
+        nl: "What tool was used to write on papyrus?"
+      },
+      options: [
+        { en: "Reed pen", es: "Reed pen", de: "Reed pen", nl: "Reed pen" },
+        { en: "Quill", es: "Quill", de: "Quill", nl: "Quill" },
+        { en: "Brush", es: "Brush", de: "Brush", nl: "Brush" },
+        { en: "Stylus", es: "Stylus", de: "Stylus", nl: "Stylus" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Egyptians used reed pens cut and shaped for writing on papyrus.",
+        es: "Egyptians used reed pens cut and shaped for writing on papyrus.",
+        de: "Egyptians used reed pens cut and shaped for writing on papyrus.",
+        nl: "Egyptians used reed pens cut and shaped for writing on papyrus."
+      }
+    },
+    {
+      question: {
+        en: "What color ink was most common?",
+        es: "What color ink was most common?",
+        de: "What color ink was most common?",
+        nl: "What color ink was most common?"
+      },
+      options: [
+        { en: "Black and red", es: "Black and red", de: "Black and red", nl: "Black and red" },
+        { en: "Blue and green", es: "Blue and green", de: "Blue and green", nl: "Blue and green" },
+        { en: "Only black", es: "Only black", de: "Only black", nl: "Only black" },
+        { en: "Only red", es: "Only red", de: "Only red", nl: "Only red" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Black ink (carbon) was standard; red ink (ochre) was used for headings and emphasis.",
+        es: "Black ink (carbon) was standard; red ink (ochre) was used for headings and emphasis.",
+        de: "Black ink (carbon) was standard; red ink (ochre) was used for headings and emphasis.",
+        nl: "Black ink (carbon) was standard; red ink (ochre) was used for headings and emphasis."
+      }
+    },
+    {
+      question: {
+        en: "What is a phonogram?",
+        es: "What is a phonogram?",
+        de: "What is a phonogram?",
+        nl: "What is a phonogram?"
+      },
+      options: [
+        { en: "Symbol representing a sound", es: "Symbol representing a sound", de: "Symbol representing a sound", nl: "Symbol representing a sound" },
+        { en: "Picture symbol", es: "Picture symbol", de: "Picture symbol", nl: "Picture symbol" },
+        { en: "Number symbol", es: "Number symbol", de: "Number symbol", nl: "Number symbol" },
+        { en: "Punctuation", es: "Punctuation", de: "Punctuation", nl: "Punctuation" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Phonograms are hieroglyphs that represent sounds rather than objects or ideas.",
+        es: "Phonograms are hieroglyphs that represent sounds rather than objects or ideas.",
+        de: "Phonograms are hieroglyphs that represent sounds rather than objects or ideas.",
+        nl: "Phonograms are hieroglyphs that represent sounds rather than objects or ideas."
+      }
+    },
+    {
+      question: {
+        en: "What was hieroglyphic writing reserved for?",
+        es: "What was hieroglyphic writing reserved for?",
+        de: "What was hieroglyphic writing reserved for?",
+        nl: "What was hieroglyphic writing reserved for?"
+      },
+      options: [
+        { en: "Formal and sacred contexts", es: "Formal and sacred contexts", de: "Formal and sacred contexts", nl: "Formal and sacred contexts" },
+        { en: "All writing", es: "All writing", de: "All writing", nl: "All writing" },
+        { en: "Letters only", es: "Letters only", de: "Letters only", nl: "Letters only" },
+        { en: "Numbers only", es: "Numbers only", de: "Numbers only", nl: "Numbers only" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Hieroglyphs were primarily used for formal inscriptions on monuments and sacred texts.",
+        es: "Hieroglyphs were primarily used for formal inscriptions on monuments and sacred texts.",
+        de: "Hieroglyphs were primarily used for formal inscriptions on monuments and sacred texts.",
+        nl: "Hieroglyphs were primarily used for formal inscriptions on monuments and sacred texts."
+      }
+    },
+    {
+      question: {
+        en: "What is a serekh?",
+        es: "What is a serekh?",
+        de: "What is a serekh?",
+        nl: "What is a serekh?"
+      },
+      options: [
+        { en: "Rectangular frame with falcon containing royal name", es: "Rectangular frame with falcon containing royal name", de: "Rectangular frame with falcon containing royal name", nl: "Rectangular frame with falcon containing royal name" },
+        { en: "Type of cartouche", es: "Type of cartouche", de: "Type of cartouche", nl: "Type of cartouche" },
+        { en: "Temple entrance", es: "Temple entrance", de: "Temple entrance", nl: "Temple entrance" },
+        { en: "Tomb decoration", es: "Tomb decoration", de: "Tomb decoration", nl: "Tomb decoration" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A serekh is an early form of royal name frame, rectangular with palace facade design and Horus falcon on top.",
+        es: "A serekh is an early form of royal name frame, rectangular with palace facade design and Horus falcon on top.",
+        de: "A serekh is an early form of royal name frame, rectangular with palace facade design and Horus falcon on top.",
+        nl: "A serekh is an early form of royal name frame, rectangular with palace facade design and Horus falcon on top."
+      }
+
       }
     ]
   };

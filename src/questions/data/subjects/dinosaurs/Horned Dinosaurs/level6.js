@@ -426,7 +426,427 @@
           es: "Los cambios del nivel del mar del Cretácico Tardío y la actividad tectónica crearon paisajes fragmentados que aislaron poblaciones ceratopsianas, promoviendo especiación alopátrica y llevando a la diversidad notable de especies endémicas encontradas en diferentes regiones geográficas.",
           de: "Spätkreidezeitliche Meeresspiegelveränderungen und tektonische Aktivität schufen fragmentierte Landschaften, die Ceratopsier-Populationen isolierten, allopatrische Artbildung förderten und zur bemerkenswerten Vielfalt endemischer Arten in verschiedenen geografischen Regionen führten.",
           nl: "Late Krijt-zeespiegelveranderingen en tektonische activiteit creëerden gefragmenteerde landschappen die ceratopsiër-populaties isoleerden, allopatrische soortvorming bevorderden en leidden tot de opmerkelijke diversiteit van endemische soorten gevonden in verschillende geografische regio's."
-        }
+        }    },
+    {
+      question: {
+        en: "What is a Triceratops?",
+        es: "What is a Triceratops?",
+        de: "What is a Triceratops?",
+        nl: "What is a Triceratops?"
+      },
+      options: [
+        { en: "Three-horned herbivorous dinosaur", es: "Three-horned herbivorous dinosaur", de: "Three-horned herbivorous dinosaur", nl: "Three-horned herbivorous dinosaur" },
+        { en: "Carnivorous dinosaur", es: "Carnivorous dinosaur", de: "Carnivorous dinosaur", nl: "Carnivorous dinosaur" },
+        { en: "Flying dinosaur", es: "Flying dinosaur", de: "Flying dinosaur", nl: "Flying dinosaur" },
+        { en: "Marine reptile", es: "Marine reptile", de: "Marine reptile", nl: "Marine reptile" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Triceratops was a large herbivorous dinosaur with three horns and a large bony frill.",
+        es: "Triceratops was a large herbivorous dinosaur with three horns and a large bony frill.",
+        de: "Triceratops was a large herbivorous dinosaur with three horns and a large bony frill.",
+        nl: "Triceratops was a large herbivorous dinosaur with three horns and a large bony frill."
+      }
+    },
+    {
+      question: {
+        en: "What is the bony plate on horned dinosaurs' heads called?",
+        es: "What is the bony plate on horned dinosaurs' heads called?",
+        de: "What is the bony plate on horned dinosaurs' heads called?",
+        nl: "What is the bony plate on horned dinosaurs' heads called?"
+      },
+      options: [
+        { en: "Frill", es: "Frill", de: "Frill", nl: "Frill" },
+        { en: "Shield", es: "Shield", de: "Shield", nl: "Shield" },
+        { en: "Crest", es: "Crest", de: "Crest", nl: "Crest" },
+        { en: "Crown", es: "Crown", de: "Crown", nl: "Crown" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The bony plate extending from the skull of horned dinosaurs is called a frill.",
+        es: "The bony plate extending from the skull of horned dinosaurs is called a frill.",
+        de: "The bony plate extending from the skull of horned dinosaurs is called a frill.",
+        nl: "The bony plate extending from the skull of horned dinosaurs is called a frill."
+      }
+    },
+    {
+      question: {
+        en: "What family do horned dinosaurs belong to?",
+        es: "What family do horned dinosaurs belong to?",
+        de: "What family do horned dinosaurs belong to?",
+        nl: "What family do horned dinosaurs belong to?"
+      },
+      options: [
+        { en: "Ceratopsidae", es: "Ceratopsidae", de: "Ceratopsidae", nl: "Ceratopsidae" },
+        { en: "Theropoda", es: "Theropoda", de: "Theropoda", nl: "Theropoda" },
+        { en: "Sauropoda", es: "Sauropoda", de: "Sauropoda", nl: "Sauropoda" },
+        { en: "Ornithopoda", es: "Ornithopoda", de: "Ornithopoda", nl: "Ornithopoda" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Horned dinosaurs belong to the family Ceratopsidae.",
+        es: "Horned dinosaurs belong to the family Ceratopsidae.",
+        de: "Horned dinosaurs belong to the family Ceratopsidae.",
+        nl: "Horned dinosaurs belong to the family Ceratopsidae."
+      }
+    },
+    {
+      question: {
+        en: "What did horned dinosaurs eat?",
+        es: "What did horned dinosaurs eat?",
+        de: "What did horned dinosaurs eat?",
+        nl: "What did horned dinosaurs eat?"
+      },
+      options: [
+        { en: "Plants", es: "Plants", de: "Plants", nl: "Plants" },
+        { en: "Meat", es: "Meat", de: "Meat", nl: "Meat" },
+        { en: "Fish", es: "Fish", de: "Fish", nl: "Fish" },
+        { en: "Insects", es: "Insects", de: "Insects", nl: "Insects" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "All horned dinosaurs were herbivores that fed on plants.",
+        es: "All horned dinosaurs were herbivores that fed on plants.",
+        de: "All horned dinosaurs were herbivores that fed on plants.",
+        nl: "All horned dinosaurs were herbivores that fed on plants."
+      }
+    },
+    {
+      question: {
+        en: "What is the largest horned dinosaur?",
+        es: "What is the largest horned dinosaur?",
+        de: "What is the largest horned dinosaur?",
+        nl: "What is the largest horned dinosaur?"
+      },
+      options: [
+        { en: "Triceratops or Torosaurus", es: "Triceratops or Torosaurus", de: "Triceratops or Torosaurus", nl: "Triceratops or Torosaurus" },
+        { en: "Protoceratops", es: "Protoceratops", de: "Protoceratops", nl: "Protoceratops" },
+        { en: "Psittacosaurus", es: "Psittacosaurus", de: "Psittacosaurus", nl: "Psittacosaurus" },
+        { en: "Styracosaurus", es: "Styracosaurus", de: "Styracosaurus", nl: "Styracosaurus" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Triceratops and Torosaurus were among the largest horned dinosaurs, up to 30 feet long.",
+        es: "Triceratops and Torosaurus were among the largest horned dinosaurs, up to 30 feet long.",
+        de: "Triceratops and Torosaurus were among the largest horned dinosaurs, up to 30 feet long.",
+        nl: "Triceratops and Torosaurus were among the largest horned dinosaurs, up to 30 feet long."
+      }
+    },
+    {
+      question: {
+        en: "What was the purpose of the frill?",
+        es: "What was the purpose of the frill?",
+        de: "What was the purpose of the frill?",
+        nl: "What was the purpose of the frill?"
+      },
+      options: [
+        { en: "Defense, display, and temperature regulation", es: "Defense, display, and temperature regulation", de: "Defense, display, and temperature regulation", nl: "Defense, display, and temperature regulation" },
+        { en: "Flying", es: "Flying", de: "Flying", nl: "Flying" },
+        { en: "Swimming", es: "Swimming", de: "Swimming", nl: "Swimming" },
+        { en: "Digging", es: "Digging", de: "Digging", nl: "Digging" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The frill likely served multiple purposes: defense, species recognition, mating display, and possibly temperature regulation.",
+        es: "The frill likely served multiple purposes: defense, species recognition, mating display, and possibly temperature regulation.",
+        de: "The frill likely served multiple purposes: defense, species recognition, mating display, and possibly temperature regulation.",
+        nl: "The frill likely served multiple purposes: defense, species recognition, mating display, and possibly temperature regulation."
+      }
+    },
+    {
+      question: {
+        en: "What is Styracosaurus?",
+        es: "What is Styracosaurus?",
+        de: "What is Styracosaurus?",
+        nl: "What is Styracosaurus?"
+      },
+      options: [
+        { en: "Horned dinosaur with spiked frill", es: "Horned dinosaur with spiked frill", de: "Horned dinosaur with spiked frill", nl: "Horned dinosaur with spiked frill" },
+        { en: "Three-horned dinosaur", es: "Three-horned dinosaur", de: "Three-horned dinosaur", nl: "Three-horned dinosaur" },
+        { en: "Hornless dinosaur", es: "Hornless dinosaur", de: "Hornless dinosaur", nl: "Hornless dinosaur" },
+        { en: "Flying dinosaur", es: "Flying dinosaur", de: "Flying dinosaur", nl: "Flying dinosaur" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Styracosaurus had a distinctive frill adorned with long spikes radiating from its edge.",
+        es: "Styracosaurus had a distinctive frill adorned with long spikes radiating from its edge.",
+        de: "Styracosaurus had a distinctive frill adorned with long spikes radiating from its edge.",
+        nl: "Styracosaurus had a distinctive frill adorned with long spikes radiating from its edge."
+      }
+    },
+    {
+      question: {
+        en: "What is a Protoceratops?",
+        es: "What is a Protoceratops?",
+        de: "What is a Protoceratops?",
+        nl: "What is a Protoceratops?"
+      },
+      options: [
+        { en: "Small early horned dinosaur", es: "Small early horned dinosaur", de: "Small early horned dinosaur", nl: "Small early horned dinosaur" },
+        { en: "Large predator", es: "Large predator", de: "Large predator", nl: "Large predator" },
+        { en: "Flying reptile", es: "Flying reptile", de: "Flying reptile", nl: "Flying reptile" },
+        { en: "Marine dinosaur", es: "Marine dinosaur", de: "Marine dinosaur", nl: "Marine dinosaur" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Protoceratops was a small, early ceratopsian from Mongolia, about 6 feet long.",
+        es: "Protoceratops was a small, early ceratopsian from Mongolia, about 6 feet long.",
+        de: "Protoceratops was a small, early ceratopsian from Mongolia, about 6 feet long.",
+        nl: "Protoceratops was a small, early ceratopsian from Mongolia, about 6 feet long."
+      }
+    },
+    {
+      question: {
+        en: "How many horns did Triceratops have?",
+        es: "How many horns did Triceratops have?",
+        de: "How many horns did Triceratops have?",
+        nl: "How many horns did Triceratops have?"
+      },
+      options: [
+        { en: "Three horns", es: "Three horns", de: "Three horns", nl: "Three horns" },
+        { en: "Two horns", es: "Two horns", de: "Two horns", nl: "Two horns" },
+        { en: "Four horns", es: "Four horns", de: "Four horns", nl: "Four horns" },
+        { en: "One horn", es: "One horn", de: "One horn", nl: "One horn" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Triceratops had three horns: one on its nose and two above its eyes.",
+        es: "Triceratops had three horns: one on its nose and two above its eyes.",
+        de: "Triceratops had three horns: one on its nose and two above its eyes.",
+        nl: "Triceratops had three horns: one on its nose and two above its eyes."
+      }
+    },
+    {
+      question: {
+        en: "What is Pachyrhinosaurus?",
+        es: "What is Pachyrhinosaurus?",
+        de: "What is Pachyrhinosaurus?",
+        nl: "What is Pachyrhinosaurus?"
+      },
+      options: [
+        { en: "Horned dinosaur with massive nose boss instead of horn", es: "Horned dinosaur with massive nose boss instead of horn", de: "Horned dinosaur with massive nose boss instead of horn", nl: "Horned dinosaur with massive nose boss instead of horn" },
+        { en: "Long-horned dinosaur", es: "Long-horned dinosaur", de: "Long-horned dinosaur", nl: "Long-horned dinosaur" },
+        { en: "Hornless dinosaur", es: "Hornless dinosaur", de: "Hornless dinosaur", nl: "Hornless dinosaur" },
+        { en: "Flying dinosaur", es: "Flying dinosaur", de: "Flying dinosaur", nl: "Flying dinosaur" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pachyrhinosaurus had a massive bony boss on its nose rather than a horn.",
+        es: "Pachyrhinosaurus had a massive bony boss on its nose rather than a horn.",
+        de: "Pachyrhinosaurus had a massive bony boss on its nose rather than a horn.",
+        nl: "Pachyrhinosaurus had a massive bony boss on its nose rather than a horn."
+      }
+    },
+    {
+      question: {
+        en: "Where have most horned dinosaur fossils been found?",
+        es: "Where have most horned dinosaur fossils been found?",
+        de: "Where have most horned dinosaur fossils been found?",
+        nl: "Where have most horned dinosaur fossils been found?"
+      },
+      options: [
+        { en: "North America and Asia", es: "North America and Asia", de: "North America and Asia", nl: "North America and Asia" },
+        { en: "Europe", es: "Europe", de: "Europe", nl: "Europe" },
+        { en: "Africa", es: "Africa", de: "Africa", nl: "Africa" },
+        { en: "Antarctica", es: "Antarctica", de: "Antarctica", nl: "Antarctica" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Most horned dinosaur fossils have been discovered in North America and Asia.",
+        es: "Most horned dinosaur fossils have been discovered in North America and Asia.",
+        de: "Most horned dinosaur fossils have been discovered in North America and Asia.",
+        nl: "Most horned dinosaur fossils have been discovered in North America and Asia."
+      }
+    },
+    {
+      question: {
+        en: "What is the smallest ceratopsian?",
+        es: "What is the smallest ceratopsian?",
+        de: "What is the smallest ceratopsian?",
+        nl: "What is the smallest ceratopsian?"
+      },
+      options: [
+        { en: "Psittacosaurus", es: "Psittacosaurus", de: "Psittacosaurus", nl: "Psittacosaurus" },
+        { en: "Triceratops", es: "Triceratops", de: "Triceratops", nl: "Triceratops" },
+        { en: "Styracosaurus", es: "Styracosaurus", de: "Styracosaurus", nl: "Styracosaurus" },
+        { en: "Torosaurus", es: "Torosaurus", de: "Torosaurus", nl: "Torosaurus" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Psittacosaurus was one of the smallest ceratopsians, only about 6.5 feet long.",
+        es: "Psittacosaurus was one of the smallest ceratopsians, only about 6.5 feet long.",
+        de: "Psittacosaurus was one of the smallest ceratopsians, only about 6.5 feet long.",
+        nl: "Psittacosaurus was one of the smallest ceratopsians, only about 6.5 feet long."
+      }
+    },
+    {
+      question: {
+        en: "What dinosaur frequently fought with Triceratops?",
+        es: "What dinosaur frequently fought with Triceratops?",
+        de: "What dinosaur frequently fought with Triceratops?",
+        nl: "What dinosaur frequently fought with Triceratops?"
+      },
+      options: [
+        { en: "Tyrannosaurus Rex", es: "Tyrannosaurus Rex", de: "Tyrannosaurus Rex", nl: "Tyrannosaurus Rex" },
+        { en: "Velociraptor", es: "Velociraptor", de: "Velociraptor", nl: "Velociraptor" },
+        { en: "Allosaurus", es: "Allosaurus", de: "Allosaurus", nl: "Allosaurus" },
+        { en: "Spinosaurus", es: "Spinosaurus", de: "Spinosaurus", nl: "Spinosaurus" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Tyrannosaurus Rex and Triceratops lived at the same time and place, and T-Rex likely hunted Triceratops.",
+        es: "Tyrannosaurus Rex and Triceratops lived at the same time and place, and T-Rex likely hunted Triceratops.",
+        de: "Tyrannosaurus Rex and Triceratops lived at the same time and place, and T-Rex likely hunted Triceratops.",
+        nl: "Tyrannosaurus Rex and Triceratops lived at the same time and place, and T-Rex likely hunted Triceratops."
+      }
+    },
+    {
+      question: {
+        en: "What is unique about Kosmoceratops?",
+        es: "What is unique about Kosmoceratops?",
+        de: "What is unique about Kosmoceratops?",
+        nl: "What is unique about Kosmoceratops?"
+      },
+      options: [
+        { en: "Had most elaborate frill with 15 horns", es: "Had most elaborate frill with 15 horns", de: "Had most elaborate frill with 15 horns", nl: "Had most elaborate frill with 15 horns" },
+        { en: "Largest horned dinosaur", es: "Largest horned dinosaur", de: "Largest horned dinosaur", nl: "Largest horned dinosaur" },
+        { en: "Smallest horned dinosaur", es: "Smallest horned dinosaur", de: "Smallest horned dinosaur", nl: "Smallest horned dinosaur" },
+        { en: "No frill", es: "No frill", de: "No frill", nl: "No frill" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Kosmoceratops had the most ornate skull of any known dinosaur, with 15 horns and horn-like structures.",
+        es: "Kosmoceratops had the most ornate skull of any known dinosaur, with 15 horns and horn-like structures.",
+        de: "Kosmoceratops had the most ornate skull of any known dinosaur, with 15 horns and horn-like structures.",
+        nl: "Kosmoceratops had the most ornate skull of any known dinosaur, with 15 horns and horn-like structures."
+      }
+    },
+    {
+      question: {
+        en: "What does 'ceratopsian' mean?",
+        es: "What does 'ceratopsian' mean?",
+        de: "What does 'ceratopsian' mean?",
+        nl: "What does 'ceratopsian' mean?"
+      },
+      options: [
+        { en: "Horned face", es: "Horned face", de: "Horned face", nl: "Horned face" },
+        { en: "Three horns", es: "Three horns", de: "Three horns", nl: "Three horns" },
+        { en: "Plant eater", es: "Plant eater", de: "Plant eater", nl: "Plant eater" },
+        { en: "Bird-hipped", es: "Bird-hipped", de: "Bird-hipped", nl: "Bird-hipped" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Ceratopsian comes from Greek meaning 'horned face', referring to their distinctive facial horns.",
+        es: "Ceratopsian comes from Greek meaning 'horned face', referring to their distinctive facial horns.",
+        de: "Ceratopsian comes from Greek meaning 'horned face', referring to their distinctive facial horns.",
+        nl: "Ceratopsian comes from Greek meaning 'horned face', referring to their distinctive facial horns."
+      }
+    },
+    {
+      question: {
+        en: "What is a nasal horn?",
+        es: "What is a nasal horn?",
+        de: "What is a nasal horn?",
+        nl: "What is a nasal horn?"
+      },
+      options: [
+        { en: "Horn on the nose", es: "Horn on the nose", de: "Horn on the nose", nl: "Horn on the nose" },
+        { en: "Horn above eyes", es: "Horn above eyes", de: "Horn above eyes", nl: "Horn above eyes" },
+        { en: "Horn on frill", es: "Horn on frill", de: "Horn on frill", nl: "Horn on frill" },
+        { en: "Horn on tail", es: "Horn on tail", de: "Horn on tail", nl: "Horn on tail" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The nasal horn is located on the nose of horned dinosaurs.",
+        es: "The nasal horn is located on the nose of horned dinosaurs.",
+        de: "The nasal horn is located on the nose of horned dinosaurs.",
+        nl: "The nasal horn is located on the nose of horned dinosaurs."
+      }
+    },
+    {
+      question: {
+        en: "What is Pentaceratops?",
+        es: "What is Pentaceratops?",
+        de: "What is Pentaceratops?",
+        nl: "What is Pentaceratops?"
+      },
+      options: [
+        { en: "Five-horned face dinosaur", es: "Five-horned face dinosaur", de: "Five-horned face dinosaur", nl: "Five-horned face dinosaur" },
+        { en: "Three-horned dinosaur", es: "Three-horned dinosaur", de: "Three-horned dinosaur", nl: "Three-horned dinosaur" },
+        { en: "One-horned dinosaur", es: "One-horned dinosaur", de: "One-horned dinosaur", nl: "One-horned dinosaur" },
+        { en: "Hornless dinosaur", es: "Hornless dinosaur", de: "Hornless dinosaur", nl: "Hornless dinosaur" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pentaceratops means 'five-horned face', though it actually had three true horns plus pointed cheek bones.",
+        es: "Pentaceratops means 'five-horned face', though it actually had three true horns plus pointed cheek bones.",
+        de: "Pentaceratops means 'five-horned face', though it actually had three true horns plus pointed cheek bones.",
+        nl: "Pentaceratops means 'five-horned face', though it actually had three true horns plus pointed cheek bones."
+      }
+    },
+    {
+      question: {
+        en: "How did baby horned dinosaurs differ from adults?",
+        es: "How did baby horned dinosaurs differ from adults?",
+        de: "How did baby horned dinosaurs differ from adults?",
+        nl: "How did baby horned dinosaurs differ from adults?"
+      },
+      options: [
+        { en: "Shorter horns and smaller frills", es: "Shorter horns and smaller frills", de: "Shorter horns and smaller frills", nl: "Shorter horns and smaller frills" },
+        { en: "No horns at all", es: "No horns at all", de: "No horns at all", nl: "No horns at all" },
+        { en: "Larger horns", es: "Larger horns", de: "Larger horns", nl: "Larger horns" },
+        { en: "Different color", es: "Different color", de: "Different color", nl: "Different color" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Juvenile horned dinosaurs had proportionally smaller frills and shorter horns that grew as they matured.",
+        es: "Juvenile horned dinosaurs had proportionally smaller frills and shorter horns that grew as they matured.",
+        de: "Juvenile horned dinosaurs had proportionally smaller frills and shorter horns that grew as they matured.",
+        nl: "Juvenile horned dinosaurs had proportionally smaller frills and shorter horns that grew as they matured."
+      }
+    },
+    {
+      question: {
+        en: "What is the beak of horned dinosaurs used for?",
+        es: "What is the beak of horned dinosaurs used for?",
+        de: "What is the beak of horned dinosaurs used for?",
+        nl: "What is the beak of horned dinosaurs used for?"
+      },
+      options: [
+        { en: "Cropping and cutting vegetation", es: "Cropping and cutting vegetation", de: "Cropping and cutting vegetation", nl: "Cropping and cutting vegetation" },
+        { en: "Catching fish", es: "Catching fish", de: "Catching fish", nl: "Catching fish" },
+        { en: "Fighting", es: "Fighting", de: "Fighting", nl: "Fighting" },
+        { en: "Digging", es: "Digging", de: "Digging", nl: "Digging" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Horned dinosaurs had sharp beaks ideal for cropping and cutting tough plant material.",
+        es: "Horned dinosaurs had sharp beaks ideal for cropping and cutting tough plant material.",
+        de: "Horned dinosaurs had sharp beaks ideal for cropping and cutting tough plant material.",
+        nl: "Horned dinosaurs had sharp beaks ideal for cropping and cutting tough plant material."
+      }
+    },
+    {
+      question: {
+        en: "What period did horned dinosaurs live in?",
+        es: "What period did horned dinosaurs live in?",
+        de: "What period did horned dinosaurs live in?",
+        nl: "What period did horned dinosaurs live in?"
+      },
+      options: [
+        { en: "Cretaceous Period", es: "Cretaceous Period", de: "Cretaceous Period", nl: "Cretaceous Period" },
+        { en: "Jurassic Period", es: "Jurassic Period", de: "Jurassic Period", nl: "Jurassic Period" },
+        { en: "Triassic Period", es: "Triassic Period", de: "Triassic Period", nl: "Triassic Period" },
+        { en: "Permian Period", es: "Permian Period", de: "Permian Period", nl: "Permian Period" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Horned dinosaurs lived during the Late Cretaceous Period.",
+        es: "Horned dinosaurs lived during the Late Cretaceous Period.",
+        de: "Horned dinosaurs lived during the Late Cretaceous Period.",
+        nl: "Horned dinosaurs lived during the Late Cretaceous Period."
+      }
+
       }
     ]
   };

@@ -1,0 +1,328 @@
+            ,{
+                question: {
+                    en: "What is the 'angel's share' in barrel-aged spirits production?",
+                    es: "¿Qué es la 'parte de los ángeles' en la producción de licores envejecidos en barrica?",
+                    de: "Was ist der 'Anteil der Engel' bei der Produktion von fassgelager ten Spirituosen?",
+                    nl: "Wat is het 'angel's share' in vat-gerijpte sterke drank productie?"
+                },
+                options: [
+                    {
+                        en: "Evaporation loss of spirit through the barrel during aging",
+                        es: "Pérdida por evaporación del licor a través del barril durante el envejecimiento",
+                        de: "Verdunstungsverlust von Spirituosen durch das Fass während der Reifung",
+                        nl: "Verdampingsverlies van sterke drank door het vat tijdens rijping"
+                    },
+                    {
+                        en: "The first 10% of distillate given to master distillers",
+                        es: "El primer 10% del destilado dado a maestros destiladores",
+                        de: "Die ersten 10% des Destillats für Brennmeister",
+                        nl: "De eerste 10% van het destillaat gegeven aan meester distilleerders"
+                    },
+                    {
+                        en: "Premium spirit reserved for special occasions",
+                        es: "Licor premium reservado para ocasiones especiales",
+                        de: "Premium-Spirituose für besondere Anlässe reserviert",
+                        nl: "Premium sterke drank gereserveerd voor speciale gelegenheden"
+                    },
+                    {
+                        en: "Portion absorbed by the barrel wood",
+                        es: "Porción absorbida por la madera del barril",
+                        de: "Anteil, der vom Fassholz absorbiert wird",
+                        nl: "Deel geabsorbeerd door het vathout"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "The angel's share is the portion of spirit that evaporates through the porous barrel wood during aging, typically 2-5% annually depending on climate. In hot, humid climates like Kentucky, more alcohol evaporates; in cooler Scotland, more water evaporates. This loss concentrates flavors but reduces volume significantly over decades of aging.",
+                    es: "La parte de los ángeles es la porción de licor que se evapora a través de la madera porosa del barril durante el envejecimiento, típicamente 2-5% anualmente dependiendo del clima. En climas cálidos y húmedos como Kentucky, se evapora más alcohol; en la más fresca Escocia, se evapora más agua. Esta pérdida concentra sabores pero reduce volumen significativamente a lo largo de décadas de envejecimiento.",
+                    de: "Der Anteil der Engel ist der Teil der Spirituose, der während der Reifung durch das poröse Fassholz verdunstet, typischerweise 2-5% jährlich je nach Klima. In heißen, feuchten Klimazonen wie Kentucky verdunstet mehr Alkohol; im kühleren Schottland verdunstet mehr Wasser. Dieser Verlust konzentriert Aromen, reduziert aber das Volumen über Jahrzehnte der Reifung erheblich.",
+                    nl: "Het angel's share is het deel van sterke drank dat verdampt door het poreuze vathout tijdens rijping, typisch 2-5% jaarlijks afhankelijk van het klimaat. In warme, vochtige klimaten zoals Kentucky verdampt meer alcohol; in het koelere Schotland verdampt meer water. Dit verlies concentreert smaken maar vermindert volume aanzienlijk over decennia van rijping."
+                }
+            },
+            {
+                question: {
+                    en: "What distinguishes 'single pot still' Irish whiskey from other whiskey styles?",
+                    es: "¿Qué distingue el whiskey irlandés 'single pot still' de otros estilos de whiskey?",
+                    de: "Was unterscheidet 'Single Pot Still' Irish Whiskey von anderen Whiskey-Stilen?",
+                    nl: "Wat onderscheidt 'single pot still' Ierse whiskey van andere whiskey stijlen?"
+                },
+                options: [
+                    {
+                        en: "Made from a mix of malted and unmalted barley distilled in pot stills",
+                        es: "Hecho de una mezcla de cebada malteada y sin maltear destilada en alambiques",
+                        de: "Hergestellt aus einer Mischung von gemälzter und ungemälzter Gerste, destilliert in Brennblasen",
+                        nl: "Gemaakt van een mix van gemout en ongemout gerst gedistilleerd in pot stills"
+                    },
+                    {
+                        en: "Uses only single barrel aging exclusively",
+                        es: "Usa solo envejecimiento en barril único exclusivamente",
+                        de: "Verwendet ausschließlich Einzelfass-Reifung",
+                        nl: "Gebruikt alleen enkele vat rijping exclusief"
+                    },
+                    {
+                        en: "Distilled once in a very large pot still",
+                        es: "Destilado una vez en un alambique muy grande",
+                        de: "Einmal in einer sehr großen Brennblase destilliert",
+                        nl: "Eenmaal gedistilleerd in een zeer grote pot still"
+                    },
+                    {
+                        en: "Made from potatoes instead of grain",
+                        es: "Hecho de papas en lugar de grano",
+                        de: "Aus Kartoffeln statt Getreide hergestellt",
+                        nl: "Gemaakt van aardappelen in plaats van graan"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Single pot still Irish whiskey is unique for using a mash of both malted and unmalted barley (typically 40-60% each), distilled in traditional copper pot stills. The unmalted barley gives it a distinctive spicy, creamy character. This style, historically developed to avoid malt taxes, is protected as a Geographical Indication. Examples include Redbreast and Green Spot.",
+                    es: "El whiskey irlandés single pot still es único por usar un mosto de cebada malteada y sin maltear (típicamente 40-60% cada una), destilado en alambiques de cobre tradicionales. La cebada sin maltear le da un carácter picante y cremoso distintivo. Este estilo, históricamente desarrollado para evitar impuestos sobre malta, está protegido como Indicación Geográfica. Ejemplos incluyen Redbreast y Green Spot.",
+                    de: "Single Pot Still Irish Whiskey ist einzigartig durch die Verwendung einer Maische aus sowohl gemälzter als auch ungemälzter Gerste (typischerweise jeweils 40-60%), destilliert in traditionellen Kupferbrennblasen. Die ungemälzte Gerste verleiht ihm einen charakteristischen würzigen, cremigen Charakter. Dieser Stil, historisch entwickelt um Malzsteuern zu vermeiden, ist als geografische Angabe geschützt. Beispiele sind Redbreast und Green Spot.",
+                    nl: "Single pot still Ierse whiskey is uniek door het gebruik van een mash van zowel gemout als ongemout gerst (typisch elk 40-60%), gedistilleerd in traditionele koperen pot stills. Het ongemoute gerst geeft het een distinctief kruidig, romig karakter. Deze stijl, historisch ontwikkeld om moutbelastingen te vermijden, is beschermd als Geografische Indicatie. Voorbeelden zijn Redbreast en Green Spot."
+                }
+            },
+            {
+                question: {
+                    en: "What is 'congener content' and how does it affect spirits quality?",
+                    es: "¿Qué es el 'contenido de congéneres' y cómo afecta la calidad de los licores?",
+                    de: "Was ist der 'Begleitstoff-Gehalt' und wie beeinflusst er die Spirituosenqualität?",
+                    nl: "Wat is 'congener gehalte' en hoe beïnvloedt dit de kwaliteit van sterke drank?"
+                },
+                options: [
+                    {
+                        en: "Flavor compounds beyond ethanol that contribute character but can cause hangovers in excess",
+                        es: "Compuestos de sabor más allá del etanol que contribuyen carácter pero pueden causar resacas en exceso",
+                        de: "Aromastoffe jenseits von Ethanol, die Charakter verleihen, aber bei Überschuss Kater verursachen können",
+                        nl: "Smaakverbindingen naast ethanol die karakter bijdragen maar bij overdaad kater kunnen veroorzaken"
+                    },
+                    {
+                        en: "Sugar content added after distillation for sweetness",
+                        es: "Contenido de azúcar añadido después de destilación para dulzura",
+                        de: "Zuckergehalt nach Destillation für Süße hinzugefügt",
+                        nl: "Suikergehalte toegevoegd na distillatie voor zoetheid"
+                    },
+                    {
+                        en: "Mineral content from water used in production",
+                        es: "Contenido mineral del agua usada en producción",
+                        de: "Mineralgehalt aus Wasser bei Produktion verwendet",
+                        nl: "Mineraalgehalte van water gebruikt in productie"
+                    },
+                    {
+                        en: "Barrel char particles suspended in the spirit",
+                        es: "Partículas de carbón del barril suspendidas en el licor",
+                        de: "Fass-Kohlepartikel in der Spirituose suspendiert",
+                        nl: "Vatkooldeeltjes gesuspendeerd in de sterke drank"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Congeners are volatile compounds produced during fermentation and distillation (esters, aldehydes, fusel oils, tannins) that give spirits their distinctive flavors and aromas. Darker spirits like bourbon and rum have higher congener content than vodka or gin. While congeners create complexity and character, they're also associated with hangover severity. Premium production carefully manages congener levels through controlled fermentation, precise distillation cuts, and aging.",
+                    es: "Los congéneres son compuestos volátiles producidos durante fermentación y destilación (ésteres, aldehídos, aceites de fusel, taninos) que dan a los licores sus sabores y aromas distintivos. Licores oscuros como bourbon y ron tienen mayor contenido de congéneres que vodka o ginebra. Aunque los congéneres crean complejidad y carácter, también están asociados con la severidad de la resaca. La producción premium gestiona cuidadosamente los niveles de congéneres mediante fermentación controlada, cortes de destilación precisos y envejecimiento.",
+                    de: "Begleitstoffe sind flüchtige Verbindungen, die während Fermentation und Destillation produziert werden (Ester, Aldehyde, Fuselöle, Tannine), die Spirituosen ihre charakteristischen Aromen und Geschmäcker verleihen. Dunklere Spirituosen wie Bourbon und Rum haben höheren Begleitstoff-Gehalt als Wodka oder Gin. Während Begleitstoffe Komplexität und Charakter schaffen, sind sie auch mit Kater-Schwere verbunden. Premium-Produktion verwaltet Begleitstoff-Niveaus sorgfältig durch kontrollierte Fermentation, präzise Destillationsschnitte und Reifung.",
+                    nl: "Congeners zijn vluchtige verbindingen geproduceerd tijdens fermentatie en distillatie (esters, aldehyden, fuseloliën, tannines) die sterke drank hun distinctieve smaken en aroma's geven. Donkere sterke dranken zoals bourbon en rum hebben hoger congener gehalte dan vodka of gin. Hoewel congeners complexiteit en karakter creëren, worden ze ook geassocieerd met kater-ernst. Premium productie beheert congener niveaus zorgvuldig door gecontroleerde fermentatie, precieze distillatiesneden en rijping."
+                }
+            },
+            {
+                question: {
+                    en: "What is the purpose of 'chill filtration' in premium spirits production?",
+                    es: "¿Cuál es el propósito de la 'filtración en frío' en la producción de licores premium?",
+                    de: "Was ist der Zweck der 'Kältefilterung' bei der Produktion von Premium-Spirituosen?",
+                    nl: "Wat is het doel van 'chill filtratie' in premium sterke drank productie?"
+                },
+                options: [
+                    {
+                        en: "Remove fatty acids and proteins that cause cloudiness at low temperatures",
+                        es: "Eliminar ácidos grasos y proteínas que causan turbidez a bajas temperaturas",
+                        de: "Fettsäuren und Proteine entfernen, die bei niedrigen Temperaturen Trübung verursachen",
+                        nl: "Vetzuren en eiwitten verwijderen die troebelheid veroorzaken bij lage temperaturen"
+                    },
+                    {
+                        en: "Cool the spirit to enhance flavor concentration",
+                        es: "Enfriar el licor para mejorar concentración de sabor",
+                        de: "Die Spirituose kühlen um Aromakonzentration zu verbessern",
+                        nl: "De sterke drank koelen om smaakconcentratie te verbeteren"
+                    },
+                    {
+                        en: "Freeze impurities for easier removal",
+                        es: "Congelar impurezas para eliminación más fácil",
+                        de: "Verunreinigungen einfrieren für einfachere Entfernung",
+                        nl: "Onzuiverheden bevriezen voor gemakkelijkere verwijdering"
+                    },
+                    {
+                        en: "Reduce alcohol content through ice dilution",
+                        es: "Reducir contenido de alcohol mediante dilución con hielo",
+                        de: "Alkoholgehalt durch Eisverdünnung reduzieren",
+                        nl: "Alcoholgehalte verminderen door ijsverdunning"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Chill filtration involves cooling spirits to 0-4°C and filtering through fine mesh to remove fatty acids, proteins, and esters that would cause cloudiness (flocculation) when the spirit is chilled or diluted. While this creates a crystal-clear product that remains transparent when cold, many connoisseurs argue it strips flavor and mouthfeel. Premium whiskies increasingly advertise 'non-chill filtered' as a quality indicator, accepting natural cloudiness for fuller flavor.",
+                    es: "La filtración en frío implica enfriar licores a 0-4°C y filtrar a través de malla fina para eliminar ácidos grasos, proteínas y ésteres que causarían turbidez (floculación) cuando el licor se enfría o diluye. Aunque esto crea un producto cristalino que permanece transparente cuando frío, muchos conocedores argumentan que elimina sabor y sensación en boca. Whiskies premium cada vez más anuncian 'sin filtración en frío' como indicador de calidad, aceptando turbidez natural para sabor más completo.",
+                    de: "Kältefilterung beinhaltet Kühlung von Spirituosen auf 0-4°C und Filterung durch feines Netz um Fettsäuren, Proteine und Ester zu entfernen, die Trübung (Flockung) verursachen würden, wenn die Spirituose gekühlt oder verdünnt wird. Während dies ein kristallklares Produkt schafft, das bei Kälte transparent bleibt, argumentieren viele Kenner, dass es Geschmack und Mundgefühl entzieht. Premium-Whiskys werben zunehmend mit 'nicht kältegefiltert' als Qualitätsindikator, akzeptieren natürliche Trübung für volleren Geschmack.",
+                    nl: "Chill filtratie houdt in dat sterke drank wordt gekoeld tot 0-4°C en gefilterd door fijn gaas om vetzuren, eiwitten en esters te verwijderen die troebelheid (flocculatie) zouden veroorzaken wanneer de sterke drank wordt gekoeld of verdund. Hoewel dit een kristalhelder product creëert dat transparant blijft wanneer koud, beweren vele kenners dat het smaak en mondgevoel ontneemt. Premium whisky's adverteren steeds meer 'non-chill filtered' als kwaliteitsindicator, accepteren natuurlijke troebelheid voor vollere smaak."
+                }
+            },
+            {
+                question: {
+                    en: "What is the 'Lincoln County Process' unique to Tennessee whiskey?",
+                    es: "¿Qué es el 'Proceso del Condado de Lincoln' único del whiskey de Tennessee?",
+                    de: "Was ist der 'Lincoln County Process', der für Tennessee Whiskey einzigartig ist?",
+                    nl: "Wat is het 'Lincoln County Process' uniek voor Tennessee whiskey?"
+                },
+                options: [
+                    {
+                        en: "Filtering newly distilled whiskey through sugar maple charcoal before aging",
+                        es: "Filtrar whiskey recién destilado a través de carbón de arce azucarero antes del envejecimiento",
+                        de: "Filtern von frisch destilliertem Whiskey durch Zuckerahorn-Holzkohle vor Reifung",
+                        nl: "Filteren van vers gedistilleerde whiskey door suikeresdoorn houtskool voor rijping"
+                    },
+                    {
+                        en: "Aging in barrels made from Tennessee oak exclusively",
+                        es: "Envejecimiento en barriles hechos exclusivamente de roble de Tennessee",
+                        de: "Reifung in Fässern ausschließlich aus Tennessee-Eiche",
+                        nl: "Rijping in vaten gemaakt uitsluitend van Tennessee eik"
+                    },
+                    {
+                        en: "Double distillation in copper stills from Lincoln County",
+                        es: "Doble destilación en alambiques de cobre del Condado de Lincoln",
+                        de: "Doppelte Destillation in Kupferbrennblasen aus Lincoln County",
+                        nl: "Dubbele distillatie in koperen stills uit Lincoln County"
+                    },
+                    {
+                        en: "Blending with limestone spring water during production",
+                        es: "Mezcla con agua de manantial de piedra caliza durante producción",
+                        de: "Mischen mit Kalkstein-Quellwasser während Produktion",
+                        nl: "Mengen met kalksteenbronwater tijdens productie"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "The Lincoln County Process, required by Tennessee state law for Tennessee whiskey, involves slowly dripping or filtering newly distilled white spirit through 10+ feet of densely packed sugar maple charcoal before barrel aging. This 'charcoal mellowing' or 'leaching' removes impurities and harsh flavors while adding subtle sweetness and smoothness. Jack Daniel's famously uses this process, taking 3-5 days to filter each batch. This distinguishes Tennessee whiskey from bourbon, which doesn't require this step.",
+                    es: "El Proceso del Condado de Lincoln, requerido por ley estatal de Tennessee para whiskey de Tennessee, implica gotear o filtrar lentamente licor blanco recién destilado a través de 10+ pies de carbón de arce azucarero densamente empacado antes del envejecimiento en barril. Este 'suavizado con carbón' o 'lixiviación' elimina impurezas y sabores ásperos mientras añade dulzura y suavidad sutiles. Jack Daniel's usa famosamente este proceso, tomando 3-5 días para filtrar cada lote. Esto distingue whiskey de Tennessee del bourbon, que no requiere este paso.",
+                    de: "Der Lincoln County Process, gesetzlich vorgeschrieben für Tennessee Whiskey, beinhaltet langsames Tropfen oder Filtern von frisch destilliertem weißem Spiritus durch 10+ Fuß dicht gepackter Zuckerahorn-Holzkohle vor Fassreifung. Dieses 'Holzkohle-Mellowing' oder 'Auslaugen' entfernt Verunreinigungen und harsche Aromen während subtile Süße und Geschmeidigkeit hinzugefügt werden. Jack Daniel's verwendet diesen Prozess bekanntermaßen, benötigt 3-5 Tage um jede Charge zu filtern. Dies unterscheidet Tennessee Whiskey von Bourbon, der diesen Schritt nicht erfordert.",
+                    nl: "Het Lincoln County Process, vereist door Tennessee staatswet voor Tennessee whiskey, houdt in dat verse gedistilleerde witte spirit langzaam druppelt of gefilterd wordt door 10+ voet dicht verpakte suikeresdoorn houtskool voor vat rijping. Dit 'houtskool mellowing' of 'uitlogen' verwijdert onzuiverheden en harde smaken terwijl subtiele zoetheid en gladheid wordt toegevoegd. Jack Daniel's gebruikt dit proces beroemd, neemt 3-5 dagen om elke batch te filteren. Dit onderscheidt Tennessee whiskey van bourbon, die deze stap niet vereist."
+                }
+            },
+            {
+                question: {
+                    en: "What is 'wash distillation' versus 'spirit distillation' in Scotch production?",
+                    es: "¿Qué es 'destilación de wash' versus 'destilación de espíritu' en producción de whisky escocés?",
+                    de: "Was ist 'Wash-Destillation' versus 'Spirit-Destillation' bei Scotch-Produktion?",
+                    nl: "Wat is 'wash distillatie' versus 'spirit distillatie' in Scotse productie?"
+                },
+                options: [
+                    {
+                        en: "First distillation produces 'low wines' (20-25% ABV), second refines to spirit (65-70% ABV)",
+                        es: "Primera destilación produce 'vinos bajos' (20-25% ABV), segunda refina a espíritu (65-70% ABV)",
+                        de: "Erste Destillation produziert 'Low Wines' (20-25% ABV), zweite verfeinert zu Spiritus (65-70% ABV)",
+                        nl: "Eerste distillatie produceert 'low wines' (20-25% ABV), tweede verfijnt tot spirit (65-70% ABV)"
+                    },
+                    {
+                        en: "Wash cleans the still, spirit is the actual production run",
+                        es: "Wash limpia el alambique, spirit es la producción real",
+                        de: "Wash reinigt die Brennblase, Spirit ist der eigentliche Produktionslauf",
+                        nl: "Wash reinigt de still, spirit is de werkelijke productie run"
+                    },
+                    {
+                        en: "Different grain types used in each distillation stage",
+                        es: "Diferentes tipos de grano usados en cada etapa de destilación",
+                        de: "Verschiedene Getreidearten in jeder Destillationsstufe verwendet",
+                        nl: "Verschillende graantypes gebruikt in elke distillatiefase"
+                    },
+                    {
+                        en: "Wash uses pot stills, spirit uses column stills",
+                        es: "Wash usa alambiques, spirit usa alambiques de columna",
+                        de: "Wash verwendet Brennblasen, Spirit verwendet Säulenbrennanlagen",
+                        nl: "Wash gebruikt pot stills, spirit gebruikt column stills"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Traditional Scotch whisky distillation uses two copper pot stills. The wash still (larger) first distills fermented beer-like 'wash' (7-9% ABV) to produce 'low wines' at 20-25% ABV. The spirit still (smaller) then redistills the low wines, carefully separating heads, heart, and tails. The heart cut at 65-70% ABV becomes new make spirit for aging. This double distillation concentrates alcohol while removing impurities and developing flavor compounds. Some distilleries use 2.5 or triple distillation for even lighter spirits.",
+                    es: "La destilación tradicional de whisky escocés usa dos alambiques de cobre. El alambique de wash (más grande) primero destila 'wash' fermentado similar a cerveza (7-9% ABV) para producir 'vinos bajos' a 20-25% ABV. El alambique de spirit (más pequeño) luego redestila los vinos bajos, separando cuidadosamente cabezas, corazón y colas. El corte del corazón a 65-70% ABV se convierte en nuevo spirit para envejecimiento. Esta doble destilación concentra alcohol mientras elimina impurezas y desarrolla compuestos de sabor. Algunas destilerías usan 2.5 o triple destilación para espíritus aún más ligeros.",
+                    de: "Traditionelle Scotch Whisky Destillation verwendet zwei Kupferbrennblasen. Die Wash-Brennblase (größer) destilliert zuerst fermentierten bierähnlichen 'Wash' (7-9% ABV) um 'Low Wines' bei 20-25% ABV zu produzieren. Die Spirit-Brennblase (kleiner) redestilliert dann die Low Wines, trennt sorgfältig Vorlauf, Herzstück und Nachlauf. Der Herzschnitt bei 65-70% ABV wird New Make Spirit für Reifung. Diese Doppeldestillation konzentriert Alkohol während Verunreinigungen entfernt und Aromastoffe entwickelt werden. Einige Brennereien verwenden 2,5 oder dreifache Destillation für noch leichtere Spirituosen.",
+                    nl: "Traditionele Schotse whisky distillatie gebruikt twee koperen pot stills. De wash still (groter) distilleert eerst gefermenteerde bierachtige 'wash' (7-9% ABV) om 'low wines' te produceren bij 20-25% ABV. De spirit still (kleiner) redistilleert dan de low wines, scheidt zorgvuldig heads, heart en tails. De heart cut bij 65-70% ABV wordt new make spirit voor rijping. Deze dubbele distillatie concentreert alcohol terwijl onzuiverheden worden verwijderd en smaakverbindingen worden ontwikkeld. Sommige distilleerderijen gebruiken 2,5 of drievoudige distillatie voor nog lichtere spirits."
+                }
+            },
+            {
+                question: {
+                    en: "What is the chemical process behind 'esterification' in aged spirits?",
+                    es: "¿Cuál es el proceso químico detrás de la 'esterificación' en licores envejecidos?",
+                    de: "Was ist der chemische Prozess hinter 'Veresterung' in gereiften Spirituosen?",
+                    nl: "Wat is het chemische proces achter 'esterificatie' in gerijpte sterke drank?"
+                },
+                options: [
+                    {
+                        en: "Reaction between alcohol and organic acids forming fruity/floral ester compounds",
+                        es: "Reacción entre alcohol y ácidos orgánicos formando compuestos éster frutales/florales",
+                        de: "Reaktion zwischen Alkohol und organischen Säuren, die fruchtige/blumige Ester-Verbindungen bilden",
+                        nl: "Reactie tussen alcohol en organische zuren die fruitige/bloemen ester verbindingen vormen"
+                    },
+                    {
+                        en: "Oxidation of tannins creating darker color",
+                        es: "Oxidación de taninos creando color más oscuro",
+                        de: "Oxidation von Tanninen, die dunklere Farbe erzeugen",
+                        nl: "Oxidatie van tannines die donkerdere kleur creëren"
+                    },
+                    {
+                        en: "Evaporation concentrating sugar content",
+                        es: "Evaporación concentrando contenido de azúcar",
+                        de: "Verdunstung konzentriert Zuckergehalt",
+                        nl: "Verdamping concentreert suikergehalte"
+                    },
+                    {
+                        en: "Breakdown of proteins into amino acids",
+                        es: "Descomposición de proteínas en aminoácidos",
+                        de: "Abbau von Proteinen zu Aminosäuren",
+                        nl: "Afbraak van eiwitten tot aminozuren"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Esterification is a chemical reaction where alcohol molecules combine with organic acids (from wood or fermentation) to form esters—aromatic compounds responsible for fruity and floral notes in aged spirits. Ethanol + acetic acid → ethyl acetate (pear/nail polish aroma). This process accelerates during aging, especially in warmer climates, creating complexity. Different esters produce specific aromas: isoamyl acetate (banana), ethyl butyrate (pineapple), phenyl ethyl acetate (rose). Master blenders manage ester development through barrel selection, warehouse location, and aging duration.",
+                    es: "La esterificación es una reacción química donde moléculas de alcohol se combinan con ácidos orgánicos (de madera o fermentación) para formar ésteres—compuestos aromáticos responsables de notas frutales y florales en licores envejecidos. Etanol + ácido acético → acetato de etilo (aroma a pera/quitaesmalte). Este proceso se acelera durante envejecimiento, especialmente en climas más cálidos, creando complejidad. Diferentes ésteres producen aromas específicos: acetato de isoamilo (plátano), butirato de etilo (piña), acetato de feniletilo (rosa). Maestros mezcladores gestionan desarrollo de ésteres mediante selección de barril, ubicación de almacén y duración de envejecimiento.",
+                    de: "Veresterung ist eine chemische Reaktion, bei der Alkoholmoleküle sich mit organischen Säuren (aus Holz oder Fermentation) verbinden um Ester zu bilden—aromatische Verbindungen verantwortlich für fruchtige und blumige Noten in gereiften Spirituosen. Ethanol + Essigsäure → Ethylacetat (Birnen-/Nagellackentferner-Aroma). Dieser Prozess beschleunigt während Reifung, besonders in wärmeren Klimazonen, schafft Komplexität. Verschiedene Ester produzieren spezifische Aromen: Isoamylacetat (Banane), Ethylbutyrat (Ananas), Phenylethylacetat (Rose). Meister-Blender verwalten Ester-Entwicklung durch Fassauswahl, Lagerstandort und Reifdauer.",
+                    nl: "Esterificatie is een chemische reactie waarbij alcoholmoleculen combineren met organische zuren (uit hout of fermentatie) om esters te vormen—aromatische verbindingen verantwoordelijk voor fruitige en bloemen noten in gerijpte sterke drank. Ethanol + azijnzuur → ethylacetaat (peer/nagellakremover aroma). Dit proces versnelt tijdens rijping, vooral in warmere klimaten, creëert complexiteit. Verschillende esters produceren specifieke aroma's: isoamylacetaat (banaan), ethylbutyraat (ananas), fenylethylacetaat (roos). Meester blenders beheren ester-ontwikkeling door vatselectie, magazijnlocatie en rijpingsduur."
+                }
+            },
+            {
+                question: {
+                    en: "What distinguishes 'sour mash' from 'sweet mash' in whiskey production?",
+                    es: "¿Qué distingue 'sour mash' de 'sweet mash' en producción de whiskey?",
+                    de: "Was unterscheidet 'Sour Mash' von 'Sweet Mash' bei Whiskey-Produktion?",
+                    nl: "Wat onderscheidt 'sour mash' van 'sweet mash' in whiskey productie?"
+                },
+                options: [
+                    {
+                        en: "Sour mash reuses spent mash from previous batch to control pH and ensure consistency",
+                        es: "Sour mash reutiliza mosto gastado de lote anterior para controlar pH y asegurar consistencia",
+                        de: "Sour Mash verwendet verbrauchte Maische aus vorheriger Charge um pH zu kontrollieren und Konsistenz sicherzustellen",
+                        nl: "Sour mash hergebruikt bestede mash van vorige batch om pH te controleren en consistentie te waarborgen"
+                    },
+                    {
+                        en: "Sour mash uses citrus acids added during fermentation",
+                        es: "Sour mash usa ácidos cítricos añadidos durante fermentación",
+                        de: "Sour Mash verwendet Zitrusäuren während Fermentation hinzugefügt",
+                        nl: "Sour mash gebruikt citrus zuren toegevoegd tijdens fermentatie"
+                    },
+                    {
+                        en: "Sweet mash adds sugar for higher alcohol content",
+                        es: "Sweet mash añade azúcar para mayor contenido de alcohol",
+                        de: "Sweet Mash fügt Zucker für höheren Alkoholgehalt hinzu",
+                        nl: "Sweet mash voegt suiker toe voor hoger alcoholgehalte"
+                    },
+                    {
+                        en: "Sour mash ferments longer creating acidic flavors",
+                        es: "Sour mash fermenta más tiempo creando sabores ácidos",
+                        de: "Sour Mash fermentiert länger und erzeugt saure Aromen",
+                        nl: "Sour mash fermenteert langer waardoor zure smaken ontstaan"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Sour mash is a process where 20-25% of spent mash (stillage/backset) from the previous distillation is added to new mash before fermentation. This lowers pH to 5.0-5.5, creating acidic conditions that: 1) control bacterial contamination, 2) create consistent yeast environment batch-to-batch, 3) contribute flavor continuity. Despite the name, it doesn't make whiskey taste sour. Nearly all American whiskeys use sour mash (required for bourbon). Sweet mash starts fresh each batch without backset, offering less consistency but potentially more variation in flavor.",
+                    es: "Sour mash es un proceso donde 20-25% de mosto gastado (residuo/backset) de destilación anterior se añade a nuevo mosto antes de fermentación. Esto baja pH a 5.0-5.5, creando condiciones ácidas que: 1) controlan contaminación bacteriana, 2) crean ambiente de levadura consistente lote a lote, 3) contribuyen continuidad de sabor. A pesar del nombre, no hace que whiskey sepa ácido. Casi todos los whiskeys americanos usan sour mash (requerido para bourbon). Sweet mash comienza fresco cada lote sin backset, ofreciendo menos consistencia pero potencialmente más variación en sabor.",
+                    de: "Sour Mash ist ein Prozess, bei dem 20-25% verbrauchte Maische (Schlempe/Backset) aus vorheriger Destillation zu neuer Maische vor Fermentation hinzugefügt wird. Dies senkt pH auf 5,0-5,5, schafft saure Bedingungen die: 1) bakterielle Kontamination kontrollieren, 2) konsistente Hefeumgebung Charge-zu-Charge schaffen, 3) Geschmackskontinuität beitragen. Trotz des Namens macht es Whiskey nicht sauer schmecken. Fast alle amerikanischen Whiskeys verwenden Sour Mash (für Bourbon erforderlich). Sweet Mash startet jede Charge frisch ohne Backset, bietet weniger Konsistenz aber potenziell mehr Geschmacksvariation.",
+                    nl: "Sour mash is een proces waarbij 20-25% bestede mash (stillage/backset) van vorige distillatie wordt toegevoegd aan nieuwe mash voor fermentatie. Dit verlaagt pH tot 5,0-5,5, creëert zure omstandigheden die: 1) bacteriële besmetting controleren, 2) consistente gistomgeving batch-tot-batch creëren, 3) smaakcontinuïteit bijdragen. Ondanks de naam maakt het whiskey niet zuur smaken. Bijna alle Amerikaanse whiskeys gebruiken sour mash (vereist voor bourbon). Sweet mash begint vers elke batch zonder backset, biedt minder consistentie maar mogelijk meer variatie in smaak."
+                }
+            }

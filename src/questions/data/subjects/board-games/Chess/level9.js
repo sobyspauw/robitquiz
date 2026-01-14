@@ -825,6 +825,26 @@
           es: "La Defensa Eslava (1.d4 d5 2.c4 c6) es una sólida defensa del Gambito de Dama que apoya el peón d5 con ...c6 en lugar de ...e6. Esto evita bloquear el alfil de casillas claras. Popular en todos los niveles incluyendo partidas del campeonato mundial.",
           de: "Die Slawische Verteidigung (1.d4 d5 2.c4 c6) ist eine solide Damengambit-Verteidigung, die den d5-Bauern mit ...c6 statt ...e6 unterstützt. Dies vermeidet das Blockieren des Weißfeld-Läufers. Auf allen Ebenen einschließlich Weltmeisterschaftspartien beliebt.",
           nl: "De Slavische Verdediging (1.d4 d5 2.c4 c6) is een solide Damegambiet verdediging die de d5 pion ondersteunt met ...c6 in plaats van ...e6. Dit vermijdt het blokkeren van de witvelderloper. Populair op alle niveaus inclusief wereldkampioenschapswedstrijden."
+        }      },
+      {
+        question: {
+          en: "What is the Smyslov Variation in the Ruy Lopez?",
+          es: "¿Qué es la Variación Smyslov en el Ruy López?",
+          de: "Was ist die Smyslov-Variante in der Spanischen Partie?",
+          nl: "Wat is de Smyslov Variatie in de Spaanse Partij?"
+        },
+        options: [
+          { en: "9...h6 in the Closed Ruy Lopez, preparing a flexible setup", es: "9...h6 en el Ruy López Cerrado, preparando una configuración flexible", de: "9...h6 in der Geschlossenen Spanischen Partie, bereitet flexibles Setup vor", nl: "9...h6 in de Gesloten Spaanse Partij, voorbereidend op een flexibele opstelling" },
+          { en: "An early queen development", es: "Un desarrollo temprano de dama", de: "Eine frühe Damenentwicklung", nl: "Een vroege dameontwikkeling" },
+          { en: "A gambit with pawn sacrifice", es: "Un gambito con sacrificio de peón", de: "Ein Gambit mit Bauernopfer", nl: "Een gambiet met pionoffer" },
+          { en: "A defensive fortress", es: "Una fortaleza defensiva", de: "Eine defensive Festung", nl: "Een defensief fort" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Smyslov Variation (9...h6) in the Closed Ruy Lopez is a subtle, positional approach named after World Champion Vasily Smyslov. The move prevents Ng5, prepares ...Re8 and ...Bf8, and keeps options open for Black's pieces. It emphasizes prophylactic thinking and solid piece coordination typical of Smyslov's style.",
+          es: "La Variación Smyslov (9...h6) en el Ruy López Cerrado es un enfoque sutil y posicional nombrado en honor al Campeón Mundial Vasily Smyslov. La jugada previene Cg5, prepara ...Te8 y ...Af8, y mantiene las opciones abiertas para las piezas negras. Enfatiza el pensamiento profiláctico y la sólida coordinación de piezas típica del estilo de Smyslov.",
+          de: "Die Smyslov-Variante (9...h6) in der Geschlossenen Spanischen Partie ist ein subtiler, positioneller Ansatz, benannt nach Weltmeister Wassili Smyslov. Der Zug verhindert Sg5, bereitet ...Te8 und ...Lf8 vor und hält die Optionen für Schwarz' Figuren offen. Er betont prophylaktisches Denken und solide Figurenkoordination, typisch für Smyslovs Stil.",
+          nl: "De Smyslov Variatie (9...h6) in de Gesloten Spaanse Partij is een subtiele, positionele benadering vernoemd naar Wereldkampioen Vasily Smyslov. De zet verhindert Pg5, bereidt ...Te8 en ...Lf8 voor, en houdt opties open voor zwart's stukken. Het benadrukt profylactisch denken en solide stukcoördinatie typisch voor Smyslov's stijl."
         }
       }
     ]

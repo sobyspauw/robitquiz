@@ -427,6 +427,426 @@
           de: "Sarah Michelle Gellars Darstellung der jugendlichen Vampirjägerin Buffy Summers definierte die Action-Heldin neu und beeinflusste eine Generation von übernatürlichen Fernsehserien.",
           nl: "Sarah Michelle Gellar's vertolking van de tiener vampierjager Buffy Summers herdefinieerde de actie-heldin en beïnvloedde een generatie van bovennatuurlijke televisieseries."
         }
+      },
+      {
+        question: {
+          en: "Who played Cersei Lannister in Game of Thrones?",
+          es: "¿Quién interpretó a Cersei Lannister en Game of Thrones?",
+          de: "Wer spielte Cersei Lannister in Game of Thrones?",
+          nl: "Wie speelde Cersei Lannister in Game of Thrones?"
+        },
+        options: [
+          { en: "Lena Headey", es: "Lena Headey", de: "Lena Headey", nl: "Lena Headey" },
+          { en: "Emilia Clarke", es: "Emilia Clarke", de: "Emilia Clarke", nl: "Emilia Clarke" },
+          { en: "Sophie Turner", es: "Sophie Turner", de: "Sophie Turner", nl: "Sophie Turner" },
+          { en: "Maisie Williams", es: "Maisie Williams", de: "Maisie Williams", nl: "Maisie Williams" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Lena Headey portrayed the cunning and ruthless Queen Cersei Lannister throughout Game of Thrones, earning multiple Emmy nominations for her complex performance.",
+          es: "Lena Headey interpretó a la astuta y despiadada Reina Cersei Lannister durante Game of Thrones, obteniendo múltiples nominaciones Emmy por su compleja actuación.",
+          de: "Lena Headey verkörperte die listige und skrupellose Königin Cersei Lannister während Game of Thrones und erhielt mehrere Emmy-Nominierungen für ihre komplexe Leistung.",
+          nl: "Lena Headey speelde de slimme en meedogenloze Koningin Cersei Lannister gedurende Game of Thrones, en kreeg meerdere Emmy nominaties voor haar complexe optreden."
+        }
+      },
+      {
+        question: {
+          en: "Which actor played Jesse Pinkman in Breaking Bad?",
+          es: "¿Qué actor interpretó a Jesse Pinkman en Breaking Bad?",
+          de: "Welcher Schauspieler spielte Jesse Pinkman in Breaking Bad?",
+          nl: "Welke acteur speelde Jesse Pinkman in Breaking Bad?"
+        },
+        options: [
+          { en: "Aaron Paul", es: "Aaron Paul", de: "Aaron Paul", nl: "Aaron Paul" },
+          { en: "Bryan Cranston", es: "Bryan Cranston", de: "Bryan Cranston", nl: "Bryan Cranston" },
+          { en: "Dean Norris", es: "Dean Norris", de: "Dean Norris", nl: "Dean Norris" },
+          { en: "RJ Mitte", es: "RJ Mitte", de: "RJ Mitte", nl: "RJ Mitte" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Aaron Paul's portrayal of the troubled drug dealer Jesse Pinkman earned him three Emmy Awards and made him a breakout star from the series.",
+          es: "La interpretación de Aaron Paul del problemático traficante de drogas Jesse Pinkman le valió tres Premios Emmy y lo convirtió en una estrella revelación de la serie.",
+          de: "Aaron Pauls Darstellung des problematischen Drogendealers Jesse Pinkman brachte ihm drei Emmy Awards ein und machte ihn zum Durchbruchsstar der Serie.",
+          nl: "Aaron Paul's vertolking van de getroebleerde drugsdealer Jesse Pinkman leverde hem drie Emmy Awards op en maakte hem een doorbraakster van de serie."
+        }
+      },
+      {
+        question: {
+          en: "Who played Monica Geller in Friends?",
+          es: "¿Quién interpretó a Monica Geller en Friends?",
+          de: "Wer spielte Monica Geller in Friends?",
+          nl: "Wie speelde Monica Geller in Friends?"
+        },
+        options: [
+          { en: "Courteney Cox", es: "Courteney Cox", de: "Courteney Cox", nl: "Courteney Cox" },
+          { en: "Jennifer Aniston", es: "Jennifer Aniston", de: "Jennifer Aniston", nl: "Jennifer Aniston" },
+          { en: "Lisa Kudrow", es: "Lisa Kudrow", de: "Lisa Kudrow", nl: "Lisa Kudrow" },
+          { en: "Maggie Wheeler", es: "Maggie Wheeler", de: "Maggie Wheeler", nl: "Maggie Wheeler" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Courteney Cox played the competitive and organized chef Monica Geller for all 10 seasons of Friends, showcasing her comedic timing and emotional range.",
+          es: "Courteney Cox interpretó a la competitiva y organizada chef Monica Geller durante las 10 temporadas de Friends, mostrando su timing cómico y rango emocional.",
+          de: "Courteney Cox spielte die wettbewerbsorientierte und organisierte Köchin Monica Geller während aller 10 Staffeln von Friends und zeigte ihr komisches Timing und ihre emotionale Bandbreite.",
+          nl: "Courteney Cox speelde de competitieve en georganiseerde chef Monica Geller gedurende alle 10 seizoenen van Friends, waarbij ze haar komische timing en emotionele bereik toonde."
+        }
+      },
+      {
+        question: {
+          en: "Which actor played Ross Geller in Friends?",
+          es: "¿Qué actor interpretó a Ross Geller en Friends?",
+          de: "Welcher Schauspieler spielte Ross Geller in Friends?",
+          nl: "Welke acteur speelde Ross Geller in Friends?"
+        },
+        options: [
+          { en: "David Schwimmer", es: "David Schwimmer", de: "David Schwimmer", nl: "David Schwimmer" },
+          { en: "Matthew Perry", es: "Matthew Perry", de: "Matthew Perry", nl: "Matthew Perry" },
+          { en: "Matt LeBlanc", es: "Matt LeBlanc", de: "Matt LeBlanc", nl: "Matt LeBlanc" },
+          { en: "Paul Rudd", es: "Paul Rudd", de: "Paul Rudd", nl: "Paul Rudd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "David Schwimmer played the paleontologist Ross Geller, whose on-again-off-again relationship with Rachel became one of television's most iconic love stories.",
+          es: "David Schwimmer interpretó al paleontólogo Ross Geller, cuya relación intermitente con Rachel se convirtió en una de las historias de amor más icónicas de la televisión.",
+          de: "David Schwimmer spielte den Paläontologen Ross Geller, dessen On-Off-Beziehung mit Rachel zu einer der ikonischsten Liebesgeschichten des Fernsehens wurde.",
+          nl: "David Schwimmer speelde de paleontoloog Ross Geller, wiens aan-uit relatie met Rachel een van de meest iconische liefdesverhalen van de televisie werd."
+        }
+      },
+      {
+        question: {
+          en: "Who played Phoebe Buffay in Friends?",
+          es: "¿Quién interpretó a Phoebe Buffay en Friends?",
+          de: "Wer spielte Phoebe Buffay in Friends?",
+          nl: "Wie speelde Phoebe Buffay in Friends?"
+        },
+        options: [
+          { en: "Lisa Kudrow", es: "Lisa Kudrow", de: "Lisa Kudrow", nl: "Lisa Kudrow" },
+          { en: "Courteney Cox", es: "Courteney Cox", de: "Courteney Cox", nl: "Courteney Cox" },
+          { en: "Jennifer Aniston", es: "Jennifer Aniston", de: "Jennifer Aniston", nl: "Jennifer Aniston" },
+          { en: "Alyson Hannigan", es: "Alyson Hannigan", de: "Alyson Hannigan", nl: "Alyson Hannigan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Lisa Kudrow brought the quirky masseuse and musician Phoebe Buffay to life, earning an Emmy Award for her unique and memorable portrayal.",
+          es: "Lisa Kudrow dio vida a la peculiar masajista y músico Phoebe Buffay, ganando un Premio Emmy por su interpretación única y memorable.",
+          de: "Lisa Kudrow erweckte die schrullige Masseuse und Musikerin Phoebe Buffay zum Leben und gewann einen Emmy Award für ihre einzigartige und unvergessliche Darstellung.",
+          nl: "Lisa Kudrow bracht de eigenzinnige masseuse en muzikante Phoebe Buffay tot leven, en won een Emmy Award voor haar unieke en memorabele vertolking."
+        }
+      },
+      {
+        question: {
+          en: "Which actor played Joey Tribbiani in Friends?",
+          es: "¿Qué actor interpretó a Joey Tribbiani en Friends?",
+          de: "Welcher Schauspieler spielte Joey Tribbiani in Friends?",
+          nl: "Welke acteur speelde Joey Tribbiani in Friends?"
+        },
+        options: [
+          { en: "Matt LeBlanc", es: "Matt LeBlanc", de: "Matt LeBlanc", nl: "Matt LeBlanc" },
+          { en: "Matthew Perry", es: "Matthew Perry", de: "Matthew Perry", nl: "Matthew Perry" },
+          { en: "David Schwimmer", es: "David Schwimmer", de: "David Schwimmer", nl: "David Schwimmer" },
+          { en: "Giovanni Ribisi", es: "Giovanni Ribisi", de: "Giovanni Ribisi", nl: "Giovanni Ribisi" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Matt LeBlanc played the lovable but dim-witted actor Joey Tribbiani, whose catchphrase 'How you doin'?' became iconic and led to a spinoff series.",
+          es: "Matt LeBlanc interpretó al adorable pero torpe actor Joey Tribbiani, cuya frase característica '¿Cómo estás?' se volvió icónica y llevó a una serie derivada.",
+          de: "Matt LeBlanc spielte den liebenswerten aber einfältigen Schauspieler Joey Tribbiani, dessen Catchphrase 'How you doin'?' ikonisch wurde und zu einer Spinoff-Serie führte.",
+          nl: "Matt LeBlanc speelde de lieve maar domme acteur Joey Tribbiani, wiens catchphrase 'How you doin'?' iconisch werd en leidde tot een spinoff serie."
+        }
+      },
+      {
+        question: {
+          en: "Who played Arya Stark in Game of Thrones?",
+          es: "¿Quién interpretó a Arya Stark en Game of Thrones?",
+          de: "Wer spielte Arya Stark in Game of Thrones?",
+          nl: "Wie speelde Arya Stark in Game of Thrones?"
+        },
+        options: [
+          { en: "Maisie Williams", es: "Maisie Williams", de: "Maisie Williams", nl: "Maisie Williams" },
+          { en: "Sophie Turner", es: "Sophie Turner", de: "Sophie Turner", nl: "Sophie Turner" },
+          { en: "Emilia Clarke", es: "Emilia Clarke", de: "Emilia Clarke", nl: "Emilia Clarke" },
+          { en: "Natalie Dormer", es: "Natalie Dormer", de: "Natalie Dormer", nl: "Natalie Dormer" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Maisie Williams portrayed the fierce and independent Arya Stark from age 12 to 22, growing with the character through all eight seasons of the series.",
+          es: "Maisie Williams interpretó a la feroz e independiente Arya Stark desde los 12 hasta los 22 años, creciendo con el personaje durante las ocho temporadas de la serie.",
+          de: "Maisie Williams verkörperte die wilde und unabhängige Arya Stark von 12 bis 22 Jahren und wuchs mit der Figur durch alle acht Staffeln der Serie.",
+          nl: "Maisie Williams speelde de felle en onafhankelijke Arya Stark van 12 tot 22 jaar, opgroeiend met het personage gedurende alle acht seizoenen van de serie."
+        }
+      },
+      {
+        question: {
+          en: "Which actor played Sansa Stark in Game of Thrones?",
+          es: "¿Qué actriz interpretó a Sansa Stark en Game of Thrones?",
+          de: "Welche Schauspielerin spielte Sansa Stark in Game of Thrones?",
+          nl: "Welke actrice speelde Sansa Stark in Game of Thrones?"
+        },
+        options: [
+          { en: "Sophie Turner", es: "Sophie Turner", de: "Sophie Turner", nl: "Sophie Turner" },
+          { en: "Maisie Williams", es: "Maisie Williams", de: "Maisie Williams", nl: "Maisie Williams" },
+          { en: "Emilia Clarke", es: "Emilia Clarke", de: "Emilia Clarke", nl: "Emilia Clarke" },
+          { en: "Gwendoline Christie", es: "Gwendoline Christie", de: "Gwendoline Christie", nl: "Gwendoline Christie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sophie Turner portrayed Sansa Stark's transformation from naive girl to Queen in the North throughout Game of Thrones, showing remarkable character development.",
+          es: "Sophie Turner interpretó la transformación de Sansa Stark de niña ingenua a Reina en el Norte durante Game of Thrones, mostrando un notable desarrollo del personaje.",
+          de: "Sophie Turner verkörperte Sansa Starks Verwandlung von einem naiven Mädchen zur Königin im Norden während Game of Thrones und zeigte eine bemerkenswerte Charakterentwicklung.",
+          nl: "Sophie Turner speelde Sansa Stark's transformatie van naïef meisje tot Koningin in het Noorden gedurende Game of Thrones, waarbij ze opmerkelijke karakterontwikkeling toonde."
+        }
+      },
+      {
+        question: {
+          en: "Who played Michael Scott in The Office (US)?",
+          es: "¿Quién interpretó a Michael Scott en The Office (EE.UU.)?",
+          de: "Wer spielte Michael Scott in The Office (US)?",
+          nl: "Wie speelde Michael Scott in The Office (VS)?"
+        },
+        options: [
+          { en: "Steve Carell", es: "Steve Carell", de: "Steve Carell", nl: "Steve Carell" },
+          { en: "John Krasinski", es: "John Krasinski", de: "John Krasinski", nl: "John Krasinski" },
+          { en: "Rainn Wilson", es: "Rainn Wilson", de: "Rainn Wilson", nl: "Rainn Wilson" },
+          { en: "Ed Helms", es: "Ed Helms", de: "Ed Helms", nl: "Ed Helms" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Steve Carell's portrayal of the well-meaning but often inappropriate regional manager Michael Scott became one of television's most beloved comedy characters.",
+          es: "La interpretación de Steve Carell del gerente regional bien intencionado pero a menudo inapropiado Michael Scott se convirtió en uno de los personajes de comedia más queridos de la televisión.",
+          de: "Steve Carells Darstellung des gutmeinenden aber oft unangemessenen Regionalmanagers Michael Scott wurde zu einer der beliebtesten Comedy-Figuren des Fernsehens.",
+          nl: "Steve Carell's vertolking van de goed bedoelende maar vaak ongepaste regionaal manager Michael Scott werd een van de meest geliefde comedy personages van de televisie."
+        }
+      },
+      {
+        question: {
+          en: "Which actress played Pam Beesly in The Office (US)?",
+          es: "¿Qué actriz interpretó a Pam Beesly en The Office (EE.UU.)?",
+          de: "Welche Schauspielerin spielte Pam Beesly in The Office (US)?",
+          nl: "Welke actrice speelde Pam Beesly in The Office (VS)?"
+        },
+        options: [
+          { en: "Jenna Fischer", es: "Jenna Fischer", de: "Jenna Fischer", nl: "Jenna Fischer" },
+          { en: "Angela Kinsey", es: "Angela Kinsey", de: "Angela Kinsey", nl: "Angela Kinsey" },
+          { en: "Mindy Kaling", es: "Mindy Kaling", de: "Mindy Kaling", nl: "Mindy Kaling" },
+          { en: "Ellie Kemper", es: "Ellie Kemper", de: "Ellie Kemper", nl: "Ellie Kemper" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jenna Fischer played the receptionist-turned-saleswoman Pam Beesly, whose romance with Jim Halpert became the heart of The Office.",
+          es: "Jenna Fischer interpretó a la recepcionista convertida en vendedora Pam Beesly, cuyo romance con Jim Halpert se convirtió en el corazón de The Office.",
+          de: "Jenna Fischer spielte die Empfangsdame-zur-Verkäuferin Pam Beesly, deren Romanze mit Jim Halpert zum Herzstück von The Office wurde.",
+          nl: "Jenna Fischer speelde de receptioniste-verkoopster Pam Beesly, wiens romance met Jim Halpert het hart van The Office werd."
+        }
+      },
+      {
+        question: {
+          en: "Who played Leonard Hofstadter in The Big Bang Theory?",
+          es: "¿Quién interpretó a Leonard Hofstadter en The Big Bang Theory?",
+          de: "Wer spielte Leonard Hofstadter in The Big Bang Theory?",
+          nl: "Wie speelde Leonard Hofstadter in The Big Bang Theory?"
+        },
+        options: [
+          { en: "Johnny Galecki", es: "Johnny Galecki", de: "Johnny Galecki", nl: "Johnny Galecki" },
+          { en: "Jim Parsons", es: "Jim Parsons", de: "Jim Parsons", nl: "Jim Parsons" },
+          { en: "Kunal Nayyar", es: "Kunal Nayyar", de: "Kunal Nayyar", nl: "Kunal Nayyar" },
+          { en: "Simon Helberg", es: "Simon Helberg", de: "Simon Helberg", nl: "Simon Helberg" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Johnny Galecki played the experimental physicist Leonard Hofstadter for all 12 seasons, serving as the show's central romantic lead opposite Kaley Cuoco's Penny.",
+          es: "Johnny Galecki interpretó al físico experimental Leonard Hofstadter durante las 12 temporadas, sirviendo como el protagonista romántico central del programa frente a Penny de Kaley Cuoco.",
+          de: "Johnny Galecki spielte den experimentellen Physiker Leonard Hofstadter für alle 12 Staffeln und diente als zentraler romantischer Hauptdarsteller gegenüber Kaley Cuocos Penny.",
+          nl: "Johnny Galecki speelde de experimentele natuurkundige Leonard Hofstadter gedurende alle 12 seizoenen, en diende als de centrale romantische hoofdrolspeler tegenover Kaley Cuoco's Penny."
+        }
+      },
+      {
+        question: {
+          en: "Which actress played Penny in The Big Bang Theory?",
+          es: "¿Qué actriz interpretó a Penny en The Big Bang Theory?",
+          de: "Welche Schauspielerin spielte Penny in The Big Bang Theory?",
+          nl: "Welke actrice speelde Penny in The Big Bang Theory?"
+        },
+        options: [
+          { en: "Kaley Cuoco", es: "Kaley Cuoco", de: "Kaley Cuoco", nl: "Kaley Cuoco" },
+          { en: "Mayim Bialik", es: "Mayim Bialik", de: "Mayim Bialik", nl: "Mayim Bialik" },
+          { en: "Melissa Rauch", es: "Melissa Rauch", de: "Melissa Rauch", nl: "Melissa Rauch" },
+          { en: "Sara Gilbert", es: "Sara Gilbert", de: "Sara Gilbert", nl: "Sara Gilbert" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Kaley Cuoco played the aspiring actress and waitress Penny, who lived across the hall from the scientists and became the show's primary female lead.",
+          es: "Kaley Cuoco interpretó a la aspirante a actriz y camarera Penny, que vivía al otro lado del pasillo de los científicos y se convirtió en la principal protagonista femenina del programa.",
+          de: "Kaley Cuoco spielte die angehende Schauspielerin und Kellnerin Penny, die gegenüber den Wissenschaftlern wohnte und zur primären weiblichen Hauptdarstellerin der Show wurde.",
+          nl: "Kaley Cuoco speelde de aspirant-actrice en serveerster Penny, die tegenover de wetenschappers woonde en de primaire vrouwelijke hoofdrolspeler van de show werd."
+        }
+      },
+      {
+        question: {
+          en: "Who played Dr. John Watson in the BBC series Sherlock?",
+          es: "¿Quién interpretó al Dr. John Watson en la serie de BBC Sherlock?",
+          de: "Wer spielte Dr. John Watson in der BBC-Serie Sherlock?",
+          nl: "Wie speelde Dr. John Watson in de BBC serie Sherlock?"
+        },
+        options: [
+          { en: "Martin Freeman", es: "Martin Freeman", de: "Martin Freeman", nl: "Martin Freeman" },
+          { en: "Benedict Cumberbatch", es: "Benedict Cumberbatch", de: "Benedict Cumberbatch", nl: "Benedict Cumberbatch" },
+          { en: "Rupert Graves", es: "Rupert Graves", de: "Rupert Graves", nl: "Rupert Graves" },
+          { en: "Andrew Scott", es: "Andrew Scott", de: "Andrew Scott", nl: "Andrew Scott" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Martin Freeman played the modern-day army doctor John Watson, providing the perfect foil to Benedict Cumberbatch's Sherlock Holmes in the acclaimed BBC series.",
+          es: "Martin Freeman interpretó al médico militar moderno John Watson, proporcionando el contraste perfecto al Sherlock Holmes de Benedict Cumberbatch en la aclamada serie de BBC.",
+          de: "Martin Freeman spielte den modernen Militärarzt John Watson und lieferte den perfekten Kontrast zu Benedict Cumberbatchs Sherlock Holmes in der gefeierten BBC-Serie.",
+          nl: "Martin Freeman speelde de moderne legerdokter John Watson, en leverde het perfecte contrast met Benedict Cumberbatch's Sherlock Holmes in de veelgeprezen BBC serie."
+        }
+      },
+      {
+        question: {
+          en: "Which actor played Ned Stark in Game of Thrones?",
+          es: "¿Qué actor interpretó a Ned Stark en Game of Thrones?",
+          de: "Welcher Schauspieler spielte Ned Stark in Game of Thrones?",
+          nl: "Welke acteur speelde Ned Stark in Game of Thrones?"
+        },
+        options: [
+          { en: "Sean Bean", es: "Sean Bean", de: "Sean Bean", nl: "Sean Bean" },
+          { en: "Charles Dance", es: "Charles Dance", de: "Charles Dance", nl: "Charles Dance" },
+          { en: "Nikolaj Coster-Waldau", es: "Nikolaj Coster-Waldau", de: "Nikolaj Coster-Waldau", nl: "Nikolaj Coster-Waldau" },
+          { en: "Iain Glen", es: "Iain Glen", de: "Iain Glen", nl: "Iain Glen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sean Bean played the honorable Ned Stark in the first season of Game of Thrones, whose shocking death set the tone for the series' unpredictability.",
+          es: "Sean Bean interpretó al honorable Ned Stark en la primera temporada de Game of Thrones, cuya impactante muerte estableció el tono para la imprevisibilidad de la serie.",
+          de: "Sean Bean spielte den ehrenhaften Ned Stark in der ersten Staffel von Game of Thrones, dessen schockierender Tod den Ton für die Unberechenbarkeit der Serie setzte.",
+          nl: "Sean Bean speelde de eerbare Ned Stark in het eerste seizoen van Game of Thrones, wiens schokkende dood de toon zette voor de onvoorspelbaarheid van de serie."
+        }
+      },
+      {
+        question: {
+          en: "Who played Barney Stinson in How I Met Your Mother?",
+          es: "¿Quién interpretó a Barney Stinson en How I Met Your Mother?",
+          de: "Wer spielte Barney Stinson in How I Met Your Mother?",
+          nl: "Wie speelde Barney Stinson in How I Met Your Mother?"
+        },
+        options: [
+          { en: "Neil Patrick Harris", es: "Neil Patrick Harris", de: "Neil Patrick Harris", nl: "Neil Patrick Harris" },
+          { en: "Josh Radnor", es: "Josh Radnor", de: "Josh Radnor", nl: "Josh Radnor" },
+          { en: "Jason Segel", es: "Jason Segel", de: "Jason Segel", nl: "Jason Segel" },
+          { en: "Cobie Smulders", es: "Cobie Smulders", de: "Cobie Smulders", nl: "Cobie Smulders" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Neil Patrick Harris played the suit-wearing, legendary playboy Barney Stinson, earning multiple Emmy nominations for his scene-stealing performance.",
+          es: "Neil Patrick Harris interpretó al mujeriego legendario vestido de traje Barney Stinson, obteniendo múltiples nominaciones Emmy por su actuación que robó escena.",
+          de: "Neil Patrick Harris spielte den anzugtragenden, legendären Playboy Barney Stinson und erhielt mehrere Emmy-Nominierungen für seine szenenstehlende Leistung.",
+          nl: "Neil Patrick Harris speelde de pak-dragende, legendarische playboy Barney Stinson, en kreeg meerdere Emmy nominaties voor zijn scène-stelende optreden."
+        }
+      },
+      {
+        question: {
+          en: "Which actress played Dr. Cristina Yang in Grey's Anatomy?",
+          es: "¿Qué actriz interpretó a la Dra. Cristina Yang en Grey's Anatomy?",
+          de: "Welche Schauspielerin spielte Dr. Cristina Yang in Grey's Anatomy?",
+          nl: "Welke actrice speelde Dr. Cristina Yang in Grey's Anatomy?"
+        },
+        options: [
+          { en: "Sandra Oh", es: "Sandra Oh", de: "Sandra Oh", nl: "Sandra Oh" },
+          { en: "Ellen Pompeo", es: "Ellen Pompeo", de: "Ellen Pompeo", nl: "Ellen Pompeo" },
+          { en: "Katherine Heigl", es: "Katherine Heigl", de: "Katherine Heigl", nl: "Katherine Heigl" },
+          { en: "Chandra Wilson", es: "Chandra Wilson", de: "Chandra Wilson", nl: "Chandra Wilson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sandra Oh played the ambitious cardiac surgeon Cristina Yang for 10 seasons, earning five Emmy nominations and becoming a fan favorite.",
+          es: "Sandra Oh interpretó a la ambiciosa cirujana cardíaca Cristina Yang durante 10 temporadas, obteniendo cinco nominaciones Emmy y convirtiéndose en favorita de los fans.",
+          de: "Sandra Oh spielte die ehrgeizige Herzchirurgin Cristina Yang für 10 Staffeln, erhielt fünf Emmy-Nominierungen und wurde zum Fan-Favoriten.",
+          nl: "Sandra Oh speelde de ambitieuze hartchirurg Cristina Yang gedurende 10 seizoenen, kreeg vijf Emmy nominaties en werd een fan favoriet."
+        }
+      },
+      {
+        question: {
+          en: "Who played Dr. Gregory House in House M.D.?",
+          es: "¿Quién interpretó al Dr. Gregory House en House M.D.?",
+          de: "Wer spielte Dr. Gregory House in Dr. House?",
+          nl: "Wie speelde Dr. Gregory House in House M.D.?"
+        },
+        options: [
+          { en: "Hugh Laurie", es: "Hugh Laurie", de: "Hugh Laurie", nl: "Hugh Laurie" },
+          { en: "Robert Sean Leonard", es: "Robert Sean Leonard", de: "Robert Sean Leonard", nl: "Robert Sean Leonard" },
+          { en: "Omar Epps", es: "Omar Epps", de: "Omar Epps", nl: "Omar Epps" },
+          { en: "Jesse Spencer", es: "Jesse Spencer", de: "Jesse Spencer", nl: "Jesse Spencer" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hugh Laurie's portrayal of the brilliant but misanthropic diagnostician Dr. Gregory House earned him two Golden Globe Awards and six Emmy nominations.",
+          es: "La interpretación de Hugh Laurie del brillante pero misántropo diagnosticador Dr. Gregory House le valió dos Premios Globo de Oro y seis nominaciones Emmy.",
+          de: "Hugh Lauries Darstellung des brillanten aber menschenfeindlichen Diagnostikers Dr. Gregory House brachte ihm zwei Golden Globe Awards und sechs Emmy-Nominierungen ein.",
+          nl: "Hugh Laurie's vertolking van de briljante maar misantropische diagnosticus Dr. Gregory House leverde hem twee Golden Globe Awards en zes Emmy nominaties op."
+        }
+      },
+      {
+        question: {
+          en: "Which actor played Frank Underwood in House of Cards?",
+          es: "¿Qué actor interpretó a Frank Underwood en House of Cards?",
+          de: "Welcher Schauspieler spielte Frank Underwood in House of Cards?",
+          nl: "Welke acteur speelde Frank Underwood in House of Cards?"
+        },
+        options: [
+          { en: "Kevin Spacey", es: "Kevin Spacey", de: "Kevin Spacey", nl: "Kevin Spacey" },
+          { en: "Michael Kelly", es: "Michael Kelly", de: "Michael Kelly", nl: "Michael Kelly" },
+          { en: "Mahershala Ali", es: "Mahershala Ali", de: "Mahershala Ali", nl: "Mahershala Ali" },
+          { en: "Corey Stoll", es: "Corey Stoll", de: "Corey Stoll", nl: "Corey Stoll" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Kevin Spacey played the ruthless politician Frank Underwood who breaks the fourth wall to address viewers directly, winning a Golden Globe for the role.",
+          es: "Kevin Spacey interpretó al despiadado político Frank Underwood que rompe la cuarta pared para dirigirse directamente a los espectadores, ganando un Globo de Oro por el papel.",
+          de: "Kevin Spacey spielte den skrupellosen Politiker Frank Underwood, der die vierte Wand durchbricht, um die Zuschauer direkt anzusprechen, und gewann für die Rolle einen Golden Globe.",
+          nl: "Kevin Spacey speelde de meedogenloze politicus Frank Underwood die de vierde muur doorbreekt om kijkers direct aan te spreken, en won een Golden Globe voor de rol."
+        }
+      },
+      {
+        question: {
+          en: "Who played Jaime Lannister in Game of Thrones?",
+          es: "¿Quién interpretó a Jaime Lannister en Game of Thrones?",
+          de: "Wer spielte Jaime Lannister in Game of Thrones?",
+          nl: "Wie speelde Jaime Lannister in Game of Thrones?"
+        },
+        options: [
+          { en: "Nikolaj Coster-Waldau", es: "Nikolaj Coster-Waldau", de: "Nikolaj Coster-Waldau", nl: "Nikolaj Coster-Waldau" },
+          { en: "Peter Dinklage", es: "Peter Dinklage", de: "Peter Dinklage", nl: "Peter Dinklage" },
+          { en: "Charles Dance", es: "Charles Dance", de: "Charles Dance", nl: "Charles Dance" },
+          { en: "Iain Glen", es: "Iain Glen", de: "Iain Glen", nl: "Iain Glen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Nikolaj Coster-Waldau played the skilled swordsman and Kingslayer Jaime Lannister, showcasing the character's complex journey from villain to antihero.",
+          es: "Nikolaj Coster-Waldau interpretó al hábil espadachín y Matarreyes Jaime Lannister, mostrando el complejo viaje del personaje de villano a anti-héroe.",
+          de: "Nikolaj Coster-Waldau spielte den geschickten Schwertkämpfer und Königsmörder Jaime Lannister und zeigte die komplexe Reise der Figur vom Bösewicht zum Anti-Helden.",
+          nl: "Nikolaj Coster-Waldau speelde de bekwame zwaardvechter en Koningsmoorder Jaime Lannister, en toonde de complexe reis van het personage van schurk naar anti-held."
+        }
+      },
+      {
+        question: {
+          en: "Which actress played Sansa Stark in Game of Thrones?",
+          es: "¿Qué actriz interpretó a Sansa Stark en Game of Thrones?",
+          de: "Welche Schauspielerin spielte Sansa Stark in Game of Thrones?",
+          nl: "Welke actrice speelde Sansa Stark in Game of Thrones?"
+        },
+        options: [
+          { en: "Sophie Turner", es: "Sophie Turner", de: "Sophie Turner", nl: "Sophie Turner" },
+          { en: "Maisie Williams", es: "Maisie Williams", de: "Maisie Williams", nl: "Maisie Williams" },
+          { en: "Emilia Clarke", es: "Emilia Clarke", de: "Emilia Clarke", nl: "Emilia Clarke" },
+          { en: "Natalie Dormer", es: "Natalie Dormer", de: "Natalie Dormer", nl: "Natalie Dormer" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sophie Turner portrayed Sansa Stark throughout all eight seasons of Game of Thrones, growing from a naive young girl into a strong leader and Queen in the North.",
+          es: "Sophie Turner interpretó a Sansa Stark durante las ocho temporadas de Game of Thrones, pasando de ser una joven ingenua a una líder fuerte y Reina del Norte.",
+          de: "Sophie Turner verkörperte Sansa Stark in allen acht Staffeln von Game of Thrones und entwickelte sich von einem naiven jungen Mädchen zu einer starken Anführerin und Königin im Norden.",
+          nl: "Sophie Turner speelde Sansa Stark in alle acht seizoenen van Game of Thrones, en groeide van een naïef jong meisje tot een sterke leider en Koningin in het Noorden."
+        }
       }
     ]
   };

@@ -1607,6 +1607,48 @@
                   nl: "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
             }
       }
+      },
+      {
+            question: {
+                  en: "What is card knowledge asymmetry?",
+                  es: "What is card knowledge asymmetry?",
+                  de: "What is card knowledge asymmetry?",
+                  nl: "What is card knowledge asymmetry?"
+            },
+            options: [
+                  {
+                        en: "Advantage gained when you know opponent holds a card but they do not know you know",
+                        es: "Advantage gained when you know opponent holds a card but they do not know you know",
+                        de: "Advantage gained when you know opponent holds a card but they do not know you know",
+                        nl: "Advantage gained when you know opponent holds a card but they do not know you know"
+                  },
+                  {
+                        en: "Unequal card distribution",
+                        es: "Unequal card distribution",
+                        de: "Unequal card distribution",
+                        nl: "Unequal card distribution"
+                  },
+                  {
+                        en: "Different colored cards",
+                        es: "Different colored cards",
+                        de: "Different colored cards",
+                        nl: "Different colored cards"
+                  },
+                  {
+                        en: "Missing cards",
+                        es: "Missing cards",
+                        de: "Missing cards",
+                        nl: "Missing cards"
+                  }
+            ],
+            correct: 0,
+            explanation: {
+                  en: "If opponent shows you a card but does not realize you already knew they had it, you gain strategic advantage in deduction.",
+                  es: "If opponent shows you a card but does not realize you already knew they had it, you gain strategic advantage in deduction.",
+                  de: "If opponent shows you a card but does not realize you already knew they had it, you gain strategic advantage in deduction.",
+                  nl: "If opponent shows you a card but does not realize you already knew they had it, you gain strategic advantage in deduction."
+            }
+      }
 ]
   };
 

@@ -427,6 +427,406 @@
           es: "El dinero de campo de prisioneros de guerra (Lagergeld en alemán) fue moneda especial emitida para uso dentro de campos de prisioneros de guerra durante la Segunda Guerra Mundial. Los prisioneros usaban este dinero para comprar artículos de cantinas del campo. Estos billetes son ahora coleccionables históricos que documentan las condiciones y economía de los campos de prisioneros en tiempos de guerra.",
           de: "Kriegsgefangenenlager-Geld (Lagergeld) war eine spezielle Währung, die für den Gebrauch in Kriegsgefangenenlagern während des Zweiten Weltkriegs ausgegeben wurde. Gefangene nutzten dieses Geld, um Artikel aus Lagerkantinen zu kaufen. Diese Scheine sind jetzt historische Sammlerstücke, die die Bedingungen und Wirtschaft von Kriegsgefangenenlagern dokumentieren.",
           nl: "Krijgsgevangenkampgeld (Lagergeld in het Duits) was speciale valuta uitgegeven voor gebruik binnen krijgsgevangenenkampen tijdens WOII. Gevangenen gebruikten dit geld om items te kopen van kampkantines. Deze biljetten zijn nu historische verzamelobjecten die de omstandigheden en economie van oorlogstijd gevangenenkampen documenteren."
+        }      },
+      {
+        question: {
+          en: "What is the most valuable currency per unit?",
+          es: "What is the most valuable currency per unit?",
+          de: "What is the most valuable currency per unit?",
+          nl: "What is the most valuable currency per unit?"
+        },
+        options: [
+          { en: "Kuwaiti Dinar", es: "Kuwaiti Dinar", de: "Kuwaiti Dinar", nl: "Kuwaiti Dinar" },
+          { en: "US Dollar", es: "US Dollar", de: "US Dollar", nl: "US Dollar" },
+          { en: "Euro", es: "Euro", de: "Euro", nl: "Euro" },
+          { en: "British Pound", es: "British Pound", de: "British Pound", nl: "British Pound" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Kuwaiti Dinar (KWD) is the highest-valued currency unit in the world.",
+          es: "The Kuwaiti Dinar (KWD) is the highest-valued currency unit in the world.",
+          de: "The Kuwaiti Dinar (KWD) is the highest-valued currency unit in the world.",
+          nl: "The Kuwaiti Dinar (KWD) is the highest-valued currency unit in the world."
+        }      },
+      {
+        question: {
+          en: "What is the Bahraini Dinar?",
+          es: "What is the Bahraini Dinar?",
+          de: "What is the Bahraini Dinar?",
+          nl: "What is the Bahraini Dinar?"
+        },
+        options: [
+          { en: "Second most valuable currency", es: "Second most valuable currency", de: "Second most valuable currency", nl: "Second most valuable currency" },
+          { en: "Least valuable currency", es: "Least valuable currency", de: "Least valuable currency", nl: "Least valuable currency" },
+          { en: "Historical currency", es: "Historical currency", de: "Historical currency", nl: "Historical currency" },
+          { en: "Cryptocurrency", es: "Cryptocurrency", de: "Cryptocurrency", nl: "Cryptocurrency" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Bahraini Dinar (BHD) is the second highest-valued currency per unit globally.",
+          es: "The Bahraini Dinar (BHD) is the second highest-valued currency per unit globally.",
+          de: "The Bahraini Dinar (BHD) is the second highest-valued currency per unit globally.",
+          nl: "The Bahraini Dinar (BHD) is the second highest-valued currency per unit globally."
+        }      },
+      {
+        question: {
+          en: "What is the Omani Rial?",
+          es: "What is the Omani Rial?",
+          de: "What is the Omani Rial?",
+          nl: "What is the Omani Rial?"
+        },
+        options: [
+          { en: "Third most valuable currency", es: "Third most valuable currency", de: "Third most valuable currency", nl: "Third most valuable currency" },
+          { en: "Historical currency", es: "Historical currency", de: "Historical currency", nl: "Historical currency" },
+          { en: "Least valuable", es: "Least valuable", de: "Least valuable", nl: "Least valuable" },
+          { en: "Asian currency", es: "Asian currency", de: "Asian currency", nl: "Asian currency" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Omani Rial (OMR) is one of the world's highest-valued currencies.",
+          es: "The Omani Rial (OMR) is one of the world's highest-valued currencies.",
+          de: "The Omani Rial (OMR) is one of the world's highest-valued currencies.",
+          nl: "The Omani Rial (OMR) is one of the world's highest-valued currencies."
+        }      },
+      {
+        question: {
+          en: "What is the Jordanian Dinar?",
+          es: "What is the Jordanian Dinar?",
+          de: "What is the Jordanian Dinar?",
+          nl: "What is the Jordanian Dinar?"
+        },
+        options: [
+          { en: "High-value Middle Eastern currency", es: "High-value Middle Eastern currency", de: "High-value Middle Eastern currency", nl: "High-value Middle Eastern currency" },
+          { en: "European currency", es: "European currency", de: "European currency", nl: "European currency" },
+          { en: "Cryptocurrency", es: "Cryptocurrency", de: "Cryptocurrency", nl: "Cryptocurrency" },
+          { en: "Obsolete currency", es: "Obsolete currency", de: "Obsolete currency", nl: "Obsolete currency" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Jordanian Dinar (JOD) is among the world's strongest currencies due to its peg.",
+          es: "The Jordanian Dinar (JOD) is among the world's strongest currencies due to its peg.",
+          de: "The Jordanian Dinar (JOD) is among the world's strongest currencies due to its peg.",
+          nl: "The Jordanian Dinar (JOD) is among the world's strongest currencies due to its peg."
+        }      },
+      {
+        question: {
+          en: "What is the Swiss Franc known for?",
+          es: "What is the Swiss Franc known for?",
+          de: "What is the Swiss Franc known for?",
+          nl: "What is the Swiss Franc known for?"
+        },
+        options: [
+          { en: "Stability and safe haven status", es: "Stability and safe haven status", de: "Stability and safe haven status", nl: "Stability and safe haven status" },
+          { en: "High inflation", es: "High inflation", de: "High inflation", nl: "High inflation" },
+          { en: "Cryptocurrency", es: "Cryptocurrency", de: "Cryptocurrency", nl: "Cryptocurrency" },
+          { en: "Commodity backing", es: "Commodity backing", de: "Commodity backing", nl: "Commodity backing" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Swiss Franc (CHF) is renowned for stability and as a safe-haven currency.",
+          es: "The Swiss Franc (CHF) is renowned for stability and as a safe-haven currency.",
+          de: "The Swiss Franc (CHF) is renowned for stability and as a safe-haven currency.",
+          nl: "The Swiss Franc (CHF) is renowned for stability and as a safe-haven currency."
+        }      },
+      {
+        question: {
+          en: "What is the Gibraltar Pound?",
+          es: "What is the Gibraltar Pound?",
+          de: "What is the Gibraltar Pound?",
+          nl: "What is the Gibraltar Pound?"
+        },
+        options: [
+          { en: "Currency of Gibraltar at parity with GBP", es: "Currency of Gibraltar at parity with GBP", de: "Currency of Gibraltar at parity with GBP", nl: "Currency of Gibraltar at parity with GBP" },
+          { en: "Ancient currency", es: "Ancient currency", de: "Ancient currency", nl: "Ancient currency" },
+          { en: "African currency", es: "African currency", de: "African currency", nl: "African currency" },
+          { en: "Cryptocurrency", es: "Cryptocurrency", de: "Cryptocurrency", nl: "Cryptocurrency" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Gibraltar Pound (GIP) is issued by Gibraltar and maintains parity with British Pound.",
+          es: "The Gibraltar Pound (GIP) is issued by Gibraltar and maintains parity with British Pound.",
+          de: "The Gibraltar Pound (GIP) is issued by Gibraltar and maintains parity with British Pound.",
+          nl: "The Gibraltar Pound (GIP) is issued by Gibraltar and maintains parity with British Pound."
+        }      },
+      {
+        question: {
+          en: "What is the Falkland Islands Pound?",
+          es: "What is the Falkland Islands Pound?",
+          de: "What is the Falkland Islands Pound?",
+          nl: "What is the Falkland Islands Pound?"
+        },
+        options: [
+          { en: "Currency of Falklands at parity with GBP", es: "Currency of Falklands at parity with GBP", de: "Currency of Falklands at parity with GBP", nl: "Currency of Falklands at parity with GBP" },
+          { en: "Historical currency", es: "Historical currency", de: "Historical currency", nl: "Historical currency" },
+          { en: "South American currency", es: "South American currency", de: "South American currency", nl: "South American currency" },
+          { en: "Cryptocurrency", es: "Cryptocurrency", de: "Cryptocurrency", nl: "Cryptocurrency" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Falkland Islands Pound (FKP) is pegged to British Pound at 1:1 ratio.",
+          es: "The Falkland Islands Pound (FKP) is pegged to British Pound at 1:1 ratio.",
+          de: "The Falkland Islands Pound (FKP) is pegged to British Pound at 1:1 ratio.",
+          nl: "The Falkland Islands Pound (FKP) is pegged to British Pound at 1:1 ratio."
+        }      },
+      {
+        question: {
+          en: "What is the Cayman Islands Dollar?",
+          es: "What is the Cayman Islands Dollar?",
+          de: "What is the Cayman Islands Dollar?",
+          nl: "What is the Cayman Islands Dollar?"
+        },
+        options: [
+          { en: "High-value Caribbean currency", es: "High-value Caribbean currency", de: "High-value Caribbean currency", nl: "High-value Caribbean currency" },
+          { en: "Lowest value currency", es: "Lowest value currency", de: "Lowest value currency", nl: "Lowest value currency" },
+          { en: "European currency", es: "European currency", de: "European currency", nl: "European currency" },
+          { en: "Cryptocurrency", es: "Cryptocurrency", de: "Cryptocurrency", nl: "Cryptocurrency" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Cayman Islands Dollar (KYD) is one of the highest-valued currencies in the Americas.",
+          es: "The Cayman Islands Dollar (KYD) is one of the highest-valued currencies in the Americas.",
+          de: "The Cayman Islands Dollar (KYD) is one of the highest-valued currencies in the Americas.",
+          nl: "The Cayman Islands Dollar (KYD) is one of the highest-valued currencies in the Americas."
+        }      },
+      {
+        question: {
+          en: "What is the Saint Helena Pound?",
+          es: "What is the Saint Helena Pound?",
+          de: "What is the Saint Helena Pound?",
+          nl: "What is the Saint Helena Pound?"
+        },
+        options: [
+          { en: "Remote island currency pegged to GBP", es: "Remote island currency pegged to GBP", de: "Remote island currency pegged to GBP", nl: "Remote island currency pegged to GBP" },
+          { en: "African mainland currency", es: "African mainland currency", de: "African mainland currency", nl: "African mainland currency" },
+          { en: "Historical currency", es: "Historical currency", de: "Historical currency", nl: "Historical currency" },
+          { en: "Cryptocurrency", es: "Cryptocurrency", de: "Cryptocurrency", nl: "Cryptocurrency" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Saint Helena Pound (SHP) is used on Saint Helena island and pegged to British Pound.",
+          es: "Saint Helena Pound (SHP) is used on Saint Helena island and pegged to British Pound.",
+          de: "Saint Helena Pound (SHP) is used on Saint Helena island and pegged to British Pound.",
+          nl: "Saint Helena Pound (SHP) is used on Saint Helena island and pegged to British Pound."
+        }      },
+      {
+        question: {
+          en: "What is the Brunei Dollar?",
+          es: "What is the Brunei Dollar?",
+          de: "What is the Brunei Dollar?",
+          nl: "What is the Brunei Dollar?"
+        },
+        options: [
+          { en: "Southeast Asian currency", es: "Southeast Asian currency", de: "Southeast Asian currency", nl: "Southeast Asian currency" },
+          { en: "Middle Eastern currency", es: "Middle Eastern currency", de: "Middle Eastern currency", nl: "Middle Eastern currency" },
+          { en: "Cryptocurrency", es: "Cryptocurrency", de: "Cryptocurrency", nl: "Cryptocurrency" },
+          { en: "Historical currency", es: "Historical currency", de: "Historical currency", nl: "Historical currency" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Brunei Dollar (BND) is interchangeable with Singapore Dollar at 1:1 ratio.",
+          es: "The Brunei Dollar (BND) is interchangeable with Singapore Dollar at 1:1 ratio.",
+          de: "The Brunei Dollar (BND) is interchangeable with Singapore Dollar at 1:1 ratio.",
+          nl: "The Brunei Dollar (BND) is interchangeable with Singapore Dollar at 1:1 ratio."
+        }      },
+      {
+        question: {
+          en: "What is the Latvian Lat?",
+          es: "What is the Latvian Lat?",
+          de: "What is the Latvian Lat?",
+          nl: "What is the Latvian Lat?"
+        },
+        options: [
+          { en: "Former currency before Euro", es: "Former currency before Euro", de: "Former currency before Euro", nl: "Former currency before Euro" },
+          { en: "Current currency", es: "Current currency", de: "Current currency", nl: "Current currency" },
+          { en: "Cryptocurrency", es: "Cryptocurrency", de: "Cryptocurrency", nl: "Cryptocurrency" },
+          { en: "Middle Eastern currency", es: "Middle Eastern currency", de: "Middle Eastern currency", nl: "Middle Eastern currency" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Latvian Lat (LVL) was Latvia's currency 1993-2014 before adopting Euro.",
+          es: "The Latvian Lat (LVL) was Latvia's currency 1993-2014 before adopting Euro.",
+          de: "The Latvian Lat (LVL) was Latvia's currency 1993-2014 before adopting Euro.",
+          nl: "The Latvian Lat (LVL) was Latvia's currency 1993-2014 before adopting Euro."
+        }      },
+      {
+        question: {
+          en: "What is the Azerbaijani Manat?",
+          es: "What is the Azerbaijani Manat?",
+          de: "What is the Azerbaijani Manat?",
+          nl: "What is the Azerbaijani Manat?"
+        },
+        options: [
+          { en: "Currency of Azerbaijan", es: "Currency of Azerbaijan", de: "Currency of Azerbaijan", nl: "Currency of Azerbaijan" },
+          { en: "Historical currency", es: "Historical currency", de: "Historical currency", nl: "Historical currency" },
+          { en: "European currency", es: "European currency", de: "European currency", nl: "European currency" },
+          { en: "Cryptocurrency", es: "Cryptocurrency", de: "Cryptocurrency", nl: "Cryptocurrency" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Azerbaijani Manat (AZN) is the currency of Azerbaijan, introduced in 1992.",
+          es: "The Azerbaijani Manat (AZN) is the currency of Azerbaijan, introduced in 1992.",
+          de: "The Azerbaijani Manat (AZN) is the currency of Azerbaijan, introduced in 1992.",
+          nl: "The Azerbaijani Manat (AZN) is the currency of Azerbaijan, introduced in 1992."
+        }      },
+      {
+        question: {
+          en: "What is the Tongan Pa'anga?",
+          es: "What is the Tongan Pa'anga?",
+          de: "What is the Tongan Pa'anga?",
+          nl: "What is the Tongan Pa'anga?"
+        },
+        options: [
+          { en: "Pacific island currency", es: "Pacific island currency", de: "Pacific island currency", nl: "Pacific island currency" },
+          { en: "African currency", es: "African currency", de: "African currency", nl: "African currency" },
+          { en: "Cryptocurrency", es: "Cryptocurrency", de: "Cryptocurrency", nl: "Cryptocurrency" },
+          { en: "Obsolete currency", es: "Obsolete currency", de: "Obsolete currency", nl: "Obsolete currency" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Tongan Pa'anga (TOP) is the currency of the Kingdom of Tonga in the Pacific.",
+          es: "The Tongan Pa'anga (TOP) is the currency of the Kingdom of Tonga in the Pacific.",
+          de: "The Tongan Pa'anga (TOP) is the currency of the Kingdom of Tonga in the Pacific.",
+          nl: "The Tongan Pa'anga (TOP) is the currency of the Kingdom of Tonga in the Pacific."
+        }      },
+      {
+        question: {
+          en: "What is the Libyan Dinar?",
+          es: "What is the Libyan Dinar?",
+          de: "What is the Libyan Dinar?",
+          nl: "What is the Libyan Dinar?"
+        },
+        options: [
+          { en: "North African currency", es: "North African currency", de: "North African currency", nl: "North African currency" },
+          { en: "Middle Eastern currency", es: "Middle Eastern currency", de: "Middle Eastern currency", nl: "Middle Eastern currency" },
+          { en: "Cryptocurrency", es: "Cryptocurrency", de: "Cryptocurrency", nl: "Cryptocurrency" },
+          { en: "European currency", es: "European currency", de: "European currency", nl: "European currency" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Libyan Dinar (LYD) is Libya's currency, one of Africa's stronger currencies.",
+          es: "The Libyan Dinar (LYD) is Libya's currency, one of Africa's stronger currencies.",
+          de: "The Libyan Dinar (LYD) is Libya's currency, one of Africa's stronger currencies.",
+          nl: "The Libyan Dinar (LYD) is Libya's currency, one of Africa's stronger currencies."
+        }      },
+      {
+        question: {
+          en: "What is the Barbados Dollar?",
+          es: "What is the Barbados Dollar?",
+          de: "What is the Barbados Dollar?",
+          nl: "What is the Barbados Dollar?"
+        },
+        options: [
+          { en: "Eastern Caribbean currency", es: "Eastern Caribbean currency", de: "Eastern Caribbean currency", nl: "Eastern Caribbean currency" },
+          { en: "Asian currency", es: "Asian currency", de: "Asian currency", nl: "Asian currency" },
+          { en: "European currency", es: "European currency", de: "European currency", nl: "European currency" },
+          { en: "Cryptocurrency", es: "Cryptocurrency", de: "Cryptocurrency", nl: "Cryptocurrency" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Barbados Dollar (BBD) is the currency of Barbados, pegged to USD at 2:1.",
+          es: "The Barbados Dollar (BBD) is the currency of Barbados, pegged to USD at 2:1.",
+          de: "The Barbados Dollar (BBD) is the currency of Barbados, pegged to USD at 2:1.",
+          nl: "The Barbados Dollar (BBD) is the currency of Barbados, pegged to USD at 2:1."
+        }      },
+      {
+        question: {
+          en: "What is the Bermudian Dollar?",
+          es: "What is the Bermudian Dollar?",
+          de: "What is the Bermudian Dollar?",
+          nl: "What is the Bermudian Dollar?"
+        },
+        options: [
+          { en: "Atlantic island currency", es: "Atlantic island currency", de: "Atlantic island currency", nl: "Atlantic island currency" },
+          { en: "Pacific currency", es: "Pacific currency", de: "Pacific currency", nl: "Pacific currency" },
+          { en: "Cryptocurrency", es: "Cryptocurrency", de: "Cryptocurrency", nl: "Cryptocurrency" },
+          { en: "Historical currency", es: "Historical currency", de: "Historical currency", nl: "Historical currency" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Bermudian Dollar (BMD) is pegged to USD at 1:1 and used alongside it.",
+          es: "The Bermudian Dollar (BMD) is pegged to USD at 1:1 and used alongside it.",
+          de: "The Bermudian Dollar (BMD) is pegged to USD at 1:1 and used alongside it.",
+          nl: "The Bermudian Dollar (BMD) is pegged to USD at 1:1 and used alongside it."
+        }      },
+      {
+        question: {
+          en: "What is the Aruban Florin?",
+          es: "What is the Aruban Florin?",
+          de: "What is the Aruban Florin?",
+          nl: "What is the Aruban Florin?"
+        },
+        options: [
+          { en: "Caribbean currency", es: "Caribbean currency", de: "Caribbean currency", nl: "Caribbean currency" },
+          { en: "European currency", es: "European currency", de: "European currency", nl: "European currency" },
+          { en: "Asian currency", es: "Asian currency", de: "Asian currency", nl: "Asian currency" },
+          { en: "Cryptocurrency", es: "Cryptocurrency", de: "Cryptocurrency", nl: "Cryptocurrency" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Aruban Florin (AWG) is the currency of Aruba, pegged to US Dollar.",
+          es: "The Aruban Florin (AWG) is the currency of Aruba, pegged to US Dollar.",
+          de: "The Aruban Florin (AWG) is the currency of Aruba, pegged to US Dollar.",
+          nl: "The Aruban Florin (AWG) is the currency of Aruba, pegged to US Dollar."
+        }      },
+      {
+        question: {
+          en: "What is the Cuban Convertible Peso?",
+          es: "What is the Cuban Convertible Peso?",
+          de: "What is the Cuban Convertible Peso?",
+          nl: "What is the Cuban Convertible Peso?"
+        },
+        options: [
+          { en: "Former dual currency system currency", es: "Former dual currency system currency", de: "Former dual currency system currency", nl: "Former dual currency system currency" },
+          { en: "Current only currency", es: "Current only currency", de: "Current only currency", nl: "Current only currency" },
+          { en: "Cryptocurrency", es: "Cryptocurrency", de: "Cryptocurrency", nl: "Cryptocurrency" },
+          { en: "Asian currency", es: "Asian currency", de: "Asian currency", nl: "Asian currency" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Cuban Convertible Peso (CUC) was discontinued in 2021 as Cuba unified its currency.",
+          es: "The Cuban Convertible Peso (CUC) was discontinued in 2021 as Cuba unified its currency.",
+          de: "The Cuban Convertible Peso (CUC) was discontinued in 2021 as Cuba unified its currency.",
+          nl: "The Cuban Convertible Peso (CUC) was discontinued in 2021 as Cuba unified its currency."
+        }      },
+      {
+        question: {
+          en: "What is the Seychellois Rupee?",
+          es: "What is the Seychellois Rupee?",
+          de: "What is the Seychellois Rupee?",
+          nl: "What is the Seychellois Rupee?"
+        },
+        options: [
+          { en: "Indian Ocean island currency", es: "Indian Ocean island currency", de: "Indian Ocean island currency", nl: "Indian Ocean island currency" },
+          { en: "Asian mainland currency", es: "Asian mainland currency", de: "Asian mainland currency", nl: "Asian mainland currency" },
+          { en: "Cryptocurrency", es: "Cryptocurrency", de: "Cryptocurrency", nl: "Cryptocurrency" },
+          { en: "Historical currency", es: "Historical currency", de: "Historical currency", nl: "Historical currency" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Seychellois Rupee (SCR) is the currency of Seychelles archipelago.",
+          es: "The Seychellois Rupee (SCR) is the currency of Seychelles archipelago.",
+          de: "The Seychellois Rupee (SCR) is the currency of Seychelles archipelago.",
+          nl: "The Seychellois Rupee (SCR) is the currency of Seychelles archipelago."
+        }      },
+      {
+        question: {
+          en: "What is the Samoan Tala?",
+          es: "What is the Samoan Tala?",
+          de: "What is the Samoan Tala?",
+          nl: "What is the Samoan Tala?"
+        },
+        options: [
+          { en: "Pacific island currency", es: "Pacific island currency", de: "Pacific island currency", nl: "Pacific island currency" },
+          { en: "African currency", es: "African currency", de: "African currency", nl: "African currency" },
+          { en: "European currency", es: "European currency", de: "European currency", nl: "European currency" },
+          { en: "Cryptocurrency", es: "Cryptocurrency", de: "Cryptocurrency", nl: "Cryptocurrency" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Samoan Tala (WST) is the currency of Samoa, formerly Western Samoa Dollar.",
+          es: "The Samoan Tala (WST) is the currency of Samoa, formerly Western Samoa Dollar.",
+          de: "The Samoan Tala (WST) is the currency of Samoa, formerly Western Samoa Dollar.",
+          nl: "The Samoan Tala (WST) is the currency of Samoa, formerly Western Samoa Dollar."
         }
       }
     ]

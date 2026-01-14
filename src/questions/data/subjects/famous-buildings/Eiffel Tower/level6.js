@@ -426,6 +426,427 @@
           de: "Die Aufzüge des Eiffelturms werden täglich auf Sicherheit überprüft, um sicherzustellen, dass sie jährlich Millionen von Besuchern sicher transportieren können.",
           nl: "De liften van de Eiffeltoren ondergaan dagelijkse veiligheidsinspecties om ervoor te zorgen dat ze elk jaar miljoenen bezoekers veilig kunnen vervoeren."
         }
+      },
+      {
+        question: {
+          en: "What type of iron was specifically used in the tower's construction?",
+          es: "¿Qué tipo de hierro se utilizó específicamente en la construcción de la torre?",
+          de: "Welche Art von Eisen wurde speziell beim Bau des Turms verwendet?",
+          nl: "Wat voor soort ijzer werd specifiek gebruikt bij de bouw van de toren?"
+        },
+        options: [
+          { en: "Puddled iron", es: "Hierro pudelado", de: "Puddelei sen", nl: "Gepudeld ijzer" },
+          { en: "Cast iron", es: "Hierro fundido", de: "Gusseisen", nl: "Gietijzer" },
+          { en: "Steel alloy", es: "Aleación de acero", de: "Stahllegierung", nl: "Staallegering" },
+          { en: "Wrought iron", es: "Hierro forjado", de: "Schmiedeeisen", nl: "Smeedijzer" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Puddled iron was chosen for its superior strength and resistance to oxidation, making it ideal for large-scale construction.",
+          es: "El hierro pudelado fue elegido por su resistencia superior y resistencia a la oxidación, haciéndolo ideal para construcción a gran escala.",
+          de: "Puddeleisen wurde wegen seiner überlegenen Festigkeit und Oxidationsbeständigkeit gewählt, was es ideal für Großbauten macht.",
+          nl: "Gepudeld ijzer werd gekozen vanwege zijn superieure sterkte en oxidatiebestendigheid, waardoor het ideaal is voor grootschalige bouw."
+        }
+      },
+      {
+        question: {
+          en: "How many workers were employed at the peak of construction?",
+          es: "¿Cuántos trabajadores se emplearon en el pico de la construcción?",
+          de: "Wie viele Arbeiter waren auf dem Höhepunkt des Baus beschäftigt?",
+          nl: "Hoeveel arbeiders waren in dienst op het hoogtepunt van de bouw?"
+        },
+        options: [
+          { en: "About 300 workers", es: "Aproximadamente 300 trabajadores", de: "Etwa 300 Arbeiter", nl: "Ongeveer 300 arbeiders" },
+          { en: "About 1000 workers", es: "Aproximadamente 1000 trabajadores", de: "Etwa 1000 Arbeiter", nl: "Ongeveer 1000 arbeiders" },
+          { en: "About 100 workers", es: "Aproximadamente 100 trabajadores", de: "Etwa 100 Arbeiter", nl: "Ongeveer 100 arbeiders" },
+          { en: "About 500 workers", es: "Aproximadamente 500 trabajadores", de: "Etwa 500 Arbeiter", nl: "Ongeveer 500 arbeiders" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "At peak construction, approximately 300 workers were employed, working in shifts to complete the tower in just over two years.",
+          es: "En el pico de construcción, se emplearon aproximadamente 300 trabajadores, trabajando en turnos para completar la torre en poco más de dos años.",
+          de: "Auf dem Höhepunkt der Bauarbeiten waren etwa 300 Arbeiter beschäftigt, die in Schichten arbeiteten, um den Turm in etwas mehr als zwei Jahren fertigzustellen.",
+          nl: "Op het hoogtepunt van de bouw waren ongeveer 300 arbeiders in dienst, die in ploegen werkten om de toren in iets meer dan twee jaar te voltooien."
+        }
+      },
+      {
+        question: {
+          en: "What is the maximum capacity of visitors allowed on the tower at one time?",
+          es: "¿Cuál es la capacidad máxima de visitantes permitida en la torre a la vez?",
+          de: "Wie hoch ist die maximale Besucherkapazität des Turms gleichzeitig?",
+          nl: "Wat is de maximale capaciteit aan bezoekers toegestaan op de toren tegelijk?"
+        },
+        options: [
+          { en: "About 2,800 people", es: "Aproximadamente 2,800 personas", de: "Etwa 2.800 Personen", nl: "Ongeveer 2.800 mensen" },
+          { en: "About 5,000 people", es: "Aproximadamente 5,000 personas", de: "Etwa 5.000 Personen", nl: "Ongeveer 5.000 mensen" },
+          { en: "About 1,000 people", es: "Aproximadamente 1,000 personas", de: "Etwa 1.000 Personen", nl: "Ongeveer 1.000 mensen" },
+          { en: "About 10,000 people", es: "Aproximadamente 10,000 personas", de: "Etwa 10.000 Personen", nl: "Ongeveer 10.000 mensen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "For safety reasons, the tower has a maximum capacity of approximately 2,800 visitors at any given time across all levels.",
+          es: "Por razones de seguridad, la torre tiene una capacidad máxima de aproximadamente 2,800 visitantes en cualquier momento dado en todos los niveles.",
+          de: "Aus Sicherheitsgründen hat der Turm eine maximale Kapazität von etwa 2.800 Besuchern gleichzeitig auf allen Ebenen.",
+          nl: "Om veiligheidsredenen heeft de toren een maximale capaciteit van ongeveer 2.800 bezoekers op elk moment over alle verdiepingen."
+        }
+      },
+      {
+        question: {
+          en: "How long does it take the elevators to reach the second level from ground?",
+          es: "¿Cuánto tiempo tardan los ascensores en llegar al segundo nivel desde el suelo?",
+          de: "Wie lange brauchen die Aufzüge, um vom Boden zur zweiten Ebene zu gelangen?",
+          nl: "Hoe lang doen de liften erover om de tweede verdieping vanaf de grond te bereiken?"
+        },
+        options: [
+          { en: "About 3-4 minutes", es: "Aproximadamente 3-4 minutos", de: "Etwa 3-4 Minuten", nl: "Ongeveer 3-4 minuten" },
+          { en: "About 1 minute", es: "Aproximadamente 1 minuto", de: "Etwa 1 Minute", nl: "Ongeveer 1 minuut" },
+          { en: "About 10 minutes", es: "Aproximadamente 10 minutos", de: "Etwa 10 Minuten", nl: "Ongeveer 10 minuten" },
+          { en: "About 7 minutes", es: "Aproximadamente 7 minutos", de: "Etwa 7 Minuten", nl: "Ongeveer 7 minuten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The elevator journey from ground level to the second floor takes approximately 3-4 minutes, operating on the original hydraulic system design.",
+          es: "El viaje en ascensor desde el nivel del suelo hasta el segundo piso toma aproximadamente 3-4 minutos, operando con el diseño del sistema hidráulico original.",
+          de: "Die Aufzugsfahrt vom Erdgeschoss zur zweiten Etage dauert etwa 3-4 Minuten und erfolgt mit dem ursprünglichen hydraulischen System.",
+          nl: "De liftrit van begane grond naar de tweede verdieping duurt ongeveer 3-4 minuten, werkend op het originele hydraulische systeemontwerp."
+        }
+      },
+      {
+        question: {
+          en: "What advanced feature did the tower's elevator cables have?",
+          es: "¿Qué característica avanzada tenían los cables del ascensor de la torre?",
+          de: "Welche fortschrittliche Eigenschaft hatten die Aufzugskabel des Turms?",
+          nl: "Welke geavanceerde eigenschap hadden de liftkabels van de toren?"
+        },
+        options: [
+          { en: "Safety braking system", es: "Sistema de frenado de seguridad", de: "Sicherheitsbremssystem", nl: "Veiligheidsremsysteem" },
+          { en: "Electric heating", es: "Calefacción eléctrica", de: "Elektrische Heizung", nl: "Elektrische verwarming" },
+          { en: "Self-lubricating mechanism", es: "Mecanismo autolubricante", de: "Selbstschmiermechanismus", nl: "Zelfsmerende mechanisme" },
+          { en: "Carbon fiber reinforcement", es: "Refuerzo de fibra de carbono", de: "Kohlefaserverstärkung", nl: "Koolstofvezel versterking" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The elevators featured an advanced safety braking system that would engage automatically if cable tension was lost, preventing free fall.",
+          es: "Los ascensores presentaban un sistema avanzado de frenado de seguridad que se activaría automáticamente si se perdía la tensión del cable, evitando la caída libre.",
+          de: "Die Aufzüge verfügten über ein fortschrittliches Sicherheitsbremssystem, das sich automatisch aktivierte, wenn die Kabelspannung verloren ging, um einen freien Fall zu verhindern.",
+          nl: "De liften hadden een geavanceerd veiligheidsremsysteem dat automatisch zou inschakelen als de kabelspanning verloren ging, waardoor vrije val werd voorkomen."
+        }
+      },
+      {
+        question: {
+          en: "What is the total surface area that requires painting?",
+          es: "¿Cuál es el área total de superficie que requiere pintura?",
+          de: "Wie groß ist die Gesamtoberfläche, die gestrichen werden muss?",
+          nl: "Wat is de totale oppervlakte die geverfd moet worden?"
+        },
+        options: [
+          { en: "About 250,000 square meters", es: "Aproximadamente 250,000 metros cuadrados", de: "Etwa 250.000 Quadratmeter", nl: "Ongeveer 250.000 vierkante meter" },
+          { en: "About 100,000 square meters", es: "Aproximadamente 100,000 metros cuadrados", de: "Etwa 100.000 Quadratmeter", nl: "Ongeveer 100.000 vierkante meter" },
+          { en: "About 500,000 square meters", es: "Aproximadamente 500,000 metros cuadrados", de: "Etwa 500.000 Quadratmeter", nl: "Ongeveer 500.000 vierkante meter" },
+          { en: "About 50,000 square meters", es: "Aproximadamente 50,000 metros cuadrados", de: "Etwa 50.000 Quadratmeter", nl: "Ongeveer 50.000 vierkante meter" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The total paintable surface area of the Eiffel Tower is approximately 250,000 square meters, all requiring hand application by skilled painters.",
+          es: "El área total de superficie pintable de la Torre Eiffel es aproximadamente 250,000 metros cuadrados, todo requiriendo aplicación manual por pintores calificados.",
+          de: "Die gesamte streichbare Oberfläche des Eiffelturms beträgt etwa 250.000 Quadratmeter, die alle von Hand durch geschulte Maler aufgetragen werden müssen.",
+          nl: "De totale schilderbare oppervlakte van de Eiffeltoren is ongeveer 250.000 vierkante meter, allemaal met handmatige toepassing door geschoolde schilders."
+        }
+      },
+      {
+        question: {
+          en: "What special tool is used for painting hard-to-reach areas?",
+          es: "¿Qué herramienta especial se utiliza para pintar áreas de difícil acceso?",
+          de: "Welches Spezialwerkzeug wird zum Streichen schwer erreichbarer Bereiche verwendet?",
+          nl: "Welk speciaal gereedschap wordt gebruikt voor het schilderen van moeilijk bereikbare gebieden?"
+        },
+        options: [
+          { en: "Custom extension brushes", es: "Pinceles de extensión personalizados", de: "Maßgefertigte Verlängerungspinsel", nl: "Aangepaste verlengingsborstels" },
+          { en: "Spray paint machines", es: "Máquinas de pintura en aerosol", de: "Sprühfarbenmaschinen", nl: "Spuitverf machines" },
+          { en: "Robotic painting arms", es: "Brazos de pintura robóticos", de: "Robotermaleriarme", nl: "Robotische schilderarmen" },
+          { en: "Drone painters", es: "Pintores con drones", de: "Drohnen-Maler", nl: "Drone schilders" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Painters use specially designed custom extension brushes to reach difficult areas while maintaining the traditional hand-painting technique.",
+          es: "Los pintores usan pinceles de extensión personalizados especialmente diseñados para alcanzar áreas difíciles mientras mantienen la técnica tradicional de pintura a mano.",
+          de: "Maler verwenden speziell entwickelte maßgefertigte Verlängerungspinsel, um schwierige Bereiche zu erreichen und dabei die traditionelle Handmaltechnik beizubehalten.",
+          nl: "Schilders gebruiken speciaal ontworpen aangepaste verlengingsborstels om moeilijke gebieden te bereiken terwijl de traditionele handschildertechniek behouden blijft."
+        }
+      },
+      {
+        question: {
+          en: "How many levels can visitors access in the Eiffel Tower?",
+          es: "¿Cuántos niveles pueden acceder los visitantes en la Torre Eiffel?",
+          de: "Wie viele Ebenen können Besucher im Eiffelturm erreichen?",
+          nl: "Hoeveel verdiepingen kunnen bezoekers bereiken in de Eiffeltoren?"
+        },
+        options: [
+          { en: "Three levels", es: "Tres niveles", de: "Drei Ebenen", nl: "Drie verdiepingen" },
+          { en: "Two levels", es: "Dos niveles", de: "Zwei Ebenen", nl: "Twee verdiepingen" },
+          { en: "Four levels", es: "Cuatro niveles", de: "Vier Ebenen", nl: "Vier verdiepingen" },
+          { en: "Five levels", es: "Cinco niveles", de: "Fünf Ebenen", nl: "Vijf verdiepingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Visitors can access three levels: the first at 57m, the second at 115m, and the summit at 276m, each offering different perspectives.",
+          es: "Los visitantes pueden acceder a tres niveles: el primero a 57m, el segundo a 115m, y la cumbre a 276m, cada uno ofreciendo diferentes perspectivas.",
+          de: "Besucher können drei Ebenen erreichen: die erste bei 57m, die zweite bei 115m und die Spitze bei 276m, jede mit unterschiedlichen Perspektiven.",
+          nl: "Bezoekers kunnen drie verdiepingen bereiken: de eerste op 57m, de tweede op 115m en de top op 276m, elk met verschillende perspectieven."
+        }
+      },
+      {
+        question: {
+          en: "What weather monitoring equipment is installed on the tower?",
+          es: "¿Qué equipo de monitoreo meteorológico está instalado en la torre?",
+          de: "Welche Wetterüberwachungsausrüstung ist am Turm installiert?",
+          nl: "Welke weersmonitoring apparatuur is geïnstalleerd op de toren?"
+        },
+        options: [
+          { en: "Anemometers and barometers", es: "Anemómetros y barómetros", de: "Anemometer und Barometer", nl: "Anemometers en barometers" },
+          { en: "Rain gauges only", es: "Solo pluviómetros", de: "Nur Regenmesser", nl: "Alleen regenmeters" },
+          { en: "Thermometers only", es: "Solo termómetros", de: "Nur Thermometer", nl: "Alleen thermometers" },
+          { en: "Humidity sensors only", es: "Solo sensores de humedad", de: "Nur Feuchtigkeitssensoren", nl: "Alleen vochtigheidssensoren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Anemometers measure wind speed and barometers track atmospheric pressure, providing valuable meteorological data from the tower's height.",
+          es: "Los anemómetros miden la velocidad del viento y los barómetros rastrean la presión atmosférica, proporcionando valiosos datos meteorológicos desde la altura de la torre.",
+          de: "Anemometer messen die Windgeschwindigkeit und Barometer verfolgen den atmosphärischen Druck und liefern wertvolle meteorologische Daten aus der Höhe des Turms.",
+          nl: "Anemometers meten windsnelheid en barometers volgen atmosferische druk, wat waardevolle meteorologische gegevens levert vanaf de hoogte van de toren."
+        }
+      },
+      {
+        question: {
+          en: "What structural monitoring is performed on the tower?",
+          es: "¿Qué monitoreo estructural se realiza en la torre?",
+          de: "Welche Strukturüberwachung wird am Turm durchgeführt?",
+          nl: "Welke structurele monitoring wordt uitgevoerd op de toren?"
+        },
+        options: [
+          { en: "Continuous vibration and stress monitoring", es: "Monitoreo continuo de vibración y estrés", de: "Kontinuierliche Vibrations- und Stressüberwachung", nl: "Continue vibratie en spanning monitoring" },
+          { en: "Annual visual inspection only", es: "Solo inspección visual anual", de: "Nur jährliche Sichtprüfung", nl: "Alleen jaarlijkse visuele inspectie" },
+          { en: "Monthly weight measurements", es: "Mediciones de peso mensuales", de: "Monatliche Gewichtsmessungen", nl: "Maandelijkse gewichtsmetingen" },
+          { en: "Quarterly paint thickness checks", es: "Controles trimestrales de espesor de pintura", de: "Vierteljährliche Lackdickenprüfungen", nl: "Driemaandelijkse verfdikte controles" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Advanced sensors continuously monitor vibrations and structural stress, ensuring early detection of any potential issues requiring maintenance.",
+          es: "Sensores avanzados monitorean continuamente las vibraciones y el estrés estructural, asegurando la detección temprana de cualquier problema potencial que requiera mantenimiento.",
+          de: "Fortschrittliche Sensoren überwachen kontinuierlich Vibrationen und strukturellen Stress und gewährleisten die frühzeitige Erkennung potenzieller Probleme, die Wartung erfordern.",
+          nl: "Geavanceerde sensoren monitoren continu trillingen en structurele spanning, wat vroege detectie van potentiële problemen die onderhoud vereisen garandeert."
+        }
+      },
+      {
+        question: {
+          en: "How much does the tower's metal framework weigh alone?",
+          es: "¿Cuánto pesa solo la estructura metálica de la torre?",
+          de: "Wie viel wiegt allein das Metallgerüst des Turms?",
+          nl: "Hoeveel weegt alleen het metalen raamwerk van de toren?"
+        },
+        options: [
+          { en: "About 7,300 tons", es: "Aproximadamente 7,300 toneladas", de: "Etwa 7.300 Tonnen", nl: "Ongeveer 7.300 ton" },
+          { en: "About 10,000 tons", es: "Aproximadamente 10,000 toneladas", de: "Etwa 10.000 Tonnen", nl: "Ongeveer 10.000 ton" },
+          { en: "About 5,000 tons", es: "Aproximadamente 5,000 toneladas", de: "Etwa 5.000 Tonnen", nl: "Ongeveer 5.000 ton" },
+          { en: "About 15,000 tons", es: "Aproximadamente 15,000 toneladas", de: "Etwa 15.000 Tonnen", nl: "Ongeveer 15.000 ton" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The iron framework alone weighs approximately 7,300 tons, with additional weight from elevators, shops, and antennas bringing the total to 10,100 tons.",
+          es: "La estructura de hierro sola pesa aproximadamente 7,300 toneladas, con peso adicional de ascensores, tiendas y antenas llevando el total a 10,100 toneladas.",
+          de: "Das Eisengerüst allein wiegt etwa 7.300 Tonnen, mit zusätzlichem Gewicht von Aufzügen, Geschäften und Antennen auf insgesamt 10.100 Tonnen.",
+          nl: "Het ijzeren raamwerk alleen weegt ongeveer 7.300 ton, met extra gewicht van liften, winkels en antennes tot een totaal van 10.100 ton."
+        }
+      },
+      {
+        question: {
+          en: "What is the operating speed of the elevators to the summit?",
+          es: "¿Cuál es la velocidad de operación de los ascensores a la cumbre?",
+          de: "Wie hoch ist die Betriebsgeschwindigkeit der Aufzüge zur Spitze?",
+          nl: "Wat is de bedrijfssnelheid van de liften naar de top?"
+        },
+        options: [
+          { en: "About 1.5 meters per second", es: "Aproximadamente 1.5 metros por segundo", de: "Etwa 1,5 Meter pro Sekunde", nl: "Ongeveer 1,5 meter per seconde" },
+          { en: "About 5 meters per second", es: "Aproximadamente 5 metros por segundo", de: "Etwa 5 Meter pro Sekunde", nl: "Ongeveer 5 meter per seconde" },
+          { en: "About 0.5 meters per second", es: "Aproximadamente 0.5 metros por segundo", de: "Etwa 0,5 Meter pro Sekunde", nl: "Ongeveer 0,5 meter per seconde" },
+          { en: "About 10 meters per second", es: "Aproximadamente 10 metros por segundo", de: "Etwa 10 Meter pro Sekunde", nl: "Ongeveer 10 meter per seconde" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The elevators operate at approximately 1.5 meters per second, balancing efficiency with passenger comfort and safety during the ascent.",
+          es: "Los ascensores operan a aproximadamente 1.5 metros por segundo, equilibrando eficiencia con comodidad y seguridad de pasajeros durante el ascenso.",
+          de: "Die Aufzüge fahren mit etwa 1,5 Metern pro Sekunde und balancieren Effizienz mit Passagierkomfort und Sicherheit während des Aufstiegs.",
+          nl: "De liften werken met ongeveer 1,5 meter per seconde, wat efficiëntie balanceert met passagierscomfort en veiligheid tijdens de opstijging."
+        }
+      },
+      {
+        question: {
+          en: "How many cables support each elevator car?",
+          es: "¿Cuántos cables soportan cada cabina de ascensor?",
+          de: "Wie viele Kabel tragen jede Aufzugskabine?",
+          nl: "Hoeveel kabels ondersteunen elke liftcabine?"
+        },
+        options: [
+          { en: "Multiple redundant cables", es: "Múltiples cables redundantes", de: "Mehrere redundante Kabel", nl: "Meerdere redundante kabels" },
+          { en: "One main cable", es: "Un cable principal", de: "Ein Hauptkabel", nl: "Eén hoofdkabel" },
+          { en: "Two cables", es: "Dos cables", de: "Zwei Kabel", nl: "Twee kabels" },
+          { en: "Five cables", es: "Cinco cables", de: "Fünf Kabel", nl: "Vijf kabels" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Each elevator car is supported by multiple redundant cables for maximum safety, ensuring operation continues even if one cable fails.",
+          es: "Cada cabina de ascensor está soportada por múltiples cables redundantes para máxima seguridad, asegurando que la operación continúe incluso si un cable falla.",
+          de: "Jede Aufzugskabine wird von mehreren redundanten Kabeln getragen, um maximale Sicherheit zu gewährleisten und den Betrieb auch bei Ausfall eines Kabels fortzusetzen.",
+          nl: "Elke liftcabine wordt ondersteund door meerdere redundante kabels voor maximale veiligheid, wat zorgt dat de werking doorgaat zelfs als een kabel faalt."
+        }
+      },
+      {
+        question: {
+          en: "What distinctive feature is at the top of each tower leg?",
+          es: "¿Qué característica distintiva hay en la parte superior de cada pata de la torre?",
+          de: "Welches markante Merkmal befindet sich oben an jedem Turmbein?",
+          nl: "Welk onderscheidend kenmerk bevindt zich bovenaan elk torenbeenpoot?"
+        },
+        options: [
+          { en: "Decorative arch structures", es: "Estructuras de arco decorativas", de: "Dekorative Bogenstrukturen", nl: "Decoratieve boogstructuren" },
+          { en: "Flag poles", es: "Mástiles de bandera", de: "Fahnenmasten", nl: "Vlaggenmasten" },
+          { en: "Observation decks", es: "Plataformas de observación", de: "Aussichtsplattformen", nl: "Observatiedecks" },
+          { en: "Wind turbines", es: "Turbinas eólicas", de: "Windturbinen", nl: "Windturbines" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Decorative arch structures at the top of each leg add aesthetic appeal while also serving structural purposes in load distribution.",
+          es: "Las estructuras de arco decorativas en la parte superior de cada pata añaden atractivo estético mientras también sirven propósitos estructurales en la distribución de carga.",
+          de: "Dekorative Bogenstrukturen oben an jedem Bein verleihen ästhetischen Reiz und dienen gleichzeitig strukturellen Zwecken bei der Lastverteilung.",
+          nl: "Decoratieve boogstructuren bovenaan elk been voegen esthetische aantrekkingskracht toe terwijl ze ook structurele doeleinden dienen bij lastenverdeling."
+        }
+      },
+      {
+        question: {
+          en: "How wide is the base of the Eiffel Tower?",
+          es: "¿Qué tan ancha es la base de la Torre Eiffel?",
+          de: "Wie breit ist die Basis des Eiffelturms?",
+          nl: "Hoe breed is de basis van de Eiffeltoren?"
+        },
+        options: [
+          { en: "125 meters square", es: "125 metros cuadrados", de: "125 Meter im Quadrat", nl: "125 meter vierkant" },
+          { en: "100 meters square", es: "100 metros cuadrados", de: "100 Meter im Quadrat", nl: "100 meter vierkant" },
+          { en: "200 meters square", es: "200 metros cuadrados", de: "200 Meter im Quadrat", nl: "200 meter vierkant" },
+          { en: "75 meters square", es: "75 metros cuadrados", de: "75 Meter im Quadrat", nl: "75 meter vierkant" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The tower's base forms a square with sides of 125 meters, providing a stable foundation for the massive structure above.",
+          es: "La base de la torre forma un cuadrado con lados de 125 metros, proporcionando una fundación estable para la estructura masiva arriba.",
+          de: "Die Basis des Turms bildet ein Quadrat mit Seiten von 125 Metern und bietet ein stabiles Fundament für die massive Struktur darüber.",
+          nl: "De basis van de toren vormt een vierkant met zijden van 125 meter, wat een stabiele fundering biedt voor de massieve structuur erboven."
+        }
+      },
+      {
+        question: {
+          en: "What energy efficiency measures were implemented recently?",
+          es: "¿Qué medidas de eficiencia energética se implementaron recientemente?",
+          de: "Welche Energieeffizienzmaßnahmen wurden kürzlich umgesetzt?",
+          nl: "Welke energie-efficiëntiemaatregelen werden recent geïmplementeerd?"
+        },
+        options: [
+          { en: "LED lighting and rainwater collection", es: "Iluminación LED y recolección de agua de lluvia", de: "LED-Beleuchtung und Regenwassersammlung", nl: "LED-verlichting en regenwater opvang" },
+          { en: "Nuclear power installation", es: "Instalación de energía nuclear", de: "Kernkraftinstallation", nl: "Kernenergie installatie" },
+          { en: "Coal heating system", es: "Sistema de calefacción de carbón", de: "Kohleheizungssystem", nl: "Kolen verwarmingssysteem" },
+          { en: "Gas generators only", es: "Solo generadores de gas", de: "Nur Gasgeneratoren", nl: "Alleen gasgeneratoren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "LED lighting reduced energy consumption by 40%, and rainwater collection systems support sustainable water use for facilities.",
+          es: "La iluminación LED redujo el consumo de energía en un 40%, y los sistemas de recolección de agua de lluvia apoyan el uso sostenible del agua para las instalaciones.",
+          de: "LED-Beleuchtung reduzierte den Energieverbrauch um 40%, und Regenwassersammelsysteme unterstützen nachhaltige Wassernutzung für Einrichtungen.",
+          nl: "LED-verlichting verminderde het energieverbruik met 40%, en regenwater opvangsystemen ondersteunen duurzaam watergebruik voor faciliteiten."
+        }
+      },
+      {
+        question: {
+          en: "How many steps lead from ground to the second level?",
+          es: "¿Cuántos escalones conducen desde el suelo hasta el segundo nivel?",
+          de: "Wie viele Stufen führen vom Boden zur zweiten Ebene?",
+          nl: "Hoeveel treden leiden van de grond naar de tweede verdieping?"
+        },
+        options: [
+          { en: "674 steps", es: "674 escalones", de: "674 Stufen", nl: "674 treden" },
+          { en: "1000 steps", es: "1000 escalones", de: "1000 Stufen", nl: "1000 treden" },
+          { en: "400 steps", es: "400 escalones", de: "400 Stufen", nl: "400 treden" },
+          { en: "900 steps", es: "900 escalones", de: "900 Stufen", nl: "900 treden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "There are 674 steps from ground level to the second floor, which visitors can climb as an alternative to taking the elevator.",
+          es: "Hay 674 escalones desde el nivel del suelo hasta el segundo piso, que los visitantes pueden subir como alternativa a tomar el ascensor.",
+          de: "Es gibt 674 Stufen vom Erdgeschoss zur zweiten Etage, die Besucher als Alternative zur Aufzugsfahrt steigen können.",
+          nl: "Er zijn 674 treden van begane grond naar de tweede verdieping, die bezoekers kunnen beklimmen als alternatief voor het nemen van de lift."
+        }
+      },
+      {
+        question: {
+          en: "What is the recommended time for visitors to allocate for a full visit?",
+          es: "¿Cuál es el tiempo recomendado para que los visitantes asignen para una visita completa?",
+          de: "Wie viel Zeit sollten Besucher für einen vollständigen Besuch einplanen?",
+          nl: "Wat is de aanbevolen tijd voor bezoekers om te reserveren voor een volledig bezoek?"
+        },
+        options: [
+          { en: "2-3 hours", es: "2-3 horas", de: "2-3 Stunden", nl: "2-3 uur" },
+          { en: "30 minutes", es: "30 minutos", de: "30 Minuten", nl: "30 minuten" },
+          { en: "5 hours", es: "5 horas", de: "5 Stunden", nl: "5 uur" },
+          { en: "1 hour", es: "1 hora", de: "1 Stunde", nl: "1 uur" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "To fully experience all levels, enjoy the views, and explore exhibits, visitors should allocate approximately 2-3 hours for their visit.",
+          es: "Para experimentar completamente todos los niveles, disfrutar de las vistas y explorar las exhibiciones, los visitantes deben asignar aproximadamente 2-3 horas para su visita.",
+          de: "Um alle Ebenen vollständig zu erleben, die Aussicht zu genießen und Ausstellungen zu erkunden, sollten Besucher etwa 2-3 Stunden für ihren Besuch einplanen.",
+          nl: "Om alle verdiepingen volledig te ervaren, van het uitzicht te genieten en tentoonstellingen te verkennen, moeten bezoekers ongeveer 2-3 uur reserveren voor hun bezoek."
+        }
+      },
+      {
+        question: {
+          en: "What type of foundation supports the tower's four legs?",
+          es: "¿Qué tipo de fundación soporta las cuatro patas de la torre?",
+          de: "Welche Art von Fundament trägt die vier Beine des Turms?",
+          nl: "Wat voor soort fundering ondersteunt de vier poten van de toren?"
+        },
+        options: [
+          { en: "Concrete and masonry pillars", es: "Pilares de hormigón y mampostería", de: "Beton- und Maurerwerkspfeiler", nl: "Beton en metselwerk pijlers" },
+          { en: "Wooden supports", es: "Soportes de madera", de: "Holzstützen", nl: "Houten ondersteuningen" },
+          { en: "Steel beams only", es: "Solo vigas de acero", de: "Nur Stahlträger", nl: "Alleen stalen balken" },
+          { en: "Floating foundation", es: "Fundación flotante", de: "Schwimmfundament", nl: "Drijvende fundering" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Each leg rests on massive concrete and masonry pillars that extend deep underground, distributing the tower's weight across bedrock.",
+          es: "Cada pata descansa sobre pilares masivos de hormigón y mampostería que se extienden profundamente bajo tierra, distribuyendo el peso de la torre a través de la roca madre.",
+          de: "Jedes Bein ruht auf massiven Beton- und Maurerwerkspfeilern, die tief in den Untergrund reichen und das Gewicht des Turms über das Grundgestein verteilen.",
+          nl: "Elk been rust op massieve beton en metselwerk pijlers die diep ondergronds reiken, wat het gewicht van de toren verdeelt over rotsbedding."
+        }
+,
+      {
+        question: {
+          en: "What modern technique is used to inspect hard-to-reach areas?",
+          es: "¿Qué técnica moderna se utiliza para inspeccionar áreas de difícil acceso?",
+          de: "Welche moderne Technik wird verwendet, um schwer zugängliche Bereiche zu inspizieren?",
+          nl: "Welke moderne techniek wordt gebruikt om moeilijk bereikbare gebieden te inspecteren?"
+        },
+        options: [
+          { en: "Drone inspections", es: "Inspecciones con drones", de: "Drohneninspektionen", nl: "Drone inspecties" },
+          { en: "Helicopter surveys", es: "Reconocimientos en helicóptero", de: "Hubschrauber-Vermessungen", nl: "Helikopter onderzoeken" },
+          { en: "Telescope observations", es: "Observaciones con telescopio", de: "Teleskopbeobachtungen", nl: "Telescoop waarnemingen" },
+          { en: "Satellite imaging", es: "Imágenes satelitales", de: "Satellitenbildgebung", nl: "Satellietbeelden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Modern drone technology allows detailed inspections of the tower's structure without requiring extensive scaffolding or putting workers at risk.",
+          es: "La tecnología moderna de drones permite inspecciones detalladas de la estructura de la torre sin requerir andamios extensos o poner en riesgo a los trabajadores.",
+          de: "Moderne Drohnentechnologie ermöglicht detaillierte Inspektionen der Turmstruktur ohne umfangreiche Gerüste oder Gefährdung von Arbeitern.",
+          nl: "Moderne dronetechnologie maakt gedetailleerde inspecties van de torenstructuur mogelijk zonder uitgebreide steigers of het in gevaar brengen van werkers."
+        }
+      }
       }
     ]
   };

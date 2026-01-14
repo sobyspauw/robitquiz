@@ -427,6 +427,426 @@
           es: "Las expresiones regulares son patrones poderosos que pueden coincidir con estructuras de texto específicas como direcciones de correo, números de teléfono, o patrones de palabras complejos. Se usan para validación, extracción y transformación de texto.",
           de: "Reguläre Ausdrücke sind mächtige Muster die spezifische Textstrukturen wie E-Mail-Adressen, Telefonnummern oder komplexe Wortmuster matchen können. Sie werden für Validierung, Extraktion und Transformation von Text verwendet."
         }
+      },
+      {
+        question: {
+          en: "What is Unicode normalization?",
+          es: "¿Qué es la normalización Unicode?",
+          de: "Was ist Unicode-Normalisierung?",
+          nl: "Wat is Unicode-normalisatie?"
+        },
+        options: [
+          { en: "Converting text to a standard Unicode representation to handle accented characters consistently", es: "Convertir texto a una representación Unicode estándar para manejar caracteres acentuados consistentemente", de: "Text in eine Standard-Unicode-Darstellung konvertieren um akzentuierte Zeichen konsistent zu behandeln", nl: "Tekst omzetten naar een standaard Unicode-representatie om geaccentueerde karakters consistent te behandelen" },
+          { en: "Making all Unicode characters the same size", es: "Hacer que todos los caracteres Unicode tengan el mismo tamaño", de: "Alle Unicode-Zeichen gleich groß machen", nl: "Alle Unicode-karakters dezelfde grootte maken" },
+          { en: "Converting Unicode to ASCII only", es: "Convertir Unicode solo a ASCII", de: "Unicode nur in ASCII konvertieren", nl: "Unicode alleen naar ASCII converteren" },
+          { en: "Removing all Unicode characters from text", es: "Eliminar todos los caracteres Unicode del texto", de: "Alle Unicode-Zeichen aus Text entfernen", nl: "Alle Unicode-karakters uit tekst verwijderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Unicode normalization standardizes different ways of representing the same character (like é which can be one character or e + accent). This ensures text comparison and processing works correctly.",
+          es: "La normalización Unicode estandariza diferentes formas de representar el mismo carácter (como é que puede ser un carácter o e + acento). Esto asegura que la comparación y procesamiento de texto funcione correctamente.",
+          de: "Unicode-Normalisierung standardisiert verschiedene Darstellungsweisen desselben Zeichens (wie é das ein Zeichen oder e + Akzent sein kann). Dies stellt sicher dass Textvergleich und -verarbeitung korrekt funktionieren.",
+          nl: "Unicode-normalisatie standaardiseert verschillende manieren om hetzelfde karakter weer te geven (zoals é dat één karakter kan zijn of e + accent). Dit zorgt ervoor dat tekstvergelijking en -verwerking correct werken."
+        }
+      },
+      {
+        question: {
+          en: "What is sentence boundary detection?",
+          es: "¿Qué es la detección de límites de oración?",
+          de: "Was ist Satzgrenzerkennung?",
+          nl: "Wat is zinsgrensdetectie?"
+        },
+        options: [
+          { en: "Identifying where sentences begin and end in text", es: "Identificar dónde comienzan y terminan las oraciones en texto", de: "Identifizieren wo Sätze in Text beginnen und enden", nl: "Identificeren waar zinnen beginnen en eindigen in tekst" },
+          { en: "Detecting the maximum length of sentences", es: "Detectar la longitud máxima de oraciones", de: "Die maximale Länge von Sätzen erkennen", nl: "De maximale lengte van zinnen detecteren" },
+          { en: "Finding sentences at document boundaries", es: "Encontrar oraciones en límites de documentos", de: "Sätze an Dokumentgrenzen finden", nl: "Zinnen vinden bij documentgrenzen" },
+          { en: "Measuring sentence complexity", es: "Medir la complejidad de las oraciones", de: "Satzkomplexität messen", nl: "Zinscomplexiteit meten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sentence boundary detection (sentence segmentation) identifies punctuation and context clues to split text into individual sentences, which is crucial for many NLP tasks.",
+          es: "La detección de límites de oración (segmentación de oraciones) identifica puntuación y pistas contextuales para dividir texto en oraciones individuales, lo cual es crucial para muchas tareas de PLN.",
+          de: "Satzgrenzerkennung (Satzsegmentierung) identifiziert Interpunktion und Kontexthinweise um Text in einzelne Sätze aufzuteilen, was für viele NLP-Aufgaben entscheidend ist.",
+          nl: "Zinsgrensdetectie (zinssegmentatie) identificeert interpunctie en contextuele aanwijzingen om tekst op te delen in individuele zinnen, wat cruciaal is voor veel NLP-taken."
+        }
+      },
+      {
+        question: {
+          en: "What is the Porter Stemmer algorithm?",
+          es: "¿Qué es el algoritmo Porter Stemmer?",
+          de: "Was ist der Porter Stemmer Algorithmus?",
+          nl: "Wat is het Porter Stemmer algoritme?"
+        },
+        options: [
+          { en: "A widely-used rule-based stemming algorithm for English", es: "Un algoritmo de stemming basado en reglas ampliamente usado para inglés", de: "Ein weit verbreiteter regelbasierter Stemming-Algorithmus für Englisch", nl: "Een veelgebruikt regel-gebaseerd stemming-algoritme voor Engels" },
+          { en: "A lemmatization algorithm for multiple languages", es: "Un algoritmo de lematización para múltiples idiomas", de: "Ein Lemmatisierungsalgorithmus für mehrere Sprachen", nl: "Een lemmatisatie-algoritme voor meerdere talen" },
+          { en: "A POS tagging system", es: "Un sistema de etiquetado POS", de: "Ein POS-Tagging-System", nl: "Een POS-tagging systeem" },
+          { en: "A machine learning tokenizer", es: "Un tokenizador de aprendizaje automático", de: "Ein maschinelles Lern-Tokenisierer", nl: "Een machine learning tokenizer" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Porter Stemmer is one of the most common stemming algorithms, using a series of rules to remove common English suffixes. It's fast but may produce non-dictionary stems.",
+          es: "El Porter Stemmer es uno de los algoritmos de stemming más comunes, usando una serie de reglas para eliminar sufijos comunes en inglés. Es rápido pero puede producir raíces que no están en el diccionario.",
+          de: "Der Porter Stemmer ist einer der gebräuchlichsten Stemming-Algorithmen, verwendet eine Reihe von Regeln um häufige englische Suffixe zu entfernen. Er ist schnell kann aber Wortstämme produzieren die nicht im Wörterbuch stehen.",
+          nl: "De Porter Stemmer is een van de meest gebruikelijke stemming-algoritmes, gebruikt een reeks regels om veelvoorkomende Engelse achtervoegsels te verwijderen. Het is snel maar kan woordstammen produceren die niet in het woordenboek staan."
+        }
+      },
+      {
+        question: {
+          en: "What is spell checking in text preprocessing?",
+          es: "¿Qué es la corrección ortográfica en preprocesamiento de texto?",
+          de: "Was ist Rechtschreibprüfung in der Textvorverarbeitung?",
+          nl: "Wat is spellingcontrole in tekstvoorverwerking?"
+        },
+        options: [
+          { en: "Detecting and optionally correcting misspelled words in text", es: "Detectar y opcionalmente corregir palabras mal escritas en texto", de: "Rechtschreibfehler in Text erkennen und optional korrigieren", nl: "Het detecteren en optioneel corrigeren van verkeerd gespelde woorden in tekst" },
+          { en: "Checking if text follows spelling rules only", es: "Verificar si el texto sigue solo reglas ortográficas", de: "Prüfen ob Text nur Rechtschreibregeln folgt", nl: "Controleren of tekst alleen spellingregels volgt" },
+          { en: "Converting British to American spelling", es: "Convertir ortografía británica a americana", de: "Britische in amerikanische Schreibweise konvertieren", nl: "Britse naar Amerikaanse spelling converteren" },
+          { en: "Removing all spelling variations", es: "Eliminar todas las variaciones ortográficas", de: "Alle Rechtschreibvarianten entfernen", nl: "Alle spellingvariaties verwijderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Spell checking identifies words that don't match dictionary entries and may suggest corrections. This preprocessing step helps improve text quality before analysis.",
+          es: "La corrección ortográfica identifica palabras que no coinciden con entradas del diccionario y puede sugerir correcciones. Este paso de preprocesamiento ayuda a mejorar la calidad del texto antes del análisis.",
+          de: "Rechtschreibprüfung identifiziert Wörter die nicht mit Wörterbucheinträgen übereinstimmen und kann Korrekturen vorschlagen. Dieser Vorverarbeitungsschritt hilft die Textqualität vor der Analyse zu verbessern.",
+          nl: "Spellingcontrole identificeert woorden die niet overeenkomen met woordenboekinvoer en kan correcties voorstellen. Deze voorverwerkingsstap helpt de tekstkwaliteit te verbeteren voor analyse."
+        }
+      },
+      {
+        question: {
+          en: "What is contraction expansion in text preprocessing?",
+          es: "¿Qué es la expansión de contracciones en preprocesamiento de texto?",
+          de: "Was ist Kontraktionserweiterung in der Textvorverarbeitung?",
+          nl: "Wat is contractie-expansie in tekstvoorverwerking?"
+        },
+        options: [
+          { en: "Converting shortened forms like \"don't\" to full forms like \"do not\"", es: "Convertir formas acortadas como \"don't\" a formas completas como \"do not\"", de: "Verkürzte Formen wie \"don't\" in vollständige Formen wie \"do not\" konvertieren", nl: "Verkorte vormen zoals \"don't\" converteren naar volledige vormen zoals \"do not\"" },
+          { en: "Expanding abbreviations only", es: "Expandir solo abreviaciones", de: "Nur Abkürzungen erweitern", nl: "Alleen afkortingen uitbreiden" },
+          { en: "Making text longer for better readability", es: "Hacer el texto más largo para mejor legibilidad", de: "Text für bessere Lesbarkeit länger machen", nl: "Tekst langer maken voor betere leesbaarheid" },
+          { en: "Converting short words to longer synonyms", es: "Convertir palabras cortas a sinónimos más largos", de: "Kurze Wörter in längere Synonyme konvertieren", nl: "Korte woorden converteren naar langere synoniemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Contraction expansion converts shortened word forms (contractions) to their full forms, which can help with consistency in text analysis and improve tokenization accuracy.",
+          es: "La expansión de contracciones convierte formas abreviadas de palabras (contracciones) a sus formas completas, lo que puede ayudar con la consistencia en análisis de texto y mejorar la precisión de tokenización.",
+          de: "Kontraktionserweiterung konvertiert verkürzte Wortformen (Kontraktionen) in ihre vollständigen Formen, was bei der Konsistenz in der Textanalyse helfen und die Tokenisierungsgenauigkeit verbessern kann.",
+          nl: "Contractie-expansie converteert verkorte woordvormen (contracties) naar hun volledige vormen, wat kan helpen bij consistentie in tekstanalyse en tokenisatie-nauwkeurigheid kan verbeteren."
+        }
+      },
+      {
+        question: {
+          en: "What is accent removal (diacritics removal)?",
+          es: "¿Qué es la eliminación de acentos (eliminación de diacríticos)?",
+          de: "Was ist Akzententfernung (Diakritika-Entfernung)?",
+          nl: "Wat is accentverwijdering (diakritische tekens verwijderen)?"
+        },
+        options: [
+          { en: "Converting accented characters to their base form (café → cafe)", es: "Convertir caracteres acentuados a su forma base (café → cafe)", de: "Akzentuierte Zeichen in ihre Grundform konvertieren (café → cafe)", nl: "Geaccentueerde karakters converteren naar hun basisvorm (café → cafe)" },
+          { en: "Removing emphasis from text", es: "Eliminar énfasis del texto", de: "Betonung aus Text entfernen", nl: "Nadruk uit tekst verwijderen" },
+          { en: "Deleting highlighted text", es: "Eliminar texto resaltado", de: "Hervorgehobenen Text löschen", nl: "Gemarkeerde tekst verwijderen" },
+          { en: "Removing speech accents from audio", es: "Eliminar acentos del habla del audio", de: "Sprachakzente aus Audio entfernen", nl: "Spraakaccenten uit audio verwijderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Accent removal strips diacritical marks from characters, converting letters like é, ñ, ü to e, n, u. This can help with text matching but may lose important meaning in some languages.",
+          es: "La eliminación de acentos quita marcas diacríticas de caracteres, convirtiendo letras como é, ñ, ü a e, n, u. Esto puede ayudar con la coincidencia de texto pero puede perder significado importante en algunos idiomas.",
+          de: "Akzententfernung entfernt diakritische Zeichen von Buchstaben, konvertiert Zeichen wie é, ñ, ü zu e, n, u. Dies kann bei Textabgleich helfen kann aber wichtige Bedeutung in einigen Sprachen verlieren.",
+          nl: "Accentverwijdering verwijdert diakritische tekens van karakters, converteert letters zoals é, ñ, ü naar e, n, u. Dit kan helpen bij tekstmatching maar kan belangrijke betekenis in sommige talen verliezen."
+        }
+      },
+      {
+        question: {
+          en: "What is HTML/XML tag stripping?",
+          es: "¿Qué es la eliminación de etiquetas HTML/XML?",
+          de: "Was ist HTML/XML-Tag-Entfernung?",
+          nl: "Wat is HTML/XML-tag verwijdering?"
+        },
+        options: [
+          { en: "Removing markup tags to extract plain text content", es: "Eliminar etiquetas de marcado para extraer contenido de texto plano", de: "Markup-Tags entfernen um reinen Textinhalt zu extrahieren", nl: "Markup-tags verwijderen om platte tekstinhoud te extraheren" },
+          { en: "Converting HTML to XML format", es: "Convertir HTML a formato XML", de: "HTML in XML-Format konvertieren", nl: "HTML naar XML-formaat converteren" },
+          { en: "Removing images and videos from web pages", es: "Eliminar imágenes y videos de páginas web", de: "Bilder und Videos von Webseiten entfernen", nl: "Afbeeldingen en video's van webpagina's verwijderen" },
+          { en: "Deleting metadata from documents", es: "Eliminar metadatos de documentos", de: "Metadaten aus Dokumenten löschen", nl: "Metadata uit documenten verwijderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "HTML/XML tag stripping removes markup elements like <p>, <div>, <strong> to extract just the text content, which is essential when processing web-scraped data.",
+          es: "La eliminación de etiquetas HTML/XML elimina elementos de marcado como <p>, <div>, <strong> para extraer solo el contenido de texto, lo cual es esencial al procesar datos extraídos de la web.",
+          de: "HTML/XML-Tag-Entfernung entfernt Markup-Elemente wie <p>, <div>, <strong> um nur den Textinhalt zu extrahieren, was beim Verarbeiten von web-gescrapten Daten wesentlich ist.",
+          nl: "HTML/XML-tag verwijdering verwijdert markup-elementen zoals <p>, <div>, <strong> om alleen de tekstinhoud te extraheren, wat essentieel is bij het verwerken van van het web geschraapte data."
+        }
+      },
+      {
+        question: {
+          en: "What is number normalization in text preprocessing?",
+          es: "¿Qué es la normalización de números en preprocesamiento de texto?",
+          de: "Was ist Zahlennormalisierung in der Textvorverarbeitung?",
+          nl: "Wat is getal-normalisatie in tekstvoorverwerking?"
+        },
+        options: [
+          { en: "Replacing numeric values with tokens or converting them to words", es: "Reemplazar valores numéricos con tokens o convertirlos a palabras", de: "Numerische Werte durch Tokens ersetzen oder in Wörter konvertieren", nl: "Numerieke waarden vervangen door tokens of converteren naar woorden" },
+          { en: "Converting all numbers to the same value", es: "Convertir todos los números al mismo valor", de: "Alle Zahlen in denselben Wert konvertieren", nl: "Alle getallen naar dezelfde waarde converteren" },
+          { en: "Removing all numbers from text", es: "Eliminar todos los números del texto", de: "Alle Zahlen aus Text entfernen", nl: "Alle getallen uit tekst verwijderen" },
+          { en: "Standardizing number formats only", es: "Solo estandarizar formatos de números", de: "Nur Zahlenformate standardisieren", nl: "Alleen getalformaten standaardiseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Number normalization can involve replacing numbers with placeholder tokens (like <NUM>), converting digits to words (2 → two), or standardizing formats. The approach depends on whether numbers are important for the analysis.",
+          es: "La normalización de números puede involucrar reemplazar números con tokens de marcador de posición (como <NUM>), convertir dígitos a palabras (2 → dos), o estandarizar formatos. El enfoque depende de si los números son importantes para el análisis.",
+          de: "Zahlennormalisierung kann das Ersetzen von Zahlen durch Platzhalter-Tokens (wie <NUM>), das Konvertieren von Ziffern in Wörter (2 → zwei) oder das Standardisieren von Formaten beinhalten. Der Ansatz hängt davon ab ob Zahlen für die Analyse wichtig sind.",
+          nl: "Getal-normalisatie kan het vervangen van getallen door placeholder tokens (zoals <NUM>), het converteren van cijfers naar woorden (2 → twee), of het standaardiseren van formaten omvatten. De aanpak hangt ervan af of getallen belangrijk zijn voor de analyse."
+        }
+      },
+      {
+        question: {
+          en: "What is URL removal in text preprocessing?",
+          es: "¿Qué es la eliminación de URL en preprocesamiento de texto?",
+          de: "Was ist URL-Entfernung in der Textvorverarbeitung?",
+          nl: "Wat is URL-verwijdering in tekstvoorverwerking?"
+        },
+        options: [
+          { en: "Detecting and removing web addresses from text", es: "Detectar y eliminar direcciones web del texto", de: "Webadressen in Text erkennen und entfernen", nl: "Webadressen in tekst detecteren en verwijderen" },
+          { en: "Shortening long URLs only", es: "Solo acortar URLs largas", de: "Nur lange URLs verkürzen", nl: "Alleen lange URLs verkorten" },
+          { en: "Converting URLs to clickable links", es: "Convertir URLs a enlaces clicables", de: "URLs in klickbare Links konvertieren", nl: "URLs converteren naar klikbare links" },
+          { en: "Validating URL formats", es: "Validar formatos de URL", de: "URL-Formate validieren", nl: "URL-formaten valideren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "URL removal identifies patterns like http://, https://, www. and removes web addresses from text, as they typically don't contribute to semantic analysis and add noise.",
+          es: "La eliminación de URL identifica patrones como http://, https://, www. y elimina direcciones web del texto, ya que típicamente no contribuyen al análisis semántico y agregan ruido.",
+          de: "URL-Entfernung identifiziert Muster wie http://, https://, www. und entfernt Webadressen aus Text, da sie typischerweise nicht zur semantischen Analyse beitragen und Rauschen hinzufügen.",
+          nl: "URL-verwijdering identificeert patronen zoals http://, https://, www. en verwijdert webadressen uit tekst, omdat ze meestal niet bijdragen aan semantische analyse en ruis toevoegen."
+        }
+      },
+      {
+        question: {
+          en: "What is email address removal in text preprocessing?",
+          es: "¿Qué es la eliminación de direcciones de correo en preprocesamiento de texto?",
+          de: "Was ist E-Mail-Adressen-Entfernung in der Textvorverarbeitung?",
+          nl: "Wat is e-mailadres verwijdering in tekstvoorverwerking?"
+        },
+        options: [
+          { en: "Identifying and removing email addresses from text using patterns", es: "Identificar y eliminar direcciones de correo del texto usando patrones", de: "E-Mail-Adressen in Text mit Mustern identifizieren und entfernen", nl: "E-mailadressen in tekst identificeren en verwijderen met patronen" },
+          { en: "Validating email format only", es: "Solo validar formato de correo", de: "Nur E-Mail-Format validieren", nl: "Alleen e-mailformaat valideren" },
+          { en: "Encrypting email addresses", es: "Encriptar direcciones de correo", de: "E-Mail-Adressen verschlüsseln", nl: "E-mailadressen versleutelen" },
+          { en: "Converting emails to usernames", es: "Convertir correos a nombres de usuario", de: "E-Mails in Benutzernamen konvertieren", nl: "E-mails converteren naar gebruikersnamen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Email address removal detects patterns matching email formats (like user@domain.com) and removes them from text, often for privacy or because they don't add semantic value to analysis.",
+          es: "La eliminación de direcciones de correo detecta patrones que coinciden con formatos de correo (como user@domain.com) y los elimina del texto, a menudo por privacidad o porque no agregan valor semántico al análisis.",
+          de: "E-Mail-Adressen-Entfernung erkennt Muster die E-Mail-Formaten entsprechen (wie user@domain.com) und entfernt sie aus Text, oft aus Datenschutzgründen oder weil sie keinen semantischen Wert zur Analyse hinzufügen.",
+          nl: "E-mailadres verwijdering detecteert patronen die overeenkomen met e-mailformaten (zoals user@domain.com) en verwijdert ze uit tekst, vaak voor privacy of omdat ze geen semantische waarde toevoegen aan analyse."
+        }
+      },
+      {
+        question: {
+          en: "What is emoticon/emoji handling in text preprocessing?",
+          es: "¿Qué es el manejo de emoticones/emojis en preprocesamiento de texto?",
+          de: "Was ist Emoticon/Emoji-Behandlung in der Textvorverarbeitung?",
+          nl: "Wat is emoticon/emoji-behandeling in tekstvoorverwerking?"
+        },
+        options: [
+          { en: "Converting or removing emotional symbols like :) or 😊 from text", es: "Convertir o eliminar símbolos emocionales como :) o 😊 del texto", de: "Emotionale Symbole wie :) oder 😊 aus Text konvertieren oder entfernen", nl: "Emotionele symbolen zoals :) of 😊 uit tekst converteren of verwijderen" },
+          { en: "Adding emojis to make text more expressive", es: "Agregar emojis para hacer el texto más expresivo", de: "Emojis hinzufügen um Text ausdrucksvoller zu machen", nl: "Emoji's toevoegen om tekst expressiever te maken" },
+          { en: "Translating emojis between languages", es: "Traducir emojis entre idiomas", de: "Emojis zwischen Sprachen übersetzen", nl: "Emoji's tussen talen vertalen" },
+          { en: "Counting emoji frequency only", es: "Solo contar frecuencia de emojis", de: "Nur Emoji-Häufigkeit zählen", nl: "Alleen emoji-frequentie tellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Emoticon/emoji handling can involve removing them, converting them to text descriptions (😊 → happy), or preserving them as sentiment indicators, depending on the analysis goals.",
+          es: "El manejo de emoticones/emojis puede involucrar eliminarlos, convertirlos a descripciones de texto (😊 → feliz), o preservarlos como indicadores de sentimiento, dependiendo de los objetivos del análisis.",
+          de: "Emoticon/Emoji-Behandlung kann das Entfernen, Konvertieren in Textbeschreibungen (😊 → glücklich) oder Beibehalten als Sentiment-Indikatoren umfassen, abhängig von den Analysezielen.",
+          nl: "Emoticon/emoji-behandeling kan het verwijderen, converteren naar tekstbeschrijvingen (😊 → blij), of behouden als sentimentindicatoren omvatten, afhankelijk van de analysedoelen."
+        }
+      },
+      {
+        question: {
+          en: "What is mention/hashtag extraction in text preprocessing?",
+          es: "¿Qué es la extracción de menciones/hashtags en preprocesamiento de texto?",
+          de: "Was ist Erwähnungs-/Hashtag-Extraktion in der Textvorverarbeitung?",
+          nl: "Wat is mention/hashtag-extractie in tekstvoorverwerking?"
+        },
+        options: [
+          { en: "Identifying and extracting @mentions and #hashtags from social media text", es: "Identificar y extraer @menciones y #hashtags de texto de redes sociales", de: "@Erwähnungen und #Hashtags aus Social-Media-Text identifizieren und extrahieren", nl: "@mentions en #hashtags uit sociale media tekst identificeren en extraheren" },
+          { en: "Creating new hashtags for content", es: "Crear nuevos hashtags para contenido", de: "Neue Hashtags für Inhalte erstellen", nl: "Nieuwe hashtags voor content maken" },
+          { en: "Counting characters in posts", es: "Contar caracteres en publicaciones", de: "Zeichen in Posts zählen", nl: "Karakters tellen in posts" },
+          { en: "Tagging users automatically", es: "Etiquetar usuarios automáticamente", de: "Benutzer automatisch taggen", nl: "Gebruikers automatisch taggen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In social media text processing, mentions (@username) and hashtags (#topic) are often extracted as they contain valuable information about references and topics being discussed.",
+          es: "En el procesamiento de texto de redes sociales, las menciones (@usuario) y hashtags (#tema) a menudo se extraen ya que contienen información valiosa sobre referencias y temas discutidos.",
+          de: "Bei der Verarbeitung von Social-Media-Text werden Erwähnungen (@benutzername) und Hashtags (#thema) oft extrahiert da sie wertvolle Informationen über Referenzen und diskutierte Themen enthalten.",
+          nl: "Bij sociale media tekstverwerking worden mentions (@gebruikersnaam) en hashtags (#onderwerp) vaak geëxtraheerd omdat ze waardevolle informatie bevatten over referenties en besproken onderwerpen."
+        }
+      },
+      {
+        question: {
+          en: "What is text deduplication?",
+          es: "¿Qué es la deduplicación de texto?",
+          de: "Was ist Textdeduplikation?",
+          nl: "Wat is tekstdeduplicatie?"
+        },
+        options: [
+          { en: "Identifying and removing duplicate or near-duplicate content", es: "Identificar y eliminar contenido duplicado o casi duplicado", de: "Doppelten oder fast doppelten Inhalt identifizieren und entfernen", nl: "Dubbele of bijna-dubbele content identificeren en verwijderen" },
+          { en: "Making two copies of text", es: "Hacer dos copias del texto", de: "Zwei Kopien von Text machen", nl: "Twee kopieën van tekst maken" },
+          { en: "Splitting text into duplicates", es: "Dividir texto en duplicados", de: "Text in Duplikate aufteilen", nl: "Tekst opdelen in duplicaten" },
+          { en: "Validating text uniqueness only", es: "Solo validar la unicidad del texto", de: "Nur Texteinzigartigkeit validieren", nl: "Alleen tekstuniekheid valideren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Text deduplication removes exact or near-duplicate documents/sentences from datasets, which improves model training quality and reduces computational costs.",
+          es: "La deduplicación de texto elimina documentos/oraciones exactas o casi duplicadas de conjuntos de datos, lo que mejora la calidad del entrenamiento del modelo y reduce costos computacionales.",
+          de: "Textdeduplikation entfernt exakte oder fast doppelte Dokumente/Sätze aus Datensätzen, was die Qualität des Modelltrainings verbessert und Rechenkosten reduziert.",
+          nl: "Tekstdeduplicatie verwijdert exacte of bijna-dubbele documenten/zinnen uit datasets, wat de kwaliteit van modeltraining verbetert en rekenkosten vermindert."
+        }
+      },
+      {
+        question: {
+          en: "What is language-specific preprocessing?",
+          es: "¿Qué es el preprocesamiento específico del idioma?",
+          de: "Was ist sprachspezifische Vorverarbeitung?",
+          nl: "Wat is taalspecifieke voorverwerking?"
+        },
+        options: [
+          { en: "Applying preprocessing techniques tailored to specific language characteristics", es: "Aplicar técnicas de preprocesamiento adaptadas a características específicas del idioma", de: "Vorverarbeitungstechniken anwenden die auf spezifische Sprachmerkmale zugeschnitten sind", nl: "Voorverwerkingstechnieken toepassen die zijn afgestemd op specifieke taalkenmerken" },
+          { en: "Translating text to one language", es: "Traducir texto a un idioma", de: "Text in eine Sprache übersetzen", nl: "Tekst naar één taal vertalen" },
+          { en: "Processing only English text", es: "Procesar solo texto en inglés", de: "Nur englischen Text verarbeiten", nl: "Alleen Engelse tekst verwerken" },
+          { en: "Detecting the language only", es: "Solo detectar el idioma", de: "Nur die Sprache erkennen", nl: "Alleen de taal detecteren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Different languages require different preprocessing approaches. For example, Chinese needs word segmentation, German needs compound splitting, and Arabic needs special character normalization.",
+          es: "Diferentes idiomas requieren diferentes enfoques de preprocesamiento. Por ejemplo, el chino necesita segmentación de palabras, el alemán necesita división de compuestos, y el árabe necesita normalización especial de caracteres.",
+          de: "Verschiedene Sprachen erfordern unterschiedliche Vorverarbeitungsansätze. Zum Beispiel benötigt Chinesisch Wortsegmentierung, Deutsch benötigt Komposita-Splitting und Arabisch benötigt spezielle Zeichennormalisierung.",
+          nl: "Verschillende talen vereisen verschillende voorverwerkingsbenaderingen. Bijvoorbeeld, Chinees heeft woordsegmentatie nodig, Duits heeft samenstellingssplitsing nodig, en Arabisch heeft speciale karakternormalisatie nodig."
+        }
+      },
+      {
+        question: {
+          en: "What is text augmentation?",
+          es: "¿Qué es la aumentación de texto?",
+          de: "Was ist Textaugmentierung?",
+          nl: "Wat is tekstaugmentatie?"
+        },
+        options: [
+          { en: "Creating variations of text data to increase training dataset size", es: "Crear variaciones de datos de texto para aumentar el tamaño del conjunto de entrenamiento", de: "Variationen von Textdaten erstellen um Trainingsdatensatzgröße zu erhöhen", nl: "Variaties van tekstdata maken om de grootte van trainingsdataset te vergroten" },
+          { en: "Making text larger in font size", es: "Hacer el texto más grande en tamaño de fuente", de: "Text in Schriftgröße größer machen", nl: "Tekst groter maken in lettergrootte" },
+          { en: "Adding more words to text", es: "Agregar más palabras al texto", de: "Mehr Wörter zu Text hinzufügen", nl: "Meer woorden aan tekst toevoegen" },
+          { en: "Increasing text quality only", es: "Solo aumentar la calidad del texto", de: "Nur Textqualität erhöhen", nl: "Alleen tekstkwaliteit verhogen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Text augmentation techniques like synonym replacement, back-translation, or paraphrasing create new training examples from existing text to improve model robustness.",
+          es: "Las técnicas de aumentación de texto como reemplazo de sinónimos, retro-traducción, o parafraseo crean nuevos ejemplos de entrenamiento de texto existente para mejorar la robustez del modelo.",
+          de: "Textaugmentierungstechniken wie Synonymersetzung, Rückübersetzung oder Paraphrasierung erstellen neue Trainingsbeispiele aus bestehendem Text um Modellrobustheit zu verbessern.",
+          nl: "Tekstaugmentatietechnieken zoals synoniemvervanging, terug-vertaling, of parafraseren maken nieuwe trainingsvoorbeelden van bestaande tekst om modelrobuustheid te verbeteren."
+        }
+      },
+      {
+        question: {
+          en: "What is the Snowball Stemmer?",
+          es: "¿Qué es el Snowball Stemmer?",
+          de: "Was ist der Snowball Stemmer?",
+          nl: "Wat is de Snowball Stemmer?"
+        },
+        options: [
+          { en: "An improved stemming algorithm that supports multiple languages", es: "Un algoritmo de stemming mejorado que soporta múltiples idiomas", de: "Ein verbesserter Stemming-Algorithmus der mehrere Sprachen unterstützt", nl: "Een verbeterd stemming-algoritme dat meerdere talen ondersteunt" },
+          { en: "A winter-specific text processor", es: "Un procesador de texto específico de invierno", de: "Ein winterspezifischer Textprozessor", nl: "Een winterspecifieke tekstprocessor" },
+          { en: "A tool for removing winter-related words", es: "Una herramienta para eliminar palabras relacionadas con el invierno", de: "Ein Werkzeug zum Entfernen winterbezogener Wörter", nl: "Een tool voor het verwijderen van wintergerelateerde woorden" },
+          { en: "A lemmatization system for English only", es: "Un sistema de lematización solo para inglés", de: "Ein Lemmatisierungssystem nur für Englisch", nl: "Een lemmatisatiesysteem alleen voor Engels" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Snowball (also called Porter2) is an improved version of the Porter Stemmer with support for many languages including English, French, German, Spanish, and more.",
+          es: "Snowball (también llamado Porter2) es una versión mejorada del Porter Stemmer con soporte para muchos idiomas incluyendo inglés, francés, alemán, español, y más.",
+          de: "Snowball (auch Porter2 genannt) ist eine verbesserte Version des Porter Stemmers mit Unterstützung für viele Sprachen einschließlich Englisch, Französisch, Deutsch, Spanisch und mehr.",
+          nl: "Snowball (ook wel Porter2 genoemd) is een verbeterde versie van de Porter Stemmer met ondersteuning voor veel talen waaronder Engels, Frans, Duits, Spaans, en meer."
+        }
+      },
+      {
+        question: {
+          en: "What is minimum edit distance (Levenshtein distance)?",
+          es: "¿Qué es la distancia de edición mínima (distancia de Levenshtein)?",
+          de: "Was ist minimale Edit-Distanz (Levenshtein-Distanz)?",
+          nl: "Wat is minimale edit distance (Levenshtein afstand)?"
+        },
+        options: [
+          { en: "The minimum number of insertions, deletions, and substitutions to transform one string into another", es: "El número mínimo de inserciones, eliminaciones y sustituciones para transformar una cadena en otra", de: "Die minimale Anzahl von Einfügungen, Löschungen und Ersetzungen um einen String in einen anderen zu transformieren", nl: "Het minimale aantal invoegingen, verwijderingen en vervangingen om de ene string in de andere te transformeren" },
+          { en: "The shortest text version possible", es: "La versión de texto más corta posible", de: "Die kürzest mögliche Textversion", nl: "De kortst mogelijke tekstversie" },
+          { en: "The minimum time to edit text", es: "El tiempo mínimo para editar texto", de: "Die minimale Zeit zum Bearbeiten von Text", nl: "De minimale tijd om tekst te bewerken" },
+          { en: "The smallest difference in text length", es: "La diferencia más pequeña en longitud de texto", de: "Der kleinste Unterschied in Textlänge", nl: "Het kleinste verschil in tekstlengte" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Levenshtein distance calculates string similarity by counting the minimum operations needed. It's used for spell checking, fuzzy string matching, and detecting text variations.",
+          es: "La distancia de Levenshtein calcula similitud de cadenas contando las operaciones mínimas necesarias. Se usa para corrección ortográfica, coincidencia difusa de cadenas, y detección de variaciones de texto.",
+          de: "Levenshtein-Distanz berechnet String-Ähnlichkeit durch Zählen der minimalen benötigten Operationen. Sie wird für Rechtschreibprüfung, unscharfes String-Matching und Erkennung von Textvariationen verwendet.",
+          nl: "Levenshtein afstand berekent string-gelijkenis door het minimale aantal benodigde operaties te tellen. Het wordt gebruikt voor spellingcontrole, fuzzy string matching, en het detecteren van tekstvariaties."
+        }
+      },
+      {
+        question: {
+          en: "What is vocabulary pruning?",
+          es: "¿Qué es la poda de vocabulario?",
+          de: "Was ist Vokabular-Pruning?",
+          nl: "Wat is vocabulaire-pruning?"
+        },
+        options: [
+          { en: "Removing rare or infrequent words from the vocabulary to reduce dimensionality", es: "Eliminar palabras raras o poco frecuentes del vocabulario para reducir dimensionalidad", de: "Seltene oder seltene Wörter aus dem Vokabular entfernen um Dimensionalität zu reduzieren", nl: "Zeldzame of weinig voorkomende woorden uit het vocabulaire verwijderen om dimensionaliteit te verminderen" },
+          { en: "Cutting vocabulary lists to specific sizes", es: "Cortar listas de vocabulario a tamaños específicos", de: "Vokabularlisten auf bestimmte Größen schneiden", nl: "Vocabulairelijsten knippen tot specifieke groottes" },
+          { en: "Organizing words alphabetically", es: "Organizar palabras alfabéticamente", de: "Wörter alphabetisch organisieren", nl: "Woorden alfabetisch organiseren" },
+          { en: "Removing only stop words", es: "Eliminar solo palabras vacías", de: "Nur Stoppwörter entfernen", nl: "Alleen stopwoorden verwijderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Vocabulary pruning reduces the vocabulary size by removing words that appear very rarely in the corpus, which helps reduce memory usage and computational cost while often maintaining performance.",
+          es: "La poda de vocabulario reduce el tamaño del vocabulario eliminando palabras que aparecen muy raramente en el corpus, lo que ayuda a reducir el uso de memoria y costo computacional mientras a menudo mantiene el rendimiento.",
+          de: "Vokabular-Pruning reduziert die Vokabulargröße durch Entfernen von Wörtern die sehr selten im Korpus erscheinen, was hilft Speichernutzung und Rechenkosten zu reduzieren während oft die Leistung erhalten bleibt.",
+          nl: "Vocabulaire-pruning vermindert de vocabulairegrootte door woorden te verwijderen die zeer zelden in het corpus voorkomen, wat helpt geheugengebruik en rekenkosten te verminderen terwijl vaak de prestaties behouden blijven."
+        }
+      },
+      {
+        question: {
+          en: "What is text vectorization?",
+          es: "¿Qué es la vectorización de texto?",
+          de: "Was ist Textvektorisierung?",
+          nl: "Wat is tekstvectorisatie?"
+        },
+        options: [
+          { en: "Converting text into numerical vector representations for machine learning", es: "Convertir texto en representaciones vectoriales numéricas para aprendizaje automático", de: "Text in numerische Vektordarstellungen für maschinelles Lernen konvertieren", nl: "Tekst converteren naar numerieke vectorrepresentaties voor machine learning" },
+          { en: "Drawing text as vector graphics", es: "Dibujar texto como gráficos vectoriales", de: "Text als Vektorgrafiken zeichnen", nl: "Tekst tekenen als vectorafbeeldingen" },
+          { en: "Organizing text in vectors", es: "Organizar texto en vectores", de: "Text in Vektoren organisieren", nl: "Tekst organiseren in vectoren" },
+          { en: "Converting images to text", es: "Convertir imágenes a texto", de: "Bilder in Text konvertieren", nl: "Afbeeldingen naar tekst converteren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Text vectorization transforms text data into numerical vectors that algorithms can process. Common methods include bag-of-words, TF-IDF, and word embeddings.",
+          es: "La vectorización de texto transforma datos de texto en vectores numéricos que los algoritmos pueden procesar. Los métodos comunes incluyen bolsa de palabras, TF-IDF, y word embeddings.",
+          de: "Textvektorisierung transformiert Textdaten in numerische Vektoren die Algorithmen verarbeiten können. Gängige Methoden umfassen Bag-of-Words, TF-IDF und Word Embeddings.",
+          nl: "Tekstvectorisatie transformeert tekstdata naar numerieke vectoren die algoritmes kunnen verwerken. Veelvoorkomende methoden zijn bag-of-words, TF-IDF, en word embeddings."
+        }
+      },
+      {
+        question: {
+          en: "What is character n-gram tokenization?",
+          es: "¿Qué es la tokenización de n-gramas de caracteres?",
+          de: "Was ist Zeichen-n-Gramm-Tokenisierung?",
+          nl: "Wat is karakter n-gram tokenisatie?"
+        },
+        options: [
+          { en: "Breaking text into sequences of n consecutive characters instead of words", es: "Dividir texto en secuencias de n caracteres consecutivos en lugar de palabras", de: "Text in Sequenzen von n aufeinanderfolgenden Zeichen statt Wörtern aufteilen", nl: "Tekst opdelen in reeksen van n opeenvolgende karakters in plaats van woorden" },
+          { en: "Tokenizing only n words at a time", es: "Tokenizar solo n palabras a la vez", de: "Nur n Wörter gleichzeitig tokenisieren", nl: "Slechts n woorden tegelijk tokeniseren" },
+          { en: "Extracting n-letter words only", es: "Extraer solo palabras de n letras", de: "Nur n-Buchstaben-Wörter extrahieren", nl: "Alleen n-letter woorden extraheren" },
+          { en: "Converting characters to numbers", es: "Convertir caracteres a números", de: "Zeichen in Zahlen konvertieren", nl: "Karakters naar getallen converteren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Character n-grams split text into overlapping sequences of characters (e.g., 'hello' → 'hel', 'ell', 'llo' for 3-grams). This helps with handling misspellings and unknown words.",
+          es: "Los n-gramas de caracteres dividen texto en secuencias superpuestas de caracteres (ej., 'hello' → 'hel', 'ell', 'llo' para 3-gramas). Esto ayuda a manejar errores ortográficos y palabras desconocidas.",
+          de: "Zeichen-n-Gramme teilen Text in überlappende Zeichensequenzen (z.B. 'hello' → 'hel', 'ell', 'llo' für 3-Gramme). Dies hilft beim Umgang mit Rechtschreibfehlern und unbekannten Wörtern.",
+          nl: "Karakter n-grams splitsen tekst in overlappende karakterreeksen (bijv. 'hello' → 'hel', 'ell', 'llo' voor 3-grams). Dit helpt bij het omgaan met spelfouten en onbekende woorden."
+        }
       }
     ]
   };

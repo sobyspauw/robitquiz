@@ -319,6 +319,351 @@
                 de: "Kohlefaser versagt typisch katastrophal mit wenig Verformung, während Metalle sich sichtbar verformen vor Versagen.",
                 nl: "Carbon fiber faalt meestal plotseling met weinig vervorming, terwijl metalen doorgaans zichtbaar vervormen voor ze falen."
             }
+        },
+        {
+            question: {
+                en: "What is the typical tensile strength of F1-grade carbon fiber?",
+                es: "¿Cuál es la resistencia a la tracción típica de la fibra de carbono grado F1?",
+                de: "Was ist die typische Zugfestigkeit von F1-Kohlefaser?",
+                nl: "Wat is de typische treksterkte van F1-grade carbon fiber?"
+            },
+            options: ["500 MPa", "1500 MPa", "3500+ MPa", "10000 MPa"],
+            correct: 2,
+            explanation: {
+                en: "High-performance F1-grade carbon fiber can achieve tensile strengths exceeding 3500 MPa, far stronger than steel.",
+                es: "La fibra de carbono grado F1 de alto rendimiento puede lograr resistencias a la tracción superiores a 3500 MPa, mucho más fuerte que el acero.",
+                de: "Hochleistungs-F1-Kohlefaser kann Zugfestigkeiten über 3500 MPa erreichen, weit stärker als Stahl.",
+                nl: "Hoogpresterende F1-grade carbon fiber kan treksterkten boven 3500 MPa bereiken, veel sterker dan staal."
+            }
+        },
+        {
+            question: {
+                en: "What is Out-of-Autoclave (OOA) curing?",
+                es: "¿Qué es el curado fuera del autoclave (OOA)?",
+                de: "Was ist Out-of-Autoclave (OOA) Härten?",
+                nl: "Wat is Out-of-Autoclave (OOA) harding?"
+            },
+            options: ["No curing needed", "Curing carbon fiber using only oven heat and vacuum", "Chemical curing only", "Air drying"],
+            correct: 1,
+            explanation: {
+                en: "OOA curing uses vacuum bag and oven heat without autoclave pressure, reducing costs but with potential trade-offs in ultimate strength.",
+                es: "El curado OOA usa bolsa de vacío y calor de horno sin presión de autoclave, reduciendo costos con posibles compromisos en resistencia.",
+                de: "OOA-Härten nutzt Vakuumbeutel und Ofenhitze ohne Autoklavendruck, reduziert Kosten mit möglichen Festigkeitseinbußen.",
+                nl: "OOA-harding gebruikt vacuümzak en ovenwarmt zonder autoclave-druk, wat kosten verlaagt maar mogelijk met afwegingen in ultieme sterkte."
+            }
+        },
+        {
+            question: {
+                en: "What is the role of release agents in carbon fiber molding?",
+                es: "¿Cuál es el papel de los agentes de liberación en el moldeo de fibra de carbono?",
+                de: "Was ist die Rolle von Trennmitteln beim Kohlefaser-Formen?",
+                nl: "Wat is de rol van loslaat middelen bij carbon fiber vormgeving?"
+            },
+            options: ["Strengthen the part", "Prevent cured part from sticking to mold surface", "Color the part", "Speed curing"],
+            correct: 1,
+            explanation: {
+                en: "Release agents create a barrier between the mold and carbon fiber, allowing the cured part to be removed without damage.",
+                es: "Los agentes de liberación crean una barrera entre el molde y la fibra de carbono, permitiendo remover la pieza curada sin daño.",
+                de: "Trennmittel schaffen eine Barriere zwischen Form und Kohlefaser, ermöglichen schadensfreies Entformen des gehärteten Teils.",
+                nl: "Loslaat middelen creëren een barrière tussen de mal en carbon fiber, wat toestaat dat het geharde onderdeel zonder schade wordt verwijderd."
+            }
+        },
+        {
+            question: {
+                en: "What are core plugs used for in composite structures?",
+                es: "¿Para qué se usan los tapones de núcleo en estructuras compuestas?",
+                de: "Wofür werden Kernstopfen in Verbundstrukturen verwendet?",
+                nl: "Waarvoor worden kernpluggen gebruikt in composiet structuren?"
+            },
+            options: ["Decoration", "Create hollow sections and complex internal geometries", "Add weight", "Seal holes"],
+            correct: 1,
+            explanation: {
+                en: "Core plugs are temporary inserts that create hollow sections or complex internal cavities in carbon fiber parts before being removed.",
+                es: "Los tapones de núcleo son insertos temporales que crean secciones huecas o cavidades internas complejas antes de ser removidos.",
+                de: "Kernstopfen sind temporäre Einsätze die hohle Abschnitte oder komplexe innere Hohlräume in Kohlefaserteilen schaffen.",
+                nl: "Kernpluggen zijn tijdelijke inzetstukken die holle secties of complexe interne holtes creëren in carbon fiber onderdelen voor ze worden verwijderd."
+            }
+        },
+        {
+            question: {
+                en: "What is vacuum bagging in composite manufacturing?",
+                es: "¿Qué es el embolsado al vacío en la fabricación de compuestos?",
+                de: "Was ist Vakuum-Bagging in der Verbundstoff-Herstellung?",
+                nl: "Wat is vacuüm bagging bij composiet fabricage?"
+            },
+            options: ["Storage method", "Sealing layup in airtight bag and removing air to compact layers", "Cleaning process", "Quality inspection"],
+            correct: 1,
+            explanation: {
+                en: "Vacuum bagging removes air between carbon fiber layers and applies atmospheric pressure to compact the layup before curing.",
+                es: "El embolsado al vacío remueve aire entre capas y aplica presión atmosférica para compactar el laminado antes del curado.",
+                de: "Vakuum-Bagging entfernt Luft zwischen Kohlefaserlagen und nutzt atmosphärischen Druck zum Verdichten vor dem Härten.",
+                nl: "Vacuüm bagging verwijdert lucht tussen carbon fiber lagen en past atmosferische druk toe om de layup te comprimeren voor harding."
+            }
+        },
+        {
+            question: {
+                en: "What is delamination in carbon fiber structures?",
+                es: "¿Qué es la delaminación en estructuras de fibra de carbono?",
+                de: "Was ist Delamination in Kohlefaserstrukturen?",
+                nl: "Wat is delaminatie in carbon fiber structuren?"
+            },
+            options: ["Normal operation", "Separation of fiber layers reducing strength dramatically", "Surface coating", "Manufacturing technique"],
+            correct: 1,
+            explanation: {
+                en: "Delamination is the separation of carbon fiber layers from each other, severely compromising structural integrity and strength.",
+                es: "La delaminación es la separación de capas de fibra de carbono entre sí, comprometiendo severamente integridad estructural.",
+                de: "Delamination ist das Trennen von Kohlefaserlagen voneinander, was strukturelle Integrität und Festigkeit stark beeinträchtigt.",
+                nl: "Delaminatie is de scheiding van carbon fiber lagen van elkaar, wat structurele integriteit en sterkte ernstig comprometteert."
+            }
+        },
+        {
+            question: {
+                en: "What is the purpose of peel ply in carbon fiber layup?",
+                es: "¿Cuál es el propósito del peel ply en el laminado de fibra de carbono?",
+                de: "Was ist der Zweck von Peel Ply beim Kohlefaser-Laminieren?",
+                nl: "Wat is het doel van peel ply bij carbon fiber layup?"
+            },
+            options: ["Strengthen part", "Create textured surface for bonding by peeling away after cure", "Add color", "Reduce weight"],
+            correct: 1,
+            explanation: {
+                en: "Peel ply is a fabric layer placed on the surface that's peeled away after curing, leaving a clean textured surface ideal for bonding.",
+                es: "Peel ply es una capa de tela colocada en la superficie que se pela después del curado, dejando superficie texturizada para adhesión.",
+                de: "Peel Ply ist eine Gewebeschicht auf der Oberfläche die nach dem Härten abgezogen wird für strukturierte Bonding-Oberfläche.",
+                nl: "Peel ply is een weefsellaag geplaatst op het oppervlak die na harding wordt afgetrokken, wat een schoon getextureerd oppervlak achterlaat ideaal voor verlijming."
+            }
+        },
+        {
+            question: {
+                en: "What is carbon fiber modulus and why does it matter?",
+                es: "¿Qué es el módulo de fibra de carbono y por qué importa?",
+                de: "Was ist der Kohlefaser-Modul und warum ist er wichtig?",
+                nl: "Wat is carbon fiber modulus en waarom is het belangrijk?"
+            },
+            options: ["Color measurement", "Stiffness - higher modulus = stiffer fiber but more brittle", "Weight", "Temperature resistance"],
+            correct: 1,
+            explanation: {
+                en: "Modulus measures stiffness; high-modulus fibers are extremely stiff but brittle, while standard-modulus offers better impact resistance.",
+                es: "El módulo mide rigidez; fibras de alto módulo son extremadamente rígidas pero frágiles, módulo estándar ofrece mejor resistencia.",
+                de: "Modul misst Steifigkeit; Hochmodul-Fasern sind extrem steif aber spröde, Standard-Modul bietet bessere Schlagfestigkeit.",
+                nl: "Modulus meet stijfheid; hoge-modulus vezels zijn extreem stijf maar bros, terwijl standaard-modulus betere impactweerstand biedt."
+            }
+        },
+        {
+            question: {
+                en: "What NDT methods are used to inspect carbon fiber parts?",
+                es: "¿Qué métodos NDT se usan para inspeccionar partes de fibra de carbono?",
+                de: "Welche NDT-Methoden werden zur Inspektion von Kohlefaserteilen verwendet?",
+                nl: "Welke NDT-methoden worden gebruikt om carbon fiber onderdelen te inspecteren?"
+            },
+            options: ["Visual only", "Ultrasonic testing, X-ray, thermography to detect defects", "Hammer tap test only", "No inspection needed"],
+            correct: 1,
+            explanation: {
+                en: "Non-Destructive Testing uses ultrasonic, X-ray, and thermography to detect internal defects like voids and delamination without damaging parts.",
+                es: "Pruebas No Destructivas usan ultrasonido, rayos X y termografía para detectar defectos internos sin dañar partes.",
+                de: "Zerstörungsfreie Prüfung nutzt Ultraschall, Röntgen und Thermografie um interne Defekte ohne Beschädigung zu erkennen.",
+                nl: "Non-Destructieve Testing gebruikt ultrasoon, röntgen en thermografie om interne defecten zoals holtes en delaminatie te detecteren zonder onderdelen te beschadigen."
+            }
+        },
+        {
+            question: {
+                en: "What is gel coat and why isn't it typically used in F1?",
+                es: "¿Qué es gel coat y por qué típicamente no se usa en F1?",
+                de: "Was ist Gelcoat und warum wird es in F1 typisch nicht verwendet?",
+                nl: "Wat is gel coat en waarom wordt het doorgaans niet gebruikt in F1?"
+            },
+            options: ["Essential component", "Surface resin layer adding weight with no structural benefit", "Strengthening layer", "Fire protection"],
+            correct: 1,
+            explanation: {
+                en: "Gel coat is a cosmetic resin surface layer used in many composites, but F1 avoids it to save weight, preferring paint or bare carbon.",
+                es: "Gel coat es una capa de resina cosmética usada en muchos compuestos, pero F1 lo evita para ahorrar peso, prefiriendo pintura.",
+                de: "Gelcoat ist eine kosmetische Harzschicht in vielen Verbundstoffen, F1 vermeidet es für Gewichtsersparnis und bevorzugt Lack.",
+                nl: "Gel coat is een cosmetische harsoppervlakte laag gebruikt in veel composieten, maar F1 vermijdt het om gewicht te besparen, met voorkeur voor verf."
+            }
+        },
+        {
+            question: {
+                en: "What are inserts in carbon fiber structures?",
+                es: "¿Qué son los insertos en estructuras de fibra de carbono?",
+                de: "Was sind Einsätze in Kohlefaserstrukturen?",
+                nl: "Wat zijn inzetstukken in carbon fiber structuren?"
+            },
+            options: ["Decorative elements", "Metal threaded bushings embedded for bolt attachment points", "Temporary supports", "Curing aids"],
+            correct: 1,
+            explanation: {
+                en: "Inserts are metal threaded bushings embedded in carbon fiber to provide strong attachment points for bolts and fasteners.",
+                es: "Los insertos son casquillos roscados de metal incrustados en fibra de carbono para proporcionar puntos de unión fuertes.",
+                de: "Einsätze sind Metall-Gewindebuchsen eingebettet in Kohlefaser für starke Befestigungspunkte für Schrauben.",
+                nl: "Inzetstukken zijn metalen schroefdraad bussen ingebed in carbon fiber om sterke bevestigingspunten voor bouten te bieden."
+            }
+        },
+        {
+            question: {
+                en: "What is the fiber volume fraction in high-performance composites?",
+                es: "¿Cuál es la fracción de volumen de fibra en compuestos de alto rendimiento?",
+                de: "Was ist der Faservolumenanteil in Hochleistungs-Verbundwerkstoffen?",
+                nl: "Wat is de vezelvolumefractie in hoogpresterende composieten?"
+            },
+            options: ["10-20%", "30-40%", "60-70%", "90-100%"],
+            correct: 2,
+            explanation: {
+                en: "High-performance composites target 60-70% fiber volume fraction, balancing maximum strength with adequate resin for binding.",
+                es: "Compuestos de alto rendimiento apuntan a 60-70% de fracción de volumen de fibra, equilibrando máxima resistencia con resina adecuada.",
+                de: "Hochleistungs-Verbundwerkstoffe zielen auf 60-70% Faservolumenanteil, Balance zwischen maximaler Festigkeit und ausreichend Harz.",
+                nl: "Hoogpresterende composieten streven naar 60-70% vezelvolumefractie, wat maximale sterkte balanceert met voldoende hars voor binding."
+            }
+        },
+        {
+            question: {
+                en: "What is the purpose of sacrificial plies in carbon fiber layup?",
+                es: "¿Cuál es el propósito de las capas sacrificiales en el laminado de fibra de carbono?",
+                de: "Was ist der Zweck von Opferlagen beim Kohlefaser-Laminieren?",
+                nl: "Wat is het doel van opofferingslagen bij carbon fiber layup?"
+            },
+            options: ["Primary structure", "Protect surface during machining operations then removed", "Add strength", "Create texture"],
+            correct: 1,
+            explanation: {
+                en: "Sacrificial plies are extra carbon fiber layers added to surfaces that will be machined, protecting the structural layers beneath.",
+                es: "Capas sacrificiales son capas extra de fibra de carbono añadidas a superficies que serán mecanizadas, protegiendo capas estructurales.",
+                de: "Opferlagen sind zusätzliche Kohlefaserlagen auf Oberflächen die bearbeitet werden, schützen strukturelle Lagen darunter.",
+                nl: "Opofferingslagen zijn extra carbon fiber lagen toegevoegd aan oppervlakken die bewerkt zullen worden, wat de structurele lagen eronder beschermt."
+            }
+        },
+        {
+            question: {
+                en: "What is interlaminar shear strength?",
+                es: "¿Qué es la resistencia al corte interlaminar?",
+                de: "Was ist interlaminare Scherfestigkeit?",
+                nl: "Wat is interlaminaire schuifsterkte?"
+            },
+            options: ["Surface hardness", "Resistance to layers sliding apart - critical weakness in composites", "Bending strength", "Compression strength"],
+            correct: 1,
+            explanation: {
+                en: "Interlaminar shear strength measures resistance to layers sliding apart, often the weakest aspect of carbon fiber structures.",
+                es: "La resistencia al corte interlaminar mide resistencia a que capas se deslicen, a menudo el aspecto más débil de estructuras de fibra.",
+                de: "Interlaminare Scherfestigkeit misst Widerstand gegen Schichtverschiebung, oft schwächster Aspekt von Kohlefaserstrukturen.",
+                nl: "Interlaminaire schuifsterkte meet weerstand tegen lagen die uit elkaar schuiven, vaak het zwakste aspect van carbon fiber structuren."
+            }
+        },
+        {
+            question: {
+                en: "What are tooling costs and why are they significant in carbon fiber manufacturing?",
+                es: "¿Qué son los costos de herramientas y por qué son significativos en la fabricación de fibra de carbono?",
+                de: "Was sind Werkzeugkosten und warum sind sie in der Kohlefaser-Herstellung bedeutend?",
+                nl: "Wat zijn gereedschapskosten en waarom zijn ze significant bij carbon fiber fabricage?"
+            },
+            options: ["Negligible", "Molds must withstand high temperatures/pressures, making them very expensive", "Only for paint", "Labor costs only"],
+            correct: 1,
+            explanation: {
+                en: "Carbon fiber molds must endure repeated high-temperature autoclave cycles, requiring expensive materials and precision manufacturing.",
+                es: "Moldes de fibra de carbono deben soportar ciclos repetidos de autoclave a alta temperatura, requiriendo materiales caros.",
+                de: "Kohlefaserformen müssen wiederholte Hochtemperatur-Autoklaven-Zyklen überstehen, erfordern teure Materialien und Präzision.",
+                nl: "Carbon fiber mallen moeten herhaalde hoge-temperatuur autoclave cycli doorstaan, wat dure materialen en precisie fabricage vereist."
+            }
+        },
+        {
+            question: {
+                en: "What is the difference between unidirectional and woven carbon fiber?",
+                es: "¿Cuál es la diferencia entre fibra de carbono unidireccional y tejida?",
+                de: "Was ist der Unterschied zwischen unidirektionaler und gewebter Kohlefaser?",
+                nl: "Wat is het verschil tussen unidirectionele en geweven carbon fiber?"
+            },
+            options: ["No difference", "Unidirectional: all fibers one direction for max strength; Woven: fibers interlaced for balanced properties", "Only appearance", "Weight only"],
+            correct: 1,
+            explanation: {
+                en: "Unidirectional has all fibers aligned for maximum strength in one direction; woven has interlaced fibers for more balanced multi-directional properties.",
+                es: "Unidireccional tiene todas las fibras alineadas para máxima resistencia en una dirección; tejida tiene fibras entrelazadas para propiedades equilibradas.",
+                de: "Unidirektional hat alle Fasern ausgerichtet für maximale Festigkeit in eine Richtung; Gewebe hat verflochtene Fasern für ausgewogene Eigenschaften.",
+                nl: "Unidirectioneel heeft alle vezels uitgelijnd voor maximale sterkte in één richting; geweven heeft vervlochten vezels voor meer gebalanceerde multi-directionele eigenschappen."
+            }
+        },
+        {
+            question: {
+                en: "What is pot life in composite manufacturing?",
+                es: "¿Qué es el pot life en la fabricación de compuestos?",
+                de: "Was ist Pot Life in der Verbundstoff-Herstellung?",
+                nl: "Wat is pot life bij composiet fabricage?"
+            },
+            options: ["Curing time", "Working time before mixed resin begins to cure and becomes unusable", "Storage life", "Service life"],
+            correct: 1,
+            explanation: {
+                en: "Pot life is the time window after mixing resin components during which the material remains workable before curing begins.",
+                es: "Pot life es la ventana de tiempo después de mezclar componentes de resina durante la cual el material permanece trabajable.",
+                de: "Pot Life ist das Zeitfenster nach Mischen der Harzkomponenten während dem Material verarbeitbar bleibt bevor Härten beginnt.",
+                nl: "Pot life is het tijdvenster na het mengen van harscomponenten waarin het materiaal bewerkbaar blijft voordat harding begint."
+            }
+        },
+        {
+            question: {
+                en: "What is the purpose of breather cloth in vacuum bagging?",
+                es: "¿Cuál es el propósito del paño de respiración en el embolsado al vacío?",
+                de: "Was ist der Zweck von Breather Cloth beim Vakuum-Bagging?",
+                nl: "Wat is het doel van breather cloth bij vacuüm bagging?"
+            },
+            options: ["Strengthen part", "Allow air/volatiles to escape evenly during vacuum process", "Add color", "Insulation"],
+            correct: 1,
+            explanation: {
+                en: "Breather cloth creates an air pathway allowing air and volatiles to be evacuated evenly across the part during vacuum bagging.",
+                es: "El paño de respiración crea un camino de aire permitiendo que aire y volátiles se evacuen uniformemente durante embolsado.",
+                de: "Breather Cloth schafft einen Luftweg der gleichmäßige Evakuierung von Luft und flüchtigen Stoffen beim Vakuum-Bagging ermöglicht.",
+                nl: "Breather cloth creëert een luchtweg die toestaat dat lucht en vluchtige stoffen gelijkmatig worden geëvacueerd over het onderdeel tijdens vacuüm bagging."
+            }
+        },
+        {
+            question: {
+                en: "What causes voids in carbon fiber parts and why are they problematic?",
+                es: "¿Qué causa vacíos en partes de fibra de carbono y por qué son problemáticos?",
+                de: "Was verursacht Hohlräume in Kohlefaserteilen und warum sind sie problematisch?",
+                nl: "Wat veroorzaakt holtes in carbon fiber onderdelen en waarom zijn ze problematisch?"
+            },
+            options: ["Normal and beneficial", "Trapped air/volatiles creating weak spots reducing strength", "Improve flexibility", "Reduce weight beneficially"],
+            correct: 1,
+            explanation: {
+                en: "Voids are trapped air pockets or volatiles that create discontinuities in the resin matrix, acting as crack initiation sites and reducing strength.",
+                es: "Los vacíos son bolsas de aire atrapadas que crean discontinuidades en la matriz de resina, actuando como sitios de iniciación de grietas.",
+                de: "Hohlräume sind eingeschlossene Lufttaschen die Diskontinuitäten in der Harzmatrix schaffen und als Rissausgangspunkte wirken.",
+                nl: "Holtes zijn ingesloten luchtpockets die discontinuïteiten creëren in de harsmatrix, wat werkt als scheurinitiatiepunten en sterkte vermindert."
+            }
+        },
+        {
+            question: {
+                en: "What is the purpose of 'witness holes' in F1 composite structures?",
+                es: "¿Cuál es el propósito de los 'agujeros testigo' en estructuras compuestas de F1?",
+                de: "Was ist der Zweck von 'Zeugen-Löchern' in F1-Verbundstrukturen?",
+                nl: "Wat is het doel van 'getuige gaten' in F1 composiet structuren?"
+            },
+            options: [
+                {
+                    en: "Allow inspection of internal layup quality and ply orientation during manufacturing",
+                    es: "Permitir inspección de calidad de laminado interno y orientación de capas durante fabricación",
+                    de: "Erlauben Inspektion der internen Laminierungsqualität und Lagenwinkeln während Fertigung",
+                    nl: "Toestaan inspectie van interne layup kwaliteit en laag oriëntatie tijdens fabricage"
+                },
+                {
+                    en: "Reduce weight by drilling holes",
+                    es: "Reducir peso perforando agujeros",
+                    de: "Gewicht reduzieren durch Bohren von Löchern",
+                    nl: "Gewicht verminderen door gaten te boren"
+                },
+                {
+                    en: "Improve aerodynamics",
+                    es: "Mejorar aerodinámica",
+                    de: "Aerodynamik verbessern",
+                    nl: "Aerodynamica verbeteren"
+                },
+                {
+                    en: "Cooling vents for driver",
+                    es: "Ventilación de enfriamiento para piloto",
+                    de: "Kühlungsschlitze für Fahrer",
+                    nl: "Koeling ventilatoren voor coureur"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Witness holes are strategically placed small holes that allow visual or borescope inspection of critical internal features like ply count, orientation angles, and layup sequence without destroying the part. This quality control technique is essential for validating complex carbon fiber structures meet specifications.",
+                es: "Agujeros testigo son pequeños agujeros estratégicamente colocados que permiten inspección visual o con boroscopio de características internas críticas como conteo de capas, ángulos de orientación y secuencia de laminado sin destruir la pieza. Esta técnica de control de calidad es esencial para validar que estructuras complejas de fibra de carbono cumplan especificaciones.",
+                de: "Zeugen-Löcher sind strategisch platzierte kleine Löcher die visuelle oder Boroskop-Inspektion kritischer interner Merkmale wie Lagenanzahl, Orientierungswinkel und Laminierungssequenz ermöglichen ohne das Teil zu zerstören. Diese Qualitätskontrolltechnik ist essentiell zur Validierung dass komplexe Kohlefaser-Strukturen Spezifikationen erfüllen.",
+                nl: "Getuige gaten zijn strategisch geplaatste kleine gaten die visuele of borescoop inspectie toestaan van kritieke interne kenmerken zoals laag telling, oriëntatie hoeken en layup volgorde zonder het onderdeel te vernietigen. Deze kwaliteitscontrole techniek is essentieel voor het valideren dat complexe carbon fiber structuren aan specificaties voldoen."
+            }
         }
     ];
 

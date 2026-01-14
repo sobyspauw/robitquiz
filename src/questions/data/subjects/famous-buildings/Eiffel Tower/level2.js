@@ -426,6 +426,426 @@
           de: "Der Eiffelturm begrüßte 2002 seinen 200-millionsten Besucher und festigte damit seinen Status als eines der meistbesuchten Denkmäler der Welt.",
           nl: "De Eiffeltoren verwelkomde zijn 200 miljoenste bezoeker in 2002, waarmee zijn status als een van 's werelds meest bezochte monumenten werd bevestigd."
         }
+      },
+      {
+        question: {
+          en: "How many workers were involved in building the Eiffel Tower?",
+          es: "¿Cuántos trabajadores participaron en la construcción de la Torre Eiffel?",
+          de: "Wie viele Arbeiter waren am Bau des Eiffelturms beteiligt?",
+          nl: "Hoeveel arbeiders waren betrokken bij de bouw van de Eiffeltoren?"
+        },
+        options: [
+          { en: "About 300", es: "Aproximadamente 300", de: "Etwa 300", nl: "Ongeveer 300" },
+          { en: "About 100", es: "Aproximadamente 100", de: "Etwa 100", nl: "Ongeveer 100" },
+          { en: "Over 1,000", es: "Más de 1,000", de: "Über 1.000", nl: "Meer dan 1.000" },
+          { en: "About 50", es: "Aproximadamente 50", de: "Etwa 50", nl: "Ongeveer 50" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Around 300 workers were employed in the construction of the Eiffel Tower, working in all weather conditions to complete it in time.",
+          es: "Alrededor de 300 trabajadores fueron empleados en la construcción de la Torre Eiffel, trabajando en todas las condiciones climáticas para completarla a tiempo.",
+          de: "Etwa 300 Arbeiter waren beim Bau des Eiffelturms beschäftigt und arbeiteten bei allen Wetterbedingungen, um ihn rechtzeitig fertigzustellen.",
+          nl: "Ongeveer 300 arbeiders waren werkzaam bij de bouw van de Eiffeltoren en werkten in alle weersomstandigheden om hem op tijd af te maken."
+        }
+      },
+      {
+        question: {
+          en: "How many rivets were used in the tower's construction?",
+          es: "¿Cuántos remaches se usaron en la construcción de la torre?",
+          de: "Wie viele Nieten wurden beim Bau des Turms verwendet?",
+          nl: "Hoeveel klinknagels werden gebruikt bij de bouw van de toren?"
+        },
+        options: [
+          { en: "2.5 million", es: "2.5 millones", de: "2,5 Millionen", nl: "2,5 miljoen" },
+          { en: "500,000", es: "500,000", de: "500.000", nl: "500.000" },
+          { en: "10 million", es: "10 millones", de: "10 Millionen", nl: "10 miljoen" },
+          { en: "100,000", es: "100,000", de: "100.000", nl: "100.000" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Approximately 2.5 million rivets were used to assemble the iron structure of the Eiffel Tower, each inserted by hand.",
+          es: "Se usaron aproximadamente 2.5 millones de remaches para ensamblar la estructura de hierro de la Torre Eiffel, cada uno insertado a mano.",
+          de: "Etwa 2,5 Millionen Nieten wurden verwendet, um die Eisenstruktur des Eiffelturms zusammenzubauen, jede von Hand eingesetzt.",
+          nl: "Ongeveer 2,5 miljoen klinknagels werden gebruikt om de ijzeren structuur van de Eiffeltoren te assembleren, elk met de hand geplaatst."
+        }
+      },
+      {
+        question: {
+          en: "What was the first major modification made to the tower?",
+          es: "¿Cuál fue la primera modificación importante hecha a la torre?",
+          de: "Was war die erste größere Änderung am Turm?",
+          nl: "Wat was de eerste belangrijke wijziging aan de toren?"
+        },
+        options: [
+          { en: "Installation of radio antenna", es: "Instalación de antena de radio", de: "Installation der Funkantenne", nl: "Installatie van radioantenne" },
+          { en: "Adding restaurants", es: "Añadir restaurantes", de: "Hinzufügen von Restaurants", nl: "Toevoegen van restaurants" },
+          { en: "Painting it gold", es: "Pintarla de oro", de: "Goldfarbe auftragen", nl: "Het goudkleurig schilderen" },
+          { en: "Building elevators", es: "Construir ascensores", de: "Aufzüge bauen", nl: "Liften bouwen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The first major modification was installing a radio antenna in 1898, which saved the tower from demolition by proving its usefulness.",
+          es: "La primera modificación importante fue instalar una antena de radio en 1898, que salvó a la torre de la demolición al demostrar su utilidad.",
+          de: "Die erste größere Änderung war die Installation einer Funkantenne 1898, die den Turm vor dem Abriss rettete, indem sie seine Nützlichkeit bewies.",
+          nl: "De eerste belangrijke wijziging was het installeren van een radioantenne in 1898, wat de toren van de sloop redde door zijn nut te bewijzen."
+        }
+      },
+      {
+        question: {
+          en: "During which year did construction begin on the Eiffel Tower?",
+          es: "¿En qué año comenzó la construcción de la Torre Eiffel?",
+          de: "In welchem Jahr begann der Bau des Eiffelturms?",
+          nl: "In welk jaar begon de bouw van de Eiffeltoren?"
+        },
+        options: [
+          { en: "1887", es: "1887", de: "1887", nl: "1887" },
+          { en: "1889", es: "1889", de: "1889", nl: "1889" },
+          { en: "1885", es: "1885", de: "1885", nl: "1885" },
+          { en: "1890", es: "1890", de: "1890", nl: "1890" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Construction began on January 28, 1887, and the tower was completed in March 1889, taking just over two years.",
+          es: "La construcción comenzó el 28 de enero de 1887, y la torre se completó en marzo de 1889, tardando poco más de dos años.",
+          de: "Der Bau begann am 28. Januar 1887, und der Turm wurde im März 1889 fertiggestellt, was etwas über zwei Jahre dauerte.",
+          nl: "De bouw begon op 28 januari 1887 en de toren werd in maart 1889 voltooid, wat iets meer dan twee jaar duurde."
+        }
+      },
+      {
+        question: {
+          en: "What was unusual about worker safety during construction?",
+          es: "¿Qué era inusual sobre la seguridad de los trabajadores durante la construcción?",
+          de: "Was war ungewöhnlich an der Arbeitssicherheit während des Baus?",
+          nl: "Wat was ongewoon aan de veiligheid van arbeiders tijdens de bouw?"
+        },
+        options: [
+          { en: "Only one fatality occurred", es: "Solo ocurrió una fatalidad", de: "Es gab nur einen Todesfall", nl: "Er viel slechts één dodelijk slachtoffer" },
+          { en: "No safety measures used", es: "No se usaron medidas de seguridad", de: "Keine Sicherheitsmaßnahmen verwendet", nl: "Geen veiligheidsmaatregelen gebruikt" },
+          { en: "All workers were injured", es: "Todos los trabajadores resultaron heridos", de: "Alle Arbeiter wurden verletzt", nl: "Alle arbeiders raakten gewond" },
+          { en: "Construction was stopped often", es: "La construcción se detuvo a menudo", de: "Bau wurde oft gestoppt", nl: "Bouw werd vaak stopgezet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Remarkably, only one worker died during construction, which was exceptional for such a large project in that era.",
+          es: "Notablemente, solo un trabajador murió durante la construcción, lo cual fue excepcional para un proyecto tan grande en esa época.",
+          de: "Bemerkenswerterweise starb nur ein Arbeiter während des Baus, was für ein so großes Projekt in dieser Ära außergewöhnlich war.",
+          nl: "Opmerkelijk genoeg stierf er maar één arbeider tijdens de bouw, wat uitzonderlijk was voor zo'n groot project in die tijd."
+        }
+      },
+      {
+        question: {
+          en: "What famous aviator flew through the tower's arches in 1944?",
+          es: "¿Qué famoso aviador voló a través de los arcos de la torre en 1944?",
+          de: "Welcher berühmte Flieger flog 1944 durch die Bögen des Turms?",
+          nl: "Welke beroemde piloot vloog in 1944 door de bogen van de toren?"
+        },
+        options: [
+          { en: "William Overstreet", es: "William Overstreet", de: "William Overstreet", nl: "William Overstreet" },
+          { en: "Charles Lindbergh", es: "Charles Lindbergh", de: "Charles Lindbergh", nl: "Charles Lindbergh" },
+          { en: "Amelia Earhart", es: "Amelia Earhart", de: "Amelia Earhart", nl: "Amelia Earhart" },
+          { en: "Antoine de Saint-Exupéry", es: "Antoine de Saint-Exupéry", de: "Antoine de Saint-Exupéry", nl: "Antoine de Saint-Exupéry" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "American pilot William Overstreet famously flew his P-51 Mustang through the tower's arches while chasing a German plane during WWII.",
+          es: "El piloto americano William Overstreet voló famosamente su P-51 Mustang a través de los arcos de la torre mientras perseguía un avión alemán durante la Segunda Guerra Mundial.",
+          de: "Der amerikanische Pilot William Overstreet flog berühmt mit seiner P-51 Mustang durch die Bögen des Turms, während er im Zweiten Weltkrieg ein deutsches Flugzeug verfolgte.",
+          nl: "De Amerikaanse piloot William Overstreet vloog beroemd met zijn P-51 Mustang door de bogen van de toren terwijl hij tijdens WOII een Duits vliegtuig achtervolgde."
+        }
+      },
+      {
+        question: {
+          en: "When was the first television broadcast from the Eiffel Tower?",
+          es: "¿Cuándo fue la primera transmisión de televisión desde la Torre Eiffel?",
+          de: "Wann war die erste Fernsehübertragung vom Eiffelturm?",
+          nl: "Wanneer was de eerste televisie-uitzending vanaf de Eiffeltoren?"
+        },
+        options: [
+          { en: "1935", es: "1935", de: "1935", nl: "1935" },
+          { en: "1950", es: "1950", de: "1950", nl: "1950" },
+          { en: "1920", es: "1920", de: "1920", nl: "1920" },
+          { en: "1960", es: "1960", de: "1960", nl: "1960" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The first television broadcast from the Eiffel Tower occurred in 1935, establishing it as an important broadcasting site.",
+          es: "La primera transmisión de televisión desde la Torre Eiffel ocurrió en 1935, estableciéndola como un sitio de transmisión importante.",
+          de: "Die erste Fernsehübertragung vom Eiffelturm fand 1935 statt und etablierte ihn als wichtigen Sendestandort.",
+          nl: "De eerste televisie-uitzending vanaf de Eiffeltoren vond plaats in 1935, waarmee het een belangrijke zendlocatie werd."
+        }
+      },
+      {
+        question: {
+          en: "What promotional stunt was performed on the tower in 1912?",
+          es: "¿Qué truco publicitario se realizó en la torre en 1912?",
+          de: "Welcher Werbestunt wurde 1912 am Turm durchgeführt?",
+          nl: "Welke publiciteitsstunt werd in 1912 bij de toren uitgevoerd?"
+        },
+        options: [
+          { en: "Franz Reichelt's parachute jump", es: "Salto en paracaídas de Franz Reichelt", de: "Franz Reichelts Fallschirmsprung", nl: "Franz Reichelts parachute sprong" },
+          { en: "First bungee jump", es: "Primer salto de bungee", de: "Erster Bungee-Sprung", nl: "Eerste bungeejump" },
+          { en: "Tightrope walk", es: "Caminata en cuerda floja", de: "Seiltanz", nl: "Koordlopen" },
+          { en: "Hot air balloon launch", es: "Lanzamiento de globo aerostático", de: "Heißluftballonstart", nl: "Luchtballonlancering" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Franz Reichelt, a tailor, jumped from the first level wearing a parachute suit he designed, but tragically fell to his death.",
+          es: "Franz Reichelt, un sastre, saltó desde el primer nivel vistiendo un traje de paracaídas que diseñó, pero trágicamente cayó a su muerte.",
+          de: "Franz Reichelt, ein Schneider, sprang von der ersten Ebene mit einem von ihm entworfenen Fallschirmanzug, stürzte aber tragisch in den Tod.",
+          nl: "Franz Reichelt, een kleermaker, sprong vanaf de eerste verdieping met een parachutepak dat hij ontwierp, maar viel tragisch te pletter."
+        }
+      },
+      {
+        question: {
+          en: "Who climbed the Eiffel Tower stairs in 2015 on a wheelchair?",
+          es: "¿Quién subió las escaleras de la Torre Eiffel en 2015 en silla de ruedas?",
+          de: "Wer bestieg 2015 die Treppen des Eiffelturms in einem Rollstuhl?",
+          nl: "Wie beklom in 2015 de trap van de Eiffeltoren in een rolstoel?"
+        },
+        options: [
+          { en: "No one - stairs climbed differently", es: "Nadie - escaleras subidas de otra manera", de: "Niemand - Treppen anders bestiegen", nl: "Niemand - trap anders beklommen" },
+          { en: "Stephen Hawking", es: "Stephen Hawking", de: "Stephen Hawking", nl: "Stephen Hawking" },
+          { en: "Oscar Pistorius", es: "Oscar Pistorius", de: "Oscar Pistorius", nl: "Oscar Pistorius" },
+          { en: "Jean-Dominique Bauby", es: "Jean-Dominique Bauby", de: "Jean-Dominique Bauby", nl: "Jean-Dominique Bauby" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "While the Eiffel Tower has elevators for accessibility, the stairs challenge has been undertaken by various athletes on foot or bicycle, not wheelchair.",
+          es: "Aunque la Torre Eiffel tiene ascensores para accesibilidad, el desafío de las escaleras ha sido realizado por varios atletas a pie o en bicicleta, no en silla de ruedas.",
+          de: "Obwohl der Eiffelturm für Barrierefreiheit Aufzüge hat, wurde die Treppenherausforderung von verschiedenen Athleten zu Fuß oder mit dem Fahrrad durchgeführt, nicht im Rollstuhl.",
+          nl: "Hoewel de Eiffeltoren liften heeft voor toegankelijkheid, is de trap-uitdaging ondernomen door verschillende atleten te voet of op de fiets, niet in een rolstoel."
+        }
+      },
+      {
+        question: {
+          en: "What happened on the tower's 100th anniversary in 1989?",
+          es: "¿Qué sucedió en el centenario de la torre en 1989?",
+          de: "Was geschah zum 100. Jahrestag des Turms 1989?",
+          nl: "Wat gebeurde er op het 100-jarig jubileum van de toren in 1989?"
+        },
+        options: [
+          { en: "Special light show and celebrations", es: "Espectáculo de luces especial y celebraciones", de: "Besondere Lichtshow und Feierlichkeiten", nl: "Speciale lichtshow en vieringen" },
+          { en: "Complete renovation", es: "Renovación completa", de: "Vollständige Renovierung", nl: "Volledige renovatie" },
+          { en: "Closure for repairs", es: "Cierre por reparaciones", de: "Schließung wegen Reparaturen", nl: "Sluiting voor reparaties" },
+          { en: "Nothing special", es: "Nada especial", de: "Nichts Besonderes", nl: "Niets bijzonders" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The tower's centennial was celebrated with elaborate fireworks and light shows, attracting massive crowds to Paris.",
+          es: "El centenario de la torre se celebró con fuegos artificiales elaborados y espectáculos de luces, atrayendo multitudes masivas a París.",
+          de: "Das hundertjährige Jubiläum des Turms wurde mit aufwendigen Feuerwerken und Lichtshows gefeiert, die große Menschenmengen nach Paris lockten.",
+          nl: "Het honderdjarig jubileum van de toren werd gevierd met uitgebreide vuurwerkshows en lichtshows, wat enorme menigten naar Parijs trok."
+        }
+      },
+      {
+        question: {
+          en: "When did the Eiffel Tower get its current lighting system?",
+          es: "¿Cuándo obtuvo la Torre Eiffel su sistema de iluminación actual?",
+          de: "Wann erhielt der Eiffelturm sein aktuelles Beleuchtungssystem?",
+          nl: "Wanneer kreeg de Eiffeltoren zijn huidige verlichtingssysteem?"
+        },
+        options: [
+          { en: "1985", es: "1985", de: "1985", nl: "1985" },
+          { en: "1950", es: "1950", de: "1950", nl: "1950" },
+          { en: "2000", es: "2000", de: "2000", nl: "2000" },
+          { en: "1920", es: "1920", de: "1920", nl: "1920" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The current golden lighting system with 336 spotlights was installed in 1985 to highlight the tower's architecture at night.",
+          es: "El sistema de iluminación dorada actual con 336 reflectores se instaló en 1985 para resaltar la arquitectura de la torre por la noche.",
+          de: "Das aktuelle goldene Beleuchtungssystem mit 336 Scheinwerfern wurde 1985 installiert, um die Architektur des Turms nachts hervorzuheben.",
+          nl: "Het huidige gouden verlichtingssysteem met 336 spotlights werd in 1985 geïnstalleerd om 's nachts de architectuur van de toren te benadrukken."
+        }
+      },
+      {
+        question: {
+          en: "What major event did the Eiffel Tower commemorate in 1989?",
+          es: "¿Qué evento importante conmemoró la Torre Eiffel en 1989?",
+          de: "Welches wichtige Ereignis gedachte der Eiffelturm 1989?",
+          nl: "Welke belangrijke gebeurtenis herdacht de Eiffeltoren in 1989?"
+        },
+        options: [
+          { en: "French Revolution bicentennial", es: "Bicentenario de la Revolución Francesa", de: "200-Jahr-Feier der Französischen Revolution", nl: "Tweehonderd jaar Franse Revolutie" },
+          { en: "End of WWII", es: "Fin de la Segunda Guerra Mundial", de: "Ende des Zweiten Weltkriegs", nl: "Einde van WOII" },
+          { en: "Napoleon's birth", es: "Nacimiento de Napoleón", de: "Napoleons Geburt", nl: "Geboorte van Napoleon" },
+          { en: "Fall of the Berlin Wall", es: "Caída del Muro de Berlín", de: "Fall der Berliner Mauer", nl: "Val van de Berlijnse Muur" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Eiffel Tower celebrated its 100th anniversary in 1989, coinciding with the bicentennial of the French Revolution it was originally built to commemorate.",
+          es: "La Torre Eiffel celebró su centenario en 1989, coincidiendo con el bicentenario de la Revolución Francesa que originalmente se construyó para conmemorar.",
+          de: "Der Eiffelturm feierte 1989 sein 100-jähriges Jubiläum, das mit dem 200-jährigen Jubiläum der Französischen Revolution zusammenfiel, zu deren Gedenken er ursprünglich gebaut wurde.",
+          nl: "De Eiffeltoren vierde in 1989 zijn 100-jarig jubileum, samenvallend met het tweehonderdjarig bestaan van de Franse Revolutie die hij oorspronkelijk werd gebouwd om te herdenken."
+        }
+      },
+      {
+        question: {
+          en: "Who was the contractor for the tower's metalwork?",
+          es: "¿Quién fue el contratista para el trabajo metálico de la torre?",
+          de: "Wer war der Auftragnehmer für die Metallarbeiten des Turms?",
+          nl: "Wie was de aannemer voor het metaalwerk van de toren?"
+        },
+        options: [
+          { en: "Gustave Eiffel's company", es: "Empresa de Gustave Eiffel", de: "Gustave Eiffels Firma", nl: "Bedrijf van Gustave Eiffel" },
+          { en: "Schneider Electric", es: "Schneider Electric", de: "Schneider Electric", nl: "Schneider Electric" },
+          { en: "Compagnie Générale", es: "Compagnie Générale", de: "Compagnie Générale", nl: "Compagnie Générale" },
+          { en: "Société Métallurgique", es: "Société Métallurgique", de: "Société Métallurgique", nl: "Société Métallurgique" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gustave Eiffel's own engineering and construction company, Compagnie des Établissements Eiffel, built the tower using his expertise in metal structures.",
+          es: "La propia empresa de ingeniería y construcción de Gustave Eiffel, Compagnie des Établissements Eiffel, construyó la torre usando su experiencia en estructuras metálicas.",
+          de: "Gustave Eiffels eigenes Ingenieur- und Bauunternehmen, Compagnie des Établissements Eiffel, baute den Turm mit seiner Expertise in Metallstrukturen.",
+          nl: "Het eigen ingenieurs- en bouwbedrijf van Gustave Eiffel, Compagnie des Établissements Eiffel, bouwde de toren met zijn expertise in metalen structuren."
+        }
+      },
+      {
+        question: {
+          en: "What sporting event featured the Eiffel Tower in 1900?",
+          es: "¿Qué evento deportivo presentó la Torre Eiffel en 1900?",
+          de: "Welches Sportereignis zeigte 1900 den Eiffelturm?",
+          nl: "Welk sportevenement toonde de Eiffeltoren in 1900?"
+        },
+        options: [
+          { en: "Paris Olympics", es: "Juegos Olímpicos de París", de: "Olympische Spiele in Paris", nl: "Olympische Spelen Parijs" },
+          { en: "Tour de France", es: "Tour de Francia", de: "Tour de France", nl: "Tour de France" },
+          { en: "World Cup", es: "Copa del Mundo", de: "Weltmeisterschaft", nl: "Wereldkampioenschap" },
+          { en: "Marathon Championship", es: "Campeonato de Maratón", de: "Marathon-Meisterschaft", nl: "Marathon Kampioenschap" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The 1900 Paris Olympics used the Eiffel Tower area for various sporting events during the World's Fair.",
+          es: "Los Juegos Olímpicos de París de 1900 usaron el área de la Torre Eiffel para varios eventos deportivos durante la Exposición Universal.",
+          de: "Die Olympischen Spiele 1900 in Paris nutzten das Gebiet um den Eiffelturm für verschiedene Sportveranstaltungen während der Weltausstellung.",
+          nl: "De Olympische Spelen van Parijs in 1900 gebruikten het gebied rond de Eiffeltoren voor verschillende sportevenementen tijdens de Wereldtentoonstelling."
+        }
+      },
+      {
+        question: {
+          en: "When was the sparkling light display first added to the tower?",
+          es: "¿Cuándo se añadió por primera vez el espectáculo de luces centelleantes a la torre?",
+          de: "Wann wurde die funkelnde Lichtshow erstmals zum Turm hinzugefügt?",
+          nl: "Wanneer werd de fonkelende lichtshow voor het eerst aan de toren toegevoegd?"
+        },
+        options: [
+          { en: "1999 for millennium", es: "1999 para el milenio", de: "1999 für das Millennium", nl: "1999 voor het millennium" },
+          { en: "1989 for centennial", es: "1989 para el centenario", de: "1989 für das Hundertjahrjubiläum", nl: "1989 voor het honderdjarig jubileum" },
+          { en: "2010", es: "2010", de: "2010", nl: "2010" },
+          { en: "1950", es: "1950", de: "1950", nl: "1950" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The sparkling lights display with 20,000 bulbs was installed in 1999 to celebrate the millennium and has been kept ever since.",
+          es: "El espectáculo de luces centelleantes con 20,000 bombillas se instaló en 1999 para celebrar el milenio y se ha mantenido desde entonces.",
+          de: "Die funkelnde Lichtshow mit 20.000 Glühbirnen wurde 1999 zur Feier des Millenniums installiert und seitdem beibehalten.",
+          nl: "De fonkelende lichtshow met 20.000 lampen werd in 1999 geïnstalleerd om het millennium te vieren en is sindsdien behouden."
+        }
+      },
+      {
+        question: {
+          en: "What scientific instrument did Gustave Eiffel install at the top?",
+          es: "¿Qué instrumento científico instaló Gustave Eiffel en la cima?",
+          de: "Welches wissenschaftliche Instrument installierte Gustave Eiffel an der Spitze?",
+          nl: "Welk wetenschappelijk instrument installeerde Gustave Eiffel bovenaan?"
+        },
+        options: [
+          { en: "Weather station", es: "Estación meteorológica", de: "Wetterstation", nl: "Weerstation" },
+          { en: "Telescope", es: "Telescopio", de: "Teleskop", nl: "Telescoop" },
+          { en: "Seismograph", es: "Sismógrafo", de: "Seismograph", nl: "Seismograaf" },
+          { en: "Compass", es: "Brújula", de: "Kompass", nl: "Kompas" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Eiffel installed a meteorological station at the top of the tower to conduct weather observations and atmospheric studies.",
+          es: "Eiffel instaló una estación meteorológica en la cima de la torre para realizar observaciones climáticas y estudios atmosféricos.",
+          de: "Eiffel installierte eine meteorologische Station an der Spitze des Turms, um Wetterbeobachtungen und atmosphärische Studien durchzuführen.",
+          nl: "Eiffel installeerde een meteorologisch station bovenaan de toren om weerwaarnemingen en atmosferische studies uit te voeren."
+        }
+      },
+      {
+        question: {
+          en: "What commercial use was made of the tower in early years?",
+          es: "¿Qué uso comercial se hizo de la torre en los primeros años?",
+          de: "Welche kommerzielle Nutzung wurde in den frühen Jahren vom Turm gemacht?",
+          nl: "Welk commercieel gebruik werd in de eerste jaren van de toren gemaakt?"
+        },
+        options: [
+          { en: "Advertising sign for Citroën", es: "Letrero publicitario para Citroën", de: "Werbeschild für Citroën", nl: "Reclamebord voor Citroën" },
+          { en: "Movie theater", es: "Cine", de: "Kino", nl: "Bioscoop" },
+          { en: "Shopping center", es: "Centro comercial", de: "Einkaufszentrum", nl: "Winkelcentrum" },
+          { en: "Hotel rooms", es: "Habitaciones de hotel", de: "Hotelzimmer", nl: "Hotelkamers" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "From 1925 to 1934, the Citroën company used the tower as a giant advertising sign with 250,000 light bulbs spelling the brand name.",
+          es: "De 1925 a 1934, la empresa Citroën usó la torre como un letrero publicitario gigante con 250,000 bombillas deletreando el nombre de la marca.",
+          de: "Von 1925 bis 1934 nutzte die Firma Citroën den Turm als riesiges Werbeschild mit 250.000 Glühbirnen, die den Markennamen buchstabierten.",
+          nl: "Van 1925 tot 1934 gebruikte het bedrijf Citroën de toren als een gigantisch reclamebord met 250.000 lampen die de merknaam spelden."
+        }
+      },
+      {
+        question: {
+          en: "Who was Thomas Edison's connection to the Eiffel Tower?",
+          es: "¿Cuál fue la conexión de Thomas Edison con la Torre Eiffel?",
+          de: "Was war Thomas Edisons Verbindung zum Eiffelturm?",
+          nl: "Wat was de connectie van Thomas Edison met de Eiffeltoren?"
+        },
+        options: [
+          { en: "He visited and signed the guest book", es: "Visitó y firmó el libro de visitas", de: "Er besuchte und unterschrieb das Gästebuch", nl: "Hij bezocht en tekende het gastenboek" },
+          { en: "He designed the lights", es: "Diseñó las luces", de: "Er entwarf die Beleuchtung", nl: "Hij ontwierp de verlichting" },
+          { en: "He funded construction", es: "Financió la construcción", de: "Er finanzierte den Bau", nl: "Hij financierde de bouw" },
+          { en: "He never visited", es: "Nunca visitó", de: "Er besuchte nie", nl: "Hij heeft nooit bezocht" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Thomas Edison visited the Eiffel Tower in 1889 and met Gustave Eiffel, signing the guest book at the top of the tower.",
+          es: "Thomas Edison visitó la Torre Eiffel en 1889 y conoció a Gustave Eiffel, firmando el libro de visitas en la cima de la torre.",
+          de: "Thomas Edison besuchte 1889 den Eiffelturm und traf Gustave Eiffel, wobei er das Gästebuch an der Spitze des Turms unterschrieb.",
+          nl: "Thomas Edison bezocht de Eiffeltoren in 1889 en ontmoette Gustave Eiffel, waarbij hij het gastenboek bovenaan de toren tekende."
+        }
+      },
+      {
+        question: {
+          en: "What record did Pierre Labric set at the Eiffel Tower in 1923?",
+          es: "¿Qué récord estableció Pierre Labric en la Torre Eiffel en 1923?",
+          de: "Welchen Rekord stellte Pierre Labric 1923 am Eiffelturm auf?",
+          nl: "Welk record vestigde Pierre Labric in 1923 bij de Eiffeltoren?"
+        },
+        options: [
+          { en: "Rode bicycle down the stairs", es: "Bajó las escaleras en bicicleta", de: "Fuhr mit dem Fahrrad die Treppen hinunter", nl: "Fietste de trap af" },
+          { en: "Fastest climb on foot", es: "Ascenso más rápido a pie", de: "Schnellster Aufstieg zu Fuß", nl: "Snelste beklimming te voet" },
+          { en: "Longest stay at top", es: "Estancia más larga en la cima", de: "Längster Aufenthalt an der Spitze", nl: "Langste verblijf bovenaan" },
+          { en: "First night climb", es: "Primera escalada nocturna", de: "Erste Nachtbesteigung", nl: "Eerste nachtelijke beklimming" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Journalist Pierre Labric rode his bicycle down the stairs from the first level in 1923, though he was arrested at the bottom.",
+          es: "El periodista Pierre Labric bajó las escaleras en bicicleta desde el primer nivel en 1923, aunque fue arrestado en la base.",
+          de: "Der Journalist Pierre Labric fuhr 1923 mit seinem Fahrrad die Treppen von der ersten Ebene hinunter, wurde jedoch am Boden verhaftet.",
+          nl: "Journalist Pierre Labric fietste in 1923 de trap af vanaf de eerste verdieping, hoewel hij onderaan werd gearresteerd."
+        }
+,
+      {
+        question: {
+          en: "What architectural curve does the tower's shape follow?",
+          es: "¿Qué curva arquitectónica sigue la forma de la torre?",
+          de: "Welcher architektonischen Kurve folgt die Form des Turms?",
+          nl: "Welke architectonische curve volgt de vorm van de toren?"
+        },
+        options: [
+          { en: "Exponential curve for wind resistance", es: "Curva exponencial para resistencia al viento", de: "Exponentielle Kurve für Windwiderstand", nl: "Exponentiële curve voor windweerstand" },
+          { en: "Circular arc", es: "Arco circular", de: "Kreisbogen", nl: "Cirkelboog" },
+          { en: "Straight lines only", es: "Solo líneas rectas", de: "Nur gerade Linien", nl: "Alleen rechte lijnen" },
+          { en: "Random design", es: "Diseño aleatorio", de: "Zufälliges Design", nl: "Willekeurig ontwerp" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The tower's distinctive shape follows an exponential curve mathematically designed to provide optimal wind resistance and structural efficiency.",
+          es: "La forma distintiva de la torre sigue una curva exponencial diseñada matemáticamente para proporcionar una resistencia óptima al viento y eficiencia estructural.",
+          de: "Die charakteristische Form des Turms folgt einer exponentiellen Kurve, die mathematisch entworfen wurde, um optimalen Windwiderstand und strukturelle Effizienz zu bieten.",
+          nl: "De kenmerkende vorm van de toren volgt een exponentiële curve die wiskundig is ontworpen om optimale windweerstand en structurele efficiëntie te bieden."
+        }
       }
     ]
   };

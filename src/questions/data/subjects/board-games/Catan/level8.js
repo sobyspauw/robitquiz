@@ -679,6 +679,174 @@
           de: "Anti-Führer-Koalitionen bilden sich optimal wenn: (1) Führer 7 Punkte erreicht, was Sieg plausibel macht, UND (2) Zweitplatzierter innerhalb 2 Punkte bleibt, was Koalitionsanreiz aufrechterhält. Wenn Lücke auf <2 Punkte schließt, wechselt Zweitplatzierter von 'Führer blockieren' zu 'selbst gewinnen', bricht Kooperation. Diese 7-Punkte/2-Punkte-Schwelle definiert Koalitions-Spieltheorie.",
           nl: "Anti-leider coalities vormen optimaal wanneer: (1) leider 7 punten bereikt, wat overwinning plausibel maakt, EN (2) tweede plaats binnen 2 punten blijft, coalitie incentive behoudend. Wanneer kloof sluit naar <2 punten, verschuift tweede plaats van 'blokkeer leider' naar 'win zelf', breekt samenwerking. Deze 7-punten/2-punten drempel definieert coalitie speltheorie."
         }
+      },
+      {
+        question: {
+          en: "What is the probability of rolling a 4 or 10 in Catan?",
+          es: "¿Cuál es la probabilidad de sacar un 4 o 10 en Catan?",
+          de: "Wie hoch ist die Wahrscheinlichkeit, eine 4 oder 10 in Catan zu würfeln?",
+          nl: "Wat is de waarschijnlijkheid om een 4 of 10 te gooien in Catan?"
+        },
+        options: [
+          { en: "1/12 (about 8.3%)", es: "1/12 (aproximadamente 8,3%)", de: "1/12 (etwa 8,3%)", nl: "1/12 (ongeveer 8,3%)" },
+          { en: "1/9 (about 11%)", es: "1/9 (aproximadamente 11%)", de: "1/9 (etwa 11%)", nl: "1/9 (ongeveer 11%)" },
+          { en: "1/6 (about 17%)", es: "1/6 (aproximadamente 17%)", de: "1/6 (etwa 17%)", nl: "1/6 (ongeveer 17%)" },
+          { en: "3/36 (about 8.3%)", es: "3/36 (aproximadamente 8,3%)", de: "3/36 (etwa 8,3%)", nl: "3/36 (ongeveer 8,3%)" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "Both 4 and 10 have 3 ways to be rolled out of 36 combinations (3/36 = 1/12 ≈ 8.3%). They're marked with 3 dots on the tokens, making them moderately valuable production numbers.",
+          es: "Tanto el 4 como el 10 tienen 3 formas de ser lanzados de 36 combinaciones (3/36 = 1/12 ≈ 8,3%). Están marcados con 3 puntos en las fichas, lo que los convierte en números de producción moderadamente valiosos.",
+          de: "Sowohl 4 als auch 10 haben 3 Möglichkeiten, von 36 Kombinationen gewürfelt zu werden (3/36 = 1/12 ≈ 8,3%). Sie sind mit 3 Punkten auf den Plättchen markiert, was sie zu mäßig wertvollen Produktionszahlen macht.",
+          nl: "Zowel 4 als 10 hebben 3 manieren om gegooid te worden uit 36 combinaties (3/36 = 1/12 ≈ 8,3%). Ze zijn gemarkeerd met 3 stippen op de fiches, waardoor ze matig waardevolle productienummers zijn."
+        }
+      },
+      {
+        question: {
+          en: "How many harbor spaces are there in standard Catan?",
+          es: "¿Cuántos espacios de puerto hay en Catan estándar?",
+          de: "Wie viele Hafenplätze gibt es im Standard-Catan?",
+          nl: "Hoeveel havenruimtes zijn er in standaard Catan?"
+        },
+        options: [
+          { en: "6", es: "6", de: "6", nl: "6" },
+          { en: "8", es: "8", de: "8", nl: "8" },
+          { en: "9", es: "9", de: "9", nl: "9" },
+          { en: "12", es: "12", de: "12", nl: "12" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "There are 9 harbors in standard Catan: 4 generic harbors (3:1 trade) and 5 specialized harbors (2:1 trade for a specific resource - one for each resource type).",
+          es: "Hay 9 puertos en Catan estándar: 4 puertos genéricos (comercio 3:1) y 5 puertos especializados (comercio 2:1 para un recurso específico, uno para cada tipo de recurso).",
+          de: "Es gibt 9 Häfen im Standard-Catan: 4 generische Häfen (3:1 Handel) und 5 spezialisierte Häfen (2:1 Handel für eine bestimmte Ressource - einen für jeden Ressourcentyp).",
+          nl: "Er zijn 9 havens in standaard Catan: 4 generieke havens (3:1 handel) en 5 gespecialiseerde havens (2:1 handel voor een specifieke hulpbron - één voor elk hulpbrontype)."
+        }
+      },
+      {
+        question: {
+          en: "Can you steal a resource from a player with no adjacent settlements?",
+          es: "¿Puedes robar un recurso de un jugador sin asentamientos adyacentes?",
+          de: "Kannst du eine Ressource von einem Spieler ohne angrenzende Siedlungen stehlen?",
+          nl: "Kun je een hulpbron stelen van een speler zonder aangrenzende nederzettingen?"
+        },
+        options: [
+          { en: "Yes, from any player", es: "Sí, de cualquier jugador", de: "Ja, von jedem Spieler", nl: "Ja, van elke speler" },
+          { en: "No, must be adjacent to robber", es: "No, debe estar adyacente al ladrón", de: "Nein, muss am Räuber angrenzen", nl: "Nee, moet aangrenzend zijn aan rover" },
+          { en: "Only with a knight card", es: "Solo con carta de caballero", de: "Nur mit Ritterkarte", nl: "Alleen met ridderskaart" },
+          { en: "Only if they have 7+ cards", es: "Solo si tienen 7+ cartas", de: "Nur wenn sie 7+ Karten haben", nl: "Alleen als ze 7+ kaarten hebben" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "You can only steal from players who have at least one settlement or city adjacent to the hex where you place the robber. If no players are adjacent, you cannot steal.",
+          es: "Solo puedes robar de jugadores que tienen al menos un asentamiento o ciudad adyacente al hexágono donde colocas al ladrón. Si no hay jugadores adyacentes, no puedes robar.",
+          de: "Du kannst nur von Spielern stehlen, die mindestens eine Siedlung oder Stadt neben dem Feld haben, auf dem du den Räuber platzierst. Wenn keine Spieler angrenzen, kannst du nicht stehlen.",
+          nl: "Je kunt alleen stelen van spelers die minstens één nederzetting of stad hebben naast de hex waar je de rover plaatst. Als er geen spelers aangrenzend zijn, kun je niet stelen."
+        }
+      },
+      {
+        question: {
+          en: "What is the maximum number of development cards you can buy in one turn?",
+          es: "¿Cuál es el número máximo de cartas de desarrollo que puedes comprar en un turno?",
+          de: "Wie viele Entwicklungskarten kannst du maximal in einem Zug kaufen?",
+          nl: "Wat is het maximale aantal ontwikkelingskaarten dat je in één beurt kunt kopen?"
+        },
+        options: [
+          { en: "1", es: "1", de: "1", nl: "1" },
+          { en: "2", es: "2", de: "2", nl: "2" },
+          { en: "3", es: "3", de: "3", nl: "3" },
+          { en: "Unlimited if you have resources", es: "Ilimitado si tienes recursos", de: "Unbegrenzt wenn du Ressourcen hast", nl: "Onbeperkt als je hulpbronnen hebt" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "There is no limit to how many development cards you can buy in a single turn, as long as you have the resources (1 wheat, 1 sheep, 1 ore each) and cards remain in the deck.",
+          es: "No hay límite en cuántas cartas de desarrollo puedes comprar en un solo turno, siempre que tengas los recursos (1 trigo, 1 oveja, 1 mineral cada una) y queden cartas en el mazo.",
+          de: "Es gibt keine Begrenzung, wie viele Entwicklungskarten du in einem einzigen Zug kaufen kannst, solange du die Ressourcen hast (je 1 Getreide, 1 Wolle, 1 Erz) und Karten im Deck verbleiben.",
+          nl: "Er is geen limiet aan hoeveel ontwikkelingskaarten je in één beurt kunt kopen, zolang je de hulpbronnen hebt (1 tarwe, 1 schaap, 1 erts elk) en er kaarten in het deck overblijven."
+        }
+      },
+      {
+        question: {
+          en: "What happens if multiple players tie for Largest Army?",
+          es: "¿Qué sucede si múltiples jugadores empatan para el Ejército Más Grande?",
+          de: "Was passiert, wenn mehrere Spieler bei der größten Rittermacht gleichstehen?",
+          nl: "Wat gebeurt er als meerdere spelers gelijk staan voor het Grootste Leger?"
+        },
+        options: [
+          { en: "All get 2 points", es: "Todos obtienen 2 puntos", de: "Alle erhalten 2 Punkte", nl: "Allen krijgen 2 punten" },
+          { en: "All get 1 point each", es: "Todos obtienen 1 punto", de: "Alle erhalten je 1 Punkt", nl: "Allen krijgen elk 1 punt" },
+          { en: "Current holder keeps it", es: "El poseedor actual lo mantiene", de: "Aktueller Besitzer behält sie", nl: "Huidige houder behoudt het" },
+          { en: "No one gets it", es: "Nadie lo obtiene", de: "Niemand bekommt sie", nl: "Niemand krijgt het" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Like Longest Road, if players tie for Largest Army, the current holder keeps it. To steal the achievement, you must have strictly more knights played than the current holder.",
+          es: "Como con el Camino Más Largo, si los jugadores empatan para el Ejército Más Grande, el poseedor actual lo mantiene. Para robar el logro, debes tener más caballeros jugados que el poseedor actual.",
+          de: "Wie bei der längsten Straße behält bei Gleichstand bei der größten Rittermacht der aktuelle Besitzer sie. Um die Errungenschaft zu stehlen, musst du mehr Ritter gespielt haben als der aktuelle Besitzer.",
+          nl: "Net als bij de Langste Weg, als spelers gelijk staan voor het Grootste Leger, behoudt de huidige houder het. Om de prestatie te stelen, moet je meer ridders hebben gespeeld dan de huidige houder."
+        }
+      },
+      {
+        question: {
+          en: "Can roads pass through an opponent's settlement?",
+          es: "¿Pueden los caminos pasar a través del asentamiento de un oponente?",
+          de: "Können Straßen durch die Siedlung eines Gegners führen?",
+          nl: "Kunnen wegen door de nederzetting van een tegenstander lopen?"
+        },
+        options: [
+          { en: "Yes, roads can pass through", es: "Sí, los caminos pueden pasar", de: "Ja, Straßen können durchführen", nl: "Ja, wegen kunnen erdoor" },
+          { en: "No, settlements block roads", es: "No, los asentamientos bloquean caminos", de: "Nein, Siedlungen blockieren Straßen", nl: "Nee, nederzettingen blokkeren wegen" },
+          { en: "Only during setup", es: "Solo durante la preparación", de: "Nur während der Vorbereitung", nl: "Alleen tijdens opzet" },
+          { en: "Yes, but costs extra", es: "Sí, pero cuesta extra", de: "Ja, aber kostet extra", nl: "Ja, maar kost extra" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "An opponent's settlement or city breaks your road connection. Your roads cannot pass through their settlements, which is an important blocking tactic for Longest Road.",
+          es: "Un asentamiento o ciudad de un oponente rompe tu conexión de caminos. Tus caminos no pueden pasar a través de sus asentamientos, lo cual es una táctica de bloqueo importante para el Camino Más Largo.",
+          de: "Die Siedlung oder Stadt eines Gegners unterbricht deine Straßenverbindung. Deine Straßen können nicht durch ihre Siedlungen führen, was eine wichtige Blockiertaktik für die längste Straße ist.",
+          nl: "De nederzetting of stad van een tegenstander breekt je wegverbinding. Je wegen kunnen niet door hun nederzettingen lopen, wat een belangrijke blokkeertactiek is voor de Langste Weg."
+        }
+      },
+      {
+        question: {
+          en: "How many specialized (2:1) harbors are there in Catan?",
+          es: "¿Cuántos puertos especializados (2:1) hay en Catan?",
+          de: "Wie viele spezialisierte (2:1) Häfen gibt es in Catan?",
+          nl: "Hoeveel gespecialiseerde (2:1) havens zijn er in Catan?"
+        },
+        options: [
+          { en: "3", es: "3", de: "3", nl: "3" },
+          { en: "4", es: "4", de: "4", nl: "4" },
+          { en: "5", es: "5", de: "5", nl: "5" },
+          { en: "6", es: "6", de: "6", nl: "6" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "There are 5 specialized harbors in Catan, one for each resource type: wood, brick, wheat, ore, and sheep. Each allows 2:1 trading for that specific resource.",
+          es: "Hay 5 puertos especializados en Catan, uno para cada tipo de recurso: madera, ladrillo, trigo, mineral y oveja. Cada uno permite comerciar 2:1 para ese recurso específico.",
+          de: "Es gibt 5 spezialisierte Häfen in Catan, einen für jeden Ressourcentyp: Holz, Lehm, Getreide, Erz und Wolle. Jeder erlaubt 2:1-Handel für diese spezifische Ressource.",
+          nl: "Er zijn 5 gespecialiseerde havens in Catan, één voor elk hulpbrontype: hout, baksteen, tarwe, erts en schaap. Elk staat 2:1 handel toe voor die specifieke hulpbron."
+        }
+      },
+      {
+        question: {
+          en: "What is the combined probability of rolling 5, 6, 8, or 9?",
+          es: "¿Cuál es la probabilidad combinada de sacar 5, 6, 8 o 9?",
+          de: "Wie hoch ist die kombinierte Wahrscheinlichkeit, 5, 6, 8 oder 9 zu würfeln?",
+          nl: "Wat is de gecombineerde waarschijnlijkheid om 5, 6, 8 of 9 te gooien?"
+        },
+        options: [
+          { en: "50%", es: "50%", de: "50%", nl: "50%" },
+          { en: "55%", es: "55%", de: "55%", nl: "55%" },
+          { en: "60%", es: "60%", de: "60%", nl: "60%" },
+          { en: "65%", es: "65%", de: "65%", nl: "65%" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The combined probability is 18/36 = 50%. This includes 5 (4/36), 6 (5/36), 8 (5/36), and 9 (4/36), totaling 18/36. These are the most valuable numbers to build on.",
+          es: "La probabilidad combinada es 18/36 = 50%. Esto incluye 5 (4/36), 6 (5/36), 8 (5/36) y 9 (4/36), totalizando 18/36. Estos son los números más valiosos para construir.",
+          de: "Die kombinierte Wahrscheinlichkeit beträgt 18/36 = 50%. Dies umfasst 5 (4/36), 6 (5/36), 8 (5/36) und 9 (4/36), insgesamt 18/36. Dies sind die wertvollsten Zahlen zum Bauen.",
+          nl: "De gecombineerde waarschijnlijkheid is 18/36 = 50%. Dit omvat 5 (4/36), 6 (5/36), 8 (5/36) en 9 (4/36), in totaal 18/36. Dit zijn de meest waardevolle nummers om op te bouwen."
+        }
       }
     ]
   };

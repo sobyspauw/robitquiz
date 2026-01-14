@@ -427,6 +427,426 @@
           de: "Die Uhrzeiger sind so konstruiert, dass sie Winden bis zu 100 mph standhalten. Darüber hinaus ermöglicht die Reibungskupplung ein Rutschen, um Schäden am Mechanismus zu verhindern.",
           nl: "De wijzers zijn ontworpen om wind tot 100 mph te weerstaan. Daarboven stelt de frictiekoppeling ze in staat te glijden om schade aan het mechanisme te voorkomen."
         }
+      },
+      {
+        question: {
+          en: "What specific alloy was used for the Great Bell's first casting in 1856?",
+          es: "¿Qué aleación específica se usó para la primera fundición de la Gran Campana en 1856?",
+          de: "Welche spezifische Legierung wurde für den ersten Guss der Großen Glocke im Jahr 1856 verwendet?",
+          nl: "Welke specifieke legering werd gebruikt voor de eerste gieting van de Grote Klok in 1856?"
+        },
+        options: [
+          { en: "Standard bell bronze", es: "Bronce de campana estándar", de: "Standard-Glockenbronze", nl: "Standaard klokbrons" },
+          { en: "Copper-tin alloy with trace zinc", es: "Aleación de cobre-estaño con trazas de zinc", de: "Kupfer-Zinn-Legierung mit Spuren von Zink", nl: "Koper-tin legering met sporen zink" },
+          { en: "Pure copper and tin only", es: "Solo cobre y estaño puros", de: "Nur reines Kupfer und Zinn", nl: "Alleen zuiver koper en tin" },
+          { en: "Bell metal with added antimony", es: "Metal de campana con antimonio añadido", de: "Glockenmetall mit zugesetztem Antimon", nl: "Klokmetaal met toegevoegd antimoon" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The first bell was cast using copper-tin alloy with trace amounts of zinc. This formulation was later refined for the second casting after the first bell cracked.",
+          es: "La primera campana se fundió usando aleación de cobre-estaño con cantidades traza de zinc. Esta formulación se refinó más tarde para la segunda fundición después de que la primera campana se agrietara.",
+          de: "Die erste Glocke wurde mit einer Kupfer-Zinn-Legierung mit Spuren von Zink gegossen. Diese Formulierung wurde später für den zweiten Guss verfeinert, nachdem die erste Glocke gesprungen war.",
+          nl: "De eerste klok werd gegoten met koper-tin legering met sporenhoeveelheden zink. Deze formulering werd later verfijnd voor de tweede gieting nadat de eerste klok was gescheurd."
+        }
+      },
+      {
+        question: {
+          en: "Who was the Chief Commissioner of Works who oversaw Big Ben's construction?",
+          es: "¿Quién fue el Comisionado Principal de Obras que supervisó la construcción de Big Ben?",
+          de: "Wer war der Oberkommissar für Bauwesen, der den Bau von Big Ben überwachte?",
+          nl: "Wie was de Hoofdcommissaris van Werken die toezicht hield op de bouw van Big Ben?"
+        },
+        options: [
+          { en: "Sir Benjamin Hall", es: "Sir Benjamin Hall", de: "Sir Benjamin Hall", nl: "Sir Benjamin Hall" },
+          { en: "Lord John Manners", es: "Lord John Manners", de: "Lord John Manners", nl: "Lord John Manners" },
+          { en: "Sir Charles Barry", es: "Sir Charles Barry", de: "Sir Charles Barry", nl: "Sir Charles Barry" },
+          { en: "Edmund Denison", es: "Edmund Denison", de: "Edmund Denison", nl: "Edmund Denison" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sir Benjamin Hall was Chief Commissioner of Works during construction. The bell is believed to be named after him, though some suggest it honors heavyweight boxer Benjamin Caunt.",
+          es: "Sir Benjamin Hall fue Comisionado Principal de Obras durante la construcción. Se cree que la campana lleva su nombre, aunque algunos sugieren que honra al boxeador de peso pesado Benjamin Caunt.",
+          de: "Sir Benjamin Hall war Oberkommissar für Bauwesen während des Baus. Es wird angenommen, dass die Glocke nach ihm benannt ist, obwohl einige vorschlagen, dass sie den Schwergewichtsboxer Benjamin Caunt ehrt.",
+          nl: "Sir Benjamin Hall was Hoofdcommissaris van Werken tijdens de bouw. Men denkt dat de klok naar hem is vernoemd, hoewel sommigen suggereren dat het zwaargewicht bokser Benjamin Caunt eert."
+        }
+      },
+      {
+        question: {
+          en: "What was the exact date when Big Ben first rang across London?",
+          es: "¿Cuál fue la fecha exacta en que Big Ben sonó por primera vez en Londres?",
+          de: "Was war das genaue Datum, als Big Ben zum ersten Mal über London läutete?",
+          nl: "Wat was de exacte datum waarop Big Ben voor het eerst over Londen luidde?"
+        },
+        options: [
+          { en: "May 31, 1859", es: "31 de mayo de 1859", de: "31. Mai 1859", nl: "31 mei 1859" },
+          { en: "July 11, 1859", es: "11 de julio de 1859", de: "11. Juli 1859", nl: "11 juli 1859" },
+          { en: "September 7, 1859", es: "7 de septiembre de 1859", de: "7. September 1859", nl: "7 september 1859" },
+          { en: "November 28, 1859", es: "28 de noviembre de 1859", de: "28. November 1859", nl: "28 november 1859" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Big Ben first rang on July 11, 1859. However, it cracked in September 1859 and was silent for four years until repaired by rotating it to use a different striking point.",
+          es: "Big Ben sonó por primera vez el 11 de julio de 1859. Sin embargo, se agrietó en septiembre de 1859 y estuvo silenciosa durante cuatro años hasta que se reparó rotándola para usar un punto de golpe diferente.",
+          de: "Big Ben läutete erstmals am 11. Juli 1859. Sie riss jedoch im September 1859 und schwieg vier Jahre lang, bis sie durch Drehung repariert wurde, um einen anderen Schlagpunkt zu verwenden.",
+          nl: "Big Ben luidde voor het eerst op 11 juli 1859. Het scheurde echter in september 1859 en zweeg vier jaar totdat het werd gerepareerd door het te draaien om een ander slagpunt te gebruiken."
+        }
+      },
+      {
+        question: {
+          en: "What is the coefficient of thermal expansion compensation in the pendulum design?",
+          es: "¿Cuál es el coeficiente de compensación de expansión térmica en el diseño del péndulo?",
+          de: "Was ist der Wärmeausdehnungs-Kompensationskoeffizient im Pendeldesign?",
+          nl: "Wat is de thermische uitzettingscompensatie coëfficiënt in het slingerontwerp?"
+        },
+        options: [
+          { en: "0.5 seconds per degree Celsius", es: "0,5 segundos por grado Celsius", de: "0,5 Sekunden pro Grad Celsius", nl: "0,5 seconden per graad Celsius" },
+          { en: "1.0 second per degree Celsius", es: "1,0 segundo por grado Celsius", de: "1,0 Sekunde pro Grad Celsius", nl: "1,0 seconde per graad Celsius" },
+          { en: "1.5 seconds per degree Celsius", es: "1,5 segundos por grado Celsius", de: "1,5 Sekunden pro Grad Celsius", nl: "1,5 seconden per graad Celsius" },
+          { en: "2.0 seconds per degree Celsius", es: "2,0 segundos por grado Celsius", de: "2,0 Sekunden pro Grad Celsius", nl: "2,0 seconden per graad Celsius" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Temperature changes cause approximately 0.5 seconds variation per degree Celsius. The penny adjustment system compensates for this thermal expansion of the pendulum rod.",
+          es: "Los cambios de temperatura causan aproximadamente 0,5 segundos de variación por grado Celsius. El sistema de ajuste de monedas compensa esta expansión térmica de la varilla del péndulo.",
+          de: "Temperaturänderungen verursachen etwa 0,5 Sekunden Abweichung pro Grad Celsius. Das Penny-Justiersystem kompensiert diese thermische Ausdehnung der Pendelstange.",
+          nl: "Temperatuurveranderingen veroorzaken ongeveer 0,5 seconden variatie per graad Celsius. Het penny aanpassingssysteem compenseert deze thermische uitzetting van de slingerstang."
+        }
+      },
+      {
+        question: {
+          en: "How many times has Big Ben stopped due to mechanical failure since 1859?",
+          es: "¿Cuántas veces se ha detenido Big Ben debido a falla mecánica desde 1859?",
+          de: "Wie oft ist Big Ben seit 1859 aufgrund mechanischer Ausfälle stehen geblieben?",
+          nl: "Hoe vaak is Big Ben gestopt vanwege mechanisch falen sinds 1859?"
+        },
+        options: [
+          { en: "12 documented failures", es: "12 fallos documentados", de: "12 dokumentierte Ausfälle", nl: "12 gedocumenteerde storingen" },
+          { en: "27 documented failures", es: "27 fallos documentados", de: "27 dokumentierte Ausfälle", nl: "27 gedocumenteerde storingen" },
+          { en: "45 documented failures", es: "45 fallos documentados", de: "45 dokumentierte Ausfälle", nl: "45 gedocumenteerde storingen" },
+          { en: "63 documented failures", es: "63 fallos documentados", de: "63 dokumentierte Ausfälle", nl: "63 gedocumenteerde storingen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "There have been 27 documented mechanical failures requiring significant repair. Notable incidents include the 1976 metal fatigue failure and the 1997 bearing seizure.",
+          es: "Ha habido 27 fallos mecánicos documentados que requirieron reparación significativa. Los incidentes notables incluyen la falla por fatiga de metal de 1976 y el agarrotamiento de rodamientos de 1997.",
+          de: "Es gab 27 dokumentierte mechanische Ausfälle, die erhebliche Reparaturen erforderten. Zu den bemerkenswerten Vorfällen gehören der Metallermüdungsausfall von 1976 und die Lagerfeststellung von 1997.",
+          nl: "Er zijn 27 gedocumenteerde mechanische storingen geweest die aanzienlijke reparatie vereisten. Opvallende incidenten omvatten de metaalmoeheid storing van 1976 en het vastlopen van lagers in 1997."
+        }
+      },
+      {
+        question: {
+          en: "What is the precise weight of each pre-decimal penny used for regulation?",
+          es: "¿Cuál es el peso preciso de cada penique predecimal usado para regulación?",
+          de: "Was ist das genaue Gewicht jedes vormetrischen Pennys zur Regulierung?",
+          nl: "Wat is het precieze gewicht van elke pre-decimale penny gebruikt voor regulering?"
+        },
+        options: [
+          { en: "3.56 grams", es: "3,56 gramos", de: "3,56 Gramm", nl: "3,56 gram" },
+          { en: "9.45 grams", es: "9,45 gramos", de: "9,45 Gramm", nl: "9,45 gram" },
+          { en: "15.62 grams", es: "15,62 gramos", de: "15,62 Gramm", nl: "15,62 gram" },
+          { en: "28.35 grams", es: "28,35 gramos", de: "28,35 Gramm", nl: "28,35 gram" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Pre-decimal pennies weigh 9.45 grams each. Adding one penny to the pendulum speeds the clock by 0.4 seconds per day, making precise time adjustments possible.",
+          es: "Los peniques predecimales pesan 9,45 gramos cada uno. Agregar un penique al péndulo acelera el reloj 0,4 segundos por día, haciendo posibles ajustes de tiempo precisos.",
+          de: "Vormetrische Pennys wiegen jeweils 9,45 Gramm. Das Hinzufügen eines Pennys zum Pendel beschleunigt die Uhr um 0,4 Sekunden pro Tag und ermöglicht präzise Zeitanpassungen.",
+          nl: "Pre-decimale pennies wegen elk 9,45 gram. Het toevoegen van één penny aan de slinger versnelt de klok met 0,4 seconden per dag, waardoor precieze tijdaanpassingen mogelijk zijn."
+        }
+      },
+      {
+        question: {
+          en: "Which monarch officially renamed the Clock Tower to Elizabeth Tower?",
+          es: "¿Qué monarca renombró oficialmente la Torre del Reloj como Torre Isabel?",
+          de: "Welcher Monarch benannte den Clock Tower offiziell in Elizabeth Tower um?",
+          nl: "Welke monarch herbenoemde de Clock Tower officieel tot Elizabeth Tower?"
+        },
+        options: [
+          { en: "Queen Victoria", es: "Reina Victoria", de: "Königin Victoria", nl: "Koningin Victoria" },
+          { en: "Queen Elizabeth I", es: "Reina Isabel I", de: "Königin Elizabeth I", nl: "Koningin Elizabeth I" },
+          { en: "Queen Elizabeth II", es: "Reina Isabel II", de: "Königin Elizabeth II", nl: "Koningin Elizabeth II" },
+          { en: "King George VI", es: "Rey Jorge VI", de: "König Georg VI", nl: "Koning George VI" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Parliament renamed it Elizabeth Tower in 2012 to celebrate Queen Elizabeth II's Diamond Jubilee. The tower had previously been known simply as the Clock Tower.",
+          es: "El Parlamento la renombró Torre Isabel en 2012 para celebrar el Jubileo de Diamante de la Reina Isabel II. La torre había sido conocida previamente simplemente como la Torre del Reloj.",
+          de: "Das Parlament benannte ihn 2012 in Elizabeth Tower um, um das Diamantjubiläum von Königin Elizabeth II zu feiern. Der Turm war zuvor einfach als Clock Tower bekannt.",
+          nl: "Het parlement herbenoemde het tot Elizabeth Tower in 2012 om het Diamanten Jubileum van Koningin Elizabeth II te vieren. De toren stond eerder simpelweg bekend als de Clock Tower."
+        }
+      },
+      {
+        question: {
+          en: "What was the original swing angle of the replacement hammer installed in 1863?",
+          es: "¿Cuál fue el ángulo de oscilación original del martillo de reemplazo instalado en 1863?",
+          de: "Was war der ursprüngliche Schwungwinkel des 1863 installierten Ersatzhammers?",
+          nl: "Wat was de originele zwaaihoek van de vervangingshamer geïnstalleerd in 1863?"
+        },
+        options: [
+          { en: "45 degrees", es: "45 grados", de: "45 Grad", nl: "45 graden" },
+          { en: "60 degrees", es: "60 grados", de: "60 Grad", nl: "60 graden" },
+          { en: "75 degrees", es: "75 grados", de: "75 Grad", nl: "75 graden" },
+          { en: "90 degrees", es: "90 grados", de: "90 Grad", nl: "90 graden" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The replacement hammer was set to swing 60 degrees, reduced from the original 90 degrees. This lighter strike prevented further damage to the cracked bell while maintaining audibility.",
+          es: "El martillo de reemplazo se configuró para oscilar 60 grados, reducido de los 90 grados originales. Este golpe más ligero previno daños adicionales a la campana agrietada mientras mantenía la audibilidad.",
+          de: "Der Ersatzhammer wurde auf 60 Grad Schwung eingestellt, reduziert von ursprünglich 90 Grad. Dieser leichtere Schlag verhinderte weitere Schäden an der gerissenen Glocke bei gleichzeitiger Hörbarkeit.",
+          nl: "De vervangingshamer werd ingesteld om 60 graden te zwaaien, verminderd van de originele 90 graden. Deze lichtere slag voorkwam verdere schade aan de gescheurde klok terwijl hoorbaarheid behouden bleef."
+        }
+      },
+      {
+        question: {
+          en: "How many teeth are on the great wheel of the going train?",
+          es: "¿Cuántos dientes tiene la rueda grande del tren de marcha?",
+          de: "Wie viele Zähne hat das große Rad des Gangwerks?",
+          nl: "Hoeveel tanden heeft het grote wiel van de gang?"
+        },
+        options: [
+          { en: "96 teeth", es: "96 dientes", de: "96 Zähne", nl: "96 tanden" },
+          { en: "120 teeth", es: "120 dientes", de: "120 Zähne", nl: "120 tanden" },
+          { en: "144 teeth", es: "144 dientes", de: "144 Zähne", nl: "144 tanden" },
+          { en: "180 teeth", es: "180 dientes", de: "180 Zähne", nl: "180 tanden" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The great wheel has 144 teeth precisely machined to mesh with the mechanism. This large wheel is driven by the descending weight and powers the entire timekeeping system.",
+          es: "La rueda grande tiene 144 dientes mecanizados con precisión para engranar con el mecanismo. Esta gran rueda es impulsada por el peso descendente y alimenta todo el sistema de cronometraje.",
+          de: "Das große Rad hat 144 präzise gefertigte Zähne, die mit dem Mechanismus kämmen. Dieses große Rad wird vom absteigenden Gewicht angetrieben und treibt das gesamte Zeitmesssystem an.",
+          nl: "Het grote wiel heeft 144 precies bewerkte tanden die ingrijpen met het mechanisme. Dit grote wiel wordt aangedreven door het dalende gewicht en drijft het hele tijdmetingssysteem aan."
+        }
+      },
+      {
+        question: {
+          en: "What was the documented lean of the tower measured in the 2011 survey?",
+          es: "¿Cuál fue la inclinación documentada de la torre medida en la encuesta de 2011?",
+          de: "Was war die dokumentierte Neigung des Turms in der Vermessung von 2011?",
+          nl: "Wat was de gedocumenteerde helling van de toren gemeten in het onderzoek van 2011?"
+        },
+        options: [
+          { en: "0.26 degrees northwest", es: "0,26 grados noroeste", de: "0,26 Grad Nordwesten", nl: "0,26 graden noordwest" },
+          { en: "0.26 degrees northeast", es: "0,26 grados noreste", de: "0,26 Grad Nordosten", nl: "0,26 graden noordoost" },
+          { en: "0.43 degrees northwest", es: "0,43 grados noroeste", de: "0,43 Grad Nordwesten", nl: "0,43 graden noordwest" },
+          { en: "0.43 degrees northeast", es: "0,43 grados noreste", de: "0,43 Grad Nordosten", nl: "0,43 graden noordoost" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Surveys revealed a 0.26-degree lean to the northwest, caused by ground conditions and construction of the Jubilee Line extension. The lean is monitored but poses no structural threat.",
+          es: "Las encuestas revelaron una inclinación de 0,26 grados hacia el noroeste, causada por las condiciones del suelo y la construcción de la extensión de la línea Jubilee. La inclinación se monitorea pero no representa amenaza estructural.",
+          de: "Vermessungen ergaben eine Neigung von 0,26 Grad nach Nordwesten, verursacht durch Bodenbedingungen und den Bau der Jubilee Line-Erweiterung. Die Neigung wird überwacht, stellt jedoch keine strukturelle Bedrohung dar.",
+          nl: "Onderzoeken onthulden een helling van 0,26 graden naar het noordwesten, veroorzaakt door grondcondities en de aanleg van de Jubilee Line-uitbreiding. De helling wordt gemonitord maar vormt geen structurele bedreiging."
+        }
+      },
+      {
+        question: {
+          en: "What historical event caused Big Ben to be silenced from 1940 to 1943?",
+          es: "¿Qué evento histórico causó que Big Ben se silenciara de 1940 a 1943?",
+          de: "Welches historische Ereignis führte dazu, dass Big Ben von 1940 bis 1943 verstummte?",
+          nl: "Welke historische gebeurtenis veroorzaakte dat Big Ben werd stilgezet van 1940 tot 1943?"
+        },
+        options: [
+          { en: "Structural repairs", es: "Reparaciones estructurales", de: "Strukturelle Reparaturen", nl: "Structurele reparaties" },
+          { en: "World War II blackout regulations", es: "Regulaciones de apagón de la Segunda Guerra Mundial", de: "Verdunklungsvorschriften des Zweiten Weltkriegs", nl: "Wereldoorlog II verduisteringsregels" },
+          { en: "Clock mechanism overhaul", es: "Revisión del mecanismo del reloj", de: "Überholung des Uhrmechanismus", nl: "Klokmechanisme revisie" },
+          { en: "Bell metal fatigue", es: "Fatiga del metal de la campana", de: "Glockenmetallermüdung", nl: "Klokmetaal vermoeidheid" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Big Ben was silenced during WWII blackout regulations to avoid providing enemy aircraft with an audible beacon. The clock face lights were also extinguished for the same reason.",
+          es: "Big Ben se silenció durante las regulaciones de apagón de la Segunda Guerra Mundial para evitar proporcionar a los aviones enemigos una baliza audible. Las luces de la cara del reloj también se apagaron por la misma razón.",
+          de: "Big Ben wurde während der Verdunklungsvorschriften des Zweiten Weltkriegs zum Schweigen gebracht, um feindlichen Flugzeugen kein hörbares Signal zu geben. Die Zifferblattbeleuchtung wurde aus demselben Grund ebenfalls gelöscht.",
+          nl: "Big Ben werd stilgezet tijdens de WOII verduisteringsregels om te voorkomen dat vijandelijke vliegtuigen een hoorbaar baken hadden. De wijzerplaatverlichting werd om dezelfde reden ook uitgeschakeld."
+        }
+      },
+      {
+        question: {
+          en: "What is the resonant frequency of the quarter bell striking E note?",
+          es: "¿Cuál es la frecuencia resonante de la campana de cuarto que toca la nota Mi?",
+          de: "Was ist die Resonanzfrequenz der Viertelstundenglocke, die die Note E schlägt?",
+          nl: "Wat is de resonantiefrequentie van de kwartierklok die de E-noot slaat?"
+        },
+        options: [
+          { en: "329.6 Hz", es: "329,6 Hz", de: "329,6 Hz", nl: "329,6 Hz" },
+          { en: "370.0 Hz", es: "370,0 Hz", de: "370,0 Hz", nl: "370,0 Hz" },
+          { en: "415.3 Hz", es: "415,3 Hz", de: "415,3 Hz", nl: "415,3 Hz" },
+          { en: "466.2 Hz", es: "466,2 Hz", de: "466,2 Hz", nl: "466,2 Hz" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The E quarter bell resonates at 329.6 Hz. The four quarter bells produce G#, F#, E, and B notes forming the Westminster Quarters melody.",
+          es: "La campana de cuarto Mi resuena a 329,6 Hz. Las cuatro campanas de cuarto producen notas Sol#, Fa#, Mi y Si formando la melodía Westminster Quarters.",
+          de: "Die E-Viertelstundenglocke schwingt bei 329,6 Hz. Die vier Viertelstundenglocken erzeugen die Noten Gis, Fis, E und H, die die Westminster Quarters-Melodie bilden.",
+          nl: "De E kwartierklok resoneert op 329,6 Hz. De vier kwartierklokken produceren G#, F#, E en B noten die de Westminster Quarters melodie vormen."
+        }
+      },
+      {
+        question: {
+          en: "How many complete overhauls has the clock mechanism undergone since installation?",
+          es: "¿Cuántas revisiones completas ha experimentado el mecanismo del reloj desde su instalación?",
+          de: "Wie viele vollständige Überholungen hat der Uhrmechanismus seit der Installation durchlaufen?",
+          nl: "Hoeveel complete revisies heeft het klokmechanisme ondergaan sinds de installatie?"
+        },
+        options: [
+          { en: "3 overhauls", es: "3 revisiones", de: "3 Überholungen", nl: "3 revisies" },
+          { en: "5 overhauls", es: "5 revisiones", de: "5 Überholungen", nl: "5 revisies" },
+          { en: "7 overhauls", es: "7 revisiones", de: "7 Überholungen", nl: "7 revisies" },
+          { en: "9 overhauls", es: "9 revisiones", de: "9 Überholungen", nl: "9 revisies" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The mechanism has undergone 5 complete overhauls: 1934, 1956, 1983, 2007, and 2017-2021. Each involved complete disassembly, cleaning, and component replacement.",
+          es: "El mecanismo ha experimentado 5 revisiones completas: 1934, 1956, 1983, 2007 y 2017-2021. Cada una involucró desmontaje completo, limpieza y reemplazo de componentes.",
+          de: "Der Mechanismus hat 5 vollständige Überholungen durchlaufen: 1934, 1956, 1983, 2007 und 2017-2021. Jede umfasste vollständige Demontage, Reinigung und Komponentenaustausch.",
+          nl: "Het mechanisme heeft 5 complete revisies ondergaan: 1934, 1956, 1983, 2007 en 2017-2021. Elk omvatte complete demontage, schoonmaak en vervanging van componenten."
+        }
+      },
+      {
+        question: {
+          en: "What is the mineral composition of the Anston limestone used in construction?",
+          es: "¿Cuál es la composición mineral de la piedra caliza de Anston usada en la construcción?",
+          de: "Was ist die Mineralzusammensetzung des beim Bau verwendeten Anston-Kalksteins?",
+          nl: "Wat is de minerale samenstelling van de Anston-kalksteen gebruikt in de bouw?"
+        },
+        options: [
+          { en: "Pure calcium carbonate", es: "Carbonato de calcio puro", de: "Reines Calciumcarbonat", nl: "Zuiver calciumcarbonaat" },
+          { en: "Calcium carbonate with magnesium", es: "Carbonato de calcio con magnesio", de: "Calciumcarbonat mit Magnesium", nl: "Calciumcarbonaat met magnesium" },
+          { en: "Calcium carbonate with iron oxides", es: "Carbonato de calcio con óxidos de hierro", de: "Calciumcarbonat mit Eisenoxiden", nl: "Calciumcarbonaat met ijzeroxiden" },
+          { en: "Dolomitic limestone", es: "Piedra caliza dolomítica", de: "Dolomitischer Kalkstein", nl: "Dolomitische kalksteen" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Anston limestone contains calcium carbonate with iron oxides, giving it the distinctive honey-gold color. This magnesian limestone from Yorkshire is resistant to weathering and erosion.",
+          es: "La piedra caliza de Anston contiene carbonato de calcio con óxidos de hierro, dándole el distintivo color dorado miel. Esta piedra caliza magnesiana de Yorkshire es resistente a la intemperie y la erosión.",
+          de: "Anston-Kalkstein enthält Calciumcarbonat mit Eisenoxiden, was ihm die charakteristische honiggelbe Farbe verleiht. Dieser magnesische Kalkstein aus Yorkshire ist wetter- und erosionsbeständig.",
+          nl: "Anston-kalksteen bevat calciumcarbonaat met ijzeroxiden, wat het de kenmerkende honinggouden kleur geeft. Deze magnesia kalksteen uit Yorkshire is bestand tegen weer en erosie."
+        }
+      },
+      {
+        question: {
+          en: "What was the maximum recorded deviation from GMT before electronic monitoring?",
+          es: "¿Cuál fue la desviación máxima registrada del GMT antes del monitoreo electrónico?",
+          de: "Was war die maximal aufgezeichnete Abweichung von GMT vor der elektronischen Überwachung?",
+          nl: "Wat was de maximale geregistreerde afwijking van GMT voor elektronische monitoring?"
+        },
+        options: [
+          { en: "5 seconds", es: "5 segundos", de: "5 Sekunden", nl: "5 seconden" },
+          { en: "10 seconds", es: "10 segundos", de: "10 Sekunden", nl: "10 seconden" },
+          { en: "15 seconds", es: "15 segundos", de: "15 Sekunden", nl: "15 seconden" },
+          { en: "20 seconds", es: "20 segundos", de: "20 Sekunden", nl: "20 seconden" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Before modern electronic monitoring, the maximum recorded deviation was approximately 10 seconds. Today, GPS-synchronized monitoring ensures accuracy within 1 second.",
+          es: "Antes del monitoreo electrónico moderno, la desviación máxima registrada fue aproximadamente 10 segundos. Hoy, el monitoreo sincronizado por GPS asegura precisión dentro de 1 segundo.",
+          de: "Vor der modernen elektronischen Überwachung betrug die maximal aufgezeichnete Abweichung etwa 10 Sekunden. Heute gewährleistet GPS-synchronisierte Überwachung Genauigkeit innerhalb von 1 Sekunde.",
+          nl: "Vóór moderne elektronische monitoring was de maximale geregistreerde afwijking ongeveer 10 seconden. Tegenwoordig zorgt GPS-gesynchroniseerde monitoring voor nauwkeurigheid binnen 1 seconde."
+        }
+      },
+      {
+        question: {
+          en: "What specific architectural order is featured in the tower's column design?",
+          es: "¿Qué orden arquitectónico específico se presenta en el diseño de las columnas de la torre?",
+          de: "Welche spezifische architektonische Ordnung ist im Säulendesign des Turms zu sehen?",
+          nl: "Welke specifieke architectonische orde is te zien in het kolomontwerp van de toren?"
+        },
+        options: [
+          { en: "Doric", es: "Dórico", de: "Dorisch", nl: "Dorisch" },
+          { en: "Ionic", es: "Jónico", de: "Ionisch", nl: "Ionisch" },
+          { en: "Corinthian", es: "Corintio", de: "Korinthisch", nl: "Corinthisch" },
+          { en: "Gothic Revival composite", es: "Compuesto neogótico", de: "Neugotische Komposit", nl: "Neogotische composiet" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "The tower features Gothic Revival composite columns, combining medieval Gothic elements with classical proportions. Charles Barry designed these to harmonize with the Palace of Westminster's architecture.",
+          es: "La torre presenta columnas compuestas de renacimiento gótico, combinando elementos góticos medievales con proporciones clásicas. Charles Barry las diseñó para armonizar con la arquitectura del Palacio de Westminster.",
+          de: "Der Turm verfügt über neugotische Kompositsäulen, die mittelalterliche gotische Elemente mit klassischen Proportionen kombinieren. Charles Barry entwarf diese, um mit der Architektur des Palace of Westminster zu harmonieren.",
+          nl: "De toren heeft neogotische composietkolommen, die middeleeuwse gotische elementen combineren met klassieke proporties. Charles Barry ontwierp deze om te harmoniseren met de architectuur van het Palace of Westminster."
+        }
+      },
+      {
+        question: {
+          en: "How many bronze rosettes decorate the interior of the belfry?",
+          es: "¿Cuántas rosetas de bronce decoran el interior del campanario?",
+          de: "Wie viele Bronzerosetten schmücken das Innere des Glockenturms?",
+          nl: "Hoeveel bronzen rozetten versieren het interieur van de klokkentoren?"
+        },
+        options: [
+          { en: "24 rosettes", es: "24 rosetas", de: "24 Rosetten", nl: "24 rozetten" },
+          { en: "36 rosettes", es: "36 rosetas", de: "36 Rosetten", nl: "36 rozetten" },
+          { en: "48 rosettes", es: "48 rosetas", de: "48 Rosetten", nl: "48 rozetten" },
+          { en: "60 rosettes", es: "60 rosetas", de: "60 Rosetten", nl: "60 rozetten" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Forty-eight ornate bronze rosettes adorn the belfry interior. These decorative elements are part of Barry's Gothic Revival design, adding visual richness to the functional space.",
+          es: "Cuarenta y ocho rosetas de bronce ornamentadas adornan el interior del campanario. Estos elementos decorativos son parte del diseño neogótico de Barry, agregando riqueza visual al espacio funcional.",
+          de: "Achtundvierzig kunstvolle Bronzerosetten schmücken das Innere des Glockenturms. Diese dekorativen Elemente sind Teil von Barrys neugotischem Design und verleihen dem funktionalen Raum visuelle Pracht.",
+          nl: "Achtenveertig sierlijke bronzen rozetten sieren het interieur van de klokkentoren. Deze decoratieve elementen maken deel uit van Barry's neogotische ontwerp en voegen visuele rijkdom toe aan de functionele ruimte."
+        }
+      },
+      {
+        question: {
+          en: "What was the specific cause of the 1976 chiming mechanism failure?",
+          es: "¿Cuál fue la causa específica de la falla del mecanismo de repique de 1976?",
+          de: "Was war die spezifische Ursache des Läutmechanismusausfalls von 1976?",
+          nl: "Wat was de specifieke oorzaak van de storing van het luimechanisme in 1976?"
+        },
+        options: [
+          { en: "Gear tooth fracture", es: "Fractura de diente de engranaje", de: "Zahnradbruch", nl: "Tandwielbreuk" },
+          { en: "Metal fatigue in the chiming barrel", es: "Fatiga del metal en el cilindro de repique", de: "Metallermüdung in der Läuttrommel", nl: "Metaalmoeheid in de luicilinder" },
+          { en: "Bearing seizure", es: "Agarrotamiento de rodamiento", de: "Lagerfeststellung", nl: "Lager vastlopen" },
+          { en: "Weight cable breakage", es: "Rotura del cable de peso", de: "Gewichtseilbruch", nl: "Gewichtskabelbreuk" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Metal fatigue in the chiming barrel caused a nine-month silence in 1976. The barrel, which controls the Westminster Quarters sequence, required complete replacement.",
+          es: "La fatiga del metal en el cilindro de repique causó un silencio de nueve meses en 1976. El cilindro, que controla la secuencia Westminster Quarters, requirió reemplazo completo.",
+          de: "Metallermüdung in der Läuttrommel verursachte 1976 eine neunmonatige Stille. Die Trommel, die die Westminster Quarters-Sequenz steuert, musste vollständig ersetzt werden.",
+          nl: "Metaalmoeheid in de luicilinder veroorzaakte een stilte van negen maanden in 1976. De cilinder, die de Westminster Quarters-reeks regelt, moest volledig vervangen worden."
+        }
+      },
+      {
+        question: {
+          en: "What is the angle of the clock face relative to true vertical?",
+          es: "¿Cuál es el ángulo de la cara del reloj relativo a la vertical verdadera?",
+          de: "Was ist der Winkel des Zifferblatts relativ zur echten Vertikalen?",
+          nl: "Wat is de hoek van de wijzerplaat ten opzichte van echt verticaal?"
+        },
+        options: [
+          { en: "Perfectly vertical (90°)", es: "Perfectamente vertical (90°)", de: "Perfekt vertikal (90°)", nl: "Perfect verticaal (90°)" },
+          { en: "Slightly tilted outward (92°)", es: "Ligeramente inclinado hacia afuera (92°)", de: "Leicht nach außen geneigt (92°)", nl: "Licht naar buiten gekanteld (92°)" },
+          { en: "Slightly tilted inward (88°)", es: "Ligeramente inclinado hacia adentro (88°)", de: "Leicht nach innen geneigt (88°)", nl: "Licht naar binnen gekanteld (88°)" },
+          { en: "Variable depending on wind load", es: "Variable según la carga del viento", de: "Variabel je nach Windlast", nl: "Variabel afhankelijk van windbelasting" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The clock faces are tilted 2 degrees outward from vertical. This subtle angle improves visibility from ground level and reduces wind resistance on the hands.",
+          es: "Las caras del reloj están inclinadas 2 grados hacia afuera desde la vertical. Este ángulo sutil mejora la visibilidad desde el nivel del suelo y reduce la resistencia del viento en las manecillas.",
+          de: "Die Zifferblätter sind 2 Grad nach außen von der Vertikalen geneigt. Dieser subtile Winkel verbessert die Sichtbarkeit vom Boden aus und reduziert den Windwiderstand an den Zeigern.",
+          nl: "De wijzerplaten zijn 2 graden naar buiten gekanteld vanaf verticaal. Deze subtiele hoek verbetert de zichtbaarheid vanaf grondniveau en vermindert windweerstand op de wijzers."
+        }
+      },
+      {
+        question: {
+          en: "What is the total length of all four minute hands combined?",
+          es: "¿Cuál es la longitud total de las cuatro manecillas de minutos combinadas?",
+          de: "Was ist die Gesamtlänge aller vier Minutenzeiger zusammen?",
+          nl: "Wat is de totale lengte van alle vier minuutwijzers gecombineerd?"
+        },
+        options: [
+          { en: "12.8 meters", es: "12,8 metros", de: "12,8 Meter", nl: "12,8 meter" },
+          { en: "16.8 meters", es: "16,8 metros", de: "16,8 Meter", nl: "16,8 meter" },
+          { en: "20.8 meters", es: "20,8 metros", de: "20,8 Meter", nl: "20,8 meter" },
+          { en: "24.8 meters", es: "24,8 metros", de: "24,8 Meter", nl: "24,8 meter" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The four minute hands measure 4.2 meters each, totaling 16.8 meters. Combined with the hour hands (2.7m each = 10.8m), the eight hands total 27.6 meters.",
+          es: "Las cuatro manecillas de minutos miden 4,2 metros cada una, totalizando 16,8 metros. Combinadas con las manecillas de hora (2,7m cada una = 10,8m), las ocho manecillas totalizan 27,6 metros.",
+          de: "Die vier Minutenzeiger messen jeweils 4,2 Meter, insgesamt 16,8 Meter. Zusammen mit den Stundenzei gern (je 2,7m = 10,8m) betragen die acht Zeiger insgesamt 27,6 Meter.",
+          nl: "De vier minuutwijzers meten elk 4,2 meter, in totaal 16,8 meter. Gecombineerd met de uurwijzers (2,7m elk = 10,8m) bedragen de acht wijzers in totaal 27,6 meter."
+        }
       }
     ]
   };

@@ -1,0 +1,369 @@
+            ,{
+                question: {
+                    en: "What makes the 1919 Sazerac Rye whiskey found at Buffalo Trace so historically significant?",
+                    es: "¿Qué hace que el whiskey Sazerac Rye de 1919 encontrado en Buffalo Trace sea tan históricamente significativo?",
+                    de: "Was macht den 1919 Sazerac Rye Whiskey aus Buffalo Trace so historisch bedeutsam?",
+                    nl: "Wat maakt de 1919 Sazerac Rye whiskey gevonden bij Buffalo Trace zo historisch significant?"
+                },
+                options: [
+                    {
+                        en: "Pre-Prohibition whiskey discovered in sealed warehouse, representing lost distilling techniques",
+                        es: "Whiskey pre-Prohibición descubierto en almacén sellado, representando técnicas de destilación perdidas",
+                        de: "Whiskey vor der Prohibition in versiegeltem Lagerhaus entdeckt, repräsentiert verlorene Destillationstechniken",
+                        nl: "Pre-Prohibition whiskey ontdekt in verzegeld magazijn, vertegenwoordigt verloren distillatietechnieken"
+                    },
+                    {
+                        en: "First rye whiskey ever commercially produced",
+                        es: "Primer whiskey de centeno producido comercialmente",
+                        de: "Erster kommerziell produzierter Roggen-Whiskey",
+                        nl: "Eerste rogge whiskey ooit commercieel geproduceerd"
+                    },
+                    {
+                        en: "Won gold medal at 1920 Paris Exposition",
+                        es: "Ganó medalla de oro en Exposición de París de 1920",
+                        de: "Gewann Goldmedaille bei Paris Exposition 1920",
+                        nl: "Won gouden medaille op 1920 Paris Expositie"
+                    },
+                    {
+                        en: "Only surviving bottle from original Sazerac distillery",
+                        es: "Única botella superviviente de destilería Sazerac original",
+                        de: "Einzige überlebende Flasche aus original Sazerac-Brennerei",
+                        nl: "Enige overgebleven fles van originele Sazerac distilleerderij"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "In 2016, Buffalo Trace discovered barrels of 1919 Sazerac Rye sealed before Prohibition (1920-1933). This whiskey represents pre-Prohibition American distilling methods and grain profiles that were largely lost during the 13-year shutdown. The discovery provides invaluable insight into historical production techniques and flavor profiles from whiskey's golden age. Bottles have sold at auction for over $20,000, valued not just for rarity but as liquid history.",
+                    es: "En 2016, Buffalo Trace descubrió barriles de Sazerac Rye de 1919 sellados antes de la Prohibición (1920-1933). Este whiskey representa métodos de destilación americanos pre-Prohibición y perfiles de grano que se perdieron en gran medida durante el cierre de 13 años. El descubrimiento proporciona información invaluable sobre técnicas de producción históricas y perfiles de sabor de la edad dorada del whiskey. Las botellas se han vendido en subasta por más de $20,000, valoradas no solo por rareza sino como historia líquida.",
+                    de: "2016 entdeckte Buffalo Trace Fässer mit 1919 Sazerac Rye, die vor der Prohibition (1920-1933) versiegelt wurden. Dieser Whiskey repräsentiert amerikanische Destillationsmethoden und Getreideprofile vor der Prohibition, die während der 13-jährigen Schließung weitgehend verloren gingen. Die Entdeckung bietet unschätzbare Einblicke in historische Produktionstechniken und Geschmacksprofile aus der goldenen Ära des Whiskeys. Flaschen wurden bei Auktionen für über $20.000 verkauft, geschätzt nicht nur wegen Seltenheit, sondern als flüssige Geschichte.",
+                    nl: "In 2016 ontdekte Buffalo Trace vaten met 1919 Sazerac Rye verzegeld vóór de Prohibition (1920-1933). Deze whiskey vertegenwoordigt pre-Prohibition Amerikaanse distillatiemethoden en graanprofielen die grotendeels verloren gingen tijdens de 13-jarige sluiting. De ontdekking biedt onschatbaar inzicht in historische productietechnieken en smaakprofielen uit de gouden eeuw van whiskey. Flessen zijn geveild voor meer dan $20.000, gewaardeerd niet alleen voor zeldzaamheid maar als vloeibare geschiedenis."
+                }
+            },
+            {
+                question: {
+                    en: "Why are 'silent stills' whisky releases so sought after by collectors?",
+                    es: "¿Por qué son tan buscadas por coleccionistas las ediciones de whisky de 'alambiques silenciosos'?",
+                    de: "Warum sind 'Silent Stills' Whisky-Abfüllungen bei Sammlern so gefragt?",
+                    nl: "Waarom zijn 'silent stills' whisky releases zo gezocht bij verzamelaars?"
+                },
+                options: [
+                    {
+                        en: "Whisky from permanently closed distilleries that can never be reproduced",
+                        es: "Whisky de destilerías permanentemente cerradas que nunca puede reproducirse",
+                        de: "Whisky aus dauerhaft geschlossenen Brennereien, der niemals reproduziert werden kann",
+                        nl: "Whisky van permanent gesloten distilleerderijen die nooit gerepro duceerd kan worden"
+                    },
+                    {
+                        en: "Produced using special soundproof fermentation techniques",
+                        es: "Producido usando técnicas especiales de fermentación a prueba de sonido",
+                        de: "Hergestellt mit speziellen schalldichten Fermentationstechniken",
+                        nl: "Geproduceerd met speciale geluiddichte fermentatietechnieken"
+                    },
+                    {
+                        en: "Aged in underground silent caves for acoustic perfection",
+                        es: "Envejecido en cuevas silenciosas subterráneas para perfección acústica",
+                        de: "In unterirdischen stillen Höhlen für akustische Perfektion gereift",
+                        nl: "Gerijpt in ondergrondse stille grotten voor akoestische perfectie"
+                    },
+                    {
+                        en: "Distilled at night when production equipment is quieter",
+                        es: "Destilado de noche cuando equipo de producción es más silencioso",
+                        de: "Nachts destilliert wenn Produktionsausrüstung leiser ist",
+                        nl: "Gedistilleerd 's nachts wanneer productieapparatuur stiller is"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "'Silent stills' or 'ghost distilleries' are permanently closed distilleries whose remaining stock becomes increasingly rare and valuable. Famous examples include Port Ellen (Islay, closed 1983), Brora (Highlands, closed 1983), and Rosebank (Lowlands, closed 1993). Each had distinctive character reflecting their unique stills, water sources, and techniques. As bottles are consumed, the finite supply appreciates dramatically—Port Ellen releases routinely sell for $500-3,000+ per bottle. Some silent distilleries have been resurrected, but purists seek original pre-closure stock.",
+                    es: "'Alambiques silenciosos' o 'destilerías fantasma' son destilerías permanentemente cerradas cuyo stock restante se vuelve cada vez más raro y valioso. Ejemplos famosos incluyen Port Ellen (Islay, cerrada 1983), Brora (Highlands, cerrada 1983) y Rosebank (Lowlands, cerrada 1993). Cada una tenía carácter distintivo reflejando sus alambiques únicos, fuentes de agua y técnicas. A medida que se consumen botellas, el suministro finito se aprecia dramáticamente—ediciones Port Ellen se venden rutinariamente por $500-3,000+ por botella. Algunas destilerías silenciosas han sido resucitadas, pero puristas buscan stock original pre-cierre.",
+                    de: "'Silent Stills' oder 'Geister-Brennereien' sind dauerhaft geschlossene Brennereien, deren verbleibender Bestand zunehmend selten und wertvoll wird. Berühmte Beispiele sind Port Ellen (Islay, geschlossen 1983), Brora (Highlands, geschlossen 1983) und Rosebank (Lowlands, geschlossen 1993). Jede hatte charakteristischen Charakter, der ihre einzigartigen Brennblasen, Wasserquellen und Techniken widerspiegelte. Während Flaschen konsumiert werden, steigt der endliche Vorrat dramatisch—Port Ellen Abfüllungen verkaufen sich routinemäßig für $500-3.000+ pro Flasche. Einige stille Brennereien wurden wiederbelebt, aber Puristen suchen original Vorräte vor Schließung.",
+                    nl: "'Silent stills' of 'spookdistilleerderijen' zijn permanent gesloten distilleerderijen waarvan de resterende voorraad steeds zeldzamer en waardevoller wordt. Beroemde voorbeelden zijn Port Ellen (Islay, gesloten 1983), Brora (Highlands, gesloten 1983) en Rosebank (Lowlands, gesloten 1993). Elk had onderscheidend karakter dat hun unieke stills, waterbronnen en technieken weerspiegelde. Naarmate flessen worden geconsumeerd, waardeert de eindige voorraad dramatisch—Port Ellen releases verkopen routineus voor $500-3.000+ per fles. Sommige stille distilleerderijen zijn herboren, maar puristen zoeken originele pre-sluitingsvoorraad."
+                }
+            },
+            {
+                question: {
+                    en: "What makes 'Pappy Van Winkle's Family Reserve 23 Year' one of the most allocated bourbons?",
+                    es: "¿Qué hace que 'Pappy Van Winkle's Family Reserve 23 Year' sea uno de los bourbons más asignados?",
+                    de: "Was macht 'Pappy Van Winkle's Family Reserve 23 Year' zu einem der am meisten zugewiesenen Bourbons?",
+                    nl: "Wat maakt 'Pappy Van Winkle's Family Reserve 23 Year' een van de meest toegewezen bourbons?"
+                },
+                options: [
+                    {
+                        en: "Extremely limited production due to evaporation losses and small batch aging",
+                        es: "Producción extremadamente limitada debido a pérdidas por evaporación y envejecimiento en lotes pequeños",
+                        de: "Extrem limitierte Produktion aufgrund von Verdunstungsverlusten und Kleinchargen-Reifung",
+                        nl: "Extreem beperkte productie door verdampingsverliezen en kleine batch rijping"
+                    },
+                    {
+                        en: "Made with rare heirloom corn variety extinct elsewhere",
+                        es: "Hecho con variedad de maíz tradicional rara extinta en otros lugares",
+                        de: "Hergestellt mit seltener Erbmais-Sorte anderswo ausgestorben",
+                        nl: "Gemaakt met zeldzame erfgoed maïsvariëteit uitgestorven elders"
+                    },
+                    {
+                        en: "Only distilled during full moon phases",
+                        es: "Solo destilado durante fases de luna llena",
+                        de: "Nur während Vollmondphasen destilliert",
+                        nl: "Alleen gedistilleerd tijdens volle maan fasen"
+                    },
+                    {
+                        en: "Requires approval from Van Winkle family for each bottle",
+                        es: "Requiere aprobación de familia Van Winkle para cada botella",
+                        de: "Erfordert Genehmigung der Van Winkle-Familie für jede Flasche",
+                        nl: "Vereist goedkeuring van Van Winkle familie voor elke fles"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Pappy Van Winkle 23 Year is exceptionally rare because: 1) Only ~3,000 bottles produced annually from wheated bourbon recipe, 2) 23 years of aging means huge angel's share losses (40-50% of original volume evaporates), 3) Not every barrel survives or meets quality standards after two decades, 4) Cult following creates demand far exceeding supply. Retail price is ~$300, but secondary market prices reach $3,000-5,000. The allocation system and lottery drawings have become legendary. Buffalo Trace produces it under contract for Old Rip Van Winkle Distillery.",
+                    es: "Pappy Van Winkle 23 Year es excepcionalmente raro porque: 1) Solo ~3,000 botellas producidas anualmente de receta de bourbon con trigo, 2) 23 años de envejecimiento significa enormes pérdidas de parte de ángeles (40-50% del volumen original se evapora), 3) No todos los barriles sobreviven o cumplen estándares de calidad después de dos décadas, 4) Seguimiento de culto crea demanda que excede en mucho la oferta. Precio minorista es ~$300, pero precios de mercado secundario alcanzan $3,000-5,000. El sistema de asignación y sorteos se han vuelto legendarios. Buffalo Trace lo produce bajo contrato para Old Rip Van Winkle Distillery.",
+                    de: "Pappy Van Winkle 23 Year ist außergewöhnlich selten weil: 1) Nur ~3.000 Flaschen jährlich aus Weizen-Bourbon-Rezept produziert, 2) 23 Jahre Reifung bedeutet riesige Anteil der Engel-Verluste (40-50% des Originalvolumens verdunstet), 3) Nicht jedes Fass überlebt oder erfüllt Qualitätsstandards nach zwei Jahrzehnten, 4) Kult-Anhängerschaft schafft Nachfrage, die Angebot bei weitem übersteigt. Einzelhandelspreis ist ~$300, aber Sekundärmarktpreise erreichen $3.000-5.000. Das Zuteilungssystem und Lotterieziehungen sind legendär geworden. Buffalo Trace produziert es im Auftrag für Old Rip Van Winkle Distillery.",
+                    nl: "Pappy Van Winkle 23 Year is uitzonderlijk zeldzaam omdat: 1) Slechts ~3.000 flessen jaarlijks geproduceerd van tarwe bourbon recept, 2) 23 jaar rijping betekent enorme angel's share verliezen (40-50% van origineel volume verdampt), 3) Niet elk vat overleeft of voldoet aan kwaliteitsnormen na twee decennia, 4) Cult-aanhang creëert vraag die aanbod ver overstijgt. Winkelprijs is ~$300, maar secundaire marktprijzen bereiken $3.000-5.000. Het toewijzingssysteem en loterij trekkingen zijn legendarisch geworden. Buffalo Trace produceert het onder contract voor Old Rip Van Winkle Distillery."
+                }
+            },
+            {
+                question: {
+                    en: "Why do Japanese whisky releases from the 1980s-90s command premium prices?",
+                    es: "¿Por qué las ediciones de whisky japonés de los años 1980-90 exigen precios premium?",
+                    de: "Warum erzielen japanische Whisky-Abfüllungen aus den 1980er-90ern Premium-Preise?",
+                    nl: "Waarom eisen Japanse whisky releases uit de jaren 1980-90 premium prijzen?"
+                },
+                options: [
+                    {
+                        en: "Pre-dated global whisky boom, aged longer with older techniques before modern demand",
+                        es: "Anteriores al boom global del whisky, envejecidos más tiempo con técnicas antiguas antes de la demanda moderna",
+                        de: "Vor globalem Whisky-Boom, länger gereift mit älteren Techniken vor moderner Nachfrage",
+                        nl: "Voorafgaand aan wereldwijde whisky boom, langer gerijpt met oudere technieken voor moderne vraag"
+                    },
+                    {
+                        en: "Used Scottish peat no longer available due to export bans",
+                        es: "Usaron turba escocesa ya no disponible debido a prohibiciones de exportación",
+                        de: "Verwendeten schottischen Torf nicht mehr verfügbar aufgrund Exportverbote",
+                        nl: "Gebruikten Schotse turf niet langer beschikbaar door exportverboden"
+                    },
+                    {
+                        en: "Handcrafted by master distillers who have all since retired",
+                        es: "Hechos a mano por maestros destiladores que desde entonces se han retirado",
+                        de: "Handgefertigt von Meisterbrenner die seitdem alle in Rente sind",
+                        nl: "Handgemaakt door meester distilleerders die sindsdien allemaal met pensioen zijn"
+                    },
+                    {
+                        en: "Special rice koji used then is now extinct variety",
+                        es: "Koji de arroz especial usado entonces es ahora variedad extinta",
+                        de: "Spezieller Reis-Koji damals verwendet ist jetzt ausgestorbene Sorte",
+                        nl: "Speciale rijst koji toen gebruikt is nu uitgestorven variëteit"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "1980s-90s Japanese whisky represents a 'golden era' before global recognition. Distilleries like Yamazaki, Hakushu, and closed Karuizawa were aging whisky 20-30+ years with minimal commercial pressure, resulting in exceptional quality stocks. After Jim Murray's 2015 'Whisky Bible' named Yamazaki Sherry Cask 2013 'World's Best', demand exploded while aged inventory was already limited. Karuizawa, closed in 2000, now sees bottles auction for $10,000-100,000+. These vintages capture traditional methods before production scaled up to meet modern global demand.",
+                    es: "Whisky japonés de 1980-90 representa una 'era dorada' antes del reconocimiento global. Destilerías como Yamazaki, Hakushu y la cerrada Karuizawa estaban envejeciendo whisky 20-30+ años con presión comercial mínima, resultando en stocks de calidad excepcional. Después de que Jim Murray's 2015 'Whisky Bible' nombró Yamazaki Sherry Cask 2013 'Mejor del Mundo', la demanda explotó mientras inventario envejecido ya era limitado. Karuizawa, cerrada en 2000, ahora ve botellas subastadas por $10,000-100,000+. Estas cosechas capturan métodos tradicionales antes de que producción escalara para satisfacer demanda global moderna.",
+                    de: "Japanischer Whisky der 1980er-90er repräsentiert eine 'goldene Ära' vor globaler Anerkennung. Brennereien wie Yamazaki, Hakushu und geschlossene Karuizawa reiften Whisky 20-30+ Jahre mit minimalem kommerziellem Druck, was außergewöhnliche Qualitätsbestände ergab. Nach Jim Murray's 2015 'Whisky Bible' Yamazaki Sherry Cask 2013 zum 'Weltbesten' ernannte, explodierte Nachfrage während gereiftes Inventar bereits begrenzt war. Karuizawa, 2000 geschlossen, sieht jetzt Flaschen für $10.000-100.000+ versteigert. Diese Jahrgänge erfassen traditionelle Methoden bevor Produktion hochskalierte um moderne globale Nachfrage zu erfüllen.",
+                    nl: "1980s-90s Japanse whisky vertegenwoordigt een 'gouden tijdperk' vóór wereldwijde erkenning. Distilleerderijen zoals Yamazaki, Hakushu en gesloten Karuizawa waren whisky aan het rijpen 20-30+ jaar met minimale commerciële druk, resulterend in uitzonderlijke kwaliteitsvoorraden. Na Jim Murray's 2015 'Whisky Bible' Yamazaki Sherry Cask 2013 'World's Best' noemde, explodeerde vraag terwijl gerijpte inventaris al beperkt was. Karuizawa, gesloten in 2000, ziet nu flessen geveild voor $10.000-100.000+. Deze vintages vangen traditionele methoden voordat productie opschaalde om moderne wereldwijde vraag te voldoen."
+                }
+            },
+            {
+                question: {
+                    en: "What is 'provenance' and why is it critical for vintage spirit collecting?",
+                    es: "¿Qué es 'procedencia' y por qué es crítica para coleccionar licores vintage?",
+                    de: "Was ist 'Provenienz' und warum ist sie entscheidend für Vintage-Spirituosen-Sammeln?",
+                    nl: "Wat is 'herkomst' en waarom is dit cruciaal voor vintage sterke drank verzamelen?"
+                },
+                options: [
+                    {
+                        en: "Documented ownership history and storage conditions verifying authenticity and quality",
+                        es: "Historia de propiedad documentada y condiciones de almacenamiento verificando autenticidad y calidad",
+                        de: "Dokumentierte Besitzgeschichte und Lagerbedingungen, die Echtheit und Qualität verifizieren",
+                        nl: "Gedocumenteerde eigendomsgeschiedenis en opslagcondities die authenticiteit en kwaliteit verifiëren"
+                    },
+                    {
+                        en: "Geographic region where grapes or grains were grown",
+                        es: "Región geográfica donde se cultivaron uvas o granos",
+                        de: "Geografische Region wo Trauben oder Getreide angebaut wurden",
+                        nl: "Geografische regio waar druiven of granen werden gekweekt"
+                    },
+                    {
+                        en: "Distillery's founding date and historical background",
+                        es: "Fecha de fundación de destilería y antecedentes históricos",
+                        de: "Gründungsdatum der Brennerei und historischer Hintergrund",
+                        nl: "Oprichtingsdatum distilleerderij en historische achtergrond"
+                    },
+                    {
+                        en: "Original retail price and auction records",
+                        es: "Precio minorista original y registros de subasta",
+                        de: "Original-Einzelhandelspreis und Auktionsaufzeichnungen",
+                        nl: "Originele winkelprijs en veilingrecords"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Provenance is the documented chain of custody and storage history for a bottle, crucial because: 1) Verifies authenticity in a market plagued by counterfeits (especially vintage Scotch, Cognac, and closed distilleries), 2) Confirms proper storage (temperature, humidity, light exposure) critical for maintaining quality, 3) Increases value—bottles from notable collections or direct-from-distillery command premiums. Ideal provenance includes original purchase receipts, storage conditions, ownership transfers. Auction houses like Sotheby's and Bonhams require provenance documentation. Poor storage (heat, sunlight) can ruin even genuine rare bottles.",
+                    es: "Procedencia es la cadena de custodia documentada e historia de almacenamiento para una botella, crucial porque: 1) Verifica autenticidad en mercado plagado de falsificaciones (especialmente whisky escocés vintage, Cognac y destilerías cerradas), 2) Confirma almacenamiento adecuado (temperatura, humedad, exposición a luz) crítico para mantener calidad, 3) Aumenta valor—botellas de colecciones notables o directamente de destilería exigen precios premium. Procedencia ideal incluye recibos de compra originales, condiciones de almacenamiento, transferencias de propiedad. Casas de subasta como Sotheby's y Bonhams requieren documentación de procedencia. Almacenamiento pobre (calor, luz solar) puede arruinar incluso botellas raras genuinas.",
+                    de: "Provenienz ist die dokumentierte Besitzkette und Lagergeschichte einer Flasche, entscheidend weil: 1) Verifiziert Echtheit in einem Markt geplagt von Fälschungen (besonders Vintage Scotch, Cognac und geschlossene Brennereien), 2) Bestätigt richtige Lagerung (Temperatur, Luftfeuchtigkeit, Lichtexposition) kritisch für Qualitätserhaltung, 3) Erhöht Wert—Flaschen aus bemerkenswerten Sammlungen oder direkt-von-Brennerei erzielen Aufpreise. Ideale Provenienz umfasst Original-Kaufbelege, Lagerbedingungen, Eigentumsübertragungen. Auktionshäuser wie Sotheby's und Bonhams erfordern Provenienz-Dokumentation. Schlechte Lagerung (Hitze, Sonnenlicht) kann selbst echte seltene Flaschen ruinieren.",
+                    nl: "Herkomst is de gedocumenteerde bewarings keten en opslaggeschiedenis voor een fles, cruciaal omdat: 1) Verifieert authenticiteit in een markt geteisterd door namaak (vooral vintage Scotch, Cognac en gesloten distilleerderijen), 2) Bevestigt juiste opslag (temperatuur, vochtigheid, lichtblootstelling) kritiek voor behoud kwaliteit, 3) Verhoogt waarde—flessen uit opmerkelijke collecties of direct-van-distilleerderij eisen premiums. Ideale herkomst omvat originele aankoopbewijzen, opslagcondities, eigendomsoverdrachten. Veilinghuizen zoals Sotheby's en Bonhams vereisen herkomstdocumentatie. Slechte opslag (hitte, zonlicht) kan zelfs echte zeldzame flessen ruïneren."
+                }
+            },
+            {
+                question: {
+                    en: "Why are 'original bottling' vintage rums from closed Caribbean distilleries so valuable?",
+                    es: "¿Por qué son tan valiosos los rones vintage de 'embotellado original' de destilerías caribeñas cerradas?",
+                    de: "Warum sind 'Original-Abfüllung' Vintage-Rums aus geschlossenen karibischen Brennereien so wertvoll?",
+                    nl: "Waarom zijn 'originele botteling' vintage rums van gesloten Caribische distilleerderijen zo waardevol?"
+                },
+                options: [
+                    {
+                        en: "Represent unique terroir and techniques from discontinued estates, aged in tropical climate for intense character",
+                        es: "Representan terroir único y técnicas de haciendas discontinuadas, envejecidos en clima tropical para carácter intenso",
+                        de: "Repräsentieren einzigartiges Terroir und Techniken von eingestellten Gütern, in tropischem Klima gereift für intensiven Charakter",
+                        nl: "Vertegenwoordigen uniek terroir en technieken van stopgezette landgoederen, gerijpt in tropisch klimaat voor intens karakter"
+                    },
+                    {
+                        en: "Made with pure sugar cane extinct due to hurricane damage",
+                        es: "Hechos con caña de azúcar pura extinta debido a daño de huracanes",
+                        de: "Hergestellt mit reinem Zuckerrohr ausgestorben aufgrund Hurrikan-Schäden",
+                        nl: "Gemaakt met pure suikerriet uitgestorven door orkaan schade"
+                    },
+                    {
+                        en: "Required minimum 50 years aging by Caribbean law",
+                        es: "Requerían mínimo 50 años de envejecimiento por ley caribeña",
+                        de: "Erforderten mindestens 50 Jahre Reifung nach karibischem Gesetz",
+                        nl: "Vereisten minimum 50 jaar rijping volgens Caribische wet"
+                    },
+                    {
+                        en: "Sealed with wax made from now-protected bee species",
+                        es: "Sellados con cera hecha de especies de abejas ahora protegidas",
+                        de: "Versiegelt mit Wachs aus jetzt geschützten Bienenarten",
+                        nl: "Verzegeld met was gemaakt van nu-beschermde bijensoorten"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Closed Caribbean estates like Caroni (Trinidad, closed 2002), Skeldon (Guyana), and Long Pond (Jamaica, intermittently closed) produced rums reflecting unique molasses, pot still designs, and fermentation techniques. Tropical aging (angel's share 8-12% annually vs. 2% in Scotland) means 15-20 year rums have concentration equivalent to 40-50 year Scotch. Original distillery bottlings (OB) preserve authentic character versus independent bottlers. Caroni 1974 Full Proof sells for $2,000-5,000+. These rums capture lost traditions—specific yeast strains, wooden fermenters, direct-fire pot stills—impossible to recreate.",
+                    es: "Haciendas caribeñas cerradas como Caroni (Trinidad, cerrada 2002), Skeldon (Guyana) y Long Pond (Jamaica, intermitentemente cerrada) produjeron rones reflejando melaza única, diseños de alambique y técnicas de fermentación. Envejecimiento tropical (parte de ángeles 8-12% anualmente vs. 2% en Escocia) significa que rones de 15-20 años tienen concentración equivalente a whisky escocés de 40-50 años. Embotellados de destilería originales (OB) preservan carácter auténtico versus embotelladores independientes. Caroni 1974 Full Proof se vende por $2,000-5,000+. Estos rones capturan tradiciones perdidas—cepas de levadura específicas, fermentadores de madera, alambiques de fuego directo—imposibles de recrear.",
+                    de: "Geschlossene karibische Güter wie Caroni (Trinidad, geschlossen 2002), Skeldon (Guyana) und Long Pond (Jamaika, zeitweise geschlossen) produzierten Rums, die einzigartige Melasse, Brennblasen-Designs und Fermentationstechniken widerspiegelten. Tropische Reifung (Anteil der Engel 8-12% jährlich vs. 2% in Schottland) bedeutet 15-20 Jahre alte Rums haben Konzentration äquivalent zu 40-50 Jahre altem Scotch. Original-Brennerei-Abfüllungen (OB) bewahren authentischen Charakter versus unabhängige Abfüller. Caroni 1974 Full Proof verkauft für $2.000-5.000+. Diese Rums erfassen verlorene Traditionen—spezifische Hefestämme, Holzfermenter, Direktfeuer-Brennblasen—unmöglich nachzubilden.",
+                    nl: "Gesloten Caribische landgoederen zoals Caroni (Trinidad, gesloten 2002), Skeldon (Guyana) en Long Pond (Jamaica, af en toe gesloten) produceerden rums die unieke melasse, pot still ontwerpen en fermentatietechnieken weerspiegelden. Tropische rijping (angel's share 8-12% jaarlijks vs. 2% in Schotland) betekent 15-20 jaar rums hebben concentratie equivalent aan 40-50 jaar Scotch. Originele distilleerderij bottelingen (OB) behouden authentiek karakter versus onafhankelijke bottelaars. Caroni 1974 Full Proof verkoopt voor $2.000-5.000+. Deze rums vangen verloren tradities—specifieke giststammen, houten fermenteerders, direct-vuur pot stills—onmogelijk na te maken."
+                }
+            },
+            {
+                question: {
+                    en: "What makes Armagnac vintages more traceable and collectible than most Cognacs?",
+                    es: "¿Qué hace que las cosechas de Armagnac sean más rastreables y coleccionables que la mayoría de los Cognacs?",
+                    de: "Was macht Armagnac-Jahrgänge nachvollziehbarer und sammelbarer als die meisten Cognacs?",
+                    nl: "Wat maakt Armagnac vintages meer traceerbaar en verzamelbaar dan de meeste Cognacs?"
+                },
+                options: [
+                    {
+                        en: "Traditional single-vintage bottlings from specific years rather than blended age statements",
+                        es: "Embotellados tradicionales de cosecha única de años específicos en lugar de declaraciones de edad mezcladas",
+                        de: "Traditionelle Einzeljahrgangs-Abfüllungen aus bestimmten Jahren statt gemischter Altersangaben",
+                        nl: "Traditionele enkele-vintage bottelingen van specifieke jaren in plaats van gemengde leeftijdsverklaringen"
+                    },
+                    {
+                        en: "Required government certification stamps on every bottle",
+                        es: "Sellos de certificación gubernamental requeridos en cada botella",
+                        de: "Erforderliche Regierungszertifizierungsstempel auf jeder Flasche",
+                        nl: "Vereiste overheidscer tificeringstempels op elke fles"
+                    },
+                    {
+                        en: "DNA markers added during distillation for authentication",
+                        es: "Marcadores de ADN añadidos durante destilación para autenticación",
+                        de: "DNA-Marker während Destillation für Authentifizierung hinzugefügt",
+                        nl: "DNA-markers toegevoegd tijdens distillatie voor authenticatie"
+                    },
+                    {
+                        en: "Blockchain tracking system implemented in 1950s",
+                        es: "Sistema de seguimiento blockchain implementado en años 1950",
+                        de: "Blockchain-Tracking-System in 1950ern implementiert",
+                        nl: "Blockchain tracking systeem geïmplementeerd in jaren 1950"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Unlike Cognac houses that typically blend multiple years and state age (VS, VSOP, XO), Armagnac producers traditionally release 'millésime' (vintage) bottlings from single harvest years, similar to wine. This allows collectors to acquire spirits from specific years—birth years, anniversaries, historical events. Bottles labeled '1962 Armagnac' contain only 1962-distilled spirit. The tradition stems from Armagnac's smaller scale, family producers, and column still production allowing consistent quality from single years. Collecting vertical vintages (multiple years from same producer) reveals terroir and climate variations, making Armagnac particularly appealing to collectors seeking authentic vintage expressions.",
+                    es: "A diferencia de casas de Cognac que típicamente mezclan múltiples años y declaran edad (VS, VSOP, XO), productores de Armagnac tradicionalmente lanzan embotellados 'millésime' (cosecha) de años de cosecha únicos, similar al vino. Esto permite a coleccionistas adquirir licores de años específicos—años de nacimiento, aniversarios, eventos históricos. Botellas etiquetadas '1962 Armagnac' contienen solo espíritu destilado de 1962. La tradición proviene de la escala menor de Armagnac, productores familiares y producción de alambique de columna permitiendo calidad consistente de años únicos. Coleccionar cosechas verticales (múltiples años del mismo productor) revela terroir y variaciones climáticas, haciendo Armagnac particularmente atractivo para coleccionistas que buscan expresiones vintage auténticas.",
+                    de: "Im Gegensatz zu Cognac-Häusern, die typischerweise mehrere Jahre mischen und Alter angeben (VS, VSOP, XO), veröffentlichen Armagnac-Produzenten traditionell 'Millésime' (Jahrgangs-) Abfüllungen aus einzelnen Erntejahren, ähnlich wie Wein. Dies ermöglicht Sammlern Spirituosen aus bestimmten Jahren zu erwerben—Geburtsjahre, Jubiläen, historische Ereignisse. Flaschen mit '1962 Armagnac' enthalten nur 1962-destillierten Spiritus. Die Tradition stammt aus Armagnacs kleinerer Skala, Familienproduzenten und Säulenbrennanlage-Produktion, die konsistente Qualität aus einzelnen Jahren ermöglicht. Sammeln vertikaler Jahrgänge (mehrere Jahre vom selben Produzenten) offenbart Terroir und Klimavariationen, macht Armagnac besonders ansprechend für Sammler die authentische Vintage-Ausdrücke suchen.",
+                    nl: "In tegenstelling tot Cognac huizen die typisch meerdere jaren mengen en leeftijd vermelden (VS, VSOP, XO), brengen Armagnac producenten traditioneel 'millésime' (vintage) bottelingen uit van enkele oogstjaren, vergelijkbaar met wijn. Dit stelt verzamelaars in staat om spirits van specifieke jaren te verwerven—geboortejaren, jubilea, historische gebeurtenissen. Flessen gelabeld '1962 Armagnac' bevatten alleen 1962-gedistilleerde spirit. De traditie komt van Armagnac's kleinere schaal, familieproducenten en kolomstill productie die consistente kwaliteit van enkele jaren mogelijk maakt. Verzamelen van verticale vintages (meerdere jaren van dezelfde producent) onthult terroir en klimaatvariaties, maakt Armagnac bijzonder aantrekkelijk voor verzamelaars die authentieke vintage uitdrukkingen zoeken."
+                }
+            },
+            {
+                question: {
+                    en: "Why are pre-1980s bottlings of Tequila particularly rare and sought after?",
+                    es: "¿Por qué son particularmente raros y buscados los embotellados de Tequila anteriores a 1980?",
+                    de: "Warum sind Tequila-Abfüllungen vor 1980 besonders selten und gefragt?",
+                    nl: "Waarom zijn pre-1980 bottelingen van Tequila bijzonder zeldzaam en gezocht?"
+                },
+                options: [
+                    {
+                        en: "Few producers aged tequila long-term before premium market developed, making vintage añejos extremely rare",
+                        es: "Pocos productores envejecían tequila a largo plazo antes de que se desarrollara mercado premium, haciendo añejos vintage extremadamente raros",
+                        de: "Wenige Produzenten reiften Tequila langfristig bevor Premium-Markt sich entwickelte, machen Vintage Añejos extrem selten",
+                        nl: "Weinig producenten rijpten tequila lange termijn voordat premium markt zich ontwikkelde, maken vintage añejos extreem zeldzaam"
+                    },
+                    {
+                        en: "Blue agave variety used then is now extinct from disease",
+                        es: "Variedad de agave azul usada entonces ahora está extinta por enfermedad",
+                        de: "Blaue Agave-Sorte damals verwendet ist jetzt durch Krankheit ausgestorben",
+                        nl: "Blauwe agave variëteit toen gebruikt is nu uitgestorven door ziekte"
+                    },
+                    {
+                        en: "Traditional tahona stone wheels banned after 1980 for sanitation",
+                        es: "Ruedas de piedra tahona tradicionales prohibidas después de 1980 por sanidad",
+                        de: "Traditionelle Tahona-Steinräder nach 1980 aus Hygieneg ründen verboten",
+                        nl: "Traditionele tahona steenwielen verboden na 1980 voor sanitatie"
+                    },
+                    {
+                        en: "Mexican export laws prohibited international shipping until 1985",
+                        es: "Leyes de exportación mexicanas prohibían envío internacional hasta 1985",
+                        de: "Mexikanische Exportgesetze verboten internationalen Versand bis 1985",
+                        nl: "Mexicaanse exportwetten verboden internationale verzending tot 1985"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Before the premium tequila boom of the 1990s-2000s, most tequila was consumed young ('blanco' or lightly aged 'reposado'). Extended barrel aging ('añejo' 1-3 years, 'extra añejo' 3+ years) was uncommon as market didn't value or pay premiums for aged expressions. Pre-1980s añejos from producers like Herradura, Sauza, and Orendain are exceptionally rare—few bottles were made, fewer were exported, and even fewer survived. Collectors prize these for historical significance and unique flavor profiles from older agave cultivation, traditional tahona milling, and different barrel sourcing before modern standardization. Auction prices can reach $5,000-20,000+ for rare examples.",
+                    es: "Antes del boom de tequila premium de 1990-2000, la mayoría del tequila se consumía joven ('blanco' o ligeramente envejecido 'reposado'). Envejecimiento extendido en barril ('añejo' 1-3 años, 'extra añejo' 3+ años) era poco común ya que mercado no valoraba ni pagaba precios premium por expresiones envejecidas. Añejos pre-1980 de productores como Herradura, Sauza y Orendain son excepcionalmente raros—se hicieron pocas botellas, menos fueron exportadas y aún menos sobrevivieron. Coleccionistas valoran estos por significado histórico y perfiles de sabor únicos de cultivo de agave antiguo, molienda tahona tradicional y diferente abastecimiento de barril antes de estandarización moderna. Precios de subasta pueden alcanzar $5,000-20,000+ para ejemplos raros.",
+                    de: "Vor dem Premium-Tequila-Boom der 1990er-2000er wurde meiste Tequila jung konsumiert ('Blanco' oder leicht gereift 'Reposado'). Verlängerte Fassreifung ('Añejo' 1-3 Jahre, 'Extra Añejo' 3+ Jahre) war ungewöhnlich da Markt gealterte Ausdrücke nicht schätzte oder Aufpreise zahlte. Pre-1980er Añejos von Produzenten wie Herradura, Sauza und Orendain sind außergewöhnlich selten—wenige Flaschen wurden hergestellt, weniger wurden exportiert und noch weniger überlebten. Sammler schätzen diese für historische Bedeutung und einzigartige Geschmacksprofile aus älterem Agaven-Anbau, traditionellem Tahona-Mahlen und anderem Fass-Bezug vor moderner Standardisierung. Auktionspreise können $5.000-20.000+ für seltene Beispiele erreichen.",
+                    nl: "Vóór de premium tequila boom van de jaren 1990-2000 werd de meeste tequila jong geconsumeerd ('blanco' of licht gerijpt 'reposado'). Verlengde vatrijping ('añejo' 1-3 jaar, 'extra añejo' 3+ jaar) was ongewoon omdat markt gerijpte uitdrukkingen niet waardeerde of premiums betaalde. Pre-1980s añejos van producenten zoals Herradura, Sauza en Orendain zijn uitzonderlijk zeldzaam—weinig flessen werden gemaakt, minder werden geëxporteerd en nog minder overleefden. Verzamelaars prijzen deze voor historische betekenis en unieke smaakprofielen van oudere agave teelt, traditionele tahona maling en verschillende vatbevoorrading voor moderne standaardisatie. Veilingprijzen kunnen $5.000-20.000+ bereiken voor zeldzame voorbeelden."
+                }
+            },
+            {
+                question: {
+                    en: "What is a 'bottle kill fee' and why do serious collectors accept it?",
+                    es: "¿Qué es una 'tarifa de eliminación de botella' y por qué la aceptan coleccionistas serios?",
+                    de: "Was ist eine 'Flaschen-Vernichtungsgebühr' und warum akzeptieren seriöse Sammler sie?",
+                    nl: "Wat is een 'fles kill fee' en waarom accepteren serieuze verzamelaars dit?"
+                },
+                options: [
+                    {
+                        en: "Fee paid at exclusive tastings to open rare bottles, sharing cost among attendees to experience impossible-to-find spirits",
+                        es: "Tarifa pagada en catas exclusivas para abrir botellas raras, compartiendo costo entre asistentes para experimentar licores imposibles de encontrar",
+                        de: "Gebühr bei exklusiven Verkostungen gezahlt um seltene Flaschen zu öffnen, Kosten unter Teilnehmern geteilt um unmöglich zu findende Spirituosen zu erleben",
+                        nl: "Vergoeding betaald bij exclusieve proeverijen om zeldzame flessen te openen, kosten delen onder deelnemers om onvindbare spirits te ervaren"
+                    },
+                    {
+                        en: "Insurance premium required for shipping vintage spirits internationally",
+                        es: "Prima de seguro requerida para enviar licores vintage internacionalmente",
+                        de: "Versicherungsprämie erforderlich für internationalen Versand von Vintage-Spirituosen",
+                        nl: "Verzekeringspremie vereist voor internationale verzending van vintage spirits"
+                    },
+                    {
+                        en: "Recycling tax imposed on all spirits bottles in certain jurisdictions",
+                        es: "Impuesto de reciclaje impuesto en todas botellas de licores en ciertas jurisdicciones",
+                        de: "Recyclingsteuer auf alle Spirituosenflaschen in bestimmten Rechtsprechungen erhoben",
+                        nl: "Recyclingbelasting opgelegd op alle sterke drank flessen in bepaalde rechtsgebieden"
+                    },
+                    {
+                        en: "Auction house charge for removing counterfeit bottles from sale",
+                        es: "Cargo de casa de subastas por eliminar botellas falsificadas de venta",
+                        de: "Auktionshaus-Gebühr für Entfernung gefälschter Flaschen aus Verkauf",
+                        nl: "Veilinghuis kosten voor verwijdering van namaak flessen uit verkoop"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "A 'bottle kill fee' or 'kill cost' is the price paid to open and share a rare, valuable bottle at private tastings or whisky clubs. For example, opening a $5,000 Port Ellen 1982 means each of 10 attendees pays $500+ to taste a dram. Collectors accept this because: 1) Many bottles are too expensive or rare to purchase individually, 2) Sharing divides cost while providing educational tasting experience, 3) Opportunity to taste discontinued distilleries or legendary vintages otherwise impossible, 4) Community aspect—enthusiasts gather to appreciate spirits meant to be consumed, not just collected. This practice honors spirits as living history rather than just investment assets.",
+                    es: "Una 'tarifa de eliminación de botella' o 'costo de kill' es el precio pagado para abrir y compartir una botella rara y valiosa en catas privadas o clubes de whisky. Por ejemplo, abrir un Port Ellen 1982 de $5,000 significa que cada uno de 10 asistentes paga $500+ para probar un trago. Coleccionistas aceptan esto porque: 1) Muchas botellas son demasiado caras o raras para comprar individualmente, 2) Compartir divide costo mientras proporciona experiencia de cata educativa, 3) Oportunidad de probar destilerías discontinuadas o cosechas legendarias de otra manera imposibles, 4) Aspecto comunitario—entusiastas se reúnen para apreciar licores destinados a consumirse, no solo coleccionarse. Esta práctica honra licores como historia viva en lugar de solo activos de inversión.",
+                    de: "Eine 'Flaschen-Vernichtungsgebühr' oder 'Kill-Kosten' ist der Preis, der gezahlt wird um eine seltene, wertvolle Flasche bei privaten Verkostungen oder Whisky-Clubs zu öffnen und zu teilen. Zum Beispiel bedeutet Öffnen eines $5.000 Port Ellen 1982, dass jeder von 10 Teilnehmern $500+ zahlt um einen Dram zu probieren. Sammler akzeptieren dies weil: 1) Viele Flaschen zu teuer oder selten sind um individuell zu kaufen, 2) Teilen Kosten teilt während Bildungsverkostungs-Erfahrung bietet, 3) Gelegenheit eingestellte Brennereien oder legendäre Jahrgänge sonst unmöglich zu probieren, 4) Gemeinschaftsaspekt—Enthusiasten versammeln sich um Spirituosen zu schätzen die zum Konsum bestimmt sind, nicht nur zum Sammeln. Diese Praxis ehrt Spirituosen als lebendige Geschichte statt nur als Investitionsvermögen.",
+                    nl: "Een 'fles kill fee' of 'kill kosten' is de prijs betaald om een zeldzame, waardevolle fles te openen en delen bij privé proeverijen of whisky clubs. Bijvoorbeeld, openen van een $5.000 Port Ellen 1982 betekent dat elk van 10 deelnemers $500+ betaalt om een dram te proeven. Verzamelaars accepteren dit omdat: 1) Veel flessen te duur of zeldzaam zijn om individueel te kopen, 2) Delen verdeelt kosten terwijl educatieve proeverij ervaring biedt, 3) Mogelijkheid om stopgezette distilleerderijen of legendarische vintages anders onmogelijk te proeven, 4) Gemeenschapsaspect—enthousiastelingen verzamelen om spirits te waarderen bedoeld om geconsumeerd te worden, niet alleen verzameld. Deze praktijk eert spirits als levende geschiedenis in plaats van alleen investeringsactiva."
+                }
+            }

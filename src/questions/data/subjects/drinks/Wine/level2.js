@@ -427,6 +427,426 @@
           de: "Tokaji wird hauptsächlich aus Furmint-Trauben hergestellt, die von Edelfäule befallen sind, und produziert süße, komplexe Weine aus Ungarn.",
           nl: "Tokaji wordt voornamelijk gemaakt van Furmint druiven aangetast door edelrot, die zoete, complexe wijnen uit Hongarije produceren."
         }
+      },
+      {
+        question: {
+          en: "Which grape is primarily used to make Sauternes?",
+          es: "¿Qué uva se utiliza principalmente para hacer Sauternes?",
+          de: "Welche Traube wird hauptsächlich zur Herstellung von Sauternes verwendet?",
+          nl: "Welke druif wordt voornamelijk gebruikt om Sauternes te maken?"
+        },
+        options: [
+          { en: "Sémillon", es: "Sémillon", de: "Sémillon", nl: "Sémillon" },
+          { en: "Riesling", es: "Riesling", de: "Riesling", nl: "Riesling" },
+          { en: "Chenin Blanc", es: "Chenin Blanc", de: "Chenin Blanc", nl: "Chenin Blanc" },
+          { en: "Muscadelle", es: "Muscadelle", de: "Muscadelle", nl: "Muscadelle" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sauternes is primarily made from Sémillon grapes affected by noble rot, producing sweet, honeyed wines.",
+          es: "Sauternes se hace principalmente de uvas Sémillon afectadas por podredumbre noble, produciendo vinos dulces y con miel.",
+          de: "Sauternes wird hauptsächlich aus Sémillon-Trauben hergestellt, die von Edelfäule befallen sind und süße, honigähnliche Weine produzieren.",
+          nl: "Sauternes wordt voornamelijk gemaakt van Sémillon druiven aangetast door edelrot, die zoete, honingachtige wijnen produceren."
+        }
+      },
+      {
+        question: {
+          en: "Which grape variety is Gewürztraminer most associated with?",
+          es: "¿Con qué región está más asociada la uva Gewürztraminer?",
+          de: "Mit welcher Region wird Gewürztraminer am meisten in Verbindung gebracht?",
+          nl: "Met welke regio wordt Gewürztraminer het meest geassocieerd?"
+        },
+        options: [
+          { en: "Alsace, France", es: "Alsacia, Francia", de: "Elsass, Frankreich", nl: "Elzas, Frankrijk" },
+          { en: "Tuscany, Italy", es: "Toscana, Italia", de: "Toskana, Italien", nl: "Toscane, Italië" },
+          { en: "Rioja, Spain", es: "Rioja, España", de: "Rioja, Spanien", nl: "Rioja, Spanje" },
+          { en: "Napa Valley, USA", es: "Napa Valley, EE.UU.", de: "Napa Valley, USA", nl: "Napa Valley, VS" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gewürztraminer is most famous in Alsace, France, where it produces aromatic, spicy white wines.",
+          es: "Gewürztraminer es más famoso en Alsacia, Francia, donde produce vinos blancos aromáticos y especiados.",
+          de: "Gewürztraminer ist am bekanntesten im Elsass, Frankreich, wo er aromatische, würzige Weißweine produziert.",
+          nl: "Gewürztraminer is het meest beroemd in de Elzas, Frankrijk, waar het aromatische, kruidige witte wijnen produceert."
+        }
+      },
+      {
+        question: {
+          en: "What is Grüner Veltliner?",
+          es: "¿Qué es Grüner Veltliner?",
+          de: "Was ist Grüner Veltliner?",
+          nl: "Wat is Grüner Veltliner?"
+        },
+        options: [
+          { en: "Austrian white grape variety", es: "Variedad de uva blanca austríaca", de: "Österreichische weiße Rebsorte", nl: "Oostenrijkse witte druivensoort" },
+          { en: "German red grape", es: "Uva tinta alemana", de: "Deutsche rote Traube", nl: "Duitse rode druif" },
+          { en: "Swiss white wine", es: "Vino blanco suizo", de: "Schweizer Weißwein", nl: "Zwitserse witte wijn" },
+          { en: "French sparkling wine", es: "Vino espumoso francés", de: "Französischer Schaumwein", nl: "Franse mousserende wijn" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Grüner Veltliner is Austria's signature white grape variety, producing fresh, peppery wines.",
+          es: "Grüner Veltliner es la variedad de uva blanca emblemática de Austria, produciendo vinos frescos y picantes.",
+          de: "Grüner Veltliner ist Österreichs charakteristische weiße Rebsorte und produziert frische, pfeffrige Weine.",
+          nl: "Grüner Veltliner is Oostenrijk's kenmerkende witte druivensoort, die frisse, peperige wijnen produceert."
+        }
+      },
+      {
+        question: {
+          en: "Which grape is used to make Vinho Verde?",
+          es: "¿Qué uva se utiliza para hacer Vinho Verde?",
+          de: "Welche Traube wird zur Herstellung von Vinho Verde verwendet?",
+          nl: "Welke druif wordt gebruikt om Vinho Verde te maken?"
+        },
+        options: [
+          { en: "Alvarinho (Albariño)", es: "Alvarinho (Albariño)", de: "Alvarinho (Albariño)", nl: "Alvarinho (Albariño)" },
+          { en: "Verdejo", es: "Verdejo", de: "Verdejo", nl: "Verdejo" },
+          { en: "Godello", es: "Godello", de: "Godello", nl: "Godello" },
+          { en: "Treixadura", es: "Treixadura", de: "Treixadura", nl: "Treixadura" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Vinho Verde often features Alvarinho (Albariño), producing light, slightly sparkling Portuguese white wines.",
+          es: "Vinho Verde a menudo presenta Alvarinho (Albariño), produciendo vinos blancos portugueses ligeros y ligeramente espumosos.",
+          de: "Vinho Verde enthält oft Alvarinho (Albariño) und produziert leichte, leicht prickelnde portugiesische Weißweine.",
+          nl: "Vinho Verde bevat vaak Alvarinho (Albariño), die lichte, enigszins mousserende Portugese witte wijnen produceert."
+        }
+      },
+      {
+        question: {
+          en: "What is the main grape in Valpolicella wines?",
+          es: "¿Cuál es la uva principal en los vinos de Valpolicella?",
+          de: "Was ist die Haupttraube in Valpolicella-Weinen?",
+          nl: "Wat is de hoofddruif in Valpolicella wijnen?"
+        },
+        options: [
+          { en: "Corvina", es: "Corvina", de: "Corvina", nl: "Corvina" },
+          { en: "Sangiovese", es: "Sangiovese", de: "Sangiovese", nl: "Sangiovese" },
+          { en: "Barbera", es: "Barbera", de: "Barbera", nl: "Barbera" },
+          { en: "Nebbiolo", es: "Nebbiolo", de: "Nebbiolo", nl: "Nebbiolo" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Corvina is the primary grape in Valpolicella, creating light to medium-bodied red wines from Veneto.",
+          es: "Corvina es la uva principal en Valpolicella, creando vinos tintos de ligeros a medianos del Veneto.",
+          de: "Corvina ist die Haupttraube in Valpolicella und erzeugt leichte bis mittelschwere Rotweine aus Venetien.",
+          nl: "Corvina is de hoofddruif in Valpolicella, die lichte tot middel-bodied rode wijnen uit Veneto creëert."
+        }
+      },
+      {
+        question: {
+          en: "Which white grape is dominant in Pouilly-Fumé?",
+          es: "¿Qué uva blanca es dominante en Pouilly-Fumé?",
+          de: "Welche weiße Traube dominiert in Pouilly-Fumé?",
+          nl: "Welke witte druif is dominant in Pouilly-Fumé?"
+        },
+        options: [
+          { en: "Sauvignon Blanc", es: "Sauvignon Blanc", de: "Sauvignon Blanc", nl: "Sauvignon Blanc" },
+          { en: "Chardonnay", es: "Chardonnay", de: "Chardonnay", nl: "Chardonnay" },
+          { en: "Viognier", es: "Viognier", de: "Viognier", nl: "Viognier" },
+          { en: "Chenin Blanc", es: "Chenin Blanc", de: "Chenin Blanc", nl: "Chenin Blanc" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pouilly-Fumé is made exclusively from Sauvignon Blanc, producing crisp, flinty Loire Valley whites.",
+          es: "Pouilly-Fumé se hace exclusivamente de Sauvignon Blanc, produciendo blancos frescos y pedregosos del Valle del Loira.",
+          de: "Pouilly-Fumé wird ausschließlich aus Sauvignon Blanc hergestellt und produziert frische, flintige Loire-Weißweine.",
+          nl: "Pouilly-Fumé wordt uitsluitend gemaakt van Sauvignon Blanc, die frisse, vuursteenachtige Loire-vallei wijnen produceert."
+        }
+      },
+      {
+        question: {
+          en: "What is Carménère most associated with?",
+          es: "¿Con qué país está más asociada la Carménère?",
+          de: "Mit welchem Land wird Carménère am meisten in Verbindung gebracht?",
+          nl: "Met welk land wordt Carménère het meest geassocieerd?"
+        },
+        options: [
+          { en: "Chile", es: "Chile", de: "Chile", nl: "Chili" },
+          { en: "Argentina", es: "Argentina", de: "Argentinien", nl: "Argentinië" },
+          { en: "France", es: "Francia", de: "Frankreich", nl: "Frankrijk" },
+          { en: "Australia", es: "Australia", de: "Australien", nl: "Australië" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Carménère has become Chile's signature grape after being rediscovered there in the 1990s.",
+          es: "Carménère se ha convertido en la uva emblemática de Chile después de ser redescubierta allí en los años 90.",
+          de: "Carménère ist Chiles charakteristische Traube geworden, nachdem sie dort in den 1990er Jahren wiederentdeckt wurde.",
+          nl: "Carménère is Chili's kenmerkende druif geworden nadat deze daar in de jaren 90 werd herontdekt."
+        }
+      },
+      {
+        question: {
+          en: "Which grape is used in Australian Grange wine?",
+          es: "¿Qué uva se utiliza en el vino australiano Grange?",
+          de: "Welche Traube wird im australischen Grange-Wein verwendet?",
+          nl: "Welke druif wordt gebruikt in Australische Grange wijn?"
+        },
+        options: [
+          { en: "Shiraz", es: "Shiraz", de: "Shiraz", nl: "Shiraz" },
+          { en: "Cabernet Sauvignon", es: "Cabernet Sauvignon", de: "Cabernet Sauvignon", nl: "Cabernet Sauvignon" },
+          { en: "Grenache", es: "Grenache", de: "Grenache", nl: "Grenache" },
+          { en: "Merlot", es: "Merlot", de: "Merlot", nl: "Merlot" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Penfolds Grange is made predominantly from Shiraz, Australia's iconic premium red wine.",
+          es: "Penfolds Grange se hace predominantemente de Shiraz, el vino tinto premium icónico de Australia.",
+          de: "Penfolds Grange wird überwiegend aus Shiraz hergestellt, Australiens ikonischem Premium-Rotwein.",
+          nl: "Penfolds Grange wordt voornamelijk gemaakt van Shiraz, Australië's iconische premium rode wijn."
+        }
+      },
+      {
+        question: {
+          en: "What is Torrontés?",
+          es: "¿Qué es Torrontés?",
+          de: "Was ist Torrontés?",
+          nl: "Wat is Torrontés?"
+        },
+        options: [
+          { en: "Argentine white grape variety", es: "Variedad de uva blanca argentina", de: "Argentinische weiße Rebsorte", nl: "Argentijnse witte druivensoort" },
+          { en: "Spanish red wine", es: "Vino tinto español", de: "Spanischer Rotwein", nl: "Spaanse rode wijn" },
+          { en: "Portuguese dessert wine", es: "Vino de postre portugués", de: "Portugiesischer Dessertwein", nl: "Portugese dessertwijn" },
+          { en: "Chilean sparkling wine", es: "Vino espumoso chileno", de: "Chilenischer Schaumwein", nl: "Chileense mousserende wijn" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Torrontés is Argentina's signature white grape variety, producing aromatic, floral white wines.",
+          es: "Torrontés es la variedad de uva blanca emblemática de Argentina, produciendo vinos blancos aromáticos y florales.",
+          de: "Torrontés ist Argentiniens charakteristische weiße Rebsorte und produziert aromatische, blumige Weißweine.",
+          nl: "Torrontés is Argentinië's kenmerkende witte druivensoort, die aromatische, bloemige witte wijnen produceert."
+        }
+      },
+      {
+        question: {
+          en: "Which grape variety is dominant in Côte-Rôtie?",
+          es: "¿Qué variedad de uva es dominante en Côte-Rôtie?",
+          de: "Welche Rebsorte dominiert in Côte-Rôtie?",
+          nl: "Welke druivensoort is dominant in Côte-Rôtie?"
+        },
+        options: [
+          { en: "Syrah", es: "Syrah", de: "Syrah", nl: "Syrah" },
+          { en: "Grenache", es: "Grenache", de: "Grenache", nl: "Grenache" },
+          { en: "Mourvèdre", es: "Mourvèdre", de: "Mourvèdre", nl: "Mourvèdre" },
+          { en: "Carignan", es: "Carignan", de: "Carignan", nl: "Carignan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Côte-Rôtie is made predominantly from Syrah, sometimes with a small amount of Viognier blended in.",
+          es: "Côte-Rôtie se hace predominantemente de Syrah, a veces con una pequeña cantidad de Viognier mezclado.",
+          de: "Côte-Rôtie wird überwiegend aus Syrah hergestellt, manchmal mit einer kleinen Menge Viognier vermischt.",
+          nl: "Côte-Rôtie wordt voornamelijk gemaakt van Syrah, soms met een kleine hoeveelheid Viognier gemengd."
+        }
+      },
+      {
+        question: {
+          en: "What is Verdicchio?",
+          es: "¿Qué es Verdicchio?",
+          de: "Was ist Verdicchio?",
+          nl: "Wat is Verdicchio?"
+        },
+        options: [
+          { en: "Italian white grape variety", es: "Variedad de uva blanca italiana", de: "Italienische weiße Rebsorte", nl: "Italiaanse witte druivensoort" },
+          { en: "Spanish red wine", es: "Vino tinto español", de: "Spanischer Rotwein", nl: "Spaanse rode wijn" },
+          { en: "French rosé style", es: "Estilo rosado francés", de: "Französischer Roséstil", nl: "Franse roséstijl" },
+          { en: "Greek dessert wine", es: "Vino de postre griego", de: "Griechischer Dessertwein", nl: "Griekse dessertwijn" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Verdicchio is an Italian white grape from Marche, producing crisp, mineral-driven wines.",
+          es: "Verdicchio es una uva blanca italiana de Marche, produciendo vinos frescos y minerales.",
+          de: "Verdicchio ist eine italienische weiße Traube aus den Marken und produziert frische, mineralische Weine.",
+          nl: "Verdicchio is een Italiaanse witte druif uit Marche, die frisse, minerale wijnen produceert."
+        }
+      },
+      {
+        question: {
+          en: "Which grape is used to make Brunello di Montalcino?",
+          es: "¿Qué uva se utiliza para hacer Brunello di Montalcino?",
+          de: "Welche Traube wird zur Herstellung von Brunello di Montalcino verwendet?",
+          nl: "Welke druif wordt gebruikt om Brunello di Montalcino te maken?"
+        },
+        options: [
+          { en: "Sangiovese", es: "Sangiovese", de: "Sangiovese", nl: "Sangiovese" },
+          { en: "Nebbiolo", es: "Nebbiolo", de: "Nebbiolo", nl: "Nebbiolo" },
+          { en: "Barbera", es: "Barbera", de: "Barbera", nl: "Barbera" },
+          { en: "Montepulciano", es: "Montepulciano", de: "Montepulciano", nl: "Montepulciano" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Brunello di Montalcino is made from 100% Sangiovese (locally called Brunello), aged for extended periods.",
+          es: "Brunello di Montalcino se hace de 100% Sangiovese (llamado localmente Brunello), envejecido por períodos extendidos.",
+          de: "Brunello di Montalcino wird aus 100% Sangiovese (lokal Brunello genannt) hergestellt und über längere Zeiträume gereift.",
+          nl: "Brunello di Montalcino wordt gemaakt van 100% Sangiovese (lokaal Brunello genoemd), langdurig gerijpt."
+        }
+      },
+      {
+        question: {
+          en: "What is Mourvèdre called in Spain?",
+          es: "¿Cómo se llama Mourvèdre en España?",
+          de: "Wie heißt Mourvèdre in Spanien?",
+          nl: "Hoe heet Mourvèdre in Spanje?"
+        },
+        options: [
+          { en: "Monastrell", es: "Monastrell", de: "Monastrell", nl: "Monastrell" },
+          { en: "Garnacha", es: "Garnacha", de: "Garnacha", nl: "Garnacha" },
+          { en: "Tempranillo", es: "Tempranillo", de: "Tempranillo", nl: "Tempranillo" },
+          { en: "Mencía", es: "Mencía", de: "Mencía", nl: "Mencía" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mourvèdre is known as Monastrell in Spain, producing robust, tannic red wines.",
+          es: "Mourvèdre se conoce como Monastrell en España, produciendo vinos tintos robustos y tánicos.",
+          de: "Mourvèdre ist in Spanien als Monastrell bekannt und produziert robuste, tanninreiche Rotweine.",
+          nl: "Mourvèdre staat in Spanje bekend als Monastrell, die robuuste, tanninerijke rode wijnen produceert."
+        }
+      },
+      {
+        question: {
+          en: "Which grape variety produces Amarone della Valpolicella?",
+          es: "¿Qué variedad de uva produce Amarone della Valpolicella?",
+          de: "Welche Rebsorte produziert Amarone della Valpolicella?",
+          nl: "Welke druivensoort produceert Amarone della Valpolicella?"
+        },
+        options: [
+          { en: "Corvina blend", es: "Mezcla de Corvina", de: "Corvina-Mischung", nl: "Corvina blend" },
+          { en: "Sangiovese", es: "Sangiovese", de: "Sangiovese", nl: "Sangiovese" },
+          { en: "Nebbiolo", es: "Nebbiolo", de: "Nebbiolo", nl: "Nebbiolo" },
+          { en: "Barbera", es: "Barbera", de: "Barbera", nl: "Barbera" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Amarone is made from dried Corvina grapes (with Rondinella and Molinara), creating rich, concentrated wines.",
+          es: "Amarone se hace de uvas Corvina secas (con Rondinella y Molinara), creando vinos ricos y concentrados.",
+          de: "Amarone wird aus getrockneten Corvina-Trauben (mit Rondinella und Molinara) hergestellt und erzeugt reiche, konzentrierte Weine.",
+          nl: "Amarone wordt gemaakt van gedroogde Corvina druiven (met Rondinella en Molinara), die rijke, geconcentreerde wijnen creëren."
+        }
+      },
+      {
+        question: {
+          en: "What is Viognier known for producing?",
+          es: "¿Por qué es conocida la Viognier?",
+          de: "Wofür ist Viognier bekannt?",
+          nl: "Waarvoor staat Viognier bekend?"
+        },
+        options: [
+          { en: "Aromatic white wines", es: "Vinos blancos aromáticos", de: "Aromatische Weißweine", nl: "Aromatische witte wijnen" },
+          { en: "Light red wines", es: "Vinos tintos ligeros", de: "Leichte Rotweine", nl: "Lichte rode wijnen" },
+          { en: "Sparkling wines", es: "Vinos espumosos", de: "Schaumweine", nl: "Mousserende wijnen" },
+          { en: "Fortified wines", es: "Vinos fortificados", de: "Likörweine", nl: "Versterkte wijnen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Viognier produces highly aromatic white wines with floral and stone fruit notes, particularly from Condrieu.",
+          es: "Viognier produce vinos blancos muy aromáticos con notas florales y de frutas de hueso, particularmente de Condrieu.",
+          de: "Viognier produziert hocharomatische Weißweine mit blumigen und Steinfruchtnoten, besonders aus Condrieu.",
+          nl: "Viognier produceert zeer aromatische witte wijnen met bloemige en steenvruchttonen, vooral uit Condrieu."
+        }
+      },
+      {
+        question: {
+          en: "Which grape is Nero d'Avola?",
+          es: "¿Qué es Nero d'Avola?",
+          de: "Was ist Nero d'Avola?",
+          nl: "Wat is Nero d'Avola?"
+        },
+        options: [
+          { en: "Sicilian red grape variety", es: "Variedad de uva tinta siciliana", de: "Sizilianische rote Rebsorte", nl: "Siciliaanse rode druivensoort" },
+          { en: "Tuscan white grape", es: "Uva blanca toscana", de: "Toskanische weiße Traube", nl: "Toscaanse witte druif" },
+          { en: "Piedmont sparkling wine", es: "Vino espumoso de Piamonte", de: "Piemonteser Schaumwein", nl: "Piemontese mousserende wijn" },
+          { en: "Venetian rosé style", es: "Estilo rosado veneciano", de: "Venezianischer Roséstil", nl: "Venetiaanse roséstijl" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Nero d'Avola is Sicily's most important red grape variety, producing full-bodied, fruity wines.",
+          es: "Nero d'Avola es la variedad de uva tinta más importante de Sicilia, produciendo vinos con cuerpo y afrutados.",
+          de: "Nero d'Avola ist Siziliens wichtigste rote Rebsorte und produziert vollmundige, fruchtige Weine.",
+          nl: "Nero d'Avola is Sicilië's belangrijkste rode druivensoort, die volle, fruitige wijnen produceert."
+        }
+      },
+      {
+        question: {
+          en: "What is Petit Verdot typically used for?",
+          es: "¿Para qué se utiliza típicamente Petit Verdot?",
+          de: "Wofür wird Petit Verdot typischerweise verwendet?",
+          nl: "Waarvoor wordt Petit Verdot typisch gebruikt?"
+        },
+        options: [
+          { en: "Blending component in Bordeaux", es: "Componente de mezcla en Burdeos", de: "Mischkomponente in Bordeaux", nl: "Blendcomponent in Bordeaux" },
+          { en: "Single varietal Burgundy", es: "Borgoña de variedad única", de: "Burgundischer Einzelsorte", nl: "Enkele variëteit Bourgogne" },
+          { en: "Sparkling wine base", es: "Base de vino espumoso", de: "Schaumweinbasis", nl: "Mousserende wijnbasis" },
+          { en: "Dessert wine production", es: "Producción de vino de postre", de: "Dessertw einproduktion", nl: "Dessertwijnproductie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Petit Verdot is typically used as a blending grape in Bordeaux, adding color, tannin, and structure.",
+          es: "Petit Verdot se utiliza típicamente como uva de mezcla en Burdeos, añadiendo color, tanino y estructura.",
+          de: "Petit Verdot wird typischerweise als Mischtraube in Bordeaux verwendet und fügt Farbe, Tannin und Struktur hinzu.",
+          nl: "Petit Verdot wordt typisch gebruikt als blendingdruif in Bordeaux, die kleur, tannine en structuur toevoegt."
+        }
+      },
+      {
+        question: {
+          en: "Which grape variety is Grignolino?",
+          es: "¿Qué variedad de uva es Grignolino?",
+          de: "Welche Rebsorte ist Grignolino?",
+          nl: "Welke druivensoort is Grignolino?"
+        },
+        options: [
+          { en: "Piedmont red grape", es: "Uva tinta de Piamonte", de: "Piemonteser rote Traube", nl: "Piemontese rode druif" },
+          { en: "Tuscan white grape", es: "Uva blanca toscana", de: "Toskanische weiße Traube", nl: "Toscaanse witte druif" },
+          { en: "Sicilian rosé grape", es: "Uva rosada siciliana", de: "Sizilianische Rosétraube", nl: "Siciliaanse roséruif" },
+          { en: "Veneto sparkling base", es: "Base espumoso de Véneto", de: "Veneto-Schaumweinbasis", nl: "Veneto mousserende basis" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Grignolino is a Piedmont red grape producing light-colored, tannic wines with high acidity.",
+          es: "Grignolino es una uva tinta de Piamonte que produce vinos de color claro, tánicos con alta acidez.",
+          de: "Grignolino ist eine Piemonteser rote Traube, die hellfarbige, tanninreiche Weine mit hoher Säure produziert.",
+          nl: "Grignolino is een Piemontese rode druif die lichtgekleurde, tanninerijke wijnen met hoge zuurgraad produceert."
+        }
+      },
+      {
+        question: {
+          en: "What is Mencía associated with?",
+          es: "¿Con qué está asociada la Mencía?",
+          de: "Womit wird Mencía in Verbindung gebracht?",
+          nl: "Waarmee wordt Mencía geassocieerd?"
+        },
+        options: [
+          { en: "Bierzo, Spain", es: "Bierzo, España", de: "Bierzo, Spanien", nl: "Bierzo, Spanje" },
+          { en: "Tuscany, Italy", es: "Toscana, Italia", de: "Toskana, Italien", nl: "Toscane, Italië" },
+          { en: "Bordeaux, France", es: "Burdeos, Francia", de: "Bordeaux, Frankreich", nl: "Bordeaux, Frankrijk" },
+          { en: "Douro, Portugal", es: "Duero, Portugal", de: "Douro, Portugal", nl: "Douro, Portugal" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mencía is associated with Bierzo, Spain, producing elegant, aromatic red wines similar to Pinot Noir.",
+          es: "Mencía está asociada con Bierzo, España, produciendo vinos tintos elegantes y aromáticos similares a Pinot Noir.",
+          de: "Mencía wird mit Bierzo, Spanien, in Verbindung gebracht und produziert elegante, aromatische Rotweine ähnlich wie Pinot Noir.",
+          nl: "Mencía wordt geassocieerd met Bierzo, Spanje, die elegante, aromatische rode wijnen produceert vergelijkbaar met Pinot Noir."
+        }
+      },
+      {
+        question: {
+          en: "Which grape produces Asti Spumante?",
+          es: "¿Qué uva produce Asti Spumante?",
+          de: "Welche Traube produziert Asti Spumante?",
+          nl: "Welke druif produceert Asti Spumante?"
+        },
+        options: [
+          { en: "Moscato Bianco", es: "Moscato Bianco", de: "Moscato Bianco", nl: "Moscato Bianco" },
+          { en: "Glera", es: "Glera", de: "Glera", nl: "Glera" },
+          { en: "Chardonnay", es: "Chardonnay", de: "Chardonnay", nl: "Chardonnay" },
+          { en: "Pinot Grigio", es: "Pinot Grigio", de: "Pinot Grigio", nl: "Pinot Grigio" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Asti Spumante is made from Moscato Bianco grapes, producing sweet, aromatic sparkling wines.",
+          es: "Asti Spumante se hace de uvas Moscato Bianco, produciendo vinos espumosos dulces y aromáticos.",
+          de: "Asti Spumante wird aus Moscato Bianco-Trauben hergestellt und produziert süße, aromatische Schaumweine.",
+          nl: "Asti Spumante wordt gemaakt van Moscato Bianco druiven, die zoete, aromatische mousserende wijnen produceren."
+        }
       }
     ]
   };

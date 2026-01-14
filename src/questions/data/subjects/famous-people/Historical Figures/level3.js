@@ -427,6 +427,426 @@
           de: "Mustafa Kemal Atatürk (1881-1938) führte die türkische Unabhängigkeitsbewegung an, schaffte das Osmanische Reich ab und gründete 1923 die Republik Türkei, wo er bis zu seinem Tod als erster Präsident diente.",
           nl: "Mustafa Kemal Atatürk (1881-1938) leidde de Turkse onafhankelijkheidsbeweging, schafte het Ottomaanse Rijk af en stichtte de Republiek Turkije in 1923, dienend als zijn eerste president tot zijn dood."
         }
+      },
+      {
+        question: {
+          en: "Which ancient Egyptian pharaoh is famous for his intact tomb discovered in 1922?",
+          es: "¿Qué faraón egipcio antiguo es famoso por su tumba intacta descubierta en 1922?",
+          de: "Welcher altägyptische Pharao ist berühmt für sein intaktes Grab, das 1922 entdeckt wurde?",
+          nl: "Welke oude Egyptische farao staat bekend om zijn intacte graf dat in 1922 werd ontdekt?"
+        },
+        options: [
+          { en: "Tutankhamun", es: "Tutankamón", de: "Tutanchamun", nl: "Toetanchamon" },
+          { en: "Ramesses II", es: "Ramsés II", de: "Ramses II.", nl: "Ramses II" },
+          { en: "Khufu", es: "Keops", de: "Cheops", nl: "Cheops" },
+          { en: "Cleopatra", es: "Cleopatra", de: "Kleopatra", nl: "Cleopatra" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tutankhamun's tomb was discovered by Howard Carter in 1922, nearly intact with thousands of artifacts, making it one of the most important archaeological discoveries in history.",
+          es: "La tumba de Tutankamón fue descubierta por Howard Carter en 1922, casi intacta con miles de artefactos, convirtiéndola en uno de los descubrimientos arqueológicos más importantes de la historia.",
+          de: "Tutanchamuns Grab wurde 1922 von Howard Carter entdeckt, nahezu unversehrt mit Tausenden von Artefakten, was es zu einer der wichtigsten archäologischen Entdeckungen der Geschichte macht.",
+          nl: "Toetanchamons graf werd in 1922 ontdekt door Howard Carter, bijna intact met duizenden artefacten, wat het een van de belangrijkste archeologische ontdekkingen in de geschiedenis maakt."
+        }
+      },
+      {
+        question: {
+          en: "Who was the Renaissance artist who painted the ceiling of the Sistine Chapel?",
+          es: "¿Quién fue el artista renacentista que pintó el techo de la Capilla Sixtina?",
+          de: "Wer war der Renaissance-Künstler, der die Decke der Sixtinischen Kapelle malte?",
+          nl: "Wie was de Renaissance-kunstenaar die het plafond van de Sixtijnse Kapel schilderde?"
+        },
+        options: [
+          { en: "Michelangelo", es: "Miguel Ángel", de: "Michelangelo", nl: "Michelangelo" },
+          { en: "Leonardo da Vinci", es: "Leonardo da Vinci", de: "Leonardo da Vinci", nl: "Leonardo da Vinci" },
+          { en: "Raphael", es: "Rafael", de: "Raffael", nl: "Rafaël" },
+          { en: "Donatello", es: "Donatello", de: "Donatello", nl: "Donatello" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Michelangelo painted the Sistine Chapel ceiling between 1508-1512, creating one of the most famous works of Renaissance art, including the iconic 'Creation of Adam.'",
+          es: "Miguel Ángel pintó el techo de la Capilla Sixtina entre 1508-1512, creando una de las obras de arte renacentista más famosas, incluyendo la icónica 'Creación de Adán.'",
+          de: "Michelangelo malte die Decke der Sixtinischen Kapelle zwischen 1508-1512 und schuf eines der berühmtesten Werke der Renaissance-Kunst, einschließlich der ikonischen 'Erschaffung Adams.'",
+          nl: "Michelangelo schilderde het plafond van de Sixtijnse Kapel tussen 1508-1512, creëerde een van de beroemdste werken van Renaissance-kunst, inclusief de iconische 'Schepping van Adam.'"
+        }
+      },
+      {
+        question: {
+          en: "Which ancient Greek philosopher was the teacher of Alexander the Great?",
+          es: "¿Qué filósofo griego antiguo fue el maestro de Alejandro Magno?",
+          de: "Welcher antike griechische Philosoph war der Lehrer Alexanders des Großen?",
+          nl: "Welke oude Griekse filosoof was de leraar van Alexander de Grote?"
+        },
+        options: [
+          { en: "Aristotle", es: "Aristóteles", de: "Aristoteles", nl: "Aristoteles" },
+          { en: "Plato", es: "Platón", de: "Platon", nl: "Plato" },
+          { en: "Socrates", es: "Sócrates", de: "Sokrates", nl: "Socrates" },
+          { en: "Pythagoras", es: "Pitágoras", de: "Pythagoras", nl: "Pythagoras" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Aristotle tutored Alexander the Great from 343-340 BCE, significantly influencing the young prince's education and worldview before he became one of history's greatest conquerors.",
+          es: "Aristóteles fue tutor de Alejandro Magno de 343-340 a.C., influyendo significativamente en la educación y cosmovisión del joven príncipe antes de que se convirtiera en uno de los mayores conquistadores de la historia.",
+          de: "Aristoteles unterrichtete Alexander den Großen von 343-340 v.Chr. und beeinflusste die Bildung und Weltanschauung des jungen Prinzen erheblich, bevor er einer der größten Eroberer der Geschichte wurde.",
+          nl: "Aristoteles onderwees Alexander de Grote van 343-340 v.Chr., beïnvloedde de opleiding en wereldbeeld van de jonge prins aanzienlijk voordat hij een van de grootste veroveraars uit de geschiedenis werd."
+        }
+      },
+      {
+        question: {
+          en: "Who was the Indian leader known as the 'Father of the Nation'?",
+          es: "¿Quién fue el líder indio conocido como el 'Padre de la Nación'?",
+          de: "Wer war der indische Anführer, bekannt als 'Vater der Nation'?",
+          nl: "Wie was de Indiase leider bekend als de 'Vader van de Natie'?"
+        },
+        options: [
+          { en: "Mahatma Gandhi", es: "Mahatma Gandhi", de: "Mahatma Gandhi", nl: "Mahatma Gandhi" },
+          { en: "Jawaharlal Nehru", es: "Jawaharlal Nehru", de: "Jawaharlal Nehru", nl: "Jawaharlal Nehru" },
+          { en: "Subhas Chandra Bose", es: "Subhas Chandra Bose", de: "Subhas Chandra Bose", nl: "Subhas Chandra Bose" },
+          { en: "Sardar Patel", es: "Sardar Patel", de: "Sardar Patel", nl: "Sardar Patel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mahatma Gandhi led India's independence movement through nonviolent civil disobedience, becoming a global symbol of peaceful resistance and earning the title 'Father of the Nation.'",
+          es: "Mahatma Gandhi lideró el movimiento de independencia de India a través de la desobediencia civil no violenta, convirtiéndose en símbolo global de resistencia pacífica y ganándose el título de 'Padre de la Nación.'",
+          de: "Mahatma Gandhi führte Indiens Unabhängigkeitsbewegung durch gewaltfreien zivilen Ungehorsam an, wurde zum globalen Symbol friedlichen Widerstands und erwarb sich den Titel 'Vater der Nation.'",
+          nl: "Mahatma Gandhi leidde India's onafhankelijkheidsbeweging door geweldloze burgerlijke ongehoorzaamheid, werd een wereldwijd symbool van vreedzaam verzet en verdiende de titel 'Vader van de Natie.'"
+        }
+      },
+      {
+        question: {
+          en: "Which British prime minister led the country during World War II?",
+          es: "¿Qué primer ministro británico lideró el país durante la Segunda Guerra Mundial?",
+          de: "Welcher britische Premierminister führte das Land während des Zweiten Weltkriegs?",
+          nl: "Welke Britse premier leidde het land tijdens de Tweede Wereldoorlog?"
+        },
+        options: [
+          { en: "Winston Churchill", es: "Winston Churchill", de: "Winston Churchill", nl: "Winston Churchill" },
+          { en: "Neville Chamberlain", es: "Neville Chamberlain", de: "Neville Chamberlain", nl: "Neville Chamberlain" },
+          { en: "Clement Attlee", es: "Clement Attlee", de: "Clement Attlee", nl: "Clement Attlee" },
+          { en: "Anthony Eden", es: "Anthony Eden", de: "Anthony Eden", nl: "Anthony Eden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Winston Churchill served as British Prime Minister from 1940-1945, leading the nation through World War II with his inspiring speeches and steadfast determination.",
+          es: "Winston Churchill fue Primer Ministro británico de 1940-1945, liderando la nación a través de la Segunda Guerra Mundial con sus discursos inspiradores y determinación inquebrantable.",
+          de: "Winston Churchill war von 1940-1945 britischer Premierminister und führte die Nation durch den Zweiten Weltkrieg mit seinen inspirierenden Reden und unerschütterlicher Entschlossenheit.",
+          nl: "Winston Churchill was van 1940-1945 Britse premier, leidde de natie door de Tweede Wereldoorlog met zijn inspirerende toespraken en standvastige vastberadenheid."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'The Communist Manifesto' with Friedrich Engels?",
+          es: "¿Quién escribió 'El Manifiesto Comunista' con Friedrich Engels?",
+          de: "Wer schrieb 'Das Kommunistische Manifest' mit Friedrich Engels?",
+          nl: "Wie schreef 'Het Communistisch Manifest' met Friedrich Engels?"
+        },
+        options: [
+          { en: "Karl Marx", es: "Karl Marx", de: "Karl Marx", nl: "Karl Marx" },
+          { en: "Vladimir Lenin", es: "Vladimir Lenin", de: "Wladimir Lenin", nl: "Vladimir Lenin" },
+          { en: "Leon Trotsky", es: "León Trotsky", de: "Leo Trotzki", nl: "Leon Trotski" },
+          { en: "Joseph Stalin", es: "Joseph Stalin", de: "Josef Stalin", nl: "Jozef Stalin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Karl Marx and Friedrich Engels published 'The Communist Manifesto' in 1848, outlining their theory of class struggle and revolutionary socialism that would influence political movements worldwide.",
+          es: "Karl Marx y Friedrich Engels publicaron 'El Manifiesto Comunista' en 1848, esbozando su teoría de la lucha de clases y socialismo revolucionario que influiría en movimientos políticos mundiales.",
+          de: "Karl Marx und Friedrich Engels veröffentlichten 1848 'Das Kommunistische Manifest', in dem sie ihre Theorie des Klassenkampfes und des revolutionären Sozialismus darlegten, die politische Bewegungen weltweit beeinflussen sollte.",
+          nl: "Karl Marx en Friedrich Engels publiceerden 'Het Communistisch Manifest' in 1848, schetsten hun theorie van klassenstrijd en revolutionair socialisme die politieke bewegingen wereldwijd zou beïnvloeden."
+        }
+      },
+      {
+        question: {
+          en: "Which ancient philosopher was forced to drink hemlock after being convicted of corrupting the youth?",
+          es: "¿Qué filósofo antiguo fue obligado a beber cicuta después de ser condenado por corromper a la juventud?",
+          de: "Welcher antike Philosoph wurde gezwungen, Schierling zu trinken, nachdem er wegen Verderbung der Jugend verurteilt wurde?",
+          nl: "Welke oude filosoof werd gedwongen gifbeker te drinken na veroordeeld te zijn voor het corrumperen van de jeugd?"
+        },
+        options: [
+          { en: "Socrates", es: "Sócrates", de: "Sokrates", nl: "Socrates" },
+          { en: "Plato", es: "Platón", de: "Platon", nl: "Plato" },
+          { en: "Aristotle", es: "Aristóteles", de: "Aristoteles", nl: "Aristoteles" },
+          { en: "Diogenes", es: "Diógenes", de: "Diogenes", nl: "Diogenes" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Socrates was sentenced to death in 399 BCE by drinking hemlock, convicted of impiety and corrupting Athenian youth through his philosophical questioning method.",
+          es: "Sócrates fue sentenciado a muerte en 399 a.C. bebiendo cicuta, condenado por impiedad y corromper a la juventud ateniense a través de su método de cuestionamiento filosófico.",
+          de: "Sokrates wurde 399 v.Chr. zum Tode verurteilt, indem er Schierling trank, verurteilt wegen Gottlosigkeit und Verderbung der athenischen Jugend durch seine philosophische Fragemethode.",
+          nl: "Socrates werd in 399 v.Chr. ter dood veroordeeld door gifbeker te drinken, veroordeeld voor goddeloosheid en het corrumperen van de Atheense jeugd door zijn filosofische vraagmethode."
+        }
+      },
+      {
+        question: {
+          en: "Who was the first female Prime Minister of the United Kingdom?",
+          es: "¿Quién fue la primera mujer Primera Ministra del Reino Unido?",
+          de: "Wer war die erste weibliche Premierministerin des Vereinigten Königreichs?",
+          nl: "Wie was de eerste vrouwelijke premier van het Verenigd Koninkrijk?"
+        },
+        options: [
+          { en: "Margaret Thatcher", es: "Margaret Thatcher", de: "Margaret Thatcher", nl: "Margaret Thatcher" },
+          { en: "Theresa May", es: "Theresa May", de: "Theresa May", nl: "Theresa May" },
+          { en: "Angela Merkel", es: "Angela Merkel", de: "Angela Merkel", nl: "Angela Merkel" },
+          { en: "Indira Gandhi", es: "Indira Gandhi", de: "Indira Gandhi", nl: "Indira Gandhi" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Margaret Thatcher served as Prime Minister from 1979-1990, becoming Britain's first female PM and earning the nickname 'Iron Lady' for her uncompromising political stance.",
+          es: "Margaret Thatcher fue Primera Ministra de 1979-1990, convirtiéndose en la primera mujer PM de Gran Bretaña y ganándose el apodo de 'Dama de Hierro' por su postura política intransigente.",
+          de: "Margaret Thatcher war von 1979-1990 Premierministerin, wurde Großbritanniens erste weibliche PM und erhielt den Spitznamen 'Eiserne Lady' für ihre kompromisslose politische Haltung.",
+          nl: "Margaret Thatcher was van 1979-1990 premier, werd de eerste vrouwelijke premier van Groot-Brittannië en verdiende de bijnaam 'IJzeren Lady' voor haar onverzettelijke politieke standpunt."
+        }
+      },
+      {
+        question: {
+          en: "Which South African leader became the first Black president after the end of apartheid?",
+          es: "¿Qué líder sudafricano se convirtió en el primer presidente negro después del fin del apartheid?",
+          de: "Welcher südafrikanische Anführer wurde nach dem Ende der Apartheid der erste schwarze Präsident?",
+          nl: "Welke Zuid-Afrikaanse leider werd de eerste zwarte president na het einde van de apartheid?"
+        },
+        options: [
+          { en: "Nelson Mandela", es: "Nelson Mandela", de: "Nelson Mandela", nl: "Nelson Mandela" },
+          { en: "Desmond Tutu", es: "Desmond Tutu", de: "Desmond Tutu", nl: "Desmond Tutu" },
+          { en: "Thabo Mbeki", es: "Thabo Mbeki", de: "Thabo Mbeki", nl: "Thabo Mbeki" },
+          { en: "Steve Biko", es: "Steve Biko", de: "Steve Biko", nl: "Steve Biko" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Nelson Mandela became South Africa's first Black president in 1994 after spending 27 years in prison, leading the country's transition from apartheid to democracy.",
+          es: "Nelson Mandela se convirtió en el primer presidente negro de Sudáfrica en 1994 después de pasar 27 años en prisión, liderando la transición del país del apartheid a la democracia.",
+          de: "Nelson Mandela wurde 1994 Südafrikas erster schwarzer Präsident, nachdem er 27 Jahre im Gefängnis verbracht hatte, und führte den Übergang des Landes von der Apartheid zur Demokratie.",
+          nl: "Nelson Mandela werd Zuid-Afrika's eerste zwarte president in 1994 na 27 jaar gevangenis, leidde de overgang van het land van apartheid naar democratie."
+        }
+      },
+      {
+        question: {
+          en: "Who invented the printing press around 1440?",
+          es: "¿Quién inventó la imprenta alrededor de 1440?",
+          de: "Wer erfand um 1440 die Druckerpresse?",
+          nl: "Wie vond rond 1440 de drukpers uit?"
+        },
+        options: [
+          { en: "Johannes Gutenberg", es: "Johannes Gutenberg", de: "Johannes Gutenberg", nl: "Johannes Gutenberg" },
+          { en: "Benjamin Franklin", es: "Benjamin Franklin", de: "Benjamin Franklin", nl: "Benjamin Franklin" },
+          { en: "William Caxton", es: "William Caxton", de: "William Caxton", nl: "William Caxton" },
+          { en: "Aldus Manutius", es: "Aldo Manuzio", de: "Aldus Manutius", nl: "Aldus Manutius" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Johannes Gutenberg invented movable type printing in Europe around 1440, revolutionizing the spread of knowledge and making books accessible to the masses.",
+          es: "Johannes Gutenberg inventó la impresión de tipos móviles en Europa alrededor de 1440, revolucionando la difusión del conocimiento y haciendo los libros accesibles a las masas.",
+          de: "Johannes Gutenberg erfand um 1440 den Buchdruck mit beweglichen Lettern in Europa, revolutionierte die Verbreitung von Wissen und machte Bücher für die Massen zugänglich.",
+          nl: "Johannes Gutenberg vond rond 1440 de boekdrukkunst met losse letters uit in Europa, revolutioneerde de verspreiding van kennis en maakte boeken toegankelijk voor de massa."
+        }
+      },
+      {
+        question: {
+          en: "Which Russian leader introduced policies of glasnost and perestroika?",
+          es: "¿Qué líder ruso introdujo políticas de glasnost y perestroika?",
+          de: "Welcher russische Führer führte die Politik von Glasnost und Perestroika ein?",
+          nl: "Welke Russische leider introduceerde het beleid van glasnost en perestrojka?"
+        },
+        options: [
+          { en: "Mikhail Gorbachev", es: "Mijaíl Gorbachov", de: "Michail Gorbatschow", nl: "Michail Gorbatsjov" },
+          { en: "Boris Yeltsin", es: "Boris Yeltsin", de: "Boris Jelzin", nl: "Boris Jeltsin" },
+          { en: "Leonid Brezhnev", es: "Leonid Brézhnev", de: "Leonid Breschnew", nl: "Leonid Brezjnev" },
+          { en: "Nikita Khrushchev", es: "Nikita Jrushchov", de: "Nikita Chruschtschow", nl: "Nikita Chroesjtsjov" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mikhail Gorbachev introduced glasnost (openness) and perestroika (restructuring) in the 1980s, leading to dramatic reforms that ultimately contributed to the dissolution of the Soviet Union.",
+          es: "Mijaíl Gorbachov introdujo glasnost (apertura) y perestroika (reestructuración) en los años 80, llevando a reformas dramáticas que finalmente contribuyeron a la disolución de la Unión Soviética.",
+          de: "Michail Gorbatschow führte in den 1980er Jahren Glasnost (Offenheit) und Perestroika (Umstrukturierung) ein, was zu dramatischen Reformen führte, die letztlich zur Auflösung der Sowjetunion beitrugen.",
+          nl: "Michail Gorbatsjov introduceerde glasnost (openheid) en perestrojka (herstructurering) in de jaren 80, leidde tot dramatische hervormingen die uiteindelijk bijdroegen aan de ontbinding van de Sovjet-Unie."
+        }
+      },
+      {
+        question: {
+          en: "Who was the Prussian king who became the first German Emperor?",
+          es: "¿Quién fue el rey prusiano que se convirtió en el primer Emperador Alemán?",
+          de: "Wer war der preußische König, der der erste Deutsche Kaiser wurde?",
+          nl: "Wie was de Pruisische koning die de eerste Duitse keizer werd?"
+        },
+        options: [
+          { en: "Wilhelm I", es: "Guillermo I", de: "Wilhelm I.", nl: "Wilhelm I" },
+          { en: "Frederick the Great", es: "Federico el Grande", de: "Friedrich der Große", nl: "Frederik de Grote" },
+          { en: "Wilhelm II", es: "Guillermo II", de: "Wilhelm II.", nl: "Wilhelm II" },
+          { en: "Frederick William IV", es: "Federico Guillermo IV", de: "Friedrich Wilhelm IV.", nl: "Frederik Willem IV" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Wilhelm I was proclaimed German Emperor on January 18, 1871, in the Hall of Mirrors at Versailles, marking the unification of Germany under Prussian leadership.",
+          es: "Guillermo I fue proclamado Emperador Alemán el 18 de enero de 1871, en la Sala de los Espejos en Versalles, marcando la unificación de Alemania bajo liderazgo prusiano.",
+          de: "Wilhelm I. wurde am 18. Januar 1871 im Spiegelsaal von Versailles zum Deutschen Kaiser proklamiert und markierte die Einigung Deutschlands unter preußischer Führung.",
+          nl: "Wilhelm I werd op 18 januari 1871 uitgeroepen tot Duitse keizer in de Spiegelzaal van Versailles, markeerde de eenwording van Duitsland onder Pruisisch leiderschap."
+        }
+      },
+      {
+        question: {
+          en: "Which English naturalist developed the theory of evolution by natural selection?",
+          es: "¿Qué naturalista inglés desarrolló la teoría de la evolución por selección natural?",
+          de: "Welcher englische Naturforscher entwickelte die Evolutionstheorie durch natürliche Selektion?",
+          nl: "Welke Engelse natuuronderzoeker ontwikkelde de evolutietheorie door natuurlijke selectie?"
+        },
+        options: [
+          { en: "Charles Darwin", es: "Charles Darwin", de: "Charles Darwin", nl: "Charles Darwin" },
+          { en: "Alfred Russel Wallace", es: "Alfred Russel Wallace", de: "Alfred Russel Wallace", nl: "Alfred Russel Wallace" },
+          { en: "Jean-Baptiste Lamarck", es: "Jean-Baptiste Lamarck", de: "Jean-Baptiste Lamarck", nl: "Jean-Baptiste Lamarck" },
+          { en: "Thomas Huxley", es: "Thomas Huxley", de: "Thomas Huxley", nl: "Thomas Huxley" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Charles Darwin published 'On the Origin of Species' in 1859, presenting evidence for evolution through natural selection and revolutionizing biological sciences.",
+          es: "Charles Darwin publicó 'El Origen de las Especies' en 1859, presentando evidencia de la evolución a través de la selección natural y revolucionando las ciencias biológicas.",
+          de: "Charles Darwin veröffentlichte 1859 'Über die Entstehung der Arten', präsentierte Beweise für die Evolution durch natürliche Selektion und revolutionierte die Biowissenschaften.",
+          nl: "Charles Darwin publiceerde 'Over het Ontstaan van Soorten' in 1859, presenteerde bewijs voor evolutie door natuurlijke selectie en revolutioneerde de biologische wetenschappen."
+        }
+      },
+      {
+        question: {
+          en: "Who was the Spanish conquistador who conquered the Inca Empire?",
+          es: "¿Quién fue el conquistador español que conquistó el Imperio Inca?",
+          de: "Wer war der spanische Konquistador, der das Inkareich eroberte?",
+          nl: "Wie was de Spaanse conquistador die het Inca-rijk veroverde?"
+        },
+        options: [
+          { en: "Francisco Pizarro", es: "Francisco Pizarro", de: "Francisco Pizarro", nl: "Francisco Pizarro" },
+          { en: "Hernán Cortés", es: "Hernán Cortés", de: "Hernán Cortés", nl: "Hernán Cortés" },
+          { en: "Diego de Almagro", es: "Diego de Almagro", de: "Diego de Almagro", nl: "Diego de Almagro" },
+          { en: "Vasco Núñez de Balboa", es: "Vasco Núñez de Balboa", de: "Vasco Núñez de Balboa", nl: "Vasco Núñez de Balboa" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Francisco Pizarro conquered the Inca Empire in 1532-1533, capturing Emperor Atahualpa and establishing Spanish colonial rule over Peru and surrounding territories.",
+          es: "Francisco Pizarro conquistó el Imperio Inca en 1532-1533, capturando al Emperador Atahualpa y estableciendo el dominio colonial español sobre Perú y territorios circundantes.",
+          de: "Francisco Pizarro eroberte 1532-1533 das Inkareich, nahm Kaiser Atahualpa gefangen und etablierte die spanische Kolonialherrschaft über Peru und umliegende Gebiete.",
+          nl: "Francisco Pizarro veroverde het Inca-rijk in 1532-1533, nam keizer Atahualpa gevangen en vestigde de Spaanse koloniale heerschappij over Peru en omliggende gebieden."
+        }
+      },
+      {
+        question: {
+          en: "Which American inventor is credited with inventing the telephone?",
+          es: "¿A qué inventor estadounidense se le atribuye la invención del teléfono?",
+          de: "Welchem amerikanischen Erfinder wird die Erfindung des Telefons zugeschrieben?",
+          nl: "Welke Amerikaanse uitvinder wordt gecrediteerd met de uitvinding van de telefoon?"
+        },
+        options: [
+          { en: "Alexander Graham Bell", es: "Alexander Graham Bell", de: "Alexander Graham Bell", nl: "Alexander Graham Bell" },
+          { en: "Thomas Edison", es: "Thomas Edison", de: "Thomas Edison", nl: "Thomas Edison" },
+          { en: "Nikola Tesla", es: "Nikola Tesla", de: "Nikola Tesla", nl: "Nikola Tesla" },
+          { en: "Elisha Gray", es: "Elisha Gray", de: "Elisha Gray", nl: "Elisha Gray" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Alexander Graham Bell was granted the first U.S. patent for the telephone in 1876, though the invention's credit remains somewhat disputed with other contemporary inventors.",
+          es: "Alexander Graham Bell recibió la primera patente estadounidense del teléfono en 1876, aunque el crédito de la invención permanece algo disputado con otros inventores contemporáneos.",
+          de: "Alexander Graham Bell erhielt 1876 das erste US-Patent für das Telefon, obwohl die Anerkennung für die Erfindung mit anderen zeitgenössischen Erfindern umstritten bleibt.",
+          nl: "Alexander Graham Bell kreeg in 1876 het eerste Amerikaanse patent voor de telefoon, hoewel het krediet voor de uitvinding enigszins betwist blijft met andere hedendaagse uitvinders."
+        }
+      },
+      {
+        question: {
+          en: "Who was the Carthaginian general who crossed the Alps with elephants to fight Rome?",
+          es: "¿Quién fue el general cartaginés que cruzó los Alpes con elefantes para luchar contra Roma?",
+          de: "Wer war der karthagische General, der mit Elefanten die Alpen überquerte, um gegen Rom zu kämpfen?",
+          nl: "Wie was de Carthaagse generaal die de Alpen overstak met olifanten om tegen Rome te vechten?"
+        },
+        options: [
+          { en: "Hannibal Barca", es: "Aníbal Barca", de: "Hannibal Barkas", nl: "Hannibal Barca" },
+          { en: "Scipio Africanus", es: "Escipión el Africano", de: "Scipio Africanus", nl: "Scipio Africanus" },
+          { en: "Hamilcar Barca", es: "Amílcar Barca", de: "Hamilkar Barkas", nl: "Hamilcar Barca" },
+          { en: "Hasdrubal", es: "Asdrúbal", de: "Hasdrubal", nl: "Hasdrubal" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hannibal Barca led his army, including war elephants, across the Alps in 218 BCE during the Second Punic War, executing one of the most famous military maneuvers in history.",
+          es: "Aníbal Barca dirigió su ejército, incluyendo elefantes de guerra, a través de los Alpes en 218 a.C. durante la Segunda Guerra Púnica, ejecutando una de las maniobras militares más famosas de la historia.",
+          de: "Hannibal Barkas führte 218 v.Chr. während des Zweiten Punischen Krieges seine Armee, einschließlich Kriegselefanten, über die Alpen und führte eines der berühmtesten Militärmanöver der Geschichte aus.",
+          nl: "Hannibal Barca leidde zijn leger, inclusief oorlogsolifanten, over de Alpen in 218 v.Chr. tijdens de Tweede Punische Oorlog, voerde een van de beroemdste militaire manoeuvres in de geschiedenis uit."
+        }
+      },
+      {
+        question: {
+          en: "Which Persian queen helped save the Jewish people according to the biblical Book of Esther?",
+          es: "¿Qué reina persa ayudó a salvar al pueblo judío según el Libro bíblico de Ester?",
+          de: "Welche persische Königin half laut dem biblischen Buch Esther, das jüdische Volk zu retten?",
+          nl: "Welke Perzische koningin hielp het Joodse volk te redden volgens het bijbelse boek Esther?"
+        },
+        options: [
+          { en: "Esther", es: "Ester", de: "Esther", nl: "Esther" },
+          { en: "Vashti", es: "Vasti", de: "Waschti", nl: "Vasti" },
+          { en: "Jezebel", es: "Jezabel", de: "Isebel", nl: "Izebel" },
+          { en: "Athaliah", es: "Atalía", de: "Atalja", nl: "Athalia" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Queen Esther risked her life to reveal a plot against the Jews to King Ahasuerus of Persia, saving her people from destruction around 473 BCE.",
+          es: "La reina Ester arriesgó su vida para revelar un complot contra los judíos al rey Asuero de Persia, salvando a su pueblo de la destrucción alrededor del 473 a.C.",
+          de: "Königin Esther riskierte ihr Leben, um König Ahasveros von Persien einen Plan gegen die Juden zu offenbaren und rettete ihr Volk um 473 v.Chr. vor der Vernichtung.",
+          nl: "Koningin Esther riskeerde haar leven om een complot tegen de Joden aan koning Ahasveros van Perzië te onthullen, redde haar volk van vernietiging rond 473 v.Chr."
+        }
+      },
+      {
+        question: {
+          en: "Who was the Italian astronomer placed under house arrest for supporting heliocentrism?",
+          es: "¿Quién fue el astrónomo italiano puesto bajo arresto domiciliario por apoyar el heliocentrismo?",
+          de: "Wer war der italienische Astronom, der wegen seiner Unterstützung des Heliozentrismus unter Hausarrest gestellt wurde?",
+          nl: "Wie was de Italiaanse astronoom die onder huisarrest werd geplaatst voor het ondersteunen van heliocentrisme?"
+        },
+        options: [
+          { en: "Galileo Galilei", es: "Galileo Galilei", de: "Galileo Galilei", nl: "Galileo Galilei" },
+          { en: "Nicolaus Copernicus", es: "Nicolás Copérnico", de: "Nikolaus Kopernikus", nl: "Nicolaas Copernicus" },
+          { en: "Johannes Kepler", es: "Johannes Kepler", de: "Johannes Kepler", nl: "Johannes Kepler" },
+          { en: "Tycho Brahe", es: "Tycho Brahe", de: "Tycho Brahe", nl: "Tycho Brahe" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Galileo Galilei was tried by the Inquisition in 1633 for supporting Copernicus's theory that Earth orbits the Sun, and spent his final years under house arrest.",
+          es: "Galileo Galilei fue juzgado por la Inquisición en 1633 por apoyar la teoría de Copérnico de que la Tierra orbita el Sol, y pasó sus últimos años bajo arresto domiciliario.",
+          de: "Galileo Galilei wurde 1633 von der Inquisition angeklagt, weil er die Theorie von Kopernikus unterstützte, dass die Erde die Sonne umkreist, und verbrachte seine letzten Jahre unter Hausarrest.",
+          nl: "Galileo Galilei werd in 1633 berecht door de Inquisitie voor het ondersteunen van Copernicus' theorie dat de aarde om de zon draait, en bracht zijn laatste jaren onder huisarrest door."
+        }
+      },
+      {
+        question: {
+          en: "Which French military leader rose from a commoner to become Emperor?",
+          es: "¿Qué líder militar francés ascendió de plebeyo a Emperador?",
+          de: "Welcher französische Militärführer stieg vom einfachen Bürger zum Kaiser auf?",
+          nl: "Welke Franse militaire leider steeg op van gewone burger tot keizer?"
+        },
+        options: [
+          { en: "Napoleon Bonaparte", es: "Napoleón Bonaparte", de: "Napoleon Bonaparte", nl: "Napoleon Bonaparte" },
+          { en: "Louis XIV", es: "Luis XIV", de: "Ludwig XIV.", nl: "Lodewijk XIV" },
+          { en: "Charles de Gaulle", es: "Charles de Gaulle", de: "Charles de Gaulle", nl: "Charles de Gaulle" },
+          { en: "Louis Philippe", es: "Luis Felipe", de: "Louis-Philippe", nl: "Louis Philippe" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Napoleon Bonaparte rose through military ranks during the French Revolution and crowned himself Emperor of France in 1804, conquering much of Europe before his defeat in 1815.",
+          es: "Napoleón Bonaparte ascendió por los rangos militares durante la Revolución Francesa y se coronó Emperador de Francia en 1804, conquistando gran parte de Europa antes de su derrota en 1815.",
+          de: "Napoleon Bonaparte stieg während der Französischen Revolution durch die militärischen Ränge auf und krönte sich 1804 zum Kaiser von Frankreich, eroberte einen Großteil Europas vor seiner Niederlage 1815.",
+          nl: "Napoleon Bonaparte steeg op door militaire rangen tijdens de Franse Revolutie en kroonde zichzelf tot keizer van Frankrijk in 1804, veroverde een groot deel van Europa voor zijn nederlaag in 1815."
+        }
+      },
+      {
+        question: {
+          en: "Who was the queen of ancient Egypt known for her romantic relationships with Julius Caesar and Mark Antony?",
+          es: "¿Quién fue la reina del antiguo Egipto conocida por sus relaciones románticas con Julio César y Marco Antonio?",
+          de: "Wer war die Königin des alten Ägypten, bekannt für ihre romantischen Beziehungen mit Julius Caesar und Marcus Antonius?",
+          nl: "Wie was de koningin van het oude Egypte bekend om haar romantische relaties met Julius Caesar en Marcus Antonius?"
+        },
+        options: [
+          { en: "Cleopatra VII", es: "Cleopatra VII", de: "Kleopatra VII.", nl: "Cleopatra VII" },
+          { en: "Nefertiti", es: "Nefertiti", de: "Nofretete", nl: "Nefertiti" },
+          { en: "Hatshepsut", es: "Hatshepsut", de: "Hatschepsut", nl: "Hatshepsut" },
+          { en: "Nefertari", es: "Nefertari", de: "Nefertari", nl: "Nefertari" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cleopatra VII was the last active pharaoh of ancient Egypt, known for her political alliances and romances with Roman leaders Julius Caesar and Mark Antony.",
+          es: "Cleopatra VII fue la última faraona activa del antiguo Egipto, conocida por sus alianzas políticas y romances con los líderes romanos Julio César y Marco Antonio.",
+          de: "Kleopatra VII. war die letzte aktive Pharaonin des alten Ägypten, bekannt für ihre politischen Bündnisse und Romanzen mit den römischen Führern Julius Caesar und Marcus Antonius.",
+          nl: "Cleopatra VII was de laatste actieve farao van het oude Egypte, bekend om haar politieke allianties en romances met Romeinse leiders Julius Caesar en Marcus Antonius."
+        }
       }
     ]
   };

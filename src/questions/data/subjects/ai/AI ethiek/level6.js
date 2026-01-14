@@ -427,7 +427,426 @@
           de: "Verbotene KI-Praktiken umfassen typischerweise Systeme die unterschwellige Techniken verwenden, Schwachstellen spezifischer Gruppen ausnutzen, Social Scoring fuer allgemeine Zwecke einsetzen, oder Echtzeit-Fernbiometrische Identifikation in oeffentlichen Raeumen ohne angemessene Schutzmaßnahmen verwenden.",
           nl: "Verboden AI praktijken omvatten typisch systemen die subliminale technieken gebruiken, kwetsbaarheden van specifieke groepen uitbuiten, sociale scoring voor algemene doeleinden toepassen, of real-time biometrische identificatie op afstand in openbare ruimtes zonder adequate waarborgen gebruiken."
         }
-      
+      },
+      {
+        question: {
+          en: "What is 'co-regulation' in AI governance?",
+          es: "Que es 'co-regulacion' en gobernanza de IA?",
+          de: "Was ist 'Ko-Regulierung' in der KI-Governance?",
+          nl: "Wat is 'co-regulatie' in AI governance?"
+        },
+        options: [
+          { en: "Collaboration between government regulators and industry self-regulation to govern AI", es: "Colaboracion entre reguladores gubernamentales y autorregulacion de la industria para gobernar IA", de: "Zusammenarbeit zwischen Regierungsregulatoren und Industrie-Selbstregulierung zur KI-Governance", nl: "Samenwerking tussen overheidsregelgevers en industrie zelfregulering om AI te besturen" },
+          { en: "Two government agencies regulating AI jointly", es: "Dos agencias gubernamentales regulando IA conjuntamente", de: "Zwei Regierungsbehoerden regulieren KI gemeinsam", nl: "Twee overheidsinstanties die gezamenlijk AI reguleren" },
+          { en: "Companies regulating each other without government involvement", es: "Empresas regulandose mutuamente sin participacion gubernamental", de: "Unternehmen regulieren sich gegenseitig ohne Regierungsbeteiligung", nl: "Bedrijven die elkaar reguleren zonder overheidsbetrokkenheid" },
+          { en: "AI systems regulating themselves automatically", es: "Sistemas de IA regulandose automaticamente", de: "KI-Systeme regulieren sich automatisch selbst", nl: "AI systemen die zichzelf automatisch reguleren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Co-regulation combines statutory oversight by government authorities with industry-led standards and self-regulatory mechanisms, leveraging technical expertise while maintaining public accountability.",
+          es: "La co-regulacion combina supervision estatutaria por autoridades gubernamentales con estandares liderados por la industria y mecanismos de autorregulacion, aprovechando experiencia tecnica mientras mantiene responsabilidad publica.",
+          de: "Ko-Regulierung kombiniert gesetzliche Aufsicht durch Regierungsbehoerden mit von der Industrie gefuehrten Standards und Selbstregulierungsmechanismen, wobei technisches Fachwissen genutzt wird waehrend oeffentliche Rechenschaftspflicht erhalten bleibt.",
+          nl: "Co-regulatie combineert wettelijk toezicht door overheidsautoriteiten met door de industrie geleide standaarden en zelfregulerende mechanismen, waarbij technische expertise wordt benut terwijl publieke verantwoording behouden blijft."
+        }
+      },
+      {
+        question: {
+          en: "What is 'algorithmic impact assessment' (AIA) in regulatory frameworks?",
+          es: "Que es 'evaluacion de impacto algoritmico' (AIA) en marcos regulatorios?",
+          de: "Was ist 'algorithmische Folgenabschaetzung' (AIA) in regulatorischen Rahmenwerken?",
+          nl: "Wat is 'algoritmische impact assessment' (AIA) in regulatoire kaders?"
+        },
+        options: [
+          { en: "Mandatory evaluation of AI systems' potential impacts before deployment in high-risk applications", es: "Evaluacion obligatoria de impactos potenciales de sistemas IA antes de despliegue en aplicaciones de alto riesgo", de: "Obligatorische Bewertung potentieller Auswirkungen von KI-Systemen vor Einsatz in Hochrisikoanwendungen", nl: "Verplichte evaluatie van potentiële impacts van AI systemen voor implementatie in hoog-risico toepassingen" },
+          { en: "Testing how fast AI algorithms run", es: "Probar que tan rapido ejecutan algoritmos de IA", de: "Testen wie schnell KI-Algorithmen laufen", nl: "Testen hoe snel AI algoritmes draaien" },
+          { en: "Measuring the financial impact of AI investments", es: "Medir el impacto financiero de inversiones en IA", de: "Finanzielle Auswirkungen von KI-Investitionen messen", nl: "Financiële impact van AI investeringen meten" },
+          { en: "Assessing only technical performance metrics", es: "Evaluar solo metricas de rendimiento tecnico", de: "Nur technische Leistungsmetriken bewerten", nl: "Alleen technische prestatiemetrieken beoordelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Algorithmic impact assessments require organizations to systematically evaluate how AI systems may affect fundamental rights, fairness, transparency, and societal well-being before deployment, particularly in sensitive domains.",
+          es: "Las evaluaciones de impacto algoritmico requieren que organizaciones evaluen sistematicamente como sistemas de IA pueden afectar derechos fundamentales, equidad, transparencia y bienestar social antes del despliegue, particularmente en dominios sensibles.",
+          de: "Algorithmische Folgenabschaetzungen erfordern dass Organisationen systematisch bewerten wie KI-Systeme Grundrechte, Fairness, Transparenz und gesellschaftliches Wohlergehen beeinflussen koennen vor dem Einsatz, besonders in sensiblen Bereichen.",
+          nl: "Algoritmische impact assessments vereisen dat organisaties systematisch evalueren hoe AI systemen fundamentele rechten, eerlijkheid, transparantie en maatschappelijk welzijn kunnen beïnvloeden voor implementatie, vooral in gevoelige domeinen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'regulatory experimentation' in AI governance?",
+          es: "Que es 'experimentacion regulatoria' en gobernanza de IA?",
+          de: "Was ist 'regulatorische Experimentierung' in der KI-Governance?",
+          nl: "Wat is 'regulatoir experimenteren' in AI governance?"
+        },
+        options: [
+          { en: "Testing new regulatory approaches in controlled settings to learn what works before wide implementation", es: "Probar nuevos enfoques regulatorios en entornos controlados para aprender que funciona antes de implementacion amplia", de: "Neue regulatorische Ansaetze in kontrollierten Umgebungen testen um zu lernen was funktioniert vor breiter Umsetzung", nl: "Nieuwe regulatoire benaderingen testen in gecontroleerde settings om te leren wat werkt voor brede implementatie" },
+          { en: "Using AI to design government regulations", es: "Usar IA para disenar regulaciones gubernamentales", de: "KI verwenden um Regierungsvorschriften zu entwerfen", nl: "AI gebruiken om overheidsregelgeving te ontwerpen" },
+          { en: "Allowing companies to experiment freely without oversight", es: "Permitir a empresas experimentar libremente sin supervision", de: "Unternehmen erlauben frei ohne Aufsicht zu experimentieren", nl: "Bedrijven toestaan vrij te experimenteren zonder toezicht" },
+          { en: "Testing AI systems in laboratory environments only", es: "Probar sistemas de IA solo en entornos de laboratorio", de: "KI-Systeme nur in Laborumgebungen testen", nl: "AI systemen alleen in laboratoriumomgevingen testen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Regulatory experimentation allows governments to pilot innovative governance approaches in sandboxes or controlled trials, gathering evidence about effectiveness before scaling regulations more broadly.",
+          es: "La experimentacion regulatoria permite a gobiernos probar enfoques innovadores de gobernanza en sandboxes o pruebas controladas, reuniendo evidencia sobre efectividad antes de escalar regulaciones mas ampliamente.",
+          de: "Regulatorische Experimentierung erlaubt Regierungen innovative Governance-Ansaetze in Sandboxes oder kontrollierten Versuchen zu pilotieren, Beweise ueber Wirksamkeit zu sammeln bevor Regulierungen breiter skaliert werden.",
+          nl: "Regulatoir experimenteren stelt overheden in staat innovatieve governance benaderingen te testen in sandboxes of gecontroleerde proeven, bewijs verzamelend over effectiviteit voor het breder opschalen van regelgeving."
+        }
+      },
+      {
+        question: {
+          en: "What is 'AI certification' in governance frameworks?",
+          es: "Que es 'certificacion de IA' en marcos de gobernanza?",
+          de: "Was ist 'KI-Zertifizierung' in Governance-Rahmenwerken?",
+          nl: "Wat is 'AI certificering' in governance frameworks?"
+        },
+        options: [
+          { en: "Third-party verification that AI systems meet specific regulatory and ethical standards", es: "Verificacion de terceros que sistemas IA cumplen estandares regulatorios y eticos especificos", de: "Drittanbieter-Verifizierung dass KI-Systeme spezifische regulatorische und ethische Standards erfuellen", nl: "Verificatie door derden dat AI systemen voldoen aan specifieke regulatoire en ethische standaarden" },
+          { en: "Employee training certificates for AI users", es: "Certificados de capacitacion de empleados para usuarios de IA", de: "Mitarbeiterschulungszertifikate fuer KI-Nutzer", nl: "Werknemerstraining certificaten voor AI gebruikers" },
+          { en: "Documents proving AI system ownership", es: "Documentos que prueban propiedad de sistemas de IA", de: "Dokumente die KI-Systemeigentum nachweisen", nl: "Documenten die AI systeem eigendom bewijzen" },
+          { en: "Licenses to manufacture AI hardware", es: "Licencias para fabricar hardware de IA", de: "Lizenzen zur Herstellung von KI-Hardware", nl: "Licenties om AI hardware te produceren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI certification involves independent assessment and validation that AI systems comply with established standards for safety, fairness, transparency, and other regulatory requirements, providing assurance to users and regulators.",
+          es: "La certificacion de IA involucra evaluacion y validacion independiente que sistemas de IA cumplen con estandares establecidos para seguridad, equidad, transparencia y otros requisitos regulatorios, proporcionando seguridad a usuarios y reguladores.",
+          de: "KI-Zertifizierung beinhaltet unabhaengige Bewertung und Validierung dass KI-Systeme etablierte Standards fuer Sicherheit, Fairness, Transparenz und andere regulatorische Anforderungen erfuellen, was Nutzern und Regulatoren Sicherheit bietet.",
+          nl: "AI certificering houdt onafhankelijke beoordeling en validatie in dat AI systemen voldoen aan vastgestelde standaarden voor veiligheid, eerlijkheid, transparantie en andere regulatoire vereisten, wat zekerheid biedt aan gebruikers en regelgevers."
+        }
+      },
+      {
+        question: {
+          en: "What is 'proportionate governance' in AI regulation?",
+          es: "Que es 'gobernanza proporcional' en regulacion de IA?",
+          de: "Was ist 'proportionale Governance' in der KI-Regulierung?",
+          nl: "Wat is 'proportionele governance' in AI regulering?"
+        },
+        options: [
+          { en: "Tailoring regulatory requirements to match the risk level and impact of specific AI applications", es: "Adaptar requisitos regulatorios para igualar nivel de riesgo e impacto de aplicaciones especificas de IA", de: "Regulatorische Anforderungen anpassen um Risikoniveau und Auswirkungen spezifischer KI-Anwendungen zu entsprechen", nl: "Regulatoire vereisten afstemmen op het risiconiveau en impact van specifieke AI toepassingen" },
+          { en: "Making all AI systems follow identical regulations", es: "Hacer que todos los sistemas de IA sigan regulaciones identicas", de: "Alle KI-Systeme dazu bringen identische Regulierungen zu befolgen", nl: "Alle AI systemen dezelfde regelgeving laten volgen" },
+          { en: "Regulating AI based on company size only", es: "Regular IA basado solo en tamano de empresa", de: "KI nur basierend auf Unternehmensgroesse regulieren", nl: "AI alleen reguleren op basis van bedrijfsgrootte" },
+          { en: "Distributing governance responsibilities evenly across all stakeholders", es: "Distribuir responsabilidades de gobernanza equitativamente entre todas las partes interesadas", de: "Governance-Verantwortlichkeiten gleichmaessig auf alle Stakeholder verteilen", nl: "Governance verantwoordelijkheden gelijk verdelen over alle belanghebbenden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Proportionate governance applies stricter requirements to higher-risk AI applications while maintaining lighter-touch regulation for lower-risk systems, balancing safety and innovation based on potential impact.",
+          es: "La gobernanza proporcional aplica requisitos mas estrictos a aplicaciones de IA de mayor riesgo mientras mantiene regulacion mas ligera para sistemas de menor riesgo, equilibrando seguridad e innovacion basado en impacto potencial.",
+          de: "Proportionale Governance wendet strengere Anforderungen auf hoeheres Risiko KI-Anwendungen an waehrend leichtere Regulierung fuer Systeme mit geringerem Risiko beibehalten wird, wobei Sicherheit und Innovation basierend auf potentieller Auswirkung ausbalanciert werden.",
+          nl: "Proportionele governance past strengere vereisten toe op hoger-risico AI toepassingen terwijl lichtere regelgeving behouden blijft voor lager-risico systemen, waarbij veiligheid en innovatie gebalanceerd worden op basis van potentiële impact."
+        }
+      },
+      {
+        question: {
+          en: "What are 'sunset clauses' in AI regulation?",
+          es: "Que son 'clausulas de caducidad' en regulacion de IA?",
+          de: "Was sind 'Verfallsklauseln' in der KI-Regulierung?",
+          nl: "Wat zijn 'sunset clausules' in AI regulering?"
+        },
+        options: [
+          { en: "Provisions that make regulations expire after a set period unless renewed, ensuring they remain relevant", es: "Provisiones que hacen que regulaciones expiren despues de un periodo establecido a menos que se renueven", de: "Bestimmungen die Regulierungen nach einer festgelegten Periode verfallen lassen sofern nicht erneuert", nl: "Bepalingen die regelgeving laten vervallen na een bepaalde periode tenzij vernieuwd" },
+          { en: "Rules that only apply during evening hours", es: "Reglas que solo se aplican durante horas de la tarde", de: "Regeln die nur waehrend Abendstunden gelten", nl: "Regels die alleen tijdens avonduren gelden" },
+          { en: "Regulations for AI systems that become obsolete", es: "Regulaciones para sistemas de IA que se vuelven obsoletos", de: "Regulierungen fuer KI-Systeme die obsolet werden", nl: "Regelgeving voor AI systemen die verouderd worden" },
+          { en: "Termination procedures for AI development projects", es: "Procedimientos de terminacion para proyectos de desarrollo de IA", de: "Beendigungsverfahren fuer KI-Entwicklungsprojekte", nl: "Beëindigingsprocedures voor AI ontwikkelingsprojecten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sunset clauses build adaptive capacity into AI regulations by automatically expiring provisions after a defined period, forcing regular review and update to keep pace with technological change.",
+          es: "Las clausulas de caducidad incorporan capacidad adaptativa en regulaciones de IA al expirar automaticamente provisiones despues de un periodo definido, forzando revision y actualizacion regular para mantenerse al dia con cambio tecnologico.",
+          de: "Verfallsklauseln bauen adaptive Kapazitaet in KI-Regulierungen ein indem sie Bestimmungen automatisch nach einer definierten Periode verfallen lassen, was regelmaessige Ueberpruefung und Aktualisierung erzwingt um mit technologischem Wandel Schritt zu halten.",
+          nl: "Sunset clausules bouwen adaptief vermogen in AI regelgeving door bepalingen automatisch te laten vervallen na een gedefinieerde periode, wat regelmatige review en update afdwingt om gelijke tred te houden met technologische verandering."
+        }
+      },
+      {
+        question: {
+          en: "What is 'stakeholder participation' in AI governance?",
+          es: "Que es 'participacion de partes interesadas' en gobernanza de IA?",
+          de: "Was ist 'Stakeholder-Beteiligung' in der KI-Governance?",
+          nl: "Wat is 'stakeholder participatie' in AI governance?"
+        },
+        options: [
+          { en: "Including diverse affected parties in AI policy development and decision-making processes", es: "Incluir partes afectadas diversas en desarrollo de politicas de IA y procesos de toma de decisiones", de: "Einbeziehung verschiedener betroffener Parteien in KI-Politikentwicklung und Entscheidungsprozesse", nl: "Diverse getroffen partijen betrekken bij AI beleidsontwikkeling en besluitvormingsprocessen" },
+          { en: "Requiring shareholders to vote on all AI decisions", es: "Requerir que accionistas voten en todas las decisiones de IA", de: "Aktionaere dazu verpflichten ueber alle KI-Entscheidungen abzustimmen", nl: "Aandeelhouders verplichten te stemmen over alle AI beslissingen" },
+          { en: "Only allowing technical experts to contribute to AI governance", es: "Solo permitir que expertos tecnicos contribuyan a gobernanza de IA", de: "Nur technischen Experten erlauben zur KI-Governance beizutragen", nl: "Alleen technische experts toestaan bij te dragen aan AI governance" },
+          { en: "Giving employees stock options in AI companies", es: "Dar a empleados opciones de acciones en empresas de IA", de: "Mitarbeitern Aktienoptionen in KI-Unternehmen geben", nl: "Werknemers aandelenopties geven in AI bedrijven" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Stakeholder participation ensures that AI governance incorporates perspectives from civil society, affected communities, domain experts, and other relevant parties beyond just industry and government, promoting legitimacy and effectiveness.",
+          es: "La participacion de partes interesadas asegura que gobernanza de IA incorpore perspectivas de sociedad civil, comunidades afectadas, expertos de dominio y otras partes relevantes mas alla de solo industria y gobierno, promoviendo legitimidad y efectividad.",
+          de: "Stakeholder-Beteiligung stellt sicher dass KI-Governance Perspektiven von Zivilgesellschaft, betroffenen Gemeinschaften, Domaenen-Experten und anderen relevanten Parteien ueber Industrie und Regierung hinaus einbezieht, was Legitimitaet und Effektivitaet foerdert.",
+          nl: "Stakeholder participatie zorgt ervoor dat AI governance perspectieven incorporeert van civiele maatschappij, getroffen gemeenschappen, domein experts en andere relevante partijen naast alleen industrie en overheid, wat legitimiteit en effectiviteit bevordert."
+        }
+      },
+      {
+        question: {
+          en: "What is 'regulatory fragmentation' and why is it a concern for AI?",
+          es: "Que es 'fragmentacion regulatoria' y por que es una preocupacion para IA?",
+          de: "Was ist 'regulatorische Fragmentierung' und warum ist sie ein Anliegen fuer KI?",
+          nl: "Wat is 'regulatoire fragmentatie' en waarom is het een zorg voor AI?"
+        },
+        options: [
+          { en: "Inconsistent or conflicting AI regulations across jurisdictions creating compliance challenges", es: "Regulaciones de IA inconsistentes o conflictivas entre jurisdicciones creando desafios de cumplimiento", de: "Inkonsistente oder widersprüchliche KI-Regulierungen zwischen Jurisdiktionen schaffen Compliance-Herausforderungen", nl: "Inconsistente of conflicterende AI regelgeving tussen jurisdicties die compliance uitdagingen creëren" },
+          { en: "AI systems being physically broken into parts", es: "Sistemas de IA siendo fisicamente divididos en partes", de: "KI-Systeme werden physisch in Teile zerlegt", nl: "AI systemen die fysiek in delen worden opgedeeld" },
+          { en: "Splitting regulatory agencies into smaller units", es: "Dividir agencias regulatorias en unidades mas pequenas", de: "Regulierungsbehoerden in kleinere Einheiten aufteilen", nl: "Regulatoire instanties opdelen in kleinere eenheden" },
+          { en: "Incomplete regulatory documentation", es: "Documentacion regulatoria incompleta", de: "Unvollstaendige regulatorische Dokumentation", nl: "Onvolledige regulatoire documentatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Regulatory fragmentation occurs when different jurisdictions adopt incompatible AI governance approaches, creating barriers to innovation, increasing compliance costs, and hindering international cooperation on AI development.",
+          es: "La fragmentacion regulatoria ocurre cuando diferentes jurisdicciones adoptan enfoques de gobernanza de IA incompatibles, creando barreras a innovacion, aumentando costos de cumplimiento y obstaculizando cooperacion internacional en desarrollo de IA.",
+          de: "Regulatorische Fragmentierung tritt auf wenn verschiedene Jurisdiktionen inkompatible KI-Governance-Ansaetze uebernehmen, was Barrieren fuer Innovation schafft, Compliance-Kosten erhoeht und internationale Kooperation bei KI-Entwicklung behindert.",
+          nl: "Regulatoire fragmentatie treedt op wanneer verschillende jurisdicties incompatibele AI governance benaderingen adopteren, wat barrières creëert voor innovatie, compliance kosten verhoogt en internationale samenwerking bij AI ontwikkeling belemmert."
+        }
+      },
+      {
+        question: {
+          en: "What is 'regulatory lag' in AI governance?",
+          es: "Que es 'retraso regulatorio' en gobernanza de IA?",
+          de: "Was ist 'regulatorische Verzoegerung' in der KI-Governance?",
+          nl: "Wat is 'regulatoire vertraging' in AI governance?"
+        },
+        options: [
+          { en: "The gap between rapid AI technological advances and slower development of relevant regulations", es: "La brecha entre avances tecnologicos rapidos de IA y desarrollo mas lento de regulaciones relevantes", de: "Die Kluft zwischen schnellen KI-technologischen Fortschritten und langsamerer Entwicklung relevanter Regulierungen", nl: "De kloof tussen snelle AI technologische vooruitgang en tragere ontwikkeling van relevante regelgeving" },
+          { en: "Delays in AI system response times", es: "Retrasos en tiempos de respuesta de sistemas de IA", de: "Verzoegerungen bei KI-System-Antwortzeiten", nl: "Vertragingen in AI systeem responstijden" },
+          { en: "Slow internet connections affecting AI regulations", es: "Conexiones de internet lentas que afectan regulaciones de IA", de: "Langsame Internetverbindungen die KI-Regulierungen beeinflussen", nl: "Trage internetverbindingen die AI regelgeving beïnvloeden" },
+          { en: "Time difference between global regulatory meetings", es: "Diferencia horaria entre reuniones regulatorias globales", de: "Zeitunterschied zwischen globalen regulatorischen Treffen", nl: "Tijdverschil tussen mondiale regulatoire bijeenkomsten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Regulatory lag is the delay between AI technological innovation and the establishment of appropriate governance frameworks, during which harmful applications may proliferate before adequate oversight is established.",
+          es: "El retraso regulatorio es la demora entre innovacion tecnologica de IA y establecimiento de marcos de gobernanza apropiados, durante el cual aplicaciones daninas pueden proliferar antes de que se establezca supervision adecuada.",
+          de: "Regulatorische Verzoegerung ist die Verzoegerung zwischen KI-technologischer Innovation und der Etablierung angemessener Governance-Rahmenwerke, waehrend der schaedliche Anwendungen sich verbreiten koennen bevor angemessene Aufsicht etabliert ist.",
+          nl: "Regulatoire vertraging is de vertraging tussen AI technologische innovatie en het vaststellen van passende governance kaders, waarbinnen schadelijke toepassingen kunnen prolifereren voordat adequaat toezicht wordt vastgesteld."
+        }
+      },
+      {
+        question: {
+          en: "What is 'mission-oriented AI governance'?",
+          es: "Que es 'gobernanza de IA orientada a la mision'?",
+          de: "Was ist 'missionsorientierte KI-Governance'?",
+          nl: "Wat is 'missie-gerichte AI governance'?"
+        },
+        options: [
+          { en: "Aligning AI regulation with specific societal goals like sustainability or healthcare improvement", es: "Alinear regulacion de IA con objetivos sociales especificos como sostenibilidad o mejora de salud", de: "KI-Regulierung mit spezifischen gesellschaftlichen Zielen wie Nachhaltigkeit oder Gesundheitsverbesserung ausrichten", nl: "AI regelgeving afstemmen op specifieke maatschappelijke doelen zoals duurzaamheid of gezondheidszorgverbetering" },
+          { en: "Regulating only military AI applications", es: "Regular solo aplicaciones militares de IA", de: "Nur militaerische KI-Anwendungen regulieren", nl: "Alleen militaire AI toepassingen reguleren" },
+          { en: "Governance focused exclusively on commercial AI objectives", es: "Gobernanza enfocada exclusivamente en objetivos comerciales de IA", de: "Governance ausschliesslich auf kommerzielle KI-Ziele fokussiert", nl: "Governance uitsluitend gericht op commerciële AI doelstellingen" },
+          { en: "AI systems designed for space exploration missions", es: "Sistemas de IA disenados para misiones de exploracion espacial", de: "KI-Systeme fuer Weltraumforschungsmissionen entworfen", nl: "AI systemen ontworpen voor ruimteverkenning missies" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mission-oriented AI governance directs AI development and regulation toward achieving specific public interest goals, such as addressing climate change, advancing healthcare, or promoting education, rather than purely risk-based approaches.",
+          es: "La gobernanza de IA orientada a la mision dirige desarrollo y regulacion de IA hacia logro de objetivos especificos de interes publico, como abordar cambio climatico, avanzar atencion medica o promover educacion, en lugar de enfoques puramente basados en riesgo.",
+          de: "Missionsorientierte KI-Governance richtet KI-Entwicklung und -Regulierung auf die Erreichung spezifischer oeffentlicher Interessen aus, wie Bewaeltigung des Klimawandels, Fortschritt im Gesundheitswesen oder Bildungsfoerderung, anstatt rein risikobasierten Ansaetzen.",
+          nl: "Missie-gerichte AI governance richt AI ontwikkeling en regelgeving op het bereiken van specifieke publieke belangen doelen, zoals klimaatverandering aanpakken, gezondheidszorg bevorderen of onderwijs promoten, in plaats van puur risico-gebaseerde benaderingen."
+        }
+      },
+      {
+        question: {
+          en: "What are 'regulatory observatories' for AI?",
+          es: "Que son 'observatorios regulatorios' para IA?",
+          de: "Was sind 'regulatorische Observatorien' fuer KI?",
+          nl: "Wat zijn 'regulatoire observatoria' voor AI?"
+        },
+        options: [
+          { en: "Institutions that monitor AI developments and regulatory approaches to inform policy evolution", es: "Instituciones que monitorean desarrollos de IA y enfoques regulatorios para informar evolucion de politicas", de: "Institutionen die KI-Entwicklungen und regulatorische Ansaetze ueberwachen um Politikentwicklung zu informieren", nl: "Instituties die AI ontwikkelingen en regulatoire benaderingen monitoren om beleidsontwikkeling te informeren" },
+          { en: "Physical facilities for observing AI hardware operations", es: "Instalaciones fisicas para observar operaciones de hardware de IA", de: "Physische Einrichtungen zur Beobachtung von KI-Hardware-Operationen", nl: "Fysieke faciliteiten voor het observeren van AI hardware operaties" },
+          { en: "Telescopes used by AI systems for astronomy", es: "Telescopios usados por sistemas de IA para astronomia", de: "Teleskope die von KI-Systemen fuer Astronomie verwendet werden", nl: "Telescopen die door AI systemen voor astronomie gebruikt worden" },
+          { en: "Government offices that watch AI company activities", es: "Oficinas gubernamentales que vigilan actividades de companias de IA", de: "Regierungsbueros die Aktivitaeten von KI-Unternehmen beobachten", nl: "Overheidskantoren die activiteiten van AI bedrijven in de gaten houden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Regulatory observatories systematically track AI technological trends, emerging risks, international regulatory approaches, and governance innovations, providing evidence-based insights to help policymakers adapt regulations effectively.",
+          es: "Los observatorios regulatorios rastrean sistematicamente tendencias tecnologicas de IA, riesgos emergentes, enfoques regulatorios internacionales e innovaciones de gobernanza, proporcionando perspectivas basadas en evidencia para ayudar a formuladores de politicas a adaptar regulaciones efectivamente.",
+          de: "Regulatorische Observatorien verfolgen systematisch KI-technologische Trends, aufkommende Risiken, internationale regulatorische Ansaetze und Governance-Innovationen, wobei evidenzbasierte Einblicke bereitgestellt werden um Politikern zu helfen Regulierungen effektiv anzupassen.",
+          nl: "Regulatoire observatoria volgen systematisch AI technologische trends, opkomende risico's, internationale regulatoire benaderingen en governance innovaties, waarbij evidence-based inzichten worden geboden om beleidsmakers te helpen regelgeving effectief aan te passen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'graduated regulation' in AI governance?",
+          es: "Que es 'regulacion graduada' en gobernanza de IA?",
+          de: "Was ist 'abgestufte Regulierung' in der KI-Governance?",
+          nl: "Wat is 'gegradueerde regulering' in AI governance?"
+        },
+        options: [
+          { en: "Applying increasingly strict requirements as AI systems scale up or enter higher-risk domains", es: "Aplicar requisitos cada vez mas estrictos a medida que sistemas IA escalan o entran en dominios de mayor riesgo", de: "Zunehmend strenge Anforderungen anwenden wenn KI-Systeme skalieren oder in hoehere Risikobereiche eintreten", nl: "Toenemend strenge vereisten toepassen naarmate AI systemen opschalen of hogere-risico domeinen betreden" },
+          { en: "Only regulating AI systems developed by university graduates", es: "Solo regular sistemas de IA desarrollados por graduados universitarios", de: "Nur KI-Systeme regulieren die von Universitaetsabsolventen entwickelt wurden", nl: "Alleen AI systemen reguleren ontwikkeld door universitair afgestudeerden" },
+          { en: "Implementing all regulations at once regardless of context", es: "Implementar todas las regulaciones a la vez independientemente del contexto", de: "Alle Regulierungen auf einmal unabhaengig vom Kontext implementieren", nl: "Alle regelgeving tegelijk implementeren ongeacht context" },
+          { en: "Regulating based on AI developer experience levels", es: "Regular basado en niveles de experiencia de desarrolladores de IA", de: "Regulieren basierend auf Erfahrungsniveaus von KI-Entwicklern", nl: "Reguleren op basis van ervaringsniveaus van AI ontwikkelaars" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Graduated regulation scales oversight intensity based on factors like AI capability level, deployment scale, and risk profile, allowing lighter requirements for low-risk applications while maintaining rigorous scrutiny for high-impact systems.",
+          es: "La regulacion graduada escala intensidad de supervision basada en factores como nivel de capacidad de IA, escala de despliegue y perfil de riesgo, permitiendo requisitos mas ligeros para aplicaciones de bajo riesgo mientras mantiene escrutinio riguroso para sistemas de alto impacto.",
+          de: "Abgestufte Regulierung skaliert Aufsichtsintensitaet basierend auf Faktoren wie KI-Faehigkeitsniveau, Bereitstellungsskala und Risikoprofil, wobei leichtere Anforderungen fuer Anwendungen mit geringem Risiko erlaubt werden waehrend rigorose Pruefung fuer Systeme mit hoher Auswirkung beibehalten wird.",
+          nl: "Gegradueerde regulering schaalt toezicht intensiteit op basis van factoren zoals AI capaciteitsniveau, implementatieschaal en risicoprofiel, wat lichtere vereisten toestaat voor laag-risico toepassingen terwijl rigoureuze controle behouden blijft voor hoog-impact systemen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'transparency by design' in AI regulation?",
+          es: "Que es 'transparencia por diseno' en regulacion de IA?",
+          de: "Was ist 'Transparenz by Design' in der KI-Regulierung?",
+          nl: "Wat is 'transparantie by design' in AI regulering?"
+        },
+        options: [
+          { en: "Requiring AI systems to be built with explainability and auditability features from inception", es: "Requerir que sistemas IA sean construidos con caracteristicas de explicabilidad y auditabilidad desde inicio", de: "KI-Systeme muessen mit Erklaerbarkeits- und Auditierbarkeitsmerkmalen von Anfang an gebaut werden", nl: "Vereisen dat AI systemen vanaf het begin gebouwd worden met uitlegbaarheid en auditeerbaarheid kenmerken" },
+          { en: "Making all AI code publicly visible on the internet", es: "Hacer todo codigo de IA publicamente visible en internet", de: "Allen KI-Code oeffentlich im Internet sichtbar machen", nl: "Alle AI code publiekelijk zichtbaar maken op internet" },
+          { en: "Using transparent materials for AI hardware cases", es: "Usar materiales transparentes para cajas de hardware de IA", de: "Transparente Materialien fuer KI-Hardware-Gehaeuse verwenden", nl: "Transparante materialen gebruiken voor AI hardware behuizingen" },
+          { en: "Only designing AI interfaces with clear visuals", es: "Solo disenar interfaces de IA con visuales claros", de: "Nur KI-Schnittstellen mit klaren Visualisierungen entwerfen", nl: "Alleen AI interfaces ontwerpen met duidelijke visuals" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Transparency by design mandates that explainability, documentation, and accountability mechanisms be integrated into AI systems during development rather than retrofitted afterward, ensuring comprehensibility throughout the system lifecycle.",
+          es: "La transparencia por diseno exige que explicabilidad, documentacion y mecanismos de responsabilidad sean integrados en sistemas de IA durante desarrollo en lugar de adaptarse despues, asegurando comprensibilidad a lo largo del ciclo de vida del sistema.",
+          de: "Transparenz by Design verlangt dass Erklaerbarkeit, Dokumentation und Verantwortlichkeitsmechanismen waehrend der Entwicklung in KI-Systeme integriert werden anstatt nachtraeglich nachgeruestet zu werden, was Verstaendlichkeit waehrend des gesamten Systemlebenszyklus sicherstellt.",
+          nl: "Transparantie by design mandateert dat uitlegbaarheid, documentatie en verantwoordingsmechanismen geïntegreerd worden in AI systemen tijdens ontwikkeling in plaats van achteraf aangepast, wat begrijpelijkheid gedurende de hele systeemlevenscyclus waarborgt."
+        }
+      },
+      {
+        question: {
+          en: "What are 'regulatory trigger points' in AI governance?",
+          es: "Que son 'puntos de activacion regulatoria' en gobernanza de IA?",
+          de: "Was sind 'regulatorische Auslösepunkte' in der KI-Governance?",
+          nl: "Wat zijn 'regulatoire trigger punten' in AI governance?"
+        },
+        options: [
+          { en: "Specific thresholds that activate stricter oversight when AI systems reach certain capabilities or scale", es: "Umbrales especificos que activan supervision mas estricta cuando sistemas IA alcanzan ciertas capacidades o escala", de: "Spezifische Schwellenwerte die strengere Aufsicht aktivieren wenn KI-Systeme bestimmte Faehigkeiten oder Skala erreichen", nl: "Specifieke drempels die strenger toezicht activeren wanneer AI systemen bepaalde capaciteiten of schaal bereiken" },
+          { en: "Physical buttons that start AI regulatory systems", es: "Botones fisicos que inician sistemas regulatorios de IA", de: "Physische Knoepfe die KI-Regulierungssysteme starten", nl: "Fysieke knoppen die AI regulatoire systemen starten" },
+          { en: "Events that cause AI regulations to be repealed", es: "Eventos que causan que regulaciones de IA sean derogadas", de: "Ereignisse die dazu fuehren dass KI-Regulierungen aufgehoben werden", nl: "Gebeurtenissen die veroorzaken dat AI regelgeving wordt ingetrokken" },
+          { en: "Emotional responses that activate AI safety features", es: "Respuestas emocionales que activan caracteristicas de seguridad de IA", de: "Emotionale Reaktionen die KI-Sicherheitsmerkmale aktivieren", nl: "Emotionele reacties die AI veiligheidskenmerken activeren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Regulatory trigger points define specific criteria—such as user numbers, data volumes, capability levels, or deployment contexts—that automatically invoke additional compliance requirements or regulatory scrutiny for AI systems.",
+          es: "Los puntos de activacion regulatoria definen criterios especificos—como numeros de usuarios, volumenes de datos, niveles de capacidad o contextos de despliegue—que automaticamente invocan requisitos de cumplimiento adicionales o escrutinio regulatorio para sistemas de IA.",
+          de: "Regulatorische Auslösepunkte definieren spezifische Kriterien—wie Nutzerzahlen, Datenvolumen, Faehigkeitsniveaus oder Bereitstellungskontexte—die automatisch zusaetzliche Compliance-Anforderungen oder regulatorische Pruefung fuer KI-Systeme aufrufen.",
+          nl: "Regulatoire trigger punten definiëren specifieke criteria—zoals gebruikersaantallen, data volumes, capaciteitsniveaus of implementatiecontexten—die automatisch aanvullende compliance vereisten of regulatoir onderzoek oproepen voor AI systemen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'governance as a service' (GaaS) for AI?",
+          es: "Que es 'gobernanza como servicio' (GaaS) para IA?",
+          de: "Was ist 'Governance as a Service' (GaaS) fuer KI?",
+          nl: "Wat is 'governance as a service' (GaaS) voor AI?"
+        },
+        options: [
+          { en: "Third-party platforms providing compliance tools and governance frameworks for AI developers", es: "Plataformas de terceros que proporcionan herramientas de cumplimiento y marcos de gobernanza para desarrolladores de IA", de: "Drittanbieter-Plattformen die Compliance-Tools und Governance-Rahmenwerke fuer KI-Entwickler bereitstellen", nl: "Platformen van derden die compliance tools en governance kaders bieden voor AI ontwikkelaars" },
+          { en: "Government agencies offering AI systems as cloud services", es: "Agencias gubernamentales que ofrecen sistemas de IA como servicios en la nube", de: "Regierungsbehoerden die KI-Systeme als Cloud-Dienste anbieten", nl: "Overheidsinstanties die AI systemen als cloud services aanbieden" },
+          { en: "AI systems that govern other technologies automatically", es: "Sistemas de IA que gobiernan otras tecnologias automaticamente", de: "KI-Systeme die andere Technologien automatisch regieren", nl: "AI systemen die andere technologieën automatisch besturen" },
+          { en: "Subscription services for regulatory news updates", es: "Servicios de suscripcion para actualizaciones de noticias regulatorias", de: "Abonnementdienste fuer regulatorische Nachrichtenaktualisierungen", nl: "Abonnementsservices voor regulatoire nieuwsupdates" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Governance as a Service provides organizations with ready-made compliance solutions, monitoring tools, audit capabilities, and governance frameworks, helping especially smaller entities meet regulatory requirements without building infrastructure from scratch.",
+          es: "Gobernanza como servicio proporciona a organizaciones soluciones de cumplimiento listas, herramientas de monitoreo, capacidades de auditoria y marcos de gobernanza, ayudando especialmente a entidades mas pequenas a cumplir requisitos regulatorios sin construir infraestructura desde cero.",
+          de: "Governance as a Service bietet Organisationen fertige Compliance-Loesungen, Ueberwachungstools, Audit-Faehigkeiten und Governance-Rahmenwerke, was besonders kleineren Einheiten hilft regulatorische Anforderungen zu erfuellen ohne Infrastruktur von Grund auf aufzubauen.",
+          nl: "Governance as a Service biedt organisaties kant-en-klare compliance oplossingen, monitoring tools, audit capaciteiten en governance kaders, wat vooral kleinere entiteiten helpt regulatoire vereisten te voldoen zonder infrastructuur vanaf nul op te bouwen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'anticipatory governance' for AI?",
+          es: "Que es 'gobernanza anticipatoria' para IA?",
+          de: "Was ist 'antizipatorische Governance' fuer KI?",
+          nl: "Wat is 'anticiperende governance' voor AI?"
+        },
+        options: [
+          { en: "Proactively developing policies for emerging AI capabilities before they become widespread", es: "Desarrollar proactivamente politicas para capacidades emergentes de IA antes de que se generalicen", de: "Proaktiv Politiken fuer aufkommende KI-Faehigkeiten entwickeln bevor sie weit verbreitet werden", nl: "Proactief beleid ontwikkelen voor opkomende AI capaciteiten voordat ze wijdverspreid worden" },
+          { en: "Predicting when AI regulations will be violated", es: "Predecir cuando se violarán regulaciones de IA", de: "Vorhersagen wann KI-Regulierungen verletzt werden", nl: "Voorspellen wanneer AI regelgeving geschonden wordt" },
+          { en: "AI systems that anticipate user needs automatically", es: "Sistemas de IA que anticipan necesidades del usuario automaticamente", de: "KI-Systeme die Benutzerbedürfnisse automatisch antizipieren", nl: "AI systemen die gebruikersbehoeften automatisch anticiperen" },
+          { en: "Planning future AI budgets in advance", es: "Planificar presupuestos futuros de IA con anticipacion", de: "Zukuenftige KI-Budgets im Voraus planen", nl: "Toekomstige AI budgetten van tevoren plannen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Anticipatory governance uses foresight methods, scenario planning, and horizon scanning to identify potential AI risks and opportunities early, enabling policymakers to prepare appropriate regulations before technologies mature.",
+          es: "La gobernanza anticipatoria usa metodos de prevision, planificacion de escenarios y escaneo de horizonte para identificar riesgos y oportunidades potenciales de IA temprano, permitiendo a formuladores de politicas preparar regulaciones apropiadas antes de que tecnologias maduren.",
+          de: "Antizipatorische Governance verwendet Vorausschaumethoden, Szenarioplanung und Horizont-Scanning um potentielle KI-Risiken und Chancen frueh zu identifizieren, was Politikern ermoeglicht angemessene Regulierungen vorzubereiten bevor Technologien reifen.",
+          nl: "Anticiperende governance gebruikt vooruitziende methoden, scenario planning en horizon scanning om potentiële AI risico's en kansen vroeg te identificeren, wat beleidsmakers in staat stelt passende regelgeving voor te bereiden voordat technologieën rijpen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'regulatory reciprocity' in international AI governance?",
+          es: "Que es 'reciprocidad regulatoria' en gobernanza internacional de IA?",
+          de: "Was ist 'regulatorische Reziprozitaet' in internationaler KI-Governance?",
+          nl: "Wat is 'regulatoire wederkerigheid' in internationale AI governance?"
+        },
+        options: [
+          { en: "Mutual recognition of AI certifications and compliance between countries to facilitate trade", es: "Reconocimiento mutuo de certificaciones y cumplimiento de IA entre paises para facilitar comercio", de: "Gegenseitige Anerkennung von KI-Zertifizierungen und Compliance zwischen Laendern um Handel zu erleichtern", nl: "Wederzijdse erkenning van AI certificeringen en compliance tussen landen om handel te faciliteren" },
+          { en: "Countries retaliating against each other's AI regulations", es: "Paises tomando represalias contra regulaciones de IA mutuas", de: "Laender vergelten gegenseitig gegen KI-Regulierungen", nl: "Landen die wraak nemen op elkaars AI regelgeving" },
+          { en: "Exchanging AI researchers between nations", es: "Intercambiar investigadores de IA entre naciones", de: "KI-Forscher zwischen Nationen austauschen", nl: "AI onderzoekers uitwisselen tussen naties" },
+          { en: "Sharing AI development costs globally", es: "Compartir costos de desarrollo de IA globalmente", de: "KI-Entwicklungskosten global teilen", nl: "AI ontwikkelingskosten wereldwijd delen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Regulatory reciprocity agreements allow countries to accept each other's AI compliance certifications and assessments, reducing duplication of testing and enabling cross-border AI deployment while maintaining safety standards.",
+          es: "Los acuerdos de reciprocidad regulatoria permiten a paises aceptar certificaciones y evaluaciones de cumplimiento de IA mutuas, reduciendo duplicacion de pruebas y permitiendo despliegue transfronterizo de IA mientras mantienen estandares de seguridad.",
+          de: "Regulatorische Reziprozitaetsvereinbarungen erlauben Laendern gegenseitige KI-Compliance-Zertifizierungen und Bewertungen zu akzeptieren, wodurch Testduplizierung reduziert und grenzueberschreitende KI-Bereitstellung ermoeglicht wird waehrend Sicherheitsstandards beibehalten werden.",
+          nl: "Regulatoire wederkerigheidsovereenkomsten stellen landen in staat elkaars AI compliance certificeringen en beoordelingen te accepteren, wat duplicatie van testen vermindert en grensoverschrijdende AI implementatie mogelijk maakt terwijl veiligheidsstandaarden behouden blijven."
+        }
+      },
+      {
+        question: {
+          en: "What is 'adaptive compliance' in AI regulation?",
+          es: "Que es 'cumplimiento adaptativo' en regulacion de IA?",
+          de: "Was ist 'adaptive Compliance' in der KI-Regulierung?",
+          nl: "Wat is 'adaptieve compliance' in AI regulering?"
+        },
+        options: [
+          { en: "Flexible compliance approaches that adjust to specific organizational contexts and AI use cases", es: "Enfoques de cumplimiento flexibles que se ajustan a contextos organizacionales especificos y casos de uso de IA", de: "Flexible Compliance-Ansaetze die sich an spezifische organisatorische Kontexte und KI-Anwendungsfaelle anpassen", nl: "Flexibele compliance benaderingen die zich aanpassen aan specifieke organisatorische contexten en AI use cases" },
+          { en: "AI systems that automatically comply with all regulations", es: "Sistemas de IA que cumplen automaticamente con todas las regulaciones", de: "KI-Systeme die automatisch alle Regulierungen einhalten", nl: "AI systemen die automatisch voldoen aan alle regelgeving" },
+          { en: "Changing regulations frequently to keep pace with AI", es: "Cambiar regulaciones frecuentemente para mantener el ritmo con IA", de: "Regulierungen haeufig aendern um mit KI Schritt zu halten", nl: "Regelgeving vaak veranderen om gelijke tred te houden met AI" },
+          { en: "Only complying with regulations when convenient", es: "Solo cumplir con regulaciones cuando sea conveniente", de: "Nur Regulierungen einhalten wenn es bequem ist", nl: "Alleen voldoen aan regelgeving wanneer het uitkomt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Adaptive compliance allows organizations to demonstrate regulatory adherence through various means appropriate to their size, resources, and specific AI applications, rather than requiring one-size-fits-all approaches.",
+          es: "El cumplimiento adaptativo permite a organizaciones demostrar adherencia regulatoria a traves de varios medios apropiados a su tamano, recursos y aplicaciones especificas de IA, en lugar de requerir enfoques de talla unica.",
+          de: "Adaptive Compliance erlaubt Organisationen regulatorische Einhaltung durch verschiedene ihrer Groesse, Ressourcen und spezifischen KI-Anwendungen angemessene Mittel zu demonstrieren, anstatt Einheitsansaetze zu erfordern.",
+          nl: "Adaptieve compliance stelt organisaties in staat regulatoire naleving te demonstreren via verschillende middelen passend bij hun grootte, middelen en specifieke AI toepassingen, in plaats van one-size-fits-all benaderingen te vereisen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'regulatory sandboxing extension' in mature AI governance?",
+          es: "Que es 'extension de sandbox regulatorio' en gobernanza madura de IA?",
+          de: "Was ist 'regulatorische Sandbox-Erweiterung' in reifer KI-Governance?",
+          nl: "Wat is 'regulatoire sandbox extensie' in volwassen AI governance?"
+        },
+        options: [
+          { en: "Graduating successful sandbox experiments into broader regulatory frameworks with learned adjustments", es: "Graduar experimentos exitosos de sandbox en marcos regulatorios mas amplios con ajustes aprendidos", de: "Erfolgreiche Sandbox-Experimente in breitere regulatorische Rahmenwerke mit gelernten Anpassungen ueberfuehren", nl: "Succesvolle sandbox experimenten laten afstuderen naar bredere regulatoire kaders met geleerde aanpassingen" },
+          { en: "Making sandboxes physically larger for more AI hardware", es: "Hacer sandboxes fisicamente mas grandes para mas hardware de IA", de: "Sandboxes physisch groesser machen fuer mehr KI-Hardware", nl: "Sandboxes fysiek groter maken voor meer AI hardware" },
+          { en: "Extending sandbox testing periods indefinitely", es: "Extender periodos de prueba de sandbox indefinidamente", de: "Sandbox-Testzeitraeume unbegrenzt verlaengern", nl: "Sandbox testperiodes onbepaald verlengen" },
+          { en: "Adding more countries to sandbox programs", es: "Anadir mas paises a programas de sandbox", de: "Mehr Laender zu Sandbox-Programmen hinzufuegen", nl: "Meer landen toevoegen aan sandbox programma's" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Regulatory sandbox extension transforms lessons learned from controlled experiments into permanent regulatory provisions, incorporating insights about what works into mainstream governance while phasing out experimental status.",
+          es: "La extension de sandbox regulatorio transforma lecciones aprendidas de experimentos controlados en provisiones regulatorias permanentes, incorporando perspectivas sobre lo que funciona en gobernanza convencional mientras elimina gradualmente el estado experimental.",
+          de: "Regulatorische Sandbox-Erweiterung transformiert aus kontrollierten Experimenten gelernte Lektionen in permanente regulatorische Bestimmungen, wobei Erkenntnisse darueber was funktioniert in Mainstream-Governance einbezogen werden waehrend der experimentelle Status ausläuft.",
+          nl: "Regulatoire sandbox extensie transformeert geleerde lessen uit gecontroleerde experimenten naar permanente regulatoire bepalingen, waarbij inzichten over wat werkt worden opgenomen in mainstream governance terwijl experimentele status wordt uitgefaseerd."
+        }
+      },
+      {
+        question: {
+          en: "What is 'outcome-based regulation' versus 'process-based regulation' for AI?",
+          es: "Que es 'regulacion basada en resultados' versus 'regulacion basada en procesos' para IA?",
+          de: "Was ist 'ergebnisbasierte Regulierung' versus 'prozessbasierte Regulierung' fuer KI?",
+          nl: "Wat is 'uitkomst-gebaseerde regulering' versus 'proces-gebaseerde regulering' voor AI?"
+        },
+        options: [
+          { en: "Outcome-based focuses on achieving safety goals; process-based mandates specific development procedures", es: "Basada en resultados se enfoca en lograr objetivos de seguridad; basada en procesos exige procedimientos de desarrollo especificos", de: "Ergebnisbasiert fokussiert auf Sicherheitsziele; prozessbasiert verlangt spezifische Entwicklungsverfahren", nl: "Uitkomst-gebaseerd richt zich op veiligheidsdoelen bereiken; proces-gebaseerd vereist specifieke ontwikkelingsprocedures" },
+          { en: "Both approaches are identical in practice", es: "Ambos enfoques son identicos en la practica", de: "Beide Ansaetze sind in der Praxis identisch", nl: "Beide benaderingen zijn identiek in de praktijk" },
+          { en: "Outcome-based is for large companies; process-based is for startups", es: "Basada en resultados es para grandes empresas; basada en procesos es para startups", de: "Ergebnisbasiert ist fuer grosse Unternehmen; prozessbasiert ist fuer Startups", nl: "Uitkomst-gebaseerd is voor grote bedrijven; proces-gebaseerd is voor startups" },
+          { en: "Outcome-based measures only financial results", es: "Basada en resultados mide solo resultados financieros", de: "Ergebnisbasiert misst nur finanzielle Ergebnisse", nl: "Uitkomst-gebaseerd meet alleen financiële resultaten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Outcome-based regulation sets performance objectives (e.g., fairness metrics) allowing organizations flexibility in how they achieve them, while process-based regulation prescribes specific methods (e.g., mandatory audits) organizations must follow.",
+          es: "La regulacion basada en resultados establece objetivos de rendimiento (ej. metricas de equidad) permitiendo flexibilidad organizacional en como lograrlos, mientras regulacion basada en procesos prescribe metodos especificos (ej. auditorias obligatorias) que organizaciones deben seguir.",
+          de: "Ergebnisbasierte Regulierung setzt Leistungsziele (z.B. Fairness-Metriken) wobei Organisationen Flexibilitaet erhalten wie sie diese erreichen, waehrend prozessbasierte Regulierung spezifische Methoden (z.B. obligatorische Audits) vorschreibt die Organisationen befolgen muessen.",
+          nl: "Uitkomst-gebaseerde regulering stelt prestatie doelstellingen vast (bijv. eerlijkheidsmetrieken) wat organisaties flexibiliteit biedt in hoe ze deze bereiken, terwijl proces-gebaseerde regulering specifieke methoden voorschrijft (bijv. verplichte audits) die organisaties moeten volgen."
+        }
       }
     ]
   };

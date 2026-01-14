@@ -1606,6 +1606,47 @@
         de: "Es gibt 6 'N'-Steine in einem Standard-Scrabble-Spiel, jeder ist 1 Punkt wert. 'N' ist ein häufiger Konsonant im Englischen.",
         nl: "Er zijn 6 'N'-stenen in een standaard Scrabble-set, elk 1 punt waard. 'N' is een veel voorkomende medeklinker in het Engels."
       }
+    },
+    {
+      question: {
+        en: "What is 'rack management' in Scrabble strategy?",
+        es: "¿Qué es la 'gestión de rack' en la estrategia de Scrabble?",
+        de: "Was ist 'Rack-Management' in der Scrabble-Strategie?",
+        nl: "Wat is 'rek beheer' in Scrabble strategie?"
+      },
+      options: [
+        {
+          en: "Keeping a balanced mix of vowels and consonants for future plays",
+          es: "Mantener una mezcla equilibrada de vocales y consonantes para jugadas futuras",
+          de: "Eine ausgewogene Mischung aus Vokalen und Konsonanten für zukünftige Züge beibehalten",
+          nl: "Een evenwichtige mix van klinkers en medeklinkers houden voor toekomstige zetten"
+        },
+        {
+          en: "Organizing tiles alphabetically",
+          es: "Organizar fichas alfabéticamente",
+          de: "Steine alphabetisch anordnen",
+          nl: "Stenen alfabetisch ordenen"
+        },
+        {
+          en: "Keeping highest point tiles",
+          es: "Mantener fichas de mayor puntuación",
+          de: "Höchste Punkt-Steine behalten",
+          nl: "Hoogste punt stenen houden"
+        },
+        {
+          en: "Storing extra tiles safely",
+          es: "Almacenar fichas extra de forma segura",
+          de: "Extra Steine sicher lagern",
+          nl: "Extra stenen veilig opslaan"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Rack management means maintaining a good balance of tiles (vowels and consonants) that work well together, not just playing the highest-scoring word each turn.",
+        es: "La gestión de rack significa mantener un buen equilibrio de fichas (vocales y consonantes) que funcionan bien juntas, no solo jugar la palabra de mayor puntuación en cada turno.",
+        de: "Rack-Management bedeutet ein gutes Gleichgewicht von Steinen (Vokale und Konsonanten) zu erhalten, die gut zusammenarbeiten, nicht nur jedes Mal das höchstpunktierende Wort zu spielen.",
+        nl: "Rek beheer betekent een goed evenwicht van stenen (klinkers en medeklinkers) behouden die goed samenwerken, niet alleen het hoogst scorende woord elke beurt spelen."
+      }
     }
   ]
 };

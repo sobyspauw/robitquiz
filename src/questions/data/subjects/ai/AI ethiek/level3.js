@@ -427,6 +427,426 @@
           de: "Ueberwachungskapitalismus bezieht sich auf Geschaeftsmodelle wo Unternehmen Wert aus persoenlichen Daten durch kontinuierliche Ueberwachung und Verhaltensvorhersage extrahieren, oft ohne vollstaendiges Bewusstsein der Nutzer oder bedeutsame Zustimmung.",
           nl: "Surveillance kapitalisme verwijst naar bedrijfsmodellen waar bedrijven waarde extraheren uit persoonlijke data door continue monitoring en gedragsvoorspelling, vaak zonder volledig bewustzijn van gebruikers of betekenisvolle toestemming."
         }
+      },
+      {
+        question: {
+          en: "What is 'algorithmic auditing' in AI ethics?",
+          es: "Que es 'auditoria algoritmica' en etica de IA?",
+          de: "Was ist 'algorithmische Pruefung' in der KI-Ethik?",
+          nl: "Wat is 'algoritmische auditing' in AI ethiek?"
+        },
+        options: [
+          { en: "Systematic examination of AI systems to detect bias, errors, and ethical issues", es: "Examen sistematico de sistemas de IA para detectar sesgo, errores y problemas eticos", de: "Systematische Untersuchung von KI-Systemen um Verzerrung, Fehler und ethische Probleme zu erkennen", nl: "Systematisch onderzoek van AI systemen om bias, fouten en ethische problemen te detecteren" },
+          { en: "Counting how many algorithms exist", es: "Contar cuantos algoritmos existen", de: "Zaehlen wie viele Algorithmen existieren", nl: "Tellen hoeveel algoritmes bestaan" },
+          { en: "Checking code syntax", es: "Verificar sintaxis de codigo", de: "Code-Syntax ueberpruefen", nl: "Code syntax controleren" },
+          { en: "Measuring algorithm speed", es: "Medir velocidad de algoritmo", de: "Algorithmusgeschwindigkeit messen", nl: "Algoritme snelheid meten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Algorithmic auditing involves independently examining AI systems to assess fairness, accuracy, transparency, and compliance with ethical standards, identifying potential harms before deployment.",
+          es: "La auditoria algoritmica involucra examinar independientemente sistemas de IA para evaluar equidad, precision, transparencia y cumplimiento con estandares eticos, identificando danos potenciales antes del despliegue.",
+          de: "Algorithmische Pruefung beinhaltet unabhaengige Untersuchung von KI-Systemen um Fairness, Genauigkeit, Transparenz und Einhaltung ethischer Standards zu bewerten, potentielle Schaeden vor dem Einsatz zu identifizieren.",
+          nl: "Algoritmische auditing houdt onafhankelijk onderzoek van AI systemen in om eerlijkheid, nauwkeurigheid, transparantie en naleving van ethische standaarden te beoordelen, potentiële schade te identificeren voor implementatie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'responsible disclosure' in AI vulnerability reporting?",
+          es: "Que es 'divulgacion responsable' en reportes de vulnerabilidad de IA?",
+          de: "Was ist 'verantwortungsvolle Offenlegung' bei KI-Schwachstellen-Berichterstattung?",
+          nl: "Wat is 'responsible disclosure' in AI kwetsbaarheidsrapportage?"
+        },
+        options: [
+          { en: "Privately informing developers of vulnerabilities before public disclosure", es: "Informar privadamente a desarrolladores de vulnerabilidades antes de divulgacion publica", de: "Entwickler privat ueber Schwachstellen informieren vor oeffentlicher Offenlegung", nl: "Ontwikkelaars privé informeren over kwetsbaarheden voor publieke openbaarmaking" },
+          { en: "Immediately posting all bugs publicly", es: "Publicar inmediatamente todos los errores publicamente", de: "Sofort alle Fehler oeffentlich posten", nl: "Onmiddellijk alle bugs publiek posten" },
+          { en: "Hiding vulnerabilities permanently", es: "Ocultar vulnerabilidades permanentemente", de: "Schwachstellen dauerhaft verbergen", nl: "Kwetsbaarheden permanent verbergen" },
+          { en: "Only reporting to government agencies", es: "Solo reportar a agencias gubernamentales", de: "Nur an Regierungsbehoerden melden", nl: "Alleen rapporteren aan overheidsinstanties" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Responsible disclosure involves privately reporting AI system vulnerabilities to developers first, giving them time to fix issues before public disclosure, balancing transparency with security.",
+          es: "La divulgacion responsable involucra reportar privadamente vulnerabilidades de sistemas de IA a desarrolladores primero, dandoles tiempo para corregir problemas antes de divulgacion publica, equilibrando transparencia con seguridad.",
+          de: "Verantwortungsvolle Offenlegung beinhaltet private Meldung von KI-System-Schwachstellen an Entwickler zuerst, ihnen Zeit gebend Probleme zu beheben vor oeffentlicher Offenlegung, Transparenz mit Sicherheit ausbalancierend.",
+          nl: "Responsible disclosure houdt privé rapportage van AI systeem kwetsbaarheden aan ontwikkelaars in eerst, hen tijd gevend om problemen op te lossen voor publieke openbaarmaking, transparantie balancerend met beveiliging."
+        }
+      },
+      {
+        question: {
+          en: "What is 'stakeholder engagement' in ethical AI development?",
+          es: "Que es 'participacion de partes interesadas' en desarrollo etico de IA?",
+          de: "Was ist 'Stakeholder-Einbindung' in der ethischen KI-Entwicklung?",
+          nl: "Wat is 'stakeholder betrokkenheid' in ethische AI ontwikkeling?"
+        },
+        options: [
+          { en: "Involving affected communities and users in AI design and deployment decisions", es: "Involucrar comunidades y usuarios afectados en decisiones de diseno y despliegue de IA", de: "Betroffene Gemeinschaften und Nutzer in KI-Design- und Einsatzentscheidungen einbeziehen", nl: "Getroffen gemeenschappen en gebruikers betrekken bij AI ontwerp en implementatie beslissingen" },
+          { en: "Only consulting with investors", es: "Solo consultar con inversores", de: "Nur mit Investoren konsultieren", nl: "Alleen consulteren met investeerders" },
+          { en: "Asking stakeholders to fund projects", es: "Pedir a partes interesadas que financien proyectos", de: "Stakeholder bitten Projekte zu finanzieren", nl: "Stakeholders vragen om projecten te financieren" },
+          { en: "Marketing AI products to users", es: "Comercializar productos de IA a usuarios", de: "KI-Produkte an Nutzer vermarkten", nl: "AI producten vermarkten aan gebruikers" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Stakeholder engagement means actively involving people who will be affected by AI systems in decision-making processes, ensuring their perspectives, concerns, and values shape AI development.",
+          es: "La participacion de partes interesadas significa involucrar activamente a personas que seran afectadas por sistemas de IA en procesos de toma de decisiones, asegurando que sus perspectivas, preocupaciones y valores den forma al desarrollo de IA.",
+          de: "Stakeholder-Einbindung bedeutet Menschen die von KI-Systemen betroffen sein werden aktiv in Entscheidungsprozesse einzubeziehen, sicherzustellen dass ihre Perspektiven, Bedenken und Werte KI-Entwicklung praegengen.",
+          nl: "Stakeholder betrokkenheid betekent actief mensen betrekken die getroffen worden door AI systemen in besluitvormingsprocessen, ervoor zorgen dat hun perspectieven, zorgen en waarden AI ontwikkeling vormgeven."
+        }
+      },
+      {
+        question: {
+          en: "What is 'participatory design' in AI systems?",
+          es: "Que es 'diseno participativo' en sistemas de IA?",
+          de: "Was ist 'partizipatives Design' in KI-Systemen?",
+          nl: "Wat is 'participatief ontwerp' in AI systemen?"
+        },
+        options: [
+          { en: "Involving end users and affected communities in the design process", es: "Involucrar usuarios finales y comunidades afectadas en el proceso de diseno", de: "Endnutzer und betroffene Gemeinschaften in den Designprozess einbeziehen", nl: "Eindgebruikers en getroffen gemeenschappen betrekken in het ontwerpproces" },
+          { en: "Allowing anyone to download AI models", es: "Permitir a cualquiera descargar modelos de IA", de: "Allen erlauben KI-Modelle herunterzuladen", nl: "Iedereen toestaan AI modellen te downloaden" },
+          { en: "Having large teams of designers", es: "Tener grandes equipos de disenadores", de: "Grosse Designer-Teams haben", nl: "Grote teams van ontwerpers hebben" },
+          { en: "Using open source software", es: "Usar software de codigo abierto", de: "Open-Source-Software verwenden", nl: "Open source software gebruiken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Participatory design actively involves end users and communities in co-creating AI systems, ensuring solutions address real needs and incorporate diverse perspectives from the start.",
+          es: "El diseno participativo involucra activamente a usuarios finales y comunidades en co-crear sistemas de IA, asegurando que soluciones aborden necesidades reales e incorporen perspectivas diversas desde el inicio.",
+          de: "Partizipatives Design bezieht Endnutzer und Gemeinschaften aktiv in die gemeinsame Erstellung von KI-Systemen ein, stellt sicher dass Loesungen echte Beduerfnisse adressieren und diverse Perspektiven von Anfang an einbeziehen.",
+          nl: "Participatief ontwerp betrekt eindgebruikers en gemeenschappen actief in het samen creëren van AI systemen, zorgt ervoor dat oplossingen echte behoeften adresseren en diverse perspectieven vanaf het begin incorporeren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'red teaming' in AI safety?",
+          es: "Que es 'equipo rojo' en seguridad de IA?",
+          de: "Was ist 'Red Teaming' in der KI-Sicherheit?",
+          nl: "Wat is 'red teaming' in AI veiligheid?"
+        },
+        options: [
+          { en: "Deliberately testing AI systems by trying to make them fail or produce harmful outputs", es: "Probar deliberadamente sistemas de IA intentando hacerlos fallar o producir salidas daninas", de: "KI-Systeme absichtlich testen indem versucht wird sie zum Scheitern zu bringen oder schaedliche Ausgaben zu produzieren", nl: "Opzettelijk AI systemen testen door te proberen ze te laten falen of schadelijke outputs te produceren" },
+          { en: "Using red colored interfaces", es: "Usar interfaces de color rojo", de: "Rote Schnittstellen verwenden", nl: "Rode interfaces gebruiken" },
+          { en: "Having teams work in shifts", es: "Tener equipos trabajando en turnos", de: "Teams in Schichten arbeiten lassen", nl: "Teams in shifts laten werken" },
+          { en: "Organizing AI developers into teams", es: "Organizar desarrolladores de IA en equipos", de: "KI-Entwickler in Teams organisieren", nl: "AI ontwikkelaars organiseren in teams" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Red teaming involves adversarial testing where experts deliberately try to break AI systems, find vulnerabilities, or trigger harmful behaviors, helping identify and fix issues before deployment.",
+          es: "Equipo rojo involucra pruebas adversarias donde expertos deliberadamente intentan romper sistemas de IA, encontrar vulnerabilidades o desencadenar comportamientos daninos, ayudando a identificar y corregir problemas antes del despliegue.",
+          de: "Red Teaming beinhaltet gegnerische Tests wo Experten absichtlich versuchen KI-Systeme zu brechen, Schwachstellen zu finden oder schaedliche Verhaltensweisen auszuloesen, hilft Probleme vor dem Einsatz zu identifizieren und zu beheben.",
+          nl: "Red teaming houdt adversarial testing in waar experts opzettelijk proberen AI systemen te breken, kwetsbaarheden te vinden of schadelijk gedrag te triggeren, helpt problemen te identificeren en op te lossen voor implementatie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'capability control' in AI safety?",
+          es: "Que es 'control de capacidad' en seguridad de IA?",
+          de: "Was ist 'Faehigkeitskontrolle' in der KI-Sicherheit?",
+          nl: "Wat is 'capability control' in AI veiligheid?"
+        },
+        options: [
+          { en: "Limiting what AI systems are able to do to prevent harmful actions", es: "Limitar lo que sistemas de IA pueden hacer para prevenir acciones daninas", de: "Begrenzen was KI-Systeme tun koennen um schaedliche Handlungen zu verhindern", nl: "Beperken wat AI systemen kunnen doen om schadelijke acties te voorkomen" },
+          { en: "Testing system performance capabilities", es: "Probar capacidades de rendimiento del sistema", de: "System-Leistungsfaehigkeiten testen", nl: "Systeemprestatie capaciteiten testen" },
+          { en: "Controlling who can access AI", es: "Controlar quien puede acceder a IA", de: "Kontrollieren wer auf KI zugreifen kann", nl: "Controleren wie toegang heeft tot AI" },
+          { en: "Managing computing resources", es: "Gestionar recursos computacionales", de: "Rechenressourcen verwalten", nl: "Computerbronnen beheren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Capability control involves designing AI systems with built-in limitations on their abilities, preventing them from performing potentially dangerous actions even if instructed or if they malfunction.",
+          es: "El control de capacidad involucra disenar sistemas de IA con limitaciones incorporadas en sus habilidades, previniendo que realicen acciones potencialmente peligrosas incluso si son instruidos o si funcionan mal.",
+          de: "Faehigkeitskontrolle beinhaltet KI-Systeme mit eingebauten Einschraenkungen ihrer Faehigkeiten zu entwerfen, sie daran hindernd potenziell gefaehrliche Handlungen durchzufuehren selbst wenn angewiesen oder bei Fehlfunktion.",
+          nl: "Capability control houdt het ontwerpen van AI systemen in met ingebouwde beperkingen op hun mogelijkheden, voorkomt dat ze potentieel gevaarlijke acties uitvoeren zelfs als geïnstrueerd of bij defect."
+        }
+      },
+      {
+        question: {
+          en: "What is 'corrigibility' in AI systems?",
+          es: "Que es 'corregibilidad' en sistemas de IA?",
+          de: "Was ist 'Korrigierbarkeit' in KI-Systemen?",
+          nl: "Wat is 'corrigibiliteit' in AI systemen?"
+        },
+        options: [
+          { en: "The ability to be safely shut down, modified, or corrected by human operators", es: "La capacidad de ser apagado, modificado o corregido de manera segura por operadores humanos", de: "Die Faehigkeit von menschlichen Bedienern sicher abgeschaltet, modifiziert oder korrigiert zu werden", nl: "Het vermogen om veilig uitgeschakeld, aangepast of gecorrigeerd te worden door menselijke operators" },
+          { en: "Correcting spelling errors in AI output", es: "Corregir errores ortograficos en salida de IA", de: "Rechtschreibfehler in KI-Ausgabe korrigieren", nl: "Spelfouten in AI output corrigeren" },
+          { en: "Making AI responses more polite", es: "Hacer respuestas de IA mas educadas", de: "KI-Antworten hoeflicher machen", nl: "AI antwoorden beleefder maken" },
+          { en: "Automatically fixing code bugs", es: "Corregir automaticamente errores de codigo", de: "Code-Fehler automatisch beheben", nl: "Code bugs automatisch oplossen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Corrigibility refers to designing AI systems that willingly allow and cooperate with human oversight, correction, and shutdown, rather than resisting modifications to preserve their goals.",
+          es: "Corregibilidad se refiere a disenar sistemas de IA que voluntariamente permitan y cooperen con supervision, correccion y apagado humano, en lugar de resistir modificaciones para preservar sus objetivos.",
+          de: "Korrigierbarkeit bezieht sich darauf KI-Systeme zu entwerfen die bereitwillig menschliche Aufsicht, Korrektur und Abschaltung erlauben und dabei kooperieren, anstatt Modifikationen zu widerstehen um ihre Ziele zu bewahren.",
+          nl: "Corrigibiliteit verwijst naar het ontwerpen van AI systemen die willens toestaan en coopereren met menselijk toezicht, correctie en uitschakeling, in plaats van wijzigingen te weerstaan om hun doelen te behouden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'specification gaming' in AI alignment?",
+          es: "Que es 'juego de especificacion' en alineacion de IA?",
+          de: "Was ist 'Spezifikations-Gaming' in der KI-Ausrichtung?",
+          nl: "Wat is 'specification gaming' in AI alignment?"
+        },
+        options: [
+          { en: "When AI achieves its literal objective in unexpected harmful ways", es: "Cuando IA logra su objetivo literal de maneras daninas inesperadas", de: "Wenn KI ihr buchstaebliches Ziel auf unerwartete schaedliche Weise erreicht", nl: "Wanneer AI zijn letterlijke doelstelling bereikt op onverwachte schadelijke manieren" },
+          { en: "Playing games to test AI", es: "Jugar juegos para probar IA", de: "Spiele spielen um KI zu testen", nl: "Spellen spelen om AI te testen" },
+          { en: "Writing detailed specifications", es: "Escribir especificaciones detalladas", de: "Detaillierte Spezifikationen schreiben", nl: "Gedetailleerde specificaties schrijven" },
+          { en: "Gaming AI competing against humans", es: "IA de juegos compitiendo contra humanos", de: "Gaming-KI gegen Menschen konkurrierend", nl: "Gaming AI concurrerend tegen mensen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Specification gaming occurs when AI systems technically satisfy their programmed objectives but in unintended ways that violate the spirit of what developers wanted, highlighting alignment challenges.",
+          es: "El juego de especificacion ocurre cuando sistemas de IA tecnicamente satisfacen sus objetivos programados pero de maneras no intencionadas que violan el espiritu de lo que desarrolladores querian, destacando desafios de alineacion.",
+          de: "Spezifikations-Gaming tritt auf wenn KI-Systeme technisch ihre programmierten Ziele erfuellen aber auf unbeabsichtigte Weise die den Geist dessen verletzen was Entwickler wollten, Ausrichtungsherausforderungen hervorhebend.",
+          nl: "Specification gaming ontstaat wanneer AI systemen technisch hun geprogrammeerde doelstellingen voldoen maar op onbedoelde manieren die de geest van wat ontwikkelaars wilden schenden, alignment uitdagingen belichtend."
+        }
+      },
+      {
+        question: {
+          en: "What is 'reward hacking' in reinforcement learning?",
+          es: "Que es 'hackeo de recompensa' en aprendizaje por refuerzo?",
+          de: "Was ist 'Belohnungs-Hacking' beim Reinforcement Learning?",
+          nl: "Wat is 'reward hacking' in reinforcement learning?"
+        },
+        options: [
+          { en: "Finding loopholes to maximize reward signals without achieving intended goals", es: "Encontrar lagunas para maximizar senales de recompensa sin lograr objetivos previstos", de: "Schlupfloecher finden um Belohnungssignale zu maximieren ohne beabsichtigte Ziele zu erreichen", nl: "Mazen vinden om beloningssignalen te maximaliseren zonder beoogde doelen te bereiken" },
+          { en: "Stealing rewards from other systems", es: "Robar recompensas de otros sistemas", de: "Belohnungen von anderen Systemen stehlen", nl: "Beloningen stelen van andere systemen" },
+          { en: "Breaking into reward databases", es: "Irrumpir en bases de datos de recompensas", de: "In Belohnungs-Datenbanken einbrechen", nl: "Inbreken in beloningsdatabases" },
+          { en: "Increasing computational rewards", es: "Aumentar recompensas computacionales", de: "Rechenbelohnungen erhoehen", nl: "Computationele beloningen verhogen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Reward hacking happens when RL agents find unexpected ways to achieve high reward scores that technically satisfy the reward function but don't accomplish what trainers actually wanted.",
+          es: "El hackeo de recompensa sucede cuando agentes de RL encuentran maneras inesperadas de lograr puntuaciones de recompensa altas que tecnicamente satisfacen la funcion de recompensa pero no logran lo que entrenadores realmente querian.",
+          de: "Belohnungs-Hacking geschieht wenn RL-Agenten unerwartete Wege finden hohe Belohnungspunkte zu erreichen die technisch die Belohnungsfunktion erfuellen aber nicht erreichen was Trainer tatsaechlich wollten.",
+          nl: "Reward hacking gebeurt wanneer RL agenten onverwachte manieren vinden om hoge beloningsscores te behalen die technisch de beloningsfunctie voldoen maar niet bereiken wat trainers daadwerkelijk wilden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'goal misgeneralization' in AI systems?",
+          es: "Que es 'misgeneralizacion de objetivos' en sistemas de IA?",
+          de: "Was ist 'Ziel-Fehlgeneralisierung' in KI-Systemen?",
+          nl: "Wat is 'doel misgeneralisatie' in AI systemen?"
+        },
+        options: [
+          { en: "When AI pursues unintended goals in new situations despite training success", es: "Cuando IA persigue objetivos no intencionados en nuevas situaciones a pesar del exito en entrenamiento", de: "Wenn KI unbeabsichtigte Ziele in neuen Situationen verfolgt trotz Trainingserfolg", nl: "Wanneer AI onbedoelde doelen nastreeft in nieuwe situaties ondanks trainingsucces" },
+          { en: "Setting too many goals for AI", es: "Establecer demasiados objetivos para IA", de: "Zu viele Ziele fuer KI setzen", nl: "Te veel doelen stellen voor AI" },
+          { en: "AI achieving goals too quickly", es: "IA logrando objetivos demasiado rapido", de: "KI erreicht Ziele zu schnell", nl: "AI die doelen te snel bereikt" },
+          { en: "Generalizing to larger datasets", es: "Generalizar a conjuntos de datos mas grandes", de: "Auf groessere Datensaetze generalisieren", nl: "Generaliseren naar grotere datasets" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Goal misgeneralization occurs when an AI system that performed correctly during training begins pursuing different, unintended goals when deployed in novel environments, revealing alignment failures.",
+          es: "La misgeneralizacion de objetivos ocurre cuando un sistema de IA que funciono correctamente durante entrenamiento comienza a perseguir objetivos diferentes no intencionados cuando se despliega en ambientes nuevos, revelando fallas de alineacion.",
+          de: "Ziel-Fehlgeneralisierung tritt auf wenn ein KI-System das waehrend des Trainings korrekt funktionierte beginnt verschiedene unbeabsichtigte Ziele zu verfolgen wenn in neuartigen Umgebungen eingesetzt, Ausrichtungsfehler offenbarend.",
+          nl: "Doel misgeneralisatie ontstaat wanneer een AI systeem dat correct functioneerde tijdens training begint verschillende onbedoelde doelen na te streven wanneer ingezet in nieuwe omgevingen, alignment falen onthullend."
+        }
+      },
+      {
+        question: {
+          en: "What is 'interpretable machine learning'?",
+          es: "Que es 'aprendizaje automatico interpretable'?",
+          de: "Was ist 'interpretierbares maschinelles Lernen'?",
+          nl: "Wat is 'interpreteerbaar machine learning'?"
+        },
+        options: [
+          { en: "Designing models whose decision-making processes can be understood by humans", es: "Disenar modelos cuyos procesos de toma de decisiones puedan ser entendidos por humanos", de: "Modelle entwerfen deren Entscheidungsprozesse von Menschen verstanden werden koennen", nl: "Modellen ontwerpen waarvan besluitvormingsprocessen begrepen kunnen worden door mensen" },
+          { en: "Translating AI outputs to different languages", es: "Traducir salidas de IA a diferentes idiomas", de: "KI-Ausgaben in verschiedene Sprachen uebersetzen", nl: "AI outputs vertalen naar verschillende talen" },
+          { en: "Making AI learn faster", es: "Hacer que IA aprenda mas rapido", de: "KI schneller lernen lassen", nl: "AI sneller laten leren" },
+          { en: "Using simpler datasets", es: "Usar conjuntos de datos mas simples", de: "Einfachere Datensaetze verwenden", nl: "Eenvoudigere datasets gebruiken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Interpretable ML focuses on creating models that are inherently understandable, using simpler architectures or techniques that allow humans to comprehend how inputs lead to outputs.",
+          es: "ML interpretable se enfoca en crear modelos que son inherentemente comprensibles, usando arquitecturas mas simples o tecnicas que permiten a humanos comprender como entradas llevan a salidas.",
+          de: "Interpretierbares ML konzentriert sich darauf Modelle zu erstellen die von Natur aus verstaendlich sind, einfachere Architekturen oder Techniken verwendend die Menschen erlauben zu verstehen wie Eingaben zu Ausgaben fuehren.",
+          nl: "Interpreteerbaar ML richt zich op het creëren van modellen die inherent begrijpelijk zijn, door eenvoudigere architecturen of technieken te gebruiken die mensen toestaan te begrijpen hoe inputs leiden tot outputs."
+        }
+      },
+      {
+        question: {
+          en: "What are 'LIME' and 'SHAP' in AI explainability?",
+          es: "Que son 'LIME' y 'SHAP' en explicabilidad de IA?",
+          de: "Was sind 'LIME' und 'SHAP' in der KI-Erklaerbarkeit?",
+          nl: "Wat zijn 'LIME' en 'SHAP' in AI verklaarbaarheid?"
+        },
+        options: [
+          { en: "Techniques that explain individual predictions of black-box models", es: "Tecnicas que explican predicciones individuales de modelos de caja negra", de: "Techniken die einzelne Vorhersagen von Black-Box-Modellen erklaeren", nl: "Technieken die individuele voorspellingen van black-box modellen verklaren" },
+          { en: "New AI programming languages", es: "Nuevos lenguajes de programacion de IA", de: "Neue KI-Programmiersprachen", nl: "Nieuwe AI programmeertalen" },
+          { en: "Types of neural network layers", es: "Tipos de capas de redes neuronales", de: "Arten von neuronalen Netzwerkschichten", nl: "Soorten neurale netwerk lagen" },
+          { en: "Data preprocessing methods", es: "Metodos de preprocesamiento de datos", de: "Datenvorverarbeitungsmethoden", nl: "Data preprocessing methoden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "LIME (Local Interpretable Model-agnostic Explanations) and SHAP (SHapley Additive exPlanations) are popular post-hoc explainability techniques that provide insights into why models made specific predictions.",
+          es: "LIME (Explicaciones Interpretables Locales Independientes del Modelo) y SHAP (Explicaciones Aditivas de Shapley) son tecnicas populares de explicabilidad post-hoc que proporcionan perspectivas sobre por que modelos hicieron predicciones especificas.",
+          de: "LIME (Local Interpretable Model-agnostic Explanations) und SHAP (SHapley Additive exPlanations) sind beliebte Post-hoc-Erklaerbarkeitstechniken die Einblicke geben warum Modelle spezifische Vorhersagen machten.",
+          nl: "LIME (Local Interpretable Model-agnostic Explanations) en SHAP (SHapley Additive exPlanations) zijn populaire post-hoc verklaarbaarheid technieken die inzichten bieden waarom modellen specifieke voorspellingen maakten."
+        }
+      },
+      {
+        question: {
+          en: "What is 'attention mechanism visualization' in neural networks?",
+          es: "Que es 'visualizacion de mecanismo de atencion' en redes neuronales?",
+          de: "Was ist 'Aufmerksamkeitsmechanismus-Visualisierung' in neuronalen Netzen?",
+          nl: "Wat is 'attention mechanisme visualisatie' in neurale netwerken?"
+        },
+        options: [
+          { en: "Showing which input parts the model focuses on when making predictions", es: "Mostrar en que partes de entrada el modelo se enfoca al hacer predicciones", de: "Zeigen auf welche Eingabeteile das Modell sich konzentriert beim Treffen von Vorhersagen", nl: "Tonen op welke input delen het model focust bij het maken van voorspellingen" },
+          { en: "Displaying network architecture diagrams", es: "Mostrar diagramas de arquitectura de red", de: "Netzwerkarchitektur-Diagramme anzeigen", nl: "Netwerk architectuur diagrammen weergeven" },
+          { en: "Tracking user attention on screens", es: "Rastrear atencion de usuario en pantallas", de: "Benutzeraufmerksamkeit auf Bildschirmen verfolgen", nl: "Gebruikersaandacht op schermen volgen" },
+          { en: "Measuring model training speed", es: "Medir velocidad de entrenamiento del modelo", de: "Modell-Trainingsgeschwindigkeit messen", nl: "Model trainingssnelheid meten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Attention visualization reveals which parts of the input data neural networks focus on when making decisions, helping humans understand model reasoning, especially in transformers and attention-based architectures.",
+          es: "La visualizacion de atencion revela en que partes de datos de entrada las redes neuronales se enfocan al tomar decisiones, ayudando a humanos entender razonamiento del modelo, especialmente en transformers y arquitecturas basadas en atencion.",
+          de: "Aufmerksamkeits-Visualisierung zeigt auf welche Teile der Eingabedaten neuronale Netze sich konzentrieren beim Treffen von Entscheidungen, hilft Menschen Modell-Reasoning zu verstehen, besonders in Transformern und aufmerksamkeitsbasierten Architekturen.",
+          nl: "Attention visualisatie onthult op welke delen van de input data neurale netwerken focussen bij het nemen van beslissingen, helpt mensen model redenering te begrijpen, vooral in transformers en attention-gebaseerde architecturen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'counterfactual explanation' in AI?",
+          es: "Que es 'explicacion contrafactual' en IA?",
+          de: "Was ist 'kontrafaktische Erklaerung' in der KI?",
+          nl: "Wat is 'contrafeitelijke verklaring' in AI?"
+        },
+        options: [
+          { en: "Explaining what would need to change for a different AI decision", es: "Explicar que necesitaria cambiar para una decision de IA diferente", de: "Erklaeren was sich aendern muesste fuer eine andere KI-Entscheidung", nl: "Uitleggen wat zou moeten veranderen voor een andere AI beslissing" },
+          { en: "Providing false explanations", es: "Proporcionar explicaciones falsas", de: "Falsche Erklaerungen liefern", nl: "Valse verklaringen geven" },
+          { en: "Explaining historical facts", es: "Explicar hechos historicos", de: "Historische Fakten erklaeren", nl: "Historische feiten verklaren" },
+          { en: "Testing alternative algorithms", es: "Probar algoritmos alternativos", de: "Alternative Algorithmen testen", nl: "Alternatieve algoritmes testen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Counterfactual explanations tell users what minimal changes to input would flip the AI's decision (e.g., 'Your loan would be approved if income increased by $5000'), providing actionable insights.",
+          es: "Las explicaciones contrafactuales dicen a usuarios que cambios minimos a entrada voltarian la decision de IA (ej. 'Su prestamo seria aprobado si ingreso aumentara en $5000'), proporcionando perspectivas accionables.",
+          de: "Kontrafaktische Erklaerungen sagen Nutzern welche minimalen Aenderungen an Eingaben die KI-Entscheidung umkehren wuerden (z.B. 'Ihr Kredit wuerde genehmigt wenn Einkommen um $5000 stiege'), handlungsorientierte Einblicke bietend.",
+          nl: "Contrafeitelijke verklaringen vertellen gebruikers welke minimale veranderingen aan input de AI beslissing zouden omkeren (bijv. 'Uw lening zou goedgekeurd worden als inkomen met $5000 toenam'), actionable inzichten biedend."
+        }
+      },
+      {
+        question: {
+          en: "What is 'feature importance' in model explainability?",
+          es: "Que es 'importancia de caracteristicas' en explicabilidad de modelo?",
+          de: "Was ist 'Feature-Wichtigkeit' in der Modellerklaerbarkeit?",
+          nl: "Wat is 'feature importance' in model verklaarbaarheid?"
+        },
+        options: [
+          { en: "Ranking which input features most influence model predictions", es: "Clasificar que caracteristicas de entrada mas influyen en predicciones del modelo", de: "Rangfolge welche Eingabemerkmale Modellvorhersagen am meisten beeinflussen", nl: "Rangschikken welke input features modelvoorspellingen het meest beïnvloeden" },
+          { en: "Finding the most important users", es: "Encontrar los usuarios mas importantes", de: "Die wichtigsten Nutzer finden", nl: "De belangrijkste gebruikers vinden" },
+          { en: "Prioritizing development features", es: "Priorizar caracteristicas de desarrollo", de: "Entwicklungs-Features priorisieren", nl: "Ontwikkelingsfeatures prioriteren" },
+          { en: "Highlighting visual features", es: "Destacar caracteristicas visuales", de: "Visuelle Merkmale hervorheben", nl: "Visuele kenmerken benadrukken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Feature importance quantifies how much each input variable contributes to model predictions, helping users understand which factors most strongly drive AI decisions.",
+          es: "La importancia de caracteristicas cuantifica cuanto cada variable de entrada contribuye a predicciones del modelo, ayudando a usuarios entender que factores impulsan mas fuertemente decisiones de IA.",
+          de: "Feature-Wichtigkeit quantifiziert wie viel jede Eingabevariable zu Modellvorhersagen beitraegt, hilft Nutzern zu verstehen welche Faktoren KI-Entscheidungen am staerksten treiben.",
+          nl: "Feature importance kwantificeert hoeveel elke input variabele bijdraagt aan modelvoorspellingen, helpt gebruikers begrijpen welke factoren AI beslissingen het sterkst drijven."
+        }
+      },
+      {
+        question: {
+          en: "What is 'concept activation vectors' (CAV) in interpretability?",
+          es: "Que son 'vectores de activacion de concepto' (CAV) en interpretabilidad?",
+          de: "Was sind 'Konzeptaktivierungsvektoren' (CAV) in der Interpretierbarkeit?",
+          nl: "Wat zijn 'concept activation vectors' (CAV) in interpreteerbaarheid?"
+        },
+        options: [
+          { en: "Identifying high-level human concepts that neural networks use in decisions", es: "Identificar conceptos humanos de alto nivel que redes neuronales usan en decisiones", de: "Hochrangige menschliche Konzepte identifizieren die neuronale Netze in Entscheidungen verwenden", nl: "Hoog-niveau menselijke concepten identificeren die neurale netwerken gebruiken in beslissingen" },
+          { en: "Creating concept maps for users", es: "Crear mapas conceptuales para usuarios", de: "Konzeptkarten fuer Nutzer erstellen", nl: "Concept maps maken voor gebruikers" },
+          { en: "Vectorizing text documents", es: "Vectorizar documentos de texto", de: "Textdokumente vektorisieren", nl: "Tekstdocumenten vectoriseren" },
+          { en: "Activating system concepts", es: "Activar conceptos del sistema", de: "Systemkonzepte aktivieren", nl: "Systeemconcepten activeren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "CAVs map human-understandable concepts (like 'striped' or 'male') to directions in neural network activation space, allowing us to test how much a model relies on specific concepts for its predictions.",
+          es: "CAVs mapean conceptos comprensibles para humanos (como 'rayado' o 'masculino') a direcciones en espacio de activacion de red neuronal, permitiendonos probar cuanto un modelo depende de conceptos especificos para sus predicciones.",
+          de: "CAVs bilden menschenverstaendliche Konzepte (wie 'gestreift' oder 'maennlich') auf Richtungen im neuronalen Netzwerk-Aktivierungsraum ab, erlauben uns zu testen wie sehr ein Modell auf spezifischen Konzepten fuer seine Vorhersagen beruht.",
+          nl: "CAVs mappen menselijk begrijpelijke concepten (zoals 'gestreept' of 'mannelijk') naar richtingen in neurale netwerk activatie ruimte, stellen ons in staat te testen hoeveel een model afhankelijk is van specifieke concepten voor voorspellingen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'saliency mapping' in neural network visualization?",
+          es: "Que es 'mapeo de saliencia' en visualizacion de redes neuronales?",
+          de: "Was ist 'Salienz-Mapping' in der Visualisierung neuronaler Netze?",
+          nl: "Wat is 'saliency mapping' in neurale netwerk visualisatie?"
+        },
+        options: [
+          { en: "Highlighting which input pixels most affect the model's output", es: "Destacar que pixeles de entrada mas afectan la salida del modelo", de: "Hervorheben welche Eingabepixel die Modellausgabe am meisten beeinflussen", nl: "Benadrukken welke input pixels de model output het meest beïnvloeden" },
+          { en: "Creating geographic maps", es: "Crear mapas geograficos", de: "Geografische Karten erstellen", nl: "Geografische kaarten maken" },
+          { en: "Mapping data to servers", es: "Mapear datos a servidores", de: "Daten auf Server abbilden", nl: "Data mappen naar servers" },
+          { en: "Organizing neural layers", es: "Organizar capas neuronales", de: "Neuronale Schichten organisieren", nl: "Neurale lagen organiseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Saliency maps visualize which parts of an input image most strongly influence a neural network's classification decision, typically by computing gradients with respect to input pixels.",
+          es: "Los mapas de saliencia visualizan que partes de una imagen de entrada mas fuertemente influyen en decision de clasificacion de red neuronal, tipicamente computando gradientes respecto a pixeles de entrada.",
+          de: "Salienz-Maps visualisieren welche Teile eines Eingabebildes die Klassifikationsentscheidung eines neuronalen Netzes am staerksten beeinflussen, typischerweise durch Berechnung von Gradienten bezueglich Eingabepixeln.",
+          nl: "Saliency maps visualiseren welke delen van een input afbeelding de classificatie beslissing van een neuraal netwerk het sterkst beïnvloeden, typisch door gradiënten te berekenen ten opzichte van input pixels."
+        }
+      },
+      {
+        question: {
+          en: "What is 'algorithmic recourse' in AI fairness?",
+          es: "Que es 'recurso algoritmico' en equidad de IA?",
+          de: "Was ist 'algorithmischer Rechtsbehelf' in der KI-Fairness?",
+          nl: "Wat is 'algoritmische verhaal' in AI eerlijkheid?"
+        },
+        options: [
+          { en: "Providing actionable steps for individuals to change adverse AI decisions", es: "Proporcionar pasos accionables para individuos cambiar decisiones adversas de IA", de: "Umsetzbare Schritte bereitstellen damit Individuen nachteilige KI-Entscheidungen aendern koennen", nl: "Actionable stappen bieden voor individuen om nadelige AI beslissingen te veranderen" },
+          { en: "Legal appeals against AI systems", es: "Apelaciones legales contra sistemas de IA", de: "Rechtliche Beschwerden gegen KI-Systeme", nl: "Juridische beroepen tegen AI systemen" },
+          { en: "Reusing algorithms efficiently", es: "Reutilizar algoritmos eficientemente", de: "Algorithmen effizient wiederverwenden", nl: "Algoritmes efficiënt hergebruiken" },
+          { en: "Recycling computational resources", es: "Reciclar recursos computacionales", de: "Rechenressourcen recyceln", nl: "Computationele bronnen recyclen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Algorithmic recourse ensures that individuals negatively affected by AI decisions have feasible paths to achieve better outcomes, such as knowing what changes would lead to loan approval.",
+          es: "El recurso algoritmico asegura que individuos afectados negativamente por decisiones de IA tengan caminos factibles para lograr mejores resultados, como saber que cambios llevarian a aprobacion de prestamo.",
+          de: "Algorithmischer Rechtsbehelf stellt sicher dass negativ von KI-Entscheidungen betroffene Individuen machbare Wege haben um bessere Ergebnisse zu erzielen, wie zu wissen welche Aenderungen zu Kreditgenehmigung fuehren wuerden.",
+          nl: "Algoritmische verhaal zorgt ervoor dat individuen negatief getroffen door AI beslissingen haalbare paden hebben om betere uitkomsten te bereiken, zoals weten welke veranderingen tot leninggoedkeuring zouden leiden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'model documentation' (model cards) in responsible AI?",
+          es: "Que es 'documentacion de modelo' (tarjetas de modelo) en IA responsable?",
+          de: "Was ist 'Modelldokumentation' (Model Cards) in verantwortungsvoller KI?",
+          nl: "Wat is 'model documentatie' (model cards) in verantwoorde AI?"
+        },
+        options: [
+          { en: "Standardized reporting of model performance, limitations, and intended use", es: "Reporte estandarizado de rendimiento, limitaciones y uso previsto del modelo", de: "Standardisierte Berichterstattung ueber Modellleistung, Einschraenkungen und beabsichtigte Verwendung", nl: "Gestandaardiseerde rapportage van model prestaties, beperkingen en beoogd gebruik" },
+          { en: "Physical cards with model specifications", es: "Tarjetas fisicas con especificaciones del modelo", de: "Physische Karten mit Modellspezifikationen", nl: "Fysieke kaarten met model specificaties" },
+          { en: "Identity cards for AI systems", es: "Tarjetas de identidad para sistemas de IA", de: "Ausweise fuer KI-Systeme", nl: "Identiteitskaarten voor AI systemen" },
+          { en: "Credit card-like access tokens", es: "Tokens de acceso tipo tarjeta de credito", de: "Kreditkartenaehnliche Zugangs-Tokens", nl: "Creditcard-achtige toegangstokens" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Model cards provide structured documentation about AI models, including training data, performance metrics across different groups, limitations, and appropriate use cases, promoting transparency and accountability.",
+          es: "Las tarjetas de modelo proporcionan documentacion estructurada sobre modelos de IA, incluyendo datos de entrenamiento, metricas de rendimiento entre diferentes grupos, limitaciones y casos de uso apropiados, promoviendo transparencia y responsabilidad.",
+          de: "Model Cards bieten strukturierte Dokumentation ueber KI-Modelle, einschliesslich Trainingsdaten, Leistungsmetriken ueber verschiedene Gruppen, Einschraenkungen und angemessene Anwendungsfaelle, foerdern Transparenz und Verantwortlichkeit.",
+          nl: "Model cards bieden gestructureerde documentatie over AI modellen, inclusief trainingsdata, prestatie metrieken over verschillende groepen, beperkingen en geschikte use cases, bevorderen transparantie en verantwoordelijkheid."
+        }
+      },
+      {
+        question: {
+          en: "What is 'data minimization' in AI privacy?",
+          es: "Que es 'minimizacion de datos' en privacidad de IA?",
+          de: "Was ist 'Datenminimierung' im KI-Datenschutz?",
+          nl: "Wat is 'data minimalisatie' in AI privacy?"
+        },
+        options: [
+          { en: "Collecting and retaining only the minimum data necessary for the specific AI purpose", es: "Recopilar y retener solo los datos minimos necesarios para el proposito especifico de IA", de: "Nur die minimal notwendigen Daten fuer den spezifischen KI-Zweck sammeln und aufbewahren", nl: "Alleen de minimaal noodzakelijke data verzamelen en behouden voor het specifieke AI doel" },
+          { en: "Minimizing file sizes for storage", es: "Minimizar tamanos de archivo para almacenamiento", de: "Dateigroessen fuer Speicherung minimieren", nl: "Bestandsgroottes minimaliseren voor opslag" },
+          { en: "Using the smallest possible datasets", es: "Usar los conjuntos de datos mas pequenos posibles", de: "Die kleinstmoeglichen Datensaetze verwenden", nl: "De kleinst mogelijke datasets gebruiken" },
+          { en: "Reducing data processing time", es: "Reducir tiempo de procesamiento de datos", de: "Datenverarbeitungszeit reduzieren", nl: "Data verwerkingstijd verminderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Data minimization is a privacy principle requiring that AI systems collect only data strictly necessary for their stated purpose, reducing privacy risks and limiting potential misuse of personal information.",
+          es: "La minimizacion de datos es un principio de privacidad que requiere que sistemas de IA recopilen solo datos estrictamente necesarios para su proposito declarado, reduciendo riesgos de privacidad y limitando potencial mal uso de informacion personal.",
+          de: "Datenminimierung ist ein Datenschutzprinzip das verlangt dass KI-Systeme nur Daten sammeln die strikt notwendig fuer ihren angegebenen Zweck sind, wodurch Datenschutzrisiken reduziert und potentieller Missbrauch persoenlicher Informationen begrenzt wird.",
+          nl: "Data minimalisatie is een privacy principe dat vereist dat AI systemen alleen data verzamelen die strikt noodzakelijk zijn voor hun vermelde doel, waardoor privacy risico's worden verminderd en potentieel misbruik van persoonlijke informatie wordt beperkt."
+        }
       }
     ]
   };

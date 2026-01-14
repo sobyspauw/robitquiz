@@ -427,6 +427,426 @@
           de: "Petra bietet spezielle Nachttouren an, bei denen der Weg durch den Siq zur Schatzkammer von Tausenden von Kerzen beleuchtet wird und eine magische Atmosphäre schafft.",
           nl: "Petra biedt speciale nachttours waarbij het pad door de Siq naar de Schatkamer wordt verlicht door duizenden kaarsen, wat een magische sfeer creëert."
         }
+      },
+      {
+        question: {
+          en: "What nationality was Johann Ludwig Burckhardt?",
+          es: "¿Qué nacionalidad tenía Johann Ludwig Burckhardt?",
+          de: "Welche Nationalität hatte Johann Ludwig Burckhardt?",
+          nl: "Welke nationaliteit had Johann Ludwig Burckhardt?"
+        },
+        options: [
+          { en: "German", es: "Alemán", de: "Deutsch", nl: "Duits" },
+          { en: "Swiss", es: "Suizo", de: "Schweizer", nl: "Zwitsers" },
+          { en: "Austrian", es: "Austriaco", de: "Österreichisch", nl: "Oostenrijks" },
+          { en: "British", es: "Británico", de: "Britisch", nl: "Brits" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Burckhardt was Swiss, born in Lausanne in 1784, and became one of the era's most important explorers of the Middle East.",
+          es: "Burckhardt era suizo, nacido en Lausana en 1784, y se convirtió en uno de los exploradores más importantes del Medio Oriente de la época.",
+          de: "Burckhardt war Schweizer, geboren in Lausanne 1784, und wurde einer der bedeutendsten Entdecker des Nahen Ostens seiner Zeit.",
+          nl: "Burckhardt was Zwitsers, geboren in Lausanne in 1784, en werd een van de belangrijkste ontdekkingsreizigers van het Midden-Oosten van zijn tijd."
+        }
+      },
+      {
+        question: {
+          en: "What year did Burckhardt reach Petra?",
+          es: "¿En qué año llegó Burckhardt a Petra?",
+          de: "In welchem Jahr erreichte Burckhardt Petra?",
+          nl: "In welk jaar bereikte Burckhardt Petra?"
+        },
+        options: [
+          { en: "1800", es: "1800", de: "1800", nl: "1800" },
+          { en: "1812", es: "1812", de: "1812", nl: "1812" },
+          { en: "1820", es: "1820", de: "1820", nl: "1820" },
+          { en: "1830", es: "1830", de: "1830", nl: "1830" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Burckhardt reached Petra on August 22, 1812, becoming the first Western explorer to document the ancient city.",
+          es: "Burckhardt llegó a Petra el 22 de agosto de 1812, convirtiéndose en el primer explorador occidental en documentar la ciudad antigua.",
+          de: "Burckhardt erreichte Petra am 22. August 1812 und wurde der erste westliche Entdecker, der die antike Stadt dokumentierte.",
+          nl: "Burckhardt bereikte Petra op 22 augustus 1812 en werd de eerste westerse ontdekkingsreiziger die de oude stad documenteerde."
+        }
+      },
+      {
+        question: {
+          en: "What was the peak population of ancient Petra?",
+          es: "¿Cuál fue la población máxima de la antigua Petra?",
+          de: "Was war die maximale Bevölkerung des antiken Petra?",
+          nl: "Wat was de piekbevolking van het oude Petra?"
+        },
+        options: [
+          { en: "5,000-10,000", es: "5,000-10,000", de: "5.000-10.000", nl: "5.000-10.000" },
+          { en: "10,000-15,000", es: "10,000-15,000", de: "10.000-15.000", nl: "10.000-15.000" },
+          { en: "20,000-30,000", es: "20,000-30,000", de: "20.000-30.000", nl: "20.000-30.000" },
+          { en: "50,000+", es: "Más de 50,000", de: "Über 50.000", nl: "Meer dan 50.000" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "At its peak around 1st century AD, Petra had a population estimated at 20,000-30,000 people, making it a major urban center.",
+          es: "En su apogeo alrededor del siglo I d.C., Petra tenía una población estimada de 20,000-30,000 personas, convirtiéndola en un importante centro urbano.",
+          de: "Auf seinem Höhepunkt um das 1. Jahrhundert n. Chr. hatte Petra eine geschätzte Bevölkerung von 20.000-30.000 Menschen und war ein bedeutendes urbanes Zentrum.",
+          nl: "Op zijn hoogtepunt rond de 1e eeuw n.Chr. had Petra een geschatte bevolking van 20.000-30.000 mensen, waardoor het een belangrijk stedelijk centrum was."
+        }
+      },
+      {
+        question: {
+          en: "Which archaeological society first studied Petra systematically?",
+          es: "¿Qué sociedad arqueológica estudió Petra sistemáticamente por primera vez?",
+          de: "Welche archäologische Gesellschaft untersuchte Petra erstmals systematisch?",
+          nl: "Welke archeologische vereniging bestudeerde Petra systematisch voor het eerst?"
+        },
+        options: [
+          { en: "American Schools of Oriental Research", es: "Escuelas Americanas de Investigación Oriental", de: "Amerikanische Schulen für Orientalische Forschung", nl: "Amerikaanse Scholen voor Oosters Onderzoek" },
+          { en: "British School of Archaeology", es: "Escuela Británica de Arqueología", de: "Britische Schule für Archäologie", nl: "Britse School voor Archeologie" },
+          { en: "German Archaeological Institute", es: "Instituto Arqueológico Alemán", de: "Deutsches Archäologisches Institut", nl: "Duits Archeologisch Instituut" },
+          { en: "French Archaeological Mission", es: "Misión Arqueológica Francesa", de: "Französische Archäologische Mission", nl: "Franse Archeologische Missie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The American Schools of Oriental Research began systematic excavations at Petra in the 1920s-1930s, pioneering modern archaeological study of the site.",
+          es: "Las Escuelas Americanas de Investigación Oriental comenzaron excavaciones sistemáticas en Petra en los años 1920-1930, siendo pioneras en el estudio arqueológico moderno del sitio.",
+          de: "Die Amerikanischen Schulen für Orientalische Forschung begannen in den 1920er-1930er Jahren systematische Ausgrabungen in Petra und waren Pioniere der modernen archäologischen Erforschung der Stätte.",
+          nl: "De Amerikaanse Scholen voor Oosters Onderzoek begonnen systematische opgravingen in Petra in de jaren 1920-1930 en waren pioniers in de moderne archeologische studie van de plek."
+        }
+      },
+      {
+        question: {
+          en: "When did the Nabataean Kingdom officially end?",
+          es: "¿Cuándo terminó oficialmente el Reino Nabateo?",
+          de: "Wann endete das Nabatäische Königreich offiziell?",
+          nl: "Wanneer eindigde het Nabatese Koninkrijk officieel?"
+        },
+        options: [
+          { en: "50 BC", es: "50 a.C.", de: "50 v. Chr.", nl: "50 v.Chr." },
+          { en: "106 AD", es: "106 d.C.", de: "106 n. Chr.", nl: "106 n.Chr." },
+          { en: "200 AD", es: "200 d.C.", de: "200 n. Chr.", nl: "200 n.Chr." },
+          { en: "363 AD", es: "363 d.C.", de: "363 n. Chr.", nl: "363 n.Chr." }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Nabataean Kingdom ended in 106 AD when Rome annexed it, though Petra continued as a provincial city.",
+          es: "El Reino Nabateo terminó en 106 d.C. cuando Roma lo anexó, aunque Petra continuó como ciudad provincial.",
+          de: "Das Nabatäische Königreich endete 106 n. Chr., als Rom es annektierte, obwohl Petra als Provinzstadt fortbestand.",
+          nl: "Het Nabatese Koninkrijk eindigde in 106 n.Chr. toen Rome het annexeerde, hoewel Petra doorging als provinciale stad."
+        }
+      },
+      {
+        question: {
+          en: "Who was the last known Nabataean king?",
+          es: "¿Quién fue el último rey nabateo conocido?",
+          de: "Wer war der letzte bekannte nabatäische König?",
+          nl: "Wie was de laatst bekende Nabatese koning?"
+        },
+        options: [
+          { en: "Aretas III", es: "Aretas III", de: "Aretas III", nl: "Aretas III" },
+          { en: "Aretas IV", es: "Aretas IV", de: "Aretas IV", nl: "Aretas IV" },
+          { en: "Malichus II", es: "Malichus II", de: "Malichus II", nl: "Malichus II" },
+          { en: "Rabbel II", es: "Rabbel II", de: "Rabbel II", nl: "Rabbel II" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "Rabbel II was the last Nabataean king, ruling from 70-106 AD until Roman annexation of the kingdom.",
+          es: "Rabbel II fue el último rey nabateo, gobernando desde 70-106 d.C. hasta la anexión romana del reino.",
+          de: "Rabbel II war der letzte nabatäische König und regierte von 70-106 n. Chr. bis zur römischen Annexion des Königreichs.",
+          nl: "Rabbel II was de laatste Nabatese koning, regeerde van 70-106 n.Chr. tot de Romeinse annexatie van het koninkrijk."
+        }
+      },
+      {
+        question: {
+          en: "What Byzantine structure was built in Petra?",
+          es: "¿Qué estructura bizantina se construyó en Petra?",
+          de: "Welche byzantinische Struktur wurde in Petra gebaut?",
+          nl: "Welke Byzantijnse structuur werd in Petra gebouwd?"
+        },
+        options: [
+          { en: "A mosque", es: "Una mezquita", de: "Eine Moschee", nl: "Een moskee" },
+          { en: "Churches", es: "Iglesias", de: "Kirchen", nl: "Kerken" },
+          { en: "Palaces", es: "Palacios", de: "Paläste", nl: "Paleizen" },
+          { en: "Fortifications only", es: "Solo fortificaciones", de: "Nur Befestigungen", nl: "Alleen versterkingen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Byzantines built several churches in Petra during the 5th-6th centuries, including the remarkable Byzantine Church with mosaic floors.",
+          es: "Los bizantinos construyeron varias iglesias en Petra durante los siglos V-VI, incluyendo la notable Iglesia Bizantina con pisos de mosaico.",
+          de: "Die Byzantiner bauten im 5.-6. Jahrhundert mehrere Kirchen in Petra, einschließlich der bemerkenswerten Byzantinischen Kirche mit Mosaikböden.",
+          nl: "De Byzantijnen bouwden verschillende kerken in Petra tijdens de 5e-6e eeuw, waaronder de opmerkelijke Byzantijnse Kerk met mozaïekvloeren."
+        }
+      },
+      {
+        question: {
+          en: "When did Islamic rule begin in the Petra region?",
+          es: "¿Cuándo comenzó el dominio islámico en la región de Petra?",
+          de: "Wann begann die islamische Herrschaft in der Region Petra?",
+          nl: "Wanneer begon de islamitische heerschappij in de regio Petra?"
+        },
+        options: [
+          { en: "5th century", es: "Siglo V", de: "5. Jahrhundert", nl: "5e eeuw" },
+          { en: "7th century", es: "Siglo VII", de: "7. Jahrhundert", nl: "7e eeuw" },
+          { en: "9th century", es: "Siglo IX", de: "9. Jahrhundert", nl: "9e eeuw" },
+          { en: "11th century", es: "Siglo XI", de: "11. Jahrhundert", nl: "11e eeuw" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Islamic rule in the Petra region began in the 7th century following the Muslim conquest of the area.",
+          es: "El dominio islámico en la región de Petra comenzó en el siglo VII tras la conquista musulmana del área.",
+          de: "Die islamische Herrschaft in der Region Petra begann im 7. Jahrhundert nach der muslimischen Eroberung des Gebiets.",
+          nl: "De islamitische heerschappij in de regio Petra begon in de 7e eeuw na de islamitische verovering van het gebied."
+        }
+      },
+      {
+        question: {
+          en: "Which Crusader king visited Petra?",
+          es: "¿Qué rey cruzado visitó Petra?",
+          de: "Welcher Kreuzfahrerkönig besuchte Petra?",
+          nl: "Welke kruisvaarder koning bezocht Petra?"
+        },
+        options: [
+          { en: "Richard the Lionheart", es: "Ricardo Corazón de León", de: "Richard Löwenherz", nl: "Richard Leeuwenhart" },
+          { en: "Baldwin I", es: "Balduino I", de: "Balduin I", nl: "Boudewijn I" },
+          { en: "Frederick Barbarossa", es: "Federico Barbarroja", de: "Friedrich Barbarossa", nl: "Frederik Barbarossa" },
+          { en: "Louis IX", es: "Luis IX", de: "Ludwig IX", nl: "Lodewijk IX" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Baldwin I, King of Jerusalem, visited Petra in 1107 during Crusader campaigns in the region.",
+          es: "Balduino I, Rey de Jerusalén, visitó Petra en 1107 durante las campañas cruzadas en la región.",
+          de: "Balduin I., König von Jerusalem, besuchte Petra 1107 während der Kreuzzugskampagnen in der Region.",
+          nl: "Boudewijn I, Koning van Jeruzalem, bezocht Petra in 1107 tijdens kruisvaarderscampagnes in de regio."
+        }
+      },
+      {
+        question: {
+          en: "What fortress did Crusaders build near Petra?",
+          es: "¿Qué fortaleza construyeron los cruzados cerca de Petra?",
+          de: "Welche Festung bauten Kreuzfahrer in der Nähe von Petra?",
+          nl: "Welk fort bouwden kruisvaarders bij Petra?"
+        },
+        options: [
+          { en: "Kerak Castle", es: "Castillo de Kerak", de: "Kerak-Burg", nl: "Kerak Kasteel" },
+          { en: "Shobak Castle", es: "Castillo de Shobak", de: "Shobak-Burg", nl: "Shobak Kasteel" },
+          { en: "Belvoir Fortress", es: "Fortaleza de Belvoir", de: "Belvoir-Festung", nl: "Belvoir Fort" },
+          { en: "Krak des Chevaliers", es: "Krak de los Caballeros", de: "Krak des Chevaliers", nl: "Krak des Chevaliers" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Crusaders built Shobak Castle (Montreal) near Petra in 1115 to control trade routes in the region.",
+          es: "Los cruzados construyeron el Castillo de Shobak (Montreal) cerca de Petra en 1115 para controlar las rutas comerciales en la región.",
+          de: "Die Kreuzfahrer bauten 1115 die Shobak-Burg (Montreal) in der Nähe von Petra, um die Handelsrouten in der Region zu kontrollieren.",
+          nl: "De kruisvaarders bouwden Shobak Kasteel (Montreal) bij Petra in 1115 om handelsroutes in de regio te controleren."
+        }
+      },
+      {
+        question: {
+          en: "What happened to Petra during Ottoman rule?",
+          es: "¿Qué pasó con Petra durante el dominio otomano?",
+          de: "Was geschah mit Petra während der osmanischen Herrschaft?",
+          nl: "Wat gebeurde er met Petra tijdens de Ottomaanse heerschappij?"
+        },
+        options: [
+          { en: "It became a major city again", es: "Se convirtió en una ciudad importante nuevamente", de: "Es wurde wieder eine bedeutende Stadt", nl: "Het werd opnieuw een grote stad" },
+          { en: "It remained largely abandoned", es: "Permaneció en gran medida abandonada", de: "Es blieb weitgehend verlassen", nl: "Het bleef grotendeels verlaten" },
+          { en: "It was destroyed", es: "Fue destruida", de: "Es wurde zerstört", nl: "Het werd vernietigd" },
+          { en: "It became a military base", es: "Se convirtió en base militar", de: "Es wurde eine Militärbasis", nl: "Het werd een militaire basis" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "During Ottoman rule (16th-20th centuries), Petra remained largely abandoned and known only to local Bedouins.",
+          es: "Durante el dominio otomano (siglos XVI-XX), Petra permaneció en gran medida abandonada y conocida solo para los beduinos locales.",
+          de: "Während der osmanischen Herrschaft (16.-20. Jahrhundert) blieb Petra weitgehend verlassen und nur den örtlichen Beduinen bekannt.",
+          nl: "Tijdens de Ottomaanse heerschappij (16e-20e eeuw) bleef Petra grotendeels verlaten en alleen bekend bij lokale Bedoeïenen."
+        }
+      },
+      {
+        question: {
+          en: "Which European artist painted Petra in the 19th century?",
+          es: "¿Qué artista europeo pintó Petra en el siglo XIX?",
+          de: "Welcher europäische Künstler malte Petra im 19. Jahrhundert?",
+          nl: "Welke Europese kunstenaar schilderde Petra in de 19e eeuw?"
+        },
+        options: [
+          { en: "David Roberts", es: "David Roberts", de: "David Roberts", nl: "David Roberts" },
+          { en: "J.M.W. Turner", es: "J.M.W. Turner", de: "J.M.W. Turner", nl: "J.M.W. Turner" },
+          { en: "John Constable", es: "John Constable", de: "John Constable", nl: "John Constable" },
+          { en: "Claude Monet", es: "Claude Monet", de: "Claude Monet", nl: "Claude Monet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Scottish painter David Roberts visited Petra in 1839 and created detailed paintings that introduced the site to European audiences.",
+          es: "El pintor escocés David Roberts visitó Petra en 1839 y creó pinturas detalladas que introdujeron el sitio a audiencias europeas.",
+          de: "Der schottische Maler David Roberts besuchte Petra 1839 und schuf detaillierte Gemälde, die die Stätte dem europäischen Publikum vorstellten.",
+          nl: "De Schotse schilder David Roberts bezocht Petra in 1839 en maakte gedetailleerde schilderijen die de plek introduceerden bij Europees publiek."
+        }
+      },
+      {
+        question: {
+          en: "When did Jordan gain independence and control over Petra?",
+          es: "¿Cuándo obtuvo Jordania la independencia y el control sobre Petra?",
+          de: "Wann erlangte Jordanien die Unabhängigkeit und Kontrolle über Petra?",
+          nl: "Wanneer kreeg Jordanië onafhankelijkheid en controle over Petra?"
+        },
+        options: [
+          { en: "1920", es: "1920", de: "1920", nl: "1920" },
+          { en: "1946", es: "1946", de: "1946", nl: "1946" },
+          { en: "1960", es: "1960", de: "1960", nl: "1960" },
+          { en: "1970", es: "1970", de: "1970", nl: "1970" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Jordan gained independence in 1946, bringing Petra under Jordanian sovereignty and beginning modern conservation efforts.",
+          es: "Jordania obtuvo la independencia en 1946, poniendo a Petra bajo soberanía jordana y comenzando esfuerzos modernos de conservación.",
+          de: "Jordanien erlangte 1946 die Unabhängigkeit, brachte Petra unter jordanische Souveränität und begann moderne Erhaltungsbemühungen.",
+          nl: "Jordanië kreeg onafhankelijkheid in 1946, waardoor Petra onder Jordaanse soevereiniteit kwam en moderne conserveringsinspanningen begonnen."
+        }
+      },
+      {
+        question: {
+          en: "What major discovery was made in Petra in 1993?",
+          es: "¿Qué descubrimiento importante se hizo en Petra en 1993?",
+          de: "Welche bedeutende Entdeckung wurde 1993 in Petra gemacht?",
+          nl: "Welke belangrijke ontdekking werd in 1993 in Petra gedaan?"
+        },
+        options: [
+          { en: "The Great Temple", es: "El Gran Templo", de: "Der Große Tempel", nl: "De Grote Tempel" },
+          { en: "Bronze Age tombs", es: "Tumbas de la Edad de Bronce", de: "Bronzezeitliche Gräber", nl: "Bronzen Tijd graven" },
+          { en: "Byzantine Church with mosaics", es: "Iglesia Bizantina con mosaicos", de: "Byzantinische Kirche mit Mosaiken", nl: "Byzantijnse Kerk met mozaïeken" },
+          { en: "Royal palace", es: "Palacio real", de: "Königlicher Palast", nl: "Koninklijk paleis" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "In 1993, archaeologists discovered a Byzantine Church with exceptionally well-preserved mosaic floors dating to the 5th-6th centuries.",
+          es: "En 1993, los arqueólogos descubrieron una Iglesia Bizantina con pisos de mosaico excepcionalmente bien conservados que datan de los siglos V-VI.",
+          de: "1993 entdeckten Archäologen eine Byzantinische Kirche mit außergewöhnlich gut erhaltenen Mosaikböden aus dem 5.-6. Jahrhundert.",
+          nl: "In 1993 ontdekten archeologen een Byzantijnse Kerk met uitzonderlijk goed bewaarde mozaïekvloeren uit de 5e-6e eeuw."
+        }
+      },
+      {
+        question: {
+          en: "Which Swiss organization helped establish Petra as a tourist destination?",
+          es: "¿Qué organización suiza ayudó a establecer a Petra como destino turístico?",
+          de: "Welche Schweizer Organisation half Petra als Touristenziel zu etablieren?",
+          nl: "Welke Zwitserse organisatie hielp Petra te vestigen als toeristische bestemming?"
+        },
+        options: [
+          { en: "Red Cross", es: "Cruz Roja", de: "Rotes Kreuz", nl: "Rode Kruis" },
+          { en: "UNESCO", es: "UNESCO", de: "UNESCO", nl: "UNESCO" },
+          { en: "Swiss Development Cooperation", es: "Cooperación Suiza para el Desarrollo", de: "Schweizer Entwicklungszusammenarbeit", nl: "Zwitserse Ontwikkelingssamenwerking" },
+          { en: "World Bank", es: "Banco Mundial", de: "Weltbank", nl: "Wereldbank" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Swiss Development Cooperation has provided significant funding and expertise for Petra's tourism development and conservation since the 1980s.",
+          es: "La Cooperación Suiza para el Desarrollo ha proporcionado financiamiento significativo y experiencia para el desarrollo turístico y conservación de Petra desde los años 1980.",
+          de: "Die Schweizer Entwicklungszusammenarbeit hat seit den 1980er Jahren bedeutende Finanzmittel und Expertise für Petras Tourismusentwicklung und Erhaltung bereitgestellt.",
+          nl: "Zwitserse Ontwikkelingssamenwerking heeft sinds de jaren 1980 aanzienlijke financiering en expertise geboden voor Petra's toerismeontwikkeling en conservering."
+        }
+      },
+      {
+        question: {
+          en: "What international event raised Petra's global profile in 2007?",
+          es: "¿Qué evento internacional elevó el perfil global de Petra en 2007?",
+          de: "Welches internationale Ereignis erhöhte Petras globales Profil 2007?",
+          nl: "Welk internationaal evenement verhoogde Petra's mondiale profiel in 2007?"
+        },
+        options: [
+          { en: "Olympic Games", es: "Juegos Olímpicos", de: "Olympische Spiele", nl: "Olympische Spelen" },
+          { en: "New Seven Wonders of the World", es: "Nuevas Siete Maravillas del Mundo", de: "Neue Sieben Weltwunder", nl: "Nieuwe Zeven Wereldwonderen" },
+          { en: "World Expo", es: "Exposición Mundial", de: "Weltausstellung", nl: "Wereldtentoonstelling" },
+          { en: "UN General Assembly", es: "Asamblea General de la ONU", de: "UN-Generalversammlung", nl: "VN-Algemene Vergadering" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Petra was named one of the New Seven Wonders of the World in 2007, dramatically increasing international tourism interest.",
+          es: "Petra fue nombrada una de las Nuevas Siete Maravillas del Mundo en 2007, aumentando dramáticamente el interés turístico internacional.",
+          de: "Petra wurde 2007 zu einem der Neuen Sieben Weltwunder ernannt, was das internationale touristische Interesse dramatisch steigerte.",
+          nl: "Petra werd in 2007 uitgeroepen tot een van de Nieuwe Zeven Wereldwonderen, wat de internationale toeristische belangstelling dramatisch verhoogde."
+        }
+      },
+      {
+        question: {
+          en: "What political event affected Petra tourism in the early 21st century?",
+          es: "¿Qué evento político afectó el turismo en Petra a principios del siglo XXI?",
+          de: "Welches politische Ereignis beeinflusste den Petra-Tourismus im frühen 21. Jahrhundert?",
+          nl: "Welke politieke gebeurtenis beïnvloedde het toerisme in Petra in het begin van de 21e eeuw?"
+        },
+        options: [
+          { en: "Economic crisis only", es: "Solo crisis económica", de: "Nur Wirtschaftskrise", nl: "Alleen economische crisis" },
+          { en: "Regional instability and Arab Spring", es: "Inestabilidad regional y Primavera Árabe", de: "Regionale Instabilität und Arabischer Frühling", nl: "Regionale instabiliteit en Arabische Lente" },
+          { en: "Natural disasters", es: "Desastres naturales", de: "Naturkatastrophen", nl: "Natuurrampen" },
+          { en: "No significant events", es: "Sin eventos significativos", de: "Keine bedeutenden Ereignisse", nl: "Geen belangrijke gebeurtenissen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Regional instability and the Arab Spring (2010-2012) temporarily reduced tourism to Petra, though it has since recovered strongly.",
+          es: "La inestabilidad regional y la Primavera Árabe (2010-2012) redujeron temporalmente el turismo en Petra, aunque desde entonces se ha recuperado fuertemente.",
+          de: "Regionale Instabilität und der Arabische Frühling (2010-2012) reduzierten vorübergehend den Tourismus nach Petra, obwohl er sich seitdem stark erholt hat.",
+          nl: "Regionale instabiliteit en de Arabische Lente (2010-2012) verminderde tijdelijk het toerisme naar Petra, hoewel het zich sindsdien sterk heeft hersteld."
+        }
+      },
+      {
+        question: {
+          en: "Who manages Petra Archaeological Park today?",
+          es: "¿Quién gestiona el Parque Arqueológico de Petra hoy?",
+          de: "Wer verwaltet heute den Petra Archäologischen Park?",
+          nl: "Wie beheert vandaag Petra Archeologisch Park?"
+        },
+        options: [
+          { en: "UNESCO directly", es: "UNESCO directamente", de: "UNESCO direkt", nl: "UNESCO direct" },
+          { en: "Private company", es: "Empresa privada", de: "Privatunternehmen", nl: "Privébedrijf" },
+          { en: "Petra Development and Tourism Region Authority", es: "Autoridad de Desarrollo y Turismo de la Región de Petra", de: "Petra Entwicklungs- und Tourismusregionsbehörde", nl: "Petra Ontwikkelings- en Toerisme Regio Autoriteit" },
+          { en: "International committee", es: "Comité internacional", de: "Internationales Komitee", nl: "Internationaal comité" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Petra Development and Tourism Region Authority (PDTRA) manages Petra Archaeological Park under Jordan's government oversight.",
+          es: "La Autoridad de Desarrollo y Turismo de la Región de Petra (PDTRA) gestiona el Parque Arqueológico de Petra bajo la supervisión del gobierno de Jordania.",
+          de: "Die Petra Entwicklungs- und Tourismusregionsbehörde (PDTRA) verwaltet den Petra Archäologischen Park unter Aufsicht der jordanischen Regierung.",
+          nl: "De Petra Ontwikkelings- en Toerisme Regio Autoriteit (PDTRA) beheert Petra Archeologisch Park onder toezicht van de Jordaanse regering."
+        }
+      },
+      {
+        question: {
+          en: "What recent technology has been used to study Petra?",
+          es: "¿Qué tecnología reciente se ha utilizado para estudiar Petra?",
+          de: "Welche neuere Technologie wurde zur Untersuchung von Petra eingesetzt?",
+          nl: "Welke recente technologie is gebruikt om Petra te bestuderen?"
+        },
+        options: [
+          { en: "Radio telescopes", es: "Radiotelescopios", de: "Radioteleskope", nl: "Radiotelescopen" },
+          { en: "LiDAR and satellite imaging", es: "LiDAR e imágenes satelitales", de: "LiDAR und Satellitenbilder", nl: "LiDAR en satellietbeelden" },
+          { en: "Submarine exploration", es: "Exploración submarina", de: "U-Boot-Erkundung", nl: "Onderzeebootverkenning" },
+          { en: "Space probes", es: "Sondas espaciales", de: "Raumsonden", nl: "Ruimtesondes" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "LiDAR and satellite imaging have revealed previously unknown structures and helped map Petra's full extent beyond visible monuments.",
+          es: "LiDAR e imágenes satelitales han revelado estructuras previamente desconocidas y ayudado a mapear la extensión completa de Petra más allá de los monumentos visibles.",
+          de: "LiDAR und Satellitenbilder haben zuvor unbekannte Strukturen enthüllt und geholfen, Petras volle Ausdehnung über sichtbare Monumente hinaus zu kartieren.",
+          nl: "LiDAR en satellietbeelden hebben voorheen onbekende structuren onthuld en geholpen Petra's volledige omvang te karteren buiten zichtbare monumenten."
+        }
+      },
+      {
+        question: {
+          en: "What ancient people built Petra?",
+          es: "¿Qué pueblo antiguo construyó Petra?",
+          de: "Welches antike Volk erbaute Petra?",
+          nl: "Welk oud volk bouwde Petra?"
+        },
+        options: [
+          { en: "Romans", es: "Romanos", de: "Römer", nl: "Romeinen" },
+          { en: "Nabataeans", es: "Nabateos", de: "Nabatäer", nl: "Nabateeërs" },
+          { en: "Greeks", es: "Griegos", de: "Griechen", nl: "Grieken" },
+          { en: "Egyptians", es: "Egipcios", de: "Ägypter", nl: "Egyptenaren" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Nabataeans, an Arab people, built Petra as their capital city around the 4th century BC.",
+          es: "Los nabateos, un pueblo árabe, construyeron Petra como su ciudad capital alrededor del siglo IV a.C.",
+          de: "Die Nabatäer, ein arabisches Volk, erbauten Petra als ihre Hauptstadt um das 4. Jahrhundert v. Chr.",
+          nl: "De Nabateeërs, een Arabisch volk, bouwden Petra als hun hoofdstad rond de 4e eeuw v.Chr."
+        }
       }
     ]
   };

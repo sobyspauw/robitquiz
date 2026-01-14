@@ -427,6 +427,426 @@
           de: "Die ultimative Vision der Transport-KI ist ein universelles Bewusstsein das nahtlos alles koordiniert was sich bewegt - von Nanobots bis zu Raumschiffen - schafft perfekte Harmonie in allen Mobilitätsskalen.",
           nl: "De ultieme visie van transport AI is een universeel bewustzijn dat naadloos alles coördineert wat beweegt - van nanobots tot ruimtevaartuigen - waarbij perfecte harmonie wordt gecreëerd in alle mobiliteitschalen."
         }
+      },
+      {
+        question: {
+          en: "What is 'cognitive architecture for vehicles' enabling in autonomous systems?",
+          es: "¿Qué está permitiendo la 'arquitectura cognitiva para vehículos' en sistemas autónomos?",
+          de: "Was ermöglicht 'kognitive Architektur für Fahrzeuge' in autonomen Systemen?",
+          nl: "Wat maakt 'cognitieve architectuur voor voertuigen' mogelijk in autonome systemen?"
+        },
+        options: [
+          { en: "Human-like reasoning frameworks that integrate perception, memory, learning, and decision-making for sophisticated autonomous behavior", es: "Marcos de razonamiento similar a humanos que integran percepción, memoria, aprendizaje y toma de decisiones para comportamiento autónomo sofisticado", de: "Menschenähnliche Reasoning-Frameworks die Wahrnehmung, Gedächtnis, Lernen und Entscheidungsfindung für ausgefeiltes autonomes Verhalten integrieren", nl: "Mensachtig redeneringskader dat perceptie, geheugen, leren en besluitvorming integreert voor geavanceerd autonoom gedrag" },
+          { en: "Cognitive tests for vehicle operators", es: "Pruebas cognitivas para operadores de vehículos", de: "Kognitive Tests für Fahrzeugbediener", nl: "Cognitieve testen voor voertuigoperators" },
+          { en: "Architecture designs that look cognitive", es: "Diseños arquitectónicos que parecen cognitivos", de: "Architekturdesigns die kognitiv aussehen", nl: "Architectuurontwerpen die cognitief lijken" },
+          { en: "Cognitive science for vehicle design", es: "Ciencia cognitiva para diseño vehicular", de: "Kognitionswissenschaft für Fahrzeugdesign", nl: "Cognitieve wetenschap voor voertuigontwerp" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cognitive architectures model the complete mental processes needed for intelligent behavior, allowing vehicles to learn from experience, reason about goals, and adapt to novel situations like humans do.",
+          es: "Las arquitecturas cognitivas modelan los procesos mentales completos necesarios para comportamiento inteligente, permitiendo a vehículos aprender de experiencia, razonar sobre objetivos y adaptarse a situaciones novedosas como hacen humanos.",
+          de: "Kognitive Architekturen modellieren die vollständigen mentalen Prozesse die für intelligentes Verhalten benötigt werden, ermöglichen Fahrzeugen aus Erfahrung zu lernen, über Ziele zu denken und sich an neue Situationen anzupassen wie Menschen.",
+          nl: "Cognitieve architecturen modelleren de complete mentale processen nodig voor intelligent gedrag, waardoor voertuigen kunnen leren van ervaring, redeneren over doelen en zich aanpassen aan nieuwe situaties zoals mensen doen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'swarm intelligence optimization' achieving in large-scale transportation networks?",
+          es: "¿Qué está logrando la 'optimización de inteligencia de enjambre' en redes de transporte a gran escala?",
+          de: "Was erreicht 'Schwarmintelligenz-Optimierung' in großangelegten Transportnetzwerken?",
+          nl: "Wat bereikt 'zwerm intelligentie optimalisatie' in grootschalige transportnetwerken?"
+        },
+        options: [
+          { en: "Decentralized coordination where simple local interactions between vehicles create emergent global traffic optimization without central control", es: "Coordinación descentralizada donde interacciones locales simples entre vehículos crean optimización global emergente de tráfico sin control central", de: "Dezentralisierte Koordination wo einfache lokale Interaktionen zwischen Fahrzeugen emergente globale Verkehrsoptimierung ohne zentrale Kontrolle schaffen", nl: "Gedecentraliseerde coördinatie waarbij eenvoudige lokale interacties tussen voertuigen emergente globale verkeersoptimalisatie creëren zonder centrale controle" },
+          { en: "Swarm of vehicles for optimization tasks", es: "Enjambre de vehículos para tareas de optimización", de: "Schwarm von Fahrzeugen für Optimierungsaufgaben", nl: "Zwerm voertuigen voor optimalisatietaken" },
+          { en: "Intelligence from vehicle swarms only", es: "Inteligencia solo de enjambres vehiculares", de: "Intelligenz nur von Fahrzeugschwärmen", nl: "Intelligentie alleen van voertuigzwermen" },
+          { en: "Optimization using swarm algorithms", es: "Optimización usando algoritmos de enjambre", de: "Optimierung mit Schwarm-Algorithmen", nl: "Optimalisatie met zwerm algoritmes" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Inspired by ant colonies and bird flocks, swarm intelligence allows millions of vehicles to self-organize into optimal traffic patterns through simple behavioral rules, creating system-wide efficiency without centralized planning.",
+          es: "Inspirada en colonias de hormigas y bandadas de pájaros, la inteligencia de enjambre permite a millones de vehículos auto-organizarse en patrones de tráfico óptimos a través de reglas de comportamiento simples, creando eficiencia en todo el sistema sin planificación centralizada.",
+          de: "Inspiriert von Ameisenkolonien und Vogelschwärmen ermöglicht Schwarmintelligenz Millionen von Fahrzeugen sich in optimale Verkehrsmuster durch einfache Verhaltensregeln selbst zu organisieren, schafft systemweite Effizienz ohne zentralisierte Planung.",
+          nl: "Geïnspireerd door mierenkolonies en vogelzwermen stelt zwerm intelligentie miljoenen voertuigen in staat zichzelf te organiseren in optimale verkeerspatronen door eenvoudige gedragsregels, waarbij systeembrede efficiëntie wordt gecreëerd zonder gecentraliseerde planning."
+        }
+      },
+      {
+        question: {
+          en: "What is 'quantum entanglement communication' potentially enabling for instantaneous vehicle coordination?",
+          es: "¿Qué está permitiendo potencialmente la 'comunicación de entrelazamiento cuántico' para coordinación vehicular instantánea?",
+          de: "Was ermöglicht 'Quantenverschränkung-Kommunikation' potenziell für instantane Fahrzeugkoordination?",
+          nl: "Wat maakt 'quantum verstrengeling communicatie' potentieel mogelijk voor onmiddellijke voertuigcoördinatie?"
+        },
+        options: [
+          { en: "Zero-latency communication between vehicles across any distance for perfect real-time coordination", es: "Comunicación de latencia cero entre vehículos a cualquier distancia para coordinación perfecta en tiempo real", de: "Null-Latenz-Kommunikation zwischen Fahrzeugen über jede Entfernung für perfekte Echtzeitkoordination", nl: "Nul-latentie communicatie tussen voertuigen over elke afstand voor perfecte realtime coördinatie" },
+          { en: "Quantum physics in vehicle entanglement", es: "Física cuántica en entrelazamiento vehicular", de: "Quantenphysik in Fahrzeugverschränkung", nl: "Quantumfysica in voertuigverstrengeling" },
+          { en: "Entangled communication networks", es: "Redes de comunicación entrelazadas", de: "Verschränkte Kommunikationsnetzwerke", nl: "Verstrengelde communicatienetwerken" },
+          { en: "Quantum entanglement research for transport", es: "Investigación de entrelazamiento cuántico para transporte", de: "Quantenverschränkungsforschung für Transport", nl: "Quantum verstrengeling onderzoek voor transport" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Quantum entanglement could theoretically enable instantaneous information transfer between vehicles regardless of distance, eliminating communication delays and enabling perfect synchronization across global transportation networks.",
+          es: "El entrelazamiento cuántico podría teóricamente permitir transferencia instantánea de información entre vehículos independientemente de distancia, eliminando retrasos de comunicación y permitiendo sincronización perfecta a través de redes de transporte globales.",
+          de: "Quantenverschränkung könnte theoretisch instantanen Informationstransfer zwischen Fahrzeugen unabhängig von Entfernung ermöglichen, eliminiert Kommunikationsverzögerungen und ermöglicht perfekte Synchronisation über globale Transportnetzwerke.",
+          nl: "Quantum verstrengeling zou theoretisch onmiddellijke informatie-overdracht tussen voertuigen mogelijk kunnen maken ongeacht afstand, communicatievertragingen elimineren en perfecte synchronisatie over wereldwijde transportnetwerken mogelijk maken."
+        }
+      },
+      {
+        question: {
+          en: "What is 'neuromorphic computing for vehicles' achieving in energy-efficient AI?",
+          es: "¿Qué está logrando la 'computación neuromórfica para vehículos' en IA eficiente en energía?",
+          de: "Was erreicht 'neuromorphes Computing für Fahrzeuge' in energieeffizienter KI?",
+          nl: "Wat bereikt 'neuromorphic computing voor voertuigen' in energie-efficiënte AI?"
+        },
+        options: [
+          { en: "Brain-inspired processors that consume minimal power while performing complex AI tasks, enabling sustainable autonomous driving", es: "Procesadores inspirados en cerebro que consumen potencia mínima mientras realizan tareas IA complejas, permitiendo conducción autónoma sostenible", de: "Gehirn-inspirierte Prozessoren die minimale Leistung verbrauchen während komplexe KI-Aufgaben durchführen, ermöglichen nachhaltiges autonomes Fahren", nl: "Hersenen-geïnspireerde processors die minimaal vermogen verbruiken terwijl ze complexe AI-taken uitvoeren, maken duurzaam autonoom rijden mogelijk" },
+          { en: "Neuromorphic shapes for vehicle processors", es: "Formas neuromórficas para procesadores vehiculares", de: "Neuromorphe Formen für Fahrzeugprozessoren", nl: "Neuromorphe vormen voor voertuigprocessors" },
+          { en: "Computing inspired by neural networks", es: "Computación inspirada en redes neuronales", de: "Computing inspiriert von neuronalen Netzwerken", nl: "Computing geïnspireerd door neurale netwerken" },
+          { en: "Morphing computers for vehicles", es: "Computadoras transformadoras para vehículos", de: "Morphende Computer für Fahrzeuge", nl: "Transformerende computers voor voertuigen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Neuromorphic chips mimic biological neural structures to achieve human-brain-level efficiency, processing autonomous driving AI while consuming a fraction of the power required by traditional processors.",
+          es: "Los chips neuromórficos imitan estructuras neuronales biológicas para lograr eficiencia a nivel de cerebro humano, procesando IA de conducción autónoma mientras consumen una fracción de la potencia requerida por procesadores tradicionales.",
+          de: "Neuromorphe Chips imitieren biologische neuronale Strukturen um menschliche Gehirneffizienz zu erreichen, verarbeiten autonomes Fahr-KI während nur einen Bruchteil der von traditionellen Prozessoren benötigten Leistung verbraucht wird.",
+          nl: "Neuromorphic chips bootsen biologische neurale structuren na om menselijk-brein efficiëntie te bereiken, verwerken autonoom rijden AI terwijl ze slechts een fractie van het vermogen verbruiken dat traditionele processors nodig hebben."
+        }
+      },
+      {
+        question: {
+          en: "What is 'holographic AI interfaces' providing for future vehicle interaction?",
+          es: "¿Qué están proporcionando las 'interfaces IA holográficas' para interacción vehicular futura?",
+          de: "Was bieten 'holographische KI-Interfaces' für zukünftige Fahrzeuginteraktion?",
+          nl: "Wat bieden 'holografische AI-interfaces' voor toekomstige voertuiginteractie?"
+        },
+        options: [
+          { en: "Three-dimensional AR displays that project AI assistants and navigation information into physical space for intuitive interaction", es: "Pantallas AR tridimensionales que proyectan asistentes IA e información de navegación en espacio físico para interacción intuitiva", de: "Dreidimensionale AR-Displays die KI-Assistenten und Navigationsinformationen in den physischen Raum projizieren für intuitive Interaktion", nl: "Driedimensionale AR-displays die AI-assistenten en navigatie-informatie in fysieke ruimte projecteren voor intuïtieve interactie" },
+          { en: "Holographic vehicle designs only", es: "Solo diseños vehiculares holográficos", de: "Nur holographische Fahrzeugdesigns", nl: "Alleen holografische voertuigontwerpen" },
+          { en: "AI interfaces that look holographic", es: "Interfaces IA que parecen holográficas", de: "KI-Interfaces die holographisch aussehen", nl: "AI-interfaces die holografisch lijken" },
+          { en: "Holographic entertainment in vehicles", es: "Entretenimiento holográfico en vehículos", de: "Holographische Unterhaltung in Fahrzeugen", nl: "Holografisch entertainment in voertuigen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Holographic AI interfaces allow passengers to interact with virtual assistants, visualize route options in 3D space, and receive immersive safety warnings projected directly into their environment.",
+          es: "Las interfaces IA holográficas permiten a pasajeros interactuar con asistentes virtuales, visualizar opciones de ruta en espacio 3D y recibir advertencias de seguridad inmersivas proyectadas directamente en su entorno.",
+          de: "Holographische KI-Interfaces ermöglichen Passagieren mit virtuellen Assistenten zu interagieren, Routenoptionen im 3D-Raum zu visualisieren und immersive Sicherheitswarnungen direkt in ihre Umgebung projiziert zu empfangen.",
+          nl: "Holografische AI-interfaces stellen passagiers in staat te interageren met virtuele assistenten, route-opties in 3D-ruimte te visualiseren en immersieve veiligheidswaarschuwingen te ontvangen die direct in hun omgeving worden geprojecteerd."
+        }
+      },
+      {
+        question: {
+          en: "What is 'self-healing transportation infrastructure' achieving with embedded AI?",
+          es: "¿Qué está logrando la 'infraestructura de transporte auto-reparadora' con IA embebida?",
+          de: "Was erreicht 'selbstheilende Transportinfrastruktur' mit eingebetteter KI?",
+          nl: "Wat bereikt 'zelfherstellende transportinfrastructuur' met ingebedde AI?"
+        },
+        options: [
+          { en: "Smart materials and AI systems that detect damage and autonomously repair roads, bridges, and infrastructure before failures occur", es: "Materiales inteligentes y sistemas IA que detectan daños y reparan autónomamente carreteras, puentes e infraestructura antes de que ocurran fallas", de: "Intelligente Materialien und KI-Systeme die Schäden erkennen und autonom Straßen, Brücken und Infrastruktur reparieren bevor Ausfälle auftreten", nl: "Slimme materialen en AI-systemen die schade detecteren en autonoom wegen, bruggen en infrastructuur repareren voordat storingen optreden" },
+          { en: "Infrastructure that heals itself naturally", es: "Infraestructura que se cura naturalmente", de: "Infrastruktur die sich natürlich heilt", nl: "Infrastructuur die zichzelf natuurlijk herstelt" },
+          { en: "Healing transportation for injured travelers", es: "Transporte curativo para viajeros lesionados", de: "Heilender Transport für verletzte Reisende", nl: "Helend transport voor gewonde reizigers" },
+          { en: "Self-repairing vehicle components", es: "Componentes vehiculares auto-reparadores", de: "Selbstreparierende Fahrzeugkomponenten", nl: "Zelfherstellende voertuigcomponenten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Advanced materials with embedded sensors and AI monitoring can detect cracks or wear and trigger self-repair mechanisms using nanobots or chemical processes, maintaining infrastructure without human intervention.",
+          es: "Materiales avanzados con sensores embebidos y monitoreo IA pueden detectar grietas o desgaste y activar mecanismos de auto-reparación usando nanobots o procesos químicos, manteniendo infraestructura sin intervención humana.",
+          de: "Fortgeschrittene Materialien mit eingebetteten Sensoren und KI-Überwachung können Risse oder Verschleiß erkennen und Selbstreparaturmechanismen mit Nanobots oder chemischen Prozessen auslösen, warten Infrastruktur ohne menschliche Intervention.",
+          nl: "Geavanceerde materialen met ingebedde sensoren en AI-monitoring kunnen scheuren of slijtage detecteren en zelfherstelmechanismen activeren met nanobots of chemische processen, onderhouden infrastructuur zonder menselijke interventie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'emotion-aware transportation AI' enabling for personalized passenger experiences?",
+          es: "¿Qué está permitiendo la 'IA de transporte consciente de emociones' para experiencias personalizadas de pasajeros?",
+          de: "Was ermöglicht 'emotionsbewusste Transport-KI' für personalisierte Passagiererfahrungen?",
+          nl: "Wat maakt 'emotie-bewuste transport AI' mogelijk voor gepersonaliseerde passagierservaringen?"
+        },
+        options: [
+          { en: "AI systems that detect passenger mood and stress levels to adjust routing, speed, music, and environment for optimal comfort", es: "Sistemas IA que detectan estado de ánimo y niveles de estrés de pasajeros para ajustar enrutamiento, velocidad, música y entorno para confort óptimo", de: "KI-Systeme die Passagierstimmung und Stresslevel erkennen um Routing, Geschwindigkeit, Musik und Umgebung für optimalen Komfort anzupassen", nl: "AI-systemen die passagiersstemming en stressniveaus detecteren om routing, snelheid, muziek en omgeving aan te passen voor optimaal comfort" },
+          { en: "Emotional support in transportation vehicles", es: "Apoyo emocional en vehículos de transporte", de: "Emotionale Unterstützung in Transportfahrzeugen", nl: "Emotionele ondersteuning in transportvoertuigen" },
+          { en: "Transportation AI with emotions", es: "IA de transporte con emociones", de: "Transport-KI mit Emotionen", nl: "Transport AI met emoties" },
+          { en: "Awareness campaigns for transportation", es: "Campañas de conciencia para transporte", de: "Awareness-Kampagnen für Transport", nl: "Bewustwordingscampagnes voor transport" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Emotion recognition AI analyzes facial expressions, voice patterns, and biometrics to customize the transportation experience, offering calming routes when stressed or energizing environments when drowsy.",
+          es: "La IA de reconocimiento de emociones analiza expresiones faciales, patrones de voz y biométricos para personalizar experiencia de transporte, ofreciendo rutas calmantes cuando estresado o entornos energizantes cuando somnoliento.",
+          de: "Emotionserkennungs-KI analysiert Gesichtsausdrücke, Sprachmuster und Biometrie um Transporterfahrung anzupassen, bietet beruhigende Routen wenn gestresst oder energetisierende Umgebungen wenn schläfrig.",
+          nl: "Emotie herkenning AI analyseert gezichtsuitdrukkingen, stempatronen en biometrie om transportervaring aan te passen, biedt kalmerende routes wanneer gestrest of energieke omgevingen wanneer slaperig."
+        }
+      },
+      {
+        question: {
+          en: "What is 'adaptive traffic signal intelligence' optimizing in smart city environments?",
+          es: "¿Qué está optimizando la 'inteligencia de señales de tráfico adaptativas' en entornos de ciudad inteligente?",
+          de: "Was optimiert 'adaptive Verkehrssignal-Intelligenz' in Smart-City-Umgebungen?",
+          nl: "Wat optimaliseert 'adaptieve verkeerslicht intelligentie' in smart city omgevingen?"
+        },
+        options: [
+          { en: "Dynamic traffic light timing based on real-time vehicle flow, pedestrian presence, and predictive analytics for minimal wait times", es: "Tiempo dinámico de semáforos basado en flujo vehicular en tiempo real, presencia peatonal y analítica predictiva para tiempos de espera mínimos", de: "Dynamisches Ampel-Timing basierend auf Echtzeit-Fahrzeugfluss, Fußgängerpräsenz und prädiktiver Analytik für minimale Wartezeiten", nl: "Dynamische verkeerslicht timing gebaseerd op realtime voertuigstroom, voetgangersaanwezigheid en voorspellende analytics voor minimale wachttijden" },
+          { en: "Adaptive signals for construction zones", es: "Señales adaptativas para zonas de construcción", de: "Adaptive Signale für Bauzonen", nl: "Adaptieve signalen voor bouwzones" },
+          { en: "Traffic signal brightness adjustment", es: "Ajuste de brillo de señal de tráfico", de: "Verkehrssignal-Helligkeitsanpassung", nl: "Verkeerslicht helderheidsaanpassing" },
+          { en: "Intelligence for signal maintenance", es: "Inteligencia para mantenimiento de señales", de: "Intelligenz für Signalwartung", nl: "Intelligentie voor signaal onderhoud" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI-powered traffic signals learn traffic patterns, predict congestion, and coordinate with surrounding lights to create green waves, reducing stops and emissions while improving traffic flow efficiency.",
+          es: "Los semáforos impulsados por IA aprenden patrones de tráfico, predicen congestión y coordinan con luces circundantes para crear olas verdes, reduciendo paradas y emisiones mientras mejoran eficiencia de flujo de tráfico.",
+          de: "KI-gestützte Ampeln lernen Verkehrsmuster, sagen Staus voraus und koordinieren mit umgebenden Lichtern um grüne Wellen zu schaffen, reduzieren Stopps und Emissionen während Verkehrsfluss-Effizienz verbessert wird.",
+          nl: "AI-gedreven verkeerslichten leren verkeerspatronen, voorspellen congestie en coördineren met omringende lichten om groene golven te creëren, verminderen stops en emissies terwijl verkeersstroom efficiëntie verbetert."
+        }
+      },
+      {
+        question: {
+          en: "What is 'predictive vehicle maintenance AI' preventing in autonomous fleets?",
+          es: "¿Qué está previniendo la 'IA de mantenimiento vehicular predictivo' en flotas autónomas?",
+          de: "Was verhindert 'prädiktive Fahrzeugwartungs-KI' in autonomen Flotten?",
+          nl: "Wat voorkomt 'voorspellende voertuig onderhoud AI' in autonome vloten?"
+        },
+        options: [
+          { en: "Component failures by analyzing sensor data to predict maintenance needs before breakdowns occur, maximizing uptime", es: "Fallas de componentes analizando datos de sensores para predecir necesidades de mantenimiento antes de que ocurran averías, maximizando tiempo operativo", de: "Komponentenausfälle durch Analyse von Sensordaten um Wartungsbedarf vorherzusagen bevor Ausfälle auftreten, maximiert Betriebszeit", nl: "Componentfalen door sensordata te analyseren om onderhoudsbehoeften te voorspellen voordat storingen optreden, maximaliseert uptime" },
+          { en: "Preventing vehicles from needing maintenance", es: "Prevenir que vehículos necesiten mantenimiento", de: "Verhindern dass Fahrzeuge Wartung benötigen", nl: "Voorkomen dat voertuigen onderhoud nodig hebben" },
+          { en: "Predictive analysis for vehicle sales", es: "Análisis predictivo para ventas de vehículos", de: "Prädiktive Analyse für Fahrzeugverkäufe", nl: "Voorspellende analyse voor voertuigverkoop" },
+          { en: "AI maintenance for predictive systems", es: "Mantenimiento IA para sistemas predictivos", de: "KI-Wartung für prädiktive Systeme", nl: "AI-onderhoud voor voorspellende systemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Machine learning analyzes vibration, temperature, wear patterns, and performance data to predict when components will fail, scheduling proactive maintenance and preventing costly breakdowns in autonomous vehicle fleets.",
+          es: "El aprendizaje automático analiza vibración, temperatura, patrones de desgaste y datos de rendimiento para predecir cuándo fallarán componentes, programando mantenimiento proactivo y previniendo averías costosas en flotas de vehículos autónomos.",
+          de: "Maschinelles Lernen analysiert Vibration, Temperatur, Verschleißmuster und Leistungsdaten um vorherzusagen wann Komponenten ausfallen werden, plant proaktive Wartung und verhindert kostspielige Ausfälle in autonomen Fahrzeugflotten.",
+          nl: "Machine learning analyseert vibratie, temperatuur, slijtagepatronen en prestatiedata om te voorspellen wanneer componenten zullen falen, plant proactief onderhoud en voorkomt kostbare storingen in autonome voertuigvloten."
+        }
+      },
+      {
+        question: {
+          en: "What is 'explainable autonomous driving AI' (XAI) providing for regulatory compliance?",
+          es: "¿Qué está proporcionando la 'IA de conducción autónoma explicable' (XAI) para cumplimiento regulatorio?",
+          de: "Was bietet 'erklärbare autonome Fahr-KI' (XAI) für regulatorische Compliance?",
+          nl: "Wat biedt 'verklaarbare autonome rij AI' (XAI) voor regelgevingscompliance?"
+        },
+        options: [
+          { en: "Transparent reasoning processes that allow regulators and users to understand why autonomous vehicles make specific decisions", es: "Procesos de razonamiento transparentes que permiten a reguladores y usuarios entender por qué vehículos autónomos toman decisiones específicas", de: "Transparente Reasoning-Prozesse die Regulatoren und Benutzern ermöglichen zu verstehen warum autonome Fahrzeuge spezifische Entscheidungen treffen", nl: "Transparante redeneringsprocessen die regelgevers en gebruikers in staat stellen te begrijpen waarom autonome voertuigen specifieke beslissingen nemen" },
+          { en: "Explainable vehicle features to passengers", es: "Características vehiculares explicables a pasajeros", de: "Erklärbare Fahrzeugfunktionen für Passagiere", nl: "Verklaarbare voertuigfuncties aan passagiers" },
+          { en: "AI that can explain driving rules", es: "IA que puede explicar reglas de conducción", de: "KI die Fahrregeln erklären kann", nl: "AI die rijregels kan uitleggen" },
+          { en: "Explanations for AI failures", es: "Explicaciones para fallas de IA", de: "Erklärungen für KI-Fehler", nl: "Uitleg voor AI-storingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "XAI techniques reveal the decision-making logic of autonomous systems, essential for debugging, legal liability determination, regulatory approval, and building public trust in self-driving technology.",
+          es: "Las técnicas XAI revelan la lógica de toma de decisiones de sistemas autónomos, esencial para depuración, determinación de responsabilidad legal, aprobación regulatoria y construir confianza pública en tecnología de conducción autónoma.",
+          de: "XAI-Techniken offenbaren die Entscheidungslogik autonomer Systeme, essentiell für Debugging, rechtliche Haftungsbestimmung, regulatorische Genehmigung und Aufbau öffentlichen Vertrauens in selbstfahrende Technologie.",
+          nl: "XAI-technieken onthullen de besluitvormingslogica van autonome systemen, essentieel voor debugging, juridische aansprakelijkheidsbepaling, regelgevingsgoedkeuring en opbouwen van publiek vertrouwen in zelfrijdende technologie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'vehicle-to-everything (V2X) AI coordination' enabling for connected mobility?",
+          es: "¿Qué está permitiendo la 'coordinación IA vehículo-a-todo (V2X)' para movilidad conectada?",
+          de: "Was ermöglicht 'Fahrzeug-zu-Allem (V2X) KI-Koordination' für vernetzte Mobilität?",
+          nl: "Wat maakt 'vehicle-to-everything (V2X) AI-coördinatie' mogelijk voor verbonden mobiliteit?"
+        },
+        options: [
+          { en: "Seamless communication between vehicles, infrastructure, pedestrians, and networks for cooperative driving and safety enhancement", es: "Comunicación fluida entre vehículos, infraestructura, peatones y redes para conducción cooperativa y mejora de seguridad", de: "Nahtlose Kommunikation zwischen Fahrzeugen, Infrastruktur, Fußgängern und Netzwerken für kooperatives Fahren und Sicherheitsverbesserung", nl: "Naadloze communicatie tussen voertuigen, infrastructuur, voetgangers en netwerken voor coöperatief rijden en veiligheidsverbetering" },
+          { en: "V2X communication for entertainment only", es: "Comunicación V2X solo para entretenimiento", de: "V2X-Kommunikation nur für Unterhaltung", nl: "V2X communicatie alleen voor entertainment" },
+          { en: "Vehicle to vehicle coordination only", es: "Solo coordinación vehículo a vehículo", de: "Nur Fahrzeug-zu-Fahrzeug-Koordination", nl: "Alleen voertuig-naar-voertuig coördinatie" },
+          { en: "AI for vehicle communication systems", es: "IA para sistemas de comunicación vehicular", de: "KI für Fahrzeugkommunikationssysteme", nl: "AI voor voertuigcommunicatiesystemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "V2X enables vehicles to share sensor data, coordinate maneuvers, receive traffic light information, and warn pedestrians, creating a cooperative ecosystem where all road users work together for safety and efficiency.",
+          es: "V2X permite a vehículos compartir datos de sensores, coordinar maniobras, recibir información de semáforos y advertir a peatones, creando un ecosistema cooperativo donde todos los usuarios viales trabajan juntos para seguridad y eficiencia.",
+          de: "V2X ermöglicht Fahrzeugen Sensordaten zu teilen, Manöver zu koordinieren, Ampel-Informationen zu empfangen und Fußgänger zu warnen, schafft ein kooperatives Ökosystem wo alle Verkehrsteilnehmer für Sicherheit und Effizienz zusammenarbeiten.",
+          nl: "V2X stelt voertuigen in staat sensordata te delen, manoeuvres te coördineren, verkeerslichtinformatie te ontvangen en voetgangers te waarschuwen, creëert een coöperatief ecosysteem waar alle weggebruikers samenwerken voor veiligheid en efficiëntie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'autonomous emergency response coordination' achieving for public safety?",
+          es: "¿Qué está logrando la 'coordinación autónoma de respuesta de emergencia' para seguridad pública?",
+          de: "Was erreicht 'autonome Notfall-Reaktionskoordination' für öffentliche Sicherheit?",
+          nl: "Wat bereikt 'autonome noodreactie coördinatie' voor openbare veiligheid?"
+        },
+        options: [
+          { en: "AI systems that automatically clear traffic paths, redirect vehicles, and coordinate emergency vehicle routing for fastest response times", es: "Sistemas IA que automáticamente despeja rutas de tráfico, redirige vehículos y coordina enrutamiento de vehículos de emergencia para tiempos de respuesta más rápidos", de: "KI-Systeme die automatisch Verkehrswege freimachen, Fahrzeuge umleiten und Notfahrzeug-Routing koordinieren für schnellste Reaktionszeiten", nl: "AI-systemen die automatisch verkeerspaden vrijmaken, voertuigen omleiden en hulpvoertuig routing coördineren voor snelste reactietijden" },
+          { en: "Autonomous emergency braking systems", es: "Sistemas de frenado de emergencia autónomo", de: "Autonome Notbremssysteme", nl: "Autonome noodremsystemen" },
+          { en: "Emergency response for autonomous failures", es: "Respuesta de emergencia para fallas autónomas", de: "Notfallreaktion für autonome Ausfälle", nl: "Noodreactie voor autonome storingen" },
+          { en: "Coordination of emergency vehicle purchases", es: "Coordinación de compras de vehículos de emergencia", de: "Koordination von Notfahrzeugkäufen", nl: "Coördinatie van hulpvoertuigaankopen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Connected vehicle networks can detect emergencies, communicate with all nearby vehicles to create clear paths, and optimize ambulance/fire truck routes in real-time, reducing emergency response times significantly.",
+          es: "Las redes de vehículos conectados pueden detectar emergencias, comunicarse con todos los vehículos cercanos para crear rutas despejadas y optimizar rutas de ambulancia/camión de bomberos en tiempo real, reduciendo tiempos de respuesta de emergencia significativamente.",
+          de: "Vernetzte Fahrzeugnetzwerke können Notfälle erkennen, mit allen nahen Fahrzeugen kommunizieren um freie Wege zu schaffen und Ambulanz-/Feuerwehrrouten in Echtzeit optimieren, reduziert Notfall-Reaktionszeiten erheblich.",
+          nl: "Verbonden voertuignetwerken kunnen noodsituaties detecteren, communiceren met alle nabijgelegen voertuigen om vrije paden te creëren en ambulance/brandweerroutes in realtime optimaliseren, vermindert noodreactietijden aanzienlijk."
+        }
+      },
+      {
+        question: {
+          en: "What is 'cross-modal transportation integration AI' optimizing for seamless journeys?",
+          es: "¿Qué está optimizando la 'IA de integración de transporte cross-modal' para viajes fluidos?",
+          de: "Was optimiert 'cross-modale Transportintegrations-KI' für nahtlose Reisen?",
+          nl: "Wat optimaliseert 'cross-modale transport integratie AI' voor naadloze reizen?"
+        },
+        options: [
+          { en: "Combining cars, trains, bikes, scooters, and flights into single optimized journey plans with automated transfers and payments", es: "Combinar autos, trenes, bicicletas, scooters y vuelos en planes de viaje únicos optimizados con transferencias y pagos automatizados", de: "Autos, Züge, Fahrräder, Scooter und Flüge in einzelne optimierte Reisepläne mit automatisierten Transfers und Zahlungen kombinieren", nl: "Auto's, treinen, fietsen, scooters en vluchten combineren in enkele geoptimaliseerde reisplannen met geautomatiseerde overstappen en betalingen" },
+          { en: "Cross-modal analysis of transportation modes", es: "Análisis cross-modal de modos de transporte", de: "Cross-modale Analyse von Transportmodi", nl: "Cross-modale analyse van transportmodi" },
+          { en: "Integration of different AI models", es: "Integración de diferentes modelos IA", de: "Integration verschiedener KI-Modelle", nl: "Integratie van verschillende AI-modellen" },
+          { en: "Modal transportation preferences", es: "Preferencias de transporte modal", de: "Modale Transportpräferenzen", nl: "Modale transportvoorkeuren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mobility-as-a-Service (MaaS) platforms use AI to plan optimal door-to-door journeys combining multiple transport modes, handling bookings, tickets, and transfers seamlessly for the traveler.",
+          es: "Las plataformas Mobility-as-a-Service (MaaS) usan IA para planificar viajes óptimos puerta-a-puerta combinando múltiples modos de transporte, manejando reservas, boletos y transferencias sin problemas para el viajero.",
+          de: "Mobility-as-a-Service (MaaS) Plattformen nutzen KI um optimale Tür-zu-Tür-Reisen zu planen die mehrere Transportmodi kombinieren, handhaben Buchungen, Tickets und Transfers nahtlos für den Reisenden.",
+          nl: "Mobility-as-a-Service (MaaS) platforms gebruiken AI om optimale deur-tot-deur reizen te plannen die meerdere transportmodi combineren, verwerken boekingen, tickets en overstappen naadloos voor de reiziger."
+        }
+      },
+      {
+        question: {
+          en: "What is 'bio-inspired navigation algorithms' contributing to autonomous vehicle pathfinding?",
+          es: "¿Qué están contribuyendo los 'algoritmos de navegación bio-inspirados' a búsqueda de rutas de vehículos autónomos?",
+          de: "Was tragen 'bio-inspirierte Navigationsalgorithmen' zur autonomen Fahrzeug-Pfadfindung bei?",
+          nl: "Wat dragen 'bio-geïnspireerde navigatie algoritmes' bij aan autonome voertuig routevinding?"
+        },
+        options: [
+          { en: "Navigation strategies inspired by animal migration patterns, ant foraging, and neural pathway formation for efficient route discovery", es: "Estrategias de navegación inspiradas en patrones de migración animal, forrajeo de hormigas y formación de vías neuronales para descubrimiento eficiente de rutas", de: "Navigationsstrategien inspiriert von Tierwanderungsmustern, Ameisensuche und neuraler Wegbildung für effiziente Routenfindung", nl: "Navigatiestrategieën geïnspireerd door dierlijke migratiepatronen, mierenfoerageren en neurale padvorming voor efficiënte route ontdekking" },
+          { en: "Biological sensors for navigation", es: "Sensores biológicos para navegación", de: "Biologische Sensoren für Navigation", nl: "Biologische sensoren voor navigatie" },
+          { en: "Navigation inspired by plant growth", es: "Navegación inspirada en crecimiento de plantas", de: "Navigation inspiriert von Pflanzenwachstum", nl: "Navigatie geïnspireerd door plantengroei" },
+          { en: "Bio-fuel based navigation systems", es: "Sistemas de navegación basados en biocombustible", de: "Biokraftstoff-basierte Navigationssysteme", nl: "Biobrandstof gebaseerde navigatiesystemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Algorithms inspired by how ants find optimal paths or how neurons form connections can discover efficient routes through complex urban environments, learning and adapting like biological systems.",
+          es: "Algoritmos inspirados en cómo las hormigas encuentran rutas óptimas o cómo las neuronas forman conexiones pueden descubrir rutas eficientes a través de entornos urbanos complejos, aprendiendo y adaptándose como sistemas biológicos.",
+          de: "Algorithmen inspiriert davon wie Ameisen optimale Pfade finden oder wie Neuronen Verbindungen bilden können effiziente Routen durch komplexe urbane Umgebungen entdecken, lernen und passen sich an wie biologische Systeme.",
+          nl: "Algoritmes geïnspireerd door hoe mieren optimale paden vinden of hoe neuronen verbindingen vormen kunnen efficiënte routes ontdekken door complexe stedelijke omgevingen, leren en aanpassen zoals biologische systemen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'privacy-preserving transportation AI' ensuring for user data protection?",
+          es: "¿Qué está asegurando la 'IA de transporte que preserva privacidad' para protección de datos de usuario?",
+          de: "Was gewährleistet 'datenschutzwahrende Transport-KI' für Benutzerdatenschutz?",
+          nl: "Wat waarborgt 'privacy-waarborgende transport AI' voor gebruikersgegevensbescherming?"
+        },
+        options: [
+          { en: "Processing location and travel data using encryption and differential privacy to provide services without exposing individual user information", es: "Procesar datos de ubicación y viaje usando encriptación y privacidad diferencial para proporcionar servicios sin exponer información individual de usuario", de: "Standort- und Reisedaten mit Verschlüsselung und differenzieller Privatsphäre verarbeiten um Dienste bereitzustellen ohne individuelle Benutzerinformationen offenzulegen", nl: "Locatie- en reisdata verwerken met encryptie en differential privacy om diensten te bieden zonder individuele gebruikersinformatie bloot te geven" },
+          { en: "Privacy settings in transportation apps", es: "Configuraciones de privacidad en aplicaciones de transporte", de: "Datenschutzeinstellungen in Transport-Apps", nl: "Privacy-instellingen in transport apps" },
+          { en: "Preserving transportation data securely", es: "Preservar datos de transporte de forma segura", de: "Transportdaten sicher bewahren", nl: "Transportdata veilig bewaren" },
+          { en: "AI that respects user privacy policies", es: "IA que respeta políticas de privacidad de usuario", de: "KI die Benutzer-Datenschutzrichtlinien respektiert", nl: "AI die gebruikers privacybeleid respecteert" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Advanced cryptographic techniques and federated learning allow transportation systems to optimize routes and services while mathematically guaranteeing that individual travel patterns remain private and secure.",
+          es: "Técnicas criptográficas avanzadas y aprendizaje federado permiten a sistemas de transporte optimizar rutas y servicios mientras garantizan matemáticamente que patrones de viaje individuales permanezcan privados y seguros.",
+          de: "Fortgeschrittene kryptographische Techniken und föderiertes Lernen ermöglichen Transportsystemen Routen und Dienste zu optimieren während mathematisch garantiert wird dass individuelle Reisemuster privat und sicher bleiben.",
+          nl: "Geavanceerde cryptografische technieken en federated learning stellen transportsystemen in staat routes en diensten te optimaliseren terwijl wiskundig wordt gegarandeerd dat individuele reispatronen privé en veilig blijven."
+        }
+      },
+      {
+        question: {
+          en: "What is 'AI-powered dynamic ride-sharing optimization' achieving for efficient urban mobility?",
+          es: "¿Qué está logrando la 'optimización de viajes compartidos dinámicos impulsada por IA' para movilidad urbana eficiente?",
+          de: "Was erreicht 'KI-gestützte dynamische Mitfahr-Optimierung' für effiziente urbane Mobilität?",
+          nl: "Wat bereikt 'AI-gedreven dynamische ride-sharing optimalisatie' voor efficiënte stedelijke mobiliteit?"
+        },
+        options: [
+          { en: "Real-time matching of riders with similar routes, dynamic pricing, and optimal pickup/dropoff sequencing to maximize vehicle utilization", es: "Emparejamiento en tiempo real de pasajeros con rutas similares, precios dinámicos y secuenciación óptima de recogida/bajada para maximizar utilización vehicular", de: "Echtzeit-Matching von Fahrgästen mit ähnlichen Routen, dynamische Preisgestaltung und optimale Abhol-/Absetzsequenzierung um Fahrzeugauslastung zu maximieren", nl: "Realtime matching van passagiers met vergelijkbare routes, dynamische prijsstelling en optimale ophaal/afzet volgorde om voertuigbenutting te maximaliseren" },
+          { en: "Ride-sharing for AI researchers only", es: "Viajes compartidos solo para investigadores IA", de: "Mitfahren nur für KI-Forscher", nl: "Ride-sharing alleen voor AI-onderzoekers" },
+          { en: "Dynamic vehicle sharing programs", es: "Programas dinámicos de compartir vehículos", de: "Dynamische Fahrzeugteilungsprogramme", nl: "Dynamische voertuigdeelprogramma's" },
+          { en: "Optimization of ride-sharing platforms", es: "Optimización de plataformas de viajes compartidos", de: "Optimierung von Mitfahr-Plattformen", nl: "Optimalisatie van ride-sharing platforms" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Advanced algorithms optimize ride-sharing by predicting demand, matching compatible passengers, adjusting routes in real-time, and setting dynamic prices to balance supply and demand while minimizing detours.",
+          es: "Algoritmos avanzados optimizan viajes compartidos prediciendo demanda, emparejando pasajeros compatibles, ajustando rutas en tiempo real y estableciendo precios dinámicos para equilibrar oferta y demanda mientras minimizan desvíos.",
+          de: "Fortgeschrittene Algorithmen optimieren Mitfahren durch Vorhersage der Nachfrage, Matching kompatibler Passagiere, Echtzeitrouten-Anpassung und dynamische Preisgestaltung um Angebot und Nachfrage auszugleichen während Umwege minimiert werden.",
+          nl: "Geavanceerde algoritmes optimaliseren ride-sharing door vraag te voorspellen, compatibele passagiers te matchen, routes in realtime aan te passen en dynamische prijzen in te stellen om vraag en aanbod te balanceren terwijl omwegen worden geminimaliseerd."
+        }
+      },
+      {
+        question: {
+          en: "What is 'autonomous fleet rebalancing' solving for shared mobility services?",
+          es: "¿Qué está resolviendo el 'rebalanceo autónomo de flotas' para servicios de movilidad compartida?",
+          de: "Was löst 'autonomes Flottenrebalancing' für gemeinsame Mobilitätsdienste?",
+          nl: "Wat lost 'autonome vlootherbalancering' op voor gedeelde mobiliteitsdiensten?"
+        },
+        options: [
+          { en: "Predicting demand patterns and autonomously repositioning idle vehicles to high-demand areas before riders request them", es: "Predecir patrones de demanda y reposicionar autónomamente vehículos inactivos a áreas de alta demanda antes de que pasajeros los soliciten", de: "Nachfragemuster vorhersagen und untätige Fahrzeuge autonom in Hochnachfragegebiete umpositionieren bevor Fahrgäste sie anfordern", nl: "Vraagpatronen voorspellen en autonome herpositionering van inactieve voertuigen naar gebieden met hoge vraag voordat reizigers ze aanvragen" },
+          { en: "Balancing weight distribution in vehicles", es: "Equilibrar distribución de peso en vehículos", de: "Gewichtsverteilung in Fahrzeugen ausbalancieren", nl: "Gewichtsverdeling in voertuigen balanceren" },
+          { en: "Rebalancing fleet budgets", es: "Rebalancear presupuestos de flotas", de: "Flottenbudgets neu ausbalancieren", nl: "Vlootbudgetten herbalanceren" },
+          { en: "Fleet maintenance balancing", es: "Equilibrio de mantenimiento de flotas", de: "Flottenausgleich", nl: "Vlootonderhoudsbalancering" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI analyzes historical and real-time data to predict where vehicles will be needed and proactively moves them, reducing wait times and ensuring availability while minimizing empty vehicle miles.",
+          es: "La IA analiza datos históricos y en tiempo real para predecir dónde se necesitarán vehículos y los mueve proactivamente, reduciendo tiempos de espera y asegurando disponibilidad mientras minimiza millas de vehículos vacíos.",
+          de: "KI analysiert historische und Echtzeitdaten um vorherzusagen wo Fahrzeuge benötigt werden und bewegt sie proaktiv, reduziert Wartezeiten und gewährleistet Verfügbarkeit während leere Fahrzeugkilometer minimiert werden.",
+          nl: "AI analyseert historische en realtime data om te voorspellen waar voertuigen nodig zullen zijn en verplaatst ze proactief, vermindert wachttijden en waarborgt beschikbaarheid terwijl lege voertuigkilometers worden geminimaliseerd."
+        }
+      },
+      {
+        question: {
+          en: "What is 'context-aware autonomous decision-making' enabling for complex driving scenarios?",
+          es: "¿Qué está permitiendo la 'toma de decisiones autónoma consciente del contexto' para escenarios de conducción complejos?",
+          de: "Was ermöglicht 'kontextbewusste autonome Entscheidungsfindung' für komplexe Fahrszenarien?",
+          nl: "Wat maakt 'context-bewuste autonome besluitvorming' mogelijk voor complexe rijscenario's?"
+        },
+        options: [
+          { en: "Understanding situational nuances like school zones at different times, funeral processions, or cultural driving norms to make appropriate decisions", es: "Entender matices situacionales como zonas escolares en diferentes momentos, procesiones fúnebres o normas culturales de conducción para tomar decisiones apropiadas", de: "Situative Nuancen verstehen wie Schulzonen zu verschiedenen Zeiten, Trauerprozessionen oder kulturelle Fahrnormen um angemessene Entscheidungen zu treffen", nl: "Situationele nuances begrijpen zoals schoolzones op verschillende tijden, begrafenisstoeten of culturele rijdnormen om geschikte beslissingen te nemen" },
+          { en: "Context menus for autonomous vehicles", es: "Menús contextuales para vehículos autónomos", de: "Kontextmenüs für autonome Fahrzeuge", nl: "Contextmenu's voor autonome voertuigen" },
+          { en: "Awareness of vehicle context settings", es: "Conciencia de configuraciones de contexto vehicular", de: "Bewusstsein von Fahrzeugkontext-Einstellungen", nl: "Bewustzijn van voertuigcontext instellingen" },
+          { en: "Decision-making based on weather context", es: "Toma de decisiones basada en contexto climático", de: "Entscheidungsfindung basierend auf Wetterkontext", nl: "Besluitvorming gebaseerd op weercontext" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Context-aware AI goes beyond traffic rules to understand social contexts, cultural norms, and special situations, enabling vehicles to behave appropriately whether encountering a wedding parade or navigating different countries' driving customs.",
+          es: "La IA consciente del contexto va más allá de reglas de tráfico para entender contextos sociales, normas culturales y situaciones especiales, permitiendo a vehículos comportarse apropiadamente ya sea encontrando un desfile de boda o navegando costumbres de conducción de diferentes países.",
+          de: "Kontextbewusste KI geht über Verkehrsregeln hinaus um soziale Kontexte, kulturelle Normen und besondere Situationen zu verstehen, ermöglicht Fahrzeugen sich angemessen zu verhalten ob beim Begegnen einer Hochzeitsparade oder beim Navigieren verschiedener Fahrgewohnheiten von Ländern.",
+          nl: "Context-bewuste AI gaat verder dan verkeersregels om sociale contexten, culturele normen en speciale situaties te begrijpen, stelt voertuigen in staat zich gepast te gedragen of ze nu een bruiloftsparade tegenkomen of door verschillende landen rijgewoonten navigeren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'AI-driven traffic incident detection and response' achieving for road safety?",
+          es: "¿Qué está logrando la 'detección y respuesta a incidentes de tráfico impulsada por IA' para seguridad vial?",
+          de: "Was erreicht 'KI-gesteuerte Verkehrsunfall-Erkennung und -Reaktion' für Verkehrssicherheit?",
+          nl: "Wat bereikt 'AI-gedreven verkeersincident detectie en respons' voor verkeersveiligheid?"
+        },
+        options: [
+          { en: "Instantly detecting accidents, breakdowns, or hazards using camera networks and vehicle data, then alerting authorities and rerouting traffic automatically", es: "Detectar instantáneamente accidentes, averías o peligros usando redes de cámaras y datos vehiculares, luego alertar autoridades y rerutar tráfico automáticamente", de: "Unfälle, Pannen oder Gefahren sofort mit Kameranetzwerken und Fahrzeugdaten erkennen, dann Behörden alarmieren und Verkehr automatisch umleiten", nl: "Onmiddellijk ongevallen, storingen of gevaren detecteren met cameranetwerken en voertuigdata, dan autoriteiten waarschuwen en verkeer automatisch omleiden" },
+          { en: "AI-driven incident investigation only", es: "Solo investigación de incidentes impulsada por IA", de: "Nur KI-gesteuerte Unfalluntersuchung", nl: "Alleen AI-gedreven incident onderzoek" },
+          { en: "Detection of AI system incidents", es: "Detección de incidentes de sistemas IA", de: "Erkennung von KI-System-Vorfällen", nl: "Detectie van AI-systeemincidenten" },
+          { en: "Response protocols for traffic violations", es: "Protocolos de respuesta para violaciones de tráfico", de: "Reaktionsprotokolle für Verkehrsverstöße", nl: "Responsprotocollen voor verkeersovertredingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Computer vision and IoT sensors detect incidents within seconds, automatically notify emergency services with precise locations, and coordinate traffic management systems to prevent secondary accidents and minimize congestion.",
+          es: "La visión computacional y sensores IoT detectan incidentes en segundos, notifican automáticamente servicios de emergencia con ubicaciones precisas y coordinan sistemas de gestión de tráfico para prevenir accidentes secundarios y minimizar congestión.",
+          de: "Computer Vision und IoT-Sensoren erkennen Vorfälle in Sekunden, benachrichtigen automatisch Notdienste mit präzisen Standorten und koordinieren Verkehrsmanagement-Systeme um Sekundärunfälle zu verhindern und Staus zu minimieren.",
+          nl: "Computer vision en IoT-sensoren detecteren incidenten binnen seconden, informeren automatisch hulpdiensten met precieze locaties en coördineren verkeersmanagement systemen om secundaire ongevallen te voorkomen en congestie te minimaliseren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'long-horizon planning AI' enabling for strategic transportation decisions?",
+          es: "¿Qué está permitiendo la 'IA de planificación de horizonte largo' para decisiones estratégicas de transporte?",
+          de: "Was ermöglicht 'Langzeithorizont-Planungs-KI' für strategische Transportentscheidungen?",
+          nl: "Wat maakt 'lange horizon planning AI' mogelijk voor strategische transportbeslissingen?"
+        },
+        options: [
+          { en: "AI that simultaneously optimizes immediate actions and long-term goals, considering future consequences of current transportation choices", es: "IA que optimiza simultáneamente acciones inmediatas y objetivos a largo plazo, considerando consecuencias futuras de elecciones de transporte actuales", de: "KI die gleichzeitig sofortige Aktionen und langfristige Ziele optimiert, zukünftige Konsequenzen aktueller Transportentscheidungen berücksichtigend", nl: "AI die tegelijkertijd onmiddellijke acties en langetermijndoelen optimaliseert, toekomstige consequenties van huidige transportkeuzes overwegend" },
+          { en: "Planning for long-distance transportation", es: "Planificación para transporte de larga distancia", de: "Planung für Langstreckentransport", nl: "Planning voor lange afstand transport" },
+          { en: "Long-term horizon visualization", es: "Visualización de horizonte a largo plazo", de: "Langzeithorizont-Visualisierung", nl: "Lange termijn horizon visualisatie" },
+          { en: "AI for extended planning periods", es: "IA para períodos de planificación extendidos", de: "KI für erweiterte Planungszeiträume", nl: "AI voor uitgebreide planningsperioden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Long-horizon AI balances split-second driving decisions with route efficiency, energy conservation, maintenance timing, and infrastructure impact, creating strategies that optimize both immediate and future outcomes.",
+          es: "La IA de horizonte largo equilibra decisiones de conducción de fracciones de segundo con eficiencia de ruta, conservación de energía, tiempo de mantenimiento e impacto de infraestructura, creando estrategias que optimizan resultados inmediatos y futuros.",
+          de: "Langzeithorizont-KI balanciert Sekundenbruchteile-Fahrentscheidungen mit Routeneffizienz, Energieerhaltung, Wartungszeit und Infrastrukturauswirkung, schafft Strategien die sowohl unmittelbare als auch zukünftige Ergebnisse optimieren.",
+          nl: "Lange horizon AI balanceert split-second rijbeslissingen met route-efficiëntie, energiebesparing, onderhoudstiming en infrastructuurimpact, creëert strategieën die zowel onmiddellijke als toekomstige uitkomsten optimaliseren."
+        }
       }
     ]
   };

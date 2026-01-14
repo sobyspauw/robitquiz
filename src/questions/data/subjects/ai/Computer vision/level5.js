@@ -427,6 +427,426 @@
           de: "Lernraten-Planung reduziert allmählich die Lernrate während des Trainings (z.B. Schritt-Zerfall, exponentieller Zerfall), ermöglicht schnelleres anfängliches Lernen und fein abgestimmte Konvergenz zu optimalen Parametern später.",
           nl: "Learning rate scheduling vermindert geleidelijk de learning rate tijdens training (bijv. step decay, exponential decay), staat sneller initieel leren en fijn afgestemde convergentie naar optimale parameters later toe."
         }
+      },
+      {
+        question: {
+          en: "What is the purpose of global average pooling in CNNs?",
+          es: "¿Cuál es el propósito del global average pooling en las CNN?",
+          de: "Was ist der Zweck des globalen Average-Poolings in CNNs?",
+          nl: "Wat is het doel van global average pooling in CNNs?"
+        },
+        options: [
+          { en: "Reduce each feature map to a single value by averaging all spatial locations", es: "Reducir cada mapa de características a un solo valor promediando todas las ubicaciones espaciales", de: "Jede Feature-Map auf einen einzelnen Wert reduzieren durch Mittelung aller räumlichen Positionen", nl: "Elke feature map reduceren tot een enkele waarde door alle ruimtelijke locaties te middelen" },
+          { en: "Calculate the global average of all pixel values in the image", es: "Calcular el promedio global de todos los valores de píxeles en la imagen", de: "Den globalen Durchschnitt aller Pixelwerte im Bild berechnen", nl: "Het globale gemiddelde van alle pixelwaarden in de afbeelding berekenen" },
+          { en: "Average the weights across all layers", es: "Promediar los pesos a través de todas las capas", de: "Die Gewichte über alle Schichten mitteln", nl: "De gewichten over alle lagen middelen" },
+          { en: "Pool features from multiple images together", es: "Agrupar características de múltiples imágenes juntas", de: "Features aus mehreren Bildern zusammenführen", nl: "Features van meerdere afbeeldingen samenvoegen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Global average pooling averages each entire feature map into a single value, reducing spatial dimensions completely while maintaining channel count, often used before final classification layers to reduce parameters.",
+          es: "Global average pooling promedia cada mapa de características completo en un solo valor, reduciendo dimensiones espaciales completamente mientras mantiene el conteo de canales, a menudo usado antes de capas de clasificación final para reducir parámetros.",
+          de: "Globales Average-Pooling mittelt jede gesamte Feature-Map zu einem einzelnen Wert, reduziert räumliche Dimensionen vollständig während Kanalanzahl beibehalten wird, oft vor finalen Klassifikationsschichten verwendet um Parameter zu reduzieren.",
+          nl: "Global average pooling middelt elke volledige feature map tot een enkele waarde, vermindert ruimtelijke dimensies volledig terwijl kanaaltellingen behouden blijven, vaak gebruikt voor finale classificatielagen om parameters te verminderen."
+        }
+      },
+      {
+        question: {
+          en: "What is the role of 1x1 convolutions in CNN architectures?",
+          es: "¿Cuál es el papel de las convoluciones 1x1 en arquitecturas CNN?",
+          de: "Was ist die Rolle von 1x1-Faltungen in CNN-Architekturen?",
+          nl: "Wat is de rol van 1x1 convoluties in CNN architecturen?"
+        },
+        options: [
+          { en: "Reduce or increase channel dimensions without affecting spatial dimensions", es: "Reducir o aumentar dimensiones de canal sin afectar dimensiones espaciales", de: "Kanal-Dimensionen reduzieren oder erhöhen ohne räumliche Dimensionen zu beeinflussen", nl: "Kanaaldimensies verminderen of verhogen zonder ruimtelijke dimensies te beïnvloeden" },
+          { en: "Always reduce image size to 1x1 pixel", es: "Siempre reducir tamaño de imagen a 1x1 píxel", de: "Bildgröße immer auf 1x1 Pixel reduzieren", nl: "Afbeeldingsgrootte altijd reduceren tot 1x1 pixel" },
+          { en: "Perform edge detection on images", es: "Realizar detección de bordes en imágenes", de: "Kantenerkennung auf Bildern durchführen", nl: "Randdetectie uitvoeren op afbeeldingen" },
+          { en: "Initialize all filter weights to one", es: "Inicializar todos los pesos de filtro a uno", de: "Alle Filtergewichte auf eins initialisieren", nl: "Alle filtergewichten initialiseren op één" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "1x1 convolutions perform dimensionality reduction or expansion across channels, add non-linearity, and enable efficient cross-channel information mixing, used extensively in architectures like Inception and MobileNet.",
+          es: "Las convoluciones 1x1 realizan reducción o expansión de dimensionalidad a través de canales, agregan no linealidad y permiten mezcla eficiente de información entre canales, usadas extensivamente en arquitecturas como Inception y MobileNet.",
+          de: "1x1-Faltungen führen Dimensionsreduktion oder -erweiterung über Kanäle durch, fügen Nichtlinearität hinzu und ermöglichen effiziente kanalübergreifende Informationsmischung, werden extensiv in Architekturen wie Inception und MobileNet verwendet.",
+          nl: "1x1 convoluties voeren dimensionaliteitsreductie of -uitbreiding uit over kanalen, voegen non-lineariteit toe en maken efficiënte kruiskanaal informatiemenging mogelijk, uitgebreid gebruikt in architecturen zoals Inception en MobileNet."
+        }
+      },
+      {
+        question: {
+          en: "What is the Inception module's key innovation in CNN design?",
+          es: "¿Cuál es la innovación clave del módulo Inception en diseño de CNN?",
+          de: "Was ist die Schlüsselinnovation des Inception-Moduls im CNN-Design?",
+          nl: "Wat is de belangrijkste innovatie van de Inception module in CNN ontwerp?"
+        },
+        options: [
+          { en: "Applying multiple filter sizes in parallel at the same layer", es: "Aplicar múltiples tamaños de filtro en paralelo en la misma capa", de: "Mehrere Filtergrößen parallel in derselben Schicht anwenden", nl: "Meerdere filtergroottes parallel toepassen in dezelfde laag" },
+          { en: "Using only 3x3 filters throughout the network", es: "Usar solo filtros 3x3 en toda la red", de: "Nur 3x3-Filter im gesamten Netzwerk verwenden", nl: "Alleen 3x3 filters gebruiken door het hele netwerk" },
+          { en: "Eliminating all pooling layers", es: "Eliminar todas las capas de pooling", de: "Alle Pooling-Schichten eliminieren", nl: "Alle pooling lagen elimineren" },
+          { en: "Training with inception images only", es: "Entrenar solo con imágenes de inicio", de: "Nur mit Inception-Bildern trainieren", nl: "Alleen trainen met inception afbeeldingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Inception modules apply 1x1, 3x3, and 5x5 convolutions in parallel on the same input, then concatenate the results, capturing features at multiple scales simultaneously and improving network efficiency.",
+          es: "Los módulos Inception aplican convoluciones 1x1, 3x3 y 5x5 en paralelo en la misma entrada, luego concatenan los resultados, capturando características en múltiples escalas simultáneamente y mejorando la eficiencia de la red.",
+          de: "Inception-Module wenden 1x1-, 3x3- und 5x5-Faltungen parallel auf dieselbe Eingabe an, verketten dann die Ergebnisse, erfassen Features auf mehreren Skalen gleichzeitig und verbessern Netzwerkeffizienz.",
+          nl: "Inception modules passen 1x1, 3x3 en 5x5 convoluties parallel toe op dezelfde input, voegen vervolgens de resultaten samen, leggen features op meerdere schalen tegelijkertijd vast en verbeteren netwerkefficiëntie."
+        }
+      },
+      {
+        question: {
+          en: "What is the main advantage of depthwise separable convolutions used in MobileNet?",
+          es: "¿Cuál es la ventaja principal de las convoluciones separables en profundidad usadas en MobileNet?",
+          de: "Was ist der Hauptvorteil von depthwise separierbaren Faltungen in MobileNet?",
+          nl: "Wat is het hoofdvoordeel van depthwise separable convoluties gebruikt in MobileNet?"
+        },
+        options: [
+          { en: "Drastically reduce computation and parameters while maintaining performance", es: "Reducir drásticamente computación y parámetros mientras mantienen rendimiento", de: "Berechnung und Parameter drastisch reduzieren während Leistung beibehalten wird", nl: "Computatie en parameters drastisch verminderen terwijl prestaties behouden blijven" },
+          { en: "Increase network depth to thousands of layers", es: "Aumentar profundidad de red a miles de capas", de: "Netzwerktiefe auf Tausende von Schichten erhöhen", nl: "Netwerkdiepte verhogen tot duizenden lagen" },
+          { en: "Work only on mobile phone cameras", es: "Funcionar solo en cámaras de teléfonos móviles", de: "Nur auf Handy-Kameras funktionieren", nl: "Alleen werken op mobiele telefoon camera's" },
+          { en: "Process images at higher resolution", es: "Procesar imágenes a mayor resolución", de: "Bilder in höherer Auflösung verarbeiten", nl: "Afbeeldingen op hogere resolutie verwerken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Depthwise separable convolutions split standard convolution into depthwise (spatial filtering per channel) and pointwise (1x1 cross-channel) operations, reducing computational cost by 8-9x with minimal accuracy loss.",
+          es: "Las convoluciones separables en profundidad dividen la convolución estándar en operaciones depthwise (filtrado espacial por canal) y pointwise (1x1 entre canales), reduciendo costo computacional en 8-9x con pérdida mínima de precisión.",
+          de: "Depthwise separierbare Faltungen teilen Standard-Faltung in depthwise (räumliche Filterung pro Kanal) und pointwise (1x1 kanalübergreifende) Operationen, reduzieren Rechenkosten um 8-9x mit minimalem Genauigkeitsverlust.",
+          nl: "Depthwise separable convoluties splitsen standaard convolutie in depthwise (ruimtelijke filtering per kanaal) en pointwise (1x1 kruiskanaal) operaties, verminderen computationele kosten met 8-9x met minimaal nauwkeurigheidsverlies."
+        }
+      },
+      {
+        question: {
+          en: "What is the primary purpose of attention mechanisms in vision transformers?",
+          es: "¿Cuál es el propósito principal de los mecanismos de atención en transformadores de visión?",
+          de: "Was ist der Hauptzweck von Aufmerksamkeitsmechanismen in Vision Transformers?",
+          nl: "Wat is het primaire doel van attention mechanismen in vision transformers?"
+        },
+        options: [
+          { en: "Allow the model to focus on relevant image regions dynamically", es: "Permitir que el modelo se enfoque en regiones de imagen relevantes dinámicamente", de: "Dem Modell ermöglichen sich dynamisch auf relevante Bildbereiche zu konzentrieren", nl: "Het model toestaan zich dynamisch te concentreren op relevante afbeeldingsregio's" },
+          { en: "Reduce the attention span of neural networks", es: "Reducir el lapso de atención de redes neuronales", de: "Die Aufmerksamkeitsspanne neuronaler Netzwerke reduzieren", nl: "De aandachtsspanne van neurale netwerken verminderen" },
+          { en: "Highlight images for human viewers", es: "Resaltar imágenes para espectadores humanos", de: "Bilder für menschliche Betrachter hervorheben", nl: "Afbeeldingen markeren voor menselijke kijkers" },
+          { en: "Speed up image preprocessing", es: "Acelerar preprocesamiento de imagen", de: "Bild-Vorverarbeitung beschleunigen", nl: "Beeldvoorverwerking versnellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Attention mechanisms compute relationships between different image patches, enabling the model to weigh the importance of different spatial locations adaptively, capturing long-range dependencies better than convolutions.",
+          es: "Los mecanismos de atención calculan relaciones entre diferentes parches de imagen, permitiendo al modelo ponderar la importancia de diferentes ubicaciones espaciales adaptativamente, capturando dependencias de largo alcance mejor que convoluciones.",
+          de: "Aufmerksamkeitsmechanismen berechnen Beziehungen zwischen verschiedenen Bild-Patches, ermöglichen dem Modell die Wichtigkeit verschiedener räumlicher Positionen adaptiv zu gewichten, erfassen Langstrecken-Abhängigkeiten besser als Faltungen.",
+          nl: "Attention mechanismen berekenen relaties tussen verschillende afbeeldingspatches, stellen het model in staat het belang van verschillende ruimtelijke locaties adaptief te wegen, leggen langere-afstands afhankelijkheden beter vast dan convoluties."
+        }
+      },
+      {
+        question: {
+          en: "What problem does batch normalization help address besides training speed?",
+          es: "¿Qué problema ayuda a abordar la normalización por lotes además de velocidad de entrenamiento?",
+          de: "Welches Problem hilft Batch-Normalisierung neben Trainingsgeschwindigkeit zu adressieren?",
+          nl: "Welk probleem helpt batch normalization aanpakken naast trainingssnelheid?"
+        },
+        options: [
+          { en: "Internal covariate shift caused by changing distributions in layers", es: "Cambio covariado interno causado por distribuciones cambiantes en capas", de: "Interne Kovariatenverschiebung verursacht durch sich ändernde Verteilungen in Schichten", nl: "Interne covariate shift veroorzaakt door veranderende distributies in lagen" },
+          { en: "External data corruption during preprocessing", es: "Corrupción de datos externa durante preprocesamiento", de: "Externe Datenkorruption während Vorverarbeitung", nl: "Externe datacorruptie tijdens voorverwerking" },
+          { en: "Batch size limitations in hardware", es: "Limitaciones de tamaño de lote en hardware", de: "Batch-Größen-Einschränkungen in Hardware", nl: "Batch grootte beperkingen in hardware" },
+          { en: "Image format incompatibilities", es: "Incompatibilidades de formato de imagen", de: "Bildformat-Inkompatibilitäten", nl: "Beeldformaat incompatibiliteiten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Internal covariate shift occurs when layer input distributions change during training as previous layer parameters update, making learning unstable. Batch normalization normalizes these distributions, stabilizing training.",
+          es: "El cambio covariado interno ocurre cuando las distribuciones de entrada de capa cambian durante el entrenamiento mientras los parámetros de capa anterior se actualizan, haciendo el aprendizaje inestable. La normalización por lotes normaliza estas distribuciones, estabilizando el entrenamiento.",
+          de: "Interne Kovariatenverschiebung tritt auf wenn Schichteingabe-Verteilungen sich während Training ändern während vorherige Schichtparameter aktualisiert werden, macht Lernen instabil. Batch-Normalisierung normalisiert diese Verteilungen, stabilisiert Training.",
+          nl: "Interne covariate shift treedt op wanneer laaginput distributies veranderen tijdens training terwijl vorige laagparameters updaten, maakt leren instabiel. Batch normalization normaliseert deze distributies, stabiliseert training."
+        }
+      },
+      {
+        question: {
+          en: "What is the key idea behind knowledge distillation in neural networks?",
+          es: "¿Cuál es la idea clave detrás de la destilación de conocimiento en redes neuronales?",
+          de: "Was ist die Schlüsselidee hinter Wissensdestillation in neuronalen Netzwerken?",
+          nl: "Wat is het sleutelidee achter knowledge distillation in neurale netwerken?"
+        },
+        options: [
+          { en: "Train a smaller student model to mimic a larger teacher model's behavior", es: "Entrenar un modelo estudiante más pequeño para imitar el comportamiento de un modelo maestro más grande", de: "Ein kleineres Schüler-Modell trainieren um das Verhalten eines größeren Lehrer-Modells nachzuahmen", nl: "Een kleiner student model trainen om het gedrag van een groter teacher model na te bootsen" },
+          { en: "Extract pure knowledge from training data", es: "Extraer conocimiento puro de datos de entrenamiento", de: "Reines Wissen aus Trainingsdaten extrahieren", nl: "Zuivere kennis extraheren uit trainingsdata" },
+          { en: "Compress images before network processing", es: "Comprimir imágenes antes del procesamiento de red", de: "Bilder vor Netzwerkverarbeitung komprimieren", nl: "Afbeeldingen comprimeren voor netwerkverwerking" },
+          { en: "Remove unnecessary knowledge from networks", es: "Eliminar conocimiento innecesario de redes", de: "Unnötiges Wissen aus Netzwerken entfernen", nl: "Onnodige kennis uit netwerken verwijderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Knowledge distillation transfers learned representations from a complex, high-performing teacher model to a simpler student model by training the student to match the teacher's soft predictions, achieving similar performance with fewer parameters.",
+          es: "La destilación de conocimiento transfiere representaciones aprendidas de un modelo maestro complejo y de alto rendimiento a un modelo estudiante más simple entrenando al estudiante para igualar las predicciones suaves del maestro, logrando rendimiento similar con menos parámetros.",
+          de: "Wissensdestillation überträgt gelernte Repräsentationen von einem komplexen, hochleistenden Lehrer-Modell zu einem einfacheren Schüler-Modell durch Training des Schülers um die weichen Vorhersagen des Lehrers zu entsprechen, erreicht ähnliche Leistung mit weniger Parametern.",
+          nl: "Knowledge distillation draagt geleerde representaties over van een complex, hoogpresterend teacher model naar een eenvoudiger student model door de student te trainen om de zachte voorspellingen van de teacher te matchen, bereikt vergelijkbare prestaties met minder parameters."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of label smoothing in classification tasks?",
+          es: "¿Cuál es el propósito del suavizado de etiquetas en tareas de clasificación?",
+          de: "Was ist der Zweck von Label Smoothing in Klassifikationsaufgaben?",
+          nl: "Wat is het doel van label smoothing bij classificatietaken?"
+        },
+        options: [
+          { en: "Prevent overconfidence by assigning small probabilities to incorrect classes", es: "Prevenir exceso de confianza asignando pequeñas probabilidades a clases incorrectas", de: "Übermäßiges Vertrauen verhindern durch Zuweisen kleiner Wahrscheinlichkeiten zu falschen Klassen", nl: "Overmatig vertrouwen voorkomen door kleine waarschijnlijkheden toe te wijzen aan incorrecte klassen" },
+          { en: "Make label text easier to read", es: "Hacer que el texto de etiqueta sea más fácil de leer", de: "Labeltext leichter lesbar machen", nl: "Labeltekst makkelijker leesbaar maken" },
+          { en: "Smooth out jagged edges in images", es: "Suavizar bordes dentados en imágenes", de: "Gezackte Kanten in Bildern glätten", nl: "Gekartelde randen in afbeeldingen gladstrijken" },
+          { en: "Average labels across multiple annotators", es: "Promediar etiquetas entre múltiples anotadores", de: "Labels über mehrere Annotatoren mitteln", nl: "Labels middelen over meerdere annotators" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Label smoothing replaces hard targets (e.g., [0,1,0]) with soft targets (e.g., [0.05,0.9,0.05]), preventing the model from becoming overly confident and improving generalization by encouraging less extreme predictions.",
+          es: "El suavizado de etiquetas reemplaza objetivos duros (ej., [0,1,0]) con objetivos suaves (ej., [0.05,0.9,0.05]), previniendo que el modelo se vuelva excesivamente confiado y mejorando generalización al fomentar predicciones menos extremas.",
+          de: "Label Smoothing ersetzt harte Ziele (z.B. [0,1,0]) mit weichen Zielen (z.B. [0.05,0.9,0.05]), verhindert dass das Modell übermäßig zuversichtlich wird und verbessert Generalisierung durch Förderung weniger extremer Vorhersagen.",
+          nl: "Label smoothing vervangt harde doelen (bijv. [0,1,0]) met zachte doelen (bijv. [0.05,0.9,0.05]), voorkomt dat het model te overtuigd wordt en verbetert generalisatie door minder extreme voorspellingen aan te moedigen."
+        }
+      },
+      {
+        question: {
+          en: "What is the exploding gradient problem in deep learning?",
+          es: "¿Qué es el problema del gradiente explosivo en aprendizaje profundo?",
+          de: "Was ist das Problem explodierender Gradienten im Deep Learning?",
+          nl: "Wat is het exploderende gradiënt probleem in deep learning?"
+        },
+        options: [
+          { en: "Gradients become extremely large, causing unstable weight updates", es: "Los gradientes se vuelven extremadamente grandes, causando actualizaciones de peso inestables", de: "Gradienten werden extrem groß, verursachen instabile Gewichtsaktualisierungen", nl: "Gradiënten worden extreem groot, veroorzaken instabiele gewicht updates" },
+          { en: "Network architecture physically explodes during training", es: "La arquitectura de red explota físicamente durante entrenamiento", de: "Netzwerkarchitektur explodiert physisch während Training", nl: "Netwerkarchitectuur explodeert fysiek tijdens training" },
+          { en: "Too many gradients are computed simultaneously", es: "Demasiados gradientes se calculan simultáneamente", de: "Zu viele Gradienten werden gleichzeitig berechnet", nl: "Te veel gradiënten worden gelijktijdig berekend" },
+          { en: "Gradients spread too widely across layers", es: "Los gradientes se extienden demasiado ampliamente a través de capas", de: "Gradienten verbreiten sich zu weit über Schichten", nl: "Gradiënten verspreiden zich te wijd over lagen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "When gradients grow exponentially during backpropagation through many layers, weight updates become very large, causing numerical instability and divergence. Gradient clipping is commonly used to address this.",
+          es: "Cuando los gradientes crecen exponencialmente durante retropropagación a través de muchas capas, las actualizaciones de peso se vuelven muy grandes, causando inestabilidad numérica y divergencia. El recorte de gradientes se usa comúnmente para abordar esto.",
+          de: "Wenn Gradienten während Backpropagation durch viele Schichten exponentiell wachsen, werden Gewichtsaktualisierungen sehr groß, verursachen numerische Instabilität und Divergenz. Gradienten-Clipping wird häufig verwendet um dies zu adressieren.",
+          nl: "Wanneer gradiënten exponentieel groeien tijdens backpropagation door vele lagen, worden gewicht updates zeer groot, veroorzaken numerieke instabiliteit en divergentie. Gradient clipping wordt vaak gebruikt om dit aan te pakken."
+        }
+      },
+      {
+        question: {
+          en: "What advantage does mixed precision training provide?",
+          es: "¿Qué ventaja proporciona el entrenamiento de precisión mixta?",
+          de: "Welchen Vorteil bietet Mixed-Precision-Training?",
+          nl: "Welk voordeel biedt mixed precision training?"
+        },
+        options: [
+          { en: "Faster training and reduced memory usage by using both 16-bit and 32-bit floats", es: "Entrenamiento más rápido y uso de memoria reducido usando flotantes de 16 y 32 bits", de: "Schnelleres Training und reduzierter Speicherverbrauch durch Verwendung von 16-Bit und 32-Bit Floats", nl: "Snellere training en verminderd geheugengebruik door zowel 16-bit als 32-bit floats te gebruiken" },
+          { en: "Train models with mixed accuracy levels", es: "Entrenar modelos con niveles de precisión mixtos", de: "Modelle mit gemischten Genauigkeitsstufen trainieren", nl: "Modellen trainen met gemengde nauwkeurigheidsniveaus" },
+          { en: "Combine precise and imprecise training data", es: "Combinar datos de entrenamiento precisos e imprecisos", de: "Präzise und unpräzise Trainingsdaten kombinieren", nl: "Precieze en onprecieze trainingsdata combineren" },
+          { en: "Use different precision for different classes", es: "Usar diferente precisión para diferentes clases", de: "Verschiedene Präzision für verschiedene Klassen verwenden", nl: "Verschillende precisie gebruiken voor verschillende klassen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mixed precision training uses float16 for most operations (faster, less memory) while keeping critical operations in float32 (maintaining numerical stability), often speeding up training 2-3x on modern GPUs.",
+          es: "El entrenamiento de precisión mixta usa float16 para la mayoría de operaciones (más rápido, menos memoria) mientras mantiene operaciones críticas en float32 (manteniendo estabilidad numérica), a menudo acelerando entrenamiento 2-3x en GPUs modernas.",
+          de: "Mixed-Precision-Training verwendet float16 für die meisten Operationen (schneller, weniger Speicher) während kritische Operationen in float32 gehalten werden (Aufrechterhaltung numerischer Stabilität), beschleunigt oft Training 2-3x auf modernen GPUs.",
+          nl: "Mixed precision training gebruikt float16 voor de meeste operaties (sneller, minder geheugen) terwijl kritische operaties in float32 worden gehouden (numerieke stabiliteit behouden), versnelt training vaak 2-3x op moderne GPUs."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of curriculum learning in training neural networks?",
+          es: "¿Cuál es el propósito del aprendizaje curricular en el entrenamiento de redes neuronales?",
+          de: "Was ist der Zweck von Curriculum Learning beim Training neuronaler Netzwerke?",
+          nl: "Wat is het doel van curriculum learning bij het trainen van neurale netwerken?"
+        },
+        options: [
+          { en: "Train on easier examples first, gradually increasing difficulty", es: "Entrenar primero con ejemplos más fáciles, aumentando gradualmente la dificultad", de: "Zuerst auf einfacheren Beispielen trainieren, Schwierigkeit schrittweise erhöhen", nl: "Eerst trainen op makkelijkere voorbeelden, geleidelijk moeilijkheidsgraad verhogen" },
+          { en: "Follow a strict curriculum schedule for training hours", es: "Seguir un horario curricular estricto para horas de entrenamiento", de: "Einem strengen Lehrplan-Zeitplan für Trainingsstunden folgen", nl: "Een strikt curriculum schema volgen voor trainingsuren" },
+          { en: "Teach the network different subjects sequentially", es: "Enseñar a la red diferentes materias secuencialmente", de: "Dem Netzwerk verschiedene Fächer sequenziell beibringen", nl: "Het netwerk verschillende vakken sequentieel leren" },
+          { en: "Create educational materials from training data", es: "Crear materiales educativos a partir de datos de entrenamiento", de: "Bildungsmaterialien aus Trainingsdaten erstellen", nl: "Educatieve materialen maken uit trainingsdata" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Curriculum learning mimics human learning by presenting training examples in a meaningful order from simple to complex, often leading to faster convergence, better generalization, and avoiding poor local minima.",
+          es: "El aprendizaje curricular imita el aprendizaje humano presentando ejemplos de entrenamiento en un orden significativo de simple a complejo, a menudo llevando a convergencia más rápida, mejor generalización y evitando mínimos locales pobres.",
+          de: "Curriculum Learning ahmt menschliches Lernen nach durch Präsentation von Trainingsbeispielen in sinnvoller Reihenfolge von einfach zu komplex, führt oft zu schnellerer Konvergenz, besserer Generalisierung und Vermeidung schlechter lokaler Minima.",
+          nl: "Curriculum learning bootst menselijk leren na door trainingsvoorbeelden in een betekenisvolle volgorde te presenteren van eenvoudig naar complex, leidt vaak tot snellere convergentie, betere generalisatie en vermijding van slechte lokale minima."
+        }
+      },
+      {
+        question: {
+          en: "What is the main purpose of using weight decay (L2 regularization) in training?",
+          es: "¿Cuál es el propósito principal de usar decaimiento de peso (regularización L2) en el entrenamiento?",
+          de: "Was ist der Hauptzweck der Verwendung von Weight Decay (L2-Regularisierung) beim Training?",
+          nl: "Wat is het hoofddoel van het gebruik van weight decay (L2 regularisatie) bij training?"
+        },
+        options: [
+          { en: "Prevent overfitting by penalizing large weight values", es: "Prevenir sobreajuste penalizando valores de peso grandes", de: "Overfitting verhindern durch Bestrafung großer Gewichtswerte", nl: "Overfitting voorkomen door grote gewichtwaarden te straffen" },
+          { en: "Make weights decrease over time automatically", es: "Hacer que los pesos disminuyan automáticamente con el tiempo", de: "Gewichte automatisch mit der Zeit verringern", nl: "Gewichten automatisch laten afnemen in de loop van de tijd" },
+          { en: "Reduce the physical weight of neural networks", es: "Reducir el peso físico de redes neuronales", de: "Das physische Gewicht neuronaler Netzwerke reduzieren", nl: "Het fysieke gewicht van neurale netwerken verminderen" },
+          { en: "Speed up backpropagation calculations", es: "Acelerar cálculos de retropropagación", de: "Backpropagation-Berechnungen beschleunigen", nl: "Backpropagation berekeningen versnellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Weight decay adds a penalty proportional to the square of weight magnitudes to the loss function, encouraging smaller weights and simpler models, which helps prevent overfitting and improves generalization.",
+          es: "El decaimiento de peso agrega una penalización proporcional al cuadrado de las magnitudes de peso a la función de pérdida, fomentando pesos más pequeños y modelos más simples, lo que ayuda a prevenir el sobreajuste y mejora la generalización.",
+          de: "Weight Decay fügt eine Strafe proportional zum Quadrat der Gewichtsgrößen zur Verlustfunktion hinzu, fördert kleinere Gewichte und einfachere Modelle, was Overfitting verhindert und Generalisierung verbessert.",
+          nl: "Weight decay voegt een straf toe proportioneel aan het kwadraat van gewichtgroottes aan de verliesfunctie, moedigt kleinere gewichten en eenvoudigere modellen aan, wat overfitting helpt voorkomen en generalisatie verbetert."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes object detection from image classification?",
+          es: "¿Qué distingue la detección de objetos de la clasificación de imágenes?",
+          de: "Was unterscheidet Objekterkennung von Bildklassifikation?",
+          nl: "Wat onderscheidt objectdetectie van beeldclassificatie?"
+        },
+        options: [
+          { en: "Object detection localizes and classifies multiple objects, classification assigns one label", es: "Detección de objetos localiza y clasifica múltiples objetos, clasificación asigna una etiqueta", de: "Objekterkennung lokalisiert und klassifiziert mehrere Objekte, Klassifikation weist ein Label zu", nl: "Objectdetectie lokaliseert en classificeert meerdere objecten, classificatie wijst één label toe" },
+          { en: "Object detection is always faster than classification", es: "Detección de objetos es siempre más rápida que clasificación", de: "Objekterkennung ist immer schneller als Klassifikation", nl: "Objectdetectie is altijd sneller dan classificatie" },
+          { en: "Classification requires more training data", es: "Clasificación requiere más datos de entrenamiento", de: "Klassifikation benötigt mehr Trainingsdaten", nl: "Classificatie vereist meer trainingsdata" },
+          { en: "They are exactly the same task", es: "Son exactamente la misma tarea", de: "Sie sind genau dieselbe Aufgabe", nl: "Ze zijn precies dezelfde taak" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Image classification assigns a single label to an entire image, while object detection identifies and localizes multiple objects with bounding boxes and class labels, providing both 'what' and 'where' information.",
+          es: "La clasificación de imágenes asigna una sola etiqueta a una imagen completa, mientras que la detección de objetos identifica y localiza múltiples objetos con cajas delimitadoras y etiquetas de clase, proporcionando información de 'qué' y 'dónde'.",
+          de: "Bildklassifikation weist einem gesamten Bild ein einzelnes Label zu, während Objekterkennung mehrere Objekte mit Begrenzungsrahmen und Klassenlabels identifiziert und lokalisiert, bietet sowohl 'was' als auch 'wo' Informationen.",
+          nl: "Beeldclassificatie wijst één label toe aan een hele afbeelding, terwijl objectdetectie meerdere objecten identificeert en lokaliseert met bounding boxes en klasselabels, biedt zowel 'wat' als 'waar' informatie."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of anchor boxes in object detection models like YOLO and Faster R-CNN?",
+          es: "¿Cuál es el propósito de las cajas ancla en modelos de detección de objetos como YOLO y Faster R-CNN?",
+          de: "Was ist der Zweck von Anchor Boxes in Objekterkennungsmodellen wie YOLO und Faster R-CNN?",
+          nl: "Wat is het doel van anchor boxes in objectdetectie modellen zoals YOLO en Faster R-CNN?"
+        },
+        options: [
+          { en: "Provide reference boxes of various sizes and ratios for detecting objects", es: "Proporcionar cajas de referencia de varios tamaños y proporciones para detectar objetos", de: "Referenzboxen verschiedener Größen und Verhältnisse für Objekterkennung bereitstellen", nl: "Referentieboxen van verschillende groottes en verhoudingen bieden voor objectdetectie" },
+          { en: "Anchor images to prevent movement during processing", es: "Anclar imágenes para prevenir movimiento durante procesamiento", de: "Bilder verankern um Bewegung während Verarbeitung zu verhindern", nl: "Afbeeldingen verankeren om beweging tijdens verwerking te voorkomen" },
+          { en: "Store detected objects in memory anchors", es: "Almacenar objetos detectados en anclas de memoria", de: "Erkannte Objekte in Speicherankern speichern", nl: "Gedetecteerde objecten opslaan in geheugenankers" },
+          { en: "Create anchor points for image stitching", es: "Crear puntos de anclaje para unión de imágenes", de: "Ankerpunkte für Bild-Stitching erstellen", nl: "Ankerpunten maken voor afbeeldingsteken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Anchor boxes are predefined bounding boxes with different aspect ratios and scales that serve as reference templates. The model predicts offsets from these anchors to better handle objects of various sizes and shapes.",
+          es: "Las cajas ancla son cajas delimitadoras predefinidas con diferentes proporciones de aspecto y escalas que sirven como plantillas de referencia. El modelo predice desplazamientos desde estos anclas para manejar mejor objetos de varios tamaños y formas.",
+          de: "Anchor Boxes sind vordefinierte Begrenzungsrahmen mit verschiedenen Seitenverhältnissen und Skalen die als Referenzvorlagen dienen. Das Modell sagt Verschiebungen von diesen Ankern vorher um Objekte verschiedener Größen und Formen besser zu handhaben.",
+          nl: "Anchor boxes zijn voorgedefinieerde bounding boxes met verschillende aspectverhoudingen en schalen die dienen als referentiesjablonen. Het model voorspelt offsets van deze ankers om objecten van verschillende groottes en vormen beter te behandelen."
+        }
+      },
+      {
+        question: {
+          en: "What is semantic segmentation in computer vision?",
+          es: "¿Qué es la segmentación semántica en visión por computadora?",
+          de: "Was ist semantische Segmentierung in Computer Vision?",
+          nl: "Wat is semantische segmentatie in computer vision?"
+        },
+        options: [
+          { en: "Assigning a class label to every pixel in the image", es: "Asignar una etiqueta de clase a cada píxel en la imagen", de: "Jedem Pixel im Bild ein Klassenlabel zuweisen", nl: "Een klasselabel toewijzen aan elke pixel in de afbeelding" },
+          { en: "Dividing images based on semantic meaning only", es: "Dividir imágenes basándose solo en significado semántico", de: "Bilder nur basierend auf semantischer Bedeutung teilen", nl: "Afbeeldingen verdelen op basis van alleen semantische betekenis" },
+          { en: "Segmenting text from images", es: "Segmentar texto de imágenes", de: "Text aus Bildern segmentieren", nl: "Tekst uit afbeeldingen segmenteren" },
+          { en: "Organizing image segments alphabetically", es: "Organizar segmentos de imagen alfabéticamente", de: "Bildsegmente alphabetisch organisieren", nl: "Afbeeldingssegmenten alfabetisch organiseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Semantic segmentation classifies each pixel into predefined categories (e.g., road, car, person), creating a dense pixel-wise prediction map where all pixels belonging to the same class are labeled identically regardless of object instances.",
+          es: "La segmentación semántica clasifica cada píxel en categorías predefinidas (ej., carretera, auto, persona), creando un mapa de predicción denso por píxel donde todos los píxeles pertenecientes a la misma clase se etiquetan idénticamente independientemente de las instancias de objeto.",
+          de: "Semantische Segmentierung klassifiziert jeden Pixel in vordefinierte Kategorien (z.B. Straße, Auto, Person), erstellt eine dichte pixelweise Vorhersagekarte wo alle Pixel derselben Klasse identisch gelabelt werden unabhängig von Objektinstanzen.",
+          nl: "Semantische segmentatie classificeert elke pixel in voorgedefinieerde categorieën (bijv. weg, auto, persoon), creëert een dichte pixel-gewijze voorspellingskaart waar alle pixels behorend tot dezelfde klasse identiek gelabeld worden ongeacht objectinstanties."
+        }
+      },
+      {
+        question: {
+          en: "How does instance segmentation differ from semantic segmentation?",
+          es: "¿En qué difiere la segmentación de instancias de la segmentación semántica?",
+          de: "Wie unterscheidet sich Instanzsegmentierung von semantischer Segmentierung?",
+          nl: "Hoe verschilt instance segmentatie van semantische segmentatie?"
+        },
+        options: [
+          { en: "Instance segmentation distinguishes individual objects of the same class", es: "Segmentación de instancias distingue objetos individuales de la misma clase", de: "Instanzsegmentierung unterscheidet einzelne Objekte derselben Klasse", nl: "Instance segmentatie onderscheidt individuele objecten van dezelfde klasse" },
+          { en: "Instance segmentation is faster than semantic segmentation", es: "Segmentación de instancias es más rápida que segmentación semántica", de: "Instanzsegmentierung ist schneller als semantische Segmentierung", nl: "Instance segmentatie is sneller dan semantische segmentatie" },
+          { en: "They are exactly the same technique", es: "Son exactamente la misma técnica", de: "Sie sind genau dieselbe Technik", nl: "Ze zijn precies dezelfde techniek" },
+          { en: "Instance segmentation works only on single objects", es: "Segmentación de instancias funciona solo en objetos únicos", de: "Instanzsegmentierung funktioniert nur auf einzelnen Objekten", nl: "Instance segmentatie werkt alleen op enkele objecten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "While semantic segmentation treats all instances of a class identically, instance segmentation identifies and separates each individual object instance, enabling distinction between multiple cars, people, or other objects of the same class.",
+          es: "Mientras que la segmentación semántica trata todas las instancias de una clase idénticamente, la segmentación de instancias identifica y separa cada instancia de objeto individual, permitiendo distinción entre múltiples autos, personas u otros objetos de la misma clase.",
+          de: "Während semantische Segmentierung alle Instanzen einer Klasse identisch behandelt, identifiziert und trennt Instanzsegmentierung jede einzelne Objektinstanz, ermöglicht Unterscheidung zwischen mehreren Autos, Personen oder anderen Objekten derselben Klasse.",
+          nl: "Terwijl semantische segmentatie alle instanties van een klasse identiek behandelt, identificeert en scheidt instance segmentatie elke individuele objectinstantie, maakt onderscheid mogelijk tussen meerdere auto's, mensen of andere objecten van dezelfde klasse."
+        }
+      },
+      {
+        question: {
+          en: "What is a U-Net architecture primarily used for?",
+          es: "¿Para qué se usa principalmente una arquitectura U-Net?",
+          de: "Wofür wird eine U-Net-Architektur hauptsächlich verwendet?",
+          nl: "Waarvoor wordt een U-Net architectuur voornamelijk gebruikt?"
+        },
+        options: [
+          { en: "Image segmentation tasks with encoder-decoder structure and skip connections", es: "Tareas de segmentación de imagen con estructura codificador-decodificador y conexiones de salto", de: "Bildsegmentierungsaufgaben mit Encoder-Decoder-Struktur und Skip-Verbindungen", nl: "Beeldsegmentatietaken met encoder-decoder structuur en skip verbindingen" },
+          { en: "Training underwater image detection models", es: "Entrenar modelos de detección de imagen submarina", de: "Unterwasser-Bilderkennungsmodelle trainieren", nl: "Onderwaterbeelddetectiemodellen trainen" },
+          { en: "Creating U-shaped patterns in images", es: "Crear patrones en forma de U en imágenes", de: "U-förmige Muster in Bildern erstellen", nl: "U-vormige patronen in afbeeldingen maken" },
+          { en: "University network architectures only", es: "Solo arquitecturas de red universitarias", de: "Nur Universitäts-Netzwerkarchitekturen", nl: "Alleen universiteitsnetwerkarchitecturen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "U-Net has a U-shaped architecture with contracting path (encoder) for context capture and expanding path (decoder) for precise localization, connected by skip connections that preserve spatial information crucial for segmentation.",
+          es: "U-Net tiene una arquitectura en forma de U con ruta de contracción (codificador) para captura de contexto y ruta de expansión (decodificador) para localización precisa, conectadas por conexiones de salto que preservan información espacial crucial para segmentación.",
+          de: "U-Net hat eine U-förmige Architektur mit kontrahierendem Pfad (Encoder) für Kontexterfassung und expandierendem Pfad (Decoder) für präzise Lokalisierung, verbunden durch Skip-Verbindungen die räumliche Informationen bewahren die für Segmentierung entscheidend sind.",
+          nl: "U-Net heeft een U-vormige architectuur met samentrekkend pad (encoder) voor contextvastlegging en uitbreidend pad (decoder) voor precieze lokalisatie, verbonden door skip verbindingen die ruimtelijke informatie bewaren cruciaal voor segmentatie."
+        }
+      },
+      {
+        question: {
+          en: "What is the IoU (Intersection over Union) metric used for in object detection?",
+          es: "¿Para qué se usa la métrica IoU (Intersección sobre Unión) en detección de objetos?",
+          de: "Wofür wird die IoU (Intersection over Union) Metrik in Objekterkennung verwendet?",
+          nl: "Waarvoor wordt de IoU (Intersection over Union) metriek gebruikt bij objectdetectie?"
+        },
+        options: [
+          { en: "Measure overlap between predicted and ground truth bounding boxes", es: "Medir superposición entre cajas delimitadoras predichas y verdad fundamental", de: "Überlappung zwischen vorhergesagten und Ground-Truth Begrenzungsrahmen messen", nl: "Overlap meten tussen voorspelde en ground truth bounding boxes" },
+          { en: "Calculate the union of all detected objects", es: "Calcular la unión de todos los objetos detectados", de: "Die Vereinigung aller erkannten Objekte berechnen", nl: "De unie van alle gedetecteerde objecten berekenen" },
+          { en: "Measure intersection points in neural networks", es: "Medir puntos de intersección en redes neuronales", de: "Schnittpunkte in neuronalen Netzwerken messen", nl: "Intersectiepunten in neurale netwerken meten" },
+          { en: "Compute input-output relationships", es: "Calcular relaciones entrada-salida", de: "Eingabe-Ausgabe-Beziehungen berechnen", nl: "Input-output relaties berekenen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "IoU = (Area of Intersection) / (Area of Union) measures how well a predicted bounding box matches the ground truth. Values range from 0 (no overlap) to 1 (perfect match), commonly using 0.5 threshold for positive detections.",
+          es: "IoU = (Área de Intersección) / (Área de Unión) mide qué tan bien una caja delimitadora predicha coincide con la verdad fundamental. Los valores van de 0 (sin superposición) a 1 (coincidencia perfecta), comúnmente usando umbral 0.5 para detecciones positivas.",
+          de: "IoU = (Schnittfläche) / (Vereinigungsfläche) misst wie gut ein vorhergesagter Begrenzungsrahmen mit Ground Truth übereinstimmt. Werte reichen von 0 (keine Überlappung) bis 1 (perfekte Übereinstimmung), üblicherweise mit 0.5 Schwelle für positive Erkennungen.",
+          nl: "IoU = (Gebied van Intersectie) / (Gebied van Unie) meet hoe goed een voorspelde bounding box overeenkomt met ground truth. Waarden variëren van 0 (geen overlap) tot 1 (perfecte match), gebruikt vaak 0.5 drempel voor positieve detecties."
+        }
+      },
+      {
+        question: {
+          en: "What is non-maximum suppression (NMS) used for in object detection?",
+          es: "¿Para qué se usa la supresión no máxima (NMS) en detección de objetos?",
+          de: "Wofür wird Non-Maximum Suppression (NMS) in Objekterkennung verwendet?",
+          nl: "Waarvoor wordt non-maximum suppression (NMS) gebruikt bij objectdetectie?"
+        },
+        options: [
+          { en: "Remove duplicate detections of the same object by keeping highest confidence box", es: "Eliminar detecciones duplicadas del mismo objeto manteniendo la caja de mayor confianza", de: "Doppelte Erkennungen desselben Objekts entfernen durch Behalten der Box mit höchster Konfidenz", nl: "Dubbele detecties van hetzelfde object verwijderen door de box met hoogste vertrouwen te behouden" },
+          { en: "Suppress the maximum values in feature maps", es: "Suprimir los valores máximos en mapas de características", de: "Maximale Werte in Feature-Maps unterdrücken", nl: "Maximale waarden in feature maps onderdrukken" },
+          { en: "Prevent models from being too confident", es: "Prevenir que los modelos sean muy confiados", de: "Modelle daran hindern zu zuversichtlich zu sein", nl: "Modellen voorkomen te overtuigd te zijn" },
+          { en: "Reduce the number of maximum pooling layers", es: "Reducir el número de capas de max pooling", de: "Anzahl der Max-Pooling-Schichten reduzieren", nl: "Aantal max pooling lagen verminderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "NMS eliminates redundant overlapping bounding boxes for the same object by iteratively selecting the box with highest confidence and removing boxes with high IoU overlap, ensuring each object is detected only once.",
+          es: "NMS elimina cajas delimitadoras superpuestas redundantes para el mismo objeto seleccionando iterativamente la caja con mayor confianza y eliminando cajas con alta superposición IoU, asegurando que cada objeto se detecte solo una vez.",
+          de: "NMS eliminiert redundante überlappende Begrenzungsrahmen für dasselbe Objekt durch iteratives Auswählen der Box mit höchster Konfidenz und Entfernen von Boxen mit hoher IoU-Überlappung, stellt sicher dass jedes Objekt nur einmal erkannt wird.",
+          nl: "NMS elimineert redundante overlappende bounding boxes voor hetzelfde object door iteratief de box met hoogste vertrouwen te selecteren en boxes met hoge IoU overlap te verwijderen, zorgt ervoor dat elk object slechts één keer wordt gedetecteerd."
+        }
+      },
+      {
+        question: {
+          en: "What is anchor-free object detection?",
+          es: "¿Qué es la detección de objetos sin anclas?",
+          de: "Was ist ankerfreie Objekterkennung?",
+          nl: "Wat is anchor-free objectdetectie?"
+        },
+        options: [
+          { en: "Detecting objects by predicting center points and dimensions directly without predefined anchor boxes", es: "Detectar objetos prediciendo puntos centrales y dimensiones directamente sin cajas de ancla predefinidas", de: "Objekte erkennen durch direkte Vorhersage von Mittelpunkten und Dimensionen ohne vordefinierte Anker-Boxen", nl: "Objecten detecteren door middelpunten en afmetingen direct te voorspellen zonder voorgedefinieerde anchor boxes" },
+          { en: "Detection without anchoring models to specific datasets", es: "Detección sin anclar modelos a conjuntos de datos específicos", de: "Erkennung ohne Modelle an spezifische Datensätze zu verankern", nl: "Detectie zonder modellen te verankeren aan specifieke datasets" },
+          { en: "Finding objects that are not anchored in place", es: "Encontrar objetos que no están anclados en su lugar", de: "Objekte finden die nicht an Ort und Stelle verankert sind", nl: "Objecten vinden die niet op hun plaats verankerd zijn" },
+          { en: "Detection without using HTML anchor tags", es: "Detección sin usar etiquetas de ancla HTML", de: "Erkennung ohne Verwendung von HTML-Anker-Tags", nl: "Detectie zonder HTML anchor tags te gebruiken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Anchor-free detectors like FCOS and CenterNet directly predict object centers and dimensions, avoiding the need for predefined anchor boxes. This simplifies the architecture, reduces hyperparameters, and can improve performance especially for objects with extreme aspect ratios.",
+          es: "Detectores sin anclas como FCOS y CenterNet predicen directamente centros y dimensiones de objetos, evitando la necesidad de cajas de ancla predefinidas. Esto simplifica la arquitectura, reduce hiperparámetros y puede mejorar el rendimiento especialmente para objetos con proporciones extremas.",
+          de: "Ankerfreie Detektoren wie FCOS und CenterNet sagen direkt Objektzentren und -dimensionen vorher und vermeiden vordefinierte Anker-Boxen. Dies vereinfacht die Architektur, reduziert Hyperparameter und kann Leistung verbessern besonders für Objekte mit extremen Seitenverhältnissen.",
+          nl: "Anchor-free detectoren zoals FCOS en CenterNet voorspellen direct objectcentra en -afmetingen, vermijden de behoefte aan voorgedefinieerde anchor boxes. Dit vereenvoudigt de architectuur, vermindert hyperparameters en kan prestaties verbeteren vooral voor objecten met extreme aspectratio's."
+        }
       }
     ]
   };

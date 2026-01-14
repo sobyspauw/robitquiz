@@ -427,7 +427,428 @@
           de: "Das traditionelle Absinth-Ritual beinhaltet das Platzieren eines Zuckerwürfels auf einem Löffelsieb über dem Glas und langsames Tropfen von eiskaltem Wasser durch ihn, um den Absinth zu louchen (trüben).",
           nl: "Het traditionele absint ritueel omvat het plaatsen van een suikerklontje op een gegleufde lepel boven het glas en langzaam ijskoud water er doorheen druppelen om de absint te louchen (troebel maken)."
         }
-      }]
+      },
+      {
+        question: {
+          en: "What is the origin of the Irish Coffee?",
+          es: "¿Cuál es el origen del Irish Coffee?",
+          de: "Was ist der Ursprung des Irish Coffee?",
+          nl: "Wat is de oorsprong van de Irish Coffee?"
+        },
+        options: [
+          { en: "Dublin pub in 1920s", es: "Pub de Dublín en los años 1920", de: "Dublin Pub in den 1920ern", nl: "Dublin pub in de jaren 1920" },
+          { en: "Shannon Airport in 1940s by Joe Sheridan", es: "Aeropuerto de Shannon en los 1940s por Joe Sheridan", de: "Shannon Airport in den 1940ern von Joe Sheridan", nl: "Shannon Airport in de jaren 1940 door Joe Sheridan" },
+          { en: "Belfast restaurant in 1950s", es: "Restaurante de Belfast en los 1950s", de: "Belfast Restaurant in den 1950ern", nl: "Belfast restaurant in de jaren 1950" },
+          { en: "Cork hotel in 1930s", es: "Hotel de Cork en los 1930s", de: "Cork Hotel in den 1930ern", nl: "Cork hotel in de jaren 1930" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Irish Coffee was created in 1943 by Joe Sheridan at Shannon Airport's restaurant to warm up cold passengers on transatlantic flights.",
+          es: "El Irish Coffee fue creado en 1943 por Joe Sheridan en el restaurante del Aeropuerto de Shannon para calentar pasajeros fríos en vuelos transatlánticos.",
+          de: "Irish Coffee wurde 1943 von Joe Sheridan im Restaurant des Shannon Airport kreiert, um kalte Passagiere auf Transatlantikflügen aufzuwärmen.",
+          nl: "Irish Coffee werd in 1943 gecreëerd door Joe Sheridan in het restaurant van Shannon Airport om koude passagiers op transatlantische vluchten op te warmen."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'Ti' Punch' and where does it originate?",
+          es: "¿Qué es un 'Ti' Punch' y de dónde se origina?",
+          de: "Was ist ein 'Ti' Punch' und woher stammt er?",
+          nl: "Wat is een 'Ti' Punch' en waar komt deze vandaan?"
+        },
+        options: [
+          { en: "Martinique rum cocktail with lime and cane syrup", es: "Cóctel de ron de Martinica con lima y jarabe de caña", de: "Martinique-Rum-Cocktail mit Limette und Zuckerrohrsirup", nl: "Martinique rum cocktail met limoen en rietsuikersiroop" },
+          { en: "Thai whiskey drink", es: "Bebida de whisky tailandés", de: "Thailändischer Whiskey-Drink", nl: "Thaise whiskey drank" },
+          { en: "Tibetan tea cocktail", es: "Cóctel de té tibetano", de: "Tibetischer Tee-Cocktail", nl: "Tibetaanse thee cocktail" },
+          { en: "Turkish raki mix", es: "Mezcla de raki turco", de: "Türkischer Raki-Mix", nl: "Turkse raki mix" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ti' Punch (short for 'Petit Punch') is Martinique's national cocktail, made with rhum agricole, lime, and cane syrup, traditionally served at room temperature.",
+          es: "Ti' Punch (abreviatura de 'Petit Punch') es el cóctel nacional de Martinica, hecho con rhum agricole, lima y jarabe de caña, tradicionalmente servido a temperatura ambiente.",
+          de: "Ti' Punch (kurz für 'Petit Punch') ist Martiniques Nationalcocktail, aus Rhum Agricole, Limette und Zuckerrohrsirup, traditionell bei Raumtemperatur serviert.",
+          nl: "Ti' Punch (kort voor 'Petit Punch') is Martinique's nationale cocktail, gemaakt met rhum agricole, limoen en rietsuikersiroop, traditioneel op kamertemperatuur geserveerd."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes a 'London Dry Gin' Martini from a 'Wet' Martini?",
+          es: "¿Qué distingue un Martini de 'London Dry Gin' de un Martini 'Wet'?",
+          de: "Was unterscheidet einen 'London Dry Gin' Martini von einem 'Wet' Martini?",
+          nl: "Wat onderscheidt een 'London Dry Gin' Martini van een 'Wet' Martini?"
+        },
+        options: [
+          { en: "London Dry refers to gin style; Wet refers to vermouth ratio", es: "London Dry se refiere al estilo de ginebra; Wet se refiere a proporción de vermut", de: "London Dry bezieht sich auf Gin-Stil; Wet bezieht sich auf Wermut-Verhältnis", nl: "London Dry verwijst naar gin stijl; Wet verwijst naar vermouth verhouding" },
+          { en: "Both terms mean the same thing", es: "Ambos términos significan lo mismo", de: "Beide Begriffe bedeuten dasselbe", nl: "Beide termen betekenen hetzelfde" },
+          { en: "London Dry is always shaken", es: "London Dry siempre se agita", de: "London Dry wird immer geschüttelt", nl: "London Dry wordt altijd geschud" },
+          { en: "Wet Martinis use water", es: "Martinis Wet usan agua", de: "Wet Martinis verwenden Wasser", nl: "Wet Martinis gebruiken water" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "London Dry Gin is a style of gin (crisp, juniper-forward). A 'Wet' Martini has more vermouth (3:1 or 4:1 ratio) versus a 'Dry' Martini which has less vermouth (6:1 or higher).",
+          es: "London Dry Gin es un estilo de ginebra (crujiente, con protagonismo de enebro). Un Martini 'Wet' tiene más vermut (proporción 3:1 o 4:1) versus un Martini 'Dry' que tiene menos vermut (6:1 o más).",
+          de: "London Dry Gin ist ein Gin-Stil (knackig, Wacholder-betont). Ein 'Wet' Martini hat mehr Wermut (3:1 oder 4:1 Verhältnis) versus ein 'Dry' Martini mit weniger Wermut (6:1 oder höher).",
+          nl: "London Dry Gin is een gin stijl (knapperig, jeneverbes-voorwaarts). Een 'Wet' Martini heeft meer vermouth (3:1 of 4:1 verhouding) versus een 'Dry' Martini die minder vermouth heeft (6:1 of hoger)."
+        }
+      },
+      {
+        question: {
+          en: "What cocktail was allegedly invented at Harry's New York Bar in Paris?",
+          es: "¿Qué cóctel supuestamente fue inventado en Harry's New York Bar en París?",
+          de: "Welcher Cocktail wurde angeblich in Harry's New York Bar in Paris erfunden?",
+          nl: "Welke cocktail werd naar verluidt uitgevonden in Harry's New York Bar in Parijs?"
+        },
+        options: [
+          { en: "Martini", es: "Martini", de: "Martini", nl: "Martini" },
+          { en: "Bloody Mary", es: "Bloody Mary", de: "Bloody Mary", nl: "Bloody Mary" },
+          { en: "Manhattan", es: "Manhattan", de: "Manhattan", nl: "Manhattan" },
+          { en: "Old Fashioned", es: "Old Fashioned", de: "Old Fashioned", nl: "Old Fashioned" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Bloody Mary was created in the 1920s by bartender Fernand Petiot at Harry's New York Bar in Paris, though the recipe evolved significantly when he moved to New York.",
+          es: "El Bloody Mary fue creado en los años 1920 por el barman Fernand Petiot en Harry's New York Bar en París, aunque la receta evolucionó significativamente cuando se mudó a Nueva York.",
+          de: "Der Bloody Mary wurde in den 1920ern von Barkeeper Fernand Petiot in Harry's New York Bar in Paris kreiert, obwohl das Rezept sich erheblich weiterentwickelte, als er nach New York zog.",
+          nl: "De Bloody Mary werd in de jaren 1920 gecreëerd door barman Fernand Petiot in Harry's New York Bar in Parijs, hoewel het recept aanzienlijk evolueerde toen hij naar New York verhuisde."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'Sazerac' and what makes it unique?",
+          es: "¿Qué es un 'Sazerac' y qué lo hace único?",
+          de: "Was ist ein 'Sazerac' und was macht ihn einzigartig?",
+          nl: "Wat is een 'Sazerac' en wat maakt deze uniek?"
+        },
+        options: [
+          { en: "New Orleans cocktail with rye whiskey and absinthe rinse", es: "Cóctel de Nueva Orleans con whisky de centeno y enjuague de absenta", de: "New Orleans Cocktail mit Rye Whiskey und Absinth-Spülung", nl: "New Orleans cocktail met rogge whiskey en absint spoeling" },
+          { en: "Mexican tequila drink", es: "Bebida de tequila mexicana", de: "Mexikanischer Tequila-Drink", nl: "Mexicaanse tequila drank" },
+          { en: "Japanese sake cocktail", es: "Cóctel de sake japonés", de: "Japanischer Sake-Cocktail", nl: "Japanse sake cocktail" },
+          { en: "Scottish whisky mix", es: "Mezcla de whisky escocés", de: "Schottischer Whisky-Mix", nl: "Schotse whisky mix" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Sazerac is New Orleans' official cocktail, made with rye whiskey (or cognac), Peychaud's bitters, sugar, and an absinthe rinse. It's one of America's oldest cocktails, dating to the 1830s.",
+          es: "El Sazerac es el cóctel oficial de Nueva Orleans, hecho con whisky de centeno (o coñac), amargos Peychaud, azúcar y un enjuague de absenta. Es uno de los cócteles más antiguos de América, que data de los 1830s.",
+          de: "Der Sazerac ist New Orleans' offizieller Cocktail, aus Rye Whiskey (oder Cognac), Peychaud's Bitters, Zucker und einer Absinth-Spülung. Er ist einer der ältesten amerikanischen Cocktails aus den 1830ern.",
+          nl: "De Sazerac is New Orleans' officiële cocktail, gemaakt met rogge whiskey (of cognac), Peychaud's bitters, suiker en een absint spoeling. Het is een van Amerika's oudste cocktails, daterend uit de jaren 1830."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between a 'Mojito' and a 'Mint Julep'?",
+          es: "¿Cuál es la diferencia entre un 'Mojito' y un 'Mint Julep'?",
+          de: "Was ist der Unterschied zwischen einem 'Mojito' und einem 'Mint Julep'?",
+          nl: "Wat is het verschil tussen een 'Mojito' en een 'Mint Julep'?"
+        },
+        options: [
+          { en: "Mojito uses rum and soda, Julep uses bourbon and no soda", es: "Mojito usa ron y soda, Julep usa bourbon y sin soda", de: "Mojito verwendet Rum und Soda, Julep verwendet Bourbon ohne Soda", nl: "Mojito gebruikt rum en soda, Julep gebruikt bourbon zonder soda" },
+          { en: "They are the same cocktail", es: "Son el mismo cóctel", de: "Sie sind derselbe Cocktail", nl: "Ze zijn dezelfde cocktail" },
+          { en: "Mojito is hot, Julep is cold", es: "Mojito es caliente, Julep es frío", de: "Mojito ist heiß, Julep ist kalt", nl: "Mojito is warm, Julep is koud" },
+          { en: "Julep uses tequila", es: "Julep usa tequila", de: "Julep verwendet Tequila", nl: "Julep gebruikt tequila" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mojito is Cuban, using white rum, mint, lime, sugar, and soda water. Mint Julep is Southern US, using bourbon, mint, sugar, and crushed ice without soda, traditionally served in a silver cup.",
+          es: "Mojito es cubano, usando ron blanco, menta, lima, azúcar y agua con gas. Mint Julep es del sur de EE.UU., usando bourbon, menta, azúcar y hielo picado sin soda, tradicionalmente servido en copa de plata.",
+          de: "Mojito ist kubanisch, mit weißem Rum, Minze, Limette, Zucker und Sodawasser. Mint Julep ist aus dem Süden der USA, mit Bourbon, Minze, Zucker und Crushed Ice ohne Soda, traditionell im Silberbecher serviert.",
+          nl: "Mojito is Cubaans, met witte rum, munt, limoen, suiker en sodawater. Mint Julep is uit het zuiden van de VS, met bourbon, munt, suiker en crushed ijs zonder soda, traditioneel geserveerd in een zilveren beker."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'Moscow Mule' traditionally served in?",
+          es: "¿En qué se sirve tradicionalmente un 'Moscow Mule'?",
+          de: "In was wird ein 'Moscow Mule' traditionell serviert?",
+          nl: "Waarin wordt een 'Moscow Mule' traditioneel geserveerd?"
+        },
+        options: [
+          { en: "Copper mug", es: "Taza de cobre", de: "Kupferbecher", nl: "Koperen beker" },
+          { en: "Glass tumbler", es: "Vaso de vidrio", de: "Glas-Tumbler", nl: "Glazen tumbler" },
+          { en: "Martini glass", es: "Copa de Martini", de: "Martini-Glas", nl: "Martini glas" },
+          { en: "Beer stein", es: "Jarra de cerveza", de: "Bierkrug", nl: "Bierpul" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Moscow Mule is traditionally served in a copper mug, which keeps the drink cold and enhances the drinking experience. The cocktail contains vodka, ginger beer, and lime juice.",
+          es: "Moscow Mule se sirve tradicionalmente en una taza de cobre, que mantiene la bebida fría y mejora la experiencia de beber. El cóctel contiene vodka, cerveza de jengibre y jugo de lima.",
+          de: "Moscow Mule wird traditionell in einem Kupferbecher serviert, der das Getränk kalt hält und das Trinkerlebnis verbessert. Der Cocktail enthält Wodka, Ginger Beer und Limettensaft.",
+          nl: "Moscow Mule wordt traditioneel geserveerd in een koperen beker, die de drank koud houdt en de drinkervaring verbetert. De cocktail bevat vodka, gemberbier en limoensap."
+        }
+      },
+      {
+        question: {
+          en: "What is the main difference between Champagne Cocktail and French 75?",
+          es: "¿Cuál es la diferencia principal entre Champagne Cocktail y French 75?",
+          de: "Was ist der Hauptunterschied zwischen Champagne Cocktail und French 75?",
+          nl: "Wat is het belangrijkste verschil tussen Champagne Cocktail en French 75?"
+        },
+        options: [
+          { en: "Champagne Cocktail uses sugar cube and bitters; French 75 uses gin and lemon", es: "Champagne Cocktail usa terrón de azúcar y amargos; French 75 usa ginebra y limón", de: "Champagne Cocktail verwendet Zuckerwürfel und Bitter; French 75 verwendet Gin und Zitrone", nl: "Champagne Cocktail gebruikt suikerklontje en bitters; French 75 gebruikt gin en citroen" },
+          { en: "They are the same cocktail", es: "Son el mismo cóctel", de: "Sie sind derselbe Cocktail", nl: "Ze zijn dezelfde cocktail" },
+          { en: "French 75 uses vodka", es: "French 75 usa vodka", de: "French 75 verwendet Wodka", nl: "French 75 gebruikt vodka" },
+          { en: "Champagne Cocktail is hot", es: "Champagne Cocktail es caliente", de: "Champagne Cocktail ist heiß", nl: "Champagne Cocktail is warm" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Champagne Cocktail is built in glass with sugar cube soaked in bitters, topped with champagne. French 75 is shaken gin, lemon juice, and sugar, strained into champagne flute and topped with champagne.",
+          es: "Champagne Cocktail se construye en vaso con terrón de azúcar empapado en amargos, cubierto con champán. French 75 es ginebra agitada, jugo de limón y azúcar, colado en copa de champán y cubierto con champán.",
+          de: "Champagne Cocktail wird im Glas mit in Bitter getränktem Zuckerwürfel gebaut, mit Champagner aufgefüllt. French 75 ist geschüttelter Gin, Zitronensaft und Zucker, in Champagnerflöte abgeseiht und mit Champagner aufgefüllt.",
+          nl: "Champagne Cocktail wordt in glas gebouwd met suikerklontje gedrenkt in bitters, afgetopt met champagne. French 75 is geschudde gin, citroensap en suiker, gezeefd in champagne flute en afgetopt met champagne."
+        }
+      },
+      {
+        question: {
+          en: "What cocktail family does the Aviation belong to?",
+          es: "¿A qué familia de cócteles pertenece el Aviation?",
+          de: "Zu welcher Cocktail-Familie gehört der Aviation?",
+          nl: "Tot welke cocktailfamilie behoort de Aviation?"
+        },
+        options: [
+          { en: "Sour family (gin, lemon, maraschino, crème de violette)", es: "Familia Sour (ginebra, limón, marrasquino, crème de violette)", de: "Sour-Familie (Gin, Zitrone, Maraschino, Crème de Violette)", nl: "Sour familie (gin, citroen, maraschino, crème de violette)" },
+          { en: "Martini family", es: "Familia Martini", de: "Martini-Familie", nl: "Martini familie" },
+          { en: "Highball family", es: "Familia Highball", de: "Highball-Familie", nl: "Highball familie" },
+          { en: "Punch family", es: "Familia Punch", de: "Punch-Familie", nl: "Punch familie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Aviation belongs to the sour family of cocktails. Created pre-Prohibition, it features gin, lemon juice, maraschino liqueur, and crème de violette, giving it a distinctive pale purple color.",
+          es: "Aviation pertenece a la familia de cócteles sour. Creado antes de la Prohibición, presenta ginebra, jugo de limón, licor de marrasquino y crème de violette, dándole un color púrpura pálido distintivo.",
+          de: "Aviation gehört zur Sour-Familie der Cocktails. Vor der Prohibition kreiert, enthält er Gin, Zitronensaft, Maraschino-Likör und Crème de Violette, was ihm eine charakteristische blassviolette Farbe verleiht.",
+          nl: "Aviation behoort tot de sour familie van cocktails. Gecreëerd voor de Drooglegging, bevat het gin, citroensap, maraschino likeur en crème de violette, wat het een onderscheidende bleek paarse kleur geeft."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional garnish for a Gimlet?",
+          es: "¿Cuál es la decoración tradicional para un Gimlet?",
+          de: "Was ist die traditionelle Garnitur für einen Gimlet?",
+          nl: "Wat is de traditionele garnering voor een Gimlet?"
+        },
+        options: [
+          { en: "Lime wheel or wedge", es: "Rueda o trozo de lima", de: "Limettenscheibe oder -spalte", nl: "Limoen schijf of partje" },
+          { en: "Lemon twist", es: "Espiral de limón", de: "Zitronendrehung", nl: "Citroen twist" },
+          { en: "Cherry", es: "Cereza", de: "Kirsche", nl: "Kers" },
+          { en: "Olive", es: "Aceituna", de: "Olive", nl: "Olijf" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A Gimlet, made with gin and lime juice (traditionally Rose's lime cordial), is garnished with a lime wheel or wedge. The cocktail has British Royal Navy origins from the 1800s.",
+          es: "Un Gimlet, hecho con ginebra y jugo de lima (tradicionalmente cordial de lima Rose's), se decora con una rueda o trozo de lima. El cóctel tiene orígenes en la Marina Real Británica de los 1800s.",
+          de: "Ein Gimlet, aus Gin und Limettensaft (traditionell Rose's Lime Cordial), wird mit einer Limettenscheibe oder -spalte garniert. Der Cocktail hat britische Royal Navy Ursprünge aus den 1800ern.",
+          nl: "Een Gimlet, gemaakt met gin en limoensap (traditioneel Rose's lime cordial), wordt gegarneerd met een limoen schijf of partje. De cocktail heeft Britse Royal Navy oorsprong uit de jaren 1800."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'Vesper' and who made it famous?",
+          es: "¿Qué es un 'Vesper' y quién lo hizo famoso?",
+          de: "Was ist ein 'Vesper' und wer machte ihn berühmt?",
+          nl: "Wat is een 'Vesper' en wie maakte deze beroemd?"
+        },
+        options: [
+          { en: "Gin and vodka Martini variation created by Ian Fleming for James Bond", es: "Variación de Martini de ginebra y vodka creada por Ian Fleming para James Bond", de: "Gin-und-Wodka-Martini-Variation kreiert von Ian Fleming für James Bond", nl: "Gin en vodka Martini variatie gecreëerd door Ian Fleming voor James Bond" },
+          { en: "Italian aperitif", es: "Aperitivo italiano", de: "Italienischer Aperitif", nl: "Italiaanse aperitief" },
+          { en: "Spanish sherry cocktail", es: "Cóctel de jerez español", de: "Spanischer Sherry-Cocktail", nl: "Spaanse sherry cocktail" },
+          { en: "French wine drink", es: "Bebida de vino francés", de: "Französisches Wein-Getränk", nl: "Franse wijn drank" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Vesper was created by Ian Fleming in his 1953 James Bond novel 'Casino Royale'. It combines gin, vodka, and Kina Lillet, shaken and garnished with a lemon peel. Bond named it after Vesper Lynd.",
+          es: "El Vesper fue creado por Ian Fleming en su novela de James Bond de 1953 'Casino Royale'. Combina ginebra, vodka y Kina Lillet, agitado y decorado con cáscara de limón. Bond lo nombró por Vesper Lynd.",
+          de: "Der Vesper wurde von Ian Fleming in seinem 1953er James Bond Roman 'Casino Royale' kreiert. Er kombiniert Gin, Wodka und Kina Lillet, geschüttelt und mit Zitronenschale garniert. Bond benannte ihn nach Vesper Lynd.",
+          nl: "De Vesper werd gecreëerd door Ian Fleming in zijn 1953 James Bond roman 'Casino Royale'. Het combineert gin, vodka en Kina Lillet, geschud en gegarneerd met een citroen schil. Bond noemde het naar Vesper Lynd."
+        }
+      },
+      {
+        question: {
+          en: "What is the significance of the 'Last Word' cocktail?",
+          es: "¿Cuál es la importancia del cóctel 'Last Word'?",
+          de: "Was ist die Bedeutung des 'Last Word'-Cocktails?",
+          nl: "Wat is de betekenis van de 'Last Word' cocktail?"
+        },
+        options: [
+          { en: "Equal parts gin, green Chartreuse, maraschino, lime - revived craft cocktail movement", es: "Partes iguales ginebra, Chartreuse verde, marrasquino, lima - revivió movimiento de cócteles artesanales", de: "Gleiche Teile Gin, grüner Chartreuse, Maraschino, Limette - wiederbelebte Craft-Cocktail-Bewegung", nl: "Gelijke delen gin, groene Chartreuse, maraschino, limoen - deed craft cocktail beweging herleven" },
+          { en: "Final drink of the night tradition", es: "Tradición de bebida final de la noche", de: "Tradition des letzten Drinks der Nacht", nl: "Laatste drankje van de avond traditie" },
+          { en: "Prohibition farewell drink", es: "Bebida de despedida de la Prohibición", de: "Abschieds-Drink der Prohibition", nl: "Drooglegging afscheid drank" },
+          { en: "Bartender retirement cocktail", es: "Cóctel de retiro de barman", de: "Barkeeper-Ruhestands-Cocktail", nl: "Barman pensioen cocktail" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Last Word (1920s Detroit) uses equal parts gin, green Chartreuse, maraschino liqueur, and lime juice. Forgotten after Prohibition, it was rediscovered in 2004 and became emblematic of the craft cocktail renaissance.",
+          es: "Last Word (Detroit 1920s) usa partes iguales de ginebra, Chartreuse verde, licor de marrasquino y jugo de lima. Olvidado después de la Prohibición, fue redescubierto en 2004 y se convirtió en emblema del renacimiento de cócteles artesanales.",
+          de: "Last Word (1920er Detroit) verwendet gleiche Teile Gin, grünen Chartreuse, Maraschino-Likör und Limettensaft. Nach der Prohibition vergessen, wurde er 2004 wiederentdeckt und emblematisch für die Craft-Cocktail-Renaissance.",
+          nl: "Last Word (1920s Detroit) gebruikt gelijke delen gin, groene Chartreuse, maraschino likeur en limoensap. Vergeten na de Drooglegging, werd het herontdekt in 2004 en werd emblematisch voor de craft cocktail renaissance."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'Corpse Reviver #2'?",
+          es: "¿Qué es un 'Corpse Reviver #2'?",
+          de: "Was ist ein 'Corpse Reviver #2'?",
+          nl: "Wat is een 'Corpse Reviver #2'?"
+        },
+        options: [
+          { en: "Hangover cure cocktail with gin, Cointreau, Lillet, lemon, absinthe", es: "Cóctel cura resaca con ginebra, Cointreau, Lillet, limón, absenta", de: "Kater-Heilungs-Cocktail mit Gin, Cointreau, Lillet, Zitrone, Absinth", nl: "Kater genezing cocktail met gin, Cointreau, Lillet, citroen, absint" },
+          { en: "Halloween themed drink", es: "Bebida temática de Halloween", de: "Halloween-Themen-Drink", nl: "Halloween thema drank" },
+          { en: "Energy drink cocktail", es: "Cóctel de bebida energética", de: "Energy-Drink-Cocktail", nl: "Energiedrank cocktail" },
+          { en: "Coffee cocktail", es: "Cóctel de café", de: "Kaffee-Cocktail", nl: "Koffie cocktail" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Corpse Reviver #2 is a classic 'hair of the dog' hangover remedy from the Savoy Cocktail Book (1930). It combines equal parts gin, Cointreau, Lillet Blanc, lemon juice, with an absinthe rinse.",
+          es: "Corpse Reviver #2 es un remedio clásico de resaca 'pelo del perro' del Savoy Cocktail Book (1930). Combina partes iguales de ginebra, Cointreau, Lillet Blanc, jugo de limón, con un enjuague de absenta.",
+          de: "Corpse Reviver #2 ist ein klassisches 'Konterbier' Kater-Heilmittel aus dem Savoy Cocktail Book (1930). Er kombiniert gleiche Teile Gin, Cointreau, Lillet Blanc, Zitronensaft, mit einer Absinth-Spülung.",
+          nl: "Corpse Reviver #2 is een klassiek 'hair of the dog' kater remedie uit het Savoy Cocktail Book (1930). Het combineert gelijke delen gin, Cointreau, Lillet Blanc, citroensap, met een absint spoeling."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between a Daiquiri and a Caipirinha?",
+          es: "¿Cuál es la diferencia entre un Daiquiri y una Caipirinha?",
+          de: "Was ist der Unterschied zwischen einem Daiquiri und einer Caipirinha?",
+          nl: "Wat is het verschil tussen een Daiquiri en een Caipirinha?"
+        },
+        options: [
+          { en: "Daiquiri uses white rum and is shaken; Caipirinha uses cachaça and is muddled", es: "Daiquiri usa ron blanco y se agita; Caipirinha usa cachaça y se machaca", de: "Daiquiri verwendet weißen Rum und wird geschüttelt; Caipirinha verwendet Cachaça und wird gemuddelt", nl: "Daiquiri gebruikt witte rum en wordt geschud; Caipirinha gebruikt cachaça en wordt gemuddeld" },
+          { en: "They are the same drink", es: "Son la misma bebida", de: "Sie sind dasselbe Getränk", nl: "Ze zijn hetzelfde drankje" },
+          { en: "Daiquiri is Brazilian", es: "Daiquiri es brasileño", de: "Daiquiri ist brasilianisch", nl: "Daiquiri is Braziliaans" },
+          { en: "Caipirinha uses vodka", es: "Caipirinha usa vodka", de: "Caipirinha verwendet Wodka", nl: "Caipirinha gebruikt vodka" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Daiquiri is Cuban, using white rum, lime juice, and simple syrup, shaken and served up. Caipirinha is Brazilian, using cachaça (sugarcane spirit), muddled lime, and sugar, served on the rocks.",
+          es: "Daiquiri es cubano, usando ron blanco, jugo de lima y jarabe simple, agitado y servido up. Caipirinha es brasileño, usando cachaça (licor de caña de azúcar), lima machacada y azúcar, servido con hielo.",
+          de: "Daiquiri ist kubanisch, mit weißem Rum, Limettensaft und einfachem Sirup, geschüttelt und up serviert. Caipirinha ist brasilianisch, mit Cachaça (Zuckerrohr-Spirituose), gemudelter Limette und Zucker, auf Eis serviert.",
+          nl: "Daiquiri is Cubaans, met witte rum, limoensap en eenvoudige siroop, geschud en up geserveerd. Caipirinha is Braziliaans, met cachaça (suikerriet sterke drank), gemudelde limoen en suiker, op ijs geserveerd."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'Southside' cocktail?",
+          es: "¿Qué es un cóctel 'Southside'?",
+          de: "Was ist ein 'Southside'-Cocktail?",
+          nl: "Wat is een 'Southside' cocktail?"
+        },
+        options: [
+          { en: "Gin, lime, mint, simple syrup - a minty gin sour", es: "Ginebra, lima, menta, jarabe simple - un sour de ginebra con menta", de: "Gin, Limette, Minze, einfacher Sirup - ein minziger Gin Sour", nl: "Gin, limoen, munt, eenvoudige siroop - een muntige gin sour" },
+          { en: "Southern whiskey drink", es: "Bebida de whisky sureño", de: "Südlicher Whiskey-Drink", nl: "Zuidelijke whiskey drank" },
+          { en: "Rum and cola variation", es: "Variación de ron y cola", de: "Rum-und-Cola-Variation", nl: "Rum en cola variatie" },
+          { en: "Tequila sunrise variant", es: "Variante de tequila sunrise", de: "Tequila Sunrise Variante", nl: "Tequila sunrise variant" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Southside is essentially a Mojito without soda water, or a mint-enhanced Gimlet. Made with gin, fresh lime juice, mint, and simple syrup, it originated in Chicago during Prohibition.",
+          es: "Southside es esencialmente un Mojito sin agua con gas, o un Gimlet mejorado con menta. Hecho con ginebra, jugo fresco de lima, menta y jarabe simple, se originó en Chicago durante la Prohibición.",
+          de: "Southside ist im Wesentlichen ein Mojito ohne Sodawasser oder ein Minz-verbesserter Gimlet. Aus Gin, frischem Limettensaft, Minze und einfachem Sirup, entstand er in Chicago während der Prohibition.",
+          nl: "Southside is in wezen een Mojito zonder sodawater, of een munt-verbeterde Gimlet. Gemaakt met gin, vers limoensap, munt en eenvoudige siroop, ontstond het in Chicago tijdens de Drooglegging."
+        }
+      },
+      {
+        question: {
+          en: "What cocktail is the official drink of New Orleans?",
+          es: "¿Qué cóctel es la bebida oficial de Nueva Orleans?",
+          de: "Welcher Cocktail ist das offizielle Getränk von New Orleans?",
+          nl: "Welke cocktail is de officiële drank van New Orleans?"
+        },
+        options: [
+          { en: "Hurricane", es: "Hurricane", de: "Hurricane", nl: "Hurricane" },
+          { en: "Sazerac", es: "Sazerac", de: "Sazerac", nl: "Sazerac" },
+          { en: "Ramos Gin Fizz", es: "Ramos Gin Fizz", de: "Ramos Gin Fizz", nl: "Ramos Gin Fizz" },
+          { en: "Vieux Carré", es: "Vieux Carré", de: "Vieux Carré", nl: "Vieux Carré" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Sazerac was officially designated as New Orleans' cocktail in 2008. While the city is famous for many drinks (Hurricane, Ramos Gin Fizz, Vieux Carré), the Sazerac holds official status.",
+          es: "El Sazerac fue designado oficialmente como el cóctel de Nueva Orleans en 2008. Mientras la ciudad es famosa por muchas bebidas (Hurricane, Ramos Gin Fizz, Vieux Carré), el Sazerac tiene estatus oficial.",
+          de: "Der Sazerac wurde 2008 offiziell als Cocktail von New Orleans bezeichnet. Während die Stadt für viele Drinks berühmt ist (Hurricane, Ramos Gin Fizz, Vieux Carré), hat der Sazerac offiziellen Status.",
+          nl: "De Sazerac werd in 2008 officieel aangewezen als New Orleans' cocktail. Hoewel de stad beroemd is om veel drankjes (Hurricane, Ramos Gin Fizz, Vieux Carré), heeft de Sazerac officiële status."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'Blood and Sand' cocktail?",
+          es: "¿Qué es un cóctel 'Blood and Sand'?",
+          de: "Was ist ein 'Blood and Sand'-Cocktail?",
+          nl: "Wat is een 'Blood and Sand' cocktail?"
+        },
+        options: [
+          { en: "Equal parts Scotch, cherry liqueur, sweet vermouth, orange juice", es: "Partes iguales de Scotch, licor de cereza, vermut dulce, jugo de naranja", de: "Gleiche Teile Scotch, Kirschlikör, süßer Wermut, Orangensaft", nl: "Gelijke delen Scotch, kersen likeur, zoete vermouth, sinaasappelsap" },
+          { en: "Bloody Mary variation", es: "Variación de Bloody Mary", de: "Bloody Mary Variation", nl: "Bloody Mary variatie" },
+          { en: "Tequila and tomato juice", es: "Tequila y jugo de tomate", de: "Tequila und Tomatensaft", nl: "Tequila en tomatensap" },
+          { en: "Red wine cocktail", es: "Cóctel de vino tinto", de: "Rotwein-Cocktail", nl: "Rode wijn cocktail" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Blood and Sand, named after a 1922 Rudolph Valentino film, combines equal parts Scotch whisky, cherry liqueur (Cherry Heering), sweet vermouth, and fresh orange juice for a complex, balanced cocktail.",
+          es: "Blood and Sand, nombrado por una película de Rudolph Valentino de 1922, combina partes iguales de whisky escocés, licor de cereza (Cherry Heering), vermut dulce y jugo fresco de naranja para un cóctel complejo y equilibrado.",
+          de: "Blood and Sand, benannt nach einem Rudolph Valentino Film von 1922, kombiniert gleiche Teile Scotch Whisky, Kirschlikör (Cherry Heering), süßen Wermut und frischen Orangensaft für einen komplexen, ausgewogenen Cocktail.",
+          nl: "Blood and Sand, vernoemd naar een Rudolph Valentino film uit 1922, combineert gelijke delen Scotch whisky, kersen likeur (Cherry Heering), zoete vermouth en vers sinaasappelsap voor een complexe, gebalanceerde cocktail."
+        }
+      },
+      {
+        question: {
+          en: "What makes a 'Tommy's Margarita' different from a classic Margarita?",
+          es: "¿Qué hace que una 'Tommy's Margarita' sea diferente de una Margarita clásica?",
+          de: "Was macht eine 'Tommy's Margarita' anders als eine klassische Margarita?",
+          nl: "Wat maakt een 'Tommy's Margarita' anders dan een klassieke Margarita?"
+        },
+        options: [
+          { en: "Uses agave nectar instead of triple sec/Cointreau", es: "Usa néctar de agave en lugar de triple sec/Cointreau", de: "Verwendet Agavennektar anstelle von Triple Sec/Cointreau", nl: "Gebruikt agave nectar in plaats van triple sec/Cointreau" },
+          { en: "Uses mezcal instead of tequila", es: "Usa mezcal en lugar de tequila", de: "Verwendet Mezcal anstelle von Tequila", nl: "Gebruikt mezcal in plaats van tequila" },
+          { en: "Served hot", es: "Servido caliente", de: "Heiß serviert", nl: "Warm geserveerd" },
+          { en: "Made with vodka", es: "Hecho con vodka", de: "Mit Wodka gemacht", nl: "Gemaakt met vodka" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tommy's Margarita, created at Tommy's Mexican Restaurant in San Francisco, substitutes agave nectar for orange liqueur, resulting in a purer tequila flavor. It uses only tequila, lime juice, and agave syrup.",
+          es: "Tommy's Margarita, creado en Tommy's Mexican Restaurant en San Francisco, sustituye néctar de agave por licor de naranja, resultando en un sabor de tequila más puro. Usa solo tequila, jugo de lima y jarabe de agave.",
+          de: "Tommy's Margarita, kreiert in Tommy's Mexican Restaurant in San Francisco, ersetzt Agavennektar für Orangenlikör, was einen reineren Tequila-Geschmack ergibt. Es verwendet nur Tequila, Limettensaft und Agavensirup.",
+          nl: "Tommy's Margarita, gecreëerd in Tommy's Mexican Restaurant in San Francisco, vervangt agave nectar voor sinaasappellikeur, wat resulteert in een puurder tequila smaak. Het gebruikt alleen tequila, limoensap en agave siroop."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'Presbyterian' cocktail?",
+          es: "¿Qué es un cóctel 'Presbyterian'?",
+          de: "Was ist ein 'Presbyterian'-Cocktail?",
+          nl: "Wat is een 'Presbyterian' cocktail?"
+        },
+        options: [
+          { en: "Whiskey with equal parts ginger ale and club soda", es: "Whisky con partes iguales de ginger ale y soda", de: "Whiskey mit gleichen Teilen Ginger Ale und Club Soda", nl: "Whiskey met gelijke delen ginger ale en club soda" },
+          { en: "Gin and tonic variation", es: "Variación de gin tonic", de: "Gin Tonic Variation", nl: "Gin tonic variatie" },
+          { en: "Wine-based aperitif", es: "Aperitivo a base de vino", de: "Weinbasierter Aperitif", nl: "Wijn-gebaseerde aperitief" },
+          { en: "Beer cocktail", es: "Cóctel de cerveza", de: "Bier-Cocktail", nl: "Bier cocktail" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A Presbyterian is a simple highball mixing whiskey with equal parts ginger ale and club soda over ice. It's a lighter, more refreshing alternative to a Whiskey Ginger or Whiskey Soda.",
+          es: "Un Presbyterian es un highball simple que mezcla whisky con partes iguales de ginger ale y soda sobre hielo. Es una alternativa más ligera y refrescante a un Whiskey Ginger o Whiskey Soda.",
+          de: "Ein Presbyterian ist ein einfacher Highball, der Whiskey mit gleichen Teilen Ginger Ale und Club Soda über Eis mischt. Es ist eine leichtere, erfrischendere Alternative zu einem Whiskey Ginger oder Whiskey Soda.",
+          nl: "Een Presbyterian is een eenvoudige highball die whiskey mengt met gelijke delen ginger ale en club soda over ijs. Het is een lichter, verfrissender alternatief voor een Whiskey Ginger of Whiskey Soda."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes a 'Ti' Punch' from other rum cocktails?",
+          es: "¿Qué distingue un 'Ti' Punch' de otros cócteles de ron?",
+          de: "Was unterscheidet einen 'Ti' Punch' von anderen Rum-Cocktails?",
+          nl: "Wat onderscheidt een 'Ti' Punch' van andere rum cocktails?"
+        },
+        options: [
+          { en: "Martinique agricole rhum with lime disc and cane syrup, stirred by the drinker themselves", es: "Ron agrícola de Martinica con disco de lima y jarabe de caña, revuelto por el bebedor mismo", de: "Martinique Agricole Rhum mit Limettenscheibe und Rohrzuckersirup, vom Trinker selbst gerührt", nl: "Martinique agricole rhum met limoen schijf en rietsuiker siroop, geroerd door de drinker zelf" },
+          { en: "Contains tropical fruit juices", es: "Contiene jugos de frutas tropicales", de: "Enthält tropische Fruchtsäfte", nl: "Bevat tropische vruchtensappen" },
+          { en: "Always served frozen", es: "Siempre servido congelado", de: "Immer gefroren serviert", nl: "Altijd bevroren geserveerd" },
+          { en: "Made with dark rum only", es: "Hecho solo con ron oscuro", de: "Nur mit dunklem Rum gemacht", nl: "Gemaakt met alleen donkere rum" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ti' Punch (from French 'Petit Punch') is the national cocktail of Martinique, traditionally made with rhum agricole, a lime disc (including peel), and cane syrup. Uniquely, ingredients are presented to the drinker who stirs it themselves to their preferred dilution, embodying the saying 'Chacun prépare sa propre mort' (each prepares their own death).",
+          es: "Ti' Punch (del francés 'Petit Punch') es el cóctel nacional de Martinica, tradicionalmente hecho con ron agrícola, un disco de lima (incluyendo cáscara) y jarabe de caña. Únicamente, los ingredientes se presentan al bebedor quien lo revuelve a su dilución preferida, encarnando el dicho 'Chacun prépare sa propre mort' (cada uno prepara su propia muerte).",
+          de: "Ti' Punch (vom französischen 'Petit Punch') ist der Nationalcocktail von Martinique, traditionell gemacht mit Rhum Agricole, einer Limettenscheibe (einschließlich Schale) und Rohrzuckersirup. Einzigartig werden die Zutaten dem Trinker präsentiert, der es selbst zu seiner bevorzugten Verdünnung rührt, was das Sprichwort 'Chacun prépare sa propre mort' (jeder bereitet seinen eigenen Tod vor) verkörpert.",
+          nl: "Ti' Punch (van het Franse 'Petit Punch') is de nationale cocktail van Martinique, traditioneel gemaakt met rhum agricole, een limoen schijf (inclusief schil) en rietsuiker siroop. Uniek worden ingrediënten gepresenteerd aan de drinker die het zelf roert tot hun voorkeur verdunning, wat het gezegde 'Chacun prépare sa propre mort' (iedereen bereidt hun eigen dood voor) belichaamt."
+        }
+      }
+    ]
   };
 
   // Export for use in the quiz application

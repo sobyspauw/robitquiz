@@ -1,0 +1,114 @@
+            {
+                question: {
+                    en: "What is the molecular basis for tea's cardiovascular protective effects beyond simple antioxidant activity?",
+                    es: "¿Cuál es la base molecular para efectos protectores cardiovasculares del té más allá de actividad antioxidante simple?",
+                    de: "Was ist die molekulare Grundlage für Tees kardiovaskuläre Schutzwirkungen jenseits einfacher Antioxidans-Aktivität?",
+                    nl: "Wat is de moleculaire basis voor thee's cardiovasculaire beschermende effecten voorbij simpele antioxidant activiteit?"
+                },
+                options: [
+                    {
+                        en: "Catechins upregulate endothelial NOS (increasing NO production for vasodilation), inhibit ACE (lowering blood pressure), and reduce LDL oxidation preventing foam cell formation",
+                        es: "Catequinas regulan al alza NOS endotelial (aumentando producción de NO para vasodilatación), inhiben ACE (bajando presión arterial), y reducen oxidación LDL previniendo formación de células espumosas",
+                        de: "Catechine regulieren endotheliale NOS hoch (erhöhen NO-Produktion für Vasodilatation), hemmen ACE (senken Blutdruck) und reduzieren LDL-Oxidation, verhindern Schaumzellbildung",
+                        nl: "Catechines upreguleren endotheel NOS (verhogen NO productie voor vasodilatatie), remmen ACE (verlagen bloeddruk), en verminderen LDL oxidatie wat schuimcel vorming voorkomt"
+                    },
+                    {
+                        en: "Tea only provides hydration benefits for cardiovascular health",
+                        es: "Té solo proporciona beneficios de hidratación para salud cardiovascular",
+                        de: "Tee bietet nur Hydratationsvorteile für kardiovaskuläre Gesundheit",
+                        nl: "Thee biedt alleen hydratatie voordelen voor cardiovasculaire gezondheid"
+                    },
+                    {
+                        en: "Tea's caffeine is the sole active cardiovascular compound",
+                        es: "Cafeína del té es único compuesto cardiovascular activo",
+                        de: "Tee-Koffein ist die einzige aktive kardiovaskuläre Verbindung",
+                        nl: "Thee's cafeïne is de enige actieve cardiovasculaire verbinding"
+                    },
+                    {
+                        en: "Tea works only through reducing dietary sodium intake",
+                        es: "Té funciona solo reduciendo ingesta dietética de sodio",
+                        de: "Tee wirkt nur durch Reduzierung der diätetischen Natriumaufnahme",
+                        nl: "Thee werkt alleen door vermindering van dieet natrium inname"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Tea polyphenols protect cardiovascular health through multiple sophisticated mechanisms beyond ROS scavenging: 1) Endothelial function—EGCG upregulates endothelial nitric oxide synthase (eNOS) expression and prevents oxidative eNOS uncoupling, maintaining NO bioavailability for vasodilation and preventing endothelial dysfunction; 2) Blood pressure regulation—catechins inhibit angiotensin-converting enzyme (ACE), reducing angiotensin II formation, similar to pharmaceutical ACE inhibitors; 3) Atherosclerosis prevention—catechins prevent LDL oxidation (blocking foam cell formation), inhibit VCAM-1/ICAM-1 expression (reducing monocyte adhesion), and suppress smooth muscle cell proliferation; 4) Platelet aggregation inhibition—reducing thrombosis risk. Prospective studies show 3+ cups daily reduces cardiovascular disease risk by 20-30%."
+                }
+            },
+            {
+                question: {
+                    en: "What is the epigenetic mechanism by which tea polyphenols may influence gene expression related to cancer prevention?",
+                    es: "¿Cuál es el mecanismo epigenético por el cual polifenoles de té pueden influir expresión génica relacionada con prevención de cáncer?",
+                    de: "Was ist der epigenetische Mechanismus, durch den Teepolyphenole Genexpression im Zusammenhang mit Krebsprävention beeinflussen können?",
+                    nl: "Wat is het epigenetische mechanisme waardoor thee polyfenolen gen expressie gerelateerd aan kanker preventie kunnen beïnvloeden?"
+                },
+                options: [
+                    {
+                        en: "EGCG inhibits DNA methyltransferases (DNMTs) and histone deacetylases (HDACs), reactivating silenced tumor suppressor genes and modifying chromatin structure",
+                        es: "EGCG inhibe metiltransferasas de DNA (DNMTs) e histona desacetilasas (HDACs), reactivando genes supresores de tumores silenciados y modificando estructura de cromatina",
+                        de: "EGCG hemmt DNA-Methyltransferasen (DNMTs) und Histon-Deacetylasen (HDACs), reaktiviert stillgelegte Tumorsuppressorgene und modifiziert Chromatinstruktur",
+                        nl: "EGCG remt DNA methyltransferases (DNMTs) en histon deacetylases (HDACs), reactiveert stilgelegde tumor suppressor genen en modificeert chromatine structuur"
+                    },
+                    {
+                        en: "Tea only provides dietary fiber for cancer prevention",
+                        es: "Té solo proporciona fibra dietética para prevención de cáncer",
+                        de: "Tee bietet nur Ballaststoffe zur Krebsprävention",
+                        nl: "Thee biedt alleen voedingsvezel voor kanker preventie"
+                    },
+                    {
+                        en: "Tea has no molecular interaction with genetic material",
+                        es: "Té no tiene interacción molecular con material genético",
+                        de: "Tee hat keine molekulare Interaktion mit genetischem Material",
+                        nl: "Thee heeft geen moleculaire interactie met genetisch materiaal"
+                    },
+                    {
+                        en: "Tea works only by physical dilution of carcinogens",
+                        es: "Té funciona solo por dilución física de carcinógenos",
+                        de: "Tee wirkt nur durch physische Verdünnung von Karzinogenen",
+                        nl: "Thee werkt alleen door fysieke verdunning van carcinogenen"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "EGCG and other tea catechins influence cancer-related gene expression through epigenetic modifications without altering DNA sequence: 1) DNMT inhibition—EGCG competitively inhibits DNA methyltransferases (DNMT1, DNMT3a, DNMT3b) that hypermethylate and silence tumor suppressor genes (p16INK4a, RARβ, MGMT). Demethylation reactivates these protective genes; 2) HDAC inhibition—catechins inhibit histone deacetylases, increasing histone acetylation which opens chromatin and allows transcription of silenced genes; 3) miRNA modulation—EGCG alters microRNA expression profiles, upregulating tumor-suppressive miRNAs (miR-16) and downregulating oncogenic miRNAs. These epigenetic changes can persist and be inherited. In vitro and animal studies show these mechanisms contribute to tea's chemopreventive effects in colon, prostate, breast, and lung cancers."
+                }
+            },
+            {
+                question: {
+                    en: "What is the molecular mechanism behind tea polyphenols' neuroprotective effects in neurodegenerative diseases?",
+                    es: "¿Cuál es el mecanismo molecular detrás de efectos neuroprotectores de polifenoles de té en enfermedades neurodegenerativas?",
+                    de: "Was ist der molekulare Mechanismus hinter neuroprotektiven Wirkungen von Teepolyphenolen bei neurodegenerativen Erkrankungen?",
+                    nl: "Wat is het moleculaire mechanisme achter thee polyfenolen's neuroprotectieve effecten in neurodegeneratieve ziekten?"
+                },
+                options: [
+                    {
+                        en: "EGCG prevents amyloid-β aggregation, chelates iron/copper preventing Fenton reactions, activates Nrf2 antioxidant pathway, and inhibits acetylcholinesterase",
+                        es: "EGCG previene agregación de amiloide-β, quela hierro/cobre previniendo reacciones de Fenton, activa vía antioxidante Nrf2, e inhibe acetilcolinesterasa",
+                        de: "EGCG verhindert Amyloid-β-Aggregation, chelatiert Eisen/Kupfer und verhindert Fenton-Reaktionen, aktiviert Nrf2-Antioxidans-Weg und hemmt Acetylcholinesterase",
+                        nl: "EGCG voorkomt amyloïd-β aggregatie, chelateert ijzer/koper wat Fenton reacties voorkomt, activeert Nrf2 antioxidant pathway, en remt acetylcholinesterase"
+                    },
+                    {
+                        en: "Tea only improves alertness through caffeine stimulation",
+                        es: "Té solo mejora alerta mediante estimulación de cafeína",
+                        de: "Tee verbessert nur Wachheit durch Koffein-Stimulation",
+                        nl: "Thee verbetert alleen alertheid door cafeïne stimulatie"
+                    },
+                    {
+                        en: "Tea provides no specific neuroprotective compounds",
+                        es: "Té no proporciona compuestos neuroprotectores específicos",
+                        de: "Tee bietet keine spezifischen neuroprotektiven Verbindungen",
+                        nl: "Thee biedt geen specifieke neuroprotectieve verbindingen"
+                    },
+                    {
+                        en: "Tea works only through general hydration of brain tissue",
+                        es: "Té funciona solo mediante hidratación general de tejido cerebral",
+                        de: "Tee wirkt nur durch allgemeine Hydratation von Hirngewebe",
+                        nl: "Thee werkt alleen door algemene hydratatie van hersenweefsel"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Tea catechins, especially EGCG, provide multi-faceted neuroprotection relevant to Alzheimer's, Parkinson's, and other neurodegenerative diseases: 1) Anti-aggregation—EGCG binds to unfolded proteins (amyloid-β, α-synuclein, prion protein) redirecting them toward non-toxic oligomers rather than toxic fibrils; 2) Metal chelation—EGCG's catechol groups chelate redox-active iron and copper, preventing Fenton chemistry that generates hydroxyl radicals causing oxidative neuronal damage; 3) Nrf2 activation—upregulates phase II detoxification enzymes and antioxidant proteins (heme oxygenase-1, glutathione peroxidase) protecting neurons; 4) Acetylcholinesterase inhibition—increases acetylcholine availability improving cognition (similar to Alzheimer's drugs); 5) BDNF upregulation—promotes neuronal survival and neurogenesis. Epidemiological studies show regular tea consumption (especially green tea) reduces dementia risk."
+                }
+            }

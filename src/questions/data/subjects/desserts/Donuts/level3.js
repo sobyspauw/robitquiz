@@ -426,7 +426,427 @@
           es: "La fermentación permite que la levadura fermente y cree burbujas de dióxido de carbono, lo que da a las donas su textura ligera y aireada cuando se fríen.",
           de: "Das Gehen lassen ermöglicht der Hefe zu fermentieren und Kohlendioxid-Blasen zu erzeugen, was den Donuts ihre leichte, luftige Textur beim Frittieren verleiht.",
           nl: "Rijzen stelt de gist in staat te fermenteren en koolstofdioxide-bellen te creëren, wat de donuts hun lichte, luchtige textuur geeft wanneer ze gefrituurd worden."
-        }
+        }    },
+    {
+      question: {
+        en: "What is a raised donut?",
+        es: "What is a raised donut?",
+        de: "What is a raised donut?",
+        nl: "What is a raised donut?"
+      },
+      options: [
+        { en: "Yeast-leavened donut", es: "Yeast-leavened donut", de: "Yeast-leavened donut", nl: "Yeast-leavened donut" },
+        { en: "Baked donut", es: "Baked donut", de: "Baked donut", nl: "Baked donut" },
+        { en: "Cake donut", es: "Cake donut", de: "Cake donut", nl: "Cake donut" },
+        { en: "Filled donut", es: "Filled donut", de: "Filled donut", nl: "Filled donut" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Raised donuts are light and airy because they're leavened with yeast rather than baking powder.",
+        es: "Raised donuts are light and airy because they're leavened with yeast rather than baking powder.",
+        de: "Raised donuts are light and airy because they're leavened with yeast rather than baking powder.",
+        nl: "Raised donuts are light and airy because they're leavened with yeast rather than baking powder."
+      }
+    },
+    {
+      question: {
+        en: "What is a cake donut?",
+        es: "What is a cake donut?",
+        de: "What is a cake donut?",
+        nl: "What is a cake donut?"
+      },
+      options: [
+        { en: "Donut leavened with baking powder", es: "Donut leavened with baking powder", de: "Donut leavened with baking powder", nl: "Donut leavened with baking powder" },
+        { en: "Donut shaped like a cake", es: "Donut shaped like a cake", de: "Donut shaped like a cake", nl: "Donut shaped like a cake" },
+        { en: "Donut with frosting", es: "Donut with frosting", de: "Donut with frosting", nl: "Donut with frosting" },
+        { en: "Yeast donut", es: "Yeast donut", de: "Yeast donut", nl: "Yeast donut" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Cake donuts are denser than raised donuts because they're leavened with baking powder or baking soda instead of yeast.",
+        es: "Cake donuts are denser than raised donuts because they're leavened with baking powder or baking soda instead of yeast.",
+        de: "Cake donuts are denser than raised donuts because they're leavened with baking powder or baking soda instead of yeast.",
+        nl: "Cake donuts are denser than raised donuts because they're leavened with baking powder or baking soda instead of yeast."
+      }
+    },
+    {
+      question: {
+        en: "What is a cruller?",
+        es: "What is a cruller?",
+        de: "What is a cruller?",
+        nl: "What is a cruller?"
+      },
+      options: [
+        { en: "Twisted or braided fried donut", es: "Twisted or braided fried donut", de: "Twisted or braided fried donut", nl: "Twisted or braided fried donut" },
+        { en: "Filled donut", es: "Filled donut", de: "Filled donut", nl: "Filled donut" },
+        { en: "Glazed donut", es: "Glazed donut", de: "Glazed donut", nl: "Glazed donut" },
+        { en: "Cake donut", es: "Cake donut", de: "Cake donut", nl: "Cake donut" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A cruller is a twisted or braided donut, often made from choux pastry, with a light, crispy texture.",
+        es: "A cruller is a twisted or braided donut, often made from choux pastry, with a light, crispy texture.",
+        de: "A cruller is a twisted or braided donut, often made from choux pastry, with a light, crispy texture.",
+        nl: "A cruller is a twisted or braided donut, often made from choux pastry, with a light, crispy texture."
+      }
+    },
+    {
+      question: {
+        en: "What temperature should oil be for frying donuts?",
+        es: "What temperature should oil be for frying donuts?",
+        de: "What temperature should oil be for frying donuts?",
+        nl: "What temperature should oil be for frying donuts?"
+      },
+      options: [
+        { en: "350-375°F (175-190°C)", es: "350-375°F (175-190°C)", de: "350-375°F (175-190°C)", nl: "350-375°F (175-190°C)" },
+        { en: "400°F (200°C)", es: "400°F (200°C)", de: "400°F (200°C)", nl: "400°F (200°C)" },
+        { en: "300°F (150°C)", es: "300°F (150°C)", de: "300°F (150°C)", nl: "300°F (150°C)" },
+        { en: "425°F (220°C)", es: "425°F (220°C)", de: "425°F (220°C)", nl: "425°F (220°C)" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Donuts should be fried at 350-375°F for proper cooking - lower causes greasiness, higher causes burning.",
+        es: "Donuts should be fried at 350-375°F for proper cooking - lower causes greasiness, higher causes burning.",
+        de: "Donuts should be fried at 350-375°F for proper cooking - lower causes greasiness, higher causes burning.",
+        nl: "Donuts should be fried at 350-375°F for proper cooking - lower causes greasiness, higher causes burning."
+      }
+    },
+    {
+      question: {
+        en: "What is a beignet?",
+        es: "What is a beignet?",
+        de: "What is a beignet?",
+        nl: "What is a beignet?"
+      },
+      options: [
+        { en: "French fried dough covered in powdered sugar", es: "French fried dough covered in powdered sugar", de: "French fried dough covered in powdered sugar", nl: "French fried dough covered in powdered sugar" },
+        { en: "French cake donut", es: "French cake donut", de: "French cake donut", nl: "French cake donut" },
+        { en: "Filled donut", es: "Filled donut", de: "Filled donut", nl: "Filled donut" },
+        { en: "Glazed donut", es: "Glazed donut", de: "Glazed donut", nl: "Glazed donut" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Beignets are squares of fried dough generously covered with powdered sugar, traditional to New Orleans.",
+        es: "Beignets are squares of fried dough generously covered with powdered sugar, traditional to New Orleans.",
+        de: "Beignets are squares of fried dough generously covered with powdered sugar, traditional to New Orleans.",
+        nl: "Beignets are squares of fried dough generously covered with powdered sugar, traditional to New Orleans."
+      }
+    },
+    {
+      question: {
+        en: "What causes donuts to be greasy?",
+        es: "What causes donuts to be greasy?",
+        de: "What causes donuts to be greasy?",
+        nl: "What causes donuts to be greasy?"
+      },
+      options: [
+        { en: "Oil temperature too low", es: "Oil temperature too low", de: "Oil temperature too low", nl: "Oil temperature too low" },
+        { en: "Oil temperature too high", es: "Oil temperature too high", de: "Oil temperature too high", nl: "Oil temperature too high" },
+        { en: "Too much sugar", es: "Too much sugar", de: "Too much sugar", nl: "Too much sugar" },
+        { en: "Too much flour", es: "Too much flour", de: "Too much flour", nl: "Too much flour" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "If frying oil is too cool, donuts absorb excess oil and become greasy instead of crispy.",
+        es: "If frying oil is too cool, donuts absorb excess oil and become greasy instead of crispy.",
+        de: "If frying oil is too cool, donuts absorb excess oil and become greasy instead of crispy.",
+        nl: "If frying oil is too cool, donuts absorb excess oil and become greasy instead of crispy."
+      }
+    },
+    {
+      question: {
+        en: "What is a Long John donut?",
+        es: "What is a Long John donut?",
+        de: "What is a Long John donut?",
+        nl: "What is a Long John donut?"
+      },
+      options: [
+        { en: "Rectangular filled donut", es: "Rectangular filled donut", de: "Rectangular filled donut", nl: "Rectangular filled donut" },
+        { en: "Round glazed donut", es: "Round glazed donut", de: "Round glazed donut", nl: "Round glazed donut" },
+        { en: "Twisted donut", es: "Twisted donut", de: "Twisted donut", nl: "Twisted donut" },
+        { en: "Donut hole", es: "Donut hole", de: "Donut hole", nl: "Donut hole" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A Long John is an elongated, rectangular donut, usually filled with cream or custard and topped with icing.",
+        es: "A Long John is an elongated, rectangular donut, usually filled with cream or custard and topped with icing.",
+        de: "A Long John is an elongated, rectangular donut, usually filled with cream or custard and topped with icing.",
+        nl: "A Long John is an elongated, rectangular donut, usually filled with cream or custard and topped with icing."
+      }
+    },
+    {
+      question: {
+        en: "What are donut holes?",
+        es: "What are donut holes?",
+        de: "What are donut holes?",
+        nl: "What are donut holes?"
+      },
+      options: [
+        { en: "Small round donuts from center cutouts", es: "Small round donuts from center cutouts", de: "Small round donuts from center cutouts", nl: "Small round donuts from center cutouts" },
+        { en: "Failed donuts", es: "Failed donuts", de: "Failed donuts", nl: "Failed donuts" },
+        { en: "Donut-shaped holes", es: "Donut-shaped holes", de: "Donut-shaped holes", nl: "Donut-shaped holes" },
+        { en: "Mini filled donuts", es: "Mini filled donuts", de: "Mini filled donuts", nl: "Mini filled donuts" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Donut holes are small, round pieces of fried dough, originally made from the centers cut out of ring donuts.",
+        es: "Donut holes are small, round pieces of fried dough, originally made from the centers cut out of ring donuts.",
+        de: "Donut holes are small, round pieces of fried dough, originally made from the centers cut out of ring donuts.",
+        nl: "Donut holes are small, round pieces of fried dough, originally made from the centers cut out of ring donuts."
+      }
+    },
+    {
+      question: {
+        en: "What is a Boston cream donut?",
+        es: "What is a Boston cream donut?",
+        de: "What is a Boston cream donut?",
+        nl: "What is a Boston cream donut?"
+      },
+      options: [
+        { en: "Round donut filled with custard, topped with chocolate", es: "Round donut filled with custard, topped with chocolate", de: "Round donut filled with custard, topped with chocolate", nl: "Round donut filled with custard, topped with chocolate" },
+        { en: "Donut from Boston", es: "Donut from Boston", de: "Donut from Boston", nl: "Donut from Boston" },
+        { en: "Cream-filled long john", es: "Cream-filled long john", de: "Cream-filled long john", nl: "Cream-filled long john" },
+        { en: "Glazed donut", es: "Glazed donut", de: "Glazed donut", nl: "Glazed donut" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A Boston cream donut is round, filled with custard or cream, and topped with chocolate icing.",
+        es: "A Boston cream donut is round, filled with custard or cream, and topped with chocolate icing.",
+        de: "A Boston cream donut is round, filled with custard or cream, and topped with chocolate icing.",
+        nl: "A Boston cream donut is round, filled with custard or cream, and topped with chocolate icing."
+      }
+    },
+    {
+      question: {
+        en: "What is the origin of the donut hole in the center?",
+        es: "What is the origin of the donut hole in the center?",
+        de: "What is the origin of the donut hole in the center?",
+        nl: "What is the origin of the donut hole in the center?"
+      },
+      options: [
+        { en: "Allows even cooking throughout", es: "Allows even cooking throughout", de: "Allows even cooking throughout", nl: "Allows even cooking throughout" },
+        { en: "Saves dough", es: "Saves dough", de: "Saves dough", nl: "Saves dough" },
+        { en: "Traditional decoration", es: "Traditional decoration", de: "Traditional decoration", nl: "Traditional decoration" },
+        { en: "Easier to hold", es: "Easier to hold", de: "Easier to hold", nl: "Easier to hold" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The hole in the center allows the donut to cook evenly throughout - the center would be raw without it.",
+        es: "The hole in the center allows the donut to cook evenly throughout - the center would be raw without it.",
+        de: "The hole in the center allows the donut to cook evenly throughout - the center would be raw without it.",
+        nl: "The hole in the center allows the donut to cook evenly throughout - the center would be raw without it."
+      }
+    },
+    {
+      question: {
+        en: "What is a French cruller made from?",
+        es: "What is a French cruller made from?",
+        de: "What is a French cruller made from?",
+        nl: "What is a French cruller made from?"
+      },
+      options: [
+        { en: "Choux pastry", es: "Choux pastry", de: "Choux pastry", nl: "Choux pastry" },
+        { en: "Yeast dough", es: "Yeast dough", de: "Yeast dough", nl: "Yeast dough" },
+        { en: "Cake batter", es: "Cake batter", de: "Cake batter", nl: "Cake batter" },
+        { en: "Bread dough", es: "Bread dough", de: "Bread dough", nl: "Bread dough" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "French crullers are made from choux pastry (same as cream puffs), piped into rings and fried.",
+        es: "French crullers are made from choux pastry (same as cream puffs), piped into rings and fried.",
+        de: "French crullers are made from choux pastry (same as cream puffs), piped into rings and fried.",
+        nl: "French crullers are made from choux pastry (same as cream puffs), piped into rings and fried."
+      }
+    },
+    {
+      question: {
+        en: "What glaze is traditionally used on donuts?",
+        es: "What glaze is traditionally used on donuts?",
+        de: "What glaze is traditionally used on donuts?",
+        nl: "What glaze is traditionally used on donuts?"
+      },
+      options: [
+        { en: "Powdered sugar and milk/water", es: "Powdered sugar and milk/water", de: "Powdered sugar and milk/water", nl: "Powdered sugar and milk/water" },
+        { en: "Chocolate ganache", es: "Chocolate ganache", de: "Chocolate ganache", nl: "Chocolate ganache" },
+        { en: "Caramel", es: "Caramel", de: "Caramel", nl: "Caramel" },
+        { en: "Buttercream", es: "Buttercream", de: "Buttercream", nl: "Buttercream" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Traditional donut glaze is made from powdered sugar mixed with milk or water, sometimes with vanilla added.",
+        es: "Traditional donut glaze is made from powdered sugar mixed with milk or water, sometimes with vanilla added.",
+        de: "Traditional donut glaze is made from powdered sugar mixed with milk or water, sometimes with vanilla added.",
+        nl: "Traditional donut glaze is made from powdered sugar mixed with milk or water, sometimes with vanilla added."
+      }
+    },
+    {
+      question: {
+        en: "What is a jelly donut?",
+        es: "What is a jelly donut?",
+        de: "What is a jelly donut?",
+        nl: "What is a jelly donut?"
+      },
+      options: [
+        { en: "Round donut filled with jam or jelly", es: "Round donut filled with jam or jelly", de: "Round donut filled with jam or jelly", nl: "Round donut filled with jam or jelly" },
+        { en: "Donut topped with jelly", es: "Donut topped with jelly", de: "Donut topped with jelly", nl: "Donut topped with jelly" },
+        { en: "Ring donut", es: "Ring donut", de: "Ring donut", nl: "Ring donut" },
+        { en: "Glazed donut", es: "Glazed donut", de: "Glazed donut", nl: "Glazed donut" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Jelly donuts are round, filled donuts injected with fruit jam or jelly, often dusted with powdered sugar.",
+        es: "Jelly donuts are round, filled donuts injected with fruit jam or jelly, often dusted with powdered sugar.",
+        de: "Jelly donuts are round, filled donuts injected with fruit jam or jelly, often dusted with powdered sugar.",
+        nl: "Jelly donuts are round, filled donuts injected with fruit jam or jelly, often dusted with powdered sugar."
+      }
+    },
+    {
+      question: {
+        en: "What is proofing in donut making?",
+        es: "What is proofing in donut making?",
+        de: "What is proofing in donut making?",
+        nl: "What is proofing in donut making?"
+      },
+      options: [
+        { en: "Letting yeast dough rise", es: "Letting yeast dough rise", de: "Letting yeast dough rise", nl: "Letting yeast dough rise" },
+        { en: "Testing oil temperature", es: "Testing oil temperature", de: "Testing oil temperature", nl: "Testing oil temperature" },
+        { en: "Checking for doneness", es: "Checking for doneness", de: "Checking for doneness", nl: "Checking for doneness" },
+        { en: "Glazing donuts", es: "Glazing donuts", de: "Glazing donuts", nl: "Glazing donuts" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Proofing is the process of letting yeast-raised donut dough rise before frying, allowing the yeast to create air pockets.",
+        es: "Proofing is the process of letting yeast-raised donut dough rise before frying, allowing the yeast to create air pockets.",
+        de: "Proofing is the process of letting yeast-raised donut dough rise before frying, allowing the yeast to create air pockets.",
+        nl: "Proofing is the process of letting yeast-raised donut dough rise before frying, allowing the yeast to create air pockets."
+      }
+    },
+    {
+      question: {
+        en: "What is an old-fashioned donut?",
+        es: "What is an old-fashioned donut?",
+        de: "What is an old-fashioned donut?",
+        nl: "What is an old-fashioned donut?"
+      },
+      options: [
+        { en: "Crackly-surfaced cake donut", es: "Crackly-surfaced cake donut", de: "Crackly-surfaced cake donut", nl: "Crackly-surfaced cake donut" },
+        { en: "Yeast donut", es: "Yeast donut", de: "Yeast donut", nl: "Yeast donut" },
+        { en: "Filled donut", es: "Filled donut", de: "Filled donut", nl: "Filled donut" },
+        { en: "Glazed donut", es: "Glazed donut", de: "Glazed donut", nl: "Glazed donut" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Old-fashioned donuts are cake donuts with a distinctive crackly, craggy surface texture.",
+        es: "Old-fashioned donuts are cake donuts with a distinctive crackly, craggy surface texture.",
+        de: "Old-fashioned donuts are cake donuts with a distinctive crackly, craggy surface texture.",
+        nl: "Old-fashioned donuts are cake donuts with a distinctive crackly, craggy surface texture."
+      }
+    },
+    {
+      question: {
+        en: "What is a buttermilk donut?",
+        es: "What is a buttermilk donut?",
+        de: "What is a buttermilk donut?",
+        nl: "What is a buttermilk donut?"
+      },
+      options: [
+        { en: "Cake donut made with buttermilk", es: "Cake donut made with buttermilk", de: "Cake donut made with buttermilk", nl: "Cake donut made with buttermilk" },
+        { en: "Donut filled with buttermilk", es: "Donut filled with buttermilk", de: "Donut filled with buttermilk", nl: "Donut filled with buttermilk" },
+        { en: "Yeast donut", es: "Yeast donut", de: "Yeast donut", nl: "Yeast donut" },
+        { en: "Glazed donut", es: "Glazed donut", de: "Glazed donut", nl: "Glazed donut" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Buttermilk donuts are cake-style donuts made with buttermilk, which creates a tender crumb and slight tang.",
+        es: "Buttermilk donuts are cake-style donuts made with buttermilk, which creates a tender crumb and slight tang.",
+        de: "Buttermilk donuts are cake-style donuts made with buttermilk, which creates a tender crumb and slight tang.",
+        nl: "Buttermilk donuts are cake-style donuts made with buttermilk, which creates a tender crumb and slight tang."
+      }
+    },
+    {
+      question: {
+        en: "What is the difference between a donut and a doughnut?",
+        es: "What is the difference between a donut and a doughnut?",
+        de: "What is the difference between a donut and a doughnut?",
+        nl: "What is the difference between a donut and a doughnut?"
+      },
+      options: [
+        { en: "Just spelling; same thing", es: "Just spelling; same thing", de: "Just spelling; same thing", nl: "Just spelling; same thing" },
+        { en: "Different shapes", es: "Different shapes", de: "Different shapes", nl: "Different shapes" },
+        { en: "Different ingredients", es: "Different ingredients", de: "Different ingredients", nl: "Different ingredients" },
+        { en: "Donut is baked, doughnut is fried", es: "Donut is baked, doughnut is fried", de: "Donut is baked, doughnut is fried", nl: "Donut is baked, doughnut is fried" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Donut and doughnut are simply different spellings of the same food; 'donut' is a simplified American spelling.",
+        es: "Donut and doughnut are simply different spellings of the same food; 'donut' is a simplified American spelling.",
+        de: "Donut and doughnut are simply different spellings of the same food; 'donut' is a simplified American spelling.",
+        nl: "Donut and doughnut are simply different spellings of the same food; 'donut' is a simplified American spelling."
+      }
+    },
+    {
+      question: {
+        en: "What is a bar donut?",
+        es: "What is a bar donut?",
+        de: "What is a bar donut?",
+        nl: "What is a bar donut?"
+      },
+      options: [
+        { en: "Rectangular or bar-shaped donut", es: "Rectangular or bar-shaped donut", de: "Rectangular or bar-shaped donut", nl: "Rectangular or bar-shaped donut" },
+        { en: "Donut with chocolate bar pieces", es: "Donut with chocolate bar pieces", de: "Donut with chocolate bar pieces", nl: "Donut with chocolate bar pieces" },
+        { en: "Donut sold in bars", es: "Donut sold in bars", de: "Donut sold in bars", nl: "Donut sold in bars" },
+        { en: "Extra-large donut", es: "Extra-large donut", de: "Extra-large donut", nl: "Extra-large donut" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Bar donuts are rectangular or bar-shaped, similar to Long Johns, often topped with glaze or icing.",
+        es: "Bar donuts are rectangular or bar-shaped, similar to Long Johns, often topped with glaze or icing.",
+        de: "Bar donuts are rectangular or bar-shaped, similar to Long Johns, often topped with glaze or icing.",
+        nl: "Bar donuts are rectangular or bar-shaped, similar to Long Johns, often topped with glaze or icing."
+      }
+    },
+    {
+      question: {
+        en: "What causes donuts to be tough?",
+        es: "What causes donuts to be tough?",
+        de: "What causes donuts to be tough?",
+        nl: "What causes donuts to be tough?"
+      },
+      options: [
+        { en: "Overmixing the dough", es: "Overmixing the dough", de: "Overmixing the dough", nl: "Overmixing the dough" },
+        { en: "Undermixing", es: "Undermixing", de: "Undermixing", nl: "Undermixing" },
+        { en: "Oil too hot", es: "Oil too hot", de: "Oil too hot", nl: "Oil too hot" },
+        { en: "Too much sugar", es: "Too much sugar", de: "Too much sugar", nl: "Too much sugar" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Overmixing donut dough develops too much gluten, resulting in tough, chewy donuts instead of tender ones.",
+        es: "Overmixing donut dough develops too much gluten, resulting in tough, chewy donuts instead of tender ones.",
+        de: "Overmixing donut dough develops too much gluten, resulting in tough, chewy donuts instead of tender ones.",
+        nl: "Overmixing donut dough develops too much gluten, resulting in tough, chewy donuts instead of tender ones."
+      }
+    },
+    {
+      question: {
+        en: "What is a maple bar?",
+        es: "What is a maple bar?",
+        de: "What is a maple bar?",
+        nl: "What is a maple bar?"
+      },
+      options: [
+        { en: "Bar donut with maple frosting", es: "Bar donut with maple frosting", de: "Bar donut with maple frosting", nl: "Bar donut with maple frosting" },
+        { en: "Donut with maple filling", es: "Donut with maple filling", de: "Donut with maple filling", nl: "Donut with maple filling" },
+        { en: "Canadian donut", es: "Canadian donut", de: "Canadian donut", nl: "Canadian donut" },
+        { en: "Round donut with maple glaze", es: "Round donut with maple glaze", de: "Round donut with maple glaze", nl: "Round donut with maple glaze" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A maple bar is a rectangular bar donut topped with maple-flavored frosting or glaze.",
+        es: "A maple bar is a rectangular bar donut topped with maple-flavored frosting or glaze.",
+        de: "A maple bar is a rectangular bar donut topped with maple-flavored frosting or glaze.",
+        nl: "A maple bar is a rectangular bar donut topped with maple-flavored frosting or glaze."
+      }
+
       }
     ]
   };

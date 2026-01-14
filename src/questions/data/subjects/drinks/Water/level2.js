@@ -428,6 +428,426 @@
           nl: "Puur water is eigenlijk een slechte geleider van elektriciteit omdat het geen opgeloste ionen bevat. De geleidbaarheid van water neemt toe met opgeloste mineralen en zouten, daarom geleidt kraanwater elektriciteit beter dan puur water."
         }
       },
+      {
+        question: {
+          en: "What is alkaline water?",
+          es: "¿Qué es el agua alcalina?",
+          de: "Was ist alkalisches Wasser?",
+          nl: "Wat is alkalisch water?"
+        },
+        options: [
+          { en: "Water with a pH above 7", es: "Agua con un pH superior a 7", de: "Wasser mit einem pH-Wert über 7", nl: "Water met een pH boven 7" },
+          { en: "Water with a pH below 7", es: "Agua con un pH inferior a 7", de: "Wasser mit einem pH-Wert unter 7", nl: "Water met een pH onder 7" },
+          { en: "Water with added alkaline metals", es: "Agua con metales alcalinos añadidos", de: "Wasser mit zugesetzten Alkalimetallen", nl: "Water met toegevoegde alkalimetalen" },
+          { en: "Water from alkaline springs only", es: "Agua solo de manantiales alcalinos", de: "Wasser nur aus alkalischen Quellen", nl: "Water alleen uit alkalische bronnen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Alkaline water has a pH level above 7, making it less acidic than neutral water (pH 7). It may contain alkaline minerals like calcium, potassium, and magnesium.",
+          es: "El agua alcalina tiene un nivel de pH superior a 7, haciéndola menos ácida que el agua neutra (pH 7). Puede contener minerales alcalinos como calcio, potasio y magnesio.",
+          de: "Alkalisches Wasser hat einen pH-Wert über 7, was es weniger sauer macht als neutrales Wasser (pH 7). Es kann alkalische Mineralien wie Kalzium, Kalium und Magnesium enthalten.",
+          nl: "Alkalisch water heeft een pH-niveau boven 7, waardoor het minder zuur is dan neutraal water (pH 7). Het kan alkalische mineralen bevatten zoals calcium, kalium en magnesium."
+        }
+      },
+      {
+        question: {
+          en: "What is carbonated water?",
+          es: "¿Qué es el agua carbonatada?",
+          de: "Was ist kohlensäurehaltiges Wasser?",
+          nl: "Wat is koolzuurhoudend water?"
+        },
+        options: [
+          { en: "Water with dissolved carbon dioxide", es: "Agua con dióxido de carbono disuelto", de: "Wasser mit gelöstem Kohlendioxid", nl: "Water met opgelost koolstofdioxide" },
+          { en: "Water from carbon-rich areas", es: "Agua de áreas ricas en carbono", de: "Wasser aus kohlenstoffreichen Gebieten", nl: "Water uit koolstofrijke gebieden" },
+          { en: "Water with carbon particles", es: "Agua con partículas de carbono", de: "Wasser mit Kohlenstoffpartikeln", nl: "Water met koolstofdeeltjes" },
+          { en: "Filtered water", es: "Agua filtrada", de: "Gefiltertes Wasser", nl: "Gefilterd water" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Carbonated water contains dissolved carbon dioxide gas under pressure, which creates bubbles and a fizzy sensation. It can occur naturally or be artificially carbonated.",
+          es: "El agua carbonatada contiene gas de dióxido de carbono disuelto bajo presión, lo que crea burbujas y una sensación efervescente. Puede ocurrir naturalmente o ser carbonatada artificialmente.",
+          de: "Kohlensäurehaltiges Wasser enthält unter Druck gelöstes Kohlendioxid-Gas, das Blasen und ein sprudelndes Gefühl erzeugt. Es kann natürlich vorkommen oder künstlich mit Kohlensäure versetzt werden.",
+          nl: "Koolzuurhoudend water bevat opgelost koolstofdioxide gas onder druk, wat bubbels en een bruisend gevoel creëert. Het kan van nature voorkomen of kunstmatig met koolzuur worden verrijkt."
+        }
+      },
+      {
+        question: {
+          en: "What is hard water?",
+          es: "¿Qué es el agua dura?",
+          de: "Was ist hartes Wasser?",
+          nl: "Wat is hard water?"
+        },
+        options: [
+          { en: "Water with high mineral content (calcium and magnesium)", es: "Agua con alto contenido mineral (calcio y magnesio)", de: "Wasser mit hohem Mineralgehalt (Kalzium und Magnesium)", nl: "Water met hoog mineralengehalte (calcium en magnesium)" },
+          { en: "Frozen water", es: "Agua congelada", de: "Gefrorenes Wasser", nl: "Bevroren water" },
+          { en: "Water under high pressure", es: "Agua bajo alta presión", de: "Wasser unter hohem Druck", nl: "Water onder hoge druk" },
+          { en: "Water with a hard surface layer", es: "Agua con una capa superficial dura", de: "Wasser mit einer harten Oberflächenschicht", nl: "Water met een harde oppervlaktelaag" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hard water contains high concentrations of dissolved minerals, primarily calcium and magnesium. It can cause limescale buildup and makes soap less effective.",
+          es: "El agua dura contiene altas concentraciones de minerales disueltos, principalmente calcio y magnesio. Puede causar acumulación de cal y hace que el jabón sea menos efectivo.",
+          de: "Hartes Wasser enthält hohe Konzentrationen gelöster Mineralien, hauptsächlich Kalzium und Magnesium. Es kann Kalkablagerungen verursachen und macht Seife weniger wirksam.",
+          nl: "Hard water bevat hoge concentraties opgeloste mineralen, voornamelijk calcium en magnesium. Het kan kalkaanslag veroorzaken en maakt zeep minder effectief."
+        }
+      },
+      {
+        question: {
+          en: "What is soft water?",
+          es: "¿Qué es el agua blanda?",
+          de: "Was ist weiches Wasser?",
+          nl: "Wat is zacht water?"
+        },
+        options: [
+          { en: "Water with low mineral content", es: "Agua con bajo contenido mineral", de: "Wasser mit niedrigem Mineralgehalt", nl: "Water met laag mineralengehalte" },
+          { en: "Water that feels smooth", es: "Agua que se siente suave", de: "Wasser, das sich glatt anfühlt", nl: "Water dat zacht aanvoelt" },
+          { en: "Warm water", es: "Agua tibia", de: "Warmes Wasser", nl: "Warm water" },
+          { en: "Liquid water (not frozen)", es: "Agua líquida (no congelada)", de: "Flüssiges Wasser (nicht gefroren)", nl: "Vloeibaar water (niet bevroren)" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Soft water has low concentrations of calcium and magnesium ions. It lathers better with soap and doesn't cause mineral buildup in pipes or appliances.",
+          es: "El agua blanda tiene bajas concentraciones de iones de calcio y magnesio. Hace más espuma con el jabón y no causa acumulación mineral en tuberías o electrodomésticos.",
+          de: "Weiches Wasser hat niedrige Konzentrationen von Kalzium- und Magnesium-Ionen. Es schäumt besser mit Seife und verursacht keine Mineralablagerungen in Rohren oder Geräten.",
+          nl: "Zacht water heeft lage concentraties calcium- en magnesiumionen. Het schuimt beter met zeep en veroorzaakt geen minerale ophoping in leidingen of apparaten."
+        }
+      },
+      {
+        question: {
+          en: "What is deionized water?",
+          es: "¿Qué es el agua desionizada?",
+          de: "Was ist deionisiertes Wasser?",
+          nl: "Wat is gedeïoniseerd water?"
+        },
+        options: [
+          { en: "Water with ions removed through ion exchange", es: "Agua con iones eliminados mediante intercambio iónico", de: "Wasser mit durch Ionenaustausch entfernten Ionen", nl: "Water met ionen verwijderd door ionenwisseling" },
+          { en: "Water with negative charge only", es: "Agua solo con carga negativa", de: "Wasser nur mit negativer Ladung", nl: "Water alleen met negatieve lading" },
+          { en: "Water without oxygen", es: "Agua sin oxígeno", de: "Wasser ohne Sauerstoff", nl: "Water zonder zuurstof" },
+          { en: "Water at neutral pH", es: "Agua a pH neutro", de: "Wasser bei neutralem pH", nl: "Water bij neutrale pH" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Deionized water has had its mineral ions removed through an ion exchange process. It's very pure and used in laboratories, electronics manufacturing, and medical applications.",
+          es: "El agua desionizada ha tenido sus iones minerales eliminados mediante un proceso de intercambio iónico. Es muy pura y se usa en laboratorios, fabricación de electrónicos y aplicaciones médicas.",
+          de: "Deionisiertes Wasser hat seine Mineralionen durch einen Ionenaustauschprozess entfernt. Es ist sehr rein und wird in Labors, Elektronikfertigung und medizinischen Anwendungen verwendet.",
+          nl: "Gedeïoniseerd water heeft zijn mineraalionen verwijderd door een ionenwisselingsproces. Het is zeer zuiver en wordt gebruikt in laboratoria, elektronica-fabricage en medische toepassingen."
+        }
+      },
+      {
+        question: {
+          en: "What is purified water?",
+          es: "¿Qué es el agua purificada?",
+          de: "Was ist gereinigtes Wasser?",
+          nl: "Wat is gezuiverd water?"
+        },
+        options: [
+          { en: "Water processed to remove impurities and contaminants", es: "Agua procesada para eliminar impurezas y contaminantes", de: "Wasser, das verarbeitet wurde, um Verunreinigungen zu entfernen", nl: "Water verwerkt om onzuiverheden en verontreinigingen te verwijderen" },
+          { en: "Water blessed by religious ceremony", es: "Agua bendecida por ceremonia religiosa", de: "Wasser, das durch religiöse Zeremonie gesegnet wurde", nl: "Water gezegend door religieuze ceremonie" },
+          { en: "Water from pure mountain streams", es: "Agua de arroyos de montaña puros", de: "Wasser aus reinen Bergbächen", nl: "Water uit pure bergstromen" },
+          { en: "Water with added purifying agents", es: "Agua con agentes purificadores añadidos", de: "Wasser mit zugesetzten Reinigungsmitteln", nl: "Water met toegevoegde zuiverende middelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Purified water has been mechanically filtered or processed to remove impurities, chemicals, and contaminants. Methods include reverse osmosis, distillation, deionization, or carbon filtration.",
+          es: "El agua purificada ha sido filtrada mecánicamente o procesada para eliminar impurezas, químicos y contaminantes. Los métodos incluyen ósmosis inversa, destilación, desionización o filtración de carbón.",
+          de: "Gereinigtes Wasser wurde mechanisch gefiltert oder verarbeitet, um Verunreinigungen, Chemikalien und Schadstoffe zu entfernen. Methoden umfassen Umkehrosmose, Destillation, Deionisierung oder Kohlefiltration.",
+          nl: "Gezuiverd water is mechanisch gefilterd of verwerkt om onzuiverheden, chemicaliën en verontreinigingen te verwijderen. Methoden omvatten omgekeerde osmose, destillatie, deïonisatie of koolstoffiltratie."
+        }
+      },
+      {
+        question: {
+          en: "What is reverse osmosis water?",
+          es: "¿Qué es el agua de ósmosis inversa?",
+          de: "Was ist Umkehrosmose-Wasser?",
+          nl: "Wat is omgekeerde osmose water?"
+        },
+        options: [
+          { en: "Water filtered through a semipermeable membrane", es: "Agua filtrada a través de una membrana semipermeable", de: "Wasser, das durch eine halbdurchlässige Membran gefiltert wurde", nl: "Water gefilterd door een semi-permeabel membraan" },
+          { en: "Water flowing backward", es: "Agua fluyendo hacia atrás", de: "Rückwärts fließendes Wasser", nl: "Water dat achterwaarts stroomt" },
+          { en: "Water from osmosis plants", es: "Agua de plantas de ósmosis", de: "Wasser aus Osmoseanlagen", nl: "Water uit osmose-installaties" },
+          { en: "Water with reversed pH", es: "Agua con pH invertido", de: "Wasser mit umgekehrtem pH", nl: "Water met omgekeerde pH" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Reverse osmosis water is purified by forcing it through a semipermeable membrane that removes up to 99% of dissolved salts, minerals, and contaminants. It's one of the most effective purification methods.",
+          es: "El agua de ósmosis inversa se purifica forzándola a través de una membrana semipermeable que elimina hasta el 99% de sales disueltas, minerales y contaminantes. Es uno de los métodos de purificación más efectivos.",
+          de: "Umkehrosmose-Wasser wird gereinigt, indem es durch eine halbdurchlässige Membran gepresst wird, die bis zu 99% der gelösten Salze, Mineralien und Schadstoffe entfernt. Es ist eine der effektivsten Reinigungsmethoden.",
+          nl: "Omgekeerde osmose water wordt gezuiverd door het door een semi-permeabel membraan te persen dat tot 99% van opgeloste zouten, mineralen en verontreinigingen verwijdert. Het is een van de meest effectieve zuiveringsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What is artesian water?",
+          es: "¿Qué es el agua artesiana?",
+          de: "Was ist artesisches Wasser?",
+          nl: "Wat is artesisch water?"
+        },
+        options: [
+          { en: "Water from a confined aquifer under natural pressure", es: "Agua de un acuífero confinado bajo presión natural", de: "Wasser aus einem begrenzten Grundwasserleiter unter natürlichem Druck", nl: "Water uit een afgesloten watervoerende laag onder natuurlijke druk" },
+          { en: "Water made by artisans", es: "Agua hecha por artesanos", de: "Wasser von Kunsthandwerkern hergestellt", nl: "Water gemaakt door ambachtslieden" },
+          { en: "Water from ancient wells", es: "Agua de pozos antiguos", de: "Wasser aus alten Brunnen", nl: "Water uit oude putten" },
+          { en: "Water with artistic minerals", es: "Agua con minerales artísticos", de: "Wasser mit künstlerischen Mineralien", nl: "Water met artistieke mineralen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Artesian water comes from a well that taps a confined aquifer where water is under enough natural pressure to rise to the surface without pumping. It's naturally filtered through rock layers.",
+          es: "El agua artesiana proviene de un pozo que aprovecha un acuífero confinado donde el agua está bajo suficiente presión natural para subir a la superficie sin bombeo. Se filtra naturalmente a través de capas de roca.",
+          de: "Artesisches Wasser stammt aus einem Brunnen, der einen begrenzten Grundwasserleiter anzapft, in dem Wasser unter ausreichendem natürlichem Druck steht, um ohne Pumpen an die Oberfläche zu steigen. Es wird natürlich durch Gesteinsschichten gefiltert.",
+          nl: "Artesisch water komt uit een put die een afgesloten watervoerende laag aanboort waar water onder voldoende natuurlijke druk staat om zonder pompen naar het oppervlak te stijgen. Het wordt natuurlijk gefilterd door rotslagen."
+        }
+      },
+      {
+        question: {
+          en: "What is sparkling water?",
+          es: "¿Qué es el agua con gas?",
+          de: "Was ist Sprudelwasser?",
+          nl: "Wat is bruisend water?"
+        },
+        options: [
+          { en: "Water with carbon dioxide bubbles", es: "Agua con burbujas de dióxido de carbono", de: "Wasser mit Kohlendioxid-Blasen", nl: "Water met koolstofdioxidebubbels" },
+          { en: "Water that sparkles in sunlight", es: "Agua que brilla bajo la luz del sol", de: "Wasser, das im Sonnenlicht funkelt", nl: "Water dat in zonlicht schittert" },
+          { en: "Water with added glitter", es: "Agua con purpurina añadida", de: "Wasser mit zugesetztem Glitzer", nl: "Water met toegevoegde glitters" },
+          { en: "Filtered spring water", es: "Agua de manantial filtrada", de: "Gefiltertes Quellwasser", nl: "Gefilterd bronwater" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sparkling water is water containing dissolved carbon dioxide gas, either naturally occurring or artificially added. The CO2 creates bubbles and a tingling sensation on the tongue.",
+          es: "El agua con gas es agua que contiene gas de dióxido de carbono disuelto, ya sea de origen natural o añadido artificialmente. El CO2 crea burbujas y una sensación de hormigueo en la lengua.",
+          de: "Sprudelwasser ist Wasser, das gelöstes Kohlendioxid-Gas enthält, entweder natürlich vorkommend oder künstlich zugesetzt. Das CO2 erzeugt Blasen und ein prickelndes Gefühl auf der Zunge.",
+          nl: "Bruisend water is water dat opgelost koolstofdioxidegas bevat, hetzij van nature voorkomend of kunstmatig toegevoegd. De CO2 creëert bubbels en een tintelend gevoel op de tong."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between still and sparkling water?",
+          es: "¿Cuál es la diferencia entre agua sin gas y agua con gas?",
+          de: "Was ist der Unterschied zwischen stillem und sprudelndem Wasser?",
+          nl: "Wat is het verschil tussen stil en bruisend water?"
+        },
+        options: [
+          { en: "Sparkling water contains carbon dioxide gas", es: "El agua con gas contiene dióxido de carbono", de: "Sprudelndes Wasser enthält Kohlendioxid-Gas", nl: "Bruisend water bevat koolstofdioxidegas" },
+          { en: "Still water is colder", es: "El agua sin gas es más fría", de: "Stilles Wasser ist kälter", nl: "Stil water is kouder" },
+          { en: "Sparkling water has more minerals", es: "El agua con gas tiene más minerales", de: "Sprudelndes Wasser hat mehr Mineralien", nl: "Bruisend water heeft meer mineralen" },
+          { en: "Still water comes from bottles only", es: "El agua sin gas solo viene en botellas", de: "Stilles Wasser kommt nur aus Flaschen", nl: "Stil water komt alleen uit flessen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The main difference is that sparkling water contains dissolved carbon dioxide gas that creates bubbles, while still water has no carbonation. Both can have similar mineral content.",
+          es: "La principal diferencia es que el agua con gas contiene dióxido de carbono disuelto que crea burbujas, mientras que el agua sin gas no tiene carbonatación. Ambas pueden tener contenido mineral similar.",
+          de: "Der Hauptunterschied ist, dass sprudelndes Wasser gelöstes Kohlendioxid-Gas enthält, das Blasen erzeugt, während stilles Wasser keine Kohlensäure hat. Beide können ähnlichen Mineralgehalt haben.",
+          nl: "Het belangrijkste verschil is dat bruisend water opgelost koolstofdioxidegas bevat dat bubbels creëert, terwijl stil water geen koolzuur heeft. Beide kunnen vergelijkbare minerale inhoud hebben."
+        }
+      },
+      {
+        question: {
+          en: "What is glacial water?",
+          es: "¿Qué es el agua glacial?",
+          de: "Was ist Gletscherwasser?",
+          nl: "Wat is gletsjerswater?"
+        },
+        options: [
+          { en: "Water from melted glaciers or ice caps", es: "Agua de glaciares o capas de hielo derretidas", de: "Wasser von geschmolzenen Gletschern oder Eiskappen", nl: "Water van gesmolten gletsjers of ijskappen" },
+          { en: "Very cold tap water", es: "Agua del grifo muy fría", de: "Sehr kaltes Leitungswasser", nl: "Zeer koud kraanwater" },
+          { en: "Water with ice cubes", es: "Agua con cubitos de hielo", de: "Wasser mit Eiswürfeln", nl: "Water met ijsblokjes" },
+          { en: "Ancient frozen water", es: "Agua congelada antigua", de: "Uraltes gefrorenes Wasser", nl: "Oud bevroren water" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Glacial water is naturally pure water that comes from melting glaciers or ice caps. It has been naturally filtered through ice and rock for thousands of years and typically has very low mineral content.",
+          es: "El agua glacial es agua naturalmente pura que proviene del derretimiento de glaciares o capas de hielo. Ha sido filtrada naturalmente a través de hielo y roca durante miles de años y típicamente tiene muy bajo contenido mineral.",
+          de: "Gletscherwasser ist natürlich reines Wasser, das von schmelzenden Gletschern oder Eiskappen stammt. Es wurde über Tausende von Jahren natürlich durch Eis und Gestein gefiltert und hat typischerweise einen sehr niedrigen Mineralgehalt.",
+          nl: "Gletsjerswater is natuurlijk zuiver water dat afkomstig is van smeltende gletsjers of ijskappen. Het is duizenden jaren lang natuurlijk gefilterd door ijs en rotsen en heeft meestal een zeer laag mineralengehalte."
+        }
+      },
+      {
+        question: {
+          en: "What is fluoridated water?",
+          es: "¿Qué es el agua fluorada?",
+          de: "Was ist fluoridiertes Wasser?",
+          nl: "Wat is gefluorideerd water?"
+        },
+        options: [
+          { en: "Water with added fluoride to prevent tooth decay", es: "Agua con fluoruro añadido para prevenir caries", de: "Wasser mit zugesetztem Fluorid zur Kariesprävention", nl: "Water met toegevoegd fluoride om tandbederf te voorkomen" },
+          { en: "Water from fluorine-rich rocks", es: "Agua de rocas ricas en flúor", de: "Wasser aus fluorhaltigen Gesteinen", nl: "Water uit fluorrijke rotsen" },
+          { en: "Water that glows under UV light", es: "Agua que brilla bajo luz UV", de: "Wasser, das unter UV-Licht leuchtet", nl: "Water dat gloeit onder UV-licht" },
+          { en: "Water purified with fluorine gas", es: "Agua purificada con gas flúor", de: "Wasser, das mit Fluorgas gereinigt wurde", nl: "Water gezuiverd met fluoorgas" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Fluoridated water has fluoride compounds added to reduce tooth decay in communities. The optimal level is typically 0.7-1.2 mg/L. It's a common public health measure in many countries.",
+          es: "El agua fluorada tiene compuestos de fluoruro añadidos para reducir las caries dentales en las comunidades. El nivel óptimo es típicamente 0.7-1.2 mg/L. Es una medida común de salud pública en muchos países.",
+          de: "Fluoridiertes Wasser hat zugesetzte Fluoridverbindungen, um Karies in Gemeinden zu reduzieren. Der optimale Gehalt liegt typischerweise bei 0,7-1,2 mg/L. Es ist eine gängige Maßnahme der öffentlichen Gesundheit in vielen Ländern.",
+          nl: "Gefluorideerd water heeft fluorideverbindingen toegevoegd om tandbederf in gemeenschappen te verminderen. Het optimale niveau is meestal 0,7-1,2 mg/L. Het is een veelvoorkomende volksgezondheidsmaatres in veel landen."
+        }
+      },
+      {
+        question: {
+          en: "What is the main characteristic of brackish water?",
+          es: "¿Cuál es la característica principal del agua salobre?",
+          de: "Was ist die Haupteigenschaft von Brackwasser?",
+          nl: "Wat is de belangrijkste eigenschap van brak water?"
+        },
+        options: [
+          { en: "Saltier than fresh water but less salty than seawater", es: "Más salada que el agua dulce pero menos salada que el agua de mar", de: "Salziger als Süßwasser, aber weniger salzig als Meerwasser", nl: "Zouter dan zoet water maar minder zout dan zeewater" },
+          { en: "Water with broken minerals", es: "Agua con minerales rotos", de: "Wasser mit gebrochenen Mineralien", nl: "Water met gebroken mineralen" },
+          { en: "Very cold water", es: "Agua muy fría", de: "Sehr kaltes Wasser", nl: "Zeer koud water" },
+          { en: "Water from broken pipes", es: "Agua de tuberías rotas", de: "Wasser aus kaputten Rohren", nl: "Water uit kapotte leidingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Brackish water has salinity between fresh water (less than 0.5 ppt) and seawater (about 35 ppt), typically 0.5-30 ppt. It's found in estuaries where rivers meet the sea.",
+          es: "El agua salobre tiene una salinidad entre el agua dulce (menos de 0.5 ppt) y el agua de mar (alrededor de 35 ppt), típicamente 0.5-30 ppt. Se encuentra en estuarios donde los ríos se encuentran con el mar.",
+          de: "Brackwasser hat einen Salzgehalt zwischen Süßwasser (weniger als 0,5 ppt) und Meerwasser (etwa 35 ppt), typischerweise 0,5-30 ppt. Es findet sich in Mündungsgebieten, wo Flüsse auf das Meer treffen.",
+          nl: "Brak water heeft een zoutgehalte tussen zoet water (minder dan 0,5 ppt) en zeewater (ongeveer 35 ppt), meestal 0,5-30 ppt. Het wordt gevonden in estuaria waar rivieren de zee ontmoeten."
+        }
+      },
+      {
+        question: {
+          en: "What is oxygenated water?",
+          es: "¿Qué es el agua oxigenada?",
+          de: "Was ist sauerstoffangereichertes Wasser?",
+          nl: "Wat is zuurstofrijk water?"
+        },
+        options: [
+          { en: "Water with extra dissolved oxygen added", es: "Agua con oxígeno disuelto extra añadido", de: "Wasser mit zusätzlichem gelöstem Sauerstoff", nl: "Water met extra opgelost zuurstof toegevoegd" },
+          { en: "Water used for oxygen therapy", es: "Agua utilizada para terapia de oxígeno", de: "Wasser für Sauerstofftherapie verwendet", nl: "Water gebruikt voor zuurstoftherapie" },
+          { en: "Water from oxygen-rich areas", es: "Agua de áreas ricas en oxígeno", de: "Wasser aus sauerstoffreichen Gebieten", nl: "Water uit zuurstofrijke gebieden" },
+          { en: "Hydrogen peroxide solution", es: "Solución de peróxido de hidrógeno", de: "Wasserstoffperoxidlösung", nl: "Waterstofperoxide oplossing" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Oxygenated water has had extra oxygen dissolved into it under pressure. While marketed for health benefits, the body gets oxygen primarily through breathing, not drinking water.",
+          es: "El agua oxigenada tiene oxígeno extra disuelto bajo presión. Aunque se comercializa por beneficios de salud, el cuerpo obtiene oxígeno principalmente respirando, no bebiendo agua.",
+          de: "Sauerstoffangereichertes Wasser hat zusätzlichen Sauerstoff unter Druck gelöst. Obwohl es für gesundheitliche Vorteile vermarktet wird, erhält der Körper Sauerstoff hauptsächlich durch Atmung, nicht durch Trinkwasser.",
+          nl: "Zuurstofrijk water heeft extra zuurstof onder druk opgelost. Hoewel het wordt verkocht voor gezondheidsvoordelen, krijgt het lichaam zuurstof voornamelijk door ademhaling, niet door drinkwater."
+        }
+      },
+      {
+        question: {
+          en: "What is the specific heat capacity of water?",
+          es: "¿Cuál es la capacidad calorífica específica del agua?",
+          de: "Was ist die spezifische Wärmekapazität von Wasser?",
+          nl: "Wat is de soortelijke warmte van water?"
+        },
+        options: [
+          { en: "High - water resists temperature changes", es: "Alta - el agua resiste cambios de temperatura", de: "Hoch - Wasser widersteht Temperaturänderungen", nl: "Hoog - water weerstaat temperatuurveranderingen" },
+          { en: "Low - water changes temperature easily", es: "Baja - el agua cambia de temperatura fácilmente", de: "Niedrig - Wasser ändert leicht die Temperatur", nl: "Laag - water verandert gemakkelijk van temperatuur" },
+          { en: "Zero - water has no heat capacity", es: "Cero - el agua no tiene capacidad calorífica", de: "Null - Wasser hat keine Wärmekapazität", nl: "Nul - water heeft geen warmtecapaciteit" },
+          { en: "Variable - depends on mineral content", es: "Variable - depende del contenido mineral", de: "Variabel - abhängig vom Mineralgehalt", nl: "Variabel - afhankelijk van mineralengehalte" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Water has a very high specific heat capacity (4.18 J/g°C), meaning it takes a lot of energy to change its temperature. This property helps regulate Earth's climate and our body temperature.",
+          es: "El agua tiene una capacidad calorífica específica muy alta (4.18 J/g°C), lo que significa que se necesita mucha energía para cambiar su temperatura. Esta propiedad ayuda a regular el clima de la Tierra y nuestra temperatura corporal.",
+          de: "Wasser hat eine sehr hohe spezifische Wärmekapazität (4,18 J/g°C), was bedeutet, dass viel Energie benötigt wird, um seine Temperatur zu ändern. Diese Eigenschaft hilft, das Erdklima und unsere Körpertemperatur zu regulieren.",
+          nl: "Water heeft een zeer hoge soortelijke warmte (4,18 J/g°C), wat betekent dat er veel energie nodig is om de temperatuur te veranderen. Deze eigenschap helpt het klimaat van de aarde en onze lichaamstemperatuur te reguleren."
+        }
+      },
+      {
+        question: {
+          en: "What is the surface tension of water?",
+          es: "¿Cuál es la tensión superficial del agua?",
+          de: "Was ist die Oberflächenspannung von Wasser?",
+          nl: "Wat is de oppervlaktespanning van water?"
+        },
+        options: [
+          { en: "High - creates a skin-like surface", es: "Alta - crea una superficie similar a una piel", de: "Hoch - erzeugt eine hautartige Oberfläche", nl: "Hoog - creëert een huidachtig oppervlak" },
+          { en: "Low - water spreads easily", es: "Baja - el agua se extiende fácilmente", de: "Niedrig - Wasser verteilt sich leicht", nl: "Laag - water verspreidt zich gemakkelijk" },
+          { en: "Zero - no surface effects", es: "Cero - sin efectos superficiales", de: "Null - keine Oberflächeneffekte", nl: "Nul - geen oppervlakte-effecten" },
+          { en: "Negative - water repels itself", es: "Negativa - el agua se repele a sí misma", de: "Negativ - Wasser stößt sich selbst ab", nl: "Negatief - water stoot zichzelf af" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Water has high surface tension due to hydrogen bonding between molecules. This allows insects to walk on water, water droplets to form, and capillary action to occur in plants.",
+          es: "El agua tiene alta tensión superficial debido a los enlaces de hidrógeno entre moléculas. Esto permite que los insectos caminen sobre el agua, se formen gotas de agua y ocurra acción capilar en las plantas.",
+          de: "Wasser hat eine hohe Oberflächenspannung aufgrund von Wasserstoffbrückenbindungen zwischen Molekülen. Dies ermöglicht Insekten, auf Wasser zu laufen, Wassertropfen zu bilden und Kapillarwirkung in Pflanzen.",
+          nl: "Water heeft een hoge oppervlaktespanning door waterstofbruggen tussen moleculen. Dit stelt insecten in staat op water te lopen, waterdruppels te vormen en capillaire werking in planten mogelijk te maken."
+        }
+      },
+      {
+        question: {
+          en: "What is the density of water at 4°C?",
+          es: "¿Cuál es la densidad del agua a 4°C?",
+          de: "Was ist die Dichte von Wasser bei 4°C?",
+          nl: "Wat is de dichtheid van water bij 4°C?"
+        },
+        options: [
+          { en: "Maximum density (1.0 g/cm³)", es: "Densidad máxima (1.0 g/cm³)", de: "Maximale Dichte (1,0 g/cm³)", nl: "Maximale dichtheid (1,0 g/cm³)" },
+          { en: "Minimum density", es: "Densidad mínima", de: "Minimale Dichte", nl: "Minimale dichtheid" },
+          { en: "Zero density", es: "Densidad cero", de: "Null-Dichte", nl: "Nul dichtheid" },
+          { en: "Variable density", es: "Densidad variable", de: "Variable Dichte", nl: "Variabele dichtheid" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Water reaches its maximum density at 4°C (1.0 g/cm³). Above and below this temperature, water becomes less dense. This unique property allows ice to float and prevents lakes from freezing solid from bottom up.",
+          es: "El agua alcanza su densidad máxima a 4°C (1.0 g/cm³). Por encima y por debajo de esta temperatura, el agua se vuelve menos densa. Esta propiedad única permite que el hielo flote y evita que los lagos se congelen completamente de abajo hacia arriba.",
+          de: "Wasser erreicht seine maximale Dichte bei 4°C (1,0 g/cm³). Über und unter dieser Temperatur wird Wasser weniger dicht. Diese einzigartige Eigenschaft ermöglicht Eis zu schwimmen und verhindert, dass Seen von unten nach oben durchfrieren.",
+          nl: "Water bereikt zijn maximale dichtheid bij 4°C (1,0 g/cm³). Boven en onder deze temperatuur wordt water minder dicht. Deze unieke eigenschap stelt ijs in staat te drijven en voorkomt dat meren van onder naar boven volledig bevriezen."
+        }
+      },
+      {
+        question: {
+          en: "What is the viscosity of water compared to other liquids?",
+          es: "¿Cuál es la viscosidad del agua comparada con otros líquidos?",
+          de: "Was ist die Viskosität von Wasser im Vergleich zu anderen Flüssigkeiten?",
+          nl: "Wat is de viscositeit van water vergeleken met andere vloeistoffen?"
+        },
+        options: [
+          { en: "Relatively low - water flows easily", es: "Relativamente baja - el agua fluye fácilmente", de: "Relativ niedrig - Wasser fließt leicht", nl: "Relatief laag - water stroomt gemakkelijk" },
+          { en: "Very high - water is thick like honey", es: "Muy alta - el agua es espesa como la miel", de: "Sehr hoch - Wasser ist dick wie Honig", nl: "Zeer hoog - water is dik als honing" },
+          { en: "Zero - perfect fluidity", es: "Cero - fluidez perfecta", de: "Null - perfekte Fluidität", nl: "Nul - perfecte vloeibaarheid" },
+          { en: "Variable - changes with minerals", es: "Variable - cambia con minerales", de: "Variabel - ändert sich mit Mineralien", nl: "Variabel - verandert met mineralen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Water has relatively low viscosity (about 1 centipoise at 20°C), making it flow easily. For comparison, honey has viscosity about 10,000 times higher, while motor oil is about 100 times more viscous.",
+          es: "El agua tiene una viscosidad relativamente baja (aproximadamente 1 centipoise a 20°C), lo que hace que fluya fácilmente. Para comparación, la miel tiene una viscosidad aproximadamente 10,000 veces mayor, mientras que el aceite de motor es aproximadamente 100 veces más viscoso.",
+          de: "Wasser hat eine relativ niedrige Viskosität (etwa 1 Centipoise bei 20°C), was es leicht fließen lässt. Zum Vergleich: Honig hat eine etwa 10.000 Mal höhere Viskosität, während Motoröl etwa 100 Mal viskoser ist.",
+          nl: "Water heeft een relatief lage viscositeit (ongeveer 1 centipoise bij 20°C), waardoor het gemakkelijk stroomt. Ter vergelijking: honing heeft een viscositeit ongeveer 10.000 keer hoger, terwijl motorolie ongeveer 100 keer viskeuzer is."
+        }
+      },
+      {
+        question: {
+          en: "What is the capillary action of water?",
+          es: "¿Qué es la acción capilar del agua?",
+          de: "Was ist die Kapillarwirkung von Wasser?",
+          nl: "Wat is de capillaire werking van water?"
+        },
+        options: [
+          { en: "Water's ability to move through narrow spaces against gravity", es: "La capacidad del agua para moverse a través de espacios estrechos contra la gravedad", de: "Die Fähigkeit von Wasser, sich durch enge Räume gegen die Schwerkraft zu bewegen", nl: "Het vermogen van water om door nauwe ruimtes tegen de zwaartekracht in te bewegen" },
+          { en: "Water collecting in hair follicles", es: "Agua acumulándose en folículos pilosos", de: "Wasser sammelt sich in Haarfollikeln", nl: "Water verzamelt zich in haarzakjes" },
+          { en: "Water flowing through blood capillaries", es: "Agua fluyendo a través de capilares sanguíneos", de: "Wasser fließt durch Blutkapillaren", nl: "Water stroomt door bloedhaarvaten" },
+          { en: "Water's surface tension only", es: "Solo la tensión superficial del agua", de: "Nur die Oberflächenspannung von Wasser", nl: "Alleen de oppervlaktespanning van water" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Capillary action allows water to move through narrow tubes or porous materials against gravity due to cohesion and adhesion. This is how plants draw water from roots to leaves and how paper towels absorb water.",
+          es: "La acción capilar permite que el agua se mueva a través de tubos estrechos o materiales porosos contra la gravedad debido a la cohesión y adhesión. Así es como las plantas extraen agua de las raíces a las hojas y cómo las toallas de papel absorben agua.",
+          de: "Die Kapillarwirkung ermöglicht es Wasser, sich durch enge Röhren oder poröse Materialien gegen die Schwerkraft zu bewegen aufgrund von Kohäsion und Adhäsion. So ziehen Pflanzen Wasser von Wurzeln zu Blättern und Papierhandtücher absorbieren Wasser.",
+          nl: "Capillaire werking stelt water in staat om door nauwe buizen of poreuze materialen tegen de zwaartekracht in te bewegen door cohesie en adhesie. Zo halen planten water van wortels naar bladeren en absorberen papieren handdoeken water."
+        }
+      },
+      {
+        question: {
+          en: "What is the thermal conductivity of water?",
+          es: "¿Cuál es la conductividad térmica del agua?",
+          de: "Was ist die Wärmeleitfähigkeit von Wasser?",
+          nl: "Wat is de thermische geleidbaarheid van water?"
+        },
+        options: [
+          { en: "Moderate - better than air, worse than metals", es: "Moderada - mejor que el aire, peor que los metales", de: "Moderat - besser als Luft, schlechter als Metalle", nl: "Gematigd - beter dan lucht, slechter dan metalen" },
+          { en: "Highest of all liquids", es: "La más alta de todos los líquidos", de: "Höchste aller Flüssigkeiten", nl: "Hoogste van alle vloeistoffen" },
+          { en: "Zero - water cannot conduct heat", es: "Cero - el agua no puede conducir calor", de: "Null - Wasser kann keine Wärme leiten", nl: "Nul - water kan geen warmte geleiden" },
+          { en: "Perfect insulator", es: "Aislante perfecto", de: "Perfekter Isolator", nl: "Perfecte isolator" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Water has moderate thermal conductivity (0.6 W/m·K). It conducts heat better than air but much worse than metals. This property makes water useful for cooling and heating systems.",
+          es: "El agua tiene una conductividad térmica moderada (0.6 W/m·K). Conduce el calor mejor que el aire pero mucho peor que los metales. Esta propiedad hace que el agua sea útil para sistemas de enfriamiento y calefacción.",
+          de: "Wasser hat eine moderate Wärmeleitfähigkeit (0,6 W/m·K). Es leitet Wärme besser als Luft, aber viel schlechter als Metalle. Diese Eigenschaft macht Wasser nützlich für Kühl- und Heizsysteme.",
+          nl: "Water heeft een gematigde thermische geleidbaarheid (0,6 W/m·K). Het geleidt warmte beter dan lucht maar veel slechter dan metalen. Deze eigenschap maakt water nuttig voor koel- en verwarmingssystemen."
+        }
+      }
     ]
   };
 

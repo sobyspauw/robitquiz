@@ -426,6 +426,406 @@
           es: "El trilema de Mundell-Fleming establece que un país puede lograr solo dos de tres objetivos: tipos de cambio fijos, política monetaria independiente y movilidad de capital libre. La eurozona resolvió esto adoptando tipos de cambio fijos (últimamente una moneda única) y flujos de capital libres, pero sacrificando políticas monetarias nacionales independientes a favor de una política común del BCE. Esto explica por qué los países miembros perdieron la capacidad de usar ajustes del tipo de cambio y política monetaria para estabilización económica.",
           de: "Das Mundell-Fleming-Trilemma besagt, dass ein Land nur zwei von drei Zielen erreichen kann: feste Wechselkurse, unabhängige Geldpolitik und freie Kapitalmobilität. Die Eurozone löste dies durch Annahme fester Wechselkurse (letztendlich eine einheitliche Währung) und freier Kapitalflüsse, opferte aber unabhängige nationale Geldpolitiken zugunsten einer gemeinsamen EZB-Politik. Dies erklärt, warum Mitgliedsländer die Fähigkeit verloren, Wechselkursanpassungen und Geldpolitik für wirtschaftliche Stabilisierung zu nutzen.",
           nl: "Het Mundell-Fleming trilemma stelt dat een land slechts twee van drie doelstellingen kan bereiken: vaste wisselkoersen, onafhankelijk monetair beleid en vrije kapitalmobiliteit. De eurozone loste dit op door vaste wisselkoersen (uiteindelijk een enkele valuta) en vrije kapitalstromen aan te nemen, maar door onafhankelijke nationale monetaire beleidsmaatregelen op te offeren ten gunste van een gemeenschappelijk ECB-beleid. Dit verklaart waarom lidstaten het vermogen verloren om wisselkoersaanpassingen en monetair beleid te gebruiken voor economische stabilisatie."
+        }      },
+      {
+        question: {
+          en: "When was the Euro introduced?",
+          es: "When was the Euro introduced?",
+          de: "When was the Euro introduced?",
+          nl: "When was the Euro introduced?"
+        },
+        options: [
+          { en: "1999", es: "1999", de: "1999", nl: "1999" },
+          { en: "1992", es: "1992", de: "1992", nl: "1992" },
+          { en: "2002", es: "2002", de: "2002", nl: "2002" },
+          { en: "1985", es: "1985", de: "1985", nl: "1985" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Euro was introduced as an accounting currency in 1999, with physical cash in 2002.",
+          es: "The Euro was introduced as an accounting currency in 1999, with physical cash in 2002.",
+          de: "The Euro was introduced as an accounting currency in 1999, with physical cash in 2002.",
+          nl: "The Euro was introduced as an accounting currency in 1999, with physical cash in 2002."
+        }      },
+      {
+        question: {
+          en: "What is the symbol for Euro?",
+          es: "What is the symbol for Euro?",
+          de: "What is the symbol for Euro?",
+          nl: "What is the symbol for Euro?"
+        },
+        options: [
+          { en: "€", es: "€", de: "€", nl: "€" },
+          { en: "E", es: "E", de: "E", nl: "E" },
+          { en: "EU", es: "EU", de: "EU", nl: "EU" },
+          { en: "Є", es: "Є", de: "Є", nl: "Є" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Euro symbol € was designed to represent stability and the European unity.",
+          es: "The Euro symbol € was designed to represent stability and the European unity.",
+          de: "The Euro symbol € was designed to represent stability and the European unity.",
+          nl: "The Euro symbol € was designed to represent stability and the European unity."
+        }      },
+      {
+        question: {
+          en: "How many countries use the Euro?",
+          es: "How many countries use the Euro?",
+          de: "How many countries use the Euro?",
+          nl: "How many countries use the Euro?"
+        },
+        options: [
+          { en: "20", es: "20", de: "20", nl: "20" },
+          { en: "15", es: "15", de: "15", nl: "15" },
+          { en: "27", es: "27", de: "27", nl: "27" },
+          { en: "28", es: "28", de: "28", nl: "28" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "As of 2024, 20 of the 27 EU member states have adopted the Euro as their currency.",
+          es: "As of 2024, 20 of the 27 EU member states have adopted the Euro as their currency.",
+          de: "As of 2024, 20 of the 27 EU member states have adopted the Euro as their currency.",
+          nl: "As of 2024, 20 of the 27 EU member states have adopted the Euro as their currency."
+        }      },
+      {
+        question: {
+          en: "What is the European Central Bank?",
+          es: "What is the European Central Bank?",
+          de: "What is the European Central Bank?",
+          nl: "What is the European Central Bank?"
+        },
+        options: [
+          { en: "Central bank for Euro", es: "Central bank for Euro", de: "Central bank for Euro", nl: "Central bank for Euro" },
+          { en: "EU parliament", es: "EU parliament", de: "EU parliament", nl: "EU parliament" },
+          { en: "Trade organization", es: "Trade organization", de: "Trade organization", nl: "Trade organization" },
+          { en: "Court system", es: "Court system", de: "Court system", nl: "Court system" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The European Central Bank (ECB) manages monetary policy for the Eurozone.",
+          es: "The European Central Bank (ECB) manages monetary policy for the Eurozone.",
+          de: "The European Central Bank (ECB) manages monetary policy for the Eurozone.",
+          nl: "The European Central Bank (ECB) manages monetary policy for the Eurozone."
+        }      },
+      {
+        question: {
+          en: "What is the smallest Euro coin?",
+          es: "What is the smallest Euro coin?",
+          de: "What is the smallest Euro coin?",
+          nl: "What is the smallest Euro coin?"
+        },
+        options: [
+          { en: "1 cent", es: "1 cent", de: "1 cent", nl: "1 cent" },
+          { en: "5 cents", es: "5 cents", de: "5 cents", nl: "5 cents" },
+          { en: "10 cents", es: "10 cents", de: "10 cents", nl: "10 cents" },
+          { en: "2 cents", es: "2 cents", de: "2 cents", nl: "2 cents" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The one cent Euro coin is the smallest denomination, though some countries don't use it.",
+          es: "The one cent Euro coin is the smallest denomination, though some countries don't use it.",
+          de: "The one cent Euro coin is the smallest denomination, though some countries don't use it.",
+          nl: "The one cent Euro coin is the smallest denomination, though some countries don't use it."
+        }      },
+      {
+        question: {
+          en: "What is the largest Euro banknote?",
+          es: "What is the largest Euro banknote?",
+          de: "What is the largest Euro banknote?",
+          nl: "What is the largest Euro banknote?"
+        },
+        options: [
+          { en: "€500", es: "€500", de: "€500", nl: "€500" },
+          { en: "€200", es: "€200", de: "€200", nl: "€200" },
+          { en: "€100", es: "€100", de: "€100", nl: "€100" },
+          { en: "€1000", es: "€1000", de: "€1000", nl: "€1000" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The €500 note is the largest denomination, though it's being phased out since 2019.",
+          es: "The €500 note is the largest denomination, though it's being phased out since 2019.",
+          de: "The €500 note is the largest denomination, though it's being phased out since 2019.",
+          nl: "The €500 note is the largest denomination, though it's being phased out since 2019."
+        }      },
+      {
+        question: {
+          en: "Which country was first to adopt Euro?",
+          es: "Which country was first to adopt Euro?",
+          de: "Which country was first to adopt Euro?",
+          nl: "Which country was first to adopt Euro?"
+        },
+        options: [
+          { en: "All Eurozone countries simultaneously", es: "All Eurozone countries simultaneously", de: "All Eurozone countries simultaneously", nl: "All Eurozone countries simultaneously" },
+          { en: "Germany", es: "Germany", de: "Germany", nl: "Germany" },
+          { en: "France", es: "France", de: "France", nl: "France" },
+          { en: "Italy", es: "Italy", de: "Italy", nl: "Italy" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Eleven countries adopted the Euro simultaneously on January 1, 1999.",
+          es: "Eleven countries adopted the Euro simultaneously on January 1, 1999.",
+          de: "Eleven countries adopted the Euro simultaneously on January 1, 1999.",
+          nl: "Eleven countries adopted the Euro simultaneously on January 1, 1999."
+        }      },
+      {
+        question: {
+          en: "What does ECB stand for?",
+          es: "What does ECB stand for?",
+          de: "What does ECB stand for?",
+          nl: "What does ECB stand for?"
+        },
+        options: [
+          { en: "European Central Bank", es: "European Central Bank", de: "European Central Bank", nl: "European Central Bank" },
+          { en: "European Currency Board", es: "European Currency Board", de: "European Currency Board", nl: "European Currency Board" },
+          { en: "Euro Central Bank", es: "Euro Central Bank", de: "Euro Central Bank", nl: "Euro Central Bank" },
+          { en: "European Credit Bank", es: "European Credit Bank", de: "European Credit Bank", nl: "European Credit Bank" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "ECB stands for European Central Bank, headquartered in Frankfurt, Germany.",
+          es: "ECB stands for European Central Bank, headquartered in Frankfurt, Germany.",
+          de: "ECB stands for European Central Bank, headquartered in Frankfurt, Germany.",
+          nl: "ECB stands for European Central Bank, headquartered in Frankfurt, Germany."
+        }      },
+      {
+        question: {
+          en: "What is the Eurozone?",
+          es: "What is the Eurozone?",
+          de: "What is the Eurozone?",
+          nl: "What is the Eurozone?"
+        },
+        options: [
+          { en: "EU countries using Euro", es: "EU countries using Euro", de: "EU countries using Euro", nl: "EU countries using Euro" },
+          { en: "All of Europe", es: "All of Europe", de: "All of Europe", nl: "All of Europe" },
+          { en: "European Union", es: "European Union", de: "European Union", nl: "European Union" },
+          { en: "European trade zone", es: "European trade zone", de: "European trade zone", nl: "European trade zone" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Eurozone consists of EU member states that have adopted the Euro as currency.",
+          es: "The Eurozone consists of EU member states that have adopted the Euro as currency.",
+          de: "The Eurozone consists of EU member states that have adopted the Euro as currency.",
+          nl: "The Eurozone consists of EU member states that have adopted the Euro as currency."
+        }      },
+      {
+        question: {
+          en: "Which UK country doesn't use Euro?",
+          es: "Which UK country doesn't use Euro?",
+          de: "Which UK country doesn't use Euro?",
+          nl: "Which UK country doesn't use Euro?"
+        },
+        options: [
+          { en: "All UK countries use Pound", es: "All UK countries use Pound", de: "All UK countries use Pound", nl: "All UK countries use Pound" },
+          { en: "England", es: "England", de: "England", nl: "England" },
+          { en: "Scotland", es: "Scotland", de: "Scotland", nl: "Scotland" },
+          { en: "Wales", es: "Wales", de: "Wales", nl: "Wales" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The United Kingdom retained the Pound Sterling and never adopted the Euro.",
+          es: "The United Kingdom retained the Pound Sterling and never adopted the Euro.",
+          de: "The United Kingdom retained the Pound Sterling and never adopted the Euro.",
+          nl: "The United Kingdom retained the Pound Sterling and never adopted the Euro."
+        }      },
+      {
+        question: {
+          en: "What is Euro coin reverse design?",
+          es: "What is Euro coin reverse design?",
+          de: "What is Euro coin reverse design?",
+          nl: "What is Euro coin reverse design?"
+        },
+        options: [
+          { en: "National design chosen by country", es: "National design chosen by country", de: "National design chosen by country", nl: "National design chosen by country" },
+          { en: "Same for all countries", es: "Same for all countries", de: "Same for all countries", nl: "Same for all countries" },
+          { en: "ECB logo", es: "ECB logo", de: "ECB logo", nl: "ECB logo" },
+          { en: "European flag", es: "European flag", de: "European flag", nl: "European flag" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Each Eurozone country designs the reverse of their Euro coins with national symbols.",
+          es: "Each Eurozone country designs the reverse of their Euro coins with national symbols.",
+          de: "Each Eurozone country designs the reverse of their Euro coins with national symbols.",
+          nl: "Each Eurozone country designs the reverse of their Euro coins with national symbols."
+        }      },
+      {
+        question: {
+          en: "Where is the ECB headquartered?",
+          es: "Where is the ECB headquartered?",
+          de: "Where is the ECB headquartered?",
+          nl: "Where is the ECB headquartered?"
+        },
+        options: [
+          { en: "Frankfurt, Germany", es: "Frankfurt, Germany", de: "Frankfurt, Germany", nl: "Frankfurt, Germany" },
+          { en: "Brussels, Belgium", es: "Brussels, Belgium", de: "Brussels, Belgium", nl: "Brussels, Belgium" },
+          { en: "Paris, France", es: "Paris, France", de: "Paris, France", nl: "Paris, France" },
+          { en: "Amsterdam, Netherlands", es: "Amsterdam, Netherlands", de: "Amsterdam, Netherlands", nl: "Amsterdam, Netherlands" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The European Central Bank headquarters is located in Frankfurt am Main, Germany.",
+          es: "The European Central Bank headquarters is located in Frankfurt am Main, Germany.",
+          de: "The European Central Bank headquarters is located in Frankfurt am Main, Germany.",
+          nl: "The European Central Bank headquarters is located in Frankfurt am Main, Germany."
+        }      },
+      {
+        question: {
+          en: "What is a euro cent?",
+          es: "What is a euro cent?",
+          de: "What is a euro cent?",
+          nl: "What is a euro cent?"
+        },
+        options: [
+          { en: "1/100 of a Euro", es: "1/100 of a Euro", de: "1/100 of a Euro", nl: "1/100 of a Euro" },
+          { en: "1/10 of a Euro", es: "1/10 of a Euro", de: "1/10 of a Euro", nl: "1/10 of a Euro" },
+          { en: "Smallest banknote", es: "Smallest banknote", de: "Smallest banknote", nl: "Smallest banknote" },
+          { en: "Currency exchange fee", es: "Currency exchange fee", de: "Currency exchange fee", nl: "Currency exchange fee" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A euro cent is one-hundredth of a Euro, similar to the US cent.",
+          es: "A euro cent is one-hundredth of a Euro, similar to the US cent.",
+          de: "A euro cent is one-hundredth of a Euro, similar to the US cent.",
+          nl: "A euro cent is one-hundredth of a Euro, similar to the US cent."
+        }      },
+      {
+        question: {
+          en: "What was Germany's currency before Euro?",
+          es: "What was Germany's currency before Euro?",
+          de: "What was Germany's currency before Euro?",
+          nl: "What was Germany's currency before Euro?"
+        },
+        options: [
+          { en: "Deutsche Mark", es: "Deutsche Mark", de: "Deutsche Mark", nl: "Deutsche Mark" },
+          { en: "Schilling", es: "Schilling", de: "Schilling", nl: "Schilling" },
+          { en: "Guilder", es: "Guilder", de: "Guilder", nl: "Guilder" },
+          { en: "Franc", es: "Franc", de: "Franc", nl: "Franc" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Germany used the Deutsche Mark (DM) before adopting the Euro in 1999.",
+          es: "Germany used the Deutsche Mark (DM) before adopting the Euro in 1999.",
+          de: "Germany used the Deutsche Mark (DM) before adopting the Euro in 1999.",
+          nl: "Germany used the Deutsche Mark (DM) before adopting the Euro in 1999."
+        }      },
+      {
+        question: {
+          en: "What was France's currency before Euro?",
+          es: "What was France's currency before Euro?",
+          de: "What was France's currency before Euro?",
+          nl: "What was France's currency before Euro?"
+        },
+        options: [
+          { en: "French Franc", es: "French Franc", de: "French Franc", nl: "French Franc" },
+          { en: "Livre", es: "Livre", de: "Livre", nl: "Livre" },
+          { en: "Ecu", es: "Ecu", de: "Ecu", nl: "Ecu" },
+          { en: "Peseta", es: "Peseta", de: "Peseta", nl: "Peseta" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "France used the French Franc before transitioning to the Euro.",
+          es: "France used the French Franc before transitioning to the Euro.",
+          de: "France used the French Franc before transitioning to the Euro.",
+          nl: "France used the French Franc before transitioning to the Euro."
+        }      },
+      {
+        question: {
+          en: "What is the €2 coin made of?",
+          es: "What is the €2 coin made of?",
+          de: "What is the €2 coin made of?",
+          nl: "What is the €2 coin made of?"
+        },
+        options: [
+          { en: "Bi-metallic (two metals)", es: "Bi-metallic (two metals)", de: "Bi-metallic (two metals)", nl: "Bi-metallic (two metals)" },
+          { en: "Pure copper", es: "Pure copper", de: "Pure copper", nl: "Pure copper" },
+          { en: "Pure nickel", es: "Pure nickel", de: "Pure nickel", nl: "Pure nickel" },
+          { en: "Bronze", es: "Bronze", de: "Bronze", nl: "Bronze" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The €2 coin is bi-metallic with a nickel-brass outer ring and copper-nickel center.",
+          es: "The €2 coin is bi-metallic with a nickel-brass outer ring and copper-nickel center.",
+          de: "The €2 coin is bi-metallic with a nickel-brass outer ring and copper-nickel center.",
+          nl: "The €2 coin is bi-metallic with a nickel-brass outer ring and copper-nickel center."
+        }      },
+      {
+        question: {
+          en: "Which country rejected Euro adoption?",
+          es: "Which country rejected Euro adoption?",
+          de: "Which country rejected Euro adoption?",
+          nl: "Which country rejected Euro adoption?"
+        },
+        options: [
+          { en: "Denmark", es: "Denmark", de: "Denmark", nl: "Denmark" },
+          { en: "Germany", es: "Germany", de: "Germany", nl: "Germany" },
+          { en: "France", es: "France", de: "France", nl: "France" },
+          { en: "Spain", es: "Spain", de: "Spain", nl: "Spain" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Denmark held referendums and voted to keep their krone instead of adopting Euro.",
+          es: "Denmark held referendums and voted to keep their krone instead of adopting Euro.",
+          de: "Denmark held referendums and voted to keep their krone instead of adopting Euro.",
+          nl: "Denmark held referendums and voted to keep their krone instead of adopting Euro."
+        }      },
+      {
+        question: {
+          en: "What is common on all Euro banknotes?",
+          es: "What is common on all Euro banknotes?",
+          de: "What is common on all Euro banknotes?",
+          nl: "What is common on all Euro banknotes?"
+        },
+        options: [
+          { en: "Architectural styles", es: "Architectural styles", de: "Architectural styles", nl: "Architectural styles" },
+          { en: "Famous people", es: "Famous people", de: "Famous people", nl: "Famous people" },
+          { en: "National monuments", es: "National monuments", de: "National monuments", nl: "National monuments" },
+          { en: "Animals", es: "Animals", de: "Animals", nl: "Animals" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Euro banknotes feature architectural styles from different European periods, not real buildings.",
+          es: "Euro banknotes feature architectural styles from different European periods, not real buildings.",
+          de: "Euro banknotes feature architectural styles from different European periods, not real buildings.",
+          nl: "Euro banknotes feature architectural styles from different European periods, not real buildings."
+        }      },
+      {
+        question: {
+          en: "What year did Euro cash enter circulation?",
+          es: "What year did Euro cash enter circulation?",
+          de: "What year did Euro cash enter circulation?",
+          nl: "What year did Euro cash enter circulation?"
+        },
+        options: [
+          { en: "2002", es: "2002", de: "2002", nl: "2002" },
+          { en: "1999", es: "1999", de: "1999", nl: "1999" },
+          { en: "2000", es: "2000", de: "2000", nl: "2000" },
+          { en: "2004", es: "2004", de: "2004", nl: "2004" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Physical Euro banknotes and coins entered circulation on January 1, 2002.",
+          es: "Physical Euro banknotes and coins entered circulation on January 1, 2002.",
+          de: "Physical Euro banknotes and coins entered circulation on January 1, 2002.",
+          nl: "Physical Euro banknotes and coins entered circulation on January 1, 2002."
+        }      },
+      {
+        question: {
+          en: "What is convergence criteria?",
+          es: "What is convergence criteria?",
+          de: "What is convergence criteria?",
+          nl: "What is convergence criteria?"
+        },
+        options: [
+          { en: "Requirements to join Eurozone", es: "Requirements to join Eurozone", de: "Requirements to join Eurozone", nl: "Requirements to join Eurozone" },
+          { en: "Exchange rate", es: "Exchange rate", de: "Exchange rate", nl: "Exchange rate" },
+          { en: "Inflation target", es: "Inflation target", de: "Inflation target", nl: "Inflation target" },
+          { en: "GDP requirement", es: "GDP requirement", de: "GDP requirement", nl: "GDP requirement" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Convergence criteria are economic requirements EU countries must meet to adopt the Euro.",
+          es: "Convergence criteria are economic requirements EU countries must meet to adopt the Euro.",
+          de: "Convergence criteria are economic requirements EU countries must meet to adopt the Euro.",
+          nl: "Convergence criteria are economic requirements EU countries must meet to adopt the Euro."
         }
       }
     ]

@@ -428,6 +428,405 @@
           nl: "Dammen dienen meerdere doeleinden, waaronder wateropslag voor drinkwater en irrigatie, overstromingsbeheersing, waterkrachtopwekking en regulering van waterstroom in rivieren voor navigatie en ecosysteembeheer."
         }
       },
+      {
+        question: {
+          en: "What is a watershed?",
+          es: "¿Qué es una cuenca hidrográfica?",
+          de: "Was ist ein Einzugsgebiet?",
+          nl: "Wat is een stroomgebied?"
+        },
+        options: [
+          { en: "An area where all water drains to a common point", es: "Un área donde toda el agua drena a un punto común", de: "Ein Gebiet, in dem alles Wasser zu einem gemeinsamen Punkt abfließt", nl: "Een gebied waar al het water naar een gemeenschappelijk punt afstroomt" },
+          { en: "A building for storing water", es: "Un edificio para almacenar agua", de: "Ein Gebäude zur Wasserspeicherung", nl: "Een gebouw voor wateropslag" },
+          { en: "A natural spring source", es: "Una fuente de manantial natural", de: "Eine natürliche Quellquelle", nl: "Een natuurlijke bronbron" },
+          { en: "A water treatment facility", es: "Una instalación de tratamiento de agua", de: "Eine Wasseraufbereitungsanlage", nl: "Een waterzuiveringsfaciliteit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A watershed is an area of land where all precipitation and surface water drain to a common outlet such as a river mouth, lake, or ocean. It's also called a drainage basin or catchment area.",
+          es: "Una cuenca hidrográfica es un área de tierra donde toda la precipitación y agua superficial drena a una salida común como la desembocadura de un río, lago u océano. También se llama cuenca de drenaje o área de captación.",
+          de: "Ein Einzugsgebiet ist ein Landgebiet, in dem alle Niederschläge und Oberflächenwasser zu einem gemeinsamen Auslass wie einer Flussmündung, einem See oder Ozean abfließen. Es wird auch Wassereinzugsgebiet genannt.",
+          nl: "Een stroomgebied is een landgebied waar alle neerslag en oppervlaktewater naar een gemeenschappelijke uitlaat zoals een riviermonding, meer of oceaan afstroomt. Het wordt ook wel afwateringsgebied of opvanggebied genoemd."
+        }
+      },
+      {
+        question: {
+          en: "What is desalination?",
+          es: "¿Qué es la desalinización?",
+          de: "Was ist Entsalzung?",
+          nl: "Wat is ontzilting?"
+        },
+        options: [
+          { en: "The process of removing salt from seawater", es: "El proceso de eliminar sal del agua de mar", de: "Der Prozess der Salzentfernung aus Meerwasser", nl: "Het proces van het verwijderen van zout uit zeewater" },
+          { en: "Adding salt to water", es: "Agregar sal al agua", de: "Salz zum Wasser hinzufügen", nl: "Zout toevoegen aan water" },
+          { en: "Filtering fresh water", es: "Filtrar agua dulce", de: "Süßwasser filtern", nl: "Zoet water filteren" },
+          { en: "Treating groundwater", es: "Tratar agua subterránea", de: "Grundwasser behandeln", nl: "Grondwater behandelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Desalination is the process of removing salt and minerals from seawater or brackish water to produce fresh drinking water. Common methods include reverse osmosis and thermal distillation.",
+          es: "La desalinización es el proceso de eliminar sal y minerales del agua de mar o agua salobre para producir agua potable dulce. Los métodos comunes incluyen ósmosis inversa y destilación térmica.",
+          de: "Entsalzung ist der Prozess der Entfernung von Salz und Mineralien aus Meerwasser oder Brackwasser, um Trinkwasser zu erzeugen. Gängige Methoden sind Umkehrosmose und thermische Destillation.",
+          nl: "Ontzilting is het proces van het verwijderen van zout en mineralen uit zeewater of brak water om zoet drinkwater te produceren. Gangbare methoden zijn omgekeerde osmose en thermische destillatie."
+        }
+      },
+      {
+        question: {
+          en: "What is a spring?",
+          es: "¿Qué es un manantial?",
+          de: "Was ist eine Quelle?",
+          nl: "Wat is een bron?"
+        },
+        options: [
+          { en: "A place where groundwater naturally emerges at the surface", es: "Un lugar donde el agua subterránea emerge naturalmente en la superficie", de: "Ein Ort, an dem Grundwasser natürlich an die Oberfläche tritt", nl: "Een plaats waar grondwater natuurlijk aan het oppervlak komt" },
+          { en: "A seasonal river", es: "Un río estacional", de: "Ein saisonaler Fluss", nl: "Een seizoensgebonden rivier" },
+          { en: "A man-made water fountain", es: "Una fuente de agua artificial", de: "Ein künstlicher Wasserbrunnen", nl: "Een kunstmatige waterfontein" },
+          { en: "A type of well", es: "Un tipo de pozo", de: "Eine Art Brunnen", nl: "Een type put" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A spring is a natural point where groundwater flows out of the ground to the surface. Springs occur when the water table intersects the ground surface or when confined aquifers are exposed.",
+          es: "Un manantial es un punto natural donde el agua subterránea fluye del suelo a la superficie. Los manantiales ocurren cuando la capa freática intersecta la superficie del suelo o cuando se exponen acuíferos confinados.",
+          de: "Eine Quelle ist ein natürlicher Punkt, an dem Grundwasser aus dem Boden an die Oberfläche fließt. Quellen entstehen, wenn der Grundwasserspiegel die Bodenoberfläche schneidet oder wenn begrenzte Grundwasserleiter freigelegt werden.",
+          nl: "Een bron is een natuurlijk punt waar grondwater uit de grond naar het oppervlak stroomt. Bronnen ontstaan wanneer de grondwaterspiegel het grondoppervlak kruist of wanneer afgesloten watervoerende lagen worden blootgesteld."
+        }
+      },
+      {
+        question: {
+          en: "What is a reservoir?",
+          es: "¿Qué es un embalse?",
+          de: "Was ist ein Stausee?",
+          nl: "Wat is een reservoir?"
+        },
+        options: [
+          { en: "A large natural or artificial lake used for water storage", es: "Un lago grande natural o artificial usado para almacenamiento de agua", de: "Ein großer natürlicher oder künstlicher See zur Wasserspeicherung", nl: "Een groot natuurlijk of kunstmatig meer gebruikt voor wateropslag" },
+          { en: "A groundwater chamber", es: "Una cámara de agua subterránea", de: "Eine Grundwasserkammer", nl: "Een grondwaterkamer" },
+          { en: "A water treatment plant", es: "Una planta de tratamiento de agua", de: "Eine Wasseraufbereitungsanlage", nl: "Een waterzuiveringsinstallatie" },
+          { en: "A natural wetland", es: "Un humedal natural", de: "Ein natürliches Feuchtgebiet", nl: "Een natuurlijk wetland" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A reservoir is a large natural or man-made lake created to store water for various purposes including drinking water supply, irrigation, flood control, and hydroelectric power generation.",
+          es: "Un embalse es un lago grande natural o artificial creado para almacenar agua para diversos propósitos incluyendo suministro de agua potable, irrigación, control de inundaciones y generación de energía hidroeléctrica.",
+          de: "Ein Stausee ist ein großer natürlicher oder künstlicher See, der zur Speicherung von Wasser für verschiedene Zwecke wie Trinkwasserversorgung, Bewässerung, Hochwasserschutz und Wasserkraftgewinnung geschaffen wurde.",
+          nl: "Een reservoir is een groot natuurlijk of kunstmatig meer gecreëerd om water op te slaan voor verschillende doeleinden, waaronder drinkwatervoorziening, irrigatie, overstromingsbeheersing en waterkrachtopwekking."
+        }
+      },
+      {
+        question: {
+          en: "What is the water table?",
+          es: "¿Qué es el nivel freático?",
+          de: "Was ist der Grundwasserspiegel?",
+          nl: "Wat is de grondwaterspiegel?"
+        },
+        options: [
+          { en: "The upper surface of groundwater in soil or rock", es: "La superficie superior del agua subterránea en suelo o roca", de: "Die obere Oberfläche des Grundwassers im Boden oder Gestein", nl: "Het bovenste oppervlak van grondwater in grond of gesteente" },
+          { en: "A chart showing water consumption", es: "Un gráfico que muestra el consumo de agua", de: "Eine Tabelle mit Wasserverbrauch", nl: "Een grafiek die waterverbruik toont" },
+          { en: "The depth of a lake", es: "La profundidad de un lago", de: "Die Tiefe eines Sees", nl: "De diepte van een meer" },
+          { en: "A measurement of water quality", es: "Una medida de calidad del agua", de: "Eine Messung der Wasserqualität", nl: "Een meting van waterkwaliteit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The water table is the upper boundary between the saturated zone (where all pores are filled with water) and the unsaturated zone above it. Its depth varies with rainfall, season, and groundwater extraction.",
+          es: "El nivel freático es el límite superior entre la zona saturada (donde todos los poros están llenos de agua) y la zona no saturada sobre ella. Su profundidad varía con lluvias, estación y extracción de agua subterránea.",
+          de: "Der Grundwasserspiegel ist die obere Grenze zwischen der gesättigten Zone (wo alle Poren mit Wasser gefüllt sind) und der ungesättigten Zone darüber. Seine Tiefe variiert mit Niederschlag, Jahreszeit und Grundwasserentnahme.",
+          nl: "De grondwaterspiegel is de bovenste grens tussen de verzadigde zone (waar alle poriën met water gevuld zijn) en de onverzadigde zone erboven. De diepte varieert met neerslag, seizoen en grondwateronttrekking."
+        }
+      },
+      {
+        question: {
+          en: "What is rainwater harvesting?",
+          es: "¿Qué es la recolección de agua de lluvia?",
+          de: "Was ist Regenwassernutzung?",
+          nl: "Wat is regenwater oogsten?"
+        },
+        options: [
+          { en: "Collecting and storing rainwater for later use", es: "Recolectar y almacenar agua de lluvia para uso posterior", de: "Sammeln und Speichern von Regenwasser zur späteren Nutzung", nl: "Regenwater verzamelen en opslaan voor later gebruik" },
+          { en: "Creating artificial rain", es: "Crear lluvia artificial", de: "Künstlichen Regen erzeugen", nl: "Kunstmatige regen creëren" },
+          { en: "Measuring rainfall amounts", es: "Medir cantidades de lluvia", de: "Niederschlagsmengen messen", nl: "Regenhoeveelheden meten" },
+          { en: "Preventing rain from falling", es: "Prevenir que caiga lluvia", de: "Regen am Fallen hindern", nl: "Voorkomen dat regen valt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Rainwater harvesting is the collection and storage of rainwater from roofs, land surfaces, or rock catchments for later use in irrigation, drinking (after treatment), or groundwater recharge.",
+          es: "La recolección de agua de lluvia es la recolección y almacenamiento de agua de lluvia de techos, superficies terrestres o captaciones rocosas para uso posterior en irrigación, consumo (después de tratamiento) o recarga de agua subterránea.",
+          de: "Regenwassernutzung ist das Sammeln und Speichern von Regenwasser von Dächern, Landoberflächen oder Felsauffanggebieten zur späteren Verwendung in Bewässerung, Trinkwasser (nach Behandlung) oder Grundwasserneubildung.",
+          nl: "Regenwater oogsten is het verzamelen en opslaan van regenwater van daken, landoppervlakken of rotsopvanggebieden voor later gebruik in irrigatie, drinkwater (na behandeling) of grondwateraanvulling."
+        }
+      },
+      {
+        question: {
+          en: "What is an estuary?",
+          es: "¿Qué es un estuario?",
+          de: "Was ist eine Flussmündung?",
+          nl: "Wat is een estuarium?"
+        },
+        options: [
+          { en: "Where a river meets the ocean and mixes fresh and salt water", es: "Donde un río se encuentra con el océano y mezcla agua dulce y salada", de: "Wo ein Fluss auf den Ozean trifft und Süß- und Salzwasser vermischt", nl: "Waar een rivier de oceaan ontmoet en zoet en zout water mengt" },
+          { en: "A type of lake", es: "Un tipo de lago", de: "Eine Art See", nl: "Een type meer" },
+          { en: "An underground water source", es: "Una fuente de agua subterránea", de: "Eine unterirdische Wasserquelle", nl: "Een ondergrondse waterbron" },
+          { en: "A man-made canal", es: "Un canal artificial", de: "Ein künstlicher Kanal", nl: "Een kunstmatig kanaal" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "An estuary is a coastal water body where a river meets the ocean, creating a transition zone with brackish water (mixture of fresh and salt water). Estuaries are highly productive ecosystems.",
+          es: "Un estuario es un cuerpo de agua costero donde un río se encuentra con el océano, creando una zona de transición con agua salobre (mezcla de agua dulce y salada). Los estuarios son ecosistemas altamente productivos.",
+          de: "Eine Flussmündung ist ein Küstengewässer, wo ein Fluss auf den Ozean trifft und eine Übergangszone mit Brackwasser (Mischung aus Süß- und Salzwasser) schafft. Flussmündungen sind hochproduktive Ökosysteme.",
+          nl: "Een estuarium is een kustwater waar een rivier de oceaan ontmoet, waarbij een overgangszone met brak water (mengsel van zoet en zout water) ontstaat. Estuaria zijn zeer productieve ecosystemen."
+        }
+      },
+      {
+        question: {
+          en: "What is a water tower used for?",
+          es: "¿Para qué se usa una torre de agua?",
+          de: "Wofür wird ein Wasserturm verwendet?",
+          nl: "Waarvoor wordt een watertoren gebruikt?"
+        },
+        options: [
+          { en: "To provide water pressure and storage for distribution systems", es: "Para proporcionar presión de agua y almacenamiento para sistemas de distribución", de: "Um Wasserdruck und Speicherung für Verteilungssysteme bereitzustellen", nl: "Om waterdruk en opslag te bieden voor distributiesystemen" },
+          { en: "To purify water only", es: "Para purificar agua solamente", de: "Nur zur Wasserreinigung", nl: "Alleen om water te zuiveren" },
+          { en: "To measure rainfall", es: "Para medir lluvia", de: "Um Niederschlag zu messen", nl: "Om regenval te meten" },
+          { en: "As a radio transmission tower", es: "Como torre de transmisión de radio", de: "Als Funkübertragungsturm", nl: "Als radiotransmissietoren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Water towers store treated water at height to create water pressure for municipal distribution systems. The elevated storage provides consistent pressure and emergency water supply during power outages or peak demand.",
+          es: "Las torres de agua almacenan agua tratada en altura para crear presión de agua para sistemas de distribución municipales. El almacenamiento elevado proporciona presión consistente y suministro de agua de emergencia durante cortes de energía o demanda pico.",
+          de: "Wassertürme speichern behandeltes Wasser in der Höhe, um Wasserdruck für kommunale Verteilungssysteme zu erzeugen. Der erhöhte Speicher bietet konstanten Druck und Notversorgung während Stromausfällen oder Spitzenbedarf.",
+          nl: "Watertorens slaan behandeld water op hoogte op om waterdruk te creëren voor gemeentelijke distributiesystemen. De verhoogde opslag biedt constante druk en noodwatervoorziening tijdens stroomuitval of piekbehoefte."
+        }
+      },
+      {
+        question: {
+          en: "What is a confined aquifer?",
+          es: "¿Qué es un acuífero confinado?",
+          de: "Was ist ein gespannter Grundwasserleiter?",
+          nl: "Wat is een afgesloten watervoerende laag?"
+        },
+        options: [
+          { en: "An aquifer trapped between impermeable layers", es: "Un acuífero atrapado entre capas impermeables", de: "Ein Grundwasserleiter, der zwischen undurchlässigen Schichten eingeschlossen ist", nl: "Een watervoerende laag gevangen tussen ondoorlatende lagen" },
+          { en: "A small aquifer", es: "Un acuífero pequeño", de: "Ein kleiner Grundwasserleiter", nl: "Een kleine watervoerende laag" },
+          { en: "An aquifer in a restricted area", es: "Un acuífero en área restringida", de: "Ein Grundwasserleiter in einem eingeschränkten Gebiet", nl: "Een watervoerende laag in een beperkt gebied" },
+          { en: "An aquifer with limited access", es: "Un acuífero con acceso limitado", de: "Ein Grundwasserleiter mit begrenztem Zugang", nl: "Een watervoerende laag met beperkte toegang" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A confined aquifer is sandwiched between two impermeable layers (aquitards). Water in confined aquifers is often under pressure, which can cause it to rise above the aquifer level when tapped by a well (artesian conditions).",
+          es: "Un acuífero confinado está intercalado entre dos capas impermeables (acuitardos). El agua en acuíferos confinados está a menudo bajo presión, lo que puede hacer que suba por encima del nivel del acuífero cuando se perfora un pozo (condiciones artesianas).",
+          de: "Ein gespannter Grundwasserleiter ist zwischen zwei undurchlässigen Schichten (Aquitarden) eingeschlossen. Wasser in gespannten Grundwasserleitern steht oft unter Druck, wodurch es beim Anbohren über den Grundwasserspiegel steigen kann (artesische Bedingungen).",
+          nl: "Een afgesloten watervoerende laag bevindt zich tussen twee ondoorlatende lagen (aquitards). Water in afgesloten watervoerende lagen staat vaak onder druk, waardoor het boven het niveau van de watervoerende laag kan stijgen bij het aanboren van een put (artesische condities)."
+        }
+      },
+      {
+        question: {
+          en: "What is an unconfined aquifer?",
+          es: "¿Qué es un acuífero no confinado?",
+          de: "Was ist ein ungespannter Grundwasserleiter?",
+          nl: "Wat is een vrije watervoerende laag?"
+        },
+        options: [
+          { en: "An aquifer with the water table as its upper boundary", es: "Un acuífero con el nivel freático como límite superior", de: "Ein Grundwasserleiter mit dem Grundwasserspiegel als oberer Grenze", nl: "Een watervoerende laag met de grondwaterspiegel als bovengrens" },
+          { en: "An aquifer without restrictions", es: "Un acuífero sin restricciones", de: "Ein Grundwasserleiter ohne Einschränkungen", nl: "Een watervoerende laag zonder beperkingen" },
+          { en: "An aquifer that's not mapped", es: "Un acuífero que no está mapeado", de: "Ein nicht kartierter Grundwasserleiter", nl: "Een niet in kaart gebrachte watervoerende laag" },
+          { en: "A surface water source", es: "Una fuente de agua superficial", de: "Eine Oberflächenwasserquelle", nl: "Een oppervlaktewaterbron" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "An unconfined aquifer (water table aquifer) has the water table as its upper boundary and is directly recharged by precipitation. The water level fluctuates with rainfall and extraction.",
+          es: "Un acuífero no confinado (acuífero freático) tiene el nivel freático como límite superior y se recarga directamente por precipitación. El nivel de agua fluctúa con lluvia y extracción.",
+          de: "Ein ungespannter Grundwasserleiter (Grundwasserspiegel-Aquifer) hat den Grundwasserspiegel als obere Grenze und wird direkt durch Niederschlag aufgefüllt. Der Wasserspiegel schwankt mit Niederschlag und Entnahme.",
+          nl: "Een vrije watervoerende laag (grondwaterspiegelaquifer) heeft de grondwaterspiegel als bovengrens en wordt direct aangevuld door neerslag. Het waterpeil fluctueert met neerslag en onttrekking."
+        }
+      },
+      {
+        question: {
+          en: "What is a catchment area?",
+          es: "¿Qué es un área de captación?",
+          de: "Was ist ein Einzugsgebiet?",
+          nl: "Wat is een opvanggebied?"
+        },
+        options: [
+          { en: "A region that collects and drains water to a specific point", es: "Una región que recolecta y drena agua a un punto específico", de: "Eine Region, die Wasser sammelt und zu einem bestimmten Punkt ableitet", nl: "Een regio die water verzamelt en afvoert naar een specifiek punt" },
+          { en: "A water treatment facility", es: "Una instalación de tratamiento de agua", de: "Eine Wasseraufbereitungsanlage", nl: "Een waterzuiveringsfaciliteit" },
+          { en: "A fish farming area", es: "Un área de piscicultura", de: "Ein Fischzuchtgebiet", nl: "Een visserijgebied" },
+          { en: "A type of reservoir", es: "Un tipo de embalse", de: "Eine Art Stausee", nl: "Een type reservoir" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A catchment area (or drainage basin) is a region where all surface water converges to a single point, such as a river mouth or reservoir. It's synonymous with watershed.",
+          es: "Un área de captación (o cuenca de drenaje) es una región donde toda el agua superficial converge a un solo punto, como la desembocadura de un río o embalse. Es sinónimo de cuenca hidrográfica.",
+          de: "Ein Einzugsgebiet (oder Wassereinzugsgebiet) ist eine Region, in der alles Oberflächenwasser zu einem einzigen Punkt konvergiert, wie einer Flussmündung oder einem Stausee. Es ist synonym mit Wasserscheide.",
+          nl: "Een opvanggebied (of afwateringsbekken) is een regio waar al het oppervlaktewater samenkomt op één punt, zoals een riviermonding of reservoir. Het is synoniem met stroomgebied."
+        }
+      },
+      {
+        question: {
+          en: "What is groundwater contamination?",
+          es: "¿Qué es la contaminación del agua subterránea?",
+          de: "Was ist Grundwasserverschmutzung?",
+          nl: "Wat is grondwaterverontreiniging?"
+        },
+        options: [
+          { en: "Pollution of underground water by harmful substances", es: "Contaminación de agua subterránea por sustancias dañinas", de: "Verschmutzung von unterirdischem Wasser durch schädliche Substanzen", nl: "Vervuiling van ondergronds water door schadelijke stoffen" },
+          { en: "Natural mineral deposits in water", es: "Depósitos minerales naturales en agua", de: "Natürliche Mineralablagerungen im Wasser", nl: "Natuurlijke mineraalafzettingen in water" },
+          { en: "High water temperature", es: "Alta temperatura del agua", de: "Hohe Wassertemperatur", nl: "Hoge watertemperatuur" },
+          { en: "Excessive groundwater extraction", es: "Extracción excesiva de agua subterránea", de: "Übermäßige Grundwasserentnahme", nl: "Overmatige grondwateronttrekking" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Groundwater contamination occurs when pollutants like chemicals, sewage, pesticides, or industrial waste seep into aquifers. Once contaminated, groundwater is difficult and expensive to clean.",
+          es: "La contaminación del agua subterránea ocurre cuando contaminantes como químicos, aguas residuales, pesticidas o desechos industriales se filtran en acuíferos. Una vez contaminada, el agua subterránea es difícil y costosa de limpiar.",
+          de: "Grundwasserverschmutzung tritt auf, wenn Schadstoffe wie Chemikalien, Abwasser, Pestizide oder Industrieabfälle in Grundwasserleiter sickern. Einmal verschmutzt, ist Grundwasser schwierig und teuer zu reinigen.",
+          nl: "Grondwaterverontreiniging treedt op wanneer verontreinigingen zoals chemicaliën, rioolwater, pesticiden of industrieel afval in watervoerende lagen sijpelen. Eenmaal verontreinigd is grondwater moeilijk en duur te reinigen."
+        }
+      },
+      {
+        question: {
+          en: "What is a water source protection area?",
+          es: "¿Qué es un área de protección de fuentes de agua?",
+          de: "Was ist ein Wasserschutzgebiet?",
+          nl: "Wat is een waterbronbeschermingsgebied?"
+        },
+        options: [
+          { en: "A zone where activities are regulated to protect drinking water sources", es: "Una zona donde las actividades están reguladas para proteger fuentes de agua potable", de: "Eine Zone, in der Aktivitäten reguliert sind, um Trinkwasserquellen zu schützen", nl: "Een zone waar activiteiten gereguleerd zijn om drinkwaterbronnen te beschermen" },
+          { en: "A military restricted area", es: "Un área militar restringida", de: "Ein militärisches Sperrgebiet", nl: "Een militair beperkt gebied" },
+          { en: "A natural park only", es: "Solo un parque natural", de: "Nur ein Naturpark", nl: "Alleen een natuurpark" },
+          { en: "An irrigation zone", es: "Una zona de irrigación", de: "Eine Bewässerungszone", nl: "Een irrigatiezone" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Water source protection areas are designated zones around drinking water sources where land use activities are regulated or restricted to prevent contamination of wells, springs, or surface water intakes.",
+          es: "Las áreas de protección de fuentes de agua son zonas designadas alrededor de fuentes de agua potable donde las actividades de uso del suelo están reguladas o restringidas para prevenir contaminación de pozos, manantiales o tomas de agua superficial.",
+          de: "Wasserschutzgebiete sind ausgewiesene Zonen um Trinkwasserquellen, in denen Landnutzungsaktivitäten reguliert oder eingeschränkt sind, um Verschmutzung von Brunnen, Quellen oder Oberflächenwasserentnahmen zu verhindern.",
+          nl: "Waterbronbeschermingsgebieden zijn aangewezen zones rond drinkwaterbronnen waar landgebruiksactiviteiten gereguleerd of beperkt zijn om verontreiniging van putten, bronnen of oppervlaktewater inlaten te voorkomen."
+        }
+      },
+      {
+        question: {
+          en: "What is glacial meltwater?",
+          es: "¿Qué es el agua de deshielo glacial?",
+          de: "Was ist Gletscherschmelzwasser?",
+          nl: "Wat is gletsjerssmeltwater?"
+        },
+        options: [
+          { en: "Water from melting glaciers and ice sheets", es: "Agua del derretimiento de glaciares y capas de hielo", de: "Wasser vom Schmelzen von Gletschern und Eisschilden", nl: "Water van smeltende gletsjers en ijskappen" },
+          { en: "Artificially frozen water", es: "Agua congelada artificialmente", de: "Künstlich gefrorenes Wasser", nl: "Kunstmatig bevroren water" },
+          { en: "Water from ice cubes", es: "Agua de cubitos de hielo", de: "Wasser von Eiswürfeln", nl: "Water van ijsblokjes" },
+          { en: "Snow melt only", es: "Solo derretimiento de nieve", de: "Nur Schneeschmelze", nl: "Alleen sneeuwsmelt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Glacial meltwater is freshwater released by the melting of glaciers and ice sheets. It's an important water source for many rivers, especially in mountainous regions, but climate change is affecting glacial melt rates.",
+          es: "El agua de deshielo glacial es agua dulce liberada por el derretimiento de glaciares y capas de hielo. Es una fuente importante de agua para muchos ríos, especialmente en regiones montañosas, pero el cambio climático está afectando las tasas de deshielo glacial.",
+          de: "Gletscherschmelzwasser ist Süßwasser, das durch das Schmelzen von Gletschern und Eisschilden freigesetzt wird. Es ist eine wichtige Wasserquelle für viele Flüsse, besonders in Bergregionen, aber der Klimawandel beeinflusst die Gletscherschmelzraten.",
+          nl: "Gletsjerssmeltwater is zoet water vrijgegeven door het smelten van gletsjers en ijskappen. Het is een belangrijke waterbron voor veel rivieren, vooral in bergachtige gebieden, maar klimaatverandering beïnvloedt gletsjerssmeltsnelheden."
+        }
+      },
+      {
+        question: {
+          en: "What is surface runoff?",
+          es: "¿Qué es la escorrentía superficial?",
+          de: "Was ist Oberflächenabfluss?",
+          nl: "Wat is oppervlakte-afvoer?"
+        },
+        options: [
+          { en: "Water flowing over land surface toward streams and rivers", es: "Agua fluyendo sobre superficie terrestre hacia arroyos y ríos", de: "Wasser, das über die Landoberfläche zu Bächen und Flüssen fließt", nl: "Water dat over landoppervlak stroomt naar beken en rivieren" },
+          { en: "Water evaporating from surfaces", es: "Agua evaporándose de superficies", de: "Wasser, das von Oberflächen verdunstet", nl: "Water dat van oppervlakken verdampt" },
+          { en: "Water seeping underground", es: "Agua filtrándose bajo tierra", de: "Wasser, das unterirdisch sickert", nl: "Water dat ondergronds sijpelt" },
+          { en: "Water stored in lakes", es: "Agua almacenada en lagos", de: "Wasser, das in Seen gespeichert ist", nl: "Water opgeslagen in meren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Surface runoff is precipitation that flows over the land surface when soil is saturated or impermeable. It eventually reaches streams, rivers, and lakes. Excessive runoff can cause erosion and flooding.",
+          es: "La escorrentía superficial es precipitación que fluye sobre la superficie terrestre cuando el suelo está saturado o es impermeable. Eventualmente llega a arroyos, ríos y lagos. Escorrentía excesiva puede causar erosión e inundaciones.",
+          de: "Oberflächenabfluss ist Niederschlag, der über die Landoberfläche fließt, wenn der Boden gesättigt oder undurchlässig ist. Er erreicht schließlich Bäche, Flüsse und Seen. Übermäßiger Abfluss kann Erosion und Überschwemmungen verursachen.",
+          nl: "Oppervlakte-afvoer is neerslag die over het landoppervlak stroomt wanneer de grond verzadigd of ondoorlatend is. Het bereikt uiteindelijk beken, rivieren en meren. Overmatige afvoer kan erosie en overstromingen veroorzaken."
+        }
+      },
+      {
+        question: {
+          en: "What is a perennial stream?",
+          es: "¿Qué es un arroyo perenne?",
+          de: "Was ist ein ganzjähriger Bach?",
+          nl: "Wat is een permanente beek?"
+        },
+        options: [
+          { en: "A stream that flows year-round", es: "Un arroyo que fluye todo el año", de: "Ein Bach, der ganzjährig fließt", nl: "Een beek die het hele jaar stroomt" },
+          { en: "A stream that only flows in spring", es: "Un arroyo que solo fluye en primavera", de: "Ein Bach, der nur im Frühling fließt", nl: "Een beek die alleen in het voorjaar stroomt" },
+          { en: "A stream with annual flooding", es: "Un arroyo con inundaciones anuales", de: "Ein Bach mit jährlichen Überschwemmungen", nl: "Een beek met jaarlijkse overstromingen" },
+          { en: "A stream every ten years", es: "Un arroyo cada diez años", de: "Ein Bach alle zehn Jahre", nl: "Een beek om de tien jaar" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A perennial stream flows continuously throughout the year because its channel is fed by groundwater (the water table intersects the stream bed). Examples include most major rivers.",
+          es: "Un arroyo perenne fluye continuamente durante todo el año porque su canal es alimentado por agua subterránea (el nivel freático intersecta el lecho del arroyo). Ejemplos incluyen la mayoría de ríos principales.",
+          de: "Ein ganzjähriger Bach fließt kontinuierlich das ganze Jahr über, weil sein Kanal von Grundwasser gespeist wird (der Grundwasserspiegel schneidet das Bachbett). Beispiele sind die meisten großen Flüsse.",
+          nl: "Een permanente beek stroomt continu het hele jaar door omdat het kanaal wordt gevoed door grondwater (de grondwaterspiegel kruist de beekbedding). Voorbeelden zijn de meeste grote rivieren."
+        }
+      },
+      {
+        question: {
+          en: "What is an ephemeral stream?",
+          es: "¿Qué es un arroyo efímero?",
+          de: "Was ist ein ephemerer Bach?",
+          nl: "Wat is een tijdelijke beek?"
+        },
+        options: [
+          { en: "A stream that flows only during and shortly after rainfall", es: "Un arroyo que fluye solo durante y poco después de lluvia", de: "Ein Bach, der nur während und kurz nach Niederschlag fließt", nl: "Een beek die alleen tijdens en kort na regen stroomt" },
+          { en: "A stream that flows year-round", es: "Un arroyo que fluye todo el año", de: "Ein Bach, der ganzjährig fließt", nl: "Een beek die het hele jaar stroomt" },
+          { en: "A fast-flowing stream", es: "Un arroyo de flujo rápido", de: "Ein schnell fließender Bach", nl: "Een snelstromende beek" },
+          { en: "A polluted stream", es: "Un arroyo contaminado", de: "Ein verschmutzter Bach", nl: "Een vervuilde beek" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "An ephemeral stream flows only during and immediately after precipitation events. The rest of the time, the channel is dry because the water table is below the stream bed.",
+          es: "Un arroyo efímero fluye solo durante e inmediatamente después de eventos de precipitación. El resto del tiempo, el canal está seco porque el nivel freático está debajo del lecho del arroyo.",
+          de: "Ein ephemerer Bach fließt nur während und unmittelbar nach Niederschlagsereignissen. Den Rest der Zeit ist der Kanal trocken, weil der Grundwasserspiegel unter dem Bachbett liegt.",
+          nl: "Een tijdelijke beek stroomt alleen tijdens en onmiddellijk na neerslag. De rest van de tijd is het kanaal droog omdat de grondwaterspiegel onder de beekbedding ligt."
+        }
+      },
+      {
+        question: {
+          en: "What is water recycling (water reclamation)?",
+          es: "¿Qué es el reciclaje de agua (recuperación de agua)?",
+          de: "Was ist Wasserrecycling (Wasseraufbereitung)?",
+          nl: "Wat is waterrecycling (waterhergebruik)?"
+        },
+        options: [
+          { en: "Treating wastewater for reuse in irrigation or industry", es: "Tratar aguas residuales para reutilización en irrigación o industria", de: "Abwasserbehandlung zur Wiederverwendung in Bewässerung oder Industrie", nl: "Afvalwater behandelen voor hergebruik in irrigatie of industrie" },
+          { en: "Collecting rainwater only", es: "Recolectar agua de lluvia solamente", de: "Nur Regenwasser sammeln", nl: "Alleen regenwater verzamelen" },
+          { en: "Melting ice for water", es: "Derretir hielo para agua", de: "Eis für Wasser schmelzen", nl: "Ijs smelten voor water" },
+          { en: "Desalinating seawater", es: "Desalinizar agua de mar", de: "Meerwasser entsalzen", nl: "Zeewater ontzilten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Water recycling (reclamation) is the process of treating wastewater to remove contaminants so it can be safely reused for purposes like irrigation, industrial processes, groundwater recharge, or even potable use after advanced treatment.",
+          es: "El reciclaje de agua (recuperación) es el proceso de tratar aguas residuales para eliminar contaminantes para que puedan reutilizarse de manera segura para propósitos como irrigación, procesos industriales, recarga de agua subterránea o incluso uso potable después de tratamiento avanzado.",
+          de: "Wasserrecycling (Aufbereitung) ist der Prozess der Abwasserbehandlung zur Entfernung von Schadstoffen, damit es sicher wiederverwendet werden kann für Zwecke wie Bewässerung, industrielle Prozesse, Grundwasserneubildung oder sogar Trinkwassernutzung nach fortgeschrittener Behandlung.",
+          nl: "Waterrecycling (hergebruik) is het proces van afvalwaterbehandeling om verontreinigingen te verwijderen zodat het veilig kan worden hergebruikt voor doeleinden zoals irrigatie, industriële processen, grondwateraanvulling of zelfs drinkbaar gebruik na geavanceerde behandeling."
+        }
+      },
+      {
+        question: {
+          en: "What is the Ogallala Aquifer?",
+          es: "¿Qué es el Acuífero Ogallala?",
+          de: "Was ist der Ogallala-Grundwasserleiter?",
+          nl: "Wat is de Ogallala watervoerende laag?"
+        },
+        options: [
+          { en: "One of the world's largest aquifers under the Great Plains of North America", es: "Uno de los acuíferos más grandes del mundo bajo las Grandes Llanuras de América del Norte", de: "Einer der größten Grundwasserleiter der Welt unter den Great Plains Nordamerikas", nl: "Een van 's werelds grootste watervoerende lagen onder de Great Plains van Noord-Amerika" },
+          { en: "A river in Africa", es: "Un río en África", de: "Ein Fluss in Afrika", nl: "Een rivier in Afrika" },
+          { en: "A lake in Europe", es: "Un lago en Europa", de: "Ein See in Europa", nl: "Een meer in Europa" },
+          { en: "A water treatment method", es: "Un método de tratamiento de agua", de: "Eine Wasserbehandlungsmethode", nl: "Een waterzuiveringsmethode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Ogallala Aquifer is one of the world's largest underground water sources, spanning eight US states. It supplies water for irrigation and drinking, but is being depleted faster than it can recharge.",
+          es: "El Acuífero Ogallala es una de las fuentes de agua subterránea más grandes del mundo, abarcando ocho estados de EE.UU. Suministra agua para irrigación y consumo, pero se está agotando más rápido de lo que puede recargarse.",
+          de: "Der Ogallala-Grundwasserleiter ist eine der größten unterirdischen Wasserquellen der Welt und erstreckt sich über acht US-Bundesstaaten. Er liefert Wasser für Bewässerung und Trinkwasser, wird aber schneller erschöpft als er sich auffüllen kann.",
+          nl: "De Ogallala watervoerende laag is een van 's werelds grootste ondergrondse waterbronnen, die zich uitstrekt over acht Amerikaanse staten. Het levert water voor irrigatie en drinkwater, maar wordt sneller uitgeput dan het kan worden aangevuld."
+        }
+      }
     ]
   };
 

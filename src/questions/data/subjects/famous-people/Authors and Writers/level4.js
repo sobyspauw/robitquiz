@@ -427,6 +427,426 @@
           de: "Margaret Fuller war eine Schlüsselfigur in der Transzendentalistenbewegung und Autorin von 'Die Frau im neunzehnten Jahrhundert' (1845), einem der ersten großen feministischen Werke in den Vereinigten Staaten. Sie war auch die erste weibliche Kriegskorrespondentin.",
           nl: "Margaret Fuller was een sleutelfiguur in de Transcendentalist beweging en auteur van 'Vrouw in de negentiende eeuw' (1845), een van de eerste grote feministische werken in de Verenigde Staten. Ze was ook de eerste vrouwelijke oorlogscorrespondent."
         }
+      },
+      {
+        question: {
+          en: "Which literary device involves using an object or action to represent something else, often abstract?",
+          es: "¿Qué recurso literario implica usar un objeto o acción para representar algo más, a menudo abstracto?",
+          de: "Welches literarische Mittel verwendet ein Objekt oder eine Handlung, um etwas anderes darzustellen, oft Abstraktes?",
+          nl: "Welk literair middel houdt in dat een object of actie wordt gebruikt om iets anders te vertegenwoordigen, vaak abstract?"
+        },
+        options: [
+          {en: "Metaphor", es: "Metáfora", de: "Metapher", nl: "Metafoor"},
+          {en: "Symbolism", es: "Simbolismo", de: "Symbolismus", nl: "Symboliek"},
+          {en: "Allegory", es: "Alegoría", de: "Allegorie", nl: "Allegorie"},
+          {en: "Personification", es: "Personificación", de: "Personifikation", nl: "Personificatie"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Symbolism uses objects, characters, or actions to represent abstract ideas or concepts beyond their literal meaning. For example, a dove often symbolizes peace, or a journey might symbolize personal growth.",
+          es: "El simbolismo usa objetos, personajes o acciones para representar ideas o conceptos abstractos más allá de su significado literal. Por ejemplo, una paloma a menudo simboliza la paz, o un viaje puede simbolizar crecimiento personal.",
+          de: "Symbolismus verwendet Objekte, Charaktere oder Handlungen, um abstrakte Ideen oder Konzepte über ihre wörtliche Bedeutung hinaus darzustellen. Zum Beispiel symbolisiert eine Taube oft Frieden, oder eine Reise kann persönliches Wachstum symbolisieren.",
+          nl: "Symboliek gebruikt objecten, personages of acties om abstracte ideeën of concepten te vertegenwoordigen die verder gaan dan hun letterlijke betekenis. Bijvoorbeeld, een duif symboliseert vaak vrede, of een reis kan persoonlijke groei symboliseren."
+        }
+      },
+      {
+        question: {
+          en: "Which narrative technique presents events out of chronological order?",
+          es: "¿Qué técnica narrativa presenta eventos fuera del orden cronológico?",
+          de: "Welche Erzähltechnik präsentiert Ereignisse außerhalb der chronologischen Reihenfolge?",
+          nl: "Welke verhaaltechniek presenteert gebeurtenissen buiten de chronologische volgorde?"
+        },
+        options: [
+          {en: "In medias res", es: "In medias res", de: "In medias res", nl: "In medias res"},
+          {en: "Non-linear narrative", es: "Narrativa no lineal", de: "Nicht-lineare Erzählung", nl: "Niet-lineair verhaal"},
+          {en: "Frame narrative", es: "Narrativa marco", de: "Rahmenerzählung", nl: "Kader verhaal"},
+          {en: "Epistolary", es: "Epistolar", de: "Briefroman", nl: "Briefroman"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "A non-linear narrative presents events out of chronological order, using flashbacks, flash-forwards, or fragmented timelines. Famous examples include 'Slaughterhouse-Five' by Kurt Vonnegut and films like 'Pulp Fiction'.",
+          es: "Una narrativa no lineal presenta eventos fuera del orden cronológico, usando flashbacks, flash-forwards o líneas de tiempo fragmentadas. Ejemplos famosos incluyen 'Matadero Cinco' de Kurt Vonnegut y películas como 'Pulp Fiction'.",
+          de: "Eine nicht-lineare Erzählung präsentiert Ereignisse außerhalb der chronologischen Reihenfolge und verwendet Rückblenden, Vorausschauen oder fragmentierte Zeitlinien. Berühmte Beispiele sind 'Schlachthof 5' von Kurt Vonnegut und Filme wie 'Pulp Fiction'.",
+          nl: "Een niet-lineair verhaal presenteert gebeurtenissen buiten de chronologische volgorde, met behulp van flashbacks, flash-forwards of gefragmenteerde tijdlijnen. Beroemde voorbeelden zijn 'Slachthuis Vijf' van Kurt Vonnegut en films zoals 'Pulp Fiction'."
+        }
+      },
+      {
+        question: {
+          en: "Which Russian literary term describes the plot or storyline of a narrative?",
+          es: "¿Qué término literario ruso describe la trama o argumento de una narrativa?",
+          de: "Welcher russische literarische Begriff beschreibt die Handlung oder Story einer Erzählung?",
+          nl: "Welke Russische literaire term beschrijft het plot of verhaallijn van een verhaal?"
+        },
+        options: [
+          {en: "Fabula", es: "Fabula", de: "Fabula", nl: "Fabula"},
+          {en: "Sjuzhet", es: "Sjuzhet", de: "Sjuzhet", nl: "Sjuzhet"},
+          {en: "Ostranenie", es: "Ostranenie", de: "Ostranenie", nl: "Ostranenie"},
+          {en: "Chronotope", es: "Cronotopo", de: "Chronotop", nl: "Chronotoop"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Sjuzhet (or syuzhet) is the Russian formalist term for plot - how the story is actually told, as opposed to fabula (the raw chronological events). This distinction was crucial to Russian literary theory.",
+          es: "Sjuzhet (o syuzhet) es el término formalista ruso para la trama: cómo se cuenta realmente la historia, a diferencia de la fabula (los eventos cronológicos crudos). Esta distinción fue crucial para la teoría literaria rusa.",
+          de: "Sjuzhet (oder Syuzhet) ist der russische formalistische Begriff für die Handlung - wie die Geschichte tatsächlich erzählt wird, im Gegensatz zur Fabula (die rohen chronologischen Ereignisse). Diese Unterscheidung war entscheidend für die russische Literaturtheorie.",
+          nl: "Sjuzhet (of syuzhet) is de Russische formalistische term voor plot - hoe het verhaal daadwerkelijk wordt verteld, in tegenstelling tot fabula (de ruwe chronologische gebeurtenissen). Deze onderscheiding was cruciaal voor de Russische literatuurtheorie."
+        }
+      },
+      {
+        question: {
+          en: "Which 20th-century literary theory emphasizes the role of the reader in creating meaning?",
+          es: "¿Qué teoría literaria del siglo XX enfatiza el papel del lector en la creación de significado?",
+          de: "Welche literaturtheoretische Strömung des 20. Jahrhunderts betont die Rolle des Lesers bei der Bedeutungsschaffung?",
+          nl: "Welke literaire theorie uit de 20e eeuw benadrukt de rol van de lezer bij het creëren van betekenis?"
+        },
+        options: [
+          {en: "New Criticism", es: "Nueva Crítica", de: "New Criticism", nl: "Nieuwe Kritiek"},
+          {en: "Structuralism", es: "Estructuralismo", de: "Strukturalismus", nl: "Structuralisme"},
+          {en: "Reader-response criticism", es: "Crítica de respuesta del lector", de: "Rezeptionsästhetik", nl: "Lezer-respons kritiek"},
+          {en: "Formalism", es: "Formalismo", de: "Formalismus", nl: "Formalisme"}
+        ],
+        correct: 2,
+        explanation: {
+          en: "Reader-response criticism emphasizes that meaning is created through the interaction between text and reader, rather than existing solely in the text. Key figures include Stanley Fish, Wolfgang Iser, and Louise Rosenblatt.",
+          es: "La crítica de respuesta del lector enfatiza que el significado se crea a través de la interacción entre el texto y el lector, en lugar de existir únicamente en el texto. Figuras clave incluyen Stanley Fish, Wolfgang Iser y Louise Rosenblatt.",
+          de: "Die Rezeptionsästhetik betont, dass Bedeutung durch die Interaktion zwischen Text und Leser geschaffen wird, anstatt nur im Text zu existieren. Wichtige Figuren sind Stanley Fish, Wolfgang Iser und Louise Rosenblatt.",
+          nl: "Lezer-respons kritiek benadrukt dat betekenis wordt gecreëerd door de interactie tussen tekst en lezer, in plaats van alleen in de tekst te bestaan. Belangrijke figuren zijn Stanley Fish, Wolfgang Iser en Louise Rosenblatt."
+        }
+      },
+      {
+        question: {
+          en: "Which narrative voice uses 'I' and tells the story from the perspective of a character within it?",
+          es: "¿Qué voz narrativa usa 'yo' y cuenta la historia desde la perspectiva de un personaje dentro de ella?",
+          de: "Welche Erzählstimme verwendet 'Ich' und erzählt die Geschichte aus der Perspektive einer Figur darin?",
+          nl: "Welke vertelstijl gebruikt 'ik' en vertelt het verhaal vanuit het perspectief van een personage erin?"
+        },
+        options: [
+          {en: "First-person narrator", es: "Narrador en primera persona", de: "Ich-Erzähler", nl: "Eerste persoon verteller"},
+          {en: "Third-person omniscient", es: "Tercera persona omnisciente", de: "Allwissender Erzähler", nl: "Derde persoon alwetend"},
+          {en: "Third-person limited", es: "Tercera persona limitada", de: "Personaler Erzähler", nl: "Derde persoon beperkt"},
+          {en: "Second-person narrator", es: "Narrador en segunda persona", de: "Du-Erzähler", nl: "Tweede persoon verteller"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "A first-person narrator uses 'I' and tells the story from their own perspective as a character in the narrative. This creates intimacy but limits the reader to what the narrator knows and experiences.",
+          es: "Un narrador en primera persona usa 'yo' y cuenta la historia desde su propia perspectiva como personaje en la narrativa. Esto crea intimidad pero limita al lector a lo que el narrador sabe y experimenta.",
+          de: "Ein Ich-Erzähler verwendet 'Ich' und erzählt die Geschichte aus ihrer eigenen Perspektive als Figur in der Erzählung. Dies schafft Intimität, beschränkt den Leser aber auf das, was der Erzähler weiß und erlebt.",
+          nl: "Een eerste persoon verteller gebruikt 'ik' en vertelt het verhaal vanuit hun eigen perspectief als personage in het verhaal. Dit creëert intimiteit maar beperkt de lezer tot wat de verteller weet en ervaart."
+        }
+      },
+      {
+        question: {
+          en: "Which term describes a work that imitates and exaggerates another work for comic effect?",
+          es: "¿Qué término describe una obra que imita y exagera otra obra con efecto cómico?",
+          de: "Welcher Begriff beschreibt ein Werk, das ein anderes Werk für komische Wirkung nachahmt und übertreibt?",
+          nl: "Welke term beschrijft een werk dat een ander werk imiteert en overdrijft voor komisch effect?"
+        },
+        options: [
+          {en: "Satire", es: "Sátira", de: "Satire", nl: "Satire"},
+          {en: "Parody", es: "Parodia", de: "Parodie", nl: "Parodie"},
+          {en: "Pastiche", es: "Pastiche", de: "Pastiche", nl: "Pastiche"},
+          {en: "Burlesque", es: "Burlesco", de: "Burleske", nl: "Burleske"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "A parody imitates the style and conventions of another work, author, or genre, exaggerating their characteristics for humorous effect. Examples include 'Don Quixote' parodying chivalric romances.",
+          es: "Una parodia imita el estilo y convenciones de otra obra, autor o género, exagerando sus características con efecto humorístico. Ejemplos incluyen 'Don Quijote' parodiando romances caballerescos.",
+          de: "Eine Parodie ahmt den Stil und die Konventionen eines anderen Werks, Autors oder Genres nach und übertreibt ihre Merkmale für humoristische Wirkung. Beispiele sind 'Don Quijote', der Ritterromane parodiert.",
+          nl: "Een parodie imiteert de stijl en conventies van een ander werk, auteur of genre, waarbij hun kenmerken worden overdreven voor humoristisch effect. Voorbeelden zijn 'Don Quichot' dat ridderromans parodieert."
+        }
+      },
+      {
+        question: {
+          en: "Which narrative structure involves a story within a story?",
+          es: "¿Qué estructura narrativa implica una historia dentro de una historia?",
+          de: "Welche Erzählstruktur beinhaltet eine Geschichte innerhalb einer Geschichte?",
+          nl: "Welke verhaalstructuur omvat een verhaal binnen een verhaal?"
+        },
+        options: [
+          {en: "Frame narrative", es: "Narrativa marco", de: "Rahmenerzählung", nl: "Kader verhaal"},
+          {en: "Circular narrative", es: "Narrativa circular", de: "Zirkuläre Erzählung", nl: "Circulair verhaal"},
+          {en: "Parallel narrative", es: "Narrativa paralela", de: "Parallele Erzählung", nl: "Parallel verhaal"},
+          {en: "Linear narrative", es: "Narrativa lineal", de: "Lineare Erzählung", nl: "Lineair verhaal"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "A frame narrative (or frame story) is a story that contains another story within it. Famous examples include 'The Canterbury Tales', '1001 Nights', and 'Frankenstein'.",
+          es: "Una narrativa marco (o historia marco) es una historia que contiene otra historia dentro de ella. Ejemplos famosos incluyen 'Los cuentos de Canterbury', '1001 noches' y 'Frankenstein'.",
+          de: "Eine Rahmenerzählung ist eine Geschichte, die eine andere Geschichte in sich enthält. Berühmte Beispiele sind 'Die Canterbury-Erzählungen', '1001 Nacht' und 'Frankenstein'.",
+          nl: "Een kader verhaal is een verhaal dat een ander verhaal in zich bevat. Beroemde voorbeelden zijn 'The Canterbury Tales', '1001 nacht' en 'Frankenstein'."
+        }
+      },
+      {
+        question: {
+          en: "Which poetic form consists of 14 lines and follows a specific rhyme scheme?",
+          es: "¿Qué forma poética consiste en 14 líneas y sigue un esquema de rima específico?",
+          de: "Welche poetische Form besteht aus 14 Zeilen und folgt einem bestimmten Reimschema?",
+          nl: "Welke poëtische vorm bestaat uit 14 regels en volgt een specifiek rijmschema?"
+        },
+        options: [
+          {en: "Sonnet", es: "Soneto", de: "Sonett", nl: "Sonnet"},
+          {en: "Villanelle", es: "Villanela", de: "Villanelle", nl: "Villanelle"},
+          {en: "Haiku", es: "Haiku", de: "Haiku", nl: "Haiku"},
+          {en: "Ballad", es: "Balada", de: "Ballade", nl: "Ballade"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "A sonnet is a 14-line poem with specific rhyme schemes. The two main types are the Italian (Petrarchan) sonnet and the English (Shakespearean) sonnet, each with different rhyme patterns.",
+          es: "Un soneto es un poema de 14 líneas con esquemas de rima específicos. Los dos tipos principales son el soneto italiano (petrarquista) y el soneto inglés (shakesperiano), cada uno con diferentes patrones de rima.",
+          de: "Ein Sonett ist ein 14-zeiliges Gedicht mit spezifischen Reimschemata. Die zwei Haupttypen sind das italienische (Petrarca-) Sonett und das englische (Shakespeare-) Sonett, jeweils mit unterschiedlichen Reimmustern.",
+          nl: "Een sonnet is een gedicht van 14 regels met specifieke rijmschema's. De twee belangrijkste types zijn het Italiaanse (Petrarca) sonnet en het Engelse (Shakespeare) sonnet, elk met verschillende rijmpatronen."
+        }
+      },
+      {
+        question: {
+          en: "Which term describes the repetition of consonant sounds at the beginning of words?",
+          es: "¿Qué término describe la repetición de sonidos consonantes al principio de las palabras?",
+          de: "Welcher Begriff beschreibt die Wiederholung von Konsonantenlauten am Anfang von Wörtern?",
+          nl: "Welke term beschrijft de herhaling van medeklinkerklanken aan het begin van woorden?"
+        },
+        options: [
+          {en: "Assonance", es: "Asonancia", de: "Assonanz", nl: "Assonantie"},
+          {en: "Alliteration", es: "Aliteración", de: "Alliteration", nl: "Alliteratie"},
+          {en: "Consonance", es: "Consonancia", de: "Konsonanz", nl: "Consonantie"},
+          {en: "Onomatopoeia", es: "Onomatopeya", de: "Onomatopoesie", nl: "Onomatopee"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Alliteration is the repetition of consonant sounds at the beginning of words, such as 'Peter Piper picked a peck of pickled peppers.' It's used for emphasis and musical effect.",
+          es: "La aliteración es la repetición de sonidos consonantes al principio de las palabras, como 'Peter Piper picked a peck of pickled peppers.' Se usa para énfasis y efecto musical.",
+          de: "Alliteration ist die Wiederholung von Konsonantenlauten am Anfang von Wörtern, wie 'Peter Piper picked a peck of pickled peppers.' Sie wird für Betonung und musikalische Wirkung verwendet.",
+          nl: "Alliteratie is de herhaling van medeklinkerklanken aan het begin van woorden, zoals 'Peter Piper picked a peck of pickled peppers.' Het wordt gebruikt voor nadruk en muzikaal effect."
+        }
+      },
+      {
+        question: {
+          en: "Which term describes a moment of sudden revelation or insight in a narrative?",
+          es: "¿Qué término describe un momento de revelación o comprensión repentina en una narrativa?",
+          de: "Welcher Begriff beschreibt einen Moment plötzlicher Offenbarung oder Einsicht in einer Erzählung?",
+          nl: "Welke term beschrijft een moment van plotselinge openbaring of inzicht in een verhaal?"
+        },
+        options: [
+          {en: "Epiphany", es: "Epifanía", de: "Epiphanie", nl: "Epifanie"},
+          {en: "Climax", es: "Clímax", de: "Klimax", nl: "Climax"},
+          {en: "Denouement", es: "Desenlace", de: "Auflösung", nl: "Ontknoping"},
+          {en: "Resolution", es: "Resolución", de: "Lösung", nl: "Oplossing"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "An epiphany is a moment of sudden insight or revelation, often for a character within the story. James Joyce popularized this term in literature, using it extensively in his short story collection 'Dubliners'.",
+          es: "Una epifanía es un momento de comprensión o revelación repentina, a menudo para un personaje dentro de la historia. James Joyce popularizó este término en literatura, usándolo extensivamente en su colección de cuentos 'Dublineses'.",
+          de: "Eine Epiphanie ist ein Moment plötzlicher Einsicht oder Offenbarung, oft für eine Figur innerhalb der Geschichte. James Joyce popularisierte diesen Begriff in der Literatur und verwendete ihn ausgiebig in seiner Kurzgeschichtensammlung 'Dubliner'.",
+          nl: "Een epifanie is een moment van plotseling inzicht of openbaring, vaak voor een personage binnen het verhaal. James Joyce populariseerde deze term in de literatuur, waarbij hij het uitgebreid gebruikte in zijn korte verhalenbundel 'Dubliners'."
+        }
+      },
+      {
+        question: {
+          en: "Which Greek term describes the fatal flaw of a tragic hero?",
+          es: "¿Qué término griego describe el defecto fatal de un héroe trágico?",
+          de: "Welcher griechische Begriff beschreibt den verhängnisvollen Fehler eines tragischen Helden?",
+          nl: "Welke Griekse term beschrijft de fatale fout van een tragische held?"
+        },
+        options: [
+          {en: "Hubris", es: "Hibris", de: "Hybris", nl: "Hybris"},
+          {en: "Hamartia", es: "Hamartia", de: "Hamartia", nl: "Hamartia"},
+          {en: "Catharsis", es: "Catarsis", de: "Katharsis", nl: "Catharsis"},
+          {en: "Anagnorisis", es: "Anagnórisis", de: "Anagnorisis", nl: "Anagnorisis"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Hamartia is the tragic flaw or error in judgment that leads to the downfall of the tragic hero. The term comes from Aristotle's 'Poetics' and is distinct from hubris (excessive pride).",
+          es: "Hamartia es el defecto trágico o error de juicio que conduce a la caída del héroe trágico. El término proviene de la 'Poética' de Aristóteles y es distinto de hibris (orgullo excesivo).",
+          de: "Hamartia ist der tragische Fehler oder das Urteilsvermögen, das zum Untergang des tragischen Helden führt. Der Begriff stammt aus Aristoteles' 'Poetik' und unterscheidet sich von Hybris (übermäßiger Stolz).",
+          nl: "Hamartia is de tragische fout of beoordelingsfout die leidt tot de ondergang van de tragische held. De term komt uit Aristoteles' 'Poetica' en is verschillend van hybris (buitensporige trots)."
+        }
+      },
+      {
+        question: {
+          en: "Which postmodern literary device involves mixing different genres and styles within a single work?",
+          es: "¿Qué recurso literario posmoderno implica mezclar diferentes géneros y estilos dentro de una sola obra?",
+          de: "Welches postmoderne literarische Mittel beinhaltet das Mischen verschiedener Genres und Stile innerhalb eines einzigen Werks?",
+          nl: "Welk postmodern literair middel houdt in dat verschillende genres en stijlen worden gemengd binnen één werk?"
+        },
+        options: [
+          {en: "Pastiche", es: "Pastiche", de: "Pastiche", nl: "Pastiche"},
+          {en: "Metafiction", es: "Metaficción", de: "Metafiktion", nl: "Metafictie"},
+          {en: "Intertextuality", es: "Intertextualidad", de: "Intertextualität", nl: "Intertekstualiteit"},
+          {en: "Bricolage", es: "Bricolaje", de: "Bricolage", nl: "Bricolage"}
+        ],
+        correct: 3,
+        explanation: {
+          en: "Bricolage in literature refers to the mixing and combining of diverse genres, styles, and cultural references within a single work. It's a key feature of postmodern writing that breaks down traditional boundaries.",
+          es: "El bricolaje en literatura se refiere a la mezcla y combinación de diversos géneros, estilos y referencias culturales dentro de una sola obra. Es una característica clave de la escritura posmoderna que rompe las fronteras tradicionales.",
+          de: "Bricolage in der Literatur bezieht sich auf das Mischen und Kombinieren verschiedener Genres, Stile und kultureller Referenzen innerhalb eines einzigen Werks. Es ist ein Schlüsselmerkmal postmodernen Schreibens, das traditionelle Grenzen aufbricht.",
+          nl: "Bricolage in de literatuur verwijst naar het mixen en combineren van diverse genres, stijlen en culturele referenties binnen één werk. Het is een belangrijk kenmerk van postmodern schrijven dat traditionele grenzen doorbreekt."
+        }
+      },
+      {
+        question: {
+          en: "Which term describes writing that draws attention to its own fictional nature?",
+          es: "¿Qué término describe la escritura que llama la atención sobre su propia naturaleza ficticia?",
+          de: "Welcher Begriff beschreibt Schreiben, das auf seine eigene fiktionale Natur aufmerksam macht?",
+          nl: "Welke term beschrijft schrijven dat de aandacht vestigt op zijn eigen fictieve aard?"
+        },
+        options: [
+          {en: "Metafiction", es: "Metaficción", de: "Metafiktion", nl: "Metafictie"},
+          {en: "Magical realism", es: "Realismo mágico", de: "Magischer Realismus", nl: "Magisch realisme"},
+          {en: "Stream of consciousness", es: "Flujo de conciencia", de: "Bewusstseinsstrom", nl: "Bewustzijnsstroom"},
+          {en: "Verisimilitude", es: "Verosimilitud", de: "Wahrscheinlichkeit", nl: "Waarschijnlijkheid"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Metafiction is writing that self-consciously draws attention to its own fictional nature, often breaking the fourth wall. Examples include Italo Calvino's 'If on a winter's night a traveler' and John Fowles' 'The French Lieutenant's Woman'.",
+          es: "La metaficción es escritura que llama la atención conscientemente sobre su propia naturaleza ficticia, a menudo rompiendo la cuarta pared. Ejemplos incluyen 'Si una noche de invierno un viajero' de Italo Calvino y 'La mujer del teniente francés' de John Fowles.",
+          de: "Metafiktion ist Schreiben, das selbstbewusst auf seine eigene fiktionale Natur aufmerksam macht und oft die vierte Wand durchbricht. Beispiele sind Italo Calvinos 'Wenn ein Reisender in einer Winternacht' und John Fowles' 'Die Geliebte des französischen Leutnants'.",
+          nl: "Metafictie is schrijven dat bewust de aandacht vestigt op zijn eigen fictieve aard, vaak door de vierde wand te doorbreken. Voorbeelden zijn Italo Calvino's 'Als op een winternacht een reiziger' en John Fowles' 'De Franse luitenant'."
+        }
+      },
+      {
+        question: {
+          en: "Which narrative mode presents characters' thoughts as they occur, without logical structure?",
+          es: "¿Qué modo narrativo presenta los pensamientos de los personajes tal como ocurren, sin estructura lógica?",
+          de: "Welcher Erzählmodus präsentiert die Gedanken der Charaktere so, wie sie auftreten, ohne logische Struktur?",
+          nl: "Welke verhaalmodus presenteert de gedachten van personages zoals ze opkomen, zonder logische structuur?"
+        },
+        options: [
+          {en: "Interior monologue", es: "Monólogo interior", de: "Innerer Monolog", nl: "Innerlijke monoloog"},
+          {en: "Stream of consciousness", es: "Flujo de conciencia", de: "Bewusstseinsstrom", nl: "Bewustzijnsstroom"},
+          {en: "Free indirect discourse", es: "Discurso indirecto libre", de: "Erlebte Rede", nl: "Vrije indirecte rede"},
+          {en: "Omniscient narration", es: "Narración omnisciente", de: "Allwissende Erzählung", nl: "Alwetende vertelling"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Stream of consciousness presents a character's thoughts and feelings as they occur, in a continuous, often unstructured flow. Notable examples include Joyce's 'Ulysses' and Woolf's 'Mrs. Dalloway'.",
+          es: "El flujo de conciencia presenta los pensamientos y sentimientos de un personaje tal como ocurren, en un flujo continuo, a menudo no estructurado. Ejemplos notables incluyen 'Ulises' de Joyce y 'La señora Dalloway' de Woolf.",
+          de: "Der Bewusstseinsstrom präsentiert die Gedanken und Gefühle einer Figur, wie sie auftreten, in einem kontinuierlichen, oft unstrukturierten Fluss. Bemerkenswerte Beispiele sind Joyces 'Ulysses' und Woolfs 'Mrs. Dalloway'.",
+          nl: "Bewustzijnsstroom presenteert de gedachten en gevoelens van een personage zoals ze opkomen, in een continue, vaak ongestructureerde stroom. Opmerkelijke voorbeelden zijn Joyce's 'Ulysses' en Woolf's 'Mrs. Dalloway'."
+        }
+      },
+      {
+        question: {
+          en: "Which term describes hints or clues about events that will occur later in the narrative?",
+          es: "¿Qué término describe pistas o indicios sobre eventos que ocurrirán más tarde en la narrativa?",
+          de: "Welcher Begriff beschreibt Hinweise oder Andeutungen über Ereignisse, die später in der Erzählung auftreten werden?",
+          nl: "Welke term beschrijft hints of aanwijzingen over gebeurtenissen die later in het verhaal zullen plaatsvinden?"
+        },
+        options: [
+          {en: "Flashback", es: "Flashback", de: "Rückblende", nl: "Flashback"},
+          {en: "Foreshadowing", es: "Prefiguración", de: "Vorausdeutung", nl: "Voorafschaduwing"},
+          {en: "Retrospection", es: "Retrospección", de: "Rückschau", nl: "Terugblik"},
+          {en: "Flash-forward", es: "Flash-forward", de: "Vorausblende", nl: "Flash-forward"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Foreshadowing provides hints or clues about events that will occur later in the story, building suspense and preparing readers for future developments. It's a key technique in mystery and tragedy.",
+          es: "La prefiguración proporciona pistas o indicios sobre eventos que ocurrirán más tarde en la historia, creando suspenso y preparando a los lectores para desarrollos futuros. Es una técnica clave en el misterio y la tragedia.",
+          de: "Vorausdeutung liefert Hinweise oder Andeutungen über Ereignisse, die später in der Geschichte auftreten werden, und baut Spannung auf, während sie Leser auf zukünftige Entwicklungen vorbereitet. Es ist eine Schlüsseltechnik in Mystery und Tragödie.",
+          nl: "Voorafschaduwing geeft hints of aanwijzingen over gebeurtenissen die later in het verhaal zullen plaatsvinden, waarbij spanning wordt opgebouwd en lezers worden voorbereid op toekomstige ontwikkelingen. Het is een belangrijke techniek in mysterie en tragedie."
+        }
+      },
+      {
+        question: {
+          en: "Which literary period emphasized individual emotion and the power of nature?",
+          es: "¿Qué período literario enfatizó la emoción individual y el poder de la naturaleza?",
+          de: "Welche literarische Periode betonte individuelle Emotion und die Macht der Natur?",
+          nl: "Welke literaire periode benadrukte individuele emotie en de kracht van de natuur?"
+        },
+        options: [
+          {en: "Enlightenment", es: "Ilustración", de: "Aufklärung", nl: "Verlichting"},
+          {en: "Romanticism", es: "Romanticismo", de: "Romantik", nl: "Romantiek"},
+          {en: "Victorian Era", es: "Era Victoriana", de: "Viktorianisches Zeitalter", nl: "Victoriaans Tijdperk"},
+          {en: "Modernism", es: "Modernismo", de: "Moderne", nl: "Modernisme"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Romanticism (late 18th-mid 19th century) emphasized emotion, imagination, individualism, and the sublime power of nature, as a reaction against the rationalism of the Enlightenment. Key figures include Wordsworth, Byron, and Shelley.",
+          es: "El Romanticismo (finales del siglo XVIII-mediados del XIX) enfatizó la emoción, la imaginación, el individualismo y el poder sublime de la naturaleza, como reacción contra el racionalismo de la Ilustración. Figuras clave incluyen Wordsworth, Byron y Shelley.",
+          de: "Die Romantik (spätes 18.-Mitte 19. Jahrhundert) betonte Emotion, Vorstellungskraft, Individualismus und die erhabene Macht der Natur als Reaktion gegen den Rationalismus der Aufklärung. Wichtige Figuren sind Wordsworth, Byron und Shelley.",
+          nl: "De Romantiek (eind 18e-midden 19e eeuw) benadrukte emotie, verbeelding, individualisme en de sublieme kracht van de natuur, als reactie tegen het rationalisme van de Verlichting. Belangrijke figuren zijn Wordsworth, Byron en Shelley."
+        }
+      },
+      {
+        question: {
+          en: "Which term describes a figure of speech that combines contradictory terms?",
+          es: "¿Qué término describe una figura retórica que combina términos contradictorios?",
+          de: "Welcher Begriff beschreibt eine rhetorische Figur, die widersprüchliche Begriffe kombiniert?",
+          nl: "Welke term beschrijft een stijlfiguur die tegenstrijdige termen combineert?"
+        },
+        options: [
+          {en: "Paradox", es: "Paradoja", de: "Paradoxon", nl: "Paradox"},
+          {en: "Oxymoron", es: "Oxímoron", de: "Oxymoron", nl: "Oxymoron"},
+          {en: "Antithesis", es: "Antítesis", de: "Antithese", nl: "Antithese"},
+          {en: "Irony", es: "Ironía", de: "Ironie", nl: "Ironie"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "An oxymoron combines two contradictory terms in a single phrase, such as 'deafening silence,' 'living death,' or 'cruel kindness.' It creates a paradoxical effect that can be thought-provoking or humorous.",
+          es: "Un oxímoron combina dos términos contradictorios en una sola frase, como 'silencio ensordecedor,' 'muerte viviente' o 'cruel bondad.' Crea un efecto paradójico que puede ser reflexivo o humorístico.",
+          de: "Ein Oxymoron kombiniert zwei widersprüchliche Begriffe in einer einzigen Phrase, wie 'ohrenbetäubende Stille,' 'lebender Tod' oder 'grausame Freundlichkeit.' Es schafft einen paradoxen Effekt, der zum Nachdenken anregen oder humorvoll sein kann.",
+          nl: "Een oxymoron combineert twee tegenstrijdige termen in één zin, zoals 'oorverdovende stilte,' 'levende dood' of 'wrede vriendelijkheid.' Het creëert een paradoxaal effect dat tot nadenken kan stemmen of humoristisch kan zijn."
+        }
+      },
+      {
+        question: {
+          en: "Which ancient Greek philosopher wrote 'Poetics', a foundational work of literary theory?",
+          es: "¿Qué filósofo griego antiguo escribió 'Poética', una obra fundacional de teoría literaria?",
+          de: "Welcher antike griechische Philosoph schrieb 'Poetik', ein grundlegendes Werk der Literaturtheorie?",
+          nl: "Welke oude Griekse filosoof schreef 'Poetica', een fundamenteel werk van literaire theorie?"
+        },
+        options: [
+          {en: "Plato", es: "Platón", de: "Platon", nl: "Plato"},
+          {en: "Aristotle", es: "Aristóteles", de: "Aristoteles", nl: "Aristoteles"},
+          {en: "Sophocles", es: "Sófocles", de: "Sophokles", nl: "Sophocles"},
+          {en: "Herodotus", es: "Heródoto", de: "Herodot", nl: "Herodotus"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Aristotle wrote 'Poetics' around 335 BCE, analyzing tragedy and epic poetry. It introduced concepts like catharsis, hamartia, and the three unities, profoundly influencing Western literary theory for over two millennia.",
+          es: "Aristóteles escribió 'Poética' alrededor del 335 a.C., analizando la tragedia y la poesía épica. Introdujo conceptos como catarsis, hamartia y las tres unidades, influyendo profundamente en la teoría literaria occidental durante más de dos milenios.",
+          de: "Aristoteles schrieb 'Poetik' um 335 v. Chr. und analysierte Tragödie und Epik. Es führte Konzepte wie Katharsis, Hamartia und die drei Einheiten ein und beeinflusste die westliche Literaturtheorie über zwei Jahrtausende tiefgreifend.",
+          nl: "Aristoteles schreef 'Poetica' rond 335 v.Chr., waarin tragedie en epische poëzie werden geanalyseerd. Het introduceerde concepten zoals catharsis, hamartia en de drie eenheden, en had gedurende meer dan twee millennia diepgaande invloed op de westerse literaire theorie."
+        }
+      },
+      {
+        question: {
+          en: "Which term describes a recurring image, symbol, or motif in literature?",
+          es: "¿Qué término describe una imagen, símbolo o motivo recurrente en la literatura?",
+          de: "Welcher Begriff beschreibt ein wiederkehrendes Bild, Symbol oder Motiv in der Literatur?",
+          nl: "Welke term beschrijft een terugkerend beeld, symbool of motief in de literatuur?"
+        },
+        options: [
+          {en: "Archetype", es: "Arquetipo", de: "Archetyp", nl: "Archetype"},
+          {en: "Motif", es: "Motivo", de: "Motiv", nl: "Motief"},
+          {en: "Trope", es: "Tropo", de: "Tropus", nl: "Troop"},
+          {en: "Leitmotif", es: "Leitmotiv", de: "Leitmotiv", nl: "Leitmotief"}
+        ],
+        correct: 3,
+        explanation: {
+          en: "A leitmotif is a recurring element (image, phrase, theme) that has symbolic significance in a literary work. The term originated in music but is widely used in literary analysis to track recurring patterns.",
+          es: "Un leitmotiv es un elemento recurrente (imagen, frase, tema) que tiene significado simbólico en una obra literaria. El término se originó en la música pero se usa ampliamente en el análisis literario para rastrear patrones recurrentes.",
+          de: "Ein Leitmotiv ist ein wiederkehrendes Element (Bild, Phrase, Thema), das symbolische Bedeutung in einem literarischen Werk hat. Der Begriff stammt aus der Musik, wird aber in der Literaturanalyse weit verbreitet verwendet, um wiederkehrende Muster zu verfolgen.",
+          nl: "Een leitmotief is een terugkerend element (beeld, zin, thema) dat symbolische betekenis heeft in een literair werk. De term komt oorspronkelijk uit de muziek maar wordt veel gebruikt in literaire analyse om terugkerende patronen te volgen."
+        }
+      },
+      {
+        question: {
+          en: "Which narrative technique presents the story as a series of letters?",
+          es: "¿Qué técnica narrativa presenta la historia como una serie de cartas?",
+          de: "Welche Erzähltechnik präsentiert die Geschichte als eine Reihe von Briefen?",
+          nl: "Welke verhaaltechniek presenteert het verhaal als een reeks brieven?"
+        },
+        options: [
+          {en: "Epistolary", es: "Epistolar", de: "Briefroman", nl: "Briefroman"},
+          {en: "Picaresque", es: "Picaresca", de: "Schelmenroman", nl: "Schelmenroman"},
+          {en: "Bildungsroman", es: "Bildungsroman", de: "Bildungsroman", nl: "Bildungsroman"},
+          {en: "Gothic", es: "Gótico", de: "Gotisch", nl: "Gothisch"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "An epistolary novel is told through a series of documents, most commonly letters. Famous examples include 'Dracula' by Bram Stoker, 'The Color Purple' by Alice Walker, and 'Frankenstein' by Mary Shelley.",
+          es: "Una novela epistolar se cuenta a través de una serie de documentos, más comúnmente cartas. Ejemplos famosos incluyen 'Drácula' de Bram Stoker, 'El color púrpura' de Alice Walker y 'Frankenstein' de Mary Shelley.",
+          de: "Ein Briefroman wird durch eine Reihe von Dokumenten erzählt, am häufigsten Briefe. Berühmte Beispiele sind 'Dracula' von Bram Stoker, 'Die Farbe Lila' von Alice Walker und 'Frankenstein' von Mary Shelley.",
+          nl: "Een briefroman wordt verteld door middel van een reeks documenten, meestal brieven. Beroemde voorbeelden zijn 'Dracula' van Bram Stoker, 'De kleur paars' van Alice Walker en 'Frankenstein' van Mary Shelley."
+        }
       }
     ]
   };

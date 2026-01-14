@@ -389,44 +389,254 @@
       },
       {
         question: {
-          en: "Which vegetables are considered peak season in spring?",
-          es: "¿Qué verduras se consideran de temporada alta en primavera?",
-          de: "Welches Gemüse gilt als Hauptsaison im Frühling?",
-          nl: "Welke groenten worden beschouwd als piekseizoen in de lente?"
+          en: "Which fall vegetable becomes sweeter after the first frost?",
+          es: "¿Qué verdura de otoño se vuelve más dulce después de la primera helada?",
+          de: "Welches Herbstgemüse wird nach dem ersten Frost süßer?",
+          nl: "Welke herfstgroente wordt zoeter na de eerste vorst?"
         },
         options: [
-          { en: "Asparagus, peas, artichokes", es: "Espárragos, guisantes, alcachofas", de: "Spargel, Erbsen, Artischocken", nl: "Asperges, erwten, artisjokken" },
-          { en: "Pumpkin, butternut squash, sweet potatoes", es: "Calabaza, calabaza butternut, batatas", de: "Kürbis, Butternut-Kürbis, Süßkartoffeln", nl: "Pompoen, butternut squash, zoete aardappels" },
-          { en: "Tomatoes, corn, zucchini", es: "Tomates, maíz, calabacín", de: "Tomaten, Mais, Zucchini", nl: "Tomaten, maïs, courgette" },
-          { en: "Brussels sprouts, cabbage, leeks", es: "Coles de Bruselas, repollo, puerros", de: "Rosenkohl, Kohl, Lauch", nl: "Spruitjes, kool, prei" }
+          { en: "Kale and Brussels sprouts", es: "Col rizada y coles de Bruselas", de: "Grünkohl und Rosenkohl", nl: "Boerenkool en spruitjes" },
+          { en: "Tomatoes and peppers", es: "Tomates y pimientos", de: "Tomaten und Paprika", nl: "Tomaten en paprika's" },
+          { en: "Lettuce and spinach", es: "Lechuga y espinacas", de: "Salat und Spinat", nl: "Sla en spinazie" },
+          { en: "Cucumbers and zucchini", es: "Pepinos y calabacín", de: "Gurken und Zucchini", nl: "Komkommers en courgette" }
         ],
         correct: 0,
         explanation: {
-          en: "Spring vegetables like asparagus, peas, and artichokes are at their peak freshness and flavor during spring months, offering tender textures and bright flavors.",
-          es: "Las verduras de primavera como espárragos, guisantes y alcachofas están en su máxima frescura y sabor durante los meses de primavera, ofreciendo texturas tiernas y sabores brillantes.",
-          de: "Frühlingsgemüse wie Spargel, Erbsen und Artischocken haben in den Frühlingsmonaten ihre beste Frische und ihren besten Geschmack und bieten zarte Texturen und helle Aromen.",
-          nl: "Lentegroenten zoals asperges, erwten en artisjokken zijn op hun piek van versheid en smaak tijdens de lentemaanden, biedend zachte texturen en heldere smaken."
+          en: "Cold weather triggers kale and Brussels sprouts to convert starches into sugars as a natural antifreeze, making them sweeter and more flavorful after frost.",
+          es: "El clima frío hace que la col rizada y las coles de Bruselas conviertan almidones en azúcares como un anticongelante natural, haciéndolas más dulces y sabrosas después de las heladas.",
+          de: "Kaltes Wetter veranlasst Grünkohl und Rosenkohl, Stärke in Zucker umzuwandeln als natürliches Frostschutzmittel, wodurch sie nach Frost süßer und schmackhafter werden.",
+          nl: "Koud weer zorgt ervoor dat boerenkool en spruitjes zetmeel omzetten in suikers als natuurlijke antivries, waardoor ze zoeter en smaakvoller worden na vorst."
         }
       },
       {
         question: {
-          en: "What is the best way to preserve summer herbs for winter use?",
-          es: "¿Cuál es la mejor manera de preservar hierbas de verano para uso en invierno?",
-          de: "Was ist der beste Weg, Sommerkräuter für den Wintergebrauch zu konservieren?",
-          nl: "Wat is de beste manier om zomerkruiden te bewaren voor wintergebruik?"
+          en: "What is the best way to store fresh spring asparagus?",
+          es: "¿Cuál es la mejor manera de almacenar espárragos frescos de primavera?",
+          de: "Was ist der beste Weg, frischen Frühlingsspargel zu lagern?",
+          de: "Wat is de beste manier om verse lenteasperges te bewaren?"
         },
         options: [
-          { en: "Freeze in olive oil or ice cube trays", es: "Congelar en aceite de oliva o bandejas de hielo", de: "In Olivenöl oder Eiswürfelformen einfrieren", nl: "Invriezen in olijfolie of ijsblokjesvormen" },
-          { en: "Dry them completely and store in plastic bags", es: "Secarlas completamente y almacenar en bolsas plásticas", de: "Vollständig trocknen und in Plastikbeuteln lagern", nl: "Volledig drogen en bewaren in plastic zakken" },
-          { en: "Store fresh in the refrigerator", es: "Almacenar fresco en el refrigerador", de: "Frisch im Kühlschrank lagern", nl: "Vers bewaren in de koelkast" },
-          { en: "Pickle in vinegar", es: "Encurtir en vinagre", de: "In Essig einlegen", nl: "Inmaken in azijn" }
+          { en: "Standing upright in water in the refrigerator", es: "De pie en agua en el refrigerador", de: "Aufrecht in Wasser im Kühlschrank", nl: "Rechtop in water in de koelkast" },
+          { en: "Wrapped in paper towels in a drawer", es: "Envuelto en toallas de papel en un cajón", de: "In Papiertüchern in einer Schublade gewickelt", nl: "Gewikkeld in papieren handdoeken in een la" },
+          { en: "In a plastic bag in the freezer", es: "En una bolsa plástica en el congelador", de: "In einem Plastikbeutel im Gefrierschrank", nl: "In een plastic zak in de vriezer" },
+          { en: "At room temperature on the counter", es: "A temperatura ambiente en el mostrador", de: "Bei Raumtemperatur auf der Theke", nl: "Op kamertemperatuur op het aanrecht" }
         ],
         correct: 0,
         explanation: {
-          en: "Freezing herbs in olive oil preserves their fresh flavor better than drying. Ice cube trays make convenient portions that can be added directly to cooking.",
-          es: "Congelar hierbas en aceite de oliva preserva mejor su sabor fresco que secar. Las bandejas de hielo hacen porciones convenientes que se pueden añadir directamente al cocinar.",
-          de: "Das Einfrieren von Kräutern in Olivenöl bewahrt ihren frischen Geschmack besser als das Trocknen. Eiswürfelformen machen praktische Portionen, die direkt zum Kochen hinzugefügt werden können.",
-          nl: "Kruiden invriezen in olijfolie behoudt hun verse smaak beter dan drogen. IJsblokjesvormen maken handige porties die direct aan het koken kunnen worden toegevoegd."
+          en: "Asparagus spears stay freshest when stored upright in a jar with an inch of water in the refrigerator, like cut flowers. This keeps them crisp for up to a week.",
+          es: "Los espárragos se mantienen más frescos cuando se almacenan verticalmente en un frasco con una pulgada de agua en el refrigerador, como flores cortadas. Esto los mantiene crujientes hasta por una semana.",
+          de: "Spargelstangen bleiben am frischsten, wenn sie aufrecht in einem Glas mit einem Zentimeter Wasser im Kühlschrank aufbewahrt werden, wie Schnittblumen. Dies hält sie bis zu einer Woche knackig.",
+          nl: "Aspergestelen blijven het verst wanneer ze rechtop in een pot met een duim water in de koelkast worden bewaard, zoals gesneden bloemen. Dit houdt ze tot een week knapperig."
+        }
+      },
+      {
+        question: {
+          en: "Which summer cooking method preserves the most nutrients in vegetables?",
+          es: "¿Qué método de cocción de verano preserva más nutrientes en las verduras?",
+          de: "Welche Sommerkochmethode bewahrt die meisten Nährstoffe in Gemüse?",
+          nl: "Welke zomer kookmethode behoudt de meeste voedingsstoffen in groenten?"
+        },
+        options: [
+          { en: "Quick grilling or steaming", es: "Asado rápido o cocción al vapor", de: "Schnelles Grillen oder Dämpfen", nl: "Snel grillen of stomen" },
+          { en: "Boiling for 30 minutes", es: "Hervir por 30 minutos", de: "30 Minuten kochen", nl: "30 minuten koken" },
+          { en: "Deep frying in oil", es: "Freír en aceite", de: "Frittieren in Öl", nl: "Frituren in olie" },
+          { en: "Slow cooking for hours", es: "Cocción lenta por horas", de: "Stundenlang langsam kochen", nl: "Urenlang langzaam koken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Quick cooking methods like grilling or steaming preserve the most vitamins and minerals by minimizing cooking time and water exposure. Summer vegetables need only brief cooking.",
+          es: "Los métodos de cocción rápidos como asar o cocer al vapor preservan la mayoría de vitaminas y minerales al minimizar el tiempo de cocción y la exposición al agua. Las verduras de verano solo necesitan cocción breve.",
+          de: "Schnelle Kochmethoden wie Grillen oder Dämpfen bewahren die meisten Vitamine und Mineralien, indem sie Kochzeit und Wasserexposition minimieren. Sommergemüse benötigt nur kurzes Kochen.",
+          nl: "Snelle kookmethoden zoals grillen of stomen behouden de meeste vitamines en mineralen door kooktijd en blootstelling aan water te minimaliseren. Zomergroenten hebben slechts kort koken nodig."
+        }
+      },
+      {
+        question: {
+          en: "What makes autumn squash ideal for long-term storage?",
+          es: "¿Qué hace que la calabaza de otoño sea ideal para almacenamiento a largo plazo?",
+          de: "Was macht Herbstkürbis ideal für Langzeitlagerung?",
+          nl: "Wat maakt herfstpompoen ideaal voor lange termijn bewaring?"
+        },
+        options: [
+          { en: "Hard outer shell and low moisture content", es: "Cáscara exterior dura y bajo contenido de humedad", de: "Harte Außenschale und niedriger Feuchtigkeitsgehalt", nl: "Harde buitenschil en laag vochtgehalte" },
+          { en: "Soft skin and high water content", es: "Piel suave y alto contenido de agua", de: "Weiche Haut und hoher Wassergehalt", nl: "Zachte huid en hoog watergehalte" },
+          { en: "Thin peel and sweet taste", es: "Piel delgada y sabor dulce", de: "Dünne Schale und süßer Geschmack", nl: "Dunne schil en zoete smaak" },
+          { en: "Small size and bright color", es: "Tamaño pequeño y color brillante", de: "Kleine Größe und helle Farbe", nl: "Kleine maat en heldere kleur" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Winter squash develop thick, hard shells and have low moisture content, allowing them to be stored for months in cool, dry conditions without refrigeration.",
+          es: "Las calabazas de invierno desarrollan cáscaras gruesas y duras y tienen bajo contenido de humedad, permitiendo almacenarlas por meses en condiciones frescas y secas sin refrigeración.",
+          de: "Winterkürbisse entwickeln dicke, harte Schalen und haben niedrigen Feuchtigkeitsgehalt, wodurch sie monatelang in kühlen, trockenen Bedingungen ohne Kühlung gelagert werden können.",
+          nl: "Winterpompoenen ontwikkelen dikke, harde schillen en hebben een laag vochtgehalte, waardoor ze maandenlang in koele, droge omstandigheden zonder koeling kunnen worden bewaard."
+        }
+      },
+      {
+        question: {
+          en: "Which winter vegetable is traditionally used in holiday dishes across many cultures?",
+          es: "¿Qué verdura de invierno se usa tradicionalmente en platos festivos en muchas culturas?",
+          de: "Welches Wintergemüse wird traditionell in Feiertagsgerichten in vielen Kulturen verwendet?",
+          nl: "Welke wintergroente wordt traditioneel gebruikt in feestelijke gerechten in veel culturen?"
+        },
+        options: [
+          { en: "Root vegetables like turnips and parsnips", es: "Verduras de raíz como nabos y chirivías", de: "Wurzelgemüse wie Rüben und Pastinaken", nl: "Wortelgroenten zoals rapen en pastinak" },
+          { en: "Tropical fruits like mango", es: "Frutas tropicales como mango", de: "Tropische Früchte wie Mango", nl: "Tropisch fruit zoals mango" },
+          { en: "Summer squash and cucumber", es: "Calabaza de verano y pepino", de: "Sommerkürbis und Gurke", nl: "Zomerpompoen en komkommer" },
+          { en: "Fresh corn and tomatoes", es: "Maíz fresco y tomates", de: "Frischer Mais und Tomaten", nl: "Verse maïs en tomaten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Root vegetables like turnips, parsnips, and carrots have been winter staples in holiday meals worldwide because they store well and provide hearty nutrition during cold months.",
+          es: "Las verduras de raíz como nabos, chirivías y zanahorias han sido alimentos básicos de invierno en comidas festivas mundialmente porque se almacenan bien y proporcionan nutrición abundante durante los meses fríos.",
+          de: "Wurzelgemüse wie Rüben, Pastinaken und Karotten sind weltweit Wintergrundnahrungsmittel in Feiertagsmahlzeiten, da sie gut gelagert werden können und während der kalten Monate herzhafte Ernährung bieten.",
+          nl: "Wortelgroenten zoals rapen, pastinak en wortelen zijn wereldwijd winterstapels in feestmaaltijden omdat ze goed bewaren en stevige voeding bieden tijdens koude maanden."
+        }
+      },
+      {
+        question: {
+          en: "What seasonal ingredient pair works best in spring salads?",
+          es: "¿Qué par de ingredientes estacionales funciona mejor en ensaladas de primavera?",
+          de: "Welche saisonale Zutatenkombination funktioniert am besten in Frühlingssalaten?",
+          nl: "Welke seizoensingrediënt combinatie werkt het beste in lentesalades?"
+        },
+        options: [
+          { en: "Fresh peas and mint", es: "Guisantes frescos y menta", de: "Frische Erbsen und Minze", nl: "Verse erwten en munt" },
+          { en: "Pumpkin and sage", es: "Calabaza y salvia", de: "Kürbis und Salbei", nl: "Pompoen en salie" },
+          { en: "Tomatoes and basil", es: "Tomates y albahaca", de: "Tomaten und Basilikum", nl: "Tomaten en basilicum" },
+          { en: "Root vegetables and thyme", es: "Verduras de raíz y tomillo", de: "Wurzelgemüse und Thymian", nl: "Wortelgroenten en tijm" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Fresh spring peas pair beautifully with mint, creating a bright, refreshing combination that epitomizes spring flavors. Both ingredients are at their peak in late spring.",
+          es: "Los guisantes frescos de primavera combinan hermosamente con menta, creando una combinación brillante y refrescante que personifica los sabores de primavera. Ambos ingredientes están en su punto máximo a finales de primavera.",
+          de: "Frische Frühlingserbsen passen wunderschön zu Minze und schaffen eine helle, erfrischende Kombination, die Frühlingsaromen verkörpert. Beide Zutaten sind im späten Frühling auf ihrem Höhepunkt.",
+          nl: "Verse lenteerwten passen prachtig bij munt, wat een heldere, verfrissende combinatie creëert die lentesmaken belichaamt. Beide ingrediënten zijn op hun piek in late lente."
+        }
+      },
+      {
+        question: {
+          en: "Which technique maximizes flavor when cooking summer eggplant?",
+          es: "¿Qué técnica maximiza el sabor al cocinar berenjena de verano?",
+          de: "Welche Technik maximiert den Geschmack beim Kochen von Sommeraubergine?",
+          nl: "Welke techniek maximaliseert de smaak bij het koken van zomeraubergine?"
+        },
+        options: [
+          { en: "Salting before cooking to remove bitterness", es: "Salar antes de cocinar para eliminar el amargor", de: "Vor dem Kochen salzen, um Bitterkeit zu entfernen", nl: "Zouten voor het koken om bitterheid te verwijderen" },
+          { en: "Boiling in plain water", es: "Hervir en agua simple", de: "In klarem Wasser kochen", nl: "Koken in gewoon water" },
+          { en: "Eating only raw", es: "Comer solo cruda", de: "Nur roh essen", nl: "Alleen rauw eten" },
+          { en: "Freezing before cooking", es: "Congelar antes de cocinar", de: "Vor dem Kochen einfrieren", nl: "Invriezen voor het koken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Salting eggplant slices draws out bitter compounds and excess moisture, resulting in better texture and sweeter flavor when cooked. This technique is especially important for large, mature eggplants.",
+          es: "Salar las rodajas de berenjena extrae compuestos amargos y exceso de humedad, resultando en mejor textura y sabor más dulce al cocinar. Esta técnica es especialmente importante para berenjenas grandes y maduras.",
+          de: "Das Salzen von Auberginenscheiben zieht bittere Verbindungen und überschüssige Feuchtigkeit heraus, was beim Kochen zu besserer Textur und süßerem Geschmack führt. Diese Technik ist besonders wichtig für große, reife Auberginen.",
+          nl: "Aubergineplakken zouten trekt bittere verbindingen en overtollig vocht eruit, wat resulteert in betere textuur en zoetere smaak bij het koken. Deze techniek is vooral belangrijk voor grote, rijpe aubergines."
+        }
+      },
+      {
+        question: {
+          en: "What autumn vegetable preparation showcases their natural sweetness best?",
+          es: "¿Qué preparación de verduras de otoño muestra mejor su dulzura natural?",
+          de: "Welche Herbstgemüsezubereitung zeigt ihre natürliche Süße am besten?",
+          nl: "Welke herfstgroente bereiding toont hun natuurlijke zoetheid het beste?"
+        },
+        options: [
+          { en: "Roasting with a touch of maple syrup or honey", es: "Asar con un toque de jarabe de arce o miel", de: "Rösten mit einem Hauch Ahornsirup oder Honig", nl: "Roosteren met een vleugje ahornsiroop of honing" },
+          { en: "Boiling in heavily salted water", es: "Hervir en agua muy salada", de: "In stark gesalzenem Wasser kochen", nl: "Koken in zwaar gezouten water" },
+          { en: "Serving completely raw", es: "Servir completamente crudo", de: "Völlig roh servieren", nl: "Volledig rauw serveren" },
+          { en: "Frying in butter only", es: "Freír solo en mantequilla", de: "Nur in Butter braten", nl: "Alleen in boter bakken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Roasting autumn vegetables with a light glaze of maple syrup or honey enhances their natural sugars while adding complementary sweetness, creating a perfect balance of flavors.",
+          es: "Asar verduras de otoño con un glaseado ligero de jarabe de arce o miel realza sus azúcares naturales mientras añade dulzura complementaria, creando un equilibrio perfecto de sabores.",
+          de: "Das Rösten von Herbstgemüse mit einer leichten Glasur aus Ahornsirup oder Honig verstärkt ihre natürlichen Zucker, während es ergänzende Süße hinzufügt und eine perfekte Geschmacksbalance schafft.",
+          nl: "Herfstgroenten roosteren met een lichte glazuur van ahornsiroop of honing versterkt hun natuurlijke suikers terwijl het complementaire zoetheid toevoegt, wat een perfecte balans van smaken creëert."
+        }
+      },
+      {
+        question: {
+          en: "Which winter preservation technique was historically most common before refrigeration?",
+          es: "¿Qué técnica de preservación de invierno fue históricamente más común antes de la refrigeración?",
+          de: "Welche Winterkonservierungstechnik war historisch vor der Kühlung am häufigsten?",
+          nl: "Welke winter bewaringstechniek was historisch het meest gebruikelijk voor koeling?"
+        },
+        options: [
+          { en: "Root cellaring for vegetables", es: "Almacenamiento en bodega para verduras", de: "Wurzelkeller für Gemüse", nl: "Wortelkelder voor groenten" },
+          { en: "Freezing in ice blocks", es: "Congelar en bloques de hielo", de: "In Eisblöcken einfrieren", nl: "Invriezen in ijsblokken" },
+          { en: "Vacuum sealing", es: "Sellado al vacío", de: "Vakuumversiegelung", nl: "Vacuüm verzegelen" },
+          { en: "Chemical preservatives", es: "Conservantes químicos", de: "Chemische Konservierungsstoffe", nl: "Chemische conserveermiddelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Root cellars provided cool, humid conditions perfect for storing winter vegetables like potatoes, turnips, and carrots for months without refrigeration, a technique still used today.",
+          es: "Las bodegas proporcionaban condiciones frescas y húmedas perfectas para almacenar verduras de invierno como papas, nabos y zanahorias por meses sin refrigeración, una técnica aún usada hoy.",
+          de: "Wurzelkeller boten kühle, feuchte Bedingungen, die perfekt zum Lagern von Wintergemüse wie Kartoffeln, Rüben und Karotten für Monate ohne Kühlung waren, eine heute noch verwendete Technik.",
+          nl: "Wortelkelders boden koele, vochtige omstandigheden perfect voor het bewaren van wintergroenten zoals aardappels, rapen en wortelen gedurende maanden zonder koeling, een techniek die vandaag nog steeds wordt gebruikt."
+        }
+      },
+      {
+        question: {
+          en: "What seasonal cooking principle guides traditional cuisine worldwide?",
+          es: "¿Qué principio de cocina estacional guía la cocina tradicional mundialmente?",
+          de: "Welches saisonale Kochprinzip leitet traditionelle Küche weltweit?",
+          nl: "Welk seizoenskook principe begeleidt traditionele keuken wereldwijd?"
+        },
+        options: [
+          { en: "Cooking with what grows naturally in each season", es: "Cocinar con lo que crece naturalmente en cada temporada", de: "Mit dem kochen, was natürlich in jeder Saison wächst", nl: "Koken met wat natuurlijk groeit in elk seizoen" },
+          { en: "Importing all ingredients year-round", es: "Importar todos los ingredientes todo el año", de: "Das ganze Jahr über alle Zutaten importieren", nl: "Het hele jaar alle ingrediënten importeren" },
+          { en: "Using only canned and processed foods", es: "Usar solo alimentos enlatados y procesados", de: "Nur Dosen- und verarbeitete Lebensmittel verwenden", nl: "Alleen ingeblikt en verwerkt voedsel gebruiken" },
+          { en: "Avoiding fresh vegetables entirely", es: "Evitar verduras frescas por completo", de: "Frisches Gemüse völlig vermeiden", nl: "Verse groenten volledig vermijden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Traditional cuisines worldwide developed around seasonal availability, creating dishes that celebrate what grows naturally at different times of year, ensuring freshness, flavor, and sustainability.",
+          es: "Las cocinas tradicionales mundialmente se desarrollaron alrededor de la disponibilidad estacional, creando platos que celebran lo que crece naturalmente en diferentes épocas del año, asegurando frescura, sabor y sostenibilidad.",
+          de: "Traditionelle Küchen weltweit entwickelten sich um saisonale Verfügbarkeit herum und schufen Gerichte, die feiern, was zu verschiedenen Zeiten des Jahres natürlich wächst, was Frische, Geschmack und Nachhaltigkeit gewährleistet.",
+          nl: "Traditionele keukens wereldwijd ontwikkelden zich rond seizoensbeschikbaarheid, waarbij gerechten werden gecreëerd die vieren wat natuurlijk groeit op verschillende tijden van het jaar, wat versheid, smaak en duurzaamheid verzekert."
+        }
+      },
+      {
+        question: {
+          en: "Which spring vegetable is known as the first harbinger of the season?",
+          es: "¿Qué verdura de primavera es conocida como el primer heraldo de la temporada?",
+          de: "Welches Frühlingsgemüse ist als erster Vorbote der Saison bekannt?",
+          nl: "Welke lentegroente staat bekend als de eerste voorbode van het seizoen?"
+        },
+        options: [
+          { en: "Ramps (wild leeks)", es: "Rampas (puerros silvestres)", de: "Bärlauch (wilde Lauch)", nl: "Daslook (wilde prei)" },
+          { en: "Butternut squash", es: "Calabaza butternut", de: "Butternut-Kürbis", nl: "Butternut squash" },
+          { en: "Corn", es: "Maíz", de: "Mais", nl: "Maïs" },
+          { en: "Watermelon", es: "Sandía", de: "Wassermelone", nl: "Watermeloen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ramps, or wild leeks, are among the first vegetables to emerge in spring, prized by chefs for their delicate onion-garlic flavor and short season of just a few weeks.",
+          es: "Las rampas, o puerros silvestres, están entre las primeras verduras en emerger en primavera, apreciadas por los chefs por su delicado sabor a cebolla-ajo y temporada corta de solo unas semanas.",
+          de: "Bärlauch, oder wilder Lauch, gehört zu den ersten Gemüsen, die im Frühling erscheinen, von Köchen geschätzt für ihren zarten Zwiebel-Knoblauch-Geschmack und kurze Saison von nur wenigen Wochen.",
+          nl: "Daslook, of wilde prei, behoort tot de eerste groenten die in de lente verschijnen, gewaardeerd door chefs voor hun delicate ui-knoflooksmaak en korte seizoen van slechts een paar weken."
+        }
+      },
+      {
+        question: {
+          en: "What cooking adjustment is needed for vegetables grown at high altitudes?",
+          es: "¿Qué ajuste de cocción se necesita para verduras cultivadas a grandes altitudes?",
+          de: "Welche Kochanpassung ist für Gemüse erforderlich, das in großen Höhen angebaut wird?",
+          nl: "Welke kookaanpassing is nodig voor groenten geteeld op grote hoogtes?"
+        },
+        options: [
+          { en: "Longer cooking times due to lower boiling point", es: "Tiempos de cocción más largos debido al punto de ebullición más bajo", de: "Längere Kochzeiten aufgrund des niedrigeren Siedepunkts", nl: "Langere kooktijden vanwege lager kookpunt" },
+          { en: "Shorter cooking times", es: "Tiempos de cocción más cortos", de: "Kürzere Kochzeiten", nl: "Kortere kooktijden" },
+          { en: "No adjustment needed", es: "No se necesita ajuste", de: "Keine Anpassung erforderlich", nl: "Geen aanpassing nodig" },
+          { en: "Higher temperatures only", es: "Solo temperaturas más altas", de: "Nur höhere Temperaturen", nl: "Alleen hogere temperaturen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "At high altitudes, water boils at lower temperatures, requiring longer cooking times for vegetables. This affects both boiling and steaming methods of preparation.",
+          es: "A grandes altitudes, el agua hierve a temperaturas más bajas, requiriendo tiempos de cocción más largos para las verduras. Esto afecta tanto los métodos de hervido como de cocción al vapor.",
+          de: "In großen Höhen kocht Wasser bei niedrigeren Temperaturen, was längere Kochzeiten für Gemüse erfordert. Dies betrifft sowohl Koch- als auch Dämpfmethoden der Zubereitung.",
+          nl: "Op grote hoogtes kookt water bij lagere temperaturen, wat langere kooktijden voor groenten vereist. Dit beïnvloedt zowel kook- als stoommethoden van bereiding."
         }
       }
     ]

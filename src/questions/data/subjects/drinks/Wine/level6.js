@@ -428,6 +428,426 @@
           nl: "Curry's op kokos basis passen goed bij half-droge aromatische witte wijnen. De lichte zoetheid van de wijn tempert pit, terwijl aromatisch karakter complexe curry kruiden aanvult."
         }
       },
+      {
+        question: {
+          en: "Which wine pairs best with grilled salmon?",
+          es: "¿Qué vino combina mejor con salmón a la parrilla?",
+          de: "Welcher Wein passt am besten zu gegrilltem Lachs?",
+          nl: "Welke wijn past het best bij gegrilde zalm?"
+        },
+        options: [
+          { en: "Light Pinot Noir or full Chardonnay", es: "Pinot Noir ligero o Chardonnay con cuerpo", de: "Leichter Pinot Noir oder voller Chardonnay", nl: "Lichte Pinot Noir of volle Chardonnay" },
+          { en: "Heavy Barolo", es: "Barolo pesado", de: "Schwerer Barolo", nl: "Zware Barolo" },
+          { en: "Tawny Port", es: "Oporto Tawny", de: "Tawny Port", nl: "Tawny Port" },
+          { en: "Sweet Moscato", es: "Moscato dulce", de: "Süßer Moscato", nl: "Zoete Moscato" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Salmon's rich, oily texture pairs wonderfully with light Pinot Noir or full-bodied Chardonnay, which can handle the fish's richness without overpowering it.",
+          es: "La textura rica y aceitosa del salmón combina maravillosamente con Pinot Noir ligero o Chardonnay con cuerpo, que pueden manejar la riqueza del pescado sin dominarlo.",
+          de: "Die reiche, ölige Textur von Lachs harmoniert wunderbar mit leichtem Pinot Noir oder vollmundigem Chardonnay, der den Reichtum des Fisches bewältigen kann ohne ihn zu überwältigen.",
+          nl: "De rijke, olieachtige textuur van zalm past wonderlijk bij lichte Pinot Noir of volle Chardonnay, die de rijkdom van de vis aankunnen zonder te overheersen."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional wine pairing for foie gras?",
+          es: "¿Cuál es el maridaje tradicional de vino para foie gras?",
+          de: "Was ist die traditionelle Weinpaarung für Foie Gras?",
+          nl: "Wat is de traditionele wijn pairing voor foie gras?"
+        },
+        options: [
+          { en: "Sauternes or other sweet wines", es: "Sauternes u otros vinos dulces", de: "Sauternes oder andere süße Weine", nl: "Sauternes of andere zoete wijnen" },
+          { en: "Dry Chablis", es: "Chablis seco", de: "Trockener Chablis", nl: "Droge Chablis" },
+          { en: "Light Beaujolais", es: "Beaujolais ligero", de: "Leichter Beaujolais", nl: "Lichte Beaujolais" },
+          { en: "Sparkling Prosecco", es: "Prosecco espumoso", de: "Prickelnder Prosecco", nl: "Mousserende Prosecco" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Foie gras traditionally pairs with sweet wines like Sauternes. The wine's sweetness balances the liver's richness, while acidity cuts through the fat.",
+          es: "El foie gras tradicionalmente combina con vinos dulces como Sauternes. La dulzura del vino equilibra la riqueza del hígado, mientras que la acidez corta la grasa.",
+          de: "Foie Gras wird traditionell mit süßen Weinen wie Sauternes gepaart. Die Süße des Weins balanciert den Reichtum der Leber, während Säure durch das Fett schneidet.",
+          nl: "Foie gras wordt traditioneel gecombineerd met zoete wijnen zoals Sauternes. De zoetheid van de wijn balanceert de rijkdom van de lever, terwijl zuurgraad door het vet snijdt."
+        }
+      },
+      {
+        question: {
+          en: "Which wine complements blue cheese best?",
+          es: "¿Qué vino complementa mejor el queso azul?",
+          de: "Welcher Wein ergänzt Blauschimmelkäse am besten?",
+          nl: "Welke wijn vult blauwe kaas het best aan?"
+        },
+        options: [
+          { en: "Port or Sauternes", es: "Oporto o Sauternes", de: "Port oder Sauternes", nl: "Port of Sauternes" },
+          { en: "Light Pinot Grigio", es: "Pinot Grigio ligero", de: "Leichter Pinot Grigio", nl: "Lichte Pinot Grigio" },
+          { en: "Rosé wine", es: "Vino rosado", de: "Roséwein", nl: "Rosé wijn" },
+          { en: "Chianti", es: "Chianti", de: "Chianti", nl: "Chianti" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Blue cheese's salty, pungent flavor pairs excellently with sweet fortified wines like Port or Sauternes. The sweetness provides beautiful contrast to the cheese's intensity.",
+          es: "El sabor salado y picante del queso azul combina excelentemente con vinos fortificados dulces como Oporto o Sauternes. La dulzura proporciona un hermoso contraste con la intensidad del queso.",
+          de: "Der salzige, würzige Geschmack von Blauschimmelkäse harmoniert hervorragend mit süßen Likörweinen wie Port oder Sauternes. Die Süße bietet einen schönen Kontrast zur Intensität des Käses.",
+          nl: "De zoute, pittige smaak van blauwe kaas past uitstekend bij zoete versterkte wijnen zoals Port of Sauternes. De zoetheid biedt prachtig contrast met de intensiteit van de kaas."
+        }
+      },
+      {
+        question: {
+          en: "What wine pairs well with roasted duck?",
+          es: "¿Qué vino combina bien con pato asado?",
+          de: "Welcher Wein passt gut zu gebratenem Ente?",
+          nl: "Welke wijn past goed bij geroosterde eend?"
+        },
+        options: [
+          { en: "Pinot Noir or Syrah", es: "Pinot Noir o Syrah", de: "Pinot Noir oder Syrah", nl: "Pinot Noir of Syrah" },
+          { en: "Sauvignon Blanc", es: "Sauvignon Blanc", de: "Sauvignon Blanc", nl: "Sauvignon Blanc" },
+          { en: "Sweet Riesling", es: "Riesling dulce", de: "Süßer Riesling", nl: "Zoete Riesling" },
+          { en: "Light Moscato", es: "Moscato ligero", de: "Leichter Moscato", nl: "Lichte Moscato" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Roasted duck's rich, fatty meat pairs wonderfully with medium-bodied reds like Pinot Noir or Syrah, which complement the meat's richness and cut through the fat.",
+          es: "La carne rica y grasa del pato asado combina maravillosamente con tintos de cuerpo medio como Pinot Noir o Syrah, que complementan la riqueza de la carne y cortan la grasa.",
+          de: "Das reiche, fette Fleisch von gebratener Ente harmoniert wunderbar mit mittelschweren Rotweinen wie Pinot Noir oder Syrah, die den Reichtum des Fleisches ergänzen und durch das Fett schneiden.",
+          nl: "Het rijke, vette vlees van geroosterde eend past wonderlijk bij middel-bodied rode wijnen zoals Pinot Noir of Syrah, die de rijkdom van het vlees aanvullen en door het vet snijden."
+        }
+      },
+      {
+        question: {
+          en: "Which wine works best with spicy Thai food?",
+          es: "¿Qué vino funciona mejor con comida tailandesa picante?",
+          de: "Welcher Wein funktioniert am besten mit scharfem thailändischem Essen?",
+          nl: "Welke wijn werkt het best bij pittig Thais eten?"
+        },
+        options: [
+          { en: "Off-dry Riesling or Gewürztraminer", es: "Riesling o Gewürztraminer semi-seco", de: "Halbtrockener Riesling oder Gewürztraminer", nl: "Half-droge Riesling of Gewürztraminer" },
+          { en: "Heavy Cabernet Sauvignon", es: "Cabernet Sauvignon pesado", de: "Schwerer Cabernet Sauvignon", nl: "Zware Cabernet Sauvignon" },
+          { en: "Bone-dry Chablis", es: "Chablis muy seco", de: "Knochentrocken Chablis", nl: "Kurkdroge Chablis" },
+          { en: "Oaked Chardonnay", es: "Chardonnay con roble", de: "Chardonnay mit Eiche", nl: "Geëikte Chardonnay" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Spicy Thai food pairs best with off-dry aromatic whites. The slight sweetness tames heat, while high acidity refreshes the palate between bites.",
+          es: "La comida tailandesa picante combina mejor con blancos aromáticos semi-secos. La ligera dulzura suaviza el picante, mientras que la alta acidez refresca el paladar entre bocados.",
+          de: "Scharfes thailändisches Essen harmoniert am besten mit halbtrockenen aromatischen Weißweinen. Die leichte Süße zähmt die Schärfe, während hohe Säure den Gaumen zwischen Bissen erfrischt.",
+          nl: "Pittig Thais eten past het best bij half-droge aromatische witte wijnen. De lichte zoetheid tempert pit, terwijl hoge zuurgraad het gehemelte verfrist tussen happen."
+        }
+      },
+      {
+        question: {
+          en: "What is the best wine pairing for chocolate desserts?",
+          es: "¿Cuál es el mejor maridaje de vino para postres de chocolate?",
+          de: "Was ist die beste Weinpaarung für Schokoladendesserts?",
+          nl: "Wat is de beste wijn pairing voor chocolade desserts?"
+        },
+        options: [
+          { en: "Ruby Port or Banyuls", es: "Oporto Ruby o Banyuls", de: "Ruby Port oder Banyuls", nl: "Ruby Port of Banyuls" },
+          { en: "Dry Sauvignon Blanc", es: "Sauvignon Blanc seco", de: "Trockener Sauvignon Blanc", nl: "Droge Sauvignon Blanc" },
+          { en: "Light Pinot Grigio", es: "Pinot Grigio ligero", de: "Leichter Pinot Grigio", nl: "Lichte Pinot Grigio" },
+          { en: "Brut Champagne", es: "Champagne Brut", de: "Brut Champagner", nl: "Brut Champagne" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Chocolate desserts pair beautifully with sweet, rich fortified wines like Ruby Port or Banyuls, which can match chocolate's intensity and sweetness.",
+          es: "Los postres de chocolate combinan hermosamente con vinos fortificados dulces y ricos como Oporto Ruby o Banyuls, que pueden igualar la intensidad y dulzura del chocolate.",
+          de: "Schokoladendesserts harmonieren wunderbar mit süßen, reichen Likörweinen wie Ruby Port oder Banyuls, die Schokolades Intensität und Süße entsprechen können.",
+          nl: "Chocolade desserts passen prachtig bij zoete, rijke versterkte wijnen zoals Ruby Port of Banyuls, die de intensiteit en zoetheid van chocolade kunnen evenaren."
+        }
+      },
+      {
+        question: {
+          en: "Which wine complements mushroom risotto best?",
+          es: "¿Qué vino complementa mejor el risotto de hongos?",
+          de: "Welcher Wein ergänzt Pilzrisotto am besten?",
+          nl: "Welke wijn vult paddenstoelen risotto het best aan?"
+        },
+        options: [
+          { en: "Earthy Pinot Noir or aged white Burgundy", es: "Pinot Noir terroso o Borgoña blanco añejo", de: "Erdiger Pinot Noir oder gereifter weißer Burgunder", nl: "Aardse Pinot Noir of gerijpte witte Bourgogne" },
+          { en: "Sweet Moscato", es: "Moscato dulce", de: "Süßer Moscato", nl: "Zoete Moscato" },
+          { en: "Heavy Malbec", es: "Malbec pesado", de: "Schwerer Malbec", nl: "Zware Malbec" },
+          { en: "Crisp Prosecco", es: "Prosecco fresco", de: "Knackiger Prosecco", nl: "Frisse Prosecco" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mushroom risotto's earthy, umami-rich flavors pair wonderfully with earthy Pinot Noir or aged white Burgundy, which echo and enhance the dish's earthiness.",
+          es: "Los sabores terrosos y ricos en umami del risotto de hongos combinan maravillosamente con Pinot Noir terroso o Borgoña blanco añejo, que hacen eco y realzan la terrosidad del plato.",
+          de: "Die erdigen, umami-reichen Aromen von Pilzrisotto harmonieren wunderbar mit erdigem Pinot Noir oder gereiftem weißem Burgunder, die die Erdigkeit des Gerichts widerspiegeln und verstärken.",
+          nl: "De aardse, umami-rijke smaken van paddenstoelen risotto passen wonderlijk bij aardse Pinot Noir of gerijpte witte Bourgogne, die de aardsheid van het gerecht weerspiegelen en versterken."
+        }
+      },
+      {
+        question: {
+          en: "What wine pairs best with tomato-based pasta dishes?",
+          es: "¿Qué vino combina mejor con platos de pasta a base de tomate?",
+          de: "Welcher Wein passt am besten zu Nudelgerichten auf Tomatenbasis?",
+          nl: "Welke wijn past het best bij pasta gerechten op tomatenbasis?"
+        },
+        options: [
+          { en: "Medium-bodied Italian reds like Chianti or Barbera", es: "Tintos italianos de cuerpo medio como Chianti o Barbera", de: "Mittelschwere italienische Rotweine wie Chianti oder Barbera", nl: "Middel-bodied Italiaanse rode wijnen zoals Chianti of Barbera" },
+          { en: "Sweet Port", es: "Oporto dulce", de: "Süßer Port", nl: "Zoete Port" },
+          { en: "Heavy oaked Chardonnay", es: "Chardonnay pesado con roble", de: "Schwerer Chardonnay mit Eiche", nl: "Zware geëikte Chardonnay" },
+          { en: "Dry Riesling", es: "Riesling seco", de: "Trockener Riesling", nl: "Droge Riesling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tomato-based pasta dishes pair beautifully with medium-bodied, acidic Italian reds. The wine's acidity matches the tomatoes' acidity, creating harmony.",
+          es: "Los platos de pasta a base de tomate combinan hermosamente con tintos italianos de cuerpo medio y ácidos. La acidez del vino coincide con la acidez de los tomates, creando armonía.",
+          de: "Nudelgerichte auf Tomatenbasis harmonieren wunderbar mit mittelschweren, säurehaltigen italienischen Rotweinen. Die Säure des Weins entspricht der Säure der Tomaten und schafft Harmonie.",
+          nl: "Pasta gerechten op tomatenbasis passen prachtig bij middel-bodied, zure Italiaanse rode wijnen. De zuurgraad van de wijn komt overeen met de zuurgraad van de tomaten, wat harmonie creëert."
+        }
+      },
+      {
+        question: {
+          en: "Which wine works best with sushi and sashimi?",
+          es: "¿Qué vino funciona mejor con sushi y sashimi?",
+          de: "Welcher Wein funktioniert am besten mit Sushi und Sashimi?",
+          nl: "Welke wijn werkt het best bij sushi en sashimi?"
+        },
+        options: [
+          { en: "Dry sparkling wine or crisp Sancerre", es: "Vino espumoso seco o Sancerre fresco", de: "Trockener Schaumwein oder knackiger Sancerre", nl: "Droge mousserende wijn of frisse Sancerre" },
+          { en: "Heavy Cabernet", es: "Cabernet pesado", de: "Schwerer Cabernet", nl: "Zware Cabernet" },
+          { en: "Sweet Moscato", es: "Moscato dulce", de: "Süßer Moscato", nl: "Zoete Moscato" },
+          { en: "Oaked Chardonnay", es: "Chardonnay con roble", de: "Chardonnay mit Eiche", nl: "Geëikte Chardonnay" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sushi and sashimi's delicate flavors pair wonderfully with dry sparkling wine or crisp, minerally whites like Sancerre, which don't overpower the subtle fish.",
+          es: "Los sabores delicados del sushi y sashimi combinan maravillosamente con vino espumoso seco o blancos frescos y minerales como Sancerre, que no dominan el pescado sutil.",
+          de: "Die delikaten Aromen von Sushi und Sashimi harmonieren wunderbar mit trockenem Schaumwein oder knackigen, mineralischen Weißweinen wie Sancerre, die den subtilen Fisch nicht überwältigen.",
+          nl: "De delicate smaken van sushi en sashimi passen wonderlijk bij droge mousserende wijn of frisse, minerale witte wijnen zoals Sancerre, die de subtiele vis niet overheersen."
+        }
+      },
+      {
+        question: {
+          en: "What wine pairs well with barbecued ribs?",
+          es: "¿Qué vino combina bien con costillas a la barbacoa?",
+          de: "Welcher Wein passt gut zu Grillrippchen?",
+          nl: "Welke wijn past goed bij barbecue spareribs?"
+        },
+        options: [
+          { en: "Bold Zinfandel or Shiraz", es: "Zinfandel audaz o Shiraz", de: "Kräftiger Zinfandel oder Shiraz", nl: "Gedurfde Zinfandel of Shiraz" },
+          { en: "Light Pinot Grigio", es: "Pinot Grigio ligero", de: "Leichter Pinot Grigio", nl: "Lichte Pinot Grigio" },
+          { en: "Dry Riesling", es: "Riesling seco", de: "Trockener Riesling", nl: "Droge Riesling" },
+          { en: "Champagne", es: "Champagne", de: "Champagner", nl: "Champagne" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Barbecued ribs' smoky, sweet, spicy flavors pair excellently with bold, fruit-forward reds like Zinfandel or Shiraz, which can match the intensity.",
+          es: "Los sabores ahumados, dulces y picantes de las costillas a la barbacoa combinan excelentemente con tintos audaces y afrutados como Zinfandel o Shiraz, que pueden igualar la intensidad.",
+          de: "Die rauchigen, süßen, würzigen Aromen von Grillrippchen harmonieren hervorragend mit kräftigen, fruchtbetonten Rotweinen wie Zinfandel oder Shiraz, die die Intensität entsprechen können.",
+          nl: "De rokerige, zoete, pittige smaken van barbecue spareribs passen uitstekend bij gedurfde, fruitrijke rode wijnen zoals Zinfandel of Shiraz, die de intensiteit kunnen evenaren."
+        }
+      },
+      {
+        question: {
+          en: "Which wine complements creamy goat cheese best?",
+          es: "¿Qué vino complementa mejor el queso de cabra cremoso?",
+          de: "Welcher Wein ergänzt cremigen Ziegenkäse am besten?",
+          nl: "Welke wijn vult romige geitenkaas het best aan?"
+        },
+        options: [
+          { en: "Sauvignon Blanc or Sancerre", es: "Sauvignon Blanc o Sancerre", de: "Sauvignon Blanc oder Sancerre", nl: "Sauvignon Blanc of Sancerre" },
+          { en: "Sweet Port", es: "Oporto dulce", de: "Süßer Port", nl: "Zoete Port" },
+          { en: "Heavy Malbec", es: "Malbec pesado", de: "Schwerer Malbec", nl: "Zware Malbec" },
+          { en: "Oaked Chardonnay", es: "Chardonnay con roble", de: "Chardonnay mit Eiche", nl: "Geëikte Chardonnay" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Goat cheese's tangy, creamy character pairs beautifully with Sauvignon Blanc's high acidity and herbaceous notes, which cut through the richness.",
+          es: "El carácter ácido y cremoso del queso de cabra combina hermosamente con la alta acidez y notas herbáceas del Sauvignon Blanc, que cortan la riqueza.",
+          de: "Der würzige, cremige Charakter von Ziegenkäse harmoniert wunderbar mit der hohen Säure und kräuterigen Noten von Sauvignon Blanc, die durch den Reichtum schneiden.",
+          nl: "Het pittige, romige karakter van geitenkaas past prachtig bij de hoge zuurgraad en kruidachtige tonen van Sauvignon Blanc, die door de rijkdom snijden."
+        }
+      },
+      {
+        question: {
+          en: "What wine pairs best with aged Parmesan cheese?",
+          es: "¿Qué vino combina mejor con queso parmesano añejo?",
+          de: "Welcher Wein passt am besten zu gereiftem Parmesan?",
+          nl: "Welke wijn past het best bij gerijpte Parmezaanse kaas?"
+        },
+        options: [
+          { en: "Full-bodied Italian reds like Barolo or Amarone", es: "Tintos italianos con cuerpo como Barolo o Amarone", de: "Vollmundige italienische Rotweine wie Barolo oder Amarone", nl: "Volle Italiaanse rode wijnen zoals Barolo of Amarone" },
+          { en: "Light Prosecco", es: "Prosecco ligero", de: "Leichter Prosecco", nl: "Lichte Prosecco" },
+          { en: "Sweet Moscato", es: "Moscato dulce", de: "Süßer Moscato", nl: "Zoete Moscato" },
+          { en: "Dry Riesling", es: "Riesling seco", de: "Trockener Riesling", nl: "Droge Riesling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Aged Parmesan's intense, nutty, crystalline character pairs wonderfully with full-bodied, complex Italian reds that can match its depth and umami.",
+          es: "El carácter intenso, a nuez y cristalino del parmesano añejo combina maravillosamente con tintos italianos con cuerpo y complejos que pueden igualar su profundidad y umami.",
+          de: "Der intensive, nussige, kristalline Charakter von gereiftem Parmesan harmoniert wunderbar mit vollmundigen, komplexen italienischen Rotweinen, die seine Tiefe und Umami entsprechen können.",
+          nl: "Het intense, nootachtige, kristallijne karakter van gerijpte Parmezaanse kaas past wonderlijk bij volle, complexe Italiaanse rode wijnen die zijn diepte en umami kunnen evenaren."
+        }
+      },
+      {
+        question: {
+          en: "Which wine works best with fish and chips?",
+          es: "¿Qué vino funciona mejor con fish and chips?",
+          de: "Welcher Wein funktioniert am besten mit Fish and Chips?",
+          nl: "Welke wijn werkt het best bij fish and chips?"
+        },
+        options: [
+          { en: "Sparkling wine or crisp Albariño", es: "Vino espumoso o Albariño fresco", de: "Schaumwein oder knackiger Albariño", nl: "Mousserende wijn of frisse Albariño" },
+          { en: "Heavy Cabernet", es: "Cabernet pesado", de: "Schwerer Cabernet", nl: "Zware Cabernet" },
+          { en: "Sweet Sauternes", es: "Sauternes dulce", de: "Süßer Sauternes", nl: "Zoete Sauternes" },
+          { en: "Tawny Port", es: "Oporto Tawny", de: "Tawny Port", nl: "Tawny Port" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Fish and chips' crispy, oily character pairs beautifully with sparkling wine or high-acid whites like Albariño, which cut through the grease and refresh the palate.",
+          es: "El carácter crujiente y aceitoso del fish and chips combina hermosamente con vino espumoso o blancos de alta acidez como Albariño, que cortan la grasa y refrescan el paladar.",
+          de: "Der knusprige, ölige Charakter von Fish and Chips harmoniert wunderbar mit Schaumwein oder säurehaltigen Weißweinen wie Albariño, die durch das Fett schneiden und den Gaumen erfrischen.",
+          nl: "Het knapperige, olieachtige karakter van fish and chips past prachtig bij mousserende wijn of hoge-zuur witte wijnen zoals Albariño, die door het vet snijden en het gehemelte verfrissen."
+        }
+      },
+      {
+        question: {
+          en: "What wine pairs well with roasted lamb?",
+          es: "¿Qué vino combina bien con cordero asado?",
+          de: "Welcher Wein passt gut zu gebratenem Lamm?",
+          nl: "Welke wijn past goed bij geroosterd lam?"
+        },
+        options: [
+          { en: "Bold Bordeaux or Rioja Reserva", es: "Burdeos audaz o Rioja Reserva", de: "Kräftiger Bordeaux oder Rioja Reserva", nl: "Gedurfde Bordeaux of Rioja Reserva" },
+          { en: "Light Pinot Grigio", es: "Pinot Grigio ligero", de: "Leichter Pinot Grigio", nl: "Lichte Pinot Grigio" },
+          { en: "Sweet Moscato", es: "Moscato dulce", de: "Süßer Moscato", nl: "Zoete Moscato" },
+          { en: "Dry Riesling", es: "Riesling seco", de: "Trockener Riesling", nl: "Droge Riesling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Roasted lamb's rich, gamy flavors pair wonderfully with bold, structured reds like Bordeaux or Rioja Reserva, which can match the meat's intensity.",
+          es: "Los sabores ricos y de caza del cordero asado combinan maravillosamente con tintos audaces y estructurados como Burdeos o Rioja Reserva, que pueden igualar la intensidad de la carne.",
+          de: "Die reichen, wildartigen Aromen von gebratenem Lamm harmonieren wunderbar mit kräftigen, strukturierten Rotweinen wie Bordeaux oder Rioja Reserva, die die Intensität des Fleisches entsprechen können.",
+          nl: "De rijke, wildachtige smaken van geroosterd lam passen wonderlijk bij gedurfde, gestructureerde rode wijnen zoals Bordeaux of Rioja Reserva, die de intensiteit van het vlees kunnen evenaren."
+        }
+      },
+      {
+        question: {
+          en: "Which wine complements grilled vegetables best?",
+          es: "¿Qué vino complementa mejor las verduras a la parrilla?",
+          de: "Welcher Wein ergänzt gegrilltes Gemüse am besten?",
+          nl: "Welke wijn vult gegrilde groenten het best aan?"
+        },
+        options: [
+          { en: "Herbaceous Sauvignon Blanc or light Pinot Noir", es: "Sauvignon Blanc herbáceo o Pinot Noir ligero", de: "Kräuteriger Sauvignon Blanc oder leichter Pinot Noir", nl: "Kruidachtige Sauvignon Blanc of lichte Pinot Noir" },
+          { en: "Heavy Cabernet", es: "Cabernet pesado", de: "Schwerer Cabernet", nl: "Zware Cabernet" },
+          { en: "Sweet Port", es: "Oporto dulce", de: "Süßer Port", nl: "Zoete Port" },
+          { en: "Cream Sherry", es: "Jerez cremoso", de: "Cream Sherry", nl: "Cream Sherry" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Grilled vegetables' smoky, charred character pairs well with herbaceous whites like Sauvignon Blanc or light, earthy Pinot Noir, which echo vegetable flavors.",
+          es: "El carácter ahumado y carbonizado de las verduras a la parrilla combina bien con blancos herbáceos como Sauvignon Blanc o Pinot Noir ligero y terroso, que hacen eco de los sabores vegetales.",
+          de: "Der rauchige, verkohlte Charakter von gegrilltem Gemüse harmoniert gut mit kräuterigen Weißweinen wie Sauvignon Blanc oder leichtem, erdigem Pinot Noir, die Gemüsearomen widerspiegeln.",
+          nl: "Het rokerige, verkoold karakter van gegrilde groenten past goed bij kruidachtige witte wijnen zoals Sauvignon Blanc of lichte, aardse Pinot Noir, die groentesmaken weerspiegelen."
+        }
+      },
+      {
+        question: {
+          en: "What wine pairs best with Caesar salad?",
+          es: "¿Qué vino combina mejor con ensalada César?",
+          de: "Welcher Wein passt am besten zu Caesar-Salat?",
+          nl: "Welke wijn past het best bij Caesar salade?"
+        },
+        options: [
+          { en: "Crisp Chardonnay or Sauvignon Blanc", es: "Chardonnay o Sauvignon Blanc fresco", de: "Knackiger Chardonnay oder Sauvignon Blanc", nl: "Frisse Chardonnay of Sauvignon Blanc" },
+          { en: "Heavy Barolo", es: "Barolo pesado", de: "Schwerer Barolo", nl: "Zware Barolo" },
+          { en: "Sweet Moscato", es: "Moscato dulce", de: "Süßer Moscato", nl: "Zoete Moscato" },
+          { en: "Port wine", es: "Vino de Oporto", de: "Portwein", nl: "Port wijn" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Caesar salad's creamy, anchovy-rich dressing pairs well with crisp, acidic whites like Chardonnay or Sauvignon Blanc, which cut through the richness.",
+          es: "El aderezo cremoso y rico en anchoas de la ensalada César combina bien con blancos frescos y ácidos como Chardonnay o Sauvignon Blanc, que cortan la riqueza.",
+          de: "Das cremige, anchovisreiche Dressing von Caesar-Salat harmoniert gut mit knackigen, säurehaltigen Weißweinen wie Chardonnay oder Sauvignon Blanc, die durch den Reichtum schneiden.",
+          nl: "De romige, ansjovis-rijke dressing van Caesar salade past goed bij frisse, zure witte wijnen zoals Chardonnay of Sauvignon Blanc, die door de rijkdom snijden."
+        }
+      },
+      {
+        question: {
+          en: "Which wine works best with paella?",
+          es: "¿Qué vino funciona mejor con paella?",
+          de: "Welcher Wein funktioniert am besten mit Paella?",
+          nl: "Welke wijn werkt het best bij paella?"
+        },
+        options: [
+          { en: "Spanish rosé or Albariño", es: "Rosado español o Albariño", de: "Spanischer Rosé oder Albariño", nl: "Spaanse rosé of Albariño" },
+          { en: "Heavy Barolo", es: "Barolo pesado", de: "Schwerer Barolo", nl: "Zware Barolo" },
+          { en: "Sweet Sauternes", es: "Sauternes dulce", de: "Süßer Sauternes", nl: "Zoete Sauternes" },
+          { en: "Tawny Port", es: "Oporto Tawny", de: "Tawny Port", nl: "Tawny Port" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Paella's complex seafood, saffron, and rice flavors pair wonderfully with Spanish rosé or Albariño, which complement without overpowering the delicate dish.",
+          es: "Los sabores complejos de mariscos, azafrán y arroz de la paella combinan maravillosamente con rosado español o Albariño, que complementan sin dominar el delicado plato.",
+          de: "Die komplexen Meeresfrüchte-, Safran- und Reisaromen von Paella harmonieren wunderbar mit spanischem Rosé oder Albariño, die ergänzen ohne das delikate Gericht zu überwältigen.",
+          nl: "De complexe zeevruchten, saffraan en rijst smaken van paella passen wonderlijk bij Spaanse rosé of Albariño, die aanvullen zonder het delicate gerecht te overheersen."
+        }
+      },
+      {
+        question: {
+          en: "What wine pairs well with apple pie or apple tart?",
+          es: "¿Qué vino combina bien con tarta de manzana?",
+          de: "Welcher Wein passt gut zu Apfelkuchen oder Apfeltarte?",
+          nl: "Welke wijn past goed bij appeltaart?"
+        },
+        options: [
+          { en: "Late harvest Riesling or Calvados", es: "Riesling de cosecha tardía o Calvados", de: "Spätlese Riesling oder Calvados", nl: "Late oogst Riesling of Calvados" },
+          { en: "Dry Cabernet", es: "Cabernet seco", de: "Trockener Cabernet", nl: "Droge Cabernet" },
+          { en: "Bone-dry Chablis", es: "Chablis muy seco", de: "Knochentrocken Chablis", nl: "Kurkdroge Chablis" },
+          { en: "Light Pinot Grigio", es: "Pinot Grigio ligero", de: "Leichter Pinot Grigio", nl: "Lichte Pinot Grigio" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Apple desserts pair beautifully with late harvest Riesling, which has apple notes and sweetness to match the dessert, or apple brandy like Calvados.",
+          es: "Los postres de manzana combinan hermosamente con Riesling de cosecha tardía, que tiene notas de manzana y dulzura para igualar el postre, o brandy de manzana como Calvados.",
+          de: "Apfeldesserts harmonieren wunderbar mit Spätlese Riesling, der Apfelnoten und Süße hat um das Dessert zu entsprechen, oder Apfelbrandy wie Calvados.",
+          nl: "Appeldesserts passen prachtig bij late oogst Riesling, die appeltonen en zoetheid heeft om het dessert te evenaren, of appelbrandy zoals Calvados."
+        }
+      },
+      {
+        question: {
+          en: "Which wine complements smoked salmon best?",
+          es: "¿Qué vino complementa mejor el salmón ahumado?",
+          de: "Welcher Wein ergänzt Räucherlachs am besten?",
+          nl: "Welke wijn vult gerookte zalm het best aan?"
+        },
+        options: [
+          { en: "Champagne or Chablis", es: "Champagne o Chablis", de: "Champagner oder Chablis", nl: "Champagne of Chablis" },
+          { en: "Heavy Malbec", es: "Malbec pesado", de: "Schwerer Malbec", nl: "Zware Malbec" },
+          { en: "Sweet Moscato", es: "Moscato dulce", de: "Süßer Moscato", nl: "Zoete Moscato" },
+          { en: "Port wine", es: "Vino de Oporto", de: "Portwein", nl: "Port wijn" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Smoked salmon's rich, oily, salty character pairs beautifully with Champagne's bubbles and acidity or Chablis' crisp minerality, which cut through the richness.",
+          es: "El carácter rico, aceitoso y salado del salmón ahumado combina hermosamente con las burbujas y acidez del Champagne o la mineralidad fresca del Chablis, que cortan la riqueza.",
+          de: "Der reiche, ölige, salzige Charakter von Räucherlachs harmoniert wunderbar mit den Blasen und Säure von Champagner oder der knackigen Mineralität von Chablis, die durch den Reichtum schneiden.",
+          nl: "Het rijke, olieachtige, zoute karakter van gerookte zalm past prachtig bij de bubbels en zuurgraad van Champagne of de frisse mineraliteit van Chablis, die door de rijkdom snijden."
+        }
+      },
+      {
+        question: {
+          en: "What wine pairs best with chicken curry?",
+          es: "¿Qué vino combina mejor con curry de pollo?",
+          de: "Welcher Wein passt am besten zu Hühnchen-Curry?",
+          nl: "Welke wijn past het best bij kip curry?"
+        },
+        options: [
+          { en: "Off-dry Gewürztraminer or Riesling", es: "Gewürztraminer o Riesling semi-seco", de: "Halbtrockener Gewürztraminer oder Riesling", nl: "Half-droge Gewürztraminer of Riesling" },
+          { en: "Heavy Barolo", es: "Barolo pesado", de: "Schwerer Barolo", nl: "Zware Barolo" },
+          { en: "Bone-dry Sauvignon Blanc", es: "Sauvignon Blanc muy seco", de: "Knochentrocken Sauvignon Blanc", nl: "Kurkdroge Sauvignon Blanc" },
+          { en: "Tawny Port", es: "Oporto Tawny", de: "Tawny Port", nl: "Tawny Port" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Chicken curry's complex spices pair wonderfully with off-dry aromatic whites. The slight sweetness tames heat while aromatic character complements the spices.",
+          es: "Las especias complejas del curry de pollo combinan maravillosamente con blancos aromáticos semi-secos. La ligera dulzura suaviza el picante mientras que el carácter aromático complementa las especias.",
+          de: "Die komplexen Gewürze von Hühnchen-Curry harmonieren wunderbar mit halbtrockenen aromatischen Weißweinen. Die leichte Süße zähmt die Schärfe während der aromatische Charakter die Gewürze ergänzt.",
+          nl: "De complexe kruiden van kip curry passen wonderlijk bij half-droge aromatische witte wijnen. De lichte zoetheid tempert pit terwijl aromatisch karakter de kruiden aanvult."
+        }
+      }
     ]
   };
 

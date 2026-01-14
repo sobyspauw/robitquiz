@@ -427,6 +427,426 @@
           de: "William Wrigley Jr. gründete Wrigley 1891, verkaufte zunächst Seife und Backpulver, bevor er zu Kaugummi wechselte und Marken wie Juicy Fruit und Spearmint schuf.",
           nl: "William Wrigley Jr. richtte Wrigley op in 1891, hij verkocht aanvankelijk zeep en bakpoeder voordat hij overstapte naar kauwgom en merken zoals Juicy Fruit en Spearmint creëerde."
         }
+      },
+      {
+        question: {
+          en: "Who founded the cosmetics company L'Oréal?",
+          es: "¿Quién fundó la empresa de cosméticos L'Oréal?",
+          de: "Wer gründete das Kosmetikunternehmen L'Oréal?",
+          nl: "Wie heeft het cosmeticabedrijf L'Oréal opgericht?"
+        },
+        options: [
+          { en: "Eugène Schueller", es: "Eugène Schueller", de: "Eugène Schueller", nl: "Eugène Schueller" },
+          { en: "François Dalle", es: "François Dalle", de: "François Dalle", nl: "François Dalle" },
+          { en: "Jean-Paul Agon", es: "Jean-Paul Agon", de: "Jean-Paul Agon", nl: "Jean-Paul Agon" },
+          { en: "Liliane Bettencourt", es: "Liliane Bettencourt", de: "Liliane Bettencourt", nl: "Liliane Bettencourt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Eugène Schueller founded L'Oréal in 1909, originally as a hair dye company called Société Française de Teintures Inoffensives pour Cheveux. It grew into the world's largest cosmetics company.",
+          es: "Eugène Schueller fundó L'Oréal en 1909, originalmente como una empresa de tintes para el cabello llamada Société Française de Teintures Inoffensives pour Cheveux. Creció hasta convertirse en la empresa de cosméticos más grande del mundo.",
+          de: "Eugène Schueller gründete L'Oréal 1909, ursprünglich als Haarfärbemittelfirma namens Société Française de Teintures Inoffensives pour Cheveux. Es wurde zum weltgrößten Kosmetikunternehmen.",
+          nl: "Eugène Schueller richtte L'Oréal op in 1909, oorspronkelijk als een haarkleurenbedrijf genaamd Société Française de Teintures Inoffensives pour Cheveux. Het groeide uit tot 's werelds grootste cosmeticabedrijf."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded the Hershey Chocolate Company?",
+          es: "¿Qué empresario fundó Hershey Chocolate Company?",
+          de: "Welcher Unternehmer gründete die Hershey Chocolate Company?",
+          nl: "Welke ondernemer heeft Hershey Chocolate Company opgericht?"
+        },
+        options: [
+          { en: "Milton S. Hershey", es: "Milton S. Hershey", de: "Milton S. Hershey", nl: "Milton S. Hershey" },
+          { en: "Forrest Mars", es: "Forrest Mars", de: "Forrest Mars", nl: "Forrest Mars" },
+          { en: "John Cadbury", es: "John Cadbury", de: "John Cadbury", nl: "John Cadbury" },
+          { en: "Henri Nestlé", es: "Henri Nestlé", de: "Henri Nestlé", nl: "Henri Nestlé" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Milton S. Hershey founded the Hershey Chocolate Company in 1894, pioneering mass-produced milk chocolate in America and building the town of Hershey, Pennsylvania around his factory.",
+          es: "Milton S. Hershey fundó Hershey Chocolate Company en 1894, siendo pionero en el chocolate con leche producido en masa en América y construyendo la ciudad de Hershey, Pennsylvania alrededor de su fábrica.",
+          de: "Milton S. Hershey gründete die Hershey Chocolate Company 1894, war Pionier der Massenproduktion von Milchschokolade in Amerika und baute die Stadt Hershey, Pennsylvania um seine Fabrik herum.",
+          nl: "Milton S. Hershey richtte Hershey Chocolate Company op in 1894, hij was pionier van in massa geproduceerde melkchocolade in Amerika en bouwde de stad Hershey, Pennsylvania rondom zijn fabriek."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Mars, Incorporated, maker of Mars bars and M&M's?",
+          es: "¿Quién fundó Mars, Incorporated, fabricante de barras Mars y M&M's?",
+          de: "Wer gründete Mars, Incorporated, Hersteller von Mars-Riegeln und M&M's?",
+          nl: "Wie heeft Mars, Incorporated opgericht, maker van Mars-repen en M&M's?"
+        },
+        options: [
+          { en: "Franklin Clarence Mars", es: "Franklin Clarence Mars", de: "Franklin Clarence Mars", nl: "Franklin Clarence Mars" },
+          { en: "Forrest Mars Sr.", es: "Forrest Mars Sr.", de: "Forrest Mars Sr.", nl: "Forrest Mars Sr." },
+          { en: "Milton S. Hershey", es: "Milton S. Hershey", de: "Milton S. Hershey", nl: "Milton S. Hershey" },
+          { en: "William Wrigley Jr.", es: "William Wrigley Jr.", de: "William Wrigley Jr.", nl: "William Wrigley Jr." }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Franklin Clarence Mars founded Mars, Incorporated in 1911. His son Forrest Mars Sr. later created M&M's and expanded the company into a global confectionery giant.",
+          es: "Franklin Clarence Mars fundó Mars, Incorporated en 1911. Su hijo Forrest Mars Sr. más tarde creó M&M's y expandió la compañía en un gigante mundial de confitería.",
+          de: "Franklin Clarence Mars gründete Mars, Incorporated 1911. Sein Sohn Forrest Mars Sr. schuf später M&M's und baute das Unternehmen zu einem globalen Süßwarengiganten aus.",
+          nl: "Franklin Clarence Mars richtte Mars, Incorporated op in 1911. Zijn zoon Forrest Mars Sr. creëerde later M&M's en breidde het bedrijf uit tot een wereldwijde snoepgoedreus."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded the Gillette Safety Razor Company?",
+          es: "¿Qué empresario fundó Gillette Safety Razor Company?",
+          de: "Welcher Unternehmer gründete die Gillette Safety Razor Company?",
+          nl: "Welke ondernemer heeft Gillette Safety Razor Company opgericht?"
+        },
+        options: [
+          { en: "King Camp Gillette", es: "King Camp Gillette", de: "King Camp Gillette", nl: "King Camp Gillette" },
+          { en: "Jacob Schick", es: "Jacob Schick", de: "Jacob Schick", nl: "Jacob Schick" },
+          { en: "William Nickerson", es: "William Nickerson", de: "William Nickerson", nl: "William Nickerson" },
+          { en: "Frederic Remington", es: "Frederic Remington", de: "Frederic Remington", nl: "Frederic Remington" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "King Camp Gillette founded the Gillette Safety Razor Company in 1901, inventing the disposable safety razor blade and revolutionizing personal grooming with the razor-and-blades business model.",
+          es: "King Camp Gillette fundó Gillette Safety Razor Company en 1901, inventando la hoja de afeitar de seguridad desechable y revolucionando el aseo personal con el modelo de negocio de maquinilla y hojas.",
+          de: "King Camp Gillette gründete die Gillette Safety Razor Company 1901, erfand die Einweg-Sicherheitsrasierklinge und revolutionierte die Körperpflege mit dem Rasierer-und-Klingen-Geschäftsmodell.",
+          nl: "King Camp Gillette richtte Gillette Safety Razor Company op in 1901, hij vond het wegwerp veiligheidsscheermesje uit en revolutioneerde persoonlijke verzorging met het scheerapparaat-en-mesjes businessmodel."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Kellogg's cereal company?",
+          es: "¿Quién fundó la empresa de cereales Kellogg's?",
+          de: "Wer gründete das Müsliunternehmen Kellogg's?",
+          nl: "Wie heeft het granenontbijtbedrijf Kellogg's opgericht?"
+        },
+        options: [
+          { en: "Will Keith Kellogg", es: "Will Keith Kellogg", de: "Will Keith Kellogg", nl: "Will Keith Kellogg" },
+          { en: "John Harvey Kellogg", es: "John Harvey Kellogg", de: "John Harvey Kellogg", nl: "John Harvey Kellogg" },
+          { en: "Charles William Post", es: "Charles William Post", de: "Charles William Post", nl: "Charles William Post" },
+          { en: "James Caleb Jackson", es: "James Caleb Jackson", de: "James Caleb Jackson", nl: "James Caleb Jackson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Will Keith Kellogg founded the Battle Creek Toasted Corn Flake Company (later Kellogg Company) in 1906, inventing corn flakes with his brother John and revolutionizing breakfast foods.",
+          es: "Will Keith Kellogg fundó Battle Creek Toasted Corn Flake Company (más tarde Kellogg Company) en 1906, inventando corn flakes con su hermano John y revolucionando los alimentos para el desayuno.",
+          de: "Will Keith Kellogg gründete die Battle Creek Toasted Corn Flake Company (später Kellogg Company) 1906, erfand Corn Flakes mit seinem Bruder John und revolutionierte Frühstücksspeisen.",
+          nl: "Will Keith Kellogg richtte Battle Creek Toasted Corn Flake Company (later Kellogg Company) op in 1906, hij vond cornflakes uit met zijn broer John en revolutioneerde ontbijtproducten."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded the Campbell Soup Company?",
+          es: "¿Qué empresario fundó Campbell Soup Company?",
+          de: "Welcher Unternehmer gründete die Campbell Soup Company?",
+          nl: "Welke ondernemer heeft Campbell Soup Company opgericht?"
+        },
+        options: [
+          { en: "Joseph A. Campbell", es: "Joseph A. Campbell", de: "Joseph A. Campbell", nl: "Joseph A. Campbell" },
+          { en: "Abraham Anderson", es: "Abraham Anderson", de: "Abraham Anderson", nl: "Abraham Anderson" },
+          { en: "John T. Dorrance", es: "John T. Dorrance", de: "John T. Dorrance", nl: "John T. Dorrance" },
+          { en: "Henry John Heinz", es: "Henry John Heinz", de: "Henry John Heinz", nl: "Henry John Heinz" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Joseph A. Campbell founded Campbell Soup Company in 1869 with Abraham Anderson in Camden, New Jersey. The company became famous for condensed soups and its iconic red-and-white label.",
+          es: "Joseph A. Campbell fundó Campbell Soup Company en 1869 con Abraham Anderson en Camden, Nueva Jersey. La compañía se hizo famosa por las sopas condensadas y su icónica etiqueta roja y blanca.",
+          de: "Joseph A. Campbell gründete Campbell Soup Company 1869 mit Abraham Anderson in Camden, New Jersey. Das Unternehmen wurde berühmt für Kondensuppen und sein ikonisches rot-weißes Etikett.",
+          nl: "Joseph A. Campbell richtte Campbell Soup Company op in 1869 met Abraham Anderson in Camden, New Jersey. Het bedrijf werd beroemd om gecondenseerde soepen en zijn iconische rood-witte etiket."
+        }
+      },
+      {
+        question: {
+          en: "Who founded General Electric (GE)?",
+          es: "¿Quién fundó General Electric (GE)?",
+          de: "Wer gründete General Electric (GE)?",
+          nl: "Wie heeft General Electric (GE) opgericht?"
+        },
+        options: [
+          { en: "Thomas Edison", es: "Thomas Edison", de: "Thomas Edison", nl: "Thomas Edison" },
+          { en: "J.P. Morgan", es: "J.P. Morgan", de: "J.P. Morgan", nl: "J.P. Morgan" },
+          { en: "Charles Coffin", es: "Charles Coffin", de: "Charles Coffin", nl: "Charles Coffin" },
+          { en: "Elihu Thomson", es: "Elihu Thomson", de: "Elihu Thomson", nl: "Elihu Thomson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Thomas Edison founded Edison General Electric Company in 1890, which merged with Thomson-Houston Electric Company in 1892 to form General Electric. GE became one of the world's largest conglomerates.",
+          es: "Thomas Edison fundó Edison General Electric Company en 1890, que se fusionó con Thomson-Houston Electric Company en 1892 para formar General Electric. GE se convirtió en uno de los conglomerados más grandes del mundo.",
+          de: "Thomas Edison gründete Edison General Electric Company 1890, die sich 1892 mit Thomson-Houston Electric Company zu General Electric fusionierte. GE wurde zu einem der weltgrößten Konzerne.",
+          nl: "Thomas Edison richtte Edison General Electric Company op in 1890, dat fuseerde met Thomson-Houston Electric Company in 1892 om General Electric te vormen. GE werd een van 's werelds grootste conglomeraten."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded the National Cash Register Company (NCR)?",
+          es: "¿Qué empresario fundó National Cash Register Company (NCR)?",
+          de: "Welcher Unternehmer gründete die National Cash Register Company (NCR)?",
+          nl: "Welke ondernemer heeft National Cash Register Company (NCR) opgericht?"
+        },
+        options: [
+          { en: "John Henry Patterson", es: "John Henry Patterson", de: "John Henry Patterson", nl: "John Henry Patterson" },
+          { en: "James Ritty", es: "James Ritty", de: "James Ritty", nl: "James Ritty" },
+          { en: "Charles Kettering", es: "Charles Kettering", de: "Charles Kettering", nl: "Charles Kettering" },
+          { en: "Thomas Watson Sr.", es: "Thomas Watson Sr.", de: "Thomas Watson Sr.", nl: "Thomas Watson Sr." }
+        ],
+        correct: 0,
+        explanation: {
+          en: "John Henry Patterson bought the cash register patent in 1884 and founded NCR, pioneering modern sales techniques and employee training programs. He mentored Thomas Watson, who later founded IBM.",
+          es: "John Henry Patterson compró la patente de caja registradora en 1884 y fundó NCR, siendo pionero en técnicas de ventas modernas y programas de capacitación de empleados. Fue mentor de Thomas Watson, quien más tarde fundó IBM.",
+          de: "John Henry Patterson kaufte 1884 das Kassenpatent und gründete NCR, war Pionier moderner Verkaufstechniken und Mitarbeiter-Schulungsprogramme. Er war Mentor von Thomas Watson, der später IBM gründete.",
+          nl: "John Henry Patterson kocht het kassaregisterpatent in 1884 en richtte NCR op, hij was pionier van moderne verkooptechnieken en trainingsprogramma's voor werknemers. Hij was mentor van Thomas Watson, die later IBM oprichtte."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Tiffany & Co., the luxury jewelry company?",
+          es: "¿Quién fundó Tiffany & Co., la empresa de joyería de lujo?",
+          de: "Wer gründete Tiffany & Co., das Luxusschmuckunternehmen?",
+          nl: "Wie heeft Tiffany & Co. opgericht, het luxe juwelierbedrijf?"
+        },
+        options: [
+          { en: "Charles Lewis Tiffany", es: "Charles Lewis Tiffany", de: "Charles Lewis Tiffany", nl: "Charles Lewis Tiffany" },
+          { en: "Louis Comfort Tiffany", es: "Louis Comfort Tiffany", de: "Louis Comfort Tiffany", nl: "Louis Comfort Tiffany" },
+          { en: "John B. Young", es: "John B. Young", de: "John B. Young", nl: "John B. Young" },
+          { en: "Harry Winston", es: "Harry Winston", de: "Harry Winston", nl: "Harry Winston" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Charles Lewis Tiffany founded Tiffany & Co. in 1837 in New York City with John B. Young. Known as the 'King of Diamonds,' he established American luxury jewelry standards and the iconic Tiffany Blue Box.",
+          es: "Charles Lewis Tiffany fundó Tiffany & Co. en 1837 en la ciudad de Nueva York con John B. Young. Conocido como el 'Rey de los Diamantes', estableció estándares de joyería de lujo estadounidense y la icónica Caja Azul Tiffany.",
+          de: "Charles Lewis Tiffany gründete Tiffany & Co. 1837 in New York City mit John B. Young. Bekannt als 'König der Diamanten', etablierte er amerikanische Luxusschmuck-Standards und die ikonische Tiffany Blue Box.",
+          nl: "Charles Lewis Tiffany richtte Tiffany & Co. op in 1837 in New York City met John B. Young. Bekend als de 'Koning van de Diamanten' vestigde hij Amerikaanse luxe sieradenstandaarden en de iconische Tiffany Blue Box."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded the Macy's department store chain?",
+          es: "¿Qué empresario fundó la cadena de grandes almacenes Macy's?",
+          de: "Welcher Unternehmer gründete die Kaufhauskette Macy's?",
+          nl: "Welke ondernemer heeft de warenhuisketen Macy's opgericht?"
+        },
+        options: [
+          { en: "Rowland Hussey Macy", es: "Rowland Hussey Macy", de: "Rowland Hussey Macy", nl: "Rowland Hussey Macy" },
+          { en: "Isidor Straus", es: "Isidor Straus", de: "Isidor Straus", nl: "Isidor Straus" },
+          { en: "Nathan Straus", es: "Nathan Straus", de: "Nathan Straus", nl: "Nathan Straus" },
+          { en: "Marshall Field", es: "Marshall Field", de: "Marshall Field", nl: "Marshall Field" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Rowland Hussey Macy founded Macy's in 1858 in New York City. The store's red star logo came from Macy's tattoo from his whaling days. Macy's became America's largest department store chain.",
+          es: "Rowland Hussey Macy fundó Macy's en 1858 en la ciudad de Nueva York. El logo de estrella roja de la tienda provino del tatuaje de Macy de sus días de caza de ballenas. Macy's se convirtió en la cadena de grandes almacenes más grande de Estados Unidos.",
+          de: "Rowland Hussey Macy gründete Macy's 1858 in New York City. Das rote Stern-Logo des Geschäfts stammt von Macys Tätowierung aus seiner Walfangzeit. Macy's wurde Amerikas größte Kaufhauskette.",
+          nl: "Rowland Hussey Macy richtte Macy's op in 1858 in New York City. Het rode sterrenlogo van de winkel kwam van Macy's tatoeage uit zijn walvisvangst dagen. Macy's werd Amerika's grootste warenhuisketen."
+        }
+      },
+      {
+        question: {
+          en: "Who founded the Woolworth five-and-dime store chain?",
+          es: "¿Quién fundó la cadena de tiendas Woolworth de cinco y diez centavos?",
+          de: "Wer gründete die Woolworth Billigwarenkette?",
+          nl: "Wie heeft de Woolworth-winkelketen opgericht?"
+        },
+        options: [
+          { en: "Frank Winfield Woolworth", es: "Frank Winfield Woolworth", de: "Frank Winfield Woolworth", nl: "Frank Winfield Woolworth" },
+          { en: "Sebastian Spering Kresge", es: "Sebastian Spering Kresge", de: "Sebastian Spering Kresge", nl: "Sebastian Spering Kresge" },
+          { en: "James Cash Penney", es: "James Cash Penney", de: "James Cash Penney", nl: "James Cash Penney" },
+          { en: "John Wanamaker", es: "John Wanamaker", de: "John Wanamaker", nl: "John Wanamaker" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Frank Winfield Woolworth founded F.W. Woolworth Company in 1879, pioneering the five-and-dime store concept where all items cost 5 or 10 cents. His chain became one of America's largest retailers.",
+          es: "Frank Winfield Woolworth fundó F.W. Woolworth Company en 1879, siendo pionero en el concepto de tienda de cinco y diez centavos donde todos los artículos costaban 5 o 10 centavos. Su cadena se convirtió en uno de los minoristas más grandes de Estados Unidos.",
+          de: "Frank Winfield Woolworth gründete F.W. Woolworth Company 1879 und war Pionier des Billigwarenkonzepts, bei dem alle Artikel 5 oder 10 Cent kosteten. Seine Kette wurde zu einem der größten Einzelhändler Amerikas.",
+          nl: "Frank Winfield Woolworth richtte F.W. Woolworth Company op in 1879, hij was pionier van het vijf-en-tien-cent winkelconcept waar alle artikelen 5 of 10 cent kostten. Zijn keten werd een van Amerika's grootste retailers."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded the J.C. Penney department store chain?",
+          es: "¿Qué empresario fundó la cadena de grandes almacenes J.C. Penney?",
+          de: "Welcher Unternehmer gründete die Kaufhauskette J.C. Penney?",
+          nl: "Welke ondernemer heeft de warenhuisketen J.C. Penney opgericht?"
+        },
+        options: [
+          { en: "James Cash Penney", es: "James Cash Penney", de: "James Cash Penney", nl: "James Cash Penney" },
+          { en: "Frank Winfield Woolworth", es: "Frank Winfield Woolworth", de: "Frank Winfield Woolworth", nl: "Frank Winfield Woolworth" },
+          { en: "Richard Warren Sears", es: "Richard Warren Sears", de: "Richard Warren Sears", nl: "Richard Warren Sears" },
+          { en: "Samuel Walton", es: "Samuel Walton", de: "Samuel Walton", nl: "Samuel Walton" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "James Cash Penney founded J.C. Penney in 1902 in Kemmerer, Wyoming, originally as The Golden Rule store. He built it into a nationwide department store chain based on fair pricing and customer service.",
+          es: "James Cash Penney fundó J.C. Penney en 1902 en Kemmerer, Wyoming, originalmente como The Golden Rule store. Lo construyó en una cadena de grandes almacenes nacional basada en precios justos y servicio al cliente.",
+          de: "James Cash Penney gründete J.C. Penney 1902 in Kemmerer, Wyoming, ursprünglich als The Golden Rule store. Er baute es zu einer landesweiten Kaufhauskette auf, basierend auf fairen Preisen und Kundenservice.",
+          nl: "James Cash Penney richtte J.C. Penney op in 1902 in Kemmerer, Wyoming, oorspronkelijk als The Golden Rule store. Hij bouwde het uit tot een landelijke warenhuisketen gebaseerd op eerlijke prijzen en klantenservice."
+        }
+      },
+      {
+        question: {
+          en: "Who founded the Sears mail-order and retail empire?",
+          es: "¿Quién fundó el imperio de ventas por catálogo y minorista Sears?",
+          de: "Wer gründete das Sears Versandhandels- und Einzelhandelsimperium?",
+          nl: "Wie heeft het Sears postorder en retailimperium opgericht?"
+        },
+        options: [
+          { en: "Richard Warren Sears", es: "Richard Warren Sears", de: "Richard Warren Sears", nl: "Richard Warren Sears" },
+          { en: "Alvah Curtis Roebuck", es: "Alvah Curtis Roebuck", de: "Alvah Curtis Roebuck", nl: "Alvah Curtis Roebuck" },
+          { en: "Julius Rosenwald", es: "Julius Rosenwald", de: "Julius Rosenwald", nl: "Julius Rosenwald" },
+          { en: "Aaron Montgomery Ward", es: "Aaron Montgomery Ward", de: "Aaron Montgomery Ward", nl: "Aaron Montgomery Ward" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Richard Warren Sears founded Sears, Roebuck and Company in 1893 with Alvah Roebuck. The mail-order catalog business revolutionized rural American retail, later expanding into department stores.",
+          es: "Richard Warren Sears fundó Sears, Roebuck and Company en 1893 con Alvah Roebuck. El negocio de catálogo por correo revolucionó el comercio minorista rural estadounidense, expandiéndose más tarde a grandes almacenes.",
+          de: "Richard Warren Sears gründete Sears, Roebuck and Company 1893 mit Alvah Roebuck. Das Versandhandelsgeschäft revolutionierte den ländlichen amerikanischen Einzelhandel und expandierte später in Kaufhäuser.",
+          nl: "Richard Warren Sears richtte Sears, Roebuck and Company op in 1893 met Alvah Roebuck. Het postordercatalogus bedrijf revolutioneerde de rurale Amerikaanse detailhandel en breidde later uit naar warenhuizen."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded the Winchester Repeating Arms Company?",
+          es: "¿Qué empresario fundó Winchester Repeating Arms Company?",
+          de: "Welcher Unternehmer gründete die Winchester Repeating Arms Company?",
+          nl: "Welke ondernemer heeft Winchester Repeating Arms Company opgericht?"
+        },
+        options: [
+          { en: "Oliver Winchester", es: "Oliver Winchester", de: "Oliver Winchester", nl: "Oliver Winchester" },
+          { en: "Samuel Colt", es: "Samuel Colt", de: "Samuel Colt", nl: "Samuel Colt" },
+          { en: "John Moses Browning", es: "John Moses Browning", de: "John Moses Browning", nl: "John Moses Browning" },
+          { en: "Benjamin Tyler Henry", es: "Benjamin Tyler Henry", de: "Benjamin Tyler Henry", nl: "Benjamin Tyler Henry" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Oliver Winchester founded Winchester Repeating Arms Company in 1866, producing the iconic Winchester rifle known as 'The Gun that Won the West.' The company became a major American firearms manufacturer.",
+          es: "Oliver Winchester fundó Winchester Repeating Arms Company en 1866, produciendo el icónico rifle Winchester conocido como 'El Arma que Ganó el Oeste'. La compañía se convirtió en un importante fabricante de armas de fuego estadounidense.",
+          de: "Oliver Winchester gründete Winchester Repeating Arms Company 1866 und produzierte das ikonische Winchester-Gewehr, bekannt als 'Die Waffe, die den Westen gewann'. Das Unternehmen wurde zu einem großen amerikanischen Waffenhersteller.",
+          nl: "Oliver Winchester richtte Winchester Repeating Arms Company op in 1866 en produceerde het iconische Winchester-geweer bekend als 'Het Wapen dat het Westen Won'. Het bedrijf werd een belangrijke Amerikaanse vuurwapenfabrikant."
+        }
+      },
+      {
+        question: {
+          en: "Who founded the Colgate toothpaste and soap company?",
+          es: "¿Quién fundó la empresa de pasta de dientes y jabón Colgate?",
+          de: "Wer gründete das Zahnpasta- und Seifenunternehmen Colgate?",
+          nl: "Wie heeft het tandpasta- en zeepbedrijf Colgate opgericht?"
+        },
+        options: [
+          { en: "William Colgate", es: "William Colgate", de: "William Colgate", nl: "William Colgate" },
+          { en: "Samuel Colgate", es: "Samuel Colgate", de: "Samuel Colgate", nl: "Samuel Colgate" },
+          { en: "Charles Peet", es: "Charles Peet", de: "Charles Peet", nl: "Charles Peet" },
+          { en: "James Palmolive", es: "James Palmolive", de: "James Palmolive", nl: "James Palmolive" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "William Colgate founded Colgate in 1806 in New York as a soap and candle company. The company later introduced toothpaste in jars (1873) and tubes (1896), becoming a global oral care leader.",
+          es: "William Colgate fundó Colgate en 1806 en Nueva York como una empresa de jabón y velas. La compañía más tarde introdujo pasta de dientes en frascos (1873) y tubos (1896), convirtiéndose en líder mundial en cuidado bucal.",
+          de: "William Colgate gründete Colgate 1806 in New York als Seifen- und Kerzenunternehmen. Das Unternehmen führte später Zahnpasta in Gläsern (1873) und Tuben (1896) ein und wurde zu einem globalen Führer in der Mundpflege.",
+          nl: "William Colgate richtte Colgate op in 1806 in New York als een zeep- en kaarsenbedrijf. Het bedrijf introduceerde later tandpasta in potten (1873) en tubes (1896) en werd een mondiale leider in mondverzorging."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded the Armour meat-packing company?",
+          es: "¿Qué empresario fundó la empresa empacadora de carne Armour?",
+          de: "Welcher Unternehmer gründete das Fleischverpackungsunternehmen Armour?",
+          nl: "Welke ondernemer heeft het vleesverwerking bedrijf Armour opgericht?"
+        },
+        options: [
+          { en: "Philip Danforth Armour", es: "Philip Danforth Armour", de: "Philip Danforth Armour", nl: "Philip Danforth Armour" },
+          { en: "Gustavus Swift", es: "Gustavus Swift", de: "Gustavus Swift", nl: "Gustavus Swift" },
+          { en: "Nelson Morris", es: "Nelson Morris", de: "Nelson Morris", nl: "Nelson Morris" },
+          { en: "Oscar Mayer", es: "Oscar Mayer", de: "Oscar Mayer", nl: "Oscar Mayer" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Philip Danforth Armour founded Armour and Company in 1867 in Chicago. He pioneered refrigerated railroad cars and efficient meat-packing methods, becoming one of America's largest meat processors.",
+          es: "Philip Danforth Armour fundó Armour and Company en 1867 en Chicago. Fue pionero en vagones de ferrocarril refrigerados y métodos eficientes de empaque de carne, convirtiéndose en uno de los procesadores de carne más grandes de Estados Unidos.",
+          de: "Philip Danforth Armour gründete Armour and Company 1867 in Chicago. Er war Pionier von Kühlwaggons und effizienten Fleischverpackungsmethoden und wurde zu einem der größten Fleischverarbeiter Amerikas.",
+          nl: "Philip Danforth Armour richtte Armour and Company op in 1867 in Chicago. Hij was een pionier van gekoelde treinwagons en efficiënte vleesverwerkingsmethoden en werd een van Amerika's grootste vleesverwerkingsbedrijven."
+        }
+      },
+      {
+        question: {
+          en: "Who founded the Swift & Company meat-packing business?",
+          es: "¿Quién fundó el negocio de empaque de carne Swift & Company?",
+          de: "Wer gründete das Fleischverpackungsunternehmen Swift & Company?",
+          nl: "Wie heeft het vleesverwerkingsbedrijf Swift & Company opgericht?"
+        },
+        options: [
+          { en: "Gustavus Franklin Swift", es: "Gustavus Franklin Swift", de: "Gustavus Franklin Swift", nl: "Gustavus Franklin Swift" },
+          { en: "Philip Danforth Armour", es: "Philip Danforth Armour", de: "Philip Danforth Armour", nl: "Philip Danforth Armour" },
+          { en: "Nelson Morris", es: "Nelson Morris", de: "Nelson Morris", nl: "Nelson Morris" },
+          { en: "Edward Morris", es: "Edward Morris", de: "Edward Morris", nl: "Edward Morris" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gustavus Franklin Swift founded Swift & Company in 1885, revolutionizing the meat-packing industry with refrigerated railroad cars that allowed fresh meat to be shipped long distances economically.",
+          es: "Gustavus Franklin Swift fundó Swift & Company en 1885, revolucionando la industria del empaque de carne con vagones de ferrocarril refrigerados que permitían enviar carne fresca a largas distancias económicamente.",
+          de: "Gustavus Franklin Swift gründete Swift & Company 1885 und revolutionierte die Fleischverpackungsindustrie mit Kühlwaggons, die es ermöglichten, frisches Fleisch wirtschaftlich über weite Strecken zu versenden.",
+          nl: "Gustavus Franklin Swift richtte Swift & Company op in 1885, hij revolutioneerde de vleesverwerkingsindustrie met gekoelde treinwagons die het mogelijk maakten vers vlees economisch over lange afstanden te verzenden."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded the Quaker Oats Company?",
+          es: "¿Qué empresario fundó Quaker Oats Company?",
+          de: "Welcher Unternehmer gründete die Quaker Oats Company?",
+          nl: "Welke ondernemer heeft Quaker Oats Company opgericht?"
+        },
+        options: [
+          { en: "Henry Parsons Crowell", es: "Henry Parsons Crowell", de: "Henry Parsons Crowell", nl: "Henry Parsons Crowell" },
+          { en: "Ferdinand Schumacher", es: "Ferdinand Schumacher", de: "Ferdinand Schumacher", nl: "Ferdinand Schumacher" },
+          { en: "Will Keith Kellogg", es: "Will Keith Kellogg", de: "Will Keith Kellogg", nl: "Will Keith Kellogg" },
+          { en: "Charles William Post", es: "Charles William Post", de: "Charles William Post", nl: "Charles William Post" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Henry Parsons Crowell built Quaker Oats Company into a national brand in 1877, pioneering breakfast cereal marketing and creating one of the first registered trademarks with the Quaker man logo.",
+          es: "Henry Parsons Crowell construyó Quaker Oats Company en una marca nacional en 1877, siendo pionero en marketing de cereales para el desayuno y creando una de las primeras marcas registradas con el logo del hombre Quaker.",
+          de: "Henry Parsons Crowell baute Quaker Oats Company 1877 zu einer nationalen Marke auf, war Pionier im Frühstücksflocken-Marketing und schuf mit dem Quaker-Mann-Logo eine der ersten eingetragenen Marken.",
+          nl: "Henry Parsons Crowell bouwde Quaker Oats Company uit tot een nationaal merk in 1877, hij was pionier in ontbijtgranenmarketing en creëerde een van de eerste geregistreerde handelsmerken met het Quaker-man logo."
+        }
+      },
+      {
+        question: {
+          en: "Who founded the Boeing aircraft company?",
+          es: "¿Quién fundó la compañía de aeronaves Boeing?",
+          de: "Wer gründete das Flugzeugbauunternehmen Boeing?",
+          nl: "Wie heeft het vliegtuigbouwbedrijf Boeing opgericht?"
+        },
+        options: [
+          { en: "William E. Boeing", es: "William E. Boeing", de: "William E. Boeing", nl: "William E. Boeing" },
+          { en: "Donald Douglas", es: "Donald Douglas", de: "Donald Douglas", nl: "Donald Douglas" },
+          { en: "James McDonnell", es: "James McDonnell", de: "James McDonnell", nl: "James McDonnell" },
+          { en: "Glenn Martin", es: "Glenn Martin", de: "Glenn Martin", nl: "Glenn Martin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "William E. Boeing founded Boeing in 1916 in Seattle after building his first airplane with Navy engineer Conrad Westervelt. Boeing grew into the world's largest aerospace company and leading aircraft manufacturer.",
+          es: "William E. Boeing fundó Boeing en 1916 en Seattle después de construir su primer avión con el ingeniero de la Marina Conrad Westervelt. Boeing creció hasta convertirse en la compañía aeroespacial más grande del mundo y fabricante líder de aeronaves.",
+          de: "William E. Boeing gründete Boeing 1916 in Seattle, nachdem er sein erstes Flugzeug mit Marineingenieur Conrad Westervelt gebaut hatte. Boeing wurde zum weltgrößten Luft- und Raumfahrtunternehmen und führenden Flugzeughersteller.",
+          nl: "William E. Boeing richtte Boeing op in 1916 in Seattle nadat hij zijn eerste vliegtuig bouwde met marinier Conrad Westervelt. Boeing groeide uit tot 's werelds grootste ruimtevaartbedrijf en toonaangevende vliegtuigfabrikant."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded the Lockheed aircraft corporation?",
+          es: "¿Qué empresario fundó la corporación de aeronaves Lockheed?",
+          de: "Welcher Unternehmer gründete die Flugzeugbau-Gesellschaft Lockheed?",
+          nl: "Welke ondernemer heeft het vliegtuigbouwbedrijf Lockheed opgericht?"
+        },
+        options: [
+          { en: "Allan Loughead (Lockheed)", es: "Allan Loughead (Lockheed)", de: "Allan Loughead (Lockheed)", nl: "Allan Loughead (Lockheed)" },
+          { en: "Malcolm Loughead", es: "Malcolm Loughead", de: "Malcolm Loughead", nl: "Malcolm Loughead" },
+          { en: "Jack Northrop", es: "Jack Northrop", de: "Jack Northrop", nl: "Jack Northrop" },
+          { en: "Kelly Johnson", es: "Kelly Johnson", de: "Kelly Johnson", nl: "Kelly Johnson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Allan Loughead founded the Lockheed Aircraft Company in 1926 with his brother Malcolm and designer Jack Northrop. The name 'Lockheed' is a phonetic spelling of 'Loughead.' The company became a major defense contractor.",
+          es: "Allan Loughead fundó Lockheed Aircraft Company en 1926 con su hermano Malcolm y el diseñador Jack Northrop. El nombre 'Lockheed' es una ortografía fonética de 'Loughead'. La compañía se convirtió en un importante contratista de defensa.",
+          de: "Allan Loughead gründete die Lockheed Aircraft Company 1926 mit seinem Bruder Malcolm und Designer Jack Northrop. Der Name 'Lockheed' ist eine phonetische Schreibweise von 'Loughead'. Das Unternehmen wurde zu einem großen Rüstungsunternehmen.",
+          nl: "Allan Loughead richtte Lockheed Aircraft Company op in 1926 met zijn broer Malcolm en ontwerper Jack Northrop. De naam 'Lockheed' is een fonetische spelling van 'Loughead'. Het bedrijf werd een grote defensieaannemer."
+        }
       }
     ]
   };

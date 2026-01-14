@@ -447,7 +447,406 @@
           es: "A medida que las regiones tradicionales de café se vuelven demasiado calientes para la producción de Arabica de calidad, el cultivo se está desplazando—tanto verticalmente (a altitudes más altas dentro de regiones actuales) como horizontalmente (a áreas de latitud más alta previamente inadecuadas). Los agricultores en Centroamérica y África Oriental se mueven montaña arriba, mientras que nuevas regiones como el sur de China, California e incluso partes de Europa experimentan con cultivo de café. Sin embargo, este 'ensanchamiento' tiene límites: las cimas de montañas tienen espacio finito, la altitud eventualmente se acaba y las nuevas regiones carecen de infraestructura establecida, experiencia y terroir ideal. Este desplazamiento geográfico representa tanto adaptación como desesperación, destacando el impacto profundo del cambio climático en la geografía futura del café y los medios de vida que dependen de él.",
           de: "Da traditionelle Kaffeeregionen zu heiß für qualitativ hochwertige Arabica-Produktion werden, verschiebt sich der Anbau—sowohl vertikal (zu höheren Lagen innerhalb aktueller Regionen) als auch horizontal (zu zuvor ungeeigneten höheren Breitengraden). Bauern in Mittelamerika und Ostafrika ziehen bergan, während neue Regionen wie Südchina, Kalifornien und sogar Teile Europas mit Kaffeeanbau experimentieren. Diese 'Erweiterung' hat jedoch Grenzen: Berggipfel haben begrenzten Raum, Höhenlage läuft schließlich aus, und neue Regionen fehlen etablierte Infrastruktur, Expertise und ideales Terroir. Diese geografische Verlagerung repräsentiert sowohl Anpassung als auch Verzweiflung und unterstreicht Klimawandels tiefgreifenden Einfluss auf Kaffees zukünftige Geografie und die davon abhängigen Lebensgrundlagen.",
           nl: "Naarmate traditionele koffieregio's te heet worden voor kwaliteit Arabica-productie, verschuift teelt—zowel verticaal (naar hogere hoogten binnen huidige regio's) als horizontaal (naar voorheen ongeschikte hogere breedtegraad gebieden). Boeren in Midden-Amerika en Oost-Afrika verhuizen bergop, terwijl nieuwe regio's zoals zuidelijk China, Californië en zelfs delen van Europa experimenteren met koffieteelt. Deze 'verbreding' heeft echter limieten: bergtoppen hebben eindige ruimte, hoogte raakt uiteindelijk op, en nieuwe regio's missen gevestigde infrastructuur, expertise en ideale terroir. Deze geografische verplaatsing vertegenwoordigt zowel aanpassing als wanhoop, wat klimaatverandering diepgaande impact op koffies toekomstige geografie en de levensonderhouden die ervan afhangen benadrukt."
-        }
+        }    },
+    {
+      question: {
+        en: "What plant does coffee come from?",
+        es: "What plant does coffee come from?",
+        de: "What plant does coffee come from?",
+        nl: "What plant does coffee come from?"
+      },
+      options: [
+        { en: "Coffee plant (Coffea)", es: "Coffee plant (Coffea)", de: "Coffee plant (Coffea)", nl: "Coffee plant (Coffea)" },
+        { en: "Tea plant", es: "Tea plant", de: "Tea plant", nl: "Tea plant" },
+        { en: "Cocoa plant", es: "Cocoa plant", de: "Cocoa plant", nl: "Cocoa plant" },
+        { en: "Bean plant", es: "Bean plant", de: "Bean plant", nl: "Bean plant" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Coffee is made from roasted seeds (beans) of the Coffea plant.",
+        es: "Coffee is made from roasted seeds (beans) of the Coffea plant.",
+        de: "Coffee is made from roasted seeds (beans) of the Coffea plant.",
+        nl: "Coffee is made from roasted seeds (beans) of the Coffea plant."
+      }
+    },
+    {
+      question: {
+        en: "What are the two main species of coffee?",
+        es: "What are the two main species of coffee?",
+        de: "What are the two main species of coffee?",
+        nl: "What are the two main species of coffee?"
+      },
+      options: [
+        { en: "Arabica and Robusta", es: "Arabica and Robusta", de: "Arabica and Robusta", nl: "Arabica and Robusta" },
+        { en: "Colombian and Brazilian", es: "Colombian and Brazilian", de: "Colombian and Brazilian", nl: "Colombian and Brazilian" },
+        { en: "Dark and Light", es: "Dark and Light", de: "Dark and Light", nl: "Dark and Light" },
+        { en: "Bean and Ground", es: "Bean and Ground", de: "Bean and Ground", nl: "Bean and Ground" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Arabica and Robusta are the two primary commercially grown coffee species.",
+        es: "Arabica and Robusta are the two primary commercially grown coffee species.",
+        de: "Arabica and Robusta are the two primary commercially grown coffee species.",
+        nl: "Arabica and Robusta are the two primary commercially grown coffee species."
+      }
+    },
+    {
+      question: {
+        en: "What is espresso?",
+        es: "What is espresso?",
+        de: "What is espresso?",
+        nl: "What is espresso?"
+      },
+      options: [
+        { en: "Concentrated coffee brewed under pressure", es: "Concentrated coffee brewed under pressure", de: "Concentrated coffee brewed under pressure", nl: "Concentrated coffee brewed under pressure" },
+        { en: "Diluted coffee", es: "Diluted coffee", de: "Diluted coffee", nl: "Diluted coffee" },
+        { en: "Iced coffee", es: "Iced coffee", de: "Iced coffee", nl: "Iced coffee" },
+        { en: "Instant coffee", es: "Instant coffee", de: "Instant coffee", nl: "Instant coffee" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Espresso is concentrated coffee brewed by forcing hot water under pressure through finely-ground coffee.",
+        es: "Espresso is concentrated coffee brewed by forcing hot water under pressure through finely-ground coffee.",
+        de: "Espresso is concentrated coffee brewed by forcing hot water under pressure through finely-ground coffee.",
+        nl: "Espresso is concentrated coffee brewed by forcing hot water under pressure through finely-ground coffee."
+      }
+    },
+    {
+      question: {
+        en: "What is a cappuccino?",
+        es: "What is a cappuccino?",
+        de: "What is a cappuccino?",
+        nl: "What is a cappuccino?"
+      },
+      options: [
+        { en: "Espresso with steamed milk and foam", es: "Espresso with steamed milk and foam", de: "Espresso with steamed milk and foam", nl: "Espresso with steamed milk and foam" },
+        { en: "Black coffee", es: "Black coffee", de: "Black coffee", nl: "Black coffee" },
+        { en: "Iced coffee", es: "Iced coffee", de: "Iced coffee", nl: "Iced coffee" },
+        { en: "Coffee with cream", es: "Coffee with cream", de: "Coffee with cream", nl: "Coffee with cream" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A cappuccino is made with equal parts espresso, steamed milk, and milk foam.",
+        es: "A cappuccino is made with equal parts espresso, steamed milk, and milk foam.",
+        de: "A cappuccino is made with equal parts espresso, steamed milk, and milk foam.",
+        nl: "A cappuccino is made with equal parts espresso, steamed milk, and milk foam."
+      }
+    },
+    {
+      question: {
+        en: "What is a latte?",
+        es: "What is a latte?",
+        de: "What is a latte?",
+        nl: "What is a latte?"
+      },
+      options: [
+        { en: "Espresso with steamed milk", es: "Espresso with steamed milk", de: "Espresso with steamed milk", nl: "Espresso with steamed milk" },
+        { en: "Black coffee", es: "Black coffee", de: "Black coffee", nl: "Black coffee" },
+        { en: "Iced coffee with milk", es: "Iced coffee with milk", de: "Iced coffee with milk", nl: "Iced coffee with milk" },
+        { en: "Instant coffee", es: "Instant coffee", de: "Instant coffee", nl: "Instant coffee" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A latte (caffè latte) is made with espresso and a larger proportion of steamed milk.",
+        es: "A latte (caffè latte) is made with espresso and a larger proportion of steamed milk.",
+        de: "A latte (caffè latte) is made with espresso and a larger proportion of steamed milk.",
+        nl: "A latte (caffè latte) is made with espresso and a larger proportion of steamed milk."
+      }
+    },
+    {
+      question: {
+        en: "Where did coffee originate?",
+        es: "Where did coffee originate?",
+        de: "Where did coffee originate?",
+        nl: "Where did coffee originate?"
+      },
+      options: [
+        { en: "Ethiopia", es: "Ethiopia", de: "Ethiopia", nl: "Ethiopia" },
+        { en: "Colombia", es: "Colombia", de: "Colombia", nl: "Colombia" },
+        { en: "Italy", es: "Italy", de: "Italy", nl: "Italy" },
+        { en: "Brazil", es: "Brazil", de: "Brazil", nl: "Brazil" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Coffee is believed to have originated in Ethiopia, where it was discovered growing wild.",
+        es: "Coffee is believed to have originated in Ethiopia, where it was discovered growing wild.",
+        de: "Coffee is believed to have originated in Ethiopia, where it was discovered growing wild.",
+        nl: "Coffee is believed to have originated in Ethiopia, where it was discovered growing wild."
+      }
+    },
+    {
+      question: {
+        en: "What is the process of removing caffeine called?",
+        es: "What is the process of removing caffeine called?",
+        de: "What is the process of removing caffeine called?",
+        nl: "What is the process of removing caffeine called?"
+      },
+      options: [
+        { en: "Decaffeination", es: "Decaffeination", de: "Decaffeination", nl: "Decaffeination" },
+        { en: "Roasting", es: "Roasting", de: "Roasting", nl: "Roasting" },
+        { en: "Grinding", es: "Grinding", de: "Grinding", nl: "Grinding" },
+        { en: "Brewing", es: "Brewing", de: "Brewing", nl: "Brewing" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Decaffeination is the process of removing caffeine from coffee beans.",
+        es: "Decaffeination is the process of removing caffeine from coffee beans.",
+        de: "Decaffeination is the process of removing caffeine from coffee beans.",
+        nl: "Decaffeination is the process of removing caffeine from coffee beans."
+      }
+    },
+    {
+      question: {
+        en: "What is a macchiato?",
+        es: "What is a macchiato?",
+        de: "What is a macchiato?",
+        nl: "What is a macchiato?"
+      },
+      options: [
+        { en: "Espresso with small amount of milk", es: "Espresso with small amount of milk", de: "Espresso with small amount of milk", nl: "Espresso with small amount of milk" },
+        { en: "Coffee with lots of milk", es: "Coffee with lots of milk", de: "Coffee with lots of milk", nl: "Coffee with lots of milk" },
+        { en: "Iced coffee", es: "Iced coffee", de: "Iced coffee", nl: "Iced coffee" },
+        { en: "Black coffee", es: "Black coffee", de: "Black coffee", nl: "Black coffee" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A macchiato is espresso 'marked' or 'stained' with a small amount of milk or foam.",
+        es: "A macchiato is espresso 'marked' or 'stained' with a small amount of milk or foam.",
+        de: "A macchiato is espresso 'marked' or 'stained' with a small amount of milk or foam.",
+        nl: "A macchiato is espresso 'marked' or 'stained' with a small amount of milk or foam."
+      }
+    },
+    {
+      question: {
+        en: "What is the Coffee Belt?",
+        es: "What is the Coffee Belt?",
+        de: "What is the Coffee Belt?",
+        nl: "What is the Coffee Belt?"
+      },
+      options: [
+        { en: "Region between Tropics where coffee grows", es: "Region between Tropics where coffee grows", de: "Region between Tropics where coffee grows", nl: "Region between Tropics where coffee grows" },
+        { en: "Coffee grinder part", es: "Coffee grinder part", de: "Coffee grinder part", nl: "Coffee grinder part" },
+        { en: "Brewing method", es: "Brewing method", de: "Brewing method", nl: "Brewing method" },
+        { en: "Coffee brand", es: "Coffee brand", de: "Coffee brand", nl: "Coffee brand" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Coffee Belt is the region between the Tropics of Cancer and Capricorn where coffee plants grow best.",
+        es: "The Coffee Belt is the region between the Tropics of Cancer and Capricorn where coffee plants grow best.",
+        de: "The Coffee Belt is the region between the Tropics of Cancer and Capricorn where coffee plants grow best.",
+        nl: "The Coffee Belt is the region between the Tropics of Cancer and Capricorn where coffee plants grow best."
+      }
+    },
+    {
+      question: {
+        en: "What is an Americano?",
+        es: "What is an Americano?",
+        de: "What is an Americano?",
+        nl: "What is an Americano?"
+      },
+      options: [
+        { en: "Espresso with hot water added", es: "Espresso with hot water added", de: "Espresso with hot water added", nl: "Espresso with hot water added" },
+        { en: "American-style drip coffee", es: "American-style drip coffee", de: "American-style drip coffee", nl: "American-style drip coffee" },
+        { en: "Iced coffee", es: "Iced coffee", de: "Iced coffee", nl: "Iced coffee" },
+        { en: "Coffee with milk", es: "Coffee with milk", de: "Coffee with milk", nl: "Coffee with milk" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "An Americano is made by adding hot water to espresso, similar in strength to drip coffee.",
+        es: "An Americano is made by adding hot water to espresso, similar in strength to drip coffee.",
+        de: "An Americano is made by adding hot water to espresso, similar in strength to drip coffee.",
+        nl: "An Americano is made by adding hot water to espresso, similar in strength to drip coffee."
+      }
+    },
+    {
+      question: {
+        en: "What is cold brew coffee?",
+        es: "What is cold brew coffee?",
+        de: "What is cold brew coffee?",
+        nl: "What is cold brew coffee?"
+      },
+      options: [
+        { en: "Coffee steeped in cold water for hours", es: "Coffee steeped in cold water for hours", de: "Coffee steeped in cold water for hours", nl: "Coffee steeped in cold water for hours" },
+        { en: "Iced hot coffee", es: "Iced hot coffee", de: "Iced hot coffee", nl: "Iced hot coffee" },
+        { en: "Frozen coffee", es: "Frozen coffee", de: "Frozen coffee", nl: "Frozen coffee" },
+        { en: "Coffee with ice cubes", es: "Coffee with ice cubes", de: "Coffee with ice cubes", nl: "Coffee with ice cubes" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Cold brew is made by steeping coarsely ground coffee in cold water for 12-24 hours.",
+        es: "Cold brew is made by steeping coarsely ground coffee in cold water for 12-24 hours.",
+        de: "Cold brew is made by steeping coarsely ground coffee in cold water for 12-24 hours.",
+        nl: "Cold brew is made by steeping coarsely ground coffee in cold water for 12-24 hours."
+      }
+    },
+    {
+      question: {
+        en: "What country produces the most coffee?",
+        es: "What country produces the most coffee?",
+        de: "What country produces the most coffee?",
+        nl: "What country produces the most coffee?"
+      },
+      options: [
+        { en: "Brazil", es: "Brazil", de: "Brazil", nl: "Brazil" },
+        { en: "Colombia", es: "Colombia", de: "Colombia", nl: "Colombia" },
+        { en: "Ethiopia", es: "Ethiopia", de: "Ethiopia", nl: "Ethiopia" },
+        { en: "Vietnam", es: "Vietnam", de: "Vietnam", nl: "Vietnam" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Brazil is the world's largest coffee producer, accounting for about a third of global production.",
+        es: "Brazil is the world's largest coffee producer, accounting for about a third of global production.",
+        de: "Brazil is the world's largest coffee producer, accounting for about a third of global production.",
+        nl: "Brazil is the world's largest coffee producer, accounting for about a third of global production."
+      }
+    },
+    {
+      question: {
+        en: "What is coffee roasting?",
+        es: "What is coffee roasting?",
+        de: "What is coffee roasting?",
+        nl: "What is coffee roasting?"
+      },
+      options: [
+        { en: "Heating beans to develop flavor", es: "Heating beans to develop flavor", de: "Heating beans to develop flavor", nl: "Heating beans to develop flavor" },
+        { en: "Grinding beans", es: "Grinding beans", de: "Grinding beans", nl: "Grinding beans" },
+        { en: "Brewing coffee", es: "Brewing coffee", de: "Brewing coffee", nl: "Brewing coffee" },
+        { en: "Storing beans", es: "Storing beans", de: "Storing beans", nl: "Storing beans" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Roasting is the process of heating green coffee beans to develop their flavor, aroma, and color.",
+        es: "Roasting is the process of heating green coffee beans to develop their flavor, aroma, and color.",
+        de: "Roasting is the process of heating green coffee beans to develop their flavor, aroma, and color.",
+        nl: "Roasting is the process of heating green coffee beans to develop their flavor, aroma, and color."
+      }
+    },
+    {
+      question: {
+        en: "What is a French press?",
+        es: "What is a French press?",
+        de: "What is a French press?",
+        nl: "What is a French press?"
+      },
+      options: [
+        { en: "Coffee brewing device with plunger", es: "Coffee brewing device with plunger", de: "Coffee brewing device with plunger", nl: "Coffee brewing device with plunger" },
+        { en: "Coffee roasting method", es: "Coffee roasting method", de: "Coffee roasting method", nl: "Coffee roasting method" },
+        { en: "Type of espresso", es: "Type of espresso", de: "Type of espresso", nl: "Type of espresso" },
+        { en: "Coffee grinder", es: "Coffee grinder", de: "Coffee grinder", nl: "Coffee grinder" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A French press brews coffee by steeping grounds in hot water, then pressing them down with a plunger.",
+        es: "A French press brews coffee by steeping grounds in hot water, then pressing them down with a plunger.",
+        de: "A French press brews coffee by steeping grounds in hot water, then pressing them down with a plunger.",
+        nl: "A French press brews coffee by steeping grounds in hot water, then pressing them down with a plunger."
+      }
+    },
+    {
+      question: {
+        en: "What is the crema on espresso?",
+        es: "What is the crema on espresso?",
+        de: "What is the crema on espresso?",
+        nl: "What is the crema on espresso?"
+      },
+      options: [
+        { en: "Golden foam layer on top", es: "Golden foam layer on top", de: "Golden foam layer on top", nl: "Golden foam layer on top" },
+        { en: "Coffee grounds", es: "Coffee grounds", de: "Coffee grounds", nl: "Coffee grounds" },
+        { en: "Milk foam", es: "Milk foam", de: "Milk foam", nl: "Milk foam" },
+        { en: "Sugar coating", es: "Sugar coating", de: "Sugar coating", nl: "Sugar coating" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Crema is the golden-brown foam that forms on top of properly brewed espresso.",
+        es: "Crema is the golden-brown foam that forms on top of properly brewed espresso.",
+        de: "Crema is the golden-brown foam that forms on top of properly brewed espresso.",
+        nl: "Crema is the golden-brown foam that forms on top of properly brewed espresso."
+      }
+    },
+    {
+      question: {
+        en: "What is a flat white?",
+        es: "What is a flat white?",
+        de: "What is a flat white?",
+        nl: "What is a flat white?"
+      },
+      options: [
+        { en: "Espresso with microfoam milk", es: "Espresso with microfoam milk", de: "Espresso with microfoam milk", nl: "Espresso with microfoam milk" },
+        { en: "Black coffee", es: "Black coffee", de: "Black coffee", nl: "Black coffee" },
+        { en: "Iced coffee", es: "Iced coffee", de: "Iced coffee", nl: "Iced coffee" },
+        { en: "Coffee without foam", es: "Coffee without foam", de: "Coffee without foam", nl: "Coffee without foam" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A flat white is espresso with steamed milk that has a velvety microfoam texture.",
+        es: "A flat white is espresso with steamed milk that has a velvety microfoam texture.",
+        de: "A flat white is espresso with steamed milk that has a velvety microfoam texture.",
+        nl: "A flat white is espresso with steamed milk that has a velvety microfoam texture."
+      }
+    },
+    {
+      question: {
+        en: "What is the ideal water temperature for brewing coffee?",
+        es: "What is the ideal water temperature for brewing coffee?",
+        de: "What is the ideal water temperature for brewing coffee?",
+        nl: "What is the ideal water temperature for brewing coffee?"
+      },
+      options: [
+        { en: "195-205°F (90-96°C)", es: "195-205°F (90-96°C)", de: "195-205°F (90-96°C)", nl: "195-205°F (90-96°C)" },
+        { en: "Boiling (212°F/100°C)", es: "Boiling (212°F/100°C)", de: "Boiling (212°F/100°C)", nl: "Boiling (212°F/100°C)" },
+        { en: "Room temperature", es: "Room temperature", de: "Room temperature", nl: "Room temperature" },
+        { en: "150°F (65°C)", es: "150°F (65°C)", de: "150°F (65°C)", nl: "150°F (65°C)" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The ideal brewing temperature for coffee is 195-205°F, just below boiling.",
+        es: "The ideal brewing temperature for coffee is 195-205°F, just below boiling.",
+        de: "The ideal brewing temperature for coffee is 195-205°F, just below boiling.",
+        nl: "The ideal brewing temperature for coffee is 195-205°F, just below boiling."
+      }
+    },
+    {
+      question: {
+        en: "What is Turkish coffee?",
+        es: "What is Turkish coffee?",
+        de: "What is Turkish coffee?",
+        nl: "What is Turkish coffee?"
+      },
+      options: [
+        { en: "Finely ground coffee boiled in pot", es: "Finely ground coffee boiled in pot", de: "Finely ground coffee boiled in pot", nl: "Finely ground coffee boiled in pot" },
+        { en: "Coffee from Turkey only", es: "Coffee from Turkey only", de: "Coffee from Turkey only", nl: "Coffee from Turkey only" },
+        { en: "Iced coffee", es: "Iced coffee", de: "Iced coffee", nl: "Iced coffee" },
+        { en: "Instant coffee", es: "Instant coffee", de: "Instant coffee", nl: "Instant coffee" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Turkish coffee is made by boiling very finely ground coffee in a special pot called a cezve or ibrik.",
+        es: "Turkish coffee is made by boiling very finely ground coffee in a special pot called a cezve or ibrik.",
+        de: "Turkish coffee is made by boiling very finely ground coffee in a special pot called a cezve or ibrik.",
+        nl: "Turkish coffee is made by boiling very finely ground coffee in a special pot called a cezve or ibrik."
+      }
+    },
+    {
+      question: {
+        en: "What does 'single origin' mean?",
+        es: "What does 'single origin' mean?",
+        de: "What does 'single origin' mean?",
+        nl: "What does 'single origin' mean?"
+      },
+      options: [
+        { en: "Coffee from one geographic region", es: "Coffee from one geographic region", de: "Coffee from one geographic region", nl: "Coffee from one geographic region" },
+        { en: "One coffee bean", es: "One coffee bean", de: "One coffee bean", nl: "One coffee bean" },
+        { en: "First harvest", es: "First harvest", de: "First harvest", nl: "First harvest" },
+        { en: "Original roast", es: "Original roast", de: "Original roast", nl: "Original roast" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Single origin coffee comes from beans sourced from one specific geographic region or farm.",
+        es: "Single origin coffee comes from beans sourced from one specific geographic region or farm.",
+        de: "Single origin coffee comes from beans sourced from one specific geographic region or farm.",
+        nl: "Single origin coffee comes from beans sourced from one specific geographic region or farm."
+      }
+
       }
     ]
   };

@@ -19,28 +19,7 @@
           { en: "Antonio Vivaldi", es: "Antonio Vivaldi", de: "Antonio Vivaldi", nl: "Antonio Vivaldi" },
           { en: "Johann Sebastian Bach", es: "Johann Sebastian Bach", de: "Johann Sebastian Bach", nl: "Johann Sebastian Bach" },
           { en: "George Frideric Handel", es: "George Frideric Handel", de: "Georg Friedrich Händel", nl: "George Frideric Handel" },
-          { en: "Arcangelo Corelli", es: "Arcangelo Corelli", de: "Arcangelo Corelli", nl: "Arcangelo Corelli" },
-        {
-            question: {
-                en: "Which jazz musician was known as 'Bird'?",
-                es: "¿Qué músico de jazz era conocido como 'Bird'?",
-                de: "Welcher Jazzmusiker war als 'Bird' bekannt?",
-                nl: "Welke jazzmusicus stond bekend als 'Bird'?"
-            },
-            options: [
-                { en: "Charlie Parker", es: "Charlie Parker", de: "Charlie Parker", nl: "Charlie Parker" },
-                { en: "Miles Davis", es: "Miles Davis", de: "Miles Davis", nl: "Miles Davis" },
-                { en: "John Coltrane", es: "John Coltrane", de: "John Coltrane", nl: "John Coltrane" },
-                { en: "Dizzy Gillespie", es: "Dizzy Gillespie", de: "Dizzy Gillespie", nl: "Dizzy Gillespie" }
-            ],
-            correct: 0,
-            explanation: {
-                en: "Charlie Parker (1920-1955), nicknamed 'Bird' or 'Yardbird', was a pioneering alto saxophonist who revolutionized jazz as one of the principal architects of bebop. His virtuosic technique and innovative harmonic ideas profoundly influenced modern jazz.",
-                es: "Charlie Parker (1920-1955), apodado 'Bird' o 'Yardbird', fue un saxofonista alto pionero que revolucionó el jazz como uno de los principales arquitectos del bebop. Su técnica virtuosa e ideas armónicas innovadoras influyeron profundamente en el jazz moderno.",
-                de: "Charlie Parker (1920-1955), mit dem Spitznamen 'Bird' oder 'Yardbird', war ein wegweisender Altsaxophonist, der den Jazz als einer der Hauptarchitekten des Bebop revolutionierte. Seine virtuose Technik und innovativen harmonischen Ideen beeinflussten den modernen Jazz tiefgreifend.",
-                nl: "Charlie Parker (1920-1955), bijgenaamd 'Bird' of 'Yardbird', was een baanbrekende altsaxofonist die jazz revolutioneerde als een van de hoofdarchitecten van bebop. Zijn virtuoze techniek en innovatieve harmonische ideeën beïnvloedden de moderne jazz diepgaand."
-            }
-        }
+          { en: "Arcangelo Corelli", es: "Arcangelo Corelli", de: "Arcangelo Corelli", nl: "Arcangelo Corelli" }
         ],
         correct: 0,
         explanation: {
@@ -409,23 +388,275 @@
       },
       {
         question: {
-          en: "Which jazz legend was known as 'Bird'?",
-          es: "¿Qué leyenda del jazz era conocido como 'Bird'?",
-          de: "Welche Jazz-Legende war als 'Bird' bekannt?",
-          nl: "Welke jazzlegende stond bekend als 'Bird'?"
+          en: "Which jazz musician was known as 'Bird'?",
+          es: "¿Qué músico de jazz era conocido como 'Bird'?",
+          de: "Welcher Jazzmusiker war als 'Bird' bekannt?",
+          nl: "Welke jazzmusicus stond bekend als 'Bird'?"
         },
         options: [
           { en: "Charlie Parker", es: "Charlie Parker", de: "Charlie Parker", nl: "Charlie Parker" },
+          { en: "Miles Davis", es: "Miles Davis", de: "Miles Davis", nl: "Miles Davis" },
           { en: "John Coltrane", es: "John Coltrane", de: "John Coltrane", nl: "John Coltrane" },
-          { en: "Sonny Rollins", es: "Sonny Rollins", de: "Sonny Rollins", nl: "Sonny Rollins" },
-          { en: "Coleman Hawkins", es: "Coleman Hawkins", de: "Coleman Hawkins", nl: "Coleman Hawkins" }
+          { en: "Dizzy Gillespie", es: "Dizzy Gillespie", de: "Dizzy Gillespie", nl: "Dizzy Gillespie" }
         ],
         correct: 0,
         explanation: {
-          en: "Charlie Parker, nicknamed 'Bird', was a pioneering alto saxophonist who helped develop the bebop style of jazz in the 1940s. His virtuosic playing and harmonic innovations revolutionized jazz music.",
-          es: "Charlie Parker, apodado 'Bird', fue un saxofonista alto pionero que ayudó a desarrollar el estilo bebop del jazz en los años 40. Su virtuosismo y innovaciones armónicas revolucionaron la música jazz.",
-          de: "Charlie Parker, genannt 'Bird', war ein wegweisender Altsaxophonist, der in den 1940er Jahren half, den Bebop-Stil des Jazz zu entwickeln. Sein virtuoses Spiel und harmonische Innovationen revolutionierten die Jazzmusik.",
-          nl: "Charlie Parker, bijgenaamd 'Bird', was een baanbrekende altsaxofonist die hielp de bebop-stijl van jazz te ontwikkelen in de jaren '40. Zijn virtuoze spel en harmonische innovaties revolutioneerden de jazzmuziek."
+          en: "Charlie Parker (1920-1955), nicknamed 'Bird' or 'Yardbird', was a pioneering alto saxophonist who revolutionized jazz as one of the principal architects of bebop. His virtuosic technique and innovative harmonic ideas profoundly influenced modern jazz.",
+          es: "Charlie Parker (1920-1955), apodado 'Bird' o 'Yardbird', fue un saxofonista alto pionero que revolucionó el jazz como uno de los principales arquitectos del bebop. Su técnica virtuosa e ideas armónicas innovadoras influyeron profundamente en el jazz moderno.",
+          de: "Charlie Parker (1920-1955), mit dem Spitznamen 'Bird' oder 'Yardbird', war ein wegweisender Altsaxophonist, der den Jazz als einer der Hauptarchitekten des Bebop revolutionierte. Seine virtuose Technik und innovativen harmonischen Ideen beeinflussten den modernen Jazz tiefgreifend.",
+          nl: "Charlie Parker (1920-1955), bijgenaamd 'Bird' of 'Yardbird', was een baanbrekende altsaxofonist die jazz revolutioneerde als een van de hoofdarchitecten van bebop. Zijn virtuoze techniek en innovatieve harmonische ideeën beïnvloedden de moderne jazz diepgaand."
+        }
+      },
+      {
+        question: {
+          en: "Which composer is known for 'Ride of the Valkyries'?",
+          es: "¿Qué compositor es conocido por 'La Cabalgata de las Valkirias'?",
+          de: "Welcher Komponist ist für 'Walkürenritt' bekannt?",
+          nl: "Welke componist staat bekend om 'De Rit van de Walküren'?"
+        },
+        options: [
+          { en: "Richard Wagner", es: "Richard Wagner", de: "Richard Wagner", nl: "Richard Wagner" },
+          { en: "Gustav Mahler", es: "Gustav Mahler", de: "Gustav Mahler", nl: "Gustav Mahler" },
+          { en: "Richard Strauss", es: "Richard Strauss", de: "Richard Strauss", nl: "Richard Strauss" },
+          { en: "Anton Bruckner", es: "Anton Bruckner", de: "Anton Bruckner", nl: "Anton Bruckner" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Richard Wagner composed 'Ride of the Valkyries' as part of his opera 'Die Walküre' (The Valkyrie), the second opera in his monumental 'Ring Cycle'. This dramatic piece depicts warrior maidens riding into battle.",
+          es: "Richard Wagner compuso 'La Cabalgata de las Valkirias' como parte de su ópera 'Die Walküre' (La Valquiria), la segunda ópera de su monumental 'Ciclo del Anillo'. Esta pieza dramática representa doncellas guerreras cabalgando hacia la batalla.",
+          de: "Richard Wagner komponierte 'Walkürenritt' als Teil seiner Oper 'Die Walküre', der zweiten Oper seines monumentalen 'Ring-Zyklus'. Dieses dramatische Stück stellt Kriegermädchen dar, die in die Schlacht reiten.",
+          nl: "Richard Wagner componeerde 'De Rit van de Walküren' als onderdeel van zijn opera 'Die Walküre' (De Walkure), de tweede opera in zijn monumentale 'Ring Cyclus'. Dit dramatische stuk beeldt krijgersmaagden af die ten strijde trekken."
+        }
+      },
+      {
+        question: {
+          en: "Which composer wrote the '1812 Overture'?",
+          es: "¿Qué compositor escribió la 'Obertura 1812'?",
+          de: "Welcher Komponist schrieb die '1812 Ouvertüre'?",
+          nl: "Welke componist schreef de '1812 Ouverture'?"
+        },
+        options: [
+          { en: "Pyotr Ilyich Tchaikovsky", es: "Pyotr Ilyich Tchaikovsky", de: "Pyotr Ilyich Tchaikovsky", nl: "Pyotr Ilyich Tchaikovsky" },
+          { en: "Modest Mussorgsky", es: "Modest Mussorgsky", de: "Modest Mussorgsky", nl: "Modest Mussorgsky" },
+          { en: "Nikolai Rimsky-Korsakov", es: "Nikolai Rimsky-Korsakov", de: "Nikolai Rimsky-Korsakov", nl: "Nikolai Rimsky-Korsakov" },
+          { en: "Alexander Borodin", es: "Alexander Borodin", de: "Alexander Borodin", nl: "Alexander Borodin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tchaikovsky composed the '1812 Overture' in 1880 to commemorate Russia's defense against Napoleon's invading French army in 1812. The piece famously includes cannon fire and church bells.",
+          es: "Tchaikovsky compuso la 'Obertura 1812' en 1880 para conmemorar la defensa de Rusia contra el ejército francés invasor de Napoleón en 1812. La pieza incluye famosamente disparos de cañón y campanas de iglesia.",
+          de: "Tchaikovsky komponierte die '1812 Ouvertüre' 1880, um Russlands Verteidigung gegen Napoleons eindringende französische Armee im Jahr 1812 zu gedenken. Das Stück enthält berühmterweise Kanonenfeuer und Kirchenglocken.",
+          nl: "Tchaikovsky componeerde de '1812 Ouverture' in 1880 ter herdenking van Rusland's verdediging tegen Napoleon's binnenvallende Franse leger in 1812. Het stuk bevat beroemd kanonvuur en kerkklokken."
+        }
+      },
+      {
+        question: {
+          en: "Which composer wrote 'Finlandia'?",
+          es: "¿Qué compositor escribió 'Finlandia'?",
+          de: "Welcher Komponist schrieb 'Finlandia'?",
+          nl: "Welke componist schreef 'Finlandia'?"
+        },
+        options: [
+          { en: "Jean Sibelius", es: "Jean Sibelius", de: "Jean Sibelius", nl: "Jean Sibelius" },
+          { en: "Edvard Grieg", es: "Edvard Grieg", de: "Edvard Grieg", nl: "Edvard Grieg" },
+          { en: "Carl Nielsen", es: "Carl Nielsen", de: "Carl Nielsen", nl: "Carl Nielsen" },
+          { en: "Johan Svendsen", es: "Johan Svendsen", de: "Johan Svendsen", nl: "Johan Svendsen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jean Sibelius composed 'Finlandia' in 1899 as a tone poem that became a symbol of Finnish nationalism. The piece was so powerful that it was often banned by the Russian authorities who controlled Finland at the time.",
+          es: "Jean Sibelius compuso 'Finlandia' en 1899 como un poema sinfónico que se convirtió en un símbolo del nacionalismo finlandés. La pieza fue tan poderosa que fue a menudo prohibida por las autoridades rusas que controlaban Finlandia en ese momento.",
+          de: "Jean Sibelius komponierte 'Finlandia' 1899 als Tondichtung, die zum Symbol des finnischen Nationalismus wurde. Das Stück war so kraftvoll, dass es oft von den russischen Behörden verboten wurde, die Finnland zu dieser Zeit kontrollierten.",
+          nl: "Jean Sibelius componeerde 'Finlandia' in 1899 als een toongedicht dat een symbool van Fins nationalisme werd. Het stuk was zo krachtig dat het vaak werd verboden door de Russische autoriteiten die Finland destijds controleerden."
+        }
+      },
+      {
+        question: {
+          en: "Which composer wrote 'Pictures at an Exhibition'?",
+          es: "¿Qué compositor escribió 'Cuadros de una Exposición'?",
+          de: "Welcher Komponist schrieb 'Bilder einer Ausstellung'?",
+          nl: "Welke componist schreef 'Schilderijen van een Tentoonstelling'?"
+        },
+        options: [
+          { en: "Modest Mussorgsky", es: "Modest Mussorgsky", de: "Modest Mussorgsky", nl: "Modest Mussorgsky" },
+          { en: "Pyotr Ilyich Tchaikovsky", es: "Pyotr Ilyich Tchaikovsky", de: "Pyotr Ilyich Tchaikovsky", nl: "Pyotr Ilyich Tchaikovsky" },
+          { en: "Sergei Rachmaninoff", es: "Sergei Rachmaninoff", de: "Sergei Rachmaninoff", nl: "Sergei Rachmaninoff" },
+          { en: "Igor Stravinsky", es: "Igor Stravinsky", de: "Igor Stravinsky", nl: "Igor Stravinsky" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Modest Mussorgsky composed 'Pictures at an Exhibition' in 1874 as a piano suite inspired by an art exhibition of his friend Viktor Hartmann's paintings. Maurice Ravel later orchestrated it, creating the most famous version.",
+          es: "Modest Mussorgsky compuso 'Cuadros de una Exposición' en 1874 como una suite para piano inspirada en una exposición de arte de las pinturas de su amigo Viktor Hartmann. Maurice Ravel posteriormente lo orquestó, creando la versión más famosa.",
+          de: "Modest Mussorgsky komponierte 'Bilder einer Ausstellung' 1874 als Klaviersuite, inspiriert von einer Kunstausstellung der Gemälde seines Freundes Viktor Hartmann. Maurice Ravel orchestrierte es später und schuf die berühmteste Version.",
+          nl: "Modest Mussorgsky componeerde 'Schilderijen van een Tentoonstelling' in 1874 als een pianosuite geïnspireerd door een kunsttentoonstelling van schilderijen van zijn vriend Viktor Hartmann. Maurice Ravel orkestreerde het later en creëerde de beroemdste versie."
+        }
+      },
+      {
+        question: {
+          en: "Which composer is known for 'Peer Gynt Suite'?",
+          es: "¿Qué compositor es conocido por la 'Suite Peer Gynt'?",
+          de: "Welcher Komponist ist für die 'Peer Gynt Suite' bekannt?",
+          nl: "Welke componist staat bekend om de 'Peer Gynt Suite'?"
+        },
+        options: [
+          { en: "Edvard Grieg", es: "Edvard Grieg", de: "Edvard Grieg", nl: "Edvard Grieg" },
+          { en: "Jean Sibelius", es: "Jean Sibelius", de: "Jean Sibelius", nl: "Jean Sibelius" },
+          { en: "Carl Nielsen", es: "Carl Nielsen", de: "Carl Nielsen", nl: "Carl Nielsen" },
+          { en: "Hugo Alfvén", es: "Hugo Alfvén", de: "Hugo Alfvén", nl: "Hugo Alfvén" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Edvard Grieg composed the 'Peer Gynt Suite' as incidental music for Henrik Ibsen's play in 1875. Famous pieces include 'Morning Mood' and 'In the Hall of the Mountain King'.",
+          es: "Edvard Grieg compuso la 'Suite Peer Gynt' como música incidental para la obra de Henrik Ibsen en 1875. Piezas famosas incluyen 'Amanecer' y 'En el Salón del Rey de la Montaña'.",
+          de: "Edvard Grieg komponierte die 'Peer Gynt Suite' als Bühnenmusik für Henrik Ibsens Schauspiel im Jahr 1875. Berühmte Stücke sind 'Morgenstimmung' und 'In der Halle des Bergkönigs'.",
+          nl: "Edvard Grieg componeerde de 'Peer Gynt Suite' als toneelmuziek voor Henrik Ibsen's toneelstuk in 1875. Beroemde stukken zijn 'Morgenstemming' en 'In de Hal van de Bergkoning'."
+        }
+      },
+      {
+        question: {
+          en: "Which composer wrote 'The Planets' suite?",
+          es: "¿Qué compositor escribió la suite 'Los Planetas'?",
+          de: "Welcher Komponist schrieb die Suite 'Die Planeten'?",
+          nl: "Welke componist schreef de suite 'De Planeten'?"
+        },
+        options: [
+          { en: "Gustav Holst", es: "Gustav Holst", de: "Gustav Holst", nl: "Gustav Holst" },
+          { en: "Ralph Vaughan Williams", es: "Ralph Vaughan Williams", de: "Ralph Vaughan Williams", nl: "Ralph Vaughan Williams" },
+          { en: "Edward Elgar", es: "Edward Elgar", de: "Edward Elgar", nl: "Edward Elgar" },
+          { en: "Benjamin Britten", es: "Benjamin Britten", de: "Benjamin Britten", nl: "Benjamin Britten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gustav Holst composed 'The Planets' suite between 1914-1916. Each movement represents a different planet's astrological character. 'Mars, the Bringer of War' and 'Jupiter, the Bringer of Jollity' are the most famous movements.",
+          es: "Gustav Holst compuso la suite 'Los Planetas' entre 1914-1916. Cada movimiento representa el carácter astrológico de un planeta diferente. 'Marte, el Portador de Guerra' y 'Júpiter, el Portador de Alegría' son los movimientos más famosos.",
+          de: "Gustav Holst komponierte die Suite 'Die Planeten' zwischen 1914-1916. Jeder Satz repräsentiert den astrologischen Charakter eines anderen Planeten. 'Mars, der Kriegsbringer' und 'Jupiter, der Freudenbringer' sind die berühmtesten Sätze.",
+          nl: "Gustav Holst componeerde de suite 'De Planeten' tussen 1914-1916. Elk deel vertegenwoordigt het astrologische karakter van een andere planeet. 'Mars, de Brenger van Oorlog' en 'Jupiter, de Brenger van Vrolijkheid' zijn de beroemdste delen."
+        }
+      },
+      {
+        question: {
+          en: "Which composer wrote 'Appalachian Spring'?",
+          es: "¿Qué compositor escribió 'Primavera Apalache'?",
+          de: "Welcher Komponist schrieb 'Appalachian Spring'?",
+          nl: "Welke componist schreef 'Appalachian Spring'?"
+        },
+        options: [
+          { en: "Aaron Copland", es: "Aaron Copland", de: "Aaron Copland", nl: "Aaron Copland" },
+          { en: "Samuel Barber", es: "Samuel Barber", de: "Samuel Barber", nl: "Samuel Barber" },
+          { en: "Charles Ives", es: "Charles Ives", de: "Charles Ives", nl: "Charles Ives" },
+          { en: "John Philip Sousa", es: "John Philip Sousa", de: "John Philip Sousa", nl: "John Philip Sousa" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Aaron Copland composed 'Appalachian Spring' in 1944 as a ballet score. This quintessentially American work won the Pulitzer Prize for Music and features variations on the Shaker melody 'Simple Gifts'.",
+          es: "Aaron Copland compuso 'Primavera Apalache' en 1944 como una partitura de ballet. Esta obra quintaesencialmente estadounidense ganó el Premio Pulitzer de Música y presenta variaciones sobre la melodía Shaker 'Simple Gifts'.",
+          de: "Aaron Copland komponierte 'Appalachian Spring' 1944 als Ballettmusik. Dieses typisch amerikanische Werk gewann den Pulitzer-Preis für Musik und enthält Variationen über die Shaker-Melodie 'Simple Gifts'.",
+          nl: "Aaron Copland componeerde 'Appalachian Spring' in 1944 als een balletscore. Dit typisch Amerikaans werk won de Pulitzer Prize voor Muziek en bevat variaties op de Shaker-melodie 'Simple Gifts'."
+        }
+      },
+      {
+        question: {
+          en: "Which composer wrote 'Adagio for Strings'?",
+          es: "¿Qué compositor escribió 'Adagio para Cuerdas'?",
+          de: "Welcher Komponist schrieb 'Adagio for Strings'?",
+          nl: "Welke componist schreef 'Adagio for Strings'?"
+        },
+        options: [
+          { en: "Samuel Barber", es: "Samuel Barber", de: "Samuel Barber", nl: "Samuel Barber" },
+          { en: "Aaron Copland", es: "Aaron Copland", de: "Aaron Copland", nl: "Aaron Copland" },
+          { en: "Leonard Bernstein", es: "Leonard Bernstein", de: "Leonard Bernstein", nl: "Leonard Bernstein" },
+          { en: "George Gershwin", es: "George Gershwin", de: "George Gershwin", nl: "George Gershwin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Samuel Barber composed 'Adagio for Strings' in 1936, originally as the slow movement of his String Quartet. This deeply emotional piece has become one of the most performed American classical works and is often played at funerals and memorial services.",
+          es: "Samuel Barber compuso 'Adagio para Cuerdas' en 1936, originalmente como el movimiento lento de su Cuarteto de Cuerdas. Esta pieza profundamente emocional se ha convertido en una de las obras clásicas estadounidenses más interpretadas y se toca a menudo en funerales y servicios conmemorativos.",
+          de: "Samuel Barber komponierte 'Adagio for Strings' 1936, ursprünglich als langsamer Satz seines Streichquartetts. Dieses zutiefst emotionale Stück wurde zu einem der am häufigsten aufgeführten amerikanischen klassischen Werke und wird oft bei Beerdigungen und Gedenkgottesdiensten gespielt.",
+          nl: "Samuel Barber componeerde 'Adagio for Strings' in 1936, oorspronkelijk als het langzame deel van zijn Strijkkwartet. Dit diep emotionele stuk is een van de meest uitgevoerde Amerikaanse klassieke werken geworden en wordt vaak gespeeld bij begrafenissen en herdenkingsdiensten."
+        }
+      },
+      {
+        question: {
+          en: "Which composer wrote 'The Rite of Spring'?",
+          es: "¿Qué compositor escribió 'La Consagración de la Primavera'?",
+          de: "Welcher Komponist schrieb 'Le Sacre du Printemps'?",
+          nl: "Welke componist schreef 'Le Sacre du Printemps'?"
+        },
+        options: [
+          { en: "Igor Stravinsky", es: "Igor Stravinsky", de: "Igor Stravinsky", nl: "Igor Stravinsky" },
+          { en: "Sergei Prokofiev", es: "Sergei Prokofiev", de: "Sergei Prokofiev", nl: "Sergei Prokofiev" },
+          { en: "Dmitri Shostakovich", es: "Dmitri Shostakovich", de: "Dmitri Shostakovich", nl: "Dmitri Shostakovich" },
+          { en: "Claude Debussy", es: "Claude Debussy", de: "Claude Debussy", nl: "Claude Debussy" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Igor Stravinsky composed 'The Rite of Spring' for ballet in 1913. Its avant-garde music caused a riot at its Paris premiere but later became recognized as one of the most influential compositions of the 20th century.",
+          es: "Igor Stravinsky compuso 'La Consagración de la Primavera' para ballet en 1913. Su música vanguardista causó un disturbio en su estreno en París, pero luego fue reconocida como una de las composiciones más influyentes del siglo XX.",
+          de: "Igor Stravinsky komponierte 'Le Sacre du Printemps' für Ballett im Jahr 1913. Seine avantgardistische Musik verursachte bei der Pariser Premiere einen Aufruhr, wurde aber später als eine der einflussreichsten Kompositionen des 20. Jahrhunderts anerkannt.",
+          nl: "Igor Stravinsky componeerde 'Le Sacre du Printemps' voor ballet in 1913. Zijn avant-garde muziek veroorzaakte een rel bij de Parijse première, maar werd later erkend als een van de meest invloedrijke composities van de 20e eeuw."
+        }
+      },
+      {
+        question: {
+          en: "Which composer wrote 'The Marriage of Figaro'?",
+          es: "¿Qué compositor escribió 'Las Bodas de Fígaro'?",
+          de: "Welcher Komponist schrieb 'Die Hochzeit des Figaro'?",
+          nl: "Welke componist schreef 'De Bruiloft van Figaro'?"
+        },
+        options: [
+          { en: "Wolfgang Amadeus Mozart", es: "Wolfgang Amadeus Mozart", de: "Wolfgang Amadeus Mozart", nl: "Wolfgang Amadeus Mozart" },
+          { en: "Gioachino Rossini", es: "Gioachino Rossini", de: "Gioachino Rossini", nl: "Gioachino Rossini" },
+          { en: "Giuseppe Verdi", es: "Giuseppe Verdi", de: "Giuseppe Verdi", nl: "Giuseppe Verdi" },
+          { en: "Gaetano Donizetti", es: "Gaetano Donizetti", de: "Gaetano Donizetti", nl: "Gaetano Donizetti" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Wolfgang Amadeus Mozart composed 'The Marriage of Figaro' in 1786, based on a play by Beaumarchais. This opera buffa (comic opera) is considered one of the greatest operas ever written, featuring the famous overture and many memorable arias.",
+          es: "Wolfgang Amadeus Mozart compuso 'Las Bodas de Fígaro' en 1786, basada en una obra de Beaumarchais. Esta ópera bufa (ópera cómica) es considerada una de las mejores óperas jamás escritas, con la famosa obertura y muchas arias memorables.",
+          de: "Wolfgang Amadeus Mozart komponierte 'Die Hochzeit des Figaro' 1786, basierend auf einem Stück von Beaumarchais. Diese Opera buffa (komische Oper) gilt als eine der größten Opern, die je geschrieben wurden, mit der berühmten Ouvertüre und vielen unvergesslichen Arien.",
+          nl: "Wolfgang Amadeus Mozart componeerde 'De Bruiloft van Figaro' in 1786, gebaseerd op een toneelstuk van Beaumarchais. Deze opera buffa (komische opera) wordt beschouwd als een van de grootste opera's ooit geschreven, met de beroemde ouverture en vele gedenkwaardige aria's."
+        }
+      },
+      {
+        question: {
+          en: "Which composer wrote 'Prelude to the Afternoon of a Faun'?",
+          es: "¿Qué compositor escribió 'Preludio a la Siesta de un Fauno'?",
+          de: "Welcher Komponist schrieb 'Prélude à l'après-midi d'un faune'?",
+          nl: "Welke componist schreef 'Prélude à l'après-midi d'un faune'?"
+        },
+        options: [
+          { en: "Claude Debussy", es: "Claude Debussy", de: "Claude Debussy", nl: "Claude Debussy" },
+          { en: "Maurice Ravel", es: "Maurice Ravel", de: "Maurice Ravel", nl: "Maurice Ravel" },
+          { en: "Gabriel Fauré", es: "Gabriel Fauré", de: "Gabriel Fauré", nl: "Gabriel Fauré" },
+          { en: "Erik Satie", es: "Erik Satie", de: "Erik Satie", nl: "Erik Satie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Claude Debussy composed 'Prelude to the Afternoon of a Faun' in 1894, inspired by a poem by Stéphane Mallarmé. This impressionist masterpiece is considered revolutionary for its sensuous harmonies and orchestral colors.",
+          es: "Claude Debussy compuso 'Preludio a la Siesta de un Fauno' en 1894, inspirado en un poema de Stéphane Mallarmé. Esta obra maestra impresionista es considerada revolucionaria por sus armonías sensuales y colores orquestales.",
+          de: "Claude Debussy komponierte 'Prélude à l'après-midi d'un faune' 1894, inspiriert von einem Gedicht von Stéphane Mallarmé. Dieses impressionistische Meisterwerk gilt als revolutionär wegen seiner sinnlichen Harmonien und Orchesterfarben.",
+          nl: "Claude Debussy componeerde 'Prélude à l'après-midi d'un faune' in 1894, geïnspireerd door een gedicht van Stéphane Mallarmé. Dit impressionistische meesterwerk wordt als revolutionair beschouwd vanwege zijn sensuele harmonieën en orkestkleuren."
+        }
+      },
+      {
+        question: {
+          en: "Which composer suffered from severe hearing loss and was completely deaf by the end of his life?",
+          es: "¿Qué compositor sufrió una severa pérdida auditiva y estaba completamente sordo al final de su vida?",
+          de: "Welcher Komponist litt unter schwerem Hörverlust und war am Ende seines Lebens vollständig taub?",
+          nl: "Welke componist leed aan ernstig gehoorverlies en was volledig doof aan het einde van zijn leven?"
+        },
+        options: [
+          { en: "Ludwig van Beethoven", es: "Ludwig van Beethoven", de: "Ludwig van Beethoven", nl: "Ludwig van Beethoven" },
+          { en: "Wolfgang Amadeus Mozart", es: "Wolfgang Amadeus Mozart", de: "Wolfgang Amadeus Mozart", nl: "Wolfgang Amadeus Mozart" },
+          { en: "Franz Schubert", es: "Franz Schubert", de: "Franz Schubert", nl: "Franz Schubert" },
+          { en: "Johannes Brahms", es: "Johannes Brahms", de: "Johannes Brahms", nl: "Johannes Brahms" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ludwig van Beethoven began losing his hearing in his late 20s and was almost completely deaf by 1814. Despite this, he composed some of his greatest works including the Ninth Symphony while completely deaf, conducting its premiere in 1824 without being able to hear it.",
+          es: "Ludwig van Beethoven comenzó a perder la audición a finales de sus 20 años y estaba casi completamente sordo en 1814. A pesar de esto, compuso algunas de sus mejores obras incluyendo la Novena Sinfonía mientras estaba completamente sordo, dirigiendo su estreno en 1824 sin poder oírla.",
+          de: "Ludwig van Beethoven begann Ende seiner 20er Jahre sein Gehör zu verlieren und war bis 1814 fast vollständig taub. Trotzdem komponierte er einige seiner größten Werke einschließlich der Neunten Symphonie während er vollständig taub war und dirigierte 1824 ihre Uraufführung, ohne sie hören zu können.",
+          nl: "Ludwig van Beethoven begon zijn gehoor te verliezen tegen het einde van zijn 20e levensjaar en was tegen 1814 bijna volledig doof. Ondanks dit componeerde hij enkele van zijn grootste werken waaronder de Negende Symfonie terwijl hij volledig doof was, en dirigeerde hij de première ervan in 1824 zonder het te kunnen horen."
         }
       }
     ]

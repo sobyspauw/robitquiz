@@ -390,44 +390,464 @@
       },
       {
         question: {
-          en: "What is 'som tam' and from which country does it originate?",
-          es: "¿Qué es 'som tam' y de qué país se origina?",
-          de: "Was ist 'Som Tam' und aus welchem Land stammt es?",
-          nl: "Wat is 'som tam' en uit welk land komt het?"
+          en: "What is 'bao' and in which Asian cuisine is it most popular?",
+          es: "¿Qué es 'bao' y en qué cocina asiática es más popular?",
+          de: "Was ist 'Bao' und in welcher asiatischen Küche ist es am beliebtesten?",
+          nl: "Wat is 'bao' en in welke Aziatische keuken is het het populairst?"
         },
         options: [
-          { en: "Thai green papaya salad", es: "Ensalada tailandesa de papaya verde", de: "Thailändischer grüner Papayasalat", nl: "Thaise groene papaja salade" },
-          { en: "Vietnamese spring roll", es: "Rollo de primavera vietnamita", de: "Vietnamesische Frühlingsrolle", nl: "Vietnamese loempia" },
-          { en: "Korean kimchi", es: "Kimchi coreano", de: "Koreanisches Kimchi", nl: "Koreaanse kimchi" },
-          { en: "Japanese miso soup", es: "Sopa de miso japonesa", de: "Japanische Miso-Suppe", nl: "Japanse miso soep" }
+          { en: "Chinese steamed bun with various fillings", es: "Panecillo chino al vapor con varios rellenos", de: "Chinesisches gedämpftes Brötchen mit verschiedenen Füllungen", nl: "Chinees gestoomd broodje met verschillende vullingen" },
+          { en: "Japanese rice cracker", es: "Galleta de arroz japonesa", de: "Japanischer Reiscracker", nl: "Japanse rijstcracker" },
+          { en: "Thai coconut dessert", es: "Postre de coco tailandés", de: "Thailändisches Kokosnuss-Dessert", nl: "Thais kokos dessert" },
+          { en: "Vietnamese fried pastry", es: "Pastelería frita vietnamita", de: "Vietnamesisches frittiertes Gebäck", nl: "Vietnamese gefrituurde gebak" }
         ],
         correct: 0,
         explanation: {
-          en: "Som tam is a traditional Thai salad made from shredded green papaya, typically seasoned with lime juice, fish sauce, palm sugar, chili, garlic, and peanuts, popular as street food.",
-          es: "Som tam es una ensalada tailandesa tradicional hecha de papaya verde rallada, típicamente sazonada con jugo de lima, salsa de pescado, azúcar de palma, chile, ajo y maní, popular como comida callejera.",
-          de: "Som Tam ist ein traditioneller thailändischer Salat aus geraspelter grüner Papaya, normalerweise mit Limettensaft, Fischsauce, Palmzucker, Chili, Knoblauch und Erdnüssen gewürzt, beliebt als Straßenessen.",
-          nl: "Som tam is een traditionele Thaise salade gemaakt van geraspte groene papaja, meestal gekruid met limoensap, vissaus, palmsuiker, chili, knoflook en pinda's, populair als straatvoedsel."
+          en: "Bao are soft, fluffy Chinese steamed buns that can be filled with various ingredients like pork, vegetables, or sweet fillings, popular street food across China and Taiwan.",
+          es: "Bao son panecillos chinos al vapor suaves y esponjosos que pueden rellenarse con varios ingredientes como cerdo, verduras o rellenos dulces, comida callejera popular en China y Taiwán.",
+          de: "Bao sind weiche, fluffige chinesische gedämpfte Brötchen, die mit verschiedenen Zutaten wie Schweinefleisch, Gemüse oder süßen Füllungen gefüllt werden können, beliebtes Straßenessen in ganz China und Taiwan.",
+          nl: "Bao zijn zachte, luchtige Chinese gestoomde broodjes die gevuld kunnen worden met verschillende ingrediënten zoals varkensvlees, groenten of zoete vullingen, populair straatvoedsel in China en Taiwan."
         }
       },
       {
         question: {
-          en: "Which Korean street food consists of rice cakes in spicy sauce?",
-          es: "¿Qué comida callejera coreana consiste en pasteles de arroz en salsa picante?",
-          de: "Welches koreanische Straßenessen besteht aus Reiskuchen in scharfer Sauce?",
-          nl: "Welk Koreaans straatvoedsel bestaat uit rijstcakes in pittige saus?"
+          en: "What is 'pad thai' and what are its main ingredients?",
+          es: "¿Qué es 'pad thai' y cuáles son sus ingredientes principales?",
+          de: "Was ist 'Pad Thai' und was sind seine Hauptzutaten?",
+          nl: "Wat is 'pad thai' en wat zijn de belangrijkste ingrediënten?"
         },
         options: [
-          { en: "Bulgogi", es: "Bulgogi", de: "Bulgogi", nl: "Bulgogi" },
-          { en: "Tteokbokki", es: "Tteokbokki", de: "Tteokbokki", nl: "Tteokbokki" },
-          { en: "Bibimbap", es: "Bibimbap", de: "Bibimbap", nl: "Bibimbap" },
-          { en: "Japchae", es: "Japchae", de: "Japchae", nl: "Japchae" }
+          { en: "Thai stir-fried rice noodles with tamarind, eggs, and peanuts", es: "Fideos de arroz tailandeses salteados con tamarindo, huevos y maní", de: "Thailändische gebratene Reisnudeln mit Tamarinde, Eiern und Erdnüssen", nl: "Thaise geroerbakte rijstnoedels met tamarinde, eieren en pinda's" },
+          { en: "Japanese ramen soup", es: "Sopa de ramen japonesa", de: "Japanische Ramen-Suppe", nl: "Japanse ramen soep" },
+          { en: "Korean kimchi fried rice", es: "Arroz frito con kimchi coreano", de: "Koreanischer Kimchi-gebratener Reis", nl: "Koreaanse kimchi gebakken rijst" },
+          { en: "Chinese spring rolls", es: "Rollos de primavera chinos", de: "Chinesische Frühlingsrollen", nl: "Chinese loempia's" }
         ],
-        correct: 1,
+        correct: 0,
         explanation: {
-          en: "Tteokbokki is a popular Korean street food made of soft rice cakes cooked in a sweet and spicy sauce made from gochujang (Korean chili paste), often served with fish cakes and boiled eggs.",
-          es: "Tteokbokki es una comida callejera coreana popular hecha de pasteles de arroz suaves cocidos en una salsa dulce y picante hecha de gochujang (pasta de chile coreana), a menudo servida con pasteles de pescado y huevos hervidos.",
-          de: "Tteokbokki ist ein beliebtes koreanisches Straßenessen aus weichen Reiskuchen, die in einer süß-scharfen Sauce aus Gochujang (koreanische Chilipaste) gekocht werden, oft mit Fischkuchen und gekochten Eiern serviert.",
-          nl: "Tteokbokki is een populair Koreaans straatvoedsel gemaakt van zachte rijstcakes gekookt in een zoete en pittige saus gemaakt van gochujang (Koreaanse chilipasta), vaak geserveerd met viskoejes en gekookte eieren."
+          en: "Pad Thai is Thailand's signature stir-fried noodle dish made with rice noodles, tamarind paste, fish sauce, eggs, tofu or shrimp, bean sprouts, and topped with crushed peanuts and lime.",
+          es: "Pad Thai es el plato emblemático de fideos salteados de Tailandia hecho con fideos de arroz, pasta de tamarindo, salsa de pescado, huevos, tofu o camarones, brotes de soja, y cubierto con maní triturado y lima.",
+          de: "Pad Thai ist Thailands charakteristisches gebratenes Nudelgericht aus Reisnudeln, Tamarindenpaste, Fischsauce, Eiern, Tofu oder Garnelen, Bohnensprossen und belegt mit zerkleinerten Erdnüssen und Limette.",
+          nl: "Pad Thai is Thailand's kenmerkende geroerbakte noedelgerecht gemaakt met rijstnoedels, tamarindepasta, vissaus, eieren, tofu of garnalen, taugé, en belegd met geplette pinda's en limoen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'satay' and how is it traditionally prepared?",
+          es: "¿Qué es 'satay' y cómo se prepara tradicionalmente?",
+          de: "Was ist 'Satay' und wie wird es traditionell zubereitet?",
+          nl: "Wat is 'satay' en hoe wordt het traditioneel bereid?"
+        },
+        options: [
+          { en: "Grilled skewered meat served with peanut sauce", es: "Carne ensartada a la parrilla servida con salsa de maní", de: "Gegrilltes Fleisch am Spieß serviert mit Erdnusssauce", nl: "Gegrild vlees aan spiesjes geserveerd met pindasaus" },
+          { en: "Steamed dumplings", es: "Dumplings al vapor", de: "Gedämpfte Teigtaschen", nl: "Gestoomde dumplings" },
+          { en: "Fried spring rolls", es: "Rollos de primavera fritos", de: "Frittierte Frühlingsrollen", nl: "Gefrituurde loempia's" },
+          { en: "Noodle soup", es: "Sopa de fideos", de: "Nudelsuppe", nl: "Noedelsoep" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Satay is marinated meat (chicken, beef, or lamb) grilled on bamboo skewers over charcoal, served with peanut sauce, popular street food in Indonesia, Malaysia, Singapore, and Thailand.",
+          es: "Satay es carne marinada (pollo, res o cordero) asada en brochetas de bambú sobre carbón, servida con salsa de maní, comida callejera popular en Indonesia, Malasia, Singapur y Tailandia.",
+          de: "Satay ist mariniertes Fleisch (Huhn, Rind oder Lamm), das auf Bambusspießen über Holzkohle gegrillt und mit Erdnusssauce serviert wird, beliebtes Straßenessen in Indonesien, Malaysia, Singapur und Thailand.",
+          nl: "Satay is gemarineerd vlees (kip, rund of lam) gegrild op bamboe spiesjes boven houtskool, geserveerd met pindasaus, populair straatvoedsel in Indonesië, Maleisië, Singapore en Thailand."
+        }
+      },
+      {
+        question: {
+          en: "What is 'takoyaki' and what is its main filling?",
+          es: "¿Qué es 'takoyaki' y cuál es su relleno principal?",
+          de: "Was ist 'Takoyaki' und was ist seine Hauptfüllung?",
+          nl: "Wat is 'takoyaki' en wat is de belangrijkste vulling?"
+        },
+        options: [
+          { en: "Japanese octopus balls made in special molded pans", es: "Bolas de pulpo japonesas hechas en sartenes moldeadas especiales", de: "Japanische Oktopus-Bällchen in speziellen geformten Pfannen gemacht", nl: "Japanse octopus balletjes gemaakt in speciale gevormde pannen" },
+          { en: "Korean rice cakes", es: "Pasteles de arroz coreanos", de: "Koreanische Reiskuchen", nl: "Koreaanse rijstcakes" },
+          { en: "Chinese dumplings", es: "Dumplings chinos", de: "Chinesische Teigtaschen", nl: "Chinese dumplings" },
+          { en: "Thai fish cakes", es: "Pasteles de pescado tailandeses", de: "Thailändische Fischkuchen", nl: "Thaise viskoejes" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Takoyaki are popular Japanese street food balls made from wheat flour batter filled with diced octopus, cooked in special molded pans, topped with takoyaki sauce, mayonnaise, and bonito flakes.",
+          es: "Takoyaki son bolas populares de comida callejera japonesa hechas de masa de harina de trigo rellenas con pulpo en cubitos, cocinadas en sartenes moldeadas especiales, cubiertas con salsa takoyaki, mayonesa y hojuelas de bonito.",
+          de: "Takoyaki sind beliebte japanische Straßenessen-Bällchen aus Weizenmehlteig gefüllt mit gewürfeltem Oktopus, gekocht in speziellen geformten Pfannen, belegt mit Takoyaki-Sauce, Mayonnaise und Bonito-Flocken.",
+          nl: "Takoyaki zijn populaire Japanse straatvoedsel balletjes gemaakt van tarwemeelbeslag gevuld met blokjes octopus, gekookt in speciale gevormde pannen, belegd met takoyaki saus, mayonaise en bonito vlokken."
+        }
+      },
+      {
+        question: {
+          en: "What is 'banh mi' and what makes it distinctive?",
+          es: "¿Qué es 'banh mi' y qué lo hace distintivo?",
+          de: "Was ist 'Banh Mi' und was macht es unverwechselbar?",
+          nl: "Wat is 'banh mi' en wat maakt het onderscheidend?"
+        },
+        options: [
+          { en: "Vietnamese baguette sandwich with fusion fillings", es: "Sándwich de baguette vietnamita con rellenos de fusión", de: "Vietnamesisches Baguette-Sandwich mit Fusion-Füllungen", nl: "Vietnamese baguette sandwich met fusie vullingen" },
+          { en: "Japanese rice ball", es: "Bola de arroz japonesa", de: "Japanischer Reisball", nl: "Japanse rijstbal" },
+          { en: "Thai curry dish", es: "Plato de curry tailandés", de: "Thailändisches Curry-Gericht", nl: "Thais curry gerecht" },
+          { en: "Chinese steamed bun", es: "Panecillo chino al vapor", de: "Chinesisches gedämpftes Brötchen", nl: "Chinees gestoomd broodje" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Banh mi is a Vietnamese sandwich on a crispy French baguette filled with Vietnamese ingredients like pate, pickled vegetables, cilantro, chili, and various meats, showcasing French-Vietnamese culinary fusion.",
+          es: "Banh mi es un sándwich vietnamita en una baguette francesa crujiente rellena con ingredientes vietnamitas como paté, verduras encurtidas, cilantro, chile y varias carnes, mostrando la fusión culinaria franco-vietnamita.",
+          de: "Banh Mi ist ein vietnamesisches Sandwich auf einem knusprigen französischen Baguette gefüllt mit vietnamesischen Zutaten wie Pastete, eingelegtem Gemüse, Koriander, Chili und verschiedenen Fleischsorten, was die französisch-vietnamesische kulinarische Fusion zeigt.",
+          nl: "Banh mi is een Vietnamese sandwich op een knapperig Frans stokbrood gevuld met Vietnamese ingrediënten zoals paté, ingelegde groenten, koriander, chili en verschillende vleessoorten, een combinatie van Frans-Vietnamese culinaire fusie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'jianbing' and when is it typically eaten?",
+          es: "¿Qué es 'jianbing' y cuándo se come típicamente?",
+          de: "Was ist 'Jianbing' und wann wird es normalerweise gegessen?",
+          nl: "Wat is 'jianbing' en wanneer wordt het meestal gegeten?"
+        },
+        options: [
+          { en: "Chinese breakfast crepe with egg and crispy crackers", es: "Crepe de desayuno chino con huevo y galletas crujientes", de: "Chinesischer Frühstücks-Crêpe mit Ei und knusprigen Crackern", nl: "Chinese ontbijt crêpe met ei en knapperige crackers" },
+          { en: "Japanese dinner soup", es: "Sopa de cena japonesa", de: "Japanische Abendsuppe", nl: "Japanse avondsoep" },
+          { en: "Korean lunch box", es: "Caja de almuerzo coreana", de: "Koreanische Lunchbox", nl: "Koreaanse lunchbox" },
+          { en: "Thai night snack", es: "Bocadillo nocturno tailandés", de: "Thailändischer Nachtsnack", nl: "Thaise avondsnack" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jianbing is a popular Chinese breakfast street food - a thin crepe made from wheat and grain flour, spread with egg, filled with crispy wonton crackers, scallions, cilantro, and savory sauces.",
+          es: "Jianbing es una comida callejera de desayuno china popular - un crepe delgado hecho de harina de trigo y granos, untado con huevo, relleno con galletas wonton crujientes, cebolletas, cilantro y salsas saladas.",
+          de: "Jianbing ist ein beliebtes chinesisches Frühstücks-Straßenessen - ein dünner Crêpe aus Weizen- und Getreidemehl, mit Ei bestrichen, gefüllt mit knusprigen Wonton-Crackern, Frühlingszwiebeln, Koriander und herzhaften Saucen.",
+          nl: "Jianbing is een populair Chinees ontbijt straatvoedsel - een dunne crêpe gemaakt van tarwe- en graanmeel, besmeerd met ei, gevuld met knapperige wonton crackers, lente-uitjes, koriander en hartige sauzen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'pani puri' and how is it eaten?",
+          es: "¿Qué es 'pani puri' y cómo se come?",
+          de: "Was ist 'Pani Puri' und wie wird es gegessen?",
+          nl: "Wat is 'pani puri' en hoe wordt het gegeten?"
+        },
+        options: [
+          { en: "Indian hollow crispy shells filled with spiced water and fillings", es: "Conchas crujientes huecas indias rellenas con agua condimentada y rellenos", de: "Indische hohle knusprige Schalen gefüllt mit gewürztem Wasser und Füllungen", nl: "Indiase holle knapperige schalen gevuld met gekruid water en vullingen" },
+          { en: "Japanese sushi roll", es: "Rollo de sushi japonés", de: "Japanische Sushi-Rolle", nl: "Japanse sushi rol" },
+          { en: "Chinese dumpling soup", es: "Sopa de dumplings china", de: "Chinesische Teigtaschen-Suppe", nl: "Chinese dumpling soep" },
+          { en: "Thai noodle salad", es: "Ensalada de fideos tailandesa", de: "Thailändischer Nudelsalat", nl: "Thaise noedelsalade" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pani puri (also called gol gappa) are crispy hollow puri shells filled with spiced tamarind water, potatoes, chickpeas, and chutneys, eaten whole in one bite as popular Indian street food.",
+          es: "Pani puri (también llamado gol gappa) son conchas puri huecas crujientes rellenas con agua de tamarindo condimentada, papas, garbanzos y chutneys, comidas enteras en un bocado como comida callejera india popular.",
+          de: "Pani Puri (auch Gol Gappa genannt) sind knusprige hohle Puri-Schalen gefüllt mit gewürztem Tamarindenwasser, Kartoffeln, Kichererbsen und Chutneys, in einem Bissen ganz gegessen als beliebtes indisches Straßenessen.",
+          nl: "Pani puri (ook wel gol gappa genoemd) zijn knapperige holle puri schalen gevuld met gekruid tamarindewater, aardappelen, kikkererwten en chutneys, in één hap heel gegeten als populair Indiaas straatvoedsel."
+        }
+      },
+      {
+        question: {
+          en: "What is 'kimbap' and how does it differ from sushi?",
+          es: "¿Qué es 'kimbap' y en qué se diferencia del sushi?",
+          de: "Was ist 'Kimbap' und wie unterscheidet es sich von Sushi?",
+          nl: "Wat is 'kimbap' en hoe verschilt het van sushi?"
+        },
+        options: [
+          { en: "Korean seaweed rice roll with cooked ingredients and sesame oil", es: "Rollo de arroz con algas coreano con ingredientes cocidos y aceite de sésamo", de: "Koreanische Seetang-Reisrolle mit gekochten Zutaten und Sesamöl", nl: "Koreaanse zeewier rijstrol met gekookte ingrediënten en sesamolie" },
+          { en: "Japanese raw fish roll with wasabi", es: "Rollo de pescado crudo japonés con wasabi", de: "Japanische rohe Fischrolle mit Wasabi", nl: "Japanse rauwe visrol met wasabi" },
+          { en: "Chinese spring roll wrapper", es: "Envoltorio de rollo de primavera chino", de: "Chinesische Frühlingsrollen-Hülle", nl: "Chinese loempia wrapper" },
+          { en: "Thai rice paper roll", es: "Rollo de papel de arroz tailandés", de: "Thailändische Reispapier-Rolle", nl: "Thaise rijstpapier rol" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Kimbap is Korean rice rolled in seaweed with cooked vegetables, egg, and meat, seasoned with sesame oil. Unlike sushi, it doesn't use raw fish or vinegared rice, making it ideal portable street food.",
+          es: "Kimbap es arroz coreano enrollado en algas con verduras cocidas, huevo y carne, sazonado con aceite de sésamo. A diferencia del sushi, no usa pescado crudo ni arroz avinagrado, lo que lo hace ideal como comida callejera portátil.",
+          de: "Kimbap ist koreanischer Reis gerollt in Seetang mit gekochtem Gemüse, Ei und Fleisch, gewürzt mit Sesamöl. Im Gegensatz zu Sushi verwendet es keinen rohen Fisch oder Essig-Reis, was es zu idealem tragbaren Straßenessen macht.",
+          nl: "Kimbap is Koreaanse rijst gerold in zeewier met gekookte groenten, ei en vlees, gekruid met sesamolie. In tegenstelling tot sushi gebruikt het geen rauwe vis of azijnrijst, waardoor het ideaal draagbaar straatvoedsel is."
+        }
+      },
+      {
+        question: {
+          en: "What is 'khao man gai' and from which cuisine does it come?",
+          es: "¿Qué es 'khao man gai' y de qué cocina proviene?",
+          de: "Was ist 'Khao Man Gai' und aus welcher Küche stammt es?",
+          nl: "Wat is 'khao man gai' en uit welke keuken komt het?"
+        },
+        options: [
+          { en: "Thai chicken rice with ginger sauce", es: "Arroz con pollo tailandés con salsa de jengibre", de: "Thailändisches Hühnerreis mit Ingwersauce", nl: "Thaise kiprijst met gembersaus" },
+          { en: "Japanese teriyaki bowl", es: "Bol de teriyaki japonés", de: "Japanische Teriyaki-Schüssel", nl: "Japanse teriyaki bowl" },
+          { en: "Korean bibimbap", es: "Bibimbap coreano", de: "Koreanisches Bibimbap", nl: "Koreaanse bibimbap" },
+          { en: "Chinese fried rice", es: "Arroz frito chino", de: "Chinesischer gebratener Reis", nl: "Chinese gebakken rijst" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Khao man gai is Thai chicken rice - tender poached chicken served over fragrant chicken-fat rice with cucumber, cilantro, and a pungent ginger-garlic sauce, popular street food inspired by Hainanese chicken rice.",
+          es: "Khao man gai es arroz con pollo tailandés - pollo tierno escalfado servido sobre arroz aromático con grasa de pollo con pepino, cilantro y una salsa picante de jengibre y ajo, comida callejera popular inspirada en el arroz con pollo hainanés.",
+          de: "Khao Man Gai ist thailändisches Hühnerreis - zartes pochiertes Huhn serviert über duftendem Hühnerfett-Reis mit Gurke, Koriander und einer scharfen Ingwer-Knoblauch-Sauce, beliebtes Straßenessen inspiriert von hainanesischem Hühnerreis.",
+          nl: "Khao man gai is Thaise kiprijst - mals gepocheerd kip geserveerd over geurige kippenvetten rijst met komkommer, koriander en een scherpe gember-knoflook saus, populair straatvoedsel geïnspireerd op Hainanese kiprijst."
+        }
+      },
+      {
+        question: {
+          en: "What is 'rojak' and what makes it unique?",
+          es: "¿Qué es 'rojak' y qué lo hace único?",
+          de: "Was ist 'Rojak' und was macht es einzigartig?",
+          nl: "Wat is 'rojak' en wat maakt het uniek?"
+        },
+        options: [
+          { en: "Malaysian/Singaporean fruit and vegetable salad with sweet-spicy sauce", es: "Ensalada de frutas y verduras malasia/singapurense con salsa dulce-picante", de: "Malaysischer/singapurischer Obst- und Gemüsesalat mit süß-scharfer Sauce", nl: "Maleisische/Singaporese fruit en groente salade met zoet-pittige saus" },
+          { en: "Japanese sashimi platter", es: "Plato de sashimi japonés", de: "Japanische Sashimi-Platte", nl: "Japanse sashimi schotel" },
+          { en: "Korean barbecue meat", es: "Carne de barbacoa coreana", de: "Koreanisches Grillfleisch", nl: "Koreaans barbecue vlees" },
+          { en: "Thai green curry", es: "Curry verde tailandés", de: "Thailändisches grünes Curry", nl: "Thaise groene curry" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Rojak is a Malaysian and Singaporean salad mixing fruits (pineapple, jicama) and vegetables with fried dough fritters, dressed in thick sweet-spicy sauce made from shrimp paste, sugar, lime, and chili.",
+          es: "Rojak es una ensalada malasia y singapurense que mezcla frutas (piña, jícama) y verduras con buñuelos de masa frita, aderezada con salsa espesa dulce-picante hecha de pasta de camarones, azúcar, lima y chile.",
+          de: "Rojak ist ein malaysischer und singapurischer Salat, der Früchte (Ananas, Jicama) und Gemüse mit frittierten Teigkrapfen mischt, angemacht mit dicker süß-scharfer Sauce aus Garnelenpaste, Zucker, Limette und Chili.",
+          nl: "Rojak is een Maleisische en Singaporese salade die vruchten (ananas, jicama) en groenten mixt met gefrituurde deeg beignets, gedresseerd in dikke zoet-pittige saus gemaakt van garnalenpasta, suiker, limoen en chili."
+        }
+      },
+      {
+        question: {
+          en: "What is 'tonkatsu' and how is it typically served?",
+          es: "¿Qué es 'tonkatsu' y cómo se sirve típicamente?",
+          de: "Was ist 'Tonkatsu' und wie wird es normalerweise serviert?",
+          nl: "Wat is 'tonkatsu' en hoe wordt het meestal geserveerd?"
+        },
+        options: [
+          { en: "Japanese breaded deep-fried pork cutlet with cabbage", es: "Chuleta de cerdo frita empanizada japonesa con repollo", de: "Japanisches paniertes frittiertes Schweineschnitzel mit Kohl", nl: "Japanse gepaneerde diep gefrituurde varkensschnitzel met kool" },
+          { en: "Korean grilled short ribs", es: "Costillas cortas a la parrilla coreanas", de: "Koreanische gegrillte Kurzrippen", nl: "Koreaanse gegrilde short ribs" },
+          { en: "Chinese steamed fish", es: "Pescado al vapor chino", de: "Chinesischer gedämpfter Fisch", nl: "Chinese gestoomde vis" },
+          { en: "Thai curry chicken", es: "Pollo al curry tailandés", de: "Thailändisches Curry-Huhn", nl: "Thaise curry kip" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tonkatsu is a Japanese dish of breaded, deep-fried pork cutlet served with shredded cabbage, rice, miso soup, and tonkatsu sauce (thick Worcestershire-based sauce), popular as street food and restaurant dish.",
+          es: "Tonkatsu es un plato japonés de chuleta de cerdo empanizada y frita servida con repollo rallado, arroz, sopa de miso y salsa tonkatsu (salsa espesa a base de Worcestershire), popular como comida callejera y plato de restaurante.",
+          de: "Tonkatsu ist ein japanisches Gericht aus paniertem, frittiertem Schweineschnitzel serviert mit geschreddertem Kohl, Reis, Miso-Suppe und Tonkatsu-Sauce (dicke Worcestershire-basierte Sauce), beliebt als Straßenessen und Restaurantgericht.",
+          nl: "Tonkatsu is een Japans gerecht van gepaneerde, diep gefrituurde varkensschnitzel geserveerd met geraspte kool, rijst, miso soep en tonkatsu saus (dikke Worcestershire-gebaseerde saus), populair als straatvoedsel en restaurantgerecht."
+        }
+      },
+      {
+        question: {
+          en: "What is 'cendol' and where is it popular?",
+          es: "¿Qué es 'cendol' y dónde es popular?",
+          de: "Was ist 'Cendol' und wo ist es beliebt?",
+          nl: "Wat is 'cendol' en waar is het populair?"
+        },
+        options: [
+          { en: "Southeast Asian dessert with green jelly, coconut milk, and palm sugar", es: "Postre del sudeste asiático con gelatina verde, leche de coco y azúcar de palma", de: "Südostasiatisches Dessert mit grünem Gelee, Kokosmilch und Palmzucker", nl: "Zuidoost-Aziatisch dessert met groene gelei, kokosmelk en palmsuiker" },
+          { en: "Japanese mochi cake", es: "Pastel de mochi japonés", de: "Japanischer Mochi-Kuchen", nl: "Japanse mochi cake" },
+          { en: "Korean shaved ice", es: "Hielo raspado coreano", de: "Koreanisches geschabtes Eis", nl: "Koreaans geschaafd ijs" },
+          { en: "Chinese fortune cookie", es: "Galleta de la fortuna china", de: "Chinesischer Glückskeks", nl: "Chinese gelukskoekje" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cendol is a popular Southeast Asian iced dessert from Indonesia, Malaysia, and Singapore, featuring green pandan-flavored rice flour jelly, coconut milk, palm sugar syrup, and shaved ice.",
+          es: "Cendol es un postre helado popular del sudeste asiático de Indonesia, Malasia y Singapur, que presenta gelatina verde de harina de arroz con sabor a pandan, leche de coco, jarabe de azúcar de palma y hielo raspado.",
+          de: "Cendol ist ein beliebtes südostasiatisches Eis-Dessert aus Indonesien, Malaysia und Singapur mit grünem pandan-aromatisiertem Reismehl-Gelee, Kokosmilch, Palmzuckersirup und geschabtem Eis.",
+          nl: "Cendol is een populair Zuidoost-Aziatisch ijsdessert uit Indonesië, Maleisië en Singapore, met groene pandan-gesmaakt rijstmeel gelei, kokosmelk, palmsuikersiroop en geschaafd ijs."
+        }
+      },
+      {
+        question: {
+          en: "What is 'samosa' and what are common fillings?",
+          es: "¿Qué es 'samosa' y cuáles son los rellenos comunes?",
+          de: "Was ist 'Samosa' und was sind übliche Füllungen?",
+          nl: "Wat is 'samosa' en wat zijn veelvoorkomende vullingen?"
+        },
+        options: [
+          { en: "Triangular fried pastry filled with spiced potatoes or meat", es: "Pastelería triangular frita rellena con papas especiadas o carne", de: "Dreieckiges frittiertes Gebäck gefüllt mit gewürzten Kartoffeln oder Fleisch", nl: "Driehoekig gefrituurde gebak gevuld met gekruide aardappelen of vlees" },
+          { en: "Japanese rice ball", es: "Bola de arroz japonesa", de: "Japanischer Reisball", nl: "Japanse rijstbal" },
+          { en: "Korean pancake", es: "Panqueque coreano", de: "Koreanischer Pfannkuchen", nl: "Koreaanse pannenkoek" },
+          { en: "Thai soup dumpling", es: "Dumpling de sopa tailandés", de: "Thailändische Suppen-Teigtasche", nl: "Thaise soep dumpling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Samosa is a popular Indian and South Asian fried or baked pastry with triangular shape, typically filled with spiced potatoes, peas, onions, or minced meat, served with chutney as street food snack.",
+          es: "Samosa es una pastelería frita o horneada popular india y del sur de Asia con forma triangular, típicamente rellena con papas especiadas, guisantes, cebollas o carne picada, servida con chutney como bocadillo de comida callejera.",
+          de: "Samosa ist ein beliebtes indisches und südasiatisches frittiertes oder gebackenes Gebäck mit dreieckiger Form, typischerweise gefüllt mit gewürzten Kartoffeln, Erbsen, Zwiebeln oder Hackfleisch, als Straßenessen-Snack mit Chutney serviert.",
+          nl: "Samosa is een populair Indiaas en Zuid-Aziatisch gefrituurde of gebakken gebak met driehoekige vorm, meestal gevuld met gekruide aardappelen, erwten, uien of gehakt vlees, geserveerd met chutney als straatvoedsel snack."
+        }
+      },
+      {
+        question: {
+          en: "What is 'congee' and when is it commonly eaten?",
+          es: "¿Qué es 'congee' y cuándo se come comúnmente?",
+          de: "Was ist 'Congee' und wann wird es üblicherweise gegessen?",
+          nl: "Wat is 'congee' en wanneer wordt het meestal gegeten?"
+        },
+        options: [
+          { en: "Chinese rice porridge eaten for breakfast with various toppings", es: "Gachas de arroz chinas comidas en el desayuno con varios ingredientes", de: "Chinesischer Reisbrei zum Frühstück mit verschiedenen Belägen gegessen", nl: "Chinese rijstepap gegeten bij het ontbijt met verschillende toppings" },
+          { en: "Japanese dinner soup", es: "Sopa de cena japonesa", de: "Japanische Abendsuppe", nl: "Japanse avondsoep" },
+          { en: "Korean lunch stew", es: "Guiso de almuerzo coreano", de: "Koreanischer Mittagseintopf", nl: "Koreaanse lunch stoofpot" },
+          { en: "Thai midnight snack", es: "Bocadillo de medianoche tailandés", de: "Thailändischer Mitternachtssnack", nl: "Thaise middernacht snack" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Congee (also jook or zhou) is Chinese rice porridge cooked until soft and creamy, commonly eaten for breakfast as street food, topped with ingredients like century egg, pork, fish, or preserved vegetables.",
+          es: "Congee (también jook o zhou) son gachas de arroz chinas cocidas hasta quedar suaves y cremosas, comúnmente comidas en el desayuno como comida callejera, cubiertas con ingredientes como huevo centenario, cerdo, pescado o verduras conservadas.",
+          de: "Congee (auch Jook oder Zhou) ist chinesischer Reisbrei, der weich und cremig gekocht wird, üblicherweise zum Frühstück als Straßenessen gegessen, belegt mit Zutaten wie Jahrhundert-Ei, Schweinefleisch, Fisch oder konserviertem Gemüse.",
+          nl: "Congee (ook jook of zhou) is Chinese rijstepap gekookt tot zacht en romig, vaak gegeten bij het ontbijt als straatvoedsel, belegd met ingrediënten zoals eeuwig ei, varkensvlees, vis of geconserveerde groenten."
+        }
+      },
+      {
+        question: {
+          en: "What is 'halo-halo' and what does its name mean?",
+          es: "¿Qué es 'halo-halo' y qué significa su nombre?",
+          de: "Was ist 'Halo-Halo' und was bedeutet sein Name?",
+          nl: "Wat is 'halo-halo' en wat betekent de naam?"
+        },
+        options: [
+          { en: "Filipino mixed dessert with shaved ice meaning 'mix-mix'", es: "Postre mixto filipino con hielo raspado que significa 'mezcla-mezcla'", de: "Philippinisches gemischtes Dessert mit geschabtem Eis, bedeutet 'Mix-Mix'", nl: "Filipijns gemengd dessert met geschaafd ijs betekent 'mix-mix'" },
+          { en: "Japanese noodle soup meaning 'hot-hot'", es: "Sopa de fideos japonesa que significa 'caliente-caliente'", de: "Japanische Nudelsuppe bedeutet 'heiß-heiß'", nl: "Japanse noedelsoep betekent 'heet-heet'" },
+          { en: "Korean spicy rice meaning 'fire-fire'", es: "Arroz picante coreano que significa 'fuego-fuego'", de: "Koreanischer scharfer Reis bedeutet 'Feuer-Feuer'", nl: "Koreaanse pittige rijst betekent 'vuur-vuur'" },
+          { en: "Thai curry meaning 'sweet-sweet'", es: "Curry tailandés que significa 'dulce-dulce'", de: "Thailändisches Curry bedeutet 'süß-süß'", nl: "Thaise curry betekent 'zoet-zoet'" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Halo-halo is a popular Filipino dessert with shaved ice, evaporated milk, various sweet beans, fruits, jellies, and topped with ice cream and leche flan. Its name means 'mix-mix' in Tagalog, referring to mixing all ingredients.",
+          es: "Halo-halo es un postre filipino popular con hielo raspado, leche evaporada, varios frijoles dulces, frutas, gelatinas y cubierto con helado y leche flan. Su nombre significa 'mezcla-mezcla' en tagalo, refiriéndose a mezclar todos los ingredientes.",
+          de: "Halo-Halo ist ein beliebtes philippinisches Dessert mit geschabtem Eis, Kondensmilch, verschiedenen süßen Bohnen, Früchten, Gelees und belegt mit Eiscreme und Leche Flan. Sein Name bedeutet 'Mix-Mix' auf Tagalog und bezieht sich auf das Mischen aller Zutaten.",
+          nl: "Halo-halo is een populair Filipijns dessert met geschaafd ijs, gecondenseerde melk, verschillende zoete bonen, vruchten, gelei en belegd met ijs en leche flan. De naam betekent 'mix-mix' in Tagalog, verwijzend naar het mengen van alle ingrediënten."
+        }
+      },
+      {
+        question: {
+          en: "What is 'tempura' and what type of batter is used?",
+          es: "¿Qué es 'tempura' y qué tipo de masa se usa?",
+          de: "Was ist 'Tempura' und welche Art von Teig wird verwendet?",
+          nl: "Wat is 'tempura' en welk type beslag wordt gebruikt?"
+        },
+        options: [
+          { en: "Japanese light battered deep-fried seafood and vegetables", es: "Mariscos y verduras fritos japoneses con masa ligera", de: "Japanisch leicht panierte frittierte Meeresfrüchte und Gemüse", nl: "Japanse licht beslag gefrituurde zeevruchten en groenten" },
+          { en: "Korean heavy breaded chicken", es: "Pollo empanizado pesado coreano", de: "Koreanisches schwer paniertes Huhn", nl: "Koreaanse zwaar gepaneerde kip" },
+          { en: "Chinese thick-coated pork", es: "Cerdo con capa gruesa china", de: "Chinesisches dick beschichtetes Schweinefleisch", nl: "Chinees dik gecoat varkensvlees" },
+          { en: "Thai curry-coated fish", es: "Pescado cubierto con curry tailandés", de: "Thailändischer curry-beschichteter Fisch", nl: "Thaise curry gecoate vis" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tempura is Japanese cuisine's light, crispy battered and deep-fried seafood (shrimp, fish) and vegetables, using cold water and low-gluten flour batter to create its characteristic delicate, airy texture.",
+          es: "Tempura es mariscos (camarones, pescado) y verduras fritos con masa ligera y crujiente de la cocina japonesa, usando agua fría y masa de harina baja en gluten para crear su característica textura delicada y aireada.",
+          de: "Tempura ist die leichte, knusprig panierte und frittierte Meeresfrüchte (Garnelen, Fisch) und Gemüse der japanischen Küche, unter Verwendung von kaltem Wasser und glutenarmen Mehlteig, um seine charakteristische zarte, luftige Textur zu erzeugen.",
+          nl: "Tempura is Japanse keuken's lichte, knapperige beslag en diep gefrituurde zeevruchten (garnalen, vis) en groenten, gebruik makend van koud water en laag-gluten meelbeslag om de karakteristieke delicate, luchtige textuur te creëren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'bubble tea' (boba) and where did it originate?",
+          es: "¿Qué es 'bubble tea' (boba) y dónde se originó?",
+          de: "Was ist 'Bubble Tea' (Boba) und wo entstand es?",
+          nl: "Wat is 'bubble tea' (boba) en waar is het ontstaan?"
+        },
+        options: [
+          { en: "Taiwanese tea drink with tapioca pearls", es: "Bebida de té taiwanesa con perlas de tapioca", de: "Taiwanesisches Teegetränk mit Tapioka-Perlen", nl: "Taiwanese thee drank met tapioca parels" },
+          { en: "Japanese carbonated soda", es: "Soda carbonatada japonesa", de: "Japanische kohlensäurehaltige Limonade", nl: "Japanse koolzuurhoudende frisdrank" },
+          { en: "Korean rice wine", es: "Vino de arroz coreano", de: "Koreanischer Reiswein", nl: "Koreaanse rijstwijn" },
+          { en: "Thai coconut water", es: "Agua de coco tailandesa", de: "Thailändisches Kokoswasser", nl: "Thais kokoswater" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bubble tea (boba) originated in Taiwan in the 1980s - a tea-based drink mixed with milk or fruit flavors and chewy tapioca pearls, now a popular street beverage across Asia and worldwide.",
+          es: "Bubble tea (boba) se originó en Taiwán en la década de 1980 - una bebida a base de té mezclada con leche o sabores de frutas y perlas masticables de tapioca, ahora una bebida callejera popular en Asia y en todo el mundo.",
+          de: "Bubble Tea (Boba) entstand in Taiwan in den 1980er Jahren - ein teebasiertes Getränk gemischt mit Milch oder Fruchtaromen und kaubare Tapioka-Perlen, jetzt ein beliebtes Straßengetränk in ganz Asien und weltweit.",
+          nl: "Bubble tea (boba) ontstond in Taiwan in de jaren 1980 - een op thee gebaseerde drank gemengd met melk of fruit smaken en chewy tapioca parels, nu een populaire straat drank in heel Azië en wereldwijd."
+        }
+      },
+      {
+        question: {
+          en: "What is 'gyoza' and how does it differ from Chinese dumplings?",
+          es: "¿Qué es 'gyoza' y en qué se diferencia de los dumplings chinos?",
+          de: "Was ist 'Gyoza' und wie unterscheidet es sich von chinesischen Teigtaschen?",
+          nl: "Wat is 'gyoza' en hoe verschilt het van Chinese dumplings?"
+        },
+        options: [
+          { en: "Japanese pan-fried dumplings with thinner wrapper and garlic", es: "Dumplings japoneses fritos en sartén con envoltura más delgada y ajo", de: "Japanische pfannengebratene Teigtaschen mit dünnerer Hülle und Knoblauch", nl: "Japanse pan gebakken dumplings met dunnere wrapper en knoflook" },
+          { en: "Korean thick soup dumplings", es: "Dumplings de sopa espesa coreanos", de: "Koreanische dicke Suppen-Teigtaschen", nl: "Koreaanse dikke soep dumplings" },
+          { en: "Thai sweet dessert rolls", es: "Rollos de postre dulce tailandeses", de: "Thailändische süße Dessert-Rollen", nl: "Thaise zoete dessert rollen" },
+          { en: "Vietnamese steamed rice cakes", es: "Pasteles de arroz al vapor vietnamitas", de: "Vietnamesische gedämpfte Reiskuchen", nl: "Vietnamese gestoomde rijstkoekjes" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gyoza are Japanese pan-fried dumplings adapted from Chinese jiaozi, featuring thinner, more delicate wrappers, more garlic in the filling, and typically cooked crispy on one side while steamed on the other.",
+          es: "Gyoza son dumplings japoneses fritos en sartén adaptados de los jiaozi chinos, con envolturas más delgadas y delicadas, más ajo en el relleno, y típicamente cocidos crujientes en un lado mientras se cocinan al vapor en el otro.",
+          de: "Gyoza sind japanische pfannengebratene Teigtaschen, angepasst von chinesischen Jiaozi, mit dünneren, zarteren Hüllen, mehr Knoblauch in der Füllung und typischerweise auf einer Seite knusprig gebraten, während die andere Seite gedämpft wird.",
+          nl: "Gyoza zijn Japanse pan gebakken dumplings aangepast van Chinese jiaozi, met dunnere, meer delicate wrappers, meer knoflook in de vulling, en meestal knapperig gebakken aan één kant terwijl gestoomd aan de andere kant."
+        }
+      },
+      {
+        question: {
+          en: "What is 'fish ball' street food and where is it most popular?",
+          es: "¿Qué es la comida callejera 'fish ball' y dónde es más popular?",
+          de: "Was ist 'Fischball'-Straßenessen und wo ist es am beliebtesten?",
+          nl: "Wat is 'fish ball' straatvoedsel en waar is het het populairst?"
+        },
+        options: [
+          { en: "Hong Kong and Southeast Asian bouncy fish paste balls", es: "Bolas elásticas de pasta de pescado de Hong Kong y el sudeste asiático", de: "Hong Kong und südostasiatische elastische Fischpastenbällchen", nl: "Hong Kong en Zuidoost-Aziatische springerige vispasta balletjes" },
+          { en: "Japanese sushi rice balls", es: "Bolas de arroz de sushi japonesas", de: "Japanische Sushi-Reisbällchen", nl: "Japanse sushi rijstballen" },
+          { en: "Korean meat patties", es: "Hamburguesas de carne coreanas", de: "Koreanische Fleischpastetchen", nl: "Koreaanse vleespasteitjes" },
+          { en: "Thai vegetable fritters", es: "Buñuelos de verduras tailandeses", de: "Thailändische Gemüsekrapfen", nl: "Thaise groente beignets" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Fish balls are popular Hong Kong and Southeast Asian street food made from ground fish paste formed into balls, served on skewers with curry sauce or in noodle soups, known for their bouncy, springy texture.",
+          es: "Fish balls son comida callejera popular de Hong Kong y el sudeste asiático hechas de pasta de pescado molido formada en bolas, servidas en brochetas con salsa de curry o en sopas de fideos, conocidas por su textura elástica y saltarina.",
+          de: "Fischbällchen sind beliebtes Hong Kong und südostasiatisches Straßenessen aus gemahlenem Fischpaste zu Bällchen geformt, auf Spießen mit Curry-Sauce oder in Nudelsuppen serviert, bekannt für ihre elastische, federnde Textur.",
+          nl: "Fish balls zijn populair Hong Kong en Zuidoost-Aziatisch straatvoedsel gemaakt van gemalen vispasta gevormd tot balletjes, geserveerd op spiesjes met curry saus of in noedelsoepen, bekend om hun springerige, elastische textuur."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes 'Korean fried chicken' from other fried chicken styles?",
+          es: "¿Qué distingue el 'pollo frito coreano' de otros estilos de pollo frito?",
+          de: "Was unterscheidet 'koreanisches frittiertes Huhn' von anderen frittierten Hühnerstilen?",
+          nl: "Wat onderscheidt 'Koreaanse gefrituurde kip' van andere gefrituurde kip stijlen?"
+        },
+        options: [
+          { en: "Double-fried for extra crispiness with sweet-spicy glaze", es: "Frito dos veces para mayor crujiente con glaseado dulce-picante", de: "Zweimal frittiert für extra Knusprigkeit mit süß-scharfer Glasur", nl: "Dubbel gefrituurd voor extra knapperigheid met zoet-pittige glazuur" },
+          { en: "Single fried with only salt", es: "Frito una vez con solo sal", de: "Einmal frittiert nur mit Salz", nl: "Enkel gefrituurd met alleen zout" },
+          { en: "Baked instead of fried", es: "Horneado en lugar de frito", de: "Gebacken statt frittiert", nl: "Gebakken in plaats van gefrituurd" },
+          { en: "Steamed with no coating", es: "Al vapor sin cobertura", de: "Gedämpft ohne Beschichtung", nl: "Gestoomd zonder coating" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Korean fried chicken (chikin) is distinctive for being double-fried, creating ultra-crispy skin, and coated with various glazes like sweet-spicy gochujang sauce, soy-garlic, or honey butter, served as popular street food.",
+          es: "El pollo frito coreano (chikin) es distintivo por ser frito dos veces, creando piel ultra crujiente, y cubierto con varios glaseados como salsa agridulce-picante de gochujang, soja-ajo, o mantequilla de miel, servido como comida callejera popular.",
+          de: "Koreanisches frittiertes Huhn (Chikin) ist unverwechselbar dafür, zweimal frittiert zu werden, was ultraknusprige Haut schafft, und mit verschiedenen Glasuren wie süß-scharfer Gochujang-Sauce, Soja-Knoblauch oder Honigbutter beschichtet, als beliebtes Straßenessen serviert.",
+          nl: "Koreaanse gefrituurde kip (chikin) is onderscheidend omdat het dubbel gefrituurd wordt, wat een ultra knapperige huid creëert, en gecoat met verschillende glazuren zoals zoet-pittige gochujang saus, soja-knoflook of honing boter, geserveerd als populair straatvoedsel."
+        }
+      },
+      {
+        question: {
+          en: "What is 'onigiri' and when is it commonly eaten?",
+          es: "¿Qué es 'onigiri' y cuándo se come comúnmente?",
+          de: "Was ist 'Onigiri' und wann wird es üblicherweise gegessen?",
+          nl: "Wat is 'onigiri' en wanneer wordt het meestal gegeten?"
+        },
+        options: [
+          { en: "Japanese rice ball wrapped in seaweed, eaten as snack or lunch", es: "Bola de arroz japonesa envuelta en algas, comida como bocadillo o almuerzo", de: "Japanischer Reisball in Seetang eingewickelt, als Snack oder Mittagessen gegessen", nl: "Japanse rijstbal gewikkeld in zeewier, gegeten als snack of lunch" },
+          { en: "Korean soup dumpling for dinner", es: "Dumpling de sopa coreano para cena", de: "Koreanische Suppen-Teigtasche zum Abendessen", nl: "Koreaanse soep dumpling voor diner" },
+          { en: "Thai dessert for breakfast", es: "Postre tailandés para desayuno", de: "Thailändisches Dessert zum Frühstück", nl: "Thais dessert voor ontbijt" },
+          { en: "Chinese fried pastry for midnight snack", es: "Pastelería frita china para bocadillo de medianoche", de: "Chinesisches frittiertes Gebäck als Mitternachtssnack", nl: "Chinese gefrituurde gebak voor middernacht snack" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Onigiri are Japanese rice balls typically filled with salmon, tuna, or pickled plum, wrapped in nori seaweed, commonly eaten as portable lunch, snack, or convenience store food.",
+          es: "Onigiri son bolas de arroz japonesas típicamente rellenas con salmón, atún o ciruela en escabeche, envueltas en algas nori, comúnmente comidas como almuerzo portátil, bocadillo o comida de tienda de conveniencia.",
+          de: "Onigiri sind japanische Reisbälle typischerweise gefüllt mit Lachs, Thunfisch oder eingelegter Pflaume, in Nori-Seetang eingewickelt, üblicherweise als tragbares Mittagessen, Snack oder Convenience-Store-Essen gegessen.",
+          nl: "Onigiri zijn Japanse rijstballen meestal gevuld met zalm, tonijn of ingelegde pruim, gewikkeld in nori zeewier, vaak gegeten als draagbare lunch, snack of convenience store voedsel."
+        }
+      },
+      {
+        question: {
+          en: "What is 'gua bao' and from which region does it originate?",
+          es: "¿Qué es 'gua bao' y de qué región se origina?",
+          de: "Was ist 'Gua Bao' und aus welcher Region stammt es?",
+          nl: "Wat is 'gua bao' en uit welke regio komt het?"
+        },
+        options: [
+          { en: "Taiwanese steamed bun sandwich with braised pork belly", es: "Sándwich de panecillo al vapor taiwanés con panceta de cerdo estofada", de: "Taiwanesisches gedämpftes Brötchen-Sandwich mit geschmortem Schweinebauch", nl: "Taiwanese gestoomde broodje sandwich met gestoofde buikspek" },
+          { en: "Japanese sushi roll", es: "Rollo de sushi japonés", de: "Japanische Sushi-Rolle", nl: "Japanse sushi rol" },
+          { en: "Korean barbecue wrap", es: "Envoltorio de barbacoa coreana", de: "Koreanischer Grill-Wrap", nl: "Koreaanse barbecue wrap" },
+          { en: "Thai spring roll", es: "Rollo de primavera tailandés", de: "Thailändische Frühlingsrolle", nl: "Thaise loempia" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gua bao (also called pork belly buns or Taiwanese hamburger) are folded steamed buns filled with braised pork belly, pickled mustard greens, peanut powder, and cilantro, originating from Taiwan as popular street food.",
+          es: "Gua bao (también llamado panecillos de panceta de cerdo o hamburguesa taiwanesa) son panecillos al vapor doblados rellenos con panceta de cerdo estofada, verduras de mostaza encurtidas, polvo de maní y cilantro, originarios de Taiwán como comida callejera popular.",
+          de: "Gua Bao (auch Schweinebauch-Brötchen oder taiwanesischer Hamburger genannt) sind gefaltete gedämpfte Brötchen gefüllt mit geschmortem Schweinebauch, eingelegtem Senfgrün, Erdnusspulver und Koriander, stammen aus Taiwan als beliebtes Straßenessen.",
+          nl: "Gua bao (ook wel buikspek broodjes of Taiwanese hamburger genoemd) zijn gevouwen gestoomde broodjes gevuld met gestoofde buikspek, ingelegde mosterdgroenten, pindapoeder en koriander, afkomstig uit Taiwan als populair straatvoedsel."
         }
       }
     ]

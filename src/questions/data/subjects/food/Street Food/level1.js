@@ -411,23 +411,275 @@
       },
       {
         question: {
-          en: "What is street food?",
-          es: "¿Qué es la comida callejera?",
-          de: "Was ist Straßenessen?",
-          nl: "Wat is straatvoedsel?"
+          en: "Where do street food festivals typically take place?",
+          es: "¿Dónde se llevan a cabo típicamente los festivales de comida callejera?",
+          de: "Wo finden Straßenessen-Festivals normalerweise statt?",
+          nl: "Waar vinden straatvoedsel festivals meestal plaats?"
         },
         options: [
-          { en: "Food prepared and sold by vendors in streets or public places", es: "Comida preparada y vendida por vendedores en calles o lugares públicos", de: "Essen, das von Verkäufern auf Straßen oder öffentlichen Plätzen zubereitet und verkauft wird", nl: "Voedsel bereid en verkocht door verkopers op straten of openbare plaatsen" },
-          { en: "Food only served in restaurants", es: "Comida servida solo en restaurantes", de: "Essen nur in Restaurants serviert", nl: "Voedsel alleen geserveerd in restaurants" },
-          { en: "Frozen food products", es: "Productos de comida congelada", de: "Tiefkühlkost-Produkte", nl: "Diepvriesproducten" },
-          { en: "Home-cooked meals", es: "Comidas caseras", de: "Hausgemachte Mahlzeiten", nl: "Thuisgemaakte maaltijden" }
+          { en: "Inside private homes", es: "Dentro de hogares privados", de: "In Privathäusern", nl: "Binnen in privéwoningen" },
+          { en: "In parks, plazas, and public gathering spaces", es: "En parques, plazas y espacios públicos de reunión", de: "In Parks, Plätzen und öffentlichen Versammlungsräumen", nl: "In parken, pleinen en openbare verzamelruimtes" },
+          { en: "Only in museums", es: "Solo en museos", de: "Nur in Museen", nl: "Alleen in musea" },
+          { en: "Underground in tunnels", es: "Bajo tierra en túneles", de: "Unterirdisch in Tunneln", nl: "Ondergronds in tunnels" }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "Street food refers to ready-to-eat food or drinks sold by vendors in streets, markets, or other public places, often prepared and served from portable stalls or carts.",
-          es: "La comida callejera se refiere a alimentos listos para comer o bebidas vendidas por vendedores en calles, mercados u otros lugares públicos, a menudo preparadas y servidas desde puestos o carritos portátiles.",
-          de: "Straßenessen bezieht sich auf verzehrfertige Speisen oder Getränke, die von Verkäufern auf Straßen, Märkten oder anderen öffentlichen Orten verkauft werden, oft von tragbaren Ständen oder Karren zubereitet und serviert.",
-          nl: "Straatvoedsel verwijst naar kant-en-klare voedsel of dranken verkocht door verkopers op straten, markten of andere openbare plaatsen, vaak bereid en geserveerd vanuit draagbare kramen of karren."
+          en: "Street food festivals are typically held in open public spaces like parks, plazas, and pedestrian areas where vendors can set up and large crowds can gather to enjoy diverse food options.",
+          es: "Los festivales de comida callejera se llevan a cabo típicamente en espacios públicos abiertos como parques, plazas y áreas peatonales donde los vendedores pueden instalarse y grandes multitudes pueden reunirse para disfrutar diversas opciones de comida.",
+          de: "Straßenessen-Festivals finden normalerweise in offenen öffentlichen Räumen wie Parks, Plätzen und Fußgängerzonen statt, wo Verkäufer sich aufstellen können und große Menschenmengen zusammenkommen können, um verschiedene Essensoptionen zu genießen.",
+          nl: "Straatvoedsel festivals worden meestal gehouden in open openbare ruimtes zoals parken, pleinen en voetgangerszones waar verkopers zich kunnen opstellen en grote menigten kunnen verzamelen om diverse voedselopties te genieten."
+        }
+      },
+      {
+        question: {
+          en: "What is the main advantage of street food's portability?",
+          es: "¿Cuál es la ventaja principal de la portabilidad de la comida callejera?",
+          de: "Was ist der Hauptvorteil der Tragbarkeit von Straßenessen?",
+          nl: "Wat is het belangrijkste voordeel van de draagbaarheid van straatvoedsel?"
+        },
+        options: [
+          { en: "It requires sitting at a table", es: "Requiere sentarse en una mesa", de: "Es erfordert das Sitzen an einem Tisch", nl: "Het vereist zitten aan een tafel" },
+          { en: "You can eat while walking or traveling", es: "Puedes comer mientras caminas o viajas", de: "Man kann beim Gehen oder Reisen essen", nl: "Je kunt eten tijdens het lopen of reizen" },
+          { en: "It needs refrigeration", es: "Necesita refrigeración", de: "Es benötigt Kühlung", nl: "Het heeft koeling nodig" },
+          { en: "It must be eaten with special utensils", es: "Debe comerse con utensilios especiales", de: "Es muss mit speziellem Besteck gegessen werden", nl: "Het moet worden gegeten met speciaal bestek" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The portability of street food means it can be eaten on-the-go without needing to sit down, making it perfect for busy people who want to eat while walking, commuting, or exploring.",
+          es: "La portabilidad de la comida callejera significa que puede comerse sobre la marcha sin necesidad de sentarse, haciéndola perfecta para personas ocupadas que quieren comer mientras caminan, viajan o exploran.",
+          de: "Die Tragbarkeit von Straßenessen bedeutet, dass es unterwegs gegessen werden kann, ohne sich hinsetzen zu müssen, was es perfekt für beschäftigte Menschen macht, die beim Gehen, Pendeln oder Erkunden essen möchten.",
+          nl: "De draagbaarheid van straatvoedsel betekent dat het onderweg kan worden gegeten zonder te hoeven zitten, waardoor het perfect is voor drukke mensen die willen eten tijdens het lopen, pendelen of verkennen."
+        }
+      },
+      {
+        question: {
+          en: "What packaging is commonly used for street food?",
+          es: "¿Qué embalaje se usa comúnmente para la comida callejera?",
+          de: "Welche Verpackung wird häufig für Straßenessen verwendet?",
+          nl: "Welke verpakking wordt vaak gebruikt voor straatvoedsel?"
+        },
+        options: [
+          { en: "Crystal glassware", es: "Cristalería de cristal", de: "Kristallglas", nl: "Kristallen glaswerk" },
+          { en: "Paper, cardboard, or biodegradable containers", es: "Papel, cartón o envases biodegradables", de: "Papier, Karton oder biologisch abbaubare Behälter", nl: "Papier, karton of biologisch afbreekbare containers" },
+          { en: "Fine china plates", es: "Platos de porcelana fina", de: "Feine Porzellanteller", nl: "Fijn porselein borden" },
+          { en: "Stainless steel serving sets", es: "Juegos de servicio de acero inoxidable", de: "Edelstahl-Serviersets", nl: "Roestvrijstalen serveersets" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Street food is typically served in disposable paper, cardboard boxes, or biodegradable containers that are lightweight, inexpensive, and easy for customers to carry and dispose of properly.",
+          es: "La comida callejera se sirve típicamente en papel desechable, cajas de cartón o envases biodegradables que son ligeros, económicos y fáciles para que los clientes los lleven y desechen adecuadamente.",
+          de: "Straßenessen wird normalerweise in Einweg-Papier, Kartons oder biologisch abbaubaren Behältern serviert, die leicht, kostengünstig und für Kunden einfach zu tragen und ordnungsgemäß zu entsorgen sind.",
+          nl: "Straatvoedsel wordt meestal geserveerd in wegwerp papier, kartonnen dozen of biologisch afbreekbare containers die licht, goedkoop en gemakkelijk zijn voor klanten om te dragen en op de juiste manier weg te gooien."
+        }
+      },
+      {
+        question: {
+          en: "What role do spices play in street food?",
+          es: "¿Qué papel juegan las especias en la comida callejera?",
+          de: "Welche Rolle spielen Gewürze beim Straßenessen?",
+          nl: "Welke rol spelen kruiden bij straatvoedsel?"
+        },
+        options: [
+          { en: "They are never used in street food", es: "Nunca se usan en la comida callejera", de: "Sie werden nie in Straßenessen verwendet", nl: "Ze worden nooit gebruikt in straatvoedsel" },
+          { en: "They add flavor and reflect regional cuisines", es: "Añaden sabor y reflejan cocinas regionales", de: "Sie verleihen Geschmack und spiegeln regionale Küchen wider", nl: "Ze voegen smaak toe en weerspiegelen regionale keukens" },
+          { en: "They only serve as decoration", es: "Solo sirven como decoración", de: "Sie dienen nur zur Dekoration", nl: "Ze dienen alleen als decoratie" },
+          { en: "They make food more expensive", es: "Hacen la comida más cara", de: "Sie machen Essen teurer", nl: "Ze maken voedsel duurder" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Spices are essential in street food to create bold flavors and distinctive tastes that reflect local culinary traditions and regional preferences, making each street food unique to its culture.",
+          es: "Las especias son esenciales en la comida callejera para crear sabores audaces y gustos distintivos que reflejan tradiciones culinarias locales y preferencias regionales, haciendo que cada comida callejera sea única a su cultura.",
+          de: "Gewürze sind wesentlich für Straßenessen, um kräftige Geschmäcker und unverwechselbare Aromen zu schaffen, die lokale kulinarische Traditionen und regionale Vorlieben widerspiegeln und jedes Straßenessen einzigartig für seine Kultur machen.",
+          nl: "Kruiden zijn essentieel in straatvoedsel om gedurfde smaken en onderscheidende smaken te creëren die lokale culinaire tradities en regionale voorkeuren weerspiegelen, waardoor elk straatvoedsel uniek is voor zijn cultuur."
+        }
+      },
+      {
+        question: {
+          en: "What is typically a sign of a popular street food vendor?",
+          es: "¿Qué es típicamente una señal de un vendedor de comida callejera popular?",
+          de: "Was ist normalerweise ein Zeichen für einen beliebten Straßenessen-Verkäufer?",
+          nl: "Wat is meestal een teken van een populaire straatvoedselverkoper?"
+        },
+        options: [
+          { en: "Empty stall with no customers", es: "Puesto vacío sin clientes", de: "Leerer Stand ohne Kunden", nl: "Lege kraam zonder klanten" },
+          { en: "Long queue of waiting customers", es: "Larga cola de clientes esperando", de: "Lange Schlange wartender Kunden", nl: "Lange rij wachtende klanten" },
+          { en: "Closed most of the day", es: "Cerrado la mayor parte del día", de: "Die meiste Zeit des Tages geschlossen", nl: "De meeste tijd van de dag gesloten" },
+          { en: "Hidden location", es: "Ubicación oculta", de: "Versteckter Standort", nl: "Verborgen locatie" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "A long queue of customers is often a good indicator of quality street food, as locals and experienced food lovers know which vendors serve the best and freshest items.",
+          es: "Una larga cola de clientes es a menudo un buen indicador de comida callejera de calidad, ya que los locales y amantes de la comida experimentados saben qué vendedores sirven los mejores y más frescos artículos.",
+          de: "Eine lange Warteschlange von Kunden ist oft ein guter Indikator für qualitativ hochwertiges Straßenessen, da Einheimische und erfahrene Feinschmecker wissen, welche Verkäufer die besten und frischesten Artikel servieren.",
+          nl: "Een lange rij klanten is vaak een goede indicator van kwaliteit straatvoedsel, omdat locals en ervaren voedselliefhebbers weten welke verkopers de beste en verste items serveren."
+        }
+      },
+      {
+        question: {
+          en: "How does street food contribute to tourism?",
+          es: "¿Cómo contribuye la comida callejera al turismo?",
+          de: "Wie trägt Straßenessen zum Tourismus bei?",
+          nl: "Hoe draagt straatvoedsel bij aan toerisme?"
+        },
+        options: [
+          { en: "It discourages tourists from visiting", es: "Desalienta a los turistas de visitar", de: "Es schreckt Touristen vom Besuch ab", nl: "Het ontmoedigt toeristen om te bezoeken" },
+          { en: "It offers authentic cultural experiences and local flavors", es: "Ofrece experiencias culturales auténticas y sabores locales", de: "Es bietet authentische kulturelle Erlebnisse und lokale Geschmäcker", nl: "Het biedt authentieke culturele ervaringen en lokale smaken" },
+          { en: "It has no connection to tourism", es: "No tiene conexión con el turismo", de: "Es hat keine Verbindung zum Tourismus", nl: "Het heeft geen verband met toerisme" },
+          { en: "It only serves expensive luxury foods", es: "Solo sirve comidas de lujo caras", de: "Es serviert nur teure Luxusspeisen", nl: "Het serveert alleen dure luxe voedingsmiddelen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Street food is a major tourist attraction as it provides visitors with authentic, affordable ways to experience local culture and traditional flavors, often becoming a highlight of their travel experience.",
+          es: "La comida callejera es una atracción turística importante ya que proporciona a los visitantes formas auténticas y asequibles de experimentar la cultura local y sabores tradicionales, a menudo convirtiéndose en un punto destacado de su experiencia de viaje.",
+          de: "Straßenessen ist eine wichtige Touristenattraktion, da es Besuchern authentische, erschwingliche Möglichkeiten bietet, lokale Kultur und traditionelle Geschmäcker zu erleben, und oft zu einem Highlight ihres Reiseerlebnisses wird.",
+          nl: "Straatvoedsel is een belangrijke toeristische attractie omdat het bezoekers authentieke, betaalbare manieren biedt om lokale cultuur en traditionele smaken te ervaren, vaak een hoogtepunt van hun reiservaring wordt."
+        }
+      },
+      {
+        question: {
+          en: "What safety precaution should you take when eating street food?",
+          es: "¿Qué precaución de seguridad debes tomar al comer comida callejera?",
+          de: "Welche Sicherheitsvorkehrung sollten Sie beim Essen von Straßenessen treffen?",
+          nl: "Welke veiligheidsmaatregel moet je nemen bij het eten van straatvoedsel?"
+        },
+        options: [
+          { en: "Eat food that looks old and cold", es: "Comer comida que se ve vieja y fría", de: "Essen, das alt und kalt aussieht, essen", nl: "Eten dat er oud en koud uitziet" },
+          { en: "Choose vendors with visible cooking areas and fresh ingredients", es: "Elegir vendedores con áreas de cocina visibles e ingredientes frescos", de: "Verkäufer mit sichtbaren Kochbereichen und frischen Zutaten wählen", nl: "Kies verkopers met zichtbare kookgebieden en verse ingrediënten" },
+          { en: "Ignore hand washing", es: "Ignorar el lavado de manos", de: "Händewaschen ignorieren", nl: "Handen wassen negeren" },
+          { en: "Buy from unlicensed vendors only", es: "Comprar solo de vendedores sin licencia", de: "Nur von unlizenziertenVerkäufern kaufen", nl: "Alleen kopen van verkopers zonder vergunning" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "For safety, choose street food vendors where you can see the food being prepared, ingredients look fresh, and the cooking area appears clean, reducing the risk of foodborne illness.",
+          es: "Por seguridad, elige vendedores de comida callejera donde puedas ver la comida siendo preparada, los ingredientes se vean frescos y el área de cocina parezca limpia, reduciendo el riesgo de enfermedades transmitidas por alimentos.",
+          de: "Aus Sicherheitsgründen wählen Sie Straßenessen-Verkäufer, bei denen Sie die Zubereitung des Essens sehen können, die Zutaten frisch aussehen und der Kochbereich sauber erscheint, um das Risiko lebensmittelbedingter Krankheiten zu reduzieren.",
+          nl: "Voor de veiligheid, kies straatvoedselverkopers waar je het voedsel kunt zien bereiden, ingrediënten er vers uitzien en het kookgebied schoon lijkt, waardoor het risico op voedselgerelateerde ziekten wordt verminderd."
+        }
+      },
+      {
+        question: {
+          en: "What is a common payment method for street food?",
+          es: "¿Cuál es un método de pago común para la comida callejera?",
+          de: "Was ist eine übliche Zahlungsmethode für Straßenessen?",
+          nl: "Wat is een veelgebruikte betaalmethode voor straatvoedsel?"
+        },
+        options: [
+          { en: "Only credit cards accepted", es: "Solo se aceptan tarjetas de crédito", de: "Nur Kreditkarten akzeptiert", nl: "Alleen creditcards geaccepteerd" },
+          { en: "Cash, though mobile payments are becoming popular", es: "Efectivo, aunque los pagos móviles se están volviendo populares", de: "Bargeld, obwohl mobile Zahlungen immer beliebter werden", nl: "Contant geld, hoewel mobiele betalingen populair worden" },
+          { en: "Barter system only", es: "Solo sistema de trueque", de: "Nur Tauschsystem", nl: "Alleen ruilhandel" },
+          { en: "Payment not required", es: "Pago no requerido", de: "Zahlung nicht erforderlich", nl: "Betaling niet vereist" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Street food vendors traditionally accept cash payments, though increasingly many are adopting mobile payment systems like digital wallets and QR codes for customer convenience.",
+          es: "Los vendedores de comida callejera tradicionalmente aceptan pagos en efectivo, aunque cada vez más están adoptando sistemas de pago móvil como billeteras digitales y códigos QR para conveniencia del cliente.",
+          de: "Straßenessen-Verkäufer akzeptieren traditionell Barzahlungen, obwohl immer mehr mobile Zahlungssysteme wie digitale Geldbörsen und QR-Codes für den Kundenkomfort übernehmen.",
+          nl: "Straatvoedselverkopers accepteren traditioneel contante betalingen, hoewel steeds meer mobiele betaalsystemen zoals digitale portemonnees en QR-codes overnemen voor klantgemak."
+        }
+      },
+      {
+        question: {
+          en: "What makes street food sustainable for vendors?",
+          es: "¿Qué hace que la comida callejera sea sostenible para los vendedores?",
+          de: "Was macht Straßenessen für Verkäufer nachhaltig?",
+          nl: "Wat maakt straatvoedsel duurzaam voor verkopers?"
+        },
+        options: [
+          { en: "High overhead costs and rent", es: "Altos costos generales y alquiler", de: "Hohe Gemeinkosten und Miete", nl: "Hoge algemene kosten en huur" },
+          { en: "Low startup costs and minimal infrastructure needs", es: "Bajos costos de inicio y necesidades mínimas de infraestructura", de: "Niedrige Startkosten und minimaler Infrastrukturbedarf", nl: "Lage opstartkosten en minimale infrastructuurbehoeften" },
+          { en: "Expensive licensing requirements", es: "Requisitos de licencia caros", de: "Teure Lizenzanforderungen", nl: "Dure licentievereiesten" },
+          { en: "Need for large staff", es: "Necesidad de personal grande", de: "Bedarf an großem Personal", nl: "Behoefte aan groot personeel" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Street food is sustainable for vendors because it requires relatively low startup costs, minimal infrastructure, and can be operated by one or two people, making it an accessible business opportunity.",
+          es: "La comida callejera es sostenible para los vendedores porque requiere costos de inicio relativamente bajos, infraestructura mínima y puede ser operada por una o dos personas, haciéndola una oportunidad de negocio accesible.",
+          de: "Straßenessen ist für Verkäufer nachhaltig, weil es relativ niedrige Startkosten, minimale Infrastruktur erfordert und von einer oder zwei Personen betrieben werden kann, was es zu einer zugänglichen Geschäftsmöglichkeit macht.",
+          nl: "Straatvoedsel is duurzaam voor verkopers omdat het relatief lage opstartkosten, minimale infrastructuur vereist en kan worden beheerd door een of twee mensen, waardoor het een toegankelijke zakelijke kans is."
+        }
+      },
+      {
+        question: {
+          en: "What weather consideration affects street food vendors?",
+          es: "¿Qué consideración climática afecta a los vendedores de comida callejera?",
+          de: "Welche Wetterüberlegung betrifft Straßenessen-Verkäufer?",
+          nl: "Welke weeromstandigheid beïnvloedt straatvoedselverkopers?"
+        },
+        options: [
+          { en: "Weather has no impact on street food", es: "El clima no tiene impacto en la comida callejera", de: "Wetter hat keinen Einfluss auf Straßenessen", nl: "Weer heeft geen impact op straatvoedsel" },
+          { en: "Rain, extreme heat, and cold can affect operations and customer flow", es: "La lluvia, el calor extremo y el frío pueden afectar las operaciones y el flujo de clientes", de: "Regen, extreme Hitze und Kälte können Betrieb und Kundenfluss beeinflussen", nl: "Regen, extreme hitte en kou kunnen de activiteiten en klantenstroom beïnvloeden" },
+          { en: "Vendors only work in perfect weather", es: "Los vendedores solo trabajan en clima perfecto", de: "Verkäufer arbeiten nur bei perfektem Wetter", nl: "Verkopers werken alleen bij perfect weer" },
+          { en: "Indoor locations solve all problems", es: "Las ubicaciones interiores resuelven todos los problemas", de: "Indoor-Standorte lösen alle Probleme", nl: "Binnenlocaties lossen alle problemen op" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Weather significantly impacts street food vendors as rain, extreme temperatures, and harsh conditions can affect both their ability to operate and customer willingness to buy, requiring vendors to adapt with coverings and seasonal adjustments.",
+          es: "El clima impacta significativamente a los vendedores de comida callejera ya que la lluvia, temperaturas extremas y condiciones duras pueden afectar tanto su capacidad de operar como la disposición del cliente para comprar, requiriendo que los vendedores se adapten con coberturas y ajustes estacionales.",
+          de: "Wetter beeinflusst Straßenessen-Verkäufer erheblich, da Regen, extreme Temperaturen und harte Bedingungen sowohl ihre Betriebsfähigkeit als auch die Kaufbereitschaft der Kunden beeinflussen können, was Verkäufer erfordert, sich mit Überdachungen und saisonalen Anpassungen anzupassen.",
+          nl: "Weer heeft een aanzienlijke impact op straatvoedselverkopers omdat regen, extreme temperaturen en harde omstandigheden zowel hun vermogen om te werken als de bereidheid van klanten om te kopen kunnen beïnvloeden, waardoor verkopers zich moeten aanpassen met overkappingen en seizoensaanpassingen."
+        }
+      },
+      {
+        question: {
+          en: "What is the typical serving size of street food?",
+          es: "¿Cuál es el tamaño de porción típico de la comida callejera?",
+          de: "Was ist die typische Portionsgröße von Straßenessen?",
+          nl: "Wat is de typische portiegrootte van straatvoedsel?"
+        },
+        options: [
+          { en: "Family-sized portions only", es: "Solo porciones de tamaño familiar", de: "Nur familiengroße Portionen", nl: "Alleen gezinsformaten" },
+          { en: "Individual, ready-to-eat portions", es: "Porciones individuales listas para comer", de: "Einzelne, verzehrfertige Portionen", nl: "Individuele, kant-en-klare porties" },
+          { en: "Bulk quantities requiring preparation", es: "Cantidades a granel que requieren preparación", de: "Mengen, die Vorbereitung erfordern", nl: "Bulkhoeveelheden die voorbereiding vereisen" },
+          { en: "Sample sizes only", es: "Solo tamaños de muestra", de: "Nur Probengrößen", nl: "Alleen proefformaten" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Street food is typically served in individual, ready-to-eat portions that are just right for one person, making it convenient for quick consumption without the need for additional preparation or sharing.",
+          es: "La comida callejera se sirve típicamente en porciones individuales listas para comer que son justas para una persona, haciéndola conveniente para consumo rápido sin necesidad de preparación adicional o compartir.",
+          de: "Straßenessen wird normalerweise in einzelnen, verzehrfertigen Portionen serviert, die genau richtig für eine Person sind, was es bequem für schnellen Verzehr ohne zusätzliche Vorbereitung oder Teilen macht.",
+          nl: "Straatvoedsel wordt meestal geserveerd in individuele, kant-en-klare porties die precies goed zijn voor één persoon, waardoor het handig is voor snelle consumptie zonder de noodzaak van extra voorbereiding of delen."
+        }
+      },
+      {
+        question: {
+          en: "Why is street food considered an important part of urban life?",
+          es: "¿Por qué se considera la comida callejera una parte importante de la vida urbana?",
+          de: "Warum wird Straßenessen als wichtiger Teil des städtischen Lebens betrachtet?",
+          nl: "Waarom wordt straatvoedsel beschouwd als een belangrijk onderdeel van het stedelijk leven?"
+        },
+        options: [
+          { en: "It replaces all formal dining", es: "Reemplaza toda la comida formal", de: "Es ersetzt alle formellen Mahlzeiten", nl: "Het vervangt alle formele maaltijden" },
+          { en: "It provides quick, affordable meals for busy city dwellers", es: "Proporciona comidas rápidas y asequibles para habitantes ocupados de la ciudad", de: "Es bietet schnelle, erschwingliche Mahlzeiten für beschäftigte Stadtbewohner", nl: "Het biedt snelle, betaalbare maaltijden voor drukke stadsbewoners" },
+          { en: "It only exists in rural areas", es: "Solo existe en áreas rurales", de: "Es existiert nur in ländlichen Gebieten", nl: "Het bestaat alleen in landelijke gebieden" },
+          { en: "It's only for special occasions", es: "Es solo para ocasiones especiales", de: "Es ist nur für besondere Anlässe", nl: "Het is alleen voor speciale gelegenheden" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Street food is integral to urban life because it provides quick, affordable, and accessible meals for busy city workers, students, and residents who need convenient dining options throughout their day.",
+          es: "La comida callejera es integral a la vida urbana porque proporciona comidas rápidas, asequibles y accesibles para trabajadores de la ciudad ocupados, estudiantes y residentes que necesitan opciones de comida convenientes durante su día.",
+          de: "Straßenessen ist integraler Bestandteil des städtischen Lebens, weil es schnelle, erschwingliche und zugängliche Mahlzeiten für beschäftigte Stadtarbeiter, Studenten und Bewohner bietet, die bequeme Essensoptionen während ihres Tages benötigen.",
+          nl: "Straatvoedsel is integraal onderdeel van het stedelijk leven omdat het snelle, betaalbare en toegankelijke maaltijden biedt voor drukke stadsarbeiders, studenten en bewoners die handige eetopties nodig hebben gedurende hun dag."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes street food from fast food chains?",
+          es: "¿Qué distingue la comida callejera de las cadenas de comida rápida?",
+          de: "Was unterscheidet Straßenessen von Fast-Food-Ketten?",
+          nl: "Wat onderscheidt straatvoedsel van fastfoodketens?"
+        },
+        options: [
+          { en: "Street food is always unhealthy", es: "La comida callejera siempre es poco saludable", de: "Straßenessen ist immer ungesund", nl: "Straatvoedsel is altijd ongezond" },
+          { en: "Street food offers unique, often handmade local recipes", es: "La comida callejera ofrece recetas locales únicas y a menudo hechas a mano", de: "Straßenessen bietet einzigartige, oft handgemachte lokale Rezepte", nl: "Straatvoedsel biedt unieke, vaak handgemaakte lokale recepten" },
+          { en: "Both are exactly the same", es: "Ambos son exactamente iguales", de: "Beide sind genau gleich", nl: "Beide zijn precies hetzelfde" },
+          { en: "Street food uses frozen ingredients only", es: "La comida callejera usa solo ingredientes congelados", de: "Straßenessen verwendet nur gefrorene Zutaten", nl: "Straatvoedsel gebruikt alleen bevroren ingrediënten" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Street food differs from fast food chains by offering unique, often handmade local recipes that reflect cultural traditions, rather than standardized corporate menus, providing more authentic and varied flavors.",
+          es: "La comida callejera se diferencia de las cadenas de comida rápida al ofrecer recetas locales únicas y a menudo hechas a mano que reflejan tradiciones culturales, en lugar de menús corporativos estandarizados, proporcionando sabores más auténticos y variados.",
+          de: "Straßenessen unterscheidet sich von Fast-Food-Ketten, indem es einzigartige, oft handgemachte lokale Rezepte anbietet, die kulturelle Traditionen widerspiegeln, anstatt standardisierte Unternehmensmenüs, und authentischere und vielfältigere Geschmäcker bietet.",
+          nl: "Straatvoedsel verschilt van fastfoodketens door unieke, vaak handgemaakte lokale recepten aan te bieden die culturele tradities weerspiegelen, in plaats van gestandaardiseerde bedrijfsmenu's, waardoor meer authentieke en gevarieerde smaken worden geboden."
         }
       }
     ]

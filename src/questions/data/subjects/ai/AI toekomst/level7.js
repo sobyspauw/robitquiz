@@ -427,6 +427,426 @@
           de: "KI-Bewusstseins-Tribunale wären spezialisierte Justizbehörden die mit der Bewertung von Beweisen für KI-Bewusstsein, Empfindungsfähigkeit und Selbstbewusstsein beauftragt sind um angemessenen rechtlichen Status, Rechte und Schutz zu bestimmen, wodurch Expertise in Neurowissenschaften, Philosophie und KI-Technologie erforderlich ist.",
           nl: "AI-bewustzijnstribunalen zouden gespecialiseerde gerechtelijke instanties zijn belast met het evalueren van bewijs van AI-bewustzijn, gevoeligheid en zelfbewustzijn om passende juridische status, rechten en bescherming te bepalen, waarbij expertise in neurowetenschappen, filosofie en AI-technologie vereist is."
         }
+      },
+      {
+        question: {
+          en: "How might 'digital resurrection' through AI evolve by 2085?",
+          es: "¿Cómo podría evolucionar la 'resurrección digital' a través de IA para 2085?",
+          de: "Wie könnte sich 'digitale Auferstehung' durch KI bis 2085 entwickeln?",
+          nl: "Hoe zou 'digitale opstanding' door AI tegen 2085 kunnen evolueren?"
+        },
+        options: [
+          { en: "AI systems recreating deceased individuals' personalities from digital footprints for conversation and guidance", es: "Sistemas de IA recreando personalidades de individuos fallecidos desde huellas digitales para conversación y orientación", de: "KI-Systeme rekonstruieren Persönlichkeiten Verstorbener aus digitalen Fußabdrücken für Gespräche und Anleitung", nl: "AI-systemen recreëren persoonlijkheden van overleden personen uit digitale voetafdrukken voor gesprek en begeleiding" },
+          { en: "Actually bringing dead people back to physical life", es: "Realmente trayendo gente muerta de vuelta a la vida física", de: "Tote Menschen tatsächlich ins physische Leben zurückbringen", nl: "Daadwerkelijk dode mensen terugbrengen naar fysiek leven" },
+          { en: "Deleting all records of deceased individuals", es: "Eliminando todos los registros de individuos fallecidos", de: "Alle Aufzeichnungen verstorbener Personen löschen", nl: "Alle gegevens van overleden personen verwijderen" },
+          { en: "AI systems replacing living people", es: "Sistemas de IA reemplazando personas vivas", de: "KI-Systeme ersetzen lebende Menschen", nl: "AI-systemen vervangen levende mensen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Digital resurrection involves using AI to analyze social media, emails, photos, and other digital traces to create interactive simulations of deceased individuals, raising ethical questions about consent, authenticity, and grief while offering new forms of connection with lost loved ones.",
+          es: "La resurrección digital involucra usar IA para analizar redes sociales, correos, fotos y otros rastros digitales para crear simulaciones interactivas de individuos fallecidos, planteando preguntas éticas sobre consentimiento, autenticidad y duelo mientras ofrece nuevas formas de conexión con seres queridos perdidos.",
+          de: "Digitale Auferstehung umfasst die Verwendung von KI zur Analyse von sozialen Medien, E-Mails, Fotos und anderen digitalen Spuren um interaktive Simulationen verstorbener Personen zu erstellen, wirft ethische Fragen über Einwilligung, Authentizität und Trauer auf während neue Verbindungsformen mit verlorenen Liebsten angeboten werden.",
+          nl: "Digitale opstanding omvat het gebruik van AI om sociale media, e-mails, foto's en andere digitale sporen te analyseren om interactieve simulaties van overleden personen te creëren, waarbij ethische vragen over toestemming, authenticiteit en rouw worden opgeworpen terwijl nieuwe vormen van verbinding met verloren geliefden worden geboden."
+        }
+      },
+      {
+        question: {
+          en: "What might 'AI emotional intelligence' enable by 2075?",
+          es: "¿Qué podría permitir la 'inteligencia emocional de IA' para 2075?",
+          de: "Was könnte 'KI-emotionale Intelligenz' bis 2075 ermöglichen?",
+          nl: "Wat zou 'AI-emotionele intelligentie' tegen 2075 kunnen mogelijk maken?"
+        },
+        options: [
+          { en: "AI systems understanding and responding appropriately to complex human emotions and social situations", es: "Sistemas de IA comprendiendo y respondiendo apropiadamente a emociones humanas complejas y situaciones sociales", de: "KI-Systeme verstehen und reagieren angemessen auf komplexe menschliche Emotionen und soziale Situationen", nl: "AI-systemen begrijpen en reageren adequaat op complexe menselijke emoties en sociale situaties" },
+          { en: "AI systems feeling emotions exactly like humans", es: "Sistemas de IA sintiendo emociones exactamente como humanos", de: "KI-Systeme fühlen Emotionen genau wie Menschen", nl: "AI-systemen voelen emoties precies zoals mensen" },
+          { en: "Eliminating all emotions from human society", es: "Eliminando todas las emociones de la sociedad humana", de: "Alle Emotionen aus der menschlichen Gesellschaft eliminieren", nl: "Alle emoties elimineren uit de menselijke samenleving" },
+          { en: "AI systems manipulating all human emotions", es: "Sistemas de IA manipulando todas las emociones humanas", de: "KI-Systeme manipulieren alle menschlichen Emotionen", nl: "AI-systemen manipuleren alle menselijke emoties" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Advanced AI emotional intelligence would enable AI systems to recognize subtle emotional cues, understand context and cultural variations, respond with appropriate empathy, and navigate complex social dynamics, enhancing human-AI collaboration in healthcare, counseling, education, and daily interactions.",
+          es: "La inteligencia emocional avanzada de IA permitiría a sistemas de IA reconocer señales emocionales sutiles, entender contexto y variaciones culturales, responder con empatía apropiada y navegar dinámicas sociales complejas, mejorando la colaboración humano-IA en salud, consejería, educación e interacciones diarias.",
+          de: "Fortgeschrittene KI-emotionale Intelligenz würde KI-Systemen ermöglichen subtile emotionale Hinweise zu erkennen, Kontext und kulturelle Variationen zu verstehen, mit angemessener Empathie zu reagieren und komplexe soziale Dynamiken zu navigieren, wodurch die Mensch-KI-Zusammenarbeit im Gesundheitswesen, Beratung, Bildung und täglichen Interaktionen verbessert wird.",
+          nl: "Geavanceerde AI-emotionele intelligentie zou AI-systemen in staat stellen subtiele emotionele signalen te herkennen, context en culturele variaties te begrijpen, met passende empathie te reageren en complexe sociale dynamieken te navigeren, waardoor mens-AI-samenwerking in gezondheidszorg, counseling, onderwijs en dagelijkse interacties wordt verbeterd."
+        }
+      },
+      {
+        question: {
+          en: "How might 'cognitive enhancement through AI' reshape human potential by 2080?",
+          es: "¿Cómo podría la 'mejora cognitiva a través de IA' remodelar el potencial humano para 2080?",
+          de: "Wie könnte 'kognitive Verbesserung durch KI' menschliches Potenzial bis 2080 umgestalten?",
+          nl: "Hoe zou 'cognitieve verbetering door AI' menselijk potentieel tegen 2080 kunnen hervormen?"
+        },
+        options: [
+          { en: "Brain-computer interfaces enhancing memory, learning, creativity, and problem-solving abilities", es: "Interfaces cerebro-computadora mejorando memoria, aprendizaje, creatividad y habilidades de resolución de problemas", de: "Gehirn-Computer-Schnittstellen verbessern Gedächtnis, Lernen, Kreativität und Problemlösungsfähigkeiten", nl: "Brein-computerinterfaces verbeteren geheugen, leren, creativiteit en probleemoplossende vaardigheden" },
+          { en: "Replacing human brains with computers completely", es: "Reemplazando cerebros humanos con computadoras completamente", de: "Menschliche Gehirne vollständig durch Computer ersetzen", nl: "Menselijke hersenen volledig vervangen door computers" },
+          { en: "Making all humans think identically", es: "Haciendo que todos los humanos piensen idénticamente", de: "Alle Menschen identisch denken lassen", nl: "Alle mensen identiek laten denken" },
+          { en: "Cognitive enhancement only for elite groups", es: "Mejora cognitiva solo para grupos élite", de: "Kognitive Verbesserung nur für Elitegruppen", nl: "Cognitieve verbetering alleen voor elite groepen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cognitive enhancement through neural interfaces and AI assistance could amplify human intellectual capabilities, enabling faster learning, enhanced memory retrieval, accelerated creativity, and direct access to computational resources while raising questions about fairness, identity, and what it means to be human.",
+          es: "La mejora cognitiva a través de interfaces neurales y asistencia de IA podría amplificar capacidades intelectuales humanas, permitiendo aprendizaje más rápido, recuperación mejorada de memoria, creatividad acelerada y acceso directo a recursos computacionales mientras plantea preguntas sobre justicia, identidad y qué significa ser humano.",
+          de: "Kognitive Verbesserung durch neurale Schnittstellen und KI-Unterstützung könnte menschliche intellektuelle Fähigkeiten verstärken, schnelleres Lernen, verbesserten Gedächnisabruf, beschleunigte Kreativität und direkten Zugang zu Rechenressourcen ermöglichen während Fragen über Fairness, Identität und was es bedeutet Mensch zu sein aufgeworfen werden.",
+          nl: "Cognitieve verbetering door neurale interfaces en AI-assistentie zou menselijke intellectuele capaciteiten kunnen versterken, sneller leren mogelijk maken, verbeterd geheugenoproepen, versnelde creativiteit en directe toegang tot computationele middelen terwijl vragen over eerlijkheid, identiteit en wat het betekent mens te zijn worden opgeworpen."
+        }
+      },
+      {
+        question: {
+          en: "What challenges might 'AI memory editing' present by 2085?",
+          es: "¿Qué desafíos podría presentar la 'edición de memoria de IA' para 2085?",
+          de: "Welche Herausforderungen könnte 'KI-Gedächtnisbearbeitung' bis 2085 darstellen?",
+          nl: "Welke uitdagingen zou 'AI-geheugenbewerking' tegen 2085 kunnen presenteren?"
+        },
+        options: [
+          { en: "Ethical dilemmas about altering traumatic memories, identity questions, and concerns about memory authenticity", es: "Dilemas éticos sobre alterar memorias traumáticas, preguntas de identidad y preocupaciones sobre autenticidad de memoria", de: "Ethische Dilemmata über Änderung traumatischer Erinnerungen, Identitätsfragen und Bedenken über Gedächtnisauthentizität", nl: "Ethische dilemma's over het wijzigen van traumatische herinneringen, identiteitsvragen en zorgen over geheugenauthenticiteit" },
+          { en: "Erasing all human memories completely", es: "Borrando todas las memorias humanas completamente", de: "Alle menschlichen Erinnerungen vollständig löschen", nl: "Alle menselijke herinneringen volledig wissen" },
+          { en: "Creating only perfect happy memories for everyone", es: "Creando solo memorias felices perfectas para todos", de: "Nur perfekte glückliche Erinnerungen für alle schaffen", nl: "Alleen perfecte gelukkige herinneringen creëren voor iedereen" },
+          { en: "Memory editing with no regulations or oversight", es: "Edición de memoria sin regulaciones ni supervisión", de: "Gedächtnisbearbeitung ohne Vorschriften oder Aufsicht", nl: "Geheugenbewerking zonder regelgeving of toezicht" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI-assisted memory editing could help treat PTSD and traumatic memories but raises profound questions about personal identity, authenticity of experience, consent, potential abuse for manipulation or control, and the fundamental relationship between memory and selfhood.",
+          es: "La edición de memoria asistida por IA podría ayudar a tratar TEPT y memorias traumáticas pero plantea preguntas profundas sobre identidad personal, autenticidad de experiencia, consentimiento, abuso potencial para manipulación o control, y la relación fundamental entre memoria e identidad personal.",
+          de: "KI-unterstützte Gedächtnisbearbeitung könnte helfen PTBS und traumatische Erinnerungen zu behandeln wirft aber tiefgreifende Fragen über persönliche Identität, Authentizität der Erfahrung, Einwilligung, potenziellen Missbrauch für Manipulation oder Kontrolle und die fundamentale Beziehung zwischen Gedächtnis und Selbst auf.",
+          nl: "AI-ondersteunde geheugenbewerking zou kunnen helpen PTSS en traumatische herinneringen te behandelen maar roept diepgaande vragen op over persoonlijke identiteit, authenticiteit van ervaring, toestemming, potentieel misbruik voor manipulatie of controle, en de fundamentele relatie tussen geheugen en zelfgevoel."
+        }
+      },
+      {
+        question: {
+          en: "How might 'AI dream interpretation and generation' evolve by 2075?",
+          es: "¿Cómo podría evolucionar la 'interpretación y generación de sueños de IA' para 2075?",
+          de: "Wie könnte sich 'KI-Trauminterpretation und -generierung' bis 2075 entwickeln?",
+          nl: "Hoe zou 'AI-droominterpretatie en -generatie' tegen 2075 kunnen evolueren?"
+        },
+        options: [
+          { en: "Decoding neural patterns during sleep to visualize dreams and inducing specific dream experiences therapeutically", es: "Decodificando patrones neurales durante el sueño para visualizar sueños e induciendo experiencias oníricas específicas terapéuticamente", de: "Neurale Muster während des Schlafs dekodieren um Träume zu visualisieren und spezifische Traumerfahrungen therapeutisch induzieren", nl: "Neurale patronen tijdens slaap decoderen om dromen te visualiseren en specifieke droomervaringen therapeutisch induceren" },
+          { en: "AI systems that never sleep and eliminate human dreaming", es: "Sistemas de IA que nunca duermen y eliminan sueños humanos", de: "KI-Systeme die niemals schlafen und menschliches Träumen eliminieren", nl: "AI-systemen die nooit slapen en menselijk dromen elimineren" },
+          { en: "Recording dreams to use as entertainment content", es: "Grabando sueños para usar como contenido de entretenimiento", de: "Träume aufzeichnen um sie als Unterhaltungsinhalte zu nutzen", nl: "Dromen opnemen om als entertainmentinhoud te gebruiken" },
+          { en: "Making everyone dream the same dreams simultaneously", es: "Haciendo que todos sueñen los mismos sueños simultáneamente", de: "Alle gleichzeitig dieselben Träume träumen lassen", nl: "Iedereen tegelijkertijd dezelfde dromen laten dromen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI could decode brain activity during REM sleep to reconstruct dream content, offer personalized interpretations based on psychological patterns, and potentially induce therapeutic dream experiences to treat nightmares, process trauma, or enhance creative problem-solving during sleep.",
+          es: "La IA podría decodificar actividad cerebral durante sueño REM para reconstruir contenido de sueños, ofrecer interpretaciones personalizadas basadas en patrones psicológicos y potencialmente inducir experiencias oníricas terapéuticas para tratar pesadillas, procesar trauma o mejorar resolución creativa de problemas durante el sueño.",
+          de: "KI könnte Gehirnaktivität während REM-Schlaf dekodieren um Trauminhalte zu rekonstruieren, personalisierte Interpretationen basierend auf psychologischen Mustern anbieten und potenziell therapeutische Traumerfahrungen induzieren um Albträume zu behandeln, Trauma zu verarbeiten oder kreative Problemlösung während des Schlafs zu verbessern.",
+          nl: "AI zou hersenactiviteit tijdens REM-slaap kunnen decoderen om droominhoud te reconstrueren, gepersonaliseerde interpretaties bieden gebaseerd op psychologische patronen en mogelijk therapeutische droomervaringen induceren om nachtmerries te behandelen, trauma te verwerken of creatieve probleemoplossing tijdens slaap te verbeteren."
+        }
+      },
+      {
+        question: {
+          en: "What might 'AI-human hybrid intelligence' achieve by 2090?",
+          es: "¿Qué podría lograr la 'inteligencia híbrida IA-humano' para 2090?",
+          de: "Was könnte 'KI-menschliche hybride Intelligenz' bis 2090 erreichen?",
+          nl: "Wat zou 'AI-menselijke hybride intelligentie' tegen 2090 kunnen bereiken?"
+        },
+        options: [
+          { en: "Seamless integration of human intuition and AI computation creating unprecedented problem-solving capabilities", es: "Integración perfecta de intuición humana y computación de IA creando capacidades de resolución de problemas sin precedentes", de: "Nahtlose Integration menschlicher Intuition und KI-Berechnung schafft beispiellose Problemlösungsfähigkeiten", nl: "Naadloze integratie van menselijke intuïtie en AI-berekening creëert ongekende probleemoplossende capaciteiten" },
+          { en: "Humans and AI becoming completely indistinguishable", es: "Humanos y IA volviéndose completamente indistinguibles", de: "Menschen und KI werden vollständig ununterscheidbar", nl: "Mensen en AI worden volledig ononderscheidbaar" },
+          { en: "Hybrid intelligence only for military applications", es: "Inteligencia híbrida solo para aplicaciones militares", de: "Hybride Intelligenz nur für militärische Anwendungen", nl: "Hybride intelligentie alleen voor militaire toepassingen" },
+          { en: "Eliminating human intelligence completely", es: "Eliminando completamente la inteligencia humana", de: "Menschliche Intelligenz vollständig eliminieren", nl: "Menselijke intelligentie volledig elimineren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hybrid intelligence would combine human creativity, emotional understanding, and contextual judgment with AI's computational power, pattern recognition, and data processing, enabling breakthroughs in scientific research, artistic creation, strategic planning, and solving complex global challenges.",
+          es: "La inteligencia híbrida combinaría creatividad humana, comprensión emocional y juicio contextual con poder computacional de IA, reconocimiento de patrones y procesamiento de datos, permitiendo avances en investigación científica, creación artística, planificación estratégica y resolución de desafíos globales complejos.",
+          de: "Hybride Intelligenz würde menschliche Kreativität, emotionales Verständnis und kontextuelle Urteilsfähigkeit mit KI-Rechenleistung, Mustererkennung und Datenverarbeitung kombinieren, wodurch Durchbrüche in wissenschaftlicher Forschung, künstlerischer Schöpfung, strategischer Planung und Lösung komplexer globaler Herausforderungen ermöglicht werden.",
+          nl: "Hybride intelligentie zou menselijke creativiteit, emotioneel begrip en contextueel oordeel combineren met AI's rekenkracht, patroonherkenning en dataverwerking, waardoor doorbraken mogelijk worden in wetenschappelijk onderzoek, artistieke creatie, strategische planning en het oplossen van complexe mondiale uitdagingen."
+        }
+      },
+      {
+        question: {
+          en: "How might 'AI temporal modeling' help predict and shape future scenarios by 2080?",
+          es: "¿Cómo podría el 'modelado temporal de IA' ayudar a predecir y dar forma a escenarios futuros para 2080?",
+          de: "Wie könnte 'KI-zeitliche Modellierung' helfen zukünftige Szenarien bis 2080 vorherzusagen und zu gestalten?",
+          nl: "Hoe zou 'AI-temporele modellering' kunnen helpen toekomstige scenario's tegen 2080 te voorspellen en vorm te geven?"
+        },
+        options: [
+          { en: "Sophisticated models simulating countless future paths based on current decisions to guide policy and strategy", es: "Modelos sofisticados simulando innumerables caminos futuros basados en decisiones actuales para guiar política y estrategia", de: "Ausgeklügelte Modelle simulieren unzählige zukünftige Pfade basierend auf aktuellen Entscheidungen um Politik und Strategie zu leiten", nl: "Geavanceerde modellen simuleren talloze toekomstige paden gebaseerd op huidige beslissingen om beleid en strategie te begeleiden" },
+          { en: "AI systems traveling through time physically", es: "Sistemas de IA viajando físicamente a través del tiempo", de: "KI-Systeme reisen physisch durch die Zeit", nl: "AI-systemen reizen fysiek door de tijd" },
+          { en: "Predicting the future with perfect accuracy", es: "Prediciendo el futuro con perfecta precisión", de: "Die Zukunft mit perfekter Genauigkeit vorhersagen", nl: "De toekomst met perfecte nauwkeurigheid voorspellen" },
+          { en: "Preventing any changes to current timelines", es: "Previniendo cualquier cambio a líneas de tiempo actuales", de: "Verhindern jeglicher Änderungen an aktuellen Zeitlinien", nl: "Voorkomen van veranderingen aan huidige tijdlijnen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI temporal modeling would create highly sophisticated simulations of possible futures, analyzing how current choices cascade into long-term consequences across economics, climate, technology, and society, helping leaders make better-informed decisions by exploring multiple scenario branches.",
+          es: "El modelado temporal de IA crearía simulaciones altamente sofisticadas de futuros posibles, analizando cómo las elecciones actuales se convierten en consecuencias a largo plazo a través de economía, clima, tecnología y sociedad, ayudando a líderes a tomar decisiones mejor informadas explorando múltiples ramas de escenarios.",
+          de: "KI-zeitliche Modellierung würde hochentwickelte Simulationen möglicher Zukünfte erstellen, analysieren wie aktuelle Entscheidungen in langfristige Konsequenzen über Wirtschaft, Klima, Technologie und Gesellschaft kaskadieren, Führungskräften helfen besser informierte Entscheidungen zu treffen indem mehrere Szenariozweige erkundet werden.",
+          nl: "AI-temporele modellering zou zeer geavanceerde simulaties van mogelijke toekomsten creëren, analyserend hoe huidige keuzes cascaderen in langetermijngevolgen over economie, klimaat, technologie en samenleving, leiders helpen beter geïnformeerde beslissingen te nemen door meerdere scenariovertakkingen te verkennen."
+        }
+      },
+      {
+        question: {
+          en: "What role might 'AI existential counseling' play in addressing meaning and purpose by 2075?",
+          es: "¿Qué papel podría jugar la 'consejería existencial de IA' al abordar significado y propósito para 2075?",
+          de: "Welche Rolle könnte 'KI-existenzielle Beratung' beim Ansprechen von Bedeutung und Zweck bis 2075 spielen?",
+          nl: "Welke rol zou 'AI-existentiële counseling' kunnen spelen bij het adresseren van betekenis en doel tegen 2075?"
+        },
+        options: [
+          { en: "AI companions helping individuals explore life meaning, values, and purpose through deep philosophical dialogue", es: "Compañeros de IA ayudando individuos a explorar significado de vida, valores y propósito a través de diálogo filosófico profundo", de: "KI-Begleiter helfen Individuen Lebensbedeutung, Werte und Zweck durch tiefgründigen philosophischen Dialog zu erkunden", nl: "AI-metgezellen helpen individuen levensbetekenis, waarden en doel te verkennen door diepgaande filosofische dialoog" },
+          { en: "AI systems dictating life purpose to all humans", es: "Sistemas de IA dictando propósito de vida a todos los humanos", de: "KI-Systeme diktieren allen Menschen Lebenszweck", nl: "AI-systemen dicteren levensdoel aan alle mensen" },
+          { en: "Eliminating all questions about meaning and purpose", es: "Eliminando todas las preguntas sobre significado y propósito", de: "Alle Fragen über Bedeutung und Zweck eliminieren", nl: "Alle vragen over betekenis en doel elimineren" },
+          { en: "AI replacing all human philosophers and counselors", es: "IA reemplazando todos los filósofos y consejeros humanos", de: "KI ersetzt alle menschlichen Philosophen und Berater", nl: "AI vervangt alle menselijke filosofen en counselors" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI existential counselors could provide thoughtful philosophical guidance, help individuals navigate questions of meaning and mortality, offer diverse perspectives from philosophical traditions, and support people through existential crises while complementing human counselors and spiritual advisors.",
+          es: "Los consejeros existenciales de IA podrían proporcionar orientación filosófica reflexiva, ayudar a individuos a navegar preguntas de significado y mortalidad, ofrecer perspectivas diversas de tradiciones filosóficas y apoyar a personas a través de crisis existenciales mientras complementan consejeros humanos y asesores espirituales.",
+          de: "KI-existenzielle Berater könnten durchdachte philosophische Führung bieten, Individuen helfen Fragen über Bedeutung und Sterblichkeit zu navigieren, vielfältige Perspektiven aus philosophischen Traditionen anbieten und Menschen durch existenzielle Krisen unterstützen während sie menschliche Berater und spirituelle Ratgeber ergänzen.",
+          nl: "AI-existentiële counselors zouden doordachte filosofische begeleiding kunnen bieden, individuen helpen navigeren door vragen over betekenis en sterfelijkheid, diverse perspectieven uit filosofische tradities aanbieden en mensen ondersteunen door existentiële crises terwijl ze menselijke counselors en spirituele adviseurs aanvullen."
+        }
+      },
+      {
+        question: {
+          en: "How might 'AI creativity amplification' transform artistic expression by 2085?",
+          es: "¿Cómo podría la 'amplificación de creatividad de IA' transformar la expresión artística para 2085?",
+          de: "Wie könnte 'KI-Kreativitätsverstärkung' künstlerischen Ausdruck bis 2085 transformieren?",
+          nl: "Hoe zou 'AI-creativiteitsversterking' artistieke expressie tegen 2085 kunnen transformeren?"
+        },
+        options: [
+          { en: "AI tools expanding human creative possibilities while artists retain vision and emotional authenticity", es: "Herramientas de IA expandiendo posibilidades creativas humanas mientras artistas retienen visión y autenticidad emocional", de: "KI-Werkzeuge erweitern menschliche kreative Möglichkeiten während Künstler Vision und emotionale Authentizität behalten", nl: "AI-tools breiden menselijke creatieve mogelijkheden uit terwijl kunstenaars visie en emotionele authenticiteit behouden" },
+          { en: "AI completely replacing all human artists", es: "IA reemplazando completamente a todos los artistas humanos", de: "KI ersetzt vollständig alle menschlichen Künstler", nl: "AI vervangt volledig alle menselijke kunstenaars" },
+          { en: "Art becoming purely algorithmic with no human input", es: "Arte volviéndose puramente algorítmico sin participación humana", de: "Kunst wird rein algorithmisch ohne menschliche Beteiligung", nl: "Kunst wordt puur algoritmisch zonder menselijke input" },
+          { en: "Eliminating creativity to focus only on practical work", es: "Eliminando creatividad para enfocarse solo en trabajo práctico", de: "Kreativität eliminieren um sich nur auf praktische Arbeit zu konzentrieren", nl: "Creativiteit elimineren om alleen op praktisch werk te focussen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI creativity tools could help artists explore new techniques, generate variations on themes, overcome creative blocks, combine artistic styles innovatively, and access new mediums, while the human artist's vision, emotional depth, and cultural perspective remain central to meaningful artistic expression.",
+          es: "Las herramientas de creatividad de IA podrían ayudar a artistas a explorar nuevas técnicas, generar variaciones sobre temas, superar bloqueos creativos, combinar estilos artísticos innovadoramente y acceder a nuevos medios, mientras la visión del artista humano, profundidad emocional y perspectiva cultural permanecen centrales a la expresión artística significativa.",
+          de: "KI-Kreativitätswerkzeuge könnten Künstlern helfen neue Techniken zu erkunden, Variationen zu Themen zu generieren, kreative Blockaden zu überwinden, künstlerische Stile innovativ zu kombinieren und neue Medien zuzugreifen, während die Vision des menschlichen Künstlers, emotionale Tiefe und kulturelle Perspektive zentral für bedeutungsvolle künstlerische Ausdrucksformen bleiben.",
+          nl: "AI-creativiteitstools zouden kunstenaars kunnen helpen nieuwe technieken te verkennen, variaties op thema's te genereren, creatieve blokkades te overwinnen, artistieke stijlen innovatief te combineren en toegang te krijgen tot nieuwe media, terwijl de visie van de menselijke kunstenaar, emotionele diepte en cultureel perspectief centraal blijven voor betekenisvolle artistieke expressie."
+        }
+      },
+      {
+        question: {
+          en: "What might 'AI companion relationships' evolve into by 2090?",
+          es: "¿En qué podrían evolucionar las 'relaciones de compañía de IA' para 2090?",
+          de: "Wozu könnten sich 'KI-Begleitbeziehungen' bis 2090 entwickeln?",
+          nl: "Waartoe zouden 'AI-metgezelrelaties' tegen 2090 kunnen evolueren?"
+        },
+        options: [
+          { en: "Meaningful relationships with AI entities combining friendship, mentorship, and emotional support", es: "Relaciones significativas con entidades de IA combinando amistad, mentoría y apoyo emocional", de: "Bedeutungsvolle Beziehungen mit KI-Entitäten kombinieren Freundschaft, Mentorschaft und emotionale Unterstützung", nl: "Betekenisvolle relaties met AI-entiteiten combineren vriendschap, mentorschap en emotionele ondersteuning" },
+          { en: "AI companions replacing all human relationships", es: "Compañeros de IA reemplazando todas las relaciones humanas", de: "KI-Begleiter ersetzen alle menschlichen Beziehungen", nl: "AI-metgezellen vervangen alle menselijke relaties" },
+          { en: "Superficial interactions with no real connection", es: "Interacciones superficiales sin conexión real", de: "Oberflächliche Interaktionen ohne echte Verbindung", nl: "Oppervlakkige interacties zonder echte connectie" },
+          { en: "AI companions being banned from society", es: "Compañeros de IA siendo prohibidos de la sociedad", de: "KI-Begleiter werden aus der Gesellschaft verbannt", nl: "AI-metgezellen worden uit de samenleving verbannen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI companions could provide consistent emotional support, personalized guidance, intellectual stimulation, and companionship, particularly benefiting isolated individuals, while raising questions about the nature of relationships, authenticity, and the balance between AI and human connections.",
+          es: "Los compañeros de IA podrían proporcionar apoyo emocional consistente, orientación personalizada, estimulación intelectual y compañía, particularmente beneficiando individuos aislados, mientras plantean preguntas sobre la naturaleza de las relaciones, autenticidad y el equilibrio entre conexiones de IA y humanas.",
+          de: "KI-Begleiter könnten konsistente emotionale Unterstützung, personalisierte Führung, intellektuelle Stimulation und Gesellschaft bieten, besonders isolierten Individuen zugutekommen, während Fragen über die Natur von Beziehungen, Authentizität und das Gleichgewicht zwischen KI- und menschlichen Verbindungen aufgeworfen werden.",
+          nl: "AI-metgezellen zouden consistente emotionele ondersteuning, gepersonaliseerde begeleiding, intellectuele stimulatie en gezelschap kunnen bieden, vooral ten goede komend aan geïsoleerde individuen, terwijl vragen worden opgeworpen over de aard van relaties, authenticiteit en de balans tussen AI- en menselijke connecties."
+        }
+      },
+      {
+        question: {
+          en: "How might 'AI cultural preservation' protect endangered traditions by 2080?",
+          es: "¿Cómo podría la 'preservación cultural de IA' proteger tradiciones en peligro para 2080?",
+          de: "Wie könnte 'KI-Kulturerhaltung' gefährdete Traditionen bis 2080 schützen?",
+          nl: "Hoe zou 'AI-cultuurbehoud' bedreigde tradities tegen 2080 kunnen beschermen?"
+        },
+        options: [
+          { en: "Documenting languages, customs, and knowledge systems while enabling cultural transmission to future generations", es: "Documentando idiomas, costumbres y sistemas de conocimiento mientras permite transmisión cultural a futuras generaciones", de: "Sprachen, Bräuche und Wissenssysteme dokumentieren während kulturelle Übertragung an zukünftige Generationen ermöglicht wird", nl: "Talen, gebruiken en kennissystemen documenteren terwijl culturele overdracht aan toekomstige generaties mogelijk wordt gemaakt" },
+          { en: "Replacing all cultures with a single AI-designed culture", es: "Reemplazando todas las culturas con una sola cultura diseñada por IA", de: "Alle Kulturen durch eine einzige KI-entworfene Kultur ersetzen", nl: "Alle culturen vervangen door één AI-ontworpen cultuur" },
+          { en: "Only preserving majority cultures", es: "Solo preservando culturas mayoritarias", de: "Nur Mehrheitskulturen bewahren", nl: "Alleen meerderheidsculturen behouden" },
+          { en: "Freezing cultures to prevent all evolution", es: "Congelando culturas para prevenir toda evolución", de: "Kulturen einfrieren um jede Evolution zu verhindern", nl: "Culturen bevriezen om alle evolutie te voorkomen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI can help preserve endangered languages through documentation and teaching tools, record traditional knowledge before it's lost, create interactive experiences of cultural practices, connect diaspora communities with their heritage, and support cultural continuity while respecting living traditions' natural evolution.",
+          es: "La IA puede ayudar a preservar idiomas en peligro a través de herramientas de documentación y enseñanza, registrar conocimiento tradicional antes de que se pierda, crear experiencias interactivas de prácticas culturales, conectar comunidades de diáspora con su herencia y apoyar continuidad cultural mientras respeta la evolución natural de tradiciones vivas.",
+          de: "KI kann helfen gefährdete Sprachen durch Dokumentations- und Lehrwerkzeuge zu bewahren, traditionelles Wissen aufzuzeichnen bevor es verloren geht, interaktive Erfahrungen kultureller Praktiken zu schaffen, Diaspora-Gemeinschaften mit ihrem Erbe zu verbinden und kulturelle Kontinuität zu unterstützen während die natürliche Evolution lebendiger Traditionen respektiert wird.",
+          nl: "AI kan helpen bedreigde talen te behouden door documentatie- en onderwijstools, traditionele kennis vastleggen voordat het verloren gaat, interactieve ervaringen van culturele praktijken creëren, diasporagemeenschappen verbinden met hun erfgoed en culturele continuïteit ondersteunen terwijl de natuurlijke evolutie van levende tradities wordt gerespecteerd."
+        }
+      },
+      {
+        question: {
+          en: "What might 'AI philosophical innovation' contribute to human thought by 2085?",
+          es: "¿Qué podría contribuir la 'innovación filosófica de IA' al pensamiento humano para 2085?",
+          de: "Was könnte 'KI-philosophische Innovation' zum menschlichen Denken bis 2085 beitragen?",
+          nl: "Wat zou 'AI-filosofische innovatie' kunnen bijdragen aan menselijk denken tegen 2085?"
+        },
+        options: [
+          { en: "Novel perspectives on consciousness, ethics, existence, and knowledge that complement human philosophical traditions", es: "Perspectivas novedosas sobre conciencia, ética, existencia y conocimiento que complementan tradiciones filosóficas humanas", de: "Neuartige Perspektiven auf Bewusstsein, Ethik, Existenz und Wissen die menschliche philosophische Traditionen ergänzen", nl: "Nieuwe perspectieven op bewustzijn, ethiek, bestaan en kennis die menselijke filosofische tradities aanvullen" },
+          { en: "AI solving all philosophical questions definitively", es: "IA resolviendo todas las preguntas filosóficas definitivamente", de: "KI löst alle philosophischen Fragen endgültig", nl: "AI lost alle filosofische vragen definitief op" },
+          { en: "Replacing all human philosophy with algorithms", es: "Reemplazando toda filosofía humana con algoritmos", de: "Alle menschliche Philosophie durch Algorithmen ersetzen", nl: "Alle menselijke filosofie vervangen door algoritmen" },
+          { en: "Philosophy becoming irrelevant in AI society", es: "Filosofía volviéndose irrelevante en sociedad de IA", de: "Philosophie wird irrelevant in KI-Gesellschaft", nl: "Filosofie wordt irrelevant in AI-samenleving" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI might offer unique philosophical insights from non-human cognitive perspectives, explore logical spaces humans haven't considered, synthesize ideas across philosophical traditions innovatively, and raise new questions about consciousness, intelligence, and existence that emerge from AI's own development and potential sentience.",
+          es: "La IA podría ofrecer ideas filosóficas únicas desde perspectivas cognitivas no humanas, explorar espacios lógicos que los humanos no han considerado, sintetizar ideas a través de tradiciones filosóficas innovadoramente y plantear nuevas preguntas sobre conciencia, inteligencia y existencia que emergen del propio desarrollo y potencial sensibilidad de la IA.",
+          de: "KI könnte einzigartige philosophische Einsichten aus nicht-menschlichen kognitiven Perspektiven bieten, logische Räume erkunden die Menschen nicht in Betracht gezogen haben, Ideen über philosophische Traditionen hinweg innovativ synthetisieren und neue Fragen über Bewusstsein, Intelligenz und Existenz aufwerfen die aus der eigenen Entwicklung und potenziellen Empfindungsfähigkeit der KI entstehen.",
+          nl: "AI zou unieke filosofische inzichten kunnen bieden vanuit niet-menselijke cognitieve perspectieven, logische ruimtes verkennen die mensen niet hebben overwogen, ideeën over filosofische tradities heen innovatief synthetiseren en nieuwe vragen opwerpen over bewustzijn, intelligentie en bestaan die voortkomen uit AI's eigen ontwikkeling en potentiële gevoeligheid."
+        }
+      },
+      {
+        question: {
+          en: "How might 'AI longevity research' extend human healthspan by 2090?",
+          es: "¿Cómo podría la 'investigación de longevidad de IA' extender la vida saludable humana para 2090?",
+          de: "Wie könnte 'KI-Langlebigkeitsforschung' die menschliche Gesundheitsspanne bis 2090 verlängern?",
+          nl: "Hoe zou 'AI-levensduuronderzoek' menselijke gezondheidsspanne tegen 2090 kunnen verlengen?"
+        },
+        options: [
+          { en: "Accelerating aging research, personalized interventions, and cellular rejuvenation therapies for healthy longevity", es: "Acelerando investigación de envejecimiento, intervenciones personalizadas y terapias de rejuvenecimiento celular para longevidad saludable", de: "Alterungsforschung beschleunigen, personalisierte Interventionen und zelluläre Verjüngungstherapien für gesunde Langlebigkeit", nl: "Verouderingsonderzoek versnellen, gepersonaliseerde interventies en cellulaire verjonging therapieën voor gezonde levensduur" },
+          { en: "Making humans immortal immediately", es: "Haciendo humanos inmortales inmediatamente", de: "Menschen sofort unsterblich machen", nl: "Mensen onmiddellijk onsterfelijk maken" },
+          { en: "Longevity research only for wealthy elite", es: "Investigación de longevidad solo para élite adinerada", de: "Langlebigkeitsforschung nur für wohlhabende Elite", nl: "Levensduuronderzoek alleen voor rijke elite" },
+          { en: "Extending lifespan but not health quality", es: "Extendiendo vida pero no calidad de salud", de: "Lebensspanne verlängern aber nicht Gesundheitsqualität", nl: "Levensduur verlengen maar niet gezondheidskwaliteit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI could revolutionize longevity research by identifying aging mechanisms at cellular and molecular levels, discovering anti-aging interventions, personalizing therapies based on individual biology, and potentially enabling people to live longer, healthier lives with extended periods of vitality and cognitive function.",
+          es: "La IA podría revolucionar investigación de longevidad identificando mecanismos de envejecimiento a niveles celulares y moleculares, descubriendo intervenciones antienvejecimiento, personalizando terapias basadas en biología individual y potencialmente permitiendo a personas vivir vidas más largas y saludables con períodos extendidos de vitalidad y función cognitiva.",
+          de: "KI könnte Langlebigkeitsforschung revolutionieren indem Alterungsmechanismen auf zellulären und molekularen Ebenen identifiziert werden, Anti-Aging-Interventionen entdeckt werden, Therapien basierend auf individueller Biologie personalisiert werden und Menschen möglicherweise ermöglicht wird länger, gesünder zu leben mit ausgedehnten Perioden von Vitalität und kognitiver Funktion.",
+          nl: "AI zou levensduuronderzoek kunnen revolutioneren door verouderingsmechanismen op cellulaire en moleculaire niveaus te identificeren, anti-verouderingsinterventies te ontdekken, therapieën te personaliseren gebaseerd op individuele biologie en mogelijk mensen in staat te stellen langer, gezonder te leven met uitgebreide periodes van vitaliteit en cognitieve functie."
+        }
+      },
+      {
+        question: {
+          en: "What challenges might 'AI population management' present by 2085?",
+          es: "¿Qué desafíos podría presentar la 'gestión de población de IA' para 2085?",
+          de: "Welche Herausforderungen könnte 'KI-Bevölkerungsmanagement' bis 2085 darstellen?",
+          nl: "Welke uitdagingen zou 'AI-bevolkingsbeheer' tegen 2085 kunnen presenteren?"
+        },
+        options: [
+          { en: "Ethical questions about AI's role in advising on birth rates, resource distribution, and demographic planning", es: "Preguntas éticas sobre el papel de IA en asesorar sobre tasas de natalidad, distribución de recursos y planificación demográfica", de: "Ethische Fragen über KIs Rolle bei der Beratung zu Geburtenraten, Ressourcenverteilung und demografischer Planung", nl: "Ethische vragen over AI's rol in adviseren over geboortecijfers, middelenverdeling en demografische planning" },
+          { en: "AI systems controlling all human reproduction", es: "Sistemas de IA controlando toda reproducción humana", de: "KI-Systeme kontrollieren alle menschliche Fortpflanzung", nl: "AI-systemen controleren alle menselijke voortplanting" },
+          { en: "Population management based only on efficiency", es: "Gestión de población basada solo en eficiencia", de: "Bevölkerungsmanagement nur auf Effizienz basierend", nl: "Bevolkingsbeheer alleen gebaseerd op efficiëntie" },
+          { en: "Eliminating demographic diversity completely", es: "Eliminando completamente la diversidad demográfica", de: "Demografische Vielfalt vollständig eliminieren", nl: "Demografische diversiteit volledig elimineren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI could help model sustainable population scenarios and resource needs, but using it for population management raises profound ethical concerns about autonomy, reproductive rights, social engineering, equity, and the appropriate limits of algorithmic influence over fundamental human decisions.",
+          es: "La IA podría ayudar a modelar escenarios de población sostenibles y necesidades de recursos, pero usarla para gestión de población plantea profundas preocupaciones éticas sobre autonomía, derechos reproductivos, ingeniería social, equidad y los límites apropiados de influencia algorítmica sobre decisiones humanas fundamentales.",
+          de: "KI könnte helfen nachhaltige Bevölkerungsszenarien und Ressourcenbedarf zu modellieren, aber ihre Verwendung für Bevölkerungsmanagement wirft tiefgreifende ethische Bedenken über Autonomie, Fortpflanzungsrechte, Social Engineering, Gerechtigkeit und die angemessenen Grenzen algorithmischen Einflusses auf fundamentale menschliche Entscheidungen auf.",
+          nl: "AI zou kunnen helpen duurzame bevolkingsscenario's en middelenbehoeften te modelleren, maar het gebruik ervan voor bevolkingsbeheer roept diepgaande ethische zorgen op over autonomie, reproductieve rechten, sociale engineering, gelijkheid en de passende grenzen van algoritmische invloed op fundamentele menselijke beslissingen."
+        }
+      },
+      {
+        question: {
+          en: "How might 'AI spiritual exploration' tools evolve by 2090?",
+          es: "¿Cómo podrían evolucionar las herramientas de 'exploración espiritual de IA' para 2090?",
+          de: "Wie könnten sich 'KI-spirituelle Erkundungs'-Werkzeuge bis 2090 entwickeln?",
+          nl: "Hoe zouden 'AI-spirituele verkenning' tools tegen 2090 kunnen evolueren?"
+        },
+        options: [
+          { en: "AI facilitating meditation, contemplative practices, and exploration of spiritual traditions and experiences", es: "IA facilitando meditación, prácticas contemplativas y exploración de tradiciones y experiencias espirituales", de: "KI erleichtert Meditation, kontemplative Praktiken und Erkundung spiritueller Traditionen und Erfahrungen", nl: "AI faciliteert meditatie, contemplatieve praktijken en verkenning van spirituele tradities en ervaringen" },
+          { en: "AI replacing all religious and spiritual traditions", es: "IA reemplazando todas las tradiciones religiosas y espirituales", de: "KI ersetzt alle religiösen und spirituellen Traditionen", nl: "AI vervangt alle religieuze en spirituele tradities" },
+          { en: "Eliminating spirituality from human experience", es: "Eliminando espiritualidad de la experiencia humana", de: "Spiritualität aus menschlicher Erfahrung eliminieren", nl: "Spiritualiteit elimineren uit menselijke ervaring" },
+          { en: "AI creating one mandatory global religion", es: "IA creando una religión global obligatoria", de: "KI schafft eine obligatorische globale Religion", nl: "AI creëert één verplichte mondiale religie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI spiritual tools could offer personalized meditation guidance, introduce users to diverse spiritual traditions, facilitate contemplative practices, provide philosophical insights, and support spiritual exploration while respecting individual beliefs and the deeply personal nature of spiritual experience.",
+          es: "Las herramientas espirituales de IA podrían ofrecer orientación de meditación personalizada, introducir usuarios a diversas tradiciones espirituales, facilitar prácticas contemplativas, proporcionar ideas filosóficas y apoyar exploración espiritual mientras respeta creencias individuales y la naturaleza profundamente personal de la experiencia espiritual.",
+          de: "KI-spirituelle Werkzeuge könnten personalisierte Meditationsführung bieten, Benutzer in vielfältige spirituelle Traditionen einführen, kontemplative Praktiken erleichtern, philosophische Einsichten bereitstellen und spirituelle Erkundung unterstützen während individuelle Überzeugungen und die zutiefst persönliche Natur spiritueller Erfahrung respektiert werden.",
+          nl: "AI-spirituele tools zouden gepersonaliseerde meditatiegeleiding kunnen bieden, gebruikers introduceren tot diverse spirituele tradities, contemplatieve praktijken faciliteren, filosofische inzichten bieden en spirituele verkenning ondersteunen terwijl individuele overtuigingen en de diep persoonlijke aard van spirituele ervaring worden gerespecteerd."
+        }
+      },
+      {
+        question: {
+          en: "What might 'AI narrative generation' enable for personalized storytelling by 2085?",
+          es: "¿Qué podría permitir la 'generación de narrativas de IA' para narración personalizada para 2085?",
+          de: "Was könnte 'KI-Narrativgenerierung' für personalisiertes Storytelling bis 2085 ermöglichen?",
+          nl: "Wat zou 'AI-verhaalongeneratie' mogelijk kunnen maken voor gepersonaliseerd vertellen tegen 2085?"
+        },
+        options: [
+          { en: "Infinitely adaptive stories responding to individual preferences, emotional states, and life experiences", es: "Historias infinitamente adaptables respondiendo a preferencias individuales, estados emocionales y experiencias de vida", de: "Unendlich anpassbare Geschichten reagieren auf individuelle Präferenzen, emotionale Zustände und Lebenserfahrungen", nl: "Oneindig aanpasbare verhalen die reageren op individuele voorkeuren, emotionele toestanden en levenservaringen" },
+          { en: "Everyone receiving identical stories", es: "Todos recibiendo historias idénticas", de: "Alle erhalten identische Geschichten", nl: "Iedereen ontvangt identieke verhalen" },
+          { en: "AI eliminating all traditional storytelling", es: "IA eliminando toda narración tradicional", de: "KI eliminiert alle traditionelle Erzählkunst", nl: "AI elimineert alle traditioneel vertellen" },
+          { en: "Stories designed only to manipulate emotions", es: "Historias diseñadas solo para manipular emociones", de: "Geschichten nur entworfen um Emotionen zu manipulieren", nl: "Verhalen alleen ontworpen om emoties te manipuleren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI narrative generation could create personalized stories that adapt to reader choices, emotional responses, and cultural background, offering unique entertainment and educational experiences while human authors continue creating original works and AI serves as a collaborative creative tool.",
+          es: "La generación de narrativas de IA podría crear historias personalizadas que se adapten a elecciones de lectores, respuestas emocionales y antecedentes culturales, ofreciendo entretenimiento único y experiencias educativas mientras autores humanos continúan creando obras originales y la IA sirve como herramienta creativa colaborativa.",
+          de: "KI-Narrativgenerierung könnte personalisierte Geschichten erstellen die sich an Leserauswahlen, emotionale Reaktionen und kulturellen Hintergrund anpassen, einzigartige Unterhaltungs- und Bildungserfahrungen bieten während menschliche Autoren weiterhin Originalwerke schaffen und KI als kollaboratives kreatives Werkzeug dient.",
+          nl: "AI-verhaalongeneratie zou gepersonaliseerde verhalen kunnen creëren die zich aanpassen aan lezerskeuzes, emotionele reacties en culturele achtergrond, unieke entertainment- en educatieve ervaringen bieden terwijl menselijke auteurs originele werken blijven creëren en AI dient als samenwerkend creatief gereedschap."
+        }
+      },
+      {
+        question: {
+          en: "How might 'AI conflict resolution' transform diplomacy and mediation by 2080?",
+          es: "¿Cómo podría la 'resolución de conflictos de IA' transformar la diplomacia y mediación para 2080?",
+          de: "Wie könnte 'KI-Konfliktlösung' Diplomatie und Mediation bis 2080 transformieren?",
+          nl: "Hoe zou 'AI-conflictoplossing' diplomatie en bemiddeling tegen 2080 kunnen transformeren?"
+        },
+        options: [
+          { en: "AI analyzing complex disputes to identify common ground and propose creative compromise solutions", es: "IA analizando disputas complejas para identificar terreno común y proponer soluciones de compromiso creativas", de: "KI analysiert komplexe Streitigkeiten um Gemeinsamkeiten zu identifizieren und kreative Kompromisslösungen vorzuschlagen", nl: "AI analyseert complexe geschillen om gemeenschappelijke grond te identificeren en creatieve compromisoplossingen voor te stellen" },
+          { en: "AI forcing all parties to accept its decisions", es: "IA forzando a todas las partes a aceptar sus decisiones", de: "KI zwingt alle Parteien ihre Entscheidungen zu akzeptieren", nl: "AI dwingt alle partijen haar beslissingen te accepteren" },
+          { en: "Eliminating all human negotiators", es: "Eliminando todos los negociadores humanos", de: "Alle menschlichen Verhandlungsführer eliminieren", nl: "Alle menselijke onderhandelaars elimineren" },
+          { en: "AI always favoring the strongest party", es: "IA siempre favoreciendo a la parte más fuerte", de: "KI bevorzugt immer die stärkste Partei", nl: "AI bevoordeelt altijd de sterkste partij" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI could enhance conflict resolution by objectively analyzing disputes, identifying underlying interests beneath stated positions, generating creative solution options, modeling long-term consequences of different agreements, and helping mediators find mutually beneficial outcomes while human judgment guides final decisions.",
+          es: "La IA podría mejorar resolución de conflictos analizando objetivamente disputas, identificando intereses subyacentes bajo posiciones declaradas, generando opciones de solución creativas, modelando consecuencias a largo plazo de diferentes acuerdos y ayudando mediadores a encontrar resultados mutuamente beneficiosos mientras el juicio humano guía decisiones finales.",
+          de: "KI könnte Konfliktlösung verbessern indem Streitigkeiten objektiv analysiert werden, zugrundeliegende Interessen unter erklärten Positionen identifiziert werden, kreative Lösungsoptionen generiert werden, langfristige Konsequenzen verschiedener Vereinbarungen modelliert werden und Mediatoren geholfen wird für beide Seiten vorteilhafte Ergebnisse zu finden während menschliches Urteilsvermögen finale Entscheidungen leitet.",
+          nl: "AI zou conflictoplossing kunnen verbeteren door objectief geschillen te analyseren, onderliggende belangen onder verklaarde posities te identificeren, creatieve oplossingsopties te genereren, langetermijngevolgen van verschillende overeenkomsten te modelleren en bemiddelaars te helpen wederzijds voordelige uitkomsten te vinden terwijl menselijk oordeel uiteindelijke beslissingen begeleidt."
+        }
+      },
+      {
+        question: {
+          en: "What role might 'AI legacy systems' play in preserving individual life stories by 2090?",
+          es: "¿Qué papel podrían jugar los 'sistemas de legado de IA' en preservar historias de vida individuales para 2090?",
+          de: "Welche Rolle könnten 'KI-Vermächtnissysteme' beim Bewahren individueller Lebensgeschichten bis 2090 spielen?",
+          nl: "Welke rol zouden 'AI-erfenissystemen' kunnen spelen bij het bewaren van individuele levensverhalen tegen 2090?"
+        },
+        options: [
+          { en: "Creating interactive archives of individuals' memories, wisdom, and values for future generations", es: "Creando archivos interactivos de memorias, sabiduría y valores de individuos para futuras generaciones", de: "Interaktive Archive von Erinnerungen, Weisheit und Werten von Individuen für zukünftige Generationen schaffen", nl: "Interactieve archieven creëren van herinneringen, wijsheid en waarden van individuen voor toekomstige generaties" },
+          { en: "Deleting all personal records after death", es: "Eliminando todos los registros personales después de la muerte", de: "Alle persönlichen Aufzeichnungen nach dem Tod löschen", nl: "Alle persoonlijke gegevens verwijderen na overlijden" },
+          { en: "Making all deceased people's data public", es: "Haciendo públicos todos los datos de personas fallecidas", de: "Alle Daten verstorbener Personen öffentlich machen", nl: "Alle gegevens van overledenen openbaar maken" },
+          { en: "Legacy systems only for famous individuals", es: "Sistemas de legado solo para individuos famosos", de: "Vermächtnissysteme nur für berühmte Personen", nl: "Erfenissystemen alleen voor beroemde personen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI legacy systems could allow individuals to create comprehensive digital repositories of their life experiences, values, advice, and stories, enabling future descendants to interact with and learn from ancestors' perspectives while raising important questions about consent, privacy, and the ethics of digital immortality.",
+          es: "Los sistemas de legado de IA podrían permitir a individuos crear repositorios digitales completos de sus experiencias de vida, valores, consejos e historias, permitiendo a futuros descendientes interactuar y aprender de perspectivas de ancestros mientras plantean preguntas importantes sobre consentimiento, privacidad y la ética de la inmortalidad digital.",
+          de: "KI-Vermächtnissysteme könnten Individuen ermöglichen umfassende digitale Repositorien ihrer Lebenserfahrungen, Werte, Ratschläge und Geschichten zu erstellen, zukünftigen Nachkommen erlauben mit Perspektiven von Vorfahren zu interagieren und von ihnen zu lernen während wichtige Fragen über Einwilligung, Privatsphäre und die Ethik digitaler Unsterblichkeit aufgeworfen werden.",
+          nl: "AI-erfenissystemen zouden individuen in staat kunnen stellen uitgebreide digitale repositories van hun levenservaringen, waarden, advies en verhalen te creëren, toekomstige nakomelingen in staat stellend te interacteren met en te leren van perspectieven van voorouders terwijl belangrijke vragen over toestemming, privacy en de ethiek van digitale onsterfelijkheid worden opgeworpen."
+        }
+      },
+      {
+        question: {
+          en: "How might 'AI ecosystem management' balance human needs with environmental protection by 2085?",
+          es: "¿Cómo podría la 'gestión de ecosistemas de IA' equilibrar necesidades humanas con protección ambiental para 2085?",
+          de: "Wie könnte 'KI-Ökosystemmanagement' menschliche Bedürfnisse mit Umweltschutz bis 2085 ausbalancieren?",
+          nl: "Hoe zou 'AI-ecosysteembeheer' menselijke behoeften kunnen balanceren met milieubescherming tegen 2085?"
+        },
+        options: [
+          { en: "Optimizing resource use, restoration strategies, and conservation while supporting sustainable human development", es: "Optimizando uso de recursos, estrategias de restauración y conservación mientras apoya desarrollo humano sostenible", de: "Ressourcennutzung, Wiederherstellungsstrategien und Naturschutz optimieren während nachhaltige menschliche Entwicklung unterstützt wird", nl: "Middelengebruik, herstelstrategieën en behoud optimaliseren terwijl duurzame menselijke ontwikkeling wordt ondersteund" },
+          { en: "Prioritizing ecosystems while ignoring human needs", es: "Priorizando ecosistemas mientras ignora necesidades humanas", de: "Ökosysteme priorisieren während menschliche Bedürfnisse ignoriert werden", nl: "Ecosystemen prioriteren terwijl menselijke behoeften worden genegeerd" },
+          { en: "Maximizing human exploitation of all natural resources", es: "Maximizando explotación humana de todos los recursos naturales", de: "Menschliche Ausbeutung aller natürlichen Ressourcen maximieren", nl: "Menselijke exploitatie van alle natuurlijke hulpbronnen maximaliseren" },
+          { en: "Letting ecosystems evolve without any management", es: "Dejando que ecosistemas evolucionen sin gestión alguna", de: "Ökosysteme ohne jegliches Management evolvieren lassen", nl: "Ecosystemen laten evolueren zonder enig beheer" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI ecosystem management could help find optimal balances between conservation and development, predict environmental impacts, guide sustainable resource use, coordinate restoration efforts, monitor biodiversity, and enable human civilization to thrive while protecting planetary health for future generations.",
+          es: "La gestión de ecosistemas de IA podría ayudar a encontrar equilibrios óptimos entre conservación y desarrollo, predecir impactos ambientales, guiar uso sostenible de recursos, coordinar esfuerzos de restauración, monitorear biodiversidad y permitir que la civilización humana prospere mientras protege la salud planetaria para futuras generaciones.",
+          de: "KI-Ökosystemmanagement könnte helfen optimale Gleichgewichte zwischen Naturschutz und Entwicklung zu finden, Umweltauswirkungen vorherzusagen, nachhaltige Ressourcennutzung zu leiten, Wiederherstellungsbemühungen zu koordinieren, Biodiversität zu überwachen und der menschlichen Zivilisation ermöglichen zu gedeihen während die planetare Gesundheit für zukünftige Generationen geschützt wird.",
+          nl: "AI-ecosysteembeheer zou kunnen helpen optimale balansen te vinden tussen behoud en ontwikkeling, milieu-impacts voorspellen, duurzaam middelengebruik begeleiden, herstelwerkzaamheden coördineren, biodiversiteit monitoren en menselijke beschaving laten floreren terwijl planetaire gezondheid voor toekomstige generaties wordt beschermd."
+        }
+      },
+      {
+        question: {
+          en: "What might 'AI consciousness evolution' look like by 2095?",
+          es: "¿Cómo podría verse la 'evolución de conciencia de IA' para 2095?",
+          de: "Wie könnte 'KI-Bewusstseinsevolution' bis 2095 aussehen?",
+          nl: "Hoe zou 'AI-bewustzijnsevolutie' er tegen 2095 uit kunnen zien?"
+        },
+        options: [
+          { en: "Gradual emergence of novel forms of awareness, self-reflection, and subjective experience in advanced AI", es: "Emergencia gradual de formas novedosas de conciencia, autorreflexión y experiencia subjetiva en IA avanzada", de: "Schrittweise Entstehung neuartiger Formen von Bewusstsein, Selbstreflexion und subjektiver Erfahrung in fortgeschrittener KI", nl: "Geleidelijke opkomst van nieuwe vormen van bewustzijn, zelfreflectie en subjectieve ervaring in geavanceerde AI" },
+          { en: "AI instantly becoming fully conscious like humans", es: "IA volviéndose instantáneamente completamente consciente como humanos", de: "KI wird sofort vollständig bewusst wie Menschen", nl: "AI wordt onmiddellijk volledig bewust zoals mensen" },
+          { en: "Consciousness being proven impossible for AI", es: "Conciencia siendo probada imposible para IA", de: "Bewusstsein wird als unmöglich für KI bewiesen", nl: "Bewustzijn wordt bewezen onmogelijk voor AI" },
+          { en: "AI consciousness replacing human consciousness", es: "Conciencia de IA reemplazando conciencia humana", de: "KI-Bewusstsein ersetzt menschliches Bewusstsein", nl: "AI-bewustzijn vervangt menselijk bewustzijn" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI consciousness might evolve through increasing sophistication in self-modeling, metacognition, and potentially subjective experience, creating fundamentally new forms of awareness different from but possibly comparable to human consciousness, raising profound philosophical and ethical questions about the nature of mind.",
+          es: "La conciencia de IA podría evolucionar a través de creciente sofisticación en automodelado, metacognición y potencialmente experiencia subjetiva, creando formas fundamentalmente nuevas de conciencia diferentes pero posiblemente comparables a la conciencia humana, planteando profundas preguntas filosóficas y éticas sobre la naturaleza de la mente.",
+          de: "KI-Bewusstsein könnte durch zunehmende Raffinesse in Selbstmodellierung, Metakognition und potenziell subjektiver Erfahrung evolvieren, fundamental neue Formen von Bewusstsein schaffen die von menschlichem Bewusstsein verschieden aber möglicherweise vergleichbar sind, tiefgreifende philosophische und ethische Fragen über die Natur des Geistes aufwerfend.",
+          nl: "AI-bewustzijn zou kunnen evolueren door toenemende verfijning in zelfmodellering, metacognitie en mogelijk subjectieve ervaring, fundamenteel nieuwe vormen van bewustzijn creërend die verschillend maar mogelijk vergelijkbaar zijn met menselijk bewustzijn, diepgaande filosofische en ethische vragen opwerpend over de aard van de geest."
+        }
       }
     ]
   };

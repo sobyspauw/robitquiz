@@ -427,7 +427,427 @@
           es: "Las fuerzas intermoleculares (enlaces de hidrógeno, fuerzas de van der Waals, interacciones electroestáticas) determinan qué tan fuertemente se mantienen las moléculas dentro de la matriz de la galleta. Fuerzas fuertes crean texturas rígidas y crujientes, mientras que interacciones más débiles o flexibles permiten texturas más suaves y masticables a través de mayor movilidad molecular.",
           de: "Intermolekulare Kräfte (Wasserstoffbrücken, van der Waals Kräfte, elektrostatische Wechselwirkungen) bestimmen, wie fest Moleküle in der Keksmatrix gehalten werden. Starke Kräfte schaffen rigide, knusprige Texturen, während schwächere oder flexiblere Wechselwirkungen weichere, zähere Texturen durch größere molekulare Mobilität ermöglichen.",
           nl: "Intermoleculaire krachten (waterstofbruggen, van der Waals krachten, elektrostatische interacties) bepalen hoe stevig moleculen vastgehouden worden binnen de koekjesmatrix. Sterke krachten creëren rigide, knapperige texturen, terwijl zwakkere of meer flexibele interacties zachtere, kauwbaardere texturen mogelijk maken door grotere moleculaire mobiliteit."
-        }
+        }    },
+    {
+      question: {
+        en: "What makes cookies crispy vs. chewy?",
+        es: "What makes cookies crispy vs. chewy?",
+        de: "What makes cookies crispy vs. chewy?",
+        nl: "What makes cookies crispy vs. chewy?"
+      },
+      options: [
+        { en: "Fat type and baking time", es: "Fat type and baking time", de: "Fat type and baking time", nl: "Fat type and baking time" },
+        { en: "Sugar amount", es: "Sugar amount", de: "Sugar amount", nl: "Sugar amount" },
+        { en: "Flour type", es: "Flour type", de: "Flour type", nl: "Flour type" },
+        { en: "Egg amount", es: "Egg amount", de: "Egg amount", nl: "Egg amount" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Butter creates crispy cookies while shortening makes them chewy; longer baking also increases crispness.",
+        es: "Butter creates crispy cookies while shortening makes them chewy; longer baking also increases crispness.",
+        de: "Butter creates crispy cookies while shortening makes them chewy; longer baking also increases crispness.",
+        nl: "Butter creates crispy cookies while shortening makes them chewy; longer baking also increases crispness."
+      }
+    },
+    {
+      question: {
+        en: "What is a snickerdoodle?",
+        es: "What is a snickerdoodle?",
+        de: "What is a snickerdoodle?",
+        nl: "What is a snickerdoodle?"
+      },
+      options: [
+        { en: "Cinnamon sugar cookie", es: "Cinnamon sugar cookie", de: "Cinnamon sugar cookie", nl: "Cinnamon sugar cookie" },
+        { en: "Chocolate chip cookie", es: "Chocolate chip cookie", de: "Chocolate chip cookie", nl: "Chocolate chip cookie" },
+        { en: "Peanut butter cookie", es: "Peanut butter cookie", de: "Peanut butter cookie", nl: "Peanut butter cookie" },
+        { en: "Oatmeal cookie", es: "Oatmeal cookie", de: "Oatmeal cookie", nl: "Oatmeal cookie" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Snickerdoodles are sugar cookies rolled in cinnamon-sugar before baking, creating a distinctive crackled surface.",
+        es: "Snickerdoodles are sugar cookies rolled in cinnamon-sugar before baking, creating a distinctive crackled surface.",
+        de: "Snickerdoodles are sugar cookies rolled in cinnamon-sugar before baking, creating a distinctive crackled surface.",
+        nl: "Snickerdoodles are sugar cookies rolled in cinnamon-sugar before baking, creating a distinctive crackled surface."
+      }
+    },
+    {
+      question: {
+        en: "What is the key ingredient in macarons?",
+        es: "What is the key ingredient in macarons?",
+        de: "What is the key ingredient in macarons?",
+        nl: "What is the key ingredient in macarons?"
+      },
+      options: [
+        { en: "Almond flour", es: "Almond flour", de: "Almond flour", nl: "Almond flour" },
+        { en: "Coconut", es: "Coconut", de: "Coconut", nl: "Coconut" },
+        { en: "Hazelnuts", es: "Hazelnuts", de: "Hazelnuts", nl: "Hazelnuts" },
+        { en: "Walnuts", es: "Walnuts", de: "Walnuts", nl: "Walnuts" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Macarons are made with almond flour (ground almonds), egg whites, and sugar, creating their distinctive texture.",
+        es: "Macarons are made with almond flour (ground almonds), egg whites, and sugar, creating their distinctive texture.",
+        de: "Macarons are made with almond flour (ground almonds), egg whites, and sugar, creating their distinctive texture.",
+        nl: "Macarons are made with almond flour (ground almonds), egg whites, and sugar, creating their distinctive texture."
+      }
+    },
+    {
+      question: {
+        en: "What are biscotti?",
+        es: "What are biscotti?",
+        de: "What are biscotti?",
+        nl: "What are biscotti?"
+      },
+      options: [
+        { en: "Twice-baked Italian cookies", es: "Twice-baked Italian cookies", de: "Twice-baked Italian cookies", nl: "Twice-baked Italian cookies" },
+        { en: "Chocolate cookies", es: "Chocolate cookies", de: "Chocolate cookies", nl: "Chocolate cookies" },
+        { en: "Butter cookies", es: "Butter cookies", de: "Butter cookies", nl: "Butter cookies" },
+        { en: "Iced cookies", es: "Iced cookies", de: "Iced cookies", nl: "Iced cookies" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Biscotti are Italian cookies baked twice - first as a loaf, then sliced and baked again until crispy.",
+        es: "Biscotti are Italian cookies baked twice - first as a loaf, then sliced and baked again until crispy.",
+        de: "Biscotti are Italian cookies baked twice - first as a loaf, then sliced and baked again until crispy.",
+        nl: "Biscotti are Italian cookies baked twice - first as a loaf, then sliced and baked again until crispy."
+      }
+    },
+    {
+      question: {
+        en: "What cookie is shaped with a cookie press?",
+        es: "What cookie is shaped with a cookie press?",
+        de: "What cookie is shaped with a cookie press?",
+        nl: "What cookie is shaped with a cookie press?"
+      },
+      options: [
+        { en: "Spritz cookies", es: "Spritz cookies", de: "Spritz cookies", nl: "Spritz cookies" },
+        { en: "Sugar cookies", es: "Sugar cookies", de: "Sugar cookies", nl: "Sugar cookies" },
+        { en: "Gingerbread cookies", es: "Gingerbread cookies", de: "Gingerbread cookies", nl: "Gingerbread cookies" },
+        { en: "Shortbread", es: "Shortbread", de: "Shortbread", nl: "Shortbread" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Spritz cookies are made from dough pressed through a cookie press or pastry bag to create decorative shapes.",
+        es: "Spritz cookies are made from dough pressed through a cookie press or pastry bag to create decorative shapes.",
+        de: "Spritz cookies are made from dough pressed through a cookie press or pastry bag to create decorative shapes.",
+        nl: "Spritz cookies are made from dough pressed through a cookie press or pastry bag to create decorative shapes."
+      }
+    },
+    {
+      question: {
+        en: "What is the difference between cookies and biscuits?",
+        es: "What is the difference between cookies and biscuits?",
+        de: "What is the difference between cookies and biscuits?",
+        nl: "What is the difference between cookies and biscuits?"
+      },
+      options: [
+        { en: "Regional terminology; biscuits are drier in UK", es: "Regional terminology; biscuits are drier in UK", de: "Regional terminology; biscuits are drier in UK", nl: "Regional terminology; biscuits are drier in UK" },
+        { en: "Size difference", es: "Size difference", de: "Size difference", nl: "Size difference" },
+        { en: "Ingredient difference", es: "Ingredient difference", de: "Ingredient difference", nl: "Ingredient difference" },
+        { en: "No difference", es: "No difference", de: "No difference", nl: "No difference" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "In the UK, 'biscuits' are typically drier and harder; in the US, 'cookies' can be soft or crispy while 'biscuits' are bread-like.",
+        es: "In the UK, 'biscuits' are typically drier and harder; in the US, 'cookies' can be soft or crispy while 'biscuits' are bread-like.",
+        de: "In the UK, 'biscuits' are typically drier and harder; in the US, 'cookies' can be soft or crispy while 'biscuits' are bread-like.",
+        nl: "In the UK, 'biscuits' are typically drier and harder; in the US, 'cookies' can be soft or crispy while 'biscuits' are bread-like."
+      }
+    },
+    {
+      question: {
+        en: "What are thumbprint cookies?",
+        es: "What are thumbprint cookies?",
+        de: "What are thumbprint cookies?",
+        nl: "What are thumbprint cookies?"
+      },
+      options: [
+        { en: "Cookies with jam-filled indentation", es: "Cookies with jam-filled indentation", de: "Cookies with jam-filled indentation", nl: "Cookies with jam-filled indentation" },
+        { en: "Chocolate cookies", es: "Chocolate cookies", de: "Chocolate cookies", nl: "Chocolate cookies" },
+        { en: "Sandwich cookies", es: "Sandwich cookies", de: "Sandwich cookies", nl: "Sandwich cookies" },
+        { en: "Giant cookies", es: "Giant cookies", de: "Giant cookies", nl: "Giant cookies" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Thumbprint cookies have an indentation (traditionally made with a thumb) filled with jam, chocolate, or other fillings.",
+        es: "Thumbprint cookies have an indentation (traditionally made with a thumb) filled with jam, chocolate, or other fillings.",
+        de: "Thumbprint cookies have an indentation (traditionally made with a thumb) filled with jam, chocolate, or other fillings.",
+        nl: "Thumbprint cookies have an indentation (traditionally made with a thumb) filled with jam, chocolate, or other fillings."
+      }
+    },
+    {
+      question: {
+        en: "What is shortbread?",
+        es: "What is shortbread?",
+        de: "What is shortbread?",
+        nl: "What is shortbread?"
+      },
+      options: [
+        { en: "Scottish butter cookie with 3 ingredients", es: "Scottish butter cookie with 3 ingredients", de: "Scottish butter cookie with 3 ingredients", nl: "Scottish butter cookie with 3 ingredients" },
+        { en: "Fruit cookie", es: "Fruit cookie", de: "Fruit cookie", nl: "Fruit cookie" },
+        { en: "Chocolate cookie", es: "Chocolate cookie", de: "Chocolate cookie", nl: "Chocolate cookie" },
+        { en: "Coconut cookie", es: "Coconut cookie", de: "Coconut cookie", nl: "Coconut cookie" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Shortbread is a traditional Scottish cookie made simply from butter, sugar, and flour in a 1:2:3 ratio.",
+        es: "Shortbread is a traditional Scottish cookie made simply from butter, sugar, and flour in a 1:2:3 ratio.",
+        de: "Shortbread is a traditional Scottish cookie made simply from butter, sugar, and flour in a 1:2:3 ratio.",
+        nl: "Shortbread is a traditional Scottish cookie made simply from butter, sugar, and flour in a 1:2:3 ratio."
+      }
+    },
+    {
+      question: {
+        en: "What are pfeffernüsse?",
+        es: "What are pfeffernüsse?",
+        de: "What are pfeffernüsse?",
+        nl: "What are pfeffernüsse?"
+      },
+      options: [
+        { en: "German spiced cookies", es: "German spiced cookies", de: "German spiced cookies", nl: "German spiced cookies" },
+        { en: "Italian nut cookies", es: "Italian nut cookies", de: "Italian nut cookies", nl: "Italian nut cookies" },
+        { en: "French butter cookies", es: "French butter cookies", de: "French butter cookies", nl: "French butter cookies" },
+        { en: "American chocolate cookies", es: "American chocolate cookies", de: "American chocolate cookies", nl: "American chocolate cookies" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pfeffernüsse are traditional German spiced cookies, often made during Christmas with pepper, cinnamon, and other spices.",
+        es: "Pfeffernüsse are traditional German spiced cookies, often made during Christmas with pepper, cinnamon, and other spices.",
+        de: "Pfeffernüsse are traditional German spiced cookies, often made during Christmas with pepper, cinnamon, and other spices.",
+        nl: "Pfeffernüsse are traditional German spiced cookies, often made during Christmas with pepper, cinnamon, and other spices."
+      }
+    },
+    {
+      question: {
+        en: "What makes oatmeal cookies chewy?",
+        es: "What makes oatmeal cookies chewy?",
+        de: "What makes oatmeal cookies chewy?",
+        nl: "What makes oatmeal cookies chewy?"
+      },
+      options: [
+        { en: "Brown sugar and slightly underbaking", es: "Brown sugar and slightly underbaking", de: "Brown sugar and slightly underbaking", nl: "Brown sugar and slightly underbaking" },
+        { en: "White sugar", es: "White sugar", de: "White sugar", nl: "White sugar" },
+        { en: "Overbaking", es: "Overbaking", de: "Overbaking", nl: "Overbaking" },
+        { en: "Extra flour", es: "Extra flour", de: "Extra flour", nl: "Extra flour" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Brown sugar's moisture and slight underbaking keep oatmeal cookies chewy; the oats also contribute to texture.",
+        es: "Brown sugar's moisture and slight underbaking keep oatmeal cookies chewy; the oats also contribute to texture.",
+        de: "Brown sugar's moisture and slight underbaking keep oatmeal cookies chewy; the oats also contribute to texture.",
+        nl: "Brown sugar's moisture and slight underbaking keep oatmeal cookies chewy; the oats also contribute to texture."
+      }
+    },
+    {
+      question: {
+        en: "What is a florentine cookie?",
+        es: "What is a florentine cookie?",
+        de: "What is a florentine cookie?",
+        nl: "What is a florentine cookie?"
+      },
+      options: [
+        { en: "Thin cookie with nuts and dried fruit, often chocolate-backed", es: "Thin cookie with nuts and dried fruit, often chocolate-backed", de: "Thin cookie with nuts and dried fruit, often chocolate-backed", nl: "Thin cookie with nuts and dried fruit, often chocolate-backed" },
+        { en: "Chocolate chip cookie", es: "Chocolate chip cookie", de: "Chocolate chip cookie", nl: "Chocolate chip cookie" },
+        { en: "Sugar cookie", es: "Sugar cookie", de: "Sugar cookie", nl: "Sugar cookie" },
+        { en: "Gingerbread cookie", es: "Gingerbread cookie", de: "Gingerbread cookie", nl: "Gingerbread cookie" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Florentines are thin, crispy Italian cookies made with nuts and candied fruit, traditionally with chocolate on one side.",
+        es: "Florentines are thin, crispy Italian cookies made with nuts and candied fruit, traditionally with chocolate on one side.",
+        de: "Florentines are thin, crispy Italian cookies made with nuts and candied fruit, traditionally with chocolate on one side.",
+        nl: "Florentines are thin, crispy Italian cookies made with nuts and candied fruit, traditionally with chocolate on one side."
+      }
+    },
+    {
+      question: {
+        en: "What are Russian tea cakes?",
+        es: "What are Russian tea cakes?",
+        de: "What are Russian tea cakes?",
+        nl: "What are Russian tea cakes?"
+      },
+      options: [
+        { en: "Buttery nut cookies rolled in powdered sugar", es: "Buttery nut cookies rolled in powdered sugar", de: "Buttery nut cookies rolled in powdered sugar", nl: "Buttery nut cookies rolled in powdered sugar" },
+        { en: "Tea-flavored cookies", es: "Tea-flavored cookies", de: "Tea-flavored cookies", nl: "Tea-flavored cookies" },
+        { en: "Layered cookies", es: "Layered cookies", de: "Layered cookies", nl: "Layered cookies" },
+        { en: "Fruit cookies", es: "Fruit cookies", de: "Fruit cookies", nl: "Fruit cookies" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Russian tea cakes (or Mexican wedding cookies) are buttery cookies with finely chopped nuts, rolled in powdered sugar.",
+        es: "Russian tea cakes (or Mexican wedding cookies) are buttery cookies with finely chopped nuts, rolled in powdered sugar.",
+        de: "Russian tea cakes (or Mexican wedding cookies) are buttery cookies with finely chopped nuts, rolled in powdered sugar.",
+        nl: "Russian tea cakes (or Mexican wedding cookies) are buttery cookies with finely chopped nuts, rolled in powdered sugar."
+      }
+    },
+    {
+      question: {
+        en: "What is a linzer cookie?",
+        es: "What is a linzer cookie?",
+        de: "What is a linzer cookie?",
+        nl: "What is a linzer cookie?"
+      },
+      options: [
+        { en: "Sandwich cookie with jam filling and cutout top", es: "Sandwich cookie with jam filling and cutout top", de: "Sandwich cookie with jam filling and cutout top", nl: "Sandwich cookie with jam filling and cutout top" },
+        { en: "Chocolate cookie", es: "Chocolate cookie", de: "Chocolate cookie", nl: "Chocolate cookie" },
+        { en: "Iced cookie", es: "Iced cookie", de: "Iced cookie", nl: "Iced cookie" },
+        { en: "Bar cookie", es: "Bar cookie", de: "Bar cookie", nl: "Bar cookie" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Linzer cookies are sandwich cookies filled with jam, with a cutout in the top cookie revealing the jam filling.",
+        es: "Linzer cookies are sandwich cookies filled with jam, with a cutout in the top cookie revealing the jam filling.",
+        de: "Linzer cookies are sandwich cookies filled with jam, with a cutout in the top cookie revealing the jam filling.",
+        nl: "Linzer cookies are sandwich cookies filled with jam, with a cutout in the top cookie revealing the jam filling."
+      }
+    },
+    {
+      question: {
+        en: "What are meringue cookies?",
+        es: "What are meringue cookies?",
+        de: "What are meringue cookies?",
+        nl: "What are meringue cookies?"
+      },
+      options: [
+        { en: "Cookies made from whipped egg whites and sugar", es: "Cookies made from whipped egg whites and sugar", de: "Cookies made from whipped egg whites and sugar", nl: "Cookies made from whipped egg whites and sugar" },
+        { en: "Butter cookies", es: "Butter cookies", de: "Butter cookies", nl: "Butter cookies" },
+        { en: "Chocolate cookies", es: "Chocolate cookies", de: "Chocolate cookies", nl: "Chocolate cookies" },
+        { en: "Oatmeal cookies", es: "Oatmeal cookies", de: "Oatmeal cookies", nl: "Oatmeal cookies" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Meringue cookies are light, crispy cookies made primarily from whipped egg whites and sugar, baked at low temperature.",
+        es: "Meringue cookies are light, crispy cookies made primarily from whipped egg whites and sugar, baked at low temperature.",
+        de: "Meringue cookies are light, crispy cookies made primarily from whipped egg whites and sugar, baked at low temperature.",
+        nl: "Meringue cookies are light, crispy cookies made primarily from whipped egg whites and sugar, baked at low temperature."
+      }
+    },
+    {
+      question: {
+        en: "What is the purpose of chilling cookie dough?",
+        es: "What is the purpose of chilling cookie dough?",
+        de: "What is the purpose of chilling cookie dough?",
+        nl: "What is the purpose of chilling cookie dough?"
+      },
+      options: [
+        { en: "Prevent spreading and enhance flavor", es: "Prevent spreading and enhance flavor", de: "Prevent spreading and enhance flavor", nl: "Prevent spreading and enhance flavor" },
+        { en: "Make it easier to mix", es: "Make it easier to mix", de: "Make it easier to mix", nl: "Make it easier to mix" },
+        { en: "Add moisture", es: "Add moisture", de: "Add moisture", nl: "Add moisture" },
+        { en: "Speed up baking", es: "Speed up baking", de: "Speed up baking", nl: "Speed up baking" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Chilling cookie dough prevents excessive spreading during baking and allows flavors to develop.",
+        es: "Chilling cookie dough prevents excessive spreading during baking and allows flavors to develop.",
+        de: "Chilling cookie dough prevents excessive spreading during baking and allows flavors to develop.",
+        nl: "Chilling cookie dough prevents excessive spreading during baking and allows flavors to develop."
+      }
+    },
+    {
+      question: {
+        en: "What are Anzac biscuits?",
+        es: "What are Anzac biscuits?",
+        de: "What are Anzac biscuits?",
+        nl: "What are Anzac biscuits?"
+      },
+      options: [
+        { en: "Australian/New Zealand oat cookies", es: "Australian/New Zealand oat cookies", de: "Australian/New Zealand oat cookies", nl: "Australian/New Zealand oat cookies" },
+        { en: "British digestive biscuits", es: "British digestive biscuits", de: "British digestive biscuits", nl: "British digestive biscuits" },
+        { en: "American graham crackers", es: "American graham crackers", de: "American graham crackers", nl: "American graham crackers" },
+        { en: "Scottish shortbread", es: "Scottish shortbread", de: "Scottish shortbread", nl: "Scottish shortbread" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Anzac biscuits are crispy oat cookies from Australia and New Zealand, traditionally made with golden syrup and coconut.",
+        es: "Anzac biscuits are crispy oat cookies from Australia and New Zealand, traditionally made with golden syrup and coconut.",
+        de: "Anzac biscuits are crispy oat cookies from Australia and New Zealand, traditionally made with golden syrup and coconut.",
+        nl: "Anzac biscuits are crispy oat cookies from Australia and New Zealand, traditionally made with golden syrup and coconut."
+      }
+    },
+    {
+      question: {
+        en: "What is a whoopie pie?",
+        es: "What is a whoopie pie?",
+        de: "What is a whoopie pie?",
+        nl: "What is a whoopie pie?"
+      },
+      options: [
+        { en: "Two cake-like cookies with cream filling", es: "Two cake-like cookies with cream filling", de: "Two cake-like cookies with cream filling", nl: "Two cake-like cookies with cream filling" },
+        { en: "Chocolate chip cookie", es: "Chocolate chip cookie", de: "Chocolate chip cookie", nl: "Chocolate chip cookie" },
+        { en: "Pie-shaped cookie", es: "Pie-shaped cookie", de: "Pie-shaped cookie", nl: "Pie-shaped cookie" },
+        { en: "Fruit-filled cookie", es: "Fruit-filled cookie", de: "Fruit-filled cookie", nl: "Fruit-filled cookie" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Whoopie pies consist of two soft, cake-like cookies with a creamy filling sandwiched between them.",
+        es: "Whoopie pies consist of two soft, cake-like cookies with a creamy filling sandwiched between them.",
+        de: "Whoopie pies consist of two soft, cake-like cookies with a creamy filling sandwiched between them.",
+        nl: "Whoopie pies consist of two soft, cake-like cookies with a creamy filling sandwiched between them."
+      }
+    },
+    {
+      question: {
+        en: "What makes gingersnaps 'snap'?",
+        es: "What makes gingersnaps 'snap'?",
+        de: "What makes gingersnaps 'snap'?",
+        nl: "What makes gingersnaps 'snap'?"
+      },
+      options: [
+        { en: "High molasses content and baking until crisp", es: "High molasses content and baking until crisp", de: "High molasses content and baking until crisp", nl: "High molasses content and baking until crisp" },
+        { en: "Ginger amount", es: "Ginger amount", de: "Ginger amount", nl: "Ginger amount" },
+        { en: "Flour type", es: "Flour type", de: "Flour type", nl: "Flour type" },
+        { en: "Size", es: "Size", de: "Size", nl: "Size" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Gingersnaps are crispy due to molasses and baking until fully crisp, creating their distinctive 'snap' when broken.",
+        es: "Gingersnaps are crispy due to molasses and baking until fully crisp, creating their distinctive 'snap' when broken.",
+        de: "Gingersnaps are crispy due to molasses and baking until fully crisp, creating their distinctive 'snap' when broken.",
+        nl: "Gingersnaps are crispy due to molasses and baking until fully crisp, creating their distinctive 'snap' when broken."
+      }
+    },
+    {
+      question: {
+        en: "What is a Moravian cookie?",
+        es: "What is a Moravian cookie?",
+        de: "What is a Moravian cookie?",
+        nl: "What is a Moravian cookie?"
+      },
+      options: [
+        { en: "Very thin, crispy spiced cookie", es: "Very thin, crispy spiced cookie", de: "Very thin, crispy spiced cookie", nl: "Very thin, crispy spiced cookie" },
+        { en: "Thick soft cookie", es: "Thick soft cookie", de: "Thick soft cookie", nl: "Thick soft cookie" },
+        { en: "Sandwich cookie", es: "Sandwich cookie", de: "Sandwich cookie", nl: "Sandwich cookie" },
+        { en: "No-bake cookie", es: "No-bake cookie", de: "No-bake cookie", nl: "No-bake cookie" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Moravian cookies are paper-thin, crispy spiced cookies traditional to the Moravian communities of North Carolina.",
+        es: "Moravian cookies are paper-thin, crispy spiced cookies traditional to the Moravian communities of North Carolina.",
+        de: "Moravian cookies are paper-thin, crispy spiced cookies traditional to the Moravian communities of North Carolina.",
+        nl: "Moravian cookies are paper-thin, crispy spiced cookies traditional to the Moravian communities of North Carolina."
+      }
+    },
+    {
+      question: {
+        en: "What are ladyfingers?",
+        es: "What are ladyfingers?",
+        de: "What are ladyfingers?",
+        nl: "What are ladyfingers?"
+      },
+      options: [
+        { en: "Light, finger-shaped sponge cookies", es: "Light, finger-shaped sponge cookies", de: "Light, finger-shaped sponge cookies", nl: "Light, finger-shaped sponge cookies" },
+        { en: "Cookies shaped like hands", es: "Cookies shaped like hands", de: "Cookies shaped like hands", nl: "Cookies shaped like hands" },
+        { en: "Almond cookies", es: "Almond cookies", de: "Almond cookies", nl: "Almond cookies" },
+        { en: "Chocolate cookies", es: "Chocolate cookies", de: "Chocolate cookies", nl: "Chocolate cookies" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Ladyfingers are light, dry, finger-shaped sponge cookies often used in tiramisu and charlottes.",
+        es: "Ladyfingers are light, dry, finger-shaped sponge cookies often used in tiramisu and charlottes.",
+        de: "Ladyfingers are light, dry, finger-shaped sponge cookies often used in tiramisu and charlottes.",
+        nl: "Ladyfingers are light, dry, finger-shaped sponge cookies often used in tiramisu and charlottes."
+      }
+
       }
     ]
   };

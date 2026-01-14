@@ -426,7 +426,427 @@
           es: "Proporción agua (agua total usada / volumen producto) en plantas bebidas históricamente 4-10:1, alto desempeño logra <2:1. Desglose uso agua: Agua producto (bebida misma, 10-20%), limpieza CIP (30-45%), enfriamiento/calentamiento (20-30%), agua servicios (enjuagues, lubricación transportador, 15-25%). Estrategias reducción: Optimización CIP—reducir frecuencia ciclos (activación basada conductividad vs. basada tiempo), sistemas paso único a recuperación (capturando enjuague final como pre-enjuague para próximo ciclo), optimización concentración cáustico/ácido, limpieza espuma (90% menos agua que aspersión), reciclaje filtración membrana de soluciones limpieza; Reciclaje agua—tratamiento terciario (filtración, UV, ozono) de agua proceso para reutilización en aplicaciones no producto (torres enfriamiento, alimentación caldera, enjuagues CIP iniciales), sistemas recolección segregados (corrientes baja contaminación más fáciles tratar); Sistemas circuito cerrado—intercambiadores calor placas para enfriamiento (agua recirculante vs. paso único), bombas vacío secas (vs. bombas anillo agua consumiendo 60-100 L/min), condensadores enfriados aire; Procesos secos—limpieza nieve CO₂ (sublimación), transporte aire (vs. lubricado agua), limpieza botellas electrostática; Cosecha agua lluvia, tratamiento aguas residuales in-situ y reciclaje descarga. Empresas líderes (Coca-Cola, PepsiCo, Nestlé) objetivos: neutralidad agua (reponer 100% agua usada), proporción 1.5:1 para 2030. Monitoreo: flujómetros en línea, modelado balance agua, evaluación ciclo vida (LCA). Impulsores regulatorios: escasez agua (2 mil millones personas enfrentan estrés hídrico), protección cuencas, ahorro costos operativos ($0.001-0.01/L agua+tratamiento). Inversiones tecnología: $200-500k para sistemas reciclaje, recuperación 2-4 años.",
           de: "Wasserverhältnis (Gesamtwasser verwendet / Produktvolumen) in Getränkeanlagen historisch 4-10:1, Hochleistungsträger erreichen <2:1. Wassernutzungs-Aufschlüsselung: Produktwasser (Getränk selbst, 10-20%), CIP-Reinigung (30-45%), Kühlen/Heizen (20-30%), Nutzwasser (Spülungen, Förderband-Schmierung, 15-25%). Reduzierungsstrategien: CIP-Optimierung—Reduzierung Zyklusfrequenz (leitfähigkeitsbasierte Auslösung vs. zeitbasiert), Einweg zu Rückgewinnungssystemen (Erfassen finale Spülung als Vorspülung für nächsten Zyklus), Natronlauge/Säure-Konzentrationsoptimierung, Schaumreinigung (90% weniger Wasser als Spray), Membranfiltrationsrecycling von Reinigungslösungen; Wasser-Recycling—tertiäre Behandlung (Filtration, UV, Ozon) von Prozesswasser zur Wiederverwendung in Nicht-Produkt-Anwendungen (Kühltürme, Kesselspeisewasser, initiale CIP-Spülungen), getrennte Sammelsysteme (niedrig-kontaminierte Ströme einfacher zu behandeln); Geschlossene Kreislaufsysteme—Plattenwärmetauscher für Kühlung (rezirkulierendes Wasser vs. Durchlauf), trockene Vakuumpumpen (vs. Wasserringpumpen verbrauchen 60-100 L/min), luftgekühlte Kondensatoren; Trockenprozesse—CO₂-Schneereinigung (Sublimation), Luftförderung (vs. wassergeschmiert), elektrostatische Flaschenreinigung; Regenwasser-Harvesting, Vor-Ort-Abwasserbehandlung und Abfluss-Recycling. Führende Unternehmen (Coca-Cola, PepsiCo, Nestlé) Ziele: Wasserneutralität (100% verwendetes Wasser auffüllen), 1.5:1 Verhältnis bis 2030. Überwachung: Inline-Durchflussmesser, Wasserbilanz-Modellierung, Lebenszyklusbewertung (LCA). Regulatorische Treiber: Wasserknappheit (2 Milliarden Menschen Wasserstress), Wasserscheiden-Schutz, Betriebskosteneinsparungen ($0.001-0.01/L Wasser+Behandlung). Technologie-Investitionen: $200-500k für Recycling-Systeme, Amortisation 2-4 Jahre.",
           nl: "Water verhouding (totaal water gebruikt / product volume) in drankenfabrieken historisch 4-10:1, hoge presteerders bereiken <2:1. Watergebruik uitsplitsing: Product water (drank zelf, 10-20%), CIP reiniging (30-45%), koeling/verwarming (20-30%), nutswater (spoelen, transportband smering, 15-25%). Verminderingsstrategieën: CIP optimalisatie—verminderen cyclus frequentie (geleidbaarheid-gebaseerde activering vs. tijd-gebaseerd), enkel-pas naar herstel systemen (vangend finale spoeling als pre-spoeling voor volgende cyclus), bijtende/zuur concentratie optimalisatie, schuim reiniging (90% minder water dan spray), membraan filtratie hergebruik van reinigingsoplossingen; Water recycling—tertiaire behandeling (filtratie, UV, ozon) van proces water voor hergebruik in niet-product toepassingen (koeltorens, ketel voeding, initiële CIP spoelen), gescheiden verzamel systemen (lage-contaminatie stromen makkelijker te behandelen); Gesloten-lus systemen—plaat warmtewisselaars voor koeling (recirculerend water vs. eenmalig-door), droge vacuüm pompen (vs. waterring pompen consumerend 60-100 L/min), lucht gekoelde condensers; Droge processen—CO₂ sneeuw reiniging (sublimatie), lucht transport (vs. water gesmeerd), elektrostatische fles reiniging; Regenwater oogsten, ter plaatse afvalwater behandeling en afvoer recycling. Leidende bedrijven (Coca-Cola, PepsiCo, Nestlé) doelen: water neutraliteit (aanvullen 100% water gebruikt), 1.5:1 verhouding tegen 2030. Monitoring: inline stroommeter, water balans modellering, levenscyclus beoordeling (LCA). Regelgevende drijvers: water schaarste (2 miljard mensen maken water stress mee), stroomgebied bescherming, operationele kosten besparingen ($0.001-0.01/L water+behandeling). Technologie investeringen: $200-500k voor recycling systemen, terugverdientijd 2-4 jaar."
-        }
+        }    },
+    {
+      question: {
+        en: "What is a soft drink?",
+        es: "What is a soft drink?",
+        de: "What is a soft drink?",
+        nl: "What is a soft drink?"
+      },
+      options: [
+        { en: "Non-alcoholic carbonated beverage", es: "Non-alcoholic carbonated beverage", de: "Non-alcoholic carbonated beverage", nl: "Non-alcoholic carbonated beverage" },
+        { en: "Alcoholic drink", es: "Alcoholic drink", de: "Alcoholic drink", nl: "Alcoholic drink" },
+        { en: "Juice", es: "Juice", de: "Juice", nl: "Juice" },
+        { en: "Milk-based drink", es: "Milk-based drink", de: "Milk-based drink", nl: "Milk-based drink" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A soft drink is a non-alcoholic beverage, typically carbonated and sweetened.",
+        es: "A soft drink is a non-alcoholic beverage, typically carbonated and sweetened.",
+        de: "A soft drink is a non-alcoholic beverage, typically carbonated and sweetened.",
+        nl: "A soft drink is a non-alcoholic beverage, typically carbonated and sweetened."
+      }
+    },
+    {
+      question: {
+        en: "What company makes Coca-Cola?",
+        es: "What company makes Coca-Cola?",
+        de: "What company makes Coca-Cola?",
+        nl: "What company makes Coca-Cola?"
+      },
+      options: [
+        { en: "The Coca-Cola Company", es: "The Coca-Cola Company", de: "The Coca-Cola Company", nl: "The Coca-Cola Company" },
+        { en: "PepsiCo", es: "PepsiCo", de: "PepsiCo", nl: "PepsiCo" },
+        { en: "Dr Pepper Snapple", es: "Dr Pepper Snapple", de: "Dr Pepper Snapple", nl: "Dr Pepper Snapple" },
+        { en: "Nestle", es: "Nestle", de: "Nestle", nl: "Nestle" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Coca-Cola is produced by The Coca-Cola Company, founded in 1886.",
+        es: "Coca-Cola is produced by The Coca-Cola Company, founded in 1886.",
+        de: "Coca-Cola is produced by The Coca-Cola Company, founded in 1886.",
+        nl: "Coca-Cola is produced by The Coca-Cola Company, founded in 1886."
+      }
+    },
+    {
+      question: {
+        en: "What flavor is Sprite?",
+        es: "What flavor is Sprite?",
+        de: "What flavor is Sprite?",
+        nl: "What flavor is Sprite?"
+      },
+      options: [
+        { en: "Lemon-lime", es: "Lemon-lime", de: "Lemon-lime", nl: "Lemon-lime" },
+        { en: "Orange", es: "Orange", de: "Orange", nl: "Orange" },
+        { en: "Cola", es: "Cola", de: "Cola", nl: "Cola" },
+        { en: "Grape", es: "Grape", de: "Grape", nl: "Grape" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Sprite is a lemon-lime flavored carbonated soft drink.",
+        es: "Sprite is a lemon-lime flavored carbonated soft drink.",
+        de: "Sprite is a lemon-lime flavored carbonated soft drink.",
+        nl: "Sprite is a lemon-lime flavored carbonated soft drink."
+      }
+    },
+    {
+      question: {
+        en: "What gives soda its fizz?",
+        es: "What gives soda its fizz?",
+        de: "What gives soda its fizz?",
+        nl: "What gives soda its fizz?"
+      },
+      options: [
+        { en: "Carbon dioxide", es: "Carbon dioxide", de: "Carbon dioxide", nl: "Carbon dioxide" },
+        { en: "Oxygen", es: "Oxygen", de: "Oxygen", nl: "Oxygen" },
+        { en: "Nitrogen", es: "Nitrogen", de: "Nitrogen", nl: "Nitrogen" },
+        { en: "Hydrogen", es: "Hydrogen", de: "Hydrogen", nl: "Hydrogen" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Carbon dioxide dissolved under pressure gives soda its characteristic fizz and bubbles.",
+        es: "Carbon dioxide dissolved under pressure gives soda its characteristic fizz and bubbles.",
+        de: "Carbon dioxide dissolved under pressure gives soda its characteristic fizz and bubbles.",
+        nl: "Carbon dioxide dissolved under pressure gives soda its characteristic fizz and bubbles."
+      }
+    },
+    {
+      question: {
+        en: "What company makes Pepsi?",
+        es: "What company makes Pepsi?",
+        de: "What company makes Pepsi?",
+        nl: "What company makes Pepsi?"
+      },
+      options: [
+        { en: "PepsiCo", es: "PepsiCo", de: "PepsiCo", nl: "PepsiCo" },
+        { en: "Coca-Cola Company", es: "Coca-Cola Company", de: "Coca-Cola Company", nl: "Coca-Cola Company" },
+        { en: "Dr Pepper", es: "Dr Pepper", de: "Dr Pepper", nl: "Dr Pepper" },
+        { en: "Nestle", es: "Nestle", de: "Nestle", nl: "Nestle" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pepsi is produced by PepsiCo, a major competitor to Coca-Cola.",
+        es: "Pepsi is produced by PepsiCo, a major competitor to Coca-Cola.",
+        de: "Pepsi is produced by PepsiCo, a major competitor to Coca-Cola.",
+        nl: "Pepsi is produced by PepsiCo, a major competitor to Coca-Cola."
+      }
+    },
+    {
+      question: {
+        en: "What is root beer?",
+        es: "What is root beer?",
+        de: "What is root beer?",
+        nl: "What is root beer?"
+      },
+      options: [
+        { en: "Sweet soft drink flavored with sassafras", es: "Sweet soft drink flavored with sassafras", de: "Sweet soft drink flavored with sassafras", nl: "Sweet soft drink flavored with sassafras" },
+        { en: "Alcoholic beer", es: "Alcoholic beer", de: "Alcoholic beer", nl: "Alcoholic beer" },
+        { en: "Cola variant", es: "Cola variant", de: "Cola variant", nl: "Cola variant" },
+        { en: "Coffee-based drink", es: "Coffee-based drink", de: "Coffee-based drink", nl: "Coffee-based drink" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Root beer is a sweet North American soft drink traditionally flavored with sassafras root.",
+        es: "Root beer is a sweet North American soft drink traditionally flavored with sassafras root.",
+        de: "Root beer is a sweet North American soft drink traditionally flavored with sassafras root.",
+        nl: "Root beer is a sweet North American soft drink traditionally flavored with sassafras root."
+      }
+    },
+    {
+      question: {
+        en: "What is ginger ale?",
+        es: "What is ginger ale?",
+        de: "What is ginger ale?",
+        nl: "What is ginger ale?"
+      },
+      options: [
+        { en: "Ginger-flavored carbonated drink", es: "Ginger-flavored carbonated drink", de: "Ginger-flavored carbonated drink", nl: "Ginger-flavored carbonated drink" },
+        { en: "Alcoholic ginger beer", es: "Alcoholic ginger beer", de: "Alcoholic ginger beer", nl: "Alcoholic ginger beer" },
+        { en: "Beer made with ginger", es: "Beer made with ginger", de: "Beer made with ginger", nl: "Beer made with ginger" },
+        { en: "Ale with ginger flavor", es: "Ale with ginger flavor", de: "Ale with ginger flavor", nl: "Ale with ginger flavor" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Ginger ale is a non-alcoholic carbonated soft drink flavored with ginger.",
+        es: "Ginger ale is a non-alcoholic carbonated soft drink flavored with ginger.",
+        de: "Ginger ale is a non-alcoholic carbonated soft drink flavored with ginger.",
+        nl: "Ginger ale is a non-alcoholic carbonated soft drink flavored with ginger."
+      }
+    },
+    {
+      question: {
+        en: "What soft drink is known for its 23 flavors?",
+        es: "What soft drink is known for its 23 flavors?",
+        de: "What soft drink is known for its 23 flavors?",
+        nl: "What soft drink is known for its 23 flavors?"
+      },
+      options: [
+        { en: "Dr Pepper", es: "Dr Pepper", de: "Dr Pepper", nl: "Dr Pepper" },
+        { en: "Coca-Cola", es: "Coca-Cola", de: "Coca-Cola", nl: "Coca-Cola" },
+        { en: "Pepsi", es: "Pepsi", de: "Pepsi", nl: "Pepsi" },
+        { en: "7-Up", es: "7-Up", de: "7-Up", nl: "7-Up" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Dr Pepper is marketed as having a unique blend of 23 flavors.",
+        es: "Dr Pepper is marketed as having a unique blend of 23 flavors.",
+        de: "Dr Pepper is marketed as having a unique blend of 23 flavors.",
+        nl: "Dr Pepper is marketed as having a unique blend of 23 flavors."
+      }
+    },
+    {
+      question: {
+        en: "What is Mountain Dew?",
+        es: "What is Mountain Dew?",
+        de: "What is Mountain Dew?",
+        nl: "What is Mountain Dew?"
+      },
+      options: [
+        { en: "Citrus-flavored caffeinated soft drink", es: "Citrus-flavored caffeinated soft drink", de: "Citrus-flavored caffeinated soft drink", nl: "Citrus-flavored caffeinated soft drink" },
+        { en: "Energy drink", es: "Energy drink", de: "Energy drink", nl: "Energy drink" },
+        { en: "Juice", es: "Juice", de: "Juice", nl: "Juice" },
+        { en: "Tea-based drink", es: "Tea-based drink", de: "Tea-based drink", nl: "Tea-based drink" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Mountain Dew is a citrus-flavored carbonated soft drink with caffeine.",
+        es: "Mountain Dew is a citrus-flavored carbonated soft drink with caffeine.",
+        de: "Mountain Dew is a citrus-flavored carbonated soft drink with caffeine.",
+        nl: "Mountain Dew is a citrus-flavored carbonated soft drink with caffeine."
+      }
+    },
+    {
+      question: {
+        en: "What is tonic water?",
+        es: "What is tonic water?",
+        de: "What is tonic water?",
+        nl: "What is tonic water?"
+      },
+      options: [
+        { en: "Carbonated water with quinine", es: "Carbonated water with quinine", de: "Carbonated water with quinine", nl: "Carbonated water with quinine" },
+        { en: "Plain carbonated water", es: "Plain carbonated water", de: "Plain carbonated water", nl: "Plain carbonated water" },
+        { en: "Sweet soda", es: "Sweet soda", de: "Sweet soda", nl: "Sweet soda" },
+        { en: "Flavored water", es: "Flavored water", de: "Flavored water", nl: "Flavored water" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Tonic water is carbonated water flavored with quinine, originally used to prevent malaria.",
+        es: "Tonic water is carbonated water flavored with quinine, originally used to prevent malaria.",
+        de: "Tonic water is carbonated water flavored with quinine, originally used to prevent malaria.",
+        nl: "Tonic water is carbonated water flavored with quinine, originally used to prevent malaria."
+      }
+    },
+    {
+      question: {
+        en: "What is club soda?",
+        es: "What is club soda?",
+        de: "What is club soda?",
+        nl: "What is club soda?"
+      },
+      options: [
+        { en: "Carbonated water with minerals", es: "Carbonated water with minerals", de: "Carbonated water with minerals", nl: "Carbonated water with minerals" },
+        { en: "Alcoholic soda", es: "Alcoholic soda", de: "Alcoholic soda", nl: "Alcoholic soda" },
+        { en: "Sweet soda", es: "Sweet soda", de: "Sweet soda", nl: "Sweet soda" },
+        { en: "Fruit-flavored soda", es: "Fruit-flavored soda", de: "Fruit-flavored soda", nl: "Fruit-flavored soda" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Club soda is carbonated water with added minerals like sodium bicarbonate or potassium sulfate.",
+        es: "Club soda is carbonated water with added minerals like sodium bicarbonate or potassium sulfate.",
+        de: "Club soda is carbonated water with added minerals like sodium bicarbonate or potassium sulfate.",
+        nl: "Club soda is carbonated water with added minerals like sodium bicarbonate or potassium sulfate."
+      }
+    },
+    {
+      question: {
+        en: "What color is original Coca-Cola?",
+        es: "What color is original Coca-Cola?",
+        de: "What color is original Coca-Cola?",
+        nl: "What color is original Coca-Cola?"
+      },
+      options: [
+        { en: "Caramel brown", es: "Caramel brown", de: "Caramel brown", nl: "Caramel brown" },
+        { en: "Clear", es: "Clear", de: "Clear", nl: "Clear" },
+        { en: "Red", es: "Red", de: "Red", nl: "Red" },
+        { en: "Black", es: "Black", de: "Black", nl: "Black" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Coca-Cola has a distinctive caramel brown color from caramel coloring.",
+        es: "Coca-Cola has a distinctive caramel brown color from caramel coloring.",
+        de: "Coca-Cola has a distinctive caramel brown color from caramel coloring.",
+        nl: "Coca-Cola has a distinctive caramel brown color from caramel coloring."
+      }
+    },
+    {
+      question: {
+        en: "What is Fanta?",
+        es: "What is Fanta?",
+        de: "What is Fanta?",
+        nl: "What is Fanta?"
+      },
+      options: [
+        { en: "Orange-flavored soft drink", es: "Orange-flavored soft drink", de: "Orange-flavored soft drink", nl: "Orange-flavored soft drink" },
+        { en: "Cola drink", es: "Cola drink", de: "Cola drink", nl: "Cola drink" },
+        { en: "Lemon-lime soda", es: "Lemon-lime soda", de: "Lemon-lime soda", nl: "Lemon-lime soda" },
+        { en: "Root beer", es: "Root beer", de: "Root beer", nl: "Root beer" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Fanta is a fruit-flavored carbonated soft drink, most commonly orange-flavored.",
+        es: "Fanta is a fruit-flavored carbonated soft drink, most commonly orange-flavored.",
+        de: "Fanta is a fruit-flavored carbonated soft drink, most commonly orange-flavored.",
+        nl: "Fanta is a fruit-flavored carbonated soft drink, most commonly orange-flavored."
+      }
+    },
+    {
+      question: {
+        en: "What does 'diet' or 'zero' soda mean?",
+        es: "What does 'diet' or 'zero' soda mean?",
+        de: "What does 'diet' or 'zero' soda mean?",
+        nl: "What does 'diet' or 'zero' soda mean?"
+      },
+      options: [
+        { en: "Sweetened with artificial sweeteners, no sugar", es: "Sweetened with artificial sweeteners, no sugar", de: "Sweetened with artificial sweeteners, no sugar", nl: "Sweetened with artificial sweeteners, no sugar" },
+        { en: "Less carbonation", es: "Less carbonation", de: "Less carbonation", nl: "Less carbonation" },
+        { en: "No caffeine", es: "No caffeine", de: "No caffeine", nl: "No caffeine" },
+        { en: "Organic ingredients", es: "Organic ingredients", de: "Organic ingredients", nl: "Organic ingredients" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Diet or zero sodas use artificial sweeteners instead of sugar, reducing calories.",
+        es: "Diet or zero sodas use artificial sweeteners instead of sugar, reducing calories.",
+        de: "Diet or zero sodas use artificial sweeteners instead of sugar, reducing calories.",
+        nl: "Diet or zero sodas use artificial sweeteners instead of sugar, reducing calories."
+      }
+    },
+    {
+      question: {
+        en: "What is cream soda?",
+        es: "What is cream soda?",
+        de: "What is cream soda?",
+        nl: "What is cream soda?"
+      },
+      options: [
+        { en: "Vanilla-flavored carbonated drink", es: "Vanilla-flavored carbonated drink", de: "Vanilla-flavored carbonated drink", nl: "Vanilla-flavored carbonated drink" },
+        { en: "Soda with cream", es: "Soda with cream", de: "Soda with cream", nl: "Soda with cream" },
+        { en: "Chocolate soda", es: "Chocolate soda", de: "Chocolate soda", nl: "Chocolate soda" },
+        { en: "Coffee soda", es: "Coffee soda", de: "Coffee soda", nl: "Coffee soda" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Cream soda is a sweet carbonated beverage flavored with vanilla.",
+        es: "Cream soda is a sweet carbonated beverage flavored with vanilla.",
+        de: "Cream soda is a sweet carbonated beverage flavored with vanilla.",
+        nl: "Cream soda is a sweet carbonated beverage flavored with vanilla."
+      }
+    },
+    {
+      question: {
+        en: "What is energy drink classified as?",
+        es: "What is energy drink classified as?",
+        de: "What is energy drink classified as?",
+        nl: "What is energy drink classified as?"
+      },
+      options: [
+        { en: "Soft drink with added stimulants", es: "Soft drink with added stimulants", de: "Soft drink with added stimulants", nl: "Soft drink with added stimulants" },
+        { en: "Sports drink", es: "Sports drink", de: "Sports drink", nl: "Sports drink" },
+        { en: "Juice", es: "Juice", de: "Juice", nl: "Juice" },
+        { en: "Tea", es: "Tea", de: "Tea", nl: "Tea" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Energy drinks are soft drinks containing caffeine and other stimulants like taurine.",
+        es: "Energy drinks are soft drinks containing caffeine and other stimulants like taurine.",
+        de: "Energy drinks are soft drinks containing caffeine and other stimulants like taurine.",
+        nl: "Energy drinks are soft drinks containing caffeine and other stimulants like taurine."
+      }
+    },
+    {
+      question: {
+        en: "What is 7-Up?",
+        es: "What is 7-Up?",
+        de: "What is 7-Up?",
+        nl: "What is 7-Up?"
+      },
+      options: [
+        { en: "Lemon-lime flavored soft drink", es: "Lemon-lime flavored soft drink", de: "Lemon-lime flavored soft drink", nl: "Lemon-lime flavored soft drink" },
+        { en: "Cola", es: "Cola", de: "Cola", nl: "Cola" },
+        { en: "Orange soda", es: "Orange soda", de: "Orange soda", nl: "Orange soda" },
+        { en: "Root beer", es: "Root beer", de: "Root beer", nl: "Root beer" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "7-Up is a lemon-lime flavored non-caffeinated soft drink.",
+        es: "7-Up is a lemon-lime flavored non-caffeinated soft drink.",
+        de: "7-Up is a lemon-lime flavored non-caffeinated soft drink.",
+        nl: "7-Up is a lemon-lime flavored non-caffeinated soft drink."
+      }
+    },
+    {
+      question: {
+        en: "What is the sweetener in regular soda?",
+        es: "What is the sweetener in regular soda?",
+        de: "What is the sweetener in regular soda?",
+        nl: "What is the sweetener in regular soda?"
+      },
+      options: [
+        { en: "Sugar or high-fructose corn syrup", es: "Sugar or high-fructose corn syrup", de: "Sugar or high-fructose corn syrup", nl: "Sugar or high-fructose corn syrup" },
+        { en: "Honey", es: "Honey", de: "Honey", nl: "Honey" },
+        { en: "Artificial sweetener", es: "Artificial sweetener", de: "Artificial sweetener", nl: "Artificial sweetener" },
+        { en: "Fruit juice", es: "Fruit juice", de: "Fruit juice", nl: "Fruit juice" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Regular sodas are typically sweetened with sugar or high-fructose corn syrup.",
+        es: "Regular sodas are typically sweetened with sugar or high-fructose corn syrup.",
+        de: "Regular sodas are typically sweetened with sugar or high-fructose corn syrup.",
+        nl: "Regular sodas are typically sweetened with sugar or high-fructose corn syrup."
+      }
+    },
+    {
+      question: {
+        en: "What is seltzer water?",
+        es: "What is seltzer water?",
+        de: "What is seltzer water?",
+        nl: "What is seltzer water?"
+      },
+      options: [
+        { en: "Plain carbonated water", es: "Plain carbonated water", de: "Plain carbonated water", nl: "Plain carbonated water" },
+        { en: "Flavored soda", es: "Flavored soda", de: "Flavored soda", nl: "Flavored soda" },
+        { en: "Mineral water", es: "Mineral water", de: "Mineral water", nl: "Mineral water" },
+        { en: "Tonic water", es: "Tonic water", de: "Tonic water", nl: "Tonic water" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Seltzer water is simply water that has been carbonated, with no added minerals or flavoring.",
+        es: "Seltzer water is simply water that has been carbonated, with no added minerals or flavoring.",
+        de: "Seltzer water is simply water that has been carbonated, with no added minerals or flavoring.",
+        nl: "Seltzer water is simply water that has been carbonated, with no added minerals or flavoring."
+      }
+    },
+    {
+      question: {
+        en: "What soft drink was originally a mixer for whiskey?",
+        es: "What soft drink was originally a mixer for whiskey?",
+        de: "What soft drink was originally a mixer for whiskey?",
+        nl: "What soft drink was originally a mixer for whiskey?"
+      },
+      options: [
+        { en: "Ginger ale", es: "Ginger ale", de: "Ginger ale", nl: "Ginger ale" },
+        { en: "Coca-Cola", es: "Coca-Cola", de: "Coca-Cola", nl: "Coca-Cola" },
+        { en: "Sprite", es: "Sprite", de: "Sprite", nl: "Sprite" },
+        { en: "Root beer", es: "Root beer", de: "Root beer", nl: "Root beer" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Ginger ale was originally created in the 1850s and often used as a mixer for whiskey.",
+        es: "Ginger ale was originally created in the 1850s and often used as a mixer for whiskey.",
+        de: "Ginger ale was originally created in the 1850s and often used as a mixer for whiskey.",
+        nl: "Ginger ale was originally created in the 1850s and often used as a mixer for whiskey."
+      }
+
       }
     ]
   };

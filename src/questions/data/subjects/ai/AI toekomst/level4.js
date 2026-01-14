@@ -427,6 +427,426 @@
           de: "Wichtige ethische Prioritäten werden umfassen dass KI-Systeme erklärbar und überprüfbar sind, Verzerrung und Diskriminierung in automatisierten Entscheidungen verhindern, menschliche Überwachung und Kontrolle bewahren, Privatsphäre schützen und gerechten Zugang zu KI-Vorteilen in der gesamten Gesellschaft sicherstellen.",
           nl: "Belangrijke ethische prioriteiten zullen zijn ervoor zorgen dat AI-systemen uitlegbaar en controleerbaar zijn, vooringenomenheid en discriminatie in geautomatiseerde beslissingen voorkomen, menselijk toezicht en controle behouden, privacy beschermen en gelijke toegang tot AI-voordelen in de hele samenleving waarborgen."
         }
+      },
+      {
+        question: {
+          en: "How might AI impact food security and agricultural sustainability by 2040?",
+          es: "¿Cómo podría la IA impactar la seguridad alimentaria y la sostenibilidad agrícola para 2040?",
+          de: "Wie könnte KI die Ernährungssicherheit und landwirtschaftliche Nachhaltigkeit bis 2040 beeinflussen?",
+          nl: "Hoe zou AI voedselzekerheid en landbouwduurzaamheid tegen 2040 kunnen beïnvloeden?"
+        },
+        options: [
+          { en: "Optimizing crop yields, reducing waste, and enabling vertical farming through precision agriculture", es: "Optimizando rendimientos de cultivos, reduciendo desperdicios y habilitando agricultura vertical a través de agricultura de precisión", de: "Ernteerträge optimieren, Verschwendung reduzieren und vertikale Landwirtschaft durch Präzisionslandwirtschaft ermöglichen", nl: "Oogstopbrengsten optimaliseren, verspilling verminderen en verticale landbouw mogelijk maken via precisielandbouw" },
+          { en: "Making all farming completely automated without humans", es: "Haciendo toda la agricultura completamente automatizada sin humanos", de: "Gesamte Landwirtschaft vollständig ohne Menschen automatisieren", nl: "Alle landbouw volledig geautomatiseerd maken zonder mensen" },
+          { en: "Only producing synthetic food", es: "Solo produciendo comida sintética", de: "Nur synthetische Nahrung produzieren", nl: "Alleen synthetisch voedsel produceren" },
+          { en: "Eliminating traditional farming entirely", es: "Eliminando completamente la agricultura tradicional", de: "Traditionelle Landwirtschaft vollständig eliminieren", nl: "Traditionele landbouw volledig elimineren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI-driven agriculture can dramatically increase food production efficiency through precision monitoring of soil, weather, and crops, automated pest detection, optimized irrigation, and indoor vertical farms that produce food year-round with minimal environmental impact.",
+          es: "La agricultura impulsada por IA puede aumentar dramáticamente la eficiencia de producción de alimentos a través de monitoreo de precisión de suelo, clima y cultivos, detección automatizada de plagas, riego optimizado y granjas verticales interiores que producen alimentos todo el año con impacto ambiental mínimo.",
+          de: "KI-gesteuerte Landwirtschaft kann die Nahrungsmittelproduktionseffizienz dramatisch steigern durch Präzisionsüberwachung von Boden, Wetter und Pflanzen, automatisierte Schädlingserkennung, optimierte Bewässerung und Indoor-Vertikalfarmen die ganzjährig Nahrung mit minimaler Umweltbelastung produzieren.",
+          nl: "AI-gedreven landbouw kan de efficiëntie van voedselproductie dramatisch verhogen door precisie monitoring van bodem, weer en gewassen, geautomatiseerde plaagdetectie, geoptimaliseerde irrigatie en indoor verticale boerderijen die het hele jaar door voedsel produceren met minimale milieu-impact."
+        }
+      },
+      {
+        question: {
+          en: "What role might AI play in combating climate change by 2035?",
+          es: "¿Qué papel podría jugar la IA en combatir el cambio climático para 2035?",
+          de: "Welche Rolle könnte KI beim Kampf gegen den Klimawandel bis 2035 spielen?",
+          nl: "Welke rol zou AI kunnen spelen bij het bestrijden van klimaatverandering tegen 2035?"
+        },
+        options: [
+          { en: "Optimizing energy grids, accelerating clean energy development, and modeling climate solutions", es: "Optimizando redes energéticas, acelerando desarrollo de energía limpia y modelando soluciones climáticas", de: "Energienetze optimieren, saubere Energieentwicklung beschleunigen und Klimalösungen modellieren", nl: "Energienetwerken optimaliseren, ontwikkeling van schone energie versnellen en klimaatoplossingen modelleren" },
+          { en: "Completely reversing climate change instantly", es: "Revirtiendo completamente el cambio climático instantáneamente", de: "Klimawandel sofort vollständig umkehren", nl: "Klimaatverandering volledig onmiddellijk omkeren" },
+          { en: "Only monitoring climate without taking action", es: "Solo monitoreando el clima sin tomar acción", de: "Nur Klima überwachen ohne Maßnahmen zu ergreifen", nl: "Alleen klimaat monitoren zonder actie te ondernemen" },
+          { en: "Making climate change worse through energy consumption", es: "Empeorando el cambio climático a través del consumo de energía", de: "Klimawandel durch Energieverbrauch verschlimmern", nl: "Klimaatverandering verergeren door energieverbruik" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI can optimize renewable energy distribution, discover new materials for solar panels and batteries, model climate scenarios to guide policy, optimize transportation networks to reduce emissions, and accelerate carbon capture technology development.",
+          es: "La IA puede optimizar la distribución de energía renovable, descubrir nuevos materiales para paneles solares y baterías, modelar escenarios climáticos para guiar políticas, optimizar redes de transporte para reducir emisiones y acelerar el desarrollo de tecnología de captura de carbono.",
+          de: "KI kann erneuerbare Energieverteilung optimieren, neue Materialien für Solarpanele und Batterien entdecken, Klimaszenarien modellieren um Politik zu leiten, Transportnetze optimieren um Emissionen zu reduzieren und Kohlenstoffabscheidungstechnologieentwicklung beschleunigen.",
+          nl: "AI kan distributie van hernieuwbare energie optimaliseren, nieuwe materialen voor zonnepanelen en batterijen ontdekken, klimaatscenario's modelleren om beleid te sturen, transportnetwerken optimaliseren om uitstoot te verminderen en ontwikkeling van koolstofafvangtechnologie versnellen."
+        }
+      },
+      {
+        question: {
+          en: "How might AI transform education accessibility worldwide by 2040?",
+          es: "¿Cómo podría la IA transformar la accesibilidad educativa mundialmente para 2040?",
+          de: "Wie könnte KI die Bildungszugänglichkeit weltweit bis 2040 verändern?",
+          nl: "Hoe zou AI de toegankelijkheid van onderwijs wereldwijd tegen 2040 kunnen transformeren?"
+        },
+        options: [
+          { en: "Providing personalized tutoring and quality education to remote and underserved populations", es: "Proporcionando tutoría personalizada y educación de calidad a poblaciones remotas y desatendidas", de: "Personalisierte Betreuung und hochwertige Bildung für abgelegene und unterversorgte Bevölkerungsgruppen bereitstellen", nl: "Gepersonaliseerde begeleiding en kwalitatief onderwijs bieden aan afgelegen en onderbedeelde bevolkingsgroepen" },
+          { en: "Replacing all teachers immediately worldwide", es: "Reemplazando inmediatamente a todos los maestros mundialmente", de: "Alle Lehrer weltweit sofort ersetzen", nl: "Alle leraren wereldwijd onmiddellijk vervangen" },
+          { en: "Making education only available to the wealthy", es: "Haciendo la educación solo disponible para los ricos", de: "Bildung nur für Wohlhabende verfügbar machen", nl: "Onderwijs alleen beschikbaar maken voor de rijken" },
+          { en: "Eliminating schools entirely", es: "Eliminando las escuelas completamente", de: "Schulen vollständig eliminieren", nl: "Scholen volledig elimineren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI-powered educational platforms can provide personalized, adaptive learning experiences at minimal cost, offer real-time translation for multilingual education, and bring quality instruction to areas without access to qualified teachers, potentially democratizing education globally.",
+          es: "Las plataformas educativas impulsadas por IA pueden proporcionar experiencias de aprendizaje personalizadas y adaptativas a costo mínimo, ofrecer traducción en tiempo real para educación multilingüe y llevar instrucción de calidad a áreas sin acceso a maestros calificados, potencialmente democratizando la educación globalmente.",
+          de: "KI-gestützte Bildungsplattformen können personalisierte, adaptive Lernerfahrungen zu minimalen Kosten bieten, Echtzeitübersetzung für mehrsprachige Bildung anbieten und hochwertige Anleitung in Gebiete ohne Zugang zu qualifizierten Lehrern bringen, wodurch Bildung global demokratisiert werden könnte.",
+          nl: "AI-aangedreven educatieve platforms kunnen gepersonaliseerde, adaptieve leerervaringen bieden tegen minimale kosten, realtime vertaling bieden voor meertalig onderwijs en kwaliteitsonderwijs brengen naar gebieden zonder toegang tot gekwalificeerde leraren, waardoor onderwijs mogelijk wereldwijd wordt gedemocratiseerd."
+        }
+      },
+      {
+        question: {
+          en: "What challenges might AI create for labor markets and employment by 2035?",
+          es: "¿Qué desafíos podría crear la IA para los mercados laborales y el empleo para 2035?",
+          de: "Welche Herausforderungen könnte KI für Arbeitsmärkte und Beschäftigung bis 2035 schaffen?",
+          nl: "Welke uitdagingen zou AI kunnen creëren voor arbeidsmarkten en werkgelegenheid tegen 2035?"
+        },
+        options: [
+          { en: "Widespread job displacement requiring massive retraining and potential universal basic income programs", es: "Desplazamiento laboral generalizado requiriendo reentrenamiento masivo y programas potenciales de ingreso básico universal", de: "Weitverbreitete Arbeitsplatzverdrängung erfordert massive Umschulung und potenzielle Programme für universelles Grundeinkommen", nl: "Wijdverbreide banenverdwijning die massale omscholing en potentiële universele basisinkomensprogramma's vereist" },
+          { en: "Creating unlimited jobs for everyone", es: "Creando trabajos ilimitados para todos", de: "Unbegrenzte Arbeitsplätze für alle schaffen", nl: "Onbeperkte banen creëren voor iedereen" },
+          { en: "Having no impact on employment whatsoever", es: "Sin tener ningún impacto en el empleo en absoluto", de: "Überhaupt keine Auswirkung auf Beschäftigung haben", nl: "Helemaal geen impact hebben op werkgelegenheid" },
+          { en: "Only affecting manual labor jobs", es: "Solo afectando trabajos de labor manual", de: "Nur manuelle Arbeitsplätze betreffen", nl: "Alleen handarbeidsbanen beïnvloeden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI automation will likely displace many jobs across sectors including white-collar professions, creating urgent needs for retraining programs, social safety nets, and potentially new economic models like universal basic income to address structural unemployment and income inequality.",
+          es: "La automatización de IA probablemente desplazará muchos trabajos en todos los sectores incluyendo profesiones de cuello blanco, creando necesidades urgentes de programas de reentrenamiento, redes de seguridad social y potencialmente nuevos modelos económicos como ingreso básico universal para abordar desempleo estructural y desigualdad de ingresos.",
+          de: "KI-Automatisierung wird wahrscheinlich viele Arbeitsplätze in allen Sektoren einschließlich Büroangestellten verdrängen, wodurch dringende Bedürfnisse für Umschulungsprogramme, soziale Sicherheitsnetze und potenziell neue Wirtschaftsmodelle wie universelles Grundeinkommen entstehen um strukturelle Arbeitslosigkeit und Einkommensungleichheit anzugehen.",
+          nl: "AI-automatisering zal waarschijnlijk veel banen in alle sectoren verdringen inclusief kantoorberoepen, waardoor urgente behoeften ontstaan voor omscholingsprogramma's, sociale vangnettten en mogelijk nieuwe economische modellen zoals universeel basisinkomen om structurele werkloosheid en inkomensongelijkheid aan te pakken."
+        }
+      },
+      {
+        question: {
+          en: "How might AI reshape creative industries and artistic production by 2040?",
+          es: "¿Cómo podría la IA remodelar las industrias creativas y la producción artística para 2040?",
+          de: "Wie könnte KI kreative Industrien und künstlerische Produktion bis 2040 umgestalten?",
+          nl: "Hoe zou AI creatieve industrieën en artistieke productie tegen 2040 kunnen hervormen?"
+        },
+        options: [
+          { en: "Democratizing creative tools while challenging notions of authorship, originality, and artistic value", es: "Democratizando herramientas creativas mientras desafía nociones de autoría, originalidad y valor artístico", de: "Kreative Werkzeuge demokratisieren während Begriffe von Urheberschaft, Originalität und künstlerischem Wert herausgefordert werden", nl: "Creatieve tools democratiseren terwijl noties van auteurschap, originaliteit en artistieke waarde worden uitgedaagd" },
+          { en: "Eliminating all human creativity", es: "Eliminando toda creatividad humana", de: "Alle menschliche Kreativität eliminieren", nl: "Alle menselijke creativiteit elimineren" },
+          { en: "Making all art identical and formulaic", es: "Haciendo todo el arte idéntico y formulaico", de: "Alle Kunst identisch und formelhaft machen", nl: "Alle kunst identiek en formuleachtig maken" },
+          { en: "Having no impact on creative work", es: "Sin tener impacto en el trabajo creativo", de: "Keine Auswirkung auf kreative Arbeit haben", nl: "Geen impact hebben op creatief werk" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will enable more people to create music, art, and literature with sophisticated tools, but will also raise complex questions about copyright, what constitutes 'original' work, the value of human creativity, and how artists should be compensated in an AI-assisted creative landscape.",
+          es: "La IA permitirá a más personas crear música, arte y literatura con herramientas sofisticadas, pero también planteará preguntas complejas sobre derechos de autor, qué constituye trabajo 'original', el valor de la creatividad humana y cómo los artistas deberían ser compensados en un paisaje creativo asistido por IA.",
+          de: "KI wird mehr Menschen ermöglichen Musik, Kunst und Literatur mit ausgefeilten Werkzeugen zu schaffen, wird aber auch komplexe Fragen über Urheberrecht aufwerfen, was 'originale' Arbeit ausmacht, der Wert menschlicher Kreativität und wie Künstler in einer KI-unterstützten kreativen Landschaft entlohnt werden sollten.",
+          nl: "AI zal meer mensen in staat stellen muziek, kunst en literatuur te creëren met geavanceerde tools, maar zal ook complexe vragen oproepen over auteursrecht, wat 'origineel' werk constitueert, de waarde van menselijke creativiteit en hoe kunstenaars gecompenseerd moeten worden in een AI-ondersteund creatief landschap."
+        }
+      },
+      {
+        question: {
+          en: "What role might AI play in space exploration and colonization by 2040?",
+          es: "¿Qué papel podría jugar la IA en la exploración espacial y colonización para 2040?",
+          de: "Welche Rolle könnte KI bei Weltraumforschung und Kolonisierung bis 2040 spielen?",
+          nl: "Welke rol zou AI kunnen spelen bij ruimteverkenning en kolonisatie tegen 2040?"
+        },
+        options: [
+          { en: "Autonomous spacecraft, planetary habitat management, and real-time decision-making during missions", es: "Naves espaciales autónomas, gestión de hábitats planetarios y toma de decisiones en tiempo real durante misiones", de: "Autonome Raumschiffe, Verwaltung planetarer Lebensräume und Echtzeitentscheidungen während Missionen", nl: "Autonome ruimtevaartuigen, beheer van planetaire habitats en realtime besluitvorming tijdens missies" },
+          { en: "Replacing all astronauts with robots immediately", es: "Reemplazando inmediatamente a todos los astronautas con robots", de: "Alle Astronauten sofort durch Roboter ersetzen", nl: "Alle astronauten onmiddellijk vervangen door robots" },
+          { en: "Only monitoring space from Earth", es: "Solo monitoreando el espacio desde la Tierra", de: "Nur Weltraum von der Erde überwachen", nl: "Alleen de ruimte monitoren vanaf de aarde" },
+          { en: "Making space travel impossible", es: "Haciendo el viaje espacial imposible", de: "Weltraumreisen unmöglich machen", nl: "Ruimtereizen onmogelijk maken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will be essential for autonomous spacecraft navigation, managing life support systems in space habitats, analyzing extraterrestrial environments, making split-second decisions during emergencies, and operating robotic systems for construction and resource extraction on other worlds.",
+          es: "La IA será esencial para navegación autónoma de naves espaciales, gestionar sistemas de soporte vital en hábitats espaciales, analizar ambientes extraterrestres, tomar decisiones en fracciones de segundo durante emergencias y operar sistemas robóticos para construcción y extracción de recursos en otros mundos.",
+          de: "KI wird wesentlich sein für autonome Raumschiffnavigation, Verwaltung von Lebenserhaltungssystemen in Weltraumhabitaten, Analyse außerirdischer Umgebungen, Sekundenbruchteil-Entscheidungen während Notfällen und Betrieb robotischer Systeme für Konstruktion und Ressourcengewinnung auf anderen Welten.",
+          nl: "AI zal essentieel zijn voor autonome ruimtevaartuignavigatie, beheer van levensondersteunende systemen in ruimtehabitats, analyse van buitenaardse omgevingen, beslissingen in een fractie van een seconde tijdens noodsituaties en bediening van robotsystemen voor constructie en grondstofwinning op andere werelden."
+        }
+      },
+      {
+        question: {
+          en: "How might AI impact financial systems and economic stability by 2035?",
+          es: "¿Cómo podría la IA impactar los sistemas financieros y la estabilidad económica para 2035?",
+          de: "Wie könnte KI Finanzsysteme und wirtschaftliche Stabilität bis 2035 beeinflussen?",
+          nl: "Hoe zou AI financiële systemen en economische stabiliteit tegen 2035 kunnen beïnvloeden?"
+        },
+        options: [
+          { en: "Enabling algorithmic trading, fraud detection, and personalized banking while creating systemic risks", es: "Habilitando trading algorítmico, detección de fraude y banca personalizada mientras crea riesgos sistémicos", de: "Algorithmischen Handel, Betrugserkennung und personalisiertes Banking ermöglichen während systemische Risiken entstehen", nl: "Algoritmische handel, fraudedetectie en gepersonaliseerd bankieren mogelijk maken terwijl systemische risico's worden gecreëerd" },
+          { en: "Making everyone equally wealthy instantly", es: "Haciendo a todos igualmente ricos instantáneamente", de: "Alle sofort gleich wohlhabend machen", nl: "Iedereen onmiddellijk even rijk maken" },
+          { en: "Eliminating all financial institutions", es: "Eliminando todas las instituciones financieras", de: "Alle Finanzinstitutionen eliminieren", nl: "Alle financiële instellingen elimineren" },
+          { en: "Only helping banks make more money", es: "Solo ayudando a los bancos a ganar más dinero", de: "Nur Banken helfen mehr Geld zu verdienen", nl: "Alleen banken helpen meer geld te verdienen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will transform finance through high-frequency trading, predictive market analysis, automated fraud detection, and personalized financial services, but may also introduce new risks including market manipulation, flash crashes, and concentration of financial power in AI-driven institutions.",
+          es: "La IA transformará las finanzas a través de trading de alta frecuencia, análisis predictivo de mercados, detección automatizada de fraude y servicios financieros personalizados, pero también puede introducir nuevos riesgos incluyendo manipulación de mercados, caídas relámpago y concentración de poder financiero en instituciones impulsadas por IA.",
+          de: "KI wird Finanzen durch Hochfrequenzhandel, prädiktive Marktanalyse, automatisierte Betrugserkennung und personalisierte Finanzdienstleistungen transformieren, könnte aber auch neue Risiken einführen einschließlich Marktmanipulation, Flash Crashes und Konzentration finanzieller Macht in KI-gesteuerten Institutionen.",
+          nl: "AI zal financiën transformeren door hoogfrequente handel, voorspellende marktanalyse, geautomatiseerde fraudedetectie en gepersonaliseerde financiële diensten, maar kan ook nieuwe risico's introduceren inclusief marktmanipulatie, flash crashes en concentratie van financiële macht in AI-gedreven instellingen."
+        }
+      },
+      {
+        question: {
+          en: "What challenges might arise from AI-powered surveillance technologies by 2040?",
+          es: "¿Qué desafíos podrían surgir de las tecnologías de vigilancia impulsadas por IA para 2040?",
+          de: "Welche Herausforderungen könnten durch KI-gestützte Überwachungstechnologien bis 2040 entstehen?",
+          nl: "Welke uitdagingen zouden kunnen ontstaan door AI-aangedreven surveillancetechnologieën tegen 2040?"
+        },
+        options: [
+          { en: "Erosion of privacy, potential for mass surveillance states, and chilling effects on free expression", es: "Erosión de privacidad, potencial para estados de vigilancia masiva y efectos escalofriantes en expresión libre", de: "Erosion der Privatsphäre, Potenzial für Massenüberwachungsstaaten und abschreckende Effekte auf freie Meinungsäußerung", nl: "Erosie van privacy, potentieel voor massa-surveillance staten en afschrikeffecten op vrije meningsuiting" },
+          { en: "Complete elimination of all crime forever", es: "Eliminación completa de todo crimen para siempre", de: "Vollständige Eliminierung aller Verbrechen für immer", nl: "Volledige eliminatie van alle criminaliteit voor altijd" },
+          { en: "Making everyone feel perfectly safe always", es: "Haciendo que todos se sientan perfectamente seguros siempre", de: "Alle immer perfekt sicher fühlen lassen", nl: "Iedereen zich altijd perfect veilig laten voelen" },
+          { en: "Only monitoring public spaces harmlessly", es: "Solo monitoreando espacios públicos inofensivamente", de: "Nur öffentliche Räume harmlos überwachen", nl: "Alleen openbare ruimtes onschadelijk monitoren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Advanced AI surveillance combining facial recognition, behavior analysis, and predictive policing could enable unprecedented monitoring of citizens, potentially creating authoritarian control, suppressing dissent, and fundamentally altering the balance between security and individual freedom.",
+          es: "La vigilancia avanzada de IA combinando reconocimiento facial, análisis de comportamiento y vigilancia predictiva podría permitir monitoreo sin precedentes de ciudadanos, potencialmente creando control autoritario, suprimiendo disidencia y alterando fundamentalmente el equilibrio entre seguridad y libertad individual.",
+          de: "Fortgeschrittene KI-Überwachung die Gesichtserkennung, Verhaltensanalyse und prädiktive Polizeiarbeit kombiniert könnte beispiellose Überwachung von Bürgern ermöglichen, potenziell autoritäre Kontrolle schaffen, Dissens unterdrücken und das Gleichgewicht zwischen Sicherheit und individueller Freiheit fundamental verändern.",
+          nl: "Geavanceerde AI-surveillance die gezichtsherkenning, gedragsanalyse en voorspellend politiewerk combineert, zou ongekende monitoring van burgers mogelijk kunnen maken, wat mogelijk autoritaire controle creëert, dissidentie onderdrukt en fundamenteel de balans tussen veiligheid en individuele vrijheid verandert."
+        }
+      },
+      {
+        question: {
+          en: "How might AI change the nature of warfare and international security by 2035?",
+          es: "¿Cómo podría la IA cambiar la naturaleza de la guerra y la seguridad internacional para 2035?",
+          de: "Wie könnte KI die Natur von Kriegsführung und internationaler Sicherheit bis 2035 verändern?",
+          nl: "Hoe zou AI de aard van oorlogsvoering en internationale veiligheid tegen 2035 kunnen veranderen?"
+        },
+        options: [
+          { en: "Autonomous weapons, cyber warfare capabilities, and algorithmic defense systems raising ethical concerns", es: "Armas autónomas, capacidades de guerra cibernética y sistemas de defensa algorítmicos planteando preocupaciones éticas", de: "Autonome Waffen, Cyberkriegsfähigkeiten und algorithmische Verteidigungssysteme werfen ethische Bedenken auf", nl: "Autonome wapens, cyberoorlogscapaciteiten en algoritmische verdedigingssystemen roepen ethische zorgen op" },
+          { en: "Creating permanent world peace immediately", es: "Creando paz mundial permanente inmediatamente", de: "Sofort dauerhaften Weltfrieden schaffen", nl: "Onmiddellijk permanente wereldvrede creëren" },
+          { en: "Making all weapons completely harmless", es: "Haciendo todas las armas completamente inofensivas", de: "Alle Waffen vollständig harmlos machen", nl: "Alle wapens volledig onschadelijk maken" },
+          { en: "Only defending without any offensive capability", es: "Solo defendiendo sin ninguna capacidad ofensiva", de: "Nur verteidigen ohne offensive Fähigkeit", nl: "Alleen verdedigen zonder enige offensieve capaciteit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will enable autonomous weapon systems, sophisticated cyber attacks, and rapid decision-making in conflicts, raising urgent questions about accountability for AI decisions in warfare, the risk of AI arms races, and whether lethal autonomous weapons should be banned internationally.",
+          es: "La IA permitirá sistemas de armas autónomas, ataques cibernéticos sofisticados y toma de decisiones rápida en conflictos, planteando preguntas urgentes sobre responsabilidad por decisiones de IA en guerra, el riesgo de carreras armamentistas de IA y si las armas autónomas letales deberían prohibirse internacionalmente.",
+          de: "KI wird autonome Waffensysteme, ausgeklügelte Cyberangriffe und schnelle Entscheidungsfindung in Konflikten ermöglichen, wirft dringende Fragen über Verantwortlichkeit für KI-Entscheidungen in Kriegsführung auf, das Risiko von KI-Wettrüsten und ob tödliche autonome Waffen international verboten werden sollten.",
+          nl: "AI zal autonome wapensystemen, geavanceerde cyberaanvallen en snelle besluitvorming in conflicten mogelijk maken, wat urgente vragen oproept over verantwoordelijkheid voor AI-beslissingen in oorlogsvoering, het risico van AI-wapenwedlopen en of dodelijke autonome wapens internationaal verboden moeten worden."
+        }
+      },
+      {
+        question: {
+          en: "What role might AI play in eldercare and aging populations by 2040?",
+          es: "¿Qué papel podría jugar la IA en el cuidado de ancianos y poblaciones envejecidas para 2040?",
+          de: "Welche Rolle könnte KI bei Altenpflege und alternden Bevölkerungen bis 2040 spielen?",
+          nl: "Welke rol zou AI kunnen spelen bij ouderenzorg en vergrijzende bevolkingen tegen 2040?"
+        },
+        options: [
+          { en: "Companion robots, health monitoring, and assisted living systems enabling independent aging", es: "Robots compañeros, monitoreo de salud y sistemas de vida asistida permitiendo envejecimiento independiente", de: "Begleitroboter, Gesundheitsüberwachung und Systeme für betreutes Wohnen ermöglichen unabhängiges Altern", nl: "Gezelschapsrobots, gezondheidsmonitoring en systemen voor begeleid wonen die onafhankelijk ouder worden mogelijk maken" },
+          { en: "Replacing all human caregivers completely", es: "Reemplazando completamente a todos los cuidadores humanos", de: "Alle menschlichen Pflegekräfte vollständig ersetzen", nl: "Alle menselijke verzorgers volledig vervangen" },
+          { en: "Only providing basic medical monitoring", es: "Solo proporcionando monitoreo médico básico", de: "Nur grundlegende medizinische Überwachung bieten", nl: "Alleen basis medische monitoring bieden" },
+          { en: "Eliminating the need for elderly care entirely", es: "Eliminando completamente la necesidad de cuidado de ancianos", de: "Den Bedarf an Altenpflege vollständig eliminieren", nl: "De noodzaak voor ouderenzorg volledig elimineren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI-powered assistive technologies including companion robots, fall detection systems, medication reminders, and health monitoring can help elderly people maintain independence longer, but raise questions about social isolation, dignity, and the importance of human interaction in care.",
+          es: "Las tecnologías asistivas impulsadas por IA incluyendo robots compañeros, sistemas de detección de caídas, recordatorios de medicamentos y monitoreo de salud pueden ayudar a personas ancianas a mantener independencia por más tiempo, pero plantean preguntas sobre aislamiento social, dignidad e importancia de interacción humana en el cuidado.",
+          de: "KI-gestützte Hilfstechnologien einschließlich Begleitrobotern, Sturzerkennung, Medikamentenerinnerungen und Gesundheitsüberwachung können älteren Menschen helfen länger unabhängig zu bleiben, werfen aber Fragen über soziale Isolation, Würde und die Wichtigkeit menschlicher Interaktion in der Pflege auf.",
+          nl: "AI-aangedreven assistentietechnologieën inclusief gezelschapsrobots, valsystemen, medicijnherinneringen en gezondheidsmonitoring kunnen oudere mensen helpen langer onafhankelijk te blijven, maar roepen vragen op over sociale isolatie, waardigheid en het belang van menselijke interactie in zorg."
+        }
+      },
+      {
+        question: {
+          en: "How might AI impact scientific research and discovery by 2035?",
+          es: "¿Cómo podría la IA impactar la investigación científica y el descubrimiento para 2035?",
+          de: "Wie könnte KI wissenschaftliche Forschung und Entdeckung bis 2035 beeinflussen?",
+          nl: "Hoe zou AI wetenschappelijk onderzoek en ontdekking tegen 2035 kunnen beïnvloeden?"
+        },
+        options: [
+          { en: "Accelerating hypothesis generation, experimental design, and pattern discovery across all sciences", es: "Acelerando generación de hipótesis, diseño experimental y descubrimiento de patrones en todas las ciencias", de: "Hypothesengenerierung, experimentelles Design und Musterentdeckung in allen Wissenschaften beschleunigen", nl: "Hypothesegeneratie, experimenteel ontwerp en patroonontdekking in alle wetenschappen versnellen" },
+          { en: "Solving all scientific mysteries immediately", es: "Resolviendo todos los misterios científicos inmediatamente", de: "Alle wissenschaftlichen Mysterien sofort lösen", nl: "Alle wetenschappelijke mysteries onmiddellijk oplossen" },
+          { en: "Replacing all human scientists permanently", es: "Reemplazando permanentemente a todos los científicos humanos", de: "Alle menschlichen Wissenschaftler dauerhaft ersetzen", nl: "Alle menselijke wetenschappers permanent vervangen" },
+          { en: "Only analyzing existing data without discoveries", es: "Solo analizando datos existentes sin descubrimientos", de: "Nur vorhandene Daten analysieren ohne Entdeckungen", nl: "Alleen bestaande gegevens analyseren zonder ontdekkingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI is already discovering new drugs, materials, and scientific patterns faster than humans alone. By 2035, AI could autonomously design experiments, generate novel hypotheses, and potentially make breakthrough discoveries in physics, biology, and other fields that humans might never have conceived.",
+          es: "La IA ya está descubriendo nuevos medicamentos, materiales y patrones científicos más rápido que los humanos solos. Para 2035, la IA podría diseñar autónomamente experimentos, generar hipótesis novedosas y potencialmente hacer descubrimientos revolucionarios en física, biología y otros campos que los humanos nunca hubieran concebido.",
+          de: "KI entdeckt bereits neue Medikamente, Materialien und wissenschaftliche Muster schneller als Menschen allein. Bis 2035 könnte KI autonom Experimente entwerfen, neuartige Hypothesen generieren und potenziell bahnbrechende Entdeckungen in Physik, Biologie und anderen Feldern machen die Menschen nie konzipiert hätten.",
+          nl: "AI ontdekt al nieuwe medicijnen, materialen en wetenschappelijke patronen sneller dan mensen alleen. Tegen 2035 zou AI autonoom experimenten kunnen ontwerpen, nieuwe hypotheses genereren en mogelijk baanbrekende ontdekkingen doen in natuurkunde, biologie en andere velden die mensen nooit hadden kunnen bedenken."
+        }
+      },
+      {
+        question: {
+          en: "What ethical frameworks might guide AI development and deployment by 2040?",
+          es: "¿Qué marcos éticos podrían guiar el desarrollo e implementación de IA para 2040?",
+          de: "Welche ethischen Rahmenwerke könnten KI-Entwicklung und -Einsatz bis 2040 leiten?",
+          nl: "Welke ethische kaders zouden AI-ontwikkeling en -implementatie tegen 2040 kunnen leiden?"
+        },
+        options: [
+          { en: "International treaties, algorithmic auditing standards, and AI rights declarations balancing innovation with safety", es: "Tratados internacionales, estándares de auditoría algorítmica y declaraciones de derechos de IA equilibrando innovación con seguridad", de: "Internationale Verträge, algorithmische Prüfstandards und KI-Rechtserklärungen balancieren Innovation mit Sicherheit", nl: "Internationale verdragen, algoritmische auditnormen en AI-rechtenverklaringen die innovatie balanceren met veiligheid" },
+          { en: "No regulations allowing unlimited AI development", es: "Sin regulaciones permitiendo desarrollo ilimitado de IA", de: "Keine Vorschriften erlauben unbegrenzte KI-Entwicklung", nl: "Geen regelgeving die onbeperkte AI-ontwikkeling toestaat" },
+          { en: "Complete ban on all AI technologies", es: "Prohibición completa de todas las tecnologías de IA", de: "Vollständiges Verbot aller KI-Technologien", nl: "Volledig verbod op alle AI-technologieën" },
+          { en: "Letting corporations decide all AI ethics", es: "Dejando que las corporaciones decidan toda la ética de IA", de: "Unternehmen alle KI-Ethik entscheiden lassen", nl: "Bedrijven alle AI-ethiek laten beslissen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "By 2040, comprehensive AI governance frameworks will likely include international agreements on AI safety, mandatory bias testing and transparency requirements, mechanisms for algorithmic accountability, protections for AI-affected populations, and standards balancing technological progress with human rights and societal values.",
+          es: "Para 2040, marcos integrales de gobernanza de IA probablemente incluirán acuerdos internacionales sobre seguridad de IA, pruebas obligatorias de sesgo y requisitos de transparencia, mecanismos para responsabilidad algorítmica, protecciones para poblaciones afectadas por IA y estándares equilibrando progreso tecnológico con derechos humanos y valores sociales.",
+          de: "Bis 2040 werden umfassende KI-Governance-Rahmenwerke wahrscheinlich internationale Abkommen über KI-Sicherheit, obligatorische Verzerrungstests und Transparenzanforderungen, Mechanismen für algorithmische Verantwortlichkeit, Schutz für von KI betroffene Bevölkerungen und Standards umfassen die technologischen Fortschritt mit Menschenrechten und gesellschaftlichen Werten balancieren.",
+          nl: "Tegen 2040 zullen uitgebreide AI-governance kaders waarschijnlijk internationale overeenkomsten over AI-veiligheid, verplichte bias-testen en transparantievereisten, mechanismen voor algoritmische verantwoordelijkheid, bescherming voor door AI getroffen bevolkingsgroepen en normen omvatten die technologische vooruitgang balanceren met mensenrechten en maatschappelijke waarden."
+        }
+      },
+      {
+        question: {
+          en: "How might AI transform transportation and mobility by 2035?",
+          es: "¿Cómo podría la IA transformar el transporte y la movilidad para 2035?",
+          de: "Wie könnte KI Transport und Mobilität bis 2035 verändern?",
+          nl: "Hoe zou AI transport en mobiliteit tegen 2035 kunnen transformeren?"
+        },
+        options: [
+          { en: "Autonomous vehicles, optimized traffic management, and on-demand transportation networks reducing congestion and emissions", es: "Vehículos autónomos, gestión optimizada de tráfico y redes de transporte bajo demanda reduciendo congestión y emisiones", de: "Autonome Fahrzeuge, optimierte Verkehrsverwaltung und On-Demand-Transportnetzwerke reduzieren Staus und Emissionen", nl: "Autonome voertuigen, geoptimaliseerd verkeersbeheer en on-demand transportnetwerken verminderen congestie en uitstoot" },
+          { en: "Teleporting people instantly everywhere", es: "Teletransportando personas instantáneamente a todas partes", de: "Menschen sofort überall hin teleportieren", nl: "Mensen onmiddellijk overal naartoe teleporteren" },
+          { en: "Making all cars drive at the same speed", es: "Haciendo que todos los autos conduzcan a la misma velocidad", de: "Alle Autos mit derselben Geschwindigkeit fahren lassen", nl: "Alle auto's met dezelfde snelheid laten rijden" },
+          { en: "Eliminating personal vehicle ownership only", es: "Solo eliminando la propiedad de vehículos personales", de: "Nur persönlichen Fahrzeugbesitz eliminieren", nl: "Alleen persoonlijk voertuigbezit elimineren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI-powered autonomous vehicles and smart transportation systems will reshape cities by reducing traffic congestion, parking needs, and accidents. Integrated mobility networks will optimize routing, enable shared autonomous fleets, and potentially transform urban planning and reduce transportation's environmental impact.",
+          es: "Los vehículos autónomos impulsados por IA y sistemas de transporte inteligentes remodelarán ciudades reduciendo congestión de tráfico, necesidades de estacionamiento y accidentes. Redes de movilidad integradas optimizarán rutas, habilitarán flotas autónomas compartidas y potencialmente transformarán planificación urbana y reducirán el impacto ambiental del transporte.",
+          de: "KI-gestützte autonome Fahrzeuge und intelligente Transportsysteme werden Städte umgestalten durch Reduzierung von Verkehrsstaus, Parkbedarf und Unfällen. Integrierte Mobilitätsnetzwerke werden Routenplanung optimieren, gemeinsame autonome Flotten ermöglichen und potenziell Stadtplanung transformieren und Umweltauswirkungen des Transports reduzieren.",
+          nl: "AI-aangedreven autonome voertuigen en slimme transportsystemen zullen steden hervormen door verkeerscongestie, parkeerbehoeften en ongevallen te verminderen. Geïntegreerde mobiliteitsnetwerken zullen routeplanning optimaliseren, gedeelde autonome vloten mogelijk maken en mogelijk stadsplanning transformeren en de milieu-impact van transport verminderen."
+        }
+      },
+      {
+        question: {
+          en: "What challenges might AI create for privacy and data protection by 2040?",
+          es: "¿Qué desafíos podría crear la IA para la privacidad y protección de datos para 2040?",
+          de: "Welche Herausforderungen könnte KI für Datenschutz und Datenschutz bis 2040 schaffen?",
+          nl: "Welke uitdagingen zou AI kunnen creëren voor privacy en gegevensbescherming tegen 2040?"
+        },
+        options: [
+          { en: "Unprecedented data collection, inference capabilities predicting intimate details, and erosion of anonymity", es: "Recolección de datos sin precedentes, capacidades de inferencia prediciendo detalles íntimos y erosión del anonimato", de: "Beispiellose Datensammlung, Inferenzfähigkeiten die intime Details vorhersagen und Erosion der Anonymität", nl: "Ongekende gegevensverzameling, inferentiecapaciteiten die intieme details voorspellen en erosie van anonimiteit" },
+          { en: "Perfect protection of all personal information always", es: "Protección perfecta de toda información personal siempre", de: "Perfekter Schutz aller persönlichen Informationen immer", nl: "Perfecte bescherming van alle persoonlijke informatie altijd" },
+          { en: "Making everyone's data completely public", es: "Haciendo los datos de todos completamente públicos", de: "Die Daten aller vollständig öffentlich machen", nl: "De gegevens van iedereen volledig openbaar maken" },
+          { en: "Only affecting people who use social media", es: "Solo afectando a personas que usan redes sociales", de: "Nur Menschen betreffen die soziale Medien nutzen", nl: "Alleen mensen beïnvloeden die sociale media gebruiken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Advanced AI can infer sensitive information from seemingly innocuous data, predict behaviors and preferences, de-anonymize datasets, and create detailed profiles of individuals. This requires new privacy frameworks, data rights, and protections against algorithmic surveillance and discrimination.",
+          es: "La IA avanzada puede inferir información sensible de datos aparentemente inocuos, predecir comportamientos y preferencias, des-anonimizar conjuntos de datos y crear perfiles detallados de individuos. Esto requiere nuevos marcos de privacidad, derechos de datos y protecciones contra vigilancia y discriminación algorítmica.",
+          de: "Fortgeschrittene KI kann sensible Informationen aus scheinbar harmlosen Daten ableiten, Verhaltensweisen und Präferenzen vorhersagen, Datensätze de-anonymisieren und detaillierte Profile von Individuen erstellen. Dies erfordert neue Datenschutzrahmenwerke, Datenrechte und Schutz vor algorithmischer Überwachung und Diskriminierung.",
+          nl: "Geavanceerde AI kan gevoelige informatie afleiden uit schijnbaar onschuldige gegevens, gedrag en voorkeuren voorspellen, datasets de-anonimiseren en gedetailleerde profielen van individuen creëren. Dit vereist nieuwe privacykaders, gegevensrechten en bescherming tegen algoritmische surveillance en discriminatie."
+        }
+      },
+      {
+        question: {
+          en: "How might AI influence human identity and self-perception by 2040?",
+          es: "¿Cómo podría la IA influir en la identidad humana y la autopercepción para 2040?",
+          de: "Wie könnte KI menschliche Identität und Selbstwahrnehmung bis 2040 beeinflussen?",
+          nl: "Hoe zou AI menselijke identiteit en zelfperceptie tegen 2040 kunnen beïnvloeden?"
+        },
+        options: [
+          { en: "Blurring boundaries between human and machine capabilities, challenging uniqueness of human intelligence", es: "Difuminando límites entre capacidades humanas y de máquina, desafiando la singularidad de la inteligencia humana", de: "Grenzen zwischen menschlichen und maschinellen Fähigkeiten verwischen, Einzigartigkeit menschlicher Intelligenz herausfordern", nl: "Grenzen vervagen tussen menselijke en machinecapaciteiten, uniciteit van menselijke intelligentie uitdagen" },
+          { en: "Making everyone identical to each other", es: "Haciendo a todos idénticos entre sí", de: "Alle identisch zueinander machen", nl: "Iedereen identiek aan elkaar maken" },
+          { en: "Having no effect on how humans see themselves", es: "Sin tener efecto en cómo los humanos se ven a sí mismos", de: "Keine Wirkung darauf wie Menschen sich selbst sehen", nl: "Geen effect hebben op hoe mensen zichzelf zien" },
+          { en: "Only affecting people who work with AI", es: "Solo afectando a personas que trabajan con IA", de: "Nur Menschen betreffen die mit KI arbeiten", nl: "Alleen mensen beïnvloeden die met AI werken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "As AI matches or exceeds human capabilities in creativity, problem-solving, and emotional understanding, humans may need to redefine what makes us unique and valuable. This could lead to existential questions about consciousness, purpose, and whether human intelligence is special or simply another form of computation.",
+          es: "A medida que la IA iguala o supera capacidades humanas en creatividad, resolución de problemas y comprensión emocional, los humanos pueden necesitar redefinir qué nos hace únicos y valiosos. Esto podría llevar a preguntas existenciales sobre conciencia, propósito y si la inteligencia humana es especial o simplemente otra forma de computación.",
+          de: "Da KI menschliche Fähigkeiten in Kreativität, Problemlösung und emotionalem Verständnis erreicht oder übertrifft, müssen Menschen möglicherweise neu definieren was uns einzigartig und wertvoll macht. Dies könnte zu existenziellen Fragen über Bewusstsein, Zweck und ob menschliche Intelligenz besonders ist oder einfach eine andere Form von Berechnung führen.",
+          nl: "Naarmate AI menselijke capaciteiten in creativiteit, probleemoplossing en emotioneel begrip evenaart of overtreft, moeten mensen mogelijk herdefiniëren wat ons uniek en waardevol maakt. Dit zou kunnen leiden tot existentiële vragen over bewustzijn, doel en of menselijke intelligentie speciaal is of gewoon een andere vorm van berekening."
+        }
+      },
+      {
+        question: {
+          en: "What role might AI play in addressing global inequality by 2035?",
+          es: "¿Qué papel podría jugar la IA en abordar la desigualdad global para 2035?",
+          de: "Welche Rolle könnte KI bei der Bewältigung globaler Ungleichheit bis 2035 spielen?",
+          nl: "Welke rol zou AI kunnen spelen bij het aanpakken van mondiale ongelijkheid tegen 2035?"
+        },
+        options: [
+          { en: "Democratizing access to services while potentially widening digital divides and concentrating wealth", es: "Democratizando acceso a servicios mientras potencialmente amplía brechas digitales y concentra riqueza", de: "Zugang zu Dienstleistungen demokratisieren während potenziell digitale Kluft vergrößert und Wohlstand konzentriert wird", nl: "Toegang tot diensten democratiseren terwijl mogelijk digitale kloven worden vergroot en rijkdom wordt geconcentreerd" },
+          { en: "Making everyone in the world equally wealthy instantly", es: "Haciendo a todos en el mundo igualmente ricos instantáneamente", de: "Alle Menschen weltweit sofort gleich wohlhabend machen", nl: "Iedereen ter wereld onmiddellijk even rijk maken" },
+          { en: "Only benefiting already developed countries", es: "Solo beneficiando a países ya desarrollados", de: "Nur bereits entwickelten Ländern zugutekommen", nl: "Alleen al ontwikkelde landen ten goede komen" },
+          { en: "Having no impact on inequality whatsoever", es: "Sin tener ningún impacto en la desigualdad en absoluto", de: "Überhaupt keine Auswirkung auf Ungleichheit haben", nl: "Helemaal geen impact hebben op ongelijkheid" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI presents a paradox: it can provide affordable healthcare, education, and financial services to underserved populations, but may also concentrate wealth among those who control AI technology, create new forms of digital inequality, and displace workers in developing economies without safety nets.",
+          es: "La IA presenta una paradoja: puede proporcionar atención médica, educación y servicios financieros asequibles a poblaciones desatendidas, pero también puede concentrar riqueza entre quienes controlan tecnología de IA, crear nuevas formas de desigualdad digital y desplazar trabajadores en economías en desarrollo sin redes de seguridad.",
+          de: "KI präsentiert ein Paradox: sie kann erschwingliche Gesundheitsversorgung, Bildung und Finanzdienstleistungen für unterversorgte Bevölkerungen bereitstellen, könnte aber auch Wohlstand unter denen konzentrieren die KI-Technologie kontrollieren, neue Formen digitaler Ungleichheit schaffen und Arbeiter in Entwicklungsökonomien ohne Sicherheitsnetze verdrängen.",
+          nl: "AI presenteert een paradox: het kan betaalbare gezondheidszorg, onderwijs en financiële diensten bieden aan onderbedeelde bevolkingsgroepen, maar kan ook rijkdom concentreren onder degenen die AI-technologie controleren, nieuwe vormen van digitale ongelijkheid creëren en werknemers in ontwikkelingslanden verdringen zonder vangnettten."
+        }
+      },
+      {
+        question: {
+          en: "How might AI transform energy production and distribution by 2040?",
+          es: "¿Cómo podría la IA transformar la producción y distribución de energía para 2040?",
+          de: "Wie könnte KI Energieproduktion und -verteilung bis 2040 verändern?",
+          nl: "Hoe zou AI energieproductie en -distributie tegen 2040 kunnen transformeren?"
+        },
+        options: [
+          { en: "Smart grids balancing renewable sources, predicting demand, and optimizing storage for sustainable energy systems", es: "Redes inteligentes equilibrando fuentes renovables, prediciendo demanda y optimizando almacenamiento para sistemas energéticos sostenibles", de: "Intelligente Netze balancieren erneuerbare Quellen, sagen Nachfrage voraus und optimieren Speicherung für nachhaltige Energiesysteme", nl: "Slimme netwerken balanceren hernieuwbare bronnen, voorspellen vraag en optimaliseren opslag voor duurzame energiesystemen" },
+          { en: "Creating unlimited free energy for everyone", es: "Creando energía ilimitada gratuita para todos", de: "Unbegrenzte kostenlose Energie für alle schaffen", nl: "Onbeperkte gratis energie creëren voor iedereen" },
+          { en: "Only using AI to monitor existing power plants", es: "Solo usando IA para monitorear plantas de energía existentes", de: "Nur KI verwenden um bestehende Kraftwerke zu überwachen", nl: "Alleen AI gebruiken om bestaande energiecentrales te monitoren" },
+          { en: "Making all energy production completely centralized", es: "Haciendo toda la producción de energía completamente centralizada", de: "Gesamte Energieproduktion vollständig zentralisieren", nl: "Alle energieproductie volledig centraliseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will enable intelligent energy grids that integrate intermittent renewable sources, predict consumption patterns, optimize battery storage, and coordinate distributed generation. This could accelerate the transition to sustainable energy while maintaining grid stability and reducing waste.",
+          es: "La IA habilitará redes energéticas inteligentes que integran fuentes renovables intermitentes, predicen patrones de consumo, optimizan almacenamiento de baterías y coordinan generación distribuida. Esto podría acelerar la transición a energía sostenible mientras mantiene estabilidad de red y reduce desperdicios.",
+          de: "KI wird intelligente Energienetze ermöglichen die intermittierende erneuerbare Quellen integrieren, Verbrauchsmuster vorhersagen, Batteriespeicherung optimieren und verteilte Erzeugung koordinieren. Dies könnte den Übergang zu nachhaltiger Energie beschleunigen während Netzstabilität erhalten und Verschwendung reduziert wird.",
+          nl: "AI zal intelligente energienetwerken mogelijk maken die intermitterende hernieuwbare bronnen integreren, consumptiepatronen voorspellen, batterijopslag optimaliseren en gedistribueerde opwekking coördineren. Dit zou de transitie naar duurzame energie kunnen versnellen terwijl netwerkstabiliteit behouden blijft en verspilling wordt verminderd."
+        }
+      },
+      {
+        question: {
+          en: "What future developments in AI might fundamentally change society by 2040?",
+          es: "¿Qué desarrollos futuros en IA podrían cambiar fundamentalmente la sociedad para 2040?",
+          de: "Welche zukünftigen Entwicklungen in KI könnten die Gesellschaft bis 2040 fundamental verändern?",
+          nl: "Welke toekomstige ontwikkelingen in AI zouden de samenleving tegen 2040 fundamenteel kunnen veranderen?"
+        },
+        options: [
+          { en: "AGI emergence, brain-computer integration, and AI-human collaboration reshaping work, creativity, and relationships", es: "Emergencia de AGI, integración cerebro-computadora y colaboración IA-humano remodelando trabajo, creatividad y relaciones", de: "AGI-Entstehung, Gehirn-Computer-Integration und KI-Mensch-Zusammenarbeit gestalten Arbeit, Kreativität und Beziehungen um", nl: "AGI-opkomst, brein-computer integratie en AI-mens samenwerking hervormen werk, creativiteit en relaties" },
+          { en: "AI remaining exactly as it is today", es: "IA permaneciendo exactamente como es hoy", de: "KI bleibt genau wie sie heute ist", nl: "AI blijft precies zoals het vandaag is" },
+          { en: "Complete replacement of humanity by machines", es: "Reemplazo completo de la humanidad por máquinas", de: "Vollständiger Ersatz der Menschheit durch Maschinen", nl: "Volledige vervanging van de mensheid door machines" },
+          { en: "AI technology being abandoned entirely", es: "Tecnología de IA siendo abandonada completamente", de: "KI-Technologie vollständig aufgegeben", nl: "AI-technologie volledig worden opgegeven" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The path to 2040 may include artificial general intelligence, seamless brain-computer interfaces, and deep AI-human collaboration transforming how we work, create, learn, and relate to each other. These developments will require careful ethical consideration to ensure technology enhances rather than diminishes human flourishing.",
+          es: "El camino hacia 2040 puede incluir inteligencia general artificial, interfaces cerebro-computadora sin fisuras y colaboración profunda IA-humano transformando cómo trabajamos, creamos, aprendemos y nos relacionamos. Estos desarrollos requerirán consideración ética cuidadosa para asegurar que la tecnología mejore en lugar de disminuir el florecimiento humano.",
+          de: "Der Weg zu 2040 könnte künstliche allgemeine Intelligenz, nahtlose Gehirn-Computer-Schnittstellen und tiefe KI-Mensch-Zusammenarbeit umfassen die transformieren wie wir arbeiten, erschaffen, lernen und miteinander in Beziehung stehen. Diese Entwicklungen werden sorgfältige ethische Überlegungen erfordern um sicherzustellen dass Technologie menschliches Gedeihen verbessert statt vermindert.",
+          nl: "Het pad naar 2040 kan kunstmatige algemene intelligentie, naadloze brein-computer interfaces en diepe AI-mens samenwerking omvatten die transformeren hoe we werken, creëren, leren en met elkaar omgaan. Deze ontwikkelingen zullen zorgvuldige ethische overweging vereisen om ervoor te zorgen dat technologie menselijke bloei verbetert in plaats van vermindert."
+        }
+      },
+      {
+        question: {
+          en: "How might AI influence human evolution and biology by 2040?",
+          es: "¿Cómo podría la IA influir en la evolución humana y la biología para 2040?",
+          de: "Wie könnte KI menschliche Evolution und Biologie bis 2040 beeinflussen?",
+          nl: "Hoe zou AI menselijke evolutie en biologie tegen 2040 kunnen beïnvloeden?"
+        },
+        options: [
+          { en: "Gene editing guidance, biological enhancement design, and potential directed evolution through AI-designed interventions", es: "Guía de edición genética, diseño de mejora biológica y evolución potencialmente dirigida a través de intervenciones diseñadas por IA", de: "Genbearbeitungsberatung, biologisches Verbesserungsdesign und potenzielle gerichtete Evolution durch KI-entwickelte Interventionen", nl: "Genbewerking begeleiding, biologisch verbeteringsontwerp en potentiële gerichte evolutie door AI-ontworpen interventies" },
+          { en: "Instantly evolving humans into a new species", es: "Evolucionando instantáneamente a humanos en una nueva especie", de: "Menschen sofort zu einer neuen Spezies entwickeln", nl: "Mensen onmiddellijk evolueren naar een nieuwe soort" },
+          { en: "Having absolutely no effect on biology", es: "Sin tener absolutamente ningún efecto en la biología", de: "Absolut keine Auswirkung auf Biologie haben", nl: "Absoluut geen effect hebben op biologie" },
+          { en: "Only affecting appearance superficially", es: "Solo afectando la apariencia superficialmente", de: "Nur Aussehen oberflächlich betreffen", nl: "Alleen uiterlijk oppervlakkig beïnvloeden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI will guide precise gene editing for disease prevention and enhancement, design biological modifications, and potentially enable directed evolution. This raises profound questions about human nature, equity of access to enhancements, and whether we should fundamentally alter our biology.",
+          es: "La IA guiará edición genética precisa para prevención de enfermedades y mejora, diseñará modificaciones biológicas y potencialmente habilitará evolución dirigida. Esto plantea preguntas profundas sobre naturaleza humana, equidad de acceso a mejoras y si deberíamos alterar fundamentalmente nuestra biología.",
+          de: "KI wird präzise Genbearbeitung für Krankheitsprävention und Verbesserung leiten, biologische Modifikationen entwerfen und potenziell gerichtete Evolution ermöglichen. Dies wirft tiefgreifende Fragen über menschliche Natur, Chancengleichheit beim Zugang zu Verbesserungen und ob wir unsere Biologie fundamental verändern sollten auf.",
+          nl: "AI zal precieze genbewerking leiden voor ziektepreventie en verbetering, biologische modificaties ontwerpen en mogelijk gerichte evolutie mogelijk maken. Dit roept diepgaande vragen op over menselijke natuur, gelijke toegang tot verbeteringen en of we onze biologie fundamenteel zouden moeten veranderen."
+        }
+      },
+      {
+        question: {
+          en: "What role might AI play in preserving and reviving endangered ecosystems by 2035?",
+          es: "¿Qué papel podría jugar la IA en preservar y revivir ecosistemas en peligro para 2035?",
+          de: "Welche Rolle könnte KI bei der Erhaltung und Wiederbelebung bedrohter Ökosysteme bis 2035 spielen?",
+          nl: "Welke rol zou AI kunnen spelen bij het behouden en herstellen van bedreigde ecosystemen tegen 2035?"
+        },
+        options: [
+          { en: "Monitoring biodiversity, predicting ecosystem collapse, and guiding conservation through precision environmental management", es: "Monitoreando biodiversidad, prediciendo colapso de ecosistemas y guiando conservación a través de gestión ambiental de precisión", de: "Biodiversität überwachen, Ökosystemkollaps vorhersagen und Naturschutz durch Präzisions-Umweltmanagement leiten", nl: "Biodiversiteit monitoren, ecosysteemcollaps voorspellen en natuurbehoud begeleiden via precisie milieumanagement" },
+          { en: "Instantly restoring all damaged ecosystems perfectly", es: "Restaurando instantáneamente todos los ecosistemas dañados perfectamente", de: "Alle beschädigten Ökosysteme sofort perfekt wiederherstellen", nl: "Alle beschadigde ecosystemen onmiddellijk perfect herstellen" },
+          { en: "Only documenting species extinction", es: "Solo documentando extinción de especies", de: "Nur Artensterben dokumentieren", nl: "Alleen uitsterven van soorten documenteren" },
+          { en: "Replacing natural ecosystems with artificial ones", es: "Reemplazando ecosistemas naturales con artificiales", de: "Natürliche Ökosysteme durch künstliche ersetzen", nl: "Natuurlijke ecosystemen vervangen door kunstmatige" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI can monitor vast ecosystems using satellite imagery and sensors, predict tipping points, optimize conservation interventions, track individual endangered animals, and even guide de-extinction efforts. This technology could be crucial for preventing biodiversity collapse and managing planetary-scale environmental challenges.",
+          es: "La IA puede monitorear vastos ecosistemas usando imágenes satelitales y sensores, predecir puntos de inflexión, optimizar intervenciones de conservación, rastrear animales en peligro individuales e incluso guiar esfuerzos de des-extinción. Esta tecnología podría ser crucial para prevenir colapso de biodiversidad y gestionar desafíos ambientales a escala planetaria.",
+          de: "KI kann riesige Ökosysteme mit Satellitenbildern und Sensoren überwachen, Kipppunkte vorhersagen, Naturschutzinterventionen optimieren, einzelne bedrohte Tiere verfolgen und sogar De-Extinktionsbemühungen leiten. Diese Technologie könnte entscheidend sein um Biodiversitätskollaps zu verhindern und Umweltherausforderungen auf planetarer Ebene zu bewältigen.",
+          nl: "AI kan uitgestrekte ecosystemen monitoren met satellietbeelden en sensoren, kantelpunten voorspellen, natuurbehoudinterventies optimaliseren, individuele bedreigde dieren volgen en zelfs de-extinctie-inspanningen begeleiden. Deze technologie zou cruciaal kunnen zijn voor het voorkomen van biodiversiteitsinstorting en het beheren van milieu-uitdagingen op planetaire schaal."
+        }
       }
     ]
   };

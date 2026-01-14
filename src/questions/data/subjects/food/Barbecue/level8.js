@@ -427,6 +427,426 @@
           de: "Roadhouses und Juke Joints, besonders in afroamerikanischen Gemeinden von den 1920er-1960er Jahren, schufen BBQs Assoziation mit Musik, Geselligkeit und Nachtleben. Diese informellen Orte servierten BBQ neben Live-Blues, Jazz und später Soul-Musik, mit Bier und Tanz. Diese kulturelle Fusion - BBQ, Musik und Gemeinschaft - wurde untrennbar und beeinflusst die BBQ-Restaurantkultur heute, wo Live-Musik und lockere Atmosphäre üblich bleiben.",
           nl: "Roadhouses en juke joints, vooral in Afro-Amerikaanse gemeenschappen van de jaren 1920-1960, creëerden BBQ's associatie met muziek, socialiseren en nachtleven. Deze informele locaties serveerden BBQ naast live blues, jazz en later soul muziek, met bier en dansen. Deze culturele fusie - BBQ, muziek en gemeenschap - werd onafscheidelijk, beïnvloedde BBQ-restaurantcultuur vandaag waar live muziek en casual sfeer gebruikelijk blijven."
         }
+      },
+      {
+        question: {
+          en: "What was the significance of Lexington BBQ #1 founded in 1919?",
+          es: "¿Cuál fue la importancia de Lexington BBQ #1 fundado en 1919?",
+          de: "Was war die Bedeutung von Lexington BBQ #1, gegründet 1919?",
+          nl: "Wat was de betekenis van Lexington BBQ #1 opgericht in 1919?"
+        },
+        options: [
+          { en: "Established Lexington, NC as BBQ capital; created 'Lexington-style' pork shoulder with red slaw", es: "Estableció Lexington, NC como capital del BBQ; creó 'estilo Lexington' paleta de cerdo con ensalada roja", de: "Etablierte Lexington, NC als BBQ-Hauptstadt; schuf 'Lexington-Style' Schweineschulter mit rotem Krautsalat", nl: "Vestigde Lexington, NC als BBQ-hoofdstad; creëerde 'Lexington-stijl' varkensschouder met rode koolsla" },
+          { en: "First restaurant to serve brisket", es: "Primer restaurante en servir brisket", de: "Erstes Restaurant, das Brisket servierte", nl: "Eerste restaurant dat brisket serveerde" },
+          { en: "Invented the gas smoker", es: "Inventó el ahumador de gas", de: "Erfand den Gas-Smoker", nl: "Uitvinder van de gas smoker" },
+          { en: "Created Kansas City sauce", es: "Creó la salsa de Kansas City", de: "Schuf Kansas City Sauce", nl: "Creëerde Kansas City saus" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Lexington BBQ #1, opened by Sid Weaver in 1919, helped establish Lexington, North Carolina as a BBQ destination. It popularized 'Lexington-style' BBQ: pork shoulder (not whole hog like Eastern NC), cooked over hickory coals, served with tangy red vinegar-ketchup sauce and distinctive red slaw. Lexington's concentration of BBQ restaurants earned it the title 'BBQ Capital of the World.'",
+          es: "Lexington BBQ #1, abierto por Sid Weaver en 1919, ayudó a establecer Lexington, Carolina del Norte como destino BBQ. Popularizó el BBQ 'estilo Lexington': paleta de cerdo (no cerdo entero como Carolina del Norte Oriental), cocida sobre brasas de nogal, servida con salsa ácida de vinagre-ketchup roja y ensalada roja distintiva. La concentración de restaurantes BBQ de Lexington le valió el título de 'Capital Mundial del BBQ'.",
+          de: "Lexington BBQ #1, 1919 von Sid Weaver eröffnet, half Lexington, North Carolina als BBQ-Ziel zu etablieren. Es popularisierte 'Lexington-Style' BBQ: Schweineschulter (nicht ganzes Schwein wie East NC), über Hickory-Kohlen gekocht, serviert mit würziger roter Essig-Ketchup-Sauce und charakteristischem rotem Krautsalat. Lexingtons Konzentration von BBQ-Restaurants brachte ihm den Titel 'BBQ-Hauptstadt der Welt' ein.",
+          nl: "Lexington BBQ #1, geopend door Sid Weaver in 1919, hielp Lexington, North Carolina te vestigen als BBQ-bestemming. Het populariseerde 'Lexington-stijl' BBQ: varkensschouder (niet heel varken zoals Oost-NC), gekookt boven hickory kolen, geserveerd met pittige rode azijn-ketchup saus en onderscheidende rode koolsla. Lexingtons concentratie van BBQ-restaurants verdiende het de titel 'BBQ-hoofdstad van de wereld'."
+        }
+      },
+      {
+        question: {
+          en: "How did the Great Migration influence BBQ's spread to Northern cities?",
+          es: "¿Cómo influyó la Gran Migración en la expansión del BBQ a ciudades del norte?",
+          de: "Wie beeinflusste die Große Migration die Verbreitung von BBQ in nördliche Städte?",
+          nl: "Hoe beïnvloedde de Great Migration de verspreiding van BBQ naar noordelijke steden?"
+        },
+        options: [
+          { en: "African Americans moving North (1910s-1970s) brought Southern BBQ traditions to Chicago, Detroit, NYC", es: "Afroamericanos mudándose al Norte (1910s-1970s) trajeron tradiciones de BBQ sureño a Chicago, Detroit, NYC", de: "Afroamerikaner, die in den Norden zogen (1910er-1970er Jahre), brachten südliche BBQ-Traditionen nach Chicago, Detroit, NYC", nl: "Afro-Amerikanen die naar het Noorden verhuisden (jaren 1910-1970) brachten zuidelijke BBQ-tradities naar Chicago, Detroit, NYC" },
+          { en: "The migration had no impact on BBQ culture", es: "La migración no tuvo impacto en la cultura BBQ", de: "Die Migration hatte keinen Einfluss auf die BBQ-Kultur", nl: "De migratie had geen impact op BBQ-cultuur" },
+          { en: "Only industrialists brought BBQ north", es: "Solo los industriales trajeron BBQ al norte", de: "Nur Industrielle brachten BBQ in den Norden", nl: "Alleen industriëlen brachten BBQ naar het noorden" },
+          { en: "BBQ was already popular in Northern cities before migration", es: "BBQ ya era popular en ciudades del norte antes de la migración", de: "BBQ war bereits vor der Migration in nördlichen Städten beliebt", nl: "BBQ was al populair in noordelijke steden voor migratie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Great Migration saw millions of African Americans move from the rural South to Northern industrial cities seeking opportunity. They brought BBQ traditions, opening restaurants and stands that served Southern-style smoked meats. Cities like Chicago developed distinct BBQ cultures (Chicago ribs with hot links), while maintaining Southern roots. This diaspora spread BBQ nationwide, though Northern styles often adapted to local tastes and available ingredients.",
+          es: "La Gran Migración vio a millones de afroamericanos mudarse del sur rural a ciudades industriales del norte buscando oportunidad. Trajeron tradiciones BBQ, abriendo restaurantes y puestos que servían carnes ahumadas estilo sureño. Ciudades como Chicago desarrollaron culturas BBQ distintas (costillas Chicago con hot links), mientras mantenían raíces sureñas. Esta diáspora extendió el BBQ a nivel nacional, aunque los estilos del norte a menudo se adaptaron a gustos locales e ingredientes disponibles.",
+          de: "Die Große Migration sah Millionen von Afroamerikanern vom ländlichen Süden in nördliche Industriestädte ziehen auf der Suche nach Möglichkeiten. Sie brachten BBQ-Traditionen mit und eröffneten Restaurants und Stände, die südliches geräuchertes Fleisch servierten. Städte wie Chicago entwickelten eigene BBQ-Kulturen (Chicago Ribs mit Hot Links), während sie südliche Wurzeln bewahrten. Diese Diaspora verbreitete BBQ landesweit, obwohl nördliche Stile sich oft an lokale Geschmäcker und verfügbare Zutaten anpassten.",
+          nl: "De Great Migration zag miljoenen Afro-Amerikanen verhuizen van het landelijke Zuiden naar noordelijke industriesteden op zoek naar kansen. Ze brachten BBQ-tradities mee, openden restaurants en kramen die zuidelijk gerookt vlees serveerden. Steden zoals Chicago ontwikkelden onderscheidende BBQ-culturen (Chicago ribben met hot links), terwijl ze zuidelijke wortels behielden. Deze diaspora verspreidde BBQ landelijk, hoewel noordelijke stijlen zich vaak aanpasten aan lokale smaken en beschikbare ingrediënten."
+        }
+      },
+      {
+        question: {
+          en: "What BBQ restaurant tradition did Kreuz Market establish in 1900?",
+          es: "¿Qué tradición de restaurante BBQ estableció Kreuz Market en 1900?",
+          de: "Welche BBQ-Restaurant-Tradition etablierte Kreuz Market 1900?",
+          nl: "Welke BBQ-restaurant traditie vestigde Kreuz Market in 1900?"
+        },
+        options: [
+          { en: "Texas meat market BBQ tradition: sold by weight on butcher paper, no sauce/forks provided", es: "Tradición de BBQ de mercado de carne de Texas: vendido por peso en papel de carnicero, sin salsa/tenedores", de: "Texas Fleischmarkt-BBQ-Tradition: nach Gewicht auf Metzgerpapier verkauft, keine Sauce/Gabeln bereitgestellt", nl: "Texas vleesmarkt BBQ-traditie: verkocht per gewicht op slagerspapier, geen saus/vorken verstrekt" },
+          { en: "Fast food drive-through service", es: "Servicio de comida rápida drive-through", de: "Fast-Food-Drive-through-Service", nl: "Fastfood drive-through service" },
+          { en: "All-you-can-eat buffet style", es: "Estilo buffet todo lo que puedas comer", de: "All-you-can-eat Buffet-Stil", nl: "All-you-can-eat buffet stijl" },
+          { en: "White tablecloth fine dining", es: "Cena elegante con mantel blanco", de: "Weißes Tischtuch Fine Dining", nl: "Witte tafelkleed fine dining" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Kreuz Market, opened in 1900 in Lockhart, Texas, established the iconic German-Czech meat market BBQ tradition. Meats (brisket, sausage) are sold by the pound, served on butcher paper with crackers and pickles. No sauce is provided (Kreuz's motto: 'We don't need no sauce'), no forks (eat with hands), emphasizing meat quality. This no-frills approach became the template for authentic Central Texas BBQ, still practiced at Kreuz and similar establishments.",
+          es: "Kreuz Market, abierto en 1900 en Lockhart, Texas, estableció la icónica tradición de BBQ de mercado de carne alemán-checo. Las carnes (brisket, salchicha) se venden por libra, servidas en papel de carnicero con galletas y encurtidos. No se proporciona salsa (lema de Kreuz: 'No necesitamos salsa'), ni tenedores (comer con las manos), enfatizando la calidad de la carne. Este enfoque sin lujos se convirtió en la plantilla para el BBQ auténtico de Texas Central, aún practicado en Kreuz y establecimientos similares.",
+          de: "Kreuz Market, 1900 in Lockhart, Texas eröffnet, etablierte die ikonische deutsch-tschechische Fleischmarkt-BBQ-Tradition. Fleisch (Brisket, Wurst) wird pfundweise verkauft, auf Metzgerpapier mit Crackern und Gurken serviert. Keine Sauce wird bereitgestellt (Kreuz' Motto: 'Wir brauchen keine Sauce'), keine Gabeln (mit Händen essen), betont Fleischqualität. Dieser schnörkellose Ansatz wurde zur Vorlage für authentisches Central Texas BBQ, noch bei Kreuz und ähnlichen Etablissements praktiziert.",
+          nl: "Kreuz Market, geopend in 1900 in Lockhart, Texas, vestigde de iconische Duits-Tsjechische vleesmarkt BBQ-traditie. Vlees (brisket, worst) wordt per pond verkocht, geserveerd op slagerspapier met crackers en augurken. Geen saus wordt verstrekt (Kreuz' motto: 'We hebben geen saus nodig'), geen vorken (eten met handen), benadrukt vleeskwaliteit. Deze no-frills aanpak werd het sjabloon voor authentieke Central Texas BBQ, nog steeds beoefend bij Kreuz en vergelijkbare etablissementen."
+        }
+      },
+      {
+        question: {
+          en: "What role did smokehhouses play in pre-refrigeration America?",
+          es: "¿Qué papel jugaron las ahumadoras en América antes de la refrigeración?",
+          de: "Welche Rolle spielten Räucherhäuser im Amerika vor der Kühlung?",
+          nl: "Welke rol speelden rookhuizen in Amerika vóór koeling?"
+        },
+        options: [
+          { en: "Essential for meat preservation through smoking and curing, foundation for BBQ smoking techniques", es: "Esenciales para preservación de carne mediante ahumado y curado, fundamento para técnicas de ahumado BBQ", de: "Wesentlich für Fleischkonservierung durch Räuchern und Pökeln, Grundlage für BBQ-Räuchertechniken", nl: "Essentieel voor vlees conservering door roken en pekelen, fundament voor BBQ-rooiktechnieken" },
+          { en: "Only used for cooking vegetables", es: "Solo se usó para cocinar verduras", de: "Nur zum Kochen von Gemüse verwendet", nl: "Alleen gebruikt voor het koken van groenten" },
+          { en: "Primarily for heating homes", es: "Principalmente para calentar hogares", de: "Hauptsächlich zum Heizen von Häusern", nl: "Voornamelijk voor het verwarmen van huizen" },
+          { en: "Decoration without functional purpose", es: "Decoración sin propósito funcional", de: "Dekoration ohne funktionalen Zweck", nl: "Decoratie zonder functioneel doel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Before refrigeration, smokehouses were vital farm structures for preserving meat through the winter. Pork, beef, and fish were salted, hung, and smoked for weeks using smoldering hardwood, creating shelf-stable food. These preservation techniques - low-temperature smoking, wood selection, salt curing - became the foundation for modern BBQ. The transition from preservation to flavor-focused cooking transformed smokehouse techniques into BBQ art.",
+          es: "Antes de la refrigeración, las ahumadoras eran estructuras agrícolas vitales para preservar carne durante el invierno. El cerdo, res y pescado se salaban, colgaban y ahumaban durante semanas usando madera dura humeante, creando alimentos estables en almacenamiento. Estas técnicas de preservación - ahumado a baja temperatura, selección de madera, curado con sal - se convirtieron en la fundación del BBQ moderno. La transición de preservación a cocción enfocada en sabor transformó técnicas de ahumadora en arte BBQ.",
+          de: "Vor der Kühlung waren Räucherhäuser wichtige Farmstrukturen zum Konservieren von Fleisch über den Winter. Schwein, Rind und Fisch wurden gesalzen, aufgehängt und wochenlang mit glimmendem Hartholz geräuchert, wodurch haltbare Lebensmittel entstanden. Diese Konservierungstechniken - Niedrigtemperatur-Räuchern, Holzauswahl, Salzpökeln - wurden zur Grundlage für modernes BBQ. Der Übergang von Konservierung zu geschmacksorientiertem Kochen verwandelte Räucherhaustechniken in BBQ-Kunst.",
+          nl: "Vóór koeling waren rookhuizen vitale boerderij structuren voor het conserveren van vlees door de winter. Varken, rund en vis werden gezouten, opgehangen en wekenlang gerookt met smeulend hardhout, creërend houdbaarvoedsel. Deze conserveringstechnieken - lage temperatuur roken, houtselectie, zout pekelen - werden de basis voor moderne BBQ. De overgang van conservering naar smaak-gerichte koken transformeerde rookhuis technieken in BBQ-kunst."
+        }
+      },
+      {
+        question: {
+          en: "What BBQ cooking method did Native American tribes teach colonists?",
+          es: "¿Qué método de cocción BBQ enseñaron las tribus nativas americanas a los colonos?",
+          de: "Welche BBQ-Kochmethode lehrten Ureinwohnerstämme den Kolonisten?",
+          nl: "Welke BBQ-kookmethode leerden inheemse Amerikaanse stammen aan kolonisten?"
+        },
+        options: [
+          { en: "Cooking over green wood frames (barbacoa) and pit roasting techniques", es: "Cocinar sobre marcos de madera verde (barbacoa) y técnicas de asado en pozo", de: "Kochen über grünen Holzrahmen (Barbacoa) und Pit-Roast-Techniken", nl: "Koken boven groene houten frames (barbacoa) en pit roasting technieken" },
+          { en: "Using metal grills imported from Europe", es: "Usando parrillas de metal importadas de Europa", de: "Mit aus Europa importierten Metallgrills", nl: "Gebruik van metalen grills geïmporteerd uit Europa" },
+          { en: "Boiling meat in large pots only", es: "Solo hervir carne en ollas grandes", de: "Nur Kochen von Fleisch in großen Töpfen", nl: "Alleen koken van vlees in grote potten" },
+          { en: "Frying meat in oil", es: "Freír carne en aceite", de: "Braten von Fleisch in Öl", nl: "Frituren van vlees in olie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "When Europeans arrived, Native American tribes across the Americas were cooking meat on raised green wood frameworks over fires and in earthen pits - techniques Spanish explorers called 'barbacoa.' Tribes also used pit cooking, wrapping meat in leaves and burying it with hot stones. Colonists adopted and adapted these methods, combining them with European salting and smoking to create early American BBQ traditions.",
+          es: "Cuando los europeos llegaron, las tribus nativas americanas en todas las Américas estaban cocinando carne en marcos de madera verde elevados sobre fuegos y en pozos de tierra - técnicas que los exploradores españoles llamaron 'barbacoa'. Las tribus también usaban cocción en pozo, envolviendo carne en hojas y enterrándola con piedras calientes. Los colonos adoptaron y adaptaron estos métodos, combinándolos con salado y ahumado europeos para crear tradiciones BBQ americanas tempranas.",
+          de: "Als Europäer ankamen, kochten Ureinwohnerstämme in ganz Amerika Fleisch auf erhöhten grünen Holzrahmen über Feuern und in Erdgruben - Techniken, die spanische Entdecker 'Barbacoa' nannten. Stämme verwendeten auch Pit-Kochen, wickelten Fleisch in Blätter und vergruben es mit heißen Steinen. Kolonisten übernahmen und passten diese Methoden an und kombinierten sie mit europäischem Salzen und Räuchern, um frühe amerikanische BBQ-Traditionen zu schaffen.",
+          nl: "Toen Europeanen aankwamen, kookten inheemse Amerikaanse stammen in heel Amerika vlees op verhoogde groene houten frames boven vuren en in aarden kuilen - technieken die Spaanse ontdekkers 'barbacoa' noemden. Stammen gebruikten ook pit koken, wikkelden vlees in bladeren en begroeven het met hete stenen. Kolonisten adopteerden en pasten deze methoden aan, combineerden ze met Europees zouten en roken om vroege Amerikaanse BBQ-tradities te creëren."
+        }
+      },
+      {
+        question: {
+          en: "How did KCBS (Kansas City Barbecue Society) standardize competitive BBQ in 1985?",
+          es: "¿Cómo estandarizó KCBS (Kansas City Barbecue Society) el BBQ competitivo en 1985?",
+          de: "Wie standardisierte KCBS (Kansas City Barbecue Society) 1985 Wettbewerbs-BBQ?",
+          nl: "Hoe standaardiseerde KCBS (Kansas City Barbecue Society) competitieve BBQ in 1985?"
+        },
+        options: [
+          { en: "Created judging criteria, 4 meat categories (chicken, ribs, pork, brisket), and sanctioned competitions", es: "Creó criterios de juzgamiento, 4 categorías de carne (pollo, costillas, cerdo, brisket) y competencias sancionadas", de: "Schuf Bewertungskriterien, 4 Fleischkategorien (Hähnchen, Rippen, Schwein, Brisket) und sanktionierte Wettbewerbe", nl: "Creëerde beoordelingscriteria, 4 vleescategorieën (kip, ribben, varken, brisket) en gesanctioneerde wedstrijden" },
+          { en: "Banned all BBQ competitions nationwide", es: "Prohibió todas las competencias BBQ a nivel nacional", de: "Verbot alle BBQ-Wettbewerbe landesweit", nl: "Verbood alle BBQ-wedstrijden landelijk" },
+          { en: "Required only Texas-style brisket", es: "Requirió solo brisket estilo Texas", de: "Erforderte nur Texas-Style Brisket", nl: "Vereiste alleen Texas-stijl brisket" },
+          { en: "Eliminated judging standards completely", es: "Eliminó completamente los estándares de juzgamiento", de: "Eliminierte Bewertungsstandards vollständig", nl: "Elimineerde beoordelingsstandaarden volledig" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "KCBS, founded in 1985, created the first standardized competitive BBQ system with consistent judging criteria based on appearance, taste, and texture. They established four mandatory meat categories (chicken, ribs, pork shoulder/butt, brisket) scored in blind tastings. KCBS sanctions over 500 annual competitions, created certified judge training, and established the professional competition circuit. This standardization transformed regional cooking into a organized sport with clear rules and national rankings.",
+          es: "KCBS, fundado en 1985, creó el primer sistema de BBQ competitivo estandarizado con criterios de juzgamiento consistentes basados en apariencia, sabor y textura. Establecieron cuatro categorías de carne obligatorias (pollo, costillas, paleta/trasero de cerdo, brisket) puntuadas en degustaciones ciegas. KCBS sanciona más de 500 competencias anuales, creó entrenamiento de jueces certificados y estableció el circuito de competencia profesional. Esta estandarización transformó la cocina regional en un deporte organizado con reglas claras y clasificaciones nacionales.",
+          de: "KCBS, 1985 gegründet, schuf das erste standardisierte Wettbewerbs-BBQ-System mit konsistenten Bewertungskriterien basierend auf Aussehen, Geschmack und Textur. Sie etablierten vier obligatorische Fleischkategorien (Hähnchen, Rippen, Schweineschulter/Hinterteil, Brisket), die in Blindverkostungen bewertet werden. KCBS sanktioniert über 500 jährliche Wettbewerbe, schuf zertifiziertes Richtertraining und etablierte den professionellen Wettbewerbszirkel. Diese Standardisierung verwandelte regionales Kochen in einen organisierten Sport mit klaren Regeln und nationalen Rankings.",
+          nl: "KCBS, opgericht in 1985, creëerde het eerste gestandaardiseerde competitieve BBQ-systeem met consistente beoordelingscriteria gebaseerd op uiterlijk, smaak en textuur. Ze vestigden vier verplichte vleescategorieën (kip, ribben, varkensschouder/bil, brisket) gescoord in blinde proeverijen. KCBS sanctioneert meer dan 500 jaarlijkse wedstrijden, creëerde gecertificeerde rechter training en vestigde het professionele wedstrijd circuit. Deze standaardisatie transformeerde regionaal koken in een georganiseerde sport met duidelijke regels en nationale ranglijsten."
+        }
+      },
+      {
+        question: {
+          en: "What BBQ sauce innovation did Big Bob Gibson create in 1925?",
+          es: "¿Qué innovación de salsa BBQ creó Big Bob Gibson en 1925?",
+          de: "Welche BBQ-Sauce-Innovation schuf Big Bob Gibson 1925?",
+          nl: "Welke BBQ-saus innovatie creëerde Big Bob Gibson in 1925?"
+        },
+        options: [
+          { en: "Alabama White Sauce - mayonnaise-based sauce for smoked chicken", es: "Salsa Blanca de Alabama - salsa a base de mayonesa para pollo ahumado", de: "Alabama White Sauce - mayonnaisebasierte Sauce für geräuchertes Hähnchen", nl: "Alabama White Sauce - mayonaise-gebaseerde saus voor gerookte kip" },
+          { en: "Kansas City molasses sauce", es: "Salsa de melaza de Kansas City", de: "Kansas City Melassensauce", nl: "Kansas City melasse saus" },
+          { en: "Carolina vinegar pepper sauce", es: "Salsa de vinagre y pimienta de Carolina", de: "Carolina Essig-Pfeffer-Sauce", nl: "Carolina azijn peper saus" },
+          { en: "Texas dry rub mixture", es: "Mezcla de dry rub de Texas", de: "Texas Dry Rub Mischung", nl: "Texas dry rub mengsel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Big Bob Gibson, a railroad worker in Decatur, Alabama, created the unique Alabama White Sauce in 1925 - a tangy mayonnaise-based sauce with vinegar, black pepper, and horseradish specifically for smoked chicken. Unlike red sauces elsewhere, this white sauce is used to baste chicken during smoking and as finishing sauce. Big Bob Gibson Bar-B-Q restaurant still serves it, and the style remains distinctly North Alabama.",
+          es: "Big Bob Gibson, un trabajador ferroviario en Decatur, Alabama, creó la única Salsa Blanca de Alabama en 1925 - una salsa ácida a base de mayonesa con vinagre, pimienta negra y rábano picante específicamente para pollo ahumado. A diferencia de las salsas rojas en otros lugares, esta salsa blanca se usa para rociar el pollo durante el ahumado y como salsa final. El restaurante Big Bob Gibson Bar-B-Q todavía la sirve, y el estilo sigue siendo distintivamente del norte de Alabama.",
+          de: "Big Bob Gibson, ein Eisenbahnarbeiter in Decatur, Alabama, schuf 1925 die einzigartige Alabama White Sauce - eine würzige mayonnaisebasierte Sauce mit Essig, schwarzem Pfeffer und Meerrettich speziell für geräuchertes Hähnchen. Im Gegensatz zu roten Saucen anderswo wird diese weiße Sauce zum Bestreichen von Hähnchen während des Räucherns und als Endsauce verwendet. Big Bob Gibson Bar-B-Q Restaurant serviert sie noch heute, und der Stil bleibt charakteristisch für Nord-Alabama.",
+          nl: "Big Bob Gibson, een spoorwegarbeider in Decatur, Alabama, creëerde de unieke Alabama White Sauce in 1925 - een pittige mayonaise-gebaseerde saus met azijn, zwarte peper en mierikswortel specifiek voor gerookte kip. In tegenstelling tot rode sauzen elders, wordt deze witte saus gebruikt om kip te begieten tijdens het roken en als afwerkingssaus. Big Bob Gibson Bar-B-Q restaurant serveert het nog steeds, en de stijl blijft onderscheidend Noord-Alabama."
+        }
+      },
+      {
+        question: {
+          en: "How did the Interstate Highway System affect BBQ culture in the 1950s-1960s?",
+          es: "¿Cómo afectó el Sistema de Autopistas Interestatales la cultura BBQ en los 1950s-1960s?",
+          de: "Wie beeinflusste das Interstate Highway System die BBQ-Kultur in den 1950er-1960er Jahren?",
+          nl: "Hoe beïnvloedde het Interstate Highway System de BBQ-cultuur in de jaren 1950-1960?"
+        },
+        options: [
+          { en: "Increased travel exposed people to regional BBQ styles, spreading BBQ culture nationwide", es: "El aumento de viajes expuso a la gente a estilos regionales de BBQ, extendiendo la cultura BBQ a nivel nacional", de: "Erhöhtes Reisen setzte Menschen regionalen BBQ-Stilen aus, verbreitete BBQ-Kultur landesweit", nl: "Verhoogd reizen stelde mensen bloot aan regionale BBQ-stijlen, verspreidde BBQ-cultuur landelijk" },
+          { en: "It reduced BBQ restaurant numbers", es: "Redujo el número de restaurantes BBQ", de: "Es reduzierte die Anzahl der BBQ-Restaurants", nl: "Het verminderde BBQ-restaurantnummers" },
+          { en: "Created identical BBQ everywhere", es: "Creó BBQ idéntico en todas partes", de: "Schuf identisches BBQ überall", nl: "Creëerde identieke BBQ overal" },
+          { en: "Had no impact on food culture", es: "No tuvo impacto en la cultura alimentaria", de: "Hatte keine Auswirkung auf Esskultur", nl: "Had geen impact op eetcultuur" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Interstate Highway System, built 1956-1970s, transformed American travel and food culture. Increased mobility allowed people to discover regional BBQ styles firsthand - Kansas City sauce, Carolina vinegar, Texas brisket. Roadside BBQ stands became destinations; some grew into famous establishments. Tourism developed around BBQ trails. The highways spread knowledge of regional differences while also beginning homogenization as successful restaurants expanded beyond their regions.",
+          es: "El Sistema de Autopistas Interestatales, construido 1956-1970s, transformó el viaje americano y la cultura alimentaria. El aumento de movilidad permitió a la gente descubrir estilos regionales de BBQ de primera mano - salsa de Kansas City, vinagre de Carolina, brisket de Texas. Los puestos de BBQ al borde de la carretera se convirtieron en destinos; algunos crecieron hasta convertirse en establecimientos famosos. El turismo se desarrolló alrededor de rutas BBQ. Las autopistas difundieron el conocimiento de diferencias regionales mientras también comenzaban la homogeneización a medida que restaurantes exitosos se expandieron más allá de sus regiones.",
+          de: "Das Interstate Highway System, gebaut 1956-1970er Jahre, transformierte amerikanisches Reisen und Esskultur. Erhöhte Mobilität ermöglichte Menschen, regionale BBQ-Stile aus erster Hand zu entdecken - Kansas City Sauce, Carolina Essig, Texas Brisket. Roadside BBQ-Stände wurden zu Zielen; einige wuchsen zu berühmten Etablissements. Tourismus entwickelte sich um BBQ-Trails. Die Highways verbreiteten Wissen über regionale Unterschiede, während sie auch Homogenisierung begannen, da erfolgreiche Restaurants über ihre Regionen hinaus expandierten.",
+          nl: "Het Interstate Highway System, gebouwd 1956-jaren 1970, transformeerde Amerikaanse reizen en eetcultuur. Verhoogde mobiliteit stelde mensen in staat om regionale BBQ-stijlen uit de eerste hand te ontdekken - Kansas City saus, Carolina azijn, Texas brisket. Roadside BBQ-kramen werden bestemmingen; sommige groeiden uit tot beroemde etablissementen. Toerisme ontwikkelde zich rond BBQ-routes. De snelwegen verspreidden kennis van regionale verschillen terwijl ze ook homogenisatie begonnen toen succesvolle restaurants buiten hun regio's uitbreidden."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of Smitty's Market vs Kreuz Market split in 1999?",
+          es: "¿Cuál fue la importancia de la división de Smitty's Market vs Kreuz Market en 1999?",
+          de: "Was war die Bedeutung der Spaltung von Smitty's Market vs Kreuz Market 1999?",
+          nl: "Wat was de betekenis van de Smitty's Market vs Kreuz Market splitsing in 1999?"
+        },
+        options: [
+          { en: "Family dispute split iconic Lockhart BBQ institution, both restaurants maintain historic traditions", es: "Disputa familiar dividió institución icónica BBQ de Lockhart, ambos restaurantes mantienen tradiciones históricas", de: "Familienstreit spaltete ikonische Lockhart BBQ-Institution, beide Restaurants pflegen historische Traditionen", nl: "Familie geschil splitste iconische Lockhart BBQ-instelling, beide restaurants handhaven historische tradities" },
+          { en: "One restaurant closed permanently", es: "Un restaurante cerró permanentemente", de: "Ein Restaurant schloss dauerhaft", nl: "Een restaurant sloot permanent" },
+          { en: "They merged into one larger location", es: "Se fusionaron en una ubicación más grande", de: "Sie fusionierten zu einem größeren Standort", nl: "Ze fuseerden tot één grotere locatie" },
+          { en: "Both changed to serving only chicken", es: "Ambos cambiaron a servir solo pollo", de: "Beide wechselten nur zu Hähnchen servieren", nl: "Beide veranderden naar alleen kip serveren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In 1999, a family dispute split Kreuz Market (established 1900) in Lockhart, the 'BBQ Capital of Texas.' Rick Schmidt kept the Kreuz name and moved to a new building, while his sister Nina Sells kept the original building, naming it Smitty's Market. Both maintain the no-fork, no-sauce, meat-market tradition. The split became BBQ lore, showing how seriously Texas takes BBQ heritage and tradition.",
+          es: "En 1999, una disputa familiar dividió Kreuz Market (establecido 1900) en Lockhart, la 'Capital del BBQ de Texas'. Rick Schmidt mantuvo el nombre Kreuz y se mudó a un nuevo edificio, mientras que su hermana Nina Sells mantuvo el edificio original, nombrándolo Smitty's Market. Ambos mantienen la tradición de no tenedores, no salsa, mercado de carne. La división se convirtió en leyenda BBQ, mostrando cuán en serio toma Texas la herencia y tradición BBQ.",
+          de: "1999 spaltete ein Familienstreit Kreuz Market (gegründet 1900) in Lockhart, der 'BBQ-Hauptstadt von Texas'. Rick Schmidt behielt den Namen Kreuz und zog in ein neues Gebäude, während seine Schwester Nina Sells das ursprüngliche Gebäude behielt und es Smitty's Market nannte. Beide pflegen die No-Fork, No-Sauce, Fleischmarkt-Tradition. Die Spaltung wurde BBQ-Legende und zeigt, wie ernst Texas BBQ-Erbe und Tradition nimmt.",
+          nl: "In 1999 splitste een familiegeschil Kreuz Market (opgericht 1900) in Lockhart, de 'BBQ-hoofdstad van Texas'. Rick Schmidt behield de naam Kreuz en verhuisde naar een nieuw gebouw, terwijl zijn zus Nina Sells het originele gebouw behield en het Smitty's Market noemde. Beide handhaven de geen-vork, geen-saus, vleesmarkt traditie. De splitsing werd BBQ-legende, toont hoe serieus Texas BBQ-erfgoed en traditie neemt."
+        }
+      },
+      {
+        question: {
+          en: "How did post-WWII suburbanization change backyard BBQ culture?",
+          es: "¿Cómo cambió la subur banización post-Segunda Guerra Mundial la cultura BBQ de patio trasero?",
+          de: "Wie veränderte die Suburbanisierung nach dem Zweiten Weltkrieg die Hinterhof-BBQ-Kultur?",
+          nl: "Hoe veranderde suburbanisatie na WO II de achtertuin BBQ-cultuur?"
+        },
+        options: [
+          { en: "Mass-produced charcoal grills (Weber) made BBQ a suburban leisure activity and social ritual", es: "Parrillas de carbón producidas en masa (Weber) hicieron del BBQ una actividad de ocio suburbana y ritual social", de: "Massenprodukte Holzkohlegrills (Weber) machten BBQ zu einer vorstädtischen Freizeitaktivität und sozialem Ritual", nl: "Massaproductie houtskoolgrills (Weber) maakten BBQ tot een voorstedelijke vrijetijdsactiviteit en sociaal ritueel" },
+          { en: "Suburbs banned all outdoor cooking", es: "Los suburbios prohibieron toda cocina al aire libre", de: "Vororte verboten alle Außenküche", nl: "Voorsteden verboden alle buitenkoken" },
+          { en: "Backyard BBQ became less popular", es: "El BBQ de patio trasero se volvió menos popular", de: "Hinterhof-BBQ wurde weniger beliebt", nl: "Achtertuin BBQ werd minder populair" },
+          { en: "Only professional pitmasters could BBQ", es: "Solo los pitmasters profesionales podían hacer BBQ", de: "Nur professionelle Pitmasters konnten BBQ machen", nl: "Alleen professionele pitmasters konden BBQ maken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Post-WWII suburban expansion with yards and leisure time created the 'backyard BBQ' phenomenon. George Stephen's 1952 invention of the Weber kettle grill made charcoal grilling accessible and affordable. BBQ became a weekend ritual and symbol of suburban lifestyle - father grilling for family gatherings. This democratized BBQ beyond Southern traditions, making it a national pastime, though purists distinguish between this 'grilling' and traditional 'BBQ.'",
+          es: "La expansión suburbana post-Segunda Guerra Mundial con patios y tiempo de ocio creó el fenómeno del 'BBQ de patio trasero'. La invención de George Stephen en 1952 de la parrilla Weber kettle hizo el asado con carbón accesible y asequible. El BBQ se convirtió en un ritual de fin de semana y símbolo del estilo de vida suburbano - padre asando para reuniones familiares. Esto democratizó el BBQ más allá de tradiciones sureñas, haciéndolo un pasatiempo nacional, aunque los puristas distinguen entre esta 'parrilla' y el 'BBQ' tradicional.",
+          de: "Die vorstädtische Expansion nach dem Zweiten Weltkrieg mit Höfen und Freizeit schuf das 'Hinterhof-BBQ'-Phänomen. George Stephens Erfindung des Weber Kettle Grills 1952 machte Holzkohlengrillen zugänglich und erschwinglich. BBQ wurde zum Wochenend-Ritual und Symbol des vorstädtischen Lebensstils - Vater grillt für Familientreffen. Dies demokratisierte BBQ über südliche Traditionen hinaus und machte es zu einem nationalen Zeitvertreib, obwohl Puristen zwischen diesem 'Grillen' und traditionellem 'BBQ' unterscheiden.",
+          nl: "Voorstedelijke expansie na WO II met tuinen en vrije tijd creëerde het 'achtertuin BBQ'-fenomeen. George Stephen's 1952 uitvinding van de Weber kettle grill maakte houtskool grillen toegankelijk en betaalbaar. BBQ werd een weekend ritueel en symbool van voorstedelijke levensstijl - vader grillend voor familie bijeenkomsten. Dit democratiseerde BBQ buiten zuidelijke tradities, maakte het een nationale tijdverdrijf, hoewel puristen onderscheid maken tussen dit 'grillen' en traditionele 'BBQ'."
+        }
+      },
+      {
+        question: {
+          en: "What BBQ documentary brought attention to dying BBQ traditions in 2017?",
+          es: "¿Qué documental BBQ llamó la atención sobre tradiciones BBQ moribundas en 2017?",
+          de: "Welche BBQ-Dokumentation brachte 2017 Aufmerksamkeit auf sterbende BBQ-Traditionen?",
+          nl: "Welke BBQ-documentaire bracht aandacht voor stervende BBQ-tradities in 2017?"
+        },
+        options: [
+          { en: "'The BBQ Trail' - documented aging pitmasters and threatened whole-hog traditions", es: "'The BBQ Trail' - documentó pitmasters envejecidos y tradiciones de cerdo entero amenazadas", de: "'The BBQ Trail' - dokumentierte alternde Pitmasters und bedrohte Whole-Hog-Traditionen", nl: "'The BBQ Trail' - documenteerde verouderende pitmasters en bedreigde hele-varken tradities" },
+          { en: "'Fast Food Nation' about chain restaurants", es: "'Fast Food Nation' sobre restaurantes en cadena", de: "'Fast Food Nation' über Kettenrestaurants", nl: "'Fast Food Nation' over ketenrestaurants" },
+          { en: "'Chef's Table' fine dining series", es: "Serie 'Chef's Table' de alta gastronomía", de: "'Chef's Table' Fine-Dining-Serie", nl: "'Chef's Table' fine dining serie" },
+          { en: "'Street Food' Asian cuisine documentary", es: "Documental 'Street Food' de cocina asiática", de: "'Street Food' Asiatische Küche Dokumentation", nl: "'Street Food' Aziatische keuken documentaire" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "While Netflix's 'Chef's Table: BBQ' (2020) brought mainstream attention, several documentaries like 'The BBQ Trail' and 'Smokestack Lightning' highlighted the endangered status of traditional whole-hog BBQ and aging pitmasters. These films documented family-run joints closing as younger generations pursue other careers, raising awareness about preserving BBQ heritage. The attention sparked renewed interest in traditional methods and helped some historic establishments gain recognition and support.",
+          es: "Mientras que 'Chef's Table: BBQ' de Netflix (2020) trajo atención mainstream, varios documentales como 'The BBQ Trail' y 'Smokestack Lightning' resaltaron el estado en peligro del BBQ tradicional de cerdo entero y pitmasters envejecidos. Estas películas documentaron restaurantes familiares cerrando mientras generaciones más jóvenes buscan otras carreras, creando conciencia sobre preservar la herencia BBQ. La atención provocó renovado interés en métodos tradicionales y ayudó a algunos establecimientos históricos a ganar reconocimiento y apoyo.",
+          de: "Während Netflix' 'Chef's Table: BBQ' (2020) Mainstream-Aufmerksamkeit brachte, hoben mehrere Dokumentationen wie 'The BBQ Trail' und 'Smokestack Lightning' den gefährdeten Status von traditionellem Whole-Hog-BBQ und alternden Pitmasters hervor. Diese Filme dokumentierten familiengeführte Läden, die schließen, während jüngere Generationen andere Karrieren verfolgen, und schufen Bewusstsein für die Bewahrung des BBQ-Erbes. Die Aufmerksamkeit weckte erneutes Interesse an traditionellen Methoden und half einigen historischen Etablissements, Anerkennung und Unterstützung zu gewinnen.",
+          nl: "Terwijl Netflix' 'Chef's Table: BBQ' (2020) mainstream aandacht bracht, benadrukten verschillende documentaires zoals 'The BBQ Trail' en 'Smokestack Lightning' de bedreigde status van traditionele hele-varken BBQ en verouderende pitmasters. Deze films documenteerden familierestaurants die sloten terwijl jongere generaties andere carrières nastreven, creëerden bewustzijn over het behouden van BBQ-erfgoed. De aandacht wekte hernieuwde interesse in traditionele methoden en hielp sommige historische etablissementen erkenning en steun te krijgen."
+        }
+      },
+      {
+        question: {
+          en: "How did Korean BBQ restaurants change American BBQ culture in urban areas?",
+          es: "¿Cómo cambiaron los restaurantes BBQ coreanos la cultura BBQ americana en áreas urbanas?",
+          de: "Wie veränderten koreanische BBQ-Restaurants die amerikanische BBQ-Kultur in städtischen Gebieten?",
+          nl: "Hoe veranderden Koreaanse BBQ-restaurants de Amerikaanse BBQ-cultuur in stedelijke gebieden?"
+        },
+        options: [
+          { en: "Introduced tabletop grilling, marinated meats, and interactive dining experience to US cities", es: "Introdujeron asado de mesa, carnes marinadas y experiencia de comida interactiva a ciudades de EE.UU.", de: "Führten Tischgrillen, mariniertes Fleisch und interaktives Esserlebnis in US-Städten ein", nl: "Introduceerden tafelgrillen, gemarineerd vlees en interactieve eetervaring in Amerikaanse steden" },
+          { en: "Had no influence on American BBQ", es: "No tuvo influencia en el BBQ americano", de: "Hatte keinen Einfluss auf amerikanisches BBQ", nl: "Had geen invloed op Amerikaans BBQ" },
+          { en: "Only served traditional American BBQ", es: "Solo sirvieron BBQ americano tradicional", de: "Servierten nur traditionelles amerikanisches BBQ", nl: "Serveerden alleen traditionele Amerikaanse BBQ" },
+          { en: "Replaced all Southern BBQ restaurants", es: "Reemplazó todos los restaurantes BBQ del sur", de: "Ersetzte alle südlichen BBQ-Restaurants", nl: "Verving alle zuidelijke BBQ-restaurants" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Korean BBQ restaurants proliferated in US cities from the 1980s onward, introducing Americans to a completely different BBQ paradigm: thin-sliced marinated meats (bulgogi, galbi) grilled tableside, eaten wrapped in lettuce with banchan sides. This interactive, communal dining style influenced American BBQ culture, inspiring fusion concepts and introducing new flavor profiles. While distinct from Southern BBQ, it expanded Americans' definition of 'BBQ' and influenced modern restaurants combining traditions.",
+          es: "Los restaurantes BBQ coreanos proliferaron en ciudades de EE.UU. desde los 1980s en adelante, introduciendo a los americanos a un paradigma BBQ completamente diferente: carnes marinadas en rodajas finas (bulgogi, galbi) asadas en la mesa, comidas envueltas en lechuga con acompañamientos banchan. Este estilo de comida interactivo y comunal influyó en la cultura BBQ americana, inspirando conceptos de fusión e introduciendo nuevos perfiles de sabor. Aunque distinto del BBQ sureño, amplió la definición americana de 'BBQ' e influyó en restaurantes modernos que combinan tradiciones.",
+          de: "Koreanische BBQ-Restaurants vermehrten sich ab den 1980er Jahren in US-Städten und führten Amerikaner in ein völlig anderes BBQ-Paradigma ein: dünn geschnittenes mariniertes Fleisch (Bulgogi, Galbi) am Tisch gegrillt, in Salatblättern mit Banchan-Beilagen gegessen. Dieser interaktive, gemeinschaftliche Speisestil beeinflusste die amerikanische BBQ-Kultur, inspirierte Fusionskonzepte und führte neue Geschmacksprofile ein. Obwohl vom südlichen BBQ verschieden, erweiterte es Amerikas Definition von 'BBQ' und beeinflusste moderne Restaurants, die Traditionen kombinieren.",
+          nl: "Koreaanse BBQ-restaurants vermenigvuldigden zich in Amerikaanse steden vanaf de jaren 1980, introduceerden Amerikanen aan een compleet ander BBQ-paradigma: dun gesneden gemarineerd vlees (bulgogi, galbi) aan tafel gegrild, gegeten gewikkeld in sla met banchan bijgerechten. Deze interactieve, gemeenschappelijke eetstijl beïnvloedde de Amerikaanse BBQ-cultuur, inspireerde fusieconcepten en introduceerde nieuwe smaakprofielen. Hoewel onderscheidend van zuidelijke BBQ, verruimde het Amerikanen's definitie van 'BBQ' en beïnvloedde moderne restaurants die tradities combineren."
+        }
+      },
+      {
+        question: {
+          en: "What was the role of church BBQ fundraisers in preserving BBQ traditions?",
+          es: "¿Cuál fue el papel de las recaudaciones de fondos BBQ de iglesia en preservar tradiciones BBQ?",
+          de: "Welche Rolle spielten Kirchen-BBQ-Fundraiser bei der Bewahrung von BBQ-Traditionen?",
+          nl: "Wat was de rol van kerk BBQ-fondsenwerving bij het behouden van BBQ-tradities?"
+        },
+        options: [
+          { en: "Passed down whole-hog pit cooking techniques across generations through community events", es: "Transmitieron técnicas de cocción de cerdo entero en pozo a través de generaciones mediante eventos comunitarios", de: "Gaben Whole-Hog-Pit-Kochtechniken über Generationen durch Gemeinschaftsveranstaltungen weiter", nl: "Gaven hele-varken pit kooktechnieken door generaties door via gemeenschapsevenementen" },
+          { en: "Churches banned all BBQ activities", es: "Las iglesias prohibieron todas las actividades BBQ", de: "Kirchen verboten alle BBQ-Aktivitäten", nl: "Kerken verboden alle BBQ-activiteiten" },
+          { en: "Only restaurants could preserve traditions", es: "Solo los restaurantes podían preservar tradiciones", de: "Nur Restaurants konnten Traditionen bewahren", nl: "Alleen restaurants konden tradities behouden" },
+          { en: "Fundraisers used only modern equipment", es: "Las recaudaciones usaron solo equipo moderno", de: "Fundraiser verwendeten nur moderne Ausrüstung", nl: "Fondsenwerving gebruikte alleen moderne apparatuur" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Southern church BBQ fundraisers remain crucial for preserving traditional techniques, especially whole-hog pit cooking. Churches dig pits, smoke whole hogs overnight, and serve community dinners - teaching younger generations hands-on. These events maintain social BBQ traditions beyond commercial restaurants. Many BBQ masters learned through church fundraisers before opening restaurants. The tradition continues, keeping alive methods that might otherwise disappear as commercial BBQ evolves.",
+          es: "Las recaudaciones de fondos BBQ de iglesias sureñas siguen siendo cruciales para preservar técnicas tradicionales, especialmente cocción de cerdo entero en pozo. Las iglesias cavan pozos, ahuman cerdos enteros toda la noche y sirven cenas comunitarias - enseñando a generaciones más jóvenes de manera práctica. Estos eventos mantienen tradiciones sociales BBQ más allá de restaurantes comerciales. Muchos maestros BBQ aprendieron a través de recaudaciones de iglesia antes de abrir restaurantes. La tradición continúa, manteniendo vivos métodos que de otro modo podrían desaparecer a medida que el BBQ comercial evoluciona.",
+          de: "Südliche Kirchen-BBQ-Fundraiser bleiben entscheidend für die Bewahrung traditioneller Techniken, besonders Whole-Hog-Pit-Kochen. Kirchen graben Gruben, räuchern ganze Schweine über Nacht und servieren Gemeinschaftsessen - lehren jüngere Generationen praktisch. Diese Events pflegen soziale BBQ-Traditionen über kommerzielle Restaurants hinaus. Viele BBQ-Meister lernten durch Kirchen-Fundraiser, bevor sie Restaurants eröffneten. Die Tradition setzt sich fort und hält Methoden am Leben, die sonst verschwinden könnten, während sich kommerzielles BBQ entwickelt.",
+          nl: "Zuidelijke kerk BBQ-fondsenwerving blijft cruciaal voor het behouden van traditionele technieken, vooral hele-varken pit koken. Kerken graven kuilen, roken hele varkens 's nachts en serveren gemeenschapsdiners - leren jongere generaties hands-on. Deze evenementen handhaven sociale BBQ-tradities buiten commerciële restaurants. Veel BBQ-meesters leerden via kerk fondsenwerving voordat ze restaurants openden. De traditie gaat door, houdt methoden levend die anders zouden kunnen verdwijnen naarmate commerciële BBQ evolueert."
+        }
+      },
+      {
+        question: {
+          en: "How did 'urban BBQ' differ from traditional regional styles in the 1990s-2000s?",
+          es: "¿En qué se diferenció el 'BBQ urbano' de los estilos regionales tradicionales en los 1990s-2000s?",
+          de: "Wie unterschied sich 'Urban BBQ' in den 1990er-2000er Jahren von traditionellen regionalen Stilen?",
+          nl: "Hoe verschilde 'stedelijke BBQ' van traditionele regionale stijlen in de jaren 1990-2000?"
+        },
+        options: [
+          { en: "Fusion of BBQ with global flavors, upscale settings, chef-driven innovation vs. traditional pits", es: "Fusión de BBQ con sabores globales, entornos elegantes, innovación impulsada por chefs vs. pozos tradicionales", de: "Fusion von BBQ mit globalen Aromen, gehobenen Settings, Chefköchen-getriebener Innovation vs. traditionelle Gruben", nl: "Fusie van BBQ met wereldwijde smaken, luxe settings, chef-gedreven innovatie vs. traditionele kuilen" },
+          { en: "Urban BBQ was identical to Southern traditions", es: "El BBQ urbano era idéntico a las tradiciones sureñas", de: "Urban BBQ war identisch mit südlichen Traditionen", nl: "Stedelijke BBQ was identiek aan zuidelijke tradities" },
+          { en: "Only traditional methods were used in cities", es: "Solo se usaron métodos tradicionales en ciudades", de: "Nur traditionelle Methoden wurden in Städten verwendet", nl: "Alleen traditionele methoden werden gebruikt in steden" },
+          { en: "Cities completely rejected BBQ", es: "Las ciudades rechazaron completamente el BBQ", de: "Städte lehnten BBQ vollständig ab", nl: "Steden verwierpen BBQ volledig" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "As BBQ spread to major cities (NYC, LA, SF) in the 1990s-2000s, chef-driven 'urban BBQ' emerged: upscale restaurants with cocktail programs, fusion flavors (Korean-Texas, Japanese techniques), and modern presentations. Blue Smoke (NYC) and others brought BBQ to fine-casual dining. This contrasted with traditional family-run joints using wood pits. While purists debated authenticity, urban BBQ introduced new audiences to smoked meats and sparked innovation while respecting traditions.",
+          es: "A medida que el BBQ se extendió a grandes ciudades (NYC, LA, SF) en los 1990s-2000s, surgió el 'BBQ urbano' impulsado por chefs: restaurantes elegantes con programas de cócteles, sabores de fusión (coreano-texano, técnicas japonesas) y presentaciones modernas. Blue Smoke (NYC) y otros trajeron BBQ a comida fine-casual. Esto contrastó con restaurantes familiares tradicionales usando pozos de madera. Mientras los puristas debatían autenticidad, el BBQ urbano introdujo nuevas audiencias a carnes ahumadas y provocó innovación mientras respetaba tradiciones.",
+          de: "Als sich BBQ in den 1990er-2000er Jahren in Großstädten (NYC, LA, SF) verbreitete, entstand chefgetriebenes 'Urban BBQ': gehobene Restaurants mit Cocktailprogrammen, Fusionsaromen (koreanisch-texanisch, japanische Techniken) und modernen Präsentationen. Blue Smoke (NYC) und andere brachten BBQ zu Fine-Casual-Dining. Dies kontrastierte mit traditionellen familiengeführten Läden mit Holzgruben. Während Puristen über Authentizität debattierten, führte Urban BBQ neue Publikum zu geräucherten Fleischsorten und weckte Innovation bei Respekt für Traditionen.",
+          nl: "Naarmate BBQ zich verspreidde naar grote steden (NYC, LA, SF) in de jaren 1990-2000, ontstond chef-gedreven 'stedelijke BBQ': luxe restaurants met cocktailprogramma's, fusie smaken (Koreaans-Texas, Japanse technieken) en moderne presentaties. Blue Smoke (NYC) en anderen brachten BBQ naar fine-casual dining. Dit contrasteerde met traditionele familierestaurants met houten kuilen. Terwijl puristen debatteerden over authenticiteit, introduceerde stedelijke BBQ nieuw publiek aan gerookt vlees en wekte innovatie terwijl tradities werden gerespecteerd."
+        }
+      },
+      {
+        question: {
+          en: "What impact did social media have on BBQ culture in the 2010s?",
+          es: "¿Qué impacto tuvo las redes sociales en la cultura BBQ en los 2010s?",
+          de: "Welchen Einfluss hatten Social Media auf die BBQ-Kultur in den 2010er Jahren?",
+          nl: "Welke impact had social media op BBQ-cultuur in de jaren 2010?"
+        },
+        options: [
+          { en: "Created global BBQ community, shared techniques, launched celebrity pitmasters, sparked 'meat porn' trend", es: "Creó comunidad BBQ global, compartió técnicas, lanzó pitmasters celebridades, provocó tendencia 'porn de carne'", de: "Schuf globale BBQ-Gemeinschaft, teilte Techniken, brachte Promi-Pitmasters hervor, löste 'Fleisch-Porn'-Trend aus", nl: "Creëerde wereldwijde BBQ-gemeenschap, deelde technieken, lanceerde beroemde pitmasters, veroorzaakte 'vlees porn' trend" },
+          { en: "Had no effect on BBQ popularity", es: "No tuvo efecto en la popularidad del BBQ", de: "Hatte keine Auswirkung auf BBQ-Popularität", nl: "Had geen effect op BBQ-populariteit" },
+          { en: "Reduced interest in BBQ cooking", es: "Redujo el interés en cocinar BBQ", de: "Reduzierte Interesse am BBQ-Kochen", nl: "Verminderde interesse in BBQ-koken" },
+          { en: "Only professional chefs used social media", es: "Solo chefs profesionales usaron redes sociales", de: "Nur professionelle Köche nutzten Social Media", nl: "Alleen professionele chefs gebruikten social media" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Instagram, YouTube, and Facebook transformed BBQ culture: visually stunning 'meat porn' (smoke rings, bark close-ups) went viral; YouTube channels taught techniques globally; Franklin, Myron Mixon, and others became social media celebrities; online communities shared tips, created friendly competition. This democratized knowledge previously passed only in-person, inspired countless backyard cooks to attempt competition-level BBQ, and created economic opportunity for BBQ influencers. BBQ became aspirational lifestyle content.",
+          es: "Instagram, YouTube y Facebook transformaron la cultura BBQ: 'porn de carne' visualmente impresionante (anillos de humo, primeros planos de corteza) se volvió viral; canales de YouTube enseñaron técnicas globalmente; Franklin, Myron Mixon y otros se convirtieron en celebridades de redes sociales; comunidades en línea compartieron consejos, crearon competencia amistosa. Esto democratizó conocimiento previamente pasado solo en persona, inspiró a innumerables cocineros de patio trasero a intentar BBQ de nivel de competencia y creó oportunidad económica para influencers BBQ. El BBQ se convirtió en contenido de estilo de vida aspiracional.",
+          de: "Instagram, YouTube und Facebook transformierten die BBQ-Kultur: visuell beeindruckender 'Fleisch-Porn' (Rauchringe, Bark-Nahaufnahmen) ging viral; YouTube-Kanäle lehrten Techniken global; Franklin, Myron Mixon und andere wurden Social-Media-Prominente; Online-Communitys teilten Tipps, schufen freundlichen Wettbewerb. Dies demokratisierte Wissen, das zuvor nur persönlich weitergegeben wurde, inspirierte unzählige Hinterhofköche, Wettbewerbs-BBQ zu versuchen, und schuf wirtschaftliche Gelegenheit für BBQ-Influencer. BBQ wurde zu aspirationalem Lifestyle-Content.",
+          nl: "Instagram, YouTube en Facebook transformeerden BBQ-cultuur: visueel verbluffende 'vlees porn' (rook ringen, bark close-ups) ging viraal; YouTube-kanalen leerden technieken wereldwijd; Franklin, Myron Mixon en anderen werden social media beroemdheden; online gemeenschappen deelden tips, creëerden vriendschappelijke competitie. Dit democratiseerde kennis die eerder alleen persoonlijk werd doorgegeven, inspireerde talloze achtertuin koks om competitie-niveau BBQ te proberen en creëerde economische kans voor BBQ-influencers. BBQ werd aspirationele levensstijl content."
+        }
+      },
+      {
+        question: {
+          en: "What BBQ tradition is threatened by modern efficiency and why?",
+          es: "¿Qué tradición BBQ está amenazada por la eficiencia moderna y por qué?",
+          de: "Welche BBQ-Tradition ist durch moderne Effizienz bedroht und warum?",
+          nl: "Welke BBQ-traditie wordt bedreigd door moderne efficiëntie en waarom?"
+        },
+        options: [
+          { en: "Whole-hog pit cooking - labor-intensive, requires 24hr attention, fewer profit than shoulders/brisket", es: "Cocción de cerdo entero en pozo - intensivo en mano de obra, requiere atención 24hr, menos ganancia que paletas/brisket", de: "Whole-Hog-Pit-Kochen - arbeitsintensiv, erfordert 24-Std-Aufmerksamkeit, weniger Gewinn als Schultern/Brisket", nl: "Hele-varken pit koken - arbeidsintensief, vereist 24-uur aandacht, minder winst dan schouders/brisket" },
+          { en: "All BBQ styles are equally common today", es: "Todos los estilos BBQ son igualmente comunes hoy", de: "Alle BBQ-Stile sind heute gleich verbreitet", nl: "Alle BBQ-stijlen zijn vandaag even gebruikelijk" },
+          { en: "Modern methods perfectly preserve all traditions", es: "Los métodos modernos preservan perfectamente todas las tradiciones", de: "Moderne Methoden bewahren alle Traditionen perfekt", nl: "Moderne methoden behouden alle tradities perfect" },
+          { en: "Brisket smoking is disappearing", es: "El ahumado de brisket está desapareciendo", de: "Brisket-Räuchern verschwindet", nl: "Brisket roken verdwijnt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Whole-hog pit cooking, the oldest American BBQ tradition, is endangered. It requires digging/building pits, managing fires 12-24 hours, constant attention, and yields less profitable meat than focused cuts (brisket, shoulder). Aging pitmasters retire without successors; restaurants shift to gas smokers and specific cuts for efficiency. Church fundraisers and a few dedicated establishments keep the tradition alive, but economic pressures threaten this labor-intensive, community-focused BBQ style.",
+          es: "La cocción de cerdo entero en pozo, la tradición BBQ americana más antigua, está en peligro. Requiere cavar/construir pozos, manejar fuegos 12-24 horas, atención constante y produce carne menos rentable que cortes enfocados (brisket, paleta). Pitmasters envejecidos se jubilan sin sucesores; restaurantes cambian a ahumadores de gas y cortes específicos por eficiencia. Recaudaciones de iglesias y algunos establecimientos dedicados mantienen viva la tradición, pero presiones económicas amenazan este estilo BBQ intensivo en mano de obra y enfocado en comunidad.",
+          de: "Whole-Hog-Pit-Kochen, die älteste amerikanische BBQ-Tradition, ist gefährdet. Es erfordert Graben/Bauen von Gruben, Feuer-Management 12-24 Stunden, konstante Aufmerksamkeit und liefert weniger profitables Fleisch als fokussierte Stücke (Brisket, Schulter). Alternde Pitmasters gehen in Rente ohne Nachfolger; Restaurants wechseln zu Gas-Smokern und spezifischen Stücken für Effizienz. Kirchen-Fundraiser und einige engagierte Etablissements halten die Tradition am Leben, aber wirtschaftliche Druck bedroht diesen arbeitsintensiven, gemeinschaftsorientierten BBQ-Stil.",
+          nl: "Hele-varken pit koken, de oudste Amerikaanse BBQ-traditie, wordt bedreigd. Het vereist graven/bouwen van kuilen, vuur beheer 12-24 uur, constante aandacht en levert minder winstgevend vlees op dan gerichte stukken (brisket, schouder). Verouderende pitmasters gaan met pensioen zonder opvolgers; restaurants schakelen over op gas smokers en specifieke stukken voor efficiëntie. Kerk fondsenwerving en een paar toegewijde etablissementen houden de traditie levend, maar economische druk bedreigt deze arbeidsintensieve, gemeenschapsgerichte BBQ-stijl."
+        }
+      },
+      {
+        question: {
+          en: "How did Black pitmasters' contributions to BBQ gain broader recognition in recent years?",
+          es: "¿Cómo ganaron mayor reconocimiento las contribuciones de pitmasters negros al BBQ en años recientes?",
+          de: "Wie erlangten die Beiträge schwarzer Pitmasters zum BBQ in den letzten Jahren breitere Anerkennung?",
+          nl: "Hoe kregen de bijdragen van zwarte pitmasters aan BBQ bredere erkenning in recente jaren?"
+        },
+        options: [
+          { en: "Documentaries, awards (James Beard), social movements highlighting historical erasure and ongoing excellence", es: "Documentales, premios (James Beard), movimientos sociales destacando borrado histórico y excelencia continua", de: "Dokumentationen, Auszeichnungen (James Beard), soziale Bewegungen, die historische Auslöschung und anhaltende Exzellenz hervorheben", nl: "Documentaires, prijzen (James Beard), sociale bewegingen die historische uitwissing en voortdurende excellentie benadrukken" },
+          { en: "Their role has never been acknowledged", es: "Su papel nunca ha sido reconocido", de: "Ihre Rolle wurde nie anerkannt", nl: "Hun rol is nooit erkend" },
+          { en: "Only recent pitmasters receive recognition", es: "Solo pitmasters recientes reciben reconocimiento", de: "Nur neuere Pitmasters erhalten Anerkennung", nl: "Alleen recente pitmasters krijgen erkenning" },
+          { en: "Recognition has decreased over time", es: "El reconocimiento ha disminuido con el tiempo", de: "Anerkennung hat im Laufe der Zeit abgenommen", nl: "Erkenning is afgenomen in de loop der tijd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Recent years have seen increased recognition of Black pitmasters' foundational role in BBQ: documentaries highlighting figures like Henry Perry; James Beard Awards to Black BBQ chefs; books and articles addressing historical erasure; social media amplifying Black-owned BBQ businesses. The Black Lives Matter movement sparked broader conversations about credit and cultural appropriation. While progress remains incomplete, these efforts correct historical narrative and celebrate ongoing contributions of Black pitmasters to BBQ excellence.",
+          es: "Años recientes han visto mayor reconocimiento del papel fundacional de pitmasters negros en BBQ: documentales destacando figuras como Henry Perry; Premios James Beard a chefs BBQ negros; libros y artículos abordando borrado histórico; redes sociales amplificando negocios BBQ de propietarios negros. El movimiento Black Lives Matter provocó conversaciones más amplias sobre crédito y apropiación cultural. Aunque el progreso sigue incompleto, estos esfuerzos corrigen la narrativa histórica y celebran contribuciones continuas de pitmasters negros a la excelencia BBQ.",
+          de: "In den letzten Jahren wurde die grundlegende Rolle schwarzer Pitmasters im BBQ zunehmend anerkannt: Dokumentationen, die Persönlichkeiten wie Henry Perry hervorheben; James Beard Awards an schwarze BBQ-Köche; Bücher und Artikel, die historische Auslöschung ansprechen; Social Media, die Black-owned BBQ-Geschäfte verstärken. Die Black Lives Matter-Bewegung löste breitere Gespräche über Anerkennung und kulturelle Aneignung aus. Während der Fortschritt unvollständig bleibt, korrigieren diese Bemühungen historische Narrative und feiern anhaltende Beiträge schwarzer Pitmasters zur BBQ-Exzellenz.",
+          nl: "Recente jaren hebben toegenomen erkenning gezien van de fundamentele rol van zwarte pitmasters in BBQ: documentaires die figuren zoals Henry Perry benadrukken; James Beard Awards aan zwarte BBQ-chefs; boeken en artikelen die historische uitwissing aanpakken; social media die Black-owned BBQ-bedrijven versterken. De Black Lives Matter-beweging veroorzaakte bredere gesprekken over krediet en culturele toe-eigening. Hoewel vooruitgang onvolledig blijft, corrigeren deze inspanningen historisch narratief en vieren voortdurende bijdragen van zwarte pitmasters aan BBQ-excellentie."
+        }
+      },
+      {
+        question: {
+          en: "What modern BBQ trend combines old and new techniques?",
+          es: "¿Qué tendencia BBQ moderna combina técnicas antiguas y nuevas?",
+          de: "Welcher moderne BBQ-Trend kombiniert alte und neue Techniken?",
+          nl: "Welke moderne BBQ-trend combineert oude en nieuwe technieken?"
+        },
+        options: [
+          { en: "Hybrid cooking: sous vide + smoke finish, or reverse sear with wood smoke", es: "Cocción híbrida: sous vide + acabado de humo, o sear inverso con humo de madera", de: "Hybridkochen: Sous Vide + Rauch-Finish, oder Reverse Sear mit Holzrauch", nl: "Hybride koken: sous vide + rook afwerking, of reverse sear met houtrook" },
+          { en: "Only traditional methods are used today", es: "Solo se usan métodos tradicionales hoy", de: "Nur traditionelle Methoden werden heute verwendet", nl: "Alleen traditionele methoden worden vandaag gebruikt" },
+          { en: "Modern BBQ rejects all old techniques", es: "El BBQ moderno rechaza todas las técnicas antiguas", de: "Modernes BBQ lehnt alle alten Techniken ab", nl: "Moderne BBQ verwerpt alle oude technieken" },
+          { en: "Gas grills completely replaced wood smoking", es: "Las parrillas de gas reemplazaron completamente el ahumado con madera", de: "Gasgrills ersetzten Holzräuchern vollständig", nl: "Gasgrills vervingen houtroken volledig" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Contemporary pitmasters increasingly blend tradition and technology: sous vide tenderizes precisely, then wood smoking adds flavor and bark; reverse searing on pellet grills combines computer temperature control with wood smoke; injections use modern ingredients but traditional flavor goals. Competition BBQ drives innovation - teams use WiFi thermometers, moisture-controlled cookers, but still focus on wood smoke flavor. This pragmatic fusion maintains BBQ essence while embracing tools that improve consistency and expand possibilities.",
+          es: "Los pitmasters contemporáneos cada vez más mezclan tradición y tecnología: sous vide ablanda con precisión, luego ahumado con madera añade sabor y corteza; sear inverso en parrillas de pellets combina control de temperatura computarizado con humo de madera; inyecciones usan ingredientes modernos pero objetivos de sabor tradicionales. El BBQ de competencia impulsa la innovación - equipos usan termómetros WiFi, cocinas controladas por humedad, pero aún se enfocan en sabor a humo de madera. Esta fusión pragmática mantiene la esencia BBQ mientras abraza herramientas que mejoran consistencia y expanden posibilidades.",
+          de: "Zeitgenössische Pitmasters mischen zunehmend Tradition und Technologie: Sous Vide macht präzise zart, dann fügt Holzräuchern Geschmack und Bark hinzu; Reverse Searing auf Pelletgrills kombiniert Computer-Temperaturkontrolle mit Holzrauch; Injektionen verwenden moderne Zutaten, aber traditionelle Geschmacksziele. Wettbewerbs-BBQ treibt Innovation - Teams nutzen WiFi-Thermometer, feuchtigkeitskontrollierte Kocher, konzentrieren sich aber noch auf Holzrauchgeschmack. Diese pragmatische Fusion erhält BBQ-Essenz bei Nutzung von Tools, die Konsistenz verbessern und Möglichkeiten erweitern.",
+          nl: "Hedendaagse pitmasters mengen steeds meer traditie en technologie: sous vide maakt precies mals, dan voegt houtroken smaak en bark toe; reverse searing op pelletgrills combineert computer temperatuurcontrole met houtrook; injecties gebruiken moderne ingrediënten maar traditionele smaakdoelen. Competitie BBQ drijft innovatie - teams gebruiken WiFi-thermometers, vocht-gecontroleerde kokers, maar richten zich nog steeds op houtrooksmaak. Deze pragmatische fusie handhaaft BBQ-essentie terwijl het tools omarmt die consistentie verbeteren en mogelijkheden uitbreiden."
+        }
+      },
+      {
+        question: {
+          en: "What cultural shift occurred as BBQ became 'respectable' cuisine?",
+          es: "¿Qué cambio cultural ocurrió cuando el BBQ se convirtió en cocina 'respetable'?",
+          de: "Welcher kulturelle Wandel trat ein, als BBQ 'respektable' Küche wurde?",
+          nl: "Welke culturele verschuiving vond plaats toen BBQ 'respectabele' keuken werd?"
+        },
+        options: [
+          { en: "From working-class/community food to James Beard awards, fine dining, culinary school study", es: "De comida de clase trabajadora/comunitaria a premios James Beard, alta gastronomía, estudio de escuela culinaria", de: "Von Arbeiterklasse/Gemeinschaftsessen zu James Beard Awards, Fine Dining, Kochschulstudium", nl: "Van arbeidersklasse/gemeenschap voedsel naar James Beard prijzen, fine dining, culinaire school studie" },
+          { en: "BBQ remains only regional phenomenon", es: "BBQ sigue siendo solo fenómeno regional", de: "BBQ bleibt nur regionales Phänomen", nl: "BBQ blijft alleen regionaal fenomeen" },
+          { en: "Fine dining completely replaced traditional BBQ", es: "Alta gastronomía reemplazó completamente el BBQ tradicional", de: "Fine Dining ersetzte traditionelles BBQ vollständig", nl: "Fine dining verving traditionele BBQ volledig" },
+          { en: "BBQ lost all cultural significance", es: "BBQ perdió todo significado cultural", de: "BBQ verlor jede kulturelle Bedeutung", nl: "BBQ verloor alle culturele betekenis" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "BBQ transformed from regional working-class food to nationally recognized culinary art: Aaron Franklin's 2015 James Beard Award; BBQ restaurants receiving Michelin stars; culinary schools teaching smoking techniques; upscale restaurants featuring BBQ with wine pairings. This elevation brought recognition and economic opportunity but sparked debate about authenticity, gentrification, and whether 'artisanal' BBQ maintains the communal, accessible spirit of traditional BBQ. The tension between preservation and evolution continues.",
+          es: "El BBQ se transformó de comida regional de clase trabajadora a arte culinario nacionalmente reconocido: Premio James Beard de Aaron Franklin 2015; restaurantes BBQ recibiendo estrellas Michelin; escuelas culinarias enseñando técnicas de ahumado; restaurantes elegantes presentando BBQ con maridajes de vino. Esta elevación trajo reconocimiento y oportunidad económica pero provocó debate sobre autenticidad, gentrificación y si el BBQ 'artesanal' mantiene el espíritu comunal y accesible del BBQ tradicional. La tensión entre preservación y evolución continúa.",
+          de: "BBQ verwandelte sich von regionalem Arbeiterklassen-Essen zu national anerkannter kulinarischer Kunst: Aaron Franklins James Beard Award 2015; BBQ-Restaurants erhielten Michelin-Sterne; Kochschulen lehrten Räuchertechniken; gehobene Restaurants präsentierten BBQ mit Weinpaarungen. Diese Erhebung brachte Anerkennung und wirtschaftliche Gelegenheit, löste aber Debatte über Authentizität, Gentrifizierung und ob 'handwerkliches' BBQ den gemeinschaftlichen, zugänglichen Geist von traditionellem BBQ beibehält. Die Spannung zwischen Bewahrung und Evolution setzt sich fort.",
+          nl: "BBQ transformeerde van regionaal arbeidersklasse voedsel naar nationaal erkende culinaire kunst: Aaron Franklin's 2015 James Beard Award; BBQ-restaurants die Michelin-sterren ontvingen; culinaire scholen die rooktechnieken leerden; luxe restaurants met BBQ met wijn pairings. Deze verhoging bracht erkenning en economische kans maar veroorzaakte debat over authenticiteit, gentrificatie en of 'artisanale' BBQ de gemeenschappelijke, toegankelijke geest van traditionele BBQ handhaaft. De spanning tussen behoud en evolutie gaat door."
+        }
+      },
+      {
+        question: {
+          en: "What post-WWII technological development fundamentally changed home BBQ culture?",
+          es: "¿Qué desarrollo tecnológico post-Segunda Guerra Mundial cambió fundamentalmente la cultura BBQ casera?",
+          de: "Welche technologische Entwicklung nach dem Zweiten Weltkrieg veränderte die häusliche BBQ-Kultur grundlegend?",
+          nl: "Welke technologische ontwikkeling na WWII veranderde de thuisBBQ-cultuur fundamenteel?"
+        },
+        options: [
+          { en: "George Stephen's Weber Kettle (1952) - made backyard grilling accessible to middle class suburbs", es: "Weber Kettle de George Stephen (1952) - hizo accesible el asado de patio trasero a suburbios de clase media", de: "George Stephens Weber Kettle (1952) - machte Hinterhofgrillen für Vorstädte der Mittelklasse zugänglich", nl: "George Stephen's Weber Kettle (1952) - maakte achtertuin grillen toegankelijk voor middenklasse voorsteden" },
+          { en: "Electric smokers invented in 1920s", es: "Ahumadores eléctricos inventados en 1920s", de: "Elektrische Smoker in 1920er Jahren erfunden", nl: "Elektrische smokers uitgevonden in 1920s" },
+          { en: "Gas grills have always existed", es: "Las parrillas de gas siempre han existido", de: "Gasgrills existierten schon immer", nl: "Gasgrills hebben altijd bestaan" },
+          { en: "Pellet grills from the 1930s", es: "Parrillas de pellets de los 1930s", de: "Pelletgrills aus den 1930er Jahren", nl: "Pelletgrills uit de 1930s" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "George Stephen's 1952 Weber Kettle grill revolutionized home BBQ. The Weber employee cut a marine buoy in half, added vents and a lid, creating an affordable, portable, controlled-heat grill perfect for postwar suburban yards. This democratized grilling beyond restaurant pitmasters or wealthy landowners with permanent pits. The kettle's dome design improved heat distribution and introduced lid-closed smoking to millions. It became synonymous with American backyard culture and spawned the modern outdoor cooking industry.",
+          es: "La parrilla Weber Kettle de George Stephen de 1952 revolucionó el BBQ casero. El empleado de Weber cortó una boya marina por la mitad, agregó ventilaciones y una tapa, creando una parrilla asequible, portátil y de calor controlado perfecta para patios suburbanos de posguerra. Esto democratizó el asado más allá de pitmasters de restaurantes o terratenientes ricos con pozos permanentes. El diseño de cúpula de la kettle mejoró la distribución del calor e introdujo el ahumado con tapa cerrada a millones. Se volvió sinónimo de cultura de patio trasero americana y generó la industria moderna de cocina al aire libre.",
+          de: "George Stephens Weber Kettle Grill von 1952 revolutionierte Heim-BBQ. Der Weber-Mitarbeiter schnitt eine Meeresbuoy in zwei Hälften, fügte Lüftungsschlitze und einen Deckel hinzu und schuf einen erschwinglichen, tragbaren, wärmekontrollierten Grill perfekt für Nachkriegs-Vorstadthöfe. Dies demokratisierte Grillen über Restaurant-Pitmasters oder wohlhabende Landbesitzer mit permanenten Gruben hinaus. Das Kuppeldesign der Kettle verbesserte Wärmeverteilung und führte Deckel-geschlossenes Räuchern für Millionen ein. Es wurde zum Synonym für amerikanische Hinterhofkultur und schuf die moderne Outdoor-Kochindustrie.",
+          nl: "George Stephen's 1952 Weber Kettle grill revolutioneerde thuis BBQ. De Weber-werknemer sneed een zeebuoy doormidden, voegde ventilatieopeningen en een deksel toe, creërend een betaalbare, draagbare, warmtegecontroleerde grill perfect voor naoorlogse voorstedelijke tuinen. Dit democratiseerde grillen voorbij restaurant pitmasters of rijke landeigenaren met permanente kuilen. Het koepelontwerp van de kettle verbeterde warmteverdeling en introduceerde deksel-gesloten roken aan miljoenen. Het werd synoniem met Amerikaanse achtertuin cultuur en baarde de moderne outdoor kookindustrie."
+        }
       }
     ]
   };

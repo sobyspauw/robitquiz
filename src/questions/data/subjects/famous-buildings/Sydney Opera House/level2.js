@@ -427,6 +427,405 @@
           de: "Die erste Aufführung im Sydney Opera House war Sergei Prokofjews Oper 'Krieg und Frieden' am 28. September 1973.",
           nl: "De eerste uitvoering in het Sydney Opera House was Sergei Prokofievs opera 'Oorlog en Vrede' op 28 september 1973."
         }
+      },
+      {
+        question: {
+          en: "How many entries were submitted in the design competition?",
+          es: "¿Cuántas entradas se presentaron en el concurso de diseño?",
+          de: "Wie viele Einreichungen gab es beim Designwettbewerb?",
+          nl: "Hoeveel inzendingen werden ingediend bij de ontwerpwedstrijd?"
+        },
+        options: [
+          { en: "150", es: "150", de: "150", nl: "150" },
+          { en: "233", es: "233", de: "233", nl: "233" },
+          { en: "300", es: "300", de: "300", nl: "300" },
+          { en: "450", es: "450", de: "450", nl: "450" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "233 designs from 32 countries were submitted to the international competition in 1957.",
+          es: "Se presentaron 233 diseños de 32 países al concurso internacional en 1957.",
+          de: "233 Entwürfe aus 32 Ländern wurden 1957 beim internationalen Wettbewerb eingereicht.",
+          nl: "233 ontwerpen uit 32 landen werden in 1957 ingediend bij de internationale wedstrijd."
+        }
+      },
+      {
+        question: {
+          en: "What major award did Jørn Utzon receive in 2003?",
+          es: "¿Qué premio importante recibió Jørn Utzon en 2003?",
+          de: "Welchen wichtigen Preis erhielt Jørn Utzon im Jahr 2003?",
+          nl: "Welke belangrijke prijs ontving Jørn Utzon in 2003?"
+        },
+        options: [
+          { en: "Nobel Prize", es: "Premio Nobel", de: "Nobelpreis", nl: "Nobelprijs" },
+          { en: "Pritzker Prize", es: "Premio Pritzker", de: "Pritzker-Preis", nl: "Pritzker-prijs" },
+          { en: "RIBA Gold Medal", es: "Medalla de Oro RIBA", de: "RIBA-Goldmedaille", nl: "RIBA Gouden Medaille" },
+          { en: "Turner Prize", es: "Premio Turner", de: "Turner-Preis", nl: "Turner-prijs" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Jørn Utzon was awarded the prestigious Pritzker Prize in 2003, often called the Nobel Prize of architecture.",
+          es: "Jørn Utzon recibió el prestigioso Premio Pritzker en 2003, a menudo llamado el Premio Nobel de arquitectura.",
+          de: "Jørn Utzon wurde 2003 mit dem prestigeträchtigen Pritzker-Preis ausgezeichnet, oft als Nobelpreis der Architektur bezeichnet.",
+          nl: "Jørn Utzon ontving in 2003 de prestigieuze Pritzker-prijs, vaak de Nobelprijs voor architectuur genoemd."
+        }
+      },
+      {
+        question: {
+          en: "How much does the roof structure weigh approximately?",
+          es: "¿Cuánto pesa aproximadamente la estructura del techo?",
+          de: "Wie viel wiegt die Dachstruktur ungefähr?",
+          de: "Hoeveel weegt de dakstructuur ongeveer?"
+        },
+        options: [
+          { en: "15,000 tonnes", es: "15.000 toneladas", de: "15.000 Tonnen", nl: "15.000 ton" },
+          { en: "27,000 tonnes", es: "27.000 toneladas", de: "27.000 Tonnen", nl: "27.000 ton" },
+          { en: "35,000 tonnes", es: "35.000 toneladas", de: "35.000 Tonnen", nl: "35.000 ton" },
+          { en: "50,000 tonnes", es: "50.000 toneladas", de: "50.000 Tonnen", nl: "50.000 ton" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The roof structure weighs approximately 27,000 tonnes, despite its light and airy appearance.",
+          es: "La estructura del techo pesa aproximadamente 27.000 toneladas, a pesar de su apariencia ligera y aireada.",
+          de: "Die Dachstruktur wiegt etwa 27.000 Tonnen, trotz ihres leichten und luftigen Aussehens.",
+          nl: "De dakstructuur weegt ongeveer 27.000 ton, ondanks zijn lichte en luchtige uiterlijk."
+        }
+      },
+      {
+        question: {
+          en: "How many venues are inside the Sydney Opera House?",
+          es: "¿Cuántos lugares hay dentro de la Ópera de Sídney?",
+          de: "Wie viele Veranstaltungsorte gibt es im Sydney Opera House?",
+          nl: "Hoeveel ruimtes zijn er in het Sydney Opera House?"
+        },
+        options: [
+          { en: "3", es: "3", de: "3", nl: "3" },
+          { en: "5", es: "5", de: "5", nl: "5" },
+          { en: "7", es: "7", de: "7", nl: "7" },
+          { en: "10", es: "10", de: "10", nl: "10" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Sydney Opera House contains 7 performance venues including the Concert Hall, Opera Theatre, Drama Theatre, and others.",
+          es: "La Ópera de Sídney contiene 7 lugares de actuación, incluida la Sala de Conciertos, el Teatro de Ópera, el Teatro de Drama y otros.",
+          de: "Das Sydney Opera House enthält 7 Veranstaltungsorte, darunter den Konzertsaal, das Opernhaus, das Schauspielhaus und andere.",
+          nl: "Het Sydney Opera House bevat 7 uitvoeringsruimtes, waaronder de Concertzaal, Opera Theater, Drama Theater en anderen."
+        }
+      },
+      {
+        question: {
+          en: "What material is the roof structure primarily made of?",
+          es: "¿De qué material está hecho principalmente la estructura del techo?",
+          de: "Aus welchem Material besteht die Dachstruktur hauptsächlich?",
+          nl: "Uit welk materiaal bestaat de dakstructuur voornamelijk?"
+        },
+        options: [
+          { en: "Steel", es: "Acero", de: "Stahl", nl: "Staal" },
+          { en: "Wood", es: "Madera", de: "Holz", nl: "Hout" },
+          { en: "Precast concrete", es: "Hormigón prefabricado", de: "Vorgefertigter Beton", nl: "Geprefabriceerd beton" },
+          { en: "Glass fiber", es: "Fibra de vidrio", de: "Glasfaser", nl: "Glasvezel" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The roof shells are constructed from precast concrete ribs and segments, a revolutionary technique at the time.",
+          es: "Las conchas del techo están construidas con costillas y segmentos de hormigón prefabricado, una técnica revolucionaria en ese momento.",
+          de: "Die Dachschalen bestehen aus vorgefertigten Betonrippen und -segmenten, eine damals revolutionäre Technik.",
+          nl: "De dakschelpen zijn gemaakt van geprefabriceerde betonnen ribben en segmenten, een revolutionaire techniek in die tijd."
+        }
+      },
+      {
+        question: {
+          en: "What color scheme are the interior walls primarily decorated in?",
+          es: "¿En qué esquema de color están decoradas principalmente las paredes interiores?",
+          de: "In welchem Farbschema sind die Innenwände hauptsächlich dekoriert?",
+          nl: "In welk kleurenschema zijn de binnenmuren voornamelijk gedecoreerd?"
+        },
+        options: [
+          { en: "Blue and white", es: "Azul y blanco", de: "Blau und Weiß", nl: "Blauw en wit" },
+          { en: "Pink and red", es: "Rosa y rojo", de: "Rosa und Rot", nl: "Roze en rood" },
+          { en: "Green and yellow", es: "Verde y amarillo", de: "Grün und Gelb", nl: "Groen en geel" },
+          { en: "Black and white", es: "Negro y blanco", de: "Schwarz und Weiß", nl: "Zwart en wit" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The interior features vibrant pink and red tones in many areas, particularly in the Concert Hall with its distinctive color scheme.",
+          es: "El interior presenta tonos vibrantes de rosa y rojo en muchas áreas, particularmente en la Sala de Conciertos con su distintivo esquema de color.",
+          de: "Das Innere weist in vielen Bereichen lebhafte Rosa- und Rottöne auf, besonders im Konzertsaal mit seinem markanten Farbschema.",
+          nl: "Het interieur heeft levendige roze en rode tinten in veel gebieden, vooral in de Concertzaal met zijn kenmerkende kleurenschema."
+        }
+      },
+      {
+        question: {
+          en: "How many people work at the Sydney Opera House?",
+          es: "¿Cuántas personas trabajan en la Ópera de Sídney?",
+          de: "Wie viele Menschen arbeiten im Sydney Opera House?",
+          nl: "Hoeveel mensen werken in het Sydney Opera House?"
+        },
+        options: [
+          { en: "About 200", es: "Cerca de 200", de: "Etwa 200", nl: "Ongeveer 200" },
+          { en: "About 500", es: "Cerca de 500", de: "Etwa 500", nl: "Ongeveer 500" },
+          { en: "About 1,000", es: "Cerca de 1.000", de: "Etwa 1.000", nl: "Ongeveer 1.000" },
+          { en: "About 2,000", es: "Cerca de 2.000", de: "Etwa 2.000", nl: "Ongeveer 2.000" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Approximately 1,000 people work at the Sydney Opera House in various capacities including performers, technicians, and staff.",
+          es: "Aproximadamente 1.000 personas trabajan en la Ópera de Sídney en diversas capacidades, incluidos artistas, técnicos y personal.",
+          de: "Etwa 1.000 Menschen arbeiten im Sydney Opera House in verschiedenen Funktionen, darunter Künstler, Techniker und Personal.",
+          nl: "Ongeveer 1.000 mensen werken in het Sydney Opera House in verschillende hoedanigheden, waaronder artiesten, technici en personeel."
+        }
+      },
+      {
+        question: {
+          en: "What powered the construction fund for the Opera House?",
+          es: "¿Qué financió el fondo de construcción de la Ópera?",
+          de: "Was finanzierte den Baufonds für das Opernhaus?",
+          nl: "Wat financierde het bouwfonds voor het Opera House?"
+        },
+        options: [
+          { en: "Government taxes", es: "Impuestos gubernamentales", de: "Regierungssteuern", nl: "Overheidsbelastingen" },
+          { en: "A public lottery", es: "Una lotería pública", de: "Eine öffentliche Lotterie", nl: "Een publieke loterij" },
+          { en: "Private donations", es: "Donaciones privadas", de: "Private Spenden", nl: "Particuliere donaties" },
+          { en: "International aid", es: "Ayuda internacional", de: "Internationale Hilfe", nl: "Internationale hulp" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The construction was largely funded by a state lottery established in 1957, which helped cover the escalating costs.",
+          es: "La construcción fue financiada en gran parte por una lotería estatal establecida en 1957, que ayudó a cubrir los costos crecientes.",
+          de: "Der Bau wurde größtenteils durch eine 1957 eingerichtete staatliche Lotterie finanziert, die zur Deckung der steigenden Kosten beitrug.",
+          nl: "De bouw werd grotendeels gefinancierd door een staatsloterij opgericht in 1957, die hielp de stijgende kosten te dekken."
+        }
+      },
+      {
+        question: {
+          en: "How tall is the highest shell above sea level?",
+          es: "¿Qué altura tiene la concha más alta sobre el nivel del mar?",
+          de: "Wie hoch ist die höchste Schale über dem Meeresspiegel?",
+          nl: "Hoe hoog is de hoogste schelp boven zeeniveau?"
+        },
+        options: [
+          { en: "45 m", es: "45 metros", de: "45 Meter", nl: "45 meter" },
+          { en: "67 m", es: "67 metros", de: "67 Meter", nl: "67 meter" },
+          { en: "85 m", es: "85 metros", de: "85 Meter", nl: "85 meter" },
+          { en: "100 m", es: "100 metros", de: "100 Meter", nl: "100 meter" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The highest shell rises 67 meters (220 feet) above sea level, creating the iconic skyline profile.",
+          es: "La concha más alta se eleva 67 metros (220 pies) sobre el nivel del mar, creando el perfil icónico del horizonte.",
+          de: "Die höchste Schale erhebt sich 67 Meter (220 Fuß) über dem Meeresspiegel und schafft das ikonische Profil der Skyline.",
+          nl: "De hoogste schelp stijgt 67 meter (220 voet) boven zeeniveau, waardoor het iconische skylineprofiel ontstaat."
+        }
+      },
+      {
+        question: {
+          en: "What is the Drama Theatre seating capacity?",
+          es: "¿Cuál es la capacidad de asientos del Teatro de Drama?",
+          de: "Wie viele Sitzplätze hat das Schauspielhaus?",
+          nl: "Wat is de zitplaatscapaciteit van het Drama Theater?"
+        },
+        options: [
+          { en: "398", es: "398", de: "398", nl: "398" },
+          { en: "544", es: "544", de: "544", nl: "544" },
+          { en: "880", es: "880", de: "880", nl: "880" },
+          { en: "1,200", es: "1.200", de: "1.200", nl: "1.200" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Drama Theatre has a seating capacity of 544 and is used primarily for theater and dance performances.",
+          es: "El Teatro de Drama tiene una capacidad de 544 asientos y se utiliza principalmente para representaciones teatrales y de danza.",
+          de: "Das Schauspielhaus hat 544 Sitzplätze und wird hauptsächlich für Theater- und Tanzaufführungen genutzt.",
+          nl: "Het Drama Theater heeft 544 zitplaatsen en wordt voornamelijk gebruikt voor theater- en dansvoorstellingen."
+        }
+      },
+      {
+        question: {
+          en: "What architectural movement does the Opera House represent?",
+          es: "¿Qué movimiento arquitectónico representa la Ópera?",
+          de: "Welche architektonische Bewegung repräsentiert das Opernhaus?",
+          nl: "Welke architectonische beweging vertegenwoordigt het Opera House?"
+        },
+        options: [
+          { en: "Art Deco", es: "Art Déco", de: "Art Déco", nl: "Art Deco" },
+          { en: "Modernism", es: "Modernismo", de: "Modernismus", nl: "Modernisme" },
+          { en: "Gothic Revival", es: "Renacimiento gótico", de: "Neugotik", nl: "Neogotiek" },
+          { en: "Postmodernism", es: "Posmodernismo", de: "Postmodernismus", nl: "Postmodernisme" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Sydney Opera House is a masterpiece of Modernist architecture, known for its innovative and expressive design.",
+          es: "La Ópera de Sídney es una obra maestra de la arquitectura modernista, conocida por su diseño innovador y expresivo.",
+          de: "Das Sydney Opera House ist ein Meisterwerk der modernistischen Architektur, bekannt für sein innovatives und ausdrucksstarkes Design.",
+          nl: "Het Sydney Opera House is een meesterwerk van modernistische architectuur, bekend om zijn innovatieve en expressieve ontwerp."
+        }
+      },
+      {
+        question: {
+          en: "How many countries were represented in the design competition?",
+          es: "¿Cuántos países estuvieron representados en el concurso de diseño?",
+          de: "Wie viele Länder waren beim Designwettbewerb vertreten?",
+          nl: "Hoeveel landen waren vertegenwoordigd bij de ontwerpwedstrijd?"
+        },
+        options: [
+          { en: "18", es: "18", de: "18", nl: "18" },
+          { en: "25", es: "25", de: "25", nl: "25" },
+          { en: "32", es: "32", de: "32", nl: "32" },
+          { en: "45", es: "45", de: "45", nl: "45" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Architects from 32 countries submitted designs for the Sydney Opera House international competition in 1957.",
+          es: "Arquitectos de 32 países presentaron diseños para el concurso internacional de la Ópera de Sídney en 1957.",
+          de: "Architekten aus 32 Ländern reichten 1957 Entwürfe für den internationalen Wettbewerb des Sydney Opera House ein.",
+          nl: "Architecten uit 32 landen dienden ontwerpen in voor de internationale wedstrijd voor het Sydney Opera House in 1957."
+        }
+      },
+      {
+        question: {
+          en: "What is unique about the roof tile pattern?",
+          es: "¿Qué tiene de único el patrón de las baldosas del techo?",
+          de: "Was ist einzigartig am Dachfliesenmuster?",
+          nl: "Wat is uniek aan het daktegelpatroon?"
+        },
+        options: [
+          { en: "Straight lines", es: "Líneas rectas", de: "Gerade Linien", nl: "Rechte lijnen" },
+          { en: "Chevron pattern", es: "Patrón de chevron", de: "Chevron-Muster", nl: "Chevronpatroon" },
+          { en: "Circular pattern", es: "Patrón circular", de: "Kreismuster", nl: "Circulair patroon" },
+          { en: "Random placement", es: "Colocación aleatoria", de: "Zufällige Platzierung", nl: "Willekeurige plaatsing" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The tiles are arranged in a distinctive chevron pattern that creates visual interest and helps with water drainage.",
+          es: "Las baldosas están dispuestas en un patrón distintivo de chevron que crea interés visual y ayuda con el drenaje del agua.",
+          de: "Die Fliesen sind in einem markanten Chevron-Muster angeordnet, das visuelles Interesse schafft und beim Wasserabfluss hilft.",
+          nl: "De tegels zijn gerangschikt in een kenmerkend chevronpatroon dat visuele interesse creëert en helpt bij waterafvoer."
+        }
+      },
+      {
+        question: {
+          en: "What is the Playhouse seating capacity?",
+          es: "¿Cuál es la capacidad de asientos del Playhouse?",
+          de: "Wie viele Sitzplätze hat das Playhouse?",
+          nl: "Wat is de zitplaatscapaciteit van de Schouwburg?"
+        },
+        options: [
+          { en: "200", es: "200", de: "200", nl: "200" },
+          { en: "398", es: "398", de: "398", nl: "398" },
+          { en: "544", es: "544", de: "544", nl: "544" },
+          { en: "800", es: "800", de: "800", nl: "800" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Playhouse has 398 seats and hosts intimate drama and contemporary performances.",
+          es: "El Playhouse tiene 398 asientos y alberga representaciones dramáticas íntimas y contemporáneas.",
+          de: "Das Playhouse hat 398 Sitzplätze und beherbergt intime Drama- und zeitgenössische Aufführungen.",
+          nl: "De Schouwburg heeft 398 zitplaatsen en organiseert intieme drama- en hedendaagse voorstellingen."
+        }
+      },
+      {
+        question: {
+          en: "In which year did Utzon resign from the project?",
+          es: "¿En qué año renunció Utzon al proyecto?",
+          de: "In welchem Jahr trat Utzon vom Projekt zurück?",
+          nl: "In welk jaar trad Utzon af van het project?"
+        },
+        options: [
+          { en: "1963", es: "1963", de: "1963", nl: "1963" },
+          { en: "1966", es: "1966", de: "1966", nl: "1966" },
+          { en: "1969", es: "1969", de: "1969", nl: "1969" },
+          { en: "1971", es: "1971", de: "1971", nl: "1971" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Utzon resigned in 1966 due to conflicts with the government over budget and design decisions, never seeing his completed masterpiece.",
+          es: "Utzon renunció en 1966 debido a conflictos con el gobierno sobre presupuesto y decisiones de diseño, sin ver nunca su obra maestra completada.",
+          de: "Utzon trat 1966 aufgrund von Konflikten mit der Regierung über Budget und Designentscheidungen zurück und sah sein vollendetes Meisterwerk nie.",
+          nl: "Utzon trad in 1966 af vanwege conflicten met de overheid over budget en ontwerpbeslissingen, zonder ooit zijn voltooide meesterwerk te zien."
+        }
+      },
+      {
+        question: {
+          en: "How much area does the building cover?",
+          es: "¿Cuánta área cubre el edificio?",
+          de: "Wie viel Fläche bedeckt das Gebäude?",
+          nl: "Hoeveel oppervlakte beslaat het gebouw?"
+        },
+        options: [
+          { en: "1.2 hectares", es: "1,2 hectáreas", de: "1,2 Hektar", nl: "1,2 hectare" },
+          { en: "1.8 hectares", es: "1,8 hectáreas", de: "1,8 Hektar", nl: "1,8 hectare" },
+          { en: "2.5 hectares", es: "2,5 hectáreas", de: "2,5 Hektar", nl: "2,5 hectare" },
+          { en: "3.5 hectares", es: "3,5 hectáreas", de: "3,5 Hektar", nl: "3,5 hectare" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Sydney Opera House covers approximately 1.8 hectares (4.4 acres) of land on Bennelong Point.",
+          es: "La Ópera de Sídney cubre aproximadamente 1,8 hectáreas (4,4 acres) de terreno en Bennelong Point.",
+          de: "Das Sydney Opera House bedeckt etwa 1,8 Hektar (4,4 Acres) Land am Bennelong Point.",
+          nl: "Het Sydney Opera House beslaat ongeveer 1,8 hectare (4,4 acres) grond op Bennelong Point."
+        }
+      },
+      {
+        question: {
+          en: "What type of music does the Concert Hall primarily host?",
+          es: "¿Qué tipo de música alberga principalmente la Sala de Conciertos?",
+          de: "Welche Art von Musik wird hauptsächlich im Konzertsaal veranstaltet?",
+          nl: "Wat voor soort muziek organiseert de Concertzaal voornamelijk?"
+        },
+        options: [
+          { en: "Rock and pop", es: "Rock y pop", de: "Rock und Pop", nl: "Rock en pop" },
+          { en: "Classical and orchestral", es: "Clásica y orquestal", de: "Klassisch und orchestral", nl: "Klassiek en orkest" },
+          { en: "Jazz", es: "Jazz", de: "Jazz", nl: "Jazz" },
+          { en: "Electronic", es: "Electrónica", de: "Elektronisch", nl: "Elektronisch" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Concert Hall primarily hosts classical and orchestral music performances by the Sydney Symphony Orchestra and visiting artists.",
+          es: "La Sala de Conciertos alberga principalmente presentaciones de música clásica y orquestal del Sydney Symphony Orchestra y artistas visitantes.",
+          de: "Der Konzertsaal beherbergt hauptsächlich klassische und Orchestermusik des Sydney Symphony Orchestra und Gastkünstlern.",
+          nl: "De Concertzaal organiseert voornamelijk klassieke en orkestmuziek door het Sydney Symphony Orchestra en gastkunstenaars."
+        }
+      },
+      {
+        question: {
+          en: "How many construction workers were employed during the peak of building?",
+          es: "¿Cuántos trabajadores de construcción se emplearon durante el pico de construcción?",
+          de: "Wie viele Bauarbeiter waren während der Hochphase des Baus beschäftigt?",
+          nl: "Hoeveel bouwvakkers waren in dienst tijdens de piek van de bouw?"
+        },
+        options: [
+          { en: "About 500", es: "Cerca de 500", de: "Etwa 500", nl: "Ongeveer 500" },
+          { en: "About 1,000", es: "Cerca de 1.000", de: "Etwa 1.000", nl: "Ongeveer 1.000" },
+          { en: "About 2,500", es: "Cerca de 2.500", de: "Etwa 2.500", nl: "Ongeveer 2.500" },
+          { en: "Over 10,000", es: "Más de 10.000", de: "Über 10.000", nl: "Meer dan 10.000" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "Over 10,000 construction workers were employed during the peak of building, working in shifts to complete the complex structure.",
+          es: "Más de 10.000 trabajadores de construcción fueron empleados durante el pico de construcción, trabajando en turnos para completar la estructura compleja.",
+          de: "Während der Hochphase des Baus waren über 10.000 Bauarbeiter beschäftigt, die in Schichten arbeiteten, um die komplexe Struktur fertigzustellen.",
+          nl: "Meer dan 10.000 bouwvakkers waren in dienst tijdens de piek van de bouw, werkend in ploegen om de complexe structuur te voltooien."
+        }
+      },
+      {
+        question: {
+          en: "How many restaurants and bars are in the Opera House?",
+          es: "¿Cuántos restaurantes y bares hay en la Ópera?",
+          de: "Wie viele Restaurants und Bars gibt es im Opernhaus?",
+          nl: "Hoeveel restaurants en bars zijn er in het Opera House?"
+        },
+        options: [
+          { en: "2", es: "2", de: "2", nl: "2" },
+          { en: "5", es: "5", de: "5", nl: "5" },
+          { en: "8", es: "8", de: "8", nl: "8" },
+          { en: "12", es: "12", de: "12", nl: "12" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Sydney Opera House has 5 restaurants and bars offering dining and refreshments to visitors and audiences.",
+          es: "La Ópera de Sídney tiene 5 restaurantes y bares que ofrecen comida y bebidas a visitantes y audiencias.",
+          de: "Das Sydney Opera House verfügt über 5 Restaurants und Bars, die Besuchern und Publikum Speisen und Erfrischungen anbieten.",
+          nl: "Het Sydney Opera House heeft 5 restaurants en bars die maaltijden en versnaperingen aanbieden aan bezoekers en publiek."
+        }
       }
     ]
   };

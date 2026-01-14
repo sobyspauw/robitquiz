@@ -427,6 +427,426 @@
           de: "Standardisierung (z-score) zentriert Daten um Mittelwert mit Einheitsvarianz. Min-Max-Normalisierung skaliert auf [0,1] Bereich. Robuste Skalierung verwendet Median und Interquartilsbereich, macht es weniger empfindlich für Ausreißer. Wahl hängt von Datenverteilung und Algorithmusanforderungen ab.",
           nl: "Standaardisatie (z-score) centreert data rond gemiddelde met eenheidsvariantie. Min-max normalisatie schaalt naar [0,1] bereik. Robuuste schaling gebruikt mediaan en interkwartielafstand, maakt het minder gevoelig voor uitbijters. Keuze hangt af van dataverdeling en algoritmevereisten."
         }
+      },
+      {
+        question: {
+          en: "What is autoencoder and how is it used for dimensionality reduction?",
+          es: "¿Qué es autoencoder y cómo se usa para reducción de dimensionalidad?",
+          de: "Was ist ein Autoencoder und wie wird er für Dimensionalitätsreduktion verwendet?",
+          nl: "Wat is een autoencoder en hoe wordt het gebruikt voor dimensionaliteitsreductie?"
+        },
+        options: [
+          { en: "Neural network that learns compressed representation by encoding input to lower dimension then reconstructing it", es: "Red neuronal que aprende representación comprimida codificando entrada a menor dimensión luego reconstruyéndola", de: "Neuronales Netzwerk das komprimierte Repräsentation lernt durch Kodierung der Eingabe zu niedrigerer Dimension dann Rekonstruktion", nl: "Neuraal netwerk dat gecomprimeerde representatie leert door input te coderen naar lagere dimensie en dan te reconstrueren" },
+          { en: "Automatic feature encoder for categorical variables", es: "Codificador automático de características para variables categóricas", de: "Automatischer Feature-Encoder für kategoriale Variablen", nl: "Automatische feature encoder voor categorische variabelen" },
+          { en: "Self-learning algorithm that encodes data patterns", es: "Algoritmo auto-aprendiz que codifica patrones de datos", de: "Selbstlernender Algorithmus der Datenmuster kodiert", nl: "Zelf-lerend algoritme dat datapatronen codeert" },
+          { en: "Linear transformation technique like PCA", es: "Técnica de transformación lineal como PCA", de: "Lineare Transformationstechnik wie PCA", nl: "Lineaire transformatietechniek zoals PCA" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Autoencoders are neural networks with a bottleneck layer forcing compression. The encoder maps input to lower-dimensional latent space, decoder reconstructs from this. By minimizing reconstruction error, it learns meaningful compressed representations, capturing non-linear patterns unlike PCA.",
+          es: "Autoencoders son redes neuronales con capa de cuello de botella forzando compresión. El codificador mapea entrada a espacio latente de menor dimensión, decodificador reconstruye de esto. Minimizando error de reconstrucción, aprende representaciones comprimidas significativas, capturando patrones no lineales a diferencia de PCA.",
+          de: "Autoencoder sind neuronale Netzwerke mit Flaschenhals-Schicht die Kompression erzwingt. Der Encoder bildet Eingabe auf niedrigerdimensionalen latenten Raum ab, Decoder rekonstruiert davon. Durch Minimierung des Rekonstruktionsfehlers lernt es bedeutungsvolle komprimierte Repräsentationen, erfasst nichtlineare Muster im Gegensatz zu PCA.",
+          nl: "Autoencoders zijn neurale netwerken met een bottleneck laag die compressie afdwingt. De encoder mapt input naar lagerdimensionale latente ruimte, decoder reconstrueert hiervan. Door reconstructiefout te minimaliseren leert het betekenisvolle gecomprimeerde representaties, legt niet-lineaire patronen vast in tegenstelling tot PCA."
+        }
+      },
+      {
+        question: {
+          en: "What is the bias-variance decomposition of prediction error?",
+          es: "¿Qué es la descomposición sesgo-varianza del error de predicción?",
+          de: "Was ist die Bias-Varianz-Zerlegung des Vorhersagefehlers?",
+          nl: "Wat is de bias-variance decompositie van voorspellingsfout?"
+        },
+        options: [
+          { en: "Error = Bias² + Variance + Irreducible Error, showing tradeoff between model simplicity and flexibility", es: "Error = Sesgo² + Varianza + Error Irreducible, mostrando tradeoff entre simplicidad y flexibilidad del modelo", de: "Fehler = Bias² + Varianz + Irreduzibler Fehler, zeigt Tradeoff zwischen Modellsimplizität und Flexibilität", nl: "Fout = Bias² + Variantie + Onvermijdbare Fout, toont tradeoff tussen modelsimpliciteit en flexibiliteit" },
+          { en: "Splitting error into training and testing components", es: "Dividir error en componentes de entrenamiento y prueba", de: "Aufteilung des Fehlers in Training- und Testkomponenten", nl: "Splitsen van fout in trainings- en testcomponenten" },
+          { en: "Measuring bias and variance separately in datasets", es: "Medir sesgo y varianza separadamente en conjuntos de datos", de: "Bias und Varianz separat in Datensätzen messen", nl: "Bias en variantie afzonderlijk meten in datasets" },
+          { en: "Decomposing model into biased and variant parts", es: "Descomponer modelo en partes sesgadas y variantes", de: "Modell in voreingenommene und variante Teile zerlegen", nl: "Model ontleden in bevooroordeelde en variante delen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Expected prediction error decomposes into three components: squared bias (error from wrong assumptions), variance (error from sensitivity to training data), and irreducible error (noise). This formalization explains why we need to balance model complexity.",
+          es: "Error de predicción esperado se descompone en tres componentes: sesgo al cuadrado (error de suposiciones incorrectas), varianza (error de sensibilidad a datos de entrenamiento), y error irreducible (ruido). Esta formalización explica por qué necesitamos equilibrar complejidad del modelo.",
+          de: "Erwarteter Vorhersagefehler zerlegt sich in drei Komponenten: quadratischer Bias (Fehler aus falschen Annahmen), Varianz (Fehler aus Empfindlichkeit gegenüber Trainingsdaten), und irreduzibler Fehler (Rauschen). Diese Formalisierung erklärt warum wir Modellkomplexität ausbalancieren müssen.",
+          nl: "Verwachte voorspellingsfout ontleedt in drie componenten: gekwadrateerde bias (fout van verkeerde aannames), variantie (fout van gevoeligheid voor trainingsdata), en onvermijdbare fout (ruis). Deze formalisering verklaart waarom we modelcomplexiteit moeten balanceren."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between parametric and non-parametric models?",
+          es: "¿Cuál es la diferencia entre modelos paramétricos y no paramétricos?",
+          de: "Was ist der Unterschied zwischen parametrischen und nicht-parametrischen Modellen?",
+          nl: "Wat is het verschil tussen parametrische en niet-parametrische modellen?"
+        },
+        options: [
+          { en: "Parametric assumes fixed parameter count, non-parametric parameters grow with data size", es: "Paramétrico asume conteo de parámetros fijo, no paramétrico parámetros crecen con tamaño de datos", de: "Parametrisch nimmt feste Parameteranzahl an, nicht-parametrisch Parameter wachsen mit Datengröße", nl: "Parametrisch veronderstelt vast aantal parameters, niet-parametrisch parameters groeien met datagrootte" },
+          { en: "Parametric uses parameters, non-parametric doesn't use any parameters", es: "Paramétrico usa parámetros, no paramétrico no usa parámetros", de: "Parametrisch verwendet Parameter, nicht-parametrisch verwendet keine Parameter", nl: "Parametrisch gebruikt parameters, niet-parametrisch gebruikt geen parameters" },
+          { en: "Non-parametric models are always more accurate", es: "Modelos no paramétricos siempre son más precisos", de: "Nicht-parametrische Modelle sind immer genauer", nl: "Niet-parametrische modellen zijn altijd nauwkeuriger" },
+          { en: "Parametric models require more data to train", es: "Modelos paramétricos requieren más datos para entrenar", de: "Parametrische Modelle benötigen mehr Daten zum Trainieren", nl: "Parametrische modellen vereisen meer data om te trainen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Parametric models (linear regression, logistic regression) have fixed parameters regardless of data size, making strong assumptions about data distribution. Non-parametric models (KNN, decision trees) have flexibility that grows with data, making fewer assumptions but requiring more data and computation.",
+          es: "Modelos paramétricos (regresión lineal, regresión logística) tienen parámetros fijos independientemente del tamaño de datos, haciendo suposiciones fuertes sobre distribución de datos. Modelos no paramétricos (KNN, árboles de decisión) tienen flexibilidad que crece con datos, haciendo menos suposiciones pero requiriendo más datos y computación.",
+          de: "Parametrische Modelle (lineare Regression, logistische Regression) haben feste Parameter unabhängig von Datengröße, machen starke Annahmen über Datenverteilung. Nicht-parametrische Modelle (KNN, Entscheidungsbäume) haben Flexibilität die mit Daten wächst, machen weniger Annahmen aber benötigen mehr Daten und Berechnung.",
+          nl: "Parametrische modellen (lineaire regressie, logistische regressie) hebben vaste parameters ongeacht datagrootte, maken sterke aannames over dataverdeling. Niet-parametrische modellen (KNN, beslisbomen) hebben flexibiliteit die groeit met data, maken minder aannames maar vereisen meer data en berekening."
+        }
+      },
+      {
+        question: {
+          en: "What is heteroscedasticity and why is it problematic in regression?",
+          es: "¿Qué es heteroscedasticidad y por qué es problemática en regresión?",
+          de: "Was ist Heteroskedastizität und warum ist sie in der Regression problematisch?",
+          nl: "Wat is heteroscedasticiteit en waarom is het problematisch in regressie?"
+        },
+        options: [
+          { en: "Non-constant variance of errors across predictions, violates assumptions and affects inference", es: "Varianza no constante de errores a través de predicciones, viola suposiciones y afecta inferencia", de: "Nicht-konstante Varianz von Fehlern über Vorhersagen, verletzt Annahmen und beeinflusst Inferenz", nl: "Niet-constante variantie van fouten over voorspellingen, schendt aannames en beïnvloedt inferentie" },
+          { en: "Different feature scales causing computation issues", es: "Diferentes escalas de características causando problemas de computación", de: "Verschiedene Feature-Skalen verursachen Berechnungsprobleme", nl: "Verschillende feature schalen veroorzaken berekeningsproblemen" },
+          { en: "Presence of outliers in the dataset", es: "Presencia de valores atípicos en el conjunto de datos", de: "Vorhandensein von Ausreißern im Datensatz", nl: "Aanwezigheid van uitbijters in de dataset" },
+          { en: "Correlation between predictor variables", es: "Correlación entre variables predictoras", de: "Korrelation zwischen Prädiktorvariablen", nl: "Correlatie tussen predictorvariabelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Heteroscedasticity means error variance changes with predictor values (e.g., errors larger for high predictions). This violates ordinary least squares assumptions, making standard errors and confidence intervals unreliable. Solutions include weighted least squares or robust standard errors.",
+          es: "Heteroscedasticidad significa que varianza de error cambia con valores predictores (ej., errores más grandes para predicciones altas). Esto viola suposiciones de mínimos cuadrados ordinarios, haciendo errores estándar e intervalos de confianza no confiables. Soluciones incluyen mínimos cuadrados ponderados o errores estándar robustos.",
+          de: "Heteroskedastizität bedeutet Fehlervarianz ändert sich mit Prädiktorwerten (z.B. Fehler größer für hohe Vorhersagen). Dies verletzt gewöhnliche Kleinste-Quadrate-Annahmen, macht Standardfehler und Konfidenzintervalle unzuverlässig. Lösungen beinhalten gewichtete kleinste Quadrate oder robuste Standardfehler.",
+          nl: "Heteroscedasticiteit betekent foutvariantie verandert met predictorwaarden (bijv. fouten groter voor hoge voorspellingen). Dit schendt ordinary least squares aannames, maakt standaardfouten en betrouwbaarheidsintervallen onbetrouwbaar. Oplossingen omvatten gewogen kleinste kwadraten of robuuste standaardfouten."
+        }
+      },
+      {
+        question: {
+          en: "What is multicollinearity and how does it affect regression models?",
+          es: "¿Qué es multicolinealidad y cómo afecta a modelos de regresión?",
+          de: "Was ist Multikollinearität und wie beeinflusst sie Regressionsmodelle?",
+          nl: "Wat is multicollineariteit en hoe beïnvloedt het regressiemodellen?"
+        },
+        options: [
+          { en: "High correlation between predictors causing unstable coefficient estimates and inflated standard errors", es: "Alta correlación entre predictores causando estimaciones de coeficientes inestables y errores estándar inflados", de: "Hohe Korrelation zwischen Prädiktoren verursacht instabile Koeffizientenschätzungen und aufgeblasene Standardfehler", nl: "Hoge correlatie tussen predictors veroorzaakt instabiele coëfficiënt schattingen en opgeblazen standaardfouten" },
+          { en: "Multiple output variables in regression", es: "Múltiples variables de salida en regresión", de: "Mehrere Ausgabevariablen in Regression", nl: "Meerdere output variabelen in regressie" },
+          { en: "Non-linear relationships between variables", es: "Relaciones no lineales entre variables", de: "Nichtlineare Beziehungen zwischen Variablen", nl: "Niet-lineaire relaties tussen variabelen" },
+          { en: "Different scales of predictor variables", es: "Diferentes escalas de variables predictoras", de: "Verschiedene Skalen von Prädiktorvariablen", nl: "Verschillende schalen van predictorvariabelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Multicollinearity occurs when predictors are highly correlated, making it difficult to determine individual variable effects. Symptoms include large coefficient changes with small data changes, high VIF (Variance Inflation Factor). Solutions: remove correlated features, use regularization (Ridge), or PCA.",
+          es: "Multicolinealidad ocurre cuando predictores están altamente correlacionados, dificultando determinar efectos de variables individuales. Síntomas incluyen grandes cambios de coeficientes con pequeños cambios de datos, alto VIF (Factor de Inflación de Varianza). Soluciones: eliminar características correlacionadas, usar regularización (Ridge), o PCA.",
+          de: "Multikollinearität tritt auf wenn Prädiktoren stark korreliert sind, erschwert Bestimmung individueller Variableneffekte. Symptome beinhalten große Koeffizientenänderungen bei kleinen Datenänderungen, hoher VIF (Variance Inflation Factor). Lösungen: korrelierte Features entfernen, Regularisierung (Ridge) verwenden, oder PCA.",
+          nl: "Multicollineariteit treedt op wanneer predictors sterk gecorreleerd zijn, maakt het moeilijk individuele variabele effecten te bepalen. Symptomen omvatten grote coëfficiënt veranderingen bij kleine data veranderingen, hoge VIF (Variance Inflation Factor). Oplossingen: verwijder gecorreleerde features, gebruik regularisatie (Ridge), of PCA."
+        }
+      },
+      {
+        question: {
+          en: "What is cross-entropy loss and when is it preferred over MSE?",
+          es: "¿Qué es pérdida de entropía cruzada y cuándo se prefiere sobre MSE?",
+          de: "Was ist Cross-Entropy Loss und wann wird es MSE vorgezogen?",
+          nl: "Wat is cross-entropy loss en wanneer heeft het voorkeur boven MSE?"
+        },
+        options: [
+          { en: "Logarithmic loss measuring probability distribution difference, better for classification than MSE", es: "Pérdida logarítmica midiendo diferencia de distribución de probabilidad, mejor para clasificación que MSE", de: "Logarithmischer Verlust misst Wahrscheinlichkeitsverteilungsunterschied, besser für Klassifikation als MSE", nl: "Logaritmisch verlies meet kansverdelingsverschil, beter voor classificatie dan MSE" },
+          { en: "Loss function combining multiple entropy measures", es: "Función de pérdida combinando múltiples medidas de entropía", de: "Verlustfunktion kombiniert mehrere Entropie-Maße", nl: "Verliesfunctie combineert meerdere entropie metingen" },
+          { en: "Cross-validation metric for model selection", es: "Métrica de validación cruzada para selección de modelo", de: "Kreuzvalidierungsmetrik für Modellauswahl", nl: "Cross-validatie metriek voor modelselectie" },
+          { en: "Error measurement across different datasets", es: "Medición de error a través de diferentes conjuntos de datos", de: "Fehlermessung über verschiedene Datensätze", nl: "Foutmeting over verschillende datasets" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cross-entropy loss measures divergence between predicted and true probability distributions: -Σ(y*log(ŷ)). For classification, it penalizes confident wrong predictions more than MSE, provides better gradients, and aligns with maximum likelihood principle. MSE can cause saturated gradients in classification.",
+          es: "Pérdida de entropía cruzada mide divergencia entre distribuciones de probabilidad predichas y verdaderas: -Σ(y*log(ŷ)). Para clasificación, penaliza predicciones incorrectas confiadas más que MSE, proporciona mejores gradientes, y se alinea con principio de máxima verosimilitud. MSE puede causar gradientes saturados en clasificación.",
+          de: "Cross-Entropy Loss misst Divergenz zwischen vorhergesagten und wahren Wahrscheinlichkeitsverteilungen: -Σ(y*log(ŷ)). Für Klassifikation bestraft es zuversichtliche falsche Vorhersagen mehr als MSE, liefert bessere Gradienten, und stimmt mit Maximum-Likelihood-Prinzip überein. MSE kann gesättigte Gradienten in Klassifikation verursachen.",
+          nl: "Cross-entropy loss meet divergentie tussen voorspelde en ware kansverdelingen: -Σ(y*log(ŷ)). Voor classificatie straft het zelfverzekerde verkeerde voorspellingen harder dan MSE, biedt betere gradiënten, en stemt overeen met maximum likelihood principe. MSE kan verzadigde gradiënten veroorzaken in classificatie."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between L1 and L2 regularization in terms of their geometric interpretation?",
+          es: "¿Cuál es la diferencia entre regularización L1 y L2 en términos de su interpretación geométrica?",
+          de: "Was ist der Unterschied zwischen L1- und L2-Regularisierung hinsichtlich ihrer geometrischen Interpretation?",
+          nl: "Wat is het verschil tussen L1 en L2 regularisatie in termen van hun geometrische interpretatie?"
+        },
+        options: [
+          { en: "L1 constraint is diamond-shaped promoting sparsity, L2 is circular promoting small weights", es: "Restricción L1 es en forma de diamante promoviendo dispersión, L2 es circular promoviendo pesos pequeños", de: "L1-Beschränkung ist rautenförmig fördert Sparsität, L2 ist kreisförmig fördert kleine Gewichte", nl: "L1 beperking is ruitvormig bevordert sparsity, L2 is cirkelvormig bevordert kleine gewichten" },
+          { en: "L1 produces faster convergence than L2", es: "L1 produce convergencia más rápida que L2", de: "L1 erzeugt schnellere Konvergenz als L2", nl: "L1 produceert snellere convergentie dan L2" },
+          { en: "L2 always performs better than L1", es: "L2 siempre funciona mejor que L1", de: "L2 funktioniert immer besser als L1", nl: "L2 presteert altijd beter dan L1" },
+          { en: "L1 works only with linear models", es: "L1 funciona solo con modelos lineales", de: "L1 funktioniert nur mit linearen Modellen", nl: "L1 werkt alleen met lineaire modellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In weight space, L1 penalty (|w|) creates a diamond-shaped constraint region with sharp corners at axes, where optimal solution often lies, zeroing some weights (sparsity). L2 penalty (w²) creates circular region, optimal solution rarely on axes, shrinks all weights smoothly.",
+          es: "En espacio de pesos, penalización L1 (|w|) crea región de restricción en forma de diamante con esquinas agudas en ejes, donde solución óptima a menudo yace, haciendo cero algunos pesos (dispersión). Penalización L2 (w²) crea región circular, solución óptima raramente en ejes, encoge todos los pesos suavemente.",
+          de: "Im Gewichtsraum erzeugt L1-Strafe (|w|) eine rautenförmige Beschränkungsregion mit scharfen Ecken an Achsen, wo optimale Lösung oft liegt, macht einige Gewichte null (Sparsität). L2-Strafe (w²) erzeugt kreisförmige Region, optimale Lösung selten auf Achsen, schrumpft alle Gewichte glatt.",
+          nl: "In gewichtsruimte creëert L1 penalty (|w|) een ruitvormig beperkingsgebied met scherpe hoeken op assen, waar optimale oplossing vaak ligt, maakt sommige gewichten nul (sparsity). L2 penalty (w²) creëert cirkelvormig gebied, optimale oplossing zelden op assen, krimpt alle gewichten glad."
+        }
+      },
+      {
+        question: {
+          en: "What is bootstrapping and how is it used in machine learning?",
+          es: "¿Qué es bootstrapping y cómo se usa en machine learning?",
+          de: "Was ist Bootstrapping und wie wird es im maschinellen Lernen verwendet?",
+          nl: "Wat is bootstrapping en hoe wordt het gebruikt in machine learning?"
+        },
+        options: [
+          { en: "Resampling with replacement to estimate sampling distributions and uncertainty", es: "Remuestreo con reemplazo para estimar distribuciones de muestreo e incertidumbre", de: "Resampling mit Ersetzung um Stichprobenverteilungen und Unsicherheit zu schätzen", nl: "Hersampling met vervanging om steekproefverdelingen en onzekerheid te schatten" },
+          { en: "Initial data loading process for model training", es: "Proceso inicial de carga de datos para entrenamiento de modelo", de: "Initialer Datenladeprozess für Modelltraining", nl: "Initieel data laadproces voor modeltraining" },
+          { en: "Method for starting neural networks from scratch", es: "Método para iniciar redes neuronales desde cero", de: "Methode zum Starten neuronaler Netzwerke von Grund auf", nl: "Methode voor het starten van neurale netwerken vanaf nul" },
+          { en: "Technique for cleaning and preprocessing data", es: "Técnica para limpiar y preprocesar datos", de: "Technik zum Reinigen und Vorverarbeiten von Daten", nl: "Techniek voor het schonen en voorverwerken van data" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bootstrapping creates multiple datasets by randomly sampling original data with replacement, each same size as original. Used to estimate confidence intervals, construct bagging ensembles (Random Forest), and assess model stability. Each bootstrap sample typically contains ~63.2% unique original samples.",
+          es: "Bootstrapping crea múltiples conjuntos de datos muestreando aleatoriamente datos originales con reemplazo, cada uno del mismo tamaño que original. Usado para estimar intervalos de confianza, construir ensembles bagging (Random Forest), y evaluar estabilidad del modelo. Cada muestra bootstrap típicamente contiene ~63.2% muestras originales únicas.",
+          de: "Bootstrapping erstellt mehrere Datensätze durch zufälliges Sampling originaler Daten mit Ersetzung, jeder gleiche Größe wie Original. Verwendet um Konfidenzintervalle zu schätzen, Bagging-Ensembles zu konstruieren (Random Forest), und Modellstabilität zu bewerten. Jede Bootstrap-Stichprobe enthält typisch ~63.2% einzigartige Originalstichproben.",
+          nl: "Bootstrapping creëert meerdere datasets door willekeurig originele data te samplen met vervanging, elk dezelfde grootte als origineel. Gebruikt om betrouwbaarheidsintervallen te schatten, bagging ensembles te construeren (Random Forest), en modelstabiliteit te beoordelen. Elke bootstrap sample bevat typisch ~63.2% unieke originele samples."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of stratified sampling in machine learning?",
+          es: "¿Cuál es el propósito del muestreo estratificado en machine learning?",
+          de: "Was ist der Zweck von stratifiziertem Sampling im maschinellen Lernen?",
+          nl: "Wat is het doel van gestratificeerde sampling in machine learning?"
+        },
+        options: [
+          { en: "Maintain class proportions when splitting data to ensure representative train/test sets", es: "Mantener proporciones de clase al dividir datos para asegurar conjuntos de entrenamiento/prueba representativos", de: "Klassenverhältnisse beim Aufteilen von Daten beibehalten um repräsentative Train/Test-Sets sicherzustellen", nl: "Klasseverhoudingen behouden bij splitsen van data om representatieve train/test sets te verzekeren" },
+          { en: "Group similar samples together for efficient training", es: "Agrupar muestras similares juntas para entrenamiento eficiente", de: "Ähnliche Stichproben für effizientes Training gruppieren", nl: "Vergelijkbare samples groeperen voor efficiënte training" },
+          { en: "Sample data from different layers of hierarchy", es: "Muestrear datos de diferentes capas de jerarquía", de: "Daten aus verschiedenen Hierarchieebenen sampeln", nl: "Data samplen van verschillende hiërarchie lagen" },
+          { en: "Reduce computational cost by sampling fewer examples", es: "Reducir costo computacional muestreando menos ejemplos", de: "Rechenkosten durch Sampling weniger Beispiele reduzieren", nl: "Computationele kosten reduceren door minder voorbeelden te samplen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Stratified sampling preserves the percentage of samples for each class when creating train/test splits, crucial for imbalanced datasets. Without stratification, random splits might under-represent minority classes in training or test sets, leading to biased evaluation and poor generalization.",
+          es: "Muestreo estratificado preserva el porcentaje de muestras para cada clase al crear divisiones entrenamiento/prueba, crucial para conjuntos de datos desbalanceados. Sin estratificación, divisiones aleatorias podrían sub-representar clases minoritarias en conjuntos de entrenamiento o prueba, llevando a evaluación sesgada y pobre generalización.",
+          de: "Stratifiziertes Sampling bewahrt den Prozentsatz der Stichproben für jede Klasse beim Erstellen von Train/Test-Splits, entscheidend für unausgeglichene Datensätze. Ohne Stratifizierung könnten zufällige Splits Minderheitsklassen in Training- oder Testsets unterrepräsentieren, führt zu voreingenommener Evaluation und schlechter Generalisierung.",
+          nl: "Gestratificeerde sampling behoudt het percentage samples voor elke klasse bij het creëren van train/test splits, cruciaal voor ongebalanceerde datasets. Zonder stratificatie kunnen willekeurige splits minderheidsklassen ondervertegenwoordigen in trainings- of testsets, leidt tot bevooroordeelde evaluatie en slechte generalisatie."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between correlation and causation in statistical analysis?",
+          es: "¿Cuál es la diferencia entre correlación y causación en análisis estadístico?",
+          de: "Was ist der Unterschied zwischen Korrelation und Kausalität in statistischer Analyse?",
+          nl: "Wat is het verschil tussen correlatie en causatie in statistische analyse?"
+        },
+        options: [
+          { en: "Correlation shows variables move together, causation shows one variable directly affects another", es: "Correlación muestra que variables se mueven juntas, causación muestra que una variable afecta directamente a otra", de: "Korrelation zeigt dass Variablen sich zusammen bewegen, Kausalität zeigt dass eine Variable eine andere direkt beeinflusst", nl: "Correlatie toont dat variabelen samen bewegen, causatie toont dat één variabele een andere direct beïnvloedt" },
+          { en: "Correlation is stronger than causation", es: "Correlación es más fuerte que causación", de: "Korrelation ist stärker als Kausalität", nl: "Correlatie is sterker dan causatie" },
+          { en: "Causation is easier to prove than correlation", es: "Causación es más fácil de probar que correlación", de: "Kausalität ist einfacher zu beweisen als Korrelation", nl: "Causatie is makkelijker te bewijzen dan correlatie" },
+          { en: "They are the same concept in machine learning", es: "Son el mismo concepto en machine learning", de: "Sie sind dasselbe Konzept im maschinellen Lernen", nl: "Het zijn hetzelfde concept in machine learning" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Correlation measures statistical association between variables but doesn't imply causation. Spurious correlations exist (ice cream sales and drowning both correlate with summer). Establishing causation requires controlled experiments, temporal precedence, and ruling out confounding variables. ML models typically find correlations, not causal relationships.",
+          es: "Correlación mide asociación estadística entre variables pero no implica causación. Existen correlaciones espurias (ventas de helado y ahogamiento ambos correlacionan con verano). Establecer causación requiere experimentos controlados, precedencia temporal, y descartar variables confusoras. Modelos ML típicamente encuentran correlaciones, no relaciones causales.",
+          de: "Korrelation misst statistische Assoziation zwischen Variablen impliziert aber keine Kausalität. Scheinkorrelationen existieren (Eisverkauf und Ertrinken korrelieren beide mit Sommer). Kausalität etablieren erfordert kontrollierte Experimente, zeitliche Präzedenz, und Ausschluss von Störvariablen. ML-Modelle finden typisch Korrelationen, keine kausalen Beziehungen.",
+          nl: "Correlatie meet statistische associatie tussen variabelen maar impliceert geen causatie. Valse correlaties bestaan (ijsverkoop en verdrinking correleren beide met zomer). Causatie vaststellen vereist gecontroleerde experimenten, temporele voorrang, en uitsluiten van verstorende variabelen. ML modellen vinden typisch correlaties, geen causale relaties."
+        }
+      },
+      {
+        question: {
+          en: "What is feature engineering and why is it important?",
+          es: "¿Qué es ingeniería de características y por qué es importante?",
+          de: "Was ist Feature Engineering und warum ist es wichtig?",
+          nl: "Wat is feature engineering en waarom is het belangrijk?"
+        },
+        options: [
+          { en: "Creating new features from raw data to improve model performance through domain knowledge", es: "Crear nuevas características de datos crudos para mejorar rendimiento del modelo mediante conocimiento del dominio", de: "Neue Features aus Rohdaten erstellen um Modellleistung durch Domänenwissen zu verbessern", nl: "Nieuwe features creëren van ruwe data om modelprestaties te verbeteren door domeinkennis" },
+          { en: "Automatically selecting best features from dataset", es: "Seleccionar automáticamente mejores características del conjunto de datos", de: "Automatisch beste Features aus Datensatz auswählen", nl: "Automatisch beste features selecteren uit dataset" },
+          { en: "Engineering hardware for feature extraction", es: "Ingeniar hardware para extracción de características", de: "Hardware für Feature-Extraktion entwickeln", nl: "Hardware engineeren voor feature extractie" },
+          { en: "Standardizing feature scales for training", es: "Estandarizar escalas de características para entrenamiento", de: "Feature-Skalen für Training standardisieren", nl: "Feature schalen standaardiseren voor training" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Feature engineering transforms raw data into features that better represent patterns for algorithms. Examples: creating polynomial features, extracting date components (day/month/year), aggregating statistics, binning continuous variables. Often more impactful than algorithm choice. Deep learning reduces manual feature engineering through representation learning.",
+          es: "Ingeniería de características transforma datos crudos en características que mejor representan patrones para algoritmos. Ejemplos: crear características polinomiales, extraer componentes de fecha (día/mes/año), agregar estadísticas, agrupar variables continuas. A menudo más impactante que elección de algoritmo. Deep learning reduce ingeniería manual de características mediante aprendizaje de representación.",
+          de: "Feature Engineering transformiert Rohdaten in Features die Muster besser für Algorithmen repräsentieren. Beispiele: polynomiale Features erstellen, Datumskomponenten extrahieren (Tag/Monat/Jahr), Statistiken aggregieren, kontinuierliche Variablen binnen. Oft wirkungsvoller als Algorithmuswahl. Deep Learning reduziert manuelles Feature Engineering durch Repräsentationslernen.",
+          nl: "Feature engineering transformeert ruwe data naar features die patronen beter vertegenwoordigen voor algoritmes. Voorbeelden: polynomiale features creëren, datum componenten extraheren (dag/maand/jaar), statistieken aggregeren, continue variabelen binnen. Vaak impactvoller dan algoritme keuze. Deep learning vermindert handmatige feature engineering door representatie leren."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of log transformation in feature preprocessing?",
+          es: "¿Cuál es el propósito de la transformación logarítmica en preprocesamiento de características?",
+          de: "Was ist der Zweck der logarithmischen Transformation in Feature-Vorverarbeitung?",
+          nl: "Wat is het doel van log transformatie in feature voorverwerking?"
+        },
+        options: [
+          { en: "Handle skewed distributions and reduce impact of outliers by compressing large values", es: "Manejar distribuciones sesgadas y reducir impacto de valores atípicos comprimiendo valores grandes", de: "Schiefe Verteilungen behandeln und Auswirkung von Ausreißern reduzieren durch Kompression großer Werte", nl: "Scheefverdelingen behandelen en impact van uitbijters reduceren door grote waarden te comprimeren" },
+          { en: "Increase computational speed of algorithms", es: "Aumentar velocidad computacional de algoritmos", de: "Rechengeschwindigkeit von Algorithmen erhöhen", nl: "Computationele snelheid van algoritmes verhogen" },
+          { en: "Convert categorical features to numerical", es: "Convertir características categóricas a numéricas", de: "Kategoriale Features in numerische umwandeln", nl: "Categorische features converteren naar numeriek" },
+          { en: "Normalize features to standard scale", es: "Normalizar características a escala estándar", de: "Features auf Standardskala normalisieren", nl: "Features normaliseren naar standaardschaal" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Log transformation (log(x) or log(1+x)) is useful for right-skewed data with exponential growth patterns. It compresses large values more than small ones, reducing outlier impact, making distributions more normal, and stabilizing variance. Common for income, population, web traffic data.",
+          es: "Transformación logarítmica (log(x) o log(1+x)) es útil para datos sesgados a la derecha con patrones de crecimiento exponencial. Comprime valores grandes más que pequeños, reduciendo impacto de valores atípicos, haciendo distribuciones más normales, y estabilizando varianza. Común para ingresos, población, datos de tráfico web.",
+          de: "Logarithmische Transformation (log(x) oder log(1+x)) ist nützlich für rechtsschief verteilte Daten mit exponentiellen Wachstumsmustern. Es komprimiert große Werte mehr als kleine, reduziert Ausreißerauswirkung, macht Verteilungen normaler, und stabilisiert Varianz. Üblich für Einkommens-, Bevölkerungs-, Webverkehrsdaten.",
+          nl: "Log transformatie (log(x) of log(1+x)) is nuttig voor rechts-scheef verdeelde data met exponentiële groeipatronen. Het comprimeert grote waarden meer dan kleine, vermindert uitbijter impact, maakt verdelingen normaler, en stabiliseert variantie. Gebruikelijk voor inkomens-, bevolkings-, webverkeer data."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between missing at random (MAR) and missing completely at random (MCAR)?",
+          es: "¿Cuál es la diferencia entre faltante al azar (MAR) y faltante completamente al azar (MCAR)?",
+          de: "Was ist der Unterschied zwischen Missing at Random (MAR) und Missing Completely at Random (MCAR)?",
+          nl: "Wat is het verschil tussen missing at random (MAR) en missing completely at random (MCAR)?"
+        },
+        options: [
+          { en: "MCAR missingness unrelated to any data, MAR missingness related to observed but not missing data", es: "Ausencia MCAR no relacionada con ningún dato, ausencia MAR relacionada con datos observados pero no datos faltantes", de: "MCAR-Fehlwerte nicht mit Daten verbunden, MAR-Fehlwerte mit beobachteten aber nicht fehlenden Daten verbunden", nl: "MCAR missingness ongerelateerd aan data, MAR missingness gerelateerd aan geobserveerde maar niet missende data" },
+          { en: "MAR is more common than MCAR in practice", es: "MAR es más común que MCAR en práctica", de: "MAR ist in der Praxis häufiger als MCAR", nl: "MAR is gebruikelijker dan MCAR in praktijk" },
+          { en: "MCAR requires imputation while MAR doesn't", es: "MCAR requiere imputación mientras MAR no", de: "MCAR benötigt Imputation während MAR nicht", nl: "MCAR vereist imputatie terwijl MAR dat niet doet" },
+          { en: "They are the same type of missingness", es: "Son el mismo tipo de ausencia", de: "Sie sind derselbe Typ von Fehlwerten", nl: "Het zijn hetzelfde type missingness" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "MCAR means missingness probability is same for all cases (completely random). MAR means missingness depends on observed variables but not the missing values themselves (e.g., men less likely to report weight, but missingness doesn't depend on actual weight). MNAR (Missing Not at Random) means missingness depends on the missing values.",
+          es: "MCAR significa que probabilidad de ausencia es igual para todos casos (completamente aleatorio). MAR significa que ausencia depende de variables observadas pero no de valores faltantes mismos (ej., hombres menos propensos a reportar peso, pero ausencia no depende de peso real). MNAR (Missing Not at Random) significa que ausencia depende de valores faltantes.",
+          de: "MCAR bedeutet Fehlwahrscheinlichkeit ist gleich für alle Fälle (vollständig zufällig). MAR bedeutet Fehlwerte hängen von beobachteten Variablen ab aber nicht von den fehlenden Werten selbst (z.B. Männer berichten Gewicht weniger wahrscheinlich, aber Fehlwerte hängen nicht von tatsächlichem Gewicht ab). MNAR (Missing Not at Random) bedeutet Fehlwerte hängen von fehlenden Werten ab.",
+          nl: "MCAR betekent missingness kans is gelijk voor alle gevallen (volledig willekeurig). MAR betekent missingness hangt af van geobserveerde variabelen maar niet van de missende waarden zelf (bijv. mannen rapporteren gewicht minder waarschijnlijk, maar missingness hangt niet af van werkelijk gewicht). MNAR (Missing Not at Random) betekent missingness hangt af van missende waarden."
+        }
+      },
+      {
+        question: {
+          en: "What are common imputation strategies for missing data?",
+          es: "¿Cuáles son estrategias comunes de imputación para datos faltantes?",
+          de: "Was sind gängige Imputationsstrategien für fehlende Daten?",
+          nl: "Wat zijn veelvoorkomende imputatiestrategieën voor missende data?"
+        },
+        options: [
+          { en: "Mean/median/mode imputation, KNN imputation, MICE (multiple imputation), or model-based imputation", es: "Imputación media/mediana/moda, imputación KNN, MICE (imputación múltiple), o imputación basada en modelo", de: "Mittelwert/Median/Modus-Imputation, KNN-Imputation, MICE (multiple Imputation), oder modellbasierte Imputation", nl: "Gemiddelde/mediaan/modus imputatie, KNN imputatie, MICE (multiple imputation), of model-gebaseerde imputatie" },
+          { en: "Always delete rows with missing values", es: "Siempre eliminar filas con valores faltantes", de: "Zeilen mit fehlenden Werten immer löschen", nl: "Altijd rijen met missende waarden verwijderen" },
+          { en: "Replace all missing values with zeros", es: "Reemplazar todos valores faltantes con ceros", de: "Alle fehlenden Werte durch Nullen ersetzen", nl: "Alle missende waarden vervangen met nullen" },
+          { en: "Ignore missing values during training", es: "Ignorar valores faltantes durante entrenamiento", de: "Fehlende Werte während Training ignorieren", nl: "Missende waarden negeren tijdens training" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Simple methods: mean/median (numerical), mode (categorical). KNN uses similar samples. MICE (Multivariate Imputation by Chained Equations) iteratively models each feature. Model-based uses predictive models. Choice depends on data type, missingness mechanism, and amount missing. Deletion only suitable for MCAR with little missing data.",
+          es: "Métodos simples: media/mediana (numérico), moda (categórico). KNN usa muestras similares. MICE (Imputación Multivariada por Ecuaciones Encadenadas) modela iterativamente cada característica. Basado en modelo usa modelos predictivos. Elección depende de tipo de datos, mecanismo de ausencia, y cantidad faltante. Eliminación solo adecuada para MCAR con pocos datos faltantes.",
+          de: "Einfache Methoden: Mittelwert/Median (numerisch), Modus (kategorial). KNN verwendet ähnliche Stichproben. MICE (Multivariate Imputation by Chained Equations) modelliert iterativ jedes Feature. Modellbasiert verwendet prädiktive Modelle. Wahl hängt von Datentyp, Fehlmechanismus und fehlender Menge ab. Löschung nur geeignet für MCAR mit wenig fehlenden Daten.",
+          nl: "Eenvoudige methoden: gemiddelde/mediaan (numeriek), modus (categorisch). KNN gebruikt vergelijkbare samples. MICE (Multivariate Imputation by Chained Equations) modelleert iteratief elke feature. Model-gebaseerd gebruikt predictieve modellen. Keuze hangt af van datatype, missingness mechanisme en hoeveelheid missend. Verwijdering alleen geschikt voor MCAR met weinig missende data."
+        }
+      },
+      {
+        question: {
+          en: "What is one-hot encoding and when should you use it?",
+          es: "¿Qué es codificación one-hot y cuándo deberías usarla?",
+          de: "Was ist One-Hot-Encoding und wann sollten Sie es verwenden?",
+          nl: "Wat is one-hot encoding en wanneer zou je het gebruiken?"
+        },
+        options: [
+          { en: "Creates binary columns for each category value, use for nominal categorical features without ordinal relationship", es: "Crea columnas binarias para cada valor de categoría, usar para características categóricas nominales sin relación ordinal", de: "Erstellt binäre Spalten für jeden Kategoriewert, verwenden für nominale kategoriale Features ohne ordinale Beziehung", nl: "Creëert binaire kolommen voor elke categoriewaarde, gebruik voor nominale categorische features zonder ordinale relatie" },
+          { en: "Assigns sequential numbers to categories", es: "Asigna números secuenciales a categorías", de: "Weist Kategorien sequenzielle Nummern zu", nl: "Wijst sequentiële nummers toe aan categorieën" },
+          { en: "Only use for numerical features", es: "Solo usar para características numéricas", de: "Nur für numerische Features verwenden", nl: "Alleen gebruiken voor numerieke features" },
+          { en: "Reduces dimensionality of categorical features", es: "Reduce dimensionalidad de características categóricas", de: "Reduziert Dimensionalität kategorialer Features", nl: "Vermindert dimensionaliteit van categorische features" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "One-hot encoding transforms categorical variable with n categories into n binary columns, one per category. Avoids imposing artificial ordering that label encoding creates. Use for nominal categories (color: red/blue/green). For high cardinality, consider target encoding or embeddings. Drop one column to avoid multicollinearity (dummy variable trap).",
+          es: "Codificación one-hot transforma variable categórica con n categorías en n columnas binarias, una por categoría. Evita imponer orden artificial que crea codificación de etiquetas. Usar para categorías nominales (color: rojo/azul/verde). Para alta cardinalidad, considerar codificación objetivo o embeddings. Eliminar una columna para evitar multicolinealidad (trampa de variable ficticia).",
+          de: "One-Hot-Encoding transformiert kategoriale Variable mit n Kategorien in n binäre Spalten, eine pro Kategorie. Vermeidet künstliche Ordnung die Label-Encoding erzeugt. Verwenden für nominale Kategorien (Farbe: rot/blau/grün). Für hohe Kardinalität Target-Encoding oder Embeddings erwägen. Eine Spalte entfernen um Multikollinearität zu vermeiden (Dummy-Variable-Falle).",
+          nl: "One-hot encoding transformeert categorische variabele met n categorieën naar n binaire kolommen, één per categorie. Vermijdt kunstmatige ordening die label encoding creëert. Gebruik voor nominale categorieën (kleur: rood/blauw/groen). Voor hoge cardinaliteit overwegen target encoding of embeddings. Drop één kolom om multicollineariteit te vermijden (dummy variable trap)."
+        }
+      },
+      {
+        question: {
+          en: "What is target encoding and what are its risks?",
+          es: "¿Qué es codificación objetivo y cuáles son sus riesgos?",
+          de: "Was ist Target-Encoding und was sind seine Risiken?",
+          nl: "Wat is target encoding en wat zijn de risico's?"
+        },
+        options: [
+          { en: "Replace categories with target variable statistics, risks data leakage and overfitting if not done carefully", es: "Reemplazar categorías con estadísticas de variable objetivo, riesgos de filtración de datos y overfitting si no se hace cuidadosamente", de: "Kategorien durch Zielvariablen-Statistiken ersetzen, Risiken von Datenleckage und Overfitting wenn nicht sorgfältig durchgeführt", nl: "Vervang categorieën met doelvariabele statistieken, risico's van data leakage en overfitting als niet zorgvuldig gedaan" },
+          { en: "Encoding scheme that targets specific features", es: "Esquema de codificación que apunta a características específicas", de: "Kodierungsschema das spezifische Features anvisiert", nl: "Coderingsschema dat specifieke features richt" },
+          { en: "Always better than one-hot encoding", es: "Siempre mejor que codificación one-hot", de: "Immer besser als One-Hot-Encoding", nl: "Altijd beter dan one-hot encoding" },
+          { en: "Used only for binary classification", es: "Usado solo para clasificación binaria", de: "Nur für binäre Klassifikation verwendet", nl: "Alleen gebruikt voor binaire classificatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Target encoding replaces categorical values with mean of target variable for that category. Effective for high-cardinality features but prone to overfitting and leakage. Mitigate by: using k-fold target encoding, adding smoothing, computing on training set only, adding noise. Alternative: leave-one-out encoding.",
+          es: "Codificación objetivo reemplaza valores categóricos con media de variable objetivo para esa categoría. Efectiva para características de alta cardinalidad pero propensa a overfitting y filtración. Mitigar: usando codificación objetivo k-fold, agregando suavizado, computando solo en conjunto de entrenamiento, agregando ruido. Alternativa: codificación leave-one-out.",
+          de: "Target-Encoding ersetzt kategoriale Werte mit Mittelwert der Zielvariable für diese Kategorie. Effektiv für hochkardiale Features aber anfällig für Overfitting und Leckage. Mildern durch: k-fold Target-Encoding verwenden, Glättung hinzufügen, nur auf Trainingsset berechnen, Rauschen hinzufügen. Alternative: Leave-One-Out-Encoding.",
+          nl: "Target encoding vervangt categorische waarden met gemiddelde van doelvariabele voor die categorie. Effectief voor hoge-cardinaliteit features maar vatbaar voor overfitting en leakage. Verzachten door: k-fold target encoding gebruiken, smoothing toevoegen, alleen op trainingsset berekenen, ruis toevoegen. Alternatief: leave-one-out encoding."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of polynomial features in regression?",
+          es: "¿Cuál es el propósito de características polinomiales en regresión?",
+          de: "Was ist der Zweck polynomialer Features in der Regression?",
+          nl: "Wat is het doel van polynomiale features in regressie?"
+        },
+        options: [
+          { en: "Capture non-linear relationships by creating interaction and higher-degree terms from existing features", es: "Capturar relaciones no lineales creando términos de interacción y de mayor grado de características existentes", de: "Nichtlineare Beziehungen erfassen durch Erstellen von Interaktions- und höhergradigen Termen aus existierenden Features", nl: "Niet-lineaire relaties vastleggen door interactie en hogere-graad termen te creëren van bestaande features" },
+          { en: "Reduce number of features in the model", es: "Reducir número de características en el modelo", de: "Anzahl der Features im Modell reduzieren", nl: "Aantal features in het model reduceren" },
+          { en: "Convert categorical to numerical features", es: "Convertir características categóricas a numéricas", de: "Kategoriale in numerische Features umwandeln", nl: "Categorische naar numerieke features converteren" },
+          { en: "Speed up linear regression training", es: "Acelerar entrenamiento de regresión lineal", de: "Linear Regression Training beschleunigen", nl: "Lineaire regressie training versnellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Polynomial features add terms like x², x³, x*y to capture non-linear patterns while keeping linear regression. Degree-2 adds x₁², x₁x₂, x₂². Increases model flexibility but also dimensionality and overfitting risk. Regularization often needed. Alternative: use inherently non-linear models.",
+          es: "Características polinomiales agregan términos como x², x³, x*y para capturar patrones no lineales manteniendo regresión lineal. Grado-2 agrega x₁², x₁x₂, x₂². Aumenta flexibilidad del modelo pero también dimensionalidad y riesgo de overfitting. Regularización a menudo necesaria. Alternativa: usar modelos inherentemente no lineales.",
+          de: "Polynomiale Features fügen Terme wie x², x³, x*y hinzu um nichtlineare Muster zu erfassen während lineare Regression beibehalten wird. Grad-2 fügt x₁², x₁x₂, x₂² hinzu. Erhöht Modellflexibilität aber auch Dimensionalität und Overfitting-Risiko. Regularisierung oft nötig. Alternative: inherent nichtlineare Modelle verwenden.",
+          nl: "Polynomiale features voegen termen toe zoals x², x³, x*y om niet-lineaire patronen vast te leggen terwijl lineaire regressie behouden blijft. Graad-2 voegt x₁², x₁x₂, x₂² toe. Verhoogt modelflexibiliteit maar ook dimensionaliteit en overfitting risico. Regularisatie vaak nodig. Alternatief: gebruik inherent niet-lineaire modellen."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between batch, mini-batch, and stochastic gradient descent?",
+          es: "¿Cuál es la diferencia entre descenso de gradiente por lotes, mini-lotes y estocástico?",
+          de: "Was ist der Unterschied zwischen Batch-, Mini-Batch- und stochastischem Gradientenabstieg?",
+          nl: "Wat is het verschil tussen batch, mini-batch en stochastische gradient descent?"
+        },
+        options: [
+          { en: "Batch uses all data per update, mini-batch uses subset, stochastic uses one sample", es: "Lotes usa todos datos por actualización, mini-lotes usa subconjunto, estocástico usa una muestra", de: "Batch verwendet alle Daten pro Update, Mini-Batch verwendet Teilmenge, stochastisch verwendet eine Stichprobe", nl: "Batch gebruikt alle data per update, mini-batch gebruikt subset, stochastisch gebruikt één sample" },
+          { en: "Stochastic is always faster than batch", es: "Estocástico siempre es más rápido que lotes", de: "Stochastisch ist immer schneller als Batch", nl: "Stochastisch is altijd sneller dan batch" },
+          { en: "Batch requires less memory than mini-batch", es: "Lotes requiere menos memoria que mini-lotes", de: "Batch benötigt weniger Speicher als Mini-Batch", nl: "Batch vereist minder geheugen dan mini-batch" },
+          { en: "Mini-batch always produces best results", es: "Mini-lotes siempre produce mejores resultados", de: "Mini-Batch produziert immer beste Ergebnisse", nl: "Mini-batch produceert altijd beste resultaten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Batch GD computes gradient using entire dataset (stable but slow, memory intensive). SGD uses single sample (noisy, fast, online learning). Mini-batch (typical: 32-512) balances: parallelizable, stable enough, memory efficient. Mini-batch most common in practice.",
+          es: "GD por lotes computa gradiente usando conjunto de datos completo (estable pero lento, intensivo en memoria). SGD usa muestra única (ruidoso, rápido, aprendizaje online). Mini-lotes (típico: 32-512) equilibra: paralelizable, suficientemente estable, eficiente en memoria. Mini-lotes más común en práctica.",
+          de: "Batch-GD berechnet Gradienten mit gesamtem Datensatz (stabil aber langsam, speicherintensiv). SGD verwendet einzelne Stichprobe (verrauscht, schnell, Online-Learning). Mini-Batch (typisch: 32-512) balanciert: parallelisierbar, stabil genug, speichereffizient. Mini-Batch am häufigsten in der Praxis.",
+          nl: "Batch GD berekent gradiënt met hele dataset (stabiel maar traag, geheugenintensief). SGD gebruikt enkel sample (ruis, snel, online learning). Mini-batch (typisch: 32-512) balanceert: paralleliseerbaar, stabiel genoeg, geheugenefficiënt. Mini-batch meest gebruikelijk in praktijk."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of the Hessian matrix in optimization?",
+          es: "¿Cuál es el propósito de la matriz Hessiana en optimización?",
+          de: "Was ist der Zweck der Hesse-Matrix in der Optimierung?",
+          nl: "Wat is het doel van de Hessian matrix in optimalisatie?"
+        },
+        options: [
+          { en: "Second-order partial derivatives describing curvature of loss surface for faster convergence", es: "Derivadas parciales de segundo orden describiendo curvatura de superficie de pérdida para convergencia más rápida", de: "Partielle Ableitungen zweiter Ordnung beschreiben Krümmung der Verlustoberfläche für schnellere Konvergenz", nl: "Tweede-orde partiële afgeleiden beschrijven kromming van verliesoppervlak voor snellere convergentie" },
+          { en: "Matrix for storing model parameters", es: "Matriz para almacenar parámetros del modelo", de: "Matrix zur Speicherung von Modellparametern", nl: "Matrix voor opslaan van modelparameters" },
+          { en: "Method for computing gradients faster", es: "Método para computar gradientes más rápido", de: "Methode zur schnelleren Gradientenberechnung", nl: "Methode voor sneller gradiënten berekenen" },
+          { en: "Technique for regularizing neural networks", es: "Técnica para regularizar redes neuronales", de: "Technik zur Regularisierung neuronaler Netzwerke", nl: "Techniek voor regulariseren van neurale netwerken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hessian matrix contains second-order partial derivatives ∂²L/∂θᵢ∂θⱼ, describing curvature of loss function. Used in Newton's method for optimization (faster convergence than gradient descent). Computationally expensive for high dimensions, so approximate methods (L-BFGS, Hessian-free) often used in deep learning.",
+          es: "Matriz Hessiana contiene derivadas parciales de segundo orden ∂²L/∂θᵢ∂θⱼ, describiendo curvatura de función de pérdida. Usado en método de Newton para optimización (convergencia más rápida que descenso de gradiente). Computacionalmente costoso para altas dimensiones, por lo que métodos aproximados (L-BFGS, Hessian-free) a menudo usados en deep learning.",
+          de: "Hesse-Matrix enthält partielle Ableitungen zweiter Ordnung ∂²L/∂θᵢ∂θⱼ, beschreibt Krümmung der Verlustfunktion. Verwendet in Newton-Methode für Optimierung (schnellere Konvergenz als Gradientenabstieg). Rechenintensiv für hohe Dimensionen, daher Näherungsmethoden (L-BFGS, Hessian-free) oft in Deep Learning verwendet.",
+          nl: "Hessian matrix bevat tweede-orde partiële afgeleiden ∂²L/∂θᵢ∂θⱼ, beschrijft kromming van verliesfunctie. Gebruikt in Newton's methode voor optimalisatie (snellere convergentie dan gradient descent). Rekenintensief voor hoge dimensies, dus benaderingsmethoden (L-BFGS, Hessian-free) vaak gebruikt in deep learning."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between L-BFGS and standard gradient descent?",
+          es: "¿Cuál es la diferencia entre L-BFGS y descenso de gradiente estándar?",
+          de: "Was ist der Unterschied zwischen L-BFGS und Standard-Gradientenabstieg?",
+          nl: "Wat is het verschil tussen L-BFGS en standaard gradient descent?"
+        },
+        options: [
+          { en: "L-BFGS approximates second-order information for faster convergence, gradient descent uses only first-order", es: "L-BFGS aproxima información de segundo orden para convergencia más rápida, descenso de gradiente usa solo primer orden", de: "L-BFGS approximiert Informationen zweiter Ordnung für schnellere Konvergenz, Gradientenabstieg verwendet nur erster Ordnung", nl: "L-BFGS benadert tweede-orde informatie voor snellere convergentie, gradient descent gebruikt alleen eerste-orde" },
+          { en: "L-BFGS is a type of stochastic gradient descent", es: "L-BFGS es un tipo de descenso de gradiente estocástico", de: "L-BFGS ist eine Art stochastischer Gradientenabstieg", nl: "L-BFGS is een type stochastische gradient descent" },
+          { en: "Gradient descent always converges faster than L-BFGS", es: "Descenso de gradiente siempre converge más rápido que L-BFGS", de: "Gradientenabstieg konvergiert immer schneller als L-BFGS", nl: "Gradient descent convergeert altijd sneller dan L-BFGS" },
+          { en: "L-BFGS requires more memory than gradient descent", es: "L-BFGS requiere más memoria que descenso de gradiente", de: "L-BFGS benötigt mehr Speicher als Gradientenabstieg", nl: "L-BFGS vereist meer geheugen dan gradient descent" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "L-BFGS (Limited-memory BFGS) approximates inverse Hessian using gradients from recent iterations, enabling quasi-Newton optimization. Faster convergence than gradient descent for smooth, convex problems but not suitable for mini-batch/stochastic settings. Common in traditional ML (logistic regression, SVMs) but less in deep learning.",
+          es: "L-BFGS (BFGS de memoria limitada) aproxima Hessiana inversa usando gradientes de iteraciones recientes, habilitando optimización cuasi-Newton. Convergencia más rápida que descenso de gradiente para problemas suaves y convexos pero no adecuado para configuraciones mini-lote/estocásticas. Común en ML tradicional (regresión logística, SVMs) pero menos en deep learning.",
+          de: "L-BFGS (Limited-memory BFGS) approximiert inverse Hesse-Matrix mit Gradienten aus kürzlichen Iterationen, ermöglicht Quasi-Newton-Optimierung. Schnellere Konvergenz als Gradientenabstieg für glatte konvexe Probleme aber nicht geeignet für Mini-Batch/stochastische Einstellungen. Üblich in traditionellem ML (logistische Regression, SVMs) aber weniger in Deep Learning.",
+          nl: "L-BFGS (Limited-memory BFGS) benadert inverse Hessian met gradiënten van recente iteraties, maakt quasi-Newton optimalisatie mogelijk. Snellere convergentie dan gradient descent voor gladde convexe problemen maar niet geschikt voor mini-batch/stochastische settings. Gebruikelijk in traditioneel ML (logistische regressie, SVMs) maar minder in deep learning."
+        }
       }
     ]
   };

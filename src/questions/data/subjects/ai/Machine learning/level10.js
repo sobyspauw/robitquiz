@@ -427,6 +427,426 @@
           de: "Edge-KI ermöglicht Echtzeit-Inferenz auf Geräten wie Smartphones, IoT-Sensoren und autonomen Fahrzeugen. Hauptherausforderungen umfassen Modellkompression, Quantisierung, Hardware-Optimierung, Energieeffizienz und Genauigkeitserhaltung mit begrenzten Ressourcen während Privatsphäre gewährleistet und Latenz reduziert wird.",
           nl: "Edge AI maakt real-time inferentie mogelijk op apparaten zoals smartphones, IoT sensoren en autonome voertuigen. Belangrijke uitdagingen omvatten modelcompressie, kwantisatie, hardware optimalisatie, energie-efficiëntie en nauwkeurigheid behouden met beperkte middelen terwijl privacy gewaarborgd en latentie verminderd wordt."
         }
+      },
+      {
+        question: {
+          en: "What is catastrophic forgetting in neural networks and how can continual learning address it?",
+          es: "¿Qué es el olvido catastrófico en redes neuronales y cómo puede el aprendizaje continuo abordarlo?",
+          de: "Was ist katastrophales Vergessen in neuronalen Netzwerken und wie kann kontinuierliches Lernen es angehen?",
+          nl: "Wat is catastrophic forgetting in neurale netwerken en hoe kan continual learning het aanpakken?"
+        },
+        options: [
+          { en: "Abrupt performance loss on old tasks when learning new ones, mitigated by elastic weight consolidation, replay buffers, or progressive nets", es: "Pérdida abrupta de rendimiento en tareas antiguas al aprender nuevas, mitigado por consolidación elástica de pesos, buffers de repetición o redes progresivas", de: "Abrupter Leistungsverlust bei alten Aufgaben beim Lernen neuer, gemildert durch elastische Gewichtskonsolidierung, Replay-Puffer oder progressive Netze", nl: "Abrupt prestatieverlies op oude taken bij het leren van nieuwe, gemitigeerd door elastische gewichtsconsolidatie, replay buffers of progressieve netten" },
+          { en: "Complete memory loss requiring full retraining", es: "Pérdida completa de memoria requiriendo reentrenamiento completo", de: "Vollständiger Gedächtnisverlust erfordert vollständiges Neutraining", nl: "Volledig geheugenverlies vereist volledige hertraining" },
+          { en: "Forgetting only catastrophic failure cases", es: "Olvidar solo casos de fallo catastrófico", de: "Vergessen nur katastrophaler Fehlerfälle", nl: "Vergeten van alleen catastrofale faalgevallen" },
+          { en: "Gradual decay of neural network weights", es: "Decaimiento gradual de pesos de red neuronal", de: "Gradueller Zerfall neuronaler Netzwerkgewichte", nl: "Geleidelijk verval van neurale netwerkgewichten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Catastrophic forgetting occurs when neural networks trained on sequential tasks lose performance on earlier tasks upon learning new ones. Solutions include elastic weight consolidation (protecting important weights), experience replay (rehearsing old data), progressive neural networks (adding capacity for new tasks), and knowledge distillation (preserving old task representations).",
+          es: "Olvido catastrófico ocurre cuando redes neuronales entrenadas en tareas secuenciales pierden rendimiento en tareas anteriores al aprender nuevas. Soluciones incluyen consolidación elástica de pesos (proteger pesos importantes), repetición de experiencia (ensayar datos antiguos), redes neuronales progresivas (agregar capacidad para nuevas tareas) y destilación de conocimiento (preservar representaciones de tareas antiguas).",
+          de: "Katastrophales Vergessen tritt auf wenn neuronale Netzwerke die auf sequenziellen Aufgaben trainiert wurden Leistung bei früheren Aufgaben verlieren beim Lernen neuer. Lösungen umfassen elastische Gewichtskonsolidierung (Schutz wichtiger Gewichte), Erfahrungswiederholung (Probe alter Daten), progressive neuronale Netzwerke (Hinzufügen von Kapazität für neue Aufgaben) und Knowledge Distillation (Bewahren alter Aufgabenrepräsentationen).",
+          nl: "Catastrophic forgetting treedt op wanneer neurale netwerken getraind op sequentiële taken prestaties verliezen op eerdere taken bij het leren van nieuwe. Oplossingen omvatten elastische gewichtsconsolidatie (beschermen van belangrijke gewichten), ervaring replay (herhalen van oude data), progressieve neurale netwerken (toevoegen van capaciteit voor nieuwe taken) en knowledge distillation (behouden van oude taak representaties)."
+        }
+      },
+      {
+        question: {
+          en: "What is neural network pruning at initialization and what does the lottery ticket hypothesis suggest?",
+          es: "¿Qué es la poda de redes neuronales en inicialización y qué sugiere la hipótesis del boleto de lotería?",
+          de: "Was ist neuronales Netzwerk-Pruning bei Initialisierung und was schlägt die Lottery Ticket Hypothesis vor?",
+          nl: "Wat is neural network pruning bij initialisatie en wat suggereert de lottery ticket hypothesis?"
+        },
+        options: [
+          { en: "Dense networks contain sparse subnetworks that can match full network performance when trained from their original initialization", es: "Redes densas contienen subredes dispersas que pueden igualar rendimiento de red completa cuando se entrenan desde su inicialización original", de: "Dichte Netzwerke enthalten spärliche Teilnetzwerke die volle Netzwerkleistung erreichen können wenn von ihrer ursprünglichen Initialisierung trainiert", nl: "Dichte netwerken bevatten dunne subnetwerken die volledige netwerkprestaties kunnen evenaren wanneer getraind vanaf hun originele initialisatie" },
+          { en: "Random pruning always produces better networks", es: "Poda aleatoria siempre produce mejores redes", de: "Zufälliges Pruning produziert immer bessere Netzwerke", nl: "Willekeurige pruning produceert altijd betere netwerken" },
+          { en: "Pruning at initialization is impossible", es: "Poda en inicialización es imposible", de: "Pruning bei Initialisierung ist unmöglich", nl: "Pruning bij initialisatie is onmogelijk" },
+          { en: "Only large networks benefit from pruning", es: "Solo redes grandes se benefician de poda", de: "Nur große Netzwerke profitieren von Pruning", nl: "Alleen grote netwerken profiteren van pruning" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The lottery ticket hypothesis states that randomly initialized dense networks contain sparse subnetworks (winning tickets) that, when isolated and trained from their original initialization, can achieve comparable accuracy to the full network. This challenges conventional wisdom about over-parameterization and suggests successful training may depend on finding favorable initializations rather than network size alone.",
+          es: "Hipótesis del boleto de lotería establece que redes densas inicializadas aleatoriamente contienen subredes dispersas (boletos ganadores) que, cuando se aíslan y entrenan desde su inicialización original, pueden lograr precisión comparable a la red completa. Esto desafía sabiduría convencional sobre sobre-parametrización y sugiere que entrenamiento exitoso puede depender de encontrar inicializaciones favorables en lugar de solo tamaño de red.",
+          de: "Die Lottery Ticket Hypothesis besagt dass zufällig initialisierte dichte Netzwerke spärliche Teilnetzwerke (Gewinntickets) enthalten die, wenn isoliert und von ihrer ursprünglichen Initialisierung trainiert, vergleichbare Genauigkeit zur vollen Netzwerk erreichen können. Dies stellt konventionelle Weisheit über Über-Parametrisierung in Frage und schlägt vor dass erfolgreiches Training vom Finden günstiger Initialisierungen abhängen kann statt nur Netzwerkgröße.",
+          nl: "De lottery ticket hypothesis stelt dat willekeurig geïnitialiseerde dichte netwerken dunne subnetwerken (winnende tickets) bevatten die, wanneer geïsoleerd en getraind vanaf hun originele initialisatie, vergelijkbare nauwkeurigheid kunnen bereiken als het volledige netwerk. Dit daagt conventionele wijsheid over over-parametrisatie uit en suggereert dat succesvol trainen kan afhangen van het vinden van gunstige initialisaties in plaats van alleen netwerkgrootte."
+        }
+      },
+      {
+        question: {
+          en: "What is neural tangent kernel (NTK) theory and what insights does it provide about infinite-width neural networks?",
+          es: "¿Qué es la teoría del kernel tangente neuronal (NTK) y qué perspectivas proporciona sobre redes neuronales de ancho infinito?",
+          de: "Was ist Neural Tangent Kernel (NTK) Theorie und welche Einblicke bietet sie über unendlich-breite neuronale Netzwerke?",
+          nl: "Wat is neural tangent kernel (NTK) theorie en welke inzichten biedt het over oneindig-brede neurale netwerken?"
+        },
+        options: [
+          { en: "Framework showing infinite-width networks behave as kernel methods with fixed features during gradient descent", es: "Marco mostrando redes de ancho infinito se comportan como métodos de kernel con características fijas durante descenso de gradiente", de: "Framework zeigt dass unendlich-breite Netzwerke sich wie Kernel-Methoden mit festen Features während Gradientenabstieg verhalten", nl: "Framework toont dat oneindig-brede netwerken zich gedragen als kernel methoden met vaste features tijdens gradient descent" },
+          { en: "Kernel trick applied to neural network architectures", es: "Truco de kernel aplicado a arquitecturas de redes neuronales", de: "Kernel-Trick angewendet auf neuronale Netzwerkarchitekturen", nl: "Kernel truc toegepast op neurale netwerkarchitecturen" },
+          { en: "Tangent space optimization for neural networks", es: "Optimización de espacio tangente para redes neuronales", de: "Tangentialraum-Optimierung für neuronale Netzwerke", nl: "Tangent space optimalisatie voor neurale netwerken" },
+          { en: "Network topology analysis using kernel functions", es: "Análisis de topología de red usando funciones de kernel", de: "Netzwerk-Topologie-Analyse mit Kernel-Funktionen", nl: "Netwerktopologie analyse met kernel functies" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "NTK theory reveals that in the infinite-width limit, neural networks trained with gradient descent behave like kernel regression with a deterministic kernel that remains constant during training (lazy regime). This provides theoretical understanding of why overparameterized networks generalize well, connects neural networks to classical kernel methods, and explains phenomena like double descent.",
+          es: "Teoría NTK revela que en el límite de ancho infinito, redes neuronales entrenadas con descenso de gradiente se comportan como regresión de kernel con un kernel determinista que permanece constante durante entrenamiento (régimen perezoso). Esto proporciona comprensión teórica de por qué redes sobreparametrizadas generalizan bien, conecta redes neuronales a métodos de kernel clásicos y explica fenómenos como descenso doble.",
+          de: "NTK-Theorie offenbart dass im unendlich-breiten Limit neuronale Netzwerke die mit Gradientenabstieg trainiert wurden sich wie Kernel-Regression mit einem deterministischen Kernel verhalten der während Training konstant bleibt (lazy regime). Dies bietet theoretisches Verständnis warum überparametrisierte Netzwerke gut generalisieren, verbindet neuronale Netzwerke mit klassischen Kernel-Methoden und erklärt Phänomene wie doppelten Abstieg.",
+          nl: "NTK theorie onthult dat in de oneindig-brede limiet, neurale netwerken getraind met gradient descent zich gedragen als kernel regressie met een deterministische kernel die constant blijft tijdens training (lazy regime). Dit biedt theoretisch begrip van waarom overparameterized netwerken goed generaliseren, verbindt neurale netwerken met klassieke kernel methoden en verklaart fenomenen zoals double descent."
+        }
+      },
+      {
+        question: {
+          en: "What is the double descent phenomenon and how does it challenge traditional bias-variance tradeoff understanding?",
+          es: "¿Qué es el fenómeno de descenso doble y cómo desafía la comprensión tradicional del tradeoff sesgo-varianza?",
+          de: "Was ist das Double Descent Phänomen und wie stellt es das traditionelle Verständnis des Bias-Varianz-Tradeoffs in Frage?",
+          nl: "Wat is het double descent fenomeen en hoe daagt het traditioneel begrip van bias-variance tradeoff uit?"
+        },
+        options: [
+          { en: "Test error decreases, rises at interpolation threshold, then decreases again as model capacity increases beyond perfect training fit", es: "Error de prueba disminuye, aumenta en umbral de interpolación, luego disminuye nuevamente a medida que capacidad del modelo aumenta más allá de ajuste de entrenamiento perfecto", de: "Testfehler sinkt, steigt an Interpolationsschwelle, sinkt dann wieder wenn Modellkapazität über perfekten Trainingsfit hinaus steigt", nl: "Testfout daalt, stijgt bij interpolatiedrempel, daalt dan weer naarmate modelcapaciteit toeneemt voorbij perfecte training fit" },
+          { en: "Two-phase descent in gradient optimization", es: "Descenso de dos fases en optimización de gradiente", de: "Zweiphasiger Abstieg in Gradientenoptimierung", nl: "Twee-fase descent in gradient optimalisatie" },
+          { en: "Double the learning rate for faster descent", es: "Duplicar tasa de aprendizaje para descenso más rápido", de: "Verdoppeln der Lernrate für schnelleren Abstieg", nl: "Verdubbelen van learning rate voor snellere descent" },
+          { en: "Loss descending twice during single epoch", es: "Pérdida descendiendo dos veces durante época única", de: "Verlust sinkt zweimal während einzelner Epoche", nl: "Verlies daalt twee keer tijdens enkele epoch" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Double descent challenges the classical U-shaped bias-variance curve by showing test error can improve again after the interpolation threshold where models perfectly fit training data. In the overparameterized regime, increasing capacity leads to smoother interpolating functions with better generalization, explaining the success of modern deep learning's massive overparameterization.",
+          es: "Descenso doble desafía la curva clásica en U de sesgo-varianza mostrando que error de prueba puede mejorar nuevamente después del umbral de interpolación donde modelos ajustan perfectamente datos de entrenamiento. En régimen sobreparametrizado, aumentar capacidad lleva a funciones de interpolación más suaves con mejor generalización, explicando el éxito de sobreparametrización masiva del deep learning moderno.",
+          de: "Double Descent stellt die klassische U-förmige Bias-Varianz-Kurve in Frage durch Zeigen dass Testfehler wieder verbessern kann nach der Interpolationsschwelle wo Modelle Trainingsdaten perfekt fitten. Im überparametrisierten Regime führt steigende Kapazität zu glatteren interpolierenden Funktionen mit besserer Generalisierung, erklärt den Erfolg massiver Überparametrisierung des modernen Deep Learning.",
+          nl: "Double descent daagt de klassieke U-vormige bias-variance curve uit door te tonen dat testfout opnieuw kan verbeteren na de interpolatiedrempel waar modellen trainingsdata perfect fitten. In het overparameterized regime leidt toenemende capaciteit tot gladdere interpolerende functies met betere generalisatie, verklaart het succes van moderne deep learning's massale overparametrization."
+        }
+      },
+      {
+        question: {
+          en: "What is meta-learning and how do gradient-based meta-learning approaches like MAML work?",
+          es: "¿Qué es meta-aprendizaje y cómo funcionan enfoques de meta-aprendizaje basados en gradiente como MAML?",
+          de: "Was ist Meta-Learning und wie funktionieren gradientenbasierte Meta-Learning-Ansätze wie MAML?",
+          nl: "Wat is meta-learning en hoe werken gradiënt-gebaseerde meta-learning benaderingen zoals MAML?"
+        },
+        options: [
+          { en: "Learning how to learn by optimizing for rapid adaptation to new tasks through second-order gradients across tasks", es: "Aprender cómo aprender optimizando para adaptación rápida a nuevas tareas a través de gradientes de segundo orden a través de tareas", de: "Lernen wie man lernt durch Optimierung für schnelle Anpassung an neue Aufgaben durch Gradienten zweiter Ordnung über Aufgaben", nl: "Leren hoe te leren door te optimaliseren voor snelle aanpassing aan nieuwe taken door tweede-orde gradiënten over taken" },
+          { en: "Meta-analysis of learning algorithm performance", es: "Meta-análisis de rendimiento de algoritmos de aprendizaje", de: "Meta-Analyse von Lernalgorithmus-Leistung", nl: "Meta-analyse van leeralgoritme prestaties" },
+          { en: "Learning about metadata in training datasets", es: "Aprender sobre metadatos en conjuntos de datos de entrenamiento", de: "Lernen über Metadaten in Trainingsdatensätzen", nl: "Leren over metadata in trainingsdatasets" },
+          { en: "Hierarchical learning with meta-layers", es: "Aprendizaje jerárquico con meta-capas", de: "Hierarchisches Lernen mit Meta-Schichten", nl: "Hiërarchisch leren met meta-lagen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "MAML (Model-Agnostic Meta-Learning) learns an initialization that enables rapid adaptation to new tasks with few gradient steps. It optimizes parameters across a distribution of tasks by computing gradients through the adaptation process itself (second-order gradients), finding a starting point from which models can quickly specialize to new tasks with minimal data.",
+          es: "MAML (Model-Agnostic Meta-Learning) aprende una inicialización que habilita adaptación rápida a nuevas tareas con pocos pasos de gradiente. Optimiza parámetros a través de una distribución de tareas computando gradientes a través del proceso de adaptación mismo (gradientes de segundo orden), encontrando un punto de partida desde el cual modelos pueden especializarse rápidamente a nuevas tareas con datos mínimos.",
+          de: "MAML (Model-Agnostic Meta-Learning) lernt eine Initialisierung die schnelle Anpassung an neue Aufgaben mit wenigen Gradientenschritten ermöglicht. Es optimiert Parameter über eine Verteilung von Aufgaben durch Berechnung von Gradienten durch den Anpassungsprozess selbst (Gradienten zweiter Ordnung), findet einen Ausgangspunkt von dem Modelle sich schnell auf neue Aufgaben mit minimalen Daten spezialisieren können.",
+          nl: "MAML (Model-Agnostic Meta-Learning) leert een initialisatie die snelle aanpassing aan nieuwe taken mogelijk maakt met weinig gradient stappen. Het optimaliseert parameters over een distributie van taken door gradiënten te berekenen door het aanpassingsproces zelf (tweede-orde gradiënten), vindt een startpunt van waaruit modellen zich snel kunnen specialiseren naar nieuwe taken met minimale data."
+        }
+      },
+      {
+        question: {
+          en: "What is the role of attention mechanisms in modern deep learning and how do transformers utilize self-attention?",
+          es: "¿Cuál es el papel de los mecanismos de atención en deep learning moderno y cómo utilizan transformers la auto-atención?",
+          de: "Was ist die Rolle von Aufmerksamkeitsmechanismen im modernen Deep Learning und wie nutzen Transformer Self-Attention?",
+          nl: "Wat is de rol van attention mechanismen in moderne deep learning en hoe gebruiken transformers self-attention?"
+        },
+        options: [
+          { en: "Enables models to dynamically weight input elements, with self-attention computing relationships between all positions in parallel", es: "Permite a modelos ponderar dinámicamente elementos de entrada, con auto-atención computando relaciones entre todas las posiciones en paralelo", de: "Ermöglicht Modellen Eingabeelemente dynamisch zu gewichten, mit Self-Attention Berechnung von Beziehungen zwischen allen Positionen parallel", nl: "Stelt modellen in staat om invoerelementen dynamisch te wegen, met self-attention berekening van relaties tussen alle posities parallel" },
+          { en: "Makes neural networks pay attention during training", es: "Hace que redes neuronales presten atención durante entrenamiento", de: "Bringt neuronale Netzwerke dazu während Training aufzupassen", nl: "Zorgt ervoor dat neurale netwerken aandacht besteden tijdens training" },
+          { en: "Attention only to important features", es: "Atención solo a características importantes", de: "Aufmerksamkeit nur auf wichtige Features", nl: "Aandacht alleen voor belangrijke features" },
+          { en: "Sequential processing with attention weights", es: "Procesamiento secuencial con pesos de atención", de: "Sequenzielle Verarbeitung mit Aufmerksamkeitsgewichten", nl: "Sequentiële verwerking met attention gewichten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Self-attention in transformers computes relationships between all positions in a sequence simultaneously using query, key, and value projections. Unlike recurrent networks' sequential processing, transformers process all positions in parallel, enabling efficient capture of long-range dependencies. This architecture revolutionized NLP and is now successful in vision, speech, and multimodal learning.",
+          es: "Auto-atención en transformers computa relaciones entre todas las posiciones en una secuencia simultáneamente usando proyecciones de consulta, clave y valor. A diferencia del procesamiento secuencial de redes recurrentes, transformers procesan todas las posiciones en paralelo, permitiendo captura eficiente de dependencias de largo alcance. Esta arquitectura revolucionó NLP y ahora tiene éxito en visión, habla y aprendizaje multimodal.",
+          de: "Self-Attention in Transformern berechnet Beziehungen zwischen allen Positionen in einer Sequenz gleichzeitig mit Query-, Key- und Value-Projektionen. Im Gegensatz zu sequenzieller Verarbeitung rekurrenter Netzwerke verarbeiten Transformer alle Positionen parallel, ermöglicht effiziente Erfassung weitreichender Abhängigkeiten. Diese Architektur revolutionierte NLP und ist jetzt erfolgreich in Vision, Sprache und multimodalem Lernen.",
+          nl: "Self-attention in transformers berekent relaties tussen alle posities in een sequentie gelijktijdig met query, key en value projecties. In tegenstelling tot sequentiële verwerking van recurrente netwerken, verwerken transformers alle posities parallel, maakt efficiënte vastlegging van lange-afstand afhankelijkheden mogelijk. Deze architectuur revolutioneerde NLP en is nu succesvol in vision, spraak en multi-modaal leren."
+        }
+      },
+      {
+        question: {
+          en: "What is model distillation in the context of large language models and how does it enable efficient deployment?",
+          es: "¿Qué es la destilación de modelos en el contexto de grandes modelos de lenguaje y cómo habilita despliegue eficiente?",
+          de: "Was ist Modelldestillation im Kontext großer Sprachmodelle und wie ermöglicht es effiziente Bereitstellung?",
+          nl: "Wat is model distillation in de context van grote taalmodellen en hoe maakt het efficiënte deployment mogelijk?"
+        },
+        options: [
+          { en: "Trains smaller student models to mimic larger teacher models' soft predictions, compressing knowledge while maintaining performance", es: "Entrena modelos estudiante más pequeños para imitar predicciones suaves de modelos maestro más grandes, comprimiendo conocimiento mientras mantiene rendimiento", de: "Trainiert kleinere Schüler-Modelle um weiche Vorhersagen größerer Lehrer-Modelle nachzuahmen, komprimiert Wissen während Leistung erhalten bleibt", nl: "Traint kleinere student modellen om zachte voorspellingen van grotere leraar modellen na te bootsen, comprimeert kennis terwijl prestaties behouden blijven" },
+          { en: "Distills essential features from training data", es: "Destila características esenciales de datos de entrenamiento", de: "Destilliert wesentliche Features aus Trainingsdaten", nl: "Destilleert essentiële features uit trainingsdata" },
+          { en: "Purifies language models by removing noise", es: "Purifica modelos de lenguaje eliminando ruido", de: "Reinigt Sprachmodelle durch Entfernen von Rauschen", nl: "Zuivert taalmodellen door ruis te verwijderen" },
+          { en: "Extracts core vocabulary from large models", es: "Extrae vocabulario central de modelos grandes", de: "Extrahiert Kernvokabular aus großen Modellen", nl: "Extraheert kernvocabulaire uit grote modellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Knowledge distillation transfers capabilities from massive teacher models (like GPT-4) to compact student models by training students to match the teacher's output distributions (soft labels) rather than just hard labels. This captures richer information about relationships between classes, enabling deployment of efficient models with near-teacher performance on resource-constrained devices.",
+          es: "Destilación de conocimiento transfiere capacidades de modelos maestro masivos (como GPT-4) a modelos estudiante compactos entrenando estudiantes para igualar distribuciones de salida del maestro (etiquetas suaves) en lugar de solo etiquetas duras. Esto captura información más rica sobre relaciones entre clases, habilitando despliegue de modelos eficientes con rendimiento cercano al maestro en dispositivos con recursos limitados.",
+          de: "Knowledge Distillation überträgt Fähigkeiten von massiven Lehrer-Modellen (wie GPT-4) zu kompakten Schüler-Modellen durch Training von Schülern um Ausgabeverteilungen des Lehrers (weiche Labels) zu erreichen statt nur harte Labels. Dies erfasst reichere Information über Beziehungen zwischen Klassen, ermöglicht Bereitstellung effizienter Modelle mit Lehrer-naher Leistung auf ressourcenbeschränkten Geräten.",
+          nl: "Knowledge distillation draagt capaciteiten over van massieve leraar modellen (zoals GPT-4) naar compacte student modellen door studenten te trainen om de output distributies van de leraar (zachte labels) te evenaren in plaats van alleen harde labels. Dit vangt rijkere informatie over relaties tussen klassen, maakt deployment mogelijk van efficiënte modellen met bijna-leraar prestaties op resource-beperkte apparaten."
+        }
+      },
+      {
+        question: {
+          en: "What is prompt engineering in large language models and what techniques make prompts more effective?",
+          es: "¿Qué es la ingeniería de prompts en grandes modelos de lenguaje y qué técnicas hacen los prompts más efectivos?",
+          de: "Was ist Prompt Engineering in großen Sprachmodellen und welche Techniken machen Prompts effektiver?",
+          nl: "Wat is prompt engineering in grote taalmodellen en welke technieken maken prompts effectiever?"
+        },
+        options: [
+          { en: "Crafting input instructions using techniques like few-shot examples, chain-of-thought reasoning, and role specification", es: "Elaborar instrucciones de entrada usando técnicas como ejemplos de pocos disparos, razonamiento de cadena de pensamiento y especificación de roles", de: "Gestalten von Eingabeanweisungen mit Techniken wie Few-Shot-Beispiele, Chain-of-Thought-Reasoning und Rollenspezifikation", nl: "Ontwerpen van invoer instructies met technieken zoals few-shot voorbeelden, chain-of-thought redeneren en rol specificatie" },
+          { en: "Prompt responses from models quickly", es: "Obtener respuestas rápidas de modelos", de: "Schnelle Antworten von Modellen erhalten", nl: "Snelle responses van modellen verkrijgen" },
+          { en: "Engineering the user interface for prompts", es: "Diseñar la interfaz de usuario para prompts", de: "Benutzeroberfläche für Prompts gestalten", nl: "Gebruikersinterface voor prompts ontwerpen" },
+          { en: "Automatic generation of training prompts", es: "Generación automática de prompts de entrenamiento", de: "Automatische Generierung von Trainings-Prompts", nl: "Automatische generatie van trainings prompts" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Prompt engineering optimizes LLM performance through careful instruction design. Key techniques: few-shot learning (providing examples), chain-of-thought prompting (requesting step-by-step reasoning), role-playing (assigning expert personas), formatting constraints, and iterative refinement. Effective prompts can dramatically improve output quality without model retraining.",
+          es: "Ingeniería de prompts optimiza rendimiento LLM a través de diseño cuidadoso de instrucciones. Técnicas clave: aprendizaje de pocos disparos (proporcionar ejemplos), prompting de cadena de pensamiento (solicitar razonamiento paso a paso), juego de roles (asignar personas expertas), restricciones de formato y refinamiento iterativo. Prompts efectivos pueden mejorar dramáticamente calidad de salida sin reentrenar modelo.",
+          de: "Prompt Engineering optimiert LLM-Leistung durch sorgfältiges Instruktionsdesign. Schlüsseltechniken: Few-Shot-Learning (Bereitstellen von Beispielen), Chain-of-Thought-Prompting (Anfragen schrittweiser Begründung), Rollenspiel (Zuweisen von Experten-Personas), Formatierungseinschränkungen und iterative Verfeinerung. Effektive Prompts können Ausgabequalität dramatisch verbessern ohne Modell-Neutraining.",
+          nl: "Prompt engineering optimaliseert LLM prestaties door zorgvuldig instructieontwerp. Sleuteltechnieken: few-shot learning (voorbeelden bieden), chain-of-thought prompting (verzoeken om stapsgewijze redenering), rollenspel (toewijzen van expert persona's), opmaakbeperkingen en iteratieve verfijning. Effectieve prompts kunnen outputkwaliteit dramatisch verbeteren zonder model hertraining."
+        }
+      },
+      {
+        question: {
+          en: "What is retrieval-augmented generation (RAG) and how does it enhance language model capabilities?",
+          es: "¿Qué es la generación aumentada por recuperación (RAG) y cómo mejora las capacidades de modelos de lenguaje?",
+          de: "Was ist Retrieval-Augmented Generation (RAG) und wie verbessert es Sprachmodell-Fähigkeiten?",
+          nl: "Wat is retrieval-augmented generation (RAG) en hoe verbetert het taalmodel capaciteiten?"
+        },
+        options: [
+          { en: "Combines neural retrieval with generation by fetching relevant documents to ground outputs in factual knowledge", es: "Combina recuperación neuronal con generación obteniendo documentos relevantes para fundamentar salidas en conocimiento factual", de: "Kombiniert neuronale Suche mit Generierung durch Abrufen relevanter Dokumente um Ausgaben in faktischem Wissen zu verankern", nl: "Combineert neurale retrieval met generatie door relevante documenten op te halen om outputs te gronden in feitelijke kennis" },
+          { en: "Generates random augmented data", es: "Genera datos aumentados aleatorios", de: "Generiert zufällige augmentierte Daten", nl: "Genereert willekeurige geaugmenteerde data" },
+          { en: "Retrieves and augments training datasets", es: "Recupera y aumenta conjuntos de datos de entrenamiento", de: "Ruft ab und erweitert Trainingsdatensätze", nl: "Haalt op en augmenteert trainingsdatasets" },
+          { en: "Augments generation speed through retrieval caching", es: "Aumenta velocidad de generación a través de caché de recuperación", de: "Erweitert Generierungsgeschwindigkeit durch Retrieval-Caching", nl: "Vergroot generatiesnelheid door retrieval caching" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "RAG addresses LLM limitations like hallucination and outdated knowledge by retrieving relevant documents from external knowledge bases before generation. The model conditions its outputs on both the input query and retrieved context, enabling accurate, up-to-date responses grounded in verifiable sources without costly retraining.",
+          es: "RAG aborda limitaciones LLM como alucinación y conocimiento desactualizado recuperando documentos relevantes de bases de conocimiento externas antes de generación. El modelo condiciona sus salidas tanto en consulta de entrada como contexto recuperado, habilitando respuestas precisas y actualizadas fundamentadas en fuentes verificables sin costoso reentrenamiento.",
+          de: "RAG adressiert LLM-Limitationen wie Halluzination und veraltetes Wissen durch Abrufen relevanter Dokumente aus externen Wissensbasen vor der Generierung. Das Modell konditioniert seine Ausgaben sowohl auf Eingabeanfrage als auch abgerufenen Kontext, ermöglicht genaue, aktuelle Antworten verankert in verifizierbaren Quellen ohne kostspieliges Neutraining.",
+          nl: "RAG pakt LLM beperkingen aan zoals hallucinatie en verouderde kennis door relevante documenten op te halen uit externe kennisbanken voor generatie. Het model conditioneert zijn outputs op zowel de input query als opgehaalde context, maakt nauwkeurige, actuele antwoorden mogelijk gegrond in verifieerbare bronnen zonder kostbare hertraining."
+        }
+      },
+      {
+        question: {
+          en: "What is reinforcement learning from human feedback (RLHF) and how is it used to align language models?",
+          es: "¿Qué es el aprendizaje por refuerzo a partir de retroalimentación humana (RLHF) y cómo se usa para alinear modelos de lenguaje?",
+          de: "Was ist Reinforcement Learning from Human Feedback (RLHF) und wie wird es verwendet um Sprachmodelle auszurichten?",
+          nl: "Wat is reinforcement learning from human feedback (RLHF) en hoe wordt het gebruikt om taalmodellen te aligneren?"
+        },
+        options: [
+          { en: "Trains reward models from human preferences, then optimizes language models using RL to maximize human-aligned rewards", es: "Entrena modelos de recompensa a partir de preferencias humanas, luego optimiza modelos de lenguaje usando RL para maximizar recompensas alineadas con humanos", de: "Trainiert Belohnungsmodelle aus menschlichen Präferenzen, optimiert dann Sprachmodelle mit RL um menschlich-ausgerichtete Belohnungen zu maximieren", nl: "Traint beloningsmodellen van menselijke voorkeuren, optimaliseert dan taalmodellen met RL om menselijk-georiënteerde beloningen te maximaliseren" },
+          { en: "Human feedback directly updates model weights", es: "Retroalimentación humana actualiza directamente pesos del modelo", de: "Menschliches Feedback aktualisiert direkt Modellgewichte", nl: "Menselijke feedback werkt modelgewichten direct bij" },
+          { en: "Reinforces human-written training examples", es: "Refuerza ejemplos de entrenamiento escritos por humanos", de: "Verstärkt von Menschen geschriebene Trainingsbeispiele", nl: "Versterkt door mensen geschreven trainingsvoorbeelden" },
+          { en: "Learns from human feedback logs only", es: "Aprende solo de registros de retroalimentación humana", de: "Lernt nur aus menschlichen Feedback-Protokollen", nl: "Leert alleen van menselijke feedback logs" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "RLHF aligns LLMs with human values through a multi-stage process: (1) supervised fine-tuning on demonstrations, (2) training a reward model on human preference rankings, (3) optimizing the LLM using PPO or similar RL algorithms to maximize predicted rewards. This produces models that are helpful, harmless, and honest.",
+          es: "RLHF alinea LLMs con valores humanos a través de proceso de múltiples etapas: (1) ajuste fino supervisado en demostraciones, (2) entrenar modelo de recompensa en clasificaciones de preferencias humanas, (3) optimizar LLM usando PPO o algoritmos RL similares para maximizar recompensas predichas. Esto produce modelos que son útiles, inofensivos y honestos.",
+          de: "RLHF richtet LLMs an menschlichen Werten aus durch mehrstufigen Prozess: (1) überwachtes Fine-Tuning auf Demonstrationen, (2) Training eines Belohnungsmodells auf menschlichen Präferenz-Rankings, (3) Optimierung des LLM mit PPO oder ähnlichen RL-Algorithmen um vorhergesagte Belohnungen zu maximieren. Dies produziert Modelle die hilfreich, harmlos und ehrlich sind.",
+          nl: "RLHF aligneert LLMs met menselijke waarden door een meerfasen proces: (1) gesuperviseerde fine-tuning op demonstraties, (2) trainen van een beloningsmodel op menselijke voorkeur rankings, (3) optimaliseren van het LLM met PPO of vergelijkbare RL algoritmes om voorspelde beloningen te maximaliseren. Dit produceert modellen die helpzaam, ongevaarlijk en eerlijk zijn."
+        }
+      },
+      {
+        question: {
+          en: "What is in-context learning in large language models and how does it differ from traditional fine-tuning?",
+          es: "¿Qué es el aprendizaje en contexto en grandes modelos de lenguaje y cómo difiere del ajuste fino tradicional?",
+          de: "Was ist In-Context Learning in großen Sprachmodellen und wie unterscheidet es sich von traditionellem Fine-Tuning?",
+          nl: "Wat is in-context learning in grote taalmodellen en hoe verschilt het van traditionele fine-tuning?"
+        },
+        options: [
+          { en: "Models perform tasks by conditioning on examples in the prompt without parameter updates, unlike fine-tuning which modifies weights", es: "Modelos realizan tareas condicionando en ejemplos en el prompt sin actualizaciones de parámetros, a diferencia de ajuste fino que modifica pesos", de: "Modelle führen Aufgaben durch Konditionierung auf Beispiele im Prompt ohne Parameterupdates aus, im Gegensatz zu Fine-Tuning das Gewichte modifiziert", nl: "Modellen voeren taken uit door te conditioneren op voorbeelden in de prompt zonder parameter updates, in tegenstelling tot fine-tuning dat gewichten wijzigt" },
+          { en: "Learning context embeddings during training", es: "Aprender embeddings de contexto durante entrenamiento", de: "Lernen von Kontext-Embeddings während Training", nl: "Leren van context embeddings tijdens training" },
+          { en: "Contextual understanding of training data", es: "Comprensión contextual de datos de entrenamiento", de: "Kontextuelles Verständnis von Trainingsdaten", nl: "Contextueel begrip van trainingsdata" },
+          { en: "In-domain learning from context windows", es: "Aprendizaje en dominio de ventanas de contexto", de: "In-Domain-Lernen aus Kontextfenstern", nl: "In-domein leren van contextvensters" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In-context learning enables LLMs to adapt to new tasks by simply conditioning on examples provided in the input prompt, without any gradient updates. This emergent capability allows the same frozen model to perform diverse tasks based solely on prompt engineering, contrasting with fine-tuning which requires updating model parameters on task-specific data.",
+          es: "Aprendizaje en contexto permite a LLMs adaptarse a nuevas tareas simplemente condicionando en ejemplos proporcionados en el prompt de entrada, sin actualizaciones de gradiente. Esta capacidad emergente permite que el mismo modelo congelado realice tareas diversas basándose únicamente en ingeniería de prompts, contrastando con ajuste fino que requiere actualizar parámetros del modelo en datos específicos de tarea.",
+          de: "In-Context Learning ermöglicht LLMs sich an neue Aufgaben anzupassen durch einfaches Konditionieren auf Beispiele im Eingabe-Prompt, ohne Gradienten-Updates. Diese emergente Fähigkeit ermöglicht demselben eingefrorenen Modell diverse Aufgaben durchzuführen basierend nur auf Prompt Engineering, im Gegensatz zu Fine-Tuning das Aktualisierung von Modellparametern auf aufgabenspezifischen Daten erfordert.",
+          nl: "In-context learning stelt LLMs in staat om aan te passen aan nieuwe taken door simpelweg te conditioneren op voorbeelden geleverd in de input prompt, zonder gradiënt updates. Dit emergente vermogen stelt hetzelfde bevroren model in staat diverse taken uit te voeren gebaseerd uitsluitend op prompt engineering, in contrast met fine-tuning dat bijwerken van modelparameters vereist op taak-specifieke data."
+        }
+      },
+      {
+        question: {
+          en: "What is model quantization awareness training and how does it differ from post-training quantization?",
+          es: "¿Qué es el entrenamiento con conciencia de cuantización del modelo y cómo difiere de la cuantización post-entrenamiento?",
+          de: "Was ist Quantisierungs-bewusstes Training und wie unterscheidet es sich von Post-Training-Quantisierung?",
+          nl: "Wat is model quantization awareness training en hoe verschilt het van post-training quantization?"
+        },
+        options: [
+          { en: "Simulates quantization during training to learn robust low-precision weights, versus post-training which quantizes after training completes", es: "Simula cuantización durante entrenamiento para aprender pesos de baja precisión robustos, versus post-entrenamiento que cuantiza después de que entrenamiento se completa", de: "Simuliert Quantisierung während Training um robuste niedrigpräzise Gewichte zu lernen, versus Post-Training das nach Trainingsabschluss quantisiert", nl: "Simuleert quantization tijdens training om robuuste lage-precisie gewichten te leren, versus post-training dat quantiseert na training voltooid is" },
+          { en: "Trains models to be aware of quantization errors", es: "Entrena modelos para estar conscientes de errores de cuantización", de: "Trainiert Modelle um sich Quantisierungsfehlern bewusst zu sein", nl: "Traint modellen om zich bewust te zijn van quantization fouten" },
+          { en: "Quantization applied only during inference", es: "Cuantización aplicada solo durante inferencia", de: "Quantisierung nur während Inferenz angewendet", nl: "Quantization alleen toegepast tijdens inferentie" },
+          { en: "Awareness of available quantization levels", es: "Conciencia de niveles de cuantización disponibles", de: "Bewusstsein verfügbarer Quantisierungsstufen", nl: "Bewustzijn van beschikbare quantization niveaus" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Quantization-aware training (QAT) inserts fake quantization operations during training, allowing the model to adapt to reduced precision by learning weights that are robust to quantization noise. This typically achieves better accuracy than post-training quantization (PTQ) which simply converts trained full-precision weights, but requires more computational resources during training.",
+          es: "Entrenamiento con conciencia de cuantización (QAT) inserta operaciones de cuantización falsas durante entrenamiento, permitiendo que modelo se adapte a precisión reducida aprendiendo pesos que son robustos a ruido de cuantización. Esto típicamente logra mejor precisión que cuantización post-entrenamiento (PTQ) que simplemente convierte pesos entrenados de precisión completa, pero requiere más recursos computacionales durante entrenamiento.",
+          de: "Quantisierungs-bewusstes Training (QAT) fügt falsche Quantisierungsoperationen während Training ein, ermöglicht dem Modell sich an reduzierte Präzision anzupassen durch Lernen von Gewichten die robust gegen Quantisierungsrauschen sind. Dies erreicht typisch bessere Genauigkeit als Post-Training-Quantisierung (PTQ) die einfach trainierte Vollpräzisions-Gewichte konvertiert, benötigt aber mehr Rechenressourcen während Training.",
+          nl: "Quantization-aware training (QAT) voegt nep quantization operaties in tijdens training, stelt het model in staat om aan te passen aan verminderde precisie door gewichten te leren die robuust zijn tegen quantization ruis. Dit bereikt typisch betere nauwkeurigheid dan post-training quantization (PTQ) dat simpelweg getrainde volledige-precisie gewichten converteert, maar vereist meer computationele middelen tijdens training."
+        }
+      },
+      {
+        question: {
+          en: "What is neural architecture search (NAS) and what are the main approaches to automating architecture design?",
+          es: "¿Qué es la búsqueda de arquitectura neuronal (NAS) y cuáles son los principales enfoques para automatizar el diseño de arquitectura?",
+          de: "Was ist Neural Architecture Search (NAS) und was sind die Hauptansätze zur Automatisierung des Architekturdesigns?",
+          nl: "Wat is neural architecture search (NAS) en wat zijn de hoofdbenaderingen voor het automatiseren van architectuurontwerp?"
+        },
+        options: [
+          { en: "Automated discovery of optimal architectures using reinforcement learning, evolutionary algorithms, or differentiable search methods", es: "Descubrimiento automatizado de arquitecturas óptimas usando aprendizaje por refuerzo, algoritmos evolutivos o métodos de búsqueda diferenciables", de: "Automatisierte Entdeckung optimaler Architekturen mit Reinforcement Learning, evolutionären Algorithmen oder differenzierbaren Suchmethoden", nl: "Geautomatiseerde ontdekking van optimale architecturen met reinforcement learning, evolutionaire algoritmes of differentieerbare zoekmethoden" },
+          { en: "Manually searching through architecture options", es: "Búsqueda manual a través de opciones de arquitectura", de: "Manuelle Suche durch Architekturoptionen", nl: "Handmatig zoeken door architectuuropties" },
+          { en: "Network analysis for security vulnerabilities", es: "Análisis de red para vulnerabilidades de seguridad", de: "Netzwerkanalyse für Sicherheitslücken", nl: "Netwerkanalyse voor beveiligingskwetsbaarheden" },
+          { en: "Searching for pre-trained architectures online", es: "Buscar arquitecturas pre-entrenadas en línea", de: "Suche nach vortrainierten Architekturen online", nl: "Zoeken naar voorgetrainde architecturen online" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "NAS automates the design of neural network architectures. Major approaches include: (1) RL-based (controller RNN proposes architectures), (2) evolutionary (genetic algorithms evolve architectures), (3) gradient-based like DARTS (differentiable architecture search using continuous relaxation), and (4) one-shot methods (train supernet then extract subnetworks). NAS has discovered novel architectures outperforming human designs.",
+          es: "NAS automatiza el diseño de arquitecturas de redes neuronales. Enfoques principales incluyen: (1) basado en RL (RNN controlador propone arquitecturas), (2) evolutivo (algoritmos genéticos evolucionan arquitecturas), (3) basado en gradiente como DARTS (búsqueda de arquitectura diferenciable usando relajación continua), y (4) métodos one-shot (entrenar supernet luego extraer subredes). NAS ha descubierto arquitecturas novedosas superando diseños humanos.",
+          de: "NAS automatisiert das Design neuronaler Netzwerkarchitekturen. Hauptansätze umfassen: (1) RL-basiert (Controller-RNN schlägt Architekturen vor), (2) evolutionär (genetische Algorithmen entwickeln Architekturen), (3) gradientenbasiert wie DARTS (differenzierbare Architektursuche mit kontinuierlicher Relaxation), und (4) One-Shot-Methoden (trainiere Supernetz dann extrahiere Teilnetze). NAS hat neuartige Architekturen entdeckt die menschliche Designs übertreffen.",
+          nl: "NAS automatiseert het ontwerp van neurale netwerkarchitecturen. Belangrijke benaderingen omvatten: (1) RL-gebaseerd (controller RNN stelt architecturen voor), (2) evolutionair (genetische algoritmes evolueren architecturen), (3) gradiënt-gebaseerd zoals DARTS (differentieerbare architectuurzoektocht met continue relaxatie), en (4) one-shot methoden (train supernet dan extraheer subnetwerken). NAS heeft nieuwe architecturen ontdekt die menselijke ontwerpen overtreffen."
+        }
+      },
+      {
+        question: {
+          en: "What is mixture of experts (MoE) and how does it enable sparse computation in large models?",
+          es: "¿Qué es la mezcla de expertos (MoE) y cómo habilita computación dispersa en modelos grandes?",
+          de: "Was ist Mixture of Experts (MoE) und wie ermöglicht es spärliche Berechnung in großen Modellen?",
+          nl: "Wat is mixture of experts (MoE) en hoe maakt het sparse berekening mogelijk in grote modellen?"
+        },
+        options: [
+          { en: "Routes each input to a subset of expert networks via learned gating, activating only relevant experts for efficient scaling", es: "Enruta cada entrada a un subconjunto de redes expertas vía compuerta aprendida, activando solo expertos relevantes para escalado eficiente", de: "Leitet jede Eingabe zu einer Teilmenge von Experten-Netzwerken über gelerntes Gating, aktiviert nur relevante Experten für effizientes Skalieren", nl: "Routeert elke input naar een subset van expert netwerken via geleerd gating, activeert alleen relevante experts voor efficiënte schaling" },
+          { en: "Combines predictions from multiple expert humans", es: "Combina predicciones de múltiples humanos expertos", de: "Kombiniert Vorhersagen mehrerer menschlicher Experten", nl: "Combineert voorspellingen van meerdere menselijke experts" },
+          { en: "Mixture model for expert knowledge bases", es: "Modelo de mezcla para bases de conocimiento expertas", de: "Mischmodell für Experten-Wissensbasen", nl: "Mengselmodel voor expert kennisbanken" },
+          { en: "Ensemble of specialized domain models", es: "Conjunto de modelos de dominio especializados", de: "Ensemble spezialisierter Domänen-Modelle", nl: "Ensemble van gespecialiseerde domeinmodellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "MoE architectures contain many expert sub-networks but activate only a sparse subset for each input via a learned gating mechanism. This enables models to scale to trillions of parameters while maintaining computational efficiency, as each input uses only a fraction of total capacity. Models like Switch Transformer and GPT-4 leverage MoE for efficient large-scale training.",
+          es: "Arquitecturas MoE contienen muchas subredes expertas pero activan solo un subconjunto disperso para cada entrada vía mecanismo de compuerta aprendido. Esto permite que modelos escalen a trillones de parámetros mientras mantienen eficiencia computacional, ya que cada entrada usa solo una fracción de capacidad total. Modelos como Switch Transformer y GPT-4 aprovechan MoE para entrenamiento eficiente a gran escala.",
+          de: "MoE-Architekturen enthalten viele Experten-Teilnetzwerke aktivieren aber nur eine spärliche Teilmenge für jede Eingabe über gelernten Gating-Mechanismus. Dies ermöglicht Modellen auf Billionen von Parametern zu skalieren während rechnerische Effizienz erhalten bleibt, da jede Eingabe nur einen Bruchteil der Gesamtkapazität nutzt. Modelle wie Switch Transformer und GPT-4 nutzen MoE für effizientes großskaliges Training.",
+          nl: "MoE architecturen bevatten veel expert sub-netwerken maar activeren alleen een dunne subset voor elke input via een geleerd gating mechanisme. Dit stelt modellen in staat te schalen naar triljoenen parameters terwijl computationele efficiëntie behouden blijft, omdat elke input slechts een fractie van totale capaciteit gebruikt. Modellen zoals Switch Transformer en GPT-4 benutten MoE voor efficiënte grootschalige training."
+        }
+      },
+      {
+        question: {
+          en: "What is the exploration-exploitation dilemma in bandits and how do algorithms like UCB balance it?",
+          es: "¿Qué es el dilema exploración-explotación en bandits y cómo lo equilibran algoritmos como UCB?",
+          de: "Was ist das Exploration-Exploitation-Dilemma in Bandits und wie balancieren Algorithmen wie UCB es?",
+          nl: "Wat is het exploratie-exploitatie dilemma in bandits en hoe balanceren algoritmes zoals UCB het?"
+        },
+        options: [
+          { en: "Must choose between trying new options to gather information vs selecting currently best-known option, UCB adds optimism bonus", es: "Debe elegir entre probar nuevas opciones para recopilar información vs seleccionar opción actualmente mejor conocida, UCB agrega bonus de optimismo", de: "Muss wählen zwischen Versuch neuer Optionen um Information zu sammeln vs Auswahl aktuell best-bekannter Option, UCB fügt Optimismus-Bonus hinzu", nl: "Moet kiezen tussen nieuwe opties proberen om informatie te verzamelen vs selecteren van huidige best-bekende optie, UCB voegt optimisme bonus toe" },
+          { en: "Exploration finds bandits, exploitation uses them", es: "Exploración encuentra bandits, explotación los usa", de: "Exploration findet Bandits, Exploitation nutzt sie", nl: "Exploratie vindt bandits, exploitatie gebruikt ze" },
+          { en: "Balance between algorithm speed and accuracy", es: "Balance entre velocidad y precisión del algoritmo", de: "Balance zwischen Algorithmusgeschwindigkeit und Genauigkeit", nl: "Balans tussen algoritme snelheid en nauwkeurigheid" },
+          { en: "Trade-off between computational resources", es: "Compensación entre recursos computacionales", de: "Tradeoff zwischen Rechenressourcen", nl: "Afweging tussen computationele middelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In multi-armed bandits, agents must balance exploration (trying less-certain options to learn their values) with exploitation (choosing the best-known option). Upper Confidence Bound (UCB) algorithms add an exploration bonus proportional to uncertainty, selecting options with highest upper confidence bound. This provably achieves logarithmic regret, efficiently balancing exploration and exploitation.",
+          es: "En bandits multi-brazo, agentes deben equilibrar exploración (probar opciones menos ciertas para aprender sus valores) con explotación (elegir opción mejor conocida). Algoritmos Upper Confidence Bound (UCB) agregan bonus de exploración proporcional a incertidumbre, seleccionando opciones con límite superior de confianza más alto. Esto demostrablemente logra arrepentimiento logarítmico, equilibrando eficientemente exploración y explotación.",
+          de: "In Multi-Armed Bandits müssen Agenten Exploration (Versuch weniger sicherer Optionen um ihre Werte zu lernen) mit Exploitation (Wahl der best-bekannten Option) balancieren. Upper Confidence Bound (UCB) Algorithmen fügen Explorations-Bonus proportional zu Unsicherheit hinzu, wählen Optionen mit höchster oberer Vertrauensgrenze. Dies erreicht nachweislich logarithmisches Bedauern, balanciert effizient Exploration und Exploitation.",
+          nl: "In multi-armed bandits moeten agents exploratie (minder-zekere opties proberen om hun waarden te leren) balanceren met exploitatie (beste-bekende optie kiezen). Upper Confidence Bound (UCB) algoritmes voegen exploratie bonus toe proportioneel aan onzekerheid, selecteren opties met hoogste upper confidence bound. Dit bereikt bewijsbaar logaritmisch regret, balanceert efficiënt exploratie en exploitatie."
+        }
+      },
+      {
+        question: {
+          en: "What is the credit assignment problem in reinforcement learning and how do temporal-difference methods address it?",
+          es: "¿Qué es el problema de asignación de crédito en aprendizaje por refuerzo y cómo lo abordan métodos de diferencia temporal?",
+          de: "Was ist das Kreditvergabeproblem in Reinforcement Learning und wie behandeln Temporal-Difference-Methoden es?",
+          nl: "Wat is het credit assignment probleem in reinforcement learning en hoe pakken temporal-difference methoden het aan?"
+        },
+        options: [
+          { en: "Determining which past actions caused delayed rewards, TD learning bootstraps from value estimates to propagate credit faster", es: "Determinar qué acciones pasadas causaron recompensas retrasadas, aprendizaje TD hace bootstrap de estimaciones de valor para propagar crédito más rápido", de: "Bestimmen welche vergangenen Aktionen verzögerte Belohnungen verursachten, TD-Learning bootstrapt von Werteschätzungen um Kredit schneller zu propagieren", nl: "Bepalen welke eerdere acties vertraagde beloningen veroorzaakten, TD learning bootstrapt van waarde schattingen om credit sneller te propageren" },
+          { en: "Assigning credit scores to training examples", es: "Asignar puntajes de crédito a ejemplos de entrenamiento", de: "Zuweisen von Kreditscores zu Trainingsbeispielen", nl: "Toewijzen van credit scores aan trainingsvoorbeelden" },
+          { en: "Credit for discovering optimal policies", es: "Crédito por descubrir políticas óptimas", de: "Kredit für Entdeckung optimaler Richtlinien", nl: "Credit voor het ontdekken van optimale policies" },
+          { en: "Distributing computational credits", es: "Distribuir créditos computacionales", de: "Verteilung rechnerischer Kredite", nl: "Verdelen van computationele credits" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Credit assignment determines which actions in a sequence led to eventual rewards. TD methods like Q-learning and SARSA bootstrap by updating value estimates using predictions of future values rather than waiting for final outcomes (as in Monte Carlo). This allows faster learning by propagating information backwards through time after each step, addressing delayed reward challenges.",
+          es: "Asignación de crédito determina qué acciones en una secuencia llevaron a recompensas eventuales. Métodos TD como Q-learning y SARSA hacen bootstrap actualizando estimaciones de valor usando predicciones de valores futuros en lugar de esperar resultados finales (como en Monte Carlo). Esto permite aprendizaje más rápido propagando información hacia atrás en el tiempo después de cada paso, abordando desafíos de recompensa retrasada.",
+          de: "Kreditvergabe bestimmt welche Aktionen in einer Sequenz zu eventuellen Belohnungen führten. TD-Methoden wie Q-Learning und SARSA bootstrapen durch Aktualisierung von Werteschätzungen mit Vorhersagen zukünftiger Werte statt auf Endergebnisse zu warten (wie in Monte Carlo). Dies ermöglicht schnelleres Lernen durch Rückwärtspropagierung von Information durch Zeit nach jedem Schritt, behandelt verzögerte Belohnungsherausforderungen.",
+          nl: "Credit assignment bepaalt welke acties in een sequentie leidden tot eventuele beloningen. TD methoden zoals Q-learning en SARSA bootstrappen door waarde schattingen bij te werken met voorspellingen van toekomstige waarden in plaats van wachten op uiteindelijke uitkomsten (zoals in Monte Carlo). Dit maakt sneller leren mogelijk door informatie achterwaarts door tijd te propageren na elke stap, pakt vertraagde belonings uitdagingen aan."
+        }
+      },
+      {
+        question: {
+          en: "What is the Bellman equation and how does it enable dynamic programming in reinforcement learning?",
+          es: "¿Qué es la ecuación de Bellman y cómo habilita programación dinámica en aprendizaje por refuerzo?",
+          de: "Was ist die Bellman-Gleichung und wie ermöglicht sie dynamische Programmierung in Reinforcement Learning?",
+          nl: "Wat is de Bellman vergelijking en hoe maakt het dynamische programmering mogelijk in reinforcement learning?"
+        },
+        options: [
+          { en: "Recursive decomposition of value functions expressing optimal values as immediate reward plus discounted future values", es: "Descomposición recursiva de funciones de valor expresando valores óptimos como recompensa inmediata más valores futuros descontados", de: "Rekursive Zerlegung von Wertfunktionen ausdrückend optimale Werte als sofortige Belohnung plus diskontierte zukünftige Werte", nl: "Recursieve decompositie van waardefuncties die optimale waarden uitdrukken als directe beloning plus gedisconteerde toekomstige waarden" },
+          { en: "Equation for computing bell curves in statistics", es: "Ecuación para calcular curvas de campana en estadística", de: "Gleichung zur Berechnung von Glockenkurven in Statistik", nl: "Vergelijking voor het berekenen van klokcurves in statistiek" },
+          { en: "Formula for optimal model selection", es: "Fórmula para selección óptima de modelos", de: "Formel für optimale Modellauswahl", nl: "Formule voor optimale modelselectie" },
+          { en: "Dynamic programming complexity measure", es: "Medida de complejidad de programación dinámica", de: "Maß für dynamische Programmierungskomplexität", nl: "Dynamische programmering complexiteitsmaat" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Bellman equation expresses the value of a state recursively as V(s) = max_a [R(s,a) + γ Σ P(s'|s,a) V(s')], decomposing the value into immediate reward and expected discounted future value. This recursive structure enables dynamic programming algorithms like value iteration and policy iteration to efficiently compute optimal policies by bootstrapping from value estimates.",
+          es: "Ecuación de Bellman expresa valor de un estado recursivamente como V(s) = max_a [R(s,a) + γ Σ P(s'|s,a) V(s')], descomponiendo valor en recompensa inmediata y valor futuro descontado esperado. Esta estructura recursiva habilita algoritmos de programación dinámica como iteración de valor e iteración de política para calcular eficientemente políticas óptimas haciendo bootstrap de estimaciones de valor.",
+          de: "Bellman-Gleichung drückt den Wert eines Zustands rekursiv aus als V(s) = max_a [R(s,a) + γ Σ P(s'|s,a) V(s')], zerlegt Wert in sofortige Belohnung und erwarteten diskontierten zukünftigen Wert. Diese rekursive Struktur ermöglicht dynamische Programmieralgorithmen wie Wert-Iteration und Policy-Iteration um effizient optimale Richtlinien zu berechnen durch Bootstrapping von Werteschätzungen.",
+          nl: "Bellman vergelijking drukt de waarde van een staat recursief uit als V(s) = max_a [R(s,a) + γ Σ P(s'|s,a) V(s')], decomponneert waarde in directe beloning en verwachte gedisconteerde toekomstige waarde. Deze recursieve structuur maakt dynamische programmering algoritmes zoals waarde iteratie en policy iteratie mogelijk om efficiënt optimale policies te berekenen door te bootstrappen van waarde schattingen."
+        }
+      },
+      {
+        question: {
+          en: "What is actor-critic architecture in RL and how does it combine value-based and policy-based methods?",
+          es: "¿Qué es la arquitectura actor-crítico en RL y cómo combina métodos basados en valor y basados en política?",
+          de: "Was ist Actor-Critic-Architektur in RL und wie kombiniert sie wertbasierte und richtlinienbasierte Methoden?",
+          nl: "Wat is actor-critic architectuur in RL en hoe combineert het waarde-gebaseerde en policy-gebaseerde methoden?"
+        },
+        options: [
+          { en: "Actor learns policy selecting actions, critic evaluates actions via value function, critic guides actor's learning", es: "Actor aprende política seleccionando acciones, crítico evalúa acciones vía función de valor, crítico guía aprendizaje del actor", de: "Actor lernt Richtlinie wählend Aktionen, Critic bewertet Aktionen via Wertfunktion, Critic leitet Lernen des Actors", nl: "Actor leert policy selecterend acties, critic evalueert acties via waardefunctie, critic leidt leren van actor" },
+          { en: "Two actors compete, critic selects winner", es: "Dos actores compiten, crítico selecciona ganador", de: "Zwei Actors konkurrieren, Critic wählt Gewinner", nl: "Twee actors concurreren, critic selecteert winnaar" },
+          { en: "Actor performs actions, critic provides ratings", es: "Actor realiza acciones, crítico proporciona calificaciones", de: "Actor führt Aktionen aus, Critic gibt Bewertungen", nl: "Actor voert acties uit, critic geeft beoordelingen" },
+          { en: "Theatrical metaphor for dual-network training", es: "Metáfora teatral para entrenamiento de red dual", de: "Theatralische Metapher für duales Netzwerk-Training", nl: "Theatrale metafoor voor duaal netwerk training" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Actor-critic maintains two components: the actor (policy network) that selects actions, and the critic (value network) that estimates state/action values. The critic evaluates the actor's choices, providing lower-variance gradient estimates than policy gradients alone. This architecture combines strengths of value-based (stability) and policy-based (direct policy optimization) methods, used in algorithms like A3C and PPO.",
+          es: "Actor-crítico mantiene dos componentes: el actor (red de política) que selecciona acciones, y el crítico (red de valor) que estima valores de estado/acción. El crítico evalúa elecciones del actor, proporcionando estimaciones de gradiente de menor varianza que gradientes de política solos. Esta arquitectura combina fortalezas de métodos basados en valor (estabilidad) y basados en política (optimización directa de política), usada en algoritmos como A3C y PPO.",
+          de: "Actor-Critic erhält zwei Komponenten: den Actor (Policy-Netzwerk) der Aktionen wählt, und den Critic (Wert-Netzwerk) der Zustands-/Aktionswerte schätzt. Der Critic bewertet Wahlen des Actors, bietet Gradienten-Schätzungen mit geringerer Varianz als Policy-Gradienten allein. Diese Architektur kombiniert Stärken wertbasierter (Stabilität) und richtlinienbasierter (direkte Policy-Optimierung) Methoden, verwendet in Algorithmen wie A3C und PPO.",
+          nl: "Actor-critic behoudt twee componenten: de actor (policy netwerk) die acties selecteert, en de critic (waarde netwerk) die staat/actie waarden schat. De critic evalueert keuzes van de actor, biedt lagere-variantie gradiënt schattingen dan policy gradiënten alleen. Deze architectuur combineert sterke punten van waarde-gebaseerde (stabiliteit) en policy-gebaseerde (directe policy optimalisatie) methoden, gebruikt in algoritmes zoals A3C en PPO."
+        }
+      },
+      {
+        question: {
+          en: "What is proximal policy optimization (PPO) and why has it become a dominant RL algorithm?",
+          es: "¿Qué es la optimización de política proximal (PPO) y por qué se ha convertido en un algoritmo RL dominante?",
+          de: "Was ist Proximal Policy Optimization (PPO) und warum ist es zu einem dominanten RL-Algorithmus geworden?",
+          nl: "Wat is proximal policy optimization (PPO) en waarom is het een dominant RL algoritme geworden?"
+        },
+        options: [
+          { en: "Clips policy updates to prevent destructive large changes, balancing sample efficiency and stability for reliable training", es: "Recorta actualizaciones de política para prevenir cambios grandes destructivos, equilibrando eficiencia de muestra y estabilidad para entrenamiento confiable", de: "Clippt Policy-Updates um destruktive große Änderungen zu verhindern, balanciert Stichproben-Effizienz und Stabilität für zuverlässiges Training", nl: "Clipt policy updates om destructieve grote veranderingen te voorkomen, balanceert sample efficiëntie en stabiliteit voor betrouwbare training" },
+          { en: "Optimizes policies by proximity to optimal solution", es: "Optimiza políticas por proximidad a solución óptima", de: "Optimiert Richtlinien durch Nähe zu optimaler Lösung", nl: "Optimaliseert policies door nabijheid tot optimale oplossing" },
+          { en: "Uses proximal gradients for faster convergence", es: "Usa gradientes proximales para convergencia más rápida", de: "Verwendet proximale Gradienten für schnellere Konvergenz", nl: "Gebruikt proximale gradiënten voor snellere convergentie" },
+          { en: "Approximately optimal policy search", es: "Búsqueda de política aproximadamente óptima", de: "Ungefähr optimale Richtliniensuche", nl: "Ongeveer optimale policy zoektocht" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "PPO constrains policy updates by clipping the objective function to prevent overly large policy changes that could destabilize training. This simple modification to trust region methods achieves comparable performance to TRPO with first-order optimization, making it more practical. PPO's robustness, sample efficiency, and ease of implementation have made it the go-to algorithm for continuous control and has been used to train ChatGPT.",
+          es: "PPO restringe actualizaciones de política recortando función objetivo para prevenir cambios de política excesivamente grandes que podrían desestabilizar entrenamiento. Esta modificación simple a métodos de región de confianza logra rendimiento comparable a TRPO con optimización de primer orden, haciéndolo más práctico. Robustez de PPO, eficiencia de muestra y facilidad de implementación lo han hecho el algoritmo preferido para control continuo y se ha usado para entrenar ChatGPT.",
+          de: "PPO beschränkt Policy-Updates durch Clippen der Zielfunktion um übermäßig große Policy-Änderungen zu verhindern die Training destabilisieren könnten. Diese einfache Modifikation zu Trust-Region-Methoden erreicht vergleichbare Leistung zu TRPO mit Optimierung erster Ordnung, macht es praktischer. PPOs Robustheit, Stichproben-Effizienz und einfache Implementierung haben es zum bevorzugten Algorithmus für kontinuierliche Steuerung gemacht und wurde verwendet um ChatGPT zu trainieren.",
+          nl: "PPO beperkt policy updates door de objectieve functie te clippen om te grote policy veranderingen te voorkomen die training konden destabiliseren. Deze eenvoudige modificatie van trust region methoden bereikt vergelijkbare prestaties als TRPO met eerste-orde optimalisatie, maakt het praktischer. PPO's robuustheid, sample efficiëntie en gemak van implementatie hebben het het go-to algoritme gemaakt voor continue controle en is gebruikt om ChatGPT te trainen."
+        }
+      },
+      {
+        question: {
+          en: "What is model-based RL and how does it differ from model-free approaches in sample efficiency?",
+          es: "¿Qué es RL basado en modelo y cómo difiere de enfoques sin modelo en eficiencia de muestra?",
+          de: "Was ist modellbasiertes RL und wie unterscheidet es sich von modellfreien Ansätzen in Stichproben-Effizienz?",
+          nl: "Wat is model-gebaseerde RL en hoe verschilt het van model-vrije benaderingen in sample efficiëntie?"
+        },
+        options: [
+          { en: "Learns environment dynamics model for planning and simulation, achieving higher sample efficiency through imagined experience", es: "Aprende modelo de dinámica de entorno para planificación y simulación, logrando mayor eficiencia de muestra a través de experiencia imaginada", de: "Lernt Umgebungsdynamik-Modell für Planung und Simulation, erreicht höhere Stichproben-Effizienz durch imaginierte Erfahrung", nl: "Leert omgevingsdynamica model voor planning en simulatie, bereikt hogere sample efficiëntie door verbeelde ervaring" },
+          { en: "Uses pre-trained models for RL tasks", es: "Usa modelos pre-entrenados para tareas RL", de: "Verwendet vortrainierte Modelle für RL-Aufgaben", nl: "Gebruikt voorgetrainde modellen voor RL taken" },
+          { en: "Models the reward function explicitly", es: "Modela la función de recompensa explícitamente", de: "Modelliert die Belohnungsfunktion explizit", nl: "Modelleert de beloningsfunctie expliciet" },
+          { en: "Based on statistical models only", es: "Basado solo en modelos estadísticos", de: "Nur auf statistischen Modellen basierend", nl: "Alleen gebaseerd op statistische modellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Model-based RL learns a model of environment dynamics (transition and reward functions), enabling planning and simulation of trajectories without real environment interaction. This dramatically improves sample efficiency compared to model-free methods (Q-learning, policy gradients) that learn directly from experience. However, model errors can accumulate, and modern approaches like MuZero and Dreamer combine model-based planning with model-free optimization.",
+          es: "RL basado en modelo aprende un modelo de dinámica de entorno (funciones de transición y recompensa), habilitando planificación y simulación de trayectorias sin interacción real con entorno. Esto mejora dramáticamente eficiencia de muestra comparado con métodos sin modelo (Q-learning, gradientes de política) que aprenden directamente de experiencia. Sin embargo, errores de modelo pueden acumularse, y enfoques modernos como MuZero y Dreamer combinan planificación basada en modelo con optimización sin modelo.",
+          de: "Modellbasiertes RL lernt ein Modell der Umgebungsdynamik (Übergangs- und Belohnungsfunktionen), ermöglicht Planung und Simulation von Trajektorien ohne echte Umgebungsinteraktion. Dies verbessert dramatisch Stichproben-Effizienz verglichen mit modellfreien Methoden (Q-Learning, Policy-Gradienten) die direkt aus Erfahrung lernen. Jedoch können Modellfehler sich akkumulieren, und moderne Ansätze wie MuZero und Dreamer kombinieren modellbasierte Planung mit modellfreier Optimierung.",
+          nl: "Model-gebaseerde RL leert een model van omgevingsdynamica (transitie en beloningsfuncties), maakt planning en simulatie van trajecten mogelijk zonder echte omgevingsinteractie. Dit verbetert dramatisch sample efficiëntie vergeleken met model-vrije methoden (Q-learning, policy gradiënten) die direct leren van ervaring. Echter modelfouten kunnen accumuleren, en moderne benaderingen zoals MuZero en Dreamer combineren model-gebaseerde planning met model-vrije optimalisatie."
+        }
       }
     ]
   };

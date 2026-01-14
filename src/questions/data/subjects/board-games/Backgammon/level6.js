@@ -825,7 +825,18 @@
           es: "Equity de dinero es valor esperado en puntos o dólares para el juego actual, tratando cada juego independientemente. Equity de match es tu probabilidad de ganar el match completo desde el marcador actual. Una posición de dinero +0.400 podría valer equity de match diferente en diferentes marcadores (ej., sin valor en DMP, enorme en 2-away 3-away).",
           de: "Geld-Equity ist erwarteter Wert in Punkten oder Dollar für das aktuelle Spiel, jedes Spiel unabhängig behandelnd. Match-Equity ist Ihre Wahrscheinlichkeit das gesamte Match vom aktuellen Stand zu gewinnen. Eine +0,400 Geld-Position könnte unterschiedliches Match-Equity bei verschiedenen Ständen wert sein (z.B. wertlos bei DMP, riesig bei 2-away 3-away).",
           nl: "Geld equity is verwachte waarde in punten of dollars voor het huidige spel, elk spel onafhankelijk behandelend. Wedstrijd equity is je waarschijnlijkheid om de hele wedstrijd te winnen vanaf de huidige score. Een +0,400 geld positie zou verschillende wedstrijd equity waard kunnen zijn bij verschillende scores (bijv. waardeloos bij DMP, enorm bij 2-away 3-away)."
-        }
+        }    },
+    {
+      question: {en: "What is strategy in games?", es: "What is strategy in games?", de: "What is strategy in games?", nl: "What is strategy in games?"},
+      options: [
+        {en: "Planning to achieve objectives", es: "Planning to achieve objectives", de: "Planning to achieve objectives", nl: "Planning to achieve objectives"},
+        {en: "Random moves", es: "Random moves", de: "Random moves", nl: "Random moves"},
+        {en: "Luck only", es: "Luck only", de: "Luck only", nl: "Luck only"},
+        {en: "No planning", es: "No planning", de: "No planning", nl: "No planning"}
+      ],
+      correct: 0,
+      explanation: {en: "Strategy involves planning and decision-making to achieve game objectives.", es: "Strategy involves planning and decision-making to achieve game objectives.", de: "Strategy involves planning and decision-making to achieve game objectives.", nl: "Strategy involves planning and decision-making to achieve game objectives."}
+
       }
     ]
   };

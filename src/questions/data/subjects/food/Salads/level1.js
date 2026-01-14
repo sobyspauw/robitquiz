@@ -409,23 +409,254 @@
       },
       {
         question: {
-          en: "What is the main difference between a green salad and a composed salad?",
-          es: "¿Cuál es la principal diferencia entre una ensalada verde y una ensalada compuesta?",
-          de: "Was ist der Hauptunterschied zwischen einem grünen Salat und einem komponierten Salat?",
-          nl: "Wat is het belangrijkste verschil tussen een groene salade en een samengestelde salade?"
+          en: "What are croutons made from?",
+          es: "¿De qué están hechos los picatostes?",
+          de: "Woraus werden Croutons gemacht?",
+          nl: "Waar zijn croutons van gemaakt?"
         },
         options: [
-          { en: "Green salads use only leafy greens, composed salads include various ingredients arranged together", es: "Las ensaladas verdes usan solo hojas verdes, las ensaladas compuestas incluyen varios ingredientes organizados juntos", de: "Grüne Salate verwenden nur Blattgrün, komponierte Salate enthalten verschiedene zusammen arrangierte Zutaten", nl: "Groene salades gebruiken alleen bladgroenten, samengestelde salades bevatten verschillende ingrediënten samen gerangschikt" },
-          { en: "Green salads are always cold, composed salads are warm", es: "Las ensaladas verdes siempre están frías, las ensaladas compuestas están calientes", de: "Grüne Salate sind immer kalt, komponierte Salate sind warm", nl: "Groene salades zijn altijd koud, samengestelde salades zijn warm" },
-          { en: "Green salads have dressing, composed salads don't", es: "Las ensaladas verdes tienen aderezo, las ensaladas compuestas no", de: "Grüne Salate haben Dressing, komponierte Salate nicht", nl: "Groene salades hebben dressing, samengestelde salades niet" },
-          { en: "There is no difference", es: "No hay diferencia", de: "Es gibt keinen Unterschied", nl: "Er is geen verschil" }
+          { en: "Cheese", es: "Queso", de: "Käse", nl: "Kaas" },
+          { en: "Bread that's been cubed and toasted or fried", es: "Pan que se ha cortado en cubos y tostado o frito", de: "Brot, das gewürfelt und getoastet oder frittiert wurde", nl: "Brood dat in blokjes is gesneden en geroosterd of gebakken" },
+          { en: "Vegetables", es: "Verduras", de: "Gemüse", nl: "Groenten" },
+          { en: "Pasta", es: "Pasta", de: "Nudeln", nl: "Pasta" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Croutons are small cubes of bread that have been toasted or fried until crispy. They add texture and crunch to salads and are often seasoned with herbs, garlic, or butter for extra flavor.",
+          es: "Los picatostes son pequeños cubos de pan que se han tostado o frito hasta quedar crujientes. Añaden textura y crujido a las ensaladas y a menudo se sazonan con hierbas, ajo o mantequilla para sabor adicional.",
+          de: "Croutons sind kleine Brotwürfel, die geröstet oder frittiert wurden, bis sie knusprig sind. Sie fügen Salaten Textur und Crunch hinzu und werden oft mit Kräutern, Knoblauch oder Butter für zusätzlichen Geschmack gewürzt.",
+          nl: "Croutons zijn kleine blokjes brood die geroosterd of gebakken zijn tot ze knapperig zijn. Ze voegen textuur en knapperigheid toe aan salades en worden vaak gekruid met kruiden, knoflook of boter voor extra smaak."
+        }
+      },
+      {
+        question: {
+          en: "Which common salad ingredient is botanically a fruit, not a vegetable?",
+          es: "¿Qué ingrediente común de ensalada es botánicamente una fruta, no una verdura?",
+          de: "Welche gängige Salatzutat ist botanisch gesehen eine Frucht, kein Gemüse?",
+          nl: "Welk veelvoorkomend salade-ingrediënt is botanisch gezien een vrucht, geen groente?"
+        },
+        options: [
+          { en: "Carrot", es: "Zanahoria", de: "Karotte", nl: "Wortel" },
+          { en: "Celery", es: "Apio", de: "Sellerie", nl: "Selderij" },
+          { en: "Tomato", es: "Tomate", de: "Tomate", nl: "Tomaat" },
+          { en: "Radish", es: "Rábano", de: "Rettich", nl: "Radijs" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Tomatoes are botanically classified as fruits because they develop from the flower of the plant and contain seeds. However, they're commonly used as vegetables in cooking due to their savory flavor profile.",
+          es: "Los tomates están clasificados botánicamente como frutas porque se desarrollan a partir de la flor de la planta y contienen semillas. Sin embargo, comúnmente se usan como verduras en la cocina debido a su perfil de sabor salado.",
+          de: "Tomaten werden botanisch als Früchte klassifiziert, weil sie sich aus der Blüte der Pflanze entwickeln und Samen enthalten. Sie werden jedoch aufgrund ihres herzhaften Geschmacksprofils häufig als Gemüse in der Küche verwendet.",
+          nl: "Tomaten worden botanisch geclassificeerd als vruchten omdat ze zich ontwikkelen uit de bloem van de plant en zaden bevatten. Ze worden echter vaak als groenten gebruikt in de keuken vanwege hun hartige smaakprofiel."
+        }
+      },
+      {
+        question: {
+          en: "What is the typical serving size for a side salad?",
+          es: "¿Cuál es el tamaño de porción típico para una ensalada de acompañamiento?",
+          de: "Was ist die typische Portionsgröße für einen Beilagensalat?",
+          nl: "Wat is de gebruikelijke portiegrootte voor een bijsalade?"
+        },
+        options: [
+          { en: "About 1 cup or a handful of greens", es: "Aproximadamente 1 taza o un puñado de hojas verdes", de: "Etwa 1 Tasse oder eine Handvoll Grüns", nl: "Ongeveer 1 kopje of een handvol groenten" },
+          { en: "5 cups of greens", es: "5 tazas de hojas verdes", de: "5 Tassen Grüns", nl: "5 kopjes groenten" },
+          { en: "One leaf of lettuce", es: "Una hoja de lechuga", de: "Ein Salatblatt", nl: "Een slabadje" },
+          { en: "A full dinner plate of salad", es: "Un plato lleno de ensalada", de: "Ein voller Essteller Salat", nl: "Een vol dinerbord salade" }
         ],
         correct: 0,
         explanation: {
-          en: "Green salads primarily consist of leafy greens like lettuce, spinach, or arugula, while composed salads combine multiple ingredients like vegetables, proteins, fruits, nuts, and cheese arranged in an attractive presentation.",
-          es: "Las ensaladas verdes consisten principalmente en hojas verdes como lechuga, espinaca o rúcula, mientras que las ensaladas compuestas combinan múltiples ingredientes como verduras, proteínas, frutas, nueces y queso organizados en una presentación atractiva.",
-          de: "Grüne Salate bestehen hauptsächlich aus Blattgrün wie Kopfsalat, Spinat oder Rucola, während komponierte Salate mehrere Zutaten wie Gemüse, Proteine, Früchte, Nüsse und Käse in einer attraktiven Präsentation kombinieren.",
-          nl: "Groene salades bestaan voornamelijk uit bladgroenten zoals sla, spinazie of rucola, terwijl samengestelde salades meerdere ingrediënten zoals groenten, eiwitten, fruit, noten en kaas combineren in een aantrekkelijke presentatie."
+          en: "A typical side salad serving is about 1-2 cups of leafy greens with additional toppings. This provides a good balance as an accompaniment to a main course without being too filling.",
+          es: "Una porción típica de ensalada de acompañamiento es aproximadamente 1-2 tazas de hojas verdes con ingredientes adicionales. Esto proporciona un buen equilibrio como acompañamiento de un plato principal sin ser demasiado abundante.",
+          de: "Eine typische Beilagensalat-Portion beträgt etwa 1-2 Tassen Blattgrün mit zusätzlichen Toppings. Dies bietet ein gutes Gleichgewicht als Beilage zu einem Hauptgericht, ohne zu sättigend zu sein.",
+          nl: "Een gebruikelijke bijsalade portie is ongeveer 1-2 kopjes bladgroenten met extra toppings. Dit biedt een goede balans als bijgerecht bij een hoofdgerecht zonder te verzadigend te zijn."
+        }
+      },
+      {
+        question: {
+          en: "Why should salad dressing be added just before serving?",
+          es: "¿Por qué debe agregarse el aderezo para ensalada justo antes de servir?",
+          de: "Warum sollte Salatdressing erst kurz vor dem Servieren hinzugefügt werden?",
+          nl: "Waarom moet saladedressing vlak voor het serveren toegevoegd worden?"
+        },
+        options: [
+          { en: "To prevent the greens from wilting and becoming soggy", es: "Para prevenir que las hojas verdes se marchiten y se ablanden", de: "Um zu verhindern, dass die Grüns welken und matschig werden", nl: "Om te voorkomen dat de groenten verwelken en slap worden" },
+          { en: "To make the salad look prettier", es: "Para hacer que la ensalada se vea más bonita", de: "Um den Salat hübscher aussehen zu lassen", nl: "Om de salade er mooier uit te laten zien" },
+          { en: "To save dressing", es: "Para ahorrar aderezo", de: "Um Dressing zu sparen", nl: "Om dressing te besparen" },
+          { en: "Because dressing doesn't stick to dry lettuce", es: "Porque el aderezo no se adhiere a la lechuga seca", de: "Weil Dressing nicht an trockenem Salat haftet", nl: "Omdat dressing niet aan droge sla blijft hangen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dressing should be added just before serving because the acid and salt in dressing will cause delicate salad greens to wilt and release water, making the salad soggy. Dressed salad is best eaten immediately.",
+          es: "El aderezo debe agregarse justo antes de servir porque el ácido y la sal en el aderezo harán que las hojas verdes delicadas se marchiten y liberen agua, haciendo que la ensalada se ablande. La ensalada aderezada es mejor comerla inmediatamente.",
+          de: "Dressing sollte erst kurz vor dem Servieren hinzugefügt werden, weil die Säure und das Salz im Dressing dazu führen, dass zarte Salatgrüns welken und Wasser abgeben, wodurch der Salat matschig wird. Angemachter Salat sollte sofort gegessen werden.",
+          nl: "Dressing moet vlak voor het serveren toegevoegd worden omdat het zuur en zout in dressing ervoor zorgt dat delicate slagroenten verwelken en water vrijgeven, waardoor de salade slap wordt. Aangeklede salade wordt het beste onmiddellijk gegeten."
+        }
+      },
+      {
+        question: {
+          en: "What kitchen tool is used to remove excess water from washed salad greens?",
+          es: "¿Qué herramienta de cocina se usa para quitar el exceso de agua de las hojas verdes lavadas?",
+          de: "Welches Küchenwerkzeug wird verwendet, um überschüssiges Wasser von gewaschenen Salatgrüns zu entfernen?",
+          nl: "Welk keukengerei wordt gebruikt om overtollig water van gewassen slagroenten te verwijderen?"
+        },
+        options: [
+          { en: "A blender", es: "Una licuadora", de: "Ein Mixer", nl: "Een blender" },
+          { en: "A salad spinner", es: "Una centrifugadora para ensaladas", de: "Eine Salatschleuder", nl: "Een slacentrifuge" },
+          { en: "A grater", es: "Un rallador", de: "Eine Reibe", nl: "Een rasp" },
+          { en: "A strainer", es: "Un colador", de: "Ein Sieb", nl: "Een zeef" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "A salad spinner uses centrifugal force to remove water from washed greens quickly and efficiently. Dry greens are important because excess water prevents dressing from adhering properly and can dilute the dressing's flavor.",
+          es: "Una centrifugadora para ensaladas usa fuerza centrífuga para quitar agua de las hojas verdes lavadas rápida y eficientemente. Las hojas verdes secas son importantes porque el exceso de agua previene que el aderezo se adhiera apropiadamente y puede diluir el sabor del aderezo.",
+          de: "Eine Salatschleuder nutzt Zentrifugalkraft, um Wasser von gewaschenen Grüns schnell und effizient zu entfernen. Trockene Grüns sind wichtig, weil überschüssiges Wasser verhindert, dass Dressing richtig haftet und den Geschmack des Dressings verdünnen kann.",
+          nl: "Een slacentrifuge gebruikt centrifugale kracht om water van gewassen groenten snel en efficiënt te verwijderen. Droge groenten zijn belangrijk omdat overtollig water voorkomt dat dressing goed hecht en de smaak van de dressing kan verdunnen."
+        }
+      },
+      {
+        question: {
+          en: "Which of these vegetables adds a crunchy texture to salads?",
+          es: "¿Cuál de estas verduras agrega una textura crujiente a las ensaladas?",
+          de: "Welches dieser Gemüse fügt Salaten eine knackige Textur hinzu?",
+          nl: "Welke van deze groenten voegt een knapperige textuur toe aan salades?"
+        },
+        options: [
+          { en: "Cucumber", es: "Pepino", de: "Gurke", nl: "Komkommer" },
+          { en: "Cooked beets", es: "Remolachas cocidas", de: "Gekochte Rüben", nl: "Gekookte bieten" },
+          { en: "Avocado", es: "Aguacate", de: "Avocado", nl: "Avocado" },
+          { en: "Roasted peppers", es: "Pimientos asados", de: "Geröstete Paprika", nl: "Geroosterde paprika's" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cucumbers add a refreshing, crunchy texture to salads due to their high water content and firm flesh. They provide a nice contrast to softer ingredients and help create textural variety in salads.",
+          es: "Los pepinos agregan una textura refrescante y crujiente a las ensaladas debido a su alto contenido de agua y carne firme. Proporcionan un buen contraste a ingredientes más suaves y ayudan a crear variedad textural en las ensaladas.",
+          de: "Gurken fügen Salaten eine erfrischende, knackige Textur hinzu aufgrund ihres hohen Wassergehalts und festen Fleisches. Sie bieten einen schönen Kontrast zu weicheren Zutaten und helfen, texturale Vielfalt in Salaten zu schaffen.",
+          nl: "Komkommers voegen een verfrissende, knapperige textuur toe aan salades vanwege hun hoge watergehalte en stevige vlees. Ze bieden een mooi contrast met zachtere ingrediënten en helpen texturele variatie in salades te creëren."
+        }
+      },
+      {
+        question: {
+          en: "What does it mean when a salad is described as 'tossed'?",
+          es: "¿Qué significa cuando una ensalada se describe como 'mezclada'?",
+          de: "Was bedeutet es, wenn ein Salat als 'gemischt' beschrieben wird?",
+          nl: "Wat betekent het wanneer een salade wordt beschreven als 'gemengd'?"
+        },
+        options: [
+          { en: "The ingredients have been mixed together with dressing", es: "Los ingredientes se han mezclado juntos con aderezo", de: "Die Zutaten wurden mit Dressing zusammengemischt", nl: "De ingrediënten zijn samen met dressing gemengd" },
+          { en: "The salad was thrown in the garbage", es: "La ensalada fue tirada a la basura", de: "Der Salat wurde in den Müll geworfen", nl: "De salade werd in de vuilnis gegooid" },
+          { en: "The salad is served on a bed of bread", es: "La ensalada se sirve sobre una cama de pan", de: "Der Salat wird auf einem Bett aus Brot serviert", nl: "De salade wordt geserveerd op een bed van brood" },
+          { en: "The vegetables are arranged in rows", es: "Las verduras están organizadas en filas", de: "Das Gemüse ist in Reihen angeordnet", nl: "De groenten zijn in rijen gerangschikt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A 'tossed' salad means the ingredients have been mixed or tossed together with dressing in a bowl, ensuring all components are evenly coated. This is different from a composed salad where ingredients are arranged separately.",
+          es: "Una ensalada 'mezclada' significa que los ingredientes se han mezclado o mezclado juntos con aderezo en un tazón, asegurando que todos los componentes estén uniformemente cubiertos. Esto es diferente de una ensalada compuesta donde los ingredientes se organizan por separado.",
+          de: "Ein 'gemischter' Salat bedeutet, dass die Zutaten mit Dressing in einer Schüssel gemischt oder gewendet wurden, um sicherzustellen, dass alle Komponenten gleichmäßig bedeckt sind. Dies unterscheidet sich von einem komponierten Salat, bei dem die Zutaten separat angeordnet sind.",
+          nl: "Een 'gemengde' salade betekent dat de ingrediënten met dressing in een kom gemengd of geroerd zijn, waardoor alle componenten gelijkmatig bedekt zijn. Dit is anders dan een samengestelde salade waar ingrediënten apart gerangschikt zijn."
+        }
+      },
+      {
+        question: {
+          en: "What type of salad consists primarily of fruits?",
+          es: "¿Qué tipo de ensalada consiste principalmente de frutas?",
+          de: "Welche Art von Salat besteht hauptsächlich aus Früchten?",
+          nl: "Welk type salade bestaat voornamelijk uit fruit?"
+        },
+        options: [
+          { en: "Green salad", es: "Ensalada verde", de: "Grüner Salat", nl: "Groene salade" },
+          { en: "Fruit salad", es: "Ensalada de frutas", de: "Obstsalat", nl: "Fruitsalade" },
+          { en: "Caesar salad", es: "Ensalada César", de: "Caesar-Salat", nl: "Caesar salade" },
+          { en: "Pasta salad", es: "Ensalada de pasta", de: "Nudelsalat", nl: "Pastasalade" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "A fruit salad is made primarily from various fresh fruits, often mixed together and sometimes dressed with fruit juice, honey, or a light syrup. It can be served as a dessert, side dish, or light meal.",
+          es: "Una ensalada de frutas se hace principalmente de varias frutas frescas, a menudo mezcladas juntas y a veces aderezadas con jugo de frutas, miel o un jarabe ligero. Puede servirse como postre, plato de acompañamiento o comida ligera.",
+          de: "Ein Obstsalat wird hauptsächlich aus verschiedenen frischen Früchten gemacht, oft zusammengemischt und manchmal mit Fruchtsaft, Honig oder einem leichten Sirup angemacht. Er kann als Dessert, Beilage oder leichte Mahlzeit serviert werden.",
+          nl: "Een fruitsalade wordt voornamelijk gemaakt van verschillende verse vruchten, vaak samen gemengd en soms aangekleed met vruchtensap, honing of een lichte siroop. Het kan geserveerd worden als dessert, bijgerecht of lichte maaltijd."
+        }
+      },
+      {
+        question: {
+          en: "Which vegetable is commonly spiralized to create noodle-like strands for salads?",
+          es: "¿Qué verdura se espiralize comúnmente para crear hebras como fideos para ensaladas?",
+          de: "Welches Gemüse wird üblicherweise spiralisiert, um nudelartige Stränge für Salate zu erstellen?",
+          nl: "Welke groente wordt vaak gespiraliseerd om noedelachtige strengen te maken voor salades?"
+        },
+        options: [
+          { en: "Broccoli", es: "Brócoli", de: "Brokkoli", nl: "Broccoli" },
+          { en: "Zucchini", es: "Calabacín", de: "Zucchini", nl: "Courgette" },
+          { en: "Cauliflower", es: "Coliflor", de: "Blumenkohl", nl: "Bloemkool" },
+          { en: "Peas", es: "Guisantes", de: "Erbsen", nl: "Erwten" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Zucchini is commonly spiralized to create zucchini noodles (often called 'zoodles') for raw salads. The spiralizer cuts the vegetable into long, thin, noodle-like strands that can be used as a low-carb alternative to pasta in salads.",
+          es: "El calabacín comúnmente se espiralize para crear fideos de calabacín (a menudo llamados 'zoodles') para ensaladas crudas. El espiralizador corta la verdura en hebras largas, delgadas y como fideos que pueden usarse como alternativa baja en carbohidratos a la pasta en ensaladas.",
+          de: "Zucchini wird üblicherweise spiralisiert, um Zucchini-Nudeln (oft 'Zoodles' genannt) für rohe Salate zu erstellen. Der Spiralschneider schneidet das Gemüse in lange, dünne, nudelartige Stränge, die als kohlenhydratarme Alternative zu Pasta in Salaten verwendet werden können.",
+          nl: "Courgette wordt vaak gespiraliseerd om courgette noedels (vaak 'zoodles' genoemd) te maken voor rauwe salades. De spiralizer snijdt de groente in lange, dunne, noedelachtige strengen die gebruikt kunnen worden als koolhydraatarm alternatief voor pasta in salades."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of adding cheese to a salad?",
+          es: "¿Cuál es el propósito de agregar queso a una ensalada?",
+          de: "Was ist der Zweck, Käse zu einem Salat hinzuzufügen?",
+          nl: "Wat is het doel van het toevoegen van kaas aan een salade?"
+        },
+        options: [
+          { en: "To add protein, flavor, and creamy or salty elements", es: "Para agregar proteína, sabor y elementos cremosos o salados", de: "Um Protein, Geschmack und cremige oder salzige Elemente hinzuzufügen", nl: "Om eiwit, smaak en romige of zoute elementen toe te voegen" },
+          { en: "To make the salad heavier", es: "Para hacer la ensalada más pesada", de: "Um den Salat schwerer zu machen", nl: "Om de salade zwaarder te maken" },
+          { en: "To change the color of the salad", es: "Para cambiar el color de la ensalada", de: "Um die Farbe des Salats zu ändern", nl: "Om de kleur van de salade te veranderen" },
+          { en: "Cheese should never be added to salads", es: "El queso nunca debe agregarse a las ensaladas", de: "Käse sollte niemals zu Salaten hinzugefügt werden", nl: "Kaas moet nooit aan salades worden toegevoegd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cheese adds protein, fat, and complex flavors to salads. Different cheeses provide different qualities: feta adds saltiness and tang, parmesan adds nuttiness, blue cheese adds pungency, and mozzarella adds creaminess.",
+          es: "El queso agrega proteína, grasa y sabores complejos a las ensaladas. Diferentes quesos proporcionan diferentes cualidades: el feta agrega salinidad y acidez, el parmesano agrega sabor a nuez, el queso azul agrega pungencia, y la mozzarella agrega cremosidad.",
+          de: "Käse fügt Salaten Protein, Fett und komplexe Aromen hinzu. Verschiedene Käsesorten bieten verschiedene Qualitäten: Feta fügt Salzigkeit und Säure hinzu, Parmesan fügt Nussigkeit hinzu, Blauschimmelkäse fügt Schärfe hinzu, und Mozzarella fügt Cremigkeit hinzu.",
+          nl: "Kaas voegt eiwit, vet en complexe smaken toe aan salades. Verschillende kazen bieden verschillende kwaliteiten: feta voegt zoutigheid en zuurheid toe, parmezaan voegt nootachtigheid toe, blauwe kaas voegt scherpte toe, en mozzarella voegt romigheid toe."
+        }
+      },
+      {
+        question: {
+          en: "Which salad ingredient provides healthy omega-3 fatty acids?",
+          es: "¿Qué ingrediente de ensalada proporciona ácidos grasos omega-3 saludables?",
+          de: "Welche Salatzutat liefert gesunde Omega-3-Fettsäuren?",
+          nl: "Welk salade-ingrediënt levert gezonde omega-3 vetzuren?"
+        },
+        options: [
+          { en: "Iceberg lettuce", es: "Lechuga iceberg", de: "Eisbergsalat", nl: "IJsbergsla" },
+          { en: "Walnuts", es: "Nueces", de: "Walnüsse", nl: "Walnoten" },
+          { en: "Croutons", es: "Picatostes", de: "Croutons", nl: "Croutons" },
+          { en: "Tomatoes", es: "Tomates", de: "Tomaten", nl: "Tomaten" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Walnuts are an excellent source of plant-based omega-3 fatty acids, which are beneficial for heart and brain health. They're one of the few nuts that provide significant amounts of this essential fatty acid.",
+          es: "Las nueces son una excelente fuente de ácidos grasos omega-3 de origen vegetal, que son beneficiosos para la salud del corazón y el cerebro. Son una de las pocas nueces que proporcionan cantidades significativas de este ácido graso esencial.",
+          de: "Walnüsse sind eine ausgezeichnete Quelle für pflanzliche Omega-3-Fettsäuren, die für die Gesundheit von Herz und Gehirn von Vorteil sind. Sie sind eine der wenigen Nüsse, die signifikante Mengen dieser essentiellen Fettsäure liefern.",
+          nl: "Walnoten zijn een uitstekende bron van plantaardige omega-3 vetzuren, die gunstig zijn voor de gezondheid van hart en hersenen. Ze zijn een van de weinige noten die aanzienlijke hoeveelheden van dit essentiële vetzuur leveren."
+        }
+      },
+      {
+        question: {
+          en: "What is a simple way to tell if lettuce is fresh when buying it?",
+          es: "¿Cuál es una manera simple de saber si la lechuga está fresca al comprarla?",
+          de: "Was ist eine einfache Methode, um beim Kauf festzustellen, ob Salat frisch ist?",
+          nl: "Wat is een eenvoudige manier om te zien of sla vers is bij het kopen?"
+        },
+        options: [
+          { en: "The leaves should be crisp, bright colored, and free from brown spots", es: "Las hojas deben ser crujientes, de color brillante y sin manchas marrones", de: "Die Blätter sollten knackig, leuchtend gefärbt und frei von braunen Flecken sein", nl: "De bladeren moeten knapperig zijn, helder gekleurd en vrij van bruine vlekken" },
+          { en: "It should smell strongly of chlorine", es: "Debe oler fuertemente a cloro", de: "Es sollte stark nach Chlor riechen", nl: "Het moet sterk naar chloor ruiken" },
+          { en: "The leaves should be soft and wilted", es: "Las hojas deben ser suaves y marchitas", de: "Die Blätter sollten weich und welk sein", nl: "De bladeren moeten zacht en verwelkt zijn" },
+          { en: "It should feel warm to the touch", es: "Debe sentirse caliente al tacto", de: "Es sollte sich warm anfühlen", nl: "Het moet warm aanvoelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Fresh lettuce should have crisp, firm leaves with bright, vibrant color. Avoid lettuce with brown edges, wilted leaves, or slimy spots, as these indicate age or improper storage. Fresh lettuce should also feel heavy for its size.",
+          es: "La lechuga fresca debe tener hojas crujientes y firmes con color brillante y vibrante. Evite la lechuga con bordes marrones, hojas marchitas o manchas viscosas, ya que estos indican edad o almacenamiento inadecuado. La lechuga fresca también debe sentirse pesada para su tamaño.",
+          de: "Frischer Salat sollte knackige, feste Blätter mit heller, lebendiger Farbe haben. Vermeiden Sie Salat mit braunen Rändern, welken Blättern oder schleimigen Stellen, da diese auf Alter oder unsachgemäße Lagerung hinweisen. Frischer Salat sollte sich auch schwer für seine Größe anfühlen.",
+          nl: "Verse sla moet knapperige, stevige bladeren hebben met heldere, levendige kleur. Vermijd sla met bruine randen, verwelkte bladeren of slijmerige plekken, want deze duiden op ouderdom of onjuiste opslag. Verse sla moet zich ook zwaar aanvoelen voor zijn grootte."
         }
       }
     ]

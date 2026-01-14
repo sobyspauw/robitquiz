@@ -427,6 +427,405 @@
           de: "Rigatonis große Röhrenform und Rillen sind ideal, um stückige Saucen mit Gemüse und Fleischstücken innen und außen aufzufangen.",
           nl: "Rigatoni's grote buisvorm en ribbels zijn ideaal voor het vangen van dikke sauzen met groenten en vleesstukjes binnen en buiten."
         }
+      },
+      {
+        question: {
+          en: "What is angel hair pasta also called?",
+          es: "¿Cómo se llama también la pasta cabello de ángel?",
+          de: "Wie wird Engelshaar-Pasta auch genannt?",
+          nl: "Hoe wordt engelenhaar pasta ook wel genoemd?"
+        },
+        options: [
+          { en: "Capellini", es: "Capellini", de: "Capellini", nl: "Capellini" },
+          { en: "Linguine", es: "Linguine", de: "Linguine", nl: "Linguine" },
+          { en: "Vermicelli", es: "Vermicelli", de: "Vermicelli", nl: "Vermicelli" },
+          { en: "Bucatini", es: "Bucatini", de: "Bucatini", nl: "Bucatini" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Capellini, meaning 'little hairs' in Italian, is the proper name for angel hair pasta. It's the thinnest long pasta, cooking very quickly.",
+          es: "Capellini, que significa 'pequeños cabellos' en italiano, es el nombre propio de la pasta cabello de ángel. Es la pasta larga más delgada, se cocina muy rápido.",
+          de: "Capellini, was 'kleine Haare' auf Italienisch bedeutet, ist der eigentliche Name für Engelshaar-Pasta. Es ist die dünnste lange Pasta und kocht sehr schnell.",
+          nl: "Capellini, wat 'kleine haartjes' betekent in het Italiaans, is de eigenlijke naam voor engelenhaar pasta. Het is de dunste lange pasta en kookt heel snel."
+        }
+      },
+      {
+        question: {
+          en: "Which small pasta is commonly used in chicken noodle soup?",
+          es: "¿Qué pasta pequeña se usa comúnmente en sopa de pollo con fideos?",
+          de: "Welche kleine Pasta wird häufig in Hühnernudelsuppe verwendet?",
+          nl: "Welke kleine pasta wordt vaak gebruikt in kippensoep met noedels?"
+        },
+        options: [
+          { en: "Rigatoni", es: "Rigatoni", de: "Rigatoni", nl: "Rigatoni" },
+          { en: "Penne", es: "Penne", de: "Penne", nl: "Penne" },
+          { en: "Ditalini", es: "Ditalini", de: "Ditalini", nl: "Ditalini" },
+          { en: "Pappardelle", es: "Pappardelle", de: "Pappardelle", nl: "Pappardelle" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Ditalini means 'little thimbles' in Italian. These small tube-shaped pasta are perfect for soups, especially chicken noodle soup.",
+          es: "Ditalini significa 'pequeños dedales' en italiano. Esta pasta pequeña en forma de tubo es perfecta para sopas, especialmente sopa de pollo con fideos.",
+          de: "Ditalini bedeutet 'kleine Fingerhüte' auf Italienisch. Diese kleine röhrenförmige Pasta ist perfekt für Suppen, besonders Hühnernudelsuppe.",
+          nl: "Ditalini betekent 'kleine vingerhoedje' in het Italiaans. Deze kleine buisvormige pasta is perfect voor soepen, vooral kippensoep met noedels."
+        }
+      },
+      {
+        question: {
+          en: "What shape is orecchiette pasta?",
+          es: "¿Qué forma tiene la pasta orecchiette?",
+          de: "Welche Form hat Orecchiette-Pasta?",
+          nl: "Welke vorm heeft orecchiette pasta?"
+        },
+        options: [
+          { en: "Stars", es: "Estrellas", de: "Sterne", nl: "Sterren" },
+          { en: "Small ears", es: "Pequeñas orejas", de: "Kleine Ohren", nl: "Kleine oortjes" },
+          { en: "Ribbons", es: "Cintas", de: "Bänder", nl: "Linten" },
+          { en: "Tubes", es: "Tubos", de: "Röhren", nl: "Buizen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Orecchiette means 'little ears' in Italian. This pasta from Puglia is shaped like small, round cups that hold sauce perfectly.",
+          es: "Orecchiette significa 'pequeñas orejas' en italiano. Esta pasta de Puglia tiene forma de pequeñas tazas redondas que retienen la salsa perfectamente.",
+          de: "Orecchiette bedeutet 'kleine Ohren' auf Italienisch. Diese Pasta aus Apulien hat die Form kleiner, runder Becher, die Sauce perfekt halten.",
+          nl: "Orecchiette betekent 'kleine oortjes' in het Italiaans. Deze pasta uit Puglia heeft de vorm van kleine, ronde kommetjes die saus perfect vasthouden."
+        }
+      },
+      {
+        question: {
+          en: "What type of sauce pairs best with spaghetti?",
+          es: "¿Qué tipo de salsa combina mejor con espagueti?",
+          de: "Welche Art von Sauce passt am besten zu Spaghetti?",
+          nl: "Welk type saus past het beste bij spaghetti?"
+        },
+        options: [
+          { en: "Chunky meat sauce", es: "Salsa de carne con trozos", de: "Stückige Fleischsauce", nl: "Dikke vleessaus" },
+          { en: "Smooth oil or tomato sauce", es: "Salsa suave de aceite o tomate", de: "Glatte Öl- oder Tomatensauce", nl: "Gladde olie- of tomatensaus" },
+          { en: "Heavy cream sauce", es: "Salsa de crema espesa", de: "Schwere Sahnesauce", nl: "Zware roomsaus" },
+          { en: "Thick cheese sauce", es: "Salsa de queso espesa", de: "Dicke Käsesauce", nl: "Dikke kaassaus" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Spaghetti's thin, smooth strands work best with light, smooth sauces like marinara, aglio e olio, or simple tomato sauce.",
+          es: "Las hebras delgadas y suaves del espagueti funcionan mejor con salsas ligeras y suaves como marinara, aglio e olio o salsa de tomate simple.",
+          de: "Spaghettis dünne, glatte Stränge funktionieren am besten mit leichten, glatten Saucen wie Marinara, Aglio e Olio oder einfacher Tomatensauce.",
+          nl: "Spaghetti's dunne, gladde strengen werken het beste met lichte, gladde sauzen zoals marinara, aglio e olio of eenvoudige tomatensaus."
+        }
+      },
+      {
+        question: {
+          en: "Which pasta is shaped like wheels or wagon wheels?",
+          es: "¿Qué pasta tiene forma de ruedas o ruedas de carreta?",
+          de: "Welche Pasta hat die Form von Rädern oder Wagenrädern?",
+          nl: "Welke pasta heeft de vorm van wielen of wagenwielen?"
+        },
+        options: [
+          { en: "Rotelle", es: "Rotelle", de: "Rotelle", nl: "Rotelle" },
+          { en: "Farfalle", es: "Farfalle", de: "Farfalle", nl: "Farfalle" },
+          { en: "Fusilli", es: "Fusilli", de: "Fusilli", nl: "Fusilli" },
+          { en: "Conchiglie", es: "Conchiglie", de: "Conchiglie", nl: "Conchiglie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Rotelle means 'little wheels' in Italian. This fun wheel-shaped pasta is especially popular with children and great for pasta salads.",
+          es: "Rotelle significa 'pequeñas ruedas' en italiano. Esta divertida pasta en forma de rueda es especialmente popular entre los niños y excelente para ensaladas de pasta.",
+          de: "Rotelle bedeutet 'kleine Räder' auf Italienisch. Diese lustige radförmige Pasta ist besonders beliebt bei Kindern und großartig für Nudelsalate.",
+          nl: "Rotelle betekent 'kleine wieltjes' in het Italiaans. Deze leuke wielvormige pasta is vooral populair bij kinderen en geweldig voor pastasalades."
+        }
+      },
+      {
+        question: {
+          en: "What should you do after draining cooked pasta?",
+          es: "¿Qué debes hacer después de escurrir la pasta cocida?",
+          de: "Was sollten Sie tun, nachdem Sie gekochte Pasta abgegossen haben?",
+          nl: "Wat moet je doen na het afgieten van gekookte pasta?"
+        },
+        options: [
+          { en: "Rinse with cold water", es: "Enjuagar con agua fría", de: "Mit kaltem Wasser abspülen", nl: "Spoelen met koud water" },
+          { en: "Add sauce immediately", es: "Añadir salsa inmediatamente", de: "Sofort Sauce hinzufügen", nl: "Direct saus toevoegen" },
+          { en: "Let it sit for 10 minutes", es: "Dejar reposar 10 minutos", de: "10 Minuten stehen lassen", nl: "10 minuten laten staan" },
+          { en: "Spread on a baking sheet", es: "Extender en una bandeja", de: "Auf einem Backblech verteilen", nl: "Uitspreiden op een bakplaat" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "After draining, immediately toss pasta with sauce while still hot. Don't rinse unless making pasta salad - the starch helps sauce stick.",
+          es: "Después de escurrir, mezcle inmediatamente la pasta con la salsa mientras aún está caliente. No enjuague a menos que haga ensalada de pasta - el almidón ayuda a que la salsa se adhiera.",
+          de: "Nach dem Abgießen sofort mit Sauce vermengen, solange noch heiß. Nicht abspülen, außer bei Nudelsalat - die Stärke hilft der Sauce zu haften.",
+          nl: "Na het afgieten direct mengen met saus terwijl het nog heet is. Niet spoelen tenzij je pastasalade maakt - het zetmeel helpt de saus te hechten."
+        }
+      },
+      {
+        question: {
+          en: "Which stuffed pasta is folded into a half-moon shape?",
+          es: "¿Qué pasta rellena se pliega en forma de media luna?",
+          de: "Welche gefüllte Pasta wird in Halbmondform gefaltet?",
+          nl: "Welke gevulde pasta wordt in halvemaanvorm gevouwen?"
+        },
+        options: [
+          { en: "Tortellini", es: "Tortellini", de: "Tortellini", nl: "Tortellini" },
+          { en: "Ravioli", es: "Ravioli", de: "Ravioli", nl: "Ravioli" },
+          { en: "Cannelloni", es: "Canelones", de: "Cannelloni", nl: "Cannelloni" },
+          { en: "Manicotti", es: "Manicotti", de: "Manicotti", nl: "Manicotti" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Ravioli are typically square or half-moon shaped stuffed pasta. They're filled with ricotta, meat, or vegetables and sealed at the edges.",
+          es: "Los ravioli son típicamente pasta rellena de forma cuadrada o de media luna. Se rellenan con ricotta, carne o verduras y se sellan en los bordes.",
+          de: "Ravioli sind typischerweise quadratische oder halbmondförmige gefüllte Nudeln. Sie werden mit Ricotta, Fleisch oder Gemüse gefüllt und an den Rändern versiegelt.",
+          nl: "Ravioli zijn meestal vierkante of halvemaanvormige gevulde pasta. Ze worden gevuld met ricotta, vlees of groenten en aan de randen verzegeld."
+        }
+      },
+      {
+        question: {
+          en: "What is bucatini?",
+          es: "¿Qué es bucatini?",
+          de: "Was ist Bucatini?",
+          nl: "Wat is bucatini?"
+        },
+        options: [
+          { en: "Thick spaghetti with a hole through the center", es: "Espagueti grueso con un agujero en el centro", de: "Dicke Spaghetti mit einem Loch in der Mitte", nl: "Dikke spaghetti met een gat door het midden" },
+          { en: "Flat wide noodles", es: "Fideos planos anchos", de: "Flache breite Nudeln", nl: "Platte brede noedels" },
+          { en: "Tiny soup pasta", es: "Pasta pequeña para sopa", de: "Winzige Suppennudeln", nl: "Kleine soeppasta" },
+          { en: "Butterfly shaped pasta", es: "Pasta en forma de mariposa", de: "Schmetterlingsförmige Pasta", nl: "Vlindervormige pasta" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bucatini is thick spaghetti-like pasta with a hollow center, perfect for absorbing sauce both inside and out. It's popular in Roman dishes like Amatriciana.",
+          es: "Bucatini es pasta gruesa similar a espagueti con un centro hueco, perfecta para absorber salsa tanto por dentro como por fuera. Es popular en platos romanos como Amatriciana.",
+          de: "Bucatini ist dicke spaghetti-ähnliche Pasta mit einer hohlen Mitte, perfekt zum Aufnehmen von Sauce innen und außen. Sie ist beliebt in römischen Gerichten wie Amatriciana.",
+          nl: "Bucatini is dikke spaghetti-achtige pasta met een hol midden, perfect voor het opnemen van saus zowel binnen als buiten. Het is populair in Romeinse gerechten zoals Amatriciana."
+        }
+      },
+      {
+        question: {
+          en: "How much water should you use when cooking pasta?",
+          es: "¿Cuánta agua debes usar al cocinar pasta?",
+          de: "Wie viel Wasser sollten Sie beim Kochen von Pasta verwenden?",
+          nl: "Hoeveel water moet je gebruiken bij het koken van pasta?"
+        },
+        options: [
+          { en: "Just enough to cover", es: "Justo lo suficiente para cubrir", de: "Gerade genug zum Bedecken", nl: "Net genoeg om te bedekken" },
+          { en: "A large pot full of water", es: "Una olla grande llena de agua", de: "Ein großer Topf voll Wasser", nl: "Een grote pan vol water" },
+          { en: "One cup per serving", es: "Una taza por porción", de: "Eine Tasse pro Portion", nl: "Een kopje per portie" },
+          { en: "Half a pot", es: "Media olla", de: "Ein halber Topf", nl: "Een halve pan" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Use plenty of water (4-6 liters per 500g pasta) so pasta can move freely and cook evenly without sticking together.",
+          es: "Use mucha agua (4-6 litros por 500g de pasta) para que la pasta pueda moverse libremente y cocinarse uniformemente sin pegarse.",
+          de: "Verwenden Sie viel Wasser (4-6 Liter pro 500g Pasta), damit die Pasta sich frei bewegen und gleichmäßig kochen kann, ohne zusammenzukleben.",
+          nl: "Gebruik veel water (4-6 liter per 500g pasta) zodat de pasta vrij kan bewegen en gelijkmatig kan koken zonder aan elkaar te plakken."
+        }
+      },
+      {
+        question: {
+          en: "Which pasta is ring-shaped and stuffed?",
+          es: "¿Qué pasta tiene forma de anillo y está rellena?",
+          de: "Welche Pasta ist ringförmig und gefüllt?",
+          nl: "Welke pasta is ringvormig en gevuld?"
+        },
+        options: [
+          { en: "Farfalle", es: "Farfalle", de: "Farfalle", nl: "Farfalle" },
+          { en: "Tortellini", es: "Tortellini", de: "Tortellini", nl: "Tortellini" },
+          { en: "Penne", es: "Penne", de: "Penne", nl: "Penne" },
+          { en: "Rotini", es: "Rotini", de: "Rotini", nl: "Rotini" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Tortellini are small ring-shaped pasta stuffed with meat or cheese. Legend says they were inspired by Venus's belly button!",
+          es: "Los tortellini son pasta pequeña en forma de anillo rellena de carne o queso. ¡La leyenda dice que se inspiraron en el ombligo de Venus!",
+          de: "Tortellini sind kleine ringförmige Pasta gefüllt mit Fleisch oder Käse. Die Legende besagt, sie wurden vom Bauchnabel der Venus inspiriert!",
+          nl: "Tortellini zijn kleine ringvormige pasta gevuld met vlees of kaas. De legende zegt dat ze geïnspireerd waren door de navel van Venus!"
+        }
+      },
+      {
+        question: {
+          en: "What is macaroni?",
+          es: "¿Qué son los macarrones?",
+          de: "Was sind Makkaroni?",
+          nl: "Wat is macaroni?"
+        },
+        options: [
+          { en: "Small curved tube pasta", es: "Pasta pequeña de tubo curvado", de: "Kleine gebogene Röhrennudeln", nl: "Kleine gebogen buispasta" },
+          { en: "Long thin pasta", es: "Pasta larga y delgada", de: "Lange dünne Pasta", nl: "Lange dunne pasta" },
+          { en: "Flat ribbon pasta", es: "Pasta plana de cinta", de: "Flache Bandnudeln", nl: "Platte lint pasta" },
+          { en: "Stuffed pasta", es: "Pasta rellena", de: "Gefüllte Pasta", nl: "Gevulde pasta" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Macaroni are small, curved tube-shaped pasta. They're most famous in macaroni and cheese, a beloved comfort food worldwide.",
+          es: "Los macarrones son pasta pequeña en forma de tubo curvado. Son más famosos en macarrones con queso, un querido plato reconfortante en todo el mundo.",
+          de: "Makkaroni sind kleine, gebogene röhrenförmige Nudeln. Sie sind am bekanntesten in Makkaroni mit Käse, einem beliebten Wohlfühlessen weltweit.",
+          nl: "Macaroni zijn kleine, gebogen buisvormige pasta. Ze zijn het meest bekend in macaroni met kaas, een geliefd comfortfood wereldwijd."
+        }
+      },
+      {
+        question: {
+          en: "What color should properly cooked pasta be?",
+          es: "¿Qué color debe tener la pasta bien cocida?",
+          de: "Welche Farbe sollte richtig gekochte Pasta haben?",
+          nl: "Welke kleur moet goed gekookte pasta hebben?"
+        },
+        options: [
+          { en: "White throughout", es: "Blanco en todo", de: "Durchgehend weiß", nl: "Helemaal wit" },
+          { en: "Yellow with no white center", es: "Amarillo sin centro blanco", de: "Gelb ohne weißen Kern", nl: "Geel zonder witte kern" },
+          { en: "Brown on edges", es: "Marrón en los bordes", de: "Braun an den Rändern", nl: "Bruin aan de randen" },
+          { en: "Translucent", es: "Translúcido", de: "Durchscheinend", nl: "Doorschijnend" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Properly cooked al dente pasta should be uniformly colored with no white chalky center when you bite into it.",
+          es: "La pasta al dente bien cocida debe tener un color uniforme sin centro blanco calcáreo cuando la muerdes.",
+          de: "Richtig gekochte al dente Pasta sollte gleichmäßig gefärbt sein ohne weißen kreidigen Kern, wenn man hineinbeißt.",
+          nl: "Goed gekookte al dente pasta moet egaal gekleurd zijn zonder witte kalkachtige kern wanneer je erin bijt."
+        }
+      },
+      {
+        question: {
+          en: "Which pasta is traditionally used in pasta salad?",
+          es: "¿Qué pasta se usa tradicionalmente en ensalada de pasta?",
+          de: "Welche Pasta wird traditionell in Nudelsalat verwendet?",
+          nl: "Welke pasta wordt traditioneel gebruikt in pastasalade?"
+        },
+        options: [
+          { en: "Angel hair", es: "Cabello de ángel", de: "Engelshaar", nl: "Engelenhaar" },
+          { en: "Short shapes like fusilli or penne", es: "Formas cortas como fusilli o penne", de: "Kurze Formen wie Fusilli oder Penne", nl: "Korte vormen zoals fusilli of penne" },
+          { en: "Lasagna sheets", es: "Láminas de lasaña", de: "Lasagneplatten", nl: "Lasagneplaten" },
+          { en: "Ravioli", es: "Ravioli", de: "Ravioli", nl: "Ravioli" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Short pasta shapes like fusilli, penne, or rotini work best for pasta salads because they hold dressing well and are easy to eat with a fork.",
+          es: "Las formas de pasta cortas como fusilli, penne o rotini funcionan mejor para ensaladas de pasta porque retienen bien el aderezo y son fáciles de comer con tenedor.",
+          de: "Kurze Pastaformen wie Fusilli, Penne oder Rotini eignen sich am besten für Nudelsalate, weil sie Dressing gut halten und einfach mit einer Gabel zu essen sind.",
+          nl: "Korte pastavormen zoals fusilli, penne of rotini werken het beste voor pastasalades omdat ze dressing goed vasthouden en gemakkelijk met een vork te eten zijn."
+        }
+      },
+      {
+        question: {
+          en: "What is the main ingredient in traditional Italian pasta?",
+          es: "¿Cuál es el ingrediente principal en la pasta italiana tradicional?",
+          de: "Was ist die Hauptzutat in traditioneller italienischer Pasta?",
+          nl: "Wat is het belangrijkste ingrediënt in traditionele Italiaanse pasta?"
+        },
+        options: [
+          { en: "Rice flour", es: "Harina de arroz", de: "Reismehl", nl: "Rijstmeel" },
+          { en: "Wheat flour", es: "Harina de trigo", de: "Weizenmehl", nl: "Tarwemeel" },
+          { en: "Corn flour", es: "Harina de maíz", de: "Maismehl", nl: "Maïsmeel" },
+          { en: "Potato starch", es: "Almidón de papa", de: "Kartoffelstärke", nl: "Aardappelzetmeel" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Traditional Italian pasta is made from wheat flour, specifically durum wheat semolina for dried pasta or soft wheat for fresh egg pasta.",
+          es: "La pasta italiana tradicional se hace de harina de trigo, específicamente sémola de trigo duro para pasta seca o trigo blando para pasta fresca de huevo.",
+          de: "Traditionelle italienische Pasta wird aus Weizenmehl hergestellt, speziell Hartweizengrieß für getrocknete Pasta oder Weichweizen für frische Eiernudeln.",
+          nl: "Traditionele Italiaanse pasta wordt gemaakt van tarwemeel, specifiek durumtarwegriesmeel voor gedroogde pasta of zachte tarwe voor verse eierpasta."
+        }
+      },
+      {
+        question: {
+          en: "Which pasta shape resembles little tubes or thimbles?",
+          es: "¿Qué forma de pasta se asemeja a pequeños tubos o dedales?",
+          de: "Welche Nudelform ähnelt kleinen Röhren oder Fingerhüten?",
+          nl: "Welke pastavorm lijkt op kleine buisjes of vingerhoedje?"
+        },
+        options: [
+          { en: "Spaghetti", es: "Espagueti", de: "Spaghetti", nl: "Spaghetti" },
+          { en: "Ditalini", es: "Ditalini", de: "Ditalini", nl: "Ditalini" },
+          { en: "Farfalle", es: "Farfalle", de: "Farfalle", nl: "Farfalle" },
+          { en: "Fettuccine", es: "Fettuccine", de: "Fettuccine", nl: "Fettuccine" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Ditalini means 'little thimbles' in Italian. These small, short tubes are perfect for soups, salads, and baked pasta dishes.",
+          es: "Ditalini significa 'pequeños dedales' en italiano. Estos pequeños tubos cortos son perfectos para sopas, ensaladas y platos de pasta horneados.",
+          de: "Ditalini bedeutet 'kleine Fingerhüte' auf Italienisch. Diese kleinen, kurzen Röhren sind perfekt für Suppen, Salate und gebackene Pastagerichte.",
+          nl: "Ditalini betekent 'kleine vingerhoedje' in het Italiaans. Deze kleine, korte buisjes zijn perfect voor soepen, salades en gebakken pastagerechten."
+        }
+      },
+      {
+        question: {
+          en: "What does 'penne rigate' mean?",
+          es: "¿Qué significa 'penne rigate'?",
+          de: "Was bedeutet 'Penne rigate'?",
+          nl: "Wat betekent 'penne rigate'?"
+        },
+        options: [
+          { en: "Smooth penne", es: "Penne liso", de: "Glatte Penne", nl: "Gladde penne" },
+          { en: "Ridged penne", es: "Penne con crestas", de: "Gerillte Penne", nl: "Geribbelde penne" },
+          { en: "Large penne", es: "Penne grande", de: "Große Penne", nl: "Grote penne" },
+          { en: "Colored penne", es: "Penne de color", de: "Farbige Penne", nl: "Gekleurde penne" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Rigate means 'ridged' in Italian. Penne rigate has ridges on the outside to help sauce cling better than smooth penne lisce.",
+          es: "Rigate significa 'con crestas' en italiano. Penne rigate tiene crestas en el exterior para ayudar a que la salsa se adhiera mejor que el penne lisce liso.",
+          de: "Rigate bedeutet 'gerillt' auf Italienisch. Penne rigate hat Rillen auf der Außenseite, damit Sauce besser haftet als bei glatten Penne lisce.",
+          nl: "Rigate betekent 'geribbeld' in het Italiaans. Penne rigate heeft ribbels aan de buitenkant om saus beter te laten kleven dan gladde penne lisce."
+        }
+      },
+      {
+        question: {
+          en: "Which pasta is best for mac and cheese?",
+          es: "¿Qué pasta es mejor para macarrones con queso?",
+          de: "Welche Pasta ist am besten für Mac and Cheese?",
+          nl: "Welke pasta is het beste voor mac and cheese?"
+        },
+        options: [
+          { en: "Spaghetti", es: "Espagueti", de: "Spaghetti", nl: "Spaghetti" },
+          { en: "Elbow macaroni", es: "Macarrones codo", de: "Ellbogen-Makkaroni", nl: "Elleboog macaroni" },
+          { en: "Angel hair", es: "Cabello de ángel", de: "Engelshaar", nl: "Engelenhaar" },
+          { en: "Lasagna", es: "Lasaña", de: "Lasagne", nl: "Lasagne" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Elbow macaroni, with its curved tube shape, is the classic choice for macaroni and cheese because it holds creamy cheese sauce perfectly.",
+          es: "Los macarrones codo, con su forma de tubo curvado, son la elección clásica para macarrones con queso porque retienen la salsa de queso cremosa perfectamente.",
+          de: "Ellbogen-Makkaroni mit ihrer gebogenen Röhrenform sind die klassische Wahl für Mac and Cheese, weil sie cremige Käsesauce perfekt halten.",
+          nl: "Elleboog macaroni, met zijn gebogen buisvorm, is de klassieke keuze voor mac and cheese omdat het romige kaassaus perfect vasthoudt."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of stirring pasta while it cooks?",
+          es: "¿Cuál es el propósito de revolver la pasta mientras se cocina?",
+          de: "Was ist der Zweck, Pasta während des Kochens zu rühren?",
+          nl: "Wat is het doel van het roeren van pasta tijdens het koken?"
+        },
+        options: [
+          { en: "To make it cook faster", es: "Para que se cocine más rápido", de: "Damit es schneller kocht", nl: "Om het sneller te laten koken" },
+          { en: "To prevent sticking", es: "Para evitar que se pegue", de: "Um Ankleben zu verhindern", nl: "Om plakken te voorkomen" },
+          { en: "To add flavor", es: "Para añadir sabor", de: "Um Geschmack hinzuzufügen", nl: "Om smaak toe te voegen" },
+          { en: "To cool it down", es: "Para enfriarlo", de: "Um es abzukühlen", nl: "Om het af te koelen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Stirring pasta occasionally, especially in the first few minutes, prevents pieces from sticking together and ensures even cooking.",
+          es: "Revolver la pasta ocasionalmente, especialmente en los primeros minutos, evita que las piezas se peguen entre sí y asegura una cocción uniforme.",
+          de: "Gelegentliches Rühren der Pasta, besonders in den ersten Minuten, verhindert das Zusammenkleben und sorgt für gleichmäßiges Kochen.",
+          nl: "Het af en toe roeren van pasta, vooral in de eerste minuten, voorkomt dat stukken aan elkaar plakken en zorgt voor gelijkmatig koken."
+        }
+      },
+      {
+        question: {
+          en: "Which sauce ingredient makes pasta alla norma distinctive?",
+          es: "¿Qué ingrediente de salsa hace que la pasta alla norma sea distintiva?",
+          de: "Welche Saucenzutat macht Pasta alla Norma unverwechselbar?",
+          nl: "Welk sausingredient maakt pasta alla norma onderscheidend?"
+        },
+        options: [
+          { en: "Mushrooms", es: "Champiñones", de: "Pilze", nl: "Champignons" },
+          { en: "Eggplant", es: "Berenjena", de: "Aubergine", nl: "Aubergine" },
+          { en: "Zucchini", es: "Calabacín", de: "Zucchini", nl: "Courgette" },
+          { en: "Peppers", es: "Pimientos", de: "Paprika", nl: "Paprika" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Pasta alla Norma is a Sicilian dish featuring fried eggplant, tomato sauce, basil, and ricotta salata cheese, typically served with rigatoni or penne.",
+          es: "La pasta alla Norma es un plato siciliano con berenjena frita, salsa de tomate, albahaca y queso ricotta salata, típicamente servido con rigatoni o penne.",
+          de: "Pasta alla Norma ist ein sizilianisches Gericht mit gebratener Aubergine, Tomatensauce, Basilikum und Ricotta Salata Käse, typisch mit Rigatoni oder Penne serviert.",
+          nl: "Pasta alla Norma is een Siciliaans gerecht met gebakken aubergine, tomatensaus, basilicum en ricotta salata kaas, meestal geserveerd met rigatoni of penne."
+        }
       }
     ]
   };

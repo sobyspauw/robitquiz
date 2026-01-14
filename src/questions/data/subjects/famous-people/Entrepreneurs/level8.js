@@ -427,6 +427,321 @@
           de: "Ray Kroc trat 1954 dem Restaurant der McDonald-Brüder als Franchise-Agent bei und kaufte sie 1961 aus. Er baute McDonald's zur weltgrößten Fast-Food-Kette mit standardisierten Abläufen und globaler Expansion auf. Die McDonald-Brüder schufen ursprünglich das Speedee Service System.",
           nl: "Ray Kroc sloot zich aan bij het restaurant van de McDonald-broers in 1954 als franchise-agent en kocht hen uit in 1961. Hij bouwde McDonald's uit tot 's werelds grootste fastfoodketen met gestandaardiseerde operaties en wereldwijde expansie. De McDonald-broers creëerden oorspronkelijk het Speedee Service System."
         }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Zara and Inditex, becoming one of the world's richest fashion retailers?",
+          es: "¿Qué empresario fundó Zara e Inditex, convirtiéndose en uno de los minoristas de moda más ricos del mundo?",
+          de: "Welcher Unternehmer gründete Zara und Inditex und wurde zu einem der reichsten Modehändler der Welt?",
+          nl: "Welke ondernemer heeft Zara en Inditex opgericht en werd een van 's werelds rijkste mode-retailers?"
+        },
+        options: [
+          { en: "Amancio Ortega", es: "Amancio Ortega", de: "Amancio Ortega", nl: "Amancio Ortega" },
+          { en: "Bernard Arnault", es: "Bernard Arnault", de: "Bernard Arnault", nl: "Bernard Arnault" },
+          { en: "Stefan Persson", es: "Stefan Persson", de: "Stefan Persson", nl: "Stefan Persson" },
+          { en: "Tadashi Yanai", es: "Tadashi Yanai", de: "Tadashi Yanai", nl: "Tadashi Yanai" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Amancio Ortega founded Zara in 1975 and Inditex in 1985. He revolutionized fast fashion with rapid design-to-store cycles, making high-fashion trends affordable. Ortega became one of the world's richest people, frequently ranking among the top 10 globally.",
+          es: "Amancio Ortega fundó Zara en 1975 e Inditex en 1985. Revolucionó la moda rápida con ciclos rápidos de diseño a tienda, haciendo asequibles las tendencias de alta moda. Ortega se convirtió en una de las personas más ricas del mundo, ocupando frecuentemente el top 10 global.",
+          de: "Amancio Ortega gründete 1975 Zara und 1985 Inditex. Er revolutionierte Fast Fashion mit schnellen Design-zu-Store-Zyklen und machte Highfashion-Trends erschwinglich. Ortega wurde zu einem der reichsten Menschen der Welt und rangiert häufig unter den Top 10 weltweit.",
+          nl: "Amancio Ortega heeft Zara opgericht in 1975 en Inditex in 1985. Hij revolutioneerde fast fashion met snelle ontwerp-naar-winkel cycli, waardoor high-fashion trends betaalbaar werden. Ortega werd een van 's werelds rijkste mensen, regelmatig gerangschikt in de top 10 wereldwijd."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Estée Lauder Companies and built a cosmetics empire?",
+          es: "¿Quién fundó Estée Lauder Companies y construyó un imperio de cosméticos?",
+          de: "Wer gründete Estée Lauder Companies und baute ein Kosmetikimperium auf?",
+          nl: "Wie heeft Estée Lauder Companies opgericht en een cosmetica-imperium opgebouwd?"
+        },
+        options: [
+          { en: "Estée Lauder", es: "Estée Lauder", de: "Estée Lauder", nl: "Estée Lauder" },
+          { en: "Eugène Schueller", es: "Eugène Schueller", de: "Eugène Schueller", nl: "Eugène Schueller" },
+          { en: "Coco Chanel", es: "Coco Chanel", de: "Coco Chanel", nl: "Coco Chanel" },
+          { en: "Max Factor", es: "Max Factor", de: "Max Factor", nl: "Max Factor" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Estée Lauder founded Estée Lauder Companies in 1946 with her husband Joseph Lauder. She pioneered the 'gift with purchase' concept and created prestige beauty brands. The company owns brands like MAC, Clinique, and La Mer, making the Lauder family billionaires.",
+          es: "Estée Lauder fundó Estée Lauder Companies en 1946 con su esposo Joseph Lauder. Fue pionera en el concepto de 'regalo con compra' y creó marcas de belleza de prestigio. La compañía posee marcas como MAC, Clinique y La Mer, haciendo a la familia Lauder multimillonaria.",
+          de: "Estée Lauder gründete 1946 Estée Lauder Companies mit ihrem Mann Joseph Lauder. Sie war Pionierin des 'Geschenk beim Kauf'-Konzepts und schuf prestigeträchtige Beauty-Marken. Das Unternehmen besitzt Marken wie MAC, Clinique und La Mer und machte die Familie Lauder zu Milliardären.",
+          nl: "Estée Lauder heeft Estée Lauder Companies opgericht in 1946 met haar man Joseph Lauder. Ze was pionier van het 'cadeau bij aankoop'-concept en creëerde prestigieuze beautymerken. Het bedrijf bezit merken als MAC, Clinique en La Mer, waardoor de familie Lauder miljardairs werd."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded IKEA and revolutionized affordable furniture retail?",
+          es: "¿Qué empresario fundó IKEA y revolucionó el comercio minorista de muebles asequibles?",
+          de: "Welcher Unternehmer gründete IKEA und revolutionierte den erschwinglichen Möbelhandel?",
+          nl: "Welke ondernemer heeft IKEA opgericht en betaalbare meubelverkoop gerevolutioneerd?"
+        },
+        options: [
+          { en: "Ingvar Kamprad", es: "Ingvar Kamprad", de: "Ingvar Kamprad", nl: "Ingvar Kamprad" },
+          { en: "Stefan Persson", es: "Stefan Persson", de: "Stefan Persson", nl: "Stefan Persson" },
+          { en: "Erling Persson", es: "Erling Persson", de: "Erling Persson", nl: "Erling Persson" },
+          { en: "Lars Magnus Ericsson", es: "Lars Magnus Ericsson", de: "Lars Magnus Ericsson", nl: "Lars Magnus Ericsson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ingvar Kamprad founded IKEA in 1943 at age 17, named after his initials (IK) and his farm Elmtaryd in Agunnaryd, Sweden. He pioneered flat-pack furniture, self-assembly, and showroom warehouses. Kamprad became one of the world's wealthiest people through frugal living.",
+          es: "Ingvar Kamprad fundó IKEA en 1943 a los 17 años, nombrado por sus iniciales (IK) y su granja Elmtaryd en Agunnaryd, Suecia. Fue pionero en muebles de paquete plano, autoensamblaje y almacenes de exhibición. Kamprad se convirtió en una de las personas más ricas del mundo a través de una vida frugal.",
+          de: "Ingvar Kamprad gründete IKEA 1943 im Alter von 17 Jahren, benannt nach seinen Initialen (IK) und seinem Hof Elmtaryd in Agunnaryd, Schweden. Er war Pionier bei Flachpackmöbeln, Selbstmontage und Ausstellungslagern. Kamprad wurde durch sparsames Leben zu einem der reichsten Menschen der Welt.",
+          nl: "Ingvar Kamprad heeft IKEA opgericht in 1943 op 17-jarige leeftijd, vernoemd naar zijn initialen (IK) en zijn boerderij Elmtaryd in Agunnaryd, Zweden. Hij was pionier van platte verpakkingen, zelfmontage en showroom-magazijnen. Kamprad werd een van 's werelds rijkste mensen door spaarzaam te leven."
+        }
+      },
+      {
+        question: {
+          en: "Who founded H&M (Hennes & Mauritz) and built it into a global fashion retailer?",
+          es: "¿Quién fundó H&M (Hennes & Mauritz) y la construyó en un minorista de moda global?",
+          de: "Wer gründete H&M (Hennes & Mauritz) und baute es zu einem globalen Modehändler auf?",
+          nl: "Wie heeft H&M (Hennes & Mauritz) opgericht en het uitgebouwd tot een wereldwijde mode-retailer?"
+        },
+        options: [
+          { en: "Erling Persson", es: "Erling Persson", de: "Erling Persson", nl: "Erling Persson" },
+          { en: "Stefan Persson", es: "Stefan Persson", de: "Stefan Persson", nl: "Stefan Persson" },
+          { en: "Ingvar Kamprad", es: "Ingvar Kamprad", de: "Ingvar Kamprad", nl: "Ingvar Kamprad" },
+          { en: "Amancio Ortega", es: "Amancio Ortega", de: "Amancio Ortega", nl: "Amancio Ortega" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Erling Persson founded Hennes (women's clothing) in 1947 in Sweden. After acquiring Mauritz Widforss menswear in 1968, it became Hennes & Mauritz (H&M). His son Stefan Persson expanded it globally, becoming one of Europe's richest individuals.",
+          es: "Erling Persson fundó Hennes (ropa de mujer) en 1947 en Suecia. Después de adquirir la ropa masculina Mauritz Widforss en 1968, se convirtió en Hennes & Mauritz (H&M). Su hijo Stefan Persson la expandió globalmente, convirtiéndose en uno de los individuos más ricos de Europa.",
+          de: "Erling Persson gründete 1947 Hennes (Damenbekleidung) in Schweden. Nach der Übernahme von Mauritz Widforss Herrenbekleidung 1968 wurde es zu Hennes & Mauritz (H&M). Sein Sohn Stefan Persson expandierte es weltweit und wurde zu einem der reichsten Europäer.",
+          nl: "Erling Persson heeft Hennes (dameskleding) opgericht in 1947 in Zweden. Na de overname van Mauritz Widforss herenkleding in 1968 werd het Hennes & Mauritz (H&M). Zijn zoon Stefan Persson breidde het wereldwijd uit en werd een van Europa's rijkste individuen."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Nike with Bill Bowerman, revolutionizing athletic footwear?",
+          es: "¿Qué empresario fundó Nike con Bill Bowerman, revolucionando el calzado deportivo?",
+          de: "Welcher Unternehmer gründete Nike mit Bill Bowerman und revolutionierte Sportschuhe?",
+          nl: "Welke ondernemer heeft Nike opgericht met Bill Bowerman, waarbij sportschoenen werden gerevolutioneerd?"
+        },
+        options: [
+          { en: "Phil Knight", es: "Phil Knight", de: "Phil Knight", nl: "Phil Knight" },
+          { en: "Adolf Dassler", es: "Adolf Dassler", de: "Adolf Dassler", nl: "Adolf Dassler" },
+          { en: "Rudolf Dassler", es: "Rudolf Dassler", de: "Rudolf Dassler", nl: "Rudolf Dassler" },
+          { en: "Howard Schultz", es: "Howard Schultz", de: "Howard Schultz", nl: "Howard Schultz" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Phil Knight co-founded Nike (originally Blue Ribbon Sports) with his track coach Bill Bowerman in 1964. They revolutionized athletic footwear with innovations like the waffle sole. Nike became the world's largest sportswear company, making Knight a billionaire.",
+          es: "Phil Knight cofundó Nike (originalmente Blue Ribbon Sports) con su entrenador de atletismo Bill Bowerman en 1964. Revolucionaron el calzado deportivo con innovaciones como la suela de waffle. Nike se convirtió en la empresa de ropa deportiva más grande del mundo, haciendo de Knight un multimillonario.",
+          de: "Phil Knight gründete 1964 Nike (ursprünglich Blue Ribbon Sports) zusammen mit seinem Leichtathletiktrainer Bill Bowerman. Sie revolutionierten Sportschuhe mit Innovationen wie der Waffelsohle. Nike wurde zum weltgrößten Sportbekleidungsunternehmen und machte Knight zum Milliardär.",
+          nl: "Phil Knight heeft Nike (oorspronkelijk Blue Ribbon Sports) mede opgericht met zijn atletiekcoach Bill Bowerman in 1964. Ze revolutioneerden sportschoenen met innovaties zoals de waffelzool. Nike werd 's werelds grootste sportkleding bedrijf, waardoor Knight miljardair werd."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Aldi discount supermarkets and built one of Germany's largest retail empires?",
+          es: "¿Quién fundó los supermercados de descuento Aldi y construyó uno de los imperios minoristas más grandes de Alemania?",
+          de: "Wer gründete Aldi Discounter und baute eines der größten Einzelhandelsimperien Deutschlands auf?",
+          nl: "Wie heeft Aldi discount-supermarkten opgericht en een van Duitslands grootste retailimperiums opgebouwd?"
+        },
+        options: [
+          { en: "Karl and Theo Albrecht", es: "Karl y Theo Albrecht", de: "Karl und Theo Albrecht", nl: "Karl en Theo Albrecht" },
+          { en: "Ingvar Kamprad", es: "Ingvar Kamprad", de: "Ingvar Kamprad", nl: "Ingvar Kamprad" },
+          { en: "Dieter Schwarz", es: "Dieter Schwarz", de: "Dieter Schwarz", nl: "Dieter Schwarz" },
+          { en: "Sam Walton", es: "Sam Walton", de: "Sam Walton", nl: "Sam Walton" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Karl and Theo Albrecht took over their mother's grocery store in 1946 and transformed it into Aldi (Albrecht Discount). The brothers split the company into Aldi Nord and Aldi Süd in 1960. They became among Germany's richest people through extreme frugality.",
+          es: "Karl y Theo Albrecht se hicieron cargo de la tienda de comestibles de su madre en 1946 y la transformaron en Aldi (Albrecht Discount). Los hermanos dividieron la compañía en Aldi Nord y Aldi Süd en 1960. Se convirtieron en las personas más ricas de Alemania a través de una extrema frugalidad.",
+          de: "Karl und Theo Albrecht übernahmen 1946 den Lebensmittelladen ihrer Mutter und verwandelten ihn in Aldi (Albrecht Discount). Die Brüder teilten das Unternehmen 1960 in Aldi Nord und Aldi Süd. Sie gehörten durch extreme Sparsamkeit zu Deutschlands reichsten Menschen.",
+          nl: "Karl en Theo Albrecht namen de kruidenierswinkel van hun moeder over in 1946 en transformeerden het tot Aldi (Albrecht Discount). De broers splitsten het bedrijf in 1960 in Aldi Nord en Aldi Süd. Ze werden Duitslands rijkste mensen door extreme zuinigheid."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Lidl and built it into Europe's largest discount supermarket chain?",
+          es: "¿Qué empresario fundó Lidl y la construyó en la cadena de supermercados de descuento más grande de Europa?",
+          de: "Welcher Unternehmer gründete Lidl und baute es zur größten Discount-Supermarktkette Europas auf?",
+          nl: "Welke ondernemer heeft Lidl opgericht en het uitgebouwd tot Europa's grootste discount-supermarktketen?"
+        },
+        options: [
+          { en: "Dieter Schwarz", es: "Dieter Schwarz", de: "Dieter Schwarz", nl: "Dieter Schwarz" },
+          { en: "Karl Albrecht", es: "Karl Albrecht", de: "Karl Albrecht", nl: "Karl Albrecht" },
+          { en: "Theo Albrecht", es: "Theo Albrecht", de: "Theo Albrecht", nl: "Theo Albrecht" },
+          { en: "Sam Walton", es: "Sam Walton", de: "Sam Walton", nl: "Sam Walton" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dieter Schwarz took over his father's wholesale business and founded Lidl in 1973 (buying the rights to the Lidl name). He built it into Europe's largest discount chain with over 11,000 stores. Schwarz is extremely private and became Germany's richest person.",
+          es: "Dieter Schwarz se hizo cargo del negocio mayorista de su padre y fundó Lidl en 1973 (comprando los derechos del nombre Lidl). La construyó en la cadena de descuento más grande de Europa con más de 11,000 tiendas. Schwarz es extremadamente privado y se convirtió en la persona más rica de Alemania.",
+          de: "Dieter Schwarz übernahm das Großhandelsgeschäft seines Vaters und gründete 1973 Lidl (kaufte die Rechte am Namen Lidl). Er baute es zur größten Discountkette Europas mit über 11.000 Filialen aus. Schwarz ist extrem privat und wurde Deutschlands reichster Mensch.",
+          nl: "Dieter Schwarz nam het groothandelsbedrijf van zijn vader over en richtte Lidl op in 1973 (waarbij hij de rechten op de naam Lidl kocht). Hij bouwde het uit tot Europa's grootste discountketen met meer dan 11.000 winkels. Schwarz is extreem privé en werd Duitslands rijkste persoon."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Walmart and built it into the world's largest retail corporation?",
+          es: "¿Quién fundó Walmart y la construyó en la corporación minorista más grande del mundo?",
+          de: "Wer gründete Walmart und baute es zum weltgrößten Einzelhandelskonzern auf?",
+          nl: "Wie heeft Walmart opgericht en het uitgebouwd tot 's werelds grootste retailbedrijf?"
+        },
+        options: [
+          { en: "Sam Walton", es: "Sam Walton", de: "Sam Walton", nl: "Sam Walton" },
+          { en: "James Sinegal", es: "James Sinegal", de: "James Sinegal", nl: "James Sinegal" },
+          { en: "Jeff Bezos", es: "Jeff Bezos", de: "Jeff Bezos", nl: "Jeff Bezos" },
+          { en: "Ray Kroc", es: "Ray Kroc", de: "Ray Kroc", nl: "Ray Kroc" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sam Walton founded Walmart in 1962 in Rogers, Arkansas. He pioneered discount retailing with 'everyday low prices' and efficient distribution. Walmart became the world's largest company by revenue, making the Walton family the richest in America.",
+          es: "Sam Walton fundó Walmart en 1962 en Rogers, Arkansas. Fue pionero en el comercio minorista de descuento con 'precios bajos todos los días' y distribución eficiente. Walmart se convirtió en la empresa más grande del mundo por ingresos, haciendo de la familia Walton la más rica de Estados Unidos.",
+          de: "Sam Walton gründete 1962 Walmart in Rogers, Arkansas. Er war Pionier des Discount-Einzelhandels mit 'Alltagsniedrigpreisen' und effizienter Distribution. Walmart wurde zum weltweit umsatzstärksten Unternehmen und machte die Familie Walton zur reichsten in Amerika.",
+          nl: "Sam Walton heeft Walmart opgericht in 1962 in Rogers, Arkansas. Hij was pionier van discount-retail met 'dagelijkse lage prijzen' en efficiënte distributie. Walmart werd 's werelds grootste bedrijf naar omzet, waardoor de familie Walton de rijkste van Amerika werd."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Costco and pioneered warehouse club retailing?",
+          es: "¿Qué empresario fundó Costco y fue pionero en el comercio minorista de clubes de almacén?",
+          de: "Welcher Unternehmer gründete Costco und war Pionier des Lagerclub-Einzelhandels?",
+          nl: "Welke ondernemer heeft Costco opgericht en was pionier van warehouse club-retail?"
+        },
+        options: [
+          { en: "James Sinegal and Jeffrey Brotman", es: "James Sinegal y Jeffrey Brotman", de: "James Sinegal und Jeffrey Brotman", nl: "James Sinegal en Jeffrey Brotman" },
+          { en: "Sam Walton", es: "Sam Walton", de: "Sam Walton", nl: "Sam Walton" },
+          { en: "Sol Price", es: "Sol Price", de: "Sol Price", nl: "Sol Price" },
+          { en: "Bernard Marcus", es: "Bernard Marcus", de: "Bernard Marcus", nl: "Bernard Marcus" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "James Sinegal and Jeffrey Brotman founded Costco in 1983 after Sinegal worked at Price Club. Costco pioneered membership-based warehouse retailing with bulk goods at low margins. It became the world's second-largest retailer, known for treating employees exceptionally well.",
+          es: "James Sinegal y Jeffrey Brotman fundaron Costco en 1983 después de que Sinegal trabajara en Price Club. Costco fue pionero en el comercio minorista de almacenes basado en membresías con productos a granel a bajos márgenes. Se convirtió en el segundo minorista más grande del mundo, conocido por tratar excepcionalmente bien a los empleados.",
+          de: "James Sinegal und Jeffrey Brotman gründeten 1983 Costco, nachdem Sinegal bei Price Club arbeitete. Costco war Pionier des mitgliedschaftsbasierten Lagereinzelhandels mit Großpackungen zu niedrigen Margen. Es wurde zum zweitgrößten Einzelhändler der Welt, bekannt für außergewöhnlich gute Mitarbeiterbehandlung.",
+          nl: "James Sinegal en Jeffrey Brotman hebben Costco opgericht in 1983 nadat Sinegal bij Price Club werkte. Costco was pionier van lidmaatschapsgebaseerde warehouse-retail met bulkgoederen tegen lage marges. Het werd 's werelds op een na grootste retailer, bekend om uitzonderlijk goede behandeling van werknemers."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Dell Technologies and pioneered direct-to-consumer computer sales?",
+          es: "¿Quién fundó Dell Technologies y fue pionero en las ventas directas al consumidor de computadoras?",
+          de: "Wer gründete Dell Technologies und war Pionier des Direktvertriebs von Computern an Verbraucher?",
+          nl: "Wie heeft Dell Technologies opgericht en was pionier van directe computerverkoop aan consumenten?"
+        },
+        options: [
+          { en: "Michael Dell", es: "Michael Dell", de: "Michael Dell", nl: "Michael Dell" },
+          { en: "Steve Jobs", es: "Steve Jobs", de: "Steve Jobs", nl: "Steve Jobs" },
+          { en: "Bill Gates", es: "Bill Gates", de: "Bill Gates", nl: "Bill Gates" },
+          { en: "Larry Ellison", es: "Larry Ellison", de: "Larry Ellison", nl: "Larry Ellison" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Michael Dell founded Dell Computer Corporation in 1984 from his University of Texas dorm room at age 19. He pioneered the direct-sales model, building custom computers to order. Dell became one of the world's largest PC makers and Dell became a billionaire by age 27.",
+          es: "Michael Dell fundó Dell Computer Corporation en 1984 desde su dormitorio de la Universidad de Texas a los 19 años. Fue pionero en el modelo de ventas directas, construyendo computadoras personalizadas por pedido. Dell se convirtió en uno de los mayores fabricantes de PC del mundo y Dell se convirtió en multimillonario a los 27 años.",
+          de: "Michael Dell gründete 1984 Dell Computer Corporation im Alter von 19 Jahren aus seinem Studentenwohnheim der University of Texas. Er war Pionier des Direktvertriebsmodells und baute kundenspezifische Computer auf Bestellung. Dell wurde zu einem der weltgrößten PC-Hersteller und Dell mit 27 Jahren zum Milliardär.",
+          nl: "Michael Dell heeft Dell Computer Corporation opgericht in 1984 vanuit zijn University of Texas studentenkamer op 19-jarige leeftijd. Hij was pionier van het directe verkoopmodel, waarbij hij aangepaste computers op bestelling bouwde. Dell werd een van 's werelds grootste PC-makers en Dell werd miljardair op 27-jarige leeftijd."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Oracle Corporation and became one of tech's most successful database pioneers?",
+          es: "¿Qué empresario fundó Oracle Corporation y se convirtió en uno de los pioneros de bases de datos más exitosos de la tecnología?",
+          de: "Welcher Unternehmer gründete Oracle Corporation und wurde zu einem der erfolgreichsten Datenbank-Pioniere der Technologie?",
+          nl: "Welke ondernemer heeft Oracle Corporation opgericht en werd een van tech's meest succesvolle database-pioniers?"
+        },
+        options: [
+          { en: "Larry Ellison", es: "Larry Ellison", de: "Larry Ellison", nl: "Larry Ellison" },
+          { en: "Bill Gates", es: "Bill Gates", de: "Bill Gates", nl: "Bill Gates" },
+          { en: "Michael Dell", es: "Michael Dell", de: "Michael Dell", nl: "Michael Dell" },
+          { en: "Steve Jobs", es: "Steve Jobs", de: "Steve Jobs", nl: "Steve Jobs" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Larry Ellison co-founded Oracle Corporation in 1977, developing the first commercial SQL-based relational database. Oracle became the world's second-largest software company. Ellison is known for his lavish lifestyle, yacht racing, and frequently ranking among the world's richest people.",
+          es: "Larry Ellison cofundó Oracle Corporation en 1977, desarrollando la primera base de datos relacional comercial basada en SQL. Oracle se convirtió en la segunda empresa de software más grande del mundo. Ellison es conocido por su estilo de vida lujoso, carreras de yates y por ocupar frecuentemente el puesto entre las personas más ricas del mundo.",
+          de: "Larry Ellison gründete 1977 Oracle Corporation mit und entwickelte die erste kommerzielle SQL-basierte relationale Datenbank. Oracle wurde zum zweitgrößten Softwareunternehmen der Welt. Ellison ist bekannt für seinen verschwenderischen Lebensstil, Yachtrennen und rangiert häufig unter den reichsten Menschen der Welt.",
+          nl: "Larry Ellison heeft Oracle Corporation mede opgericht in 1977, waarbij hij de eerste commerciële SQL-gebaseerde relationele database ontwikkelde. Oracle werd 's werelds op een na grootste softwarebedrijf. Ellison staat bekend om zijn weelderige levensstijl, jachtracen en wordt regelmatig gerangschikt onder 's werelds rijkste mensen."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Bloomberg L.P. and built a financial data and media empire?",
+          es: "¿Quién fundó Bloomberg L.P. y construyó un imperio de datos financieros y medios?",
+          de: "Wer gründete Bloomberg L.P. und baute ein Finanzdaten- und Medienimperium auf?",
+          nl: "Wie heeft Bloomberg L.P. opgericht en een financiële data- en media-imperium opgebouwd?"
+        },
+        options: [
+          { en: "Michael Bloomberg", es: "Michael Bloomberg", de: "Michael Bloomberg", nl: "Michael Bloomberg" },
+          { en: "Rupert Murdoch", es: "Rupert Murdoch", de: "Rupert Murdoch", nl: "Rupert Murdoch" },
+          { en: "Larry Ellison", es: "Larry Ellison", de: "Larry Ellison", nl: "Larry Ellison" },
+          { en: "Warren Buffett", es: "Warren Buffett", de: "Warren Buffett", nl: "Warren Buffett" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Michael Bloomberg founded Bloomberg L.P. in 1981 after being fired from Salomon Brothers. The Bloomberg Terminal revolutionized financial data access. Bloomberg became a billionaire, served as New York City mayor (2002-2013), and is a major philanthropist.",
+          es: "Michael Bloomberg fundó Bloomberg L.P. en 1981 después de ser despedido de Salomon Brothers. El Bloomberg Terminal revolucionó el acceso a datos financieros. Bloomberg se convirtió en multimillonario, sirvió como alcalde de Nueva York (2002-2013) y es un gran filántropo.",
+          de: "Michael Bloomberg gründete 1981 Bloomberg L.P., nachdem er von Salomon Brothers entlassen wurde. Das Bloomberg Terminal revolutionierte den Zugang zu Finanzdaten. Bloomberg wurde Milliardär, war Bürgermeister von New York City (2002-2013) und ist ein großer Philanthrop.",
+          nl: "Michael Bloomberg heeft Bloomberg L.P. opgericht in 1981 na te zijn ontslagen bij Salomon Brothers. De Bloomberg Terminal revolutioneerde de toegang tot financiële data. Bloomberg werd miljardair, diende als burgemeester van New York City (2002-2013) en is een grote filantroop."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Virgin Group and built a diverse business empire spanning airlines, music, and space?",
+          es: "¿Qué empresario fundó Virgin Group y construyó un imperio empresarial diverso que abarca aerolíneas, música y espacio?",
+          de: "Welcher Unternehmer gründete Virgin Group und baute ein vielfältiges Geschäftsimperium auf, das Fluggesellschaften, Musik und Weltraum umfasst?",
+          nl: "Welke ondernemer heeft Virgin Group opgericht en een divers bedrijfsimperium opgebouwd dat luchtvaartmaatschappijen, muziek en ruimte omvat?"
+        },
+        options: [
+          { en: "Richard Branson", es: "Richard Branson", de: "Richard Branson", nl: "Richard Branson" },
+          { en: "Elon Musk", es: "Elon Musk", de: "Elon Musk", nl: "Elon Musk" },
+          { en: "Jeff Bezos", es: "Jeff Bezos", de: "Jeff Bezos", nl: "Jeff Bezos" },
+          { en: "Larry Page", es: "Larry Page", de: "Larry Page", nl: "Larry Page" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Richard Branson founded Virgin Records in 1972 and Virgin Group in 1970. He expanded into airlines (Virgin Atlantic), telecommunications, hotels, and space tourism (Virgin Galactic). Branson is known for his adventurous lifestyle and unconventional business approach.",
+          es: "Richard Branson fundó Virgin Records en 1972 y Virgin Group en 1970. Se expandió a aerolíneas (Virgin Atlantic), telecomunicaciones, hoteles y turismo espacial (Virgin Galactic). Branson es conocido por su estilo de vida aventurero y enfoque empresarial poco convencional.",
+          de: "Richard Branson gründete 1972 Virgin Records und 1970 Virgin Group. Er expandierte in Fluggesellschaften (Virgin Atlantic), Telekommunikation, Hotels und Weltraumtourismus (Virgin Galactic). Branson ist bekannt für seinen abenteuerlichen Lebensstil und unkonventionellen Geschäftsansatz.",
+          nl: "Richard Branson heeft Virgin Records opgericht in 1972 en Virgin Group in 1970. Hij breidde zich uit naar luchtvaartmaatschappijen (Virgin Atlantic), telecommunicatie, hotels en ruimtetoerisme (Virgin Galactic). Branson staat bekend om zijn avontuurlijke levensstijl en onconventionele zakelijke aanpak."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Blackstone Group and built it into the world's largest alternative investment firm?",
+          es: "¿Quién fundó Blackstone Group y lo construyó en la firma de inversión alternativa más grande del mundo?",
+          de: "Wer gründete Blackstone Group und baute es zur weltgrößten alternativen Investmentfirma auf?",
+          nl: "Wie heeft Blackstone Group opgericht en het uitgebouwd tot 's werelds grootste alternatieve investeringsfirma?"
+        },
+        options: [
+          { en: "Stephen Schwarzman", es: "Stephen Schwarzman", de: "Stephen Schwarzman", nl: "Stephen Schwarzman" },
+          { en: "Warren Buffett", es: "Warren Buffett", de: "Warren Buffett", nl: "Warren Buffett" },
+          { en: "Ray Dalio", es: "Ray Dalio", de: "Ray Dalio", nl: "Ray Dalio" },
+          { en: "Carl Icahn", es: "Carl Icahn", de: "Carl Icahn", nl: "Carl Icahn" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Stephen Schwarzman co-founded Blackstone Group with Pete Peterson in 1985 with $400,000. Blackstone became the world's largest alternative asset manager with over $900 billion in assets. Schwarzman became a billionaire and major philanthropist, known for lavish parties.",
+          es: "Stephen Schwarzman cofundó Blackstone Group con Pete Peterson en 1985 con $400,000. Blackstone se convirtió en el mayor administrador de activos alternativos del mundo con más de $900 mil millones en activos. Schwarzman se convirtió en multimillonario y gran filántropo, conocido por fiestas lujosas.",
+          de: "Stephen Schwarzman gründete 1985 Blackstone Group mit Pete Peterson mit 400.000 Dollar. Blackstone wurde zum weltgrößten alternativen Vermögensverwalter mit über 900 Milliarden Dollar an Vermögenswerten. Schwarzman wurde Milliardär und großer Philanthrop, bekannt für verschwenderische Partys.",
+          nl: "Stephen Schwarzman heeft Blackstone Group mede opgericht met Pete Peterson in 1985 met $400.000. Blackstone werd 's werelds grootste alternatieve vermogensbeheerder met meer dan $900 miljard aan activa. Schwarzman werd miljardair en grote filantroop, bekend om weelderige feesten."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Bridgewater Associates and created the world's largest hedge fund?",
+          es: "¿Qué empresario fundó Bridgewater Associates y creó el fondo de cobertura más grande del mundo?",
+          de: "Welcher Unternehmer gründete Bridgewater Associates und schuf den weltgrößten Hedge-Fonds?",
+          nl: "Welke ondernemer heeft Bridgewater Associates opgericht en 's werelds grootste hedgefonds gecreëerd?"
+        },
+        options: [
+          { en: "Ray Dalio", es: "Ray Dalio", de: "Ray Dalio", nl: "Ray Dalio" },
+          { en: "Stephen Schwarzman", es: "Stephen Schwarzman", de: "Stephen Schwarzman", nl: "Stephen Schwarzman" },
+          { en: "George Soros", es: "George Soros", de: "George Soros", nl: "George Soros" },
+          { en: "Warren Buffett", es: "Warren Buffett", de: "Warren Buffett", nl: "Warren Buffett" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ray Dalio founded Bridgewater Associates in 1975 from his apartment. It became the world's largest hedge fund with over $150 billion in assets. Dalio pioneered 'radical transparency' management and wrote the bestseller 'Principles' sharing his investment and life philosophy.",
+          es: "Ray Dalio fundó Bridgewater Associates en 1975 desde su apartamento. Se convirtió en el fondo de cobertura más grande del mundo con más de $150 mil millones en activos. Dalio fue pionero en la gestión de 'transparencia radical' y escribió el bestseller 'Principios' compartiendo su filosofía de inversión y vida.",
+          de: "Ray Dalio gründete 1975 Bridgewater Associates aus seiner Wohnung. Es wurde zum weltgrößten Hedge-Fonds mit über 150 Milliarden Dollar an Vermögenswerten. Dalio war Pionier des 'radikale Transparenz'-Managements und schrieb den Bestseller 'Principles' über seine Investment- und Lebensphilosophie.",
+          nl: "Ray Dalio heeft Bridgewater Associates opgericht in 1975 vanuit zijn appartement. Het werd 's werelds grootste hedgefonds met meer dan $150 miljard aan activa. Dalio was pionier van 'radicale transparantie' management en schreef de bestseller 'Principles' waarin hij zijn investerings- en levensfilosofie deelt."
+        }
       }
     ]
   };

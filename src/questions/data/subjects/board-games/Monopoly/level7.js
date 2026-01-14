@@ -1606,6 +1606,47 @@
         de: "Studien zeigen etwa 25% Wahrscheinlichkeit für Gefängnis pro Umrundung aufgrund von: Gehen Sie ins Gefängnis-Feld, drei Paschs und Ereignis-/Gemeinschaftskarten ins Gefängnis.",
         nl: "Studies tonen ongeveer 25% waarschijnlijkheid van gevangenis per ronde vanwege: Ga naar de Gevangenis-vak, drie dubbels, en Kans/Algemeen Fonds-kaarten naar gevangenis."
       }
+    },
+    {
+      question: {
+        en: "What is 'artificial scarcity' in housing strategy?",
+        es: "¿Qué es 'escasez artificial' en estrategia de vivienda?",
+        de: "Was ist 'künstliche Knappheit' in der Wohnungsstrategie?",
+        nl: "Wat is 'kunstmatige schaarste' in huizenstrategie?"
+      },
+      options: [
+        {
+          en: "Deliberately keeping houses scarce to force opponents to buy hotels, depleting the bank",
+          es: "Mantener deliberadamente escasas las casas para forzar a oponentes a comprar hoteles, agotando el banco",
+          de: "Absichtlich Häuser knapp halten um Gegner zu zwingen Hotels zu kaufen, Bank erschöpfen",
+          nl: "Opzettelijk huizen schaars houden om tegenstanders te dwingen hotels te kopen, de bank uitputten"
+        },
+        {
+          en: "Building only on cheap properties",
+          es: "Construir solo en propiedades baratas",
+          de: "Nur auf billigen Immobilien bauen",
+          nl: "Alleen bouwen op goedkope eigendommen"
+        },
+        {
+          en: "Never building houses",
+          es: "Nunca construir casas",
+          de: "Niemals Häuser bauen",
+          nl: "Nooit huizen bouwen"
+        },
+        {
+          en: "Trading houses between players",
+          es: "Intercambiar casas entre jugadores",
+          de: "Häuser zwischen Spielern tauschen",
+          nl: "Huizen ruilen tussen spelers"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Building 4 houses per property (not hotels) on multiple monopolies creates house shortage, preventing opponents from building effectively.",
+        es: "Construir 4 casas por propiedad (no hoteles) en múltiples monopolios crea escasez de casas, previniendo que oponentes construyan efectivamente.",
+        de: "4 Häuser pro Immobilie bauen (keine Hotels) auf mehreren Monopolen schafft Häuserknappheit, verhindert effektives Bauen der Gegner.",
+        nl: "4 huizen per eigendom bouwen (geen hotels) op meerdere monopolies creëert huizenschaarste, voorkomt dat tegenstanders effectief bouwen."
+      }
     }
   ]
 };

@@ -426,7 +426,427 @@
           es: "Los bebés Velociraptors salían de huevos, igual que las aves de hoy. Sus padres hacían nidos y cuidaban los huevos hasta que los bebés estaban listos para salir.",
           de: "Baby-Velociraptors schlüpften aus Eiern, genau wie Vögel heute. Ihre Eltern bauten Nester und kümmerten sich um die Eier, bis die Babys bereit zum Schlüpfen waren.",
           nl: "Baby Velociraptors kwamen uit eieren, net zoals vogels vandaag. Hun ouders maakten nesten en zorgden voor de eieren totdat de baby's klaar waren om uit te komen."
-        }
+        }    },
+    {
+      question: {
+        en: "What is a Velociraptor?",
+        es: "What is a Velociraptor?",
+        de: "What is a Velociraptor?",
+        nl: "What is a Velociraptor?"
+      },
+      options: [
+        { en: "Small feathered carnivorous dinosaur", es: "Small feathered carnivorous dinosaur", de: "Small feathered carnivorous dinosaur", nl: "Small feathered carnivorous dinosaur" },
+        { en: "Large predator", es: "Large predator", de: "Large predator", nl: "Large predator" },
+        { en: "Herbivore", es: "Herbivore", de: "Herbivore", nl: "Herbivore" },
+        { en: "Flying dinosaur", es: "Flying dinosaur", de: "Flying dinosaur", nl: "Flying dinosaur" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Velociraptor was a small, feathered carnivorous dinosaur from Late Cretaceous Mongolia.",
+        es: "Velociraptor was a small, feathered carnivorous dinosaur from Late Cretaceous Mongolia.",
+        de: "Velociraptor was a small, feathered carnivorous dinosaur from Late Cretaceous Mongolia.",
+        nl: "Velociraptor was a small, feathered carnivorous dinosaur from Late Cretaceous Mongolia."
+      }
+    },
+    {
+      question: {
+        en: "How big was Velociraptor?",
+        es: "How big was Velociraptor?",
+        de: "How big was Velociraptor?",
+        nl: "How big was Velociraptor?"
+      },
+      options: [
+        { en: "About turkey-sized, 6 feet long", es: "About turkey-sized, 6 feet long", de: "About turkey-sized, 6 feet long", nl: "About turkey-sized, 6 feet long" },
+        { en: "Large as a car", es: "Large as a car", de: "Large as a car", nl: "Large as a car" },
+        { en: "Tiny as a chicken", es: "Tiny as a chicken", de: "Tiny as a chicken", nl: "Tiny as a chicken" },
+        { en: "Human-sized", es: "Human-sized", de: "Human-sized", nl: "Human-sized" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Velociraptor was about 6 feet long and roughly turkey-sized, much smaller than portrayed in movies.",
+        es: "Velociraptor was about 6 feet long and roughly turkey-sized, much smaller than portrayed in movies.",
+        de: "Velociraptor was about 6 feet long and roughly turkey-sized, much smaller than portrayed in movies.",
+        nl: "Velociraptor was about 6 feet long and roughly turkey-sized, much smaller than portrayed in movies."
+      }
+    },
+    {
+      question: {
+        en: "What is the distinctive claw on Velociraptor?",
+        es: "What is the distinctive claw on Velociraptor?",
+        de: "What is the distinctive claw on Velociraptor?",
+        nl: "What is the distinctive claw on Velociraptor?"
+      },
+      options: [
+        { en: "Large sickle-shaped claw on second toe", es: "Large sickle-shaped claw on second toe", de: "Large sickle-shaped claw on second toe", nl: "Large sickle-shaped claw on second toe" },
+        { en: "Claw on hands", es: "Claw on hands", de: "Claw on hands", nl: "Claw on hands" },
+        { en: "Claw on tail", es: "Claw on tail", de: "Claw on tail", nl: "Claw on tail" },
+        { en: "Nose horn", es: "Nose horn", de: "Nose horn", nl: "Nose horn" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Velociraptor had an enlarged, sickle-shaped claw on the second toe of each foot.",
+        es: "Velociraptor had an enlarged, sickle-shaped claw on the second toe of each foot.",
+        de: "Velociraptor had an enlarged, sickle-shaped claw on the second toe of each foot.",
+        nl: "Velociraptor had an enlarged, sickle-shaped claw on the second toe of each foot."
+      }
+    },
+    {
+      question: {
+        en: "Did Velociraptor have feathers?",
+        es: "Did Velociraptor have feathers?",
+        de: "Did Velociraptor have feathers?",
+        nl: "Did Velociraptor have feathers?"
+      },
+      options: [
+        { en: "Yes, fully feathered", es: "Yes, fully feathered", de: "Yes, fully feathered", nl: "Yes, fully feathered" },
+        { en: "No feathers", es: "No feathers", de: "No feathers", nl: "No feathers" },
+        { en: "Only some feathers", es: "Only some feathers", de: "Only some feathers", nl: "Only some feathers" },
+        { en: "Unknown", es: "Unknown", de: "Unknown", nl: "Unknown" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Evidence including quill knobs on arm bones confirms Velociraptor had feathers.",
+        es: "Evidence including quill knobs on arm bones confirms Velociraptor had feathers.",
+        de: "Evidence including quill knobs on arm bones confirms Velociraptor had feathers.",
+        nl: "Evidence including quill knobs on arm bones confirms Velociraptor had feathers."
+      }
+    },
+    {
+      question: {
+        en: "What is the Velociraptor family called?",
+        es: "What is the Velociraptor family called?",
+        de: "What is the Velociraptor family called?",
+        nl: "What is the Velociraptor family called?"
+      },
+      options: [
+        { en: "Dromaeosauridae (raptors)", es: "Dromaeosauridae (raptors)", de: "Dromaeosauridae (raptors)", nl: "Dromaeosauridae (raptors)" },
+        { en: "Tyrannosauridae", es: "Tyrannosauridae", de: "Tyrannosauridae", nl: "Tyrannosauridae" },
+        { en: "Troodontidae", es: "Troodontidae", de: "Troodontidae", nl: "Troodontidae" },
+        { en: "Ornithomimidae", es: "Ornithomimidae", de: "Ornithomimidae", nl: "Ornithomimidae" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Velociraptor belongs to the family Dromaeosauridae, commonly called raptors.",
+        es: "Velociraptor belongs to the family Dromaeosauridae, commonly called raptors.",
+        de: "Velociraptor belongs to the family Dromaeosauridae, commonly called raptors.",
+        nl: "Velociraptor belongs to the family Dromaeosauridae, commonly called raptors."
+      }
+    },
+    {
+      question: {
+        en: "What did Velociraptor eat?",
+        es: "What did Velociraptor eat?",
+        de: "What did Velociraptor eat?",
+        nl: "What did Velociraptor eat?"
+      },
+      options: [
+        { en: "Small dinosaurs and animals", es: "Small dinosaurs and animals", de: "Small dinosaurs and animals", nl: "Small dinosaurs and animals" },
+        { en: "Plants", es: "Plants", de: "Plants", nl: "Plants" },
+        { en: "Large dinosaurs", es: "Large dinosaurs", de: "Large dinosaurs", nl: "Large dinosaurs" },
+        { en: "Fish only", es: "Fish only", de: "Fish only", nl: "Fish only" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Velociraptor hunted small dinosaurs, mammals, and other small animals.",
+        es: "Velociraptor hunted small dinosaurs, mammals, and other small animals.",
+        de: "Velociraptor hunted small dinosaurs, mammals, and other small animals.",
+        nl: "Velociraptor hunted small dinosaurs, mammals, and other small animals."
+      }
+    },
+    {
+      question: {
+        en: "What is Deinonychus?",
+        es: "What is Deinonychus?",
+        de: "What is Deinonychus?",
+        nl: "What is Deinonychus?"
+      },
+      options: [
+        { en: "Larger North American raptor", es: "Larger North American raptor", de: "Larger North American raptor", nl: "Larger North American raptor" },
+        { en: "Smaller raptor", es: "Smaller raptor", de: "Smaller raptor", nl: "Smaller raptor" },
+        { en: "Asian raptor", es: "Asian raptor", de: "Asian raptor", nl: "Asian raptor" },
+        { en: "Herbivore", es: "Herbivore", de: "Herbivore", nl: "Herbivore" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Deinonychus was a larger North American dromaeosaur that helped inspire the Jurassic Park 'Velociraptors'.",
+        es: "Deinonychus was a larger North American dromaeosaur that helped inspire the Jurassic Park 'Velociraptors'.",
+        de: "Deinonychus was a larger North American dromaeosaur that helped inspire the Jurassic Park 'Velociraptors'.",
+        nl: "Deinonychus was a larger North American dromaeosaur that helped inspire the Jurassic Park 'Velociraptors'."
+      }
+    },
+    {
+      question: {
+        en: "Where did Velociraptor live?",
+        es: "Where did Velociraptor live?",
+        de: "Where did Velociraptor live?",
+        nl: "Where did Velociraptor live?"
+      },
+      options: [
+        { en: "Mongolia and China", es: "Mongolia and China", de: "Mongolia and China", nl: "Mongolia and China" },
+        { en: "North America", es: "North America", de: "North America", nl: "North America" },
+        { en: "South America", es: "South America", de: "South America", nl: "South America" },
+        { en: "Africa", es: "Africa", de: "Africa", nl: "Africa" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Velociraptor fossils have been found in Mongolia and China.",
+        es: "Velociraptor fossils have been found in Mongolia and China.",
+        de: "Velociraptor fossils have been found in Mongolia and China.",
+        nl: "Velociraptor fossils have been found in Mongolia and China."
+      }
+    },
+    {
+      question: {
+        en: "What is the purpose of the sickle claw?",
+        es: "What is the purpose of the sickle claw?",
+        de: "What is the purpose of the sickle claw?",
+        nl: "What is the purpose of the sickle claw?"
+      },
+      options: [
+        { en: "Pinning and slashing prey", es: "Pinning and slashing prey", de: "Pinning and slashing prey", nl: "Pinning and slashing prey" },
+        { en: "Digging", es: "Digging", de: "Digging", nl: "Digging" },
+        { en: "Climbing", es: "Climbing", de: "Climbing", nl: "Climbing" },
+        { en: "Defense only", es: "Defense only", de: "Defense only", nl: "Defense only" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The sickle claw was likely used to pin down and slash prey.",
+        es: "The sickle claw was likely used to pin down and slash prey.",
+        de: "The sickle claw was likely used to pin down and slash prey.",
+        nl: "The sickle claw was likely used to pin down and slash prey."
+      }
+    },
+    {
+      question: {
+        en: "What is Utahraptor?",
+        es: "What is Utahraptor?",
+        de: "What is Utahraptor?",
+        nl: "What is Utahraptor?"
+      },
+      options: [
+        { en: "Largest known dromaeosaur", es: "Largest known dromaeosaur", de: "Largest known dromaeosaur", nl: "Largest known dromaeosaur" },
+        { en: "Smallest raptor", es: "Smallest raptor", de: "Smallest raptor", nl: "Smallest raptor" },
+        { en: "Flying raptor", es: "Flying raptor", de: "Flying raptor", nl: "Flying raptor" },
+        { en: "Herbivorous raptor", es: "Herbivorous raptor", de: "Herbivorous raptor", nl: "Herbivorous raptor" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Utahraptor was the largest known raptor, up to 23 feet long and 1,000 pounds.",
+        es: "Utahraptor was the largest known raptor, up to 23 feet long and 1,000 pounds.",
+        de: "Utahraptor was the largest known raptor, up to 23 feet long and 1,000 pounds.",
+        nl: "Utahraptor was the largest known raptor, up to 23 feet long and 1,000 pounds."
+      }
+    },
+    {
+      question: {
+        en: "Did raptors hunt in packs?",
+        es: "Did raptors hunt in packs?",
+        de: "Did raptors hunt in packs?",
+        nl: "Did raptors hunt in packs?"
+      },
+      options: [
+        { en: "Possibly, but evidence is debated", es: "Possibly, but evidence is debated", de: "Possibly, but evidence is debated", nl: "Possibly, but evidence is debated" },
+        { en: "Definitely yes", es: "Definitely yes", de: "Definitely yes", nl: "Definitely yes" },
+        { en: "Definitely no", es: "Definitely no", de: "Definitely no", nl: "Definitely no" },
+        { en: "Unknown", es: "Unknown", de: "Unknown", nl: "Unknown" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Some evidence suggests pack hunting, but this remains debated among paleontologists.",
+        es: "Some evidence suggests pack hunting, but this remains debated among paleontologists.",
+        de: "Some evidence suggests pack hunting, but this remains debated among paleontologists.",
+        nl: "Some evidence suggests pack hunting, but this remains debated among paleontologists."
+      }
+    },
+    {
+      question: {
+        en: "What is Microraptor?",
+        es: "What is Microraptor?",
+        de: "What is Microraptor?",
+        nl: "What is Microraptor?"
+      },
+      options: [
+        { en: "Small four-winged dinosaur", es: "Small four-winged dinosaur", de: "Small four-winged dinosaur", nl: "Small four-winged dinosaur" },
+        { en: "Large raptor", es: "Large raptor", de: "Large raptor", nl: "Large raptor" },
+        { en: "Flightless raptor", es: "Flightless raptor", de: "Flightless raptor", nl: "Flightless raptor" },
+        { en: "Herbivore", es: "Herbivore", de: "Herbivore", nl: "Herbivore" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Microraptor was a small dinosaur with feathers on both arms and legs, possibly capable of gliding.",
+        es: "Microraptor was a small dinosaur with feathers on both arms and legs, possibly capable of gliding.",
+        de: "Microraptor was a small dinosaur with feathers on both arms and legs, possibly capable of gliding.",
+        nl: "Microraptor was a small dinosaur with feathers on both arms and legs, possibly capable of gliding."
+      }
+    },
+    {
+      question: {
+        en: "How intelligent were raptors?",
+        es: "How intelligent were raptors?",
+        de: "How intelligent were raptors?",
+        nl: "How intelligent were raptors?"
+      },
+      options: [
+        { en: "More intelligent than most dinosaurs", es: "More intelligent than most dinosaurs", de: "More intelligent than most dinosaurs", nl: "More intelligent than most dinosaurs" },
+        { en: "Least intelligent", es: "Least intelligent", de: "Least intelligent", nl: "Least intelligent" },
+        { en: "Average intelligence", es: "Average intelligence", de: "Average intelligence", nl: "Average intelligence" },
+        { en: "Unknown", es: "Unknown", de: "Unknown", nl: "Unknown" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Raptors had relatively large brains for their body size, suggesting above-average intelligence for dinosaurs.",
+        es: "Raptors had relatively large brains for their body size, suggesting above-average intelligence for dinosaurs.",
+        de: "Raptors had relatively large brains for their body size, suggesting above-average intelligence for dinosaurs.",
+        nl: "Raptors had relatively large brains for their body size, suggesting above-average intelligence for dinosaurs."
+      }
+    },
+    {
+      question: {
+        en: "What is Achillobator?",
+        es: "What is Achillobator?",
+        de: "What is Achillobator?",
+        nl: "What is Achillobator?"
+      },
+      options: [
+        { en: "Large Mongolian raptor", es: "Large Mongolian raptor", de: "Large Mongolian raptor", nl: "Large Mongolian raptor" },
+        { en: "Small raptor", es: "Small raptor", de: "Small raptor", nl: "Small raptor" },
+        { en: "North American raptor", es: "North American raptor", de: "North American raptor", nl: "North American raptor" },
+        { en: "Herbivore", es: "Herbivore", de: "Herbivore", nl: "Herbivore" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Achillobator was a large dromaeosaur from Mongolia, similar in size to Deinonychus.",
+        es: "Achillobator was a large dromaeosaur from Mongolia, similar in size to Deinonychus.",
+        de: "Achillobator was a large dromaeosaur from Mongolia, similar in size to Deinonychus.",
+        nl: "Achillobator was a large dromaeosaur from Mongolia, similar in size to Deinonychus."
+      }
+    },
+    {
+      question: {
+        en: "Could Velociraptor fly?",
+        es: "Could Velociraptor fly?",
+        de: "Could Velociraptor fly?",
+        nl: "Could Velociraptor fly?"
+      },
+      options: [
+        { en: "No, but had feathers", es: "No, but had feathers", de: "No, but had feathers", nl: "No, but had feathers" },
+        { en: "Yes, fully", es: "Yes, fully", de: "Yes, fully", nl: "Yes, fully" },
+        { en: "Could glide only", es: "Could glide only", de: "Could glide only", nl: "Could glide only" },
+        { en: "No feathers at all", es: "No feathers at all", de: "No feathers at all", nl: "No feathers at all" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Velociraptor had feathers but could not fly; it was too large and lacked the necessary adaptations.",
+        es: "Velociraptor had feathers but could not fly; it was too large and lacked the necessary adaptations.",
+        de: "Velociraptor had feathers but could not fly; it was too large and lacked the necessary adaptations.",
+        nl: "Velociraptor had feathers but could not fly; it was too large and lacked the necessary adaptations."
+      }
+    },
+    {
+      question: {
+        en: "What is the famous 'fighting dinosaurs' fossil?",
+        es: "What is the famous 'fighting dinosaurs' fossil?",
+        de: "What is the famous 'fighting dinosaurs' fossil?",
+        nl: "What is the famous 'fighting dinosaurs' fossil?"
+      },
+      options: [
+        { en: "Velociraptor and Protoceratops locked in combat", es: "Velociraptor and Protoceratops locked in combat", de: "Velociraptor and Protoceratops locked in combat", nl: "Velociraptor and Protoceratops locked in combat" },
+        { en: "Two T-Rexes fighting", es: "Two T-Rexes fighting", de: "Two T-Rexes fighting", nl: "Two T-Rexes fighting" },
+        { en: "Triceratops vs T-Rex", es: "Triceratops vs T-Rex", de: "Triceratops vs T-Rex", nl: "Triceratops vs T-Rex" },
+        { en: "Two Velociraptors fighting", es: "Two Velociraptors fighting", de: "Two Velociraptors fighting", nl: "Two Velociraptors fighting" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A famous fossil shows Velociraptor and Protoceratops locked in mortal combat, preserved by a sandstorm.",
+        es: "A famous fossil shows Velociraptor and Protoceratops locked in mortal combat, preserved by a sandstorm.",
+        de: "A famous fossil shows Velociraptor and Protoceratops locked in mortal combat, preserved by a sandstorm.",
+        nl: "A famous fossil shows Velociraptor and Protoceratops locked in mortal combat, preserved by a sandstorm."
+      }
+    },
+    {
+      question: {
+        en: "What is Bambiraptor?",
+        es: "What is Bambiraptor?",
+        de: "What is Bambiraptor?",
+        nl: "What is Bambiraptor?"
+      },
+      options: [
+        { en: "Small juvenile dromaeosaur", es: "Small juvenile dromaeosaur", de: "Small juvenile dromaeosaur", nl: "Small juvenile dromaeosaur" },
+        { en: "Large raptor", es: "Large raptor", de: "Large raptor", nl: "Large raptor" },
+        { en: "Adult raptor", es: "Adult raptor", de: "Adult raptor", nl: "Adult raptor" },
+        { en: "Herbivore", es: "Herbivore", de: "Herbivore", nl: "Herbivore" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Bambiraptor was a small, possibly juvenile dromaeosaur from Montana, well-preserved with delicate features.",
+        es: "Bambiraptor was a small, possibly juvenile dromaeosaur from Montana, well-preserved with delicate features.",
+        de: "Bambiraptor was a small, possibly juvenile dromaeosaur from Montana, well-preserved with delicate features.",
+        nl: "Bambiraptor was a small, possibly juvenile dromaeosaur from Montana, well-preserved with delicate features."
+      }
+    },
+    {
+      question: {
+        en: "How are raptors related to birds?",
+        es: "How are raptors related to birds?",
+        de: "How are raptors related to birds?",
+        nl: "How are raptors related to birds?"
+      },
+      options: [
+        { en: "Close relatives; share many bird features", es: "Close relatives; share many bird features", de: "Close relatives; share many bird features", nl: "Close relatives; share many bird features" },
+        { en: "Not related", es: "Not related", de: "Not related", nl: "Not related" },
+        { en: "Raptors evolved from birds", es: "Raptors evolved from birds", de: "Raptors evolved from birds", nl: "Raptors evolved from birds" },
+        { en: "Distant relatives only", es: "Distant relatives only", de: "Distant relatives only", nl: "Distant relatives only" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Dromaeosaurs like Velociraptor are very closely related to birds, sharing many skeletal and feather features.",
+        es: "Dromaeosaurs like Velociraptor are very closely related to birds, sharing many skeletal and feather features.",
+        de: "Dromaeosaurs like Velociraptor are very closely related to birds, sharing many skeletal and feather features.",
+        nl: "Dromaeosaurs like Velociraptor are very closely related to birds, sharing many skeletal and feather features."
+      }
+    },
+    {
+      question: {
+        en: "What is Saurornitholestes?",
+        es: "What is Saurornitholestes?",
+        de: "What is Saurornitholestes?",
+        nl: "What is Saurornitholestes?"
+      },
+      options: [
+        { en: "Small North American dromaeosaur", es: "Small North American dromaeosaur", de: "Small North American dromaeosaur", nl: "Small North American dromaeosaur" },
+        { en: "Large raptor", es: "Large raptor", de: "Large raptor", nl: "Large raptor" },
+        { en: "Asian raptor", es: "Asian raptor", de: "Asian raptor", nl: "Asian raptor" },
+        { en: "Herbivore", es: "Herbivore", de: "Herbivore", nl: "Herbivore" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Saurornitholestes was a small dromaeosaur from Late Cretaceous North America, similar to Velociraptor.",
+        es: "Saurornitholestes was a small dromaeosaur from Late Cretaceous North America, similar to Velociraptor.",
+        de: "Saurornitholestes was a small dromaeosaur from Late Cretaceous North America, similar to Velociraptor.",
+        nl: "Saurornitholestes was a small dromaeosaur from Late Cretaceous North America, similar to Velociraptor."
+      }
+    },
+    {
+      question: {
+        en: "What does 'Velociraptor' mean?",
+        es: "What does 'Velociraptor' mean?",
+        de: "What does 'Velociraptor' mean?",
+        nl: "What does 'Velociraptor' mean?"
+      },
+      options: [
+        { en: "Swift thief or speedy plunderer", es: "Swift thief or speedy plunderer", de: "Swift thief or speedy plunderer", nl: "Swift thief or speedy plunderer" },
+        { en: "Fierce hunter", es: "Fierce hunter", de: "Fierce hunter", nl: "Fierce hunter" },
+        { en: "Fast runner", es: "Fast runner", de: "Fast runner", nl: "Fast runner" },
+        { en: "Sharp claw", es: "Sharp claw", de: "Sharp claw", nl: "Sharp claw" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Velociraptor means 'swift thief' or 'speedy plunderer' in Latin.",
+        es: "Velociraptor means 'swift thief' or 'speedy plunderer' in Latin.",
+        de: "Velociraptor means 'swift thief' or 'speedy plunderer' in Latin.",
+        nl: "Velociraptor means 'swift thief' or 'speedy plunderer' in Latin."
+      }
+
       }
     ]
   };

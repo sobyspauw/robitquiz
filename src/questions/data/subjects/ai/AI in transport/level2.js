@@ -427,6 +427,426 @@
           de: "Adaptiver Tempomat nutzt Radar und Kameras um vorausfahrende Fahrzeuge zu erkennen und beschleunigt oder bremst automatisch um voreingestellten Folgeabstand zu halten, reduziert Fahrermüdigkeit.",
           nl: "Adaptieve cruise control gebruikt radar en camera's om voertuigen vooruit te detecteren en versnelt of remt automatisch om vooraf ingestelde volgafstand te behouden, vermindert bestuurdervermoeidheid."
         }
+      },
+      {
+        question: {
+          en: "What is path planning in autonomous vehicle navigation?",
+          es: "¿Qué es la planificación de rutas en navegación de vehículos autónomos?",
+          de: "Was ist Pfadplanung in der Navigation autonomer Fahrzeuge?",
+          nl: "Wat is pad planning in autonome voertuig navigatie?"
+        },
+        options: [
+          { en: "AI calculating the optimal trajectory from current position to destination", es: "IA calculando la trayectoria óptima desde posición actual hasta destino", de: "KI berechnet optimale Trajektorie von aktueller Position zum Ziel", nl: "AI berekent optimale traject van huidige positie naar bestemming" },
+          { en: "Planning parking lot layouts", es: "Planificar diseños de estacionamiento", de: "Parkplatz-Layouts planen", nl: "Parkeerplaats lay-outs plannen" },
+          { en: "Designing road construction paths", es: "Diseñar rutas de construcción vial", de: "Straßenbau-Pfade entwerfen", nl: "Wegenbouw paden ontwerpen" },
+          { en: "Creating walking paths for pedestrians", es: "Crear caminos peatonales para peatones", de: "Fußwege für Fußgänger erstellen", nl: "Wandelpaden voor voetgangers creëren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Path planning algorithms compute safe, efficient routes considering obstacles, traffic rules, and road conditions, continuously updating as the environment changes.",
+          es: "Los algoritmos de planificación de rutas calculan rutas seguras y eficientes considerando obstáculos, reglas de tráfico y condiciones de carretera, actualizando continuamente mientras el entorno cambia.",
+          de: "Pfadplanungsalgorithmen berechnen sichere, effiziente Routen unter Berücksichtigung von Hindernissen, Verkehrsregeln und Straßenbedingungen, aktualisieren kontinuierlich während sich Umgebung ändert.",
+          nl: "Pad planning algoritmes berekenen veilige, efficiënte routes met inachtneming van obstakels, verkeersregels en wegomstandigheden, waarbij continu wordt bijgewerkt terwijl de omgeving verandert."
+        }
+      },
+      {
+        question: {
+          en: "How does AI assist in fleet management for transportation companies?",
+          es: "¿Cómo asiste la IA en gestión de flotas para empresas de transporte?",
+          de: "Wie unterstützt KI beim Flottenmanagement für Transportunternehmen?",
+          nl: "Hoe helpt AI bij vlootbeheer voor transportbedrijven?"
+        },
+        options: [
+          { en: "Optimizing vehicle assignments, routes, and maintenance schedules to maximize efficiency", es: "Optimizando asignaciones de vehículos, rutas y horarios de mantenimiento para maximizar eficiencia", de: "Optimierung von Fahrzeugzuweisungen, Routen und Wartungsplänen zur Effizienzmaximierung", nl: "Optimaliseren van voertuigtoewijzingen, routes en onderhoudsschema's om efficiëntie te maximaliseren" },
+          { en: "Painting fleet vehicles", es: "Pintar vehículos de flota", de: "Flottenfahrzeuge bemalen", nl: "Vlootvoertuigen schilderen" },
+          { en: "Hiring fleet drivers", es: "Contratar conductores de flota", de: "Flottenfahrer einstellen", nl: "Vlootbestuurders aannemen" },
+          { en: "Designing fleet logos", es: "Diseñar logos de flota", de: "Flottenlogos entwerfen", nl: "Vlootlogo's ontwerpen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI fleet management systems analyze usage patterns, driver behavior, vehicle health, and operational data to reduce costs, improve safety, and optimize logistics operations.",
+          es: "Los sistemas de gestión de flotas con IA analizan patrones de uso, comportamiento del conductor, salud del vehículo y datos operacionales para reducir costos, mejorar seguridad y optimizar operaciones logísticas.",
+          de: "KI-Flottenmanagement-Systeme analysieren Nutzungsmuster, Fahrerverhalten, Fahrzeugzustand und Betriebsdaten um Kosten zu reduzieren, Sicherheit zu verbessern und Logistikoperationen zu optimieren.",
+          nl: "AI vlootbeheer systemen analyseren gebruikspatronen, bestuurdergedrag, voertuigconditie en operationele data om kosten te verminderen, veiligheid te verbeteren en logistieke operaties te optimaliseren."
+        }
+      },
+      {
+        question: {
+          en: "What is simultaneous localization and mapping (SLAM) in autonomous vehicles?",
+          es: "¿Qué es la localización y mapeo simultáneos (SLAM) en vehículos autónomos?",
+          de: "Was ist simultane Lokalisierung und Kartierung (SLAM) in autonomen Fahrzeugen?",
+          nl: "Wat is simultane lokalisatie en mapping (SLAM) in autonome voertuigen?"
+        },
+        options: [
+          { en: "Building a map of surroundings while tracking the vehicle's position simultaneously", es: "Construir un mapa del entorno mientras rastrea posición del vehículo simultáneamente", de: "Karte der Umgebung erstellen während Fahrzeugposition gleichzeitig verfolgt wird", nl: "Een kaart van omgeving bouwen terwijl voertuigpositie gelijktijdig wordt gevolgd" },
+          { en: "Slamming brakes in emergencies", es: "Frenar bruscamente en emergencias", de: "Notbremsung in Notfällen", nl: "Hard remmen in noodgevallen" },
+          { en: "Mapping only pre-programmed routes", es: "Mapear solo rutas preprogramadas", de: "Nur vorprogrammierte Routen kartieren", nl: "Alleen voorgeprogrammeerde routes in kaart brengen" },
+          { en: "Locating vehicle service centers", es: "Localizar centros de servicio de vehículos", de: "Fahrzeugservicezentren lokalisieren", nl: "Voertuig service centers lokaliseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "SLAM enables autonomous vehicles to navigate unknown environments by creating real-time maps while determining their exact location within those maps using sensor data.",
+          es: "SLAM permite a vehículos autónomos navegar entornos desconocidos creando mapas en tiempo real mientras determina su ubicación exacta dentro de esos mapas usando datos de sensores.",
+          de: "SLAM ermöglicht autonomen Fahrzeugen in unbekannten Umgebungen zu navigieren durch Erstellung von Echtzeit-Karten während ihre genaue Position innerhalb dieser Karten mit Sensordaten bestimmt wird.",
+          nl: "SLAM stelt autonome voertuigen in staat om in onbekende omgevingen te navigeren door real-time kaarten te creëren terwijl hun exacte locatie binnen die kaarten wordt bepaald met behulp van sensordata."
+        }
+      },
+      {
+        question: {
+          en: "What is vehicle platooning technology?",
+          es: "¿Qué es la tecnología de platooning de vehículos?",
+          de: "Was ist Fahrzeug-Platooning-Technologie?",
+          nl: "Wat is voertuig platooning technologie?"
+        },
+        options: [
+          { en: "AI-coordinated convoys of vehicles traveling close together to improve fuel efficiency", es: "Convoyes coordinados por IA de vehículos viajando cerca juntos para mejorar eficiencia de combustible", de: "KI-koordinierte Fahrzeug-Konvois die eng zusammen fahren um Kraftstoffeffizienz zu verbessern", nl: "AI-gecoördineerde konvooien van voertuigen die dicht bij elkaar rijden om brandstofefficiëntie te verbeteren" },
+          { en: "Platoon-style military vehicle formations", es: "Formaciones de vehículos militares estilo pelotón", de: "Militärfahrzeug-Formationen im Zug-Stil", nl: "Militaire voertuig formaties in peloton-stijl" },
+          { en: "Vehicle storage in platoons", es: "Almacenamiento de vehículos en pelotones", de: "Fahrzeuglagerung in Zügen", nl: "Voertuig opslag in pelotons" },
+          { en: "Single vehicle operation mode", es: "Modo de operación de vehículo único", de: "Einzelfahrzeug-Betriebsmodus", nl: "Enkele voertuig operatie modus" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Platooning uses V2V communication and AI to maintain precise spacing between vehicles, reducing air resistance and fuel consumption especially for trucks on highways.",
+          es: "El platooning usa comunicación V2V e IA para mantener espacio preciso entre vehículos, reduciendo resistencia al aire y consumo de combustible especialmente para camiones en autopistas.",
+          de: "Platooning nutzt V2V-Kommunikation und KI um präzisen Abstand zwischen Fahrzeugen zu halten, reduziert Luftwiderstand und Kraftstoffverbrauch besonders für Lkw auf Autobahnen.",
+          nl: "Platooning gebruikt V2V communicatie en AI om precieze afstand tussen voertuigen te behouden, vermindert luchtweerstand en brandstofverbruik vooral voor vrachtwagens op snelwegen."
+        }
+      },
+      {
+        question: {
+          en: "How do neural networks contribute to autonomous driving?",
+          es: "¿Cómo contribuyen las redes neuronales a la conducción autónoma?",
+          de: "Wie tragen neuronale Netzwerke zum autonomen Fahren bei?",
+          nl: "Hoe dragen neurale netwerken bij aan autonoom rijden?"
+        },
+        options: [
+          { en: "Learning complex patterns from data to make driving decisions like humans", es: "Aprendiendo patrones complejos de datos para tomar decisiones de conducción como humanos", de: "Lernen komplexer Muster aus Daten um Fahrentscheidungen wie Menschen zu treffen", nl: "Complexe patronen leren uit data om rijbeslissingen te nemen zoals mensen" },
+          { en: "Connecting vehicle's electrical wiring", es: "Conectar cableado eléctrico del vehículo", de: "Elektrische Verkabelung des Fahrzeugs verbinden", nl: "Elektrische bedrading van voertuig verbinden" },
+          { en: "Creating social networks for drivers", es: "Crear redes sociales para conductores", de: "Soziale Netzwerke für Fahrer erstellen", nl: "Sociale netwerken voor bestuurders creëren" },
+          { en: "Monitoring driver's brain activity", es: "Monitorear actividad cerebral del conductor", de: "Gehirnaktivität des Fahrers überwachen", nl: "Hersenactiviteit van bestuurder monitoren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Neural networks process vast amounts of sensor data to recognize objects, predict behaviors, and make real-time driving decisions, forming the core of modern autonomous vehicle AI.",
+          es: "Las redes neuronales procesan vastas cantidades de datos de sensores para reconocer objetos, predecir comportamientos y tomar decisiones de conducción en tiempo real, formando el núcleo de IA moderna de vehículos autónomos.",
+          de: "Neuronale Netzwerke verarbeiten riesige Mengen an Sensordaten um Objekte zu erkennen, Verhalten vorherzusagen und Echtzeit-Fahrentscheidungen zu treffen, bilden Kern moderner autonomer Fahrzeug-KI.",
+          nl: "Neurale netwerken verwerken grote hoeveelheden sensordata om objecten te herkennen, gedrag te voorspellen en real-time rijbeslissingen te nemen, vormen de kern van moderne autonome voertuig AI."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of redundancy in autonomous vehicle sensor systems?",
+          es: "¿Cuál es el propósito de la redundancia en sistemas de sensores de vehículos autónomos?",
+          de: "Was ist der Zweck von Redundanz in autonomen Fahrzeugsensorsystemen?",
+          nl: "Wat is het doel van redundantie in autonome voertuig sensorsystemen?"
+        },
+        options: [
+          { en: "Having multiple backup sensors to ensure safety if one fails", es: "Tener múltiples sensores de respaldo para asegurar seguridad si uno falla", de: "Mehrere Backup-Sensoren haben um Sicherheit zu gewährleisten wenn einer ausfällt", nl: "Meerdere backup sensoren hebben om veiligheid te waarborgen als één uitvalt" },
+          { en: "Making vehicles heavier", es: "Hacer vehículos más pesados", de: "Fahrzeuge schwerer machen", nl: "Voertuigen zwaarder maken" },
+          { en: "Increasing vehicle cost unnecessarily", es: "Aumentar costo del vehículo innecesariamente", de: "Fahrzeugkosten unnötig erhöhen", nl: "Voertuigkosten onnodig verhogen" },
+          { en: "Decorating vehicle with extra sensors", es: "Decorar vehículo con sensores extra", de: "Fahrzeug mit extra Sensoren dekorieren", nl: "Voertuig decoreren met extra sensoren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Redundant sensor systems provide fail-safe operation by using multiple overlapping sensors, so if one fails, others can maintain vehicle awareness and safety.",
+          es: "Los sistemas de sensores redundantes proporcionan operación a prueba de fallos usando múltiples sensores superpuestos, entonces si uno falla, otros pueden mantener conciencia y seguridad del vehículo.",
+          de: "Redundante Sensorsysteme bieten ausfallsicheren Betrieb durch mehrere überlappende Sensoren, wenn einer ausfällt können andere Fahrzeugwahrnehmung und Sicherheit aufrechterhalten.",
+          nl: "Redundante sensor systemen bieden fail-safe operatie door meerdere overlappende sensoren te gebruiken, dus als één uitvalt kunnen anderen voertuigbewustzijn en veiligheid behouden."
+        }
+      },
+      {
+        question: {
+          en: "What role does cloud computing play in connected vehicle systems?",
+          es: "¿Qué papel juega la computación en la nube en sistemas de vehículos conectados?",
+          de: "Welche Rolle spielt Cloud Computing in vernetzten Fahrzeugsystemen?",
+          nl: "Welke rol speelt cloud computing in verbonden voertuig systemen?"
+        },
+        options: [
+          { en: "Storing and processing large amounts of traffic and map data for vehicles to access", es: "Almacenar y procesar grandes cantidades de datos de tráfico y mapas para que vehículos accedan", de: "Speicherung und Verarbeitung großer Mengen an Verkehrs- und Kartendaten für Fahrzeugzugriff", nl: "Grote hoeveelheden verkeer en kaart data opslaan en verwerken voor voertuigtoegang" },
+          { en: "Creating cloud-shaped vehicle designs", es: "Crear diseños de vehículos con forma de nube", de: "Wolkenförmige Fahrzeugdesigns erstellen", nl: "Wolkvormige voertuig ontwerpen creëren" },
+          { en: "Monitoring weather clouds only", es: "Monitorear solo nubes meteorológicas", de: "Nur Wetterwolken überwachen", nl: "Alleen weerwolken monitoren" },
+          { en: "Storing personal photos in vehicle", es: "Almacenar fotos personales en vehículo", de: "Persönliche Fotos im Fahrzeug speichern", nl: "Persoonlijke foto's opslaan in voertuig" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cloud computing enables vehicles to access real-time traffic updates, high-definition maps, and shared intelligence from other vehicles, enhancing navigation and safety.",
+          es: "La computación en la nube permite a vehículos acceder a actualizaciones de tráfico en tiempo real, mapas de alta definición e inteligencia compartida de otros vehículos, mejorando navegación y seguridad.",
+          de: "Cloud Computing ermöglicht Fahrzeugen Zugriff auf Echtzeit-Verkehrsupdates, hochauflösende Karten und geteilte Intelligenz von anderen Fahrzeugen, verbessert Navigation und Sicherheit.",
+          nl: "Cloud computing stelt voertuigen in staat om toegang te krijgen tot real-time verkeersupdates, high-definition kaarten en gedeelde intelligentie van andere voertuigen, wat navigatie en veiligheid verbetert."
+        }
+      },
+      {
+        question: {
+          en: "What is behavior prediction in autonomous vehicle AI?",
+          es: "¿Qué es la predicción de comportamiento en IA de vehículos autónomos?",
+          de: "Was ist Verhaltensvorhersage in autonomer Fahrzeug-KI?",
+          nl: "Wat is gedragsvoorspelling in autonome voertuig AI?"
+        },
+        options: [
+          { en: "Anticipating actions of other road users to make safer driving decisions", es: "Anticipar acciones de otros usuarios de carretera para tomar decisiones de conducción más seguras", de: "Aktionen anderer Verkehrsteilnehmer vorhersagen um sicherere Fahrentscheidungen zu treffen", nl: "Acties van andere weggebruikers voorspellen om veiligere rijbeslissingen te nemen" },
+          { en: "Predicting vehicle maintenance needs", es: "Predecir necesidades de mantenimiento del vehículo", de: "Fahrzeugwartungsbedarf vorhersagen", nl: "Voertuig onderhoudsbehoeften voorspellen" },
+          { en: "Forecasting driver personality types", es: "Pronosticar tipos de personalidad del conductor", de: "Fahrerpersönlichkeitstypen prognostizieren", nl: "Bestuurder persoonlijkheidstypes voorspellen" },
+          { en: "Predicting fuel consumption only", es: "Predecir solo consumo de combustible", de: "Nur Kraftstoffverbrauch vorhersagen", nl: "Alleen brandstofverbruik voorspellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI behavior prediction analyzes movements and patterns of pedestrians, cyclists, and other vehicles to anticipate their next actions, enabling proactive safety measures.",
+          es: "La predicción de comportamiento IA analiza movimientos y patrones de peatones, ciclistas y otros vehículos para anticipar sus próximas acciones, habilitando medidas de seguridad proactivas.",
+          de: "KI-Verhaltensvorhersage analysiert Bewegungen und Muster von Fußgängern, Radfahrern und anderen Fahrzeugen um deren nächste Aktionen vorherzusagen, ermöglicht proaktive Sicherheitsmaßnahmen.",
+          nl: "AI gedragsvoorspelling analyseert bewegingen en patronen van voetgangers, fietsers en andere voertuigen om hun volgende acties te voorspellen, wat proactieve veiligheidsmaatregelen mogelijk maakt."
+        }
+      },
+      {
+        question: {
+          en: "How does AI improve public transit scheduling?",
+          es: "¿Cómo mejora la IA la programación del tránsito público?",
+          de: "Wie verbessert KI die Planung des öffentlichen Nahverkehrs?",
+          nl: "Hoe verbetert AI openbaar vervoer planning?"
+        },
+        options: [
+          { en: "Analyzing passenger demand patterns to optimize frequency and routes", es: "Analizando patrones de demanda de pasajeros para optimizar frecuencia y rutas", de: "Analyse von Fahrgastnachfragemustern zur Optimierung von Frequenz und Routen", nl: "Passagiersvraag patronen analyseren om frequentie en routes te optimaliseren" },
+          { en: "Only changing bus colors", es: "Solo cambiar colores de autobús", de: "Nur Busfarben ändern", nl: "Alleen buskleuren veranderen" },
+          { en: "Designing transit station architecture", es: "Diseñar arquitectura de estación de tránsito", de: "Transitstations-Architektur entwerfen", nl: "Openbaar vervoer station architectuur ontwerpen" },
+          { en: "Hiring more transit operators", es: "Contratar más operadores de tránsito", de: "Mehr Transitbetreiber einstellen", nl: "Meer openbaar vervoer operators aannemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI analyzes historical ridership data, events, weather, and real-time conditions to dynamically adjust schedules, improving service reliability and reducing wait times.",
+          es: "La IA analiza datos históricos de pasajeros, eventos, clima y condiciones en tiempo real para ajustar dinámicamente horarios, mejorando confiabilidad del servicio y reduciendo tiempos de espera.",
+          de: "KI analysiert historische Fahrgastdaten, Ereignisse, Wetter und Echtzeitbedingungen um Fahrpläne dynamisch anzupassen, verbessert Service-Zuverlässigkeit und reduziert Wartezeiten.",
+          nl: "AI analyseert historische passagiersdata, evenementen, weer en real-time omstandigheden om schema's dynamisch aan te passen, wat service betrouwbaarheid verbetert en wachttijden vermindert."
+        }
+      },
+      {
+        question: {
+          en: "What is semantic segmentation in autonomous vehicle vision?",
+          es: "¿Qué es la segmentación semántica en visión de vehículos autónomos?",
+          de: "Was ist semantische Segmentierung in autonomer Fahrzeugvision?",
+          nl: "Wat is semantische segmentatie in autonome voertuig vision?"
+        },
+        options: [
+          { en: "Classifying every pixel in camera images to identify road, vehicles, pedestrians, etc.", es: "Clasificar cada píxel en imágenes de cámara para identificar carretera, vehículos, peatones, etc.", de: "Jedes Pixel in Kamerabildern klassifizieren um Straße, Fahrzeuge, Fußgänger usw. zu identifizieren", nl: "Elke pixel in camera beelden classificeren om weg, voertuigen, voetgangers, etc. te identificeren" },
+          { en: "Dividing roads into segments", es: "Dividir carreteras en segmentos", de: "Straßen in Segmente teilen", nl: "Wegen in segmenten verdelen" },
+          { en: "Semantic analysis of traffic rules", es: "Análisis semántico de reglas de tráfico", de: "Semantische Analyse von Verkehrsregeln", nl: "Semantische analyse van verkeersregels" },
+          { en: "Segmenting vehicle interior components", es: "Segmentar componentes interiores del vehículo", de: "Fahrzeuginnenkomponenten segmentieren", nl: "Voertuig interieur componenten segmenteren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Semantic segmentation provides detailed pixel-level understanding of the scene, enabling precise identification of drivable surfaces, obstacles, and relevant objects for navigation.",
+          es: "La segmentación semántica proporciona comprensión detallada a nivel de píxel de la escena, habilitando identificación precisa de superficies conducibles, obstáculos y objetos relevantes para navegación.",
+          de: "Semantische Segmentierung bietet detailliertes Pixel-Verständnis der Szene, ermöglicht präzise Identifizierung befahrbarer Oberflächen, Hindernisse und relevanter Objekte für Navigation.",
+          nl: "Semantische segmentatie biedt gedetailleerd pixel-niveau begrip van de scène, wat precieze identificatie mogelijk maakt van berijdbare oppervlakken, obstakels en relevante objecten voor navigatie."
+        }
+      },
+      {
+        question: {
+          en: "What is deep learning's advantage in autonomous driving?",
+          es: "¿Cuál es la ventaja del aprendizaje profundo en conducción autónoma?",
+          de: "Was ist der Vorteil von Deep Learning beim autonomen Fahren?",
+          nl: "Wat is het voordeel van deep learning bij autonoom rijden?"
+        },
+        options: [
+          { en: "Learning complex features automatically from raw data without manual programming", es: "Aprender características complejas automáticamente de datos brutos sin programación manual", de: "Komplexe Merkmale automatisch aus Rohdaten ohne manuelle Programmierung lernen", nl: "Complexe kenmerken automatisch leren uit ruwe data zonder handmatige programmering" },
+          { en: "Making vehicles drive deeper underwater", es: "Hacer que vehículos conduzcan más profundo bajo agua", de: "Fahrzeuge tiefer unter Wasser fahren lassen", nl: "Voertuigen dieper onder water laten rijden" },
+          { en: "Learning only at night", es: "Aprender solo de noche", de: "Nur nachts lernen", nl: "Alleen 's nachts leren" },
+          { en: "Deep storage of learning materials", es: "Almacenamiento profundo de materiales de aprendizaje", de: "Tiefe Speicherung von Lernmaterialien", nl: "Diepe opslag van leermaterialen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Deep learning automatically discovers relevant patterns and features in sensor data, enabling autonomous vehicles to handle diverse, unpredictable real-world driving scenarios.",
+          es: "El aprendizaje profundo descubre automáticamente patrones y características relevantes en datos de sensores, habilitando a vehículos autónomos manejar diversos e impredecibles escenarios de conducción del mundo real.",
+          de: "Deep Learning entdeckt automatisch relevante Muster und Merkmale in Sensordaten, ermöglicht autonomen Fahrzeugen diverse, unvorhersehbare reale Fahrszenarien zu bewältigen.",
+          nl: "Deep learning ontdekt automatisch relevante patronen en kenmerken in sensordata, waardoor autonome voertuigen diverse, onvoorspelbare echte wereld rijscenario's kunnen afhandelen."
+        }
+      },
+      {
+        question: {
+          en: "How does AI enable predictive traffic management?",
+          es: "¿Cómo habilita la IA la gestión predictiva del tráfico?",
+          de: "Wie ermöglicht KI prädiktives Verkehrsmanagement?",
+          nl: "Hoe maakt AI voorspellend verkeersmanagement mogelijk?"
+        },
+        options: [
+          { en: "Forecasting traffic congestion and adjusting signals before problems occur", es: "Pronosticando congestión de tráfico y ajustando señales antes de que ocurran problemas", de: "Verkehrsstaus vorhersagen und Signale anpassen bevor Probleme auftreten", nl: "Verkeersopstoppingen voorspellen en signalen aanpassen voordat problemen optreden" },
+          { en: "Predicting vehicle colors", es: "Predecir colores de vehículos", de: "Fahrzeugfarben vorhersagen", nl: "Voertuigkleuren voorspellen" },
+          { en: "Only counting traffic violations", es: "Solo contar infracciones de tráfico", de: "Nur Verkehrsverstöße zählen", nl: "Alleen verkeersovertredingen tellen" },
+          { en: "Forecasting weather conditions only", es: "Pronosticar solo condiciones climáticas", de: "Nur Wetterbedingungen prognostizieren", nl: "Alleen weersomstandigheden voorspellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Predictive traffic management uses machine learning to analyze patterns and predict congestion, enabling proactive adjustments to traffic control systems before bottlenecks form.",
+          es: "La gestión predictiva del tráfico usa aprendizaje automático para analizar patrones y predecir congestión, habilitando ajustes proactivos a sistemas de control de tráfico antes de que se formen cuellos de botella.",
+          de: "Prädiktives Verkehrsmanagement nutzt maschinelles Lernen um Muster zu analysieren und Staus vorherzusagen, ermöglicht proaktive Anpassungen an Verkehrsleitsysteme bevor Engpässe entstehen.",
+          nl: "Voorspellend verkeersmanagement gebruikt machine learning om patronen te analyseren en opstoppingen te voorspellen, wat proactieve aanpassingen aan verkeersbeheersystemen mogelijk maakt voordat knelpunten ontstaan."
+        }
+      },
+      {
+        question: {
+          en: "What is occupancy grid mapping in autonomous vehicles?",
+          es: "¿Qué es el mapeo de cuadrícula de ocupación en vehículos autónomos?",
+          de: "Was ist Belegungsraster-Kartierung in autonomen Fahrzeugen?",
+          nl: "Wat is bezettingsraster mapping in autonome voertuigen?"
+        },
+        options: [
+          { en: "Representing the environment as a grid showing which areas are occupied by obstacles", es: "Representar el entorno como una cuadrícula mostrando qué áreas están ocupadas por obstáculos", de: "Umgebung als Raster darstellen das zeigt welche Bereiche von Hindernissen besetzt sind", nl: "Omgeving weergeven als een raster dat laat zien welke gebieden bezet zijn door obstakels" },
+          { en: "Counting vehicle occupants", es: "Contar ocupantes del vehículo", de: "Fahrzeuginsassen zählen", nl: "Voertuig inzittenden tellen" },
+          { en: "Mapping parking lot occupancy", es: "Mapear ocupación de estacionamiento", de: "Parkplatzbelegung kartieren", nl: "Parkeerplaats bezetting in kaart brengen" },
+          { en: "Grid pattern on vehicle exterior", es: "Patrón de cuadrícula en exterior del vehículo", de: "Rastermuster auf Fahrzeugaußenseite", nl: "Rasterpatroon op voertuig buitenkant" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Occupancy grids divide the space around a vehicle into cells, marking each as free or occupied based on sensor data, helping plan safe navigation paths.",
+          es: "Las cuadrículas de ocupación dividen el espacio alrededor de un vehículo en celdas, marcando cada una como libre u ocupada basándose en datos de sensores, ayudando a planificar rutas de navegación seguras.",
+          de: "Belegungsraster teilen Raum um Fahrzeug in Zellen, markieren jede als frei oder besetzt basierend auf Sensordaten, helfen sichere Navigationspfade zu planen.",
+          nl: "Bezettingsrasters verdelen de ruimte rond een voertuig in cellen, waarbij elke wordt gemarkeerd als vrij of bezet op basis van sensordata, wat helpt bij het plannen van veilige navigatiepaden."
+        }
+      },
+      {
+        question: {
+          en: "How does AI enhance emergency vehicle routing?",
+          es: "¿Cómo mejora la IA el enrutamiento de vehículos de emergencia?",
+          de: "Wie verbessert KI die Notfahrzeug-Routenführung?",
+          nl: "Hoe verbetert AI hulpverleningsvoertuig routing?"
+        },
+        options: [
+          { en: "Calculating fastest routes considering real-time traffic and coordinating traffic lights", es: "Calculando rutas más rápidas considerando tráfico en tiempo real y coordinando semáforos", de: "Schnellste Routen berechnen unter Berücksichtigung von Echtzeitverkehr und Ampelkoordination", nl: "Snelste routes berekenen rekening houdend met real-time verkeer en verkeerslichten coördineren" },
+          { en: "Only painting emergency vehicle colors", es: "Solo pintar colores de vehículos de emergencia", de: "Nur Notfahrzeugfarben malen", nl: "Alleen hulpverleningsvoertuig kleuren schilderen" },
+          { en: "Emergency vehicle maintenance scheduling", es: "Programación de mantenimiento de vehículos de emergencia", de: "Notfahrzeug-Wartungsplanung", nl: "Hulpverleningsvoertuig onderhoud planning" },
+          { en: "Decorating emergency vehicles", es: "Decorar vehículos de emergencia", de: "Notfahrzeuge dekorieren", nl: "Hulpverleningsvoertuigen decoreren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI systems optimize emergency vehicle routes by analyzing traffic patterns, adjusting traffic signals to create green corridors, and minimizing response times to save lives.",
+          es: "Los sistemas IA optimizan rutas de vehículos de emergencia analizando patrones de tráfico, ajustando señales de tráfico para crear corredores verdes y minimizando tiempos de respuesta para salvar vidas.",
+          de: "KI-Systeme optimieren Notfahrzeug-Routen durch Analyse von Verkehrsmustern, Anpassung von Ampeln zur Schaffung grüner Korridore und Minimierung von Reaktionszeiten um Leben zu retten.",
+          nl: "AI-systemen optimaliseren hulpverleningsvoertuig routes door verkeerspatronen te analyseren, verkeerslichten aan te passen om groene corridors te creëren en reactietijden te minimaliseren om levens te redden."
+        }
+      },
+      {
+        question: {
+          en: "What is transfer learning in autonomous vehicle development?",
+          es: "¿Qué es el aprendizaje por transferencia en desarrollo de vehículos autónomos?",
+          de: "Was ist Transfer Learning in der Entwicklung autonomer Fahrzeuge?",
+          nl: "Wat is transfer learning in autonome voertuig ontwikkeling?"
+        },
+        options: [
+          { en: "Applying knowledge learned in one driving scenario to new similar situations", es: "Aplicar conocimiento aprendido en un escenario de conducción a nuevas situaciones similares", de: "In einem Fahrszenario gelerntes Wissen auf neue ähnliche Situationen anwenden", nl: "Kennis geleerd in één rijscenario toepassen op nieuwe vergelijkbare situaties" },
+          { en: "Transferring vehicles between locations", es: "Transferir vehículos entre ubicaciones", de: "Fahrzeuge zwischen Standorten transferieren", nl: "Voertuigen tussen locaties overdragen" },
+          { en: "Learning during vehicle transfers", es: "Aprender durante transferencias de vehículos", de: "Lernen während Fahrzeugtransfers", nl: "Leren tijdens voertuig overdrachten" },
+          { en: "Transferring ownership of learning systems", es: "Transferir propiedad de sistemas de aprendizaje", de: "Eigentum an Lernsystemen übertragen", nl: "Eigendom van leersystemen overdragen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Transfer learning allows AI systems trained on one dataset or environment to quickly adapt to new conditions, reducing training time and improving performance across diverse driving scenarios.",
+          es: "El aprendizaje por transferencia permite a sistemas IA entrenados en un conjunto de datos o entorno adaptarse rápidamente a nuevas condiciones, reduciendo tiempo de entrenamiento y mejorando rendimiento en diversos escenarios de conducción.",
+          de: "Transfer Learning erlaubt KI-Systemen die auf einem Datensatz oder einer Umgebung trainiert wurden sich schnell an neue Bedingungen anzupassen, reduziert Trainingszeit und verbessert Leistung in diversen Fahrszenarien.",
+          nl: "Transfer learning stelt AI-systemen getraind op één dataset of omgeving in staat om snel aan te passen aan nieuwe omstandigheden, wat trainingstijd vermindert en prestaties verbetert in diverse rijscenario's."
+        }
+      },
+      {
+        question: {
+          en: "How do reinforcement learning algorithms improve autonomous driving?",
+          es: "¿Cómo mejoran los algoritmos de aprendizaje por refuerzo la conducción autónoma?",
+          de: "Wie verbessern Verstärkungslern-Algorithmen das autonome Fahren?",
+          nl: "Hoe verbeteren reinforcement learning algoritmes autonoom rijden?"
+        },
+        options: [
+          { en: "Learning optimal driving strategies through trial, error, and reward feedback", es: "Aprendiendo estrategias de conducción óptimas através prueba, error y retroalimentación de recompensa", de: "Optimale Fahrstrategien durch Versuch, Irrtum und Belohnungsfeedback lernen", nl: "Optimale rijstrategieën leren door trial, error en beloningsfeedback" },
+          { en: "Reinforcing vehicle structure only", es: "Solo reforzar estructura del vehículo", de: "Nur Fahrzeugstruktur verstärken", nl: "Alleen voertuigstructuur versterken" },
+          { en: "Learning to reinforce traffic rules", es: "Aprender a reforzar reglas de tráfico", de: "Lernen Verkehrsregeln zu verstärken", nl: "Leren verkeersregels te versterken" },
+          { en: "Reinforcing driver education programs", es: "Reforzar programas de educación de conductores", de: "Fahrer-Ausbildungsprogramme verstärken", nl: "Bestuurder educatie programma's versterken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Reinforcement learning trains autonomous systems by rewarding safe, efficient behaviors and penalizing mistakes, allowing AI to discover optimal driving policies through experience.",
+          es: "El aprendizaje por refuerzo entrena sistemas autónomos recompensando comportamientos seguros y eficientes y penalizando errores, permitiendo a IA descubrir políticas de conducción óptimas através experiencia.",
+          de: "Verstärkungslernen trainiert autonome Systeme durch Belohnung sicherer, effizienter Verhaltensweisen und Bestrafung von Fehlern, erlaubt KI optimale Fahrrichtlinien durch Erfahrung zu entdecken.",
+          nl: "Reinforcement learning traint autonome systemen door veilig, efficiënt gedrag te belonen en fouten te bestraffen, waardoor AI optimale rijstrategieën kan ontdekken door ervaring."
+        }
+      },
+      {
+        question: {
+          en: "What is vehicle telemetry and how does AI use it?",
+          es: "¿Qué es la telemetría de vehículos y cómo la usa la IA?",
+          de: "Was ist Fahrzeugtelemetrie und wie nutzt KI sie?",
+          nl: "Wat is voertuig telemetrie en hoe gebruikt AI het?"
+        },
+        options: [
+          { en: "Remote monitoring of vehicle data that AI analyzes for performance optimization", es: "Monitoreo remoto de datos de vehículo que IA analiza para optimización de rendimiento", de: "Fernüberwachung von Fahrzeugdaten die KI zur Leistungsoptimierung analysiert", nl: "Remote monitoring van voertuigdata die AI analyseert voor prestatie optimalisatie" },
+          { en: "Television broadcast in vehicles", es: "Transmisión de televisión en vehículos", de: "Fernsehübertragung in Fahrzeugen", nl: "Televisie uitzending in voertuigen" },
+          { en: "Telephone systems for vehicles", es: "Sistemas telefónicos para vehículos", de: "Telefonsysteme für Fahrzeuge", nl: "Telefoonsystemen voor voertuigen" },
+          { en: "Metric measurement tools only", es: "Solo herramientas de medición métrica", de: "Nur metrische Messwerkzeuge", nl: "Alleen metrische meetinstrumenten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Vehicle telemetry collects data on speed, location, fuel consumption, and component health, which AI analyzes to optimize routes, predict maintenance, and improve fleet efficiency.",
+          es: "La telemetría de vehículos recopila datos sobre velocidad, ubicación, consumo de combustible y salud de componentes, que IA analiza para optimizar rutas, predecir mantenimiento y mejorar eficiencia de flota.",
+          de: "Fahrzeugtelemetrie sammelt Daten zu Geschwindigkeit, Standort, Kraftstoffverbrauch und Komponentenzustand, die KI analysiert um Routen zu optimieren, Wartung vorherzusagen und Flotteneffizienz zu verbessern.",
+          nl: "Voertuig telemetrie verzamelt data over snelheid, locatie, brandstofverbruik en componentgezondheid, die AI analyseert om routes te optimaliseren, onderhoud te voorspellen en vloot efficiëntie te verbeteren."
+        }
+      },
+      {
+        question: {
+          en: "What is cooperative adaptive cruise control (CACC)?",
+          es: "¿Qué es el control de crucero adaptativo cooperativo (CACC)?",
+          de: "Was ist kooperative adaptive Geschwindigkeitsregelung (CACC)?",
+          nl: "Wat is coöperatieve adaptieve cruise control (CACC)?"
+        },
+        options: [
+          { en: "Vehicles communicating to coordinate speeds and maintain optimal spacing automatically", es: "Vehículos comunicándose para coordinar velocidades y mantener espacio óptimo automáticamente", de: "Fahrzeuge kommunizieren um Geschwindigkeiten zu koordinieren und optimalen Abstand automatisch zu halten", nl: "Voertuigen communiceren om snelheden te coördineren en automatisch optimale afstand te behouden" },
+          { en: "Cruise control requiring driver cooperation", es: "Control de crucero requiriendo cooperación del conductor", de: "Tempomat der Fahrer-Kooperation erfordert", nl: "Cruise control die bestuurder samenwerking vereist" },
+          { en: "Adaptive control for cruise ships", es: "Control adaptativo para cruceros", de: "Adaptive Steuerung für Kreuzfahrtschiffe", nl: "Adaptieve controle voor cruiseschepen" },
+          { en: "Cooperative parking systems", es: "Sistemas cooperativos de estacionamiento", de: "Kooperative Parksysteme", nl: "Coöperatieve parkeersystemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "CACC uses V2V communication to share velocity and acceleration data between vehicles, enabling smoother traffic flow and tighter, safer platoons than traditional adaptive cruise control.",
+          es: "CACC usa comunicación V2V para compartir datos de velocidad y aceleración entre vehículos, habilitando flujo de tráfico más suave y pelotones más ajustados y seguros que control de crucero adaptativo tradicional.",
+          de: "CACC nutzt V2V-Kommunikation um Geschwindigkeits- und Beschleunigungsdaten zwischen Fahrzeugen zu teilen, ermöglicht glattere Verkehrsfluss und engere, sicherere Züge als traditioneller adaptiver Tempomat.",
+          nl: "CACC gebruikt V2V communicatie om snelheids- en acceleratiedata tussen voertuigen te delen, wat soepelere verkeersstroom en nauwere, veiligere pelotons mogelijk maakt dan traditionele adaptieve cruise control."
+        }
+      },
+      {
+        question: {
+          en: "How does AI contribute to reducing transportation emissions?",
+          es: "¿Cómo contribuye la IA a reducir emisiones de transporte?",
+          de: "Wie trägt KI zur Reduzierung von Transportemissionen bei?",
+          nl: "Hoe draagt AI bij aan het verminderen van transport uitstoot?"
+        },
+        options: [
+          { en: "Optimizing routes, speeds, and vehicle operations to minimize fuel consumption", es: "Optimizando rutas, velocidades y operaciones de vehículos para minimizar consumo de combustible", de: "Optimierung von Routen, Geschwindigkeiten und Fahrzeugbetrieb zur Minimierung des Kraftstoffverbrauchs", nl: "Routes, snelheden en voertuigoperaties optimaliseren om brandstofverbruik te minimaliseren" },
+          { en: "Eliminating emissions measurement tools", es: "Eliminar herramientas de medición de emisiones", de: "Emissionsmess-Werkzeuge eliminieren", nl: "Uitstoot meetinstrumenten elimineren" },
+          { en: "Only painting vehicles green", es: "Solo pintar vehículos de verde", de: "Nur Fahrzeuge grün anmalen", nl: "Alleen voertuigen groen schilderen" },
+          { en: "Increasing vehicle speeds everywhere", es: "Aumentar velocidades de vehículos en todas partes", de: "Fahrzeuggeschwindigkeiten überall erhöhen", nl: "Voertuigsnelheden overal verhogen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI reduces emissions by calculating eco-friendly routes, optimizing traffic flow to reduce idling, coordinating vehicle speeds, and managing electric vehicle charging for cleaner energy use.",
+          es: "La IA reduce emisiones calculando rutas eco-amigables, optimizando flujo de tráfico para reducir ralentí, coordinando velocidades de vehículos y gestionando carga de vehículos eléctricos para uso de energía más limpia.",
+          de: "KI reduziert Emissionen durch Berechnung umweltfreundlicher Routen, Optimierung des Verkehrsflusses zur Reduzierung von Leerlauf, Koordination von Fahrzeuggeschwindigkeiten und Verwaltung des Ladens von Elektrofahrzeugen für saubereren Energieverbrauch.",
+          nl: "AI vermindert uitstoot door milieuvriendelijke routes te berekenen, verkeersstroom te optimaliseren om stationair draaien te verminderen, voertuigsnelheden te coördineren en elektrische voertuig opladen te beheren voor schoner energiegebruik."
+        }
+      },
+      {
+        question: {
+          en: "What is geo-fencing in autonomous vehicle management?",
+          es: "¿Qué es el geo-cercado en gestión de vehículos autónomos?",
+          de: "Was ist Geo-Fencing im autonomen Fahrzeugmanagement?",
+          nl: "Wat is geo-fencing in autonoom voertuigbeheer?"
+        },
+        options: [
+          { en: "Virtual boundaries that restrict or enable autonomous operations in specific areas", es: "Límites virtuales que restringen o habilitan operaciones autónomas en áreas específicas", de: "Virtuelle Grenzen die autonome Operationen in bestimmten Bereichen einschränken oder ermöglichen", nl: "Virtuele grenzen die autonome operaties in specifieke gebieden beperken of mogelijk maken" },
+          { en: "Physical fences around vehicles", es: "Cercas físicas alrededor de vehículos", de: "Physische Zäune um Fahrzeuge", nl: "Fysieke hekken rond voertuigen" },
+          { en: "Geographic study of fencing", es: "Estudio geográfico de cercado", de: "Geographische Studie des Zaunbaus", nl: "Geografische studie van hekwerk" },
+          { en: "Fencing competitions using GPS", es: "Competencias de esgrima usando GPS", de: "Fechtwettbewerbe mit GPS", nl: "Schermwedstrijden met GPS" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Geo-fencing uses GPS to define operational zones where autonomous vehicles can operate, ensuring they stay within approved areas and comply with local regulations.",
+          es: "El geo-cercado usa GPS para definir zonas operacionales donde vehículos autónomos pueden operar, asegurando que permanezcan dentro de áreas aprobadas y cumplan regulaciones locales.",
+          de: "Geo-Fencing nutzt GPS um Betriebszonen zu definieren in denen autonome Fahrzeuge operieren können, stellt sicher dass sie in genehmigten Bereichen bleiben und lokale Vorschriften einhalten.",
+          nl: "Geo-fencing gebruikt GPS om operationele zones te definiëren waar autonome voertuigen kunnen opereren, waardoor wordt verzekerd dat ze binnen goedgekeurde gebieden blijven en voldoen aan lokale regelgeving."
+        }
       }
     ]
   };

@@ -808,6 +808,27 @@
       },
       {
         question: {
+          en: "What is a 'hook' in Scrabble terminology?",
+          es: "¿Qué es un 'gancho' en terminología de Scrabble?",
+          de: "Was ist ein 'Hook' in Scrabble-Terminologie?",
+          nl: "Wat is een 'haak' in Scrabble terminologie?"
+        },
+        options: [
+          { en: "A letter added to extend an existing word", es: "Una letra añadida para extender una palabra existente", de: "Ein Buchstabe hinzugefügt um ein bestehendes Wort zu erweitern", nl: "Een letter toegevoegd om een bestaand woord uit te breiden" },
+          { en: "A curved word pattern", es: "Un patrón de palabra curvo", de: "Ein gebogenes Wortmuster", nl: "Een gebogen woordpatroon" },
+          { en: "A special premium square", es: "Una casilla premium especial", de: "Ein spezielles Premium-Feld", nl: "Een speciaal premium vierkant" },
+          { en: "A J-shaped tile placement", es: "Una colocación de fichas en forma de J", de: "Eine J-förmige Stein-Platzierung", nl: "Een J-vormige steen plaatsing" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A hook is a letter that can be added to the beginning or end of an existing word to create a new valid word. For example, adding 'S' to 'CAT' makes 'CATS'.",
+          es: "Un gancho es una letra que se puede añadir al principio o final de una palabra existente para crear una nueva palabra válida. Por ejemplo, añadir 'S' a 'CAT' hace 'CATS'.",
+          de: "Ein Hook ist ein Buchstabe, der am Anfang oder Ende eines bestehenden Wortes hinzugefügt werden kann, um ein neues gültiges Wort zu bilden. Zum Beispiel macht das Hinzufügen von 'S' zu 'CAT' 'CATS'.",
+          nl: "Een haak is een letter die aan het begin of einde van een bestaand woord kan worden toegevoegd om een nieuw geldig woord te maken. Bijvoorbeeld, 'S' toevoegen aan 'CAT' maakt 'CATS'."
+        }
+      },
+      {
+        question: {
           en: "What color are Double Letter Score squares?",
           es: "¿De qué color son las casillas Doble Puntuación de Letra?",
           de: "Welche Farbe haben die Doppelte Buchstabenwertung Felder?",

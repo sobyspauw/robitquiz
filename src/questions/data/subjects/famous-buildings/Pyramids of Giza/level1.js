@@ -419,6 +419,426 @@
                 de: "Die kleineren Pyramiden in der Nähe jeder Hauptpyramide wurden als Begräbnisstätten für die Königinnen und Familienmitglieder der Pharaonen gebaut.",
                 nl: "De kleinere piramides bij elke hoofdpiramide werden gebouwd als begraafplaatsen voor de koninginnen en familieleden van de farao's."
             }
+        },
+        {
+            question: {
+                en: "What river is near the Pyramids of Giza?",
+                es: "¿Qué río está cerca de las Pirámides de Giza?",
+                de: "Welcher Fluss befindet sich in der Nähe der Pyramiden von Gizeh?",
+                nl: "Welke rivier ligt bij de piramides van Gizeh?"
+            },
+            options: [
+                { en: "Tigris", es: "Tigris", de: "Tigris", nl: "Tigris" },
+                { en: "Euphrates", es: "Éufrates", de: "Euphrat", nl: "Eufraat" },
+                { en: "Nile", es: "Nilo", de: "Nil", nl: "Nijl" },
+                { en: "Amazon", es: "Amazonas", de: "Amazonas", nl: "Amazone" }
+            ],
+            correctIndex: 2,
+            explanation: {
+                en: "The Pyramids of Giza are located near the Nile River, which was essential for transporting building materials.",
+                es: "Las Pirámides de Giza están ubicadas cerca del río Nilo, que fue esencial para transportar materiales de construcción.",
+                de: "Die Pyramiden von Gizeh befinden sich in der Nähe des Nils, der für den Transport von Baumaterialien unerlässlich war.",
+                nl: "De piramides van Gizeh liggen bij de rivier de Nijl, die essentieel was voor het transport van bouwmaterialen."
+            }
+        },
+        {
+            question: {
+                en: "What color were the pyramids when they were first built?",
+                es: "¿De qué color eran las pirámides cuando se construyeron por primera vez?",
+                de: "Welche Farbe hatten die Pyramiden, als sie zum ersten Mal gebaut wurden?",
+                nl: "Welke kleur hadden de piramides toen ze voor het eerst werden gebouwd?"
+            },
+            options: [
+                { en: "Brown", es: "Marrón", de: "Braun", nl: "Bruin" },
+                { en: "Bright white", es: "Blanco brillante", de: "Strahlend weiß", nl: "Helder wit" },
+                { en: "Gray", es: "Gris", de: "Grau", nl: "Grijs" },
+                { en: "Red", es: "Rojo", de: "Rot", nl: "Rood" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "The pyramids were bright white when newly built, covered in polished Tura limestone casing stones that reflected sunlight.",
+                es: "Las pirámides eran de color blanco brillante cuando recién se construyeron, cubiertas de piedras de revestimiento de piedra caliza de Tura pulidas que reflejaban la luz solar.",
+                de: "Die Pyramiden waren strahlend weiß, als sie neu gebaut wurden, bedeckt mit polierten Tura-Kalkstein-Verkleidungssteinen, die das Sonnenlicht reflektierten.",
+                nl: "De piramides waren helder wit toen ze nieuw waren gebouwd, bedekt met gepolijste Tura-kalksteen bekledingsstenen die zonlicht weerkaatsten."
+            }
+        },
+        {
+            question: {
+                en: "How long did it take to build the Great Pyramid?",
+                es: "¿Cuánto tiempo tomó construir la Gran Pirámide?",
+                de: "Wie lange dauerte der Bau der Großen Pyramide?",
+                nl: "Hoe lang duurde het om de Grote Piramide te bouwen?"
+            },
+            options: [
+                { en: "5 years", es: "5 años", de: "5 Jahre", nl: "5 jaar" },
+                { en: "10 years", es: "10 años", de: "10 Jahre", nl: "10 jaar" },
+                { en: "20 years", es: "20 años", de: "20 Jahre", nl: "20 jaar" },
+                { en: "50 years", es: "50 años", de: "50 Jahre", nl: "50 jaar" }
+            ],
+            correctIndex: 2,
+            explanation: {
+                en: "It is estimated that the Great Pyramid took about 20 years to build, with tens of thousands of workers.",
+                es: "Se estima que la Gran Pirámide tomó alrededor de 20 años para construirse, con decenas de miles de trabajadores.",
+                de: "Es wird geschätzt, dass der Bau der Großen Pyramide etwa 20 Jahre dauerte, mit Zehntausenden von Arbeitern.",
+                nl: "Er wordt geschat dat de Grote Piramide ongeveer 20 jaar nodig had om te bouwen, met tienduizenden arbeiders."
+            }
+        },
+        {
+            question: {
+                en: "Which pharaoh built the second pyramid at Giza?",
+                es: "¿Qué faraón construyó la segunda pirámide en Giza?",
+                de: "Welcher Pharao baute die zweite Pyramide in Gizeh?",
+                nl: "Welke farao bouwde de tweede piramide in Gizeh?"
+            },
+            options: [
+                { en: "Khufu", es: "Keops", de: "Cheops", nl: "Cheops" },
+                { en: "Khafre", es: "Kefrén", de: "Chephren", nl: "Chefren" },
+                { en: "Menkaure", es: "Micerino", de: "Mykerinos", nl: "Mykerinos" },
+                { en: "Sneferu", es: "Snefru", de: "Snofru", nl: "Sneferu" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "Pharaoh Khafre, son of Khufu, built the second pyramid at Giza. It appears taller due to its elevated location.",
+                es: "El Faraón Kefrén, hijo de Keops, construyó la segunda pirámide en Giza. Parece más alta debido a su ubicación elevada.",
+                de: "Pharao Chephren, Sohn von Cheops, baute die zweite Pyramide in Gizeh. Sie erscheint höher aufgrund ihrer erhöhten Lage.",
+                nl: "Farao Chefren, zoon van Cheops, bouwde de tweede piramide in Gizeh. Hij lijkt hoger door zijn verhoogde locatie."
+            }
+        },
+        {
+            question: {
+                en: "What is inside the pyramids?",
+                es: "¿Qué hay dentro de las pirámides?",
+                de: "Was befindet sich in den Pyramiden?",
+                nl: "Wat zit er in de piramides?"
+            },
+            options: [
+                { en: "Treasure rooms", es: "Salas de tesoros", de: "Schatzkammern", nl: "Schatkamers" },
+                { en: "Burial chambers", es: "Cámaras funerarias", de: "Grabkammern", nl: "Grafkamers" },
+                { en: "Living quarters", es: "Viviendas", de: "Wohnräume", nl: "Woonruimtes" },
+                { en: "Water reservoirs", es: "Depósitos de agua", de: "Wasserreservoirs", nl: "Waterreservoirs" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "The pyramids contain burial chambers, passages, and smaller rooms designed to house the pharaoh's body and possessions.",
+                es: "Las pirámides contienen cámaras funerarias, pasajes y habitaciones más pequeñas diseñadas para albergar el cuerpo y las posesiones del faraón.",
+                de: "Die Pyramiden enthalten Grabkammern, Gänge und kleinere Räume, die dazu bestimmt waren, den Körper und die Besitztümer des Pharaos aufzunehmen.",
+                nl: "De piramides bevatten grafkamers, gangen en kleinere kamers ontworpen om het lichaam en bezittingen van de farao te huisvesten."
+            }
+        },
+        {
+            question: {
+                en: "Which is the smallest of the three main pyramids at Giza?",
+                es: "¿Cuál es la más pequeña de las tres pirámides principales de Giza?",
+                de: "Welche ist die kleinste der drei Hauptpyramiden in Gizeh?",
+                nl: "Welke is de kleinste van de drie hoofdpiramides in Gizeh?"
+            },
+            options: [
+                { en: "Khufu", es: "Keops", de: "Cheops", nl: "Cheops" },
+                { en: "Khafre", es: "Kefrén", de: "Chephren", nl: "Chefren" },
+                { en: "Menkaure", es: "Micerino", de: "Mykerinos", nl: "Mykerinos" },
+                { en: "They are all the same size", es: "Todas son del mismo tamaño", de: "Sie sind alle gleich groß", nl: "Ze zijn allemaal even groot" }
+            ],
+            correctIndex: 2,
+            explanation: {
+                en: "The Pyramid of Menkaure is the smallest of the three main pyramids at Giza, standing at about 65 meters tall.",
+                es: "La Pirámide de Micerino es la más pequeña de las tres pirámides principales de Giza, con una altura de aproximadamente 65 metros.",
+                de: "Die Pyramide von Mykerinos ist die kleinste der drei Hauptpyramiden in Gizeh und ist etwa 65 Meter hoch.",
+                nl: "De Piramide van Mykerinos is de kleinste van de drie hoofdpiramides in Gizeh, met een hoogte van ongeveer 65 meter."
+            }
+        },
+        {
+            question: {
+                en: "What body does the Great Sphinx have?",
+                es: "¿Qué cuerpo tiene la Gran Esfinge?",
+                de: "Welchen Körper hat die Große Sphinx?",
+                nl: "Welk lichaam heeft de Grote Sfinx?"
+            },
+            options: [
+                { en: "A lion", es: "Un león", de: "Ein Löwe", nl: "Een leeuw" },
+                { en: "A bull", es: "Un toro", de: "Ein Stier", nl: "Een stier" },
+                { en: "A dog", es: "Un perro", de: "Ein Hund", nl: "Een hond" },
+                { en: "A horse", es: "Un caballo", de: "Ein Pferd", nl: "Een paard" }
+            ],
+            correctIndex: 0,
+            explanation: {
+                en: "The Great Sphinx has the body of a lion and the head of a human, likely representing Pharaoh Khafre.",
+                es: "La Gran Esfinge tiene el cuerpo de un león y la cabeza de un humano, probablemente representando al Faraón Kefrén.",
+                de: "Die Große Sphinx hat den Körper eines Löwen und den Kopf eines Menschen, wahrscheinlich Pharao Chephren darstellend.",
+                nl: "De Grote Sfinx heeft het lichaam van een leeuw en het hoofd van een mens, waarschijnlijk Farao Chefren voorstellend."
+            }
+        },
+        {
+            question: {
+                en: "What desert are the pyramids located in?",
+                es: "¿En qué desierto se encuentran las pirámides?",
+                de: "In welcher Wüste befinden sich die Pyramiden?",
+                nl: "In welke woestijn bevinden zich de piramides?"
+            },
+            options: [
+                { en: "Kalahari Desert", es: "Desierto de Kalahari", de: "Kalahari-Wüste", nl: "Kalahari-woestijn" },
+                { en: "Sahara Desert", es: "Desierto del Sahara", de: "Sahara-Wüste", nl: "Sahara-woestijn" },
+                { en: "Arabian Desert", es: "Desierto Arábigo", de: "Arabische Wüste", nl: "Arabische woestijn" },
+                { en: "Gobi Desert", es: "Desierto de Gobi", de: "Gobi-Wüste", nl: "Gobi-woestijn" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "The Pyramids of Giza are located on the edge of the Sahara Desert, the largest hot desert in the world.",
+                es: "Las Pirámides de Giza están ubicadas en el borde del Desierto del Sahara, el desierto cálido más grande del mundo.",
+                de: "Die Pyramiden von Gizeh befinden sich am Rand der Sahara-Wüste, der größten heißen Wüste der Welt.",
+                nl: "De piramides van Gizeh bevinden zich aan de rand van de Sahara-woestijn, de grootste hete woestijn ter wereld."
+            }
+        },
+        {
+            question: {
+                en: "What was the main tool used to cut the pyramid stones?",
+                es: "¿Cuál era la herramienta principal utilizada para cortar las piedras de las pirámides?",
+                de: "Welches war das Hauptwerkzeug zum Schneiden der Pyramidensteine?",
+                nl: "Wat was het belangrijkste gereedschap om de piramidestenen te snijden?"
+            },
+            options: [
+                { en: "Iron tools", es: "Herramientas de hierro", de: "Eisenwerkzeuge", nl: "IJzeren gereedschap" },
+                { en: "Copper tools", es: "Herramientas de cobre", de: "Kupferwerkzeuge", nl: "Koperen gereedschap" },
+                { en: "Steel tools", es: "Herramientas de acero", de: "Stahlwerkzeuge", nl: "Stalen gereedschap" },
+                { en: "Diamond tools", es: "Herramientas de diamante", de: "Diamantwerkzeuge", nl: "Diamanten gereedschap" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "Ancient Egyptians used copper tools and stone hammers to cut and shape the limestone and granite blocks.",
+                es: "Los antiguos egipcios usaban herramientas de cobre y martillos de piedra para cortar y dar forma a los bloques de piedra caliza y granito.",
+                de: "Die alten Ägypter verwendeten Kupferwerkzeuge und Steinhämmer, um die Kalkstein- und Granitblöcke zu schneiden und zu formen.",
+                nl: "Oude Egyptenaren gebruikten koperen gereedschap en stenen hamers om de kalksteen- en granietblokken te snijden en te vormen."
+            }
+        },
+        {
+            question: {
+                en: "Are the pyramids still standing today?",
+                es: "¿Las pirámides todavía están en pie hoy?",
+                de: "Stehen die Pyramiden heute noch?",
+                nl: "Staan de piramides er vandaag nog?"
+            },
+            options: [
+                { en: "No, they collapsed", es: "No, se derrumbaron", de: "Nein, sie sind eingestürzt", nl: "Nee, ze zijn ingestort" },
+                { en: "Yes, they still stand", es: "Sí, todavía están en pie", de: "Ja, sie stehen noch", nl: "Ja, ze staan er nog" },
+                { en: "Only one remains", es: "Solo queda una", de: "Nur eine bleibt", nl: "Er blijft er maar één over" },
+                { en: "They were rebuilt recently", es: "Se reconstruyeron recientemente", de: "Sie wurden kürzlich wieder aufgebaut", nl: "Ze zijn onlangs herbouwd" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "Yes, the Pyramids of Giza still stand today, over 4,500 years after they were built, demonstrating remarkable engineering.",
+                es: "Sí, las Pirámides de Giza todavía están en pie hoy, más de 4.500 años después de su construcción, demostrando una ingeniería notable.",
+                de: "Ja, die Pyramiden von Gizeh stehen heute noch, über 4.500 Jahre nach ihrem Bau, was bemerkenswerte Ingenieurskunst zeigt.",
+                nl: "Ja, de piramides van Gizeh staan er vandaag nog, meer dan 4.500 jaar nadat ze zijn gebouwd, wat opmerkelijke techniek aantoont."
+            }
+        },
+        {
+            question: {
+                en: "What were placed inside the pyramids with the pharaoh?",
+                es: "¿Qué se colocaba dentro de las pirámides con el faraón?",
+                de: "Was wurde in den Pyramiden mit dem Pharao platziert?",
+                nl: "Wat werd er in de piramides bij de farao geplaatst?"
+            },
+            options: [
+                { en: "Food and treasures", es: "Comida y tesoros", de: "Nahrung und Schätze", nl: "Voedsel en schatten" },
+                { en: "Animals only", es: "Solo animales", de: "Nur Tiere", nl: "Alleen dieren" },
+                { en: "Nothing", es: "Nada", de: "Nichts", nl: "Niets" },
+                { en: "Books", es: "Libros", de: "Bücher", nl: "Boeken" }
+            ],
+            correctIndex: 0,
+            explanation: {
+                en: "Food, treasures, furniture, and personal items were placed with the pharaoh for use in the afterlife.",
+                es: "Se colocaban comida, tesoros, muebles y artículos personales con el faraón para su uso en el más allá.",
+                de: "Nahrung, Schätze, Möbel und persönliche Gegenstände wurden mit dem Pharao für die Nutzung im Jenseits platziert.",
+                nl: "Voedsel, schatten, meubels en persoonlijke items werden bij de farao geplaatst voor gebruik in het hiernamaals."
+            }
+        },
+        {
+            question: {
+                en: "How many sides does each face of the pyramid have?",
+                es: "¿Cuántos lados tiene cada cara de la pirámide?",
+                de: "Wie viele Seiten hat jede Fläche der Pyramide?",
+                nl: "Hoeveel zijden heeft elk vlak van de piramide?"
+            },
+            options: [
+                { en: "Two", es: "Dos", de: "Zwei", nl: "Twee" },
+                { en: "Three", es: "Tres", de: "Drei", nl: "Drie" },
+                { en: "Four", es: "Cuatro", de: "Vier", nl: "Vier" },
+                { en: "Five", es: "Cinco", de: "Fünf", nl: "Vijf" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "Each face of the pyramid is a triangle, which has three sides. The pyramids have four triangular faces.",
+                es: "Cada cara de la pirámide es un triángulo, que tiene tres lados. Las pirámides tienen cuatro caras triangulares.",
+                de: "Jede Fläche der Pyramide ist ein Dreieck, das drei Seiten hat. Die Pyramiden haben vier dreieckige Flächen.",
+                nl: "Elk vlak van de piramide is een driehoek, die drie zijden heeft. De piramides hebben vier driehoekige vlakken."
+            }
+        },
+        {
+            question: {
+                en: "What continent are the pyramids on?",
+                es: "¿En qué continente están las pirámides?",
+                de: "Auf welchem Kontinent befinden sich die Pyramiden?",
+                nl: "Op welk continent bevinden zich de piramides?"
+            },
+            options: [
+                { en: "Asia", es: "Asia", de: "Asien", nl: "Azië" },
+                { en: "Europe", es: "Europa", de: "Europa", nl: "Europa" },
+                { en: "Africa", es: "África", de: "Afrika", nl: "Afrika" },
+                { en: "South America", es: "América del Sur", de: "Südamerika", nl: "Zuid-Amerika" }
+            ],
+            correctIndex: 2,
+            explanation: {
+                en: "The Pyramids of Giza are located in Egypt, which is on the continent of Africa.",
+                es: "Las Pirámides de Giza están ubicadas en Egipto, que está en el continente de África.",
+                de: "Die Pyramiden von Gizeh befinden sich in Ägypten, das auf dem Kontinent Afrika liegt.",
+                nl: "De piramides van Gizeh bevinden zich in Egypte, dat op het continent Afrika ligt."
+            }
+        },
+        {
+            question: {
+                en: "What was the pharaoh's title in ancient Egypt?",
+                es: "¿Cuál era el título del faraón en el antiguo Egipto?",
+                de: "Was war der Titel des Pharaos im alten Ägypten?",
+                nl: "Wat was de titel van de farao in het oude Egypte?"
+            },
+            options: [
+                { en: "King", es: "Rey", de: "König", nl: "Koning" },
+                { en: "God-King", es: "Rey-Dios", de: "Gottkönig", nl: "God-Koning" },
+                { en: "Emperor", es: "Emperador", de: "Kaiser", nl: "Keizer" },
+                { en: "Chief", es: "Jefe", de: "Häuptling", nl: "Opperhoofd" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "Pharaohs were considered god-kings in ancient Egypt, both divine rulers and living gods on Earth.",
+                es: "Los faraones eran considerados reyes-dioses en el antiguo Egipto, tanto gobernantes divinos como dioses vivientes en la Tierra.",
+                de: "Pharaonen wurden im alten Ägypten als Gottkönige angesehen, sowohl göttliche Herrscher als auch lebende Götter auf Erden.",
+                nl: "Farao's werden beschouwd als god-koningen in het oude Egypte, zowel goddelijke heersers als levende goden op aarde."
+            }
+        },
+        {
+            question: {
+                en: "Can tourists visit the pyramids today?",
+                es: "¿Pueden los turistas visitar las pirámides hoy?",
+                de: "Können Touristen die Pyramiden heute besuchen?",
+                nl: "Kunnen toeristen de piramides vandaag bezoeken?"
+            },
+            options: [
+                { en: "No, they are closed", es: "No, están cerradas", de: "Nein, sie sind geschlossen", nl: "Nee, ze zijn gesloten" },
+                { en: "Yes, they are open to visitors", es: "Sí, están abiertas a los visitantes", de: "Ja, sie sind für Besucher geöffnet", nl: "Ja, ze zijn open voor bezoekers" },
+                { en: "Only scientists can visit", es: "Solo los científicos pueden visitar", de: "Nur Wissenschaftler dürfen besuchen", nl: "Alleen wetenschappers mogen bezoeken" },
+                { en: "They no longer exist", es: "Ya no existen", de: "Sie existieren nicht mehr", nl: "Ze bestaan niet meer" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "Yes, the Pyramids of Giza are one of Egypt's most popular tourist attractions, welcoming millions of visitors each year.",
+                es: "Sí, las Pirámides de Giza son una de las atracciones turísticas más populares de Egipto, recibiendo millones de visitantes cada año.",
+                de: "Ja, die Pyramiden von Gizeh sind eine der beliebtesten Touristenattraktionen Ägyptens und empfangen jedes Jahr Millionen von Besuchern.",
+                nl: "Ja, de piramides van Gizeh zijn een van Egypte's populairste toeristische attracties en verwelkomen elk jaar miljoenen bezoekers."
+            }
+        },
+        {
+            question: {
+                en: "What direction do the pyramid sides face?",
+                es: "¿Hacia qué dirección están orientados los lados de las pirámides?",
+                de: "In welche Richtung zeigen die Pyramidenseiten?",
+                nl: "Welke richting wijzen de zijden van de piramides?"
+            },
+            options: [
+                { en: "Random directions", es: "Direcciones aleatorias", de: "Zufällige Richtungen", nl: "Willekeurige richtingen" },
+                { en: "Cardinal directions", es: "Puntos cardinales", de: "Himmelsrichtungen", nl: "Windrichtingen" },
+                { en: "Toward the sun", es: "Hacia el sol", de: "Zur Sonne", nl: "Naar de zon" },
+                { en: "Toward the river", es: "Hacia el río", de: "Zum Fluss", nl: "Naar de rivier" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "The sides of the pyramids are precisely aligned with the cardinal directions: north, south, east, and west.",
+                es: "Los lados de las pirámides están precisamente alineados con los puntos cardinales: norte, sur, este y oeste.",
+                de: "Die Seiten der Pyramiden sind präzise auf die Himmelsrichtungen ausgerichtet: Norden, Süden, Osten und Westen.",
+                nl: "De zijden van de piramides zijn precies uitgelijnd met de windrichtingen: noord, zuid, oost en west."
+            }
+        },
+        {
+            question: {
+                en: "What material was used for the pyramids' capstones?",
+                es: "¿Qué material se usó para las piedras de coronación de las pirámides?",
+                de: "Welches Material wurde für die Spitzsteine der Pyramiden verwendet?",
+                nl: "Welk materiaal werd gebruikt voor de topstenen van de piramides?"
+            },
+            options: [
+                { en: "Wood", es: "Madera", de: "Holz", nl: "Hout" },
+                { en: "Gold or electrum", es: "Oro o electro", de: "Gold oder Elektrum", nl: "Goud of elektrum" },
+                { en: "Bronze", es: "Bronce", de: "Bronze", nl: "Brons" },
+                { en: "Clay", es: "Arcilla", de: "Ton", nl: "Klei" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "The pyramids' capstones were believed to be made of gold or electrum (gold-silver alloy) to catch the sun's rays.",
+                es: "Se cree que las piedras de coronación de las pirámides estaban hechas de oro o electro (aleación de oro y plata) para captar los rayos del sol.",
+                de: "Die Spitzsteine der Pyramiden waren vermutlich aus Gold oder Elektrum (Gold-Silber-Legierung) gefertigt, um die Sonnenstrahlen einzufangen.",
+                nl: "De topstenen van de piramides waren waarschijnlijk gemaakt van goud of elektrum (goud-zilverlegering) om de zonnestralen te vangen."
+            }
+        },
+        {
+            question: {
+                en: "How old are the Pyramids of Giza approximately?",
+                es: "¿Aproximadamente cuántos años tienen las Pirámides de Giza?",
+                de: "Wie alt sind die Pyramiden von Gizeh ungefähr?",
+                nl: "Hoe oud zijn de piramides van Gizeh ongeveer?"
+            },
+            options: [
+                { en: "1,000 years", es: "1.000 años", de: "1.000 Jahre", nl: "1.000 jaar" },
+                { en: "2,500 years", es: "2.500 años", de: "2.500 Jahre", nl: "2.500 jaar" },
+                { en: "4,500 years", es: "4.500 años", de: "4.500 Jahre", nl: "4.500 jaar" },
+                { en: "10,000 years", es: "10.000 años", de: "10.000 Jahre", nl: "10.000 jaar" }
+            ],
+            correctIndex: 2,
+            explanation: {
+                en: "The Pyramids of Giza are approximately 4,500 years old, built around 2580-2560 BC during the Old Kingdom.",
+                es: "Las Pirámides de Giza tienen aproximadamente 4.500 años, construidas alrededor de 2580-2560 a.C. durante el Imperio Antiguo.",
+                de: "Die Pyramiden von Gizeh sind etwa 4.500 Jahre alt, erbaut um 2580-2560 v. Chr. während des Alten Reiches.",
+                nl: "De piramides van Gizeh zijn ongeveer 4.500 jaar oud, gebouwd rond 2580-2560 v.Chr. tijdens het Oude Rijk."
+            }
+        },
+        {
+            question: {
+                en: "What was used to transport the heavy stones?",
+                es: "¿Qué se usó para transportar las piedras pesadas?",
+                de: "Was wurde verwendet, um die schweren Steine zu transportieren?",
+                nl: "Wat werd gebruikt om de zware stenen te vervoeren?"
+            },
+            options: [
+                { en: "Wooden sleds", es: "Trineos de madera", de: "Holzschlitten", nl: "Houten sleden" },
+                { en: "Metal carts", es: "Carretas de metal", de: "Metallwagen", nl: "Metalen karren" },
+                { en: "Horses", es: "Caballos", de: "Pferde", nl: "Paarden" },
+                { en: "Cranes", es: "Grúas", de: "Kräne", nl: "Kranen" }
+            ],
+            correctIndex: 0,
+            explanation: {
+                en: "Workers used wooden sleds pulled over wet sand to transport the massive stone blocks to the building site.",
+                es: "Los trabajadores usaban trineos de madera arrastrados sobre arena húmeda para transportar los enormes bloques de piedra al sitio de construcción.",
+                de: "Arbeiter verwendeten Holzschlitten, die über nassen Sand gezogen wurden, um die massiven Steinblöcke zur Baustelle zu transportieren.",
+                nl: "Arbeiders gebruikten houten sleden die over nat zand werden getrokken om de massieve stenen blokken naar de bouwplaats te vervoeren."
+            }
+        },
+        {
+            question: {
+                en: "What is the Sphinx made of?",
+                es: "¿De qué está hecha la Esfinge?",
+                de: "Woraus besteht die Sphinx?",
+                nl: "Waarvan is de Sfinx gemaakt?"
+            },
+            options: [
+                { en: "Granite", es: "Granito", de: "Granit", nl: "Graniet" },
+                { en: "Limestone", es: "Piedra caliza", de: "Kalkstein", nl: "Kalksteen" },
+                { en: "Sandstone", es: "Arenisca", de: "Sandstein", nl: "Zandsteen" },
+                { en: "Marble", es: "Mármol", de: "Marmor", nl: "Marmer" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "The Great Sphinx is carved from a single massive limestone bedrock formation on the Giza Plateau.",
+                es: "La Gran Esfinge está tallada de una sola formación masiva de piedra caliza en la meseta de Giza.",
+                de: "Die Große Sphinx wurde aus einer einzigen massiven Kalkstein-Grundgesteinsformation auf dem Gizeh-Plateau gehauen.",
+                nl: "De Grote Sfinx is uitgehouwen uit één massieve kalksteen rotsformatie op het Gizeh-plateau."
+            }
         }
     ];
 

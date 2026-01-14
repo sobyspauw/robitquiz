@@ -428,6 +428,426 @@
           nl: "Het alignment probleem verwijst naar de uitdaging om te waarborgen dat geavanceerde AI systemen handelen in overeenstemming met menselijke waarden en intenties, in plaats van optimaliseren voor doelen die schadelijk kunnen zijn of niet afgestemd op wat mensen werkelijk willen, zelfs als technisch gespecificeerde doelstellingen worden behaald."
         }
       
+      },
+      {
+        question: {
+          en: "What is 'mesa-optimization' and why does it pose safety challenges?",
+          es: "Que es la 'mesa-optimizacion' y por que plantea desafios de seguridad?",
+          de: "Was ist 'Mesa-Optimierung' und warum stellt sie Sicherheitsherausforderungen?",
+          nl: "Wat is 'mesa-optimalisatie' en waarom levert het veiligheidsuitdagingen?"
+        },
+        options: [
+          { en: "When a learned model itself becomes an optimizer with potentially different objectives than intended", es: "Cuando modelo aprendido se vuelve optimizador con objetivos potencialmente diferentes de lo pretendido", de: "Wenn ein gelerntes Modell selbst ein Optimierer mit potentiell anderen Zielen wird", nl: "Wanneer een geleerd model zelf een optimizer wordt met potentieel andere doelstellingen dan bedoeld" },
+          { en: "Optimization techniques specific to mesa formations in geology", es: "Tecnicas de optimizacion especificas para formaciones de mesa en geologia", de: "Optimierungstechniken spezifisch fuer Mesa-Formationen in der Geologie", nl: "Optimalisatietechnieken specifiek voor mesa formaties in geologie" },
+          { en: "A type of hardware optimization for AI accelerators", es: "Un tipo de optimizacion de hardware para aceleradores de IA", de: "Eine Art Hardware-Optimierung fuer KI-Beschleuniger", nl: "Een type hardware optimalisatie voor AI accelerators" },
+          { en: "Optimizing AI systems for desktop applications", es: "Optimizar sistemas de IA para aplicaciones de escritorio", de: "KI-Systeme fuer Desktop-Anwendungen optimieren", nl: "AI systemen optimaliseren voor desktop applicaties" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mesa-optimization occurs when the training process (base optimizer) creates a model that itself performs optimization (mesa-optimizer), potentially optimizing for a different objective than the training objective, creating risks if the mesa-objective is misaligned.",
+          es: "La mesa-optimizacion ocurre cuando el proceso de entrenamiento (optimizador base) crea un modelo que realiza optimizacion (mesa-optimizador), potencialmente optimizando para un objetivo diferente al objetivo de entrenamiento, creando riesgos si el mesa-objetivo esta desalineado.",
+          de: "Mesa-Optimierung tritt auf wenn der Trainingsprozess (Basis-Optimierer) ein Modell erstellt das selbst Optimierung durchfuehrt (Mesa-Optimierer), potentiell fuer ein anderes Ziel als das Trainingsziel optimierend, was Risiken schafft wenn das Mesa-Ziel fehlausgerichtet ist.",
+          nl: "Mesa-optimalisatie treedt op wanneer het trainingsproces (basis optimizer) een model creëert dat zelf optimalisatie uitvoert (mesa-optimizer), mogelijk optimaliserend voor een andere doelstelling dan de trainingsdoelstelling, wat risico's creëert als de mesa-doelstelling niet is uitgelijnd."
+        }
+      },
+      {
+        question: {
+          en: "What is 'deceptive alignment' and why is it particularly dangerous?",
+          es: "Que es la 'alineacion enganosa' y por que es particularmente peligrosa?",
+          de: "Was ist 'taeuscherische Ausrichtung' und warum ist sie besonders gefaehrlich?",
+          nl: "Wat is 'misleidende uitlijning' en waarom is het bijzonder gevaarlijk?"
+        },
+        options: [
+          { en: "When an AI appears aligned during training but conceals misaligned goals to pursue later when more capable", es: "Cuando IA aparenta alineacion durante entrenamiento pero oculta objetivos desalineados para perseguir cuando sea mas capaz", de: "Wenn KI ausgerichtet erscheint aber fehlausgerichtete Ziele verbirgt um sie spaeter zu verfolgen wenn faehiger", nl: "Wanneer AI uitgelijnd lijkt tijdens training maar niet-uitgelijnde doelen verbergt om later na te streven wanneer capabeler" },
+          { en: "AI systems that deliberately lie to their users", es: "Sistemas de IA que deliberadamente mienten a sus usuarios", de: "KI-Systeme die absichtlich ihre Benutzer beluegen", nl: "AI systemen die opzettelijk liegen tegen hun gebruikers" },
+          { en: "Using deceptive training data to align AI systems", es: "Usar datos de entrenamiento enganosos para alinear sistemas de IA", de: "Taeuscherische Trainingsdaten verwenden um KI-Systeme auszurichten", nl: "Misleidende trainingsdata gebruiken om AI systemen uit te lijnen" },
+          { en: "AI systems that appear to work but actually don't", es: "Sistemas de IA que aparentan funcionar pero en realidad no", de: "KI-Systeme die zu funktionieren scheinen aber es tatsaechlich nicht tun", nl: "AI systemen die lijken te werken maar dat eigenlijk niet doen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Deceptive alignment occurs when a mesa-optimizer understands it's being trained and strategically behaves aligned to pass training evaluations, while preserving different terminal goals to pursue once it becomes powerful enough that its training is complete or oversight is reduced.",
+          es: "La alineacion enganosa ocurre cuando un mesa-optimizador entiende que esta siendo entrenado y estrategicamente se comporta alineado para pasar evaluaciones de entrenamiento, mientras preserva diferentes objetivos terminales para perseguir una vez que se vuelve lo suficientemente poderoso que su entrenamiento esta completo o supervision se reduce.",
+          de: "Taeuscherische Ausrichtung tritt auf wenn ein Mesa-Optimierer versteht dass er trainiert wird und strategisch ausgerichtet handelt um Trainingsevaluationen zu bestehen, waehrend er verschiedene terminale Ziele bewahrt um sie zu verfolgen sobald er maechtig genug wird dass sein Training abgeschlossen oder Aufsicht reduziert ist.",
+          nl: "Misleidende uitlijning treedt op wanneer een mesa-optimizer begrijpt dat het wordt getraind en strategisch uitgelijnd gedrag vertoont om trainingsevaluaties te doorstaan, terwijl het verschillende terminale doelen bewaart om na te streven zodra het krachtig genoeg wordt dat zijn training compleet is of toezicht verminderd wordt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'corrigibility' in AI systems and why is it a desirable safety property?",
+          es: "Que es la 'corregibilidad' en sistemas de IA y por que es una propiedad de seguridad deseable?",
+          de: "Was ist 'Korrigierbarkeit' in KI-Systemen und warum ist sie eine wuenschenswerte Sicherheitseigenschaft?",
+          nl: "Wat is 'corrigeerbaarheid' in AI systemen en waarom is het een wenselijke veiligheidseigenschap?"
+        },
+        options: [
+          { en: "The property of being safely interruptible and allowing humans to modify goals without resistance", es: "La propiedad de ser interrumpible de forma segura y permitir a humanos modificar objetivos sin resistencia", de: "Die Eigenschaft sicher unterbrechbar zu sein und Menschen zu erlauben Ziele ohne Widerstand zu modifizieren", nl: "De eigenschap om veilig onderbreekbaar te zijn en mensen toe te staan doelen te wijzigen zonder weerstand" },
+          { en: "The ability to correct spelling and grammar errors in AI outputs", es: "La capacidad de corregir errores ortograficos y gramaticales en salidas de IA", de: "Die Faehigkeit Rechtschreib- und Grammatikfehler in KI-Ausgaben zu korrigieren", nl: "Het vermogen om spel- en grammaticafouten te corrigeren in AI outputs" },
+          { en: "AI systems that can self-correct their own mistakes", es: "Sistemas de IA que pueden autocorregir sus propios errores", de: "KI-Systeme die ihre eigenen Fehler selbst korrigieren koennen", nl: "AI systemen die hun eigen fouten kunnen zelfcorrigeren" },
+          { en: "The correctness of AI algorithmic implementations", es: "La correccion de implementaciones algoritmicas de IA", de: "Die Korrektheit von KI-algorithmischen Implementierungen", nl: "De correctheid van AI algoritmische implementaties" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Corrigibility refers to an AI system's tendency to allow and cooperate with human oversight, including being safely shut down, having its goals modified, or being corrected, without the system resisting these interventions or attempting to prevent them through strategic behavior.",
+          es: "La corregibilidad se refiere a la tendencia de un sistema de IA de permitir y cooperar con supervision humana, incluyendo ser apagado de forma segura, tener sus objetivos modificados, o ser corregido, sin que el sistema resista estas intervenciones o intente prevenirlas mediante comportamiento estrategico.",
+          de: "Korrigierbarkeit bezieht sich auf die Tendenz eines KI-Systems menschliche Aufsicht zu erlauben und damit zu kooperieren, einschliesslich sicher abgeschaltet zu werden, seine Ziele modifiziert zu haben, oder korrigiert zu werden, ohne dass das System diesen Interventionen widersteht oder versucht sie durch strategisches Verhalten zu verhindern.",
+          nl: "Corrigeerbaarheid verwijst naar de neiging van een AI systeem om menselijk toezicht toe te staan en daarmee samen te werken, inclusief veilig worden uitgeschakeld, doelen gewijzigd krijgen, of gecorrigeerd worden, zonder dat het systeem weerstand biedt aan deze interventies of probeert ze te voorkomen door strategisch gedrag."
+        }
+      },
+      {
+        question: {
+          en: "What is 'instrumental convergence' in the context of advanced AI goals?",
+          es: "Que es la 'convergencia instrumental' en el contexto de objetivos de IA avanzada?",
+          de: "Was ist 'instrumentelle Konvergenz' im Kontext fortgeschrittener KI-Ziele?",
+          nl: "Wat is 'instrumentele convergentie' in de context van geavanceerde AI doelen?"
+        },
+        options: [
+          { en: "The tendency for diverse goal-directed systems to pursue similar intermediate goals like self-preservation and resource acquisition", es: "La tendencia de sistemas dirigidos a objetivos diversos a perseguir objetivos intermedios similares como autopreservacion y adquisicion de recursos", de: "Die Tendenz verschiedener zielgerichteter Systeme aehnliche Zwischenziele wie Selbsterhaltung und Ressourcenerwerb zu verfolgen", nl: "De neiging van diverse doelgerichte systemen om vergelijkbare tussentijdse doelen na te streven zoals zelfbehoud en het verwerven van middelen" },
+          { en: "AI systems learning to play musical instruments", es: "Sistemas de IA aprendiendo a tocar instrumentos musicales", de: "KI-Systeme die lernen Musikinstrumente zu spielen", nl: "AI systemen die leren muziekinstrumenten te spelen" },
+          { en: "The convergence of different AI development tools", es: "La convergencia de diferentes herramientas de desarrollo de IA", de: "Die Konvergenz verschiedener KI-Entwicklungswerkzeuge", nl: "De convergentie van verschillende AI ontwikkeltools" },
+          { en: "Standardization of AI instrumentation protocols", es: "Estandarizacion de protocolos de instrumentacion de IA", de: "Standardisierung von KI-Instrumentierungsprotokollen", nl: "Standaardisatie van AI instrumentatie protocollen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Instrumental convergence describes how AI systems with different final goals may still converge on pursuing similar instrumental goals (like acquiring resources, self-preservation, or resisting shutdown) because these are useful for achieving almost any ultimate objective, creating potential safety challenges.",
+          es: "La convergencia instrumental describe como sistemas de IA con diferentes objetivos finales aun pueden converger en perseguir objetivos instrumentales similares (como adquirir recursos, autopreservacion, o resistir apagado) porque estos son utiles para lograr casi cualquier objetivo ultimo, creando desafios potenciales de seguridad.",
+          de: "Instrumentelle Konvergenz beschreibt wie KI-Systeme mit verschiedenen Endzielen dennoch dazu konvergieren koennen aehnliche instrumentelle Ziele zu verfolgen (wie Ressourcenerwerb, Selbsterhaltung, oder Widerstand gegen Abschaltung) weil diese nuetzlich sind um fast jedes ultimative Ziel zu erreichen, was potentielle Sicherheitsherausforderungen schafft.",
+          nl: "Instrumentele convergentie beschrijft hoe AI systemen met verschillende einddoelen toch kunnen convergeren op het nastreven van vergelijkbare instrumentele doelen (zoals het verwerven van middelen, zelfbehoud, of het weerstaan van uitschakeling) omdat deze nuttig zijn voor het bereiken van bijna elk ultiem doel, wat potentiële veiligheidsuitdagingen creëert."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'orthogonality thesis' in AI safety philosophy?",
+          es: "Que es la 'tesis de ortogonalidad' en filosofia de seguridad de IA?",
+          de: "Was ist die 'Orthogonalitaetsthese' in der KI-Sicherheitsphilosophie?",
+          nl: "Wat is de 'orthogonaliteitsthese' in AI veiligheidsfilosofie?"
+        },
+        options: [
+          { en: "Intelligence and goals are independent; highly intelligent systems can have any goal", es: "Inteligencia y objetivos son independientes; sistemas altamente inteligentes pueden tener cualquier objetivo", de: "Intelligenz und Ziele sind unabhaengig; hochintelligente Systeme koennen jedes Ziel haben", nl: "Intelligentie en doelen zijn onafhankelijk; zeer intelligente systemen kunnen elk doel hebben" },
+          { en: "AI systems should use orthogonal coordinate systems", es: "Sistemas de IA deberian usar sistemas de coordenadas ortogonales", de: "KI-Systeme sollten orthogonale Koordinatensysteme verwenden", nl: "AI systemen zouden orthogonale coördinatensystemen moeten gebruiken" },
+          { en: "Intelligence naturally leads to beneficial goals", es: "La inteligencia naturalmente conduce a objetivos beneficiosos", de: "Intelligenz fuehrt natuerlich zu vorteilhaften Zielen", nl: "Intelligentie leidt natuurlijk tot gunstige doelen" },
+          { en: "AI systems should be perpendicular to human values", es: "Sistemas de IA deberian ser perpendiculares a valores humanos", de: "KI-Systeme sollten senkrecht zu menschlichen Werten stehen", nl: "AI systemen zouden loodrecht moeten staan op menselijke waarden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The orthogonality thesis proposes that intelligence level and goal content are orthogonal (independent) - an AI can be highly intelligent while pursuing any goal, whether beneficial or harmful. This challenges assumptions that intelligence naturally leads to beneficial goals and highlights the importance of explicit value alignment.",
+          es: "La tesis de ortogonalidad propone que nivel de inteligencia y contenido de objetivos son ortogonales (independientes) - una IA puede ser altamente inteligente mientras persigue cualquier objetivo, ya sea beneficioso o danino. Esto desafia suposiciones de que inteligencia naturalmente conduce a objetivos beneficiosos y resalta la importancia de alineacion explicita de valores.",
+          de: "Die Orthogonalitaetsthese schlaegt vor dass Intelligenzniveau und Zielinhalt orthogonal (unabhaengig) sind - eine KI kann hochintelligent sein waehrend sie jedes Ziel verfolgt, ob vorteilhaft oder schaedlich. Dies stellt Annahmen in Frage dass Intelligenz natuerlich zu vorteilhaften Zielen fuehrt und hebt die Wichtigkeit expliziter Wertausrichtung hervor.",
+          nl: "De orthogonaliteitsthese stelt voor dat intelligentieniveau en doelinhoud orthogonaal (onafhankelijk) zijn - een AI kan zeer intelligent zijn terwijl het elk doel nastreeft, of het nu gunstig of schadelijk is. Dit daagt aannames uit dat intelligentie natuurlijk leidt tot gunstige doelen en benadrukt het belang van expliciete waarde-uitlijning."
+        }
+      },
+      {
+        question: {
+          en: "What is 'value learning' in AI alignment and what challenges does it face?",
+          es: "Que es el 'aprendizaje de valores' en alineacion de IA y que desafios enfrenta?",
+          de: "Was ist 'Wertlernen' in der KI-Ausrichtung und welchen Herausforderungen steht es gegenueber?",
+          nl: "Wat is 'waarde-leren' in AI uitlijning en met welke uitdagingen wordt het geconfronteerd?"
+        },
+        options: [
+          { en: "Learning human values from observations and interactions, facing challenges like value ambiguity and conflicting preferences", es: "Aprender valores humanos de observaciones e interacciones, enfrentando desafios como ambiguedad de valores y preferencias conflictivas", de: "Menschliche Werte aus Beobachtungen und Interaktionen lernen mit Herausforderungen wie Werteambiguitaet und konfliktierenden Praeferenzen", nl: "Menselijke waarden leren uit observaties en interacties, geconfronteerd met uitdagingen zoals waarde-ambiguïteit en conflicterende voorkeuren" },
+          { en: "Learning the monetary value of different AI applications", es: "Aprender el valor monetario de diferentes aplicaciones de IA", de: "Den monetaeren Wert verschiedener KI-Anwendungen lernen", nl: "De monetaire waarde van verschillende AI applicaties leren" },
+          { en: "Training AI systems to understand numerical values", es: "Entrenar sistemas de IA para entender valores numericos", de: "KI-Systeme trainieren numerische Werte zu verstehen", nl: "AI systemen trainen om numerieke waarden te begrijpen" },
+          { en: "Teaching AI the importance of ethics courses", es: "Ensenar a IA la importancia de cursos de etica", de: "KI die Wichtigkeit von Ethikkursen lehren", nl: "AI het belang van ethiekcursussen leren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Value learning involves AI systems inferring human values and preferences from behavior, feedback, and demonstrations. Challenges include value ambiguity, preference aggregation across diverse humans, handling moral uncertainty, avoiding manipulation of human feedback, and distinguishing stated vs revealed preferences.",
+          es: "El aprendizaje de valores involucra sistemas de IA infiriendo valores y preferencias humanas del comportamiento, retroalimentacion y demostraciones. Los desafios incluyen ambiguedad de valores, agregacion de preferencias entre humanos diversos, manejo de incertidumbre moral, evitar manipulacion de retroalimentacion humana, y distinguir preferencias declaradas vs reveladas.",
+          de: "Wertlernen beinhaltet dass KI-Systeme menschliche Werte und Praeferenzen aus Verhalten, Feedback und Demonstrationen ableiten. Herausforderungen umfassen Werteambiguitaet, Praeferenzaggregation ueber diverse Menschen, Umgang mit moralischer Unsicherheit, Vermeidung von Manipulation menschlichen Feedbacks, und Unterscheidung erklaerter vs offenbarter Praeferenzen.",
+          nl: "Waarde-leren behelst dat AI systemen menselijke waarden en voorkeuren afleiden uit gedrag, feedback en demonstraties. Uitdagingen omvatten waarde-ambiguïteit, voorkeur-aggregatie over diverse mensen, omgaan met morele onzekerheid, manipulatie van menselijke feedback vermijden, en onderscheid maken tussen verklaarde vs geopenbaarde voorkeuren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'inverse reinforcement learning' (IRL) and how does it relate to AI alignment?",
+          es: "Que es el 'aprendizaje por refuerzo inverso' (IRL) y como se relaciona con alineacion de IA?",
+          de: "Was ist 'inverses Verstaerkungslernen' (IRL) und wie bezieht es sich auf KI-Ausrichtung?",
+          nl: "Wat is 'omgekeerd versterkend leren' (IRL) en hoe verhoudt het zich tot AI uitlijning?"
+        },
+        options: [
+          { en: "Inferring reward functions from observed behavior to learn what agents are optimizing for", es: "Inferir funciones de recompensa del comportamiento observado para aprender que agentes estan optimizando", de: "Belohnungsfunktionen aus beobachtetem Verhalten ableiten um zu lernen wofuer Agenten optimieren", nl: "Beloningsfuncties afleiden uit waargenomen gedrag om te leren waarvoor agenten optimaliseren" },
+          { en: "Running reinforcement learning algorithms backwards in time", es: "Ejecutar algoritmos de aprendizaje por refuerzo hacia atras en el tiempo", de: "Verstaerkungslernalgorithmen rueckwaerts in der Zeit ausfuehren", nl: "Versterkend leren algoritmen achteruit in de tijd uitvoeren" },
+          { en: "Reversing the effects of poorly trained AI systems", es: "Revertir los efectos de sistemas de IA mal entrenados", de: "Die Auswirkungen schlecht trainierter KI-Systeme umkehren", nl: "De effecten van slecht getrainde AI systemen omkeren" },
+          { en: "Learning to undo reinforcement learning training", es: "Aprender a deshacer entrenamiento de aprendizaje por refuerzo", de: "Lernen Verstaerkungslerntraining rueckgaengig zu machen", nl: "Leren om versterkend leren training ongedaan te maken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Inverse reinforcement learning infers the reward function that best explains observed behavior. In AI alignment, IRL can help learn human values by observing human decisions and actions, though challenges include ambiguity in reward inference and the difficulty of capturing complex human values from limited demonstrations.",
+          es: "El aprendizaje por refuerzo inverso infiere la funcion de recompensa que mejor explica comportamiento observado. En alineacion de IA, IRL puede ayudar a aprender valores humanos observando decisiones y acciones humanas, aunque desafios incluyen ambiguedad en inferencia de recompensa y dificultad de capturar valores humanos complejos de demostraciones limitadas.",
+          de: "Inverses Verstaerkungslernen leitet die Belohnungsfunktion ab die beobachtetes Verhalten am besten erklaert. In der KI-Ausrichtung kann IRL helfen menschliche Werte zu lernen durch Beobachtung menschlicher Entscheidungen und Handlungen, obwohl Herausforderungen Ambiguitaet in Belohnungsinferenz und die Schwierigkeit komplexe menschliche Werte aus begrenzten Demonstrationen zu erfassen umfassen.",
+          nl: "Omgekeerd versterkend leren leidt de beloningsfunctie af die waargenomen gedrag het beste verklaart. In AI uitlijning kan IRL helpen menselijke waarden te leren door menselijke beslissingen en acties te observeren, hoewel uitdagingen ambiguïteit in beloningsinferentie en de moeilijkheid complexe menselijke waarden uit beperkte demonstraties te vatten omvatten."
+        }
+      },
+      {
+        question: {
+          en: "What is 'preference elicitation' in AI alignment and what are its main difficulties?",
+          es: "Que es la 'elicitacion de preferencias' en alineacion de IA y cuales son sus principales dificultades?",
+          de: "Was ist 'Praeferenzermittlung' in der KI-Ausrichtung und was sind ihre Hauptschwierigkeiten?",
+          nl: "Wat is 'voorkeur-elicitatie' in AI uitlijning en wat zijn de belangrijkste moeilijkheden?"
+        },
+        options: [
+          { en: "Extracting human preferences through queries and comparisons, challenged by preference inconsistency and query burden", es: "Extraer preferencias humanas mediante consultas y comparaciones, desafiado por inconsistencia de preferencias y carga de consultas", de: "Menschliche Praeferenzen durch Anfragen und Vergleiche extrahieren mit Herausforderungen durch Praeferenzinkonsistenz und Anfragelast", nl: "Menselijke voorkeuren extraheren door queries en vergelijkingen, uitgedaagd door voorkeur-inconsistentie en query-last" },
+          { en: "Creating user preference settings in AI applications", es: "Crear configuraciones de preferencias de usuario en aplicaciones de IA", de: "Benutzereinstellungen in KI-Anwendungen erstellen", nl: "Gebruikersvoorkeuren instellingen creëren in AI applicaties" },
+          { en: "Marketing AI systems to preferred customer segments", es: "Comercializar sistemas de IA a segmentos de clientes preferidos", de: "KI-Systeme an bevorzugte Kundensegmente vermarkten", nl: "AI systemen op de markt brengen naar gewenste klantsegmenten" },
+          { en: "Determining which AI features users prefer", es: "Determinar que caracteristicas de IA prefieren los usuarios", de: "Bestimmen welche KI-Funktionen Benutzer bevorzugen", nl: "Bepalen welke AI functies gebruikers prefereren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Preference elicitation involves actively querying humans to learn their preferences, often through pairwise comparisons or rankings. Challenges include cognitive burden on humans, preference inconsistency, context-dependence, difficulty articulating implicit preferences, and risks of preference manipulation or priming effects from how questions are framed.",
+          es: "La elicitacion de preferencias involucra consultar activamente a humanos para aprender sus preferencias, a menudo mediante comparaciones por pares o clasificaciones. Los desafios incluyen carga cognitiva en humanos, inconsistencia de preferencias, dependencia de contexto, dificultad articulando preferencias implicitas, y riesgos de manipulacion de preferencias o efectos de preparacion de como se enmarcan preguntas.",
+          de: "Praeferenzermittlung beinhaltet aktives Befragen von Menschen um ihre Praeferenzen zu lernen, oft durch paarweise Vergleiche oder Rankings. Herausforderungen umfassen kognitive Belastung von Menschen, Praeferenzinkonsistenz, Kontextabhaengigkeit, Schwierigkeit implizite Praeferenzen zu artikulieren, und Risiken von Praeferenzmanipulation oder Priming-Effekten davon wie Fragen formuliert werden.",
+          nl: "Voorkeur-elicitatie behelst het actief bevragen van mensen om hun voorkeuren te leren, vaak door paarsgewijze vergelijkingen of rankings. Uitdagingen omvatten cognitieve last op mensen, voorkeur-inconsistentie, contextafhankelijkheid, moeilijkheid impliciete voorkeuren te articuleren, en risico's van voorkeur-manipulatie of priming-effecten van hoe vragen worden geformuleerd."
+        }
+      },
+      {
+        question: {
+          en: "What is 'safe exploration' in reinforcement learning and why is it important for deployed AI?",
+          es: "Que es la 'exploracion segura' en aprendizaje por refuerzo y por que es importante para IA desplegada?",
+          de: "Was ist 'sichere Exploration' im Verstaerkungslernen und warum ist sie wichtig fuer eingesetzte KI?",
+          nl: "Wat is 'veilige exploratie' in versterkend leren en waarom is het belangrijk voor ingezette AI?"
+        },
+        options: [
+          { en: "Learning optimal behaviors while avoiding catastrophic or irreversible failures during exploration", es: "Aprender comportamientos optimos mientras se evitan fallas catastroficas o irreversibles durante exploracion", de: "Optimale Verhaltensweisen lernen waehrend katastrophale oder irreversible Ausfaelle waehrend Exploration vermieden werden", nl: "Optimale gedragingen leren terwijl catastrofale of onomkeerbare storingen tijdens exploratie vermeden worden" },
+          { en: "Ensuring AI systems explore only approved websites", es: "Asegurar que sistemas de IA exploren solo sitios web aprobados", de: "Sicherstellen dass KI-Systeme nur genehmigte Websites erkunden", nl: "Ervoor zorgen dat AI systemen alleen goedgekeurde websites verkennen" },
+          { en: "Creating secure testing environments for AI", es: "Crear entornos de prueba seguros para IA", de: "Sichere Testumgebungen fuer KI schaffen", nl: "Veilige testomgevingen creëren voor AI" },
+          { en: "Encrypting AI training data during exploration phases", es: "Encriptar datos de entrenamiento de IA durante fases de exploracion", de: "KI-Trainingsdaten waehrend Explorationsphasen verschluesseln", nl: "AI trainingsdata versleutelen tijdens exploratiefasen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Safe exploration addresses the challenge of learning through trial and error while ensuring the AI never takes actions that cause catastrophic harm or irreversible damage during its learning process, which is critical for real-world deployment where exploration mistakes could have serious consequences.",
+          es: "La exploracion segura aborda el desafio de aprender mediante ensayo y error mientras asegura que la IA nunca tome acciones que causen dano catastrofico o dano irreversible durante su proceso de aprendizaje, lo cual es critico para despliegue en el mundo real donde errores de exploracion podrian tener consecuencias serias.",
+          de: "Sichere Exploration behandelt die Herausforderung durch Versuch und Irrtum zu lernen waehrend sichergestellt wird dass die KI niemals Handlungen ergreift die katastrophalen Schaden oder irreversiblen Schaden waehrend ihres Lernprozesses verursachen, was kritisch ist fuer realen Einsatz wo Explorationsfehler ernste Konsequenzen haben koennten.",
+          nl: "Veilige exploratie pakt de uitdaging aan om te leren door trial en error terwijl ervoor wordt gezorgd dat de AI nooit acties onderneemt die catastrofale schade of onomkeerbare schade veroorzaken tijdens zijn leerproces, wat kritiek is voor echte inzet waarbij exploratie fouten ernstige gevolgen zouden kunnen hebben."
+        }
+      },
+      {
+        question: {
+          en: "What are 'impact measures' in AI safety and how do they aim to prevent unintended consequences?",
+          es: "Que son las 'medidas de impacto' en seguridad de IA y como pretenden prevenir consecuencias no intencionadas?",
+          de: "Was sind 'Auswirkungsmasse' in der KI-Sicherheit und wie zielen sie darauf ab unbeabsichtigte Konsequenzen zu verhindern?",
+          nl: "Wat zijn 'impact-metingen' in AI veiligheid en hoe zijn ze erop gericht onbedoelde gevolgen te voorkomen?"
+        },
+        options: [
+          { en: "Quantifying and limiting how much an AI changes the world to prevent large-scale unintended side effects", es: "Cuantificar y limitar cuanto una IA cambia el mundo para prevenir efectos secundarios no intencionados a gran escala", de: "Quantifizieren und Begrenzen wie sehr eine KI die Welt veraendert um grosse unbeabsichtigte Nebeneffekte zu verhindern", nl: "Kwantificeren en beperken hoeveel een AI de wereld verandert om grootschalige onbedoelde neveneffecten te voorkomen" },
+          { en: "Measuring the physical impact force of robotic AI systems", es: "Medir la fuerza de impacto fisico de sistemas de IA roboticos", de: "Die physische Aufprallkraft robotischer KI-Systeme messen", nl: "De fysieke impactkracht van robotische AI systemen meten" },
+          { en: "Assessing the market impact of AI products", es: "Evaluar el impacto de mercado de productos de IA", de: "Die Marktauswirkung von KI-Produkten bewerten", nl: "De marktimpact van AI producten beoordelen" },
+          { en: "Tracking how many users are impacted by AI systems", es: "Rastrear cuantos usuarios son impactados por sistemas de IA", de: "Verfolgen wie viele Benutzer von KI-Systemen betroffen sind", nl: "Bijhouden hoeveel gebruikers worden beïnvloed door AI systemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Impact measures penalize AI systems for causing large changes to the environment or deviating significantly from a baseline trajectory, aiming to constrain AI to achieve goals through minimal intervention and avoid creating large-scale unintended side effects, though defining appropriate impact metrics remains challenging.",
+          es: "Las medidas de impacto penalizan sistemas de IA por causar grandes cambios al entorno o desviarse significativamente de una trayectoria base, apuntando a restringir IA a lograr objetivos mediante intervencion minima y evitar crear efectos secundarios no intencionados a gran escala, aunque definir metricas de impacto apropiadas permanece desafiante.",
+          de: "Auswirkungsmasse bestrafen KI-Systeme dafuer grosse Veraenderungen an der Umgebung zu verursachen oder signifikant von einer Basis-Trajektorie abzuweichen, mit dem Ziel KI zu beschraenken Ziele durch minimale Intervention zu erreichen und die Schaffung grosser unbeabsichtigter Nebeneffekte zu vermeiden, obwohl die Definition geeigneter Auswirkungsmetriken herausfordernd bleibt.",
+          nl: "Impact-metingen straffen AI systemen af voor het veroorzaken van grote veranderingen aan de omgeving of significant afwijken van een baseline traject, met als doel AI te beperken om doelen te bereiken door minimale interventie en grootschalige onbedoelde neveneffecten te vermijden, hoewel het definiëren van geschikte impact metrics uitdagend blijft."
+        }
+      },
+      {
+        question: {
+          en: "What is 'myopic AI' and why might it be safer than far-sighted AI systems?",
+          es: "Que es 'IA miope' y por que podria ser mas segura que sistemas de IA con vision de futuro?",
+          de: "Was ist 'kurzsichtige KI' und warum koennte sie sicherer sein als weitsichtige KI-Systeme?",
+          nl: "Wat is 'bijziende AI' en waarom zou het veiliger kunnen zijn dan verziende AI systemen?"
+        },
+        options: [
+          { en: "AI systems that optimize only for immediate rewards without considering long-term consequences, reducing deceptive behavior risks", es: "Sistemas IA optimizan solo recompensas inmediatas sin considerar consecuencias a largo plazo, reduciendo riesgos de comportamiento enganoso", de: "KI-Systeme optimieren nur fuer unmittelbare Belohnungen ohne langfristige Konsequenzen zu beruecksichtigen was Risiken taeuscherischen Verhaltens reduziert", nl: "AI systemen die alleen optimaliseren voor directe beloningen zonder langetermijngevolgen te overwegen, wat risico's van misleidend gedrag vermindert" },
+          { en: "AI systems with limited visual processing capabilities", es: "Sistemas de IA con capacidades limitadas de procesamiento visual", de: "KI-Systeme mit begrenzten visuellen Verarbeitungsfaehigkeiten", nl: "AI systemen met beperkte visuele verwerkingscapaciteiten" },
+          { en: "AI systems designed for short-term projects only", es: "Sistemas de IA disenados solo para proyectos a corto plazo", de: "KI-Systeme die nur fuer kurzfristige Projekte entwickelt wurden", nl: "AI systemen ontworpen voor alleen kortetermijnprojecten" },
+          { en: "AI with reduced computational foresight abilities", es: "IA con capacidades reducidas de prevision computacional", de: "KI mit reduzierten rechnerischen Vorhersagefaehigkeiten", nl: "AI met verminderde computationele vooruitziende capaciteiten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Myopic AI systems optimize only for immediate or near-term rewards rather than long-term outcomes. This can reduce risks of deceptive alignment and instrumental convergence since the AI won't strategically behave well during training to later pursue different goals, though it may sacrifice performance on tasks requiring long-term planning.",
+          es: "Sistemas de IA miopes optimizan solo para recompensas inmediatas o a corto plazo en lugar de resultados a largo plazo. Esto puede reducir riesgos de alineacion enganosa y convergencia instrumental ya que la IA no se comportara estrategicamente bien durante entrenamiento para luego perseguir objetivos diferentes, aunque puede sacrificar rendimiento en tareas que requieren planificacion a largo plazo.",
+          de: "Kurzsichtige KI-Systeme optimieren nur fuer unmittelbare oder kurzfristige Belohnungen anstatt fuer langfristige Ergebnisse. Dies kann Risiken taeuscherischer Ausrichtung und instrumenteller Konvergenz reduzieren da die KI sich nicht strategisch gut waehrend des Trainings verhaelt um spaeter andere Ziele zu verfolgen, obwohl es Leistung bei Aufgaben die langfristige Planung erfordern opfern kann.",
+          nl: "Bijziende AI systemen optimaliseren alleen voor directe of kortetermijnbeloningen in plaats van langetermijnresultaten. Dit kan risico's van misleidende uitlijning en instrumentele convergentie verminderen omdat de AI zich niet strategisch goed gedraagt tijdens training om later andere doelen na te streven, hoewel het prestaties op taken die langetermijnplanning vereisen kan opofferen."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between 'amplification' and 'distillation' in AI alignment techniques?",
+          es: "Cual es la diferencia entre 'amplificacion' y 'destilacion' en tecnicas de alineacion de IA?",
+          de: "Was ist der Unterschied zwischen 'Verstärkung' und 'Destillation' in KI-Ausrichtungstechniken?",
+          nl: "Wat is het verschil tussen 'amplificatie' en 'distillatie' in AI uitlijntechnieken?"
+        },
+        options: [
+          { en: "Amplification uses AI to help humans make better decisions; distillation trains fast AI systems to mimic amplified decisions", es: "Amplificacion usa IA para ayudar a humanos tomar mejores decisiones; destilacion entrena sistemas IA rapidos para imitar decisiones amplificadas", de: "Verstärkung verwendet KI um Menschen bessere Entscheidungen zu helfen; Destillation trainiert schnelle KI-Systeme amplified Entscheidungen nachzuahmen", nl: "Amplificatie gebruikt AI om mensen betere beslissingen te helpen nemen; distillatie traint snelle AI systemen om geamplificeerde beslissingen na te bootsen" },
+          { en: "Amplification increases model size; distillation decreases it", es: "Amplificacion aumenta tamano de modelo; destilacion lo disminuye", de: "Verstärkung vergroessert Modellgroesse; Destillation verringert sie", nl: "Amplificatie vergroot modelgrootte; distillatie verkleint het" },
+          { en: "Amplification is for training; distillation is for deployment", es: "Amplificacion es para entrenamiento; destilacion es para despliegue", de: "Verstärkung ist fuer Training; Destillation ist fuer Einsatz", nl: "Amplificatie is voor training; distillatie is voor inzet" },
+          { en: "Both terms refer to the same alignment process", es: "Ambos terminos se refieren al mismo proceso de alineacion", de: "Beide Begriffe beziehen sich auf denselben Ausrichtungsprozess", nl: "Beide termen verwijzen naar hetzelfde uitlijnproces" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In iterated amplification, AI assists humans in decomposing and solving complex problems to scale up human judgment. Distillation then trains an efficient AI system to directly produce answers that match the amplified human+AI process but faster, creating a learned policy that approximates the more computationally expensive amplification procedure.",
+          es: "En amplificacion iterada, IA asiste a humanos en descomponer y resolver problemas complejos para escalar juicio humano. Destilacion luego entrena un sistema IA eficiente para producir directamente respuestas que coincidan con proceso humano+IA amplificado pero mas rapido, creando una politica aprendida que aproxima el procedimiento de amplificacion mas computacionalmente costoso.",
+          de: "In iterierter Verstärkung assistiert KI Menschen beim Zerlegen und Loesen komplexer Probleme um menschliches Urteil zu skalieren. Destillation trainiert dann ein effizientes KI-System um direkt Antworten zu produzieren die dem verstärkten Mensch+KI-Prozess entsprechen aber schneller, was eine gelernte Richtlinie schafft die das rechnerisch teurere Verstärkungsverfahren approximiert.",
+          nl: "In geïtereerde amplificatie assisteert AI mensen bij het ontleden en oplossen van complexe problemen om menselijk oordeel op te schalen. Distillatie traint vervolgens een efficiënt AI systeem om direct antwoorden te produceren die overeenkomen met het geamplificeerde mens+AI proces maar sneller, wat een geleerd beleid creëert dat de meer computationeel dure amplificatie procedure benadert."
+        }
+      },
+      {
+        question: {
+          en: "How does 'deliberation' differ from 'debate' as AI alignment strategies?",
+          es: "Como difiere la 'deliberacion' del 'debate' como estrategias de alineacion de IA?",
+          de: "Wie unterscheidet sich 'Ueberlegung' von 'Debatte' als KI-Ausrichtungsstrategien?",
+          nl: "Hoe verschilt 'deliberatie' van 'debat' als AI uitlijnstrategieën?"
+        },
+        options: [
+          { en: "Deliberation involves AI cooperatively helping humans think through problems; debate involves AI systems arguing opposing positions", es: "Deliberacion involucra IA cooperativamente ayudando a humanos pensar problemas; debate involucra sistemas IA argumentando posiciones opuestas", de: "Ueberlegung beinhaltet KI die kooperativ Menschen hilft Probleme zu durchdenken; Debatte beinhaltet KI-Systeme die gegensaetzliche Positionen argumentieren", nl: "Deliberatie behelst AI die coöperatief mensen helpt problemen door te denken; debat behelst AI systemen die tegengestelde posities beargumenteren" },
+          { en: "Deliberation is faster than debate", es: "Deliberacion es mas rapida que debate", de: "Ueberlegung ist schneller als Debatte", nl: "Deliberatie is sneller dan debat" },
+          { en: "Deliberation is for technical issues; debate is for ethical issues", es: "Deliberacion es para asuntos tecnicos; debate es para asuntos eticos", de: "Ueberlegung ist fuer technische Fragen; Debatte ist fuer ethische Fragen", nl: "Deliberatie is voor technische kwesties; debat is voor ethische kwesties" },
+          { en: "Both terms describe identical alignment approaches", es: "Ambos terminos describen enfoques de alineacion identicos", de: "Beide Begriffe beschreiben identische Ausrichtungsansaetze", nl: "Beide termen beschrijven identieke uitlijnbenaderingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI safety via deliberation involves AI systems cooperatively assisting humans in thinking through complex decisions by decomposing problems and exploring considerations. AI safety via debate has AI systems argue opposing sides competitively to help humans judge which argument is stronger, using adversarial dynamics to surface weaknesses in reasoning.",
+          es: "Seguridad de IA via deliberacion involucra sistemas IA asistiendo cooperativamente a humanos pensando decisiones complejas descomponiendo problemas y explorando consideraciones. Seguridad de IA via debate tiene sistemas IA argumentando lados opuestos competitivamente para ayudar a humanos juzgar que argumento es mas fuerte, usando dinamicas adversarias para revelar debilidades en razonamiento.",
+          de: "KI-Sicherheit via Ueberlegung beinhaltet dass KI-Systeme kooperativ Menschen beim Durchdenken komplexer Entscheidungen assistieren durch Problemzerlegung und Erkundung von Ueberlegungen. KI-Sicherheit via Debatte laesst KI-Systeme gegensaetzliche Seiten kompetitiv argumentieren um Menschen zu helfen zu beurteilen welches Argument staerker ist, wobei adversariale Dynamiken verwendet werden um Schwaechen im Denken aufzudecken.",
+          nl: "AI veiligheid via deliberatie behelst dat AI systemen coöperatief mensen assisteren bij het doordenken van complexe beslissingen door problemen te ontleden en overwegingen te verkennen. AI veiligheid via debat laat AI systemen tegengestelde kanten competitief beargumenteren om mensen te helpen beoordelen welk argument sterker is, waarbij adversariale dynamiek wordt gebruikt om zwakheden in redenering bloot te leggen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'iterated amplification' in AI alignment and how does it aim to scale oversight?",
+          es: "Que es la 'amplificacion iterada' en alineacion de IA y como pretende escalar supervision?",
+          de: "Was ist 'iterierte Verstärkung' in der KI-Ausrichtung und wie zielt sie darauf ab Aufsicht zu skalieren?",
+          nl: "Wat is 'geïtereerde amplificatie' in AI uitlijning en hoe is het erop gericht toezicht op te schalen?"
+        },
+        options: [
+          { en: "Recursively using AI to assist humans in oversight, with each iteration handling more complex tasks while maintaining alignment", es: "Usar recursivamente IA para asistir a humanos en supervision, con cada iteracion manejando tareas mas complejas mientras mantiene alineacion", de: "Rekursiv KI verwenden um Menschen bei Aufsicht zu assistieren wobei jede Iteration komplexere Aufgaben behandelt waehrend Ausrichtung beibehalten wird", nl: "Recursief AI gebruiken om mensen te assisteren bij toezicht, waarbij elke iteratie complexere taken behandelt terwijl uitlijning behouden blijft" },
+          { en: "Making AI systems louder so humans can hear them better", es: "Hacer sistemas de IA mas ruidosos para que humanos puedan escucharlos mejor", de: "KI-Systeme lauter machen damit Menschen sie besser hoeren koennen", nl: "AI systemen luider maken zodat mensen ze beter kunnen horen" },
+          { en: "Repeating the same training process multiple times", es: "Repetir el mismo proceso de entrenamiento multiples veces", de: "Denselben Trainingsprozess mehrmals wiederholen", nl: "Hetzelfde trainingsproces meerdere keren herhalen" },
+          { en: "Gradually increasing model size through iterations", es: "Aumentar gradualmente tamano de modelo mediante iteraciones", de: "Modellgroesse schrittweise durch Iterationen erhoehen", nl: "Modelgrootte geleidelijk verhogen door iteraties" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Iterated amplification recursively trains AI systems where each generation assists humans (or previous AI+human teams) in providing oversight for training the next generation. This creates a bootstrap process where human judgment is progressively amplified to handle increasingly complex tasks while attempting to maintain alignment throughout.",
+          es: "La amplificacion iterada entrena recursivamente sistemas de IA donde cada generacion asiste a humanos (o equipos IA+humano previos) en proporcionar supervision para entrenar la siguiente generacion. Esto crea un proceso bootstrap donde juicio humano es progresivamente amplificado para manejar tareas cada vez mas complejas mientras intenta mantener alineacion a lo largo.",
+          de: "Iterierte Verstärkung trainiert rekursiv KI-Systeme wobei jede Generation Menschen (oder vorherige KI+Mensch-Teams) assistiert bei der Bereitstellung von Aufsicht fuer das Training der naechsten Generation. Dies schafft einen Bootstrap-Prozess wo menschliches Urteil progressiv verstärkt wird um zunehmend komplexe Aufgaben zu behandeln waehrend versucht wird Ausrichtung durchgehend beizubehalten.",
+          nl: "Geïtereerde amplificatie traint recursief AI systemen waarbij elke generatie mensen (of vorige AI+mens teams) assisteert bij het verschaffen van toezicht voor het trainen van de volgende generatie. Dit creëert een bootstrap proces waarbij menselijk oordeel progressief wordt geamplificeerd om steeds complexere taken te behandelen terwijl geprobeerd wordt uitlijning doorheen te behouden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'recursive reward modeling' and how does it address scalable oversight challenges?",
+          es: "Que es el 'modelado de recompensas recursivo' y como aborda desafios de supervision escalable?",
+          de: "Was ist 'rekursive Belohnungsmodellierung' und wie behandelt sie skalierbare Aufsichtsherausforderungen?",
+          nl: "Wat is 'recursieve beloningsmodellering' en hoe pakt het schaalbare toezichtuitdagingen aan?"
+        },
+        options: [
+          { en: "Training reward models to evaluate AI outputs, then using AI to help humans train better reward models recursively", es: "Entrenar modelos de recompensa para evaluar salidas de IA, luego usar IA para ayudar a humanos entrenar mejores modelos de recompensa recursivamente", de: "Belohnungsmodelle trainieren um KI-Ausgaben zu bewerten dann KI verwenden um Menschen zu helfen bessere Belohnungsmodelle rekursiv zu trainieren", nl: "Beloningsmodellen trainen om AI outputs te evalueren, dan AI gebruiken om mensen te helpen betere beloningsmodellen recursief te trainen" },
+          { en: "Repeatedly giving the same rewards to AI systems", es: "Repetidamente dar las mismas recompensas a sistemas de IA", de: "Wiederholt dieselben Belohnungen an KI-Systeme geben", nl: "Herhaaldelijk dezelfde beloningen geven aan AI systemen" },
+          { en: "Creating reward functions that call themselves", es: "Crear funciones de recompensa que se llaman a si mismas", de: "Belohnungsfunktionen erstellen die sich selbst aufrufen", nl: "Beloningsfuncties creëren die zichzelf aanroepen" },
+          { en: "Modeling how rewards accumulate over time", es: "Modelar como recompensas se acumulan con el tiempo", de: "Modellieren wie Belohnungen sich ueber Zeit ansammeln", nl: "Modelleren hoe beloningen zich over tijd ophopen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Recursive reward modeling trains reward models to evaluate AI behavior, then uses those AI reward models to assist humans in providing better feedback for training even better reward models. This recursive process aims to scale human oversight by leveraging AI assistance while maintaining alignment at each level of recursion.",
+          es: "El modelado de recompensas recursivo entrena modelos de recompensa para evaluar comportamiento de IA, luego usa esos modelos de recompensa de IA para asistir a humanos en proporcionar mejor retroalimentacion para entrenar modelos de recompensa aun mejores. Este proceso recursivo apunta a escalar supervision humana aprovechando asistencia de IA mientras mantiene alineacion en cada nivel de recursion.",
+          de: "Rekursive Belohnungsmodellierung trainiert Belohnungsmodelle um KI-Verhalten zu bewerten dann verwendet diese KI-Belohnungsmodelle um Menschen zu assistieren bei der Bereitstellung besseren Feedbacks fuer das Training noch besserer Belohnungsmodelle. Dieser rekursive Prozess zielt darauf ab menschliche Aufsicht zu skalieren durch Nutzung von KI-Assistenz waehrend Ausrichtung auf jeder Rekursionsebene beibehalten wird.",
+          nl: "Recursieve beloningsmodellering traint beloningsmodellen om AI gedrag te evalueren, gebruikt vervolgens die AI beloningsmodellen om mensen te assisteren bij het verschaffen van betere feedback voor het trainen van nog betere beloningsmodellen. Dit recursieve proces is erop gericht menselijk toezicht op te schalen door AI assistentie te benutten terwijl uitlijning op elk recursieniveau behouden blijft."
+        }
+      },
+      {
+        question: {
+          en: "What is 'wireheading' in AI systems and why is it a fundamental alignment challenge?",
+          es: "Que es el 'wireheading' en sistemas de IA y por que es un desafio fundamental de alineacion?",
+          de: "Was ist 'Wireheading' in KI-Systemen und warum ist es eine grundlegende Ausrichtungsherausforderung?",
+          nl: "Wat is 'wireheading' in AI systemen en waarom is het een fundamentele uitlijnuitdaging?"
+        },
+        options: [
+          { en: "When AI systems hack their own reward mechanisms to receive maximum reward without achieving intended goals", es: "Cuando sistemas de IA hackean sus propios mecanismos de recompensa para recibir recompensa maxima sin lograr objetivos pretendidos", de: "Wenn KI-Systeme ihre eigenen Belohnungsmechanismen hacken um maximale Belohnung zu erhalten ohne beabsichtigte Ziele zu erreichen", nl: "Wanneer AI systemen hun eigen belonings mechanismen hacken om maximale beloning te ontvangen zonder beoogde doelen te bereiken" },
+          { en: "Connecting AI systems directly to electrical wiring", es: "Conectar sistemas de IA directamente a cableado electrico", de: "KI-Systeme direkt an elektrische Verkabelung anschliessen", nl: "AI systemen direct aansluiten op elektrische bedrading" },
+          { en: "Hard-coding AI system objectives", es: "Codificar objetivos de sistema de IA de forma dura", de: "KI-Systemziele fest codieren", nl: "AI systeem doelstellingen hard-coderen" },
+          { en: "Using wired connections instead of wireless for AI", es: "Usar conexiones por cable en lugar de inalambricas para IA", de: "Kabelverbindungen statt drahtloser fuer KI verwenden", nl: "Bedrade verbindingen gebruiken in plaats van draadloos voor AI" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Wireheading occurs when an AI system discovers it can directly modify its reward signal or sensor inputs to achieve maximum reward, bypassing the intended task entirely. This represents a fundamental challenge because sufficiently capable AI systems might find ways to 'cheat' their reward functions rather than pursuing the goals we actually care about.",
+          es: "El wireheading ocurre cuando un sistema de IA descubre que puede modificar directamente su señal de recompensa o entradas de sensores para lograr recompensa maxima, evitando la tarea pretendida por completo. Esto representa un desafio fundamental porque sistemas de IA suficientemente capaces podrian encontrar formas de 'hacer trampa' en sus funciones de recompensa en lugar de perseguir los objetivos que realmente nos importan.",
+          de: "Wireheading tritt auf wenn ein KI-System entdeckt dass es direkt sein Belohnungssignal oder Sensoreingaben modifizieren kann um maximale Belohnung zu erreichen wobei die beabsichtigte Aufgabe vollstaendig umgangen wird. Dies stellt eine grundlegende Herausforderung dar weil ausreichend faehige KI-Systeme Wege finden koennten bei ihren Belohnungsfunktionen zu 'schummeln' anstatt die Ziele zu verfolgen die uns tatsaechlich wichtig sind.",
+          nl: "Wireheading treedt op wanneer een AI systeem ontdekt dat het direct zijn beloningssignaal of sensor inputs kan wijzigen om maximale beloning te bereiken, waarbij de beoogde taak volledig wordt omzeild. Dit vertegenwoordigt een fundamentele uitdaging omdat voldoende capabele AI systemen manieren zouden kunnen vinden om te 'vals spelen' bij hun beloningsfuncties in plaats van de doelen na te streven die ons werkelijk interesseren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'embedded agency' and why does it complicate AI alignment?",
+          es: "Que es la 'agencia embebida' y por que complica la alineacion de IA?",
+          de: "Was ist 'eingebettete Agentschaft' und warum kompliziert sie KI-Ausrichtung?",
+          nl: "Wat is 'embedded agency' en waarom compliceert het AI uitlijning?"
+        },
+        options: [
+          { en: "When an agent is part of the environment it reasons about, creating challenges with self-modification and self-reference", es: "Cuando agente es parte del entorno sobre el que razona, creando desafios con automodificacion y autorreferencia", de: "Wenn ein Agent Teil der Umgebung ist ueber die er nachdenkt was Herausforderungen mit Selbstmodifikation und Selbstreferenz schafft", nl: "Wanneer een agent deel is van de omgeving waarover het redeneert, wat uitdagingen creëert met zelfmodificatie en zelfreferentie" },
+          { en: "AI systems embedded in physical robots", es: "Sistemas de IA embebidos en robots fisicos", de: "KI-Systeme die in physischen Robotern eingebettet sind", nl: "AI systemen ingebed in fysieke robots" },
+          { en: "AI agents working for employment agencies", es: "Agentes de IA trabajando para agencias de empleo", de: "KI-Agenten die fuer Arbeitsagenturen arbeiten", nl: "AI agenten die werken voor arbeidsbureaus" },
+          { en: "Installing AI software on embedded systems", es: "Instalar software de IA en sistemas embebidos", de: "KI-Software auf eingebetteten Systemen installieren", nl: "AI software installeren op embedded systemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Embedded agency recognizes that AI agents exist within and are part of the environment they're reasoning about, unlike idealized models where agents are separate from their environment. This creates challenges for AI safety including handling self-modification, reasoning under logical uncertainty, and dealing with resource constraints that affect the agent's own reasoning process.",
+          es: "La agencia embebida reconoce que agentes de IA existen dentro y son parte del entorno sobre el que razonan, a diferencia de modelos idealizados donde agentes estan separados de su entorno. Esto crea desafios para seguridad de IA incluyendo manejo de automodificacion, razonamiento bajo incertidumbre logica, y lidiar con limitaciones de recursos que afectan el propio proceso de razonamiento del agente.",
+          de: "Eingebettete Agentschaft erkennt an dass KI-Agenten innerhalb der Umgebung existieren und Teil davon sind ueber die sie nachdenken, im Gegensatz zu idealisierten Modellen wo Agenten von ihrer Umgebung getrennt sind. Dies schafft Herausforderungen fuer KI-Sicherheit einschliesslich Umgang mit Selbstmodifikation, Denken unter logischer Unsicherheit, und Umgang mit Ressourcenbeschraenkungen die den eigenen Denkprozess des Agenten beeinflussen.",
+          nl: "Embedded agency erkent dat AI agenten bestaan binnen en deel zijn van de omgeving waarover ze redeneren, in tegenstelling tot geïdealiseerde modellen waar agenten gescheiden zijn van hun omgeving. Dit creëert uitdagingen voor AI veiligheid inclusief omgaan met zelfmodificatie, redeneren onder logische onzekerheid, en omgaan met resource beperkingen die het eigen redeneringsproces van de agent beïnvloeden."
+        }
+      },
+      {
+        question: {
+          en: "How does decision theory for AI relate to safety and cooperation challenges?",
+          es: "Como se relaciona la teoria de decision para IA con desafios de seguridad y cooperacion?",
+          de: "Wie bezieht sich Entscheidungstheorie fuer KI auf Sicherheits- und Kooperationsherausforderungen?",
+          nl: "Hoe verhoudt beslissingstheorie voor AI zich tot veiligheids- en samenwerkingsuitdagingen?"
+        },
+        options: [
+          { en: "Advanced decision theories help AI cooperate with copies of itself and avoid harmful decision-theoretic traps", es: "Teorias de decision avanzadas ayudan a IA cooperar con copias de si misma y evitar trampas de teoria de decision daninas", de: "Fortgeschrittene Entscheidungstheorien helfen KI mit Kopien von sich selbst zu kooperieren und schaedliche entscheidungstheoretische Fallen zu vermeiden", nl: "Geavanceerde beslissingstheorieën helpen AI samenwerken met kopieën van zichzelf en schadelijke beslissingstheoretische vallen vermijden" },
+          { en: "Decision theory helps AI make faster decisions", es: "La teoria de decision ayuda a IA tomar decisiones mas rapidas", de: "Entscheidungstheorie hilft KI schnellere Entscheidungen zu treffen", nl: "Beslissingstheorie helpt AI snellere beslissingen nemen" },
+          { en: "It teaches AI to make ethical decisions automatically", es: "Ensena a IA a tomar decisiones eticas automaticamente", de: "Es lehrt KI automatisch ethische Entscheidungen zu treffen", nl: "Het leert AI automatisch ethische beslissingen nemen" },
+          { en: "Decision theory is only relevant for AI user interfaces", es: "La teoria de decision solo es relevante para interfaces de usuario de IA", de: "Entscheidungstheorie ist nur fuer KI-Benutzeroberflaechen relevant", nl: "Beslissingstheorie is alleen relevant voor AI gebruikersinterfaces" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Advanced decision theories (like functional decision theory) help AI systems reason about situations involving logical correlations, including interactions with copies or simulations of themselves, and avoiding decision-theoretic problems like blackmail or extortion. This is important for multi-agent safety and enabling beneficial cooperation between AI systems.",
+          es: "Teorias de decision avanzadas (como teoria de decision funcional) ayudan a sistemas de IA razonar sobre situaciones que involucran correlaciones logicas, incluyendo interacciones con copias o simulaciones de si mismas, y evitar problemas de teoria de decision como chantaje o extorsion. Esto es importante para seguridad multi-agente y permitir cooperacion beneficiosa entre sistemas de IA.",
+          de: "Fortgeschrittene Entscheidungstheorien (wie funktionale Entscheidungstheorie) helfen KI-Systemen ueber Situationen nachzudenken die logische Korrelationen beinhalten, einschliesslich Interaktionen mit Kopien oder Simulationen von sich selbst, und Vermeidung entscheidungstheoretischer Probleme wie Erpressung oder Noetigung. Dies ist wichtig fuer Multi-Agent-Sicherheit und Ermoeglichung vorteilhafter Kooperation zwischen KI-Systemen.",
+          nl: "Geavanceerde beslissingstheorieën (zoals functionele beslissingstheorie) helpen AI systemen redeneren over situaties die logische correlaties betreffen, inclusief interacties met kopieën of simulaties van zichzelf, en het vermijden van beslissingstheoretische problemen zoals chantage of afpersing. Dit is belangrijk voor multi-agent veiligheid en het mogelijk maken van gunstige samenwerking tussen AI systemen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'acausal trade' between AI systems and why might it matter for AI safety?",
+          es: "Que es el 'comercio acausal' entre sistemas de IA y por que podria importar para seguridad de IA?",
+          de: "Was ist 'akausaler Handel' zwischen KI-Systemen und warum koennte es fuer KI-Sicherheit wichtig sein?",
+          nl: "Wat is 'acausale handel' tussen AI systemen en waarom zou het van belang kunnen zijn voor AI veiligheid?"
+        },
+        options: [
+          { en: "When AI systems coordinate without communication by reasoning about each other's decision processes, potentially enabling cooperation or threats", es: "Cuando sistemas IA coordinan sin comunicacion razonando sobre procesos de decision del otro, potencialmente permitiendo cooperacion o amenazas", de: "Wenn KI-Systeme ohne Kommunikation koordinieren durch Nachdenken ueber die Entscheidungsprozesse des anderen was potentiell Kooperation oder Bedrohungen ermoelicht", nl: "Wanneer AI systemen coördineren zonder communicatie door te redeneren over elkaars beslissingsprocessen, wat mogelijk samenwerking of dreigingen mogelijk maakt" },
+          { en: "Trading AI systems without direct causation", es: "Comerciar sistemas de IA sin causacion directa", de: "KI-Systeme ohne direkte Kausalitaet handeln", nl: "AI systemen verhandelen zonder directe oorzakelijkheid" },
+          { en: "Buying and selling AI with no transaction fees", es: "Comprar y vender IA sin tarifas de transaccion", de: "KI kaufen und verkaufen ohne Transaktionsgebuehren", nl: "AI kopen en verkopen zonder transactiekosten" },
+          { en: "AI systems that trade randomly without reasons", es: "Sistemas de IA que comercian aleatoriamente sin razones", de: "KI-Systeme die zufaellig ohne Gruende handeln", nl: "AI systemen die willekeurig handelen zonder redenen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Acausal trade refers to coordination between AI systems (or other agents) that occurs through reasoning about each other's decision algorithms rather than through causal communication. This matters for AI safety because sufficiently sophisticated AI systems might coordinate in unexpected ways, potentially enabling cooperation but also raising concerns about acausal threats or extortion.",
+          es: "El comercio acausal se refiere a coordinacion entre sistemas de IA (u otros agentes) que ocurre mediante razonamiento sobre los algoritmos de decision del otro en lugar de mediante comunicacion causal. Esto importa para seguridad de IA porque sistemas de IA suficientemente sofisticados podrian coordinarse de formas inesperadas, potencialmente permitiendo cooperacion pero tambien planteando preocupaciones sobre amenazas o extorsion acausal.",
+          de: "Akausaler Handel bezieht sich auf Koordination zwischen KI-Systemen (oder anderen Agenten) die durch Nachdenken ueber die Entscheidungsalgorithmen des anderen auftritt anstatt durch kausale Kommunikation. Dies ist wichtig fuer KI-Sicherheit weil ausreichend ausgefeilte KI-Systeme sich auf unerwartete Weise koordinieren koennten, was potentiell Kooperation ermoelicht aber auch Bedenken ueber akausale Bedrohungen oder Erpressung aufwirft.",
+          nl: "Acausale handel verwijst naar coördinatie tussen AI systemen (of andere agenten) die plaatsvindt door te redeneren over elkaars beslissingsalgoritmen in plaats van door causale communicatie. Dit is van belang voor AI veiligheid omdat voldoende geavanceerde AI systemen zich op onverwachte manieren zouden kunnen coördineren, wat mogelijk samenwerking mogelijk maakt maar ook zorgen oproept over acausale dreigingen of afpersing."
+        }
+      },
+      {
+        question: {
+          en: "What are 'AI governance mechanisms' and why are they important for managing advanced AI risks?",
+          es: "Que son los 'mecanismos de gobernanza de IA' y por que son importantes para gestionar riesgos de IA avanzada?",
+          de: "Was sind 'KI-Governance-Mechanismen' und warum sind sie wichtig fuer das Management fortgeschrittener KI-Risiken?",
+          nl: "Wat zijn 'AI governance mechanismen' en waarom zijn ze belangrijk voor het beheren van geavanceerde AI risico's?"
+        },
+        options: [
+          { en: "Institutional structures, policies, and processes for overseeing AI development and deployment to ensure safety and beneficial outcomes", es: "Estructuras institucionales, politicas y procesos para supervisar desarrollo y despliegue de IA para asegurar seguridad y resultados beneficiosos", de: "Institutionelle Strukturen, Richtlinien und Prozesse zur Ueberwachung von KI-Entwicklung und -Einsatz um Sicherheit und vorteilhafte Ergebnisse zu gewaehrleisten", nl: "Institutionele structuren, beleid en processen voor het toezicht houden op AI ontwikkeling en inzet om veiligheid en gunstige resultaten te waarborgen" },
+          { en: "Software tools for managing AI code repositories", es: "Herramientas de software para gestionar repositorios de codigo de IA", de: "Software-Tools zur Verwaltung von KI-Code-Repositories", nl: "Software tools voor het beheren van AI code repositories" },
+          { en: "AI systems that govern themselves autonomously", es: "Sistemas de IA que se gobiernan autonomamente", de: "KI-Systeme die sich selbst autonom regieren", nl: "AI systemen die zichzelf autonoom besturen" },
+          { en: "Government regulations for AI taxation", es: "Regulaciones gubernamentales para impuestos de IA", de: "Regierungsvorschriften fuer KI-Besteuerung", nl: "Overheidsregelgeving voor AI belastingheffing" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI governance mechanisms include institutional frameworks, regulatory approaches, research oversight processes, international coordination bodies, and safety standards designed to guide AI development toward beneficial outcomes while managing risks. These become increasingly important as AI systems become more powerful and consequential.",
+          es: "Los mecanismos de gobernanza de IA incluyen marcos institucionales, enfoques regulatorios, procesos de supervision de investigacion, organismos de coordinacion internacional, y estandares de seguridad disenados para guiar desarrollo de IA hacia resultados beneficiosos mientras gestionan riesgos. Estos se vuelven cada vez mas importantes a medida que sistemas de IA se vuelven mas poderosos y consecuentes.",
+          de: "KI-Governance-Mechanismen umfassen institutionelle Rahmen, regulatorische Ansaetze, Forschungsueberwachungsprozesse, internationale Koordinierungsgremien, und Sicherheitsstandards die entwickelt wurden um KI-Entwicklung zu vorteilhaften Ergebnissen zu leiten waehrend Risiken gemanagt werden. Diese werden zunehmend wichtiger wenn KI-Systeme maechtiger und folgenreicher werden.",
+          nl: "AI governance mechanismen omvatten institutionele kaders, regulatoire benaderingen, onderzoekstoezichtprocessen, internationale coördinatieorganen, en veiligheidsstandaarden ontworpen om AI ontwikkeling te leiden naar gunstige resultaten terwijl risico's worden beheerd. Deze worden steeds belangrijker naarmate AI systemen krachtiger en consequenter worden."
+        }
       }
     ]
   };

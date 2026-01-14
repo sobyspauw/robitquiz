@@ -829,6 +829,826 @@
           nl: "Muscadet Sèvre et Maine Sur Lie AOC vereist rijping op fijne gist tot ten minste 1 maart volgend op de oogst, waarbij textuur en complexiteit worden ontwikkeld terwijl karakteristieke frisheid en mineraliteit behouden blijven."
         }
       },
+      {
+        question: {
+          en: "What is the minimum aging requirement for Gran Reserva Rioja?",
+          es: "¿Cuál es el requisito mínimo de envejecimiento para Gran Reserva Rioja?",
+          de: "Was ist die Mindestalterungsanforderung für Gran Reserva Rioja?",
+          nl: "Wat is de minimale rijpingseis voor Gran Reserva Rioja?"
+        },
+        options: [
+          {
+            en: "24 months barrel, 36 months total",
+            es: "24 meses en barrica, 36 meses total",
+            de: "24 Monate Fass, 36 Monate insgesamt",
+            nl: "24 maanden vat, 36 maanden totaal"
+          },
+          {
+            en: "18 months barrel, 24 months total",
+            es: "18 meses en barrica, 24 meses total",
+            de: "18 Monate Fass, 24 Monate insgesamt",
+            nl: "18 maanden vat, 24 maanden totaal"
+          },
+          {
+            en: "12 months barrel, 24 months total",
+            es: "12 meses en barrica, 24 meses total",
+            de: "12 Monate Fass, 24 Monate insgesamt",
+            nl: "12 maanden vat, 24 maanden totaal"
+          },
+          {
+            en: "6 months barrel, 18 months total",
+            es: "6 meses en barrica, 18 meses total",
+            de: "6 Monate Fass, 18 Monate insgesamt",
+            nl: "6 maanden vat, 18 maanden totaal"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gran Reserva Rioja must be aged minimum 24 months in oak barrel and 36 months total before release.",
+          es: "Gran Reserva Rioja debe envejecer mínimo 24 meses en barrica de roble y 36 meses en total antes del lanzamiento.",
+          de: "Gran Reserva Rioja muss mindestens 24 Monate im Eichenfass und insgesamt 36 Monate reifen bevor es freigegeben wird.",
+          nl: "Gran Reserva Rioja moet minimaal 24 maanden rijpen in eiken vat en 36 maanden totaal voor de release."
+        }
+      },
+      {
+        question: {
+          en: "What is the primary grape in Châteauneuf-du-Pape?",
+          es: "¿Cuál es la uva principal en Châteauneuf-du-Pape?",
+          de: "Was ist die Haupttraube in Châteauneuf-du-Pape?",
+          nl: "Wat is de hoofddruif in Châteauneuf-du-Pape?"
+        },
+        options: [
+          {
+            en: "Grenache",
+            es: "Grenache",
+            de: "Grenache",
+            nl: "Grenache"
+          },
+          {
+            en: "Syrah",
+            es: "Syrah",
+            de: "Syrah",
+            nl: "Syrah"
+          },
+          {
+            en: "Mourvèdre",
+            es: "Mourvèdre",
+            de: "Mourvèdre",
+            nl: "Mourvèdre"
+          },
+          {
+            en: "Cabernet Sauvignon",
+            es: "Cabernet Sauvignon",
+            de: "Cabernet Sauvignon",
+            nl: "Cabernet Sauvignon"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Grenache dominates Châteauneuf-du-Pape blends, though 13 grape varieties are permitted in the appellation.",
+          es: "Grenache domina las mezclas de Châteauneuf-du-Pape, aunque 13 variedades de uva están permitidas en la apelación.",
+          de: "Grenache dominiert Châteauneuf-du-Pape-Cuvées, obwohl 13 Rebsorten in der Appellation erlaubt sind.",
+          nl: "Grenache domineert Châteauneuf-du-Pape blends, hoewel 13 druivensoorten zijn toegestaan in de appellation."
+        }
+      },
+      {
+        question: {
+          en: "What does 'mis en bouteille au château' indicate?",
+          es: "¿Qué indica 'mis en bouteille au château'?",
+          de: "Was bedeutet 'mis en bouteille au château'?",
+          nl: "Wat geeft 'mis en bouteille au château' aan?"
+        },
+        options: [
+          {
+            en: "Estate bottled at the property",
+            es: "Embotellado en la propiedad",
+            de: "Auf dem Weingut abgefüllt",
+            nl: "Gebotteld op het landgoed"
+          },
+          {
+            en: "Aged in the cellar",
+            es: "Envejecido en la bodega",
+            de: "Im Keller gereift",
+            nl: "Gerijpt in de kelder"
+          },
+          {
+            en: "Made from old vines",
+            es: "Hecho de vides viejas",
+            de: "Aus alten Reben hergestellt",
+            nl: "Gemaakt van oude wijnstokken"
+          },
+          {
+            en: "Single vineyard wine",
+            es: "Vino de viñedo único",
+            de: "Einzellagen-Wein",
+            nl: "Wijn van één wijngaard"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "'Mis en bouteille au château' means estate-bottled at the château where grapes were grown, indicating quality control.",
+          es: "'Mis en bouteille au château' significa embotellado en la finca en el château donde se cultivaron las uvas, indicando control de calidad.",
+          de: "'Mis en bouteille au château' bedeutet auf dem Château abgefüllt wo die Trauben angebaut wurden, was Qualitätskontrolle anzeigt.",
+          nl: "'Mis en bouteille au château' betekent gebotteld op het château waar de druiven werden geteeld, wat kwaliteitscontrole aangeeft."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional bottle size for Champagne?",
+          es: "¿Cuál es el tamaño de botella tradicional para Champagne?",
+          de: "Was ist die traditionelle Flaschengröße für Champagner?",
+          nl: "Wat is de traditionele flesfmaat voor Champagne?"
+        },
+        options: [
+          {
+            en: "750ml",
+            es: "750ml",
+            de: "750ml",
+            nl: "750ml"
+          },
+          {
+            en: "700ml",
+            es: "700ml",
+            de: "700ml",
+            nl: "700ml"
+          },
+          {
+            en: "1 liter",
+            es: "1 litro",
+            de: "1 Liter",
+            nl: "1 liter"
+          },
+          {
+            en: "500ml",
+            es: "500ml",
+            de: "500ml",
+            nl: "500ml"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Standard Champagne bottle is 750ml, though larger formats like Magnum (1.5L) age better due to slower oxygen exchange.",
+          es: "La botella estándar de Champagne es 750ml, aunque formatos más grandes como Magnum (1.5L) envejecen mejor debido al intercambio de oxígeno más lento.",
+          de: "Standard Champagnerflasche ist 750ml, obwohl größere Formate wie Magnum (1.5L) besser reifen aufgrund langsameren Sauerstoffaustauschs.",
+          nl: "Standaard Champagne fles is 750ml, hoewel grotere formaten zoals Magnum (1.5L) beter rijpen door langzamere zuurstofuitwisseling."
+        }
+      },
+      {
+        question: {
+          en: "What does 'Prédikatswein' refer to in German wine classification?",
+          es: "¿A qué se refiere 'Prädikatswein' en la clasificación de vinos alemanes?",
+          de: "Worauf bezieht sich 'Prädikatswein' in der deutschen Weinclassifizierung?",
+          nl: "Waar verwijst 'Prädikatswein' naar in Duitse wijnclassificatie?"
+        },
+        options: [
+          {
+            en: "Quality wine with distinction based on ripeness",
+            es: "Vino de calidad con distinción basada en madurez",
+            de: "Qualitätswein mit Prädikat basierend auf Reife",
+            nl: "Kwaliteitswijn met onderscheiding op basis van rijpheid"
+          },
+          {
+            en: "Table wine",
+            es: "Vino de mesa",
+            de: "Tafelwein",
+            nl: "Tafelwijn"
+          },
+          {
+            en: "Sparkling wine only",
+            es: "Solo vino espumoso",
+            de: "Nur Schaumwein",
+            nl: "Alleen mousserende wijn"
+          },
+          {
+            en: "Fortified wine",
+            es: "Vino fortificado",
+            de: "Likörwein",
+            nl: "Versterkte wijn"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Prädikatswein is Germany's highest quality category, classified by must weight and ripeness level (Kabinett to Trockenbeerenauslese).",
+          es: "Prädikatswein es la categoría de mayor calidad de Alemania, clasificada por peso de mosto y nivel de madurez (Kabinett a Trockenbeerenauslese).",
+          de: "Prädikatswein ist Deutschlands höchste Qualitätskategorie, klassifiziert nach Mostgewicht und Reifegrad (Kabinett bis Trockenbeerenauslese).",
+          nl: "Prädikatswein is Duitslands hoogste kwaliteitscategorie, geclassificeerd naar mostgewicht en rijpheidsniveau (Kabinett tot Trockenbeerenauslese)."
+        }
+      },
+      {
+        question: {
+          en: "What is the significance of 'Cru Classé' in Bordeaux?",
+          es: "¿Cuál es la importancia de 'Cru Classé' en Burdeos?",
+          de: "Was ist die Bedeutung von 'Cru Classé' in Bordeaux?",
+          nl: "Wat is de betekenis van 'Cru Classé' in Bordeaux?"
+        },
+        options: [
+          {
+            en: "Official ranking system from 1855 (still used)",
+            es: "Sistema de clasificación oficial de 1855 (todavía usado)",
+            de: "Offizielles Rangsystem von 1855 (noch verwendet)",
+            nl: "Officieel classificatiesysteem van 1855 (nog steeds gebruikt)"
+          },
+          {
+            en: "Annual quality assessment",
+            es: "Evaluación anual de calidad",
+            de: "Jährliche Qualitätsbewertung",
+            nl: "Jaarlijkse kwaliteitsbeoordeling"
+          },
+          {
+            en: "Grape variety designation",
+            es: "Designación de variedad de uva",
+            de: "Rebsortenbezeichnung",
+            nl: "Druivensoort aanduiding"
+          },
+          {
+            en: "Aging requirement only",
+            es: "Solo requisito de envejecimiento",
+            de: "Nur Alterungsanforderung",
+            nl: "Alleen rijpingseis"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cru Classé refers to the 1855 Classification of Bordeaux wines, ranking châteaux from First to Fifth Growth (Grand Cru).",
+          es: "Cru Classé se refiere a la Clasificación de 1855 de vinos de Burdeos, clasificando châteaux de Primer a Quinto Crecimiento (Grand Cru).",
+          de: "Cru Classé bezieht sich auf die 1855 Klassifizierung von Bordeaux-Weinen, die Châteaux vom Ersten bis Fünften Gewächs (Grand Cru) einordnet.",
+          nl: "Cru Classé verwijst naar de 1855 Classificatie van Bordeaux wijnen, die châteaux rangschikt van Eerste tot Vijfde Groei (Grand Cru)."
+        }
+      },
+      {
+        question: {
+          en: "What is 'malolactic fermentation' and why is it important?",
+          es: "¿Qué es la 'fermentación maloláctica' y por qué es importante?",
+          de: "Was ist 'malolaktische Gärung' und warum ist sie wichtig?",
+          nl: "Wat is 'malolactische gisting' en waarom is het belangrijk?"
+        },
+        options: [
+          {
+            en: "Conversion of malic to lactic acid, softening wine",
+            es: "Conversión de ácido málico a láctico, suavizando el vino",
+            de: "Umwandlung von Apfelsäure zu Milchsäure, erweicht Wein",
+            nl: "Omzetting van appelzuur naar melkzuur, verzacht wijn"
+          },
+          {
+            en: "Primary alcoholic fermentation",
+            es: "Fermentación alcohólica primaria",
+            de: "Primäre alkoholische Gärung",
+            nl: "Primaire alcoholische gisting"
+          },
+          {
+            en: "Sugar to alcohol conversion",
+            es: "Conversión de azúcar a alcohol",
+            de: "Zucker zu Alkohol Umwandlung",
+            nl: "Suiker naar alcohol omzetting"
+          },
+          {
+            en: "Oak aging process",
+            es: "Proceso de envejecimiento en roble",
+            de: "Eichenreifungsprozess",
+            nl: "Eiken rijpingsproces"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Malolactic fermentation converts sharp malic acid to softer lactic acid, reducing acidity and adding creamy, buttery notes to wine.",
+          es: "La fermentación maloláctica convierte el ácido málico agudo en ácido láctico más suave, reduciendo la acidez y añadiendo notas cremosas y mantequillosas al vino.",
+          de: "Malolaktische Gärung wandelt scharfe Apfelsäure in weichere Milchsäure um, reduziert Säure und fügt dem Wein cremige, buttrige Noten hinzu.",
+          nl: "Malolactische gisting zet scherp appelzuur om in zachter melkzuur, verlaagt zuurgraad en voegt romige, boterachtige tonen toe aan wijn."
+        }
+      },
+      {
+        question: {
+          en: "What is 'batonnage' in winemaking?",
+          es: "¿Qué es 'batonnage' en la elaboración del vino?",
+          de: "Was ist 'Batonnage' in der Weinherstellung?",
+          nl: "Wat is 'batonnage' in wijnmaken?"
+        },
+        options: [
+          {
+            en: "Stirring lees to add texture and complexity",
+            es: "Remover lías para añadir textura y complejidad",
+            de: "Hefeaufwirbelung für Textur und Komplexität",
+            nl: "Roeren van gist om textuur en complexiteit toe te voegen"
+          },
+          {
+            en: "Pressing grapes",
+            es: "Prensar uvas",
+            de: "Traubenpressen",
+            nl: "Druiven persen"
+          },
+          {
+            en: "Filtering wine",
+            es: "Filtrar vino",
+            de: "Wein filtern",
+            nl: "Wijn filteren"
+          },
+          {
+            en: "Barrel toasting",
+            es: "Tostado de barricas",
+            de: "Fassröstung",
+            nl: "Vat roosteren"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Batonnage is stirring the lees (dead yeast cells) in barrel, adding richness, texture, and complexity to wine, especially whites.",
+          es: "Batonnage es remover las lías (células de levadura muertas) en barrica, añadiendo riqueza, textura y complejidad al vino, especialmente blancos.",
+          de: "Batonnage ist das Aufwirbeln der Hefe (tote Hefezellen) im Fass, fügt Reichtum, Textur und Komplexität zum Wein hinzu, besonders Weißweine.",
+          nl: "Batonnage is het roeren van de gist (dode gistcellen) in vat, voegt rijkdom, textuur en complexiteit toe aan wijn, vooral witte wijnen."
+        }
+      },
+      {
+        question: {
+          en: "What is the minimum aging requirement for Brunello di Montalcino DOCG?",
+          es: "¿Cuál es el requisito mínimo de envejecimiento para Brunello di Montalcino DOCG?",
+          de: "Was ist die Mindestalterungsanforderung für Brunello di Montalcino DOCG?",
+          nl: "Wat is de minimale rijpingseis voor Brunello di Montalcino DOCG?"
+        },
+        options: [
+          {
+            en: "5 years total, 2 in oak",
+            es: "5 años total, 2 en roble",
+            de: "5 Jahre insgesamt, 2 in Eiche",
+            nl: "5 jaar totaal, 2 in eik"
+          },
+          {
+            en: "3 years total, 1 in oak",
+            es: "3 años total, 1 en roble",
+            de: "3 Jahre insgesamt, 1 in Eiche",
+            nl: "3 jaar totaal, 1 in eik"
+          },
+          {
+            en: "2 years total, 6 months in oak",
+            es: "2 años total, 6 meses en roble",
+            de: "2 Jahre insgesamt, 6 Monate in Eiche",
+            nl: "2 jaar totaal, 6 maanden in eik"
+          },
+          {
+            en: "7 years total, 3 in oak",
+            es: "7 años total, 3 en roble",
+            de: "7 Jahre insgesamt, 3 in Eiche",
+            nl: "7 jaar totaal, 3 in eik"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Brunello di Montalcino must age minimum 5 years (2 in oak) before release; Riserva requires 6 years total.",
+          es: "Brunello di Montalcino debe envejecer mínimo 5 años (2 en roble) antes del lanzamiento; Riserva requiere 6 años en total.",
+          de: "Brunello di Montalcino muss mindestens 5 Jahre (2 in Eiche) reifen vor Freigabe; Riserva erfordert 6 Jahre insgesamt.",
+          nl: "Brunello di Montalcino moet minimaal 5 jaar (2 in eik) rijpen voor release; Riserva vereist 6 jaar totaal."
+        }
+      },
+      {
+        question: {
+          en: "What is 'phylloxera' and how did it impact viticulture?",
+          es: "¿Qué es la 'filoxera' y cómo impactó la viticultura?",
+          de: "Was ist 'Reblaus' und wie hat sie den Weinbau beeinflusst?",
+          nl: "Wat is 'phylloxera' en hoe heeft het de wijnbouw beïnvloed?"
+        },
+        options: [
+          {
+            en: "Root louse that devastated European vineyards",
+            es: "Piojo de raíz que devastó viñedos europeos",
+            de: "Wurzellaus die europäische Weinberge verwüstete",
+            nl: "Wortelluis die Europese wijngaarden verwoestte"
+          },
+          {
+            en: "Beneficial fungus for wine flavor",
+            es: "Hongo beneficioso para sabor del vino",
+            de: "Nützlicher Pilz für Weingeschmack",
+            nl: "Nuttige schimmel voor wijnsmaak"
+          },
+          {
+            en: "Type of grape disease",
+            es: "Tipo de enfermedad de uva",
+            de: "Art der Traubenkrankheit",
+            nl: "Type druivenziekte"
+          },
+          {
+            en: "Wine aging process",
+            es: "Proceso de envejecimiento del vino",
+            de: "Weinreifungsprozess",
+            nl: "Wijn rijpingsproces"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Phylloxera is a root louse that devastated European vineyards in late 1800s. Solution: grafting vinifera onto resistant American rootstock.",
+          es: "La filoxera es un piojo de raíz que devastó viñedos europeos a finales de 1800. Solución: injertar vinifera en portainjertos americanos resistentes.",
+          de: "Reblaus ist eine Wurzellaus die europäische Weinberge Ende 1800 verwüstete. Lösung: Vinifera auf resistente amerikanische Unterlagen pfropfen.",
+          nl: "Phylloxera is een wortelluis die Europese wijngaarden eind 1800 verwoestte. Oplossing: vinifera enten op resistente Amerikaanse onderstam."
+        }
+      },
+      {
+        question: {
+          en: "What does 'Einzellage' mean in German wine terminology?",
+          es: "¿Qué significa 'Einzellage' en terminología de vino alemán?",
+          de: "Was bedeutet 'Einzellage' in der deutschen Weinterminologie?",
+          nl: "Wat betekent 'Einzellage' in Duitse wijnterminologie?"
+        },
+        options: [
+          {
+            en: "Single vineyard site",
+            es: "Sitio de viñedo único",
+            de: "Einzelne Weinbergslage",
+            nl: "Enkele wijngaard locatie"
+          },
+          {
+            en: "Grape variety",
+            es: "Variedad de uva",
+            de: "Rebsorte",
+            nl: "Druivensoort"
+          },
+          {
+            en: "Aging requirement",
+            es: "Requisito de envejecimiento",
+            de: "Alterungsanforderung",
+            nl: "Rijpingseis"
+          },
+          {
+            en: "Wine producer",
+            es: "Productor de vino",
+            de: "Weinproduzent",
+            nl: "Wijnproducent"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Einzellage refers to a single, officially designated vineyard site in Germany, the smallest geographical unit in German wine classification.",
+          es: "Einzellage se refiere a un sitio de viñedo único oficialmente designado en Alemania, la unidad geográfica más pequeña en clasificación de vino alemán.",
+          de: "Einzellage bezieht sich auf eine einzelne, offiziell ausgewiesene Weinbergslage in Deutschland, die kleinste geografische Einheit in der deutschen Weinclassifizierung.",
+          nl: "Einzellage verwijst naar een enkele, officieel aangewezen wijngaard locatie in Duitsland, de kleinste geografische eenheid in Duitse wijnclassificatie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'remontage' (pumping over) in red wine production?",
+          es: "¿Qué es 'remontage' (bombeo) en la producción de vino tinto?",
+          de: "Was ist 'Remontage' (Umpumpen) in der Rotweinproduktion?",
+          nl: "Wat is 'remontage' (overpompen) in rode wijnproductie?"
+        },
+        options: [
+          {
+            en: "Pumping juice over cap to extract color/tannins",
+            es: "Bombear jugo sobre sombrero para extraer color/taninos",
+            de: "Saft über Tresterkappe pumpen um Farbe/Tannine zu extrahieren",
+            nl: "Sap over dop pompen om kleur/tannines te extraheren"
+          },
+          {
+            en: "Bottling process",
+            es: "Proceso de embotellado",
+            de: "Abfüllprozess",
+            nl: "Botteling proces"
+          },
+          {
+            en: "Aging in barrels",
+            es: "Envejecimiento en barricas",
+            de: "Reifung in Fässern",
+            nl: "Rijpen in vaten"
+          },
+          {
+            en: "Filtering wine",
+            es: "Filtrar vino",
+            de: "Wein filtern",
+            nl: "Wijn filteren"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Remontage pumps fermenting juice over the cap of grape skins, extracting color, tannins, and flavors while oxygenating the must.",
+          es: "Remontage bombea jugo fermentando sobre el sombrero de pieles de uva, extrayendo color, taninos y sabores mientras oxigena el mosto.",
+          de: "Remontage pumpt gärenden Saft über die Tresterkappe, extrahiert Farbe, Tannine und Aromen während die Maische mit Sauerstoff versorgt wird.",
+          nl: "Remontage pompt gistend sap over de dop van druivenschillen, extraheert kleur, tannines en smaken terwijl de most wordt geoxygeneerd."
+        }
+      },
+      {
+        question: {
+          en: "What is the VDP classification in German wines?",
+          es: "¿Qué es la clasificación VDP en vinos alemanes?",
+          de: "Was ist die VDP-Klassifizierung bei deutschen Weinen?",
+          nl: "Wat is de VDP classificatie in Duitse wijnen?"
+        },
+        options: [
+          {
+            en: "Association of elite German wine estates with quality pyramid",
+            es: "Asociación de fincas de vino alemanas de élite con pirámide de calidad",
+            de: "Verband deutscher Prädikatsweingüter mit Qualitätspyramide",
+            nl: "Vereniging van elite Duitse wijnlandgoederen met kwaliteitspiramide"
+          },
+          {
+            en: "Government grape variety designation",
+            es: "Designación gubernamental de variedad de uva",
+            de: "Staatliche Rebsortenbezeichnung",
+            nl: "Overheids druivensoort aanduiding"
+          },
+          {
+            en: "Vintage dating system",
+            es: "Sistema de datación de cosecha",
+            de: "Vintage-Datierungssystem",
+            nl: "Vintage daterings systeem"
+          },
+          {
+            en: "Bottle size regulation",
+            es: "Regulación de tamaño de botella",
+            de: "Flaschengrößenregelung",
+            nl: "Fles grootte regulering"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "VDP (Verband Deutscher Prädikatsweingüter) is an association of elite German estates with a quality pyramid: Gutswein, Ortswein, Erste Lage, Grosse Lage.",
+          es: "VDP (Verband Deutscher Prädikatsweingüter) es una asociación de fincas alemanas de élite con pirámide de calidad: Gutswein, Ortswein, Erste Lage, Grosse Lage.",
+          de: "VDP (Verband Deutscher Prädikatsweingüter) ist ein Verband deutscher Spitzengüter mit Qualitätspyramide: Gutswein, Ortswein, Erste Lage, Grosse Lage.",
+          nl: "VDP (Verband Deutscher Prädikatsweingüter) is een vereniging van Duitse top landgoederen met kwaliteitspiramide: Gutswein, Ortswein, Erste Lage, Grosse Lage."
+        }
+      },
+      {
+        question: {
+          en: "What is 'carbonic maceration' used primarily for?",
+          es: "¿Para qué se utiliza principalmente la 'maceración carbónica'?",
+          de: "Wofür wird 'kohlensaure Mazerierung' hauptsächlich verwendet?",
+          nl: "Waarvoor wordt 'koolzuurmaceratie' voornamelijk gebruikt?"
+        },
+        options: [
+          {
+            en: "Beaujolais Nouveau and fruity, low-tannin reds",
+            es: "Beaujolais Nouveau y tintos afrutados de bajo tanino",
+            de: "Beaujolais Nouveau und fruchtige, taninarme Rotweine",
+            nl: "Beaujolais Nouveau en fruitige, lage-tannine rode wijnen"
+          },
+          {
+            en: "Champagne production only",
+            es: "Solo producción de Champagne",
+            de: "Nur Champagnerproduktion",
+            nl: "Alleen Champagne productie"
+          },
+          {
+            en: "Fortified wine making",
+            es: "Elaboración de vino fortificado",
+            de: "Likörweinherstellung",
+            nl: "Versterkte wijnproductie"
+          },
+          {
+            en: "White wine fermentation",
+            es: "Fermentación de vino blanco",
+            de: "Weißweingärung",
+            nl: "Witte wijn gisting"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Carbonic maceration ferments whole grapes in CO2 environment, producing fruity, low-tannin wines like Beaujolais Nouveau.",
+          es: "La maceración carbónica fermenta uvas enteras en ambiente CO2, produciendo vinos afrutados de bajo tanino como Beaujolais Nouveau.",
+          de: "Kohlensaure Mazerierung gärt ganze Trauben in CO2-Umgebung und produziert fruchtige, taninarme Weine wie Beaujolais Nouveau.",
+          nl: "Koolzuurmaceratie gist hele druiven in CO2 omgeving, produceert fruitige, lage-tannine wijnen zoals Beaujolais Nouveau."
+        }
+      },
+      {
+        question: {
+          en: "What is 'Solera' system used for?",
+          es: "¿Para qué se utiliza el sistema 'Solera'?",
+          de: "Wofür wird das 'Solera'-System verwendet?",
+          nl: "Waarvoor wordt het 'Solera' systeem gebruikt?"
+        },
+        options: [
+          {
+            en: "Aging and blending Sherry and other fortified wines",
+            es: "Envejecimiento y mezcla de Jerez y otros vinos fortificados",
+            de: "Reifung und Verschnitt von Sherry und anderen Likörweinen",
+            nl: "Rijping en blenden van Sherry en andere versterkte wijnen"
+          },
+          {
+            en: "Sparkling wine method",
+            es: "Método de vino espumoso",
+            de: "Schaumweinmethode",
+            nl: "Mousserende wijn methode"
+          },
+          {
+            en: "Grape pressing technique",
+            es: "Técnica de prensado de uva",
+            de: "Traubenpressmethode",
+            nl: "Druiven persing techniek"
+          },
+          {
+            en: "Vineyard irrigation",
+            es: "Riego de viñedo",
+            de: "Weinbergbewässerung",
+            nl: "Wijngaard irrigatie"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Solera is a fractional blending system stacking barrels by age, continuously blending old and young wines for consistency in Sherry.",
+          es: "Solera es un sistema de mezcla fraccionaria que apila barricas por edad, mezclando continuamente vinos viejos y jóvenes para consistencia en Jerez.",
+          de: "Solera ist ein fraktioniertes Verschnittsystem, das Fässer nach Alter stapelt und kontinuierlich alte und junge Weine für Konsistenz in Sherry mischt.",
+          nl: "Solera is een fractioneel blending systeem dat vaten stapelt op leeftijd, continu oude en jonge wijnen mengt voor consistentie in Sherry."
+        }
+      },
+      {
+        question: {
+          en: "What is 'botrytis cinerea' (noble rot) essential for?",
+          es: "¿Para qué es esencial la 'botrytis cinerea' (podredumbre noble)?",
+          de: "Wofür ist 'Botrytis cinerea' (Edelfäule) wesentlich?",
+          nl: "Waarvoor is 'botrytis cinerea' (edelrot) essentieel?"
+        },
+        options: [
+          {
+            en: "Sweet wine production (Sauternes, Tokaji)",
+            es: "Producción de vino dulce (Sauternes, Tokaji)",
+            de: "Süßweinproduktion (Sauternes, Tokaji)",
+            nl: "Zoete wijn productie (Sauternes, Tokaji)"
+          },
+          {
+            en: "Preventing fermentation",
+            es: "Prevenir fermentación",
+            de: "Gärung verhindern",
+            nl: "Gisting voorkomen"
+          },
+          {
+            en: "Red wine tannins",
+            es: "Taninos de vino tinto",
+            de: "Rotwein-Tannine",
+            nl: "Rode wijn tannines"
+          },
+          {
+            en: "Sparkling wine base",
+            es: "Base de vino espumoso",
+            de: "Schaumweinbasis",
+            nl: "Mousserende wijn basis"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Noble rot (botrytis cinerea) concentrates sugars and adds complex honeyed flavors, essential for sweet wines like Sauternes and Tokaji.",
+          es: "La podredumbre noble (botrytis cinerea) concentra azúcares y añade sabores complejos de miel, esencial para vinos dulces como Sauternes y Tokaji.",
+          de: "Edelfäule (Botrytis cinerea) konzentriert Zucker und fügt komplexe honigartige Aromen hinzu, wesentlich für Süßweine wie Sauternes und Tokaji.",
+          nl: "Edelrot (botrytis cinerea) concentreert suikers en voegt complexe honingachtige smaken toe, essentieel voor zoete wijnen zoals Sauternes en Tokaji."
+        }
+      },
+      {
+        question: {
+          en: "What does 'Grand Cru' signify in Burgundy?",
+          es: "¿Qué significa 'Grand Cru' en Borgoña?",
+          de: "Was bedeutet 'Grand Cru' in Burgund?",
+          nl: "Wat betekent 'Grand Cru' in Bourgogne?"
+        },
+        options: [
+          {
+            en: "Highest vineyard classification, 33 sites",
+            es: "Clasificación de viñedo más alta, 33 sitios",
+            de: "Höchste Weinbergklassifizierung, 33 Lagen",
+            nl: "Hoogste wijngaard classificatie, 33 locaties"
+          },
+          {
+            en: "Minimum aging requirement",
+            es: "Requisito mínimo de envejecimiento",
+            de: "Mindestalterungsanforderung",
+            nl: "Minimale rijpingseis"
+          },
+          {
+            en: "Producer designation",
+            es: "Designación de productor",
+            de: "Erzeugerbezeichnung",
+            nl: "Producent aanduiding"
+          },
+          {
+            en: "Grape variety standard",
+            es: "Estándar de variedad de uva",
+            de: "Rebsortenstandard",
+            nl: "Druivensoort standaard"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Grand Cru is Burgundy's highest vineyard classification, comprising 33 exceptional sites producing finest Pinot Noir and Chardonnay.",
+          es: "Grand Cru es la clasificación de viñedo más alta de Borgoña, compuesta por 33 sitios excepcionales que producen el mejor Pinot Noir y Chardonnay.",
+          de: "Grand Cru ist Burgunds höchste Weinbergklassifizierung, bestehend aus 33 außergewöhnlichen Lagen die feinsten Pinot Noir und Chardonnay produzieren.",
+          nl: "Grand Cru is Bourgogne's hoogste wijngaard classificatie, bestaande uit 33 uitzonderlijke locaties die de fijnste Pinot Noir en Chardonnay produceren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'Méthode Champenoise' or 'Traditional Method'?",
+          es: "¿Qué es el 'Méthode Champenoise' o 'Método Tradicional'?",
+          de: "Was ist 'Méthode Champenoise' oder 'Traditionelle Methode'?",
+          nl: "Wat is 'Méthode Champenoise' of 'Traditionele Methode'?"
+        },
+        options: [
+          {
+            en: "Secondary fermentation in bottle for sparkling wine",
+            es: "Fermentación secundaria en botella para vino espumoso",
+            de: "Sekundärgärung in Flasche für Schaumwein",
+            nl: "Secundaire gisting in fles voor mousserende wijn"
+          },
+          {
+            en: "Oak barrel aging",
+            es: "Envejecimiento en barrica de roble",
+            de: "Eichenfassreifung",
+            nl: "Eiken vat rijping"
+          },
+          {
+            en: "Grape harvesting technique",
+            es: "Técnica de cosecha de uva",
+            de: "Traubenernte-Technik",
+            nl: "Druiven oogst techniek"
+          },
+          {
+            en: "Wine filtration process",
+            es: "Proceso de filtración de vino",
+            de: "Weinfiltrationsprozess",
+            nl: "Wijn filtratie proces"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Méthode Champenoise is secondary fermentation in bottle creating bubbles, the traditional method for Champagne and quality sparkling wines.",
+          es: "Méthode Champenoise es fermentación secundaria en botella creando burbujas, el método tradicional para Champagne y vinos espumosos de calidad.",
+          de: "Méthode Champenoise ist Sekundärgärung in der Flasche die Blasen erzeugt, die traditionelle Methode für Champagner und Qualitätsschaumweine.",
+          nl: "Méthode Champenoise is secundaire gisting in fles die bubbels creëert, de traditionele methode voor Champagne en kwaliteits mousserende wijnen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'terroir' in wine terminology?",
+          es: "¿Qué es 'terroir' en terminología del vino?",
+          de: "Was ist 'Terroir' in der Weinterminologie?",
+          nl: "Wat is 'terroir' in wijnterminologie?"
+        },
+        options: [
+          {
+            en: "Complete natural environment: soil, climate, topography",
+            es: "Ambiente natural completo: suelo, clima, topografía",
+            de: "Vollständige natürliche Umgebung: Boden, Klima, Topografie",
+            nl: "Volledige natuurlijke omgeving: bodem, klimaat, topografie"
+          },
+          {
+            en: "Wine aging cellar",
+            es: "Bodega de envejecimiento de vino",
+            de: "Weinreifungskeller",
+            nl: "Wijn rijpings kelder"
+          },
+          {
+            en: "Grape variety classification",
+            es: "Clasificación de variedad de uva",
+            de: "Rebsorteneinteilung",
+            nl: "Druivensoort classificatie"
+          },
+          {
+            en: "Winemaking technique",
+            es: "Técnica de vinificación",
+            de: "Weinherstellungstechnik",
+            nl: "Wijnmaken techniek"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Terroir encompasses all environmental factors (soil, climate, topography, microclimate) that give wine its unique character and sense of place.",
+          es: "Terroir abarca todos los factores ambientales (suelo, clima, topografía, microclima) que dan al vino su carácter único y sentido de lugar.",
+          de: "Terroir umfasst alle Umweltfaktoren (Boden, Klima, Topografie, Mikroklima) die Wein seinen einzigartigen Charakter und Ortsverbundenheit geben.",
+          nl: "Terroir omvat alle omgevingsfactoren (bodem, klimaat, topografie, microklimaat) die wijn zijn unieke karakter en gevoel van plaats geven."
+        }
+      },
+      {
+        question: {
+          en: "What is 'dosage' in Champagne production?",
+          es: "¿Qué es 'dosage' en la producción de Champagne?",
+          de: "Was ist 'Dosage' in der Champagnerproduktion?",
+          nl: "Wat is 'dosage' in Champagne productie?"
+        },
+        options: [
+          {
+            en: "Sugar added after disgorgement to determine sweetness",
+            es: "Azúcar añadido después del degüelle para determinar dulzura",
+            de: "Zucker nach Degorgierung zugegeben um Süße zu bestimmen",
+            nl: "Suiker toegevoegd na degorgeren om zoetheid te bepalen"
+          },
+          {
+            en: "Initial grape pressing",
+            es: "Prensado inicial de uva",
+            de: "Erstes Traubenpressen",
+            nl: "Eerste druiven persing"
+          },
+          {
+            en: "Bottle aging time",
+            es: "Tiempo de envejecimiento en botella",
+            de: "Flaschenreifungszeit",
+            nl: "Fles rijpingstijd"
+          },
+          {
+            en: "Yeast selection",
+            es: "Selección de levadura",
+            de: "Hefeauswahl",
+            nl: "Gist selectie"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dosage is liqueur d'expédition (wine+sugar) added after disgorgement to determine Champagne's final sweetness level (Brut, Sec, etc.).",
+          es: "Dosage es licor de expedición (vino+azúcar) añadido después del degüelle para determinar el nivel final de dulzura del Champagne (Brut, Sec, etc.).",
+          de: "Dosage ist Versandlikör (Wein+Zucker) nach Degorgierung zugegeben um Champagners endgültige Süße zu bestimmen (Brut, Sec, etc.).",
+          nl: "Dosage is liqueur d'expédition (wijn+suiker) toegevoegd na degorgeren om Champagne's finale zoetheid te bepalen (Brut, Sec, etc.)."
+        }
+      }
     ]
   };
 

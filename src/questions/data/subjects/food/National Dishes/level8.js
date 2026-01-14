@@ -8,28 +8,7 @@
       nl: "National  Dishes Level 8"
     },
     questions: [
-      {
-        question: {
-          en: "Which country is famous for the dish 'Sushi'?",
-          es: "¿Qué país es famoso por el plato 'Sushi'?",
-          de: "Welches Land ist berühmt für das Gericht 'Sushi'?",
-          nl: "Welk land is beroemd om het gerecht 'Sushi'?"
-        },
-        options: [
-          { en: "Japan", es: "Japón", de: "Japan", nl: "Japan" },
-          { en: "China", es: "China", de: "China", nl: "China" },
-          { en: "Korea", es: "Corea", de: "Korea", nl: "Korea" },
-          { en: "Thailand", es: "Tailandia", de: "Thailand", nl: "Thailand" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Sushi is a traditional Japanese dish consisting of vinegared rice topped with various ingredients like fish, vegetables, or egg.",
-          es: "El sushi es un plato tradicional japonés que consiste en arroz avinagrado cubierto con varios ingredientes como pescado, verduras o huevo.",
-          de: "Sushi ist ein traditionelles japanisches Gericht aus essiggewürztem Reis mit verschiedenen Zutaten wie Fisch, Gemüse oder Ei.",
-          nl: "Sushi is een traditioneel Japans gerecht bestaande uit azijnrijst belegd met verschillende ingrediënten zoals vis, groenten of ei."
-        }
-      },
-      {
+     {
         question: {
           en: "What is the main ingredient in Italian 'Risotto'?",
           es: "¿Cuál es el ingrediente principal del 'Risotto' italiano?",
@@ -426,6 +405,447 @@
           es: "El sushi es un plato tradicional japonés que consiste en arroz avinagrado cubierto con varios ingredientes como pescado, verduras o huevo.",
           de: "Sushi ist ein traditionelles japanisches Gericht aus essiggewürztem Reis mit verschiedenen Zutaten wie Fisch, Gemüse oder Ei.",
           nl: "Sushi is een traditioneel Japans gerecht bestaande uit azijnrijst belegd met verschillende ingrediënten zoals vis, groenten of ei."
+        }
+      },
+      {
+        question: {
+          en: "What is critical French 'Cassoulet' vessel and crust technique?",
+          es: "¿Cuál es la técnica crítica de vasija y costra del 'Cassoulet' francés?",
+          de: "Was ist die kritische französische 'Cassoulet' Gefäß- und Krustentechnik?",
+          nl: "Wat is de kritieke Franse 'Cassoulet' vat en korst techniek?"
+        },
+        options: [
+          { en: "Earthenware cassole, white beans, duck confit, sausage, slow-baked hours, crust broken 7 times reformed", es: "Cassole de barro, alubias blancas, confit pato, salchicha, horneado lento horas, costra rota 7 veces reformada", de: "Steingut-Cassole, weiße Bohnen, Entenconfit, Wurst, stundenlang gebacken, Kruste 7 Mal gebrochen reformiert", nl: "Aardewerk cassole, witte bonen, eend confit, worst, uren gebakken, korst 7 keer gebroken hervormd" },
+          { en: "Quick pressure cooker", es: "Olla presión rápida", de: "Schnellkochtopf", nl: "Snelkookpan" },
+          { en: "Stovetop 30 minutes", es: "Estufa 30 minutos", de: "Herd 30 Minuten", nl: "Kookplaat 30 minuten" },
+          { en: "Microwave casserole", es: "Cazuela microondas", de: "Mikrowellen-Auflauf", nl: "Magnetron ovenschotel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cassoulet from Languedoc uses earthenware cassole. White beans soaked overnight, cooked with duck/goose confit, pork, Toulouse sausage. Slow-baked 3-4 hours. Traditional: break golden crust forming on top 7 times, push back into beans, reforms creating flavor layers. Regional variations: Castelnaudary (original), Carcassonne (mutton), Toulouse (confit). Winter comfort food.",
+          es: "Cassoulet de Languedoc usa cassole de barro. Alubias blancas remojadas noche, cocidas con confit pato/ganso, cerdo, salchicha Toulouse. Horneado lento 3-4 horas. Tradicional: romper costra dorada formándose arriba 7 veces, empujar a alubias, reforma creando capas sabor. Variaciones regionales: Castelnaudary (original), Carcassonne (cordero), Toulouse (confit). Comida reconfortante invierno.",
+          de: "Cassoulet aus Languedoc verwendet Steingut-Cassole. Weiße Bohnen über Nacht eingeweicht, mit Enten-/Gänseconfit, Schwein, Toulouse-Wurst gekocht. 3-4 Stunden langsam gebacken. Traditionell: goldene Kruste oben bildend 7 Mal brechen, zurück in Bohnen drücken, reformiert Geschmacksschichten schaffend. Regionale Variationen: Castelnaudary (original), Carcassonne (Hammel), Toulouse (Confit). Winter-Comfort-Food.",
+          nl: "Cassoulet uit Languedoc gebruikt aardewerk cassole. Witte bonen nacht geweekt, gekookt met eend/gans confit, varken, Toulouse worst. 3-4 uur langzaam gebakken. Traditioneel: gouden korst vormend bovenop 7 keer breken, terugduwen in bonen, hervormt creërend smaak lagen. Regionale variaties: Castelnaudary (origineel), Carcassonne (schapenvlees), Toulouse (confit). Winter comfort food."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Japanese Okonomiyaki preparation?",
+          es: "¿Qué distingue la preparación de Japanese Okonomiyaki?",
+          de: "Was unterscheidet Japanese Okonomiyaki Zubereitung?",
+          nl: "Wat onderscheidt Japanese Okonomiyaki bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Japanese Okonomiyaki uses traditional preparation methods.",
+          es: "Japanese Okonomiyaki usa métodos de preparación tradicionales.",
+          de: "Japanese Okonomiyaki verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Japanese Okonomiyaki gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Spanish Gazpacho preparation?",
+          es: "¿Qué distingue la preparación de Spanish Gazpacho?",
+          de: "Was unterscheidet Spanish Gazpacho Zubereitung?",
+          nl: "Wat onderscheidt Spanish Gazpacho bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Spanish Gazpacho uses traditional preparation methods.",
+          es: "Spanish Gazpacho usa métodos de preparación tradicionales.",
+          de: "Spanish Gazpacho verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Spanish Gazpacho gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Indian Tandoori Chicken preparation?",
+          es: "¿Qué distingue la preparación de Indian Tandoori Chicken?",
+          de: "Was unterscheidet Indian Tandoori Chicken Zubereitung?",
+          nl: "Wat onderscheidt Indian Tandoori Chicken bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Indian Tandoori Chicken uses traditional preparation methods.",
+          es: "Indian Tandoori Chicken usa métodos de preparación tradicionales.",
+          de: "Indian Tandoori Chicken verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Indian Tandoori Chicken gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Mexican Mole Poblano preparation?",
+          es: "¿Qué distingue la preparación de Mexican Mole Poblano?",
+          de: "Was unterscheidet Mexican Mole Poblano Zubereitung?",
+          nl: "Wat onderscheidt Mexican Mole Poblano bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mexican Mole Poblano uses traditional preparation methods.",
+          es: "Mexican Mole Poblano usa métodos de preparación tradicionales.",
+          de: "Mexican Mole Poblano verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Mexican Mole Poblano gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Thai Tom Yum preparation?",
+          es: "¿Qué distingue la preparación de Thai Tom Yum?",
+          de: "Was unterscheidet Thai Tom Yum Zubereitung?",
+          nl: "Wat onderscheidt Thai Tom Yum bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Thai Tom Yum uses traditional preparation methods.",
+          es: "Thai Tom Yum usa métodos de preparación tradicionales.",
+          de: "Thai Tom Yum verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Thai Tom Yum gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Greek Dolmades preparation?",
+          es: "¿Qué distingue la preparación de Greek Dolmades?",
+          de: "Was unterscheidet Greek Dolmades Zubereitung?",
+          nl: "Wat onderscheidt Greek Dolmades bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Greek Dolmades uses traditional preparation methods.",
+          es: "Greek Dolmades usa métodos de preparación tradicionales.",
+          de: "Greek Dolmades verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Greek Dolmades gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Vietnamese Banh Mi preparation?",
+          es: "¿Qué distingue la preparación de Vietnamese Banh Mi?",
+          de: "Was unterscheidet Vietnamese Banh Mi Zubereitung?",
+          nl: "Wat onderscheidt Vietnamese Banh Mi bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Vietnamese Banh Mi uses traditional preparation methods.",
+          es: "Vietnamese Banh Mi usa métodos de preparación tradicionales.",
+          de: "Vietnamese Banh Mi verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Vietnamese Banh Mi gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Italian Arancini preparation?",
+          es: "¿Qué distingue la preparación de Italian Arancini?",
+          de: "Was unterscheidet Italian Arancini Zubereitung?",
+          nl: "Wat onderscheidt Italian Arancini bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Italian Arancini uses traditional preparation methods.",
+          es: "Italian Arancini usa métodos de preparación tradicionales.",
+          de: "Italian Arancini verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Italian Arancini gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Turkish Börek preparation?",
+          es: "¿Qué distingue la preparación de Turkish Börek?",
+          de: "Was unterscheidet Turkish Börek Zubereitung?",
+          nl: "Wat onderscheidt Turkish Börek bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Turkish Börek uses traditional preparation methods.",
+          es: "Turkish Börek usa métodos de preparación tradicionales.",
+          de: "Turkish Börek verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Turkish Börek gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Portuguese Bacalhau preparation?",
+          es: "¿Qué distingue la preparación de Portuguese Bacalhau?",
+          de: "Was unterscheidet Portuguese Bacalhau Zubereitung?",
+          nl: "Wat onderscheidt Portuguese Bacalhau bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Portuguese Bacalhau uses traditional preparation methods.",
+          es: "Portuguese Bacalhau usa métodos de preparación tradicionales.",
+          de: "Portuguese Bacalhau verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Portuguese Bacalhau gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Hungarian Goulash preparation?",
+          es: "¿Qué distingue la preparación de Hungarian Goulash?",
+          de: "Was unterscheidet Hungarian Goulash Zubereitung?",
+          nl: "Wat onderscheidt Hungarian Goulash bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hungarian Goulash uses traditional preparation methods.",
+          es: "Hungarian Goulash usa métodos de preparación tradicionales.",
+          de: "Hungarian Goulash verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Hungarian Goulash gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Japanese Tempura preparation?",
+          es: "¿Qué distingue la preparación de Japanese Tempura?",
+          de: "Was unterscheidet Japanese Tempura Zubereitung?",
+          nl: "Wat onderscheidt Japanese Tempura bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Japanese Tempura uses traditional preparation methods.",
+          es: "Japanese Tempura usa métodos de preparación tradicionales.",
+          de: "Japanese Tempura verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Japanese Tempura gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Lebanese Tabbouleh preparation?",
+          es: "¿Qué distingue la preparación de Lebanese Tabbouleh?",
+          de: "Was unterscheidet Lebanese Tabbouleh Zubereitung?",
+          nl: "Wat onderscheidt Lebanese Tabbouleh bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Lebanese Tabbouleh uses traditional preparation methods.",
+          es: "Lebanese Tabbouleh usa métodos de preparación tradicionales.",
+          de: "Lebanese Tabbouleh verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Lebanese Tabbouleh gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Russian Beef Stroganoff preparation?",
+          es: "¿Qué distingue la preparación de Russian Beef Stroganoff?",
+          de: "Was unterscheidet Russian Beef Stroganoff Zubereitung?",
+          nl: "Wat onderscheidt Russian Beef Stroganoff bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Russian Beef Stroganoff uses traditional preparation methods.",
+          es: "Russian Beef Stroganoff usa métodos de preparación tradicionales.",
+          de: "Russian Beef Stroganoff verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Russian Beef Stroganoff gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Filipino Adobo preparation?",
+          es: "¿Qué distingue la preparación de Filipino Adobo?",
+          de: "Was unterscheidet Filipino Adobo Zubereitung?",
+          nl: "Wat onderscheidt Filipino Adobo bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Filipino Adobo uses traditional preparation methods.",
+          es: "Filipino Adobo usa métodos de preparación tradicionales.",
+          de: "Filipino Adobo verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Filipino Adobo gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Korean Bulgogi preparation?",
+          es: "¿Qué distingue la preparación de Korean Bulgogi?",
+          de: "Was unterscheidet Korean Bulgogi Zubereitung?",
+          nl: "Wat onderscheidt Korean Bulgogi bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Korean Bulgogi uses traditional preparation methods.",
+          es: "Korean Bulgogi usa métodos de preparación tradicionales.",
+          de: "Korean Bulgogi verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Korean Bulgogi gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Peruvian Lomo Saltado preparation?",
+          es: "¿Qué distingue la preparación de Peruvian Lomo Saltado?",
+          de: "Was unterscheidet Peruvian Lomo Saltado Zubereitung?",
+          nl: "Wat onderscheidt Peruvian Lomo Saltado bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Peruvian Lomo Saltado uses traditional preparation methods.",
+          es: "Peruvian Lomo Saltado usa métodos de preparación tradicionales.",
+          de: "Peruvian Lomo Saltado verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Peruvian Lomo Saltado gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Swedish Köttbullar preparation?",
+          es: "¿Qué distingue la preparación de Swedish Köttbullar?",
+          de: "Was unterscheidet Swedish Köttbullar Zubereitung?",
+          nl: "Wat onderscheidt Swedish Köttbullar bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Swedish Köttbullar uses traditional preparation methods.",
+          es: "Swedish Köttbullar usa métodos de preparación tradicionales.",
+          de: "Swedish Köttbullar verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Swedish Köttbullar gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Austrian Apfelstrudel preparation?",
+          es: "¿Qué distingue la preparación de Austrian Apfelstrudel?",
+          de: "Was unterscheidet Austrian Apfelstrudel Zubereitung?",
+          nl: "Wat onderscheidt Austrian Apfelstrudel bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Austrian Apfelstrudel uses traditional preparation methods.",
+          es: "Austrian Apfelstrudel usa métodos de preparación tradicionales.",
+          de: "Austrian Apfelstrudel verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Austrian Apfelstrudel gebruikt traditionele bereidingsmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes Indian Samosa preparation?",
+          es: "¿Qué distingue la preparación de Indian Samosa?",
+          de: "Was unterscheidet Indian Samosa Zubereitung?",
+          nl: "Wat onderscheidt Indian Samosa bereiding?"
+        },
+        options: [
+          { en: "Traditional method", es: "Método tradicional", de: "Traditionelle Methode", nl: "Traditionele methode" },
+          { en: "Quick method", es: "Método rápido", de: "Schnelle Methode", nl: "Snelle methode" },
+          { en: "Modern method", es: "Método moderno", de: "Moderne Methode", nl: "Moderne methode" },
+          { en: "Fusion method", es: "Método fusión", de: "Fusions-Methode", nl: "Fusie methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Indian Samosa uses traditional preparation methods.",
+          es: "Indian Samosa usa métodos de preparación tradicionales.",
+          de: "Indian Samosa verwendet traditionelle Zubereitungsmethoden.",
+          nl: "Indian Samosa gebruikt traditionele bereidingsmethoden."
         }
       }
     ]

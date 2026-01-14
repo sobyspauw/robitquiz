@@ -426,6 +426,406 @@
           es: "La trilogía Millennium de Larsson se centra en violencia sistémica contra mujeres en Suecia, con título sueco original traduciéndose como 'Hombres que odian a las mujeres'. Periodista Mikael Blomkvist y hacker Lisbeth Salander investigan crímenes revelando que misoginia, violación y abuso impregnan instituciones suecas a pesar de imagen progresista del país. Larsson expone hipocresía: incluso estados de bienestar con leyes de igualdad de género albergan violencia patriarcal arraigada. Serie se volvió internacionalmente significativa por poner en primer plano violencia contra mujeres como crítica social en lugar de dispositivo argumental, distinguiendo compromiso político de ficción criminal escandinava de convenciones de género anglo-americanas.",
           de: "Larssons Millennium-Trilogie konzentriert sich auf systemische Gewalt gegen Frauen in Schweden, wobei der ursprüngliche schwedische Titel 'Männer, die Frauen hassen' übersetzt. Journalist Mikael Blomkvist und Hackerin Lisbeth Salander untersuchen Verbrechen, die enthüllen, dass Frauenfeindlichkeit, Vergewaltigung und Missbrauch schwedische Institutionen durchdringen, trotz des progressiven Images des Landes. Larsson entlarvt die Heuchelei: Selbst Wohlfahrtsstaaten mit Gleichstellungsgesetzen beherbergen tief verwurzelte patriarchale Gewalt. Die Serie wurde international bedeutsam dafür, Gewalt gegen Frauen als Gesellschaftskritik statt als Handlungsmittel in den Vordergrund zu stellen und unterscheidet das politische Engagement skandinavischer Kriminalfiktion von anglo-amerikanischen Genre-Konventionen.",
           nl: "Larssons Millennium trilogie centreert op systemisch geweld tegen vrouwen in Zweden, met de originele Zweedse titel vertaalbaar als 'Mannen die vrouwen haten'. Journalist Mikael Blomkvist en hacker Lisbeth Salander onderzoeken misdaden die onthullen dat vrouwenhaat, verkrachting en misbruik Zweedse instituties doordringen ondanks het progressieve imago van het land. Larsson ontmaskert de hypocrisie: zelfs welvaartsstaten met gelijkheids wetten herbergen diepgeworteld patriarchaal geweld. De serie werd internationaal significant voor het op de voorgrond plaatsen van geweld tegen vrouwen als sociale kritiek in plaats van plot hulpmiddel, Scandinavische misdaadficties politieke betrokkenheid onderscheidend van Anglo-Amerikaanse genre conventies."
+        }      },
+      {
+        question: {
+          en: "Who created Sherlock Holmes?",
+          es: "Who created Sherlock Holmes?",
+          de: "Who created Sherlock Holmes?",
+          nl: "Who created Sherlock Holmes?"
+        },
+        options: [
+          { en: "Arthur Conan Doyle", es: "Arthur Conan Doyle", de: "Arthur Conan Doyle", nl: "Arthur Conan Doyle" },
+          { en: "Agatha Christie", es: "Agatha Christie", de: "Agatha Christie", nl: "Agatha Christie" },
+          { en: "Edgar Allan Poe", es: "Edgar Allan Poe", de: "Edgar Allan Poe", nl: "Edgar Allan Poe" },
+          { en: "Dorothy L. Sayers", es: "Dorothy L. Sayers", de: "Dorothy L. Sayers", nl: "Dorothy L. Sayers" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Arthur Conan Doyle created Sherlock Holmes in 1887 with A Study in Scarlet.",
+          es: "Arthur Conan Doyle created Sherlock Holmes in 1887 with A Study in Scarlet.",
+          de: "Arthur Conan Doyle created Sherlock Holmes in 1887 with A Study in Scarlet.",
+          nl: "Arthur Conan Doyle created Sherlock Holmes in 1887 with A Study in Scarlet."
+        }      },
+      {
+        question: {
+          en: "Who wrote Murder on the Orient Express?",
+          es: "Who wrote Murder on the Orient Express?",
+          de: "Who wrote Murder on the Orient Express?",
+          nl: "Who wrote Murder on the Orient Express?"
+        },
+        options: [
+          { en: "Agatha Christie", es: "Agatha Christie", de: "Agatha Christie", nl: "Agatha Christie" },
+          { en: "Dorothy L. Sayers", es: "Dorothy L. Sayers", de: "Dorothy L. Sayers", nl: "Dorothy L. Sayers" },
+          { en: "Arthur Conan Doyle", es: "Arthur Conan Doyle", de: "Arthur Conan Doyle", nl: "Arthur Conan Doyle" },
+          { en: "Raymond Chandler", es: "Raymond Chandler", de: "Raymond Chandler", nl: "Raymond Chandler" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Agatha Christie wrote Murder on the Orient Express in 1934 featuring Hercule Poirot.",
+          es: "Agatha Christie wrote Murder on the Orient Express in 1934 featuring Hercule Poirot.",
+          de: "Agatha Christie wrote Murder on the Orient Express in 1934 featuring Hercule Poirot.",
+          nl: "Agatha Christie wrote Murder on the Orient Express in 1934 featuring Hercule Poirot."
+        }      },
+      {
+        question: {
+          en: "Who created detective Hercule Poirot?",
+          es: "Who created detective Hercule Poirot?",
+          de: "Who created detective Hercule Poirot?",
+          nl: "Who created detective Hercule Poirot?"
+        },
+        options: [
+          { en: "Agatha Christie", es: "Agatha Christie", de: "Agatha Christie", nl: "Agatha Christie" },
+          { en: "Arthur Conan Doyle", es: "Arthur Conan Doyle", de: "Arthur Conan Doyle", nl: "Arthur Conan Doyle" },
+          { en: "Dorothy L. Sayers", es: "Dorothy L. Sayers", de: "Dorothy L. Sayers", nl: "Dorothy L. Sayers" },
+          { en: "G.K. Chesterton", es: "G.K. Chesterton", de: "G.K. Chesterton", nl: "G.K. Chesterton" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Agatha Christie created Belgian detective Hercule Poirot in 1920.",
+          es: "Agatha Christie created Belgian detective Hercule Poirot in 1920.",
+          de: "Agatha Christie created Belgian detective Hercule Poirot in 1920.",
+          nl: "Agatha Christie created Belgian detective Hercule Poirot in 1920."
+        }      },
+      {
+        question: {
+          en: "The Maltese Falcon is by?",
+          es: "The Maltese Falcon is by?",
+          de: "The Maltese Falcon is by?",
+          nl: "The Maltese Falcon is by?"
+        },
+        options: [
+          { en: "Dashiell Hammett", es: "Dashiell Hammett", de: "Dashiell Hammett", nl: "Dashiell Hammett" },
+          { en: "Raymond Chandler", es: "Raymond Chandler", de: "Raymond Chandler", nl: "Raymond Chandler" },
+          { en: "Mickey Spillane", es: "Mickey Spillane", de: "Mickey Spillane", nl: "Mickey Spillane" },
+          { en: "Ross Macdonald", es: "Ross Macdonald", de: "Ross Macdonald", nl: "Ross Macdonald" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dashiell Hammett wrote The Maltese Falcon in 1930 featuring Sam Spade.",
+          es: "Dashiell Hammett wrote The Maltese Falcon in 1930 featuring Sam Spade.",
+          de: "Dashiell Hammett wrote The Maltese Falcon in 1930 featuring Sam Spade.",
+          nl: "Dashiell Hammett wrote The Maltese Falcon in 1930 featuring Sam Spade."
+        }      },
+      {
+        question: {
+          en: "Who created Miss Marple?",
+          es: "Who created Miss Marple?",
+          de: "Who created Miss Marple?",
+          nl: "Who created Miss Marple?"
+        },
+        options: [
+          { en: "Agatha Christie", es: "Agatha Christie", de: "Agatha Christie", nl: "Agatha Christie" },
+          { en: "Dorothy L. Sayers", es: "Dorothy L. Sayers", de: "Dorothy L. Sayers", nl: "Dorothy L. Sayers" },
+          { en: "Ngaio Marsh", es: "Ngaio Marsh", de: "Ngaio Marsh", nl: "Ngaio Marsh" },
+          { en: "Josephine Tey", es: "Josephine Tey", de: "Josephine Tey", nl: "Josephine Tey" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Agatha Christie created elderly detective Miss Marple in 1927.",
+          es: "Agatha Christie created elderly detective Miss Marple in 1927.",
+          de: "Agatha Christie created elderly detective Miss Marple in 1927.",
+          nl: "Agatha Christie created elderly detective Miss Marple in 1927."
+        }      },
+      {
+        question: {
+          en: "The Big Sleep features detective?",
+          es: "The Big Sleep features detective?",
+          de: "The Big Sleep features detective?",
+          nl: "The Big Sleep features detective?"
+        },
+        options: [
+          { en: "Philip Marlowe", es: "Philip Marlowe", de: "Philip Marlowe", nl: "Philip Marlowe" },
+          { en: "Sam Spade", es: "Sam Spade", de: "Sam Spade", nl: "Sam Spade" },
+          { en: "Mike Hammer", es: "Mike Hammer", de: "Mike Hammer", nl: "Mike Hammer" },
+          { en: "Lew Archer", es: "Lew Archer", de: "Lew Archer", nl: "Lew Archer" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Raymond Chandler created Philip Marlowe who appears in The Big Sleep.",
+          es: "Raymond Chandler created Philip Marlowe who appears in The Big Sleep.",
+          de: "Raymond Chandler created Philip Marlowe who appears in The Big Sleep.",
+          nl: "Raymond Chandler created Philip Marlowe who appears in The Big Sleep."
+        }      },
+      {
+        question: {
+          en: "Who wrote The Hound of the Baskervilles?",
+          es: "Who wrote The Hound of the Baskervilles?",
+          de: "Who wrote The Hound of the Baskervilles?",
+          nl: "Who wrote The Hound of the Baskervilles?"
+        },
+        options: [
+          { en: "Arthur Conan Doyle", es: "Arthur Conan Doyle", de: "Arthur Conan Doyle", nl: "Arthur Conan Doyle" },
+          { en: "Agatha Christie", es: "Agatha Christie", de: "Agatha Christie", nl: "Agatha Christie" },
+          { en: "Edgar Allan Poe", es: "Edgar Allan Poe", de: "Edgar Allan Poe", nl: "Edgar Allan Poe" },
+          { en: "Wilkie Collins", es: "Wilkie Collins", de: "Wilkie Collins", nl: "Wilkie Collins" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Arthur Conan Doyle wrote this Sherlock Holmes novel in 1902.",
+          es: "Arthur Conan Doyle wrote this Sherlock Holmes novel in 1902.",
+          de: "Arthur Conan Doyle wrote this Sherlock Holmes novel in 1902.",
+          nl: "Arthur Conan Doyle wrote this Sherlock Holmes novel in 1902."
+        }      },
+      {
+        question: {
+          en: "And Then There Were None is by?",
+          es: "And Then There Were None is by?",
+          de: "And Then There Were None is by?",
+          nl: "And Then There Were None is by?"
+        },
+        options: [
+          { en: "Agatha Christie", es: "Agatha Christie", de: "Agatha Christie", nl: "Agatha Christie" },
+          { en: "Dorothy L. Sayers", es: "Dorothy L. Sayers", de: "Dorothy L. Sayers", nl: "Dorothy L. Sayers" },
+          { en: "Ngaio Marsh", es: "Ngaio Marsh", de: "Ngaio Marsh", nl: "Ngaio Marsh" },
+          { en: "Margery Allingham", es: "Margery Allingham", de: "Margery Allingham", nl: "Margery Allingham" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Agatha Christie wrote And Then There Were None in 1939.",
+          es: "Agatha Christie wrote And Then There Were None in 1939.",
+          de: "Agatha Christie wrote And Then There Were None in 1939.",
+          nl: "Agatha Christie wrote And Then There Were None in 1939."
+        }      },
+      {
+        question: {
+          en: "Who created Father Brown?",
+          es: "Who created Father Brown?",
+          de: "Who created Father Brown?",
+          nl: "Who created Father Brown?"
+        },
+        options: [
+          { en: "G.K. Chesterton", es: "G.K. Chesterton", de: "G.K. Chesterton", nl: "G.K. Chesterton" },
+          { en: "Arthur Conan Doyle", es: "Arthur Conan Doyle", de: "Arthur Conan Doyle", nl: "Arthur Conan Doyle" },
+          { en: "Agatha Christie", es: "Agatha Christie", de: "Agatha Christie", nl: "Agatha Christie" },
+          { en: "Dorothy L. Sayers", es: "Dorothy L. Sayers", de: "Dorothy L. Sayers", nl: "Dorothy L. Sayers" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "G.K. Chesterton created priest detective Father Brown in 1910.",
+          es: "G.K. Chesterton created priest detective Father Brown in 1910.",
+          de: "G.K. Chesterton created priest detective Father Brown in 1910.",
+          nl: "G.K. Chesterton created priest detective Father Brown in 1910."
+        }      },
+      {
+        question: {
+          en: "The Murders in the Rue Morgue is by?",
+          es: "The Murders in the Rue Morgue is by?",
+          de: "The Murders in the Rue Morgue is by?",
+          nl: "The Murders in the Rue Morgue is by?"
+        },
+        options: [
+          { en: "Edgar Allan Poe", es: "Edgar Allan Poe", de: "Edgar Allan Poe", nl: "Edgar Allan Poe" },
+          { en: "Arthur Conan Doyle", es: "Arthur Conan Doyle", de: "Arthur Conan Doyle", nl: "Arthur Conan Doyle" },
+          { en: "Wilkie Collins", es: "Wilkie Collins", de: "Wilkie Collins", nl: "Wilkie Collins" },
+          { en: "Emile Gaboriau", es: "Emile Gaboriau", de: "Emile Gaboriau", nl: "Emile Gaboriau" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Edgar Allan Poe wrote this in 1841, considered first modern detective story.",
+          es: "Edgar Allan Poe wrote this in 1841, considered first modern detective story.",
+          de: "Edgar Allan Poe wrote this in 1841, considered first modern detective story.",
+          nl: "Edgar Allan Poe wrote this in 1841, considered first modern detective story."
+        }      },
+      {
+        question: {
+          en: "Who created Lord Peter Wimsey?",
+          es: "Who created Lord Peter Wimsey?",
+          de: "Who created Lord Peter Wimsey?",
+          nl: "Who created Lord Peter Wimsey?"
+        },
+        options: [
+          { en: "Dorothy L. Sayers", es: "Dorothy L. Sayers", de: "Dorothy L. Sayers", nl: "Dorothy L. Sayers" },
+          { en: "Agatha Christie", es: "Agatha Christie", de: "Agatha Christie", nl: "Agatha Christie" },
+          { en: "Ngaio Marsh", es: "Ngaio Marsh", de: "Ngaio Marsh", nl: "Ngaio Marsh" },
+          { en: "Margery Allingham", es: "Margery Allingham", de: "Margery Allingham", nl: "Margery Allingham" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dorothy L. Sayers created aristocratic detective Lord Peter Wimsey.",
+          es: "Dorothy L. Sayers created aristocratic detective Lord Peter Wimsey.",
+          de: "Dorothy L. Sayers created aristocratic detective Lord Peter Wimsey.",
+          nl: "Dorothy L. Sayers created aristocratic detective Lord Peter Wimsey."
+        }      },
+      {
+        question: {
+          en: "The Moonstone is by?",
+          es: "The Moonstone is by?",
+          de: "The Moonstone is by?",
+          nl: "The Moonstone is by?"
+        },
+        options: [
+          { en: "Wilkie Collins", es: "Wilkie Collins", de: "Wilkie Collins", nl: "Wilkie Collins" },
+          { en: "Edgar Allan Poe", es: "Edgar Allan Poe", de: "Edgar Allan Poe", nl: "Edgar Allan Poe" },
+          { en: "Arthur Conan Doyle", es: "Arthur Conan Doyle", de: "Arthur Conan Doyle", nl: "Arthur Conan Doyle" },
+          { en: "Charles Dickens", es: "Charles Dickens", de: "Charles Dickens", nl: "Charles Dickens" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Wilkie Collins wrote The Moonstone in 1868, early detective novel.",
+          es: "Wilkie Collins wrote The Moonstone in 1868, early detective novel.",
+          de: "Wilkie Collins wrote The Moonstone in 1868, early detective novel.",
+          nl: "Wilkie Collins wrote The Moonstone in 1868, early detective novel."
+        }      },
+      {
+        question: {
+          en: "Who wrote The Girl with the Dragon Tattoo?",
+          es: "Who wrote The Girl with the Dragon Tattoo?",
+          de: "Who wrote The Girl with the Dragon Tattoo?",
+          nl: "Who wrote The Girl with the Dragon Tattoo?"
+        },
+        options: [
+          { en: "Stieg Larsson", es: "Stieg Larsson", de: "Stieg Larsson", nl: "Stieg Larsson" },
+          { en: "Henning Mankell", es: "Henning Mankell", de: "Henning Mankell", nl: "Henning Mankell" },
+          { en: "Jo Nesbo", es: "Jo Nesbo", de: "Jo Nesbo", nl: "Jo Nesbo" },
+          { en: "Arnaldur Indridason", es: "Arnaldur Indridason", de: "Arnaldur Indridason", nl: "Arnaldur Indridason" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Stieg Larsson wrote this 2005 Swedish crime novel.",
+          es: "Stieg Larsson wrote this 2005 Swedish crime novel.",
+          de: "Stieg Larsson wrote this 2005 Swedish crime novel.",
+          nl: "Stieg Larsson wrote this 2005 Swedish crime novel."
+        }      },
+      {
+        question: {
+          en: "In the Woods is by?",
+          es: "In the Woods is by?",
+          de: "In the Woods is by?",
+          nl: "In the Woods is by?"
+        },
+        options: [
+          { en: "Tana French", es: "Tana French", de: "Tana French", nl: "Tana French" },
+          { en: "Ruth Rendell", es: "Ruth Rendell", de: "Ruth Rendell", nl: "Ruth Rendell" },
+          { en: "P.D. James", es: "P.D. James", de: "P.D. James", nl: "P.D. James" },
+          { en: "Val McDermid", es: "Val McDermid", de: "Val McDermid", nl: "Val McDermid" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tana French wrote In the Woods in 2007 set in Ireland.",
+          es: "Tana French wrote In the Woods in 2007 set in Ireland.",
+          de: "Tana French wrote In the Woods in 2007 set in Ireland.",
+          nl: "Tana French wrote In the Woods in 2007 set in Ireland."
+        }      },
+      {
+        question: {
+          en: "Who created Inspector Maigret?",
+          es: "Who created Inspector Maigret?",
+          de: "Who created Inspector Maigret?",
+          nl: "Who created Inspector Maigret?"
+        },
+        options: [
+          { en: "Georges Simenon", es: "Georges Simenon", de: "Georges Simenon", nl: "Georges Simenon" },
+          { en: "Emile Gaboriau", es: "Emile Gaboriau", de: "Emile Gaboriau", nl: "Emile Gaboriau" },
+          { en: "Maurice Leblanc", es: "Maurice Leblanc", de: "Maurice Leblanc", nl: "Maurice Leblanc" },
+          { en: "Gaston Leroux", es: "Gaston Leroux", de: "Gaston Leroux", nl: "Gaston Leroux" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Georges Simenon created French detective Jules Maigret.",
+          es: "Georges Simenon created French detective Jules Maigret.",
+          de: "Georges Simenon created French detective Jules Maigret.",
+          nl: "Georges Simenon created French detective Jules Maigret."
+        }      },
+      {
+        question: {
+          en: "The No. 1 Ladies Detective Agency is by?",
+          es: "The No. 1 Ladies Detective Agency is by?",
+          de: "The No. 1 Ladies Detective Agency is by?",
+          nl: "The No. 1 Ladies Detective Agency is by?"
+        },
+        options: [
+          { en: "Alexander McCall Smith", es: "Alexander McCall Smith", de: "Alexander McCall Smith", nl: "Alexander McCall Smith" },
+          { en: "Agatha Christie", es: "Agatha Christie", de: "Agatha Christie", nl: "Agatha Christie" },
+          { en: "Dorothy L. Sayers", es: "Dorothy L. Sayers", de: "Dorothy L. Sayers", nl: "Dorothy L. Sayers" },
+          { en: "P.D. James", es: "P.D. James", de: "P.D. James", nl: "P.D. James" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Alexander McCall Smith wrote this 1998 novel set in Botswana.",
+          es: "Alexander McCall Smith wrote this 1998 novel set in Botswana.",
+          de: "Alexander McCall Smith wrote this 1998 novel set in Botswana.",
+          nl: "Alexander McCall Smith wrote this 1998 novel set in Botswana."
+        }      },
+      {
+        question: {
+          en: "Who wrote Gorky Park?",
+          es: "Who wrote Gorky Park?",
+          de: "Who wrote Gorky Park?",
+          nl: "Who wrote Gorky Park?"
+        },
+        options: [
+          { en: "Martin Cruz Smith", es: "Martin Cruz Smith", de: "Martin Cruz Smith", nl: "Martin Cruz Smith" },
+          { en: "Tom Clancy", es: "Tom Clancy", de: "Tom Clancy", nl: "Tom Clancy" },
+          { en: "John le Carre", es: "John le Carre", de: "John le Carre", nl: "John le Carre" },
+          { en: "Robert Ludlum", es: "Robert Ludlum", de: "Robert Ludlum", nl: "Robert Ludlum" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Martin Cruz Smith wrote Gorky Park in 1981 featuring Arkady Renko.",
+          es: "Martin Cruz Smith wrote Gorky Park in 1981 featuring Arkady Renko.",
+          de: "Martin Cruz Smith wrote Gorky Park in 1981 featuring Arkady Renko.",
+          nl: "Martin Cruz Smith wrote Gorky Park in 1981 featuring Arkady Renko."
+        }      },
+      {
+        question: {
+          en: "The Silence of the Lambs is by?",
+          es: "The Silence of the Lambs is by?",
+          de: "The Silence of the Lambs is by?",
+          nl: "The Silence of the Lambs is by?"
+        },
+        options: [
+          { en: "Thomas Harris", es: "Thomas Harris", de: "Thomas Harris", nl: "Thomas Harris" },
+          { en: "James Patterson", es: "James Patterson", de: "James Patterson", nl: "James Patterson" },
+          { en: "Michael Connelly", es: "Michael Connelly", de: "Michael Connelly", nl: "Michael Connelly" },
+          { en: "Jeffery Deaver", es: "Jeffery Deaver", de: "Jeffery Deaver", nl: "Jeffery Deaver" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Thomas Harris wrote The Silence of the Lambs in 1988.",
+          es: "Thomas Harris wrote The Silence of the Lambs in 1988.",
+          de: "Thomas Harris wrote The Silence of the Lambs in 1988.",
+          nl: "Thomas Harris wrote The Silence of the Lambs in 1988."
+        }      },
+      {
+        question: {
+          en: "Who created detective Alex Cross?",
+          es: "Who created detective Alex Cross?",
+          de: "Who created detective Alex Cross?",
+          nl: "Who created detective Alex Cross?"
+        },
+        options: [
+          { en: "James Patterson", es: "James Patterson", de: "James Patterson", nl: "James Patterson" },
+          { en: "Michael Connelly", es: "Michael Connelly", de: "Michael Connelly", nl: "Michael Connelly" },
+          { en: "Harlan Coben", es: "Harlan Coben", de: "Harlan Coben", nl: "Harlan Coben" },
+          { en: "Lee Child", es: "Lee Child", de: "Lee Child", nl: "Lee Child" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "James Patterson created detective Alex Cross in 1993.",
+          es: "James Patterson created detective Alex Cross in 1993.",
+          de: "James Patterson created detective Alex Cross in 1993.",
+          nl: "James Patterson created detective Alex Cross in 1993."
+        }      },
+      {
+        question: {
+          en: "Gone Girl is by?",
+          es: "Gone Girl is by?",
+          de: "Gone Girl is by?",
+          nl: "Gone Girl is by?"
+        },
+        options: [
+          { en: "Gillian Flynn", es: "Gillian Flynn", de: "Gillian Flynn", nl: "Gillian Flynn" },
+          { en: "Paula Hawkins", es: "Paula Hawkins", de: "Paula Hawkins", nl: "Paula Hawkins" },
+          { en: "Tana French", es: "Tana French", de: "Tana French", nl: "Tana French" },
+          { en: "Ruth Ware", es: "Ruth Ware", de: "Ruth Ware", nl: "Ruth Ware" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gillian Flynn wrote Gone Girl in 2012 about a missing wife.",
+          es: "Gillian Flynn wrote Gone Girl in 2012 about a missing wife.",
+          de: "Gillian Flynn wrote Gone Girl in 2012 about a missing wife.",
+          nl: "Gillian Flynn wrote Gone Girl in 2012 about a missing wife."
         }
       }
     ]

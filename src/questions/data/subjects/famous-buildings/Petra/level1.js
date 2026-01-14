@@ -427,6 +427,426 @@
           de: "Petra liegt im Süden Jordaniens, etwa auf halbem Weg zwischen dem Toten Meer und dem Roten Meer.",
           nl: "Petra ligt in het zuiden van Jordanië, ongeveer halverwege tussen de Dode Zee en de Rode Zee."
         }
+      },
+      {
+        question: {
+          en: "What is Al-Khazneh?",
+          es: "¿Qué es Al-Khazneh?",
+          de: "Was ist Al-Khazneh?",
+          nl: "Wat is Al-Khazneh?"
+        },
+        options: [
+          { en: "A temple", es: "Un templo", de: "Ein Tempel", nl: "Een tempel" },
+          { en: "The Treasury", es: "El Tesoro", de: "Die Schatzkammer", nl: "De Schatkamer" },
+          { en: "A palace", es: "Un palacio", de: "Ein Palast", nl: "Een paleis" },
+          { en: "A theater", es: "Un teatro", de: "Ein Theater", nl: "Een theater" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Al-Khazneh is the Arabic name for the Treasury, Petra's most famous rock-carved monument.",
+          es: "Al-Khazneh es el nombre árabe del Tesoro, el monumento tallado en roca más famoso de Petra.",
+          de: "Al-Khazneh ist der arabische Name für die Schatzkammer, Petras berühmtestes in Fels gehauenes Monument.",
+          nl: "Al-Khazneh is de Arabische naam voor de Schatkamer, het beroemdste uit rots gehouwen monument van Petra."
+        }
+      },
+      {
+        question: {
+          en: "Is Petra a natural or man-made site?",
+          es: "¿Es Petra un sitio natural o hecho por el hombre?",
+          de: "Ist Petra eine natürliche oder von Menschen gemachte Stätte?",
+          nl: "Is Petra een natuurlijke of door mensen gemaakte plek?"
+        },
+        options: [
+          { en: "Natural formation", es: "Formación natural", de: "Natürliche Formation", nl: "Natuurlijke formatie" },
+          { en: "Man-made structures", es: "Estructuras hechas por el hombre", de: "Von Menschen gemachte Strukturen", nl: "Door mensen gemaakte structuren" },
+          { en: "Partly natural, partly man-made", es: "Parcialmente natural, parcialmente hecha por el hombre", de: "Teils natürlich, teils von Menschen gemacht", nl: "Deels natuurlijk, deels door mensen gemaakt" },
+          { en: "Unknown origin", es: "Origen desconocido", de: "Unbekannter Ursprung", nl: "Onbekende oorsprong" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Petra consists of man-made structures carved into natural rock faces by the Nabataeans.",
+          es: "Petra consiste en estructuras hechas por el hombre talladas en caras de roca naturales por los nabateos.",
+          de: "Petra besteht aus von Menschen gemachten Strukturen, die von den Nabatäern in natürliche Felswände gemeißelt wurden.",
+          nl: "Petra bestaat uit door mensen gemaakte structuren die door de Nabateeërs in natuurlijke rotswanden zijn uitgehouwen."
+        }
+      },
+      {
+        question: {
+          en: "What type of rock are Petra's monuments made from?",
+          es: "¿De qué tipo de roca están hechos los monumentos de Petra?",
+          de: "Aus welcher Art von Gestein sind Petras Monumente gemacht?",
+          nl: "Van welk soort steen zijn Petra's monumenten gemaakt?"
+        },
+        options: [
+          { en: "Marble", es: "Mármol", de: "Marmor", nl: "Marmer" },
+          { en: "Granite", es: "Granito", de: "Granit", nl: "Graniet" },
+          { en: "Sandstone", es: "Arenisca", de: "Sandstein", nl: "Zandsteen" },
+          { en: "Limestone", es: "Piedra caliza", de: "Kalkstein", nl: "Kalksteen" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Petra's monuments are carved from sandstone, which displays beautiful rose-red colors.",
+          es: "Los monumentos de Petra están tallados en arenisca, que muestra hermosos colores rojo rosado.",
+          de: "Petras Monumente sind aus Sandstein gemeißelt, der schöne rosarote Farben zeigt.",
+          nl: "Petra's monumenten zijn uitgehouwen uit zandsteen, dat prachtige rozerode kleuren toont."
+        }
+      },
+      {
+        question: {
+          en: "What animals can visitors ride to explore Petra?",
+          es: "¿Qué animales pueden montar los visitantes para explorar Petra?",
+          de: "Welche Tiere können Besucher reiten, um Petra zu erkunden?",
+          nl: "Welke dieren kunnen bezoekers berijden om Petra te verkennen?"
+        },
+        options: [
+          { en: "Elephants", es: "Elefantes", de: "Elefanten", nl: "Olifanten" },
+          { en: "Camels", es: "Camellos", de: "Kamele", nl: "Kamelen" },
+          { en: "Horses and donkeys", es: "Caballos y burros", de: "Pferde und Esel", nl: "Paarden en ezels" },
+          { en: "No animals allowed", es: "No se permiten animales", de: "Keine Tiere erlaubt", nl: "Geen dieren toegestaan" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Visitors can ride horses and donkeys through Petra, especially through the Siq entrance.",
+          es: "Los visitantes pueden montar caballos y burros a través de Petra, especialmente por la entrada del Siq.",
+          de: "Besucher können Pferde und Esel durch Petra reiten, besonders durch den Siq-Eingang.",
+          nl: "Bezoekers kunnen paarden en ezels berijden door Petra, vooral door de Siq-ingang."
+        }
+      },
+      {
+        question: {
+          en: "What is another name for Petra?",
+          es: "¿Cuál es otro nombre para Petra?",
+          de: "Was ist ein anderer Name für Petra?",
+          nl: "Wat is een andere naam voor Petra?"
+        },
+        options: [
+          { en: "The Lost City", es: "La Ciudad Perdida", de: "Die Verlorene Stadt", nl: "De Verloren Stad" },
+          { en: "The Red City", es: "La Ciudad Roja", de: "Die Rote Stadt", nl: "De Rode Stad" },
+          { en: "The Stone City", es: "La Ciudad de Piedra", de: "Die Steinstadt", nl: "De Stenen Stad" },
+          { en: "The Ancient City", es: "La Ciudad Antigua", de: "Die Antike Stadt", nl: "De Oude Stad" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Petra is often called the 'Lost City' because it was forgotten by the Western world for centuries.",
+          es: "Petra se llama a menudo la 'Ciudad Perdida' porque fue olvidada por el mundo occidental durante siglos.",
+          de: "Petra wird oft 'Verlorene Stadt' genannt, weil sie von der westlichen Welt jahrhundertelang vergessen war.",
+          nl: "Petra wordt vaak de 'Verloren Stad' genoemd omdat het eeuwenlang vergeten was door de westerse wereld."
+        }
+      },
+      {
+        question: {
+          en: "Can you see Petra from space?",
+          es: "¿Se puede ver Petra desde el espacio?",
+          de: "Kann man Petra aus dem Weltraum sehen?",
+          nl: "Kun je Petra vanuit de ruimte zien?"
+        },
+        options: [
+          { en: "Yes, easily", es: "Sí, fácilmente", de: "Ja, leicht", nl: "Ja, gemakkelijk" },
+          { en: "No", es: "No", de: "Nein", nl: "Nee" },
+          { en: "Only at night", es: "Solo de noche", de: "Nur nachts", nl: "Alleen 's nachts" },
+          { en: "Only in winter", es: "Solo en invierno", de: "Nur im Winter", nl: "Alleen in de winter" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Petra cannot be seen from space because it's carved into cliffs and hidden in a valley.",
+          es: "Petra no se puede ver desde el espacio porque está tallada en acantilados y escondida en un valle.",
+          de: "Petra kann nicht aus dem Weltraum gesehen werden, weil es in Klippen gemeißelt und in einem Tal versteckt ist.",
+          nl: "Petra kan niet vanuit de ruimte worden gezien omdat het in kliffen is uitgehouwen en verborgen ligt in een vallei."
+        }
+      },
+      {
+        question: {
+          en: "What is Petra's climate like?",
+          es: "¿Cómo es el clima de Petra?",
+          de: "Wie ist das Klima in Petra?",
+          nl: "Hoe is het klimaat in Petra?"
+        },
+        options: [
+          { en: "Tropical", es: "Tropical", de: "Tropisch", nl: "Tropisch" },
+          { en: "Hot and dry desert", es: "Desierto caliente y seco", de: "Heiße und trockene Wüste", nl: "Hete en droge woestijn" },
+          { en: "Cold and snowy", es: "Frío y nevado", de: "Kalt und schneereich", nl: "Koud en besneeuw" },
+          { en: "Rainy", es: "Lluvioso", de: "Regnerisch", nl: "Regenachtig" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Petra has a hot, dry desert climate with very little rainfall throughout the year.",
+          es: "Petra tiene un clima desértico caliente y seco con muy poca lluvia durante todo el año.",
+          de: "Petra hat ein heißes, trockenes Wüstenklima mit sehr wenig Niederschlag das ganze Jahr über.",
+          nl: "Petra heeft een heet, droog woestijnklimaat met zeer weinig regenval het hele jaar door."
+        }
+      },
+      {
+        question: {
+          en: "How many tourists visit Petra each year?",
+          es: "¿Cuántos turistas visitan Petra cada año?",
+          de: "Wie viele Touristen besuchen Petra jährlich?",
+          nl: "Hoeveel toeristen bezoeken Petra elk jaar?"
+        },
+        options: [
+          { en: "About 10,000", es: "Aproximadamente 10,000", de: "Etwa 10.000", nl: "Ongeveer 10.000" },
+          { en: "About 100,000", es: "Aproximadamente 100,000", de: "Etwa 100.000", nl: "Ongeveer 100.000" },
+          { en: "About 500,000", es: "Aproximadamente 500,000", de: "Etwa 500.000", nl: "Ongeveer 500.000" },
+          { en: "Over 1 million", es: "Más de 1 millón", de: "Über 1 Million", nl: "Meer dan 1 miljoen" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Approximately 500,000 tourists visit Petra annually, making it Jordan's most popular attraction.",
+          es: "Aproximadamente 500,000 turistas visitan Petra anualmente, convirtiéndola en la atracción más popular de Jordania.",
+          de: "Etwa 500.000 Touristen besuchen Petra jährlich und machen es zu Jordaniens beliebtester Attraktion.",
+          nl: "Ongeveer 500.000 toeristen bezoeken Petra jaarlijks, waardoor het de meest populaire attractie van Jordanië is."
+        }
+      },
+      {
+        question: {
+          en: "What language did the Nabataeans speak?",
+          es: "¿Qué idioma hablaban los nabateos?",
+          de: "Welche Sprache sprachen die Nabatäer?",
+          nl: "Welke taal spraken de Nabateeërs?"
+        },
+        options: [
+          { en: "Greek", es: "Griego", de: "Griechisch", nl: "Grieks" },
+          { en: "Latin", es: "Latín", de: "Latein", nl: "Latijn" },
+          { en: "Arabic", es: "Árabe", de: "Arabisch", nl: "Arabisch" },
+          { en: "Egyptian", es: "Egipcio", de: "Ägyptisch", nl: "Egyptisch" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Nabataeans spoke an ancient form of Arabic and used the Nabataean script.",
+          es: "Los nabateos hablaban una forma antigua de árabe y usaban la escritura nabatea.",
+          de: "Die Nabatäer sprachen eine alte Form des Arabischen und verwendeten die nabatäische Schrift.",
+          nl: "De Nabateeërs spraken een oude vorm van het Arabisch en gebruikten het Nabatese schrift."
+        }
+      },
+      {
+        question: {
+          en: "What time of day is best to photograph the Treasury?",
+          es: "¿Qué hora del día es mejor para fotografiar el Tesoro?",
+          de: "Zu welcher Tageszeit fotografiert man die Schatzkammer am besten?",
+          nl: "Welk tijdstip van de dag is het beste om de Schatkamer te fotograferen?"
+        },
+        options: [
+          { en: "Midnight", es: "Medianoche", de: "Mitternacht", nl: "Middernacht" },
+          { en: "Early morning", es: "Temprano en la mañana", de: "Früher Morgen", nl: "Vroege ochtend" },
+          { en: "Noon", es: "Mediodía", de: "Mittag", nl: "Middag" },
+          { en: "Late evening", es: "Tarde en la noche", de: "Später Abend", nl: "Late avond" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Early morning is best for photographing the Treasury when sunlight first illuminates the facade.",
+          es: "La mañana temprana es mejor para fotografiar el Tesoro cuando la luz del sol ilumina por primera vez la fachada.",
+          de: "Der frühe Morgen ist am besten zum Fotografieren der Schatzkammer, wenn Sonnenlicht erstmals die Fassade beleuchtet.",
+          nl: "Vroege ochtend is het beste om de Schatkamer te fotograferen wanneer zonlicht voor het eerst de gevel verlicht."
+        }
+      },
+      {
+        question: {
+          en: "Which famous movie featured Petra?",
+          es: "¿Qué película famosa presentó a Petra?",
+          de: "Welcher berühmte Film zeigte Petra?",
+          nl: "Welke beroemde film toonde Petra?"
+        },
+        options: [
+          { en: "Star Wars", es: "Star Wars", de: "Star Wars", nl: "Star Wars" },
+          { en: "Indiana Jones", es: "Indiana Jones", de: "Indiana Jones", nl: "Indiana Jones" },
+          { en: "Harry Potter", es: "Harry Potter", de: "Harry Potter", nl: "Harry Potter" },
+          { en: "Lord of the Rings", es: "El Señor de los Anillos", de: "Herr der Ringe", nl: "Lord of the Rings" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Indiana Jones and the Last Crusade featured Petra's Treasury as the entrance to the temple.",
+          es: "Indiana Jones y la Última Cruzada presentó el Tesoro de Petra como la entrada al templo.",
+          de: "Indiana Jones und der letzte Kreuzzug zeigte Petras Schatzkammer als Eingang zum Tempel.",
+          nl: "Indiana Jones en de Laatste Kruistocht toonde Petra's Schatkamer als de ingang van de tempel."
+        }
+      },
+      {
+        question: {
+          en: "Are there restaurants inside Petra?",
+          es: "¿Hay restaurantes dentro de Petra?",
+          de: "Gibt es Restaurants in Petra?",
+          nl: "Zijn er restaurants in Petra?"
+        },
+        options: [
+          { en: "Yes, modern restaurants", es: "Sí, restaurantes modernos", de: "Ja, moderne Restaurants", nl: "Ja, moderne restaurants" },
+          { en: "No facilities at all", es: "No hay instalaciones en absoluto", de: "Überhaupt keine Einrichtungen", nl: "Helemaal geen faciliteiten" },
+          { en: "Only small cafes and rest areas", es: "Solo pequeños cafés y áreas de descanso", de: "Nur kleine Cafés und Rastplätze", nl: "Alleen kleine cafés en rustplaatsen" },
+          { en: "Only food trucks", es: "Solo camiones de comida", de: "Nur Food Trucks", nl: "Alleen foodtrucks" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Petra has several small cafes and rest areas where visitors can buy refreshments during their visit.",
+          es: "Petra tiene varios pequeños cafés y áreas de descanso donde los visitantes pueden comprar refrescos durante su visita.",
+          de: "Petra hat mehrere kleine Cafés und Rastplätze, wo Besucher während ihres Besuchs Erfrischungen kaufen können.",
+          nl: "Petra heeft verschillende kleine cafés en rustplaatsen waar bezoekers tijdens hun bezoek versnaperingen kunnen kopen."
+        }
+      },
+      {
+        question: {
+          en: "How old is Petra?",
+          es: "¿Qué edad tiene Petra?",
+          de: "Wie alt ist Petra?",
+          nl: "Hoe oud is Petra?"
+        },
+        options: [
+          { en: "About 500 years", es: "Aproximadamente 500 años", de: "Etwa 500 Jahre", nl: "Ongeveer 500 jaar" },
+          { en: "About 1,000 years", es: "Aproximadamente 1,000 años", de: "Etwa 1.000 Jahre", nl: "Ongeveer 1.000 jaar" },
+          { en: "Over 2,000 years", es: "Más de 2,000 años", de: "Über 2.000 Jahre", nl: "Meer dan 2.000 jaar" },
+          { en: "About 5,000 years", es: "Aproximadamente 5,000 años", de: "Etwa 5.000 Jahre", nl: "Ongeveer 5.000 jaar" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Petra is over 2,000 years old, established around 300 BC by the Nabataeans.",
+          es: "Petra tiene más de 2,000 años, establecida alrededor del 300 a.C. por los nabateos.",
+          de: "Petra ist über 2.000 Jahre alt, um 300 v. Chr. von den Nabatäern gegründet.",
+          nl: "Petra is meer dan 2.000 jaar oud, gesticht rond 300 v.Chr. door de Nabateeërs."
+        }
+      },
+      {
+        question: {
+          en: "What does 'Petra' mean?",
+          es: "¿Qué significa 'Petra'?",
+          de: "Was bedeutet 'Petra'?",
+          nl: "Wat betekent 'Petra'?"
+        },
+        options: [
+          { en: "Sand", es: "Arena", de: "Sand", nl: "Zand" },
+          { en: "Rock", es: "Roca", de: "Fels", nl: "Rots" },
+          { en: "Desert", es: "Desierto", de: "Wüste", nl: "Woestijn" },
+          { en: "City", es: "Ciudad", de: "Stadt", nl: "Stad" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The name 'Petra' comes from the Greek word for 'rock', referring to the rock-carved city.",
+          es: "El nombre 'Petra' proviene de la palabra griega para 'roca', refiriéndose a la ciudad tallada en roca.",
+          de: "Der Name 'Petra' kommt vom griechischen Wort für 'Fels' und bezieht sich auf die in Fels gehauene Stadt.",
+          nl: "De naam 'Petra' komt van het Griekse woord voor 'rots', verwijzend naar de uit rots gehouwen stad."
+        }
+      },
+      {
+        question: {
+          en: "Is Petra still being excavated?",
+          es: "¿Petra todavía está siendo excavada?",
+          de: "Wird Petra noch ausgegraben?",
+          nl: "Wordt Petra nog steeds opgegraven?"
+        },
+        options: [
+          { en: "Yes, ongoing excavations", es: "Sí, excavaciones en curso", de: "Ja, laufende Ausgrabungen", nl: "Ja, lopende opgravingen" },
+          { en: "No, all work finished", es: "No, todo el trabajo terminado", de: "Nein, alle Arbeiten beendet", nl: "Nee, alle werkzaamheden afgerond" },
+          { en: "Only in summer", es: "Solo en verano", de: "Nur im Sommer", nl: "Alleen in de zomer" },
+          { en: "Excavation is forbidden", es: "La excavación está prohibida", de: "Ausgrabung ist verboten", nl: "Opgraving is verboden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Archaeological excavations continue at Petra, with only about 15% of the site fully explored.",
+          es: "Las excavaciones arqueológicas continúan en Petra, con solo alrededor del 15% del sitio completamente explorado.",
+          de: "Archäologische Ausgrabungen in Petra dauern an, wobei nur etwa 15% der Stätte vollständig erforscht sind.",
+          nl: "Archeologische opgravingen gaan door in Petra, waarbij slechts ongeveer 15% van de plek volledig is onderzocht."
+        }
+      },
+      {
+        question: {
+          en: "What danger threatens Petra today?",
+          es: "¿Qué peligro amenaza a Petra hoy?",
+          de: "Welche Gefahr bedroht Petra heute?",
+          nl: "Welk gevaar bedreigt Petra vandaag?"
+        },
+        options: [
+          { en: "Volcanic eruption", es: "Erupción volcánica", de: "Vulkanausbruch", nl: "Vulkaanuitbarsting" },
+          { en: "Erosion and weathering", es: "Erosión y desgaste", de: "Erosion und Verwitterung", nl: "Erosie en verwering" },
+          { en: "Flooding only", es: "Solo inundaciones", de: "Nur Überschwemmung", nl: "Alleen overstroming" },
+          { en: "No dangers", es: "Sin peligros", de: "Keine Gefahren", nl: "Geen gevaren" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Erosion and weathering from wind, rain, and tourism threaten Petra's monuments today.",
+          es: "La erosión y el desgaste del viento, la lluvia y el turismo amenazan los monumentos de Petra hoy.",
+          de: "Erosion und Verwitterung durch Wind, Regen und Tourismus bedrohen Petras Monumente heute.",
+          nl: "Erosie en verwering door wind, regen en toerisme bedreigen vandaag Petra's monumenten."
+        }
+      },
+      {
+        question: {
+          en: "Can you stay overnight inside Petra?",
+          es: "¿Puedes quedarte de noche dentro de Petra?",
+          de: "Kann man über Nacht in Petra bleiben?",
+          nl: "Kun je overnachten binnen Petra?"
+        },
+        options: [
+          { en: "Yes, there are hotels inside", es: "Sí, hay hoteles dentro", de: "Ja, es gibt Hotels drinnen", nl: "Ja, er zijn hotels binnen" },
+          { en: "No, it closes at night", es: "No, cierra por la noche", de: "Nein, es schließt nachts", nl: "Nee, het sluit 's nachts" },
+          { en: "Only for special events", es: "Solo para eventos especiales", de: "Nur für besondere Veranstaltungen", nl: "Alleen voor speciale evenementen" },
+          { en: "Only in winter", es: "Solo en invierno", de: "Nur im Winter", nl: "Alleen in de winter" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Petra closes at night, and visitors must stay in the nearby town of Wadi Musa.",
+          es: "Petra cierra por la noche, y los visitantes deben alojarse en el pueblo cercano de Wadi Musa.",
+          de: "Petra schließt nachts, und Besucher müssen in der nahen Stadt Wadi Musa übernachten.",
+          nl: "Petra sluit 's nachts, en bezoekers moeten verblijven in de nabijgelegen stad Wadi Musa."
+        }
+      },
+      {
+        question: {
+          en: "What is the Monastery in Petra?",
+          es: "¿Qué es el Monasterio en Petra?",
+          de: "Was ist das Kloster in Petra?",
+          nl: "Wat is het Klooster in Petra?"
+        },
+        options: [
+          { en: "A small church", es: "Una pequeña iglesia", de: "Eine kleine Kirche", nl: "Een kleine kerk" },
+          { en: "A large rock-carved monument", es: "Un gran monumento tallado en roca", de: "Ein großes in Fels gehauenes Monument", nl: "Een groot uit rots gehouwen monument" },
+          { en: "A palace", es: "Un palacio", de: "Ein Palast", nl: "Een paleis" },
+          { en: "A marketplace", es: "Un mercado", de: "Ein Marktplatz", nl: "Een marktplaats" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Monastery (Ad-Deir) is a massive rock-carved monument in Petra, even larger than the Treasury.",
+          es: "El Monasterio (Ad-Deir) es un monumento masivo tallado en roca en Petra, incluso más grande que el Tesoro.",
+          de: "Das Kloster (Ad-Deir) ist ein massives in Fels gehauenes Monument in Petra, noch größer als die Schatzkammer.",
+          nl: "Het Klooster (Ad-Deir) is een massief uit rots gehouwen monument in Petra, zelfs groter dan de Schatkamer."
+        }
+      },
+      {
+        question: {
+          en: "Why is Petra important to Jordan?",
+          es: "¿Por qué es importante Petra para Jordania?",
+          de: "Warum ist Petra wichtig für Jordanien?",
+          nl: "Waarom is Petra belangrijk voor Jordanië?"
+        },
+        options: [
+          { en: "It's the capital city", es: "Es la ciudad capital", de: "Es ist die Hauptstadt", nl: "Het is de hoofdstad" },
+          { en: "Major tourist attraction", es: "Atracción turística importante", de: "Wichtige Touristenattraktion", nl: "Belangrijke toeristische attractie" },
+          { en: "Military base", es: "Base militar", de: "Militärbasis", nl: "Militaire basis" },
+          { en: "Industrial center", es: "Centro industrial", de: "Industriezentrum", nl: "Industrieel centrum" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Petra is Jordan's most important tourist attraction, bringing visitors and revenue to the country.",
+          es: "Petra es la atracción turística más importante de Jordania, trayendo visitantes e ingresos al país.",
+          de: "Petra ist Jordaniens wichtigste Touristenattraktion und bringt Besucher und Einnahmen ins Land.",
+          nl: "Petra is de belangrijkste toeristische attractie van Jordanië en brengt bezoekers en inkomsten naar het land."
+        }
+      },
+      {
+        question: {
+          en: "What is Petra also known as?",
+          es: "¿Cómo también se conoce a Petra?",
+          de: "Wie ist Petra auch bekannt?",
+          nl: "Hoe staat Petra ook bekend?"
+        },
+        options: [
+          { en: "The Lost City", es: "La Ciudad Perdida", de: "Die verlorene Stadt", nl: "De Verloren Stad" },
+          { en: "The Rose City", es: "La Ciudad Rosa", de: "Die Rosenstadt", nl: "De Rozenstad" },
+          { en: "The Golden City", es: "La Ciudad Dorada", de: "Die goldene Stadt", nl: "De Gouden Stad" },
+          { en: "The White City", es: "La Ciudad Blanca", de: "Die weiße Stadt", nl: "De Witte Stad" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Petra is called the Rose City due to the pink-red color of the sandstone from which it is carved.",
+          es: "Petra se llama la Ciudad Rosa debido al color rosa-rojo de la arenisca de la que está tallada.",
+          de: "Petra wird die Rosenstadt genannt wegen der rosa-roten Farbe des Sandsteins, aus dem sie gehauen ist.",
+          nl: "Petra wordt de Rozenstad genoemd vanwege de roze-rode kleur van de zandsteen waaruit het is gehouwen."
+        }
       }
     ]
   };

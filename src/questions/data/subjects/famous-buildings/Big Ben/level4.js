@@ -398,6 +398,447 @@
                 de: "Big Bens Neigung von 0,26 Grad ist viel weniger ausgeprägt als die etwa 4-Grad-Neigung des Schiefen Turms von Pisa. Während Pisas Neigung berühmt sichtbar und ein charakteristisches Merkmal ist, ist Big Bens leichte Neigung kaum wahrnehmbar und stellt keine strukturellen Bedenken dar. Ingenieure überwachen sie weiterhin zur Vorsicht.",
                 nl: "Big Bens helling van 0,26 graden is veel minder ernstig dan de helling van ongeveer 4 graden van de Scheve Toren van Pisa. Terwijl de helling van Pisa beroemd zichtbaar is en een bepalend kenmerk, is Big Bens lichte helling nauwelijks merkbaar en vormt geen structurele zorg. Ingenieurs blijven het monitoren als voorzorgsmaatregel."
             }
+        },
+        {
+            question: {
+                en: "What cultural significance did Big Ben's chimes have during WWII?",
+                es: "¿Qué importancia cultural tuvieron las campanadas de Big Ben durante la Segunda Guerra Mundial?",
+                de: "Welche kulturelle Bedeutung hatten Big Bens Glockenschläge während des Zweiten Weltkriegs?",
+                nl: "Welke culturele betekenis hadden Big Bens klokslagen tijdens WOII?"
+            },
+            options: {
+                en: ["None - it was silent", "BBC broadcast them to occupied Europe as symbol of hope", "Used as air raid warning", "Played only on special occasions"],
+                es: ["Ninguna - estaba en silencio", "La BBC las transmitió a Europa ocupada como símbolo de esperanza", "Usadas como advertencia de ataque aéreo", "Sonaban solo en ocasiones especiales"],
+                de: ["Keine - er war stumm", "BBC sendete sie als Symbol der Hoffnung nach besetztem Europa", "Als Luftalarm verwendet", "Nur bei besonderen Anlässen gespielt"],
+                nl: ["Geen - het was stil", "BBC zond ze uit naar bezet Europa als symbool van hoop", "Gebruikt als luchtaanvalsalarm", "Alleen bij speciale gelegenheden gespeeld"]
+            },
+            correct: 1,
+            explanation: {
+                en: "During WWII, the BBC broadcast Big Ben's chimes daily to occupied Europe as a symbol of British resistance and hope. The familiar sound became an important morale booster for those living under Nazi occupation.",
+                es: "Durante la Segunda Guerra Mundial, la BBC transmitió diariamente las campanadas de Big Ben a Europa ocupada como símbolo de resistencia británica y esperanza. El sonido familiar se convirtió en un importante impulso moral para quienes vivían bajo ocupación nazi.",
+                de: "Während des Zweiten Weltkriegs sendete die BBC Big Bens Glockenschläge täglich nach besetztem Europa als Symbol des britischen Widerstands und der Hoffnung. Der vertraute Klang wurde zu einem wichtigen Moralbooster für diejenigen, die unter Nazi-Besatzung lebten.",
+                nl: "Tijdens WOII zond de BBC dagelijks Big Bens klokslagen uit naar bezet Europa als symbool van Brits verzet en hoop. Het vertrouwde geluid werd een belangrijke moraalverhoger voor degenen die onder Nazi-bezetting leefden."
+            }
+        },
+        {
+            question: {
+                en: "When did Big Ben first appear on television?",
+                es: "¿Cuándo apareció Big Ben por primera vez en televisión?",
+                de: "Wann erschien Big Ben erstmals im Fernsehen?",
+                nl: "Wanneer verscheen Big Ben voor het eerst op televisie?"
+            },
+            options: {
+                en: ["1932 - first BBC broadcast", "1949 - post-war broadcasts", "1960 - color TV era", "1984 - satellite broadcasts"],
+                es: ["1932 - primera transmisión de la BBC", "1949 - transmisiones de posguerra", "1960 - era de TV a color", "1984 - transmisiones satelitales"],
+                de: ["1932 - erste BBC-Sendung", "1949 - Nachkriegssendungen", "1960 - Farbfernseh-Ära", "1984 - Satellitensendungen"],
+                nl: ["1932 - eerste BBC-uitzending", "1949 - naoorlogse uitzendingen", "1960 - kleurentelevisie-tijdperk", "1984 - satellietuitzendingen"]
+            },
+            correct: 0,
+            explanation: {
+                en: "Big Ben first appeared on television in 1932 during early BBC experimental broadcasts. It became iconic as the opening image for BBC news broadcasts, a tradition that continues today.",
+                es: "Big Ben apareció por primera vez en televisión en 1932 durante las primeras transmisiones experimentales de la BBC. Se volvió icónico como imagen de apertura para las transmisiones de noticias de la BBC, una tradición que continúa hoy.",
+                de: "Big Ben erschien erstmals 1932 im Fernsehen während früher experimenteller BBC-Sendungen. Er wurde ikonisch als Eröffnungsbild für BBC-Nachrichtensendungen, eine Tradition, die bis heute anhält.",
+                nl: "Big Ben verscheen voor het eerst op televisie in 1932 tijdens vroege experimentele BBC-uitzendingen. Het werd iconisch als openingsbeeld voor BBC-nieuwsuitzendingen, een traditie die vandaag de dag voortduurt."
+            }
+        },
+        {
+            question: {
+                en: "What New Year's tradition involves Big Ben?",
+                es: "¿Qué tradición de Año Nuevo involucra a Big Ben?",
+                de: "Welche Neujahrstraktion betrifft Big Ben?",
+                nl: "Welke nieuwjaarstraditie betreft Big Ben?"
+            },
+            options: {
+                en: ["Special colored lights", "12 chimes broadcast nationally at midnight", "Fireworks from the tower", "Open public access"],
+                es: ["Luces de colores especiales", "12 campanadas transmitidas nacionalmente a medianoche", "Fuegos artificiales desde la torre", "Acceso público abierto"],
+                de: ["Spezielle farbige Lichter", "12 Glockenschläge um Mitternacht landesweit übertragen", "Feuerwerk vom Turm", "Öffentlicher Zugang geöffnet"],
+                nl: ["Speciale gekleurde lichten", "12 klokslagen nationaal uitgezonden om middernacht", "Vuurwerk vanaf de toren", "Open publieke toegang"]
+            },
+            correct: 1,
+            explanation: {
+                en: "On New Year's Eve, Big Ben's 12 chimes at midnight are broadcast live across the UK and internationally. Millions gather to watch the associated fireworks display along the Thames while listening to the iconic chimes welcoming the new year.",
+                es: "En Nochevieja, las 12 campanadas de Big Ben a medianoche se transmiten en vivo en todo el Reino Unido e internacionalmente. Millones se reúnen para ver el espectáculo de fuegos artificiales asociado a lo largo del Támesis mientras escuchan las icónicas campanadas dando la bienvenida al nuevo año.",
+                de: "An Silvester werden Big Bens 12 Glockenschläge um Mitternacht live im gesamten Vereinigten Königreich und international übertragen. Millionen versammeln sich, um die zugehörige Feuerwerksshow entlang der Themse zu sehen, während sie den ikonischen Glockenschlägen lauschen, die das neue Jahr willkommen heißen.",
+                nl: "Op oudejaarsavond worden Big Bens 12 klokslagen om middernacht live uitgezonden in heel het Verenigd Koninkrijk en internationaal. Miljoenen verzamelen zich om de bijbehorende vuurwerkshow langs de Theems te bekijken terwijl ze luisteren naar de iconische klokslagen die het nieuwe jaar verwelkomen."
+            }
+        },
+        {
+            question: {
+                en: "How has Big Ben been featured in popular films?",
+                es: "¿Cómo ha aparecido Big Ben en películas populares?",
+                de: "Wie wurde Big Ben in populären Filmen gezeigt?",
+                nl: "Hoe is Big Ben gebruikt in populaire films?"
+            },
+            options: {
+                en: ["Rarely appears in films", "Iconic London landmark in numerous films including V for Vendetta and Mary Poppins", "Only in documentaries", "Banned from film appearances"],
+                es: ["Aparece raramente en películas", "Icónico punto de Londres en numerosas películas como V de Vendetta y Mary Poppins", "Solo en documentales", "Prohibido en apariciones cinematográficas"],
+                de: ["Erscheint selten in Filmen", "Ikonisches Londoner Wahrzeichen in zahlreichen Filmen wie V wie Vendetta und Mary Poppins", "Nur in Dokumentationen", "Verboten in Filmauftritten"],
+                nl: ["Verschijnt zelden in films", "Iconisch Londens landmark in talrijke films waaronder V for Vendetta en Mary Poppins", "Alleen in documentaires", "Verboden in filmoptredens"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Big Ben appears in countless films as a symbol of London and Britain. Notable appearances include 'V for Vendetta' (dramatic explosion scene), 'Mary Poppins', 'Peter Pan', and many James Bond films, making it one of cinema's most recognizable landmarks.",
+                es: "Big Ben aparece en innumerables películas como símbolo de Londres y Gran Bretaña. Apariciones notables incluyen 'V de Vendetta' (escena de explosión dramática), 'Mary Poppins', 'Peter Pan' y muchas películas de James Bond, convirtiéndolo en uno de los puntos de referencia más reconocibles del cine.",
+                de: "Big Ben erscheint in zahllosen Filmen als Symbol von London und Großbritannien. Bemerkenswerte Auftritte sind 'V wie Vendetta' (dramatische Explosionsszene), 'Mary Poppins', 'Peter Pan' und viele James-Bond-Filme, was ihn zu einem der bekanntesten Wahrzeichen des Kinos macht.",
+                nl: "Big Ben verschijnt in talloze films als symbool van Londen en Groot-Brittannië. Opvallende verschijningen zijn 'V for Vendetta' (dramatische explosie-scène), 'Mary Poppins', 'Peter Pan' en vele James Bond-films, waardoor het een van de meest herkenbare bezienswaardigheden van de cinema is."
+            }
+        },
+        {
+            question: {
+                en: "What event in 1997 honored Princess Diana?",
+                es: "¿Qué evento en 1997 honró a la Princesa Diana?",
+                de: "Welches Ereignis im Jahr 1997 ehrte Prinzessin Diana?",
+                nl: "Welke gebeurtenis in 1997 eerde prinses Diana?"
+            },
+            options: {
+                en: ["Big Ben was painted pink", "Chimes were silenced for her funeral", "Special memorial plaque installed", "Nothing - protocol prevented changes"],
+                es: ["Big Ben fue pintado de rosa", "Las campanadas fueron silenciadas para su funeral", "Placa conmemorativa especial instalada", "Nada - el protocolo impidió cambios"],
+                de: ["Big Ben wurde rosa gestrichen", "Glockenschläge wurden für ihre Beerdigung zum Schweigen gebracht", "Spezielle Gedenktafel installiert", "Nichts - Protokoll verhinderte Änderungen"],
+                nl: ["Big Ben werd roze geschilderd", "Klokslagen werden tot stilte gebracht voor haar begrafenis", "Speciale gedenkplaat geïnstalleerd", "Niets - protocol voorkwam veranderingen"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Big Ben's chimes were silenced on September 6, 1997, during Princess Diana's funeral as a mark of respect. This rare honor demonstrated the profound national mourning following her tragic death.",
+                es: "Las campanadas de Big Ben fueron silenciadas el 6 de septiembre de 1997 durante el funeral de la Princesa Diana como muestra de respeto. Este raro honor demostró el profundo duelo nacional tras su trágica muerte.",
+                de: "Big Bens Glockenschläge wurden am 6. September 1997 während Prinzessin Dianas Beerdigung als Zeichen des Respekts zum Schweigen gebracht. Diese seltene Ehre demonstrierte die tiefe nationale Trauer nach ihrem tragischen Tod.",
+                nl: "Big Bens klokslagen werden op 6 september 1997 tot stilte gebracht tijdens prinses Diana's begrafenis als blijk van respect. Deze zeldzame eer toonde de diepe nationale rouw na haar tragische dood."
+            }
+        },
+        {
+            question: {
+                en: "When did Big Ben chime for Winston Churchill's funeral?",
+                es: "¿Cuándo sonó Big Ben para el funeral de Winston Churchill?",
+                de: "Wann läutete Big Ben für Winston Churchills Beerdigung?",
+                nl: "Wanneer luidde Big Ben voor Winston Churchills begrafenis?"
+            },
+            options: {
+                en: ["1945", "1955", "1965", "1975"],
+                es: ["1945", "1955", "1965", "1975"],
+                de: ["1945", "1955", "1965", "1975"],
+                nl: ["1945", "1955", "1965", "1975"]
+            },
+            correct: 2,
+            explanation: {
+                en: "Big Ben tolled every minute during Winston Churchill's state funeral on January 30, 1965. The solemn bells honored Britain's wartime Prime Minister, with the clock hands stopped at 9:45 am during the ceremony.",
+                es: "Big Ben dobló cada minuto durante el funeral de estado de Winston Churchill el 30 de enero de 1965. Las campanas solemnes honraron al Primer Ministro británico en tiempos de guerra, con las manecillas del reloj detenidas a las 9:45 am durante la ceremonia.",
+                de: "Big Ben läutete jede Minute während Winston Churchills Staatsbeerdigung am 30. Januar 1965. Die feierlichen Glocken ehrten Großbritanniens Kriegspremierminister, wobei die Uhrzeiger während der Zeremonie um 9:45 Uhr gestoppt wurden.",
+                nl: "Big Ben luidde elke minuut tijdens Winston Churchills staatsbegrafenis op 30 januari 1965. De plechtige klokken eerden Groot-Brittannië's oorlogspremier, waarbij de wijzers van de klok om 9:45 uur tijdens de ceremonie stilstonden."
+            }
+        },
+        {
+            question: {
+                en: "What commemorative event occurred on VE Day 1945?",
+                es: "¿Qué evento conmemorativo ocurrió el Día de la Victoria en Europa 1945?",
+                de: "Welches Gedenkerereignis fand am VE-Day 1945 statt?",
+                nl: "Welke herdenkingsgebeurtenis vond plaats op VE-dag 1945?"
+            },
+            options: {
+                en: ["Big Ben was destroyed", "Chimes rang out after wartime silence", "Tower was renamed", "Nothing - still at war with Japan"],
+                es: ["Big Ben fue destruido", "Las campanadas sonaron después del silencio de guerra", "La torre fue renombrada", "Nada - aún en guerra con Japón"],
+                de: ["Big Ben wurde zerstört", "Glockenschläge ertönten nach Kriegsstille", "Turm wurde umbenannt", "Nichts - noch im Krieg mit Japan"],
+                nl: ["Big Ben werd vernietigd", "Klokslagen klonken na oorlogsstilte", "Toren werd hernoemd", "Niets - nog in oorlog met Japan"]
+            },
+            correct: 1,
+            explanation: {
+                en: "On VE Day (May 8, 1945), Big Ben's chimes rang out across London after years of wartime silence, celebrating victory in Europe. The joyous bells symbolized the end of Nazi tyranny and Britain's survival through the darkest days of WWII.",
+                es: "El Día de la Victoria en Europa (8 de mayo de 1945), las campanadas de Big Ben resonaron en Londres después de años de silencio de guerra, celebrando la victoria en Europa. Las campanas alegres simbolizaron el fin de la tiranía nazi y la supervivencia de Gran Bretaña a través de los días más oscuros de la Segunda Guerra Mundial.",
+                de: "Am VE-Day (8. Mai 1945) ertönten Big Bens Glockenschläge über London nach Jahren kriegsbedingter Stille und feierten den Sieg in Europa. Die freudigen Glocken symbolisierten das Ende der Nazi-Tyrannei und Großbritanniens Überleben durch die dunkelsten Tage des Zweiten Weltkriegs.",
+                nl: "Op VE-dag (8 mei 1945) klonken Big Bens klokslagen over Londen na jaren oorlogsstilte, ter viering van de overwinning in Europa. De vreugdevolle klokken symboliseerden het einde van de nazi-tirannie en Groot-Brittannië's overleving door de donkerste dagen van WOII."
+            }
+        },
+        {
+            question: {
+                en: "How has Big Ben appeared on British currency?",
+                es: "¿Cómo ha aparecido Big Ben en la moneda británica?",
+                de: "Wie erschien Big Ben auf britischer Währung?",
+                nl: "Hoe is Big Ben verschenen op Britse valuta?"
+            },
+            options: {
+                en: ["Never appeared", "Featured on stamps and commemorative coins", "Only on tourist postcards", "Replaced the Queen's image"],
+                es: ["Nunca apareció", "Presentado en sellos y monedas conmemorativas", "Solo en postales turísticas", "Reemplazó la imagen de la Reina"],
+                de: ["Nie erschienen", "Auf Briefmarken und Gedenkmünzen abgebildet", "Nur auf Touristenpostkarten", "Ersetzte das Bild der Königin"],
+                nl: ["Nooit verschenen", "Afgebeeld op postzegels en herdenkingsmunten", "Alleen op toeristische ansichtkaarten", "Verving het beeld van de koningin"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Big Ben has appeared on numerous British stamps and commemorative coins as a symbol of the UK. It's one of the most reproduced British landmarks on currency, stamps, and official government materials, representing British heritage worldwide.",
+                es: "Big Ben ha aparecido en numerosos sellos británicos y monedas conmemorativas como símbolo del Reino Unido. Es uno de los puntos de referencia británicos más reproducidos en moneda, sellos y materiales gubernamentales oficiales, representando el patrimonio británico en todo el mundo.",
+                de: "Big Ben erschien auf zahlreichen britischen Briefmarken und Gedenkmünzen als Symbol des Vereinigten Königreichs. Es ist eines der am häufigsten reproduzierten britischen Wahrzeichen auf Währung, Briefmarken und offiziellen Regierungsmaterialien und repräsentiert britisches Erbe weltweit.",
+                nl: "Big Ben is verschenen op talrijke Britse postzegels en herdenkingsmunten als symbool van het VK. Het is een van de meest gereproduceerde Britse bezienswaardigheden op valuta, postzegels en officiële overheidsmaterialen, wat Brits erfgoed wereldwijd vertegenwoordigt."
+            }
+        },
+        {
+            question: {
+                en: "What Olympic event in 2012 involved Big Ben?",
+                es: "¿Qué evento olímpico en 2012 involucró a Big Ben?",
+                de: "Welches olympische Ereignis im Jahr 2012 betraf Big Ben?",
+                nl: "Welk Olympisch evenement in 2012 betrof Big Ben?"
+            },
+            options: {
+                en: ["Nothing - not part of Olympics", "Chimed to open the London Olympics", "Displayed Olympic rings", "Marathon finish line location"],
+                es: ["Nada - no fue parte de las Olimpiadas", "Sonó para abrir las Olimpiadas de Londres", "Mostró los anillos olímpicos", "Ubicación de la línea de meta del maratón"],
+                de: ["Nichts - nicht Teil der Olympischen Spiele", "Läutete zur Eröffnung der Olympischen Spiele in London", "Zeigte olympische Ringe", "Marathonziel-Standort"],
+                nl: ["Niets - geen deel van Olympische Spelen", "Luidde om de Olympische Spelen van Londen te openen", "Toonde Olympische ringen", "Locatie van marathonfinishlijn"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Big Ben played a special role in the 2012 London Olympics opening ceremony, chiming at a precise moment during the spectacular show. The iconic tower was featured prominently in Olympic broadcasts, representing London and British culture to a global audience.",
+                es: "Big Ben jugó un papel especial en la ceremonia de apertura de las Olimpiadas de Londres 2012, sonando en un momento preciso durante el espectáculo espectacular. La icónica torre se destacó prominentemente en las transmisiones olímpicas, representando a Londres y la cultura británica ante una audiencia global.",
+                de: "Big Ben spielte eine besondere Rolle bei der Eröffnungszeremonie der Olympischen Spiele 2012 in London und läutete zu einem präzisen Zeitpunkt während der spektakulären Show. Der ikonische Turm wurde prominent in olympischen Übertragungen gezeigt und repräsentierte London und die britische Kultur vor einem globalen Publikum.",
+                nl: "Big Ben speelde een speciale rol in de openingsceremonie van de Olympische Spelen van Londen 2012, luidend op een precies moment tijdens de spectaculaire show. De iconische toren werd prominent getoond in Olympische uitzendingen, wat Londen en de Britse cultuur vertegenwoordigde voor een wereldwijd publiek."
+            }
+        },
+        {
+            question: {
+                en: "What milestone anniversary was celebrated in 2009?",
+                es: "¿Qué aniversario importante se celebró en 2009?",
+                de: "Welches Meilenstein-Jubiläum wurde 2009 gefeiert?",
+                nl: "Welke mijlpaalverjaardag werd gevierd in 2009?"
+            },
+            options: {
+                en: ["100th anniversary", "125th anniversary", "150th anniversary of first chime", "200th anniversary"],
+                es: ["100º aniversario", "125º aniversario", "150º aniversario del primer toque", "200º aniversario"],
+                de: ["100. Jubiläum", "125. Jubiläum", "150. Jubiläum des ersten Schlags", "200. Jubiläum"],
+                nl: ["100e verjaardag", "125e verjaardag", "150e verjaardag van eerste klokslag", "200e verjaardag"]
+            },
+            correct: 2,
+            explanation: {
+                en: "In 2009, Big Ben celebrated 150 years since its first chime on May 31, 1859. Special events and ceremonies marked this sesquicentennial, honoring one of the world's most famous clocks and its continuous service to London.",
+                es: "En 2009, Big Ben celebró 150 años desde su primer toque el 31 de mayo de 1859. Eventos especiales y ceremonias marcaron este sesquicentenario, honrando uno de los relojes más famosos del mundo y su servicio continuo a Londres.",
+                de: "2009 feierte Big Ben 150 Jahre seit seinem ersten Glockenschlag am 31. Mai 1859. Besondere Veranstaltungen und Zeremonien markierten dieses Sesquicentennial und ehrten eine der berühmtesten Uhren der Welt und ihren kontinuierlichen Dienst an London.",
+                nl: "In 2009 vierde Big Ben 150 jaar sinds zijn eerste klokslag op 31 mei 1859. Speciale evenementen en ceremonies markeerden dit sesquicentennial, ter ere van een van 's werelds beroemdste klokken en zijn voortdurende dienst aan Londen."
+            }
+        },
+        {
+            question: {
+                en: "How has Big Ben symbolized British resilience?",
+                es: "¿Cómo ha simbolizado Big Ben la resistencia británica?",
+                de: "Wie hat Big Ben britische Widerstandsfähigkeit symbolisiert?",
+                nl: "Hoe heeft Big Ben Britse veerkracht gesymboliseerd?"
+            },
+            options: {
+                en: ["It hasn't - just a clock", "Survived Blitz bombings, continued chiming through wars", "Moved during wartime", "Rebuilt after each war"],
+                es: ["No lo ha hecho - solo un reloj", "Sobrevivió bombardeos del Blitz, continuó sonando durante guerras", "Movido durante tiempos de guerra", "Reconstruido después de cada guerra"],
+                de: ["Hat es nicht - nur eine Uhr", "Überlebte Blitz-Bombardierungen, läutete weiter durch Kriege", "Während des Krieges verlegt", "Nach jedem Krieg wiederaufgebaut"],
+                nl: ["Heeft het niet - slechts een klok", "Overleefde Blitz-bombardementen, bleef luiden tijdens oorlogen", "Verplaatst tijdens oorlogstijd", "Herbouwd na elke oorlog"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Big Ben survived the WWII Blitz when nearby Parliament was bombed. Its continued chiming through wars, crises, and national challenges has made it a powerful symbol of British endurance, stability, and the nation's ability to persevere through adversity.",
+                es: "Big Ben sobrevivió al Blitz de la Segunda Guerra Mundial cuando el Parlamento cercano fue bombardeado. Su continuo sonar a través de guerras, crisis y desafíos nacionales lo ha convertido en un poderoso símbolo de resistencia británica, estabilidad y la capacidad de la nación para perseverar a través de la adversidad.",
+                de: "Big Ben überlebte den Blitz des Zweiten Weltkriegs, als das nahe gelegene Parlament bombardiert wurde. Sein kontinuierliches Läuten durch Kriege, Krisen und nationale Herausforderungen hat ihn zu einem mächtigen Symbol britischer Ausdauer, Stabilität und der Fähigkeit der Nation gemacht, Widrigkeiten zu überstehen.",
+                nl: "Big Ben overleefde de WOII Blitz toen het nabijgelegen parlement werd gebombardeerd. Het voortdurende luiden door oorlogen, crises en nationale uitdagingen heeft het een krachtig symbool gemaakt van Britse volharding, stabiliteit en het vermogen van de natie om door tegenspoed heen te komen."
+            }
+        },
+        {
+            question: {
+                en: "What architectural significance does the Elizabeth Tower have?",
+                es: "¿Qué importancia arquitectónica tiene la Elizabeth Tower?",
+                de: "Welche architektonische Bedeutung hat der Elizabeth Tower?",
+                nl: "Welke architectonische betekenis heeft de Elizabeth Tower?"
+            },
+            options: {
+                en: ["First clock tower ever built", "Finest example of Victorian Gothic Revival architecture", "Tallest structure in London", "First use of cast iron"],
+                es: ["Primera torre de reloj jamás construida", "Mejor ejemplo de arquitectura gótica victoriana", "Estructura más alta de Londres", "Primer uso de hierro fundido"],
+                de: ["Erster jemals gebauter Uhrenturm", "Bestes Beispiel viktorianischer neugotischer Architektur", "Höchstes Gebäude Londons", "Erste Verwendung von Gusseisen"],
+                nl: ["Eerste ooit gebouwde klokkentoren", "Beste voorbeeld van Victoriaanse neogotische architectuur", "Hoogste structuur in Londen", "Eerste gebruik van gietijzer"]
+            },
+            correct: 1,
+            explanation: {
+                en: "The Elizabeth Tower is considered the finest example of Victorian Gothic Revival architecture. Designed by Augustus Pugin, it perfectly embodies the 19th-century movement to revive medieval Gothic style, combining ornate decoration with functional engineering.",
+                es: "La Elizabeth Tower es considerada el mejor ejemplo de arquitectura gótica victoriana. Diseñada por Augustus Pugin, encarna perfectamente el movimiento del siglo XIX para revivir el estilo gótico medieval, combinando decoración ornamentada con ingeniería funcional.",
+                de: "Der Elizabeth Tower gilt als das beste Beispiel viktorianischer neugotischer Architektur. Entworfen von Augustus Pugin, verkörpert er perfekt die Bewegung des 19. Jahrhunderts zur Wiederbelebung des mittelalterlichen gotischen Stils und kombiniert kunstvolle Dekoration mit funktionaler Ingenieurskunst.",
+                nl: "De Elizabeth Tower wordt beschouwd als het beste voorbeeld van Victoriaanse neogotische architectuur. Ontworpen door Augustus Pugin, belichaamt het perfect de 19e-eeuwse beweging om de middeleeuwse gotische stijl te herleven, waarbij sierlijke decoratie wordt gecombineerd met functionele techniek."
+            }
+        },
+        {
+            question: {
+                en: "How does Big Ben appear in British popular culture?",
+                es: "¿Cómo aparece Big Ben en la cultura popular británica?",
+                de: "Wie erscheint Big Ben in der britischen Populärkultur?",
+                nl: "Hoe verschijnt Big Ben in de Britse populaire cultuur?"
+            },
+            options: {
+                en: ["Rarely mentioned", "Universal symbol in music, literature, TV representing London/Britain", "Only in government materials", "Forbidden in commercial use"],
+                es: ["Raramente mencionado", "Símbolo universal en música, literatura, TV representando Londres/Gran Bretaña", "Solo en materiales gubernamentales", "Prohibido en uso comercial"],
+                de: ["Selten erwähnt", "Universelles Symbol in Musik, Literatur, TV, das London/Großbritannien repräsentiert", "Nur in Regierungsmaterialien", "In kommerzieller Nutzung verboten"],
+                nl: ["Zelden genoemd", "Universeel symbool in muziek, literatuur, TV dat Londen/Groot-Brittannië vertegenwoordigt", "Alleen in overheidsmaterialen", "Verboden in commercieel gebruik"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Big Ben is ubiquitous in British popular culture, appearing in songs, novels, TV shows, and advertisements as the quintessential symbol of London and Britain. From The Beatles to Doctor Who, it represents British identity and heritage across all media.",
+                es: "Big Ben es omnipresente en la cultura popular británica, apareciendo en canciones, novelas, programas de TV y anuncios como el símbolo por excelencia de Londres y Gran Bretaña. Desde The Beatles hasta Doctor Who, representa la identidad y el patrimonio británicos en todos los medios.",
+                de: "Big Ben ist allgegenwärtig in der britischen Populärkultur und erscheint in Liedern, Romanen, TV-Shows und Werbung als das quintessenzielle Symbol von London und Großbritannien. Von den Beatles bis Doctor Who repräsentiert es britische Identität und Erbe in allen Medien.",
+                nl: "Big Ben is alomtegenwoordig in de Britse populaire cultuur, verschijnend in liedjes, romans, tv-shows en advertenties als het ultieme symbool van Londen en Groot-Brittannië. Van The Beatles tot Doctor Who, het vertegenwoordigt Britse identiteit en erfgoed in alle media."
+            }
+        },
+        {
+            question: {
+                en: "What role does Big Ben play in British national mourning?",
+                es: "¿Qué papel juega Big Ben en el duelo nacional británico?",
+                de: "Welche Rolle spielt Big Ben bei britischer nationaler Trauer?",
+                nl: "Welke rol speelt Big Ben bij Britse nationale rouw?"
+            },
+            options: {
+                en: ["No special role", "Chimes are silenced or clock stopped for state funerals and national tragedies", "Painted black", "Bells ring continuously"],
+                es: ["Sin papel especial", "Las campanadas se silencian o el reloj se detiene para funerales de estado y tragedias nacionales", "Pintado de negro", "Las campanas suenan continuamente"],
+                de: ["Keine besondere Rolle", "Glockenschläge werden zum Schweigen gebracht oder Uhr gestoppt für Staatsbegräbnisse und nationale Tragödien", "Schwarz gestrichen", "Glocken läuten kontinuierlich"],
+                nl: ["Geen speciale rol", "Klokslagen worden tot stilte gebracht of klok gestopt voor staatsbegrafenissen en nationale tragedies", "Zwart geschilderd", "Klokken luiden continu"]
+            },
+            correct: 1,
+            explanation: {
+                en: "During state funerals and national mourning, Big Ben's chimes are often silenced or the clock hands stopped as a mark of profound respect. This rare honor has been reserved for monarchs, prime ministers like Churchill, and tragic events like Princess Diana's funeral.",
+                es: "Durante funerales de estado y duelo nacional, las campanadas de Big Ben a menudo se silencian o las manecillas del reloj se detienen como muestra de profundo respeto. Este raro honor se ha reservado para monarcas, primeros ministros como Churchill y eventos trágicos como el funeral de la Princesa Diana.",
+                de: "Während Staatsbegräbnissen und nationaler Trauer werden Big Bens Glockenschläge oft zum Schweigen gebracht oder die Uhrzeiger gestoppt als Zeichen tiefen Respekts. Diese seltene Ehre wurde für Monarchen, Premierminister wie Churchill und tragische Ereignisse wie Prinzessin Dianas Beerdigung reserviert.",
+                nl: "Tijdens staatsbegrafenissen en nationale rouw worden Big Bens klokslagen vaak tot stilte gebracht of de wijzers van de klok gestopt als teken van diep respect. Deze zeldzame eer is gereserveerd voor vorsten, premiers zoals Churchill en tragische gebeurtenissen zoals prinses Diana's begrafenis."
+            }
+        },
+        {
+            question: {
+                en: "What diplomatic significance does Big Ben have?",
+                es: "¿Qué importancia diplomática tiene Big Ben?",
+                de: "Welche diplomatische Bedeutung hat Big Ben?",
+                nl: "Welke diplomatieke betekenis heeft Big Ben?"
+            },
+            options: {
+                en: ["None - purely domestic", "Symbol of British democracy and parliamentary tradition globally", "Used for secret meetings", "Only recognized in UK"],
+                es: ["Ninguna - puramente doméstico", "Símbolo de democracia británica y tradición parlamentaria globalmente", "Usado para reuniones secretas", "Solo reconocido en el Reino Unido"],
+                de: ["Keine - rein inländisch", "Symbol britischer Demokratie und parlamentarischer Tradition weltweit", "Für geheime Treffen genutzt", "Nur im Vereinigten Königreich anerkannt"],
+                nl: ["Geen - puur binnenlands", "Symbool van Britse democratie en parlementaire traditie wereldwijd", "Gebruikt voor geheime ontmoetingen", "Alleen erkend in het VK"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Big Ben symbolizes British parliamentary democracy and the rule of law worldwide. Foreign dignitaries visiting the UK often tour Parliament and Big Ben as a symbol of democratic governance. It represents the stability and continuity of British democratic institutions.",
+                es: "Big Ben simboliza la democracia parlamentaria británica y el estado de derecho en todo el mundo. Los dignatarios extranjeros que visitan el Reino Unido a menudo visitan el Parlamento y Big Ben como símbolo de gobernanza democrática. Representa la estabilidad y continuidad de las instituciones democráticas británicas.",
+                de: "Big Ben symbolisiert britische parlamentarische Demokratie und Rechtsstaatlichkeit weltweit. Ausländische Würdenträger, die das Vereinigte Königreich besuchen, besichtigen oft das Parlament und Big Ben als Symbol demokratischer Regierungsführung. Es repräsentiert die Stabilität und Kontinuität britischer demokratischer Institutionen.",
+                nl: "Big Ben symboliseert Britse parlementaire democratie en de rechtsstaat wereldwijd. Buitenlandse hoogwaardigheidsbekleders die het VK bezoeken, bezoeken vaak het parlement en Big Ben als symbool van democratisch bestuur. Het vertegenwoordigt de stabiliteit en continuïteit van Britse democratische instellingen."
+            }
+        },
+        {
+            question: {
+                en: "How has Big Ben influenced clock tower design worldwide?",
+                es: "¿Cómo ha influenciado Big Ben el diseño de torres de reloj en todo el mundo?",
+                de: "Wie hat Big Ben das Design von Uhrentürmen weltweit beeinflusst?",
+                nl: "Hoe heeft Big Ben het ontwerp van klokketorens wereldwijd beïnvloed?"
+            },
+            options: {
+                en: ["No influence - unique design", "Inspired countless replicas and clock towers globally", "Only influenced British buildings", "Design was copied from others"],
+                es: ["Sin influencia - diseño único", "Inspiró innumerables réplicas y torres de reloj globalmente", "Solo influyó en edificios británicos", "El diseño fue copiado de otros"],
+                de: ["Kein Einfluss - einzigartiges Design", "Inspirierte unzählige Nachbildungen und Uhrentürme weltweit", "Beeinflusste nur britische Gebäude", "Design wurde von anderen kopiert"],
+                nl: ["Geen invloed - uniek ontwerp", "Inspireerde talloze replica's en klokketorens wereldwijd", "Beïnvloedde alleen Britse gebouwen", "Ontwerp werd gekopieerd van anderen"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Big Ben has inspired clock tower designs worldwide, from San Francisco's Ferry Building to Mumbai's Rajabai Tower. Its iconic Gothic Revival style and precision timekeeping set a global standard, making it one of history's most influential architectural landmarks.",
+                es: "Big Ben ha inspirado diseños de torres de reloj en todo el mundo, desde el Ferry Building de San Francisco hasta la Rajabai Tower de Mumbai. Su icónico estilo gótico victoriano y cronometraje de precisión establecieron un estándar global, convirtiéndolo en uno de los puntos de referencia arquitectónicos más influyentes de la historia.",
+                de: "Big Ben hat Uhrenturm-Designs weltweit inspiriert, vom Ferry Building in San Francisco bis zum Rajabai Tower in Mumbai. Sein ikonischer neugotischer Stil und präzise Zeitmessung setzten einen globalen Standard und machten ihn zu einem der einflussreichsten architektonischen Wahrzeichen der Geschichte.",
+                nl: "Big Ben heeft klokketorenontwerpen wereldwijd geïnspireerd, van San Francisco's Ferry Building tot Mumbai's Rajabai Tower. Zijn iconische neogotische stijl en precieze tijdwaarneming stelden een mondiale standaard, waardoor het een van de meest invloedrijke architectonische bezienswaardigheden uit de geschiedenis werd."
+            }
+        },
+        {
+            question: {
+                en: "What educational role does Big Ben serve?",
+                es: "¿Qué papel educativo cumple Big Ben?",
+                de: "Welche bildende Rolle erfüllt Big Ben?",
+                nl: "Welke educatieve rol vervult Big Ben?"
+            },
+            options: {
+                en: ["No educational role", "Teaching Victorian engineering, architecture, and British history", "Only clock maintenance training", "Prohibited for educational purposes"],
+                es: ["Sin papel educativo", "Enseñanza de ingeniería victoriana, arquitectura e historia británica", "Solo entrenamiento en mantenimiento de relojes", "Prohibido para propósitos educativos"],
+                de: ["Keine bildende Rolle", "Lehre viktorianischer Ingenieurskunst, Architektur und britischer Geschichte", "Nur Uhren-Wartungstraining", "Für Bildungszwecke verboten"],
+                nl: ["Geen educatieve rol", "Onderwijs in Victoriaanse techniek, architectuur en Britse geschiedenis", "Alleen opleiding in klokunderhoud", "Verboden voor educatieve doeleinden"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Big Ben serves as a living classroom for Victorian engineering, Gothic architecture, and British history. School groups, engineering students, and historians study its mechanisms and design. It demonstrates precision engineering predating modern technology and represents industrial revolution achievements.",
+                es: "Big Ben sirve como un aula viviente para la ingeniería victoriana, la arquitectura gótica y la historia británica. Grupos escolares, estudiantes de ingeniería e historiadores estudian sus mecanismos y diseño. Demuestra ingeniería de precisión anterior a la tecnología moderna y representa los logros de la revolución industrial.",
+                de: "Big Ben dient als lebendiges Klassenzimmer für viktorianische Ingenieurskunst, gotische Architektur und britische Geschichte. Schulgruppen, Ingenieurstudenten und Historiker studieren seine Mechanismen und sein Design. Es demonstriert Präzisionstechnik vor moderner Technologie und repräsentiert Errungenschaften der industriellen Revolution.",
+                nl: "Big Ben dient als een levend klaslokaal voor Victoriaanse techniek, gotische architectuur en Britse geschiedenis. Schoolgroepen, techniekstudenten en historici bestuderen zijn mechanismen en ontwerp. Het demonstreert precisietechniek van vóór moderne technologie en vertegenwoordigt prestaties van de industriële revolutie."
+            }
+        },
+        {
+            question: {
+                en: "What tourism impact does Big Ben have on London?",
+                es: "¿Qué impacto turístico tiene Big Ben en Londres?",
+                de: "Welchen touristischen Einfluss hat Big Ben auf London?",
+                nl: "Welke toeristische impact heeft Big Ben op Londen?"
+            },
+            options: {
+                en: ["Minimal - off tourist routes", "One of most photographed landmarks, major tourist draw", "Only locals visit", "Tourism prohibited"],
+                es: ["Mínimo - fuera de rutas turísticas", "Uno de los puntos de referencia más fotografiados, gran atracción turística", "Solo visitan locales", "Turismo prohibido"],
+                de: ["Minimal - abseits der Touristenrouten", "Eines der meistfotografierten Wahrzeichen, großer Touristenmagnet", "Nur Einheimische besuchen", "Tourismus verboten"],
+                nl: ["Minimaal - buiten toeristische routes", "Een van de meest gefotografeerde bezienswaardigheden, grote toeristische trekpleister", "Alleen lokale bewoners bezoeken", "Toerisme verboden"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Big Ben is one of London's most photographed landmarks and a major tourist attraction. Millions visit annually to photograph the tower, generating significant tourism revenue. It's consistently ranked among the world's most iconic structures, drawing visitors from every country.",
+                es: "Big Ben es uno de los puntos de referencia más fotografiados de Londres y una atracción turística importante. Millones visitan anualmente para fotografiar la torre, generando ingresos turísticos significativos. Se clasifica consistentemente entre las estructuras más icónicas del mundo, atrayendo visitantes de todos los países.",
+                de: "Big Ben ist eines der meistfotografierten Wahrzeichen Londons und eine wichtige Touristenattraktion. Millionen besuchen jährlich, um den Turm zu fotografieren, was erhebliche Tourismuseinnahmen generiert. Es wird konsequent zu den ikonischsten Strukturen der Welt gezählt und zieht Besucher aus jedem Land an.",
+                nl: "Big Ben is een van Londen's meest gefotografeerde bezienswaardigheden en een belangrijke toeristische attractie. Miljoenen bezoeken jaarlijks om de toren te fotograferen, wat aanzienlijke toeristische inkomsten genereert. Het wordt consequent gerangschikt onder 's werelds meest iconische structuren, waardoor bezoekers uit elk land worden aangetrokken."
+            }
+        },
+        {
+            question: {
+                en: "What happened during the Suffragette movement in 1913?",
+                es: "¿Qué sucedió durante el movimiento sufragista en 1913?",
+                de: "Was geschah während der Suffragetten-Bewegung im Jahr 1913?",
+                nl: "Wat gebeurde er tijdens de Suffragette-beweging in 1913?"
+            },
+            options: {
+                en: ["Nothing involving Big Ben", "Suffragettes chained themselves to the tower railings", "Tower was closed permanently", "Big Ben chimed for women's rights"],
+                es: ["Nada que involucrara a Big Ben", "Las sufragistas se encadenaron a las barandillas de la torre", "La torre fue cerrada permanentemente", "Big Ben sonó por los derechos de las mujeres"],
+                de: ["Nichts, was Big Ben betraf", "Suffragetten ketteten sich an die Turmgeländer", "Turm wurde dauerhaft geschlossen", "Big Ben läutete für Frauenrechte"],
+                nl: ["Niets met betrekking tot Big Ben", "Suffragettes ketenden zich vast aan de torenbalustrades", "Toren werd permanent gesloten", "Big Ben luidde voor vrouwenrechten"]
+            },
+            correct: 1,
+            explanation: {
+                en: "In 1913, suffragettes protesting for women's voting rights chained themselves to the railings outside the tower, making Big Ben a site of political activism. This dramatic protest highlighted the struggle for women's suffrage and Big Ben's symbolic importance.",
+                es: "En 1913, las sufragistas que protestaban por los derechos de voto de las mujeres se encadenaron a las barandillas fuera de la torre, convirtiendo a Big Ben en un sitio de activismo político. Esta protesta dramática destacó la lucha por el sufragio femenino y la importancia simbólica de Big Ben.",
+                de: "1913 ketteten sich Suffragetten, die für das Frauenwahlrecht protestierten, an die Geländer außerhalb des Turms und machten Big Ben zu einem Ort politischen Aktivismus. Dieser dramatische Protest unterstrich den Kampf für das Frauenwahlrecht und Big Bens symbolische Bedeutung.",
+                nl: "In 1913 ketenden suffragettes die protesteerden voor vrouwenkiesrecht zich vast aan de balustrades buiten de toren, waardoor Big Ben een plek van politiek activisme werd. Dit dramatische protest benadrukte de strijd voor vrouwenkiesrecht en Big Bens symbolische betekenis."
+            }
+        },
+        {
+            question: {
+                en: "How did Big Ben mark Queen Elizabeth II's Diamond Jubilee in 2012?",
+                es: "¿Cómo marcó Big Ben el Jubileo de Diamante de la Reina Isabel II en 2012?",
+                de: "Wie markierte Big Ben das Diamantene Thronjubiläum von Königin Elizabeth II. im Jahr 2012?",
+                nl: "Hoe markeerde Big Ben het Diamanten Jubileum van koningin Elizabeth II in 2012?"
+            },
+            options: {
+                en: ["No special commemoration", "Tower renamed to Elizabeth Tower in her honor", "Clock painted gold", "Special 60 chimes"],
+                es: ["Sin conmemoración especial", "Torre renombrada Elizabeth Tower en su honor", "Reloj pintado de oro", "60 campanadas especiales"],
+                de: ["Keine besondere Gedenkfeier", "Turm zu Elizabeth Tower zu ihren Ehren umbenannt", "Uhr gold gestrichen", "Spezielle 60 Glockenschläge"],
+                nl: ["Geen speciale herdenking", "Toren hernoemd tot Elizabeth Tower ter ere van haar", "Klok goud geschilderd", "Speciale 60 klokslagen"]
+            },
+            correct: 1,
+            explanation: {
+                en: "In June 2012, to honor Queen Elizabeth II's Diamond Jubilee (60 years of reign), the clock tower was officially renamed Elizabeth Tower. This rare honor recognized her long service, as the tower had simply been called 'Clock Tower' since 1859.",
+                es: "En junio de 2012, para honrar el Jubileo de Diamante de la Reina Isabel II (60 años de reinado), la torre del reloj fue oficialmente renombrada Elizabeth Tower. Este raro honor reconoció su largo servicio, ya que la torre simplemente se había llamado 'Clock Tower' desde 1859.",
+                de: "Im Juni 2012 wurde der Uhrenturm offiziell in Elizabeth Tower umbenannt, um das Diamantene Thronjubiläum von Königin Elizabeth II. (60 Jahre Herrschaft) zu ehren. Diese seltene Ehre anerkannte ihren langen Dienst, da der Turm seit 1859 einfach 'Clock Tower' genannt wurde.",
+                nl: "In juni 2012 werd de klokkentoren officieel hernoemd tot Elizabeth Tower ter ere van koningin Elizabeth II's Diamanten Jubileum (60 jaar regeren). Deze zeldzame eer erkende haar lange dienst, aangezien de toren sinds 1859 simpelweg 'Clock Tower' werd genoemd."
+            }
+        },
+        {
+            question: {
+                en: "What Brexit-related event occurred at Big Ben in 2020?",
+                es: "¿Qué evento relacionado con el Brexit ocurrió en Big Ben en 2020?",
+                de: "Welches Brexit-bezogene Ereignis fand 2020 bei Big Ben statt?",
+                nl: "Welke Brexit-gerelateerde gebeurtenis vond plaats bij Big Ben in 2020?"
+            },
+            options: {
+                en: ["Nothing special happened", "Big Ben chimed at 11pm marking UK's EU departure", "Tower was draped with EU flags", "Clock was stopped permanently"],
+                es: ["Nada especial sucedió", "Big Ben sonó a las 11pm marcando la salida del Reino Unido de la UE", "La torre fue cubierta con banderas de la UE", "El reloj se detuvo permanentemente"],
+                de: ["Nichts Besonderes geschah", "Big Ben läutete um 23 Uhr zum EU-Austritt des Vereinigten Königreichs", "Turm wurde mit EU-Flaggen verhüllt", "Uhr wurde dauerhaft gestoppt"],
+                nl: ["Er gebeurde niets speciaals", "Big Ben luidde om 23.00 uur ter markering van het vertrek van het VK uit de EU", "Toren werd bedekt met EU-vlaggen", "Klok werd permanent gestopt"]
+            },
+            correct: 1,
+            explanation: {
+                en: "On January 31, 2020, Big Ben chimed at 11pm GMT to mark the UK's official departure from the European Union. This politically significant moment made Big Ben the timekeeper for Brexit, symbolizing a major turning point in British history.",
+                es: "El 31 de enero de 2020, Big Ben sonó a las 11pm GMT para marcar la salida oficial del Reino Unido de la Unión Europea. Este momento políticamente significativo convirtió a Big Ben en el guardián del tiempo para el Brexit, simbolizando un punto de inflexión importante en la historia británica.",
+                de: "Am 31. Januar 2020 läutete Big Ben um 23 Uhr GMT, um den offiziellen Austritt des Vereinigten Königreichs aus der Europäischen Union zu markieren. Dieser politisch bedeutsame Moment machte Big Ben zum Zeitmesser für den Brexit und symbolisierte einen wichtigen Wendepunkt in der britischen Geschichte.",
+                nl: "Op 31 januari 2020 luidde Big Ben om 23.00 uur GMT om het officiële vertrek van het VK uit de Europese Unie te markeren. Dit politiek belangrijke moment maakte Big Ben de tijdhouder voor Brexit, wat een belangrijk keerpunt in de Britse geschiedenis symboliseerde."
+            }
         }
     ];
 

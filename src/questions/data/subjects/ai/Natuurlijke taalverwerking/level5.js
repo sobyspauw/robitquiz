@@ -1,4 +1,4 @@
-﻿// Natural Language Processing Quiz - Level 5: Intermediate NLP
+// Natural Language Processing Quiz - Level 5: Intermediate NLP
 (function() {
   const level5 = {
     name: {
@@ -427,6 +427,416 @@
           de: "Neuronale maschinelle Übersetzung verwendet Deep Learning um Übersetzungsmuster End-to-End zu lernen, erreicht typischerweise bessere Flüssigkeit und handhabt weitreichende Abhängigkeiten besser als phrasenbasierte statistische Ansätze.",
           nl: "Neurale machinevertaling gebruikt deep learning om vertaalpatronen end-to-end te leren, behaalt typisch betere vloeiendheid en behandelt lange-afstand afhankelijkheden beter dan frase-gebaseerde statistische benaderingen."
         }
+      },
+      {
+        question: {
+          en: "What is sequence-to-sequence (seq2seq) modeling?",
+          es: "¿Qué es el modelado secuencia-a-secuencia (seq2seq)?",
+          de: "Was ist Sequenz-zu-Sequenz (seq2seq) Modellierung?",
+          nl: "Wat is sequentie-naar-sequentie (seq2seq) modellering?"
+        },
+        options: [
+          { en: "A neural architecture that maps input sequences to output sequences of potentially different lengths using encoder-decoder structure", es: "Una arquitectura neuronal que mapea secuencias de entrada a secuencias de salida de longitudes potencialmente diferentes usando estructura codificador-decodificador", de: "Eine neuronale Architektur die Eingabesequenzen auf Ausgabesequenzen potenziell unterschiedlicher Längen mit Encoder-Decoder-Struktur abbildet", nl: "Een neurale architectuur die invoersequenties afbeeldt op uitvoersequenties van potentieel verschillende lengtes met encoder-decoder structuur" },
+          { en: "A method for sorting sequences alphabetically", es: "Un método para ordenar secuencias alfabéticamente", de: "Eine Methode zum alphabetischen Sortieren von Sequenzen", nl: "Een methode voor het alfabetisch sorteren van sequenties" },
+          { en: "A technique for compressing sequential data", es: "Una técnica para comprimir datos secuenciales", de: "Eine Technik zum Komprimieren sequentieller Daten", nl: "Een techniek voor het comprimeren van sequentiële gegevens" },
+          { en: "A model that only processes fixed-length sequences", es: "Un modelo que solo procesa secuencias de longitud fija", de: "Ein Modell das nur Sequenzen fester Länge verarbeitet", nl: "Een model dat alleen sequenties van vaste lengte verwerkt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Seq2seq models use an encoder to process the input sequence into a fixed representation and a decoder to generate the output sequence from this representation, commonly used for translation, summarization, and dialogue.",
+          es: "Los modelos seq2seq usan un codificador para procesar la secuencia de entrada en una representación fija y un decodificador para generar la secuencia de salida de esta representación, comúnmente usado para traducción, resumen y diálogo.",
+          de: "Seq2seq-Modelle verwenden einen Encoder um die Eingabesequenz in eine feste Darstellung zu verarbeiten und einen Decoder um die Ausgabesequenz aus dieser Darstellung zu generieren, häufig verwendet für Übersetzung, Zusammenfassung und Dialog.",
+          nl: "Seq2seq modellen gebruiken een encoder om de invoersequentie te verwerken in een vaste representatie en een decoder om de uitvoersequentie uit deze representatie te genereren, vaak gebruikt voor vertaling, samenvatting en dialoog."
+        }
+      },
+      {
+        question: {
+          en: "What is beam search in sequence generation?",
+          es: "¿Qué es la búsqueda en haz en generación de secuencias?",
+          de: "Was ist Beam Search in der Sequenzgenerierung?",
+          nl: "Wat is beam search in sequentiegeneratie?"
+        },
+        options: [
+          { en: "A decoding algorithm that keeps track of the top k most likely partial sequences at each step", es: "Un algoritmo de decodificación que mantiene registro de las k secuencias parciales más probables en cada paso", de: "Ein Dekodierungsalgorithmus der die k wahrscheinlichsten Teilsequenzen bei jedem Schritt verfolgt", nl: "Een decoderingsalgoritme dat de top k meest waarschijnlijke gedeeltelijke sequenties bijhoudt bij elke stap" },
+          { en: "A method for searching through beams of light", es: "Un método para buscar a través de haces de luz", de: "Eine Methode zum Durchsuchen von Lichtstrahlen", nl: "Een methode voor het zoeken door lichtbundels" },
+          { en: "A technique for parallel processing of sequences", es: "Una técnica para procesamiento paralelo de secuencias", de: "Eine Technik für parallele Verarbeitung von Sequenzen", nl: "Een techniek voor parallelle verwerking van sequenties" },
+          { en: "An algorithm that always finds the optimal sequence", es: "Un algoritmo que siempre encuentra la secuencia óptima", de: "Ein Algorithmus der immer die optimale Sequenz findet", nl: "Een algoritme dat altijd de optimale sequentie vindt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Beam search maintains k candidate sequences (beam width) at each decoding step, expanding the most promising ones, balancing between greedy decoding and exhaustive search for better quality outputs in translation and text generation.",
+          es: "La búsqueda en haz mantiene k secuencias candidatas (ancho de haz) en cada paso de decodificación, expandiendo las más prometedoras, equilibrando entre decodificación codiciosa y búsqueda exhaustiva para salidas de mejor calidad en traducción y generación de texto.",
+          de: "Beam Search behält k Kandidatensequenzen (Strahlbreite) bei jedem Dekodierungsschritt bei, erweitert die vielversprechendsten, balanciert zwischen gierigem Dekodieren und erschöpfender Suche für bessere Qualitätsausgaben bei Übersetzung und Textgenerierung.",
+          nl: "Beam search onderhoudt k kandidaatsequenties (beam breedte) bij elke decoderingsstap, breidt de meest veelbelovende uit, balanceert tussen greedy decodering en exhaustieve zoektocht voor betere kwaliteitsoutputs in vertaling en tekstgeneratie."
+        }
+      },
+      {
+        question: {
+          en: "What is sarcasm detection in NLP?",
+          es: "¿Qué es la detección de sarcasmo en PLN?",
+          de: "Was ist Sarkasmuserkennung in NLP?",
+          nl: "Wat is sarcasmedetectie in NLP?"
+        },
+        options: [
+          { en: "Identifying when the literal meaning of text contradicts the intended meaning, often involving irony or mockery", es: "Identificar cuándo el significado literal del texto contradice el significado pretendido, a menudo involucrando ironía o burla", de: "Identifizieren wenn die wörtliche Bedeutung von Text der beabsichtigten Bedeutung widerspricht, oft mit Ironie oder Spott", nl: "Identificeren wanneer de letterlijke betekenis van tekst de bedoelde betekenis tegenspreekt, vaak met ironie of spot" },
+          { en: "Detecting spelling errors in text", es: "Detectar errores ortográficos en texto", de: "Rechtschreibfehler in Text erkennen", nl: "Spelfouten in tekst detecteren" },
+          { en: "Identifying the author's writing style", es: "Identificar el estilo de escritura del autor", de: "Den Schreibstil des Autors identifizieren", nl: "De schrijfstijl van de auteur identificeren" },
+          { en: "Finding contradictions between different documents", es: "Encontrar contradicciones entre diferentes documentos", de: "Widersprüche zwischen verschiedenen Dokumenten finden", nl: "Tegenstrijdigheden vinden tussen verschillende documenten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sarcasm detection is a challenging NLP task because it requires understanding context, incongruity between words and sentiment, and often relies on cues like exaggeration, hashtags, or emoticons.",
+          es: "La detección de sarcasmo es una tarea desafiante de PLN porque requiere entender contexto, incongruencia entre palabras y sentimiento, y a menudo depende de señales como exageración, hashtags o emoticones.",
+          de: "Sarkasmuserkennung ist eine herausfordernde NLP-Aufgabe weil sie Kontextverständnis erfordert, Inkongruenz zwischen Wörtern und Sentiment, und oft auf Hinweise wie Übertreibung, Hashtags oder Emoticons angewiesen ist.",
+          nl: "Sarcasmedetectie is een uitdagende NLP-taak omdat het contextueel begrip vereist, incongruentie tussen woorden en sentiment, en vaak vertrouwt op aanwijzingen zoals overdrijving, hashtags of emoticons."
+        }
+      },
+      {
+        question: {
+          en: "What is zero-shot learning in NLP?",
+          es: "¿Qué es el aprendizaje de cero disparos en PLN?",
+          de: "Was ist Zero-Shot Learning in NLP?",
+          nl: "Wat is zero-shot learning in NLP?"
+        },
+        options: [
+          { en: "Training models to perform tasks they weren't explicitly trained on by leveraging knowledge from related tasks", es: "Entrenar modelos para realizar tareas en las que no fueron explícitamente entrenados aprovechando conocimiento de tareas relacionadas", de: "Modelle trainieren um Aufgaben auszuführen für die sie nicht explizit trainiert wurden durch Nutzung von Wissen aus verwandten Aufgaben", nl: "Modellen trainen om taken uit te voeren waarvoor ze niet expliciet getraind zijn door kennis van gerelateerde taken te benutten" },
+          { en: "Training models without any data", es: "Entrenar modelos sin ningún dato", de: "Modelle ohne Daten trainieren", nl: "Modellen trainen zonder enige gegevens" },
+          { en: "Using only one training example", es: "Usar solo un ejemplo de entrenamiento", de: "Nur ein Trainingsbeispiel verwenden", nl: "Slechts één trainingsvoorbeeld gebruiken" },
+          { en: "Removing all examples from the training set", es: "Eliminar todos los ejemplos del conjunto de entrenamiento", de: "Alle Beispiele aus dem Trainingsset entfernen", nl: "Alle voorbeelden uit de trainingsset verwijderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Zero-shot learning enables models to generalize to new tasks or classes without seeing any examples during training, often using semantic representations or task descriptions to bridge the gap.",
+          es: "El aprendizaje de cero disparos permite a los modelos generalizar a nuevas tareas o clases sin ver ejemplos durante el entrenamiento, a menudo usando representaciones semánticas o descripciones de tareas para cerrar la brecha.",
+          de: "Zero-Shot Learning ermöglicht Modellen auf neue Aufgaben oder Klassen zu generalisieren ohne Beispiele während des Trainings zu sehen, oft mit semantischen Darstellungen oder Aufgabenbeschreibungen um die Lücke zu überbrücken.",
+          nl: "Zero-shot learning stelt modellen in staat om te generaliseren naar nieuwe taken of klassen zonder voorbeelden te zien tijdens training, vaak met semantische representaties of taakbeschrijvingen om de kloof te overbruggen."
+        }
+      },
+      {
+        question: {
+          en: "What is the encoder-decoder bottleneck problem in NMT?",
+          es: "¿Qué es el problema de cuello de botella codificador-decodificador en NMT?",
+          de: "Was ist das Encoder-Decoder-Flaschenhals-Problem in NMT?",
+          nl: "Wat is het encoder-decoder knelpuntprobleem in NMT?"
+        },
+        options: [
+          { en: "The fixed-size context vector must compress all source information, limiting translation quality for long sentences", es: "El vector de contexto de tamaño fijo debe comprimir toda la información fuente, limitando la calidad de traducción para oraciones largas", de: "Der Kontextvektor fester Größe muss alle Quellinformationen komprimieren, begrenzt Übersetzungsqualität für lange Sätze", nl: "De contextvector van vaste grootte moet alle broninformatie comprimeren, beperkt vertaalkwaliteit voor lange zinnen" },
+          { en: "The decoder runs slower than the encoder", es: "El decodificador funciona más lento que el codificador", de: "Der Decoder läuft langsamer als der Encoder", nl: "De decoder loopt langzamer dan de encoder" },
+          { en: "The model requires too much memory", es: "El modelo requiere demasiada memoria", de: "Das Modell benötigt zu viel Speicher", nl: "Het model vereist te veel geheugen" },
+          { en: "The encoder and decoder use incompatible architectures", es: "El codificador y decodificador usan arquitecturas incompatibles", de: "Encoder und Decoder verwenden inkompatible Architekturen", nl: "Encoder en decoder gebruiken incompatibele architecturen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The bottleneck occurs because the encoder must compress the entire source sentence into a single fixed-length vector, losing information especially for long sentences. Attention mechanisms were introduced to address this limitation.",
+          es: "El cuello de botella ocurre porque el codificador debe comprimir toda la oración fuente en un solo vector de longitud fija, perdiendo información especialmente para oraciones largas. Los mecanismos de atención se introdujeron para abordar esta limitación.",
+          de: "Der Flaschenhals tritt auf weil der Encoder den gesamten Quellsatz in einen einzelnen Vektor fester Länge komprimieren muss, verliert Information besonders für lange Sätze. Aufmerksamkeitsmechanismen wurden eingeführt um diese Einschränkung anzugehen.",
+          nl: "Het knelpunt treedt op omdat de encoder de hele bronzin moet comprimeren in een enkele vector van vaste lengte, verliest informatie vooral voor lange zinnen. Aandachtmechanismen werden geïntroduceerd om deze beperking aan te pakken."
+        }
+      },
+      {
+        question: {
+          en: "What is opinion mining?",
+          es: "¿Qué es la minería de opiniones?",
+          de: "Was ist Opinion Mining?",
+          nl: "Wat is opinion mining?"
+        },
+        options: [
+          { en: "Extracting and analyzing subjective information, opinions, and attitudes from text sources", es: "Extraer y analizar información subjetiva, opiniones y actitudes de fuentes de texto", de: "Subjektive Informationen, Meinungen und Einstellungen aus Textquellen extrahieren und analysieren", nl: "Subjectieve informatie, meningen en attitudes uit tekstbronnen extraheren en analyseren" },
+          { en: "Mining data from opinion polls", es: "Extraer datos de encuestas de opinión", de: "Daten aus Meinungsumfragen extrahieren", nl: "Gegevens extraheren uit opiniepeilingen" },
+          { en: "Finding factual information in texts", es: "Encontrar información factual en textos", de: "Faktische Informationen in Texten finden", nl: "Feitelijke informatie in teksten vinden" },
+          { en: "Collecting reviews from websites", es: "Recopilar reseñas de sitios web", de: "Bewertungen von Websites sammeln", nl: "Reviews verzamelen van websites" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Opinion mining (closely related to sentiment analysis) goes beyond polarity detection to extract detailed opinions about specific features, identify opinion holders, and determine the strength and subjectivity of expressed views.",
+          es: "La minería de opiniones (estrechamente relacionada con el análisis de sentimientos) va más allá de la detección de polaridad para extraer opiniones detalladas sobre características específicas, identificar titulares de opiniones y determinar la fuerza y subjetividad de las vistas expresadas.",
+          de: "Opinion Mining (eng verwandt mit Sentiment-Analyse) geht über Polaritätserkennung hinaus um detaillierte Meinungen über spezifische Eigenschaften zu extrahieren, Meinungsinhaber zu identifizieren und Stärke und Subjektivität ausgedrückter Ansichten zu bestimmen.",
+          nl: "Opinion mining (nauw verwant aan sentimentanalyse) gaat verder dan polariteitsdetectie om gedetailleerde meningen over specifieke kenmerken te extraheren, opiniehouders te identificeren en de sterkte en subjectiviteit van geuite meningen te bepalen."
+        }
+      },
+      {
+        question: {
+          en: "What is discourse analysis in NLP?",
+          es: "¿Qué es el análisis del discurso en PLN?",
+          de: "Was ist Diskursanalyse in NLP?",
+          nl: "Wat is discours-analyse in NLP?"
+        },
+        options: [
+          { en: "Analyzing text structure beyond sentence level to understand relationships between sentences and paragraphs", es: "Analizar estructura de texto más allá del nivel de oración para entender relaciones entre oraciones y párrafos", de: "Textstruktur über Satzebene hinaus analysieren um Beziehungen zwischen Sätzen und Absätzen zu verstehen", nl: "Tekststructuur analyseren voorbij zinsniveau om relaties tussen zinnen en paragrafen te begrijpen" },
+          { en: "Analyzing political speeches only", es: "Analizar solo discursos políticos", de: "Nur politische Reden analysieren", nl: "Alleen politieke speeches analyseren" },
+          { en: "Converting discourse to text", es: "Convertir discurso a texto", de: "Diskurs in Text konvertieren", nl: "Discours naar tekst converteren" },
+          { en: "Studying language debates", es: "Estudiar debates de idioma", de: "Sprachdebatten studieren", nl: "Taaldebatten bestuderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Discourse analysis examines how sentences connect to form coherent texts, including coreference, discourse relations (cause, contrast, etc.), topic progression, and rhetorical structure.",
+          es: "El análisis del discurso examina cómo las oraciones se conectan para formar textos coherentes, incluyendo correferencia, relaciones de discurso (causa, contraste, etc.), progresión de temas y estructura retórica.",
+          de: "Diskursanalyse untersucht wie Sätze sich verbinden um kohärente Texte zu bilden, einschließlich Koreferenz, Diskursrelationen (Ursache, Kontrast, etc.), Themenprogression und rhetorische Struktur.",
+          nl: "Discours-analyse onderzoekt hoe zinnen verbinden om coherente teksten te vormen, inclusief coreferentie, discoursrelaties (oorzaak, contrast, etc.), themaprogr essie en retorische structuur."
+        }
+      },
+      {
+        question: {
+          en: "What is text coherence?",
+          es: "¿Qué es la coherencia del texto?",
+          de: "Was ist Textkohärenz?",
+          nl: "Wat is tekstcoherentie?"
+        },
+        options: [
+          { en: "The semantic unity and logical flow that makes text meaningful and connected", es: "La unidad semántica y flujo lógico que hace el texto significativo y conectado", de: "Die semantische Einheit und logischer Fluss die Text bedeutungsvoll und verbunden macht", nl: "De semantische eenheid en logische stroom die tekst betekenisvol en verbonden maakt" },
+          { en: "Text that is easy to read", es: "Texto que es fácil de leer", de: "Text der leicht zu lesen ist", nl: "Tekst die gemakkelijk te lezen is" },
+          { en: "Grammatically correct sentences", es: "Oraciones gramaticalmente correctas", de: "Grammatisch korrekte Sätze", nl: "Grammaticaal correcte zinnen" },
+          { en: "Text written in one style", es: "Texto escrito en un estilo", de: "In einem Stil geschriebener Text", nl: "Tekst geschreven in één stijl" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Coherence refers to the underlying semantic relationships that make a text meaningful as a whole, involving topic continuity, logical connections, and shared knowledge. It differs from cohesion which uses explicit linguistic markers.",
+          es: "La coherencia se refiere a las relaciones semánticas subyacentes que hacen un texto significativo como un todo, involucrando continuidad de temas, conexiones lógicas y conocimiento compartido. Difiere de la cohesión que usa marcadores lingüísticos explícitos.",
+          de: "Kohärenz bezieht sich auf die zugrundeliegenden semantischen Beziehungen die einen Text als Ganzes bedeutungsvoll machen, umfasst Themenkontinuität, logische Verbindungen und geteiltes Wissen. Sie unterscheidet sich von Kohäsion die explizite linguistische Marker verwendet.",
+          nl: "Coherentie verwijst naar de onderliggende semantische relaties die een tekst betekenisvol maken als geheel, omvat themacontinuïteit, logische verbindingen en gedeelde kennis. Het verschilt van cohesie die expliciete linguïstische markers gebruikt."
+        }
+      },
+      {
+        question: {
+          en: "What is text cohesion?",
+          es: "¿Qué es la cohesión del texto?",
+          de: "Was ist Textkohäsion?",
+          nl: "Wat is tekstcohesie?"
+        },
+        options: [
+          { en: "The use of explicit linguistic devices like pronouns and conjunctions to link sentences", es: "El uso de dispositivos lingüísticos explícitos como pronombres y conjunciones para enlazar oraciones", de: "Die Verwendung expliziter linguistischer Mittel wie Pronomen und Konjunktionen um Sätze zu verknüpfen", nl: "Het gebruik van expliciete linguïstische middelen zoals voornaamwoorden en voegwoorden om zinnen te verbinden" },
+          { en: "Sticking text together physically", es: "Pegar texto juntos físicamente", de: "Text physisch zusammenkleben", nl: "Tekst fysiek aan elkaar plakken" },
+          { en: "Text density and compactness", es: "Densidad y compacidad del texto", de: "Textdichte und Kompaktheit", nl: "Tekstdichtheid en compactheid" },
+          { en: "Related topics in text", es: "Temas relacionados en texto", de: "Verwandte Themen in Text", nl: "Gerelateerde onderwerpen in tekst" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cohesion uses surface-level linguistic markers (pronouns, conjunctions, lexical repetition, ellipsis) to explicitly connect text elements. For example, 'John arrived. He was tired.' uses the pronoun 'He' for cohesion.",
+          es: "La cohesión usa marcadores lingüísticos de nivel superficial (pronombres, conjunciones, repetición léxica, elipsis) para conectar explícitamente elementos de texto. Por ejemplo, 'Juan llegó. Él estaba cansado.' usa el pronombre 'Él' para cohesión.",
+          de: "Kohäsion verwendet linguistische Oberflächenmarker (Pronomen, Konjunktionen, lexikalische Wiederholung, Ellipse) um Textelemente explizit zu verbinden. Zum Beispiel 'Johannes kam an. Er war müde.' verwendet das Pronomen 'Er' für Kohäsion.",
+          nl: "Cohesie gebruikt oppervlakte-niveau linguïstische markers (voornaamwoorden, voegwoorden, lexicale herhaling, ellips) om tekstelementen expliciet te verbinden. Bijvoorbeeld 'Jan arriveerde. Hij was moe.' gebruikt het voornaamwoord 'Hij' voor cohesie."
+        }
+      },
+      {
+        question: {
+          en: "What is automatic text summarization?",
+          es: "¿Qué es la resumición automática de texto?",
+          de: "Was ist automatische Textzusammenfassung?",
+          nl: "Wat is automatische tekst samenvatting?"
+        },
+        options: [
+          { en: "Generating concise versions of text that retain key information", es: "Generar versiones concisas de texto que retienen información clave", de: "Prägnante Versionen von Text generieren die Schlüsselinformationen behalten", nl: "Beknopte versies van tekst genereren die belangrijke informatie behouden" },
+          { en: "Counting words in documents", es: "Contar palabras en documentos", de: "Wörter in Dokumenten zählen", nl: "Woorden tellen in documenten" },
+          { en: "Organizing text by topic", es: "Organizar texto por tema", de: "Text nach Thema organisieren", nl: "Tekst organiseren per onderwerp" },
+          { en: "Converting long text to bullet points", es: "Convertir texto largo a viñetas", de: "Langen Text in Aufzählungspunkte konvertieren", nl: "Lange tekst naar bullets converteren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Text summarization can be extractive (selecting important sentences from the original) or abstractive (generating new sentences that capture the meaning). It's used for news digests, document overviews, and search results.",
+          es: "La resumición de texto puede ser extractiva (seleccionar oraciones importantes del original) o abstractiva (generar nuevas oraciones que capturan el significado). Se usa para resúmenes de noticias, vistas generales de documentos y resultados de búsqueda.",
+          de: "Textzusammenfassung kann extraktiv sein (wichtige Sätze aus dem Original auswählen) oder abstraktiv (neue Sätze generieren die die Bedeutung erfassen). Sie wird für Nachrichtendigests, Dokumentübersichten und Suchergebnisse verwendet.",
+          nl: "Tekst samenvatting kan extractief zijn (belangrijke zinnen selecteren uit het origineel) of abstractief (nieuwe zinnen genereren die de betekenis vastleggen). Het wordt gebruikt voor nieuwssamenvattingen, documentoverzichten en zoekresultaten."
+        }
+      },
+      {
+        question: {
+          en: "What is extractive summarization?",
+          es: "¿Qué es la resumición extractiva?",
+          de: "Was ist extraktive Zusammenfassung?",
+          nl: "Wat is extractieve samenvatting?"
+        },
+        options: [
+          { en: "Selecting and combining existing sentences from the source text to create a summary", es: "Seleccionar y combinar oraciones existentes del texto fuente para crear un resumen", de: "Vorhandene Sätze aus dem Quelltext auswählen und kombinieren um eine Zusammenfassung zu erstellen", nl: "Bestaande zinnen uit de brontekst selecteren en combineren om een samenvatting te maken" },
+          { en: "Extracting keywords only", es: "Extraer solo palabras clave", de: "Nur Schlüsselwörter extrahieren", nl: "Alleen sleutelwoorden extraheren" },
+          { en: "Removing unimportant text", es: "Eliminar texto no importante", de: "Unwichtigen Text entfernen", nl: "Onbelangrijke tekst verwijderen" },
+          { en: "Extracting metadata from documents", es: "Extraer metadatos de documentos", de: "Metadaten aus Dokumenten extrahieren", nl: "Metadata uit documenten extraheren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Extractive summarization ranks sentences by importance (using features like position, word frequency, cue phrases) and selects the top-ranking ones. It's simpler and more fluent but limited to existing content.",
+          es: "La resumición extractiva clasifica oraciones por importancia (usando características como posición, frecuencia de palabras, frases clave) y selecciona las de mayor clasificación. Es más simple y fluida pero limitada a contenido existente.",
+          de: "Extraktive Zusammenfassung rankt Sätze nach Wichtigkeit (mit Merkmalen wie Position, Worthäufigkeit, Signalphrasen) und wählt die höchstrangigen aus. Sie ist einfacher und flüssiger aber auf vorhandenen Inhalt beschränkt.",
+          nl: "Extractieve samenvatting rankt zinnen op belangrijkheid (met kenmerken zoals positie, woordfrequentie, signaalzinnen) en selecteert de hoogst gerankte. Het is eenvoudiger en vloeiender maar beperkt tot bestaande content."
+        }
+      },
+      {
+        question: {
+          en: "What is abstractive summarization?",
+          es: "¿Qué es la resumición abstractiva?",
+          de: "Was ist abstraktive Zusammenfassung?",
+          nl: "Wat is abstractieve samenvatting?"
+        },
+        options: [
+          { en: "Generating new sentences that paraphrase and synthesize information from the source", es: "Generar nuevas oraciones que parafrasean y sintetizan información de la fuente", de: "Neue Sätze generieren die Informationen aus der Quelle paraphrasieren und synthetisieren", nl: "Nieuwe zinnen genereren die informatie uit de bron parafraseren en synthetiseren" },
+          { en: "Creating abstract concepts from text", es: "Crear conceptos abstractos del texto", de: "Abstrakte Konzepte aus Text erstellen", nl: "Abstracte concepten uit tekst maken" },
+          { en: "Writing theoretical summaries", es: "Escribir resúmenes teóricos", de: "Theoretische Zusammenfassungen schreiben", nl: "Theoretische samenvattingen schrijven" },
+          { en: "Abstracting away details", es: "Abstraer detalles", de: "Details abstrahieren", nl: "Details abstraheren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Abstractive summarization uses natural language generation to create summaries with novel sentences not in the original text. It's more flexible and human-like but harder to implement and may introduce errors.",
+          es: "La resumición abstractiva usa generación de lenguaje natural para crear resúmenes con oraciones novedosas no en el texto original. Es más flexible y similar a humana pero más difícil de implementar y puede introducir errores.",
+          de: "Abstraktive Zusammenfassung verwendet natürliche Sprachgenerierung um Zusammenfassungen mit neuartigen Sätzen zu erstellen die nicht im Originaltext sind. Sie ist flexibler und menschenähnlicher aber schwerer zu implementieren und kann Fehler einführen.",
+          nl: "Abstractieve samenvatting gebruikt natuurlijke taalgeneratie om samenvattingen te maken met nieuwe zinnen die niet in de originele tekst staan. Het is flexibeler en menselijker maar moeilijker te implementeren en kan fouten introduceren."
+        }
+      },
+      {
+        question: {
+          en: "What is question answering (QA) in NLP?",
+          es: "¿Qué es respuesta a preguntas (QA) en PLN?",
+          de: "Was ist Frage-Antwort (QA) in NLP?",
+          nl: "Wat is vraagbeantwoording (QA) in NLP?"
+        },
+        options: [
+          { en: "Automatically finding answers to questions posed in natural language", es: "Encontrar automáticamente respuestas a preguntas planteadas en lenguaje natural", de: "Automatisch Antworten auf in natürlicher Sprache gestellte Fragen finden", nl: "Automatisch antwoorden vinden op vragen gesteld in natuurlijke taal" },
+          { en: "Creating question databases", es: "Crear bases de datos de preguntas", de: "Fragendatenbanken erstellen", nl: "Vragendatabases maken" },
+          { en: "Quality assurance for text", es: "Aseguramiento de calidad para texto", de: "Qualitätssicherung für Text", nl: "Kwaliteitsborging voor tekst" },
+          { en: "Questioning AI systems", es: "Cuestionar sistemas de IA", de: "KI-Systeme hinterfragen", nl: "AI-systemen bevragen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "QA systems retrieve or generate answers from text corpora or knowledge bases. They range from simple extractive QA (finding answer spans in documents) to complex reasoning systems. Examples include IBM Watson and modern reading comprehension models.",
+          es: "Los sistemas QA recuperan o generan respuestas de corpus de texto o bases de conocimiento. Van desde QA extractivo simple (encontrar fragmentos de respuesta en documentos) hasta sistemas de razonamiento complejos. Ejemplos incluyen IBM Watson y modelos modernos de comprensión lectora.",
+          de: "QA-Systeme rufen Antworten aus Textkorpora oder Wissensbasen ab oder generieren sie. Sie reichen von einfachem extraktivem QA (Antwortspannen in Dokumenten finden) bis zu komplexen Reasoning-Systemen. Beispiele sind IBM Watson und moderne Leseverständnismodelle.",
+          nl: "QA-systemen halen antwoorden op uit tekstcorpora of kennisbanken of genereren ze. Ze variëren van eenvoudige extractieve QA (antwoordspannes in documenten vinden) tot complexe reasoning-systemen. Voorbeelden zijn IBM Watson en moderne leesbegripmodellen."
+        }
+      },
+      {
+        question: {
+          en: "What is reading comprehension in NLP?",
+          es: "¿Qué es la comprensión lectora en PLN?",
+          de: "Was ist Leseverständnis in NLP?",
+          nl: "Wat is leesbegrip in NLP?"
+        },
+        options: [
+          { en: "Understanding text passages and answering questions about them", es: "Entender pasajes de texto y responder preguntas sobre ellos", de: "Textpassagen verstehen und Fragen dazu beantworten", nl: "Tekstpassages begrijpen en vragen erover beantwoorden" },
+          { en: "Reading speed measurement", es: "Medición de velocidad de lectura", de: "Lesegeschwindigkeitsmessung", nl: "Leessnelheidsmeting" },
+          { en: "Comprehending reading lists", es: "Comprender listas de lectura", de: "Leselisten verstehen", nl: "Leeslijsten begrijpen" },
+          { en: "Understanding text difficulty", es: "Entender dificultad del texto", de: "Textschwierigkeit verstehen", nl: "Tekstmoeilijkheid begrijpen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Reading comprehension tasks test whether models can understand text by answering questions requiring different skills: factual retrieval, inference, reasoning, and synthesis. Datasets like SQuAD evaluate this capability.",
+          es: "Las tareas de comprensión lectora prueban si los modelos pueden entender texto respondiendo preguntas que requieren diferentes habilidades: recuperación factual, inferencia, razonamiento y síntesis. Conjuntos de datos como SQuAD evalúan esta capacidad.",
+          de: "Leseverständnisaufgaben testen ob Modelle Text verstehen können indem sie Fragen beantworten die verschiedene Fähigkeiten erfordern: faktische Abfrage, Inferenz, Reasoning und Synthese. Datensätze wie SQuAD bewerten diese Fähigkeit.",
+          nl: "Leesbegriptaken testen of modellen tekst kunnen begrijpen door vragen te beantwoorden die verschillende vaardigheden vereisen: feitelijke opvraging, inferentie, redenering en synthese. Datasets zoals SQuAD evalueren dit vermogen."
+        }
+      },
+      {
+        question: {
+          en: "What is natural language generation (NLG)?",
+          es: "¿Qué es la generación de lenguaje natural (NLG)?",
+          de: "Was ist natürliche Sprachgenerierung (NLG)?",
+          nl: "Wat is natuurlijke taalgeneratie (NLG)?"
+        },
+        options: [
+          { en: "Automatically producing human-readable text from structured data or semantic representations", es: "Producir automáticamente texto legible por humanos desde datos estructurados o representaciones semánticas", de: "Automatisch menschenlesbaren Text aus strukturierten Daten oder semantischen Darstellungen produzieren", nl: "Automatisch menselijk leesbare tekst produceren uit gestructureerde data of semantische representaties" },
+          { en: "Generating natural sounding voices", es: "Generar voces de sonido natural", de: "Natürlich klingende Stimmen generieren", nl: "Natuurlijk klinkende stemmen genereren" },
+          { en: "Creating new languages", es: "Crear nuevos idiomas", de: "Neue Sprachen erstellen", nl: "Nieuwe talen maken" },
+          { en: "Generating random text", es: "Generar texto aleatorio", de: "Zufälligen Text generieren", nl: "Willekeurige tekst genereren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "NLG transforms data or knowledge into natural language text. Applications include report generation, chatbot responses, data-to-text systems, and creative writing. Modern LLMs have dramatically advanced NLG capabilities.",
+          es: "NLG transforma datos o conocimiento en texto de lenguaje natural. Las aplicaciones incluyen generación de informes, respuestas de chatbot, sistemas de datos a texto, y escritura creativa. Los LLMs modernos han avanzado dramáticamente las capacidades de NLG.",
+          de: "NLG transformiert Daten oder Wissen in natürlichsprachlichen Text. Anwendungen umfassen Berichtsgenerierung, Chatbot-Antworten, Daten-zu-Text-Systeme und kreatives Schreiben. Moderne LLMs haben NLG-Fähigkeiten dramatisch vorangebracht.",
+          nl: "NLG transformeert data of kennis naar natuurlijke taaltekst. Toepassingen omvatten rapportgeneratie, chatbot-reacties, data-naar-tekst systemen, en creatief schrijven. Moderne LLMs hebben NLG-capaciteiten dramatisch verbeterd."
+        }
+      },
+      {
+        question: {
+          en: "What is neural machine translation (NMT)?",
+          es: "¿Qué es la traducción automática neuronal (NMT)?",
+          de: "Was ist neuronale maschinelle Übersetzung (NMT)?",
+          nl: "Wat is neurale machinevertaling (NMT)?"
+        },
+        options: [
+          { en: "Using neural networks, especially sequence-to-sequence models, to translate between languages", es: "Usar redes neuronales, especialmente modelos de secuencia a secuencia, para traducir entre idiomas", de: "Neuronale Netze, besonders Sequenz-zu-Sequenz-Modelle verwenden um zwischen Sprachen zu übersetzen", nl: "Neurale netwerken gebruiken, vooral sequentie-naar-sequentie modellen, om tussen talen te vertalen" },
+          { en: "Translating neural network architectures", es: "Traducir arquitecturas de redes neuronales", de: "Architekturen neuronaler Netze übersetzen", nl: "Neurale netwerkarchitecturen vertalen" },
+          { en: "Machine translation using neurons", es: "Traducción automática usando neuronas", de: "Maschinelle Übersetzung mit Neuronen", nl: "Machinevertaling met neuronen" },
+          { en: "Neural processing for translation", es: "Procesamiento neuronal para traducción", de: "Neuronale Verarbeitung für Übersetzung", nl: "Neurale verwerking voor vertaling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "NMT replaced traditional phrase-based statistical MT with end-to-end neural models. Modern NMT uses Transformer architectures with attention mechanisms, achieving human-level quality on many language pairs.",
+          es: "NMT reemplazó la MT estadística tradicional basada en frases con modelos neuronales de extremo a extremo. NMT moderna usa arquitecturas Transformer con mecanismos de atención, logrando calidad a nivel humano en muchos pares de idiomas.",
+          de: "NMT ersetzte traditionelle phrasenbasierte statistische MT durch End-to-End-Neuronale Modelle. Moderne NMT verwendet Transformer-Architekturen mit Aufmerksamkeitsmechanismen, erreicht menschliche Qualität bei vielen Sprachpaaren.",
+          nl: "NMT verving traditionele phrase-based statistische MT met end-to-end neurale modellen. Moderne NMT gebruikt Transformer-architecturen met aandachtmechanismen, bereikt menselijke kwaliteit bij veel talenparen."
+        }
+      },
+      {
+        question: {
+          en: "What is paraphrasing in NLP?",
+          es: "¿Qué es la paráfrasis en PLN?",
+          de: "Was ist Paraphrasierung in NLP?",
+          nl: "Wat is parafraseren in NLP?"
+        },
+        options: [
+          { en: "Expressing the same meaning using different words and sentence structures", es: "Expresar el mismo significado usando diferentes palabras y estructuras de oraciones", de: "Dieselbe Bedeutung mit verschiedenen Wörtern und Satzstrukturen ausdrücken", nl: "Dezelfde betekenis uitdrukken met verschillende woorden en zinsstructuren" },
+          { en: "Summarizing paragraphs", es: "Resumir párrafos", de: "Absätze zusammenfassen", nl: "Paragrafen samenvatten" },
+          { en: "Translating between languages", es: "Traducir entre idiomas", de: "Zwischen Sprachen übersetzen", nl: "Tussen talen vertalen" },
+          { en: "Formatting paragraphs differently", es: "Formatear párrafos diferentemente", de: "Absätze anders formatieren", nl: "Paragrafen anders formatteren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Paraphrase generation rewrites text while preserving meaning, useful for data augmentation, avoiding plagiarism, simplifying text, and improving writing. It requires understanding semantics and generating fluent alternatives.",
+          es: "La generación de paráfrasis reescribe texto mientras preserva significado, útil para aumentación de datos, evitar plagio, simplificar texto y mejorar escritura. Requiere entender semántica y generar alternativas fluidas.",
+          de: "Paraphrasengenerierung schreibt Text um während Bedeutung bewahrt wird, nützlich für Datenaugmentierung, Plagiatsvermeidung, Textvereinfachung und Schreibverbesserung. Es erfordert Semantikverständnis und Generierung flüssiger Alternativen.",
+          nl: "Parafraseert generatie herschrijft tekst terwijl betekenis behouden blijft, nuttig voor data-augmentatie, plagiaat vermijden, tekst vereenvoudigen en schrijven verbeteren. Het vereist semantiek begrijpen en vloeiende alternatieven genereren."
+        }
+      },
+      {
+        question: {
+          en: "What is dialogue management?",
+          es: "¿Qué es la gestión de diálogo?",
+          de: "Was ist Dialogmanagement?",
+          nl: "Wat is dialoogbeheer?"
+        },
+        options: [
+          { en: "Controlling the flow and state of multi-turn conversations in dialogue systems", es: "Controlar el flujo y estado de conversaciones de múltiples turnos en sistemas de diálogo", de: "Fluss und Zustand von Mehrrunden-Gesprächen in Dialogsystemen steuern", nl: "De stroom en staat van meervoudige beurten gesprekken in dialoogsystemen controleren" },
+          { en: "Managing dialogue files", es: "Gestionar archivos de diálogo", de: "Dialogdateien verwalten", nl: "Dialoogbestanden beheren" },
+          { en: "Writing dialogue scripts", es: "Escribir guiones de diálogo", de: "Dialogskripte schreiben", nl: "Dialoogscripts schrijven" },
+          { en: "Recording conversations", es: "Grabar conversaciones", de: "Gespräche aufzeichnen", nl: "Gesprekken opnemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dialogue management tracks conversation history, maintains dialogue state, decides next actions, and handles context across turns. It's crucial for task-oriented chatbots, virtual assistants, and conversational AI.",
+          es: "La gestión de diálogo rastrea historial de conversación, mantiene estado de diálogo, decide próximas acciones, y maneja contexto a través de turnos. Es crucial para chatbots orientados a tareas, asistentes virtuales e IA conversacional.",
+          de: "Dialogmanagement verfolgt Gesprächsverlauf, hält Dialogzustand aufrecht, entscheidet über nächste Aktionen und behandelt Kontext über Runden hinweg. Es ist entscheidend für aufgabenorientierte Chatbots, virtuelle Assistenten und konversationelle KI.",
+          nl: "Dialoogbeheer volgt gespreksgeschiedenis, onderhoudt dialoogstaat, beslist volgende acties, en behandelt context over beurten. Het is cruciaal voor taakgerichte chatbots, virtuele assistenten en conversationele AI."
+        }
+      },
+      {
+        question: {
+          en: "What is intent recognition in dialogue systems?",
+          es: "¿Qué es el reconocimiento de intención en sistemas de diálogo?",
+          de: "Was ist Intentionserkennung in Dialogsystemen?",
+          nl: "Wat is intentieherkenning in dialoogsystemen?"
+        },
+        options: [
+          { en: "Identifying the user's goal or purpose from their utterance", es: "Identificar el objetivo o propósito del usuario desde su enunciado", de: "Das Ziel oder den Zweck des Benutzers aus ihrer Äußerung identifizieren", nl: "Het doel of de bedoeling van de gebruiker identificeren uit hun uiting" },
+          { en: "Recognizing user intentions in code", es: "Reconocer intenciones de usuario en código", de: "Benutzerabsichten in Code erkennen", nl: "Gebruikersintenties in code herkennen" },
+          { en: "Detecting malicious intent", es: "Detectar intención maliciosa", de: "Böswillige Absicht erkennen", nl: "Kwaadaardige intentie detecteren" },
+          { en: "Understanding design intent", es: "Entender intención de diseño", de: "Designabsicht verstehen", nl: "Ontwerpintentie begrijpen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Intent recognition classifies user utterances into predefined categories representing goals (e.g., book_flight, check_weather, cancel_order). This is typically the first step in task-oriented dialogue systems.",
+          es: "El reconocimiento de intención clasifica enunciados de usuario en categorías predefinidas representando objetivos (ej., reservar_vuelo, verificar_clima, cancelar_pedido). Este es típicamente el primer paso en sistemas de diálogo orientados a tareas.",
+          de: "Intentionserkennung klassifiziert Benutzeräußerungen in vordefinierte Kategorien die Ziele repräsentieren (z.B. flug_buchen, wetter_prüfen, bestellung_stornieren). Dies ist typischerweise der erste Schritt in aufgabenorientierten Dialogsystemen.",
+          nl: "Intentieherkenning classificeert gebruikersuitingen in voorgedefinieerde categorieën die doelen vertegenwoordigen (bijv. vlucht_boeken, weer_checken, bestelling_annuleren). Dit is typisch de eerste stap in taakgerichte dialoogsystemen."
+        }    },
+    {
+      question: {en: "What is strategy in games?", es: "What is strategy in games?", de: "What is strategy in games?", nl: "What is strategy in games?"},
+      options: [
+        {en: "Planning to achieve objectives", es: "Planning to achieve objectives", de: "Planning to achieve objectives", nl: "Planning to achieve objectives"},
+        {en: "Random moves", es: "Random moves", de: "Random moves", nl: "Random moves"},
+        {en: "Luck only", es: "Luck only", de: "Luck only", nl: "Luck only"},
+        {en: "No planning", es: "No planning", de: "No planning", nl: "No planning"}
+      ],
+      correct: 0,
+      explanation: {en: "Strategy involves planning and decision-making to achieve game objectives.", es: "Strategy involves planning and decision-making to achieve game objectives.", de: "Strategy involves planning and decision-making to achieve game objectives.", nl: "Strategy involves planning and decision-making to achieve game objectives."}
+
       }
     ]
   };

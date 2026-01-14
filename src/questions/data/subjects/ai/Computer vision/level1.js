@@ -427,6 +427,426 @@
           de: "Bevor Computer ein Bild analysieren können, müssen sie zuerst alle visuellen Informationen in numerische Daten umwandeln die sie verarbeiten und verstehen können.",
           nl: "Voordat computers een afbeelding kunnen analyseren, moeten ze eerst alle visuele informatie omzetten naar numerieke data die ze kunnen verwerken en begrijpen."
         }
+      },
+      {
+        question: {
+          en: "What can computer vision help self-driving cars do?",
+          es: "¿Qué puede ayudar la visión por computadora a hacer a los autos autónomos?",
+          de: "Was kann Computer Vision selbstfahrenden Autos helfen zu tun?",
+          nl: "Wat kan computer vision zelfrijdende auto's helpen doen?"
+        },
+        options: [
+          { en: "See roads, pedestrians, and traffic signs", es: "Ver carreteras, peatones y señales de tráfico", de: "Straßen, Fußgänger und Verkehrsschilder sehen", nl: "Wegen, voetgangers en verkeersborden zien" },
+          { en: "Play music louder", es: "Reproducir música más fuerte", de: "Musik lauter spielen", nl: "Muziek luider afspelen" },
+          { en: "Use less fuel", es: "Usar menos combustible", de: "Weniger Kraftstoff verbrauchen", nl: "Minder brandstof gebruiken" },
+          { en: "Change tire pressure", es: "Cambiar presión de neumáticos", de: "Reifendruck ändern", nl: "Bandenspanning wijzigen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Self-driving cars use computer vision through cameras to detect lanes, read traffic signs, identify pedestrians, and navigate safely on roads.",
+          es: "Los autos autónomos usan visión por computadora a través de cámaras para detectar carriles, leer señales de tráfico, identificar peatones y navegar de forma segura en carreteras.",
+          de: "Selbstfahrende Autos nutzen Computer Vision durch Kameras um Fahrspuren zu erkennen, Verkehrsschilder zu lesen, Fußgänger zu identifizieren und sicher auf Straßen zu navigieren.",
+          nl: "Zelfrijdende auto's gebruiken computer vision via camera's om rijstroken te detecteren, verkeersborden te lezen, voetgangers te identificeren en veilig op wegen te navigeren."
+        }
+      },
+      {
+        question: {
+          en: "What is object detection in computer vision?",
+          es: "¿Qué es la detección de objetos en visión por computadora?",
+          de: "Was ist Objekterkennung in Computer Vision?",
+          nl: "Wat is objectdetectie in computer vision?"
+        },
+        options: [
+          { en: "Finding and identifying specific things in images", es: "Encontrar e identificar cosas específicas en imágenes", de: "Spezifische Dinge in Bildern finden und identifizieren", nl: "Specifieke dingen vinden en identificeren in afbeeldingen" },
+          { en: "Deleting unwanted objects", es: "Eliminar objetos no deseados", de: "Unerwünschte Objekte löschen", nl: "Ongewenste objecten verwijderen" },
+          { en: "Making objects larger", es: "Hacer objetos más grandes", de: "Objekte größer machen", nl: "Objecten groter maken" },
+          { en: "Creating new objects", es: "Crear nuevos objetos", de: "Neue Objekte erstellen", nl: "Nieuwe objecten maken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Object detection locates and classifies multiple objects within an image, drawing boxes around them and labeling what they are, like finding all cars in a street photo.",
+          es: "La detección de objetos localiza y clasifica múltiples objetos dentro de una imagen, dibujando cajas alrededor de ellos y etiquetando qué son, como encontrar todos los autos en una foto de calle.",
+          de: "Objekterkennung lokalisiert und klassifiziert mehrere Objekte in einem Bild, zeichnet Kästchen um sie herum und beschriftet was sie sind, wie das Finden aller Autos in einem Straßenfoto.",
+          nl: "Objectdetectie lokaliseert en classificeert meerdere objecten binnen een afbeelding, tekent vakken eromheen en labelt wat ze zijn, zoals het vinden van alle auto's in een straatfoto."
+        }
+      },
+      {
+        question: {
+          en: "How does a barcode scanner work?",
+          es: "¿Cómo funciona un escáner de códigos de barras?",
+          de: "Wie funktioniert ein Barcode-Scanner?",
+          nl: "Hoe werkt een barcodescanner?"
+        },
+        options: [
+          { en: "It uses computer vision to read the pattern of lines", es: "Usa visión por computadora para leer el patrón de líneas", de: "Es nutzt Computer Vision um das Linienmuster zu lesen", nl: "Het gebruikt computer vision om het patroon van lijnen te lezen" },
+          { en: "It weighs the product", es: "Pesa el producto", de: "Es wiegt das Produkt", nl: "Het weegt het product" },
+          { en: "It reads a hidden chip", es: "Lee un chip oculto", de: "Es liest einen versteckten Chip", nl: "Het leest een verborgen chip" },
+          { en: "It connects to wifi", es: "Se conecta a wifi", de: "Es verbindet sich mit WLAN", nl: "Het verbindt met wifi" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Barcode scanners use simple computer vision to capture an image of the barcode's line pattern, then decode those lines into numbers that represent product information.",
+          es: "Los escáneres de códigos de barras usan visión por computadora simple para capturar una imagen del patrón de líneas del código de barras, luego decodifican esas líneas en números que representan información del producto.",
+          de: "Barcode-Scanner nutzen einfache Computer Vision um ein Bild des Linienmusters des Barcodes zu erfassen, dann dekodieren sie diese Linien in Zahlen die Produktinformationen darstellen.",
+          nl: "Barcodescanners gebruiken eenvoudige computer vision om een afbeelding van het lijnpatroon van de barcode vast te leggen, dan decoderen ze die lijnen naar nummers die productinformatie vertegenwoordigen."
+        }
+      },
+      {
+        question: {
+          en: "What is image resolution?",
+          es: "¿Qué es la resolución de imagen?",
+          de: "Was ist Bildauflösung?",
+          nl: "Wat is beeldresolutie?"
+        },
+        options: [
+          { en: "How many pixels an image contains", es: "Cuántos píxeles contiene una imagen", de: "Wie viele Pixel ein Bild enthält", nl: "Hoeveel pixels een afbeelding bevat" },
+          { en: "How bright the image is", es: "Qué tan brillante es la imagen", de: "Wie hell das Bild ist", nl: "Hoe helder de afbeelding is" },
+          { en: "What colors the image has", es: "Qué colores tiene la imagen", de: "Welche Farben das Bild hat", nl: "Welke kleuren de afbeelding heeft" },
+          { en: "When the photo was taken", es: "Cuándo se tomó la foto", de: "Wann das Foto aufgenommen wurde", nl: "Wanneer de foto genomen werd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Resolution measures the number of pixels in an image - higher resolution means more pixels and more detail, making it easier for computer vision to analyze.",
+          es: "La resolución mide el número de píxeles en una imagen - mayor resolución significa más píxeles y más detalle, facilitando que la visión por computadora analice.",
+          de: "Auflösung misst die Anzahl der Pixel in einem Bild - höhere Auflösung bedeutet mehr Pixel und mehr Details, macht es einfacher für Computer Vision zu analysieren.",
+          nl: "Resolutie meet het aantal pixels in een afbeelding - hogere resolutie betekent meer pixels en meer detail, maakt het gemakkelijker voor computer vision om te analyseren."
+        }
+      },
+      {
+        question: {
+          en: "Why do some apps ask for camera permission?",
+          es: "¿Por qué algunas aplicaciones piden permiso para la cámara?",
+          de: "Warum fragen manche Apps nach Kameraberechtigung?",
+          nl: "Waarom vragen sommige apps om cameratoegang?"
+        },
+        options: [
+          { en: "To use computer vision features like scanning or filters", es: "Para usar funciones de visión por computadora como escaneo o filtros", de: "Um Computer Vision Funktionen wie Scannen oder Filter zu nutzen", nl: "Om computer vision functies te gebruiken zoals scannen of filters" },
+          { en: "To make the phone work faster", es: "Para hacer que el teléfono funcione más rápido", de: "Um das Telefon schneller zu machen", nl: "Om de telefoon sneller te laten werken" },
+          { en: "To save battery life", es: "Para ahorrar batería", de: "Um Akkulaufzeit zu sparen", nl: "Om batterijduur te besparen" },
+          { en: "To check if the camera is working", es: "Para verificar si la cámara funciona", de: "Um zu prüfen ob die Kamera funktioniert", nl: "Om te controleren of de camera werkt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Apps need camera access to capture images or video for computer vision tasks like QR code scanning, augmented reality filters, or photo editing.",
+          es: "Las aplicaciones necesitan acceso a la cámara para capturar imágenes o video para tareas de visión por computadora como escaneo de códigos QR, filtros de realidad aumentada o edición de fotos.",
+          de: "Apps benötigen Kamerazugriff um Bilder oder Videos für Computer Vision Aufgaben wie QR-Code-Scannen, Augmented Reality Filter oder Fotobearbeitung aufzunehmen.",
+          nl: "Apps hebben cameratoegang nodig om afbeeldingen of video vast te leggen voor computer vision taken zoals QR-code scannen, augmented reality filters of fotobewerking."
+        }
+      },
+      {
+        question: {
+          en: "What can computer vision tell about a traffic light?",
+          es: "¿Qué puede decir la visión por computadora sobre un semáforo?",
+          de: "Was kann Computer Vision über eine Ampel sagen?",
+          nl: "Wat kan computer vision vertellen over een verkeerslicht?"
+        },
+        options: [
+          { en: "What color it is showing (red, yellow, green)", es: "Qué color está mostrando (rojo, amarillo, verde)", de: "Welche Farbe es zeigt (rot, gelb, grün)", nl: "Welke kleur het toont (rood, geel, groen)" },
+          { en: "How old the traffic light is", es: "Qué edad tiene el semáforo", de: "Wie alt die Ampel ist", nl: "Hoe oud het verkeerslicht is" },
+          { en: "What the traffic light is made of", es: "De qué está hecho el semáforo", de: "Woraus die Ampel gemacht ist", nl: "Waar het verkeerslicht van gemaakt is" },
+          { en: "How much electricity it uses", es: "Cuánta electricidad usa", de: "Wie viel Strom es verbraucht", nl: "Hoeveel elektriciteit het gebruikt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Computer vision can identify which light is illuminated on a traffic signal, helping autonomous vehicles know when to stop, slow down, or go.",
+          es: "La visión por computadora puede identificar qué luz está iluminada en una señal de tráfico, ayudando a vehículos autónomos a saber cuándo parar, reducir velocidad o avanzar.",
+          de: "Computer Vision kann identifizieren welches Licht an einer Verkehrsampel leuchtet, hilft autonomen Fahrzeugen zu wissen wann sie stoppen, verlangsamen oder fahren sollen.",
+          nl: "Computer vision kan identificeren welk licht verlicht is op een verkeerssignaal, helpt autonome voertuigen te weten wanneer te stoppen, vertragen of gaan."
+        }
+      },
+      {
+        question: {
+          en: "What does grayscale mean in images?",
+          es: "¿Qué significa escala de grises en imágenes?",
+          de: "Was bedeutet Graustufen in Bildern?",
+          nl: "Wat betekent grijswaarden in afbeeldingen?"
+        },
+        options: [
+          { en: "Images that only have shades of black, white, and gray", es: "Imágenes que solo tienen tonos de negro, blanco y gris", de: "Bilder die nur Schattierungen von Schwarz, Weiß und Grau haben", nl: "Afbeeldingen die alleen tinten van zwart, wit en grijs hebben" },
+          { en: "Very large images", es: "Imágenes muy grandes", de: "Sehr große Bilder", nl: "Heel grote afbeeldingen" },
+          { en: "Blurry images", es: "Imágenes borrosas", de: "Verschwommene Bilder", nl: "Wazige afbeeldingen" },
+          { en: "Old photographs", es: "Fotografías antiguas", de: "Alte Fotografien", nl: "Oude foto's" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Grayscale images contain no color - just different levels of brightness from black to white. Computer vision often converts images to grayscale to simplify analysis.",
+          es: "Las imágenes en escala de grises no contienen color - solo diferentes niveles de brillo del negro al blanco. La visión por computadora a menudo convierte imágenes a escala de grises para simplificar el análisis.",
+          de: "Graustufen-Bilder enthalten keine Farbe - nur verschiedene Helligkeitsstufen von Schwarz bis Weiß. Computer Vision konvertiert oft Bilder in Graustufen um die Analyse zu vereinfachen.",
+          nl: "Grijswaarden afbeeldingen bevatten geen kleur - alleen verschillende helderheidsniveaus van zwart naar wit. Computer vision converteert vaak afbeeldingen naar grijswaarden om analyse te vereenvoudigen."
+        }
+      },
+      {
+        question: {
+          en: "How can computer vision help in sports?",
+          es: "¿Cómo puede ayudar la visión por computadora en los deportes?",
+          de: "Wie kann Computer Vision im Sport helfen?",
+          nl: "Hoe kan computer vision helpen in sport?"
+        },
+        options: [
+          { en: "Track players and ball movement during games", es: "Rastrear jugadores y movimiento del balón durante juegos", de: "Spieler und Ballbewegung während Spielen verfolgen", nl: "Spelers en balbeweging tijdens wedstrijden volgen" },
+          { en: "Make players run faster", es: "Hacer que los jugadores corran más rápido", de: "Spieler schneller laufen lassen", nl: "Spelers sneller laten rennen" },
+          { en: "Change the weather for outdoor games", es: "Cambiar el clima para juegos al aire libre", de: "Das Wetter für Outdoor-Spiele ändern", nl: "Het weer veranderen voor buitenspelen" },
+          { en: "Cook food at stadiums", es: "Cocinar comida en estadios", de: "Essen in Stadien kochen", nl: "Eten koken in stadions" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Computer vision analyzes video footage to track player positions, ball trajectory, and game statistics, helping coaches analyze performance and referees make accurate calls.",
+          es: "La visión por computadora analiza imágenes de video para rastrear posiciones de jugadores, trayectoria del balón y estadísticas del juego, ayudando a entrenadores a analizar rendimiento y árbitros a tomar decisiones precisas.",
+          de: "Computer Vision analysiert Videomaterial um Spielerpositionen, Ballbahn und Spielstatistiken zu verfolgen, hilft Trainern Leistung zu analysieren und Schiedsrichtern genaue Entscheidungen zu treffen.",
+          nl: "Computer vision analyseert videobeelden om spelerposities, baltraject en wedstrijdstatistieken te volgen, helpt coaches prestaties te analyseren en scheidsrechters nauwkeurige beslissingen te nemen."
+        }
+      },
+      {
+        question: {
+          en: "What is a QR code?",
+          es: "¿Qué es un código QR?",
+          de: "Was ist ein QR-Code?",
+          nl: "Wat is een QR-code?"
+        },
+        options: [
+          { en: "A square pattern that computers can read with a camera", es: "Un patrón cuadrado que las computadoras pueden leer con una cámara", de: "Ein quadratisches Muster das Computer mit einer Kamera lesen können", nl: "Een vierkant patroon dat computers met een camera kunnen lezen" },
+          { en: "A type of barcode for music", es: "Un tipo de código de barras para música", de: "Eine Art Barcode für Musik", nl: "Een type barcode voor muziek" },
+          { en: "A video file format", es: "Un formato de archivo de video", de: "Ein Videodateiformat", nl: "Een videobestandsformaat" },
+          { en: "A special kind of printer", es: "Un tipo especial de impresora", de: "Eine spezielle Art von Drucker", nl: "Een speciaal soort printer" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "QR (Quick Response) codes are two-dimensional patterns that computer vision can scan with a camera to quickly access websites, payment information, or other data.",
+          es: "Los códigos QR (Respuesta Rápida) son patrones bidimensionales que la visión por computadora puede escanear con una cámara para acceder rápidamente a sitios web, información de pago u otros datos.",
+          de: "QR (Quick Response) Codes sind zweidimensionale Muster die Computer Vision mit einer Kamera scannen kann um schnell auf Websites, Zahlungsinformationen oder andere Daten zuzugreifen.",
+          nl: "QR (Quick Response) codes zijn tweedimensionale patronen die computer vision met een camera kan scannen om snel toegang te krijgen tot websites, betalingsinformatie of andere data."
+        }
+      },
+      {
+        question: {
+          en: "What makes computer vision 'smart'?",
+          es: "¿Qué hace 'inteligente' a la visión por computadora?",
+          de: "Was macht Computer Vision 'intelligent'?",
+          nl: "Wat maakt computer vision 'slim'?"
+        },
+        options: [
+          { en: "It learns from examples and improves over time", es: "Aprende de ejemplos y mejora con el tiempo", de: "Es lernt aus Beispielen und verbessert sich mit der Zeit", nl: "Het leert van voorbeelden en verbetert in de loop van de tijd" },
+          { en: "It uses a lot of electricity", es: "Usa mucha electricidad", de: "Es verbraucht viel Strom", nl: "Het gebruikt veel elektriciteit" },
+          { en: "It has a big screen", es: "Tiene una pantalla grande", de: "Es hat einen großen Bildschirm", nl: "Het heeft een groot scherm" },
+          { en: "It is expensive to build", es: "Es costoso de construir", de: "Es ist teuer zu bauen", nl: "Het is duur om te bouwen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Modern computer vision uses machine learning - it can be trained on thousands of images to recognize patterns and make accurate predictions, getting better with more data.",
+          es: "La visión por computadora moderna usa aprendizaje automático - puede ser entrenada en miles de imágenes para reconocer patrones y hacer predicciones precisas, mejorando con más datos.",
+          de: "Moderne Computer Vision nutzt maschinelles Lernen - es kann auf Tausenden von Bildern trainiert werden um Muster zu erkennen und genaue Vorhersagen zu treffen, wird besser mit mehr Daten.",
+          nl: "Moderne computer vision gebruikt machine learning - het kan getraind worden op duizenden afbeeldingen om patronen te herkennen en nauwkeurige voorspellingen te maken, wordt beter met meer data."
+        }
+      },
+      {
+        question: {
+          en: "What can computer vision do in factories?",
+          es: "¿Qué puede hacer la visión por computadora en fábricas?",
+          de: "Was kann Computer Vision in Fabriken tun?",
+          nl: "Wat kan computer vision doen in fabrieken?"
+        },
+        options: [
+          { en: "Check products for defects and quality", es: "Revisar productos por defectos y calidad", de: "Produkte auf Fehler und Qualität prüfen", nl: "Producten controleren op defecten en kwaliteit" },
+          { en: "Make machines work slower", es: "Hacer que las máquinas funcionen más lento", de: "Maschinen langsamer arbeiten lassen", nl: "Machines langzamer laten werken" },
+          { en: "Change product colors", es: "Cambiar colores de productos", de: "Produktfarben ändern", nl: "Productkleuren veranderen" },
+          { en: "Keep workers entertained", es: "Mantener entretenidos a los trabajadores", de: "Arbeiter unterhalten", nl: "Werknemers vermaken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Computer vision systems in factories automatically inspect products on assembly lines, detecting scratches, cracks, or other defects much faster and more consistently than human inspectors.",
+          es: "Los sistemas de visión por computadora en fábricas inspeccionan automáticamente productos en líneas de montaje, detectando rayones, grietas u otros defectos mucho más rápido y consistentemente que inspectores humanos.",
+          de: "Computer Vision Systeme in Fabriken inspizieren automatisch Produkte auf Fließbändern, erkennen Kratzer, Risse oder andere Fehler viel schneller und konsistenter als menschliche Inspektoren.",
+          nl: "Computer vision systemen in fabrieken inspecteren automatisch producten op assemblagelijnen, detecteren krassen, scheuren of andere defecten veel sneller en consistenter dan menselijke inspecteurs."
+        }
+      },
+      {
+        question: {
+          en: "How does computer vision help with sorting recycling?",
+          es: "¿Cómo ayuda la visión por computadora con la clasificación de reciclaje?",
+          de: "Wie hilft Computer Vision beim Sortieren von Recycling?",
+          nl: "Hoe helpt computer vision met het sorteren van recycling?"
+        },
+        options: [
+          { en: "It identifies different types of materials like plastic, glass, and metal", es: "Identifica diferentes tipos de materiales como plástico, vidrio y metal", de: "Es identifiziert verschiedene Materialarten wie Plastik, Glas und Metall", nl: "Het identificeert verschillende soorten materialen zoals plastic, glas en metaal" },
+          { en: "It makes trash disappear", es: "Hace que la basura desaparezca", de: "Es lässt Müll verschwinden", nl: "Het laat afval verdwijnen" },
+          { en: "It changes the color of recyclables", es: "Cambia el color de los reciclables", de: "Es ändert die Farbe von Wertstoffen", nl: "Het verandert de kleur van recyclebare materialen" },
+          { en: "It weighs the trash", es: "Pesa la basura", de: "Es wiegt den Müll", nl: "Het weegt het afval" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Recycling facilities use computer vision to automatically recognize and sort different materials on conveyor belts, making recycling faster and more efficient.",
+          es: "Las instalaciones de reciclaje usan visión por computadora para reconocer y clasificar automáticamente diferentes materiales en cintas transportadoras, haciendo el reciclaje más rápido y eficiente.",
+          de: "Recycling-Anlagen nutzen Computer Vision um verschiedene Materialien auf Förderbändern automatisch zu erkennen und zu sortieren, macht Recycling schneller und effizienter.",
+          nl: "Recyclingfaciliteiten gebruiken computer vision om automatisch verschillende materialen op transportbanden te herkennen en sorteren, maakt recycling sneller en efficiënter."
+        }
+      },
+      {
+        question: {
+          en: "What is brightness in an image?",
+          es: "¿Qué es el brillo en una imagen?",
+          de: "Was ist Helligkeit in einem Bild?",
+          nl: "Wat is helderheid in een afbeelding?"
+        },
+        options: [
+          { en: "How light or dark the image appears", es: "Qué tan clara u oscura aparece la imagen", de: "Wie hell oder dunkel das Bild erscheint", nl: "Hoe licht of donker de afbeelding verschijnt" },
+          { en: "How many colors the image has", es: "Cuántos colores tiene la imagen", de: "Wie viele Farben das Bild hat", nl: "Hoeveel kleuren de afbeelding heeft" },
+          { en: "The size of the image file", es: "El tamaño del archivo de imagen", de: "Die Größe der Bilddatei", nl: "De grootte van het afbeeldingsbestand" },
+          { en: "When the image was created", es: "Cuándo se creó la imagen", de: "Wann das Bild erstellt wurde", nl: "Wanneer de afbeelding gemaakt werd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Brightness refers to the overall lightness or darkness of an image. Computer vision algorithms often analyze brightness to understand lighting conditions and image quality.",
+          es: "El brillo se refiere a la claridad u oscuridad general de una imagen. Los algoritmos de visión por computadora a menudo analizan el brillo para entender condiciones de iluminación y calidad de imagen.",
+          de: "Helligkeit bezieht sich auf die allgemeine Helligkeit oder Dunkelheit eines Bildes. Computer Vision Algorithmen analysieren oft Helligkeit um Lichtverhältnisse und Bildqualität zu verstehen.",
+          nl: "Helderheid verwijst naar de algehele lichtheid of donkerte van een afbeelding. Computer vision algoritmen analyseren vaak helderheid om lichtomstandigheden en beeldkwaliteit te begrijpen."
+        }
+      },
+      {
+        question: {
+          en: "What can computer vision help postal services do?",
+          es: "¿Qué puede ayudar la visión por computadora a hacer a los servicios postales?",
+          de: "Was kann Computer Vision Postdiensten helfen zu tun?",
+          nl: "Wat kan computer vision postdiensten helpen doen?"
+        },
+        options: [
+          { en: "Read addresses and sort mail automatically", es: "Leer direcciones y clasificar correo automáticamente", de: "Adressen lesen und Post automatisch sortieren", nl: "Adressen lezen en post automatisch sorteren" },
+          { en: "Make stamps prettier", es: "Hacer sellos más bonitos", de: "Briefmarken schöner machen", nl: "Postzegels mooier maken" },
+          { en: "Deliver mail faster by flying", es: "Entregar correo más rápido volando", de: "Post schneller durch Fliegen zustellen", nl: "Post sneller bezorgen door te vliegen" },
+          { en: "Change package colors", es: "Cambiar colores de paquetes", de: "Paketfarben ändern", nl: "Paketkleuren veranderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Postal services use computer vision with OCR technology to automatically read handwritten and printed addresses on envelopes and packages, routing mail to the correct destinations.",
+          es: "Los servicios postales usan visión por computadora con tecnología OCR para leer automáticamente direcciones manuscritas e impresas en sobres y paquetes, dirigiendo el correo a destinos correctos.",
+          de: "Postdienste nutzen Computer Vision mit OCR-Technologie um automatisch handgeschriebene und gedruckte Adressen auf Umschlägen und Paketen zu lesen, leiten Post an richtige Ziele.",
+          nl: "Postdiensten gebruiken computer vision met OCR-technologie om automatisch handgeschreven en gedrukte adressen op enveloppen en pakketten te lezen, routeren post naar correcte bestemmingen."
+        }
+      },
+      {
+        question: {
+          en: "What makes a photo 'blurry'?",
+          es: "¿Qué hace que una foto esté 'borrosa'?",
+          de: "Was macht ein Foto 'verschwommen'?",
+          nl: "Wat maakt een foto 'wazig'?"
+        },
+        options: [
+          { en: "Unclear or out-of-focus details that computer vision finds hard to analyze", es: "Detalles poco claros o desenfocados que la visión por computadora encuentra difícil analizar", de: "Unklare oder unscharfe Details die Computer Vision schwer analysieren kann", nl: "Onduidelijke of onscherpe details die computer vision moeilijk kan analyseren" },
+          { en: "Too many colors in the image", es: "Demasiados colores en la imagen", de: "Zu viele Farben im Bild", nl: "Te veel kleuren in de afbeelding" },
+          { en: "The image file is too large", es: "El archivo de imagen es demasiado grande", de: "Die Bilddatei ist zu groß", nl: "Het afbeeldingsbestand is te groot" },
+          { en: "The photo was taken at night", es: "La foto se tomó de noche", de: "Das Foto wurde nachts aufgenommen", nl: "De foto werd 's nachts genomen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Blur occurs when image details lack sharpness, often from camera movement or being out of focus. Blurry images make computer vision tasks more difficult because important features are unclear.",
+          es: "El desenfoque ocurre cuando los detalles de imagen carecen de nitidez, a menudo por movimiento de cámara o estar desenfocado. Las imágenes borrosas dificultan tareas de visión por computadora porque características importantes no están claras.",
+          de: "Unschärfe tritt auf wenn Bilddetails an Schärfe fehlen, oft durch Kamerabewegung oder Unschärfe. Verschwommene Bilder machen Computer Vision Aufgaben schwieriger weil wichtige Merkmale unklar sind.",
+          nl: "Onscherpte treedt op wanneer beelddetails gebrek aan scherpte hebben, vaak door camerabeweging of niet scherpgesteld zijn. Wazige afbeeldingen maken computer vision taken moeilijker omdat belangrijke kenmerken onduidelijk zijn."
+        }
+      },
+      {
+        question: {
+          en: "How can computer vision help farmers?",
+          es: "¿Cómo puede ayudar la visión por computadora a los agricultores?",
+          de: "Wie kann Computer Vision Landwirten helfen?",
+          nl: "Hoe kan computer vision boeren helpen?"
+        },
+        options: [
+          { en: "Monitor crop health and detect diseases in plants", es: "Monitorear salud de cultivos y detectar enfermedades en plantas", de: "Pflanzengesundheit überwachen und Krankheiten in Pflanzen erkennen", nl: "Gewassengezondheid monitoren en ziektes in planten detecteren" },
+          { en: "Make plants grow faster", es: "Hacer que las plantas crezcan más rápido", de: "Pflanzen schneller wachsen lassen", nl: "Planten sneller laten groeien" },
+          { en: "Change the weather", es: "Cambiar el clima", de: "Das Wetter ändern", nl: "Het weer veranderen" },
+          { en: "Create new types of seeds", es: "Crear nuevos tipos de semillas", de: "Neue Samenarten erschaffen", nl: "Nieuwe soorten zaden maken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Agricultural computer vision analyzes drone or satellite images to monitor crop health, identify diseased plants, detect pests, and optimize irrigation and fertilization.",
+          es: "La visión por computadora agrícola analiza imágenes de drones o satélites para monitorear salud de cultivos, identificar plantas enfermas, detectar plagas y optimizar irrigación y fertilización.",
+          de: "Landwirtschaftliche Computer Vision analysiert Drohnen- oder Satellitenbilder um Pflanzengesundheit zu überwachen, kranke Pflanzen zu identifizieren, Schädlinge zu erkennen und Bewässerung und Düngung zu optimieren.",
+          nl: "Landbouw computer vision analyseert drone- of satellietbeelden om gewassengezondheid te monitoren, zieke planten te identificeren, plagen te detecteren en irrigatie en bemesting te optimaliseren."
+        }
+      },
+      {
+        question: {
+          en: "What does it mean when a computer 'sees' an image?",
+          es: "¿Qué significa cuando una computadora 've' una imagen?",
+          de: "Was bedeutet es wenn ein Computer ein Bild 'sieht'?",
+          nl: "Wat betekent het wanneer een computer een afbeelding 'ziet'?"
+        },
+        options: [
+          { en: "It processes the image data and extracts meaningful information", es: "Procesa los datos de imagen y extrae información significativa", de: "Es verarbeitet die Bilddaten und extrahiert bedeutungsvolle Informationen", nl: "Het verwerkt de afbeeldingsdata en extraheert betekenisvolle informatie" },
+          { en: "It displays the image on a screen", es: "Muestra la imagen en una pantalla", de: "Es zeigt das Bild auf einem Bildschirm an", nl: "Het toont de afbeelding op een scherm" },
+          { en: "It saves the image to memory", es: "Guarda la imagen en memoria", de: "Es speichert das Bild im Speicher", nl: "Het slaat de afbeelding op in geheugen" },
+          { en: "It deletes the image", es: "Elimina la imagen", de: "Es löscht das Bild", nl: "Het verwijdert de afbeelding" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "When we say a computer 'sees', we mean it analyzes pixel data to understand content - identifying objects, recognizing patterns, and making sense of visual information like humans do.",
+          es: "Cuando decimos que una computadora 've', queremos decir que analiza datos de píxeles para entender contenido - identificando objetos, reconociendo patrones y dándole sentido a información visual como lo hacen los humanos.",
+          de: "Wenn wir sagen ein Computer 'sieht', meinen wir dass es Pixeldaten analysiert um Inhalt zu verstehen - Objekte identifizieren, Muster erkennen und visuelle Informationen verstehen wie Menschen es tun.",
+          nl: "Wanneer we zeggen dat een computer 'ziet', bedoelen we dat het pixeldata analyseert om inhoud te begrijpen - objecten identificeren, patronen herkennen en zinvolle visuele informatie maken zoals mensen doen."
+        }
+      },
+      {
+        question: {
+          en: "What is image contrast?",
+          es: "¿Qué es el contraste de imagen?",
+          de: "Was ist Bildkontrast?",
+          nl: "Wat is beeldcontrast?"
+        },
+        options: [
+          { en: "The difference between light and dark areas in an image", es: "La diferencia entre áreas claras y oscuras en una imagen", de: "Der Unterschied zwischen hellen und dunklen Bereichen in einem Bild", nl: "Het verschil tussen lichte en donkere gebieden in een afbeelding" },
+          { en: "How colorful the image is", es: "Qué tan colorida es la imagen", de: "Wie farbenfroh das Bild ist", nl: "Hoe kleurrijk de afbeelding is" },
+          { en: "The number of pixels in the image", es: "El número de píxeles en la imagen", de: "Die Anzahl der Pixel im Bild", nl: "Het aantal pixels in de afbeelding" },
+          { en: "The age of the photograph", es: "La edad de la fotografía", de: "Das Alter der Fotografie", nl: "De leeftijd van de foto" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Contrast measures the difference between the brightest and darkest parts of an image. High contrast makes it easier for computer vision to distinguish objects and features.",
+          es: "El contraste mide la diferencia entre las partes más brillantes y oscuras de una imagen. El alto contraste facilita que la visión por computadora distinga objetos y características.",
+          de: "Kontrast misst den Unterschied zwischen den hellsten und dunkelsten Teilen eines Bildes. Hoher Kontrast macht es für Computer Vision einfacher Objekte und Merkmale zu unterscheiden.",
+          nl: "Contrast meet het verschil tussen de helderste en donkerste delen van een afbeelding. Hoog contrast maakt het gemakkelijker voor computer vision om objecten en kenmerken te onderscheiden."
+        }
+      },
+      {
+        question: {
+          en: "Why do some apps use your phone's camera to measure things?",
+          es: "¿Por qué algunas aplicaciones usan la cámara de tu teléfono para medir cosas?",
+          de: "Warum nutzen manche Apps die Kamera deines Telefons um Dinge zu messen?",
+          nl: "Waarom gebruiken sommige apps de camera van je telefoon om dingen te meten?"
+        },
+        options: [
+          { en: "They use computer vision to calculate size and distance from images", es: "Usan visión por computadora para calcular tamaño y distancia de imágenes", de: "Sie nutzen Computer Vision um Größe und Entfernung aus Bildern zu berechnen", nl: "Ze gebruiken computer vision om grootte en afstand uit afbeeldingen te berekenen" },
+          { en: "Cameras have built-in rulers", es: "Las cámaras tienen reglas incorporadas", de: "Kameras haben eingebaute Lineale", nl: "Camera's hebben ingebouwde linialen" },
+          { en: "They guess random numbers", es: "Adivinan números aleatorios", de: "Sie raten zufällige Zahlen", nl: "Ze raden willekeurige nummers" },
+          { en: "They connect to GPS satellites", es: "Se conectan a satélites GPS", de: "Sie verbinden sich mit GPS-Satelliten", nl: "Ze verbinden met GPS-satellieten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AR measurement apps use computer vision to analyze the camera view, identify surfaces, and calculate real-world dimensions using the phone's sensors and visual reference points.",
+          es: "Las aplicaciones de medición AR usan visión por computadora para analizar la vista de cámara, identificar superficies y calcular dimensiones del mundo real usando sensores del teléfono y puntos de referencia visuales.",
+          de: "AR-Mess-Apps nutzen Computer Vision um die Kameraansicht zu analysieren, Oberflächen zu identifizieren und reale Dimensionen mit Telefonsensoren und visuellen Referenzpunkten zu berechnen.",
+          nl: "AR-meet apps gebruiken computer vision om de cameraweergave te analyseren, oppervlakken te identificeren en echte dimensies te berekenen met telefoonsensoren en visuele referentiepunten."
+        }
+      },
+      {
+        question: {
+          en: "What can computer vision do that human vision cannot?",
+          es: "¿Qué puede hacer la visión por computadora que la visión humana no puede?",
+          de: "Was kann Computer Vision tun was menschliche Sicht nicht kann?",
+          nl: "Wat kan computer vision doen dat menselijk zicht niet kan?"
+        },
+        options: [
+          { en: "Process thousands of images per second without getting tired", es: "Procesar miles de imágenes por segundo sin cansarse", de: "Tausende Bilder pro Sekunde verarbeiten ohne müde zu werden", nl: "Duizenden afbeeldingen per seconde verwerken zonder moe te worden" },
+          { en: "See in complete darkness", es: "Ver en oscuridad completa", de: "In völliger Dunkelheit sehen", nl: "Zien in complete duisternis" },
+          { en: "Create new colors", es: "Crear nuevos colores", de: "Neue Farben erschaffen", nl: "Nieuwe kleuren maken" },
+          { en: "Read minds through images", es: "Leer mentes a través de imágenes", de: "Gedanken durch Bilder lesen", nl: "Gedachten lezen door afbeeldingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Computer vision can analyze vast amounts of visual data extremely quickly and consistently without fatigue, making it ideal for repetitive tasks like quality control or monitoring surveillance cameras 24/7.",
+          es: "La visión por computadora puede analizar vastas cantidades de datos visuales extremadamente rápido y consistentemente sin fatiga, haciéndola ideal para tareas repetitivas como control de calidad o monitoreo de cámaras de vigilancia 24/7.",
+          de: "Computer Vision kann riesige Mengen visueller Daten extrem schnell und konsistent ohne Ermüdung analysieren, macht es ideal für repetitive Aufgaben wie Qualitätskontrolle oder Überwachungskameras 24/7.",
+          nl: "Computer vision kan enorme hoeveelheden visuele data extreem snel en consistent analyseren zonder vermoeidheid, maakt het ideaal voor repetitieve taken zoals kwaliteitscontrole of bewakingscamera's 24/7 monitoren."
+        }
       }
     ]
   };

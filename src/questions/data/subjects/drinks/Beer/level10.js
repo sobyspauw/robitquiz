@@ -819,7 +819,427 @@
           es: "Las cervezas agrias derivan su carácter ácido y agrio de bacterias de ácido láctico (como Lactobacillus) o levaduras silvestres (Brettanomyces), creando sabores complejos, funky o afrutados.",
           de: "Sauerbiere leiten ihren säuerlichen, sauren Charakter von Milchsäurebakterien (wie Lactobacillus) oder Wildhefen (Brettanomyces) ab und erzeugen komplexe, funky oder fruchtige Aromen.",
           nl: "Zure bieren halen hun scherpe, zure karakter van melkzuurbacteriën (zoals Lactobacillus) of wilde gisten (Brettanomyces), die complexe, funky of fruitige smaken creëren."
-        }
+        }    },
+    {
+      question: {
+        en: "What grain is beer primarily made from?",
+        es: "What grain is beer primarily made from?",
+        de: "What grain is beer primarily made from?",
+        nl: "What grain is beer primarily made from?"
+      },
+      options: [
+        { en: "Barley", es: "Barley", de: "Barley", nl: "Barley" },
+        { en: "Wheat", es: "Wheat", de: "Wheat", nl: "Wheat" },
+        { en: "Corn", es: "Corn", de: "Corn", nl: "Corn" },
+        { en: "Rice", es: "Rice", de: "Rice", nl: "Rice" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Beer is primarily made from malted barley, though other grains can be used.",
+        es: "Beer is primarily made from malted barley, though other grains can be used.",
+        de: "Beer is primarily made from malted barley, though other grains can be used.",
+        nl: "Beer is primarily made from malted barley, though other grains can be used."
+      }
+    },
+    {
+      question: {
+        en: "What ingredient gives beer its bitter flavor?",
+        es: "What ingredient gives beer its bitter flavor?",
+        de: "What ingredient gives beer its bitter flavor?",
+        nl: "What ingredient gives beer its bitter flavor?"
+      },
+      options: [
+        { en: "Hops", es: "Hops", de: "Hops", nl: "Hops" },
+        { en: "Barley", es: "Barley", de: "Barley", nl: "Barley" },
+        { en: "Yeast", es: "Yeast", de: "Yeast", nl: "Yeast" },
+        { en: "Water", es: "Water", de: "Water", nl: "Water" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Hops provide bitterness to balance the sweetness of malt and add aroma.",
+        es: "Hops provide bitterness to balance the sweetness of malt and add aroma.",
+        de: "Hops provide bitterness to balance the sweetness of malt and add aroma.",
+        nl: "Hops provide bitterness to balance the sweetness of malt and add aroma."
+      }
+    },
+    {
+      question: {
+        en: "What is ale?",
+        es: "What is ale?",
+        de: "What is ale?",
+        nl: "What is ale?"
+      },
+      options: [
+        { en: "Beer fermented with top-fermenting yeast", es: "Beer fermented with top-fermenting yeast", de: "Beer fermented with top-fermenting yeast", nl: "Beer fermented with top-fermenting yeast" },
+        { en: "Beer without hops", es: "Beer without hops", de: "Beer without hops", nl: "Beer without hops" },
+        { en: "Light-colored beer", es: "Light-colored beer", de: "Light-colored beer", nl: "Light-colored beer" },
+        { en: "Non-alcoholic beer", es: "Non-alcoholic beer", de: "Non-alcoholic beer", nl: "Non-alcoholic beer" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Ale is beer fermented with top-fermenting yeast at warmer temperatures.",
+        es: "Ale is beer fermented with top-fermenting yeast at warmer temperatures.",
+        de: "Ale is beer fermented with top-fermenting yeast at warmer temperatures.",
+        nl: "Ale is beer fermented with top-fermenting yeast at warmer temperatures."
+      }
+    },
+    {
+      question: {
+        en: "What is lager?",
+        es: "What is lager?",
+        de: "What is lager?",
+        nl: "What is lager?"
+      },
+      options: [
+        { en: "Beer fermented with bottom-fermenting yeast", es: "Beer fermented with bottom-fermenting yeast", de: "Beer fermented with bottom-fermenting yeast", nl: "Beer fermented with bottom-fermenting yeast" },
+        { en: "Dark beer", es: "Dark beer", de: "Dark beer", nl: "Dark beer" },
+        { en: "Strong beer", es: "Strong beer", de: "Strong beer", nl: "Strong beer" },
+        { en: "Wheat beer", es: "Wheat beer", de: "Wheat beer", nl: "Wheat beer" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Lager is beer fermented with bottom-fermenting yeast at cooler temperatures.",
+        es: "Lager is beer fermented with bottom-fermenting yeast at cooler temperatures.",
+        de: "Lager is beer fermented with bottom-fermenting yeast at cooler temperatures.",
+        nl: "Lager is beer fermented with bottom-fermenting yeast at cooler temperatures."
+      }
+    },
+    {
+      question: {
+        en: "What is an IPA?",
+        es: "What is an IPA?",
+        de: "What is an IPA?",
+        nl: "What is an IPA?"
+      },
+      options: [
+        { en: "India Pale Ale", es: "India Pale Ale", de: "India Pale Ale", nl: "India Pale Ale" },
+        { en: "Irish Pale Ale", es: "Irish Pale Ale", de: "Irish Pale Ale", nl: "Irish Pale Ale" },
+        { en: "International Pale Ale", es: "International Pale Ale", de: "International Pale Ale", nl: "International Pale Ale" },
+        { en: "Italian Pale Ale", es: "Italian Pale Ale", de: "Italian Pale Ale", nl: "Italian Pale Ale" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "IPA stands for India Pale Ale, originally brewed stronger and hoppier for transport to India.",
+        es: "IPA stands for India Pale Ale, originally brewed stronger and hoppier for transport to India.",
+        de: "IPA stands for India Pale Ale, originally brewed stronger and hoppier for transport to India.",
+        nl: "IPA stands for India Pale Ale, originally brewed stronger and hoppier for transport to India."
+      }
+    },
+    {
+      question: {
+        en: "What is a stout?",
+        es: "What is a stout?",
+        de: "What is a stout?",
+        nl: "What is a stout?"
+      },
+      options: [
+        { en: "Dark beer made with roasted malt or barley", es: "Dark beer made with roasted malt or barley", de: "Dark beer made with roasted malt or barley", nl: "Dark beer made with roasted malt or barley" },
+        { en: "Light beer", es: "Light beer", de: "Light beer", nl: "Light beer" },
+        { en: "Wheat beer", es: "Wheat beer", de: "Wheat beer", nl: "Wheat beer" },
+        { en: "Sour beer", es: "Sour beer", de: "Sour beer", nl: "Sour beer" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Stout is a dark beer made using roasted malt or roasted barley, hops, water and yeast.",
+        es: "Stout is a dark beer made using roasted malt or roasted barley, hops, water and yeast.",
+        de: "Stout is a dark beer made using roasted malt or roasted barley, hops, water and yeast.",
+        nl: "Stout is a dark beer made using roasted malt or roasted barley, hops, water and yeast."
+      }
+    },
+    {
+      question: {
+        en: "What country produces Guinness?",
+        es: "What country produces Guinness?",
+        de: "What country produces Guinness?",
+        nl: "What country produces Guinness?"
+      },
+      options: [
+        { en: "Ireland", es: "Ireland", de: "Ireland", nl: "Ireland" },
+        { en: "England", es: "England", de: "England", nl: "England" },
+        { en: "Scotland", es: "Scotland", de: "Scotland", nl: "Scotland" },
+        { en: "Germany", es: "Germany", de: "Germany", nl: "Germany" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Guinness is a famous Irish stout produced in Dublin since 1759.",
+        es: "Guinness is a famous Irish stout produced in Dublin since 1759.",
+        de: "Guinness is a famous Irish stout produced in Dublin since 1759.",
+        nl: "Guinness is a famous Irish stout produced in Dublin since 1759."
+      }
+    },
+    {
+      question: {
+        en: "What is a pilsner?",
+        es: "What is a pilsner?",
+        de: "What is a pilsner?",
+        nl: "What is a pilsner?"
+      },
+      options: [
+        { en: "Type of pale lager", es: "Type of pale lager", de: "Type of pale lager", nl: "Type of pale lager" },
+        { en: "Dark ale", es: "Dark ale", de: "Dark ale", nl: "Dark ale" },
+        { en: "Wheat beer", es: "Wheat beer", de: "Wheat beer", nl: "Wheat beer" },
+        { en: "Sour beer", es: "Sour beer", de: "Sour beer", nl: "Sour beer" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pilsner is a type of pale lager that originated in Plzeň, Czech Republic.",
+        es: "Pilsner is a type of pale lager that originated in Plzeň, Czech Republic.",
+        de: "Pilsner is a type of pale lager that originated in Plzeň, Czech Republic.",
+        nl: "Pilsner is a type of pale lager that originated in Plzeň, Czech Republic."
+      }
+    },
+    {
+      question: {
+        en: "What is the main purpose of yeast in brewing?",
+        es: "What is the main purpose of yeast in brewing?",
+        de: "What is the main purpose of yeast in brewing?",
+        nl: "What is the main purpose of yeast in brewing?"
+      },
+      options: [
+        { en: "Convert sugars to alcohol", es: "Convert sugars to alcohol", de: "Convert sugars to alcohol", nl: "Convert sugars to alcohol" },
+        { en: "Add flavor", es: "Add flavor", de: "Add flavor", nl: "Add flavor" },
+        { en: "Add color", es: "Add color", de: "Add color", nl: "Add color" },
+        { en: "Preserve beer", es: "Preserve beer", de: "Preserve beer", nl: "Preserve beer" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Yeast ferments the sugars from malted grains, producing alcohol and carbon dioxide.",
+        es: "Yeast ferments the sugars from malted grains, producing alcohol and carbon dioxide.",
+        de: "Yeast ferments the sugars from malted grains, producing alcohol and carbon dioxide.",
+        nl: "Yeast ferments the sugars from malted grains, producing alcohol and carbon dioxide."
+      }
+    },
+    {
+      question: {
+        en: "What is a wheat beer?",
+        es: "What is a wheat beer?",
+        de: "What is a wheat beer?",
+        nl: "What is a wheat beer?"
+      },
+      options: [
+        { en: "Beer made with high proportion of wheat", es: "Beer made with high proportion of wheat", de: "Beer made with high proportion of wheat", nl: "Beer made with high proportion of wheat" },
+        { en: "Beer flavored with wheat grass", es: "Beer flavored with wheat grass", de: "Beer flavored with wheat grass", nl: "Beer flavored with wheat grass" },
+        { en: "Beer from wheat regions", es: "Beer from wheat regions", de: "Beer from wheat regions", nl: "Beer from wheat regions" },
+        { en: "Whole grain beer", es: "Whole grain beer", de: "Whole grain beer", nl: "Whole grain beer" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Wheat beer uses a high proportion of wheat relative to barley malt.",
+        es: "Wheat beer uses a high proportion of wheat relative to barley malt.",
+        de: "Wheat beer uses a high proportion of wheat relative to barley malt.",
+        nl: "Wheat beer uses a high proportion of wheat relative to barley malt."
+      }
+    },
+    {
+      question: {
+        en: "What is Oktoberfest?",
+        es: "What is Oktoberfest?",
+        de: "What is Oktoberfest?",
+        nl: "What is Oktoberfest?"
+      },
+      options: [
+        { en: "German beer festival", es: "German beer festival", de: "German beer festival", nl: "German beer festival" },
+        { en: "Beer style", es: "Beer style", de: "Beer style", nl: "Beer style" },
+        { en: "Brewing method", es: "Brewing method", de: "Brewing method", nl: "Brewing method" },
+        { en: "Beer glass type", es: "Beer glass type", de: "Beer glass type", nl: "Beer glass type" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Oktoberfest is the world's largest beer festival, held annually in Munich, Germany.",
+        es: "Oktoberfest is the world's largest beer festival, held annually in Munich, Germany.",
+        de: "Oktoberfest is the world's largest beer festival, held annually in Munich, Germany.",
+        nl: "Oktoberfest is the world's largest beer festival, held annually in Munich, Germany."
+      }
+    },
+    {
+      question: {
+        en: "What does ABV stand for?",
+        es: "What does ABV stand for?",
+        de: "What does ABV stand for?",
+        nl: "What does ABV stand for?"
+      },
+      options: [
+        { en: "Alcohol By Volume", es: "Alcohol By Volume", de: "Alcohol By Volume", nl: "Alcohol By Volume" },
+        { en: "Alcohol Beer Value", es: "Alcohol Beer Value", de: "Alcohol Beer Value", nl: "Alcohol Beer Value" },
+        { en: "American Beer Variety", es: "American Beer Variety", de: "American Beer Variety", nl: "American Beer Variety" },
+        { en: "Aged Beer Vintage", es: "Aged Beer Vintage", de: "Aged Beer Vintage", nl: "Aged Beer Vintage" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "ABV indicates the percentage of alcohol content in beer by volume.",
+        es: "ABV indicates the percentage of alcohol content in beer by volume.",
+        de: "ABV indicates the percentage of alcohol content in beer by volume.",
+        nl: "ABV indicates the percentage of alcohol content in beer by volume."
+      }
+    },
+    {
+      question: {
+        en: "What is a porter?",
+        es: "What is a porter?",
+        de: "What is a porter?",
+        nl: "What is a porter?"
+      },
+      options: [
+        { en: "Dark beer style, lighter than stout", es: "Dark beer style, lighter than stout", de: "Dark beer style, lighter than stout", nl: "Dark beer style, lighter than stout" },
+        { en: "Light beer", es: "Light beer", de: "Light beer", nl: "Light beer" },
+        { en: "Wheat beer", es: "Wheat beer", de: "Wheat beer", nl: "Wheat beer" },
+        { en: "Sour beer", es: "Sour beer", de: "Sour beer", nl: "Sour beer" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Porter is a dark beer style made from brown malt, lighter than stout.",
+        es: "Porter is a dark beer style made from brown malt, lighter than stout.",
+        de: "Porter is a dark beer style made from brown malt, lighter than stout.",
+        nl: "Porter is a dark beer style made from brown malt, lighter than stout."
+      }
+    },
+    {
+      question: {
+        en: "What is lambic?",
+        es: "What is lambic?",
+        de: "What is lambic?",
+        nl: "What is lambic?"
+      },
+      options: [
+        { en: "Belgian beer spontaneously fermented", es: "Belgian beer spontaneously fermented", de: "Belgian beer spontaneously fermented", nl: "Belgian beer spontaneously fermented" },
+        { en: "German lager", es: "German lager", de: "German lager", nl: "German lager" },
+        { en: "Irish stout", es: "Irish stout", de: "Irish stout", nl: "Irish stout" },
+        { en: "American pale ale", es: "American pale ale", de: "American pale ale", nl: "American pale ale" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Lambic is a Belgian beer style spontaneously fermented using wild yeasts and bacteria.",
+        es: "Lambic is a Belgian beer style spontaneously fermented using wild yeasts and bacteria.",
+        de: "Lambic is a Belgian beer style spontaneously fermented using wild yeasts and bacteria.",
+        nl: "Lambic is a Belgian beer style spontaneously fermented using wild yeasts and bacteria."
+      }
+    },
+    {
+      question: {
+        en: "What are the four main ingredients in beer?",
+        es: "What are the four main ingredients in beer?",
+        de: "What are the four main ingredients in beer?",
+        nl: "What are the four main ingredients in beer?"
+      },
+      options: [
+        { en: "Water, malt, hops, yeast", es: "Water, malt, hops, yeast", de: "Water, malt, hops, yeast", nl: "Water, malt, hops, yeast" },
+        { en: "Water, wheat, sugar, yeast", es: "Water, wheat, sugar, yeast", de: "Water, wheat, sugar, yeast", nl: "Water, wheat, sugar, yeast" },
+        { en: "Barley, corn, hops, sugar", es: "Barley, corn, hops, sugar", de: "Barley, corn, hops, sugar", nl: "Barley, corn, hops, sugar" },
+        { en: "Water, barley, wheat, rice", es: "Water, barley, wheat, rice", de: "Water, barley, wheat, rice", nl: "Water, barley, wheat, rice" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The four essential ingredients in beer are water, malted grain (usually barley), hops, and yeast.",
+        es: "The four essential ingredients in beer are water, malted grain (usually barley), hops, and yeast.",
+        de: "The four essential ingredients in beer are water, malted grain (usually barley), hops, and yeast.",
+        nl: "The four essential ingredients in beer are water, malted grain (usually barley), hops, and yeast."
+      }
+    },
+    {
+      question: {
+        en: "What is a bock?",
+        es: "What is a bock?",
+        de: "What is a bock?",
+        nl: "What is a bock?"
+      },
+      options: [
+        { en: "Strong German lager", es: "Strong German lager", de: "Strong German lager", nl: "Strong German lager" },
+        { en: "Light ale", es: "Light ale", de: "Light ale", nl: "Light ale" },
+        { en: "Sour beer", es: "Sour beer", de: "Sour beer", nl: "Sour beer" },
+        { en: "Wheat beer", es: "Wheat beer", de: "Wheat beer", nl: "Wheat beer" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Bock is a strong lager of German origin, traditionally brewed in winter for consumption in spring.",
+        es: "Bock is a strong lager of German origin, traditionally brewed in winter for consumption in spring.",
+        de: "Bock is a strong lager of German origin, traditionally brewed in winter for consumption in spring.",
+        nl: "Bock is a strong lager of German origin, traditionally brewed in winter for consumption in spring."
+      }
+    },
+    {
+      question: {
+        en: "What temperature should lager be fermented at?",
+        es: "What temperature should lager be fermented at?",
+        de: "What temperature should lager be fermented at?",
+        nl: "What temperature should lager be fermented at?"
+      },
+      options: [
+        { en: "Cool temperatures (45-55°F)", es: "Cool temperatures (45-55°F)", de: "Cool temperatures (45-55°F)", nl: "Cool temperatures (45-55°F)" },
+        { en: "Room temperature", es: "Room temperature", de: "Room temperature", nl: "Room temperature" },
+        { en: "Warm temperatures (70-75°F)", es: "Warm temperatures (70-75°F)", de: "Warm temperatures (70-75°F)", nl: "Warm temperatures (70-75°F)" },
+        { en: "Freezing temperature", es: "Freezing temperature", de: "Freezing temperature", nl: "Freezing temperature" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Lager is fermented at cool temperatures, typically 45-55°F, for a clean, crisp flavor.",
+        es: "Lager is fermented at cool temperatures, typically 45-55°F, for a clean, crisp flavor.",
+        de: "Lager is fermented at cool temperatures, typically 45-55°F, for a clean, crisp flavor.",
+        nl: "Lager is fermented at cool temperatures, typically 45-55°F, for a clean, crisp flavor."
+      }
+    },
+    {
+      question: {
+        en: "What is the foam on top of beer called?",
+        es: "What is the foam on top of beer called?",
+        de: "What is the foam on top of beer called?",
+        nl: "What is the foam on top of beer called?"
+      },
+      options: [
+        { en: "Head", es: "Head", de: "Head", nl: "Head" },
+        { en: "Crown", es: "Crown", de: "Crown", nl: "Crown" },
+        { en: "Foam cap", es: "Foam cap", de: "Foam cap", nl: "Foam cap" },
+        { en: "Beer top", es: "Beer top", de: "Beer top", nl: "Beer top" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The foam on top of beer is called the head, formed by proteins and carbon dioxide.",
+        es: "The foam on top of beer is called the head, formed by proteins and carbon dioxide.",
+        de: "The foam on top of beer is called the head, formed by proteins and carbon dioxide.",
+        nl: "The foam on top of beer is called the head, formed by proteins and carbon dioxide."
+      }
+    },
+    {
+      question: {
+        en: "What is a session beer?",
+        es: "What is a session beer?",
+        de: "What is a session beer?",
+        nl: "What is a session beer?"
+      },
+      options: [
+        { en: "Lower alcohol beer for extended drinking", es: "Lower alcohol beer for extended drinking", de: "Lower alcohol beer for extended drinking", nl: "Lower alcohol beer for extended drinking" },
+        { en: "Morning beer", es: "Morning beer", de: "Morning beer", nl: "Morning beer" },
+        { en: "Beer served in sessions", es: "Beer served in sessions", de: "Beer served in sessions", nl: "Beer served in sessions" },
+        { en: "Aged beer", es: "Aged beer", de: "Aged beer", nl: "Aged beer" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Session beer has lower alcohol content, allowing consumption over a longer 'session' without excessive intoxication.",
+        es: "Session beer has lower alcohol content, allowing consumption over a longer 'session' without excessive intoxication.",
+        de: "Session beer has lower alcohol content, allowing consumption over a longer 'session' without excessive intoxication.",
+        nl: "Session beer has lower alcohol content, allowing consumption over a longer 'session' without excessive intoxication."
+      }
+    },
+    {
+      question: {
+        en: "What is dry hopping?",
+        es: "What is dry hopping?",
+        de: "What is dry hopping?",
+        nl: "What is dry hopping?"
+      },
+      options: [
+        { en: "Adding hops after fermentation for aroma", es: "Adding hops after fermentation for aroma", de: "Adding hops after fermentation for aroma", nl: "Adding hops after fermentation for aroma" },
+        { en: "Removing moisture from hops", es: "Removing moisture from hops", de: "Removing moisture from hops", nl: "Removing moisture from hops" },
+        { en: "Using dried hops only", es: "Using dried hops only", de: "Using dried hops only", nl: "Using dried hops only" },
+        { en: "Brewing without water", es: "Brewing without water", de: "Brewing without water", nl: "Brewing without water" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Dry hopping involves adding hops after fermentation to enhance aroma without adding bitterness.",
+        es: "Dry hopping involves adding hops after fermentation to enhance aroma without adding bitterness.",
+        de: "Dry hopping involves adding hops after fermentation to enhance aroma without adding bitterness.",
+        nl: "Dry hopping involves adding hops after fermentation to enhance aroma without adding bitterness."
+      }
+
       }
     ]
   };

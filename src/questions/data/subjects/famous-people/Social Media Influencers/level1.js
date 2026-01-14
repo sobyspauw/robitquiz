@@ -426,6 +426,258 @@
           de: "Ein Micro-Influencer hat typischerweise 1.000 bis 100.000 Follower, behält aber hohe Engagement-Raten bei und hat oft ein spezialisierteres, loyaleres Publikum im Vergleich zu größeren Influencern.",
           nl: "Een micro-influencer heeft typisch 1.000 tot 100.000 volgers maar behoudt hoge betrokkenheidspercentages en heeft vaak een meer niche, loyaal publiek vergeleken met grotere influencers."
         }
+      },
+      {
+        question: {
+          en: "Which YouTuber is famous for saying 'What's up guys, it's your boy...'?",
+          es: "¿Qué YouTuber es famoso por decir '¿Qué pasa chicos, es tu chico...'?",
+          de: "Welcher YouTuber ist berühmt für den Spruch 'What's up guys, it's your boy...'?",
+          nl: "Welke YouTuber is beroemd om te zeggen 'What's up guys, it's your boy...'?"
+        },
+        options: [
+          { en: "This is a common greeting used by many YouTubers", es: "Este es un saludo común usado por muchos YouTubers", de: "Dies ist eine häufige Begrüßung vieler YouTuber", nl: "Dit is een veelgebruikte begroeting door veel YouTubers" },
+          { en: "PewDiePie", es: "PewDiePie", de: "PewDiePie", nl: "PewDiePie" },
+          { en: "Markiplier", es: "Markiplier", de: "Markiplier", nl: "Markiplier" },
+          { en: "Jacksepticeye", es: "Jacksepticeye", de: "Jacksepticeye", nl: "Jacksepticeye" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "'What's up guys, it's your boy...' became a standard greeting template used by countless YouTubers across different genres, rather than being associated with one specific creator.",
+          es: "'¿Qué pasa chicos, es tu chico...' se convirtió en una plantilla de saludo estándar usada por innumerables YouTubers en diferentes géneros, en lugar de estar asociada con un creador específico.",
+          de: "'What's up guys, it's your boy...' wurde zu einer Standard-Begrüßungsvorlage, die von unzähligen YouTubern in verschiedenen Genres verwendet wird, anstatt mit einem bestimmten Creator verbunden zu sein.",
+          nl: "'What's up guys, it's your boy...' werd een standaard begroetingssjabloon gebruikt door talloze YouTubers in verschillende genres, in plaats van geassocieerd te worden met één specifieke creator."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'collab' in influencer culture?",
+          es: "¿Qué es un 'collab' en la cultura de influencers?",
+          de: "Was ist ein 'Collab' in der Influencer-Kultur?",
+          nl: "Wat is een 'collab' in influencer cultuur?"
+        },
+        options: [
+          { en: "A collaboration between influencers or brands", es: "Una colaboración entre influencers o marcas", de: "Eine Zusammenarbeit zwischen Influencern oder Marken", nl: "Een samenwerking tussen influencers of merken" },
+          { en: "A collection of videos", es: "Una colección de videos", de: "Eine Sammlung von Videos", nl: "Een verzameling video's" },
+          { en: "A color palette", es: "Una paleta de colores", de: "Eine Farbpalette", nl: "Een kleurenpalet" },
+          { en: "A type of camera", es: "Un tipo de cámara", de: "Eine Art Kamera", nl: "Een type camera" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A 'collab' is short for collaboration, where influencers work together on content or partner with brands to create sponsored content, often benefiting both parties through cross-promotion.",
+          es: "Un 'collab' es corto para colaboración, donde los influencers trabajan juntos en contenido o se asocian con marcas para crear contenido patrocinado, a menudo beneficiando a ambas partes a través de promoción cruzada.",
+          de: "Ein 'Collab' ist kurz für Kollaboration, bei der Influencer zusammen an Inhalten arbeiten oder mit Marken zusammenarbeiten, um gesponserte Inhalte zu erstellen, was oft beiden Parteien durch Cross-Promotion nützt.",
+          nl: "Een 'collab' is kort voor samenwerking, waarbij influencers samenwerken aan content of samenwerken met merken om gesponsorde content te maken, wat vaak beide partijen ten goede komt door kruispromotie."
+        }
+      },
+      {
+        question: {
+          en: "Which social media platform uses 'Reels' for short video content?",
+          es: "¿Qué plataforma de redes sociales usa 'Reels' para contenido de video corto?",
+          de: "Welche Social-Media-Plattform verwendet 'Reels' für Kurzvideoinhalte?",
+          nl: "Welk social media platform gebruikt 'Reels' voor korte video content?"
+        },
+        options: [
+          { en: "Instagram", es: "Instagram", de: "Instagram", nl: "Instagram" },
+          { en: "Facebook", es: "Facebook", de: "Facebook", nl: "Facebook" },
+          { en: "TikTok", es: "TikTok", de: "TikTok", nl: "TikTok" },
+          { en: "Twitter", es: "Twitter", de: "Twitter", nl: "Twitter" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Instagram introduced Reels in 2020 as a feature to compete with TikTok's short-form video format, allowing users to create 15-90 second videos with music and effects.",
+          es: "Instagram introdujo Reels en 2020 como una función para competir con el formato de video corto de TikTok, permitiendo a los usuarios crear videos de 15-90 segundos con música y efectos.",
+          de: "Instagram führte 2020 Reels ein, um mit TikToks Kurzvideoformat zu konkurrieren, und ermöglicht Benutzern, 15-90 Sekunden lange Videos mit Musik und Effekten zu erstellen.",
+          nl: "Instagram introduceerde Reels in 2020 als een functie om te concurreren met TikTok's korte videoformaat, waarmee gebruikers 15-90 seconden durende video's kunnen maken met muziek en effecten."
+        }
+      },
+      {
+        question: {
+          en: "What does 'FYP' mean on TikTok?",
+          es: "¿Qué significa 'FYP' en TikTok?",
+          de: "Was bedeutet 'FYP' auf TikTok?",
+          nl: "Wat betekent 'FYP' op TikTok?"
+        },
+        options: [
+          { en: "For You Page", es: "For You Page (Página Para Ti)", de: "For You Page (Für-Dich-Seite)", nl: "For You Page (Voor Jou Pagina)" },
+          { en: "Find Your Profile", es: "Encuentra Tu Perfil", de: "Finde Dein Profil", nl: "Vind Je Profiel" },
+          { en: "Follow Your Passion", es: "Sigue Tu Pasión", de: "Folge Deiner Leidenschaft", nl: "Volg Je Passie" },
+          { en: "First Year Platform", es: "Plataforma de Primer Año", de: "Erstes-Jahr-Plattform", nl: "Eerste Jaar Platform" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "FYP stands for 'For You Page,' TikTok's main feed that shows personalized content based on the algorithm's understanding of user preferences and viewing habits.",
+          es: "FYP significa 'For You Page' (Página Para Ti), el feed principal de TikTok que muestra contenido personalizado basado en la comprensión del algoritmo de las preferencias y hábitos de visualización del usuario.",
+          de: "FYP steht für 'For You Page' (Für-Dich-Seite), TikToks Haupt-Feed, der personalisierte Inhalte basierend auf dem Verständnis des Algorithmus für Benutzerpräferenzen und Sehgewohnheiten zeigt.",
+          nl: "FYP staat voor 'For You Page' (Voor Jou Pagina), TikTok's hoofdfeed die gepersonaliseerde content toont gebaseerd op het begrip van het algoritme van gebruikersvoorkeuren en kijkgewoonten."
+        }
+      },
+      {
+        question: {
+          en: "Which influencer is known for unboxing videos and product reviews?",
+          es: "¿Qué tipo de influencer es conocido por videos de unboxing y reseñas de productos?",
+          de: "Welche Art von Influencer ist für Unboxing-Videos und Produktrezensionen bekannt?",
+          nl: "Welk type influencer staat bekend om unboxing video's en productrecensies?"
+        },
+        options: [
+          { en: "Tech reviewers and lifestyle vloggers", es: "Revisores de tecnología y vloggers de estilo de vida", de: "Tech-Rezensenten und Lifestyle-Vlogger", nl: "Tech reviewers en lifestyle vloggers" },
+          { en: "Only tech influencers", es: "Solo influencers de tecnología", de: "Nur Tech-Influencer", nl: "Alleen tech influencers" },
+          { en: "Only gaming creators", es: "Solo creadores de gaming", de: "Nur Gaming-Creator", nl: "Alleen gaming creators" },
+          { en: "Only fashion influencers", es: "Solo influencers de moda", de: "Nur Mode-Influencer", nl: "Alleen mode influencers" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Unboxing videos and product reviews are popular across many niches including tech, beauty, fashion, and lifestyle content, with creators like Marques Brownlee (MKBHD) and Unbox Therapy being well-known examples.",
+          es: "Los videos de unboxing y reseñas de productos son populares en muchos nichos incluyendo tecnología, belleza, moda y contenido de estilo de vida, con creadores como Marques Brownlee (MKBHD) y Unbox Therapy siendo ejemplos conocidos.",
+          de: "Unboxing-Videos und Produktrezensionen sind in vielen Nischen beliebt, einschließlich Tech, Beauty, Mode und Lifestyle-Inhalten, wobei Creator wie Marques Brownlee (MKBHD) und Unbox Therapy bekannte Beispiele sind.",
+          nl: "Unboxing video's en productrecensies zijn populair in veel niches waaronder tech, beauty, mode en lifestyle content, waarbij creators zoals Marques Brownlee (MKBHD) en Unbox Therapy bekende voorbeelden zijn."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'haul' video?",
+          es: "¿Qué es un video de 'haul'?",
+          de: "Was ist ein 'Haul'-Video?",
+          nl: "Wat is een 'haul' video?"
+        },
+        options: [
+          { en: "A video showing recent purchases or items received", es: "Un video mostrando compras recientes o artículos recibidos", de: "Ein Video, das kürzliche Käufe oder erhaltene Artikel zeigt", nl: "Een video die recente aankopen of ontvangen items toont" },
+          { en: "A travel vlog", es: "Un vlog de viajes", de: "Ein Reise-Vlog", nl: "Een reis vlog" },
+          { en: "A workout routine", es: "Una rutina de ejercicio", de: "Eine Trainingsroutine", nl: "Een workout routine" },
+          { en: "A cooking tutorial", es: "Un tutorial de cocina", de: "Ein Koch-Tutorial", nl: "Een kook tutorial" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A 'haul' video shows an influencer displaying and discussing items they recently purchased or received, commonly seen in fashion, beauty, and home decor niches.",
+          es: "Un video de 'haul' muestra a un influencer mostrando y discutiendo artículos que recientemente compró o recibió, comúnmente visto en nichos de moda, belleza y decoración del hogar.",
+          de: "Ein 'Haul'-Video zeigt einen Influencer, der kürzlich gekaufte oder erhaltene Artikel zeigt und bespricht, häufig in Mode-, Beauty- und Heimdeko-Nischen zu sehen.",
+          nl: "Een 'haul' video toont een influencer die items toont en bespreekt die ze onlangs hebben gekocht of ontvangen, vaak gezien in mode-, beauty- en woondecor-niches."
+        }
+      },
+      {
+        question: {
+          en: "Which platform is primarily used for professional networking and career content?",
+          es: "¿Qué plataforma se usa principalmente para networking profesional y contenido de carrera?",
+          de: "Welche Plattform wird hauptsächlich für professionelles Networking und Karriereinhalte verwendet?",
+          nl: "Welk platform wordt voornamelijk gebruikt voor professioneel netwerken en carrière content?"
+        },
+        options: [
+          { en: "LinkedIn", es: "LinkedIn", de: "LinkedIn", nl: "LinkedIn" },
+          { en: "Instagram", es: "Instagram", de: "Instagram", nl: "Instagram" },
+          { en: "Snapchat", es: "Snapchat", de: "Snapchat", nl: "Snapchat" },
+          { en: "Pinterest", es: "Pinterest", de: "Pinterest", nl: "Pinterest" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "LinkedIn is the leading social media platform for professional networking, career development, and business-related content, with influencers sharing industry insights and career advice.",
+          es: "LinkedIn es la plataforma líder de redes sociales para networking profesional, desarrollo de carrera y contenido relacionado con negocios, con influencers compartiendo conocimientos de la industria y consejos de carrera.",
+          de: "LinkedIn ist die führende Social-Media-Plattform für professionelles Networking, Karriereentwicklung und geschäftsbezogene Inhalte, wobei Influencer Brancheneinblicke und Karrieretipps teilen.",
+          nl: "LinkedIn is het leidende social media platform voor professioneel netwerken, carrière-ontwikkeling en zakelijke content, waarbij influencers branche-inzichten en carrièreadvies delen."
+        }
+      },
+      {
+        question: {
+          en: "What does 'GRWM' stand for in social media content?",
+          es: "¿Qué significa 'GRWM' en contenido de redes sociales?",
+          de: "Wofür steht 'GRWM' in Social-Media-Inhalten?",
+          nl: "Waar staat 'GRWM' voor in social media content?"
+        },
+        options: [
+          { en: "Get Ready With Me", es: "Prepárate Conmigo", de: "Mach Dich Fertig Mit Mir", nl: "Maak Je Klaar Met Mij" },
+          { en: "Great Routines With Me", es: "Grandes Rutinas Conmigo", de: "Großartige Routinen Mit Mir", nl: "Geweldige Routines Met Mij" },
+          { en: "Good Reviews With Me", es: "Buenas Reseñas Conmigo", de: "Gute Bewertungen Mit Mir", nl: "Goede Reviews Met Mij" },
+          { en: "Going Random With Me", es: "Yendo Al Azar Conmigo", de: "Zufällig Gehen Mit Mir", nl: "Willekeurig Gaan Met Mij" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "'Get Ready With Me' (GRWM) videos show influencers preparing for an event or their day, typically featuring makeup application, outfit selection, and casual conversation.",
+          es: "Los videos 'Prepárate Conmigo' (GRWM) muestran a influencers preparándose para un evento o su día, típicamente presentando aplicación de maquillaje, selección de outfit y conversación casual.",
+          de: "'Mach Dich Fertig Mit Mir' (GRWM) Videos zeigen Influencer, die sich auf ein Event oder ihren Tag vorbereiten, typischerweise mit Make-up-Anwendung, Outfit-Auswahl und zwanglosem Gespräch.",
+          nl: "'Maak Je Klaar Met Mij' (GRWM) video's tonen influencers die zich voorbereiden op een evenement of hun dag, meestal met make-up applicatie, outfit selectie en casual gesprek."
+        }
+      },
+      {
+        question: {
+          en: "Which type of content features influencers answering questions while eating increasingly spicy wings?",
+          es: "¿Qué tipo de contenido presenta a influencers respondiendo preguntas mientras comen alitas cada vez más picantes?",
+          de: "Welche Art von Content zeigt Influencer, die Fragen beantworten, während sie immer schärfere Wings essen?",
+          nl: "Welk type content toont influencers die vragen beantwoorden terwijl ze steeds pittiger vleugels eten?"
+        },
+        options: [
+          { en: "Hot Ones interview format", es: "Formato de entrevista Hot Ones", de: "Hot Ones Interview-Format", nl: "Hot Ones interview formaat" },
+          { en: "Food challenge videos", es: "Videos de desafío de comida", de: "Essen-Challenge-Videos", nl: "Eten uitdaging video's" },
+          { en: "Mukbang videos", es: "Videos de mukbang", de: "Mukbang-Videos", nl: "Mukbang video's" },
+          { en: "Cooking shows", es: "Programas de cocina", de: "Kochshows", nl: "Kookshows" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "'Hot Ones' is a popular YouTube interview show hosted by Sean Evans where celebrities answer questions while eating progressively spicier chicken wings, becoming a viral format copied by many creators.",
+          es: "'Hot Ones' es un popular programa de entrevistas de YouTube presentado por Sean Evans donde las celebridades responden preguntas mientras comen alitas de pollo progresivamente más picantes, convirtiéndose en un formato viral copiado por muchos creadores.",
+          de: "'Hot Ones' ist eine beliebte YouTube-Interview-Show, moderiert von Sean Evans, bei der Prominente Fragen beantworten, während sie immer schärfere Chicken Wings essen, was zu einem viralen Format wurde, das von vielen Creators kopiert wurde.",
+          nl: "'Hot Ones' is een populaire YouTube-interviewshow gepresenteerd door Sean Evans waarbij beroemdheden vragen beantwoorden terwijl ze steeds pittiger kipvleugels eten, wat een viraal formaat werd gekopieerd door veel creators."
+        }
+      },
+      {
+        question: {
+          en: "What is 'clickbait' in content creation?",
+          es: "¿Qué es 'clickbait' en creación de contenido?",
+          de: "Was ist 'Clickbait' in der Content-Erstellung?",
+          nl: "Wat is 'clickbait' in content creatie?"
+        },
+        options: [
+          { en: "Sensationalized titles/thumbnails designed to attract clicks", es: "Títulos/miniaturas sensacionalistas diseñados para atraer clics", de: "Sensationalisierte Titel/Thumbnails, die Klicks anziehen sollen", nl: "Gesensationaliseerde titels/thumbnails ontworpen om klikken aan te trekken" },
+          { en: "High-quality educational content", es: "Contenido educativo de alta calidad", de: "Hochwertige Bildungsinhalte", nl: "Hoogwaardige educatieve content" },
+          { en: "Sponsored content", es: "Contenido patrocinado", de: "Gesponserte Inhalte", nl: "Gesponsorde content" },
+          { en: "Live streaming content", es: "Contenido de transmisión en vivo", de: "Live-Streaming-Inhalte", nl: "Live streaming content" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Clickbait refers to sensationalized or misleading titles and thumbnails designed to attract clicks, often promising more than the content delivers, which can harm creator credibility if overused.",
+          es: "Clickbait se refiere a títulos y miniaturas sensacionalistas o engañosos diseñados para atraer clics, a menudo prometiendo más de lo que el contenido entrega, lo que puede dañar la credibilidad del creador si se usa en exceso.",
+          de: "Clickbait bezieht sich auf sensationalisierte oder irreführende Titel und Thumbnails, die Klicks anziehen sollen, oft mehr versprechen als der Inhalt liefert, was die Glaubwürdigkeit des Creators schädigen kann, wenn es übermäßig verwendet wird.",
+          nl: "Clickbait verwijst naar gesensationaliseerde of misleidende titels en thumbnails ontworpen om klikken aan te trekken, vaak meer belovend dan de content levert, wat de geloofwaardigheid van creators kan schaden bij overmatig gebruik."
+        }
+      },
+      {
+        question: {
+          en: "Which social media term refers to content that disappears after 24 hours?",
+          es: "¿Qué término de redes sociales se refiere a contenido que desaparece después de 24 horas?",
+          de: "Welcher Social-Media-Begriff bezieht sich auf Inhalte, die nach 24 Stunden verschwinden?",
+          nl: "Welke social media term verwijst naar content die verdwijnt na 24 uur?"
+        },
+        options: [
+          { en: "Stories", es: "Historias", de: "Stories", nl: "Stories" },
+          { en: "Posts", es: "Publicaciones", de: "Beiträge", nl: "Posts" },
+          { en: "Reels", es: "Reels", de: "Reels", nl: "Reels" },
+          { en: "Highlights", es: "Destacados", de: "Highlights", nl: "Hoogtepunten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Stories are temporary posts that disappear after 24 hours, popularized by Snapchat and adopted by Instagram, Facebook, WhatsApp, and other platforms, allowing for more casual, ephemeral content sharing.",
+          es: "Las Historias son publicaciones temporales que desaparecen después de 24 horas, popularizadas por Snapchat y adoptadas por Instagram, Facebook, WhatsApp y otras plataformas, permitiendo compartir contenido más casual y efímero.",
+          de: "Stories sind temporäre Beiträge, die nach 24 Stunden verschwinden, popularisiert von Snapchat und übernommen von Instagram, Facebook, WhatsApp und anderen Plattformen, die ein casualeres, ephemeres Content-Sharing ermöglichen.",
+          nl: "Stories zijn tijdelijke posts die na 24 uur verdwijnen, gepopulariseerd door Snapchat en overgenomen door Instagram, Facebook, WhatsApp en andere platforms, waardoor meer casual, efemere content delen mogelijk is."
+        }
+      },
+      {
+        question: {
+          en: "What does '算法' (algorithm) determine on social media platforms?",
+          es: "¿Qué determina el 'algoritmo' en las plataformas de redes sociales?",
+          de: "Was bestimmt der 'Algorithmus' auf Social-Media-Plattformen?",
+          nl: "Wat bepaalt het 'algoritme' op social media platforms?"
+        },
+        options: [
+          { en: "What content users see in their feeds", es: "Qué contenido ven los usuarios en sus feeds", de: "Welche Inhalte Benutzer in ihren Feeds sehen", nl: "Welke content gebruikers in hun feeds zien" },
+          { en: "How many followers someone has", es: "Cuántos seguidores tiene alguien", de: "Wie viele Follower jemand hat", nl: "Hoeveel volgers iemand heeft" },
+          { en: "The price of advertisements", es: "El precio de los anuncios", de: "Der Preis von Werbeanzeigen", nl: "De prijs van advertenties" },
+          { en: "Account verification status", es: "Estado de verificación de cuenta", de: "Kontoverifizierungsstatus", nl: "Account verificatiestatus" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Social media algorithms use complex formulas to determine which content appears in users' feeds, based on factors like engagement, relevance, timeliness, and user behavior patterns.",
+          es: "Los algoritmos de redes sociales usan fórmulas complejas para determinar qué contenido aparece en los feeds de los usuarios, basándose en factores como engagement, relevancia, oportunidad y patrones de comportamiento del usuario.",
+          de: "Social-Media-Algorithmen verwenden komplexe Formeln, um zu bestimmen, welche Inhalte in den Feeds der Benutzer erscheinen, basierend auf Faktoren wie Engagement, Relevanz, Aktualität und Benutzerverhaltensmuster.",
+          nl: "Social media algoritmes gebruiken complexe formules om te bepalen welke content in gebruikersfeeds verschijnt, gebaseerd op factoren zoals betrokkenheid, relevantie, tijdigheid en gebruikersgedragspatronen."
+        }
       }
     ]
   };

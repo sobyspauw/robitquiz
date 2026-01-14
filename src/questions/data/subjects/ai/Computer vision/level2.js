@@ -427,6 +427,426 @@
           de: "Ortsbereich-Verarbeitung manipuliert Pixelwerte direkt im Bildkoordinatensystem, während Frequenzbereich-Verarbeitung Transformationen wie FFT verwendet um Bildfrequenzkomponenten zu analysieren und zu modifizieren.",
           nl: "Ruimtelijk domein verwerking manipuleert pixelwaarden direct in het beeldcoördinatensysteem, terwijl frequentiedomein verwerking transformaties zoals FFT gebruikt om beeldfrequentiecomponenten te analyseren en wijzigen."
         }
+      },
+      {
+        question: {
+          en: "What is the Laplacian operator used for in edge detection?",
+          es: "¿Para qué se usa el operador laplaciano en detección de bordes?",
+          de: "Wofür wird der Laplace-Operator in der Kantenerkennung verwendet?",
+          nl: "Waarvoor wordt de Laplaciaan-operator gebruikt in randdetectie?"
+        },
+        options: [
+          { en: "Detecting edges using second-order derivatives to find zero crossings", es: "Detectar bordes usando derivadas de segundo orden para encontrar cruces por cero", de: "Kanten erkennen durch Ableitungen zweiter Ordnung um Nulldurchgänge zu finden", nl: "Randen detecteren met tweede-orde afgeleiden om nuldoorgangen te vinden" },
+          { en: "Increasing image brightness", es: "Aumentar brillo de imagen", de: "Bildhelligkeit erhöhen", nl: "Beeldhelderheid verhogen" },
+          { en: "Converting color to grayscale", es: "Convertir color a escala de grises", de: "Farbe zu Graustufen konvertieren", nl: "Kleur naar grijstinten converteren" },
+          { en: "Compressing image files", es: "Comprimir archivos de imagen", de: "Bilddateien komprimieren", nl: "Beeldbestanden comprimeren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Laplacian operator computes second derivatives to detect rapid intensity changes, finding edges at zero crossings where the second derivative changes sign.",
+          es: "El operador laplaciano calcula derivadas de segundo orden para detectar cambios rápidos de intensidad, encontrando bordes en cruces por cero donde la derivada de segundo orden cambia de signo.",
+          de: "Der Laplace-Operator berechnet zweite Ableitungen um schnelle Intensitätsänderungen zu erkennen, findet Kanten bei Nulldurchgängen wo die zweite Ableitung das Vorzeichen wechselt.",
+          nl: "De Laplaciaan-operator berekent tweede afgeleiden om snelle intensiteitsveranderingen te detecteren, vindt randen bij nuldoorgangen waar de tweede afgeleide van teken verandert."
+        }
+      },
+      {
+        question: {
+          en: "What is bilateral filtering designed to preserve?",
+          es: "¿Qué está diseñado para preservar el filtrado bilateral?",
+          de: "Was soll bilaterale Filterung erhalten?",
+          nl: "Wat is bilaterale filtering ontworpen om te behouden?"
+        },
+        options: [
+          { en: "Edges while smoothing uniform regions", es: "Bordes mientras suaviza regiones uniformes", de: "Kanten während glatte Regionen geglättet werden", nl: "Randen terwijl uniforme gebieden worden afgevlakt" },
+          { en: "All high-frequency details equally", es: "Todos los detalles de alta frecuencia igualmente", de: "Alle hochfrequenten Details gleichermaßen", nl: "Alle hoogfrequente details gelijk" },
+          { en: "Only color information", es: "Solo información de color", de: "Nur Farbinformationen", nl: "Alleen kleurinformatie" },
+          { en: "File size during compression", es: "Tamaño de archivo durante compresión", de: "Dateigröße während Kompression", nl: "Bestandsgrootte tijdens compressie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bilateral filtering considers both spatial proximity and intensity similarity, smoothing noise in uniform areas while preserving sharp edges and details at boundaries.",
+          es: "El filtrado bilateral considera tanto proximidad espacial como similitud de intensidad, suavizando ruido en áreas uniformes mientras preserva bordes nítidos y detalles en límites.",
+          de: "Bilaterale Filterung berücksichtigt sowohl räumliche Nähe als auch Intensitätsähnlichkeit, glättet Rauschen in gleichmäßigen Bereichen während scharfe Kanten und Details an Grenzen erhalten bleiben.",
+          nl: "Bilaterale filtering houdt rekening met zowel ruimtelijke nabijheid als intensiteitsgelijkheid, vlakt ruis af in uniforme gebieden terwijl scherpe randen en details bij grenzen behouden blijven."
+        }
+      },
+      {
+        question: {
+          en: "What does the Hough Transform detect in images?",
+          es: "¿Qué detecta la transformada de Hough en imágenes?",
+          de: "Was erkennt die Hough-Transformation in Bildern?",
+          nl: "Wat detecteert de Hough-transformatie in afbeeldingen?"
+        },
+        options: [
+          { en: "Geometric shapes like lines, circles, and ellipses", es: "Formas geométricas como líneas, círculos y elipses", de: "Geometrische Formen wie Linien, Kreise und Ellipsen", nl: "Geometrische vormen zoals lijnen, cirkels en ellipsen" },
+          { en: "Color gradients only", es: "Solo gradientes de color", de: "Nur Farbverläufe", nl: "Alleen kleurverlopen" },
+          { en: "Image file formats", es: "Formatos de archivo de imagen", de: "Bilddateiformate", nl: "Beeldbestandsformaten" },
+          { en: "Noise patterns", es: "Patrones de ruido", de: "Rauschmuster", nl: "Ruispatronen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Hough Transform converts edge points into parameter space to robustly detect geometric shapes even when partially obscured or noisy.",
+          es: "La transformada de Hough convierte puntos de borde en espacio de parámetros para detectar robustamente formas geométricas incluso cuando están parcialmente oscurecidas o ruidosas.",
+          de: "Die Hough-Transformation wandelt Kantenpunkte in Parameterraum um um geometrische Formen robust zu erkennen selbst wenn teilweise verdeckt oder verrauscht.",
+          nl: "De Hough-transformatie converteert randpunten naar parameterruimte om geometrische vormen robuust te detecteren zelfs wanneer gedeeltelijk verduisterd of ruizig."
+        }
+      },
+      {
+        question: {
+          en: "What is adaptive thresholding compared to global thresholding?",
+          es: "¿Qué es la umbralización adaptativa comparada con la umbralización global?",
+          de: "Was ist adaptive Schwellenwertverfahren im Vergleich zu globalem Schwellenwertverfahren?",
+          nl: "Wat is adaptieve drempelbewerking vergeleken met globale drempelbewerking?"
+        },
+        options: [
+          { en: "Uses different threshold values for different image regions", es: "Usa diferentes valores de umbral para diferentes regiones de imagen", de: "Verwendet verschiedene Schwellenwerte für verschiedene Bildbereiche", nl: "Gebruikt verschillende drempelwaarden voor verschillende beeldregio's" },
+          { en: "Always uses a threshold of 128", es: "Siempre usa un umbral de 128", de: "Verwendet immer einen Schwellenwert von 128", nl: "Gebruikt altijd een drempel van 128" },
+          { en: "Only works on color images", es: "Solo funciona en imágenes a color", de: "Funktioniert nur bei Farbbildern", nl: "Werkt alleen op kleurafbeeldingen" },
+          { en: "Removes all black pixels", es: "Remueve todos los píxeles negros", de: "Entfernt alle schwarzen Pixel", nl: "Verwijdert alle zwarte pixels" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Adaptive thresholding calculates local thresholds for different image regions, handling varying illumination better than a single global threshold value.",
+          es: "La umbralización adaptativa calcula umbrales locales para diferentes regiones de imagen, manejando iluminación variable mejor que un solo valor de umbral global.",
+          de: "Adaptive Schwellenwertverfahren berechnet lokale Schwellenwerte für verschiedene Bildbereiche, behandelt wechselnde Beleuchtung besser als ein einzelner globaler Schwellenwert.",
+          nl: "Adaptieve drempelbewerking berekent lokale drempels voor verschillende beeldregio's, behandelt variërende belichting beter dan een enkele globale drempelwaarde."
+        }
+      },
+      {
+        question: {
+          en: "What is template matching used for?",
+          es: "¿Para qué se usa la coincidencia de plantillas?",
+          de: "Wofür wird Template-Matching verwendet?",
+          nl: "Waarvoor wordt template-matching gebruikt?"
+        },
+        options: [
+          { en: "Finding instances of a small reference image within a larger image", es: "Encontrar instancias de una imagen de referencia pequeña dentro de una imagen más grande", de: "Instanzen eines kleinen Referenzbildes in einem größeren Bild finden", nl: "Instanties van een kleine referentieafbeelding vinden binnen een grotere afbeelding" },
+          { en: "Creating image templates for websites", es: "Crear plantillas de imagen para sitios web", de: "Bildvorlagen für Websites erstellen", nl: "Beeldsjablonen maken voor websites" },
+          { en: "Matching file formats", es: "Coincidir formatos de archivo", de: "Dateiformate abgleichen", nl: "Bestandsformaten matchen" },
+          { en: "Organizing image folders", es: "Organizar carpetas de imágenes", de: "Bildordner organisieren", nl: "Afbeeldingsmappen organiseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Template matching slides a template image across the target image computing similarity at each position to locate matching patterns or objects.",
+          es: "La coincidencia de plantillas desliza una imagen de plantilla a través de la imagen objetivo calculando similitud en cada posición para localizar patrones u objetos coincidentes.",
+          de: "Template-Matching schiebt ein Template-Bild über das Zielbild und berechnet Ähnlichkeit an jeder Position um übereinstimmende Muster oder Objekte zu lokalisieren.",
+          nl: "Template-matching schuift een sjabloonafbeelding over de doelafbeelding en berekent gelijkheid op elke positie om overeenkomende patronen of objecten te lokaliseren."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of image pyramid representations?",
+          es: "¿Cuál es el propósito de las representaciones de pirámide de imagen?",
+          de: "Was ist der Zweck von Bildpyramiden-Darstellungen?",
+          nl: "Wat is het doel van beeldpiramide-representaties?"
+        },
+        options: [
+          { en: "Representing images at multiple scales for multi-resolution processing", es: "Representar imágenes en múltiples escalas para procesamiento multi-resolución", de: "Bilder in mehreren Maßstäben für Multi-Auflösungsverarbeitung darstellen", nl: "Afbeeldingen op meerdere schalen representeren voor multi-resolutie verwerking" },
+          { en: "Creating 3D pyramid-shaped visualizations", es: "Crear visualizaciones en forma de pirámide 3D", de: "3D-pyramidenförmige Visualisierungen erstellen", nl: "3D-piramideachtige visualisaties maken" },
+          { en: "Stacking images vertically", es: "Apilar imágenes verticalmente", de: "Bilder vertikal stapeln", nl: "Afbeeldingen verticaal stapelen" },
+          { en: "Compressing images to save space", es: "Comprimir imágenes para ahorrar espacio", de: "Bilder komprimieren um Platz zu sparen", nl: "Afbeeldingen comprimeren om ruimte te besparen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Image pyramids create multiple downsampled versions of an image, enabling efficient processing at different scales for tasks like object detection and feature matching.",
+          es: "Las pirámides de imagen crean múltiples versiones submuestreadas de una imagen, habilitando procesamiento eficiente en diferentes escalas para tareas como detección de objetos y coincidencia de características.",
+          de: "Bildpyramiden erstellen mehrere heruntergesamplete Versionen eines Bildes, ermöglichen effiziente Verarbeitung in verschiedenen Maßstäben für Aufgaben wie Objekterkennung und Feature-Matching.",
+          nl: "Beeldpiramides creëren meerdere downsampled versies van een afbeelding, maken efficiënte verwerking op verschillende schalen mogelijk voor taken zoals objectdetectie en feature-matching."
+        }
+      },
+      {
+        question: {
+          en: "What does anisotropic diffusion filtering accomplish?",
+          es: "¿Qué logra el filtrado de difusión anisotrópica?",
+          de: "Was erreicht anisotrope Diffusionsfilterung?",
+          nl: "Wat bereikt anisotrope diffusiefiltering?"
+        },
+        options: [
+          { en: "Smooths images while preserving and enhancing edges", es: "Suaviza imágenes mientras preserva y mejora bordes", de: "Glättet Bilder während Kanten erhalten und verbessert werden", nl: "Vlakt afbeeldingen af terwijl randen behouden en verbeterd worden" },
+          { en: "Spreads colors uniformly across the image", es: "Distribuye colores uniformemente a través de la imagen", de: "Verteilt Farben gleichmäßig über das Bild", nl: "Verspreidt kleuren uniform over de afbeelding" },
+          { en: "Rotates images in random directions", es: "Rota imágenes en direcciones aleatorias", de: "Dreht Bilder in zufällige Richtungen", nl: "Roteert afbeeldingen in willekeurige richtingen" },
+          { en: "Converts images to vector graphics", es: "Convierte imágenes a gráficos vectoriales", de: "Konvertiert Bilder zu Vektorgrafiken", nl: "Converteert afbeeldingen naar vectorafbeeldingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Anisotropic diffusion uses edge-stopping functions to reduce smoothing near edges while aggressively smoothing within uniform regions, preserving important boundaries.",
+          es: "La difusión anisotrópica usa funciones de detención de bordes para reducir suavizado cerca de bordes mientras suaviza agresivamente dentro de regiones uniformes, preservando límites importantes.",
+          de: "Anisotrope Diffusion nutzt kantenstoppende Funktionen um Glättung in der Nähe von Kanten zu reduzieren während innerhalb gleichmäßiger Regionen aggressiv geglättet wird, erhält wichtige Grenzen.",
+          nl: "Anisotrope diffusie gebruikt randstoppende functies om afvlakking nabij randen te verminderen terwijl agressief wordt afgevlakt binnen uniforme gebieden, behoudt belangrijke grenzen."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of the Harris corner detector?",
+          es: "¿Cuál es el propósito del detector de esquinas Harris?",
+          de: "Was ist der Zweck des Harris-Eckendetektors?",
+          nl: "Wat is het doel van de Harris-hoekdetector?"
+        },
+        options: [
+          { en: "Identifying points where image intensity changes significantly in multiple directions", es: "Identificar puntos donde intensidad de imagen cambia significativamente en múltiples direcciones", de: "Punkte identifizieren wo Bildintensität sich signifikant in mehreren Richtungen ändert", nl: "Punten identificeren waar beeldintensiteit significant verandert in meerdere richtingen" },
+          { en: "Finding rectangular corners in images", es: "Encontrar esquinas rectangulares en imágenes", de: "Rechteckige Ecken in Bildern finden", nl: "Rechthoekige hoeken in afbeeldingen vinden" },
+          { en: "Detecting the four corners of the image", es: "Detectar las cuatro esquinas de la imagen", de: "Die vier Ecken des Bildes erkennen", nl: "De vier hoeken van de afbeelding detecteren" },
+          { en: "Measuring corner angles in degrees", es: "Medir ángulos de esquinas en grados", de: "Eckenwinkel in Grad messen", nl: "Hoekhoeken meten in graden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Harris corner detector finds interest points where gradients change in multiple directions, identifying distinctive features useful for tracking, matching, and recognition.",
+          es: "El detector de esquinas Harris encuentra puntos de interés donde gradientes cambian en múltiples direcciones, identificando características distintivas útiles para rastreo, coincidencia y reconocimiento.",
+          de: "Der Harris-Eckendetektor findet Interessenpunkte wo Gradienten sich in mehreren Richtungen ändern, identifiziert charakteristische Merkmale nützlich für Tracking, Matching und Erkennung.",
+          nl: "De Harris-hoekdetector vindt interessepunten waar gradiënten in meerdere richtingen veranderen, identificeert onderscheidende kenmerken nuttig voor tracking, matching en herkenning."
+        }
+      },
+      {
+        question: {
+          en: "What is watershed segmentation based on?",
+          es: "¿En qué se basa la segmentación watershed?",
+          de: "Worauf basiert Watershed-Segmentierung?",
+          nl: "Waarop is watershed-segmentatie gebaseerd?"
+        },
+        options: [
+          { en: "Treating the image as a topographic surface and flooding from markers", es: "Tratar la imagen como superficie topográfica e inundar desde marcadores", de: "Das Bild als topografische Oberfläche behandeln und von Markern aus fluten", nl: "De afbeelding behandelen als topografisch oppervlak en overstromen vanaf markers" },
+          { en: "Detecting water in images", es: "Detectar agua en imágenes", de: "Wasser in Bildern erkennen", nl: "Water detecteren in afbeeldingen" },
+          { en: "Removing watermarks from images", es: "Remover marcas de agua de imágenes", de: "Wasserzeichen aus Bildern entfernen", nl: "Watermerken uit afbeeldingen verwijderen" },
+          { en: "Measuring watershed boundaries", es: "Medir límites de cuencas hidrográficas", de: "Wassereinzugsgebietsgrenzen messen", nl: "Waterscheidingsgrenzen meten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Watershed segmentation interprets grayscale intensity as elevation, flooding from seed points to partition the image into regions separated by watershed lines.",
+          es: "La segmentación watershed interpreta intensidad en escala de grises como elevación, inundando desde puntos semilla para particionar la imagen en regiones separadas por líneas de cuenca.",
+          de: "Watershed-Segmentierung interpretiert Graustufenintensität als Höhe, flutet von Samen-Punkten um das Bild in Regionen zu partitionieren getrennt durch Watershed-Linien.",
+          nl: "Watershed-segmentatie interpreteert grijstintenintensiteit als hoogte, overstroomt vanaf zaadpunten om de afbeelding te verdelen in gebieden gescheiden door watershed-lijnen."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between padding types in image convolution?",
+          es: "¿Cuál es la diferencia entre tipos de relleno en convolución de imagen?",
+          de: "Was ist der Unterschied zwischen Padding-Typen in Bildkonvolution?",
+          nl: "Wat is het verschil tussen padding-types in beeldconvolutie?"
+        },
+        options: [
+          { en: "They determine how borders are handled: zero padding, replicate, reflect, or wrap", es: "Determinan cómo se manejan bordes: relleno cero, replicar, reflejar o envolver", de: "Sie bestimmen wie Ränder behandelt werden: Null-Padding, Replizieren, Reflektieren oder Umschließen", nl: "Ze bepalen hoe randen worden behandeld: nul-padding, repliceren, reflecteren of omwikkelen" },
+          { en: "Padding only affects image file size", es: "El relleno solo afecta tamaño de archivo de imagen", de: "Padding beeinflusst nur die Bilddateigröße", nl: "Padding beïnvloedt alleen bestandsgrootte van afbeelding" },
+          { en: "All padding types produce identical results", es: "Todos los tipos de relleno producen resultados idénticos", de: "Alle Padding-Typen erzeugen identische Ergebnisse", nl: "Alle padding-types produceren identieke resultaten" },
+          { en: "Padding is only used for color images", es: "El relleno solo se usa para imágenes a color", de: "Padding wird nur für Farbbilder verwendet", nl: "Padding wordt alleen gebruikt voor kleurafbeeldingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Padding strategies handle boundary pixels differently: zero padding adds zeros, replication extends edge values, reflection mirrors pixels, and wrap uses opposite-side values.",
+          es: "Las estrategias de relleno manejan píxeles de borde de manera diferente: relleno cero añade ceros, replicación extiende valores de borde, reflexión refleja píxeles y wrap usa valores del lado opuesto.",
+          de: "Padding-Strategien behandeln Randpixel unterschiedlich: Null-Padding fügt Nullen hinzu, Replikation erweitert Randwerte, Reflexion spiegelt Pixel und Wrap verwendet Werte der gegenüberliegenden Seite.",
+          nl: "Padding-strategieën behandelen randpixels verschillend: nul-padding voegt nullen toe, replicatie breidt randwaarden uit, reflectie spiegelt pixels en wrap gebruikt tegenoverliggende zijdewaarden."
+        }
+      },
+      {
+        question: {
+          en: "What is image registration?",
+          es: "¿Qué es el registro de imagen?",
+          de: "Was ist Bildregistrierung?",
+          nl: "Wat is beeldregistratie?"
+        },
+        options: [
+          { en: "Aligning multiple images of the same scene into a common coordinate system", es: "Alinear múltiples imágenes de la misma escena en un sistema de coordenadas común", de: "Mehrere Bilder derselben Szene in ein gemeinsames Koordinatensystem ausrichten", nl: "Meerdere afbeeldingen van dezelfde scène uitlijnen in een gemeenschappelijk coördinatensysteem" },
+          { en: "Saving images to a database", es: "Guardar imágenes en una base de datos", de: "Bilder in einer Datenbank speichern", nl: "Afbeeldingen opslaan in een database" },
+          { en: "Registering copyright for images", es: "Registrar derechos de autor para imágenes", de: "Urheberrecht für Bilder registrieren", nl: "Auteursrecht registreren voor afbeeldingen" },
+          { en: "Creating a registry of image files", es: "Crear un registro de archivos de imagen", de: "Ein Register von Bilddateien erstellen", nl: "Een register van beeldbestanden maken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Image registration geometrically transforms images to align corresponding features, enabling comparison, fusion, and analysis of images taken from different viewpoints or times.",
+          es: "El registro de imagen transforma geométricamente imágenes para alinear características correspondientes, habilitando comparación, fusión y análisis de imágenes tomadas desde diferentes puntos de vista o tiempos.",
+          de: "Bildregistrierung transformiert Bilder geometrisch um entsprechende Merkmale auszurichten, ermöglicht Vergleich, Fusion und Analyse von Bildern die aus verschiedenen Blickwinkeln oder Zeiten aufgenommen wurden.",
+          nl: "Beeldregistratie transformeert afbeeldingen geometrisch om overeenkomstige kenmerken uit te lijnen, maakt vergelijking, fusie en analyse mogelijk van afbeeldingen genomen vanuit verschillende gezichtspunten of tijden."
+        }
+      },
+      {
+        question: {
+          en: "What is SIFT (Scale-Invariant Feature Transform) designed for?",
+          es: "¿Para qué está diseñado SIFT (Transformada de Características Invariante a Escala)?",
+          de: "Wofür ist SIFT (Scale-Invariant Feature Transform) konzipiert?",
+          nl: "Waarvoor is SIFT (Scale-Invariant Feature Transform) ontworpen?"
+        },
+        options: [
+          { en: "Detecting and describing local features that are invariant to scale and rotation", es: "Detectar y describir características locales que son invariantes a escala y rotación", de: "Lokale Merkmale erkennen und beschreiben die invariant gegenüber Skalierung und Rotation sind", nl: "Lokale kenmerken detecteren en beschrijven die invariant zijn voor schaal en rotatie" },
+          { en: "Sifting through image files to find duplicates", es: "Cribar archivos de imagen para encontrar duplicados", de: "Bilddateien durchsieben um Duplikate zu finden", nl: "Beeldbestanden zeven om duplicaten te vinden" },
+          { en: "Shifting images to different positions", es: "Desplazar imágenes a diferentes posiciones", de: "Bilder zu verschiedenen Positionen verschieben", nl: "Afbeeldingen verplaatsen naar verschillende posities" },
+          { en: "Filtering out small features from images", es: "Filtrar características pequeñas de imágenes", de: "Kleine Merkmale aus Bildern filtern", nl: "Kleine kenmerken uit afbeeldingen filteren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "SIFT extracts distinctive keypoints and computes descriptors that remain consistent across different scales, rotations, and lighting conditions for robust feature matching.",
+          es: "SIFT extrae puntos clave distintivos y calcula descriptores que permanecen consistentes a través de diferentes escalas, rotaciones y condiciones de iluminación para coincidencia robusta de características.",
+          de: "SIFT extrahiert charakteristische Schlüsselpunkte und berechnet Deskriptoren die konsistent über verschiedene Skalierungen, Rotationen und Lichtverhältnisse bleiben für robustes Feature-Matching.",
+          nl: "SIFT extraheert onderscheidende sleutelpunten en berekent descriptoren die consistent blijven over verschillende schalen, rotaties en lichtomstandigheden voor robuuste feature-matching."
+        }
+      },
+      {
+        question: {
+          en: "What is optical flow estimation used for?",
+          es: "¿Para qué se usa la estimación de flujo óptico?",
+          de: "Wofür wird optische Flussschätzung verwendet?",
+          nl: "Waarvoor wordt optische flow-schatting gebruikt?"
+        },
+        options: [
+          { en: "Tracking pixel movement between consecutive video frames", es: "Rastrear movimiento de píxeles entre fotogramas de video consecutivos", de: "Pixelbewegung zwischen aufeinanderfolgenden Videoframes verfolgen", nl: "Pixelbeweging volgen tussen opeenvolgende videoframes" },
+          { en: "Measuring light intensity in optical fibers", es: "Medir intensidad de luz en fibras ópticas", de: "Lichtintensität in Glasfasern messen", nl: "Lichtintensiteit meten in optische vezels" },
+          { en: "Optimizing image flow through networks", es: "Optimizar flujo de imagen a través de redes", de: "Bildfluss durch Netzwerke optimieren", nl: "Beeldstroom optimaliseren door netwerken" },
+          { en: "Detecting optical illusions in images", es: "Detectar ilusiones ópticas en imágenes", de: "Optische Täuschungen in Bildern erkennen", nl: "Optische illusies detecteren in afbeeldingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Optical flow computes apparent motion vectors of pixels between frames, enabling motion analysis, object tracking, and video stabilization applications.",
+          es: "El flujo óptico calcula vectores de movimiento aparente de píxeles entre fotogramas, habilitando análisis de movimiento, rastreo de objetos y aplicaciones de estabilización de video.",
+          de: "Optischer Fluss berechnet scheinbare Bewegungsvektoren von Pixeln zwischen Frames, ermöglicht Bewegungsanalyse, Objektverfolgung und Videostabilisierungsanwendungen.",
+          nl: "Optische flow berekent schijnbare bewegingsvectoren van pixels tussen frames, maakt bewegingsanalyse, objecttracking en videostabilisatie-applicaties mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What is color space conversion used for in computer vision?",
+          es: "¿Para qué se usa la conversión de espacio de color en visión por computadora?",
+          de: "Wofür wird Farbraumkonvertierung in Computer Vision verwendet?",
+          nl: "Waarvoor wordt kleurruimteconversie gebruikt in computer vision?"
+        },
+        options: [
+          { en: "Transforming images between color representations like RGB, HSV, or LAB", es: "Transformar imágenes entre representaciones de color como RGB, HSV o LAB", de: "Bilder zwischen Farbdarstellungen wie RGB, HSV oder LAB transformieren", nl: "Afbeeldingen transformeren tussen kleurrepresentaties zoals RGB, HSV of LAB" },
+          { en: "Increasing the amount of storage space for colors", es: "Aumentar cantidad de espacio de almacenamiento para colores", de: "Menge an Speicherplatz für Farben erhöhen", nl: "Hoeveelheid opslagruimte voor kleuren verhogen" },
+          { en: "Converting all images to black and white", es: "Convertir todas las imágenes a blanco y negro", de: "Alle Bilder zu Schwarz-Weiß konvertieren", nl: "Alle afbeeldingen converteren naar zwart-wit" },
+          { en: "Changing the physical color of displayed images", es: "Cambiar el color físico de imágenes mostradas", de: "Physische Farbe angezeigter Bilder ändern", nl: "Fysieke kleur van weergegeven afbeeldingen veranderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Different color spaces separate color information differently - HSV separates hue from intensity, LAB mimics human perception, enabling better segmentation and analysis for specific tasks.",
+          es: "Diferentes espacios de color separan información de color de manera diferente - HSV separa matiz de intensidad, LAB imita percepción humana, habilitando mejor segmentación y análisis para tareas específicas.",
+          de: "Verschiedene Farbräume trennen Farbinformationen unterschiedlich - HSV trennt Farbton von Intensität, LAB imitiert menschliche Wahrnehmung, ermöglicht bessere Segmentierung und Analyse für spezifische Aufgaben.",
+          nl: "Verschillende kleurruimtes scheiden kleurinformatie verschillend - HSV scheidt tint van intensiteit, LAB bootst menselijke waarneming na, maakt betere segmentatie en analyse mogelijk voor specifieke taken."
+        }
+      },
+      {
+        question: {
+          en: "What is perspective transformation in image processing?",
+          es: "¿Qué es la transformación de perspectiva en procesamiento de imágenes?",
+          de: "Was ist Perspektivtransformation in der Bildverarbeitung?",
+          nl: "Wat is perspectieftransformatie in beeldverwerking?"
+        },
+        options: [
+          { en: "Warping images to correct or simulate perspective distortions", es: "Deformar imágenes para corregir o simular distorsiones de perspectiva", de: "Bilder verzerren um Perspektivverzerrungen zu korrigieren oder zu simulieren", nl: "Afbeeldingen vervormen om perspectiefvervormingen te corrigeren of simuleren" },
+          { en: "Changing the perspective or opinion about images", es: "Cambiar la perspectiva u opinión sobre imágenes", de: "Perspektive oder Meinung über Bilder ändern", nl: "Perspectief of mening over afbeeldingen veranderen" },
+          { en: "Creating 3D images from 2D images", es: "Crear imágenes 3D desde imágenes 2D", de: "3D-Bilder aus 2D-Bildern erstellen", nl: "3D-afbeeldingen maken van 2D-afbeeldingen" },
+          { en: "Measuring distances in perspective drawings", es: "Medir distancias en dibujos en perspectiva", de: "Entfernungen in Perspektivzeichnungen messen", nl: "Afstanden meten in perspectieftekeningen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Perspective transformation applies projective geometry to map quadrilaterals, correcting viewpoint distortions like tilted documents or simulating different camera angles.",
+          es: "La transformación de perspectiva aplica geometría proyectiva para mapear cuadriláteros, corrigiendo distorsiones de punto de vista como documentos inclinados o simulando diferentes ángulos de cámara.",
+          de: "Perspektivtransformation wendet projektive Geometrie an um Vierecke abzubilden, korrigiert Blickwinkelverzerrungen wie gekippte Dokumente oder simuliert verschiedene Kamerawinkel.",
+          nl: "Perspectieftransformatie past projectieve meetkunde toe om vierhoeken af te beelden, corrigeert gezichtspuntvervormingen zoals gekantelde documenten of simuleert verschillende camerahoeken."
+        }
+      },
+      {
+        question: {
+          en: "What is blob detection in computer vision?",
+          es: "¿Qué es la detección de blobs en visión por computadora?",
+          de: "Was ist Blob-Erkennung in Computer Vision?",
+          nl: "Wat is blob-detectie in computer vision?"
+        },
+        options: [
+          { en: "Identifying regions that differ in properties like brightness or color from surroundings", es: "Identificar regiones que difieren en propiedades como brillo o color de alrededores", de: "Regionen identifizieren die sich in Eigenschaften wie Helligkeit oder Farbe von Umgebung unterscheiden", nl: "Gebieden identificeren die verschillen in eigenschappen zoals helderheid of kleur van omgeving" },
+          { en: "Detecting liquid drops in images", es: "Detectar gotas líquidas en imágenes", de: "Flüssigkeitstropfen in Bildern erkennen", nl: "Vloeistofdruppels detecteren in afbeeldingen" },
+          { en: "Finding corrupted image data", es: "Encontrar datos de imagen corruptos", de: "Beschädigte Bilddaten finden", nl: "Beschadigde beeldgegevens vinden" },
+          { en: "Measuring blob sizes in biology", es: "Medir tamaños de blobs en biología", de: "Blob-Größen in Biologie messen", nl: "Blob-groottes meten in biologie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Blob detection finds connected regions (blobs) with consistent properties distinct from background, useful for detecting objects, cells, or features of interest.",
+          es: "La detección de blobs encuentra regiones conectadas (blobs) con propiedades consistentes distintas del fondo, útil para detectar objetos, células o características de interés.",
+          de: "Blob-Erkennung findet verbundene Regionen (Blobs) mit konsistenten Eigenschaften die sich vom Hintergrund unterscheiden, nützlich zum Erkennen von Objekten, Zellen oder interessanten Merkmalen.",
+          nl: "Blob-detectie vindt verbonden gebieden (blobs) met consistente eigenschappen die verschillen van achtergrond, nuttig voor detecteren van objecten, cellen of kenmerken van interesse."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of non-maximum suppression?",
+          es: "¿Cuál es el propósito de la supresión de no-máximos?",
+          de: "Was ist der Zweck der Nicht-Maximum-Unterdrückung?",
+          nl: "Wat is het doel van niet-maximum onderdrukking?"
+        },
+        options: [
+          { en: "Thinning detected edges to single-pixel width by removing non-peak responses", es: "Adelgazar bordes detectados a ancho de un solo píxel removiendo respuestas no pico", de: "Erkannte Kanten auf Ein-Pixel-Breite verdünnen durch Entfernung von Nicht-Spitzen-Antworten", nl: "Gedetecteerde randen verdunnen tot enkele-pixel breedte door niet-piek reacties te verwijderen" },
+          { en: "Maximizing the brightness of all pixels", es: "Maximizar el brillo de todos los píxeles", de: "Helligkeit aller Pixel maximieren", nl: "Helderheid van alle pixels maximaliseren" },
+          { en: "Removing maximum values from images", es: "Remover valores máximos de imágenes", de: "Maximalwerte aus Bildern entfernen", nl: "Maximum waarden uit afbeeldingen verwijderen" },
+          { en: "Suppressing noise in images", es: "Suprimir ruido en imágenes", de: "Rauschen in Bildern unterdrücken", nl: "Ruis in afbeeldingen onderdrukken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Non-maximum suppression keeps only local maxima along the gradient direction, producing thin edges by suppressing redundant edge pixels that aren't the strongest in their neighborhood.",
+          es: "La supresión de no-máximos mantiene solo máximos locales a lo largo de la dirección de gradiente, produciendo bordes delgados suprimiendo píxeles de borde redundantes que no son los más fuertes en su vecindario.",
+          de: "Nicht-Maximum-Unterdrückung behält nur lokale Maxima entlang der Gradientenrichtung, produziert dünne Kanten durch Unterdrückung redundanter Kantenpixel die nicht die stärksten in ihrer Nachbarschaft sind.",
+          nl: "Niet-maximum onderdrukking behoudt alleen lokale maxima langs de gradiëntrichting, produceert dunne randen door redundante randpixels te onderdrukken die niet de sterkste zijn in hun buurt."
+        }
+      },
+      {
+        question: {
+          en: "What is image stitching (panorama creation) based on?",
+          es: "¿En qué se basa la unión de imágenes (creación de panoramas)?",
+          de: "Worauf basiert Bild-Stitching (Panorama-Erstellung)?",
+          nl: "Waarop is beeldstitching (panorama-creatie) gebaseerd?"
+        },
+        options: [
+          { en: "Finding and matching overlapping features between images, then warping and blending", es: "Encontrar y coincidir características superpuestas entre imágenes, luego deformar y mezclar", de: "Überlappende Merkmale zwischen Bildern finden und abgleichen, dann verzerren und verschmelzen", nl: "Overlappende kenmerken tussen afbeeldingen vinden en matchen, dan vervormen en mengen" },
+          { en: "Sewing images together side-by-side", es: "Coser imágenes juntas lado a lado", de: "Bilder nebeneinander nähen", nl: "Afbeeldingen zij aan zij aan elkaar naaien" },
+          { en: "Compressing multiple images into one file", es: "Comprimir múltiples imágenes en un archivo", de: "Mehrere Bilder in eine Datei komprimieren", nl: "Meerdere afbeeldingen comprimeren in één bestand" },
+          { en: "Creating embroidered patterns from images", es: "Crear patrones bordados desde imágenes", de: "Gestickte Muster aus Bildern erstellen", nl: "Geborduurde patronen maken van afbeeldingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Image stitching detects corresponding features across overlapping images, estimates geometric transformations, warps images to align, and blends seamlessly to create panoramas.",
+          es: "La unión de imágenes detecta características correspondientes a través de imágenes superpuestas, estima transformaciones geométricas, deforma imágenes para alinear y mezcla sin problemas para crear panoramas.",
+          de: "Bild-Stitching erkennt entsprechende Merkmale über überlappende Bilder, schätzt geometrische Transformationen, verzerrt Bilder zum Ausrichten und verschmilzt nahtlos um Panoramen zu erstellen.",
+          nl: "Beeldstitching detecteert overeenkomstige kenmerken over overlappende afbeeldingen, schat geometrische transformaties, vervormt afbeeldingen om uit te lijnen en mengt naadloos om panorama's te maken."
+        }
+      },
+      {
+        question: {
+          en: "What is connected component analysis used for?",
+          es: "¿Para qué se usa el análisis de componentes conectados?",
+          de: "Wofür wird Analyse verbundener Komponenten verwendet?",
+          nl: "Waarvoor wordt analyse van verbonden componenten gebruikt?"
+        },
+        options: [
+          { en: "Labeling and analyzing distinct objects in binary images", es: "Etiquetar y analizar objetos distintos en imágenes binarias", de: "Unterschiedliche Objekte in Binärbildern beschriften und analysieren", nl: "Verschillende objecten in binaire afbeeldingen labelen en analyseren" },
+          { en: "Connecting electronic components in circuits", es: "Conectar componentes electrónicos en circuitos", de: "Elektronische Komponenten in Schaltungen verbinden", nl: "Elektronische componenten in circuits verbinden" },
+          { en: "Analyzing network connectivity", es: "Analizar conectividad de red", de: "Netzwerkkonnektivität analysieren", nl: "Netwerkconnectiviteit analyseren" },
+          { en: "Finding related image files", es: "Encontrar archivos de imagen relacionados", de: "Verwandte Bilddateien finden", nl: "Gerelateerde beeldbestanden vinden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Connected component analysis identifies groups of adjacent pixels with the same value, assigning unique labels to separate objects for counting, measurement, and individual analysis.",
+          es: "El análisis de componentes conectados identifica grupos de píxeles adyacentes con el mismo valor, asignando etiquetas únicas para separar objetos para contar, medir y análisis individual.",
+          de: "Analyse verbundener Komponenten identifiziert Gruppen benachbarter Pixel mit demselben Wert, weist eindeutige Labels zu um Objekte zu trennen für Zählung, Messung und individuelle Analyse.",
+          nl: "Analyse van verbonden componenten identificeert groepen aangrenzende pixels met dezelfde waarde, wijst unieke labels toe om objecten te scheiden voor telling, meting en individuele analyse."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of the Fourier Transform in image processing?",
+          es: "¿Cuál es el propósito de la transformada de Fourier en procesamiento de imágenes?",
+          de: "Was ist der Zweck der Fourier-Transformation in der Bildverarbeitung?",
+          nl: "Wat is het doel van de Fourier-transformatie in beeldverwerking?"
+        },
+        options: [
+          { en: "Converting images to frequency domain to analyze patterns and perform filtering", es: "Convertir imágenes a dominio de frecuencia para analizar patrones y realizar filtrado", de: "Bilder in Frequenzbereich konvertieren um Muster zu analysieren und Filterung durchzuführen", nl: "Afbeeldingen converteren naar frequentiedomein om patronen te analyseren en filtering uit te voeren" },
+          { en: "Transforming images into different file formats", es: "Transformar imágenes en diferentes formatos de archivo", de: "Bilder in verschiedene Dateiformate transformieren", nl: "Afbeeldingen transformeren naar verschillende bestandsformaten" },
+          { en: "Rotating images by specific angles", es: "Rotar imágenes por ángulos específicos", de: "Bilder um bestimmte Winkel drehen", nl: "Afbeeldingen draaien met specifieke hoeken" },
+          { en: "Compressing image files", es: "Comprimir archivos de imagen", de: "Bilddateien komprimieren", nl: "Beeldbestanden comprimeren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Fourier Transform decomposes images into sinusoidal components, revealing frequency information useful for filtering, compression, and understanding periodic patterns or textures.",
+          es: "La transformada de Fourier descompone imágenes en componentes sinusoidales, revelando información de frecuencia útil para filtrado, compresión y entendimiento de patrones periódicos o texturas.",
+          de: "Die Fourier-Transformation zerlegt Bilder in sinusförmige Komponenten, enthüllt Frequenzinformationen nützlich für Filterung, Kompression und Verstehen periodischer Muster oder Texturen.",
+          nl: "De Fourier-transformatie ontleedt afbeeldingen in sinusvormige componenten, onthult frequentie-informatie nuttig voor filtering, compressie en begrip van periodieke patronen of texturen."
+        }
       }
     ]
   };

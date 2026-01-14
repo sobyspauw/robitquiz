@@ -682,7 +682,7 @@
             en: "Never regretting card choices",
             es: "Nunca lamentar elecciones de cartas",
             de: "Niemals Kartenentscheidungen bereuen",
-            nl: "Nooit kaartke uzes betreuren"
+            nl: "Nooit kaartkeuzes betreuren"
           },
           {
             en: "Feeling bad about showing cards",
@@ -868,9 +868,796 @@
           de: "Kontrafaktisches Denken beinhaltet das Extrahieren von Informationen nicht nur aus dem, was passiert ist, sondern aus dem, was nicht passiert ist. Wenn ein Gegner Ihren Vorschlag mit Karte X widerlegt, lernen Sie: sie haben X, aber Sie lernen auch, dass sie Karten Y oder Z nicht hatten (sonst hätten sie diese vielleicht gezeigt).",
           nl: "Contrafactisch redeneren houdt in dat je informatie extraheert niet alleen uit wat gebeurde, maar uit wat niet gebeurde. Wanneer een tegenstander je suggestie weerlegt met kaart X, leer je: ze hebben X, maar je leert ook dat ze kaarten Y of Z niet hadden (anders hadden ze die misschien getoond)."
         }
+      },
+      {
+        question: {
+          en: "What is 'dynamic programming for suggestion sequence optimization' in master Cluedo?",
+          es: "¿Qué es la 'programación dinámica para optimización de secuencia de sugerencias' en Cluedo maestro?",
+          de: "Was ist 'dynamische Programmierung für Vorschlagssequenz-Optimierung' im Meister-Cluedo?",
+          nl: "Wat is 'dynamisch programmeren voor suggestiesequentie-optimalisatie' in meester-Cluedo?"
+        },
+        options: [
+          {
+            en: "Breaking down multi-turn suggestion planning into overlapping subproblems and solving each once to find globally optimal sequences",
+            es: "Dividir la planificación de sugerencias de múltiples turnos en subproblemas superpuestos y resolver cada uno una vez para encontrar secuencias globalmente óptimas",
+            de: "Zerlegung der Mehrfach-Zug-Vorschlagsplanung in überlappende Teilprobleme und einmaliges Lösen jedes Problems zur Findung global optimaler Sequenzen",
+            nl: "Opdelen van multi-beurt suggestieplanning in overlappende subproblemen en elk eenmaal oplossen om globaal optimale sequenties te vinden"
+          },
+          {
+            en: "Changing suggestions dynamically during play",
+            es: "Cambiar sugerencias dinámicamente durante el juego",
+            de: "Vorschläge dynamisch während des Spiels ändern",
+            nl: "Suggesties dynamisch aanpassen tijdens het spel"
+          },
+          {
+            en: "Programming computers to play Cluedo",
+            es: "Programar computadoras para jugar Cluedo",
+            de: "Computer zum Cluedo-Spielen programmieren",
+            nl: "Computers programmeren om Cluedo te spelen"
+          },
+          {
+            en: "Creating flexible suggestion plans",
+            es: "Crear planes de sugerencias flexibles",
+            de: "Flexible Vorschlagspläne erstellen",
+            nl: "Flexibele suggestieplannen maken"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dynamic programming for suggestion sequence optimization recognizes that planning optimal multi-turn sequences has optimal substructure: the best N-turn plan includes the best (N-1)-turn plan. Masters use memoization to avoid recalculating solutions to repeated subproblems, building up from base cases to find provably optimal suggestion sequences. This technique is especially powerful when combined with pruning strategies to reduce the state space.",
+          es: "La programación dinámica para optimización de secuencia de sugerencias reconoce que planificar secuencias óptimas de múltiples turnos tiene estructura óptima de subproblemas: el mejor plan de N turnos incluye el mejor plan de (N-1) turnos. Los maestros usan memoización para evitar recalcular soluciones.",
+          de: "Dynamische Programmierung für Vorschlagssequenz-Optimierung erkennt, dass die Planung optimaler Mehrfach-Zug-Sequenzen optimale Teilstruktur hat: Der beste N-Zug-Plan enthält den besten (N-1)-Zug-Plan. Meister verwenden Memoization, um Neuberechnungen von Lösungen wiederholter Teilprobleme zu vermeiden.",
+          nl: "Dynamisch programmeren voor suggestiesequentie-optimalisatie erkent dat het plannen van optimale multi-beurt sequenties optimale substructuur heeft: het beste N-beurt plan bevat het beste (N-1)-beurt plan. Meesters gebruiken memoization om herberekening van oplossingen voor herhaalde subproblemen te vermijden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'information-theoretic channel capacity analysis' in elite Cluedo?",
+          es: "¿Qué es el 'análisis de capacidad de canal teórico-informacional' en Cluedo de élite?",
+          de: "Was ist 'informationstheoretische Kanalkapazitätsanalyse' im Elite-Cluedo?",
+          nl: "Wat is 'informatietheorетische kanaalcapaciteitsanalyse' in elite-Cluedo?"
+        },
+        options: [
+          {
+            en: "Calculating the maximum rate of information transfer possible from opponents' card revelations under game constraints",
+            es: "Calcular la tasa máxima de transferencia de información posible de las revelaciones de cartas de oponentes bajo restricciones del juego",
+            de: "Berechnung der maximalen Informationstransferrate, die aus Kartenoffenbarungen der Gegner unter Spielbeschränkungen möglich ist",
+            nl: "Berekenen van de maximale snelheid van informatieoverdracht mogelijk uit kaartonthullingen van tegenstanders onder spelbeperkingen"
+          },
+          {
+            en: "Analyzing communication channels between players",
+            es: "Analizar canales de comunicación entre jugadores",
+            de: "Kommunikationskanäle zwischen Spielern analysieren",
+            nl: "Communicatiekanalen tussen spelers analyseren"
+          },
+          {
+            en: "Measuring game complexity",
+            es: "Medir complejidad del juego",
+            de: "Spielkomplexität messen",
+            nl: "Spelcomplexiteit meten"
+          },
+          {
+            en: "Optimizing information storage",
+            es: "Optimizar almacenamiento de información",
+            de: "Informationsspeicherung optimieren",
+            nl: "Informatieopslag optimaliseren"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Information-theoretic channel capacity analysis applies Shannon's channel capacity theorem to Cluedo's card revelation mechanism. Each suggestion-response cycle forms a noisy communication channel with finite capacity. Elite players calculate the theoretical maximum information extractable per turn given the number of cards each player holds, optimizing suggestions to approach this Shannon limit. This provides a performance ceiling against which to measure suggestion efficiency.",
+          es: "El análisis de capacidad de canal teórico-informacional aplica el teorema de capacidad de canal de Shannon al mecanismo de revelación de cartas de Cluedo. Cada ciclo de sugerencia-respuesta forma un canal de comunicación ruidoso con capacidad finita. Los jugadores de élite calculan la información máxima teórica extraíble por turno.",
+          de: "Informationstheoretische Kanalkapazitätsanalyse wendet Shannons Kanalkapazitätstheorem auf Cluedos Kartenoffenbarungsmechanismus an. Jeder Vorschlag-Antwort-Zyklus bildet einen rauschenden Kommunikationskanal mit endlicher Kapazität. Elite-Spieler berechnen die theoretisch maximale Information, die pro Zug extrahierbar ist.",
+          nl: "Informatietheorетische kanaalcapaciteitsanalyse past Shannon's kanaalcapaciteitstheorema toe op Cluedo's kaartonthuллingsmechanisme. Elke suggestie-reactie cyclus vormt een ruisend communicatiekanaal met eindige capaciteit. Elite-spelers berekenen de theoretisch maximale informatie die per beurt extraheerbaar is."
+        }
+      },
+      {
+        question: {
+          en: "What is 'adversarial machine learning analogy' in championship Cluedo strategy?",
+          es: "¿Qué es la 'analogía de aprendizaje automático adversarial' en estrategia de Cluedo de campeonato?",
+          de: "Was ist 'adversariales maschinelles Lernen-Analogie' in Meisterschafts-Cluedo-Strategie?",
+          nl: "Wat is 'adversariële machine learning-analogie' in kampioenschap-Cluedo-strategie?"
+        },
+        options: [
+          {
+            en: "Treating opponents' deduction systems as classifiers and crafting suggestions that act as adversarial examples to mislead them",
+            es: "Tratar los sistemas de deducción de oponentes como clasificadores y crear sugerencias que actúen como ejemplos adversariales para engañarlos",
+            de: "Behandlung der Deduktionssysteme der Gegner als Klassifikatoren und Gestaltung von Vorschlägen, die als adversarielle Beispiele wirken, um sie irrezuführen",
+            nl: "Behandelen van deductiesystemen van tegenstanders als classificeerders en creëren van suggesties die fungeren als adversariële voorbeelden om hen te misleiden"
+          },
+          {
+            en: "Using artificial intelligence to play Cluedo",
+            es: "Usar inteligencia artificial para jugar Cluedo",
+            de: "Künstliche Intelligenz zum Cluedo-Spielen verwenden",
+            nl: "Kunstmatige intelligentie gebruiken om Cluedo te spelen"
+          },
+          {
+            en: "Learning from opponent mistakes",
+            es: "Aprender de los errores de los oponentes",
+            de: "Von Gegnerfehlern lernen",
+            nl: "Leren van tegenstanderfouten"
+          },
+          {
+            en: "Competing against computers",
+            es: "Competir contra computadoras",
+            de: "Gegen Computer antreten",
+            nl: "Concurreren tegen computers"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Adversarial machine learning analogy treats opponents as pattern recognition systems attempting to classify the solution. Just as adversarial examples exploit weaknesses in neural networks, championship players craft suggestion sequences that exploit weaknesses in human deductive reasoning. This might involve: creating patterns that trigger false positives in opponent tracking, exploiting cognitive biases, or presenting information that leads to locally coherent but globally incorrect conclusions.",
+          es: "La analogía de aprendizaje automático adversarial trata a los oponentes como sistemas de reconocimiento de patrones que intentan clasificar la solución. Así como los ejemplos adversariales explotan debilidades en redes neuronales, los jugadores de campeonato crean secuencias de sugerencias que explotan debilidades en el razonamiento deductivo humano.",
+          de: "Adversariales maschinelles Lernen-Analogie behandelt Gegner als Mustererkennungssysteme, die versuchen, die Lösung zu klassifizieren. Genau wie adversarielle Beispiele Schwachstellen in neuronalen Netzen ausnutzen, gestalten Meisterschaftsspieler Vorschlagssequenzen, die Schwachstellen im menschlichen deduktiven Denken ausnutzen.",
+          nl: "Adversariële machine learning-analogie behandelt tegenstanders als patroonherkenningssystemen die proberen de oplossing te classificeren. Net zoals adversariële voorbeelden zwakheden in neurale netwerken exploiteren, creëren kampioenschapspelers suggestiesequenties die zwakheden in menselijk deductief redeneren exploiteren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'probabilistic bisection search' in tournament Cluedo?",
+          es: "¿Qué es la 'búsqueda de bisección probabilística' en Cluedo de torneo?",
+          de: "Was ist 'probabilistische Bisektionssuche' im Turnier-Cluedo?",
+          nl: "Wat is 'probabilistisch bisectie-zoeken' in toernooi-Cluedo?"
+        },
+        options: [
+          {
+            en: "Crafting suggestions that split the probability space of possible solutions as evenly as possible, halving uncertainty each turn",
+            es: "Crear sugerencias que dividen el espacio de probabilidad de soluciones posibles lo más uniformemente posible, reduciendo la incertidumbre a la mitad cada turno",
+            de: "Gestaltung von Vorschlägen, die den Wahrscheinlichkeitsraum möglicher Lösungen so gleichmäßig wie möglich teilen und die Unsicherheit jeden Zug halbieren",
+            nl: "Creëren van suggesties die de waarschijnlijkheidsruimte van mogelijke oplossingen zo gelijk mogelijk splitsen, waarbij onzekerheid elke beurt wordt gehalveerd"
+          },
+          {
+            en: "Dividing the game board in half",
+            es: "Dividir el tablero de juego por la mitad",
+            de: "Das Spielbrett halbieren",
+            nl: "Het spelbord in tweeën delen"
+          },
+          {
+            en: "Making two suggestions per turn",
+            es: "Hacer dos sugerencias por turno",
+            de: "Zwei Vorschläge pro Zug machen",
+            nl: "Twee suggesties per beurt doen"
+          },
+          {
+            en: "Searching for solutions twice as fast",
+            es: "Buscar soluciones dos veces más rápido",
+            de: "Lösungen doppelt so schnell suchen",
+            nl: "Oplossingen twee keer zo snel zoeken"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Probabilistic bisection search adapts the binary search algorithm to Cluedo's probabilistic environment. Instead of testing elements sequentially, you construct suggestions that partition the solution space into roughly equal-probability subsets. When executed perfectly, this achieves logarithmic convergence: each suggestion halves your uncertainty, allowing you to identify the solution in approximately log2(N) questions where N is the initial solution space size.",
+          es: "La búsqueda de bisección probabilística adapta el algoritmo de búsqueda binaria al entorno probabilístico de Cluedo. En lugar de probar elementos secuencialmente, construyes sugerencias que particionan el espacio de soluciones en subconjuntos de probabilidad aproximadamente igual. Cuando se ejecuta perfectamente, esto logra convergencia logarítmica.",
+          de: "Probabilistische Bisektionssuche passt den binären Suchalgorithmus an Cluedos probabilistische Umgebung an. Statt Elemente sequentiell zu testen, konstruieren Sie Vorschläge, die den Lösungsraum in ungefähr gleich-wahrscheinliche Teilmengen partitionieren. Bei perfekter Ausführung erreicht dies logarithmische Konvergenz.",
+          nl: "Probabilistisch bisectie-zoeken past het binair zoekalgoritme aan op Cluedo's probabilistische omgeving. In plaats van elementen sequentieel te testen, construeer je suggesties die de oplossingsruimte verdelen in ongeveer gelijke-waarschijnlijkheid subsets. Bij perfecte uitvoering bereikt dit logaritmische convergentie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'meta-cognitive strategy selection' at legendary Cluedo level?",
+          es: "¿Qué es la 'selección de estrategia metacognitiva' a nivel legendario de Cluedo?",
+          de: "Was ist 'metakognitive Strategieauswahl' auf legendärem Cluedo-Niveau?",
+          nl: "Wat is 'meta-cognitieve strategieselectie' op legendarisch Cluedo-niveau?"
+        },
+        options: [
+          {
+            en: "Monitoring your own cognitive processes during play and dynamically selecting between different reasoning strategies based on game state complexity",
+            es: "Monitorear tus propios procesos cognitivos durante el juego y seleccionar dinámicamente entre diferentes estrategias de razonamiento basándose en la complejidad del estado del juego",
+            de: "Überwachung Ihrer eigenen kognitiven Prozesse während des Spiels und dynamische Auswahl zwischen verschiedenen Denkstrategien basierend auf Spielzustandskomplexität",
+            nl: "Monitoren van je eigen cognitieve processen tijdens het spel en dynamisch selecteren tussen verschillende redeneerstrategieën op basis van spelstatuscomplexiteit"
+          },
+          {
+            en: "Choosing different strategies for different games",
+            es: "Elegir diferentes estrategias para diferentes juegos",
+            de: "Verschiedene Strategien für verschiedene Spiele wählen",
+            nl: "Verschillende strategieën kiezen voor verschillende spellen"
+          },
+          {
+            en: "Thinking about thinking",
+            es: "Pensar sobre pensar",
+            de: "Über das Denken nachdenken",
+            nl: "Nadenken over nadenken"
+          },
+          {
+            en: "Using multiple strategies simultaneously",
+            es: "Usar múltiples estrategias simultáneamente",
+            de: "Mehrere Strategien gleichzeitig verwenden",
+            nl: "Meerdere strategieën tegelijkertijd gebruiken"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Meta-cognitive strategy selection involves maintaining awareness of your own reasoning process and adaptively switching between computational approaches. Legendary players recognize when to use: fast heuristic reasoning (early game, low complexity), rigorous probability calculations (mid-game critical decisions), or deep game-tree search (endgame with few possibilities). They monitor cognitive load and strategy effectiveness, switching approaches when performance degrades or circumstances change.",
+          es: "La selección de estrategia metacognitiva implica mantener conciencia de tu propio proceso de razonamiento y cambiar adaptativamente entre enfoques computacionales. Los jugadores legendarios reconocen cuándo usar: razonamiento heurístico rápido (juego temprano, baja complejidad), cálculos de probabilidad rigurosos (decisiones críticas de juego medio).",
+          de: "Metakognitive Strategieauswahl beinhaltet das Aufrechterhalten des Bewusstseins für Ihren eigenen Denkprozess und adaptives Wechseln zwischen rechnerischen Ansätzen. Legendäre Spieler erkennen, wann sie verwenden sollten: schnelles heuristisches Denken (frühes Spiel, geringe Komplexität), rigorose Wahrscheinlichkeitsberechnungen (Mittelspiel kritische Entscheidungen).",
+          nl: "Meta-cognitieve strategieselectie houdt in dat je bewustzijn behoudt van je eigen redeneerprocces en adaptief schakelt tussen computationele benaderingen. Legendarische spelers herkennen wanneer te gebruiken: snel heuristisch redeneren (vroeg spel, lage complexiteit), rigoureuze waarschijnlijkheidsberekeningen (mid-game kritische beslissingen)."
+        }
+      },
+      {
+        question: {
+          en: "What is 'information set partitioning' in master-level Cluedo?",
+          es: "¿Qué es el 'particionamiento de conjunto de información' en Cluedo de nivel maestro?",
+          de: "Was ist 'Informationsmengen-Partitionierung' im Meister-Cluedo?",
+          nl: "Wat is 'informatieset-partitionering' in meester-niveau Cluedo?"
+        },
+        options: [
+          {
+            en: "Systematically dividing what you know into equivalence classes and reasoning separately about each partition",
+            es: "Dividir sistemáticamente lo que sabes en clases de equivalencia y razonar por separado sobre cada partición",
+            de: "Systematisches Teilen dessen, was Sie wissen, in Äquivalenzklassen und separates Denken über jede Partition",
+            nl: "Systematisch verdelen van wat je weet in equivalentieklassen en afzonderlijk redeneren over elke partitie"
+          },
+          {
+            en: "Separating information by card type",
+            es: "Separar información por tipo de carta",
+            de: "Informationen nach Kartentyp trennen",
+            nl: "Informatie scheiden per kaarttype"
+          },
+          {
+            en: "Dividing players into groups",
+            es: "Dividir jugadores en grupos",
+            de: "Spieler in Gruppen aufteilen",
+            nl: "Spelers in groepen verdelen"
+          },
+          {
+            en: "Organizing information chronologically",
+            es: "Organizar información cronológicamente",
+            de: "Informationen chronologisch organisieren",
+            nl: "Informatie chronologisch organiseren"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Information set partitioning recognizes that not all card distributions are distinguishable from your perspective. Master players partition possible game states into information sets—groups of states you cannot differentiate given current knowledge. They then reason about entire partitions simultaneously, reducing computational complexity. When new information arrives, partitions split, and players track which partitions are eliminated versus refined, optimizing suggestions to maximally partition the space.",
+          es: "El particionamiento de conjunto de información reconoce que no todas las distribuciones de cartas son distinguibles desde tu perspectiva. Los jugadores maestros particionan estados de juego posibles en conjuntos de información—grupos de estados que no puedes diferenciar dado el conocimiento actual. Luego razonan sobre particiones enteras simultáneamente.",
+          de: "Informationsmengen-Partitionierung erkennt, dass nicht alle Kartenverteilungen aus Ihrer Perspektive unterscheidbar sind. Meisterspieler partitionieren mögliche Spielzustände in Informationsmengen—Gruppen von Zuständen, die Sie bei aktuellem Wissen nicht unterscheiden können. Sie denken dann über ganze Partitionen gleichzeitig nach.",
+          nl: "Informatieset-partitionering erkent dat niet alle kaartverdelingen onderscheidbaar zijn vanuit jouw perspectief. Meesterspelers partitioneren mogelijke speltoestanden in informatiesets—groepen van toestanden die je niet kunt onderscheiden gegeven huidige kennis. Ze redeneren dan over hele partities tegelijkertijd."
+        }
+      },
+      {
+        question: {
+          en: "What is 'cognitive load management through abstraction' in elite Cluedo?",
+          es: "¿Qué es la 'gestión de carga cognitiva mediante abstracción' en Cluedo de élite?",
+          de: "Was ist 'kognitive Belastungsverwaltung durch Abstraktion' im Elite-Cluedo?",
+          nl: "Wat is 'cognitieve belastingsbeheer door abstractie' in elite-Cluedo?"
+        },
+        options: [
+          {
+            en: "Representing complex game states using higher-level abstractions that preserve essential information while reducing mental burden",
+            es: "Representar estados de juego complejos usando abstracciones de nivel superior que preservan información esencial mientras reducen la carga mental",
+            de: "Darstellung komplexer Spielzustände mit höherstufigen Abstraktionen, die wesentliche Informationen bewahren und gleichzeitig mentale Belastung reduzieren",
+            nl: "Representeren van complexe speltoestanden met hoger-niveau abstracties die essentiële informatie behouden terwijl mentale belasting wordt verminderd"
+          },
+          {
+            en: "Simplifying the game rules",
+            es: "Simplificar las reglas del juego",
+            de: "Spielregeln vereinfachen",
+            nl: "Spelregels vereenvoudigen"
+          },
+          {
+            en: "Reducing thinking time",
+            es: "Reducir tiempo de pensamiento",
+            de: "Denkzeit reduzieren",
+            nl: "Denktijd verminderen"
+          },
+          {
+            en: "Avoiding complex calculations",
+            es: "Evitar cálculos complejos",
+            de: "Komplexe Berechnungen vermeiden",
+            nl: "Complexe berekeningen vermijden"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cognitive load management through abstraction involves creating mental representations that compress information without losing deductive power. Instead of tracking individual card probabilities, elite players might track 'weapon definitely in envelope', 'suspects distributed among players A and B', or 'rooms narrowed to three possibilities'. These abstractions reduce working memory load while preserving decision-relevant information, allowing faster reasoning and preventing cognitive overload in complex mid-game positions.",
+          es: "La gestión de carga cognitiva mediante abstracción implica crear representaciones mentales que comprimen información sin perder poder deductivo. En lugar de rastrear probabilidades de cartas individuales, los jugadores de élite podrían rastrear 'arma definitivamente en sobre', 'sospechosos distribuidos entre jugadores A y B'.",
+          de: "Kognitive Belastungsverwaltung durch Abstraktion beinhaltet das Erstellen mentaler Repräsentationen, die Informationen komprimieren, ohne deduktive Kraft zu verlieren. Statt individuelle Kartenwahrscheinlichkeiten zu verfolgen, könnten Elite-Spieler 'Waffe definitiv im Umschlag', 'Verdächtige auf Spieler A und B verteilt' verfolgen.",
+          nl: "Cognitieve belastingsbeheer door abstractie houdt in dat je mentale representaties creëert die informatie comprimeren zonder deductieve kracht te verliezen. In plaats van individuele kaartwaarschijnlijkheden bij te houden, zouden elite-spelers kunnen bijhouden 'wapen zeker in envelop', 'verdachten verdeeld over spelers A en B'."
+        }
+      },
+      {
+        question: {
+          en: "What is 'exploitation-exploration trade-off optimization' in championship Cluedo?",
+          es: "¿Qué es la 'optimización del equilibrio entre explotación y exploración' en Cluedo de campeonato?",
+          de: "Was ist 'Exploitation-Exploration-Trade-off-Optimierung' im Meisterschafts-Cluedo?",
+          nl: "Wat is 'exploitatie-exploratie afweging-optimalisatie' in kampioenschap-Cluedo?"
+        },
+        options: [
+          {
+            en: "Balancing suggestions that exploit current knowledge for likely solutions versus explore uncertain areas to avoid blind spots",
+            es: "Equilibrar sugerencias que explotan conocimiento actual para soluciones probables versus explorar áreas inciertas para evitar puntos ciegos",
+            de: "Ausbalancierung von Vorschlägen, die aktuelles Wissen für wahrscheinliche Lösungen ausnutzen, versus Erkundung unsicherer Bereiche zur Vermeidung blinder Flecken",
+            nl: "Balanceren van suggesties die huidige kennis exploiteren voor waarschijnlijke oplossingen versus onzekere gebieden exploreren om blinde vlekken te vermijden"
+          },
+          {
+            en: "Exploring the game board thoroughly",
+            es: "Explorar el tablero de juego completamente",
+            de: "Das Spielbrett gründlich erkunden",
+            nl: "Het spelbord grondig verkennen"
+          },
+          {
+            en: "Exploiting opponent weaknesses",
+            es: "Explotar debilidades de oponentes",
+            de: "Gegnerschwächen ausnutzen",
+            nl: "Tegenstander zwakheden exploiteren"
+          },
+          {
+            en: "Trading cards with opponents",
+            es: "Intercambiar cartas con oponentes",
+            de: "Karten mit Gegnern tauschen",
+            nl: "Kaarten ruilen met tegenstanders"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Exploitation-exploration trade-off optimization addresses a fundamental dilemma: should you test your leading hypothesis (exploit) or investigate alternatives (explore)? Championship players use multi-armed bandit algorithms adapted to Cluedo, computing exploration bonuses based on uncertainty. Early game favors exploration to map the solution space; late game favors exploitation to confirm the most probable solution. The transition timing depends on opponent convergence rates and remaining turns.",
+          es: "La optimización del equilibrio entre explotación y exploración aborda un dilema fundamental: ¿deberías probar tu hipótesis principal (explotar) o investigar alternativas (explorar)? Los jugadores de campeonato usan algoritmos de bandido multi-brazo adaptados a Cluedo, calculando bonos de exploración basados en incertidumbre.",
+          de: "Exploitation-Exploration-Trade-off-Optimierung befasst sich mit einem grundlegenden Dilemma: Sollten Sie Ihre führende Hypothese testen (ausnutzen) oder Alternativen untersuchen (erkunden)? Meisterschaftsspieler verwenden Multi-Armed-Bandit-Algorithmen, die an Cluedo angepasst sind und Erkundungsboni basierend auf Unsicherheit berechnen.",
+          nl: "Exploitatie-exploratie afweging-optimalisatie pakt een fundamenteel dilemma aan: moet je je leidende hypothese testen (exploiteren) of alternatieven onderzoeken (exploreren)? Kampioenschapspelers gebruiken multi-armed bandit algoritmen aangepast aan Cluedo, waarbij exploratiebonussen worden berekend op basis van onzekerheid."
+        }
+      },
+      {
+        question: {
+          en: "What is 'backward induction from endgame positions' in tournament Cluedo?",
+          es: "¿Qué es la 'inducción hacia atrás desde posiciones de final de juego' en Cluedo de torneo?",
+          de: "Was ist 'Rückwärtsinduktion von Endspiel-Positionen' im Turnier-Cluedo?",
+          nl: "Wat is 'achterwaartse inductie vanuit eindspelposities' in toernooi-Cluedo?"
+        },
+        options: [
+          {
+            en: "Working backward from known endgame scenarios to determine optimal mid-game suggestions that lead to winning positions",
+            es: "Trabajar hacia atrás desde escenarios de final de juego conocidos para determinar sugerencias óptimas de medio juego que llevan a posiciones ganadoras",
+            de: "Rückwärtsarbeitung von bekannten Endspiel-Szenarien zur Bestimmung optimaler Mittelspiel-Vorschläge, die zu Gewinnpositionen führen",
+            nl: "Achterwaarts werken vanuit bekende eindspelscenario's om optimale mid-game suggesties te bepalen die leiden tot winnende posities"
+          },
+          {
+            en: "Analyzing past games",
+            es: "Analizar juegos pasados",
+            de: "Vergangene Spiele analysieren",
+            nl: "Eerdere spellen analyseren"
+          },
+          {
+            en: "Planning moves in reverse order",
+            es: "Planificar movimientos en orden inverso",
+            de: "Züge in umgekehrter Reihenfolge planen",
+            nl: "Zetten in omgekeerde volgorde plannen"
+          },
+          {
+            en: "Starting from the end of the game",
+            es: "Comenzar desde el final del juego",
+            de: "Vom Ende des Spiels beginnen",
+            nl: "Beginnen vanaf het einde van het spel"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Backward induction from endgame positions involves identifying winning and losing terminal game states, then working backward to determine which earlier positions lead to which outcomes. Tournament players pre-analyze common endgame patterns (e.g., '3 cards unknown, 2 turns remaining, opponent has X cards'), determine optimal play for each, then use this knowledge to guide mid-game strategy. This ensures mid-game suggestions create favorable endgame positions rather than just gathering information randomly.",
+          es: "La inducción hacia atrás desde posiciones de final de juego implica identificar estados terminales de juego ganadores y perdedores, luego trabajar hacia atrás para determinar qué posiciones anteriores llevan a qué resultados. Los jugadores de torneo preanalizan patrones comunes de final de juego y usan este conocimiento para guiar la estrategia de medio juego.",
+          de: "Rückwärtsinduktion von Endspiel-Positionen beinhaltet die Identifizierung gewinnender und verlierender terminaler Spielzustände, dann Rückwärtsarbeitung zur Bestimmung, welche früheren Positionen zu welchen Ergebnissen führen. Turnierspieler analysieren vorab gängige Endspiel-Muster und verwenden dieses Wissen zur Leitung der Mittelspiel-Strategie.",
+          nl: "Achterwaartse inductie vanuit eindspelposities houdt in dat je winnende en verliezende terminale speltoestanden identificeert, dan achterwaarts werkt om te bepalen welke eerdere posities tot welke uitkomsten leiden. Toernooispelers analyseren vooraf veelvoorkomende eindspelpatronen en gebruiken deze kennis om mid-game strategie te sturen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'information cascade prevention' in master Cluedo?",
+          es: "¿Qué es la 'prevención de cascada de información' en Cluedo maestro?",
+          de: "Was ist 'Informationskaskaden-Prävention' im Meister-Cluedo?",
+          nl: "Wat is 'informatiecascade-preventie' in meester-Cluedo?"
+        },
+        options: [
+          {
+            en: "Avoiding suggestion patterns that allow opponents to chain together revelations and deduce more than intended",
+            es: "Evitar patrones de sugerencias que permiten a los oponentes encadenar revelaciones y deducir más de lo pretendido",
+            de: "Vermeidung von Vorschlagsmustern, die Gegnern erlauben, Offenbarungen zu verketten und mehr als beabsichtigt zu deduzieren",
+            nl: "Vermijden van suggestiepatronen die tegenstanders toestaan onthullingen aan elkaar te koppelen en meer af te leiden dan bedoeld"
+          },
+          {
+            en: "Preventing information flow to opponents",
+            es: "Prevenir flujo de información a oponentes",
+            de: "Informationsfluss zu Gegnern verhindern",
+            de: "Informatiestroom naar tegenstanders voorkomen"
+          },
+          {
+            en: "Stopping cascading accusations",
+            es: "Detener acusaciones en cascada",
+            de: "Kaskadierende Anschuldigungen stoppen",
+            nl: "Cascaderende beschuldigingen stoppen"
+          },
+          {
+            en: "Controlling information spread",
+            es: "Controlar difusión de información",
+            de: "Informationsverbreitung kontrollieren",
+            nl: "Informatieverpreiding beheersen"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Information cascade prevention recognizes that certain suggestion sequences create multiplicative information leakage. When you make related suggestions consecutively, opponents can combine revelations to deduce cards you hold by elimination. Master players deliberately randomize suggestion topics, introduce decoy suggestions, and maintain temporal separation between related queries to prevent opponents from assembling a complete picture through cascading deductions.",
+          es: "La prevención de cascada de información reconoce que ciertas secuencias de sugerencias crean fuga de información multiplicativa. Cuando haces sugerencias relacionadas consecutivamente, los oponentes pueden combinar revelaciones para deducir cartas que tienes por eliminación. Los jugadores maestros aleatorizan deliberadamente temas de sugerencias.",
+          de: "Informationskaskaden-Prävention erkennt, dass bestimmte Vorschlagssequenzen multiplikative Informationsleckage erzeugen. Wenn Sie verwandte Vorschläge aufeinanderfolgend machen, können Gegner Offenbarungen kombinieren, um Karten, die Sie halten, durch Elimination zu deduzieren. Meisterspieler randomisieren absichtlich Vorschlagsthemen.",
+          nl: "Informatiecascade-preventie erkent dat bepaalde suggestiesequenties multiplicatieve informatielek creëren. Wanneer je gerelateerde suggesties achter elkaar doet, kunnen tegenstanders onthullingen combineren om kaarten die je hebt af te leiden door eliminatie. Meesterspelers randomiseren opzettelijk suggestieonderwerpen."
+        }
+,
+    {
+      question: {
+        en: "What is probabilistic narrowing?",
+        es: "What is probabilistic narrowing?",
+        de: "What is probabilistic narrowing?",
+        nl: "What is probabilistic narrowing?"
+      },
+      options: [
+        {
+          en: "Using probability to focus on most likely solution combinations",
+          es: "Using probability to focus on most likely solution combinations",
+          de: "Using probability to focus on most likely solution combinations",
+          nl: "Using probability to focus on most likely solution combinations"
+        },
+        {
+          en: "Random guessing",
+          es: "Random guessing",
+          de: "Random guessing",
+          nl: "Random guessing"
+        },
+        {
+          en: "Coin flipping",
+          es: "Coin flipping",
+          de: "Coin flipping",
+          nl: "Coin flipping"
+        },
+        {
+          en: "Lucky guesses",
+          es: "Lucky guesses",
+          de: "Lucky guesses",
+          nl: "Lucky guesses"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Advanced players calculate which combinations are most probable based on cards shown and make targeted suggestions accordingly.",
+        es: "Advanced players calculate which combinations are most probable based on cards shown and make targeted suggestions accordingly.",
+        de: "Advanced players calculate which combinations are most probable based on cards shown and make targeted suggestions accordingly.",
+        nl: "Advanced players calculate which combinations are most probable based on cards shown and make targeted suggestions accordingly."
+      }
+    }
+,
+    {
+      question: {
+        en: "What is the showmanship tell?",
+        es: "What is the showmanship tell?",
+        de: "What is the showmanship tell?",
+        nl: "What is the showmanship tell?"
+      },
+      options: [
+        {
+          en: "Reading opponent hesitation or speed when showing cards reveals information",
+          es: "Reading opponent hesitation or speed when showing cards reveals information",
+          de: "Reading opponent hesitation or speed when showing cards reveals information",
+          nl: "Reading opponent hesitation or speed when showing cards reveals information"
+        },
+        {
+          en: "Showing cards dramatically",
+          es: "Showing cards dramatically",
+          de: "Showing cards dramatically",
+          nl: "Showing cards dramatically"
+        },
+        {
+          en: "Performing for audience",
+          es: "Performing for audience",
+          de: "Performing for audience",
+          nl: "Performing for audience"
+        },
+        {
+          en: "Entertaining players",
+          es: "Entertaining players",
+          de: "Entertaining players",
+          nl: "Entertaining players"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Experienced players notice when opponents hesitate before showing a card, suggesting they had multiple options.",
+        es: "Experienced players notice when opponents hesitate before showing a card, suggesting they had multiple options.",
+        de: "Experienced players notice when opponents hesitate before showing a card, suggesting they had multiple options.",
+        nl: "Experienced players notice when opponents hesitate before showing a card, suggesting they had multiple options."
+      }
+    }
+,
+    {
+      question: {
+        en: "What is cross-referencing deduction?",
+        es: "What is cross-referencing deduction?",
+        de: "What is cross-referencing deduction?",
+        nl: "What is cross-referencing deduction?"
+      },
+      options: [
+        {
+          en: "Combining information from multiple suggestions to eliminate possibilities",
+          es: "Combining information from multiple suggestions to eliminate possibilities",
+          de: "Combining information from multiple suggestions to eliminate possibilities",
+          nl: "Combining information from multiple suggestions to eliminate possibilities"
+        },
+        {
+          en: "Looking at cheat sheets",
+          es: "Looking at cheat sheets",
+          de: "Looking at cheat sheets",
+          nl: "Looking at cheat sheets"
+        },
+        {
+          en: "Comparing score cards",
+          es: "Comparing score cards",
+          de: "Comparing score cards",
+          nl: "Comparing score cards"
+        },
+        {
+          en: "Using reference books",
+          es: "Using reference books",
+          de: "Using reference books",
+          nl: "Using reference books"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "When player A could not disprove suggestion X, and player B showed a card, you can deduce cards each player lacks.",
+        es: "When player A could not disprove suggestion X, and player B showed a card, you can deduce cards each player lacks.",
+        de: "When player A could not disprove suggestion X, and player B showed a card, you can deduce cards each player lacks.",
+        nl: "When player A could not disprove suggestion X, and player B showed a card, you can deduce cards each player lacks."
+      }
+    }
+,
+    {
+      question: {
+        en: "What is the poison suggestion?",
+        es: "What is the poison suggestion?",
+        de: "What is the poison suggestion?",
+        nl: "What is the poison suggestion?"
+      },
+      options: [
+        {
+          en: "Suggesting combinations you know are impossible to mislead opponents",
+          es: "Suggesting combinations you know are impossible to mislead opponents",
+          de: "Suggesting combinations you know are impossible to mislead opponents",
+          nl: "Suggesting combinations you know are impossible to mislead opponents"
+        },
+        {
+          en: "Making wrong accusations",
+          es: "Making wrong accusations",
+          de: "Making wrong accusations",
+          nl: "Making wrong accusations"
+        },
+        {
+          en: "Toxic gameplay",
+          es: "Toxic gameplay",
+          de: "Toxic gameplay",
+          nl: "Toxic gameplay"
+        },
+        {
+          en: "Unfair suggestions",
+          es: "Unfair suggestions",
+          de: "Unfair suggestions",
+          nl: "Unfair suggestions"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Occasionally suggesting a combination you have already eliminated can make opponents waste moves investigating dead ends.",
+        es: "Occasionally suggesting a combination you have already eliminated can make opponents waste moves investigating dead ends.",
+        de: "Occasionally suggesting a combination you have already eliminated can make opponents waste moves investigating dead ends.",
+        nl: "Occasionally suggesting a combination you have already eliminated can make opponents waste moves investigating dead ends."
+      }
+    }
+,
+    {
+      question: {
+        en: "What is accusation timing?",
+        es: "What is accusation timing?",
+        de: "What is accusation timing?",
+        nl: "What is accusation timing?"
+      },
+      options: [
+        {
+          en: "Waiting until your turn position is optimal before making accusation",
+          es: "Waiting until your turn position is optimal before making accusation",
+          de: "Waiting until your turn position is optimal before making accusation",
+          nl: "Waiting until your turn position is optimal before making accusation"
+        },
+        {
+          en: "Accusing immediately",
+          es: "Accusing immediately",
+          de: "Accusing immediately",
+          nl: "Accusing immediately"
+        },
+        {
+          en: "Never accusing",
+          es: "Never accusing",
+          de: "Never accusing",
+          nl: "Never accusing"
+        },
+        {
+          en: "Random timing",
+          es: "Random timing",
+          de: "Random timing",
+          nl: "Random timing"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Making accusation just before your turn next round maximizes time opponents cannot react if you are wrong.",
+        es: "Making accusation just before your turn next round maximizes time opponents cannot react if you are wrong.",
+        de: "Making accusation just before your turn next round maximizes time opponents cannot react if you are wrong.",
+        nl: "Making accusation just before your turn next round maximizes time opponents cannot react if you are wrong."
+      }
+    }
+,
+    {
+      question: {
+        en: "What is negative information tracking?",
+        es: "What is negative information tracking?",
+        de: "What is negative information tracking?",
+        nl: "What is negative information tracking?"
+      },
+      options: [
+        {
+          en: "Recording what cards players did NOT show reveals their card holdings",
+          es: "Recording what cards players did NOT show reveals their card holdings",
+          de: "Recording what cards players did NOT show reveals their card holdings",
+          nl: "Recording what cards players did NOT show reveals their card holdings"
+        },
+        {
+          en: "Tracking losses",
+          es: "Tracking losses",
+          de: "Tracking losses",
+          nl: "Tracking losses"
+        },
+        {
+          en: "Recording mistakes",
+          es: "Recording mistakes",
+          de: "Recording mistakes",
+          nl: "Recording mistakes"
+        },
+        {
+          en: "Noting bad plays",
+          es: "Noting bad plays",
+          de: "Noting bad plays",
+          nl: "Noting bad plays"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "When a player cannot disprove a suggestion, you learn they lack all three cards mentioned, valuable deduction information.",
+        es: "When a player cannot disprove a suggestion, you learn they lack all three cards mentioned, valuable deduction information.",
+        de: "When a player cannot disprove a suggestion, you learn they lack all three cards mentioned, valuable deduction information.",
+        nl: "When a player cannot disprove a suggestion, you learn they lack all three cards mentioned, valuable deduction information."
+      }
+    }
+,
+    {
+      question: {
+        en: "What is room migration patterns?",
+        es: "What is room migration patterns?",
+        de: "What is room migration patterns?",
+        nl: "What is room migration patterns?"
+      },
+      options: [
+        {
+          en: "Analyzing opponent movement to predict their card knowledge",
+          es: "Analyzing opponent movement to predict their card knowledge",
+          de: "Analyzing opponent movement to predict their card knowledge",
+          nl: "Analyzing opponent movement to predict their card knowledge"
+        },
+        {
+          en: "Room decoration changes",
+          es: "Room decoration changes",
+          de: "Room decoration changes",
+          nl: "Room decoration changes"
+        },
+        {
+          en: "Following opponents",
+          es: "Following opponents",
+          de: "Following opponents",
+          nl: "Following opponents"
+        },
+        {
+          en: "Copying moves",
+          es: "Copying moves",
+          de: "Copying moves",
+          nl: "Copying moves"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Players tend to move toward rooms they suspect are in the solution, revealing their deduction progress.",
+        es: "Players tend to move toward rooms they suspect are in the solution, revealing their deduction progress.",
+        de: "Players tend to move toward rooms they suspect are in the solution, revealing their deduction progress.",
+        nl: "Players tend to move toward rooms they suspect are in the solution, revealing their deduction progress."
+      }
+    }
+,
+    {
+      question: {
+        en: "What is the late-game pivot?",
+        es: "What is the late-game pivot?",
+        de: "What is the late-game pivot?",
+        nl: "What is the late-game pivot?"
+      },
+      options: [
+        {
+          en: "Suddenly changing suggestion patterns when close to solving",
+          es: "Suddenly changing suggestion patterns when close to solving",
+          de: "Suddenly changing suggestion patterns when close to solving",
+          nl: "Suddenly changing suggestion patterns when close to solving"
+        },
+        {
+          en: "Turning around",
+          es: "Turning around",
+          de: "Turning around",
+          nl: "Turning around"
+        },
+        {
+          en: "Switching strategies randomly",
+          es: "Switching strategies randomly",
+          de: "Switching strategies randomly",
+          nl: "Switching strategies randomly"
+        },
+        {
+          en: "Giving up",
+          es: "Giving up",
+          de: "Giving up",
+          nl: "Giving up"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Once you have narrowed possibilities significantly, your suggestion pattern should shift to confirm final details.",
+        es: "Once you have narrowed possibilities significantly, your suggestion pattern should shift to confirm final details.",
+        de: "Once you have narrowed possibilities significantly, your suggestion pattern should shift to confirm final details.",
+        nl: "Once you have narrowed possibilities significantly, your suggestion pattern should shift to confirm final details."
+      }
+    }
+,
+    {
+      question: {
+        en: "What is dual-path deduction?",
+        es: "What is dual-path deduction?",
+        de: "What is dual-path deduction?",
+        nl: "What is dual-path deduction?"
+      },
+      options: [
+        {
+          en: "Maintaining two plausible solution theories and testing both",
+          es: "Maintaining two plausible solution theories and testing both",
+          de: "Maintaining two plausible solution theories and testing both",
+          nl: "Maintaining two plausible solution theories and testing both"
+        },
+        {
+          en: "Having two solutions",
+          es: "Having two solutions",
+          de: "Having two solutions",
+          nl: "Having two solutions"
+        },
+        {
+          en: "Being confused",
+          es: "Being confused",
+          de: "Being confused",
+          nl: "Being confused"
+        },
+        {
+          en: "Hedging bets",
+          es: "Hedging bets",
+          de: "Hedging bets",
+          nl: "Hedging bets"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "When evidence supports two possibilities, advanced players track both and make suggestions that differentiate between them.",
+        es: "When evidence supports two possibilities, advanced players track both and make suggestions that differentiate between them.",
+        de: "When evidence supports two possibilities, advanced players track both and make suggestions that differentiate between them.",
+        nl: "When evidence supports two possibilities, advanced players track both and make suggestions that differentiate between them."
+      }
+    }
       }
     ]
-]
   };
 
   // Export for use in the quiz application

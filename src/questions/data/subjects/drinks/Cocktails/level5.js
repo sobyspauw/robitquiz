@@ -427,7 +427,428 @@
           de: "Zentrifugation verwendet Hochgeschwindigkeits-Drehgeräte, um Flüssigkeiten nach Dichte zu trennen und kristallklare Säfte und Infusionen zu erzeugen. Eine molekulare Gastronomietechnik, die von High-End-Cocktailbars übernommen wurde.",
           nl: "Centrifugeren gebruikt hoge-snelheids draaiapparatuur om vloeistoffen te scheiden op dichtheid, wat kristalheldere sappen en infusies creëert. Een moleculaire gastronomie techniek geadopteerd door high-end cocktailbars."
         }
-      }]
+      },
+      {
+        question: {
+          en: "What is the 'perfect' ratio in cocktails and which drinks use it?",
+          es: "¿Cuál es la proporción 'perfecta' en cócteles y qué bebidas la usan?",
+          de: "Was ist das 'perfekte' Verhältnis in Cocktails und welche Drinks verwenden es?",
+          nl: "Wat is de 'perfecte' verhouding in cocktails en welke drankjes gebruiken het?"
+        },
+        options: [
+          { en: "Equal parts sweet and dry vermouth (Perfect Manhattan, Perfect Martini)", es: "Partes iguales de vermut dulce y seco (Perfect Manhattan, Perfect Martini)", de: "Gleiche Teile süßer und trockener Wermut (Perfect Manhattan, Perfect Martini)", nl: "Gelijke delen zoete en droge vermouth (Perfect Manhattan, Perfect Martini)" },
+          { en: "1:1:1 ratio of all ingredients", es: "Proporción 1:1:1 de todos los ingredientes", de: "1:1:1 Verhältnis aller Zutaten", nl: "1:1:1 verhouding van alle ingrediënten" },
+          { en: "Exactly 2 oz of spirit", es: "Exactamente 2 oz de licor", de: "Genau 2 oz Spirituose", nl: "Precies 2 oz spirit" },
+          { en: "Perfect temperature serving", es: "Servicio a temperatura perfecta", de: "Perfekte Temperatur-Servierung", nl: "Perfecte temperatuur serving" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A 'Perfect' cocktail uses equal parts sweet and dry vermouth instead of all sweet or all dry. Perfect Manhattan splits vermouth equally, creating more complex, balanced flavor than classic version.",
+          es: "Un cóctel 'Perfecto' usa partes iguales de vermut dulce y seco en lugar de todo dulce o todo seco. Perfect Manhattan divide el vermut igualmente, creando sabor más complejo y equilibrado que la versión clásica.",
+          de: "Ein 'Perfect' Cocktail verwendet gleiche Teile süßen und trockenen Wermut anstatt ganz süß oder ganz trocken. Perfect Manhattan teilt Wermut gleichmäßig, schafft komplexeren, ausgewogeneren Geschmack als klassische Version.",
+          nl: "Een 'Perfect' cocktail gebruikt gelijke delen zoete en droge vermouth in plaats van alleen zoet of alleen droog. Perfect Manhattan verdeelt vermouth gelijk, creëert complexere, gebalanceerde smaak dan klassieke versie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'crusta' style serving?",
+          es: "¿Qué es el estilo de servicio 'crusta'?",
+          de: "Was ist 'Crusta'-Servierstil?",
+          nl: "Wat is 'crusta' stijl serveren?"
+        },
+        options: [
+          { en: "Sugar rim with wide spiral citrus peel lining the glass", es: "Borde de azúcar con cáscara de cítrico en espiral ancha revistiendo el vaso", de: "Zuckerrand mit breiter spiralförmiger Zitrusschale, die das Glas auskleidet", nl: "Suikerrand met brede spiraal citrusschil die het glas bekleedt" },
+          { en: "Crushed ice serving", es: "Servicio con hielo triturado", de: "Servieren mit zerstoßenem Eis", nl: "Serveren met crushed ijs" },
+          { en: "Layered drink presentation", es: "Presentación de bebida en capas", de: "Geschichtete Getränkepräsentation", nl: "Gelaagde drink presentatie" },
+          { en: "Frozen rim glass", es: "Vaso con borde congelado", de: "Glas mit gefrorenem Rand", nl: "Glas met bevroren rand" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Crusta style involves a sugar-rimmed glass lined with a wide, continuous spiral of citrus peel. Brandy Crusta (1850s) is the classic example, showcasing elaborate presentation technique.",
+          es: "El estilo crusta implica un vaso con borde de azúcar revestido con una espiral ancha y continua de cáscara de cítrico. Brandy Crusta (1850s) es el ejemplo clásico, mostrando técnica de presentación elaborada.",
+          de: "Crusta-Stil beinhaltet ein zuckerberandetes Glas, das mit einer breiten, durchgehenden Spirale aus Zitrusschale ausgekleidet ist. Brandy Crusta (1850er) ist das klassische Beispiel für aufwendige Präsentationstechnik.",
+          nl: "Crusta stijl houdt een suiker-omrande glas in bekleed met een brede, continue spiraal van citrusschil. Brandy Crusta (1850s) is het klassieke voorbeeld, toont uitgebreide presentatie techniek."
+        }
+      },
+      {
+        question: {
+          en: "What is 'demerara syrup' and why is it preferred in some cocktails?",
+          es: "¿Qué es el 'jarabe de demerara' y por qué se prefiere en algunos cócteles?",
+          de: "Was ist 'Demerara-Sirup' und warum wird er in einigen Cocktails bevorzugt?",
+          nl: "Wat is 'demerara siroop' en waarom heeft het de voorkeur in sommige cocktails?"
+        },
+        options: [
+          { en: "Syrup made with raw demerara sugar, adding caramel depth to cocktails", es: "Jarabe hecho con azúcar demerara cruda, añadiendo profundidad de caramelo a cócteles", de: "Sirup aus rohem Demerara-Zucker, fügt Karamelltiefe zu Cocktails hinzu", nl: "Siroop gemaakt met ruwe demerara suiker, voegt caramel diepte toe aan cocktails" },
+          { en: "Artificial sweetener", es: "Edulcorante artificial", de: "Künstlicher Süßstoff", nl: "Kunstmatige zoetstof" },
+          { en: "Honey-based syrup", es: "Jarabe basado en miel", de: "Honigbasierter Sirup", nl: "Honing-gebaseerde siroop" },
+          { en: "Flavored simple syrup", es: "Jarabe simple saborizado", de: "Aromatisierter Einfachsirup", nl: "Gearomatiseerde simpele siroop" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Demerara syrup uses raw demerara sugar (from Guyana) with molasses content intact, providing richer, more complex sweetness with caramel and toffee notes. Preferred in Old Fashioneds and spirit-forward cocktails.",
+          es: "El jarabe de demerara usa azúcar demerara cruda (de Guyana) con contenido de melaza intacto, proporcionando dulzura más rica y compleja con notas de caramelo y toffee. Preferido en Old Fashioneds y cócteles con predominio de licor.",
+          de: "Demerara-Sirup verwendet rohen Demerara-Zucker (aus Guyana) mit intaktem Melassegehalt, bietet reichere, komplexere Süße mit Karamell- und Toffee-Noten. Bevorzugt in Old Fashioneds und spirituosenbetonten Cocktails.",
+          nl: "Demerara siroop gebruikt ruwe demerara suiker (uit Guyana) met melasse inhoud intact, biedt rijkere, complexere zoetheid met caramel en toffee noten. Voorkeur in Old Fashioneds en spirit-forward cocktails."
+        }
+      },
+      {
+        question: {
+          en: "What does 'aperitif-style' mean for a cocktail?",
+          es: "¿Qué significa 'estilo aperitivo' para un cóctel?",
+          de: "Was bedeutet 'Aperitif-Stil' für einen Cocktail?",
+          nl: "Wat betekent 'aperitief-stijl' voor een cocktail?"
+        },
+        options: [
+          { en: "Low-ABV, bitter-sweet drinks designed to stimulate appetite before meals", es: "Bebidas de bajo ABV, agridulces diseñadas para estimular el apetito antes de comidas", de: "Niedrig-ABV, bittersüße Drinks zur Appetitanregung vor Mahlzeiten", nl: "Laag-ABV, bitterzoete drankjes ontworpen om eetlust te stimuleren voor maaltijden" },
+          { en: "Always served with olives", es: "Siempre servido con aceitunas", de: "Immer mit Oliven serviert", nl: "Altijd geserveerd met olijven" },
+          { en: "Only champagne cocktails", es: "Solo cócteles de champán", de: "Nur Champagner-Cocktails", nl: "Alleen champagne cocktails" },
+          { en: "Morning cocktails only", es: "Solo cócteles matutinos", de: "Nur Morgen-Cocktails", nl: "Alleen ochtend cocktails" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Aperitif cocktails are lower-alcohol, often bitter-sweet drinks (Negroni Sbagliato, Spritz) meant to stimulate appetite. They use fortified wines, amari, and sparkling ingredients for refreshing pre-dinner drinking.",
+          es: "Los cócteles aperitivo son bebidas de menor alcohol, a menudo agridulces (Negroni Sbagliato, Spritz) destinadas a estimular el apetito. Usan vinos fortificados, amari e ingredientes espumosos para beber refrescante antes de la cena.",
+          de: "Aperitif-Cocktails sind alkoholärmere, oft bittersüße Drinks (Negroni Sbagliato, Spritz) zur Appetitanregung. Sie verwenden angereicherte Weine, Amari und sprudelnde Zutaten für erfrischendes Vor-dem-Essen-Trinken.",
+          nl: "Aperitief cocktails zijn lagere-alcohol, vaak bitterzoete drankjes (Negroni Sbagliato, Spritz) bedoeld om eetlust te stimuleren. Ze gebruiken versterkte wijnen, amari en bruisende ingrediënten voor verfrissend voor-diner drinken."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'float' in cocktail construction?",
+          es: "¿Qué es un 'flotador' en la construcción de cócteles?",
+          de: "Was ist ein 'Float' in der Cocktail-Konstruktion?",
+          nl: "Wat is een 'float' in cocktail constructie?"
+        },
+        options: [
+          { en: "Gently layering a final spirit on top without mixing", es: "Capas suaves de un licor final encima sin mezclar", de: "Sanftes Schichten einer finalen Spirituose oben ohne Mischen", nl: "Zachtjes een laatste spirit bovenop lagen zonder mengen" },
+          { en: "Ice floating in the drink", es: "Hielo flotando en la bebida", de: "Eis, das im Getränk schwimmt", nl: "Ijs dat in de drank drijft" },
+          { en: "Garnish placement", es: "Colocación de guarnición", de: "Garnitur-Platzierung", nl: "Garnering plaatsing" },
+          { en: "Foam topping", es: "Cobertura de espuma", de: "Schaumtopping", nl: "Schuim topping" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A float involves carefully pouring a final ingredient (often high-proof spirit or liqueur) over the back of a bar spoon so it layers on top. Dark 'n' Stormy traditionally floats dark rum on ginger beer.",
+          es: "Un flotador implica verter cuidadosamente un ingrediente final (a menudo licor de alta graduación) sobre el dorso de una cuchara de bar para que forme capas encima. Dark 'n' Stormy tradicionalmente flota ron oscuro en cerveza de jengibre.",
+          de: "Ein Float beinhaltet vorsichtiges Gießen einer finalen Zutat (oft hochprozentiger Spirituose oder Likör) über den Rücken eines Barlöffels, sodass sie oben aufliegt. Dark 'n' Stormy floatet traditionell dunklen Rum auf Ginger Beer.",
+          nl: "Een float houdt in dat zorgvuldig een laatste ingrediënt (vaak sterke drank of likeur) over de rug van een barlepel wordt gegoten zodat het bovenop laagt. Dark 'n' Stormy float traditioneel donkere rum op gemberbier."
+        }
+      },
+      {
+        question: {
+          en: "What is 'gomme syrup' (gum syrup)?",
+          es: "¿Qué es el 'jarabe gomme' (jarabe de goma)?",
+          de: "Was ist 'Gomme-Sirup' (Gummi-Sirup)?",
+          nl: "Wat is 'gomme siroop' (gom siroop)?"
+        },
+        options: [
+          { en: "Simple syrup with gum arabic added for silky texture", es: "Jarabe simple con goma arábiga añadida para textura sedosa", de: "Einfachsirup mit Gummi arabicum für seidige Textur", nl: "Simpele siroop met arabische gom toegevoegd voor zijdezachte textuur" },
+          { en: "Chewing gum flavored syrup", es: "Jarabe con sabor a chicle", de: "Kaugummi-aromatisierter Sirup", nl: "Kauwgom gearomatiseerde siroop" },
+          { en: "Thick honey syrup", es: "Jarabe de miel espeso", de: "Dicker Honigsirup", nl: "Dikke honing siroop" },
+          { en: "Gelatin-based syrup", es: "Jarabe basado en gelatina", de: "Gelatinebasierter Sirup", nl: "Gelatine-gebaseerde siroop" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gomme syrup is traditional simple syrup with gum arabic (acacia gum) dissolved in it, creating silky mouthfeel and preventing crystallization. Used in classic cocktails for superior texture.",
+          es: "El jarabe gomme es jarabe simple tradicional con goma arábiga (goma de acacia) disuelta en él, creando sensación sedosa en boca y previniendo cristalización. Usado en cócteles clásicos para textura superior.",
+          de: "Gomme-Sirup ist traditioneller Einfachsirup mit Gummi arabicum (Akaziengummi) darin gelöst, schafft seidiges Mundgefühl und verhindert Kristallisation. Verwendet in klassischen Cocktails für überlegene Textur.",
+          nl: "Gomme siroop is traditionele simpele siroop met arabische gom (acacia gom) erin opgelost, creëert zijdezacht mondgevoel en voorkomt kristallisatie. Gebruikt in klassieke cocktails voor superieure textuur."
+        }
+      },
+      {
+        question: {
+          en: "What is 'lengthening' a cocktail?",
+          es: "¿Qué es 'alargar' un cóctel?",
+          de: "Was ist das 'Verlängern' eines Cocktails?",
+          nl: "Wat is het 'verlengen' van een cocktail?"
+        },
+        options: [
+          { en: "Adding soda, tonic, or sparkling water to lower ABV and increase volume", es: "Añadir soda, tónica o agua con gas para bajar ABV y aumentar volumen", de: "Soda, Tonic oder Sprudelwasser hinzufügen um ABV zu senken und Volumen zu erhöhen", nl: "Soda, tonic of bruisend water toevoegen om ABV te verlagen en volume te verhogen" },
+          { en: "Making drink taller in glass", es: "Hacer la bebida más alta en el vaso", de: "Getränk im Glas höher machen", nl: "Drankje hoger maken in glas" },
+          { en: "Stirring longer", es: "Revolver más tiempo", de: "Länger rühren", nl: "Langer roeren" },
+          { en: "Adding more ice", es: "Añadir más hielo", de: "Mehr Eis hinzufügen", nl: "Meer ijs toevoegen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Lengthening involves adding carbonated or still water to spirit-forward drinks, creating highball versions. Scotch & Soda lengthens scotch; Gin & Tonic lengthens gin. Reduces alcohol percentage for sessionability.",
+          es: "Alargar implica añadir agua carbonatada o natural a bebidas con predominio de licor, creando versiones highball. Scotch & Soda alarga scotch; Gin & Tonic alarga ginebra. Reduce porcentaje de alcohol para sesionabilidad.",
+          de: "Verlängern beinhaltet Hinzufügen von kohlensäurehaltigem oder stillem Wasser zu spirituosenbetonten Drinks, schafft Highball-Versionen. Scotch & Soda verlängert Scotch; Gin & Tonic verlängert Gin. Reduziert Alkoholprozentsatz für Sessionability.",
+          nl: "Verlengen houdt in dat koolzuurhoudend of stil water wordt toegevoegd aan spirit-forward drankjes, creëert highball versies. Scotch & Soda verlengt scotch; Gin & Tonic verlengt gin. Vermindert alcoholpercentage voor sessionability."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'smoked cocktail' technique?",
+          es: "¿Qué es la técnica de 'cóctel ahumado'?",
+          de: "Was ist eine 'geräucherte Cocktail'-Technik?",
+          nl: "Wat is een 'gerookte cocktail' techniek?"
+        },
+        options: [
+          { en: "Infusing smoke into cocktail using smoking gun or wood chips", es: "Infundir humo en cóctel usando pistola de humo o astillas de madera", de: "Rauch in Cocktail infundieren mit Rauchpistole oder Holzspänen", nl: "Rook in cocktail infuseren met rookpistool of houtsnippers" },
+          { en: "Adding liquid smoke flavoring", es: "Añadir aromatizante de humo líquido", de: "Flüssig-Rauch-Aroma hinzufügen", nl: "Vloeibare rook smaakstof toevoegen" },
+          { en: "Serving with dry ice", es: "Servir con hielo seco", de: "Mit Trockeneis servieren", nl: "Serveren met droogijs" },
+          { en: "Charred garnish only", es: "Solo guarnición carbonizada", de: "Nur verkohlte Garnitur", nl: "Alleen verkoold garnering" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Smoked cocktails use smoking guns or torched wood chips to infuse actual wood smoke into the drink or glass. Popular with whiskey cocktails (Smoked Old Fashioned), adding campfire complexity.",
+          es: "Los cócteles ahumados usan pistolas de humo o astillas de madera quemadas para infundir humo real de madera en la bebida o vaso. Popular con cócteles de whisky (Smoked Old Fashioned), añadiendo complejidad de fogata.",
+          de: "Geräucherte Cocktails verwenden Rauchpistolen oder angebrannte Holzspäne, um echten Holzrauch ins Getränk oder Glas zu infundieren. Beliebt bei Whiskey-Cocktails (Smoked Old Fashioned), fügt Lagerfeuer-Komplexität hinzu.",
+          nl: "Gerookte cocktails gebruiken rookpistolen of gebrande houtsnippers om echte houtrook in de drank of glas te infuseren. Populair bij whiskey cocktails (Smoked Old Fashioned), voegt kampvuur complexiteit toe."
+        }
+      },
+      {
+        question: {
+          en: "What is 'split base' in cocktail recipes?",
+          es: "¿Qué es 'base dividida' en recetas de cócteles?",
+          de: "Was ist 'Split Base' in Cocktail-Rezepten?",
+          nl: "Wat is 'gesplitste basis' in cocktailrecepten?"
+        },
+        options: [
+          { en: "Using two different spirits as the base instead of one", es: "Usar dos licores diferentes como base en lugar de uno", de: "Zwei verschiedene Spirituosen als Basis verwenden statt einer", nl: "Twee verschillende spirits als basis gebruiken in plaats van één" },
+          { en: "Dividing cocktail between two glasses", es: "Dividir cóctel entre dos vasos", de: "Cocktail zwischen zwei Gläsern teilen", nl: "Cocktail verdelen tussen twee glazen" },
+          { en: "Half alcohol, half mixer", es: "Mitad alcohol, mitad mezclador", de: "Halb Alkohol, halb Mixer", nl: "Half alcohol, half mixer" },
+          { en: "Cracked ice technique", es: "Técnica de hielo agrietado", de: "Gebrochene Eis-Technik", nl: "Gebroken ijs techniek" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Split base uses two spirits together as the base (e.g., half bourbon/half rye, or gin/mezcal combo). Creates complexity and unique flavor profiles by blending complementary spirits.",
+          es: "La base dividida usa dos licores juntos como base (ej., mitad bourbon/mitad centeno, o combo ginebra/mezcal). Crea complejidad y perfiles de sabor únicos mezclando licores complementarios.",
+          de: "Split Base verwendet zwei Spirituosen zusammen als Basis (z.B. halb Bourbon/halb Roggen, oder Gin/Mezcal-Kombi). Schafft Komplexität und einzigartige Geschmacksprofile durch Mischen komplementärer Spirituosen.",
+          nl: "Gesplitste basis gebruikt twee spirits samen als basis (bijv. half bourbon/half rogge, of gin/mezcal combo). Creëert complexiteit en unieke smaakprofielen door complementaire spirits te mengen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'saline solution' used for in cocktails?",
+          es: "¿Para qué se usa 'solución salina' en cócteles?",
+          de: "Wofür wird 'Salzlösung' in Cocktails verwendet?",
+          nl: "Waarvoor wordt 'zoutoplossing' gebruikt in cocktails?"
+        },
+        options: [
+          { en: "A few drops enhance flavors and balance sweetness, like salt in cooking", es: "Unas gotas realzan sabores y equilibran dulzura, como sal en cocina", de: "Ein paar Tropfen verbessern Aromen und balancieren Süße, wie Salz beim Kochen", nl: "Een paar druppels versterken smaken en balanceren zoetheid, zoals zout in koken" },
+          { en: "Medical ingredient", es: "Ingrediente médico", de: "Medizinische Zutat", nl: "Medisch ingrediënt" },
+          { en: "Preservative only", es: "Solo conservante", de: "Nur Konservierungsmittel", nl: "Alleen conserveermiddel" },
+          { en: "Rimming glasses", es: "Decorar bordes de vasos", de: "Gläser beranden", nl: "Glazen randen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Saline solution (20% salt in water) is used in drops to enhance flavor perception, reduce bitterness, and balance sweetness—much like salt in cooking. Particularly effective in citrus and tiki cocktails.",
+          es: "La solución salina (20% sal en agua) se usa en gotas para realzar percepción de sabor, reducir amargura y equilibrar dulzura—muy similar a la sal en cocina. Particularmente efectiva en cócteles cítricos y tiki.",
+          de: "Salzlösung (20% Salz in Wasser) wird tropfenweise verwendet, um Geschmackswahrnehmung zu verbessern, Bitterkeit zu reduzieren und Süße zu balancieren—ähnlich wie Salz beim Kochen. Besonders effektiv in Zitrus- und Tiki-Cocktails.",
+          nl: "Zoutoplossing (20% zout in water) wordt in druppels gebruikt om smaakperceptie te versterken, bitterheid te verminderen en zoetheid te balanceren—veel zoals zout in koken. Bijzonder effectief in citrus en tiki cocktails."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'golden ratio' for balanced sour cocktails?",
+          es: "¿Cuál es la 'proporción áurea' para cócteles agrios equilibrados?",
+          de: "Was ist das 'goldene Verhältnis' für ausgewogene Sour-Cocktails?",
+          nl: "Wat is de 'gouden verhouding' voor gebalanceerde sour cocktails?"
+        },
+        options: [
+          { en: "2:1:1 - spirit:citrus:sweetener (e.g., 2oz gin, 1oz lemon, 1oz simple)", es: "2:1:1 - licor:cítrico:edulcorante (ej., 2oz ginebra, 1oz limón, 1oz simple)", de: "2:1:1 - Spirituose:Zitrus:Süßungsmittel (z.B. 2oz Gin, 1oz Zitrone, 1oz Simple)", nl: "2:1:1 - spirit:citrus:zoetstof (bijv. 2oz gin, 1oz citroen, 1oz simpel)" },
+          { en: "1:1:1 equal parts", es: "1:1:1 partes iguales", de: "1:1:1 gleiche Teile", nl: "1:1:1 gelijke delen" },
+          { en: "3:2:1 ratio", es: "Proporción 3:2:1", de: "3:2:1 Verhältnis", nl: "3:2:1 verhouding" },
+          { en: "4:1 spirit to citrus only", es: "4:1 licor a cítrico solo", de: "4:1 Spirituose zu Zitrus nur", nl: "4:1 spirit tot citrus alleen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The golden ratio for sours is 2:1:1 (2 parts spirit, 1 part citrus juice, 1 part sweetener). This creates balanced cocktails like Daiquiri, Margarita, Whiskey Sour. Adjustments made for ingredient variations.",
+          es: "La proporción áurea para sours es 2:1:1 (2 partes licor, 1 parte jugo cítrico, 1 parte edulcorante). Esto crea cócteles equilibrados como Daiquiri, Margarita, Whiskey Sour. Ajustes hechos para variaciones de ingredientes.",
+          de: "Das goldene Verhältnis für Sours ist 2:1:1 (2 Teile Spirituose, 1 Teil Zitrus saft, 1 Teil Süßungsmittel). Dies schafft ausgewogene Cocktails wie Daiquiri, Margarita, Whiskey Sour. Anpassungen für Zutatenvariationen vorgenommen.",
+          nl: "De gouden verhouding voor sours is 2:1:1 (2 delen spirit, 1 deel citrus sap, 1 deel zoetstof). Dit creëert gebalanceerde cocktails zoals Daiquiri, Margarita, Whiskey Sour. Aanpassingen gemaakt voor ingrediënt variaties."
+        }
+      },
+      {
+        question: {
+          en: "What is 'velvet falernum'?",
+          es: "¿Qué es 'velvet falernum'?",
+          de: "Was ist 'Velvet Falernum'?",
+          nl: "Wat is 'velvet falernum'?"
+        },
+        options: [
+          { en: "Caribbean liqueur with lime, almond, ginger, cloves - essential in tiki cocktails", es: "Licor caribeño con lima, almendra, jengibre, clavos - esencial en cócteles tiki", de: "Karibischer Likör mit Limette, Mandel, Ingwer, Nelken - essentiell in Tiki-Cocktails", nl: "Caribische likeur met limoen, amandel, gember, kruidnagel - essentieel in tiki cocktails" },
+          { en: "Velvet texture additive", es: "Aditivo de textura aterciopelada", de: "Samt-Textur-Zusatz", nl: "Fluwelen textuur additief" },
+          { en: "Type of vermouth", es: "Tipo de vermut", de: "Art von Wermut", nl: "Soort vermouth" },
+          { en: "Cream liqueur", es: "Licor de crema", de: "Sahnelikör", nl: "Room likeur" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Velvet Falernum is a sweet Caribbean liqueur flavored with lime, almond, ginger, cloves, and sometimes vanilla. Essential in tiki cocktails (Zombie, Corn 'n' Oil), adding complex spiced-tropical notes.",
+          es: "Velvet Falernum es un licor dulce caribeño saborizado con lima, almendra, jengibre, clavos y a veces vainilla. Esencial en cócteles tiki (Zombie, Corn 'n' Oil), añadiendo notas especiadas-tropicales complejas.",
+          de: "Velvet Falernum ist ein süßer karibischer Likör mit Limette, Mandel, Ingwer, Nelken und manchmal Vanille aromatisiert. Essentiell in Tiki-Cocktails (Zombie, Corn 'n' Oil), fügt komplexe gewürzt-tropische Noten hinzu.",
+          nl: "Velvet Falernum is een zoete Caribische likeur gearomatiseerd met limoen, amandel, gember, kruidnagel en soms vanille. Essentieel in tiki cocktails (Zombie, Corn 'n' Oil), voegt complexe gekruide-tropische noten toe."
+        }
+      },
+      {
+        question: {
+          en: "What is 'orgeat syrup'?",
+          es: "¿Qué es el 'jarabe orgeat'?",
+          de: "Was ist 'Orgeat-Sirup'?",
+          nl: "Wat is 'orgeat siroop'?"
+        },
+        options: [
+          { en: "Almond-flavored syrup with orange flower water, used in Mai Tai", es: "Jarabe con sabor a almendra con agua de azahar, usado en Mai Tai", de: "Mandelaromatisierter Sirup mit Orangenblütenwasser, verwendet in Mai Tai", nl: "Amandel-gearomatiseerde siroop met oranjebloesemwater, gebruikt in Mai Tai" },
+          { en: "Organic sweetener", es: "Edulcorante orgánico", de: "Organischer Süßstoff", nl: "Organische zoetstof" },
+          { en: "Herbal liqueur", es: "Licor herbal", de: "Kräuterlikör", nl: "Kruidenlikeur" },
+          { en: "Coconut syrup", es: "Jarabe de coco", de: "Kokossirup", nl: "Kokos siroop" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Orgeat is a sweet almond syrup traditionally made with bitter almonds, sugar, and orange flower water. Essential in tiki cocktails (Mai Tai, Japanese Cocktail), providing nutty, floral complexity.",
+          es: "Orgeat es un jarabe dulce de almendra tradicionalmente hecho con almendras amargas, azúcar y agua de azahar. Esencial en cócteles tiki (Mai Tai, Japanese Cocktail), proporcionando complejidad de nuez y floral.",
+          de: "Orgeat ist ein süßer Mandelsirup traditionell aus Bittermandeln, Zucker und Orangenblütenwasser hergestellt. Essentiell in Tiki-Cocktails (Mai Tai, Japanese Cocktail), bietet nussige, florale Komplexität.",
+          nl: "Orgeat is een zoete amandelsiroop traditioneel gemaakt met bittere amandelen, suiker en oranjebloesemwater. Essentieel in tiki cocktails (Mai Tai, Japanese Cocktail), biedt nootachtige, florale complexiteit."
+        }
+      },
+      {
+        question: {
+          en: "What is 'flash blending'?",
+          es: "¿Qué es el 'licuado rápido'?",
+          de: "Was ist 'Flash Blending'?",
+          nl: "Wat is 'flash blenden'?"
+        },
+        options: [
+          { en: "Very brief blending with crushed ice for fluffy texture without over-dilution", es: "Licuado muy breve con hielo triturado para textura esponjosa sin sobre-dilución", de: "Sehr kurzes Mixen mit zerstoßenem Eis für fluffige Textur ohne Überverdünnung", nl: "Zeer kort blenden met crushed ijs voor luchtige textuur zonder overdunning" },
+          { en: "Fast shaking technique", es: "Técnica de agitado rápido", de: "Schnelle Schütteltechnik", nl: "Snelle schudtechniek" },
+          { en: "Blending with a blowtorch", es: "Licuar con soplete", de: "Mixen mit Lötlampe", nl: "Blenden met een brander" },
+          { en: "Layering technique", es: "Técnica de capas", de: "Schichttechnik", nl: "Laagjes techniek" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Flash blending uses just 3-5 seconds of blending with crushed ice and a drink mixer, creating fluffy, aerated texture without excessive dilution. Popular in tiki and swizzle-style cocktails for optimal texture.",
+          es: "El licuado rápido usa solo 3-5 segundos de licuado con hielo triturado y mezclador de bebidas, creando textura esponjosa y aireada sin dilución excesiva. Popular en cócteles tiki y estilo swizzle para textura óptima.",
+          de: "Flash Blending verwendet nur 3-5 Sekunden Mixen mit zerstoßenem Eis und einem Drink-Mixer, schafft fluffige, belüftete Textur ohne übermäßige Verdünnung. Beliebt in Tiki- und Swizzle-Stil-Cocktails für optimale Textur.",
+          nl: "Flash blenden gebruikt slechts 3-5 seconden blenden met crushed ijs en een drank mixer, creëert luchtige, beluchte textuur zonder buitensporige verdunning. Populair in tiki en swizzle-stijl cocktails voor optimale textuur."
+        }
+      },
+      {
+        question: {
+          en: "What is 'proof-testing' ice?",
+          es: "¿Qué es 'probar graduación' del hielo?",
+          de: "Was ist 'Proof-Testing' von Eis?",
+          nl: "Wat is 'alcoholgehalte testen' van ijs?"
+        },
+        options: [
+          { en: "Testing ice clarity and taste to ensure no off-flavors affect cocktails", es: "Probar claridad y sabor del hielo para asegurar que no haya sabores extraños que afecten cócteles", de: "Eisklarheit und Geschmack testen um sicherzustellen, dass keine Fehlgeschmäcker Cocktails beeinflussen", nl: "IJs helderheid en smaak testen om te verzekeren dat geen bijsmaken cocktails beïnvloeden" },
+          { en: "Measuring ice temperature", es: "Medir temperatura del hielo", de: "Eistemperatur messen", nl: "IJs temperatuur meten" },
+          { en: "Checking ice hardness", es: "Verificar dureza del hielo", de: "Eishärte prüfen", nl: "IJs hardheid controleren" },
+          { en: "Testing freezer alcohol content", es: "Probar contenido de alcohol del congelador", de: "Gefrierschrank-Alkoholgehalt testen", nl: "Vriezer alcoholgehalte testen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Proof-testing ice involves tasting and smelling ice to detect freezer odors, chlorine, or off-flavors that could compromise cocktails. Professional bars ensure ice quality matches ingredient standards, sometimes using filtered water or dedicated ice machines.",
+          es: "Probar graduación del hielo implica probar y oler el hielo para detectar olores de congelador, cloro o sabores extraños que podrían comprometer cócteles. Bares profesionales aseguran que calidad del hielo coincida con estándares de ingredientes, a veces usando agua filtrada o máquinas dedicadas de hielo.",
+          de: "Proof-Testing von Eis beinhaltet Schmecken und Riechen von Eis um Gefrierschrankgerüche, Chlor oder Fehlgeschmäcker zu erkennen, die Cocktails beeinträchtigen könnten. Professionelle Bars stellen sicher, dass Eisqualität Zutatensstandards entspricht, manchmal mit gefiltertem Wasser oder dedizierten Eismaschinen.",
+          nl: "Alcoholgehalte testen van ijs houdt in dat ijs wordt geproefd en geroken om vriezergeuren, chloor of bijsmaken te detecteren die cocktails kunnen compromitteren. Professionele bars verzekeren dat ijskwaliteit overeenkomt met ingrediënt standaarden, soms met gefilterd water of toegewijde ijsmachines."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Japanese hard shake' (Kazuo Uyeda technique)?",
+          es: "¿Qué es el 'agitado duro japonés' (técnica Kazuo Uyeda)?",
+          de: "Was ist der 'japanische harte Shake' (Kazuo Uyeda-Technik)?",
+          nl: "Wat is de 'Japanse harde schud' (Kazuo Uyeda techniek)?"
+        },
+        options: [
+          { en: "Vigorous 3-directional shaking creating superior dilution and aeration", es: "Agitado vigoroso de 3 direcciones creando dilución y aireación superior", de: "Kräftiges 3-Richtungs-Schütteln, das überlegene Verdünnung und Belüftung schafft", nl: "Krachtige 3-richtingen schudden creërend superieure verdunning en beluchting" },
+          { en: "Using frozen shaker", es: "Usar coctelera congelada", de: "Gefrorenen Shaker verwenden", nl: "Bevroren shaker gebruiken" },
+          { en: "Shaking with special Japanese ice", es: "Agitar con hielo japonés especial", de: "Mit speziellem japanischen Eis schütteln", nl: "Schudden met speciaal Japans ijs" },
+          { en: "Extra long shaking time", es: "Tiempo de agitado extra largo", de: "Extra lange Schüttelzeit", nl: "Extra lange schudtijd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Japanese hard shake (by master bartender Kazuo Uyeda) involves vigorous three-directional shaking - horizontal, vertical, and diagonal - creating optimal dilution, temperature, and fine ice chips for silky texture. Requires precise technique and practice.",
+          es: "El agitado duro japonés (por el maestro bartender Kazuo Uyeda) implica agitado vigoroso de tres direcciones - horizontal, vertical y diagonal - creando dilución óptima, temperatura y chips finos de hielo para textura sedosa. Requiere técnica precisa y práctica.",
+          de: "Der japanische harte Shake (vom Meister-Barkeeper Kazuo Uyeda) beinhaltet kräftiges dreidimensionales Schütteln - horizontal, vertikal und diagonal - schafft optimale Verdünnung, Temperatur und feine Eissplitter für seidige Textur. Erfordert präzise Technik und Übung.",
+          nl: "De Japanse harde schud (door meester bartender Kazuo Uyeda) houdt krachtige drierichtingen schudden in - horizontaal, verticaal en diagonaal - creërend optimale verdunning, temperatuur en fijne ijssplinters voor zijdezachte textuur. Vereist precieze techniek en oefening."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'pony' measurement in classic cocktails?",
+          es: "¿Qué es una medida 'pony' en cócteles clásicos?",
+          de: "Was ist eine 'Pony'-Messung in klassischen Cocktails?",
+          nl: "Wat is een 'pony' meting in klassieke cocktails?"
+        },
+        options: [
+          { en: "1 oz (30ml) - half of a standard jigger", es: "1 oz (30ml) - mitad de un jigger estándar", de: "1 oz (30ml) - Hälfte eines Standard-Jiggers", nl: "1 oz (30ml) - helft van een standaard jigger" },
+          { en: "2 oz measure", es: "Medida de 2 oz", de: "2 oz Maß", nl: "2 oz maat" },
+          { en: "Half ounce (15ml)", es: "Media onza (15ml)", de: "Halbe Unze (15ml)", nl: "Halve ons (15ml)" },
+          { en: "Small glass type", es: "Tipo de vaso pequeño", de: "Kleine Glasart", nl: "Klein glas type" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A pony is a 1 oz (30ml) measurement, traditionally the smaller side of a double jigger (2oz/1oz). Historical cocktail recipes often call for 'pony' amounts of modifiers or sweeteners.",
+          es: "Un pony es una medida de 1 oz (30ml), tradicionalmente el lado más pequeño de un jigger doble (2oz/1oz). Recetas históricas de cócteles a menudo piden cantidades 'pony' de modificadores o edulcorantes.",
+          de: "Ein Pony ist eine 1 oz (30ml) Messung, traditionell die kleinere Seite eines Doppel-Jiggers (2oz/1oz). Historische Cocktail-Rezepte fordern oft 'Pony'-Mengen an Modifikatoren oder Süßungsmitteln.",
+          nl: "Een pony is een 1 oz (30ml) meting, traditioneel de kleinere kant van een dubbele jigger (2oz/1oz). Historische cocktailrecepten vragen vaak om 'pony' hoeveelheden modifiers of zoetstoffen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'aquafaba' and how is it used in vegan cocktails?",
+          es: "¿Qué es 'aquafaba' y cómo se usa en cócteles veganos?",
+          de: "Was ist 'Aquafaba' und wie wird es in veganen Cocktails verwendet?",
+          nl: "Wat is 'aquafaba' en hoe wordt het gebruikt in vegan cocktails?"
+        },
+        options: [
+          { en: "Chickpea liquid that creates foam similar to egg whites", es: "Líquido de garbanzos que crea espuma similar a claras de huevo", de: "Kichererbsenflüssigkeit, die Schaum ähnlich Eiweiß erzeugt", nl: "Kikkererwten vloeistof die schuim creëert vergelijkbaar met eiwitten" },
+          { en: "Mineral water brand", es: "Marca de agua mineral", de: "Mineralwassermarke", nl: "Mineraalwater merk" },
+          { en: "Plant-based milk", es: "Leche vegetal", de: "Pflanzenmilch", nl: "Plantaardige melk" },
+          { en: "Algae extract", es: "Extracto de algas", de: "Algenextrakt", nl: "Algen extract" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Aquafaba is the liquid from canned chickpeas (or other legumes), which whips into stable foam like egg whites. It's the perfect vegan egg white substitute for sours and fizzes, creating identical texture and foam.",
+          es: "Aquafaba es el líquido de garbanzos enlatados (u otras legumbres), que se bate en espuma estable como claras de huevo. Es el sustituto vegano perfecto de claras de huevo para sours y fizzes, creando textura y espuma idénticas.",
+          de: "Aquafaba ist die Flüssigkeit aus Kichererbsen in Dosen (oder anderen Hülsenfrüchten), die zu stabilem Schaum wie Eiweiß aufgeschlagen wird. Es ist der perfekte vegane Eiweiß-Ersatz für Sours und Fizzes, erzeugt identische Textur und Schaum.",
+          nl: "Aquafaba is de vloeistof van ingeblikte kikkererwten (of andere peulvruchten), die tot stabiel schuim klopt zoals eiwitten. Het is de perfecte vegan eiwit vervanger voor sours en fizzes, creëert identieke textuur en schuim."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of 'agar clarification'?",
+          es: "¿Cuál es el propósito de la 'clarificación con agar'?",
+          de: "Was ist der Zweck der 'Agar-Klärung'?",
+          nl: "Wat is het doel van 'agar verhelderin'?"
+        },
+        options: [
+          { en: "Using agar gel to trap particles and create crystal-clear cocktails", es: "Usar gel de agar para atrapar partículas y crear cócteles cristalinos", de: "Agar-Gel verwenden um Partikel zu fangen und kristallklare Cocktails zu schaffen", nl: "Agar gel gebruiken om deeltjes te vangen en kristalheldere cocktails te creëren" },
+          { en: "Adding seaweed flavor", es: "Añadir sabor a algas", de: "Algengeschmack hinzufügen", nl: "Zeewier smaak toevoegen" },
+          { en: "Thickening cocktails", es: "Espesar cócteles", de: "Cocktails verdicken", nl: "Cocktails verdikken" },
+          { en: "Creating jelly garnishes", es: "Crear guarniciones de gelatina", de: "Gelee-Garnituren erstellen", nl: "Gelei garneringen maken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Agar clarification uses agar-agar (seaweed gelatin) which, when heated with cocktail ingredients then frozen and thawed, traps all particles in the gel while releasing crystal-clear liquid. Advanced technique for visually stunning clarified cocktails.",
+          es: "La clarificación con agar usa agar-agar (gelatina de algas) que, cuando se calienta con ingredientes de cóctel luego se congela y descongela, atrapa todas las partículas en el gel mientras libera líquido cristalino. Técnica avanzada para cócteles clarificados visualmente impresionantes.",
+          de: "Agar-Klärung verwendet Agar-Agar (Seetang-Gelatine), die, wenn mit Cocktail-Zutaten erhitzt, dann gefroren und aufgetaut, alle Partikel im Gel fängt während kristallklare Flüssigkeit freigegeben wird. Fortgeschrittene Technik für visuell beeindruckende geklärte Cocktails.",
+          nl: "Agar verheldering gebruikt agar-agar (zeewier gelatine) die, wanneer verwarmd met cocktail ingrediënten dan bevroren en ontdooid, alle deeltjes in de gel vangt terwijl kristalheldere vloeistof wordt vrijgegeven. Geavanceerde techniek voor visueel verbluffende verhelderde cocktails."
+        }
+      },
+      {
+        question: {
+          en: "What is 'milk punch clarification' and what does it achieve?",
+          es: "¿Qué es la 'clarificación con leche punch' y qué logra?",
+          de: "Was ist 'Milk Punch Klärung' und was erreicht sie?",
+          nl: "Wat is 'melk punch verheldering' en wat bereikt het?"
+        },
+        options: [
+          { en: "Adding milk to acidic cocktails causes curdling; straining removes curds, leaving a silky, shelf-stable, clarified drink with unique texture", es: "Agregar leche a cócteles ácidos causa cuajado; colar elimina cuajos, dejando una bebida clarificada sedosa, estable en estante, con textura única", de: "Milch zu sauren Cocktails hinzufügen verursacht Gerinnung; Abseihen entfernt Gerinnsel, hinterlässt ein seidiges, haltbares, geklärtes Getränk mit einzigartiger Textur", nl: "Melk toevoegen aan zure cocktails veroorzaakt stremming; zeven verwijdert wrongel, laat een zijdezachte, houdbare, verhelderde drank met unieke textuur achter" },
+          { en: "Adding milk for creaminess", es: "Agregar leche para cremosidad", de: "Milch für Cremigkeit hinzufügen", nl: "Melk toevoegen voor romigheid" },
+          { en: "Using milk foam as garnish", es: "Usar espuma de leche como decoración", de: "Milchschaum als Garnitur verwenden", nl: "Melkschuim als garnering gebruiken" },
+          { en: "Freezing milk cubes for chilling", es: "Congelar cubos de leche para enfriar", de: "Milchwürfel zum Kühlen einfrieren", nl: "Melkblokjes bevriezen voor koeling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Milk punch clarification is a historical technique popularized by Benjamin Franklin. Milk proteins coagulate when mixed with acidic cocktail ingredients (citrus, wine), forming curds that trap impurities. After straining through cheesecloth or coffee filters, the result is a crystal-clear, silky-textured cocktail with extended shelf life (weeks to months). The process mellows harsh flavors and creates remarkable clarity.",
+          es: "La clarificación con leche punch es una técnica histórica popularizada por Benjamin Franklin. Las proteínas de la leche coagulan cuando se mezclan con ingredientes de cóctel ácidos (cítricos, vino), formando cuajos que atrapan impurezas. Después de colar con tela de queso o filtros de café, el resultado es un cóctel cristalino con textura sedosa y vida útil extendida (semanas a meses). El proceso suaviza sabores fuertes y crea claridad notable.",
+          de: "Milk Punch Klärung ist eine historische Technik, popularisiert von Benjamin Franklin. Milchproteine koagulieren, wenn sie mit sauren Cocktail-Zutaten (Zitrus, Wein) gemischt werden und Gerinnsel bilden, die Verunreinigungen einfangen. Nach dem Abseihen durch Käsetuch oder Kaffeefilter ist das Ergebnis ein kristallklarer, seidig texturierter Cocktail mit verlängerter Haltbarkeit (Wochen bis Monate). Der Prozess mildert harte Aromen und schafft bemerkenswerte Klarheit.",
+          nl: "Melk punch verheldering is een historische techniek gepopulariseerd door Benjamin Franklin. Melkeiwitten stremmen wanneer gemengd met zure cocktail ingrediënten (citrus, wijn), waarbij wrongel wordt gevormd die onzuiverheden opvangt. Na zeven door kaasdoek of koffiefilters is het resultaat een kristalheldere, zijdezacht getextureerde cocktail met verlengde houdbaarheid (weken tot maanden). Het proces maakt harde smaken zachter en creëert opmerkelijke helderheid."
+        }
+      }
+    ]
   };
 
   // Export for use in the quiz application

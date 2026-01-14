@@ -826,6 +826,826 @@
           de: "Der Bau des Burj Khalifa dauerte etwa 6 Jahre, von Januar 2004 bis Januar 2010.",
           nl: "De bouw van de Burj Khalifa duurde ongeveer 6 jaar, van januari 2004 tot januari 2010."
         }
+      },
+      {
+        question: {
+          en: "What type of building is the Burj Khalifa?",
+          es: "¿Qué tipo de edificio es el Burj Khalifa?",
+          de: "Was für ein Gebäude ist der Burj Khalifa?",
+          nl: "Wat voor soort gebouw is de Burj Khalifa?"
+        },
+        options: [
+          {
+            en: "Skyscraper",
+            es: "Rascacielos",
+            de: "Wolkenkratzer",
+            nl: "Wolkenkrabber"
+          },
+          {
+            en: "Bridge",
+            es: "Puente",
+            de: "Brücke",
+            nl: "Brug"
+          },
+          {
+            en: "Palace",
+            es: "Palacio",
+            de: "Palast",
+            nl: "Paleis"
+          },
+          {
+            en: "Stadium",
+            es: "Estadio",
+            de: "Stadion",
+            nl: "Stadion"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Burj Khalifa is a skyscraper, the tallest building in the world at 828 meters.",
+          es: "El Burj Khalifa es un rascacielos, el edificio más alto del mundo con 828 metros.",
+          de: "Der Burj Khalifa ist ein Wolkenkratzer, das höchste Gebäude der Welt mit 828 Metern.",
+          nl: "De Burj Khalifa is een wolkenkrabber, het hoogste gebouw ter wereld met 828 meter."
+        }
+      },
+      {
+        question: {
+          en: "What color is the exterior of the Burj Khalifa primarily?",
+          es: "¿De qué color es principalmente el exterior del Burj Khalifa?",
+          de: "Welche Farbe hat die Außenseite des Burj Khalifa hauptsächlich?",
+          nl: "Welke kleur heeft de buitenkant van de Burj Khalifa voornamelijk?"
+        },
+        options: [
+          {
+            en: "Red",
+            es: "Rojo",
+            de: "Rot",
+            nl: "Rood"
+          },
+          {
+            en: "Silver/reflective",
+            es: "Plateado/reflectante",
+            de: "Silber/reflektierend",
+            nl: "Zilver/reflecterend"
+          },
+          {
+            en: "Black",
+            es: "Negro",
+            de: "Schwarz",
+            nl: "Zwart"
+          },
+          {
+            en: "Green",
+            es: "Verde",
+            de: "Grün",
+            nl: "Groen"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Burj Khalifa has a silver, reflective exterior made of glass and steel panels.",
+          es: "El Burj Khalifa tiene un exterior plateado y reflectante hecho de paneles de vidrio y acero.",
+          de: "Der Burj Khalifa hat eine silberne, reflektierende Außenseite aus Glas- und Stahlpaneelen.",
+          nl: "De Burj Khalifa heeft een zilverkleurige, reflecterende buitenkant gemaakt van glas en stalen panelen."
+        }
+      },
+      {
+        question: {
+          en: "What was the original name before it became Burj Khalifa?",
+          es: "¿Cuál era el nombre original antes de convertirse en Burj Khalifa?",
+          de: "Wie hieß es ursprünglich, bevor es Burj Khalifa wurde?",
+          nl: "Wat was de oorspronkelijke naam voordat het Burj Khalifa werd?"
+        },
+        options: [
+          {
+            en: "Burj Dubai",
+            es: "Burj Dubai",
+            de: "Burj Dubai",
+            nl: "Burj Dubai"
+          },
+          {
+            en: "Dubai Tower",
+            es: "Torre Dubai",
+            de: "Dubai Turm",
+            nl: "Dubai Toren"
+          },
+          {
+            en: "Burj Emirates",
+            es: "Burj Emirates",
+            de: "Burj Emirates",
+            nl: "Burj Emirates"
+          },
+          {
+            en: "Sky Tower",
+            es: "Torre del Cielo",
+            de: "Himmelsturm",
+            nl: "Luchttoren"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The building was originally called Burj Dubai during construction, renamed at opening in 2010.",
+          es: "El edificio se llamaba originalmente Burj Dubai durante la construcción, renombrado en la inauguración de 2010.",
+          de: "Das Gebäude hieß während des Baus ursprünglich Burj Dubai und wurde bei der Eröffnung 2010 umbenannt.",
+          nl: "Het gebouw heette oorspronkelijk Burj Dubai tijdens de bouw, hernoemd bij de opening in 2010."
+        }
+      },
+      {
+        question: {
+          en: "Which region of the world is the Burj Khalifa located?",
+          es: "¿En qué región del mundo se encuentra el Burj Khalifa?",
+          de: "In welcher Region der Welt befindet sich der Burj Khalifa?",
+          nl: "In welke regio van de wereld staat de Burj Khalifa?"
+        },
+        options: [
+          {
+            en: "Europe",
+            es: "Europa",
+            de: "Europa",
+            nl: "Europa"
+          },
+          {
+            en: "Asia",
+            es: "Asia",
+            de: "Asien",
+            nl: "Azië"
+          },
+          {
+            en: "Middle East",
+            es: "Medio Oriente",
+            de: "Naher Osten",
+            nl: "Midden-Oosten"
+          },
+          {
+            en: "Africa",
+            es: "África",
+            de: "Afrika",
+            nl: "Afrika"
+          }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Burj Khalifa is located in Dubai, in the Middle East region.",
+          es: "El Burj Khalifa está ubicado en Dubái, en la región del Medio Oriente.",
+          de: "Der Burj Khalifa befindet sich in Dubai, in der Region Naher Osten.",
+          nl: "De Burj Khalifa staat in Dubai, in de regio Midden-Oosten."
+        }
+      },
+      {
+        question: {
+          en: "Can visitors go to the top of the Burj Khalifa?",
+          es: "¿Pueden los visitantes subir a la cima del Burj Khalifa?",
+          de: "Können Besucher auf die Spitze des Burj Khalifa gehen?",
+          nl: "Kunnen bezoekers naar de top van de Burj Khalifa gaan?"
+        },
+        options: [
+          {
+            en: "No, it's closed to public",
+            es: "No, está cerrado al público",
+            de: "Nein, es ist für die Öffentlichkeit geschlossen",
+            nl: "Nee, het is gesloten voor publiek"
+          },
+          {
+            en: "Yes, to observation decks",
+            es: "Sí, a los miradores",
+            de: "Ja, zu Aussichtsplattformen",
+            nl: "Ja, naar observatiedekken"
+          },
+          {
+            en: "Only for residents",
+            es: "Solo para residentes",
+            de: "Nur für Bewohner",
+            nl: "Alleen voor bewoners"
+          },
+          {
+            en: "Only by helicopter",
+            es: "Solo en helicóptero",
+            de: "Nur mit Hubschrauber",
+            nl: "Alleen per helikopter"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Visitors can access observation decks on floors 124, 125, and 148 to enjoy panoramic views.",
+          es: "Los visitantes pueden acceder a los miradores en los pisos 124, 125 y 148 para disfrutar de vistas panorámicas.",
+          de: "Besucher können die Aussichtsplattformen in den Stockwerken 124, 125 und 148 besuchen, um Panoramablicke zu genießen.",
+          nl: "Bezoekers hebben toegang tot observatiedekken op verdiepingen 124, 125 en 148 om te genieten van panoramische uitzichten."
+        }
+      },
+      {
+        question: {
+          en: "What area of Dubai is the Burj Khalifa in?",
+          es: "¿En qué área de Dubái está el Burj Khalifa?",
+          de: "In welchem Bereich von Dubai befindet sich der Burj Khalifa?",
+          nl: "In welk gebied van Dubai staat de Burj Khalifa?"
+        },
+        options: [
+          {
+            en: "Dubai Marina",
+            es: "Dubai Marina",
+            de: "Dubai Marina",
+            nl: "Dubai Marina"
+          },
+          {
+            en: "Downtown Dubai",
+            es: "Centro de Dubái",
+            de: "Downtown Dubai",
+            nl: "Downtown Dubai"
+          },
+          {
+            en: "Jumeirah",
+            es: "Jumeirah",
+            de: "Jumeirah",
+            nl: "Jumeirah"
+          },
+          {
+            en: "Deira",
+            es: "Deira",
+            de: "Deira",
+            nl: "Deira"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Burj Khalifa is located in Downtown Dubai, a major development area in the city.",
+          es: "El Burj Khalifa está ubicado en el centro de Dubái, una importante área de desarrollo en la ciudad.",
+          de: "Der Burj Khalifa befindet sich in Downtown Dubai, einem wichtigen Entwicklungsgebiet der Stadt.",
+          nl: "De Burj Khalifa staat in Downtown Dubai, een belangrijk ontwikkelingsgebied in de stad."
+        }
+      },
+      {
+        question: {
+          en: "How does the Burj Khalifa rank among world's tallest buildings?",
+          es: "¿Cómo se clasifica el Burj Khalifa entre los edificios más altos del mundo?",
+          de: "Wie rangiert der Burj Khalifa unter den höchsten Gebäuden der Welt?",
+          nl: "Hoe staat de Burj Khalifa gerangschikt tussen 's werelds hoogste gebouwen?"
+        },
+        options: [
+          {
+            en: "5th tallest",
+            es: "5to más alto",
+            de: "5. höchste",
+            nl: "5e hoogste"
+          },
+          {
+            en: "3rd tallest",
+            es: "3ro más alto",
+            de: "3. höchste",
+            nl: "3e hoogste"
+          },
+          {
+            en: "2nd tallest",
+            es: "2do más alto",
+            de: "2. höchste",
+            nl: "2e hoogste"
+          },
+          {
+            en: "1st tallest",
+            es: "1ro más alto",
+            de: "1. höchste",
+            nl: "1e hoogste"
+          }
+        ],
+        correct: 3,
+        explanation: {
+          en: "The Burj Khalifa is the tallest building in the world since its completion in 2010.",
+          es: "El Burj Khalifa es el edificio más alto del mundo desde su finalización en 2010.",
+          de: "Der Burj Khalifa ist seit seiner Fertigstellung im Jahr 2010 das höchste Gebäude der Welt.",
+          nl: "De Burj Khalifa is het hoogste gebouw ter wereld sinds de voltooiing in 2010."
+        }
+      },
+      {
+        question: {
+          en: "What is at the base of the Burj Khalifa?",
+          es: "¿Qué hay en la base del Burj Khalifa?",
+          de: "Was befindet sich an der Basis des Burj Khalifa?",
+          nl: "Wat bevindt zich aan de basis van de Burj Khalifa?"
+        },
+        options: [
+          {
+            en: "A park",
+            es: "Un parque",
+            de: "Ein Park",
+            nl: "Een park"
+          },
+          {
+            en: "The Dubai Mall and fountains",
+            es: "El Dubai Mall y fuentes",
+            de: "Die Dubai Mall und Springbrunnen",
+            nl: "De Dubai Mall en fonteinen"
+          },
+          {
+            en: "A beach",
+            es: "Una playa",
+            de: "Ein Strand",
+            nl: "Een strand"
+          },
+          {
+            en: "A desert",
+            es: "Un desierto",
+            de: "Eine Wüste",
+            nl: "Een woestijn"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Dubai Mall and the famous Dubai Fountain are located at the base of the Burj Khalifa.",
+          es: "El Dubai Mall y la famosa Fuente de Dubái están ubicados en la base del Burj Khalifa.",
+          de: "Die Dubai Mall und der berühmte Dubai Fountain befinden sich an der Basis des Burj Khalifa.",
+          nl: "De Dubai Mall en de beroemde Dubai Fountain bevinden zich aan de basis van de Burj Khalifa."
+        }
+      },
+      {
+        question: {
+          en: "Is the Burj Khalifa taller than the Eiffel Tower?",
+          es: "¿Es el Burj Khalifa más alto que la Torre Eiffel?",
+          de: "Ist der Burj Khalifa höher als der Eiffelturm?",
+          nl: "Is de Burj Khalifa hoger dan de Eiffeltoren?"
+        },
+        options: [
+          {
+            en: "No, shorter",
+            es: "No, más bajo",
+            de: "Nein, niedriger",
+            nl: "Nee, lager"
+          },
+          {
+            en: "Same height",
+            es: "Misma altura",
+            de: "Gleiche Höhe",
+            nl: "Zelfde hoogte"
+          },
+          {
+            en: "Yes, much taller",
+            es: "Sí, mucho más alto",
+            de: "Ja, viel höher",
+            nl: "Ja, veel hoger"
+          },
+          {
+            en: "Slightly taller",
+            es: "Ligeramente más alto",
+            de: "Etwas höher",
+            nl: "Iets hoger"
+          }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Burj Khalifa at 828m is almost 3 times taller than the Eiffel Tower at 330m.",
+          es: "El Burj Khalifa con 828m es casi 3 veces más alto que la Torre Eiffel con 330m.",
+          de: "Der Burj Khalifa mit 828m ist fast 3-mal höher als der Eiffelturm mit 330m.",
+          nl: "De Burj Khalifa van 828m is bijna 3 keer hoger dan de Eiffeltoren van 330m."
+        }
+      },
+      {
+        question: {
+          en: "What time of day can you visit the observation decks?",
+          es: "¿A qué hora del día puedes visitar los miradores?",
+          de: "Zu welcher Tageszeit kann man die Aussichtsplattformen besuchen?",
+          nl: "Op welk moment van de dag kun je de observatiedekken bezoeken?"
+        },
+        options: [
+          {
+            en: "Only morning",
+            es: "Solo por la mañana",
+            de: "Nur morgens",
+            nl: "Alleen 's ochtends"
+          },
+          {
+            en: "Morning and afternoon",
+            es: "Mañana y tarde",
+            de: "Morgens und nachmittags",
+            nl: "Ochtend en middag"
+          },
+          {
+            en: "All day and evening",
+            es: "Todo el día y la noche",
+            de: "Den ganzen Tag und Abend",
+            nl: "De hele dag en avond"
+          },
+          {
+            en: "Only at sunset",
+            es: "Solo al atardecer",
+            de: "Nur bei Sonnenuntergang",
+            nl: "Alleen bij zonsondergang"
+          }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The observation decks are open from early morning until late evening, offering views at different times.",
+          es: "Los miradores están abiertos desde temprano en la mañana hasta tarde en la noche, ofreciendo vistas en diferentes momentos.",
+          de: "Die Aussichtsplattformen sind von früh morgens bis spät abends geöffnet und bieten Aussichten zu verschiedenen Zeiten.",
+          nl: "De observatiedekken zijn open van vroeg in de ochtend tot laat in de avond, met uitzichten op verschillende momenten."
+        }
+      },
+      {
+        question: {
+          en: "What can you see from the top of the Burj Khalifa?",
+          es: "¿Qué puedes ver desde la cima del Burj Khalifa?",
+          de: "Was kann man von der Spitze des Burj Khalifa sehen?",
+          nl: "Wat kun je zien vanaf de top van de Burj Khalifa?"
+        },
+        options: [
+          {
+            en: "Only the building itself",
+            es: "Solo el edificio mismo",
+            de: "Nur das Gebäude selbst",
+            nl: "Alleen het gebouw zelf"
+          },
+          {
+            en: "Dubai city and desert",
+            es: "Ciudad de Dubái y desierto",
+            de: "Dubai Stadt und Wüste",
+            nl: "Dubai stad en woestijn"
+          },
+          {
+            en: "Only the ocean",
+            es: "Solo el océano",
+            de: "Nur der Ozean",
+            nl: "Alleen de oceaan"
+          },
+          {
+            en: "Other countries",
+            es: "Otros países",
+            de: "Andere Länder",
+            nl: "Andere landen"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "From the top, visitors can see panoramic views of Dubai city, the desert, and the Arabian Gulf.",
+          es: "Desde la cima, los visitantes pueden ver vistas panorámicas de la ciudad de Dubái, el desierto y el Golfo Arábigo.",
+          de: "Von der Spitze aus können Besucher Panoramablicke auf die Stadt Dubai, die Wüste und den Arabischen Golf genießen.",
+          nl: "Vanaf de top kunnen bezoekers panoramische uitzichten zien op Dubai stad, de woestijn en de Arabische Golf."
+        }
+      },
+      {
+        question: {
+          en: "What transport do people use inside the Burj Khalifa?",
+          es: "¿Qué transporte usa la gente dentro del Burj Khalifa?",
+          de: "Welches Transportmittel nutzen Menschen im Burj Khalifa?",
+          nl: "Welk vervoer gebruiken mensen in de Burj Khalifa?"
+        },
+        options: [
+          {
+            en: "Only stairs",
+            es: "Solo escaleras",
+            de: "Nur Treppen",
+            nl: "Alleen trappen"
+          },
+          {
+            en: "Elevators",
+            es: "Ascensores",
+            de: "Aufzüge",
+            nl: "Liften"
+          },
+          {
+            en: "Helicopters",
+            es: "Helicópteros",
+            de: "Hubschrauber",
+            nl: "Helikopters"
+          },
+          {
+            en: "Cable cars",
+            es: "Teleféricos",
+            de: "Seilbahnen",
+            nl: "Kabelbanen"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Burj Khalifa has 57 high-speed elevators that transport people between floors.",
+          es: "El Burj Khalifa tiene 57 ascensores de alta velocidad que transportan personas entre pisos.",
+          de: "Der Burj Khalifa verfügt über 57 Hochgeschwindigkeitsaufzüge, die Menschen zwischen den Stockwerken transportieren.",
+          nl: "De Burj Khalifa heeft 57 hogesnelheidsliften die mensen tussen verdiepingen vervoeren."
+        }
+      },
+      {
+        question: {
+          en: "Does the Burj Khalifa have windows?",
+          es: "¿El Burj Khalifa tiene ventanas?",
+          de: "Hat der Burj Khalifa Fenster?",
+          nl: "Heeft de Burj Khalifa ramen?"
+        },
+        options: [
+          {
+            en: "No windows",
+            es: "Sin ventanas",
+            de: "Keine Fenster",
+            nl: "Geen ramen"
+          },
+          {
+            en: "Only at the top",
+            es: "Solo en la cima",
+            de: "Nur oben",
+            nl: "Alleen bovenaan"
+          },
+          {
+            en: "Yes, thousands of glass panels",
+            es: "Sí, miles de paneles de vidrio",
+            de: "Ja, Tausende von Glaspaneelen",
+            nl: "Ja, duizenden glazen panelen"
+          },
+          {
+            en: "Only small openings",
+            es: "Solo pequeñas aberturas",
+            de: "Nur kleine Öffnungen",
+            nl: "Alleen kleine openingen"
+          }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Burj Khalifa has about 26,000 glass panels covering the exterior, providing natural light and views.",
+          es: "El Burj Khalifa tiene aproximadamente 26,000 paneles de vidrio cubriendo el exterior, proporcionando luz natural y vistas.",
+          de: "Der Burj Khalifa hat etwa 26.000 Glaspaneele, die die Außenseite bedecken und natürliches Licht und Aussichten bieten.",
+          nl: "De Burj Khalifa heeft ongeveer 26.000 glazen panelen die de buitenkant bedekken, wat natuurlijk licht en uitzicht biedt."
+        }
+      },
+      {
+        question: {
+          en: "What famous fashion designer designed the hotel inside?",
+          es: "¿Qué famoso diseñador de moda diseñó el hotel interior?",
+          de: "Welcher berühmte Modedesigner entwarf das Hotel im Inneren?",
+          nl: "Welke beroemde modeontwerper ontwierp het hotel binnenin?"
+        },
+        options: [
+          {
+            en: "Versace",
+            es: "Versace",
+            de: "Versace",
+            nl: "Versace"
+          },
+          {
+            en: "Giorgio Armani",
+            es: "Giorgio Armani",
+            de: "Giorgio Armani",
+            nl: "Giorgio Armani"
+          },
+          {
+            en: "Gucci",
+            es: "Gucci",
+            de: "Gucci",
+            nl: "Gucci"
+          },
+          {
+            en: "Prada",
+            es: "Prada",
+            de: "Prada",
+            nl: "Prada"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Giorgio Armani designed the Armani Hotel Dubai located on the lower floors of the Burj Khalifa.",
+          es: "Giorgio Armani diseñó el Armani Hotel Dubai ubicado en los pisos inferiores del Burj Khalifa.",
+          de: "Giorgio Armani entwarf das Armani Hotel Dubai in den unteren Stockwerken des Burj Khalifa.",
+          nl: "Giorgio Armani ontwierp het Armani Hotel Dubai gelegen op de lagere verdiepingen van de Burj Khalifa."
+        }
+      },
+      {
+        question: {
+          en: "How many countries were workers from during construction?",
+          es: "¿De cuántos países eran los trabajadores durante la construcción?",
+          de: "Aus wie vielen Ländern kamen die Arbeiter während des Baus?",
+          nl: "Uit hoeveel landen kwamen de werknemers tijdens de bouw?"
+        },
+        options: [
+          {
+            en: "20 countries",
+            es: "20 países",
+            de: "20 Länder",
+            nl: "20 landen"
+          },
+          {
+            en: "50 countries",
+            es: "50 países",
+            de: "50 Länder",
+            nl: "50 landen"
+          },
+          {
+            en: "Over 100 countries",
+            es: "Más de 100 países",
+            de: "Über 100 Länder",
+            nl: "Meer dan 100 landen"
+          },
+          {
+            en: "Only UAE",
+            es: "Solo EAU",
+            de: "Nur VAE",
+            nl: "Alleen VAE"
+          }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Workers from over 100 different countries helped build the Burj Khalifa, making it a global project.",
+          es: "Trabajadores de más de 100 países diferentes ayudaron a construir el Burj Khalifa, convirtiéndolo en un proyecto global.",
+          de: "Arbeiter aus über 100 verschiedenen Ländern halfen beim Bau des Burj Khalifa und machten es zu einem globalen Projekt.",
+          nl: "Werknemers uit meer dan 100 verschillende landen hielpen de Burj Khalifa te bouwen, waardoor het een wereldwijd project werd."
+        }
+      },
+      {
+        question: {
+          en: "What are the floors of the Burj Khalifa used for?",
+          es: "¿Para qué se utilizan los pisos del Burj Khalifa?",
+          de: "Wofür werden die Stockwerke des Burj Khalifa genutzt?",
+          nl: "Waarvoor worden de verdiepingen van de Burj Khalifa gebruikt?"
+        },
+        options: [
+          {
+            en: "Only offices",
+            es: "Solo oficinas",
+            de: "Nur Büros",
+            nl: "Alleen kantoren"
+          },
+          {
+            en: "Homes, hotels, offices, and viewing areas",
+            es: "Hogares, hoteles, oficinas y áreas de observación",
+            de: "Wohnungen, Hotels, Büros und Aussichtsbereiche",
+            nl: "Woningen, hotels, kantoren en observatiegebieden"
+          },
+          {
+            en: "Only a hotel",
+            es: "Solo un hotel",
+            de: "Nur ein Hotel",
+            nl: "Alleen een hotel"
+          },
+          {
+            en: "Only apartments",
+            es: "Solo apartamentos",
+            de: "Nur Wohnungen",
+            nl: "Alleen appartementen"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Burj Khalifa is mixed-use with residences, hotel, offices, and observation decks on different floors.",
+          es: "El Burj Khalifa es de uso mixto con residencias, hotel, oficinas y miradores en diferentes pisos.",
+          de: "Der Burj Khalifa hat gemischte Nutzung mit Wohnungen, Hotel, Büros und Aussichtsplattformen auf verschiedenen Stockwerken.",
+          nl: "De Burj Khalifa heeft gemengd gebruik met woningen, hotel, kantoren en observatiedekken op verschillende verdiepingen."
+        }
+      },
+      {
+        question: {
+          en: "What makes the Burj Khalifa special?",
+          es: "¿Qué hace especial al Burj Khalifa?",
+          de: "Was macht den Burj Khalifa besonders?",
+          nl: "Wat maakt de Burj Khalifa bijzonder?"
+        },
+        options: [
+          {
+            en: "Oldest building",
+            es: "Edificio más antiguo",
+            de: "Ältestes Gebäude",
+            nl: "Oudste gebouw"
+          },
+          {
+            en: "Tallest building in the world",
+            es: "Edificio más alto del mundo",
+            de: "Höchstes Gebäude der Welt",
+            nl: "Hoogste gebouw ter wereld"
+          },
+          {
+            en: "Widest building",
+            es: "Edificio más ancho",
+            de: "Breitestes Gebäude",
+            nl: "Breedste gebouw"
+          },
+          {
+            en: "First building ever",
+            es: "Primer edificio jamás",
+            de: "Erstes Gebäude überhaupt",
+            nl: "Eerste gebouw ooit"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Burj Khalifa is the tallest building in the world, holding multiple height records.",
+          es: "El Burj Khalifa es el edificio más alto del mundo, manteniendo múltiples récords de altura.",
+          de: "Der Burj Khalifa ist das höchste Gebäude der Welt und hält mehrere Höhenrekorde.",
+          nl: "De Burj Khalifa is het hoogste gebouw ter wereld, met meerdere hoogterecords."
+        }
+      },
+      {
+        question: {
+          en: "Does the Burj Khalifa light up at night?",
+          es: "¿Se ilumina el Burj Khalifa por la noche?",
+          de: "Leuchtet der Burj Khalifa nachts?",
+          nl: "Licht de Burj Khalifa 's nachts op?"
+        },
+        options: [
+          {
+            en: "No, always dark",
+            es: "No, siempre oscuro",
+            de: "Nein, immer dunkel",
+            nl: "Nee, altijd donker"
+          },
+          {
+            en: "Only the top lights up",
+            es: "Solo la cima se ilumina",
+            de: "Nur die Spitze leuchtet",
+            nl: "Alleen de top licht op"
+          },
+          {
+            en: "Yes, with LED light shows",
+            es: "Sí, con espectáculos de luces LED",
+            de: "Ja, mit LED-Lichtshows",
+            nl: "Ja, met LED-lichtshows"
+          },
+          {
+            en: "Only on holidays",
+            es: "Solo en días festivos",
+            de: "Nur an Feiertagen",
+            nl: "Alleen op feestdagen"
+          }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Burj Khalifa features spectacular LED light shows on its exterior every evening.",
+          es: "El Burj Khalifa presenta espectaculares espectáculos de luces LED en su exterior todas las noches.",
+          de: "Der Burj Khalifa bietet jeden Abend spektakuläre LED-Lichtshows an seiner Außenseite.",
+          nl: "De Burj Khalifa heeft elke avond spectaculaire LED-lichtshows aan de buitenkant."
+        }
+      },
+      {
+        question: {
+          en: "Is the Burj Khalifa in a hot or cold climate?",
+          es: "¿Está el Burj Khalifa en un clima cálido o frío?",
+          de: "Befindet sich der Burj Khalifa in einem heißen oder kalten Klima?",
+          nl: "Staat de Burj Khalifa in een warm of koud klimaat?"
+        },
+        options: [
+          {
+            en: "Cold climate",
+            es: "Clima frío",
+            de: "Kaltes Klima",
+            nl: "Koud klimaat"
+          },
+          {
+            en: "Hot desert climate",
+            es: "Clima desértico cálido",
+            de: "Heißes Wüstenklima",
+            nl: "Heet woestijnklimaat"
+          },
+          {
+            en: "Tropical climate",
+            es: "Clima tropical",
+            de: "Tropisches Klima",
+            nl: "Tropisch klimaat"
+          },
+          {
+            en: "Arctic climate",
+            es: "Clima ártico",
+            de: "Arktisches Klima",
+            nl: "Arctisch klimaat"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Dubai has a hot desert climate with very high temperatures, especially in summer months.",
+          es: "Dubái tiene un clima desértico cálido con temperaturas muy altas, especialmente en los meses de verano.",
+          de: "Dubai hat ein heißes Wüstenklima mit sehr hohen Temperaturen, besonders in den Sommermonaten.",
+          nl: "Dubai heeft een heet woestijnklimaat met zeer hoge temperaturen, vooral in de zomermaanden."
+        }
+      },
+      {
+        question: {
+          en: "Does the Burj Khalifa have a swimming pool?",
+          es: "¿Tiene el Burj Khalifa una piscina?",
+          de: "Hat der Burj Khalifa ein Schwimmbad?",
+          nl: "Heeft de Burj Khalifa een zwembad?"
+        },
+        options: [
+          {
+            en: "No swimming pools",
+            es: "Sin piscinas",
+            de: "Keine Schwimmbäder",
+            nl: "Geen zwembaden"
+          },
+          {
+            en: "Yes, multiple pools",
+            es: "Sí, múltiples piscinas",
+            de: "Ja, mehrere Schwimmbäder",
+            nl: "Ja, meerdere zwembaden"
+          },
+          {
+            en: "Only for hotel guests",
+            es: "Solo para huéspedes del hotel",
+            de: "Nur für Hotelgäste",
+            nl: "Alleen voor hotelgasten"
+          },
+          {
+            en: "On the roof only",
+            es: "Solo en el techo",
+            de: "Nur auf dem Dach",
+            nl: "Alleen op het dak"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Burj Khalifa has multiple swimming pools for residents, hotel guests, and fitness facilities.",
+          es: "El Burj Khalifa tiene múltiples piscinas para residentes, huéspedes del hotel e instalaciones de fitness.",
+          de: "Der Burj Khalifa hat mehrere Schwimmbäder für Bewohner, Hotelgäste und Fitnesseinrichtungen.",
+          nl: "De Burj Khalifa heeft meerdere zwembaden voor bewoners, hotelgasten en fitnessvoorzieningen."
+        }
       }
     ]
   };

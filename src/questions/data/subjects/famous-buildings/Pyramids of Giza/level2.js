@@ -419,6 +419,426 @@
                 de: "Die Arbeiter waren motiviert durch religiöse Pflicht gegenüber dem Pharao (als Gott angesehen), Bezahlung in Form von Nahrung und Waren, und Stolz darauf, zu einem nationalen Monument beizutragen.",
                 nl: "Arbeiders werden gemotiveerd door religieuze plicht jegens de farao (gezien als een god), betaling in voedsel en goederen, en trots op het bijdragen aan een nationaal monument."
             }
+        },
+        {
+            question: {
+                en: "What was the original purpose of the air shafts?",
+                es: "¿Cuál era el propósito original de los conductos de aire?",
+                de: "Was war der ursprüngliche Zweck der Luftschächte?",
+                nl: "Wat was het oorspronkelijke doel van de luchtschachten?"
+            },
+            options: [
+                { en: "Ventilation for workers", es: "Ventilación para trabajadores", de: "Belüftung für Arbeiter", nl: "Ventilatie voor arbeiders" },
+                { en: "Spiritual passages to stars", es: "Pasajes espirituales a las estrellas", de: "Spirituelle Durchgänge zu den Sternen", nl: "Spirituele doorgangen naar sterren" },
+                { en: "Escape routes", es: "Rutas de escape", de: "Fluchtwege", nl: "Ontsnappingsroutes" },
+                { en: "Water drainage", es: "Drenaje de agua", de: "Wasserentwässerung", nl: "Waterafvoer" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "The air shafts likely had spiritual significance, pointing toward specific stars believed to be destinations for the pharaoh's soul.",
+                es: "Los conductos de aire probablemente tenían significado espiritual, apuntando hacia estrellas específicas que se creían destinos del alma del faraón.",
+                de: "Die Luftschächte hatten wahrscheinlich spirituelle Bedeutung und zeigten auf bestimmte Sterne, die als Ziele für die Seele des Pharaos galten.",
+                nl: "De luchtschachten hadden waarschijnlijk spirituele betekenis en wezen naar specifieke sterren die werden beschouwd als bestemmingen voor de ziel van de farao."
+            }
+        },
+        {
+            question: {
+                en: "How many entrances does the Great Pyramid have?",
+                es: "¿Cuántas entradas tiene la Gran Pirámide?",
+                de: "Wie viele Eingänge hat die Große Pyramide?",
+                nl: "Hoeveel ingangen heeft de Grote Piramide?"
+            },
+            options: [
+                { en: "One entrance", es: "Una entrada", de: "Ein Eingang", nl: "Eén ingang" },
+                { en: "Two entrances", es: "Dos entradas", de: "Zwei Eingänge", nl: "Twee ingangen" },
+                { en: "Three entrances", es: "Tres entradas", de: "Drei Eingänge", nl: "Drie ingangen" },
+                { en: "Four entrances", es: "Cuatro entradas", de: "Vier Eingänge", nl: "Vier ingangen" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "The Great Pyramid has two known entrances: the original entrance and the forced entrance created by Caliph Al-Mamun in 820 AD.",
+                es: "La Gran Pirámide tiene dos entradas conocidas: la entrada original y la entrada forzada creada por el califa Al-Mamun en 820 d.C.",
+                de: "Die Große Pyramide hat zwei bekannte Eingänge: den ursprünglichen Eingang und den erzwungenen Eingang, der 820 n. Chr. von Kalif Al-Mamun geschaffen wurde.",
+                nl: "De Grote Piramide heeft twee bekende ingangen: de oorspronkelijke ingang en de geforceerde ingang gecreëerd door kalief Al-Mamun in 820 na Christus."
+            }
+        },
+        {
+            question: {
+                en: "What ancient Greek historian wrote about the pyramids?",
+                es: "¿Qué antiguo historiador griego escribió sobre las pirámides?",
+                de: "Welcher antike griechische Historiker schrieb über die Pyramiden?",
+                nl: "Welke oude Griekse historicus schreef over de piramides?"
+            },
+            options: [
+                { en: "Plutarch", es: "Plutarco", de: "Plutarch", nl: "Plutarchus" },
+                { en: "Herodotus", es: "Heródoto", de: "Herodot", nl: "Herodotus" },
+                { en: "Thucydides", es: "Tucídides", de: "Thukydides", nl: "Thucydides" },
+                { en: "Aristotle", es: "Aristóteles", de: "Aristoteles", nl: "Aristoteles" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "Herodotus visited Egypt around 450 BC and wrote detailed accounts of the pyramids, though some of his information was likely second-hand.",
+                es: "Heródoto visitó Egipto alrededor del 450 a.C. y escribió relatos detallados de las pirámides, aunque parte de su información probablemente era de segunda mano.",
+                de: "Herodot besuchte Ägypten um 450 v. Chr. und schrieb detaillierte Berichte über die Pyramiden, obwohl einige seiner Informationen wahrscheinlich aus zweiter Hand stammten.",
+                nl: "Herodotus bezocht Egypte rond 450 voor Christus en schreef gedetailleerde verslagen van de piramides, hoewel sommige van zijn informatie waarschijnlijk uit de tweede hand kwam."
+            }
+        },
+        {
+            question: {
+                en: "What season was most construction work done?",
+                es: "¿En qué temporada se realizaba la mayor parte del trabajo de construcción?",
+                de: "In welcher Jahreszeit wurde der meiste Bau durchgeführt?",
+                nl: "In welk seizoen werd het meeste bouwwerk gedaan?"
+            },
+            options: [
+                { en: "Summer", es: "Verano", de: "Sommer", nl: "Zomer" },
+                { en: "Winter", es: "Invierno", de: "Winter", nl: "Winter" },
+                { en: "Spring", es: "Primavera", de: "Frühling", nl: "Lente" },
+                { en: "Flood season", es: "Temporada de inundaciones", de: "Überschwemmungssaison", nl: "Overstromingsseizoen" }
+            ],
+            correctIndex: 3,
+            explanation: {
+                en: "Most construction work was done during the Nile flood season when farmers couldn't work their fields and were available for labor.",
+                es: "La mayor parte del trabajo de construcción se realizaba durante la temporada de inundaciones del Nilo cuando los agricultores no podían trabajar sus campos y estaban disponibles para trabajar.",
+                de: "Die meiste Bauarbeit wurde während der Nilüberschwemmungssaison durchgeführt, wenn Bauern ihre Felder nicht bearbeiten konnten und für Arbeit verfügbar waren.",
+                nl: "Het meeste bouwwerk werd gedaan tijdens het overstromingsseizoen van de Nijl, wanneer boeren hun velden niet konden bewerken en beschikbaar waren voor arbeid."
+            }
+        },
+        {
+            question: {
+                en: "What was found in the King's Chamber?",
+                es: "¿Qué se encontró en la Cámara del Rey?",
+                de: "Was wurde in der Königskammer gefunden?",
+                nl: "Wat werd er gevonden in de Koningskamer?"
+            },
+            options: [
+                { en: "Gold treasures", es: "Tesoros de oro", de: "Goldschätze", nl: "Gouden schatten" },
+                { en: "An empty sarcophagus", es: "Un sarcófago vacío", de: "Ein leerer Sarkophag", nl: "Een lege sarcofaag" },
+                { en: "Ancient scrolls", es: "Pergaminos antiguos", de: "Alte Schriftrollen", nl: "Oude rollen" },
+                { en: "Mummies", es: "Momias", de: "Mumien", nl: "Mummies" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "When first opened, the King's Chamber contained only an empty granite sarcophagus. Any treasures or body had been removed in antiquity.",
+                es: "Cuando se abrió por primera vez, la Cámara del Rey contenía solo un sarcófago de granito vacío. Cualquier tesoro o cuerpo había sido removido en la antigüedad.",
+                de: "Als sie zum ersten Mal geöffnet wurde, enthielt die Königskammer nur einen leeren Granitsarkophag. Alle Schätze oder Körper waren in der Antike entfernt worden.",
+                nl: "Toen deze voor het eerst werd geopend, bevatte de Koningskamer alleen een lege granieten sarcofaag. Eventuele schatten of lichaam waren in de oudheid verwijderd."
+            }
+        },
+        {
+            question: {
+                en: "How accurate is the pyramid's alignment to true north?",
+                es: "¿Qué tan precisa es la alineación de la pirámide con el norte verdadero?",
+                de: "Wie genau ist die Ausrichtung der Pyramide nach echtem Norden?",
+                nl: "Hoe nauwkeurig is de uitlijning van de piramide op het ware noorden?"
+            },
+            options: [
+                { en: "Within 5 degrees", es: "Dentro de 5 grados", de: "Innerhalb von 5 Grad", nl: "Binnen 5 graden" },
+                { en: "Within 1 degree", es: "Dentro de 1 grado", de: "Innerhalb von 1 Grad", nl: "Binnen 1 graad" },
+                { en: "Within 3/60th of a degree", es: "Dentro de 3/60 de grado", de: "Innerhalb von 3/60 Grad", nl: "Binnen 3/60 van een graad" },
+                { en: "Not aligned at all", es: "No alineada en absoluto", de: "Überhaupt nicht ausgerichtet", nl: "Helemaal niet uitgelijnd" }
+            ],
+            correctIndex: 2,
+            explanation: {
+                en: "The Great Pyramid is aligned to true north with an accuracy of 3/60th of one degree, an incredible achievement for ancient builders.",
+                es: "La Gran Pirámide está alineada con el norte verdadero con una precisión de 3/60 de un grado, un logro increíble para los constructores antiguos.",
+                de: "Die Große Pyramide ist mit einer Genauigkeit von 3/60 Grad nach echtem Norden ausgerichtet, eine unglaubliche Leistung der alten Baumeister.",
+                nl: "De Grote Piramide is uitgelijnd op het ware noorden met een nauwkeurigheid van 3/60 van een graad, een ongelooflijke prestatie voor oude bouwers."
+            }
+        },
+        {
+            question: {
+                en: "What was the total weight of the Great Pyramid?",
+                es: "¿Cuál era el peso total de la Gran Pirámide?",
+                de: "Wie viel wog die Große Pyramide insgesamt?",
+                nl: "Wat was het totale gewicht van de Grote Piramide?"
+            },
+            options: [
+                { en: "1 million tons", es: "1 millón de toneladas", de: "1 Million Tonnen", nl: "1 miljoen ton" },
+                { en: "3 million tons", es: "3 millones de toneladas", de: "3 Millionen Tonnen", nl: "3 miljoen ton" },
+                { en: "6 million tons", es: "6 millones de toneladas", de: "6 Millionen Tonnen", nl: "6 miljoen ton" },
+                { en: "10 million tons", es: "10 millones de toneladas", de: "10 Millionen Tonnen", nl: "10 miljoen ton" }
+            ],
+            correctIndex: 2,
+            explanation: {
+                en: "The Great Pyramid originally weighed approximately 6 million tons, making it one of the heaviest structures ever built by humans.",
+                es: "La Gran Pirámide originalmente pesaba aproximadamente 6 millones de toneladas, convirtiéndola en una de las estructuras más pesadas jamás construidas por humanos.",
+                de: "Die Große Pyramide wog ursprünglich etwa 6 Millionen Tonnen und ist damit eines der schwersten jemals von Menschen gebauten Bauwerke.",
+                nl: "De Grote Piramide woog oorspronkelijk ongeveer 6 miljoen ton, waardoor het een van de zwaarste ooit door mensen gebouwde constructies is."
+            }
+        },
+        {
+            question: {
+                en: "What type of boat was found near the pyramid?",
+                es: "¿Qué tipo de barco se encontró cerca de la pirámide?",
+                de: "Welche Art von Boot wurde in der Nähe der Pyramide gefunden?",
+                nl: "Wat voor soort boot werd gevonden bij de piramide?"
+            },
+            options: [
+                { en: "A warship", es: "Un buque de guerra", de: "Ein Kriegsschiff", nl: "Een oorlogsschip" },
+                { en: "A solar barque", es: "Una barca solar", de: "Eine Sonnenbarke", nl: "Een zonnebarque" },
+                { en: "A fishing boat", es: "Un barco de pesca", de: "Ein Fischerboot", nl: "Een vissersboot" },
+                { en: "A trade vessel", es: "Un barco comercial", de: "Ein Handelsschiff", nl: "Een handelsschip" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "A dismantled solar barque (ceremonial boat) was found in a pit near Khufu's pyramid, meant to carry the pharaoh's soul through the sky.",
+                es: "Se encontró una barca solar desmantelada (bote ceremonial) en un pozo cerca de la pirámide de Keops, destinada a transportar el alma del faraón por el cielo.",
+                de: "Eine zerlegte Sonnenbarke (Zeremonialboot) wurde in einer Grube in der Nähe von Chufus Pyramide gefunden, bestimmt, die Seele des Pharaos durch den Himmel zu tragen.",
+                nl: "Een gedemonteerde zonnebarque (ceremoniële boot) werd gevonden in een put bij de piramide van Khufu, bedoeld om de ziel van de farao door de lucht te dragen."
+            }
+        },
+        {
+            question: {
+                en: "What happened to most of the pyramid's casing stones?",
+                es: "¿Qué pasó con la mayoría de las piedras de revestimiento de la pirámide?",
+                de: "Was geschah mit den meisten Verkleidungssteinen der Pyramide?",
+                nl: "Wat gebeurde er met de meeste bekledingsstenen van de piramide?"
+            },
+            options: [
+                { en: "They melted in the sun", es: "Se derritieron al sol", de: "Sie schmolzen in der Sonne", nl: "Ze smolten in de zon" },
+                { en: "They were stolen for building projects", es: "Fueron robados para proyectos de construcción", de: "Sie wurden für Bauprojekte gestohlen", nl: "Ze werden gestolen voor bouwprojecten" },
+                { en: "They crumbled naturally", es: "Se desmoronaron naturalmente", de: "Sie bröckelten natürlich ab", nl: "Ze verkruimelden natuurlijk" },
+                { en: "They were painted over", es: "Fueron pintados", de: "Sie wurden übermalt", nl: "Ze werden overschilderd" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "Most of the white Tura limestone casing stones were removed over centuries and used to build mosques and other buildings in Cairo.",
+                es: "La mayoría de las piedras de revestimiento de piedra caliza blanca de Tura fueron removidas durante siglos y utilizadas para construir mezquitas y otros edificios en El Cairo.",
+                de: "Die meisten weißen Tura-Kalkstein-Verkleidungssteine wurden über Jahrhunderte entfernt und zum Bau von Moscheen und anderen Gebäuden in Kairo verwendet.",
+                nl: "De meeste witte Tura-kalksteen bekledingsstenen werden gedurende eeuwen verwijderd en gebruikt om moskeeën en andere gebouwen in Caïro te bouwen."
+            }
+        },
+        {
+            question: {
+                en: "How many chambers are inside the Great Pyramid?",
+                es: "¿Cuántas cámaras hay dentro de la Gran Pirámide?",
+                de: "Wie viele Kammern befinden sich in der Großen Pyramide?",
+                nl: "Hoeveel kamers zijn er in de Grote Piramide?"
+            },
+            options: [
+                { en: "Two chambers", es: "Dos cámaras", de: "Zwei Kammern", nl: "Twee kamers" },
+                { en: "Three chambers", es: "Tres cámaras", de: "Drei Kammern", nl: "Drie kamers" },
+                { en: "Five chambers", es: "Cinco cámaras", de: "Fünf Kammern", nl: "Vijf kamers" },
+                { en: "Ten chambers", es: "Diez cámaras", de: "Zehn Kammern", nl: "Tien kamers" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "The Great Pyramid has three main chambers: the King's Chamber, the Queen's Chamber, and the unfinished Subterranean Chamber.",
+                es: "La Gran Pirámide tiene tres cámaras principales: la Cámara del Rey, la Cámara de la Reina y la Cámara Subterránea inacabada.",
+                de: "Die Große Pyramide hat drei Hauptkammern: die Königskammer, die Königinnenkammer und die unvollendete Subterrane Kammer.",
+                nl: "De Grote Piramide heeft drie hoofdkamers: de Koningskamer, de Koninginnenkamer en de onafgemaakte Ondergrondse Kamer."
+            }
+        },
+        {
+            question: {
+                en: "What title did Khufu's chief architect likely hold?",
+                es: "¿Qué título tenía probablemente el arquitecto jefe de Keops?",
+                de: "Welchen Titel hatte wahrscheinlich Chufus Chefarchitekt?",
+                nl: "Welke titel had waarschijnlijk de hoofdarchitect van Khufu?"
+            },
+            options: [
+                { en: "Pharaoh's Builder", es: "Constructor del Faraón", de: "Baumeister des Pharaos", nl: "Bouwer van de Farao" },
+                { en: "Overseer of Works", es: "Supervisor de Obras", de: "Aufseher der Arbeiten", nl: "Opzichter van Werken" },
+                { en: "Royal Engineer", es: "Ingeniero Real", de: "Königlicher Ingenieur", nl: "Koninklijk Ingenieur" },
+                { en: "Master Mason", es: "Maestro Masón", de: "Meistersteinmetz", nl: "Meester Metselaar" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "Hemiunu, Khufu's vizier and likely chief architect, held the title 'Overseer of All the King's Works' and managed the pyramid's construction.",
+                es: "Hemiunu, visir de Keops y probable arquitecto jefe, ostentaba el título de 'Supervisor de Todas las Obras del Rey' y gestionó la construcción de la pirámide.",
+                de: "Hemiunu, Chufus Wesir und wahrscheinlicher Chefarchitekt, trug den Titel 'Aufseher aller Werke des Königs' und leitete den Bau der Pyramide.",
+                nl: "Hemiunu, Khufu's vizier en waarschijnlijk hoofdarchitect, had de titel 'Opzichter van Alle Werken van de Koning' en beheerde de bouw van de piramide."
+            }
+        },
+        {
+            question: {
+                en: "What was discovered inside sealed doors in 2002?",
+                es: "¿Qué se descubrió dentro de puertas selladas en 2002?",
+                de: "Was wurde 2002 hinter versiegelten Türen entdeckt?",
+                nl: "Wat werd ontdekt achter verzegelde deuren in 2002?"
+            },
+            options: [
+                { en: "Gold treasure", es: "Tesoro de oro", de: "Goldschatz", nl: "Gouden schat" },
+                { en: "Another sealed door", es: "Otra puerta sellada", de: "Eine weitere versiegelte Tür", nl: "Nog een verzegelde deur" },
+                { en: "Ancient scrolls", es: "Pergaminos antiguos", de: "Alte Schriftrollen", nl: "Oude rollen" },
+                { en: "Hidden chamber", es: "Cámara oculta", de: "Verborgene Kammer", nl: "Verborgen kamer" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "In 2002, a robot camera explored a shaft and found another sealed door behind the first, deepening the mystery of the pyramid's interior.",
+                es: "En 2002, una cámara robot exploró un conducto y encontró otra puerta sellada detrás de la primera, profundizando el misterio del interior de la pirámide.",
+                de: "Im Jahr 2002 erkundete eine Roboterkamera einen Schacht und fand eine weitere versiegelte Tür hinter der ersten, was das Geheimnis des Pyramideninneren vertiefte.",
+                nl: "In 2002 onderzocht een robotcamera een schacht en vond nog een verzegelde deur achter de eerste, wat het mysterie van het binnenste van de piramide verdiepte."
+            }
+        },
+        {
+            question: {
+                en: "Where did workers live during construction?",
+                es: "¿Dónde vivían los trabajadores durante la construcción?",
+                de: "Wo lebten die Arbeiter während des Baus?",
+                nl: "Waar woonden arbeiders tijdens de bouw?"
+            },
+            options: [
+                { en: "Inside the pyramids", es: "Dentro de las pirámides", de: "In den Pyramiden", nl: "In de piramides" },
+                { en: "In Cairo", es: "En El Cairo", de: "In Kairo", nl: "In Caïro" },
+                { en: "In worker villages near the site", es: "En aldeas de trabajadores cerca del sitio", de: "In Arbeiterdörfern in der Nähe", nl: "In arbeidersdorpen bij de site" },
+                { en: "They commuted daily from afar", es: "Viajaban diariamente desde lejos", de: "Sie pendelten täglich von weit her", nl: "Ze reisden dagelijks van ver" }
+            ],
+            correctIndex: 2,
+            explanation: {
+                en: "Archaeological evidence shows workers lived in purpose-built villages near the pyramids, with housing, bakeries, and workshops.",
+                es: "La evidencia arqueológica muestra que los trabajadores vivían en aldeas construidas especialmente cerca de las pirámides, con viviendas, panaderías y talleres.",
+                de: "Archäologische Beweise zeigen, dass Arbeiter in speziell gebauten Dörfern in der Nähe der Pyramiden lebten, mit Wohnungen, Bäckereien und Werkstätten.",
+                nl: "Archeologisch bewijs toont aan dat arbeiders woonden in speciaal gebouwde dorpen bij de piramides, met huisvesting, bakkerijen en werkplaatsen."
+            }
+        },
+        {
+            question: {
+                en: "What food was commonly given to workers?",
+                es: "¿Qué comida se daba comúnmente a los trabajadores?",
+                de: "Welche Nahrung wurde den Arbeitern üblicherweise gegeben?",
+                nl: "Welk voedsel werd gewoonlijk aan arbeiders gegeven?"
+            },
+            options: [
+                { en: "Bread, beer, and onions", es: "Pan, cerveza y cebollas", de: "Brot, Bier und Zwiebeln", nl: "Brood, bier en uien" },
+                { en: "Rice and fish", es: "Arroz y pescado", de: "Reis und Fisch", nl: "Rijst en vis" },
+                { en: "Meat only", es: "Solo carne", de: "Nur Fleisch", nl: "Alleen vlees" },
+                { en: "Fruits and vegetables", es: "Frutas y verduras", de: "Obst und Gemüse", nl: "Fruit en groenten" }
+            ],
+            correctIndex: 0,
+            explanation: {
+                en: "Workers were typically paid with bread, beer, and onions, which provided necessary calories and nutrition for the hard physical labor.",
+                es: "Los trabajadores recibían típicamente pan, cerveza y cebollas, que proporcionaban las calorías y nutrición necesarias para el duro trabajo físico.",
+                de: "Arbeiter wurden typischerweise mit Brot, Bier und Zwiebeln bezahlt, die notwendige Kalorien und Nahrung für die harte körperliche Arbeit lieferten.",
+                nl: "Arbeiders werden doorgaans betaald met brood, bier en uien, die de nodige calorieën en voeding leverden voor het zware fysieke werk."
+            }
+        },
+        {
+            question: {
+                en: "What does the name 'Khufu' mean in Egyptian?",
+                es: "¿Qué significa el nombre 'Keops' en egipcio?",
+                de: "Was bedeutet der Name 'Chufu' im Ägyptischen?",
+                nl: "Wat betekent de naam 'Khufu' in het Egyptisch?"
+            },
+            options: [
+                { en: "Great builder", es: "Gran constructor", de: "Großer Baumeister", nl: "Grote bouwer" },
+                { en: "He protects me", es: "Él me protege", de: "Er schützt mich", nl: "Hij beschermt mij" },
+                { en: "Son of Ra", es: "Hijo de Ra", de: "Sohn von Ra", nl: "Zoon van Ra" },
+                { en: "King of kings", es: "Rey de reyes", de: "König der Könige", nl: "Koning der koningen" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "Khufu's name means 'He protects me,' referring to the god Khnum who was believed to protect the pharaoh.",
+                es: "El nombre de Keops significa 'Él me protege,' refiriéndose al dios Jnum que se creía protegía al faraón.",
+                de: "Chufus Name bedeutet 'Er schützt mich,' und bezieht sich auf den Gott Chnum, von dem geglaubt wurde, dass er den Pharao schützt.",
+                nl: "Khufu's naam betekent 'Hij beschermt mij,' verwijzend naar de god Khnum waarvan werd geloofd dat hij de farao beschermde."
+            }
+        },
+        {
+            question: {
+                en: "What instrument helped align the pyramid so precisely?",
+                es: "¿Qué instrumento ayudó a alinear la pirámide con tanta precisión?",
+                de: "Welches Instrument half, die Pyramide so präzise auszurichten?",
+                nl: "Welk instrument hielp de piramide zo nauwkeurig uit te lijnen?"
+            },
+            options: [
+                { en: "A compass", es: "Una brújula", de: "Ein Kompass", nl: "Een kompas" },
+                { en: "Star observations", es: "Observaciones de estrellas", de: "Sternbeobachtungen", nl: "Sterrenwaarnemingen" },
+                { en: "A sundial", es: "Un reloj de sol", de: "Eine Sonnenuhr", nl: "Een zonnewijzer" },
+                { en: "A magnetic needle", es: "Una aguja magnética", de: "Eine Magnetnadel", nl: "Een magneetnaald" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "Ancient Egyptians likely used observations of circumpolar stars to determine true north and achieve the pyramid's precise alignment.",
+                es: "Los antiguos egipcios probablemente usaron observaciones de estrellas circumpolares para determinar el norte verdadero y lograr la alineación precisa de la pirámide.",
+                de: "Die alten Ägypter verwendeten wahrscheinlich Beobachtungen zirkumpolarer Sterne, um echten Norden zu bestimmen und die präzise Ausrichtung der Pyramide zu erreichen.",
+                nl: "Oude Egyptenaren gebruikten waarschijnlijk waarnemingen van circumpolaire sterren om het ware noorden te bepalen en de precieze uitlijning van de piramide te bereiken."
+            }
+        },
+        {
+            question: {
+                en: "What temperature is maintained inside the pyramid?",
+                es: "¿Qué temperatura se mantiene dentro de la pirámide?",
+                de: "Welche Temperatur wird in der Pyramide aufrechterhalten?",
+                nl: "Welke temperatuur wordt in de piramide gehandhaafd?"
+            },
+            options: [
+                { en: "Same as outside", es: "Igual que afuera", de: "Gleich wie draußen", nl: "Hetzelfde als buiten" },
+                { en: "Always freezing", es: "Siempre congelado", de: "Immer gefroren", nl: "Altijd bevroren" },
+                { en: "Constant 20°C (68°F)", es: "Constante 20°C (68°F)", de: "Konstant 20°C (68°F)", nl: "Constant 20°C (68°F)" },
+                { en: "Extremely hot", es: "Extremadamente caliente", de: "Extrem heiß", nl: "Extreem heet" }
+            ],
+            correctIndex: 2,
+            explanation: {
+                en: "The interior of the Great Pyramid maintains a constant temperature of about 20°C (68°F) regardless of outside conditions.",
+                es: "El interior de la Gran Pirámide mantiene una temperatura constante de aproximadamente 20°C (68°F) independientemente de las condiciones exteriores.",
+                de: "Das Innere der Großen Pyramide hält eine konstante Temperatur von etwa 20°C (68°F) aufrecht, unabhängig von den Außenbedingungen.",
+                nl: "Het binnenste van de Grote Piramide handhaaft een constante temperatuur van ongeveer 20°C (68°F), ongeacht de buitenomstandigheden."
+            }
+        },
+        {
+            question: {
+                en: "How many sides does the Great Pyramid actually have?",
+                es: "¿Cuántos lados tiene realmente la Gran Pirámide?",
+                de: "Wie viele Seiten hat die Große Pyramide tatsächlich?",
+                nl: "Hoeveel zijden heeft de Grote Piramide eigenlijk?"
+            },
+            options: [
+                { en: "Three sides", es: "Tres lados", de: "Drei Seiten", nl: "Drie zijden" },
+                { en: "Four sides", es: "Cuatro lados", de: "Vier Seiten", nl: "Vier zijden" },
+                { en: "Eight sides", es: "Ocho lados", de: "Acht Seiten", nl: "Acht zijden" },
+                { en: "Six sides", es: "Seis lados", de: "Sechs Seiten", nl: "Zes zijden" }
+            ],
+            correctIndex: 2,
+            explanation: {
+                en: "The Great Pyramid actually has eight sides due to a subtle concave indentation on each of the four faces, visible only from the air at certain times.",
+                es: "La Gran Pirámide en realidad tiene ocho lados debido a una sutil hendidura cóncava en cada una de las cuatro caras, visible solo desde el aire en ciertos momentos.",
+                de: "Die Große Pyramide hat tatsächlich acht Seiten aufgrund einer subtilen konkaven Vertiefung auf jeder der vier Flächen, die nur aus der Luft zu bestimmten Zeiten sichtbar ist.",
+                nl: "De Grote Piramide heeft eigenlijk acht zijden vanwege een subtiele holle inkeping op elk van de vier vlakken, alleen zichtbaar vanuit de lucht op bepaalde momenten."
+            }
+        },
+        {
+            question: {
+                en: "What modern technology discovered new voids in 2017?",
+                es: "¿Qué tecnología moderna descubrió nuevos vacíos en 2017?",
+                de: "Welche moderne Technologie entdeckte 2017 neue Hohlräume?",
+                nl: "Welke moderne technologie ontdekte nieuwe holtes in 2017?"
+            },
+            options: [
+                { en: "X-rays", es: "Rayos X", de: "Röntgenstrahlen", nl: "Röntgenstralen" },
+                { en: "Cosmic ray muon imaging", es: "Imágenes de muones de rayos cósmicos", de: "Kosmische Myonen-Bildgebung", nl: "Kosmische straling muon-beeldvorming" },
+                { en: "Sonar", es: "Sonar", de: "Sonar", nl: "Sonar" },
+                { en: "Ground radar", es: "Radar terrestre", de: "Bodenradar", nl: "Grondradar" }
+            ],
+            correctIndex: 1,
+            explanation: {
+                en: "In 2017, scientists used cosmic ray muon imaging to discover a large previously unknown void above the Grand Gallery in the Great Pyramid.",
+                es: "En 2017, los científicos usaron imágenes de muones de rayos cósmicos para descubrir un gran vacío previamente desconocido sobre la Gran Galería en la Gran Pirámide.",
+                de: "Im Jahr 2017 verwendeten Wissenschaftler kosmische Myonen-Bildgebung, um einen großen zuvor unbekannten Hohlraum über der Großen Galerie in der Großen Pyramide zu entdecken.",
+                nl: "In 2017 gebruikten wetenschappers kosmische straling muon-beeldvorming om een grote voorheen onbekende holte boven de Grote Galerij in de Grote Piramide te ontdekken."
+            }
+        },
+        {
+            question: {
+                en: "Who was buried in the smallest pyramid?",
+                es: "¿Quién fue enterrado en la pirámide más pequeña?",
+                de: "Wer wurde in der kleinsten Pyramide begraben?",
+                nl: "Wie werd begraven in de kleinste piramide?"
+            },
+            options: [
+                { en: "Khufu", es: "Keops", de: "Cheops", nl: "Khufu" },
+                { en: "Khafre", es: "Kefrén", de: "Chephren", nl: "Khafre" },
+                { en: "Menkaure", es: "Micerino", de: "Mykerinos", nl: "Menkaure" },
+                { en: "Djoser", es: "Djoser", de: "Djoser", nl: "Djoser" }
+            ],
+            correctIndex: 2,
+            explanation: {
+                en: "Pharaoh Menkaure was buried in the smallest of the three main pyramids at Giza, which is about one-tenth the mass of the Great Pyramid.",
+                es: "El faraón Micerino fue enterrado en la más pequeña de las tres pirámides principales de Giza, que tiene aproximadamente una décima parte de la masa de la Gran Pirámide.",
+                de: "Pharao Mykerinos wurde in der kleinsten der drei Hauptpyramiden von Gizeh begraben, die etwa ein Zehntel der Masse der Großen Pyramide hat.",
+                nl: "Farao Menkaure werd begraven in de kleinste van de drie hoofdpiramides in Giza, die ongeveer een tiende van de massa van de Grote Piramide heeft."
+            }
         }
     ];
 

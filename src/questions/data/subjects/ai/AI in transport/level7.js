@@ -427,6 +427,426 @@
           de: "Quantensensoren können winzige Gravitationsänderungen, Magnetfelder und elektromagnetische Variationen mit beispielloser Genauigkeit für verbesserte autonome Navigation und Hinderniserkennung erfassen.",
           nl: "Quantum sensoren kunnen minuscule gravitatieveranderingen, magnetische velden en elektromagnetische variaties detecteren met ongekende nauwkeurigheid voor verbeterde autonome navigatie en obstakeldetectie."
         }
+      },
+      {
+        question: {
+          en: "What is 'intention recognition AI' providing for safer human-autonomous vehicle interaction?",
+          es: "¿Qué está proporcionando la 'IA de reconocimiento de intención' para interacción más segura entre humanos y vehículos autónomos?",
+          de: "Was bietet 'Absichtserkennung-KI' für sicherere Mensch-autonomes-Fahrzeug-Interaktion?",
+          nl: "Wat biedt 'intentie herkenning AI' voor veiligere mens-autonoom voertuig interactie?"
+        },
+        options: [
+          { en: "Predicting pedestrian and cyclist movements by analyzing body language, gaze direction, and behavioral patterns", es: "Predecir movimientos de peatones y ciclistas analizando lenguaje corporal, dirección de mirada y patrones de comportamiento", de: "Fußgänger- und Radfahrerbewegungen vorhersagen durch Analyse von Körpersprache, Blickrichtung und Verhaltensmustern", nl: "Bewegingen van voetgangers en fietsers voorspellen door lichaamshouding, blikrichting en gedragspatronen te analyseren" },
+          { en: "Intention recognition for vehicle design only", es: "Reconocimiento de intención solo para diseño de vehículos", de: "Absichtserkennung nur für Fahrzeugdesign", nl: "Intentie herkenning alleen voor voertuigontwerp" },
+          { en: "Reading driver intentions from brain signals", es: "Leer intenciones del conductor desde señales cerebrales", de: "Fahrerabsichten aus Gehirnsignalen lesen", nl: "Bestuurder intenties lezen vanuit hersensi gnalen" },
+          { en: "Intention analysis for marketing purposes", es: "Análisis de intención para propósitos de marketing", de: "Absichtsanalyse für Marketingzwecke", nl: "Intentie analyse voor marketingdoeleinden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Intention recognition enables autonomous vehicles to anticipate when pedestrians might cross roads or cyclists might turn, allowing proactive safety measures and smoother traffic interactions.",
+          es: "El reconocimiento de intención permite a vehículos autónomos anticipar cuándo peatones podrían cruzar carreteras o ciclistas girar, permitiendo medidas de seguridad proactivas e interacciones de tráfico más suaves.",
+          de: "Absichtserkennung ermöglicht autonomen Fahrzeugen zu antizipieren wann Fußgänger Straßen überqueren oder Radfahrer abbiegen könnten, ermöglicht proaktive Sicherheitsmaßnahmen und glattere Verkehrsinteraktionen.",
+          nl: "Intentie herkenning stelt autonome voertuigen in staat te anticiperen wanneer voetgangers wegen kunnen oversteken of fietsers kunnen afslaan, waardoor proactieve veiligheidsmaatregelen en vloeiendere verkeersinteracties mogelijk worden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'explainable AI' (XAI) achieving for autonomous vehicle trustworthiness?",
+          es: "¿Qué está logrando la 'IA explicable' (XAI) para confiabilidad de vehículos autónomos?",
+          de: "Was erreicht 'erklärbare KI' (XAI) für Vertrauenswürdigkeit autonomer Fahrzeuge?",
+          nl: "Wat bereikt 'verklaarbare AI' (XAI) voor betrouwbaarheid van autonome voertuigen?"
+        },
+        options: [
+          { en: "Making AI decision-making processes transparent and interpretable for regulatory compliance and user trust", es: "Hacer procesos de toma de decisiones de IA transparentes e interpretables para cumplimiento regulatorio y confianza del usuario", de: "KI-Entscheidungsprozesse transparent und interpretierbar machen für regulatorische Compliance und Benutzervertrauen", nl: "AI-besluitvormingsprocessen transparant en interpreteerbaar maken voor regelgevingscompliance en gebruikersvertrouwen" },
+          { en: "AI that can explain vehicle features to users", es: "IA que puede explicar características de vehículo a usuarios", de: "KI die Fahrzeugfunktionen an Benutzer erklären kann", nl: "AI die voertuigfuncties aan gebruikers kan uitleggen" },
+          { en: "Explaining AI concepts in vehicles", es: "Explicar conceptos de IA en vehículos", de: "KI-Konzepte in Fahrzeugen erklären", nl: "AI-concepten uitleggen in voertuigen" },
+          { en: "Explainable vehicle manuals", es: "Manuales de vehículo explicables", de: "Erklärbare Fahrzeughandbücher", nl: "Verklaarbare voertuighandleidingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "XAI provides insights into why autonomous vehicles make specific driving decisions, essential for debugging, regulatory approval, and building public confidence in autonomous technology.",
+          es: "XAI proporciona información sobre por qué vehículos autónomos toman decisiones específicas de conducción, esencial para depuración, aprobación regulatoria y construir confianza pública en tecnología autónoma.",
+          de: "XAI bietet Einblicke warum autonome Fahrzeuge spezifische Fahrentscheidungen treffen, essentiell für Debugging, regulatorische Genehmigung und Aufbau öffentlichen Vertrauens in autonome Technologie.",
+          nl: "XAI biedt inzichten waarom autonome voertuigen specifieke rijbeslissingen nemen, essentieel voor debugging, regelgevingsgoedkeuring en opbouwen van publiek vertrouwen in autonome technologie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'adversarial training' protecting against in autonomous vehicle AI systems?",
+          es: "¿Contra qué está protegiendo el 'entrenamiento adversarial' en sistemas de IA de vehículos autónomos?",
+          de: "Wogegen schützt 'adversariales Training' in KI-Systemen autonomer Fahrzeuge?",
+          nl: "Waartegen beschermt 'adversarial training' in AI-systemen van autonome voertuigen?"
+        },
+        options: [
+          { en: "Malicious attacks designed to fool perception systems with adversarial examples and manipulated inputs", es: "Ataques maliciosos diseñados para engañar sistemas de percepción con ejemplos adversariales y entradas manipuladas", de: "Bösartige Angriffe die Wahrnehmungssysteme mit adversarialen Beispielen und manipulierten Eingaben täuschen sollen", nl: "Kwaadaardige aanvallen ontworpen om perceptiesystemen te misleiden met adversarial voorbeelden en gemanipuleerde inputs" },
+          { en: "Training vehicles to compete against each other", es: "Entrenar vehículos para competir entre sí", de: "Fahrzeuge trainieren gegeneinander zu konkurrieren", nl: "Voertuigen trainen om tegen elkaar te concurreren" },
+          { en: "Adversarial marketing tactics", es: "Tácticas de marketing adversarial", de: "Adversariale Marketingtaktiken", nl: "Adversarial marketing tactieken" },
+          { en: "Training only adverse conditions", es: "Entrenar solo condiciones adversas", de: "Nur widrige Bedingungen trainieren", nl: "Alleen ongunstige omstandigheden trainen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Adversarial training makes AI models robust against attacks like altered stop signs or road markings that could cause dangerous misclassifications in safety-critical situations.",
+          es: "El entrenamiento adversarial hace modelos IA robustos contra ataques como señales de alto alteradas o marcas de carretera que podrían causar clasificaciones erróneas peligrosas en situaciones críticas de seguridad.",
+          de: "Adversariales Training macht KI-Modelle robust gegen Angriffe wie veränderte Stoppschilder oder Straßenmarkierungen die gefährliche Fehlklassifikationen in sicherheitskritischen Situationen verursachen könnten.",
+          nl: "Adversarial training maakt AI-modellen robuust tegen aanvallen zoals gewijzigde stopborden of wegmarkeringen die gevaarlijke misclassificaties kunnen veroorzaken in veiligheidskritieke situaties."
+        }
+      },
+      {
+        question: {
+          en: "What is 'sim-to-real transfer learning' solving in autonomous vehicle development?",
+          es: "¿Qué está resolviendo el 'aprendizaje por transferencia sim-a-real' en desarrollo de vehículos autónomos?",
+          de: "Was löst 'Sim-zu-Real Transfer Learning' in der Entwicklung autonomer Fahrzeuge?",
+          nl: "Wat lost 'sim-to-real transfer learning' op in ontwikkeling van autonome voertuigen?"
+        },
+        options: [
+          { en: "Bridging the gap between simulated training environments and real-world driving conditions for efficient AI training", es: "Cerrar la brecha entre entornos de entrenamiento simulados y condiciones de conducción del mundo real para entrenamiento IA eficiente", de: "Die Lücke zwischen simulierten Trainingsumgebungen und realen Fahrbedingungen für effizientes KI-Training überbrücken", nl: "De kloof overbruggen tussen gesimuleerde trainingsomgevingen en real-world rijcondities voor efficiënte AI-training" },
+          { en: "Transferring simulations to reality directly", es: "Transferir simulaciones a realidad directamente", de: "Simulationen direkt in Realität übertragen", nl: "Simulaties direct naar realiteit overdragen" },
+          { en: "Learning real-world simulations", es: "Aprender simulaciones del mundo real", de: "Reale Simulationen lernen", nl: "Real-world simulaties leren" },
+          { en: "Simple to realistic rendering", es: "Renderizado de simple a realista", de: "Einfache zu realistische Darstellung", nl: "Eenvoudig naar realistische weergave" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sim-to-real transfer allows AI trained in safe, scalable simulation environments to perform effectively in the real world, dramatically reducing testing costs and risks.",
+          es: "La transferencia sim-a-real permite a IA entrenada en entornos de simulación seguros y escalables desempeñarse efectivamente en el mundo real, reduciendo dramáticamente costos y riesgos de prueba.",
+          de: "Sim-zu-Real-Transfer ermöglicht in sicheren, skalierbaren Simulationsumgebungen trainierter KI effektiv in der realen Welt zu funktionieren, reduziert dramatisch Testkosten und Risiken.",
+          nl: "Sim-to-real transfer stelt AI getraind in veilige, schaalbare simulatieomgevingen in staat effectief te presteren in de echte wereld, vermindert dramatisch testkosten en risico's."
+        }
+      },
+      {
+        question: {
+          en: "What is 'time-series forecasting' enabling for traffic management AI?",
+          es: "¿Qué está permitiendo la 'previsión de series temporales' para IA de gestión de tráfico?",
+          de: "Was ermöglicht 'Zeitreihenvorhersage' für Verkehrsmanagement-KI?",
+          nl: "Wat maakt 'time-series forecasting' mogelijk voor verkeersmanagement AI?"
+        },
+        options: [
+          { en: "Predicting future traffic patterns based on historical data, events, weather, and temporal trends for proactive management", es: "Predecir patrones de tráfico futuros basados en datos históricos, eventos, clima y tendencias temporales para gestión proactiva", de: "Zukünftige Verkehrsmuster basierend auf historischen Daten, Ereignissen, Wetter und zeitlichen Trends für proaktives Management vorhersagen", nl: "Toekomstige verkeerspatronen voorspellen op basis van historische data, evenementen, weer en temporele trends voor proactief management" },
+          { en: "Time series only for vehicle scheduling", es: "Series temporales solo para programación de vehículos", de: "Zeitreihen nur für Fahrzeugplanung", nl: "Tijdreeksen alleen voor voertuigplanning" },
+          { en: "Forecasting time of arrival only", es: "Pronosticar solo tiempo de llegada", de: "Nur Ankunftszeit vorhersagen", nl: "Alleen aankomsttijd voorspellen" },
+          { en: "Series of time-based measurements", es: "Serie de mediciones basadas en tiempo", de: "Serie zeitbasierter Messungen", nl: "Serie tijdgebaseerde metingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Time-series forecasting enables transportation systems to predict congestion hours before it occurs, allowing preventive routing, signal timing adjustments, and capacity planning.",
+          es: "La previsión de series temporales permite a sistemas de transporte predecir congestión horas antes de que ocurra, permitiendo enrutamiento preventivo, ajustes de tiempo de señales y planificación de capacidad.",
+          de: "Zeitreihenvorhersage ermöglicht Transportsystemen Staus Stunden bevor sie auftreten vorherzusagen, ermöglicht präventives Routing, Ampelzeit-Anpassungen und Kapazitätsplanung.",
+          nl: "Time-series forecasting stelt transportsystemen in staat opstoppingen uren voordat ze optreden te voorspellen, maakt preventieve routing, signaal timing aanpassingen en capaciteitsplanning mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What is 'online learning' providing for deployed autonomous vehicles?",
+          es: "¿Qué está proporcionando el 'aprendizaje en línea' para vehículos autónomos desplegados?",
+          de: "Was bietet 'Online-Lernen' für eingesetzte autonome Fahrzeuge?",
+          nl: "Wat biedt 'online learning' voor ingezette autonome voertuigen?"
+        },
+        options: [
+          { en: "Continuous real-time learning from new experiences while in operation without requiring retraining from scratch", es: "Aprendizaje continuo en tiempo real desde nuevas experiencias mientras opera sin requerir reentrenamiento desde cero", de: "Kontinuierliches Echtzeit-Lernen aus neuen Erfahrungen während des Betriebs ohne Neutraining von Grund auf zu erfordern", nl: "Continue realtime leren van nieuwe ervaringen tijdens bedrijf zonder hertraining vanaf nul te vereisen" },
+          { en: "Learning while connected to the internet", es: "Aprender mientras está conectado a internet", de: "Lernen während mit Internet verbunden", nl: "Leren terwijl verbonden met internet" },
+          { en: "Online courses for vehicles", es: "Cursos en línea para vehículos", de: "Online-Kurse für Fahrzeuge", nl: "Online cursussen voor voertuigen" },
+          { en: "Internet-based learning only", es: "Solo aprendizaje basado en internet", de: "Nur Internet-basiertes Lernen", nl: "Alleen internet-gebaseerd leren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Online learning allows autonomous vehicles to adapt to new road configurations, traffic patterns, and driving conventions without returning to manufacturers for updates.",
+          es: "El aprendizaje en línea permite a vehículos autónomos adaptarse a nuevas configuraciones de carretera, patrones de tráfico y convenciones de conducción sin regresar a fabricantes para actualizaciones.",
+          de: "Online-Lernen ermöglicht autonomen Fahrzeugen sich an neue Straßenkonfigurationen, Verkehrsmuster und Fahrkonventionen anzupassen ohne zu Herstellern für Updates zurückzukehren.",
+          nl: "Online learning stelt autonome voertuigen in staat zich aan te passen aan nieuwe wegconfiguraties, verkeerspatronen en rijconventies zonder terug te keren naar fabrikanten voor updates."
+        }
+      },
+      {
+        question: {
+          en: "What is 'hierarchical planning' achieving in autonomous navigation complexity?",
+          es: "¿Qué está logrando la 'planificación jerárquica' en complejidad de navegación autónoma?",
+          de: "Was erreicht 'hierarchische Planung' in der Komplexität autonomer Navigation?",
+          nl: "Wat bereikt 'hiërarchische planning' in complexiteit van autonome navigatie?"
+        },
+        options: [
+          { en: "Breaking down navigation into strategic route planning, tactical maneuver selection, and operational vehicle control layers", es: "Dividir navegación en planificación estratégica de rutas, selección táctica de maniobras y capas de control operacional de vehículo", de: "Navigation in strategische Routenplanung, taktische Manöverauswahl und operative Fahrzeugsteuerungsebenen unterteilen", nl: "Navigatie opdelen in strategische routeplanning, tactische manoeuvre selectie en operationele voertuigcontrole lagen" },
+          { en: "Hierarchy of vehicle planners", es: "Jerarquía de planificadores de vehículos", de: "Hierarchie von Fahrzeugplanern", nl: "Hiërarchie van voertuigplanners" },
+          { en: "Planning based on organizational hierarchy", es: "Planificación basada en jerarquía organizacional", de: "Planung basierend auf Organisationshierarchie", nl: "Planning gebaseerd op organisatorische hiërarchie" },
+          { en: "Multi-level planning structures only", es: "Solo estructuras de planificación multinivel", de: "Nur mehrstufige Planungsstrukturen", nl: "Alleen multi-niveau planningsstructuren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hierarchical planning manages complexity by separating high-level mission planning from low-level control, enabling efficient decision-making at appropriate abstraction levels.",
+          es: "La planificación jerárquica gestiona complejidad separando planificación de misión de alto nivel del control de bajo nivel, permitiendo toma de decisiones eficiente en niveles de abstracción apropiados.",
+          de: "Hierarchische Planung managt Komplexität durch Trennung hochstufiger Missionsplanung von niedrigstufiger Kontrolle, ermöglicht effiziente Entscheidungsfindung auf angemessenen Abstraktionsebenen.",
+          nl: "Hiërarchische planning beheert complexiteit door hoog-niveau missieplanning te scheiden van laag-niveau controle, maakt efficiënte besluitvorming mogelijk op gepaste abstractieniveaus."
+        }
+      },
+      {
+        question: {
+          en: "What is 'occupancy grid mapping' providing for obstacle detection?",
+          es: "¿Qué está proporcionando el 'mapeo de cuadrícula de ocupación' para detección de obstáculos?",
+          de: "Was bietet 'Occupancy Grid Mapping' für Hinderniserkennung?",
+          nl: "Wat biedt 'occupancy grid mapping' voor obstakeldetectie?"
+        },
+        options: [
+          { en: "Probabilistic representation of which spatial cells are occupied by obstacles for safe path planning", es: "Representación probabilística de qué celdas espaciales están ocupadas por obstáculos para planificación segura de rutas", de: "Probabilistische Darstellung welche räumlichen Zellen von Hindernissen belegt sind für sichere Wegplanung", nl: "Probabilistische representatie van welke ruimtelijke cellen bezet zijn door obstakels voor veilige padplanning" },
+          { en: "Grid-based occupancy measurements only", es: "Solo mediciones de ocupación basadas en cuadrícula", de: "Nur rasterbasierte Belegungsmessungen", nl: "Alleen grid-gebaseerde bezettingsmetingen" },
+          { en: "Mapping vehicle occupancy rates", es: "Mapear tasas de ocupación de vehículos", de: "Fahrzeugbelegungsraten kartieren", nl: "Voertuigbezettingspercentages mappen" },
+          { en: "Occupancy planning for parking", es: "Planificación de ocupación para estacionamiento", de: "Belegungsplanung für Parken", nl: "Bezettingsplanning voor parkeren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Occupancy grids discretize the environment into cells with probability estimates of obstacles, enabling efficient collision-free path planning and navigation in dynamic environments.",
+          es: "Las cuadrículas de ocupación discretizan el entorno en celdas con estimaciones de probabilidad de obstáculos, permitiendo planificación eficiente de rutas sin colisiones y navegación en entornos dinámicos.",
+          de: "Occupancy Grids diskretisieren die Umgebung in Zellen mit Wahrscheinlichkeitsschätzungen von Hindernissen, ermöglichen effiziente kollisionsfreie Wegplanung und Navigation in dynamischen Umgebungen.",
+          nl: "Occupancy grids discretiseren de omgeving in cellen met waarschijnlijkheidsschattingen van obstakels, maken efficiënte botsingsvrije padplanning en navigatie mogelijk in dynamische omgevingen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'model predictive control' (MPC) achieving in autonomous vehicle trajectory optimization?",
+          es: "¿Qué está logrando el 'control predictivo de modelo' (MPC) en optimización de trayectoria de vehículos autónomos?",
+          de: "Was erreicht 'modellprädiktive Regelung' (MPC) in Trajektorienoptimierung autonomer Fahrzeuge?",
+          nl: "Wat bereikt 'model predictive control' (MPC) in traject optimalisatie van autonome voertuigen?"
+        },
+        options: [
+          { en: "Optimizing future vehicle trajectories by predicting system behavior over a planning horizon while respecting constraints", es: "Optimizar trayectorias futuras de vehículos prediciendo comportamiento del sistema sobre un horizonte de planificación mientras respeta restricciones", de: "Zukünftige Fahrzeugtrajektorien optimieren durch Vorhersage des Systemverhaltens über einen Planungshorizont unter Einhaltung von Einschränkungen", nl: "Toekomstige voertuigtrajecten optimaliseren door systeemgedrag te voorspellen over een planningshorizon terwijl beperkingen worden gerespecteerd" },
+          { en: "Predicting vehicle model types", es: "Predecir tipos de modelo de vehículo", de: "Fahrzeugmodelltypen vorhersagen", nl: "Voertuigmodeltypes voorspellen" },
+          { en: "Model-based predictive maintenance", es: "Mantenimiento predictivo basado en modelo", de: "Modellbasierte vorausschauende Wartung", nl: "Model-gebaseerd predictive maintenance" },
+          { en: "Control of predictive models only", es: "Control solo de modelos predictivos", de: "Kontrolle nur von prädiktiven Modellen", nl: "Controle alleen van voorspellende modellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "MPC continuously solves optimization problems to find the best trajectory considering vehicle dynamics, obstacles, and constraints, enabling smooth and safe autonomous driving maneuvers.",
+          es: "MPC resuelve continuamente problemas de optimización para encontrar la mejor trayectoria considerando dinámica del vehículo, obstáculos y restricciones, permitiendo maniobras de conducción autónoma suaves y seguras.",
+          de: "MPC löst kontinuierlich Optimierungsprobleme um die beste Trajektorie zu finden unter Berücksichtigung von Fahrzeugdynamik, Hindernissen und Einschränkungen, ermöglicht glatte und sichere autonome Fahrmanöver.",
+          nl: "MPC lost continu optimalisatieproblemen op om het beste traject te vinden rekening houdend met voertuigdynamica, obstakels en beperkingen, maakt vloeiende en veilige autonome rijmanoeuvres mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What is 'anomaly detection' protecting autonomous vehicles from?",
+          es: "¿De qué está protegiendo la 'detección de anomalías' a vehículos autónomos?",
+          de: "Wovor schützt 'Anomalieerkennung' autonome Fahrzeuge?",
+          nl: "Waartegen beschermt 'anomalie detectie' autonome voertuigen?"
+        },
+        options: [
+          { en: "Unusual sensor readings, system malfunctions, and abnormal environmental conditions that could indicate safety threats", es: "Lecturas inusuales de sensores, mal funcionamientos del sistema y condiciones ambientales anormales que podrían indicar amenazas de seguridad", de: "Ungewöhnliche Sensormesswerte, Systemfehlfunktionen und abnormale Umgebungsbedingungen die Sicherheitsbedrohungen anzeigen könnten", nl: "Ongebruikelijke sensorwaarden, systeemstoringen en abnormale omgevingscondities die veiligheidsdreigingen kunnen aangeven" },
+          { en: "Anomalies in vehicle manufacturing", es: "Anomalías en fabricación de vehículos", de: "Anomalien in der Fahrzeugherstellung", nl: "Anomalieën in voertuigproductie" },
+          { en: "Detection of vehicle anomalies only", es: "Detección solo de anomalías de vehículo", de: "Erkennung nur von Fahrzeuganomalien", nl: "Detectie alleen van voertuiganomalieën" },
+          { en: "Anomalous traffic patterns", es: "Patrones de tráfico anómalos", de: "Anomale Verkehrsmuster", nl: "Anomale verkeerspatronen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Anomaly detection identifies unusual patterns in sensor data, system behavior, or environmental conditions, enabling early warning and failsafe responses to potential dangers.",
+          es: "La detección de anomalías identifica patrones inusuales en datos de sensores, comportamiento del sistema o condiciones ambientales, permitiendo advertencia temprana y respuestas a prueba de fallos a peligros potenciales.",
+          de: "Anomalieerkennung identifiziert ungewöhnliche Muster in Sensordaten, Systemverhalten oder Umgebungsbedingungen, ermöglicht Frühwarnung und ausfallsichere Antworten auf potenzielle Gefahren.",
+          nl: "Anomalie detectie identificeert ongebruikelijke patronen in sensordata, systeemgedrag of omgevingscondities, maakt vroege waarschuwing en failsafe reacties op potentiële gevaren mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What is 'semantic scene understanding' providing for autonomous driving comprehension?",
+          es: "¿Qué está proporcionando la 'comprensión semántica de escena' para comprensión de conducción autónoma?",
+          de: "Was bietet 'semantisches Szenenverständnis' für autonomes Fahrverständnis?",
+          nl: "Wat biedt 'semantische scène begrip' voor autonoom rijden begrip?"
+        },
+        options: [
+          { en: "Understanding not just what objects are present but their relationships, context, and likely behaviors in driving scenarios", es: "Entender no solo qué objetos están presentes sino sus relaciones, contexto y comportamientos probables en escenarios de conducción", de: "Nicht nur verstehen welche Objekte vorhanden sind sondern ihre Beziehungen, Kontext und wahrscheinliche Verhaltensweisen in Fahrszenarien", nl: "Niet alleen begrijpen welke objecten aanwezig zijn maar hun relaties, context en waarschijnlijke gedragingen in rijscenario's" },
+          { en: "Understanding semantics of traffic laws", es: "Entender semántica de leyes de tráfico", de: "Semantik von Verkehrsgesetzen verstehen", nl: "Semantiek van verkeersregels begrijpen" },
+          { en: "Scene composition understanding only", es: "Solo comprensión de composición de escena", de: "Nur Szenenzusammensetzungsverständnis", nl: "Alleen scène compositie begrip" },
+          { en: "Semantic labeling of scenes", es: "Etiquetado semántico de escenas", de: "Semantische Beschriftung von Szenen", nl: "Semantische labeling van scènes" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Semantic scene understanding enables vehicles to reason about situations like school zones requiring caution or construction areas needing alternative routing based on contextual meaning.",
+          es: "La comprensión semántica de escena permite a vehículos razonar sobre situaciones como zonas escolares que requieren precaución o áreas de construcción que necesitan enrutamiento alternativo basado en significado contextual.",
+          de: "Semantisches Szenenverständnis ermöglicht Fahrzeugen über Situationen zu denken wie Schulzonen die Vorsicht erfordern oder Baustellen die alternative Routen benötigen basierend auf kontextuellem Bedeutung.",
+          nl: "Semantische scène begrip stelt voertuigen in staat te redeneren over situaties zoals schoolzones die voorzichtigheid vereisen of bouwgebieden die alternatieve routing nodig hebben gebaseerd op contextuele betekenis."
+        }
+      },
+      {
+        question: {
+          en: "What is 'graph neural networks' (GNNs) enabling for traffic flow prediction?",
+          es: "¿Qué están permitiendo las 'redes neuronales de grafos' (GNN) para predicción de flujo de tráfico?",
+          de: "Was ermöglichen 'Graph Neural Networks' (GNNs) für Verkehrsfluss-Vorhersage?",
+          nl: "Wat maken 'graph neural networks' (GNNs) mogelijk voor verkeersstroom voorspelling?"
+        },
+        options: [
+          { en: "Modeling road networks as graphs to capture spatial dependencies and predict traffic conditions across connected routes", es: "Modelar redes de carreteras como grafos para capturar dependencias espaciales y predecir condiciones de tráfico a través de rutas conectadas", de: "Straßennetzwerke als Graphen modellieren um räumliche Abhängigkeiten zu erfassen und Verkehrsbedingungen über verbundene Routen vorherzusagen", nl: "Wegennetwerken modelleren als grafieken om ruimtelijke afhankelijkheden vast te leggen en verkeersomstandigheden te voorspellen over verbonden routes" },
+          { en: "Neural networks for graph visualization", es: "Redes neuronales para visualización de grafos", de: "Neuronale Netzwerke für Graphen-Visualisierung", nl: "Neurale netwerken voor grafiekvisualisatie" },
+          { en: "Graph-based network architectures only", es: "Solo arquitecturas de red basadas en grafos", de: "Nur graphbasierte Netzwerkarchitekturen", nl: "Alleen grafiek-gebaseerde netwerkarchitecturen" },
+          { en: "Graphical neural representations", es: "Representaciones neuronales gráficas", de: "Graphische neuronale Darstellungen", nl: "Grafische neurale representaties" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "GNNs naturally represent road network topology, enabling accurate traffic prediction by learning how congestion propagates through interconnected streets and highways.",
+          es: "Los GNN representan naturalmente topología de red vial, permitiendo predicción precisa de tráfico aprendiendo cómo congestión se propaga a través de calles y autopistas interconectadas.",
+          de: "GNNs repräsentieren natürlich Straßennetzwerk-Topologie, ermöglichen genaue Verkehrsvorhersage durch Lernen wie Staus sich durch verbundene Straßen und Autobahnen ausbreiten.",
+          nl: "GNNs representeren natuurlijk wegennetwerk topologie, maken nauwkeurige verkeervoorspelling mogelijk door te leren hoe opstoppingen zich verspreiden door onderling verbonden straten en snelwegen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'instance segmentation' achieving in autonomous vehicle perception?",
+          es: "¿Qué está logrando la 'segmentación de instancia' en percepción de vehículos autónomos?",
+          de: "Was erreicht 'Instanz-Segmentierung' in der Wahrnehmung autonomer Fahrzeuge?",
+          nl: "Wat bereikt 'instance segmentation' in perceptie van autonome voertuigen?"
+        },
+        options: [
+          { en: "Detecting and individually segmenting each distinct object instance at pixel level for precise tracking and prediction", es: "Detectar y segmentar individualmente cada instancia de objeto distinta a nivel de píxel para seguimiento y predicción precisos", de: "Jede einzelne Objektinstanz auf Pixelebene erkennen und einzeln segmentieren für präzises Tracking und Vorhersage", nl: "Elke afzonderlijke object instantie op pixelniveau detecteren en individueel segmenteren voor nauwkeurige tracking en voorspelling" },
+          { en: "Segmenting instances of vehicle types", es: "Segmentar instancias de tipos de vehículo", de: "Instanzen von Fahrzeugtypen segmentieren", nl: "Instanties van voertuigtypes segmenteren" },
+          { en: "Instance-based memory segmentation", es: "Segmentación de memoria basada en instancia", de: "Instanz-basierte Speichersegmentierung", nl: "Instantie-gebaseerde geheugen segmentatie" },
+          { en: "Segmentation examples", es: "Ejemplos de segmentación", de: "Segmentierungsbeispiele", nl: "Segmentatie voorbeelden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Instance segmentation identifies each individual pedestrian, vehicle, or cyclist separately, enabling the autonomous system to track and predict movements of specific entities in crowded scenes.",
+          es: "La segmentación de instancia identifica cada peatón, vehículo o ciclista individual separadamente, permitiendo al sistema autónomo rastrear y predecir movimientos de entidades específicas en escenas abarrotadas.",
+          de: "Instanz-Segmentierung identifiziert jeden einzelnen Fußgänger, Fahrzeug oder Radfahrer separat, ermöglicht dem autonomen System Bewegungen spezifischer Entitäten in überfüllten Szenen zu verfolgen und vorherzusagen.",
+          nl: "Instance segmentation identificeert elke individuele voetganger, voertuig of fietser afzonderlijk, stelt het autonome systeem in staat bewegingen van specifieke entiteiten in drukke scènes te volgen en voorspellen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'cooperative adaptive cruise control' (CACC) achieving through vehicle communication?",
+          es: "¿Qué está logrando el 'control de crucero adaptativo cooperativo' (CACC) a través de comunicación vehicular?",
+          de: "Was erreicht 'kooperative adaptive Geschwindigkeitsregelung' (CACC) durch Fahrzeugkommunikation?",
+          nl: "Wat bereikt 'cooperative adaptive cruise control' (CACC) door voertuigcommunicatie?"
+        },
+        options: [
+          { en: "Enabling tighter platoons with shorter following distances by sharing acceleration and braking intentions wirelessly", es: "Permitir pelotones más apretados con distancias de seguimiento más cortas compartiendo intenciones de aceleración y frenado de forma inalámbrica", de: "Engere Kolonnen mit kürzeren Folgeabständen ermöglichen durch drahtloses Teilen von Beschleunigungs- und Bremsabsichten", nl: "Nauwere pelotonen met kortere volgafstanden mogelijk maken door versnellings- en remintenties draadloos te delen" },
+          { en: "Cooperative cruising between vehicles", es: "Crucero cooperativo entre vehículos", de: "Kooperatives Cruisen zwischen Fahrzeugen", nl: "Coöperatief cruisen tussen voertuigen" },
+          { en: "Adaptive control for cooperatives only", es: "Control adaptativo solo para cooperativas", de: "Adaptive Kontrolle nur für Genossenschaften", nl: "Adaptieve controle alleen voor coöperaties" },
+          { en: "Cooperative speed limiting", es: "Limitación cooperativa de velocidad", de: "Kooperative Geschwindigkeitsbegrenzung", nl: "Coöperatieve snelheidsbeperking" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "CACC vehicles communicate directly to coordinate acceleration and deceleration, allowing safe platooning with reduced gaps, improving traffic capacity and fuel efficiency.",
+          es: "Los vehículos CACC se comunican directamente para coordinar aceleración y desaceleración, permitiendo pelotones seguros con brechas reducidas, mejorando capacidad de tráfico y eficiencia de combustible.",
+          de: "CACC-Fahrzeuge kommunizieren direkt um Beschleunigung und Verzögerung zu koordinieren, ermöglichen sicheres Platooning mit reduzierten Lücken, verbessert Verkehrskapazität und Kraftstoffeffizienz.",
+          nl: "CACC voertuigen communiceren direct om versnelling en vertraging te coördineren, maken veilig platoonen mogelijk met verminderde gaten, verbetert verkeerscapaciteit en brandstofefficiëntie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'pose estimation' providing for vulnerable road user safety?",
+          es: "¿Qué está proporcionando la 'estimación de pose' para seguridad de usuarios vulnerables de la vía?",
+          de: "Was bietet 'Pose-Schätzung' für Sicherheit vulnerabler Verkehrsteilnehmer?",
+          nl: "Wat biedt 'pose estimation' voor veiligheid van kwetsbare weggebruikers?"
+        },
+        options: [
+          { en: "Determining body positions and orientations of pedestrians and cyclists to predict their intended movements and trajectories", es: "Determinar posiciones y orientaciones corporales de peatones y ciclistas para predecir sus movimientos y trayectorias previstas", de: "Körperpositionen und Orientierungen von Fußgängern und Radfahrern bestimmen um ihre beabsichtigten Bewegungen und Trajektorien vorherzusagen", nl: "Lichaamsposities en oriëntaties van voetgangers en fietsers bepalen om hun beoogde bewegingen en trajecten te voorspellen" },
+          { en: "Estimating vehicle poses only", es: "Estimar solo poses de vehículos", de: "Nur Fahrzeugposen schätzen", nl: "Alleen voertuigposes schatten" },
+          { en: "Pose detection for photography", es: "Detección de pose para fotografía", de: "Posenerkennung für Fotografie", nl: "Pose detectie voor fotografie" },
+          { en: "Positioning estimation systems", es: "Sistemas de estimación de posicionamiento", de: "Positionsschätzungssysteme", nl: "Positioneringsschattingssystemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pose estimation analyzes pedestrian body angles and limb positions to determine if they're about to cross the street, looking at their phone, or waiting, enabling proactive safety responses.",
+          es: "La estimación de pose analiza ángulos corporales y posiciones de extremidades de peatones para determinar si están a punto de cruzar la calle, mirando su teléfono o esperando, permitiendo respuestas de seguridad proactivas.",
+          de: "Pose-Schätzung analysiert Körperwinkel und Gliedmaßenpositionen von Fußgängern um zu bestimmen ob sie im Begriff sind die Straße zu überqueren, auf ihr Telefon schauen oder warten, ermöglicht proaktive Sicherheitsreaktionen.",
+          nl: "Pose estimation analyseert voetgangers lichaamshoeken en ledemaat posities om te bepalen of ze op het punt staan de straat over te steken, naar hun telefoon kijken of wachten, maakt proactieve veiligheidsreacties mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What is 'dynamic traffic assignment with AI' optimizing in real-time?",
+          es: "¿Qué está optimizando la 'asignación dinámica de tráfico con IA' en tiempo real?",
+          de: "Was optimiert 'dynamische Verkehrszuordnung mit KI' in Echtzeit?",
+          nl: "Wat optimaliseert 'dynamische verkeerstoewijzing met AI' in realtime?"
+        },
+        options: [
+          { en: "Redistributing traffic flows across alternative routes based on current congestion, incidents, and predicted demands to minimize system-wide travel time", es: "Redistribuir flujos de tráfico a través de rutas alternativas basado en congestión actual, incidentes y demandas previstas para minimizar tiempo de viaje en todo el sistema", de: "Verkehrsströme über alternative Routen umverteilen basierend auf aktueller Verstopfung, Vorfällen und vorhergesagten Anforderungen um systemweite Reisezeit zu minimieren", nl: "Verkeersstromen herverdelen over alternatieve routes gebaseerd op huidige opstoppingen, incidenten en voorspelde vraag om systeembrede reistijd te minimaliseren" },
+          { en: "Assigning vehicles to dynamic routes", es: "Asignar vehículos a rutas dinámicas", de: "Fahrzeuge dynamischen Routen zuweisen", nl: "Voertuigen toewijzen aan dynamische routes" },
+          { en: "Dynamic assignment of traffic officers", es: "Asignación dinámica de oficiales de tráfico", de: "Dynamische Zuweisung von Verkehrspolizisten", nl: "Dynamische toewijzing van verkeersagenten" },
+          { en: "Traffic assignment based on dynamics", es: "Asignación de tráfico basada en dinámicas", de: "Verkehrszuordnung basierend auf Dynamik", nl: "Verkeerstoewijzing gebaseerd op dynamiek" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AI-powered dynamic traffic assignment continuously recalculates optimal route distributions across the network, balancing loads and preventing congestion cascades in urban transportation systems.",
+          es: "La asignación dinámica de tráfico impulsada por IA recalcula continuamente distribuciones óptimas de rutas a través de la red, equilibrando cargas y previniendo cascadas de congestión en sistemas de transporte urbano.",
+          de: "KI-gestützte dynamische Verkehrszuordnung berechnet kontinuierlich optimale Routenverteilungen über das Netzwerk neu, balanciert Lasten und verhindert Staukaskaden in städtischen Transportsystemen.",
+          nl: "AI-gedreven dynamische verkeerstoewijzing herberekent continu optimale routeverdelingen over het netwerk, balanceert belastingen en voorkomt opstoppingscascades in stedelijke transportsystemen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'predictive path planning' achieving for autonomous navigation efficiency?",
+          es: "¿Qué está logrando la 'planificación predictiva de rutas' para eficiencia de navegación autónoma?",
+          de: "Was erreicht 'prädiktive Pfadplanung' für autonome Navigationseffizienz?",
+          nl: "Wat bereikt 'predictive path planning' voor autonome navigatie-efficiëntie?"
+        },
+        options: [
+          { en: "Anticipating future positions of moving objects to plan paths that avoid predicted conflicts before they occur", es: "Anticipar posiciones futuras de objetos en movimiento para planificar rutas que eviten conflictos previstos antes de que ocurran", de: "Zukünftige Positionen beweglicher Objekte antizipieren um Pfade zu planen die vorhergesagte Konflikte vermeiden bevor sie auftreten", nl: "Toekomstige posities van bewegende objecten anticiperen om paden te plannen die voorspelde conflicten vermijden voordat ze optreden" },
+          { en: "Predicting path availability only", es: "Predecir solo disponibilidad de ruta", de: "Nur Pfadverfügbarkeit vorhersagen", nl: "Alleen padbeschikbaarheid voorspellen" },
+          { en: "Predictive maintenance of paths", es: "Mantenimiento predictivo de rutas", de: "Prädiktive Wartung von Pfaden", nl: "Predictive maintenance van paden" },
+          { en: "Planning predicted routes", es: "Planificar rutas previstas", de: "Vorhergesagte Routen planen", nl: "Voorspelde routes plannen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Predictive path planning uses motion forecasting to avoid future collisions proactively rather than reactively, enabling smoother, more efficient autonomous driving with fewer sudden maneuvers.",
+          es: "La planificación predictiva de rutas usa pronóstico de movimiento para evitar colisiones futuras proactivamente en lugar de reactivamente, permitiendo conducción autónoma más suave y eficiente con menos maniobras repentinas.",
+          de: "Prädiktive Pfadplanung nutzt Bewegungsvorhersage um zukünftige Kollisionen proaktiv statt reaktiv zu vermeiden, ermöglicht glatteres, effizienteres autonomes Fahren mit weniger plötzlichen Manövern.",
+          nl: "Predictive path planning gebruikt bewegingsvoorspelling om toekomstige botsingen proactief te vermijden in plaats van reactief, maakt vloeiender, efficiënter autonoom rijden mogelijk met minder plotselinge manoeuvres."
+        }
+      },
+      {
+        question: {
+          en: "What is 'context-aware routing' providing for intelligent navigation systems?",
+          es: "¿Qué está proporcionando el 'enrutamiento consciente del contexto' para sistemas de navegación inteligente?",
+          de: "Was bietet 'kontextbewusstes Routing' für intelligente Navigationssysteme?",
+          nl: "Wat biedt 'context-bewuste routing' voor intelligente navigatiesystemen?"
+        },
+        options: [
+          { en: "Adapting route selection based on time of day, weather conditions, special events, and user preferences for optimal journey planning", es: "Adaptar selección de ruta basada en hora del día, condiciones climáticas, eventos especiales y preferencias del usuario para planificación óptima de viaje", de: "Routenauswahl anpassen basierend auf Tageszeit, Wetterbedingungen, Sonderveranstaltungen und Benutzerpräferenzen für optimale Reiseplanung", nl: "Route selectie aanpassen op basis van tijd van de dag, weersomstandigheden, speciale evenementen en gebruikersvoorkeuren voor optimale reisplanning" },
+          { en: "Routing based on context menus", es: "Enrutamiento basado en menús contextuales", de: "Routing basierend auf Kontextmenüs", nl: "Routing gebaseerd op contextmenu's" },
+          { en: "Context switching for routes", es: "Cambio de contexto para rutas", de: "Kontextwechsel für Routen", nl: "Context wisseling voor routes" },
+          { en: "Contextual route descriptions", es: "Descripciones contextuales de ruta", de: "Kontextuelle Routenbeschreibungen", nl: "Contextuele routebeschrijvingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Context-aware routing considers situational factors like avoiding school zones during dismissal, selecting scenic routes on weekends, or choosing highways during rush hour based on learned preferences.",
+          es: "El enrutamiento consciente del contexto considera factores situacionales como evitar zonas escolares durante salida, seleccionar rutas escénicas en fines de semana o elegir autopistas durante hora pico basado en preferencias aprendidas.",
+          de: "Kontextbewusstes Routing berücksichtigt situative Faktoren wie Vermeidung von Schulzonen während Entlassung, Auswahl malerischer Routen an Wochenenden oder Wahl von Autobahnen während Stoßzeiten basierend auf gelernten Präferenzen.",
+          nl: "Context-bewuste routing houdt rekening met situationele factoren zoals schoolzones vermijden tijdens schooltijd, schilderachtige routes selecteren in weekends of snelwegen kiezen tijdens spitsuur gebaseerd op geleerde voorkeuren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'attention-based neural networks' improving in autonomous vehicle perception?",
+          es: "¿Qué están mejorando las 'redes neuronales basadas en atención' en percepción de vehículos autónomos?",
+          de: "Was verbessern 'aufmerksamkeitsbasierte neuronale Netzwerke' in der Wahrnehmung autonomer Fahrzeuge?",
+          nl: "Wat verbeteren 'attention-gebaseerde neurale netwerken' in perceptie van autonome voertuigen?"
+        },
+        options: [
+          { en: "Focusing computational resources on the most relevant regions of sensor data, improving detection of critical objects while ignoring distractions", es: "Enfocar recursos computacionales en regiones más relevantes de datos de sensores, mejorando detección de objetos críticos mientras ignora distracciones", de: "Rechenressourcen auf relevanteste Regionen von Sensordaten fokussieren, verbessert Erkennung kritischer Objekte während Ablenkungen ignoriert werden", nl: "Computationele middelen focussen op meest relevante regio's van sensordata, verbetert detectie van kritieke objecten terwijl afleidingen worden genegeerd" },
+          { en: "Neural networks that monitor driver attention", es: "Redes neuronales que monitorean atención del conductor", de: "Neuronale Netzwerke die Fahreraufmerksamkeit überwachen", nl: "Neurale netwerken die bestuurdersaandacht monitoren" },
+          { en: "Attention mechanisms for marketing", es: "Mecanismos de atención para marketing", de: "Aufmerksamkeitsmechanismen für Marketing", nl: "Attention mechanismen voor marketing" },
+          { en: "Networks focused on attention psychology", es: "Redes enfocadas en psicología de atención", de: "Netzwerke fokussiert auf Aufmerksamkeitspsychologie", nl: "Netwerken gefocust op aandachtspsychologie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Attention mechanisms allow neural networks to dynamically weight important features like nearby pedestrians or merging vehicles, improving perception accuracy and computational efficiency.",
+          es: "Los mecanismos de atención permiten a redes neuronales ponderar dinámicamente características importantes como peatones cercanos o vehículos fusionándose, mejorando precisión de percepción y eficiencia computacional.",
+          de: "Aufmerksamkeitsmechanismen ermöglichen neuronalen Netzwerken wichtige Merkmale wie nahegelegene Fußgänger oder einfädelnde Fahrzeuge dynamisch zu gewichten, verbessert Wahrnehmungsgenauigkeit und Recheneffizienz.",
+          nl: "Attention mechanismen stellen neurale netwerken in staat dynamisch belangrijke kenmerken zoals nabije voetgangers of samenvoegende voertuigen te wegen, verbetert perceptieaccuraatheid en computationele efficiëntie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'V2X security protocols' protecting in connected vehicle ecosystems?",
+          es: "¿Qué están protegiendo los 'protocolos de seguridad V2X' en ecosistemas de vehículos conectados?",
+          de: "Was schützen 'V2X-Sicherheitsprotokolle' in vernetzten Fahrzeug-Ökosystemen?",
+          nl: "Wat beschermen 'V2X beveiligingsprotocollen' in verbonden voertuigecosystemen?"
+        },
+        options: [
+          { en: "Vehicle communications from tampering, spoofing, and malicious message injection that could compromise safety-critical decisions", es: "Comunicaciones vehiculares de manipulación, suplantación e inyección de mensajes maliciosos que podrían comprometer decisiones críticas de seguridad", de: "Fahrzeugkommunikation vor Manipulation, Spoofing und bösartiger Nachrichteninjektion die sicherheitskritische Entscheidungen gefährden könnte", nl: "Voertuigcommunicaties tegen manipulatie, spoofing en kwaadaardige berichtinjectie die veiligheidskritieke beslissingen kunnen compromitteren" },
+          { en: "V2X communication protocols only", es: "Solo protocolos de comunicación V2X", de: "Nur V2X-Kommunikationsprotokolle", nl: "Alleen V2X communicatieprotocollen" },
+          { en: "Security from vehicle theft", es: "Seguridad contra robo de vehículo", de: "Sicherheit vor Fahrzeugdiebstahl", nl: "Beveiliging tegen voertuigdiefstal" },
+          { en: "Protocol documentation security", es: "Seguridad de documentación de protocolo", de: "Protokolldokumentationssicherheit", nl: "Protocol documentatie beveiliging" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "V2X security ensures authenticated, encrypted communications between vehicles and infrastructure, preventing attackers from injecting false traffic data or impersonating emergency vehicles.",
+          es: "La seguridad V2X asegura comunicaciones autenticadas y encriptadas entre vehículos e infraestructura, previniendo que atacantes inyecten datos falsos de tráfico o suplan vehículos de emergencia.",
+          de: "V2X-Sicherheit gewährleistet authentifizierte, verschlüsselte Kommunikation zwischen Fahrzeugen und Infrastruktur, verhindert dass Angreifer falsche Verkehrsdaten injizieren oder Notfahrzeuge imitieren.",
+          nl: "V2X beveiliging zorgt voor geauthenticeerde, versleutelde communicaties tussen voertuigen en infrastructuur, voorkomt dat aanvallers valse verkeersdata injecteren of noodvoertuigen nabootsen."
+        }
       }
     ]
   };

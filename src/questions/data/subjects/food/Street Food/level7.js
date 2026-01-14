@@ -390,44 +390,464 @@
       },
       {
         question: {
-          en: "What is the 'danger zone' temperature range for food safety?",
-          es: "¿Cuál es el rango de temperatura de 'zona de peligro' para la seguridad alimentaria?",
-          de: "Was ist der 'Gefahrenzone'-Temperaturbereich für Lebensmittelsicherheit?",
-          nl: "Wat is het 'gevaarzone' temperatuurbereik voor voedselveiligheid?"
+          en: "What is the scientific basis for pathogen growth in the danger zone?",
+          es: "¿Cuál es la base científica para el crecimiento de patógenos en la zona de peligro?",
+          de: "Was ist die wissenschaftliche Grundlage für Pathogenwachstum in der Gefahrenzone?",
+          nl: "Wat is de wetenschappelijke basis voor pathogeen groei in de gevaarzone?"
         },
         options: [
-          { en: "32-100°F (0-38°C)", es: "0-38°C", de: "0-38°C", nl: "0-38°C" },
-          { en: "40-140°F (4-60°C)", es: "4-60°C", de: "4-60°C", nl: "4-60°C" },
-          { en: "50-150°F (10-66°C)", es: "10-66°C", de: "10-66°C", nl: "10-66°C" },
-          { en: "70-170°F (21-77°C)", es: "21-77°C", de: "21-77°C", nl: "21-77°C" }
+          { en: "Bacteria cannot grow at any temperature", es: "Las bacterias no pueden crecer a ninguna temperatura", de: "Bakterien können bei keiner Temperatur wachsen", nl: "Bacteriën kunnen bij geen enkele temperatuur groeien" },
+          { en: "Mesophilic bacteria double every 20 minutes in optimal conditions (40-140°F)", es: "Las bacterias mesófilas se duplican cada 20 minutos en condiciones óptimas (4-60°C)", de: "Mesophile Bakterien verdoppeln sich alle 20 Minuten unter optimalen Bedingungen (4-60°C)", nl: "Mesofiele bacteriën verdubbelen elke 20 minuten onder optimale omstandigheden (4-60°C)" },
+          { en: "Temperature has no effect on bacteria", es: "La temperatura no tiene efecto en las bacterias", de: "Temperatur hat keine Auswirkung auf Bakterien", nl: "Temperatuur heeft geen effect op bacteriën" },
+          { en: "Only freezing kills bacteria", es: "Solo la congelación mata bacterias", de: "Nur Einfrieren tötet Bakterien", nl: "Alleen bevriezen doodt bacteriën" }
         ],
         correct: 1,
         explanation: {
-          en: "The danger zone is 40-140°F (4-60°C) where bacteria multiply rapidly. Food should be kept below 40°F or above 140°F to prevent bacterial growth and foodborne illness.",
-          es: "La zona de peligro es 4-60°C donde las bacterias se multiplican rápidamente. La comida debe mantenerse por debajo de 4°C o por encima de 60°C para prevenir el crecimiento bacteriano y enfermedades transmitidas por alimentos.",
-          de: "Die Gefahrenzone ist 4-60°C, wo sich Bakterien schnell vermehren. Lebensmittel sollten unter 4°C oder über 60°C gehalten werden, um Bakterienwachstum und lebensmittelbedingte Krankheiten zu verhindern.",
-          nl: "De gevaarzone is 4-60°C waar bacteriën zich snel vermenigvuldigen. Voedsel moet onder 4°C of boven 60°C worden gehouden om bacteriegroei en voedselgerelateerde ziekten te voorkomen."
+          en: "Mesophilic pathogenic bacteria (like Salmonella and E. coli) thrive in the danger zone, doubling approximately every 20 minutes under optimal conditions, which is why time-temperature control is critical for food safety.",
+          es: "Las bacterias patógenas mesófilas (como Salmonella y E. coli) prosperan en la zona de peligro, duplicándose aproximadamente cada 20 minutos bajo condiciones óptimas, por lo que el control de tiempo-temperatura es crítico para la seguridad alimentaria.",
+          de: "Mesophile pathogene Bakterien (wie Salmonellen und E. coli) gedeihen in der Gefahrenzone und verdoppeln sich unter optimalen Bedingungen etwa alle 20 Minuten, weshalb Zeit-Temperatur-Kontrolle für die Lebensmittelsicherheit entscheidend ist.",
+          nl: "Mesofiele pathogene bacteriën (zoals Salmonella en E. coli) gedijen in de gevaarzone, verdubbelen ongeveer elke 20 minuten onder optimale omstandigheden, wat is waarom tijd-temperatuur controle kritiek is voor voedselveiligheid."
         }
       },
       {
         question: {
-          en: "How long can potentially hazardous foods safely remain in the danger zone?",
-          es: "¿Por cuánto tiempo pueden los alimentos potencialmente peligrosos permanecer seguros en la zona de peligro?",
-          de: "Wie lange können potenziell gefährliche Lebensmittel sicher in der Gefahrenzone bleiben?",
-          nl: "Hoe lang kunnen potentieel gevaarlijke voedingsmiddelen veilig in de gevaarzone blijven?"
+          en: "What is the 'Big Six' in food safety terminology?",
+          es: "¿Qué es el 'Big Six' en terminología de seguridad alimentaria?",
+          de: "Was sind die 'Big Six' in der Lebensmittelsicherheits-Terminologie?",
+          nl: "Wat is de 'Big Six' in voedselveiligheid terminologie?"
         },
         options: [
-          { en: "1 hour", es: "1 hora", de: "1 Stunde", nl: "1 uur" },
-          { en: "2 hours maximum", es: "2 horas máximo", de: "Maximal 2 Stunden", nl: "2 uur maximum" },
-          { en: "4 hours", es: "4 horas", de: "4 Stunden", nl: "4 uur" },
-          { en: "8 hours", es: "8 horas", de: "8 Stunden", nl: "8 uur" }
+          { en: "Six largest food producers", es: "Seis productores de alimentos más grandes", de: "Sechs größte Lebensmittelhersteller", nl: "Zes grootste voedselproducenten" },
+          { en: "Six highly contagious foodborne pathogens requiring exclusion of infected workers", es: "Seis patógenos transmitidos por alimentos altamente contagiosos que requieren exclusión de trabajadores infectados", de: "Sechs hochansteckende lebensmittelbedingte Krankheitserreger, die Ausschluss infizierter Arbeiter erfordern", nl: "Zes zeer besmettelijke voedselgerelateerde pathogenen die uitsluiting van geïnfecteerde werknemers vereisen" },
+          { en: "Six cooking methods", es: "Seis métodos de cocina", de: "Sechs Kochmethoden", nl: "Zes kookmethoden" },
+          { en: "Six equipment types", es: "Seis tipos de equipos", de: "Sechs Gerätetypen", nl: "Zes uitrustingstypes" }
         ],
         correct: 1,
         explanation: {
-          en: "The 2-hour rule states that potentially hazardous foods should not remain in the danger zone for more than 2 hours (1 hour if temperature exceeds 90°F/32°C) to prevent unsafe bacterial growth.",
-          es: "La regla de 2 horas establece que los alimentos potencialmente peligrosos no deben permanecer en la zona de peligro por más de 2 horas (1 hora si la temperatura excede 32°C) para prevenir crecimiento bacteriano peligroso.",
-          de: "Die 2-Stunden-Regel besagt, dass potenziell gefährliche Lebensmittel nicht länger als 2 Stunden (1 Stunde bei Temperaturen über 32°C) in der Gefahrenzone bleiben sollten, um unsicheres Bakterienwachstum zu verhindern.",
-          nl: "De 2-uur regel stelt dat potentieel gevaarlijke voedingsmiddelen niet langer dan 2 uur (1 uur als de temperatuur 32°C overschrijdt) in de gevaarzone mogen blijven om onveilige bacteriegroei te voorkomen."
+          en: "The Big Six are highly contagious foodborne pathogens: Norovirus, Hepatitis A, Salmonella Typhi, Shigella, E. coli O157:H7, and non-typhoidal Salmonella. Food handlers with these must be excluded from work to prevent outbreaks.",
+          es: "Los Big Six son patógenos transmitidos por alimentos altamente contagiosos: Norovirus, Hepatitis A, Salmonella Typhi, Shigella, E. coli O157:H7 y Salmonella no tifoidea. Los manipuladores de alimentos con estos deben ser excluidos del trabajo para prevenir brotes.",
+          de: "Die Big Six sind hochansteckende lebensmittelbedingte Krankheitserreger: Norovirus, Hepatitis A, Salmonella Typhi, Shigella, E. coli O157:H7 und nicht-typhöse Salmonellen. Lebensmittelverarbeiter damit müssen von der Arbeit ausgeschlossen werden, um Ausbrüche zu verhindern.",
+          nl: "De Big Six zijn zeer besmettelijke voedselgerelateerde pathogenen: Norovirus, Hepatitis A, Salmonella Typhi, Shigella, E. coli O157:H7 en niet-tyfeuze Salmonella. Voedselhanteraars hiermee moeten worden uitgesloten van werk om uitbraken te voorkomen."
+        }
+      },
+      {
+        question: {
+          en: "What is the minimum water temperature for mechanical dishwashing sanitization?",
+          es: "¿Cuál es la temperatura mínima del agua para desinfección por lavado mecánico de platos?",
+          de: "Was ist die Mindest-Wassertemperatur für mechanische Geschirrspül-Desinfektion?",
+          nl: "Wat is de minimum water temperatuur voor mechanische afwas desinfectie?"
+        },
+        options: [
+          { en: "120°F (49°C)", es: "49°C", de: "49°C", nl: "49°C" },
+          { en: "140°F (60°C)", es: "60°C", de: "60°C", nl: "60°C" },
+          { en: "180°F (82°C) for high-temp machines or chemical sanitizers for low-temp", es: "82°C para máquinas de alta temperatura o desinfectantes químicos para baja temperatura", de: "82°C für Hochtemperatur-Maschinen oder chemische Desinfektionsmittel für Niedertemperatur", nl: "82°C voor hoge-temp machines of chemische ontsmettingsmiddelen voor lage-temp" },
+          { en: "212°F (100°C)", es: "100°C", de: "100°C", nl: "100°C" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "High-temperature dishwashers must reach 180°F (82°C) final rinse for effective sanitization, while low-temperature machines use chemical sanitizers (chlorine, quaternary ammonium, or iodine) at lower temperatures with proper concentration.",
+          es: "Los lavaplatos de alta temperatura deben alcanzar 82°C de enjuague final para desinfección efectiva, mientras que las máquinas de baja temperatura usan desinfectantes químicos (cloro, amonio cuaternario o yodo) a temperaturas más bajas con concentración apropiada.",
+          de: "Hochtemperatur-Geschirrspüler müssen 82°C Endspülung für effektive Desinfektion erreichen, während Niedertemperatur-Maschinen chemische Desinfektionsmittel (Chlor, quaternäres Ammonium oder Jod) bei niedrigeren Temperaturen mit geeigneter Konzentration verwenden.",
+          nl: "Hoge-temperatuur vaatwassers moeten 82°C finale spoeling bereiken voor effectieve desinfectie, terwijl lage-temperatuur machines chemische ontsmettingsmiddelen (chloor, quaternair ammonium of jodium) bij lagere temperaturen met juiste concentratie gebruiken."
+        }
+      },
+      {
+        question: {
+          en: "What is the correct sanitizer concentration for quaternary ammonium compounds (quats)?",
+          es: "¿Cuál es la concentración correcta de desinfectante para compuestos de amonio cuaternario (quats)?",
+          de: "Was ist die korrekte Desinfektionsmittel-Konzentration für quaternäre Ammoniumverbindungen (Quats)?",
+          nl: "Wat is de juiste ontsmettingsmiddel concentratie voor quaternaire ammonium verbindingen (quats)?"
+        },
+        options: [
+          { en: "10-25 ppm", es: "10-25 ppm", de: "10-25 ppm", nl: "10-25 ppm" },
+          { en: "50-100 ppm", es: "50-100 ppm", de: "50-100 ppm", nl: "50-100 ppm" },
+          { en: "150-400 ppm (per manufacturer instructions)", es: "150-400 ppm (según instrucciones del fabricante)", de: "150-400 ppm (gemäß Herstelleranweisungen)", nl: "150-400 ppm (volgens fabrikantsinstructies)" },
+          { en: "1000 ppm", es: "1000 ppm", de: "1000 ppm", nl: "1000 ppm" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Quaternary ammonium sanitizers typically require 150-400 ppm concentration, though exact levels depend on manufacturer specifications. Test strips should verify proper concentration for effective sanitization without residue concerns.",
+          es: "Los desinfectantes de amonio cuaternario típicamente requieren concentración de 150-400 ppm, aunque los niveles exactos dependen de especificaciones del fabricante. Las tiras de prueba deben verificar concentración apropiada para desinfección efectiva sin preocupaciones de residuos.",
+          de: "Quaternäre Ammonium-Desinfektionsmittel erfordern typischerweise 150-400 ppm Konzentration, obwohl genaue Werte von Herstellerspezifikationen abhängen. Teststreifen sollten die richtige Konzentration für effektive Desinfektion ohne Rückstandsbedenken überprüfen.",
+          nl: "Quaternaire ammonium ontsmettingsmiddelen vereisen typisch 150-400 ppm concentratie, hoewel exacte niveaus afhangen van fabrikantspecificaties. Teststrips moeten juiste concentratie verifiëren voor effectieve desinfectie zonder residu zorgen."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of a three-compartment sink in food safety?",
+          es: "¿Cuál es el propósito de un fregadero de tres compartimentos en seguridad alimentaria?",
+          de: "Was ist der Zweck eines Drei-Becken-Spülbeckens in der Lebensmittelsicherheit?",
+          nl: "Wat is het doel van een drie-compartiment gootsteen in voedselveiligheid?"
+        },
+        options: [
+          { en: "Aesthetic appearance only", es: "Solo apariencia estética", de: "Nur ästhetisches Aussehen", nl: "Alleen esthetisch uiterlijk" },
+          { en: "Three-step process: wash with detergent, rinse, sanitize", es: "Proceso de tres pasos: lavar con detergente, enjuagar, desinfectar", de: "Drei-Schritte-Prozess: mit Reinigungsmittel waschen, spülen, desinfizieren", nl: "Drie-stappen proces: wassen met reinigingsmiddel, spoelen, ontsmetten" },
+          { en: "Separating different food types", es: "Separar diferentes tipos de alimentos", de: "Verschiedene Lebensmittelarten trennen", nl: "Verschillende voedselsoorten scheiden" },
+          { en: "Storage for clean dishes", es: "Almacenamiento para platos limpios", de: "Lagerung für sauberes Geschirr", nl: "Opslag voor schone borden" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Three-compartment sinks provide manual warewashing: first sink washes with hot soapy water (110°F+), second rinses debris, third sanitizes with chemical solution or hot water (171°F+), followed by air drying.",
+          es: "Los fregaderos de tres compartimentos proporcionan lavado manual de vajilla: primer fregadero lava con agua caliente jabonosa (43°C+), segundo enjuaga escombros, tercero desinfecta con solución química o agua caliente (77°C+), seguido de secado al aire.",
+          de: "Drei-Becken-Spülbecken ermöglichen manuelles Geschirrspülen: erstes Becken wäscht mit heißem Seifenwasser (43°C+), zweites spült Rückstände, drittes desinfiziert mit chemischer Lösung oder heißem Wasser (77°C+), gefolgt von Lufttrocknung.",
+          nl: "Drie-compartiment gootstenen bieden handmatige afwas: eerste gootsteen wast met heet zeepwater (43°C+), tweede spoelt puin, derde ontsmetten met chemische oplossing of heet water (77°C+), gevolgd door luchtdroging."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between cleaning and sanitizing?",
+          es: "¿Cuál es la diferencia entre limpiar y desinfectar?",
+          de: "Was ist der Unterschied zwischen Reinigen und Desinfizieren?",
+          nl: "Wat is het verschil tussen schoonmaken en ontsmetten?"
+        },
+        options: [
+          { en: "No difference, they're identical", es: "Sin diferencia, son idénticos", de: "Kein Unterschied, sie sind identisch", nl: "Geen verschil, ze zijn identiek" },
+          { en: "Cleaning removes visible dirt; sanitizing reduces pathogens to safe levels", es: "Limpiar remueve suciedad visible; desinfectar reduce patógenos a niveles seguros", de: "Reinigen entfernt sichtbaren Schmutz; Desinfizieren reduziert Krankheitserreger auf sichere Niveaus", nl: "Schoonmaken verwijdert zichtbaar vuil; ontsmetten reduceert pathogenen tot veilige niveaus" },
+          { en: "Sanitizing comes before cleaning", es: "Desinfectar viene antes de limpiar", de: "Desinfizieren kommt vor Reinigen", nl: "Ontsmetten komt voor schoonmaken" },
+          { en: "Only one is necessary", es: "Solo uno es necesario", de: "Nur eins ist notwendig", nl: "Slechts één is noodzakelijk" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Cleaning physically removes food, dirt, and debris from surfaces using detergent and water. Sanitizing uses heat or chemicals to reduce pathogen levels to safe levels. Both steps are essential—cleaning must occur before sanitizing for effectiveness.",
+          es: "Limpiar remueve físicamente alimentos, suciedad y escombros de superficies usando detergente y agua. Desinfectar usa calor o químicos para reducir niveles de patógenos a niveles seguros. Ambos pasos son esenciales—limpiar debe ocurrir antes de desinfectar para efectividad.",
+          de: "Reinigen entfernt physisch Lebensmittel, Schmutz und Ablagerungen von Oberflächen mit Reinigungsmittel und Wasser. Desinfizieren verwendet Hitze oder Chemikalien, um Pathogen-Niveaus auf sichere Werte zu reduzieren. Beide Schritte sind wesentlich—Reinigen muss vor Desinfizieren erfolgen für Wirksamkeit.",
+          nl: "Schoonmaken verwijdert fysiek voedsel, vuil en puin van oppervlakken met reinigingsmiddel en water. Ontsmetten gebruikt warmte of chemicaliën om pathogeen niveaus tot veilige niveaus te reduceren. Beide stappen zijn essentieel—schoonmaken moet voor ontsmetten gebeuren voor effectiviteit."
+        }
+      },
+      {
+        question: {
+          en: "What is biofilm and why is it a food safety concern?",
+          es: "¿Qué es biopelícula y por qué es una preocupación de seguridad alimentaria?",
+          de: "Was ist Biofilm und warum ist er ein Lebensmittelsicherheitsproblem?",
+          nl: "Wat is biofilm en waarom is het een voedselveiligheid zorg?"
+        },
+        options: [
+          { en: "Plastic wrapping for food", es: "Envoltorio plástico para alimentos", de: "Plastikfolie für Lebensmittel", nl: "Plastic verpakking voor voedsel" },
+          { en: "Protective bacterial colonies on surfaces that resist cleaning and harbor pathogens", es: "Colonias bacterianas protectoras en superficies que resisten limpieza y albergan patógenos", de: "Schützende Bakterienkolonien auf Oberflächen, die Reinigung widerstehen und Krankheitserreger beherbergen", nl: "Beschermende bacteriële kolonies op oppervlakken die schoonmaken weerstaan en pathogenen herbergen" },
+          { en: "Edible coating on fruits", es: "Recubrimiento comestible en frutas", de: "Essbare Beschichtung auf Früchten", nl: "Eetbare coating op fruit" },
+          { en: "Type of food storage bag", es: "Tipo de bolsa de almacenamiento de alimentos", de: "Art von Lebensmittel-Aufbewahrungsbeutel", nl: "Type voedselopslag zak" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Biofilms are complex communities of bacteria that attach to surfaces and produce protective slime layers, making them resistant to normal cleaning and harboring dangerous pathogens. They require aggressive cleaning protocols and may necessitate equipment replacement.",
+          es: "Las biopelículas son comunidades complejas de bacterias que se adhieren a superficies y producen capas protectoras de limo, haciéndolas resistentes a limpieza normal y albergando patógenos peligrosos. Requieren protocolos de limpieza agresivos y pueden necesitar reemplazo de equipos.",
+          de: "Biofilme sind komplexe Bakteriengemeinschaften, die sich an Oberflächen anheften und schützende Schleimschichten produzieren, was sie resistent gegen normale Reinigung macht und gefährliche Krankheitserreger beherbergt. Sie erfordern aggressive Reinigungsprotokolle und können Geräteaustausch erfordern.",
+          nl: "Biofilms zijn complexe gemeenschappen van bacteriën die zich hechten aan oppervlakken en beschermende slijmlagen produceren, wat ze resistent maakt tegen normale reiniging en gevaarlijke pathogenen herbergt. Ze vereisen agressieve schoonmaakprotocollen en kunnen apparatuur vervanging noodzaken."
+        }
+      },
+      {
+        question: {
+          en: "What is the correct procedure for testing sanitizer concentration?",
+          es: "¿Cuál es el procedimiento correcto para probar concentración de desinfectante?",
+          de: "Was ist das korrekte Verfahren zum Testen der Desinfektionsmittel-Konzentration?",
+          nl: "Wat is de juiste procedure voor het testen van ontsmettingsmiddel concentratie?"
+        },
+        options: [
+          { en: "Visual inspection only", es: "Solo inspección visual", de: "Nur Sichtprüfung", nl: "Alleen visuele inspectie" },
+          { en: "Use chemical test strips specific to sanitizer type, multiple times daily", es: "Usar tiras de prueba química específicas al tipo de desinfectante, múltiples veces diariamente", de: "Chemische Teststreifen verwenden, die spezifisch für Desinfektionsmittel-Typ sind, mehrmals täglich", nl: "Gebruik chemische teststrips specifiek voor ontsmettingsmiddel type, meerdere keren dagelijks" },
+          { en: "Taste the solution", es: "Probar la solución", de: "Die Lösung probieren", nl: "De oplossing proeven" },
+          { en: "Testing is unnecessary", es: "Las pruebas son innecesarias", de: "Testen ist unnötig", nl: "Testen is onnodig" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Chemical test strips specific to each sanitizer type (chlorine, quat, iodine) must be used multiple times daily to verify proper concentration. Different sanitizers require different test strips and have different target ranges for effectiveness.",
+          es: "Las tiras de prueba química específicas para cada tipo de desinfectante (cloro, quat, yodo) deben usarse múltiples veces diariamente para verificar concentración apropiada. Diferentes desinfectantes requieren diferentes tiras de prueba y tienen diferentes rangos objetivo para efectividad.",
+          de: "Chemische Teststreifen, die für jeden Desinfektionsmittel-Typ spezifisch sind (Chlor, Quat, Jod), müssen mehrmals täglich verwendet werden, um die richtige Konzentration zu überprüfen. Verschiedene Desinfektionsmittel erfordern verschiedene Teststreifen und haben unterschiedliche Zielbereiche für Wirksamkeit.",
+          nl: "Chemische teststrips specifiek voor elk ontsmettingsmiddel type (chloor, quat, jodium) moeten meerdere keren dagelijks worden gebruikt om juiste concentratie te verifiëren. Verschillende ontsmettingsmiddelen vereisen verschillende teststrips en hebben verschillende doelbereiken voor effectiviteit."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'aw' (water activity) concept in food safety?",
+          es: "¿Qué es el concepto de 'aw' (actividad del agua) en seguridad alimentaria?",
+          de: "Was ist das 'aw' (Wasseraktivität)-Konzept in der Lebensmittelsicherheit?",
+          nl: "Wat is het 'aw' (wateractiviteit) concept in voedselveiligheid?"
+        },
+        options: [
+          { en: "Water temperature measurement", es: "Medición de temperatura del agua", de: "Wassertemperatur-Messung", nl: "Water temperatuur meting" },
+          { en: "Available water for microbial growth; below 0.85 inhibits most pathogens", es: "Agua disponible para crecimiento microbiano; debajo de 0.85 inhibe mayoría de patógenos", de: "Verfügbares Wasser für mikrobielles Wachstum; unter 0,85 hemmt die meisten Krankheitserreger", nl: "Beschikbaar water voor microbiële groei; onder 0.85 remt meeste pathogenen" },
+          { en: "Amount of water in recipe", es: "Cantidad de agua en receta", de: "Wassermenge im Rezept", nl: "Hoeveelheid water in recept" },
+          { en: "Water hardness level", es: "Nivel de dureza del agua", de: "Wasserhärte-Niveau", nl: "Water hardheid niveau" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Water activity (aw) measures available moisture for microbial growth on a scale of 0-1. Most pathogenic bacteria require aw above 0.85. Reducing aw through drying, salting, or sugar preservation inhibits bacterial growth and extends shelf life.",
+          es: "La actividad del agua (aw) mide humedad disponible para crecimiento microbiano en una escala de 0-1. La mayoría de bacterias patógenas requieren aw por encima de 0.85. Reducir aw mediante secado, salado o preservación con azúcar inhibe crecimiento bacteriano y extiende vida útil.",
+          de: "Wasseraktivität (aw) misst verfügbare Feuchtigkeit für mikrobielles Wachstum auf einer Skala von 0-1. Die meisten pathogenen Bakterien benötigen aw über 0,85. Reduzierung von aw durch Trocknen, Salzen oder Zuckerkonservierung hemmt Bakterienwachstum und verlängert Haltbarkeit.",
+          nl: "Wateractiviteit (aw) meet beschikbaar vocht voor microbiële groei op een schaal van 0-1. Meeste pathogene bacteriën vereisen aw boven 0.85. Het verminderen van aw door drogen, zouten of suiker conservering remt bacteriële groei en verlengt houdbaarheid."
+        }
+      },
+      {
+        question: {
+          en: "What is the significance of pH in food safety?",
+          es: "¿Cuál es la importancia del pH en seguridad alimentaria?",
+          de: "Was ist die Bedeutung des pH-Werts in der Lebensmittelsicherheit?",
+          nl: "Wat is de betekenis van pH in voedselveiligheid?"
+        },
+        options: [
+          { en: "pH doesn't affect food safety", es: "El pH no afecta la seguridad alimentaria", de: "pH beeinflusst Lebensmittelsicherheit nicht", nl: "pH heeft geen invloed op voedselveiligheid" },
+          { en: "Most pathogens grow best in neutral pH (4.6-7.0); acidic foods are safer", es: "La mayoría de patógenos crecen mejor en pH neutro (4.6-7.0); alimentos ácidos son más seguros", de: "Die meisten Krankheitserreger wachsen am besten bei neutralem pH (4,6-7,0); säurehaltige Lebensmittel sind sicherer", nl: "Meeste pathogenen groeien best in neutrale pH (4.6-7.0); zure voedingsmiddelen zijn veiliger" },
+          { en: "Only alkaline foods are safe", es: "Solo alimentos alcalinos son seguros", de: "Nur alkalische Lebensmittel sind sicher", nl: "Alleen alkalische voedingsmiddelen zijn veilig" },
+          { en: "pH only affects taste", es: "El pH solo afecta el sabor", de: "pH beeinflusst nur Geschmack", nl: "pH beïnvloedt alleen smaak" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "pH significantly affects pathogen growth. Foods with pH below 4.6 (acidic) inhibit most pathogenic bacteria, including C. botulinum. This pH threshold determines whether foods require pressure canning or can be safely processed in boiling water baths.",
+          es: "El pH afecta significativamente el crecimiento de patógenos. Alimentos con pH por debajo de 4.6 (ácidos) inhiben la mayoría de bacterias patógenas, incluyendo C. botulinum. Este umbral de pH determina si los alimentos requieren enlatado a presión o pueden procesarse seguros en baños de agua hirviendo.",
+          de: "Der pH-Wert beeinflusst das Pathogenwachstum erheblich. Lebensmittel mit pH unter 4,6 (sauer) hemmen die meisten pathogenen Bakterien, einschließlich C. botulinum. Diese pH-Schwelle bestimmt, ob Lebensmittel Druckkonservierung erfordern oder sicher in kochenden Wasserbädern verarbeitet werden können.",
+          nl: "pH beïnvloedt pathogeen groei significant. Voedingsmiddelen met pH onder 4.6 (zuur) remmen meeste pathogene bacteriën, inclusief C. botulinum. Deze pH drempel bepaalt of voedingsmiddelen druk inblikken vereisen of veilig kunnen worden verwerkt in kokende waterbaden."
+        }
+      },
+      {
+        question: {
+          en: "What is sous vide cooking and what are its unique food safety challenges?",
+          es: "¿Qué es la cocina sous vide y cuáles son sus desafíos únicos de seguridad alimentaria?",
+          de: "Was ist Sous-Vide-Kochen und welche einzigartigen Lebensmittelsicherheits-Herausforderungen gibt es?",
+          nl: "Wat is sous vide koken en wat zijn de unieke voedselveiligheid uitdagingen?"
+        },
+        options: [
+          { en: "Traditional boiling with no concerns", es: "Hervir tradicional sin preocupaciones", de: "Traditionelles Kochen ohne Bedenken", nl: "Traditioneel koken zonder zorgen" },
+          { en: "Vacuum-sealed low-temp cooking requiring precise time-temperature control to prevent anaerobic pathogen growth", es: "Cocina a baja temperatura sellada al vacío que requiere control preciso de tiempo-temperatura para prevenir crecimiento de patógenos anaeróbicos", de: "Vakuumversiegeltes Niedrigtemperatur-Kochen, das präzise Zeit-Temperatur-Kontrolle erfordert, um anaerobes Pathogenwachstum zu verhindern", nl: "Vacuüm verzegeld laag-temp koken dat precieze tijd-temperatuur controle vereist om anaëroob pathogeen groei te voorkomen" },
+          { en: "Deep frying method", es: "Método de fritura profunda", de: "Frittier-Methode", nl: "Frituur methode" },
+          { en: "Microwave cooking", es: "Cocina en microondas", de: "Mikrowellen-Kochen", nl: "Magnetron koken" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Sous vide involves vacuum-sealing food and cooking at precise low temperatures (131-160°F) for extended periods. The oxygen-free environment and lower temperatures can allow anaerobic pathogens (C. botulinum, C. perfringens) to grow, requiring strict HACCP protocols and time-temperature documentation.",
+          es: "Sous vide implica sellar al vacío alimentos y cocinar a temperaturas bajas precisas (55-71°C) por períodos extendidos. El ambiente sin oxígeno y temperaturas más bajas pueden permitir que patógenos anaeróbicos (C. botulinum, C. perfringens) crezcan, requiriendo protocolos HACCP estrictos y documentación de tiempo-temperatura.",
+          de: "Sous Vide beinhaltet Vakuumversiegelung von Lebensmitteln und Kochen bei präzisen niedrigen Temperaturen (55-71°C) für längere Zeiträume. Die sauerstofffreie Umgebung und niedrigere Temperaturen können anaerobes Pathogenwachstum (C. botulinum, C. perfringens) ermöglichen, was strenge HACCP-Protokolle und Zeit-Temperatur-Dokumentation erfordert.",
+          nl: "Sous vide omvat vacuüm verzegeling van voedsel en koken op precieze lage temperaturen (55-71°C) voor verlengde periodes. De zuurstofvrije omgeving en lagere temperaturen kunnen anaëroob pathogeen groei (C. botulinum, C. perfringens) toestaan, wat strikte HACCP protocollen en tijd-temperatuur documentatie vereist."
+        }
+      },
+      {
+        question: {
+          en: "What are the risks of time-temperature abuse in food service?",
+          es: "¿Cuáles son los riesgos del abuso de tiempo-temperatura en servicio de alimentos?",
+          de: "Was sind die Risiken von Zeit-Temperatur-Missbrauch im Lebensmittelservice?",
+          nl: "Wat zijn de risico's van tijd-temperatuur misbruik in voedsel service?"
+        },
+        options: [
+          { en: "No risks exist", es: "No existen riesgos", de: "Keine Risiken existieren", nl: "Er bestaan geen risico's" },
+          { en: "Exponential pathogen growth leading to foodborne illness outbreaks", es: "Crecimiento exponencial de patógenos llevando a brotes de enfermedades transmitidas por alimentos", de: "Exponentielles Pathogenwachstum, das zu lebensmittelbedingten Krankheitsausbrüchen führt", nl: "Exponentiële pathogeen groei leidend tot voedselgerelateerde ziekte uitbraken" },
+          { en: "Only affects taste", es: "Solo afecta el sabor", de: "Betrifft nur Geschmack", nl: "Beïnvloedt alleen smaak" },
+          { en: "Improves food quality", es: "Mejora calidad de alimentos", de: "Verbessert Lebensmittelqualität", nl: "Verbetert voedselkwaliteit" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Time-temperature abuse (holding food in the danger zone too long) allows exponential bacterial growth. A single pathogenic cell can multiply to dangerous levels (over 10 million cells) in just 7-8 hours at optimal temperatures, causing potentially severe foodborne illness.",
+          es: "El abuso de tiempo-temperatura (mantener alimentos en la zona de peligro demasiado tiempo) permite crecimiento bacteriano exponencial. Una sola célula patógena puede multiplicarse a niveles peligrosos (más de 10 millones de células) en solo 7-8 horas a temperaturas óptimas, causando enfermedades potencialmente severas transmitidas por alimentos.",
+          de: "Zeit-Temperatur-Missbrauch (Halten von Lebensmitteln zu lange in der Gefahrenzone) ermöglicht exponentielles Bakterienwachstum. Eine einzelne pathogene Zelle kann sich auf gefährliche Niveaus (über 10 Millionen Zellen) in nur 7-8 Stunden bei optimalen Temperaturen vermehren, was potenziell schwere lebensmittelbedingte Krankheiten verursacht.",
+          nl: "Tijd-temperatuur misbruik (voedsel te lang in gevaarzone houden) staat exponentiële bacteriële groei toe. Een enkele pathogene cel kan zich vermenigvuldigen tot gevaarlijke niveaus (meer dan 10 miljoen cellen) in slechts 7-8 uur bij optimale temperaturen, mogelijk ernstige voedselgerelateerde ziekten veroorzakend."
+        }
+      },
+      {
+        question: {
+          en: "What is the proper procedure for calibrating a food thermometer?",
+          es: "¿Cuál es el procedimiento apropiado para calibrar un termómetro para alimentos?",
+          de: "Was ist das richtige Verfahren zum Kalibrieren eines Lebensmittelthermometers?",
+          nl: "Wat is de juiste procedure voor het kalibreren van een voedselthermometer?"
+        },
+        options: [
+          { en: "Calibration is unnecessary", es: "La calibración es innecesaria", de: "Kalibrierung ist unnötig", nl: "Kalibratie is onnodig" },
+          { en: "Ice point method (32°F/0°C) or boiling point method (212°F/100°C at sea level)", es: "Método de punto de hielo (0°C) o método de punto de ebullición (100°C al nivel del mar)", de: "Eispunkt-Methode (0°C) oder Siedepunkt-Methode (100°C auf Meereshöhe)", nl: "IJspunt methode (0°C) of kookpunt methode (100°C op zeeniveau)" },
+          { en: "Visual estimation", es: "Estimación visual", de: "Visuelle Schätzung", nl: "Visuele schatting" },
+          { en: "Only manufacturer can calibrate", es: "Solo el fabricante puede calibrar", de: "Nur Hersteller kann kalibrieren", nl: "Alleen fabrikant kan kalibreren" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Thermometers should be calibrated regularly using ice point method (ice water should read 32°F/0°C) or boiling point method (adjusted for altitude). Many digital thermometers have reset buttons; dial thermometers may need nut adjustment to ensure accuracy.",
+          es: "Los termómetros deben calibrarse regularmente usando método de punto de hielo (agua con hielo debe leer 0°C) o método de punto de ebullición (ajustado por altitud). Muchos termómetros digitales tienen botones de reinicio; termómetros de dial pueden necesitar ajuste de tuerca para asegurar precisión.",
+          de: "Thermometer sollten regelmäßig mit Eispunkt-Methode (Eiswasser sollte 0°C anzeigen) oder Siedepunkt-Methode (für Höhe angepasst) kalibriert werden. Viele digitale Thermometer haben Reset-Tasten; Zeiger-Thermometer benötigen möglicherweise Muttern-Anpassung für Genauigkeit.",
+          nl: "Thermometers moeten regelmatig worden gekalibreerd met ijspunt methode (ijswater moet 0°C lezen) of kookpunt methode (aangepast voor hoogte). Veel digitale thermometers hebben reset knoppen; wijzer thermometers hebben mogelijk moer aanpassing nodig voor nauwkeurigheid."
+        }
+      },
+      {
+        question: {
+          en: "What is the role of ATP bioluminescence testing in food safety?",
+          es: "¿Cuál es el papel de las pruebas de bioluminiscencia ATP en seguridad alimentaria?",
+          de: "Was ist die Rolle von ATP-Biolumineszenz-Tests in der Lebensmittelsicherheit?",
+          nl: "Wat is de rol van ATP bioluminescentie testen in voedselveiligheid?"
+        },
+        options: [
+          { en: "Tests food temperature", es: "Prueba temperatura de alimentos", de: "Testet Lebensmitteltemperatur", nl: "Test voedsel temperatuur" },
+          { en: "Rapid detection of organic matter (biological residue) indicating cleanliness of surfaces", es: "Detección rápida de materia orgánica (residuo biológico) indicando limpieza de superficies", de: "Schnelle Erkennung organischer Materie (biologische Rückstände), die Sauberkeit von Oberflächen anzeigt", nl: "Snelle detectie van organisch materiaal (biologisch residu) wijzend op netheid van oppervlakken" },
+          { en: "Measures food flavor", es: "Mide sabor de alimentos", de: "Misst Lebensmittelgeschmack", nl: "Meet voedsel smaak" },
+          { en: "Tests food color", es: "Prueba color de alimentos", de: "Testet Lebensmittelfarbe", nl: "Test voedsel kleur" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "ATP (adenosine triphosphate) bioluminescence testing detects organic matter on surfaces in seconds, providing rapid verification of cleaning effectiveness. High ATP readings indicate inadequate cleaning, biofilm presence, or potential contamination sources requiring corrective action.",
+          es: "Las pruebas de bioluminiscencia ATP (trifosfato de adenosina) detectan materia orgánica en superficies en segundos, proporcionando verificación rápida de efectividad de limpieza. Lecturas altas de ATP indican limpieza inadecuada, presencia de biopelícula o fuentes potenciales de contaminación que requieren acción correctiva.",
+          de: "ATP (Adenosintriphosphat)-Biolumineszenz-Tests erkennen organische Materie auf Oberflächen in Sekunden und bieten schnelle Verifizierung der Reinigungswirksamkeit. Hohe ATP-Werte zeigen unzureichende Reinigung, Biofilm-Präsenz oder potenzielle Kontaminationsquellen an, die Korrekturmaßnahmen erfordern.",
+          nl: "ATP (adenosinetrifosfaat) bioluminescentie testen detecteren organisch materiaal op oppervlakken in seconden, snelle verificatie van schoonmaak effectiviteit biedend. Hoge ATP waarden wijzen op onvoldoende reiniging, biofilm aanwezigheid of potentiële besmetting bronnen die corrigerende actie vereisen."
+        }
+      },
+      {
+        question: {
+          en: "What are the specific risks of bare-hand contact with ready-to-eat foods?",
+          es: "¿Cuáles son los riesgos específicos del contacto con manos desnudas con alimentos listos para comer?",
+          de: "Was sind die spezifischen Risiken des Barhand-Kontakts mit verzehrfertigen Lebensmitteln?",
+          nl: "Wat zijn de specifieke risico's van blote hand contact met kant-en-klaar voedsel?"
+        },
+        options: [
+          { en: "No risks if hands look clean", es: "Sin riesgos si las manos se ven limpias", de: "Keine Risiken, wenn Hände sauber aussehen", nl: "Geen risico's als handen er schoon uitzien" },
+          { en: "Transfers Staph aureus, Norovirus, and Hepatitis A even after handwashing", es: "Transfiere Staph aureus, Norovirus y Hepatitis A incluso después de lavado de manos", de: "Überträgt Staph aureus, Norovirus und Hepatitis A selbst nach Händewaschen", nl: "Draagt Staph aureus, Norovirus en Hepatitis A over zelfs na handen wassen" },
+          { en: "Improves food safety", es: "Mejora seguridad alimentaria", de: "Verbessert Lebensmittelsicherheit", nl: "Verbetert voedselveiligheid" },
+          { en: "Only affects food appearance", es: "Solo afecta apariencia de alimentos", de: "Betrifft nur Lebensmittelaussehen", nl: "Beïnvloedt alleen voedsel uiterlijk" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Bare-hand contact with ready-to-eat foods can transfer pathogens including Staphylococcus aureus (from skin), Norovirus, and Hepatitis A, even with proper handwashing. Many jurisdictions prohibit bare-hand contact, requiring gloves, tongs, or other utensils for RTE foods.",
+          es: "El contacto con manos desnudas con alimentos listos para comer puede transferir patógenos incluyendo Staphylococcus aureus (de la piel), Norovirus y Hepatitis A, incluso con lavado apropiado de manos. Muchas jurisdicciones prohíben contacto con manos desnudas, requiriendo guantes, pinzas u otros utensilios para alimentos RTE.",
+          de: "Barhand-Kontakt mit verzehrfertigen Lebensmitteln kann Krankheitserreger einschließlich Staphylococcus aureus (von der Haut), Norovirus und Hepatitis A übertragen, selbst bei ordnungsgemäßem Händewaschen. Viele Gerichtsbarkeiten verbieten Barhand-Kontakt und erfordern Handschuhe, Zangen oder andere Utensilien für RTE-Lebensmittel.",
+          nl: "Blote hand contact met kant-en-klaar voedsel kan pathogenen overdragen inclusief Staphylococcus aureus (van huid), Norovirus en Hepatitis A, zelfs met goed handen wassen. Veel jurisdicties verbieden blote hand contact, vergen handschoenen, tangen of andere keukengerei voor RTE voedingsmiddelen."
+        }
+      },
+      {
+        question: {
+          en: "What is the minimum cooking temperature for stuffed meats or stuffing containing meat?",
+          es: "¿Cuál es la temperatura mínima de cocción para carnes rellenas o relleno que contiene carne?",
+          de: "Was ist die minimale Gartemperatur für gefülltes Fleisch oder Füllung mit Fleisch?",
+          nl: "Wat is de minimum kook temperatuur voor gevuld vlees of vulling met vlees?"
+        },
+        options: [
+          { en: "145°F (63°C)", es: "63°C", de: "63°C", nl: "63°C" },
+          { en: "155°F (68°C)", es: "68°C", de: "68°C", nl: "68°C" },
+          { en: "165°F (74°C)", es: "74°C", de: "74°C", nl: "74°C" },
+          { en: "180°F (82°C)", es: "82°C", de: "82°C", nl: "82°C" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Stuffed meats, casseroles, and stuffing containing meat must reach 165°F (74°C) throughout because the stuffing creates additional contamination pathways and the interior provides ideal conditions for bacterial growth. This higher temperature ensures all pathogens are destroyed.",
+          es: "Carnes rellenas, guisos y rellenos que contienen carne deben alcanzar 74°C en todo porque el relleno crea vías adicionales de contaminación y el interior proporciona condiciones ideales para crecimiento bacteriano. Esta temperatura más alta asegura que todos los patógenos sean destruidos.",
+          de: "Gefülltes Fleisch, Aufläufe und Füllung mit Fleisch müssen durchgehend 74°C erreichen, weil die Füllung zusätzliche Kontaminationswege schafft und das Innere ideale Bedingungen für Bakterienwachstum bietet. Diese höhere Temperatur stellt sicher, dass alle Krankheitserreger zerstört werden.",
+          nl: "Gevuld vlees, ovenschotels en vulling met vlees moeten overal 74°C bereiken omdat de vulling extra besmettingswegen creëert en het binnenste ideale condities biedt voor bacteriële groei. Deze hogere temperatuur zorgt ervoor dat alle pathogenen worden vernietigd."
+        }
+      },
+      {
+        question: {
+          en: "What is the significance of allergen cross-contact in food preparation?",
+          es: "¿Cuál es la importancia del contacto cruzado de alérgenos en preparación de alimentos?",
+          de: "Was ist die Bedeutung von Allergen-Kreuzkontakt in der Lebensmittelzubereitung?",
+          nl: "Wat is de betekenis van allergeen kruiscontact in voedsel bereiding?"
+        },
+        options: [
+          { en: "Allergens are not a safety concern", es: "Los alérgenos no son una preocupación de seguridad", de: "Allergene sind kein Sicherheitsproblem", nl: "Allergenen zijn geen veiligheid zorg" },
+          { en: "Trace amounts can trigger severe reactions; requires dedicated equipment and protocols", es: "Cantidades trazas pueden desencadenar reacciones severas; requiere equipo y protocolos dedicados", de: "Spurenmengen können schwere Reaktionen auslösen; erfordert dedizierte Ausrüstung und Protokolle", nl: "Spoorbedragen kunnen ernstige reacties veroorzaken; vereist toegewijde apparatuur en protocollen" },
+          { en: "Only whole allergens are dangerous", es: "Solo alérgenos enteros son peligrosos", de: "Nur ganze Allergene sind gefährlich", nl: "Alleen hele allergenen zijn gevaarlijk" },
+          { en: "Cooking eliminates allergen risks", es: "Cocinar elimina riesgos de alérgenos", de: "Kochen eliminiert Allergenrisiken", nl: "Koken elimineert allergeen risico's" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Food allergens (Big 8: milk, eggs, fish, shellfish, tree nuts, peanuts, wheat, soybeans) can cause severe anaphylactic reactions even in trace amounts. Cross-contact prevention requires separate equipment, dedicated prep areas, thorough cleaning, and staff training.",
+          es: "Los alérgenos alimentarios (Big 8: leche, huevos, pescado, mariscos, nueces de árbol, cacahuates, trigo, soja) pueden causar reacciones anafilácticas severas incluso en cantidades trazas. La prevención de contacto cruzado requiere equipo separado, áreas de preparación dedicadas, limpieza exhaustiva y capacitación del personal.",
+          de: "Lebensmittelallergene (Big 8: Milch, Eier, Fisch, Schalentiere, Baumnüsse, Erdnüsse, Weizen, Sojabohnen) können schwere anaphylaktische Reaktionen selbst in Spurenmengen verursachen. Kreuzkontakt-Prävention erfordert separate Ausrüstung, dedizierte Zubereitungsbereiche, gründliche Reinigung und Personalschulung.",
+          nl: "Voedselallergenen (Big 8: melk, eieren, vis, schaaldieren, boomnooten, pinda's, tarwe, sojabonen) kunnen ernstige anafylactische reacties veroorzaken zelfs in spoorbedragen. Kruiscontact preventie vereist aparte apparatuur, toegewijde prep gebieden, grondige reiniging en personeel training."
+        }
+      },
+      {
+        question: {
+          en: "What is the proper procedure for reheating previously cooked foods?",
+          es: "¿Cuál es el procedimiento apropiado para recalentar alimentos previamente cocidos?",
+          de: "Was ist das richtige Verfahren zum Aufwärmen zuvor gekochter Lebensmittel?",
+          nl: "Wat is de juiste procedure voor het opwarmen van eerder gekookt voedsel?"
+        },
+        options: [
+          { en: "Any temperature is acceptable", es: "Cualquier temperatura es aceptable", de: "Jede Temperatur ist akzeptabel", nl: "Elke temperatuur is acceptabel" },
+          { en: "Reheat to 165°F (74°C) within 2 hours", es: "Recalentar a 74°C dentro de 2 horas", de: "Auf 74°C innerhalb 2 Stunden aufwärmen", nl: "Opwarmen tot 74°C binnen 2 uur" },
+          { en: "Reheating is unnecessary if refrigerated", es: "Recalentar es innecesario si está refrigerado", de: "Aufwärmen ist unnötig wenn gekühlt", nl: "Opwarmen is onnodig als gekoeld" },
+          { en: "Room temperature is sufficient", es: "Temperatura ambiente es suficiente", de: "Raumtemperatur ist ausreichend", nl: "Kamertemperatuur is voldoende" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Previously cooked, cooled foods must be rapidly reheated to 165°F (74°C) within 2 hours for hot holding. This temperature kills vegetative cells and ensures food safety. Slow reheating in holding equipment is prohibited—use rapid reheating methods.",
+          es: "Alimentos previamente cocidos y enfriados deben recalentarse rápidamente a 74°C dentro de 2 horas para mantener caliente. Esta temperatura mata células vegetativas y asegura seguridad alimentaria. El recalentamiento lento en equipo de mantenimiento está prohibido—usar métodos de recalentamiento rápido.",
+          de: "Zuvor gekochte, gekühlte Lebensmittel müssen schnell auf 74°C innerhalb 2 Stunden zum Warmhalten aufgewärmt werden. Diese Temperatur tötet vegetative Zellen und gewährleistet Lebensmittelsicherheit. Langsames Aufwärmen in Warmhaltegeräten ist verboten—schnelle Aufwärm-Methoden verwenden.",
+          nl: "Eerder gekookt, gekoeld voedsel moet snel worden opgewarmd tot 74°C binnen 2 uur voor warm houden. Deze temperatuur doodt vegetatieve cellen en verzekert voedselveiligheid. Langzaam opwarmen in warmhoudapparatuur is verboden—gebruik snelle opwarm methoden."
+        }
+      },
+      {
+        question: {
+          en: "What is the role of variance or HACCP plan in advanced food safety operations?",
+          es: "¿Cuál es el papel de la varianza o plan HACCP en operaciones avanzadas de seguridad alimentaria?",
+          de: "Was ist die Rolle von Abweichung oder HACCP-Plan in fortgeschrittenen Lebensmittelsicherheitsoperationen?",
+          nl: "Wat is de rol van variantie of HACCP plan in geavanceerde voedselveiligheid operaties?"
+        },
+        options: [
+          { en: "Unnecessary paperwork", es: "Papeleo innecesario", de: "Unnötige Bürokratie", nl: "Onnodige papierwerk" },
+          { en: "Required documentation for specialized processes (sous vide, curing, smoking) showing pathogen controls", es: "Documentación requerida para procesos especializados (sous vide, curado, ahumado) mostrando controles de patógenos", de: "Erforderliche Dokumentation für spezialisierte Prozesse (Sous Vide, Pökeln, Räuchern), die Pathogenkontrollen zeigt", nl: "Vereiste documentatie voor gespecialiseerde processen (sous vide, pekelen, roken) tonend pathogeen controles" },
+          { en: "Marketing material only", es: "Solo material de marketing", de: "Nur Marketingmaterial", nl: "Alleen marketing materiaal" },
+          { en: "Optional suggestion", es: "Sugerencia opcional", de: "Optionaler Vorschlag", nl: "Optionele suggestie" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Variance or HACCP plans are required by health departments for specialized food processes that deviate from standard procedures (sous vide, curing, reduced-oxygen packaging). These plans document critical control points, monitoring procedures, and corrective actions to ensure pathogen control.",
+          es: "Los planes de varianza o HACCP son requeridos por departamentos de salud para procesos especializados de alimentos que se desvían de procedimientos estándar (sous vide, curado, empaque con oxígeno reducido). Estos planes documentan puntos críticos de control, procedimientos de monitoreo y acciones correctivas para asegurar control de patógenos.",
+          de: "Abweichungs- oder HACCP-Pläne werden von Gesundheitsbehörden für spezialisierte Lebensmittelprozesse verlangt, die von Standardverfahren abweichen (Sous Vide, Pökeln, Verpackung mit reduziertem Sauerstoff). Diese Pläne dokumentieren kritische Kontrollpunkte, Überwachungsverfahren und Korrekturmaßnahmen zur Gewährleistung der Pathogenkontrolle.",
+          nl: "Variantie of HACCP plannen zijn vereist door gezondheidsafdelingen voor gespecialiseerde voedselprocessen die afwijken van standaard procedures (sous vide, pekelen, verminderd-zuurstof verpakking). Deze plannen documenteren kritieke controlepunten, monitoring procedures en corrigerende acties om pathogeen controle te verzekeren."
+        }
+      },
+      {
+        question: {
+          en: "What is the significance of critical limit violations in HACCP systems?",
+          es: "¿Cuál es la importancia de las violaciones de límites críticos en sistemas HACCP?",
+          de: "Was ist die Bedeutung von kritischen Grenzverletzungen in HACCP-Systemen?",
+          nl: "Wat is de betekenis van kritieke limiet overtredingen in HACCP systemen?"
+        },
+        options: [
+          { en: "Can be ignored", es: "Pueden ignorarse", de: "Können ignoriert werden", nl: "Kunnen worden genegeerd" },
+          { en: "Trigger mandatory corrective actions, product evaluation, and documentation", es: "Desencadenan acciones correctivas obligatorias, evaluación de productos y documentación", de: "Lösen obligatorische Korrekturmaßnahmen, Produktbewertung und Dokumentation aus", nl: "Activeren verplichte corrigerende acties, product evaluatie en documentatie" },
+          { en: "Are acceptable occasionally", es: "Son aceptables ocasionalmente", de: "Sind gelegentlich akzeptabel", nl: "Zijn af en toe acceptabel" },
+          { en: "Only matter for large operations", es: "Solo importan para operaciones grandes", de: "Wichtig nur für große Betriebe", nl: "Doen er alleen toe voor grote operaties" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Critical limit violations (temperature, time, pH failures) in HACCP systems indicate potential food safety hazards requiring immediate corrective action: stopping production, evaluating affected product safety, implementing corrections, and documenting all actions taken for regulatory review.",
+          es: "Las violaciones de límites críticos (fallas de temperatura, tiempo, pH) en sistemas HACCP indican peligros potenciales de seguridad alimentaria que requieren acción correctiva inmediata: detener producción, evaluar seguridad del producto afectado, implementar correcciones y documentar todas las acciones tomadas para revisión regulatoria.",
+          de: "Kritische Grenzverletzungen (Temperatur-, Zeit-, pH-Ausfälle) in HACCP-Systemen zeigen potenzielle Lebensmittelsicherheitsgefahren an, die sofortige Korrekturmaßnahmen erfordern: Produktionsstopp, Bewertung der Sicherheit betroffener Produkte, Umsetzung von Korrekturen und Dokumentation aller Maßnahmen für behördliche Prüfung.",
+          nl: "Kritieke limiet overtredingen (temperatuur, tijd, pH mislukkingen) in HACCP systemen wijzen op potentiële voedselveiligheid gevaren die onmiddellijke corrigerende actie vereisen: productie stoppen, getroffen product veiligheid evalueren, correcties implementeren en alle genomen acties documenteren voor regelgevende review."
+        }
+      },
+      {
+        question: {
+          en: "What is the minimum internal cooking temperature for whole poultry?",
+          es: "¿Cuál es la temperatura interna mínima de cocción para aves enteras?",
+          de: "Was ist die minimale Innentemperatur zum Garen von ganzem Geflügel?",
+          nl: "Wat is de minimum interne kook temperatuur voor heel gevogelte?"
+        },
+        options: [
+          { en: "145°F (63°C)", es: "63°C", de: "63°C", nl: "63°C" },
+          { en: "155°F (68°C)", es: "68°C", de: "68°C", nl: "68°C" },
+          { en: "165°F (74°C)", es: "74°C", de: "74°C", nl: "74°C" },
+          { en: "180°F (82°C)", es: "82°C", de: "82°C", nl: "82°C" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Whole poultry (chicken, turkey, duck) must reach 165°F (74°C) throughout to destroy Salmonella and Campylobacter. Check temperature in the innermost part of the thigh and wing, and the thickest part of the breast.",
+          es: "Las aves enteras (pollo, pavo, pato) deben alcanzar 74°C en todo para destruir Salmonella y Campylobacter. Verificar temperatura en la parte más interna del muslo y ala, y la parte más gruesa de la pechuga.",
+          de: "Ganzes Geflügel (Huhn, Truthahn, Ente) muss durchgehend 74°C erreichen, um Salmonellen und Campylobacter zu zerstören. Temperatur im innersten Teil des Oberschenkels und Flügels und im dicksten Teil der Brust prüfen.",
+          nl: "Heel gevogelte (kip, kalkoen, eend) moet overal 74°C bereiken om Salmonella en Campylobacter te vernietigen. Temperatuur controleren in het binnenste deel van de dij en vleugel, en het dikste deel van de borst."
+        }
+      },
+      {
+        question: {
+          en: "What is the correct procedure for handling a food recall?",
+          es: "¿Cuál es el procedimiento correcto para manejar un retiro de alimentos?",
+          de: "Was ist das korrekte Verfahren zur Handhabung eines Lebensmittelrückrufs?",
+          nl: "Wat is de juiste procedure voor het behandelen van een voedsel terugroeping?"
+        },
+        options: [
+          { en: "Continue selling the product", es: "Continuar vendiendo el producto", de: "Weiter das Produkt verkaufen", nl: "Blijven het product verkopen" },
+          { en: "Immediately remove from service, segregate, label, document, and follow health department instructions", es: "Inmediatamente retirar del servicio, segregar, etiquetar, documentar y seguir instrucciones del departamento de salud", de: "Sofort aus dem Service entfernen, trennen, kennzeichnen, dokumentieren und Gesundheitsamtsanweisungen folgen", nl: "Onmiddellijk verwijderen uit service, segregeren, labelen, documenteren en gezondheidsafdeling instructies volgen" },
+          { en: "Wait for customer complaints", es: "Esperar quejas de clientes", de: "Auf Kundenbeschwerden warten", nl: "Wachten op klantklachten" },
+          { en: "Offer at discount", es: "Ofrecer con descuento", de: "Mit Rabatt anbieten", nl: "Aanbieden met korting" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Food recalls require immediate action: stop using/selling the product, remove from service, segregate recalled items, clearly label them, document all actions, notify customers if necessary, and follow health department disposal instructions to prevent foodborne illness.",
+          es: "Los retiros de alimentos requieren acción inmediata: detener uso/venta del producto, retirar del servicio, segregar artículos retirados, etiquetarlos claramente, documentar todas las acciones, notificar a clientes si es necesario y seguir instrucciones de disposición del departamento de salud para prevenir enfermedades transmitidas por alimentos.",
+          de: "Lebensmittelrückrufe erfordern sofortiges Handeln: Verwendung/Verkauf des Produkts stoppen, aus dem Service entfernen, zurückgerufene Artikel trennen, klar kennzeichnen, alle Maßnahmen dokumentieren, Kunden falls nötig benachrichtigen und Gesundheitsamt-Entsorgungsanweisungen folgen, um lebensmittelbedingte Krankheiten zu verhindern.",
+          nl: "Voedsel terugroepingen vereisen onmiddellijke actie: stoppen gebruik/verkoop van het product, verwijderen uit service, teruggroepen items segregeren, duidelijk labelen, alle acties documenteren, klanten indien nodig informeren en gezondheidsafdeling weggooi instructies volgen om voedselgerelateerde ziekten te voorkomen."
         }
       }
     ]

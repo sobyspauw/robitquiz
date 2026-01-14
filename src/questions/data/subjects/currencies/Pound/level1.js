@@ -426,6 +426,406 @@
           es: "La libra esterlina inicialmente cayó significativamente en valor después del voto del Brexit en 2016, reflejando la incertidumbre económica sobre la futura relación del Reino Unido con la UE.",
           de: "Das britische Pfund fiel nach der Brexit-Abstimmung 2016 zunächst erheblich im Wert, was die wirtschaftliche Unsicherheit über die zukünftige Beziehung des Vereinigten Königreichs zur EU widerspiegelte.",
           nl: "Het Britse pond daalde aanvankelijk aanzienlijk in waarde na de Brexit-stemming in 2016, wat de economische onzekerheid weerspiegelde over de toekomstige relatie van het VK met de EU."
+        }      },
+      {
+        question: {
+          en: "What is the symbol for British Pound?",
+          es: "What is the symbol for British Pound?",
+          de: "What is the symbol for British Pound?",
+          nl: "What is the symbol for British Pound?"
+        },
+        options: [
+          { en: "£", es: "£", de: "£", nl: "£" },
+          { en: "P", es: "P", de: "P", nl: "P" },
+          { en: "GBP", es: "GBP", de: "GBP", nl: "GBP" },
+          { en: "B", es: "B", de: "B", nl: "B" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The pound sign £ derives from the Latin 'libra' meaning pound weight.",
+          es: "The pound sign £ derives from the Latin 'libra' meaning pound weight.",
+          de: "The pound sign £ derives from the Latin 'libra' meaning pound weight.",
+          nl: "The pound sign £ derives from the Latin 'libra' meaning pound weight."
+        }      },
+      {
+        question: {
+          en: "What is a penny in UK?",
+          es: "What is a penny in UK?",
+          de: "What is a penny in UK?",
+          nl: "What is a penny in UK?"
+        },
+        options: [
+          { en: "1/100 of a pound", es: "1/100 of a pound", de: "1/100 of a pound", nl: "1/100 of a pound" },
+          { en: "1/10 of a pound", es: "1/10 of a pound", de: "1/10 of a pound", nl: "1/10 of a pound" },
+          { en: "1/240 of a pound", es: "1/240 of a pound", de: "1/240 of a pound", nl: "1/240 of a pound" },
+          { en: "1/20 of a pound", es: "1/20 of a pound", de: "1/20 of a pound", nl: "1/20 of a pound" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Since decimalization in 1971, one penny equals 1/100 of a pound sterling.",
+          es: "Since decimalization in 1971, one penny equals 1/100 of a pound sterling.",
+          de: "Since decimalization in 1971, one penny equals 1/100 of a pound sterling.",
+          nl: "Since decimalization in 1971, one penny equals 1/100 of a pound sterling."
+        }      },
+      {
+        question: {
+          en: "What does GBP stand for?",
+          es: "What does GBP stand for?",
+          de: "What does GBP stand for?",
+          nl: "What does GBP stand for?"
+        },
+        options: [
+          { en: "Great Britain Pound", es: "Great Britain Pound", de: "Great Britain Pound", nl: "Great Britain Pound" },
+          { en: "Gold British Pound", es: "Gold British Pound", de: "Gold British Pound", nl: "Gold British Pound" },
+          { en: "General Britain Pound", es: "General Britain Pound", de: "General Britain Pound", nl: "General Britain Pound" },
+          { en: "Government Britain Pound", es: "Government Britain Pound", de: "Government Britain Pound", nl: "Government Britain Pound" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "GBP is the three-letter ISO code for Great Britain Pound Sterling.",
+          es: "GBP is the three-letter ISO code for Great Britain Pound Sterling.",
+          de: "GBP is the three-letter ISO code for Great Britain Pound Sterling.",
+          nl: "GBP is the three-letter ISO code for Great Britain Pound Sterling."
+        }      },
+      {
+        question: {
+          en: "What is pound sterling?",
+          es: "What is pound sterling?",
+          de: "What is pound sterling?",
+          nl: "What is pound sterling?"
+        },
+        options: [
+          { en: "Official currency of United Kingdom", es: "Official currency of United Kingdom", de: "Official currency of United Kingdom", nl: "Official currency of United Kingdom" },
+          { en: "Gold coin", es: "Gold coin", de: "Gold coin", nl: "Gold coin" },
+          { en: "Weight measurement", es: "Weight measurement", de: "Weight measurement", nl: "Weight measurement" },
+          { en: "Silver coin", es: "Silver coin", de: "Silver coin", nl: "Silver coin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pound sterling is the official currency of the UK and one of the oldest currencies still in use.",
+          es: "Pound sterling is the official currency of the UK and one of the oldest currencies still in use.",
+          de: "Pound sterling is the official currency of the UK and one of the oldest currencies still in use.",
+          nl: "Pound sterling is the official currency of the UK and one of the oldest currencies still in use."
+        }      },
+      {
+        question: {
+          en: "When was pound decimalized?",
+          es: "When was pound decimalized?",
+          de: "When was pound decimalized?",
+          nl: "When was pound decimalized?"
+        },
+        options: [
+          { en: "1971", es: "1971", de: "1971", nl: "1971" },
+          { en: "1953", es: "1953", de: "1953", nl: "1953" },
+          { en: "1900", es: "1900", de: "1900", nl: "1900" },
+          { en: "1945", es: "1945", de: "1945", nl: "1945" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The UK decimalized the pound on February 15, 1971, adopting the 100 pence system.",
+          es: "The UK decimalized the pound on February 15, 1971, adopting the 100 pence system.",
+          de: "The UK decimalized the pound on February 15, 1971, adopting the 100 pence system.",
+          nl: "The UK decimalized the pound on February 15, 1971, adopting the 100 pence system."
+        }      },
+      {
+        question: {
+          en: "What was a shilling?",
+          es: "What was a shilling?",
+          de: "What was a shilling?",
+          nl: "What was a shilling?"
+        },
+        options: [
+          { en: "Pre-decimal coin worth 1/20 pound", es: "Pre-decimal coin worth 1/20 pound", de: "Pre-decimal coin worth 1/20 pound", nl: "Pre-decimal coin worth 1/20 pound" },
+          { en: "Current coin", es: "Current coin", de: "Current coin", nl: "Current coin" },
+          { en: "Gold coin", es: "Gold coin", de: "Gold coin", nl: "Gold coin" },
+          { en: "Weight measure", es: "Weight measure", de: "Weight measure", nl: "Weight measure" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A shilling was worth 12 old pence or 1/20 of a pound before decimalization.",
+          es: "A shilling was worth 12 old pence or 1/20 of a pound before decimalization.",
+          de: "A shilling was worth 12 old pence or 1/20 of a pound before decimalization.",
+          nl: "A shilling was worth 12 old pence or 1/20 of a pound before decimalization."
+        }      },
+      {
+        question: {
+          en: "Who appears on UK banknotes?",
+          es: "Who appears on UK banknotes?",
+          de: "Who appears on UK banknotes?",
+          nl: "Who appears on UK banknotes?"
+        },
+        options: [
+          { en: "Queen Elizabeth II / King Charles III", es: "Queen Elizabeth II / King Charles III", de: "Queen Elizabeth II / King Charles III", nl: "Queen Elizabeth II / King Charles III" },
+          { en: "Prime Minister", es: "Prime Minister", de: "Prime Minister", nl: "Prime Minister" },
+          { en: "Shakespeare", es: "Shakespeare", de: "Shakespeare", nl: "Shakespeare" },
+          { en: "Churchill", es: "Churchill", de: "Churchill", nl: "Churchill" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "British monarchs appear on UK banknotes; currently transitioning from Elizabeth II to Charles III.",
+          es: "British monarchs appear on UK banknotes; currently transitioning from Elizabeth II to Charles III.",
+          de: "British monarchs appear on UK banknotes; currently transitioning from Elizabeth II to Charles III.",
+          nl: "British monarchs appear on UK banknotes; currently transitioning from Elizabeth II to Charles III."
+        }      },
+      {
+        question: {
+          en: "What is the Bank of England?",
+          es: "What is the Bank of England?",
+          de: "What is the Bank of England?",
+          nl: "What is the Bank of England?"
+        },
+        options: [
+          { en: "UK's central bank", es: "UK's central bank", de: "UK's central bank", nl: "UK's central bank" },
+          { en: "Commercial bank", es: "Commercial bank", de: "Commercial bank", nl: "Commercial bank" },
+          { en: "Investment bank", es: "Investment bank", de: "Investment bank", nl: "Investment bank" },
+          { en: "Royal treasury", es: "Royal treasury", de: "Royal treasury", nl: "Royal treasury" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Bank of England is the UK's central bank, founded in 1694, responsible for monetary policy.",
+          es: "The Bank of England is the UK's central bank, founded in 1694, responsible for monetary policy.",
+          de: "The Bank of England is the UK's central bank, founded in 1694, responsible for monetary policy.",
+          nl: "The Bank of England is the UK's central bank, founded in 1694, responsible for monetary policy."
+        }      },
+      {
+        question: {
+          en: "What was the guinea?",
+          es: "What was the guinea?",
+          de: "What was the guinea?",
+          nl: "What was the guinea?"
+        },
+        options: [
+          { en: "Gold coin worth 21 shillings", es: "Gold coin worth 21 shillings", de: "Gold coin worth 21 shillings", nl: "Gold coin worth 21 shillings" },
+          { en: "Silver coin", es: "Silver coin", de: "Silver coin", nl: "Silver coin" },
+          { en: "Current coin", es: "Current coin", de: "Current coin", nl: "Current coin" },
+          { en: "Bronze coin", es: "Bronze coin", de: "Bronze coin", nl: "Bronze coin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The guinea was a gold coin worth one pound and one shilling, used 1663-1814.",
+          es: "The guinea was a gold coin worth one pound and one shilling, used 1663-1814.",
+          de: "The guinea was a gold coin worth one pound and one shilling, used 1663-1814.",
+          nl: "The guinea was a gold coin worth one pound and one shilling, used 1663-1814."
+        }      },
+      {
+        question: {
+          en: "What is a quid?",
+          es: "What is a quid?",
+          de: "What is a quid?",
+          nl: "What is a quid?"
+        },
+        options: [
+          { en: "Slang for one pound", es: "Slang for one pound", de: "Slang for one pound", nl: "Slang for one pound" },
+          { en: "Official term", es: "Official term", de: "Official term", nl: "Official term" },
+          { en: "Coin type", es: "Coin type", de: "Coin type", nl: "Coin type" },
+          { en: "Quarter pound", es: "Quarter pound", de: "Quarter pound", nl: "Quarter pound" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Quid is British slang for one pound sterling, similar to American 'buck' for dollar.",
+          es: "Quid is British slang for one pound sterling, similar to American 'buck' for dollar.",
+          de: "Quid is British slang for one pound sterling, similar to American 'buck' for dollar.",
+          nl: "Quid is British slang for one pound sterling, similar to American 'buck' for dollar."
+        }      },
+      {
+        question: {
+          en: "What is a farthing?",
+          es: "What is a farthing?",
+          de: "What is a farthing?",
+          nl: "What is a farthing?"
+        },
+        options: [
+          { en: "Old coin worth 1/4 penny", es: "Old coin worth 1/4 penny", de: "Old coin worth 1/4 penny", nl: "Old coin worth 1/4 penny" },
+          { en: "Current coin", es: "Current coin", de: "Current coin", nl: "Current coin" },
+          { en: "Gold coin", es: "Gold coin", de: "Gold coin", nl: "Gold coin" },
+          { en: "Silver coin", es: "Silver coin", de: "Silver coin", nl: "Silver coin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A farthing was the smallest British coin worth one quarter of an old penny, discontinued 1960.",
+          es: "A farthing was the smallest British coin worth one quarter of an old penny, discontinued 1960.",
+          de: "A farthing was the smallest British coin worth one quarter of an old penny, discontinued 1960.",
+          nl: "A farthing was the smallest British coin worth one quarter of an old penny, discontinued 1960."
+        }      },
+      {
+        question: {
+          en: "What was the crown?",
+          es: "What was the crown?",
+          de: "What was the crown?",
+          nl: "What was the crown?"
+        },
+        options: [
+          { en: "Coin worth 5 shillings", es: "Coin worth 5 shillings", de: "Coin worth 5 shillings", nl: "Coin worth 5 shillings" },
+          { en: "Royal symbol", es: "Royal symbol", de: "Royal symbol", nl: "Royal symbol" },
+          { en: "Current coin", es: "Current coin", de: "Current coin", nl: "Current coin" },
+          { en: "Weight measure", es: "Weight measure", de: "Weight measure", nl: "Weight measure" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The crown was a large silver coin worth five shillings or one-quarter pound.",
+          es: "The crown was a large silver coin worth five shillings or one-quarter pound.",
+          de: "The crown was a large silver coin worth five shillings or one-quarter pound.",
+          nl: "The crown was a large silver coin worth five shillings or one-quarter pound."
+        }      },
+      {
+        question: {
+          en: "What is a bob?",
+          es: "What is a bob?",
+          de: "What is a bob?",
+          nl: "What is a bob?"
+        },
+        options: [
+          { en: "Slang for shilling", es: "Slang for shilling", de: "Slang for shilling", nl: "Slang for shilling" },
+          { en: "Pound coin", es: "Pound coin", de: "Pound coin", nl: "Pound coin" },
+          { en: "Current slang for pound", es: "Current slang for pound", de: "Current slang for pound", nl: "Current slang for pound" },
+          { en: "Ten pence", es: "Ten pence", de: "Ten pence", nl: "Ten pence" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bob was slang for a shilling (1/20 pound) in pre-decimal British currency.",
+          es: "Bob was slang for a shilling (1/20 pound) in pre-decimal British currency.",
+          de: "Bob was slang for a shilling (1/20 pound) in pre-decimal British currency.",
+          nl: "Bob was slang for a shilling (1/20 pound) in pre-decimal British currency."
+        }      },
+      {
+        question: {
+          en: "When was Bank of England founded?",
+          es: "When was Bank of England founded?",
+          de: "When was Bank of England founded?",
+          nl: "When was Bank of England founded?"
+        },
+        options: [
+          { en: "1694", es: "1694", de: "1694", nl: "1694" },
+          { en: "1066", es: "1066", de: "1066", nl: "1066" },
+          { en: "1215", es: "1215", de: "1215", nl: "1215" },
+          { en: "1801", es: "1801", de: "1801", nl: "1801" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Bank of England was founded in 1694, making it one of the oldest central banks.",
+          es: "The Bank of England was founded in 1694, making it one of the oldest central banks.",
+          de: "The Bank of England was founded in 1694, making it one of the oldest central banks.",
+          nl: "The Bank of England was founded in 1694, making it one of the oldest central banks."
+        }      },
+      {
+        question: {
+          en: "What is a sovereign coin?",
+          es: "What is a sovereign coin?",
+          de: "What is a sovereign coin?",
+          nl: "What is a sovereign coin?"
+        },
+        options: [
+          { en: "Gold bullion coin", es: "Gold bullion coin", de: "Gold bullion coin", nl: "Gold bullion coin" },
+          { en: "Silver coin", es: "Silver coin", de: "Silver coin", nl: "Silver coin" },
+          { en: "Copper coin", es: "Copper coin", de: "Copper coin", nl: "Copper coin" },
+          { en: "Platinum coin", es: "Platinum coin", de: "Platinum coin", nl: "Platinum coin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The sovereign is a British gold coin still minted for collectors and investors.",
+          es: "The sovereign is a British gold coin still minted for collectors and investors.",
+          de: "The sovereign is a British gold coin still minted for collectors and investors.",
+          nl: "The sovereign is a British gold coin still minted for collectors and investors."
+        }      },
+      {
+        question: {
+          en: "What replaced old sixpence?",
+          es: "What replaced old sixpence?",
+          de: "What replaced old sixpence?",
+          nl: "What replaced old sixpence?"
+        },
+        options: [
+          { en: "2.5 new pence", es: "2.5 new pence", de: "2.5 new pence", nl: "2.5 new pence" },
+          { en: "5 new pence", es: "5 new pence", de: "5 new pence", nl: "5 new pence" },
+          { en: "10 new pence", es: "10 new pence", de: "10 new pence", nl: "10 new pence" },
+          { en: "1 new pence", es: "1 new pence", de: "1 new pence", nl: "1 new pence" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The old sixpence (worth 1/40 pound) equaled 2.5 new pence after decimalization.",
+          es: "The old sixpence (worth 1/40 pound) equaled 2.5 new pence after decimalization.",
+          de: "The old sixpence (worth 1/40 pound) equaled 2.5 new pence after decimalization.",
+          nl: "The old sixpence (worth 1/40 pound) equaled 2.5 new pence after decimalization."
+        }      },
+      {
+        question: {
+          en: "What is a thruppenny bit?",
+          es: "What is a thruppenny bit?",
+          de: "What is a thruppenny bit?",
+          nl: "What is a thruppenny bit?"
+        },
+        options: [
+          { en: "Three pence coin", es: "Three pence coin", de: "Three pence coin", nl: "Three pence coin" },
+          { en: "Three pound note", es: "Three pound note", de: "Three pound note", nl: "Three pound note" },
+          { en: "Three shilling coin", es: "Three shilling coin", de: "Three shilling coin", nl: "Three shilling coin" },
+          { en: "Current coin", es: "Current coin", de: "Current coin", nl: "Current coin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The thruppenny bit was a twelve-sided coin worth three old pence, discontinued 1971.",
+          es: "The thruppenny bit was a twelve-sided coin worth three old pence, discontinued 1971.",
+          de: "The thruppenny bit was a twelve-sided coin worth three old pence, discontinued 1971.",
+          nl: "The thruppenny bit was a twelve-sided coin worth three old pence, discontinued 1971."
+        }      },
+      {
+        question: {
+          en: "What countries use pound?",
+          es: "What countries use pound?",
+          de: "What countries use pound?",
+          nl: "What countries use pound?"
+        },
+        options: [
+          { en: "UK, Guernsey, Jersey, others", es: "UK, Guernsey, Jersey, others", de: "UK, Guernsey, Jersey, others", nl: "UK, Guernsey, Jersey, others" },
+          { en: "Only England", es: "Only England", de: "Only England", nl: "Only England" },
+          { en: "All of Europe", es: "All of Europe", de: "All of Europe", nl: "All of Europe" },
+          { en: "Commonwealth nations", es: "Commonwealth nations", de: "Commonwealth nations", nl: "Commonwealth nations" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Several jurisdictions use pounds: UK, Guernsey, Jersey, Isle of Man, Gibraltar, Saint Helena.",
+          es: "Several jurisdictions use pounds: UK, Guernsey, Jersey, Isle of Man, Gibraltar, Saint Helena.",
+          de: "Several jurisdictions use pounds: UK, Guernsey, Jersey, Isle of Man, Gibraltar, Saint Helena.",
+          nl: "Several jurisdictions use pounds: UK, Guernsey, Jersey, Isle of Man, Gibraltar, Saint Helena."
+        }      },
+      {
+        question: {
+          en: "What is a half crown?",
+          es: "What is a half crown?",
+          de: "What is a half crown?",
+          nl: "What is a half crown?"
+        },
+        options: [
+          { en: "Coin worth 2 shillings 6 pence", es: "Coin worth 2 shillings 6 pence", de: "Coin worth 2 shillings 6 pence", nl: "Coin worth 2 shillings 6 pence" },
+          { en: "Current coin", es: "Current coin", de: "Current coin", nl: "Current coin" },
+          { en: "Half pound", es: "Half pound", de: "Half pound", nl: "Half pound" },
+          { en: "Gold coin", es: "Gold coin", de: "Gold coin", nl: "Gold coin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The half crown was worth 2 shillings and sixpence or one-eighth of a pound.",
+          es: "The half crown was worth 2 shillings and sixpence or one-eighth of a pound.",
+          de: "The half crown was worth 2 shillings and sixpence or one-eighth of a pound.",
+          nl: "The half crown was worth 2 shillings and sixpence or one-eighth of a pound."
+        }      },
+      {
+        question: {
+          en: "What is the Royal Mint?",
+          es: "What is the Royal Mint?",
+          de: "What is the Royal Mint?",
+          nl: "What is the Royal Mint?"
+        },
+        options: [
+          { en: "UK coin production facility", es: "UK coin production facility", de: "UK coin production facility", nl: "UK coin production facility" },
+          { en: "Bank of England", es: "Bank of England", de: "Bank of England", nl: "Bank of England" },
+          { en: "Treasury department", es: "Treasury department", de: "Treasury department", nl: "Treasury department" },
+          { en: "Gold reserve", es: "Gold reserve", de: "Gold reserve", nl: "Gold reserve" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Royal Mint produces all UK coins and has operated for over 1,100 years.",
+          es: "The Royal Mint produces all UK coins and has operated for over 1,100 years.",
+          de: "The Royal Mint produces all UK coins and has operated for over 1,100 years.",
+          nl: "The Royal Mint produces all UK coins and has operated for over 1,100 years."
         }
       }
     ]

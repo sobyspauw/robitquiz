@@ -426,7 +426,427 @@
           es: "Envejecer licores en barriles de madera añade color, sabores complejos y suavidad. La madera imparte notas como vainilla, caramelo y especias mientras el licor se suaviza con el tiempo. Por eso los licores envejecidos como whisky, ron y brandy tienen perfiles ricos y complejos.",
           de: "Die Reifung von Spirituosen in Holzfässern fügt Farbe, komplexe Aromen und Weichheit hinzu. Das Holz verleiht Noten wie Vanille, Karamell und Gewürze, während die Spirituose mit der Zeit milder wird. Deshalb haben gereifte Spirituosen wie Whiskey, Rum und Brandy reiche, komplexe Profile.",
           nl: "Het rijpen van sterke drank in houten vaten voegt kleur, complexe smaken en zachtheid toe. Het hout geeft tonen zoals vanille, karamel en kruiden terwijl de spirit in de loop van de tijd milder wordt. Daarom hebben gerijpte spirits zoals whiskey, rum en brandy rijke, complexe profielen."
-        }
+        }    },
+    {
+      question: {
+        en: "What is whiskey made from?",
+        es: "What is whiskey made from?",
+        de: "What is whiskey made from?",
+        nl: "What is whiskey made from?"
+      },
+      options: [
+        { en: "Fermented grain mash", es: "Fermented grain mash", de: "Fermented grain mash", nl: "Fermented grain mash" },
+        { en: "Grapes", es: "Grapes", de: "Grapes", nl: "Grapes" },
+        { en: "Potatoes", es: "Potatoes", de: "Potatoes", nl: "Potatoes" },
+        { en: "Sugarcane", es: "Sugarcane", de: "Sugarcane", nl: "Sugarcane" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Whiskey is distilled from fermented grain mash, including barley, corn, rye, or wheat.",
+        es: "Whiskey is distilled from fermented grain mash, including barley, corn, rye, or wheat.",
+        de: "Whiskey is distilled from fermented grain mash, including barley, corn, rye, or wheat.",
+        nl: "Whiskey is distilled from fermented grain mash, including barley, corn, rye, or wheat."
+      }
+    },
+    {
+      question: {
+        en: "What is vodka traditionally made from?",
+        es: "What is vodka traditionally made from?",
+        de: "What is vodka traditionally made from?",
+        nl: "What is vodka traditionally made from?"
+      },
+      options: [
+        { en: "Grains or potatoes", es: "Grains or potatoes", de: "Grains or potatoes", nl: "Grains or potatoes" },
+        { en: "Grapes", es: "Grapes", de: "Grapes", nl: "Grapes" },
+        { en: "Sugarcane", es: "Sugarcane", de: "Sugarcane", nl: "Sugarcane" },
+        { en: "Corn only", es: "Corn only", de: "Corn only", nl: "Corn only" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Vodka is traditionally distilled from fermented grains or potatoes.",
+        es: "Vodka is traditionally distilled from fermented grains or potatoes.",
+        de: "Vodka is traditionally distilled from fermented grains or potatoes.",
+        nl: "Vodka is traditionally distilled from fermented grains or potatoes."
+      }
+    },
+    {
+      question: {
+        en: "What is rum made from?",
+        es: "What is rum made from?",
+        de: "What is rum made from?",
+        nl: "What is rum made from?"
+      },
+      options: [
+        { en: "Sugarcane or molasses", es: "Sugarcane or molasses", de: "Sugarcane or molasses", nl: "Sugarcane or molasses" },
+        { en: "Grain", es: "Grain", de: "Grain", nl: "Grain" },
+        { en: "Grapes", es: "Grapes", de: "Grapes", nl: "Grapes" },
+        { en: "Agave", es: "Agave", de: "Agave", nl: "Agave" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Rum is distilled from fermented sugarcane juice or molasses.",
+        es: "Rum is distilled from fermented sugarcane juice or molasses.",
+        de: "Rum is distilled from fermented sugarcane juice or molasses.",
+        nl: "Rum is distilled from fermented sugarcane juice or molasses."
+      }
+    },
+    {
+      question: {
+        en: "What plant is tequila made from?",
+        es: "What plant is tequila made from?",
+        de: "What plant is tequila made from?",
+        nl: "What plant is tequila made from?"
+      },
+      options: [
+        { en: "Blue agave", es: "Blue agave", de: "Blue agave", nl: "Blue agave" },
+        { en: "Sugarcane", es: "Sugarcane", de: "Sugarcane", nl: "Sugarcane" },
+        { en: "Cactus", es: "Cactus", de: "Cactus", nl: "Cactus" },
+        { en: "Corn", es: "Corn", de: "Corn", nl: "Corn" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Tequila is made from the fermented juice of the blue agave plant.",
+        es: "Tequila is made from the fermented juice of the blue agave plant.",
+        de: "Tequila is made from the fermented juice of the blue agave plant.",
+        nl: "Tequila is made from the fermented juice of the blue agave plant."
+      }
+    },
+    {
+      question: {
+        en: "What is gin flavored with?",
+        es: "What is gin flavored with?",
+        de: "What is gin flavored with?",
+        nl: "What is gin flavored with?"
+      },
+      options: [
+        { en: "Juniper berries", es: "Juniper berries", de: "Juniper berries", nl: "Juniper berries" },
+        { en: "Orange peel", es: "Orange peel", de: "Orange peel", nl: "Orange peel" },
+        { en: "Vanilla", es: "Vanilla", de: "Vanilla", nl: "Vanilla" },
+        { en: "Oak", es: "Oak", de: "Oak", nl: "Oak" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Gin is a spirit flavored primarily with juniper berries.",
+        es: "Gin is a spirit flavored primarily with juniper berries.",
+        de: "Gin is a spirit flavored primarily with juniper berries.",
+        nl: "Gin is a spirit flavored primarily with juniper berries."
+      }
+    },
+    {
+      question: {
+        en: "What country is scotch from?",
+        es: "What country is scotch from?",
+        de: "What country is scotch from?",
+        nl: "What country is scotch from?"
+      },
+      options: [
+        { en: "Scotland", es: "Scotland", de: "Scotland", nl: "Scotland" },
+        { en: "Ireland", es: "Ireland", de: "Ireland", nl: "Ireland" },
+        { en: "United States", es: "United States", de: "United States", nl: "United States" },
+        { en: "Canada", es: "Canada", de: "Canada", nl: "Canada" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Scotch whisky must be produced in Scotland to be called scotch.",
+        es: "Scotch whisky must be produced in Scotland to be called scotch.",
+        de: "Scotch whisky must be produced in Scotland to be called scotch.",
+        nl: "Scotch whisky must be produced in Scotland to be called scotch."
+      }
+    },
+    {
+      question: {
+        en: "What is bourbon?",
+        es: "What is bourbon?",
+        de: "What is bourbon?",
+        nl: "What is bourbon?"
+      },
+      options: [
+        { en: "American whiskey made primarily from corn", es: "American whiskey made primarily from corn", de: "American whiskey made primarily from corn", nl: "American whiskey made primarily from corn" },
+        { en: "French brandy", es: "French brandy", de: "French brandy", nl: "French brandy" },
+        { en: "Scottish whisky", es: "Scottish whisky", de: "Scottish whisky", nl: "Scottish whisky" },
+        { en: "Irish whiskey", es: "Irish whiskey", de: "Irish whiskey", nl: "Irish whiskey" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Bourbon is American whiskey made from at least 51% corn and aged in new charred oak barrels.",
+        es: "Bourbon is American whiskey made from at least 51% corn and aged in new charred oak barrels.",
+        de: "Bourbon is American whiskey made from at least 51% corn and aged in new charred oak barrels.",
+        nl: "Bourbon is American whiskey made from at least 51% corn and aged in new charred oak barrels."
+      }
+    },
+    {
+      question: {
+        en: "What is brandy made from?",
+        es: "What is brandy made from?",
+        de: "What is brandy made from?",
+        nl: "What is brandy made from?"
+      },
+      options: [
+        { en: "Distilled wine or fermented fruit", es: "Distilled wine or fermented fruit", de: "Distilled wine or fermented fruit", nl: "Distilled wine or fermented fruit" },
+        { en: "Grain", es: "Grain", de: "Grain", nl: "Grain" },
+        { en: "Sugarcane", es: "Sugarcane", de: "Sugarcane", nl: "Sugarcane" },
+        { en: "Potatoes", es: "Potatoes", de: "Potatoes", nl: "Potatoes" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Brandy is distilled from wine or other fermented fruit juice.",
+        es: "Brandy is distilled from wine or other fermented fruit juice.",
+        de: "Brandy is distilled from wine or other fermented fruit juice.",
+        nl: "Brandy is distilled from wine or other fermented fruit juice."
+      }
+    },
+    {
+      question: {
+        en: "What is the difference between whiskey and whisky?",
+        es: "What is the difference between whiskey and whisky?",
+        de: "What is the difference between whiskey and whisky?",
+        nl: "What is the difference between whiskey and whisky?"
+      },
+      options: [
+        { en: "Spelling: whiskey (Irish/American), whisky (Scottish/Canadian)", es: "Spelling: whiskey (Irish/American), whisky (Scottish/Canadian)", de: "Spelling: whiskey (Irish/American), whisky (Scottish/Canadian)", nl: "Spelling: whiskey (Irish/American), whisky (Scottish/Canadian)" },
+        { en: "Age difference", es: "Age difference", de: "Age difference", nl: "Age difference" },
+        { en: "Alcohol content", es: "Alcohol content", de: "Alcohol content", nl: "Alcohol content" },
+        { en: "Production method", es: "Production method", de: "Production method", nl: "Production method" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "'Whiskey' is used in Ireland and America; 'whisky' is used in Scotland and Canada.",
+        es: "'Whiskey' is used in Ireland and America; 'whisky' is used in Scotland and Canada.",
+        de: "'Whiskey' is used in Ireland and America; 'whisky' is used in Scotland and Canada.",
+        nl: "'Whiskey' is used in Ireland and America; 'whisky' is used in Scotland and Canada."
+      }
+    },
+    {
+      question: {
+        en: "What is proof in alcohol?",
+        es: "What is proof in alcohol?",
+        de: "What is proof in alcohol?",
+        nl: "What is proof in alcohol?"
+      },
+      options: [
+        { en: "Measure of alcohol content (double ABV in US)", es: "Measure of alcohol content (double ABV in US)", de: "Measure of alcohol content (double ABV in US)", nl: "Measure of alcohol content (double ABV in US)" },
+        { en: "Quality grade", es: "Quality grade", de: "Quality grade", nl: "Quality grade" },
+        { en: "Age of spirit", es: "Age of spirit", de: "Age of spirit", nl: "Age of spirit" },
+        { en: "Purity level", es: "Purity level", de: "Purity level", nl: "Purity level" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "In the US, proof is twice the ABV percentage; 80 proof = 40% ABV.",
+        es: "In the US, proof is twice the ABV percentage; 80 proof = 40% ABV.",
+        de: "In the US, proof is twice the ABV percentage; 80 proof = 40% ABV.",
+        nl: "In the US, proof is twice the ABV percentage; 80 proof = 40% ABV."
+      }
+    },
+    {
+      question: {
+        en: "What is single malt scotch?",
+        es: "What is single malt scotch?",
+        de: "What is single malt scotch?",
+        nl: "What is single malt scotch?"
+      },
+      options: [
+        { en: "Whisky from one distillery, made from malted barley", es: "Whisky from one distillery, made from malted barley", de: "Whisky from one distillery, made from malted barley", nl: "Whisky from one distillery, made from malted barley" },
+        { en: "Whisky from one barrel", es: "Whisky from one barrel", de: "Whisky from one barrel", nl: "Whisky from one barrel" },
+        { en: "Whisky with one ingredient", es: "Whisky with one ingredient", de: "Whisky with one ingredient", nl: "Whisky with one ingredient" },
+        { en: "Unblended whisky", es: "Unblended whisky", de: "Unblended whisky", nl: "Unblended whisky" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Single malt scotch is made at one distillery from 100% malted barley.",
+        es: "Single malt scotch is made at one distillery from 100% malted barley.",
+        de: "Single malt scotch is made at one distillery from 100% malted barley.",
+        nl: "Single malt scotch is made at one distillery from 100% malted barley."
+      }
+    },
+    {
+      question: {
+        en: "What is añejo tequila?",
+        es: "What is añejo tequila?",
+        de: "What is añejo tequila?",
+        nl: "What is añejo tequila?"
+      },
+      options: [
+        { en: "Tequila aged 1-3 years", es: "Tequila aged 1-3 years", de: "Tequila aged 1-3 years", nl: "Tequila aged 1-3 years" },
+        { en: "Unaged tequila", es: "Unaged tequila", de: "Unaged tequila", nl: "Unaged tequila" },
+        { en: "Tequila aged less than 2 months", es: "Tequila aged less than 2 months", de: "Tequila aged less than 2 months", nl: "Tequila aged less than 2 months" },
+        { en: "Tequila aged over 3 years", es: "Tequila aged over 3 years", de: "Tequila aged over 3 years", nl: "Tequila aged over 3 years" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Añejo tequila is aged in oak barrels for 1-3 years.",
+        es: "Añejo tequila is aged in oak barrels for 1-3 years.",
+        de: "Añejo tequila is aged in oak barrels for 1-3 years.",
+        nl: "Añejo tequila is aged in oak barrels for 1-3 years."
+      }
+    },
+    {
+      question: {
+        en: "What is cognac?",
+        es: "What is cognac?",
+        de: "What is cognac?",
+        nl: "What is cognac?"
+      },
+      options: [
+        { en: "Brandy from Cognac region of France", es: "Brandy from Cognac region of France", de: "Brandy from Cognac region of France", nl: "Brandy from Cognac region of France" },
+        { en: "Any French brandy", es: "Any French brandy", de: "Any French brandy", nl: "Any French brandy" },
+        { en: "Grape-flavored vodka", es: "Grape-flavored vodka", de: "Grape-flavored vodka", nl: "Grape-flavored vodka" },
+        { en: "Sweet liqueur", es: "Sweet liqueur", de: "Sweet liqueur", nl: "Sweet liqueur" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Cognac is brandy that must be produced in the Cognac region of France.",
+        es: "Cognac is brandy that must be produced in the Cognac region of France.",
+        de: "Cognac is brandy that must be produced in the Cognac region of France.",
+        nl: "Cognac is brandy that must be produced in the Cognac region of France."
+      }
+    },
+    {
+      question: {
+        en: "What gives whiskey its amber color?",
+        es: "What gives whiskey its amber color?",
+        de: "What gives whiskey its amber color?",
+        nl: "What gives whiskey its amber color?"
+      },
+      options: [
+        { en: "Aging in wooden barrels", es: "Aging in wooden barrels", de: "Aging in wooden barrels", nl: "Aging in wooden barrels" },
+        { en: "Added caramel", es: "Added caramel", de: "Added caramel", nl: "Added caramel" },
+        { en: "Natural grain color", es: "Natural grain color", de: "Natural grain color", nl: "Natural grain color" },
+        { en: "Filtering process", es: "Filtering process", de: "Filtering process", nl: "Filtering process" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Whiskey gets its color from aging in wooden barrels, which impart color and flavor.",
+        es: "Whiskey gets its color from aging in wooden barrels, which impart color and flavor.",
+        de: "Whiskey gets its color from aging in wooden barrels, which impart color and flavor.",
+        nl: "Whiskey gets its color from aging in wooden barrels, which impart color and flavor."
+      }
+    },
+    {
+      question: {
+        en: "What is moonshine?",
+        es: "What is moonshine?",
+        de: "What is moonshine?",
+        nl: "What is moonshine?"
+      },
+      options: [
+        { en: "Illegally distilled or unaged whiskey", es: "Illegally distilled or unaged whiskey", de: "Illegally distilled or unaged whiskey", nl: "Illegally distilled or unaged whiskey" },
+        { en: "Vodka variant", es: "Vodka variant", de: "Vodka variant", nl: "Vodka variant" },
+        { en: "Rum type", es: "Rum type", de: "Rum type", nl: "Rum type" },
+        { en: "Flavored spirit", es: "Flavored spirit", de: "Flavored spirit", nl: "Flavored spirit" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Moonshine refers to illegally distilled spirits or unaged whiskey.",
+        es: "Moonshine refers to illegally distilled spirits or unaged whiskey.",
+        de: "Moonshine refers to illegally distilled spirits or unaged whiskey.",
+        nl: "Moonshine refers to illegally distilled spirits or unaged whiskey."
+      }
+    },
+    {
+      question: {
+        en: "What is absinthe?",
+        es: "What is absinthe?",
+        de: "What is absinthe?",
+        nl: "What is absinthe?"
+      },
+      options: [
+        { en: "High-proof spirit with anise and wormwood", es: "High-proof spirit with anise and wormwood", de: "High-proof spirit with anise and wormwood", nl: "High-proof spirit with anise and wormwood" },
+        { en: "Green liqueur", es: "Green liqueur", de: "Green liqueur", nl: "Green liqueur" },
+        { en: "Herbal wine", es: "Herbal wine", de: "Herbal wine", nl: "Herbal wine" },
+        { en: "Vodka variant", es: "Vodka variant", de: "Vodka variant", nl: "Vodka variant" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Absinthe is a high-proof anise-flavored spirit made with wormwood and other herbs.",
+        es: "Absinthe is a high-proof anise-flavored spirit made with wormwood and other herbs.",
+        de: "Absinthe is a high-proof anise-flavored spirit made with wormwood and other herbs.",
+        nl: "Absinthe is a high-proof anise-flavored spirit made with wormwood and other herbs."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'angel's share'?",
+        es: "What is the 'angel's share'?",
+        de: "What is the 'angel's share'?",
+        nl: "What is the 'angel's share'?"
+      },
+      options: [
+        { en: "Alcohol lost to evaporation during aging", es: "Alcohol lost to evaporation during aging", de: "Alcohol lost to evaporation during aging", nl: "Alcohol lost to evaporation during aging" },
+        { en: "Portion given to workers", es: "Portion given to workers", de: "Portion given to workers", nl: "Portion given to workers" },
+        { en: "First distillation", es: "First distillation", de: "First distillation", nl: "First distillation" },
+        { en: "Weakest part of spirit", es: "Weakest part of spirit", de: "Weakest part of spirit", nl: "Weakest part of spirit" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The angel's share is the portion of alcohol that evaporates from barrels during aging.",
+        es: "The angel's share is the portion of alcohol that evaporates from barrels during aging.",
+        de: "The angel's share is the portion of alcohol that evaporates from barrels during aging.",
+        nl: "The angel's share is the portion of alcohol that evaporates from barrels during aging."
+      }
+    },
+    {
+      question: {
+        en: "What is mezcal?",
+        es: "What is mezcal?",
+        de: "What is mezcal?",
+        nl: "What is mezcal?"
+      },
+      options: [
+        { en: "Spirit made from agave (broader than tequila)", es: "Spirit made from agave (broader than tequila)", de: "Spirit made from agave (broader than tequila)", nl: "Spirit made from agave (broader than tequila)" },
+        { en: "Type of tequila", es: "Type of tequila", de: "Type of tequila", nl: "Type of tequila" },
+        { en: "Mexican beer", es: "Mexican beer", de: "Mexican beer", nl: "Mexican beer" },
+        { en: "Rum variant", es: "Rum variant", de: "Rum variant", nl: "Rum variant" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Mezcal is made from various agave species; tequila is a specific type of mezcal made only from blue agave.",
+        es: "Mezcal is made from various agave species; tequila is a specific type of mezcal made only from blue agave.",
+        de: "Mezcal is made from various agave species; tequila is a specific type of mezcal made only from blue agave.",
+        nl: "Mezcal is made from various agave species; tequila is a specific type of mezcal made only from blue agave."
+      }
+    },
+    {
+      question: {
+        en: "What does 'neat' mean?",
+        es: "What does 'neat' mean?",
+        de: "What does 'neat' mean?",
+        nl: "What does 'neat' mean?"
+      },
+      options: [
+        { en: "Spirit served straight, no ice or mixers", es: "Spirit served straight, no ice or mixers", de: "Spirit served straight, no ice or mixers", nl: "Spirit served straight, no ice or mixers" },
+        { en: "With ice", es: "With ice", de: "With ice", nl: "With ice" },
+        { en: "With water", es: "With water", de: "With water", nl: "With water" },
+        { en: "Mixed drink", es: "Mixed drink", de: "Mixed drink", nl: "Mixed drink" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A spirit served neat is poured straight from the bottle with no ice or mixers.",
+        es: "A spirit served neat is poured straight from the bottle with no ice or mixers.",
+        de: "A spirit served neat is poured straight from the bottle with no ice or mixers.",
+        nl: "A spirit served neat is poured straight from the bottle with no ice or mixers."
+      }
+    },
+    {
+      question: {
+        en: "What is distillation?",
+        es: "What is distillation?",
+        de: "What is distillation?",
+        nl: "What is distillation?"
+      },
+      options: [
+        { en: "Heating liquid to separate alcohol from water", es: "Heating liquid to separate alcohol from water", de: "Heating liquid to separate alcohol from water", nl: "Heating liquid to separate alcohol from water" },
+        { en: "Fermentation process", es: "Fermentation process", de: "Fermentation process", nl: "Fermentation process" },
+        { en: "Aging process", es: "Aging process", de: "Aging process", nl: "Aging process" },
+        { en: "Filtering process", es: "Filtering process", de: "Filtering process", nl: "Filtering process" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Distillation heats fermented liquid to vaporize and collect alcohol, separating it from water.",
+        es: "Distillation heats fermented liquid to vaporize and collect alcohol, separating it from water.",
+        de: "Distillation heats fermented liquid to vaporize and collect alcohol, separating it from water.",
+        nl: "Distillation heats fermented liquid to vaporize and collect alcohol, separating it from water."
+      }
+
       }
     ]
   };

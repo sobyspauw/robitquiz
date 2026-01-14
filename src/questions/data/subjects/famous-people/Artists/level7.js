@@ -427,6 +427,237 @@
           de: "Gustav Klimt malte dieses Porträt 1907 während seiner 'Goldenen Periode'. Das Gemälde wurde von den Nazis geplündert und wurde Gegenstand eines berühmten Restitutionsfalls. 2006 wurde es für 135 Millionen Dollar verkauft, damals ein Rekordpreis für ein Gemälde.",
           nl: "Gustav Klimt schilderde dit portret in 1907 tijdens zijn 'Gouden Periode'. Het schilderij werd geroofd door de nazi's en werd het onderwerp van een beroemde restitutiezaak. In 2006 werd het verkocht voor $135 miljoen, toen een recordprijs voor een schilderij."
         }
+      },
+      {
+        question: {
+          en: "Which Pre-Raphaelite painter created 'The Lady of Shalott', inspired by Tennyson's poem?",
+          es: "¿Qué pintor prerrafaelita creó 'La Dama de Shalott', inspirado en el poema de Tennyson?",
+          de: "Welcher Präraffaelit malte 'Die Dame von Shalott', inspiriert von Tennysons Gedicht?",
+          nl: "Welke prerafaëlitische schilder creëerde 'De Dame van Shalott', geïnspireerd door Tennyson's gedicht?"
+        },
+        options: [
+          { en: "John William Waterhouse", es: "John William Waterhouse", de: "John William Waterhouse", nl: "John William Waterhouse" },
+          { en: "Dante Gabriel Rossetti", es: "Dante Gabriel Rossetti", de: "Dante Gabriel Rossetti", nl: "Dante Gabriel Rossetti" },
+          { en: "John Everett Millais", es: "John Everett Millais", de: "John Everett Millais", nl: "John Everett Millais" },
+          { en: "William Holman Hunt", es: "William Holman Hunt", de: "William Holman Hunt", nl: "William Holman Hunt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "John William Waterhouse painted 'The Lady of Shalott' in 1888, depicting the cursed lady floating downstream in her boat. Though painted decades after the Pre-Raphaelite Brotherhood formed, Waterhouse embraced their romantic medievalism and meticulous detail.",
+          es: "John William Waterhouse pintó 'La Dama de Shalott' en 1888, representando a la dama maldita flotando río abajo en su bote. Aunque pintado décadas después de que se formara la Hermandad Prerrafaelita, Waterhouse abrazó su medievalismo romántico y detalle meticuloso.",
+          de: "John William Waterhouse malte 'Die Dame von Shalott' 1888, zeigt die verfluchte Dame, die in ihrem Boot flussabwärts treibt. Obwohl Jahrzehnte nach der Bildung der Präraffaeliten-Bruderschaft gemalt, umarmte Waterhouse ihren romantischen Mittelalterismus und akribisches Detail.",
+          nl: "John William Waterhouse schilderde 'De Dame van Shalott' in 1888, met de vervloekte dame die stroomafwaarts drijft in haar boot. Hoewel decennia na de vorming van het Prerafaëlitisch Broederschap geschilderd, omarmde Waterhouse hun romantische middeleeuws gedachtegoed en nauwgezette detail."
+        }
+      },
+      {
+        question: {
+          en: "Who painted 'Breezing Up (A Fair Wind)', an iconic American maritime scene?",
+          es: "¿Quién pintó 'Breezing Up (Un Viento Favorable)', una escena marítima americana icónica?",
+          de: "Wer malte 'Breezing Up (Eine günstige Brise)', eine ikonische amerikanische Seeszene?",
+          nl: "Wie schilderde 'Breezing Up (Een Gunstige Wind)', een iconische Amerikaanse maritieme scène?"
+        },
+        options: [
+          { en: "Winslow Homer", es: "Winslow Homer", de: "Winslow Homer", nl: "Winslow Homer" },
+          { en: "Thomas Eakins", es: "Thomas Eakins", de: "Thomas Eakins", nl: "Thomas Eakins" },
+          { en: "John Singer Sargent", es: "John Singer Sargent", de: "John Singer Sargent", nl: "John Singer Sargent" },
+          { en: "Fitz Henry Lane", es: "Fitz Henry Lane", de: "Fitz Henry Lane", nl: "Fitz Henry Lane" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Winslow Homer painted 'Breezing Up (A Fair Wind)' in 1873-1876. The painting shows a man and three boys sailing in Gloucester Harbor, Massachusetts. It celebrates American leisure and maritime culture, and is one of Homer's most beloved works.",
+          es: "Winslow Homer pintó 'Breezing Up (Un Viento Favorable)' en 1873-1876. La pintura muestra a un hombre y tres niños navegando en el Puerto de Gloucester, Massachusetts. Celebra el ocio americano y la cultura marítima, y es una de las obras más queridas de Homer.",
+          de: "Winslow Homer malte 'Breezing Up (Eine günstige Brise)' 1873-1876. Das Gemälde zeigt einen Mann und drei Jungen, die im Hafen von Gloucester, Massachusetts, segeln. Es feiert amerikanische Freizeit und maritime Kultur und ist eines von Homers beliebtesten Werken.",
+          nl: "Winslow Homer schilderde 'Breezing Up (Een Gunstige Wind)' in 1873-1876. Het schilderij toont een man en drie jongens die zeilen in de haven van Gloucester, Massachusetts. Het viert Amerikaanse vrije tijd en maritieme cultuur, en is een van Homer's meest geliefde werken."
+        }
+      },
+      {
+        question: {
+          en: "Which artist created 'Broadway Boogie Woogie', inspired by New York City and jazz music?",
+          es: "¿Qué artista creó 'Broadway Boogie Woogie', inspirado en Nueva York y la música jazz?",
+          de: "Welcher Künstler schuf 'Broadway Boogie Woogie', inspiriert von New York City und Jazzmusik?",
+          nl: "Welke kunstenaar creëerde 'Broadway Boogie Woogie', geïnspireerd door New York City en jazzmuziek?"
+        },
+        options: [
+          { en: "Piet Mondrian", es: "Piet Mondrian", de: "Piet Mondrian", nl: "Piet Mondriaan" },
+          { en: "Kazimir Malevich", es: "Kazimir Malévich", de: "Kasimir Malewitsch", nl: "Kazimir Malevitsj" },
+          { en: "Theo van Doesburg", es: "Theo van Doesburg", de: "Theo van Doesburg", nl: "Theo van Doesburg" },
+          { en: "Wassily Kandinsky", es: "Wassily Kandinsky", de: "Wassily Kandinsky", nl: "Wassily Kandinsky" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Piet Mondrian painted 'Broadway Boogie Woogie' in 1942-1943 after moving to New York. The painting's grid of colored squares evokes Manhattan's streets and the syncopated rhythms of boogie-woogie music. It was his final complete painting before his death in 1944.",
+          es: "Piet Mondrian pintó 'Broadway Boogie Woogie' en 1942-1943 después de mudarse a Nueva York. La cuadrícula de cuadrados de colores de la pintura evoca las calles de Manhattan y los ritmos sincopados de la música boogie-woogie. Fue su última pintura completa antes de su muerte en 1944.",
+          de: "Piet Mondrian malte 'Broadway Boogie Woogie' 1942-1943 nach seinem Umzug nach New York. Das Raster farbiger Quadrate des Gemäldes erinnert an Manhattans Straßen und die synkopierten Rhythmen der Boogie-Woogie-Musik. Es war sein letztes vollendetes Gemälde vor seinem Tod 1944.",
+          nl: "Piet Mondriaan schilderde 'Broadway Boogie Woogie' in 1942-1943 na zijn verhuizing naar New York. Het raster van gekleurde vierkanten roept de straten van Manhattan en de gesyncopeerde ritmes van boogie-woogie muziek op. Het was zijn laatste voltooide schilderij voor zijn dood in 1944."
+        }
+      },
+      {
+        question: {
+          en: "Who painted 'Nighthawks', depicting isolated figures in a late-night diner?",
+          es: "¿Quién pintó 'Noctámbulos', representando figuras aisladas en un restaurante nocturno?",
+          de: "Wer malte 'Nighthawks', das isolierte Figuren in einem Nachtlokal zeigt?",
+          nl: "Wie schilderde 'Nighthawks', met geïsoleerde figuren in een laat-nacht diner?"
+        },
+        options: [
+          { en: "Edward Hopper", es: "Edward Hopper", de: "Edward Hopper", nl: "Edward Hopper" },
+          { en: "Grant Wood", es: "Grant Wood", de: "Grant Wood", nl: "Grant Wood" },
+          { en: "Andrew Wyeth", es: "Andrew Wyeth", de: "Andrew Wyeth", nl: "Andrew Wyeth" },
+          { en: "Charles Sheeler", es: "Charles Sheeler", de: "Charles Sheeler", nl: "Charles Sheeler" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Edward Hopper painted 'Nighthawks' in 1942. The painting depicts four people in a downtown diner late at night, expressing urban isolation and loneliness. It's become one of the most recognizable images in American art, housed at the Art Institute of Chicago.",
+          es: "Edward Hopper pintó 'Noctámbulos' en 1942. La pintura representa a cuatro personas en un restaurante del centro de la ciudad tarde en la noche, expresando aislamiento urbano y soledad. Se ha convertido en una de las imágenes más reconocibles del arte estadounidense, albergada en el Instituto de Arte de Chicago.",
+          de: "Edward Hopper malte 'Nighthawks' 1942. Das Gemälde zeigt vier Personen in einem Innenstadtlokal spät in der Nacht und drückt urbane Isolation und Einsamkeit aus. Es ist zu einem der bekanntesten Bilder der amerikanischen Kunst geworden, ausgestellt im Art Institute of Chicago.",
+          nl: "Edward Hopper schilderde 'Nighthawks' in 1942. Het schilderij toont vier mensen in een diner in het centrum laat in de nacht, uitdrukking gevend aan stedelijke isolatie en eenzaamheid. Het is een van de meest herkenbare beelden in Amerikaanse kunst geworden, ondergebracht in het Art Institute of Chicago."
+        }
+      },
+      {
+        question: {
+          en: "Which artist painted 'A Bar at the Folies-Bergère', featuring a complex mirror reflection?",
+          es: "¿Qué artista pintó 'Un Bar en el Folies-Bergère', con un reflejo de espejo complejo?",
+          de: "Welcher Künstler malte 'Bar in den Folies-Bergère', mit einer komplexen Spiegelreflexion?",
+          nl: "Welke kunstenaar schilderde 'Een Bar in de Folies-Bergère', met een complexe spiegelreflectie?"
+        },
+        options: [
+          { en: "Édouard Manet", es: "Édouard Manet", de: "Édouard Manet", nl: "Édouard Manet" },
+          { en: "Edgar Degas", es: "Edgar Degas", de: "Edgar Degas", nl: "Edgar Degas" },
+          { en: "Henri de Toulouse-Lautrec", es: "Henri de Toulouse-Lautrec", de: "Henri de Toulouse-Lautrec", nl: "Henri de Toulouse-Lautrec" },
+          { en: "Pierre-Auguste Renoir", es: "Pierre-Auguste Renoir", de: "Pierre-Auguste Renoir", nl: "Pierre-Auguste Renoir" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Édouard Manet painted 'A Bar at the Folies-Bergère' in 1882, his final major work. The painting shows a barmaid standing before a mirror, with a puzzling reflection that has intrigued art historians. It captures the modern Parisian nightlife with psychological depth.",
+          es: "Édouard Manet pintó 'Un Bar en el Folies-Bergère' en 1882, su última obra importante. La pintura muestra a una camarera parada frente a un espejo, con un reflejo desconcertante que ha intrigado a los historiadores del arte. Captura la vida nocturna parisina moderna con profundidad psicológica.",
+          de: "Édouard Manet malte 'Bar in den Folies-Bergère' 1882, sein letztes großes Werk. Das Gemälde zeigt eine Bardame vor einem Spiegel stehend, mit einer rätselhaften Reflexion, die Kunsthistoriker fasziniert hat. Es fängt das moderne Pariser Nachtleben mit psychologischer Tiefe ein.",
+          nl: "Édouard Manet schilderde 'Een Bar in de Folies-Bergère' in 1882, zijn laatste grote werk. Het schilderij toont een barmeisje staand voor een spiegel, met een puzzelende reflectie die kunsthistorici heeft geïntrigeerd. Het vangt het moderne Parijse nachtleven met psychologische diepte."
+        }
+      },
+      {
+        question: {
+          en: "Who created 'White Center (Yellow, Pink and Lavender on Rose)', sold for $72.8 million in 2007?",
+          es: "¿Quién creó 'Centro Blanco (Amarillo, Rosa y Lavanda sobre Rosa)', vendido por $72.8 millones en 2007?",
+          de: "Wer schuf 'Weißes Zentrum (Gelb, Rosa und Lavendel auf Rosa)', 2007 für 72,8 Millionen Dollar verkauft?",
+          nl: "Wie creëerde 'Wit Centrum (Geel, Roze en Lavendel op Roze)', verkocht voor $72,8 miljoen in 2007?"
+        },
+        options: [
+          { en: "Mark Rothko", es: "Mark Rothko", de: "Mark Rothko", nl: "Mark Rothko" },
+          { en: "Barnett Newman", es: "Barnett Newman", de: "Barnett Newman", nl: "Barnett Newman" },
+          { en: "Clyfford Still", es: "Clyfford Still", de: "Clyfford Still", nl: "Clyfford Still" },
+          { en: "Robert Motherwell", es: "Robert Motherwell", de: "Robert Motherwell", nl: "Robert Motherwell" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mark Rothko painted 'White Center (Yellow, Pink and Lavender on Rose)' in 1950. The Color Field masterpiece sold at Sotheby's in 2007 for $72.8 million to the royal family of Qatar. Rothko's luminous, meditative rectangles were meant to evoke transcendent experiences.",
+          es: "Mark Rothko pintó 'Centro Blanco (Amarillo, Rosa y Lavanda sobre Rosa)' en 1950. La obra maestra del Campo de Color se vendió en Sotheby's en 2007 por $72.8 millones a la familia real de Qatar. Los rectángulos luminosos y meditativos de Rothko estaban destinados a evocar experiencias trascendentes.",
+          de: "Mark Rothko malte 'Weißes Zentrum (Gelb, Rosa und Lavendel auf Rosa)' 1950. Das Color Field Meisterwerk wurde 2007 bei Sotheby's für 72,8 Millionen Dollar an die königliche Familie von Katar verkauft. Rothkos leuchtende, meditative Rechtecke sollten transzendente Erfahrungen hervorrufen.",
+          nl: "Mark Rothko schilderde 'Wit Centrum (Geel, Roze en Lavendel op Roze)' in 1950. Het Color Field meesterwerk verkocht bij Sotheby's in 2007 voor $72,8 miljoen aan de koninklijke familie van Qatar. Rothko's lumineuze, meditatieve rechthoeken waren bedoeld om transcendente ervaringen op te roepen."
+        }
+      },
+      {
+        question: {
+          en: "Which artist painted 'Le Moulin de la Galette', depicting a popular Parisian dance garden?",
+          es: "¿Qué artista pintó 'Le Moulin de la Galette', representando un popular jardín de baile parisino?",
+          de: "Welcher Künstler malte 'Le Moulin de la Galette', das einen beliebten Pariser Tanzgarten zeigt?",
+          nl: "Welke kunstenaar schilderde 'Le Moulin de la Galette', met een populaire Parijse danstuin?"
+        },
+        options: [
+          { en: "Pierre-Auguste Renoir", es: "Pierre-Auguste Renoir", de: "Pierre-Auguste Renoir", nl: "Pierre-Auguste Renoir" },
+          { en: "Claude Monet", es: "Claude Monet", de: "Claude Monet", nl: "Claude Monet" },
+          { en: "Henri de Toulouse-Lautrec", es: "Henri de Toulouse-Lautrec", de: "Henri de Toulouse-Lautrec", nl: "Henri de Toulouse-Lautrec" },
+          { en: "Edgar Degas", es: "Edgar Degas", de: "Edgar Degas", nl: "Edgar Degas" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pierre-Auguste Renoir painted 'Bal du moulin de la Galette' in 1876. The masterpiece captures Parisians dancing, drinking, and socializing at the Moulin de la Galette in Montmartre. The dappled sunlight and joyful atmosphere exemplify Impressionist ideals of capturing modern life.",
+          es: "Pierre-Auguste Renoir pintó 'Bal du moulin de la Galette' en 1876. La obra maestra captura a los parisinos bailando, bebiendo y socializando en el Moulin de la Galette en Montmartre. La luz solar moteada y la atmósfera alegre ejemplifican los ideales impresionistas de capturar la vida moderna.",
+          de: "Pierre-Auguste Renoir malte 'Bal du moulin de la Galette' 1876. Das Meisterwerk zeigt Pariser beim Tanzen, Trinken und geselligen Beisammensein im Moulin de la Galette in Montmartre. Das gesprenkelte Sonnenlicht und die fröhliche Atmosphäre verkörpern impressionistische Ideale, modernes Leben einzufangen.",
+          nl: "Pierre-Auguste Renoir schilderde 'Bal du moulin de la Galette' in 1876. Het meesterwerk vangt Parijzenaars die dansen, drinken en socialiseren in de Moulin de la Galette in Montmartre. Het gevlekte zonlicht en de vrolijke sfeer belichamen impressionistische idealen van het vastleggen van het moderne leven."
+        }
+      },
+      {
+        question: {
+          en: "Who painted 'Las Meninas' (The Maids of Honor), featuring a complex composition with multiple perspectives?",
+          es: "¿Quién pintó 'Las Meninas' (Las Damas de Honor), con una composición compleja con múltiples perspectivas?",
+          de: "Wer malte 'Las Meninas' (Die Hoffräulein), mit einer komplexen Komposition mit mehreren Perspektiven?",
+          nl: "Wie schilderde 'Las Meninas' (De Hofdames), met een complexe compositie met meerdere perspectieven?"
+        },
+        options: [
+          { en: "Diego Velázquez", es: "Diego Velázquez", de: "Diego Velázquez", nl: "Diego Velázquez" },
+          { en: "Francisco Goya", es: "Francisco Goya", de: "Francisco Goya", nl: "Francisco Goya" },
+          { en: "El Greco", es: "El Greco", de: "El Greco", nl: "El Greco" },
+          { en: "Bartolomé Esteban Murillo", es: "Bartolomé Esteban Murillo", de: "Bartolomé Esteban Murillo", nl: "Bartolomé Esteban Murillo" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Diego Velázquez painted 'Las Meninas' in 1656. This Baroque masterpiece shows the artist himself painting the Infanta Margarita and her entourage, with the king and queen reflected in a mirror. Its complex spatial relationships have fascinated artists and scholars for centuries.",
+          es: "Diego Velázquez pintó 'Las Meninas' en 1656. Esta obra maestra barroca muestra al artista mismo pintando a la Infanta Margarita y su séquito, con el rey y la reina reflejados en un espejo. Sus complejas relaciones espaciales han fascinado a artistas y académicos durante siglos.",
+          de: "Diego Velázquez malte 'Las Meninas' 1656. Dieses barocke Meisterwerk zeigt den Künstler selbst beim Malen der Infantin Margarita und ihres Gefolges, wobei König und Königin in einem Spiegel reflektiert werden. Seine komplexen räumlichen Beziehungen haben Künstler und Gelehrte jahrhundertelang fasziniert.",
+          nl: "Diego Velázquez schilderde 'Las Meninas' in 1656. Dit barokke meesterwerk toont de kunstenaar zelf die de Infanta Margarita en haar gevolg schildert, met de koning en koningin gereflecteerd in een spiegel. Zijn complexe ruimtelijke relaties hebben kunstenaars en geleerden eeuwenlang gefascineerd."
+        }
+      },
+      {
+        question: {
+          en: "Which artist created 'Self-Portrait with Thorn Necklace and Hummingbird'?",
+          es: "¿Qué artista creó 'Autorretrato con Collar de Espinas y Colibrí'?",
+          de: "Welcher Künstler schuf 'Selbstporträt mit Dornenkette und Kolibri'?",
+          nl: "Welke kunstenaar creëerde 'Zelfportret met Doornenketting en Kolibrie'?"
+        },
+        options: [
+          { en: "Frida Kahlo", es: "Frida Kahlo", de: "Frida Kahlo", nl: "Frida Kahlo" },
+          { en: "Leonora Carrington", es: "Leonora Carrington", de: "Leonora Carrington", nl: "Leonora Carrington" },
+          { en: "Remedios Varo", es: "Remedios Varo", de: "Remedios Varo", nl: "Remedios Varo" },
+          { en: "Georgia O'Keeffe", es: "Georgia O'Keeffe", de: "Georgia O'Keeffe", nl: "Georgia O'Keeffe" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Frida Kahlo painted 'Self-Portrait with Thorn Necklace and Hummingbird' in 1940. The symbolic painting features a thorn necklace drawing blood, a dead hummingbird, a black cat, and a monkey. These elements represent her physical and emotional pain after her divorce from Diego Rivera.",
+          es: "Frida Kahlo pintó 'Autorretrato con Collar de Espinas y Colibrí' en 1940. La pintura simbólica presenta un collar de espinas que sangra, un colibrí muerto, un gato negro y un mono. Estos elementos representan su dolor físico y emocional después de su divorcio de Diego Rivera.",
+          de: "Frida Kahlo malte 'Selbstporträt mit Dornenkette und Kolibri' 1940. Das symbolische Gemälde zeigt eine blutende Dornenkette, einen toten Kolibri, eine schwarze Katze und einen Affen. Diese Elemente repräsentieren ihren körperlichen und emotionalen Schmerz nach ihrer Scheidung von Diego Rivera.",
+          nl: "Frida Kahlo schilderde 'Zelfportret met Doornenketting en Kolibrie' in 1940. Het symbolische schilderij toont een doornenketting die bloedt, een dode kolibrie, een zwarte kat en een aap. Deze elementen vertegenwoordigen haar fysieke en emotionele pijn na haar scheiding van Diego Rivera."
+        }
+      },
+      {
+        question: {
+          en: "Who painted 'Olympia', a controversial reclining nude that scandalized the 1865 Paris Salon?",
+          es: "¿Quién pintó 'Olimpia', un desnudo reclinado controvertido que escandalizó el Salón de París de 1865?",
+          de: "Wer malte 'Olympia', einen kontroversen liegenden Akt, der den Pariser Salon von 1865 schockierte?",
+          nl: "Wie schilderde 'Olympia', een controversieel liggend naakt dat het Parijse Salon van 1865 schokte?"
+        },
+        options: [
+          { en: "Édouard Manet", es: "Édouard Manet", de: "Édouard Manet", nl: "Édouard Manet" },
+          { en: "Gustave Courbet", es: "Gustave Courbet", de: "Gustave Courbet", nl: "Gustave Courbet" },
+          { en: "Edgar Degas", es: "Edgar Degas", de: "Edgar Degas", nl: "Edgar Degas" },
+          { en: "Pierre-Auguste Renoir", es: "Pierre-Auguste Renoir", de: "Pierre-Auguste Renoir", nl: "Pierre-Auguste Renoir" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Édouard Manet painted 'Olympia' in 1863, exhibited in 1865. The painting depicts a nude courtesan confrontationally gazing at the viewer, attended by a Black maid with flowers. Its frank treatment of prostitution and the model's direct stare caused outrage, but it's now considered a masterpiece of modern art.",
+          es: "Édouard Manet pintó 'Olimpia' en 1863, exhibida en 1865. La pintura representa a una cortesana desnuda que mira confrontacionalmente al espectador, atendida por una criada negra con flores. Su tratamiento franco de la prostitución y la mirada directa de la modelo causaron indignación, pero ahora se considera una obra maestra del arte moderno.",
+          de: "Édouard Manet malte 'Olympia' 1863, ausgestellt 1865. Das Gemälde zeigt eine nackte Kurtisane, die den Betrachter konfrontativ anblickt, bedient von einer schwarzen Zofe mit Blumen. Seine offene Behandlung der Prostitution und der direkte Blick des Modells verursachten Empörung, wird aber heute als Meisterwerk moderner Kunst betrachtet.",
+          nl: "Édouard Manet schilderde 'Olympia' in 1863, tentoongesteld in 1865. Het schilderij toont een naakte courtisane die de kijker confronterend aankijkt, bediend door een zwarte meid met bloemen. De openhartige behandeling van prostitutie en de directe blik van het model veroorzaakten verontwaardiging, maar het wordt nu beschouwd als een meesterwerk van moderne kunst."
+        }
+      },
+      {
+        question: {
+          en: "Which artist painted 'The Garden of Earthly Delights', a triptych filled with fantastical imagery?",
+          es: "¿Qué artista pintó 'El Jardín de las Delicias', un tríptico lleno de imágenes fantásticas?",
+          de: "Welcher Künstler malte 'Der Garten der Lüste', ein Triptychon voller fantastischer Bilder?",
+          nl: "Welke kunstenaar schilderde 'De Tuin der Lusten', een drieluik gevuld met fantastische beelden?"
+        },
+        options: [
+          { en: "Hieronymus Bosch", es: "El Bosco", de: "Hieronymus Bosch", nl: "Jheronimus Bosch" },
+          { en: "Pieter Bruegel the Elder", es: "Pieter Bruegel el Viejo", de: "Pieter Bruegel der Ältere", nl: "Pieter Bruegel de Oudere" },
+          { en: "Jan van Eyck", es: "Jan van Eyck", de: "Jan van Eyck", nl: "Jan van Eyck" },
+          { en: "Rogier van der Weyden", es: "Rogier van der Weyden", de: "Rogier van der Weyden", nl: "Rogier van der Weyden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hieronymus Bosch painted 'The Garden of Earthly Delights' between 1490-1510. The triptych depicts Paradise, earthly pleasures, and Hell with bizarre creatures and surreal scenes. Its complex symbolism continues to fascinate viewers and scholars. It's housed at the Museo del Prado in Madrid.",
+          es: "El Bosco pintó 'El Jardín de las Delicias' entre 1490-1510. El tríptico representa el Paraíso, los placeres terrenales y el Infierno con criaturas bizarras y escenas surrealistas. Su complejo simbolismo continúa fascinando a espectadores y académicos. Se encuentra en el Museo del Prado en Madrid.",
+          de: "Hieronymus Bosch malte 'Der Garten der Lüste' zwischen 1490-1510. Das Triptychon zeigt das Paradies, irdische Vergnügen und die Hölle mit bizarren Kreaturen und surrealen Szenen. Seine komplexe Symbolik fasziniert weiterhin Betrachter und Gelehrte. Es befindet sich im Museo del Prado in Madrid.",
+          nl: "Jheronimus Bosch schilderde 'De Tuin der Lusten' tussen 1490-1510. Het drieluik toont het Paradijs, aardse genoegens en de Hel met bizarre wezens en surrealistische scènes. Zijn complexe symboliek blijft kijkers en geleerden fascineren. Het bevindt zich in het Museo del Prado in Madrid."
+        }
       }
     ]
   };

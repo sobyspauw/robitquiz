@@ -1606,6 +1606,47 @@
                   de: "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
                   nl: "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
             }
+      },
+      {
+            question: {
+                  en: "What is the suggestion blocking strategy?",
+                  es: "What is the suggestion blocking strategy?",
+                  de: "What is the suggestion blocking strategy?",
+                  nl: "What is the suggestion blocking strategy?"
+            },
+            options: [
+                  {
+                        en: "Making suggestions to prevent opponents from entering key rooms",
+                        es: "Making suggestions to prevent opponents from entering key rooms",
+                        de: "Making suggestions to prevent opponents from entering key rooms",
+                        nl: "Making suggestions to prevent opponents from entering key rooms"
+                  },
+                  {
+                        en: "Blocking doorways physically",
+                        es: "Blocking doorways physically",
+                        de: "Blocking doorways physically",
+                        nl: "Blocking doorways physically"
+                  },
+                  {
+                        en: "Refusing to answer",
+                        es: "Refusing to answer",
+                        de: "Refusing to answer",
+                        nl: "Refusing to answer"
+                  },
+                  {
+                        en: "Moving backwards",
+                        es: "Moving backwards",
+                        de: "Moving backwards",
+                        nl: "Moving backwards"
+                  }
+            ],
+            correct: 0,
+            explanation: {
+                  en: "Strategic suggestions can force opponents into less useful positions while gathering information about cards they hold.",
+                  es: "Strategic suggestions can force opponents into less useful positions while gathering information about cards they hold.",
+                  de: "Strategic suggestions can force opponents into less useful positions while gathering information about cards they hold.",
+                  nl: "Strategic suggestions can force opponents into less useful positions while gathering information about cards they hold."
+            }
       }
 ]
   };

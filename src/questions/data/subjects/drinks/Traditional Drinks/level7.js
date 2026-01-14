@@ -829,6 +829,867 @@
           nl: "Traditioneel gose ondergaat ketel verzuring met lactobacillus bacteriën voor het koken, wat de karakteristieke zure, verfrissende smaak creëert samen met toegevoegd zout en koriander."
         }
       },
+      {
+        question: {
+          en: "What is the traditional Korean nuruk fermentation starter made from?",
+          es: "¿De qué está hecho el iniciador de fermentación coreano tradicional nuruk?",
+          de: "Woraus besteht der traditionelle koreanische Nuruk-Fermentationsstarter?",
+          nl: "Waarvan is de traditionele Koreaanse nuruk fermentatie starter gemaakt?"
+        },
+        options: [
+          {
+            en: "Rice",
+            es: "Arroz",
+            de: "Reis",
+            nl: "Rijst"
+          },
+          {
+            en: "Wheat",
+            es: "Trigo",
+            de: "Weizen",
+            nl: "Tarwe"
+          },
+          {
+            en: "Barley",
+            es: "Cebada",
+            de: "Gerste",
+            nl: "Gerst"
+          },
+          {
+            en: "Corn",
+            es: "Maíz",
+            de: "Mais",
+            nl: "Maïs"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Nuruk is a traditional Korean fermentation starter made from wheat, containing naturally occurring yeasts and molds that convert starches to sugars for makgeolli and soju production.",
+          es: "Nuruk es un iniciador de fermentación coreano tradicional hecho de trigo, conteniendo levaduras y mohos naturales que convierten almidones en azúcares para la producción de makgeolli y soju.",
+          de: "Nuruk ist ein traditioneller koreanischer Fermentationsstarter aus Weizen, der natürlich vorkommende Hefen und Schimmelpilze enthält, die Stärken für die Makgeolli- und Soju-Produktion in Zucker umwandeln.",
+          nl: "Nuruk is een traditionele Koreaanse fermentatie starter gemaakt van tarwe, bevattend natuurlijk voorkomende gisten en schimmels die zetmeel omzetten in suikers voor makgeolli en soju productie."
+        }
+      },
+      {
+        question: {
+          en: "Which traditional fermentation process produces the alcohol in Mexican pulque?",
+          es: "¿Qué proceso de fermentación tradicional produce el alcohol en el pulque mexicano?",
+          de: "Welcher traditionelle Fermentationsprozess produziert den Alkohol in mexikanischem Pulque?",
+          nl: "Welk traditioneel fermentatieproces produceert de alcohol in Mexicaanse pulque?"
+        },
+        options: [
+          {
+            en: "Distillation",
+            es: "Destilación",
+            de: "Destillation",
+            nl: "Distillatie"
+          },
+          {
+            en: "Natural fermentation of agave sap",
+            es: "Fermentación natural de savia de agave",
+            de: "Natürliche Fermentation von Agavensaft",
+            nl: "Natuurlijke fermentatie van agave sap"
+          },
+          {
+            en: "Malolactic fermentation",
+            es: "Fermentación maloláctica",
+            de: "Malolaktische Gärung",
+            nl: "Malolactische fermentatie"
+          },
+          {
+            en: "Steam injection",
+            es: "Inyección de vapor",
+            de: "Dampfinjektion",
+            nl: "Stoom injectie"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Pulque is produced through natural fermentation of fresh aguamiel (agave sap) using wild yeasts and bacteria, creating a slightly viscous, mildly alcoholic beverage consumed for millennia in Mexico.",
+          es: "El pulque se produce mediante fermentación natural de aguamiel fresco (savia de agave) usando levaduras y bacterias silvestres, creando una bebida ligeramente viscosa y moderadamente alcohólica consumida durante milenios en México.",
+          de: "Pulque wird durch natürliche Fermentation von frischem Aguamiel (Agavensaft) mit wilden Hefen und Bakterien hergestellt, wodurch ein leicht viskoses, mild alkoholisches Getränk entsteht, das seit Jahrtausenden in Mexiko konsumiert wird.",
+          nl: "Pulque wordt geproduceerd door natuurlijke fermentatie van verse aguamiel (agave sap) met wilde gisten en bacteriën, wat een licht stroperige, licht alcoholische drank creëert die millennia lang in Mexico wordt geconsumeerd."
+        }
+      },
+      {
+        question: {
+          en: "What is the ideal salt concentration for traditional sauerkraut fermentation?",
+          es: "¿Cuál es la concentración de sal ideal para la fermentación tradicional de chucrut?",
+          de: "Was ist die ideale Salzkonzentration für traditionelle Sauerkraut-Fermentation?",
+          nl: "Wat is de ideale zoutconcentratie voor traditionele zuurkool fermentatie?"
+        },
+        options: [
+          {
+            en: "0.5-1%",
+            es: "0.5-1%",
+            de: "0.5-1%",
+            nl: "0.5-1%"
+          },
+          {
+            en: "2-2.5%",
+            es: "2-2.5%",
+            de: "2-2.5%",
+            nl: "2-2.5%"
+          },
+          {
+            en: "5-6%",
+            es: "5-6%",
+            de: "5-6%",
+            nl: "5-6%"
+          },
+          {
+            en: "10-12%",
+            es: "10-12%",
+            de: "10-12%",
+            nl: "10-12%"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Traditional sauerkraut fermentation requires 2-2.5% salt concentration, which inhibits harmful bacteria while allowing beneficial Lactobacillus to thrive and produce the characteristic sour flavor.",
+          es: "La fermentación tradicional de chucrut requiere una concentración de sal del 2-2.5%, que inhibe bacterias dañinas mientras permite que el Lactobacillus beneficioso prospere y produzca el sabor agrio característico.",
+          de: "Traditionelle Sauerkraut-Fermentation erfordert 2-2.5% Salzkonzentration, die schädliche Bakterien hemmt, während nützliche Lactobacillus gedeihen und den charakteristischen sauren Geschmack produzieren können.",
+          nl: "Traditionele zuurkool fermentatie vereist 2-2.5% zoutconcentratie, wat schadelijke bacteriën remt terwijl nuttige Lactobacillus kan gedijen en de karakteristieke zure smaak produceert."
+        }
+      },
+      {
+        question: {
+          en: "Which traditional fermentation method uses the solera system?",
+          es: "¿Qué método de fermentación tradicional usa el sistema solera?",
+          de: "Welche traditionelle Fermentationsmethode verwendet das Solera-System?",
+          nl: "Welke traditionele fermentatie methode gebruikt het solera systeem?"
+        },
+        options: [
+          {
+            en: "Beer aging",
+            es: "Envejecimiento de cerveza",
+            de: "Bierlagerung",
+            nl: "Bier rijping"
+          },
+          {
+            en: "Sherry and vinegar production",
+            es: "Producción de jerez y vinagre",
+            de: "Sherry- und Essigproduktion",
+            nl: "Sherry en azijn productie"
+          },
+          {
+            en: "Cheese maturation",
+            es: "Maduración de queso",
+            de: "Käsereifung",
+            nl: "Kaas rijping"
+          },
+          {
+            en: "Sake brewing",
+            es: "Elaboración de sake",
+            de: "Sake-Brauen",
+            nl: "Sake brouwen"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The solera system is a traditional fractional blending method used in sherry and vinegar production, where younger ferments are progressively blended with older ones to maintain consistent quality and flavor.",
+          es: "El sistema solera es un método tradicional de mezcla fraccionada usado en la producción de jerez y vinagre, donde fermentos más jóvenes se mezclan progresivamente con los más viejos para mantener calidad y sabor consistentes.",
+          de: "Das Solera-System ist eine traditionelle fraktionelle Mischungsmethode in der Sherry- und Essigproduktion, bei der jüngere Fermente progressiv mit älteren gemischt werden, um konsistente Qualität und Geschmack zu erhalten.",
+          nl: "Het solera systeem is een traditionele fractionele mengmethode gebruikt in sherry en azijn productie, waarbij jongere fermenten progressief worden gemengd met oudere om consistente kwaliteit en smaak te behouden."
+        }
+      },
+      {
+        question: {
+          en: "What is the primary fermentation organism in traditional water kefir?",
+          es: "¿Cuál es el organismo de fermentación primario en el kéfir de agua tradicional?",
+          de: "Was ist der primäre Fermentationsorganismus in traditionellem Wasserkefir?",
+          nl: "Wat is het primaire fermentatie organisme in traditionele water kefir?"
+        },
+        options: [
+          {
+            en: "Single yeast strain",
+            es: "Una sola cepa de levadura",
+            de: "Einzelner Hefestamm",
+            nl: "Enkele giststam"
+          },
+          {
+            en: "Symbiotic colony of bacteria and yeasts",
+            es: "Colonia simbiótica de bacterias y levaduras",
+            de: "Symbiotische Kolonie von Bakterien und Hefen",
+            nl: "Symbiotische kolonie van bacteriën en gisten"
+          },
+          {
+            en: "Mold culture",
+            es: "Cultivo de moho",
+            de: "Schimmelkultur",
+            nl: "Schimmel cultuur"
+          },
+          {
+            en: "Pure lactobacillus",
+            es: "Lactobacillus puro",
+            de: "Reiner Lactobacillus",
+            nl: "Pure lactobacillus"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Water kefir grains contain a symbiotic colony of bacteria and yeasts (similar to milk kefir but with different strains) that ferment sugar water into a probiotic, slightly alcoholic beverage.",
+          es: "Los granos de kéfir de agua contienen una colonia simbiótica de bacterias y levaduras (similar al kéfir de leche pero con diferentes cepas) que fermentan agua azucarada en una bebida probiótica ligeramente alcohólica.",
+          de: "Wasserkefir-Körner enthalten eine symbiotische Kolonie von Bakterien und Hefen (ähnlich wie Milchkefir, aber mit verschiedenen Stämmen), die Zuckerwasser in ein probiotisches, leicht alkoholisches Getränk fermentieren.",
+          nl: "Water kefir korrels bevatten een symbiotische kolonie van bacteriën en gisten (vergelijkbaar met melk kefir maar met verschillende stammen) die suikerwater fermenteren in een probiotische, licht alcoholische drank."
+        }
+      },
+      {
+        question: {
+          en: "Which traditional fermentation technique involves exposing wort to open air to collect wild microorganisms?",
+          es: "¿Qué técnica de fermentación tradicional implica exponer el mosto al aire libre para recolectar microorganismos silvestres?",
+          de: "Welche traditionelle Fermentationstechnik beinhaltet das Aussetzen von Würze an die freie Luft, um wilde Mikroorganismen zu sammeln?",
+          nl: "Welke traditionele fermentatie techniek houdt in dat wort wordt blootgesteld aan open lucht om wilde micro-organismen te verzamelen?"
+        },
+        options: [
+          {
+            en: "Coolship fermentation",
+            es: "Fermentación en coolship",
+            de: "Kühlschiff-Fermentation",
+            nl: "Coolship fermentatie"
+          },
+          {
+            en: "Pressure fermentation",
+            es: "Fermentación a presión",
+            de: "Druckgärung",
+            nl: "Druk fermentatie"
+          },
+          {
+            en: "Continuous fermentation",
+            es: "Fermentación continua",
+            de: "Kontinuierliche Fermentation",
+            nl: "Continue fermentatie"
+          },
+          {
+            en: "Cold conditioning",
+            es: "Acondicionamiento en frío",
+            de: "Kaltkonditionierung",
+            nl: "Koude conditionering"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Coolship (koelschip) fermentation is the traditional Belgian method for lambic production, where hot wort is cooled overnight in shallow vessels exposed to open air, collecting wild yeasts and bacteria.",
+          es: "La fermentación en coolship (koelschip) es el método belga tradicional para la producción de lambic, donde el mosto caliente se enfría durante la noche en recipientes poco profundos expuestos al aire libre, recolectando levaduras y bacterias silvestres.",
+          de: "Kühlschiff-Fermentation ist die traditionelle belgische Methode für die Lambic-Produktion, bei der heiße Würze über Nacht in flachen, der freien Luft ausgesetzten Gefäßen abgekühlt wird und wilde Hefen und Bakterien sammelt.",
+          nl: "Coolship (koelschip) fermentatie is de traditionele Belgische methode voor lambic productie, waarbij hete wort 's nachts wordt gekoeld in ondiepe vaten blootgesteld aan open lucht, waarbij wilde gisten en bacteriën worden verzameld."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional minimum aging time for authentic balsamic vinegar of Modena?",
+          es: "¿Cuál es el tiempo mínimo de envejecimiento tradicional para el vinagre balsámico auténtico de Módena?",
+          de: "Was ist die traditionelle Mindestreifezeit für authentischen Balsamico-Essig aus Modena?",
+          nl: "Wat is de traditionele minimale rijpingstijd voor authentieke balsamico azijn van Modena?"
+        },
+        options: [
+          {
+            en: "6 months",
+            es: "6 meses",
+            de: "6 Monate",
+            nl: "6 maanden"
+          },
+          {
+            en: "2 years",
+            es: "2 años",
+            de: "2 Jahre",
+            nl: "2 jaar"
+          },
+          {
+            en: "12 years",
+            es: "12 años",
+            de: "12 Jahre",
+            nl: "12 jaar"
+          },
+          {
+            en: "25 years",
+            es: "25 años",
+            de: "25 Jahre",
+            nl: "25 jaar"
+          }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Traditional balsamic vinegar of Modena (Aceto Balsamico Tradizionale) requires a minimum of 12 years aging in wooden barrels, with some varieties aged 25 years or more, undergoing slow acetification.",
+          es: "El vinagre balsámico tradicional de Módena (Aceto Balsamico Tradizionale) requiere un mínimo de 12 años de envejecimiento en barriles de madera, con algunas variedades envejecidas 25 años o más, experimentando acetificación lenta.",
+          de: "Traditioneller Balsamico-Essig aus Modena (Aceto Balsamico Tradizionale) erfordert mindestens 12 Jahre Reifung in Holzfässern, wobei einige Sorten 25 Jahre oder länger reifen und eine langsame Essigsäuregärung durchlaufen.",
+          nl: "Traditionele balsamico azijn van Modena (Aceto Balsamico Tradizionale) vereist minimaal 12 jaar rijping in houten vaten, waarbij sommige variëteiten 25 jaar of meer worden gerijpt, en langzame azijnzuur vorming ondergaan."
+        }
+      },
+      {
+        question: {
+          en: "Which fermentation process is used to make traditional Filipino tapuy rice wine?",
+          es: "¿Qué proceso de fermentación se usa para hacer vino de arroz filipino tradicional tapuy?",
+          de: "Welcher Fermentationsprozess wird zur Herstellung von traditionellem philippinischem Tapuy-Reiswein verwendet?",
+          nl: "Welk fermentatieproces wordt gebruikt om traditionele Filipijnse tapuy rijstwijn te maken?"
+        },
+        options: [
+          {
+            en: "Single-stage fermentation",
+            es: "Fermentación de una sola etapa",
+            de: "Einstufige Fermentation",
+            nl: "Eenfase fermentatie"
+          },
+          {
+            en: "Bubod starter fermentation",
+            es: "Fermentación con iniciador bubod",
+            de: "Bubod-Starter-Fermentation",
+            nl: "Bubod starter fermentatie"
+          },
+          {
+            en: "Steam distillation",
+            es: "Destilación al vapor",
+            de: "Wasserdampfdestillation",
+            nl: "Stoom distillatie"
+          },
+          {
+            en: "Cold maceration",
+            es: "Maceración en frío",
+            de: "Kaltmazeration",
+            nl: "Koude maceratie"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Traditional Filipino tapuy uses bubod (rice cake starter containing molds and yeasts) to ferment glutinous rice, similar to other Asian rice wine fermentation methods using traditional starter cultures.",
+          es: "El tapuy filipino tradicional usa bubod (iniciador de pastel de arroz conteniendo mohos y levaduras) para fermentar arroz glutinoso, similar a otros métodos de fermentación de vino de arroz asiático usando cultivos iniciadores tradicionales.",
+          de: "Traditioneller philippinischer Tapuy verwendet Bubod (Reiskuchen-Starter mit Schimmelpilzen und Hefen) zur Fermentation von Klebreis, ähnlich anderen asiatischen Reiswein-Fermentationsmethoden mit traditionellen Starterkulturen.",
+          nl: "Traditionele Filipijnse tapuy gebruikt bubod (rijstkoek starter bevattend schimmels en gisten) om kleefrijst te fermenteren, vergelijkbaar met andere Aziatische rijstwijn fermentatie methoden die traditionele starter culturen gebruiken."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional maturation period for authentic Scotch whisky?",
+          es: "¿Cuál es el período de maduración tradicional para whisky escocés auténtico?",
+          de: "Was ist die traditionelle Reifezeit für authentischen schottischen Whisky?",
+          nl: "Wat is de traditionele rijpingsperiode voor authentieke Schotse whisky?"
+        },
+        options: [
+          {
+            en: "At least 1 year",
+            es: "Al menos 1 año",
+            de: "Mindestens 1 Jahr",
+            nl: "Minstens 1 jaar"
+          },
+          {
+            en: "At least 3 years",
+            es: "Al menos 3 años",
+            de: "Mindestens 3 Jahre",
+            nl: "Minstens 3 jaar"
+          },
+          {
+            en: "At least 7 years",
+            es: "Al menos 7 años",
+            de: "Mindestens 7 Jahre",
+            nl: "Minstens 7 jaar"
+          },
+          {
+            en: "At least 12 years",
+            es: "Al menos 12 años",
+            de: "Mindestens 12 Jahre",
+            nl: "Minstens 12 jaar"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "By law, authentic Scotch whisky must mature in oak casks in Scotland for a minimum of 3 years, though many premium varieties age much longer to develop complex flavors.",
+          es: "Por ley, el whisky escocés auténtico debe madurar en barricas de roble en Escocia durante un mínimo de 3 años, aunque muchas variedades premium envejecen mucho más tiempo para desarrollar sabores complejos.",
+          de: "Laut Gesetz muss authentischer schottischer Whisky mindestens 3 Jahre in Eichenfässern in Schottland reifen, obwohl viele Premium-Sorten viel länger reifen, um komplexe Aromen zu entwickeln.",
+          nl: "Volgens de wet moet authentieke Schotse whisky minimaal 3 jaar rijpen in eiken vaten in Schotland, hoewel veel premium variëteiten veel langer rijpen om complexe smaken te ontwikkelen."
+        }
+      },
+      {
+        question: {
+          en: "Which wild yeast strain is primarily responsible for lambic beer fermentation?",
+          es: "¿Qué cepa de levadura silvestre es principalmente responsable de la fermentación de cerveza lambic?",
+          de: "Welcher wilde Hefestamm ist hauptsächlich für die Lambic-Bier-Fermentation verantwortlich?",
+          nl: "Welke wilde giststam is voornamelijk verantwoordelijk voor lambic bier fermentatie?"
+        },
+        options: [
+          {
+            en: "Saccharomyces cerevisiae",
+            es: "Saccharomyces cerevisiae",
+            de: "Saccharomyces cerevisiae",
+            nl: "Saccharomyces cerevisiae"
+          },
+          {
+            en: "Brettanomyces bruxellensis",
+            es: "Brettanomyces bruxellensis",
+            de: "Brettanomyces bruxellensis",
+            nl: "Brettanomyces bruxellensis"
+          },
+          {
+            en: "Candida albicans",
+            es: "Candida albicans",
+            de: "Candida albicans",
+            nl: "Candida albicans"
+          },
+          {
+            en: "Pichia pastoris",
+            es: "Pichia pastoris",
+            de: "Pichia pastoris",
+            nl: "Pichia pastoris"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Brettanomyces bruxellensis (Brett) is the primary wild yeast in lambic fermentation, creating the characteristic funky, earthy, and sour flavors along with various bacteria during long aging periods.",
+          es: "Brettanomyces bruxellensis (Brett) es la levadura silvestre primaria en la fermentación lambic, creando los sabores característicos funky, terrosos y agrios junto con varias bacterias durante períodos largos de envejecimiento.",
+          de: "Brettanomyces bruxellensis (Brett) ist die primäre wilde Hefe bei der Lambic-Fermentation und erzeugt die charakteristischen funkigen, erdigen und sauren Aromen zusammen mit verschiedenen Bakterien während langer Reifezeiten.",
+          nl: "Brettanomyces bruxellensis (Brett) is de primaire wilde gist in lambic fermentatie, wat de karakteristieke funky, aardse en zure smaken creëert samen met verschillende bacteriën tijdens lange rijpingsperiodes."
+        }
+      },
+      {
+        question: {
+          en: "What temperature does traditional hot-process mashing occur at in beer brewing?",
+          es: "¿A qué temperatura ocurre el macerado tradicional de proceso caliente en la elaboración de cerveza?",
+          de: "Bei welcher Temperatur erfolgt das traditionelle Heißmaischen beim Bierbrauen?",
+          nl: "Bij welke temperatuur vindt traditioneel heet-proces maischen plaats bij bier brouwen?"
+        },
+        options: [
+          {
+            en: "45-55°C (113-131°F)",
+            es: "45-55°C (113-131°F)",
+            de: "45-55°C (113-131°F)",
+            nl: "45-55°C (113-131°F)"
+          },
+          {
+            en: "62-68°C (144-154°F)",
+            es: "62-68°C (144-154°F)",
+            de: "62-68°C (144-154°F)",
+            nl: "62-68°C (144-154°F)"
+          },
+          {
+            en: "75-80°C (167-176°F)",
+            es: "75-80°C (167-176°F)",
+            de: "75-80°C (167-176°F)",
+            nl: "75-80°C (167-176°F)"
+          },
+          {
+            en: "90-100°C (194-212°F)",
+            es: "90-100°C (194-212°F)",
+            de: "90-100°C (194-212°F)",
+            nl: "90-100°C (194-212°F)"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Traditional beer mashing occurs at 62-68°C (144-154°F), the optimal temperature range for enzymatic conversion of grain starches to fermentable sugars by amylase enzymes.",
+          es: "El macerado tradicional de cerveza ocurre a 62-68°C (144-154°F), el rango de temperatura óptimo para la conversión enzimática de almidones de grano en azúcares fermentables por enzimas amilasa.",
+          de: "Traditionelles Biermaischen erfolgt bei 62-68°C (144-154°F), dem optimalen Temperaturbereich für die enzymatische Umwandlung von Getreidestärke in vergärbare Zucker durch Amylase-Enzyme.",
+          nl: "Traditioneel bier maischen vindt plaats bij 62-68°C (144-154°F), het optimale temperatuurbereik voor enzymatische conversie van graanzetmeel naar vergistbare suikers door amylase enzymen."
+        }
+      },
+      {
+        question: {
+          en: "Which traditional fermentation method creates natural carbonation in champagne?",
+          es: "¿Qué método de fermentación tradicional crea carbonatación natural en champán?",
+          de: "Welche traditionelle Fermentationsmethode erzeugt natürliche Kohlensäure in Champagner?",
+          nl: "Welke traditionele fermentatie methode creëert natuurlijke koolzuur in champagne?"
+        },
+        options: [
+          {
+            en: "Forced carbonation",
+            es: "Carbonatación forzada",
+            de: "Zwangskarbonisierung",
+            nl: "Geforceerde koolzuur"
+          },
+          {
+            en: "Méthode champenoise (bottle fermentation)",
+            es: "Méthode champenoise (fermentación en botella)",
+            de: "Méthode champenoise (Flaschengärung)",
+            nl: "Méthode champenoise (fles fermentatie)"
+          },
+          {
+            en: "Tank pressurization",
+            es: "Presurización de tanque",
+            de: "Tank-Druckbeaufschlagung",
+            nl: "Tank druk zetten"
+          },
+          {
+            en: "CO2 injection",
+            es: "Inyección de CO2",
+            de: "CO2-Injektion",
+            nl: "CO2 injectie"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Méthode champenoise (traditional method) involves secondary fermentation in the bottle with added sugar and yeast, trapping CO2 to create natural fine bubbles over months or years of aging.",
+          es: "Méthode champenoise (método tradicional) implica fermentación secundaria en la botella con azúcar y levadura añadidos, atrapando CO2 para crear burbujas finas naturales durante meses o años de envejecimiento.",
+          de: "Méthode champenoise (traditionelle Methode) beinhaltet Sekundärgärung in der Flasche mit zugesetztem Zucker und Hefe, wobei CO2 eingefangen wird, um über Monate oder Jahre der Reifung natürliche feine Bläschen zu erzeugen.",
+          nl: "Méthode champenoise (traditionele methode) houdt secundaire fermentatie in de fles in met toegevoegde suiker en gist, waarbij CO2 wordt vastgehouden om natuurlijke fijne bubbels te creëren gedurende maanden of jaren van rijping."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional fermentation time for authentic German sauerkraut?",
+          es: "¿Cuál es el tiempo de fermentación tradicional para chucrut alemán auténtico?",
+          de: "Was ist die traditionelle Fermentationszeit für authentisches deutsches Sauerkraut?",
+          nl: "Wat is de traditionele fermentatie tijd voor authentieke Duitse zuurkool?"
+        },
+        options: [
+          {
+            en: "3-5 days",
+            es: "3-5 días",
+            de: "3-5 Tage",
+            nl: "3-5 dagen"
+          },
+          {
+            en: "1-2 weeks",
+            es: "1-2 semanas",
+            de: "1-2 Wochen",
+            nl: "1-2 weken"
+          },
+          {
+            en: "3-6 weeks",
+            es: "3-6 semanas",
+            de: "3-6 Wochen",
+            nl: "3-6 weken"
+          },
+          {
+            en: "3-6 months",
+            es: "3-6 meses",
+            de: "3-6 Monate",
+            nl: "3-6 maanden"
+          }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Traditional German sauerkraut ferments for 3-6 weeks at cool temperatures, allowing multiple stages of bacterial succession to develop complex flavors and maximum probiotic benefits.",
+          es: "El chucrut alemán tradicional fermenta durante 3-6 semanas a temperaturas frescas, permitiendo múltiples etapas de sucesión bacteriana para desarrollar sabores complejos y máximos beneficios probióticos.",
+          de: "Traditionelles deutsches Sauerkraut fermentiert 3-6 Wochen bei kühlen Temperaturen und ermöglicht mehrere Stadien bakterieller Sukzession zur Entwicklung komplexer Aromen und maximaler probiotischer Vorteile.",
+          nl: "Traditionele Duitse zuurkool fermenteert 3-6 weken bij koele temperaturen, wat meerdere stadia van bacteriële successie mogelijk maakt om complexe smaken en maximale probiotische voordelen te ontwikkelen."
+        }
+      },
+      {
+        question: {
+          en: "Which enzyme is primarily responsible for converting starches to sugars during malting?",
+          es: "¿Qué enzima es principalmente responsable de convertir almidones en azúcares durante el malteado?",
+          de: "Welches Enzym ist hauptsächlich für die Umwandlung von Stärke in Zucker während des Mälzens verantwortlich?",
+          nl: "Welk enzym is voornamelijk verantwoordelijk voor het omzetten van zetmeel naar suikers tijdens het mouten?"
+        },
+        options: [
+          {
+            en: "Protease",
+            es: "Proteasa",
+            de: "Protease",
+            nl: "Protease"
+          },
+          {
+            en: "Amylase",
+            es: "Amilasa",
+            de: "Amylase",
+            nl: "Amylase"
+          },
+          {
+            en: "Lipase",
+            es: "Lipasa",
+            de: "Lipase",
+            nl: "Lipase"
+          },
+          {
+            en: "Cellulase",
+            es: "Celulasa",
+            de: "Cellulase",
+            nl: "Cellulase"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Amylase enzymes (alpha and beta-amylase) break down complex grain starches into fermentable sugars during malting and mashing, essential for traditional beer and whisky production.",
+          es: "Las enzimas amilasa (alfa y beta-amilasa) descomponen almidones complejos de grano en azúcares fermentables durante el malteado y macerado, esenciales para la producción tradicional de cerveza y whisky.",
+          de: "Amylase-Enzyme (Alpha- und Beta-Amylase) bauen komplexe Getreidestärken während des Mälzens und Maischens in vergärbare Zucker ab, essentiell für die traditionelle Bier- und Whiskyproduktion.",
+          nl: "Amylase enzymen (alfa en bèta-amylase) breken complexe graanzetmelen af naar vergistbare suikers tijdens mouten en maischen, essentieel voor traditionele bier en whisky productie."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional Albanian raki fermentation base ingredient?",
+          es: "¿Cuál es el ingrediente base tradicional para la fermentación del raki albanés?",
+          de: "Was ist die traditionelle Basis-Zutat für die albanische Raki-Fermentation?",
+          nl: "Wat is het traditionele Albanese raki fermentatie basis ingrediënt?"
+        },
+        options: [
+          {
+            en: "Grain mash",
+            es: "Puré de grano",
+            de: "Getreidemaische",
+            nl: "Graan maische"
+          },
+          {
+            en: "Grapes and plums",
+            es: "Uvas y ciruelas",
+            de: "Trauben und Pflaumen",
+            nl: "Druiven en pruimen"
+          },
+          {
+            en: "Potatoes",
+            es: "Patatas",
+            de: "Kartoffeln",
+            nl: "Aardappelen"
+          },
+          {
+            en: "Sugar cane",
+            es: "Caña de azúcar",
+            de: "Zuckerrohr",
+            nl: "Suikerriet"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Traditional Albanian raki is fermented from grapes, plums, or other fruits, then distilled to create a strong fruit brandy, similar to other Balkan rakija varieties with regional fruit variations.",
+          es: "El raki albanés tradicional se fermenta de uvas, ciruelas u otras frutas, luego se destila para crear un brandy de frutas fuerte, similar a otras variedades balcánicas de rakija con variaciones regionales de frutas.",
+          de: "Traditioneller albanischer Raki wird aus Trauben, Pflaumen oder anderen Früchten fermentiert und dann destilliert, um einen starken Fruchtbrand zu erzeugen, ähnlich anderen balkanischen Rakija-Sorten mit regionalen Fruchtvariationen.",
+          nl: "Traditionele Albanese raki wordt gefermenteerd van druiven, pruimen of andere vruchten, dan gedistilleerd om een sterke vruchten brandewijn te creëren, vergelijkbaar met andere Balkan rakija variëteiten met regionale fruit variaties."
+        }
+      },
+      {
+        question: {
+          en: "Which traditional fermentation process creates the distinctive cloudiness in unfiltered sake?",
+          es: "¿Qué proceso de fermentación tradicional crea la turbiedad distintiva en sake sin filtrar?",
+          de: "Welcher traditionelle Fermentationsprozess erzeugt die charakteristische Trübung in ungefiltertem Sake?",
+          nl: "Welk traditioneel fermentatieproces creëert de onderscheidende troebelheid in ongefilterde sake?"
+        },
+        options: [
+          {
+            en: "Bacterial contamination",
+            es: "Contaminación bacteriana",
+            de: "Bakterielle Kontamination",
+            nl: "Bacteriële contaminatie"
+          },
+          {
+            en: "Suspended rice particles and yeast",
+            es: "Partículas de arroz y levadura en suspensión",
+            de: "Schwebende Reispartikel und Hefe",
+            nl: "Zwevende rijst deeltjes en gist"
+          },
+          {
+            en: "Chemical precipitation",
+            es: "Precipitación química",
+            de: "Chemische Ausfällung",
+            nl: "Chemische neerslag"
+          },
+          {
+            en: "Added starch",
+            es: "Almidón añadido",
+            de: "Zugesetzte Stärke",
+            nl: "Toegevoegd zetmeel"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Nigori (cloudy) sake retains suspended rice particles and active yeast from fermentation, deliberately unfiltered or coarsely filtered to preserve creamy texture and fresh, complex flavors.",
+          es: "El sake nigori (turbio) retiene partículas de arroz en suspensión y levadura activa de la fermentación, deliberadamente sin filtrar o filtrado groseramente para preservar textura cremosa y sabores frescos y complejos.",
+          de: "Nigori (trüber) Sake behält schwebende Reispartikel und aktive Hefe aus der Fermentation, absichtlich ungefiltert oder grob gefiltert, um cremige Textur und frische, komplexe Aromen zu bewahren.",
+          nl: "Nigori (troebele) sake behoudt zwevende rijst deeltjes en actieve gist van fermentatie, opzettelijk ongefilterd of grof gefilterd om romige textuur en verse, complexe smaken te behouden."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional vessel material for fermenting Korean makgeolli?",
+          es: "¿Cuál es el material tradicional del recipiente para fermentar makgeolli coreano?",
+          de: "Was ist das traditionelle Gefäßmaterial für die Fermentation von koreanischem Makgeolli?",
+          nl: "Wat is het traditionele vat materiaal voor het fermenteren van Koreaanse makgeolli?"
+        },
+        options: [
+          {
+            en: "Stainless steel",
+            es: "Acero inoxidable",
+            de: "Edelstahl",
+            nl: "Roestvrij staal"
+          },
+          {
+            en: "Earthenware (onggi)",
+            es: "Cerámica (onggi)",
+            de: "Steingut (Onggi)",
+            nl: "Aardewerk (onggi)"
+          },
+          {
+            en: "Glass",
+            es: "Vidrio",
+            de: "Glas",
+            nl: "Glas"
+          },
+          {
+            en: "Plastic",
+            es: "Plástico",
+            de: "Kunststoff",
+            nl: "Plastic"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Traditional Korean makgeolli is fermented in onggi (earthenware jars), which are porous and breathable, allowing beneficial microorganisms to develop and creating optimal fermentation conditions for this milky rice wine.",
+          es: "El makgeolli coreano tradicional se fermenta en onggi (jarras de cerámica), que son porosas y transpirables, permitiendo que se desarrollen microorganismos beneficiosos y creando condiciones óptimas de fermentación para este vino de arroz lechoso.",
+          de: "Traditioneller koreanischer Makgeolli wird in Onggi (Steingut-Krügen) fermentiert, die porös und atmungsaktiv sind, was nützlichen Mikroorganismen die Entwicklung ermöglicht und optimale Fermentationsbedingungen für diesen milchigen Reiswein schafft.",
+          nl: "Traditionele Koreaanse makgeolli wordt gefermenteerd in onggi (aardewerk kruiken), die poreus en ademend zijn, waardoor nuttige micro-organismen zich kunnen ontwikkelen en optimale fermentatie omstandigheden worden gecreëerd voor deze melkachtige rijstwijn."
+        }
+      },
+      {
+        question: {
+          en: "Which traditional fermentation indicator shows that kombucha is ready to harvest?",
+          es: "¿Qué indicador de fermentación tradicional muestra que la kombucha está lista para cosechar?",
+          de: "Welcher traditionelle Fermentationsindikator zeigt, dass Kombucha erntereif ist?",
+          nl: "Welke traditionele fermentatie indicator toont dat kombucha klaar is om te oogsten?"
+        },
+        options: [
+          {
+            en: "Color change to dark brown",
+            es: "Cambio de color a marrón oscuro",
+            de: "Farbwechsel zu Dunkelbraun",
+            nl: "Kleurverandering naar donkerbruin"
+          },
+          {
+            en: "Balanced sweet-tart flavor and pH 2.5-3.5",
+            es: "Sabor equilibrado dulce-ácido y pH 2.5-3.5",
+            de: "Ausgewogener süß-saurer Geschmack und pH 2.5-3.5",
+            nl: "Gebalanceerde zoet-zure smaak en pH 2.5-3.5"
+          },
+          {
+            en: "Complete evaporation of liquid",
+            es: "Evaporación completa del líquido",
+            de: "Vollständige Verdampfung der Flüssigkeit",
+            nl: "Volledige verdamping van vloeistof"
+          },
+          {
+            en: "Solid crystallization",
+            es: "Cristalización sólida",
+            de: "Feste Kristallisation",
+            nl: "Vaste kristallisatie"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Traditional kombucha is ready when it reaches balanced sweet-tart flavor with pH 2.5-3.5 after 7-30 days, indicating proper acidification while retaining beneficial probiotics and avoiding over-fermentation.",
+          es: "La kombucha tradicional está lista cuando alcanza un sabor equilibrado dulce-ácido con pH 2.5-3.5 después de 7-30 días, indicando acidificación apropiada mientras retiene probióticos beneficiosos y evita sobre-fermentación.",
+          de: "Traditioneller Kombucha ist fertig, wenn er nach 7-30 Tagen einen ausgewogenen süß-sauren Geschmack mit pH 2.5-3.5 erreicht, was ordnungsgemäße Ansäuerung anzeigt, während nützliche Probiotika erhalten bleiben und Übergärung vermieden wird.",
+          nl: "Traditionele kombucha is klaar wanneer het een gebalanceerde zoet-zure smaak met pH 2.5-3.5 bereikt na 7-30 dagen, wat juiste verzuring aangeeft terwijl nuttige probiotica behouden blijven en overfermentatie wordt vermeden."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional Chinese method of solid-state fermentation for making baijiu?",
+          es: "¿Cuál es el método chino tradicional de fermentación en estado sólido para hacer baijiu?",
+          de: "Was ist die traditionelle chinesische Methode der Festphasenfermentation zur Herstellung von Baijiu?",
+          nl: "Wat is de traditionele Chinese methode van vaste-stof fermentatie voor het maken van baijiu?"
+        },
+        options: [
+          {
+            en: "Liquid fermentation in tanks",
+            es: "Fermentación líquida en tanques",
+            de: "Flüssigfermentation in Tanks",
+            nl: "Vloeibare fermentatie in tanks"
+          },
+          {
+            en: "Fermentation in earthen pits with grain",
+            es: "Fermentación en pozos de tierra con grano",
+            de: "Fermentation in Erdgruben mit Getreide",
+            nl: "Fermentatie in aarden putten met graan"
+          },
+          {
+            en: "Steam pressure cooking",
+            es: "Cocción a presión de vapor",
+            de: "Dampfdruckkochen",
+            nl: "Stoom druk koken"
+          },
+          {
+            en: "Cold maceration",
+            es: "Maceración en frío",
+            de: "Kaltmazeration",
+            nl: "Koude maceratie"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Traditional Chinese baijiu uses solid-state fermentation in earthen pits lined with mud, where grain (sorghum) and qu starter ferment together, developing complex flavors over weeks or months before distillation.",
+          es: "El baijiu chino tradicional usa fermentación en estado sólido en pozos de tierra revestidos con barro, donde el grano (sorgo) y el iniciador qu fermentan juntos, desarrollando sabores complejos durante semanas o meses antes de la destilación.",
+          de: "Traditioneller chinesischer Baijiu verwendet Festphasenfermentation in mit Schlamm ausgekleideten Erdgruben, wo Getreide (Sorghum) und Qu-Starter zusammen fermentieren und über Wochen oder Monate komplexe Aromen entwickeln vor der Destillation.",
+          nl: "Traditionele Chinese baijiu gebruikt vaste-stof fermentatie in aarden putten bekleed met modder, waar graan (sorghum) en qu starter samen fermenteren, complexe smaken ontwikkelend gedurende weken of maanden voor distillatie."
+        }
+      },
+      {
+        question: {
+          en: "Which traditional fermentation parameter is most critical for preventing botulism in home fermentation?",
+          es: "¿Qué parámetro de fermentación tradicional es más crítico para prevenir botulismo en fermentación casera?",
+          de: "Welcher traditionelle Fermentationsparameter ist am kritischsten zur Verhinderung von Botulismus bei Heimfermentation?",
+          nl: "Welke traditionele fermentatie parameter is het meest kritisch voor het voorkomen van botulisme in thuis fermentatie?"
+        },
+        options: [
+          {
+            en: "Temperature above 40°C",
+            es: "Temperatura superior a 40°C",
+            de: "Temperatur über 40°C",
+            nl: "Temperatuur boven 40°C"
+          },
+          {
+            en: "Maintaining pH below 4.6",
+            es: "Mantener pH por debajo de 4.6",
+            de: "pH unter 4.6 halten",
+            nl: "pH onder 4.6 houden"
+          },
+          {
+            en: "Adding sugar",
+            es: "Agregar azúcar",
+            de: "Zucker hinzufügen",
+            nl: "Suiker toevoegen"
+          },
+          {
+            en: "Stirring daily",
+            es: "Revolver diariamente",
+            de: "Täglich rühren",
+            nl: "Dagelijks roeren"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Maintaining pH below 4.6 is critical in traditional fermentation to prevent Clostridium botulinum growth, as the bacterium cannot survive in acidic environments created by lactic acid fermentation.",
+          es: "Mantener el pH por debajo de 4.6 es crítico en la fermentación tradicional para prevenir el crecimiento de Clostridium botulinum, ya que la bacteria no puede sobrevivir en ambientes ácidos creados por fermentación láctica.",
+          de: "Die Aufrechterhaltung eines pH-Werts unter 4.6 ist bei traditioneller Fermentation kritisch, um das Wachstum von Clostridium botulinum zu verhindern, da das Bakterium in sauren Umgebungen, die durch Milchsäuregärung entstehen, nicht überleben kann.",
+          nl: "Het handhaven van pH onder 4.6 is kritisch in traditionele fermentatie om Clostridium botulinum groei te voorkomen, omdat de bacterie niet kan overleven in zure omgevingen gecreëerd door melkzuurfermentatie."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional Peruvian chicha de jora fermentation starter method?",
+          es: "¿Cuál es el método tradicional peruano del iniciador de fermentación para chicha de jora?",
+          de: "Was ist die traditionelle peruanische Methode des Fermentationsstarters für Chicha de Jora?",
+          nl: "Wat is de traditionele Peruaanse chicha de jora fermentatie starter methode?"
+        },
+        options: [
+          {
+            en: "Commercial yeast packets",
+            es: "Paquetes de levadura comercial",
+            de: "Kommerzielle Hefepakete",
+            nl: "Commerciële gist pakjes"
+          },
+          {
+            en: "Chewing corn to add salivary enzymes",
+            es: "Masticar maíz para agregar enzimas salivales",
+            de: "Mais kauen, um Speichelenzyme hinzuzufügen",
+            nl: "Maïs kauwen om speeksel enzymen toe te voegen"
+          },
+          {
+            en: "Adding vinegar",
+            es: "Agregar vinagre",
+            de: "Essig hinzufügen",
+            nl: "Azijn toevoegen"
+          },
+          {
+            en: "Bacterial culture injection",
+            es: "Inyección de cultivo bacteriano",
+            de: "Bakterienkultur-Injektion",
+            nl: "Bacteriële cultuur injectie"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Traditional chicha de jora preparation involves chewing germinated corn to add salivary amylase enzymes that convert starches to fermentable sugars, though modern production uses malted corn and commercial yeasts.",
+          es: "La preparación tradicional de chicha de jora implica masticar maíz germinado para agregar enzimas amilasa salivales que convierten almidones en azúcares fermentables, aunque la producción moderna usa maíz malteado y levaduras comerciales.",
+          de: "Die traditionelle Chicha de Jora-Zubereitung beinhaltet das Kauen von gekeimtem Mais, um Speichel-Amylase-Enzyme hinzuzufügen, die Stärken in vergärbare Zucker umwandeln, obwohl moderne Produktion gemälzten Mais und kommerzielle Hefen verwendet.",
+          nl: "Traditionele chicha de jora bereiding houdt in dat gekiemde maïs wordt gekauwd om speeksel amylase enzymen toe te voegen die zetmeel omzetten in vergistbare suikers, hoewel moderne productie gemout maïs en commerciële gisten gebruikt."
+        }
+      }
     ]
   };
 

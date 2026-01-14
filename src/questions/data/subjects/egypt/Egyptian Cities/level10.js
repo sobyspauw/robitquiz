@@ -426,7 +426,427 @@
           es: "El kriging ordinario modela autocorrelación espacial en distribuciones de artefactos de Memphis usando variogramas ajustados, interpolando densidades de loza, cobre y cerámica importada a áreas no excavadas con varianzas de predicción asociadas.",
           de: "Gewöhnliches Kriging modelliert räumliche Autokorrelation in Memphis-Artefaktverteilungen mit angepassten Variogrammen, interpoliert Fayence-, Kupfer- und importierte Keramikdichten zu unausgegrabenen Bereichen.",
           nl: "Gewoon kriging modelleert ruimtelijke autocorrelatie in Memphis artefact distributies met behulp van aangepaste variogrammen, interpolerend faience, koper en geïmporteerde keramiek dichtheden naar ongegraven gebieden."
-        }
+        }    },
+    {
+      question: {
+        en: "What was the ancient capital of Upper Egypt?",
+        es: "What was the ancient capital of Upper Egypt?",
+        de: "What was the ancient capital of Upper Egypt?",
+        nl: "What was the ancient capital of Upper Egypt?"
+      },
+      options: [
+        { en: "Thebes (Luxor)", es: "Thebes (Luxor)", de: "Thebes (Luxor)", nl: "Thebes (Luxor)" },
+        { en: "Memphis", es: "Memphis", de: "Memphis", nl: "Memphis" },
+        { en: "Alexandria", es: "Alexandria", de: "Alexandria", nl: "Alexandria" },
+        { en: "Cairo", es: "Cairo", de: "Cairo", nl: "Cairo" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Thebes, modern Luxor, was the ancient capital of Upper Egypt and religious center.",
+        es: "Thebes, modern Luxor, was the ancient capital of Upper Egypt and religious center.",
+        de: "Thebes, modern Luxor, was the ancient capital of Upper Egypt and religious center.",
+        nl: "Thebes, modern Luxor, was the ancient capital of Upper Egypt and religious center."
+      }
+    },
+    {
+      question: {
+        en: "What city was the capital of Lower Egypt?",
+        es: "What city was the capital of Lower Egypt?",
+        de: "What city was the capital of Lower Egypt?",
+        nl: "What city was the capital of Lower Egypt?"
+      },
+      options: [
+        { en: "Memphis", es: "Memphis", de: "Memphis", nl: "Memphis" },
+        { en: "Thebes", es: "Thebes", de: "Thebes", nl: "Thebes" },
+        { en: "Alexandria", es: "Alexandria", de: "Alexandria", nl: "Alexandria" },
+        { en: "Giza", es: "Giza", de: "Giza", nl: "Giza" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Memphis was the ancient capital of Lower Egypt and administrative center.",
+        es: "Memphis was the ancient capital of Lower Egypt and administrative center.",
+        de: "Memphis was the ancient capital of Lower Egypt and administrative center.",
+        nl: "Memphis was the ancient capital of Lower Egypt and administrative center."
+      }
+    },
+    {
+      question: {
+        en: "Who founded the city of Alexandria?",
+        es: "Who founded the city of Alexandria?",
+        de: "Who founded the city of Alexandria?",
+        nl: "Who founded the city of Alexandria?"
+      },
+      options: [
+        { en: "Alexander the Great", es: "Alexander the Great", de: "Alexander the Great", nl: "Alexander the Great" },
+        { en: "Ptolemy I", es: "Ptolemy I", de: "Ptolemy I", nl: "Ptolemy I" },
+        { en: "Cleopatra", es: "Cleopatra", de: "Cleopatra", nl: "Cleopatra" },
+        { en: "Julius Caesar", es: "Julius Caesar", de: "Julius Caesar", nl: "Julius Caesar" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Alexander the Great founded Alexandria in 331 BCE.",
+        es: "Alexander the Great founded Alexandria in 331 BCE.",
+        de: "Alexander the Great founded Alexandria in 331 BCE.",
+        nl: "Alexander the Great founded Alexandria in 331 BCE."
+      }
+    },
+    {
+      question: {
+        en: "What is modern Cairo built near?",
+        es: "What is modern Cairo built near?",
+        de: "What is modern Cairo built near?",
+        nl: "What is modern Cairo built near?"
+      },
+      options: [
+        { en: "Ancient Memphis", es: "Ancient Memphis", de: "Ancient Memphis", nl: "Ancient Memphis" },
+        { en: "Ancient Thebes", es: "Ancient Thebes", de: "Ancient Thebes", nl: "Ancient Thebes" },
+        { en: "Ancient Alexandria", es: "Ancient Alexandria", de: "Ancient Alexandria", nl: "Ancient Alexandria" },
+        { en: "Ancient Amarna", es: "Ancient Amarna", de: "Ancient Amarna", nl: "Ancient Amarna" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Modern Cairo is built near the ruins of ancient Memphis.",
+        es: "Modern Cairo is built near the ruins of ancient Memphis.",
+        de: "Modern Cairo is built near the ruins of ancient Memphis.",
+        nl: "Modern Cairo is built near the ruins of ancient Memphis."
+      }
+    },
+    {
+      question: {
+        en: "What city did Akhenaten build as his new capital?",
+        es: "What city did Akhenaten build as his new capital?",
+        de: "What city did Akhenaten build as his new capital?",
+        nl: "What city did Akhenaten build as his new capital?"
+      },
+      options: [
+        { en: "Amarna (Akhetaten)", es: "Amarna (Akhetaten)", de: "Amarna (Akhetaten)", nl: "Amarna (Akhetaten)" },
+        { en: "Thebes", es: "Thebes", de: "Thebes", nl: "Thebes" },
+        { en: "Memphis", es: "Memphis", de: "Memphis", nl: "Memphis" },
+        { en: "Pi-Ramesses", es: "Pi-Ramesses", de: "Pi-Ramesses", nl: "Pi-Ramesses" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Akhenaten built the city of Akhetaten (Tell el-Amarna) as his new capital dedicated to Aten.",
+        es: "Akhenaten built the city of Akhetaten (Tell el-Amarna) as his new capital dedicated to Aten.",
+        de: "Akhenaten built the city of Akhetaten (Tell el-Amarna) as his new capital dedicated to Aten.",
+        nl: "Akhenaten built the city of Akhetaten (Tell el-Amarna) as his new capital dedicated to Aten."
+      }
+    },
+    {
+      question: {
+        en: "What was Karnak?",
+        es: "What was Karnak?",
+        de: "What was Karnak?",
+        nl: "What was Karnak?"
+      },
+      options: [
+        { en: "Temple complex in Thebes", es: "Temple complex in Thebes", de: "Temple complex in Thebes", nl: "Temple complex in Thebes" },
+        { en: "City name", es: "City name", de: "City name", nl: "City name" },
+        { en: "Palace", es: "Palace", de: "Palace", nl: "Palace" },
+        { en: "Pyramid site", es: "Pyramid site", de: "Pyramid site", nl: "Pyramid site" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Karnak was a massive temple complex in Thebes, dedicated primarily to Amun-Ra.",
+        es: "Karnak was a massive temple complex in Thebes, dedicated primarily to Amun-Ra.",
+        de: "Karnak was a massive temple complex in Thebes, dedicated primarily to Amun-Ra.",
+        nl: "Karnak was a massive temple complex in Thebes, dedicated primarily to Amun-Ra."
+      }
+    },
+    {
+      question: {
+        en: "What city contains the Valley of the Kings?",
+        es: "What city contains the Valley of the Kings?",
+        de: "What city contains the Valley of the Kings?",
+        nl: "What city contains the Valley of the Kings?"
+      },
+      options: [
+        { en: "Thebes/Luxor", es: "Thebes/Luxor", de: "Thebes/Luxor", nl: "Thebes/Luxor" },
+        { en: "Memphis", es: "Memphis", de: "Memphis", nl: "Memphis" },
+        { en: "Alexandria", es: "Alexandria", de: "Alexandria", nl: "Alexandria" },
+        { en: "Giza", es: "Giza", de: "Giza", nl: "Giza" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Valley of the Kings is located near ancient Thebes, modern Luxor.",
+        es: "The Valley of the Kings is located near ancient Thebes, modern Luxor.",
+        de: "The Valley of the Kings is located near ancient Thebes, modern Luxor.",
+        nl: "The Valley of the Kings is located near ancient Thebes, modern Luxor."
+      }
+    },
+    {
+      question: {
+        en: "What was Heliopolis known for?",
+        es: "What was Heliopolis known for?",
+        de: "What was Heliopolis known for?",
+        nl: "What was Heliopolis known for?"
+      },
+      options: [
+        { en: "Sun worship and religious learning", es: "Sun worship and religious learning", de: "Sun worship and religious learning", nl: "Sun worship and religious learning" },
+        { en: "Military base", es: "Military base", de: "Military base", nl: "Military base" },
+        { en: "Trade center", es: "Trade center", de: "Trade center", nl: "Trade center" },
+        { en: "Royal tombs", es: "Royal tombs", de: "Royal tombs", nl: "Royal tombs" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Heliopolis was a major religious center dedicated to sun worship and priestly education.",
+        es: "Heliopolis was a major religious center dedicated to sun worship and priestly education.",
+        de: "Heliopolis was a major religious center dedicated to sun worship and priestly education.",
+        nl: "Heliopolis was a major religious center dedicated to sun worship and priestly education."
+      }
+    },
+    {
+      question: {
+        en: "What city was Ramesses II's capital?",
+        es: "What city was Ramesses II's capital?",
+        de: "What city was Ramesses II's capital?",
+        nl: "What city was Ramesses II's capital?"
+      },
+      options: [
+        { en: "Pi-Ramesses", es: "Pi-Ramesses", de: "Pi-Ramesses", nl: "Pi-Ramesses" },
+        { en: "Thebes", es: "Thebes", de: "Thebes", nl: "Thebes" },
+        { en: "Memphis", es: "Memphis", de: "Memphis", nl: "Memphis" },
+        { en: "Alexandria", es: "Alexandria", de: "Alexandria", nl: "Alexandria" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Ramesses II built Pi-Ramesses in the Nile Delta as his new capital.",
+        es: "Ramesses II built Pi-Ramesses in the Nile Delta as his new capital.",
+        de: "Ramesses II built Pi-Ramesses in the Nile Delta as his new capital.",
+        nl: "Ramesses II built Pi-Ramesses in the Nile Delta as his new capital."
+      }
+    },
+    {
+      question: {
+        en: "What is Luxor Temple?",
+        es: "What is Luxor Temple?",
+        de: "What is Luxor Temple?",
+        nl: "What is Luxor Temple?"
+      },
+      options: [
+        { en: "Temple complex in ancient Thebes", es: "Temple complex in ancient Thebes", de: "Temple complex in ancient Thebes", nl: "Temple complex in ancient Thebes" },
+        { en: "Pyramid", es: "Pyramid", de: "Pyramid", nl: "Pyramid" },
+        { en: "Palace", es: "Palace", de: "Palace", nl: "Palace" },
+        { en: "Fortress", es: "Fortress", de: "Fortress", nl: "Fortress" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Luxor Temple is a large temple complex on the east bank of the Nile in ancient Thebes.",
+        es: "Luxor Temple is a large temple complex on the east bank of the Nile in ancient Thebes.",
+        de: "Luxor Temple is a large temple complex on the east bank of the Nile in ancient Thebes.",
+        nl: "Luxor Temple is a large temple complex on the east bank of the Nile in ancient Thebes."
+      }
+    },
+    {
+      question: {
+        en: "Where is the temple of Abu Simbel located?",
+        es: "Where is the temple of Abu Simbel located?",
+        de: "Where is the temple of Abu Simbel located?",
+        nl: "Where is the temple of Abu Simbel located?"
+      },
+      options: [
+        { en: "Southern Egypt, near Nubian border", es: "Southern Egypt, near Nubian border", de: "Southern Egypt, near Nubian border", nl: "Southern Egypt, near Nubian border" },
+        { en: "Cairo", es: "Cairo", de: "Cairo", nl: "Cairo" },
+        { en: "Alexandria", es: "Alexandria", de: "Alexandria", nl: "Alexandria" },
+        { en: "Luxor", es: "Luxor", de: "Luxor", nl: "Luxor" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Abu Simbel temples are in southern Egypt, originally carved into cliffs near Nubia.",
+        es: "Abu Simbel temples are in southern Egypt, originally carved into cliffs near Nubia.",
+        de: "Abu Simbel temples are in southern Egypt, originally carved into cliffs near Nubia.",
+        nl: "Abu Simbel temples are in southern Egypt, originally carved into cliffs near Nubia."
+      }
+    },
+    {
+      question: {
+        en: "What connected Karnak and Luxor temples?",
+        es: "What connected Karnak and Luxor temples?",
+        de: "What connected Karnak and Luxor temples?",
+        nl: "What connected Karnak and Luxor temples?"
+      },
+      options: [
+        { en: "Avenue of Sphinxes", es: "Avenue of Sphinxes", de: "Avenue of Sphinxes", nl: "Avenue of Sphinxes" },
+        { en: "Nile canal", es: "Nile canal", de: "Nile canal", nl: "Nile canal" },
+        { en: "Royal road", es: "Royal road", de: "Royal road", nl: "Royal road" },
+        { en: "Underground tunnel", es: "Underground tunnel", de: "Underground tunnel", nl: "Underground tunnel" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Avenue of Sphinxes, a 2.7 km processional way, connected Karnak and Luxor temples.",
+        es: "The Avenue of Sphinxes, a 2.7 km processional way, connected Karnak and Luxor temples.",
+        de: "The Avenue of Sphinxes, a 2.7 km processional way, connected Karnak and Luxor temples.",
+        nl: "The Avenue of Sphinxes, a 2.7 km processional way, connected Karnak and Luxor temples."
+      }
+    },
+    {
+      question: {
+        en: "What was Tanis?",
+        es: "What was Tanis?",
+        de: "What was Tanis?",
+        nl: "What was Tanis?"
+      },
+      options: [
+        { en: "Ancient city in Nile Delta", es: "Ancient city in Nile Delta", de: "Ancient city in Nile Delta", nl: "Ancient city in Nile Delta" },
+        { en: "Southern fortress", es: "Southern fortress", de: "Southern fortress", nl: "Southern fortress" },
+        { en: "Western oasis", es: "Western oasis", de: "Western oasis", nl: "Western oasis" },
+        { en: "Eastern trading post", es: "Eastern trading post", de: "Eastern trading post", nl: "Eastern trading post" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Tanis was an important ancient city in the northeastern Nile Delta.",
+        es: "Tanis was an important ancient city in the northeastern Nile Delta.",
+        de: "Tanis was an important ancient city in the northeastern Nile Delta.",
+        nl: "Tanis was an important ancient city in the northeastern Nile Delta."
+      }
+    },
+    {
+      question: {
+        en: "What is the modern name for ancient Thebes?",
+        es: "What is the modern name for ancient Thebes?",
+        de: "What is the modern name for ancient Thebes?",
+        nl: "What is the modern name for ancient Thebes?"
+      },
+      options: [
+        { en: "Luxor", es: "Luxor", de: "Luxor", nl: "Luxor" },
+        { en: "Cairo", es: "Cairo", de: "Cairo", nl: "Cairo" },
+        { en: "Aswan", es: "Aswan", de: "Aswan", nl: "Aswan" },
+        { en: "Alexandria", es: "Alexandria", de: "Alexandria", nl: "Alexandria" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Ancient Thebes is now the modern city of Luxor.",
+        es: "Ancient Thebes is now the modern city of Luxor.",
+        de: "Ancient Thebes is now the modern city of Luxor.",
+        nl: "Ancient Thebes is now the modern city of Luxor."
+      }
+    },
+    {
+      question: {
+        en: "What city housed the famous Library of Alexandria?",
+        es: "What city housed the famous Library of Alexandria?",
+        de: "What city housed the famous Library of Alexandria?",
+        nl: "What city housed the famous Library of Alexandria?"
+      },
+      options: [
+        { en: "Alexandria", es: "Alexandria", de: "Alexandria", nl: "Alexandria" },
+        { en: "Memphis", es: "Memphis", de: "Memphis", nl: "Memphis" },
+        { en: "Thebes", es: "Thebes", de: "Thebes", nl: "Thebes" },
+        { en: "Cairo", es: "Cairo", de: "Cairo", nl: "Cairo" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Great Library of Alexandria was in the city of Alexandria.",
+        es: "The Great Library of Alexandria was in the city of Alexandria.",
+        de: "The Great Library of Alexandria was in the city of Alexandria.",
+        nl: "The Great Library of Alexandria was in the city of Alexandria."
+      }
+    },
+    {
+      question: {
+        en: "What was special about the city of Elephantine?",
+        es: "What was special about the city of Elephantine?",
+        de: "What was special about the city of Elephantine?",
+        nl: "What was special about the city of Elephantine?"
+      },
+      options: [
+        { en: "Island city and trade gateway", es: "Island city and trade gateway", de: "Island city and trade gateway", nl: "Island city and trade gateway" },
+        { en: "Largest city", es: "Largest city", de: "Largest city", nl: "Largest city" },
+        { en: "Religious center", es: "Religious center", de: "Religious center", nl: "Religious center" },
+        { en: "Military capital", es: "Military capital", de: "Military capital", nl: "Military capital" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Elephantine was an island city at Aswan, serving as a trade gateway to Nubia.",
+        es: "Elephantine was an island city at Aswan, serving as a trade gateway to Nubia.",
+        de: "Elephantine was an island city at Aswan, serving as a trade gateway to Nubia.",
+        nl: "Elephantine was an island city at Aswan, serving as a trade gateway to Nubia."
+      }
+    },
+    {
+      question: {
+        en: "Where is the temple of Philae located?",
+        es: "Where is the temple of Philae located?",
+        de: "Where is the temple of Philae located?",
+        nl: "Where is the temple of Philae located?"
+      },
+      options: [
+        { en: "Aswan area", es: "Aswan area", de: "Aswan area", nl: "Aswan area" },
+        { en: "Cairo", es: "Cairo", de: "Cairo", nl: "Cairo" },
+        { en: "Alexandria", es: "Alexandria", de: "Alexandria", nl: "Alexandria" },
+        { en: "Luxor", es: "Luxor", de: "Luxor", nl: "Luxor" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The temple of Philae is located near Aswan, now on Agilkia Island after relocation.",
+        es: "The temple of Philae is located near Aswan, now on Agilkia Island after relocation.",
+        de: "The temple of Philae is located near Aswan, now on Agilkia Island after relocation.",
+        nl: "The temple of Philae is located near Aswan, now on Agilkia Island after relocation."
+      }
+    },
+    {
+      question: {
+        en: "What was Abydos famous for?",
+        es: "What was Abydos famous for?",
+        de: "What was Abydos famous for?",
+        nl: "What was Abydos famous for?"
+      },
+      options: [
+        { en: "Osiris cult center and royal necropolis", es: "Osiris cult center and royal necropolis", de: "Osiris cult center and royal necropolis", nl: "Osiris cult center and royal necropolis" },
+        { en: "Military fortress", es: "Military fortress", de: "Military fortress", nl: "Military fortress" },
+        { en: "Trade port", es: "Trade port", de: "Trade port", nl: "Trade port" },
+        { en: "Agricultural center", es: "Agricultural center", de: "Agricultural center", nl: "Agricultural center" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Abydos was one of Egypt's most sacred cities, center of Osiris worship and site of early royal tombs.",
+        es: "Abydos was one of Egypt's most sacred cities, center of Osiris worship and site of early royal tombs.",
+        de: "Abydos was one of Egypt's most sacred cities, center of Osiris worship and site of early royal tombs.",
+        nl: "Abydos was one of Egypt's most sacred cities, center of Osiris worship and site of early royal tombs."
+      }
+    },
+    {
+      question: {
+        en: "What destroyed much of ancient Alexandria?",
+        es: "What destroyed much of ancient Alexandria?",
+        de: "What destroyed much of ancient Alexandria?",
+        nl: "What destroyed much of ancient Alexandria?"
+      },
+      options: [
+        { en: "Earthquakes and sea level rise", es: "Earthquakes and sea level rise", de: "Earthquakes and sea level rise", nl: "Earthquakes and sea level rise" },
+        { en: "Fire only", es: "Fire only", de: "Fire only", nl: "Fire only" },
+        { en: "War", es: "War", de: "War", nl: "War" },
+        { en: "Sandstorms", es: "Sandstorms", de: "Sandstorms", nl: "Sandstorms" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Much of ancient Alexandria was destroyed by earthquakes and subsequently submerged by sea level changes.",
+        es: "Much of ancient Alexandria was destroyed by earthquakes and subsequently submerged by sea level changes.",
+        de: "Much of ancient Alexandria was destroyed by earthquakes and subsequently submerged by sea level changes.",
+        nl: "Much of ancient Alexandria was destroyed by earthquakes and subsequently submerged by sea level changes."
+      }
+    },
+    {
+      question: {
+        en: "What is Dendera known for?",
+        es: "What is Dendera known for?",
+        de: "What is Dendera known for?",
+        nl: "What is Dendera known for?"
+      },
+      options: [
+        { en: "Temple of Hathor", es: "Temple of Hathor", de: "Temple of Hathor", nl: "Temple of Hathor" },
+        { en: "Great Pyramid", es: "Great Pyramid", de: "Great Pyramid", nl: "Great Pyramid" },
+        { en: "Royal palace", es: "Royal palace", de: "Royal palace", nl: "Royal palace" },
+        { en: "Military academy", es: "Military academy", de: "Military academy", nl: "Military academy" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Dendera is famous for its well-preserved Temple of Hathor with the zodiac ceiling.",
+        es: "Dendera is famous for its well-preserved Temple of Hathor with the zodiac ceiling.",
+        de: "Dendera is famous for its well-preserved Temple of Hathor with the zodiac ceiling.",
+        nl: "Dendera is famous for its well-preserved Temple of Hathor with the zodiac ceiling."
+      }
+
       }
     ]
   };

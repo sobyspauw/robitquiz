@@ -336,12 +336,6 @@
           { en: "Richard Branson", es: "Richard Branson", de: "Richard Branson", nl: "Richard Branson" },
           { en: "Phil Knight", es: "Phil Knight", de: "Phil Knight", nl: "Phil Knight" }
         ],
-        options: [
-          { en: "Dietrich Mateschitz", es: "Dietrich Mateschitz", de: "Dietrich Mateschitz", nl: "Dietrich Mateschitz" },
-          { en: "Howard Schultz", es: "Howard Schultz", de: "Howard Schultz", nl: "Howard Schultz" },
-          { en: "Richard Branson", es: "Richard Branson", de: "Richard Branson", nl: "Richard Branson" },
-          { en: "Phil Knight", es: "Phil Knight", de: "Phil Knight", nl: "Phil Knight" }
-        ],
         correct: 0,
         explanation: {
           en: "Dietrich Mateschitz co-founded Red Bull in 1987 after discovering energy drinks in Thailand. He adapted the formula for Western markets and built Red Bull into a global brand through innovative marketing and extreme sports sponsorships.",
@@ -432,6 +426,237 @@
           es: "Chip Wilson fundó lululemon en 1998 en Vancouver, Canadá. Comenzando con pantalones de yoga, la compañía capitalizó la tendencia athleisure y se convirtió en una marca premium de ropa deportiva valorada en más de $40 mil millones.",
           de: "Chip Wilson gründete lululemon 1998 in Vancouver, Kanada. Das Unternehmen begann mit Yogahosen, profitierte vom Athleisure-Trend und wurde zu einer Premium-Sportbekleidungsmarke im Wert von über 40 Milliarden Dollar.",
           nl: "Chip Wilson heeft lululemon opgericht in 1998 in Vancouver, Canada. Beginnend met yogabroeken profiteerde het bedrijf van de athleisure-trend en werd een premium sportkleding merk gewaardeerd op meer dan $40 miljard."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Coinbase, the cryptocurrency exchange platform?",
+          es: "¿Quién fundó Coinbase, la plataforma de intercambio de criptomonedas?",
+          de: "Wer gründete Coinbase, die Kryptowährungsbörse?",
+          nl: "Wie heeft Coinbase opgericht, het cryptocurrency-uitwisselingsplatform?"
+        },
+        options: [
+          { en: "Brian Armstrong", es: "Brian Armstrong", de: "Brian Armstrong", nl: "Brian Armstrong" },
+          { en: "Vitalik Buterin", es: "Vitalik Buterin", de: "Vitalik Buterin", nl: "Vitalik Buterin" },
+          { en: "Changpeng Zhao", es: "Changpeng Zhao", de: "Changpeng Zhao", nl: "Changpeng Zhao" },
+          { en: "Sam Bankman-Fried", es: "Sam Bankman-Fried", de: "Sam Bankman-Fried", nl: "Sam Bankman-Fried" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Brian Armstrong co-founded Coinbase in 2012 with Fred Ehrsam. The company became the leading US cryptocurrency exchange, making crypto trading accessible to mainstream users. Coinbase went public in 2021 with a valuation of $86 billion.",
+          es: "Brian Armstrong cofundó Coinbase en 2012 con Fred Ehrsam. La compañía se convirtió en el principal intercambio de criptomonedas de EE.UU., haciendo accesible el comercio de criptomonedas a los usuarios convencionales. Coinbase salió a bolsa en 2021 con una valoración de $86 mil millones.",
+          de: "Brian Armstrong gründete Coinbase 2012 zusammen mit Fred Ehrsam. Das Unternehmen wurde zur führenden US-Kryptowährungsbörse und machte den Krypto-Handel für Mainstream-Nutzer zugänglich. Coinbase ging 2021 mit einer Bewertung von 86 Milliarden Dollar an die Börse.",
+          nl: "Brian Armstrong heeft Coinbase mede opgericht in 2012 met Fred Ehrsam. Het bedrijf werd de toonaangevende Amerikaanse cryptocurrency-uitwisseling, waardoor cryptohandel toegankelijk werd voor mainstream-gebruikers. Coinbase ging in 2021 naar de beurs met een waardering van $86 miljard."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Canva, the graphic design platform?",
+          es: "¿Qué empresaria fundó Canva, la plataforma de diseño gráfico?",
+          de: "Welche Unternehmerin gründete Canva, die Grafikdesign-Plattform?",
+          nl: "Welke ondernemer heeft Canva opgericht, het grafisch ontwerpplatform?"
+        },
+        options: [
+          { en: "Melanie Perkins", es: "Melanie Perkins", de: "Melanie Perkins", nl: "Melanie Perkins" },
+          { en: "Whitney Wolfe Herd", es: "Whitney Wolfe Herd", de: "Whitney Wolfe Herd", nl: "Whitney Wolfe Herd" },
+          { en: "Sara Blakely", es: "Sara Blakely", de: "Sara Blakely", nl: "Sara Blakely" },
+          { en: "Anne Wojcicki", es: "Anne Wojcicki", de: "Anne Wojcicki", nl: "Anne Wojcicki" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Melanie Perkins co-founded Canva in 2013 with Cliff Obrecht and Cameron Adams. The Australian company democratized graphic design with easy-to-use tools and templates. Canva reached a valuation of $40 billion and serves over 100 million users.",
+          es: "Melanie Perkins cofundó Canva en 2013 con Cliff Obrecht y Cameron Adams. La compañía australiana democratizó el diseño gráfico con herramientas y plantillas fáciles de usar. Canva alcanzó una valoración de $40 mil millones y sirve a más de 100 millones de usuarios.",
+          de: "Melanie Perkins gründete Canva 2013 zusammen mit Cliff Obrecht und Cameron Adams. Das australische Unternehmen demokratisierte Grafikdesign mit benutzerfreundlichen Tools und Vorlagen. Canva erreichte eine Bewertung von 40 Milliarden Dollar und bedient über 100 Millionen Nutzer.",
+          nl: "Melanie Perkins heeft Canva mede opgericht in 2013 met Cliff Obrecht en Cameron Adams. Het Australische bedrijf democratiseerde grafisch ontwerp met gebruiksvriendelijke tools en sjablonen. Canva bereikte een waardering van $40 miljard en dient meer dan 100 miljoen gebruikers."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Bumble, the dating app where women make the first move?",
+          es: "¿Quién fundó Bumble, la aplicación de citas donde las mujeres dan el primer paso?",
+          de: "Wer gründete Bumble, die Dating-App, bei der Frauen den ersten Schritt machen?",
+          nl: "Wie heeft Bumble opgericht, de dating-app waar vrouwen de eerste zet doen?"
+        },
+        options: [
+          { en: "Whitney Wolfe Herd", es: "Whitney Wolfe Herd", de: "Whitney Wolfe Herd", nl: "Whitney Wolfe Herd" },
+          { en: "Melanie Perkins", es: "Melanie Perkins", de: "Melanie Perkins", nl: "Melanie Perkins" },
+          { en: "Sara Blakely", es: "Sara Blakely", de: "Sara Blakely", nl: "Sara Blakely" },
+          { en: "Sophia Amoruso", es: "Sophia Amoruso", de: "Sophia Amoruso", nl: "Sophia Amoruso" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Whitney Wolfe Herd founded Bumble in 2014 after leaving Tinder. The app empowers women by requiring them to make the first move. Bumble went public in 2021, making Wolfe Herd the youngest female CEO to take a company public at age 31.",
+          es: "Whitney Wolfe Herd fundó Bumble en 2014 después de dejar Tinder. La aplicación empodera a las mujeres al requerir que ellas den el primer paso. Bumble salió a bolsa en 2021, convirtiendo a Wolfe Herd en la CEO femenina más joven en llevar una empresa a la bolsa a los 31 años.",
+          de: "Whitney Wolfe Herd gründete Bumble 2014, nachdem sie Tinder verlassen hatte. Die App stärkt Frauen, indem sie den ersten Schritt machen müssen. Bumble ging 2021 an die Börse und machte Wolfe Herd mit 31 Jahren zur jüngsten weiblichen CEO, die ein Unternehmen an die Börse brachte.",
+          nl: "Whitney Wolfe Herd richtte Bumble op in 2014 na het verlaten van Tinder. De app geeft vrouwen meer macht door te eisen dat zij de eerste zet doen. Bumble ging in 2021 naar de beurs, waardoor Wolfe Herd op 31-jarige leeftijd de jongste vrouwelijke CEO werd die een bedrijf naar de beurs bracht."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded 23andMe, the personal genomics company?",
+          es: "¿Qué empresaria fundó 23andMe, la compañía de genómica personal?",
+          de: "Welche Unternehmerin gründete 23andMe, das Personal-Genomik-Unternehmen?",
+          nl: "Welke ondernemer heeft 23andMe opgericht, het persoonlijke genomicsbedrijf?"
+        },
+        options: [
+          { en: "Anne Wojcicki", es: "Anne Wojcicki", de: "Anne Wojcicki", nl: "Anne Wojcicki" },
+          { en: "Elizabeth Holmes", es: "Elizabeth Holmes", de: "Elizabeth Holmes", nl: "Elizabeth Holmes" },
+          { en: "Jennifer Doudna", es: "Jennifer Doudna", de: "Jennifer Doudna", nl: "Jennifer Doudna" },
+          { en: "Susan Wojcicki", es: "Susan Wojcicki", de: "Susan Wojcicki", nl: "Susan Wojcicki" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Anne Wojcicki co-founded 23andMe in 2006 with Linda Avey and Paul Cusenza. The company pioneered direct-to-consumer genetic testing, allowing people to explore their ancestry and health risks through DNA analysis.",
+          es: "Anne Wojcicki cofundó 23andMe en 2006 con Linda Avey y Paul Cusenza. La compañía fue pionera en las pruebas genéticas directas al consumidor, permitiendo a las personas explorar su ascendencia y riesgos de salud a través del análisis de ADN.",
+          de: "Anne Wojcicki gründete 23andMe 2006 zusammen mit Linda Avey und Paul Cusenza. Das Unternehmen war Pionier bei Gentests direkt für Verbraucher und ermöglicht Menschen, ihre Abstammung und Gesundheitsrisiken durch DNA-Analyse zu erforschen.",
+          nl: "Anne Wojcicki heeft 23andMe mede opgericht in 2006 met Linda Avey en Paul Cusenza. Het bedrijf was een pionier in directe genetische testen voor consumenten, waardoor mensen hun afkomst en gezondheidsrisico's konden verkennen via DNA-analyse."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Spanx, the shapewear company?",
+          es: "¿Quién fundó Spanx, la compañía de ropa moldeadora?",
+          de: "Wer gründete Spanx, das Shapewear-Unternehmen?",
+          nl: "Wie heeft Spanx opgericht, het shapewear-bedrijf?"
+        },
+        options: [
+          { en: "Sara Blakely", es: "Sara Blakely", de: "Sara Blakely", nl: "Sara Blakely" },
+          { en: "Whitney Wolfe Herd", es: "Whitney Wolfe Herd", de: "Whitney Wolfe Herd", nl: "Whitney Wolfe Herd" },
+          { en: "Melanie Perkins", es: "Melanie Perkins", de: "Melanie Perkins", nl: "Melanie Perkins" },
+          { en: "Estée Lauder", es: "Estée Lauder", de: "Estée Lauder", nl: "Estée Lauder" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sara Blakely founded Spanx in 1998 with $5,000 in savings, inventing footless pantyhose to create a smooth look under white pants. She became the youngest self-made female billionaire, revolutionizing the shapewear industry.",
+          es: "Sara Blakely fundó Spanx en 1998 con $5,000 de ahorros, inventando medias sin pies para crear una apariencia suave bajo pantalones blancos. Se convirtió en la multimillonaria femenina más joven hecha a sí misma, revolucionando la industria de ropa moldeadora.",
+          de: "Sara Blakely gründete Spanx 1998 mit 5.000 Dollar Ersparnissen, erfand fußlose Strumpfhosen für ein glattes Aussehen unter weißen Hosen. Sie wurde die jüngste selbstgemachte Milliardärin und revolutionierte die Shapewear-Industrie.",
+          nl: "Sara Blakely richtte Spanx op in 1998 met $5.000 aan besparingen, zij vond voetloze panty's uit om een gladde look onder witte broeken te creëren. Ze werd de jongste zelfgemaakte vrouwelijke miljardair en revolutioneerde de shapewear-industrie."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Theranos and was later convicted of fraud?",
+          es: "¿Qué empresaria fundó Theranos y fue condenada por fraude?",
+          de: "Welche Unternehmerin gründete Theranos und wurde später wegen Betrugs verurteilt?",
+          nl: "Welke ondernemer heeft Theranos opgericht en werd later veroordeeld voor fraude?"
+        },
+        options: [
+          { en: "Elizabeth Holmes", es: "Elizabeth Holmes", de: "Elizabeth Holmes", nl: "Elizabeth Holmes" },
+          { en: "Anne Wojcicki", es: "Anne Wojcicki", de: "Anne Wojcicki", nl: "Anne Wojcicki" },
+          { en: "Sara Blakely", es: "Sara Blakely", de: "Sara Blakely", nl: "Sara Blakely" },
+          { en: "Whitney Wolfe Herd", es: "Whitney Wolfe Herd", de: "Whitney Wolfe Herd", nl: "Whitney Wolfe Herd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Elizabeth Holmes founded Theranos in 2003, claiming to revolutionize blood testing. The company reached a $9 billion valuation before being exposed as fraudulent. Holmes was convicted of fraud in 2022 for deceiving investors about the technology's capabilities.",
+          es: "Elizabeth Holmes fundó Theranos en 2003, afirmando revolucionar las pruebas de sangre. La compañía alcanzó una valoración de $9 mil millones antes de ser expuesta como fraudulenta. Holmes fue condenada por fraude en 2022 por engañar a los inversores sobre las capacidades de la tecnología.",
+          de: "Elizabeth Holmes gründete Theranos 2003 und behauptete, Bluttests zu revolutionieren. Das Unternehmen erreichte eine Bewertung von 9 Milliarden Dollar, bevor es als betrügerisch entlarvt wurde. Holmes wurde 2022 wegen Betrugs verurteilt, weil sie Investoren über die Fähigkeiten der Technologie täuschte.",
+          nl: "Elizabeth Holmes richtte Theranos op in 2003, met de bewering dat ze bloedtesten zou revolutioneren. Het bedrijf bereikte een waardering van $9 miljard voordat het als frauduleus werd ontmaskerd. Holmes werd in 2022 veroordeeld voor fraude door investeerders te misleiden over de mogelijkheden van de technologie."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Zoom Video Communications?",
+          es: "¿Quién fundó Zoom Video Communications?",
+          de: "Wer gründete Zoom Video Communications?",
+          nl: "Wie heeft Zoom Video Communications opgericht?"
+        },
+        options: [
+          { en: "Eric Yuan", es: "Eric Yuan", de: "Eric Yuan", nl: "Eric Yuan" },
+          { en: "Stewart Butterfield", es: "Stewart Butterfield", de: "Stewart Butterfield", nl: "Stewart Butterfield" },
+          { en: "Brian Armstrong", es: "Brian Armstrong", de: "Brian Armstrong", nl: "Brian Armstrong" },
+          { en: "Patrick Collison", es: "Patrick Collison", de: "Patrick Collison", nl: "Patrick Collison" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Eric Yuan founded Zoom Video Communications in 2011 after leaving Cisco WebEx. The video conferencing platform became essential during the COVID-19 pandemic, growing from 10 million daily meeting participants to over 300 million.",
+          es: "Eric Yuan fundó Zoom Video Communications en 2011 después de dejar Cisco WebEx. La plataforma de videoconferencia se volvió esencial durante la pandemia de COVID-19, creciendo de 10 millones de participantes diarios en reuniones a más de 300 millones.",
+          de: "Eric Yuan gründete Zoom Video Communications 2011, nachdem er Cisco WebEx verlassen hatte. Die Videokonferenzplattform wurde während der COVID-19-Pandemie unverzichtbar und wuchs von 10 Millionen täglichen Meeting-Teilnehmern auf über 300 Millionen.",
+          nl: "Eric Yuan richtte Zoom Video Communications op in 2011 na het verlaten van Cisco WebEx. Het videoconferentieplatform werd essentieel tijdens de COVID-19-pandemie en groeide van 10 miljoen dagelijkse meeting-deelnemers naar meer dan 300 miljoen."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded WeWork, the shared workspace company?",
+          es: "¿Qué empresario fundó WeWork, la empresa de espacios de trabajo compartidos?",
+          de: "Welcher Unternehmer gründete WeWork, das Coworking-Unternehmen?",
+          nl: "Welke ondernemer heeft WeWork opgericht, het gedeelde werkruimtebedrijf?"
+        },
+        options: [
+          { en: "Adam Neumann", es: "Adam Neumann", de: "Adam Neumann", nl: "Adam Neumann" },
+          { en: "Travis Kalanick", es: "Travis Kalanick", de: "Travis Kalanick", nl: "Travis Kalanick" },
+          { en: "Brian Chesky", es: "Brian Chesky", de: "Brian Chesky", nl: "Brian Chesky" },
+          { en: "Elon Musk", es: "Elon Musk", de: "Elon Musk", nl: "Elon Musk" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Adam Neumann co-founded WeWork in 2010 with Miguel McKelvey. The company reached a $47 billion valuation in 2019 before a failed IPO exposed governance issues and inflated valuation. Neumann was ousted as CEO amid controversy.",
+          es: "Adam Neumann cofundó WeWork en 2010 con Miguel McKelvey. La compañía alcanzó una valoración de $47 mil millones en 2019 antes de que una IPO fallida expusiera problemas de gobernanza y valoración inflada. Neumann fue destituido como CEO en medio de la controversia.",
+          de: "Adam Neumann gründete WeWork 2010 zusammen mit Miguel McKelvey. Das Unternehmen erreichte 2019 eine Bewertung von 47 Milliarden Dollar, bevor ein gescheiterter Börsengang Governance-Probleme und überhöhte Bewertung aufdeckte. Neumann wurde inmitten der Kontroverse als CEO entlassen.",
+          nl: "Adam Neumann heeft WeWork mede opgericht in 2010 met Miguel McKelvey. Het bedrijf bereikte een waardering van $47 miljard in 2019 voordat een mislukte IPO governance-problemen en opgeblazen waardering blootlegde. Neumann werd als CEO ontslagen te midden van controverse."
+        }
+      },
+      {
+        question: {
+          en: "Who founded DoorDash, the food delivery platform?",
+          es: "¿Quién fundó DoorDash, la plataforma de entrega de comida?",
+          de: "Wer gründete DoorDash, die Essenslieferplattform?",
+          nl: "Wie heeft DoorDash opgericht, het maaltijdbezorgplatform?"
+        },
+        options: [
+          { en: "Tony Xu", es: "Tony Xu", de: "Tony Xu", nl: "Tony Xu" },
+          { en: "Travis Kalanick", es: "Travis Kalanick", de: "Travis Kalanick", nl: "Travis Kalanick" },
+          { en: "Apoorva Mehta", es: "Apoorva Mehta", de: "Apoorva Mehta", nl: "Apoorva Mehta" },
+          { en: "Dara Khosrowshahi", es: "Dara Khosrowshahi", de: "Dara Khosrowshahi", nl: "Dara Khosrowshahi" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tony Xu co-founded DoorDash in 2013 with Stanley Tang, Andy Fang, and Evan Moore at Stanford. The company became the largest food delivery platform in the US and went public in 2020 with a valuation of $72 billion.",
+          es: "Tony Xu cofundó DoorDash en 2013 con Stanley Tang, Andy Fang y Evan Moore en Stanford. La compañía se convirtió en la plataforma de entrega de comida más grande de EE.UU. y salió a bolsa en 2020 con una valoración de $72 mil millones.",
+          de: "Tony Xu gründete DoorDash 2013 zusammen mit Stanley Tang, Andy Fang und Evan Moore in Stanford. Das Unternehmen wurde zur größten Essenslieferplattform in den USA und ging 2020 mit einer Bewertung von 72 Milliarden Dollar an die Börse.",
+          nl: "Tony Xu heeft DoorDash mede opgericht in 2013 met Stanley Tang, Andy Fang en Evan Moore aan Stanford. Het bedrijf werd het grootste maaltijdbezorgplatform in de VS en ging in 2020 naar de beurs met een waardering van $72 miljard."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Instacart, the grocery delivery service?",
+          es: "¿Qué empresario fundó Instacart, el servicio de entrega de comestibles?",
+          de: "Welcher Unternehmer gründete Instacart, den Lebensmittellieferdienst?",
+          nl: "Welke ondernemer heeft Instacart opgericht, de boodschappenbezorgservice?"
+        },
+        options: [
+          { en: "Apoorva Mehta", es: "Apoorva Mehta", de: "Apoorva Mehta", nl: "Apoorva Mehta" },
+          { en: "Tony Xu", es: "Tony Xu", de: "Tony Xu", nl: "Tony Xu" },
+          { en: "Travis Kalanick", es: "Travis Kalanick", de: "Travis Kalanick", nl: "Travis Kalanick" },
+          { en: "Brian Chesky", es: "Brian Chesky", de: "Brian Chesky", nl: "Brian Chesky" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Apoorva Mehta founded Instacart in 2012 after working at Amazon. The grocery delivery service grew rapidly, especially during the COVID-19 pandemic, and went public in 2023 with a valuation of $9.9 billion.",
+          es: "Apoorva Mehta fundó Instacart en 2012 después de trabajar en Amazon. El servicio de entrega de comestibles creció rápidamente, especialmente durante la pandemia de COVID-19, y salió a bolsa en 2023 con una valoración de $9.9 mil millones.",
+          de: "Apoorva Mehta gründete Instacart 2012, nachdem er bei Amazon gearbeitet hatte. Der Lebensmittellieferdienst wuchs schnell, besonders während der COVID-19-Pandemie, und ging 2023 mit einer Bewertung von 9,9 Milliarden Dollar an die Börse.",
+          nl: "Apoorva Mehta richtte Instacart op in 2012 na te hebben gewerkt bij Amazon. De boodschappenbezorgservice groeide snel, vooral tijdens de COVID-19-pandemie, en ging in 2023 naar de beurs met een waardering van $9,9 miljard."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Robinhood, the commission-free stock trading app?",
+          es: "¿Quién fundó Robinhood, la aplicación de comercio de acciones sin comisiones?",
+          de: "Wer gründete Robinhood, die provisionsfreie Aktienhandels-App?",
+          nl: "Wie heeft Robinhood opgericht, de commissievrije aandelenhandel-app?"
+        },
+        options: [
+          { en: "Vladimir Tenev and Baiju Bhatt", es: "Vladimir Tenev y Baiju Bhatt", de: "Vladimir Tenev und Baiju Bhatt", nl: "Vladimir Tenev en Baiju Bhatt" },
+          { en: "Brian Armstrong", es: "Brian Armstrong", de: "Brian Armstrong", nl: "Brian Armstrong" },
+          { en: "Patrick Collison", es: "Patrick Collison", de: "Patrick Collison", nl: "Patrick Collison" },
+          { en: "Max Levchin", es: "Max Levchin", de: "Max Levchin", nl: "Max Levchin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Vladimir Tenev and Baiju Bhatt co-founded Robinhood in 2013 to democratize stock trading by eliminating commissions. The app popularized fractional shares and became central to the 2021 GameStop trading frenzy. Robinhood went public in 2021.",
+          es: "Vladimir Tenev y Baiju Bhatt cofundaron Robinhood en 2013 para democratizar el comercio de acciones eliminando comisiones. La aplicación popularizó las acciones fraccionarias y se volvió central en el frenesí comercial de GameStop de 2021. Robinhood salió a bolsa en 2021.",
+          de: "Vladimir Tenev und Baiju Bhatt gründeten Robinhood 2013, um den Aktienhandel durch Abschaffung von Provisionen zu demokratisieren. Die App machte Bruchteile von Aktien populär und wurde zentral beim GameStop-Handelswahn 2021. Robinhood ging 2021 an die Börse.",
+          nl: "Vladimir Tenev en Baiju Bhatt hebben Robinhood mede opgericht in 2013 om aandelenhandel te democratiseren door commissies te elimineren. De app maakte fractionele aandelen populair en werd centraal in de GameStop-handelsgekte van 2021. Robinhood ging in 2021 naar de beurs."
         }
       }
     ]

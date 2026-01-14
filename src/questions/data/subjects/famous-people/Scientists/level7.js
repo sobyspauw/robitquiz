@@ -427,6 +427,69 @@
           de: "Barry Marshall und Robin Warren entdeckten 1982-1984, dass Helicobacter pylori die meisten peptischen Geschwüre verursacht, nicht Stress oder scharfes Essen. Marshall trank berühmt H. pylori-Kultur, entwickelte Gastritis und heilte sich dann mit Antibiotika – was die Verbindung bewies. Sie gewannen 2005 den Nobelpreis. Ihre Entdeckung revolutionierte die Geschwürbehandlung, ersetzte Operationen durch einfache Antibiotikatherapie und rettete Millionen vor chronischem Leiden.",
           nl: "Barry Marshall en Robin Warren ontdekten in 1982-1984 dat Helicobacter pylori de meeste maagzweren veroorzaakt, niet stress of pikant voedsel. Marshall dronk beroemd H. pylori-cultuur, ontwikkelde gastritis, en genas zichzelf vervolgens met antibiotica—wat de verbinding bewees. Ze wonnen de Nobelprijs van 2005. Hun ontdekking revolutioneerde zweerbehandeling, waarbij chirurgie werd vervangen door eenvoudige antibioticatherapie en miljoenen werden gered van chronisch lijden."
         }
+      },
+      {
+        question: {
+          en: "Which neuroscientist discovered mirror neurons in macaque monkeys?",
+          es: "¿Qué neurocientífico descubrió las neuronas espejo en macacos?",
+          de: "Welcher Neurowissenschaftler entdeckte Spiegelneuronen bei Makaken?",
+          nl: "Welke neurowetenschapper ontdekte spiegelneuronen in makaken?"
+        },
+        options: [
+          { en: "Giacomo Rizzolatti", es: "Giacomo Rizzolatti", de: "Giacomo Rizzolatti", nl: "Giacomo Rizzolatti" },
+          { en: "V.S. Ramachandran", es: "V.S. Ramachandran", de: "V.S. Ramachandran", nl: "V.S. Ramachandran" },
+          { en: "Eric Kandel", es: "Eric Kandel", de: "Eric Kandel", nl: "Eric Kandel" },
+          { en: "Santiago Ramón y Cajal", es: "Santiago Ramón y Cajal", de: "Santiago Ramón y Cajal", nl: "Santiago Ramón y Cajal" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Giacomo Rizzolatti and colleagues discovered mirror neurons in the 1990s while studying motor neurons in macaque monkeys. These neurons fire both when performing an action and when observing the same action performed by another. Mirror neurons are believed to underlie empathy, imitation, and language learning, revolutionizing our understanding of social cognition and human behavior.",
+          es: "Giacomo Rizzolatti y colegas descubrieron las neuronas espejo en la década de 1990 mientras estudiaban neuronas motoras en macacos. Estas neuronas se activan tanto al realizar una acción como al observar la misma acción realizada por otro. Se cree que las neuronas espejo subyacen a la empatía, imitación y aprendizaje del lenguaje, revolucionando nuestra comprensión de la cognición social y el comportamiento humano.",
+          de: "Giacomo Rizzolatti und Kollegen entdeckten in den 1990er Jahren Spiegelneuronen beim Studium motorischer Neuronen bei Makaken. Diese Neuronen feuern sowohl beim Ausführen einer Handlung als auch beim Beobachten derselben Handlung durch einen anderen. Spiegelneuronen sollen Empathie, Nachahmung und Spracherwerb zugrunde liegen und revolutionierten unser Verständnis sozialer Kognition und menschlichen Verhaltens.",
+          nl: "Giacomo Rizzolatti en collega's ontdekten in de jaren 1990 spiegelneuronen tijdens het bestuderen van motorneuronen in makaken. Deze neuronen vuren zowel bij het uitvoeren van een actie als bij het observeren van dezelfde actie uitgevoerd door een ander. Spiegelneuronen worden verondersteld empathie, imitatie en taalleren ten grondslag te liggen, wat ons begrip van sociale cognitie en menselijk gedrag revolutioneerde."
+        }
+      },
+      {
+        question: {
+          en: "Who developed the field of quantum information theory, proving quantum computers could outperform classical ones?",
+          es: "¿Quién desarrolló el campo de la teoría de información cuántica, demostrando que las computadoras cuánticas podrían superar a las clásicas?",
+          de: "Wer entwickelte das Feld der Quanteninformationstheorie und bewies, dass Quantencomputer klassische Computer übertreffen können?",
+          nl: "Wie ontwikkelde het veld van kwantuminformatietheorie, wat bewees dat kwantumcomputers klassieke computers konden overtreffen?"
+        },
+        options: [
+          { en: "David Deutsch", es: "David Deutsch", de: "David Deutsch", nl: "David Deutsch" },
+          { en: "Richard Feynman", es: "Richard Feynman", de: "Richard Feynman", nl: "Richard Feynman" },
+          { en: "Peter Shor", es: "Peter Shor", de: "Peter Shor", nl: "Peter Shor" },
+          { en: "Charles Bennett", es: "Charles Bennett", de: "Charles Bennett", nl: "Charles Bennett" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "David Deutsch pioneered quantum information theory in the 1980s, formulating the first quantum algorithm showing quantum computers could solve certain problems faster than classical computers. He introduced the concept of a universal quantum computer and the Church-Turing-Deutsch principle. His work laid the theoretical foundation for quantum computing, though Shor's algorithm later provided the first practical demonstration.",
+          es: "David Deutsch fue pionero en la teoría de información cuántica en la década de 1980, formulando el primer algoritmo cuántico que mostraba que las computadoras cuánticas podían resolver ciertos problemas más rápido que las computadoras clásicas. Introdujo el concepto de una computadora cuántica universal y el principio de Church-Turing-Deutsch. Su trabajo sentó las bases teóricas para la computación cuántica, aunque el algoritmo de Shor proporcionó más tarde la primera demostración práctica.",
+          de: "David Deutsch war in den 1980er Jahren Pionier der Quanteninformationstheorie und formulierte den ersten Quantenalgorithmus, der zeigte, dass Quantencomputer bestimmte Probleme schneller lösen können als klassische Computer. Er führte das Konzept eines universellen Quantencomputers und das Church-Turing-Deutsch-Prinzip ein. Seine Arbeit legte die theoretische Grundlage für Quantencomputing, obwohl Shors Algorithmus später die erste praktische Demonstration lieferte.",
+          nl: "David Deutsch was pionier in kwantuminformatietheorie in de jaren 1980, waarbij hij het eerste kwantumalgoritme formuleerde dat aantoonde dat kwantumcomputers bepaalde problemen sneller konden oplossen dan klassieke computers. Hij introduceerde het concept van een universele kwantumcomputer en het Church-Turing-Deutsch-principe. Zijn werk legde de theoretische basis voor kwantumcomputing, hoewel Shors algoritme later de eerste praktische demonstratie leverde."
+        }
+      },
+      {
+        question: {
+          en: "Which biochemist discovered the Krebs cycle (citric acid cycle), central to cellular respiration?",
+          es: "¿Qué bioquímico descubrió el ciclo de Krebs (ciclo del ácido cítrico), central para la respiración celular?",
+          de: "Welcher Biochemiker entdeckte den Krebs-Zyklus (Citratzyklus), der zentral für die Zellatmung ist?",
+          nl: "Welke biochemicus ontdekte de Krebs-cyclus (citroenzuurcyclus), centraal voor celademhaling?"
+        },
+        options: [
+          { en: "Hans Krebs", es: "Hans Krebs", de: "Hans Krebs", nl: "Hans Krebs" },
+          { en: "Fritz Lipmann", es: "Fritz Lipmann", de: "Fritz Lipmann", nl: "Fritz Lipmann" },
+          { en: "Otto Warburg", es: "Otto Warburg", de: "Otto Warburg", nl: "Otto Warburg" },
+          { en: "Albert Szent-Györgyi", es: "Albert Szent-Györgyi", de: "Albert Szent-Györgyi", nl: "Albert Szent-Györgyi" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hans Krebs discovered the citric acid cycle (Krebs cycle) in 1937, revealing how cells extract energy from nutrients through oxidation. He had earlier discovered the urea cycle (1932). Krebs won the 1953 Nobel Prize in Physiology or Medicine. The Krebs cycle is fundamental to cellular metabolism, converting acetyl-CoA into CO2 and generating energy-rich molecules ATP, NADH, and FADH2.",
+          es: "Hans Krebs descubrió el ciclo del ácido cítrico (ciclo de Krebs) en 1937, revelando cómo las células extraen energía de los nutrientes mediante oxidación. Anteriormente había descubierto el ciclo de la urea (1932). Krebs ganó el Premio Nobel de Fisiología o Medicina de 1953. El ciclo de Krebs es fundamental para el metabolismo celular, convirtiendo acetil-CoA en CO2 y generando moléculas ricas en energía ATP, NADH y FADH2.",
+          de: "Hans Krebs entdeckte 1937 den Citratzyklus (Krebs-Zyklus) und enthüllte, wie Zellen durch Oxidation Energie aus Nährstoffen gewinnen. Er hatte zuvor den Harnstoffzyklus (1932) entdeckt. Krebs gewann 1953 den Nobelpreis für Physiologie oder Medizin. Der Krebs-Zyklus ist grundlegend für den zellulären Stoffwechsel und wandelt Acetyl-CoA in CO2 um und erzeugt energiereiche Moleküle ATP, NADH und FADH2.",
+          nl: "Hans Krebs ontdekte de citroenzuurcyclus (Krebs-cyclus) in 1937, waarbij hij onthulde hoe cellen energie uit voedingsstoffen halen door oxidatie. Hij had eerder de ureumcyclus (1932) ontdekt. Krebs won de Nobelprijs voor Fysiologie of Geneeskunde in 1953. De Krebs-cyclus is fundamenteel voor cellulair metabolisme, waarbij acetyl-CoA wordt omgezet in CO2 en energierijke moleculen ATP, NADH en FADH2 worden gegenereerd."
+        }
       }
     ]
   };

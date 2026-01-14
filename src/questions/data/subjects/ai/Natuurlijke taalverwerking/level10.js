@@ -427,6 +427,416 @@
           de: "Temperatur skaliert die Logits vor Anwendung von Softmax während Sampling. Temperatur von 0 gibt deterministische Ausgaben, 1.0 bewahrt ursprüngliche Wahrscheinlichkeiten, und höhere Werte erhöhen Zufälligkeit und Kreativität.",
           nl: "Temperatuur schaalt de logits voor het toepassen van softmax tijdens sampling. Temperatuur van 0 geeft deterministische outputs, 1.0 behoudt originele waarschijnlijkheden, en hogere waarden verhogen willekeurigheid en creativiteit."
         }
+      },
+      {
+        question: {
+          en: "What is top-k sampling in text generation?",
+          es: "¿Qué es el muestreo top-k en generación de texto?",
+          de: "Was ist Top-k Sampling in der Textgenerierung?",
+          nl: "Wat is top-k sampling in tekstgeneratie?"
+        },
+        options: [
+          { en: "Restricting sampling to the k most probable next tokens to balance diversity and quality", es: "Restringir muestreo a los k tokens siguientes más probables para equilibrar diversidad y calidad", de: "Sampling auf die k wahrscheinlichsten nächsten Tokens beschränken um Diversität und Qualität auszubalancieren", nl: "Sampling beperken tot de k meest waarschijnlijke volgende tokens om diversiteit en kwaliteit te balanceren" },
+          { en: "Sampling from the top layer of the model", es: "Muestrear de la capa superior del modelo", de: "Aus der obersten Schicht des Modells samplen", nl: "Samplen uit de bovenste laag van het model" },
+          { en: "Taking the k best training examples", es: "Tomar los k mejores ejemplos de entrenamiento", de: "Die k besten Trainingsbeispiele nehmen", nl: "De k beste trainingsvoorbeelden nemen" },
+          { en: "Selecting k random words from vocabulary", es: "Seleccionar k palabras aleatorias del vocabulario", de: "K zufällige Wörter aus dem Vokabular wählen", nl: "K willekeurige woorden uit vocabulaire selecteren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Top-k sampling limits the model to choosing from only the k highest probability tokens at each step, preventing selection of very low-probability words while maintaining some diversity. Common k values are 40-50.",
+          es: "El muestreo top-k limita el modelo a elegir solo de los k tokens de probabilidad más alta en cada paso, previniendo selección de palabras de probabilidad muy baja mientras mantiene algo de diversidad. Valores comunes de k son 40-50.",
+          de: "Top-k Sampling begrenzt das Modell darauf nur aus den k Tokens mit höchster Wahrscheinlichkeit bei jedem Schritt zu wählen, verhindert Auswahl sehr niedriger Wahrscheinlichkeitswörter während etwas Diversität beibehalten wird. Übliche k-Werte sind 40-50.",
+          nl: "Top-k sampling beperkt het model tot het kiezen uit alleen de k hoogste waarschijnlijkheidstokens bij elke stap, voorkomt selectie van zeer lage waarschijnlijkheidswoorden terwijl enige diversiteit behouden blijft. Gebruikelijke k-waarden zijn 40-50."
+        }
+      },
+      {
+        question: {
+          en: "What is nucleus (top-p) sampling and how does it differ from top-k?",
+          es: "¿Qué es el muestreo nucleus (top-p) y cómo difiere de top-k?",
+          de: "Was ist Nucleus (Top-p) Sampling und wie unterscheidet es sich von Top-k?",
+          nl: "Wat is nucleus (top-p) sampling en hoe verschilt het van top-k?"
+        },
+        options: [
+          { en: "Selects from the smallest set of tokens whose cumulative probability exceeds threshold p, adapting dynamically to probability distribution", es: "Selecciona del conjunto más pequeño de tokens cuya probabilidad acumulativa excede umbral p, adaptándose dinámicamente a distribución de probabilidad", de: "Wählt aus der kleinsten Menge von Tokens deren kumulative Wahrscheinlichkeit Schwelle p überschreitet, passt sich dynamisch an Wahrscheinlichkeitsverteilung an", nl: "Selecteert uit de kleinste set tokens waarvan cumulatieve waarschijnlijkheid drempel p overschrijdt, past zich dynamisch aan aan waarschijnlijkheidsverdeling" },
+          { en: "Samples from the nucleus (center) of the model", es: "Muestrea del núcleo (centro) del modelo", de: "Sampelt aus dem Kern (Zentrum) des Modells", nl: "Samplet uit de nucleus (kern) van het model" },
+          { en: "It's exactly the same as top-k sampling", es: "Es exactamente lo mismo que muestreo top-k", de: "Es ist genau dasselbe wie Top-k Sampling", nl: "Het is precies hetzelfde als top-k sampling" },
+          { en: "Focuses on the most important parameters only", es: "Se enfoca solo en los parámetros más importantes", de: "Fokussiert nur auf die wichtigsten Parameter", nl: "Richt zich alleen op de belangrijkste parameters" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Nucleus sampling (p=0.9 is common) dynamically adjusts the candidate set size based on the probability distribution, including more tokens when probabilities are spread out and fewer when concentrated, providing more flexible control than fixed top-k.",
+          es: "El muestreo nucleus (p=0.9 es común) ajusta dinámicamente el tamaño del conjunto candidato basado en la distribución de probabilidad, incluyendo más tokens cuando probabilidades están dispersas y menos cuando concentradas, proporcionando control más flexible que top-k fijo.",
+          de: "Nucleus Sampling (p=0.9 ist üblich) passt die Kandidatenmenge dynamisch basierend auf der Wahrscheinlichkeitsverteilung an, schließt mehr Tokens ein wenn Wahrscheinlichkeiten verteilt sind und weniger wenn konzentriert, bietet flexiblere Kontrolle als festes Top-k.",
+          nl: "Nucleus sampling (p=0.9 is gebruikelijk) past de kandidatenset dynamisch aan op basis van de waarschijnlijkheidsverdeling, omvat meer tokens wanneer waarschijnlijkheden verspreid zijn en minder wanneer geconcentreerd, biedt flexibeler controle dan vaste top-k."
+        }
+      },
+      {
+        question: {
+          en: "What is model quantization and why is it important for deploying LLMs?",
+          es: "¿Qué es la cuantización de modelos y por qué es importante para desplegar LLMs?",
+          de: "Was ist Modellquantisierung und warum ist sie wichtig für die Bereitstellung von LLMs?",
+          nl: "Wat is modelkwantisatie en waarom is het belangrijk voor het implementeren van LLMs?"
+        },
+        options: [
+          { en: "Reducing model precision from FP32 to lower-bit representations (INT8, INT4) to decrease memory and computational requirements", es: "Reducir precisión del modelo de FP32 a representaciones de menor bit (INT8, INT4) para disminuir requisitos de memoria y computación", de: "Modellpräzision von FP32 auf niedrigere Bit-Repräsentationen (INT8, INT4) reduzieren um Speicher- und Rechenanforderungen zu verringern", nl: "Modelprecisie verminderen van FP32 naar lagere-bit representaties (INT8, INT4) om geheugen- en computationele vereisten te verlagen" },
+          { en: "Counting the number of parameters in the model", es: "Contar el número de parámetros en el modelo", de: "Die Anzahl der Parameter im Modell zählen", nl: "Het aantal parameters in het model tellen" },
+          { en: "Measuring model performance quantitatively", es: "Medir rendimiento del modelo cuantitativamente", de: "Modellleistung quantitativ messen", nl: "Modelprestaties kwantitatief meten" },
+          { en: "Converting models to quantum computing format", es: "Convertir modelos a formato de computación cuántica", de: "Modelle in Quantencomputing-Format konvertieren", nl: "Modellen converteren naar kwantumcomputing formaat" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Quantization reduces the numerical precision of model weights and activations from 32-bit floating point to 8-bit or 4-bit integers, enabling 4-8x smaller models with faster inference and lower memory usage, often with minimal accuracy loss.",
+          es: "La cuantización reduce la precisión numérica de pesos y activaciones del modelo de punto flotante de 32 bits a enteros de 8 o 4 bits, permitiendo modelos 4-8x más pequeños con inferencia más rápida y menor uso de memoria, a menudo con pérdida mínima de precisión.",
+          de: "Quantisierung reduziert die numerische Präzision von Modellgewichten und Aktivierungen von 32-Bit Gleitkomma auf 8-Bit oder 4-Bit Ganzzahlen, ermöglicht 4-8x kleinere Modelle mit schnellerer Inferenz und geringerem Speicherverbrauch, oft mit minimalem Genauigkeitsverlust.",
+          nl: "Kwantisatie vermindert de numerieke precisie van modelgewichten en activaties van 32-bit floating point naar 8-bit of 4-bit integers, maakt 4-8x kleinere modellen mogelijk met snellere inferentie en lager geheugengebruik, vaak met minimaal nauwkeurigheidsverlies."
+        }
+      },
+      {
+        question: {
+          en: "What is LoRA (Low-Rank Adaptation) and how does it enable efficient fine-tuning?",
+          es: "¿Qué es LoRA (Adaptación de Rango Bajo) y cómo permite ajuste fino eficiente?",
+          de: "Was ist LoRA (Low-Rank Adaptation) und wie ermöglicht es effizientes Fine-Tuning?",
+          nl: "Wat is LoRA (Low-Rank Adaptation) en hoe maakt het efficiënte fine-tuning mogelijk?"
+        },
+        options: [
+          { en: "Training small low-rank matrices that adapt frozen pre-trained weights, requiring only a fraction of parameters to update", es: "Entrenar pequeñas matrices de rango bajo que adaptan pesos pre-entrenados congelados, requiriendo solo una fracción de parámetros para actualizar", de: "Kleine niedrig-rang Matrizen trainieren die gefrorene vortrainierte Gewichte anpassen, erfordert nur einen Bruchteil von Parametern zum Aktualisieren", nl: "Kleine low-rank matrices trainen die bevroren voorgetrainde gewichten aanpassen, vereist alleen een fractie van parameters om bij te werken" },
+          { en: "A new architecture for language models", es: "Una nueva arquitectura para modelos de lenguaje", de: "Eine neue Architektur für Sprachmodelle", nl: "Een nieuwe architectuur voor taalmodellen" },
+          { en: "A compression technique for vocabulary", es: "Una técnica de compresión para vocabulario", de: "Eine Kompressionstechnik für Vokabular", nl: "Een compressietechniek voor vocabulaire" },
+          { en: "Low-rank approximation of attention matrices", es: "Aproximación de rango bajo de matrices de atención", de: "Niedrig-Rang Approximation von Aufmerksamkeitsmatrizen", nl: "Low-rank benadering van aandacht matrices" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "LoRA freezes pre-trained model weights and injects trainable low-rank decomposition matrices into each layer, reducing trainable parameters by 10,000x while maintaining comparable performance. This enables fine-tuning large models on consumer hardware.",
+          es: "LoRA congela pesos del modelo pre-entrenado e inyecta matrices de descomposición de rango bajo entrenables en cada capa, reduciendo parámetros entrenables en 10,000x mientras mantiene rendimiento comparable. Esto permite ajustar modelos grandes en hardware de consumidor.",
+          de: "LoRA friert vortrainierte Modellgewichte ein und injiziert trainierbare niedrig-Rang Zerlegungsmatrizen in jede Schicht, reduziert trainierbare Parameter um 10.000x während vergleichbare Leistung beibehalten wird. Dies ermöglicht Fine-Tuning großer Modelle auf Consumer-Hardware.",
+          nl: "LoRA bevriest voorgetrainde modelgewichten en injecteert trainbare low-rank decompositie matrices in elke laag, vermindert trainbare parameters met 10.000x terwijl vergelijkbare prestaties behouden blijven. Dit maakt fine-tuning van grote modellen op consumenten hardware mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What is flash attention and why is it important?",
+          es: "¿Qué es la atención flash y por qué es importante?",
+          de: "Was ist Flash Attention und warum ist sie wichtig?",
+          nl: "Wat is flash attention en waarom is het belangrijk?"
+        },
+        options: [
+          { en: "An optimized attention algorithm that reduces memory I/O to dramatically speed up training and enable longer context windows", es: "Un algoritmo de atención optimizado que reduce I/O de memoria para acelerar dramáticamente entrenamiento y permitir ventanas de contexto más largas", de: "Ein optimierter Aufmerksamkeitsalgorithmus der Speicher-I/O reduziert um Training dramatisch zu beschleunigen und längere Kontextfenster zu ermöglichen", nl: "Een geoptimaliseerd aandachtsalgoritme dat geheugen I/O vermindert om training dramatisch te versnellen en langere contextvensters mogelijk te maken" },
+          { en: "Very fast attention computation", es: "Computación de atención muy rápida", de: "Sehr schnelle Aufmerksamkeitsberechnung", nl: "Zeer snelle aandachtberekening" },
+          { en: "Attention that activates instantaneously", es: "Atención que se activa instantáneamente", de: "Aufmerksamkeit die sofort aktiviert", nl: "Aandacht die onmiddellijk activeert" },
+          { en: "Sparse attention with caching", es: "Atención dispersa con caché", de: "Spärliche Aufmerksamkeit mit Caching", nl: "Sparse aandacht met caching" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "FlashAttention reorganizes attention computation to minimize memory reads/writes between GPU HBM and SRAM, achieving 2-4x speedup and enabling training with sequences up to 64K tokens. This makes training large models more efficient and accessible.",
+          es: "FlashAttention reorganiza computación de atención para minimizar lecturas/escrituras de memoria entre HBM y SRAM de GPU, logrando aceleración de 2-4x y permitiendo entrenamiento con secuencias hasta 64K tokens. Esto hace entrenamiento de modelos grandes más eficiente y accesible.",
+          de: "FlashAttention reorganisiert Aufmerksamkeitsberechnung um Speicherlesungen/-schreibungen zwischen GPU HBM und SRAM zu minimieren, erreicht 2-4x Beschleunigung und ermöglicht Training mit Sequenzen bis zu 64K Tokens. Dies macht Training großer Modelle effizienter und zugänglicher.",
+          nl: "FlashAttention reorganiseert aandachtberekening om geheugenleesacties/-schrijfacties tussen GPU HBM en SRAM te minimaliseren, behaalt 2-4x versnelling en maakt training mogelijk met sequenties tot 64K tokens. Dit maakt training van grote modellen efficiënter en toegankelijker."
+        }
+      },
+      {
+        question: {
+          en: "What is mixture of experts (MoE) in large language models?",
+          es: "¿Qué es la mezcla de expertos (MoE) en modelos de lenguaje grandes?",
+          de: "Was ist Mixture of Experts (MoE) in großen Sprachmodellen?",
+          nl: "Wat is mixture of experts (MoE) in grote taalmodellen?"
+        },
+        options: [
+          { en: "An architecture with multiple specialized sub-networks where a gating mechanism routes inputs to relevant experts", es: "Una arquitectura con múltiples sub-redes especializadas donde un mecanismo de puerta enruta entradas a expertos relevantes", de: "Eine Architektur mit mehreren spezialisierten Sub-Netzwerken wo ein Gating-Mechanismus Eingaben zu relevanten Experten leitet", nl: "Een architectuur met meerdere gespecialiseerde sub-netwerken waarbij een gating-mechanisme invoer routeert naar relevante experts" },
+          { en: "Combining predictions from multiple separate models", es: "Combinar predicciones de múltiples modelos separados", de: "Vorhersagen von mehreren separaten Modellen kombinieren", nl: "Voorspellingen combineren van meerdere afzonderlijke modellen" },
+          { en: "Training different experts on different languages", es: "Entrenar diferentes expertos en diferentes idiomas", de: "Verschiedene Experten auf verschiedenen Sprachen trainieren", nl: "Verschillende experts trainen op verschillende talen" },
+          { en: "Using human experts to improve models", es: "Usar expertos humanos para mejorar modelos", de: "Menschliche Experten verwenden um Modelle zu verbessern", nl: "Menselijke experts gebruiken om modellen te verbeteren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "MoE models like Switch Transformer and GPT-4 (reportedly) use sparse activation where only a few expert networks process each token, enabling massive parameter counts while keeping computational cost manageable. This allows models to specialize in different tasks or domains.",
+          es: "Los modelos MoE como Switch Transformer y GPT-4 (supuestamente) usan activación dispersa donde solo unas pocas redes expertas procesan cada token, permitiendo conteos masivos de parámetros mientras mantienen costo computacional manejable. Esto permite que modelos se especialicen en diferentes tareas o dominios.",
+          de: "MoE-Modelle wie Switch Transformer und GPT-4 (angeblich) verwenden spärliche Aktivierung wo nur wenige Experten-Netzwerke jeden Token verarbeiten, ermöglicht massive Parameterzahlen während Rechenkosten handhabbar bleiben. Dies ermöglicht Modellen sich auf verschiedene Aufgaben oder Domänen zu spezialisieren.",
+          nl: "MoE-modellen zoals Switch Transformer en GPT-4 (naar verluidt) gebruiken sparse activatie waarbij slechts enkele expert-netwerken elk token verwerken, maakt massale parameterhoeveelheden mogelijk terwijl computationele kosten beheersbaar blijven. Dit stelt modellen in staat te specialiseren in verschillende taken of domeinen."
+        }
+      },
+      {
+        question: {
+          en: "What is in-context learning in large language models?",
+          es: "¿Qué es el aprendizaje en contexto en modelos de lenguaje grandes?",
+          de: "Was ist In-Context Learning in großen Sprachmodellen?",
+          nl: "Wat is in-context learning in grote taalmodellen?"
+        },
+        options: [
+          { en: "The ability to perform new tasks by providing examples in the prompt without updating model parameters", es: "La capacidad de realizar nuevas tareas proporcionando ejemplos en el prompt sin actualizar parámetros del modelo", de: "Die Fähigkeit neue Aufgaben auszuführen durch Bereitstellen von Beispielen im Prompt ohne Modellparameter zu aktualisieren", nl: "Het vermogen om nieuwe taken uit te voeren door voorbeelden in de prompt te geven zonder modelparameters bij te werken" },
+          { en: "Learning from the surrounding context of words", es: "Aprender del contexto circundante de palabras", de: "Aus dem umgebenden Kontext von Wörtern lernen", nl: "Leren van de omringende context van woorden" },
+          { en: "Training on conversational data", es: "Entrenar en datos conversacionales", de: "Auf Gesprächsdaten trainieren", nl: "Trainen op conversationele gegevens" },
+          { en: "Context window optimization", es: "Optimización de ventana de contexto", de: "Kontextfenster-Optimierung", nl: "Contextvenster optimalisatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In-context learning emerges in large language models, enabling few-shot or zero-shot task performance by including task demonstrations in the prompt. The model learns the pattern from examples without gradient updates, showcasing remarkable generalization abilities.",
+          es: "El aprendizaje en contexto emerge en modelos de lenguaje grandes, permitiendo rendimiento de tareas de pocos o cero ejemplos incluyendo demostraciones de tareas en el prompt. El modelo aprende el patrón de ejemplos sin actualizaciones de gradiente, mostrando capacidades de generalización notables.",
+          de: "In-Context Learning entsteht in großen Sprachmodellen, ermöglicht Few-Shot oder Zero-Shot Aufgabenleistung durch Einbeziehen von Aufgaben-Demonstrationen im Prompt. Das Modell lernt das Muster aus Beispielen ohne Gradientenaktualisierungen, zeigt bemerkenswerte Generalisierungsfähigkeiten.",
+          nl: "In-context learning ontstaat in grote taalmodellen, maakt few-shot of zero-shot taakprestaties mogelijk door taakdemonstraties op te nemen in de prompt. Het model leert het patroon uit voorbeelden zonder gradiënt updates, toont opmerkelijke generalisatiecapaciteiten."
+        }
+      },
+      {
+        question: {
+          en: "What is constitutional AI and how does it improve alignment?",
+          es: "¿Qué es la IA constitucional y cómo mejora la alineación?",
+          de: "Was ist Constitutional AI und wie verbessert sie Alignment?",
+          nl: "Wat is constitutional AI en hoe verbetert het alignment?"
+        },
+        options: [
+          { en: "Training models to critique and revise their own outputs according to constitutional principles without human feedback on each revision", es: "Entrenar modelos para criticar y revisar sus propias salidas según principios constitucionales sin retroalimentación humana en cada revisión", de: "Modelle trainieren um ihre eigenen Ausgaben gemäß konstitutionellen Prinzipien zu kritisieren und zu revidieren ohne menschliches Feedback bei jeder Revision", nl: "Modellen trainen om hun eigen outputs te bekritiseren en herzien volgens constitutionele principes zonder menselijke feedback bij elke herziening" },
+          { en: "AI systems based on legal constitutions", es: "Sistemas de IA basados en constituciones legales", de: "KI-Systeme basierend auf rechtlichen Verfassungen", nl: "AI-systemen gebaseerd op juridische constituties" },
+          { en: "Constitutional frameworks for AI governance", es: "Marcos constitucionales para gobernanza de IA", de: "Verfassungsrahmen für KI-Governance", nl: "Constitutionele kaders voor AI-governance" },
+          { en: "Human-written rules for AI behavior", es: "Reglas escritas por humanos para comportamiento de IA", de: "Von Menschen geschriebene Regeln für KI-Verhalten", nl: "Door mensen geschreven regels voor AI-gedrag" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Constitutional AI (CAI), developed by Anthropic, trains models using self-improvement: the model generates responses, critiques them against principles (constitution), revises them, and learns from revised versions. This enables scalable oversight without labeling every interaction.",
+          es: "La IA constitucional (CAI), desarrollada por Anthropic, entrena modelos usando auto-mejora: el modelo genera respuestas, las critica contra principios (constitución), las revisa y aprende de versiones revisadas. Esto permite supervisión escalable sin etiquetar cada interacción.",
+          de: "Constitutional AI (CAI), entwickelt von Anthropic, trainiert Modelle mit Selbstverbesserung: das Modell generiert Antworten, kritisiert sie gegen Prinzipien (Verfassung), revidiert sie und lernt von revidierten Versionen. Dies ermöglicht skalierbare Aufsicht ohne jede Interaktion zu labeln.",
+          nl: "Constitutional AI (CAI), ontwikkeld door Anthropic, traint modellen met zelfverbetering: het model genereert reacties, bekritiseert ze tegen principes (constitutie), herziet ze en leert van herziene versies. Dit maakt schaalbaar toezicht mogelijk zonder elke interactie te labelen."
+        }
+      },
+      {
+        question: {
+          en: "What is retrieval-augmented generation (RAG) and why is it valuable?",
+          es: "¿Qué es la generación aumentada por recuperación (RAG) y por qué es valiosa?",
+          de: "Was ist Retrieval-Augmented Generation (RAG) und warum ist sie wertvoll?",
+          nl: "Wat is retrieval-augmented generation (RAG) en waarom is het waardevol?"
+        },
+        options: [
+          { en: "Combining language models with document retrieval to ground responses in external knowledge and reduce hallucinations", es: "Combinar modelos de lenguaje con recuperación de documentos para fundamentar respuestas en conocimiento externo y reducir alucinaciones", de: "Sprachmodelle mit Dokumentenabruf kombinieren um Antworten in externem Wissen zu verankern und Halluzinationen zu reduzieren", nl: "Taalmodellen combineren met documentopvraging om reacties te verankeren in externe kennis en hallucinaties te verminderen" },
+          { en: "Augmenting training data through retrieval", es: "Aumentar datos de entrenamiento mediante recuperación", de: "Trainingsdaten durch Abruf augmentieren", nl: "Trainingsgegevens versterken door opvraging" },
+          { en: "Generating synthetic retrieval datasets", es: "Generar conjuntos de datos de recuperación sintéticos", de: "Synthetische Abrufdatensätze generieren", nl: "Synthetische opvragingsdatasets genereren" },
+          { en: "Random augmentation during generation", es: "Aumentación aleatoria durante generación", de: "Zufällige Augmentierung während Generierung", nl: "Willekeurige augmentatie tijdens generatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "RAG retrieves relevant documents from a knowledge base before generation, providing factual grounding for the model's responses. This enables up-to-date information, source attribution, and reduced hallucinations without retraining the model.",
+          es: "RAG recupera documentos relevantes de una base de conocimiento antes de generación, proporcionando base factual para respuestas del modelo. Esto permite información actualizada, atribución de fuentes y alucinaciones reducidas sin reentrenar el modelo.",
+          de: "RAG ruft relevante Dokumente aus einer Wissensbasis vor Generierung ab, bietet faktische Grundlage für Modellantworten. Dies ermöglicht aktuelle Informationen, Quellenattribution und reduzierte Halluzinationen ohne Modell neu zu trainieren.",
+          nl: "RAG haalt relevante documenten op uit een kennisbasis vóór generatie, biedt feitelijke fundering voor de reacties van het model. Dit maakt actuele informatie mogelijk, bronvermelding en verminderde hallucinaties zonder het model opnieuw te trainen."
+        }
+      },
+      {
+        question: {
+          en: "What is model alignment in AI safety?",
+          es: "¿Qué es la alineación de modelos en seguridad de IA?",
+          de: "Was ist Model Alignment in KI-Sicherheit?",
+          nl: "Wat is model alignment in AI-veiligheid?"
+        },
+        options: [
+          { en: "Ensuring AI systems behave according to human values, intentions, and ethical principles", es: "Asegurar que sistemas de IA se comporten según valores humanos, intenciones y principios éticos", de: "Sicherstellen dass KI-Systeme sich gemäß menschlichen Werten, Absichten und ethischen Prinzipien verhalten", nl: "Ervoor zorgen dat AI-systemen zich gedragen volgens menselijke waarden, intenties en ethische principes" },
+          { en: "Aligning model parameters during training", es: "Alinear parámetros del modelo durante entrenamiento", de: "Modellparameter während Training ausrichten", nl: "Modelparameters uitlijnen tijdens training" },
+          { en: "Synchronizing multiple models", es: "Sincronizar múltiples modelos", de: "Mehrere Modelle synchronisieren", nl: "Meerdere modellen synchroniseren" },
+          { en: "Matching model outputs to training labels", es: "Hacer coincidir salidas del modelo con etiquetas de entrenamiento", de: "Modellausgaben mit Trainings-Labels abgleichen", nl: "Modeluitvoer matchen met trainingslabels" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Model alignment addresses the challenge of making AI systems helpful, harmless, and honest. Techniques include RLHF (reinforcement learning from human feedback), constitutional AI, and red teaming to ensure models behave as intended and avoid harmful outputs.",
+          es: "La alineación de modelos aborda el desafío de hacer sistemas de IA útiles, inofensivos y honestos. Las técnicas incluyen RLHF (aprendizaje por refuerzo desde retroalimentación humana), IA constitucional y equipos rojos para asegurar que modelos se comporten según lo previsto y eviten salidas dañinas.",
+          de: "Model Alignment adressiert die Herausforderung KI-Systeme hilfreich, harmlos und ehrlich zu machen. Techniken umfassen RLHF (Reinforcement Learning from Human Feedback), Constitutional AI und Red Teaming um sicherzustellen dass Modelle sich wie beabsichtigt verhalten und schädliche Ausgaben vermeiden.",
+          nl: "Model alignment pakt de uitdaging aan om AI-systemen behulpzaam, onschadelijk en eerlijk te maken. Technieken omvatten RLHF (reinforcement learning from human feedback), constitutional AI en red teaming om ervoor te zorgen dat modellen zich gedragen zoals bedoeld en schadelijke outputs vermijden."
+        }
+      },
+      {
+        question: {
+          en: "What is the scaling hypothesis in language models?",
+          es: "¿Qué es la hipótesis de escala en modelos de lenguaje?",
+          de: "Was ist die Scaling-Hypothese in Sprachmodellen?",
+          nl: "Wat is de scaling hypothese in taalmodellen?"
+        },
+        options: [
+          { en: "The observation that model capabilities improve predictably with increases in parameters, data, and compute", es: "La observación de que capacidades del modelo mejoran predeciblemente con aumentos en parámetros, datos y cómputo", de: "Die Beobachtung dass Modellfähigkeiten vorhersagbar mit Erhöhungen in Parametern, Daten und Rechenleistung verbessern", nl: "De observatie dat modelcapaciteiten voorspelbaar verbeteren met verhogingen in parameters, data en rekenkracht" },
+          { en: "Hypothesis about optimal model size", es: "Hipótesis sobre tamaño óptimo del modelo", de: "Hypothese über optimale Modellgröße", nl: "Hypothese over optimale modelgrootte" },
+          { en: "Theory about scaling training speed", es: "Teoría sobre escalar velocidad de entrenamiento", de: "Theorie über Skalierung der Trainingsgeschwindigkeit", nl: "Theorie over schalen van trainingssnelheid" },
+          { en: "Scaling model outputs to match targets", es: "Escalar salidas del modelo para coincidir con objetivos", de: "Modellausgaben skalieren um Ziele zu matchen", nl: "Modeluitvoer schalen om doelen te matchen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Scaling laws show that loss decreases predictably as a power law with model size, dataset size, and compute budget. This principle drove development from GPT-2 (1.5B) to GPT-3 (175B) to GPT-4, with emergent capabilities appearing at scale.",
+          es: "Las leyes de escala muestran que la pérdida disminuye predeciblemente como ley de potencia con tamaño del modelo, tamaño de conjunto de datos y presupuesto de cómputo. Este principio impulsó desarrollo desde GPT-2 (1.5B) a GPT-3 (175B) a GPT-4, con capacidades emergentes apareciendo a escala.",
+          de: "Skalierungsgesetze zeigen dass Verlust vorhersagbar als Potenzgesetz mit Modellgröße, Datensatzgröße und Rechenbudget abnimmt. Dieses Prinzip trieb Entwicklung von GPT-2 (1.5B) zu GPT-3 (175B) zu GPT-4, mit emergenten Fähigkeiten die bei Skalierung erscheinen.",
+          nl: "Schaalwetten tonen dat verlies voorspelbaar afneemt als machtswet met modelgrootte, datasetgrootte en rekenbudget. Dit principe dreef ontwikkeling van GPT-2 (1.5B) naar GPT-3 (175B) naar GPT-4, met emergente capaciteiten die op schaal verschijnen."
+        }
+      },
+      {
+        question: {
+          en: "What are emergent abilities in large language models?",
+          es: "¿Qué son las habilidades emergentes en modelos de lenguaje grandes?",
+          de: "Was sind emergente Fähigkeiten in großen Sprachmodellen?",
+          nl: "Wat zijn emergente capaciteiten in grote taalmodellen?"
+        },
+        options: [
+          { en: "Capabilities that appear suddenly at certain model scales but are absent in smaller models", es: "Capacidades que aparecen repentinamente en ciertas escalas de modelo pero están ausentes en modelos más pequeños", de: "Fähigkeiten die plötzlich bei bestimmten Modellskalen erscheinen aber in kleineren Modellen fehlen", nl: "Capaciteiten die plotseling verschijnen bij bepaalde modelschalen maar afwezig zijn in kleinere modellen" },
+          { en: "Abilities learned during emergence training", es: "Habilidades aprendidas durante entrenamiento de emergencia", de: "Fähigkeiten die während Notfalltraining gelernt werden", nl: "Capaciteiten geleerd tijdens noodtraining" },
+          { en: "Skills that emerge from fine-tuning", es: "Habilidades que emergen del ajuste fino", de: "Fähigkeiten die aus Fine-Tuning entstehen", nl: "Vaardigheden die voortkomen uit fine-tuning" },
+          { en: "Emergency response capabilities", es: "Capacidades de respuesta de emergencia", de: "Notfall-Reaktionsfähigkeiten", nl: "Noodrespons capaciteiten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Emergent abilities like multi-step reasoning, arithmetic, and complex instruction following appear unpredictably as models scale up. GPT-3 showed few-shot learning, while larger models exhibit chain-of-thought reasoning and other sophisticated behaviors not seen in smaller versions.",
+          es: "Habilidades emergentes como razonamiento de múltiples pasos, aritmética y seguimiento de instrucciones complejas aparecen impredeciblemente cuando modelos se escalan. GPT-3 mostró aprendizaje de pocos ejemplos, mientras modelos más grandes exhiben razonamiento de cadena de pensamiento y otros comportamientos sofisticados no vistos en versiones más pequeñas.",
+          de: "Emergente Fähigkeiten wie mehrstufiges Denken, Arithmetik und komplexes Anweisungsfolgen erscheinen unvorhersehbar wenn Modelle skalieren. GPT-3 zeigte Few-Shot Learning, während größere Modelle Chain-of-Thought Reasoning und andere ausgeklügelte Verhaltensweisen zeigen die in kleineren Versionen nicht zu sehen sind.",
+          nl: "Emergente capaciteiten zoals meerstaps redenering, rekenkunde en complex instructievolgen verschijnen onvoorspelbaar wanneer modellen opschalen. GPT-3 toonde few-shot learning, terwijl grotere modellen chain-of-thought redenering en ander geavanceerd gedrag vertonen dat niet wordt gezien in kleinere versies."
+        }
+      },
+      {
+        question: {
+          en: "What is red teaming in AI safety?",
+          es: "¿Qué es el equipo rojo en seguridad de IA?",
+          de: "Was ist Red Teaming in KI-Sicherheit?",
+          nl: "Wat is red teaming in AI-veiligheid?"
+        },
+        options: [
+          { en: "Deliberately attempting to make AI systems produce harmful, biased, or unintended outputs to identify vulnerabilities", es: "Intentar deliberadamente hacer que sistemas de IA produzcan salidas dañinas, sesgadas o no intencionales para identificar vulnerabilidades", de: "Absichtlich versuchen KI-Systeme dazu zu bringen schädliche, voreingenommene oder unbeabsichtigte Ausgaben zu produzieren um Schwachstellen zu identifizieren", nl: "Opzettelijk proberen AI-systemen schadelijke, bevooroordeelde of onbedoelde outputs te laten produceren om kwetsbaarheden te identificeren" },
+          { en: "Testing models with red-colored data", es: "Probar modelos con datos de color rojo", de: "Modelle mit roten Daten testen", nl: "Modellen testen met rode gegevens" },
+          { en: "Using adversarial networks", es: "Usar redes adversariales", de: "Adversariale Netzwerke verwenden", nl: "Adversarial netwerken gebruiken" },
+          { en: "Security testing by external teams", es: "Pruebas de seguridad por equipos externos", de: "Sicherheitstests durch externe Teams", nl: "Beveiligingstests door externe teams" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Red teaming involves adversarial testing where researchers systematically probe models for weaknesses, trying to elicit harmful content, bypass safety measures, or expose biases. Findings inform safety improvements before deployment.",
+          es: "El equipo rojo implica pruebas adversariales donde investigadores sondean sistemáticamente modelos en busca de debilidades, intentando provocar contenido dañino, eludir medidas de seguridad o exponer sesgos. Los hallazgos informan mejoras de seguridad antes del despliegue.",
+          de: "Red Teaming beinhaltet adversariale Tests wo Forscher systematisch Modelle auf Schwächen prüfen, versuchen schädliche Inhalte hervorzurufen, Sicherheitsmaßnahmen zu umgehen oder Bias aufzudecken. Erkenntnisse informieren Sicherheitsverbesserungen vor Bereitstellung.",
+          nl: "Red teaming omvat adversarial testen waarbij onderzoekers systematisch modellen onderzoeken op zwakheden, proberen schadelijke inhoud uit te lokken, veiligheidsmaatregelen te omzeilen of vooroordelen bloot te leggen. Bevindingen informeren veiligheidsverbeteringen vóór implementatie."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between sparse and dense models?",
+          es: "¿Cuál es la diferencia entre modelos dispersos y densos?",
+          de: "Was ist der Unterschied zwischen spärlichen und dichten Modellen?",
+          nl: "Wat is het verschil tussen sparse en dense modellen?"
+        },
+        options: [
+          { en: "Sparse models activate only a subset of parameters per input, dense models use all parameters for every input", es: "Los modelos dispersos activan solo un subconjunto de parámetros por entrada, modelos densos usan todos los parámetros para cada entrada", de: "Spärliche Modelle aktivieren nur eine Teilmenge von Parametern pro Eingabe, dichte Modelle verwenden alle Parameter für jede Eingabe", nl: "Sparse modellen activeren slechts een subset van parameters per invoer, dense modellen gebruiken alle parameters voor elke invoer" },
+          { en: "Sparse models have fewer parameters total", es: "Los modelos dispersos tienen menos parámetros totales", de: "Spärliche Modelle haben insgesamt weniger Parameter", nl: "Sparse modellen hebben in totaal minder parameters" },
+          { en: "Dense models are more accurate", es: "Los modelos densos son más precisos", de: "Dichte Modelle sind genauer", nl: "Dense modellen zijn nauwkeuriger" },
+          { en: "Sparse models use sparse attention only", es: "Los modelos dispersos usan solo atención dispersa", de: "Spärliche Modelle verwenden nur spärliche Aufmerksamkeit", nl: "Sparse modellen gebruiken alleen sparse aandacht" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sparse models like Mixture-of-Experts conditionally activate subsets of parameters, enabling larger total parameter counts with constant computational cost per token. Dense models like standard Transformers always use all parameters, limiting scalability.",
+          es: "Los modelos dispersos como Mixture-of-Experts activan condicionalmente subconjuntos de parámetros, permitiendo conteos totales de parámetros más grandes con costo computacional constante por token. Los modelos densos como Transformadores estándar siempre usan todos los parámetros, limitando escalabilidad.",
+          de: "Spärliche Modelle wie Mixture-of-Experts aktivieren bedingt Teilmengen von Parametern, ermöglichen größere Gesamtparameterzahlen mit konstanten Rechenkosten pro Token. Dichte Modelle wie Standard-Transformer verwenden immer alle Parameter, begrenzen Skalierbarkeit.",
+          nl: "Sparse modellen zoals Mixture-of-Experts activeren voorwaardelijk subsets van parameters, maken grotere totale parameterhoeveelheden mogelijk met constante computationele kosten per token. Dense modellen zoals standaard Transformers gebruiken altijd alle parameters, beperken schaalbaarheid."
+        }
+      },
+      {
+        question: {
+          en: "What is knowledge distillation in NLP?",
+          es: "¿Qué es la destilación de conocimiento en PLN?",
+          de: "Was ist Wissensdestillation in NLP?",
+          nl: "Wat is kennisdistillatie in NLP?"
+        },
+        options: [
+          { en: "Training a smaller student model to mimic a larger teacher model's outputs and soft probabilities", es: "Entrenar un modelo estudiante más pequeño para imitar salidas y probabilidades suaves de un modelo profesor más grande", de: "Ein kleineres Schüler-Modell trainieren um Ausgaben und weiche Wahrscheinlichkeiten eines größeren Lehrer-Modells nachzuahmen", nl: "Een kleiner student-model trainen om de outputs en zachte waarschijnlijkheden van een groter leraarmodel na te bootsen" },
+          { en: "Extracting knowledge from unstructured text", es: "Extraer conocimiento de texto no estructurado", de: "Wissen aus unstrukturiertem Text extrahieren", nl: "Kennis extraheren uit ongestructureerde tekst" },
+          { en: "Compressing knowledge bases", es: "Comprimir bases de conocimiento", de: "Wissensbasen komprimieren", nl: "Kennisbanken comprimeren" },
+          { en: "Purifying training data", es: "Purificar datos de entrenamiento", de: "Trainingsdaten reinigen", nl: "Trainingsgegevens zuiveren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Knowledge distillation transfers knowledge from a large, accurate teacher model to a smaller, faster student model. The student learns from the teacher's soft predictions (probability distributions) which contain richer information than hard labels, achieving good performance with fewer parameters.",
+          es: "La destilación de conocimiento transfiere conocimiento de un modelo profesor grande y preciso a un modelo estudiante más pequeño y rápido. El estudiante aprende de las predicciones suaves del profesor (distribuciones de probabilidad) que contienen información más rica que etiquetas duras, logrando buen rendimiento con menos parámetros.",
+          de: "Wissensdestillation überträgt Wissen von einem großen, genauen Lehrer-Modell zu einem kleineren, schnelleren Schüler-Modell. Der Schüler lernt von den weichen Vorhersagen des Lehrers (Wahrscheinlichkeitsverteilungen) die reichere Informationen als harte Labels enthalten, erzielt gute Leistung mit weniger Parametern.",
+          nl: "Kennisdistillatie draagt kennis over van een groot, nauwkeurig leraarmodel naar een kleiner, sneller student-model. De student leert van de zachte voorspellingen van de leraar (waarschijnlijkheidsverdelingen) die rijkere informatie bevatten dan harde labels, behaalt goede prestaties met minder parameters."
+        }
+      },
+      {
+        question: {
+          en: "What is model pruning and when is it used?",
+          es: "¿Qué es la poda de modelos y cuándo se usa?",
+          de: "Was ist Modell-Pruning und wann wird es verwendet?",
+          nl: "Wat is model pruning en wanneer wordt het gebruikt?"
+        },
+        options: [
+          { en: "Removing unnecessary weights or neurons from trained models to reduce size while maintaining performance", es: "Eliminar pesos o neuronas innecesarias de modelos entrenados para reducir tamaño mientras se mantiene rendimiento", de: "Unnötige Gewichte oder Neuronen aus trainierten Modellen entfernen um Größe zu reduzieren während Leistung beibehalten wird", nl: "Onnodige gewichten of neuronen verwijderen uit getrainde modellen om grootte te verminderen terwijl prestaties behouden blijven" },
+          { en: "Removing bad training examples", es: "Eliminar malos ejemplos de entrenamiento", de: "Schlechte Trainingsbeispiele entfernen", nl: "Slechte trainingsvoorbeelden verwijderen" },
+          { en: "Cutting layers from models", es: "Cortar capas de modelos", de: "Schichten aus Modellen schneiden", nl: "Lagen uit modellen knippen" },
+          { en: "Removing outdated knowledge", es: "Eliminar conocimiento obsoleto", de: "Veraltetes Wissen entfernen", nl: "Verouderde kennis verwijderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pruning identifies and removes weights with low magnitude or importance, creating sparser networks. Structured pruning removes entire neurons/layers, while unstructured pruning removes individual weights. This can reduce model size by 50-90% with minimal accuracy loss.",
+          es: "La poda identifica y elimina pesos con baja magnitud o importancia, creando redes más dispersas. La poda estructurada elimina neuronas/capas enteras, mientras la poda no estructurada elimina pesos individuales. Esto puede reducir tamaño del modelo en 50-90% con pérdida mínima de precisión.",
+          de: "Pruning identifiziert und entfernt Gewichte mit niedriger Magnitude oder Wichtigkeit, erstellt spärlichere Netzwerke. Strukturiertes Pruning entfernt ganze Neuronen/Schichten, während unstrukturiertes Pruning einzelne Gewichte entfernt. Dies kann Modellgröße um 50-90% reduzieren mit minimaler Genauigkeitseinbuße.",
+          nl: "Pruning identificeert en verwijdert gewichten met lage magnitude of belangrijkheid, creëert sparsere netwerken. Gestructureerde pruning verwijdert hele neuronen/lagen, terwijl ongestructureerde pruning individuele gewichten verwijdert. Dit kan modelgrootte met 50-90% verminderen met minimaal nauwkeurigheidsverlies."
+        }
+      },
+      {
+        question: {
+          en: "What is the attention head concept in Transformers?",
+          es: "¿Qué es el concepto de cabeza de atención en Transformadores?",
+          de: "Was ist das Attention Head Konzept in Transformern?",
+          nl: "Wat is het attention head concept in Transformers?"
+        },
+        options: [
+          { en: "Multiple parallel attention mechanisms that learn different aspects of relationships between tokens", es: "Múltiples mecanismos de atención paralelos que aprenden diferentes aspectos de relaciones entre tokens", de: "Mehrere parallele Aufmerksamkeitsmechanismen die verschiedene Aspekte von Beziehungen zwischen Tokens lernen", nl: "Meerdere parallelle aandachtmechanismen die verschillende aspecten van relaties tussen tokens leren" },
+          { en: "The top layer of attention", es: "La capa superior de atención", de: "Die oberste Aufmerksamkeitsschicht", nl: "De bovenste laag van aandacht" },
+          { en: "The primary attention computation", es: "La computación de atención primaria", de: "Die primäre Aufmerksamkeitsberechnung", nl: "De primaire aandachtberekening" },
+          { en: "Attention to the head of sequences", es: "Atención al inicio de secuencias", de: "Aufmerksamkeit auf den Anfang von Sequenzen", nl: "Aandacht aan het begin van sequenties" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Multi-head attention runs multiple attention operations in parallel, each with different learned projections. Different heads specialize in different patterns (syntax, semantics, long-range dependencies), and their outputs are concatenated. BERT-base uses 12 heads per layer.",
+          es: "La atención multi-cabeza ejecuta múltiples operaciones de atención en paralelo, cada una con diferentes proyecciones aprendidas. Diferentes cabezas se especializan en diferentes patrones (sintaxis, semántica, dependencias de largo alcance), y sus salidas se concatenan. BERT-base usa 12 cabezas por capa.",
+          de: "Multi-Head Attention führt mehrere Aufmerksamkeitsoperationen parallel aus, jede mit unterschiedlichen gelernten Projektionen. Verschiedene Heads spezialisieren sich auf verschiedene Muster (Syntax, Semantik, weitreichende Abhängigkeiten), und ihre Ausgaben werden konkateniert. BERT-base verwendet 12 Heads pro Schicht.",
+          nl: "Multi-head aandacht voert meerdere aandachtoperaties parallel uit, elk met verschillende geleerde projecties. Verschillende heads specialiseren zich in verschillende patronen (syntaxis, semantiek, lange-afstand afhankelijkheden), en hun outputs worden samengevoegd. BERT-base gebruikt 12 heads per laag."
+        }
+      },
+      {
+        question: {
+          en: "What is the importance of the feedforward network in Transformer layers?",
+          es: "¿Cuál es la importancia de la red feedforward en capas de Transformer?",
+          de: "Was ist die Bedeutung des Feedforward-Netzwerks in Transformer-Schichten?",
+          nl: "Wat is het belang van het feedforward netwerk in Transformer-lagen?"
+        },
+        options: [
+          { en: "It applies non-linear transformations to each position independently, enabling complex feature learning", es: "Aplica transformaciones no lineales a cada posición independientemente, permitiendo aprendizaje de características complejas", de: "Es wendet nichtlineare Transformationen auf jede Position unabhängig an, ermöglicht komplexes Feature-Learning", nl: "Het past niet-lineaire transformaties toe op elke positie onafhankelijk, maakt complex kenmerkenleren mogelijk" },
+          { en: "It connects layers in sequence", es: "Conecta capas en secuencia", de: "Es verbindet Schichten sequenziell", nl: "Het verbindt lagen in volgorde" },
+          { en: "It feeds data forward through the network", es: "Alimenta datos hacia adelante a través de la red", de: "Es führt Daten vorwärts durch das Netzwerk", nl: "Het voedt gegevens voorwaarts door het netwerk" },
+          { en: "It provides forward predictions", es: "Proporciona predicciones hacia adelante", de: "Es liefert Vorwärtsvorhersagen", nl: "Het biedt voorwaartse voorspellingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "After self-attention gathers information across positions, the position-wise feedforward network (two linear layers with activation) processes each position independently with non-linear transformations. This accounts for most of the model's parameters and is crucial for learning complex patterns.",
+          es: "Después de que auto-atención recopila información a través de posiciones, la red feedforward por posición (dos capas lineales con activación) procesa cada posición independientemente con transformaciones no lineales. Esto representa la mayoría de los parámetros del modelo y es crucial para aprender patrones complejos.",
+          de: "Nachdem Selbstaufmerksamkeit Informationen über Positionen sammelt, verarbeitet das positionsweise Feedforward-Netzwerk (zwei lineare Schichten mit Aktivierung) jede Position unabhängig mit nichtlinearen Transformationen. Dies macht den Großteil der Modellparameter aus und ist entscheidend für das Lernen komplexer Muster.",
+          nl: "Nadat zelf-aandacht informatie verzamelt over posities, verwerkt het positie-gewijze feedforward netwerk (twee lineaire lagen met activatie) elke positie onafhankelijk met niet-lineaire transformaties. Dit is goed voor de meeste modelparameters en is cruciaal voor het leren van complexe patronen."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of layernorm in Transformers?",
+          es: "¿Cuál es el propósito de layernorm en Transformadores?",
+          de: "Was ist der Zweck von Layernorm in Transformern?",
+          nl: "Wat is het doel van layernorm in Transformers?"
+        },
+        options: [
+          { en: "Normalizing activations to stabilize training and enable deeper networks", es: "Normalizar activaciones para estabilizar entrenamiento y permitir redes más profundas", de: "Aktivierungen normalisieren um Training zu stabilisieren und tiefere Netzwerke zu ermöglichen", nl: "Activaties normaliseren om training te stabiliseren en diepere netwerken mogelijk te maken" },
+          { en: "Normalizing layer weights", es: "Normalizar pesos de capa", de: "Schichtgewichte normalisieren", nl: "Laaggewichten normaliseren" },
+          { en: "Creating normal distributions", es: "Crear distribuciones normales", de: "Normalverteilungen erstellen", nl: "Normale verdelingen creëren" },
+          { en: "Standardizing layer outputs", es: "Estandarizar salidas de capa", de: "Schichtausgaben standardisieren", nl: "Laaguitvoer standaardiseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Layer normalization normalizes activations across features for each example, computing mean and variance per layer input. Applied before or after sublayers with residual connections, it stabilizes gradients and enables training very deep Transformer networks.",
+          es: "La normalización de capa normaliza activaciones a través de características para cada ejemplo, calculando media y varianza por entrada de capa. Aplicada antes o después de subcapas con conexiones residuales, estabiliza gradientes y permite entrenar redes Transformer muy profundas.",
+          de: "Layer Normalization normalisiert Aktivierungen über Features für jedes Beispiel, berechnet Mittelwert und Varianz pro Schichteingabe. Angewendet vor oder nach Unterschichten mit Residualverbindungen, stabilisiert es Gradienten und ermöglicht Training sehr tiefer Transformer-Netzwerke.",
+          nl: "Laagnormalisatie normaliseert activaties over features voor elk voorbeeld, berekent gemiddelde en variantie per laagin voer. Toegepast voor of na sublagen met residuele verbindingen, stabiliseert het gradiënten en maakt training van zeer diepe Transformer-netwerken mogelijk."
+        }    },
+    {
+      question: {en: "What is strategy in games?", es: "What is strategy in games?", de: "What is strategy in games?", nl: "What is strategy in games?"},
+      options: [
+        {en: "Planning to achieve objectives", es: "Planning to achieve objectives", de: "Planning to achieve objectives", nl: "Planning to achieve objectives"},
+        {en: "Random moves", es: "Random moves", de: "Random moves", nl: "Random moves"},
+        {en: "Luck only", es: "Luck only", de: "Luck only", nl: "Luck only"},
+        {en: "No planning", es: "No planning", de: "No planning", nl: "No planning"}
+      ],
+      correct: 0,
+      explanation: {en: "Strategy involves planning and decision-making to achieve game objectives.", es: "Strategy involves planning and decision-making to achieve game objectives.", de: "Strategy involves planning and decision-making to achieve game objectives.", nl: "Strategy involves planning and decision-making to achieve game objectives."}
+
       }
     ]
   };

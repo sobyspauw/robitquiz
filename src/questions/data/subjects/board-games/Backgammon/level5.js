@@ -848,48 +848,6 @@
           nl: "Een dode dobbelsteen situatie vindt plaats bij bepaalde wedstrijdscores waar geen enkele speler ooit zal verdubbelen omdat het strategisch verkeerd is. Bijvoorbeeld, bij 2-away, 2-away (na Crawford), zouden beide spelers nooit moeten verdubbelen - de leider omdat ze hun positie beschermen, de achterliggende omdat verdubbelen dobbelsteentoegang weggeeft zonder voordeel. Het spel speelt zich af alsof er geen dobbelsteen is."
         }
       },
-      {
-        question: {
-          en: "What is the 'Crawford rule' in match play?",
-          es: "¿Qué es la 'regla Crawford' en juego de match?",
-          de: "Was ist die 'Crawford-Regel' im Match-Spiel?",
-          nl: "Wat is de 'Crawford regel' in wedstrijdspel?"
-        },
-        options: [
-          { en: "When one player is 1-away, next game has no doubling cube", es: "Cuando un jugador está a 1 de ganar, el siguiente juego no tiene cubo de doblar", de: "Wenn ein Spieler 1-away ist, hat nächstes Spiel keinen Dopplungswürfel", nl: "Wanneer één speler 1-away is, heeft volgend spel geen verdubbeldobbelsteen" },
-          { en: "Mandatory break after 5 games", es: "Descanso obligatorio después de 5 juegos", de: "Pflichtpause nach 5 Spielen", nl: "Verplichte pauze na 5 spellen" },
-          { en: "Cube starts at 2", es: "Cubo comienza en 2", de: "Würfel startet bei 2", nl: "Dobbelsteen start bij 2" },
-          { en: "Gammons count double", es: "Gammons cuentan doble", de: "Gammons zählen doppelt", nl: "Gammons tellen dubbel" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The Crawford rule states that when one player reaches 1-away from winning the match, the next game is played without the doubling cube (Crawford game). This prevents the trailing player from immediately doubling to win or lose the match on a single game. After the Crawford game, the cube is back in play.",
-          es: "La regla Crawford establece que cuando un jugador llega a 1 punto de ganar el match, el siguiente juego se juega sin el cubo de doblar (juego Crawford). Esto previene que el jugador que va perdiendo doble inmediatamente para ganar o perder el match en un solo juego. Después del juego Crawford, el cubo vuelve a estar en juego.",
-          de: "Die Crawford-Regel besagt dass wenn ein Spieler 1-away vom Matchsieg erreicht, das nächste Spiel ohne Dopplungswürfel gespielt wird (Crawford-Spiel). Dies verhindert dass der zurückliegende Spieler sofort verdoppelt um das Match in einem einzelnen Spiel zu gewinnen oder verlieren. Nach dem Crawford-Spiel ist der Würfel wieder im Spiel.",
-          nl: "De Crawford regel stelt dat wanneer één speler 1-away bereikt van het winnen van de wedstrijd, het volgende spel wordt gespeeld zonder de verdubbeldobbelsteen (Crawford spel). Dit voorkomt dat de achterliggende speler onmiddellijk verdubbelt om de wedstrijd te winnen of verliezen in een enkel spel. Na het Crawford spel is de dobbelsteen weer in het spel."
-        }
-      },
-      {
-        question: {
-          en: "What is 'XG Roller++' evaluation level?",
-          es: "¿Qué es el nivel de evaluación 'XG Roller++'?",
-          de: "Was ist 'XG Roller++'-Bewertungsstufe?",
-          nl: "Wat is 'XG Roller++' evaluatieniveau?"
-        },
-        options: [
-          { en: "Highest analysis level in eXtreme Gammon using neural nets", es: "Nivel de análisis más alto en eXtreme Gammon usando redes neuronales", de: "Höchste Analysestufe in eXtreme Gammon mit neuronalen Netzen", nl: "Hoogste analyseniveau in eXtreme Gammon met neurale netwerken" },
-          { en: "Beginner bot setting", es: "Configuración de bot principiante", de: "Anfänger-Bot-Einstellung", nl: "Beginner bot instelling" },
-          { en: "Fast evaluation mode", es: "Modo de evaluación rápida", de: "Schneller Bewertungsmodus", nl: "Snelle evaluatie modus" },
-          { en: "Rolling technique", es: "Técnica de lanzamiento", de: "Wurftechnik", nl: "Gooi techniek" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "XG Roller++ is the highest-quality evaluation setting in eXtreme Gammon software. It uses deep neural network analysis for the most accurate position assessment, but is very slow. It's primarily used for creating reference positions and studying critical positions. Most analysis uses faster levels (Supremo, World Class) which are nearly as accurate.",
-          es: "XG Roller++ es la configuración de evaluación de más alta calidad en el software eXtreme Gammon. Usa análisis de red neuronal profunda para la evaluación de posición más precisa, pero es muy lento. Se usa principalmente para crear posiciones de referencia y estudiar posiciones críticas. La mayoría del análisis usa niveles más rápidos (Supremo, World Class) que son casi tan precisos.",
-          de: "XG Roller++ ist die höchstqualitative Bewertungseinstellung in eXtreme Gammon Software. Es verwendet tiefe neuronale Netzwerkanalyse für die genaueste Positionsbewertung, ist aber sehr langsam. Es wird hauptsächlich verwendet um Referenzpositionen zu erstellen und kritische Positionen zu studieren. Die meiste Analyse verwendet schnellere Stufen (Supremo, World Class) die fast so genau sind.",
-          nl: "XG Roller++ is de hoogste kwaliteit evaluatie-instelling in eXtreme Gammon software. Het gebruikt diepe neurale netwerk analyse voor de meest nauwkeurige positiebeoordeling, maar is zeer langzaam. Het wordt voornamelijk gebruikt voor het creëren van referentieposities en bestuderen van kritieke posities. De meeste analyse gebruikt snellere niveaus (Supremo, World Class) die bijna even nauwkeurig zijn."
-        }
-      }
     ]
   };
 

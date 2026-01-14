@@ -428,6 +428,447 @@
           nl: "Op grotere hoogtes is de lucht droger en adem je sneller om lagere zuurstofniveaus te compenseren. Dit verhoogt waterverlies door ademhaling en vereist ongeveer 50% meer waterinname."
         }
       },
+      {
+        question: {
+          en: "What are electrolytes and why are they important for hydration?",
+          es: "¿Qué son los electrolitos y por qué son importantes para la hidratación?",
+          de: "Was sind Elektrolyte und warum sind sie wichtig für die Hydratation?",
+          nl: "Wat zijn elektrolyten en waarom zijn ze belangrijk voor hydratatie?"
+        },
+        options: [
+          { en: "Minerals that help regulate fluid balance in the body", es: "Minerales que ayudan a regular el equilibrio de líquidos en el cuerpo", de: "Mineralien, die helfen, das Flüssigkeitsgleichgewicht im Körper zu regulieren", nl: "Mineralen die helpen vloeistofbalans in het lichaam te reguleren" },
+          { en: "Electrical charges in water", es: "Cargas eléctricas en el agua", de: "Elektrische Ladungen im Wasser", nl: "Elektrische ladingen in water" },
+          { en: "Vitamins dissolved in water", es: "Vitaminas disueltas en agua", de: "Im Wasser gelöste Vitamine", nl: "Vitamines opgelost in water" },
+          { en: "Proteins that transport water", es: "Proteínas que transportan agua", de: "Proteine, die Wasser transportieren", nl: "Eiwitten die water transporteren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Electrolytes are minerals like sodium, potassium, calcium, and magnesium that carry electrical charges. They regulate fluid balance, nerve function, and muscle contractions. During heavy sweating, electrolytes must be replaced along with water.",
+          es: "Los electrolitos son minerales como sodio, potasio, calcio y magnesio que llevan cargas eléctricas. Regulan el equilibrio de líquidos, función nerviosa y contracciones musculares. Durante sudoración intensa, los electrolitos deben reemplazarse junto con el agua.",
+          de: "Elektrolyte sind Mineralien wie Natrium, Kalium, Kalzium und Magnesium, die elektrische Ladungen tragen. Sie regulieren Flüssigkeitsgleichgewicht, Nervenfunktion und Muskelkontraktionen. Bei starkem Schwitzen müssen Elektrolyte zusammen mit Wasser ersetzt werden.",
+          nl: "Elektrolyten zijn mineralen zoals natrium, kalium, calcium en magnesium die elektrische ladingen dragen. Ze reguleren vloeistofbalans, zenuwfunctie en spiercontracties. Tijdens hevig zweten moeten elektrolyten samen met water worden aangevuld."
+        }
+      },
+      {
+        question: {
+          en: "What is hyponatremia?",
+          es: "¿Qué es la hiponatremia?",
+          de: "Was ist Hyponatriämie?",
+          nl: "Wat is hyponatriëmie?"
+        },
+        options: [
+          { en: "Dangerously low sodium levels from drinking too much water", es: "Niveles peligrosamente bajos de sodio por beber demasiada agua", de: "Gefährlich niedrige Natriumwerte durch zu viel Wassertrinken", nl: "Gevaarlijk lage natriumwaarden door te veel water drinken" },
+          { en: "Dehydration", es: "Deshidratación", de: "Dehydrierung", nl: "Uitdroging" },
+          { en: "High sodium levels", es: "Niveles altos de sodio", de: "Hohe Natriumwerte", nl: "Hoge natriumwaarden" },
+          { en: "Lack of vitamins", es: "Falta de vitaminas", de: "Vitaminmangel", nl: "Gebrek aan vitamines" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hyponatremia is a dangerous condition where sodium levels in the blood become too diluted from excessive water consumption without adequate electrolyte replacement. It can cause confusion, seizures, and in severe cases, death.",
+          es: "La hiponatremia es una condición peligrosa donde los niveles de sodio en la sangre se diluyen demasiado por consumo excesivo de agua sin reemplazo adecuado de electrolitos. Puede causar confusión, convulsiones y en casos severos, muerte.",
+          de: "Hyponatriämie ist ein gefährlicher Zustand, bei dem Natriumwerte im Blut durch übermäßigen Wasserkonsum ohne ausreichenden Elektrolytersatz zu stark verdünnt werden. Es kann Verwirrung, Krampfanfälle und in schweren Fällen Tod verursachen.",
+          nl: "Hyponatriëmie is een gevaarlijke aandoening waarbij natriumwaarden in het bloed te veel verdund raken door overmatige waterconsumptie zonder adequate elektrolytenvervanging. Het kan verwarring, stuipen en in ernstige gevallen de dood veroorzaken."
+        }
+      },
+      {
+        question: {
+          en: "What is the best indicator of proper hydration?",
+          es: "¿Cuál es el mejor indicador de hidratación adecuada?",
+          de: "Was ist der beste Indikator für richtige Hydratation?",
+          nl: "Wat is de beste indicator van goede hydratatie?"
+        },
+        options: [
+          { en: "Pale yellow urine color", es: "Color de orina amarillo pálido", de: "Blassgelbe Urinfarbe", nl: "Lichtgele urinekleur" },
+          { en: "Feeling thirsty", es: "Sentir sed", de: "Durstig fühlen", nl: "Dorst voelen" },
+          { en: "Dry mouth", es: "Boca seca", de: "Trockener Mund", nl: "Droge mond" },
+          { en: "Number of glasses consumed", es: "Número de vasos consumidos", de: "Anzahl der konsumierten Gläser", nl: "Aantal gedronken glazen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The color of your urine is the best indicator of hydration status. Pale yellow indicates good hydration, while dark yellow or amber suggests dehydration. Clear urine may indicate overhydration.",
+          es: "El color de la orina es el mejor indicador del estado de hidratación. Amarillo pálido indica buena hidratación, mientras que amarillo oscuro o ámbar sugiere deshidratación. Orina transparente puede indicar sobrehidratación.",
+          de: "Die Farbe Ihres Urins ist der beste Indikator für den Hydratationsstatus. Blassgelb zeigt gute Hydratation an, während dunkelgelb oder bernsteinfarben Dehydrierung nahelegt. Klarer Urin kann Überhydratation anzeigen.",
+          nl: "De kleur van je urine is de beste indicator van hydratatiestatus. Lichtgeel geeft goede hydratatie aan, terwijl donkergeel of amberkleurig uitdroging suggereert. Heldere urine kan overhydratatie aangeven."
+        }
+      },
+      {
+        question: {
+          en: "How does water help regulate body temperature?",
+          es: "¿Cómo ayuda el agua a regular la temperatura corporal?",
+          de: "Wie hilft Wasser, die Körpertemperatur zu regulieren?",
+          nl: "Hoe helpt water de lichaamstemperatuur te reguleren?"
+        },
+        options: [
+          { en: "Through sweating and evaporative cooling", es: "A través de la sudoración y enfriamiento por evaporación", de: "Durch Schwitzen und Verdunstungskühlung", nl: "Door zweten en verdampingskoeling" },
+          { en: "By storing heat in tissues", es: "Almacenando calor en los tejidos", de: "Durch Wärmespeicherung im Gewebe", nl: "Door warmte op te slaan in weefsels" },
+          { en: "By increasing metabolism", es: "Aumentando el metabolismo", de: "Durch Stoffwechselerhöhung", nl: "Door metabolisme te verhogen" },
+          { en: "Water doesn't affect temperature", es: "El agua no afecta la temperatura", de: "Wasser beeinflusst die Temperatur nicht", nl: "Water beïnvloedt de temperatuur niet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Water regulates body temperature primarily through sweating. When the body heats up, sweat glands release water onto the skin. As this water evaporates, it removes heat from the body, cooling it down.",
+          es: "El agua regula la temperatura corporal principalmente a través de la sudoración. Cuando el cuerpo se calienta, las glándulas sudoríparas liberan agua en la piel. A medida que esta agua se evapora, elimina calor del cuerpo, enfriándolo.",
+          de: "Wasser reguliert die Körpertemperatur hauptsächlich durch Schwitzen. Wenn sich der Körper erwärmt, geben Schweißdrüsen Wasser auf die Haut ab. Wenn dieses Wasser verdunstet, entzieht es dem Körper Wärme und kühlt ihn ab.",
+          nl: "Water reguleert lichaamstemperatuur voornamelijk door zweten. Wanneer het lichaam opwarmt, geven zweetklieren water af op de huid. Terwijl dit water verdampt, onttrekt het warmte aan het lichaam en koelt het af."
+        }
+      },
+      {
+        question: {
+          en: "What is water intoxication?",
+          es: "¿Qué es la intoxicación por agua?",
+          de: "Was ist Wasservergiftung?",
+          nl: "Wat is watervergiftiging?"
+        },
+        options: [
+          { en: "Consuming too much water too quickly, diluting blood sodium", es: "Consumir demasiada agua muy rápido, diluyendo el sodio en sangre", de: "Zu schnell zu viel Wasser konsumieren, was Blutnatrium verdünnt", nl: "Te snel te veel water consumeren, waardoor bloednatrium verdunt" },
+          { en: "Drinking contaminated water", es: "Beber agua contaminada", de: "Kontaminiertes Wasser trinken", nl: "Vervuild water drinken" },
+          { en: "Allergic reaction to water", es: "Reacción alérgica al agua", de: "Allergische Reaktion auf Wasser", nl: "Allergische reactie op water" },
+          { en: "Drinking water with toxins", es: "Beber agua con toxinas", de: "Wasser mit Giftstoffen trinken", nl: "Water met gifstoffen drinken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Water intoxication occurs when someone drinks excessive amounts of water in a short time, diluting sodium levels in the blood (hyponatremia). This causes cells to swell, particularly dangerous for brain cells. It's rare but can be fatal.",
+          es: "La intoxicación por agua ocurre cuando alguien bebe cantidades excesivas de agua en poco tiempo, diluyendo los niveles de sodio en la sangre (hiponatremia). Esto hace que las células se hinchen, especialmente peligroso para células cerebrales. Es raro pero puede ser fatal.",
+          de: "Wasservergiftung tritt auf, wenn jemand übermäßige Mengen Wasser in kurzer Zeit trinkt und Natriumwerte im Blut verdünnt (Hyponatriämie). Dies lässt Zellen anschwellen, besonders gefährlich für Gehirnzellen. Es ist selten, kann aber tödlich sein.",
+          nl: "Watervergiftiging treedt op wanneer iemand overmatige hoeveelheden water in korte tijd drinkt, waardoor natriumwaarden in het bloed verdunnen (hyponatriëmie). Dit veroorzaakt dat cellen opzwellen, bijzonder gevaarlijk voor hersencellen. Het is zeldzaam maar kan dodelijk zijn."
+        }
+      },
+      {
+        question: {
+          en: "How does water help with weight management?",
+          es: "¿Cómo ayuda el agua con el control de peso?",
+          de: "Wie hilft Wasser beim Gewichtsmanagement?",
+          nl: "Hoe helpt water met gewichtsbeheersing?"
+        },
+        options: [
+          { en: "Increases feelings of fullness and boosts metabolism", es: "Aumenta sensación de saciedad y acelera metabolismo", de: "Erhöht Sättigungsgefühl und steigert Stoffwechsel", nl: "Verhoogt verzadigingsgevoel en versnelt metabolisme" },
+          { en: "Burns calories directly", es: "Quema calorías directamente", de: "Verbrennt direkt Kalorien", nl: "Verbrandt direct calorieën" },
+          { en: "Blocks fat absorption", es: "Bloquea absorción de grasa", de: "Blockiert Fettabsorption", nl: "Blokkeert vetabsorptie" },
+          { en: "Water has no effect on weight", es: "El agua no tiene efecto en el peso", de: "Wasser hat keine Auswirkung auf das Gewicht", nl: "Water heeft geen effect op gewicht" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Water aids weight management by increasing feelings of fullness before meals, reducing calorie intake. It also temporarily boosts metabolism and has zero calories, making it a better choice than sugary drinks.",
+          es: "El agua ayuda al control de peso aumentando la sensación de saciedad antes de las comidas, reduciendo la ingesta calórica. También acelera temporalmente el metabolismo y no tiene calorías, siendo mejor opción que bebidas azucaradas.",
+          de: "Wasser hilft beim Gewichtsmanagement, indem es das Sättigungsgefühl vor Mahlzeiten erhöht und die Kalorienaufnahme reduziert. Es steigert auch vorübergehend den Stoffwechsel und hat null Kalorien, was es zur besseren Wahl als zuckerhaltige Getränke macht.",
+          nl: "Water helpt bij gewichtsbeheersing door verzadigingsgevoel voor maaltijden te verhogen, wat calorie-inname vermindert. Het versnelt ook tijdelijk het metabolisme en heeft nul calorieën, waardoor het een betere keuze is dan suikerhoudende dranken."
+        }
+      },
+      {
+        question: {
+          en: "What role does water play in kidney function?",
+          es: "¿Qué papel juega el agua en la función renal?",
+          de: "Welche Rolle spielt Wasser bei der Nierenfunktion?",
+          nl: "Welke rol speelt water in nierfunctie?"
+        },
+        options: [
+          { en: "Helps kidneys filter waste and toxins from blood", es: "Ayuda a los riñones a filtrar desechos y toxinas de la sangre", de: "Hilft Nieren, Abfall und Giftstoffe aus dem Blut zu filtern", nl: "Helpt nieren afvalstoffen en gifstoffen uit bloed te filteren" },
+          { en: "Produces kidney hormones", es: "Produce hormonas renales", de: "Produziert Nierenhormone", nl: "Produceert nierhormonen" },
+          { en: "Stores minerals in kidneys", es: "Almacena minerales en los riñones", de: "Speichert Mineralien in den Nieren", nl: "Slaat mineralen op in nieren" },
+          { en: "Water doesn't affect kidneys", es: "El agua no afecta los riñones", de: "Wasser beeinflusst die Nieren nicht", nl: "Water beïnvloedt nieren niet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Water is essential for kidney function. Kidneys filter about 180 liters of blood daily, removing waste products and excess substances. Adequate water intake helps kidneys work efficiently and prevents kidney stones.",
+          es: "El agua es esencial para la función renal. Los riñones filtran aproximadamente 180 litros de sangre diariamente, eliminando productos de desecho y sustancias en exceso. Consumo adecuado de agua ayuda a los riñones a trabajar eficientemente y previene cálculos renales.",
+          de: "Wasser ist essentiell für die Nierenfunktion. Nieren filtern täglich etwa 180 Liter Blut und entfernen Abfallprodukte und überschüssige Substanzen. Ausreichende Wasseraufnahme hilft Nieren, effizient zu arbeiten und verhindert Nierensteine.",
+          nl: "Water is essentieel voor nierfunctie. Nieren filteren dagelijks ongeveer 180 liter bloed, waarbij afvalstoffen en overtollige stoffen worden verwijderd. Adequate waterinname helpt nieren efficiënt te werken en voorkomt nierstenen."
+        }
+      },
+      {
+        question: {
+          en: "How does water affect skin health?",
+          es: "¿Cómo afecta el agua a la salud de la piel?",
+          de: "Wie beeinflusst Wasser die Hautgesundheit?",
+          nl: "Hoe beïnvloedt water de huidgezondheid?"
+        },
+        options: [
+          { en: "Maintains skin elasticity and moisture from inside", es: "Mantiene elasticidad y humedad de la piel desde dentro", de: "Erhält Hautelastizität und Feuchtigkeit von innen", nl: "Handhaaft huidelasticiteit en vocht van binnenuit" },
+          { en: "Changes skin color", es: "Cambia el color de la piel", de: "Verändert die Hautfarbe", nl: "Verandert huidskleur" },
+          { en: "Removes all wrinkles", es: "Elimina todas las arrugas", de: "Entfernt alle Falten", nl: "Verwijdert alle rimpels" },
+          { en: "Water has no effect on skin", es: "El agua no tiene efecto en la piel", de: "Wasser hat keine Auswirkung auf die Haut", nl: "Water heeft geen effect op huid" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Proper hydration helps maintain skin elasticity and moisture from the inside. While drinking water alone won't eliminate wrinkles, dehydrated skin appears drier, less plump, and shows wrinkles more prominently.",
+          es: "La hidratación adecuada ayuda a mantener la elasticidad y humedad de la piel desde dentro. Aunque beber agua sola no eliminará las arrugas, la piel deshidratada se ve más seca, menos firme y muestra arrugas más prominentemente.",
+          de: "Richtige Hydratation hilft, Hautelastizität und Feuchtigkeit von innen zu erhalten. Während Wasser trinken allein Falten nicht beseitigt, erscheint dehydrierte Haut trockener, weniger prall und zeigt Falten deutlicher.",
+          nl: "Goede hydratatie helpt huidelasticiteit en vocht van binnenuit te behouden. Hoewel alleen water drinken rimpels niet elimineert, ziet gedehydrateerde huid er droger en minder vol uit en toont rimpels prominenter."
+        }
+      },
+      {
+        question: {
+          en: "What is the recommended water intake during pregnancy?",
+          es: "¿Cuál es la ingesta de agua recomendada durante el embarazo?",
+          de: "Was ist die empfohlene Wasseraufnahme während der Schwangerschaft?",
+          nl: "Wat is de aanbevolen waterinname tijdens zwangerschap?"
+        },
+        options: [
+          { en: "About 3 liters (10 cups) per day", es: "Aproximadamente 3 litros (10 tazas) por día", de: "Etwa 3 Liter (10 Tassen) pro Tag", nl: "Ongeveer 3 liter (10 kopjes) per dag" },
+          { en: "Same as non-pregnant women", es: "Igual que mujeres no embarazadas", de: "Gleich wie nicht schwangere Frauen", nl: "Hetzelfde als niet-zwangere vrouwen" },
+          { en: "1 liter per day", es: "1 litro por día", de: "1 Liter pro Tag", nl: "1 liter per dag" },
+          { en: "5 liters per day", es: "5 litros por día", de: "5 Liter pro Tag", nl: "5 liter per dag" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pregnant women need about 3 liters (10 cups) of water daily to support increased blood volume, amniotic fluid production, and fetal development. Adequate hydration also helps prevent constipation and urinary tract infections.",
+          es: "Las mujeres embarazadas necesitan aproximadamente 3 litros (10 tazas) de agua diariamente para apoyar el aumento del volumen sanguíneo, producción de líquido amniótico y desarrollo fetal. Hidratación adecuada también previene estreñimiento e infecciones urinarias.",
+          de: "Schwangere Frauen benötigen etwa 3 Liter (10 Tassen) Wasser täglich, um erhöhtes Blutvolumen, Fruchtwasserproduktion und fötale Entwicklung zu unterstützen. Ausreichende Hydratation hilft auch, Verstopfung und Harnwegsinfektionen zu verhindern.",
+          nl: "Zwangere vrouwen hebben ongeveer 3 liter (10 kopjes) water per dag nodig om verhoogd bloedvolume, vruchtwater productie en foetale ontwikkeling te ondersteunen. Adequate hydratatie helpt ook obstipatie en urineweginfecties te voorkomen."
+        }
+      },
+      {
+        question: {
+          en: "How does water help with digestion?",
+          es: "¿Cómo ayuda el agua con la digestión?",
+          de: "Wie hilft Wasser bei der Verdauung?",
+          nl: "Hoe helpt water met vertering?"
+        },
+        options: [
+          { en: "Breaks down food and aids nutrient absorption", es: "Descompone alimentos y ayuda absorción de nutrientes", de: "Zerlegt Nahrung und unterstützt Nährstoffaufnahme", nl: "Breekt voedsel af en helpt voedingsstoffenopname" },
+          { en: "Produces digestive enzymes", es: "Produce enzimas digestivas", de: "Produziert Verdauungsenzyme", nl: "Produceert spijsverteringsenzymen" },
+          { en: "Kills bacteria in food", es: "Mata bacterias en alimentos", de: "Tötet Bakterien in Nahrung", nl: "Doodt bacteriën in voedsel" },
+          { en: "Water doesn't aid digestion", es: "El agua no ayuda a la digestión", de: "Wasser hilft nicht bei der Verdauung", nl: "Water helpt niet bij vertering" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Water is crucial for digestion. It helps break down food so nutrients can be absorbed, dissolves minerals and nutrients making them accessible, and softens stool to prevent constipation. Saliva, which starts digestion, is mostly water.",
+          es: "El agua es crucial para la digestión. Ayuda a descomponer alimentos para que los nutrientes puedan absorberse, disuelve minerales y nutrientes haciéndolos accesibles, y ablanda las heces para prevenir estreñimiento. La saliva, que inicia la digestión, es principalmente agua.",
+          de: "Wasser ist entscheidend für die Verdauung. Es hilft, Nahrung zu zersetzen, damit Nährstoffe absorbiert werden können, löst Mineralien und Nährstoffe auf und macht sie zugänglich, und weicht Stuhl auf, um Verstopfung zu verhindern. Speichel, der Verdauung startet, besteht hauptsächlich aus Wasser.",
+          nl: "Water is cruciaal voor vertering. Het helpt voedsel af te breken zodat voedingsstoffen kunnen worden opgenomen, lost mineralen en voedingsstoffen op waardoor ze toegankelijk worden, en verzacht ontlasting om obstipatie te voorkomen. Speeksel, dat vertering start, bestaat voornamelijk uit water."
+        }
+      },
+      {
+        question: {
+          en: "What is the water content of human blood?",
+          es: "¿Cuál es el contenido de agua de la sangre humana?",
+          de: "Wie hoch ist der Wassergehalt des menschlichen Blutes?",
+          nl: "Wat is het watergehalte van menselijk bloed?"
+        },
+        options: [
+          { en: "About 90%", es: "Aproximadamente 90%", de: "Etwa 90%", nl: "Ongeveer 90%" },
+          { en: "About 50%", es: "Aproximadamente 50%", de: "Etwa 50%", nl: "Ongeveer 50%" },
+          { en: "About 70%", es: "Aproximadamente 70%", de: "Etwa 70%", nl: "Ongeveer 70%" },
+          { en: "About 30%", es: "Aproximadamente 30%", de: "Etwa 30%", nl: "Ongeveer 30%" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Human blood is approximately 90% water. This high water content allows blood to transport oxygen, nutrients, hormones, and waste products throughout the body while maintaining proper viscosity for circulation.",
+          es: "La sangre humana es aproximadamente 90% agua. Este alto contenido de agua permite que la sangre transporte oxígeno, nutrientes, hormonas y productos de desecho por todo el cuerpo mientras mantiene viscosidad adecuada para circulación.",
+          de: "Menschliches Blut besteht zu etwa 90% aus Wasser. Dieser hohe Wassergehalt ermöglicht es dem Blut, Sauerstoff, Nährstoffe, Hormone und Abfallprodukte im Körper zu transportieren, während die richtige Viskosität für die Zirkulation aufrechterhalten wird.",
+          nl: "Menselijk bloed bestaat voor ongeveer 90% uit water. Dit hoge watergehalte stelt bloed in staat zuurstof, voedingsstoffen, hormonen en afvalstoffen door het lichaam te transporteren terwijl de juiste viscositeit voor circulatie behouden blijft."
+        }
+      },
+      {
+        question: {
+          en: "How does dehydration affect physical performance?",
+          es: "¿Cómo afecta la deshidratación al rendimiento físico?",
+          de: "Wie beeinflusst Dehydrierung die körperliche Leistung?",
+          nl: "Hoe beïnvloedt uitdroging fysieke prestaties?"
+        },
+        options: [
+          { en: "Reduces endurance, strength, and increases fatigue", es: "Reduce resistencia, fuerza y aumenta fatiga", de: "Reduziert Ausdauer, Kraft und erhöht Müdigkeit", nl: "Vermindert uithoudingsvermogen, kracht en verhoogt vermoeidheid" },
+          { en: "Improves athletic performance", es: "Mejora rendimiento atlético", de: "Verbessert sportliche Leistung", nl: "Verbetert atletische prestaties" },
+          { en: "Only affects mental performance", es: "Solo afecta rendimiento mental", de: "Betrifft nur geistige Leistung", nl: "Beïnvloedt alleen mentale prestaties" },
+          { en: "Has no effect on performance", es: "No tiene efecto en rendimiento", de: "Hat keine Auswirkung auf Leistung", nl: "Heeft geen effect op prestaties" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Even mild dehydration (2% body water loss) significantly impairs physical performance by reducing endurance, strength, and power output while increasing perceived exertion and fatigue. Athletes need proper hydration for optimal performance.",
+          es: "Incluso deshidratación leve (pérdida del 2% de agua corporal) deteriora significativamente el rendimiento físico reduciendo resistencia, fuerza y producción de potencia mientras aumenta esfuerzo percibido y fatiga. Atletas necesitan hidratación adecuada para rendimiento óptimo.",
+          de: "Selbst leichte Dehydrierung (2% Körperwasserverlust) beeinträchtigt die körperliche Leistung erheblich, indem sie Ausdauer, Kraft und Kraftabgabe reduziert und gleichzeitig wahrgenommene Anstrengung und Müdigkeit erhöht. Athleten benötigen richtige Hydratation für optimale Leistung.",
+          nl: "Zelfs milde uitdroging (2% lichaamswater verlies) vermindert fysieke prestaties aanzienlijk door uithoudingsvermogen, kracht en vermogensafgifte te verminderen terwijl waargenomen inspanning en vermoeidheid toenemen. Atleten hebben goede hydratatie nodig voor optimale prestaties."
+        }
+      },
+      {
+        question: {
+          en: "What is the relationship between water and joint health?",
+          es: "¿Cuál es la relación entre el agua y la salud articular?",
+          de: "Was ist die Beziehung zwischen Wasser und Gelenkgesundheit?",
+          nl: "Wat is de relatie tussen water en gewrichtsgezondheid?"
+        },
+        options: [
+          { en: "Water maintains synovial fluid that cushions joints", es: "El agua mantiene líquido sinovial que amortigua articulaciones", de: "Wasser erhält Synovialflüssigkeit, die Gelenke polstert", nl: "Water handhaaft synoviaal vocht dat gewrichten beschermt" },
+          { en: "Water strengthens bones", es: "El agua fortalece huesos", de: "Wasser stärkt Knochen", nl: "Water versterkt botten" },
+          { en: "Water produces cartilage", es: "El agua produce cartílago", de: "Wasser produziert Knorpel", nl: "Water produceert kraakbeen" },
+          { en: "Water has no effect on joints", es: "El agua no tiene efecto en articulaciones", de: "Wasser hat keine Auswirkung auf Gelenke", nl: "Water heeft geen effect op gewrichten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Water is essential for joint health as it maintains synovial fluid, which lubricates and cushions joints. Cartilage is about 80% water. Adequate hydration helps prevent joint pain and maintains mobility.",
+          es: "El agua es esencial para la salud articular ya que mantiene el líquido sinovial, que lubrica y amortigua las articulaciones. El cartílago es aproximadamente 80% agua. Hidratación adecuada ayuda a prevenir dolor articular y mantiene movilidad.",
+          de: "Wasser ist essentiell für die Gelenkgesundheit, da es Synovialflüssigkeit aufrechterhält, die Gelenke schmiert und polstert. Knorpel besteht zu etwa 80% aus Wasser. Ausreichende Hydratation hilft, Gelenkschmerzen zu verhindern und Mobilität zu erhalten.",
+          nl: "Water is essentieel voor gewrichtsgezondheid omdat het synoviaal vocht handhaaft, dat gewrichten smeert en beschermt. Kraakbeen bestaat voor ongeveer 80% uit water. Adequate hydratatie helpt gewrichtspijn te voorkomen en mobiliteit te behouden."
+        }
+      },
+      {
+        question: {
+          en: "How does water affect brain function?",
+          es: "¿Cómo afecta el agua a la función cerebral?",
+          de: "Wie beeinflusst Wasser die Gehirnfunktion?",
+          nl: "Hoe beïnvloedt water de hersenfunctie?"
+        },
+        options: [
+          { en: "Improves concentration, memory, and cognitive performance", es: "Mejora concentración, memoria y rendimiento cognitivo", de: "Verbessert Konzentration, Gedächtnis und kognitive Leistung", nl: "Verbetert concentratie, geheugen en cognitieve prestaties" },
+          { en: "Only affects motor skills", es: "Solo afecta habilidades motoras", de: "Betrifft nur motorische Fähigkeiten", nl: "Beïnvloedt alleen motorische vaardigheden" },
+          { en: "Increases brain size", es: "Aumenta tamaño cerebral", de: "Erhöht Gehirngröße", nl: "Vergroot hersengrootte" },
+          { en: "Water doesn't affect brain", es: "El agua no afecta el cerebro", de: "Wasser beeinflusst das Gehirn nicht", nl: "Water beïnvloedt hersenen niet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The brain is about 75% water. Even mild dehydration (1-2% loss) can impair concentration, short-term memory, alertness, and cognitive performance. Proper hydration is crucial for optimal brain function.",
+          es: "El cerebro es aproximadamente 75% agua. Incluso deshidratación leve (pérdida del 1-2%) puede deteriorar concentración, memoria a corto plazo, estado de alerta y rendimiento cognitivo. Hidratación adecuada es crucial para función cerebral óptima.",
+          de: "Das Gehirn besteht zu etwa 75% aus Wasser. Selbst leichte Dehydrierung (1-2% Verlust) kann Konzentration, Kurzzeitgedächtnis, Wachsamkeit und kognitive Leistung beeinträchtigen. Richtige Hydratation ist entscheidend für optimale Gehirnfunktion.",
+          nl: "De hersenen bestaan voor ongeveer 75% uit water. Zelfs milde uitdroging (1-2% verlies) kan concentratie, kortetermijngeheugen, alertheid en cognitieve prestaties verslechteren. Goede hydratatie is cruciaal voor optimale hersenfunctie."
+        }
+      },
+      {
+        question: {
+          en: "What is the recommended water intake for breastfeeding mothers?",
+          es: "¿Cuál es la ingesta de agua recomendada para madres lactantes?",
+          de: "Was ist die empfohlene Wasseraufnahme für stillende Mütter?",
+          nl: "Wat is de aanbevolen waterinname voor borstvoeding gevende moeders?"
+        },
+        options: [
+          { en: "About 3.8 liters (13 cups) per day", es: "Aproximadamente 3.8 litros (13 tazas) por día", de: "Etwa 3,8 Liter (13 Tassen) pro Tag", nl: "Ongeveer 3,8 liter (13 kopjes) per dag" },
+          { en: "Same as non-nursing women", es: "Igual que mujeres no lactantes", de: "Gleich wie nicht stillende Frauen", nl: "Hetzelfde als niet-zogende vrouwen" },
+          { en: "1 liter per day", es: "1 litro por día", de: "1 Liter pro Tag", nl: "1 liter per dag" },
+          { en: "5 liters per day", es: "5 litros por día", de: "5 Liter pro Tag", nl: "5 liter per dag" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Breastfeeding mothers need about 3.8 liters (13 cups) of water daily to support milk production and replace fluids lost through breastfeeding. Thirst is a good indicator, and many mothers find they're naturally thirstier while nursing.",
+          es: "Las madres lactantes necesitan aproximadamente 3.8 litros (13 tazas) de agua diariamente para apoyar la producción de leche y reemplazar líquidos perdidos por amamantamiento. La sed es un buen indicador, y muchas madres encuentran que tienen más sed naturalmente mientras amamantan.",
+          de: "Stillende Mütter benötigen etwa 3,8 Liter (13 Tassen) Wasser täglich, um Milchproduktion zu unterstützen und durch Stillen verlorene Flüssigkeiten zu ersetzen. Durst ist ein guter Indikator, und viele Mütter stellen fest, dass sie während des Stillens natürlich durstiger sind.",
+          nl: "Borstvoeding gevende moeders hebben ongeveer 3,8 liter (13 kopjes) water per dag nodig om melkproductie te ondersteunen en vloeistoffen verloren door borstvoeding te vervangen. Dorst is een goede indicator, en veel moeders merken dat ze natuurlijk dorstiger zijn tijdens het voeden."
+        }
+      },
+      {
+        question: {
+          en: "How does water help prevent headaches?",
+          es: "¿Cómo ayuda el agua a prevenir dolores de cabeza?",
+          de: "Wie hilft Wasser, Kopfschmerzen zu verhindern?",
+          nl: "Hoe helpt water hoofdpijn te voorkomen?"
+        },
+        options: [
+          { en: "Prevents dehydration-induced headaches and maintains blood volume", es: "Previene dolores de cabeza inducidos por deshidratación y mantiene volumen sanguíneo", de: "Verhindert dehydrierungsbedingte Kopfschmerzen und erhält Blutvolumen", nl: "Voorkomt door uitdroging veroorzaakte hoofdpijn en handhaaft bloedvolume" },
+          { en: "Contains pain-relieving minerals", es: "Contiene minerales analgésicos", de: "Enthält schmerzlindernde Mineralien", nl: "Bevat pijnstillende mineralen" },
+          { en: "Cools the brain directly", es: "Enfría el cerebro directamente", de: "Kühlt das Gehirn direkt", nl: "Koelt hersenen direct" },
+          { en: "Water doesn't affect headaches", es: "El agua no afecta dolores de cabeza", de: "Wasser beeinflusst Kopfschmerzen nicht", nl: "Water beïnvloedt hoofdpijn niet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dehydration is a common cause of headaches. When dehydrated, blood volume decreases, reducing oxygen flow to the brain, which can trigger headaches. Drinking water helps prevent and often relieves dehydration headaches.",
+          es: "La deshidratación es una causa común de dolores de cabeza. Cuando estás deshidratado, el volumen sanguíneo disminuye, reduciendo flujo de oxígeno al cerebro, lo que puede desencadenar dolores de cabeza. Beber agua ayuda a prevenir y a menudo alivia dolores de cabeza por deshidratación.",
+          de: "Dehydrierung ist eine häufige Ursache für Kopfschmerzen. Bei Dehydrierung nimmt das Blutvolumen ab, was den Sauerstofffluss zum Gehirn reduziert und Kopfschmerzen auslösen kann. Wasser trinken hilft, Dehydrierungskopfschmerzen zu verhindern und oft zu lindern.",
+          nl: "Uitdroging is een veelvoorkomende oorzaak van hoofdpijn. Bij uitdroging neemt bloedvolume af, wat zuurstoftoevoer naar hersenen vermindert, wat hoofdpijn kan veroorzaken. Water drinken helpt hoofdpijn door uitdroging te voorkomen en vaak te verlichten."
+        }
+      },
+      {
+        question: {
+          en: "What is the water content of human muscles?",
+          es: "¿Cuál es el contenido de agua de los músculos humanos?",
+          de: "Wie hoch ist der Wassergehalt der menschlichen Muskeln?",
+          nl: "Wat is het watergehalte van menselijke spieren?"
+        },
+        options: [
+          { en: "About 75%", es: "Aproximadamente 75%", de: "Etwa 75%", nl: "Ongeveer 75%" },
+          { en: "About 50%", es: "Aproximadamente 50%", de: "Etwa 50%", nl: "Ongeveer 50%" },
+          { en: "About 30%", es: "Aproximadamente 30%", de: "Etwa 30%", nl: "Ongeveer 30%" },
+          { en: "About 90%", es: "Aproximadamente 90%", de: "Etwa 90%", nl: "Ongeveer 90%" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Muscle tissue is about 75% water. This high water content is necessary for muscle contraction, nutrient delivery, and waste removal. Dehydration can lead to muscle cramps, reduced strength, and impaired recovery.",
+          es: "El tejido muscular es aproximadamente 75% agua. Este alto contenido de agua es necesario para contracción muscular, entrega de nutrientes y eliminación de desechos. Deshidratación puede llevar a calambres musculares, fuerza reducida y recuperación deteriorada.",
+          de: "Muskelgewebe besteht zu etwa 75% aus Wasser. Dieser hohe Wassergehalt ist notwendig für Muskelkontraktion, Nährstoffzufuhr und Abfallbeseitigung. Dehydrierung kann zu Muskelkrämpfen, reduzierter Kraft und beeinträchtigter Erholung führen.",
+          nl: "Spierweefsel bestaat voor ongeveer 75% uit water. Dit hoge watergehalte is noodzakelijk voor spiercontractie, voedingsstofaanvoer en afvalverwijdering. Uitdroging kan leiden tot spierkrampen, verminderde kracht en verslechterd herstel."
+        }
+      },
+      {
+        question: {
+          en: "How does water intake affect blood pressure?",
+          es: "¿Cómo afecta la ingesta de agua a la presión arterial?",
+          de: "Wie beeinflusst die Wasseraufnahme den Blutdruck?",
+          nl: "Hoe beïnvloedt waterinname bloeddruk?"
+        },
+        options: [
+          { en: "Proper hydration helps maintain healthy blood pressure", es: "Hidratación adecuada ayuda a mantener presión arterial saludable", de: "Richtige Hydratation hilft, gesunden Blutdruck zu erhalten", nl: "Goede hydratatie helpt gezonde bloeddruk te behouden" },
+          { en: "Water always increases blood pressure", es: "El agua siempre aumenta presión arterial", de: "Wasser erhöht immer den Blutdruck", nl: "Water verhoogt altijd bloeddruk" },
+          { en: "Water always decreases blood pressure", es: "El agua siempre disminuye presión arterial", de: "Wasser senkt immer den Blutdruck", nl: "Water verlaagt altijd bloeddruk" },
+          { en: "Water has no effect on blood pressure", es: "El agua no tiene efecto en presión arterial", de: "Wasser hat keine Auswirkung auf Blutdruck", nl: "Water heeft geen effect op bloeddruk" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Proper hydration helps maintain healthy blood pressure by ensuring adequate blood volume. Dehydration can cause blood pressure to drop (hypotension), while the kidneys regulate excess water to prevent high blood pressure.",
+          es: "Hidratación adecuada ayuda a mantener presión arterial saludable asegurando volumen sanguíneo adecuado. Deshidratación puede causar caída de presión arterial (hipotensión), mientras los riñones regulan exceso de agua para prevenir presión arterial alta.",
+          de: "Richtige Hydratation hilft, gesunden Blutdruck aufrechtzuerhalten, indem sie ausreichendes Blutvolumen gewährleistet. Dehydrierung kann Blutdruckabfall (Hypotonie) verursachen, während die Nieren überschüssiges Wasser regulieren, um hohen Blutdruck zu verhindern.",
+          nl: "Goede hydratatie helpt gezonde bloeddruk te behouden door adequaat bloedvolume te waarborgen. Uitdroging kan bloeddrukverlaging (hypotensie) veroorzaken, terwijl nieren overtollig water reguleren om hoge bloeddruk te voorkomen."
+        }
+      },
+      {
+        question: {
+          en: "What is the role of water in cellular metabolism?",
+          es: "¿Cuál es el papel del agua en el metabolismo celular?",
+          de: "Welche Rolle spielt Wasser im Zellstoffwechsel?",
+          nl: "Wat is de rol van water in cellulair metabolisme?"
+        },
+        options: [
+          { en: "Essential for all chemical reactions in cells", es: "Esencial para todas las reacciones químicas en células", de: "Essentiell für alle chemischen Reaktionen in Zellen", nl: "Essentieel voor alle chemische reacties in cellen" },
+          { en: "Produces cellular energy", es: "Produce energía celular", de: "Produziert zelluläre Energie", nl: "Produceert cellulaire energie" },
+          { en: "Creates new cells", es: "Crea células nuevas", de: "Erschafft neue Zellen", nl: "Creëert nieuwe cellen" },
+          { en: "Water doesn't affect metabolism", es: "El agua no afecta el metabolismo", de: "Wasser beeinflusst den Stoffwechsel nicht", nl: "Water beïnvloedt metabolisme niet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Water is the medium for all cellular chemical reactions. It serves as a solvent for nutrients, helps transport molecules across cell membranes, and participates directly in many metabolic reactions including energy production.",
+          es: "El agua es el medio para todas las reacciones químicas celulares. Sirve como solvente para nutrientes, ayuda a transportar moléculas a través de membranas celulares y participa directamente en muchas reacciones metabólicas incluyendo producción de energía.",
+          de: "Wasser ist das Medium für alle zellulären chemischen Reaktionen. Es dient als Lösungsmittel für Nährstoffe, hilft beim Transport von Molekülen über Zellmembranen und nimmt direkt an vielen Stoffwechselreaktionen einschließlich Energieproduktion teil.",
+          nl: "Water is het medium voor alle cellulaire chemische reacties. Het dient als oplosmiddel voor voedingsstoffen, helpt moleculen te transporteren over celmembranen en neemt direct deel aan veel metabolische reacties inclusief energieproductie."
+        }
+      },
+      {
+        question: {
+          en: "How does water help with nutrient absorption?",
+          es: "¿Cómo ayuda el agua con la absorción de nutrientes?",
+          de: "Wie hilft Wasser bei der Nährstoffaufnahme?",
+          nl: "Hoe helpt water met voedingsstoffenopname?"
+        },
+        options: [
+          { en: "Dissolves nutrients and transports them through the bloodstream", es: "Disuelve nutrientes y los transporta a través del torrente sanguíneo", de: "Löst Nährstoffe auf und transportiert sie durch den Blutkreislauf", nl: "Lost voedingsstoffen op en transporteert ze door de bloedbaan" },
+          { en: "Creates vitamins from food", es: "Crea vitaminas de alimentos", de: "Erschafft Vitamine aus Nahrung", nl: "Creëert vitamines uit voedsel" },
+          { en: "Produces digestive acids", es: "Produce ácidos digestivos", de: "Produziert Verdauungssäuren", nl: "Produceert spijsverteringszuren" },
+          { en: "Water blocks nutrient absorption", es: "El agua bloquea absorción de nutrientes", de: "Wasser blockiert Nährstoffaufnahme", nl: "Water blokkeert voedingsstoffenopname" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Water dissolves water-soluble vitamins (B, C) and minerals, making them available for absorption in the intestines. It also helps transport absorbed nutrients through the bloodstream to cells throughout the body.",
+          es: "El agua disuelve vitaminas solubles en agua (B, C) y minerales, haciéndolos disponibles para absorción en intestinos. También ayuda a transportar nutrientes absorbidos a través del torrente sanguíneo a células por todo el cuerpo.",
+          de: "Wasser löst wasserlösliche Vitamine (B, C) und Mineralien auf und macht sie für die Absorption im Darm verfügbar. Es hilft auch, absorbierte Nährstoffe durch den Blutkreislauf zu Zellen im ganzen Körper zu transportieren.",
+          nl: "Water lost wateroplosbare vitamines (B, C) en mineralen op, waardoor ze beschikbaar worden voor opname in de darmen. Het helpt ook opgenomen voedingsstoffen te transporteren door de bloedbaan naar cellen in het hele lichaam."
+        }
+      },
+      {
+        question: {
+          en: "What is the connection between water intake and immune function?",
+          es: "¿Cuál es la conexión entre ingesta de agua y función inmune?",
+          de: "Was ist die Verbindung zwischen Wasseraufnahme und Immunfunktion?",
+          nl: "Wat is de connectie tussen waterinname en immuunfunctie?"
+        },
+        options: [
+          { en: "Proper hydration supports lymphatic system and immune response", es: "Hidratación adecuada apoya sistema linfático y respuesta inmune", de: "Richtige Hydratation unterstützt Lymphsystem und Immunantwort", nl: "Goede hydratatie ondersteunt lymfestelsel en immuunrespons" },
+          { en: "Water kills viruses directly", es: "El agua mata virus directamente", de: "Wasser tötet Viren direkt", nl: "Water doodt virussen direct" },
+          { en: "Water produces antibodies", es: "El agua produce anticuerpos", de: "Wasser produziert Antikörper", nl: "Water produceert antilichamen" },
+          { en: "Water has no effect on immunity", es: "El agua no tiene efecto en inmunidad", de: "Wasser hat keine Auswirkung auf Immunität", nl: "Water heeft geen effect op immuniteit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Adequate hydration supports immune function by maintaining the lymphatic system, which carries immune cells throughout the body. Water also helps produce lymph and mucus that trap pathogens, and supports kidney and liver function in eliminating toxins.",
+          es: "Hidratación adecuada apoya función inmune manteniendo el sistema linfático, que transporta células inmunes por todo el cuerpo. El agua también ayuda a producir linfa y moco que atrapan patógenos, y apoya función renal y hepática en eliminación de toxinas.",
+          de: "Ausreichende Hydratation unterstützt die Immunfunktion durch Aufrechterhaltung des Lymphsystems, das Immunzellen durch den Körper transportiert. Wasser hilft auch, Lymphe und Schleim zu produzieren, die Krankheitserreger einfangen, und unterstützt Nieren- und Leberfunktion bei der Toxinbeseitigung.",
+          nl: "Adequate hydratatie ondersteunt immuunfunctie door het lymfestelsel te onderhouden, dat immuuncellen door het lichaam transporteert. Water helpt ook lymfe en slijm te produceren dat pathogenen vangt, en ondersteunt nier- en leverfunctie bij het elimineren van toxines."
+        }
+      }
     ]
   };
 

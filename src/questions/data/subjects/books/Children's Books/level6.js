@@ -426,6 +426,406 @@
           es: "En su undécimo cumpleaños, Will Stanton descubre que es el último de los Antiguos en nacer, seres inmortales jurados para luchar contra la Oscuridad creciente. Debe aprender rápidamente a usar sus poderes y encontrar los Seis Signos de la Luz para ayudar en la batalla eterna.",
           de: "An seinem elften Geburtstag entdeckt Will Stanton, dass er der letzte der Alten ist, der geboren wurde, unsterbliche Wesen, die geschworen haben, gegen die aufsteigende Dunkelheit zu kämpfen. Er muss schnell lernen, seine Kräfte zu nutzen und die Sechs Zeichen des Lichts zu finden, um im ewigen Kampf zu helfen.",
           nl: "Op zijn elfde verjaardag ontdekt Will Stanton dat hij de laatste van de Ouden is die werd geboren, onsterfelijke wezens die gezworen hebben te vechten tegen het opkomende Duister. Hij moet snel leren zijn krachten te gebruiken en de Zes Tekens van het Licht te vinden om te helpen in de eeuwige strijd."
+        }      },
+      {
+        question: {
+          en: "Who wrote Charlottes Web?",
+          es: "Who wrote Charlottes Web?",
+          de: "Who wrote Charlottes Web?",
+          nl: "Who wrote Charlottes Web?"
+        },
+        options: [
+          { en: "E.B. White", es: "E.B. White", de: "E.B. White", nl: "E.B. White" },
+          { en: "Roald Dahl", es: "Roald Dahl", de: "Roald Dahl", nl: "Roald Dahl" },
+          { en: "Dr. Seuss", es: "Dr. Seuss", de: "Dr. Seuss", nl: "Dr. Seuss" },
+          { en: "Maurice Sendak", es: "Maurice Sendak", de: "Maurice Sendak", nl: "Maurice Sendak" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "E.B. White wrote Charlottes Web in 1952 about a pig named Wilbur and spider Charlotte.",
+          es: "E.B. White wrote Charlottes Web in 1952 about a pig named Wilbur and spider Charlotte.",
+          de: "E.B. White wrote Charlottes Web in 1952 about a pig named Wilbur and spider Charlotte.",
+          nl: "E.B. White wrote Charlottes Web in 1952 about a pig named Wilbur and spider Charlotte."
+        }      },
+      {
+        question: {
+          en: "Who created Where the Wild Things Are?",
+          es: "Who created Where the Wild Things Are?",
+          de: "Who created Where the Wild Things Are?",
+          nl: "Who created Where the Wild Things Are?"
+        },
+        options: [
+          { en: "Maurice Sendak", es: "Maurice Sendak", de: "Maurice Sendak", nl: "Maurice Sendak" },
+          { en: "Dr. Seuss", es: "Dr. Seuss", de: "Dr. Seuss", nl: "Dr. Seuss" },
+          { en: "Eric Carle", es: "Eric Carle", de: "Eric Carle", nl: "Eric Carle" },
+          { en: "Margaret Wise Brown", es: "Margaret Wise Brown", de: "Margaret Wise Brown", nl: "Margaret Wise Brown" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Maurice Sendak wrote and illustrated Where the Wild Things Are in 1963.",
+          es: "Maurice Sendak wrote and illustrated Where the Wild Things Are in 1963.",
+          de: "Maurice Sendak wrote and illustrated Where the Wild Things Are in 1963.",
+          nl: "Maurice Sendak wrote and illustrated Where the Wild Things Are in 1963."
+        }      },
+      {
+        question: {
+          en: "The Very Hungry Caterpillar is by?",
+          es: "The Very Hungry Caterpillar is by?",
+          de: "The Very Hungry Caterpillar is by?",
+          nl: "The Very Hungry Caterpillar is by?"
+        },
+        options: [
+          { en: "Eric Carle", es: "Eric Carle", de: "Eric Carle", nl: "Eric Carle" },
+          { en: "Dr. Seuss", es: "Dr. Seuss", de: "Dr. Seuss", nl: "Dr. Seuss" },
+          { en: "Maurice Sendak", es: "Maurice Sendak", de: "Maurice Sendak", nl: "Maurice Sendak" },
+          { en: "Margaret Wise Brown", es: "Margaret Wise Brown", de: "Margaret Wise Brown", nl: "Margaret Wise Brown" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Eric Carle created The Very Hungry Caterpillar in 1969.",
+          es: "Eric Carle created The Very Hungry Caterpillar in 1969.",
+          de: "Eric Carle created The Very Hungry Caterpillar in 1969.",
+          nl: "Eric Carle created The Very Hungry Caterpillar in 1969."
+        }      },
+      {
+        question: {
+          en: "Who wrote The Cat in the Hat?",
+          es: "Who wrote The Cat in the Hat?",
+          de: "Who wrote The Cat in the Hat?",
+          nl: "Who wrote The Cat in the Hat?"
+        },
+        options: [
+          { en: "Dr. Seuss", es: "Dr. Seuss", de: "Dr. Seuss", nl: "Dr. Seuss" },
+          { en: "Roald Dahl", es: "Roald Dahl", de: "Roald Dahl", nl: "Roald Dahl" },
+          { en: "Shel Silverstein", es: "Shel Silverstein", de: "Shel Silverstein", nl: "Shel Silverstein" },
+          { en: "E.B. White", es: "E.B. White", de: "E.B. White", nl: "E.B. White" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dr. Seuss created The Cat in the Hat in 1957.",
+          es: "Dr. Seuss created The Cat in the Hat in 1957.",
+          de: "Dr. Seuss created The Cat in the Hat in 1957.",
+          nl: "Dr. Seuss created The Cat in the Hat in 1957."
+        }      },
+      {
+        question: {
+          en: "Who is the author of Matilda?",
+          es: "Who is the author of Matilda?",
+          de: "Who is the author of Matilda?",
+          nl: "Who is the author of Matilda?"
+        },
+        options: [
+          { en: "Roald Dahl", es: "Roald Dahl", de: "Roald Dahl", nl: "Roald Dahl" },
+          { en: "Dr. Seuss", es: "Dr. Seuss", de: "Dr. Seuss", nl: "Dr. Seuss" },
+          { en: "E.B. White", es: "E.B. White", de: "E.B. White", nl: "E.B. White" },
+          { en: "Judy Blume", es: "Judy Blume", de: "Judy Blume", nl: "Judy Blume" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Roald Dahl wrote Matilda in 1988 about a gifted girl.",
+          es: "Roald Dahl wrote Matilda in 1988 about a gifted girl.",
+          de: "Roald Dahl wrote Matilda in 1988 about a gifted girl.",
+          nl: "Roald Dahl wrote Matilda in 1988 about a gifted girl."
+        }      },
+      {
+        question: {
+          en: "The Tale of Peter Rabbit is by?",
+          es: "The Tale of Peter Rabbit is by?",
+          de: "The Tale of Peter Rabbit is by?",
+          nl: "The Tale of Peter Rabbit is by?"
+        },
+        options: [
+          { en: "Beatrix Potter", es: "Beatrix Potter", de: "Beatrix Potter", nl: "Beatrix Potter" },
+          { en: "A.A. Milne", es: "A.A. Milne", de: "A.A. Milne", nl: "A.A. Milne" },
+          { en: "Lewis Carroll", es: "Lewis Carroll", de: "Lewis Carroll", nl: "Lewis Carroll" },
+          { en: "Kenneth Grahame", es: "Kenneth Grahame", de: "Kenneth Grahame", nl: "Kenneth Grahame" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Beatrix Potter created Peter Rabbit in 1902.",
+          es: "Beatrix Potter created Peter Rabbit in 1902.",
+          de: "Beatrix Potter created Peter Rabbit in 1902.",
+          nl: "Beatrix Potter created Peter Rabbit in 1902."
+        }      },
+      {
+        question: {
+          en: "Who created Winnie-the-Pooh?",
+          es: "Who created Winnie-the-Pooh?",
+          de: "Who created Winnie-the-Pooh?",
+          nl: "Who created Winnie-the-Pooh?"
+        },
+        options: [
+          { en: "A.A. Milne", es: "A.A. Milne", de: "A.A. Milne", nl: "A.A. Milne" },
+          { en: "Beatrix Potter", es: "Beatrix Potter", de: "Beatrix Potter", nl: "Beatrix Potter" },
+          { en: "Dr. Seuss", es: "Dr. Seuss", de: "Dr. Seuss", nl: "Dr. Seuss" },
+          { en: "E.B. White", es: "E.B. White", de: "E.B. White", nl: "E.B. White" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A.A. Milne created Winnie-the-Pooh in 1926.",
+          es: "A.A. Milne created Winnie-the-Pooh in 1926.",
+          de: "A.A. Milne created Winnie-the-Pooh in 1926.",
+          nl: "A.A. Milne created Winnie-the-Pooh in 1926."
+        }      },
+      {
+        question: {
+          en: "Where the Sidewalk Ends is poetry by?",
+          es: "Where the Sidewalk Ends is poetry by?",
+          de: "Where the Sidewalk Ends is poetry by?",
+          nl: "Where the Sidewalk Ends is poetry by?"
+        },
+        options: [
+          { en: "Shel Silverstein", es: "Shel Silverstein", de: "Shel Silverstein", nl: "Shel Silverstein" },
+          { en: "Dr. Seuss", es: "Dr. Seuss", de: "Dr. Seuss", nl: "Dr. Seuss" },
+          { en: "Jack Prelutsky", es: "Jack Prelutsky", de: "Jack Prelutsky", nl: "Jack Prelutsky" },
+          { en: "Roald Dahl", es: "Roald Dahl", de: "Roald Dahl", nl: "Roald Dahl" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Shel Silverstein wrote this beloved poetry collection.",
+          es: "Shel Silverstein wrote this beloved poetry collection.",
+          de: "Shel Silverstein wrote this beloved poetry collection.",
+          nl: "Shel Silverstein wrote this beloved poetry collection."
+        }      },
+      {
+        question: {
+          en: "Who wrote The Giving Tree?",
+          es: "Who wrote The Giving Tree?",
+          de: "Who wrote The Giving Tree?",
+          nl: "Who wrote The Giving Tree?"
+        },
+        options: [
+          { en: "Shel Silverstein", es: "Shel Silverstein", de: "Shel Silverstein", nl: "Shel Silverstein" },
+          { en: "Dr. Seuss", es: "Dr. Seuss", de: "Dr. Seuss", nl: "Dr. Seuss" },
+          { en: "Maurice Sendak", es: "Maurice Sendak", de: "Maurice Sendak", nl: "Maurice Sendak" },
+          { en: "Eric Carle", es: "Eric Carle", de: "Eric Carle", nl: "Eric Carle" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Shel Silverstein wrote The Giving Tree in 1964.",
+          es: "Shel Silverstein wrote The Giving Tree in 1964.",
+          de: "Shel Silverstein wrote The Giving Tree in 1964.",
+          nl: "Shel Silverstein wrote The Giving Tree in 1964."
+        }      },
+      {
+        question: {
+          en: "Goodnight Moon is by?",
+          es: "Goodnight Moon is by?",
+          de: "Goodnight Moon is by?",
+          nl: "Goodnight Moon is by?"
+        },
+        options: [
+          { en: "Margaret Wise Brown", es: "Margaret Wise Brown", de: "Margaret Wise Brown", nl: "Margaret Wise Brown" },
+          { en: "Beatrix Potter", es: "Beatrix Potter", de: "Beatrix Potter", nl: "Beatrix Potter" },
+          { en: "Dr. Seuss", es: "Dr. Seuss", de: "Dr. Seuss", nl: "Dr. Seuss" },
+          { en: "Maurice Sendak", es: "Maurice Sendak", de: "Maurice Sendak", nl: "Maurice Sendak" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Margaret Wise Brown wrote Goodnight Moon in 1947.",
+          es: "Margaret Wise Brown wrote Goodnight Moon in 1947.",
+          de: "Margaret Wise Brown wrote Goodnight Moon in 1947.",
+          nl: "Margaret Wise Brown wrote Goodnight Moon in 1947."
+        }      },
+      {
+        question: {
+          en: "Who wrote James and the Giant Peach?",
+          es: "Who wrote James and the Giant Peach?",
+          de: "Who wrote James and the Giant Peach?",
+          nl: "Who wrote James and the Giant Peach?"
+        },
+        options: [
+          { en: "Roald Dahl", es: "Roald Dahl", de: "Roald Dahl", nl: "Roald Dahl" },
+          { en: "Dr. Seuss", es: "Dr. Seuss", de: "Dr. Seuss", nl: "Dr. Seuss" },
+          { en: "E.B. White", es: "E.B. White", de: "E.B. White", nl: "E.B. White" },
+          { en: "Beverly Cleary", es: "Beverly Cleary", de: "Beverly Cleary", nl: "Beverly Cleary" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Roald Dahl wrote James and the Giant Peach in 1961.",
+          es: "Roald Dahl wrote James and the Giant Peach in 1961.",
+          de: "Roald Dahl wrote James and the Giant Peach in 1961.",
+          nl: "Roald Dahl wrote James and the Giant Peach in 1961."
+        }      },
+      {
+        question: {
+          en: "The Little Prince is by?",
+          es: "The Little Prince is by?",
+          de: "The Little Prince is by?",
+          nl: "The Little Prince is by?"
+        },
+        options: [
+          { en: "Antoine de Saint-Exupery", es: "Antoine de Saint-Exupery", de: "Antoine de Saint-Exupery", nl: "Antoine de Saint-Exupery" },
+          { en: "Maurice Sendak", es: "Maurice Sendak", de: "Maurice Sendak", nl: "Maurice Sendak" },
+          { en: "Dr. Seuss", es: "Dr. Seuss", de: "Dr. Seuss", nl: "Dr. Seuss" },
+          { en: "E.B. White", es: "E.B. White", de: "E.B. White", nl: "E.B. White" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Antoine de Saint-Exupery wrote The Little Prince in 1943.",
+          es: "Antoine de Saint-Exupery wrote The Little Prince in 1943.",
+          de: "Antoine de Saint-Exupery wrote The Little Prince in 1943.",
+          nl: "Antoine de Saint-Exupery wrote The Little Prince in 1943."
+        }      },
+      {
+        question: {
+          en: "Who created Curious George?",
+          es: "Who created Curious George?",
+          de: "Who created Curious George?",
+          nl: "Who created Curious George?"
+        },
+        options: [
+          { en: "H.A. and Margret Rey", es: "H.A. and Margret Rey", de: "H.A. and Margret Rey", nl: "H.A. and Margret Rey" },
+          { en: "Dr. Seuss", es: "Dr. Seuss", de: "Dr. Seuss", nl: "Dr. Seuss" },
+          { en: "Eric Carle", es: "Eric Carle", de: "Eric Carle", nl: "Eric Carle" },
+          { en: "Maurice Sendak", es: "Maurice Sendak", de: "Maurice Sendak", nl: "Maurice Sendak" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "H.A. and Margret Rey created Curious George in 1941.",
+          es: "H.A. and Margret Rey created Curious George in 1941.",
+          de: "H.A. and Margret Rey created Curious George in 1941.",
+          nl: "H.A. and Margret Rey created Curious George in 1941."
+        }      },
+      {
+        question: {
+          en: "Corduroy the bear is created by?",
+          es: "Corduroy the bear is created by?",
+          de: "Corduroy the bear is created by?",
+          nl: "Corduroy the bear is created by?"
+        },
+        options: [
+          { en: "Don Freeman", es: "Don Freeman", de: "Don Freeman", nl: "Don Freeman" },
+          { en: "Beatrix Potter", es: "Beatrix Potter", de: "Beatrix Potter", nl: "Beatrix Potter" },
+          { en: "Maurice Sendak", es: "Maurice Sendak", de: "Maurice Sendak", nl: "Maurice Sendak" },
+          { en: "Eric Carle", es: "Eric Carle", de: "Eric Carle", nl: "Eric Carle" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Don Freeman created Corduroy in 1968.",
+          es: "Don Freeman created Corduroy in 1968.",
+          de: "Don Freeman created Corduroy in 1968.",
+          nl: "Don Freeman created Corduroy in 1968."
+        }      },
+      {
+        question: {
+          en: "Who wrote Are You My Mother?",
+          es: "Who wrote Are You My Mother?",
+          de: "Who wrote Are You My Mother?",
+          nl: "Who wrote Are You My Mother?"
+        },
+        options: [
+          { en: "P.D. Eastman", es: "P.D. Eastman", de: "P.D. Eastman", nl: "P.D. Eastman" },
+          { en: "Dr. Seuss", es: "Dr. Seuss", de: "Dr. Seuss", nl: "Dr. Seuss" },
+          { en: "Eric Carle", es: "Eric Carle", de: "Eric Carle", nl: "Eric Carle" },
+          { en: "Margaret Wise Brown", es: "Margaret Wise Brown", de: "Margaret Wise Brown", nl: "Margaret Wise Brown" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "P.D. Eastman wrote Are You My Mother in 1960.",
+          es: "P.D. Eastman wrote Are You My Mother in 1960.",
+          de: "P.D. Eastman wrote Are You My Mother in 1960.",
+          nl: "P.D. Eastman wrote Are You My Mother in 1960."
+        }      },
+      {
+        question: {
+          en: "The Rainbow Fish is by?",
+          es: "The Rainbow Fish is by?",
+          de: "The Rainbow Fish is by?",
+          nl: "The Rainbow Fish is by?"
+        },
+        options: [
+          { en: "Marcus Pfister", es: "Marcus Pfister", de: "Marcus Pfister", nl: "Marcus Pfister" },
+          { en: "Eric Carle", es: "Eric Carle", de: "Eric Carle", nl: "Eric Carle" },
+          { en: "Leo Lionni", es: "Leo Lionni", de: "Leo Lionni", nl: "Leo Lionni" },
+          { en: "Maurice Sendak", es: "Maurice Sendak", de: "Maurice Sendak", nl: "Maurice Sendak" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Marcus Pfister created The Rainbow Fish in 1992.",
+          es: "Marcus Pfister created The Rainbow Fish in 1992.",
+          de: "Marcus Pfister created The Rainbow Fish in 1992.",
+          nl: "Marcus Pfister created The Rainbow Fish in 1992."
+        }      },
+      {
+        question: {
+          en: "Who wrote Caps for Sale?",
+          es: "Who wrote Caps for Sale?",
+          de: "Who wrote Caps for Sale?",
+          nl: "Who wrote Caps for Sale?"
+        },
+        options: [
+          { en: "Esphyr Slobodkina", es: "Esphyr Slobodkina", de: "Esphyr Slobodkina", nl: "Esphyr Slobodkina" },
+          { en: "Dr. Seuss", es: "Dr. Seuss", de: "Dr. Seuss", nl: "Dr. Seuss" },
+          { en: "Maurice Sendak", es: "Maurice Sendak", de: "Maurice Sendak", nl: "Maurice Sendak" },
+          { en: "Margaret Wise Brown", es: "Margaret Wise Brown", de: "Margaret Wise Brown", nl: "Margaret Wise Brown" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Esphyr Slobodkina wrote Caps for Sale in 1938.",
+          es: "Esphyr Slobodkina wrote Caps for Sale in 1938.",
+          de: "Esphyr Slobodkina wrote Caps for Sale in 1938.",
+          nl: "Esphyr Slobodkina wrote Caps for Sale in 1938."
+        }      },
+      {
+        question: {
+          en: "Make Way for Ducklings is by?",
+          es: "Make Way for Ducklings is by?",
+          de: "Make Way for Ducklings is by?",
+          nl: "Make Way for Ducklings is by?"
+        },
+        options: [
+          { en: "Robert McCloskey", es: "Robert McCloskey", de: "Robert McCloskey", nl: "Robert McCloskey" },
+          { en: "Beatrix Potter", es: "Beatrix Potter", de: "Beatrix Potter", nl: "Beatrix Potter" },
+          { en: "Margaret Wise Brown", es: "Margaret Wise Brown", de: "Margaret Wise Brown", nl: "Margaret Wise Brown" },
+          { en: "Dr. Seuss", es: "Dr. Seuss", de: "Dr. Seuss", nl: "Dr. Seuss" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Robert McCloskey created Make Way for Ducklings in 1941.",
+          es: "Robert McCloskey created Make Way for Ducklings in 1941.",
+          de: "Robert McCloskey created Make Way for Ducklings in 1941.",
+          nl: "Robert McCloskey created Make Way for Ducklings in 1941."
+        }      },
+      {
+        question: {
+          en: "Who wrote If You Give a Mouse a Cookie?",
+          es: "Who wrote If You Give a Mouse a Cookie?",
+          de: "Who wrote If You Give a Mouse a Cookie?",
+          nl: "Who wrote If You Give a Mouse a Cookie?"
+        },
+        options: [
+          { en: "Laura Numeroff", es: "Laura Numeroff", de: "Laura Numeroff", nl: "Laura Numeroff" },
+          { en: "Judith Viorst", es: "Judith Viorst", de: "Judith Viorst", nl: "Judith Viorst" },
+          { en: "Beverly Cleary", es: "Beverly Cleary", de: "Beverly Cleary", nl: "Beverly Cleary" },
+          { en: "Judy Blume", es: "Judy Blume", de: "Judy Blume", nl: "Judy Blume" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Laura Numeroff wrote If You Give a Mouse a Cookie in 1985.",
+          es: "Laura Numeroff wrote If You Give a Mouse a Cookie in 1985.",
+          de: "Laura Numeroff wrote If You Give a Mouse a Cookie in 1985.",
+          nl: "Laura Numeroff wrote If You Give a Mouse a Cookie in 1985."
+        }      },
+      {
+        question: {
+          en: "Alexander and the Terrible Horrible Day is by?",
+          es: "Alexander and the Terrible Horrible Day is by?",
+          de: "Alexander and the Terrible Horrible Day is by?",
+          nl: "Alexander and the Terrible Horrible Day is by?"
+        },
+        options: [
+          { en: "Judith Viorst", es: "Judith Viorst", de: "Judith Viorst", nl: "Judith Viorst" },
+          { en: "Judy Blume", es: "Judy Blume", de: "Judy Blume", nl: "Judy Blume" },
+          { en: "Beverly Cleary", es: "Beverly Cleary", de: "Beverly Cleary", nl: "Beverly Cleary" },
+          { en: "Laura Numeroff", es: "Laura Numeroff", de: "Laura Numeroff", nl: "Laura Numeroff" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Judith Viorst wrote this classic in 1972.",
+          es: "Judith Viorst wrote this classic in 1972.",
+          de: "Judith Viorst wrote this classic in 1972.",
+          nl: "Judith Viorst wrote this classic in 1972."
         }
       }
     ]

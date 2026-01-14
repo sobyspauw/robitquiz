@@ -427,6 +427,405 @@
           de: "Gradient Clipping verhindert das Problem explodierender Gradienten durch Festlegung eines Schwellenwerts und Herunterskalierung von Gradienten wenn ihre Norm diesen Schwellenwert überschreitet. Häufige Methoden umfassen Clipping nach Wert (elementweise) oder nach Norm (Skalierung des gesamten Gradientenvektors).",
           nl: "Gradiënt clipping voorkomt het probleem van exploderende gradiënten door een drempelwaarde in te stellen en gradiënten te schalen wanneer hun norm deze drempel overschrijdt. Veelvoorkomende methoden zijn clipping per waarde (element-gewijs) of per norm (schaling van de hele gradiëntvector)."
         }
+      },
+      {
+        question: {
+          en: "What is cosine annealing?",
+          es: "¿Qué es el enfriamiento coseno?",
+          de: "Was ist Kosinus-Annealing?",
+          nl: "Wat is cosinus annealing?"
+        },
+        options: [
+          { en: "A learning rate schedule that decreases the learning rate following a cosine curve", es: "Un programa de tasa de aprendizaje que disminuye la tasa de aprendizaje siguiendo una curva coseno", de: "Ein Lernraten-Schema das die Lernrate nach einer Kosinuskurve verringert", nl: "Een leersnelheid schema dat de leersnelheid verlaagt volgens een cosinuscurve" },
+          { en: "A method to cool down neural networks", es: "Un método para enfriar redes neuronales", de: "Eine Methode um neuronale Netzwerke abzukühlen", nl: "Een methode om neurale netwerken af te koelen" },
+          { en: "An activation function based on cosine", es: "Una función de activación basada en coseno", de: "Eine Aktivierungsfunktion basierend auf Kosinus", nl: "Een activatiefunctie gebaseerd op cosinus" },
+          { en: "A regularization technique using trigonometry", es: "Una técnica de regularización usando trigonometría", de: "Eine Regularisierungstechnik unter Verwendung von Trigonometrie", nl: "Een regularisatietechniek met trigonometrie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cosine annealing schedules the learning rate to follow a cosine curve from an initial value down to a minimum, then optionally restart. This provides a smooth decay and can be combined with warm restarts to help escape local minima and improve generalization.",
+          es: "El enfriamiento coseno programa la tasa de aprendizaje para seguir una curva coseno desde un valor inicial hasta un mínimo, luego opcionalmente reiniciar. Esto proporciona un decaimiento suave y puede combinarse con reinicios cálidos para ayudar a escapar mínimos locales y mejorar la generalización.",
+          de: "Kosinus-Annealing plant die Lernrate um einer Kosinuskurve von einem Anfangswert bis zu einem Minimum zu folgen, dann optional neu zu starten. Dies bietet einen glatten Zerfall und kann mit Warm Restarts kombiniert werden um aus lokalen Minima zu entkommen und Generalisierung zu verbessern.",
+          nl: "Cosinus annealing plant de leersnelheid om een cosinuscurve te volgen van een initiële waarde naar een minimum, daarna optioneel herstarten. Dit biedt een vloeiende afname en kan worden gecombineerd met warme herstarts om te helpen ontsnappen aan lokale minima en generalisatie te verbeteren."
+        }
+      },
+      {
+        question: {
+          en: "What is the RAdam (Rectified Adam) optimizer?",
+          es: "¿Qué es el optimizador RAdam (Adam Rectificado)?",
+          de: "Was ist der RAdam (Rectified Adam) Optimierer?",
+          nl: "Wat is de RAdam (Rectified Adam) optimizer?"
+        },
+        options: [
+          { en: "A variant of Adam that addresses the bad convergence problem by rectifying the variance in early training stages", es: "Una variante de Adam que aborda el problema de mala convergencia rectificando la varianza en etapas tempranas de entrenamiento", de: "Eine Variante von Adam die das Problem schlechter Konvergenz adressiert durch Rektifizierung der Varianz in frühen Trainingsphasen", nl: "Een variant van Adam die het probleem van slechte convergentie aanpakt door de variantie in vroege trainingstadia te rectificeren" },
+          { en: "A randomized version of Adam", es: "Una versión aleatorizada de Adam", de: "Eine randomisierte Version von Adam", nl: "Een gerandomiseerde versie van Adam" },
+          { en: "Adam optimizer with reduced memory usage", es: "Optimizador Adam con uso de memoria reducido", de: "Adam Optimierer mit reduziertem Speicherverbrauch", nl: "Adam optimizer met verminderd geheugengebruik" },
+          { en: "A radial version of the Adam optimizer", es: "Una versión radial del optimizador Adam", de: "Eine radiale Version des Adam Optimierers", nl: "Een radiale versie van de Adam optimizer" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "RAdam addresses the large variance of adaptive learning rate in the early stages of training by introducing a term to rectify the variance. This eliminates the need for learning rate warm-up and makes training more stable, particularly in the initial epochs.",
+          es: "RAdam aborda la gran varianza de la tasa de aprendizaje adaptativa en las primeras etapas del entrenamiento introduciendo un término para rectificar la varianza. Esto elimina la necesidad de calentamiento de tasa de aprendizaje y hace el entrenamiento más estable, particularmente en las épocas iniciales.",
+          de: "RAdam adressiert die große Varianz der adaptiven Lernrate in den frühen Trainingsphasen durch Einführung eines Terms zur Rektifizierung der Varianz. Dies eliminiert die Notwendigkeit für Learning Rate Warm-up und macht Training stabiler, besonders in den Anfangsepochen.",
+          nl: "RAdam pakt de grote variantie van adaptieve leersnelheid in de vroege stadia van training aan door een term te introduceren om de variantie te rectificeren. Dit elimineert de noodzaak voor leersnelheid opwarming en maakt training stabieler, vooral in de initiële epochs."
+        }
+      },
+      {
+        question: {
+          en: "What is instance normalization?",
+          es: "¿Qué es la normalización de instancia?",
+          de: "Was ist Instance Normalization?",
+          nl: "Wat is instance normalisatie?"
+        },
+        options: [
+          { en: "A normalization technique that normalizes each channel of each sample independently", es: "Una técnica de normalización que normaliza cada canal de cada muestra independientemente", de: "Eine Normalisierungstechnik die jeden Kanal jedes Samples unabhängig normalisiert", nl: "Een normalisatietechniek die elk kanaal van elk sample onafhankelijk normaliseert" },
+          { en: "A method to normalize object instances in images", es: "Un método para normalizar instancias de objetos en imágenes", de: "Eine Methode um Objektinstanzen in Bildern zu normalisieren", nl: "Een methode om objectinstanties in afbeeldingen te normaliseren" },
+          { en: "A technique to normalize training time instances", es: "Una técnica para normalizar instancias de tiempo de entrenamiento", de: "Eine Technik um Trainingszeit-Instanzen zu normalisieren", nl: "Een techniek om trainingtijdinstanties te normaliseren" },
+          { en: "Identical to batch normalization", es: "Idéntico a la normalización por lotes", de: "Identisch mit Batch Normalization", nl: "Identiek aan batch normalisatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Instance normalization normalizes across spatial locations for each channel and each sample independently, commonly used in style transfer tasks. Unlike batch normalization which normalizes across the batch, instance normalization treats each sample independently.",
+          es: "La normalización de instancia normaliza a través de ubicaciones espaciales para cada canal y cada muestra independientemente, comúnmente usada en tareas de transferencia de estilo. A diferencia de la normalización por lotes que normaliza a través del lote, la normalización de instancia trata cada muestra independientemente.",
+          de: "Instance Normalization normalisiert über räumliche Positionen für jeden Kanal und jedes Sample unabhängig, häufig verwendet in Style-Transfer-Aufgaben. Im Gegensatz zu Batch Normalization die über den Batch normalisiert, behandelt Instance Normalization jedes Sample unabhängig.",
+          nl: "Instance normalisatie normaliseert over ruimtelijke locaties voor elk kanaal en elk sample onafhankelijk, vaak gebruikt bij style transfer taken. In tegenstelling tot batch normalisatie die normaliseert over de batch, behandelt instance normalisatie elk sample onafhankelijk."
+        }
+      },
+      {
+        question: {
+          en: "What is group normalization?",
+          es: "¿Qué es la normalización de grupo?",
+          de: "Was ist Group Normalization?",
+          nl: "Wat is groep normalisatie?"
+        },
+        options: [
+          { en: "A normalization technique that divides channels into groups and normalizes within each group independently", es: "Una técnica de normalización que divide canales en grupos y normaliza dentro de cada grupo independientemente", de: "Eine Normalisierungstechnik die Kanäle in Gruppen teilt und innerhalb jeder Gruppe unabhängig normalisiert", nl: "Een normalisatietechniek die kanalen verdeelt in groepen en normaliseert binnen elke groep onafhankelijk" },
+          { en: "A method to normalize groups of training samples", es: "Un método para normalizar grupos de muestras de entrenamiento", de: "Eine Methode um Gruppen von Trainingssamples zu normalisieren", nl: "Een methode om groepen trainingssamples te normaliseren" },
+          { en: "A technique to group similar normalizations", es: "Una técnica para agrupar normalizaciones similares", de: "Eine Technik um ähnliche Normalisierungen zu gruppieren", nl: "Een techniek om vergelijkbare normalisaties te groeperen" },
+          { en: "Identical to layer normalization", es: "Idéntico a la normalización de capa", de: "Identisch mit Layer Normalization", nl: "Identiek aan layer normalisatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Group normalization divides the channels into groups and computes normalization statistics within each group. It's a middle ground between layer normalization (one group) and instance normalization (channels as groups), and works well with small batch sizes.",
+          es: "La normalización de grupo divide los canales en grupos y calcula estadísticas de normalización dentro de cada grupo. Es un punto medio entre normalización de capa (un grupo) y normalización de instancia (canales como grupos), y funciona bien con tamaños de lote pequeños.",
+          de: "Group Normalization teilt die Kanäle in Gruppen und berechnet Normalisierungsstatistiken innerhalb jeder Gruppe. Es ist ein Mittelweg zwischen Layer Normalization (eine Gruppe) und Instance Normalization (Kanäle als Gruppen), und funktioniert gut mit kleinen Batch-Größen.",
+          nl: "Groep normalisatie verdeelt de kanalen in groepen en berekent normalisatiestatistieken binnen elke groep. Het is een middenweg tussen layer normalisatie (één groep) en instance normalisatie (kanalen als groepen), en werkt goed met kleine batchgroottes."
+        }
+      },
+      {
+        question: {
+          en: "What is the Lookahead optimizer?",
+          es: "¿Qué es el optimizador Lookahead?",
+          de: "Was ist der Lookahead-Optimierer?",
+          nl: "Wat is de Lookahead-optimizer?"
+        },
+        options: [
+          { en: "A meta-optimizer that maintains slow and fast weights, periodically updating slow weights towards fast weights", es: "Un meta-optimizador que mantiene pesos lentos y rápidos, actualizando periódicamente pesos lentos hacia pesos rápidos", de: "Ein Meta-Optimierer der langsame und schnelle Gewichte beibehält, periodisch langsame Gewichte in Richtung schneller Gewichte aktualisiert", nl: "Een meta-optimizer die trage en snelle gewichten bijhoudt, periodiek trage gewichten bijwerkt richting snelle gewichten" },
+          { en: "An optimizer that predicts future gradients", es: "Un optimizador que predice gradientes futuros", de: "Ein Optimierer der zukünftige Gradienten vorhersagt", nl: "Een optimizer die toekomstige gradiënten voorspelt" },
+          { en: "A forward-looking activation function", es: "Una función de activación con visión de futuro", de: "Eine vorausschauende Aktivierungsfunktion", nl: "Een vooruitziende activatiefunctie" },
+          { en: "An optimizer for vision tasks only", es: "Un optimizador solo para tareas de visión", de: "Ein Optimierer nur für Vision-Aufgaben", nl: "Een optimizer alleen voor vision taken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Lookahead is a meta-optimizer that wraps around any base optimizer. It maintains two sets of weights: fast weights updated by the base optimizer, and slow weights that are periodically interpolated towards the fast weights. This improves training stability and convergence.",
+          es: "Lookahead es un meta-optimizador que envuelve cualquier optimizador base. Mantiene dos conjuntos de pesos: pesos rápidos actualizados por el optimizador base, y pesos lentos que se interpolan periódicamente hacia los pesos rápidos. Esto mejora estabilidad de entrenamiento y convergencia.",
+          de: "Lookahead ist ein Meta-Optimierer der jeden Basis-Optimierer umschließt. Es behält zwei Gewichtssätze bei: schnelle Gewichte aktualisiert durch den Basis-Optimierer, und langsame Gewichte die periodisch zu den schnellen Gewichten interpoliert werden. Dies verbessert Trainingsstabilität und Konvergenz.",
+          nl: "Lookahead is een meta-optimizer die rond elke basis-optimizer gewikkeld is. Het houdt twee sets gewichten bij: snelle gewichten bijgewerkt door de basis-optimizer, en trage gewichten die periodiek geïnterpoleerd worden richting de snelle gewichten. Dit verbetert trainingsstabiliteit en convergentie."
+        }
+      },
+      {
+        question: {
+          en: "What is cutout data augmentation as regularization?",
+          es: "¿Qué es la aumentación de datos cutout como regularización?",
+          de: "Was ist Cutout-Datenaugmentierung als Regularisierung?",
+          nl: "Wat is cutout data-augmentatie als regularisatie?"
+        },
+        options: [
+          { en: "A technique that randomly masks out square regions of input during training to improve robustness", es: "Una técnica que enmascara aleatoriamente regiones cuadradas de entrada durante entrenamiento para mejorar robustez", de: "Eine Technik die zufällig quadratische Regionen der Eingabe während des Trainings maskiert um Robustheit zu verbessern", nl: "Een techniek die willekeurig vierkante regio's van invoer maskeert tijdens training om robuustheid te verbeteren" },
+          { en: "A method to cut out unwanted parts of images", es: "Un método para cortar partes no deseadas de imágenes", de: "Eine Methode um unerwünschte Teile von Bildern herauszuschneiden", nl: "Een methode om ongewenste delen van afbeeldingen weg te knippen" },
+          { en: "A technique to reduce image size", es: "Una técnica para reducir tamaño de imagen", de: "Eine Technik um Bildgröße zu reduzieren", nl: "Een techniek om afbeeldingsgrootte te verminderen" },
+          { en: "A cropping method for data preprocessing", es: "Un método de recorte para preprocesamiento de datos", de: "Eine Zuschneidemethode für Datenvorverarbeitung", nl: "Een crop-methode voor data-preprocessing" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cutout randomly masks square regions of the input image during training, forcing the network to focus on the entire object rather than specific discriminative parts. This improves robustness and generalization by preventing the model from relying too heavily on small distinctive features.",
+          es: "Cutout enmascara aleatoriamente regiones cuadradas de la imagen de entrada durante el entrenamiento, forzando a la red a enfocarse en el objeto completo en lugar de partes discriminativas específicas. Esto mejora robustez y generalización previniendo que el modelo dependa demasiado de características distintivas pequeñas.",
+          de: "Cutout maskiert zufällig quadratische Regionen des Eingabebildes während des Trainings, zwingt das Netzwerk sich auf das gesamte Objekt statt auf spezifische diskriminative Teile zu fokussieren. Dies verbessert Robustheit und Generalisierung indem verhindert wird dass das Modell zu stark auf kleine distinktive Merkmale angewiesen ist.",
+          nl: "Cutout maskeert willekeurig vierkante regio's van de invoerafbeelding tijdens training, wat het netwerk dwingt te focussen op het gehele object in plaats van specifieke discriminatieve delen. Dit verbetert robuustheid en generalisatie door te voorkomen dat het model te sterk leunt op kleine onderscheidende kenmerken."
+        }
+      },
+      {
+        question: {
+          en: "What is the AdamW optimizer?",
+          es: "¿Qué es el optimizador AdamW?",
+          de: "Was ist der AdamW-Optimierer?",
+          nl: "Wat is de AdamW-optimizer?"
+        },
+        options: [
+          { en: "A variant of Adam that decouples weight decay from the gradient-based update, implementing true L2 regularization", es: "Una variante de Adam que desacopla decadencia de peso de actualización basada en gradiente, implementando regularización L2 verdadera", de: "Eine Variante von Adam die Weight Decay vom gradientenbasierten Update entkoppelt, implementiert echte L2-Regularisierung", nl: "Een variant van Adam die weight decay ontkoppelt van de gradiënt-gebaseerde update, implementeert echte L2-regularisatie" },
+          { en: "Adam optimizer with wider applicability", es: "Optimizador Adam con aplicabilidad más amplia", de: "Adam Optimierer mit breiterer Anwendbarkeit", nl: "Adam optimizer met bredere toepasbaarheid" },
+          { en: "A weighted version of Adam", es: "Una versión ponderada de Adam", de: "Eine gewichtete Version von Adam", nl: "Een gewogen versie van Adam" },
+          { en: "Adam with warm-up only", es: "Adam solo con calentamiento", de: "Adam nur mit Warm-up", nl: "Adam met alleen opwarming" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AdamW fixes a long-standing bug in Adam's implementation of weight decay. Standard Adam's L2 regularization interacts badly with adaptive learning rates. AdamW decouples weight decay from the gradient update, applying it directly to the weights, resulting in better generalization.",
+          es: "AdamW corrige un error de larga data en la implementación de decadencia de peso de Adam. La regularización L2 estándar de Adam interactúa mal con tasas de aprendizaje adaptativas. AdamW desacopla decadencia de peso de la actualización de gradiente, aplicándola directamente a los pesos, resultando en mejor generalización.",
+          de: "AdamW behebt einen langjährigen Fehler in Adams Implementierung von Weight Decay. Adams Standard-L2-Regularisierung interagiert schlecht mit adaptiven Lernraten. AdamW entkoppelt Weight Decay vom Gradienten-Update, wendet es direkt auf die Gewichte an, resultiert in besserer Generalisierung.",
+          nl: "AdamW lost een langlopende bug op in Adam's implementatie van weight decay. Standaard Adam's L2-regularisatie werkt slecht samen met adaptieve leersnelheden. AdamW ontkoppelt weight decay van de gradiënt update, past het direct toe op de gewichten, wat resulteert in betere generalisatie."
+        }
+      },
+      {
+        question: {
+          en: "What is stochastic weight averaging (SWA)?",
+          es: "¿Qué es el promedio estocástico de pesos (SWA)?",
+          de: "Was ist Stochastic Weight Averaging (SWA)?",
+          nl: "Wat is stochastic weight averaging (SWA)?"
+        },
+        options: [
+          { en: "A technique that averages multiple points traversed by SGD with a cyclical or constant learning rate near the end of training", es: "Una técnica que promedia múltiples puntos recorridos por SGD con tasa de aprendizaje cíclica o constante cerca del final del entrenamiento", de: "Eine Technik die mehrere von SGD durchlaufene Punkte mit zyklischer oder konstanter Lernrate nahe Trainingsende mittelt", nl: "Een techniek die meerdere punten gemiddeld die door SGD doorlopen worden met cyclische of constante leersnelheid nabij einde van training" },
+          { en: "A method to randomly initialize weights", es: "Un método para inicializar pesos aleatoriamente", de: "Eine Methode um Gewichte zufällig zu initialisieren", nl: "Een methode om gewichten willekeurig te initialiseren" },
+          { en: "A technique to average weights across multiple networks", es: "Una técnica para promediar pesos a través de múltiples redes", de: "Eine Technik um Gewichte über mehrere Netzwerke zu mitteln", nl: "Een techniek om gewichten over meerdere netwerken te middelen" },
+          { en: "A weighted sampling method for training data", es: "Un método de muestreo ponderado para datos de entrenamiento", de: "Eine gewichtete Stichprobenmethode für Trainingsdaten", nl: "Een gewogen sampling methode voor trainingsdata" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "SWA improves generalization by averaging weights from different points along the SGD trajectory, typically using a cyclical or high constant learning rate in the final training phase. This explores multiple solutions and produces a model that generalizes better than any single checkpoint.",
+          es: "SWA mejora generalización promediando pesos de diferentes puntos a lo largo de la trayectoria SGD, típicamente usando tasa de aprendizaje cíclica o constante alta en fase final de entrenamiento. Esto explora múltiples soluciones y produce modelo que generaliza mejor que cualquier punto de control único.",
+          de: "SWA verbessert Generalisierung durch Mittelung von Gewichten von verschiedenen Punkten entlang der SGD-Trajektorie, typischerweise unter Verwendung einer zyklischen oder hohen konstanten Lernrate in der finalen Trainingsphase. Dies erkundet mehrere Lösungen und produziert ein Modell das besser generalisiert als jeder einzelne Checkpoint.",
+          nl: "SWA verbetert generalisatie door gewichten te middelen van verschillende punten langs het SGD-traject, typisch met een cyclische of hoge constante leersnelheid in de finale trainingsfase. Dit verkent meerdere oplossingen en produceert een model dat beter generaliseert dan elk afzonderlijk checkpoint."
+        }
+      },
+      {
+        question: {
+          en: "What is cosine annealing for learning rate scheduling?",
+          es: "¿Qué es el recocido coseno para programación de tasa de aprendizaje?",
+          de: "Was ist Kosinus-Annealing für Lernratenplanung?",
+          nl: "Wat is cosinus annealing voor leersnelheidsplanning?"
+        },
+        options: [
+          { en: "A learning rate schedule that decreases following a cosine curve from initial to minimum value", es: "Programa de tasa de aprendizaje que disminuye siguiendo curva coseno desde valor inicial a mínimo", de: "Lernratenplan der entlang einer Kosinuskurve vom Anfangs- zum Minimalwert abnimmt", nl: "Leersnelheidsschema dat afneemt volgens een cosinuscurve van initiële naar minimale waarde" },
+          { en: "A method to anneal neural networks at specific angles", es: "Método para recocer redes neuronales en ángulos específicos", de: "Methode zum Tempern neuronaler Netzwerke bei bestimmten Winkeln", nl: "Methode om neurale netwerken op specifieke hoeken te annealen" },
+          { en: "Cosine activation function for learning", es: "Función de activación coseno para aprendizaje", de: "Kosinus-Aktivierungsfunktion für Lernen", nl: "Cosinus activatiefunctie voor leren" },
+          { en: "A trigonometric optimization algorithm", es: "Algoritmo de optimización trigonométrico", de: "Trigonometrischer Optimierungsalgorithmus", nl: "Trigonometrisch optimalisatie-algoritme" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cosine annealing smoothly decreases the learning rate following a cosine function, providing a gentle decay that can help escape sharp minima. Often used with warm restarts (SGDR) where the learning rate periodically resets, allowing the optimizer to explore multiple local minima.",
+          es: "El recocido coseno disminuye suavemente la tasa de aprendizaje siguiendo función coseno, proporcionando decaimiento suave que puede ayudar a escapar mínimos agudos. A menudo usado con reinicios cálidos (SGDR) donde tasa de aprendizaje se reinicia periódicamente, permitiendo al optimizador explorar múltiples mínimos locales.",
+          de: "Kosinus-Annealing verringert die Lernrate sanft entlang einer Kosinusfunktion, bietet sanften Zerfall der helfen kann scharfe Minima zu entkommen. Oft verwendet mit warmen Neustarts (SGDR) wo Lernrate sich periodisch zurücksetzt, ermöglicht Optimierer mehrere lokale Minima zu erkunden.",
+          nl: "Cosinus annealing verlaagt de leersnelheid geleidelijk volgens een cosinusfunctie, biedt zachte verval die kan helpen scherpe minima te ontsnappen. Vaak gebruikt met warme herstarts (SGDR) waar leersnelheid periodiek reset, waardoor optimizer meerdere lokale minima kan verkennen."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between L1 and L2 regularization?",
+          es: "¿Cuál es la diferencia entre regularización L1 y L2?",
+          de: "Was ist der Unterschied zwischen L1- und L2-Regularisierung?",
+          nl: "Wat is het verschil tussen L1 en L2 regularisatie?"
+        },
+        options: [
+          { en: "L1 encourages sparsity by driving some weights to exactly zero, L2 shrinks all weights toward zero but rarely to exactly zero", es: "L1 fomenta dispersión llevando algunos pesos a exactamente cero, L2 reduce todos los pesos hacia cero pero rara vez exactamente a cero", de: "L1 fördert Sparsität indem einige Gewichte auf genau null getrieben werden, L2 schrumpft alle Gewichte Richtung null aber selten genau auf null", nl: "L1 moedigt sparsity aan door sommige gewichten naar exact nul te drijven, L2 krimpt alle gewichten richting nul maar zelden naar exact nul" },
+          { en: "L1 is for classification and L2 is for regression", es: "L1 es para clasificación y L2 es para regresión", de: "L1 ist für Klassifikation und L2 ist für Regression", nl: "L1 is voor classificatie en L2 is voor regressie" },
+          { en: "L1 is faster than L2", es: "L1 es más rápido que L2", de: "L1 ist schneller als L2", nl: "L1 is sneller dan L2" },
+          { en: "L1 uses first layer only, L2 uses second layer", es: "L1 usa solo primera capa, L2 usa segunda capa", de: "L1 verwendet nur erste Schicht, L2 verwendet zweite Schicht", nl: "L1 gebruikt alleen eerste laag, L2 gebruikt tweede laag" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "L1 regularization (Lasso) adds the sum of absolute values of weights to the loss, promoting sparse solutions with many weights exactly at zero - useful for feature selection. L2 regularization (Ridge) adds the sum of squared weights, distributing penalty across all weights and preferring many small weights over few large ones.",
+          es: "La regularización L1 (Lasso) añade suma de valores absolutos de pesos a pérdida, promoviendo soluciones dispersas con muchos pesos exactamente en cero - útil para selección de características. Regularización L2 (Ridge) añade suma de pesos al cuadrado, distribuyendo penalización entre todos pesos y prefiriendo muchos pesos pequeños sobre pocos grandes.",
+          de: "L1-Regularisierung (Lasso) fügt Summe der Absolutwerte von Gewichten zum Verlust hinzu, fördert sparsame Lösungen mit vielen Gewichten genau bei null - nützlich für Feature-Auswahl. L2-Regularisierung (Ridge) fügt Summe quadrierter Gewichte hinzu, verteilt Strafe über alle Gewichte und bevorzugt viele kleine Gewichte über wenige große.",
+          nl: "L1 regularisatie (Lasso) voegt som van absolute waarden van gewichten toe aan verlies, bevordert sparse oplossingen met veel gewichten exact op nul - nuttig voor feature selectie. L2 regularisatie (Ridge) voegt som van gekwadrateerde gewichten toe, verdeelt penalty over alle gewichten en prefereert veel kleine gewichten boven weinig grote."
+        }
+      },
+      {
+        question: {
+          en: "What is label smoothing?",
+          es: "¿Qué es el suavizado de etiquetas?",
+          de: "Was ist Label Smoothing?",
+          nl: "Wat is label smoothing?"
+        },
+        options: [
+          { en: "A regularization technique that replaces hard 0/1 targets with soft targets like 0.1/0.9 to prevent overconfident predictions", es: "Técnica de regularización que reemplaza objetivos duros 0/1 con objetivos suaves como 0.1/0.9 para prevenir predicciones sobre-confiadas", de: "Regularisierungstechnik die harte 0/1-Ziele durch weiche Ziele wie 0.1/0.9 ersetzt um übervertraute Vorhersagen zu verhindern", nl: "Regularisatietechniek die harde 0/1 doelen vervangt met zachte doelen zoals 0.1/0.9 om overmoedige voorspellingen te voorkomen" },
+          { en: "A data preprocessing technique to smooth labels", es: "Técnica de preprocesamiento de datos para suavizar etiquetas", de: "Datenvorverarbeitungstechnik zum Glätten von Labels", nl: "Data preprocessing techniek om labels glad te maken" },
+          { en: "A method to remove label noise", es: "Método para eliminar ruido de etiquetas", de: "Methode zum Entfernen von Label-Rauschen", nl: "Methode om label ruis te verwijderen" },
+          { en: "Averaging labels across multiple datasets", es: "Promediar etiquetas a través de múltiples conjuntos de datos", de: "Mittelung von Labels über mehrere Datensätze", nl: "Middelen van labels over meerdere datasets" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Label smoothing prevents the model from becoming too confident by using soft targets instead of hard one-hot labels. For example, instead of [0,1,0], use [0.05,0.9,0.05]. This improves calibration and can boost generalization by preventing the model from pushing logits to extreme values.",
+          es: "El suavizado de etiquetas previene que modelo se vuelva demasiado confiado usando objetivos suaves en lugar de etiquetas one-hot duras. Por ejemplo, en lugar de [0,1,0], usar [0.05,0.9,0.05]. Esto mejora calibración y puede impulsar generalización previniendo que modelo empuje logits a valores extremos.",
+          de: "Label Smoothing verhindert dass Modell zu vertraut wird durch Verwendung weicher Ziele statt harter One-Hot-Labels. Zum Beispiel statt [0,1,0] verwenden [0.05,0.9,0.05]. Dies verbessert Kalibrierung und kann Generalisierung fördern indem verhindert wird dass Modell Logits zu extremen Werten treibt.",
+          nl: "Label smoothing voorkomt dat model te overmoedig wordt door zachte doelen te gebruiken in plaats van harde one-hot labels. Bijvoorbeeld, in plaats van [0,1,0], gebruik [0.05,0.9,0.05]. Dit verbetert kalibratie en kan generalisatie boosten door te voorkomen dat model logits naar extreme waarden duwt."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between fine-tuning and transfer learning?",
+          es: "¿Cuál es la diferencia entre ajuste fino y aprendizaje por transferencia?",
+          de: "Was ist der Unterschied zwischen Fine-Tuning und Transfer Learning?",
+          nl: "Wat is het verschil tussen fine-tuning en transfer learning?"
+        },
+        options: [
+          { en: "Fine-tuning is the process of adapting a pretrained model, while transfer learning is the broader concept of reusing knowledge", es: "Ajuste fino es proceso de adaptar modelo preentrenado, mientras aprendizaje por transferencia es concepto más amplio de reutilizar conocimiento", de: "Fine-Tuning ist Prozess der Anpassung eines vortrainierten Modells, während Transfer Learning breiteres Konzept der Wiederverwendung von Wissen ist", nl: "Fine-tuning is proces van aanpassen van voorgetraind model, terwijl transfer learning breder concept is van hergebruiken van kennis" },
+          { en: "Fine-tuning is slower than transfer learning", es: "Ajuste fino es más lento que aprendizaje por transferencia", de: "Fine-Tuning ist langsamer als Transfer Learning", nl: "Fine-tuning is langzamer dan transfer learning" },
+          { en: "Transfer learning only works for images, fine-tuning works for all data", es: "Aprendizaje por transferencia solo funciona para imágenes, ajuste fino funciona para todos datos", de: "Transfer Learning funktioniert nur für Bilder, Fine-Tuning funktioniert für alle Daten", nl: "Transfer learning werkt alleen voor afbeeldingen, fine-tuning werkt voor alle data" },
+          { en: "They are exactly the same thing", es: "Son exactamente lo mismo", de: "Sie sind genau dasselbe", nl: "Ze zijn precies hetzelfde" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Transfer learning is the general paradigm of leveraging knowledge from one task to improve performance on another. Fine-tuning is a specific transfer learning technique where you take a pretrained model and continue training it on your target task, typically with a lower learning rate and possibly freezing some layers.",
+          es: "El aprendizaje por transferencia es paradigma general de aprovechar conocimiento de una tarea para mejorar rendimiento en otra. Ajuste fino es técnica específica de aprendizaje por transferencia donde tomas modelo preentrenado y continúas entrenándolo en tarea objetivo, típicamente con tasa de aprendizaje menor y posiblemente congelando algunas capas.",
+          de: "Transfer Learning ist allgemeines Paradigma der Nutzung von Wissen von einer Aufgabe zur Verbesserung der Leistung bei einer anderen. Fine-Tuning ist spezifische Transfer-Learning-Technik wo Sie vortrainiertes Modell nehmen und Training auf Zielaufgabe fortsetzen, typischerweise mit niedrigerer Lernrate und möglicherweise Einfrieren einiger Schichten.",
+          nl: "Transfer learning is algemeen paradigma van gebruik maken van kennis van één taak om prestaties op een andere te verbeteren. Fine-tuning is specifieke transfer learning techniek waarbij je een voorgetraind model neemt en training voortzet op je doeltaak, typisch met lagere leersnelheid en mogelijk bevriezen van sommige lagen."
+        }
+      },
+      {
+        question: {
+          en: "What is curriculum learning?",
+          es: "¿Qué es el aprendizaje curricular?",
+          de: "Was ist Curriculum Learning?",
+          nl: "Wat is curriculum learning?"
+        },
+        options: [
+          { en: "Training strategy that presents examples from easy to hard, mimicking how humans learn progressively", es: "Estrategia de entrenamiento que presenta ejemplos de fácil a difícil, imitando cómo aprenden humanos progresivamente", de: "Trainingsstrategie die Beispiele von einfach zu schwer präsentiert, ahmt nach wie Menschen progressiv lernen", nl: "Trainingsstrategie die voorbeelden presenteert van makkelijk naar moeilijk, bootst na hoe mensen progressief leren" },
+          { en: "Training models on school curriculum data", es: "Entrenar modelos en datos de currículo escolar", de: "Modelle auf Schullehrplandaten trainieren", nl: "Modellen trainen op schoolcurriculum data" },
+          { en: "A method to design the network architecture", es: "Método para diseñar arquitectura de red", de: "Methode zum Entwerfen der Netzwerkarchitektur", nl: "Methode om netwerkarchitectuur te ontwerpen" },
+          { en: "Learning multiple tasks simultaneously", es: "Aprender múltiples tareas simultáneamente", de: "Mehrere Aufgaben gleichzeitig lernen", nl: "Meerdere taken tegelijkertijd leren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Curriculum learning organizes training data in a meaningful order, starting with easier examples and gradually introducing more complex ones. This can speed up convergence and improve final performance by allowing the network to build on simpler patterns before tackling harder cases.",
+          es: "El aprendizaje curricular organiza datos de entrenamiento en orden significativo, comenzando con ejemplos más fáciles e introduciendo gradualmente más complejos. Esto puede acelerar convergencia y mejorar rendimiento final permitiendo que red construya sobre patrones más simples antes de abordar casos más difíciles.",
+          de: "Curriculum Learning organisiert Trainingsdaten in sinnvoller Reihenfolge, beginnt mit einfacheren Beispielen und führt allmählich komplexere ein. Dies kann Konvergenz beschleunigen und finale Leistung verbessern indem Netzwerk auf einfacheren Mustern aufbauen kann bevor schwierigere Fälle angegangen werden.",
+          nl: "Curriculum learning organiseert trainingsdata in betekenisvolle volgorde, beginnend met makkelijkere voorbeelden en geleidelijk complexere introducerend. Dit kan convergentie versnellen en finale prestaties verbeteren door netwerk toe te staan op eenvoudigere patronen te bouwen voordat moeilijkere gevallen aangepakt worden."
+        }
+      },
+      {
+        question: {
+          en: "What is knowledge distillation?",
+          es: "¿Qué es la destilación de conocimiento?",
+          de: "Was ist Knowledge Distillation?",
+          nl: "Wat is knowledge distillation?"
+        },
+        options: [
+          { en: "Training a smaller student model to mimic a larger teacher model's predictions and behavior", es: "Entrenar modelo estudiante más pequeño para imitar predicciones y comportamiento de modelo maestro más grande", de: "Training eines kleineren Schülermodells um Vorhersagen und Verhalten eines größeren Lehrermodells nachzuahmen", nl: "Trainen van kleiner studentmodel om voorspellingen en gedrag van groter leraarmodel na te bootsen" },
+          { en: "Extracting the most important features from data", es: "Extraer características más importantes de datos", de: "Extrahieren der wichtigsten Merkmale aus Daten", nl: "Extraheren van belangrijkste kenmerken uit data" },
+          { en: "A data preprocessing technique", es: "Técnica de preprocesamiento de datos", de: "Datenvorverarbeitungstechnik", nl: "Data preprocessing techniek" },
+          { en: "Removing redundant layers from networks", es: "Eliminar capas redundantes de redes", de: "Entfernen redundanter Schichten aus Netzwerken", nl: "Verwijderen van redundante lagen uit netwerken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Knowledge distillation transfers knowledge from a large, complex teacher model to a smaller student model. The student learns not just from hard labels but from the teacher's soft predictions (logits), which contain rich information about similarities between classes. This produces compact models that approach teacher performance.",
+          es: "La destilación de conocimiento transfiere conocimiento de modelo maestro grande y complejo a modelo estudiante más pequeño. Estudiante aprende no solo de etiquetas duras sino de predicciones suaves del maestro (logits), que contienen información rica sobre similitudes entre clases. Esto produce modelos compactos que se acercan al rendimiento del maestro.",
+          de: "Knowledge Distillation überträgt Wissen von großem, komplexem Lehrermodell zu kleinerem Schülermodell. Schüler lernt nicht nur von harten Labels sondern von weichen Vorhersagen des Lehrers (Logits), die reichhaltige Information über Ähnlichkeiten zwischen Klassen enthalten. Dies produziert kompakte Modelle die Lehrerleistung erreichen.",
+          nl: "Knowledge distillation draagt kennis over van groot, complex leraarmodel naar kleiner studentmodel. Student leert niet alleen van harde labels maar van zachte voorspellingen van leraar (logits), die rijke informatie bevatten over gelijkenissen tussen klassen. Dit produceert compacte modellen die leraar prestaties benaderen."
+        }
+      },
+      {
+        question: {
+          en: "What is the dying neuron problem in ReLU networks?",
+          es: "¿Qué es el problema de neurona moribunda en redes ReLU?",
+          de: "Was ist das Problem des sterbenden Neurons in ReLU-Netzwerken?",
+          nl: "Wat is het stervende neuron probleem in ReLU netwerken?"
+        },
+        options: [
+          { en: "Neurons that always output zero because they only receive negative inputs, stop learning completely", es: "Neuronas que siempre producen cero porque solo reciben entradas negativas, dejan de aprender completamente", de: "Neuronen die immer Null ausgeben weil sie nur negative Eingaben erhalten, hören komplett auf zu lernen", nl: "Neuronen die altijd nul uitvoeren omdat ze alleen negatieve invoer ontvangen, stoppen volledig met leren" },
+          { en: "Neurons that use too much memory", es: "Neuronas que usan demasiada memoria", de: "Neuronen die zu viel Speicher verwenden", nl: "Neuronen die te veel geheugen gebruiken" },
+          { en: "Neurons that converge too slowly", es: "Neuronas que convergen demasiado lentamente", de: "Neuronen die zu langsam konvergieren", nl: "Neuronen die te langzaam convergeren" },
+          { en: "Neurons with vanishing activations", es: "Neuronas con activaciones que desaparecen", de: "Neuronen mit verschwindenden Aktivierungen", nl: "Neuronen met verdwijnende activaties" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "When ReLU neurons consistently receive negative weighted sums, they output zero. Since ReLU's gradient is also zero for negative inputs, these neurons never update and become permanently inactive or 'dead'. Solutions include Leaky ReLU, ELU, or careful weight initialization and learning rate tuning.",
+          es: "Cuando neuronas ReLU reciben consistentemente sumas ponderadas negativas, producen cero. Como gradiente de ReLU también es cero para entradas negativas, estas neuronas nunca se actualizan y se vuelven permanentemente inactivas o 'muertas'. Soluciones incluyen Leaky ReLU, ELU o inicialización cuidadosa de pesos y ajuste de tasa de aprendizaje.",
+          de: "Wenn ReLU-Neuronen konsistent negative gewichtete Summen erhalten, geben sie Null aus. Da ReLU-Gradient auch Null für negative Eingaben ist, aktualisieren diese Neuronen nie und werden dauerhaft inaktiv oder 'tot'. Lösungen umfassen Leaky ReLU, ELU oder sorgfältige Gewichtsinitialisierung und Lernraten-Tuning.",
+          nl: "Wanneer ReLU neuronen consistent negatieve gewogen sommen ontvangen, voeren ze nul uit. Omdat ReLU's gradiënt ook nul is voor negatieve invoer, updaten deze neuronen nooit en worden permanent inactief of 'dood'. Oplossingen zijn Leaky ReLU, ELU of zorgvuldige gewichtinitialisatie en leersnelheid tuning."
+        }
+      },
+      {
+        question: {
+          en: "What is progressive resizing in deep learning?",
+          es: "¿Qué es el redimensionamiento progresivo en aprendizaje profundo?",
+          de: "Was ist Progressive Resizing im Deep Learning?",
+          nl: "Wat is progressive resizing in deep learning?"
+        },
+        options: [
+          { en: "Training technique that starts with small images and gradually increases resolution during training", es: "Técnica de entrenamiento que comienza con imágenes pequeñas y aumenta gradualmente resolución durante entrenamiento", de: "Trainingstechnik die mit kleinen Bildern beginnt und Auflösung während Training allmählich erhöht", nl: "Trainingstechniek die begint met kleine afbeeldingen en resolutie geleidelijk verhoogt tijdens training" },
+          { en: "Gradually increasing the network size during training", es: "Aumentar gradualmente tamaño de red durante entrenamiento", de: "Allmähliches Erhöhen der Netzwerkgröße während Training", nl: "Geleidelijk verhogen van netwerkgrootte tijdens training" },
+          { en: "A data augmentation technique only", es: "Solo una técnica de aumento de datos", de: "Nur eine Datenaugmentierungstechnik", nl: "Alleen een data augmentatie techniek" },
+          { en: "Resizing layers progressively during inference", es: "Redimensionar capas progresivamente durante inferencia", de: "Schichten progressiv während Inferenz skalieren", nl: "Lagen progressief schalen tijdens inferentie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Progressive resizing trains models on smaller images initially, then gradually increases image size. This speeds up early training (smaller images = faster processing) while final training on full resolution captures fine details. Often combined with transfer learning for efficiency.",
+          es: "El redimensionamiento progresivo entrena modelos en imágenes más pequeñas inicialmente, luego aumenta gradualmente tamaño de imagen. Esto acelera entrenamiento temprano (imágenes más pequeñas = procesamiento más rápido) mientras entrenamiento final en resolución completa captura detalles finos. A menudo combinado con aprendizaje por transferencia para eficiencia.",
+          de: "Progressive Resizing trainiert Modelle zunächst auf kleineren Bildern, erhöht dann allmählich Bildgröße. Dies beschleunigt frühes Training (kleinere Bilder = schnellere Verarbeitung) während finales Training auf voller Auflösung feine Details erfasst. Oft kombiniert mit Transfer Learning für Effizienz.",
+          nl: "Progressive resizing traint modellen op kleinere afbeeldingen aanvankelijk, verhoogt dan geleidelijk afbeeldingsgrootte. Dit versnelt vroege training (kleinere afbeeldingen = snellere verwerking) terwijl finale training op volledige resolutie fijne details vastlegt. Vaak gecombineerd met transfer learning voor efficiëntie."
+        }
+      },
+      {
+        question: {
+          en: "What is snapshot ensembling?",
+          es: "¿Qué es el ensamblado de instantáneas?",
+          de: "Was ist Snapshot Ensembling?",
+          nl: "Wat is snapshot ensembling?"
+        },
+        options: [
+          { en: "Creating ensemble by saving model snapshots at different points during training with cyclical learning rates", es: "Crear ensemble guardando instantáneas de modelo en diferentes puntos durante entrenamiento con tasas de aprendizaje cíclicas", de: "Ensemble erstellen durch Speichern von Modell-Snapshots an verschiedenen Punkten während Training mit zyklischen Lernraten", nl: "Ensemble creëren door model snapshots op te slaan op verschillende punten tijdens training met cyclische leersnelheden" },
+          { en: "Taking snapshots of training data", es: "Tomar instantáneas de datos de entrenamiento", de: "Snapshots von Trainingsdaten machen", nl: "Snapshots maken van trainingsdata" },
+          { en: "Combining multiple independently trained models", es: "Combinar múltiples modelos entrenados independientemente", de: "Mehrere unabhängig trainierte Modelle kombinieren", nl: "Meerdere onafhankelijk getrainde modellen combineren" },
+          { en: "A visualization technique for model states", es: "Técnica de visualización para estados de modelo", de: "Visualisierungstechnik für Modellzustände", nl: "Visualisatietechniek voor modeltoestanden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Snapshot ensembling uses cyclical learning rate schedules to converge to multiple local minima during a single training run. Model weights are saved at the end of each cycle (when learning rate is low). These snapshots form an ensemble at minimal additional computational cost.",
+          es: "El ensamblado de instantáneas usa programas de tasa de aprendizaje cíclicos para converger a múltiples mínimos locales durante una sola ejecución de entrenamiento. Pesos del modelo se guardan al final de cada ciclo (cuando tasa de aprendizaje es baja). Estas instantáneas forman ensemble con costo computacional adicional mínimo.",
+          de: "Snapshot Ensembling verwendet zyklische Lernratenpläne um während eines einzelnen Trainingslaufs zu mehreren lokalen Minima zu konvergieren. Modellgewichte werden am Ende jedes Zyklus gespeichert (wenn Lernrate niedrig ist). Diese Snapshots bilden Ensemble bei minimalem zusätzlichem Rechenaufwand.",
+          nl: "Snapshot ensembling gebruikt cyclische leersnelheidsschema's om te convergeren naar meerdere lokale minima tijdens één trainingsrun. Modelgewichten worden opgeslagen aan einde van elke cyclus (wanneer leersnelheid laag is). Deze snapshots vormen ensemble tegen minimale extra rekenkosten."
+        }
+      },
+      {
+        question: {
+          en: "What is self-supervised learning?",
+          es: "¿Qué es el aprendizaje auto-supervisado?",
+          de: "Was ist selbstüberwachtes Lernen?",
+          nl: "Wat is self-supervised learning?"
+        },
+        options: [
+          { en: "Learning paradigm that creates supervision signals from the data itself without manual labels", es: "Paradigma de aprendizaje que crea señales de supervisión de datos mismos sin etiquetas manuales", de: "Lernparadigma das Überwachungssignale aus den Daten selbst ohne manuelle Labels erstellt", nl: "Leerparadigma dat supervisiesignalen creëert uit data zelf zonder handmatige labels" },
+          { en: "Networks that train themselves without any data", es: "Redes que se entrenan solas sin datos", de: "Netzwerke die sich ohne Daten selbst trainieren", nl: "Netwerken die zichzelf trainen zonder data" },
+          { en: "Supervised learning with automatic labeling", es: "Aprendizaje supervisado con etiquetado automático", de: "Überwachtes Lernen mit automatischer Beschriftung", nl: "Supervised learning met automatische labeling" },
+          { en: "A form of reinforcement learning", es: "Forma de aprendizaje por refuerzo", de: "Form von Reinforcement Learning", nl: "Vorm van reinforcement learning" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Self-supervised learning generates labels automatically from the data structure itself. Examples include predicting masked words (BERT), colorizing grayscale images, solving jigsaw puzzles, or contrastive learning. This allows learning powerful representations from vast unlabeled data before fine-tuning on small labeled datasets.",
+          es: "El aprendizaje auto-supervisado genera etiquetas automáticamente de estructura de datos misma. Ejemplos incluyen predecir palabras enmascaradas (BERT), colorear imágenes en escala de grises, resolver rompecabezas o aprendizaje contrastivo. Esto permite aprender representaciones poderosas de vastos datos sin etiquetar antes de ajuste fino en pequeños conjuntos etiquetados.",
+          de: "Selbstüberwachtes Lernen generiert Labels automatisch aus der Datenstruktur selbst. Beispiele umfassen Vorhersage maskierter Wörter (BERT), Kolorieren von Graustufenbildern, Lösen von Puzzles oder kontrastives Lernen. Dies ermöglicht Lernen leistungsfähiger Repräsentationen aus riesigen unbeschrifteten Daten vor Fine-Tuning auf kleinen beschrifteten Datensätzen.",
+          nl: "Self-supervised learning genereert labels automatisch uit de datastructuur zelf. Voorbeelden zijn voorspellen gemaskeerde woorden (BERT), inkleuren grijswaarden afbeeldingen, oplossen puzzels of contrastief leren. Dit maakt mogelijk krachtige representaties te leren van enorme ongelabelde data voor fine-tuning op kleine gelabelde datasets."
+        }
+      },
+      {
+        question: {
+          en: "What is contrastive learning?",
+          es: "¿Qué es el aprendizaje contrastivo?",
+          de: "Was ist kontrastives Lernen?",
+          nl: "Wat is contrastief leren?"
+        },
+        options: [
+          { en: "Learning representations by pulling similar examples together and pushing dissimilar ones apart in embedding space", es: "Aprender representaciones acercando ejemplos similares y alejando diferentes en espacio de incrustación", de: "Lernen von Repräsentationen durch Zusammenziehen ähnlicher Beispiele und Auseinanderschieben unähnlicher im Einbettungsraum", nl: "Leren van representaties door vergelijkbare voorbeelden samen te trekken en ongelijke uit elkaar te duwen in embedding ruimte" },
+          { en: "Comparing different neural network architectures", es: "Comparar diferentes arquitecturas de redes neuronales", de: "Vergleichen verschiedener neuronaler Netzwerkarchitekturen", nl: "Vergelijken van verschillende neurale netwerkarchitecturen" },
+          { en: "Learning by contrasting labeled and unlabeled data", es: "Aprender contrastando datos etiquetados y no etiquetados", de: "Lernen durch Kontrastieren beschrifteter und unbeschrifteter Daten", nl: "Leren door gelabelde en ongelabelde data te contrasteren" },
+          { en: "A supervised learning technique only", es: "Solo técnica de aprendizaje supervisado", de: "Nur überwachte Lerntechnik", nl: "Alleen supervised learning techniek" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Contrastive learning learns representations by maximizing agreement between differently augmented views of the same data (positive pairs) while minimizing agreement with other samples (negative pairs). Methods like SimCLR, MoCo have achieved strong self-supervised learning results, rivaling supervised pretraining.",
+          es: "El aprendizaje contrastivo aprende representaciones maximizando acuerdo entre vistas aumentadas diferentes de mismos datos (pares positivos) mientras minimiza acuerdo con otras muestras (pares negativos). Métodos como SimCLR, MoCo han logrado resultados fuertes de aprendizaje auto-supervisado, rivalizando con preentrenamiento supervisado.",
+          de: "Kontrastives Lernen lernt Repräsentationen durch Maximierung der Übereinstimmung zwischen unterschiedlich augmentierten Ansichten derselben Daten (positive Paare) während Minimierung der Übereinstimmung mit anderen Proben (negative Paare). Methoden wie SimCLR, MoCo haben starke selbstüberwachte Lernergebnisse erzielt, rivalisieren mit überwachtem Pretraining.",
+          nl: "Contrastief leren leert representaties door overeenstemming te maximaliseren tussen verschillend geaugmenteerde weergaven van dezelfde data (positieve paren) terwijl overeenstemming met andere samples geminimaliseerd wordt (negatieve paren). Methoden zoals SimCLR, MoCo hebben sterke self-supervised learning resultaten behaald, concurrerend met supervised pretraining."
+        }
       }
     ]
   };

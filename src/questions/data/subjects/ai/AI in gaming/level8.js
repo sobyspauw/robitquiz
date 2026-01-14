@@ -427,6 +427,426 @@
           de: "Distributional RL lernt die vollständige Verteilung möglicher Ergebnisse statt nur durchschnittliche Belohnungen, bietet reichere Informationen über Risiko, Unsicherheit und Variabilität in Spielergebnissen. Dies ermöglicht nuanciertere Entscheidungsfindung in unsicheren Spielumgebungen.",
           nl: "Distributional RL leert de complete verdeling van mogelijke uitkomsten in plaats van alleen gemiddelde beloningen, wat rijkere informatie biedt over risico, onzekerheid en variabiliteit in speluitkomsten. Dit maakt meer genuanceerde besluitvorming mogelijk in onzekere spelomgevingen."
         }
+      },
+      {
+        question: {
+          en: "What is 'neural architecture search' (NAS) enabling in game AI development?",
+          es: "¿Qué está permitiendo la 'búsqueda de arquitectura neural' (NAS) en desarrollo de IA de juegos?",
+          de: "Was ermöglicht 'Neural Architecture Search' (NAS) in Spiele-KI-Entwicklung?",
+          nl: "Wat maakt 'neural architecture search' (NAS) mogelijk in game AI ontwikkeling?"
+        },
+        options: [
+          { en: "Automatically discovering optimal neural network structures for specific game AI tasks", es: "Descubrir automáticamente estructuras de redes neuronales óptimas para tareas específicas de IA de juegos", de: "Automatisches Entdecken optimaler neuronaler Netzwerkstrukturen für spezifische Spiele-KI-Aufgaben", nl: "Automatisch optimale neurale netwerkstructuren ontdekken voor specifieke game AI-taken" },
+          { en: "Searching for architectural designs in games", es: "Buscar diseños arquitectónicos en juegos", de: "Architektonische Designs in Spielen suchen", nl: "Zoeken naar architectonische ontwerpen in games" },
+          { en: "Finding neural network documentation", es: "Encontrar documentación de redes neuronales", de: "Neuronale Netzwerk-Dokumentation finden", nl: "Neurale netwerk documentatie vinden" },
+          { en: "Organizing neural network files", es: "Organizar archivos de redes neuronales", de: "Neuronale Netzwerk-Dateien organisieren", nl: "Neurale netwerk bestanden organiseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "NAS automates the design of neural network architectures by using algorithms to explore and evaluate different network configurations, finding optimal structures for specific game AI problems that might outperform hand-designed architectures.",
+          es: "NAS automatiza el diseño de arquitecturas de redes neuronales usando algoritmos para explorar y evaluar diferentes configuraciones de red, encontrando estructuras óptimas para problemas específicos de IA de juegos que podrían superar arquitecturas diseñadas a mano.",
+          de: "NAS automatisiert das Design neuronaler Netzwerkarchitekturen durch Verwendung von Algorithmen um verschiedene Netzwerkkonfigurationen zu erkunden und zu bewerten, findet optimale Strukturen für spezifische Spiele-KI-Probleme die handdesignte Architekturen übertreffen könnten.",
+          nl: "NAS automatiseert het ontwerp van neurale netwerkarchitecturen door algoritmen te gebruiken om verschillende netwerkconfiguraties te verkennen en evalueren, waarbij optimale structuren worden gevonden voor specifieke game AI-problemen die handgemaakte architecturen kunnen overtreffen."
+        }
+      },
+      {
+        question: {
+          en: "How does 'Monte Carlo tree search' (MCTS) power game AI decision-making?",
+          es: "¿Cómo potencia la 'búsqueda de árbol Monte Carlo' (MCTS) la toma de decisiones de IA de juegos?",
+          de: "Wie treibt 'Monte Carlo Tree Search' (MCTS) Spiele-KI-Entscheidungsfindung an?",
+          nl: "Hoe voedt 'Monte Carlo tree search' (MCTS) game AI besluitvorming aan?"
+        },
+        options: [
+          { en: "Explores future possibilities through random sampling and statistical analysis of game outcomes", es: "Explora posibilidades futuras a través de muestreo aleatorio y análisis estadístico de resultados del juego", de: "Erkundet zukünftige Möglichkeiten durch zufälliges Sampling und statistische Analyse von Spielergebnissen", nl: "Verkent toekomstige mogelijkheden door willekeurige sampling en statistische analyse van speluitkomsten" },
+          { en: "Uses Monte Carlo casino algorithms only", es: "Usa solo algoritmos de casino Monte Carlo", de: "Verwendet nur Monte Carlo Casino-Algorithmen", nl: "Gebruikt alleen Monte Carlo casino algoritmen" },
+          { en: "Searches for trees in Monte Carlo games", es: "Busca árboles en juegos de Monte Carlo", de: "Sucht nach Bäumen in Monte Carlo-Spielen", nl: "Zoekt naar bomen in Monte Carlo games" },
+          { en: "Random tree generation for game maps", es: "Generación aleatoria de árboles para mapas de juego", de: "Zufällige Baumgenerierung für Spielkarten", nl: "Willekeurige boom generatie voor spelkaarten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "MCTS balances exploration and exploitation by building a search tree through simulation of random game playouts, intelligently focusing computational resources on promising moves. This approach powered AlphaGo's historic victory and is widely used in board game AI.",
+          es: "MCTS equilibra exploración y explotación construyendo un árbol de búsqueda a través de simulación de jugadas aleatorias del juego, enfocando inteligentemente recursos computacionales en movimientos prometedores. Este enfoque impulsó la victoria histórica de AlphaGo y es ampliamente usado en IA de juegos de mesa.",
+          de: "MCTS balanciert Exploration und Exploitation durch Aufbau eines Suchbaums durch Simulation zufälliger Spiel-Playouts, fokussiert intelligent Rechenressourcen auf vielversprechende Züge. Dieser Ansatz trieb AlphaGos historischen Sieg an und wird weit verbreitet in Brettspiel-KI verwendet.",
+          nl: "MCTS balanceert exploratie en exploitatie door een zoekboom te bouwen via simulatie van willekeurige spel-playouts, waarbij computationele middelen intelligent worden gefocust op veelbelovende zetten. Deze aanpak voedde AlphaGo's historische overwinning aan en wordt breed gebruikt in bordspel AI."
+        }
+      },
+      {
+        question: {
+          en: "What is 'inverse reinforcement learning' achieving in game AI?",
+          es: "¿Qué está logrando el 'aprendizaje por refuerzo inverso' en IA de juegos?",
+          de: "Was erreicht 'Inverse Reinforcement Learning' in Spiele-KI?",
+          nl: "Wat bereikt 'inverse reinforcement learning' in game AI?"
+        },
+        options: [
+          { en: "Learning reward functions by observing expert player behavior rather than being explicitly programmed", es: "Aprender funciones de recompensa observando comportamiento de jugador experto en lugar de ser programadas explícitamente", de: "Lernen von Belohnungsfunktionen durch Beobachtung von Expertenspielerverhalten statt expliziter Programmierung", nl: "Leren van beloningsfuncties door expertspelergedrag te observeren in plaats van expliciet geprogrammeerd te worden" },
+          { en: "Reversing reinforcement learning results", es: "Revertir resultados de aprendizaje por refuerzo", de: "Verstärkungslernergebnisse umkehren", nl: "Reinforcement learning resultaten omkeren" },
+          { en: "Learning in reverse game order", es: "Aprender en orden inverso del juego", de: "In umgekehrter Spielreihenfolge lernen", nl: "Leren in omgekeerde spelvolgorde" },
+          { en: "Inversely proportional rewards", es: "Recompensas inversamente proporcionales", de: "Umgekehrt proportionale Belohnungen", nl: "Omgekeerd evenredige beloningen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Inverse RL infers the underlying reward structure that expert players are optimizing by analyzing their gameplay patterns. This enables AI to learn complex objectives and preferences that are difficult to explicitly specify, creating more human-like behaviors.",
+          es: "RL inverso infiere la estructura de recompensa subyacente que jugadores expertos están optimizando analizando sus patrones de jugabilidad. Esto permite a la IA aprender objetivos y preferencias complejas que son difíciles de especificar explícitamente, creando comportamientos más similares a los humanos.",
+          de: "Inverse RL leitet die zugrunde liegende Belohnungsstruktur ab die Expertenspieler optimieren durch Analyse ihrer Gameplay-Muster. Dies ermöglicht KI komplexe Ziele und Präferenzen zu lernen die schwer explizit zu spezifizieren sind, schafft menschenähnlichere Verhaltensweisen.",
+          nl: "Inverse RL leidt de onderliggende beloningsstructuur af die expertspelers optimaliseren door hun gameplay patronen te analyseren. Dit stelt AI in staat om complexe doelen en voorkeuren te leren die moeilijk expliciet te specificeren zijn, wat meer mensachtige gedragingen creëert."
+        }
+      },
+      {
+        question: {
+          en: "How does 'model-based reinforcement learning' differ from model-free approaches in games?",
+          es: "¿Cómo difiere el 'aprendizaje por refuerzo basado en modelo' de enfoques libres de modelo en juegos?",
+          de: "Wie unterscheidet sich 'modellbasiertes Verstärkungslernen' von modellfreien Ansätzen in Spielen?",
+          nl: "Hoe verschilt 'model-based reinforcement learning' van model-vrije benaderingen in games?"
+        },
+        options: [
+          { en: "Builds an internal model of game dynamics to plan ahead, rather than just learning action values", es: "Construye un modelo interno de dinámicas del juego para planear con anticipación, en lugar de solo aprender valores de acción", de: "Baut ein internes Modell der Spieldynamik um vorauszuplanen, statt nur Aktionswerte zu lernen", nl: "Bouwt een intern model van speldynamiek om vooruit te plannen, in plaats van alleen actiewaarden te leren" },
+          { en: "Uses only pre-built game models", es: "Usa solo modelos de juego pre-construidos", de: "Verwendet nur vorgebaute Spielmodelle", nl: "Gebruikt alleen voorgebouwde spelmodellen" },
+          { en: "Models game graphics only", es: "Modela solo gráficos del juego", de: "Modelliert nur Spielgrafiken", nl: "Modelleert alleen spelgraphics" },
+          { en: "Free from all game models", es: "Libre de todos los modelos de juego", de: "Frei von allen Spielmodellen", nl: "Vrij van alle spelmodellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Model-based RL learns how the game environment works (transition and reward models), enabling planning and simulation of future scenarios. This can be more sample-efficient than model-free methods but requires additional complexity to learn accurate environment models.",
+          es: "RL basado en modelo aprende cómo funciona el entorno del juego (modelos de transición y recompensa), permitiendo planificación y simulación de escenarios futuros. Esto puede ser más eficiente en muestras que métodos libres de modelo pero requiere complejidad adicional para aprender modelos precisos del entorno.",
+          de: "Modellbasiertes RL lernt wie die Spielumgebung funktioniert (Transitions- und Belohnungsmodelle), ermöglicht Planung und Simulation zukünftiger Szenarien. Dies kann sample-effizienter sein als modellfreie Methoden aber erfordert zusätzliche Komplexität um genaue Umgebungsmodelle zu lernen.",
+          nl: "Model-based RL leert hoe de spelomgeving werkt (transitie- en beloningsmodellen), wat planning en simulatie van toekomstige scenario's mogelijk maakt. Dit kan sample-efficiënter zijn dan model-vrije methoden maar vereist extra complexiteit om nauwkeurige omgevingsmodellen te leren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'transfer learning' enabling in game AI development?",
+          es: "¿Qué está permitiendo el 'aprendizaje por transferencia' en desarrollo de IA de juegos?",
+          de: "Was ermöglicht 'Transfer Learning' in Spiele-KI-Entwicklung?",
+          nl: "Wat maakt 'transfer learning' mogelijk in game AI ontwikkeling?"
+        },
+        options: [
+          { en: "Reusing knowledge learned in one game to accelerate learning in similar games or tasks", es: "Reutilizar conocimiento aprendido en un juego para acelerar aprendizaje en juegos o tareas similares", de: "Wiederverwendung von Wissen aus einem Spiel um Lernen in ähnlichen Spielen oder Aufgaben zu beschleunigen", nl: "Hergebruik van kennis geleerd in één spel om leren in vergelijkbare spellen of taken te versnellen" },
+          { en: "Transferring game files between systems", es: "Transferir archivos de juego entre sistemas", de: "Spieldateien zwischen Systemen übertragen", nl: "Spelbestanden tussen systemen overdragen" },
+          { en: "Learning only from transferred data", es: "Aprender solo de datos transferidos", de: "Nur von übertragenen Daten lernen", nl: "Alleen leren van overgedragen data" },
+          { en: "Transferring players between games", es: "Transferir jugadores entre juegos", de: "Spieler zwischen Spielen übertragen", nl: "Spelers tussen games overdragen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Transfer learning allows AI to apply knowledge from previous training to new but related tasks, dramatically reducing training time and data requirements. For example, AI trained on one racing game can quickly adapt to similar racing games by transferring learned driving skills.",
+          es: "El aprendizaje por transferencia permite a la IA aplicar conocimiento de entrenamiento previo a tareas nuevas pero relacionadas, reduciendo dramáticamente tiempo de entrenamiento y requisitos de datos. Por ejemplo, IA entrenada en un juego de carreras puede adaptarse rápidamente a juegos de carreras similares transfiriendo habilidades de conducción aprendidas.",
+          de: "Transfer Learning erlaubt KI Wissen aus vorherigem Training auf neue aber verwandte Aufgaben anzuwenden, reduziert dramatisch Trainingszeit und Datenanforderungen. Zum Beispiel kann auf einem Rennspiel trainierte KI sich schnell an ähnliche Rennspiele anpassen durch Transfer gelernter Fahrfähigkeiten.",
+          nl: "Transfer learning stelt AI in staat om kennis van eerdere training toe te passen op nieuwe maar gerelateerde taken, wat trainingstijd en datavereisten dramatisch vermindert. Bijvoorbeeld, AI getraind op één racespel kan zich snel aanpassen aan vergelijkbare racegames door geleerde rijvaardigheden over te dragen."
+        }
+      },
+      {
+        question: {
+          en: "How does 'curiosity-driven learning' enhance exploration in game AI?",
+          es: "¿Cómo mejora el 'aprendizaje impulsado por curiosidad' la exploración en IA de juegos?",
+          de: "Wie verbessert 'neugiergetriebenes Lernen' Exploration in Spiele-KI?",
+          nl: "Hoe verbetert 'nieuwsgierigheid-gedreven leren' exploratie in game AI?"
+        },
+        options: [
+          { en: "Provides intrinsic rewards for discovering novel states, encouraging thorough game exploration", es: "Proporciona recompensas intrínsecas por descubrir estados novedosos, alentando exploración exhaustiva del juego", de: "Bietet intrinsische Belohnungen für Entdeckung neuartiger Zustände, ermutigt gründliche Spielexploration", nl: "Biedt intrinsieke beloningen voor het ontdekken van nieuwe toestanden, wat grondige spelexploratie aanmoedigt" },
+          { en: "Makes AI curious about player behaviors only", es: "Hace que la IA sea curiosa solo sobre comportamientos del jugador", de: "Macht KI nur neugierig auf Spielerverhalten", nl: "Maakt AI alleen nieuwsgierig naar spelergedrag" },
+          { en: "Curious AI characters in games", es: "Personajes IA curiosos en juegos", de: "Neugierige KI-Charaktere in Spielen", nl: "Nieuwsgierige AI-karakters in games" },
+          { en: "Learning from curiosity surveys", es: "Aprender de encuestas de curiosidad", de: "Von Neugier-Umfragen lernen", nl: "Leren van nieuwsgierigheid enquêtes" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Curiosity-driven learning adds intrinsic motivation by rewarding AI for encountering surprising or unfamiliar situations, solving the sparse reward problem in complex games where external rewards are rare. This encourages comprehensive exploration and discovery of game mechanics.",
+          es: "El aprendizaje impulsado por curiosidad añade motivación intrínseca recompensando a la IA por encontrar situaciones sorprendentes o desconocidas, resolviendo el problema de recompensa escasa en juegos complejos donde recompensas externas son raras. Esto alienta exploración comprensiva y descubrimiento de mecánicas del juego.",
+          de: "Neugiergetriebenes Lernen fügt intrinsische Motivation hinzu durch Belohnung von KI für Begegnung mit überraschenden oder unvertrauten Situationen, löst das Sparse-Reward-Problem in komplexen Spielen wo externe Belohnungen selten sind. Dies ermutigt umfassende Exploration und Entdeckung von Spielmechaniken.",
+          nl: "Nieuwsgierigheid-gedreven leren voegt intrinsieke motivatie toe door AI te belonen voor het tegenkomen van verrassende of onbekende situaties, wat het schaarse beloningsprobleem oplost in complexe games waar externe beloningen zeldzaam zijn. Dit moedigt uitgebreide exploratie en ontdekking van spelmechanica aan."
+        }
+      },
+      {
+        question: {
+          en: "What is 'meta-learning' or 'learning to learn' achieving in game AI?",
+          es: "¿Qué está logrando el 'meta-aprendizaje' o 'aprender a aprender' en IA de juegos?",
+          de: "Was erreicht 'Meta-Learning' oder 'Lernen zu lernen' in Spiele-KI?",
+          nl: "Wat bereikt 'meta-learning' of 'leren te leren' in game AI?"
+        },
+        options: [
+          { en: "Enables AI to quickly adapt to new games or tasks by learning optimal learning strategies", es: "Permite a la IA adaptarse rápidamente a nuevos juegos o tareas aprendiendo estrategias óptimas de aprendizaje", de: "Ermöglicht KI sich schnell an neue Spiele oder Aufgaben anzupassen durch Lernen optimaler Lernstrategien", nl: "Stelt AI in staat om zich snel aan te passen aan nieuwe spellen of taken door optimale leerstrategieën te leren" },
+          { en: "Meta-analysis of learning data only", es: "Solo meta-análisis de datos de aprendizaje", de: "Nur Meta-Analyse von Lerndaten", nl: "Alleen meta-analyse van leerdata" },
+          { en: "Learning game metadata", es: "Aprender metadatos del juego", de: "Spiel-Metadaten lernen", nl: "Spelmetadata leren" },
+          { en: "Meta-commentary on AI learning", es: "Meta-comentario sobre aprendizaje IA", de: "Meta-Kommentar zu KI-Lernen", nl: "Meta-commentaar op AI-leren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Meta-learning trains AI to become better at learning itself, developing efficient learning strategies that can be rapidly applied to new games or scenarios. This enables few-shot learning where AI masters new tasks with minimal training examples.",
+          es: "El meta-aprendizaje entrena a la IA para mejorar en aprender por sí misma, desarrollando estrategias de aprendizaje eficientes que pueden aplicarse rápidamente a nuevos juegos o escenarios. Esto permite aprendizaje de pocos ejemplos donde la IA domina nuevas tareas con ejemplos mínimos de entrenamiento.",
+          de: "Meta-Learning trainiert KI besser im Lernen selbst zu werden, entwickelt effiziente Lernstrategien die schnell auf neue Spiele oder Szenarien angewendet werden können. Dies ermöglicht Few-Shot-Learning wo KI neue Aufgaben mit minimalen Trainingsbeispielen meistert.",
+          nl: "Meta-learning traint AI om beter te worden in leren zelf, waarbij efficiënte leerstrategieën worden ontwikkeld die snel kunnen worden toegepast op nieuwe spellen of scenario's. Dit maakt few-shot learning mogelijk waarbij AI nieuwe taken beheerst met minimale trainingsvoorbeelden."
+        }
+      },
+      {
+        question: {
+          en: "How does 'hierarchical reinforcement learning' tackle complexity in games?",
+          es: "¿Cómo aborda el 'aprendizaje por refuerzo jerárquico' la complejidad en juegos?",
+          de: "Wie bewältigt 'hierarchisches Verstärkungslernen' Komplexität in Spielen?",
+          nl: "Hoe pakt 'hiërarchisch reinforcement learning' complexiteit in games aan?"
+        },
+        options: [
+          { en: "Decomposes complex tasks into hierarchies of sub-goals and reusable skills", es: "Descompone tareas complejas en jerarquías de sub-objetivos y habilidades reutilizables", de: "Zerlegt komplexe Aufgaben in Hierarchien von Unterzielen und wiederverwendbaren Fähigkeiten", nl: "Ontleedt complexe taken in hiërarchieën van subdoelen en herbruikbare vaardigheden" },
+          { en: "Creates hierarchical game levels only", es: "Crea solo niveles de juego jerárquicos", de: "Erstellt nur hierarchische Spiellevel", nl: "Creëert alleen hiërarchische spellevels" },
+          { en: "Hierarchical team organization in games", es: "Organización jerárquica de equipos en juegos", de: "Hierarchische Teamorganisation in Spielen", nl: "Hiërarchische teamorganisatie in games" },
+          { en: "Learning in hierarchical order", es: "Aprender en orden jerárquico", de: "In hierarchischer Reihenfolge lernen", nl: "Leren in hiërarchische volgorde" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hierarchical RL breaks down long-horizon tasks into abstract high-level goals and concrete low-level actions, creating reusable skills that can be composed to solve complex problems. This temporal abstraction makes learning in complex games more tractable and efficient.",
+          es: "RL jerárquico descompone tareas de largo horizonte en metas abstractas de alto nivel y acciones concretas de bajo nivel, creando habilidades reutilizables que pueden componerse para resolver problemas complejos. Esta abstracción temporal hace que el aprendizaje en juegos complejos sea más tratable y eficiente.",
+          de: "Hierarchisches RL zerlegt Long-Horizon-Aufgaben in abstrakte High-Level-Ziele und konkrete Low-Level-Aktionen, schafft wiederverwendbare Fähigkeiten die zusammengesetzt werden können um komplexe Probleme zu lösen. Diese temporale Abstraktion macht Lernen in komplexen Spielen handhabbarer und effizienter.",
+          nl: "Hiërarchisch RL breekt lange-termijn taken op in abstracte hoog-niveau doelen en concrete laag-niveau acties, wat herbruikbare vaardigheden creëert die kunnen worden samengesteld om complexe problemen op te lossen. Deze temporele abstractie maakt leren in complexe games handelbaar en efficiënter."
+        }
+      },
+      {
+        question: {
+          en: "What is 'options framework' providing in hierarchical game AI?",
+          es: "¿Qué está proporcionando el 'marco de opciones' en IA jerárquica de juegos?",
+          de: "Was bietet das 'Options Framework' in hierarchischer Spiele-KI?",
+          nl: "Wat biedt het 'options framework' in hiërarchische game AI?"
+        },
+        options: [
+          { en: "Temporally extended actions that encapsulate sub-policies for achieving specific sub-goals", es: "Acciones extendidas temporalmente que encapsulan sub-políticas para lograr sub-objetivos específicos", de: "Zeitlich erweiterte Aktionen die Sub-Policies zur Erreichung spezifischer Unterziele kapseln", nl: "Temporeel uitgebreide acties die sub-beleid inkapselen voor het bereiken van specifieke subdoelen" },
+          { en: "Game settings and options menus", es: "Configuraciones de juego y menús de opciones", de: "Spieleinstellungen und Optionsmenüs", nl: "Spelinstellingen en optiemenu's" },
+          { en: "Options trading in economic games", es: "Negociación de opciones en juegos económicos", de: "Optionshandel in Wirtschaftsspielen", nl: "Optiehandel in economische games" },
+          { en: "Multiple choice options for players", es: "Opciones de elección múltiple para jugadores", de: "Multiple-Choice-Optionen für Spieler", nl: "Meerkeuze opties voor spelers" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The options framework formalizes temporally extended actions as reusable skills with initiation conditions, termination conditions, and internal policies. This enables AI to learn macro-actions like 'navigate to location' or 'collect resources' that abstract away low-level details.",
+          es: "El marco de opciones formaliza acciones extendidas temporalmente como habilidades reutilizables con condiciones de iniciación, condiciones de terminación y políticas internas. Esto permite a la IA aprender macro-acciones como 'navegar a ubicación' o 'recolectar recursos' que abstraen detalles de bajo nivel.",
+          de: "Das Options Framework formalisiert zeitlich erweiterte Aktionen als wiederverwendbare Fähigkeiten mit Initiierungsbedingungen, Abbruchbedingungen und internen Policies. Dies ermöglicht KI Makro-Aktionen wie 'zu Ort navigieren' oder 'Ressourcen sammeln' zu lernen die Low-Level-Details abstrahieren.",
+          nl: "Het options framework formaliseert temporeel uitgebreide acties als herbruikbare vaardigheden met initiatie-voorwaarden, beëindigingsvoorwaarden en interne beleid. Dit stelt AI in staat om macro-acties te leren zoals 'navigeer naar locatie' of 'verzamel bronnen' die laag-niveau details abstraheren."
+        }
+      },
+      {
+        question: {
+          en: "How does 'opponent modeling' improve competitive game AI?",
+          es: "¿Cómo mejora el 'modelado de oponente' la IA de juegos competitivos?",
+          de: "Wie verbessert 'Gegnermodellierung' kompetitive Spiele-KI?",
+          nl: "Hoe verbetert 'tegenstander modellering' competitieve game AI?"
+        },
+        options: [
+          { en: "Predicts and adapts to opponent strategies by learning their behavioral patterns and tendencies", es: "Predice y se adapta a estrategias de oponente aprendiendo sus patrones de comportamiento y tendencias", de: "Sagt Gegnerstrategien vorher und passt sich an durch Lernen ihrer Verhaltensmuster und Tendenzen", nl: "Voorspelt en past zich aan aan tegenstanderstrategieën door hun gedragspatronen en tendensen te leren" },
+          { en: "Creates 3D models of opponents", es: "Crea modelos 3D de oponentes", de: "Erstellt 3D-Modelle von Gegnern", nl: "Creëert 3D-modellen van tegenstanders" },
+          { en: "Only modeling opponent appearance", es: "Solo modelar apariencia de oponente", de: "Nur Gegner-Aussehen modellieren", nl: "Alleen tegenstander uiterlijk modelleren" },
+          { en: "Opponent statistics tracking", es: "Seguimiento de estadísticas de oponente", de: "Gegner-Statistik-Tracking", nl: "Tegenstander statistieken bijhouden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Opponent modeling builds probabilistic models of how opponents play, identifying their strategies, weaknesses, and patterns. This enables AI to exploit predictable behaviors, counter specific strategies, and adjust tactics dynamically during competitive gameplay.",
+          es: "El modelado de oponente construye modelos probabilísticos de cómo juegan oponentes, identificando sus estrategias, debilidades y patrones. Esto permite a la IA explotar comportamientos predecibles, contrarrestar estrategias específicas y ajustar tácticas dinámicamente durante jugabilidad competitiva.",
+          de: "Gegnermodellierung baut probabilistische Modelle wie Gegner spielen, identifiziert ihre Strategien, Schwächen und Muster. Dies ermöglicht KI vorhersagbare Verhaltensweisen auszunutzen, spezifische Strategien zu kontern und Taktiken dynamisch während kompetitivem Gameplay anzupassen.",
+          nl: "Tegenstander modellering bouwt probabilistische modellen van hoe tegenstanders spelen, waarbij hun strategieën, zwakheden en patronen worden geïdentificeerd. Dit stelt AI in staat om voorspelbaar gedrag te exploiteren, specifieke strategieën tegen te gaan en tactieken dynamisch aan te passen tijdens competitieve gameplay."
+        }
+      },
+      {
+        question: {
+          en: "What is 'counterfactual regret minimization' achieving in poker and strategy AI?",
+          es: "¿Qué está logrando la 'minimización de arrepentimiento contrafactual' en póker e IA de estrategia?",
+          de: "Was erreicht 'Counterfactual Regret Minimization' in Poker und Strategie-KI?",
+          nl: "Wat bereikt 'counterfactual regret minimization' in poker en strategie AI?"
+        },
+        options: [
+          { en: "Finds Nash equilibrium strategies in imperfect information games through iterative self-play", es: "Encuentra estrategias de equilibrio Nash en juegos de información imperfecta a través de auto-juego iterativo", de: "Findet Nash-Gleichgewichtsstrategien in Spielen mit unvollständiger Information durch iteratives Selbstspiel", nl: "Vindt Nash-evenwichtsstrategieën in onvolledige informatie spellen door iteratief zelfspel" },
+          { en: "Minimizes regret feelings in AI characters", es: "Minimiza sentimientos de arrepentimiento en personajes IA", de: "Minimiert Bedauernsgefühle in KI-Charakteren", nl: "Minimaliseert spijt gevoelens in AI-karakters" },
+          { en: "Counterfactual analysis of game outcomes", es: "Análisis contrafactual de resultados del juego", de: "Kontrafaktische Analyse von Spielergebnissen", nl: "Contrafactische analyse van speluitkomsten" },
+          { en: "Regret-based player feedback systems", es: "Sistemas de retroalimentación de jugadores basados en arrepentimiento", de: "Bedauern-basierte Spieler-Feedback-Systeme", nl: "Spijt-gebaseerde speler feedback systemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "CFR iteratively computes regret for not taking alternative actions in hypothetical scenarios, gradually converging to unexploitable Nash equilibrium strategies. This approach powered AI victories over world-class poker players in games like Texas Hold'em and has applications in any imperfect information game.",
+          es: "CFR calcula iterativamente arrepentimiento por no tomar acciones alternativas en escenarios hipotéticos, convergiendo gradualmente a estrategias de equilibrio Nash inexplotables. Este enfoque impulsó victorias IA sobre jugadores de póker de clase mundial en juegos como Texas Hold'em y tiene aplicaciones en cualquier juego de información imperfecta.",
+          de: "CFR berechnet iterativ Bedauern für nicht genommene alternative Aktionen in hypothetischen Szenarien, konvergiert graduell zu nicht-ausbeutbaren Nash-Gleichgewichtsstrategien. Dieser Ansatz trieb KI-Siege über Weltklasse-Pokerspieler in Spielen wie Texas Hold'em an und hat Anwendungen in jedem Spiel mit unvollständiger Information.",
+          nl: "CFR berekent iteratief spijt voor het niet nemen van alternatieve acties in hypothetische scenario's, waarbij geleidelijk wordt geconvergeerd naar niet-exploiteerbare Nash-evenwichtsstrategieën. Deze aanpak voedde AI-overwinningen aan op pokerspelers van wereldklasse in spellen zoals Texas Hold'em en heeft toepassingen in elk onvolledige informatie spel."
+        }
+      },
+      {
+        question: {
+          en: "How does 'population-based training' improve game AI development?",
+          es: "¿Cómo mejora el 'entrenamiento basado en población' el desarrollo de IA de juegos?",
+          de: "Wie verbessert 'populationsbasiertes Training' Spiele-KI-Entwicklung?",
+          nl: "Hoe verbetert 'populatie-gebaseerde training' game AI ontwikkeling?"
+        },
+        options: [
+          { en: "Trains multiple agent variants simultaneously, evolving hyperparameters and strategies together", es: "Entrena múltiples variantes de agentes simultáneamente, evolucionando hiperparámetros y estrategias juntos", de: "Trainiert mehrere Agentenvarianten gleichzeitig, evolviert Hyperparameter und Strategien zusammen", nl: "Traint meerdere agent varianten gelijktijdig, evolueert hyperparameters en strategieën samen" },
+          { en: "Training based on population statistics only", es: "Entrenamiento basado solo en estadísticas de población", de: "Training nur basierend auf Bevölkerungsstatistiken", nl: "Training alleen gebaseerd op populatie statistieken" },
+          { en: "Simulating population growth in games", es: "Simular crecimiento de población en juegos", de: "Bevölkerungswachstum in Spielen simulieren", nl: "Populatiegroei in games simuleren" },
+          { en: "Training with large player populations", es: "Entrenar con grandes poblaciones de jugadores", de: "Training mit großen Spielerpopulationen", nl: "Trainen met grote speler populaties" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Population-based training runs a population of agents with different hyperparameters and periodically exploits well-performing configurations while exploring new ones. This automatically optimizes both the learning algorithm and the strategies, discovering robust solutions through evolutionary-like processes.",
+          es: "El entrenamiento basado en población ejecuta una población de agentes con diferentes hiperparámetros y periódicamente explota configuraciones de buen rendimiento mientras explora nuevas. Esto optimiza automáticamente tanto el algoritmo de aprendizaje como las estrategias, descubriendo soluciones robustas a través de procesos tipo evolutivos.",
+          de: "Populationsbasiertes Training führt eine Population von Agenten mit verschiedenen Hyperparametern aus und nutzt periodisch gut funktionierende Konfigurationen während neue erkundet werden. Dies optimiert automatisch sowohl den Lernalgorithmus als auch die Strategien, entdeckt robuste Lösungen durch evolutionsähnliche Prozesse.",
+          nl: "Populatie-gebaseerde training voert een populatie van agenten uit met verschillende hyperparameters en exploiteert periodiek goed presterende configuraties terwijl nieuwe worden verkend. Dit optimaliseert automatisch zowel het leeralgoritme als de strategieën, waarbij robuuste oplossingen worden ontdekt door evolutieachtige processen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'world modeling' enabling in modern game AI systems?",
+          es: "¿Qué está permitiendo el 'modelado del mundo' en sistemas modernos de IA de juegos?",
+          de: "Was ermöglicht 'World Modeling' in modernen Spiele-KI-Systemen?",
+          nl: "Wat maakt 'wereld modellering' mogelijk in moderne game AI systemen?"
+        },
+        options: [
+          { en: "Learning predictive models of game environments to enable planning in learned latent spaces", es: "Aprender modelos predictivos de entornos del juego para permitir planificación en espacios latentes aprendidos", de: "Lernen prädiktiver Modelle von Spielumgebungen um Planung in gelernten latenten Räumen zu ermöglichen", nl: "Leren van voorspellende modellen van spelomgevingen om planning mogelijk te maken in geleerde latente ruimtes" },
+          { en: "Creating world maps for games only", es: "Solo crear mapas del mundo para juegos", de: "Nur Weltkarten für Spiele erstellen", nl: "Alleen wereldkaarten creëren voor games" },
+          { en: "Modeling real-world physics in games", es: "Modelar física del mundo real en juegos", de: "Physik der realen Welt in Spielen modellieren", nl: "Echte wereld fysica modelleren in games" },
+          { en: "World building for game narratives", es: "Construcción de mundos para narrativas de juegos", de: "Weltbau für Spielnarrative", nl: "Wereldbouw voor spel verhalen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "World models learn compressed representations of how game environments behave, predicting future states from actions. AI can then 'imagine' and plan in this learned model rather than the actual environment, enabling more efficient learning and strategic thinking.",
+          es: "Los modelos del mundo aprenden representaciones comprimidas de cómo se comportan entornos del juego, prediciendo estados futuros desde acciones. La IA puede entonces 'imaginar' y planear en este modelo aprendido en lugar del entorno real, permitiendo aprendizaje más eficiente y pensamiento estratégico.",
+          de: "Weltmodelle lernen komprimierte Darstellungen wie sich Spielumgebungen verhalten, sagen zukünftige Zustände aus Aktionen vorher. KI kann dann im gelernten Modell 'vorstellen' und planen statt in der tatsächlichen Umgebung, ermöglicht effizienteres Lernen und strategisches Denken.",
+          nl: "Wereldmodellen leren gecomprimeerde representaties van hoe spelomgevingen zich gedragen, waarbij toekomstige toestanden worden voorspeld vanuit acties. AI kan dan 'verbeelden' en plannen in dit geleerde model in plaats van de werkelijke omgeving, wat efficiënter leren en strategisch denken mogelijk maakt."
+        }
+      },
+      {
+        question: {
+          en: "How does 'imitation learning' or 'behavioral cloning' accelerate game AI training?",
+          es: "¿Cómo acelera el 'aprendizaje por imitación' o 'clonación de comportamiento' el entrenamiento de IA de juegos?",
+          de: "Wie beschleunigt 'Imitation Learning' oder 'Behavioral Cloning' Spiele-KI-Training?",
+          nl: "Hoe versnelt 'imitation learning' of 'gedragsklonen' game AI training?"
+        },
+        options: [
+          { en: "Learns from expert demonstrations by mimicking observed actions rather than trial-and-error", es: "Aprende de demostraciones expertas imitando acciones observadas en lugar de prueba y error", de: "Lernt von Expertendemonstration durch Nachahmung beobachteter Aktionen statt Versuch und Irrtum", nl: "Leert van expertdemonstraties door waargenomen acties na te bootsen in plaats van trial-and-error" },
+          { en: "Clones only AI appearance and visuals", es: "Solo clona apariencia y visuales de IA", de: "Klont nur KI-Aussehen und Visuals", nl: "Kloont alleen AI-uiterlijk en visuals" },
+          { en: "Imitates player emotions only", es: "Solo imita emociones del jugador", de: "Imitiert nur Spieleremotionen", nl: "Imiteert alleen speleremotionaties" },
+          { en: "Learning from behavioral psychology", es: "Aprender de psicología conductual", de: "Von Verhaltenspsychologie lernen", nl: "Leren van gedragspsychologie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Imitation learning uses supervised learning on expert gameplay recordings to quickly bootstrap AI behavior. Instead of exploring randomly, AI learns directly from skilled players, dramatically reducing training time though it may be limited by the quality of demonstrations.",
+          es: "El aprendizaje por imitación usa aprendizaje supervisado en grabaciones de jugabilidad experta para iniciar rápidamente comportamiento IA. En lugar de explorar aleatoriamente, la IA aprende directamente de jugadores hábiles, reduciendo dramáticamente tiempo de entrenamiento aunque puede estar limitado por la calidad de demostraciones.",
+          de: "Imitation Learning nutzt überwachtes Lernen auf Experten-Gameplay-Aufnahmen um KI-Verhalten schnell zu initialisieren. Statt zufällig zu erkunden lernt KI direkt von geschickten Spielern, reduziert Trainingszeit dramatisch obwohl es durch Qualität der Demonstrationen begrenzt sein kann.",
+          nl: "Imitation learning gebruikt supervised learning op expert gameplay opnames om AI-gedrag snel te initialiseren. In plaats van willekeurig te exploreren leert AI direct van bekwame spelers, wat trainingstijd dramatisch vermindert hoewel het beperkt kan zijn door de kwaliteit van demonstraties."
+        }
+      },
+      {
+        question: {
+          en: "What is 'AlphaZero algorithm' revolutionizing in board game AI?",
+          es: "¿Qué está revolucionando el 'algoritmo AlphaZero' en IA de juegos de mesa?",
+          de: "Was revolutioniert der 'AlphaZero-Algorithmus' in Brettspiel-KI?",
+          nl: "Wat revolutioneert het 'AlphaZero algoritme' in bordspel AI?"
+        },
+        options: [
+          { en: "Combines deep neural networks with MCTS to learn superhuman play from self-play alone", es: "Combina redes neuronales profundas con MCTS para aprender juego sobrehumano solo desde auto-juego", de: "Kombiniert tiefe neuronale Netzwerke mit MCTS um übermenschliches Spiel nur aus Selbstspiel zu lernen", nl: "Combineert diepe neurale netwerken met MCTS om bovenmenselijk spel te leren vanuit alleen zelfspel" },
+          { en: "Alphabetically organizes game strategies", es: "Organiza alfabéticamente estrategias de juego", de: "Organisiert Spielstrategien alphabetisch", nl: "Organiseert spelstrategieën alfabetisch" },
+          { en: "Creates zero-sum game balancing", es: "Crea equilibrio de juegos de suma cero", de: "Erstellt Nullsummenspiel-Balancierung", nl: "Creëert nulsomspel balancering" },
+          { en: "Zeroes out losing game strategies", es: "Pone en cero estrategias de juego perdedoras", de: "Setzt verlierende Spielstrategien auf Null", nl: "Zet verliezende spelstrategieën op nul" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AlphaZero learns optimal play in games like Chess, Shogi, and Go through pure self-play, starting from random play and no human knowledge. It combines a deep neural network for position evaluation and move prediction with MCTS for planning, achieving superhuman performance through reinforcement learning alone.",
+          es: "AlphaZero aprende juego óptimo en juegos como Ajedrez, Shogi y Go a través de auto-juego puro, comenzando desde juego aleatorio y sin conocimiento humano. Combina una red neuronal profunda para evaluación de posición y predicción de movimiento con MCTS para planificación, logrando rendimiento sobrehumano solo a través de aprendizaje por refuerzo.",
+          de: "AlphaZero lernt optimales Spiel in Spielen wie Schach, Shogi und Go durch reines Selbstspiel, beginnend mit zufälligem Spiel und ohne menschliches Wissen. Es kombiniert ein tiefes neuronales Netzwerk für Positionsbewertung und Zugvorhersage mit MCTS für Planung, erreicht übermenschliche Leistung nur durch Verstärkungslernen.",
+          nl: "AlphaZero leert optimaal spel in spellen zoals Schaken, Shogi en Go door puur zelfspel, beginnend met willekeurig spel en geen menselijke kennis. Het combineert een diep neuraal netwerk voor positiebeoordeling en zet voorspelling met MCTS voor planning, waarbij bovenmenselijke prestaties worden bereikt door alleen reinforcement learning."
+        }
+      },
+      {
+        question: {
+          en: "How does 'soft actor-critic' (SAC) improve continuous control in games?",
+          es: "¿Cómo mejora 'soft actor-critic' (SAC) el control continuo en juegos?",
+          de: "Wie verbessert 'Soft Actor-Critic' (SAC) kontinuierliche Steuerung in Spielen?",
+          nl: "Hoe verbetert 'soft actor-critic' (SAC) continue besturing in games?"
+        },
+        options: [
+          { en: "Maximizes both reward and entropy for more robust exploration in continuous action spaces", es: "Maximiza tanto recompensa como entropía para exploración más robusta en espacios de acción continuos", de: "Maximiert sowohl Belohnung als auch Entropie für robustere Exploration in kontinuierlichen Aktionsräumen", nl: "Maximaliseert zowel beloning als entropie voor robuustere exploratie in continue actieruimtes" },
+          { en: "Creates softer game difficulty only", es: "Solo crea dificultad de juego más suave", de: "Erstellt nur weichere Spielschwierigkeit", nl: "Creëert alleen zachtere spelmoeilijkheid" },
+          { en: "Soft collision detection for actors", es: "Detección de colisiones suave para actores", de: "Weiche Kollisionserkennung für Akteure", nl: "Zachte botsingsdetectie voor actoren" },
+          { en: "Critical analysis of soft skills", es: "Análisis crítico de habilidades blandas", de: "Kritische Analyse von Soft Skills", nl: "Kritische analyse van soft skills" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "SAC is an off-policy actor-critic algorithm that adds an entropy term to encourage exploration while learning. This leads to more robust policies in continuous control tasks like racing games or character movement, with better sample efficiency and stability than many other algorithms.",
+          es: "SAC es un algoritmo actor-crítico fuera de política que añade un término de entropía para alentar exploración mientras aprende. Esto lleva a políticas más robustas en tareas de control continuo como juegos de carreras o movimiento de personajes, con mejor eficiencia de muestras y estabilidad que muchos otros algoritmos.",
+          de: "SAC ist ein Off-Policy-Actor-Critic-Algorithmus der einen Entropie-Term hinzufügt um Exploration während des Lernens zu fördern. Dies führt zu robusteren Policies in kontinuierlichen Steuerungsaufgaben wie Rennspielen oder Charakterbewegung, mit besserer Sample-Effizienz und Stabilität als viele andere Algorithmen.",
+          nl: "SAC is een off-policy actor-critic algoritme dat een entropie-term toevoegt om exploratie aan te moedigen tijdens het leren. Dit leidt tot robuustere beleid in continue besturingstaken zoals racegames of karakterbeweging, met betere sample-efficiëntie en stabiliteit dan veel andere algoritmes."
+        }
+      },
+      {
+        question: {
+          en: "What is 'MuZero' advancing beyond AlphaZero in game AI?",
+          es: "¿Qué está avanzando 'MuZero' más allá de AlphaZero en IA de juegos?",
+          de: "Was erweitert 'MuZero' über AlphaZero hinaus in Spiele-KI?",
+          nl: "Wat brengt 'MuZero' verder dan AlphaZero in game AI?"
+        },
+        options: [
+          { en: "Learns to play games without knowing the rules by building internal world models", es: "Aprende a jugar juegos sin conocer las reglas construyendo modelos internos del mundo", de: "Lernt Spiele zu spielen ohne Regeln zu kennen durch Aufbau interner Weltmodelle", nl: "Leert spellen te spelen zonder de regels te kennen door interne wereldmodellen te bouwen" },
+          { en: "Musical AI for rhythm games only", es: "Solo IA musical para juegos de ritmo", de: "Nur musikalische KI für Rhythmusspiele", nl: "Alleen muzikale AI voor ritmespellen" },
+          { en: "Zero-knowledge game initialization", es: "Inicialización de juego de conocimiento cero", de: "Zero-Knowledge-Spiel-Initialisierung", nl: "Zero-knowledge spel initialisatie" },
+          { en: "Music generation for game soundtracks", es: "Generación de música para bandas sonoras de juegos", de: "Musikgenerierung für Spiel-Soundtracks", nl: "Muziekgeneratie voor spelsoundtracks" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "MuZero extends AlphaZero by learning a model of the environment's dynamics without being given the rules, enabling it to master both board games and visually complex Atari games. It plans in a learned latent space, combining model-based and model-free RL strengths.",
+          es: "MuZero extiende AlphaZero aprendiendo un modelo de las dinámicas del entorno sin que se le den las reglas, permitiéndole dominar tanto juegos de mesa como juegos Atari visualmente complejos. Planea en un espacio latente aprendido, combinando fortalezas de RL basado en modelo y libre de modelo.",
+          de: "MuZero erweitert AlphaZero durch Lernen eines Modells der Umgebungsdynamik ohne Regelkenntnis, ermöglicht Beherrschung sowohl von Brettspielen als auch visuell komplexen Atari-Spielen. Es plant in einem gelernten latenten Raum, kombiniert modellbasierte und modellfreie RL-Stärken.",
+          nl: "MuZero breidt AlphaZero uit door een model van de omgevingsdynamiek te leren zonder de regels te krijgen, wat het in staat stelt om zowel bordspellen als visueel complexe Atari-games te beheersen. Het plant in een geleerde latente ruimte, waarbij model-gebaseerde en model-vrije RL-sterkte worden gecombineerd."
+        }
+      },
+      {
+        question: {
+          en: "How does 'attention mechanism in transformers' enhance sequence processing in game AI?",
+          es: "¿Cómo mejora el 'mecanismo de atención en transformers' el procesamiento de secuencias en IA de juegos?",
+          de: "Wie verbessert 'Aufmerksamkeitsmechanismus in Transformern' Sequenzverarbeitung in Spiele-KI?",
+          nl: "Hoe verbetert 'aandachtsmechanisme in transformers' sequentieverwerking in game AI?"
+        },
+        options: [
+          { en: "Enables parallel processing of sequences while capturing long-range dependencies efficiently", es: "Permite procesamiento paralelo de secuencias mientras captura dependencias de largo alcance eficientemente", de: "Ermöglicht parallele Verarbeitung von Sequenzen während Langstrecken-Abhängigkeiten effizient erfasst werden", nl: "Maakt parallelle verwerking van sequenties mogelijk terwijl lange-afstand afhankelijkheden efficiënt worden vastgelegd" },
+          { en: "Gets player attention through visual effects", es: "Obtiene atención del jugador a través de efectos visuales", de: "Erregt Spieleraufmerksamkeit durch visuelle Effekte", nl: "Trekt spelersaandacht via visuele effecten" },
+          { en: "Transforms game sequences into images", es: "Transforma secuencias de juego en imágenes", de: "Transformiert Spielsequenzen in Bilder", nl: "Transformeert spelsequenties naar beelden" },
+          { en: "Sequential attention patterns in gameplay", es: "Patrones de atención secuencial en jugabilidad", de: "Sequentielle Aufmerksamkeitsmuster im Gameplay", nl: "Sequentiële aandachtspatronen in gameplay" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Transformer attention allows AI to process entire sequences (like game histories or dialogue) in parallel while learning which elements are most relevant to each decision. This captures complex temporal relationships more effectively than recurrent networks, enabling better strategic planning and context understanding.",
+          es: "La atención de transformers permite a la IA procesar secuencias enteras (como historiales de juego o diálogos) en paralelo mientras aprende qué elementos son más relevantes para cada decisión. Esto captura relaciones temporales complejas más efectivamente que redes recurrentes, permitiendo mejor planificación estratégica y comprensión de contexto.",
+          de: "Transformer-Attention ermöglicht KI ganze Sequenzen (wie Spielverläufe oder Dialoge) parallel zu verarbeiten während gelernt wird welche Elemente für jede Entscheidung am relevantesten sind. Dies erfasst komplexe temporale Beziehungen effektiver als rekurrente Netzwerke, ermöglicht bessere strategische Planung und Kontextverständnis.",
+          nl: "Transformer aandacht stelt AI in staat om hele sequenties (zoals spelgeschiedenissen of dialoog) parallel te verwerken terwijl wordt geleerd welke elementen het meest relevant zijn voor elke beslissing. Dit legt complexe temporele relaties effectiever vast dan recurrente netwerken, wat betere strategische planning en contextbegrip mogelijk maakt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'multi-task learning' enabling in versatile game AI agents?",
+          es: "¿Qué está permitiendo el 'aprendizaje multi-tarea' en agentes IA versátiles de juegos?",
+          de: "Was ermöglicht 'Multi-Task Learning' in vielseitigen Spiele-KI-Agenten?",
+          nl: "Wat maakt 'multi-task learning' mogelijk in veelzijdige game AI-agenten?"
+        },
+        options: [
+          { en: "Training single agents to master multiple related tasks simultaneously by sharing representations", es: "Entrenar agentes únicos para dominar múltiples tareas relacionadas simultáneamente compartiendo representaciones", de: "Training einzelner Agenten um mehrere verwandte Aufgaben gleichzeitig zu meistern durch Teilen von Repräsentationen", nl: "Trainen van enkele agenten om meerdere gerelateerde taken tegelijkertijd te beheersen door representaties te delen" },
+          { en: "Only running multiple tasks in parallel", es: "Solo ejecutar múltiples tareas en paralelo", de: "Nur mehrere Aufgaben parallel ausführen", nl: "Alleen meerdere taken parallel uitvoeren" },
+          { en: "Multi-tasking for game characters", es: "Multitarea para personajes de juego", de: "Multitasking für Spielcharaktere", nl: "Multitasken voor spelkarakters" },
+          { en: "Learning multiple game genres separately", es: "Aprender múltiples géneros de juegos por separado", de: "Mehrere Spielgenres separat lernen", nl: "Meerdere spelgenres apart leren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Multi-task learning trains AI on multiple objectives simultaneously, sharing learned representations across tasks. This improves sample efficiency, enables better generalization, and creates versatile agents that can handle diverse game situations by leveraging knowledge across related tasks.",
+          es: "El aprendizaje multi-tarea entrena IA en múltiples objetivos simultáneamente, compartiendo representaciones aprendidas a través de tareas. Esto mejora eficiencia de muestras, permite mejor generalización y crea agentes versátiles que pueden manejar situaciones diversas del juego aprovechando conocimiento a través de tareas relacionadas.",
+          de: "Multi-Task Learning trainiert KI auf mehreren Zielen gleichzeitig, teilt gelernte Repräsentationen über Aufgaben. Dies verbessert Sample-Effizienz, ermöglicht bessere Generalisierung und schafft vielseitige Agenten die diverse Spielsituationen handhaben können durch Nutzung von Wissen über verwandte Aufgaben.",
+          nl: "Multi-task learning traint AI op meerdere doelstellingen tegelijkertijd, waarbij geleerde representaties over taken worden gedeeld. Dit verbetert sample-efficiëntie, maakt betere generalisatie mogelijk en creëert veelzijdige agenten die diverse spelsituaties kunnen hanteren door kennis over gerelateerde taken te benutten."
+        }
+      },
+      {
+        question: {
+          en: "How does 'noisy networks for exploration' improve reinforcement learning in games?",
+          es: "¿Cómo mejoran las 'redes ruidosas para exploración' el aprendizaje por refuerzo en juegos?",
+          de: "Wie verbessern 'Noisy Networks for Exploration' Verstärkungslernen in Spielen?",
+          nl: "Hoe verbeteren 'noisy networks voor exploratie' reinforcement learning in games?"
+        },
+        options: [
+          { en: "Adds learnable noise parameters to network weights for automatic exploration strategy tuning", es: "Añade parámetros de ruido aprendibles a pesos de red para ajuste automático de estrategia de exploración", de: "Fügt lernbare Rauschparameter zu Netzwerkgewichten hinzu für automatisches Abstimmen der Explorationsstrategie", nl: "Voegt leerbare ruisparameters toe aan netwerkgewichten voor automatische exploratiestrategie afstemming" },
+          { en: "Creates noisy audio effects in games", es: "Crea efectos de audio ruidosos en juegos", de: "Erstellt rauschige Audioeffekte in Spielen", nl: "Creëert ruisachtige audio-effecten in games" },
+          { en: "Adds random network errors", es: "Añade errores de red aleatorios", de: "Fügt zufällige Netzwerkfehler hinzu", nl: "Voegt willekeurige netwerkfouten toe" },
+          { en: "Network noise reduction techniques", es: "Técnicas de reducción de ruido de red", de: "Netzwerk-Rauschreduktionstechniken", nl: "Netwerk ruisreductietechnieken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Noisy networks add parametric noise to neural network weights, where the noise level is learned during training. This provides state-dependent exploration that automatically adapts as the agent learns, replacing manual exploration strategies like epsilon-greedy with a more principled approach.",
+          es: "Las redes ruidosas añaden ruido paramétrico a pesos de redes neuronales, donde el nivel de ruido se aprende durante el entrenamiento. Esto proporciona exploración dependiente del estado que se adapta automáticamente mientras el agente aprende, reemplazando estrategias de exploración manual como epsilon-greedy con un enfoque más fundamentado.",
+          de: "Noisy Networks fügen parametrisches Rauschen zu neuronalen Netzwerkgewichten hinzu, wobei der Rauschpegel während des Trainings gelernt wird. Dies bietet zustandsabhängige Exploration die sich automatisch anpasst während der Agent lernt, ersetzt manuelle Explorationsstrategien wie Epsilon-Greedy durch prinzipielleren Ansatz.",
+          nl: "Noisy networks voegen parametrische ruis toe aan neurale netwerkgewichten, waarbij het ruisniveau wordt geleerd tijdens training. Dit biedt toestandsafhankelijke exploratie die automatisch aanpast terwijl de agent leert, waarbij handmatige exploratiestrategieën zoals epsilon-greedy worden vervangen door een meer principiële aanpak."
+        }
       }
     ]
   };

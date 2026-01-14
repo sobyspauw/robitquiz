@@ -426,7 +426,427 @@
           es: "La Gran Pirámide contiene aproximadamente 2.3 millones de bloques de piedra caliza. Cada bloque pesa un promedio de 2.5 toneladas, algunos pesan hasta 80 toneladas. El peso total se estima en 6 millones de toneladas.",
           de: "Die Große Pyramide enthält etwa 2,3 Millionen Kalksteinblöcke. Jeder Block wiegt durchschnittlich 2,5 Tonnen, einige wiegen bis zu 80 Tonnen. Das Gesamtgewicht wird auf 6 Millionen Tonnen geschätzt.",
           nl: "De Grote Piramide bevat ongeveer 2,3 miljoen kalkstenen blokken. Elk blok weegt gemiddeld 2,5 ton, sommige wegen tot 80 ton. Het totale gewicht wordt geschat op 6 miljoen ton."
-        }
+        }    },
+    {
+      question: {
+        en: "Where is the Valley of the Kings?",
+        es: "Where is the Valley of the Kings?",
+        de: "Where is the Valley of the Kings?",
+        nl: "Where is the Valley of the Kings?"
+      },
+      options: [
+        { en: "West bank of Nile near Luxor/Thebes", es: "West bank of Nile near Luxor/Thebes", de: "West bank of Nile near Luxor/Thebes", nl: "West bank of Nile near Luxor/Thebes" },
+        { en: "Giza", es: "Giza", de: "Giza", nl: "Giza" },
+        { en: "Cairo", es: "Cairo", de: "Cairo", nl: "Cairo" },
+        { en: "Alexandria", es: "Alexandria", de: "Alexandria", nl: "Alexandria" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Valley of the Kings is on the west bank of the Nile near ancient Thebes (modern Luxor).",
+        es: "The Valley of the Kings is on the west bank of the Nile near ancient Thebes (modern Luxor).",
+        de: "The Valley of the Kings is on the west bank of the Nile near ancient Thebes (modern Luxor).",
+        nl: "The Valley of the Kings is on the west bank of the Nile near ancient Thebes (modern Luxor)."
+      }
+    },
+    {
+      question: {
+        en: "What period are most Valley tombs from?",
+        es: "What period are most Valley tombs from?",
+        de: "What period are most Valley tombs from?",
+        nl: "What period are most Valley tombs from?"
+      },
+      options: [
+        { en: "New Kingdom", es: "New Kingdom", de: "New Kingdom", nl: "New Kingdom" },
+        { en: "Old Kingdom", es: "Old Kingdom", de: "Old Kingdom", nl: "Old Kingdom" },
+        { en: "Middle Kingdom", es: "Middle Kingdom", de: "Middle Kingdom", nl: "Middle Kingdom" },
+        { en: "Ptolemaic Period", es: "Ptolemaic Period", de: "Ptolemaic Period", nl: "Ptolemaic Period" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Most tombs in the Valley of the Kings date from the New Kingdom (16th-11th centuries BCE).",
+        es: "Most tombs in the Valley of the Kings date from the New Kingdom (16th-11th centuries BCE).",
+        de: "Most tombs in the Valley of the Kings date from the New Kingdom (16th-11th centuries BCE).",
+        nl: "Most tombs in the Valley of the Kings date from the New Kingdom (16th-11th centuries BCE)."
+      }
+    },
+    {
+      question: {
+        en: "How many tombs are in the Valley?",
+        es: "How many tombs are in the Valley?",
+        de: "How many tombs are in the Valley?",
+        nl: "How many tombs are in the Valley?"
+      },
+      options: [
+        { en: "Over 60", es: "Over 60", de: "Over 60", nl: "Over 60" },
+        { en: "Three", es: "Three", de: "Three", nl: "Three" },
+        { en: "Ten", es: "Ten", de: "Ten", nl: "Ten" },
+        { en: "Hundreds", es: "Hundreds", de: "Hundreds", nl: "Hundreds" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Over 60 tombs and chambers have been discovered in the Valley of the Kings.",
+        es: "Over 60 tombs and chambers have been discovered in the Valley of the Kings.",
+        de: "Over 60 tombs and chambers have been discovered in the Valley of the Kings.",
+        nl: "Over 60 tombs and chambers have been discovered in the Valley of the Kings."
+      }
+    },
+    {
+      question: {
+        en: "Who discovered Tutankhamun's tomb?",
+        es: "Who discovered Tutankhamun's tomb?",
+        de: "Who discovered Tutankhamun's tomb?",
+        nl: "Who discovered Tutankhamun's tomb?"
+      },
+      options: [
+        { en: "Howard Carter", es: "Howard Carter", de: "Howard Carter", nl: "Howard Carter" },
+        { en: "Jean-François Champollion", es: "Jean-François Champollion", de: "Jean-François Champollion", nl: "Jean-François Champollion" },
+        { en: "Flinders Petrie", es: "Flinders Petrie", de: "Flinders Petrie", nl: "Flinders Petrie" },
+        { en: "Auguste Mariette", es: "Auguste Mariette", de: "Auguste Mariette", nl: "Auguste Mariette" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "British archaeologist Howard Carter discovered Tutankhamun's tomb in 1922.",
+        es: "British archaeologist Howard Carter discovered Tutankhamun's tomb in 1922.",
+        de: "British archaeologist Howard Carter discovered Tutankhamun's tomb in 1922.",
+        nl: "British archaeologist Howard Carter discovered Tutankhamun's tomb in 1922."
+      }
+    },
+    {
+      question: {
+        en: "Why did pharaohs stop building pyramids?",
+        es: "Why did pharaohs stop building pyramids?",
+        de: "Why did pharaohs stop building pyramids?",
+        nl: "Why did pharaohs stop building pyramids?"
+      },
+      options: [
+        { en: "Security - pyramids attracted tomb robbers", es: "Security - pyramids attracted tomb robbers", de: "Security - pyramids attracted tomb robbers", nl: "Security - pyramids attracted tomb robbers" },
+        { en: "Too expensive", es: "Too expensive", de: "Too expensive", nl: "Too expensive" },
+        { en: "Religious change", es: "Religious change", de: "Religious change", nl: "Religious change" },
+        { en: "Ran out of stone", es: "Ran out of stone", de: "Ran out of stone", nl: "Ran out of stone" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pharaohs switched to hidden rock-cut tombs in the Valley to prevent robbery.",
+        es: "Pharaohs switched to hidden rock-cut tombs in the Valley to prevent robbery.",
+        de: "Pharaohs switched to hidden rock-cut tombs in the Valley to prevent robbery.",
+        nl: "Pharaohs switched to hidden rock-cut tombs in the Valley to prevent robbery."
+      }
+    },
+    {
+      question: {
+        en: "What was KV62?",
+        es: "What was KV62?",
+        de: "What was KV62?",
+        nl: "What was KV62?"
+      },
+      options: [
+        { en: "Tutankhamun's tomb designation", es: "Tutankhamun's tomb designation", de: "Tutankhamun's tomb designation", nl: "Tutankhamun's tomb designation" },
+        { en: "Ramesses VI tomb", es: "Ramesses VI tomb", de: "Ramesses VI tomb", nl: "Ramesses VI tomb" },
+        { en: "Seti I tomb", es: "Seti I tomb", de: "Seti I tomb", nl: "Seti I tomb" },
+        { en: "Empty tomb", es: "Empty tomb", de: "Empty tomb", nl: "Empty tomb" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "KV62 is the archaeological designation for Tutankhamun's tomb.",
+        es: "KV62 is the archaeological designation for Tutankhamun's tomb.",
+        de: "KV62 is the archaeological designation for Tutankhamun's tomb.",
+        nl: "KV62 is the archaeological designation for Tutankhamun's tomb."
+      }
+    },
+    {
+      question: {
+        en: "What decorated tomb walls?",
+        es: "What decorated tomb walls?",
+        de: "What decorated tomb walls?",
+        nl: "What decorated tomb walls?"
+      },
+      options: [
+        { en: "Paintings and hieroglyphs", es: "Paintings and hieroglyphs", de: "Paintings and hieroglyphs", nl: "Paintings and hieroglyphs" },
+        { en: "Mosaics", es: "Mosaics", de: "Mosaics", nl: "Mosaics" },
+        { en: "Tapestries", es: "Tapestries", de: "Tapestries", nl: "Tapestries" },
+        { en: "Nothing", es: "Nothing", de: "Nothing", nl: "Nothing" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Tomb walls were decorated with colorful paintings and hieroglyphic texts.",
+        es: "Tomb walls were decorated with colorful paintings and hieroglyphic texts.",
+        de: "Tomb walls were decorated with colorful paintings and hieroglyphic texts.",
+        nl: "Tomb walls were decorated with colorful paintings and hieroglyphic texts."
+      }
+    },
+    {
+      question: {
+        en: "What texts are in royal tombs?",
+        es: "What texts are in royal tombs?",
+        de: "What texts are in royal tombs?",
+        nl: "What texts are in royal tombs?"
+      },
+      options: [
+        { en: "Book of the Dead, Amduat, Book of Gates", es: "Book of the Dead, Amduat, Book of Gates", de: "Book of the Dead, Amduat, Book of Gates", nl: "Book of the Dead, Amduat, Book of Gates" },
+        { en: "Historical records", es: "Historical records", de: "Historical records", nl: "Historical records" },
+        { en: "Poetry", es: "Poetry", de: "Poetry", nl: "Poetry" },
+        { en: "Mathematical formulas", es: "Mathematical formulas", de: "Mathematical formulas", nl: "Mathematical formulas" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Royal tombs contain funerary texts like the Amduat and Book of Gates guiding the deceased.",
+        es: "Royal tombs contain funerary texts like the Amduat and Book of Gates guiding the deceased.",
+        de: "Royal tombs contain funerary texts like the Amduat and Book of Gates guiding the deceased.",
+        nl: "Royal tombs contain funerary texts like the Amduat and Book of Gates guiding the deceased."
+      }
+    },
+    {
+      question: {
+        en: "Who was buried in KV5?",
+        es: "Who was buried in KV5?",
+        de: "Who was buried in KV5?",
+        nl: "Who was buried in KV5?"
+      },
+      options: [
+        { en: "Sons of Ramesses II", es: "Sons of Ramesses II", de: "Sons of Ramesses II", nl: "Sons of Ramesses II" },
+        { en: "Tutankhamun", es: "Tutankhamun", de: "Tutankhamun", nl: "Tutankhamun" },
+        { en: "Ramesses II", es: "Ramesses II", de: "Ramesses II", nl: "Ramesses II" },
+        { en: "Seti I", es: "Seti I", de: "Seti I", nl: "Seti I" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "KV5 is the tomb complex of many sons of Ramesses II, the largest in the valley.",
+        es: "KV5 is the tomb complex of many sons of Ramesses II, the largest in the valley.",
+        de: "KV5 is the tomb complex of many sons of Ramesses II, the largest in the valley.",
+        nl: "KV5 is the tomb complex of many sons of Ramesses II, the largest in the valley."
+      }
+    },
+    {
+      question: {
+        en: "What is the Valley of the Queens?",
+        es: "What is the Valley of the Queens?",
+        de: "What is the Valley of the Queens?",
+        nl: "What is the Valley of the Queens?"
+      },
+      options: [
+        { en: "Burial place for queens and royal children", es: "Burial place for queens and royal children", de: "Burial place for queens and royal children", nl: "Burial place for queens and royal children" },
+        { en: "Alternative name for Valley of Kings", es: "Alternative name for Valley of Kings", de: "Alternative name for Valley of Kings", nl: "Alternative name for Valley of Kings" },
+        { en: "Modern cemetery", es: "Modern cemetery", de: "Modern cemetery", nl: "Modern cemetery" },
+        { en: "Temple complex", es: "Temple complex", de: "Temple complex", nl: "Temple complex" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Valley of the Queens is a separate necropolis for queens and royal children.",
+        es: "The Valley of the Queens is a separate necropolis for queens and royal children.",
+        de: "The Valley of the Queens is a separate necropolis for queens and royal children.",
+        nl: "The Valley of the Queens is a separate necropolis for queens and royal children."
+      }
+    },
+    {
+      question: {
+        en: "What protected tombs from robbers?",
+        es: "What protected tombs from robbers?",
+        de: "What protected tombs from robbers?",
+        nl: "What protected tombs from robbers?"
+      },
+      options: [
+        { en: "Hidden entrances, debris, false passages", es: "Hidden entrances, debris, false passages", de: "Hidden entrances, debris, false passages", nl: "Hidden entrances, debris, false passages" },
+        { en: "Guards", es: "Guards", de: "Guards", nl: "Guards" },
+        { en: "Curses", es: "Curses", de: "Curses", nl: "Curses" },
+        { en: "Magic spells", es: "Magic spells", de: "Magic spells", nl: "Magic spells" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Tombs had hidden entrances, were covered with debris, and some had false passages.",
+        es: "Tombs had hidden entrances, were covered with debris, and some had false passages.",
+        de: "Tombs had hidden entrances, were covered with debris, and some had false passages.",
+        nl: "Tombs had hidden entrances, were covered with debris, and some had false passages."
+      }
+    },
+    {
+      question: {
+        en: "What famous curse is associated with the Valley?",
+        es: "What famous curse is associated with the Valley?",
+        de: "What famous curse is associated with the Valley?",
+        nl: "What famous curse is associated with the Valley?"
+      },
+      options: [
+        { en: "Curse of the pharaohs", es: "Curse of the pharaohs", de: "Curse of the pharaohs", nl: "Curse of the pharaohs" },
+        { en: "Mummy's curse", es: "Mummy's curse", de: "Mummy's curse", nl: "Mummy's curse" },
+        { en: "Anubis's curse", es: "Anubis's curse", de: "Anubis's curse", nl: "Anubis's curse" },
+        { en: "No curses", es: "No curses", de: "No curses", nl: "No curses" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The 'Curse of the Pharaohs' legend arose after Tutankhamun's tomb discovery.",
+        es: "The 'Curse of the Pharaohs' legend arose after Tutankhamun's tomb discovery.",
+        de: "The 'Curse of the Pharaohs' legend arose after Tutankhamun's tomb discovery.",
+        nl: "The 'Curse of the Pharaohs' legend arose after Tutankhamun's tomb discovery."
+      }
+    },
+    {
+      question: {
+        en: "What is Deir el-Medina?",
+        es: "What is Deir el-Medina?",
+        de: "What is Deir el-Medina?",
+        nl: "What is Deir el-Medina?"
+      },
+      options: [
+        { en: "Village of tomb workers", es: "Village of tomb workers", de: "Village of tomb workers", nl: "Village of tomb workers" },
+        { en: "Temple", es: "Temple", de: "Temple", nl: "Temple" },
+        { en: "Royal palace", es: "Royal palace", de: "Royal palace", nl: "Royal palace" },
+        { en: "Pyramid site", es: "Pyramid site", de: "Pyramid site", nl: "Pyramid site" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Deir el-Medina was the village where craftsmen who built Valley tombs lived.",
+        es: "Deir el-Medina was the village where craftsmen who built Valley tombs lived.",
+        de: "Deir el-Medina was the village where craftsmen who built Valley tombs lived.",
+        nl: "Deir el-Medina was the village where craftsmen who built Valley tombs lived."
+      }
+    },
+    {
+      question: {
+        en: "Who sponsored Carter's excavation?",
+        es: "Who sponsored Carter's excavation?",
+        de: "Who sponsored Carter's excavation?",
+        nl: "Who sponsored Carter's excavation?"
+      },
+      options: [
+        { en: "Lord Carnarvon", es: "Lord Carnarvon", de: "Lord Carnarvon", nl: "Lord Carnarvon" },
+        { en: "British Museum", es: "British Museum", de: "British Museum", nl: "British Museum" },
+        { en: "Egyptian government", es: "Egyptian government", de: "Egyptian government", nl: "Egyptian government" },
+        { en: "French government", es: "French government", de: "French government", nl: "French government" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "British aristocrat Lord Carnarvon financed Howard Carter's excavations.",
+        es: "British aristocrat Lord Carnarvon financed Howard Carter's excavations.",
+        de: "British aristocrat Lord Carnarvon financed Howard Carter's excavations.",
+        nl: "British aristocrat Lord Carnarvon financed Howard Carter's excavations."
+      }
+    },
+    {
+      question: {
+        en: "What tomb has the most beautiful paintings?",
+        es: "What tomb has the most beautiful paintings?",
+        de: "What tomb has the most beautiful paintings?",
+        nl: "What tomb has the most beautiful paintings?"
+      },
+      options: [
+        { en: "Tomb of Nefertari (Valley of Queens)", es: "Tomb of Nefertari (Valley of Queens)", de: "Tomb of Nefertari (Valley of Queens)", nl: "Tomb of Nefertari (Valley of Queens)" },
+        { en: "Tutankhamun's tomb", es: "Tutankhamun's tomb", de: "Tutankhamun's tomb", nl: "Tutankhamun's tomb" },
+        { en: "Ramesses VI tomb", es: "Ramesses VI tomb", de: "Ramesses VI tomb", nl: "Ramesses VI tomb" },
+        { en: "Seti I tomb", es: "Seti I tomb", de: "Seti I tomb", nl: "Seti I tomb" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The tomb of Queen Nefertari is renowned for its exquisite painted decorations.",
+        es: "The tomb of Queen Nefertari is renowned for its exquisite painted decorations.",
+        de: "The tomb of Queen Nefertari is renowned for its exquisite painted decorations.",
+        nl: "The tomb of Queen Nefertari is renowned for its exquisite painted decorations."
+      }
+    },
+    {
+      question: {
+        en: "What was placed in tombs?",
+        es: "What was placed in tombs?",
+        de: "What was placed in tombs?",
+        nl: "What was placed in tombs?"
+      },
+      options: [
+        { en: "Treasures, food, furniture, shabti figures", es: "Treasures, food, furniture, shabti figures", de: "Treasures, food, furniture, shabti figures", nl: "Treasures, food, furniture, shabti figures" },
+        { en: "Only bodies", es: "Only bodies", de: "Only bodies", nl: "Only bodies" },
+        { en: "Religious texts only", es: "Religious texts only", de: "Religious texts only", nl: "Religious texts only" },
+        { en: "Nothing", es: "Nothing", de: "Nothing", nl: "Nothing" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Tombs contained everything needed for the afterlife: furniture, food, clothing, jewelry, and servant figures.",
+        es: "Tombs contained everything needed for the afterlife: furniture, food, clothing, jewelry, and servant figures.",
+        de: "Tombs contained everything needed for the afterlife: furniture, food, clothing, jewelry, and servant figures.",
+        nl: "Tombs contained everything needed for the afterlife: furniture, food, clothing, jewelry, and servant figures."
+      }
+    },
+    {
+      question: {
+        en: "What are shabti figures?",
+        es: "What are shabti figures?",
+        de: "What are shabti figures?",
+        nl: "What are shabti figures?"
+      },
+      options: [
+        { en: "Servant figures for the afterlife", es: "Servant figures for the afterlife", de: "Servant figures for the afterlife", nl: "Servant figures for the afterlife" },
+        { en: "Gods statues", es: "Gods statues", de: "Gods statues", nl: "Gods statues" },
+        { en: "Decorations", es: "Decorations", de: "Decorations", nl: "Decorations" },
+        { en: "Toys", es: "Toys", de: "Toys", nl: "Toys" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Shabti (or ushabti) were small figurines meant to serve the deceased in the afterlife.",
+        es: "Shabti (or ushabti) were small figurines meant to serve the deceased in the afterlife.",
+        de: "Shabti (or ushabti) were small figurines meant to serve the deceased in the afterlife.",
+        nl: "Shabti (or ushabti) were small figurines meant to serve the deceased in the afterlife."
+      }
+    },
+    {
+      question: {
+        en: "What is the Amduat?",
+        es: "What is the Amduat?",
+        de: "What is the Amduat?",
+        nl: "What is the Amduat?"
+      },
+      options: [
+        { en: "Funerary text describing sun god's journey", es: "Funerary text describing sun god's journey", de: "Funerary text describing sun god's journey", nl: "Funerary text describing sun god's journey" },
+        { en: "Historical chronicle", es: "Historical chronicle", de: "Historical chronicle", nl: "Historical chronicle" },
+        { en: "Love poetry", es: "Love poetry", de: "Love poetry", nl: "Love poetry" },
+        { en: "Medical text", es: "Medical text", de: "Medical text", nl: "Medical text" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Amduat is a funerary text describing the sun god's nightly journey through the underworld.",
+        es: "The Amduat is a funerary text describing the sun god's nightly journey through the underworld.",
+        de: "The Amduat is a funerary text describing the sun god's nightly journey through the underworld.",
+        nl: "The Amduat is a funerary text describing the sun god's nightly journey through the underworld."
+      }
+    },
+    {
+      question: {
+        en: "Why is the valley on the west bank?",
+        es: "Why is the valley on the west bank?",
+        de: "Why is the valley on the west bank?",
+        nl: "Why is the valley on the west bank?"
+      },
+      options: [
+        { en: "West symbolized realm of the dead", es: "West symbolized realm of the dead", de: "West symbolized realm of the dead", nl: "West symbolized realm of the dead" },
+        { en: "Better stone", es: "Better stone", de: "Better stone", nl: "Better stone" },
+        { en: "Closer to capital", es: "Closer to capital", de: "Closer to capital", nl: "Closer to capital" },
+        { en: "Random choice", es: "Random choice", de: "Random choice", nl: "Random choice" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The west, where the sun sets, symbolized the realm of the dead in Egyptian belief.",
+        es: "The west, where the sun sets, symbolized the realm of the dead in Egyptian belief.",
+        de: "The west, where the sun sets, symbolized the realm of the dead in Egyptian belief.",
+        nl: "The west, where the sun sets, symbolized the realm of the dead in Egyptian belief."
+      }
+    },
+    {
+      question: {
+        en: "What modern threat affects the tombs?",
+        es: "What modern threat affects the tombs?",
+        de: "What modern threat affects the tombs?",
+        nl: "What modern threat affects the tombs?"
+      },
+      options: [
+        { en: "Tourism humidity and light damage", es: "Tourism humidity and light damage", de: "Tourism humidity and light damage", nl: "Tourism humidity and light damage" },
+        { en: "Earthquakes", es: "Earthquakes", de: "Earthquakes", nl: "Earthquakes" },
+        { en: "War", es: "War", de: "War", nl: "War" },
+        { en: "River flooding", es: "River flooding", de: "River flooding", nl: "River flooding" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Modern threats include damage from tourist humidity, lights, and touching causing deterioration.",
+        es: "Modern threats include damage from tourist humidity, lights, and touching causing deterioration.",
+        de: "Modern threats include damage from tourist humidity, lights, and touching causing deterioration.",
+        nl: "Modern threats include damage from tourist humidity, lights, and touching causing deterioration."
+      }
+
       }
     ]
   };

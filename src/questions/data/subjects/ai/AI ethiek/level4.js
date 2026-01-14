@@ -427,6 +427,426 @@
           de: "Modelltransparenz fuer regulatorische Compliance beinhaltet umfassende Dokumentation darueber wie KI-Systeme funktionieren, einschliesslich ihrer Architektur, Trainingsprozesse, Datenquellen und Entscheidungslogik, wodurch Regulatoren die Einhaltung anwendbarer Gesetze und Standards bewerten koennen.",
           nl: "Model transparantie voor regelgevingsnaleving houdt in dat uitgebreide documentatie verstrekt wordt over hoe AI systemen werken, inclusief hun architectuur, trainingsprocessen, databronnen en besluitvormingslogica, waardoor toezichthouders naleving van toepasselijke wetten en standaarden kunnen beoordelen."
         }
+      },
+      {
+        question: {
+          en: "What is 'saliency mapping' in visual AI explainability?",
+          es: "Que es 'mapeo de saliencia' en explicabilidad visual de IA?",
+          de: "Was ist 'Salienz-Mapping' in visueller KI-Erklaerbarkeit?",
+          nl: "Wat is 'saliency mapping' in visuele AI uitlegbaarheid?"
+        },
+        options: [
+          { en: "Highlighting which pixels in an image most influenced the model's classification", es: "Resaltar que pixeles en imagen mas influyeron en clasificacion del modelo", de: "Hervorheben welche Pixel im Bild die Klassifikation des Modells am meisten beeinflussten", nl: "Benadrukken welke pixels in afbeelding classificatie van model het meest beïnvloedden" },
+          { en: "Creating geographic maps from satellite images", es: "Crear mapas geograficos de imagenes satelitales", de: "Geografische Karten aus Satellitenbildern erstellen", nl: "Geografische kaarten maken van satellietbeelden" },
+          { en: "Mapping colors to different categories", es: "Mapear colores a diferentes categorias", de: "Farben verschiedenen Kategorien zuordnen", nl: "Kleuren toewijzen aan verschillende categorieën" },
+          { en: "Organizing images by brightness", es: "Organizar imagenes por brillo", de: "Bilder nach Helligkeit organisieren", nl: "Afbeeldingen organiseren op helderheid" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Saliency maps visualize which parts of input images were most important for neural network decisions by computing gradients of outputs with respect to input pixels, showing attention areas.",
+          es: "Los mapas de saliencia visualizan que partes de imagenes de entrada fueron mas importantes para decisiones de redes neuronales computando gradientes de salidas respecto a pixeles de entrada, mostrando areas de atencion.",
+          de: "Salienz-Maps visualisieren welche Teile von Eingabebildern am wichtigsten fuer Entscheidungen neuronaler Netzwerke waren durch Berechnung von Gradienten der Ausgaben bezueglich Eingabepixeln, wodurch Aufmerksamkeitsbereiche gezeigt werden.",
+          nl: "Saliency maps visualiseren welke delen van input afbeeldingen het belangrijkst waren voor neurale netwerk beslissingen door gradiënten van outputs ten opzichte van input pixels te berekenen, wat aandachtsgebieden toont."
+        }
+      },
+      {
+        question: {
+          en: "What are 'anchor explanations' in AI?",
+          es: "Que son 'explicaciones de anclaje' en IA?",
+          de: "Was sind 'Anker-Erklaerungen' in der KI?",
+          nl: "Wat zijn 'anchor verklaringen' in AI?"
+        },
+        options: [
+          { en: "Sufficient conditions that guarantee a specific prediction regardless of other features", es: "Condiciones suficientes que garantizan prediccion especifica sin importar otras caracteristicas", de: "Hinreichende Bedingungen die spezifische Vorhersage garantieren unabhaengig von anderen Merkmalen", nl: "Voldoende voorwaarden die specifieke voorspelling garanderen ongeacht andere features" },
+          { en: "Explanations that link AI to web pages", es: "Explicaciones que enlazan IA a paginas web", de: "Erklaerungen die KI mit Webseiten verknuepfen", nl: "Verklaringen die AI koppelen aan webpagina's" },
+          { en: "Primary features that stabilize model predictions", es: "Caracteristicas primarias que estabilizan predicciones del modelo", de: "Primaere Merkmale die Modellvorhersagen stabilisieren", nl: "Primaire features die modelvoorspellingen stabiliseren" },
+          { en: "Fixed reference points in training data", es: "Puntos de referencia fijos en datos de entrenamiento", de: "Feste Referenzpunkte in Trainingsdaten", nl: "Vaste referentiepunten in trainingsdata" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Anchor explanations identify minimal sets of features that, when present, guarantee the model's prediction with high probability, providing rule-like if-then explanations that are easy for humans to understand.",
+          es: "Las explicaciones de anclaje identifican conjuntos minimos de caracteristicas que, cuando estan presentes, garantizan la prediccion del modelo con alta probabilidad, proporcionando explicaciones tipo regla if-then faciles de entender para humanos.",
+          de: "Anker-Erklaerungen identifizieren minimale Merkmalsmengen die, wenn vorhanden, die Modellvorhersage mit hoher Wahrscheinlichkeit garantieren, wodurch regelaehnliche Wenn-Dann-Erklaerungen bereitgestellt werden die fuer Menschen leicht verstaendlich sind.",
+          nl: "Anchor verklaringen identificeren minimale sets van features die, wanneer aanwezig, de modelvoorspelling met hoge waarschijnlijkheid garanderen, wat regel-achtige if-then verklaringen biedt die gemakkelijk te begrijpen zijn voor mensen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'model cards' documentation approach?",
+          es: "Que es el enfoque de documentacion de 'tarjetas de modelo'?",
+          de: "Was ist der 'Model Cards' Dokumentationsansatz?",
+          nl: "Wat is de 'model cards' documentatie aanpak?"
+        },
+        options: [
+          { en: "Standardized documentation reporting model details, performance, limitations, and ethical considerations", es: "Documentacion estandarizada reportando detalles, rendimiento, limitaciones y consideraciones eticas", de: "Standardisierte Dokumentation die Modelldetails, Leistung, Einschraenkungen und ethische Ueberlegungen berichtet", nl: "Gestandaardiseerde documentatie die modeldetails, prestaties, beperkingen en ethische overwegingen rapporteert" },
+          { en: "Physical cards with model specifications", es: "Tarjetas fisicas con especificaciones del modelo", de: "Physische Karten mit Modellspezifikationen", nl: "Fysieke kaarten met modelspecificaties" },
+          { en: "Trading cards for AI enthusiasts", es: "Tarjetas coleccionables para entusiastas de IA", de: "Sammelkarten fuer KI-Enthusiasten", nl: "Verzamelkaarten voor AI enthousiastelingen" },
+          { en: "Business cards for AI developers", es: "Tarjetas de presentacion para desarrolladores de IA", de: "Visitenkarten fuer KI-Entwickler", nl: "Visitekaartjes voor AI ontwikkelaars" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Model cards provide structured, transparent documentation about AI models including their intended use, training data, performance across demographics, limitations, and ethical considerations, promoting responsible AI deployment.",
+          es: "Las tarjetas de modelo proporcionan documentacion estructurada y transparente sobre modelos de IA incluyendo su uso previsto, datos de entrenamiento, rendimiento entre demografias, limitaciones y consideraciones eticas, promoviendo despliegue responsable de IA.",
+          de: "Model Cards bieten strukturierte, transparente Dokumentation ueber KI-Modelle einschliesslich ihres beabsichtigten Einsatzes, Trainingsdaten, Leistung ueber Demografien, Einschraenkungen und ethischen Ueberlegungen, was verantwortungsvolle KI-Bereitstellung foerdert.",
+          nl: "Model cards bieden gestructureerde, transparante documentatie over AI modellen inclusief hun beoogd gebruik, trainingsdata, prestaties over demografieën, beperkingen en ethische overwegingen, wat verantwoorde AI inzet bevordert."
+        }
+      },
+      {
+        question: {
+          en: "What is 'datasheets for datasets' concept?",
+          es: "Que es el concepto de 'hojas de datos para conjuntos de datos'?",
+          de: "Was ist das 'Datenblaetter fuer Datensaetze' Konzept?",
+          nl: "Wat is het 'datasheets for datasets' concept?"
+        },
+        options: [
+          { en: "Standardized documentation describing dataset creation, composition, and intended use", es: "Documentacion estandarizada describiendo creacion, composicion y uso previsto de conjunto datos", de: "Standardisierte Dokumentation die Datensatzerstellung, Zusammensetzung und beabsichtigte Verwendung beschreibt", nl: "Gestandaardiseerde documentatie die dataset creatie, samenstelling en beoogd gebruik beschrijft" },
+          { en: "Spreadsheets containing dataset values", es: "Hojas de calculo conteniendo valores de conjunto de datos", de: "Tabellen mit Datensatzwerten", nl: "Spreadsheets met dataset waarden" },
+          { en: "Paper printouts of data samples", es: "Impresiones en papel de muestras de datos", de: "Papierausdrucke von Datenproben", nl: "Papieren afdrukken van datasamples" },
+          { en: "Database schemas and table definitions", es: "Esquemas de base de datos y definiciones de tablas", de: "Datenbankschemata und Tabellendefinitionen", nl: "Database schemas en tabel definities" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Datasheets for datasets provide comprehensive metadata about datasets including their motivation, composition, collection process, preprocessing, distribution, maintenance, and legal/ethical considerations, enabling informed dataset selection and use.",
+          es: "Las hojas de datos para conjuntos de datos proporcionan metadatos completos sobre conjuntos de datos incluyendo su motivacion, composicion, proceso de recoleccion, preprocesamiento, distribucion, mantenimiento y consideraciones legales/eticas, permitiendo seleccion y uso informado de conjuntos de datos.",
+          de: "Datenblaetter fuer Datensaetze bieten umfassende Metadaten ueber Datensaetze einschliesslich ihrer Motivation, Zusammensetzung, Sammelprozess, Vorverarbeitung, Verteilung, Wartung und rechtlichen/ethischen Ueberlegungen, was informierte Datensatzauswahl und -verwendung ermoeglicht.",
+          nl: "Datasheets for datasets bieden uitgebreide metadata over datasets inclusief hun motivatie, samenstelling, verzamelproces, preprocessing, distributie, onderhoud en juridische/ethische overwegingen, wat geïnformeerde dataset selectie en gebruik mogelijk maakt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'layer-wise relevance propagation' (LRP)?",
+          es: "Que es 'propagacion de relevancia por capas' (LRP)?",
+          de: "Was ist 'schichtweise Relevanzpropagierung' (LRP)?",
+          nl: "Wat is 'layer-wise relevance propagation' (LRP)?"
+        },
+        options: [
+          { en: "Technique that traces prediction contributions back through network layers to input features", es: "Tecnica que rastrea contribuciones de prediccion a traves de capas de red hacia caracteristicas entrada", de: "Technik die Vorhersagebeitraege durch Netzwerkschichten zurueck zu Eingabemerkmalen verfolgt", nl: "Techniek die voorspellingsbijdragen terug traceert door netwerklagen naar input features" },
+          { en: "Method for training neural networks layer by layer", es: "Metodo para entrenar redes neuronales capa por capa", de: "Methode zum schichtweisen Trainieren neuronaler Netzwerke", nl: "Methode voor laag-voor-laag trainen van neurale netwerken" },
+          { en: "Protocol for data transmission between layers", es: "Protocolo para transmision de datos entre capas", de: "Protokoll fuer Datenuebertragung zwischen Schichten", nl: "Protocol voor datatransmissie tussen lagen" },
+          { en: "Ranking of network layers by importance", es: "Clasificacion de capas de red por importancia", de: "Rangfolge von Netzwerkschichten nach Wichtigkeit", nl: "Rangschikking van netwerklagen op belangrijkheid" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Layer-wise relevance propagation decomposes neural network predictions by redistributing relevance scores backwards through the network layers, attributing the final prediction to individual input features in a mathematically principled way.",
+          es: "La propagacion de relevancia por capas descompone predicciones de redes neuronales redistribuyendo puntuaciones de relevancia hacia atras a traves de capas de red, atribuyendo la prediccion final a caracteristicas de entrada individuales de manera matematicamente fundamentada.",
+          de: "Schichtweise Relevanzpropagierung zerlegt Vorhersagen neuronaler Netzwerke durch Rueckwaertsverteilung von Relevanzwerten durch die Netzwerkschichten, wobei die endgueltige Vorhersage einzelnen Eingabemerkmalen auf mathematisch fundierte Weise zugeordnet wird.",
+          nl: "Layer-wise relevance propagation decomponeert neurale netwerk voorspellingen door relevantie scores achterwaarts te herdistribueren door netwerklagen, wat de finale voorspelling toeschrijft aan individuele input features op wiskundig gefundeerde wijze."
+        }
+      },
+      {
+        question: {
+          en: "What is 'integrated gradients' explanation method?",
+          es: "Que es el metodo de explicacion 'gradientes integrados'?",
+          de: "Was ist die 'integrierte Gradienten' Erklaerungsmethode?",
+          nl: "Wat is de 'integrated gradients' verklaringsmethode?"
+        },
+        options: [
+          { en: "Attribution method that integrates gradients along path from baseline to actual input", es: "Metodo de atribucion que integra gradientes a lo largo del camino desde linea base hasta entrada real", de: "Attributionsmethode die Gradienten entlang Pfad von Basislinie bis tatsaechlicher Eingabe integriert", nl: "Attributie methode die gradiënten integreert langs pad van baseline naar werkelijke input" },
+          { en: "Combining multiple gradient descent algorithms", es: "Combinar multiples algoritmos de descenso de gradiente", de: "Mehrere Gradientenabstiegsalgorithmen kombinieren", nl: "Meerdere gradient descent algoritmes combineren" },
+          { en: "Merging gradients from different models", es: "Fusionar gradientes de diferentes modelos", de: "Gradienten von verschiedenen Modellen verschmelzen", nl: "Gradiënten van verschillende modellen samenvoegen" },
+          { en: "Unified gradient calculation across layers", es: "Calculo de gradiente unificado entre capas", de: "Einheitliche Gradientenberechnung ueber Schichten", nl: "Geünificeerde gradiënt berekening over lagen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Integrated gradients computes feature attributions by accumulating gradients along a path from a baseline input (typically all zeros) to the actual input, satisfying desirable axioms like sensitivity and implementation invariance.",
+          es: "Los gradientes integrados computan atribuciones de caracteristicas acumulando gradientes a lo largo de un camino desde entrada de linea base (tipicamente todos ceros) hasta entrada real, satisfaciendo axiomas deseables como sensibilidad e invariancia de implementacion.",
+          de: "Integrierte Gradienten berechnen Merkmalszuordnungen durch Akkumulation von Gradienten entlang eines Pfades von einer Basiseingabe (typischerweise alle Nullen) zur tatsaechlichen Eingabe, wodurch wuenschenswerte Axiome wie Sensitivitaet und Implementierungsinvarianz erfuellt werden.",
+          nl: "Integrated gradients berekent feature attributies door gradiënten te accumuleren langs een pad van een baseline input (typisch alle nullen) naar de werkelijke input, wat gewenste axioma's zoals gevoeligheid en implementatie-invariantie bevredigt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'concept-based explanation' in AI?",
+          es: "Que es 'explicacion basada en conceptos' en IA?",
+          de: "Was ist 'konzeptbasierte Erklaerung' in der KI?",
+          nl: "Wat is 'concept-gebaseerde verklaring' in AI?"
+        },
+        options: [
+          { en: "Explaining predictions using high-level human-understandable concepts rather than raw features", es: "Explicar predicciones usando conceptos de alto nivel comprensibles para humanos en vez de caracteristicas crudas", de: "Vorhersagen mit hochrangigen menschenverstaendlichen Konzepten erklaeren anstatt rohen Merkmalen", nl: "Voorspellingen uitleggen met hoog-niveau menselijk begrijpelijke concepten in plaats van ruwe features" },
+          { en: "Defining core ideas behind AI algorithms", es: "Definir ideas centrales detras de algoritmos de IA", de: "Kernideen hinter KI-Algorithmen definieren", nl: "Kernideeën achter AI algoritmes definiëren" },
+          { en: "Categorizing explanations by topic", es: "Categorizar explicaciones por tema", de: "Erklaerungen nach Thema kategorisieren", nl: "Verklaringen categoriseren op onderwerp" },
+          { en: "Creating abstract models of AI behavior", es: "Crear modelos abstractos de comportamiento de IA", de: "Abstrakte Modelle von KI-Verhalten erstellen", nl: "Abstracte modellen van AI gedrag creëren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Concept-based explanations interpret model predictions in terms of higher-level concepts meaningful to humans (like 'striped', 'furry', 'dangerous') rather than individual pixels or low-level features, bridging the semantic gap between models and users.",
+          es: "Las explicaciones basadas en conceptos interpretan predicciones del modelo en terminos de conceptos de nivel superior significativos para humanos (como 'rayado', 'peludo', 'peligroso') en lugar de pixeles individuales o caracteristicas de bajo nivel, cerrando la brecha semantica entre modelos y usuarios.",
+          de: "Konzeptbasierte Erklaerungen interpretieren Modellvorhersagen in Begriffen von hoeheren Konzepten die fuer Menschen bedeutsam sind (wie 'gestreift', 'pelzig', 'gefaehrlich') anstatt einzelner Pixel oder niedrigrangiger Merkmale, wodurch die semantische Luecke zwischen Modellen und Nutzern ueberbrueckt wird.",
+          nl: "Concept-gebaseerde verklaringen interpreteren modelvoorspellingen in termen van hoger-niveau concepten die betekenisvol zijn voor mensen (zoals 'gestreept', 'harig', 'gevaarlijk') in plaats van individuele pixels of laag-niveau features, wat de semantische kloof tussen modellen en gebruikers overbrugt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'influence functions' in model debugging?",
+          es: "Que son 'funciones de influencia' en depuracion de modelos?",
+          de: "Was sind 'Einflussfunktionen' beim Modell-Debugging?",
+          nl: "Wat zijn 'influence functions' in model debugging?"
+        },
+        options: [
+          { en: "Methods identifying which training examples most influenced specific predictions", es: "Metodos que identifican que ejemplos de entrenamiento mas influyeron en predicciones especificas", de: "Methoden die identifizieren welche Trainingsbeispiele spezifische Vorhersagen am meisten beeinflussten", nl: "Methoden die identificeren welke trainingsvoorbeelden specifieke voorspellingen het meest beïnvloedden" },
+          { en: "Functions that control model behavior", es: "Funciones que controlan comportamiento del modelo", de: "Funktionen die Modellverhalten steuern", nl: "Functies die modelgedrag controleren" },
+          { en: "Mathematical formulas for model predictions", es: "Formulas matematicas para predicciones del modelo", de: "Mathematische Formeln fuer Modellvorhersagen", nl: "Wiskundige formules voor modelvoorspellingen" },
+          { en: "Impact measurements of hyperparameters", es: "Mediciones de impacto de hiperparametros", de: "Auswirkungsmessungen von Hyperparametern", nl: "Impact metingen van hyperparameters" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Influence functions trace model predictions back to individual training examples, revealing which training data points had the most impact on specific predictions and helping identify problematic training data or understand model behavior.",
+          es: "Las funciones de influencia rastrean predicciones del modelo hasta ejemplos de entrenamiento individuales, revelando que puntos de datos de entrenamiento tuvieron mayor impacto en predicciones especificas y ayudando a identificar datos de entrenamiento problematicos o entender comportamiento del modelo.",
+          de: "Einflussfunktionen verfolgen Modellvorhersagen zurueck zu einzelnen Trainingsbeispielen, enthullen welche Trainingsdatenpunkte den groessten Einfluss auf spezifische Vorhersagen hatten und helfen problematische Trainingsdaten zu identifizieren oder Modellverhalten zu verstehen.",
+          nl: "Influence functions traceren modelvoorspellingen terug naar individuele trainingsvoorbeelden, onthullen welke trainingsdatapunten de grootste impact hadden op specifieke voorspellingen en helpen problematische trainingsdata te identificeren of modelgedrag te begrijpen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'prototype-based explanation'?",
+          es: "Que es 'explicacion basada en prototipos'?",
+          de: "Was ist 'prototypbasierte Erklaerung'?",
+          nl: "Wat is 'prototype-gebaseerde verklaring'?"
+        },
+        options: [
+          { en: "Explaining predictions by showing similar representative examples from training data", es: "Explicar predicciones mostrando ejemplos representativos similares de datos de entrenamiento", de: "Vorhersagen erklaeren durch Zeigen aehnlicher repraesentativer Beispiele aus Trainingsdaten", nl: "Voorspellingen uitleggen door vergelijkbare representatieve voorbeelden uit trainingsdata te tonen" },
+          { en: "Using preliminary versions of AI models", es: "Usar versiones preliminares de modelos de IA", de: "Vorlaeufige Versionen von KI-Modellen verwenden", nl: "Voorlopige versies van AI modellen gebruiken" },
+          { en: "Explaining models during development phase", es: "Explicar modelos durante fase de desarrollo", de: "Modelle waehrend Entwicklungsphase erklaeren", nl: "Modellen uitleggen tijdens ontwikkelingsfase" },
+          { en: "Creating template explanations for all predictions", es: "Crear explicaciones de plantilla para todas las predicciones", de: "Vorlagenerklaerungen fuer alle Vorhersagen erstellen", nl: "Template verklaringen creëren voor alle voorspellingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Prototype-based explanations help users understand model predictions by presenting representative training examples (prototypes) that are similar to the input being classified, making abstract model decisions more concrete and relatable.",
+          es: "Las explicaciones basadas en prototipos ayudan a usuarios entender predicciones del modelo presentando ejemplos de entrenamiento representativos (prototipos) que son similares a la entrada siendo clasificada, haciendo decisiones abstractas del modelo mas concretas y relacionables.",
+          de: "Prototypbasierte Erklaerungen helfen Nutzern Modellvorhersagen zu verstehen indem repraesentative Trainingsbeispiele (Prototypen) praesentiert werden die der zu klassifizierenden Eingabe aehnlich sind, wodurch abstrakte Modellentscheidungen konkreter und nachvollziehbarer werden.",
+          nl: "Prototype-gebaseerde verklaringen helpen gebruikers modelvoorspellingen te begrijpen door representatieve trainingsvoorbeelden (prototypes) te presenteren die vergelijkbaar zijn met de input die geclassificeerd wordt, wat abstracte modelbeslissingen concreter en herkenbaarder maakt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'example-based explanation'?",
+          es: "Que es 'explicacion basada en ejemplos'?",
+          de: "Was ist 'beispielbasierte Erklaerung'?",
+          nl: "Wat is 'voorbeeld-gebaseerde verklaring'?"
+        },
+        options: [
+          { en: "Using similar past cases to justify current predictions", es: "Usar casos pasados similares para justificar predicciones actuales", de: "Aehnliche vergangene Faelle verwenden um aktuelle Vorhersagen zu begruenden", nl: "Vergelijkbare eerdere gevallen gebruiken om huidige voorspellingen te rechtvaardigen" },
+          { en: "Providing sample code for AI implementation", es: "Proporcionar codigo de muestra para implementacion de IA", de: "Beispielcode fuer KI-Implementierung bereitstellen", nl: "Voorbeeldcode geven voor AI implementatie" },
+          { en: "Demonstrating AI features with tutorials", es: "Demostrar caracteristicas de IA con tutoriales", de: "KI-Funktionen mit Tutorials demonstrieren", nl: "AI features demonstreren met tutorials" },
+          { en: "Teaching models through examples", es: "Ensenar modelos a traves de ejemplos", de: "Modelle durch Beispiele lehren", nl: "Modellen leren door voorbeelden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Example-based explanations leverage case-based reasoning, explaining predictions by retrieving and presenting similar instances from the training set, helping users understand model decisions through familiar analogies rather than abstract rules.",
+          es: "Las explicaciones basadas en ejemplos aprovechan razonamiento basado en casos, explicando predicciones recuperando y presentando instancias similares del conjunto de entrenamiento, ayudando a usuarios entender decisiones del modelo a traves de analogias familiares en lugar de reglas abstractas.",
+          de: "Beispielbasierte Erklaerungen nutzen fallbasiertes Schliessen, erklaeren Vorhersagen durch Abrufen und Praesentieren aehnlicher Instanzen aus dem Trainingssatz, helfen Nutzern Modellentscheidungen durch vertraute Analogien anstatt abstrakter Regeln zu verstehen.",
+          nl: "Voorbeeld-gebaseerde verklaringen benutten case-based reasoning, leggen voorspellingen uit door vergelijkbare instanties uit de trainingsset op te halen en te presenteren, helpen gebruikers modelbeslissingen te begrijpen via bekende analogieën in plaats van abstracte regels."
+        }
+      },
+      {
+        question: {
+          en: "What is 'GradCAM' in visual model explanation?",
+          es: "Que es 'GradCAM' en explicacion de modelos visuales?",
+          de: "Was ist 'GradCAM' in visueller Modellerklaerung?",
+          nl: "Wat is 'GradCAM' in visuele model verklaring?"
+        },
+        options: [
+          { en: "Gradient-weighted Class Activation Mapping showing important regions for CNN predictions", es: "Mapeo de Activacion de Clase Ponderado por Gradiente mostrando regiones importantes para predicciones CNN", de: "Gradientengewichtetes Klassenaktivierungs-Mapping das wichtige Regionen fuer CNN-Vorhersagen zeigt", nl: "Gradiënt-gewogen Klasse Activatie Mapping die belangrijke regio's toont voor CNN voorspellingen" },
+          { en: "Gradient camera for capturing training images", es: "Camara de gradiente para capturar imagenes de entrenamiento", de: "Gradienten-Kamera zum Aufnehmen von Trainingsbildern", nl: "Gradient camera voor het vastleggen van trainingsbeelden" },
+          { en: "Graduated color mapping for visualizations", es: "Mapeo de color graduado para visualizaciones", de: "Abgestuftes Farb-Mapping fuer Visualisierungen", nl: "Gegradeerd kleur mapping voor visualisaties" },
+          { en: "Graph-based computational model", es: "Modelo computacional basado en grafos", de: "Graphenbasiertes Rechenmodell", nl: "Graph-gebaseerd computationeel model" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gradient-weighted Class Activation Mapping (GradCAM) produces visual explanations for CNN decisions by highlighting which regions of input images were most important for predictions, using gradient information to weight activation maps.",
+          es: "El Mapeo de Activacion de Clase Ponderado por Gradiente (GradCAM) produce explicaciones visuales para decisiones de CNN resaltando que regiones de imagenes de entrada fueron mas importantes para predicciones, usando informacion de gradiente para ponderar mapas de activacion.",
+          de: "Gradientengewichtetes Klassenaktivierungs-Mapping (GradCAM) produziert visuelle Erklaerungen fuer CNN-Entscheidungen durch Hervorhebung welche Regionen von Eingabebildern am wichtigsten fuer Vorhersagen waren, wobei Gradienteninformationen verwendet werden um Aktivierungskarten zu gewichten.",
+          nl: "Gradiënt-gewogen Klasse Activatie Mapping (GradCAM) produceert visuele verklaringen voor CNN beslissingen door te benadrukken welke regio's van input afbeeldingen het belangrijkst waren voor voorspellingen, door gradient informatie te gebruiken om activatie maps te wegen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'decision tree approximation' for explaining complex models?",
+          es: "Que es 'aproximacion de arbol de decision' para explicar modelos complejos?",
+          de: "Was ist 'Entscheidungsbaum-Approximation' zur Erklaerung komplexer Modelle?",
+          nl: "Wat is 'beslissingsboom benadering' voor uitleg van complexe modellen?"
+        },
+        options: [
+          { en: "Using simpler decision trees to approximate and explain complex black-box model behavior", es: "Usar arboles de decision mas simples para aproximar y explicar comportamiento de modelos de caja negra complejos", de: "Einfachere Entscheidungsbaeume verwenden um komplexes Black-Box-Modellverhalten zu approximieren und zu erklaeren", nl: "Eenvoudigere beslissingsbomen gebruiken om complex black-box model gedrag te benaderen en uit te leggen" },
+          { en: "Estimating optimal tree depth for training", es: "Estimar profundidad optima de arbol para entrenamiento", de: "Optimale Baumtiefe fuer Training schaetzen", nl: "Optimale boomdiepte schatten voor training" },
+          { en: "Converting neural networks to decision trees", es: "Convertir redes neuronales a arboles de decision", de: "Neuronale Netzwerke in Entscheidungsbaeume konvertieren", nl: "Neurale netwerken converteren naar beslissingsbomen" },
+          { en: "Pruning decision trees for efficiency", es: "Podar arboles de decision para eficiencia", de: "Entscheidungsbaeume zur Effizienz beschneiden", nl: "Beslissingsbomen snoeien voor efficiëntie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Decision tree approximation creates interpretable decision tree surrogates that mimic complex model behavior, providing rule-based explanations that are easier for humans to understand while approximating the original model's decisions.",
+          es: "La aproximacion de arbol de decision crea sustitutos de arboles de decision interpretables que imitan comportamiento de modelo complejo, proporcionando explicaciones basadas en reglas mas faciles de entender para humanos mientras aproximan decisiones del modelo original.",
+          de: "Entscheidungsbaum-Approximation erstellt interpretierbare Entscheidungsbaum-Surrogate die komplexes Modellverhalten nachahmen, bieten regelbasierte Erklaerungen die fuer Menschen leichter verstaendlich sind waehrend die Entscheidungen des urspruenglichen Modells approximiert werden.",
+          nl: "Beslissingsboom benadering creëert interpreteerbare beslissingsboom surrogaten die complex modelgedrag imiteren, bieden regel-gebaseerde verklaringen die gemakkelijker te begrijpen zijn voor mensen terwijl ze de beslissingen van het originele model benaderen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'rule extraction' from neural networks?",
+          es: "Que es 'extraccion de reglas' de redes neuronales?",
+          de: "Was ist 'Regelextraktion' aus neuronalen Netzwerken?",
+          nl: "Wat is 'regel extractie' uit neurale netwerken?"
+        },
+        options: [
+          { en: "Converting neural network knowledge into explicit if-then rules for interpretability", es: "Convertir conocimiento de red neuronal en reglas if-then explicitas para interpretabilidad", de: "Neuronales Netzwerk-Wissen in explizite Wenn-Dann-Regeln fuer Interpretierbarkeit konvertieren", nl: "Neuraal netwerk kennis converteren naar expliciete if-then regels voor interpreteerbaarheid" },
+          { en: "Extracting data validation rules from inputs", es: "Extraer reglas de validacion de datos de entradas", de: "Datenvalidierungsregeln aus Eingaben extrahieren", nl: "Data validatie regels uit inputs halen" },
+          { en: "Finding mathematical formulas in network weights", es: "Encontrar formulas matematicas en pesos de red", de: "Mathematische Formeln in Netzwerkgewichten finden", nl: "Wiskundige formules vinden in netwerk gewichten" },
+          { en: "Mining training rules from hyperparameters", es: "Minar reglas de entrenamiento de hiperparametros", de: "Trainingsregeln aus Hyperparametern extrahieren", nl: "Trainingsregels uit hyperparameters delven" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Rule extraction techniques transform learned neural network representations into symbolic, human-readable rules (like 'IF feature X > threshold AND feature Y < value THEN class A'), making implicit network knowledge explicit and understandable.",
+          es: "Las tecnicas de extraccion de reglas transforman representaciones de redes neuronales aprendidas en reglas simbolicas legibles para humanos (como 'SI caracteristica X > umbral Y caracteristica Y < valor ENTONCES clase A'), haciendo conocimiento implicito de red explicito y comprensible.",
+          de: "Regelextraktionstechniken transformieren gelernte neuronale Netzwerkrepresentationen in symbolische, menschenlesbare Regeln (wie 'WENN Merkmal X > Schwelle UND Merkmal Y < Wert DANN Klasse A'), machen implizites Netzwerkwissen explizit und verstaendlich.",
+          nl: "Regel extractie technieken transformeren geleerde neurale netwerk representaties naar symbolische, menselijk leesbare regels (zoals 'ALS feature X > drempel EN feature Y < waarde DAN klasse A'), maken impliciete netwerk kennis expliciet en begrijpelijk."
+        }
+      },
+      {
+        question: {
+          en: "What is 'sensitivity analysis' in model interpretability?",
+          es: "Que es 'analisis de sensibilidad' en interpretabilidad de modelos?",
+          de: "Was ist 'Sensitivitaetsanalyse' in Modellinterpretierbarkeit?",
+          nl: "Wat is 'gevoeligheidsanalyse' in model interpreteerbaarheid?"
+        },
+        options: [
+          { en: "Examining how model outputs change when inputs are perturbed", es: "Examinar como salidas del modelo cambian cuando entradas son perturbadas", de: "Untersuchen wie Modellausgaben sich aendern wenn Eingaben gestoert werden", nl: "Onderzoeken hoe model outputs veranderen wanneer inputs verstoord worden" },
+          { en: "Measuring emotional responses of AI systems", es: "Medir respuestas emocionales de sistemas de IA", de: "Emotionale Reaktionen von KI-Systemen messen", nl: "Emotionele reacties van AI systemen meten" },
+          { en: "Testing model robustness to noise", es: "Probar robustez del modelo al ruido", de: "Modellrobustheit gegenueber Rauschen testen", nl: "Model robuustheid tegen ruis testen" },
+          { en: "Analyzing training data quality", es: "Analizar calidad de datos de entrenamiento", de: "Trainingsdatenqualitaet analysieren", nl: "Trainingsdata kwaliteit analyseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sensitivity analysis systematically varies input features to observe corresponding changes in model predictions, revealing which inputs most strongly influence outputs and helping understand model decision boundaries and feature importance.",
+          es: "El analisis de sensibilidad varia sistematicamente caracteristicas de entrada para observar cambios correspondientes en predicciones del modelo, revelando que entradas influyen mas fuertemente en salidas y ayudando a entender limites de decision del modelo e importancia de caracteristicas.",
+          de: "Sensitivitaetsanalyse variiert systematisch Eingabemerkmale um entsprechende Aenderungen in Modellvorhersagen zu beobachten, enthullt welche Eingaben Ausgaben am staerksten beeinflussen und hilft Modellentscheidungsgrenzen und Merkmalswichtigkeit zu verstehen.",
+          nl: "Gevoeligheidsanalyse varieert systematisch input features om overeenkomstige veranderingen in modelvoorspellingen te observeren, onthult welke inputs outputs het sterkst beïnvloeden en helpt model beslissingsgrenzen en feature belangrijkheid te begrijpen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'contrastive explanation' in AI?",
+          es: "Que es 'explicacion contrastiva' en IA?",
+          de: "Was ist 'kontrastive Erklaerung' in der KI?",
+          nl: "Wat is 'contrastieve verklaring' in AI?"
+        },
+        options: [
+          { en: "Explaining why model chose one class over another by highlighting differences", es: "Explicar por que modelo eligio una clase sobre otra resaltando diferencias", de: "Erklaeren warum Modell eine Klasse gegenueber einer anderen waehlte durch Hervorhebung von Unterschieden", nl: "Uitleggen waarom model één klasse boven een andere koos door verschillen te benadrukken" },
+          { en: "Comparing multiple AI models side by side", es: "Comparar multiples modelos de IA lado a lado", de: "Mehrere KI-Modelle nebeneinander vergleichen", nl: "Meerdere AI modellen naast elkaar vergelijken" },
+          { en: "Using high-contrast visualizations", es: "Usar visualizaciones de alto contraste", de: "Hochkontrast-Visualisierungen verwenden", nl: "Hoog-contrast visualisaties gebruiken" },
+          { en: "Highlighting errors versus correct predictions", es: "Destacar errores versus predicciones correctas", de: "Fehler versus korrekte Vorhersagen hervorheben", nl: "Fouten versus correcte voorspellingen benadrukken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Contrastive explanations answer 'why P rather than Q?' questions, explaining model decisions by contrasting the chosen prediction with relevant alternatives, focusing on discriminative features that distinguished between options.",
+          es: "Las explicaciones contrastivas responden preguntas 'por que P en lugar de Q?', explicando decisiones del modelo contrastando la prediccion elegida con alternativas relevantes, enfocandose en caracteristicas discriminativas que distinguieron entre opciones.",
+          de: "Kontrastive Erklaerungen beantworten 'warum P anstatt Q?' Fragen, erklaeren Modellentscheidungen durch Kontrastierung der gewaehlten Vorhersage mit relevanten Alternativen, fokussieren auf diskriminative Merkmale die zwischen Optionen unterschieden.",
+          nl: "Contrastieve verklaringen beantwoorden 'waarom P in plaats van Q?' vragen, leggen modelbeslissingen uit door de gekozen voorspelling te contrasteren met relevante alternatieven, focussen op discriminatieve features die onderscheid maakten tussen opties."
+        }
+      },
+      {
+        question: {
+          en: "What is 'semantic explanation' versus 'statistical explanation'?",
+          es: "Que es 'explicacion semantica' versus 'explicacion estadistica'?",
+          de: "Was ist 'semantische Erklaerung' versus 'statistische Erklaerung'?",
+          nl: "Wat is 'semantische verklaring' versus 'statistische verklaring'?"
+        },
+        options: [
+          { en: "Semantic uses meaningful concepts; statistical uses numerical feature correlations", es: "Semantica usa conceptos significativos; estadistica usa correlaciones de caracteristicas numericas", de: "Semantisch verwendet bedeutungsvolle Konzepte; statistisch verwendet numerische Merkmalskorrelationen", nl: "Semantisch gebruikt betekenisvolle concepten; statistisch gebruikt numerieke feature correlaties" },
+          { en: "Semantic is for NLP; statistical is for other domains", es: "Semantica es para NLP; estadistica es para otros dominios", de: "Semantisch ist fuer NLP; statistisch ist fuer andere Domaenen", nl: "Semantisch is voor NLP; statistisch is voor andere domeinen" },
+          { en: "Semantic is qualitative; statistical is always quantitative", es: "Semantica es cualitativa; estadistica es siempre cuantitativa", de: "Semantisch ist qualitativ; statistisch ist immer quantitativ", nl: "Semantisch is kwalitatief; statistisch is altijd kwantitatief" },
+          { en: "Semantic uses words; statistical uses numbers", es: "Semantica usa palabras; estadistica usa numeros", de: "Semantisch verwendet Woerter; statistisch verwendet Zahlen", nl: "Semantisch gebruikt woorden; statistisch gebruikt getallen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Semantic explanations provide interpretations in terms of high-level, domain-meaningful concepts that humans naturally understand, while statistical explanations rely on correlations between raw features or numerical patterns, which may be less intuitive.",
+          es: "Las explicaciones semanticas proporcionan interpretaciones en terminos de conceptos de alto nivel significativos para el dominio que humanos entienden naturalmente, mientras que explicaciones estadisticas dependen de correlaciones entre caracteristicas crudas o patrones numericos que pueden ser menos intuitivos.",
+          de: "Semantische Erklaerungen bieten Interpretationen in Begriffen hochrangiger, domaenen-bedeutsamer Konzepte die Menschen natuerlich verstehen, waehrend statistische Erklaerungen auf Korrelationen zwischen rohen Merkmalen oder numerischen Mustern beruhen die weniger intuitiv sein koennen.",
+          nl: "Semantische verklaringen bieden interpretaties in termen van hoog-niveau, domein-betekenisvolle concepten die mensen natuurlijk begrijpen, terwijl statistische verklaringen vertrouwen op correlaties tussen ruwe features of numerieke patronen die minder intuïtief kunnen zijn."
+        }
+      },
+      {
+        question: {
+          en: "What is 'faithfulness' of explanations in XAI?",
+          es: "Que es 'fidelidad' de explicaciones en XAI?",
+          de: "Was ist 'Treue' von Erklaerungen in XAI?",
+          nl: "Wat is 'trouwheid' van verklaringen in XAI?"
+        },
+        options: [
+          { en: "How accurately explanations reflect actual model decision-making processes", es: "Que tan precisamente explicaciones reflejan procesos reales de toma de decisiones del modelo", de: "Wie genau Erklaerungen tatsaechliche Modellentscheidungsprozesse widerspiegeln", nl: "Hoe nauwkeurig verklaringen werkelijke model besluitvormingsprocessen weerspiegelen" },
+          { en: "User trust in AI explanations", es: "Confianza de usuario en explicaciones de IA", de: "Nutzervertrauen in KI-Erklaerungen", nl: "Gebruikersvertrouwen in AI verklaringen" },
+          { en: "Consistency of explanations over time", es: "Consistencia de explicaciones a lo largo del tiempo", de: "Konsistenz von Erklaerungen ueber Zeit", nl: "Consistentie van verklaringen over tijd" },
+          { en: "Reliability of explanation methods", es: "Confiabilidad de metodos de explicacion", de: "Zuverlaessigkeit von Erklaerungsmethoden", nl: "Betrouwbaarheid van verklaringsmethoden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Faithfulness measures whether explanations truly represent how the model makes decisions rather than providing plausible-sounding but inaccurate justifications, ensuring explanations are trustworthy and not misleading.",
+          es: "La fidelidad mide si explicaciones realmente representan como el modelo toma decisiones en lugar de proporcionar justificaciones que suenan plausibles pero inexactas, asegurando que explicaciones sean confiables y no enganosas.",
+          de: "Treue misst ob Erklaerungen wirklich darstellen wie das Modell Entscheidungen trifft anstatt plausibel klingende aber ungenaue Begruendungen zu liefern, stellt sicher dass Erklaerungen vertrauenswuerdig und nicht irrefuehrend sind.",
+          nl: "Trouwheid meet of verklaringen werkelijk weergeven hoe het model beslissingen neemt in plaats van aannemelijk klinkende maar onnauwkeurige rechtvaardigingen te geven, zorgt ervoor dat verklaringen betrouwbaar en niet misleidend zijn."
+        }
+      },
+      {
+        question: {
+          en: "What is 'simulatability' in interpretable AI?",
+          es: "Que es 'simulabilidad' en IA interpretable?",
+          de: "Was ist 'Simulierbarkeit' in interpretierbarer KI?",
+          nl: "Wat is 'simuleerbaarheid' in interpreteerbare AI?"
+        },
+        options: [
+          { en: "Whether humans can mentally simulate model's decision process for given inputs", es: "Si humanos pueden simular mentalmente proceso de decision del modelo para entradas dadas", de: "Ob Menschen den Entscheidungsprozess des Modells fuer gegebene Eingaben mental simulieren koennen", nl: "Of mensen mentaal het beslissingsproces van het model kunnen simuleren voor gegeven inputs" },
+          { en: "Ability to run model in simulation environments", es: "Capacidad de ejecutar modelo en entornos de simulacion", de: "Faehigkeit Modell in Simulationsumgebungen auszufuehren", nl: "Vermogen om model in simulatieomgevingen te draaien" },
+          { en: "Creating virtual copies of AI systems", es: "Crear copias virtuales de sistemas de IA", de: "Virtuelle Kopien von KI-Systemen erstellen", nl: "Virtuele kopieën van AI systemen creëren" },
+          { en: "Testing models with synthetic data", es: "Probar modelos con datos sinteticos", de: "Modelle mit synthetischen Daten testen", nl: "Modellen testen met synthetische data" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Simulatability means a human can step through the model's entire computation in their head, understanding each step. Simple models like short decision trees are simulatable; deep neural networks typically are not.",
+          es: "Simulabilidad significa que un humano puede recorrer toda la computacion del modelo en su cabeza, entendiendo cada paso. Modelos simples como arboles de decision cortos son simulables; redes neuronales profundas tipicamente no lo son.",
+          de: "Simulierbarkeit bedeutet dass ein Mensch die gesamte Berechnung des Modells im Kopf durchgehen kann wobei jeder Schritt verstanden wird. Einfache Modelle wie kurze Entscheidungsbaeume sind simulierbar; tiefe neuronale Netzwerke typischerweise nicht.",
+          nl: "Simuleerbaarheid betekent dat een mens de hele berekening van het model in hun hoofd kan doorlopen, elke stap begrijpend. Eenvoudige modellen zoals korte beslissingsbomen zijn simuleerbaar; diepe neurale netwerken typisch niet."
+        }
+      },
+      {
+        question: {
+          en: "What is 'decomposability' in model interpretability?",
+          es: "Que es 'descomponibilidad' en interpretabilidad de modelos?",
+          de: "Was ist 'Zerlegbarkeit' in Modellinterpretierbarkeit?",
+          nl: "Wat is 'ontleedbaarheid' in model interpreteerbaarheid?"
+        },
+        options: [
+          { en: "Whether each part of model (input, parameters, calculations) is interpretable individually", es: "Si cada parte del modelo (entrada, parametros, calculos) es interpretable individualmente", de: "Ob jeder Teil des Modells (Eingabe, Parameter, Berechnungen) einzeln interpretierbar ist", nl: "Of elk deel van model (input, parameters, berekeningen) individueel interpreteerbaar is" },
+          { en: "Breaking models into smaller sub-models", es: "Dividir modelos en submodelos mas pequenos", de: "Modelle in kleinere Teilmodelle aufteilen", nl: "Modellen opdelen in kleinere sub-modellen" },
+          { en: "Separating training and inference phases", es: "Separar fases de entrenamiento e inferencia", de: "Trainings- und Inferenzphasen trennen", nl: "Trainings- en inferentie fasen scheiden" },
+          { en: "Modular architecture design", es: "Diseno de arquitectura modular", de: "Modulares Architekturdesign", nl: "Modulair architectuur ontwerp" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Decomposability requires that every component of the model - inputs, parameters, and intermediate calculations - admits an intuitive explanation, allowing complete understanding by examining individual parts.",
+          es: "La descomponibilidad requiere que cada componente del modelo - entradas, parametros y calculos intermedios - admita una explicacion intuitiva, permitiendo comprension completa examinando partes individuales.",
+          de: "Zerlegbarkeit erfordert dass jede Komponente des Modells - Eingaben, Parameter und Zwischenberechnungen - eine intuitive Erklaerung zulaesst, was vollstaendiges Verstaendnis durch Untersuchung einzelner Teile ermoeglicht.",
+          nl: "Ontleedbaarheid vereist dat elke component van het model - inputs, parameters en tussenberekeningen - een intuïtieve verklaring toestaat, wat volledig begrip mogelijk maakt door individuele delen te onderzoeken."
+        }
+      },
+      {
+        question: {
+          en: "What is 'algorithmic transparency requirement' in AI regulation?",
+          es: "Que es 'requisito de transparencia algoritmica' en regulacion de IA?",
+          de: "Was ist 'algorithmische Transparenzanforderung' in KI-Regulierung?",
+          nl: "Wat is 'algoritmische transparantie vereiste' in AI regelgeving?"
+        },
+        options: [
+          { en: "Legal obligations to disclose AI system functionality and decision logic to stakeholders", es: "Obligaciones legales de divulgar funcionalidad de sistema IA y logica de decision a partes interesadas", de: "Gesetzliche Verpflichtungen KI-Systemfunktionalitaet und Entscheidungslogik Stakeholdern offenzulegen", nl: "Wettelijke verplichtingen om AI systeem functionaliteit en beslissingslogica aan belanghebbenden bekend te maken" },
+          { en: "Making all AI code open source", es: "Hacer todo codigo de IA de codigo abierto", de: "Allen KI-Code Open Source machen", nl: "Alle AI code open source maken" },
+          { en: "Publishing model architectures publicly", es: "Publicar arquitecturas de modelo publicamente", de: "Modellarchitekturen oeffentlich veroeffentlichen", nl: "Model architecturen publiek publiceren" },
+          { en: "Providing API documentation", es: "Proporcionar documentacion de API", de: "API-Dokumentation bereitstellen", nl: "API documentatie verstrekken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Algorithmic transparency requirements in regulations like GDPR and proposed AI Acts mandate that organizations deploying AI systems provide meaningful information about how algorithms work, enabling oversight and accountability.",
+          es: "Los requisitos de transparencia algoritmica en regulaciones como GDPR y Actas de IA propuestas ordenan que organizaciones desplegando sistemas de IA proporcionen informacion significativa sobre como funcionan algoritmos, permitiendo supervision y responsabilidad.",
+          de: "Algorithmische Transparenzanforderungen in Vorschriften wie GDPR und vorgeschlagenen KI-Gesetzen verpflichten Organisationen die KI-Systeme einsetzen aussagekraeftige Informationen darueber zu liefern wie Algorithmen funktionieren, was Aufsicht und Verantwortlichkeit ermoeglicht.",
+          nl: "Algoritmische transparantie vereisten in regelgeving zoals GDPR en voorgestelde AI Acts verplichten organisaties die AI systemen inzetten om betekenisvolle informatie te verstrekken over hoe algoritmes werken, wat toezicht en verantwoordelijkheid mogelijk maakt."
+        }
       }
     ]
   };

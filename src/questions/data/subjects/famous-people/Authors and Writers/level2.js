@@ -427,6 +427,405 @@
           de: "Arthur Miller schrieb 'Tod eines Handlungsreisenden' im Jahr 1949. Dieses kraftvolle Drama über den amerikanischen Traum gewann den Pulitzer-Preis und gilt als eines der größten amerikanischen Theaterstücke.",
           nl: "Arthur Miller schreef 'De dood van een handelsreiziger' in 1949. Dit krachtige drama over de American Dream won de Pulitzer Prize en wordt beschouwd als een van de beste Amerikaanse toneelstukken."
         }
+      },
+      {
+        question: {
+          en: "Which author wrote 'A Tale of Two Cities'?",
+          es: "¿Qué autor escribió 'Historia de dos ciudades'?",
+          de: "Welcher Autor schrieb 'Eine Geschichte aus zwei Städten'?",
+          nl: "Welke auteur schreef 'Een verhaal van twee steden'?"
+        },
+        options: [
+          {en: "Charles Dickens", es: "Charles Dickens", de: "Charles Dickens", nl: "Charles Dickens"},
+          {en: "William Thackeray", es: "William Thackeray", de: "William Thackeray", nl: "William Thackeray"},
+          {en: "Thomas Hardy", es: "Thomas Hardy", de: "Thomas Hardy", nl: "Thomas Hardy"},
+          {en: "George Eliot", es: "George Eliot", de: "George Eliot", nl: "George Eliot"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Charles Dickens wrote 'A Tale of Two Cities' in 1859. Set during the French Revolution, it opens with the famous line 'It was the best of times, it was the worst of times.'",
+          es: "Charles Dickens escribió 'Historia de dos ciudades' en 1859. Ambientada durante la Revolución Francesa, comienza con la famosa línea 'Era el mejor de los tiempos, era el peor de los tiempos.'",
+          de: "Charles Dickens schrieb 'Eine Geschichte aus zwei Städten' im Jahr 1859. Der Roman spielt während der Französischen Revolution und beginnt mit der berühmten Zeile 'Es war die beste aller Zeiten, es war die schlechteste aller Zeiten.'",
+          nl: "Charles Dickens schreef 'Een verhaal van twee steden' in 1859. Het speelt zich af tijdens de Franse Revolutie en begint met de beroemde regel 'Het was de beste der tijden, het was de slechtste der tijden.'"
+        }
+      },
+      {
+        question: {
+          en: "Who is the author of 'The Catcher in the Rye'?",
+          es: "¿Quién es el autor de 'El guardián entre el centeno'?",
+          de: "Wer ist der Autor von 'Der Fänger im Roggen'?",
+          nl: "Wie is de auteur van 'De vanger in het graan'?"
+        },
+        options: [
+          {en: "J.D. Salinger", es: "J.D. Salinger", de: "J.D. Salinger", nl: "J.D. Salinger"},
+          {en: "John Updike", es: "John Updike", de: "John Updike", nl: "John Updike"},
+          {en: "Truman Capote", es: "Truman Capote", de: "Truman Capote", nl: "Truman Capote"},
+          {en: "Philip Roth", es: "Philip Roth", de: "Philip Roth", nl: "Philip Roth"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "J.D. Salinger wrote 'The Catcher in the Rye' in 1951. The novel about teenage rebellion and alienation became a classic of American literature, though Salinger became famously reclusive afterward.",
+          es: "J.D. Salinger escribió 'El guardián entre el centeno' en 1951. La novela sobre la rebelión adolescente y la alienación se convirtió en un clásico de la literatura estadounidense, aunque Salinger se volvió famosamente reclusivo después.",
+          de: "J.D. Salinger schrieb 'Der Fänger im Roggen' im Jahr 1951. Der Roman über jugendliche Rebellion und Entfremdung wurde ein Klassiker der amerikanischen Literatur, obwohl Salinger danach berühmt zurückgezogen lebte.",
+          nl: "J.D. Salinger schreef 'De vanger in het graan' in 1951. De roman over tienerverzet en vervreemding werd een klassieker van de Amerikaanse literatuur, hoewel Salinger daarna beroemd teruggetrokken werd."
+        }
+      },
+      {
+        question: {
+          en: "Which author wrote 'Crime and Punishment'?",
+          es: "¿Qué autor escribió 'Crimen y castigo'?",
+          de: "Welcher Autor schrieb 'Schuld und Sühne'?",
+          nl: "Welke auteur schreef 'Misdaad en straf'?"
+        },
+        options: [
+          {en: "Leo Tolstoy", es: "León Tolstói", de: "Leo Tolstoi", nl: "Leo Tolstoj"},
+          {en: "Fyodor Dostoevsky", es: "Fiódor Dostoyevski", de: "Fjodor Dostojewski", nl: "Fjodor Dostojevski"},
+          {en: "Anton Chekhov", es: "Antón Chéjov", de: "Anton Tschechow", nl: "Anton Tsjechov"},
+          {en: "Nikolai Gogol", es: "Nikolái Gógol", de: "Nikolai Gogol", nl: "Nikolaj Gogol"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Fyodor Dostoevsky wrote 'Crime and Punishment' in 1866. The psychological novel follows Raskolnikov, a student who commits murder and struggles with his conscience.",
+          es: "Fiódor Dostoyevski escribió 'Crimen y castigo' en 1866. La novela psicológica sigue a Raskolnikov, un estudiante que comete asesinato y lucha con su conciencia.",
+          de: "Fjodor Dostojewski schrieb 'Schuld und Sühne' im Jahr 1866. Der psychologische Roman folgt Raskolnikov, einem Studenten, der Mord begeht und mit seinem Gewissen kämpft.",
+          nl: "Fjodor Dostojevski schreef 'Misdaad en straf' in 1866. De psychologische roman volgt Raskolnikov, een student die moord pleegt en worstelt met zijn geweten."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'The Adventures of Huckleberry Finn'?",
+          es: "¿Quién escribió 'Las aventuras de Huckleberry Finn'?",
+          de: "Wer schrieb 'Die Abenteuer des Huckleberry Finn'?",
+          nl: "Wie schreef 'De avonturen van Huckleberry Finn'?"
+        },
+        options: [
+          {en: "Mark Twain", es: "Mark Twain", de: "Mark Twain", nl: "Mark Twain"},
+          {en: "Herman Melville", es: "Herman Melville", de: "Herman Melville", nl: "Herman Melville"},
+          {en: "Edgar Allan Poe", es: "Edgar Allan Poe", de: "Edgar Allan Poe", nl: "Edgar Allan Poe"},
+          {en: "Nathaniel Hawthorne", es: "Nathaniel Hawthorne", de: "Nathaniel Hawthorne", nl: "Nathaniel Hawthorne"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mark Twain wrote 'The Adventures of Huckleberry Finn' in 1884. Often called 'The Great American Novel', it follows Huck and Jim's journey down the Mississippi River.",
+          es: "Mark Twain escribió 'Las aventuras de Huckleberry Finn' en 1884. A menudo llamada 'La Gran Novela Americana', sigue el viaje de Huck y Jim por el río Mississippi.",
+          de: "Mark Twain schrieb 'Die Abenteuer des Huckleberry Finn' im Jahr 1884. Oft als 'Der große amerikanische Roman' bezeichnet, folgt es Hucks und Jims Reise den Mississippi hinunter.",
+          nl: "Mark Twain schreef 'De avonturen van Huckleberry Finn' in 1884. Vaak 'De Grote Amerikaanse Roman' genoemd, volgt het Hucks en Jims reis over de Mississippi rivier."
+        }
+      },
+      {
+        question: {
+          en: "Which author wrote 'Pride and Prejudice'?",
+          es: "¿Qué autora escribió 'Orgullo y prejuicio'?",
+          de: "Welche Autorin schrieb 'Stolz und Vorurteil'?",
+          nl: "Welke auteur schreef 'Trots en vooroordeel'?"
+        },
+        options: [
+          {en: "Jane Austen", es: "Jane Austen", de: "Jane Austen", nl: "Jane Austen"},
+          {en: "Charlotte Brontë", es: "Charlotte Brontë", de: "Charlotte Brontë", nl: "Charlotte Brontë"},
+          {en: "Emily Brontë", es: "Emily Brontë", de: "Emily Brontë", nl: "Emily Brontë"},
+          {en: "George Eliot", es: "George Eliot", de: "George Eliot", nl: "George Eliot"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jane Austen wrote 'Pride and Prejudice' in 1813. The novel about Elizabeth Bennet and Mr. Darcy is one of the most beloved works in English literature.",
+          es: "Jane Austen escribió 'Orgullo y prejuicio' en 1813. La novela sobre Elizabeth Bennet y el Sr. Darcy es una de las obras más queridas de la literatura inglesa.",
+          de: "Jane Austen schrieb 'Stolz und Vorurteil' im Jahr 1813. Der Roman über Elizabeth Bennet und Mr. Darcy ist eines der beliebtesten Werke der englischen Literatur.",
+          nl: "Jane Austen schreef 'Trots en vooroordeel' in 1813. De roman over Elizabeth Bennet en Mr. Darcy is een van de meest geliefde werken in de Engelse literatuur."
+        }
+      },
+      {
+        question: {
+          en: "Who is the author of 'Animal Farm'?",
+          es: "¿Quién es el autor de 'Rebelión en la granja'?",
+          de: "Wer ist der Autor von 'Farm der Tiere'?",
+          nl: "Wie is de auteur van 'Dierenboerderij'?"
+        },
+        options: [
+          {en: "George Orwell", es: "George Orwell", de: "George Orwell", nl: "George Orwell"},
+          {en: "Aldous Huxley", es: "Aldous Huxley", de: "Aldous Huxley", nl: "Aldous Huxley"},
+          {en: "Ray Bradbury", es: "Ray Bradbury", de: "Ray Bradbury", nl: "Ray Bradbury"},
+          {en: "Anthony Burgess", es: "Anthony Burgess", de: "Anthony Burgess", nl: "Anthony Burgess"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "George Orwell wrote 'Animal Farm' in 1945. This allegorical novella about a farm revolution satirizes the Russian Revolution and Stalinist Soviet Union.",
+          es: "George Orwell escribió 'Rebelión en la granja' en 1945. Esta novela alegórica sobre una revolución en una granja satiriza la Revolución Rusa y la Unión Soviética estalinista.",
+          de: "George Orwell schrieb 'Farm der Tiere' im Jahr 1945. Diese allegorische Novelle über eine Farm-Revolution satirisiert die Russische Revolution und die stalinistische Sowjetunion.",
+          nl: "George Orwell schreef 'Dierenboerderij' in 1945. Deze allegorische novelle over een boerderij-revolutie satiriseert de Russische Revolutie en de stalinistische Sovjet-Unie."
+        }
+      },
+      {
+        question: {
+          en: "Which author wrote 'The Picture of Dorian Gray'?",
+          es: "¿Qué autor escribió 'El retrato de Dorian Gray'?",
+          de: "Welcher Autor schrieb 'Das Bildnis des Dorian Gray'?",
+          nl: "Welke auteur schreef 'Het portret van Dorian Gray'?"
+        },
+        options: [
+          {en: "Oscar Wilde", es: "Oscar Wilde", de: "Oscar Wilde", nl: "Oscar Wilde"},
+          {en: "Robert Louis Stevenson", es: "Robert Louis Stevenson", de: "Robert Louis Stevenson", nl: "Robert Louis Stevenson"},
+          {en: "Bram Stoker", es: "Bram Stoker", de: "Bram Stoker", nl: "Bram Stoker"},
+          {en: "H.G. Wells", es: "H.G. Wells", de: "H.G. Wells", nl: "H.G. Wells"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Oscar Wilde wrote 'The Picture of Dorian Gray' in 1890. This philosophical novel about a man who remains young while his portrait ages explores themes of morality and vanity.",
+          es: "Oscar Wilde escribió 'El retrato de Dorian Gray' en 1890. Esta novela filosófica sobre un hombre que permanece joven mientras su retrato envejece explora temas de moralidad y vanidad.",
+          de: "Oscar Wilde schrieb 'Das Bildnis des Dorian Gray' im Jahr 1890. Dieser philosophische Roman über einen Mann, der jung bleibt, während sein Porträt altert, erkundet Themen der Moral und Eitelkeit.",
+          nl: "Oscar Wilde schreef 'Het portret van Dorian Gray' in 1890. Deze filosofische roman over een man die jong blijft terwijl zijn portret ouder wordt, verkent thema's van moraliteit en ijdelheid."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'Wuthering Heights'?",
+          es: "¿Quién escribió 'Cumbres borrascosas'?",
+          de: "Wer schrieb 'Sturmhöhe'?",
+          nl: "Wie schreef 'De woeste hoogte'?"
+        },
+        options: [
+          {en: "Charlotte Brontë", es: "Charlotte Brontë", de: "Charlotte Brontë", nl: "Charlotte Brontë"},
+          {en: "Emily Brontë", es: "Emily Brontë", de: "Emily Brontë", nl: "Emily Brontë"},
+          {en: "Anne Brontë", es: "Anne Brontë", de: "Anne Brontë", nl: "Anne Brontë"},
+          {en: "Jane Austen", es: "Jane Austen", de: "Jane Austen", nl: "Jane Austen"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Emily Brontë wrote 'Wuthering Heights' in 1847. This gothic novel about Heathcliff and Catherine's passionate but destructive love is her only novel.",
+          es: "Emily Brontë escribió 'Cumbres borrascosas' en 1847. Esta novela gótica sobre el amor apasionado pero destructivo de Heathcliff y Catherine es su única novela.",
+          de: "Emily Brontë schrieb 'Sturmhöhe' im Jahr 1847. Dieser Gothic-Roman über Heathcliffs und Catherines leidenschaftliche, aber zerstörerische Liebe ist ihr einziger Roman.",
+          nl: "Emily Brontë schreef 'De woeste hoogte' in 1847. Deze gotische roman over Heathcliff en Catherines gepassioneerde maar destructieve liefde is haar enige roman."
+        }
+      },
+      {
+        question: {
+          en: "Which author wrote 'Lord of the Flies'?",
+          es: "¿Qué autor escribió 'El señor de las moscas'?",
+          de: "Welcher Autor schrieb 'Herr der Fliegen'?",
+          nl: "Welke auteur schreef 'Heer der vliegen'?"
+        },
+        options: [
+          {en: "William Golding", es: "William Golding", de: "William Golding", nl: "William Golding"},
+          {en: "George Orwell", es: "George Orwell", de: "George Orwell", nl: "George Orwell"},
+          {en: "Joseph Conrad", es: "Joseph Conrad", de: "Joseph Conrad", nl: "Joseph Conrad"},
+          {en: "Graham Greene", es: "Graham Greene", de: "Graham Greene", nl: "Graham Greene"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "William Golding wrote 'Lord of the Flies' in 1954. The novel about boys stranded on an island explores human nature and civilization's fragility. Golding won the Nobel Prize in 1983.",
+          es: "William Golding escribió 'El señor de las moscas' en 1954. La novela sobre niños varados en una isla explora la naturaleza humana y la fragilidad de la civilización. Golding ganó el Nobel en 1983.",
+          de: "William Golding schrieb 'Herr der Fliegen' im Jahr 1954. Der Roman über auf einer Insel gestrandete Jungen erforscht die menschliche Natur und die Zerbrechlichkeit der Zivilisation. Golding gewann 1983 den Nobelpreis.",
+          nl: "William Golding schreef 'Heer der vliegen' in 1954. De roman over jongens die gestrand zijn op een eiland verkent de menselijke natuur en de kwetsbaarheid van de beschaving. Golding won de Nobelprijs in 1983."
+        }
+      },
+      {
+        question: {
+          en: "Who is the author of 'The Stranger' (L'Étranger)?",
+          es: "¿Quién es el autor de 'El extranjero' (L'Étranger)?",
+          de: "Wer ist der Autor von 'Der Fremde' (L'Étranger)?",
+          nl: "Wie is de auteur van 'De vreemdeling' (L'Étranger)?"
+        },
+        options: [
+          {en: "Jean-Paul Sartre", es: "Jean-Paul Sartre", de: "Jean-Paul Sartre", nl: "Jean-Paul Sartre"},
+          {en: "Albert Camus", es: "Albert Camus", de: "Albert Camus", nl: "Albert Camus"},
+          {en: "André Gide", es: "André Gide", de: "André Gide", nl: "André Gide"},
+          {en: "Simone de Beauvoir", es: "Simone de Beauvoir", de: "Simone de Beauvoir", nl: "Simone de Beauvoir"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Albert Camus wrote 'The Stranger' in 1942. This existentialist novel about Meursault's indifference to life helped Camus win the Nobel Prize in Literature in 1957.",
+          es: "Albert Camus escribió 'El extranjero' en 1942. Esta novela existencialista sobre la indiferencia de Meursault hacia la vida ayudó a Camus a ganar el Premio Nobel de Literatura en 1957.",
+          de: "Albert Camus schrieb 'Der Fremde' im Jahr 1942. Dieser existentialistische Roman über Meursaults Gleichgültigkeit gegenüber dem Leben half Camus, 1957 den Nobelpreis für Literatur zu gewinnen.",
+          nl: "Albert Camus schreef 'De vreemdeling' in 1942. Deze existentialistische roman over Meursaults onverschilligheid tegenover het leven hielp Camus de Nobelprijs voor Literatuur te winnen in 1957."
+        }
+      },
+      {
+        question: {
+          en: "Which author wrote 'Moby-Dick'?",
+          es: "¿Qué autor escribió 'Moby Dick'?",
+          de: "Welcher Autor schrieb 'Moby-Dick'?",
+          nl: "Welke auteur schreef 'Moby-Dick'?"
+        },
+        options: [
+          {en: "Herman Melville", es: "Herman Melville", de: "Herman Melville", nl: "Herman Melville"},
+          {en: "Nathaniel Hawthorne", es: "Nathaniel Hawthorne", de: "Nathaniel Hawthorne", nl: "Nathaniel Hawthorne"},
+          {en: "Mark Twain", es: "Mark Twain", de: "Mark Twain", nl: "Mark Twain"},
+          {en: "Edgar Allan Poe", es: "Edgar Allan Poe", de: "Edgar Allan Poe", nl: "Edgar Allan Poe"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Herman Melville wrote 'Moby-Dick' in 1851. The novel about Captain Ahab's obsessive hunt for the white whale is now considered a masterpiece, though it was not appreciated during Melville's lifetime.",
+          es: "Herman Melville escribió 'Moby Dick' en 1851. La novela sobre la caza obsesiva del Capitán Ahab de la ballena blanca ahora se considera una obra maestra, aunque no fue apreciada durante la vida de Melville.",
+          de: "Herman Melville schrieb 'Moby-Dick' im Jahr 1851. Der Roman über Kapitän Ahabs obsessive Jagd nach dem weißen Wal gilt heute als Meisterwerk, wurde aber zu Melvilles Lebzeiten nicht geschätzt.",
+          nl: "Herman Melville schreef 'Moby-Dick' in 1851. De roman over kapitein Ahabs obsessieve jacht op de witte walvis wordt nu beschouwd als een meesterwerk, hoewel het tijdens Melvilles leven niet werd gewaardeerd."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'The Metamorphosis' about a man who wakes up as an insect?",
+          es: "¿Quién escribió 'La metamorfosis' sobre un hombre que despierta convertido en insecto?",
+          de: "Wer schrieb 'Die Verwandlung' über einen Mann, der als Insekt aufwacht?",
+          nl: "Wie schreef 'De gedaanteverwisseling' over een man die wakker wordt als insect?"
+        },
+        options: [
+          {en: "Franz Kafka", es: "Franz Kafka", de: "Franz Kafka", nl: "Franz Kafka"},
+          {en: "Hermann Hesse", es: "Hermann Hesse", de: "Hermann Hesse", nl: "Hermann Hesse"},
+          {en: "Thomas Mann", es: "Thomas Mann", de: "Thomas Mann", nl: "Thomas Mann"},
+          {en: "Robert Musil", es: "Robert Musil", de: "Robert Musil", nl: "Robert Musil"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Franz Kafka wrote 'The Metamorphosis' in 1915. The novella about Gregor Samsa's transformation into a giant insect is a cornerstone of modern literature and explores alienation and absurdity.",
+          es: "Franz Kafka escribió 'La metamorfosis' en 1915. La novela corta sobre la transformación de Gregor Samsa en un insecto gigante es una piedra angular de la literatura moderna y explora la alienación y el absurdo.",
+          de: "Franz Kafka schrieb 'Die Verwandlung' im Jahr 1915. Die Novelle über Gregor Samsas Verwandlung in ein riesiges Insekt ist ein Eckpfeiler der modernen Literatur und erforscht Entfremdung und Absurdität.",
+          nl: "Franz Kafka schreef 'De gedaanteverwisseling' in 1915. De novelle over Gregor Samsa's transformatie in een reusachtig insect is een hoeksteen van de moderne literatuur en verkent vervreemding en absurditeit."
+        }
+      },
+      {
+        question: {
+          en: "Which author wrote 'Frankenstein'?",
+          es: "¿Qué autora escribió 'Frankenstein'?",
+          de: "Welche Autorin schrieb 'Frankenstein'?",
+          nl: "Welke auteur schreef 'Frankenstein'?"
+        },
+        options: [
+          {en: "Mary Shelley", es: "Mary Shelley", de: "Mary Shelley", nl: "Mary Shelley"},
+          {en: "Ann Radcliffe", es: "Ann Radcliffe", de: "Ann Radcliffe", nl: "Ann Radcliffe"},
+          {en: "Emily Brontë", es: "Emily Brontë", de: "Emily Brontë", nl: "Emily Brontë"},
+          {en: "Jane Austen", es: "Jane Austen", de: "Jane Austen", nl: "Jane Austen"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mary Shelley wrote 'Frankenstein' in 1818 when she was only 18 years old. Often considered the first science fiction novel, it tells the story of Victor Frankenstein and his creation.",
+          es: "Mary Shelley escribió 'Frankenstein' en 1818 cuando tenía solo 18 años. A menudo considerada la primera novela de ciencia ficción, cuenta la historia de Victor Frankenstein y su creación.",
+          de: "Mary Shelley schrieb 'Frankenstein' im Jahr 1818, als sie erst 18 Jahre alt war. Oft als der erste Science-Fiction-Roman betrachtet, erzählt er die Geschichte von Victor Frankenstein und seiner Schöpfung.",
+          nl: "Mary Shelley schreef 'Frankenstein' in 1818 toen ze pas 18 jaar oud was. Vaak beschouwd als de eerste sciencefictionroman, vertelt het het verhaal van Victor Frankenstein en zijn schepping."
+        }
+      },
+      {
+        question: {
+          en: "Who is the author of 'The Scarlet Letter'?",
+          es: "¿Quién es el autor de 'La letra escarlata'?",
+          de: "Wer ist der Autor von 'Der scharlachrote Buchstabe'?",
+          nl: "Wie is de auteur van 'De scharlaken letter'?"
+        },
+        options: [
+          {en: "Nathaniel Hawthorne", es: "Nathaniel Hawthorne", de: "Nathaniel Hawthorne", nl: "Nathaniel Hawthorne"},
+          {en: "Herman Melville", es: "Herman Melville", de: "Herman Melville", nl: "Herman Melville"},
+          {en: "Henry James", es: "Henry James", de: "Henry James", nl: "Henry James"},
+          {en: "Washington Irving", es: "Washington Irving", de: "Washington Irving", nl: "Washington Irving"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Nathaniel Hawthorne wrote 'The Scarlet Letter' in 1850. Set in Puritan New England, the novel explores themes of sin, guilt, and redemption through the story of Hester Prynne.",
+          es: "Nathaniel Hawthorne escribió 'La letra escarlata' en 1850. Ambientada en la Nueva Inglaterra puritana, la novela explora temas de pecado, culpa y redención a través de la historia de Hester Prynne.",
+          de: "Nathaniel Hawthorne schrieb 'Der scharlachrote Buchstabe' im Jahr 1850. Der Roman spielt im puritanischen Neuengland und erforscht Themen von Sünde, Schuld und Erlösung durch die Geschichte von Hester Prynne.",
+          nl: "Nathaniel Hawthorne schreef 'De scharlaken letter' in 1850. De roman speelt zich af in het puriteinse Nieuw-Engeland en verkent thema's van zonde, schuld en verlossing door het verhaal van Hester Prynne."
+        }
+      },
+      {
+        question: {
+          en: "Which author wrote 'The Count of Monte Cristo'?",
+          es: "¿Qué autor escribió 'El conde de Montecristo'?",
+          de: "Welcher Autor schrieb 'Der Graf von Monte Christo'?",
+          nl: "Welke auteur schreef 'De graaf van Monte-Cristo'?"
+        },
+        options: [
+          {en: "Victor Hugo", es: "Victor Hugo", de: "Victor Hugo", nl: "Victor Hugo"},
+          {en: "Alexandre Dumas", es: "Alexandre Dumas", de: "Alexandre Dumas", nl: "Alexandre Dumas"},
+          {en: "Honoré de Balzac", es: "Honoré de Balzac", de: "Honoré de Balzac", nl: "Honoré de Balzac"},
+          {en: "Gustave Flaubert", es: "Gustave Flaubert", de: "Gustave Flaubert", nl: "Gustave Flaubert"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Alexandre Dumas wrote 'The Count of Monte Cristo' in 1844. This adventure novel about Edmond Dantès' revenge is one of the most popular French novels of all time.",
+          es: "Alexandre Dumas escribió 'El conde de Montecristo' en 1844. Esta novela de aventuras sobre la venganza de Edmond Dantès es una de las novelas francesas más populares de todos los tiempos.",
+          de: "Alexandre Dumas schrieb 'Der Graf von Monte Christo' im Jahr 1844. Dieser Abenteuerroman über Edmond Dantès' Rache ist einer der beliebtesten französischen Romane aller Zeiten.",
+          nl: "Alexandre Dumas schreef 'De graaf van Monte-Cristo' in 1844. Deze avonturenroman over Edmond Dantès' wraak is een van de populairste Franse romans aller tijden."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'Jane Eyre'?",
+          es: "¿Quién escribió 'Jane Eyre'?",
+          de: "Wer schrieb 'Jane Eyre'?",
+          nl: "Wie schreef 'Jane Eyre'?"
+        },
+        options: [
+          {en: "Charlotte Brontë", es: "Charlotte Brontë", de: "Charlotte Brontë", nl: "Charlotte Brontë"},
+          {en: "Emily Brontë", es: "Emily Brontë", de: "Emily Brontë", nl: "Emily Brontë"},
+          {en: "Anne Brontë", es: "Anne Brontë", de: "Anne Brontë", nl: "Anne Brontë"},
+          {en: "Elizabeth Gaskell", es: "Elizabeth Gaskell", de: "Elizabeth Gaskell", nl: "Elizabeth Gaskell"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Charlotte Brontë wrote 'Jane Eyre' in 1847. The novel follows the life of the orphaned Jane and her complex relationship with Mr. Rochester, exploring themes of morality, social class, and feminism.",
+          es: "Charlotte Brontë escribió 'Jane Eyre' en 1847. La novela sigue la vida de la huérfana Jane y su compleja relación con el Sr. Rochester, explorando temas de moralidad, clase social y feminismo.",
+          de: "Charlotte Brontë schrieb 'Jane Eyre' im Jahr 1847. Der Roman folgt dem Leben der verwaisten Jane und ihrer komplexen Beziehung zu Mr. Rochester und erforscht Themen der Moral, sozialen Klasse und Feminismus.",
+          nl: "Charlotte Brontë schreef 'Jane Eyre' in 1847. De roman volgt het leven van de verweesde Jane en haar complexe relatie met Mr. Rochester, waarbij thema's van moraliteit, sociale klasse en feminisme worden verkend."
+        }
+      },
+      {
+        question: {
+          en: "Which author wrote 'Les Misérables'?",
+          es: "¿Qué autor escribió 'Los miserables'?",
+          de: "Welcher Autor schrieb 'Die Elenden'?",
+          nl: "Welke auteur schreef 'Les Misérables'?"
+        },
+        options: [
+          {en: "Victor Hugo", es: "Victor Hugo", de: "Victor Hugo", nl: "Victor Hugo"},
+          {en: "Alexandre Dumas", es: "Alexandre Dumas", de: "Alexandre Dumas", nl: "Alexandre Dumas"},
+          {en: "Émile Zola", es: "Émile Zola", de: "Émile Zola", nl: "Émile Zola"},
+          {en: "Gustave Flaubert", es: "Gustave Flaubert", de: "Gustave Flaubert", nl: "Gustave Flaubert"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Victor Hugo wrote 'Les Misérables' in 1862. This epic novel about Jean Valjean's redemption is set against the backdrop of post-revolutionary France and explores themes of justice and mercy.",
+          es: "Victor Hugo escribió 'Los miserables' en 1862. Esta novela épica sobre la redención de Jean Valjean está ambientada en la Francia posrevolucionaria y explora temas de justicia y misericordia.",
+          de: "Victor Hugo schrieb 'Die Elenden' im Jahr 1862. Dieser epische Roman über Jean Valjeans Erlösung spielt vor dem Hintergrund des postrevolutionären Frankreich und erforscht Themen der Gerechtigkeit und Barmherzigkeit.",
+          nl: "Victor Hugo schreef 'Les Misérables' in 1862. Deze epische roman over Jean Valjeans verlossing speelt zich af tegen de achtergrond van het post-revolutionaire Frankrijk en verkent thema's van rechtvaardigheid en genade."
+        }
+      },
+      {
+        question: {
+          en: "Who is the author of 'Dracula'?",
+          es: "¿Quién es el autor de 'Drácula'?",
+          de: "Wer ist der Autor von 'Dracula'?",
+          nl: "Wie is de auteur van 'Dracula'?"
+        },
+        options: [
+          {en: "Bram Stoker", es: "Bram Stoker", de: "Bram Stoker", nl: "Bram Stoker"},
+          {en: "Mary Shelley", es: "Mary Shelley", de: "Mary Shelley", nl: "Mary Shelley"},
+          {en: "Edgar Allan Poe", es: "Edgar Allan Poe", de: "Edgar Allan Poe", nl: "Edgar Allan Poe"},
+          {en: "Oscar Wilde", es: "Oscar Wilde", de: "Oscar Wilde", nl: "Oscar Wilde"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bram Stoker wrote 'Dracula' in 1897. This Gothic horror novel introduced Count Dracula and established many conventions of vampire fiction that persist today.",
+          es: "Bram Stoker escribió 'Drácula' en 1897. Esta novela de terror gótico introdujo al Conde Drácula y estableció muchas convenciones de la ficción de vampiros que persisten hoy.",
+          de: "Bram Stoker schrieb 'Dracula' im Jahr 1897. Dieser Gothic-Horror-Roman führte Graf Dracula ein und etablierte viele Konventionen der Vampirfiktion, die bis heute bestehen.",
+          nl: "Bram Stoker schreef 'Dracula' in 1897. Deze gotische horrorroman introduceerde Graaf Dracula en vestigde veel conventies van vampierfictie die vandaag de dag nog bestaan."
+        }
+      },
+      {
+        question: {
+          en: "Which author wrote 'For Whom the Bell Tolls'?",
+          es: "¿Qué autor escribió 'Por quién doblan las campanas'?",
+          de: "Welcher Autor schrieb 'Wem die Stunde schlägt'?",
+          nl: "Welke auteur schreef 'Voor wie de klok luidt'?"
+        },
+        options: [
+          {en: "Ernest Hemingway", es: "Ernest Hemingway", de: "Ernest Hemingway", nl: "Ernest Hemingway"},
+          {en: "John Steinbeck", es: "John Steinbeck", de: "John Steinbeck", nl: "John Steinbeck"},
+          {en: "F. Scott Fitzgerald", es: "F. Scott Fitzgerald", de: "F. Scott Fitzgerald", nl: "F. Scott Fitzgerald"},
+          {en: "William Faulkner", es: "William Faulkner", de: "William Faulkner", nl: "William Faulkner"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ernest Hemingway wrote 'For Whom the Bell Tolls' in 1940. Set during the Spanish Civil War, the novel follows American Robert Jordan who fights with Republican guerrillas.",
+          es: "Ernest Hemingway escribió 'Por quién doblan las campanas' en 1940. Ambientada durante la Guerra Civil Española, la novela sigue al estadounidense Robert Jordan que lucha con guerrilleros republicanos.",
+          de: "Ernest Hemingway schrieb 'Wem die Stunde schlägt' im Jahr 1940. Der Roman spielt während des Spanischen Bürgerkriegs und folgt dem Amerikaner Robert Jordan, der mit republikanischen Guerillas kämpft.",
+          nl: "Ernest Hemingway schreef 'Voor wie de klok luidt' in 1940. De roman speelt zich af tijdens de Spaanse Burgeroorlog en volgt de Amerikaan Robert Jordan die vecht met Republikeinse guerrillastrijders."
+        }
       }
     ]
   };

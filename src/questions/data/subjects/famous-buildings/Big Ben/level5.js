@@ -427,6 +427,426 @@
           de: "Während der Restaurierung 2017-2022 wurden viktorianische Graffiti entdeckt, die von Arbeitern geschrieben wurden, die den Turm in den 1850er Jahren bauten, einschließlich Daten und Namen, die in Wände gekratzt wurden.",
           nl: "Tijdens de restauratie van 2017-2022 werden Victoriaanse graffiti ontdekt die waren geschreven door arbeiders die de toren in de jaren 1850 bouwden, inclusief data en namen die in muren waren gekrast."
         }
+      },
+      {
+        question: {
+          en: "What type of escapement mechanism does Big Ben use?",
+          es: "¿Qué tipo de mecanismo de escape usa Big Ben?",
+          de: "Welche Art von Hemmungsmechanismus verwendet Big Ben?",
+          nl: "Welk type ontsnappingsmechanisme gebruikt Big Ben?"
+        },
+        options: [
+          { en: "Double three-legged gravity escapement", es: "Escape de gravedad de tres patas doble", de: "Doppelte dreiarmige Schwerkrafthemmung", nl: "Dubbele driepotenbeen zwaartekracht-ontsnapping" },
+          { en: "Anchor escapement", es: "Escape de áncora", de: "Ankerhemmung", nl: "Ankerontsnapping" },
+          { en: "Deadbeat escapement", es: "Escape deadbeat", de: "Ruhende Hemmung", nl: "Deadbeat ontsnapping" },
+          { en: "Verge escapement", es: "Escape de varilla", de: "Spindelhemmung", nl: "Spillenontsnapping" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Big Ben uses Denison's innovative double three-legged gravity escapement, which isolates the pendulum from external forces like wind. This design gives the clock exceptional accuracy for a large turret clock.",
+          es: "Big Ben usa el innovador escape de gravedad de tres patas doble de Denison, que aísla el péndulo de fuerzas externas como el viento. Este diseño le da al reloj una precisión excepcional para un gran reloj de torre.",
+          de: "Big Ben verwendet Denisons innovative doppelte dreiarmige Schwerkrafthemmung, die das Pendel von äußeren Kräften wie Wind isoliert. Dieses Design verleiht der Uhr außergewöhnliche Genauigkeit für eine große Turmuhr.",
+          nl: "Big Ben gebruikt Denisons innovatieve dubbele driepotenbeen zwaartekracht-ontsnapping, die de slinger isoleert van externe krachten zoals wind. Dit ontwerp geeft de klok uitzonderlijke nauwkeurigheid voor een grote torenklok."
+        }
+      },
+      {
+        question: {
+          en: "What gear ratio does the clock mechanism use?",
+          es: "¿Qué relación de engranajes usa el mecanismo del reloj?",
+          de: "Welches Übersetzungsverhältnis verwendet der Uhrmechanismus?",
+          nl: "Welke tandwielverhouding gebruikt het klokmechanisme?"
+        },
+        options: [
+          { en: "Simple 1:60 ratio", es: "Relación simple 1:60", de: "Einfaches 1:60-Verhältnis", nl: "Eenvoudige 1:60 verhouding" },
+          { en: "Complex train with multiple ratios reducing rotation", es: "Tren complejo con múltiples relaciones reduciendo rotación", de: "Komplexer Zug mit mehreren Verhältnissen zur Drehungsreduzierung", nl: "Complex trein met meerdere verhoudingen die rotatie verminderen" },
+          { en: "Direct drive", es: "Accionamiento directo", de: "Direktantrieb", nl: "Directe aandrijving" },
+          { en: "Variable ratio system", es: "Sistema de relación variable", de: "Variables Verhältnissystem", nl: "Variabel verhoudingssysteem" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The clock uses a complex gear train with multiple reduction ratios to convert the pendulum's one-second beat into the slow rotation of the hour, minute, and second hands across four massive clock faces.",
+          es: "El reloj usa un tren de engranajes complejo con múltiples relaciones de reducción para convertir el latido de un segundo del péndulo en la rotación lenta de las manecillas de hora, minuto y segundo en cuatro esferas de reloj masivas.",
+          de: "Die Uhr verwendet einen komplexen Räderzug mit mehreren Untersetzungsverhältnissen, um den Sekundenschlag des Pendels in die langsame Drehung der Stunden-, Minuten- und Sekundenzeiger über vier massive Zifferblätter umzuwandeln.",
+          nl: "De klok gebruikt een complexe tandwieltrein met meerdere reductieverhouding om de seconde-slag van de slinger om te zetten in de langzame rotatie van de uur-, minuut- en secondewijzers over vier massieve wijzerplaten."
+        }
+      },
+      {
+        question: {
+          en: "What diameter are the main clock dials?",
+          es: "¿Qué diámetro tienen los diales principales del reloj?",
+          de: "Welchen Durchmesser haben die Hauptzifferblätter?",
+          nl: "Welke diameter hebben de hoofdwijzerplaten?"
+        },
+        options: [
+          { en: "5 meters (16 feet)", es: "5 metros (16 pies)", de: "5 Meter (16 Fuß)", nl: "5 meter (16 voet)" },
+          { en: "7 meters (23 feet)", es: "7 metros (23 pies)", de: "7 Meter (23 Fuß)", nl: "7 meter (23 voet)" },
+          { en: "9 meters (30 feet)", es: "9 metros (30 pies)", de: "9 Meter (30 Fuß)", nl: "9 meter (30 voet)" },
+          { en: "11 meters (36 feet)", es: "11 metros (36 pies)", de: "11 Meter (36 Fuß)", nl: "11 meter (36 voet)" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Each of the four clock dials measures 7 meters (23 feet) in diameter. The massive size ensures visibility from great distances across London, fulfilling the original requirement for a highly visible public timekeeper.",
+          es: "Cada uno de los cuatro diales del reloj mide 7 metros (23 pies) de diámetro. El tamaño masivo asegura visibilidad desde grandes distancias a través de Londres, cumpliendo con el requisito original de un guardián de tiempo público altamente visible.",
+          de: "Jedes der vier Zifferblätter misst 7 Meter (23 Fuß) im Durchmesser. Die massive Größe gewährleistet Sichtbarkeit aus großen Entfernungen über London hinweg und erfüllt die ursprüngliche Anforderung an einen gut sichtbaren öffentlichen Zeitmesser.",
+          nl: "Elk van de vier wijzerplaten meet 7 meter (23 voet) in diameter. De massieve grootte zorgt voor zichtbaarheid vanaf grote afstanden over Londen, waarmee voldaan wordt aan de oorspronkelijke eis voor een zeer zichtbare publieke tijdhouder."
+        }
+      },
+      {
+        question: {
+          en: "How are the clock hands constructed?",
+          es: "¿Cómo están construidas las manecillas del reloj?",
+          de: "Wie sind die Uhrzeiger konstruiert?",
+          nl: "Hoe zijn de wijzers geconstrueerd?"
+        },
+        options: [
+          { en: "Solid cast iron", es: "Hierro fundido sólido", de: "Massives Gusseisen", nl: "Massief gietijzer" },
+          { en: "Hollow copper for reduced weight", es: "Cobre hueco para peso reducido", de: "Hohles Kupfer für reduziertes Gewicht", nl: "Hol koper voor verminderd gewicht" },
+          { en: "Aluminum alloy", es: "Aleación de aluminio", de: "Aluminiumlegierung", nl: "Aluminiumlegering" },
+          { en: "Carbon fiber composite", es: "Compuesto de fibra de carbono", de: "Kohlefaser-Verbundstoff", nl: "Koolstofvezelcomposiet" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The clock hands are constructed from hollow copper to minimize weight on the mechanism. Despite their large size (2.7m and 4.2m long), this hollow construction keeps them light enough for the mechanism to move them precisely.",
+          es: "Las manecillas del reloj están construidas de cobre hueco para minimizar el peso en el mecanismo. A pesar de su gran tamaño (2.7m y 4.2m de largo), esta construcción hueca las mantiene lo suficientemente ligeras como para que el mecanismo las mueva con precisión.",
+          de: "Die Uhrzeiger sind aus hohlem Kupfer konstruiert, um das Gewicht auf den Mechanismus zu minimieren. Trotz ihrer großen Größe (2,7 m und 4,2 m lang) hält diese hohle Konstruktion sie leicht genug, damit der Mechanismus sie präzise bewegen kann.",
+          nl: "De wijzers zijn geconstrueerd van hol koper om het gewicht op het mechanisme te minimaliseren. Ondanks hun grote formaat (2,7m en 4,2m lang), houdt deze holle constructie ze licht genoeg voor het mechanisme om ze precies te bewegen."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of the anemometer on the tower?",
+          es: "¿Cuál es el propósito del anemómetro en la torre?",
+          de: "Was ist der Zweck des Anemometers am Turm?",
+          nl: "Wat is het doel van de anemometer op de toren?"
+        },
+        options: [
+          { en: "Tourism attraction", es: "Atracción turística", de: "Touristenattraktion", nl: "Toeristische attractie" },
+          { en: "Monitors wind effects on clock accuracy", es: "Monitorea efectos del viento en la precisión del reloj", de: "Überwacht Windauswirkungen auf Uhrgenauigkeit", nl: "Monitort windeffecten op kloknauwkeurigheid" },
+          { en: "Weather station only", es: "Solo estación meteorológica", de: "Nur Wetterstation", nl: "Alleen weerstation" },
+          { en: "No anemometer exists", es: "No existe anemómetro", de: "Kein Anemometer vorhanden", nl: "Geen anemometer aanwezig" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The anemometer monitors wind speed and its effects on the clock's accuracy. Strong winds can affect the hands' movement, so this data helps clockkeepers make necessary adjustments to maintain precision.",
+          es: "El anemómetro monitorea la velocidad del viento y sus efectos en la precisión del reloj. Los vientos fuertes pueden afectar el movimiento de las manecillas, por lo que estos datos ayudan a los relojeros a hacer los ajustes necesarios para mantener la precisión.",
+          de: "Das Anemometer überwacht die Windgeschwindigkeit und ihre Auswirkungen auf die Genauigkeit der Uhr. Starke Winde können die Bewegung der Zeiger beeinflussen, daher helfen diese Daten den Uhrmachern, notwendige Anpassungen zur Aufrechterhaltung der Präzision vorzunehmen.",
+          nl: "De anemometer monitort windsnelheid en de effecten ervan op de nauwkeurigheid van de klok. Sterke wind kan de beweging van de wijzers beïnvloeden, dus deze gegevens helpen klokbewaarders de nodige aanpassingen te maken om precisie te behouden."
+        }
+      },
+      {
+        question: {
+          en: "What alloy was used for the original bell casting?",
+          es: "¿Qué aleación se usó para el fundido de la campana original?",
+          de: "Welche Legierung wurde für den ursprünglichen Glockenguss verwendet?",
+          nl: "Welke legering werd gebruikt voor het originele klokgietwerk?"
+        },
+        options: [
+          { en: "Pure bronze", es: "Bronce puro", de: "Reines Bronze", nl: "Zuiver brons" },
+          { en: "Bell metal: 77% copper, 23% tin", es: "Metal de campana: 77% cobre, 23% estaño", de: "Glockenmetall: 77% Kupfer, 23% Zinn", nl: "Klokmetaal: 77% koper, 23% tin" },
+          { en: "Steel alloy", es: "Aleación de acero", de: "Stahllegierung", nl: "Staallegering" },
+          { en: "Brass mixture", es: "Mezcla de latón", de: "Messingmischung", nl: "Koperlegering" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Big Ben was cast from bell metal, a bronze alloy of approximately 77% copper and 23% tin. This precise composition produces the optimal resonance and tone quality for large bells, a formula refined over centuries.",
+          es: "Big Ben fue fundido de metal de campana, una aleación de bronce de aproximadamente 77% cobre y 23% estaño. Esta composición precisa produce la resonancia óptima y calidad de tono para grandes campanas, una fórmula refinada durante siglos.",
+          de: "Big Ben wurde aus Glockenmetall gegossen, einer Bronzelegierung aus etwa 77% Kupfer und 23% Zinn. Diese präzise Zusammensetzung erzeugt die optimale Resonanz und Klangqualität für große Glocken, eine über Jahrhunderte verfeinerte Formel.",
+          nl: "Big Ben werd gegoten uit klokmetaal, een bronslegering van ongeveer 77% koper en 23% tin. Deze precieze samenstelling produceert de optimale resonantie en toonkwaliteit voor grote klokken, een formule die eeuwen is verfijnd."
+        }
+      },
+      {
+        question: {
+          en: "What structural reinforcement was added during the 2017-2022 restoration?",
+          es: "¿Qué refuerzo estructural se agregó durante la restauración 2017-2022?",
+          de: "Welche strukturelle Verstärkung wurde während der Restaurierung 2017-2022 hinzugefügt?",
+          nl: "Welke structurele versteviging werd toegevoegd tijdens de restauratie 2017-2022?"
+        },
+        options: [
+          { en: "No reinforcement needed", es: "No se necesitó refuerzo", de: "Keine Verstärkung erforderlich", nl: "Geen versteviging nodig" },
+          { en: "Steel bracing and ironwork repairs", es: "Refuerzo de acero y reparaciones de herrajes", de: "Stahlverstrebungen und Eisenwerk-Reparaturen", nl: "Stalen verstevigingen en ijzerwerkherstellingen" },
+          { en: "Concrete foundation", es: "Cimiento de concreto", de: "Betonfundament", nl: "Betonnen fundering" },
+          { en: "Carbon fiber wrapping", es: "Envoltura de fibra de carbono", de: "Kohlefaser-Umwicklung", nl: "Koolstofvezelomwikkeling" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The restoration included extensive steel bracing and repairs to corroded ironwork throughout the tower. Over 160 years of weathering had caused significant iron corrosion, requiring careful structural reinforcement to ensure stability.",
+          es: "La restauración incluyó extensos refuerzos de acero y reparaciones de herrajes corroídos en toda la torre. Más de 160 años de meteorización habían causado corrosión significativa del hierro, requiriendo un refuerzo estructural cuidadoso para asegurar la estabilidad.",
+          de: "Die Restaurierung umfasste umfangreiche Stahlverstrebungen und Reparaturen an korrodiertem Eisenwerk im gesamten Turm. Über 160 Jahre Witterungseinflüsse hatten erhebliche Eisenkorrosion verursacht, die sorgfältige strukturelle Verstärkung zur Gewährleistung der Stabilität erforderte.",
+          nl: "De restauratie omvatte uitgebreide stalen verstevigingen en reparaties aan gecorrodeerd ijzerwerk door de hele toren. Meer dan 160 jaar verwering had aanzienlijke ijzercorrosie veroorzaakt, waarvoor zorgvuldige structurele versteviging nodig was om stabiliteit te garanderen."
+        }
+      },
+      {
+        question: {
+          en: "How is the clock synchronized with GMT?",
+          es: "¿Cómo se sincroniza el reloj con GMT?",
+          de: "Wie wird die Uhr mit GMT synchronisiert?",
+          nl: "Hoe wordt de klok gesynchroniseerd met GMT?"
+        },
+        options: [
+          { en: "Automatic radio signal", es: "Señal de radio automática", de: "Automatisches Funksignal", nl: "Automatisch radiosignaal" },
+          { en: "Manual adjustment by clockkeepers using penny system", es: "Ajuste manual por relojeros usando sistema de peniques", de: "Manuelle Anpassung durch Uhrmacher mit Penny-System", nl: "Handmatige aanpassing door klokbewaarders met pennysysteem" },
+          { en: "GPS satellite", es: "Satélite GPS", de: "GPS-Satellit", nl: "GPS-satelliet" },
+          { en: "Internet time server", es: "Servidor de tiempo por Internet", de: "Internet-Zeitserver", nl: "Internet tijdserver" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Despite modern technology, Big Ben is manually synchronized with GMT by clockkeepers who add or remove old pre-decimal pennies on the pendulum. This Victorian adjustment method remains effective for fine-tuning the mechanical clock.",
+          es: "A pesar de la tecnología moderna, Big Ben se sincroniza manualmente con GMT por relojeros que agregan o quitan viejos peniques predecimales en el péndulo. Este método de ajuste victoriano sigue siendo efectivo para afinar el reloj mecánico.",
+          de: "Trotz moderner Technologie wird Big Ben manuell mit GMT synchronisiert, indem Uhrmacher alte vordezimale Pennys am Pendel hinzufügen oder entfernen. Diese viktorianische Anpassungsmethode bleibt effektiv für die Feinabstimmung der mechanischen Uhr.",
+          nl: "Ondanks moderne technologie wordt Big Ben handmatig gesynchroniseerd met GMT door klokbewaarders die oude pre-decimale pennies op de slinger toevoegen of verwijderen. Deze Victoriaanse aanpassingsmethode blijft effectief voor het fijnregelen van de mechanische klok."
+        }
+      },
+      {
+        question: {
+          en: "What type of steel was used in the tower's internal framework?",
+          es: "¿Qué tipo de acero se usó en el marco interno de la torre?",
+          de: "Welche Art von Stahl wurde im inneren Rahmen des Turms verwendet?",
+          nl: "Welk type staal werd gebruikt in het interne raamwerk van de toren?"
+        },
+        options: [
+          { en: "Modern stainless steel", es: "Acero inoxidable moderno", de: "Moderner Edelstahl", nl: "Modern roestvrij staal" },
+          { en: "Cast iron framework typical of Victorian engineering", es: "Marco de hierro fundido típico de la ingeniería victoriana", de: "Gusseisen-Rahmen typisch für viktorianische Ingenieurskunst", nl: "Gietijzeren raamwerk typisch voor Victoriaanse techniek" },
+          { en: "Aluminum beams", es: "Vigas de aluminio", de: "Aluminiumträger", nl: "Aluminium balken" },
+          { en: "Titanium alloy", es: "Aleación de titanio", de: "Titanlegierung", nl: "Titaniumlegering" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The tower uses a cast iron internal framework, characteristic of Victorian civil engineering. This material choice reflects 19th-century industrial capabilities and has proven remarkably durable, though requiring periodic maintenance to prevent corrosion.",
+          es: "La torre usa un marco interno de hierro fundido, característico de la ingeniería civil victoriana. Esta elección de material refleja las capacidades industriales del siglo XIX y ha demostrado ser notablemente duradero, aunque requiere mantenimiento periódico para prevenir la corrosión.",
+          de: "Der Turm verwendet ein inneres Gusseisen-Rahmenwerk, charakteristisch für viktorianische Bauingenieurkunst. Diese Materialwahl spiegelt die industriellen Fähigkeiten des 19. Jahrhunderts wider und hat sich als bemerkenswert langlebig erwiesen, obwohl regelmäßige Wartung zur Verhinderung von Korrosion erforderlich ist.",
+          nl: "De toren gebruikt een intern gietijzeren raamwerk, kenmerkend voor Victoriaanse civiele techniek. Deze materiaalkeuze weerspiegelt 19e-eeuwse industriële capaciteiten en is opmerkelijk duurzaam gebleken, hoewel periodiek onderhoud nodig is om corrosie te voorkomen."
+        }
+      },
+      {
+        question: {
+          en: "What lubrication system does the clock mechanism use?",
+          es: "¿Qué sistema de lubricación usa el mecanismo del reloj?",
+          de: "Welches Schmiersystem verwendet der Uhrmechanismus?",
+          nl: "Welk smeersysteem gebruikt het klokmechanisme?"
+        },
+        options: [
+          { en: "Automatic oil circulation", es: "Circulación automática de aceite", de: "Automatische Ölzirkulation", nl: "Automatische oliecirculatie" },
+          { en: "Manual lubrication at specific points", es: "Lubricación manual en puntos específicos", de: "Manuelle Schmierung an bestimmten Punkten", nl: "Handmatige smering op specifieke punten" },
+          { en: "Self-lubricating bearings", es: "Rodamientos autolubricantes", de: "Selbstschmierende Lager", nl: "Zelfsmerende lagers" },
+          { en: "No lubrication needed", es: "No se necesita lubricación", de: "Keine Schmierung erforderlich", nl: "Geen smering nodig" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The clock mechanism requires manual lubrication at specific bearing points. Clockkeepers regularly oil the gears, bearings, and moving parts using traditional methods, ensuring smooth operation and preventing excessive wear.",
+          es: "El mecanismo del reloj requiere lubricación manual en puntos de rodamiento específicos. Los relojeros engrasan regularmente los engranajes, rodamientos y partes móviles usando métodos tradicionales, asegurando un funcionamiento suave y previniendo el desgaste excesivo.",
+          de: "Der Uhrmechanismus erfordert manuelle Schmierung an bestimmten Lagerpunkten. Uhrmacher ölen regelmäßig die Zahnräder, Lager und beweglichen Teile mit traditionellen Methoden, um einen reibungslosen Betrieb zu gewährleisten und übermäßigen Verschleiß zu verhindern.",
+          nl: "Het klokmechanisme vereist handmatige smering op specifieke lagerpunten. Klokbewaarders smeren regelmatig de tandwielen, lagers en bewegende delen met traditionele methoden, waardoor een soepele werking wordt gegarandeerd en overmatige slijtage wordt voorkomen."
+        }
+      },
+      {
+        question: {
+          en: "What acoustic design features enhance the bell's sound?",
+          es: "¿Qué características de diseño acústico mejoran el sonido de la campana?",
+          de: "Welche akustischen Designmerkmale verbessern den Klang der Glocke?",
+          nl: "Welke akoestische ontwerpkenmerken verbeteren het geluid van de klok?"
+        },
+        options: [
+          { en: "Sound dampening material", es: "Material amortiguador de sonido", de: "Schalldämpfendes Material", nl: "Geluidsdempend materiaal" },
+          { en: "Belfry design with open arches for sound projection", es: "Diseño de campanario con arcos abiertos para proyección de sonido", de: "Glockenturm-Design mit offenen Bögen für Schallprojektion", nl: "Klokkentorenontwerp met open bogen voor geluidsprojectie" },
+          { en: "Electronic amplification", es: "Amplificación electrónica", de: "Elektronische Verstärkung", nl: "Elektronische versterking" },
+          { en: "Underground resonance chambers", es: "Cámaras de resonancia subterráneas", de: "Unterirdische Resonanzkammern", nl: "Ondergrondse resonantiekamers" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The belfry features open Gothic arches designed to project Big Ben's sound across London. These architectural openings allow the bell's tone to radiate outward while the tower's height amplifies its reach across the city.",
+          es: "El campanario presenta arcos góticos abiertos diseñados para proyectar el sonido de Big Ben a través de Londres. Estas aberturas arquitectónicas permiten que el tono de la campana se irradie hacia afuera mientras que la altura de la torre amplifica su alcance a través de la ciudad.",
+          de: "Der Glockenstuhl verfügt über offene gotische Bögen, die entwickelt wurden, um Big Bens Klang über London zu projizieren. Diese architektonischen Öffnungen ermöglichen es dem Ton der Glocke, nach außen zu strahlen, während die Höhe des Turms seine Reichweite über die Stadt verstärkt.",
+          nl: "De klokkentoren heeft open gotische bogen die zijn ontworpen om Big Bens geluid over Londen te projecteren. Deze architectonische openingen stellen de toon van de klok in staat naar buiten te stralen, terwijl de hoogte van de toren zijn bereik over de stad vergroot."
+        }
+      },
+      {
+        question: {
+          en: "What precision measuring tools monitor the clock's accuracy?",
+          es: "¿Qué herramientas de medición de precisión monitorean la precisión del reloj?",
+          de: "Welche Präzisionsmesswerkzeuge überwachen die Genauigkeit der Uhr?",
+          nl: "Welke precisie-meetinstrumenten monitoren de nauwkeurigheid van de klok?"
+        },
+        options: [
+          { en: "Visual observation only", es: "Solo observación visual", de: "Nur visuelle Beobachtung", nl: "Alleen visuele observatie" },
+          { en: "Electronic sensors comparing to atomic time", es: "Sensores electrónicos comparando con tiempo atómico", de: "Elektronische Sensoren im Vergleich zur Atomzeit", nl: "Elektronische sensoren die vergelijken met atoomtijd" },
+          { en: "Sundial reference", es: "Referencia de reloj de sol", de: "Sonnenuhrreferenz", nl: "Zonnewijzerreferentie" },
+          { en: "No monitoring system", es: "Sin sistema de monitoreo", de: "Kein Überwachungssystem", nl: "Geen monitoringsysteem" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Modern electronic sensors continuously compare Big Ben's time to atomic clock standards. This monitoring allows clockkeepers to track performance and make adjustments while preserving the mechanical operation of this Victorian masterpiece.",
+          es: "Los sensores electrónicos modernos comparan continuamente el tiempo de Big Ben con los estándares de reloj atómico. Este monitoreo permite a los relojeros rastrear el rendimiento y hacer ajustes mientras preservan la operación mecánica de esta obra maestra victoriana.",
+          de: "Moderne elektronische Sensoren vergleichen kontinuierlich Big Bens Zeit mit atomaren Uhrenstandards. Diese Überwachung ermöglicht es Uhrmachern, die Leistung zu verfolgen und Anpassungen vorzunehmen, während sie den mechanischen Betrieb dieses viktorianischen Meisterwerks bewahren.",
+          nl: "Moderne elektronische sensoren vergelijken continu Big Bens tijd met atoomklokstandaarden. Deze monitoring stelt klokbewaarders in staat om de prestaties te volgen en aanpassingen te maken terwijl de mechanische werking van dit Victoriaanse meesterwerk behouden blijft."
+        }
+      },
+      {
+        question: {
+          en: "What material forms the clock face numerals?",
+          es: "¿Qué material forma los números de la esfera del reloj?",
+          de: "Welches Material bildet die Ziffern des Zifferblatts?",
+          nl: "Welk materiaal vormt de cijfers op de wijzerplaat?"
+        },
+        options: [
+          { en: "Painted numbers", es: "Números pintados", de: "Gemalte Zahlen", nl: "Geschilderde cijfers" },
+          { en: "Cast iron numerals backed by opal glass", es: "Números de hierro fundido respaldados por vidrio opalino", de: "Gusseiserne Ziffern hinterlegt mit Opalglas", nl: "Gietijzeren cijfers ondersteund door opaalglas" },
+          { en: "LED displays", es: "Pantallas LED", de: "LED-Anzeigen", nl: "LED-displays" },
+          { en: "Gold leaf", es: "Hoja de oro", de: "Blattgold", nl: "Bladgoud" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Roman numerals are made of cast iron mounted on a framework and backed by opal glass panels. This combination provides the structure, visibility, and weather protection needed for a large outdoor clock face.",
+          es: "Los números romanos están hechos de hierro fundido montado en un marco y respaldados por paneles de vidrio opalino. Esta combinación proporciona la estructura, visibilidad y protección contra el clima necesarios para una gran esfera de reloj al aire libre.",
+          de: "Die römischen Ziffern bestehen aus Gusseisen, das auf einem Rahmen montiert und mit Opalglasplatten hinterlegt ist. Diese Kombination bietet die Struktur, Sichtbarkeit und Wetterschutz, die für ein großes Außenzifferblatt erforderlich sind.",
+          nl: "De Romeinse cijfers zijn gemaakt van gietijzer gemonteerd op een raamwerk en ondersteund door opaalglazen panelen. Deze combinatie biedt de structuur, zichtbaarheid en weerbescherming die nodig is voor een grote buitenwijzerplaat."
+        }
+      },
+      {
+        question: {
+          en: "How does temperature affect the clock's timekeeping?",
+          es: "¿Cómo afecta la temperatura al cronometraje del reloj?",
+          de: "Wie beeinflusst die Temperatur die Zeitmessung der Uhr?",
+          nl: "Hoe beïnvloedt temperatuur de tijdwaarneming van de klok?"
+        },
+        options: [
+          { en: "No effect - fully compensated", es: "Sin efecto - totalmente compensado", de: "Kein Effekt - vollständig kompensiert", nl: "Geen effect - volledig gecompenseerd" },
+          { en: "Metal expansion/contraction requires manual adjustment", es: "Expansión/contracción del metal requiere ajuste manual", de: "Metallausdehnung/-kontraktion erfordert manuelle Anpassung", nl: "Metaaluitzetting/-krimp vereist handmatige aanpassing" },
+          { en: "Automatic temperature compensation", es: "Compensación automática de temperatura", de: "Automatische Temperaturkompensation", nl: "Automatische temperatuurcompensatie" },
+          { en: "Climate controlled chamber", es: "Cámara climatizada", de: "Klimatisierte Kammer", nl: "Klimaatgecontroleerde kamer" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Temperature changes cause the pendulum and mechanism to expand or contract, affecting timekeeping. Clockkeepers monitor these effects and make manual adjustments using the penny system to compensate for seasonal temperature variations.",
+          es: "Los cambios de temperatura hacen que el péndulo y el mecanismo se expandan o contraigan, afectando el cronometraje. Los relojeros monitorean estos efectos y hacen ajustes manuales usando el sistema de peniques para compensar las variaciones de temperatura estacionales.",
+          de: "Temperaturänderungen führen dazu, dass das Pendel und der Mechanismus sich ausdehnen oder zusammenziehen, was die Zeitmessung beeinflusst. Uhrmacher überwachen diese Effekte und nehmen manuelle Anpassungen mit dem Penny-System vor, um saisonale Temperaturschwankungen auszugleichen.",
+          nl: "Temperatuurveranderingen zorgen ervoor dat de slinger en het mechanisme uitzetten of krimpen, wat de tijdwaarneming beïnvloedt. Klokbewaarders monitoren deze effecten en maken handmatige aanpassingen met behulp van het pennysysteem om seizoensgebonden temperatuurvariaties te compenseren."
+        }
+      },
+      {
+        question: {
+          en: "What engineering innovation prevents overwinding?",
+          es: "¿Qué innovación de ingeniería previene el sobreaccionamiento?",
+          de: "Welche technische Innovation verhindert Überwinden?",
+          nl: "Welke technische innovatie voorkomt overopwinden?"
+        },
+        options: [
+          { en: "Automatic stop mechanism", es: "Mecanismo de parada automática", de: "Automatischer Stoppmechanismus", nl: "Automatisch stopmechanisme" },
+          { en: "Manual counting system and experienced clockkeepers", es: "Sistema de conteo manual y relojeros experimentados", de: "Manuelles Zählsystem und erfahrene Uhrmacher", nl: "Handmatig telsysteem en ervaren klokbewaarders" },
+          { en: "Electronic sensor", es: "Sensor electrónico", de: "Elektronischer Sensor", nl: "Elektronische sensor" },
+          { en: "Spring-loaded release", es: "Liberación con resorte", de: "Federbelastete Freigabe", nl: "Veerbelaste vrijgave" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The clock relies on experienced clockkeepers who manually count turns during the winding process. This traditional method, combined with visual inspection, prevents overwinding that could damage the mechanism or snap the cables.",
+          es: "El reloj depende de relojeros experimentados que cuentan manualmente las vueltas durante el proceso de cuerda. Este método tradicional, combinado con inspección visual, previene el sobreaccionamiento que podría dañar el mecanismo o romper los cables.",
+          de: "Die Uhr verlässt sich auf erfahrene Uhrmacher, die während des Aufziehvorgangs manuell die Umdrehungen zählen. Diese traditionelle Methode, kombiniert mit visueller Inspektion, verhindert Überwinden, das den Mechanismus beschädigen oder die Kabel reißen könnte.",
+          nl: "De klok is afhankelijk van ervaren klokbewaarders die handmatig de beurten tellen tijdens het opwindproces. Deze traditionele methode, gecombineerd met visuele inspectie, voorkomt overopwinden dat het mechanisme zou kunnen beschadigen of de kabels zou kunnen breken."
+        }
+      },
+      {
+        question: {
+          en: "What stress analysis was conducted on the bell after cracking?",
+          es: "¿Qué análisis de estrés se realizó en la campana después de agrietarse?",
+          de: "Welche Spannungsanalyse wurde an der Glocke nach dem Riss durchgeführt?",
+          nl: "Welke spanningsanalyse werd uitgevoerd op de klok na het scheuren?"
+        },
+        options: [
+          { en: "None - immediate replacement", es: "Ninguno - reemplazo inmediato", de: "Keine - sofortige Ersetzung", nl: "Geen - onmiddellijke vervanging" },
+          { en: "Victorian engineers studied crack propagation and repositioned hammer", es: "Ingenieros victorianos estudiaron propagación de grieta y reposicionaron martillo", de: "Viktorianische Ingenieure untersuchten Rissausbreitung und positionierten Hammer neu", nl: "Victoriaanse ingenieurs bestudeerden scheurpropagatie en herpositioneerden hamer" },
+          { en: "Computer simulation", es: "Simulación por computadora", de: "Computersimulation", nl: "Computersimulatie" },
+          { en: "X-ray analysis only", es: "Solo análisis de rayos X", de: "Nur Röntgenanalyse", nl: "Alleen röntgenanalyse" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Victorian engineers carefully studied the crack's propagation pattern. They repositioned the bell and hammer so the hammer strikes away from the crack, preventing further damage while allowing continued use of the damaged bell.",
+          es: "Los ingenieros victorianos estudiaron cuidadosamente el patrón de propagación de la grieta. Reposicionaron la campana y el martillo para que el martillo golpee lejos de la grieta, previniendo más daños mientras permitían el uso continuo de la campana dañada.",
+          de: "Viktorianische Ingenieure untersuchten sorgfältig das Ausbreitungsmuster des Risses. Sie positionierten die Glocke und den Hammer neu, sodass der Hammer vom Riss entfernt schlägt, wodurch weitere Schäden verhindert werden, während die Verwendung der beschädigten Glocke fortgesetzt werden kann.",
+          nl: "Victoriaanse ingenieurs bestudeerden zorgvuldig het propagatiepatroon van de scheur. Ze herpositioneerden de klok en hamer zodat de hamer weg van de scheur slaat, waardoor verdere schade wordt voorkomen terwijl voortgezet gebruik van de beschadigde klok mogelijk blijft."
+        }
+      },
+      {
+        question: {
+          en: "What maintenance schedule does the Great Clock follow?",
+          es: "¿Qué programa de mantenimiento sigue el Gran Reloj?",
+          de: "Welchem Wartungsplan folgt die Große Uhr?",
+          nl: "Welk onderhoudsschema volgt de Grote Klok?"
+        },
+        options: [
+          { en: "Annual overhaul only", es: "Solo revisión anual", de: "Nur jährliche Überholung", nl: "Alleen jaarlijkse revisie" },
+          { en: "Three-times-weekly winding plus regular inspections", es: "Cuerda tres veces por semana más inspecciones regulares", de: "Dreimaliges wöchentliches Aufziehen plus regelmäßige Inspektionen", nl: "Drie keer per week opwinden plus regelmatige inspecties" },
+          { en: "Monthly checks", es: "Chequeos mensuales", de: "Monatliche Überprüfungen", nl: "Maandelijkse controles" },
+          { en: "No regular schedule", es: "Sin programa regular", de: "Kein regelmäßiger Zeitplan", nl: "Geen regelmatig schema" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Clockkeepers wind the clock three times per week and conduct regular inspections. This intensive maintenance schedule, combined with periodic deep cleaning and lubrication, ensures the 19th-century mechanism continues operating reliably.",
+          es: "Los relojeros dan cuerda al reloj tres veces por semana y realizan inspecciones regulares. Este programa de mantenimiento intensivo, combinado con limpieza profunda periódica y lubricación, asegura que el mecanismo del siglo XIX continúe operando de manera confiable.",
+          de: "Uhrmacher ziehen die Uhr dreimal pro Woche auf und führen regelmäßige Inspektionen durch. Dieser intensive Wartungsplan, kombiniert mit periodischer Tiefenreinigung und Schmierung, stellt sicher, dass der Mechanismus aus dem 19. Jahrhundert weiterhin zuverlässig funktioniert.",
+          nl: "Klokbewaarders winden de klok drie keer per week op en voeren regelmatige inspecties uit. Dit intensieve onderhoudsschema, gecombineerd met periodieke grondige reiniging en smering, zorgt ervoor dat het 19e-eeuwse mechanisme betrouwbaar blijft werken."
+        }
+      },
+      {
+        question: {
+          en: "What vibration dampening prevents tower resonance?",
+          es: "¿Qué amortiguación de vibraciones previene la resonancia de la torre?",
+          de: "Welche Schwingungsdämpfung verhindert Turmresonanz?",
+          nl: "Welke trillingsdemping voorkomt torenresonantie?"
+        },
+        options: [
+          { en: "Rubber isolation mounts", es: "Montajes de aislamiento de goma", de: "Gummiisolierungshalterungen", nl: "Rubber isolatiemontages" },
+          { en: "Bell mounting design and tower mass provide natural dampening", es: "Diseño de montaje de campana y masa de torre proporcionan amortiguación natural", de: "Glockenaufhängungsdesign und Turmmasse bieten natürliche Dämpfung", nl: "Klokmonteringsontwerp en torenmassa bieden natuurlijke demping" },
+          { en: "Active dampening system", es: "Sistema de amortiguación activo", de: "Aktives Dämpfungssystem", nl: "Actief dempingssysteem" },
+          { en: "No dampening needed", es: "No se necesita amortiguación", de: "Keine Dämpfung erforderlich", nl: "Geen demping nodig" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The bell's mounting design and the tower's massive stone construction provide natural vibration dampening. The sheer mass and Gothic architecture prevent harmful resonance when the 13.7-ton bell strikes, protecting both bell and structure.",
+          es: "El diseño de montaje de la campana y la construcción masiva de piedra de la torre proporcionan amortiguación natural de vibraciones. La gran masa y la arquitectura gótica previenen resonancia dañina cuando la campana de 13.7 toneladas golpea, protegiendo tanto la campana como la estructura.",
+          de: "Das Aufhängungsdesign der Glocke und die massive Steinkonstruktion des Turms bieten natürliche Schwingungsdämpfung. Die schiere Masse und gotische Architektur verhindern schädliche Resonanz, wenn die 13,7-Tonnen-Glocke schlägt, und schützen sowohl Glocke als auch Struktur.",
+          nl: "Het monteringsontwerp van de klok en de massieve stenen constructie van de toren bieden natuurlijke trillingsdemping. De pure massa en gotische architectuur voorkomen schadelijke resonantie wanneer de 13,7-tons klok slaat, wat zowel klok als structuur beschermt."
+        }
+      },
+      {
+        question: {
+          en: "What diagnostic tools detect mechanical wear?",
+          es: "¿Qué herramientas de diagnóstico detectan el desgaste mecánico?",
+          de: "Welche Diagnosewerkzeuge erkennen mechanischen Verschleiß?",
+          nl: "Welke diagnostische hulpmiddelen detecteren mechanische slijtage?"
+        },
+        options: [
+          { en: "Ultrasonic testing", es: "Pruebas ultrasónicas", de: "Ultraschallprüfung", nl: "Ultrasoon testen" },
+          { en: "Visual inspection and sound analysis by experienced clockkeepers", es: "Inspección visual y análisis de sonido por relojeros experimentados", de: "Visuelle Inspektion und Klanganalyse durch erfahrene Uhrmacher", nl: "Visuele inspectie en geluidsanalyse door ervaren klokbewaarders" },
+          { en: "Thermal imaging", es: "Imágenes térmicas", de: "Wärmebildgebung", nl: "Thermische beeldvorming" },
+          { en: "Computer monitoring only", es: "Solo monitoreo por computadora", de: "Nur Computerüberwachung", nl: "Alleen computermonitoring" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Experienced clockkeepers use traditional visual inspection and listen to the mechanism's sounds to detect wear. Changes in noise patterns, visual wear on gears, and performance monitoring reveal when components need attention or replacement.",
+          es: "Los relojeros experimentados usan inspección visual tradicional y escuchan los sonidos del mecanismo para detectar desgaste. Los cambios en patrones de ruido, desgaste visual en engranajes y monitoreo de rendimiento revelan cuándo los componentes necesitan atención o reemplazo.",
+          de: "Erfahrene Uhrmacher verwenden traditionelle visuelle Inspektion und hören auf die Geräusche des Mechanismus, um Verschleiß zu erkennen. Änderungen in Geräuschmustern, sichtbarer Verschleiß an Zahnrädern und Leistungsüberwachung zeigen, wann Komponenten Aufmerksamkeit oder Austausch benötigen.",
+          nl: "Ervaren klokbewaarders gebruiken traditionele visuele inspectie en luisteren naar de geluiden van het mechanisme om slijtage te detecteren. Veranderingen in geluidspatronen, visuele slijtage op tandwielen en prestatiemonitoring onthullen wanneer componenten aandacht of vervanging nodig hebben."
+        }
+      },
+      {
+        question: {
+          en: "What role does humidity control play in preservation?",
+          es: "¿Qué papel juega el control de humedad en la preservación?",
+          de: "Welche Rolle spielt die Feuchtigkeitskontrolle bei der Erhaltung?",
+          nl: "Welke rol speelt vochtigheidcontrole bij het behoud?"
+        },
+        options: [
+          { en: "Full climate control system", es: "Sistema de control climático completo", de: "Vollständiges Klimakontrollsystem", nl: "Volledig klimaatcontrolesysteem" },
+          { en: "Natural ventilation manages moisture levels", es: "Ventilación natural gestiona niveles de humedad", de: "Natürliche Belüftung verwaltet Feuchtigkeitsniveaus", nl: "Natuurlijke ventilatie beheert vochtigheidsniveaus" },
+          { en: "Dehumidifiers throughout", es: "Deshumidificadores en todo", de: "Luftentfeuchter überall", nl: "Ontvochtiger overal" },
+          { en: "Sealed environment", es: "Ambiente sellado", de: "Versiegelte Umgebung", nl: "Verzegelde omgeving" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The tower relies on natural ventilation through its Gothic openings to manage humidity. This passive system prevents moisture accumulation that could corrode the iron mechanism while avoiding modern climate control that might conflict with the historic structure.",
+          es: "La torre depende de la ventilación natural a través de sus aberturas góticas para gestionar la humedad. Este sistema pasivo previene la acumulación de humedad que podría corroer el mecanismo de hierro mientras evita el control climático moderno que podría entrar en conflicto con la estructura histórica.",
+          de: "Der Turm verlässt sich auf natürliche Belüftung durch seine gotischen Öffnungen zur Feuchtigkeitsverwaltung. Dieses passive System verhindert Feuchtigkeitsansammlung, die den Eisenmechanismus korrodieren könnte, während es moderne Klimakontrolle vermeidet, die mit der historischen Struktur kollidieren könnte.",
+          nl: "De toren vertrouwt op natuurlijke ventilatie door zijn gotische openingen om vochtigheid te beheren. Dit passieve systeem voorkomt vochtophoping die het ijzeren mechanisme zou kunnen corroderen, terwijl moderne klimaatcontrole wordt vermeden die in conflict zou kunnen komen met de historische structuur."
+        }
       }
     ]
   };

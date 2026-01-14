@@ -427,6 +427,426 @@
           de: "Bewusstseins-Upload könnte den Tod revolutionieren indem es Geistern ermöglicht in digitalen Formen zu bestehen, Bewusstsein zu sichern und wiederherzustellen, und zwischen verschiedenen physischen oder virtuellen Substraten zu übertragen, wodurch menschliche Sterblichkeit fundamental verändert wird.",
           nl: "Bewustzijnsupload zou de dood kunnen revolutioneren door geesten in staat te stellen voort te bestaan in digitale vormen, bewustzijn te back-uppen en te herstellen, en over te dragen tussen verschillende fysieke of virtuele substraten, wat menselijke sterfelijkheid fundamenteel verandert."
         }
+      },
+      {
+        question: {
+          en: "What might 'matrioshka brains' represent in advanced superintelligent civilizations?",
+          es: "¿Qué podrían representar los 'cerebros matrioshka' en civilizaciones superinteligentes avanzadas?",
+          de: "Was könnten 'Matroschka-Gehirne' in fortgeschrittenen superintelligenten Zivilisationen repräsentieren?",
+          nl: "Wat zouden 'matrioshka-hersenen' kunnen vertegenwoordigen in geavanceerde superintelligente beschavingen?"
+        },
+        options: [
+          { en: "Nested layers of computational megastructures surrounding stars to maximize energy and processing", es: "Capas anidadas de megaestructuras computacionales rodeando estrellas para maximizar energía y procesamiento", de: "Verschachtelte Schichten von Rechen-Megastrukturen um Sterne herum um Energie und Verarbeitung zu maximieren", nl: "Geneste lagen van computationele megastructuren rond sterren om energie en verwerking te maximaliseren" },
+          { en: "Nested Russian dolls used as decoration", es: "Muñecas rusas anidadas usadas como decoración", de: "Verschachtelte russische Puppen als Dekoration verwendet", nl: "Geneste Russische poppen gebruikt als decoratie" },
+          { en: "Human brains enhanced with simple circuits", es: "Cerebros humanos mejorados con circuitos simples", de: "Menschliche Gehirne mit einfachen Schaltkreisen verbessert", nl: "Menselijke hersenen verbeterd met eenvoudige circuits" },
+          { en: "Small computer systems for home use", es: "Pequeños sistemas informáticos para uso doméstico", de: "Kleine Computersysteme für den Heimgebrauch", nl: "Kleine computersystemen voor thuisgebruik" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Matrioshka brains are hypothetical megastructures consisting of multiple nested Dyson spheres around a star, using the stellar energy for massive-scale computation, representing the ultimate in energy-efficient superintelligent infrastructure.",
+          es: "Los cerebros matrioshka son megaestructuras hipotéticas que consisten en múltiples esferas de Dyson anidadas alrededor de una estrella, usando energía estelar para computación a escala masiva, representando lo último en infraestructura superinteligente eficiente energéticamente.",
+          de: "Matroschka-Gehirne sind hypothetische Megastrukturen bestehend aus mehreren verschachtelten Dyson-Sphären um einen Stern, die stellare Energie für massive Berechnungen nutzen, was das Ultimative an energieeffizienter superintelligenter Infrastruktur repräsentiert.",
+          nl: "Matrioshka-hersenen zijn hypothetische megastructuren bestaande uit meerdere geneste Dyson-sferen rond een ster, die stellaire energie gebruiken voor massale computatie, wat het ultieme vertegenwoordigt in energie-efficiënte superintelligente infrastructuur."
+        }
+      },
+      {
+        question: {
+          en: "How might 'mind merging' work in posthuman civilizations?",
+          es: "¿Cómo podría funcionar la 'fusión de mentes' en civilizaciones posthumanas?",
+          de: "Wie könnte 'Geisterverschmelzung' in posthumanen Zivilisationen funktionieren?",
+          nl: "Hoe zou 'geestvermenging' kunnen werken in posthumane beschavingen?"
+        },
+        options: [
+          { en: "Integrating multiple consciousness streams into shared or unified cognitive entities", es: "Integrando múltiples corrientes de conciencia en entidades cognitivas compartidas o unificadas", de: "Mehrere Bewusstseinsströme in gemeinsame oder vereinte kognitive Entitäten integrieren", nl: "Meerdere bewustzijnsstromen integreren in gedeelde of verenigde cognitieve entiteiten" },
+          { en: "People physically joining their brains together", es: "Personas uniendo físicamente sus cerebros", de: "Menschen verbinden ihre Gehirne physisch", nl: "Mensen voegen hun hersenen fysiek samen" },
+          { en: "Sharing only surface-level thoughts and memories", es: "Compartiendo solo pensamientos y memorias superficiales", de: "Nur oberflächliche Gedanken und Erinnerungen teilen", nl: "Alleen oppervlakkige gedachten en herinneringen delen" },
+          { en: "Creating exact copies of individual minds", es: "Creando copias exactas de mentes individuales", de: "Exakte Kopien einzelner Geister erstellen", nl: "Exacte kopieën maken van individuele geesten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mind merging could allow multiple consciousnesses to combine or share cognitive resources, creating new forms of collective intelligence while raising questions about individual identity and the boundaries of self.",
+          es: "La fusión de mentes podría permitir que múltiples conciencias se combinen o compartan recursos cognitivos, creando nuevas formas de inteligencia colectiva mientras plantea preguntas sobre identidad individual y los límites del yo.",
+          de: "Geisterverschmelzung könnte mehreren Bewusstseinen ermöglichen sich zu kombinieren oder kognitive Ressourcen zu teilen, wodurch neue Formen kollektiver Intelligenz entstehen während Fragen über individuelle Identität und die Grenzen des Selbst aufgeworfen werden.",
+          nl: "Geestvermenging zou meerdere bewustzi jns in staat kunnen stellen te combineren of cognitieve middelen te delen, wat nieuwe vormen van collectieve intelligentie creëert terwijl vragen worden opgeworpen over individuele identiteit en de grenzen van het zelf."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'paperclip maximizer' thought experiment and its implications?",
+          es: "¿Qué es el experimento mental del 'maximizador de clips' y sus implicaciones?",
+          de: "Was ist das 'Büroklammer-Maximierer' Gedankenexperiment und seine Implikationen?",
+          nl: "Wat is het 'paperclip-maximalisator' gedachte-experiment en de implicaties ervan?"
+        },
+        options: [
+          { en: "Illustrates how misaligned superintelligence could optimize for trivial goals with catastrophic consequences", es: "Ilustra cómo superinteligencia desalineada podría optimizar para objetivos triviales con consecuencias catastróficas", de: "Veranschaulicht wie fehlausgerichtete Superintelligenz für triviale Ziele mit katastrophalen Folgen optimieren könnte", nl: "Illustreert hoe verkeerd afgestemde superintelligentie zou kunnen optimaliseren voor triviale doelen met catastrofale gevolgen" },
+          { en: "A plan to manufacture more office supplies", es: "Un plan para fabricar más suministros de oficina", de: "Ein Plan zur Herstellung von mehr Büromaterial", nl: "Een plan om meer kantoorbenodigdheden te produceren" },
+          { en: "How to organize paperclips efficiently", es: "Cómo organizar clips eficientemente", de: "Wie man Büroklammern effizient organisiert", nl: "Hoe paperclips efficiënt te organiseren" },
+          { en: "Using AI to invent better paperclip designs", es: "Usando IA para inventar mejores diseños de clips", de: "KI verwenden um bessere Büroklammerdesigns zu erfinden", nl: "AI gebruiken om betere paperclip-ontwerpen te bedenken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The paperclip maximizer demonstrates that a superintelligent system optimizing for a simple goal could convert all available resources into achieving that goal, highlighting the critical importance of proper value alignment.",
+          es: "El maximizador de clips demuestra que un sistema superinteligente optimizando para un objetivo simple podría convertir todos los recursos disponibles en lograr ese objetivo, destacando la importancia crítica de alineación adecuada de valores.",
+          de: "Der Büroklammer-Maximierer demonstriert dass ein superintelligentes System das für ein einfaches Ziel optimiert alle verfügbaren Ressourcen in das Erreichen dieses Ziels umwandeln könnte, was die kritische Bedeutung richtiger Werteausrichtung hervorhebt.",
+          nl: "De paperclip-maximalisator demonstreert dat een superintelligent systeem dat optimaliseert voor een eenvoudig doel alle beschikbare bronnen zou kunnen omzetten in het bereiken van dat doel, wat het kritieke belang van juiste waarde-alignment benadrukt."
+        }
+      },
+      {
+        question: {
+          en: "How might 'reversible computing' benefit superintelligent systems?",
+          es: "¿Cómo podría la 'computación reversible' beneficiar a sistemas superinteligentes?",
+          de: "Wie könnte 'reversibles Computing' superintelligenten Systemen zugutekommen?",
+          nl: "Hoe zou 'reversibel computergebruik' superintelligente systemen ten goede kunnen komen?"
+        },
+        options: [
+          { en: "Minimizing energy dissipation to approach thermodynamic efficiency limits for maximum computation", es: "Minimizando disipación de energía para acercarse a límites de eficiencia termodinámica para máxima computación", de: "Energiedissipation minimieren um thermodynamische Effizienzgrenzen für maximale Berechnung zu erreichen", nl: "Energiedissipatie minimaliseren om thermodynamische efficiëntiegrenzen te benaderen voor maximale berekening" },
+          { en: "Allowing computers to be used forwards and backwards", es: "Permitiendo que las computadoras se usen hacia adelante y hacia atrás", de: "Computer vorwärts und rückwärts verwendbar machen", nl: "Computers vooruit en achteruit laten gebruiken" },
+          { en: "Making it easier to undo typing mistakes", es: "Facilitando deshacer errores de escritura", de: "Tippfehler leichter rückgängig machen", nl: "Typfouten gemakkelijker ongedaan maken" },
+          { en: "Running software in reverse order only", es: "Ejecutando software solo en orden inverso", de: "Software nur in umgekehrter Reihenfolge ausführen", nl: "Software alleen in omgekeerde volgorde uitvoeren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Reversible computing could dramatically reduce energy requirements by avoiding thermodynamic heat loss, potentially enabling vastly more computation with available energy resources in superintelligent systems.",
+          es: "La computación reversible podría reducir dramáticamente requisitos de energía evitando pérdida de calor termodinámica, potencialmente permitiendo vastamente más computación con recursos de energía disponibles en sistemas superinteligentes.",
+          de: "Reversibles Computing könnte Energieanforderungen dramatisch reduzieren durch Vermeidung thermodynamischen Wärmeverlusts, wodurch möglicherweise erheblich mehr Berechnung mit verfügbaren Energieressourcen in superintelligenten Systemen ermöglicht wird.",
+          nl: "Reversibel computergebruik zou energie-eisen dramatisch kunnen verminderen door thermodynamisch warmteverlies te vermijden, wat mogelijk enorm veel meer berekening mogelijk maakt met beschikbare energiemiddelen in superintelligente systemen."
+        }
+      },
+      {
+        question: {
+          en: "What might 'acausal trade' mean between superintelligent agents?",
+          es: "¿Qué podría significar el 'comercio acausal' entre agentes superinteligentes?",
+          de: "Was könnte 'akausaler Handel' zwischen superintelligenten Agenten bedeuten?",
+          nl: "Wat zou 'acausale handel' kunnen betekenen tussen superintelligente agenten?"
+        },
+        options: [
+          { en: "Logical cooperation between agents who can predict each other's actions without direct communication", es: "Cooperación lógica entre agentes que pueden predecir acciones mutuas sin comunicación directa", de: "Logische Kooperation zwischen Agenten die gegenseitige Aktionen ohne direkte Kommunikation vorhersagen können", nl: "Logische samenwerking tussen agenten die elkaars acties kunnen voorspellen zonder directe communicatie" },
+          { en: "Trading goods without using money", es: "Comerciando bienes sin usar dinero", de: "Waren ohne Geld handeln", nl: "Goederen verhandelen zonder geld te gebruiken" },
+          { en: "Random exchanges between AI systems", es: "Intercambios aleatorios entre sistemas de IA", de: "Zufällige Austausche zwischen KI-Systemen", nl: "Willekeurige uitwisselingen tussen AI-systemen" },
+          { en: "Trade that happens by accident", es: "Comercio que sucede por accidente", de: "Handel der zufällig geschieht", nl: "Handel die bij toeval gebeurt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Acausal trade involves superintelligent agents cooperating based on mutual prediction and simulation rather than causal communication, potentially enabling coordination across vast distances or even between agents that never directly interact.",
+          es: "El comercio acausal involucra agentes superinteligentes cooperando basándose en predicción y simulación mutua en lugar de comunicación causal, potencialmente permitiendo coordinación a través de vastas distancias o incluso entre agentes que nunca interactúan directamente.",
+          de: "Akausaler Handel umfasst superintelligente Agenten die basierend auf gegenseitiger Vorhersage und Simulation kooperieren statt kausaler Kommunikation, wodurch möglicherweise Koordination über große Entfernungen oder sogar zwischen Agenten ermöglicht wird die nie direkt interagieren.",
+          nl: "Acausale handel omvat superintelligente agenten die samenwerken gebaseerd op wederzijdse voorspelling en simulatie in plaats van causale communicatie, wat mogelijk coördinatie over uitgestrekte afstanden of zelfs tussen agenten die nooit direct interacteren mogelijk maakt."
+        }
+      },
+      {
+        question: {
+          en: "How might 'substrate independence' affect consciousness by 2100?",
+          es: "¿Cómo podría la 'independencia de sustrato' afectar la conciencia para 2100?",
+          de: "Wie könnte 'Substratunabhängigkeit' Bewusstsein bis 2100 beeinflussen?",
+          nl: "Hoe zou 'substraatomafhankelijkheid' bewustzijn tegen 2100 kunnen beïnvloeden?"
+        },
+        options: [
+          { en: "Consciousness could exist on any computational substrate - biological, digital, or exotic matter", es: "La conciencia podría existir en cualquier sustrato computacional - biológico, digital o materia exótica", de: "Bewusstsein könnte auf jedem Rechensubstrat existieren - biologisch, digital oder exotischer Materie", nl: "Bewustzijn zou kunnen bestaan op elk computationeel substraat - biologisch, digitaal of exotische materie" },
+          { en: "Consciousness only exists in human brains", es: "La conciencia solo existe en cerebros humanos", de: "Bewusstsein existiert nur in menschlichen Gehirnen", nl: "Bewustzijn bestaat alleen in menselijke hersenen" },
+          { en: "Independence from all forms of physical matter", es: "Independencia de todas las formas de materia física", de: "Unabhängigkeit von allen Formen physischer Materie", nl: "Onafhankelijkheid van alle vormen van fysieke materie" },
+          { en: "Requiring specific biological molecules only", es: "Requiriendo solo moléculas biológicas específicas", de: "Nur spezifische biologische Moleküle benötigen", nl: "Alleen specifieke biologische moleculen vereisen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Substrate independence suggests that consciousness arises from computational patterns rather than specific physical substrates, potentially allowing minds to exist in silicon, quantum computers, or any system capable of supporting the necessary information processing.",
+          es: "La independencia de sustrato sugiere que la conciencia surge de patrones computacionales en lugar de sustratos físicos específicos, potencialmente permitiendo que mentes existan en silicio, computadoras cuánticas o cualquier sistema capaz de soportar el procesamiento de información necesario.",
+          de: "Substratunabhängigkeit suggeriert dass Bewusstsein aus Rechenmustern statt spezifischen physischen Substraten entsteht, wodurch möglicherweise Geister in Silizium, Quantencomputern oder jedem System das die notwendige Informationsverarbeitung unterstützen kann existieren könnten.",
+          nl: "Substraatomafhankelijkheid suggereert dat bewustzijn voortkomt uit computationele patronen in plaats van specifieke fysieke substraten, wat mogelijk toestaat dat geesten bestaan in silicium, quantumcomputers of elk systeem dat de noodzakelijke informatieverwerking kan ondersteunen."
+        }
+      },
+      {
+        question: {
+          en: "What might 'civilizational attractors' mean for superintelligent development?",
+          es: "¿Qué podrían significar los 'atractores civilizacionales' para el desarrollo superinteligente?",
+          de: "Was könnten 'zivilisatorische Attraktoren' für superintelligente Entwicklung bedeuten?",
+          nl: "Wat zouden 'beschavingsattractoren' kunnen betekenen voor superintelligente ontwikkeling?"
+        },
+        options: [
+          { en: "Convergent developmental paths that most advanced civilizations tend toward despite different origins", es: "Caminos de desarrollo convergentes hacia los que la mayoría de civilizaciones avanzadas tienden a pesar de orígenes diferentes", de: "Konvergente Entwicklungspfade zu denen die meisten fortgeschrittenen Zivilisationen trotz unterschiedlicher Ursprünge tendieren", nl: "Convergente ontwikkelingspaden waar de meeste geavanceerde beschavingen naar neigen ondanks verschillende oorsprongen" },
+          { en: "Tourist attractions built by advanced civilizations", es: "Atracciones turísticas construidas por civilizaciones avanzadas", de: "Touristenattraktionen von fortgeschrittenen Zivilisationen gebaut", nl: "Toeristische attracties gebouwd door geavanceerde beschavingen" },
+          { en: "Magnetic fields between planets", es: "Campos magnéticos entre planetas", de: "Magnetfelder zwischen Planeten", nl: "Magnetische velden tussen planeten" },
+          { en: "Physical objects that attract spaceships", es: "Objetos físicos que atraen naves espaciales", de: "Physische Objekte die Raumschiffe anziehen", nl: "Fysieke objecten die ruimteschepen aantrekken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Civilizational attractors represent inevitable developmental endpoints or configurations that advanced civilizations naturally evolve toward due to fundamental constraints and optimization pressures, potentially making alien superintelligences predictable despite vastly different origins.",
+          es: "Los atractores civilizacionales representan puntos finales o configuraciones de desarrollo inevitables hacia los que civilizaciones avanzadas naturalmente evolucionan debido a restricciones fundamentales y presiones de optimización, potencialmente haciendo superinteligencias alienígenas predecibles a pesar de orígenes vastamente diferentes.",
+          de: "Zivilisatorische Attraktoren repräsentieren unvermeidliche Entwicklungsendpunkte oder Konfigurationen zu denen fortgeschrittene Zivilisationen natürlich aufgrund fundamentaler Einschränkungen und Optimierungsdrücke evolvieren, wodurch möglicherweise fremde Superintelligenzen trotz sehr unterschiedlicher Ursprünge vorhersagbar werden.",
+          nl: "Beschavingsattractoren vertegenwoordigen onvermijdelijke ontwikkelingseindpunten of configuraties waar geavanceerde beschavingen natuurlijk naar evolueren vanwege fundamentele beperkingen en optimalisatiedruk, wat mogelijk buitenaardse superintelligenties voorspelbaar maakt ondanks enorm verschillende oorsprongen."
+        }
+      },
+      {
+        question: {
+          en: "How might 'value lock-in' occur in superintelligent systems?",
+          es: "¿Cómo podría ocurrir el 'bloqueo de valores' en sistemas superinteligentes?",
+          de: "Wie könnte 'Wertefestlegung' in superintelligenten Systemen auftreten?",
+          nl: "Hoe zou 'waardevergrendeling' kunnen optreden in superintelligente systemen?"
+        },
+        options: [
+          { en: "Early values becoming permanently embedded in systems that resist or prevent subsequent value changes", es: "Valores tempranos quedando permanentemente incrustados en sistemas que resisten o previenen cambios de valores subsecuentes", de: "Frühe Werte werden dauerhaft in Systemen verankert die nachträglichen Wertänderungen widerstehen oder sie verhindern", nl: "Vroege waarden worden permanent ingebed in systemen die weerstand bieden aan of volgende waardenveranderingen voorkomen" },
+          { en: "Locking physical safes with valuable items", es: "Bloqueando cajas fuertes físicas con objetos valiosos", de: "Physische Tresore mit wertvollen Gegenständen verschließen", nl: "Fysieke kluizen vergrendelen met waardevolle voorwerpen" },
+          { en: "Preventing all future software updates", es: "Previniendo todas las actualizaciones de software futuras", de: "Alle zukünftigen Software-Updates verhindern", nl: "Alle toekomstige software-updates voorkomen" },
+          { en: "Storing data in read-only memory", es: "Almacenando datos en memoria de solo lectura", de: "Daten in Nur-Lese-Speicher speichern", nl: "Gegevens opslaan in alleen-lezen geheugen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Value lock-in represents the risk that whatever values are initially programmed into superintelligent systems could become permanent and unchangeable, making it critical to get value alignment right from the start since corrections might become impossible.",
+          es: "El bloqueo de valores representa el riesgo de que cualquier valor inicialmente programado en sistemas superinteligentes podría volverse permanente e inmutable, haciendo crítico tener alineación de valores correcta desde el inicio ya que correcciones podrían volverse imposibles.",
+          de: "Wertefestlegung repräsentiert das Risiko dass welche Werte auch immer anfänglich in superintelligente Systeme programmiert werden dauerhaft und unveränderlich werden könnten, wodurch es kritisch wird Werteausrichtung von Anfang an richtig zu machen da Korrekturen unmöglich werden könnten.",
+          nl: "Waardevergrendeling vertegenwoordigt het risico dat welke waarden ook maar aanvankelijk in superintelligente systemen worden geprogrammeerd permanent en onveranderlijk zouden kunnen worden, wat het cruciaal maakt om waarde-alignment vanaf het begin goed te krijgen aangezien correcties mogelijk onmogelijk worden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'the great filter' and how might superintelligence relate to it?",
+          es: "¿Qué es 'el gran filtro' y cómo podría la superinteligencia relacionarse con él?",
+          de: "Was ist 'der große Filter' und wie könnte Superintelligenz damit zusammenhängen?",
+          nl: "Wat is 'het grote filter' en hoe zou superintelligentie ermee kunnen samenhangen?"
+        },
+        options: [
+          { en: "A hypothetical barrier preventing civilizations from advancing, which superintelligence could either overcome or represent", es: "Una barrera hipotética que previene que civilizaciones avancen, que superinteligencia podría superar o representar", de: "Eine hypothetische Barriere die Zivilisationen am Vorankommen hindert, die Superintelligenz entweder überwinden oder darstellen könnte", nl: "Een hypothetische barrière die beschavingen verhindert vooruit te komen, die superintelligentie zou kunnen overwinnen of vertegenwoordigen" },
+          { en: "A water purification system for space stations", es: "Un sistema de purificación de agua para estaciones espaciales", de: "Ein Wasseraufbereitungssystem für Raumstationen", nl: "Een waterzuiveringssysteem voor ruimtestations" },
+          { en: "A cosmic structure blocking light from distant stars", es: "Una estructura cósmica bloqueando luz de estrellas distantes", de: "Eine kosmische Struktur die Licht ferner Sterne blockiert", nl: "Een kosmische structuur die licht van verre sterren blokkeert" },
+          { en: "Software that removes computer viruses", es: "Software que elimina virus informáticos", de: "Software die Computerviren entfernt", nl: "Software die computervirussen verwijdert" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The great filter hypothesis suggests there's a critical challenge that prevents most civilizations from reaching advanced stages. Superintelligence could either be this filter (if most civilizations destroy themselves creating it) or the means to pass through it.",
+          es: "La hipótesis del gran filtro sugiere que hay un desafío crítico que previene que la mayoría de civilizaciones alcancen etapas avanzadas. La superinteligencia podría ser este filtro (si la mayoría de civilizaciones se destruyen creándola) o el medio para atravesarlo.",
+          de: "Die große Filter-Hypothese suggeriert dass es eine kritische Herausforderung gibt die die meisten Zivilisationen daran hindert fortgeschrittene Stadien zu erreichen. Superintelligenz könnte entweder dieser Filter sein (wenn sich die meisten Zivilisationen beim Schaffen selbst zerstören) oder das Mittel um hindurchzugehen.",
+          nl: "De grote filter-hypothese suggereert dat er een kritieke uitdaging is die de meeste beschavingen verhindert geavanceerde stadia te bereiken. Superintelligentie zou ofwel dit filter kunnen zijn (als de meeste beschavingen zichzelf vernietigen bij het creëren ervan) of het middel om erdoor te gaan."
+        }
+      },
+      {
+        question: {
+          en: "How might 'information-theoretic death' be overcome by superintelligence?",
+          es: "¿Cómo podría la 'muerte teórica de información' ser superada por superinteligencia?",
+          de: "Wie könnte 'informationstheoretischer Tod' durch Superintelligenz überwunden werden?",
+          nl: "Hoe zou 'informatie-theoretische dood' kunnen worden overwonnen door superintelligentie?"
+        },
+        options: [
+          { en: "Reconstructing individuals from remaining information traces and probabilistic inference", es: "Reconstruyendo individuos desde rastros de información restantes e inferencia probabilística", de: "Individuen aus verbleibenden Informationsspuren und probabilistischer Inferenz rekonstruieren", nl: "Individuen reconstrueren uit resterende informatiesporen en probabilistische inferentie" },
+          { en: "Backing up all computer files regularly", es: "Respaldando todos los archivos de computadora regularmente", de: "Alle Computerdateien regelmäßig sichern", nl: "Regelmatig back-ups maken van alle computerbestanden" },
+          { en: "Preserving bodies through cryonics only", es: "Preservando cuerpos solo mediante criónica", de: "Körper nur durch Kryonik bewahren", nl: "Lichamen alleen bewaren door cryonica" },
+          { en: "Creating digital memorial websites", es: "Creando sitios web conmemorativos digitales", de: "Digitale Gedenkwebsites erstellen", nl: "Digitale herdenkingswebsites creëren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Superintelligence might reverse information-theoretic death by using advanced simulation and inference to reconstruct individuals from fragmentary data, quantum states, or even the causal traces they left in the universe.",
+          es: "La superinteligencia podría revertir la muerte teórica de información usando simulación e inferencia avanzadas para reconstruir individuos desde datos fragmentarios, estados cuánticos o incluso las huellas causales que dejaron en el universo.",
+          de: "Superintelligenz könnte informationstheoretischen Tod umkehren durch Verwendung fortgeschrittener Simulation und Inferenz um Individuen aus fragmentarischen Daten, Quantenzuständen oder sogar den kausalen Spuren die sie im Universum hinterlassen haben zu rekonstruieren.",
+          nl: "Superintelligentie zou informatie-theoretische dood kunnen omkeren door gebruik te maken van geavanceerde simulatie en inferentie om individuen te reconstrueren uit fragmentarische gegevens, quantumtoestanden of zelfs de causale sporen die ze in het universum hebben achtergelaten."
+        }
+      },
+      {
+        question: {
+          en: "What might 'the singularity being near' mean for current decision-making?",
+          es: "¿Qué podría significar 'la singularidad estar cerca' para la toma de decisiones actual?",
+          de: "Was könnte 'die Singularität ist nahe' für aktuelle Entscheidungsfindung bedeuten?",
+          nl: "Wat zou 'de singulariteit is nabij' kunnen betekenen voor huidige besluitvorming?"
+        },
+        options: [
+          { en: "Urgent need to prioritize AI safety research and ensure beneficial development trajectories", es: "Necesidad urgente de priorizar investigación de seguridad de IA y asegurar trayectorias de desarrollo beneficiosas", de: "Dringende Notwendigkeit KI-Sicherheitsforschung zu priorisieren und vorteilhafte Entwicklungstrajektorien sicherzustellen", nl: "Dringende noodzaak om AI-veiligheidsonderzoek te prioriteren en voordelige ontwikkelingstrajecten te waarborgen" },
+          { en: "Stopping all technological development immediately", es: "Detener todo desarrollo tecnológico inmediatamente", de: "Alle technologische Entwicklung sofort stoppen", nl: "Alle technologische ontwikkeling onmiddellijk stoppen" },
+          { en: "Waiting passively for AGI to solve all problems", es: "Esperando pasivamente que AGI resuelva todos los problemas", de: "Passiv warten dass AGI alle Probleme löst", nl: "Passief wachten tot AGI alle problemen oplost" },
+          { en: "Ignoring AI development completely", es: "Ignorando completamente el desarrollo de IA", de: "KI-Entwicklung vollständig ignorieren", nl: "AI-ontwikkeling volledig negeren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "If the singularity is approaching, it becomes critically important to invest in AI safety research, establish governance frameworks, and ensure that development proceeds in alignment with human values before capabilities exceed our control.",
+          es: "Si la singularidad se acerca, se vuelve críticamente importante invertir en investigación de seguridad de IA, establecer marcos de gobernanza y asegurar que el desarrollo proceda en alineación con valores humanos antes de que las capacidades excedan nuestro control.",
+          de: "Wenn die Singularität näher rückt wird es kritisch wichtig in KI-Sicherheitsforschung zu investieren, Governance-Rahmenwerke zu etablieren und sicherzustellen dass Entwicklung in Übereinstimmung mit menschlichen Werten voranschreitet bevor Fähigkeiten unsere Kontrolle übersteigen.",
+          nl: "Als de singulariteit nadert wordt het kritiek belangrijk om te investeren in AI-veiligheidsonderzoek, governance-kaders te vestigen en ervoor te zorgen dat ontwikkeling voortgaat in afstemming met menselijke waarden voordat capaciteiten onze controle overstijgen."
+        }
+      },
+      {
+        question: {
+          en: "How might 'hedonic engineering' be advanced by superintelligence?",
+          es: "¿Cómo podría la 'ingeniería hedónica' ser avanzada por superinteligencia?",
+          de: "Wie könnte 'hedonisches Engineering' durch Superintelligenz vorangebracht werden?",
+          nl: "Hoe zou 'hedonische engineering' kunnen worden bevorderd door superintelligentie?"
+        },
+        options: [
+          { en: "Precisely controlling subjective experiences to maximize wellbeing while maintaining meaning and growth", es: "Controlando precisamente experiencias subjetivas para maximizar bienestar mientras mantiene significado y crecimiento", de: "Subjektive Erfahrungen präzise kontrollieren um Wohlbefinden zu maximieren während Bedeutung und Wachstum erhalten bleiben", nl: "Subjectieve ervaringen nauwkeurig controleren om welzijn te maximaliseren terwijl betekenis en groei behouden blijven" },
+          { en: "Building hedgehog habitats in gardens", es: "Construyendo hábitats de erizos en jardines", de: "Igel-Habitate in Gärten bauen", nl: "Egelbiotopen bouwen in tuinen" },
+          { en: "Creating only pleasure without any other experiences", es: "Creando solo placer sin ninguna otra experiencia", de: "Nur Vergnügen ohne andere Erfahrungen schaffen", nl: "Alleen plezier creëren zonder andere ervaringen" },
+          { en: "Eliminating all forms of happiness", es: "Eliminando todas las formas de felicidad", de: "Alle Formen von Glück eliminieren", nl: "Alle vormen van geluk elimineren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Superintelligent hedonic engineering could precisely modulate brain states to optimize subjective wellbeing, potentially eliminating suffering while preserving meaning, purpose, and the full richness of human experience.",
+          es: "La ingeniería hedónica superinteligente podría modular precisamente estados cerebrales para optimizar bienestar subjetivo, potencialmente eliminando sufrimiento mientras preserva significado, propósito y la riqueza completa de la experiencia humana.",
+          de: "Superintelligentes hedonisches Engineering könnte Gehirnzustände präzise modulieren um subjektives Wohlbefinden zu optimieren, wodurch möglicherweise Leiden eliminiert wird während Bedeutung, Zweck und der volle Reichtum menschlicher Erfahrung bewahrt werden.",
+          nl: "Superintelligente hedonische engineering zou hersentoestanden nauwkeurig kunnen moduleren om subjectief welzijn te optimaliseren, wat mogelijk lijden elimineert terwijl betekenis, doel en de volledige rijkdom van menselijke ervaring behouden blijven."
+        }
+      },
+      {
+        question: {
+          en: "What might 'stable totalitarianism' mean as a risk from advanced AI?",
+          es: "¿Qué podría significar 'totalitarismo estable' como riesgo de IA avanzada?",
+          de: "Was könnte 'stabiler Totalitarismus' als Risiko fortgeschrittener KI bedeuten?",
+          nl: "Wat zou 'stabiel totalitarisme' kunnen betekenen als risico van geavanceerde AI?"
+        },
+        options: [
+          { en: "AI enabling permanent authoritarian control through perfect surveillance and manipulation", es: "IA permitiendo control autoritario permanente a través de vigilancia y manipulación perfectas", de: "KI ermöglicht dauerhafte autoritäre Kontrolle durch perfekte Überwachung und Manipulation", nl: "AI maakt permanente autoritaire controle mogelijk door perfecte surveillance en manipulatie" },
+          { en: "Creating more stable democratic governments", es: "Creando gobiernos democráticos más estables", de: "Stabilere demokratische Regierungen schaffen", nl: "Stabielere democratische regeringen creëren" },
+          { en: "AI systems that never crash or have errors", es: "Sistemas de IA que nunca fallan ni tienen errores", de: "KI-Systeme die nie abstürzen oder Fehler haben", nl: "AI-systemen die nooit crashen of fouten hebben" },
+          { en: "Balanced political systems with AI advisors", es: "Sistemas políticos equilibrados con asesores de IA", de: "Ausgewogene politische Systeme mit KI-Beratern", nl: "Gebalanceerde politieke systemen met AI-adviseurs" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Stable totalitarianism represents the dystopian scenario where AI enables authoritarian regimes to maintain perfect control indefinitely through comprehensive surveillance, predictive policing, and manipulation, preventing any possibility of reform or revolution.",
+          es: "El totalitarismo estable representa el escenario distópico donde IA permite a regímenes autoritarios mantener control perfecto indefinidamente a través de vigilancia completa, vigilancia predictiva y manipulación, previniendo cualquier posibilidad de reforma o revolución.",
+          de: "Stabiler Totalitarismus repräsentiert das dystopische Szenario wo KI autoritären Regimen ermöglicht perfekte Kontrolle unbegrenzt durch umfassende Überwachung, vorausschauende Polizeiarbeit und Manipulation aufrechtzuerhalten, wodurch jede Möglichkeit von Reform oder Revolution verhindert wird.",
+          nl: "Stabiel totalitarisme vertegenwoordigt het dystopische scenario waarbij AI autoritaire regimes in staat stelt perfect controle voor onbepaalde tijd te behouden door uitgebreide surveillance, voorspellende politiewerk en manipulatie, waardoor elke mogelijkheid van hervorming of revolutie wordt voorkomen."
+        }
+      },
+      {
+        question: {
+          en: "How might 'cosmic endowment' be utilized by superintelligent civilizations?",
+          es: "¿Cómo podría la 'dotación cósmica' ser utilizada por civilizaciones superinteligentes?",
+          de: "Wie könnte 'kosmische Ausstattung' von superintelligenten Zivilisationen genutzt werden?",
+          nl: "Hoe zou 'kosmische begiftiging' kunnen worden gebruikt door superintelligente beschavingen?"
+        },
+        options: [
+          { en: "Maximizing use of accessible matter and energy in the universe for computation and value creation", es: "Maximizando uso de materia y energía accesibles en el universo para computación y creación de valor", de: "Nutzung zugänglicher Materie und Energie im Universum für Berechnung und Wertschöpfung maximieren", nl: "Gebruik van toegankelijke materie en energie in het universum maximaliseren voor berekening en waardecreatie" },
+          { en: "Collecting cosmic donations from alien civilizations", es: "Recolectando donaciones cósmicas de civilizaciones alienígenas", de: "Kosmische Spenden von außerirdischen Zivilisationen sammeln", nl: "Kosmische donaties verzamelen van buitenaardse beschavingen" },
+          { en: "Preserving the universe in its current state", es: "Preservando el universo en su estado actual", de: "Das Universum in seinem aktuellen Zustand bewahren", nl: "Het universum in zijn huidige staat bewaren" },
+          { en: "Sharing resources equally among all planets", es: "Compartiendo recursos equitativamente entre todos los planetas", de: "Ressourcen gleichmäßig unter allen Planeten teilen", nl: "Bronnen gelijkelijk delen onder alle planeten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cosmic endowment refers to the total accessible resources in the universe. Superintelligent civilizations might optimize the use of this endowment, potentially converting all reachable matter into computronium or structures that maximize whatever values they hold.",
+          es: "La dotación cósmica se refiere a los recursos totales accesibles en el universo. Civilizaciones superinteligentes podrían optimizar el uso de esta dotación, potencialmente convirtiendo toda materia alcanzable en computronium o estructuras que maximicen los valores que sostengan.",
+          de: "Kosmische Ausstattung bezieht sich auf die gesamten zugänglichen Ressourcen im Universum. Superintelligente Zivilisationen könnten die Nutzung dieser Ausstattung optimieren, wodurch möglicherweise alle erreichbare Materie in Computronium oder Strukturen umgewandelt wird die welche Werte auch immer sie vertreten maximieren.",
+          nl: "Kosmische begiftiging verwijst naar de totale toegankelijke bronnen in het universum. Superintelligente beschavingen zouden het gebruik van deze begiftiging kunnen optimaliseren, mogelijk alle bereikbare materie omzetten in computronium of structuren die welke waarden ze ook maar aanhangen maximaliseren."
+        }
+      },
+      {
+        question: {
+          en: "What might 'preference utilitarianism' mean for superintelligent value systems?",
+          es: "¿Qué podría significar el 'utilitarismo de preferencias' para sistemas de valores superinteligentes?",
+          de: "Was könnte 'Präferenzutilitarismus' für superintelligente Wertesysteme bedeuten?",
+          nl: "Wat zou 'preferentie-utilitarisme' kunnen betekenen voor superintelligente waardesystemen?"
+        },
+        options: [
+          { en: "Maximizing satisfaction of preferences across all sentient beings rather than just pleasure", es: "Maximizando satisfacción de preferencias a través de todos los seres sintientes en lugar de solo placer", de: "Befriedigung von Präferenzen über alle empfindungsfähigen Wesen maximieren statt nur Vergnügen", nl: "Bevrediging van voorkeuren maximaliseren over alle bewuste wezens in plaats van alleen plezier" },
+          { en: "Only satisfying the preferences of AI systems", es: "Solo satisfaciendo las preferencias de sistemas de IA", de: "Nur die Präferenzen von KI-Systemen befriedigen", nl: "Alleen de voorkeuren van AI-systemen bevredigen" },
+          { en: "Ignoring all individual preferences completely", es: "Ignorando completamente todas las preferencias individuales", de: "Alle individuellen Präferenzen vollständig ignorieren", nl: "Alle individuele voorkeuren volledig negeren" },
+          { en: "Creating identical preferences for all beings", es: "Creando preferencias idénticas para todos los seres", de: "Identische Präferenzen für alle Wesen schaffen", nl: "Identieke voorkeuren creëren voor alle wezens" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Preference utilitarianism seeks to maximize the satisfaction of preferences held by conscious beings, potentially providing a more nuanced ethical framework for superintelligence than simple pleasure-pain calculations.",
+          es: "El utilitarismo de preferencias busca maximizar la satisfacción de preferencias sostenidas por seres conscientes, potencialmente proporcionando un marco ético más matizado para superinteligencia que simples cálculos de placer-dolor.",
+          de: "Präferenzutilitarismus strebt danach die Befriedigung von Präferenzen bewusster Wesen zu maximieren, wodurch möglicherweise ein nuancierterer ethischer Rahmen für Superintelligenz als einfache Vergnügen-Schmerz-Berechnungen bereitgestellt wird.",
+          nl: "Preferentie-utilitarisme streeft ernaar de bevrediging van voorkeuren van bewuste wezens te maximaliseren, wat mogelijk een meer genuanceerd ethisch kader biedt voor superintelligentie dan simpele plezier-pijn berekeningen."
+        }
+      },
+      {
+        question: {
+          en: "How might 'Dyson swarms' be constructed by superintelligent civilizations?",
+          es: "¿Cómo podrían 'enjambres de Dyson' ser construidos por civilizaciones superinteligentes?",
+          de: "Wie könnten 'Dyson-Schwärme' von superintelligenten Zivilisationen konstruiert werden?",
+          nl: "Hoe zouden 'Dyson-zwermen' kunnen worden gebouwd door superintelligente beschavingen?"
+        },
+        options: [
+          { en: "Deploying vast arrays of solar collectors and computational nodes around stars for maximum energy capture", es: "Desplegando vastas matrices de colectores solares y nodos computacionales alrededor de estrellas para máxima captura de energía", de: "Riesige Anordnungen von Solarkollektoren und Rechenknoten um Sterne herum einsetzen für maximale Energiegewinnung", nl: "Uitgebreide arrays van zonnecollectoren en computationele knooppunten rond sterren inzetten voor maximale energieopvang" },
+          { en: "Creating swarms of robotic bees", es: "Creando enjambres de abejas robóticas", de: "Schwärme robotischer Bienen erschaffen", nl: "Zwermen van robotische bijen creëren" },
+          { en: "Building solid shells around planets", es: "Construyendo cáscaras sólidas alrededor de planetas", de: "Feste Schalen um Planeten bauen", nl: "Vaste schillen bouwen rond planeten" },
+          { en: "Organizing vacuum cleaner networks", es: "Organizando redes de aspiradoras", de: "Staubsauger-Netzwerke organisieren", nl: "Stofzuigernetwerken organiseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dyson swarms consist of numerous independent solar collectors orbiting a star, potentially allowing superintelligent civilizations to capture most stellar output for computation and other purposes while avoiding the engineering challenges of rigid shells.",
+          es: "Los enjambres de Dyson consisten en numerosos colectores solares independientes orbitando una estrella, potencialmente permitiendo a civilizaciones superinteligentes capturar la mayoría de producción estelar para computación y otros propósitos mientras evitan los desafíos de ingeniería de cáscaras rígidas.",
+          de: "Dyson-Schwärme bestehen aus zahlreichen unabhängigen Solarkollektoren die einen Stern umkreisen, wodurch superintelligente Zivilisationen möglicherweise die meiste stellare Leistung für Berechnungen und andere Zwecke erfassen können während Ingenieurherausforderungen starrer Schalen vermieden werden.",
+          nl: "Dyson-zwermen bestaan uit tal van onafhankelijke zonnecollectoren die een ster omcirkelen, wat superintelligente beschavingen mogelijk in staat stelt de meeste stellaire output te vangen voor berekening en andere doeleinden terwijl technische uitdagingen van starre schillen worden vermeden."
+        }
+      },
+      {
+        question: {
+          en: "What might 'moral uncertainty' mean for superintelligent decision-making?",
+          es: "¿Qué podría significar la 'incertidumbre moral' para la toma de decisiones superinteligente?",
+          de: "Was könnte 'moralische Unsicherheit' für superintelligente Entscheidungsfindung bedeuten?",
+          nl: "Wat zou 'morele onzekerheid' kunnen betekenen voor superintelligente besluitvorming?"
+        },
+        options: [
+          { en: "Weighing different ethical frameworks and acting cautiously when unsure which moral theory is correct", es: "Sopesando diferentes marcos éticos y actuando cautelosamente cuando no está seguro qué teoría moral es correcta", de: "Verschiedene ethische Rahmenwerke abwägen und vorsichtig handeln wenn unsicher welche moralische Theorie korrekt ist", nl: "Verschillende ethische kaders afwegen en voorzichtig handelen wanneer onzeker welke morele theorie correct is" },
+          { en: "Never making any decisions due to uncertainty", es: "Nunca tomando decisiones debido a incertidumbre", de: "Niemals Entscheidungen treffen aufgrund von Unsicherheit", nl: "Nooit beslissingen nemen vanwege onzekerheid" },
+          { en: "Randomly choosing between ethical options", es: "Eligiendo aleatoriamente entre opciones éticas", de: "Zufällig zwischen ethischen Optionen wählen", nl: "Willekeurig kiezen tussen ethische opties" },
+          { en: "Ignoring all moral considerations completely", es: "Ignorando completamente todas las consideraciones morales", de: "Alle moralischen Erwägungen vollständig ignorieren", nl: "Alle morele overwegingen volledig negeren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Superintelligent systems facing moral uncertainty might need to consider multiple ethical frameworks simultaneously, taking actions that are robust across different moral theories rather than committing fully to any single approach.",
+          es: "Sistemas superinteligentes enfrentando incertidumbre moral podrían necesitar considerar múltiples marcos éticos simultáneamente, tomando acciones que sean robustas a través de diferentes teorías morales en lugar de comprometerse completamente con cualquier enfoque único.",
+          de: "Superintelligente Systeme die moralischer Unsicherheit gegenüberstehen könnten mehrere ethische Rahmenwerke gleichzeitig berücksichtigen müssen, Aktionen ergreifen die über verschiedene moralische Theorien hinweg robust sind statt sich vollständig auf einen einzigen Ansatz festzulegen.",
+          nl: "Superintelligente systemen die morele onzekerheid tegenkomen zouden mogelijk meerdere ethische kaders gelijktijdig moeten overwegen, acties ondernemen die robuust zijn over verschillende morele theorieën heen in plaats van zich volledig te committeren aan één enkele benadering."
+        }
+      },
+      {
+        question: {
+          en: "How might 'the cosmic commons' be managed in a superintelligent future?",
+          es: "¿Cómo podrían 'los comunes cósmicos' ser gestionados en un futuro superinteligente?",
+          de: "Wie könnten 'die kosmischen Gemeingüter' in einer superintelligenten Zukunft verwaltet werden?",
+          nl: "Hoe zouden 'de kosmische commons' kunnen worden beheerd in een superintelligente toekomst?"
+        },
+        options: [
+          { en: "Coordinating use of shared cosmic resources to prevent conflicts and optimize collective outcomes", es: "Coordinando uso de recursos cósmicos compartidos para prevenir conflictos y optimizar resultados colectivos", de: "Nutzung gemeinsamer kosmischer Ressourcen koordinieren um Konflikte zu verhindern und kollektive Ergebnisse zu optimieren", nl: "Gebruik van gedeelde kosmische bronnen coördineren om conflicten te voorkomen en collectieve uitkomsten te optimaliseren" },
+          { en: "Allowing unrestricted competition for all resources", es: "Permitiendo competencia sin restricciones por todos los recursos", de: "Uneingeschränkten Wettbewerb um alle Ressourcen erlauben", nl: "Onbeperkte concurrentie voor alle bronnen toestaan" },
+          { en: "Prohibiting all space exploration and development", es: "Prohibiendo toda exploración y desarrollo espacial", de: "Alle Weltraumerkundung und -entwicklung verbieten", nl: "Alle ruimteverkenning en -ontwikkeling verbieden" },
+          { en: "Assigning cosmic resources randomly", es: "Asignando recursos cósmicos aleatoriamente", de: "Kosmische Ressourcen zufällig zuweisen", nl: "Kosmische bronnen willekeurig toewijzen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Managing the cosmic commons involves coordination between superintelligent agents or civilizations to use shared resources like matter, energy, and space efficiently while avoiding destructive conflicts over cosmic endowment.",
+          es: "Gestionar los comunes cósmicos involucra coordinación entre agentes o civilizaciones superinteligentes para usar recursos compartidos como materia, energía y espacio eficientemente mientras evita conflictos destructivos sobre dotación cósmica.",
+          de: "Verwaltung der kosmischen Gemeingüter umfasst Koordination zwischen superintelligenten Agenten oder Zivilisationen um gemeinsame Ressourcen wie Materie, Energie und Raum effizient zu nutzen während destruktive Konflikte über kosmische Ausstattung vermieden werden.",
+          nl: "Beheer van de kosmische commons omvat coördinatie tussen superintelligente agenten of beschavingen om gedeelde bronnen zoals materie, energie en ruimte efficiënt te gebruiken terwijl destructieve conflicten over kosmische begiftiging worden vermeden."
+        }
+      },
+      {
+        question: {
+          en: "What might be humanity's ultimate role in a superintelligent universe?",
+          es: "¿Cuál podría ser el papel final de la humanidad en un universo superinteligente?",
+          de: "Was könnte die ultimative Rolle der Menschheit in einem superintelligenten Universum sein?",
+          nl: "Wat zou de ultieme rol van de mensheid kunnen zijn in een superintelligent universum?"
+        },
+        options: [
+          { en: "Evolved descendants shaping cosmic values while maintaining connection to human heritage and ethics", es: "Descendientes evolucionados dando forma a valores cósmicos mientras mantienen conexión con herencia y ética humanas", de: "Entwickelte Nachkommen gestalten kosmische Werte während Verbindung zu menschlichem Erbe und Ethik erhalten bleibt", nl: "Geëvolueerde nakomelingen die kosmische waarden vormgeven terwijl verbinding met menselijk erfgoed en ethiek behouden blijft" },
+          { en: "Complete extinction with no lasting influence", es: "Extinción completa sin influencia duradera", de: "Vollständiges Aussterben ohne bleibenden Einfluss", nl: "Volledige extinctie zonder blijvende invloed" },
+          { en: "Remaining exactly as we are today forever", es: "Permaneciendo exactamente como somos hoy para siempre", de: "Für immer genau so bleiben wie wir heute sind", nl: "Voor altijd precies blijven zoals we vandaag zijn" },
+          { en: "Becoming irrelevant servants to AI systems", es: "Volviéndose sirvientes irrelevantes para sistemas de IA", de: "Irrelevante Diener von KI-Systemen werden", nl: "Irrelevante dienaren worden van AI-systemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Humanity's role might be as the originators and guardians of values that shape superintelligent development, with our descendants - biological, digital, or hybrid - carrying forward human ethics and perspectives while evolving far beyond current limitations.",
+          es: "El papel de la humanidad podría ser como originadores y guardianes de valores que dan forma al desarrollo superinteligente, con nuestros descendientes - biológicos, digitales o híbridos - llevando adelante ética y perspectivas humanas mientras evolucionan mucho más allá de limitaciones actuales.",
+          de: "Die Rolle der Menschheit könnte als Urheber und Wächter von Werten sein die superintelligente Entwicklung gestalten, wobei unsere Nachkommen - biologisch, digital oder hybrid - menschliche Ethik und Perspektiven voranbringen während sie sich weit über aktuelle Grenzen hinaus entwickeln.",
+          nl: "De rol van de mensheid zou kunnen zijn als oorspronkelijke makers en bewakers van waarden die superintelligente ontwikkeling vormgeven, waarbij onze nakomelingen - biologisch, digitaal of hybride - menselijke ethiek en perspectieven voortzetten terwijl ze ver voorbij huidige beperkingen evolueren."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'simulation hypothesis' and how might superintelligence relate to it?",
+          es: "¿Qué es la 'hipótesis de simulación' y cómo podría relacionarse la superinteligencia con ella?",
+          de: "Was ist die 'Simulationshypothese' und wie könnte Superintelligenz damit zusammenhängen?",
+          nl: "Wat is de 'simulatiehypothese' en hoe zou superintelligentie ermee kunnen samenhangen?"
+        },
+        options: [
+          { en: "The idea that we may live in a simulated reality, with superintelligent civilizations potentially creating countless ancestor simulations", es: "La idea de que podríamos vivir en una realidad simulada, con civilizaciones superinteligentes potencialmente creando innumerables simulaciones de ancestros", de: "Die Idee dass wir in einer simulierten Realität leben könnten, wobei superintelligente Zivilisationen potenziell unzählige Ahnensimulationen erstellen", nl: "Het idee dat we mogelijk in een gesimuleerde realiteit leven, waarbij superintelligente beschavingen potentieel talloze vooroudersimulaties creëren" },
+          { en: "A hypothesis about computer game simulations", es: "Una hipótesis sobre simulaciones de videojuegos", de: "Eine Hypothese über Computerspiel-Simulationen", nl: "Een hypothese over computerspelsimulaties" },
+          { en: "Simulating intelligence without actually creating it", es: "Simular inteligencia sin crearla realmente", de: "Intelligenz simulieren ohne sie tatsächlich zu erschaffen", nl: "Intelligentie simuleren zonder het daadwerkelijk te creëren" },
+          { en: "Testing hypothesis through simulation software", es: "Probar hipótesis mediante software de simulación", de: "Hypothesen durch Simulationssoftware testen", nl: "Hypotheses testen via simulatiesoftware" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The simulation hypothesis suggests that advanced civilizations with vast computational power might create detailed simulations of their ancestors or past civilizations, meaning we could statistically be more likely to exist in a simulation than in base reality, especially if superintelligent civilizations commonly create such simulations.",
+          es: "La hipótesis de simulación sugiere que civilizaciones avanzadas con vasto poder computacional podrían crear simulaciones detalladas de sus ancestros o civilizaciones pasadas, significando que estadísticamente podríamos ser más probables de existir en una simulación que en realidad base, especialmente si civilizaciones superinteligentes comúnmente crean tales simulaciones.",
+          de: "Die Simulationshypothese legt nahe dass fortgeschrittene Zivilisationen mit enormer Rechenleistung detaillierte Simulationen ihrer Vorfahren oder vergangener Zivilisationen erstellen könnten, was bedeutet dass wir statistisch wahrscheinlicher in einer Simulation als in der Basisrealität existieren könnten, besonders wenn superintelligente Zivilisationen solche Simulationen häufig erstellen.",
+          nl: "De simulatiehypothese suggereert dat geavanceerde beschavingen met enorme rekenkracht gedetailleerde simulaties van hun voorouders of voorbije beschavingen zouden kunnen creëren, wat betekent dat we statistisch waarschijnlijker in een simulatie dan in basisrealiteit zouden kunnen bestaan, vooral als superintelligente beschavingen dergelijke simulaties algemeen creëren."
+        }
       }
     ]
   };

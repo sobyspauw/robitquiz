@@ -427,6 +427,216 @@
           de: "Über 300 Bücher, Forschungsarbeiten und akademische Studien wurden über den Burj Khalifa veröffentlicht, die Ingenieurwesen, Architektur, Wirtschaft und kulturelle Auswirkungen abdecken.",
           nl: "Meer dan 300 boeken, onderzoekspapers en academische studies zijn gepubliceerd over de Burj Khalifa, over engineering, architectuur, economie en culturele impact."
         }
+      },
+      {
+        question: {
+          en: "What role does the Burj Khalifa play in Dubai's New Year celebrations annually?",
+          es: "¿Qué papel juega el Burj Khalifa en las celebraciones de Año Nuevo de Dubai anualmente?",
+          de: "Welche Rolle spielt der Burj Khalifa bei den jährlichen Neujahrsfeierlichkeiten in Dubai?",
+          nl: "Welke rol speelt de Burj Khalifa in de jaarlijkse nieuwjaarsfeesten van Dubai?"
+        },
+        options: [
+          { en: "Hosts largest fireworks show", es: "Organiza el mayor espectáculo de fuegos artificiales", de: "Veranstaltet größte Feuerwerksshow", nl: "Organiseert grootste vuurwerkshow" },
+          { en: "Centerpiece of global broadcasts", es: "Pieza central de transmisiones globales", de: "Mittelpunkt globaler Übertragungen", nl: "Middelpunt van wereldwijde uitzendingen" },
+          { en: "Attracts millions of spectators", es: "Atrae millones de espectadores", de: "Zieht Millionen von Zuschauern an", nl: "Trekt miljoenen toeschouwers" },
+          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "The Burj Khalifa serves as the centerpiece of Dubai's New Year celebrations, hosting spectacular fireworks displays that are broadcast globally and attract millions of spectators both on-site and worldwide.",
+          es: "El Burj Khalifa sirve como pieza central de las celebraciones de Año Nuevo de Dubai, organizando espectaculares espectáculos de fuegos artificiales que se transmiten globalmente y atraen millones de espectadores tanto en el sitio como en todo el mundo.",
+          de: "Der Burj Khalifa dient als Mittelpunkt der Neujahrsfeiern in Dubai und veranstaltet spektakuläre Feuerwerksshows, die weltweit übertragen werden und Millionen von Zuschauern vor Ort und weltweit anziehen.",
+          nl: "De Burj Khalifa dient als middelpunt van de nieuwjaarsfeesten in Dubai, met spectaculaire vuurwerkshows die wereldwijd worden uitgezonden en miljoenen toeschouwers ter plaatse en wereldwijd aantrekken."
+        }
+      },
+      {
+        question: {
+          en: "Which international music artists have performed special concerts projected on the Burj Khalifa's facade?",
+          es: "¿Qué artistas musicales internacionales han realizado conciertos especiales proyectados en la fachada del Burj Khalifa?",
+          de: "Welche internationalen Musikkünstler haben Sonderkonzerte aufgeführt, die auf die Fassade des Burj Khalifa projiziert wurden?",
+          nl: "Welke internationale muziekartisten hebben speciale concerten uitgevoerd die op de gevel van de Burj Khalifa werden geprojecteerd?"
+        },
+        options: [
+          { en: "Only local UAE artists", es: "Solo artistas locales de EAU", de: "Nur lokale VAE-Künstler", nl: "Alleen lokale VAE-artiesten" },
+          { en: "Arabic music stars exclusively", es: "Exclusivamente estrellas de música árabe", de: "Ausschließlich arabische Musikstars", nl: "Uitsluitend Arabische muzieksterren" },
+          { en: "Multiple international artists", es: "Múltiples artistas internacionales", de: "Mehrere internationale Künstler", nl: "Meerdere internationale artiesten" },
+          { en: "No concerts have been projected", es: "No se han proyectado conciertos", de: "Keine Konzerte wurden projiziert", nl: "Geen concerten zijn geprojecteerd" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Burj Khalifa has featured projection concerts by multiple international artists including Andrea Bocelli, Lang Lang, and other world-renowned performers as part of cultural celebrations and special events.",
+          es: "El Burj Khalifa ha presentado conciertos de proyección de múltiples artistas internacionales incluyendo Andrea Bocelli, Lang Lang, y otros artistas de renombre mundial como parte de celebraciones culturales y eventos especiales.",
+          de: "Der Burj Khalifa hat Projektionskonzerte mehrerer internationaler Künstler präsentiert, darunter Andrea Bocelli, Lang Lang und andere weltberühmte Interpreten im Rahmen kultureller Feierlichkeiten und besonderer Veranstaltungen.",
+          nl: "De Burj Khalifa heeft projectieconcerten gepresenteerd van meerdere internationale artiesten waaronder Andrea Bocelli, Lang Lang en andere wereldberoemde artiesten als onderdeel van culturele vieringen en speciale evenementen."
+        }
+      },
+      {
+        question: {
+          en: "How has the Burj Khalifa been used as a platform for charitable and social causes?",
+          es: "¿Cómo se ha utilizado el Burj Khalifa como plataforma para causas benéficas y sociales?",
+          de: "Wie wurde der Burj Khalifa als Plattform für wohltätige und soziale Zwecke genutzt?",
+          nl: "Hoe is de Burj Khalifa gebruikt als platform voor goede doelen en sociale kwesties?"
+        },
+        options: [
+          { en: "Cancer awareness campaigns", es: "Campañas de concienciación sobre el cáncer", de: "Krebsaufklärungskampagnen", nl: "Kankervoorlichtingscampagnes" },
+          { en: "Environmental conservation messages", es: "Mensajes de conservación ambiental", de: "Umweltschutzbotschaften", nl: "Milieubeschermingsboodschappen" },
+          { en: "International solidarity displays", es: "Exhibiciones de solidaridad internacional", de: "Internationale Solidaritätsbekundungen", nl: "Internationale solidariteitsbetuigingen" },
+          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "The Burj Khalifa has been used extensively for charitable causes including breast cancer awareness (pink illumination), Earth Hour environmental campaigns, and solidarity displays for global humanitarian crises and disasters.",
+          es: "El Burj Khalifa se ha utilizado extensamente para causas benéficas incluyendo concienciación sobre cáncer de mama (iluminación rosa), campañas ambientales de la Hora del Planeta, y exhibiciones de solidaridad para crisis humanitarias y desastres globales.",
+          de: "Der Burj Khalifa wurde ausgiebig für wohltätige Zwecke genutzt, darunter Brustkrebsbewusstsein (rosa Beleuchtung), Earth Hour-Umweltkampagnen und Solidaritätsbekundungen für globale humanitäre Krisen und Katastrophen.",
+          nl: "De Burj Khalifa is uitgebreid gebruikt voor goede doelen waaronder borstkankervoorlichting (roze verlichting), Earth Hour milieucampagnes, en solidariteitsbetuigingen voor wereldwijde humanitaire crises en rampen."
+        }
+      },
+      {
+        question: {
+          en: "What impact has the Burj Khalifa had on engineering education globally?",
+          es: "¿Qué impacto ha tenido el Burj Khalifa en la educación de ingeniería a nivel global?",
+          de: "Welchen Einfluss hatte der Burj Khalifa auf die Ingenieurausbildung weltweit?",
+          nl: "Welke impact heeft de Burj Khalifa gehad op engineering onderwijs wereldwijd?"
+        },
+        options: [
+          { en: "Featured in university curricula", es: "Incluido en planes de estudio universitarios", de: "In Universitätslehrplänen aufgenommen", nl: "Opgenomen in universitaire curricula" },
+          { en: "Case study in engineering courses", es: "Estudio de caso en cursos de ingeniería", de: "Fallstudie in Ingenieurkursen", nl: "Casestudy in engineering cursussen" },
+          { en: "Inspired new research areas", es: "Inspiró nuevas áreas de investigación", de: "Inspirierte neue Forschungsbereiche", nl: "Inspireerde nieuwe onderzoeksgebieden" },
+          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "The Burj Khalifa is extensively featured in structural engineering curricula worldwide, serves as a primary case study for super-tall building design, and has inspired new research in areas like wind engineering, high-strength concrete, and vertical transportation systems.",
+          es: "El Burj Khalifa aparece extensamente en planes de estudio de ingeniería estructural en todo el mundo, sirve como estudio de caso principal para el diseño de edificios super altos, y ha inspirado nueva investigación en áreas como ingeniería del viento, concreto de alta resistencia, y sistemas de transporte vertical.",
+          de: "Der Burj Khalifa wird ausführlich in Lehrplänen für Bauingenieurwesen weltweit behandelt, dient als primäre Fallstudie für den Entwurf superhöher Gebäude und hat neue Forschung in Bereichen wie Windtechnik, Hochleistungsbeton und vertikale Transportsysteme inspiriert.",
+          nl: "De Burj Khalifa is uitgebreid opgenomen in curricula voor constructieve engineering wereldwijd, dient als primaire casestudy voor het ontwerp van superhoge gebouwen, en heeft nieuw onderzoek geïnspireerd op gebieden als windengineering, hoge-sterkte beton, en verticale transportsystemen."
+        }
+      },
+      {
+        question: {
+          en: "What percentage of Dubai's postcard and souvenir sales feature the Burj Khalifa?",
+          es: "¿Qué porcentaje de las ventas de postales y souvenirs de Dubai presenta el Burj Khalifa?",
+          de: "Wie viel Prozent der Postkarten- und Souvenirverkäufe in Dubai zeigen den Burj Khalifa?",
+          nl: "Welk percentage van de ansichtkaart- en souvenirverkopen van Dubai toont de Burj Khalifa?"
+        },
+        options: [
+          { en: "Over 50%", es: "Más del 50%", de: "Über 50%", nl: "Meer dan 50%" },
+          { en: "Over 70%", es: "Más del 70%", de: "Über 70%", nl: "Meer dan 70%" },
+          { en: "Over 85%", es: "Más del 85%", de: "Über 85%", nl: "Meer dan 85%" },
+          { en: "Over 95%", es: "Más del 95%", de: "Über 95%", nl: "Meer dan 95%" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Burj Khalifa appears on over 85% of Dubai's tourist postcards, souvenirs, and merchandise, making it the single most represented landmark in Dubai's tourism industry and demonstrating its overwhelming dominance as the city's cultural icon.",
+          es: "El Burj Khalifa aparece en más del 85% de las postales turísticas, souvenirs y mercancía de Dubai, convirtiéndolo en el hito más representado en la industria turística de Dubai y demostrando su dominio abrumador como ícono cultural de la ciudad.",
+          de: "Der Burj Khalifa erscheint auf über 85% der Touristen-Postkarten, Souvenirs und Merchandise von Dubai und ist damit das am häufigsten dargestellte Wahrzeichen in Dubais Tourismusindustrie, was seine überwältigende Dominanz als kulturelles Symbol der Stadt demonstriert.",
+          nl: "De Burj Khalifa verschijnt op meer dan 85% van de toeristische ansichtkaarten, souvenirs en merchandise van Dubai, waarmee het het meest vertegenwoordigde landmark in Dubai's toerisme-industrie is en zijn overweldigende dominantie als cultureel icoon van de stad aantoont."
+        }
+      },
+      {
+        question: {
+          en: "How has the Burj Khalifa influenced urban planning in other Gulf cities?",
+          es: "¿Cómo ha influido el Burj Khalifa en la planificación urbana en otras ciudades del Golfo?",
+          de: "Wie hat der Burj Khalifa die Stadtplanung in anderen Golfstädten beeinflusst?",
+          nl: "Hoe heeft de Burj Khalifa stadsplanning in andere Golfsteden beïnvloed?"
+        },
+        options: [
+          { en: "Inspired rival supertall projects", es: "Inspiró proyectos super altos rivales", de: "Inspirierte rivalisierende Superhochhäuser", nl: "Inspireerde rivaliserende superhoge projecten" },
+          { en: "Promoted mixed-use developments", es: "Promovió desarrollos de uso mixto", de: "Förderte gemischt genutzte Entwicklungen", nl: "Bevorderde gemengde ontwikkelingen" },
+          { en: "Established iconic architecture trend", es: "Estableció tendencia de arquitectura icónica", de: "Etablierte ikonischen Architekturtrend", nl: "Vestigde iconische architectuurtrend" },
+          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "The Burj Khalifa's success inspired numerous supertall projects across the Gulf region including Kingdom Tower in Jeddah, promoted integrated mixed-use developments combining residential, commercial, and hospitality, and established the trend of iconic signature architecture as essential for modern Gulf cities.",
+          es: "El éxito del Burj Khalifa inspiró numerosos proyectos super altos en toda la región del Golfo incluyendo Kingdom Tower en Jeddah, promovió desarrollos integrados de uso mixto combinando residencial, comercial y hospitalidad, y estableció la tendencia de arquitectura icónica distintiva como esencial para las ciudades modernas del Golfo.",
+          de: "Der Erfolg des Burj Khalifa inspirierte zahlreiche Superhochhäuser in der gesamten Golfregion einschließlich des Kingdom Tower in Dschidda, förderte integrierte gemischt genutzte Entwicklungen, die Wohn-, Geschäfts- und Gastgewerbe kombinieren, und etablierte den Trend ikonischer Signaturarchitektur als wesentlich für moderne Golfstädte.",
+          nl: "Het succes van de Burj Khalifa inspireerde talrijke superhoge projecten in de hele Golfregio waaronder Kingdom Tower in Jeddah, bevorderde geïntegreerde gemengde ontwikkelingen die residentieel, commercieel en horeca combineren, en vestigde de trend van iconische kenmerkende architectuur als essentieel voor moderne Golfsteden."
+        }
+      },
+      {
+        question: {
+          en: "What special tribute did the Burj Khalifa display after the death of Queen Elizabeth II in 2022?",
+          es: "¿Qué tributo especial mostró el Burj Khalifa después de la muerte de la Reina Isabel II en 2022?",
+          de: "Welche besondere Ehrung zeigte der Burj Khalifa nach dem Tod von Königin Elizabeth II. im Jahr 2022?",
+          nl: "Welk speciaal eerbetoon toonde de Burj Khalifa na de dood van Koningin Elizabeth II in 2022?"
+        },
+        options: [
+          { en: "Portrait projection of the Queen", es: "Proyección de retrato de la Reina", de: "Porträtprojektion der Königin", nl: "Portretprojectie van de Koningin" },
+          { en: "British flag illumination", es: "Iluminación de la bandera británica", de: "Britische Flaggenbeleuchtung", nl: "Britse vlagverlichting" },
+          { en: "Black mourning display", es: "Exhibición de luto negro", de: "Schwarze Traueranzeige", nl: "Zwarte rouwbetuiging" },
+          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Following Queen Elizabeth II's death in September 2022, the Burj Khalifa displayed a respectful portrait projection of Her Majesty, demonstrating Dubai's international diplomatic relations and the tower's role as a platform for global tributes.",
+          es: "Tras la muerte de la Reina Isabel II en septiembre de 2022, el Burj Khalifa mostró una proyección respetuosa del retrato de Su Majestad, demostrando las relaciones diplomáticas internacionales de Dubai y el papel de la torre como plataforma para tributos globales.",
+          de: "Nach dem Tod von Königin Elizabeth II. im September 2022 zeigte der Burj Khalifa eine respektvolle Porträtprojektion Ihrer Majestät, was Dubais internationale diplomatische Beziehungen und die Rolle des Turms als Plattform für globale Ehrungen demonstrierte.",
+          nl: "Na de dood van Koningin Elizabeth II in september 2022 toonde de Burj Khalifa een respectvolle portretprojectie van Hare Majesteit, wat de internationale diplomatieke betrekkingen van Dubai en de rol van de toren als platform voor wereldwijde eerbetonen aantoonde."
+        }
+      },
+      {
+        question: {
+          en: "How many LED displays and light shows does the Burj Khalifa perform annually for various cultural events?",
+          es: "¿Cuántas exhibiciones LED y espectáculos de luces realiza el Burj Khalifa anualmente para varios eventos culturales?",
+          de: "Wie viele LED-Displays und Lichtshows führt der Burj Khalifa jährlich für verschiedene kulturelle Veranstaltungen durch?",
+          nl: "Hoeveel LED-displays en lichtshows voert de Burj Khalifa jaarlijks uit voor verschillende culturele evenementen?"
+        },
+        options: [
+          { en: "Over 50 shows", es: "Más de 50 espectáculos", de: "Über 50 Shows", nl: "Meer dan 50 shows" },
+          { en: "Over 100 shows", es: "Más de 100 espectáculos", de: "Über 100 Shows", nl: "Meer dan 100 shows" },
+          { en: "Over 200 shows", es: "Más de 200 espectáculos", de: "Über 200 Shows", nl: "Meer dan 200 shows" },
+          { en: "Over 300 shows", es: "Más de 300 espectáculos", de: "Über 300 Shows", nl: "Meer dan 300 shows" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Burj Khalifa hosts over 200 LED light shows and displays annually, celebrating events ranging from National Day, Eid, New Year, international holidays, sporting victories, and special cultural commemorations, making it one of the world's most active architectural display platforms.",
+          es: "El Burj Khalifa organiza más de 200 espectáculos y exhibiciones de luces LED anualmente, celebrando eventos que van desde el Día Nacional, Eid, Año Nuevo, fiestas internacionales, victorias deportivas y conmemoraciones culturales especiales, convirtiéndolo en una de las plataformas de exhibición arquitectónica más activas del mundo.",
+          de: "Der Burj Khalifa veranstaltet jährlich über 200 LED-Lichtshows und Displays, die Ereignisse vom Nationalfeiertag über Eid, Neujahr, internationale Feiertage, Sportsiege bis hin zu besonderen kulturellen Gedenkfeiern feiern, was ihn zu einer der aktivsten architektonischen Ausstellungsplattformen der Welt macht.",
+          nl: "De Burj Khalifa organiseert jaarlijks meer dan 200 LED-lichtshows en displays, ter viering van evenementen variërend van Nationale Feestdag, Eid, Nieuwjaar, internationale feestdagen, sportieve overwinningen en speciale culturele herdenkingen, waarmee het een van 's werelds meest actieve architectonische displayplatforms is."
+        }
+      },
+      {
+        question: {
+          en: "What distinction does the Burj Khalifa hold in terms of wedding proposals and marriage ceremonies?",
+          es: "¿Qué distinción tiene el Burj Khalifa en términos de propuestas de matrimonio y ceremonias nupciales?",
+          de: "Welche Auszeichnung hat der Burj Khalifa in Bezug auf Heiratsanträge und Hochzeitszeremonien?",
+          nl: "Welke onderscheiding heeft de Burj Khalifa wat betreft huwelijksaanzoeken en huwelijksceremonies?"
+        },
+        options: [
+          { en: "Most popular proposal location in Middle East", es: "Ubicación de propuesta más popular en Medio Oriente", de: "Beliebtester Antragort im Nahen Osten", nl: "Populairste aanzoeklocatie in het Midden-Oosten" },
+          { en: "Hosts exclusive sky-high ceremonies", es: "Organiza ceremonias exclusivas en las alturas", de: "Veranstaltet exklusive Hochzeitszeremonien in luftiger Höhe", nl: "Organiseert exclusieve ceremonies in de lucht" },
+          { en: "Featured in numerous wedding films", es: "Aparece en numerosas películas de bodas", de: "In zahlreichen Hochzeitsfilmen zu sehen", nl: "Verschijnt in talrijke bruiloftsfilms" },
+          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "The Burj Khalifa has become the Middle East's most popular location for marriage proposals, offers exclusive ceremony packages at its observation decks and At.mosphere restaurant, and is featured in countless wedding films and photographs, making it an iconic romantic destination with thousands of proposals occurring annually.",
+          es: "El Burj Khalifa se ha convertido en la ubicación más popular de Medio Oriente para propuestas de matrimonio, ofrece paquetes de ceremonia exclusivos en sus miradores y restaurante At.mosphere, y aparece en innumerables películas y fotografías de bodas, convirtiéndolo en un destino romántico icónico con miles de propuestas que ocurren anualmente.",
+          de: "Der Burj Khalifa ist zum beliebtesten Ort im Nahen Osten für Heiratsanträge geworden, bietet exklusive Zeremonienpakete auf seinen Aussichtsplattformen und im At.mosphere-Restaurant an und ist in unzähligen Hochzeitsfilmen und -fotografien zu sehen, was ihn zu einem ikonischen romantischen Ziel mit jährlich Tausenden von Anträgen macht.",
+          nl: "De Burj Khalifa is de populairste locatie in het Midden-Oosten geworden voor huwelijksaanzoeken, biedt exclusieve ceremoniepakketten op zijn observatiedekken en At.mosphere restaurant, en verschijnt in talloze bruiloftsfilms en foto's, waarmee het een iconische romantische bestemming is met duizenden aanzoeken die jaarlijks plaatsvinden."
+        }
+      },
+      {
+        question: {
+          en: "What environmental awareness initiative did the Burj Khalifa participate in by dimming its lights?",
+          es: "¿En qué iniciativa de concienciación ambiental participó el Burj Khalifa al atenuar sus luces?",
+          de: "An welcher Umweltbewusstseinsinitiative nahm der Burj Khalifa teil, indem er seine Lichter dimmt?",
+          nl: "Aan welk milieuvoorzieningsinitiatief nam de Burj Khalifa deel door zijn lichten te dimmen?"
+        },
+        options: [
+          { en: "Earth Hour", es: "Hora del Planeta", de: "Earth Hour", nl: "Earth Hour" },
+          { en: "World Environment Day", es: "Día Mundial del Medio Ambiente", de: "Weltumwelttag", nl: "Wereldmilieudag" },
+          { en: "Climate Action Week", es: "Semana de Acción Climática", de: "Klimaaktionswoche", nl: "Klimaatactieweek" },
+          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "The Burj Khalifa actively participates in multiple environmental initiatives including Earth Hour (annual lights-off event), World Environment Day celebrations with green displays, and Climate Action Week campaigns, using its prominent visibility to promote global sustainability messages and environmental consciousness to millions worldwide.",
+          es: "El Burj Khalifa participa activamente en múltiples iniciativas ambientales incluyendo la Hora del Planeta (evento anual de apagar luces), celebraciones del Día Mundial del Medio Ambiente con exhibiciones verdes, y campañas de la Semana de Acción Climática, usando su visibilidad prominente para promover mensajes de sostenibilidad global y conciencia ambiental a millones en todo el mundo.",
+          de: "Der Burj Khalifa beteiligt sich aktiv an mehreren Umweltinitiativen, darunter Earth Hour (jährliche Licht-aus-Veranstaltung), Weltumwelttagsfeiern mit grünen Displays und Klimaaktionswochenkampagnen, und nutzt seine prominente Sichtbarkeit, um globale Nachhaltigkeitsbotschaften und Umweltbewusstsein an Millionen weltweit zu fördern.",
+          nl: "De Burj Khalifa neemt actief deel aan meerdere milieuinitiatieven waaronder Earth Hour (jaarlijks licht-uit evenement), Wereldmilieudag vieringen met groene displays, en Klimaatactieweek campagnes, waarbij zijn prominente zichtbaarheid wordt gebruikt om wereldwijde duurzaamheidsboodschappen en milieubewustzijn te bevorderen bij miljoenen wereldwijd."
+        }
       }
     ]
   };

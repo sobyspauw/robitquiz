@@ -427,6 +427,426 @@
           de: "Gladiatoren, die sich weigerten zu kämpfen, konnten mit heißen Eisen gefoltert, ausgepeitscht oder mit brennenden Fackeln bedroht werden, um sie zum Kampf zu zwingen. Begleiter, die mit diesen Werkzeugen bewaffnet waren, standen in der Arena bereit, um die Einhaltung des gewalttätigen Spektakels sicherzustellen.",
           nl: "Gladiatoren die weigerden te vechten konden worden gefolterd met hete ijzers, gegeseld of bedreigd met brandende fakkels om hen tot gevecht te dwingen. Begeleiders gewapend met deze instrumenten stonden klaar in de arena om naleving van het gewelddadige spektakel te verzekeren."
         }
+      },
+      {
+        question: {
+          en: "What was the 'paegniarii' class of fighters?",
+          es: "¿Cuál era la clase de luchadores 'paegniarii'?",
+          de: "Was war die Kämpferklasse 'Paegniarii'?",
+          nl: "Wat was de vechtersklas 'paegniarii'?"
+        },
+        options: [
+          { en: "Comic relief fighters with mock weapons", es: "Luchadores de comedia con armas simuladas", de: "Komische Kämpfer mit Scheinwaffen", nl: "Komische vechters met namaakwapens" },
+          { en: "Elite gladiators", es: "Gladiadores de élite", de: "Elite-Gladiatoren", nl: "Elite gladiatoren" },
+          { en: "Animal trainers", es: "Entrenadores de animales", de: "Tiertrainer", nl: "Dierentrainers" },
+          { en: "Child fighters", es: "Luchadores niños", de: "Kinderkämpfer", nl: "Kindvechters" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Paegniarii were entertainers who provided comic relief between serious gladiatorial bouts. They fought with wooden or blunted weapons and used exaggerated movements, serving as intermission entertainment to lighten the mood during the games.",
+          es: "Los paegniarii eran artistas que proporcionaban alivio cómico entre combates serios de gladiadores. Luchaban con armas de madera o sin filo y usaban movimientos exagerados, sirviendo como entretenimiento intermedio para aligerar el ánimo durante los juegos.",
+          de: "Paegniarii waren Entertainer, die komische Erleichterung zwischen ernsthaften Gladiatorenkämpfen boten. Sie kämpften mit Holz- oder stumpfen Waffen und nutzten übertriebene Bewegungen, dienten als Pausenunterhaltung, um die Stimmung während der Spiele aufzulockern.",
+          nl: "Paegniarii waren entertainers die komische verlichting boden tussen serieuze gladiatorengevechten. Ze vochten met houten of botte wapens en gebruikten overdreven bewegingen, dienend als pauze-entertainment om de stemming tijdens de spelen te verlichten."
+        }
+      },
+      {
+        question: {
+          en: "How long did a typical gladiatorial combat last?",
+          es: "¿Cuánto duraba típicamente un combate de gladiadores?",
+          de: "Wie lange dauerte ein typischer Gladiatorenkampf?",
+          nl: "Hoe lang duurde een typisch gladiatorengevecht?"
+        },
+        options: [
+          { en: "10-15 minutes", es: "10-15 minutos", de: "10-15 Minuten", nl: "10-15 minuten" },
+          { en: "30-45 minutes", es: "30-45 minutos", de: "30-45 Minuten", nl: "30-45 minuten" },
+          { en: "1-2 hours", es: "1-2 horas", de: "1-2 Stunden", nl: "1-2 uur" },
+          { en: "Several hours", es: "Varias horas", de: "Mehrere Stunden", nl: "Meerdere uren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Most gladiatorial combats lasted 10-15 minutes. Fights were intense but brief, as the heavily armored combatants tired quickly. Longer fights indicated evenly matched opponents or defensive tactics. Multiple bouts were staged throughout the afternoon to maintain audience excitement.",
+          es: "La mayoría de los combates de gladiadores duraban 10-15 minutos. Las peleas eran intensas pero breves, ya que los combatientes fuertemente armados se cansaban rápidamente. Las peleas más largas indicaban oponentes igualados o tácticas defensivas. Múltiples combates se organizaban durante la tarde para mantener la emoción del público.",
+          de: "Die meisten Gladiatorenkämpfe dauerten 10-15 Minuten. Kämpfe waren intensiv, aber kurz, da die schwer gepanzerten Kämpfer schnell ermüdeten. Längere Kämpfe deuteten auf ebenbürtige Gegner oder defensive Taktiken hin. Mehrere Kämpfe wurden während des Nachmittags inszeniert, um die Aufregung des Publikums aufrechtzuerhalten.",
+          nl: "De meeste gladiatorengevechten duurden 10-15 minuten. Gevechten waren intens maar kort, omdat de zwaar bepantserde strijders snel moe werden. Langere gevechten duidden op gelijk opgaande tegenstanders of defensieve tactieken. Meerdere gevechten werden tijdens de namiddag georganiseerd om de opwinding van het publiek te behouden."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of the 'missio' gesture?",
+          es: "¿Cuál era el significado del gesto 'missio'?",
+          de: "Was war die Bedeutung der 'Missio'-Geste?",
+          nl: "Wat was de betekenis van het 'missio' gebaar?"
+        },
+        options: [
+          { en: "Declaration of victory", es: "Declaración de victoria", de: "Siegeserklärung", nl: "Overwinningsverklaring" },
+          { en: "Request for mercy/dismissal from combat", es: "Solicitud de misericordia/despido del combate", de: "Bitte um Gnade/Entlassung vom Kampf", nl: "Verzoek om genade/ontslag van gevecht" },
+          { en: "Challenge to fight again", es: "Desafío para luchar de nuevo", de: "Herausforderung zum erneuten Kampf", nl: "Uitdaging om opnieuw te vechten" },
+          { en: "Signal to begin fighting", es: "Señal para comenzar a luchar", de: "Signal zum Kampfbeginn", nl: "Signaal om te beginnen met vechten" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Missio was the technical term for dismissal from combat, essentially a reprieve. A defeated gladiator could request missio by raising a finger. The editor (sponsor) or emperor decided whether to grant it. Missio cum missione meant dismissal with honor, while missio sine missione meant being spared but expected to fight again.",
+          es: "Missio era el término técnico para el despido del combate, esencialmente un indulto. Un gladiador derrotado podía solicitar missio levantando un dedo. El editor (patrocinador) o emperador decidía si concederlo. Missio cum missione significaba despido con honor, mientras missio sine missione significaba ser perdonado pero esperado luchar de nuevo.",
+          de: "Missio war der technische Begriff für die Entlassung aus dem Kampf, im Wesentlichen eine Begnadigung. Ein besiegter Gladiator konnte Missio beantragen, indem er einen Finger hob. Der Editor (Sponsor) oder Kaiser entschied, ob er es gewährte. Missio cum missione bedeutete ehrenhaften Abschied, während Missio sine missione bedeutete, verschont zu werden, aber erwartet zu werden, wieder zu kämpfen.",
+          nl: "Missio was de technische term voor ontslag uit gevecht, in wezen een respijt. Een verslagen gladiator kon missio aanvragen door een vinger op te steken. De editor (sponsor) of keizer besliste of het werd toegekend. Missio cum missione betekende ontslag met eer, terwijl missio sine missione betekende gespaard worden maar verwacht werd opnieuw te vechten."
+        }
+      },
+      {
+        question: {
+          en: "What type of gladiator fought with a lasso?",
+          es: "¿Qué tipo de gladiador luchaba con un lazo?",
+          de: "Welche Art von Gladiator kämpfte mit einem Lasso?",
+          nl: "Welk type gladiator vocht met een lasso?"
+        },
+        options: [
+          { en: "Laquearius", es: "Laquearius", de: "Laquearius", nl: "Laquearius" },
+          { en: "Retiarius", es: "Retiarius", de: "Retiarius", nl: "Retiarius" },
+          { en: "Thraex", es: "Thraex", de: "Thraex", nl: "Thraex" },
+          { en: "Provocator", es: "Provocator", de: "Provocator", nl: "Provocator" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Laquearius was a rare type of gladiator who fought with a lasso (laqueus) to ensnare opponents. Similar to the Retiarius, they relied on entrapment rather than direct combat, attempting to rope and immobilize their adversaries before finishing them. They were lightly armored for mobility.",
+          es: "El Laquearius era un tipo raro de gladiador que luchaba con un lazo (laqueus) para atrapar oponentes. Similar al Retiarius, dependían del atrapamiento en lugar del combate directo, intentando enlazar e inmovilizar a sus adversarios antes de acabar con ellos. Estaban ligeramente armados para movilidad.",
+          de: "Der Laquearius war eine seltene Gladiatorenart, die mit einem Lasso (Laqueus) kämpfte, um Gegner zu fangen. Ähnlich wie der Retiarius verließen sie sich auf Einfangen statt direkten Kampf und versuchten, ihre Gegner mit einem Seil zu fangen und zu immobilisieren, bevor sie sie erledigten. Sie waren für Mobilität leicht gepanzert.",
+          nl: "De Laquearius was een zeldzaam type gladiator die vocht met een lasso (laqueus) om tegenstanders te verstrikken. Net als de Retiarius vertrouwden ze op het vangen in plaats van direct gevecht, waarbij ze probeerden hun tegenstanders vast te binden en te immobiliseren voordat ze hen afmaakten. Ze waren licht bepantserd voor mobiliteit."
+        }
+      },
+      {
+        question: {
+          en: "What were female gladiators called?",
+          es: "¿Cómo se llamaban las gladiadoras?",
+          de: "Wie hießen weibliche Gladiatorinnen?",
+          nl: "Hoe heetten vrouwelijke gladiatoren?"
+        },
+        options: [
+          { en: "Gladiatrix or Gladiatrices", es: "Gladiatrix o Gladiatrices", de: "Gladiatrix oder Gladiatrices", nl: "Gladiatrix of Gladiatrices" },
+          { en: "Amazona", es: "Amazona", de: "Amazona", nl: "Amazona" },
+          { en: "Bellatrix", es: "Bellatrix", de: "Bellatrix", nl: "Bellatrix" },
+          { en: "Femina pugnans", es: "Femina pugnans", de: "Femina pugnans", nl: "Femina pugnans" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Female gladiators were called gladiatrices (singular: gladiatrix). While uncommon, women did fight in the arena, often as novelty acts. Historical records and a marble relief from Halicarnassus confirm their existence. Emperor Septimius Severus eventually banned female gladiatorial combat in 200 AD.",
+          es: "Las gladiadoras se llamaban gladiatrices (singular: gladiatrix). Aunque poco comunes, las mujeres sí luchaban en la arena, a menudo como actos de novedad. Los registros históricos y un relieve de mármol de Halicarnaso confirman su existencia. El emperador Septimio Severo eventualmente prohibió el combate de gladiadoras en 200 d.C.",
+          de: "Weibliche Gladiatoren hießen Gladiatrices (Singular: Gladiatrix). Obwohl ungewöhnlich, kämpften Frauen in der Arena, oft als Neuheitsakte. Historische Aufzeichnungen und ein Marmorrelief aus Halikarnassos bestätigen ihre Existenz. Kaiser Septimius Severus verbot schließlich weibliche Gladiatorenkämpfe im Jahr 200 n.Chr.",
+          nl: "Vrouwelijke gladiatoren werden gladiatrices genoemd (enkelvoud: gladiatrix). Hoewel ongewoon, vochten vrouwen wel in de arena, vaak als nieuwigheidsacts. Historische records en een marmeren reliëf uit Halicarnassus bevestigen hun bestaan. Keizer Septimius Severus verbood uiteindelijk vrouwelijke gladiatorengevechten in 200 na Chr."
+        }
+      },
+      {
+        question: {
+          en: "What food was commonly associated with gladiators' diet?",
+          es: "¿Qué comida se asociaba comúnmente con la dieta de los gladiadores?",
+          de: "Welche Nahrung wurde häufig mit der Ernährung von Gladiatoren in Verbindung gebracht?",
+          nl: "Welk voedsel werd algemeen geassocieerd met het dieet van gladiatoren?"
+        },
+        options: [
+          { en: "Meat and fish", es: "Carne y pescado", de: "Fleisch und Fisch", nl: "Vlees en vis" },
+          { en: "Barley and beans", es: "Cebada y frijoles", de: "Gerste und Bohnen", nl: "Gerst en bonen" },
+          { en: "Cheese and milk", es: "Queso y leche", de: "Käse und Milch", nl: "Kaas en melk" },
+          { en: "Fruits only", es: "Solo frutas", de: "Nur Früchte", nl: "Alleen fruit" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Gladiators ate a high-carbohydrate, vegetarian diet primarily consisting of barley and beans, earning them the nickname 'hordearii' (barley-eaters). This diet helped build subcutaneous fat for protection and provided energy. Analysis of gladiator bones shows minimal meat consumption and high levels of plant-based minerals.",
+          es: "Los gladiadores comían una dieta vegetariana alta en carbohidratos que consistía principalmente en cebada y frijoles, ganándose el apodo 'hordearii' (comedores de cebada). Esta dieta ayudaba a construir grasa subcutánea para protección y proporcionaba energía. El análisis de huesos de gladiadores muestra consumo mínimo de carne y altos niveles de minerales de origen vegetal.",
+          de: "Gladiatoren aßen eine kohlenhydratreiche, vegetarische Ernährung, die hauptsächlich aus Gerste und Bohnen bestand, was ihnen den Spitznamen 'Hordearii' (Gerstefresser) einbrachte. Diese Ernährung half, subkutanes Fett zum Schutz aufzubauen und lieferte Energie. Die Analyse von Gladiatorenknochen zeigt minimalen Fleischkonsum und hohe Gehalte an pflanzlichen Mineralien.",
+          nl: "Gladiatoren aten een koolhydraatrijk, vegetarisch dieet dat voornamelijk bestond uit gerst en bonen, waardoor ze de bijnaam 'hordearii' (gersteters) kregen. Dit dieet hielp bij het opbouwen van onderhuidse vet voor bescherming en leverde energie. Analyse van gladiatorenbotten toont minimaal vleesconsumptie en hoge niveaus van plantaardige mineralen."
+        }
+      },
+      {
+        question: {
+          en: "What was the 'rudis' fight?",
+          es: "¿Qué era la pelea de 'rudis'?",
+          de: "Was war der 'Rudis'-Kampf?",
+          nl: "Wat was het 'rudis' gevecht?"
+        },
+        options: [
+          { en: "A practice fight with wooden swords", es: "Una pelea de práctica con espadas de madera", de: "Ein Übungskampf mit Holzschwertern", nl: "Een oefengevecht met houten zwaarden" },
+          { en: "A death match", es: "Un combate a muerte", de: "Ein Todeskampf", nl: "Een doodsmatch" },
+          { en: "A fight for freedom", es: "Una pelea por la libertad", de: "Ein Kampf um Freiheit", nl: "Een gevecht voor vrijheid" },
+          { en: "A team battle", es: "Una batalla en equipo", de: "Eine Teamschlacht", nl: "Een teamgevecht" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Training fights with wooden swords (rudis) were how gladiators practiced without risking injury. The rudis was also the wooden sword given to gladiators upon retirement as a symbol of freedom. Trainers and referees also carried a rudis to separate fighters and enforce rules during actual combat.",
+          es: "Las peleas de entrenamiento con espadas de madera (rudis) eran cómo los gladiadores practicaban sin arriesgar lesiones. La rudis también era la espada de madera dada a los gladiadores al retirarse como símbolo de libertad. Los entrenadores y árbitros también portaban una rudis para separar luchadores y hacer cumplir reglas durante el combate real.",
+          de: "Trainingskämpfe mit Holzschwertern (Rudis) waren, wie Gladiatoren ohne Verletzungsrisiko übten. Die Rudis war auch das Holzschwert, das Gladiatoren bei der Pensionierung als Symbol der Freiheit gegeben wurde. Trainer und Schiedsrichter trugen auch eine Rudis, um Kämpfer zu trennen und Regeln während des tatsächlichen Kampfes durchzusetzen.",
+          nl: "Trainingsgevechten met houten zwaarden (rudis) waren hoe gladiatoren oefenden zonder risico op letsel. De rudis was ook het houten zwaard dat gladiatoren bij hun pensionering werd gegeven als symbool van vrijheid. Trainers en scheidsrechters droegen ook een rudis om vechters te scheiden en regels tijdens het echte gevecht te handhaven."
+        }
+      },
+      {
+        question: {
+          en: "What entertainment occurred between gladiatorial matches?",
+          es: "¿Qué entretenimiento ocurría entre los combates de gladiadores?",
+          de: "Welche Unterhaltung fand zwischen Gladiatorenkämpfen statt?",
+          nl: "Welk entertainment vond plaats tussen gladiatorengevechten?"
+        },
+        options: [
+          { en: "Silent meditation", es: "Meditación silenciosa", de: "Stille Meditation", nl: "Stille meditatie" },
+          { en: "Music, comedy acts, and acrobatics", es: "Música, actos de comedia y acrobacia", de: "Musik, Comedy-Acts und Akrobatik", nl: "Muziek, comedy-acts en acrobatiek" },
+          { en: "Political speeches", es: "Discursos políticos", de: "Politische Reden", nl: "Politieke toespraken" },
+          { en: "Religious ceremonies only", es: "Solo ceremonias religiosas", de: "Nur religiöse Zeremonien", nl: "Alleen religieuze ceremonies" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Between gladiatorial bouts, various entertainment was provided including musicians, comic performers, acrobats, and trick riders. The orchestra (musicians) played throughout the day. These intermissions allowed time for arena preparation, body removal, and sand replacement while keeping the audience engaged.",
+          es: "Entre combates de gladiadores, se proporcionaba entretenimiento variado incluyendo músicos, artistas cómicos, acróbatas y jinetes de trucos. La orquesta (músicos) tocaba durante todo el día. Estos intermedios permitían tiempo para preparación de arena, remoción de cuerpos y reemplazo de arena mientras mantenían al público entretenido.",
+          de: "Zwischen Gladiatorenkämpfen wurde verschiedene Unterhaltung geboten, einschließlich Musiker, komische Darsteller, Akrobaten und Trickreiter. Das Orchester (Musiker) spielte den ganzen Tag. Diese Pausen ermöglichten Zeit für Arena-Vorbereitung, Körperentfernung und Sandersatz, während das Publikum beschäftigt blieb.",
+          nl: "Tussen gladiatorengevechten werd verschillende entertainment geboden, waaronder muzikanten, komische artiesten, acrobaten en trucruiters. Het orkest (muzikanten) speelde de hele dag door. Deze pauzes maakten tijd mogelijk voor arena-voorbereiding, lichaamsverwijdering en zandvervanging terwijl het publiek betrokken bleef."
+        }
+      },
+      {
+        question: {
+          en: "What was the 'hoplomachus' gladiator's primary weapon?",
+          es: "¿Cuál era el arma principal del gladiador 'hoplomachus'?",
+          de: "Was war die Hauptwaffe des 'Hoplomachus'-Gladiators?",
+          nl: "Wat was het primaire wapen van de 'hoplomachus' gladiator?"
+        },
+        options: [
+          { en: "Trident", es: "Tridente", de: "Dreizack", nl: "Drietand" },
+          { en: "Spear and small round shield", es: "Lanza y pequeño escudo redondo", de: "Speer und kleiner runder Schild", nl: "Speer en klein rond schild" },
+          { en: "Two swords", es: "Dos espadas", de: "Zwei Schwerter", nl: "Twee zwaarden" },
+          { en: "Net and dagger", es: "Red y daga", de: "Netz und Dolch", nl: "Net en dolk" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Hoplomachus ('armed fighter') was modeled after Greek hoplite soldiers, fighting with a spear (hasta) as primary weapon, a small round shield (parmula), and a gladius short sword as backup. They wore greaves, arm guards, and a visored helmet, representing heavily armored Greek-style combat.",
+          es: "El Hoplomachus ('luchador armado') se modeló según los soldados hoplitas griegos, luchando con una lanza (hasta) como arma principal, un pequeño escudo redondo (parmula) y una espada corta gladius de respaldo. Llevaban grebas, protectores de brazo y un casco con visera, representando combate griego fuertemente armado.",
+          de: "Der Hoplomachus ('bewaffneter Kämpfer') war nach griechischen Hopliten-Soldaten modelliert und kämpfte mit einem Speer (Hasta) als Hauptwaffe, einem kleinen runden Schild (Parmula) und einem Gladius-Kurzschwert als Backup. Sie trugen Beinschienen, Armschützer und einen Helm mit Visier, was schwer gepanzerten griechischen Kampf darstellte.",
+          nl: "De Hoplomachus ('gewapende vechter') was gemodelleerd naar Griekse hopliet-soldaten, vechtend met een speer (hasta) als primair wapen, een klein rond schild (parmula) en een gladius kort zwaard als reserve. Ze droegen beenbeschermers, armbeschermers en een helm met vizier, wat zwaar bepantserd Grieks gevecht vertegenwoordigde."
+        }
+      },
+      {
+        question: {
+          en: "What did gladiators swear in the oath called 'sacramentum gladiatorium'?",
+          es: "¿Qué juraban los gladiadores en el juramento llamado 'sacramentum gladiatorium'?",
+          de: "Was schworen Gladiatoren im Eid namens 'Sacramentum Gladiatorium'?",
+          nl: "Wat zwoeren gladiatoren in de eed genaamd 'sacramentum gladiatorium'?"
+        },
+        options: [
+          { en: "To always win", es: "Siempre ganar", de: "Immer zu gewinnen", nl: "Altijd te winnen" },
+          { en: "To endure burning, chains, beating, and death by the sword", es: "Soportar quemadura, cadenas, golpes y muerte por espada", de: "Brennen, Ketten, Schlagen und Tod durch das Schwert zu ertragen", nl: "Verbranding, ketenen, slagen en dood door het zwaard te verdragen" },
+          { en: "To never fight again", es: "Nunca luchar de nuevo", de: "Nie wieder zu kämpfen", nl: "Nooit meer te vechten" },
+          { en: "To escape at first opportunity", es: "Escapar a la primera oportunidad", de: "Bei erster Gelegenheit zu fliehen", nl: "Bij de eerste gelegenheid te ontsnappen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The sacramentum gladiatorium was the gladiator's oath: 'I will endure to be burned, to be bound, to be beaten, and to be killed by the sword' (uri, vinciri, verberari, ferroque necari). This solemn vow represented complete submission to their master and acceptance of any fate in the arena.",
+          es: "El sacramentum gladiatorium era el juramento del gladiador: 'Soportaré ser quemado, ser encadenado, ser golpeado y ser matado por la espada' (uri, vinciri, verberari, ferroque necari). Este voto solemne representaba sumisión completa a su maestro y aceptación de cualquier destino en la arena.",
+          de: "Das Sacramentum Gladiatorium war der Gladiatoreneid: 'Ich werde ertragen, verbrannt, gefesselt, geschlagen und durch das Schwert getötet zu werden' (uri, vinciri, verberari, ferroque necari). Dieser feierliche Schwur stellte vollständige Unterwerfung unter ihren Meister und Akzeptanz jedes Schicksals in der Arena dar.",
+          nl: "Het sacramentum gladiatorium was de eed van de gladiator: 'Ik zal verdragen te worden verbrand, geboeid, geslagen en gedood door het zwaard' (uri, vinciri, verberari, ferroque necari). Deze plechtige gelofte vertegenwoordigde volledige onderwerping aan hun meester en acceptatie van elk lot in de arena."
+        }
+      },
+      {
+        question: {
+          en: "What was the 'provocator' gladiator style based on?",
+          es: "¿En qué se basaba el estilo de gladiador 'provocator'?",
+          de: "Worauf basierte der 'Provocator'-Gladiatorenstil?",
+          nl: "Waarop was de 'provocator' gladiatorstijl gebaseerd?"
+        },
+        options: [
+          { en: "Roman legionary soldiers", es: "Soldados legionarios romanos", de: "Römische Legionärssoldaten", nl: "Romeinse legionair soldaten" },
+          { en: "Greek warriors", es: "Guerreros griegos", de: "Griechische Krieger", nl: "Griekse krijgers" },
+          { en: "Celtic fighters", es: "Luchadores celtas", de: "Keltische Kämpfer", nl: "Keltische vechters" },
+          { en: "Persian cavalry", es: "Caballería persa", de: "Persische Kavallerie", nl: "Perzische cavalerie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Provocator ('challenger') was modeled after Roman legionaries, using a gladius sword, rectangular shield (scutum), and armor similar to Roman soldiers. They typically fought other Provocatores in evenly matched contests. Their style celebrated Roman military traditions and discipline.",
+          es: "El Provocator ('desafiador') se modeló según los legionarios romanos, usando una espada gladius, escudo rectangular (scutum) y armadura similar a los soldados romanos. Típicamente luchaban contra otros Provocatores en concursos igualados. Su estilo celebraba tradiciones militares romanas y disciplina.",
+          de: "Der Provocator ('Herausforderer') war nach römischen Legionären modelliert und benutzte ein Gladius-Schwert, einen rechteckigen Schild (Scutum) und Rüstung ähnlich römischen Soldaten. Sie kämpften typischerweise gegen andere Provocatores in gleichmäßig abgestimmten Wettkämpfen. Ihr Stil feierte römische militärische Traditionen und Disziplin.",
+          nl: "De Provocator ('uitdager') was gemodelleerd naar Romeinse legionairen, met een gladius zwaard, rechthoekig schild (scutum) en bepantsering vergelijkbaar met Romeinse soldaten. Ze vochten doorgaans tegen andere Provocatores in gelijk opgaande wedstrijden. Hun stijl vierde Romeinse militaire tradities en discipline."
+        }
+      },
+      {
+        question: {
+          en: "What happened to wounded gladiators during a fight?",
+          es: "¿Qué pasaba con los gladiadores heridos durante una pelea?",
+          de: "Was geschah mit verwundeten Gladiatoren während eines Kampfes?",
+          nl: "Wat gebeurde er met gewonde gladiatoren tijdens een gevecht?"
+        },
+        options: [
+          { en: "They were immediately killed", es: "Eran asesinados inmediatamente", de: "Sie wurden sofort getötet", nl: "Ze werden onmiddellijk gedood" },
+          { en: "Doctors attended them ringside", es: "Doctores los atendían al borde del ring", de: "Ärzte betreuten sie am Ring", nl: "Artsen verzorgden hen ringside" },
+          { en: "They had to continue fighting no matter what", es: "Tenían que seguir luchando sin importar qué", de: "Sie mussten unabhängig davon weiterkämpfen", nl: "Ze moesten blijven vechten ongeacht wat" },
+          { en: "The fight was canceled", es: "La pelea se cancelaba", de: "Der Kampf wurde abgebrochen", nl: "Het gevecht werd geannuleerd" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Trained doctors (medici) attended gladiatorial games and provided immediate medical care to wounded fighters. The ludus had its own medical staff who treated injuries between fights. Gladiators were valuable investments, so medical attention was a practical necessity to preserve these expensive assets when possible.",
+          es: "Doctores entrenados (medici) asistían a juegos de gladiadores y proporcionaban atención médica inmediata a luchadores heridos. El ludus tenía su propio personal médico que trataba lesiones entre peleas. Los gladiadores eran inversiones valiosas, así que la atención médica era una necesidad práctica para preservar estos activos costosos cuando era posible.",
+          de: "Ausgebildete Ärzte (Medici) besuchten Gladiatorenspiele und leisteten verwundeten Kämpfern sofortige medizinische Versorgung. Das Ludus hatte eigenes medizinisches Personal, das Verletzungen zwischen Kämpfen behandelte. Gladiatoren waren wertvolle Investitionen, daher war medizinische Versorgung eine praktische Notwendigkeit, um diese teuren Vermögenswerte wenn möglich zu erhalten.",
+          nl: "Getrainde artsen (medici) woonden gladiatorenspelen bij en gaven onmiddellijke medische zorg aan gewonde vechters. Het ludus had zijn eigen medisch personeel dat verwondingen tussen gevechten behandelde. Gladiatoren waren waardevolle investeringen, dus medische aandacht was een praktische noodzaak om deze dure bezittingen indien mogelijk te behouden."
+        }
+      },
+      {
+        question: {
+          en: "What was 'sine missione' combat?",
+          es: "¿Qué era el combate 'sine missione'?",
+          de: "Was war 'Sine Missione'-Kampf?",
+          nl: "Wat was 'sine missione' gevecht?"
+        },
+        options: [
+          { en: "A training exercise", es: "Un ejercicio de entrenamiento", de: "Eine Trainingsübung", nl: "Een trainingsoefening" },
+          { en: "A fight without possibility of mercy", es: "Una pelea sin posibilidad de misericordia", de: "Ein Kampf ohne Gnadenmöglichkeit", nl: "Een gevecht zonder mogelijkheid van genade" },
+          { en: "A friendly competition", es: "Una competencia amistosa", de: "Ein freundschaftlicher Wettbewerb", nl: "Een vriendelijke competitie" },
+          { en: "A team battle", es: "Una batalla en equipo", de: "Eine Teamschlacht", nl: "Een teamgevecht" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Sine missione ('without release') was a rare type of combat where neither fighter could request mercy - the fight continued until death. These extreme contests were uncommon and considered excessive even by Roman standards, usually only staged for special occasions or by particularly bloodthirsty sponsors.",
+          es: "Sine missione ('sin liberación') era un tipo raro de combate donde ningún luchador podía pedir misericordia - la pelea continuaba hasta la muerte. Estos concursos extremos eran poco comunes y considerados excesivos incluso por estándares romanos, usualmente solo organizados para ocasiones especiales o por patrocinadores particularmente sedientos de sangre.",
+          de: "Sine Missione ('ohne Entlassung') war eine seltene Kampfart, bei der kein Kämpfer um Gnade bitten konnte - der Kampf ging bis zum Tod weiter. Diese extremen Wettkämpfe waren ungewöhnlich und selbst nach römischen Maßstäben als übertrieben angesehen, normalerweise nur für besondere Anlässe oder von besonders blutdürstigen Sponsoren inszeniert.",
+          nl: "Sine missione ('zonder vrijlating') was een zeldzaam type gevecht waarbij geen van beide vechters om genade kon vragen - het gevecht ging door tot de dood. Deze extreme wedstrijden waren ongewoon en zelfs naar Romeinse maatstaven als excessief beschouwd, meestal alleen georganiseerd voor speciale gelegenheden of door bijzonder bloeddorstige sponsors."
+        }
+      },
+      {
+        question: {
+          en: "What weapon did the 'scissor' gladiator use?",
+          es: "¿Qué arma usaba el gladiador 'scissor'?",
+          de: "Welche Waffe benutzte der 'Scissor'-Gladiator?",
+          nl: "Welk wapen gebruikte de 'scissor' gladiator?"
+        },
+        options: [
+          { en: "Large scissors", es: "Tijeras grandes", de: "Große Schere", nl: "Grote schaar" },
+          { en: "A tube-shaped blade attached to the arm", es: "Una hoja en forma de tubo unida al brazo", de: "Eine röhrenförmige Klinge am Arm befestigt", nl: "Een buisvormig lemmet aan de arm bevestigd" },
+          { en: "Double daggers", es: "Dagas dobles", de: "Doppeldolche", nl: "Dubbele dolken" },
+          { en: "A spiked club", es: "Un garrote con pinchos", de: "Eine Stachelkeule", nl: "Een gepiekte knuppel" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Scissor (or Scissores) was a rare gladiator type who fought with a unique weapon: a tube-shaped blade that encased the entire forearm, ending in a curved or crescent-shaped cutting edge. This unusual weapon could both cut and hook opponents. They typically fought against Retiarii or other lightly armored types.",
+          es: "El Scissor (o Scissores) era un tipo raro de gladiador que luchaba con un arma única: una hoja en forma de tubo que encerraba todo el antebrazo, terminando en un borde cortante curvo o en forma de media luna. Esta arma inusual podía tanto cortar como enganchar oponentes. Típicamente luchaban contra Retiarii u otros tipos ligeramente armados.",
+          de: "Der Scissor (oder Scissores) war ein seltener Gladiatorentyp, der mit einer einzigartigen Waffe kämpfte: einer röhrenförmigen Klinge, die den gesamten Unterarm umhüllte und in einer gebogenen oder halbmondförmigen Schneide endete. Diese ungewöhnliche Waffe konnte sowohl schneiden als auch Gegner einhaken. Sie kämpften typischerweise gegen Retiarii oder andere leicht gepanzerte Typen.",
+          nl: "De Scissor (of Scissores) was een zeldzaam gladiatortype dat vocht met een uniek wapen: een buisvormig lemmet dat de hele onderarm omhulde, eindigend in een gebogen of halvemaanvormige snijrand. Dit ongebruikelijke wapen kon zowel snijden als tegenstanders inhaken. Ze vochten doorgaans tegen Retiarii of andere licht bepantserde types."
+        }
+      },
+      {
+        question: {
+          en: "What was the purpose of the sand covering the arena floor?",
+          es: "¿Cuál era el propósito de la arena que cubría el piso de la arena?",
+          de: "Was war der Zweck des Sandes, der den Arenaboden bedeckte?",
+          nl: "Wat was het doel van het zand dat de arenabodem bedekte?"
+        },
+        options: [
+          { en: "Pure decoration", es: "Pura decoración", de: "Reine Dekoration", nl: "Puur decoratie" },
+          { en: "To absorb blood and provide traction", es: "Absorber sangre y proporcionar tracción", de: "Blut absorbieren und Traktion bieten", nl: "Bloed absorberen en grip bieden" },
+          { en: "To make noise when walking", es: "Hacer ruido al caminar", de: "Geräusche beim Gehen machen", nl: "Geluid maken bij het lopen" },
+          { en: "To hide trap doors", es: "Ocultar trampillas", de: "Falltüren verbergen", nl: "Valluiken verbergen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The arena floor was covered with sand (Latin: harena, from which 'arena' derives) to absorb blood and body fluids, preventing slippery conditions. Sand also provided better footing for fighters and could be raked clean or replaced between bouts. The Latin word for sand became synonymous with the fighting space itself.",
+          es: "El piso de la arena estaba cubierto con arena (latín: harena, de donde deriva 'arena') para absorber sangre y fluidos corporales, previniendo condiciones resbaladizas. La arena también proporcionaba mejor apoyo para luchadores y podía rastrillarse limpia o reemplazarse entre combates. La palabra latina para arena se volvió sinónimo del espacio de lucha mismo.",
+          de: "Der Arenaboden war mit Sand bedeckt (Latein: Harena, von dem 'Arena' abgeleitet ist), um Blut und Körperflüssigkeiten zu absorbieren und rutschige Bedingungen zu verhindern. Sand bot auch besseren Halt für Kämpfer und konnte zwischen Kämpfen sauber geharkt oder ersetzt werden. Das lateinische Wort für Sand wurde zum Synonym für den Kampfraum selbst.",
+          nl: "De arenabodem was bedekt met zand (Latijn: harena, waarvan 'arena' is afgeleid) om bloed en lichaamsvloeistoffen te absorberen, waardoor glibberige omstandigheden werden voorkomen. Zand bood ook betere grip voor vechters en kon tussen gevechten worden schoongeharkt of vervangen. Het Latijnse woord voor zand werd synoniem met de vechtruimte zelf."
+        }
+      },
+      {
+        question: {
+          en: "What type of gladiator was the 'dimachaerus'?",
+          es: "¿Qué tipo de gladiador era el 'dimachaerus'?",
+          de: "Welche Art von Gladiator war der 'Dimachaerus'?",
+          nl: "Welk type gladiator was de 'dimachaerus'?"
+        },
+        options: [
+          { en: "Dual-sword fighter", es: "Luchador de doble espada", de: "Doppelschwert-Kämpfer", nl: "Tweezwaardvechter" },
+          { en: "Chariot fighter", es: "Luchador de carruaje", de: "Streitwagenkämpfer", nl: "Strijdwagenvechter" },
+          { en: "Bow and arrow specialist", es: "Especialista en arco y flecha", de: "Bogen-und-Pfeil-Spezialist", nl: "Boog-en-pijl specialist" },
+          { en: "Whip user", es: "Usuario de látigo", de: "Peitschenbenutzer", nl: "Zweepgebruiker" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Dimachaerus ('two-knife fighter') wielded two swords or curved blades simultaneously. This rare and spectacular fighting style required exceptional skill and agility. They wore minimal armor for maximum mobility, relying on speed and offensive technique rather than defense. Their dual-weapon approach made them crowd favorites.",
+          es: "El Dimachaerus ('luchador de dos cuchillos') manejaba dos espadas o hojas curvas simultáneamente. Este estilo de lucha raro y espectacular requería habilidad y agilidad excepcionales. Llevaban armadura mínima para máxima movilidad, dependiendo de velocidad y técnica ofensiva en lugar de defensa. Su enfoque de doble arma los hacía favoritos del público.",
+          de: "Der Dimachaerus ('Zwei-Messer-Kämpfer') führte zwei Schwerter oder gebogene Klingen gleichzeitig. Dieser seltene und spektakuläre Kampfstil erforderte außergewöhnliche Geschicklichkeit und Beweglichkeit. Sie trugen minimale Rüstung für maximale Mobilität und verließen sich auf Geschwindigkeit und offensive Technik statt Verteidigung. Ihr Doppelwaffen-Ansatz machte sie zu Publikumslieblingen.",
+          nl: "De Dimachaerus ('twee-mes vechter') hanteerde twee zwaarden of gebogen lemmeten tegelijkertijd. Deze zeldzame en spectaculaire vechtstijl vereiste uitzonderlijke vaardigheid en beweeglijkheid. Ze droegen minimale bepantsering voor maximale mobiliteit, vertrouwend op snelheid en offensieve techniek in plaats van verdediging. Hun twee-wapen-aanpak maakte hen publieksfavorieten."
+        }
+      },
+      {
+        question: {
+          en: "How were gladiators typically housed?",
+          es: "¿Cómo se alojaban típicamente los gladiadores?",
+          de: "Wie wurden Gladiatoren typischerweise untergebracht?",
+          nl: "Hoe werden gladiatoren gewoonlijk gehuisvest?"
+        },
+        options: [
+          { en: "In private homes", es: "En casas privadas", de: "In Privathäusern", nl: "In privéwoningen" },
+          { en: "In barracks at training schools (ludi)", es: "En barracas en escuelas de entrenamiento (ludi)", de: "In Kasernen bei Trainingsschulen (Ludi)", nl: "In barakken bij trainingsscholen (ludi)" },
+          { en: "In the Colosseum itself", es: "En el propio Coliseo", de: "Im Kolosseum selbst", nl: "In het Colosseum zelf" },
+          { en: "They lived freely in the city", es: "Vivían libremente en la ciudad", de: "Sie lebten frei in der Stadt", nl: "Ze leefden vrij in de stad" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Gladiators lived in barracks at training schools called ludi. These facilities combined prison-like security with necessary training spaces. The Ludus Magnus near the Colosseum housed up to 2,000 gladiators in small cells. While conditions were strict, valuable gladiators received decent food, medical care, and even had some luxuries.",
+          es: "Los gladiadores vivían en barracas en escuelas de entrenamiento llamadas ludi. Estas instalaciones combinaban seguridad tipo prisión con espacios de entrenamiento necesarios. El Ludus Magnus cerca del Coliseo albergaba hasta 2,000 gladiadores en pequeñas celdas. Aunque las condiciones eran estrictas, los gladiadores valiosos recibían comida decente, atención médica e incluso tenían algunos lujos.",
+          de: "Gladiatoren lebten in Kasernen bei Trainingsschulen namens Ludi. Diese Einrichtungen kombinierten gefängnisartige Sicherheit mit notwendigen Trainingsräumen. Das Ludus Magnus in der Nähe des Kolosseums beherbergte bis zu 2.000 Gladiatoren in kleinen Zellen. Obwohl die Bedingungen streng waren, erhielten wertvolle Gladiatoren anständiges Essen, medizinische Versorgung und hatten sogar einige Annehmlichkeiten.",
+          nl: "Gladiatoren leefden in barakken bij trainingsscholen genaamd ludi. Deze faciliteiten combineerden gevangenisachtige beveiliging met noodzakelijke trainingsruimtes. De Ludus Magnus bij het Colosseum huisvestte tot 2.000 gladiatoren in kleine cellen. Hoewel de omstandigheden streng waren, kregen waardevolle gladiatoren fatsoenlijk voedsel, medische zorg en hadden zelfs enkele luxes."
+        }
+      },
+      {
+        question: {
+          en: "What was special about 'noxii' fighters?",
+          es: "¿Qué era especial sobre los luchadores 'noxii'?",
+          de: "Was war besonders an 'Noxii'-Kämpfern?",
+          nl: "Wat was speciaal aan 'noxii' vechters?"
+        },
+        options: [
+          { en: "They were champion gladiators", es: "Eran gladiadores campeones", de: "Sie waren Meistergladiatoren", nl: "Ze waren kampioengladiatoren" },
+          { en: "They were condemned criminals forced to fight", es: "Eran criminales condenados obligados a luchar", de: "Sie waren verurteilte Kriminelle, die zum Kämpfen gezwungen wurden", nl: "Ze waren veroordeelde criminelen gedwongen te vechten" },
+          { en: "They only fought animals", es: "Solo luchaban contra animales", de: "Sie kämpften nur gegen Tiere", nl: "Ze vochten alleen tegen dieren" },
+          { en: "They were volunteer performers", es: "Eran artistas voluntarios", de: "Sie waren freiwillige Darsteller", nl: "Ze waren vrijwillige artiesten" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Noxii ('harmful persons') were condemned criminals executed in the arena as public punishment. Unlike trained gladiators, noxii received minimal weapons and no armor, making their 'fights' essentially public executions disguised as combat. This midday entertainment was considered the least prestigious part of the games.",
+          es: "Los noxii ('personas dañinas') eran criminales condenados ejecutados en la arena como castigo público. A diferencia de los gladiadores entrenados, los noxii recibían armas mínimas y sin armadura, haciendo que sus 'peleas' fueran esencialmente ejecuciones públicas disfrazadas de combate. Este entretenimiento del mediodía era considerado la parte menos prestigiosa de los juegos.",
+          de: "Noxii ('schädliche Personen') waren verurteilte Kriminelle, die in der Arena als öffentliche Bestrafung hingerichtet wurden. Im Gegensatz zu trainierten Gladiatoren erhielten Noxii minimale Waffen und keine Rüstung, was ihre 'Kämpfe' im Wesentlichen zu öffentlichen Hinrichtungen machte, die als Kampf getarnt waren. Diese Mittagsunterhaltung galt als der am wenigsten prestigeträchtige Teil der Spiele.",
+          nl: "Noxii ('schadelijke personen') waren veroordeelde criminelen die werden geëxecuteerd in de arena als publieke straf. In tegenstelling tot getrainde gladiatoren kregen noxii minimale wapens en geen bepantsering, waardoor hun 'gevechten' in wezen publieke executies waren vermomd als gevecht. Dit middagentertainment werd beschouwd als het minst prestigieuze deel van de spelen."
+        }
+      },
+      {
+        question: {
+          en: "What did spectators throw into the arena to show appreciation?",
+          es: "¿Qué arrojaban los espectadores a la arena para mostrar aprecio?",
+          de: "Was warfen Zuschauer in die Arena, um Wertschätzung zu zeigen?",
+          nl: "Wat gooiden toeschouwers in de arena om waardering te tonen?"
+        },
+        options: [
+          { en: "Flowers and gifts", es: "Flores y regalos", de: "Blumen und Geschenke", nl: "Bloemen en geschenken" },
+          { en: "Money and food", es: "Dinero y comida", de: "Geld und Essen", nl: "Geld en voedsel" },
+          { en: "Tokens redeemable for prizes", es: "Fichas canjeables por premios", de: "Token einlösbar für Preise", nl: "Tokens inwisselbaar voor prijzen" },
+          { en: "All of the above", es: "Todas las anteriores", de: "Alle oben genannten", nl: "Alle bovenstaande" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "Appreciative spectators threw various items into the arena: flowers, food, money, and special tokens (tesserae) that gladiators could redeem for rewards. Popular gladiators could earn substantial income from these gifts. Sponsors also distributed tokens to the crowd that could be exchanged for food, money, or prizes, adding to the festive atmosphere.",
+          es: "Los espectadores apreciativos arrojaban varios artículos a la arena: flores, comida, dinero y fichas especiales (tesserae) que los gladiadores podían canjear por recompensas. Los gladiadores populares podían ganar ingresos sustanciales de estos regalos. Los patrocinadores también distribuían fichas al público que podían cambiarse por comida, dinero o premios, añadiendo a la atmósfera festiva.",
+          de: "Dankbare Zuschauer warfen verschiedene Gegenstände in die Arena: Blumen, Essen, Geld und spezielle Token (Tesserae), die Gladiatoren gegen Belohnungen einlösen konnten. Beliebte Gladiatoren konnten aus diesen Geschenken erhebliche Einnahmen erzielen. Sponsoren verteilten auch Token an die Menge, die gegen Essen, Geld oder Preise eingelöst werden konnten, was zur festlichen Atmosphäre beitrug.",
+          nl: "Waarderend publiek gooide verschillende items in de arena: bloemen, voedsel, geld en speciale tokens (tesserae) die gladiatoren konden inwisselen voor beloningen. Populaire gladiatoren konden substantiële inkomsten verdienen uit deze geschenken. Sponsors verspreidden ook tokens naar het publiek die konden worden ingewisseld voor voedsel, geld of prijzen, wat bijdroeg aan de feestelijke sfeer."
+        }
+      },
+      {
+        question: {
+          en: "What was the 'cestus' used for in gladiatorial games?",
+          es: "¿Para qué se usaba el 'cestus' en los juegos de gladiadores?",
+          de: "Wofür wurde der 'Cestus' bei Gladiatorenspielen verwendet?",
+          nl: "Waarvoor werd de 'cestus' gebruikt in gladiatorenspelen?"
+        },
+        options: [
+          { en: "A type of shield", es: "Un tipo de escudo", de: "Eine Art Schild", nl: "Een type schild" },
+          { en: "A leather boxing glove with metal studs", es: "Un guante de boxeo de cuero con tachuelas metálicas", de: "Ein Lederboxhandschuh mit Metallnieten", nl: "Een leren bokshandschoen met metalen noppen" },
+          { en: "A helmet design", es: "Un diseño de casco", de: "Ein Helmdesign", nl: "Een helmontwerp" },
+          { en: "A type of sword", es: "Un tipo de espada", de: "Eine Art Schwert", nl: "Een type zwaard" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The cestus was a brutal boxing glove - leather straps wrapped around the hands and forearms, reinforced with metal plates, spikes, or lead weights. Fighters called pugiles used these devastating weapons in boxing matches that were far more violent than modern boxing, often resulting in serious injuries or death.",
+          es: "El cestus era un guante de boxeo brutal - correas de cuero envueltas alrededor de las manos y antebrazos, reforzadas con placas metálicas, pinchos o pesos de plomo. Los luchadores llamados pugiles usaban estas armas devastadoras en combates de boxeo que eran mucho más violentos que el boxeo moderno, a menudo resultando en lesiones graves o muerte.",
+          de: "Der Cestus war ein brutaler Boxhandschuh - Lederriemen, die um Hände und Unterarme gewickelt und mit Metallplatten, Stacheln oder Bleigewichten verstärkt wurden. Kämpfer namens Pugiles benutzten diese verheerenden Waffen in Boxkämpfen, die weitaus gewalttätiger waren als modernes Boxen und oft zu schweren Verletzungen oder Tod führten.",
+          nl: "De cestus was een brutale bokshandschoen - leren riemen gewikkeld rond de handen en onderarmen, versterkt met metalen platen, spijkers of loodgewichten. Vechters genaamd pugiles gebruikten deze verwoestende wapens in bokswedstrijden die veel gewelddadiger waren dan modern boksen, vaak resulterend in ernstige verwondingen of dood."
+        }
       }
     ]
   };

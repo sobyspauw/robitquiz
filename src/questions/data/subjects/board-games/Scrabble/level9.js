@@ -827,6 +827,826 @@
         de: "Aerolith ist eine beliebte kostenlose Online-Plattform zum Studieren von Scrabble-Wörtern, bietet Anagramm-Übung, Wortlisten und anpassbare Quiz-Funktionen.",
         nl: "Aerolith is een populair gratis online platform voor het bestuderen van Scrabble woorden, biedt anagram oefening, woordenlijsten en aanpasbare quiz functies."
       }
+    },
+    {
+      question: {
+        en: "What is 'blocking' strategy in expert Scrabble play?",
+        es: "¿Qué es la estrategia de 'bloqueo' en el juego experto de Scrabble?",
+        de: "Was ist die 'Blockierungs'-Strategie im Experten-Scrabble-Spiel?",
+        nl: "Wat is 'blokkeren' strategie in expert Scrabble spel?"
+      },
+      options: [
+        {
+          en: "Preventing opponent from using premium squares",
+          es: "Prevenir que el oponente use casillas premium",
+          de: "Verhindern dass Gegner Premium-Felder nutzt",
+          nl: "Voorkomen dat tegenstander premium vakjes gebruikt"
+        },
+        {
+          en: "Building defensive walls with consonants",
+          es: "Construir muros defensivos con consonantes",
+          de: "Defensive Wände mit Konsonanten bauen",
+          nl: "Defensieve muren bouwen met medeklinkers"
+        },
+        {
+          en: "Blocking view of board from opponent",
+          es: "Bloquear vista del tablero del oponente",
+          de: "Sicht auf Brett vom Gegner blockieren",
+          nl: "Zicht op bord van tegenstander blokkeren"
+        },
+        {
+          en: "Refusing to exchange tiles",
+          es: "Negarse a intercambiar fichas",
+          de: "Ablehnen Steine zu tauschen",
+          nl: "Weigeren stenen te ruilen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Blocking involves playing strategically to prevent opponent access to premium squares like Triple Word Score, closing down high-scoring opportunities.",
+        es: "El bloqueo implica jugar estratégicamente para prevenir acceso del oponente a casillas premium como Puntuación Triple de Palabra, cerrando oportunidades de alta puntuación.",
+        de: "Blockieren beinhaltet strategisches Spielen um Gegnerzugang zu Premium-Feldern wie Dreifaches Wort zu verhindern, hochpunktierende Möglichkeiten zu schließen.",
+        nl: "Blokkeren houdt strategisch spelen in om tegenstander toegang tot premium vakjes zoals Drievoudig Woord te voorkomen, hoge scoringsmogelijkheden af te sluiten."
+      }
+    },
+    {
+      question: {
+        en: "What is 'fishing' in Scrabble strategy?",
+        es: "¿Qué es 'pescar' en la estrategia de Scrabble?",
+        de: "Was ist 'Fischen' in der Scrabble-Strategie?",
+        nl: "Wat is 'vissen' in Scrabble strategie?"
+      },
+      options: [
+        {
+          en: "Keeping certain tiles hoping to draw specific letters for a bingo",
+          es: "Mantener ciertas fichas esperando sacar letras específicas para un bingo",
+          de: "Bestimmte Steine behalten in der Hoffnung spezifische Buchstaben für ein Bingo zu ziehen",
+          nl: "Bepaalde stenen houden hopend specifieke letters te trekken voor een bingo"
+        },
+        {
+          en: "Playing marine-themed words",
+          es: "Jugar palabras con tema marino",
+          de: "Marine-thematische Wörter spielen",
+          nl: "Mariene thema woorden spelen"
+        },
+        {
+          en: "Searching for words in dictionary",
+          es: "Buscar palabras en diccionario",
+          de: "Wörter im Wörterbuch suchen",
+          nl: "Woorden zoeken in woordenboek"
+        },
+        {
+          en: "Challenging opponent's words",
+          es: "Desafiar palabras del oponente",
+          de: "Wörter des Gegners anfechten",
+          nl: "Woorden van tegenstander uitdagen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Fishing means keeping good tiles (like common bingo stems) while playing off low-value letters, hoping to draw the missing piece for a high-scoring bingo.",
+        es: "Pescar significa mantener buenas fichas (como raíces de bingo comunes) mientras se juegan letras de bajo valor, esperando sacar la pieza faltante para un bingo de alta puntuación.",
+        de: "Fischen bedeutet gute Steine behalten (wie häufige Bingo-Stämme) während niedrigwertige Buchstaben gespielt werden, in der Hoffnung das fehlende Teil für ein hochpunktierendes Bingo zu ziehen.",
+        nl: "Vissen betekent goede stenen houden (zoals veel voorkomende bingo stammen) terwijl lage waarde letters gespeeld worden, hopend het ontbrekende stuk te trekken voor een hoog scorende bingo."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'Q without U' problem in Scrabble?",
+        es: "¿Qué es el problema de 'Q sin U' en Scrabble?",
+        de: "Was ist das 'Q ohne U'-Problem im Scrabble?",
+        nl: "Wat is het 'Q zonder U' probleem in Scrabble?"
+      },
+      options: [
+        {
+          en: "Getting stuck with Q when no U tiles remain (solved by knowing QI, QOPH, etc.)",
+          es: "Quedarse atascado con Q cuando no quedan fichas U (resuelto conociendo QI, QOPH, etc.)",
+          de: "Mit Q stecken bleiben wenn keine U-Steine übrig sind (gelöst durch Kennen von QI, QOPH, etc.)",
+          nl: "Vastzitten met Q wanneer geen U stenen overblijven (opgelost door QI, QOPH, etc. te kennen)"
+        },
+        {
+          en: "Q tile is worth too many points",
+          es: "Ficha Q vale demasiados puntos",
+          de: "Q-Stein ist zu viele Punkte wert",
+          nl: "Q steen is te veel punten waard"
+        },
+        {
+          en: "Missing Q from the tile set",
+          es: "Falta Q del conjunto de fichas",
+          de: "Fehlendes Q aus dem Stein-Set",
+          nl: "Ontbrekende Q uit de steen set"
+        },
+        {
+          en: "Q cannot be played on premium squares",
+          es: "Q no se puede jugar en casillas premium",
+          de: "Q kann nicht auf Premium-Feldern gespielt werden",
+          nl: "Q kan niet gespeeld worden op premium vakjes"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Q can be difficult to play without U. Expert players memorize Q-without-U words like QI, QAT, QOPH, QADI, QAID, and TRANQ to avoid getting stuck.",
+        es: "La Q puede ser difícil de jugar sin U. Los jugadores expertos memorizan palabras Q-sin-U como QI, QAT, QOPH, QADI, QAID y TRANQ para evitar quedarse atascados.",
+        de: "Das Q kann ohne U schwer zu spielen sein. Expertenspieler merken sich Q-ohne-U-Wörter wie QI, QAT, QOPH, QADI, QAID und TRANQ um nicht stecken zu bleiben.",
+        nl: "De Q kan moeilijk te spelen zijn zonder U. Expert spelers onthouden Q-zonder-U woorden zoals QI, QAT, QOPH, QADI, QAID en TRANQ om vastzitten te vermijden."
+      }
+    },
+    {
+      question: {
+        en: "What is 'endgame equity' in competitive Scrabble?",
+        es: "¿Qué es 'equidad de final de juego' en Scrabble competitivo?",
+        de: "Was ist 'Endspiel-Equity' im Wettkampf-Scrabble?",
+        nl: "Wat is 'eindspel equity' in competitief Scrabble?"
+      },
+      options: [
+        {
+          en: "Calculating optimal final moves when tiles and scores are known",
+          es: "Calcular movimientos finales óptimos cuando se conocen fichas y puntuaciones",
+          de: "Optimale Endzüge berechnen wenn Steine und Punktzahlen bekannt sind",
+          nl: "Optimale laatste zetten berekenen wanneer stenen en scores bekend zijn"
+        },
+        {
+          en: "Sharing prizes equally at tournament end",
+          es: "Compartir premios equitativamente al final del torneo",
+          de: "Preise gleichmäßig am Turnierende teilen",
+          nl: "Prijzen gelijk verdelen aan toernooi einde"
+        },
+        {
+          en: "Fair play principles in final rounds",
+          es: "Principios de juego limpio en rondas finales",
+          de: "Fair-Play-Prinzipien in Endrunden",
+          nl: "Fair play principes in finale rondes"
+        },
+        {
+          en: "Equal time allocation for final moves",
+          es: "Asignación de tiempo igual para movimientos finales",
+          de: "Gleiche Zeitzuteilung für Endzüge",
+          nl: "Gelijke tijd toewijzing voor laatste zetten"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Endgame equity involves precise calculation of optimal moves when the bag is empty and both players can see or deduce the remaining tiles - a critical skill for experts.",
+        es: "La equidad de final de juego implica cálculo preciso de movimientos óptimos cuando la bolsa está vacía y ambos jugadores pueden ver o deducir las fichas restantes - una habilidad crítica para expertos.",
+        de: "Endspiel-Equity beinhaltet präzise Berechnung optimaler Züge wenn der Beutel leer ist und beide Spieler die verbleibenden Steine sehen oder ableiten können - eine kritische Fähigkeit für Experten.",
+        nl: "Eindspel equity omvat precieze berekening van optimale zetten wanneer de zak leeg is en beide spelers de overgebleven stenen kunnen zien of afleiden - een kritische vaardigheid voor experts."
+      }
+    },
+    {
+      question: {
+        en: "What is 'rack balance' in Scrabble strategy?",
+        es: "¿Qué es 'equilibrio de rack' en la estrategia de Scrabble?",
+        de: "Was ist 'Rack-Balance' in der Scrabble-Strategie?",
+        nl: "Wat is 'rek balans' in Scrabble strategie?"
+      },
+      options: [
+        {
+          en: "Maintaining good vowel/consonant ratio for future plays",
+          es: "Mantener buena proporción vocal/consonante para jugadas futuras",
+          de: "Gutes Vokal/Konsonanten-Verhältnis für zukünftige Züge beibehalten",
+          nl: "Goede klinker/medeklinker verhouding behouden voor toekomstige zetten"
+        },
+        {
+          en: "Physical stability of tile holder",
+          es: "Estabilidad física del soporte de fichas",
+          de: "Physische Stabilität des Stein-Halters",
+          nl: "Fysieke stabiliteit van steen houder"
+        },
+        {
+          en: "Equal point value of tiles",
+          es: "Valor de puntos igual de fichas",
+          de: "Gleicher Punktwert der Steine",
+          nl: "Gelijke puntenwaarde van stenen"
+        },
+        {
+          en: "Alphabetical arrangement of letters",
+          es: "Disposición alfabética de letras",
+          de: "Alphabetische Anordnung der Buchstaben",
+          nl: "Alfabetische rangschikking van letters"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Rack balance means maintaining a good mix of vowels and consonants (ideally 3-4 vowels) to maximize future scoring opportunities rather than just playing highest-scoring word immediately.",
+        es: "El equilibrio de rack significa mantener una buena mezcla de vocales y consonantes (idealmente 3-4 vocales) para maximizar futuras oportunidades de puntuación en lugar de solo jugar la palabra de mayor puntuación inmediatamente.",
+        de: "Rack-Balance bedeutet eine gute Mischung aus Vokalen und Konsonanten beibehalten (idealerweise 3-4 Vokale) um zukünftige Punktemöglichkeiten zu maximieren statt nur sofort das höchstpunktierende Wort zu spielen.",
+        nl: "Rek balans betekent een goede mix van klinkers en medeklinkers behouden (ideaal 3-4 klinkers) om toekomstige scoringsmogelijkheden te maximaliseren in plaats van alleen onmiddellijk het hoogst scorende woord te spelen."
+      }
+    },
+    {
+      question: {
+        en: "What is a 'setup play' in advanced Scrabble?",
+        es: "¿Qué es una 'jugada de configuración' en Scrabble avanzado?",
+        de: "Was ist ein 'Setup-Zug' im fortgeschrittenen Scrabble?",
+        nl: "Wat is een 'setup zet' in gevorderd Scrabble?"
+      },
+      options: [
+        {
+          en: "Creating high-scoring spot for yourself on next turn",
+          es: "Crear lugar de alta puntuación para ti mismo en el siguiente turno",
+          de: "Hochpunktierenden Platz für sich selbst im nächsten Zug schaffen",
+          nl: "Hoog scorende plek creëren voor jezelf in volgende beurt"
+        },
+        {
+          en: "Arranging tiles before game starts",
+          es: "Organizar fichas antes de que comience el juego",
+          de: "Steine arrangieren bevor Spiel beginnt",
+          nl: "Stenen arrangeren voordat spel begint"
+        },
+        {
+          en: "Initial word placement strategy",
+          es: "Estrategia de colocación de palabra inicial",
+          de: "Anfangswort-Platzierungsstrategie",
+          nl: "Initiële woord plaatsing strategie"
+        },
+        {
+          en: "Preparing tournament materials",
+          es: "Preparar materiales de torneo",
+          de: "Turniermaterialien vorbereiten",
+          nl: "Toernooi materialen voorbereiden"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A setup play sacrifices points now to create a high-scoring opportunity for your next turn, assuming opponent cannot block it - a risky but sometimes necessary strategy.",
+        es: "Una jugada de configuración sacrifica puntos ahora para crear una oportunidad de alta puntuación para tu siguiente turno, asumiendo que el oponente no puede bloquearlo - una estrategia arriesgada pero a veces necesaria.",
+        de: "Ein Setup-Zug opfert jetzt Punkte um eine hochpunktierende Möglichkeit für Ihren nächsten Zug zu schaffen, annehmend dass Gegner es nicht blockieren kann - eine riskante aber manchmal notwendige Strategie.",
+        nl: "Een setup zet offert nu punten op om een hoog scorende mogelijkheid voor je volgende beurt te creëren, aannemend dat tegenstander het niet kan blokkeren - een riskante maar soms noodzakelijke strategie."
+      }
+    },
+    {
+      question: {
+        en: "What does 'spread' mean in tournament Scrabble standings?",
+        es: "¿Qué significa 'diferencial' en las clasificaciones de torneo de Scrabble?",
+        de: "Was bedeutet 'Spread' in Scrabble-Turnier-Ranglisten?",
+        nl: "Wat betekent 'spread' in Scrabble toernooi standen?"
+      },
+      options: [
+        {
+          en: "Point difference between your total scores and opponents' (wins-losses margin)",
+          es: "Diferencia de puntos entre tus puntuaciones totales y las de oponentes (margen de victorias-derrotas)",
+          de: "Punktdifferenz zwischen Ihren Gesamtpunktzahlen und denen der Gegner (Siege-Niederlagen-Marge)",
+          nl: "Puntenverschil tussen je totale scores en die van tegenstanders (winst-verlies marge)"
+        },
+        {
+          en: "How widely tiles are distributed on board",
+          es: "Cuán ampliamente se distribuyen las fichas en el tablero",
+          de: "Wie weit verteilt Steine auf Brett sind",
+          nl: "Hoe breed stenen verspreid zijn op bord"
+        },
+        {
+          en: "Geographic distribution of tournament participants",
+          es: "Distribución geográfica de participantes del torneo",
+          de: "Geografische Verteilung der Turnierteilnehmer",
+          nl: "Geografische verdeling van toernooi deelnemers"
+        },
+        {
+          en: "Range of player ratings in tournament",
+          es: "Rango de clasificaciones de jugadores en torneo",
+          de: "Bereich der Spielerbewertungen im Turnier",
+          nl: "Bereik van speler ratings in toernooi"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Spread is the cumulative point difference between all your game scores and all your opponents' scores - used as tiebreaker when players have same win-loss record.",
+        es: "El diferencial es la diferencia de puntos acumulativa entre todas tus puntuaciones de juego y todas las puntuaciones de tus oponentes - usado como desempate cuando jugadores tienen el mismo récord de victorias-derrotas.",
+        de: "Spread ist die kumulative Punktdifferenz zwischen all Ihren Spielpunktzahlen und all den Punktzahlen Ihrer Gegner - wird als Tiebreaker verwendet wenn Spieler das gleiche Sieg-Niederlage-Verhältnis haben.",
+        nl: "Spread is het cumulatieve puntenverschil tussen al je spel scores en al je tegenstanders' scores - gebruikt als tie-breaker wanneer spelers hetzelfde winst-verlies record hebben."
+      }
+    },
+    {
+      question: {
+        en: "What is 'pre-endgame' in competitive Scrabble analysis?",
+        es: "¿Qué es 'pre-final de juego' en el análisis competitivo de Scrabble?",
+        de: "Was ist 'Vor-Endspiel' in der Wettkampf-Scrabble-Analyse?",
+        nl: "Wat is 'pre-eindspel' in competitieve Scrabble analyse?"
+      },
+      options: [
+        {
+          en: "Critical phase with 10-20 tiles left requiring strategic shift",
+          es: "Fase crítica con 10-20 fichas restantes requiriendo cambio estratégico",
+          de: "Kritische Phase mit 10-20 verbleibenden Steinen die strategischen Wandel erfordern",
+          nl: "Kritieke fase met 10-20 overgebleven stenen die strategische verschuiving vereisen"
+        },
+        {
+          en: "Warm-up games before tournament",
+          es: "Juegos de calentamiento antes del torneo",
+          de: "Aufwärmspiele vor Turnier",
+          nl: "Opwarm spellen voor toernooi"
+        },
+        {
+          en: "Opening strategy planning",
+          es: "Planificación de estrategia de apertura",
+          de: "Eröffnungsstrategie-Planung",
+          nl: "Opening strategie planning"
+        },
+        {
+          en: "Practice before final rounds",
+          es: "Práctica antes de rondas finales",
+          de: "Übung vor Endrunden",
+          nl: "Oefening voor finale rondes"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pre-endgame is when roughly 10-20 tiles remain unseen. Players shift from pure scoring to strategic positioning, tracking tiles, and setting up the endgame.",
+        es: "El pre-final de juego es cuando aproximadamente 10-20 fichas quedan sin verse. Los jugadores cambian de puntuación pura a posicionamiento estratégico, rastreando fichas y configurando el final del juego.",
+        de: "Vor-Endspiel ist wenn ungefähr 10-20 Steine ungesehen bleiben. Spieler wechseln von reinem Punkten zu strategischer Positionierung, Verfolgung von Steinen und Einrichtung des Endspiels.",
+        nl: "Pre-eindspel is wanneer ongeveer 10-20 stenen ongezien blijven. Spelers verschuiven van puur scoren naar strategische positionering, stenen volgen en het eindspel opzetten."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'two-blank draw' advantage in Scrabble?",
+        es: "¿Qué es la ventaja del 'sorteo de dos comodines' en Scrabble?",
+        de: "Was ist der 'Zwei-Blanks-Zieh'-Vorteil im Scrabble?",
+        nl: "Wat is het 'twee-blanks trekken' voordeel in Scrabble?"
+      },
+      options: [
+        {
+          en: "Drawing both blank tiles gives massive bingo advantage (occurs 1% of games)",
+          es: "Sacar ambas fichas comodín da ventaja masiva de bingo (ocurre 1% de juegos)",
+          de: "Beide Blank-Steine ziehen gibt massiven Bingo-Vorteil (tritt in 1% der Spiele auf)",
+          nl: "Beide blanco stenen trekken geeft massief bingo voordeel (komt voor in 1% van spellen)"
+        },
+        {
+          en: "Starting with empty rack twice",
+          es: "Comenzar con rack vacío dos veces",
+          de: "Zweimal mit leerem Rack beginnen",
+          nl: "Beginnen met leeg rek twee keer"
+        },
+        {
+          en: "Missing two turns in sequence",
+          es: "Perder dos turnos en secuencia",
+          de: "Zwei Züge hintereinander verpassen",
+          nl: "Twee beurten achter elkaar missen"
+        },
+        {
+          en: "Drawing tiles from empty bag",
+          es: "Sacar fichas de bolsa vacía",
+          de: "Steine aus leerem Beutel ziehen",
+          nl: "Stenen trekken uit lege zak"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Drawing both blank tiles (probability ~1%) provides enormous advantage since blanks are most valuable tiles, making multiple bingos highly likely and often decisive.",
+        es: "Sacar ambas fichas comodín (probabilidad ~1%) proporciona ventaja enorme ya que los comodines son las fichas más valiosas, haciendo múltiples bingos altamente probables y a menudo decisivos.",
+        de: "Beide Blank-Steine ziehen (Wahrscheinlichkeit ~1%) bietet enormen Vorteil da Blanks wertvollste Steine sind, macht mehrere Bingos höchst wahrscheinlich und oft entscheidend.",
+        nl: "Beide blanco stenen trekken (waarschijnlijkheid ~1%) biedt enorm voordeel omdat blanco's meest waardevolle stenen zijn, maakt meerdere bingo's zeer waarschijnlijk en vaak beslissend."
+      }
+    },
+    {
+      question: {
+        en: "What is 'tile tracking' in expert Scrabble play?",
+        es: "¿Qué es 'seguimiento de fichas' en el juego experto de Scrabble?",
+        de: "Was ist 'Stein-Verfolgung' im Experten-Scrabble-Spiel?",
+        nl: "Wat is 'steen volgen' in expert Scrabble spel?"
+      },
+      options: [
+        {
+          en: "Mentally recording which tiles have been played to deduce opponent's rack",
+          es: "Registrar mentalmente qué fichas se han jugado para deducir el rack del oponente",
+          de: "Mental aufzeichnen welche Steine gespielt wurden um Gegner-Rack zu deduzieren",
+          nl: "Mentaal bijhouden welke stenen gespeeld zijn om tegenstander's rek af te leiden"
+        },
+        {
+          en: "GPS system for tournament tiles",
+          es: "Sistema GPS para fichas de torneo",
+          de: "GPS-System für Turniersteine",
+          nl: "GPS systeem voor toernooi stenen"
+        },
+        {
+          en: "Counting moves per game",
+          es: "Contar movimientos por juego",
+          de: "Züge pro Spiel zählen",
+          nl: "Zetten per spel tellen"
+        },
+        {
+          en: "Monitoring opponent's time usage",
+          es: "Monitorear uso de tiempo del oponente",
+          de: "Zeitnutzung des Gegners überwachen",
+          nl: "Tijdgebruik van tegenstander monitoren"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Tile tracking means keeping mental or written record of all tiles played to know which tiles remain, helping predict opponent's holdings and plan optimal moves.",
+        es: "El seguimiento de fichas significa mantener un registro mental o escrito de todas las fichas jugadas para saber qué fichas quedan, ayudando a predecir las tenencias del oponente y planear movimientos óptimos.",
+        de: "Stein-Verfolgung bedeutet mentale oder schriftliche Aufzeichnung aller gespielten Steine führen um zu wissen welche Steine verbleiben, hilft Gegner-Bestände vorherzusagen und optimale Züge zu planen.",
+        nl: "Steen volgen betekent mentaal of geschreven record bijhouden van alle gespeelde stenen om te weten welke stenen overblijven, helpt tegenstander's bezit voorspellen en optimale zetten plannen."
+      }
+    },
+    {
+      question: {
+        en: "What is a 'phonies' strategy in some Scrabble variants?",
+        es: "¿Qué es una estrategia de 'falsas' en algunas variantes de Scrabble?",
+        de: "Was ist eine 'Phonies'-Strategie in einigen Scrabble-Varianten?",
+        nl: "Wat is een 'phonies' strategie in sommige Scrabble varianten?"
+      },
+      options: [
+        {
+          en: "Deliberately playing fake words hoping opponent won't challenge",
+          es: "Jugar deliberadamente palabras falsas esperando que el oponente no desafíe",
+          de: "Absichtlich falsche Wörter spielen in der Hoffnung dass Gegner nicht anfechtet",
+          nl: "Opzettelijk valse woorden spelen hopend dat tegenstander niet uitdaagt"
+        },
+        {
+          en: "Using telephone during games",
+          es: "Usar teléfono durante juegos",
+          de: "Telefon während Spielen verwenden",
+          nl: "Telefoon gebruiken tijdens spellen"
+        },
+        {
+          en: "Playing only sound-alike words",
+          es: "Jugar solo palabras que suenan similar",
+          de: "Nur ähnlich klingende Wörter spielen",
+          nl: "Alleen gelijkklinkende woorden spelen"
+        },
+        {
+          en: "Avoiding consonant-heavy words",
+          es: "Evitar palabras pesadas en consonantes",
+          de: "Konsonantenlastige Wörter vermeiden",
+          nl: "Medeklinker-zware woorden vermijden"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "In some rulesets, playing phonies (fake words) is strategic - if unchallenged they stay, if challenged correctly they're removed with penalty. Banned in most serious tournaments.",
+        es: "En algunos conjuntos de reglas, jugar falsas (palabras falsas) es estratégico - si no se desafían permanecen, si se desafían correctamente se eliminan con penalización. Prohibido en la mayoría de torneos serios.",
+        de: "In einigen Regelsätzen ist Phonies (falsche Wörter) spielen strategisch - wenn nicht angefochten bleiben sie, wenn korrekt angefochten werden sie mit Strafe entfernt. In meisten seriösen Turnieren verboten.",
+        nl: "In sommige regelsets is phonies (valse woorden) spelen strategisch - als niet uitgedaagd blijven ze, als correct uitgedaagd worden ze verwijderd met straf. Verboden in meeste serieuze toernooien."
+      }
+    },
+    {
+      question: {
+        en: "What is parallel play strategy?",
+        es: "What is parallel play strategy?",
+        de: "What is parallel play strategy?",
+        nl: "What is parallel play strategy?"
+      },
+      options: [
+        {
+          en: "Playing words parallel to existing words to score multiple times",
+          es: "Playing words parallel to existing words to score multiple times",
+          de: "Playing words parallel to existing words to score multiple times",
+          nl: "Playing words parallel to existing words to score multiple times"
+        },
+        {
+          en: "Playing two words at once",
+          es: "Playing two words at once",
+          de: "Playing two words at once",
+          nl: "Playing two words at once"
+        },
+        {
+          en: "Playing alongside opponent",
+          es: "Playing alongside opponent",
+          de: "Playing alongside opponent",
+          nl: "Playing alongside opponent"
+        },
+        {
+          en: "Matching opponent plays",
+          es: "Matching opponent plays",
+          de: "Matching opponent plays",
+          nl: "Matching opponent plays"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Parallel plays score on multiple premium squares and create multiple words simultaneously, often yielding 30-50+ points.",
+        es: "Parallel plays score on multiple premium squares and create multiple words simultaneously, often yielding 30-50+ points.",
+        de: "Parallel plays score on multiple premium squares and create multiple words simultaneously, often yielding 30-50+ points.",
+        nl: "Parallel plays score on multiple premium squares and create multiple words simultaneously, often yielding 30-50+ points."
+      }
+    },
+    {
+      question: {
+        en: "What is the leave value concept?",
+        es: "What is the leave value concept?",
+        de: "What is the leave value concept?",
+        nl: "What is the leave value concept?"
+      },
+      options: [
+        {
+          en: "Value of tiles remaining on rack after playing a word",
+          es: "Value of tiles remaining on rack after playing a word",
+          de: "Value of tiles remaining on rack after playing a word",
+          nl: "Value of tiles remaining on rack after playing a word"
+        },
+        {
+          en: "Tiles left in bag",
+          es: "Tiles left in bag",
+          de: "Tiles left in bag",
+          nl: "Tiles left in bag"
+        },
+        {
+          en: "Opponent rack quality",
+          es: "Opponent rack quality",
+          de: "Opponent rack quality",
+          nl: "Opponent rack quality"
+        },
+        {
+          en: "Final score difference",
+          es: "Final score difference",
+          de: "Final score difference",
+          nl: "Final score difference"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Leave value measures rack quality after your play. High-value leaves like AEINRT enable better future plays than poor leaves like UUVWX.",
+        es: "Leave value measures rack quality after your play. High-value leaves like AEINRT enable better future plays than poor leaves like UUVWX.",
+        de: "Leave value measures rack quality after your play. High-value leaves like AEINRT enable better future plays than poor leaves like UUVWX.",
+        nl: "Leave value measures rack quality after your play. High-value leaves like AEINRT enable better future plays than poor leaves like UUVWX."
+      }
+    },
+    {
+      question: {
+        en: "What is fishing in Scrabble?",
+        es: "What is fishing in Scrabble?",
+        de: "What is fishing in Scrabble?",
+        nl: "What is fishing in Scrabble?"
+      },
+      options: [
+        {
+          en: "Playing weak words hoping to draw specific tiles for bingo next turn",
+          es: "Playing weak words hoping to draw specific tiles for bingo next turn",
+          de: "Playing weak words hoping to draw specific tiles for bingo next turn",
+          nl: "Playing weak words hoping to draw specific tiles for bingo next turn"
+        },
+        {
+          en: "Looking for words in dictionary",
+          es: "Looking for words in dictionary",
+          de: "Looking for words in dictionary",
+          nl: "Looking for words in dictionary"
+        },
+        {
+          en: "Searching for premium squares",
+          es: "Searching for premium squares",
+          de: "Searching for premium squares",
+          nl: "Searching for premium squares"
+        },
+        {
+          en: "Trying to catch opponent mistakes",
+          es: "Trying to catch opponent mistakes",
+          de: "Trying to catch opponent mistakes",
+          nl: "Trying to catch opponent mistakes"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Fishing sacrifices points now to improve rack for potential bingo. Only strategic when bingo probability justifies point sacrifice.",
+        es: "Fishing sacrifices points now to improve rack for potential bingo. Only strategic when bingo probability justifies point sacrifice.",
+        de: "Fishing sacrifices points now to improve rack for potential bingo. Only strategic when bingo probability justifies point sacrifice.",
+        nl: "Fishing sacrifices points now to improve rack for potential bingo. Only strategic when bingo probability justifies point sacrifice."
+      }
+    },
+    {
+      question: {
+        en: "What is blocking strategy?",
+        es: "What is blocking strategy?",
+        de: "What is blocking strategy?",
+        nl: "What is blocking strategy?"
+      },
+      options: [
+        {
+          en: "Placing tiles to prevent opponent from using premium squares or hooks",
+          es: "Placing tiles to prevent opponent from using premium squares or hooks",
+          de: "Placing tiles to prevent opponent from using premium squares or hooks",
+          nl: "Placing tiles to prevent opponent from using premium squares or hooks"
+        },
+        {
+          en: "Blocking opponent view",
+          es: "Blocking opponent view",
+          de: "Blocking opponent view",
+          nl: "Blocking opponent view"
+        },
+        {
+          en: "Preventing challenges",
+          es: "Preventing challenges",
+          de: "Preventing challenges",
+          nl: "Preventing challenges"
+        },
+        {
+          en: "Stopping the game",
+          es: "Stopping the game",
+          de: "Stopping the game",
+          nl: "Stopping the game"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Strategic blocking denies opponent high-scoring opportunities, especially near Triple Word Scores or valuable hook spaces.",
+        es: "Strategic blocking denies opponent high-scoring opportunities, especially near Triple Word Scores or valuable hook spaces.",
+        de: "Strategic blocking denies opponent high-scoring opportunities, especially near Triple Word Scores or valuable hook spaces.",
+        nl: "Strategic blocking denies opponent high-scoring opportunities, especially near Triple Word Scores or valuable hook spaces."
+      }
+    },
+    {
+      question: {
+        en: "What is a hotspot on the board?",
+        es: "What is a hotspot on the board?",
+        de: "What is a hotspot on the board?",
+        nl: "What is a hotspot on the board?"
+      },
+      options: [
+        {
+          en: "Area with multiple premium squares and scoring opportunities",
+          es: "Area with multiple premium squares and scoring opportunities",
+          de: "Area with multiple premium squares and scoring opportunities",
+          nl: "Area with multiple premium squares and scoring opportunities"
+        },
+        {
+          en: "Center square",
+          es: "Center square",
+          de: "Center square",
+          nl: "Center square"
+        },
+        {
+          en: "Corner positions",
+          es: "Corner positions",
+          de: "Corner positions",
+          nl: "Corner positions"
+        },
+        {
+          en: "Tile bag location",
+          es: "Tile bag location",
+          de: "Tile bag location",
+          nl: "Tile bag location"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Hotspots combine premium squares with open lanes, enabling high-scoring plays. Controlling hotspots is key to winning.",
+        es: "Hotspots combine premium squares with open lanes, enabling high-scoring plays. Controlling hotspots is key to winning.",
+        de: "Hotspots combine premium squares with open lanes, enabling high-scoring plays. Controlling hotspots is key to winning.",
+        nl: "Hotspots combine premium squares with open lanes, enabling high-scoring plays. Controlling hotspots is key to winning."
+      }
+    },
+    {
+      question: {
+        en: "What is rack balance optimization?",
+        es: "What is rack balance optimization?",
+        de: "What is rack balance optimization?",
+        nl: "What is rack balance optimization?"
+      },
+      options: [
+        {
+          en: "Maintaining ideal vowel-consonant ratio around 3:4",
+          es: "Maintaining ideal vowel-consonant ratio around 3:4",
+          de: "Maintaining ideal vowel-consonant ratio around 3:4",
+          nl: "Maintaining ideal vowel-consonant ratio around 3:4"
+        },
+        {
+          en: "Equal point distribution",
+          es: "Equal point distribution",
+          de: "Equal point distribution",
+          nl: "Equal point distribution"
+        },
+        {
+          en: "Same number of each letter",
+          es: "Same number of each letter",
+          de: "Same number of each letter",
+          nl: "Same number of each letter"
+        },
+        {
+          en: "Balanced scoring",
+          es: "Balanced scoring",
+          de: "Balanced scoring",
+          nl: "Balanced scoring"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Optimal rack balance is roughly 3 vowels to 4 consonants, maximizing bingo potential and playability.",
+        es: "Optimal rack balance is roughly 3 vowels to 4 consonants, maximizing bingo potential and playability.",
+        de: "Optimal rack balance is roughly 3 vowels to 4 consonants, maximizing bingo potential and playability.",
+        nl: "Optimal rack balance is roughly 3 vowels to 4 consonants, maximizing bingo potential and playability."
+      }
+    },
+    {
+      question: {
+        en: "What is equity in Scrabble?",
+        es: "What is equity in Scrabble?",
+        de: "What is equity in Scrabble?",
+        nl: "What is equity in Scrabble?"
+      },
+      options: [
+        {
+          en: "Expected long-term point value of a play considering rack leave",
+          es: "Expected long-term point value of a play considering rack leave",
+          de: "Expected long-term point value of a play considering rack leave",
+          nl: "Expected long-term point value of a play considering rack leave"
+        },
+        {
+          en: "Point total",
+          es: "Point total",
+          de: "Point total",
+          nl: "Point total"
+        },
+        {
+          en: "Winning probability",
+          es: "Winning probability",
+          de: "Winning probability",
+          nl: "Winning probability"
+        },
+        {
+          en: "Fair play",
+          es: "Fair play",
+          de: "Fair play",
+          nl: "Fair play"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Equity combines immediate points with leave quality. A 30-point play leaving AEINRT may have higher equity than 35 points leaving UUVW.",
+        es: "Equity combines immediate points with leave quality. A 30-point play leaving AEINRT may have higher equity than 35 points leaving UUVW.",
+        de: "Equity combines immediate points with leave quality. A 30-point play leaving AEINRT may have higher equity than 35 points leaving UUVW.",
+        nl: "Equity combines immediate points with leave quality. A 30-point play leaving AEINRT may have higher equity than 35 points leaving UUVW."
+      }
+    },
+    {
+      question: {
+        en: "What is the Q-dump strategy?",
+        es: "What is the Q-dump strategy?",
+        de: "What is the Q-dump strategy?",
+        nl: "What is the Q-dump strategy?"
+      },
+      options: [
+        {
+          en: "Playing Q without U to avoid getting stuck at endgame",
+          es: "Playing Q without U to avoid getting stuck at endgame",
+          de: "Playing Q without U to avoid getting stuck at endgame",
+          nl: "Playing Q without U to avoid getting stuck at endgame"
+        },
+        {
+          en: "Discarding Q tiles",
+          es: "Discarding Q tiles",
+          de: "Discarding Q tiles",
+          nl: "Discarding Q tiles"
+        },
+        {
+          en: "Trading Q away",
+          es: "Trading Q away",
+          de: "Trading Q away",
+          nl: "Trading Q away"
+        },
+        {
+          en: "Avoiding Q words",
+          es: "Avoiding Q words",
+          de: "Avoiding Q words",
+          nl: "Avoiding Q words"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Q without U words like QI, QAT, QOPH prevent endgame disaster of holding unplayable Q worth -10 points.",
+        es: "Q without U words like QI, QAT, QOPH prevent endgame disaster of holding unplayable Q worth -10 points.",
+        de: "Q without U words like QI, QAT, QOPH prevent endgame disaster of holding unplayable Q worth -10 points.",
+        nl: "Q without U words like QI, QAT, QOPH prevent endgame disaster of holding unplayable Q worth -10 points."
+      }
+    },
+    {
+      question: {
+        en: "What is open board vs closed board strategy?",
+        es: "What is open board vs closed board strategy?",
+        de: "What is open board vs closed board strategy?",
+        nl: "What is open board vs closed board strategy?"
+      },
+      options: [
+        {
+          en: "Open boards favor bingos; closed boards favor tactical scoring",
+          es: "Open boards favor bingos; closed boards favor tactical scoring",
+          de: "Open boards favor bingos; closed boards favor tactical scoring",
+          nl: "Open boards favor bingos; closed boards favor tactical scoring"
+        },
+        {
+          en: "Board availability",
+          es: "Board availability",
+          de: "Board availability",
+          nl: "Board availability"
+        },
+        {
+          en: "Game progression",
+          es: "Game progression",
+          de: "Game progression",
+          nl: "Game progression"
+        },
+        {
+          en: "Playing style",
+          es: "Playing style",
+          de: "Playing style",
+          nl: "Playing style"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "On open boards with bingo lanes, fish for seven-letter plays. On closed boards, maximize points tactically with available spaces.",
+        es: "On open boards with bingo lanes, fish for seven-letter plays. On closed boards, maximize points tactically with available spaces.",
+        de: "On open boards with bingo lanes, fish for seven-letter plays. On closed boards, maximize points tactically with available spaces.",
+        nl: "On open boards with bingo lanes, fish for seven-letter plays. On closed boards, maximize points tactically with available spaces."
+      }
     }
   ]
 };

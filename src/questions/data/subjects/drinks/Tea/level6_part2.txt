@@ -1,0 +1,123 @@
+            {
+                question: {
+                    en: "What is the enzymatic mechanism behind 'withering' in tea processing?",
+                    es: "¿Cuál es el mecanismo enzimático detrás del 'marchitado' en el procesamiento del té?",
+                    de: "Was ist der enzymatische Mechanismus hinter dem 'Welken' in der Teeverarbeitung?",
+                    nl: "Wat is het enzymatische mechanisme achter 'verwelken' in thee verwerking?"
+                },
+                options: [
+                    {
+                        en: "Water loss activates polyphenol oxidase enzymes that begin breaking down catechins and developing flavor compounds",
+                        es: "Pérdida de agua activa enzimas polifenol oxidasa que comienzan a descomponer catequinas y desarrollar compuestos de sabor",
+                        de: "Wasserverlust aktiviert Polyphenoloxidase-Enzyme, die Catechine abzubauen beginnen und Geschmacksverbindungen entwickeln",
+                        nl: "Waterverlies activeert polyfenol oxidase enzymen die beginnen catechines af te breken en smaakverbindingen te ontwikkelen"
+                    },
+                    {
+                        en: "Leaves simply dry out without chemical changes",
+                        es: "Las hojas simplemente se secan sin cambios químicos",
+                        de: "Blätter trocknen einfach ohne chemische Veränderungen",
+                        nl: "Bladeren drogen simpelweg uit zonder chemische veranderingen"
+                    },
+                    {
+                        en: "External bacteria colonize the leaves adding fermentation flavors",
+                        es: "Bacterias externas colonizan las hojas añadiendo sabores de fermentación",
+                        de: "Externe Bakterien besiedeln die Blätter und fügen Fermentationsaromen hinzu",
+                        nl: "Externe bacteriën koloniseren de bladeren en voegen fermentatie smaken toe"
+                    },
+                    {
+                        en: "Chlorophyll breaks down into sugars during sun exposure",
+                        es: "La clorofila se descompone en azúcares durante la exposición al sol",
+                        de: "Chlorophyll zerfällt während der Sonnenexposition in Zucker",
+                        nl: "Chlorofyl breekt af tot suikers tijdens blootstelling aan de zon"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "During withering, tea leaves lose 30-70% of their moisture over 8-24 hours. This water loss stresses the leaf cells, activating polyphenol oxidase (PPO) and peroxidase enzymes. These enzymes begin oxidizing catechins (EGCG, ECG) into theaflavins and thearubigins, initiating flavor development. Withering also converts starches to sugars, amino acids develop, and cell membranes become more permeable for later rolling and oxidation stages.",
+                    es: "Durante marchitado, hojas de té pierden 30-70% de su humedad durante 8-24 horas. Esta pérdida de agua estresa las células de la hoja, activando enzimas polifenol oxidasa (PPO) y peroxidasa. Estas enzimas comienzan a oxidar catequinas (EGCG, ECG) en teaflavinas y tearrubiginas, iniciando desarrollo de sabor. Marchitado también convierte almidones en azúcares, aminoácidos se desarrollan, y membranas celulares se vuelven más permeables para etapas posteriores de enrollado y oxidación.",
+                    de: "Während des Welkens verlieren Teeblätter über 8-24 Stunden 30-70% ihrer Feuchtigkeit. Dieser Wasserverlust stresst die Blattzellen und aktiviert Polyphenoloxidase (PPO) und Peroxidase-Enzyme. Diese Enzyme beginnen, Catechine (EGCG, ECG) zu Theaflavinen und Thearubiginen zu oxidieren und initiieren die Geschmacksentwicklung. Welken wandelt auch Stärken in Zucker um, Aminosäuren entwickeln sich, und Zellmembranen werden durchlässiger für spätere Roll- und Oxidationsstufen.",
+                    nl: "Tijdens verwelken verliezen thee bladeren 30-70% van hun vocht over 8-24 uur. Dit waterverlies stresst de bladcellen, waardoor polyfenol oxidase (PPO) en peroxidase enzymen worden geactiveerd. Deze enzymen beginnen catechines (EGCG, ECG) te oxideren tot theaflavines en thearubigines, wat smaakontwikkeling initieert. Verwelken zet ook zetmelen om in suikers, aminozuren ontwikkelen zich, en celmembranen worden doorgankelijker voor latere rol- en oxidatiefasen."
+                }
+            },
+            {
+                question: {
+                    en: "What is the chemical difference between 'orthodox' and 'CTC' black tea processing?",
+                    es: "¿Cuál es la diferencia química entre el procesamiento de té negro 'ortodoxo' y 'CTC'?",
+                    de: "Was ist der chemische Unterschied zwischen 'orthodoxer' und 'CTC'-Schwarztee-Verarbeitung?",
+                    nl: "Wat is het chemische verschil tussen 'orthodox' en 'CTC' zwarte thee verwerking?"
+                },
+                options: [
+                    {
+                        en: "CTC (Crush-Tear-Curl) creates smaller particles with faster oxidation producing higher theaflavin:thearubigin ratios than orthodox rolling",
+                        es: "CTC (Crush-Tear-Curl) crea partículas más pequeñas con oxidación más rápida produciendo ratios más altos de teaflavina:tearrubigina que enrollado ortodoxo",
+                        de: "CTC (Crush-Tear-Curl) erzeugt kleinere Partikel mit schnellerer Oxidation, die höhere Theaflavin:Thearubigin-Verhältnisse als orthodoxes Rollen produzieren",
+                        nl: "CTC (Crush-Tear-Curl) creëert kleinere deeltjes met snellere oxidatie die hogere theaflavine:thearubigine verhoudingen produceert dan orthodox rollen"
+                    },
+                    {
+                        en: "Orthodox and CTC produce chemically identical teas; only leaf appearance differs",
+                        es: "Ortodoxo y CTC producen tés químicamente idénticos; solo difiere apariencia de hoja",
+                        de: "Orthodox und CTC produzieren chemisch identische Tees; nur Blattaussehen unterscheidet sich",
+                        nl: "Orthodox en CTC produceren chemisch identieke thee; alleen blad uiterlijk verschilt"
+                    },
+                    {
+                        en: "CTC uses chemicals for oxidation while orthodox uses natural enzymes",
+                        es: "CTC usa químicos para oxidación mientras ortodoxo usa enzimas naturales",
+                        de: "CTC verwendet Chemikalien für Oxidation, während Orthodox natürliche Enzyme verwendet",
+                        nl: "CTC gebruikt chemicaliën voor oxidatie terwijl orthodox natuurlijke enzymen gebruikt"
+                    },
+                    {
+                        en: "Orthodox prevents oxidation while CTC encourages it",
+                        es: "Ortodoxo previene oxidación mientras CTC la fomenta",
+                        de: "Orthodox verhindert Oxidation, während CTC sie fördert",
+                        nl: "Orthodox voorkomt oxidatie terwijl CTC het aanmoedigt"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "CTC machines crush, tear, and curl leaves into small uniform granules, rupturing far more cell walls than traditional orthodox rolling. This aggressive mechanical action exposes more catechins to oxygen and polyphenol oxidase enzymes, causing rapid, intense oxidation (30-90 minutes vs 2-4 hours orthodox). CTC produces stronger, more astringent teas with darker color due to higher thearubigin content. Orthodox rolling preserves more delicate theaflavin compounds and nuanced flavors. CTC is preferred for tea bags (quick extraction), while orthodox commands premium prices for whole-leaf teas.",
+                    es: "Máquinas CTC aplastan, desgarran y enrollan hojas en gránulos uniformes pequeños, rompiendo muchas más paredes celulares que enrollado ortodoxo tradicional. Esta acción mecánica agresiva expone más catequinas a oxígeno y enzimas polifenol oxidasa, causando oxidación rápida e intensa (30-90 minutos vs 2-4 horas ortodoxo). CTC produce tés más fuertes y astringentes con color más oscuro debido a mayor contenido de tearrubigina. Enrollado ortodoxo preserva compuestos de teaflavina más delicados y sabores matizados. CTC es preferido para bolsitas de té (extracción rápida), mientras ortodoxo comanda precios premium para tés de hoja entera.",
+                    de: "CTC-Maschinen zerdrücken, zerreißen und rollen Blätter zu kleinen gleichmäßigen Granulaten und zerreißen dabei weit mehr Zellwände als traditionelles orthodoxes Rollen. Diese aggressive mechanische Aktion setzt mehr Catechine Sauerstoff und Polyphenoloxidase-Enzymen aus und verursacht schnelle, intensive Oxidation (30-90 Minuten vs 2-4 Stunden orthodox). CTC produziert stärkere, adstringierendere Tees mit dunklerer Farbe aufgrund höheren Thearubigin-Gehalts. Orthodoxes Rollen bewahrt zartere Theaflavin-Verbindungen und nuancierte Aromen. CTC wird für Teebeutel bevorzugt (schnelle Extraktion), während Orthodox Premiumpreise für Ganzblatt-Tees erzielt.",
+                    nl: "CTC machines verpletteren, scheuren en krullen bladeren tot kleine uniforme korrels, waarbij veel meer celwanden worden gebroken dan traditioneel orthodox rollen. Deze agressieve mechanische actie stelt meer catechines bloot aan zuurstof en polyfenol oxidase enzymen, wat snelle, intense oxidatie veroorzaakt (30-90 minuten vs 2-4 uur orthodox). CTC produceert sterkere, meer samentrekkende thee met donkerdere kleur door hoger thearubigine gehalte. Orthodox rollen behoudt meer delicate theaflavine verbindingen en genuanceerde smaken. CTC heeft de voorkeur voor theezakjes (snelle extractie), terwijl orthodox premium prijzen haalt voor hele-blad thee."
+                }
+            },
+            {
+                question: {
+                    en: "What is the biochemical role of 'firing' or 'drying' as the final step in tea processing?",
+                    es: "¿Cuál es el papel bioquímico del 'horneado' o 'secado' como paso final en el procesamiento del té?",
+                    de: "Was ist die biochemische Rolle des 'Röstens' oder 'Trocknens' als letzter Schritt in der Teeverarbeitung?",
+                    nl: "Wat is de biochemische rol van 'roosteren' of 'drogen' als laatste stap in thee verwerking?"
+                },
+                options: [
+                    {
+                        en: "Heat denatures enzymes to halt oxidation permanently, evaporates moisture to 2-3%, and develops final flavor through Maillard reactions",
+                        es: "Calor desnaturaliza enzimas para detener oxidación permanentemente, evapora humedad a 2-3%, y desarrolla sabor final mediante reacciones de Maillard",
+                        de: "Hitze denaturiert Enzyme, um Oxidation dauerhaft zu stoppen, verdunstet Feuchtigkeit auf 2-3%, und entwickelt finalen Geschmack durch Maillard-Reaktionen",
+                        nl: "Hitte denatureert enzymen om oxidatie permanent te stoppen, verdampt vocht tot 2-3%, en ontwikkelt finale smaak door Maillard reacties"
+                    },
+                    {
+                        en: "Firing only reduces water content without affecting chemistry",
+                        es: "Horneado solo reduce contenido de agua sin afectar química",
+                        de: "Rösten reduziert nur Wassergehalt ohne Chemie zu beeinflussen",
+                        nl: "Roosteren vermindert alleen watergehalte zonder chemie te beïnvloeden"
+                    },
+                    {
+                        en: "Drying increases oxidation to maximum levels for all tea types",
+                        es: "Secado aumenta oxidación a niveles máximos para todos tipos de té",
+                        de: "Trocknen erhöht Oxidation auf maximale Niveaus für alle Teetypen",
+                        nl: "Drogen verhoogt oxidatie tot maximale niveaus voor alle thee types"
+                    },
+                    {
+                        en: "Heat kills bacteria but doesn't affect tea chemistry",
+                        es: "Calor mata bacterias pero no afecta química del té",
+                        de: "Hitze tötet Bakterien, beeinflusst aber nicht Tee-Chemie",
+                        nl: "Hitte doodt bacteriën maar beïnvloedt thee chemie niet"
+                    }
+                ],
+                correct: 0,
+                explanation: {
+                    en: "Firing (typically 90-130°C) serves three critical functions: 1) Heat denatures polyphenol oxidase and peroxidase enzymes, permanently halting oxidation and stabilizing the tea's chemical profile; 2) Reduces moisture content from 50-60% to 2-3%, preventing microbial growth and extending shelf life; 3) Triggers Maillard reactions between amino acids and sugars, creating roasted, toasted, or sweet notes depending on temperature and duration. Light firing preserves floral/vegetal notes (green tea), while heavy firing develops caramelized, nutty, or roasted flavors (some oolongs, hojicha). Proper firing is essential—under-firing leaves enzymes active causing staling, over-firing creates burnt flavors.",
+                    es: "Horneado (típicamente 90-130°C) sirve tres funciones críticas: 1) Calor desnaturaliza enzimas polifenol oxidasa y peroxidasa, deteniendo permanentemente oxidación y estabilizando perfil químico del té; 2) Reduce contenido de humedad de 50-60% a 2-3%, previniendo crecimiento microbiano y extendiendo vida útil; 3) Desencadena reacciones de Maillard entre aminoácidos y azúcares, creando notas tostadas o dulces dependiendo de temperatura y duración. Horneado ligero preserva notas florales/vegetales (té verde), mientras horneado fuerte desarrolla sabores caramelizados, de nuez o tostados (algunos oolongs, hojicha). Horneado apropiado es esencial—sub-horneado deja enzimas activas causando envejecimiento, sobre-horneado crea sabores quemados.",
+                    de: "Rösten (typisch 90-130°C) erfüllt drei kritische Funktionen: 1) Hitze denaturiert Polyphenoloxidase- und Peroxidase-Enzyme, stoppt Oxidation dauerhaft und stabilisiert chemisches Profil des Tees; 2) Reduziert Feuchtigkeitsgehalt von 50-60% auf 2-3%, verhindert mikrobielles Wachstum und verlängert Haltbarkeit; 3) Löst Maillard-Reaktionen zwischen Aminosäuren und Zuckern aus, schafft geröstete oder süße Noten je nach Temperatur und Dauer. Leichtes Rösten bewahrt blumige/pflanzliche Noten (grüner Tee), während starkes Rösten karamellisierte, nussige oder geröstete Aromen entwickelt (einige Oolongs, Hojicha). Richtiges Rösten ist essentiell—Unter-Rösten lässt Enzyme aktiv und verursacht Alterung, Über-Rösten erzeugt verbrannte Aromen.",
+                    nl: "Roosteren (typisch 90-130°C) dient drie kritieke functies: 1) Hitte denatureert polyfenol oxidase en peroxidase enzymen, stopt oxidatie permanent en stabiliseert chemisch profiel van thee; 2) Vermindert vochtgehalte van 50-60% naar 2-3%, voorkomt microbiële groei en verlengt houdbaarheid; 3) Triggert Maillard reacties tussen aminozuren en suikers, creëert geroosterde of zoete tonen afhankelijk van temperatuur en duur. Licht roosteren behoudt bloemen/plantaardige tonen (groene thee), terwijl zwaar roosteren gekarameliseerde, notige of geroosterde smaken ontwikkelt (sommige oolongs, hojicha). Correct roosteren is essentieel—onder-roosteren laat enzymen actief wat veroudering veroorzaakt, over-roosteren creëert verbrande smaken."
+                }
+            }

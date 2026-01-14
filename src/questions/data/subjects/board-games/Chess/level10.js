@@ -825,6 +825,26 @@
           es: "En finales, los peones pasados se vuelven cada vez más poderosos cuanto más avanzan. Su fuerza se multiplica cuando: 1) están lejos del rey enemigo, 2) son apoyados por tu rey, 3) cerca de la promoción, 4) hay menos piezas para bloquearlos. Un peón pasado muy avanzado puede valer una pieza.",
           de: "In Endspielen werden Freibauern umso mächtiger, je weiter sie vorrücken. Ihre Stärke vervielfacht sich, wenn: 1) sie weit vom gegnerischen König entfernt sind, 2) vom eigenen König unterstützt, 3) nahe der Umwandlung, 4) weniger Figuren zum Blockieren da sind. Ein weit vorgerückter Freibauer kann eine Figur wert sein.",
           nl: "In eindspelen worden vrijpionnen steeds krachtiger naarmate ze verder oprukken. Hun kracht vermenigvuldigt wanneer: 1) ze ver van vijandelijke koning zijn, 2) ondersteund door je koning, 3) dicht bij promotie, 4) er minder stukken zijn om ze te blokkeren. Een ver opgerukte vrijpion kan een stuk waard zijn."
+        }      },
+      {
+        question: {
+          en: "What is Nimzowitsch's concept of 'Prophylaxis' in chess?",
+          es: "¿Qué es el concepto de 'Profilaxis' de Nimzowitsch en ajedrez?",
+          de: "Was ist Nimzowitschs Konzept der 'Prophylaxe' im Schach?",
+          nl: "Wat is Nimzowitsch's concept van 'Profylaxe' in schaken?"
+        },
+        options: [
+          { en: "Preventing opponent's plans before executing your own plans", es: "Prevenir los planes del oponente antes de ejecutar tus propios planes", de: "Die Pläne des Gegners verhindern, bevor man eigene Pläne ausführt", nl: "De plannen van de tegenstander voorkomen voordat je je eigen plannen uitvoert" },
+          { en: "Always attacking the center", es: "Siempre atacar el centro", de: "Immer das Zentrum angreifen", nl: "Altijd het centrum aanvallen" },
+          { en: "Developing pieces quickly", es: "Desarrollar piezas rápidamente", de: "Figuren schnell entwickeln", nl: "Stukken snel ontwikkelen" },
+          { en: "Trading pieces when ahead", es: "Intercambiar piezas cuando se está adelante", de: "Figuren tauschen wenn vorne", nl: "Stukken ruilen wanneer vooruit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Aron Nimzowitsch's concept of Prophylaxis revolutionized chess strategy. It means preventing your opponent's ideas and plans before they can execute them, rather than blindly pursuing your own plans. This deep positional understanding requires seeing the board from the opponent's perspective and making moves that restrict their possibilities. Examples include preventing pawn breaks, controlling key squares before they become critical, and restricting piece mobility proactively.",
+          es: "El concepto de Profilaxis de Aron Nimzowitsch revolucionó la estrategia del ajedrez. Significa prevenir las ideas y planes de tu oponente antes de que puedan ejecutarlos, en lugar de perseguir ciegamente tus propios planes. Esta profunda comprensión posicional requiere ver el tablero desde la perspectiva del oponente y hacer jugadas que restrinjan sus posibilidades. Los ejemplos incluyen prevenir rupturas de peones, controlar casillas clave antes de que se vuelvan críticas, y restringir la movilidad de piezas proactivamente.",
+          de: "Aron Nimzowitschs Konzept der Prophylaxe revolutionierte die Schachstrategie. Es bedeutet, die Ideen und Pläne des Gegners zu verhindern, bevor er sie ausführen kann, anstatt blind die eigenen Pläne zu verfolgen. Dieses tiefe positionelle Verständnis erfordert, das Brett aus der Perspektive des Gegners zu sehen und Züge zu machen, die seine Möglichkeiten einschränken. Beispiele sind das Verhindern von Bauerndurchbrüchen, die Kontrolle von Schlüsselfeldern bevor sie kritisch werden, und die proaktive Einschränkung der Figurenmobilität.",
+          nl: "Aron Nimzowitsch's concept van Profylaxe revolutioneerde de schaakstrategie. Het betekent de ideeën en plannen van je tegenstander voorkomen voordat ze deze kunnen uitvoeren, in plaats van blindelings je eigen plannen na te streven. Dit diepe positionele begrip vereist het bord te zien vanuit het perspectief van de tegenstander en zetten te doen die hun mogelijkheden beperken. Voorbeelden zijn het voorkomen van piondoorbraken, het controleren van sleutelvelden voordat ze kritiek worden, en het proactief beperken van stukmobiliteit."
         }
       }
     ]

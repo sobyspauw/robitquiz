@@ -419,6 +419,426 @@
                 de: "Big Ben ist berühmt als eines der ikonischsten Symbole von London und dem Vereinigten Königreich. Seine charakteristischen Glockenschläge und viktorianisch-gotische Architektur machen ihn weltweit sofort erkennbar und zu einem Symbol britischer Kultur und parlamentarischer Demokratie.",
                 nl: "Big Ben is beroemd als een van de meest iconische symbolen van Londen en het Verenigd Koninkrijk. De kenmerkende klokslag en Victoriaanse gotische architectuur maken het wereldwijd direct herkenbaar en een symbool van Britse cultuur en parlementaire democratie."
             }
+        },
+        {
+            question: {
+                en: "In which city is Big Ben located?",
+                es: "¿En qué ciudad se encuentra Big Ben?",
+                de: "In welcher Stadt befindet sich Big Ben?",
+                nl: "In welke stad bevindt Big Ben zich?"
+            },
+            options: {
+                en: ["Paris", "London", "Dublin", "Edinburgh"],
+                es: ["París", "Londres", "Dublín", "Edimburgo"],
+                de: ["Paris", "London", "Dublin", "Edinburgh"],
+                nl: ["Parijs", "Londen", "Dublin", "Edinburgh"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Big Ben is located in London, the capital city of the United Kingdom. It stands on the bank of the River Thames next to Westminster Bridge.",
+                es: "Big Ben se encuentra en Londres, la capital del Reino Unido. Se encuentra en la orilla del río Támesis junto al Puente de Westminster.",
+                de: "Big Ben befindet sich in London, der Hauptstadt des Vereinigten Königreichs. Es steht am Ufer der Themse neben der Westminster Bridge.",
+                nl: "Big Ben bevindt zich in Londen, de hoofdstad van het Verenigd Koninkrijk. Het staat aan de oever van de rivier de Theems naast Westminster Bridge."
+            }
+        },
+        {
+            question: {
+                en: "Which river is Big Ben next to?",
+                es: "¿Junto a qué río está Big Ben?",
+                de: "An welchem Fluss steht Big Ben?",
+                nl: "Naast welke rivier staat Big Ben?"
+            },
+            options: {
+                en: ["River Seine", "River Thames", "River Shannon", "River Rhine"],
+                es: ["Río Sena", "Río Támesis", "Río Shannon", "Río Rin"],
+                de: ["Fluss Seine", "Fluss Themse", "Fluss Shannon", "Fluss Rhein"],
+                nl: ["Rivier de Seine", "Rivier de Theems", "Rivier de Shannon", "Rivier de Rijn"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Big Ben stands next to the River Thames, London's famous river. The tower's location on the riverbank makes it visible from many parts of the city.",
+                es: "Big Ben se encuentra junto al río Támesis, el famoso río de Londres. La ubicación de la torre en la orilla del río la hace visible desde muchas partes de la ciudad.",
+                de: "Big Ben steht neben der Themse, Londons berühmtem Fluss. Die Lage des Turms am Flussufer macht ihn von vielen Teilen der Stadt aus sichtbar.",
+                nl: "Big Ben staat naast de rivier de Theems, de beroemde rivier van Londen. De locatie van de toren aan de rivieroever maakt het zichtbaar vanuit veel delen van de stad."
+            }
+        },
+        {
+            question: {
+                en: "What sound does Big Ben make?",
+                es: "¿Qué sonido hace Big Ben?",
+                de: "Welchen Klang macht Big Ben?",
+                nl: "Welk geluid maakt Big Ben?"
+            },
+            options: {
+                en: ["Whistle", "Chime or bell sound", "Alarm", "Horn"],
+                es: ["Silbato", "Campanada o sonido de campana", "Alarma", "Bocina"],
+                de: ["Pfeife", "Glockenklang oder Glockenton", "Alarm", "Horn"],
+                nl: ["Fluitje", "Klokgelui of klokgeluid", "Alarm", "Hoorn"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Big Ben makes a deep chiming or bell sound. The bell rings every hour, and smaller bells play the Westminster Quarters melody every 15 minutes.",
+                es: "Big Ben hace un sonido profundo de campanada o campana. La campana suena cada hora, y campanas más pequeñas tocan la melodía Westminster Quarters cada 15 minutos.",
+                de: "Big Ben macht einen tiefen Glockenklang. Die Glocke läutet jede Stunde, und kleinere Glocken spielen die Westminster Quarters-Melodie alle 15 Minuten.",
+                nl: "Big Ben maakt een diep klokgelui. De klok luidt elk uur, en kleinere klokken spelen de Westminster Quarters-melodie elke 15 minuten."
+            }
+        },
+        {
+            question: {
+                en: "What type of building is Big Ben part of?",
+                es: "¿De qué tipo de edificio forma parte Big Ben?",
+                de: "Zu welcher Art von Gebäude gehört Big Ben?",
+                nl: "Van wat voor soort gebouw maakt Big Ben deel uit?"
+            },
+            options: {
+                en: ["A museum", "A government building (Parliament)", "A church", "A shopping center"],
+                es: ["Un museo", "Un edificio gubernamental (Parlamento)", "Una iglesia", "Un centro comercial"],
+                de: ["Ein Museum", "Ein Regierungsgebäude (Parlament)", "Eine Kirche", "Ein Einkaufszentrum"],
+                nl: ["Een museum", "Een overheidsgebouw (Parlement)", "Een kerk", "Een winkelcentrum"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Big Ben is part of the Palace of Westminster, which houses the British Parliament. This is where the UK's laws are debated and made.",
+                es: "Big Ben es parte del Palacio de Westminster, que alberga el Parlamento británico. Aquí es donde se debaten y hacen las leyes del Reino Unido.",
+                de: "Big Ben ist Teil des Palace of Westminster, in dem das britische Parlament untergebracht ist. Hier werden die Gesetze des Vereinigten Königreichs debattiert und gemacht.",
+                nl: "Big Ben maakt deel uit van het Palace of Westminster, waar het Britse parlement is gehuisvest. Dit is waar de wetten van het VK worden besproken en gemaakt."
+            }
+        },
+        {
+            question: {
+                en: "What color are the clock faces usually?",
+                es: "¿De qué color son normalmente las esferas del reloj?",
+                de: "Welche Farbe haben die Zifferblätter normalerweise?",
+                nl: "Welke kleur hebben de wijzerplaten meestal?"
+            },
+            options: {
+                en: ["Red", "Black with gold details", "Blue", "Green"],
+                es: ["Rojo", "Negro con detalles dorados", "Azul", "Verde"],
+                de: ["Rot", "Schwarz mit goldenen Details", "Blau", "Grün"],
+                nl: ["Rood", "Zwart met gouden details", "Blauw", "Groen"]
+            },
+            correct: 1,
+            explanation: {
+                en: "The clock faces are black with gold-colored Roman numerals and hands. The faces are illuminated at night, making them clearly visible across London.",
+                es: "Las esferas del reloj son negras con números romanos y manecillas de color dorado. Las esferas se iluminan por la noche, haciéndolas claramente visibles en todo Londres.",
+                de: "Die Zifferblätter sind schwarz mit goldfarbenen römischen Ziffern und Zeigern. Die Zifferblätter werden nachts beleuchtet und sind in ganz London deutlich sichtbar.",
+                nl: "De wijzerplaten zijn zwart met goudkleurige Romeinse cijfers en wijzers. De wijzerplaten worden 's nachts verlicht, waardoor ze duidelijk zichtbaar zijn in heel Londen."
+            }
+        },
+        {
+            question: {
+                en: "Can visitors climb Big Ben?",
+                es: "¿Pueden los visitantes subir Big Ben?",
+                de: "Können Besucher Big Ben besteigen?",
+                nl: "Kunnen bezoekers Big Ben beklimmen?"
+            },
+            options: {
+                en: ["Yes, anyone can visit anytime", "Limited access with special tours", "No visitors allowed ever", "Only on weekends"],
+                es: ["Sí, cualquiera puede visitar en cualquier momento", "Acceso limitado con tours especiales", "Nunca se permiten visitantes", "Solo los fines de semana"],
+                de: ["Ja, jeder kann jederzeit besuchen", "Begrenzter Zugang mit speziellen Führungen", "Keine Besucher jemals erlaubt", "Nur am Wochenende"],
+                nl: ["Ja, iedereen kan altijd bezoeken", "Beperkte toegang met speciale rondleidingen", "Geen bezoekers ooit toegestaan", "Alleen in het weekend"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Access to Big Ben is very limited. Only UK residents can book special tours through their Members of Parliament. There are 334 steps to climb and no elevator.",
+                es: "El acceso a Big Ben es muy limitado. Solo los residentes del Reino Unido pueden reservar tours especiales a través de sus miembros del Parlamento. Hay 334 escalones para subir y no hay ascensor.",
+                de: "Der Zugang zu Big Ben ist sehr begrenzt. Nur britische Einwohner können über ihre Parlamentsabgeordneten spezielle Führungen buchen. Es gibt 334 Stufen zu steigen und keinen Aufzug.",
+                nl: "De toegang tot Big Ben is zeer beperkt. Alleen inwoners van het VK kunnen speciale rondleidingen boeken via hun parlementsleden. Er zijn 334 treden om te beklimmen en geen lift."
+            }
+        },
+        {
+            question: {
+                en: "What happens every hour at Big Ben?",
+                es: "¿Qué sucede cada hora en Big Ben?",
+                de: "Was passiert jede Stunde bei Big Ben?",
+                nl: "Wat gebeurt er elk uur bij Big Ben?"
+            },
+            options: {
+                en: ["The tower lights flash", "The bell chimes the number of hours", "Music plays", "Fireworks go off"],
+                es: ["Las luces de la torre parpadean", "La campana suena el número de horas", "La música suena", "Los fuegos artificiales se disparan"],
+                de: ["Die Turmlichter blinken", "Die Glocke läutet die Anzahl der Stunden", "Musik wird gespielt", "Feuerwerk geht los"],
+                nl: ["De torenverlichting knippert", "De klok luidt het aantal uren", "Er wordt muziek gespeeld", "Er gaat vuurwerk af"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Every hour, Big Ben chimes the number of times matching the hour. For example, at 3 o'clock it chimes three times. This has been happening for over 160 years.",
+                es: "Cada hora, Big Ben suena el número de veces que coincide con la hora. Por ejemplo, a las 3 en punto suena tres veces. Esto ha estado sucediendo durante más de 160 años.",
+                de: "Jede Stunde läutet Big Ben die Anzahl der Male, die der Stunde entspricht. Zum Beispiel läutet es um 3 Uhr dreimal. Dies geschieht seit über 160 Jahren.",
+                nl: "Elk uur luidt Big Ben het aantal keren dat overeenkomt met het uur. Om 3 uur bijvoorbeeld luidt het drie keer. Dit gebeurt al meer dan 160 jaar."
+            }
+        },
+        {
+            question: {
+                en: "Is the tower straight or does it lean?",
+                es: "¿La torre está recta o se inclina?",
+                de: "Ist der Turm gerade oder neigt er sich?",
+                nl: "Staat de toren recht of helt hij over?"
+            },
+            options: {
+                en: ["Perfectly straight", "Leans slightly to one side", "Leans dramatically like Pisa", "Moves with the wind"],
+                es: ["Perfectamente recta", "Se inclina ligeramente hacia un lado", "Se inclina dramáticamente como Pisa", "Se mueve con el viento"],
+                de: ["Perfekt gerade", "Neigt sich leicht zur Seite", "Neigt sich dramatisch wie Pisa", "Bewegt sich mit dem Wind"],
+                nl: ["Perfect recht", "Helt licht naar één kant", "Helt dramatisch zoals Pisa", "Beweegt met de wind"]
+            },
+            correct: 1,
+            explanation: {
+                en: "The Elizabeth Tower leans slightly to the northwest by about 46 centimeters. This lean is very small and the tower is completely safe. It's much less than the famous Leaning Tower of Pisa.",
+                es: "La Elizabeth Tower se inclina ligeramente hacia el noroeste unos 46 centímetros. Esta inclinación es muy pequeña y la torre es completamente segura. Es mucho menos que la famosa Torre Inclinada de Pisa.",
+                de: "Der Elizabeth Tower neigt sich leicht nach Nordwesten um etwa 46 Zentimeter. Diese Neigung ist sehr gering und der Turm ist völlig sicher. Es ist viel weniger als der berühmte Schiefe Turm von Pisa.",
+                nl: "De Elizabeth Tower helt licht naar het noordwesten over met ongeveer 46 centimeter. Deze helling is erg klein en de toren is volledig veilig. Het is veel minder dan de beroemde Scheve Toren van Pisa."
+            }
+        },
+        {
+            question: {
+                en: "What special occasions is Big Ben associated with?",
+                es: "¿Con qué ocasiones especiales se asocia Big Ben?",
+                de: "Mit welchen besonderen Anlässen wird Big Ben in Verbindung gebracht?",
+                nl: "Met welke speciale gelegenheden wordt Big Ben geassocieerd?"
+            },
+            options: {
+                en: ["Only royal weddings", "New Year's Eve celebrations", "Only Christmas", "Only summer festivals"],
+                es: ["Solo bodas reales", "Celebraciones de Nochevieja", "Solo Navidad", "Solo festivales de verano"],
+                de: ["Nur königliche Hochzeiten", "Silvesterfeiern", "Nur Weihnachten", "Nur Sommerfestivals"],
+                nl: ["Alleen koninklijke bruiloften", "Oudejaarsavondvieringen", "Alleen Kerstmis", "Alleen zomerfestivals"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Big Ben is especially famous for New Year's Eve celebrations. The BBC broadcasts its midnight chimes to mark the start of the new year, a tradition that has continued for decades.",
+                es: "Big Ben es especialmente famoso por las celebraciones de Nochevieja. La BBC transmite sus campanadas de medianoche para marcar el inicio del año nuevo, una tradición que ha continuado durante décadas.",
+                de: "Big Ben ist besonders berühmt für Silvesterfeiern. Die BBC überträgt seine Mitternachtsschläge, um den Beginn des neuen Jahres zu markieren, eine Tradition, die seit Jahrzehnten fortbesteht.",
+                nl: "Big Ben is vooral beroemd om oudejaarsavondvieringen. De BBC zendt zijn middernachtelijke klokslagen uit om het begin van het nieuwe jaar te markeren, een traditie die al tientallen jaren bestaat."
+            }
+        },
+        {
+            question: {
+                en: "How is Big Ben's time kept accurate?",
+                es: "¿Cómo se mantiene precisa la hora de Big Ben?",
+                de: "Wie wird Big Bens Zeit genau gehalten?",
+                nl: "Hoe wordt de tijd van Big Ben nauwkeurig gehouden?"
+            },
+            options: {
+                en: ["By computer", "By adding or removing pennies on the pendulum", "By electric motor", "By GPS"],
+                es: ["Por computadora", "Añadiendo o quitando peniques en el péndulo", "Por motor eléctrico", "Por GPS"],
+                de: ["Durch Computer", "Durch Hinzufügen oder Entfernen von Pennys am Pendel", "Durch Elektromotor", "Durch GPS"],
+                nl: ["Door computer", "Door penny's toe te voegen of te verwijderen op de slinger", "Door elektromotor", "Door GPS"]
+            },
+            correct: 1,
+            explanation: {
+                en: "The clock's accuracy is adjusted by placing old pennies on top of the pendulum. Adding a penny speeds up the clock by about 0.4 seconds per day. This simple method has been used for over a century.",
+                es: "La precisión del reloj se ajusta colocando peniques viejos encima del péndulo. Agregar un penique acelera el reloj unos 0.4 segundos por día. Este método simple se ha utilizado durante más de un siglo.",
+                de: "Die Genauigkeit der Uhr wird durch Platzieren alter Pennys oben auf dem Pendel angepasst. Das Hinzufügen eines Pennys beschleunigt die Uhr um etwa 0,4 Sekunden pro Tag. Diese einfache Methode wird seit über einem Jahrhundert verwendet.",
+                nl: "De nauwkeurigheid van de klok wordt aangepast door oude penny's bovenop de slinger te plaatsen. Het toevoegen van een penny versnelt de klok met ongeveer 0,4 seconden per dag. Deze eenvoudige methode wordt al meer dan een eeuw gebruikt."
+            }
+        },
+        {
+            question: {
+                en: "What was Big Ben's condition during recent renovations?",
+                es: "¿Cuál fue el estado de Big Ben durante las renovaciones recientes?",
+                de: "Wie war Big Bens Zustand während der jüngsten Renovierungen?",
+                nl: "Wat was de staat van Big Ben tijdens recente renovaties?"
+            },
+            options: {
+                en: ["Demolished and rebuilt", "Covered in scaffolding for repairs", "Left untouched", "Painted a new color"],
+                es: ["Demolido y reconstruido", "Cubierto con andamios para reparaciones", "Dejado intacto", "Pintado de un nuevo color"],
+                de: ["Abgerissen und wieder aufgebaut", "Mit Gerüsten für Reparaturen bedeckt", "Unberührt gelassen", "In neuer Farbe gestrichen"],
+                nl: ["Gesloopt en herbouwd", "Bedekt met steigers voor reparaties", "Onveranderd gelaten", "Geverfd in een nieuwe kleur"]
+            },
+            correct: 1,
+            explanation: {
+                en: "From 2017 to 2021, Big Ben underwent major conservation work. The entire tower was covered in scaffolding while repairs were made to preserve it for future generations.",
+                es: "De 2017 a 2021, Big Ben se sometió a importantes trabajos de conservación. Toda la torre fue cubierta con andamios mientras se realizaban reparaciones para preservarla para las generaciones futuras.",
+                de: "Von 2017 bis 2021 wurde Big Ben einer umfassenden Konservierung unterzogen. Der gesamte Turm war mit Gerüsten bedeckt, während Reparaturen durchgeführt wurden, um ihn für zukünftige Generationen zu erhalten.",
+                nl: "Van 2017 tot 2021 onderging Big Ben grote conserveringswerkzaamheden. De hele toren was bedekt met steigers terwijl reparaties werden uitgevoerd om het te bewaren voor toekomstige generaties."
+            }
+        },
+        {
+            question: {
+                en: "What makes Big Ben a tourist attraction?",
+                es: "¿Qué hace de Big Ben una atracción turística?",
+                de: "Was macht Big Ben zu einer Touristenattraktion?",
+                nl: "Wat maakt Big Ben een toeristische attractie?"
+            },
+            options: {
+                en: ["It's the tallest building in London", "It's an iconic landmark with historical importance", "It's the oldest building in Britain", "It has a restaurant at the top"],
+                es: ["Es el edificio más alto de Londres", "Es un monumento icónico con importancia histórica", "Es el edificio más antiguo de Gran Bretaña", "Tiene un restaurante en la cima"],
+                de: ["Es ist das höchste Gebäude in London", "Es ist ein ikonisches Wahrzeichen mit historischer Bedeutung", "Es ist das älteste Gebäude in Großbritannien", "Es hat ein Restaurant oben"],
+                nl: ["Het is het hoogste gebouw in Londen", "Het is een iconisch landmark met historisch belang", "Het is het oudste gebouw in Groot-Brittannië", "Het heeft een restaurant bovenop"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Big Ben is one of London's most photographed landmarks and a symbol of British culture. Its Victorian architecture and famous chimes attract millions of visitors to admire it from the outside each year.",
+                es: "Big Ben es uno de los monumentos más fotografiados de Londres y un símbolo de la cultura británica. Su arquitectura victoriana y sus famosas campanadas atraen a millones de visitantes para admirarlo desde el exterior cada año.",
+                de: "Big Ben ist eines der am meisten fotografierten Wahrzeichen Londons und ein Symbol britischer Kultur. Seine viktorianische Architektur und berühmten Glockenschläge ziehen jedes Jahr Millionen von Besuchern an, um es von außen zu bewundern.",
+                nl: "Big Ben is een van Londen's meest gefotografeerde bezienswaardigheden en een symbool van de Britse cultuur. Zijn Victoriaanse architectuur en beroemde klokslagen trekken elk jaar miljoenen bezoekers aan om het van buitenaf te bewonderen."
+            }
+        },
+        {
+            question: {
+                en: "What is the official name of Big Ben's tower?",
+                es: "¿Cuál es el nombre oficial de la torre de Big Ben?",
+                de: "Wie lautet der offizielle Name von Big Bens Turm?",
+                nl: "Wat is de officiële naam van Big Ben's toren?"
+            },
+            options: {
+                en: ["Big Ben Tower", "Elizabeth Tower", "Victoria Tower", "Westminster Tower"],
+                es: ["Torre Big Ben", "Torre Elizabeth", "Torre Victoria", "Torre Westminster"],
+                de: ["Big Ben Turm", "Elizabeth Tower", "Victoria Tower", "Westminster Tower"],
+                nl: ["Big Ben Toren", "Elizabeth Tower", "Victoria Tower", "Westminster Tower"]
+            },
+            correct: 1,
+            explanation: {
+                en: "The tower's official name is the Elizabeth Tower, renamed in 2012 to honor Queen Elizabeth II's Diamond Jubilee. Most people still call it Big Ben, though that name properly refers only to the great bell inside.",
+                es: "El nombre oficial de la torre es Elizabeth Tower, renombrada en 2012 para honrar el Jubileo de Diamante de la Reina Isabel II. La mayoría de la gente todavía lo llama Big Ben, aunque ese nombre se refiere propiamente solo a la gran campana dentro.",
+                de: "Der offizielle Name des Turms ist Elizabeth Tower, umbenannt 2012 zu Ehren des diamantenen Jubiläums von Königin Elizabeth II. Die meisten Leute nennen ihn immer noch Big Ben, obwohl dieser Name eigentlich nur auf die große Glocke im Inneren verweist.",
+                nl: "De officiële naam van de toren is Elizabeth Tower, hernoemd in 2012 ter ere van het Diamanten Jubileum van koningin Elizabeth II. De meeste mensen noemen het nog steeds Big Ben, hoewel die naam eigenlijk alleen verwijst naar de grote klok binnenin."
+            }
+        },
+        {
+            question: {
+                en: "What country is Big Ben in?",
+                es: "¿En qué país está Big Ben?",
+                de: "In welchem Land befindet sich Big Ben?",
+                nl: "In welk land staat Big Ben?"
+            },
+            options: {
+                en: ["France", "United Kingdom", "Ireland", "Germany"],
+                es: ["Francia", "Reino Unido", "Irlanda", "Alemania"],
+                de: ["Frankreich", "Vereinigtes Königreich", "Irland", "Deutschland"],
+                nl: ["Frankrijk", "Verenigd Koninkrijk", "Ierland", "Duitsland"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Big Ben is located in the United Kingdom, specifically in London, England. It has been a British national symbol since it was completed in 1859.",
+                es: "Big Ben se encuentra en el Reino Unido, específicamente en Londres, Inglaterra. Ha sido un símbolo nacional británico desde que se completó en 1859.",
+                de: "Big Ben befindet sich im Vereinigten Königreich, genauer gesagt in London, England. Es ist seit seiner Fertigstellung im Jahr 1859 ein britisches Nationalsymbol.",
+                nl: "Big Ben bevindt zich in het Verenigd Koninkrijk, specifiek in Londen, Engeland. Het is een Brits nationaal symbool sinds het in 1859 werd voltooid."
+            }
+        },
+        {
+            question: {
+                en: "Why is the bell called 'Big Ben'?",
+                es: "¿Por qué se llama la campana 'Big Ben'?",
+                de: "Warum heißt die Glocke 'Big Ben'?",
+                nl: "Waarom heet de klok 'Big Ben'?"
+            },
+            options: {
+                en: ["It was the biggest bell in the world", "Possibly named after Sir Benjamin Hall", "Named by Queen Victoria", "It was made in a town called Ben"],
+                es: ["Era la campana más grande del mundo", "Posiblemente nombrada por Sir Benjamin Hall", "Nombrada por la Reina Victoria", "Fue hecha en un pueblo llamado Ben"],
+                de: ["Es war die größte Glocke der Welt", "Möglicherweise nach Sir Benjamin Hall benannt", "Von Königin Victoria benannt", "Es wurde in einer Stadt namens Ben hergestellt"],
+                nl: ["Het was de grootste klok ter wereld", "Mogelijk vernoemd naar Sir Benjamin Hall", "Vernoemd door koningin Victoria", "Het werd gemaakt in een stad genaamd Ben"]
+            },
+            correct: 1,
+            explanation: {
+                en: "The bell is likely named after Sir Benjamin Hall, who was in charge of the building work when the bell was installed. Another theory suggests it was named after boxer Ben Caunt. The exact origin remains debated.",
+                es: "La campana probablemente lleva el nombre de Sir Benjamin Hall, quien estaba a cargo de los trabajos de construcción cuando se instaló la campana. Otra teoría sugiere que fue nombrada por el boxeador Ben Caunt. El origen exacto sigue siendo debatido.",
+                de: "Die Glocke ist wahrscheinlich nach Sir Benjamin Hall benannt, der für die Bauarbeiten verantwortlich war, als die Glocke installiert wurde. Eine andere Theorie besagt, sie sei nach dem Boxer Ben Caunt benannt. Die genaue Herkunft bleibt umstritten.",
+                nl: "De klok is waarschijnlijk vernoemd naar Sir Benjamin Hall, die verantwoordelijk was voor de bouwwerkzaamheden toen de klok werd geïnstalleerd. Een andere theorie suggereert dat het vernoemd is naar bokser Ben Caunt. De exacte oorsprong blijft omstreden."
+            }
+        },
+        {
+            question: {
+                en: "What can you see on the clock faces?",
+                es: "¿Qué puedes ver en las esferas del reloj?",
+                de: "Was kann man auf den Zifferblättern sehen?",
+                nl: "Wat kun je zien op de wijzerplaten?"
+            },
+            options: {
+                en: ["Digital numbers", "Roman numerals", "No numbers", "Pictures"],
+                es: ["Números digitales", "Números romanos", "Sin números", "Imágenes"],
+                de: ["Digitale Zahlen", "Römische Ziffern", "Keine Zahlen", "Bilder"],
+                nl: ["Digitale nummers", "Romeinse cijfers", "Geen nummers", "Afbeeldingen"]
+            },
+            correct: 1,
+            explanation: {
+                en: "The clock faces display Roman numerals (I, II, III, IV, etc.) instead of modern numbers. This traditional style was common in Victorian times and adds to Big Ben's classic appearance.",
+                es: "Las esferas del reloj muestran números romanos (I, II, III, IV, etc.) en lugar de números modernos. Este estilo tradicional era común en la época victoriana y añade a la apariencia clásica de Big Ben.",
+                de: "Die Zifferblätter zeigen römische Ziffern (I, II, III, IV usw.) anstelle moderner Zahlen. Dieser traditionelle Stil war in viktorianischen Zeiten üblich und trägt zu Big Bens klassischem Aussehen bei.",
+                nl: "De wijzerplaten tonen Romeinse cijfers (I, II, III, IV, enz.) in plaats van moderne cijfers. Deze traditionele stijl was gebruikelijk in Victoriaanse tijden en draagt bij aan Big Ben's klassieke uiterlijk."
+            }
+        },
+        {
+            question: {
+                en: "Does Big Ben tell the time or just chime?",
+                es: "¿Big Ben da la hora o solo suena?",
+                de: "Zeigt Big Ben die Zeit oder läutet es nur?",
+                nl: "Geeft Big Ben de tijd aan of luidt het alleen?"
+            },
+            options: {
+                en: ["Only chimes, no clock face", "Both tells time and chimes", "Only tells time, never chimes", "Changes between modes"],
+                es: ["Solo suena, sin esfera de reloj", "Tanto da la hora como suena", "Solo da la hora, nunca suena", "Cambia entre modos"],
+                de: ["Nur läuten, kein Zifferblatt", "Sowohl Zeitanzeige als auch läuten", "Nur Zeitanzeige, läutet nie", "Wechselt zwischen Modi"],
+                nl: ["Alleen luiden, geen wijzerplaat", "Zowel tijd aangeven als luiden", "Alleen tijd aangeven, luidt nooit", "Wisselt tussen modi"]
+            },
+            correct: 1,
+            explanation: {
+                en: "Big Ben both shows the time on four large clock faces and chimes to mark the hours. The clock faces can be seen from far away, and the bells can be heard across much of London.",
+                es: "Big Ben tanto muestra la hora en cuatro grandes esferas de reloj como suena para marcar las horas. Las esferas del reloj se pueden ver desde lejos, y las campanas se pueden escuchar en gran parte de Londres.",
+                de: "Big Ben zeigt sowohl die Zeit auf vier großen Zifferblättern als auch läutet, um die Stunden zu markieren. Die Zifferblätter können von weit her gesehen werden, und die Glocken können in weiten Teilen Londons gehört werden.",
+                nl: "Big Ben toont zowel de tijd op vier grote wijzerplaten als luidt om de uren aan te geven. De wijzerplaten kunnen van ver worden gezien, en de klokken kunnen in een groot deel van Londen worden gehoord."
+            }
+        },
+        {
+            question: {
+                en: "What is special about Big Ben at night?",
+                es: "¿Qué tiene de especial Big Ben por la noche?",
+                de: "Was ist nachts an Big Ben besonders?",
+                nl: "Wat is er speciaal aan Big Ben 's nachts?"
+            },
+            options: {
+                en: ["It turns off completely", "The clock faces are illuminated", "It chimes louder", "It changes color"],
+                es: ["Se apaga completamente", "Las esferas del reloj están iluminadas", "Suena más fuerte", "Cambia de color"],
+                de: ["Es schaltet vollständig ab", "Die Zifferblätter sind beleuchtet", "Es läutet lauter", "Es ändert die Farbe"],
+                nl: ["Het gaat volledig uit", "De wijzerplaten zijn verlicht", "Het luidt harder", "Het verandert van kleur"]
+            },
+            correct: 1,
+            explanation: {
+                en: "At night, the four clock faces are illuminated from behind, making them glow and allowing people to see the time even in darkness. This makes Big Ben a beautiful landmark both day and night.",
+                es: "Por la noche, las cuatro esferas del reloj están iluminadas desde atrás, haciéndolas brillar y permitiendo que la gente vea la hora incluso en la oscuridad. Esto hace de Big Ben un hermoso monumento tanto de día como de noche.",
+                de: "Nachts werden die vier Zifferblätter von hinten beleuchtet, sodass sie leuchten und die Menschen auch im Dunkeln die Zeit ablesen können. Dies macht Big Ben sowohl tagsüber als auch nachts zu einem wunderschönen Wahrzeichen.",
+                nl: "'s Nachts worden de vier wijzerplaten van achteren verlicht, waardoor ze gloeien en mensen zelfs in het donker de tijd kunnen zien. Dit maakt Big Ben zowel overdag als 's nachts een prachtig landmark."
+            }
+        },
+        {
+            question: {
+                en: "How old is Big Ben approximately?",
+                es: "¿Aproximadamente qué edad tiene Big Ben?",
+                de: "Wie alt ist Big Ben ungefähr?",
+                nl: "Hoe oud is Big Ben ongeveer?"
+            },
+            options: {
+                en: ["About 50 years old", "About 100 years old", "About 165 years old", "About 300 years old"],
+                es: ["Unos 50 años", "Unos 100 años", "Unos 165 años", "Unos 300 años"],
+                de: ["Etwa 50 Jahre alt", "Etwa 100 Jahre alt", "Etwa 165 Jahre alt", "Etwa 300 Jahre alt"],
+                nl: ["Ongeveer 50 jaar oud", "Ongeveer 100 jaar oud", "Ongeveer 165 jaar oud", "Ongeveer 300 jaar oud"]
+            },
+            correct: 2,
+            explanation: {
+                en: "Big Ben was completed in 1859, making it approximately 165 years old. It has been keeping time for London for over a century and a half, becoming one of the world's most recognizable landmarks.",
+                es: "Big Ben se completó en 1859, lo que lo hace tener aproximadamente 165 años. Ha estado dando la hora para Londres durante más de un siglo y medio, convirtiéndose en uno de los monumentos más reconocibles del mundo.",
+                de: "Big Ben wurde 1859 fertiggestellt, was ihn etwa 165 Jahre alt macht. Es hält seit über anderthalb Jahrhunderten die Zeit für London und ist zu einem der weltweit bekanntesten Wahrzeichen geworden.",
+                nl: "Big Ben werd voltooid in 1859, waardoor het ongeveer 165 jaar oud is. Het houdt al meer dan anderhalve eeuw de tijd bij voor Londen en is een van 's werelds meest herkenbare bezienswaardigheden geworden."
+            }
+        },
+        {
+            question: {
+                en: "Can you visit Big Ben?",
+                es: "¿Se puede visitar Big Ben?",
+                de: "Kann man Big Ben besuchen?",
+                nl: "Kun je Big Ben bezoeken?"
+            },
+            options: {
+                en: ["Yes, anyone can visit anytime", "Only UK residents", "Tours available but limited", "No public access"],
+                es: ["Sí, cualquiera puede visitar en cualquier momento", "Solo residentes del Reino Unido", "Tours disponibles pero limitados", "Sin acceso público"],
+                de: ["Ja, jeder kann jederzeit besuchen", "Nur UK-Einwohner", "Führungen verfügbar aber begrenzt", "Kein öffentlicher Zugang"],
+                nl: ["Ja, iedereen kan altijd bezoeken", "Alleen UK-inwoners", "Rondleidingen beschikbaar maar beperkt", "Geen openbare toegang"]
+            },
+            correct: 2,
+            explanation: {
+                en: "Tours of Big Ben are available but limited to UK residents and require booking well in advance. The tower has 334 steps with no elevator, making it a challenging climb. International visitors can view it from outside.",
+                es: "Los tours de Big Ben están disponibles pero limitados a residentes del Reino Unido y requieren reservar con mucha anticipación. La torre tiene 334 escalones sin ascensor, lo que lo convierte en una subida desafiante. Los visitantes internacionales pueden verlo desde afuera.",
+                de: "Führungen durch Big Ben sind verfügbar, aber auf UK-Einwohner beschränkt und erfordern eine frühzeitige Buchung. Der Turm hat 334 Stufen ohne Aufzug, was ihn zu einem anspruchsvollen Aufstieg macht. Internationale Besucher können ihn von außen betrachten.",
+                nl: "Rondleidingen door Big Ben zijn beschikbaar maar beperkt tot UK-inwoners en vereisen ruim van tevoren boeken. De toren heeft 334 trappen zonder lift, wat het een uitdagende klim maakt. Internationale bezoekers kunnen het van buitenaf bekijken."
+            }
         }
     ];
 

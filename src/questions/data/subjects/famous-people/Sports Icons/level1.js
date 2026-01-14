@@ -427,6 +427,426 @@
           de: "Serena Williams ist eine der größten Tennisspielerinnen aller Zeiten, sie gewann 23 Grand-Slam-Einzeltitel und dominierte das Damen-Tennis über zwei Jahrzehnte.",
           nl: "Serena Williams is een van de grootste tennissers aller tijden, ze won 23 Grand Slam enkelspeltitels en domineerde het damestennis gedurende meer dan twee decennia."
         }
+      },
+      {
+        question: {
+          en: "Which athlete is known as 'The Rocket'?",
+          es: "¿Qué atleta es conocido como 'El Cohete'?",
+          de: "Welcher Athlet ist als 'Die Rakete' bekannt?",
+          nl: "Welke atleet staat bekend als 'The Rocket'?"
+        },
+        options: [
+          { en: "Roger Clemens", es: "Roger Clemens", de: "Roger Clemens", nl: "Roger Clemens" },
+          { en: "LeBron James", es: "LeBron James", de: "LeBron James", nl: "LeBron James" },
+          { en: "Cristiano Ronaldo", es: "Cristiano Ronaldo", de: "Cristiano Ronaldo", nl: "Cristiano Ronaldo" },
+          { en: "Tom Brady", es: "Tom Brady", de: "Tom Brady", nl: "Tom Brady" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Roger Clemens is known as 'The Rocket' and is one of baseball's greatest pitchers, winning 7 Cy Young Awards during his career.",
+          es: "Roger Clemens es conocido como 'El Cohete' y es uno de los mejores lanzadores del béisbol, ganando 7 premios Cy Young durante su carrera.",
+          de: "Roger Clemens ist als 'Die Rakete' bekannt und ist einer der größten Pitcher im Baseball, er gewann 7 Cy Young Awards während seiner Karriere.",
+          nl: "Roger Clemens staat bekend als 'The Rocket' en is een van de grootste pitchers in het honkbal, hij won 7 Cy Young Awards tijdens zijn carrière."
+        }
+      },
+      {
+        question: {
+          en: "Which NBA player is known for his 'Skyhook' shot?",
+          es: "¿Qué jugador de la NBA es conocido por su tiro 'Skyhook'?",
+          de: "Welcher NBA-Spieler ist für seinen 'Skyhook'-Wurf bekannt?",
+          nl: "Welke NBA-speler staat bekend om zijn 'Skyhook' schot?"
+        },
+        options: [
+          { en: "Kareem Abdul-Jabbar", es: "Kareem Abdul-Jabbar", de: "Kareem Abdul-Jabbar", nl: "Kareem Abdul-Jabbar" },
+          { en: "Wilt Chamberlain", es: "Wilt Chamberlain", de: "Wilt Chamberlain", nl: "Wilt Chamberlain" },
+          { en: "Bill Russell", es: "Bill Russell", de: "Bill Russell", nl: "Bill Russell" },
+          { en: "Magic Johnson", es: "Magic Johnson", de: "Magic Johnson", nl: "Magic Johnson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Kareem Abdul-Jabbar's 'Skyhook' was his signature shot and one of the most unstoppable moves in basketball history. He is the NBA's all-time leading scorer.",
+          es: "El 'Skyhook' de Kareem Abdul-Jabbar fue su tiro característico y uno de los movimientos más imparables en la historia del baloncesto. Es el máximo anotador de todos los tiempos en la NBA.",
+          de: "Kareem Abdul-Jabbars 'Skyhook' war sein Markenzeichen und einer der unaufhaltsamen Züge in der Basketballgeschichte. Er ist der erfolgreichste Scorer aller Zeiten in der NBA.",
+          nl: "Kareem Abdul-Jabbar's 'Skyhook' was zijn kenmerkende schot en een van de meest onstuitbare bewegingen in de basketbalgeschiedenis. Hij is de all-time leidende scorer van de NBA."
+        }
+      },
+      {
+        question: {
+          en: "Which country does tennis star Novak Djokovic represent?",
+          es: "¿Qué país representa la estrella del tenis Novak Djokovic?",
+          de: "Welches Land vertritt der Tennisstar Novak Djokovic?",
+          nl: "Welk land vertegenwoordigt tennisster Novak Djokovic?"
+        },
+        options: [
+          { en: "Serbia", es: "Serbia", de: "Serbien", nl: "Servië" },
+          { en: "Croatia", es: "Croacia", de: "Kroatien", nl: "Kroatië" },
+          { en: "Russia", es: "Rusia", de: "Russland", nl: "Rusland" },
+          { en: "Switzerland", es: "Suiza", de: "Schweiz", nl: "Zwitserland" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Novak Djokovic represents Serbia and has won 24 Grand Slam singles titles, the most in men's tennis history.",
+          es: "Novak Djokovic representa a Serbia y ha ganado 24 títulos individuales de Grand Slam, la mayor cantidad en la historia del tenis masculino.",
+          de: "Novak Djokovic vertritt Serbien und hat 24 Grand-Slam-Einzeltitel gewonnen, die meisten in der Geschichte des Herrentennis.",
+          nl: "Novak Djokovic vertegenwoordigt Servië en heeft 24 Grand Slam enkelspeltitels gewonnen, de meeste in de geschiedenis van het herentennis."
+        }
+      },
+      {
+        question: {
+          en: "Which NFL team did Peyton Manning NOT play for?",
+          es: "¿Para qué equipo de la NFL NO jugó Peyton Manning?",
+          de: "Für welches NFL-Team spielte Peyton Manning NICHT?",
+          nl: "Voor welk NFL-team speelde Peyton Manning NIET?"
+        },
+        options: [
+          { en: "New England Patriots", es: "New England Patriots", de: "New England Patriots", nl: "New England Patriots" },
+          { en: "Indianapolis Colts", es: "Indianapolis Colts", de: "Indianapolis Colts", nl: "Indianapolis Colts" },
+          { en: "Denver Broncos", es: "Denver Broncos", de: "Denver Broncos", nl: "Denver Broncos" },
+          { en: "Tennessee Volunteers", es: "Tennessee Volunteers", de: "Tennessee Volunteers", nl: "Tennessee Volunteers" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Peyton Manning played for the Indianapolis Colts and Denver Broncos in the NFL. He never played for the New England Patriots.",
+          es: "Peyton Manning jugó para los Indianapolis Colts y Denver Broncos en la NFL. Nunca jugó para los New England Patriots.",
+          de: "Peyton Manning spielte für die Indianapolis Colts und Denver Broncos in der NFL. Er spielte nie für die New England Patriots.",
+          nl: "Peyton Manning speelde voor de Indianapolis Colts en Denver Broncos in de NFL. Hij speelde nooit voor de New England Patriots."
+        }
+      },
+      {
+        question: {
+          en: "Which sport is associated with 'The Masters' tournament?",
+          es: "¿Con qué deporte está asociado el torneo 'The Masters'?",
+          de: "Mit welcher Sportart ist das 'Masters'-Turnier verbunden?",
+          nl: "Met welke sport wordt het 'Masters' toernooi geassocieerd?"
+        },
+        options: [
+          { en: "Golf", es: "Golf", de: "Golf", nl: "Golf" },
+          { en: "Tennis", es: "Tenis", de: "Tennis", nl: "Tennis" },
+          { en: "Snooker", es: "Snooker", de: "Snooker", nl: "Snooker" },
+          { en: "Darts", es: "Dardos", de: "Darts", nl: "Darts" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Masters is one of golf's four major championships, held annually at Augusta National Golf Club in Georgia.",
+          es: "The Masters es uno de los cuatro campeonatos mayores del golf, celebrado anualmente en el Augusta National Golf Club en Georgia.",
+          de: "The Masters ist eine der vier Major-Meisterschaften im Golf, die jährlich im Augusta National Golf Club in Georgia stattfindet.",
+          nl: "The Masters is een van de vier grote kampioenschappen in het golf, jaarlijks gehouden in de Augusta National Golf Club in Georgia."
+        }
+      },
+      {
+        question: {
+          en: "Which athlete is known for the phrase 'Float like a butterfly, sting like a bee'?",
+          es: "¿Qué atleta es conocido por la frase 'Flota como una mariposa, pica como una abeja'?",
+          de: "Welcher Athlet ist für den Spruch 'Schwebe wie ein Schmetterling, stich wie eine Biene' bekannt?",
+          nl: "Welke atleet staat bekend om de uitspraak 'Zweef als een vlinder, steek als een bij'?"
+        },
+        options: [
+          { en: "Muhammad Ali", es: "Muhammad Ali", de: "Muhammad Ali", nl: "Muhammad Ali" },
+          { en: "Mike Tyson", es: "Mike Tyson", de: "Mike Tyson", nl: "Mike Tyson" },
+          { en: "Floyd Mayweather", es: "Floyd Mayweather", de: "Floyd Mayweather", nl: "Floyd Mayweather" },
+          { en: "Manny Pacquiao", es: "Manny Pacquiao", de: "Manny Pacquiao", nl: "Manny Pacquiao" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Muhammad Ali famously said 'Float like a butterfly, sting like a bee' to describe his boxing style - quick footwork combined with powerful punches.",
+          es: "Muhammad Ali dijo famosamente 'Flota como una mariposa, pica como una abeja' para describir su estilo de boxeo - juego de pies rápido combinado con golpes poderosos.",
+          de: "Muhammad Ali sagte berühmt 'Schwebe wie ein Schmetterling, stich wie eine Biene', um seinen Boxstil zu beschreiben - schnelle Beinarbeit kombiniert mit kraftvollen Schlägen.",
+          nl: "Muhammad Ali zei beroemd 'Zweef als een vlinder, steek als een bij' om zijn boksstijl te beschrijven - snel voetenwerk gecombineerd met krachtige stoten."
+        }
+      },
+      {
+        question: {
+          en: "Which sport features a 'hat trick'?",
+          es: "¿En qué deporte se presenta un 'hat trick'?",
+          de: "In welcher Sportart gibt es einen 'Hat Trick'?",
+          nl: "In welke sport komt een 'hat trick' voor?"
+        },
+        options: [
+          { en: "Ice Hockey or Soccer", es: "Hockey sobre hielo o Fútbol", de: "Eishockey oder Fußball", nl: "IJshockey of Voetbal" },
+          { en: "Basketball", es: "Baloncesto", de: "Basketball", nl: "Basketbal" },
+          { en: "American Football", es: "Fútbol americano", de: "American Football", nl: "American Football" },
+          { en: "Baseball", es: "Béisbol", de: "Baseball", nl: "Honkbal" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A 'hat trick' means scoring three goals in a single game, commonly used in ice hockey and soccer.",
+          es: "Un 'hat trick' significa anotar tres goles en un solo partido, comúnmente usado en hockey sobre hielo y fútbol.",
+          de: "Ein 'Hat Trick' bedeutet drei Tore in einem einzigen Spiel zu erzielen, häufig im Eishockey und Fußball verwendet.",
+          nl: "Een 'hat trick' betekent drie doelpunten scoren in één wedstrijd, vaak gebruikt in ijshockey en voetbal."
+        }
+      },
+      {
+        question: {
+          en: "Which Olympic sport combines skiing and shooting?",
+          es: "¿Qué deporte olímpico combina esquí y tiro?",
+          de: "Welche olympische Sportart kombiniert Skifahren und Schießen?",
+          nl: "Welke Olympische sport combineert skiën en schieten?"
+        },
+        options: [
+          { en: "Biathlon", es: "Biatlón", de: "Biathlon", nl: "Biatlon" },
+          { en: "Modern Pentathlon", es: "Pentatlón moderno", de: "Moderner Fünfkampf", nl: "Moderne vijfkamp" },
+          { en: "Alpine Skiing", es: "Esquí alpino", de: "Alpinski", nl: "Alpineskiën" },
+          { en: "Cross-country Skiing", es: "Esquí de fondo", de: "Skilanglauf", nl: "Langlaufen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Biathlon is an Olympic winter sport that combines cross-country skiing and rifle shooting.",
+          es: "El biatlón es un deporte olímpico de invierno que combina esquí de fondo y tiro con rifle.",
+          de: "Biathlon ist eine olympische Wintersportart, die Skilanglauf und Schießen kombiniert.",
+          nl: "Biatlon is een Olympische wintersport die langlaufen en geweer schieten combineert."
+        }
+      },
+      {
+        question: {
+          en: "Which athlete is known as 'The Special One'?",
+          es: "¿Qué atleta es conocido como 'The Special One'?",
+          de: "Welcher Athlet ist als 'The Special One' bekannt?",
+          nl: "Welke atleet staat bekend als 'The Special One'?"
+        },
+        options: [
+          { en: "José Mourinho", es: "José Mourinho", de: "José Mourinho", nl: "José Mourinho" },
+          { en: "Pep Guardiola", es: "Pep Guardiola", de: "Pep Guardiola", nl: "Pep Guardiola" },
+          { en: "Jürgen Klopp", es: "Jürgen Klopp", de: "Jürgen Klopp", nl: "Jürgen Klopp" },
+          { en: "Carlo Ancelotti", es: "Carlo Ancelotti", de: "Carlo Ancelotti", nl: "Carlo Ancelotti" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "José Mourinho, the famous football manager, famously called himself 'The Special One' when he arrived at Chelsea in 2004.",
+          es: "José Mourinho, el famoso entrenador de fútbol, se llamó a sí mismo 'The Special One' cuando llegó al Chelsea en 2004.",
+          de: "José Mourinho, der berühmte Fußballmanager, nannte sich selbst 'The Special One', als er 2004 zu Chelsea kam.",
+          nl: "José Mourinho, de beroemde voetbalmanager, noemde zichzelf 'The Special One' toen hij in 2004 bij Chelsea aankwam."
+        }
+      },
+      {
+        question: {
+          en: "Which female athlete is nicknamed 'The Flying Finn'?",
+          es: "¿Qué atleta femenina es apodada 'La Finlandesa Voladora'?",
+          de: "Welche weibliche Athletin wird 'Die fliegende Finnin' genannt?",
+          nl: "Welke vrouwelijke atleet wordt 'De Vliegende Finse' genoemd?"
+        },
+        options: [
+          { en: "Mika Häkkinen", es: "Mika Häkkinen", de: "Mika Häkkinen", nl: "Mika Häkkinen" },
+          { en: "Kimi Räikkönen", es: "Kimi Räikkönen", de: "Kimi Räikkönen", nl: "Kimi Räikkönen" },
+          { en: "Valtteri Bottas", es: "Valtteri Bottas", de: "Valtteri Bottas", nl: "Valtteri Bottas" },
+          { en: "Paavo Nurmi", es: "Paavo Nurmi", de: "Paavo Nurmi", nl: "Paavo Nurmi" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "Paavo Nurmi, the legendary Finnish runner, was known as 'The Flying Finn' and won 9 Olympic gold medals in the 1920s.",
+          es: "Paavo Nurmi, el legendario corredor finlandés, era conocido como 'El Finlandés Volador' y ganó 9 medallas de oro olímpicas en los años 1920.",
+          de: "Paavo Nurmi, der legendäre finnische Läufer, war als 'Der fliegende Finne' bekannt und gewann in den 1920er Jahren 9 olympische Goldmedaillen.",
+          nl: "Paavo Nurmi, de legendarische Finse hardloper, stond bekend als 'De Vliegende Fin' en won 9 olympische gouden medailles in de jaren 1920."
+        }
+      },
+      {
+        question: {
+          en: "Which sport uses the term 'love' for zero points?",
+          es: "¿Qué deporte usa el término 'love' para cero puntos?",
+          de: "Welche Sportart verwendet den Begriff 'Love' für null Punkte?",
+          nl: "Welke sport gebruikt de term 'love' voor nul punten?"
+        },
+        options: [
+          { en: "Tennis", es: "Tenis", de: "Tennis", nl: "Tennis" },
+          { en: "Badminton", es: "Bádminton", de: "Badminton", nl: "Badminton" },
+          { en: "Table Tennis", es: "Tenis de mesa", de: "Tischtennis", nl: "Tafeltennis" },
+          { en: "Squash", es: "Squash", de: "Squash", nl: "Squash" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In tennis, 'love' means zero points. The term possibly comes from the French word 'l'oeuf' (egg), referring to the shape of zero.",
+          es: "En tenis, 'love' significa cero puntos. El término posiblemente viene de la palabra francesa 'l'oeuf' (huevo), refiriéndose a la forma del cero.",
+          de: "Im Tennis bedeutet 'Love' null Punkte. Der Begriff stammt möglicherweise vom französischen Wort 'l'oeuf' (Ei), das auf die Form der Null verweist.",
+          nl: "In tennis betekent 'love' nul punten. De term komt mogelijk van het Franse woord 'l'oeuf' (ei), verwijzend naar de vorm van nul."
+        }
+      },
+      {
+        question: {
+          en: "Which basketball team has won the most NBA championships?",
+          es: "¿Qué equipo de baloncesto ha ganado más campeonatos de la NBA?",
+          de: "Welches Basketballteam hat die meisten NBA-Meisterschaften gewonnen?",
+          nl: "Welk basketbalteam heeft de meeste NBA-kampioenschappen gewonnen?"
+        },
+        options: [
+          { en: "Boston Celtics", es: "Boston Celtics", de: "Boston Celtics", nl: "Boston Celtics" },
+          { en: "Los Angeles Lakers", es: "Los Angeles Lakers", de: "Los Angeles Lakers", nl: "Los Angeles Lakers" },
+          { en: "Chicago Bulls", es: "Chicago Bulls", de: "Chicago Bulls", nl: "Chicago Bulls" },
+          { en: "Golden State Warriors", es: "Golden State Warriors", de: "Golden State Warriors", nl: "Golden State Warriors" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Boston Celtics have won 17 NBA championships, the most in NBA history, with their most recent title in 2008.",
+          es: "Los Boston Celtics han ganado 17 campeonatos de la NBA, la mayor cantidad en la historia de la NBA, con su título más reciente en 2008.",
+          de: "Die Boston Celtics haben 17 NBA-Meisterschaften gewonnen, die meisten in der NBA-Geschichte, mit ihrem jüngsten Titel im Jahr 2008.",
+          nl: "De Boston Celtics hebben 17 NBA-kampioenschappen gewonnen, de meeste in de NBA-geschiedenis, met hun meest recente titel in 2008."
+        }
+      },
+      {
+        question: {
+          en: "Which athlete holds the record for most Olympic medals of all time?",
+          es: "¿Qué atleta tiene el récord de más medallas olímpicas de todos los tiempos?",
+          de: "Welcher Athlet hält den Rekord für die meisten olympischen Medaillen aller Zeiten?",
+          nl: "Welke atleet heeft het record voor de meeste olympische medailles aller tijden?"
+        },
+        options: [
+          { en: "Michael Phelps", es: "Michael Phelps", de: "Michael Phelps", nl: "Michael Phelps" },
+          { en: "Usain Bolt", es: "Usain Bolt", de: "Usain Bolt", nl: "Usain Bolt" },
+          { en: "Carl Lewis", es: "Carl Lewis", de: "Carl Lewis", nl: "Carl Lewis" },
+          { en: "Simone Biles", es: "Simone Biles", de: "Simone Biles", nl: "Simone Biles" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Michael Phelps won 28 Olympic medals (23 gold, 3 silver, 2 bronze) in swimming, making him the most decorated Olympian in history.",
+          es: "Michael Phelps ganó 28 medallas olímpicas (23 de oro, 3 de plata, 2 de bronce) en natación, convirtiéndolo en el olímpico más condecorado de la historia.",
+          de: "Michael Phelps gewann 28 olympische Medaillen (23 Gold, 3 Silber, 2 Bronze) im Schwimmen und ist damit der erfolgreichste Olympionike der Geschichte.",
+          nl: "Michael Phelps won 28 olympische medailles (23 goud, 3 zilver, 2 brons) in het zwemmen, waardoor hij de meest gedecoreerde Olympiër in de geschiedenis is."
+        }
+      },
+      {
+        question: {
+          en: "Which country has hosted the Summer Olympics the most times?",
+          es: "¿Qué país ha organizado los Juegos Olímpicos de Verano más veces?",
+          de: "Welches Land hat die Olympischen Sommerspiele am häufigsten ausgerichtet?",
+          nl: "Welk land heeft de Olympische Zomerspelen het vaakst georganiseerd?"
+        },
+        options: [
+          { en: "United States", es: "Estados Unidos", de: "Vereinigte Staaten", nl: "Verenigde Staten" },
+          { en: "United Kingdom", es: "Reino Unido", de: "Vereinigtes Königreich", nl: "Verenigd Koninkrijk" },
+          { en: "France", es: "Francia", de: "Frankreich", nl: "Frankrijk" },
+          { en: "Greece", es: "Grecia", de: "Griechenland", nl: "Griekenland" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The United States has hosted the Summer Olympics four times (St. Louis 1904, Los Angeles 1932 and 1984, Atlanta 1996) and will host again in Los Angeles 2028.",
+          es: "Estados Unidos ha organizado los Juegos Olímpicos de Verano cuatro veces (St. Louis 1904, Los Ángeles 1932 y 1984, Atlanta 1996) y los organizará nuevamente en Los Ángeles 2028.",
+          de: "Die Vereinigten Staaten haben die Olympischen Sommerspiele viermal ausgerichtet (St. Louis 1904, Los Angeles 1932 und 1984, Atlanta 1996) und werden sie 2028 erneut in Los Angeles ausrichten.",
+          nl: "De Verenigde Staten hebben de Olympische Zomerspelen vier keer georganiseerd (St. Louis 1904, Los Angeles 1932 en 1984, Atlanta 1996) en zullen ze in 2028 opnieuw in Los Angeles organiseren."
+        }
+      },
+      {
+        question: {
+          en: "Which sport is Lionel Messi famous for?",
+          es: "¿Por qué deporte es famoso Lionel Messi?",
+          de: "Für welche Sportart ist Lionel Messi berühmt?",
+          nl: "Voor welke sport is Lionel Messi beroemd?"
+        },
+        options: [
+          { en: "Soccer/Football", es: "Fútbol", de: "Fußball", nl: "Voetbal" },
+          { en: "Basketball", es: "Baloncesto", de: "Basketball", nl: "Basketbal" },
+          { en: "Tennis", es: "Tenis", de: "Tennis", nl: "Tennis" },
+          { en: "Baseball", es: "Béisbol", de: "Baseball", nl: "Honkbal" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Lionel Messi is one of the greatest soccer players of all time, winning multiple Ballon d'Or awards and leading Argentina to World Cup victory in 2022.",
+          es: "Lionel Messi es uno de los mejores futbolistas de todos los tiempos, ganando múltiples premios Balón de Oro y llevando a Argentina a la victoria en la Copa del Mundo en 2022.",
+          de: "Lionel Messi ist einer der größten Fußballspieler aller Zeiten, er gewann mehrere Ballon d'Or-Auszeichnungen und führte Argentinien 2022 zum WM-Sieg.",
+          nl: "Lionel Messi is een van de grootste voetballers aller tijden, hij won meerdere Ballon d'Or prijzen en leidde Argentinië naar de wereldbekerzege in 2022."
+        }
+      },
+      {
+        question: {
+          en: "Which sport features a 'slam dunk'?",
+          es: "¿Qué deporte presenta un 'mate'?",
+          de: "In welcher Sportart gibt es einen 'Slam Dunk'?",
+          nl: "In welke sport komt een 'slam dunk' voor?"
+        },
+        options: [
+          { en: "Basketball", es: "Baloncesto", de: "Basketball", nl: "Basketbal" },
+          { en: "Volleyball", es: "Voleibol", de: "Volleyball", nl: "Volleybal" },
+          { en: "Tennis", es: "Tenis", de: "Tennis", nl: "Tennis" },
+          { en: "Handball", es: "Balonmano", de: "Handball", nl: "Handbal" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A 'slam dunk' is a basketball move where a player jumps and forcefully puts the ball through the hoop.",
+          es: "Un 'mate' es un movimiento de baloncesto donde un jugador salta y mete el balón con fuerza a través del aro.",
+          de: "Ein 'Slam Dunk' ist ein Basketball-Zug, bei dem ein Spieler springt und den Ball kraftvoll durch den Korb wirft.",
+          nl: "Een 'slam dunk' is een basketbalbeweging waarbij een speler springt en de bal krachtig door de ring gooit."
+        }
+      },
+      {
+        question: {
+          en: "Which athlete is known as 'King James'?",
+          es: "¿Qué atleta es conocido como 'King James'?",
+          de: "Welcher Athlet ist als 'King James' bekannt?",
+          nl: "Welke atleet staat bekend als 'King James'?"
+        },
+        options: [
+          { en: "LeBron James", es: "LeBron James", de: "LeBron James", nl: "LeBron James" },
+          { en: "James Harden", es: "James Harden", de: "James Harden", nl: "James Harden" },
+          { en: "Kevin Durant", es: "Kevin Durant", de: "Kevin Durant", nl: "Kevin Durant" },
+          { en: "Stephen Curry", es: "Stephen Curry", de: "Stephen Curry", nl: "Stephen Curry" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "LeBron James is known as 'King James' and is considered one of the greatest basketball players of all time, winning 4 NBA championships.",
+          es: "LeBron James es conocido como 'King James' y es considerado uno de los mejores jugadores de baloncesto de todos los tiempos, ganando 4 campeonatos de la NBA.",
+          de: "LeBron James ist als 'King James' bekannt und gilt als einer der größten Basketballspieler aller Zeiten, er gewann 4 NBA-Meisterschaften.",
+          nl: "LeBron James staat bekend als 'King James' en wordt beschouwd als een van de grootste basketbalspelers aller tijden, hij won 4 NBA-kampioenschappen."
+        }
+      },
+      {
+        question: {
+          en: "Which sport uses a puck instead of a ball?",
+          es: "¿Qué deporte usa un disco en lugar de una pelota?",
+          de: "Welche Sportart verwendet einen Puck anstelle eines Balls?",
+          nl: "Welke sport gebruikt een puck in plaats van een bal?"
+        },
+        options: [
+          { en: "Ice Hockey", es: "Hockey sobre hielo", de: "Eishockey", nl: "IJshockey" },
+          { en: "Field Hockey", es: "Hockey sobre césped", de: "Feldhockey", nl: "Veldhockey" },
+          { en: "Lacrosse", es: "Lacrosse", de: "Lacrosse", nl: "Lacrosse" },
+          { en: "Polo", es: "Polo", de: "Polo", nl: "Polo" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ice hockey is played with a puck, a flat rubber disc, instead of a ball.",
+          es: "El hockey sobre hielo se juega con un disco, un disco plano de goma, en lugar de una pelota.",
+          de: "Eishockey wird mit einem Puck gespielt, einer flachen Gummischeibe, anstelle eines Balls.",
+          nl: "IJshockey wordt gespeeld met een puck, een platte rubberen schijf, in plaats van een bal."
+        }
+      },
+      {
+        question: {
+          en: "Which country won the first FIFA World Cup in 1930?",
+          es: "¿Qué país ganó la primera Copa Mundial de la FIFA en 1930?",
+          de: "Welches Land gewann die erste FIFA-Weltmeisterschaft 1930?",
+          nl: "Welk land won de eerste FIFA Wereldbeker in 1930?"
+        },
+        options: [
+          { en: "Uruguay", es: "Uruguay", de: "Uruguay", nl: "Uruguay" },
+          { en: "Argentina", es: "Argentina", de: "Argentinien", nl: "Argentinië" },
+          { en: "Brazil", es: "Brasil", de: "Brasilien", nl: "Brazilië" },
+          { en: "Italy", es: "Italia", de: "Italien", nl: "Italië" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Uruguay won the first FIFA World Cup in 1930, which was hosted in Uruguay. They defeated Argentina 4-2 in the final.",
+          es: "Uruguay ganó la primera Copa Mundial de la FIFA en 1930, que se celebró en Uruguay. Derrotaron a Argentina 4-2 en la final.",
+          de: "Uruguay gewann die erste FIFA-Weltmeisterschaft 1930, die in Uruguay ausgetragen wurde. Sie besiegten Argentinien im Finale 4:2.",
+          nl: "Uruguay won de eerste FIFA Wereldbeker in 1930, die in Uruguay werd gehouden. Ze versloegen Argentinië met 4-2 in de finale."
+        }
+      },
+      {
+        question: {
+          en: "Which sport did Wayne Gretzky dominate?",
+          es: "¿En qué deporte dominó Wayne Gretzky?",
+          de: "Welche Sportart dominierte Wayne Gretzky?",
+          nl: "Welke sport domineerde Wayne Gretzky?"
+        },
+        options: [
+          { en: "Ice Hockey", es: "Hockey sobre hielo", de: "Eishockey", nl: "IJshockey" },
+          { en: "Field Hockey", es: "Hockey sobre césped", de: "Feldhockey", nl: "Veldhockey" },
+          { en: "Baseball", es: "Béisbol", de: "Baseball", nl: "Honkbal" },
+          { en: "Basketball", es: "Baloncesto", de: "Basketball", nl: "Basketbal" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Wayne Gretzky, known as 'The Great One', is considered the greatest ice hockey player of all time, holding numerous NHL records.",
+          es: "Wayne Gretzky, conocido como 'El Grande', es considerado el mejor jugador de hockey sobre hielo de todos los tiempos, con numerosos récords de la NHL.",
+          de: "Wayne Gretzky, bekannt als 'The Great One', gilt als der größte Eishockeyspieler aller Zeiten und hält zahlreiche NHL-Rekorde.",
+          nl: "Wayne Gretzky, bekend als 'The Great One', wordt beschouwd als de grootste ijshockeyer aller tijden en heeft talloze NHL-records."
+        }
       }
     ]
   };

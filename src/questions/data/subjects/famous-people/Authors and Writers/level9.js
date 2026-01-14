@@ -1,4 +1,4 @@
-﻿// Authors and Writers Quiz - Level 9: Knowledge about Authors and Writers
+// Authors and Writers Quiz - Level 9: Knowledge about Authors and Writers
 (function() {
   const level9 = {
     name: {
@@ -426,6 +426,90 @@
           es: "William Faulkner escribió 'El sonido y la furia' (1929), una obra maestra modernista contada a través de cuatro perspectivas diferentes incluyendo Benjy, un hombre con discapacidades cognitivas. Faulkner ganó el Premio Nobel de Literatura en 1949 por su contribución poderosa y artísticamente única a la novela americana moderna.",
           de: "William Faulkner schrieb 'Schall und Wahn' (1929), ein modernistisches Meisterwerk erzählt durch vier verschiedene Perspektiven einschließlich Benjy, einem Mann mit kognitiven Behinderungen. Faulkner gewann 1949 den Nobelpreis für Literatur für seinen kraftvollen und künstlerisch einzigartigen Beitrag zum modernen amerikanischen Roman.",
           nl: "William Faulkner schreef 'Het geluid en de woede' (1929), een modernistisch meesterwerk verteld door vier verschillende perspectieven waaronder Benjy, een man met cognitieve beperkingen. Faulkner won de Nobelprijs voor Literatuur in 1949 voor zijn krachtige en artistiek unieke bijdrage aan de moderne Amerikaanse roman."
+        }
+      },
+      {
+        question: {
+          en: "Which Argentinian author wrote 'Hopscotch', a novel that can be read in multiple orders?",
+          es: "¿Qué autor argentino escribió 'Rayuela', una novela que puede leerse en múltiples órdenes?",
+          de: "Welcher argentinische Autor schrieb 'Himmel und Hölle', einen Roman der in mehreren Reihenfolgen gelesen werden kann?",
+          nl: "Welke Argentijnse auteur schreef 'Hopscotch', een roman die in meerdere volgordes kan worden gelezen?"
+        },
+        options: [
+          {en: "Jorge Luis Borges", es: "Jorge Luis Borges", de: "Jorge Luis Borges", nl: "Jorge Luis Borges"},
+          {en: "Julio Cortázar", es: "Julio Cortázar", de: "Julio Cortázar", nl: "Julio Cortázar"},
+          {en: "Adolfo Bioy Casares", es: "Adolfo Bioy Casares", de: "Adolfo Bioy Casares", nl: "Adolfo Bioy Casares"},
+          {en: "Roberto Bolaño", es: "Roberto Bolaño", de: "Roberto Bolaño", nl: "Roberto Bolaño"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Julio Cortázar wrote 'Hopscotch' (Rayuela) in 1963, an innovative novel that can be read either linearly or by jumping between chapters in a prescribed order, creating different reading experiences and meanings.",
+          es: "Julio Cortázar escribió 'Rayuela' en 1963, una novela innovadora que puede leerse linealmente o saltando entre capítulos en un orden prescrito, creando diferentes experiencias de lectura y significados.",
+          de: "Julio Cortázar schrieb 'Himmel und Hölle' (Rayuela) 1963, einen innovativen Roman der entweder linear oder durch Springen zwischen Kapiteln in vorgeschriebener Reihenfolge gelesen werden kann, schafft unterschiedliche Leseerfahrungen und Bedeutungen.",
+          nl: "Julio Cortázar schreef 'Hopscotch' (Rayuela) in 1963, een innovatieve roman die lineair kan worden gelezen of door tussen hoofdstukken te springen in een voorgeschreven volgorde, creëert verschillende leeservaringen en betekenissen."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'The Trial', a novel about a man arrested for an unspecified crime?",
+          es: "¿Quién escribió 'El proceso', una novela sobre un hombre arrestado por un crimen no especificado?",
+          de: "Wer schrieb 'Der Process', einen Roman über einen Mann der wegen eines nicht näher bezeichneten Verbrechens verhaftet wird?",
+          nl: "Wie schreef 'Het Proces', een roman over een man gearresteerd voor een niet-gespecificeerd misdrijf?"
+        },
+        options: [
+          {en: "Franz Kafka", es: "Franz Kafka", de: "Franz Kafka", nl: "Franz Kafka"},
+          {en: "Milan Kundera", es: "Milan Kundera", de: "Milan Kundera", nl: "Milan Kundera"},
+          {en: "Hermann Broch", es: "Hermann Broch", de: "Hermann Broch", nl: "Hermann Broch"},
+          {en: "Elias Canetti", es: "Elias Canetti", de: "Elias Canetti", nl: "Elias Canetti"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Franz Kafka wrote 'The Trial' (Der Process), published posthumously in 1925. The novel follows Josef K., who is arrested and prosecuted by an inaccessible authority for an unspecified crime, exploring themes of bureaucracy, absurdism, and powerlessness.",
+          es: "Franz Kafka escribió 'El proceso' (Der Process), publicado póstumamente en 1925. La novela sigue a Josef K., quien es arrestado y procesado por una autoridad inaccesible por un crimen no especificado, explorando temas de burocracia, absurdismo e impotencia.",
+          de: "Franz Kafka schrieb 'Der Process', posthum veröffentlicht 1925. Der Roman folgt Josef K., der von einer unzugänglichen Autorität wegen eines nicht näher bezeichneten Verbrechens verhaftet und angeklagt wird, erforscht Themen von Bürokratie, Absurdismus und Machtlosigkeit.",
+          nl: "Franz Kafka schreef 'Het Proces' (Der Process), postuum gepubliceerd in 1925. De roman volgt Josef K., die wordt gearresteerd en vervolgd door een ontoegankelijke autoriteit voor een niet-gespecificeerd misdrijf, verkent thema's van bureaucratie, absurdisme en machteloosheid."
+        }
+      },
+      {
+        question: {
+          en: "Which Mexican author wrote 'Pedro Páramo', a foundational work of magical realism?",
+          es: "¿Qué autor mexicano escribió 'Pedro Páramo', una obra fundamental del realismo mágico?",
+          de: "Welcher mexikanische Autor schrieb 'Pedro Páramo', ein grundlegendes Werk des magischen Realismus?",
+          nl: "Welke Mexicaanse auteur schreef 'Pedro Páramo', een fundamenteel werk van magisch realisme?"
+        },
+        options: [
+          {en: "Carlos Fuentes", es: "Carlos Fuentes", de: "Carlos Fuentes", nl: "Carlos Fuentes"},
+          {en: "Juan Rulfo", es: "Juan Rulfo", de: "Juan Rulfo", nl: "Juan Rulfo"},
+          {en: "Octavio Paz", es: "Octavio Paz", de: "Octavio Paz", nl: "Octavio Paz"},
+          {en: "Jorge Volpi", es: "Jorge Volpi", de: "Jorge Volpi", nl: "Jorge Volpi"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Juan Rulfo wrote 'Pedro Páramo' in 1955, a short novel that profoundly influenced magical realism and Latin American literature. The novel tells the story of Juan Preciado searching for his father in a ghost town, blurring the lines between life and death.",
+          es: "Juan Rulfo escribió 'Pedro Páramo' en 1955, una novela corta que influyó profundamente en el realismo mágico y la literatura latinoamericana. La novela cuenta la historia de Juan Preciado buscando a su padre en un pueblo fantasma, difuminando las líneas entre vida y muerte.",
+          de: "Juan Rulfo schrieb 'Pedro Páramo' 1955, einen kurzen Roman der den magischen Realismus und die lateinamerikanische Literatur tiefgreifend beeinflusste. Der Roman erzählt die Geschichte von Juan Preciado der seinen Vater in einer Geisterstadt sucht, verwischt die Grenzen zwischen Leben und Tod.",
+          nl: "Juan Rulfo schreef 'Pedro Páramo' in 1955, een korte roman die magisch realisme en Latijns-Amerikaanse literatuur diepgaand beïnvloedde. De roman vertelt het verhaal van Juan Preciado die zijn vader zoekt in een spookstad, vervaagt de lijnen tussen leven en dood."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'Crash', a controversial novel about car crashes and sexual fetishism?",
+          es: "¿Quién escribió 'Crash', una novela controvertida sobre choques de autos y fetichismo sexual?",
+          de: "Wer schrieb 'Crash', einen kontroversen Roman über Autounfälle und sexuellen Fetischismus?",
+          nl: "Wie schreef 'Crash', een controversiële roman over auto-ongelukken en seksueel fetisjisme?"
+        },
+        options: [
+          {en: "J.G. Ballard", es: "J.G. Ballard", de: "J.G. Ballard", nl: "J.G. Ballard"},
+          {en: "William S. Burroughs", es: "William S. Burroughs", de: "William S. Burroughs", nl: "William S. Burroughs"},
+          {en: "Philip K. Dick", es: "Philip K. Dick", de: "Philip K. Dick", nl: "Philip K. Dick"},
+          {en: "Anthony Burgess", es: "Anthony Burgess", de: "Anthony Burgess", nl: "Anthony Burgess"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "J.G. Ballard wrote 'Crash' in 1973, a controversial novel exploring the relationship between technology, sexuality, and violence through the story of characters who develop a sexual fetish for car crashes. The book was later adapted into a film by David Cronenberg.",
+          es: "J.G. Ballard escribió 'Crash' en 1973, una novela controvertida explorando la relación entre tecnología, sexualidad y violencia a través de la historia de personajes que desarrollan un fetiche sexual por choques de autos. El libro fue adaptado posteriormente en una película por David Cronenberg.",
+          de: "J.G. Ballard schrieb 'Crash' 1973, einen kontroversen Roman der die Beziehung zwischen Technologie, Sexualität und Gewalt durch die Geschichte von Charakteren erforscht die einen sexuellen Fetisch für Autounfälle entwickeln. Das Buch wurde später von David Cronenberg verfilmt.",
+          nl: "J.G. Ballard schreef 'Crash' in 1973, een controversiële roman die de relatie tussen technologie, seksualiteit en geweld verkent door het verhaal van personages die een seksueel fetisjisme voor auto-ongelukken ontwikkelen. Het boek werd later bewerkt tot een film door David Cronenberg."
         }
       }
     ]

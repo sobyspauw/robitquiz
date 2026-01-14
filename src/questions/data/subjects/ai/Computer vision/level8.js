@@ -427,6 +427,426 @@
           de: "Vision Transformers behandeln Bilder als Sequenzen von Patches und verwenden Selbstaufmerksamkeit um Beziehungen zwischen Patches zu modellieren, demonstrieren dass aufmerksamkeitsbasierte Architekturen CNN-Leistung erreichen oder übertreffen können ohne Konvolutionen.",
           nl: "Vision Transformers behandelen afbeeldingen als sequenties van patches en gebruiken zelf-aandacht om relaties tussen patches te modelleren, tonen aan dat aandacht-gebaseerde architecturen CNN prestaties kunnen evenaren of overtreffen zonder convoluties."
         }
+      },
+      {
+        question: {
+          en: "What is multi-task learning in computer vision?",
+          es: "¿Qué es el aprendizaje multi-tarea en visión por computadora?",
+          de: "Was ist Multi-Task Learning in Computer Vision?",
+          nl: "Wat is multi-task learning in computer vision?"
+        },
+        options: [
+          { en: "Training a single model to perform multiple related tasks simultaneously", es: "Entrenar un solo modelo para realizar múltiples tareas relacionadas simultáneamente", de: "Ein einzelnes Modell trainieren um mehrere verwandte Aufgaben gleichzeitig durchzuführen", nl: "Een enkel model trainen om meerdere gerelateerde taken tegelijkertijd uit te voeren" },
+          { en: "Running multiple tasks on different computers", es: "Ejecutar múltiples tareas en diferentes computadoras", de: "Mehrere Aufgaben auf verschiedenen Computern ausführen", nl: "Meerdere taken uitvoeren op verschillende computers" },
+          { en: "Training separate models for each task", es: "Entrenar modelos separados para cada tarea", de: "Separate Modelle für jede Aufgabe trainieren", nl: "Afzonderlijke modellen trainen voor elke taak" },
+          { en: "Learning to multitask efficiently", es: "Aprender a hacer multitarea eficientemente", de: "Lernen effizient Multitasking zu betreiben", nl: "Leren efficiënt multitasken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Multi-task learning shares representations across related tasks (e.g., detection + segmentation), leveraging commonalities to improve generalization and efficiency compared to training separate single-task models.",
+          es: "El aprendizaje multi-tarea comparte representaciones a través de tareas relacionadas (ej., detección + segmentación), aprovechando similitudes para mejorar generalización y eficiencia comparado con entrenar modelos de tarea única separados.",
+          de: "Multi-Task Learning teilt Repräsentationen über verwandte Aufgaben (z.B. Erkennung + Segmentierung), nutzt Gemeinsamkeiten um Generalisierung und Effizienz zu verbessern verglichen mit Training separater Einzelaufgaben-Modelle.",
+          nl: "Multi-task learning deelt representaties over gerelateerde taken (bijv. detectie + segmentatie), benut overeenkomsten om generalisatie en efficiëntie te verbeteren vergeleken met training van afzonderlijke enkele-taak modellen."
+        }
+      },
+      {
+        question: {
+          en: "What is active learning in computer vision?",
+          es: "¿Qué es el aprendizaje activo en visión por computadora?",
+          de: "Was ist Active Learning in Computer Vision?",
+          nl: "Wat is actief leren in computer vision?"
+        },
+        options: [
+          { en: "Iteratively selecting most informative samples for labeling to maximize learning efficiency", es: "Seleccionar iterativamente las muestras más informativas para etiquetar para maximizar eficiencia de aprendizaje", de: "Iterativ die informativsten Proben zur Beschriftung auswählen um Lerneffizienz zu maximieren", nl: "Iteratief de meest informatieve samples selecteren voor labeling om leerefficiëntie te maximaliseren" },
+          { en: "Learning while being physically active", es: "Aprender mientras se está físicamente activo", de: "Lernen während körperlich aktiv sein", nl: "Leren terwijl fysiek actief zijn" },
+          { en: "Training models that are actively running", es: "Entrenar modelos que están ejecutándose activamente", de: "Modelle trainieren die aktiv laufen", nl: "Modellen trainen die actief draaien" },
+          { en: "Using active neurons only during training", es: "Usar solo neuronas activas durante entrenamiento", de: "Nur aktive Neuronen während Training verwenden", nl: "Alleen actieve neuronen gebruiken tijdens training" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Active learning strategically queries the most uncertain or informative unlabeled samples for annotation, reducing labeling costs by focusing human effort on examples that most improve the model.",
+          es: "El aprendizaje activo consulta estratégicamente las muestras sin etiquetar más inciertas o informativas para anotación, reduciendo costos de etiquetado enfocando esfuerzo humano en ejemplos que más mejoran el modelo.",
+          de: "Active Learning fragt strategisch die unsichersten oder informativsten unbeschrifteten Proben zur Annotation ab, reduziert Beschriftungskosten durch Fokussierung menschlicher Anstrengung auf Beispiele die das Modell am meisten verbessern.",
+          nl: "Actief leren bevraagt strategisch de meest onzekere of informatieve ongelabelde samples voor annotatie, vermindert labelingskosten door menselijke inspanning te focussen op voorbeelden die het model het meest verbeteren."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of Generative Adversarial Networks (GANs) in computer vision?",
+          es: "¿Cuál es el propósito de las Redes Adversarias Generativas (GANs) en visión por computadora?",
+          de: "Was ist der Zweck von Generative Adversarial Networks (GANs) in Computer Vision?",
+          nl: "Wat is het doel van Generative Adversarial Networks (GANs) in computer vision?"
+        },
+        options: [
+          { en: "Generate realistic synthetic images through adversarial training of generator and discriminator", es: "Generar imágenes sintéticas realistas mediante entrenamiento adversario de generador y discriminador", de: "Realistische synthetische Bilder durch adversariales Training von Generator und Diskriminator generieren", nl: "Realistische synthetische afbeeldingen genereren door adversarial training van generator en discriminator" },
+          { en: "Create adversarial examples to fool networks", es: "Crear ejemplos adversarios para engañar redes", de: "Adversariale Beispiele erstellen um Netzwerke zu täuschen", nl: "Adversarial voorbeelden maken om netwerken te misleiden" },
+          { en: "Generate network architectures automatically", es: "Generar arquitecturas de red automáticamente", de: "Netzwerkarchitekturen automatisch generieren", nl: "Netwerkarchitecturen automatisch genereren" },
+          { en: "Adversarially compete with other networks", es: "Competir adversarialmente con otras redes", de: "Adversarial mit anderen Netzwerken konkurrieren", nl: "Adversarieel concurreren met andere netwerken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "GANs pit a generator (creating fake images) against a discriminator (distinguishing real from fake), iteratively improving both until the generator produces highly realistic images useful for data augmentation, synthesis, and creative applications.",
+          es: "Las GANs enfrentan un generador (creando imágenes falsas) contra un discriminador (distinguiendo real de falso), mejorando iterativamente ambos hasta que el generador produce imágenes altamente realistas útiles para aumento de datos, síntesis y aplicaciones creativas.",
+          de: "GANs stellen einen Generator (erstellt gefälschte Bilder) gegen einen Diskriminator (unterscheidet echt von gefälscht), verbessern iterativ beide bis der Generator hochrealistische Bilder produziert nützlich für Datenaugmentation, Synthese und kreative Anwendungen.",
+          nl: "GANs zetten een generator (maakt nep afbeeldingen) tegen een discriminator (onderscheidt echt van nep), verbeteren iteratief beide totdat de generator zeer realistische afbeeldingen produceert nuttig voor data augmentatie, synthese en creatieve toepassingen."
+        }
+      },
+      {
+        question: {
+          en: "What is the CycleGAN architecture used for?",
+          es: "¿Para qué se usa la arquitectura CycleGAN?",
+          de: "Wofür wird die CycleGAN-Architektur verwendet?",
+          nl: "Waarvoor wordt de CycleGAN architectuur gebruikt?"
+        },
+        options: [
+          { en: "Unpaired image-to-image translation between domains without paired training data", es: "Traducción imagen-a-imagen no emparejada entre dominios sin datos de entrenamiento emparejados", de: "Ungepaarte Bild-zu-Bild-Übersetzung zwischen Domänen ohne gepaarte Trainingsdaten", nl: "Ongepaarde beeld-naar-beeld vertaling tussen domeinen zonder gepaarde trainingsdata" },
+          { en: "Creating cyclical patterns in images", es: "Crear patrones cíclicos en imágenes", de: "Zyklische Muster in Bildern erstellen", nl: "Cyclische patronen maken in afbeeldingen" },
+          { en: "Cycling through different GAN architectures", es: "Alternar entre diferentes arquitecturas GAN", de: "Durch verschiedene GAN-Architekturen durchlaufen", nl: "Cyclen door verschillende GAN architecturen" },
+          { en: "Training GANs in cycles repeatedly", es: "Entrenar GANs en ciclos repetidamente", de: "GANs in Zyklen wiederholt trainieren", nl: "GANs in cycli herhaaldelijk trainen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "CycleGAN learns mappings between two domains (e.g., photos↔paintings, summer↔winter) without paired examples using cycle consistency loss, enabling style transfer and domain translation with unpaired datasets.",
+          es: "CycleGAN aprende mapeos entre dos dominios (ej., fotos↔pinturas, verano↔invierno) sin ejemplos emparejados usando pérdida de consistencia cíclica, permitiendo transferencia de estilo y traducción de dominio con conjuntos de datos no emparejados.",
+          de: "CycleGAN lernt Abbildungen zwischen zwei Domänen (z.B. Fotos↔Gemälde, Sommer↔Winter) ohne gepaarte Beispiele unter Verwendung von Zyklus-Konsistenzverlust, ermöglicht Stiltransfer und Domänenübersetzung mit ungepaarten Datensätzen.",
+          nl: "CycleGAN leert mappings tussen twee domeinen (bijv. foto's↔schilderijen, zomer↔winter) zonder gepaarde voorbeelden met cycle consistency loss, maakt stijloverdracht en domeinvertaling mogelijk met ongepaarde datasets."
+        }
+      },
+      {
+        question: {
+          en: "What is weakly supervised learning in computer vision?",
+          es: "¿Qué es el aprendizaje débilmente supervisado en visión por computadora?",
+          de: "Was ist schwach überwachtes Lernen in Computer Vision?",
+          nl: "Wat is zwak gesuperviseerd leren in computer vision?"
+        },
+        options: [
+          { en: "Learning from incomplete, inexact, or inaccurate annotations instead of full pixel-level labels", es: "Aprender de anotaciones incompletas, inexactas o imprecisas en lugar de etiquetas completas a nivel de píxel", de: "Lernen von unvollständigen, ungenauen oder unkorrekten Annotationen statt vollständiger Pixel-Level-Labels", nl: "Leren van onvolledige, onnauwkeurige of onjuiste annotaties in plaats van volledige pixel-niveau labels" },
+          { en: "Training with weak computational resources", es: "Entrenar con recursos computacionales débiles", de: "Training mit schwachen Rechenressourcen", nl: "Trainen met zwakke computationele bronnen" },
+          { en: "Using weaker neural network architectures", es: "Usar arquitecturas de red neuronal más débiles", de: "Schwächere neuronale Netzwerkarchitekturen verwenden", nl: "Zwakkere neurale netwerkarchitecturen gebruiken" },
+          { en: "Supervised learning with low confidence", es: "Aprendizaje supervisado con baja confianza", de: "Überwachtes Lernen mit niedrigem Vertrauen", nl: "Supervised learning met laag vertrouwen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Weakly supervised learning uses coarse annotations (image-level labels, bounding boxes, scribbles) instead of expensive dense labels, leveraging techniques to infer detailed predictions from limited supervision, reducing annotation costs.",
+          es: "El aprendizaje débilmente supervisado usa anotaciones gruesas (etiquetas a nivel de imagen, cajas delimitadoras, garabatos) en lugar de etiquetas densas costosas, aprovechando técnicas para inferir predicciones detalladas de supervisión limitada, reduciendo costos de anotación.",
+          de: "Schwach überwachtes Lernen verwendet grobe Annotationen (Bild-Level-Labels, Bounding Boxes, Kritzeleien) statt teurer dichter Labels, nutzt Techniken um detaillierte Vorhersagen aus begrenzter Überwachung zu folgern, reduziert Annotationskosten.",
+          nl: "Zwak gesuperviseerd leren gebruikt grove annotaties (beeld-niveau labels, bounding boxes, krabbels) in plaats van dure dichte labels, benut technieken om gedetailleerde voorspellingen af te leiden uit beperkte supervisie, vermindert annotatiekosten."
+        }
+      },
+      {
+        question: {
+          en: "What is 3D reconstruction from images?",
+          es: "¿Qué es la reconstrucción 3D desde imágenes?",
+          de: "Was ist 3D-Rekonstruktion aus Bildern?",
+          nl: "Wat is 3D reconstructie uit afbeeldingen?"
+        },
+        options: [
+          { en: "Estimating 3D geometry and structure from 2D image observations", es: "Estimar geometría y estructura 3D desde observaciones de imagen 2D", de: "3D-Geometrie und -Struktur aus 2D-Bildbeobachtungen schätzen", nl: "3D geometrie en structuur schatten uit 2D beeldobservaties" },
+          { en: "Converting 3D models to images", es: "Convertir modelos 3D a imágenes", de: "3D-Modelle in Bilder konvertieren", nl: "3D modellen converteren naar afbeeldingen" },
+          { en: "Reconstructing damaged 3D objects", es: "Reconstruir objetos 3D dañados", de: "Beschädigte 3D-Objekte rekonstruieren", nl: "Beschadigde 3D objecten reconstrueren" },
+          { en: "Building three-dimensional image databases", es: "Construir bases de datos de imágenes tridimensionales", de: "Dreidimensionale Bilddatenbanken aufbauen", nl: "Driedimensionale beelddatabases bouwen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "3D reconstruction infers depth, shape, and spatial relationships from multiple 2D views using techniques like structure-from-motion, multi-view stereo, or neural rendering, enabling applications in AR/VR, robotics, and scene understanding.",
+          es: "La reconstrucción 3D infiere profundidad, forma y relaciones espaciales desde múltiples vistas 2D usando técnicas como structure-from-motion, estéreo multi-vista o renderizado neuronal, permitiendo aplicaciones en AR/VR, robótica y comprensión de escenas.",
+          de: "3D-Rekonstruktion folgert Tiefe, Form und räumliche Beziehungen aus mehreren 2D-Ansichten unter Verwendung von Techniken wie Structure-from-Motion, Multi-View-Stereo oder neuronales Rendering, ermöglicht Anwendungen in AR/VR, Robotik und Szenenverständnis.",
+          nl: "3D reconstructie leidt diepte, vorm en ruimtelijke relaties af uit meerdere 2D weergaven met technieken zoals structure-from-motion, multi-view stereo of neuraal rendering, maakt toepassingen mogelijk in AR/VR, robotica en scènebegrip."
+        }
+      },
+      {
+        question: {
+          en: "What is Neural Radiance Fields (NeRF)?",
+          es: "¿Qué son los Neural Radiance Fields (NeRF)?",
+          de: "Was sind Neural Radiance Fields (NeRF)?",
+          nl: "Wat zijn Neural Radiance Fields (NeRF)?"
+        },
+        options: [
+          { en: "Representing 3D scenes as continuous volumetric functions learned by neural networks", es: "Representar escenas 3D como funciones volumétricas continuas aprendidas por redes neuronales", de: "3D-Szenen als kontinuierliche volumetrische Funktionen dargestellt gelernt von neuronalen Netzwerken", nl: "3D scènes representeren als continue volumetrische functies geleerd door neurale netwerken" },
+          { en: "Neural networks for detecting radiation fields", es: "Redes neuronales para detectar campos de radiación", de: "Neuronale Netzwerke zur Erkennung von Strahlungsfeldern", nl: "Neurale netwerken voor detectie van stralingsgebieden" },
+          { en: "Radial feature extraction from images", es: "Extracción de características radiales de imágenes", de: "Radiale Feature-Extraktion aus Bildern", nl: "Radiale feature extractie uit afbeeldingen" },
+          { en: "Network fields for neural processing", es: "Campos de red para procesamiento neuronal", de: "Netzwerkfelder für neuronale Verarbeitung", nl: "Netwerkvelden voor neurale verwerking" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "NeRF uses MLPs to map 3D coordinates to color and density, enabling photorealistic novel view synthesis through volumetric rendering from sparse input images, revolutionizing 3D scene representation.",
+          es: "NeRF usa MLPs para mapear coordenadas 3D a color y densidad, permitiendo síntesis fotorrealista de vistas novedosas mediante renderizado volumétrico desde imágenes de entrada escasas, revolucionando representación de escenas 3D.",
+          de: "NeRF verwendet MLPs um 3D-Koordinaten auf Farbe und Dichte abzubilden, ermöglicht fotorealistische neuartige Ansichtssynthese durch volumetrisches Rendering aus spärlichen Eingabebildern, revolutioniert 3D-Szenenrepräsentation.",
+          nl: "NeRF gebruikt MLPs om 3D coördinaten te mappen naar kleur en dichtheid, maakt fotorealistische nieuwe weergavesynthese mogelijk door volumetrisch rendering uit schaarse invoer afbeeldingen, revolutioneert 3D scène representatie."
+        }
+      },
+      {
+        question: {
+          en: "What is diffusion models' approach to image generation?",
+          es: "¿Cuál es el enfoque de los modelos de difusión para generación de imágenes?",
+          de: "Was ist der Ansatz von Diffusionsmodellen zur Bildgenerierung?",
+          nl: "Wat is de benadering van diffusiemodellen voor beeldgeneratie?"
+        },
+        options: [
+          { en: "Gradually denoising random noise into coherent images through iterative refinement", es: "Gradualmente eliminar ruido de ruido aleatorio en imágenes coherentes mediante refinamiento iterativo", de: "Allmählich zufälliges Rauschen in kohärente Bilder entrauschen durch iterative Verfeinerung", nl: "Geleidelijk willekeurige ruis ontruisen tot coherente afbeeldingen door iteratieve verfijning" },
+          { en: "Diffusing images across multiple layers", es: "Difundir imágenes a través de múltiples capas", de: "Bilder über mehrere Schichten diffundieren", nl: "Afbeeldingen verspreiden over meerdere lagen" },
+          { en: "Spreading pixel values uniformly", es: "Distribuir valores de píxeles uniformemente", de: "Pixelwerte gleichmäßig verteilen", nl: "Pixelwaarden uniform verspreiden" },
+          { en: "Diffusing style across image regions", es: "Difundir estilo a través de regiones de imagen", de: "Stil über Bildbereiche diffundieren", nl: "Stijl verspreiden over beeldregio's" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Diffusion models learn to reverse a noise-adding process, starting from pure noise and progressively removing it to generate high-quality images, offering stable training and impressive results in text-to-image generation.",
+          es: "Los modelos de difusión aprenden a revertir un proceso de adición de ruido, comenzando desde ruido puro y eliminándolo progresivamente para generar imágenes de alta calidad, ofreciendo entrenamiento estable y resultados impresionantes en generación texto-a-imagen.",
+          de: "Diffusionsmodelle lernen einen Rausch-Hinzufügungs-Prozess umzukehren, beginnend von purem Rauschen und progressiv entfernen um hochqualitative Bilder zu generieren, bieten stabiles Training und beeindruckende Ergebnisse in Text-zu-Bild-Generierung.",
+          nl: "Diffusiemodellen leren een ruis-toevoegingsproces om te keren, beginnend vanaf pure ruis en progressief verwijderen om hoge-kwaliteit afbeeldingen te genereren, bieden stabiele training en indrukwekkende resultaten in tekst-naar-beeld generatie."
+        }
+      },
+      {
+        question: {
+          en: "What is video action recognition?",
+          es: "¿Qué es el reconocimiento de acción en video?",
+          de: "Was ist Video-Aktionserkennung?",
+          nl: "Wat is video actieherkenning?"
+        },
+        options: [
+          { en: "Classifying human activities and actions from video sequences", es: "Clasificar actividades y acciones humanas desde secuencias de video", de: "Menschliche Aktivitäten und Aktionen aus Videosequenzen klassifizieren", nl: "Menselijke activiteiten en acties classificeren uit videosequenties" },
+          { en: "Recognizing video file formats", es: "Reconocer formatos de archivo de video", de: "Videodateiformate erkennen", nl: "Video bestandsformaten herkennen" },
+          { en: "Detecting action scenes in movies", es: "Detectar escenas de acción en películas", de: "Actionszenen in Filmen erkennen", nl: "Actiescènes detecteren in films" },
+          { en: "Recording actions taken on videos", es: "Registrar acciones tomadas en videos", de: "Aktionen auf Videos aufzeichnen", nl: "Acties op video's registreren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Action recognition analyzes temporal patterns in videos to classify activities like running, jumping, or cooking, using architectures like 3D CNNs, two-stream networks, or temporal transformers to capture motion dynamics.",
+          es: "El reconocimiento de acción analiza patrones temporales en videos para clasificar actividades como correr, saltar o cocinar, usando arquitecturas como CNNs 3D, redes de dos flujos o transformadores temporales para capturar dinámicas de movimiento.",
+          de: "Aktionserkennung analysiert zeitliche Muster in Videos um Aktivitäten wie Laufen, Springen oder Kochen zu klassifizieren, verwendet Architekturen wie 3D-CNNs, Zwei-Strom-Netzwerke oder temporale Transformers um Bewegungsdynamik zu erfassen.",
+          nl: "Actieherkenning analyseert temporele patronen in video's om activiteiten zoals rennen, springen of koken te classificeren, gebruikt architecturen zoals 3D CNNs, twee-stroom netwerken of temporele transformers om bewegingsdynamiek vast te leggen."
+        }
+      },
+      {
+        question: {
+          en: "What is object tracking in video?",
+          es: "¿Qué es el seguimiento de objetos en video?",
+          de: "Was ist Objektverfolgung in Video?",
+          nl: "Wat is objectvolging in video?"
+        },
+        options: [
+          { en: "Following specific objects across frames maintaining identity through motion and occlusions", es: "Seguir objetos específicos a través de fotogramas manteniendo identidad a través de movimiento y oclusiones", de: "Spezifische Objekte über Frames verfolgen Identität durch Bewegung und Verdeckungen beibehalten", nl: "Specifieke objecten volgen door frames heen identiteit behouden door beweging en occlusies" },
+          { en: "Tracking the number of objects in video", es: "Rastrear el número de objetos en video", de: "Anzahl der Objekte im Video verfolgen", nl: "Aantal objecten in video volgen" },
+          { en: "Recording object trajectories manually", es: "Registrar trayectorias de objetos manualmente", de: "Objekttrajektorien manuell aufzeichnen", nl: "Objecttrajecten handmatig registreren" },
+          { en: "Keeping track of video metadata", es: "Mantener registro de metadatos de video", de: "Video-Metadaten verfolgen", nl: "Video metadata bijhouden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Object tracking maintains consistent identities of detected objects across video frames, handling challenges like occlusions, appearance changes, and camera motion using techniques like Kalman filters, correlation filters, or Siamese networks.",
+          es: "El seguimiento de objetos mantiene identidades consistentes de objetos detectados a través de fotogramas de video, manejando desafíos como oclusiones, cambios de apariencia y movimiento de cámara usando técnicas como filtros de Kalman, filtros de correlación o redes Siamesas.",
+          de: "Objektverfolgung hält konsistente Identitäten erkannter Objekte über Video-Frames aufrecht, behandelt Herausforderungen wie Verdeckungen, Erscheinungsänderungen und Kamerabewegung unter Verwendung von Techniken wie Kalman-Filtern, Korrelationsfiltern oder Siamesischen Netzwerken.",
+          nl: "Objectvolging handhaaft consistente identiteiten van gedetecteerde objecten door video frames, behandelt uitdagingen zoals occlusies, uiterlijkveranderingen en camerabeweging met technieken zoals Kalman filters, correlatie filters of Siamese netwerken."
+        }
+      },
+      {
+        question: {
+          en: "What is pose estimation in computer vision?",
+          es: "¿Qué es la estimación de pose en visión por computadora?",
+          de: "Was ist Pose-Schätzung in Computer Vision?",
+          nl: "Wat is pose schatting in computer vision?"
+        },
+        options: [
+          { en: "Detecting and localizing body joints and skeletal keypoints in images or videos", es: "Detectar y localizar articulaciones del cuerpo y puntos clave esqueléticos en imágenes o videos", de: "Körpergelenke und skelettale Schlüsselpunkte in Bildern oder Videos erkennen und lokalisieren", nl: "Lichaamsgewrichten en skeletale keypoints detecteren en lokaliseren in afbeeldingen of video's" },
+          { en: "Estimating artistic poses in photographs", es: "Estimar poses artísticas en fotografías", de: "Künstlerische Posen in Fotografien schätzen", nl: "Artistieke poses schatten in foto's" },
+          { en: "Detecting people posing for cameras", es: "Detectar personas posando para cámaras", de: "Personen erkennen die für Kameras posieren", nl: "Mensen detecteren die poseren voor camera's" },
+          { en: "Estimating camera positions only", es: "Estimar solo posiciones de cámara", de: "Nur Kamerapositionen schätzen", nl: "Alleen cameraposities schatten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pose estimation localizes anatomical keypoints (shoulders, elbows, knees, etc.) to understand body configuration, enabling applications in sports analysis, animation, human-computer interaction, and activity recognition.",
+          es: "La estimación de pose localiza puntos clave anatómicos (hombros, codos, rodillas, etc.) para entender configuración del cuerpo, permitiendo aplicaciones en análisis deportivo, animación, interacción humano-computadora y reconocimiento de actividades.",
+          de: "Pose-Schätzung lokalisiert anatomische Schlüsselpunkte (Schultern, Ellbogen, Knie, etc.) um Körperkonfiguration zu verstehen, ermöglicht Anwendungen in Sportanalyse, Animation, Mensch-Computer-Interaktion und Aktivitätserkennung.",
+          nl: "Pose schatting lokaliseert anatomische keypoints (schouders, ellebogen, knieën, etc.) om lichaamsconfiguratie te begrijpen, maakt toepassingen mogelijk in sportanalyse, animatie, mens-computer interactie en activiteitenherkenning."
+        }
+      },
+      {
+        question: {
+          en: "What is face recognition versus face verification?",
+          es: "¿Qué es el reconocimiento facial versus la verificación facial?",
+          de: "Was ist Gesichtserkennung versus Gesichtsverifizierung?",
+          nl: "Wat is gezichtsherkenning versus gezichtsverificatie?"
+        },
+        options: [
+          { en: "Recognition identifies who someone is from database, verification confirms if two faces match", es: "Reconocimiento identifica quién es alguien desde base de datos, verificación confirma si dos rostros coinciden", de: "Erkennung identifiziert wer jemand ist aus Datenbank, Verifizierung bestätigt ob zwei Gesichter übereinstimmen", nl: "Herkenning identificeert wie iemand is uit database, verificatie bevestigt of twee gezichten overeenkomen" },
+          { en: "Recognition is faster than verification", es: "Reconocimiento es más rápido que verificación", de: "Erkennung ist schneller als Verifizierung", nl: "Herkenning is sneller dan verificatie" },
+          { en: "They are exactly the same task", es: "Son exactamente la misma tarea", de: "Sie sind genau dieselbe Aufgabe", nl: "Ze zijn precies dezelfde taak" },
+          { en: "Verification uses higher resolution images", es: "Verificación usa imágenes de mayor resolución", de: "Verifizierung verwendet höherauflösende Bilder", nl: "Verificatie gebruikt hogere resolutie afbeeldingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Face verification is a 1:1 matching problem (is this person who they claim to be?), while face recognition is a 1:N identification problem (who is this person among N known individuals?), requiring different system designs.",
+          es: "La verificación facial es un problema de coincidencia 1:1 (¿es esta persona quien dice ser?), mientras que el reconocimiento facial es un problema de identificación 1:N (¿quién es esta persona entre N individuos conocidos?), requiriendo diseños de sistema diferentes.",
+          de: "Gesichtsverifizierung ist ein 1:1-Matching-Problem (ist diese Person wer sie vorgibt zu sein?), während Gesichtserkennung ein 1:N-Identifikationsproblem ist (wer ist diese Person unter N bekannten Individuen?), erfordert verschiedene Systemdesigns.",
+          nl: "Gezichtsverificatie is een 1:1 matching probleem (is deze persoon wie ze beweren te zijn?), terwijl gezichtsherkenning een 1:N identificatie probleem is (wie is deze persoon onder N bekende individuen?), vereist verschillende systeemontwerpen."
+        }
+      },
+      {
+        question: {
+          en: "What is the Siamese network architecture used for?",
+          es: "¿Para qué se usa la arquitectura de red Siamesa?",
+          de: "Wofür wird die Siamesische Netzwerkarchitektur verwendet?",
+          nl: "Waarvoor wordt de Siamese netwerkarchitectuur gebruikt?"
+        },
+        options: [
+          { en: "Learning similarity metrics by comparing paired inputs through weight-shared networks", es: "Aprender métricas de similitud comparando entradas emparejadas a través de redes con pesos compartidos", de: "Ähnlichkeitsmetriken lernen durch Vergleich gepaarter Eingaben durch gewichtsteilende Netzwerke", nl: "Gelijkenis metrieken leren door gepaarde inputs te vergelijken via gewicht-gedeelde netwerken" },
+          { en: "Training twin networks independently", es: "Entrenar redes gemelas independientemente", de: "Zwillingsnetzwerke unabhängig trainieren", nl: "Tweelingnetwerken onafhankelijk trainen" },
+          { en: "Processing Siamese cat images", es: "Procesar imágenes de gatos Siameses", de: "Siamesische Katzenbilder verarbeiten", nl: "Siamese kattenafbeeldingen verwerken" },
+          { en: "Connecting two separate networks", es: "Conectar dos redes separadas", de: "Zwei separate Netzwerke verbinden", nl: "Twee afzonderlijke netwerken verbinden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Siamese networks use identical twin branches with shared weights to process two inputs, learning embeddings where similar inputs are close and dissimilar inputs are far apart, used in face verification, signature verification, and tracking.",
+          es: "Las redes Siamesas usan ramas gemelas idénticas con pesos compartidos para procesar dos entradas, aprendiendo embeddings donde entradas similares están cerca y entradas diferentes están lejos, usadas en verificación facial, verificación de firma y seguimiento.",
+          de: "Siamesische Netzwerke verwenden identische Zwillingszweige mit geteilten Gewichten um zwei Eingaben zu verarbeiten, lernen Embeddings wo ähnliche Eingaben nah und unähnliche Eingaben weit auseinander sind, verwendet in Gesichtsverifizierung, Signaturverifizierung und Tracking.",
+          nl: "Siamese netwerken gebruiken identieke tweelingtakken met gedeelde gewichten om twee inputs te verwerken, leren embeddings waar vergelijkbare inputs dichtbij en ongelijke inputs ver uit elkaar zijn, gebruikt in gezichtsverificatie, handtekeningverificatie en tracking."
+        }
+      },
+      {
+        question: {
+          en: "What is attention mechanism's role in Transformers?",
+          es: "¿Cuál es el papel del mecanismo de atención en los Transformers?",
+          de: "Was ist die Rolle des Aufmerksamkeitsmechanismus in Transformers?",
+          nl: "Wat is de rol van het attention mechanisme in Transformers?"
+        },
+        options: [
+          { en: "Computing weighted relationships between all input elements simultaneously", es: "Calcular relaciones ponderadas entre todos los elementos de entrada simultáneamente", de: "Gewichtete Beziehungen zwischen allen Eingabeelementen gleichzeitig berechnen", nl: "Gewogen relaties berekenen tussen alle invoerelementen tegelijkertijd" },
+          { en: "Focusing only on important pixels", es: "Enfocarse solo en píxeles importantes", de: "Nur auf wichtige Pixel fokussieren", nl: "Alleen focussen op belangrijke pixels" },
+          { en: "Reducing attention span of networks", es: "Reducir lapso de atención de redes", de: "Aufmerksamkeitsspanne von Netzwerken reduzieren", nl: "Aandachtsspanne van netwerken verminderen" },
+          { en: "Attending to training progress", es: "Atender al progreso de entrenamiento", de: "Auf Trainingsfortschritt achten", nl: "Letten op trainingvooruitgang" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Self-attention computes query-key-value relationships allowing each position to attend to all other positions, capturing long-range dependencies and context more effectively than fixed-receptive-field convolutions.",
+          es: "La auto-atención calcula relaciones consulta-clave-valor permitiendo que cada posición atienda a todas las demás posiciones, capturando dependencias y contexto de largo alcance más efectivamente que convoluciones de campo receptivo fijo.",
+          de: "Selbstaufmerksamkeit berechnet Query-Key-Value-Beziehungen die jeder Position ermöglichen alle anderen Positionen zu beachten, erfasst Langstrecken-Abhängigkeiten und Kontext effektiver als Faltungen mit festem rezeptivem Feld.",
+          nl: "Zelf-aandacht berekent query-key-value relaties waardoor elke positie alle andere posities kan bezoeken, legt lange-afstands afhankelijkheden en context effectiever vast dan convoluties met vast receptief veld."
+        }
+      },
+      {
+        question: {
+          en: "What is the CLIP model architecture?",
+          es: "¿Qué es la arquitectura del modelo CLIP?",
+          de: "Was ist die CLIP-Modellarchitektur?",
+          nl: "Wat is de CLIP model architectuur?"
+        },
+        options: [
+          { en: "Jointly training image and text encoders to learn aligned multimodal representations", es: "Entrenar conjuntamente codificadores de imagen y texto para aprender representaciones multimodales alineadas", de: "Gemeinsam Bild- und Text-Encoder trainieren um ausgerichtete multimodale Repräsentationen zu lernen", nl: "Gezamenlijk beeld en tekst encoders trainen om uitgelijnde multimodale representaties te leren" },
+          { en: "Clipping gradients during training", es: "Recortar gradientes durante entrenamiento", de: "Gradienten während Training clippen", nl: "Gradiënten clippen tijdens training" },
+          { en: "Creating image clips from videos", es: "Crear clips de imagen desde videos", de: "Bildclips aus Videos erstellen", nl: "Beeldclips maken uit video's" },
+          { en: "Clipping image borders", es: "Recortar bordes de imagen", de: "Bildränder clippen", nl: "Beeldranden knippen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "CLIP (Contrastive Language-Image Pre-training) learns visual concepts from natural language supervision by matching images with their textual descriptions, enabling zero-shot transfer to downstream vision tasks through text prompts.",
+          es: "CLIP (Pre-entrenamiento Contrastivo Lenguaje-Imagen) aprende conceptos visuales de supervisión de lenguaje natural emparejando imágenes con sus descripciones textuales, permitiendo transferencia de cero ejemplos a tareas de visión posteriores mediante indicaciones de texto.",
+          de: "CLIP (Contrastive Language-Image Pre-training) lernt visuelle Konzepte aus natürlicher Sprachüberwachung durch Matching von Bildern mit ihren Textbeschreibungen, ermöglicht Zero-Shot-Transfer zu nachgelagerten Vision-Aufgaben durch Text-Prompts.",
+          nl: "CLIP (Contrastive Language-Image Pre-training) leert visuele concepten van natuurlijke taal supervisie door afbeeldingen te matchen met hun tekstuele beschrijvingen, maakt zero-shot transfer mogelijk naar downstream vision taken via tekst prompts."
+        }
+      },
+      {
+        question: {
+          en: "What is mean teacher method in semi-supervised learning?",
+          es: "¿Qué es el método de maestro promedio en aprendizaje semi-supervisado?",
+          de: "Was ist die Mean Teacher Methode im semi-überwachten Lernen?",
+          nl: "Wat is de mean teacher methode in semi-supervised learning?"
+        },
+        options: [
+          { en: "Using exponential moving average of student model as teacher for consistency regularization", es: "Usar promedio móvil exponencial del modelo estudiante como maestro para regularización de consistencia", de: "Exponentieller gleitender Durchschnitt des Schüler-Modells als Lehrer für Konsistenz-Regularisierung verwenden", nl: "Exponentieel voortschrijdend gemiddelde van student model gebruiken als leraar voor consistentie regularisatie" },
+          { en: "Averaging predictions from multiple teachers", es: "Promediar predicciones de múltiples maestros", de: "Vorhersagen von mehreren Lehrern mitteln", nl: "Voorspellingen van meerdere leraren middelen" },
+          { en: "Teaching models average concepts", es: "Enseñar a modelos conceptos promedio", de: "Modellen durchschnittliche Konzepte beibringen", nl: "Modellen gemiddelde concepten leren" },
+          { en: "Training with mean values only", es: "Entrenar solo con valores promedio", de: "Nur mit Mittelwerten trainieren", nl: "Alleen trainen met gemiddelde waarden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mean teacher maintains a teacher model as exponential moving average of student weights, providing more stable targets for consistency loss on unlabeled data, improving semi-supervised learning performance.",
+          es: "Mean teacher mantiene un modelo maestro como promedio móvil exponencial de pesos de estudiante, proporcionando objetivos más estables para pérdida de consistencia en datos sin etiquetar, mejorando rendimiento de aprendizaje semi-supervisado.",
+          de: "Mean Teacher hält ein Lehrer-Modell als exponentiellen gleitenden Durchschnitt von Schüler-Gewichten, bietet stabilere Ziele für Konsistenzverlust auf unbeschrifteten Daten, verbessert semi-überwachte Lernleistung.",
+          nl: "Mean teacher handhaaft een leraar model als exponentieel voortschrijdend gemiddelde van student gewichten, biedt stabielere doelen voor consistentie verlies op ongelabelde data, verbetert semi-supervised learning prestaties."
+        }
+      },
+      {
+        question: {
+          en: "What is occlusion handling in computer vision?",
+          es: "¿Qué es el manejo de oclusión en visión por computadora?",
+          de: "Was ist Okklusionsbehandlung in Computer Vision?",
+          nl: "Wat is occlusie behandeling in computer vision?"
+        },
+        options: [
+          { en: "Dealing with partially hidden objects blocked by other objects or scene elements", es: "Lidiar con objetos parcialmente ocultos bloqueados por otros objetos o elementos de escena", de: "Umgang mit teilweise verdeckten Objekten blockiert durch andere Objekte oder Szenenelemente", nl: "Omgaan met gedeeltelijk verborgen objecten geblokkeerd door andere objecten of scène-elementen" },
+          { en: "Closing openings in images", es: "Cerrar aperturas en imágenes", de: "Öffnungen in Bildern schließen", nl: "Openingen in afbeeldingen sluiten" },
+          { en: "Handling occluded pixels only", es: "Manejar solo píxeles ocluidos", de: "Nur okkludierte Pixel behandeln", nl: "Alleen geoccludeerde pixels behandelen" },
+          { en: "Occluding irrelevant regions", es: "Ocluir regiones irrelevantes", de: "Irrelevante Regionen okkludieren", nl: "Irrelevante regio's occluderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Occlusion handling addresses challenges when objects are partially blocked from view, using techniques like part-based models, context reasoning, or temporal information in videos to infer complete object structure despite visibility limitations.",
+          es: "El manejo de oclusión aborda desafíos cuando objetos están parcialmente bloqueados de la vista, usando técnicas como modelos basados en partes, razonamiento de contexto o información temporal en videos para inferir estructura completa de objeto a pesar de limitaciones de visibilidad.",
+          de: "Okklusionsbehandlung adressiert Herausforderungen wenn Objekte teilweise von Sicht blockiert sind, verwendet Techniken wie teilbasierte Modelle, Kontextrasonieren oder temporale Information in Videos um vollständige Objektstruktur trotz Sichtbarkeitsbeschränkungen zu folgern.",
+          nl: "Occlusie behandeling pakt uitdagingen aan wanneer objecten gedeeltelijk geblokkeerd zijn van zicht, gebruikt technieken zoals deel-gebaseerde modellen, context redenering of temporele informatie in video's om complete objectstructuur af te leiden ondanks zichtbaarheidsbeperkingen."
+        }
+      },
+      {
+        question: {
+          en: "What is model compression in deep learning?",
+          es: "¿Qué es la compresión de modelo en aprendizaje profundo?",
+          de: "Was ist Modellkompression im Deep Learning?",
+          nl: "Wat is modelcompressie in deep learning?"
+        },
+        options: [
+          { en: "Reducing model size and computational requirements while preserving performance", es: "Reducir tamaño de modelo y requisitos computacionales mientras se preserva rendimiento", de: "Modellgröße und Rechenanforderungen reduzieren während Leistung bewahrt wird", nl: "Modelgrootte en computationele vereisten verminderen terwijl prestaties behouden blijven" },
+          { en: "Compressing images before model processing", es: "Comprimir imágenes antes del procesamiento del modelo", de: "Bilder vor Modellverarbeitung komprimieren", nl: "Afbeeldingen comprimeren voor modelverwerking" },
+          { en: "Storing models in compressed files", es: "Almacenar modelos en archivos comprimidos", de: "Modelle in komprimierten Dateien speichern", nl: "Modellen opslaan in gecomprimeerde bestanden" },
+          { en: "Reducing training time only", es: "Reducir solo tiempo de entrenamiento", de: "Nur Trainingszeit reduzieren", nl: "Alleen trainingstijd verminderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Model compression uses techniques like pruning, quantization, knowledge distillation, and low-rank factorization to create smaller, faster models deployable on resource-constrained devices while maintaining acceptable accuracy.",
+          es: "La compresión de modelo usa técnicas como poda, cuantización, destilación de conocimiento y factorización de bajo rango para crear modelos más pequeños y rápidos desplegables en dispositivos con recursos limitados mientras mantiene precisión aceptable.",
+          de: "Modellkompression verwendet Techniken wie Pruning, Quantisierung, Knowledge Distillation und Niedrig-Rang-Faktorisierung um kleinere, schnellere Modelle zu erstellen die auf ressourcenbeschränkten Geräten einsetzbar sind während akzeptable Genauigkeit beibehalten wird.",
+          nl: "Modelcompressie gebruikt technieken zoals pruning, kwantisatie, knowledge distillation en lage-rang factorisatie om kleinere, snellere modellen te maken implementeerbaar op apparaten met beperkte bronnen terwijl acceptabele nauwkeurigheid behouden blijft."
+        }
+      },
+      {
+        question: {
+          en: "What is test-time augmentation (TTA)?",
+          es: "¿Qué es el aumento en tiempo de prueba (TTA)?",
+          de: "Was ist Test-Time Augmentation (TTA)?",
+          nl: "Wat is test-time augmentation (TTA)?"
+        },
+        options: [
+          { en: "Making predictions on multiple augmented versions of test samples and averaging results", es: "Hacer predicciones en múltiples versiones aumentadas de muestras de prueba y promediar resultados", de: "Vorhersagen auf mehreren augmentierten Versionen von Testproben machen und Ergebnisse mitteln", nl: "Voorspellingen maken op meerdere geaugmenteerde versies van testmonsters en resultaten middelen" },
+          { en: "Augmenting only during testing phase", es: "Aumentar solo durante fase de prueba", de: "Nur während Testphase augmentieren", nl: "Alleen augmenteren tijdens testfase" },
+          { en: "Testing augmentation techniques", es: "Probar técnicas de aumento", de: "Augmentationstechniken testen", nl: "Augmentatietechnieken testen" },
+          { en: "Measuring time taken for augmentation", es: "Medir tiempo tomado para aumento", de: "Zeit für Augmentation messen", nl: "Tijd meten voor augmentatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "TTA applies transformations (flips, rotations, crops) to test images, generates predictions for each variant, then aggregates results (typically averaging). This ensemble approach often improves accuracy at cost of inference time.",
+          es: "TTA aplica transformaciones (volteos, rotaciones, recortes) a imágenes de prueba, genera predicciones para cada variante, luego agrega resultados (típicamente promediando). Este enfoque de ensamble a menudo mejora precisión a costa de tiempo de inferencia.",
+          de: "TTA wendet Transformationen (Flips, Rotationen, Crops) auf Testbilder an, generiert Vorhersagen für jede Variante, aggregiert dann Ergebnisse (typischerweise Mittelung). Dieser Ensemble-Ansatz verbessert oft Genauigkeit auf Kosten der Inferenzzeit.",
+          nl: "TTA past transformaties (flips, rotaties, crops) toe op testafbeeldingen, genereert voorspellingen voor elke variant, aggregeert dan resultaten (typisch middeling). Deze ensemble-aanpak verbetert vaak nauwkeurigheid ten koste van inferentietijd."
+        }
+      },
+      {
+        question: {
+          en: "What is visual attention in computer vision models?",
+          es: "¿Qué es la atención visual en modelos de visión por computadora?",
+          de: "Was ist visuelle Aufmerksamkeit in Computer Vision Modellen?",
+          nl: "Wat is visuele aandacht in computer vision modellen?"
+        },
+        options: [
+          { en: "Mechanisms that weight different spatial regions or features based on their importance for the task", es: "Mecanismos que ponderan diferentes regiones espaciales o características basado en su importancia para la tarea", de: "Mechanismen die verschiedene räumliche Regionen oder Features basierend auf ihrer Wichtigkeit für die Aufgabe gewichten", nl: "Mechanismen die verschillende ruimtelijke regio's of features wegen op basis van hun belang voor de taak" },
+          { en: "Making models pay attention during training", es: "Hacer que modelos presten atención durante entrenamiento", de: "Modelle während Training aufmerksam machen", nl: "Modellen aandacht laten besteden tijdens training" },
+          { en: "Attention span of visual processors", es: "Lapso de atención de procesadores visuales", de: "Aufmerksamkeitsspanne visueller Prozessoren", nl: "Aandachtsspanne van visuele processors" },
+          { en: "Looking at visual outputs carefully", es: "Mirar salidas visuales cuidadosamente", de: "Visuelle Ausgaben sorgfältig betrachten", nl: "Visuele outputs zorgvuldig bekijken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Visual attention modules learn to emphasize informative regions while suppressing irrelevant areas, enabling models to focus computational resources on important features. Examples include SE blocks, CBAM, and spatial attention in transformers.",
+          es: "Módulos de atención visual aprenden a enfatizar regiones informativas mientras suprimen áreas irrelevantes, permitiendo a modelos enfocar recursos computacionales en características importantes. Ejemplos incluyen bloques SE, CBAM y atención espacial en transformers.",
+          de: "Visuelle Aufmerksamkeitsmodule lernen informative Regionen zu betonen während irrelevante Bereiche unterdrückt werden, ermöglichen Modellen Rechenressourcen auf wichtige Features zu fokussieren. Beispiele umfassen SE-Blöcke, CBAM und räumliche Aufmerksamkeit in Transformern.",
+          nl: "Visuele aandachtsmodules leren informatieve regio's te benadrukken terwijl irrelevante gebieden onderdrukt worden, stellen modellen in staat computationele resources te focussen op belangrijke features. Voorbeelden omvatten SE blocks, CBAM en ruimtelijke aandacht in transformers."
+        }
       }
     ]
   };

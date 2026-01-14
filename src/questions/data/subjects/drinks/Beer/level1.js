@@ -426,8 +426,238 @@
           es: "Las burbujas (carbonatación) en la cerveza transportan compuestos de sabor y aroma a tu nariz y paladar, mejorando la experiencia de bebida. También proporcionan sensación en boca y ayudan a liberar volátiles.",
           de: "Die Blasen (Kohlensäure) im Bier transportieren Geschmacks- und Aromastoffe zu Ihrer Nase und Ihrem Gaumen und verbessern das Trinkerlebnis. Sie sorgen auch für Mundgefühl und helfen, Flüchtige freizusetzen.",
           nl: "De bubbels (koolzuur) in bier dragen smaak- en aromastoffen naar je neus en gehemelte, wat de drinkervaring verbetert. Ze zorgen ook voor mondgevoel en helpen vluchtige stoffen vrij te maken."
-        }
+        }    },
+    {
+      question: {
+        en: "What is mashing in beer brewing?",
+        es: "¿Qué es el macerado en la elaboración de cerveza?",
+        de: "Was ist Maischen beim Bierbrauen?",
+        nl: "Wat is maischen bij het brouwen van bier?"
+      },
+      options: [
+        { en: "Mixing crushed malt with hot water to extract sugars", es: "Mezclar malta triturada con agua caliente para extraer azúcares", de: "Gemälztes Getreide mit heißem Wasser mischen, um Zucker zu extrahieren", nl: "Gemalen mout mengen met heet water om suikers te extraheren" },
+        { en: "Crushing the grains", es: "Triturar los granos", de: "Die Körner zerkleinern", nl: "De granen vermalen" },
+        { en: "Boiling the beer", es: "Hervir la cerveza", de: "Das Bier kochen", nl: "Het bier koken" },
+        { en: "Adding carbonation", es: "Añadir carbonatación", de: "Kohlensäure hinzufügen", nl: "Koolzuur toevoegen" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Mashing is the process of mixing crushed malt with hot water to convert starches into fermentable sugars, creating the sweet liquid called wort.",
+        es: "El macerado es el proceso de mezclar malta triturada con agua caliente para convertir almidones en azúcares fermentables, creando el líquido dulce llamado mosto.",
+        de: "Maischen ist der Prozess, bei dem gemälztes Getreide mit heißem Wasser gemischt wird, um Stärke in fermentierbare Zucker umzuwandeln und die süße Flüssigkeit namens Würze zu erzeugen.",
+        nl: "Maischen is het proces waarbij gemalen mout wordt gemengd met heet water om zetmeel om te zetten in fermenteerbare suikers, waardoor de zoete vloeistof wort ontstaat."
       }
+    },
+    {
+      question: {
+        en: "What does 'craft beer' typically refer to?",
+        es: "¿A qué se refiere típicamente 'cerveza artesanal'?",
+        de: "Was bezeichnet typischerweise 'Craft-Bier'?",
+        nl: "Waar verwijst 'craft bier' meestal naar?"
+      },
+      options: [
+        { en: "Beer from small, independent breweries with traditional methods", es: "Cerveza de pequeñas cervecerías independientes con métodos tradicionales", de: "Bier von kleinen, unabhängigen Brauereien mit traditionellen Methoden", nl: "Bier van kleine, onafhankelijke brouwerijen met traditionele methoden" },
+        { en: "Beer made by hand only", es: "Cerveza hecha solo a mano", de: "Nur handgemachtes Bier", nl: "Bier alleen met de hand gemaakt" },
+        { en: "Beer with special packaging", es: "Cerveza con empaque especial", de: "Bier mit besonderer Verpackung", nl: "Bier met speciale verpakking" },
+        { en: "Low-alcohol beer", es: "Cerveza baja en alcohol", de: "Alkoholarmes Bier", nl: "Laag-alcohol bier" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Craft beer refers to beer produced by small, independent breweries using traditional brewing methods and often emphasizing quality, flavor, and brewing technique over mass production.",
+        es: "La cerveza artesanal se refiere a la cerveza producida por pequeñas cervecerías independientes que utilizan métodos de elaboración tradicionales y a menudo enfatizan la calidad, el sabor y la técnica de elaboración sobre la producción en masa.",
+        de: "Craft-Bier bezieht sich auf Bier, das von kleinen, unabhängigen Brauereien mit traditionellen Braumethoden hergestellt wird und oft Qualität, Geschmack und Brautechnik über Massenproduktion stellt.",
+        nl: "Craft bier verwijst naar bier geproduceerd door kleine, onafhankelijke brouwerijen die traditionele brouwmethoden gebruiken en vaak kwaliteit, smaak en brouwtechniek benadrukken boven massaproductie."
+      }
+    },
+    {
+      question: {
+        en: "What is a 'hoppy' beer?",
+        es: "¿Qué es una cerveza 'lupulada'?",
+        de: "Was ist ein 'hopfiges' Bier?",
+        nl: "Wat is een 'hoppig' bier?"
+      },
+      options: [
+        { en: "Beer with prominent hop flavors and aromas", es: "Cerveza con sabores y aromas prominentes de lúpulo", de: "Bier mit ausgeprägten Hopfenaromen und -geschmack", nl: "Bier met prominente hop smaken en aroma's" },
+        { en: "Beer that makes you hop", es: "Cerveza que te hace saltar", de: "Bier das einen hüpfen lässt", nl: "Bier dat je laat huppelen" },
+        { en: "Beer with extra carbonation", es: "Cerveza con carbonatación extra", de: "Bier mit extra Kohlensäure", nl: "Bier met extra koolzuur" },
+        { en: "Beer served cold", es: "Cerveza servida fría", de: "Kalt serviertes Bier", nl: "Koud geserveerd bier" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A hoppy beer has pronounced hop character with strong bitter, floral, citrus, or piney flavors and aromas. IPAs are typically very hoppy beers.",
+        es: "Una cerveza lupulada tiene un carácter de lúpulo pronunciado con sabores y aromas fuertes amargos, florales, cítricos o de pino. Las IPAs son típicamente cervezas muy lupuladas.",
+        de: "Ein hopfiges Bier hat ausgeprägten Hopfencharakter mit starken bitteren, blumigen, zitrusartigen oder harzigen Aromen und Geschmack. IPAs sind typischerweise sehr hopfige Biere.",
+        nl: "Een hoppig bier heeft een uitgesproken hop karakter met sterke bittere, bloem-, citrus- of dennensmaak en aroma's. IPA's zijn meestal zeer hoppige bieren."
+      }
+    },
+    {
+      question: {
+        en: "What is the purpose of the 'boil' in beer brewing?",
+        es: "¿Cuál es el propósito del 'hervido' en la elaboración de cerveza?",
+        de: "Was ist der Zweck des 'Kochens' beim Bierbrauen?",
+        nl: "Wat is het doel van het 'koken' bij het brouwen van bier?"
+      },
+      options: [
+        { en: "Sterilize wort, extract hop flavors, and concentrate sugars", es: "Esterilizar el mosto, extraer sabores de lúpulo y concentrar azúcares", de: "Würze sterilisieren, Hopfenaromen extrahieren und Zucker konzentrieren", nl: "Wort steriliseren, hop smaken extraheren en suikers concentreren" },
+        { en: "Make beer hotter", es: "Hacer la cerveza más caliente", de: "Bier heißer machen", nl: "Bier heter maken" },
+        { en: "Add color to beer", es: "Agregar color a la cerveza", de: "Bier Farbe geben", nl: "Kleur toevoegen aan bier" },
+        { en: "Remove alcohol", es: "Eliminar alcohol", de: "Alkohol entfernen", nl: "Alcohol verwijderen" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Boiling the wort sterilizes it, extracts bitterness and flavors from hops, concentrates the sugars, and drives off unwanted volatile compounds.",
+        es: "Hervir el mosto lo esteriliza, extrae amargor y sabores del lúpulo, concentra los azúcares y elimina compuestos volátiles no deseados.",
+        de: "Das Kochen der Würze sterilisiert sie, extrahiert Bitterkeit und Aromen aus dem Hopfen, konzentriert die Zucker und treibt unerwünschte flüchtige Verbindungen aus.",
+        nl: "Het koken van de wort steriliseert het, extraheert bitterheid en smaken van hop, concentreert de suikers en verwijdert ongewenste vluchtige stoffen."
+      }
+    },
+    {
+      question: {
+        en: "What is a 'blonde ale'?",
+        es: "¿Qué es una 'ale rubia'?",
+        de: "Was ist ein 'Blonde Ale'?",
+        nl: "Wat is een 'blonde ale'?"
+      },
+      options: [
+        { en: "Light-colored, mild ale with balanced malt and hop flavor", es: "Ale de color claro y suave con sabor equilibrado de malta y lúpulo", de: "Helles, mildes Ale mit ausgewogenem Malz- und Hopfengeschmack", nl: "Lichtgekleurde, milde ale met gebalanceerde mout en hop smaak" },
+        { en: "Beer made by blonde brewers", es: "Cerveza hecha por cerveceros rubios", de: "Bier von blonden Brauern", nl: "Bier gemaakt door blonde brouwers" },
+        { en: "Very dark ale", es: "Ale muy oscura", de: "Sehr dunkles Ale", nl: "Zeer donkere ale" },
+        { en: "Non-alcoholic beer", es: "Cerveza sin alcohol", de: "Alkoholfreies Bier", nl: "Alcoholvrij bier" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A blonde ale is a light-colored, easy-drinking ale with a balanced flavor profile featuring mild malt sweetness and moderate hop bitterness.",
+        es: "Una ale rubia es una ale de color claro y fácil de beber con un perfil de sabor equilibrado que presenta dulzura de malta suave y amargor de lúpulo moderado.",
+        de: "Ein Blonde Ale ist ein helles, leicht trinkbares Ale mit ausgewogenem Geschmacksprofil mit milder Malzsüße und moderater Hopfenbitterkeit.",
+        nl: "Een blonde ale is een lichtgekleurde, gemakkelijk drinkbare ale met een gebalanceerd smaakprofiel met milde moutzoetheid en gematigde hop bitterheid."
+      }
+    },
+    {
+      question: {
+        en: "What is 'wort' in beer brewing?",
+        es: "¿Qué es el 'mosto' en la elaboración de cerveza?",
+        de: "Was ist 'Würze' beim Bierbrauen?",
+        nl: "Wat is 'wort' bij het brouwen van bier?"
+      },
+      options: [
+        { en: "Sweet liquid extracted from mashed grains before fermentation", es: "Líquido dulce extraído de granos macerados antes de la fermentación", de: "Süße Flüssigkeit aus gemälztem Getreide vor der Fermentation", nl: "Zoete vloeistof geëxtraheerd uit gemalen granen voor fermentatie" },
+        { en: "Yeast residue", es: "Residuo de levadura", de: "Hefereste", nl: "Gist residu" },
+        { en: "Hop flowers", es: "Flores de lúpulo", de: "Hopfenblüten", nl: "Hop bloemen" },
+        { en: "Fermented beer", es: "Cerveza fermentada", de: "Fermentiertes Bier", nl: "Gefermenteerd bier" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Wort is the sweet liquid produced from mashing grain that contains the sugars that will be fermented by yeast to create beer.",
+        es: "El mosto es el líquido dulce producido del macerado de grano que contiene los azúcares que serán fermentados por la levadura para crear cerveza.",
+        de: "Würze ist die süße Flüssigkeit, die beim Maischen von Getreide entsteht und die Zucker enthält, die von Hefe zu Bier vergoren werden.",
+        nl: "Wort is de zoete vloeistof geproduceerd door het maischen van graan die de suikers bevat die door gist zullen worden gefermenteerd om bier te creëren."
+      }
+    },
+    {
+      question: {
+        en: "What is a 'saison' beer?",
+        es: "¿Qué es una cerveza 'saison'?",
+        de: "Was ist ein 'Saison'-Bier?",
+        nl: "Wat is een 'saison' bier?"
+      },
+      options: [
+        { en: "Belgian farmhouse ale, pale and refreshing", es: "Ale de granja belga, pálida y refrescante", de: "Belgisches Farmhouse Ale, hell und erfrischend", nl: "Belgische boerderij ale, bleek en verfrissend" },
+        { en: "Seasonal beer only available in winter", es: "Cerveza estacional solo disponible en invierno", de: "Saisonbier nur im Winter erhältlich", nl: "Seizoensbier alleen verkrijgbaar in de winter" },
+        { en: "Dark German lager", es: "Lager alemana oscura", de: "Dunkles deutsches Lager", nl: "Donkere Duitse lager" },
+        { en: "Fruit-flavored beer", es: "Cerveza con sabor a frutas", de: "Fruchtbier", nl: "Fruitbier" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Saison is a Belgian farmhouse ale style that's typically pale, refreshing, and highly carbonated with fruity and spicy yeast characteristics. Originally brewed in winter for summer consumption by farmworkers.",
+        es: "Saison es un estilo de ale de granja belga que es típicamente pálida, refrescante y altamente carbonatada con características de levadura afrutadas y especiadas. Originalmente elaborada en invierno para consumo de verano por trabajadores agrícolas.",
+        de: "Saison ist ein belgischer Farmhouse-Ale-Stil, der typischerweise hell, erfrischend und stark kohlensäurehaltig ist mit fruchtigen und würzigen Hefecharakteristiken. Ursprünglich im Winter für den Sommerkonsum durch Landarbeiter gebraut.",
+        nl: "Saison is een Belgische boerderij ale stijl die meestal bleek, verfrissend en sterk koolzuurhoudend is met fruitige en kruidige gist kenmerken. Oorspronkelijk gebrouwen in de winter voor zomerconsumptie door boerderijwerkers."
+      }
+    },
+    {
+      question: {
+        en: "What is a 'trappist beer'?",
+        es: "¿Qué es una 'cerveza trapense'?",
+        de: "Was ist ein 'Trappisten-Bier'?",
+        nl: "Wat is een 'trappistenbier'?"
+      },
+      options: [
+        { en: "Beer brewed by or under supervision of Trappist monks", es: "Cerveza elaborada por o bajo supervisión de monjes trapenses", de: "Bier von oder unter Aufsicht von Trappistenmönchen gebraut", nl: "Bier gebrouwen door of onder toezicht van trappisten monniken" },
+        { en: "Beer served in monasteries", es: "Cerveza servida en monasterios", de: "Bier das in Klöstern serviert wird", nl: "Bier geserveerd in kloosters" },
+        { en: "Beer with religious symbols", es: "Cerveza con símbolos religiosos", de: "Bier mit religiösen Symbolen", nl: "Bier met religieuze symbolen" },
+        { en: "Beer aged in churches", es: "Cerveza envejecida en iglesias", de: "Bier das in Kirchen gereift ist", nl: "Bier gerijpt in kerken" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Trappist beer is brewed by or under supervision of Trappist monks within monastery walls, with proceeds supporting the monastery and charitable causes. There are only a few certified Trappist breweries worldwide.",
+        es: "La cerveza trapense es elaborada por o bajo supervisión de monjes trapenses dentro de las paredes del monasterio, con ganancias que apoyan al monasterio y causas caritativas. Solo hay unas pocas cervecerías trapenses certificadas en el mundo.",
+        de: "Trappisten-Bier wird von oder unter Aufsicht von Trappistenmönchen innerhalb von Klostermauern gebraut, wobei die Erlöse das Kloster und wohltätige Zwecke unterstützen. Es gibt weltweit nur wenige zertifizierte Trappisten-Brauereien.",
+        nl: "Trappistenbier wordt gebrouwen door of onder toezicht van trappisten monniken binnen kloostermuren, waarbij de opbrengsten het klooster en goede doelen ondersteunen. Er zijn wereldwijd slechts enkele gecertificeerde trappisten brouwerijen."
+      }
+    },
+    {
+      question: {
+        en: "What does 'bottled-conditioned' mean?",
+        es: "¿Qué significa 'acondicionado en botella'?",
+        de: "Was bedeutet 'flaschenkonditioniert'?",
+        nl: "Wat betekent 'fles-geconditioneerd'?"
+      },
+      options: [
+        { en: "Beer that continues fermenting in the bottle creating natural carbonation", es: "Cerveza que continúa fermentando en la botella creando carbonatación natural", de: "Bier das in der Flasche weitergärt und natürliche Kohlensäure erzeugt", nl: "Bier dat blijft fermenteren in de fles waardoor natuurlijk koolzuur ontstaat" },
+        { en: "Beer stored in cold bottles", es: "Cerveza almacenada en botellas frías", de: "Bier in kalten Flaschen gelagert", nl: "Bier opgeslagen in koude flessen" },
+        { en: "Beer in special bottles", es: "Cerveza en botellas especiales", de: "Bier in speziellen Flaschen", nl: "Bier in speciale flessen" },
+        { en: "Beer with added sugar", es: "Cerveza con azúcar añadido", de: "Bier mit zugesetztem Zucker", nl: "Bier met toegevoegde suiker" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Bottle-conditioned beer undergoes a secondary fermentation in the bottle where yeast and sugar are added, creating natural carbonation and often improving with age.",
+        es: "La cerveza acondicionada en botella experimenta una fermentación secundaria en la botella donde se añaden levadura y azúcar, creando carbonatación natural y a menudo mejorando con la edad.",
+        de: "Flaschenkonditioniertes Bier durchläuft eine sekundäre Gärung in der Flasche, bei der Hefe und Zucker hinzugefügt werden, wodurch natürliche Kohlensäure entsteht und es oft mit dem Alter besser wird.",
+        nl: "Fles-geconditioneerd bier ondergaat een secundaire fermentatie in de fles waarbij gist en suiker worden toegevoegd, waardoor natuurlijk koolzuur ontstaat en het vaak verbetert met de leeftijd."
+      }
+    },
+    {
+      question: {
+        en: "What is a 'growler' in beer terminology?",
+        es: "¿Qué es un 'growler' en terminología cervecera?",
+        de: "Was ist ein 'Growler' in der Bierterminologie?",
+        nl: "Wat is een 'growler' in biertermen?"
+      },
+      options: [
+        { en: "Large bottle or jug for transporting draft beer", es: "Botella o jarra grande para transportar cerveza de barril", de: "Große Flasche oder Krug für den Transport von Fassbier", nl: "Grote fles of kan voor het transporteren van tapbier" },
+        { en: "Beer with strong carbonation", es: "Cerveza con carbonatación fuerte", de: "Bier mit starker Kohlensäure", nl: "Bier met sterke koolzuur" },
+        { en: "Type of beer glass", es: "Tipo de vaso de cerveza", de: "Art von Bierglas", nl: "Type bierglas" },
+        { en: "Beer brewing equipment", es: "Equipo de elaboración de cerveza", de: "Bierbrau-Ausrüstung", nl: "Bierbrouw apparatuur" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A growler is a large container (typically 64 oz or 2 liters) used to transport draft beer from a brewery or taproom for consumption at home.",
+        es: "Un growler es un recipiente grande (típicamente 64 oz o 2 litros) utilizado para transportar cerveza de barril desde una cervecería o sala de grifos para consumo en casa.",
+        de: "Ein Growler ist ein großer Behälter (typischerweise 64 oz oder 2 Liter), der verwendet wird, um Fassbier von einer Brauerei oder Schankraum für den Konsum zu Hause zu transportieren.",
+        nl: "Een growler is een grote container (meestal 64 oz of 2 liter) gebruikt om tapbier van een brouwerij of taproom te transporteren voor consumptie thuis."
+      }
+    },
+    {
+      question: {
+        en: "What causes beer to become 'skunky' or 'lightstruck'?",
+        es: "¿Qué hace que la cerveza se vuelva 'desagradable' o 'golpeada por la luz'?",
+        de: "Was verursacht, dass Bier 'skunky' oder 'lichtgeschädigt' wird?",
+        nl: "Wat zorgt ervoor dat bier 'skunky' of 'lichtgetroffen' wordt?"
+      },
+      options: [
+        { en: "UV light breaking down hop compounds", es: "Luz UV que descompone los compuestos del lúpulo", de: "UV-Licht zersetzt Hopfenverbindungen", nl: "UV-licht breekt hop verbindingen af" },
+        { en: "Beer getting too cold", es: "Cerveza demasiado fría", de: "Bier wird zu kalt", nl: "Bier wordt te koud" },
+        { en: "Too much carbonation", es: "Demasiada carbonatación", de: "Zu viel Kohlensäure", nl: "Te veel koolzuur" },
+        { en: "Expired yeast", es: "Levadura caducada", de: "Abgelaufene Hefe", nl: "Verlopen gist" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "When beer is exposed to UV light, it causes a chemical reaction with hop compounds that creates a sulfur compound similar to skunk spray, hence the term 'skunky'. This is why many beers use brown bottles for UV protection.",
+        es: "Cuando la cerveza se expone a la luz UV, causa una reacción química con los compuestos del lúpulo que crea un compuesto de azufre similar al spray de zorrillo, de ahí el término 'desagradable'. Por eso muchas cervezas usan botellas marrones para protección UV.",
+        de: "Wenn Bier UV-Licht ausgesetzt ist, verursacht es eine chemische Reaktion mit Hopfenverbindungen, die eine Schwefelverbindung ähnlich wie Skunk-Spray erzeugt, daher der Begriff 'skunky'. Deshalb verwenden viele Biere braune Flaschen für UV-Schutz.",
+        nl: "Wanneer bier wordt blootgesteld aan UV-licht, veroorzaakt het een chemische reactie met hop verbindingen die een zwavelverbinding creëert vergelijkbaar met stinkdier spray, vandaar de term 'skunky'. Daarom gebruiken veel bieren bruine flessen voor UV-bescherming."
+      }
+    }
     ]
   };
 

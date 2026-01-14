@@ -427,6 +427,426 @@
           de: "Sid Lucero spielte in Lav Diaz' 'Norte, the End of History' (2013), einem 8-stündigen Epos, das den FIPRESCI-Preis in der Sektion Un Certain Regard in Cannes gewann.",
           nl: "Sid Lucero speelde in Lav Diaz's 'Norte, the End of History' (2013), een 8-uur durende epos die de FIPRESCI Prize won in de Un Certain Regard sectie van Cannes."
         }
+      },
+      {
+        question: {
+          en: "Which Taiwanese actress won the Golden Horse Award for her role in Tsai Ming-liang's 'Vive L'Amour'?",
+          es: "¿Qué actriz taiwanesa ganó el Premio Caballo de Oro por su papel en 'Vive L'Amour' de Tsai Ming-liang?",
+          de: "Welche taiwanesische Schauspielerin gewann den Golden Horse Award für ihre Rolle in Tsai Ming-liangs 'Vive L'Amour'?",
+          nl: "Welke Taiwanese actrice won de Golden Horse Award voor haar rol in Tsai Ming-liang's 'Vive L'Amour'?"
+        },
+        options: [
+          { en: "Yang Kuei-mei", es: "Yang Kuei-mei", de: "Yang Kuei-mei", nl: "Yang Kuei-mei" },
+          { en: "Shu Qi", es: "Shu Qi", de: "Shu Qi", nl: "Shu Qi" },
+          { en: "Sylvia Chang", es: "Sylvia Chang", de: "Sylvia Chang", nl: "Sylvia Chang" },
+          { en: "Chen Shiang-chyi", es: "Chen Shiang-chyi", de: "Chen Shiang-chyi", nl: "Chen Shiang-chyi" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Yang Kuei-mei won the Golden Horse Award for Best Actress for her performance in Tsai Ming-liang's 'Vive L'Amour' (1994), which also won the Golden Lion at Venice.",
+          es: "Yang Kuei-mei ganó el Premio Caballo de Oro a la Mejor Actriz por su actuación en 'Vive L'Amour' (1994) de Tsai Ming-liang, que también ganó el León de Oro en Venecia.",
+          de: "Yang Kuei-mei gewann den Golden Horse Award für die beste Schauspielerin für ihre Leistung in Tsai Ming-liangs 'Vive L'Amour' (1994), das auch den Goldenen Löwen in Venedig gewann.",
+          nl: "Yang Kuei-mei won de Golden Horse Award voor Beste Actrice voor haar optreden in Tsai Ming-liang's 'Vive L'Amour' (1994), die ook de Gouden Leeuw won in Venetië."
+        }
+      },
+      {
+        question: {
+          en: "Which Brazilian actor starred in Walter Salles' 'Central Station' and received a Golden Globe nomination?",
+          es: "¿Qué actor brasileño protagonizó 'Central Station' de Walter Salles y recibió una nominación al Globo de Oro?",
+          de: "Welcher brasilianische Schauspieler spielte in Walter Salles' 'Central Station' und erhielt eine Golden Globe-Nominierung?",
+          nl: "Welke Braziliaanse acteur speelde in Walter Salles' 'Central Station' en kreeg een Golden Globe nominatie?"
+        },
+        options: [
+          { en: "Vinícius de Oliveira", es: "Vinícius de Oliveira", de: "Vinícius de Oliveira", nl: "Vinícius de Oliveira" },
+          { en: "Wagner Moura", es: "Wagner Moura", de: "Wagner Moura", nl: "Wagner Moura" },
+          { en: "Rodrigo Santoro", es: "Rodrigo Santoro", de: "Rodrigo Santoro", nl: "Rodrigo Santoro" },
+          { en: "Seu Jorge", es: "Seu Jorge", de: "Seu Jorge", nl: "Seu Jorge" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Vinícius de Oliveira, a non-professional child actor, starred in Walter Salles' 'Central Station' (1998) alongside Fernanda Montenegro, who received the Golden Globe nomination.",
+          es: "Vinícius de Oliveira, un actor infantil no profesional, protagonizó 'Central Station' (1998) de Walter Salles junto a Fernanda Montenegro, quien recibió la nominación al Globo de Oro.",
+          de: "Vinícius de Oliveira, ein nicht-professioneller Kinderschauspieler, spielte in Walter Salles' 'Central Station' (1998) neben Fernanda Montenegro, die die Golden Globe-Nominierung erhielt.",
+          nl: "Vinícius de Oliveira, een niet-professionele kinderacteur, speelde in Walter Salles' 'Central Station' (1998) naast Fernanda Montenegro, die de Golden Globe nominatie ontving."
+        }
+      },
+      {
+        question: {
+          en: "Which Swedish actress won the Guldbagge Award for her work with Roy Andersson in 'A Pigeon Sat on a Branch Reflecting on Existence'?",
+          es: "¿Qué actriz sueca ganó el Premio Guldbagge por su trabajo con Roy Andersson en 'A Pigeon Sat on a Branch Reflecting on Existence'?",
+          de: "Welche schwedische Schauspielerin gewann den Guldbagge Award für ihre Arbeit mit Roy Andersson in 'Eine Taube sitzt auf einem Zweig und denkt über das Leben nach'?",
+          nl: "Welke Zweedse actrice won de Guldbagge Award voor haar werk met Roy Andersson in 'A Pigeon Sat on a Branch Reflecting on Existence'?"
+        },
+        options: [
+          { en: "Lotti Törnros", es: "Lotti Törnros", de: "Lotti Törnros", nl: "Lotti Törnros" },
+          { en: "Noomi Rapace", es: "Noomi Rapace", de: "Noomi Rapace", nl: "Noomi Rapace" },
+          { en: "Alicia Vikander", es: "Alicia Vikander", de: "Alicia Vikander", nl: "Alicia Vikander" },
+          { en: "Sofia Helin", es: "Sofia Helin", de: "Sofia Helin", nl: "Sofia Helin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Lotti Törnros appeared in Roy Andersson's 'A Pigeon Sat on a Branch Reflecting on Existence' (2014), which won the Golden Lion at Venice Film Festival for its darkly comic vignettes.",
+          es: "Lotti Törnros apareció en 'A Pigeon Sat on a Branch Reflecting on Existence' (2014) de Roy Andersson, que ganó el León de Oro en el Festival de Cine de Venecia por sus viñetas de comedia oscura.",
+          de: "Lotti Törnros trat in Roy Anderssons 'Eine Taube sitzt auf einem Zweig und denkt über das Leben nach' (2014) auf, das den Goldenen Löwen beim Filmfestival Venedig für seine dunkel-komischen Vignetten gewann.",
+          nl: "Lotti Törnros verscheen in Roy Andersson's 'A Pigeon Sat on a Branch Reflecting on Existence' (2014), die de Gouden Leeuw won op het Venice Film Festival voor zijn donker komische vignetten."
+        }
+      },
+      {
+        question: {
+          en: "Which Colombian actress won the Cannes Film Festival Award for Best Actress for 'The Wind Journeys'?",
+          es: "¿Qué actriz colombiana ganó el Premio del Festival de Cine de Cannes a la Mejor Actriz por 'The Wind Journeys'?",
+          de: "Welche kolumbianische Schauspielerin gewann den Preis des Filmfestivals Cannes für die beste Schauspielerin für 'The Wind Journeys'?",
+          nl: "Welke Colombiaanse actrice won de Cannes Film Festival Award voor Beste Actrice voor 'The Wind Journeys'?"
+        },
+        options: [
+          { en: "Yull Núñez", es: "Yull Núñez", de: "Yull Núñez", nl: "Yull Núñez" },
+          { en: "Catalina Sandino Moreno", es: "Catalina Sandino Moreno", de: "Catalina Sandino Moreno", nl: "Catalina Sandino Moreno" },
+          { en: "Paola Rey", es: "Paola Rey", de: "Paola Rey", nl: "Paola Rey" },
+          { en: "Natalia Reyes", es: "Natalia Reyes", de: "Natalia Reyes", nl: "Natalia Reyes" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Yull Núñez appeared in Ciro Guerra's 'The Wind Journeys' (2009), a Colombian film that explores indigenous music traditions through a road trip narrative.",
+          es: "Yull Núñez apareció en 'The Wind Journeys' (2009) de Ciro Guerra, una película colombiana que explora las tradiciones musicales indígenas a través de una narrativa de viaje por carretera.",
+          de: "Yull Núñez trat in Ciro Guerras 'The Wind Journeys' (2009) auf, einem kolumbianischen Film, der indigene Musiktraditionen durch eine Road-Trip-Erzählung erkundet.",
+          nl: "Yull Núñez verscheen in Ciro Guerra's 'The Wind Journeys' (2009), een Colombiaanse film die inheemse muziektraditie verkent via een roadtrip verhaal."
+        }
+      },
+      {
+        question: {
+          en: "Which Israeli actress starred in Ari Folman's 'Waltz with Bashir' as the voice of the interviewer?",
+          es: "¿Qué actriz israelí protagonizó 'Waltz with Bashir' de Ari Folman como la voz de la entrevistadora?",
+          de: "Welche israelische Schauspielerin spielte in Ari Folmans 'Waltz with Bashir' als Stimme der Interviewerin?",
+          nl: "Welke Israëlische actrice speelde in Ari Folman's 'Waltz with Bashir' als de stem van de interviewer?"
+        },
+        options: [
+          { en: "Yehezkel Lazarov", es: "Yehezkel Lazarov", de: "Yehezkel Lazarov", nl: "Yehezkel Lazarov" },
+          { en: "Ronny Dayag", es: "Ronny Dayag", de: "Ronny Dayag", nl: "Ronny Dayag" },
+          { en: "Ori Sivan", es: "Ori Sivan", de: "Ori Sivan", nl: "Ori Sivan" },
+          { en: "Ari Folman", es: "Ari Folman", de: "Ari Folman", nl: "Ari Folman" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "Ari Folman, the director, voiced himself as the protagonist in 'Waltz with Bashir' (2008), an animated documentary about the Lebanon War that earned an Oscar nomination.",
+          es: "Ari Folman, el director, dio voz a sí mismo como protagonista en 'Waltz with Bashir' (2008), un documental animado sobre la Guerra del Líbano que ganó una nominación al Oscar.",
+          de: "Ari Folman, der Regisseur, sprach sich selbst als Protagonist in 'Waltz with Bashir' (2008), einem animierten Dokumentarfilm über den Libanonkrieg, der eine Oscar-Nominierung erhielt.",
+          nl: "Ari Folman, de regisseur, sprak zichzelf als protagonist in 'Waltz with Bashir' (2008), een geanimeerde documentaire over de Libanon Oorlog die een Oscar nominatie kreeg."
+        }
+      },
+      {
+        question: {
+          en: "Which Norwegian actress starred in Joachim Trier's 'Oslo, August 31st' as the love interest?",
+          es: "¿Qué actriz noruega protagonizó 'Oslo, August 31st' de Joachim Trier como el interés amoroso?",
+          de: "Welche norwegische Schauspielerin spielte in Joachim Triers 'Oslo, 31. August' als Liebesinteresse?",
+          nl: "Welke Noorse actrice speelde in Joachim Trier's 'Oslo, August 31st' als de liefdesinteresse?"
+        },
+        options: [
+          { en: "Tone Beate Mostraum", es: "Tone Beate Mostraum", de: "Tone Beate Mostraum", nl: "Tone Beate Mostraum" },
+          { en: "Ingrid Olava", es: "Ingrid Olava", de: "Ingrid Olava", nl: "Ingrid Olava" },
+          { en: "Ellen Dorrit Petersen", es: "Ellen Dorrit Petersen", de: "Ellen Dorrit Petersen", nl: "Ellen Dorrit Petersen" },
+          { en: "Viktoria Winge", es: "Viktoria Winge", de: "Viktoria Winge", nl: "Viktoria Winge" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tone Beate Mostraum appeared in Joachim Trier's 'Oslo, August 31st' (2011), a meditation on addiction and mortality that follows a recovering addict on a day leave from rehab.",
+          es: "Tone Beate Mostraum apareció en 'Oslo, August 31st' (2011) de Joachim Trier, una meditación sobre la adicción y la mortalidad que sigue a un adicto en recuperación en un día de permiso de rehabilitación.",
+          de: "Tone Beate Mostraum trat in Joachim Triers 'Oslo, 31. August' (2011) auf, einer Meditation über Sucht und Sterblichkeit, die einen genesenden Süchtigen an einem Urlaubstag aus der Reha begleitet.",
+          nl: "Tone Beate Mostraum verscheen in Joachim Trier's 'Oslo, August 31st' (2011), een meditatie over verslaving en sterfelijkheid die een herstellende verslaafde volgt op een dagverlof uit de afkickkliniek."
+        }
+      },
+      {
+        question: {
+          en: "Which Kazakh actress starred in Sergey Dvortsevoy's 'Tulpan', a film about nomadic sheep herders?",
+          es: "¿Qué actriz kazaja protagonizó 'Tulpan' de Sergey Dvortsevoy, una película sobre pastores nómadas de ovejas?",
+          de: "Welche kasachische Schauspielerin spielte in Sergey Dvortsevoys 'Tulpan', einem Film über nomadische Schafhirten?",
+          nl: "Welke Kazachse actrice speelde in Sergey Dvortsevoy's 'Tulpan', een film over nomadische schapenherders?"
+        },
+        options: [
+          { en: "Samal Yeslyamova", es: "Samal Yeslyamova", de: "Samal Yeslyamova", nl: "Samal Yeslyamova" },
+          { en: "Bereke Turganbayev", es: "Bereke Turganbayev", de: "Bereke Turganbayev", nl: "Bereke Turganbayev" },
+          { en: "Ondas Besikbasov", es: "Ondas Besikbasov", de: "Ondas Besikbasov", nl: "Ondas Besikbasov" },
+          { en: "Askhat Kuchinchirekov", es: "Askhat Kuchinchirekov", de: "Askhat Kuchinchirekov", nl: "Askhat Kuchinchirekov" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Samal Yeslyamova appeared in Sergey Dvortsevoy's 'Tulpan' (2008), which won the Un Certain Regard prize at Cannes for its naturalistic portrayal of life on the Kazakh steppe.",
+          es: "Samal Yeslyamova apareció en 'Tulpan' (2008) de Sergey Dvortsevoy, que ganó el premio Un Certain Regard en Cannes por su retrato naturalista de la vida en la estepa kazaja.",
+          de: "Samal Yeslyamova trat in Sergey Dvortsevoys 'Tulpan' (2008) auf, das den Preis Un Certain Regard in Cannes für seine naturalistische Darstellung des Lebens in der kasachischen Steppe gewann.",
+          nl: "Samal Yeslyamova verscheen in Sergey Dvortsevoy's 'Tulpan' (2008), die de Un Certain Regard prijs won in Cannes voor zijn naturalistische weergave van het leven op de Kazachse steppe."
+        }
+      },
+      {
+        question: {
+          en: "Which Mauritanian actor starred in Abderrahmane Sissako's 'Timbuktu' about Islamic extremism?",
+          es: "¿Qué actor mauritano protagonizó 'Timbuktu' de Abderrahmane Sissako sobre el extremismo islámico?",
+          de: "Welcher mauretanische Schauspieler spielte in Abderrahmane Sissakos 'Timbuktu' über islamischen Extremismus?",
+          nl: "Welke Mauritaanse acteur speelde in Abderrahmane Sissako's 'Timbuktu' over islamitisch extremisme?"
+        },
+        options: [
+          { en: "Ibrahim Ahmed dit Pino", es: "Ibrahim Ahmed dit Pino", de: "Ibrahim Ahmed dit Pino", nl: "Ibrahim Ahmed dit Pino" },
+          { en: "Abel Jafri", es: "Abel Jafri", de: "Abel Jafri", nl: "Abel Jafri" },
+          { en: "Toulou Kiki", es: "Toulou Kiki", de: "Toulou Kiki", nl: "Toulou Kiki" },
+          { en: "Layla Walet Mohamed", es: "Layla Walet Mohamed", de: "Layla Walet Mohamed", nl: "Layla Walet Mohamed" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ibrahim Ahmed dit Pino starred in Abderrahmane Sissako's 'Timbuktu' (2014), which was nominated for the Academy Award for Best Foreign Language Film for its portrayal of jihadist occupation.",
+          es: "Ibrahim Ahmed dit Pino protagonizó 'Timbuktu' (2014) de Abderrahmane Sissako, que fue nominada al Premio de la Academia a la Mejor Película Extranjera por su retrato de la ocupación yihadista.",
+          de: "Ibrahim Ahmed dit Pino spielte in Abderrahmane Sissakos 'Timbuktu' (2014), das für den Academy Award für den besten fremdsprachigen Film für seine Darstellung der dschihadistischen Besatzung nominiert wurde.",
+          nl: "Ibrahim Ahmed dit Pino speelde in Abderrahmane Sissako's 'Timbuktu' (2014), die werd genomineerd voor de Academy Award voor Beste Buitenlandse Film voor zijn portret van jihadistische bezetting."
+        }
+      },
+      {
+        question: {
+          en: "Which Georgian actress won the Silver Bear at Berlin for her role in 'In Bloom'?",
+          es: "¿Qué actriz georgiana ganó el Oso de Plata en Berlín por su papel en 'In Bloom'?",
+          de: "Welche georgische Schauspielerin gewann den Silbernen Bären in Berlin für ihre Rolle in 'In Bloom'?",
+          nl: "Welke Georgische actrice won de Zilveren Beer in Berlijn voor haar rol in 'In Bloom'?"
+        },
+        options: [
+          { en: "Lika Babluani", es: "Lika Babluani", de: "Lika Babluani", nl: "Lika Babluani" },
+          { en: "Mariam Bokeria", es: "Mariam Bokeria", de: "Mariam Bokeria", nl: "Mariam Bokeria" },
+          { en: "Ia Sukhitashvili", es: "Ia Sukhitashvili", de: "Ia Sukhitashvili", nl: "Ia Sukhitashvili" },
+          { en: "Ketevan Giorgadze", es: "Ketevan Giorgadze", de: "Ketevan Giorgadze", nl: "Ketevan Giorgadze" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Lika Babluani starred in Nana Ekvtimishvili's 'In Bloom' (2013), which won the FIPRESCI Prize at Berlin for its coming-of-age story set during the Georgian Civil War.",
+          es: "Lika Babluani protagonizó 'In Bloom' (2013) de Nana Ekvtimishvili, que ganó el Premio FIPRESCI en Berlín por su historia de iniciación ambientada durante la Guerra Civil Georgiana.",
+          de: "Lika Babluani spielte in Nana Ekvtimishvilis 'In Bloom' (2013), das den FIPRESCI-Preis in Berlin für seine Coming-of-Age-Geschichte während des georgischen Bürgerkriegs gewann.",
+          nl: "Lika Babluani speelde in Nana Ekvtimishvili's 'In Bloom' (2013), die de FIPRESCI Prize won in Berlijn voor zijn coming-of-age verhaal tijdens de Georgische Burgeroorlog."
+        }
+      },
+      {
+        question: {
+          en: "Which Czech actor starred in Jan Hrebejk's 'Divided We Fall', nominated for the Foreign Language Oscar?",
+          es: "¿Qué actor checo protagonizó 'Divided We Fall' de Jan Hrebejk, nominada al Oscar a la Mejor Película Extranjera?",
+          de: "Welcher tschechische Schauspieler spielte in Jan Hrebejks 'Geteilt fallen wir', nominiert für den Oscar für fremdsprachige Filme?",
+          nl: "Welke Tsjechische acteur speelde in Jan Hrebejk's 'Divided We Fall', genomineerd voor de Foreign Language Oscar?"
+        },
+        options: [
+          { en: "Bolek Polívka", es: "Bolek Polívka", de: "Bolek Polívka", nl: "Bolek Polívka" },
+          { en: "Ivan Trojan", es: "Ivan Trojan", de: "Ivan Trojan", nl: "Ivan Trojan" },
+          { en: "Jiri Langmajer", es: "Jiri Langmajer", de: "Jiri Langmajer", nl: "Jiri Langmajer" },
+          { en: "Karel Roden", es: "Karel Roden", de: "Karel Roden", nl: "Karel Roden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bolek Polívka starred in Jan Hrebejk's 'Divided We Fall' (2000), a dark comedy about a Czech couple hiding a Jewish refugee during WWII, nominated for the Academy Award.",
+          es: "Bolek Polívka protagonizó 'Divided We Fall' (2000) de Jan Hrebejk, una comedia negra sobre una pareja checa que esconde a un refugiado judío durante la Segunda Guerra Mundial, nominada al Premio de la Academia.",
+          de: "Bolek Polívka spielte in Jan Hrebejks 'Geteilt fallen wir' (2000), einer schwarzen Komödie über ein tschechisches Paar, das während des Zweiten Weltkriegs einen jüdischen Flüchtling versteckt, nominiert für den Academy Award.",
+          nl: "Bolek Polívka speelde in Jan Hrebejk's 'Divided We Fall' (2000), een donkere komedie over een Tsjechisch koppel dat een Joodse vluchteling verbergt tijdens WOII, genomineerd voor de Academy Award."
+        }
+      },
+      {
+        question: {
+          en: "Which Cambodian actress starred in Rithy Panh's 'The Missing Picture' about the Khmer Rouge?",
+          es: "¿Qué actriz camboyana protagonizó 'The Missing Picture' de Rithy Panh sobre los Jemeres Rojos?",
+          de: "Welche kambodschanische Schauspielerin spielte in Rithy Panhs 'Das fehlende Bild' über die Roten Khmer?",
+          nl: "Welke Cambodjaanse actrice speelde in Rithy Panh's 'The Missing Picture' over de Rode Khmer?"
+        },
+        options: [
+          { en: "Randal Douc", es: "Randal Douc", de: "Randal Douc", nl: "Randal Douc" },
+          { en: "Jean-Baptiste Phou", es: "Jean-Baptiste Phou", de: "Jean-Baptiste Phou", nl: "Jean-Baptiste Phou" },
+          { en: "Rithy Panh", es: "Rithy Panh", de: "Rithy Panh", nl: "Rithy Panh" },
+          { en: "Sokha Uk", es: "Sokha Uk", de: "Sokha Uk", nl: "Sokha Uk" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Rithy Panh's 'The Missing Picture' (2013) uses clay figurines rather than actors to tell the story, earning an Oscar nomination for Best Foreign Language Film.",
+          es: "La 'The Missing Picture' (2013) de Rithy Panh usa figurillas de arcilla en lugar de actores para contar la historia, ganando una nominación al Oscar a la Mejor Película Extranjera.",
+          de: "Rithy Panhs 'Das fehlende Bild' (2013) verwendet Tonfiguren anstelle von Schauspielern, um die Geschichte zu erzählen, und erhielt eine Oscar-Nominierung für den besten fremdsprachigen Film.",
+          nl: "Rithy Panh's 'The Missing Picture' (2013) gebruikt kleifiguurtjes in plaats van acteurs om het verhaal te vertellen, en kreeg een Oscar nominatie voor Beste Buitenlandse Film."
+        }
+      },
+      {
+        question: {
+          en: "Which Icelandic actor starred in Dagur Kári's 'Nói Albínói' about a teenager in a remote village?",
+          es: "¿Qué actor islandés protagonizó 'Nói Albínói' de Dagur Kári sobre un adolescente en un pueblo remoto?",
+          de: "Welcher isländische Schauspieler spielte in Dagur Kárís 'Nói Albínói' über einen Teenager in einem abgelegenen Dorf?",
+          nl: "Welke IJslandse acteur speelde in Dagur Kári's 'Nói Albínói' over een tiener in een afgelegen dorp?"
+        },
+        options: [
+          { en: "Tómas Lemarquis", es: "Tómas Lemarquis", de: "Tómas Lemarquis", nl: "Tómas Lemarquis" },
+          { en: "Baltasar Kormákur", es: "Baltasar Kormákur", de: "Baltasar Kormákur", nl: "Baltasar Kormákur" },
+          { en: "Ingvar E. Sigurðsson", es: "Ingvar E. Sigurðsson", de: "Ingvar E. Sigurðsson", nl: "Ingvar E. Sigurðsson" },
+          { en: "Ólafur Darri Ólafsson", es: "Ólafur Darri Ólafsson", de: "Ólafur Darri Ólafsson", nl: "Ólafur Darri Ólafsson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tómas Lemarquis starred in Dagur Kári's 'Nói Albínói' (2003), playing an albino teenager dreaming of escape from his isolated Icelandic village, earning critical acclaim.",
+          es: "Tómas Lemarquis protagonizó 'Nói Albínói' (2003) de Dagur Kári, interpretando a un adolescente albino que sueña con escapar de su aislado pueblo islandés, ganando aclamación crítica.",
+          de: "Tómas Lemarquis spielte in Dagur Kárís 'Nói Albínói' (2003) einen Albino-Teenager, der davon träumt, aus seinem isolierten isländischen Dorf zu entkommen, und erntete kritisches Lob.",
+          nl: "Tómas Lemarquis speelde in Dagur Kári's 'Nói Albínói' (2003), een albino tiener die droomt van ontsnapping uit zijn geïsoleerde IJslandse dorp, en kreeg kritische waardering."
+        }
+      },
+      {
+        question: {
+          en: "Which Peruvian actress starred in Claudia Llosa's 'The Milk of Sorrow' that won the Golden Bear?",
+          es: "¿Qué actriz peruana protagonizó 'The Milk of Sorrow' de Claudia Llosa que ganó el Oso de Oro?",
+          de: "Welche peruanische Schauspielerin spielte in Claudia Llosas 'Die Milch der Trauer', das den Goldenen Bären gewann?",
+          nl: "Welke Peruaanse actrice speelde in Claudia Llosa's 'The Milk of Sorrow' die de Gouden Beer won?"
+        },
+        options: [
+          { en: "Magaly Solier", es: "Magaly Solier", de: "Magaly Solier", nl: "Magaly Solier" },
+          { en: "Susi Sánchez", es: "Susi Sánchez", de: "Susi Sánchez", nl: "Susi Sánchez" },
+          { en: "Efraín Solís", es: "Efraín Solís", de: "Efraín Solís", nl: "Efraín Solís" },
+          { en: "Marino Ballón", es: "Marino Ballón", de: "Marino Ballón", nl: "Marino Ballón" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Magaly Solier starred in Claudia Llosa's 'The Milk of Sorrow' (2009), which won the Golden Bear at Berlin, exploring trauma inherited from Peru's internal conflict.",
+          es: "Magaly Solier protagonizó 'The Milk of Sorrow' (2009) de Claudia Llosa, que ganó el Oso de Oro en Berlín, explorando el trauma heredado del conflicto interno del Perú.",
+          de: "Magaly Solier spielte in Claudia Llosas 'Die Milch der Trauer' (2009), das den Goldenen Bären in Berlin gewann und das aus Perus internem Konflikt ererbte Trauma erforscht.",
+          nl: "Magaly Solier speelde in Claudia Llosa's 'The Milk of Sorrow' (2009), die de Gouden Beer won in Berlijn, en trauma verkent dat geërfd werd van Peru's interne conflict."
+        }
+      },
+      {
+        question: {
+          en: "Which Greek actor starred in Yorgos Lanthimos' 'Dogtooth' and became known for his deadpan performances?",
+          es: "¿Qué actor griego protagonizó 'Dogtooth' de Yorgos Lanthimos y se hizo conocido por sus actuaciones inexpresivas?",
+          de: "Welcher griechische Schauspieler spielte in Yorgos Lanthimos' 'Dogtooth' und wurde für seine ausdruckslosen Auftritte bekannt?",
+          nl: "Welke Griekse acteur speelde in Yorgos Lanthimos' 'Dogtooth' en werd bekend om zijn droge optredens?"
+        },
+        options: [
+          { en: "Christos Stergioglou", es: "Christos Stergioglou", de: "Christos Stergioglou", nl: "Christos Stergioglou" },
+          { en: "Vangelis Mourikis", es: "Vangelis Mourikis", de: "Vangelis Mourikis", nl: "Vangelis Mourikis" },
+          { en: "Efthymis Papadimitriou", es: "Efthymis Papadimitriou", de: "Efthymis Papadimitriou", nl: "Efthymis Papadimitriou" },
+          { en: "Makis Papadimitriou", es: "Makis Papadimitriou", de: "Makis Papadimitriou", nl: "Makis Papadimitriou" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Christos Stergioglou played the controlling father in 'Dogtooth' (2009), establishing the unsettling tone that characterizes Yorgos Lanthimos' early Greek Weird Wave films.",
+          es: "Christos Stergioglou interpretó al padre controlador en 'Dogtooth' (2009), estableciendo el tono inquietante que caracteriza las primeras películas de la Ola Griega Rara de Yorgos Lanthimos.",
+          de: "Christos Stergioglou spielte den kontrollierenden Vater in 'Dogtooth' (2009) und etablierte den verstörenden Ton, der Yorgos Lanthimos' frühe Greek Weird Wave Filme charakterisiert.",
+          nl: "Christos Stergioglou speelde de controlerende vader in 'Dogtooth' (2009), en vestigde de verontrustende toon die Yorgos Lanthimos' vroege Greek Weird Wave films kenmerkt."
+        }
+      },
+      {
+        question: {
+          en: "Which Polish actress starred in Paweł Pawlikowski's 'Ida' and won international acclaim?",
+          es: "¿Qué actriz polaca protagonizó 'Ida' de Paweł Pawlikowski y ganó aclamación internacional?",
+          de: "Welche polnische Schauspielerin spielte in Paweł Pawlikowskis 'Ida' und erhielt internationale Anerkennung?",
+          nl: "Welke Poolse actrice speelde in Paweł Pawlikowski's 'Ida' en won internationale erkenning?"
+        },
+        options: [
+          { en: "Agata Trzebuchowska", es: "Agata Trzebuchowska", de: "Agata Trzebuchowska", nl: "Agata Trzebuchowska" },
+          { en: "Agata Kulesza", es: "Agata Kulesza", de: "Agata Kulesza", nl: "Agata Kulesza" },
+          { en: "Joanna Kulig", es: "Joanna Kulig", de: "Joanna Kulig", nl: "Joanna Kulig" },
+          { en: "Maja Ostaszewska", es: "Maja Ostaszewska", de: "Maja Ostaszewska", nl: "Maja Ostaszewska" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Agata Trzebuchowska, a non-professional actress, starred as the titular character in 'Ida' (2013), which won the Academy Award for Best Foreign Language Film.",
+          es: "Agata Trzebuchowska, una actriz no profesional, protagonizó el personaje titular en 'Ida' (2013), que ganó el Premio de la Academia a la Mejor Película en Lengua Extranjera.",
+          de: "Agata Trzebuchowska, eine nicht-professionelle Schauspielerin, spielte die Titelrolle in 'Ida' (2013), das den Academy Award für den besten fremdsprachigen Film gewann.",
+          nl: "Agata Trzebuchowska, een niet-professionele actrice, speelde het titelpersonage in 'Ida' (2013), die de Academy Award voor Beste Buitenlandse Film won."
+        }
+      },
+      {
+        question: {
+          en: "Which Chilean actor starred in Pablo Larraín's 'No' about the 1988 Chilean referendum?",
+          es: "¿Qué actor chileno protagonizó 'No' de Pablo Larraín sobre el referéndum chileno de 1988?",
+          de: "Welcher chilenische Schauspieler spielte in Pablo Larraíns 'No' über das chilenische Referendum von 1988?",
+          nl: "Welke Chileense acteur speelde in Pablo Larraín's 'No' over het Chileense referendum van 1988?"
+        },
+        options: [
+          { en: "Gael García Bernal", es: "Gael García Bernal", de: "Gael García Bernal", nl: "Gael García Bernal" },
+          { en: "Alfredo Castro", es: "Alfredo Castro", de: "Alfredo Castro", nl: "Alfredo Castro" },
+          { en: "Luis Gnecco", es: "Luis Gnecco", de: "Luis Gnecco", nl: "Luis Gnecco" },
+          { en: "Roberto Farías", es: "Roberto Farías", de: "Roberto Farías", nl: "Roberto Farías" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gael García Bernal starred in 'No' (2012) as an advertising executive who helps create the campaign to vote 'No' against Pinochet's continued rule in Chile.",
+          es: "Gael García Bernal protagonizó 'No' (2012) como un ejecutivo publicitario que ayuda a crear la campaña para votar 'No' contra el gobierno continuado de Pinochet en Chile.",
+          de: "Gael García Bernal spielte in 'No' (2012) einen Werbefachmann, der hilft, die Kampagne für ein 'Nein' gegen Pinochets fortgesetzte Herrschaft in Chile zu erstellen.",
+          nl: "Gael García Bernal speelde in 'No' (2012) als een reclame executive die helpt de campagne te creëren om 'Nee' te stemmen tegen Pinochet's voortgezette heerschappij in Chili."
+        }
+      },
+      {
+        question: {
+          en: "Which Russian actress starred in Andrey Zvyagintsev's 'Elena' and won the Un Certain Regard prize at Cannes?",
+          es: "¿Qué actriz rusa protagonizó 'Elena' de Andrey Zvyagintsev y ganó el premio Un Certain Regard en Cannes?",
+          de: "Welche russische Schauspielerin spielte in Andrey Zvyagintsevs 'Elena' und gewann den Un Certain Regard Preis in Cannes?",
+          nl: "Welke Russische actrice speelde in Andrey Zvyagintsev's 'Elena' en won de Un Certain Regard prijs in Cannes?"
+        },
+        options: [
+          { en: "Nadezhda Markina", es: "Nadezhda Markina", de: "Nadezhda Markina", nl: "Nadezhda Markina" },
+          { en: "Elena Lyadova", es: "Elena Lyadova", de: "Elena Lyadova", nl: "Elena Lyadova" },
+          { en: "Aleksey Rozin", es: "Aleksey Rozin", de: "Aleksey Rozin", nl: "Aleksey Rozin" },
+          { en: "Maryana Spivak", es: "Maryana Spivak", de: "Maryana Spivak", nl: "Maryana Spivak" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Nadezhda Markina starred as the title character in Andrey Zvyagintsev's 'Elena' (2011), which won the Special Jury Prize in the Un Certain Regard section at Cannes.",
+          es: "Nadezhda Markina protagonizó el personaje titular en 'Elena' (2011) de Andrey Zvyagintsev, que ganó el Premio Especial del Jurado en la sección Un Certain Regard en Cannes.",
+          de: "Nadezhda Markina spielte die Titelrolle in Andrey Zvyagintsevs 'Elena' (2011), das den Sonderpreis der Jury in der Sektion Un Certain Regard in Cannes gewann.",
+          nl: "Nadezhda Markina speelde het titelpersonage in Andrey Zvyagintsev's 'Elena' (2011), die de Speciale Juryprijs won in de Un Certain Regard sectie in Cannes."
+        }
+      },
+      {
+        question: {
+          en: "Which South Korean actor starred in Hong Sang-soo's 'Right Now, Wrong Then' and won Best Actor at Locarno?",
+          es: "¿Qué actor surcoreano protagonizó 'Right Now, Wrong Then' de Hong Sang-soo y ganó Mejor Actor en Locarno?",
+          de: "Welcher südkoreanische Schauspieler spielte in Hong Sang-soos 'Right Now, Wrong Then' und gewann den Preis für den besten Schauspieler in Locarno?",
+          nl: "Welke Zuid-Koreaanse acteur speelde in Hong Sang-soo's 'Right Now, Wrong Then' en won Beste Acteur in Locarno?"
+        },
+        options: [
+          { en: "Jung Jae-young", es: "Jung Jae-young", de: "Jung Jae-young", nl: "Jung Jae-young" },
+          { en: "Kim Sang-kyung", es: "Kim Sang-kyung", de: "Kim Sang-kyung", nl: "Kim Sang-kyung" },
+          { en: "Yu Jun-sang", es: "Yu Jun-sang", de: "Yu Jun-sang", nl: "Yu Jun-sang" },
+          { en: "Song Kang-ho", es: "Song Kang-ho", de: "Song Kang-ho", nl: "Song Kang-ho" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jung Jae-young won Best Actor at Locarno Film Festival for his role in Hong Sang-soo's 'Right Now, Wrong Then' (2015), showcasing the director's signature style.",
+          es: "Jung Jae-young ganó Mejor Actor en el Festival de Cine de Locarno por su papel en 'Right Now, Wrong Then' (2015) de Hong Sang-soo, mostrando el estilo característico del director.",
+          de: "Jung Jae-young gewann den Preis für den besten Schauspieler beim Filmfestival Locarno für seine Rolle in Hong Sang-soos 'Right Now, Wrong Then' (2015), der den charakteristischen Stil des Regisseurs zeigt.",
+          nl: "Jung Jae-young won Beste Acteur op het Locarno Film Festival voor zijn rol in Hong Sang-soo's 'Right Now, Wrong Then' (2015), waarbij de kenmerkende stijl van de regisseur werd getoond."
+        }
+      },
+      {
+        question: {
+          en: "Which Mexican actress starred in Amat Escalante's 'Heli' which won Best Director at Cannes?",
+          es: "¿Qué actriz mexicana protagonizó 'Heli' de Amat Escalante que ganó Mejor Director en Cannes?",
+          de: "Welche mexikanische Schauspielerin spielte in Amat Escalantes 'Heli', das den Preis für die beste Regie in Cannes gewann?",
+          nl: "Welke Mexicaanse actrice speelde in Amat Escalante's 'Heli' die Beste Regie won in Cannes?"
+        },
+        options: [
+          { en: "Andrea Vergara", es: "Andrea Vergara", de: "Andrea Vergara", nl: "Andrea Vergara" },
+          { en: "Linda González", es: "Linda González", de: "Linda González", nl: "Linda González" },
+          { en: "Armando Espitia", es: "Armando Espitia", de: "Armando Espitia", nl: "Armando Espitia" },
+          { en: "Juan Eduardo Palacios", es: "Juan Eduardo Palacios", de: "Juan Eduardo Palacios", nl: "Juan Eduardo Palacios" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Andrea Vergara played the sister in Amat Escalante's 'Heli' (2013), which won the Best Director award at Cannes for its unflinching look at violence in Mexico.",
+          es: "Andrea Vergara interpretó a la hermana en 'Heli' (2013) de Amat Escalante, que ganó el premio al Mejor Director en Cannes por su mirada inquebrantable a la violencia en México.",
+          de: "Andrea Vergara spielte die Schwester in Amat Escalantes 'Heli' (2013), das den Preis für die beste Regie in Cannes für seinen kompromisslosen Blick auf die Gewalt in Mexiko gewann.",
+          nl: "Andrea Vergara speelde de zus in Amat Escalante's 'Heli' (2013), die de Beste Regie prijs won in Cannes voor zijn onverzettelijke blik op geweld in Mexico."
+        }
+      },
+      {
+        question: {
+          en: "Which Argentinian actor starred in Lisandro Alonso's 'Jauja' alongside Viggo Mortensen?",
+          es: "¿Qué actor argentino protagonizó 'Jauja' de Lisandro Alonso junto a Viggo Mortensen?",
+          de: "Welcher argentinische Schauspieler spielte in Lisandro Alonsos 'Jauja' neben Viggo Mortensen?",
+          nl: "Welke Argentijnse acteur speelde in Lisandro Alonso's 'Jauja' naast Viggo Mortensen?"
+        },
+        options: [
+          { en: "Viilbjørk Malling Agger", es: "Viilbjørk Malling Agger", de: "Viilbjørk Malling Agger", nl: "Viilbjørk Malling Agger" },
+          { en: "Ghita Nørby", es: "Ghita Nørby", de: "Ghita Nørby", nl: "Ghita Nørby" },
+          { en: "Esteban Bigliardi", es: "Esteban Bigliardi", de: "Esteban Bigliardi", nl: "Esteban Bigliardi" },
+          { en: "Diego Roman", es: "Diego Roman", de: "Diego Roman", nl: "Diego Roman" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Viilbjørk Malling Agger played Viggo Mortensen's daughter in 'Jauja' (2014), Lisandro Alonso's mystical western set in 19th century Patagonia.",
+          es: "Viilbjørk Malling Agger interpretó a la hija de Viggo Mortensen en 'Jauja' (2014), el western místico de Lisandro Alonso ambientado en la Patagonia del siglo XIX.",
+          de: "Viilbjørk Malling Agger spielte Viggo Mortensens Tochter in 'Jauja' (2014), Lisandro Alonsos mystischem Western im Patagonien des 19. Jahrhunderts.",
+          nl: "Viilbjørk Malling Agger speelde Viggo Mortensen's dochter in 'Jauja' (2014), Lisandro Alonso's mystieke western in 19e eeuws Patagonië."
+        }
       }
     ]
   };

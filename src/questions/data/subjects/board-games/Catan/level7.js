@@ -847,69 +847,6 @@
           de: "Wenn man einen großen Ziegelvorrat hält (6+ Karten), schafft das Platzieren des Räubers auf dem produktivsten Ziegelhex künstliche Knappheit: Gegner brauchen dringend Ziegel können aber nicht produzieren, wodurch Ihr Ziegel extrem wertvoll in Geschäften wird. Man kann dann 1:2- oder sogar 1:3-Handelsverhältnisse extrahieren ('Ich gebe 1 Ziegel für 3 Weizen') weil Gegner keine Alternativen haben. Diese Knappheits-Manipulation verstärkt Ihren Ressourcenvorteil über bloße Räuberblockierung hinaus.",
           nl: "Wanneer je een grote baksteen voorraad hebt (6+ kaarten), creëert het plaatsen van de rover op de meest productieve baksteen hex kunstmatige schaarste: tegenstanders hebben dringend baksteen nodig maar kunnen het niet produceren, waardoor jouw baksteen extreem waardevol wordt in handel. Je kunt dan 1:2 of zelfs 1:3 handelsratio's extraheren ('Ik geef 1 baksteen voor 3 tarwe') omdat tegenstanders geen alternatieven hebben. Deze schaarste manipulatie vergroot je bron voordeel verder dan louter rover blokkering."
         }
-      },
-      {
-        question: {
-          en: "What is the 'settlement spacing offensive' in territorial control?",
-          es: "¿Qué es la 'ofensiva de espaciado de asentamientos' en control territorial?",
-          de: "Was ist die 'Siedlungs-Abstands-Offensive' in territorialer Kontrolle?",
-          nl: "Wat is de 'nederzetting afstand offensief' in territoriale controle?"
-        },
-        options: [
-          { en: "Build settlements 3-4 spaces apart (not minimum 2) to claim more territory and block opponents", es: "Construir asentamientos con 3-4 espacios de separación (no mínimo 2) para reclamar más territorio y bloquear oponentes", de: "Siedlungen 3-4 Felder auseinander bauen (nicht Minimum 2) um mehr Territorium zu beanspruchen und Gegner zu blockieren", nl: "Bouw nederzettingen 3-4 vakjes uit elkaar (niet minimum 2) om meer territorium te claimen en tegenstanders te blokkeren" },
-          { en: "Always cluster settlements together", es: "Siempre agrupar asentamientos juntos", de: "Siedlungen immer zusammen gruppieren", nl: "Cluster altijd nederzettingen samen" },
-          { en: "Settlement spacing is irrelevant", es: "El espaciado de asentamientos es irrelevante", de: "Siedlungs-Abstand ist irrelevant", nl: "Nederzetting afstand is irrelevant" },
-          { en: "Only build settlements adjacent to existing ones", es: "Solo construir asentamientos adyacentes a los existentes", de: "Nur Siedlungen benachbart zu bestehenden bauen", nl: "Bouw alleen nederzettingen aangrenzend aan bestaande" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Strategic settlement spacing: the 2-space rule prevents adjacent enemy settlements, but building your own settlements 3-4 spaces apart creates 'dead zones' where opponents cannot build without being sandwiched between your positions. Example: placing settlements at intersections A and E (4 spaces) blocks intersections B, C, D for opponents while you could still build at C yourself. This territorial control limits opponent expansion paths.",
-          es: "Espaciado estratégico de asentamientos: la regla de 2 espacios previene asentamientos enemigos adyacentes, pero construir tus propios asentamientos con 3-4 espacios de separación crea 'zonas muertas' donde los oponentes no pueden construir sin estar intercalados entre tus posiciones. Ejemplo: colocar asentamientos en intersecciones A y E (4 espacios) bloquea intersecciones B, C, D para oponentes mientras tú aún podrías construir en C. Este control territorial limita rutas de expansión de oponentes.",
-          de: "Strategischer Siedlungs-Abstand: Die 2-Felder-Regel verhindert benachbarte feindliche Siedlungen, aber der Bau eigener Siedlungen 3-4 Felder auseinander schafft 'tote Zonen', wo Gegner nicht bauen können ohne zwischen Ihren Positionen eingeklemmt zu werden. Beispiel: Platzierung von Siedlungen an Schnittpunkten A und E (4 Felder) blockiert Schnittpunkte B, C, D für Gegner während Sie selbst noch bei C bauen könnten. Diese territoriale Kontrolle begrenzt Gegner-Expansionspfade.",
-          nl: "Strategische nederzetting afstand: de 2-vakjes regel voorkomt aangrenzende vijandelijke nederzettingen, maar het bouwen van je eigen nederzettingen 3-4 vakjes uit elkaar creëert 'dode zones' waar tegenstanders niet kunnen bouwen zonder tussen jouw posities gekneld te zitten. Voorbeeld: nederzettingen plaatsen op kruispunten A en E (4 vakjes) blokkeert kruispunten B, C, D voor tegenstanders terwijl je zelf nog steeds op C zou kunnen bouwen. Deze territoriale controle beperkt tegenstander expansiepaden."
-        }
-      },
-      {
-        question: {
-          en: "What is the 'development card deck probability tracking' technique?",
-          es: "¿Qué es la técnica de 'seguimiento de probabilidad del mazo de cartas de desarrollo'?",
-          de: "Was ist die 'Entwicklungskarten-Deck-Wahrscheinlichkeits-Verfolgungs'-Technik?",
-          nl: "Wat is de 'ontwikkelingskaart deck waarschijnlijkheid volg' techniek?"
-        },
-        options: [
-          { en: "Track visible cards played to calculate remaining deck composition and expected value", es: "Rastrear cartas visibles jugadas para calcular composición restante del mazo y valor esperado", de: "Sichtbare gespielte Karten verfolgen um verbleibende Deck-Zusammensetzung und Erwartungswert zu berechnen", nl: "Volg zichtbare gespeelde kaarten om resterende deck compositie en verwachte waarde te berekenen" },
-          { en: "Development deck composition is unknowable", es: "La composición del mazo de desarrollo es incognoscible", de: "Entwicklungsdeck-Zusammensetzung ist unerkennbar", nl: "Ontwikkelingskaart deck compositie is onkenbaar" },
-          { en: "Never track opponent development cards", es: "Nunca rastrear cartas de desarrollo de oponentes", de: "Gegner-Entwicklungskarten nie verfolgen", nl: "Volg nooit tegenstander ontwikkelingskaarten" },
-          { en: "All development cards have equal probability always", es: "Todas las cartas de desarrollo tienen igual probabilidad siempre", de: "Alle Entwicklungskarten haben immer gleiche Wahrscheinlichkeit", nl: "Alle ontwikkelingskaarten hebben altijd gelijke waarschijnlijkheid" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The 25-card development deck is fixed: 14 knights, 5 VPs, 2 Road Building, 2 Year of Plenty, 2 Monopoly. By tracking visible plays ('12 knights played, 3 VPs revealed'), you calculate remaining deck: 2 knights, 2 VPs, 2 RB, 2 YOP, 2 Monopoly. This shifts expected value: early in game, E(card)=0.56 VP equivalent; late game with knights depleted, E(card)=0.9 VP. This informs optimal buying timing and whether to risk another card purchase.",
-          es: "El mazo de 25 cartas de desarrollo es fijo: 14 caballeros, 5 PVs, 2 Construcción de Carreteras, 2 Año de la Abundancia, 2 Monopolio. Al rastrear jugadas visibles ('12 caballeros jugados, 3 PVs revelados'), calculas el mazo restante: 2 caballeros, 2 PVs, 2 CC, 2 AA, 2 Monopolio. Esto cambia el valor esperado: temprano en el juego, E(carta)=0.56 PV equivalente; tarde en el juego con caballeros agotados, E(carta)=0.9 PV. Esto informa el tiempo óptimo de compra y si arriesgar otra compra de carta.",
-          de: "Das 25-Karten-Entwicklungsdeck ist fix: 14 Ritter, 5 SPs, 2 Straßenbau, 2 Jahr des Überflusses, 2 Monopol. Durch Verfolgung sichtbarer Spiele ('12 Ritter gespielt, 3 SPs enthüllt') berechnet man verbleibendes Deck: 2 Ritter, 2 SPs, 2 SB, 2 JdÜ, 2 Monopol. Dies verschiebt Erwartungswert: früh im Spiel E(Karte)=0,56 SP-Äquivalent; spät im Spiel mit erschöpften Rittern E(Karte)=0,9 SP. Dies informiert optimales Kauf-Timing und ob weiterer Kartenkauf riskiert werden soll.",
-          nl: "Het 25-kaarten ontwikkelingsdeck is vast: 14 ridders, 5 OPs, 2 Wegbouw, 2 Jaar van Overvloed, 2 Monopolie. Door zichtbare spellen te volgen ('12 ridders gespeeld, 3 OPs onthuld'), bereken je resterende deck: 2 ridders, 2 OPs, 2 WB, 2 JvO, 2 Monopolie. Dit verschuift verwachte waarde: vroeg in spel E(kaart)=0,56 OP equivalent; laat in spel met ridders uitgeput E(kaart)=0,9 OP. Dit informeert optimale koop timing en of een andere kaartaankoop te riskeren."
-        }
-      },
-      {
-        question: {
-          en: "What is the 'late-game desperation trade' leverage in competitive Catan?",
-          es: "¿Qué es el apalancamiento de 'intercambio de desesperación de final de juego' en Catan competitivo?",
-          de: "Was ist der 'Endspiel-Verzweiflungs-Handels'-Hebel im Wettkampf-Catan?",
-          nl: "Wat is de 'laat-spel wanhoop handel' hefboom in competitief Catan?"
-        },
-        options: [
-          { en: "Player at 9 points will accept terrible ratios (3:1 or 4:1) for winning resource, exploit this", es: "Jugador a 9 puntos aceptará proporciones terribles (3:1 o 4:1) para recurso ganador, explotar esto", de: "Spieler bei 9 Punkten akzeptiert schreckliche Verhältnisse (3:1 oder 4:1) für siegende Ressource, dies ausnutzen", nl: "Speler bij 9 punten accepteert verschrikkelijke ratio's (3:1 of 4:1) voor winnende bron, exploiteer dit" },
-          { en: "Never offer unfavorable trades to anyone", es: "Nunca ofrecer intercambios desfavorables a nadie", de: "Nie ungünstige Geschäfte jemandem anbieten", nl: "Bied nooit ongunstige handel aan iemand" },
-          { en: "All trades should be exactly 1:1", es: "Todos los intercambios deben ser exactamente 1:1", de: "Alle Geschäfte sollten genau 1:1 sein", nl: "Alle handel moet precies 1:1 zijn" },
-          { en: "Trade ratios are irrelevant in endgame", es: "Las proporciones de intercambio son irrelevantes en el final del juego", de: "Handelsverhältnisse sind im Endspiel irrelevant", nl: "Handelsratio's zijn irrelevant in eindspel" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "When a player reaches 9 points and needs 1 specific resource to win (e.g., 1 ore for city), they'll accept almost any ratio (3:1, 4:1, even 5:1) because winning immediately is worth infinite resources. If you're at 6-7 points, offering that 'desperation trade' at exploitative ratios (take 3-4 resources, give 1) massively swings resource advantage your way while preventing immediate leader victory—they win in 1 turn, but you gain resources for your own 2-turn win.",
-          es: "Cuando un jugador alcanza 9 puntos y necesita 1 recurso específico para ganar (ej., 1 mineral para ciudad), aceptará casi cualquier proporción (3:1, 4:1, incluso 5:1) porque ganar inmediatamente vale recursos infinitos. Si estás a 6-7 puntos, ofrecer ese 'intercambio de desesperación' a proporciones explotadoras (tomar 3-4 recursos, dar 1) cambia masivamente la ventaja de recursos a tu favor mientras previene la victoria inmediata del líder—ellos ganan en 1 turno, pero tú ganas recursos para tu propia victoria en 2 turnos.",
-          de: "Wenn ein Spieler 9 Punkte erreicht und 1 spezifische Ressource zum Gewinnen braucht (z.B. 1 Erz für Stadt), akzeptiert er fast jedes Verhältnis (3:1, 4:1, sogar 5:1) weil sofortiges Gewinnen unendliche Ressourcen wert ist. Wenn Sie bei 6-7 Punkten sind, verschiebt das Anbieten dieses 'Verzweiflungs-Handels' zu ausbeuterischen Verhältnissen (3-4 Ressourcen nehmen, 1 geben) massiv Ressourcenvorteil zu Ihren Gunsten während unmittelbarer Führenden-Sieg verhindert wird—sie gewinnen in 1 Zug, aber Sie gewinnen Ressourcen für Ihren eigenen 2-Zug-Sieg.",
-          nl: "Wanneer een speler 9 punten bereikt en 1 specifieke bron nodig heeft om te winnen (bijv. 1 erts voor stad), accepteren ze bijna elke ratio (3:1, 4:1, zelfs 5:1) omdat direct winnen oneindige bronnen waard is. Als je op 6-7 punten staat, verschuift het aanbieden van die 'wanhoop handel' op uitbuitende ratio's (neem 3-4 bronnen, geef 1) massaal bron voordeel jouw kant op terwijl directe leider overwinning voorkomt—zij winnen in 1 beurt, maar jij krijgt bronnen voor je eigen 2-beurt winst."
-        }
       }
     ]
   };

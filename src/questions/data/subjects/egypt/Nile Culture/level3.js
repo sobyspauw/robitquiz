@@ -426,7 +426,427 @@
           es: "La Gran Pirámide contiene aproximadamente 2.3 millones de bloques de piedra caliza. Cada bloque pesa un promedio de 2.5 toneladas, algunos pesan hasta 80 toneladas. El peso total se estima en 6 millones de toneladas.",
           de: "Die Große Pyramide enthält etwa 2,3 Millionen Kalksteinblöcke. Jeder Block wiegt durchschnittlich 2,5 Tonnen, einige wiegen bis zu 80 Tonnen. Das Gesamtgewicht wird auf 6 Millionen Tonnen geschätzt.",
           nl: "De Grote Piramide bevat ongeveer 2,3 miljoen kalkstenen blokken. Elk blok weegt gemiddeld 2,5 ton, sommige wegen tot 80 ton. Het totale gewicht wordt geschat op 6 miljoen ton."
-        }
+        }    },
+    {
+      question: {
+        en: "What direction does the Nile flow?",
+        es: "What direction does the Nile flow?",
+        de: "What direction does the Nile flow?",
+        nl: "What direction does the Nile flow?"
+      },
+      options: [
+        { en: "South to north", es: "South to north", de: "South to north", nl: "South to north" },
+        { en: "North to south", es: "North to south", de: "North to south", nl: "North to south" },
+        { en: "East to west", es: "East to west", de: "East to west", nl: "East to west" },
+        { en: "West to east", es: "West to east", de: "West to east", nl: "West to east" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Nile River flows from south to north, from African interior to Mediterranean Sea.",
+        es: "The Nile River flows from south to north, from African interior to Mediterranean Sea.",
+        de: "The Nile River flows from south to north, from African interior to Mediterranean Sea.",
+        nl: "The Nile River flows from south to north, from African interior to Mediterranean Sea."
+      }
+    },
+    {
+      question: {
+        en: "What caused annual Nile flooding?",
+        es: "What caused annual Nile flooding?",
+        de: "What caused annual Nile flooding?",
+        nl: "What caused annual Nile flooding?"
+      },
+      options: [
+        { en: "Monsoon rains in Ethiopian highlands", es: "Monsoon rains in Ethiopian highlands", de: "Monsoon rains in Ethiopian highlands", nl: "Monsoon rains in Ethiopian highlands" },
+        { en: "Melting snow", es: "Melting snow", de: "Melting snow", nl: "Melting snow" },
+        { en: "Mediterranean tides", es: "Mediterranean tides", de: "Mediterranean tides", nl: "Mediterranean tides" },
+        { en: "Underground springs", es: "Underground springs", de: "Underground springs", nl: "Underground springs" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Annual monsoon rains in Ethiopian highlands caused the Nile's predictable flooding.",
+        es: "Annual monsoon rains in Ethiopian highlands caused the Nile's predictable flooding.",
+        de: "Annual monsoon rains in Ethiopian highlands caused the Nile's predictable flooding.",
+        nl: "Annual monsoon rains in Ethiopian highlands caused the Nile's predictable flooding."
+      }
+    },
+    {
+      question: {
+        en: "What did Nile flooding deposit?",
+        es: "What did Nile flooding deposit?",
+        de: "What did Nile flooding deposit?",
+        nl: "What did Nile flooding deposit?"
+      },
+      options: [
+        { en: "Nutrient-rich silt", es: "Nutrient-rich silt", de: "Nutrient-rich silt", nl: "Nutrient-rich silt" },
+        { en: "Sand", es: "Sand", de: "Sand", nl: "Sand" },
+        { en: "Rocks", es: "Rocks", de: "Rocks", nl: "Rocks" },
+        { en: "Salt", es: "Salt", de: "Salt", nl: "Salt" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Nile flood deposited rich black silt that fertilized farmland.",
+        es: "The Nile flood deposited rich black silt that fertilized farmland.",
+        de: "The Nile flood deposited rich black silt that fertilized farmland.",
+        nl: "The Nile flood deposited rich black silt that fertilized farmland."
+      }
+    },
+    {
+      question: {
+        en: "What were the three Egyptian seasons?",
+        es: "What were the three Egyptian seasons?",
+        de: "What were the three Egyptian seasons?",
+        nl: "What were the three Egyptian seasons?"
+      },
+      options: [
+        { en: "Akhet (flood), Peret (growth), Shemu (harvest)", es: "Akhet (flood), Peret (growth), Shemu (harvest)", de: "Akhet (flood), Peret (growth), Shemu (harvest)", nl: "Akhet (flood), Peret (growth), Shemu (harvest)" },
+        { en: "Spring, summer, fall", es: "Spring, summer, fall", de: "Spring, summer, fall", nl: "Spring, summer, fall" },
+        { en: "Wet and dry", es: "Wet and dry", de: "Wet and dry", nl: "Wet and dry" },
+        { en: "Four equal seasons", es: "Four equal seasons", de: "Four equal seasons", nl: "Four equal seasons" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Egypt had three seasons: Akhet (inundation), Peret (growth), and Shemu (harvest).",
+        es: "Egypt had three seasons: Akhet (inundation), Peret (growth), and Shemu (harvest).",
+        de: "Egypt had three seasons: Akhet (inundation), Peret (growth), and Shemu (harvest).",
+        nl: "Egypt had three seasons: Akhet (inundation), Peret (growth), and Shemu (harvest)."
+      }
+    },
+    {
+      question: {
+        en: "What is the Nile Delta?",
+        es: "What is the Nile Delta?",
+        de: "What is the Nile Delta?",
+        nl: "What is the Nile Delta?"
+      },
+      options: [
+        { en: "Fan-shaped area where Nile meets Mediterranean", es: "Fan-shaped area where Nile meets Mediterranean", de: "Fan-shaped area where Nile meets Mediterranean", nl: "Fan-shaped area where Nile meets Mediterranean" },
+        { en: "Nile source", es: "Nile source", de: "Nile source", nl: "Nile source" },
+        { en: "Nile canyon", es: "Nile canyon", de: "Nile canyon", nl: "Nile canyon" },
+        { en: "Nile tributary", es: "Nile tributary", de: "Nile tributary", nl: "Nile tributary" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Nile Delta is the fertile fan-shaped region where the river meets the Mediterranean.",
+        es: "The Nile Delta is the fertile fan-shaped region where the river meets the Mediterranean.",
+        de: "The Nile Delta is the fertile fan-shaped region where the river meets the Mediterranean.",
+        nl: "The Nile Delta is the fertile fan-shaped region where the river meets the Mediterranean."
+      }
+    },
+    {
+      question: {
+        en: "What plant from the Nile was used for writing?",
+        es: "What plant from the Nile was used for writing?",
+        de: "What plant from the Nile was used for writing?",
+        nl: "What plant from the Nile was used for writing?"
+      },
+      options: [
+        { en: "Papyrus", es: "Papyrus", de: "Papyrus", nl: "Papyrus" },
+        { en: "Palm", es: "Palm", de: "Palm", nl: "Palm" },
+        { en: "Lotus", es: "Lotus", de: "Lotus", nl: "Lotus" },
+        { en: "Reed grass", es: "Reed grass", de: "Reed grass", nl: "Reed grass" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Papyrus, growing along the Nile, was processed into writing material.",
+        es: "Papyrus, growing along the Nile, was processed into writing material.",
+        de: "Papyrus, growing along the Nile, was processed into writing material.",
+        nl: "Papyrus, growing along the Nile, was processed into writing material."
+      }
+    },
+    {
+      question: {
+        en: "What were Nile boats made from?",
+        es: "What were Nile boats made from?",
+        de: "What were Nile boats made from?",
+        nl: "What were Nile boats made from?"
+      },
+      options: [
+        { en: "Papyrus reeds or wood", es: "Papyrus reeds or wood", de: "Papyrus reeds or wood", nl: "Papyrus reeds or wood" },
+        { en: "Stone", es: "Stone", de: "Stone", nl: "Stone" },
+        { en: "Metal", es: "Metal", de: "Metal", nl: "Metal" },
+        { en: "Clay", es: "Clay", de: "Clay", nl: "Clay" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Ancient Egyptian boats were made from bundled papyrus reeds or imported wood.",
+        es: "Ancient Egyptian boats were made from bundled papyrus reeds or imported wood.",
+        de: "Ancient Egyptian boats were made from bundled papyrus reeds or imported wood.",
+        nl: "Ancient Egyptian boats were made from bundled papyrus reeds or imported wood."
+      }
+    },
+    {
+      question: {
+        en: "What god was associated with the Nile flood?",
+        es: "What god was associated with the Nile flood?",
+        de: "What god was associated with the Nile flood?",
+        nl: "What god was associated with the Nile flood?"
+      },
+      options: [
+        { en: "Hapi", es: "Hapi", de: "Hapi", nl: "Hapi" },
+        { en: "Osiris", es: "Osiris", de: "Osiris", nl: "Osiris" },
+        { en: "Ra", es: "Ra", de: "Ra", nl: "Ra" },
+        { en: "Sobek", es: "Sobek", de: "Sobek", nl: "Sobek" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Hapi was the god of the annual Nile inundation.",
+        es: "Hapi was the god of the annual Nile inundation.",
+        de: "Hapi was the god of the annual Nile inundation.",
+        nl: "Hapi was the god of the annual Nile inundation."
+      }
+    },
+    {
+      question: {
+        en: "What is the gift of the Nile?",
+        es: "What is the gift of the Nile?",
+        de: "What is the gift of the Nile?",
+        nl: "What is the gift of the Nile?"
+      },
+      options: [
+        { en: "Egypt's fertility and civilization", es: "Egypt's fertility and civilization", de: "Egypt's fertility and civilization", nl: "Egypt's fertility and civilization" },
+        { en: "Gold deposits", es: "Gold deposits", de: "Gold deposits", nl: "Gold deposits" },
+        { en: "Fresh water only", es: "Fresh water only", de: "Fresh water only", nl: "Fresh water only" },
+        { en: "Transportation", es: "Transportation", de: "Transportation", nl: "Transportation" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Greek historian Herodotus called Egypt 'the gift of the Nile' due to the river's role in civilization.",
+        es: "The Greek historian Herodotus called Egypt 'the gift of the Nile' due to the river's role in civilization.",
+        de: "The Greek historian Herodotus called Egypt 'the gift of the Nile' due to the river's role in civilization.",
+        nl: "The Greek historian Herodotus called Egypt 'the gift of the Nile' due to the river's role in civilization."
+      }
+    },
+    {
+      question: {
+        en: "What irrigation method did Egyptians use?",
+        es: "What irrigation method did Egyptians use?",
+        de: "What irrigation method did Egyptians use?",
+        nl: "What irrigation method did Egyptians use?"
+      },
+      options: [
+        { en: "Basin irrigation and shaduf", es: "Basin irrigation and shaduf", de: "Basin irrigation and shaduf", nl: "Basin irrigation and shaduf" },
+        { en: "Sprinklers", es: "Sprinklers", de: "Sprinklers", nl: "Sprinklers" },
+        { en: "Underground pipes", es: "Underground pipes", de: "Underground pipes", nl: "Underground pipes" },
+        { en: "Rain collection", es: "Rain collection", de: "Rain collection", nl: "Rain collection" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Egyptians used basin irrigation to trap flood water and shadufs to lift water.",
+        es: "Egyptians used basin irrigation to trap flood water and shadufs to lift water.",
+        de: "Egyptians used basin irrigation to trap flood water and shadufs to lift water.",
+        nl: "Egyptians used basin irrigation to trap flood water and shadufs to lift water."
+      }
+    },
+    {
+      question: {
+        en: "What is a shaduf?",
+        es: "What is a shaduf?",
+        de: "What is a shaduf?",
+        nl: "What is a shaduf?"
+      },
+      options: [
+        { en: "Lever device for lifting water", es: "Lever device for lifting water", de: "Lever device for lifting water", nl: "Lever device for lifting water" },
+        { en: "Boat type", es: "Boat type", de: "Boat type", nl: "Boat type" },
+        { en: "Irrigation channel", es: "Irrigation channel", de: "Irrigation channel", nl: "Irrigation channel" },
+        { en: "Water storage", es: "Water storage", de: "Water storage", nl: "Water storage" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A shaduf is a hand-operated lever device with bucket for lifting water from river to field.",
+        es: "A shaduf is a hand-operated lever device with bucket for lifting water from river to field.",
+        de: "A shaduf is a hand-operated lever device with bucket for lifting water from river to field.",
+        nl: "A shaduf is a hand-operated lever device with bucket for lifting water from river to field."
+      }
+    },
+    {
+      question: {
+        en: "What crops grew along the Nile?",
+        es: "What crops grew along the Nile?",
+        de: "What crops grew along the Nile?",
+        nl: "What crops grew along the Nile?"
+      },
+      options: [
+        { en: "Wheat, barley, flax, vegetables", es: "Wheat, barley, flax, vegetables", de: "Wheat, barley, flax, vegetables", nl: "Wheat, barley, flax, vegetables" },
+        { en: "Rice and corn", es: "Rice and corn", de: "Rice and corn", nl: "Rice and corn" },
+        { en: "Potatoes", es: "Potatoes", de: "Potatoes", nl: "Potatoes" },
+        { en: "Grapes only", es: "Grapes only", de: "Grapes only", nl: "Grapes only" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Major crops included wheat (bread), barley (beer), flax (linen), and vegetables.",
+        es: "Major crops included wheat (bread), barley (beer), flax (linen), and vegetables.",
+        de: "Major crops included wheat (bread), barley (beer), flax (linen), and vegetables.",
+        nl: "Major crops included wheat (bread), barley (beer), flax (linen), and vegetables."
+      }
+    },
+    {
+      question: {
+        en: "What dangerous animal lived in the Nile?",
+        es: "What dangerous animal lived in the Nile?",
+        de: "What dangerous animal lived in the Nile?",
+        nl: "What dangerous animal lived in the Nile?"
+      },
+      options: [
+        { en: "Crocodiles and hippos", es: "Crocodiles and hippos", de: "Crocodiles and hippos", nl: "Crocodiles and hippos" },
+        { en: "Sharks", es: "Sharks", de: "Sharks", nl: "Sharks" },
+        { en: "Alligators", es: "Alligators", de: "Alligators", nl: "Alligators" },
+        { en: "Snakes only", es: "Snakes only", de: "Snakes only", nl: "Snakes only" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Nile crocodiles and hippopotamuses were dangerous animals in the river.",
+        es: "Nile crocodiles and hippopotamuses were dangerous animals in the river.",
+        de: "Nile crocodiles and hippopotamuses were dangerous animals in the river.",
+        nl: "Nile crocodiles and hippopotamuses were dangerous animals in the river."
+      }
+    },
+    {
+      question: {
+        en: "What material came from Nile reeds?",
+        es: "What material came from Nile reeds?",
+        de: "What material came from Nile reeds?",
+        nl: "What material came from Nile reeds?"
+      },
+      options: [
+        { en: "Baskets, mats, sandals, boats", es: "Baskets, mats, sandals, boats", de: "Baskets, mats, sandals, boats", nl: "Baskets, mats, sandals, boats" },
+        { en: "Clothing only", es: "Clothing only", de: "Clothing only", nl: "Clothing only" },
+        { en: "Tools", es: "Tools", de: "Tools", nl: "Tools" },
+        { en: "Weapons", es: "Weapons", de: "Weapons", nl: "Weapons" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Nile reeds were woven into baskets, mats, sandals, and bundled into boats.",
+        es: "Nile reeds were woven into baskets, mats, sandals, and bundled into boats.",
+        de: "Nile reeds were woven into baskets, mats, sandals, and bundled into boats.",
+        nl: "Nile reeds were woven into baskets, mats, sandals, and bundled into boats."
+      }
+    },
+    {
+      question: {
+        en: "Where does the Nile begin?",
+        es: "Where does the Nile begin?",
+        de: "Where does the Nile begin?",
+        nl: "Where does the Nile begin?"
+      },
+      options: [
+        { en: "Lake Victoria and Ethiopian highlands", es: "Lake Victoria and Ethiopian highlands", de: "Lake Victoria and Ethiopian highlands", nl: "Lake Victoria and Ethiopian highlands" },
+        { en: "Mediterranean Sea", es: "Mediterranean Sea", de: "Mediterranean Sea", nl: "Mediterranean Sea" },
+        { en: "Red Sea", es: "Red Sea", de: "Red Sea", nl: "Red Sea" },
+        { en: "Sahara Desert", es: "Sahara Desert", de: "Sahara Desert", nl: "Sahara Desert" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The White Nile begins at Lake Victoria; the Blue Nile in Ethiopian highlands.",
+        es: "The White Nile begins at Lake Victoria; the Blue Nile in Ethiopian highlands.",
+        de: "The White Nile begins at Lake Victoria; the Blue Nile in Ethiopian highlands.",
+        nl: "The White Nile begins at Lake Victoria; the Blue Nile in Ethiopian highlands."
+      }
+    },
+    {
+      question: {
+        en: "What is the longest river in the world?",
+        es: "What is the longest river in the world?",
+        de: "What is the longest river in the world?",
+        nl: "What is the longest river in the world?"
+      },
+      options: [
+        { en: "Nile River", es: "Nile River", de: "Nile River", nl: "Nile River" },
+        { en: "Amazon River", es: "Amazon River", de: "Amazon River", nl: "Amazon River" },
+        { en: "Yangtze River", es: "Yangtze River", de: "Yangtze River", nl: "Yangtze River" },
+        { en: "Mississippi River", es: "Mississippi River", de: "Mississippi River", nl: "Mississippi River" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Nile is traditionally considered the world's longest river at about 4,135 miles.",
+        es: "The Nile is traditionally considered the world's longest river at about 4,135 miles.",
+        de: "The Nile is traditionally considered the world's longest river at about 4,135 miles.",
+        nl: "The Nile is traditionally considered the world's longest river at about 4,135 miles."
+      }
+    },
+    {
+      question: {
+        en: "What festival celebrated the Nile flood?",
+        es: "What festival celebrated the Nile flood?",
+        de: "What festival celebrated the Nile flood?",
+        nl: "What festival celebrated the Nile flood?"
+      },
+      options: [
+        { en: "Wepet Renpet (New Year)", es: "Wepet Renpet (New Year)", de: "Wepet Renpet (New Year)", nl: "Wepet Renpet (New Year)" },
+        { en: "Opet Festival", es: "Opet Festival", de: "Opet Festival", nl: "Opet Festival" },
+        { en: "Sed Festival", es: "Sed Festival", de: "Sed Festival", nl: "Sed Festival" },
+        { en: "Harvest Festival", es: "Harvest Festival", de: "Harvest Festival", nl: "Harvest Festival" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Wepet Renpet (Opening of the Year) coincided with the Nile flood's arrival.",
+        es: "Wepet Renpet (Opening of the Year) coincided with the Nile flood's arrival.",
+        de: "Wepet Renpet (Opening of the Year) coincided with the Nile flood's arrival.",
+        nl: "Wepet Renpet (Opening of the Year) coincided with the Nile flood's arrival."
+      }
+    },
+    {
+      question: {
+        en: "What fish was sacred in some Nile regions?",
+        es: "What fish was sacred in some Nile regions?",
+        de: "What fish was sacred in some Nile regions?",
+        nl: "What fish was sacred in some Nile regions?"
+      },
+      options: [
+        { en: "Oxyrhynchus fish", es: "Oxyrhynchus fish", de: "Oxyrhynchus fish", nl: "Oxyrhynchus fish" },
+        { en: "Catfish", es: "Catfish", de: "Catfish", nl: "Catfish" },
+        { en: "Salmon", es: "Salmon", de: "Salmon", nl: "Salmon" },
+        { en: "Trout", es: "Trout", de: "Trout", nl: "Trout" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Oxyrhynchus fish was sacred in some regions, associated with Osiris mythology.",
+        es: "The Oxyrhynchus fish was sacred in some regions, associated with Osiris mythology.",
+        de: "The Oxyrhynchus fish was sacred in some regions, associated with Osiris mythology.",
+        nl: "The Oxyrhynchus fish was sacred in some regions, associated with Osiris mythology."
+      }
+    },
+    {
+      question: {
+        en: "What measured Nile flood levels?",
+        es: "What measured Nile flood levels?",
+        de: "What measured Nile flood levels?",
+        nl: "What measured Nile flood levels?"
+      },
+      options: [
+        { en: "Nilometer", es: "Nilometer", de: "Nilometer", nl: "Nilometer" },
+        { en: "Flood gauge", es: "Flood gauge", de: "Flood gauge", nl: "Flood gauge" },
+        { en: "Water clock", es: "Water clock", de: "Water clock", nl: "Water clock" },
+        { en: "Pyramid markers", es: "Pyramid markers", de: "Pyramid markers", nl: "Pyramid markers" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Nilometers were structures with marked steps used to measure Nile flood levels.",
+        es: "Nilometers were structures with marked steps used to measure Nile flood levels.",
+        de: "Nilometers were structures with marked steps used to measure Nile flood levels.",
+        nl: "Nilometers were structures with marked steps used to measure Nile flood levels."
+      }
+    },
+    {
+      question: {
+        en: "What did Low Nile floods mean?",
+        es: "What did Low Nile floods mean?",
+        de: "What did Low Nile floods mean?",
+        nl: "What did Low Nile floods mean?"
+      },
+      options: [
+        { en: "Famine and hardship", es: "Famine and hardship", de: "Famine and hardship", nl: "Famine and hardship" },
+        { en: "Good harvest", es: "Good harvest", de: "Good harvest", nl: "Good harvest" },
+        { en: "War", es: "War", de: "War", nl: "War" },
+        { en: "Religious celebration", es: "Religious celebration", de: "Religious celebration", nl: "Religious celebration" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Insufficient flooding led to poor harvests and famine.",
+        es: "Insufficient flooding led to poor harvests and famine.",
+        de: "Insufficient flooding led to poor harvests and famine.",
+        nl: "Insufficient flooding led to poor harvests and famine."
+      }
+
       }
     ]
   };

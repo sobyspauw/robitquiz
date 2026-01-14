@@ -427,6 +427,426 @@
           de: "Die Chitarra (Gitarre) ist ein Holzrahmen, der mit parallelen Metalldrähten bespannt ist. Frischer Pastateig wird mit einem Nudelholz durch die Saiten gedrückt und in quadratische Spaghetti-Stränge geschnitten, die 'Spaghetti alla chitarra' genannt werden, traditionell in den Abruzzen.",
           nl: "De chitarra (gitaar) is een houten frame bespannen met parallelle metalen draden. Vers pastadeeg wordt met een deegroller door de snaren geduwd, waardoor het wordt gesneden in vierkante spaghetti-strengen genaamd 'spaghetti alla chitarra', traditioneel in Abruzzo."
         }
+      },
+      {
+        question: {
+          en: "What distinguishes Trenette from Linguine pasta?",
+          es: "¿Qué distingue Trenette de Linguine?",
+          de: "Was unterscheidet Trenette von Linguine-Pasta?",
+          nl: "Wat onderscheidt Trenette van Linguine pasta?"
+        },
+        options: [
+          { en: "Trenette is slightly thicker and oval, traditional with Ligurian pesto genovese", es: "Trenette es ligeramente más grueso y ovalado, tradicional con pesto genovés ligur", de: "Trenette ist etwas dicker und oval, traditionell mit ligurischem Pesto Genovese", nl: "Trenette is iets dikker en ovaal, traditioneel met Ligurische pesto genovese" },
+          { en: "They are identical pasta shapes", es: "Son formas de pasta idénticas", de: "Sie sind identische Pastaformen", nl: "Het zijn identieke pastavormen" },
+          { en: "Trenette is always colored green", es: "Trenette siempre es de color verde", de: "Trenette ist immer grün gefärbt", nl: "Trenette is altijd groen gekleurd" },
+          { en: "Trenette is hollow, linguine is solid", es: "Trenette es hueco, linguine es sólido", de: "Trenette ist hohl, Linguine ist fest", nl: "Trenette is hol, linguine is massief" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Trenette is a Ligurian pasta similar to linguine but slightly thicker with a more oval cross-section. It's the traditional pasta for pesto genovese, often served with green beans and potatoes.",
+          es: "Trenette es una pasta ligur similar a linguine pero ligeramente más gruesa con sección transversal más ovalada. Es la pasta tradicional para pesto genovés, a menudo servida con judías verdes y papas.",
+          de: "Trenette ist eine ligurische Pasta ähnlich wie Linguine, aber etwas dicker mit ovalerem Querschnitt. Es ist die traditionelle Pasta für Pesto Genovese, oft mit grünen Bohnen und Kartoffeln serviert.",
+          nl: "Trenette is een Ligurische pasta vergelijkbaar met linguine maar iets dikker met een meer ovale doorsnede. Het is de traditionele pasta voor pesto genovese, vaak geserveerd met sperziebonen en aardappelen."
+        }
+      },
+      {
+        question: {
+          en: "What are the three grain varieties traditionally used for Italian pasta flour?",
+          es: "¿Cuáles son las tres variedades de grano tradicionalmente usadas para harina de pasta italiana?",
+          de: "Welche drei Getreidesorten werden traditionell für italienisches Pastamehl verwendet?",
+          nl: "Wat zijn de drie graansoorten die traditioneel worden gebruikt voor Italiaans pastameel?"
+        },
+        options: [
+          { en: "Durum wheat (semolina), soft wheat (tipo 00), and farro (ancient grain)", es: "Trigo duro (sémola), trigo blando (tipo 00) y farro (grano antiguo)", de: "Hartweizen (Grieß), Weichweizen (Tipo 00) und Emmer (altes Getreide)", nl: "Durumtarwe (griesmeel), zachte tarwe (tipo 00) en farro (oud graan)" },
+          { en: "Rice, corn, and wheat only", es: "Solo arroz, maíz y trigo", de: "Nur Reis, Mais und Weizen", nl: "Alleen rijst, maïs en tarwe" },
+          { en: "Barley, rye, and oats exclusively", es: "Exclusivamente cebada, centeno y avena", de: "Ausschließlich Gerste, Roggen und Hafer", nl: "Uitsluitend gerst, rogge en haver" },
+          { en: "Only durum wheat is traditional", es: "Solo el trigo duro es tradicional", de: "Nur Hartweizen ist traditionell", nl: "Alleen durumtarwe is traditioneel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Traditional Italian pasta uses durum wheat semolina for dried pasta, soft wheat (tipo 00) for fresh egg pasta, and occasionally farro (emmer wheat), an ancient grain experiencing a revival in artisanal pasta.",
+          es: "La pasta italiana tradicional usa sémola de trigo duro para pasta seca, trigo blando (tipo 00) para pasta fresca de huevo, y ocasionalmente farro (trigo emmer), un grano antiguo experimentando un renacimiento en pasta artesanal.",
+          de: "Traditionelle italienische Pasta verwendet Hartweizengrieß für getrocknete Pasta, Weichweizen (Tipo 00) für frische Eiernudeln und gelegentlich Emmer, ein altes Getreide, das ein Comeback in handwerklicher Pasta erlebt.",
+          nl: "Traditionele Italiaanse pasta gebruikt durumtarwegriesmeel voor gedroogde pasta, zachte tarwe (tipo 00) voor verse eierpasta, en af en toe farro (emmer tarwe), een oud graan dat een opleving beleeft in ambachtelijke pasta."
+        }
+      },
+      {
+        question: {
+          en: "What is the significance of bronze dies in pasta production?",
+          es: "¿Cuál es la importancia de los moldes de bronce en la producción de pasta?",
+          de: "Was ist die Bedeutung von Bronzematrizen in der Pastaproduktion?",
+          nl: "Wat is de betekenis van bronzen matrijzen in pastaproductie?"
+        },
+        options: [
+          { en: "Bronze dies create rough, porous surface that holds sauce better than Teflon dies", es: "Los moldes de bronce crean superficie rugosa y porosa que retiene salsa mejor que moldes de teflón", de: "Bronzematrizen erzeugen raue, poröse Oberfläche, die Sauce besser hält als Teflonmatrizen", nl: "Bronzen matrijzen creëren ruw, poreus oppervlak dat saus beter vasthoudt dan teflon matrijzen" },
+          { en: "Bronze makes pasta cook faster", es: "El bronce hace que la pasta se cocine más rápido", de: "Bronze lässt Pasta schneller kochen", nl: "Brons laat pasta sneller koken" },
+          { en: "Bronze changes the flavor of pasta", es: "El bronce cambia el sabor de la pasta", de: "Bronze verändert den Geschmack von Pasta", nl: "Brons verandert de smaak van pasta" },
+          { en: "Bronze is only for decorative purposes", es: "El bronce es solo con fines decorativos", de: "Bronze ist nur zu dekorativen Zwecken", nl: "Brons is alleen voor decoratieve doeleinden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Traditional bronze dies (trafilata al bronzo) create a rough, textured surface on pasta that helps sauce cling better. Modern Teflon dies produce smoother, shinier pasta that sauce slides off more easily.",
+          es: "Los moldes tradicionales de bronce (trafilata al bronzo) crean una superficie rugosa y texturizada en la pasta que ayuda a que la salsa se adhiera mejor. Los moldes modernos de teflón producen pasta más lisa y brillante de la que la salsa se desliza más fácilmente.",
+          de: "Traditionelle Bronzematrizen (trafilata al bronzo) erzeugen eine raue, strukturierte Oberfläche auf Pasta, die hilft, dass Sauce besser haftet. Moderne Teflonmatrizen produzieren glattere, glänzendere Pasta, von der Sauce leichter abrutscht.",
+          nl: "Traditionele bronzen matrijzen (trafilata al bronzo) creëren een ruw, getextureerd oppervlak op pasta dat helpt saus beter te laten kleven. Moderne teflon matrijzen produceren gladdere, glanzende pasta waar saus gemakkelijker vanaf glijdt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'sfoglia' in Italian pasta-making terminology?",
+          es: "¿Qué es 'sfoglia' en la terminología de elaboración de pasta italiana?",
+          de: "Was ist 'Sfoglia' in der italienischen Pasta-Terminologie?",
+          nl: "Wat is 'sfoglia' in Italiaanse pasta-maak terminologie?"
+        },
+        options: [
+          { en: "The thin sheet of fresh pasta dough rolled by hand or machine before cutting", es: "La lámina delgada de masa de pasta fresca enrollada a mano o a máquina antes de cortar", de: "Das dünne Blatt frischen Pastateigs, von Hand oder Maschine gerollt vor dem Schneiden", nl: "Het dunne vel vers pastadeeg gerold met de hand of machine voordat het wordt gesneden" },
+          { en: "A type of stuffed pasta from Sicily", es: "Un tipo de pasta rellena de Sicilia", de: "Eine Art gefüllte Pasta aus Sizilien", nl: "Een soort gevulde pasta uit Sicilië" },
+          { en: "The wooden tool for cutting pasta", es: "La herramienta de madera para cortar pasta", de: "Das Holzwerkzeug zum Schneiden von Pasta", nl: "Het houten gereedschap voor het snijden van pasta" },
+          { en: "A sauce made with tomatoes and basil", es: "Una salsa hecha con tomates y albahaca", de: "Eine Sauce aus Tomaten und Basilikum", nl: "Een saus gemaakt met tomaten en basilicum" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sfoglia refers to the thin sheet of fresh pasta dough that's rolled out before cutting into shapes like tagliatelle, lasagne, or ravioli. Making perfect sfoglia requires skill and is central to fresh pasta tradition.",
+          es: "Sfoglia se refiere a la lámina delgada de masa de pasta fresca que se enrolla antes de cortar en formas como tagliatelle, lasaña o ravioli. Hacer sfoglia perfecta requiere habilidad y es central en la tradición de pasta fresca.",
+          de: "Sfoglia bezeichnet das dünne Blatt frischen Pastateigs, das ausgerollt wird, bevor es in Formen wie Tagliatelle, Lasagne oder Ravioli geschnitten wird. Perfekte Sfoglia zu machen erfordert Geschick und ist zentral in der frischen Pasta-Tradition.",
+          nl: "Sfoglia verwijst naar het dunne vel vers pastadeeg dat wordt uitgerold voordat het wordt gesneden in vormen zoals tagliatelle, lasagne of ravioli. Het maken van perfecte sfoglia vereist vaardigheid en is centraal in de verse pasta-traditie."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional ratio of egg to flour in fresh pasta dough?",
+          es: "¿Cuál es la proporción tradicional de huevo a harina en masa de pasta fresca?",
+          de: "Was ist das traditionelle Verhältnis von Ei zu Mehl in frischem Pastateig?",
+          nl: "Wat is de traditionele verhouding van ei tot bloem in vers pastadeeg?"
+        },
+        options: [
+          { en: "Approximately 1 egg (50-55g) per 100g flour, though regional variations exist", es: "Aproximadamente 1 huevo (50-55g) por 100g de harina, aunque existen variaciones regionales", de: "Ungefähr 1 Ei (50-55g) pro 100g Mehl, obwohl regionale Variationen existieren", nl: "Ongeveer 1 ei (50-55g) per 100g bloem, hoewel regionale variaties bestaan" },
+          { en: "5 eggs per kilogram of flour", es: "5 huevos por kilogramo de harina", de: "5 Eier pro Kilogramm Mehl", nl: "5 eieren per kilogram bloem" },
+          { en: "1 egg per 500g flour", es: "1 huevo por 500g de harina", de: "1 Ei pro 500g Mehl", nl: "1 ei per 500g bloem" },
+          { en: "No standard ratio exists", es: "No existe proporción estándar", de: "Es existiert kein Standardverhältnis", nl: "Er bestaat geen standaard verhouding" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The classic ratio is approximately 1 medium egg (50-55g) per 100g flour, yielding about one portion. This produces pasta with proper elasticity and texture, though Emilia-Romagna uses more eggs while southern Italy may use fewer or none.",
+          es: "La proporción clásica es aproximadamente 1 huevo mediano (50-55g) por 100g de harina, rindiendo aproximadamente una porción. Esto produce pasta con elasticidad y textura adecuadas, aunque Emilia-Romaña usa más huevos mientras que el sur de Italia puede usar menos o ninguno.",
+          de: "Das klassische Verhältnis ist ungefähr 1 mittleres Ei (50-55g) pro 100g Mehl, was etwa eine Portion ergibt. Dies produziert Pasta mit richtiger Elastizität und Textur, obwohl Emilia-Romagna mehr Eier verwendet, während Süditalien weniger oder keine verwenden kann.",
+          nl: "De klassieke verhouding is ongeveer 1 middelgroot ei (50-55g) per 100g bloem, wat ongeveer één portie oplevert. Dit produceert pasta met juiste elasticiteit en textuur, hoewel Emilia-Romagna meer eieren gebruikt terwijl Zuid-Italië minder of geen kan gebruiken."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of resting pasta dough before rolling?",
+          es: "¿Cuál es el propósito de reposar la masa de pasta antes de enrollar?",
+          de: "Was ist der Zweck, Pastateig vor dem Ausrollen ruhen zu lassen?",
+          nl: "Wat is het doel van het laten rusten van pastadeeg voor het uitrollen?"
+        },
+        options: [
+          { en: "Allows gluten to relax, making dough easier to roll and preventing shrinkage", es: "Permite que el gluten se relaje, haciendo la masa más fácil de enrollar y previniendo contracción", de: "Ermöglicht Gluten sich zu entspannen, macht Teig leichter zum Ausrollen und verhindert Schrumpfung", nl: "Laat gluten ontspannen, maakt deeg gemakkelijker uit te rollen en voorkomt krimpen" },
+          { en: "To increase cooking time", es: "Para aumentar el tiempo de cocción", de: "Um die Kochzeit zu erhöhen", nl: "Om kooktijd te verhogen" },
+          { en: "To change the color of dough", es: "Para cambiar el color de la masa", de: "Um die Farbe des Teigs zu ändern", nl: "Om de kleur van het deeg te veranderen" },
+          { en: "It's unnecessary and wastes time", es: "Es innecesario y desperdicia tiempo", de: "Es ist unnötig und Zeitverschwendung", nl: "Het is onnodig en tijdverspilling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Resting pasta dough for 30-60 minutes allows gluten strands to relax after kneading. This makes the dough more pliable, easier to roll thin, and prevents it from shrinking back when shaped.",
+          es: "Reposar la masa de pasta por 30-60 minutos permite que las hebras de gluten se relajen después de amasar. Esto hace la masa más flexible, más fácil de enrollar delgada, y previene que se contraiga al darle forma.",
+          de: "Das Ruhen von Pastateig für 30-60 Minuten ermöglicht Glutensträngen, sich nach dem Kneten zu entspannen. Dies macht den Teig geschmeidiger, leichter dünn auszurollen und verhindert, dass er beim Formen zurückschrumpft.",
+          nl: "Het laten rusten van pastadeeg voor 30-60 minuten laat glutendraden ontspannen na het kneden. Dit maakt het deeg buigzamer, gemakkelijker dun uit te rollen en voorkomt dat het terug krimpt wanneer het wordt gevormd."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes 'pasta corta' from 'pasta lunga' in Italian classification?",
+          es: "¿Qué distingue 'pasta corta' de 'pasta lunga' en la clasificación italiana?",
+          de: "Was unterscheidet 'Pasta corta' von 'Pasta lunga' in der italienischen Klassifizierung?",
+          nl: "Wat onderscheidt 'pasta corta' van 'pasta lunga' in Italiaanse classificatie?"
+        },
+        options: [
+          { en: "Length: corta are short shapes (penne, fusilli), lunga are long strands (spaghetti, linguine)", es: "Longitud: corta son formas cortas (penne, fusilli), lunga son hebras largas (espagueti, linguine)", de: "Länge: corta sind kurze Formen (Penne, Fusilli), lunga sind lange Stränge (Spaghetti, Linguine)", nl: "Lengte: corta zijn korte vormen (penne, fusilli), lunga zijn lange strengen (spaghetti, linguine)" },
+          { en: "Cooking time only", es: "Solo tiempo de cocción", de: "Nur Kochzeit", nl: "Alleen kooktijd" },
+          { en: "Thickness of the pasta", es: "Grosor de la pasta", de: "Dicke der Pasta", nl: "Dikte van de pasta" },
+          { en: "Regional origin in Italy", es: "Origen regional en Italia", de: "Regionale Herkunft in Italien", nl: "Regionale oorsprong in Italië" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Italian pasta is classified by length: pasta lunga (long pasta) includes spaghetti, linguine, and bucatini, while pasta corta (short pasta) includes penne, rigatoni, and fusilli. This affects sauce pairing and cooking methods.",
+          es: "La pasta italiana se clasifica por longitud: pasta lunga (pasta larga) incluye espagueti, linguine y bucatini, mientras que pasta corta (pasta corta) incluye penne, rigatoni y fusilli. Esto afecta el emparejamiento de salsas y métodos de cocción.",
+          de: "Italienische Pasta wird nach Länge klassifiziert: Pasta lunga (lange Pasta) umfasst Spaghetti, Linguine und Bucatini, während Pasta corta (kurze Pasta) Penne, Rigatoni und Fusilli umfasst. Dies beeinflusst Saucenpaarung und Kochmethoden.",
+          nl: "Italiaanse pasta wordt geclassificeerd op lengte: pasta lunga (lange pasta) omvat spaghetti, linguine en bucatini, terwijl pasta corta (korte pasta) penne, rigatoni en fusilli omvat. Dit beïnvloedt saus koppeling en kookmethoden."
+        }
+      },
+      {
+        question: {
+          en: "What is the Maillard reaction's role in baked pasta dishes?",
+          es: "¿Cuál es el papel de la reacción de Maillard en platos de pasta horneados?",
+          de: "Was ist die Rolle der Maillard-Reaktion in gebackenen Pastagerichten?",
+          nl: "Wat is de rol van de Maillard-reactie in gebakken pastagerechten?"
+        },
+        options: [
+          { en: "Creates golden-brown crust and complex flavors through protein-sugar interaction at high heat", es: "Crea corteza dorada y sabores complejos mediante interacción proteína-azúcar a alta temperatura", de: "Erzeugt goldbraune Kruste und komplexe Aromen durch Protein-Zucker-Interaktion bei hoher Hitze", nl: "Creëert goudbruine korst en complexe smaken door eiwit-suiker interactie bij hoge hitte" },
+          { en: "Makes pasta soft and mushy", es: "Hace que la pasta esté blanda y pastosa", de: "Macht Pasta weich und matschig", nl: "Maakt pasta zacht en papperig" },
+          { en: "Only affects color, not flavor", es: "Solo afecta el color, no el sabor", de: "Beeinflusst nur Farbe, nicht Geschmack", nl: "Beïnvloedt alleen kleur, niet smaak" },
+          { en: "Prevents pasta from cooking properly", es: "Previene que la pasta se cocine correctamente", de: "Verhindert, dass Pasta richtig kocht", nl: "Voorkomt dat pasta goed kookt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In baked pasta dishes like lasagna, the Maillard reaction between proteins and sugars at high oven temperatures creates the desirable golden-brown crust and develops complex, savory flavors that enhance the dish.",
+          es: "En platos de pasta horneados como lasaña, la reacción de Maillard entre proteínas y azúcares a altas temperaturas del horno crea la corteza dorada deseable y desarrolla sabores complejos y sabrosos que mejoran el plato.",
+          de: "In gebackenen Pastagerichten wie Lasagne erzeugt die Maillard-Reaktion zwischen Proteinen und Zuckern bei hohen Ofentemperaturen die wünschenswerte goldbraune Kruste und entwickelt komplexe, herzhafte Aromen, die das Gericht verbessern.",
+          nl: "In gebakken pastagerechten zoals lasagne creëert de Maillard-reactie tussen eiwitten en suikers bij hoge oventemperaturen de gewenste goudbruine korst en ontwikkelt complexe, hartige smaken die het gerecht verbeteren."
+        }
+      },
+      {
+        question: {
+          en: "What is the scientific reason pasta water becomes starchy during cooking?",
+          es: "¿Cuál es la razón científica por la que el agua de pasta se vuelve almidonada durante la cocción?",
+          de: "Was ist der wissenschaftliche Grund, warum Pastawasser beim Kochen stärkehaltig wird?",
+          nl: "Wat is de wetenschappelijke reden dat pastawater zetmeelrijk wordt tijdens het koken?"
+        },
+        options: [
+          { en: "Amylose and amylopectin leach from pasta surface into water during gelatinization", es: "Amilosa y amilopectina se filtran de la superficie de la pasta al agua durante gelatinización", de: "Amylose und Amylopektin lösen sich während der Verkleisterung von der Pastaoberfläche ins Wasser", nl: "Amylose en amylopectine lekken van pasta oppervlak in water tijdens gelering" },
+          { en: "Salt dissolves and creates starch", es: "La sal se disuelve y crea almidón", de: "Salz löst sich auf und erzeugt Stärke", nl: "Zout lost op en creëert zetmeel" },
+          { en: "The flour coating breaks off completely", es: "El recubrimiento de harina se desprende completamente", de: "Die Mehlbeschichtung bricht vollständig ab", nl: "De meellaag breekt volledig af" },
+          { en: "Water absorbs gluten proteins", es: "El agua absorbe proteínas de gluten", de: "Wasser absorbiert Glutenproteine", nl: "Water absorbeert gluteneiwitten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "As pasta cooks, heat causes starch granules on its surface to undergo gelatinization. Amylose and amylopectin molecules leach into the cooking water, creating the starchy liquid that's valuable for emulsifying sauces.",
+          es: "A medida que la pasta se cocina, el calor hace que los gránulos de almidón en su superficie experimenten gelatinización. Las moléculas de amilosa y amilopectina se filtran al agua de cocción, creando el líquido almidonado valioso para emulsionar salsas.",
+          de: "Beim Kochen von Pasta bewirkt Hitze, dass Stärkekörner auf ihrer Oberfläche eine Verkleisterung durchlaufen. Amylose- und Amylopektin-Moleküle lösen sich ins Kochwasser, wodurch die stärkehaltige Flüssigkeit entsteht, die wertvoll zum Emulgieren von Saucen ist.",
+          nl: "Tijdens het koken van pasta zorgt hitte ervoor dat zetmeelkorrels op het oppervlak gelering ondergaan. Amylose- en amylopectinemoleculen lekken in het kookwater, waardoor de zetmeelrijke vloeistof ontstaat die waardevol is voor het emulgeren van sauzen."
+        }
+      },
+      {
+        question: {
+          en: "What makes 'pasta all'uovo' superior for certain dishes over eggless pasta?",
+          es: "¿Qué hace que 'pasta all'uovo' sea superior para ciertos platos sobre pasta sin huevo?",
+          de: "Was macht 'Pasta all'uovo' für bestimmte Gerichte besser als Pasta ohne Ei?",
+          nl: "Wat maakt 'pasta all'uovo' superieur voor bepaalde gerechten boven pasta zonder ei?"
+        },
+        options: [
+          { en: "Eggs provide lecithin for emulsification, richer flavor, and better sauce absorption", es: "Los huevos proporcionan lecitina para emulsificación, sabor más rico y mejor absorción de salsa", de: "Eier liefern Lecithin zur Emulgierung, reicheren Geschmack und bessere Saucenaufnahme", nl: "Eieren bieden lecithine voor emulsificatie, rijkere smaak en betere sausabsorptie" },
+          { en: "It's only about color, not flavor or texture", es: "Solo se trata del color, no del sabor o textura", de: "Es geht nur um Farbe, nicht um Geschmack oder Textur", nl: "Het gaat alleen om kleur, niet om smaak of textuur" },
+          { en: "Eggless pasta is always superior", es: "La pasta sin huevo siempre es superior", de: "Pasta ohne Ei ist immer besser", nl: "Pasta zonder ei is altijd superieur" },
+          { en: "Eggs only make pasta cook faster", es: "Los huevos solo hacen que la pasta se cocine más rápido", de: "Eier lassen Pasta nur schneller kochen", nl: "Eieren laten pasta alleen sneller koken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Egg pasta contains lecithin (an emulsifier), proteins, and fats that create a richer flavor and more tender texture. It absorbs cream and butter sauces better, making it ideal for dishes like fettuccine Alfredo or tagliatelle al ragù.",
+          es: "La pasta de huevo contiene lecitina (un emulsionante), proteínas y grasas que crean un sabor más rico y textura más tierna. Absorbe mejor las salsas de crema y mantequilla, haciéndola ideal para platos como fettuccine Alfredo o tagliatelle al ragú.",
+          de: "Eiernudeln enthalten Lecithin (ein Emulgator), Proteine und Fette, die einen reicheren Geschmack und zartere Textur erzeugen. Sie absorbiert Sahne- und Buttersaucen besser und ist ideal für Gerichte wie Fettuccine Alfredo oder Tagliatelle al Ragù.",
+          nl: "Eierpasta bevat lecithine (een emulgator), eiwitten en vetten die een rijkere smaak en malse textuur creëren. Het absorbeert room- en botersauzen beter, waardoor het ideaal is voor gerechten zoals fettuccine Alfredo of tagliatelle al ragù."
+        }
+      },
+      {
+        question: {
+          en: "Why are certain pasta shapes better for specific sauces from a physics perspective?",
+          es: "¿Por qué ciertas formas de pasta son mejores para salsas específicas desde una perspectiva física?",
+          de: "Warum sind bestimmte Pastaformen aus physikalischer Sicht besser für bestimmte Saucen?",
+          nl: "Waarom zijn bepaalde pastavormen beter voor specifieke sauzen vanuit fysisch perspectief?"
+        },
+        options: [
+          { en: "Surface area, porosity, and cavity depth determine sauce adhesion and retention through capillary action", es: "Área superficial, porosidad y profundidad de cavidad determinan adhesión y retención de salsa mediante acción capilar", de: "Oberfläche, Porosität und Hohlraumtiefe bestimmen Saucenhaftung und -retention durch Kapillarwirkung", nl: "Oppervlakte, porositeit en holte diepte bepalen sausadhesie en -retentie door capillaire werking" },
+          { en: "It's purely aesthetic preference", es: "Es puramente preferencia estética", de: "Es ist rein ästhetische Präferenz", nl: "Het is puur esthetische voorkeur" },
+          { en: "All shapes work equally well with all sauces", es: "Todas las formas funcionan igual de bien con todas las salsas", de: "Alle Formen funktionieren gleich gut mit allen Saucen", nl: "Alle vormen werken even goed met alle sauzen" },
+          { en: "Only tradition matters, not physics", es: "Solo importa la tradición, no la física", de: "Nur Tradition zählt, nicht Physik", nl: "Alleen traditie telt, niet fysica" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pasta-sauce pairing is governed by physics: porous surfaces from bronze dies increase adhesion, ridges and cavities capture chunky sauces through capillary action, while smooth strands work with thin sauces due to lower surface tension and gravity effects.",
+          es: "El emparejamiento pasta-salsa se rige por la física: superficies porosas de moldes de bronce aumentan la adhesión, crestas y cavidades capturan salsas gruesas mediante acción capilar, mientras que hebras lisas funcionan con salsas finas debido a menor tensión superficial y efectos de gravedad.",
+          de: "Pasta-Sauce-Paarung wird durch Physik bestimmt: Poröse Oberflächen von Bronzematrizen erhöhen Adhäsion, Rillen und Hohlräume fangen stückige Saucen durch Kapillarwirkung, während glatte Stränge mit dünnen Saucen durch niedrigere Oberflächenspannung und Schwerkrafteffekte funktionieren.",
+          nl: "Pasta-saus koppeling wordt bepaald door fysica: poreuze oppervlakken van bronzen matrijzen verhogen adhesie, ribbels en holtes vangen dikke sauzen door capillaire werking, terwijl gladde strengen werken met dunne sauzen door lagere oppervlaktespanning en zwaartekracht effecten."
+        }
+      },
+      {
+        question: {
+          en: "What is the historical significance of 'vermicelli' in pasta evolution?",
+          es: "¿Cuál es la importancia histórica de 'vermicelli' en la evolución de la pasta?",
+          de: "Was ist die historische Bedeutung von 'Vermicelli' in der Pastaevolution?",
+          nl: "Wat is de historische betekenis van 'vermicelli' in pasta evolutie?"
+        },
+        options: [
+          { en: "One of the earliest documented pasta shapes from 13th century Italy, means 'little worms'", es: "Una de las primeras formas de pasta documentadas del siglo XIII en Italia, significa 'pequeños gusanos'", de: "Eine der frühesten dokumentierten Pastaformen aus dem Italien des 13. Jahrhunderts, bedeutet 'kleine Würmer'", nl: "Een van de vroegst gedocumenteerde pastavormen uit 13e-eeuws Italië, betekent 'kleine wormen'" },
+          { en: "It was invented in the 20th century", es: "Fue inventado en el siglo XX", de: "Es wurde im 20. Jahrhundert erfunden", nl: "Het werd uitgevonden in de 20e eeuw" },
+          { en: "It originated in China, not Italy", es: "Se originó en China, no en Italia", de: "Es entstand in China, nicht in Italien", nl: "Het ontstond in China, niet Italië" },
+          { en: "It's a modern fusion pasta", es: "Es una pasta de fusión moderna", de: "Es ist eine moderne Fusionspasta", nl: "Het is een moderne fusie pasta" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Vermicelli ('little worms') is documented in 13th-century Italian texts, making it one of the earliest recorded pasta shapes. Its thin strand form was ideal for quick drying and long storage, crucial before refrigeration.",
+          es: "Vermicelli ('pequeños gusanos') está documentado en textos italianos del siglo XIII, convirtiéndolo en una de las primeras formas de pasta registradas. Su forma de hebra delgada era ideal para secado rápido y almacenamiento largo, crucial antes de la refrigeración.",
+          de: "Vermicelli ('kleine Würmer') ist in italienischen Texten des 13. Jahrhunderts dokumentiert und damit eine der frühesten aufgezeichneten Pastaformen. Seine dünne Strangform war ideal für schnelles Trocknen und lange Lagerung, entscheidend vor der Kühlung.",
+          nl: "Vermicelli ('kleine wormen') is gedocumenteerd in 13e-eeuwse Italiaanse teksten, waardoor het een van de vroegst geregistreerde pastavormen is. Zijn dunne strengvorm was ideaal voor snel drogen en lange opslag, cruciaal voor koeling."
+        }
+      },
+      {
+        question: {
+          en: "What biochemical process determines pasta's glycemic index?",
+          es: "¿Qué proceso bioquímico determina el índice glucémico de la pasta?",
+          de: "Welcher biochemische Prozess bestimmt den glykämischen Index von Pasta?",
+          nl: "Welk biochemisch proces bepaalt de glycemische index van pasta?"
+        },
+        options: [
+          { en: "Rate of starch digestion into glucose; al dente pasta has lower GI due to tighter starch structure", es: "Tasa de digestión del almidón en glucosa; pasta al dente tiene IG más bajo debido a estructura de almidón más apretada", de: "Rate der Stärkeverdauung zu Glukose; al dente Pasta hat niedrigeren GI durch festere Stärkestruktur", nl: "Snelheid van zetmeelvertering tot glucose; al dente pasta heeft lagere GI door strakke zetmeelstructuur" },
+          { en: "Only the type of wheat affects GI", es: "Solo el tipo de trigo afecta el IG", de: "Nur die Weizenart beeinflusst den GI", nl: "Alleen het type tarwe beïnvloedt de GI" },
+          { en: "Cooking time has no effect on GI", es: "El tiempo de cocción no tiene efecto en el IG", de: "Kochzeit hat keinen Effekt auf den GI", nl: "Kooktijd heeft geen effect op de GI" },
+          { en: "Salt content determines glycemic response", es: "El contenido de sal determina la respuesta glucémica", de: "Salzgehalt bestimmt die glykämische Reaktion", nl: "Zoutgehalte bepaalt glycemische respons" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pasta's glycemic index depends on how quickly amylase enzymes can break down starch into glucose. Al dente pasta has a more compact starch structure that resists enzymatic digestion, resulting in slower glucose release and lower GI than overcooked pasta.",
+          es: "El índice glucémico de la pasta depende de qué tan rápido las enzimas amilasa pueden descomponer el almidón en glucosa. La pasta al dente tiene una estructura de almidón más compacta que resiste la digestión enzimática, resultando en liberación más lenta de glucosa e IG más bajo que pasta demasiado cocida.",
+          de: "Der glykämische Index von Pasta hängt davon ab, wie schnell Amylase-Enzyme Stärke zu Glukose abbauen können. Al dente Pasta hat eine kompaktere Stärkestruktur, die enzymatischer Verdauung widersteht, was zu langsamerer Glukosefreisetzung und niedrigerem GI als überkochte Pasta führt.",
+          nl: "De glycemische index van pasta hangt af van hoe snel amylase-enzymen zetmeel kunnen afbreken tot glucose. Al dente pasta heeft een compactere zetmeelstructuur die enzymatische vertering weerstaat, resulterend in langzamere glucoseafgifte en lagere GI dan te lang gekookte pasta."
+        }
+      },
+      {
+        question: {
+          en: "What distinguishes artisanal from industrial pasta production methods?",
+          es: "¿Qué distingue los métodos de producción de pasta artesanal de los industriales?",
+          de: "Was unterscheidet handwerkliche von industriellen Pastaproduktionsmethoden?",
+          nl: "Wat onderscheidt ambachtelijke van industriële pastaproductiemethoden?"
+        },
+        options: [
+          { en: "Artisanal uses bronze dies, slow drying (24-48h), higher quality ingredients; industrial uses Teflon, fast drying (2-6h)", es: "Artesanal usa moldes de bronce, secado lento (24-48h), ingredientes de mayor calidad; industrial usa teflón, secado rápido (2-6h)", de: "Handwerklich verwendet Bronzematrizen, langsames Trocknen (24-48h), hochwertigere Zutaten; industriell verwendet Teflon, schnelles Trocknen (2-6h)", nl: "Ambachtelijk gebruikt bronzen matrijzen, langzaam drogen (24-48u), ingrediënten van hogere kwaliteit; industrieel gebruikt teflon, snel drogen (2-6u)" },
+          { en: "There is no quality difference between them", es: "No hay diferencia de calidad entre ellos", de: "Es gibt keinen Qualitätsunterschied zwischen ihnen", nl: "Er is geen kwaliteitsverschil tussen hen" },
+          { en: "Only price differs, methods are identical", es: "Solo difiere el precio, los métodos son idénticos", de: "Nur der Preis unterscheidet sich, Methoden sind identisch", nl: "Alleen de prijs verschilt, methoden zijn identiek" },
+          { en: "Artisanal pasta uses machines, industrial is handmade", es: "La pasta artesanal usa máquinas, la industrial es hecha a mano", de: "Handwerkliche Pasta verwendet Maschinen, industrielle ist handgemacht", nl: "Ambachtelijke pasta gebruikt machines, industrieel is handgemaakt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Artisanal pasta uses bronze dies creating rough texture, slow low-temperature drying (24-48 hours) preserving nutrients and flavor, and premium durum wheat. Industrial pasta uses Teflon dies for smooth finish, high-temperature quick drying (2-6 hours), and standard ingredients.",
+          es: "La pasta artesanal usa moldes de bronce creando textura rugosa, secado lento a baja temperatura (24-48 horas) preservando nutrientes y sabor, y trigo duro premium. La pasta industrial usa moldes de teflón para acabado liso, secado rápido a alta temperatura (2-6 horas), e ingredientes estándar.",
+          de: "Handwerkliche Pasta verwendet Bronzematrizen für raue Textur, langsames Niedertemperaturtrocknen (24-48 Stunden) zur Erhaltung von Nährstoffen und Geschmack, und hochwertigen Hartweizen. Industrielle Pasta verwendet Teflonmatrizen für glattes Finish, Hochtemperatur-Schnelltrocknung (2-6 Stunden) und Standardzutaten.",
+          nl: "Ambachtelijke pasta gebruikt bronzen matrijzen voor ruwe textuur, langzaam laagtemperatuur drogen (24-48 uur) met behoud van voedingsstoffen en smaak, en premium durumtarwe. Industriële pasta gebruikt teflon matrijzen voor gladde afwerking, snelle hoogtemperatuur droging (2-6 uur) en standaard ingrediënten."
+        }
+      },
+      {
+        question: {
+          en: "What role does pasta water's salt concentration play in cooking?",
+          es: "¿Qué papel juega la concentración de sal del agua de pasta en la cocción?",
+          de: "Welche Rolle spielt die Salzkonzentration des Pastawassers beim Kochen?",
+          nl: "Welke rol speelt de zoutconcentratie van pastawater bij het koken?"
+        },
+        options: [
+          { en: "Seasons pasta internally, slightly raises boiling point, and affects starch gelatinization rate", es: "Sazona la pasta internamente, eleva ligeramente el punto de ebullición y afecta la tasa de gelatinización del almidón", de: "Würzt Pasta von innen, erhöht leicht den Siedepunkt und beeinflusst die Stärkeverkleisterungsrate", nl: "Kruidt pasta van binnenuit, verhoogt kookpunt enigszins en beïnvloedt zetmeelgeleringssnelheid" },
+          { en: "Salt only prevents sticking", es: "La sal solo previene que se pegue", de: "Salz verhindert nur Ankleben", nl: "Zout voorkomt alleen plakken" },
+          { en: "Salt has no effect on pasta", es: "La sal no tiene efecto en la pasta", de: "Salz hat keine Wirkung auf Pasta", nl: "Zout heeft geen effect op pasta" },
+          { en: "Salt makes water boil faster", es: "La sal hace que el agua hierva más rápido", de: "Salz lässt Wasser schneller kochen", nl: "Zout laat water sneller koken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Proper salting (1-2% concentration, like seawater) seasons pasta from within as it absorbs water, marginally raises boiling point, and influences starch gelatinization. Without salt, pasta tastes bland regardless of sauce quality.",
+          es: "Salado adecuado (concentración 1-2%, como agua de mar) sazona la pasta desde dentro mientras absorbe agua, eleva marginalmente el punto de ebullición e influye en la gelatinización del almidón. Sin sal, la pasta sabe insípida independientemente de la calidad de la salsa.",
+          de: "Richtiges Salzen (1-2% Konzentration, wie Meerwasser) würzt Pasta von innen, während sie Wasser aufnimmt, erhöht geringfügig den Siedepunkt und beeinflusst die Stärkeverkleisterung. Ohne Salz schmeckt Pasta fade, unabhängig von der Saucenqualität.",
+          nl: "Goed zouten (1-2% concentratie, zoals zeewater) kruidt pasta van binnenuit terwijl het water opneemt, verhoogt het kookpunt marginaal en beïnvloedt zetmeelgelering. Zonder zout smaakt pasta flauw, ongeacht de kwaliteit van de saus."
+        }
+      },
+      {
+        question: {
+          en: "What chemical compounds give squid ink pasta its black color and flavor?",
+          es: "¿Qué compuestos químicos dan a la pasta de tinta de calamar su color negro y sabor?",
+          de: "Welche chemischen Verbindungen geben Tintenfisch-Tintenpasta ihre schwarze Farbe und ihren Geschmack?",
+          nl: "Welke chemische verbindingen geven inktvis-inkt pasta zijn zwarte kleur en smaak?"
+        },
+        options: [
+          { en: "Melanin provides color; glutamic acid and other amino acids provide umami flavor", es: "La melanina proporciona color; ácido glutámico y otros aminoácidos proporcionan sabor umami", de: "Melanin liefert Farbe; Glutaminsäure und andere Aminosäuren liefern Umami-Geschmack", nl: "Melanine zorgt voor kleur; glutaminezuur en andere aminozuren zorgen voor umami smaak" },
+          { en: "Food coloring and artificial flavors only", es: "Solo colorante alimentario y sabores artificiales", de: "Nur Lebensmittelfarbe und künstliche Aromen", nl: "Alleen voedselkleurstof en kunstmatige smaken" },
+          { en: "Activated charcoal creates the black color", es: "El carbón activado crea el color negro", de: "Aktivkohle erzeugt die schwarze Farbe", nl: "Actieve kool creëert de zwarte kleur" },
+          { en: "Soy sauce is the primary ingredient", es: "La salsa de soja es el ingrediente principal", de: "Sojasauce ist die Hauptzutat", nl: "Sojasaus is het belangrijkste ingrediënt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Squid or cuttlefish ink contains melanin pigments creating the characteristic black color, and amino acids (especially glutamic acid) providing a subtle briny, umami flavor profile unique to seafood pasta dishes.",
+          es: "La tinta de calamar o sepia contiene pigmentos de melanina que crean el color negro característico, y aminoácidos (especialmente ácido glutámico) que proporcionan un perfil de sabor salado y umami sutil único en platos de pasta de mariscos.",
+          de: "Tintenfisch- oder Sepiatinte enthält Melaninpigmente, die die charakteristische schwarze Farbe erzeugen, und Aminosäuren (besonders Glutaminsäure), die ein subtiles salziges, Umami-Geschmacksprofil liefern, das für Meeresfrüchte-Pastagerichte einzigartig ist.",
+          nl: "Inktvis- of zeekatinkt bevat melaninepigmenten die de karakteristieke zwarte kleur creëren, en aminozuren (vooral glutaminezuur) die een subtiel zilt, umami smaakprofiel bieden dat uniek is voor zeevruchten pastagerechten."
+        }
+      },
+      {
+        question: {
+          en: "How does altitude affect pasta cooking time and technique?",
+          es: "¿Cómo afecta la altitud al tiempo y técnica de cocción de la pasta?",
+          de: "Wie beeinflusst die Höhe die Kochzeit und Technik von Pasta?",
+          nl: "Hoe beïnvloedt hoogte de kooktijd en techniek van pasta?"
+        },
+        options: [
+          { en: "Higher altitude lowers boiling point, requiring longer cooking time and potentially more water", es: "Mayor altitud reduce punto de ebullición, requiriendo tiempo de cocción más largo y potencialmente más agua", de: "Höhere Höhe senkt Siedepunkt, erfordert längere Kochzeit und möglicherweise mehr Wasser", nl: "Hogere hoogte verlaagt kookpunt, vereist langere kooktijd en mogelijk meer water" },
+          { en: "Altitude has no effect on cooking", es: "La altitud no tiene efecto en la cocción", de: "Höhe hat keine Auswirkung auf das Kochen", nl: "Hoogte heeft geen effect op koken" },
+          { en: "Higher altitude makes pasta cook faster", es: "Mayor altitud hace que la pasta se cocine más rápido", de: "Höhere Höhe lässt Pasta schneller kochen", nl: "Hogere hoogte laat pasta sneller koken" },
+          { en: "Only sea level cooking is possible", es: "Solo es posible cocinar al nivel del mar", de: "Nur Kochen auf Meereshöhe ist möglich", nl: "Alleen koken op zeeniveau is mogelijk" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "At high altitudes, lower atmospheric pressure reduces water's boiling point below 100°C (212°F). This means pasta cooks at lower temperature, requiring 10-20% longer cooking time and sometimes additional water due to increased evaporation.",
+          es: "A gran altitud, la menor presión atmosférica reduce el punto de ebullición del agua por debajo de 100°C (212°F). Esto significa que la pasta se cocina a menor temperatura, requiriendo 10-20% más tiempo de cocción y a veces agua adicional debido al aumento de la evaporación.",
+          de: "In großer Höhe reduziert niedrigerer atmosphärischer Druck den Siedepunkt des Wassers unter 100°C (212°F). Dies bedeutet, dass Pasta bei niedrigerer Temperatur kocht und 10-20% längere Kochzeit sowie manchmal zusätzliches Wasser aufgrund erhöhter Verdunstung erfordert.",
+          nl: "Op grote hoogte verlaagt lagere atmosferische druk het kookpunt van water onder 100°C (212°F). Dit betekent dat pasta op lagere temperatuur kookt, waardoor 10-20% langere kooktijd en soms extra water nodig is vanwege verhoogde verdamping."
+        }
+      },
+      {
+        question: {
+          en: "What is the molecular basis for gluten development in pasta dough?",
+          es: "¿Cuál es la base molecular para el desarrollo de gluten en masa de pasta?",
+          de: "Was ist die molekulare Basis für die Glutenentwicklung in Pastateig?",
+          nl: "Wat is de moleculaire basis voor glutenontwikkeling in pastadeeg?"
+        },
+        options: [
+          { en: "Gliadin and glutenin proteins form disulfide bonds creating elastic gluten network when hydrated and kneaded", es: "Proteínas gliadina y glutenina forman enlaces disulfuro creando red de gluten elástica al hidratarse y amasarse", de: "Gliadin- und Glutenin-Proteine bilden Disulfidbrücken, die ein elastisches Glutennetzwerk beim Hydrieren und Kneten erzeugen", nl: "Gliadine en glutenine eiwitten vormen disulfide bindingen die elastisch glutennetwerk creëren bij hydrateren en kneden" },
+          { en: "Starch molecules create the gluten structure", es: "Las moléculas de almidón crean la estructura de gluten", de: "Stärkemoleküle erzeugen die Glutenstruktur", nl: "Zetmeelmoleculen creëren de glutenstructuur" },
+          { en: "Water alone creates gluten", es: "El agua sola crea gluten", de: "Wasser allein erzeugt Gluten", nl: "Water alleen creëert gluten" },
+          { en: "Heat is the only factor in gluten development", es: "El calor es el único factor en el desarrollo de gluten", de: "Hitze ist der einzige Faktor bei der Glutenentwicklung", nl: "Hitte is de enige factor in glutenontwikkeling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "When flour meets water and is kneaded, gliadin and glutenin proteins hydrate and form disulfide cross-links, creating an elastic three-dimensional gluten network. This structure gives pasta dough its stretch, strength, and ability to hold shape.",
+          es: "Cuando la harina se encuentra con agua y se amasa, las proteínas gliadina y glutenina se hidratan y forman enlaces cruzados de disulfuro, creando una red de gluten elástica tridimensional. Esta estructura da a la masa de pasta su elasticidad, fuerza y capacidad de mantener la forma.",
+          de: "Wenn Mehl auf Wasser trifft und geknetet wird, hydratisieren Gliadin- und Glutenin-Proteine und bilden Disulfid-Querverbindungen, wodurch ein elastisches dreidimensionales Glutennetzwerk entsteht. Diese Struktur gibt Pastateig seine Dehnung, Festigkeit und Fähigkeit, Form zu halten.",
+          nl: "Wanneer bloem water ontmoet en wordt gekneed, hydrateren gliadine en glutenine eiwitten en vormen disulfide kruisverbindingen, waardoor een elastisch driedimensionaal glutennetwerk ontstaat. Deze structuur geeft pastadeeg zijn rek, kracht en vermogen om vorm te behouden."
+        }
+      },
+      {
+        question: {
+          en: "What preservation method was critical for pasta's historical spread?",
+          es: "¿Qué método de preservación fue crítico para la difusión histórica de la pasta?",
+          de: "Welche Konservierungsmethode war kritisch für die historische Verbreitung von Pasta?",
+          nl: "Welke conserveringsmethode was cruciaal voor de historische verspreiding van pasta?"
+        },
+        options: [
+          { en: "Sun drying reduced moisture to <12%, preventing microbial growth and enabling long-term storage and trade", es: "Secado al sol redujo humedad a <12%, previniendo crecimiento microbiano y permitiendo almacenamiento y comercio a largo plazo", de: "Sonnentrocknung reduzierte Feuchtigkeit auf <12%, verhinderte mikrobielles Wachstum und ermöglichte Langzeitlagerung und Handel", nl: "Zon drogen verminderde vocht tot <12%, voorkwam microbiële groei en maakte lange termijn opslag en handel mogelijk" },
+          { en: "Freezing was the primary method", es: "La congelación fue el método principal", de: "Gefrieren war die primäre Methode", nl: "Invriezen was de primaire methode" },
+          { en: "Salting preserved pasta", es: "Salar preservó la pasta", de: "Salzen konservierte Pasta", nl: "Zouten conserveerde pasta" },
+          { en: "Canning enabled pasta storage", es: "El enlatado permitió almacenar pasta", de: "Konserven ermöglichten Pasta-Lagerung", nl: "Inblikken maakte pastaopslag mogelijk" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sun-drying pasta to below 12% moisture content was revolutionary, preventing bacterial and mold growth without refrigeration. This enabled pasta to become a stable, tradeable commodity that sustained sailors on long voyages and fed armies, driving its global spread.",
+          es: "Secar la pasta al sol por debajo del 12% de humedad fue revolucionario, previniendo crecimiento bacteriano y de moho sin refrigeración. Esto permitió que la pasta se convirtiera en un producto estable y comerciable que sostuvo a marineros en viajes largos y alimentó ejércitos, impulsando su difusión global.",
+          de: "Das Sonnentrocknen von Pasta unter 12% Feuchtigkeitsgehalt war revolutionär und verhinderte bakterielles und Schimmelwachstum ohne Kühlung. Dies ermöglichte es Pasta, zu einer stabilen, handelbaren Ware zu werden, die Seeleute auf langen Reisen versorgte und Armeen ernährte, was ihre globale Verbreitung vorantrieb.",
+          nl: "Het zon drogen van pasta tot onder 12% vochtgehalte was revolutionair, waardoor bacteriële en schimmelgroei werd voorkomen zonder koeling. Dit maakte pasta tot een stabiel, verhandelbaar product dat zeelieden op lange reizen voedde en legers voedde, wat de wereldwijde verspreiding stimuleerde."
+        }
+      },
+      {
+        question: {
+          en: "Why does rinsing cooked pasta remove its sauce-binding properties?",
+          es: "¿Por qué enjuagar la pasta cocida elimina sus propiedades de unión de salsa?",
+          de: "Warum entfernt das Abspülen gekochter Pasta ihre saucenbindenden Eigenschaften?",
+          nl: "Waarom verwijdert het spoelen van gekookte pasta zijn sausbindende eigenschappen?"
+        },
+        options: [
+          { en: "Rinsing washes away surface starch layer essential for sauce adhesion and emulsification", es: "Enjuagar lava la capa de almidón superficial esencial para adhesión y emulsificación de salsa", de: "Abspülen wäscht oberflächliche Stärkeschicht weg, die für Saucenhaftung und Emulgierung wesentlich ist", nl: "Spoelen wast oppervlakte zetmeellaag weg die essentieel is voor sausadhesie en emulsificatie" },
+          { en: "Rinsing has no effect on sauce binding", es: "Enjuagar no tiene efecto en la unión de salsa", de: "Abspülen hat keine Wirkung auf Saucenbindung", nl: "Spoelen heeft geen effect op sausbinding" },
+          { en: "Rinsing improves sauce adhesion", es: "Enjuagar mejora la adhesión de salsa", de: "Abspülen verbessert Saucenhaftung", nl: "Spoelen verbetert sausadhesie" },
+          { en: "Only hot water rinse affects binding", es: "Solo el enjuague con agua caliente afecta la unión", de: "Nur heißes Wasserspülen beeinflusst Bindung", nl: "Alleen hete water spoeling beïnvloedt binding" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Rinsing pasta removes the essential surface starch layer that acts as an adhesive and emulsifier for sauces. This starch helps bind oil and water components in sauces to the pasta. Only rinse pasta for cold dishes like pasta salad where you want to stop cooking.",
+          es: "Enjuagar la pasta elimina la capa de almidón superficial esencial que actúa como adhesivo y emulsionante para salsas. Este almidón ayuda a unir componentes de aceite y agua en salsas a la pasta. Solo enjuague pasta para platos fríos como ensalada de pasta donde quiere detener la cocción.",
+          de: "Abspülen von Pasta entfernt die wesentliche oberflächliche Stärkeschicht, die als Klebstoff und Emulgator für Saucen wirkt. Diese Stärke hilft, Öl- und Wasserkomponenten in Saucen an die Pasta zu binden. Spülen Sie Pasta nur für kalte Gerichte wie Nudelsalat ab, wo Sie das Kochen stoppen möchten.",
+          nl: "Spoelen van pasta verwijdert de essentiële oppervlakte zetmeellaag die fungeert als kleefstof en emulgator voor sauzen. Dit zetmeel helpt olie- en watercomponenten in sauzen aan de pasta te binden. Spoel pasta alleen voor koude gerechten zoals pastasalade waar je het koken wilt stoppen."
+        }
       }
     ]
   };

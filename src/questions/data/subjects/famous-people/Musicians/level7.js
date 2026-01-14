@@ -427,6 +427,258 @@
           de: "Sufjan Stevens' 'Age of Adz' (2010) markierte einen dramatischen Wechsel von seinem Folk-Sound zur elektronischen Experimentierung, mit komplexen Arrangements, Auto-Tune-Vocals und tiefpersönlichen Texten über Sterblichkeit und Spiritualität.",
           nl: "Sufjan Stevens' 'Age of Adz' (2010) markeerde een dramatische verschuiving van zijn folk geluid naar elektronische experimentatie, met complexe arrangementen, auto-tuned zang en diep persoonlijke teksten over sterfelijkheid en spiritualiteit."
         }
+      },
+      {
+        question: {
+          en: "Which band is known for the psychedelic album 'Merriweather Post Pavilion'?",
+          es: "¿Qué banda es conocida por el álbum psicodélico 'Merriweather Post Pavilion'?",
+          de: "Welche Band ist für das psychedelische Album 'Merriweather Post Pavilion' bekannt?",
+          nl: "Welke band staat bekend om het psychedelische album 'Merriweather Post Pavilion'?"
+        },
+        options: [
+          { en: "Animal Collective", es: "Animal Collective", de: "Animal Collective", nl: "Animal Collective" },
+          { en: "Tame Impala", es: "Tame Impala", de: "Tame Impala", nl: "Tame Impala" },
+          { en: "MGMT", es: "MGMT", de: "MGMT", nl: "MGMT" },
+          { en: "The Flaming Lips", es: "The Flaming Lips", de: "The Flaming Lips", nl: "The Flaming Lips" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Animal Collective's 'Merriweather Post Pavilion' (2009) became a landmark of experimental pop, blending psychedelic textures, electronic beats, and layered vocals into a cohesive and accessible sound that influenced modern indie music.",
+          es: "'Merriweather Post Pavilion' (2009) de Animal Collective se convirtió en un hito del pop experimental, mezclando texturas psicodélicas, ritmos electrónicos y vocales en capas en un sonido cohesivo y accesible que influyó la música indie moderna.",
+          de: "Animal Collectives 'Merriweather Post Pavilion' (2009) wurde zu einem Meilenstein des experimentellen Pop, der psychedelische Texturen, elektronische Beats und geschichtete Vocals zu einem zusammenhängenden und zugänglichen Sound vermischte, der moderne Indie-Musik beeinflusste.",
+          nl: "Animal Collective's 'Merriweather Post Pavilion' (2009) werd een mijlpaal van experimentele pop, waarbij psychedelische texturen, elektronische beats en gelaagde zang werden gemengd tot een samenhangend en toegankelijk geluid dat moderne indie muziek beïnvloedde."
+        }
+      },
+      {
+        question: {
+          en: "Which post-punk band released 'Turn on the Bright Lights'?",
+          es: "¿Qué banda de post-punk lanzó 'Turn on the Bright Lights'?",
+          de: "Welche Post-Punk-Band veröffentlichte 'Turn on the Bright Lights'?",
+          nl: "Welke post-punk band bracht 'Turn on the Bright Lights' uit?"
+        },
+        options: [
+          { en: "Interpol", es: "Interpol", de: "Interpol", nl: "Interpol" },
+          { en: "Bloc Party", es: "Bloc Party", de: "Bloc Party", nl: "Bloc Party" },
+          { en: "The Rapture", es: "The Rapture", de: "The Rapture", nl: "The Rapture" },
+          { en: "TV on the Radio", es: "TV on the Radio", de: "TV on the Radio", nl: "TV on the Radio" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Interpol's debut album 'Turn on the Bright Lights' (2002) revived post-punk with its atmospheric guitars, brooding vocals, and noir-tinged lyrics, becoming a touchstone of early 2000s indie rock.",
+          es: "El álbum debut de Interpol 'Turn on the Bright Lights' (2002) revivió el post-punk con sus guitarras atmosféricas, vocales melancólicos y letras con tintes noir, convirtiéndose en una piedra angular del indie rock de principios de los 2000s.",
+          de: "Interpols Debütalbum 'Turn on the Bright Lights' (2002) belebte Post-Punk mit seinen atmosphärischen Gitarren, düsteren Vocals und noir-gefärbten Texten wieder und wurde zu einem Eckstein des Indie-Rock der frühen 2000er Jahre.",
+          nl: "Interpol's debuutalbum 'Turn on the Bright Lights' (2002) deed post-punk herleven met zijn atmosferische gitaren, sombere zang en noir-getinte teksten, en werd een hoeksteen van vroege jaren 2000 indie rock."
+        }
+      },
+      {
+        question: {
+          en: "Which duo created the dream pop album 'Heaven or Las Vegas'?",
+          es: "¿Qué dúo creó el álbum de dream pop 'Heaven or Las Vegas'?",
+          de: "Welches Duo schuf das Dream-Pop-Album 'Heaven or Las Vegas'?",
+          nl: "Welk duo creëerde het dream pop album 'Heaven or Las Vegas'?"
+        },
+        options: [
+          { en: "Cocteau Twins", es: "Cocteau Twins", de: "Cocteau Twins", nl: "Cocteau Twins" },
+          { en: "Beach House", es: "Beach House", de: "Beach House", nl: "Beach House" },
+          { en: "Mazzy Star", es: "Mazzy Star", de: "Mazzy Star", nl: "Mazzy Star" },
+          { en: "Slowdive", es: "Slowdive", de: "Slowdive", nl: "Slowdive" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cocteau Twins' 'Heaven or Las Vegas' (1990) is a dream pop masterpiece, featuring Elizabeth Fraser's ethereal vocals and lush, atmospheric production that defined the genre and influenced countless shoegaze and dream pop artists.",
+          es: "'Heaven or Las Vegas' (1990) de Cocteau Twins es una obra maestra del dream pop, presentando los vocales etéreos de Elizabeth Fraser y producción exuberante y atmosférica que definió el género e influyó innumerables artistas de shoegaze y dream pop.",
+          de: "Cocteau Twins' 'Heaven or Las Vegas' (1990) ist ein Dream-Pop-Meisterwerk mit Elizabeth Frasers ätherischen Vocals und üppiger, atmosphärischer Produktion, die das Genre definierten und unzählige Shoegaze- und Dream-Pop-Künstler beeinflussten.",
+          nl: "Cocteau Twins' 'Heaven or Las Vegas' (1990) is een dream pop meesterwerk, met Elizabeth Fraser's etherische zang en weelderige, atmosferische productie die het genre definieerde en talloze shoegaze en dream pop artiesten beïnvloedde."
+        }
+      },
+      {
+        question: {
+          en: "Which indie rock band is fronted by Isaac Brock?",
+          es: "¿Qué banda de indie rock es liderada por Isaac Brock?",
+          de: "Welche Indie-Rock-Band wird von Isaac Brock angeführt?",
+          nl: "Welke indie rock band wordt geleid door Isaac Brock?"
+        },
+        options: [
+          { en: "Modest Mouse", es: "Modest Mouse", de: "Modest Mouse", nl: "Modest Mouse" },
+          { en: "Built to Spill", es: "Built to Spill", de: "Built to Spill", nl: "Built to Spill" },
+          { en: "The Shins", es: "The Shins", de: "The Shins", nl: "The Shins" },
+          { en: "Neutral Milk Hotel", es: "Neutral Milk Hotel", de: "Neutral Milk Hotel", nl: "Neutral Milk Hotel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Isaac Brock is the creative force behind Modest Mouse, known for his distinctive nasal vocals, philosophical lyrics, and the band's evolution from lo-fi indie rock to more expansive, experimental sounds on albums like 'The Moon & Antarctica'.",
+          es: "Isaac Brock es la fuerza creativa detrás de Modest Mouse, conocido por sus vocales nasales distintivos, letras filosóficas y la evolución de la banda del indie rock lo-fi a sonidos más expansivos y experimentales en álbumes como 'The Moon & Antarctica'.",
+          de: "Isaac Brock ist die kreative Kraft hinter Modest Mouse, bekannt für seine charakteristischen nasalen Vocals, philosophischen Texte und die Entwicklung der Band von Lo-Fi-Indie-Rock zu expansiveren, experimentelleren Sounds auf Alben wie 'The Moon & Antarctica'.",
+          nl: "Isaac Brock is de creatieve kracht achter Modest Mouse, bekend om zijn onderscheidende nasale zang, filosofische teksten en de evolutie van de band van lo-fi indie rock naar meer expansieve, experimentele geluiden op albums zoals 'The Moon & Antarctica'."
+        }
+      },
+      {
+        question: {
+          en: "Which Scottish post-rock band created 'The Earth Is Not a Cold Dead Place'?",
+          es: "¿Qué banda escocesa de post-rock creó 'The Earth Is Not a Cold Dead Place'?",
+          de: "Welche schottische Post-Rock-Band schuf 'The Earth Is Not a Cold Dead Place'?",
+          nl: "Welke Schotse post-rock band creëerde 'The Earth Is Not a Cold Dead Place'?"
+        },
+        options: [
+          { en: "Explosions in the Sky", es: "Explosions in the Sky", de: "Explosions in the Sky", nl: "Explosions in the Sky" },
+          { en: "Mogwai", es: "Mogwai", de: "Mogwai", nl: "Mogwai" },
+          { en: "Godspeed You! Black Emperor", es: "Godspeed You! Black Emperor", de: "Godspeed You! Black Emperor", nl: "Godspeed You! Black Emperor" },
+          { en: "65daysofstatic", es: "65daysofstatic", de: "65daysofstatic", nl: "65daysofstatic" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Explosions in the Sky's 'The Earth Is Not a Cold Dead Place' (2003) is an emotionally powerful instrumental post-rock album that builds from delicate guitar melodies to overwhelming crescendos, becoming a staple of cinematic post-rock.",
+          es: "'The Earth Is Not a Cold Dead Place' (2003) de Explosions in the Sky es un álbum de post-rock instrumental emocionalmente poderoso que se construye desde melodías de guitarra delicadas hasta crescendos abrumadores, convirtiéndose en un pilar del post-rock cinematográfico.",
+          de: "Explosions in the Skys 'The Earth Is Not a Cold Dead Place' (2003) ist ein emotional kraftvolles instrumentales Post-Rock-Album, das sich von zarten Gitarrenmelodien zu überwältigenden Crescendos aufbaut und zu einem Grundpfeiler des cinematischen Post-Rock wurde.",
+          nl: "Explosions in the Sky's 'The Earth Is Not a Cold Dead Place' (2003) is een emotioneel krachtig instrumentaal post-rock album dat zich opbouwt van delicate gitaarmelodieën tot overweldigende crescendo's, en een steunpilaar werd van cinematische post-rock."
+        }
+      },
+      {
+        question: {
+          en: "Which experimental folk artist recorded 'In the Aeroplane Over the Sea'?",
+          es: "¿Qué artista de folk experimental grabó 'In the Aeroplane Over the Sea'?",
+          de: "Welcher experimentelle Folk-Künstler nahm 'In the Aeroplane Over the Sea' auf?",
+          nl: "Welke experimentele folk artiest nam 'In the Aeroplane Over the Sea' op?"
+        },
+        options: [
+          { en: "Neutral Milk Hotel", es: "Neutral Milk Hotel", de: "Neutral Milk Hotel", nl: "Neutral Milk Hotel" },
+          { en: "The Microphones", es: "The Microphones", de: "The Microphones", nl: "The Microphones" },
+          { en: "Sufjan Stevens", es: "Sufjan Stevens", de: "Sufjan Stevens", nl: "Sufjan Stevens" },
+          { en: "Beirut", es: "Beirut", de: "Beirut", nl: "Beirut" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Neutral Milk Hotel's 'In the Aeroplane Over the Sea' (1998) is a cult classic of lo-fi indie folk, featuring Jeff Mangum's raw vocals, surrealist lyrics about Anne Frank, and unconventional instrumentation that has inspired countless indie musicians.",
+          es: "'In the Aeroplane Over the Sea' (1998) de Neutral Milk Hotel es un clásico de culto del indie folk lo-fi, presentando los vocales crudos de Jeff Mangum, letras surrealistas sobre Anne Frank e instrumentación no convencional que ha inspirado innumerables músicos indie.",
+          de: "Neutral Milk Hotels 'In the Aeroplane Over the Sea' (1998) ist ein Kultklassiker des Lo-Fi-Indie-Folk mit Jeff Mangums rohen Vocals, surrealistischen Texten über Anne Frank und unkonventioneller Instrumentierung, die unzählige Indie-Musiker inspiriert hat.",
+          nl: "Neutral Milk Hotel's 'In the Aeroplane Over the Sea' (1998) is een cultklassieker van lo-fi indie folk, met Jeff Mangum's rauwe zang, surrealistische teksten over Anne Frank en onconventionele instrumentatie die talloze indie muzikanten heeft geïnspireerd."
+        }
+      },
+      {
+        question: {
+          en: "Which British band is known for the art rock album 'Silent Alarm'?",
+          es: "¿Qué banda británica es conocida por el álbum de art rock 'Silent Alarm'?",
+          de: "Welche britische Band ist für das Art-Rock-Album 'Silent Alarm' bekannt?",
+          nl: "Welke Britse band staat bekend om het art rock album 'Silent Alarm'?"
+        },
+        options: [
+          { en: "Bloc Party", es: "Bloc Party", de: "Bloc Party", nl: "Bloc Party" },
+          { en: "Foals", es: "Foals", de: "Foals", nl: "Foals" },
+          { en: "Editors", es: "Editors", de: "Editors", nl: "Editors" },
+          { en: "Kasabian", es: "Kasabian", de: "Kasabian", nl: "Kasabian" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bloc Party's 'Silent Alarm' (2005) revitalized post-punk and dance-rock with its angular guitars, urgent rhythms, and political lyrics, becoming one of the defining albums of mid-2000s British indie rock.",
+          es: "'Silent Alarm' (2005) de Bloc Party revitalizó el post-punk y dance-rock con sus guitarras angulares, ritmos urgentes y letras políticas, convirtiéndose en uno de los álbumes definitorios del indie rock británico de mediados de los 2000s.",
+          de: "Bloc Partys 'Silent Alarm' (2005) belebte Post-Punk und Dance-Rock mit seinen kantigen Gitarren, dringenden Rhythmen und politischen Texten wieder und wurde zu einem der definierenden Alben des britischen Indie-Rock der mittleren 2000er Jahre.",
+          nl: "Bloc Party's 'Silent Alarm' (2005) gaf post-punk en dance-rock nieuw leven met zijn hoekige gitaren, dringende ritmes en politieke teksten, en werd een van de bepalende albums van mid-2000s Britse indie rock."
+        }
+      },
+      {
+        question: {
+          en: "Which ambient musician created 'Discreet Music'?",
+          es: "¿Qué músico ambient creó 'Discreet Music'?",
+          de: "Welcher Ambient-Musiker schuf 'Discreet Music'?",
+          nl: "Welke ambient muzikant creëerde 'Discreet Music'?"
+        },
+        options: [
+          { en: "Brian Eno", es: "Brian Eno", de: "Brian Eno", nl: "Brian Eno" },
+          { en: "Harold Budd", es: "Harold Budd", de: "Harold Budd", nl: "Harold Budd" },
+          { en: "Steve Roach", es: "Steve Roach", de: "Steve Roach", nl: "Steve Roach" },
+          { en: "William Basinski", es: "William Basinski", de: "William Basinski", nl: "William Basinski" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Brian Eno's 'Discreet Music' (1975) pioneered ambient music as a genre, using tape loops and generative processes to create music that could exist as both background and focused listening, fundamentally changing how we think about music's function.",
+          es: "'Discreet Music' (1975) de Brian Eno fue pionero de la música ambient como género, usando loops de cinta y procesos generativos para crear música que podía existir tanto como fondo como escucha enfocada, cambiando fundamentalmente cómo pensamos sobre la función de la música.",
+          de: "Brian Enos 'Discreet Music' (1975) war wegweisend für Ambient-Musik als Genre, verwendete Tape-Loops und generative Prozesse, um Musik zu schaffen, die sowohl als Hintergrund als auch als fokussiertes Hören existieren konnte, und veränderte grundlegend, wie wir über die Funktion von Musik denken.",
+          nl: "Brian Eno's 'Discreet Music' (1975) was baanbrekend voor ambient muziek als genre, waarbij tape-loops en generatieve processen werden gebruikt om muziek te creëren die zowel als achtergrond als gefocust luisteren kon bestaan, wat fundamenteel veranderde hoe we denken over de functie van muziek."
+        }
+      },
+      {
+        question: {
+          en: "Which Canadian indie rock band is known for 'Funeral'?",
+          es: "¿Qué banda canadiense de indie rock es conocida por 'Funeral'?",
+          de: "Welche kanadische Indie-Rock-Band ist für 'Funeral' bekannt?",
+          nl: "Welke Canadese indie rock band staat bekend om 'Funeral'?"
+        },
+        options: [
+          { en: "Arcade Fire", es: "Arcade Fire", de: "Arcade Fire", nl: "Arcade Fire" },
+          { en: "Wolf Parade", es: "Wolf Parade", de: "Wolf Parade", nl: "Wolf Parade" },
+          { en: "Stars", es: "Stars", de: "Stars", nl: "Stars" },
+          { en: "The Unicorns", es: "The Unicorns", de: "The Unicorns", nl: "The Unicorns" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Arcade Fire's debut album 'Funeral' (2004) was created during a period of loss for the band members, resulting in an emotionally raw and orchestrally ambitious album that established them as one of indie rock's most important bands.",
+          es: "El álbum debut de Arcade Fire 'Funeral' (2004) fue creado durante un período de pérdida para los miembros de la banda, resultando en un álbum emocionalmente crudo y orquestalmente ambicioso que los estableció como una de las bandas más importantes del indie rock.",
+          de: "Arcade Fires Debütalbum 'Funeral' (2004) entstand während einer Verlustphase für die Bandmitglieder und resultierte in einem emotional rohen und orchestral ambitionierten Album, das sie als eine der wichtigsten Indie-Rock-Bands etablierte.",
+          nl: "Arcade Fire's debuutalbum 'Funeral' (2004) werd gecreëerd tijdens een periode van verlies voor de bandleden, wat resulteerde in een emotioneel rauw en orkestaal ambitieus album dat hen vestigde als een van de belangrijkste indie rock bands."
+        }
+      },
+      {
+        question: {
+          en: "Which electronic artist is known for the glitchy album 'Music Has the Right to Children'?",
+          es: "¿Qué artista electrónico es conocido por el álbum glitchy 'Music Has the Right to Children'?",
+          de: "Welcher elektronische Künstler ist für das glitchy Album 'Music Has the Right to Children' bekannt?",
+          nl: "Welke elektronische artiest staat bekend om het glitchy album 'Music Has the Right to Children'?"
+        },
+        options: [
+          { en: "Boards of Canada", es: "Boards of Canada", de: "Boards of Canada", nl: "Boards of Canada" },
+          { en: "Aphex Twin", es: "Aphex Twin", de: "Aphex Twin", nl: "Aphex Twin" },
+          { en: "Autechre", es: "Autechre", de: "Autechre", nl: "Autechre" },
+          { en: "Squarepusher", es: "Squarepusher", de: "Squarepusher", nl: "Squarepusher" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Boards of Canada's 'Music Has the Right to Children' (1998) created a distinctive nostalgic sound using analog synthesizers, degraded samples, and warped melodies that evoked hazy childhood memories and influenced electronic music for decades.",
+          es: "'Music Has the Right to Children' (1998) de Boards of Canada creó un sonido nostálgico distintivo usando sintetizadores análogos, samples degradados y melodías distorsionadas que evocaban recuerdos borrosos de infancia e influyeron la música electrónica por décadas.",
+          de: "Boards of Canadas 'Music Has the Right to Children' (1998) schuf einen charakteristischen nostalgischen Sound mit analogen Synthesizern, degradierten Samples und verzerrten Melodien, die verschwommene Kindheitserinnerungen hervorriefen und elektronische Musik jahrzehntelang beeinflussten.",
+          nl: "Boards of Canada's 'Music Has the Right to Children' (1998) creëerde een onderscheidend nostalgisch geluid met analoge synthesizers, gedegradeerde samples en verwrongen melodieën die vage jeugdherinneringen opriepen en elektronische muziek decennialang beïnvloedden."
+        }
+      },
+      {
+        question: {
+          en: "Which noise rock duo consists of just drums and bass?",
+          es: "¿Qué dúo de noise rock consiste solo de batería y bajo?",
+          de: "Welches Noise-Rock-Duo besteht nur aus Schlagzeug und Bass?",
+          nl: "Welk noise rock duo bestaat alleen uit drums en bas?"
+        },
+        options: [
+          { en: "Lightning Bolt", es: "Lightning Bolt", de: "Lightning Bolt", nl: "Lightning Bolt" },
+          { en: "Death from Above 1979", es: "Death from Above 1979", de: "Death from Above 1979", nl: "Death from Above 1979" },
+          { en: "Royal Blood", es: "Royal Blood", de: "Royal Blood", nl: "Royal Blood" },
+          { en: "Big Business", es: "Big Business", de: "Big Business", nl: "Big Business" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Lightning Bolt is a bass-and-drums noise rock duo known for their incredibly loud, chaotic live performances and Brian Chippendale's masked drumming. Their minimalist setup produces a maximalist wall of sound that redefined what two instruments could achieve.",
+          es: "Lightning Bolt es un dúo de noise rock de bajo y batería conocido por sus presentaciones en vivo increíblemente ruidosas y caóticas y la batería enmascarada de Brian Chippendale. Su configuración minimalista produce una pared de sonido maximalista que redefinió lo que dos instrumentos podían lograr.",
+          de: "Lightning Bolt ist ein Bass-und-Schlagzeug-Noise-Rock-Duo, bekannt für ihre unglaublich lauten, chaotischen Live-Auftritte und Brian Chippendales maskiertes Schlagzeugspiel. Ihr minimalistisches Setup produziert eine maximalistische Klangwand, die neu definierte, was zwei Instrumente erreichen können.",
+          nl: "Lightning Bolt is een bas-en-drums noise rock duo bekend om hun ongelooflijk luide, chaotische live optredens en Brian Chippendale's gemaskerde drummen. Hun minimalistische setup produceert een maximalistische geluidsmuur die herdefinieerde wat twee instrumenten konden bereiken."
+        }
+      },
+      {
+        question: {
+          en: "Which singer-songwriter created the sparse folk album 'Either/Or'?",
+          es: "¿Qué cantautor creó el álbum de folk escaso 'Either/Or'?",
+          de: "Welcher Singer-Songwriter schuf das spärliche Folk-Album 'Either/Or'?",
+          nl: "Welke singer-songwriter creëerde het sobere folk album 'Either/Or'?"
+        },
+        options: [
+          { en: "Elliott Smith", es: "Elliott Smith", de: "Elliott Smith", nl: "Elliott Smith" },
+          { en: "Nick Drake", es: "Nick Drake", de: "Nick Drake", nl: "Nick Drake" },
+          { en: "Jeff Buckley", es: "Jeff Buckley", de: "Jeff Buckley", nl: "Jeff Buckley" },
+          { en: "Damien Rice", es: "Damien Rice", de: "Damien Rice", nl: "Damien Rice" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Elliott Smith's 'Either/Or' (1997) featured his signature whispered vocals, intricate fingerpicking, and melancholic lyrics. The album's intimate production and emotional vulnerability made it a touchstone of lo-fi indie folk and influenced countless singer-songwriters.",
+          es: "'Either/Or' (1997) de Elliott Smith presentó sus vocales susurrados característicos, fingerpicking intrincado y letras melancólicas. La producción íntima del álbum y vulnerabilidad emocional lo convirtieron en una piedra angular del indie folk lo-fi e influyó innumerables cantautores.",
+          de: "Elliott Smiths 'Either/Or' (1997) zeigte seine charakteristischen geflüsterten Vocals, kompliziertes Fingerpicking und melancholische Texte. Die intime Produktion des Albums und emotionale Verletzlichkeit machten es zu einem Eckstein des Lo-Fi-Indie-Folk und beeinflussten unzählige Singer-Songwriter.",
+          nl: "Elliott Smith's 'Either/Or' (1997) bevatte zijn kenmerkende gefluisterde zang, ingewikkelde fingerpicking en melancholische teksten. De intieme productie van het album en emotionele kwetsbaarheid maakten het een hoeksteen van lo-fi indie folk en beïnvloedden talloze singer-songwriters."
+        }
       }
     ]
   };

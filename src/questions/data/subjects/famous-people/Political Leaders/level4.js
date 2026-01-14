@@ -160,7 +160,7 @@
           en: "Which Canadian Prime Minister implemented universal healthcare and the Canadian flag?",
           es: "¿Qué primer ministro canadiense implementó la atención médica universal y la bandera canadiense?",
           de: "Welcher kanadische Premierminister führte die universelle Gesundheitsversorgung und die kanadische Flagge ein?",
-          de: "Welche Canadese premier voerde universele gezondheidszorg en de Canadese vlag in?"
+          nl: "Welke Canadese premier voerde universele gezondheidszorg en de Canadese vlag in?"
         },
         options: [
           { en: "Lester B. Pearson", es: "Lester B. Pearson", de: "Lester B. Pearson", nl: "Lester B. Pearson" },
@@ -426,6 +426,216 @@
           es: "Anwar Sadat firmó los Acuerdos de Camp David con el primer ministro israelí Menachem Begin en 1978, ganándoles a ambos el Premio Nobel de la Paz. Sadat fue asesinado en 1981 por extremistas opuestos al tratado de paz.",
           de: "Anwar as-Sadat unterzeichnete 1978 mit dem israelischen Premierminister Menachem Begin die Camp-David-Abkommen, wofür beide den Friedensnobelpreis erhielten. Sadat wurde 1981 von Extremisten ermordet, die gegen den Friedensvertrag waren.",
           nl: "Anwar Sadat ondertekende de Camp David-akkoorden met de Israëlische premier Menachem Begin in 1978, waarmee ze beiden de Nobelprijs voor de Vrede wonnen. Sadat werd in 1981 vermoord door extremisten die tegen het vredesverdrag waren."
+        }
+      },
+      {
+        question: {
+          en: "Which U.S. President abolished slavery with the Emancipation Proclamation during the Civil War?",
+          es: "¿Qué presidente estadounidense abolió la esclavitud con la Proclamación de Emancipación durante la Guerra Civil?",
+          de: "Welcher US-Präsident schaffte mit der Emanzipationsproklamation während des Bürgerkriegs die Sklaverei ab?",
+          nl: "Welke Amerikaanse president schafte de slavernij af met de Emancipatie Proclamatie tijdens de Burgeroorlog?"
+        },
+        options: [
+          { en: "Abraham Lincoln", es: "Abraham Lincoln", de: "Abraham Lincoln", nl: "Abraham Lincoln" },
+          { en: "Andrew Johnson", es: "Andrew Johnson", de: "Andrew Johnson", nl: "Andrew Johnson" },
+          { en: "Ulysses S. Grant", es: "Ulysses S. Grant", de: "Ulysses S. Grant", nl: "Ulysses S. Grant" },
+          { en: "James Buchanan", es: "James Buchanan", de: "James Buchanan", nl: "James Buchanan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Abraham Lincoln issued the Emancipation Proclamation in 1863, declaring freedom for slaves in Confederate states. He led the Union through the Civil War and was assassinated in 1865, shortly after the war ended.",
+          es: "Abraham Lincoln emitió la Proclamación de Emancipación en 1863, declarando la libertad de los esclavos en los estados confederados. Lideró la Unión durante la Guerra Civil y fue asesinado en 1865, poco después de que terminara la guerra.",
+          de: "Abraham Lincoln erließ 1863 die Emanzipationsproklamation, die die Freiheit für Sklaven in den konföderierten Staaten erklärte. Er führte die Union durch den Bürgerkrieg und wurde 1865, kurz nach Kriegsende, ermordet.",
+          nl: "Abraham Lincoln vaardigde in 1863 de Emancipatie Proclamatie uit, waarin de vrijheid van slaven in Zuidelijke staten werd verklaard. Hij leidde de Unie door de Burgeroorlog en werd in 1865 vermoord, kort na het einde van de oorlog."
+        }
+      },
+      {
+        question: {
+          en: "Who was the first President of Ireland?",
+          es: "¿Quién fue el primer presidente de Irlanda?",
+          de: "Wer war der erste Präsident Irlands?",
+          nl: "Wie was de eerste president van Ierland?"
+        },
+        options: [
+          { en: "Douglas Hyde", es: "Douglas Hyde", de: "Douglas Hyde", nl: "Douglas Hyde" },
+          { en: "Éamon de Valera", es: "Éamon de Valera", de: "Éamon de Valera", nl: "Éamon de Valera" },
+          { en: "Michael Collins", es: "Michael Collins", de: "Michael Collins", nl: "Michael Collins" },
+          { en: "Patrick Pearse", es: "Patrick Pearse", de: "Patrick Pearse", nl: "Patrick Pearse" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Douglas Hyde became Ireland's first President in 1938, serving until 1945. A scholar and founder of the Gaelic League, he promoted the Irish language and cultural revival.",
+          es: "Douglas Hyde se convirtió en el primer presidente de Irlanda en 1938, sirviendo hasta 1945. Un erudito y fundador de la Liga Gaélica, promovió el idioma irlandés y el renacimiento cultural.",
+          de: "Douglas Hyde wurde 1938 Irlands erster Präsident und diente bis 1945. Als Gelehrter und Gründer der Gaelic League förderte er die irische Sprache und kulturelle Wiederbelebung.",
+          nl: "Douglas Hyde werd in 1938 Ierlands eerste president en diende tot 1945. Als geleerde en oprichter van de Gaelic League promootte hij de Ierse taal en culturele heropleving."
+        }
+      },
+      {
+        question: {
+          en: "Which Nigerian leader was the country's first President after independence?",
+          es: "¿Qué líder nigeriano fue el primer presidente del país después de la independencia?",
+          de: "Welcher nigerianische Führer war der erste Präsident des Landes nach der Unabhängigkeit?",
+          nl: "Welke Nigeriaanse leider was de eerste president van het land na de onafhankelijkheid?"
+        },
+        options: [
+          { en: "Nnamdi Azikiwe", es: "Nnamdi Azikiwe", de: "Nnamdi Azikiwe", nl: "Nnamdi Azikiwe" },
+          { en: "Abubakar Tafawa Balewa", es: "Abubakar Tafawa Balewa", de: "Abubakar Tafawa Balewa", nl: "Abubakar Tafawa Balewa" },
+          { en: "Yakubu Gowon", es: "Yakubu Gowon", de: "Yakubu Gowon", nl: "Yakubu Gowon" },
+          { en: "Olusegun Obasanjo", es: "Olusegun Obasanjo", de: "Olusegun Obasanjo", nl: "Olusegun Obasanjo" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Nnamdi Azikiwe became Nigeria's first President in 1963 after independence. Known as 'Zik', he was a leading figure in the Nigerian independence movement and a founding father of modern Nigeria.",
+          es: "Nnamdi Azikiwe se convirtió en el primer presidente de Nigeria en 1963 después de la independencia. Conocido como 'Zik', fue una figura destacada en el movimiento independentista nigeriano y un padre fundador de la Nigeria moderna.",
+          de: "Nnamdi Azikiwe wurde 1963 nach der Unabhängigkeit Nigerias erster Präsident. Als 'Zik' bekannt, war er eine führende Figur der nigerianischen Unabhängigkeitsbewegung und ein Gründervater des modernen Nigeria.",
+          nl: "Nnamdi Azikiwe werd in 1963 na de onafhankelijkheid Nigeria's eerste president. Bekend als 'Zik', was hij een leidende figuur in de Nigeriaanse onafhankelijkheidsbeweging en een grondlegger van het moderne Nigeria."
+        }
+      },
+      {
+        question: {
+          en: "Which Venezuelan leader founded the Fifth Republic Movement and served as President from 1999 to 2013?",
+          es: "¿Qué líder venezolano fundó el Movimiento Quinta República y fue presidente de 1999 a 2013?",
+          de: "Welcher venezolanische Führer gründete die Bewegung Fünfte Republik und war von 1999 bis 2013 Präsident?",
+          nl: "Welke Venezolaanse leider stichtte de Vijfde Republiek Beweging en was president van 1999 tot 2013?"
+        },
+        options: [
+          { en: "Hugo Chávez", es: "Hugo Chávez", de: "Hugo Chávez", nl: "Hugo Chávez" },
+          { en: "Nicolás Maduro", es: "Nicolás Maduro", de: "Nicolás Maduro", nl: "Nicolás Maduro" },
+          { en: "Carlos Andrés Pérez", es: "Carlos Andrés Pérez", de: "Carlos Andrés Pérez", nl: "Carlos Andrés Pérez" },
+          { en: "Rómulo Betancourt", es: "Rómulo Betancourt", de: "Rómulo Betancourt", nl: "Rómulo Betancourt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hugo Chávez led Venezuela from 1999 until his death in 2013, implementing socialist policies known as 'Chavismo' and nationalizing key industries while maintaining close ties with Cuba.",
+          es: "Hugo Chávez lideró Venezuela desde 1999 hasta su muerte en 2013, implementando políticas socialistas conocidas como 'Chavismo' y nacionalizando industrias clave mientras mantenía lazos estrechos con Cuba.",
+          de: "Hugo Chávez führte Venezuela von 1999 bis zu seinem Tod 2013, setzte sozialistische Politiken um, die als 'Chavismo' bekannt sind, und verstaatlichte Schlüsselindustrien, während er enge Verbindungen zu Kuba unterhielt.",
+          nl: "Hugo Chávez leidde Venezuela van 1999 tot zijn dood in 2013, voerde socialistisch beleid uit dat bekend staat als 'Chavismo' en nationaliseerde belangrijke industrieën terwijl hij nauwe banden met Cuba onderhield."
+        }
+      },
+      {
+        question: {
+          en: "Who was the first Chancellor of West Germany after World War II?",
+          es: "¿Quién fue el primer canciller de Alemania Occidental después de la Segunda Guerra Mundial?",
+          de: "Wer war der erste Kanzler Westdeutschlands nach dem Zweiten Weltkrieg?",
+          nl: "Wie was de eerste bondskanselier van West-Duitsland na de Tweede Wereldoorlog?"
+        },
+        options: [
+          { en: "Konrad Adenauer", es: "Konrad Adenauer", de: "Konrad Adenauer", nl: "Konrad Adenauer" },
+          { en: "Willy Brandt", es: "Willy Brandt", de: "Willy Brandt", nl: "Willy Brandt" },
+          { en: "Helmut Kohl", es: "Helmut Kohl", de: "Helmut Kohl", nl: "Helmut Kohl" },
+          { en: "Ludwig Erhard", es: "Ludwig Erhard", de: "Ludwig Erhard", nl: "Ludwig Erhard" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Konrad Adenauer served as West Germany's first Chancellor from 1949-1963, leading the country's reconstruction, establishing democracy, and integrating West Germany into Western alliances including NATO and the EEC.",
+          es: "Konrad Adenauer fue el primer canciller de Alemania Occidental de 1949 a 1963, liderando la reconstrucción del país, estableciendo la democracia e integrando Alemania Occidental en alianzas occidentales incluyendo la OTAN y la CEE.",
+          de: "Konrad Adenauer war von 1949-1963 erster Kanzler Westdeutschlands, führte den Wiederaufbau des Landes an, etablierte die Demokratie und integrierte Westdeutschland in westliche Bündnisse einschließlich NATO und EWG.",
+          nl: "Konrad Adenauer was van 1949-1963 de eerste bondskanselier van West-Duitsland, leidde de wederopbouw van het land, vestigde democratie en integreerde West-Duitsland in westerse allianties waaronder NAVO en EEG."
+        }
+      },
+      {
+        question: {
+          en: "Which South Korean President was awarded the Nobel Peace Prize in 2000 for his 'Sunshine Policy' towards North Korea?",
+          es: "¿Qué presidente surcoreano recibió el Premio Nobel de la Paz en 2000 por su 'Política del Sol' hacia Corea del Norte?",
+          de: "Welcher südkoreanische Präsident wurde 2000 für seine 'Sonnenscheinpolitik' gegenüber Nordkorea mit dem Friedensnobelpreis ausgezeichnet?",
+          nl: "Welke Zuid-Koreaanse president kreeg de Nobelprijs voor de Vrede in 2000 voor zijn 'Sunshine Policy' richting Noord-Korea?"
+        },
+        options: [
+          { en: "Kim Dae-jung", es: "Kim Dae-jung", de: "Kim Dae-jung", nl: "Kim Dae-jung" },
+          { en: "Kim Young-sam", es: "Kim Young-sam", de: "Kim Young-sam", nl: "Kim Young-sam" },
+          { en: "Roh Moo-hyun", es: "Roh Moo-hyun", de: "Roh Moo-hyun", nl: "Roh Moo-hyun" },
+          { en: "Park Chung-hee", es: "Park Chung-hee", de: "Park Chung-hee", nl: "Park Chung-hee" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Kim Dae-jung served as President from 1998-2003 and won the Nobel Peace Prize for his efforts to promote democracy and reconciliation with North Korea through his Sunshine Policy of engagement.",
+          es: "Kim Dae-jung fue presidente de 1998 a 2003 y ganó el Premio Nobel de la Paz por sus esfuerzos para promover la democracia y la reconciliación con Corea del Norte a través de su Política del Sol de compromiso.",
+          de: "Kim Dae-jung war von 1998-2003 Präsident und gewann den Friedensnobelpreis für seine Bemühungen zur Förderung von Demokratie und Versöhnung mit Nordkorea durch seine Sonnenscheinpolitik des Engagements.",
+          nl: "Kim Dae-jung was president van 1998-2003 en won de Nobelprijs voor de Vrede voor zijn inspanningen om democratie en verzoening met Noord-Korea te bevorderen door zijn Sunshine Policy van betrokkenheid."
+        }
+      },
+      {
+        question: {
+          en: "Who was the first female Prime Minister of Israel?",
+          es: "¿Quién fue la primera mujer primera ministra de Israel?",
+          de: "Wer war die erste weibliche Premierministerin Israels?",
+          nl: "Wie was de eerste vrouwelijke premier van Israël?"
+        },
+        options: [
+          { en: "Golda Meir", es: "Golda Meir", de: "Golda Meir", nl: "Golda Meir" },
+          { en: "Tzipi Livni", es: "Tzipi Livni", de: "Tzipi Livni", nl: "Tzipi Livni" },
+          { en: "Yael Dayan", es: "Yael Dayan", de: "Yael Dayan", nl: "Yael Dayan" },
+          { en: "Shulamit Aloni", es: "Shulamit Aloni", de: "Shulamit Aloni", nl: "Shulamit Aloni" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Golda Meir served as Prime Minister from 1969-1974, becoming Israel's first and only female Prime Minister. She led Israel during the Yom Kippur War in 1973.",
+          es: "Golda Meir fue primera ministra de 1969 a 1974, convirtiéndose en la primera y única mujer primera ministra de Israel. Lideró Israel durante la Guerra del Yom Kippur en 1973.",
+          de: "Golda Meir war von 1969-1974 Premierministerin und wurde Israels erste und einzige weibliche Premierministerin. Sie führte Israel während des Jom-Kippur-Krieges 1973.",
+          nl: "Golda Meir was premier van 1969-1974 en werd Israëls eerste en enige vrouwelijke premier. Ze leidde Israël tijdens de Jom Kipoer-oorlog in 1973."
+        }
+      },
+      {
+        question: {
+          en: "Which Chinese leader introduced economic reforms and the 'Open Door Policy' in the late 1970s?",
+          es: "¿Qué líder chino introdujo reformas económicas y la 'Política de Puertas Abiertas' a fines de la década de 1970?",
+          de: "Welcher chinesische Führer führte Ende der 1970er Jahre Wirtschaftsreformen und die 'Politik der offenen Tür' ein?",
+          nl: "Welke Chinese leider introduceerde economische hervormingen en het 'Open Deur Beleid' eind jaren 1970?"
+        },
+        options: [
+          { en: "Deng Xiaoping", es: "Deng Xiaoping", de: "Deng Xiaoping", nl: "Deng Xiaoping" },
+          { en: "Mao Zedong", es: "Mao Zedong", de: "Mao Zedong", nl: "Mao Zedong" },
+          { en: "Jiang Zemin", es: "Jiang Zemin", de: "Jiang Zemin", nl: "Jiang Zemin" },
+          { en: "Hu Jintao", es: "Hu Jintao", de: "Hu Jintao", nl: "Hu Jintao" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Deng Xiaoping led China from 1978-1992, transforming the economy through market reforms while maintaining Communist Party control. His policies modernized China and lifted millions out of poverty.",
+          es: "Deng Xiaoping lideró China de 1978 a 1992, transformando la economía a través de reformas de mercado mientras mantenía el control del Partido Comunista. Sus políticas modernizaron China y sacaron a millones de la pobreza.",
+          de: "Deng Xiaoping führte China von 1978-1992 und transformierte die Wirtschaft durch Marktreformen bei gleichzeitiger Aufrechterhaltung der Kontrolle der Kommunistischen Partei. Seine Politiken modernisierten China und hoben Millionen aus der Armut.",
+          nl: "Deng Xiaoping leidde China van 1978-1992 en transformeerde de economie door markthervormingen terwijl hij de controle van de Communistische Partij handhaafde. Zijn beleid moderniseerde China en tilde miljoenen uit armoede."
+        }
+      },
+      {
+        question: {
+          en: "Who was the first President of Tanzania after independence?",
+          es: "¿Quién fue el primer presidente de Tanzania después de la independencia?",
+          de: "Wer war der erste Präsident Tansanias nach der Unabhängigkeit?",
+          nl: "Wie was de eerste president van Tanzania na de onafhankelijkheid?"
+        },
+        options: [
+          { en: "Julius Nyerere", es: "Julius Nyerere", de: "Julius Nyerere", nl: "Julius Nyerere" },
+          { en: "Ali Hassan Mwinyi", es: "Ali Hassan Mwinyi", de: "Ali Hassan Mwinyi", nl: "Ali Hassan Mwinyi" },
+          { en: "Benjamin Mkapa", es: "Benjamin Mkapa", de: "Benjamin Mkapa", nl: "Benjamin Mkapa" },
+          { en: "Jakaya Kikwete", es: "Jakaya Kikwete", de: "Jakaya Kikwete", nl: "Jakaya Kikwete" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Julius Nyerere served as Tanzania's first President from 1964-1985. Known as 'Mwalimu' (teacher), he promoted African socialism through his philosophy of Ujamaa and championed Pan-Africanism.",
+          es: "Julius Nyerere fue el primer presidente de Tanzania de 1964 a 1985. Conocido como 'Mwalimu' (maestro), promovió el socialismo africano a través de su filosofía de Ujamaa y defendió el panafricanismo.",
+          de: "Julius Nyerere war von 1964-1985 Tansanias erster Präsident. Als 'Mwalimu' (Lehrer) bekannt, förderte er den afrikanischen Sozialismus durch seine Ujamaa-Philosophie und setzte sich für den Panafrikanismus ein.",
+          nl: "Julius Nyerere was van 1964-1985 Tanzania's eerste president. Bekend als 'Mwalimu' (leraar), promootte hij Afrikaans socialisme door zijn Ujamaa-filosofie en verdedigde Pan-Afrikanisme."
+        }
+      },
+      {
+        question: {
+          en: "Which Swedish Prime Minister was assassinated in 1986 while walking home from a cinema?",
+          es: "¿Qué primer ministro sueco fue asesinado en 1986 mientras caminaba a casa desde un cine?",
+          de: "Welcher schwedische Premierminister wurde 1986 auf dem Heimweg vom Kino ermordet?",
+          nl: "Welke Zweedse premier werd in 1986 vermoord terwijl hij naar huis liep vanaf een bioscoop?"
+        },
+        options: [
+          { en: "Olof Palme", es: "Olof Palme", de: "Olof Palme", nl: "Olof Palme" },
+          { en: "Tage Erlander", es: "Tage Erlander", de: "Tage Erlander", nl: "Tage Erlander" },
+          { en: "Ingvar Carlsson", es: "Ingvar Carlsson", de: "Ingvar Carlsson", nl: "Ingvar Carlsson" },
+          { en: "Göran Persson", es: "Göran Persson", de: "Göran Persson", nl: "Göran Persson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Olof Palme was assassinated on February 28, 1986, in central Stockholm. A champion of social democracy and international solidarity, his murder remains one of Sweden's greatest unsolved mysteries.",
+          es: "Olof Palme fue asesinado el 28 de febrero de 1986 en el centro de Estocolmo. Un campeón de la democracia social y la solidaridad internacional, su asesinato sigue siendo uno de los mayores misterios sin resolver de Suecia.",
+          de: "Olof Palme wurde am 28. Februar 1986 im Zentrum von Stockholm ermordet. Ein Verfechter der Sozialdemokratie und internationalen Solidarität, sein Mord bleibt eines der größten ungelösten Mysterien Schwedens.",
+          nl: "Olof Palme werd vermoord op 28 februari 1986 in het centrum van Stockholm. Een voorvechter van sociaaldemocratie en internationale solidariteit, zijn moord blijft een van Zwedens grootste onopgeloste mysteries."
         }
       }
     ]

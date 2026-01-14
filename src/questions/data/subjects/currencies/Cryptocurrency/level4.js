@@ -426,6 +426,406 @@
           es: "El almacenamiento caliente se refiere a billeteras de criptomonedas conectadas a internet, haciéndolas convenientes pero más vulnerables al hackeo. El almacenamiento frío mantiene las llaves privadas fuera de línea (billeteras hardware, billeteras de papel), proporcionando mejor seguridad a costa de conveniencia.",
           de: "Heiße Speicherung bezieht sich auf Kryptowährungs-Wallets, die mit dem Internet verbunden sind, was sie bequem, aber anfälliger für Hacking macht. Kalte Speicherung hält private Schlüssel offline (Hardware-Wallets, Papier-Wallets) und bietet bessere Sicherheit auf Kosten der Bequemlichkeit.",
           nl: "Hot storage verwijst naar cryptocurrency wallets die verbonden zijn met het internet, waardoor ze handig maar kwetsbaarder voor hacking zijn. Cold storage houdt private keys offline (hardware wallets, papieren wallets), wat betere beveiliging biedt ten koste van gemak."
+        }      },
+      {
+        question: {
+          en: "Who created Bitcoin?",
+          es: "Who created Bitcoin?",
+          de: "Who created Bitcoin?",
+          nl: "Who created Bitcoin?"
+        },
+        options: [
+          { en: "Satoshi Nakamoto", es: "Satoshi Nakamoto", de: "Satoshi Nakamoto", nl: "Satoshi Nakamoto" },
+          { en: "Vitalik Buterin", es: "Vitalik Buterin", de: "Vitalik Buterin", nl: "Vitalik Buterin" },
+          { en: "Charlie Lee", es: "Charlie Lee", de: "Charlie Lee", nl: "Charlie Lee" },
+          { en: "Gavin Andresen", es: "Gavin Andresen", de: "Gavin Andresen", nl: "Gavin Andresen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Satoshi Nakamoto is the pseudonymous creator of Bitcoin, first released in 2009.",
+          es: "Satoshi Nakamoto is the pseudonymous creator of Bitcoin, first released in 2009.",
+          de: "Satoshi Nakamoto is the pseudonymous creator of Bitcoin, first released in 2009.",
+          nl: "Satoshi Nakamoto is the pseudonymous creator of Bitcoin, first released in 2009."
+        }      },
+      {
+        question: {
+          en: "What is Ethereum's native cryptocurrency?",
+          es: "What is Ethereum's native cryptocurrency?",
+          de: "What is Ethereum's native cryptocurrency?",
+          nl: "What is Ethereum's native cryptocurrency?"
+        },
+        options: [
+          { en: "Ether (ETH)", es: "Ether (ETH)", de: "Ether (ETH)", nl: "Ether (ETH)" },
+          { en: "Bitcoin (BTC)", es: "Bitcoin (BTC)", de: "Bitcoin (BTC)", nl: "Bitcoin (BTC)" },
+          { en: "Litecoin (LTC)", es: "Litecoin (LTC)", de: "Litecoin (LTC)", nl: "Litecoin (LTC)" },
+          { en: "Ripple (XRP)", es: "Ripple (XRP)", de: "Ripple (XRP)", nl: "Ripple (XRP)" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ether (ETH) is the native cryptocurrency of the Ethereum blockchain launched in 2015.",
+          es: "Ether (ETH) is the native cryptocurrency of the Ethereum blockchain launched in 2015.",
+          de: "Ether (ETH) is the native cryptocurrency of the Ethereum blockchain launched in 2015.",
+          nl: "Ether (ETH) is the native cryptocurrency of the Ethereum blockchain launched in 2015."
+        }      },
+      {
+        question: {
+          en: "What consensus mechanism does Bitcoin use?",
+          es: "What consensus mechanism does Bitcoin use?",
+          de: "What consensus mechanism does Bitcoin use?",
+          nl: "What consensus mechanism does Bitcoin use?"
+        },
+        options: [
+          { en: "Proof of Work", es: "Proof of Work", de: "Proof of Work", nl: "Proof of Work" },
+          { en: "Proof of Stake", es: "Proof of Stake", de: "Proof of Stake", nl: "Proof of Stake" },
+          { en: "Delegated Proof of Stake", es: "Delegated Proof of Stake", de: "Delegated Proof of Stake", nl: "Delegated Proof of Stake" },
+          { en: "Proof of Authority", es: "Proof of Authority", de: "Proof of Authority", nl: "Proof of Authority" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bitcoin uses Proof of Work consensus requiring miners to solve cryptographic puzzles.",
+          es: "Bitcoin uses Proof of Work consensus requiring miners to solve cryptographic puzzles.",
+          de: "Bitcoin uses Proof of Work consensus requiring miners to solve cryptographic puzzles.",
+          nl: "Bitcoin uses Proof of Work consensus requiring miners to solve cryptographic puzzles."
+        }      },
+      {
+        question: {
+          en: "What is a blockchain?",
+          es: "What is a blockchain?",
+          de: "What is a blockchain?",
+          nl: "What is a blockchain?"
+        },
+        options: [
+          { en: "Distributed ledger of transactions", es: "Distributed ledger of transactions", de: "Distributed ledger of transactions", nl: "Distributed ledger of transactions" },
+          { en: "Centralized database", es: "Centralized database", de: "Centralized database", nl: "Centralized database" },
+          { en: "Cloud storage", es: "Cloud storage", de: "Cloud storage", nl: "Cloud storage" },
+          { en: "Payment processor", es: "Payment processor", de: "Payment processor", nl: "Payment processor" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A blockchain is a distributed ledger that records transactions across multiple computers.",
+          es: "A blockchain is a distributed ledger that records transactions across multiple computers.",
+          de: "A blockchain is a distributed ledger that records transactions across multiple computers.",
+          nl: "A blockchain is a distributed ledger that records transactions across multiple computers."
+        }      },
+      {
+        question: {
+          en: "What is cryptocurrency mining?",
+          es: "What is cryptocurrency mining?",
+          de: "What is cryptocurrency mining?",
+          nl: "What is cryptocurrency mining?"
+        },
+        options: [
+          { en: "Validating transactions and creating new coins", es: "Validating transactions and creating new coins", de: "Validating transactions and creating new coins", nl: "Validating transactions and creating new coins" },
+          { en: "Buying coins on exchanges", es: "Buying coins on exchanges", de: "Buying coins on exchanges", nl: "Buying coins on exchanges" },
+          { en: "Trading coins for profit", es: "Trading coins for profit", de: "Trading coins for profit", nl: "Trading coins for profit" },
+          { en: "Storing coins in wallets", es: "Storing coins in wallets", de: "Storing coins in wallets", nl: "Storing coins in wallets" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cryptocurrency mining involves validating transactions and being rewarded with new coins.",
+          es: "Cryptocurrency mining involves validating transactions and being rewarded with new coins.",
+          de: "Cryptocurrency mining involves validating transactions and being rewarded with new coins.",
+          nl: "Cryptocurrency mining involves validating transactions and being rewarded with new coins."
+        }      },
+      {
+        question: {
+          en: "What is a cryptocurrency wallet?",
+          es: "What is a cryptocurrency wallet?",
+          de: "What is a cryptocurrency wallet?",
+          nl: "What is a cryptocurrency wallet?"
+        },
+        options: [
+          { en: "Software storing private keys", es: "Software storing private keys", de: "Software storing private keys", nl: "Software storing private keys" },
+          { en: "Physical coin storage", es: "Physical coin storage", de: "Physical coin storage", nl: "Physical coin storage" },
+          { en: "Bank account", es: "Bank account", de: "Bank account", nl: "Bank account" },
+          { en: "Trading platform", es: "Trading platform", de: "Trading platform", nl: "Trading platform" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A cryptocurrency wallet is software that stores the private keys needed to access your coins.",
+          es: "A cryptocurrency wallet is software that stores the private keys needed to access your coins.",
+          de: "A cryptocurrency wallet is software that stores the private keys needed to access your coins.",
+          nl: "A cryptocurrency wallet is software that stores the private keys needed to access your coins."
+        }      },
+      {
+        question: {
+          en: "What is an altcoin?",
+          es: "What is an altcoin?",
+          de: "What is an altcoin?",
+          nl: "What is an altcoin?"
+        },
+        options: [
+          { en: "Any cryptocurrency other than Bitcoin", es: "Any cryptocurrency other than Bitcoin", de: "Any cryptocurrency other than Bitcoin", nl: "Any cryptocurrency other than Bitcoin" },
+          { en: "Only Bitcoin", es: "Only Bitcoin", de: "Only Bitcoin", nl: "Only Bitcoin" },
+          { en: "Physical coins", es: "Physical coins", de: "Physical coins", nl: "Physical coins" },
+          { en: "Government currencies", es: "Government currencies", de: "Government currencies", nl: "Government currencies" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "An altcoin is any cryptocurrency alternative to Bitcoin, such as Ethereum or Litecoin.",
+          es: "An altcoin is any cryptocurrency alternative to Bitcoin, such as Ethereum or Litecoin.",
+          de: "An altcoin is any cryptocurrency alternative to Bitcoin, such as Ethereum or Litecoin.",
+          nl: "An altcoin is any cryptocurrency alternative to Bitcoin, such as Ethereum or Litecoin."
+        }      },
+      {
+        question: {
+          en: "What is a cryptocurrency exchange?",
+          es: "What is a cryptocurrency exchange?",
+          de: "What is a cryptocurrency exchange?",
+          nl: "What is a cryptocurrency exchange?"
+        },
+        options: [
+          { en: "Platform for buying and selling crypto", es: "Platform for buying and selling crypto", de: "Platform for buying and selling crypto", nl: "Platform for buying and selling crypto" },
+          { en: "Mining operation", es: "Mining operation", de: "Mining operation", nl: "Mining operation" },
+          { en: "Wallet provider", es: "Wallet provider", de: "Wallet provider", nl: "Wallet provider" },
+          { en: "Blockchain network", es: "Blockchain network", de: "Blockchain network", nl: "Blockchain network" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A cryptocurrency exchange is a platform where users can buy, sell, and trade cryptocurrencies.",
+          es: "A cryptocurrency exchange is a platform where users can buy, sell, and trade cryptocurrencies.",
+          de: "A cryptocurrency exchange is a platform where users can buy, sell, and trade cryptocurrencies.",
+          nl: "A cryptocurrency exchange is a platform where users can buy, sell, and trade cryptocurrencies."
+        }      },
+      {
+        question: {
+          en: "What does ICO stand for?",
+          es: "What does ICO stand for?",
+          de: "What does ICO stand for?",
+          nl: "What does ICO stand for?"
+        },
+        options: [
+          { en: "Initial Coin Offering", es: "Initial Coin Offering", de: "Initial Coin Offering", nl: "Initial Coin Offering" },
+          { en: "International Crypto Organization", es: "International Crypto Organization", de: "International Crypto Organization", nl: "International Crypto Organization" },
+          { en: "Internet Currency Option", es: "Internet Currency Option", de: "Internet Currency Option", nl: "Internet Currency Option" },
+          { en: "Investment Coin Operation", es: "Investment Coin Operation", de: "Investment Coin Operation", nl: "Investment Coin Operation" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "ICO stands for Initial Coin Offering, a fundraising method for new cryptocurrencies.",
+          es: "ICO stands for Initial Coin Offering, a fundraising method for new cryptocurrencies.",
+          de: "ICO stands for Initial Coin Offering, a fundraising method for new cryptocurrencies.",
+          nl: "ICO stands for Initial Coin Offering, a fundraising method for new cryptocurrencies."
+        }      },
+      {
+        question: {
+          en: "What is a private key?",
+          es: "What is a private key?",
+          de: "What is a private key?",
+          nl: "What is a private key?"
+        },
+        options: [
+          { en: "Secret code accessing your cryptocurrency", es: "Secret code accessing your cryptocurrency", de: "Secret code accessing your cryptocurrency", nl: "Secret code accessing your cryptocurrency" },
+          { en: "Public wallet address", es: "Public wallet address", de: "Public wallet address", nl: "Public wallet address" },
+          { en: "Exchange password", es: "Exchange password", de: "Exchange password", nl: "Exchange password" },
+          { en: "Mining equipment", es: "Mining equipment", de: "Mining equipment", nl: "Mining equipment" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A private key is a secret alphanumeric code that allows you to access and spend your cryptocurrency.",
+          es: "A private key is a secret alphanumeric code that allows you to access and spend your cryptocurrency.",
+          de: "A private key is a secret alphanumeric code that allows you to access and spend your cryptocurrency.",
+          nl: "A private key is a secret alphanumeric code that allows you to access and spend your cryptocurrency."
+        }      },
+      {
+        question: {
+          en: "What is market capitalization in crypto?",
+          es: "What is market capitalization in crypto?",
+          de: "What is market capitalization in crypto?",
+          nl: "What is market capitalization in crypto?"
+        },
+        options: [
+          { en: "Total value of all coins in circulation", es: "Total value of all coins in circulation", de: "Total value of all coins in circulation", nl: "Total value of all coins in circulation" },
+          { en: "Daily trading volume", es: "Daily trading volume", de: "Daily trading volume", nl: "Daily trading volume" },
+          { en: "Number of coins mined", es: "Number of coins mined", de: "Number of coins mined", nl: "Number of coins mined" },
+          { en: "Exchange listing price", es: "Exchange listing price", de: "Exchange listing price", nl: "Exchange listing price" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Market cap is calculated by multiplying the current price by the total number of coins in circulation.",
+          es: "Market cap is calculated by multiplying the current price by the total number of coins in circulation.",
+          de: "Market cap is calculated by multiplying the current price by the total number of coins in circulation.",
+          nl: "Market cap is calculated by multiplying the current price by the total number of coins in circulation."
+        }      },
+      {
+        question: {
+          en: "What is a stablecoin?",
+          es: "What is a stablecoin?",
+          de: "What is a stablecoin?",
+          nl: "What is a stablecoin?"
+        },
+        options: [
+          { en: "Cryptocurrency pegged to stable asset", es: "Cryptocurrency pegged to stable asset", de: "Cryptocurrency pegged to stable asset", nl: "Cryptocurrency pegged to stable asset" },
+          { en: "Very old cryptocurrency", es: "Very old cryptocurrency", de: "Very old cryptocurrency", nl: "Very old cryptocurrency" },
+          { en: "Government-issued crypto", es: "Government-issued crypto", de: "Government-issued crypto", nl: "Government-issued crypto" },
+          { en: "Most valuable coin", es: "Most valuable coin", de: "Most valuable coin", nl: "Most valuable coin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A stablecoin is cryptocurrency designed to maintain stable value by being pegged to assets like USD.",
+          es: "A stablecoin is cryptocurrency designed to maintain stable value by being pegged to assets like USD.",
+          de: "A stablecoin is cryptocurrency designed to maintain stable value by being pegged to assets like USD.",
+          nl: "A stablecoin is cryptocurrency designed to maintain stable value by being pegged to assets like USD."
+        }      },
+      {
+        question: {
+          en: "What is DeFi?",
+          es: "What is DeFi?",
+          de: "What is DeFi?",
+          nl: "What is DeFi?"
+        },
+        options: [
+          { en: "Decentralized Finance", es: "Decentralized Finance", de: "Decentralized Finance", nl: "Decentralized Finance" },
+          { en: "Digital Finance", es: "Digital Finance", de: "Digital Finance", nl: "Digital Finance" },
+          { en: "Direct Finance", es: "Direct Finance", de: "Direct Finance", nl: "Direct Finance" },
+          { en: "Distributed Finance", es: "Distributed Finance", de: "Distributed Finance", nl: "Distributed Finance" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "DeFi (Decentralized Finance) refers to financial services built on blockchain without intermediaries.",
+          es: "DeFi (Decentralized Finance) refers to financial services built on blockchain without intermediaries.",
+          de: "DeFi (Decentralized Finance) refers to financial services built on blockchain without intermediaries.",
+          nl: "DeFi (Decentralized Finance) refers to financial services built on blockchain without intermediaries."
+        }      },
+      {
+        question: {
+          en: "What is a smart contract?",
+          es: "What is a smart contract?",
+          de: "What is a smart contract?",
+          nl: "What is a smart contract?"
+        },
+        options: [
+          { en: "Self-executing contract on blockchain", es: "Self-executing contract on blockchain", de: "Self-executing contract on blockchain", nl: "Self-executing contract on blockchain" },
+          { en: "Paper contract", es: "Paper contract", de: "Paper contract", nl: "Paper contract" },
+          { en: "Lawyer agreement", es: "Lawyer agreement", de: "Lawyer agreement", nl: "Lawyer agreement" },
+          { en: "Trading bot", es: "Trading bot", de: "Trading bot", nl: "Trading bot" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A smart contract is self-executing code on blockchain that automatically enforces agreement terms.",
+          es: "A smart contract is self-executing code on blockchain that automatically enforces agreement terms.",
+          de: "A smart contract is self-executing code on blockchain that automatically enforces agreement terms.",
+          nl: "A smart contract is self-executing code on blockchain that automatically enforces agreement terms."
+        }      },
+      {
+        question: {
+          en: "What is cryptocurrency halving?",
+          es: "What is cryptocurrency halving?",
+          de: "What is cryptocurrency halving?",
+          nl: "What is cryptocurrency halving?"
+        },
+        options: [
+          { en: "Reduction in mining rewards", es: "Reduction in mining rewards", de: "Reduction in mining rewards", nl: "Reduction in mining rewards" },
+          { en: "Splitting coins in half", es: "Splitting coins in half", de: "Splitting coins in half", nl: "Splitting coins in half" },
+          { en: "Market crash", es: "Market crash", de: "Market crash", nl: "Market crash" },
+          { en: "Exchange closure", es: "Exchange closure", de: "Exchange closure", nl: "Exchange closure" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Halving is when mining rewards are cut in half, occurring approximately every four years for Bitcoin.",
+          es: "Halving is when mining rewards are cut in half, occurring approximately every four years for Bitcoin.",
+          de: "Halving is when mining rewards are cut in half, occurring approximately every four years for Bitcoin.",
+          nl: "Halving is when mining rewards are cut in half, occurring approximately every four years for Bitcoin."
+        }      },
+      {
+        question: {
+          en: "What does HODL mean?",
+          es: "What does HODL mean?",
+          de: "What does HODL mean?",
+          nl: "What does HODL mean?"
+        },
+        options: [
+          { en: "Hold cryptocurrency long-term", es: "Hold cryptocurrency long-term", de: "Hold cryptocurrency long-term", nl: "Hold cryptocurrency long-term" },
+          { en: "Buy cryptocurrency", es: "Buy cryptocurrency", de: "Buy cryptocurrency", nl: "Buy cryptocurrency" },
+          { en: "Sell cryptocurrency", es: "Sell cryptocurrency", de: "Sell cryptocurrency", nl: "Sell cryptocurrency" },
+          { en: "Mine cryptocurrency", es: "Mine cryptocurrency", de: "Mine cryptocurrency", nl: "Mine cryptocurrency" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "HODL originated from a misspelled 'hold' and means holding cryptocurrency long-term despite volatility.",
+          es: "HODL originated from a misspelled 'hold' and means holding cryptocurrency long-term despite volatility.",
+          de: "HODL originated from a misspelled 'hold' and means holding cryptocurrency long-term despite volatility.",
+          nl: "HODL originated from a misspelled 'hold' and means holding cryptocurrency long-term despite volatility."
+        }      },
+      {
+        question: {
+          en: "What is a cryptocurrency fork?",
+          es: "What is a cryptocurrency fork?",
+          de: "What is a cryptocurrency fork?",
+          nl: "What is a cryptocurrency fork?"
+        },
+        options: [
+          { en: "Split creating new blockchain version", es: "Split creating new blockchain version", de: "Split creating new blockchain version", nl: "Split creating new blockchain version" },
+          { en: "Mining tool", es: "Mining tool", de: "Mining tool", nl: "Mining tool" },
+          { en: "Wallet type", es: "Wallet type", de: "Wallet type", nl: "Wallet type" },
+          { en: "Trading strategy", es: "Trading strategy", de: "Trading strategy", nl: "Trading strategy" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A fork occurs when a blockchain splits into two separate chains with different rules.",
+          es: "A fork occurs when a blockchain splits into two separate chains with different rules.",
+          de: "A fork occurs when a blockchain splits into two separate chains with different rules.",
+          nl: "A fork occurs when a blockchain splits into two separate chains with different rules."
+        }      },
+      {
+        question: {
+          en: "What is gas fee in Ethereum?",
+          es: "What is gas fee in Ethereum?",
+          de: "What is gas fee in Ethereum?",
+          nl: "What is gas fee in Ethereum?"
+        },
+        options: [
+          { en: "Transaction processing cost", es: "Transaction processing cost", de: "Transaction processing cost", nl: "Transaction processing cost" },
+          { en: "Storage cost", es: "Storage cost", de: "Storage cost", nl: "Storage cost" },
+          { en: "Mining reward", es: "Mining reward", de: "Mining reward", nl: "Mining reward" },
+          { en: "Wallet fee", es: "Wallet fee", de: "Wallet fee", nl: "Wallet fee" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gas fees are payments made to compensate for computing energy required to process Ethereum transactions.",
+          es: "Gas fees are payments made to compensate for computing energy required to process Ethereum transactions.",
+          de: "Gas fees are payments made to compensate for computing energy required to process Ethereum transactions.",
+          nl: "Gas fees are payments made to compensate for computing energy required to process Ethereum transactions."
+        }      },
+      {
+        question: {
+          en: "What is an NFT?",
+          es: "What is an NFT?",
+          de: "What is an NFT?",
+          nl: "What is an NFT?"
+        },
+        options: [
+          { en: "Non-Fungible Token", es: "Non-Fungible Token", de: "Non-Fungible Token", nl: "Non-Fungible Token" },
+          { en: "New Finance Token", es: "New Finance Token", de: "New Finance Token", nl: "New Finance Token" },
+          { en: "Network Function Token", es: "Network Function Token", de: "Network Function Token", nl: "Network Function Token" },
+          { en: "National Fund Token", es: "National Fund Token", de: "National Fund Token", nl: "National Fund Token" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "NFT (Non-Fungible Token) represents unique digital assets on blockchain, unlike fungible cryptocurrencies.",
+          es: "NFT (Non-Fungible Token) represents unique digital assets on blockchain, unlike fungible cryptocurrencies.",
+          de: "NFT (Non-Fungible Token) represents unique digital assets on blockchain, unlike fungible cryptocurrencies.",
+          nl: "NFT (Non-Fungible Token) represents unique digital assets on blockchain, unlike fungible cryptocurrencies."
+        }      },
+      {
+        question: {
+          en: "What is cryptocurrency volatility?",
+          es: "What is cryptocurrency volatility?",
+          de: "What is cryptocurrency volatility?",
+          nl: "What is cryptocurrency volatility?"
+        },
+        options: [
+          { en: "Price fluctuation intensity", es: "Price fluctuation intensity", de: "Price fluctuation intensity", nl: "Price fluctuation intensity" },
+          { en: "Transaction speed", es: "Transaction speed", de: "Transaction speed", nl: "Transaction speed" },
+          { en: "Mining difficulty", es: "Mining difficulty", de: "Mining difficulty", nl: "Mining difficulty" },
+          { en: "Market size", es: "Market size", de: "Market size", nl: "Market size" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Volatility measures how much and how quickly cryptocurrency prices change over time.",
+          es: "Volatility measures how much and how quickly cryptocurrency prices change over time.",
+          de: "Volatility measures how much and how quickly cryptocurrency prices change over time.",
+          nl: "Volatility measures how much and how quickly cryptocurrency prices change over time."
         }
       }
     ]

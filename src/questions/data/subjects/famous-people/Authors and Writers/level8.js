@@ -1,4 +1,4 @@
-﻿// Authors and Writers Quiz - Level 8: Knowledge about Authors and Writers
+// Authors and Writers Quiz - Level 8: Knowledge about Authors and Writers
 (function() {
   const level8 = {
     name: {
@@ -426,6 +426,237 @@
           es: "David Foster Wallace escribió 'Infinite Jest' en 1996, una novela compleja ambientada en una América del Norte del futuro cercano que explora temas de adicción, entretenimiento y la búsqueda de sentido. El libro es conocido por sus extensas notas al pie y su desafiante estructura narrativa.",
           de: "David Foster Wallace schrieb 'Infinite Jest' 1996, einen komplexen Roman in einem nahen zukünftigen Nordamerika der Themen von Sucht, Unterhaltung und die Suche nach Bedeutung erforscht. Das Buch ist bekannt für seine umfangreichen Fußnoten und herausfordernde narrative Struktur.",
           nl: "David Foster Wallace schreef 'Infinite Jest' in 1996, een complexe roman die zich afspeelt in een nabije toekomst Noord-Amerika en thema's van verslaving, entertainment en de zoektocht naar betekenis verkent. Het boek staat bekend om zijn uitgebreide voetnoten en uitdagende narratieve structuur."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'A Clockwork Orange', a dystopian novel about youth violence and free will?",
+          es: "¿Quién escribió 'La naranja mecánica', una novela distópica sobre violencia juvenil y libre albedrío?",
+          de: "Wer schrieb 'Uhrwerk Orange', einen dystopischen Roman über Jugendgewalt und freien Willen?",
+          nl: "Wie schreef 'A Clockwork Orange', een dystopische roman over jeugdgeweld en vrije wil?"
+        },
+        options: [
+          {en: "Anthony Burgess", es: "Anthony Burgess", de: "Anthony Burgess", nl: "Anthony Burgess"},
+          {en: "J.G. Ballard", es: "J.G. Ballard", de: "J.G. Ballard", nl: "J.G. Ballard"},
+          {en: "Philip K. Dick", es: "Philip K. Dick", de: "Philip K. Dick", nl: "Philip K. Dick"},
+          {en: "William Golding", es: "William Golding", de: "William Golding", nl: "William Golding"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Anthony Burgess wrote 'A Clockwork Orange' in 1962. The novel explores themes of free will, morality, and state control through the story of Alex, a violent teenager subjected to psychological conditioning.",
+          es: "Anthony Burgess escribió 'La naranja mecánica' en 1962. La novela explora temas de libre albedrío, moralidad y control estatal a través de la historia de Alex, un adolescente violento sometido a condicionamiento psicológico.",
+          de: "Anthony Burgess schrieb 'Uhrwerk Orange' 1962. Der Roman erforscht Themen des freien Willens, der Moral und staatlicher Kontrolle durch die Geschichte von Alex, einem gewalttätigen Teenager der psychologischer Konditionierung unterzogen wird.",
+          nl: "Anthony Burgess schreef 'A Clockwork Orange' in 1962. De roman verkent thema's van vrije wil, moraliteit en staatscontrole door het verhaal van Alex, een gewelddadige tiener onderworpen aan psychologische conditionering."
+        }
+      },
+      {
+        question: {
+          en: "Which British author wrote 'Never Let Me Go', a science fiction novel about cloned children?",
+          es: "¿Qué autor británico escribió 'Nunca me abandones', una novela de ciencia ficción sobre niños clonados?",
+          de: "Welcher britische Autor schrieb 'Alles, was wir geben mussten', einen Science-Fiction-Roman über geklonte Kinder?",
+          nl: "Welke Britse auteur schreef 'Never Let Me Go', een sciencefictionroman over gekloonde kinderen?"
+        },
+        options: [
+          {en: "Ian McEwan", es: "Ian McEwan", de: "Ian McEwan", nl: "Ian McEwan"},
+          {en: "Kazuo Ishiguro", es: "Kazuo Ishiguro", de: "Kazuo Ishiguro", nl: "Kazuo Ishiguro"},
+          {en: "Julian Barnes", es: "Julian Barnes", de: "Julian Barnes", nl: "Julian Barnes"},
+          {en: "Zadie Smith", es: "Zadie Smith", de: "Zadie Smith", nl: "Zadie Smith"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Kazuo Ishiguro wrote 'Never Let Me Go' in 2005. The novel explores themes of humanity, mortality, and ethics through the story of cloned children raised to donate their organs. Ishiguro won the Nobel Prize in Literature in 2017.",
+          es: "Kazuo Ishiguro escribió 'Nunca me abandones' en 2005. La novela explora temas de humanidad, mortalidad y ética a través de la historia de niños clonados criados para donar sus órganos. Ishiguro ganó el Premio Nobel de Literatura en 2017.",
+          de: "Kazuo Ishiguro schrieb 'Alles, was wir geben mussten' 2005. Der Roman erforscht Themen der Menschlichkeit, Sterblichkeit und Ethik durch die Geschichte geklonter Kinder die zur Organspende aufgezogen werden. Ishiguro gewann 2017 den Nobelpreis für Literatur.",
+          nl: "Kazuo Ishiguro schreef 'Never Let Me Go' in 2005. De roman verkent thema's van menselijkheid, sterfelijkheid en ethiek door het verhaal van gekloonde kinderen grootgebracht om hun organen te doneren. Ishiguro won de Nobelprijs voor Literatuur in 2017."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'Life of Pi', a novel about a boy stranded at sea with a Bengal tiger?",
+          es: "¿Quién escribió 'La vida de Pi', una novela sobre un niño varado en el mar con un tigre de Bengala?",
+          de: "Wer schrieb 'Schiffbruch mit Tiger', einen Roman über einen Jungen der mit einem Bengalischen Tiger auf See gestrandet ist?",
+          nl: "Wie schreef 'Life of Pi', een roman over een jongen gestrand op zee met een Bengaalse tijger?"
+        },
+        options: [
+          {en: "Yann Martel", es: "Yann Martel", de: "Yann Martel", nl: "Yann Martel"},
+          {en: "Rohinton Mistry", es: "Rohinton Mistry", de: "Rohinton Mistry", nl: "Rohinton Mistry"},
+          {en: "Michael Ondaatje", es: "Michael Ondaatje", de: "Michael Ondaatje", nl: "Michael Ondaatje"},
+          {en: "Amitav Ghosh", es: "Amitav Ghosh", de: "Amitav Ghosh", nl: "Amitav Ghosh"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Yann Martel wrote 'Life of Pi' in 2001, which won the Man Booker Prize. The novel tells the story of Pi Patel's 227 days at sea with Richard Parker, a Bengal tiger, exploring themes of faith, survival, and storytelling.",
+          es: "Yann Martel escribió 'La vida de Pi' en 2001, que ganó el Premio Man Booker. La novela cuenta la historia de los 227 días de Pi Patel en el mar con Richard Parker, un tigre de Bengala, explorando temas de fe, supervivencia y narración.",
+          de: "Yann Martel schrieb 'Schiffbruch mit Tiger' 2001, das den Man Booker Prize gewann. Der Roman erzählt die Geschichte von Pi Patels 227 Tagen auf See mit Richard Parker, einem Bengalischen Tiger, erforscht Themen von Glaube, Überleben und Erzählen.",
+          nl: "Yann Martel schreef 'Life of Pi' in 2001, dat de Man Booker Prize won. De roman vertelt het verhaal van Pi Patel's 227 dagen op zee met Richard Parker, een Bengaalse tijger, verkent thema's van geloof, overleving en verhalen vertellen."
+        }
+      },
+      {
+        question: {
+          en: "Which Turkish author wrote 'My Name Is Red', a historical murder mystery set in 16th-century Istanbul?",
+          es: "¿Qué autor turco escribió 'Me llamo Rojo', un misterio de asesinato histórico ambientado en Estambul del siglo XVI?",
+          de: "Welcher türkische Autor schrieb 'Mein Name ist Rot', einen historischen Krimi im Istanbul des 16. Jahrhunderts?",
+          nl: "Welke Turkse auteur schreef 'My Name Is Red', een historisch moordmysterie in het 16e-eeuwse Istanbul?"
+        },
+        options: [
+          {en: "Orhan Pamuk", es: "Orhan Pamuk", de: "Orhan Pamuk", nl: "Orhan Pamuk"},
+          {en: "Elif Shafak", es: "Elif Shafak", de: "Elif Shafak", nl: "Elif Shafak"},
+          {en: "Yashar Kemal", es: "Yashar Kemal", de: "Yashar Kemal", nl: "Yashar Kemal"},
+          {en: "Nazim Hikmet", es: "Nazim Hikmet", de: "Nazim Hikmet", nl: "Nazim Hikmet"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Orhan Pamuk wrote 'My Name Is Red' in 1998, which won the Nobel Prize in Literature in 2006. The novel explores art, identity, and cultural conflict through a murder mystery involving Ottoman miniaturist painters.",
+          es: "Orhan Pamuk escribió 'Me llamo Rojo' en 1998, ganó el Premio Nobel de Literatura en 2006. La novela explora arte, identidad y conflicto cultural a través de un misterio de asesinato involucrando pintores miniaturistas otomanos.",
+          de: "Orhan Pamuk schrieb 'Mein Name ist Rot' 1998, gewann 2006 den Nobelpreis für Literatur. Der Roman erforscht Kunst, Identität und kulturellen Konflikt durch einen Mord-Krimi über osmanische Miniaturmaler.",
+          nl: "Orhan Pamuk schreef 'My Name Is Red' in 1998, won de Nobelprijs voor Literatuur in 2006. De roman verkent kunst, identiteit en cultureel conflict door een moordmysterie met Ottomaanse miniatuurschilders."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'The Underground Railroad', reimagining the historical network as an actual railroad?",
+          es: "¿Quién escribió 'El ferrocarril subterráneo', reimaginando la red histórica como un ferrocarril real?",
+          de: "Wer schrieb 'Underground Railroad', das historische Netzwerk als echte Eisenbahn neuimaginierend?",
+          nl: "Wie schreef 'The Underground Railroad', waarbij het historische netwerk wordt herschapen als een echte spoorlijn?"
+        },
+        options: [
+          {en: "Ta-Nehisi Coates", es: "Ta-Nehisi Coates", de: "Ta-Nehisi Coates", nl: "Ta-Nehisi Coates"},
+          {en: "Colson Whitehead", es: "Colson Whitehead", de: "Colson Whitehead", nl: "Colson Whitehead"},
+          {en: "James McBride", es: "James McBride", de: "James McBride", nl: "James McBride"},
+          {en: "Jesmyn Ward", es: "Jesmyn Ward", de: "Jesmyn Ward", nl: "Jesmyn Ward"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Colson Whitehead wrote 'The Underground Railroad' in 2016, which won both the Pulitzer Prize and the National Book Award. The novel reimagines the Underground Railroad as a literal underground train system that helps slaves escape to freedom.",
+          es: "Colson Whitehead escribió 'El ferrocarril subterráneo' en 2016, que ganó tanto el Premio Pulitzer como el National Book Award. La novela reimagina el Ferrocarril Subterráneo como un sistema de trenes subterráneos literal que ayuda a los esclavos a escapar hacia la libertad.",
+          de: "Colson Whitehead schrieb 'Underground Railroad' 2016, das sowohl den Pulitzer-Preis als auch den National Book Award gewann. Der Roman reimaginiert die Underground Railroad als ein buchstäbliches unterirdisches Zugsystem das Sklaven zur Freiheit hilft.",
+          nl: "Colson Whitehead schreef 'The Underground Railroad' in 2016, dat zowel de Pulitzer Prize als de National Book Award won. De roman herschept de Underground Railroad als een letterlijk ondergronds treinsysteem dat slaven helpt ontsnappen naar vrijheid."
+        }
+      },
+      {
+        question: {
+          en: "Which Chilean poet wrote 'The Book of Questions', containing 316 unanswerable questions?",
+          es: "¿Qué poeta chileno escribió 'El libro de las preguntas', conteniendo 316 preguntas sin respuesta?",
+          de: "Welcher chilenische Dichter schrieb 'Das Buch der Fragen', enthaltend 316 unbeantwortbare Fragen?",
+          nl: "Welke Chileense dichter schreef 'The Book of Questions', met 316 onbeantwoordbare vragen?"
+        },
+        options: [
+          {en: "Gabriela Mistral", es: "Gabriela Mistral", de: "Gabriela Mistral", nl: "Gabriela Mistral"},
+          {en: "Pablo Neruda", es: "Pablo Neruda", de: "Pablo Neruda", nl: "Pablo Neruda"},
+          {en: "Nicanor Parra", es: "Nicanor Parra", de: "Nicanor Parra", nl: "Nicanor Parra"},
+          {en: "Vicente Huidobro", es: "Vicente Huidobro", de: "Vicente Huidobro", nl: "Vicente Huidobro"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Pablo Neruda wrote 'The Book of Questions' (Libro de las preguntas), published posthumously in 1974. The collection consists of 316 philosophical and whimsical questions that explore existence, nature, and the mysteries of life.",
+          es: "Pablo Neruda escribió 'El libro de las preguntas' (Libro de las preguntas), publicado póstumamente en 1974. La colección consiste en 316 preguntas filosóficas y caprichosas que exploran la existencia, naturaleza y los misterios de la vida.",
+          de: "Pablo Neruda schrieb 'Das Buch der Fragen' (Libro de las preguntas), posthum veröffentlicht 1974. Die Sammlung besteht aus 316 philosophischen und skurrilen Fragen die Existenz, Natur und die Geheimnisse des Lebens erforschen.",
+          nl: "Pablo Neruda schreef 'The Book of Questions' (Libro de las preguntas), postuum gepubliceerd in 1974. De collectie bestaat uit 316 filosofische en grillige vragen die bestaan, natuur en de mysteries van het leven verkennen."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'White Teeth', a multicultural novel set in London spanning several generations?",
+          es: "¿Quién escribió 'Dientes blancos', una novela multicultural ambientada en Londres abarcando varias generaciones?",
+          de: "Wer schrieb 'Zähne zeigen', einen multikulturellen Roman in London über mehrere Generationen?",
+          nl: "Wie schreef 'White Teeth', een multiculturele roman in Londen die verschillende generaties beslaat?"
+        },
+        options: [
+          {en: "Monica Ali", es: "Monica Ali", de: "Monica Ali", nl: "Monica Ali"},
+          {en: "Zadie Smith", es: "Zadie Smith", de: "Zadie Smith", nl: "Zadie Smith"},
+          {en: "Andrea Levy", es: "Andrea Levy", de: "Andrea Levy", nl: "Andrea Levy"},
+          {en: "Hanif Kureishi", es: "Hanif Kureishi", de: "Hanif Kureishi", nl: "Hanif Kureishi"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Zadie Smith wrote 'White Teeth' in 2000, her debut novel at age 24. The novel explores themes of immigration, multiculturalism, and identity through the lives of two families in London over several decades.",
+          es: "Zadie Smith escribió 'Dientes blancos' en 2000, su novela debut a los 24 años. La novela explora temas de inmigración, multiculturalismo e identidad a través de las vidas de dos familias en Londres durante varias décadas.",
+          de: "Zadie Smith schrieb 'Zähne zeigen' 2000, ihren Debütroman mit 24 Jahren. Der Roman erforscht Themen von Immigration, Multikulturalismus und Identität durch die Leben zweier Familien in London über mehrere Jahrzehnte.",
+          nl: "Zadie Smith schreef 'White Teeth' in 2000, haar debuutroman op 24-jarige leeftijd. De roman verkent thema's van immigratie, multiculturalisme en identiteit door de levens van twee families in Londen over verschillende decennia."
+        }
+      },
+      {
+        question: {
+          en: "Which Swedish author wrote the 'Millennium' trilogy featuring journalist Mikael Blomkvist?",
+          es: "¿Qué autor sueco escribió la trilogía 'Millennium' protagonizada por el periodista Mikael Blomkvist?",
+          de: "Welcher schwedische Autor schrieb die 'Millennium'-Trilogie mit dem Journalisten Mikael Blomkvist?",
+          nl: "Welke Zweedse auteur schreef de 'Millennium' trilogie met journalist Mikael Blomkvist?"
+        },
+        options: [
+          {en: "Henning Mankell", es: "Henning Mankell", de: "Henning Mankell", nl: "Henning Mankell"},
+          {en: "Stieg Larsson", es: "Stieg Larsson", de: "Stieg Larsson", nl: "Stieg Larsson"},
+          {en: "Jo Nesbø", es: "Jo Nesbø", de: "Jo Nesbø", nl: "Jo Nesbø"},
+          {en: "Camilla Läckberg", es: "Camilla Läckberg", de: "Camilla Läckberg", nl: "Camilla Läckberg"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Stieg Larsson wrote the 'Millennium' trilogy beginning with 'The Girl with the Dragon Tattoo' (2005). The series became an international bestseller, though Larsson died in 2004 before the first book was published.",
+          es: "Stieg Larsson escribió la trilogía 'Millennium' comenzando con 'Los hombres que no amaban a las mujeres' (2005). La serie se convirtió en un bestseller internacional, aunque Larsson murió en 2004 antes de que se publicara el primer libro.",
+          de: "Stieg Larsson schrieb die 'Millennium'-Trilogie beginnend mit 'Verblendung' (2005). Die Serie wurde ein internationaler Bestseller, obwohl Larsson 2004 starb bevor das erste Buch veröffentlicht wurde.",
+          nl: "Stieg Larsson schreef de 'Millennium' trilogie beginnend met 'The Girl with the Dragon Tattoo' (2005). De serie werd een internationale bestseller, hoewel Larsson in 2004 stierf voordat het eerste boek werd gepubliceerd."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'The Brief Wondrous Life of Oscar Wao', incorporating Dominican history and comic book culture?",
+          es: "¿Quién escribió 'La breve y maravillosa vida de Oscar Wao', incorporando historia dominicana y cultura del cómic?",
+          de: "Wer schrieb 'Das kurze wundersame Leben des Oscar Wao', das dominikanische Geschichte und Comic-Kultur einbezieht?",
+          nl: "Wie schreef 'The Brief Wondrous Life of Oscar Wao', waarbij Dominicaanse geschiedenis en stripcultuuur worden geïntegreerd?"
+        },
+        options: [
+          {en: "Julia Alvarez", es: "Julia Alvarez", de: "Julia Alvarez", nl: "Julia Alvarez"},
+          {en: "Junot Díaz", es: "Junot Díaz", de: "Junot Díaz", nl: "Junot Díaz"},
+          {en: "Sandra Cisneros", es: "Sandra Cisneros", de: "Sandra Cisneros", nl: "Sandra Cisneros"},
+          {en: "Cristina García", es: "Cristina García", de: "Cristina García", nl: "Cristina García"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Junot Díaz wrote 'The Brief Wondrous Life of Oscar Wao' in 2007, which won the Pulitzer Prize for Fiction. The novel blends Dominican history with comic book references and explores themes of identity, immigration, and cultural heritage.",
+          es: "Junot Díaz escribió 'La breve y maravillosa vida de Oscar Wao' en 2007, que ganó el Premio Pulitzer de Ficción. La novela mezcla historia dominicana con referencias a cómics y explora temas de identidad, inmigración y herencia cultural.",
+          de: "Junot Díaz schrieb 'Das kurze wundersame Leben des Oscar Wao' 2007, das den Pulitzer-Preis für Belletristik gewann. Der Roman mischt dominikanische Geschichte mit Comic-Referenzen und erforscht Themen von Identität, Immigration und kulturellem Erbe.",
+          nl: "Junot Díaz schreef 'The Brief Wondrous Life of Oscar Wao' in 2007, dat de Pulitzer Prize voor Fictie won. De roman mengt Dominicaanse geschiedenis met stripreferenties en verkent thema's van identiteit, immigratie en cultureel erfgoed."
+        }
+      },
+      {
+        question: {
+          en: "Which contemporary author wrote 'The Night Circus', a fantasy novel about competing magicians?",
+          es: "¿Qué autora contemporánea escribió 'El circo de la noche', una novela de fantasía sobre magos competidores?",
+          de: "Welche zeitgenössische Autorin schrieb 'Der Nachtzirkus', einen Fantasy-Roman über konkurrierende Magier?",
+          nl: "Welke hedendaagse auteur schreef 'The Night Circus', een fantasieroman over concurrerende goochelaars?"
+        },
+        options: [
+          {en: "Erin Morgenstern", es: "Erin Morgenstern", de: "Erin Morgenstern", nl: "Erin Morgenstern"},
+          {en: "Susanna Clarke", es: "Susanna Clarke", de: "Susanna Clarke", nl: "Susanna Clarke"},
+          {en: "V.E. Schwab", es: "V.E. Schwab", de: "V.E. Schwab", nl: "V.E. Schwab"},
+          {en: "Leigh Bardugo", es: "Leigh Bardugo", de: "Leigh Bardugo", nl: "Leigh Bardugo"}
+        ],
+        correct: 0,
+        explanation: {
+          en: "Erin Morgenstern wrote 'The Night Circus' in 2011, her debut novel. The book tells the story of two young magicians bound in a competition that takes place within a magical circus that appears only at night.",
+          es: "Erin Morgenstern escribió 'El circo de la noche' en 2011, su novela debut. El libro cuenta la historia de dos jóvenes magos atados en una competencia que tiene lugar dentro de un circo mágico que aparece solo de noche.",
+          de: "Erin Morgenstern schrieb 'Der Nachtzirkus' 2011, ihren Debütroman. Das Buch erzählt die Geschichte zweier junger Magier die in einem Wettbewerb gebunden sind der in einem magischen Zirkus stattfindet der nur nachts erscheint.",
+          nl: "Erin Morgenstern schreef 'The Night Circus' in 2011, haar debuutroman. Het boek vertelt het verhaal van twee jonge goochelaars gebonden in een competitie die plaatsvindt binnen een magisch circus dat alleen 's nachts verschijnt."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote 'The Amazing Adventures of Kavalier & Clay', a novel about comic book creators during the Golden Age?",
+          es: "¿Quién escribió 'Las asombrosas aventuras de Kavalier & Clay', una novela sobre creadores de cómics durante la Edad de Oro?",
+          de: "Wer schrieb 'Die unglaublichen Abenteuer von Kavalier & Clay', einen Roman über Comic-Schöpfer während des Goldenen Zeitalters?",
+          nl: "Wie schreef 'The Amazing Adventures of Kavalier & Clay', een roman over stripmakers tijdens het Gouden Tijdperk?"
+        },
+        options: [
+          {en: "Jonathan Safran Foer", es: "Jonathan Safran Foer", de: "Jonathan Safran Foer", nl: "Jonathan Safran Foer"},
+          {en: "Michael Chabon", es: "Michael Chabon", de: "Michael Chabon", nl: "Michael Chabon"},
+          {en: "Nathan Englander", es: "Nathan Englander", de: "Nathan Englander", nl: "Nathan Englander"},
+          {en: "Nicole Krauss", es: "Nicole Krauss", de: "Nicole Krauss", nl: "Nicole Krauss"}
+        ],
+        correct: 1,
+        explanation: {
+          en: "Michael Chabon wrote 'The Amazing Adventures of Kavalier & Clay' in 2000, which won the Pulitzer Prize for Fiction. The novel follows two Jewish cousins in 1940s New York who create a comic book superhero called The Escapist.",
+          es: "Michael Chabon escribió 'Las asombrosas aventuras de Kavalier & Clay' en 2000, que ganó el Premio Pulitzer de Ficción. La novela sigue a dos primos judíos en Nueva York de los años 40 que crean un superhéroe de cómic llamado The Escapist.",
+          de: "Michael Chabon schrieb 'Die unglaublichen Abenteuer von Kavalier & Clay' 2000, das den Pulitzer-Preis für Belletristik gewann. Der Roman folgt zwei jüdischen Cousins im New York der 1940er die einen Comic-Superhelden namens The Escapist erschaffen.",
+          nl: "Michael Chabon schreef 'The Amazing Adventures of Kavalier & Clay' in 2000, dat de Pulitzer Prize voor Fictie won. De roman volgt twee Joodse neven in het New York van de jaren 40 die een stripheld genaamd The Escapist creëren."
         }
       }
     ]

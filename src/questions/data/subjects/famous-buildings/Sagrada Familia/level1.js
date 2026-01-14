@@ -826,6 +826,826 @@
           de: "Die Buntglasfenster erzeugen spektakuläre farbige Lichteffekte in der Basilika, wobei verschiedene Farben verschiedene Tageszeiten und Jahreszeiten darstellen.",
           nl: "De gebrandschilderde ramen creëren spectaculaire kleurrijke lichteffecten in de basiliek, met verschillende kleuren die verschillende tijden van de dag en seizoenen vertegenwoordigen."
         }
+      },
+      {
+        question: {
+          en: "What year did Antoni Gaudí take over the Sagrada Familia project?",
+          es: "¿En qué año asumió Antoni Gaudí el proyecto de la Sagrada Familia?",
+          de: "In welchem Jahr übernahm Antoni Gaudí das Sagrada-Familia-Projekt?",
+          nl: "In welk jaar nam Antoni Gaudí het Sagrada Familia-project over?"
+        },
+        options: [
+          {
+            en: "1882",
+            es: "1882",
+            de: "1882",
+            nl: "1882"
+          },
+          {
+            en: "1883",
+            es: "1883",
+            de: "1883",
+            nl: "1883"
+          },
+          {
+            en: "1900",
+            es: "1900",
+            de: "1900",
+            nl: "1900"
+          },
+          {
+            en: "1910",
+            es: "1910",
+            de: "1910",
+            nl: "1910"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Gaudí took over the project in 1883, just one year after construction began under Francisco de Paula del Villar.",
+          es: "Gaudí asumió el proyecto en 1883, solo un año después de que comenzara la construcción bajo Francisco de Paula del Villar.",
+          de: "Gaudí übernahm das Projekt 1883, nur ein Jahr nach Baubeginn unter Francisco de Paula del Villar.",
+          nl: "Gaudí nam het project over in 1883, slechts een jaar nadat de bouw begon onder Francisco de Paula del Villar."
+        }
+      },
+      {
+        question: {
+          en: "What region of Spain is Barcelona located in?",
+          es: "¿En qué región de España se encuentra Barcelona?",
+          de: "In welcher Region Spaniens liegt Barcelona?",
+          nl: "In welke regio van Spanje ligt Barcelona?"
+        },
+        options: [
+          {
+            en: "Andalusia",
+            es: "Andalucía",
+            de: "Andalusien",
+            nl: "Andalusië"
+          },
+          {
+            en: "Catalonia",
+            es: "Cataluña",
+            de: "Katalonien",
+            nl: "Catalonië"
+          },
+          {
+            en: "Basque Country",
+            es: "País Vasco",
+            de: "Baskenland",
+            nl: "Baskenland"
+          },
+          {
+            en: "Galicia",
+            es: "Galicia",
+            de: "Galicien",
+            nl: "Galicië"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Barcelona is the capital of Catalonia, an autonomous region in northeastern Spain with its own distinct culture and language.",
+          es: "Barcelona es la capital de Cataluña, una región autónoma en el noreste de España con su propia cultura e idioma distintos.",
+          de: "Barcelona ist die Hauptstadt Kataloniens, einer autonomen Region im Nordosten Spaniens mit eigener Kultur und Sprache.",
+          nl: "Barcelona is de hoofdstad van Catalonië, een autonome regio in noordoost Spanje met zijn eigen cultuur en taal."
+        }
+      },
+      {
+        question: {
+          en: "Where is Antoni Gaudí buried?",
+          es: "¿Dónde está enterrado Antoni Gaudí?",
+          de: "Wo ist Antoni Gaudí begraben?",
+          nl: "Waar is Antoni Gaudí begraven?"
+        },
+        options: [
+          {
+            en: "Park Güell",
+            es: "Park Güell",
+            de: "Park Güell",
+            nl: "Park Güell"
+          },
+          {
+            en: "Sagrada Familia crypt",
+            es: "Cripta de la Sagrada Familia",
+            de: "Krypta der Sagrada Familia",
+            nl: "Crypte van de Sagrada Familia"
+          },
+          {
+            en: "Barcelona Cathedral",
+            es: "Catedral de Barcelona",
+            de: "Kathedrale von Barcelona",
+            nl: "Kathedraal van Barcelona"
+          },
+          {
+            en: "His birthplace in Reus",
+            es: "Su lugar de nacimiento en Reus",
+            de: "Sein Geburtsort in Reus",
+            nl: "Zijn geboorteplaats in Reus"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Gaudí is buried in the crypt of the Sagrada Familia, the building he devoted his life to. His tomb is visited by many pilgrims.",
+          es: "Gaudí está enterrado en la cripta de la Sagrada Familia, el edificio al que dedicó su vida. Su tumba es visitada por muchos peregrinos.",
+          de: "Gaudí ist in der Krypta der Sagrada Familia begraben, dem Gebäude, dem er sein Leben widmete. Sein Grab wird von vielen Pilgern besucht.",
+          nl: "Gaudí ligt begraven in de crypte van de Sagrada Familia, het gebouw waaraan hij zijn leven wijdde. Zijn graf wordt door veel pelgrims bezocht."
+        }
+      },
+      {
+        question: {
+          en: "What color scheme dominates the stained glass on the Nativity facade side?",
+          es: "¿Qué esquema de colores domina las vidrieras del lado de la fachada de la Natividad?",
+          de: "Welches Farbschema dominiert die Buntglasfenster auf der Seite der Geburtsfassade?",
+          nl: "Welk kleurenschema domineert het gebrandschilderd glas aan de kant van de Geboortegevel?"
+        },
+        options: [
+          {
+            en: "Red and orange",
+            es: "Rojo y naranja",
+            de: "Rot und Orange",
+            nl: "Rood en oranje"
+          },
+          {
+            en: "Blue and green",
+            es: "Azul y verde",
+            de: "Blau und Grün",
+            nl: "Blauw en groen"
+          },
+          {
+            en: "Purple and pink",
+            es: "Púrpura y rosa",
+            de: "Lila und Rosa",
+            nl: "Paars en roze"
+          },
+          {
+            en: "Black and white",
+            es: "Blanco y negro",
+            de: "Schwarz und Weiß",
+            nl: "Zwart en wit"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Nativity facade side features cool colors like blue and green, representing morning light and birth, while the Passion side has warm colors.",
+          es: "El lado de la fachada de la Natividad presenta colores fríos como azul y verde, representando la luz de la mañana y el nacimiento, mientras que el lado de la Pasión tiene colores cálidos.",
+          de: "Die Seite der Geburtsfassade zeigt kühle Farben wie Blau und Grün, die Morgenlicht und Geburt repräsentieren, während die Passionsseite warme Farben hat.",
+          nl: "De kant van de Geboortegevel heeft koele kleuren zoals blauw en groen, die ochtendlicht en geboorte vertegenwoordigen, terwijl de Passiekant warme kleuren heeft."
+        }
+      },
+      {
+        question: {
+          en: "Approximately how many visitors does the Sagrada Familia receive annually?",
+          es: "¿Aproximadamente cuántos visitantes recibe la Sagrada Familia anualmente?",
+          de: "Wie viele Besucher empfängt die Sagrada Familia ungefähr jährlich?",
+          nl: "Hoeveel bezoekers ontvangt de Sagrada Familia ongeveer jaarlijks?"
+        },
+        options: [
+          {
+            en: "About 1 million",
+            es: "Aproximadamente 1 millón",
+            de: "Etwa 1 Million",
+            nl: "Ongeveer 1 miljoen"
+          },
+          {
+            en: "About 3 million",
+            es: "Aproximadamente 3 millones",
+            de: "Etwa 3 Millionen",
+            nl: "Ongeveer 3 miljoen"
+          },
+          {
+            en: "About 5 million",
+            es: "Aproximadamente 5 millones",
+            de: "Etwa 5 Millionen",
+            nl: "Ongeveer 5 miljoen"
+          },
+          {
+            en: "About 10 million",
+            es: "Aproximadamente 10 millones",
+            de: "Etwa 10 Millionen",
+            nl: "Ongeveer 10 miljoen"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Sagrada Familia receives approximately 3 million visitors annually, making it one of the most visited monuments in Spain.",
+          es: "La Sagrada Familia recibe aproximadamente 3 millones de visitantes anualmente, lo que la convierte en uno de los monumentos más visitados de España.",
+          de: "Die Sagrada Familia empfängt jährlich etwa 3 Millionen Besucher und ist damit eines der meistbesuchten Denkmäler Spaniens.",
+          nl: "De Sagrada Familia ontvangt jaarlijks ongeveer 3 miljoen bezoekers, waardoor het een van de meest bezochte monumenten van Spanje is."
+        }
+      },
+      {
+        question: {
+          en: "What type of accident led to Antoni Gaudí's death?",
+          es: "¿Qué tipo de accidente llevó a la muerte de Antoni Gaudí?",
+          de: "Welche Art von Unfall führte zu Antoni Gaudís Tod?",
+          nl: "Wat voor soort ongeval leidde tot de dood van Antoni Gaudí?"
+        },
+        options: [
+          {
+            en: "Falling from scaffolding",
+            es: "Caída de un andamio",
+            de: "Sturz von einem Gerüst",
+            nl: "Val van steiger"
+          },
+          {
+            en: "Hit by a tram",
+            es: "Atropellado por un tranvía",
+            de: "Von einer Straßenbahn angefahren",
+            nl: "Aangereden door een tram"
+          },
+          {
+            en: "Construction collapse",
+            es: "Colapso de construcción",
+            de: "Baueinsturz",
+            nl: "Bouwinstorting"
+          },
+          {
+            en: "Illness during work",
+            es: "Enfermedad durante el trabajo",
+            de: "Krankheit während der Arbeit",
+            nl: "Ziekte tijdens werk"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Gaudí was hit by a tram in Barcelona in 1926. He was initially mistaken for a beggar due to his shabby clothing and died three days later.",
+          es: "Gaudí fue atropellado por un tranvía en Barcelona en 1926. Inicialmente fue confundido con un mendigo debido a su ropa gastada y murió tres días después.",
+          de: "Gaudí wurde 1926 in Barcelona von einer Straßenbahn angefahren. Er wurde zunächst für einen Bettler gehalten wegen seiner schäbigen Kleidung und starb drei Tage später.",
+          nl: "Gaudí werd in 1926 in Barcelona aangereden door een tram. Hij werd aanvankelijk aangezien voor een bedelaar vanwege zijn sjofele kleding en stierf drie dagen later."
+        }
+      },
+      {
+        question: {
+          en: "Which facade represents the suffering and death of Jesus?",
+          es: "¿Qué fachada representa el sufrimiento y la muerte de Jesús?",
+          de: "Welche Fassade stellt das Leiden und den Tod Jesu dar?",
+          nl: "Welke gevel vertegenwoordigt het lijden en de dood van Jezus?"
+        },
+        options: [
+          {
+            en: "Nativity Facade",
+            es: "Fachada de la Natividad",
+            de: "Geburtsfassade",
+            nl: "Geboortegevel"
+          },
+          {
+            en: "Passion Facade",
+            es: "Fachada de la Pasión",
+            de: "Passionsfassade",
+            nl: "Passiegevel"
+          },
+          {
+            en: "Glory Facade",
+            es: "Fachada de la Gloria",
+            de: "Glorienfassade",
+            nl: "Gloriegevel"
+          },
+          {
+            en: "East Facade",
+            es: "Fachada Este",
+            de: "Ostfassade",
+            nl: "Oostgevel"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Passion Facade depicts the suffering, crucifixion, and death of Jesus. It features stark, angular sculptures by Josep Maria Subirachs.",
+          es: "La Fachada de la Pasión representa el sufrimiento, la crucifixión y la muerte de Jesús. Presenta esculturas austeras y angulares de Josep Maria Subirachs.",
+          de: "Die Passionsfassade stellt das Leiden, die Kreuzigung und den Tod Jesu dar. Sie zeigt schlichte, kantige Skulpturen von Josep Maria Subirachs.",
+          nl: "De Passiegevel verbeeldt het lijden, de kruisiging en de dood van Jezus. Het toont sobere, hoekige sculpturen van Josep Maria Subirachs."
+        }
+      },
+      {
+        question: {
+          en: "What does the Glory Facade represent?",
+          es: "¿Qué representa la Fachada de la Gloria?",
+          de: "Was stellt die Glorienfassade dar?",
+          nl: "Wat vertegenwoordigt de Gloriegevel?"
+        },
+        options: [
+          {
+            en: "Birth of Jesus",
+            es: "Nacimiento de Jesús",
+            de: "Geburt Jesu",
+            nl: "Geboorte van Jezus"
+          },
+          {
+            en: "Death and resurrection",
+            es: "Muerte y resurrección",
+            de: "Tod und Auferstehung",
+            nl: "Dood en verrijzenis"
+          },
+          {
+            en: "Road to heaven and eternal glory",
+            es: "Camino al cielo y gloria eterna",
+            de: "Weg zum Himmel und ewiger Ruhm",
+            nl: "Weg naar de hemel en eeuwige glorie"
+          },
+          {
+            en: "The Last Supper",
+            es: "La Última Cena",
+            de: "Das letzte Abendmahl",
+            nl: "Het Laatste Avondmaal"
+          }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Glory Facade, still under construction, represents the road to heaven, eternal glory, and the final judgment. It will be the main entrance.",
+          es: "La Fachada de la Gloria, aún en construcción, representa el camino al cielo, la gloria eterna y el juicio final. Será la entrada principal.",
+          de: "Die Glorienfassade, noch im Bau, stellt den Weg zum Himmel, ewigen Ruhm und das Jüngste Gericht dar. Sie wird der Haupteingang sein.",
+          nl: "De Gloriegevel, nog in aanbouw, vertegenwoordigt de weg naar de hemel, eeuwige glorie en het laatste oordeel. Het zal de hoofdingang zijn."
+        }
+      },
+      {
+        question: {
+          en: "What was Gaudí's profession?",
+          es: "¿Cuál era la profesión de Gaudí?",
+          de: "Was war Gaudís Beruf?",
+          nl: "Wat was Gaudí's beroep?"
+        },
+        options: [
+          {
+            en: "Painter",
+            es: "Pintor",
+            de: "Maler",
+            nl: "Schilder"
+          },
+          {
+            en: "Architect",
+            es: "Arquitecto",
+            de: "Architekt",
+            nl: "Architect"
+          },
+          {
+            en: "Sculptor",
+            es: "Escultor",
+            de: "Bildhauer",
+            nl: "Beeldhouwer"
+          },
+          {
+            en: "Engineer",
+            es: "Ingeniero",
+            de: "Ingenieur",
+            nl: "Ingenieur"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Antoni Gaudí was an architect, one of the most renowned practitioners of Catalan Modernisme architecture.",
+          es: "Antoni Gaudí fue un arquitecto, uno de los practicantes más reconocidos de la arquitectura del Modernismo catalán.",
+          de: "Antoni Gaudí war Architekt, einer der renommiertesten Vertreter der katalanischen Modernisme-Architektur.",
+          nl: "Antoni Gaudí was een architect, een van de meest gerenommeerde beoefenaars van Catalaanse Modernisme-architectuur."
+        }
+      },
+      {
+        question: {
+          en: "When is the Sagrada Familia expected to be completed?",
+          es: "¿Cuándo se espera que se complete la Sagrada Familia?",
+          de: "Wann soll die Sagrada Familia fertiggestellt werden?",
+          nl: "Wanneer wordt de Sagrada Familia naar verwachting voltooid?"
+        },
+        options: [
+          {
+            en: "It is already complete",
+            es: "Ya está completa",
+            de: "Sie ist bereits fertig",
+            nl: "Het is al voltooid"
+          },
+          {
+            en: "Around 2026",
+            es: "Alrededor de 2026",
+            de: "Um 2026",
+            nl: "Rond 2026"
+          },
+          {
+            en: "Around 2050",
+            es: "Alrededor de 2050",
+            de: "Um 2050",
+            nl: "Rond 2050"
+          },
+          {
+            en: "Never planned to be completed",
+            es: "Nunca se planeó completar",
+            de: "Nie geplant fertigzustellen",
+            nl: "Nooit gepland om te voltooien"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Sagrada Familia is expected to be completed around 2026, marking the 100th anniversary of Gaudí's death, though delays may occur.",
+          es: "Se espera que la Sagrada Familia se complete alrededor de 2026, marcando el 100º aniversario de la muerte de Gaudí, aunque pueden ocurrir retrasos.",
+          de: "Die Sagrada Familia soll um 2026 fertiggestellt werden, zum 100. Todestag Gaudís, obwohl es Verzögerungen geben kann.",
+          nl: "De Sagrada Familia wordt naar verwachting rond 2026 voltooid, ter gelegenheid van de 100ste verjaardag van Gaudí's dood, hoewel vertragingen kunnen optreden."
+        }
+      },
+      {
+        question: {
+          en: "How many apostle towers has the Sagrada Familia been designed to have?",
+          es: "¿Cuántas torres de apóstoles está diseñada para tener la Sagrada Familia?",
+          de: "Wie viele Aposteltürme soll die Sagrada Familia haben?",
+          nl: "Hoeveel aposteltorens is de Sagrada Familia ontworpen om te hebben?"
+        },
+        options: [
+          {
+            en: "4",
+            es: "4",
+            de: "4",
+            nl: "4"
+          },
+          {
+            en: "8",
+            es: "8",
+            de: "8",
+            nl: "8"
+          },
+          {
+            en: "12",
+            es: "12",
+            de: "12",
+            nl: "12"
+          },
+          {
+            en: "18",
+            es: "18",
+            de: "18",
+            nl: "18"
+          }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Sagrada Familia is designed to have 12 apostle towers, representing the 12 apostles of Jesus, with four towers on each facade.",
+          es: "La Sagrada Familia está diseñada para tener 12 torres de apóstoles, representando a los 12 apóstoles de Jesús, con cuatro torres en cada fachada.",
+          de: "Die Sagrada Familia soll 12 Aposteltürme haben, die die 12 Apostel Jesu repräsentieren, mit vier Türmen an jeder Fassade.",
+          nl: "De Sagrada Familia is ontworpen om 12 aposteltorens te hebben, die de 12 apostelen van Jezus vertegenwoordigen, met vier torens op elke gevel."
+        }
+      },
+      {
+        question: {
+          en: "What materials are used extensively in the Sagrada Familia's construction?",
+          es: "¿Qué materiales se usan extensivamente en la construcción de la Sagrada Familia?",
+          de: "Welche Materialien werden beim Bau der Sagrada Familia umfassend verwendet?",
+          nl: "Welke materialen worden uitgebreid gebruikt in de constructie van de Sagrada Familia?"
+        },
+        options: [
+          {
+            en: "Wood and glass",
+            es: "Madera y vidrio",
+            de: "Holz und Glas",
+            nl: "Hout en glas"
+          },
+          {
+            en: "Stone and concrete",
+            es: "Piedra y hormigón",
+            de: "Stein und Beton",
+            nl: "Steen en beton"
+          },
+          {
+            en: "Metal and plastic",
+            es: "Metal y plástico",
+            de: "Metall und Kunststoff",
+            nl: "Metaal en plastic"
+          },
+          {
+            en: "Brick and clay",
+            es: "Ladrillo y arcilla",
+            de: "Ziegel und Ton",
+            nl: "Baksteen en klei"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Sagrada Familia is constructed primarily using stone and concrete, with various types of stone for different structural elements.",
+          es: "La Sagrada Familia está construida principalmente usando piedra y hormigón, con varios tipos de piedra para diferentes elementos estructurales.",
+          de: "Die Sagrada Familia wird hauptsächlich aus Stein und Beton gebaut, mit verschiedenen Steinarten für unterschiedliche Strukturelemente.",
+          nl: "De Sagrada Familia is voornamelijk gebouwd met steen en beton, met verschillende soorten steen voor verschillende structurele elementen."
+        }
+      },
+      {
+        question: {
+          en: "Who was the first architect of the Sagrada Familia before Gaudí?",
+          es: "¿Quién fue el primer arquitecto de la Sagrada Familia antes de Gaudí?",
+          de: "Wer war der erste Architekt der Sagrada Familia vor Gaudí?",
+          nl: "Wie was de eerste architect van de Sagrada Familia voor Gaudí?"
+        },
+        options: [
+          {
+            en: "Lluís Domènech i Montaner",
+            es: "Lluís Domènech i Montaner",
+            de: "Lluís Domènech i Montaner",
+            nl: "Lluís Domènech i Montaner"
+          },
+          {
+            en: "Francisco de Paula del Villar",
+            es: "Francisco de Paula del Villar",
+            de: "Francisco de Paula del Villar",
+            nl: "Francisco de Paula del Villar"
+          },
+          {
+            en: "Josep Puig i Cadafalch",
+            es: "Josep Puig i Cadafalch",
+            de: "Josep Puig i Cadafalch",
+            nl: "Josep Puig i Cadafalch"
+          },
+          {
+            en: "Rafael Guastavino",
+            es: "Rafael Guastavino",
+            de: "Rafael Guastavino",
+            nl: "Rafael Guastavino"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Francisco de Paula del Villar was the first architect who started the project in 1882 before Gaudí took over in 1883.",
+          es: "Francisco de Paula del Villar fue el primer arquitecto que inició el proyecto en 1882 antes de que Gaudí lo asumiera en 1883.",
+          de: "Francisco de Paula del Villar war der erste Architekt, der 1882 das Projekt begann, bevor Gaudí es 1883 übernahm.",
+          nl: "Francisco de Paula del Villar was de eerste architect die het project in 1882 begon voordat Gaudí het in 1883 overnam."
+        }
+      },
+      {
+        question: {
+          en: "What inspired the organic shapes throughout the Sagrada Familia?",
+          es: "¿Qué inspiró las formas orgánicas en toda la Sagrada Familia?",
+          de: "Was inspirierte die organischen Formen in der gesamten Sagrada Familia?",
+          nl: "Wat inspireerde de organische vormen door de hele Sagrada Familia?"
+        },
+        options: [
+          {
+            en: "Modern technology",
+            es: "Tecnología moderna",
+            de: "Moderne Technologie",
+            nl: "Moderne technologie"
+          },
+          {
+            en: "Nature",
+            es: "Naturaleza",
+            de: "Natur",
+            nl: "Natuur"
+          },
+          {
+            en: "Industrial design",
+            es: "Diseño industrial",
+            de: "Industriedesign",
+            nl: "Industrieel ontwerp"
+          },
+          {
+            en: "Ancient Egyptian art",
+            es: "Arte egipcio antiguo",
+            de: "Altägyptische Kunst",
+            nl: "Oude Egyptische kunst"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Gaudí was deeply inspired by nature, incorporating organic shapes from trees, plants, and natural forms throughout the Sagrada Familia's design.",
+          es: "Gaudí se inspiró profundamente en la naturaleza, incorporando formas orgánicas de árboles, plantas y formas naturales en todo el diseño de la Sagrada Familia.",
+          de: "Gaudí ließ sich tief von der Natur inspirieren und integrierte organische Formen von Bäumen, Pflanzen und natürlichen Formen im gesamten Design der Sagrada Familia.",
+          nl: "Gaudí liet zich diep inspireren door de natuur en verwerkte organische vormen van bomen, planten en natuurlijke vormen in het hele ontwerp van de Sagrada Familia."
+        }
+      },
+      {
+        question: {
+          en: "What religious figure is the Sagrada Familia dedicated to?",
+          es: "¿A qué figura religiosa está dedicada la Sagrada Familia?",
+          de: "Welcher religiösen Figur ist die Sagrada Familia gewidmet?",
+          nl: "Aan welke religieuze figuur is de Sagrada Familia gewijd?"
+        },
+        options: [
+          {
+            en: "Saint Peter",
+            es: "San Pedro",
+            de: "Sankt Petrus",
+            nl: "Sint Petrus"
+          },
+          {
+            en: "The Holy Family",
+            es: "La Sagrada Familia",
+            de: "Die Heilige Familie",
+            nl: "De Heilige Familie"
+          },
+          {
+            en: "The Virgin Mary only",
+            es: "Solo la Virgen María",
+            de: "Nur die Jungfrau Maria",
+            nl: "Alleen de Maagd Maria"
+          },
+          {
+            en: "Saint Joseph",
+            es: "San José",
+            de: "Sankt Josef",
+            nl: "Sint Jozef"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Sagrada Familia is dedicated to the Holy Family - Jesus, Mary, and Joseph - as indicated by its name.",
+          es: "La Sagrada Familia está dedicada a la Sagrada Familia - Jesús, María y José - como lo indica su nombre.",
+          de: "Die Sagrada Familia ist der Heiligen Familie - Jesus, Maria und Josef - gewidmet, wie ihr Name zeigt.",
+          nl: "De Sagrada Familia is gewijd aan de Heilige Familie - Jezus, Maria en Jozef - zoals de naam aangeeft."
+        }
+      },
+      {
+        question: {
+          en: "What makes the Sagrada Familia unique among world churches?",
+          es: "¿Qué hace única a la Sagrada Familia entre las iglesias del mundo?",
+          de: "Was macht die Sagrada Familia unter den Kirchen der Welt einzigartig?",
+          nl: "Wat maakt de Sagrada Familia uniek onder de kerken van de wereld?"
+        },
+        options: [
+          {
+            en: "It is the oldest church",
+            es: "Es la iglesia más antigua",
+            de: "Sie ist die älteste Kirche",
+            nl: "Het is de oudste kerk"
+          },
+          {
+            en: "It is still under construction after 140+ years",
+            es: "Todavía está en construcción después de más de 140 años",
+            de: "Sie ist nach über 140 Jahren noch im Bau",
+            nl: "Het is nog steeds in aanbouw na 140+ jaar"
+          },
+          {
+            en: "It is the largest church",
+            es: "Es la iglesia más grande",
+            de: "Sie ist die größte Kirche",
+            nl: "Het is de grootste kerk"
+          },
+          {
+            en: "It has no windows",
+            es: "No tiene ventanas",
+            de: "Sie hat keine Fenster",
+            nl: "Het heeft geen ramen"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Sagrada Familia is unique for being one of the longest-running construction projects in the world, ongoing for over 140 years since 1882.",
+          es: "La Sagrada Familia es única por ser uno de los proyectos de construcción más largos del mundo, en curso por más de 140 años desde 1882.",
+          de: "Die Sagrada Familia ist einzigartig als eines der am längsten laufenden Bauprojekte der Welt, seit 1882 über 140 Jahre im Bau.",
+          nl: "De Sagrada Familia is uniek omdat het een van de langstlopende bouwprojecten ter wereld is, al meer dan 140 jaar gaande sinds 1882."
+        }
+      },
+      {
+        question: {
+          en: "What is the function of the crypt in the Sagrada Familia?",
+          es: "¿Cuál es la función de la cripta en la Sagrada Familia?",
+          de: "Was ist die Funktion der Krypta in der Sagrada Familia?",
+          nl: "Wat is de functie van de crypte in de Sagrada Familia?"
+        },
+        options: [
+          {
+            en: "Museum storage",
+            es: "Almacenamiento del museo",
+            de: "Museumsaufbewahrung",
+            nl: "Museumopslag"
+          },
+          {
+            en: "Chapel and burial place",
+            es: "Capilla y lugar de entierro",
+            de: "Kapelle und Grabstätte",
+            nl: "Kapel en begraafplaats"
+          },
+          {
+            en: "Construction workshop",
+            es: "Taller de construcción",
+            de: "Bauwerkstatt",
+            nl: "Bouwwerkplaats"
+          },
+          {
+            en: "Public meeting hall",
+            es: "Sala de reuniones públicas",
+            de: "Öffentliche Versammlungshalle",
+            nl: "Openbare vergaderzaal"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The crypt serves as a chapel where masses are held and also houses Gaudí's tomb, making it an important burial and worship space.",
+          es: "La cripta sirve como capilla donde se celebran misas y también alberga la tumba de Gaudí, convirtiéndola en un importante espacio de entierro y culto.",
+          de: "Die Krypta dient als Kapelle, in der Messen abgehalten werden, und beherbergt auch Gaudís Grab, was sie zu einem wichtigen Bestattungs- und Gebetsraum macht.",
+          nl: "De crypte dient als kapel waar missen worden gehouden en herbergt ook Gaudí's graf, waardoor het een belangrijke begrafenis- en aanbiddingsruimte is."
+        }
+      },
+      {
+        question: {
+          en: "What is distinctive about the Passion Facade's sculptural style?",
+          es: "¿Qué es distintivo del estilo escultórico de la Fachada de la Pasión?",
+          de: "Was ist charakteristisch für den skulpturalen Stil der Passionsfassade?",
+          nl: "Wat is kenmerkend voor de sculpturale stijl van de Passiegevel?"
+        },
+        options: [
+          {
+            en: "Highly ornate and decorative",
+            es: "Altamente ornamentado y decorativo",
+            de: "Sehr verziert und dekorativ",
+            nl: "Zeer versierd en decoratief"
+          },
+          {
+            en: "Stark and angular",
+            es: "Austero y angular",
+            de: "Schlicht und kantig",
+            nl: "Sober en hoekig"
+          },
+          {
+            en: "Realistic and colorful",
+            es: "Realista y colorido",
+            de: "Realistisch und bunt",
+            nl: "Realistisch en kleurrijk"
+          },
+          {
+            en: "Abstract and curved",
+            es: "Abstracto y curvo",
+            de: "Abstrakt und kurvig",
+            nl: "Abstract en gebogen"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Passion Facade features stark, angular sculptures by Josep Maria Subirachs, designed to convey the suffering and drama of Christ's crucifixion.",
+          es: "La Fachada de la Pasión presenta esculturas austeras y angulares de Josep Maria Subirachs, diseñadas para transmitir el sufrimiento y el drama de la crucifixión de Cristo.",
+          de: "Die Passionsfassade zeigt schlichte, kantige Skulpturen von Josep Maria Subirachs, entworfen um das Leiden und Drama von Christi Kreuzigung zu vermitteln.",
+          nl: "De Passiegevel toont sobere, hoekige sculpturen van Josep Maria Subirachs, ontworpen om het lijden en drama van Christus' kruisiging over te brengen."
+        }
+      },
+      {
+        question: {
+          en: "What symbol appears at the top of the completed towers?",
+          es: "¿Qué símbolo aparece en la parte superior de las torres completadas?",
+          de: "Welches Symbol erscheint oben auf den fertigen Türmen?",
+          nl: "Welk symbool verschijnt bovenop de voltooide torens?"
+        },
+        options: [
+          {
+            en: "Stars",
+            es: "Estrellas",
+            de: "Sterne",
+            nl: "Sterren"
+          },
+          {
+            en: "Crosses",
+            es: "Cruces",
+            de: "Kreuze",
+            nl: "Kruisen"
+          },
+          {
+            en: "Angels",
+            es: "Ángeles",
+            de: "Engel",
+            nl: "Engelen"
+          },
+          {
+            en: "Bells",
+            es: "Campanas",
+            de: "Glocken",
+            nl: "Klokken"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Crosses appear at the top of the completed towers, symbolizing the Christian faith and dedication of the basilica.",
+          es: "Las cruces aparecen en la parte superior de las torres completadas, simbolizando la fe cristiana y la dedicación de la basílica.",
+          de: "Kreuze erscheinen oben auf den fertigen Türmen und symbolisieren den christlichen Glauben und die Widmung der Basilika.",
+          nl: "Kruisen verschijnen bovenop de voltooide torens, als symbool van het christelijke geloof en de toewijding van de basiliek."
+        }
+      },
+      {
+        question: {
+          en: "What recognition did Gaudí receive during his lifetime?",
+          es: "¿Qué reconocimiento recibió Gaudí durante su vida?",
+          de: "Welche Anerkennung erhielt Gaudí zu Lebzeiten?",
+          nl: "Welke erkenning ontving Gaudí tijdens zijn leven?"
+        },
+        options: [
+          {
+            en: "Nobel Prize",
+            es: "Premio Nobel",
+            de: "Nobelpreis",
+            nl: "Nobelprijs"
+          },
+          {
+            en: "Wide recognition as leading architect",
+            es: "Amplio reconocimiento como arquitecto líder",
+            de: "Breite Anerkennung als führender Architekt",
+            nl: "Brede erkenning als leidend architect"
+          },
+          {
+            en: "Knighthood",
+            es: "Título de caballero",
+            de: "Ritterschaft",
+            nl: "Ridderschap"
+          },
+          {
+            en: "Papal blessing",
+            es: "Bendición papal",
+            de: "Päpstlicher Segen",
+            nl: "Pauselijke zegen"
+          }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Gaudí received wide recognition during his lifetime as a leading architect of the Modernisme movement in Catalonia.",
+          es: "Gaudí recibió amplio reconocimiento durante su vida como arquitecto líder del movimiento Modernista en Cataluña.",
+          de: "Gaudí erhielt zu Lebzeiten breite Anerkennung als führender Architekt der Modernisme-Bewegung in Katalonien.",
+          nl: "Gaudí ontving tijdens zijn leven brede erkenning als leidend architect van de Modernisme-beweging in Catalonië."
+        }
       }
     ]
   };

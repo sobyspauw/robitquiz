@@ -1605,7 +1605,18 @@
           es: "La resolución de final de información perfecta usa computadoras para calcular exhaustivamente cada posición posible en finales específicos (como todas las posiciones de 6 piezas), probando matemáticamente si cada posición es ganada, perdida o tablas con juego perfecto. Estas bases de datos resueltas revolucionaron la teoría de damas proporcionando verdad absoluta sobre finales complejos previamente entendidos solo a través de intuición y experiencia humana.",
           de: "Perfekte-Information-Endspiel-Lösung nutzt Computer, um jede mögliche Position in spezifischen Endspielen (wie alle 6-Stein-Positionen) erschöpfend zu berechnen und mathematisch zu beweisen, ob jede Position mit perfektem Spiel gewonnen, verloren oder remis ist. Diese gelösten Datenbanken revolutionierten die Dame-Theorie, indem sie absolute Wahrheit über komplexe Endspiele lieferten, die zuvor nur durch menschliche Intuition und Erfahrung verstanden wurden.",
           nl: "Perfecte informatie eindspel oplossen gebruikt computers om uitputtend elke mogelijke positie in specifieke eindspelen (zoals alle 6-stuk posities) te berekenen, waarbij wiskundig wordt bewezen of elke positie gewonnen, verloren of remise is met perfect spel. Deze opgeloste databases revolutioneerden dammen theorie door absolute waarheid te bieden over complexe eindspelen die eerder alleen werden begrepen door menselijke intuïtie en ervaring."
-        }
+        }    },
+    {
+      question: {en: "What is strategy in games?", es: "What is strategy in games?", de: "What is strategy in games?", nl: "What is strategy in games?"},
+      options: [
+        {en: "Planning to achieve objectives", es: "Planning to achieve objectives", de: "Planning to achieve objectives", nl: "Planning to achieve objectives"},
+        {en: "Random moves", es: "Random moves", de: "Random moves", nl: "Random moves"},
+        {en: "Luck only", es: "Luck only", de: "Luck only", nl: "Luck only"},
+        {en: "No planning", es: "No planning", de: "No planning", nl: "No planning"}
+      ],
+      correct: 0,
+      explanation: {en: "Strategy involves planning and decision-making to achieve game objectives.", es: "Strategy involves planning and decision-making to achieve game objectives.", de: "Strategy involves planning and decision-making to achieve game objectives.", nl: "Strategy involves planning and decision-making to achieve game objectives."}
+
       }
     ]
   };

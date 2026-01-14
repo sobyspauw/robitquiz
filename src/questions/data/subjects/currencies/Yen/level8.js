@@ -426,6 +426,406 @@
           es: "La economía de complejidad enfatiza que sistemas económicos operan lejos del equilibrio, significando que efectividad de política depende críticamente del estado actual del sistema en lugar de conformarse a reglas estables. En sistemas adaptativos complejos, la misma intervención de política puede tener efectos radicalmente diferentes dependiendo de si economía está en estado estable, acercándose a punto de inflexión o experimentando estrés sistémico.",
           de: "Komplexitätsökonomie betont, dass ökonomische Systeme fern vom Gleichgewicht operieren, was bedeutet, dass Politikwirksamkeit kritisch vom aktuellen Systemzustand abhängt statt stabilen Regeln zu folgen. In komplexen adaptiven Systemen kann dieselbe Politikintervention radikal unterschiedliche Effekte haben je nachdem, ob die Wirtschaft in stabilem Zustand ist, sich einem Kipppunkt nähert oder systemischen Stress erfährt.",
           nl: "Complexiteits economie benadrukt dat economische systemen ver van evenwicht opereren, wat betekent dat beleidseffectiviteit kritisch afhangt van de huidige toestand van het systeem in plaats van te conformeren aan stabiele regels. In complexe adaptieve systemen kan dezelfde beleidsinterventie radicaal verschillende effecten hebben afhankelijk van of de economie in stabiele toestand is, een kantelpunt nadert of systemische stress ervaart."
+        }      },
+      {
+        question: {
+          en: "What is the symbol for Japanese Yen?",
+          es: "What is the symbol for Japanese Yen?",
+          de: "What is the symbol for Japanese Yen?",
+          nl: "What is the symbol for Japanese Yen?"
+        },
+        options: [
+          { en: "¥", es: "¥", de: "¥", nl: "¥" },
+          { en: "Y", es: "Y", de: "Y", nl: "Y" },
+          { en: "JPY", es: "JPY", de: "JPY", nl: "JPY" },
+          { en: "J", es: "J", de: "J", nl: "J" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The yen symbol ¥ is shared with Chinese yuan but pronounced differently.",
+          es: "The yen symbol ¥ is shared with Chinese yuan but pronounced differently.",
+          de: "The yen symbol ¥ is shared with Chinese yuan but pronounced differently.",
+          nl: "The yen symbol ¥ is shared with Chinese yuan but pronounced differently."
+        }      },
+      {
+        question: {
+          en: "When was the Yen introduced?",
+          es: "When was the Yen introduced?",
+          de: "When was the Yen introduced?",
+          nl: "When was the Yen introduced?"
+        },
+        options: [
+          { en: "1871", es: "1871", de: "1871", nl: "1871" },
+          { en: "1945", es: "1945", de: "1945", nl: "1945" },
+          { en: "1600", es: "1600", de: "1600", nl: "1600" },
+          { en: "1900", es: "1900", de: "1900", nl: "1900" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Yen was introduced in 1871 as part of Japan's Meiji modernization reforms.",
+          es: "The Yen was introduced in 1871 as part of Japan's Meiji modernization reforms.",
+          de: "The Yen was introduced in 1871 as part of Japan's Meiji modernization reforms.",
+          nl: "The Yen was introduced in 1871 as part of Japan's Meiji modernization reforms."
+        }      },
+      {
+        question: {
+          en: "What does JPY stand for?",
+          es: "What does JPY stand for?",
+          de: "What does JPY stand for?",
+          nl: "What does JPY stand for?"
+        },
+        options: [
+          { en: "Japanese Yen", es: "Japanese Yen", de: "Japanese Yen", nl: "Japanese Yen" },
+          { en: "Japan Payment Yen", es: "Japan Payment Yen", de: "Japan Payment Yen", nl: "Japan Payment Yen" },
+          { en: "Japanese Pound Yen", es: "Japanese Pound Yen", de: "Japanese Pound Yen", nl: "Japanese Pound Yen" },
+          { en: "Japan Price Yen", es: "Japan Price Yen", de: "Japan Price Yen", nl: "Japan Price Yen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "JPY is the three-letter ISO code for Japanese Yen in international finance.",
+          es: "JPY is the three-letter ISO code for Japanese Yen in international finance.",
+          de: "JPY is the three-letter ISO code for Japanese Yen in international finance.",
+          nl: "JPY is the three-letter ISO code for Japanese Yen in international finance."
+        }      },
+      {
+        question: {
+          en: "What is the smallest Yen coin?",
+          es: "What is the smallest Yen coin?",
+          de: "What is the smallest Yen coin?",
+          nl: "What is the smallest Yen coin?"
+        },
+        options: [
+          { en: "1 Yen", es: "1 Yen", de: "1 Yen", nl: "1 Yen" },
+          { en: "5 Yen", es: "5 Yen", de: "5 Yen", nl: "5 Yen" },
+          { en: "10 Yen", es: "10 Yen", de: "10 Yen", nl: "10 Yen" },
+          { en: "50 Yen", es: "50 Yen", de: "50 Yen", nl: "50 Yen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The 1 Yen coin is the smallest denomination, made of pure aluminum and very light.",
+          es: "The 1 Yen coin is the smallest denomination, made of pure aluminum and very light.",
+          de: "The 1 Yen coin is the smallest denomination, made of pure aluminum and very light.",
+          nl: "The 1 Yen coin is the smallest denomination, made of pure aluminum and very light."
+        }      },
+      {
+        question: {
+          en: "What is the largest Yen banknote?",
+          es: "What is the largest Yen banknote?",
+          de: "What is the largest Yen banknote?",
+          nl: "What is the largest Yen banknote?"
+        },
+        options: [
+          { en: "¥10,000", es: "¥10,000", de: "¥10,000", nl: "¥10,000" },
+          { en: "¥50,000", es: "¥50,000", de: "¥50,000", nl: "¥50,000" },
+          { en: "¥5,000", es: "¥5,000", de: "¥5,000", nl: "¥5,000" },
+          { en: "¥1,000", es: "¥1,000", de: "¥1,000", nl: "¥1,000" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The 10,000 yen note is the largest denomination in regular circulation.",
+          es: "The 10,000 yen note is the largest denomination in regular circulation.",
+          de: "The 10,000 yen note is the largest denomination in regular circulation.",
+          nl: "The 10,000 yen note is the largest denomination in regular circulation."
+        }      },
+      {
+        question: {
+          en: "Who appears on ¥10,000 note?",
+          es: "Who appears on ¥10,000 note?",
+          de: "Who appears on ¥10,000 note?",
+          nl: "Who appears on ¥10,000 note?"
+        },
+        options: [
+          { en: "Fukuzawa Yukichi", es: "Fukuzawa Yukichi", de: "Fukuzawa Yukichi", nl: "Fukuzawa Yukichi" },
+          { en: "Emperor", es: "Emperor", de: "Emperor", nl: "Emperor" },
+          { en: "Shogun", es: "Shogun", de: "Shogun", nl: "Shogun" },
+          { en: "Prime Minister", es: "Prime Minister", de: "Prime Minister", nl: "Prime Minister" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Fukuzawa Yukichi, Meiji era educator and author, appears on the 10,000 yen note.",
+          es: "Fukuzawa Yukichi, Meiji era educator and author, appears on the 10,000 yen note.",
+          de: "Fukuzawa Yukichi, Meiji era educator and author, appears on the 10,000 yen note.",
+          nl: "Fukuzawa Yukichi, Meiji era educator and author, appears on the 10,000 yen note."
+        }      },
+      {
+        question: {
+          en: "What is the Bank of Japan?",
+          es: "What is the Bank of Japan?",
+          de: "What is the Bank of Japan?",
+          nl: "What is the Bank of Japan?"
+        },
+        options: [
+          { en: "Japan's central bank", es: "Japan's central bank", de: "Japan's central bank", nl: "Japan's central bank" },
+          { en: "Commercial bank", es: "Commercial bank", de: "Commercial bank", nl: "Commercial bank" },
+          { en: "Investment bank", es: "Investment bank", de: "Investment bank", nl: "Investment bank" },
+          { en: "Treasury department", es: "Treasury department", de: "Treasury department", nl: "Treasury department" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Bank of Japan (BoJ) is Japan's central bank, founded in 1882.",
+          es: "The Bank of Japan (BoJ) is Japan's central bank, founded in 1882.",
+          de: "The Bank of Japan (BoJ) is Japan's central bank, founded in 1882.",
+          nl: "The Bank of Japan (BoJ) is Japan's central bank, founded in 1882."
+        }      },
+      {
+        question: {
+          en: "What is a sen?",
+          es: "What is a sen?",
+          de: "What is a sen?",
+          nl: "What is a sen?"
+        },
+        options: [
+          { en: "Former 1/100 of Yen", es: "Former 1/100 of Yen", de: "Former 1/100 of Yen", nl: "Former 1/100 of Yen" },
+          { en: "Current coin", es: "Current coin", de: "Current coin", nl: "Current coin" },
+          { en: "Paper money", es: "Paper money", de: "Paper money", nl: "Paper money" },
+          { en: "Gold coin", es: "Gold coin", de: "Gold coin", nl: "Gold coin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The sen was 1/100 of a yen, discontinued after WWII due to inflation.",
+          es: "The sen was 1/100 of a yen, discontinued after WWII due to inflation.",
+          de: "The sen was 1/100 of a yen, discontinued after WWII due to inflation.",
+          nl: "The sen was 1/100 of a yen, discontinued after WWII due to inflation."
+        }      },
+      {
+        question: {
+          en: "What is unique about 5 Yen coin?",
+          es: "What is unique about 5 Yen coin?",
+          de: "What is unique about 5 Yen coin?",
+          nl: "What is unique about 5 Yen coin?"
+        },
+        options: [
+          { en: "Has hole in center", es: "Has hole in center", de: "Has hole in center", nl: "Has hole in center" },
+          { en: "Made of gold", es: "Made of gold", de: "Made of gold", nl: "Made of gold" },
+          { en: "Largest coin", es: "Largest coin", de: "Largest coin", nl: "Largest coin" },
+          { en: "Square shaped", es: "Square shaped", de: "Square shaped", nl: "Square shaped" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The 5 yen coin has a distinctive hole in the center and is made of brass.",
+          es: "The 5 yen coin has a distinctive hole in the center and is made of brass.",
+          de: "The 5 yen coin has a distinctive hole in the center and is made of brass.",
+          nl: "The 5 yen coin has a distinctive hole in the center and is made of brass."
+        }      },
+      {
+        question: {
+          en: "What metal is 1 Yen coin?",
+          es: "What metal is 1 Yen coin?",
+          de: "What metal is 1 Yen coin?",
+          nl: "What metal is 1 Yen coin?"
+        },
+        options: [
+          { en: "Pure aluminum", es: "Pure aluminum", de: "Pure aluminum", nl: "Pure aluminum" },
+          { en: "Copper", es: "Copper", de: "Copper", nl: "Copper" },
+          { en: "Nickel", es: "Nickel", de: "Nickel", nl: "Nickel" },
+          { en: "Bronze", es: "Bronze", de: "Bronze", nl: "Bronze" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The 1 yen coin is made of 100% aluminum, making it extremely lightweight.",
+          es: "The 1 yen coin is made of 100% aluminum, making it extremely lightweight.",
+          de: "The 1 yen coin is made of 100% aluminum, making it extremely lightweight.",
+          nl: "The 1 yen coin is made of 100% aluminum, making it extremely lightweight."
+        }      },
+      {
+        question: {
+          en: "What was Yen's post-WWII rate?",
+          es: "What was Yen's post-WWII rate?",
+          de: "What was Yen's post-WWII rate?",
+          nl: "What was Yen's post-WWII rate?"
+        },
+        options: [
+          { en: "360 Yen per Dollar", es: "360 Yen per Dollar", de: "360 Yen per Dollar", nl: "360 Yen per Dollar" },
+          { en: "100 Yen per Dollar", es: "100 Yen per Dollar", de: "100 Yen per Dollar", nl: "100 Yen per Dollar" },
+          { en: "1 Yen per Dollar", es: "1 Yen per Dollar", de: "1 Yen per Dollar", nl: "1 Yen per Dollar" },
+          { en: "10 Yen per Dollar", es: "10 Yen per Dollar", de: "10 Yen per Dollar", nl: "10 Yen per Dollar" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "After WWII, the yen was fixed at 360 per dollar until 1971.",
+          es: "After WWII, the yen was fixed at 360 per dollar until 1971.",
+          de: "After WWII, the yen was fixed at 360 per dollar until 1971.",
+          nl: "After WWII, the yen was fixed at 360 per dollar until 1971."
+        }      },
+      {
+        question: {
+          en: "What is a carry trade?",
+          es: "What is a carry trade?",
+          de: "What is a carry trade?",
+          nl: "What is a carry trade?"
+        },
+        options: [
+          { en: "Borrowing in low-interest currency", es: "Borrowing in low-interest currency", de: "Borrowing in low-interest currency", nl: "Borrowing in low-interest currency" },
+          { en: "Trading goods", es: "Trading goods", de: "Trading goods", nl: "Trading goods" },
+          { en: "Currency exchange", es: "Currency exchange", de: "Currency exchange", nl: "Currency exchange" },
+          { en: "Gold trading", es: "Gold trading", de: "Gold trading", nl: "Gold trading" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Yen carry trade involves borrowing cheap yen to invest in higher-yielding currencies.",
+          es: "Yen carry trade involves borrowing cheap yen to invest in higher-yielding currencies.",
+          de: "Yen carry trade involves borrowing cheap yen to invest in higher-yielding currencies.",
+          nl: "Yen carry trade involves borrowing cheap yen to invest in higher-yielding currencies."
+        }      },
+      {
+        question: {
+          en: "Who appears on ¥1,000 note?",
+          es: "Who appears on ¥1,000 note?",
+          de: "Who appears on ¥1,000 note?",
+          nl: "Who appears on ¥1,000 note?"
+        },
+        options: [
+          { en: "Noguchi Hideyo", es: "Noguchi Hideyo", de: "Noguchi Hideyo", nl: "Noguchi Hideyo" },
+          { en: "Fukuzawa Yukichi", es: "Fukuzawa Yukichi", de: "Fukuzawa Yukichi", nl: "Fukuzawa Yukichi" },
+          { en: "Emperor", es: "Emperor", de: "Emperor", nl: "Emperor" },
+          { en: "Shogun", es: "Shogun", de: "Shogun", nl: "Shogun" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Noguchi Hideyo, a bacteriologist, appears on the 1,000 yen note.",
+          es: "Noguchi Hideyo, a bacteriologist, appears on the 1,000 yen note.",
+          de: "Noguchi Hideyo, a bacteriologist, appears on the 1,000 yen note.",
+          nl: "Noguchi Hideyo, a bacteriologist, appears on the 1,000 yen note."
+        }      },
+      {
+        question: {
+          en: "What is the 50 Yen coin made of?",
+          es: "What is the 50 Yen coin made of?",
+          de: "What is the 50 Yen coin made of?",
+          nl: "What is the 50 Yen coin made of?"
+        },
+        options: [
+          { en: "Copper-nickel alloy", es: "Copper-nickel alloy", de: "Copper-nickel alloy", nl: "Copper-nickel alloy" },
+          { en: "Pure copper", es: "Pure copper", de: "Pure copper", nl: "Pure copper" },
+          { en: "Aluminum", es: "Aluminum", de: "Aluminum", nl: "Aluminum" },
+          { en: "Bronze", es: "Bronze", de: "Bronze", nl: "Bronze" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The 50 yen coin is made of copper-nickel alloy with a hole in the center.",
+          es: "The 50 yen coin is made of copper-nickel alloy with a hole in the center.",
+          de: "The 50 yen coin is made of copper-nickel alloy with a hole in the center.",
+          nl: "The 50 yen coin is made of copper-nickel alloy with a hole in the center."
+        }      },
+      {
+        question: {
+          en: "When did Yen float freely?",
+          es: "When did Yen float freely?",
+          de: "When did Yen float freely?",
+          nl: "When did Yen float freely?"
+        },
+        options: [
+          { en: "1973", es: "1973", de: "1973", nl: "1973" },
+          { en: "1945", es: "1945", de: "1945", nl: "1945" },
+          { en: "1971", es: "1971", de: "1971", nl: "1971" },
+          { en: "1985", es: "1985", de: "1985", nl: "1985" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The yen began floating freely against other currencies in February 1973.",
+          es: "The yen began floating freely against other currencies in February 1973.",
+          de: "The yen began floating freely against other currencies in February 1973.",
+          nl: "The yen began floating freely against other currencies in February 1973."
+        }      },
+      {
+        question: {
+          en: "What is the 500 Yen coin?",
+          es: "What is the 500 Yen coin?",
+          de: "What is the 500 Yen coin?",
+          nl: "What is the 500 Yen coin?"
+        },
+        options: [
+          { en: "Highest denomination coin", es: "Highest denomination coin", de: "Highest denomination coin", nl: "Highest denomination coin" },
+          { en: "Lowest denomination", es: "Lowest denomination", de: "Lowest denomination", nl: "Lowest denomination" },
+          { en: "Historical coin", es: "Historical coin", de: "Historical coin", nl: "Historical coin" },
+          { en: "Gold coin", es: "Gold coin", de: "Gold coin", nl: "Gold coin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The 500 yen coin is the highest denomination coin and one of the highest-value coins worldwide.",
+          es: "The 500 yen coin is the highest denomination coin and one of the highest-value coins worldwide.",
+          de: "The 500 yen coin is the highest denomination coin and one of the highest-value coins worldwide.",
+          nl: "The 500 yen coin is the highest denomination coin and one of the highest-value coins worldwide."
+        }      },
+      {
+        question: {
+          en: "What is Plaza Accord?",
+          es: "What is Plaza Accord?",
+          de: "What is Plaza Accord?",
+          nl: "What is Plaza Accord?"
+        },
+        options: [
+          { en: "1985 agreement to devalue dollar", es: "1985 agreement to devalue dollar", de: "1985 agreement to devalue dollar", nl: "1985 agreement to devalue dollar" },
+          { en: "Trade agreement", es: "Trade agreement", de: "Trade agreement", nl: "Trade agreement" },
+          { en: "Gold standard", es: "Gold standard", de: "Gold standard", nl: "Gold standard" },
+          { en: "Currency union", es: "Currency union", de: "Currency union", nl: "Currency union" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The 1985 Plaza Accord led to significant yen appreciation against the dollar.",
+          es: "The 1985 Plaza Accord led to significant yen appreciation against the dollar.",
+          de: "The 1985 Plaza Accord led to significant yen appreciation against the dollar.",
+          nl: "The 1985 Plaza Accord led to significant yen appreciation against the dollar."
+        }      },
+      {
+        question: {
+          en: "What are Yen banknotes made of?",
+          es: "What are Yen banknotes made of?",
+          de: "What are Yen banknotes made of?",
+          nl: "What are Yen banknotes made of?"
+        },
+        options: [
+          { en: "Special paper with security features", es: "Special paper with security features", de: "Special paper with security features", nl: "Special paper with security features" },
+          { en: "Plastic polymer", es: "Plastic polymer", de: "Plastic polymer", nl: "Plastic polymer" },
+          { en: "Regular paper", es: "Regular paper", de: "Regular paper", nl: "Regular paper" },
+          { en: "Cotton only", es: "Cotton only", de: "Cotton only", nl: "Cotton only" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Yen notes use special paper called mitsumata with advanced anti-counterfeiting features.",
+          es: "Yen notes use special paper called mitsumata with advanced anti-counterfeiting features.",
+          de: "Yen notes use special paper called mitsumata with advanced anti-counterfeiting features.",
+          nl: "Yen notes use special paper called mitsumata with advanced anti-counterfeiting features."
+        }      },
+      {
+        question: {
+          en: "What is negative interest rate?",
+          es: "What is negative interest rate?",
+          de: "What is negative interest rate?",
+          nl: "What is negative interest rate?"
+        },
+        options: [
+          { en: "Central bank charges for deposits", es: "Central bank charges for deposits", de: "Central bank charges for deposits", nl: "Central bank charges for deposits" },
+          { en: "High interest rate", es: "High interest rate", de: "High interest rate", nl: "High interest rate" },
+          { en: "Zero interest", es: "Zero interest", de: "Zero interest", nl: "Zero interest" },
+          { en: "Savings bonus", es: "Savings bonus", de: "Savings bonus", nl: "Savings bonus" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bank of Japan implemented negative interest rates in 2016 to stimulate economy.",
+          es: "Bank of Japan implemented negative interest rates in 2016 to stimulate economy.",
+          de: "Bank of Japan implemented negative interest rates in 2016 to stimulate economy.",
+          nl: "Bank of Japan implemented negative interest rates in 2016 to stimulate economy."
+        }      },
+      {
+        question: {
+          en: "What replaced the Yen temporarily?",
+          es: "What replaced the Yen temporarily?",
+          de: "What replaced the Yen temporarily?",
+          nl: "What replaced the Yen temporarily?"
+        },
+        options: [
+          { en: "Nothing, Yen always used", es: "Nothing, Yen always used", de: "Nothing, Yen always used", nl: "Nothing, Yen always used" },
+          { en: "Dollar", es: "Dollar", de: "Dollar", nl: "Dollar" },
+          { en: "Yuan", es: "Yuan", de: "Yuan", nl: "Yuan" },
+          { en: "Won", es: "Won", de: "Won", nl: "Won" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Yen has been Japan's currency continuously since 1871, never replaced.",
+          es: "The Yen has been Japan's currency continuously since 1871, never replaced.",
+          de: "The Yen has been Japan's currency continuously since 1871, never replaced.",
+          nl: "The Yen has been Japan's currency continuously since 1871, never replaced."
         }
       }
     ]

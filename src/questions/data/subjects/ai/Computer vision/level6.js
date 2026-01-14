@@ -427,6 +427,426 @@
           de: "HOG-Deskriptoren kodieren Kantenrichtungen und -stärken in lokalen Regionen, bieten reiche Forminformationen die relativ invariant gegenüber Beleuchtungsvariationen und kleinen geometrischen Transformationen sind.",
           nl: "HOG descriptors coderen randrichtingen en sterktes in lokale regio's, bieden rijke vorminfo die relatief invariant is voor verlichtingsvariaties en kleine geometrische transformaties."
         }
+      },
+      {
+        question: {
+          en: "What is dilated (atrous) convolution used for in CNNs?",
+          es: "¿Para qué se usa la convolución dilatada (atrous) en las CNN?",
+          de: "Wofür wird dilatierte (atrous) Faltung in CNNs verwendet?",
+          nl: "Waarvoor wordt dilated (atrous) convolutie gebruikt in CNNs?"
+        },
+        options: [
+          { en: "Increase receptive field without increasing parameters or losing resolution", es: "Aumentar campo receptivo sin incrementar parámetros o perder resolución", de: "Rezeptives Feld erweitern ohne Parameter zu erhöhen oder Auflösung zu verlieren", nl: "Receptief veld vergroten zonder parameters te verhogen of resolutie te verliezen" },
+          { en: "Dilate images to make them larger", es: "Dilatar imágenes para hacerlas más grandes", de: "Bilder dilatieren um sie größer zu machen", nl: "Afbeeldingen dilateren om ze groter te maken" },
+          { en: "Create holes in feature maps", es: "Crear agujeros en mapas de características", de: "Löcher in Feature-Maps erstellen", nl: "Gaten maken in feature maps" },
+          { en: "Speed up convolution operations", es: "Acelerar operaciones de convolución", de: "Faltungsoperationen beschleunigen", nl: "Convolutie-operaties versnellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dilated convolutions insert spacing between kernel elements, expanding the receptive field exponentially while maintaining spatial resolution, crucial for dense prediction tasks like semantic segmentation.",
+          es: "Las convoluciones dilatadas insertan espaciado entre elementos del kernel, expandiendo el campo receptivo exponencialmente mientras mantienen resolución espacial, crucial para tareas de predicción densa como segmentación semántica.",
+          de: "Dilatierte Faltungen fügen Abstände zwischen Kernel-Elementen ein, erweitern rezeptives Feld exponentiell während räumliche Auflösung beibehalten wird, entscheidend für dichte Vorhersageaufgaben wie semantische Segmentierung.",
+          nl: "Dilated convoluties voegen afstand in tussen kernel elementen, breiden receptief veld exponentieel uit terwijl ruimtelijke resolutie behouden blijft, cruciaal voor dichte voorspellingstaken zoals semantische segmentatie."
+        }
+      },
+      {
+        question: {
+          en: "What is focal loss designed to address in object detection?",
+          es: "¿Qué está diseñada la focal loss para abordar en detección de objetos?",
+          de: "Was soll Focal Loss in Objekterkennung adressieren?",
+          nl: "Wat is focal loss ontworpen om aan te pakken bij objectdetectie?"
+        },
+        options: [
+          { en: "Class imbalance between foreground and background examples", es: "Desbalance de clases entre ejemplos de primer plano y fondo", de: "Klassenungleichgewicht zwischen Vordergrund- und Hintergrundbeispielen", nl: "Klasse onbalans tussen voorgrond en achtergrond voorbeelden" },
+          { en: "Focusing camera lenses automatically", es: "Enfocar lentes de cámara automáticamente", de: "Kameraobjektive automatisch fokussieren", nl: "Camera lenzen automatisch scherpstellen" },
+          { en: "Concentrating computational resources", es: "Concentrar recursos computacionales", de: "Rechenressourcen konzentrieren", nl: "Computationele bronnen concentreren" },
+          { en: "Reducing focal length variations", es: "Reducir variaciones de longitud focal", de: "Brennweitenvariationen reduzieren", nl: "Brandpuntafstand variaties verminderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Focal loss down-weights easy negative examples and focuses training on hard examples by reshaping cross-entropy loss, effectively handling the extreme foreground-background imbalance in one-stage detectors like RetinaNet.",
+          es: "Focal loss reduce el peso de ejemplos negativos fáciles y enfoca entrenamiento en ejemplos difíciles reformando la pérdida de entropía cruzada, manejando efectivamente el desbalance extremo primer plano-fondo en detectores de una etapa como RetinaNet.",
+          de: "Focal Loss gewichtet einfache negative Beispiele ab und fokussiert Training auf schwierige Beispiele durch Umformung von Kreuzentropieverlust, behandelt effektiv das extreme Vordergrund-Hintergrund-Ungleichgewicht in einstufigen Detektoren wie RetinaNet.",
+          nl: "Focal loss vermindert gewicht van makkelijke negatieve voorbeelden en focust training op moeilijke voorbeelden door cross-entropy loss te hervormen, behandelt effectief de extreme voorgrond-achtergrond onbalans in één-fase detectoren zoals RetinaNet."
+        }
+      },
+      {
+        question: {
+          en: "What is the key innovation of EfficientNet architecture?",
+          es: "¿Cuál es la innovación clave de la arquitectura EfficientNet?",
+          de: "Was ist die Schlüsselinnovation der EfficientNet-Architektur?",
+          nl: "Wat is de belangrijkste innovatie van EfficientNet architectuur?"
+        },
+        options: [
+          { en: "Compound scaling that balances network depth, width, and resolution", es: "Escalado compuesto que equilibra profundidad, ancho y resolución de red", de: "Zusammengesetzte Skalierung die Netzwerktiefe, Breite und Auflösung ausgleicht", nl: "Samengestelde schaling die netwerkdiepte, breedte en resolutie balanceert" },
+          { en: "Using only efficient convolution operations", es: "Usar solo operaciones de convolución eficientes", de: "Nur effiziente Faltungsoperationen verwenden", nl: "Alleen efficiënte convolutie-operaties gebruiken" },
+          { en: "Training networks more efficiently with less data", es: "Entrenar redes más eficientemente con menos datos", de: "Netzwerke effizienter mit weniger Daten trainieren", nl: "Netwerken efficiënter trainen met minder data" },
+          { en: "Reducing power consumption during inference", es: "Reducir consumo de energía durante inferencia", de: "Stromverbrauch während Inferenz reduzieren", nl: "Stroomverbruik verminderen tijdens inferentie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "EfficientNet uses neural architecture search to find optimal compound scaling coefficients that uniformly scale depth, width, and resolution simultaneously, achieving better performance with fewer parameters than scaling any single dimension.",
+          es: "EfficientNet usa búsqueda de arquitectura neuronal para encontrar coeficientes de escalado compuesto óptimos que escalan uniformemente profundidad, ancho y resolución simultáneamente, logrando mejor rendimiento con menos parámetros que escalar cualquier dimensión única.",
+          de: "EfficientNet verwendet neuronale Architektursuche um optimale zusammengesetzte Skalierungskoeffizienten zu finden die Tiefe, Breite und Auflösung gleichmäßig gleichzeitig skalieren, erreicht bessere Leistung mit weniger Parametern als Skalierung einzelner Dimensionen.",
+          nl: "EfficientNet gebruikt neurale architectuurzoeken om optimale samengestelde schalingscoëfficiënten te vinden die diepte, breedte en resolutie uniform gelijktijdig schalen, bereikt betere prestaties met minder parameters dan het schalen van een enkele dimensie."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of Region Proposal Networks (RPN) in Faster R-CNN?",
+          es: "¿Cuál es el propósito de las Redes de Propuesta de Región (RPN) en Faster R-CNN?",
+          de: "Was ist der Zweck von Region Proposal Networks (RPN) in Faster R-CNN?",
+          nl: "Wat is het doel van Region Proposal Networks (RPN) in Faster R-CNN?"
+        },
+        options: [
+          { en: "Generate object proposals directly from feature maps efficiently", es: "Generar propuestas de objeto directamente desde mapas de características eficientemente", de: "Objektvorschläge direkt aus Feature-Maps effizient generieren", nl: "Objectvoorstellen direct genereren uit feature maps efficiënt" },
+          { en: "Propose new network architectures automatically", es: "Proponer nuevas arquitecturas de red automáticamente", de: "Neue Netzwerkarchitekturen automatisch vorschlagen", nl: "Nieuwe netwerkarchitecturen automatisch voorstellen" },
+          { en: "Select regions for data augmentation", es: "Seleccionar regiones para aumento de datos", de: "Regionen für Datenaugmentation auswählen", nl: "Regio's selecteren voor data augmentation" },
+          { en: "Reduce the number of network regions", es: "Reducir el número de regiones de red", de: "Anzahl der Netzwerkregionen reduzieren", nl: "Aantal netwerkgebieden verminderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "RPN is a fully convolutional network that shares computation with the detection network, sliding over feature maps to efficiently predict objectness scores and bounding box refinements at multiple scales and aspect ratios.",
+          es: "RPN es una red totalmente convolucional que comparte computación con la red de detección, deslizándose sobre mapas de características para predecir eficientemente puntajes de objetividad y refinamientos de caja delimitadora en múltiples escalas y proporciones de aspecto.",
+          de: "RPN ist ein vollständig faltungsneuronales Netzwerk das Berechnungen mit dem Detektionsnetzwerk teilt, gleitet über Feature-Maps um effizient Objektheitswerte und Begrenzungsrahmen-Verfeinerungen bei mehreren Skalen und Seitenverhältnissen vorherzusagen.",
+          nl: "RPN is een volledig convolutioneel netwerk dat berekening deelt met het detectienetwerk, schuift over feature maps om efficiënt objectness scores en bounding box verfijningen te voorspellen op meerdere schalen en beeldverhoudingen."
+        }
+      },
+      {
+        question: {
+          en: "What is the main difference between R-CNN, Fast R-CNN, and Faster R-CNN?",
+          es: "¿Cuál es la principal diferencia entre R-CNN, Fast R-CNN y Faster R-CNN?",
+          de: "Was ist der Hauptunterschied zwischen R-CNN, Fast R-CNN und Faster R-CNN?",
+          nl: "Wat is het belangrijkste verschil tussen R-CNN, Fast R-CNN en Faster R-CNN?"
+        },
+        options: [
+          { en: "Progressive improvements in speed and efficiency of region proposal and feature extraction", es: "Mejoras progresivas en velocidad y eficiencia de propuesta de región y extracción de características", de: "Progressive Verbesserungen in Geschwindigkeit und Effizienz von Regionsvorschlag und Merkmalsextraktion", nl: "Progressieve verbeteringen in snelheid en efficiëntie van regiovoorstellen en feature extractie" },
+          { en: "They use different activation functions", es: "Usan diferentes funciones de activación", de: "Sie verwenden verschiedene Aktivierungsfunktionen", nl: "Ze gebruiken verschillende activatiefuncties" },
+          { en: "Each works on different image sizes", es: "Cada uno funciona con diferentes tamaños de imagen", de: "Jeder funktioniert mit verschiedenen Bildgrößen", nl: "Elk werkt met verschillende beeldgroottes" },
+          { en: "They are completely unrelated architectures", es: "Son arquitecturas completamente no relacionadas", de: "Sie sind völlig unabhängige Architekturen", nl: "Ze zijn volledig ongerelateerde architecturen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "R-CNN extracts features for each region separately (slow), Fast R-CNN processes the whole image once then crops features (faster), Faster R-CNN adds RPN for end-to-end learning without external region proposals (fastest).",
+          es: "R-CNN extrae características para cada región por separado (lento), Fast R-CNN procesa toda la imagen una vez luego recorta características (más rápido), Faster R-CNN agrega RPN para aprendizaje de extremo a extremo sin propuestas de región externas (más rápido).",
+          de: "R-CNN extrahiert Features für jede Region separat (langsam), Fast R-CNN verarbeitet das gesamte Bild einmal dann schneidet Features (schneller), Faster R-CNN fügt RPN für End-to-End-Lernen ohne externe Regionsvorschläge hinzu (am schnellsten).",
+          nl: "R-CNN extraheert features voor elke regio afzonderlijk (traag), Fast R-CNN verwerkt het hele beeld één keer dan knipt features (sneller), Faster R-CNN voegt RPN toe voor end-to-end leren zonder externe regiovoorstellen (snelst)."
+        }
+      },
+      {
+        question: {
+          en: "What is optical flow estimation in computer vision?",
+          es: "¿Qué es la estimación de flujo óptico en visión por computadora?",
+          de: "Was ist optische Flussschätzung in Computer Vision?",
+          nl: "Wat is optische flow schatting in computer vision?"
+        },
+        options: [
+          { en: "Computing pixel-wise motion vectors between consecutive frames", es: "Calcular vectores de movimiento por píxel entre fotogramas consecutivos", de: "Pixelweise Bewegungsvektoren zwischen aufeinanderfolgenden Frames berechnen", nl: "Pixel-gewijze bewegingsvectoren berekenen tussen opeenvolgende frames" },
+          { en: "Measuring optical lens flow characteristics", es: "Medir características de flujo de lentes ópticas", de: "Optische Linsenfluss-Eigenschaften messen", nl: "Optische lens flow kenmerken meten" },
+          { en: "Analyzing water flow in images", es: "Analizar flujo de agua en imágenes", de: "Wasserfluss in Bildern analysieren", nl: "Waterstroom analyseren in afbeeldingen" },
+          { en: "Tracking light sources in videos", es: "Rastrear fuentes de luz en videos", de: "Lichtquellen in Videos verfolgen", nl: "Lichtbronnen volgen in video's" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Optical flow captures the apparent motion of objects, surfaces, and edges in a visual scene caused by relative movement between observer and scene, providing dense motion information used in video analysis, tracking, and action recognition.",
+          es: "El flujo óptico captura el movimiento aparente de objetos, superficies y bordes en una escena visual causado por movimiento relativo entre observador y escena, proporcionando información de movimiento densa usada en análisis de video, rastreo y reconocimiento de acciones.",
+          de: "Optischer Fluss erfasst die scheinbare Bewegung von Objekten, Oberflächen und Kanten in einer visuellen Szene verursacht durch relative Bewegung zwischen Beobachter und Szene, bietet dichte Bewegungsinformation für Videoanalyse, Tracking und Aktionserkennung.",
+          nl: "Optische flow legt de schijnbare beweging vast van objecten, oppervlakken en randen in een visuele scène veroorzaakt door relatieve beweging tussen waarnemer en scène, biedt dichte bewegingsinfo gebruikt in videoanalyse, tracking en actieherkenning."
+        }
+      },
+      {
+        question: {
+          en: "What is panoptic segmentation combining?",
+          es: "¿Qué combina la segmentación panóptica?",
+          de: "Was kombiniert panoptische Segmentierung?",
+          nl: "Wat combineert panoptische segmentatie?"
+        },
+        options: [
+          { en: "Semantic segmentation for stuff classes and instance segmentation for thing classes", es: "Segmentación semántica para clases de material y segmentación de instancias para clases de objetos", de: "Semantische Segmentierung für Material-Klassen und Instanzsegmentierung für Objekt-Klassen", nl: "Semantische segmentatie voor materiaalklassen en instance segmentatie voor objectklassen" },
+          { en: "Panoramic images with semantic labels", es: "Imágenes panorámicas con etiquetas semánticas", de: "Panoramabilder mit semantischen Labels", nl: "Panoramische afbeeldingen met semantische labels" },
+          { en: "Multiple camera views simultaneously", es: "Múltiples vistas de cámara simultáneamente", de: "Mehrere Kameraansichten gleichzeitig", nl: "Meerdere cameraweergaven tegelijkertijd" },
+          { en: "All possible segmentation methods", es: "Todos los métodos de segmentación posibles", de: "Alle möglichen Segmentierungsmethoden", nl: "Alle mogelijke segmentatie methodes" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Panoptic segmentation unifies semantic segmentation (for amorphous regions like sky, road) and instance segmentation (for countable objects like cars, people), assigning unique IDs to thing instances while labeling stuff regions.",
+          es: "La segmentación panóptica unifica segmentación semántica (para regiones amorfas como cielo, carretera) y segmentación de instancias (para objetos contables como autos, personas), asignando IDs únicos a instancias de objetos mientras etiqueta regiones de material.",
+          de: "Panoptische Segmentierung vereint semantische Segmentierung (für amorphe Regionen wie Himmel, Straße) und Instanzsegmentierung (für zählbare Objekte wie Autos, Personen), weist eindeutige IDs zu Objekt-Instanzen zu während Material-Regionen gelabelt werden.",
+          nl: "Panoptische segmentatie verenigt semantische segmentatie (voor amorfe regio's zoals lucht, weg) en instance segmentatie (voor telbare objecten zoals auto's, mensen), wijst unieke IDs toe aan object instanties terwijl materiaalregio's gelabeld worden."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of spatial pyramid pooling in CNNs?",
+          es: "¿Cuál es el propósito del pooling de pirámide espacial en las CNN?",
+          de: "Was ist der Zweck von Spatial Pyramid Pooling in CNNs?",
+          nl: "Wat is het doel van spatial pyramid pooling in CNNs?"
+        },
+        options: [
+          { en: "Handle variable input sizes by pooling at multiple scales", es: "Manejar tamaños de entrada variables agrupando en múltiples escalas", de: "Variable Eingabegrößen handhaben durch Pooling auf mehreren Skalen", nl: "Variabele invoergroottes behandelen door pooling op meerdere schalen" },
+          { en: "Build pyramid structures from spatial data", es: "Construir estructuras piramidales desde datos espaciales", de: "Pyramidenstrukturen aus räumlichen Daten aufbauen", nl: "Piramidestructuren bouwen uit ruimtelijke data" },
+          { en: "Pool only spatial information, not temporal", es: "Agrupar solo información espacial, no temporal", de: "Nur räumliche Information poolen, nicht zeitliche", nl: "Alleen ruimtelijke informatie poolen, niet temporeel" },
+          { en: "Increase pooling pyramid depth", es: "Aumentar profundidad de pirámide de pooling", de: "Pooling-Pyramiden-Tiefe erhöhen", nl: "Pooling piramide diepte verhogen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Spatial pyramid pooling divides feature maps into grids of different scales and pools each grid region, producing fixed-length representations regardless of input size, enabling CNNs to process images of arbitrary dimensions.",
+          es: "El pooling de pirámide espacial divide mapas de características en cuadrículas de diferentes escalas y agrupa cada región de cuadrícula, produciendo representaciones de longitud fija independientemente del tamaño de entrada, permitiendo a las CNN procesar imágenes de dimensiones arbitrarias.",
+          de: "Spatial Pyramid Pooling teilt Feature-Maps in Raster verschiedener Skalen und poolt jede Rasterregion, produziert Repräsentationen fester Länge unabhängig von Eingabegröße, ermöglicht CNNs Bilder beliebiger Dimensionen zu verarbeiten.",
+          nl: "Spatial pyramid pooling verdeelt feature maps in rasters van verschillende schalen en poolt elke rasterregio, produceert representaties van vaste lengte ongeacht invoergrootte, stelt CNNs in staat afbeeldingen van willekeurige dimensies te verwerken."
+        }
+      },
+      {
+        question: {
+          en: "What is deformable convolution addressing?",
+          es: "¿Qué está abordando la convolución deformable?",
+          de: "Was adressiert verformbare Faltung?",
+          nl: "Wat pakt deformable convolutie aan?"
+        },
+        options: [
+          { en: "Learning adaptive receptive fields that match object shapes and transformations", es: "Aprender campos receptivos adaptativos que coinciden con formas y transformaciones de objetos", de: "Adaptive rezeptive Felder lernen die Objektformen und -transformationen entsprechen", nl: "Adaptieve receptieve velden leren die overeenkomen met objectvormen en transformaties" },
+          { en: "Deforming images before processing", es: "Deformar imágenes antes de procesar", de: "Bilder vor Verarbeitung verformen", nl: "Afbeeldingen vervormen voor verwerking" },
+          { en: "Correcting lens deformation automatically", es: "Corregir deformación de lente automáticamente", de: "Linsenverformung automatisch korrigieren", nl: "Lensvervorming automatisch corrigeren" },
+          { en: "Making network architectures more flexible", es: "Hacer arquitecturas de red más flexibles", de: "Netzwerkarchitekturen flexibler machen", nl: "Netwerkarchitecturen flexibeler maken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Deformable convolutions add learnable 2D offsets to standard convolution sampling locations, allowing the receptive field to adapt to object scale, deformation, and perspective transformations, improving geometric transformation modeling.",
+          es: "Las convoluciones deformables agregan desplazamientos 2D aprendibles a ubicaciones de muestreo de convolución estándar, permitiendo que el campo receptivo se adapte a escala de objeto, deformación y transformaciones de perspectiva, mejorando modelado de transformación geométrica.",
+          de: "Verformbare Faltungen fügen lernbare 2D-Verschiebungen zu Standard-Faltungs-Sampling-Positionen hinzu, ermöglichen rezeptivem Feld sich an Objektskala, Verformung und Perspektivtransformationen anzupassen, verbessern geometrische Transformationsmodellierung.",
+          nl: "Deformable convoluties voegen leerbare 2D offsets toe aan standaard convolutie sampling locaties, stellen receptief veld in staat zich aan te passen aan objectschaal, vervorming en perspectieftransformaties, verbeteren geometrische transformatie modellering."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of feature matching in image stitching and panorama creation?",
+          es: "¿Cuál es el propósito de la coincidencia de características en unión de imágenes y creación de panoramas?",
+          de: "Was ist der Zweck von Feature Matching bei Bild-Stitching und Panorama-Erstellung?",
+          nl: "Wat is het doel van feature matching bij beeldstikken en panorama creatie?"
+        },
+        options: [
+          { en: "Find corresponding points across images to align and blend them seamlessly", es: "Encontrar puntos correspondientes a través de imágenes para alinearlas y mezclarlas sin problemas", de: "Korrespondierende Punkte über Bilder finden um sie nahtlos auszurichten und zu mischen", nl: "Corresponderende punten vinden over afbeeldingen om ze naadloos uit te lijnen en samen te voegen" },
+          { en: "Match image quality across different cameras", es: "Igualar calidad de imagen entre diferentes cámaras", de: "Bildqualität über verschiedene Kameras angleichen", nl: "Beeldkwaliteit over verschillende camera's matchen" },
+          { en: "Create matching pairs of similar images", es: "Crear pares coincidentes de imágenes similares", de: "Passende Paare ähnlicher Bilder erstellen", nl: "Matchende paren van vergelijkbare afbeeldingen maken" },
+          { en: "Select features for storage", es: "Seleccionar características para almacenamiento", de: "Features für Speicherung auswählen", nl: "Kenmerken selecteren voor opslag" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Feature matching identifies shared keypoints between overlapping images using descriptors (e.g., SIFT, ORB), enabling homography estimation for geometric transformation and smooth blending to create wide-angle panoramas.",
+          es: "La coincidencia de características identifica puntos clave compartidos entre imágenes superpuestas usando descriptores (ej., SIFT, ORB), permitiendo estimación de homografía para transformación geométrica y mezcla suave para crear panoramas de ángulo amplio.",
+          de: "Feature Matching identifiziert gemeinsame Schlüsselpunkte zwischen überlappenden Bildern mit Deskriptoren (z.B. SIFT, ORB), ermöglicht Homographie-Schätzung für geometrische Transformation und sanftes Mischen um Weitwinkelpanoramen zu erstellen.",
+          nl: "Feature matching identificeert gedeelde keypoints tussen overlappende afbeeldingen met descriptors (bijv. SIFT, ORB), maakt homografie schatting mogelijk voor geometrische transformatie en vloeiend mengen om panorama's met groot gezichtsveld te creëren."
+        }
+      },
+      {
+        question: {
+          en: "What is the role of skip connections in encoder-decoder architectures like U-Net?",
+          es: "¿Cuál es el papel de las conexiones de salto en arquitecturas codificador-decodificador como U-Net?",
+          de: "Was ist die Rolle von Skip-Verbindungen in Encoder-Decoder-Architekturen wie U-Net?",
+          nl: "Wat is de rol van skip verbindingen in encoder-decoder architecturen zoals U-Net?"
+        },
+        options: [
+          { en: "Preserve high-resolution spatial information lost during downsampling", es: "Preservar información espacial de alta resolución perdida durante submuestreo", de: "Hochauflösende räumliche Informationen bewahren die beim Downsampling verloren gehen", nl: "Hoge-resolutie ruimtelijke informatie behouden die verloren gaat tijdens downsampling" },
+          { en: "Skip unnecessary layers to speed up inference", es: "Saltar capas innecesarias para acelerar inferencia", de: "Unnötige Schichten überspringen um Inferenz zu beschleunigen", nl: "Onnodige lagen overslaan om inferentie te versnellen" },
+          { en: "Connect only encoder and decoder ends", es: "Conectar solo extremos de codificador y decodificador", de: "Nur Encoder- und Decoder-Enden verbinden", nl: "Alleen encoder en decoder uiteinden verbinden" },
+          { en: "Bypass training for certain layers", es: "Omitir entrenamiento para ciertas capas", de: "Training für bestimmte Schichten umgehen", nl: "Training omzeilen voor bepaalde lagen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Skip connections concatenate high-resolution encoder features with corresponding decoder features, combining coarse semantic information with fine spatial details crucial for precise localization in segmentation and similar dense prediction tasks.",
+          es: "Las conexiones de salto concatenan características de codificador de alta resolución con características de decodificador correspondientes, combinando información semántica gruesa con detalles espaciales finos cruciales para localización precisa en segmentación y tareas similares de predicción densa.",
+          de: "Skip-Verbindungen verketten hochauflösende Encoder-Features mit entsprechenden Decoder-Features, kombinieren grobe semantische Information mit feinen räumlichen Details entscheidend für präzise Lokalisierung in Segmentierung und ähnlichen dichten Vorhersageaufgaben.",
+          nl: "Skip verbindingen voegen hoge-resolutie encoder features samen met corresponderende decoder features, combineren grove semantische informatie met fijne ruimtelijke details cruciaal voor precieze lokalisatie in segmentatie en vergelijkbare dichte voorspellingstaken."
+        }
+      },
+      {
+        question: {
+          en: "What is test-time augmentation (TTA) used for?",
+          es: "¿Para qué se usa el aumento en tiempo de prueba (TTA)?",
+          de: "Wofür wird Test-Zeit-Augmentation (TTA) verwendet?",
+          nl: "Waarvoor wordt test-time augmentation (TTA) gebruikt?"
+        },
+        options: [
+          { en: "Improve prediction robustness by averaging predictions on augmented test samples", es: "Mejorar robustez de predicción promediando predicciones en muestras de prueba aumentadas", de: "Vorhersagerobustheit verbessern durch Mittelung von Vorhersagen auf augmentierten Testproben", nl: "Voorspellingsrobuustheid verbeteren door voorspellingen te middelen op geaugmenteerde testsamples" },
+          { en: "Augment training data during testing phase", es: "Aumentar datos de entrenamiento durante fase de prueba", de: "Trainingsdaten während Testphase augmentieren", nl: "Trainingsdata augmenteren tijdens testfase" },
+          { en: "Test different augmentation strategies", es: "Probar diferentes estrategias de aumento", de: "Verschiedene Augmentationsstrategien testen", nl: "Verschillende augmentatie strategieën testen" },
+          { en: "Reduce testing time through augmentation", es: "Reducir tiempo de prueba a través de aumento", de: "Testzeit durch Augmentation reduzieren", nl: "Testtijd verminderen door augmentatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "TTA applies multiple transformations (flips, rotations, crops) to test images, runs inference on each variant, then aggregates predictions (averaging or voting) to produce more robust and accurate final predictions than single-image inference.",
+          es: "TTA aplica múltiples transformaciones (volteos, rotaciones, recortes) a imágenes de prueba, ejecuta inferencia en cada variante, luego agrega predicciones (promediando o votando) para producir predicciones finales más robustas y precisas que inferencia de imagen única.",
+          de: "TTA wendet mehrere Transformationen (Spiegelungen, Rotationen, Zuschnitte) auf Testbilder an, führt Inferenz auf jeder Variante aus, aggregiert dann Vorhersagen (Mittelung oder Abstimmung) um robustere und genauere finale Vorhersagen als Einzelbild-Inferenz zu produzieren.",
+          nl: "TTA past meerdere transformaties (flips, rotaties, crops) toe op testafbeeldingen, voert inferentie uit op elke variant, aggregeert vervolgens voorspellingen (middelen of stemmen) om robuustere en nauwkeurigere finale voorspellingen te produceren dan enkele-beeld inferentie."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between local and global thresholding?",
+          es: "¿Cuál es la diferencia entre umbralización local y global?",
+          de: "Was ist der Unterschied zwischen lokaler und globaler Schwellenwertbildung?",
+          nl: "Wat is het verschil tussen lokale en globale drempelwaarden?"
+        },
+        options: [
+          { en: "Global uses one threshold for entire image, local adapts threshold per region", es: "Global usa un umbral para toda la imagen, local adapta umbral por región", de: "Global verwendet einen Schwellenwert für gesamtes Bild, lokal passt Schwellenwert pro Region an", nl: "Globaal gebruikt één drempelwaarde voor hele afbeelding, lokaal past drempelwaarde per regio aan" },
+          { en: "Local is always faster than global", es: "Local es siempre más rápido que global", de: "Lokal ist immer schneller als global", nl: "Lokaal is altijd sneller dan globaal" },
+          { en: "Global works on color images only", es: "Global funciona solo en imágenes a color", de: "Global funktioniert nur auf Farbbildern", nl: "Globaal werkt alleen op kleurenafbeeldingen" },
+          { en: "They produce identical results", es: "Producen resultados idénticos", de: "Sie produzieren identische Ergebnisse", nl: "Ze produceren identieke resultaten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Global thresholding applies a single threshold value across the entire image, while local (adaptive) thresholding calculates different thresholds for different image regions, handling varying illumination conditions more effectively.",
+          es: "La umbralización global aplica un solo valor umbral a través de toda la imagen, mientras que la umbralización local (adaptativa) calcula diferentes umbrales para diferentes regiones de imagen, manejando condiciones de iluminación variables más efectivamente.",
+          de: "Globale Schwellenwertbildung wendet einen einzelnen Schwellenwert über das gesamte Bild an, während lokale (adaptive) Schwellenwertbildung verschiedene Schwellenwerte für verschiedene Bildregionen berechnet, behandelt variierende Beleuchtungsbedingungen effektiver.",
+          nl: "Globale drempelwaarden past een enkele drempelwaarde toe over de hele afbeelding, terwijl lokale (adaptieve) drempelwaarden verschillende drempelwaarden berekent voor verschillende beeldregio's, behandelt variërende verlichtingsomstandigheden effectiever."
+        }
+      },
+      {
+        question: {
+          en: "What is the primary goal of image registration?",
+          es: "¿Cuál es el objetivo principal del registro de imágenes?",
+          de: "Was ist das Hauptziel der Bildregistrierung?",
+          nl: "Wat is het primaire doel van beeldregistratie?"
+        },
+        options: [
+          { en: "Align multiple images into a common coordinate system", es: "Alinear múltiples imágenes en un sistema de coordenadas común", de: "Mehrere Bilder in ein gemeinsames Koordinatensystem ausrichten", nl: "Meerdere afbeeldingen uitlijnen in een gemeenschappelijk coördinatensysteem" },
+          { en: "Register images in a database for retrieval", es: "Registrar imágenes en base de datos para recuperación", de: "Bilder in Datenbank für Abruf registrieren", nl: "Afbeeldingen registreren in database voor opvraging" },
+          { en: "Create image registration certificates", es: "Crear certificados de registro de imagen", de: "Bildregistrierungszertifikate erstellen", nl: "Beeldregistratie certificaten maken" },
+          { en: "Count registered objects in images", es: "Contar objetos registrados en imágenes", de: "Registrierte Objekte in Bildern zählen", nl: "Geregistreerde objecten in afbeeldingen tellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Image registration spatially aligns images from different viewpoints, times, or sensors by finding geometric transformations, enabling applications like medical image fusion, change detection, and multi-modal analysis.",
+          es: "El registro de imágenes alinea espacialmente imágenes de diferentes puntos de vista, tiempos o sensores encontrando transformaciones geométricas, permitiendo aplicaciones como fusión de imagen médica, detección de cambios y análisis multi-modal.",
+          de: "Bildregistrierung richtet Bilder aus verschiedenen Blickwinkeln, Zeiten oder Sensoren räumlich aus durch Finden geometrischer Transformationen, ermöglicht Anwendungen wie medizinische Bildfusion, Änderungserkennung und multi-modale Analyse.",
+          nl: "Beeldregistratie lijnt afbeeldingen uit verschillende gezichtspunten, tijden of sensoren ruimtelijk uit door geometrische transformaties te vinden, maakt toepassingen mogelijk zoals medische beeldfusie, veranderingsdetectie en multi-modale analyse."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of non-local neural networks?",
+          es: "¿Cuál es el propósito de las redes neuronales no locales?",
+          de: "Was ist der Zweck von nicht-lokalen neuronalen Netzwerken?",
+          nl: "Wat is het doel van non-local neural networks?"
+        },
+        options: [
+          { en: "Capture long-range dependencies by computing interactions between all positions", es: "Capturar dependencias de largo alcance calculando interacciones entre todas las posiciones", de: "Langstrecken-Abhängigkeiten erfassen durch Berechnung von Interaktionen zwischen allen Positionen", nl: "Lange-afstands afhankelijkheden vastleggen door interacties tussen alle posities te berekenen" },
+          { en: "Process networks distributed across locations", es: "Procesar redes distribuidas a través de ubicaciones", de: "Netzwerke verarbeiten die über Standorte verteilt sind", nl: "Netwerken verwerken verspreid over locaties" },
+          { en: "Avoid using local convolutions entirely", es: "Evitar usar convoluciones locales por completo", de: "Lokale Faltungen vollständig vermeiden", nl: "Lokale convoluties volledig vermijden" },
+          { en: "Connect neurons non-locally only", es: "Conectar neuronas solo no localmente", de: "Neuronen nur nicht-lokal verbinden", nl: "Neuronen alleen non-lokaal verbinden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Non-local operations compute response at a position as a weighted sum of features at all positions, capturing global context and long-range spatial/temporal relationships that local convolutions with limited receptive fields cannot model effectively.",
+          es: "Las operaciones no locales calculan respuesta en una posición como suma ponderada de características en todas las posiciones, capturando contexto global y relaciones espaciales/temporales de largo alcance que convoluciones locales con campos receptivos limitados no pueden modelar efectivamente.",
+          de: "Nicht-lokale Operationen berechnen Antwort an einer Position als gewichtete Summe von Features an allen Positionen, erfassen globalen Kontext und Langstrecken-räumliche/zeitliche Beziehungen die lokale Faltungen mit begrenzten rezeptiven Feldern nicht effektiv modellieren können.",
+          nl: "Non-local operaties berekenen respons op een positie als gewogen som van features op alle posities, leggen globale context en lange-afstands ruimtelijke/temporele relaties vast die lokale convoluties met beperkte receptieve velden niet effectief kunnen modelleren."
+        }
+      },
+      {
+        question: {
+          en: "What is the main challenge that CutMix data augmentation addresses?",
+          es: "¿Cuál es el principal desafío que aborda el aumento de datos CutMix?",
+          de: "Was ist die Hauptherausforderung die CutMix-Datenaugmentation adressiert?",
+          nl: "Wat is de belangrijkste uitdaging die CutMix data augmentation aanpakt?"
+        },
+        options: [
+          { en: "Loss of spatial information and context when mixing training samples", es: "Pérdida de información espacial y contexto al mezclar muestras de entrenamiento", de: "Verlust räumlicher Informationen und Kontext beim Mischen von Trainingsproben", nl: "Verlies van ruimtelijke informatie en context bij het mengen van trainingssamples" },
+          { en: "Cutting images into too many pieces", es: "Cortar imágenes en demasiadas piezas", de: "Bilder in zu viele Teile schneiden", nl: "Afbeeldingen in te veel stukken knippen" },
+          { en: "Mixing only similar images together", es: "Mezclar solo imágenes similares juntas", de: "Nur ähnliche Bilder zusammen mischen", nl: "Alleen vergelijkbare afbeeldingen samen mengen" },
+          { en: "Reducing training speed significantly", es: "Reducir velocidad de entrenamiento significativamente", de: "Trainingsgeschwindigkeit erheblich reduzieren", nl: "Trainingssnelheid aanzienlijk verminderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "CutMix cuts and pastes rectangular regions between training images while mixing labels proportionally, preserving local features and spatial relationships better than methods like Mixup that blend entire images, improving model robustness and localization ability.",
+          es: "CutMix corta y pega regiones rectangulares entre imágenes de entrenamiento mientras mezcla etiquetas proporcionalmente, preservando características locales y relaciones espaciales mejor que métodos como Mixup que mezclan imágenes completas, mejorando robustez del modelo y capacidad de localización.",
+          de: "CutMix schneidet und fügt rechteckige Regionen zwischen Trainingsbildern ein während Labels proportional gemischt werden, bewahrt lokale Features und räumliche Beziehungen besser als Methoden wie Mixup die ganze Bilder mischen, verbessert Modellrobustheit und Lokalisierungsfähigkeit.",
+          nl: "CutMix knipt en plakt rechthoekige regio's tussen trainingsafbeeldingen terwijl labels proportioneel worden gemengd, behoudt lokale features en ruimtelijke relaties beter dan methodes zoals Mixup die hele afbeeldingen mengen, verbetert modelrobuustheid en localisatievermogen."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of Group Normalization?",
+          es: "¿Cuál es el propósito de la Normalización de Grupo?",
+          de: "Was ist der Zweck von Gruppennormalisierung?",
+          nl: "Wat is het doel van Group Normalization?"
+        },
+        options: [
+          { en: "Normalize channels in groups, working well with small batch sizes", es: "Normalizar canales en grupos, funcionando bien con tamaños de lote pequeños", de: "Kanäle in Gruppen normalisieren, funktioniert gut mit kleinen Batch-Größen", nl: "Kanalen normaliseren in groepen, werkt goed met kleine batch groottes" },
+          { en: "Group images by class before normalization", es: "Agrupar imágenes por clase antes de normalización", de: "Bilder vor Normalisierung nach Klasse gruppieren", nl: "Afbeeldingen groeperen op klasse voor normalisatie" },
+          { en: "Normalize only grouped convolutions", es: "Normalizar solo convoluciones agrupadas", de: "Nur gruppierte Faltungen normalisieren", nl: "Alleen gegroepeerde convoluties normaliseren" },
+          { en: "Create normalization groups randomly", es: "Crear grupos de normalización aleatoriamente", de: "Normalisierungsgruppen zufällig erstellen", nl: "Normalisatie groepen willekeurig maken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Group Normalization divides channels into groups and normalizes within each group independently of batch size, providing stable performance when batch sizes are small (e.g., in object detection) where Batch Normalization degrades.",
+          es: "Group Normalization divide canales en grupos y normaliza dentro de cada grupo independientemente del tamaño de lote, proporcionando rendimiento estable cuando tamaños de lote son pequeños (ej., en detección de objetos) donde Batch Normalization se degrada.",
+          de: "Gruppennormalisierung teilt Kanäle in Gruppen und normalisiert innerhalb jeder Gruppe unabhängig von Batch-Größe, bietet stabile Leistung wenn Batch-Größen klein sind (z.B. in Objekterkennung) wo Batch-Normalisierung sich verschlechtert.",
+          nl: "Group Normalization verdeelt kanalen in groepen en normaliseert binnen elke groep onafhankelijk van batch grootte, biedt stabiele prestaties wanneer batch groottes klein zijn (bijv. in objectdetectie) waar Batch Normalization verslechtert."
+        }
+      },
+      {
+        question: {
+          en: "What is the key innovation of Squeeze-and-Excitation (SE) blocks?",
+          es: "¿Cuál es la innovación clave de los bloques Squeeze-and-Excitation (SE)?",
+          de: "Was ist die Schlüsselinnovation von Squeeze-and-Excitation (SE) Blöcken?",
+          nl: "Wat is de belangrijkste innovatie van Squeeze-and-Excitation (SE) blokken?"
+        },
+        options: [
+          { en: "Explicitly model channel interdependencies to recalibrate channel-wise features", es: "Modelar explícitamente interdependencias de canal para recalibrar características por canal", de: "Kanalabhängigkeiten explizit modellieren um kanalweise Features neu zu kalibrieren", nl: "Kanaalafhankelijkheden expliciet modelleren om kanaal-gewijze features te herkalibreren" },
+          { en: "Squeeze images to smaller sizes then excite neurons", es: "Comprimir imágenes a tamaños más pequeños luego excitar neuronas", de: "Bilder auf kleinere Größen komprimieren dann Neuronen anregen", nl: "Afbeeldingen comprimeren tot kleinere groottes dan neuronen exciteren" },
+          { en: "Excite only important features while squeezing others", es: "Excitar solo características importantes mientras comprime otras", de: "Nur wichtige Features anregen während andere komprimiert werden", nl: "Alleen belangrijke features exciteren terwijl anderen worden gecomprimeerd" },
+          { en: "Reduce and expand network width dynamically", es: "Reducir y expandir ancho de red dinámicamente", de: "Netzwerkbreite dynamisch reduzieren und erweitern", nl: "Netwerkbreedte dynamisch verminderen en uitbreiden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "SE blocks use global average pooling to squeeze spatial information, then excitation through fully connected layers learns channel attention weights, adaptively recalibrating feature responses by emphasizing informative channels and suppressing less useful ones.",
+          es: "Los bloques SE usan global average pooling para comprimir información espacial, luego excitación a través de capas totalmente conectadas aprende pesos de atención de canal, recalibrando adaptativamente respuestas de características enfatizando canales informativos y suprimiendo menos útiles.",
+          de: "SE-Blöcke verwenden globales Average-Pooling um räumliche Information zu komprimieren, dann lernt Anregung durch vollständig verbundene Schichten Kanalaufmerksamkeitsgewichte, kalibriert adaptiv Feature-Antworten neu durch Betonung informativer Kanäle und Unterdrückung weniger nützlicher.",
+          nl: "SE blokken gebruiken global average pooling om ruimtelijke informatie te comprimeren, dan leert excitatie door volledig verbonden lagen kanaal aandachtsgewichten, herkalibreert adaptief feature responses door informatieve kanalen te benadrukken en minder nuttige te onderdrukken."
+        }
+      },
+      {
+        question: {
+          en: "What is model pruning used for in neural networks?",
+          es: "¿Para qué se usa la poda de modelo en redes neuronales?",
+          de: "Wofür wird Modell-Pruning in neuronalen Netzwerken verwendet?",
+          nl: "Waarvoor wordt model pruning gebruikt in neurale netwerken?"
+        },
+        options: [
+          { en: "Remove unimportant weights or neurons to reduce model size and computation", es: "Eliminar pesos o neuronas poco importantes para reducir tamaño de modelo y computación", de: "Unwichtige Gewichte oder Neuronen entfernen um Modellgröße und Berechnung zu reduzieren", nl: "Onbelangrijke gewichten of neuronen verwijderen om modelgrootte en berekening te verminderen" },
+          { en: "Prune training data by removing outliers", es: "Podar datos de entrenamiento eliminando valores atípicos", de: "Trainingsdaten durch Entfernen von Ausreißern beschneiden", nl: "Trainingsdata snoeien door uitschieters te verwijderen" },
+          { en: "Cut off network layers periodically", es: "Cortar capas de red periódicamente", de: "Netzwerkschichten periodisch abschneiden", nl: "Netwerklagen periodiek afsnijden" },
+          { en: "Trim image borders before processing", es: "Recortar bordes de imagen antes de procesar", de: "Bildränder vor Verarbeitung trimmen", nl: "Beeldranden trimmen voor verwerking" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pruning identifies and removes parameters (weights, neurons, filters, or entire layers) with minimal impact on performance, creating smaller, faster models suitable for deployment on resource-constrained devices while maintaining accuracy.",
+          es: "La poda identifica y elimina parámetros (pesos, neuronas, filtros o capas enteras) con impacto mínimo en rendimiento, creando modelos más pequeños y rápidos adecuados para despliegue en dispositivos con recursos limitados mientras mantiene precisión.",
+          de: "Pruning identifiziert und entfernt Parameter (Gewichte, Neuronen, Filter oder ganze Schichten) mit minimalem Einfluss auf Leistung, erstellt kleinere, schnellere Modelle geeignet für Bereitstellung auf ressourcenbeschränkten Geräten während Genauigkeit beibehalten wird.",
+          nl: "Pruning identificeert en verwijdert parameters (gewichten, neuronen, filters of hele lagen) met minimale impact op prestaties, creëert kleinere, snellere modellen geschikt voor implementatie op apparaten met beperkte bronnen terwijl nauwkeurigheid behouden blijft."
+        }
+      },
+      {
+        question: {
+          en: "What is neural architecture search (NAS) automating?",
+          es: "¿Qué está automatizando la búsqueda de arquitectura neuronal (NAS)?",
+          de: "Was automatisiert neuronale Architektursuche (NAS)?",
+          nl: "Wat automatiseert neural architecture search (NAS)?"
+        },
+        options: [
+          { en: "Design and discovery of optimal network architectures", es: "Diseño y descubrimiento de arquitecturas de red óptimas", de: "Entwurf und Entdeckung optimaler Netzwerkarchitekturen", nl: "Ontwerp en ontdekking van optimale netwerkarchitecturen" },
+          { en: "Searching for images in neural networks", es: "Buscar imágenes en redes neuronales", de: "Bilder in neuronalen Netzwerken suchen", nl: "Zoeken naar afbeeldingen in neurale netwerken" },
+          { en: "Finding network connection patterns", es: "Encontrar patrones de conexión de red", de: "Netzwerkverbindungsmuster finden", nl: "Netwerkverbindingspatronen vinden" },
+          { en: "Automatically naming architectures", es: "Nombrar arquitecturas automáticamente", de: "Architekturen automatisch benennen", nl: "Architecturen automatisch benoemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "NAS uses algorithms (reinforcement learning, evolutionary methods, or gradient-based approaches) to automatically search the space of possible architectures, discovering novel designs that often outperform human-engineered networks like EfficientNet and NASNet.",
+          es: "NAS usa algoritmos (aprendizaje por refuerzo, métodos evolutivos o enfoques basados en gradientes) para buscar automáticamente el espacio de arquitecturas posibles, descubriendo diseños novedosos que a menudo superan redes diseñadas por humanos como EfficientNet y NASNet.",
+          de: "NAS verwendet Algorithmen (Reinforcement Learning, evolutionäre Methoden oder gradientenbasierte Ansätze) um automatisch den Raum möglicher Architekturen zu durchsuchen, entdeckt neuartige Designs die oft von Menschen entwickelte Netzwerke wie EfficientNet und NASNet übertreffen.",
+          nl: "NAS gebruikt algoritmes (reinforcement learning, evolutionaire methodes of gradiënt-gebaseerde benaderingen) om automatisch de ruimte van mogelijke architecturen te doorzoeken, ontdekt nieuwe ontwerpen die vaak door mensen ontwikkelde netwerken zoals EfficientNet en NASNet overtreffen."
+        }
       }
     ]
   };

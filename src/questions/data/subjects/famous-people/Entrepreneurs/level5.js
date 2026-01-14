@@ -427,6 +427,426 @@
           de: "Frederick W. Smith gründete 1971 Federal Express (FedEx), nachdem er ein College-Paper über die Notwendigkeit von Übernachtzustellung geschrieben hatte. Das von ihm entwickelte Hub-and-Spoke-Modell revolutionierte die Logistik.",
           nl: "Frederick W. Smith heeft Federal Express (FedEx) opgericht in 1971 na het schrijven van een college-paper over de noodzaak van overnight bezorging. Het hub-and-spoke model dat hij pionierde revolutioneerde de logistiek."
         }
+      },
+      {
+        question: {
+          en: "Who founded Berkshire Hathaway and became known as the 'Oracle of Omaha'?",
+          es: "¿Quién fundó Berkshire Hathaway y se conoció como el 'Oráculo de Omaha'?",
+          de: "Wer gründete Berkshire Hathaway und wurde als 'Orakel von Omaha' bekannt?",
+          nl: "Wie heeft Berkshire Hathaway opgericht en stond bekend als het 'Orakel van Omaha'?"
+        },
+        options: [
+          { en: "Warren Buffett", es: "Warren Buffett", de: "Warren Buffett", nl: "Warren Buffett" },
+          { en: "Charlie Munger", es: "Charlie Munger", de: "Charlie Munger", nl: "Charlie Munger" },
+          { en: "George Soros", es: "George Soros", de: "George Soros", nl: "George Soros" },
+          { en: "Carl Icahn", es: "Carl Icahn", de: "Carl Icahn", nl: "Carl Icahn" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Warren Buffett took control of Berkshire Hathaway in 1965 and transformed it from a failing textile company into one of the world's largest holding companies. He's known for his value investing philosophy and philanthropy.",
+          es: "Warren Buffett tomó el control de Berkshire Hathaway en 1965 y la transformó de una empresa textil fallida en una de las compañías holding más grandes del mundo. Es conocido por su filosofía de inversión de valor y filantropía.",
+          de: "Warren Buffett übernahm 1965 die Kontrolle über Berkshire Hathaway und verwandelte es von einem scheiternden Textilunternehmen in eine der weltgrößten Holdinggesellschaften. Er ist bekannt für seine Value-Investing-Philosophie und Philanthropie.",
+          nl: "Warren Buffett nam de controle over Berkshire Hathaway in 1965 en transformeerde het van een failliete textielfabriek tot een van 's werelds grootste holdings. Hij staat bekend om zijn waardebeleg filosofie en filantropie."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Ralph Lauren Corporation?",
+          es: "¿Qué empresario fundó Ralph Lauren Corporation?",
+          de: "Welcher Unternehmer gründete Ralph Lauren Corporation?",
+          nl: "Welke ondernemer heeft Ralph Lauren Corporation opgericht?"
+        },
+        options: [
+          { en: "Ralph Lifshitz (Ralph Lauren)", es: "Ralph Lifshitz (Ralph Lauren)", de: "Ralph Lifshitz (Ralph Lauren)", nl: "Ralph Lifshitz (Ralph Lauren)" },
+          { en: "Calvin Klein", es: "Calvin Klein", de: "Calvin Klein", nl: "Calvin Klein" },
+          { en: "Tommy Hilfiger", es: "Tommy Hilfiger", de: "Tommy Hilfiger", nl: "Tommy Hilfiger" },
+          { en: "Donna Karan", es: "Donna Karan", de: "Donna Karan", nl: "Donna Karan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ralph Lauren (born Ralph Lifshitz) founded his company in 1967, starting with ties and building a global fashion empire known for the Polo brand and American luxury style.",
+          es: "Ralph Lauren (nacido Ralph Lifshitz) fundó su compañía en 1967, comenzando con corbatas y construyendo un imperio de moda global conocido por la marca Polo y el estilo de lujo estadounidense.",
+          de: "Ralph Lauren (geboren als Ralph Lifshitz) gründete 1967 sein Unternehmen, begann mit Krawatten und baute ein globales Modeimperium auf, bekannt für die Marke Polo und den amerikanischen Luxusstil.",
+          nl: "Ralph Lauren (geboren als Ralph Lifshitz) richtte zijn bedrijf op in 1967, te beginnen met stropdassen en het bouwen van een wereldwijd mode-imperium bekend om het Polo-merk en Amerikaanse luxe stijl."
+        }
+      },
+      {
+        question: {
+          en: "Who founded CNN, the first 24-hour news television network?",
+          es: "¿Quién fundó CNN, la primera cadena de televisión de noticias las 24 horas?",
+          de: "Wer gründete CNN, das erste 24-Stunden-Nachrichtenfernsehen?",
+          nl: "Wie heeft CNN opgericht, het eerste 24-uurs nieuwstelevisie netwerk?"
+        },
+        options: [
+          { en: "Ted Turner", es: "Ted Turner", de: "Ted Turner", nl: "Ted Turner" },
+          { en: "Rupert Murdoch", es: "Rupert Murdoch", de: "Rupert Murdoch", nl: "Rupert Murdoch" },
+          { en: "Roger Ailes", es: "Roger Ailes", de: "Roger Ailes", nl: "Roger Ailes" },
+          { en: "Sumner Redstone", es: "Sumner Redstone", de: "Sumner Redstone", nl: "Sumner Redstone" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ted Turner founded CNN (Cable News Network) in 1980, revolutionizing news coverage with 24-hour broadcasting. He also owned the Atlanta Braves and founded Turner Broadcasting System.",
+          es: "Ted Turner fundó CNN (Cable News Network) en 1980, revolucionando la cobertura de noticias con transmisión las 24 horas. También fue dueño de los Atlanta Braves y fundó Turner Broadcasting System.",
+          de: "Ted Turner gründete CNN (Cable News Network) 1980 und revolutionierte die Nachrichtenberichterstattung mit 24-Stunden-Sendungen. Er besaß auch die Atlanta Braves und gründete Turner Broadcasting System.",
+          nl: "Ted Turner richtte CNN (Cable News Network) op in 1980, hij revolutioneerde nieuwsverslaggeving met 24-uurs uitzendingen. Hij bezat ook de Atlanta Braves en richtte Turner Broadcasting System op."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded MTV and other cable networks?",
+          es: "¿Qué empresario fundó MTV y otras cadenas de cable?",
+          de: "Welcher Unternehmer gründete MTV und andere Kabelnetze?",
+          nl: "Welke ondernemer heeft MTV en andere kabelnetwerken opgericht?"
+        },
+        options: [
+          { en: "Robert Pittman", es: "Robert Pittman", de: "Robert Pittman", nl: "Robert Pittman" },
+          { en: "Ted Turner", es: "Ted Turner", de: "Ted Turner", nl: "Ted Turner" },
+          { en: "Sumner Redstone", es: "Sumner Redstone", de: "Sumner Redstone", nl: "Sumner Redstone" },
+          { en: "John Hendricks", es: "John Hendricks", de: "John Hendricks", nl: "John Hendricks" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Robert Pittman co-founded MTV in 1981, revolutionizing music and youth culture. He pioneered the music video format and later became CEO of multiple media companies including iHeartMedia.",
+          es: "Robert Pittman cofundó MTV en 1981, revolucionando la música y la cultura juvenil. Fue pionero en el formato de video musical y más tarde se convirtió en CEO de múltiples compañías de medios incluyendo iHeartMedia.",
+          de: "Robert Pittman gründete MTV 1981 mit und revolutionierte Musik und Jugendkultur. Er war Pionier des Musikvideoformats und wurde später CEO mehrerer Medienunternehmen, darunter iHeartMedia.",
+          nl: "Robert Pittman heeft MTV mede opgericht in 1981, hij revolutioneerde muziek en jeugdcultuur. Hij was een pionier van het muziekvideoformaat en werd later CEO van meerdere mediabedrijven waaronder iHeartMedia."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Victoria's Secret lingerie brand?",
+          es: "¿Quién fundó la marca de lencería Victoria's Secret?",
+          de: "Wer gründete die Dessous-Marke Victoria's Secret?",
+          nl: "Wie heeft het lingeriemerk Victoria's Secret opgericht?"
+        },
+        options: [
+          { en: "Roy Raymond", es: "Roy Raymond", de: "Roy Raymond", nl: "Roy Raymond" },
+          { en: "Leslie Wexner", es: "Leslie Wexner", de: "Leslie Wexner", nl: "Leslie Wexner" },
+          { en: "Calvin Klein", es: "Calvin Klein", de: "Calvin Klein", nl: "Calvin Klein" },
+          { en: "Ralph Lauren", es: "Ralph Lauren", de: "Ralph Lauren", nl: "Ralph Lauren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Roy Raymond founded Victoria's Secret in 1977 in San Francisco. He sold the company to Leslie Wexner's Limited Brands in 1982 for $1 million, which grew it into a multi-billion dollar brand.",
+          es: "Roy Raymond fundó Victoria's Secret en 1977 en San Francisco. Vendió la compañía a Limited Brands de Leslie Wexner en 1982 por $1 millón, que la convirtió en una marca multimillonaria.",
+          de: "Roy Raymond gründete Victoria's Secret 1977 in San Francisco. Er verkaufte das Unternehmen 1982 für 1 Million Dollar an Leslie Wexners Limited Brands, das es zu einer milliardenschweren Marke ausbaute.",
+          nl: "Roy Raymond richtte Victoria's Secret op in 1977 in San Francisco. Hij verkocht het bedrijf in 1982 aan Leslie Wexner's Limited Brands voor $1 miljoen, dat het uitbouwde tot een multimiljard dollar merk."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded The Gap clothing stores?",
+          es: "¿Qué empresario fundó las tiendas de ropa The Gap?",
+          de: "Welcher Unternehmer gründete die Gap-Bekleidungsgeschäfte?",
+          nl: "Welke ondernemer heeft The Gap kledingwinkels opgericht?"
+        },
+        options: [
+          { en: "Donald Fisher", es: "Donald Fisher", de: "Donald Fisher", nl: "Donald Fisher" },
+          { en: "Leslie Wexner", es: "Leslie Wexner", de: "Leslie Wexner", nl: "Leslie Wexner" },
+          { en: "Mickey Drexler", es: "Mickey Drexler", de: "Mickey Drexler", nl: "Mickey Drexler" },
+          { en: "Philip Green", es: "Philip Green", de: "Philip Green", nl: "Philip Green" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Donald Fisher founded The Gap with his wife Doris in 1969 in San Francisco. The name came from the 'generation gap.' The company grew into a major global fashion retailer including Old Navy and Banana Republic.",
+          es: "Donald Fisher fundó The Gap con su esposa Doris en 1969 en San Francisco. El nombre provino de la 'brecha generacional'. La compañía creció hasta convertirse en un importante minorista de moda global incluyendo Old Navy y Banana Republic.",
+          de: "Donald Fisher gründete The Gap 1969 in San Francisco mit seiner Frau Doris. Der Name kam von der 'Generationslücke'. Das Unternehmen wuchs zu einem großen globalen Modehändler mit Old Navy und Banana Republic.",
+          nl: "Donald Fisher richtte The Gap op met zijn vrouw Doris in 1969 in San Francisco. De naam kwam van de 'generatiekloof'. Het bedrijf groeide uit tot een grote mondiale mode retailer inclusief Old Navy en Banana Republic."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Costco Wholesale Corporation?",
+          es: "¿Quién fundó Costco Wholesale Corporation?",
+          de: "Wer gründete Costco Wholesale Corporation?",
+          nl: "Wie heeft Costco Wholesale Corporation opgericht?"
+        },
+        options: [
+          { en: "James Sinegal and Jeffrey Brotman", es: "James Sinegal y Jeffrey Brotman", de: "James Sinegal und Jeffrey Brotman", nl: "James Sinegal en Jeffrey Brotman" },
+          { en: "Sam Walton", es: "Sam Walton", de: "Sam Walton", nl: "Sam Walton" },
+          { en: "Sol Price", es: "Sol Price", de: "Sol Price", nl: "Sol Price" },
+          { en: "Bernard Marcus", es: "Bernard Marcus", de: "Bernard Marcus", nl: "Bernard Marcus" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "James Sinegal and Jeffrey Brotman founded Costco in 1983 in Seattle. The warehouse club model offered bulk goods at low margins with membership fees, becoming the world's third-largest retailer.",
+          es: "James Sinegal y Jeffrey Brotman fundaron Costco en 1983 en Seattle. El modelo de club de almacén ofrecía productos a granel con márgenes bajos y cuotas de membresía, convirtiéndose en el tercer minorista más grande del mundo.",
+          de: "James Sinegal und Jeffrey Brotman gründeten Costco 1983 in Seattle. Das Lagerhaus-Club-Modell bot Massenwaren mit niedrigen Margen und Mitgliedsbeiträgen und wurde zum drittgrößten Einzelhändler der Welt.",
+          nl: "James Sinegal en Jeffrey Brotman richtten Costco op in 1983 in Seattle. Het warehouse club-model bood bulkgoederen aan met lage marges en lidmaatschapsgelden en werd 's werelds derde grootste retailer."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Home Depot?",
+          es: "¿Qué empresario fundó Home Depot?",
+          de: "Welcher Unternehmer gründete Home Depot?",
+          nl: "Welke ondernemer heeft Home Depot opgericht?"
+        },
+        options: [
+          { en: "Bernard Marcus and Arthur Blank", es: "Bernard Marcus y Arthur Blank", de: "Bernard Marcus und Arthur Blank", nl: "Bernard Marcus en Arthur Blank" },
+          { en: "James Sinegal", es: "James Sinegal", de: "James Sinegal", nl: "James Sinegal" },
+          { en: "Lowe's founders", es: "Fundadores de Lowe's", de: "Lowe's-Gründer", nl: "Lowe's oprichters" },
+          { en: "Sam Walton", es: "Sam Walton", de: "Sam Walton", nl: "Sam Walton" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bernard Marcus and Arthur Blank founded Home Depot in 1978 in Atlanta after being fired from Handy Dan. They pioneered the home improvement warehouse concept, growing it into the world's largest home improvement retailer.",
+          es: "Bernard Marcus y Arthur Blank fundaron Home Depot en 1978 en Atlanta después de ser despedidos de Handy Dan. Fueron pioneros en el concepto de almacén de mejoras para el hogar, convirtiéndolo en el minorista de mejoras para el hogar más grande del mundo.",
+          de: "Bernard Marcus und Arthur Blank gründeten Home Depot 1978 in Atlanta, nachdem sie von Handy Dan entlassen wurden. Sie waren Pioniere des Baumarkt-Konzepts und bauten es zum weltgrößten Heimwerker-Einzelhändler aus.",
+          nl: "Bernard Marcus en Arthur Blank richtten Home Depot op in 1978 in Atlanta nadat ze ontslagen werden bij Handy Dan. Ze waren pioniers van het doe-het-zelf-warehouseconcept en bouwden het uit tot 's werelds grootste doe-het-zelf retailer."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Starbucks Coffee Company?",
+          es: "¿Quién fundó Starbucks Coffee Company?",
+          de: "Wer gründete Starbucks Coffee Company?",
+          nl: "Wie heeft Starbucks Coffee Company opgericht?"
+        },
+        options: [
+          { en: "Jerry Baldwin, Zev Siegl, and Gordon Bowker", es: "Jerry Baldwin, Zev Siegl y Gordon Bowker", de: "Jerry Baldwin, Zev Siegl und Gordon Bowker", nl: "Jerry Baldwin, Zev Siegl en Gordon Bowker" },
+          { en: "Howard Schultz", es: "Howard Schultz", de: "Howard Schultz", nl: "Howard Schultz" },
+          { en: "Alfred Peet", es: "Alfred Peet", de: "Alfred Peet", nl: "Alfred Peet" },
+          { en: "James Freeman", es: "James Freeman", de: "James Freeman", nl: "James Freeman" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jerry Baldwin, Zev Siegl, and Gordon Bowker founded Starbucks in 1971 in Seattle as a coffee roaster. Howard Schultz later bought the company in 1987 and expanded it into the global coffeehouse chain.",
+          es: "Jerry Baldwin, Zev Siegl y Gordon Bowker fundaron Starbucks en 1971 en Seattle como tostador de café. Howard Schultz más tarde compró la compañía en 1987 y la expandió en la cadena global de cafeterías.",
+          de: "Jerry Baldwin, Zev Siegl und Gordon Bowker gründeten Starbucks 1971 in Seattle als Kaffeerösterei. Howard Schultz kaufte das Unternehmen später 1987 und baute es zur globalen Kaffeekette aus.",
+          nl: "Jerry Baldwin, Zev Siegl en Gordon Bowker richtten Starbucks op in 1971 in Seattle als een koffiebrander. Howard Schultz kocht het bedrijf later in 1987 en breidde het uit tot de mondiale koffiehuisketen."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Ben & Jerry's ice cream?",
+          es: "¿Qué empresario fundó el helado Ben & Jerry's?",
+          de: "Welcher Unternehmer gründete Ben & Jerry's Eiscreme?",
+          nl: "Welke ondernemer heeft Ben & Jerry's ijs opgericht?"
+        },
+        options: [
+          { en: "Ben Cohen and Jerry Greenfield", es: "Ben Cohen y Jerry Greenfield", de: "Ben Cohen und Jerry Greenfield", nl: "Ben Cohen en Jerry Greenfield" },
+          { en: "Reuben Mattus", es: "Reuben Mattus", de: "Reuben Mattus", nl: "Reuben Mattus" },
+          { en: "Tom Carvel", es: "Tom Carvel", de: "Tom Carvel", nl: "Tom Carvel" },
+          { en: "Irv Robbins", es: "Irv Robbins", de: "Irv Robbins", nl: "Irv Robbins" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ben Cohen and Jerry Greenfield founded Ben & Jerry's in 1978 in Burlington, Vermont. They started with a $5 correspondence course in ice cream-making and built a brand known for creative flavors and social activism.",
+          es: "Ben Cohen y Jerry Greenfield fundaron Ben & Jerry's en 1978 en Burlington, Vermont. Comenzaron con un curso por correspondencia de $5 en hacer helados y construyeron una marca conocida por sabores creativos y activismo social.",
+          de: "Ben Cohen und Jerry Greenfield gründeten Ben & Jerry's 1978 in Burlington, Vermont. Sie begannen mit einem 5-Dollar-Fernkurs zur Eisherstellung und bauten eine Marke auf, die für kreative Geschmacksrichtungen und sozialen Aktivismus bekannt ist.",
+          nl: "Ben Cohen en Jerry Greenfield richtten Ben & Jerry's op in 1978 in Burlington, Vermont. Ze begonnen met een correspondentiecursus van $5 in ijsbereiding en bouwden een merk op bekend om creatieve smaken en sociaal activisme."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Southwest Airlines with Herb Kelleher?",
+          es: "¿Quién fundó Southwest Airlines con Herb Kelleher?",
+          de: "Wer gründete Southwest Airlines mit Herb Kelleher?",
+          nl: "Wie heeft Southwest Airlines opgericht met Herb Kelleher?"
+        },
+        options: [
+          { en: "Rollin King", es: "Rollin King", de: "Rollin King", nl: "Rollin King" },
+          { en: "Richard Branson", es: "Richard Branson", de: "Richard Branson", nl: "Richard Branson" },
+          { en: "David Neeleman", es: "David Neeleman", de: "David Neeleman", nl: "David Neeleman" },
+          { en: "Howard Hughes", es: "Howard Hughes", de: "Howard Hughes", nl: "Howard Hughes" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Rollin King co-founded Southwest Airlines with Herb Kelleher in 1967. King, a Texas businessman, conceived the idea of a low-cost intrastate airline, which Kelleher helped implement and later ran.",
+          es: "Rollin King cofundó Southwest Airlines con Herb Kelleher en 1967. King, un empresario de Texas, concibió la idea de una aerolínea intraestatal de bajo costo, que Kelleher ayudó a implementar y luego dirigió.",
+          de: "Rollin King gründete Southwest Airlines 1967 zusammen mit Herb Kelleher. King, ein texanischer Geschäftsmann, hatte die Idee einer kostengünstigen innerstaatlichen Fluggesellschaft, die Kelleher umsetzte und später leitete.",
+          nl: "Rollin King heeft Southwest Airlines mede opgericht met Herb Kelleher in 1967. King, een Texaanse zakenman, bedacht het idee van een goedkope binnenlandse luchtvaartmaatschappij, die Kelleher hielp implementeren en later leidde."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Whole Foods Market?",
+          es: "¿Qué empresario fundó Whole Foods Market?",
+          de: "Welcher Unternehmer gründete Whole Foods Market?",
+          nl: "Welke ondernemer heeft Whole Foods Market opgericht?"
+        },
+        options: [
+          { en: "John Mackey", es: "John Mackey", de: "John Mackey", nl: "John Mackey" },
+          { en: "Jeff Bezos", es: "Jeff Bezos", de: "Jeff Bezos", nl: "Jeff Bezos" },
+          { en: "Howard Schultz", es: "Howard Schultz", de: "Howard Schultz", nl: "Howard Schultz" },
+          { en: "Travis Kalanick", es: "Travis Kalanick", de: "Travis Kalanick", nl: "Travis Kalanick" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "John Mackey co-founded Whole Foods Market in 1980 in Austin, Texas. He pioneered the natural and organic grocery store concept, building it into a national chain before Amazon acquired it in 2017 for $13.7 billion.",
+          es: "John Mackey cofundó Whole Foods Market en 1980 en Austin, Texas. Fue pionero en el concepto de tienda de comestibles naturales y orgánicos, construyéndola en una cadena nacional antes de que Amazon la adquiriera en 2017 por $13.7 mil millones.",
+          de: "John Mackey gründete Whole Foods Market 1980 in Austin, Texas mit. Er war Pionier des Natur- und Bio-Lebensmittelgeschäft-Konzepts und baute es zu einer nationalen Kette auf, bevor Amazon es 2017 für 13,7 Milliarden Dollar kaufte.",
+          nl: "John Mackey heeft Whole Foods Market mede opgericht in 1980 in Austin, Texas. Hij was een pionier van het natuurlijke en biologische supermarktconcept en bouwde het uit tot een landelijke keten voordat Amazon het in 2017 kocht voor $13,7 miljard."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Chipotle Mexican Grill?",
+          es: "¿Quién fundó Chipotle Mexican Grill?",
+          de: "Wer gründete Chipotle Mexican Grill?",
+          nl: "Wie heeft Chipotle Mexican Grill opgericht?"
+        },
+        options: [
+          { en: "Steve Ells", es: "Steve Ells", de: "Steve Ells", nl: "Steve Ells" },
+          { en: "Ray Kroc", es: "Ray Kroc", de: "Ray Kroc", nl: "Ray Kroc" },
+          { en: "Glen Bell", es: "Glen Bell", de: "Glen Bell", nl: "Glen Bell" },
+          { en: "Dave Thomas", es: "Dave Thomas", de: "Dave Thomas", nl: "Dave Thomas" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Steve Ells founded Chipotle Mexican Grill in 1993 in Denver, Colorado. The restaurant concept focused on fast-casual dining with fresh, sustainable ingredients. It grew from one location to over 3,000 worldwide.",
+          es: "Steve Ells fundó Chipotle Mexican Grill en 1993 en Denver, Colorado. El concepto de restaurante se centró en comida rápida informal con ingredientes frescos y sostenibles. Creció de una ubicación a más de 3,000 en todo el mundo.",
+          de: "Steve Ells gründete Chipotle Mexican Grill 1993 in Denver, Colorado. Das Restaurant-Konzept konzentrierte sich auf Fast-Casual-Dining mit frischen, nachhaltigen Zutaten. Es wuchs von einem Standort auf über 3.000 weltweit.",
+          nl: "Steve Ells richtte Chipotle Mexican Grill op in 1993 in Denver, Colorado. Het restaurantconcept richtte zich op fast-casual dining met verse, duurzame ingrediënten. Het groeide van één locatie naar meer dan 3.000 wereldwijd."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Panera Bread?",
+          es: "¿Qué empresario fundó Panera Bread?",
+          de: "Welcher Unternehmer gründete Panera Bread?",
+          nl: "Welke ondernemer heeft Panera Bread opgericht?"
+        },
+        options: [
+          { en: "Ron Shaich", es: "Ron Shaich", de: "Ron Shaich", nl: "Ron Shaich" },
+          { en: "Howard Schultz", es: "Howard Schultz", de: "Howard Schultz", nl: "Howard Schultz" },
+          { en: "Steve Ells", es: "Steve Ells", de: "Steve Ells", nl: "Steve Ells" },
+          { en: "Danny Meyer", es: "Danny Meyer", de: "Danny Meyer", nl: "Danny Meyer" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ron Shaich co-founded Au Bon Pain in 1981 and later transformed it into Panera Bread in 1997. He pioneered the fast-casual bakery-café concept, growing Panera to over 2,000 locations before selling to JAB Holding in 2017.",
+          es: "Ron Shaich cofundó Au Bon Pain en 1981 y más tarde lo transformó en Panera Bread en 1997. Fue pionero en el concepto de panadería-cafetería rápida informal, haciendo crecer Panera a más de 2,000 ubicaciones antes de vender a JAB Holding en 2017.",
+          de: "Ron Shaich gründete 1981 Au Bon Pain mit und verwandelte es 1997 in Panera Bread. Er war Pionier des Fast-Casual-Bäckerei-Café-Konzepts und baute Panera auf über 2.000 Standorte aus, bevor er 2017 an JAB Holding verkaufte.",
+          nl: "Ron Shaich heeft Au Bon Pain mede opgericht in 1981 en transformeerde het later in 1997 tot Panera Bread. Hij was een pionier van het fast-casual bakkerij-caféconcept en liet Panera groeien tot meer dan 2.000 locaties voordat hij in 2017 verkocht aan JAB Holding."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Domino's Pizza?",
+          es: "¿Quién fundó Domino's Pizza?",
+          de: "Wer gründete Domino's Pizza?",
+          nl: "Wie heeft Domino's Pizza opgericht?"
+        },
+        options: [
+          { en: "Tom Monaghan", es: "Tom Monaghan", de: "Tom Monaghan", nl: "Tom Monaghan" },
+          { en: "Mike Ilitch", es: "Mike Ilitch", de: "Mike Ilitch", nl: "Mike Ilitch" },
+          { en: "Dan Carney", es: "Dan Carney", de: "Dan Carney", nl: "Dan Carney" },
+          { en: "Ray Kroc", es: "Ray Kroc", de: "Ray Kroc", nl: "Ray Kroc" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tom Monaghan founded Domino's Pizza in 1960 in Ypsilanti, Michigan, with his brother James. He bought out his brother and built it into one of the world's largest pizza delivery chains with the '30 minutes or less' guarantee.",
+          es: "Tom Monaghan fundó Domino's Pizza en 1960 en Ypsilanti, Michigan, con su hermano James. Compró la parte de su hermano y la construyó en una de las cadenas de entrega de pizza más grandes del mundo con la garantía de '30 minutos o menos'.",
+          de: "Tom Monaghan gründete Domino's Pizza 1960 in Ypsilanti, Michigan, mit seinem Bruder James. Er kaufte seinen Bruder aus und baute es mit der '30 Minuten oder weniger'-Garantie zu einer der weltgrößten Pizza-Lieferketten auf.",
+          nl: "Tom Monaghan richtte Domino's Pizza op in 1960 in Ypsilanti, Michigan, met zijn broer James. Hij kocht zijn broer uit en bouwde het uit tot een van 's werelds grootste pizzabezorgketens met de '30 minuten of minder' garantie."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Papa John's Pizza?",
+          es: "¿Qué empresario fundó Papa John's Pizza?",
+          de: "Welcher Unternehmer gründete Papa John's Pizza?",
+          nl: "Welke ondernemer heeft Papa John's Pizza opgericht?"
+        },
+        options: [
+          { en: "John Schnatter", es: "John Schnatter", de: "John Schnatter", nl: "John Schnatter" },
+          { en: "Tom Monaghan", es: "Tom Monaghan", de: "Tom Monaghan", nl: "Tom Monaghan" },
+          { en: "Mike Ilitch", es: "Mike Ilitch", de: "Mike Ilitch", nl: "Mike Ilitch" },
+          { en: "Frank Carney", es: "Frank Carney", de: "Frank Carney", nl: "Frank Carney" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "John Schnatter founded Papa John's Pizza in 1984 in Jeffersonville, Indiana, starting in the back of his father's tavern. He emphasized 'Better Ingredients, Better Pizza' and grew it into the third-largest pizza chain in America.",
+          es: "John Schnatter fundó Papa John's Pizza en 1984 en Jeffersonville, Indiana, comenzando en la parte trasera de la taberna de su padre. Enfatizó 'Mejores Ingredientes, Mejor Pizza' y la convirtió en la tercera cadena de pizza más grande de Estados Unidos.",
+          de: "John Schnatter gründete Papa John's Pizza 1984 in Jeffersonville, Indiana, und begann im hinteren Teil der Taverne seines Vaters. Er betonte 'Bessere Zutaten, Bessere Pizza' und baute es zur drittgrößten Pizzakette Amerikas aus.",
+          nl: "John Schnatter richtte Papa John's Pizza op in 1984 in Jeffersonville, Indiana, te beginnen in de achterzijde van de taverne van zijn vader. Hij benadrukte 'Betere Ingrediënten, Betere Pizza' en liet het uitgroeien tot de op twee na grootste pizzaketen van Amerika."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Little Caesars Pizza?",
+          es: "¿Quién fundó Little Caesars Pizza?",
+          de: "Wer gründete Little Caesars Pizza?",
+          nl: "Wie heeft Little Caesars Pizza opgericht?"
+        },
+        options: [
+          { en: "Mike Ilitch", es: "Mike Ilitch", de: "Mike Ilitch", nl: "Mike Ilitch" },
+          { en: "Tom Monaghan", es: "Tom Monaghan", de: "Tom Monaghan", nl: "Tom Monaghan" },
+          { en: "John Schnatter", es: "John Schnatter", de: "John Schnatter", nl: "John Schnatter" },
+          { en: "Ray Kroc", es: "Ray Kroc", de: "Ray Kroc", nl: "Ray Kroc" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mike Ilitch founded Little Caesars Pizza with his wife Marian in 1959 in Garden City, Michigan. He later bought the Detroit Red Wings and Detroit Tigers, becoming one of Detroit's most prominent business figures.",
+          es: "Mike Ilitch fundó Little Caesars Pizza con su esposa Marian en 1959 en Garden City, Michigan. Más tarde compró los Detroit Red Wings y Detroit Tigers, convirtiéndose en una de las figuras empresariales más destacadas de Detroit.",
+          de: "Mike Ilitch gründete Little Caesars Pizza 1959 mit seiner Frau Marian in Garden City, Michigan. Er kaufte später die Detroit Red Wings und Detroit Tigers und wurde zu einer der prominentesten Geschäftsfiguren Detroits.",
+          nl: "Mike Ilitch richtte Little Caesars Pizza op met zijn vrouw Marian in 1959 in Garden City, Michigan. Hij kocht later de Detroit Red Wings en Detroit Tigers en werd een van de meest prominente zakelijke figuren van Detroit."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded Wendy's fast food chain?",
+          es: "¿Qué empresario fundó la cadena de comida rápida Wendy's?",
+          de: "Welcher Unternehmer gründete die Fast-Food-Kette Wendy's?",
+          nl: "Welke ondernemer heeft de fastfoodketen Wendy's opgericht?"
+        },
+        options: [
+          { en: "Dave Thomas", es: "Dave Thomas", de: "Dave Thomas", nl: "Dave Thomas" },
+          { en: "Ray Kroc", es: "Ray Kroc", de: "Ray Kroc", nl: "Ray Kroc" },
+          { en: "Harland Sanders", es: "Harland Sanders", de: "Harland Sanders", nl: "Harland Sanders" },
+          { en: "Glen Bell", es: "Glen Bell", de: "Glen Bell", nl: "Glen Bell" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dave Thomas founded Wendy's in 1969 in Columbus, Ohio, naming it after his daughter Melinda 'Wendy' Thomas. He became famous for appearing in over 800 commercials, promoting fresh, never frozen beef.",
+          es: "Dave Thomas fundó Wendy's en 1969 en Columbus, Ohio, nombrándola por su hija Melinda 'Wendy' Thomas. Se hizo famoso por aparecer en más de 800 comerciales, promocionando carne fresca, nunca congelada.",
+          de: "Dave Thomas gründete Wendy's 1969 in Columbus, Ohio, und benannte es nach seiner Tochter Melinda 'Wendy' Thomas. Er wurde berühmt durch Auftritte in über 800 Werbespots und bewarb frisches, nie gefrorenes Rindfleisch.",
+          nl: "Dave Thomas richtte Wendy's op in 1969 in Columbus, Ohio, hij noemde het naar zijn dochter Melinda 'Wendy' Thomas. Hij werd beroemd door in meer dan 800 commercials te verschijnen en vers, nooit bevroren rundvlees te promoten."
+        }
+      },
+      {
+        question: {
+          en: "Who founded Taco Bell fast food chain?",
+          es: "¿Quién fundó la cadena de comida rápida Taco Bell?",
+          de: "Wer gründete die Fast-Food-Kette Taco Bell?",
+          nl: "Wie heeft de fastfoodketen Taco Bell opgericht?"
+        },
+        options: [
+          { en: "Glen Bell", es: "Glen Bell", de: "Glen Bell", nl: "Glen Bell" },
+          { en: "Ray Kroc", es: "Ray Kroc", de: "Ray Kroc", nl: "Ray Kroc" },
+          { en: "Dave Thomas", es: "Dave Thomas", de: "Dave Thomas", nl: "Dave Thomas" },
+          { en: "Steve Ells", es: "Steve Ells", de: "Steve Ells", nl: "Steve Ells" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Glen Bell founded Taco Bell in 1962 in Downey, California. He started with a hot dog stand in 1948, then experimented with tacos, eventually creating the first Taco Bell restaurant that grew into a global chain.",
+          es: "Glen Bell fundó Taco Bell en 1962 en Downey, California. Comenzó con un puesto de hot dogs en 1948, luego experimentó con tacos, eventualmente creando el primer restaurante Taco Bell que creció en una cadena global.",
+          de: "Glen Bell gründete Taco Bell 1962 in Downey, Kalifornien. Er begann 1948 mit einem Hot-Dog-Stand, experimentierte dann mit Tacos und schuf schließlich das erste Taco Bell-Restaurant, das zu einer globalen Kette heranwuchs.",
+          nl: "Glen Bell richtte Taco Bell op in 1962 in Downey, Californië. Hij begon met een hotdogkraam in 1948, experimenteerde vervolgens met taco's en creëerde uiteindelijk het eerste Taco Bell-restaurant dat uitgroeide tot een mondiale keten."
+        }
+      },
+      {
+        question: {
+          en: "Which entrepreneur founded KFC (Kentucky Fried Chicken)?",
+          es: "¿Qué empresario fundó KFC (Kentucky Fried Chicken)?",
+          de: "Welcher Unternehmer gründete KFC (Kentucky Fried Chicken)?",
+          nl: "Welke ondernemer heeft KFC (Kentucky Fried Chicken) opgericht?"
+        },
+        options: [
+          { en: "Colonel Harland Sanders", es: "Coronel Harland Sanders", de: "Colonel Harland Sanders", nl: "Kolonel Harland Sanders" },
+          { en: "Dave Thomas", es: "Dave Thomas", de: "Dave Thomas", nl: "Dave Thomas" },
+          { en: "Ray Kroc", es: "Ray Kroc", de: "Ray Kroc", nl: "Ray Kroc" },
+          { en: "Glen Bell", es: "Glen Bell", de: "Glen Bell", nl: "Glen Bell" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Colonel Harland Sanders founded KFC in 1952 in North Corbin, Kentucky. He developed his secret recipe of 11 herbs and spices and franchised the concept at age 62, building it into a global fried chicken empire.",
+          es: "El Coronel Harland Sanders fundó KFC en 1952 en North Corbin, Kentucky. Desarrolló su receta secreta de 11 hierbas y especias y franquició el concepto a los 62 años, construyéndolo en un imperio global de pollo frito.",
+          de: "Colonel Harland Sanders gründete KFC 1952 in North Corbin, Kentucky. Er entwickelte sein geheimes Rezept aus 11 Kräutern und Gewürzen und franchisierte das Konzept im Alter von 62 Jahren, baute es zu einem globalen Brathähnchen-Imperium auf.",
+          nl: "Kolonel Harland Sanders richtte KFC op in 1952 in North Corbin, Kentucky. Hij ontwikkelde zijn geheime recept van 11 kruiden en specerijen en franchiseerde het concept op 62-jarige leeftijd, bouwde het uit tot een wereldwijd gebakken kip-imperium."
+        }
       }
     ]
   };

@@ -818,6 +818,27 @@
         de: "Turnier-Endspiel-Analyse: in 1v1 gewinnt Spieler mit höherer 'Entwicklungsdichte' (gesamte Mietkapazität pro $100 investiert) in 3-5 Umrundungen durch kumulative Mietvorteil, was späte-Spiel-Entwicklungseffizienz kritisch macht.",
         nl: "Toernooi eindspel analyse: in 1v1 wint speler met hogere 'ontwikkelingsdichtheid' (totale huur capaciteit per $100 geïnvesteerd) in 3-5 rondes door cumulatief huur voordeel, wat laat-spel ontwikkelings efficiëntie kritiek maakt."
       }
+    },
+    {
+      question: {
+        en: "What is the mathematical concept of 'liquidity trap' in Monopoly strategy?",
+        es: "¿Cuál es el concepto matemático de 'trampa de liquidez' en la estrategia de Monopoly?",
+        de: "Was ist das mathematische Konzept der 'Liquiditätsfalle' in der Monopoly-Strategie?",
+        nl: "Wat is het mathematische concept van 'liquiditeitsval' in Monopoly strategie?"
+      },
+      options: [
+        { en: "Holding too much cash prevents optimal development", es: "Mantener demasiado efectivo previene desarrollo óptimo", de: "Zu viel Bargeld halten verhindert optimale Entwicklung", nl: "Te veel cash vasthouden voorkomt optimale ontwikkeling" },
+        { en: "Having minimal cash creates advantage by forcing aggressive development", es: "Tener efectivo mínimo crea ventaja al forzar desarrollo agresivo", de: "Minimales Bargeld haben schafft Vorteil durch Erzwingung aggressiver Entwicklung", nl: "Minimale cash hebben creëert voordeel door agressieve ontwikkeling af te dwingen" },
+        { en: "Running out of money completely", es: "Quedarse completamente sin dinero", de: "Komplett ohne Geld sein", nl: "Compleet zonder geld raken" },
+        { en: "Needing to sell all properties", es: "Necesitar vender todas las propiedades", de: "Alle Grundstücke verkaufen müssen", nl: "Alle eigendommen moeten verkopen" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Advanced players intentionally maintain minimal cash reserves ($100-200) to force maximum building density. This 'liquidity trap' creates psychological pressure to develop aggressively, often yielding 15-20% higher ROI than conservative cash-hoarding strategies. The risk of bankruptcy is offset by superior rent generation.",
+        es: "Jugadores avanzados intencionalmente mantienen reservas de efectivo mínimas ($100-200) para forzar densidad máxima de construcción. Esta 'trampa de liquidez' crea presión psicológica para desarrollar agresivamente, a menudo produciendo 15-20% mayor ROI que estrategias conservadoras de acumulación de efectivo. El riesgo de quiebra se compensa con generación de alquiler superior.",
+        de: "Fortgeschrittene Spieler halten absichtlich minimale Barreserven ($100-200), um maximale Baudichte zu erzwingen. Diese 'Liquiditätsfalle' schafft psychologischen Druck zur aggressiven Entwicklung, was oft 15-20% höheren ROI ergibt als konservative Bargeld-Hortungsstrategien. Das Bankrottrisiko wird durch überlegene Mietgenerierung ausgeglichen.",
+        nl: "Gevorderde spelers behouden opzettelijk minimale cash reserves ($100-200) om maximale bouw dichtheid af te dwingen. Deze 'liquiditeitsval' creëert psychologische druk om agressief te ontwikkelen, wat vaak 15-20% hogere ROI oplevert dan conservatieve cash-hamsteren strategieën. Het faillissements risico wordt gecompenseerd door superieure huur generatie."
+      }
     }
   ];
 

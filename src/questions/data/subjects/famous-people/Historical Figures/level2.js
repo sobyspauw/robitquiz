@@ -427,6 +427,426 @@
           de: "Nelson Mandela verbrachte 27 Jahre im Gefängnis für seinen Anti-Apartheid-Aktivismus, bevor er 1990 freigelassen wurde. Er wurde 1994 Südafrikas erster schwarzer Präsident und gewann 1993 den Friedensnobelpreis für seine Arbeit zur friedlichen Beendigung der Apartheid.",
           nl: "Nelson Mandela bracht 27 jaar in de gevangenis door voor zijn anti-apartheid activisme voordat hij in 1990 werd vrijgelaten. Hij werd in 1994 Zuid-Afrika's eerste zwarte president en won in 1993 de Nobelprijs voor de Vrede voor zijn werk aan het vreedzaam beëindigen van apartheid."
         }
+      },
+      {
+        question: {
+          en: "Which Russian emperor modernized Russia and founded St. Petersburg?",
+          es: "¿Qué emperador ruso modernizó Rusia y fundó San Petersburgo?",
+          de: "Welcher russische Kaiser modernisierte Russland und gründete St. Petersburg?",
+          nl: "Welke Russische keizer moderniseerde Rusland en stichtte St. Petersburg?"
+        },
+        options: [
+          { en: "Peter the Great", es: "Pedro el Grande", de: "Peter der Große", nl: "Peter de Grote" },
+          { en: "Ivan the Terrible", es: "Iván el Terrible", de: "Iwan der Schreckliche", nl: "Ivan de Verschrikkelijke" },
+          { en: "Nicholas II", es: "Nicolás II", de: "Nikolaus II", nl: "Nicolaas II" },
+          { en: "Alexander II", es: "Alejandro II", de: "Alexander II", nl: "Alexander II" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Peter the Great (1682-1725) westernized Russia and built St. Petersburg as a 'window to the West.' His reforms transformed Russia into a major European power.",
+          es: "Pedro el Grande (1682-1725) occidentalizó Rusia y construyó San Petersburgo como una 'ventana a Occidente.' Sus reformas transformaron Rusia en una potencia europea importante.",
+          de: "Peter der Große (1682-1725) verwestlichte Russland und baute St. Petersburg als 'Fenster zum Westen.' Seine Reformen verwandelten Russland in eine europäische Großmacht.",
+          nl: "Peter de Grote (1682-1725) verwesterde Rusland en bouwde St. Petersburg als een 'venster naar het Westen.' Zijn hervormingen transformeerden Rusland tot een Europese grootmacht."
+        }
+      },
+      {
+        question: {
+          en: "Who was the English naturalist who voyaged on the HMS Beagle?",
+          es: "¿Quién fue el naturalista inglés que viajó en el HMS Beagle?",
+          de: "Wer war der englische Naturforscher, der auf der HMS Beagle reiste?",
+          nl: "Wie was de Engelse naturalist die reisde op de HMS Beagle?"
+        },
+        options: [
+          { en: "Charles Darwin", es: "Charles Darwin", de: "Charles Darwin", nl: "Charles Darwin" },
+          { en: "Alfred Russel Wallace", es: "Alfred Russel Wallace", de: "Alfred Russel Wallace", nl: "Alfred Russel Wallace" },
+          { en: "Thomas Huxley", es: "Thomas Huxley", de: "Thomas Huxley", nl: "Thomas Huxley" },
+          { en: "Gregor Mendel", es: "Gregor Mendel", de: "Gregor Mendel", nl: "Gregor Mendel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Charles Darwin's voyage on HMS Beagle (1831-1836) provided crucial observations that led to his theory of evolution by natural selection, published in 'On the Origin of Species.'",
+          es: "El viaje de Charles Darwin en el HMS Beagle (1831-1836) proporcionó observaciones cruciales que llevaron a su teoría de la evolución por selección natural, publicada en 'El Origen de las Especies.'",
+          de: "Charles Darwins Reise auf der HMS Beagle (1831-1836) lieferte entscheidende Beobachtungen, die zu seiner Evolutionstheorie durch natürliche Selektion führten, veröffentlicht in 'Über die Entstehung der Arten.'",
+          nl: "Charles Darwins reis op de HMS Beagle (1831-1836) leverde cruciale observaties die leidden tot zijn evolutietheorie door natuurlijke selectie, gepubliceerd in 'Over het ontstaan der soorten.'"
+        }
+      },
+      {
+        question: {
+          en: "Which Macedonian king conquered Persia and much of the known world?",
+          es: "¿Qué rey macedonio conquistó Persia y gran parte del mundo conocido?",
+          de: "Welcher makedonische König eroberte Persien und einen Großteil der bekannten Welt?",
+          nl: "Welke Macedonische koning veroverde Perzië en een groot deel van de bekende wereld?"
+        },
+        options: [
+          { en: "Alexander the Great", es: "Alejandro Magno", de: "Alexander der Große", nl: "Alexander de Grote" },
+          { en: "Philip II", es: "Felipe II", de: "Philipp II", nl: "Philippus II" },
+          { en: "Darius III", es: "Darío III", de: "Darius III", nl: "Darius III" },
+          { en: "Cyrus the Great", es: "Ciro el Grande", de: "Kyros der Große", nl: "Cyrus de Grote" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Alexander the Great (356-323 BCE) created one of the largest empires in history by age 30, stretching from Greece to India, spreading Greek culture throughout the ancient world.",
+          es: "Alejandro Magno (356-323 a.C.) creó uno de los imperios más grandes de la historia a los 30 años, extendiéndose desde Grecia hasta India, difundiendo la cultura griega por todo el mundo antiguo.",
+          de: "Alexander der Große (356-323 v.Chr.) schuf mit 30 Jahren eines der größten Reiche der Geschichte, das sich von Griechenland bis Indien erstreckte und die griechische Kultur in der antiken Welt verbreitete.",
+          nl: "Alexander de Grote (356-323 v.Chr.) creëerde een van de grootste rijken in de geschiedenis toen hij 30 was, zich uitstrekkend van Griekenland tot India, en verspreidde de Griekse cultuur door de antieke wereld."
+        }
+      },
+      {
+        question: {
+          en: "Who was the Florentine political philosopher who wrote 'The Prince'?",
+          es: "¿Quién fue el filósofo político florentino que escribió 'El Príncipe'?",
+          de: "Wer war der florentinische politische Philosoph, der 'Der Fürst' schrieb?",
+          nl: "Wie was de Florentijnse politieke filosoof die 'De Vorst' schreef?"
+        },
+        options: [
+          { en: "Niccolò Machiavelli", es: "Nicolás Maquiavelo", de: "Niccolò Machiavelli", nl: "Niccolò Machiavelli" },
+          { en: "Dante Alighieri", es: "Dante Alighieri", de: "Dante Alighieri", nl: "Dante Alighieri" },
+          { en: "Thomas Aquinas", es: "Tomás de Aquino", de: "Thomas von Aquin", nl: "Thomas van Aquino" },
+          { en: "Giovanni Boccaccio", es: "Giovanni Boccaccio", de: "Giovanni Boccaccio", nl: "Giovanni Boccaccio" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Niccolò Machiavelli wrote 'The Prince' in 1513, a political treatise that became one of the most influential works in political philosophy, introducing the concept of realpolitik.",
+          es: "Nicolás Maquiavelo escribió 'El Príncipe' en 1513, un tratado político que se convirtió en una de las obras más influyentes de la filosofía política, introduciendo el concepto de realpolitik.",
+          de: "Niccolò Machiavelli schrieb 1513 'Der Fürst', eine politische Abhandlung, die zu einem der einflussreichsten Werke der politischen Philosophie wurde und das Konzept der Realpolitik einführte.",
+          nl: "Niccolò Machiavelli schreef 'De Vorst' in 1513, een politiek traktaat dat een van de meest invloedrijke werken in de politieke filosofie werd, en het concept van realpolitik introduceerde."
+        }
+      },
+      {
+        question: {
+          en: "Which Polish astronomer proposed that the Earth revolves around the Sun?",
+          es: "¿Qué astrónomo polaco propuso que la Tierra gira alrededor del Sol?",
+          de: "Welcher polnische Astronom schlug vor, dass sich die Erde um die Sonne dreht?",
+          nl: "Welke Poolse astronoom stelde voor dat de Aarde om de Zon draait?"
+        },
+        options: [
+          { en: "Nicolaus Copernicus", es: "Nicolás Copérnico", de: "Nikolaus Kopernikus", nl: "Nicolaas Copernicus" },
+          { en: "Galileo Galilei", es: "Galileo Galilei", de: "Galileo Galilei", nl: "Galileo Galilei" },
+          { en: "Johannes Kepler", es: "Johannes Kepler", de: "Johannes Kepler", nl: "Johannes Kepler" },
+          { en: "Tycho Brahe", es: "Tycho Brahe", de: "Tycho Brahe", nl: "Tycho Brahe" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Nicolaus Copernicus published his heliocentric model in 1543, revolutionizing astronomy by placing the Sun at the center of the solar system instead of Earth.",
+          es: "Nicolás Copérnico publicó su modelo heliocéntrico en 1543, revolucionando la astronomía al colocar al Sol en el centro del sistema solar en lugar de la Tierra.",
+          de: "Nikolaus Kopernikus veröffentlichte 1543 sein heliozentrisches Modell und revolutionierte die Astronomie, indem er die Sonne statt der Erde in das Zentrum des Sonnensystems stellte.",
+          nl: "Nicolaas Copernicus publiceerde zijn heliocentrisch model in 1543, wat de astronomie revolutioneerde door de Zon in het centrum van het zonnestelsel te plaatsen in plaats van de Aarde."
+        }
+      },
+      {
+        question: {
+          en: "Who was the Carthaginian general who crossed the Alps with elephants?",
+          es: "¿Quién fue el general cartaginés que cruzó los Alpes con elefantes?",
+          de: "Wer war der karthagische General, der mit Elefanten die Alpen überquerte?",
+          nl: "Wie was de Carthaagse generaal die de Alpen overstak met olifanten?"
+        },
+        options: [
+          { en: "Hannibal", es: "Aníbal", de: "Hannibal", nl: "Hannibal" },
+          { en: "Scipio Africanus", es: "Escipión el Africano", de: "Scipio Africanus", nl: "Scipio Africanus" },
+          { en: "Hamilcar Barca", es: "Amílcar Barca", de: "Hamilkar Barkas", nl: "Hamilcar Barca" },
+          { en: "Hasdrubal", es: "Asdrúbal", de: "Hasdrubal", nl: "Hasdrubal" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hannibal Barca crossed the Alps with war elephants in 218 BCE during the Second Punic War, achieving one of the most famous military feats in history despite ultimately losing the war.",
+          es: "Aníbal Barca cruzó los Alpes con elefantes de guerra en 218 a.C. durante la Segunda Guerra Púnica, logrando una de las hazañas militares más famosas de la historia a pesar de perder finalmente la guerra.",
+          de: "Hannibal Barkas überquerte 218 v.Chr. während des Zweiten Punischen Krieges die Alpen mit Kriegselefanten und vollbrachte eine der berühmtesten militärischen Leistungen der Geschichte, obwohl er den Krieg letztendlich verlor.",
+          nl: "Hannibal Barca stak in 218 v.Chr. de Alpen over met oorlogsolifanten tijdens de Tweede Punische Oorlog, en volbracht een van de beroemdste militaire prestaties in de geschiedenis, ondanks dat hij uiteindelijk de oorlog verloor."
+        }
+      },
+      {
+        question: {
+          en: "Which English king signed the Magna Carta in 1215?",
+          es: "¿Qué rey inglés firmó la Carta Magna en 1215?",
+          de: "Welcher englische König unterzeichnete 1215 die Magna Carta?",
+          nl: "Welke Engelse koning ondertekende de Magna Carta in 1215?"
+        },
+        options: [
+          { en: "King John", es: "Rey Juan", de: "König Johann", nl: "Koning Jan" },
+          { en: "King Henry III", es: "Rey Enrique III", de: "König Heinrich III", nl: "Koning Hendrik III" },
+          { en: "King Richard I", es: "Rey Ricardo I", de: "König Richard I", nl: "Koning Richard I" },
+          { en: "King Edward I", es: "Rey Eduardo I", de: "König Eduard I", nl: "Koning Edward I" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "King John signed the Magna Carta at Runnymede in 1215, establishing the principle that the king was not above the law and laying foundations for constitutional government.",
+          es: "El Rey Juan firmó la Carta Magna en Runnymede en 1215, estableciendo el principio de que el rey no estaba por encima de la ley y sentando las bases para el gobierno constitucional.",
+          de: "König Johann unterzeichnete 1215 in Runnymede die Magna Carta und etablierte das Prinzip, dass der König nicht über dem Gesetz steht, und legte damit Grundlagen für konstitutionelle Regierung.",
+          nl: "Koning Jan ondertekende de Magna Carta in Runnymede in 1215, waarmee het principe werd gevestigd dat de koning niet boven de wet stond en de grondslagen werden gelegd voor constitutionele regering."
+        }
+      },
+      {
+        question: {
+          en: "Who was the founder of psychoanalysis?",
+          es: "¿Quién fue el fundador del psicoanálisis?",
+          de: "Wer war der Begründer der Psychoanalyse?",
+          nl: "Wie was de grondlegger van de psychoanalyse?"
+        },
+        options: [
+          { en: "Sigmund Freud", es: "Sigmund Freud", de: "Sigmund Freud", nl: "Sigmund Freud" },
+          { en: "Carl Jung", es: "Carl Jung", de: "Carl Jung", nl: "Carl Jung" },
+          { en: "B.F. Skinner", es: "B.F. Skinner", de: "B.F. Skinner", nl: "B.F. Skinner" },
+          { en: "Wilhelm Wundt", es: "Wilhelm Wundt", de: "Wilhelm Wundt", nl: "Wilhelm Wundt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sigmund Freud (1856-1939) founded psychoanalysis, developing revolutionary theories about the unconscious mind, dreams, and the structure of personality.",
+          es: "Sigmund Freud (1856-1939) fundó el psicoanálisis, desarrollando teorías revolucionarias sobre la mente inconsciente, los sueños y la estructura de la personalidad.",
+          de: "Sigmund Freud (1856-1939) begründete die Psychoanalyse und entwickelte revolutionäre Theorien über das Unbewusste, Träume und die Struktur der Persönlichkeit.",
+          nl: "Sigmund Freud (1856-1939) stichtte de psychoanalyse en ontwikkelde revolutionaire theorieën over het onbewuste, dromen en de structuur van de persoonlijkheid."
+        }
+      },
+      {
+        question: {
+          en: "Which inventor is credited with developing the first practical incandescent light bulb?",
+          es: "¿Qué inventor es acreditado con desarrollar la primera bombilla incandescente práctica?",
+          de: "Welchem Erfinder wird die Entwicklung der ersten praktischen Glühbirne zugeschrieben?",
+          nl: "Welke uitvinder wordt gecrediteerd met het ontwikkelen van de eerste praktische gloeilamp?"
+        },
+        options: [
+          { en: "Thomas Edison", es: "Thomas Edison", de: "Thomas Edison", nl: "Thomas Edison" },
+          { en: "Nikola Tesla", es: "Nikola Tesla", de: "Nikola Tesla", nl: "Nikola Tesla" },
+          { en: "Alexander Graham Bell", es: "Alexander Graham Bell", de: "Alexander Graham Bell", nl: "Alexander Graham Bell" },
+          { en: "George Westinghouse", es: "George Westinghouse", de: "George Westinghouse", nl: "George Westinghouse" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Thomas Edison developed the first commercially practical incandescent light bulb in 1879, though many inventors contributed to its development. His design could last for hours, making electric lighting practical.",
+          es: "Thomas Edison desarrolló la primera bombilla incandescente comercialmente práctica en 1879, aunque muchos inventores contribuyeron a su desarrollo. Su diseño podía durar horas, haciendo la iluminación eléctrica práctica.",
+          de: "Thomas Edison entwickelte 1879 die erste kommerziell praktische Glühbirne, obwohl viele Erfinder zu ihrer Entwicklung beitrugen. Sein Design konnte stundenlang halten und machte elektrische Beleuchtung praktisch.",
+          nl: "Thomas Edison ontwikkelde de eerste commercieel praktische gloeilamp in 1879, hoewel veel uitvinders bijdroegen aan de ontwikkeling ervan. Zijn ontwerp kon urenlang branden, waardoor elektrische verlichting praktisch werd."
+        }
+      },
+      {
+        question: {
+          en: "Who was the Roman emperor during the height of the Roman Empire's territorial expansion?",
+          es: "¿Quién fue el emperador romano durante el apogeo de la expansión territorial del Imperio Romano?",
+          de: "Wer war der römische Kaiser während des Höhepunkts der territorialen Expansion des Römischen Reiches?",
+          nl: "Wie was de Romeinse keizer tijdens het hoogtepunt van de territoriale expansie van het Romeinse Rijk?"
+        },
+        options: [
+          { en: "Trajan", es: "Trajano", de: "Trajan", nl: "Trajanus" },
+          { en: "Augustus", es: "Augusto", de: "Augustus", nl: "Augustus" },
+          { en: "Hadrian", es: "Adriano", de: "Hadrian", nl: "Hadrianus" },
+          { en: "Marcus Aurelius", es: "Marco Aurelio", de: "Marcus Aurelius", nl: "Marcus Aurelius" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Emperor Trajan (98-117 CE) expanded the Roman Empire to its greatest territorial extent, conquering Dacia and reaching the Persian Gulf.",
+          es: "El emperador Trajano (98-117 d.C.) expandió el Imperio Romano a su mayor extensión territorial, conquistando Dacia y llegando al Golfo Pérsico.",
+          de: "Kaiser Trajan (98-117 n.Chr.) erweiterte das Römische Reich auf seine größte territoriale Ausdehnung, eroberte Dakien und erreichte den Persischen Golf.",
+          nl: "Keizer Trajanus (98-117 n.Chr.) breidde het Romeinse Rijk uit tot zijn grootste territoriale omvang, veroverde Dacië en bereikte de Perzische Golf."
+        }
+      },
+      {
+        question: {
+          en: "Which queen of Egypt allied with Julius Caesar and Mark Antony?",
+          es: "¿Qué reina de Egipto se alió con Julio César y Marco Antonio?",
+          de: "Welche Königin von Ägypten verbündete sich mit Julius Caesar und Marcus Antonius?",
+          nl: "Welke koningin van Egypte sloot een alliantie met Julius Caesar en Marcus Antonius?"
+        },
+        options: [
+          { en: "Cleopatra VII", es: "Cleopatra VII", de: "Kleopatra VII", nl: "Cleopatra VII" },
+          { en: "Nefertiti", es: "Nefertiti", de: "Nofretete", nl: "Nefertiti" },
+          { en: "Hatshepsut", es: "Hatshepsut", de: "Hatschepsut", nl: "Hatshepsut" },
+          { en: "Cleopatra I", es: "Cleopatra I", de: "Kleopatra I", nl: "Cleopatra I" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cleopatra VII was the last active pharaoh of Egypt, forming political and romantic alliances with both Julius Caesar and Mark Antony in attempts to preserve Egypt's independence.",
+          es: "Cleopatra VII fue la última faraona activa de Egipto, formando alianzas políticas y románticas con Julio César y Marco Antonio en intentos de preservar la independencia de Egipto.",
+          de: "Kleopatra VII war die letzte aktive Pharaonin Ägyptens und ging politische und romantische Allianzen mit Julius Caesar und Marcus Antonius ein, um Ägyptens Unabhängigkeit zu bewahren.",
+          nl: "Cleopatra VII was de laatste actieve farao van Egypte, en vormde politieke en romantische allianties met zowel Julius Caesar als Marcus Antonius in pogingen om Egypte's onafhankelijkheid te behouden."
+        }
+      },
+      {
+        question: {
+          en: "Who was the emperor of France who sold Louisiana to the United States?",
+          es: "¿Quién fue el emperador de Francia que vendió Luisiana a los Estados Unidos?",
+          de: "Wer war der Kaiser von Frankreich, der Louisiana an die Vereinigten Staaten verkaufte?",
+          nl: "Wie was de keizer van Frankrijk die Louisiana verkocht aan de Verenigde Staten?"
+        },
+        options: [
+          { en: "Napoleon Bonaparte", es: "Napoleón Bonaparte", de: "Napoleon Bonaparte", nl: "Napoleon Bonaparte" },
+          { en: "Louis XVI", es: "Luis XVI", de: "Ludwig XVI", nl: "Lodewijk XVI" },
+          { en: "Charles X", es: "Carlos X", de: "Karl X", nl: "Karel X" },
+          { en: "Napoleon III", es: "Napoleón III", de: "Napoleon III", nl: "Napoleon III" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Napoleon Bonaparte sold the Louisiana Territory to the United States in 1803 for $15 million, doubling the size of the young nation.",
+          es: "Napoleón Bonaparte vendió el Territorio de Luisiana a los Estados Unidos en 1803 por 15 millones de dólares, duplicando el tamaño de la joven nación.",
+          de: "Napoleon Bonaparte verkaufte 1803 das Louisiana-Territorium für 15 Millionen Dollar an die Vereinigten Staaten und verdoppelte damit die Größe der jungen Nation.",
+          nl: "Napoleon Bonaparte verkocht het Louisiana Territory in 1803 voor $15 miljoen aan de Verenigde Staten, waardoor de omvang van de jonge natie verdubbelde."
+        }
+      },
+      {
+        question: {
+          en: "Which Italian explorer gave his name to America?",
+          es: "¿Qué explorador italiano dio su nombre a América?",
+          de: "Welcher italienische Entdecker gab Amerika seinen Namen?",
+          nl: "Welke Italiaanse ontdekkingsreiziger gaf zijn naam aan Amerika?"
+        },
+        options: [
+          { en: "Amerigo Vespucci", es: "Américo Vespucio", de: "Amerigo Vespucci", nl: "Amerigo Vespucci" },
+          { en: "Christopher Columbus", es: "Cristóbal Colón", de: "Christoph Kolumbus", nl: "Christoffel Columbus" },
+          { en: "John Cabot", es: "John Cabot", de: "John Cabot", nl: "John Cabot" },
+          { en: "Marco Polo", es: "Marco Polo", de: "Marco Polo", nl: "Marco Polo" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Amerigo Vespucci was the first to recognize that the lands discovered by Columbus were a new continent, not Asia. The Americas were named in his honor.",
+          es: "Américo Vespucio fue el primero en reconocer que las tierras descubiertas por Colón eran un nuevo continente, no Asia. Las Américas fueron nombradas en su honor.",
+          de: "Amerigo Vespucci war der erste, der erkannte, dass die von Kolumbus entdeckten Länder ein neuer Kontinent und nicht Asien waren. Amerika wurde ihm zu Ehren benannt.",
+          nl: "Amerigo Vespucci was de eerste die erkende dat de landen die door Columbus werden ontdekt een nieuw continent waren, niet Azië. Amerika werd naar hem vernoemd."
+        }
+      },
+      {
+        question: {
+          en: "Who was the German monk who started the Protestant Reformation?",
+          es: "¿Quién fue el monje alemán que inició la Reforma Protestante?",
+          de: "Wer war der deutsche Mönch, der die protestantische Reformation begann?",
+          nl: "Wie was de Duitse monnik die de Protestantse Reformatie begon?"
+        },
+        options: [
+          { en: "Martin Luther", es: "Martín Lutero", de: "Martin Luther", nl: "Maarten Luther" },
+          { en: "John Calvin", es: "Juan Calvino", de: "Johannes Calvin", nl: "Johannes Calvijn" },
+          { en: "Huldrych Zwingli", es: "Ulrico Zuinglio", de: "Huldrych Zwingli", nl: "Huldrych Zwingli" },
+          { en: "John Wycliffe", es: "John Wycliffe", de: "John Wycliffe", nl: "John Wycliffe" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Martin Luther posted his 95 Theses in 1517, challenging the Catholic Church's sale of indulgences and sparking the Protestant Reformation that split Western Christianity.",
+          es: "Martín Lutero clavó sus 95 Tesis en 1517, desafiando la venta de indulgencias de la Iglesia Católica e iniciando la Reforma Protestante que dividió el cristianismo occidental.",
+          de: "Martin Luther schlug 1517 seine 95 Thesen an, stellte den Ablasshandel der katholischen Kirche in Frage und löste die protestantische Reformation aus, die das westliche Christentum spaltete.",
+          nl: "Maarten Luther sloeg zijn 95 stellingen aan in 1517, daagde de verkoop van aflaten door de Katholieke Kerk uit en zette de Protestantse Reformatie in gang die het westerse christendom splitste."
+        }
+      },
+      {
+        question: {
+          en: "Which ancient Greek physician is known as the 'Father of Medicine'?",
+          es: "¿Qué médico griego antiguo es conocido como el 'Padre de la Medicina'?",
+          de: "Welcher antike griechische Arzt ist als 'Vater der Medizin' bekannt?",
+          nl: "Welke oude Griekse arts staat bekend als de 'Vader van de Geneeskunde'?"
+        },
+        options: [
+          { en: "Hippocrates", es: "Hipócrates", de: "Hippokrates", nl: "Hippocrates" },
+          { en: "Galen", es: "Galeno", de: "Galen", nl: "Galenus" },
+          { en: "Aristotle", es: "Aristóteles", de: "Aristoteles", nl: "Aristoteles" },
+          { en: "Asclepius", es: "Asclepio", de: "Asklepios", nl: "Asclepius" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hippocrates (c. 460-370 BCE) revolutionized medicine by separating it from superstition and establishing it as a science. The Hippocratic Oath is still sworn by doctors today.",
+          es: "Hipócrates (c. 460-370 a.C.) revolucionó la medicina al separarla de la superstición y establecerla como una ciencia. El Juramento Hipocrático todavía es jurado por los médicos hoy.",
+          de: "Hippokrates (ca. 460-370 v.Chr.) revolutionierte die Medizin, indem er sie von Aberglauben trennte und als Wissenschaft etablierte. Der Hippokratische Eid wird heute noch von Ärzten geschworen.",
+          nl: "Hippocrates (ca. 460-370 v.Chr.) revolutioneerde de geneeskunde door het te scheiden van bijgeloof en het te vestigen als wetenschap. De eed van Hippocrates wordt vandaag nog steeds door artsen afgelegd."
+        }
+      },
+      {
+        question: {
+          en: "Who was the queen consort of King Louis XVI who was executed during the French Revolution?",
+          es: "¿Quién fue la reina consorte del rey Luis XVI que fue ejecutada durante la Revolución Francesa?",
+          de: "Wer war die Königsgemahlin von König Ludwig XVI, die während der Französischen Revolution hingerichtet wurde?",
+          nl: "Wie was de koningin-gemaal van koning Lodewijk XVI die werd geëxecuteerd tijdens de Franse Revolutie?"
+        },
+        options: [
+          { en: "Marie Antoinette", es: "María Antonieta", de: "Marie Antoinette", nl: "Marie Antoinette" },
+          { en: "Madame de Pompadour", es: "Madame de Pompadour", de: "Madame de Pompadour", nl: "Madame de Pompadour" },
+          { en: "Catherine de' Medici", es: "Catalina de Médici", de: "Katharina von Medici", nl: "Catharina de' Medici" },
+          { en: "Anne of Austria", es: "Ana de Austria", de: "Anna von Österreich", nl: "Anna van Oostenrijk" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Marie Antoinette, the Austrian-born queen of France, was guillotined in October 1793 during the Reign of Terror, nine months after her husband King Louis XVI.",
+          es: "María Antonieta, la reina de Francia nacida en Austria, fue guillotinada en octubre de 1793 durante el Reino del Terror, nueve meses después de su esposo el rey Luis XVI.",
+          de: "Marie Antoinette, die in Österreich geborene Königin von Frankreich, wurde im Oktober 1793 während der Schreckensherrschaft guillotiniert, neun Monate nach ihrem Ehemann König Ludwig XVI.",
+          nl: "Marie Antoinette, de in Oostenrijk geboren koningin van Frankrijk, werd in oktober 1793 geguillotineerd tijdens de Terreur, negen maanden na haar echtgenoot koning Lodewijk XVI."
+        }
+      },
+      {
+        question: {
+          en: "Which scientist formulated the laws of motion and universal gravitation?",
+          es: "¿Qué científico formuló las leyes del movimiento y la gravitación universal?",
+          de: "Welcher Wissenschaftler formulierte die Bewegungsgesetze und die universelle Gravitation?",
+          nl: "Welke wetenschapper formuleerde de bewegingswetten en universele zwaartekracht?"
+        },
+        options: [
+          { en: "Isaac Newton", es: "Isaac Newton", de: "Isaac Newton", nl: "Isaac Newton" },
+          { en: "Albert Einstein", es: "Albert Einstein", de: "Albert Einstein", nl: "Albert Einstein" },
+          { en: "Galileo Galilei", es: "Galileo Galilei", de: "Galileo Galilei", nl: "Galileo Galilei" },
+          { en: "Johannes Kepler", es: "Johannes Kepler", de: "Johannes Kepler", nl: "Johannes Kepler" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Isaac Newton published his 'Principia Mathematica' in 1687, presenting his three laws of motion and law of universal gravitation, revolutionizing physics and mathematics.",
+          es: "Isaac Newton publicó su 'Principia Mathematica' en 1687, presentando sus tres leyes del movimiento y la ley de gravitación universal, revolucionando la física y las matemáticas.",
+          de: "Isaac Newton veröffentlichte 1687 seine 'Principia Mathematica', präsentierte seine drei Bewegungsgesetze und das Gravitationsgesetz und revolutionierte Physik und Mathematik.",
+          nl: "Isaac Newton publiceerde zijn 'Principia Mathematica' in 1687, presenteerde zijn drie bewegingswetten en wet van universele zwaartekracht, wat de natuurkunde en wiskunde revolutioneerde."
+        }
+      },
+      {
+        question: {
+          en: "Who was the Spartan king who led 300 warriors at the Battle of Thermopylae?",
+          es: "¿Quién fue el rey espartano que lideró a 300 guerreros en la Batalla de las Termópilas?",
+          de: "Wer war der spartanische König, der 300 Krieger in der Schlacht bei den Thermopylen führte?",
+          nl: "Wie was de Spartaanse koning die 300 krijgers leidde bij de Slag bij Thermopylae?"
+        },
+        options: [
+          { en: "Leonidas I", es: "Leónidas I", de: "Leonidas I", nl: "Leonidas I" },
+          { en: "Pericles", es: "Pericles", de: "Perikles", nl: "Pericles" },
+          { en: "Themistocles", es: "Temístocles", de: "Themistokles", nl: "Themistocles" },
+          { en: "Alcibiades", es: "Alcibíades", de: "Alkibiades", nl: "Alcibiades" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "King Leonidas I led a small Greek force of about 7,000 men, including his famous 300 Spartans, against the massive Persian army at Thermopylae in 480 BCE, fighting to the last man.",
+          es: "El rey Leónidas I lideró una pequeña fuerza griega de unos 7,000 hombres, incluyendo sus famosos 300 espartanos, contra el masivo ejército persa en las Termópilas en 480 a.C., luchando hasta el último hombre.",
+          de: "König Leonidas I führte eine kleine griechische Streitmacht von etwa 7.000 Mann, darunter seine berühmten 300 Spartaner, gegen die massive persische Armee bei den Thermopylen im Jahr 480 v.Chr. und kämpfte bis zum letzten Mann.",
+          nl: "Koning Leonidas I leidde een kleine Griekse strijdmacht van ongeveer 7.000 man, inclusief zijn beroemde 300 Spartanen, tegen het massale Perzische leger bij Thermopylae in 480 v.Chr., vechtend tot de laatste man."
+        }
+      },
+      {
+        question: {
+          en: "Which Founding Father wrote most of the Federalist Papers?",
+          es: "¿Qué Padre Fundador escribió la mayoría de los Artículos Federalistas?",
+          de: "Welcher Gründervater schrieb die meisten Federalist Papers?",
+          nl: "Welke Founding Father schreef de meeste Federalist Papers?"
+        },
+        options: [
+          { en: "Alexander Hamilton", es: "Alexander Hamilton", de: "Alexander Hamilton", nl: "Alexander Hamilton" },
+          { en: "James Madison", es: "James Madison", de: "James Madison", nl: "James Madison" },
+          { en: "John Jay", es: "John Jay", de: "John Jay", nl: "John Jay" },
+          { en: "Thomas Jefferson", es: "Thomas Jefferson", de: "Thomas Jefferson", nl: "Thomas Jefferson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Alexander Hamilton wrote 51 of the 85 Federalist Papers, with James Madison writing 29 and John Jay writing 5. These essays promoted the ratification of the U.S. Constitution.",
+          es: "Alexander Hamilton escribió 51 de los 85 Artículos Federalistas, con James Madison escribiendo 29 y John Jay escribiendo 5. Estos ensayos promovieron la ratificación de la Constitución de EE.UU.",
+          de: "Alexander Hamilton schrieb 51 der 85 Federalist Papers, James Madison schrieb 29 und John Jay schrieb 5. Diese Essays förderten die Ratifizierung der US-Verfassung.",
+          nl: "Alexander Hamilton schreef 51 van de 85 Federalist Papers, met James Madison die er 29 schreef en John Jay die er 5 schreef. Deze essays bevorderden de ratificatie van de Amerikaanse Grondwet."
+        }
+      },
+      {
+        question: {
+          en: "Who was the first woman elected head of government in the modern world?",
+          es: "¿Quién fue la primera mujer elegida jefa de gobierno en el mundo moderno?",
+          de: "Wer war die erste gewählte Regierungschefin der modernen Welt?",
+          nl: "Wie was de eerste vrouw die gekozen werd als regeringsleider in de moderne wereld?"
+        },
+        options: [
+          { en: "Sirimavo Bandaranaike", es: "Sirimavo Bandaranaike", de: "Sirimavo Bandaranaike", nl: "Sirimavo Bandaranaike" },
+          { en: "Indira Gandhi", es: "Indira Gandhi", de: "Indira Gandhi", nl: "Indira Gandhi" },
+          { en: "Golda Meir", es: "Golda Meir", de: "Golda Meir", nl: "Golda Meir" },
+          { en: "Margaret Thatcher", es: "Margaret Thatcher", de: "Margaret Thatcher", nl: "Margaret Thatcher" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sirimavo Bandaranaike of Sri Lanka became the world's first elected female head of government in 1960, serving as Prime Minister three times.",
+          es: "Sirimavo Bandaranaike de Sri Lanka se convirtió en la primera jefa de gobierno elegida del mundo en 1960, sirviendo como Primera Ministra tres veces.",
+          de: "Sirimavo Bandaranaike aus Sri Lanka wurde 1960 die weltweit erste gewählte weibliche Regierungschefin und diente dreimal als Premierministerin.",
+          nl: "Sirimavo Bandaranaike van Sri Lanka werd in 1960 's werelds eerste gekozen vrouwelijke regeringsleider en diende drie keer als Eerste Minister."
+        }
       }
     ]
   };

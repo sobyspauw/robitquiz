@@ -409,23 +409,443 @@
       },
       {
         question: {
-          en: "How long should meat rest after coming off the grill?",
-          es: "¿Cuánto tiempo debe reposar la carne después de salir de la parrilla?",
-          de: "Wie lange sollte Fleisch nach dem Grillen ruhen?",
-          nl: "Hoe lang moet vlees rusten na het van de grill komen?"
+          en: "What is the main fuel source for traditional barbecue?",
+          es: "¿Cuál es la principal fuente de combustible para barbacoa tradicional?",
+          de: "Was ist die Hauptbrennstoffquelle für traditionelles Barbecue?",
+          nl: "Wat is de belangrijkste brandstofbron voor traditionele barbecue?"
         },
         options: [
-          { en: "5-10 minutes for steaks, 15-20 for larger cuts", es: "5-10 minutos para bistecs, 15-20 para cortes grandes", de: "5-10 Minuten für Steaks, 15-20 für größere Stücke", nl: "5-10 minuten voor steaks, 15-20 voor grotere stukken" },
-          { en: "30 seconds is enough", es: "30 segundos es suficiente", de: "30 Sekunden reichen", nl: "30 seconden is genoeg" },
-          { en: "No resting needed, serve immediately", es: "No se necesita reposo, servir inmediatamente", de: "Keine Ruhe nötig, sofort servieren", nl: "Geen rust nodig, direct serveren" },
-          { en: "Always rest for exactly 30 minutes", es: "Siempre reposar exactamente 30 minutos", de: "Immer genau 30 Minuten ruhen lassen", nl: "Altijd precies 30 minuten laten rusten" }
+          { en: "Wood or charcoal", es: "Madera o carbón", de: "Holz oder Holzkohle", nl: "Hout of houtskool" },
+          { en: "Electricity", es: "Electricidad", de: "Elektrizität", nl: "Elektriciteit" },
+          { en: "Natural gas", es: "Gas natural", de: "Erdgas", nl: "Aardgas" },
+          { en: "Propane only", es: "Solo propano", de: "Nur Propan", nl: "Alleen propaan" }
         ],
         correct: 0,
         explanation: {
-          en: "Resting allows juices to redistribute throughout the meat. Small cuts like steaks need 5-10 minutes, while larger roasts and briskets may need 15-20 minutes or more to achieve optimal juiciness.",
-          es: "El reposo permite que los jugos se redistribuyan por toda la carne. Cortes pequeños como bistecs necesitan 5-10 minutos, mientras que asados grandes y briskets pueden necesitan 15-20 minutos o más para lograr jugosidad óptima.",
-          de: "Das Ruhen ermöglicht es den Säften, sich im ganzen Fleisch zu verteilen. Kleine Stücke wie Steaks brauchen 5-10 Minuten, während größere Braten und Briskets 15-20 Minuten oder mehr brauchen können für optimale Saftigkeit.",
-          nl: "Rusten stelt sappen in staat zich door het vlees te herverdelen. Kleine stukken zoals steaks hebben 5-10 minuten nodig, terwijl grotere braadstukken en briskets 15-20 minuten of meer nodig kunnen hebben voor optimale sappigheid."
+          en: "Traditional barbecue relies on wood or charcoal as fuel. These produce both heat and smoke, which is essential for authentic barbecue flavor.",
+          es: "La barbacoa tradicional depende de la madera o carbón como combustible. Estos producen tanto calor como humo, que es esencial para el sabor auténtico de barbacoa.",
+          de: "Traditionelles Barbecue basiert auf Holz oder Holzkohle als Brennstoff. Diese produzieren sowohl Hitze als auch Rauch, der für authentischen Barbecue-Geschmack unerlässlich ist.",
+          nl: "Traditionele barbecue is afhankelijk van hout of houtskool als brandstof. Deze produceren zowel hitte als rook, wat essentieel is voor authentieke barbecuesmaak."
+        }
+      },
+      {
+        question: {
+          en: "What are baby back ribs?",
+          es: "¿Qué son las costillas baby back?",
+          de: "Was sind Baby Back Ribs?",
+          nl: "Wat zijn baby back ribs?"
+        },
+        options: [
+          { en: "Ribs from the upper part of the pork rib cage", es: "Costillas de la parte superior de la caja torácica del cerdo", de: "Rippen aus dem oberen Teil des Schweinerippenkäfigs", nl: "Ribben van het bovenste deel van de varkensribbenkas" },
+          { en: "Ribs from baby pigs", es: "Costillas de cerdos bebé", de: "Rippen von Babyschweinchen", nl: "Ribben van babyvarken" },
+          { en: "Small chicken ribs", es: "Costillas pequeñas de pollo", de: "Kleine Hühnerrippen", nl: "Kleine kipribben" },
+          { en: "Ribs from young cows", es: "Costillas de vacas jóvenes", de: "Rippen von jungen Kühen", nl: "Ribben van jonge koeien" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Baby back ribs come from the upper part of the pork rib cage near the spine. They're called 'baby' because they're shorter than spare ribs, not because they come from young pigs.",
+          es: "Las costillas baby back provienen de la parte superior de la caja torácica del cerdo cerca de la columna. Se llaman 'baby' porque son más cortas que las costillas spare, no porque provengan de cerdos jóvenes.",
+          de: "Baby Back Ribs stammen aus dem oberen Teil des Schweinerippenkäfigs nahe der Wirbelsäule. Sie heißen 'Baby', weil sie kürzer als Spare Ribs sind, nicht weil sie von jungen Schweinen stammen.",
+          nl: "Baby back ribs komen van het bovenste deel van de varkensribbenkas bij de ruggengraat. Ze heten 'baby' omdat ze korter zijn dan spare ribs, niet omdat ze van jonge varkens komen."
+        }
+      },
+      {
+        question: {
+          en: "What is smoking in barbecue?",
+          es: "¿Qué es ahumar en barbacoa?",
+          de: "Was ist Räuchern beim Barbecue?",
+          nl: "Wat is roken bij barbecue?"
+        },
+        options: [
+          { en: "Cooking meat slowly with wood smoke for flavor", es: "Cocinar carne lentamente con humo de madera para sabor", de: "Fleisch langsam mit Holzrauch für Geschmack kochen", nl: "Vlees langzaam koken met houtrook voor smaak" },
+          { en: "Burning meat until it turns black", es: "Quemar carne hasta que se vuelva negra", de: "Fleisch verbrennen bis es schwarz wird", nl: "Vlees verbranden tot het zwart wordt" },
+          { en: "Adding liquid smoke to meat", es: "Añadir humo líquido a la carne", de: "Flüssiger Rauch zum Fleisch hinzufügen", nl: "Vloeibare rook toevoegen aan vlees" },
+          { en: "Cooking only with tobacco smoke", es: "Cocinar solo con humo de tabaco", de: "Nur mit Tabakrauch kochen", nl: "Alleen koken met tabaksrook" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Smoking is a cooking technique where meat is exposed to smoke from burning wood, which adds flavor while cooking slowly at low temperatures.",
+          es: "Ahumar es una técnica de cocción donde la carne se expone al humo de madera quemada, que añade sabor mientras se cocina lentamente a bajas temperaturas.",
+          de: "Räuchern ist eine Kochtechnik, bei der Fleisch dem Rauch von brennendem Holz ausgesetzt wird, der Geschmack hinzufügt während langsam bei niedrigen Temperaturen gekocht wird.",
+          nl: "Roken is een kooktechniek waarbij vlees wordt blootgesteld aan rook van brandend hout, wat smaak toevoegt terwijl langzaam bij lage temperaturen wordt gekookt."
+        }
+      },
+      {
+        question: {
+          en: "What does BBQ stand for?",
+          es: "¿Qué significa BBQ?",
+          de: "Wofür steht BBQ?",
+          nl: "Waar staat BBQ voor?"
+        },
+        options: [
+          { en: "Barbecue", es: "Barbacoa", de: "Barbecue", nl: "Barbecue" },
+          { en: "Best Before Quality", es: "Best Before Quality", de: "Best Before Quality", nl: "Best Before Quality" },
+          { en: "Beef Bacon Quality", es: "Beef Bacon Quality", de: "Beef Bacon Quality", nl: "Beef Bacon Quality" },
+          { en: "Burn Before Quick", es: "Burn Before Quick", de: "Burn Before Quick", nl: "Burn Before Quick" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "BBQ is simply an abbreviation for barbecue. The 'Q' represents the 'cue' sound in the pronunciation of barbecue.",
+          es: "BBQ es simplemente una abreviatura de barbacoa (barbecue en inglés). La 'Q' representa el sonido 'cue' en la pronunciación de barbecue.",
+          de: "BBQ ist einfach eine Abkürzung für Barbecue. Das 'Q' repräsentiert den 'cue'-Klang in der Aussprache von Barbecue.",
+          nl: "BBQ is simpelweg een afkorting voor barbecue. De 'Q' vertegenwoordigt het 'cue' geluid in de uitspraak van barbecue."
+        }
+      },
+      {
+        question: {
+          en: "What is pulled pork?",
+          es: "¿Qué es el pulled pork?",
+          de: "Was ist Pulled Pork?",
+          nl: "Wat is pulled pork?"
+        },
+        options: [
+          { en: "Slow-cooked pork shoulder shredded into pieces", es: "Paleta de cerdo cocinada lentamente y desmenuzada en trozos", de: "Langsam gekochte Schweineschulter in Stücke gezupft", nl: "Langzaam gekookte varkensschouder in stukjes getrokken" },
+          { en: "Pork that's been marinated", es: "Cerdo que ha sido marinado", de: "Mariniertes Schweinefleisch", nl: "Varkensvlees dat gemarineerd is" },
+          { en: "Grilled pork chops", es: "Chuletas de cerdo a la parrilla", de: "Gegrillte Schweinekoteletts", nl: "Gegrilde varkenskoteletjes" },
+          { en: "Raw pork strips", es: "Tiras de cerdo crudo", de: "Rohe Schweinestreifen", nl: "Rauwe varkensstrips" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pulled pork is made by slow-cooking pork shoulder until it's so tender it can be easily pulled apart into shreds. It's a classic barbecue dish often served on sandwiches.",
+          es: "El pulled pork se hace cocinando lentamente la paleta de cerdo hasta que esté tan tierna que se pueda desmenuzar fácilmente. Es un platillo clásico de barbacoa que a menudo se sirve en sándwiches.",
+          de: "Pulled Pork wird hergestellt, indem Schweineschulter langsam gekocht wird, bis sie so zart ist, dass sie leicht in Fetzen gezupft werden kann. Es ist ein klassisches Barbecue-Gericht, das oft in Sandwiches serviert wird.",
+          nl: "Pulled pork wordt gemaakt door varkensschouder langzaam te koken tot het zo mals is dat het gemakkelijk uit elkaar getrokken kan worden. Het is een klassiek barbecue gerecht dat vaak op broodjes wordt geserveerd."
+        }
+      },
+      {
+        question: {
+          en: "What is a chimney starter used for?",
+          es: "¿Para qué se usa un iniciador de chimenea?",
+          de: "Wofür wird ein Anzündkamin verwendet?",
+          nl: "Waarvoor wordt een schoorsteen starter gebruikt?"
+        },
+        options: [
+          { en: "Lighting charcoal quickly and evenly", es: "Encender carbón rápida y uniformemente", de: "Holzkohle schnell und gleichmäßig anzünden", nl: "Houtskool snel en gelijkmatig aansteken" },
+          { en: "Cleaning the grill chimney", es: "Limpiar la chimenea de la parrilla", de: "Den Grillschornstein reinigen", nl: "De grill schoorsteen schoonmaken" },
+          { en: "Adding wood chips to the fire", es: "Añadir astillas de madera al fuego", de: "Holzspäne zum Feuer hinzufügen", nl: "Houten chips aan het vuur toevoegen" },
+          { en: "Controlling smoke direction", es: "Controlar la dirección del humo", de: "Rauchrichtung kontrollieren", nl: "Rookrichting controleren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A chimney starter is a metal cylinder that uses newspaper or fire starters at the bottom to light charcoal quickly and evenly, without the need for lighter fluid.",
+          es: "Un iniciador de chimenea es un cilindro metálico que usa periódico o iniciadores de fuego en el fondo para encender carbón rápida y uniformemente, sin necesidad de líquido para encender.",
+          de: "Ein Anzündkamin ist ein Metallzylinder, der Zeitung oder Feueranzünder am Boden verwendet, um Holzkohle schnell und gleichmäßig anzuzünden, ohne die Notwendigkeit von Anzündflüssigkeit.",
+          nl: "Een schoorsteen starter is een metalen cilinder die krant of aanstekers aan de onderkant gebruikt om houtskool snel en gelijkmatig aan te steken, zonder de noodzaak voor aanmaakbrandstof."
+        }
+      },
+      {
+        question: {
+          en: "What are spare ribs?",
+          es: "¿Qué son las spare ribs?",
+          de: "Was sind Spare Ribs?",
+          nl: "Wat zijn spare ribs?"
+        },
+        options: [
+          { en: "Ribs from the belly side of the rib cage", es: "Costillas del lado del vientre de la caja torácica", de: "Rippen von der Bauchseite des Brustkorbs", nl: "Ribben van de buikzijde van de ribbenkas" },
+          { en: "Extra ribs that are left over", es: "Costillas extra que sobran", de: "Übrige Rippen die übrig bleiben", nl: "Extra ribben die over zijn" },
+          { en: "Ribs used only for emergencies", es: "Costillas usadas solo para emergencias", de: "Rippen nur für Notfälle", nl: "Ribben alleen voor noodgevallen" },
+          { en: "Ribs from spare animals", es: "Costillas de animales de repuesto", de: "Rippen von Ersatztieren", nl: "Ribben van reservedieren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Spare ribs come from the lower part of the pork rib cage near the belly. They're larger, flatter, and meatier than baby back ribs.",
+          es: "Las spare ribs provienen de la parte inferior de la caja torácica del cerdo cerca del vientre. Son más grandes, planas y carnosas que las costillas baby back.",
+          de: "Spare Ribs stammen aus dem unteren Teil des Schweinerippenkäfigs nahe dem Bauch. Sie sind größer, flacher und fleischiger als Baby Back Ribs.",
+          nl: "Spare ribs komen van het onderste deel van de varkensribbenkas bij de buik. Ze zijn groter, vlakker en vleesachtiger dan baby back ribs."
+        }
+      },
+      {
+        question: {
+          en: "What is basting in barbecue?",
+          es: "¿Qué es el basting en barbacoa?",
+          de: "Was ist Bestreichen beim Barbecue?",
+          nl: "Wat is besprenkelen bij barbecue?"
+        },
+        options: [
+          { en: "Applying liquid to meat during cooking to keep it moist", es: "Aplicar líquido a la carne durante la cocción para mantenerla húmeda", de: "Flüssigkeit während des Kochens auf Fleisch auftragen um es feucht zu halten", nl: "Vloeistof aanbrengen op vlees tijdens het koken om het vochtig te houden" },
+          { en: "Seasoning meat before cooking", es: "Sazonar la carne antes de cocinar", de: "Fleisch vor dem Kochen würzen", nl: "Vlees kruiden voor het koken" },
+          { en: "Cutting meat into smaller pieces", es: "Cortar carne en trozos más pequeños", de: "Fleisch in kleinere Stücke schneiden", nl: "Vlees in kleinere stukken snijden" },
+          { en: "Wrapping meat in foil", es: "Envolver carne en papel aluminio", de: "Fleisch in Folie wickeln", nl: "Vlees in folie wikkelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Basting involves brushing or mopping meat with liquid (marinade, sauce, or broth) during cooking to add moisture and flavor. It's done periodically throughout the cooking process.",
+          es: "El basting implica cepillar o trapear la carne con líquido (marinada, salsa o caldo) durante la cocción para añadir humedad y sabor. Se hace periódicamente durante todo el proceso de cocción.",
+          de: "Bestreichen beinhaltet das Bürsten oder Wischen von Fleisch mit Flüssigkeit (Marinade, Sauce oder Brühe) während des Kochens, um Feuchtigkeit und Geschmack hinzuzufügen. Es wird periodisch während des gesamten Kochprozesses durchgeführt.",
+          nl: "Besprenkelen houdt in het borstelen of dweilen van vlees met vloeistof (marinade, saus of bouillon) tijdens het koken om vocht en smaak toe te voegen. Het wordt periodiek gedaan tijdens het hele kookproces."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of a water pan in a smoker?",
+          es: "¿Cuál es el propósito de una bandeja de agua en un ahumador?",
+          de: "Was ist der Zweck einer Wasserpfanne in einem Smoker?",
+          nl: "Wat is het doel van een waterpan in een roker?"
+        },
+        options: [
+          { en: "To maintain moisture and stabilize temperature", es: "Para mantener humedad y estabilizar temperatura", de: "Um Feuchtigkeit zu erhalten und Temperatur zu stabilisieren", nl: "Om vocht te behouden en temperatuur te stabiliseren" },
+          { en: "To put out fires", es: "Para apagar incendios", de: "Um Feuer zu löschen", nl: "Om branden te blussen" },
+          { en: "To add water flavor to meat", es: "Para añadir sabor de agua a la carne", de: "Um Wassergeschmack zum Fleisch hinzuzufügen", nl: "Om watersmaak aan vlees toe te voegen" },
+          { en: "To clean the smoker", es: "Para limpiar el ahumador", de: "Um den Smoker zu reinigen", nl: "Om de roker schoon te maken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A water pan helps maintain a moist cooking environment and acts as a heat sink to stabilize temperature fluctuations in the smoker.",
+          es: "Una bandeja de agua ayuda a mantener un ambiente de cocción húmedo y actúa como disipador de calor para estabilizar fluctuaciones de temperatura en el ahumador.",
+          de: "Eine Wasserpfanne hilft eine feuchte Kochumgebung zu erhalten und wirkt als Wärmespeicher um Temperaturschwankungen im Smoker zu stabilisieren.",
+          nl: "Een waterpan helpt een vochtige kookomgeving te behouden en werkt als warmtereservoir om temperatuurschommelingen in de roker te stabiliseren."
+        }
+      },
+      {
+        question: {
+          en: "What is reverse searing?",
+          es: "¿Qué es el reverse searing?",
+          de: "Was ist Reverse Searing?",
+          nl: "Wat is reverse searing?"
+        },
+        options: [
+          { en: "Slow cooking first, then searing at high heat", es: "Cocinar lento primero, luego sellar a fuego alto", de: "Erst langsam kochen, dann bei hoher Hitze anbraten", nl: "Eerst langzaam koken, dan schroeien op hoge hitte" },
+          { en: "Searing meat backwards", es: "Sellar carne al revés", de: "Fleisch rückwärts anbraten", nl: "Vlees achterstevoren schroeien" },
+          { en: "Cooking meat from frozen", es: "Cocinar carne desde congelada", de: "Fleisch aus gefrorenem Zustand kochen", nl: "Vlees koken vanuit bevroren" },
+          { en: "Using cold smoke instead of hot", es: "Usar humo frío en lugar de caliente", de: "Kaltrauch statt Heißrauch verwenden", nl: "Koude rook gebruiken in plaats van hete" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Reverse searing cooks meat slowly at low temperature first, then finishes with a quick high-heat sear. This produces an even doneness throughout with a crispy exterior.",
+          es: "El reverse searing cocina la carne lentamente a baja temperatura primero, luego termina con un sellado rápido a fuego alto. Esto produce un punto uniforme en todo con un exterior crujiente.",
+          de: "Reverse Searing kocht Fleisch zuerst langsam bei niedriger Temperatur, dann beendet es mit einem schnellen Hochtemperatur-Anbraten. Dies produziert eine gleichmäßige Garstufe durchgehend mit einer knusprigen Außenseite.",
+          nl: "Reverse searing kookt vlees eerst langzaam op lage temperatuur, dan eindigt met een snelle schroeihitte. Dit produceert een gelijkmatige gaarheidgraad overal met een knapperig buitenkant."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'smoke ring' on barbecued meat?",
+          es: "¿Qué es el 'anillo de humo' en la carne de barbacoa?",
+          de: "Was ist der 'Rauchring' auf geräuchertem Fleisch?",
+          nl: "Wat is de 'rookring' op barbecue vlees?"
+        },
+        options: [
+          { en: "A pink layer beneath the surface from smoke exposure", es: "Una capa rosa debajo de la superficie por exposición al humo", de: "Eine rosa Schicht unter der Oberfläche durch Rauchbelichtung", nl: "Een roze laag onder het oppervlak door rookblootstelling" },
+          { en: "The circular pattern of smoke around the grill", es: "El patrón circular de humo alrededor de la parrilla", de: "Das kreisförmige Rauchmuster um den Grill", nl: "Het cirkelvormige rookpatroon rond de grill" },
+          { en: "A ring of wood placed around the meat", es: "Un anillo de madera colocado alrededor de la carne", de: "Ein Holzring um das Fleisch platziert", nl: "Een ring van hout geplaatst rond het vlees" },
+          { en: "Burnt edges on the meat", es: "Bordes quemados en la carne", de: "Verbrannte Kanten am Fleisch", nl: "Verbrande randen op het vlees" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The smoke ring is a pink/red layer just beneath the surface of smoked meat, caused by a chemical reaction between nitrogen dioxide in smoke and myoglobin in meat.",
+          es: "El anillo de humo es una capa rosa/roja justo debajo de la superficie de la carne ahumada, causada por una reacción química entre dióxido de nitrógeno en el humo y mioglobina en la carne.",
+          de: "Der Rauchring ist eine rosa/rote Schicht direkt unter der Oberfläche von geräuchertem Fleisch, verursacht durch eine chemische Reaktion zwischen Stickstoffdioxid im Rauch und Myoglobin im Fleisch.",
+          nl: "De rookring is een roze/rode laag net onder het oppervlak van gerookt vlees, veroorzaakt door een chemische reactie tussen stikstofdioxide in rook en myoglobine in vlees."
+        }
+      },
+      {
+        question: {
+          en: "What type of ribs are St. Louis style ribs?",
+          es: "¿Qué tipo de costillas son las costillas estilo St. Louis?",
+          de: "Was für Rippen sind St. Louis Style Ribs?",
+          nl: "Wat voor soort ribben zijn St. Louis stijl ribben?"
+        },
+        options: [
+          { en: "Spare ribs trimmed to be more rectangular", es: "Spare ribs recortadas para ser más rectangulares", de: "Spare Ribs getrimmt um rechteckiger zu sein", nl: "Spare ribs getrimd om rechthoekiger te zijn" },
+          { en: "Ribs cooked with a special St. Louis sauce", es: "Costillas cocinadas con una salsa especial de St. Louis", de: "Rippen gekocht mit einer speziellen St. Louis Sauce", nl: "Ribben gekookt met een speciale St. Louis saus" },
+          { en: "Ribs from cows raised in Missouri", es: "Costillas de vacas criadas en Missouri", de: "Rippen von in Missouri aufgezogenen Kühen", nl: "Ribben van koeien grootgebracht in Missouri" },
+          { en: "Very small baby back ribs", es: "Costillas baby back muy pequeñas", de: "Sehr kleine Baby Back Ribs", nl: "Zeer kleine baby back ribs" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "St. Louis style ribs are spare ribs that have been trimmed to remove the rib tips and sternum, creating a more uniform rectangular shape that cooks evenly.",
+          es: "Las costillas estilo St. Louis son spare ribs que han sido recortadas para eliminar las puntas de las costillas y el esternón, creando una forma rectangular más uniforme que se cocina uniformemente.",
+          de: "St. Louis Style Ribs sind Spare Ribs, die getrimmt wurden um die Rippenspitzen und das Brustbein zu entfernen, wodurch eine gleichmäßigere rechteckige Form entsteht, die gleichmäßig kocht.",
+          nl: "St. Louis stijl ribben zijn spare ribs die getrimd zijn om de ribbenpunten en borstbeen te verwijderen, waardoor een meer uniforme rechthoekige vorm ontstaat die gelijkmatig kookt."
+        }
+      },
+      {
+        question: {
+          en: "What should you look for when buying ribs for barbecue?",
+          es: "¿Qué debes buscar al comprar costillas para barbacoa?",
+          de: "Worauf solltest du beim Kauf von Rippen für Barbecue achten?",
+          nl: "Waar moet je op letten bij het kopen van ribben voor barbecue?"
+        },
+        options: [
+          { en: "Good meat coverage with some fat marbling", es: "Buena cobertura de carne con algo de veteado de grasa", de: "Gute Fleischabdeckung mit etwas Fettmarmorierung", nl: "Goede vleesbedekking met wat vet marmerering" },
+          { en: "Only the biggest ribs available", es: "Solo las costillas más grandes disponibles", de: "Nur die größten verfügbaren Rippen", nl: "Alleen de grootste beschikbare ribben" },
+          { en: "Ribs with no fat at all", es: "Costillas sin grasa en absoluto", de: "Rippen ohne Fett überhaupt", nl: "Ribben zonder vet helemaal" },
+          { en: "The cheapest ribs you can find", es: "Las costillas más baratas que puedas encontrar", de: "Die billigsten Rippen die du finden kannst", nl: "De goedkoopste ribben die je kunt vinden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Look for ribs with good meat coverage between the bones and some fat marbling. Avoid ribs that are too lean, as fat helps keep them moist and flavorful during cooking.",
+          es: "Busca costillas con buena cobertura de carne entre los huesos y algo de veteado de grasa. Evita costillas que sean demasiado magras, ya que la grasa ayuda a mantenerlas húmedas y sabrosas durante la cocción.",
+          de: "Suche nach Rippen mit guter Fleischabdeckung zwischen den Knochen und etwas Fettmarmorierung. Vermeide zu magere Rippen, da Fett hilft sie feucht und schmackhaft während des Kochens zu halten.",
+          nl: "Zoek naar ribben met goede vleesbedekking tussen de botten en wat vet marmerering. Vermijd ribben die te mager zijn, omdat vet helpt ze vochtig en smaakvol te houden tijdens het koken."
+        }
+      },
+      {
+        question: {
+          en: "What is the 3-2-1 method for ribs?",
+          es: "¿Qué es el método 3-2-1 para costillas?",
+          de: "Was ist die 3-2-1 Methode für Rippen?",
+          nl: "Wat is de 3-2-1 methode voor ribben?"
+        },
+        options: [
+          { en: "3 hours smoking, 2 hours wrapped, 1 hour unwrapped", es: "3 horas ahumando, 2 horas envueltas, 1 hora sin envolver", de: "3 Stunden räuchern, 2 Stunden eingewickelt, 1 Stunde ausgewickelt", nl: "3 uur roken, 2 uur ingepakt, 1 uur uitgepakt" },
+          { en: "3 pounds ribs, 2 cups sauce, 1 hour cooking", es: "3 libras de costillas, 2 tazas de salsa, 1 hora cocinando", de: "3 Pfund Rippen, 2 Tassen Sauce, 1 Stunde kochen", nl: "3 pond ribben, 2 kopjes saus, 1 uur koken" },
+          { en: "3 types of wood, 2 temperature zones, 1 marinade", es: "3 tipos de madera, 2 zonas de temperatura, 1 marinada", de: "3 Holzarten, 2 Temperaturzonen, 1 Marinade", nl: "3 soorten hout, 2 temperatuurzones, 1 marinade" },
+          { en: "Cook 3 racks, serve 2 people, save 1 for later", es: "Cocinar 3 costillares, servir 2 personas, guardar 1 para después", de: "3 Racks kochen, 2 Personen servieren, 1 für später aufheben", nl: "3 rekken koken, 2 mensen serveren, 1 voor later bewaren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The 3-2-1 method is a popular technique for spare ribs: 3 hours smoking unwrapped, 2 hours wrapped in foil with liquid, and 1 hour unwrapped with sauce.",
+          es: "El método 3-2-1 es una técnica popular para spare ribs: 3 horas ahumando sin envolver, 2 horas envueltas en papel aluminio con líquido, y 1 hora sin envolver con salsa.",
+          de: "Die 3-2-1 Methode ist eine beliebte Technik für Spare Ribs: 3 Stunden Räuchern ohne Verpackung, 2 Stunden in Folie eingewickelt mit Flüssigkeit, und 1 Stunde ausgepackt mit Sauce.",
+          nl: "De 3-2-1 methode is een populaire techniek voor spare ribs: 3 uur roken ongepakt, 2 uur ingepakt in folie met vloeistof, en 1 uur uitgepakt met saus."
+        }
+      },
+      {
+        question: {
+          en: "Why is it important to trim excess fat from brisket before cooking?",
+          es: "¿Por qué es importante recortar el exceso de grasa del brisket antes de cocinar?",
+          de: "Warum ist es wichtig überschüssiges Fett von der Rinderbrust vor dem Kochen zu trimmen?",
+          nl: "Waarom is het belangrijk om overtollig vet van brisket te trimmen voor het koken?"
+        },
+        options: [
+          { en: "Thick fat won't render and prevents seasoning penetration", es: "La grasa gruesa no se derrite y evita la penetración del condimento", de: "Dickes Fett rendert nicht und verhindert Gewürzdurchdringung", nl: "Dik vet smelt niet en voorkomt kruiden penetratie" },
+          { en: "All fat must be removed completely", es: "Toda la grasa debe eliminarse completamente", de: "Alles Fett muss vollständig entfernt werden", nl: "Al het vet moet volledig verwijderd worden" },
+          { en: "Fat makes the meat taste bad", es: "La grasa hace que la carne sepa mal", de: "Fett lässt das Fleisch schlecht schmecken", nl: "Vet zorgt ervoor dat het vlees slecht smaakt" },
+          { en: "It's only for appearance", es: "Es solo por apariencia", de: "Es ist nur für das Aussehen", nl: "Het is alleen voor de uitstraling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Excess fat (over 1/4 inch) won't render properly during cooking and blocks rub from penetrating the meat. Trim to about 1/4 inch for best results.",
+          es: "El exceso de grasa (más de 1/4 de pulgada) no se derrite adecuadamente durante la cocción y bloquea que el aderezo penetre la carne. Recorta a aproximadamente 1/4 de pulgada para mejores resultados.",
+          de: "Überschüssiges Fett (über 1/4 Zoll) rendert während des Kochens nicht richtig und blockiert das Eindringen des Rubs in das Fleisch. Auf etwa 1/4 Zoll trimmen für beste Ergebnisse.",
+          nl: "Overtollig vet (meer dan 1/4 inch) smelt niet goed tijdens het koken en blokkeert rub van het penetreren van het vlees. Trim tot ongeveer 1/4 inch voor beste resultaten."
+        }
+      },
+      {
+        question: {
+          en: "What does it mean when meat is 'probe tender'?",
+          es: "¿Qué significa cuando la carne está 'probe tender'?",
+          de: "Was bedeutet es wenn Fleisch 'Sonden-zart' ist?",
+          nl: "Wat betekent het wanneer vlees 'probe tender' is?"
+        },
+        options: [
+          { en: "A thermometer slides in with little resistance", es: "Un termómetro se desliza con poca resistencia", de: "Ein Thermometer gleitet mit wenig Widerstand hinein", nl: "Een thermometer glijdt er met weinig weerstand in" },
+          { en: "The meat reaches exactly 165°F", es: "La carne alcanza exactamente 165°F", de: "Das Fleisch erreicht genau 165°F", nl: "Het vlees bereikt precies 165°F" },
+          { en: "You can see through the meat with a probe", es: "Puedes ver a través de la carne con una sonda", de: "Man kann durch das Fleisch mit einer Sonde sehen", nl: "Je kunt door het vlees heen kijken met een sonde" },
+          { en: "The meat probe makes a beeping sound", es: "La sonda de carne hace un sonido de pitido", de: "Die Fleischsonde macht ein Piepgeräusch", nl: "De vleessonde maakt een piepgeluid" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Probe tender means a thermometer or skewer slides into the meat with little resistance, like butter. This indicates the connective tissue has broken down and the meat is perfectly tender.",
+          es: "Probe tender significa que un termómetro o pincho se desliza en la carne con poca resistencia, como mantequilla. Esto indica que el tejido conectivo se ha descompuesto y la carne está perfectamente tierna.",
+          de: "Sonden-zart bedeutet ein Thermometer oder Spieß gleitet in das Fleisch mit wenig Widerstand, wie Butter. Dies zeigt an dass das Bindegewebe abgebaut wurde und das Fleisch perfekt zart ist.",
+          nl: "Probe tender betekent dat een thermometer of spies in het vlees glijdt met weinig weerstand, zoals boter. Dit geeft aan dat het bindweefsel is afgebroken en het vlees perfect mals is."
+        }
+      },
+      {
+        question: {
+          en: "What is a mop sauce in barbecue?",
+          es: "¿Qué es una mop sauce en barbacoa?",
+          de: "Was ist eine Mop Sauce beim Barbecue?",
+          nl: "Wat is een mop saus bij barbecue?"
+        },
+        options: [
+          { en: "A thin liquid applied during cooking to keep meat moist", es: "Un líquido delgado aplicado durante la cocción para mantener la carne húmeda", de: "Eine dünne Flüssigkeit die während des Kochens aufgetragen wird um Fleisch feucht zu halten", nl: "Een dunne vloeistof aangebracht tijdens het koken om vlees vochtig te houden" },
+          { en: "Sauce used only for cleaning", es: "Salsa usada solo para limpiar", de: "Sauce nur zum Reinigen verwendet", nl: "Saus alleen gebruikt voor schoonmaken" },
+          { en: "Thick barbecue sauce for dipping", es: "Salsa barbacoa espesa para mojar", de: "Dicke Barbecue-Sauce zum Dippen", nl: "Dikke barbecuesaus voor dipping" },
+          { en: "Sauce made with actual mops", es: "Salsa hecha con trapeadores reales", de: "Sauce mit echten Mopps gemacht", nl: "Saus gemaakt met echte dweilen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A mop sauce is a thin, liquid basting sauce applied with a mop or brush during cooking to add moisture and flavor. It's thinner than traditional barbecue sauce.",
+          es: "Una mop sauce es una salsa líquida delgada aplicada con un trapeador o pincel durante la cocción para añadir humedad y sabor. Es más delgada que la salsa barbacoa tradicional.",
+          de: "Eine Mop Sauce ist eine dünne, flüssige Bastiersauce die mit einem Mopp oder Pinsel während des Kochens aufgetragen wird um Feuchtigkeit und Geschmack hinzuzufügen. Sie ist dünner als traditionelle Barbecue-Sauce.",
+          nl: "Een mop saus is een dunne, vloeibare besprenkelsaus aangebracht met een dweil of borstel tijdens het koken om vocht en smaak toe te voegen. Het is dunner dan traditionele barbecuesaus."
+        }
+      },
+      {
+        question: {
+          en: "What is the best way to add wood chips to a charcoal grill?",
+          es: "¿Cuál es la mejor manera de añadir astillas de madera a una parrilla de carbón?",
+          de: "Was ist der beste Weg Holzspäne zu einem Holzkohlegrill hinzuzufügen?",
+          nl: "Wat is de beste manier om houten chips toe te voegen aan een houtskoolbarbecue?"
+        },
+        options: [
+          { en: "Soak them in water first, then place on hot coals", es: "Remojarlas en agua primero, luego colocarlas en carbones calientes", de: "Erst in Wasser einweichen, dann auf heiße Kohlen legen", nl: "Eerst in water laten weken, dan op hete kolen plaatsen" },
+          { en: "Put dry chips directly in the flame", es: "Poner chips secas directamente en la llama", de: "Trockene Chips direkt in die Flamme legen", nl: "Droge chips direct in de vlam plaatsen" },
+          { en: "Mix them with the charcoal before lighting", es: "Mezclarlas con el carbón antes de encender", de: "Mit der Holzkohle vor dem Anzünden mischen", nl: "Mengen met de houtskool voor het aansteken" },
+          { en: "Chips should never be used with charcoal", es: "Las chips nunca deben usarse con carbón", de: "Chips sollten nie mit Holzkohle verwendet werden", nl: "Chips mogen nooit met houtskool gebruikt worden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Soaking wood chips for 30 minutes to an hour prevents them from burning too quickly. Place soaked chips directly on hot coals to produce smoke gradually.",
+          es: "Remojar las astillas de madera durante 30 minutos a una hora evita que se quemen demasiado rápido. Coloca las astillas remojadas directamente en carbones calientes para producir humo gradualmente.",
+          de: "Das Einweichen von Holzspänen für 30 Minuten bis eine Stunde verhindert dass sie zu schnell verbrennen. Lege eingeweichte Späne direkt auf heiße Kohlen um Rauch schrittweise zu produzieren.",
+          nl: "Het weken van houten chips gedurende 30 minuten tot een uur voorkomt dat ze te snel verbranden. Plaats geweekte chips direct op hete kolen om geleidelijk rook te produceren."
+        }
+      },
+      {
+        question: {
+          en: "What is indirect heat cooking on a grill?",
+          es: "¿Qué es cocinar con calor indirecto en una parrilla?",
+          de: "Was ist indirektes Hitze-Kochen auf einem Grill?",
+          nl: "Wat is indirect hitte koken op een grill?"
+        },
+        options: [
+          { en: "Placing food away from the heat source", es: "Colocar la comida lejos de la fuente de calor", de: "Essen von der Hitzequelle entfernt platzieren", nl: "Voedsel plaatsen weg van de warmtebron" },
+          { en: "Using very low flames", es: "Usar llamas muy bajas", de: "Sehr niedrige Flammen verwenden", nl: "Zeer lage vlammen gebruiken" },
+          { en: "Cooking with the lid closed only", es: "Cocinar solo con la tapa cerrada", de: "Nur mit geschlossenem Deckel kochen", nl: "Alleen koken met gesloten deksel" },
+          { en: "Never turning the meat", es: "Nunca voltear la carne", de: "Fleisch niemals wenden", nl: "Vlees nooit omdraaien" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Indirect heat means placing food to the side of the heat source, not directly over it. This creates an oven-like environment perfect for slow cooking larger cuts.",
+          es: "Calor indirecto significa colocar la comida al lado de la fuente de calor, no directamente sobre ella. Esto crea un ambiente tipo horno perfecto para cocinar lentamente cortes grandes.",
+          de: "Indirekte Hitze bedeutet Essen seitlich der Hitzequelle zu platzieren, nicht direkt darüber. Dies schafft eine ofenähnliche Umgebung perfekt für langsames Kochen größerer Stücke.",
+          nl: "Indirecte hitte betekent voedsel aan de zijkant van de warmtebron plaatsen, niet er direct boven. Dit creëert een ovenachtige omgeving perfect voor langzaam koken van grotere stukken."
+        }
+      },
+      {
+        question: {
+          en: "What does it mean to 'season' a new grill or smoker?",
+          es: "¿Qué significa 'curar' una parrilla o ahumador nuevo?",
+          de: "Was bedeutet es einen neuen Grill oder Smoker 'einzubrennen'?",
+          nl: "Wat betekent het om een nieuwe grill of roker te 'seasonen'?"
+        },
+        options: [
+          { en: "Coating it with oil and heating to create a protective layer", es: "Cubrirlo con aceite y calentar para crear una capa protectora", de: "Mit Öl beschichten und erhitzen um Schutzschicht zu schaffen", nl: "Bedekken met olie en verhitten om beschermlaag te creëren" },
+          { en: "Adding spices to the grill", es: "Añadir especias a la parrilla", de: "Gewürze zum Grill hinzufügen", nl: "Kruiden toevoegen aan de grill" },
+          { en: "Using it only in certain seasons", es: "Usarlo solo en ciertas estaciones", de: "Nur in bestimmten Jahreszeiten verwenden", nl: "Het alleen in bepaalde seizoenen gebruiken" },
+          { en: "Cleaning it with salt", es: "Limpiarlo con sal", de: "Mit Salz reinigen", nl: "Schoonmaken met zout" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Seasoning a new grill means coating the interior surfaces with cooking oil and running it at high heat. This burns off manufacturing residues and creates a non-stick, rust-resistant coating.",
+          es: "Curar una parrilla nueva significa cubrir las superficies interiores con aceite de cocina y calentarla a fuego alto. Esto quema residuos de fabricación y crea un recubrimiento antiadherente y resistente al óxido.",
+          de: "Einbrennen eines neuen Grills bedeutet die Innenflächen mit Speiseöl zu beschichten und bei hoher Hitze laufen zu lassen. Dies verbrennt Fertigungsrückstände und schafft eine antihaftende, rostbeständige Beschichtung.",
+          nl: "Seasonen van een nieuwe grill betekent het bedekken van de binnenoppervlakken met bakolie en op hoge hitte laten lopen. Dit verbrandt fabricageresten en creëert een antiaanbak, roestbestendige coating."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'plateau' or temperature stall most common in?",
+          es: "¿En qué es más común el 'plateau' o estancamiento de temperatura?",
+          de: "Wo ist das 'Plateau' oder Temperatur-Stall am häufigsten?",
+          nl: "Waar is de 'plateau' of temperatuur stall het meest voorkomend in?"
+        },
+        options: [
+          { en: "Large cuts like brisket and pork shoulder", es: "Cortes grandes como brisket y paleta de cerdo", de: "Große Stücke wie Brisket und Schweineschulter", nl: "Grote stukken zoals brisket en varkensschouder" },
+          { en: "Small cuts like chicken wings", es: "Cortes pequeños como alitas de pollo", de: "Kleine Stücke wie Hühnerflügel", nl: "Kleine stukken zoals kippenvleugels" },
+          { en: "Vegetables only", es: "Solo verduras", de: "Nur Gemüse", nl: "Alleen groenten" },
+          { en: "Fish and seafood", es: "Pescado y mariscos", de: "Fisch und Meeresfrüchte", nl: "Vis en zeevruchten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The stall occurs most commonly in large, fatty cuts like brisket and pork shoulder. The evaporative cooling effect is strongest in these larger pieces with more surface moisture.",
+          es: "El estancamiento ocurre más comúnmente en cortes grandes y grasos como brisket y paleta de cerdo. El efecto de enfriamiento evaporativo es más fuerte en estas piezas grandes con más humedad superficial.",
+          de: "Der Stall tritt am häufigsten bei großen, fettigen Stücken wie Brisket und Schweineschulter auf. Der Verdunstungskühlungseffekt ist bei diesen größeren Stücken mit mehr Oberflächenfeuchtigkeit am stärksten.",
+          nl: "De stall komt het meest voor in grote, vette stukken zoals brisket en varkensschouder. Het verdampingskoeleffect is het sterkst in deze grotere stukken met meer oppervlaktevocht."
         }
       }
     ]

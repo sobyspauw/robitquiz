@@ -409,23 +409,443 @@
       },
       {
         question: {
-          en: "What is the main ingredient that makes bread rise?",
-          es: "¿Cuál es el ingrediente principal que hace que el pan suba?",
-          de: "Was ist die Hauptzutat, die Brot aufgehen lässt?",
-          nl: "Wat is het hoofdingrediënt dat brood doet rijzen?"
+          en: "What is 'laminated dough'?",
+          es: "¿Qué es la 'masa laminada'?",
+          de: "Was ist 'laminierter Teig'?",
+          nl: "Wat is 'gelamineerd deeg'?"
         },
         options: [
-          { en: "Yeast", es: "Levadura", de: "Hefe", nl: "Gist" },
-          { en: "Salt", es: "Sal", de: "Salz", nl: "Zout" },
-          { en: "Sugar", es: "Azúcar", de: "Zucker", nl: "Suiker" },
-          { en: "Oil", es: "Aceite", de: "Öl", nl: "Olie" }
+          { en: "Dough with layers of butter folded in repeatedly", es: "Masa con capas de mantequilla dobladas repetidamente", de: "Teig mit wiederholt eingefalteten Butterschichten", nl: "Deeg met herhaaldelijk ingevouwen lagen boter" },
+          { en: "Dough covered with plastic wrap", es: "Masa cubierta con papel plástico", de: "Mit Plastikfolie bedeckter Teig", nl: "Deeg bedekt met plasticfolie" },
+          { en: "Dough rolled very thin", es: "Masa enrollada muy fina", de: "Sehr dünn gerollter Teig", nl: "Deeg zeer dun uitgerold" },
+          { en: "Frozen dough", es: "Masa congelada", de: "Gefrorener Teig", nl: "Bevroren deeg" }
         ],
         correct: 0,
         explanation: {
-          en: "Yeast is a living microorganism that ferments sugars in flour, producing carbon dioxide gas that creates bubbles and makes bread rise.",
-          es: "La levadura es un microorganismo vivo que fermenta azúcares en la harina, produciendo gas dióxido de carbono que crea burbujas y hace que el pan suba.",
-          de: "Hefe ist ein lebender Mikroorganismus, der Zucker im Mehl fermentiert und Kohlendioxidgas produziert, das Blasen bildet und Brot aufgehen lässt.",
-          nl: "Gist is een levend micro-organisme dat suikers in meel fermenteert, koolstofdioxide gas produceert dat bellen creëert en brood doet rijzen."
+          en: "Laminated dough is made by repeatedly folding butter into dough, creating hundreds of thin layers. When baked, steam separates these layers, creating flaky pastries like croissants, puff pastry, and Danish pastries.",
+          es: "La masa laminada se hace doblando repetidamente mantequilla en la masa, creando cientos de capas finas. Al hornear, el vapor separa estas capas, creando pasteles hojaldrados como croissants, hojaldre y pasteles daneses.",
+          de: "Laminierter Teig wird hergestellt, indem wiederholt Butter in den Teig gefaltet wird, wodurch Hunderte dünner Schichten entstehen. Beim Backen trennt Dampf diese Schichten und erzeugt blättrige Backwaren wie Croissants, Blätterteig und dänisches Gebäck.",
+          nl: "Gelamineerd deeg wordt gemaakt door herhaaldelijk boter in het deeg te vouwen, waardoor honderden dunne lagen ontstaan. Bij het bakken scheidt stoom deze lagen, waardoor bladerdeeg gebakken worden zoals croissants, bladerdeeg en Deense gebakjes."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'sourdough starter' and how is it maintained?",
+          es: "¿Qué es un 'iniciador de masa madre' y cómo se mantiene?",
+          de: "Was ist ein 'Sauerteigstarter' und wie wird er gepflegt?",
+          nl: "Wat is een 'zuurdesem starter' en hoe wordt het onderhouden?"
+        },
+        options: [
+          { en: "A culture of wild yeast and bacteria, fed regularly with flour and water", es: "Un cultivo de levadura silvestre y bacterias, alimentado regularmente con harina y agua", de: "Eine Kultur aus Wildhefe und Bakterien, regelmäßig mit Mehl und Wasser gefüttert", nl: "Een cultuur van wilde gist en bacteriën, regelmatig gevoed met meel en water" },
+          { en: "Store-bought yeast mixed with vinegar", es: "Levadura comprada en tienda mezclada con vinagre", de: "Gekaufte Hefe gemischt mit Essig", nl: "Gekochte gist gemengd met azijn" },
+          { en: "Old bread soaked in water", es: "Pan viejo empapado en agua", de: "Altes Brot in Wasser eingeweicht", nl: "Oud brood gedrenkt in water" },
+          { en: "A one-time use mixture that cannot be reused", es: "Una mezcla de un solo uso que no se puede reutilizar", de: "Eine einmalige Mischung, die nicht wiederverwendet werden kann", nl: "Een eenmalige mengsel dat niet hergebruikt kan worden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A sourdough starter is a living culture of wild yeast and lactic acid bacteria in a flour-water mixture. It must be 'fed' regularly (typically daily or weekly) with fresh flour and water to keep the microorganisms alive and active for baking.",
+          es: "Un iniciador de masa madre es un cultivo vivo de levadura silvestre y bacterias de ácido láctico en una mezcla de harina y agua. Debe ser 'alimentado' regularmente (típicamente diario o semanalmente) con harina fresca y agua para mantener los microorganismos vivos y activos para hornear.",
+          de: "Ein Sauerteigstarter ist eine lebende Kultur aus Wildhefe und Milchsäurebakterien in einer Mehl-Wasser-Mischung. Er muss regelmäßig (typischerweise täglich oder wöchentlich) mit frischem Mehl und Wasser 'gefüttert' werden, um die Mikroorganismen lebendig und aktiv für das Backen zu halten.",
+          nl: "Een zuurdesem starter is een levende cultuur van wilde gist en melkzuurbacteriën in een meel-watermengsel. Het moet regelmatig (meestal dagelijks of wekelijks) 'gevoed' worden met vers meel en water om de micro-organismen levend en actief te houden voor het bakken."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'baker's percentage' method?",
+          es: "¿Qué es el método de 'porcentaje de panadero'?",
+          de: "Was ist die 'Bäckerprozent'-Methode?",
+          nl: "Wat is de 'bakkers percentage' methode?"
+        },
+        options: [
+          { en: "A formula where all ingredients are expressed as percentages of the flour weight", es: "Una fórmula donde todos los ingredientes se expresan como porcentajes del peso de la harina", de: "Eine Formel, bei der alle Zutaten als Prozentsätze des Mehlgewichts ausgedrückt werden", nl: "Een formule waarbij alle ingrediënten worden uitgedrukt als percentages van het meelgewicht" },
+          { en: "The profit margin for bakeries", es: "El margen de ganancia para panaderías", de: "Die Gewinnspanne für Bäckereien", nl: "De winstmarge voor bakkerijen" },
+          { en: "The percentage of bread that rises", es: "El porcentaje de pan que sube", de: "Der Prozentsatz des Brotes, der aufgeht", nl: "Het percentage brood dat rijst" },
+          { en: "How much yeast to use as a percentage", es: "Cuánta levadura usar como porcentaje", de: "Wie viel Hefe als Prozentsatz zu verwenden", nl: "Hoeveel gist te gebruiken als percentage" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Baker's percentage is a professional formula system where flour is always 100% and all other ingredients are expressed as percentages of the flour weight. For example, if using 1000g flour, 70% hydration means 700g water. This makes scaling recipes easy.",
+          es: "El porcentaje de panadero es un sistema de fórmula profesional donde la harina es siempre 100% y todos los demás ingredientes se expresan como porcentajes del peso de la harina. Por ejemplo, si se usan 1000g de harina, 70% de hidratación significa 700g de agua. Esto facilita escalar recetas.",
+          de: "Bäckerprozent ist ein professionelles Formelsystem, bei dem Mehl immer 100% ist und alle anderen Zutaten als Prozentsätze des Mehlgewichts ausgedrückt werden. Zum Beispiel, wenn 1000g Mehl verwendet werden, bedeutet 70% Hydratation 700g Wasser. Dies macht das Skalieren von Rezepten einfach.",
+          nl: "Bakkers percentage is een professioneel formulesysteem waarbij meel altijd 100% is en alle andere ingrediënten worden uitgedrukt als percentages van het meelgewicht. Bijvoorbeeld, als 1000g meel wordt gebruikt, betekent 70% hydratatie 700g water. Dit maakt recepten schalen gemakkelijk."
+        }
+      },
+      {
+        question: {
+          en: "What causes a 'gummy' texture in bread?",
+          es: "¿Qué causa una textura 'gomosa' en el pan?",
+          de: "Was verursacht eine 'gummiartige' Textur in Brot?",
+          nl: "Wat veroorzaakt een 'rubberachtige' textuur in brood?"
+        },
+        options: [
+          { en: "Underbaking or cutting bread while still hot", es: "Hornear poco o cortar el pan cuando aún está caliente", de: "Unterbacken oder Brot schneiden während es noch heiß ist", nl: "Ondergebakken of brood snijden terwijl het nog heet is" },
+          { en: "Using too much yeast", es: "Usar demasiada levadura", de: "Zu viel Hefe verwenden", nl: "Te veel gist gebruiken" },
+          { en: "Adding too much salt", es: "Añadir demasiada sal", de: "Zu viel Salz hinzufügen", nl: "Te veel zout toevoegen" },
+          { en: "Kneading too long", es: "Amasar demasiado tiempo", de: "Zu lange kneten", nl: "Te lang kneden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gummy bread results from underbaking (starches don't fully gelatinize) or cutting bread before it cools completely. During cooling, moisture redistributes and starches crystallize, creating proper texture. Always let bread cool fully before slicing.",
+          es: "El pan gomoso resulta de hornear poco (los almidones no se gelatinizan completamente) o cortar el pan antes de que se enfríe completamente. Durante el enfriamiento, la humedad se redistribuye y los almidones cristalizan, creando la textura adecuada. Siempre deja que el pan se enfríe completamente antes de cortar.",
+          de: "Gummiartiges Brot entsteht durch Unterbacken (Stärken gelatinieren nicht vollständig) oder Schneiden von Brot bevor es vollständig abgekühlt ist. Während des Abkühlens verteilt sich Feuchtigkeit neu und Stärken kristallisieren, wodurch die richtige Textur entsteht. Lassen Sie Brot immer vollständig abkühlen bevor Sie es schneiden.",
+          nl: "Rubberachtig brood is het gevolg van ondergebakken (zetmeel gelatineert niet volledig) of brood snijden voordat het volledig is afgekoeld. Tijdens het afkoelen verdeelt vocht zich opnieuw en kristalliseert zetmeel, wat de juiste textuur creëert. Laat brood altijd volledig afkoelen voor het snijden."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of a 'lame' in bread baking?",
+          es: "¿Cuál es el propósito de una 'lame' en la panadería?",
+          de: "Was ist der Zweck einer 'Lame' beim Brotbacken?",
+          nl: "Wat is het doel van een 'lame' bij het bakken van brood?"
+        },
+        options: [
+          { en: "A razor blade tool for scoring bread dough", es: "Una herramienta de cuchilla de afeitar para cortar masa de pan", de: "Ein Rasierklingenwerkzeug zum Einschneiden von Brotteig", nl: "Een scheermesgereedschap voor het scoren van brooddeeg" },
+          { en: "A special baking stone", es: "Una piedra especial para hornear", de: "Ein spezieller Backstein", nl: "Een speciale baksteen" },
+          { en: "A bread shaping board", es: "Una tabla para dar forma al pan", de: "Ein Brotformbrett", nl: "Een broodvormplank" },
+          { en: "A thermometer for checking bread temperature", es: "Un termómetro para verificar la temperatura del pan", de: "Ein Thermometer zum Überprüfen der Brottemperatur", nl: "Een thermometer voor het controleren van broodtemperatuur" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A lame (pronounced 'lahm') is a specialized tool with a razor blade used to score bread dough before baking. It creates clean, precise cuts that control expansion and create decorative patterns. The sharp blade prevents dragging or tearing the dough.",
+          es: "Una lame (pronunciado 'lahm') es una herramienta especializada con una cuchilla de afeitar utilizada para cortar masa de pan antes de hornear. Crea cortes limpios y precisos que controlan la expansión y crean patrones decorativos. La cuchilla afilada evita arrastrar o rasgar la masa.",
+          de: "Eine Lame (ausgesprochen 'lahm') ist ein spezialisiertes Werkzeug mit einer Rasierklinge zum Einschneiden von Brotteig vor dem Backen. Sie erzeugt saubere, präzise Schnitte, die die Ausdehnung kontrollieren und dekorative Muster erzeugen. Die scharfe Klinge verhindert das Ziehen oder Reißen des Teigs.",
+          nl: "Een lame (uitgesproken 'lahm') is een gespecialiseerd gereedschap met een scheermesje gebruikt om brooddeeg te scoren voor het bakken. Het creëert schone, nauwkeurige sneden die expansie controleren en decoratieve patronen creëren. Het scherpe mes voorkomt slepen of scheuren van het deeg."
+        }
+      },
+      {
+        question: {
+          en: "What is 'bulk fermentation' in bread making?",
+          es: "¿Qué es la 'fermentación en masa' en la elaboración del pan?",
+          de: "Was ist 'Stockgare' beim Brotbacken?",
+          nl: "Wat is 'bulk fermentatie' bij het maken van brood?"
+        },
+        options: [
+          { en: "The first rise after kneading, before shaping", es: "La primera subida después de amasar, antes de dar forma", de: "Der erste Aufgang nach dem Kneten, vor dem Formen", nl: "De eerste rijs na het kneden, voor het vormen" },
+          { en: "Making large batches of bread", es: "Hacer grandes lotes de pan", de: "Große Brotchargen herstellen", nl: "Grote hoeveelheden brood maken" },
+          { en: "Fermenting in bulk containers", es: "Fermentar en contenedores a granel", de: "In Großbehältern fermentieren", nl: "Fermenteren in grote containers" },
+          { en: "The final rise before baking", es: "La subida final antes de hornear", de: "Der letzte Aufgang vor dem Backen", nl: "De laatste rijs voor het bakken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bulk fermentation (or first rise) is the initial fermentation period after mixing and kneading, before dividing and shaping. During this time, yeast produces gases, develops flavor, and gluten relaxes. It typically takes 1-4 hours at room temperature.",
+          es: "La fermentación en masa (o primera subida) es el período de fermentación inicial después de mezclar y amasar, antes de dividir y dar forma. Durante este tiempo, la levadura produce gases, desarrolla sabor y el gluten se relaja. Típicamente toma 1-4 horas a temperatura ambiente.",
+          de: "Stockgare (oder erster Aufgang) ist die anfängliche Fermentationsperiode nach dem Mischen und Kneten, vor dem Teilen und Formen. Während dieser Zeit produziert Hefe Gase, entwickelt Geschmack und Gluten entspannt sich. Es dauert typischerweise 1-4 Stunden bei Raumtemperatur.",
+          nl: "Bulk fermentatie (of eerste rijs) is de initiële fermentatieperiode na het mengen en kneden, voor het verdelen en vormen. Tijdens deze tijd produceert gist gassen, ontwikkelt smaak en ontspant gluten. Het duurt meestal 1-4 uur bij kamertemperatuur."
+        }
+      },
+      {
+        question: {
+          en: "What is 'gluten development' and why is it important?",
+          es: "¿Qué es el 'desarrollo del gluten' y por qué es importante?",
+          de: "Was ist 'Glutenentwicklung' und warum ist sie wichtig?",
+          nl: "Wat is 'gluten ontwikkeling' en waarom is het belangrijk?"
+        },
+        options: [
+          { en: "Formation of elastic protein network that traps gas and gives bread structure", es: "Formación de red de proteínas elástica que atrapa gas y da estructura al pan", de: "Bildung eines elastischen Proteinnetzwerks das Gas einfängt und Brot Struktur gibt", nl: "Vorming van elastisch eiwitnetwerk dat gas vasthoudt en brood structuur geeft" },
+          { en: "Adding gluten powder to dough", es: "Añadir polvo de gluten a la masa", de: "Glutenpulver zum Teig hinzufügen", nl: "Glutenpoeder toevoegen aan deeg" },
+          { en: "The process of removing gluten from bread", es: "El proceso de eliminar gluten del pan", de: "Der Prozess des Entfernens von Gluten aus Brot", nl: "Het proces van het verwijderen van gluten uit brood" },
+          { en: "How gluten makes bread taste better", es: "Cómo el gluten hace que el pan sepa mejor", de: "Wie Gluten Brot besser schmecken lässt", nl: "Hoe gluten brood beter laat smaken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gluten development occurs when proteins (glutenin and gliadin) in flour combine with water and are organized through kneading or folding. This creates an elastic network that traps CO2 from yeast, allowing bread to rise and maintain structure. Without proper gluten development, bread would be dense and crumbly.",
+          es: "El desarrollo del gluten ocurre cuando las proteínas (glutenina y gliadina) en la harina se combinan con agua y se organizan mediante amasado o plegado. Esto crea una red elástica que atrapa CO2 de la levadura, permitiendo que el pan suba y mantenga la estructura. Sin el desarrollo adecuado del gluten, el pan sería denso y desmoronable.",
+          de: "Glutenentwicklung tritt auf, wenn Proteine (Glutenin und Gliadin) im Mehl sich mit Wasser verbinden und durch Kneten oder Falten organisiert werden. Dies erzeugt ein elastisches Netzwerk, das CO2 von der Hefe einfängt, sodass Brot aufgehen und Struktur behalten kann. Ohne richtige Glutenentwicklung wäre Brot dicht und krümelig.",
+          nl: "Gluten ontwikkeling vindt plaats wanneer eiwitten (glutenine en gliadine) in meel combineren met water en georganiseerd worden door kneden of vouwen. Dit creëert een elastisch netwerk dat CO2 van gist vasthoudt, waardoor brood kan rijzen en structuur behouden. Zonder juiste gluten ontwikkeling zou brood dicht en kruimelig zijn."
+        }
+      },
+      {
+        question: {
+          en: "What is the ideal internal temperature for fully baked bread?",
+          es: "¿Cuál es la temperatura interna ideal para pan completamente horneado?",
+          de: "Was ist die ideale Innentemperatur für vollständig gebackenes Brot?",
+          nl: "Wat is de ideale interne temperatuur voor volledig gebakken brood?"
+        },
+        options: [
+          { en: "190-210°F (88-99°C) depending on bread type", es: "190-210°F (88-99°C) dependiendo del tipo de pan", de: "88-99°C je nach Brotart", nl: "88-99°C afhankelijk van broodsoort" },
+          { en: "140°F (60°C)", es: "140°F (60°C)", de: "60°C", nl: "60°C" },
+          { en: "250°F (121°C)", es: "250°F (121°C)", de: "121°C", nl: "121°C" },
+          { en: "Room temperature", es: "Temperatura ambiente", de: "Raumtemperatur", nl: "Kamertemperatuur" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Most breads are done when internal temperature reaches 190-210°F (88-99°C). Lean breads (baguettes) finish around 205-210°F (96-99°C), while enriched breads (brioche) are done at 190-195°F (88-91°C). Use an instant-read thermometer inserted in the center to check.",
+          es: "La mayoría de los panes están listos cuando la temperatura interna alcanza 190-210°F (88-99°C). Los panes magros (baguettes) terminan alrededor de 205-210°F (96-99°C), mientras que los panes enriquecidos (brioche) están listos a 190-195°F (88-91°C). Use un termómetro de lectura instantánea insertado en el centro para verificar.",
+          de: "Die meisten Brote sind fertig, wenn die Innentemperatur 88-99°C erreicht. Magere Brote (Baguettes) sind bei etwa 96-99°C fertig, während angereicherte Brote (Brioche) bei 88-91°C fertig sind. Verwenden Sie ein Sofort-Thermometer, das in die Mitte eingeführt wird, um zu prüfen.",
+          nl: "De meeste broden zijn klaar wanneer de interne temperatuur 88-99°C bereikt. Magere broden (baguettes) zijn klaar rond 96-99°C, terwijl verrijkte broden (brioche) klaar zijn bij 88-91°C. Gebruik een instant-read thermometer ingebracht in het midden om te controleren."
+        }
+      },
+      {
+        question: {
+          en: "What does 'degassing' or 'punching down' dough do?",
+          es: "¿Qué hace 'desgasificar' o 'golpear' la masa?",
+          de: "Was bewirkt das 'Entgasen' oder 'Niederschlagen' von Teig?",
+          nl: "Wat doet 'ontgassen' of 'neerstampen' van deeg?"
+        },
+        options: [
+          { en: "Releases large gas bubbles and redistributes yeast for even fermentation", es: "Libera burbujas de gas grandes y redistribuye la levadura para fermentación uniforme", de: "Setzt große Gasblasen frei und verteilt Hefe neu für gleichmäßige Fermentation", nl: "Geeft grote gasbellen vrij en verdeelt gist opnieuw voor gelijkmatige fermentatie" },
+          { en: "Removes all gas to flatten the bread", es: "Elimina todo el gas para aplanar el pan", de: "Entfernt das gesamte Gas um das Brot zu glätten", nl: "Verwijdert alle gas om het brood plat te maken" },
+          { en: "Kills the yeast", es: "Mata la levadura", de: "Tötet die Hefe", nl: "Doodt de gist" },
+          { en: "Adds more air to the dough", es: "Añade más aire a la masa", de: "Fügt dem Teig mehr Luft hinzu", nl: "Voegt meer lucht toe aan het deeg" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Degassing (gently pressing or folding dough after bulk fermentation) releases excessively large gas bubbles, redistributes yeast to fresh food sources, equalizes temperature, and relaxes gluten. This creates more even crumb structure. Modern artisan bread often skips this for an open, irregular crumb.",
+          es: "Desgasificar (presionar o doblar suavemente la masa después de la fermentación en masa) libera burbujas de gas excesivamente grandes, redistribuye la levadura a fuentes de alimento frescas, iguala la temperatura y relaja el gluten. Esto crea una estructura de miga más uniforme. El pan artesanal moderno a menudo omite esto para una miga abierta e irregular.",
+          de: "Entgasen (sanftes Drücken oder Falten des Teigs nach der Stockgare) setzt übermäßig große Gasblasen frei, verteilt Hefe zu frischen Nahrungsquellen neu, gleicht Temperatur aus und entspannt Gluten. Dies erzeugt eine gleichmäßigere Krumenstruktur. Modernes handwerkliches Brot überspringt dies oft für eine offene, unregelmäßige Krume.",
+          nl: "Ontgassen (voorzichtig drukken of vouwen van deeg na bulk fermentatie) geeft overdreven grote gasbellen vrij, verdeelt gist opnieuw naar verse voedselbronnen, vereffent temperatuur en ontspant gluten. Dit creëert een gelijkmatigere kruimstructuur. Modern ambachtelijk brood slaat dit vaak over voor een open, onregelmatig kruim."
+        }
+      },
+      {
+        question: {
+          en: "What is 'preferment' and why use it?",
+          es: "¿Qué es el 'pre-fermento' y por qué usarlo?",
+          de: "Was ist 'Vorteig' und warum verwenden?",
+          nl: "Wat is 'voordeeg' en waarom gebruiken?"
+        },
+        options: [
+          { en: "A portion of dough fermented ahead to develop flavor and improve texture", es: "Una porción de masa fermentada antes para desarrollar sabor y mejorar textura", de: "Ein Teil des Teigs, der vorher fermentiert wird um Geschmack zu entwickeln und Textur zu verbessern", nl: "Een deel van deeg vooraf gefermenteerd om smaak te ontwikkelen en textuur te verbeteren" },
+          { en: "Yeast that is pre-activated", es: "Levadura que está pre-activada", de: "Hefe, die vorher aktiviert wird", nl: "Gist die vooraf geactiveerd is" },
+          { en: "Baking before the final rise", es: "Hornear antes de la subida final", de: "Backen vor dem letzten Aufgang", nl: "Bakken voor de laatste rijs" },
+          { en: "Freezing dough before use", es: "Congelar masa antes de usar", de: "Teig vor Gebrauch einfrieren", nl: "Deeg bevriezen voor gebruik" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Preferment (poolish, biga, pâte fermentée) is a portion of flour, water, and yeast mixed and fermented 3-16 hours before final dough. Benefits: complex flavor development, improved crust color and texture, better shelf life, and enhanced aroma. Common in artisan breads.",
+          es: "El pre-fermento (poolish, biga, pâte fermentée) es una porción de harina, agua y levadura mezcladas y fermentadas 3-16 horas antes de la masa final. Beneficios: desarrollo de sabor complejo, mejor color y textura de corteza, mejor vida útil y aroma mejorado. Común en panes artesanales.",
+          de: "Vorteig (Poolish, Biga, Pâte fermentée) ist ein Teil aus Mehl, Wasser und Hefe, der 3-16 Stunden vor dem endgültigen Teig gemischt und fermentiert wird. Vorteile: komplexe Geschmacksentwicklung, verbesserte Krustenfarbe und -textur, bessere Haltbarkeit und verbessertes Aroma. Üblich in handwerklichen Broten.",
+          nl: "Voordeeg (poolish, biga, pâte fermentée) is een deel van meel, water en gist gemengd en gefermenteerd 3-16 uur voor het finale deeg. Voordelen: complexe smaakontwikkeling, verbeterde korstkleur en textuur, betere houdbaarheid en verbeterd aroma. Gebruikelijk in ambachtelijke broden."
+        }
+      },
+      {
+        question: {
+          en: "What causes bread to stale?",
+          es: "¿Qué causa que el pan se ponga duro?",
+          de: "Was lässt Brot altbacken werden?",
+          nl: "Wat veroorzaakt dat brood oud wordt?"
+        },
+        options: [
+          { en: "Starch retrogradation - starch molecules crystallize and release moisture", es: "Retrogradación del almidón - las moléculas de almidón cristalizan y liberan humedad", de: "Stärkeretrogradation - Stärkemoleküle kristallisieren und setzen Feuchtigkeit frei", nl: "Zetmeel retrogradatie - zetmeelmoleculen kristalliseren en geven vocht vrij" },
+          { en: "All moisture evaporates from the bread", es: "Toda la humedad se evapora del pan", de: "Die gesamte Feuchtigkeit verdunstet aus dem Brot", nl: "Al het vocht verdampt uit het brood" },
+          { en: "Yeast continues to work after baking", es: "La levadura continúa trabajando después de hornear", de: "Hefe arbeitet nach dem Backen weiter", nl: "Gist blijft werken na het bakken" },
+          { en: "Gluten breaks down over time", es: "El gluten se descompone con el tiempo", de: "Gluten zerfällt mit der Zeit", nl: "Gluten breekt af in de loop van de tijd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Staling is caused by starch retrogradation - gelatinized starches recrystallize, becoming firm and releasing moisture to the surface. This happens fastest at refrigerator temperatures (35-40°F). Freezing stops it; reheating temporarily reverses it. Enriched breads with fat stale slower.",
+          es: "El endurecimiento es causado por retrogradación del almidón - almidones gelatinizados recristalizan, volviéndose firmes y liberando humedad a la superficie. Esto sucede más rápido a temperaturas de refrigerador (2-4°C). Congelar lo detiene; recalentar lo revierte temporalmente. Panes enriquecidos con grasa se endurecen más lento.",
+          de: "Altbackenwerden wird durch Stärkeretrogradation verursacht - gelatinierte Stärken rekristallisieren, werden fest und setzen Feuchtigkeit an die Oberfläche frei. Dies geschieht am schnellsten bei Kühlschranktemperaturen (2-4°C). Einfrieren stoppt es; Aufwärmen kehrt es vorübergehend um. Angereicherte Brote mit Fett werden langsamer altbacken.",
+          nl: "Oud worden wordt veroorzaakt door zetmeel retrogradatie - gegelatineerd zetmeel herkristalliseert, wordt stevig en geeft vocht vrij aan het oppervlak. Dit gebeurt het snelst bij koelkasttemperaturen (2-4°C). Bevriezen stopt het; opwarmen keert het tijdelijk om. Verrijkte broden met vet worden langzamer oud."
+        }
+      },
+      {
+        question: {
+          en: "What is 'pâte fermentée'?",
+          es: "¿Qué es 'pâte fermentée'?",
+          de: "Was ist 'Pâte fermentée'?",
+          nl: "Wat is 'pâte fermentée'?"
+        },
+        options: [
+          { en: "Old dough saved from previous batch used as a preferment", es: "Masa vieja guardada de lote anterior usada como pre-fermento", de: "Alter Teig aus vorheriger Charge als Vorteig verwendet", nl: "Oud deeg bewaard van vorige batch gebruikt als voordeeg" },
+          { en: "A French cheese", es: "Un queso francés", de: "Ein französischer Käse", nl: "Een Franse kaas" },
+          { en: "Frozen dough", es: "Masa congelada", de: "Gefrorener Teig", nl: "Bevroren deeg" },
+          { en: "Overproofed dough", es: "Masa sobre-leudada", de: "Übergegangener Teig", nl: "Over-gerezen deeg" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pâte fermentée (French for 'old dough') is a preferment made from a piece of dough saved from a previous batch. It's typically 20-30% of flour weight, fermented 8-12 hours. This method adds complex flavor and was traditionally how bakers maintained consistency before commercial yeast.",
+          es: "Pâte fermentée (francés para 'masa vieja') es un pre-fermento hecho de un pedazo de masa guardado de un lote anterior. Es típicamente 20-30% del peso de la harina, fermentado 8-12 horas. Este método añade sabor complejo y fue tradicionalmente cómo los panaderos mantenían consistencia antes de la levadura comercial.",
+          de: "Pâte fermentée (Französisch für 'alter Teig') ist ein Vorteig aus einem Stück Teig aus einer vorherigen Charge. Es ist typischerweise 20-30% des Mehlgewichts, 8-12 Stunden fermentiert. Diese Methode fügt komplexen Geschmack hinzu und war traditionell wie Bäcker Konsistenz vor kommerzieller Hefe aufrechterhielten.",
+          nl: "Pâte fermentée (Frans voor 'oud deeg') is een voordeeg gemaakt van een stuk deeg bewaard van een vorige batch. Het is meestal 20-30% van meelgewicht, 8-12 uur gefermenteerd. Deze methode voegt complexe smaak toe en was traditioneel hoe bakkers consistentie handhaafden voor commerciële gist."
+        }
+      },
+      {
+        question: {
+          en: "What is 'tangzhong' or 'water roux' method?",
+          es: "¿Qué es el método 'tangzhong' o 'roux de agua'?",
+          de: "Was ist die 'Tangzhong' oder 'Wasser-Roux' Methode?",
+          nl: "Wat is de 'tangzhong' of 'water roux' methode?"
+        },
+        options: [
+          { en: "Pre-cooking flour and liquid into a paste to make softer, fluffier bread", es: "Pre-cocinar harina y líquido en una pasta para hacer pan más suave y esponjoso", de: "Mehl und Flüssigkeit zu einer Paste vorkochen um weicheres, fluffigeres Brot zu machen", nl: "Vooraf koken van meel en vloeistof tot een pasta om zachter, luchtiger brood te maken" },
+          { en: "A Chinese soup thickener", es: "Un espesante de sopa chino", de: "Ein chinesischer Suppenverdicke", nl: "Een Chinese soep verdikker" },
+          { en: "Adding rice to bread dough", es: "Añadir arroz a la masa de pan", de: "Reis zum Brotteig hinzufügen", nl: "Rijst toevoegen aan brooddeeg" },
+          { en: "A type of Asian flatbread", es: "Un tipo de pan plano asiático", de: "Eine Art asiatisches Fladenbrot", nl: "Een soort Aziatisch platbrood" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tangzhong is a method where a small portion of flour and liquid (typically 1:5 ratio) is cooked to 65°C/149°F to gelatinize starches, then cooled and added to dough. This pre-gelatinized starch absorbs more water, creating incredibly soft, fluffy bread (like Japanese milk bread) that stays fresh longer.",
+          es: "Tangzhong es un método donde una pequeña porción de harina y líquido (típicamente proporción 1:5) se cocina a 65°C/149°F para gelatinizar almidones, luego se enfría y se añade a la masa. Este almidón pre-gelatinizado absorbe más agua, creando pan increíblemente suave y esponjoso (como pan de leche japonés) que permanece fresco por más tiempo.",
+          de: "Tangzhong ist eine Methode, bei der ein kleiner Teil Mehl und Flüssigkeit (typischerweise 1:5 Verhältnis) auf 65°C/149°F gekocht wird um Stärken zu gelatinieren, dann abgekühlt und zum Teig hinzugefügt. Diese vorgelatinierte Stärke absorbiert mehr Wasser und erzeugt unglaublich weiches, fluffiges Brot (wie japanisches Milchbrot), das länger frisch bleibt.",
+          nl: "Tangzhong is een methode waarbij een klein deel meel en vloeistof (meestal 1:5 verhouding) gekookt wordt tot 65°C/149°F om zetmeel te gelatineren, dan afgekoeld en toegevoegd aan deeg. Dit vooraf gegelatineerd zetmeel absorbeert meer water, creërend ongelooflijk zacht, luchtig brood (zoals Japans melkbrood) dat langer vers blijft."
+        }
+      },
+      {
+        question: {
+          en: "What does 'extensibility' mean in bread dough?",
+          es: "¿Qué significa 'extensibilidad' en la masa de pan?",
+          de: "Was bedeutet 'Dehnbarkeit' bei Brotteig?",
+          nl: "Wat betekent 'rekbaarheid' in brooddeeg?"
+        },
+        options: [
+          { en: "How easily dough stretches without tearing", es: "Qué tan fácilmente se estira la masa sin romperse", de: "Wie leicht sich Teig dehnen lässt ohne zu reißen", nl: "Hoe gemakkelijk deeg uitrekt zonder te scheuren" },
+          { en: "How much the dough rises", es: "Cuánto sube la masa", de: "Wie viel der Teig aufgeht", nl: "Hoeveel het deeg rijst" },
+          { en: "The size of the bread loaf", es: "El tamaño de la hogaza de pan", de: "Die Größe des Brotlaibs", nl: "De grootte van het broodbrood" },
+          { en: "How sticky the dough is", es: "Qué tan pegajosa está la masa", de: "Wie klebrig der Teig ist", nl: "Hoe plakkerig het deeg is" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Extensibility refers to dough's ability to stretch and expand easily without tearing. High extensibility allows dough to expand during fermentation and baking. It's balanced with elasticity (dough's ability to spring back). Autolyse, proper hydration, and rest periods improve extensibility.",
+          es: "La extensibilidad se refiere a la capacidad de la masa para estirarse y expandirse fácilmente sin romperse. Alta extensibilidad permite que la masa se expanda durante la fermentación y el horneado. Se equilibra con elasticidad (capacidad de la masa de volver). Autólisis, hidratación adecuada y períodos de reposo mejoran la extensibilidad.",
+          de: "Dehnbarkeit bezieht sich auf die Fähigkeit des Teigs, sich leicht zu dehnen und auszudehnen ohne zu reißen. Hohe Dehnbarkeit ermöglicht es dem Teig, sich während der Fermentation und des Backens auszudehnen. Sie wird mit Elastizität (Fähigkeit des Teigs zurückzuspringen) ausgeglichen. Autolyse, richtige Hydratation und Ruhezeiten verbessern die Dehnbarkeit.",
+          nl: "Rekbaarheid verwijst naar het vermogen van deeg om gemakkelijk uit te rekken en uit te zetten zonder te scheuren. Hoge rekbaarheid stelt deeg in staat uit te zetten tijdens fermentatie en bakken. Het wordt gebalanceerd met elasticiteit (vermogen van deeg om terug te veren). Autolyse, juiste hydratatie en rustperiodes verbeteren rekbaarheid."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between 'direct method' and 'indirect method' bread making?",
+          es: "¿Cuál es la diferencia entre el método 'directo' e 'indirecto' de hacer pan?",
+          de: "Was ist der Unterschied zwischen 'direkter Methode' und 'indirekter Methode' beim Brotbacken?",
+          nl: "Wat is het verschil tussen 'directe methode' en 'indirecte methode' brood maken?"
+        },
+        options: [
+          { en: "Direct mixes all ingredients at once; indirect uses preferment first", es: "Directo mezcla todos los ingredientes a la vez; indirecto usa pre-fermento primero", de: "Direkt mischt alle Zutaten auf einmal; indirekt verwendet zuerst Vorteig", nl: "Direct mengt alle ingrediënten tegelijk; indirect gebruikt eerst voordeeg" },
+          { en: "Direct is faster baking; indirect is slower baking", es: "Directo es horneado más rápido; indirecto es horneado más lento", de: "Direkt ist schnelleres Backen; indirekt ist langsameres Backen", nl: "Direct is sneller bakken; indirect is langzamer bakken" },
+          { en: "Direct uses yeast; indirect uses baking powder", es: "Directo usa levadura; indirecto usa polvo de hornear", de: "Direkt verwendet Hefe; indirekt verwendet Backpulver", nl: "Direct gebruikt gist; indirect gebruikt bakpoeder" },
+          { en: "Direct kneads by hand; indirect uses machine", es: "Directo amasa a mano; indirecto usa máquina", de: "Direkt knetet von Hand; indirekt verwendet Maschine", nl: "Direct kneedt met de hand; indirect gebruikt machine" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Direct method mixes all ingredients together at once for a single fermentation. It's faster but yields simpler flavor. Indirect method uses preferment (poolish, biga, etc.) made hours ahead, then incorporates it into final dough. This takes longer but creates complex flavors, better texture, and improved shelf life.",
+          es: "El método directo mezcla todos los ingredientes juntos a la vez para una sola fermentación. Es más rápido pero produce sabor más simple. El método indirecto usa pre-fermento (poolish, biga, etc.) hecho horas antes, luego lo incorpora en la masa final. Esto toma más tiempo pero crea sabores complejos, mejor textura y vida útil mejorada.",
+          de: "Direkte Methode mischt alle Zutaten auf einmal für eine einzelne Fermentation. Es ist schneller, ergibt aber einfacheren Geschmack. Indirekte Methode verwendet Vorteig (Poolish, Biga, etc.), der Stunden vorher gemacht wird, dann in den endgültigen Teig eingearbeitet. Dies dauert länger, erzeugt aber komplexe Aromen, bessere Textur und verbesserte Haltbarkeit.",
+          nl: "Directe methode mengt alle ingrediënten tegelijk voor een enkele fermentatie. Het is sneller maar levert eenvoudigere smaak. Indirecte methode gebruikt voordeeg (poolish, biga, etc.) gemaakt uren van tevoren, dan ingevoegd in het finale deeg. Dit duurt langer maar creëert complexe smaken, betere textuur en verbeterde houdbaarheid."
+        }
+      },
+      {
+        question: {
+          en: "Why do professional bakers use weight measurements instead of volume?",
+          es: "¿Por qué los panaderos profesionales usan medidas de peso en lugar de volumen?",
+          de: "Warum verwenden professionelle Bäcker Gewichtsmessungen anstelle von Volumen?",
+          nl: "Waarom gebruiken professionele bakkers gewichtsmetingen in plaats van volume?"
+        },
+        options: [
+          { en: "Weight is more accurate and consistent than volume measurements", es: "El peso es más preciso y consistente que las medidas de volumen", de: "Gewicht ist genauer und konsistenter als Volumenmessungen", nl: "Gewicht is nauwkeuriger en consistenter dan volumemetingen" },
+          { en: "Scales are cheaper than measuring cups", es: "Las balanzas son más baratas que las tazas medidoras", de: "Waagen sind billiger als Messbecher", nl: "Schalen zijn goedkoper dan maatbekers" },
+          { en: "Weight makes recipes look more professional", es: "El peso hace que las recetas se vean más profesionales", de: "Gewicht lässt Rezepte professioneller aussehen", nl: "Gewicht laat recepten professioneler lijken" },
+          { en: "Volume measurements are illegal in bakeries", es: "Las medidas de volumen son ilegales en panaderías", de: "Volumenmessungen sind in Bäckereien illegal", nl: "Volumemetingen zijn illegaal in bakkerijen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Weight measurements are more accurate and consistent because flour volume varies depending on how it's scooped or settled. One cup of flour can weigh 120-150g depending on packing. Professional bakers use grams/ounces for precision, reproducibility, and easy scaling. This ensures consistent results batch to batch.",
+          es: "Las medidas de peso son más precisas y consistentes porque el volumen de harina varía dependiendo de cómo se recoja o asiente. Una taza de harina puede pesar 120-150g dependiendo del empaque. Los panaderos profesionales usan gramos/onzas para precisión, reproducibilidad y escalado fácil. Esto asegura resultados consistentes de lote a lote.",
+          de: "Gewichtsmessungen sind genauer und konsistenter, weil Mehlvolumen davon abhängt, wie es geschöpft oder gesetzt wird. Eine Tasse Mehl kann je nach Packung 120-150g wiegen. Professionelle Bäcker verwenden Gramm/Unzen für Präzision, Reproduzierbarkeit und einfaches Skalieren. Dies gewährleistet konsistente Ergebnisse von Charge zu Charge.",
+          nl: "Gewichtsmetingen zijn nauwkeuriger en consistenter omdat meelvolume varieert afhankelijk van hoe het geschept of gezakt is. Een kop meel kan 120-150g wegen afhankelijk van verpakking. Professionele bakkers gebruiken gram/ons voor precisie, reproduceerbaarheid en gemakkelijk schalen. Dit zorgt voor consistente resultaten van batch tot batch."
+        }
+      },
+      {
+        question: {
+          en: "What is 'crumb structure' and what affects it?",
+          es: "¿Qué es la 'estructura de la miga' y qué la afecta?",
+          de: "Was ist 'Krumenstruktur' und was beeinflusst sie?",
+          nl: "Wat is 'kruimstructuur' en wat beïnvloedt het?"
+        },
+        options: [
+          { en: "The pattern of air pockets inside bread, affected by hydration, fermentation, and handling", es: "El patrón de bolsas de aire dentro del pan, afectado por hidratación, fermentación y manejo", de: "Das Muster der Lufttaschen im Brot, beeinflusst durch Hydratation, Fermentation und Handhabung", nl: "Het patroon van luchtzakken in brood, beïnvloed door hydratatie, fermentatie en behandeling" },
+          { en: "How the crust tastes", es: "Cómo sabe la corteza", de: "Wie die Kruste schmeckt", nl: "Hoe de korst smaakt" },
+          { en: "The color of the bread", es: "El color del pan", de: "Die Farbe des Brotes", nl: "De kleur van het brood" },
+          { en: "The weight of the loaf", es: "El peso de la hogaza", de: "Das Gewicht des Laibs", nl: "Het gewicht van het brood" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Crumb structure refers to the size, shape, and distribution of air pockets (alveoli) in bread's interior. Factors affecting it: hydration level (wetter = more open), fermentation time (longer = larger holes), handling (gentle = irregular holes), flour protein (higher = stronger structure), shaping technique, and steam during baking.",
+          es: "La estructura de la miga se refiere al tamaño, forma y distribución de bolsas de aire (alvéolos) en el interior del pan. Factores que la afectan: nivel de hidratación (más húmedo = más abierto), tiempo de fermentación (más largo = agujeros más grandes), manejo (suave = agujeros irregulares), proteína de harina (más alto = estructura más fuerte), técnica de formado y vapor durante el horneado.",
+          de: "Krumenstruktur bezieht sich auf Größe, Form und Verteilung von Lufttaschen (Alveolen) im Inneren des Brotes. Einflussfaktoren: Hydratationsniveau (feuchter = offener), Fermentationszeit (länger = größere Löcher), Handhabung (sanft = unregelmäßige Löcher), Mehlprotein (höher = stärkere Struktur), Formtechnik und Dampf beim Backen.",
+          nl: "Kruimstructuur verwijst naar de grootte, vorm en verdeling van luchtzakken (alveoli) in het binnenste van brood. Factoren die het beïnvloeden: hydratatie niveau (natter = meer open), fermentatietijd (langer = grotere gaten), behandeling (zacht = onregelmatige gaten), meel eiwit (hoger = sterkere structuur), vormtechniek en stoom tijdens bakken."
+        }
+      },
+      {
+        question: {
+          en: "What is 'shaping' dough and why is it important?",
+          es: "¿Qué es 'dar forma' a la masa y por qué es importante?",
+          de: "Was ist das 'Formen' von Teig und warum ist es wichtig?",
+          nl: "Wat is 'vormen' van deeg en waarom is het belangrijk?"
+        },
+        options: [
+          { en: "Creating tension on dough surface to support structure during final rise and baking", es: "Crear tensión en la superficie de la masa para soportar estructura durante la subida final y horneado", de: "Spannung auf Teigoberfläche erzeugen um Struktur während des letzten Aufgangs und Backens zu stützen", nl: "Spanning creëren op deegoppervlak om structuur te ondersteunen tijdens laatste rijs en bakken" },
+          { en: "Making decorative patterns on bread", es: "Hacer patrones decorativos en el pan", de: "Dekorative Muster auf Brot machen", nl: "Decoratieve patronen maken op brood" },
+          { en: "Cutting the dough into pieces", es: "Cortar la masa en pedazos", de: "Teig in Stücke schneiden", nl: "Deeg in stukken snijden" },
+          { en: "Flattening the dough", es: "Aplanar la masa", de: "Teig flach machen", nl: "Deeg plat maken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Shaping creates surface tension by stretching the outer layer of dough taut. This tension supports the dough structure, allowing it to rise upward rather than spreading, and creates an even, attractive shape. Proper shaping techniques (boule, batard, baguette) determine final bread appearance and crumb structure.",
+          es: "Dar forma crea tensión superficial al estirar la capa externa de la masa tensa. Esta tensión soporta la estructura de la masa, permitiéndole subir hacia arriba en lugar de extenderse, y crea una forma uniforme y atractiva. Las técnicas adecuadas de formado (boule, batard, baguette) determinan la apariencia final del pan y la estructura de la miga.",
+          de: "Formen erzeugt Oberflächenspannung, indem die äußere Teigschicht straff gedehnt wird. Diese Spannung stützt die Teigstruktur und ermöglicht es ihm, nach oben zu steigen, anstatt sich zu verbreiten, und erzeugt eine gleichmäßige, attraktive Form. Richtige Formtechniken (Boule, Batard, Baguette) bestimmen das endgültige Brotaussehen und die Krumenstruktur.",
+          nl: "Vormen creëert oppervlaktespanning door de buitenste deeglaag strak uit te rekken. Deze spanning ondersteunt de deegstructuur, waardoor het naar boven kan rijzen in plaats van zich te verspreiden, en creëert een gelijkmatige, aantrekkelijke vorm. Juiste vormtechnieken (boule, batard, baguette) bepalen de uiteindelijke broodverschijning en kruimstructuur."
+        }
+      },
+      {
+        question: {
+          en: "What is 'overproofing' and how can you tell?",
+          es: "¿Qué es el 'sobre-leudado' y cómo puedes saberlo?",
+          de: "Was ist 'Übergehen' und wie erkennt man es?",
+          nl: "Wat is 'over-rijzen' en hoe kun je het herkennen?"
+        },
+        options: [
+          { en: "Dough fermented too long - becomes weak, sticky, and doesn't spring back when poked", es: "Masa fermentada demasiado tiempo - se vuelve débil, pegajosa y no vuelve cuando se pincha", de: "Teig zu lange fermentiert - wird schwach, klebrig und springt nicht zurück wenn gedrückt", nl: "Deeg te lang gefermenteerd - wordt zwak, plakkerig en veert niet terug wanneer geprikt" },
+          { en: "Too much yeast added to dough", es: "Demasiada levadura añadida a la masa", de: "Zu viel Hefe zum Teig hinzugefügt", nl: "Te veel gist toegevoegd aan deeg" },
+          { en: "Bread baked at too high temperature", es: "Pan horneado a temperatura demasiado alta", de: "Brot bei zu hoher Temperatur gebacken", nl: "Brood gebakken op te hoge temperatuur" },
+          { en: "Dough that rises too quickly", es: "Masa que sube demasiado rápido", de: "Teig, der zu schnell aufgeht", nl: "Deeg dat te snel rijst" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Overproofed dough has fermented too long - yeast has consumed most sugars and gluten structure has weakened. Signs: dough doesn't spring back when poked (poke test), feels overly soft/sticky, smells strongly of alcohol, collapses when moved, and bakes into dense, flat bread with poor oven spring.",
+          es: "La masa sobre-leudada ha fermentado demasiado tiempo - la levadura ha consumido la mayoría de azúcares y la estructura del gluten se ha debilitado. Señales: la masa no vuelve cuando se pincha (prueba de pinchar), se siente demasiado suave/pegajosa, huele fuertemente a alcohol, se colapsa cuando se mueve, y hornea en pan denso y plano con poca expansión en el horno.",
+          de: "Übergegangener Teig hat zu lange fermentiert - Hefe hat die meisten Zucker verbraucht und Glutenstruktur hat sich geschwächt. Anzeichen: Teig springt nicht zurück wenn gedrückt (Drucktest), fühlt sich übermäßig weich/klebrig an, riecht stark nach Alkohol, kollabiert wenn bewegt, und backt zu dichtem, flachem Brot mit schlechtem Ofentrieb.",
+          nl: "Over-gerezen deeg heeft te lang gefermenteerd - gist heeft de meeste suikers verbruikt en glutenstructuur is verzwakt. Tekenen: deeg veert niet terug wanneer geprikt (prik test), voelt overdreven zacht/plakkerig, ruikt sterk naar alcohol, klapt in elkaar wanneer verplaatst, en bakt tot dicht, plat brood met slechte ovenrijs."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of adding fats (butter, oil) to bread dough?",
+          es: "¿Cuál es el propósito de añadir grasas (mantequilla, aceite) a la masa de pan?",
+          de: "Was ist der Zweck, Fette (Butter, Öl) zu Brotteig hinzuzufügen?",
+          nl: "Wat is het doel van het toevoegen van vetten (boter, olie) aan brooddeeg?"
+        },
+        options: [
+          { en: "Creates tender crumb, adds flavor, extends shelf life by coating gluten strands", es: "Crea miga tierna, añade sabor, extiende vida útil al cubrir hebras de gluten", de: "Erzeugt zarte Krume, fügt Geschmack hinzu, verlängert Haltbarkeit durch Ummantelung von Glutensträngen", nl: "Creëert zacht kruim, voegt smaak toe, verlengt houdbaarheid door gluten draden te bekleden" },
+          { en: "Makes bread rise higher", es: "Hace que el pan suba más alto", de: "Lässt Brot höher aufgehen", nl: "Laat brood hoger rijzen" },
+          { en: "Strengthens gluten development", es: "Fortalece el desarrollo del gluten", de: "Stärkt Glutenentwicklung", nl: "Versterkt gluten ontwikkeling" },
+          { en: "Speeds up fermentation", es: "Acelera la fermentación", de: "Beschleunigt Fermentation", nl: "Versnelt fermentatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Fats 'shorten' gluten strands by coating them, preventing full gluten network formation. This creates a tender, soft crumb (hence 'shortening'). Fats also add richness/flavor, improve browning, and slow staling by preventing moisture loss. However, too much fat inhibits gluten development and reduces rise.",
+          es: "Las grasas 'acortan' las hebras de gluten al cubrirlas, previniendo la formación completa de red de gluten. Esto crea una miga tierna y suave (de ahí 'acortamiento'). Las grasas también añaden riqueza/sabor, mejoran el dorado y ralentizan el endurecimiento al prevenir pérdida de humedad. Sin embargo, demasiada grasa inhibe el desarrollo del gluten y reduce la subida.",
+          de: "Fette 'verkürzen' Glutenstränge, indem sie sie ummanteln und die vollständige Glutennetzwerkbildung verhindern. Dies erzeugt eine zarte, weiche Krume (daher 'Verkürzung'). Fette fügen auch Reichhaltigkeit/Geschmack hinzu, verbessern Bräunung und verlangsamen Altbackenwerden durch Verhinderung von Feuchtigkeitsverlust. Jedoch hemmt zu viel Fett Glutenentwicklung und reduziert Aufgang.",
+          nl: "Vetten 'verkorten' gluten draden door ze te bekleden, waardoor volledige gluten netwerkvorming wordt voorkomen. Dit creëert een zacht, zacht kruim (vandaar 'verkorten'). Vetten voegen ook rijkdom/smaak toe, verbeteren bruining en vertragen oud worden door vochtverlies te voorkomen. Echter, te veel vet remt gluten ontwikkeling en vermindert rijs."
+        }
+      },
+      {
+        question: {
+          en: "What is 'commercial yeast' vs 'wild yeast'?",
+          es: "¿Qué es 'levadura comercial' vs 'levadura silvestre'?",
+          de: "Was ist 'kommerzielle Hefe' vs 'Wildhefe'?",
+          nl: "Wat is 'commerciële gist' vs 'wilde gist'?"
+        },
+        options: [
+          { en: "Commercial is single-strain cultivated yeast; wild is diverse natural yeasts from environment", es: "Comercial es levadura cultivada de una sola cepa; silvestre son levaduras naturales diversas del ambiente", de: "Kommerziell ist einzelstammkultivierte Hefe; wild sind vielfältige natürliche Hefen aus der Umgebung", nl: "Commercieel is enkel-stam gekweekte gist; wild zijn diverse natuurlijke gisten uit de omgeving" },
+          { en: "Commercial yeast is stronger than wild yeast", es: "La levadura comercial es más fuerte que la levadura silvestre", de: "Kommerzielle Hefe ist stärker als Wildhefe", nl: "Commerciële gist is sterker dan wilde gist" },
+          { en: "Wild yeast only exists in forests", es: "La levadura silvestre solo existe en bosques", de: "Wildhefe existiert nur in Wäldern", nl: "Wilde gist bestaat alleen in bossen" },
+          { en: "They are exactly the same", es: "Son exactamente lo mismo", de: "Sie sind genau dasselbe", nl: "Ze zijn precies hetzelfde" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Commercial yeast (Saccharomyces cerevisiae) is a single, cultivated strain optimized for baking - predictable, fast-acting, consistent. Wild yeast is a diverse population of yeasts naturally present in flour, air, and on surfaces - slower, unpredictable, but creates complex flavors. Sourdough uses wild yeast plus lactic acid bacteria.",
+          es: "La levadura comercial (Saccharomyces cerevisiae) es una sola cepa cultivada optimizada para hornear - predecible, de acción rápida, consistente. La levadura silvestre es una población diversa de levaduras naturalmente presentes en harina, aire y en superficies - más lenta, impredecible, pero crea sabores complejos. La masa madre usa levadura silvestre más bacterias de ácido láctico.",
+          de: "Kommerzielle Hefe (Saccharomyces cerevisiae) ist ein einzelner, kultivierter Stamm optimiert fürs Backen - vorhersehbar, schnell wirkend, konsistent. Wildhefe ist eine vielfältige Population von Hefen natürlich vorhanden in Mehl, Luft und auf Oberflächen - langsamer, unvorhersehbar, aber erzeugt komplexe Aromen. Sauerteig verwendet Wildhefe plus Milchsäurebakterien.",
+          nl: "Commerciële gist (Saccharomyces cerevisiae) is een enkele, gekweekte stam geoptimaliseerd voor bakken - voorspelbaar, snel-werkend, consistent. Wilde gist is een diverse populatie van gisten natuurlijk aanwezig in meel, lucht en op oppervlakken - langzamer, onvoorspelbaar, maar creëert complexe smaken. Zuurdesem gebruikt wilde gist plus melkzuurbacteriën."
         }
       }
     ]

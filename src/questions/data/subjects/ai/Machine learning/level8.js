@@ -427,6 +427,426 @@
           de: "Meta-Learning in Hyperparameter-Optimierung nutzt Wissen aus vorherigen Optimierungsläufen auf ähnlichen Datensätzen/Aufgaben um den Suchprozess effizienter zu initialisieren und zu leiten. Es kann gute Start-Hyperparameter empfehlen, vorhersagen welche Konfigurationen wahrscheinlich gut funktionieren, und die Anzahl der Evaluierungen für neue Probleme reduzieren.",
           nl: "Meta-learning in hyperparameter optimalisatie benut kennis van vorige optimalisatie runs op vergelijkbare datasets/taken om het zoekproces efficiënter te initialiseren en leiden. Het kan goede start hyperparameters aanbevelen, voorspellen welke configuraties waarschijnlijk goed werken, en het aantal evaluaties verminderen voor nieuwe problemen."
         }
+      },
+      {
+        question: {
+          en: "What is UMAP and how does it compare to t-SNE for dimensionality reduction?",
+          es: "¿Qué es UMAP y cómo se compara con t-SNE para reducción de dimensionalidad?",
+          de: "Was ist UMAP und wie vergleicht es sich mit t-SNE für Dimensionalitätsreduktion?",
+          nl: "Wat is UMAP en hoe vergelijkt het met t-SNE voor dimensionaliteitsreductie?"
+        },
+        options: [
+          { en: "Uniform Manifold Approximation preserves global and local structure, often faster than t-SNE with better scalability", es: "Uniform Manifold Approximation preserva estructura global y local, a menudo más rápido que t-SNE con mejor escalabilidad", de: "Uniform Manifold Approximation erhält globale und lokale Struktur, oft schneller als t-SNE mit besserer Skalierbarkeit", nl: "Uniform Manifold Approximation behoudt globale en lokale structuur, vaak sneller dan t-SNE met betere schaalbaarheid" },
+          { en: "UMAP is only for categorical data", es: "UMAP es solo para datos categóricos", de: "UMAP ist nur für kategorische Daten", nl: "UMAP is alleen voor categorische data" },
+          { en: "UMAP requires more computational resources than t-SNE", es: "UMAP requiere más recursos computacionales que t-SNE", de: "UMAP benötigt mehr Rechenressourcen als t-SNE", nl: "UMAP vereist meer computationele middelen dan t-SNE" },
+          { en: "UMAP cannot preserve cluster structures", es: "UMAP no puede preservar estructuras de clusters", de: "UMAP kann Cluster-Strukturen nicht erhalten", nl: "UMAP kan clusterstructuren niet behouden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "UMAP (Uniform Manifold Approximation and Projection) is based on manifold learning theory and preserves both local and global structure better than t-SNE. It scales better to large datasets, runs faster, and produces more consistent embeddings, making it increasingly popular for visualization and preprocessing.",
+          es: "UMAP (Uniform Manifold Approximation and Projection) se basa en teoría de aprendizaje de variedades y preserva mejor estructura local y global que t-SNE. Escala mejor a conjuntos de datos grandes, se ejecuta más rápido y produce embeddings más consistentes, haciéndolo cada vez más popular para visualización y preprocesamiento.",
+          de: "UMAP (Uniform Manifold Approximation and Projection) basiert auf Mannigfaltigkeitslerntheorie und erhält lokale und globale Struktur besser als t-SNE. Es skaliert besser auf große Datensätze, läuft schneller und produziert konsistentere Embeddings, macht es zunehmend beliebt für Visualisierung und Vorverarbeitung.",
+          nl: "UMAP (Uniform Manifold Approximation and Projection) is gebaseerd op manifold learning theorie en behoudt zowel lokale als globale structuur beter dan t-SNE. Het schaalt beter naar grote datasets, werkt sneller en produceert consistentere embeddings, maakt het steeds populairder voor visualisatie en voorverwerking."
+        }
+      },
+      {
+        question: {
+          en: "What is spectral clustering and what advantage does it provide over traditional methods?",
+          es: "¿Qué es clustering espectral y qué ventaja proporciona sobre métodos tradicionales?",
+          de: "Was ist Spektral-Clustering und welchen Vorteil bietet es gegenüber traditionellen Methoden?",
+          nl: "Wat is spectral clustering en welk voordeel biedt het boven traditionele methoden?"
+        },
+        options: [
+          { en: "Uses eigenvalues of similarity matrix to reduce dimensions before clustering, handles non-convex clusters", es: "Usa valores propios de matriz de similitud para reducir dimensiones antes de clustering, maneja clusters no convexos", de: "Verwendet Eigenwerte der Ähnlichkeitsmatrix um Dimensionen vor Clustering zu reduzieren, behandelt nicht-konvexe Cluster", nl: "Gebruikt eigenwaarden van similariteitsmatrix om dimensies te reduceren voor clustering, behandelt niet-convexe clusters" },
+          { en: "Analyzes frequency spectrum of data points", es: "Analiza espectro de frecuencia de puntos de datos", de: "Analysiert Frequenzspektrum von Datenpunkten", nl: "Analyseert frequentiespectrum van datapunten" },
+          { en: "Clusters data based on color spectrum", es: "Agrupa datos basado en espectro de color", de: "Clustert Daten basierend auf Farbspektrum", nl: "Clustert data gebaseerd op kleurenspectrum" },
+          { en: "Only works with spectral data types", es: "Solo funciona con tipos de datos espectrales", de: "Funktioniert nur mit spektralen Datentypen", nl: "Werkt alleen met spectrale datatypes" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Spectral clustering uses graph theory and eigendecomposition of the similarity matrix to transform data into a space where clusters are more separable. It can identify clusters with complex, non-convex shapes that methods like k-means cannot, making it powerful for image segmentation and community detection.",
+          es: "Clustering espectral usa teoría de grafos y eigendescomposición de matriz de similitud para transformar datos a un espacio donde clusters son más separables. Puede identificar clusters con formas complejas no convexas que métodos como k-means no pueden, haciéndolo poderoso para segmentación de imágenes y detección de comunidades.",
+          de: "Spektral-Clustering verwendet Graphentheorie und Eigenzerlegung der Ähnlichkeitsmatrix um Daten in einen Raum zu transformieren wo Cluster besser trennbar sind. Es kann Cluster mit komplexen, nicht-konvexen Formen identifizieren die Methoden wie k-means nicht können, macht es leistungsstark für Bildsegmentierung und Community-Erkennung.",
+          nl: "Spectral clustering gebruikt grafentheorie en eigendecompositie van de similariteitsmatrix om data te transformeren naar een ruimte waar clusters beter scheidbaar zijn. Het kan clusters met complexe, niet-convexe vormen identificeren die methoden zoals k-means niet kunnen, maakt het krachtig voor beeldsegmentatie en community detectie."
+        }
+      },
+      {
+        question: {
+          en: "What is Gaussian Mixture Model (GMM) and how does it differ from k-means clustering?",
+          es: "¿Qué es el Modelo de Mezcla Gaussiana (GMM) y cómo difiere del clustering k-means?",
+          de: "Was ist Gaussian Mixture Model (GMM) und wie unterscheidet es sich von k-means Clustering?",
+          nl: "Wat is Gaussian Mixture Model (GMM) en hoe verschilt het van k-means clustering?"
+        },
+        options: [
+          { en: "GMM uses probabilistic soft assignment to clusters with different shapes/sizes, k-means uses hard assignment to spherical clusters", es: "GMM usa asignación suave probabilística a clusters con formas/tamaños diferentes, k-means usa asignación dura a clusters esféricos", de: "GMM verwendet probabilistische weiche Zuordnung zu Clustern mit verschiedenen Formen/Größen, k-means verwendet harte Zuordnung zu sphärischen Clustern", nl: "GMM gebruikt probabilistische zachte toewijzing aan clusters met verschillende vormen/groottes, k-means gebruikt harde toewijzing aan sferische clusters" },
+          { en: "GMM is always faster than k-means", es: "GMM siempre es más rápido que k-means", de: "GMM ist immer schneller als k-means", nl: "GMM is altijd sneller dan k-means" },
+          { en: "GMM requires labeled training data", es: "GMM requiere datos de entrenamiento etiquetados", de: "GMM benötigt beschriftete Trainingsdaten", nl: "GMM vereist gelabelde trainingsdata" },
+          { en: "GMM works only with Gaussian distributions", es: "GMM funciona solo con distribuciones gaussianas", de: "GMM funktioniert nur mit Gaussschen Verteilungen", nl: "GMM werkt alleen met Gaussiaanse distributies" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "GMM models data as a mixture of multiple Gaussian distributions, providing probabilistic cluster assignments where each point has membership probabilities for all clusters. Unlike k-means' hard assignments and spherical clusters, GMM can model elliptical clusters of varying sizes and provides uncertainty estimates.",
+          es: "GMM modela datos como mezcla de múltiples distribuciones gaussianas, proporcionando asignaciones probabilísticas de clusters donde cada punto tiene probabilidades de membresía para todos los clusters. A diferencia de asignaciones duras de k-means y clusters esféricos, GMM puede modelar clusters elípticos de tamaños variables y proporciona estimaciones de incertidumbre.",
+          de: "GMM modelliert Daten als Mischung mehrerer Gaussscher Verteilungen, bietet probabilistische Cluster-Zuordnungen wo jeder Punkt Zugehörigkeitswahrscheinlichkeiten für alle Cluster hat. Im Gegensatz zu k-means' harten Zuordnungen und sphärischen Clustern kann GMM elliptische Cluster verschiedener Größen modellieren und bietet Unsicherheitsschätzungen.",
+          nl: "GMM modelleert data als mengsel van meerdere Gaussiaanse distributies, biedt probabilistische clustertoewijzingen waar elk punt lidmaatschapswaarschijnlijkheden heeft voor alle clusters. In tegenstelling tot k-means' harde toewijzingen en sferische clusters kan GMM elliptische clusters van variërende groottes modelleren en biedt onzekerheidsschattingen."
+        }
+      },
+      {
+        question: {
+          en: "What is the expectation-maximization (EM) algorithm and how is it used in GMMs?",
+          es: "¿Qué es el algoritmo expectación-maximización (EM) y cómo se usa en GMMs?",
+          de: "Was ist der Expectation-Maximization (EM) Algorithmus und wie wird er in GMMs verwendet?",
+          nl: "Wat is het expectation-maximization (EM) algoritme en hoe wordt het gebruikt in GMMs?"
+        },
+        options: [
+          { en: "Iteratively estimates cluster assignments (E-step) and updates parameters (M-step) to maximize likelihood", es: "Estima iterativamente asignaciones de clusters (paso-E) y actualiza parámetros (paso-M) para maximizar verosimilitud", de: "Schätzt iterativ Cluster-Zuordnungen (E-Schritt) und aktualisiert Parameter (M-Schritt) um Likelihood zu maximieren", nl: "Schat iteratief clustertoewijzingen (E-stap) en werkt parameters bij (M-stap) om likelihood te maximaliseren" },
+          { en: "Expects clusters and maximizes their separation", es: "Espera clusters y maximiza su separación", de: "Erwartet Cluster und maximiert ihre Trennung", nl: "Verwacht clusters en maximaliseert hun scheiding" },
+          { en: "Estimates missing data and maximizes accuracy", es: "Estima datos faltantes y maximiza precisión", de: "Schätzt fehlende Daten und maximiert Genauigkeit", nl: "Schat ontbrekende data en maximaliseert nauwkeurigheid" },
+          { en: "Explores models and selects maximum performance", es: "Explora modelos y selecciona máximo rendimiento", de: "Erkundet Modelle und wählt maximale Leistung", nl: "Verkent modellen en selecteert maximale prestaties" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "EM algorithm alternates between two steps: Expectation (E-step) calculates probability of each point belonging to each cluster given current parameters, and Maximization (M-step) updates cluster parameters (means, covariances, weights) to maximize data likelihood given current assignments. This iterative process converges to local optimum.",
+          es: "Algoritmo EM alterna entre dos pasos: Expectación (paso-E) calcula probabilidad de que cada punto pertenezca a cada cluster dados parámetros actuales, y Maximización (paso-M) actualiza parámetros de cluster (medias, covarianzas, pesos) para maximizar verosimilitud de datos dadas asignaciones actuales. Este proceso iterativo converge a óptimo local.",
+          de: "EM-Algorithmus wechselt zwischen zwei Schritten: Expectation (E-Schritt) berechnet Wahrscheinlichkeit dass jeder Punkt zu jedem Cluster gehört gegeben aktuelle Parameter, und Maximization (M-Schritt) aktualisiert Cluster-Parameter (Mittelwerte, Kovarianzen, Gewichte) um Daten-Likelihood zu maximieren gegeben aktuelle Zuordnungen. Dieser iterative Prozess konvergiert zu lokalem Optimum.",
+          nl: "EM algoritme wisselt tussen twee stappen: Expectation (E-stap) berekent waarschijnlijkheid dat elk punt tot elk cluster behoort gegeven huidige parameters, en Maximization (M-stap) werkt clusterparameters bij (gemiddelden, covarianties, gewichten) om data likelihood te maximaliseren gegeven huidige toewijzingen. Dit iteratieve proces convergeert naar lokaal optimum."
+        }
+      },
+      {
+        question: {
+          en: "What is the elbow method for selecting the optimal number of clusters?",
+          es: "¿Qué es el método del codo para seleccionar el número óptimo de clusters?",
+          de: "Was ist die Ellbogen-Methode zur Auswahl der optimalen Anzahl von Clustern?",
+          nl: "Wat is de elbow methode voor het selecteren van het optimale aantal clusters?"
+        },
+        options: [
+          { en: "Plots within-cluster variance vs k, optimal k is at elbow where adding clusters yields diminishing returns", es: "Grafica varianza intra-cluster vs k, k óptimo está en codo donde agregar clusters produce rendimientos decrecientes", de: "Plottet Innerhalb-Cluster-Varianz vs k, optimales k ist am Ellbogen wo Hinzufügen von Clustern abnehmende Erträge liefert", nl: "Plot binnen-cluster variantie vs k, optimale k is bij elbow waar toevoegen van clusters afnemende opbrengsten oplevert" },
+          { en: "Uses elbow joint angle to measure cluster separation", es: "Usa ángulo de articulación del codo para medir separación de clusters", de: "Verwendet Ellbogengelenkwinkel um Cluster-Trennung zu messen", nl: "Gebruikt ellebooggewrichthoek om clusterscheiding te meten" },
+          { en: "Bends the feature space to optimize clustering", es: "Dobla el espacio de características para optimizar clustering", de: "Biegt den Feature-Raum um Clustering zu optimieren", nl: "Buigt de feature ruimte om clustering te optimaliseren" },
+          { en: "Always provides a definitive optimal k value", es: "Siempre proporciona un valor k óptimo definitivo", de: "Bietet immer einen definitiven optimalen k-Wert", nl: "Biedt altijd een definitieve optimale k waarde" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The elbow method plots the sum of squared distances (inertia) within clusters against the number of clusters k. As k increases, inertia decreases, but at a diminishing rate. The optimal k is typically at the 'elbow' point where the rate of decrease sharply changes, balancing model complexity and cluster quality.",
+          es: "Método del codo grafica suma de distancias cuadradas (inercia) dentro de clusters contra número de clusters k. A medida que k aumenta, inercia disminuye, pero a tasa decreciente. El k óptimo típicamente está en punto 'codo' donde tasa de disminución cambia bruscamente, equilibrando complejidad del modelo y calidad de cluster.",
+          de: "Ellbogen-Methode plottet die Summe der quadratischen Abstände (Trägheit) innerhalb Clustern gegen die Anzahl der Cluster k. Wenn k steigt, sinkt Trägheit, aber mit abnehmender Rate. Das optimale k liegt typisch am 'Ellbogen'-Punkt wo die Abnahmerate sich stark ändert, balanciert Modellkomplexität und Cluster-Qualität.",
+          nl: "De elbow methode plot de som van kwadratische afstanden (traagheid) binnen clusters tegen het aantal clusters k. Naarmate k toeneemt, neemt traagheid af, maar met afnemende snelheid. Het optimale k ligt typisch op het 'elbow' punt waar de afnamesnelheid scherp verandert, balanceert modelcomplexiteit en clusterkwaliteit."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between inliers and outliers in anomaly detection?",
+          es: "¿Cuál es la diferencia entre valores internos y atípicos en detección de anomalías?",
+          de: "Was ist der Unterschied zwischen Inliers und Outliers in Anomalieerkennung?",
+          nl: "Wat is het verschil tussen inliers en outliers in anomalie detectie?"
+        },
+        options: [
+          { en: "Inliers conform to normal data patterns, outliers deviate significantly from expected behavior", es: "Valores internos se conforman a patrones de datos normales, valores atípicos se desvían significativamente de comportamiento esperado", de: "Inliers entsprechen normalen Datenmustern, Outliers weichen signifikant vom erwarteten Verhalten ab", nl: "Inliers conformeren aan normale datapatronen, outliers wijken significant af van verwacht gedrag" },
+          { en: "Inliers are inside the dataset, outliers are outside", es: "Valores internos están dentro del conjunto de datos, valores atípicos están fuera", de: "Inliers sind innerhalb des Datensatzes, Outliers sind außerhalb", nl: "Inliers zijn binnen de dataset, outliers zijn buiten" },
+          { en: "Inliers are more important than outliers", es: "Valores internos son más importantes que valores atípicos", de: "Inliers sind wichtiger als Outliers", nl: "Inliers zijn belangrijker dan outliers" },
+          { en: "Outliers are always errors in data collection", es: "Valores atípicos son siempre errores en recolección de datos", de: "Outliers sind immer Fehler in Datensammlung", nl: "Outliers zijn altijd fouten in dataverzameling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Inliers are data points that fit the normal pattern or distribution of the dataset, representing typical behavior. Outliers are anomalous points that significantly deviate from this pattern, potentially indicating fraud, defects, errors, or rare but important events. Distinguishing between them is the core goal of anomaly detection.",
+          es: "Valores internos son puntos de datos que se ajustan al patrón o distribución normal del conjunto de datos, representando comportamiento típico. Valores atípicos son puntos anómalos que se desvían significativamente de este patrón, potencialmente indicando fraude, defectos, errores o eventos raros pero importantes. Distinguir entre ellos es el objetivo central de detección de anomalías.",
+          de: "Inliers sind Datenpunkte die zum normalen Muster oder Verteilung des Datensatzes passen, repräsentieren typisches Verhalten. Outliers sind anomale Punkte die signifikant von diesem Muster abweichen, potentiell Betrug, Defekte, Fehler oder seltene aber wichtige Ereignisse anzeigen. Zwischen ihnen zu unterscheiden ist das Kernziel der Anomalieerkennung.",
+          nl: "Inliers zijn datapunten die passen bij het normale patroon of distributie van de dataset, vertegenwoordigen typisch gedrag. Outliers zijn anomale punten die significant afwijken van dit patroon, mogelijk wijzend op fraude, defecten, fouten of zeldzame maar belangrijke gebeurtenissen. Onderscheid maken tussen hen is het kerndoel van anomalie detectie."
+        }
+      },
+      {
+        question: {
+          en: "What is isolation forest and how does it detect anomalies?",
+          es: "¿Qué es isolation forest y cómo detecta anomalías?",
+          de: "Was ist Isolation Forest und wie erkennt es Anomalien?",
+          nl: "Wat is isolation forest en hoe detecteert het anomalieën?"
+        },
+        options: [
+          { en: "Builds random trees where anomalies are isolated faster with shorter paths due to their distinctiveness", es: "Construye árboles aleatorios donde anomalías se aíslan más rápido con caminos más cortos debido a su distintividad", de: "Baut zufällige Bäume wo Anomalien schneller mit kürzeren Pfaden isoliert werden aufgrund ihrer Unterscheidbarkeit", nl: "Bouwt willekeurige bomen waar anomalieën sneller worden geïsoleerd met kortere paden vanwege hun onderscheidendheid" },
+          { en: "Isolates anomalies in separate forest regions", es: "Aísla anomalías en regiones forestales separadas", de: "Isoliert Anomalien in separaten Waldregionen", nl: "Isoleert anomalieën in aparte bosregio's" },
+          { en: "Uses forest density to detect anomalies", es: "Usa densidad del bosque para detectar anomalías", de: "Verwendet Walddichte um Anomalien zu erkennen", nl: "Gebruikt bosdichtheid om anomalieën te detecteren" },
+          { en: "Requires labeled anomaly examples for training", es: "Requiere ejemplos de anomalías etiquetadas para entrenamiento", de: "Benötigt beschriftete Anomalie-Beispiele für Training", nl: "Vereist gelabelde anomalie voorbeelden voor training" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Isolation Forest builds random decision trees that recursively split data. Anomalies, being different from normal points, require fewer splits to be isolated (shorter path length). By averaging path lengths across many trees, points with consistently short paths are identified as anomalies. It's efficient and effective for high-dimensional data.",
+          es: "Isolation Forest construye árboles de decisión aleatorios que dividen datos recursivamente. Anomalías, siendo diferentes de puntos normales, requieren menos divisiones para ser aisladas (longitud de camino más corta). Promediando longitudes de camino a través de muchos árboles, puntos con caminos consistentemente cortos se identifican como anomalías. Es eficiente y efectivo para datos de alta dimensión.",
+          de: "Isolation Forest baut zufällige Entscheidungsbäume die Daten rekursiv teilen. Anomalien, die von normalen Punkten verschieden sind, benötigen weniger Splits um isoliert zu werden (kürzere Pfadlänge). Durch Mittelung von Pfadlängen über viele Bäume werden Punkte mit konsistent kurzen Pfaden als Anomalien identifiziert. Es ist effizient und effektiv für hochdimensionale Daten.",
+          nl: "Isolation Forest bouwt willekeurige beslissingsbomen die data recursief splitsen. Anomalieën, zijnde verschillend van normale punten, vereisen minder splits om geïsoleerd te worden (kortere padlengte). Door middeling van padlengtes over veel bomen worden punten met consistent korte paden geïdentificeerd als anomalieën. Het is efficiënt en effectief voor hoogdimensionale data."
+        }
+      },
+      {
+        question: {
+          en: "What is one-class SVM and when is it used for anomaly detection?",
+          es: "¿Qué es one-class SVM y cuándo se usa para detección de anomalías?",
+          de: "Was ist One-Class SVM und wann wird es für Anomalieerkennung verwendet?",
+          nl: "Wat is one-class SVM en wanneer wordt het gebruikt voor anomalie detectie?"
+        },
+        options: [
+          { en: "Learns decision boundary around normal data in high-dimensional space, classifies points outside as anomalies", es: "Aprende límite de decisión alrededor de datos normales en espacio de alta dimensión, clasifica puntos fuera como anomalías", de: "Lernt Entscheidungsgrenze um normale Daten in hochdimensionalem Raum, klassifiziert Punkte außerhalb als Anomalien", nl: "Leert beslissingsgrens rond normale data in hoogdimensionale ruimte, classificeert punten buiten als anomalieën" },
+          { en: "Only works with one class of labeled data", es: "Solo funciona con una clase de datos etiquetados", de: "Funktioniert nur mit einer Klasse beschrifteter Daten", nl: "Werkt alleen met één klasse gelabelde data" },
+          { en: "Uses a single support vector for classification", es: "Usa un solo vector de soporte para clasificación", de: "Verwendet einen einzelnen Support-Vektor für Klassifikation", nl: "Gebruikt één enkele support vector voor classificatie" },
+          { en: "Detects anomalies in univariate data only", es: "Detecta anomalías solo en datos univariados", de: "Erkennt Anomalien nur in univariaten Daten", nl: "Detecteert anomalieën alleen in univariate data" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "One-class SVM learns a decision boundary that encompasses the normal training data in a high-dimensional feature space. It finds a hyperplane that separates normal data from the origin with maximum margin. Points falling outside this boundary are classified as anomalies. Useful when only normal examples are available for training.",
+          es: "One-class SVM aprende un límite de decisión que abarca datos de entrenamiento normales en espacio de características de alta dimensión. Encuentra un hiperplano que separa datos normales del origen con margen máximo. Puntos que caen fuera de este límite se clasifican como anomalías. Útil cuando solo ejemplos normales están disponibles para entrenamiento.",
+          de: "One-Class SVM lernt eine Entscheidungsgrenze die normale Trainingsdaten in einem hochdimensionalen Feature-Raum umfasst. Es findet eine Hyperebene die normale Daten vom Ursprung mit maximalem Abstand trennt. Punkte die außerhalb dieser Grenze fallen werden als Anomalien klassifiziert. Nützlich wenn nur normale Beispiele für Training verfügbar sind.",
+          nl: "One-class SVM leert een beslissingsgrens die normale trainingsdata omvat in een hoogdimensionale feature ruimte. Het vindt een hypervlak dat normale data scheidt van de oorsprong met maximale marge. Punten die buiten deze grens vallen worden geclassificeerd als anomalieën. Nuttig wanneer alleen normale voorbeelden beschikbaar zijn voor training."
+        }
+      },
+      {
+        question: {
+          en: "What is the curse of dimensionality and how does it affect clustering algorithms?",
+          es: "¿Qué es la maldición de la dimensionalidad y cómo afecta algoritmos de clustering?",
+          de: "Was ist der Fluch der Dimensionalität und wie beeinflusst er Clustering-Algorithmen?",
+          nl: "Wat is de vloek van dimensionaliteit en hoe beïnvloedt het clustering algoritmes?"
+        },
+        options: [
+          { en: "High dimensions make distances uniform and data sparse, reducing clustering effectiveness and requiring dimensionality reduction", es: "Altas dimensiones hacen distancias uniformes y datos dispersos, reduciendo efectividad de clustering y requiriendo reducción de dimensionalidad", de: "Hohe Dimensionen machen Abstände uniform und Daten spärlich, reduziert Clustering-Effektivität und erfordert Dimensionalitätsreduktion", nl: "Hoge dimensies maken afstanden uniform en data schaars, vermindert clustering effectiviteit en vereist dimensionaliteitsreductie" },
+          { en: "More dimensions always improve clustering quality", es: "Más dimensiones siempre mejoran calidad de clustering", de: "Mehr Dimensionen verbessern immer Clustering-Qualität", nl: "Meer dimensies verbeteren altijd clustering kwaliteit" },
+          { en: "Dimensions become cursed after data transformation", es: "Dimensiones se maldicen después de transformación de datos", de: "Dimensionen werden verflucht nach Datentransformation", nl: "Dimensies worden vervloekt na datatransformatie" },
+          { en: "Only affects supervised learning algorithms", es: "Solo afecta algoritmos de aprendizaje supervisado", de: "Betrifft nur überwachte Lernalgorithmen", nl: "Beïnvloedt alleen gesuperviseerde leeralgoritmes" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In high-dimensional spaces, data becomes increasingly sparse and distances between points become similar, making it hard to distinguish clusters. Distance metrics lose discriminative power, nearest neighbors become less meaningful, and clustering algorithms struggle. Dimensionality reduction techniques like PCA, t-SNE, or feature selection are crucial for effective clustering.",
+          es: "En espacios de alta dimensión, datos se vuelven cada vez más dispersos y distancias entre puntos se vuelven similares, dificultando distinguir clusters. Métricas de distancia pierden poder discriminativo, vecinos más cercanos se vuelven menos significativos y algoritmos de clustering luchan. Técnicas de reducción de dimensionalidad como PCA, t-SNE o selección de características son cruciales para clustering efectivo.",
+          de: "In hochdimensionalen Räumen werden Daten zunehmend spärlich und Abstände zwischen Punkten werden ähnlich, macht es schwer Cluster zu unterscheiden. Distanzmetriken verlieren diskriminative Kraft, nächste Nachbarn werden weniger bedeutungsvoll und Clustering-Algorithmen kämpfen. Dimensionalitätsreduktionstechniken wie PCA, t-SNE oder Feature-Selektion sind entscheidend für effektives Clustering.",
+          nl: "In hoogdimensionale ruimtes wordt data steeds schaarser en afstanden tussen punten worden vergelijkbaar, maakt het moeilijk om clusters te onderscheiden. Afstandsmetrieken verliezen onderscheidend vermogen, dichtstbijzijnde buren worden minder betekenisvol en clustering algoritmes worstelen. Dimensionaliteitsreductietechnieken zoals PCA, t-SNE of feature selectie zijn cruciaal voor effectieve clustering."
+        }
+      },
+      {
+        question: {
+          en: "What is agglomerative vs divisive hierarchical clustering?",
+          es: "¿Qué es clustering jerárquico aglomerativo vs divisivo?",
+          de: "Was ist agglomeratives vs divisives hierarchisches Clustering?",
+          nl: "Wat is agglomeratieve vs divisieve hiërarchische clustering?"
+        },
+        options: [
+          { en: "Agglomerative starts with individual points and merges, divisive starts with all points and splits clusters", es: "Aglomerativo comienza con puntos individuales y fusiona, divisivo comienza con todos los puntos y divide clusters", de: "Agglomerativ beginnt mit einzelnen Punkten und verschmilzt, divisiv beginnt mit allen Punkten und teilt Cluster", nl: "Agglomeratief begint met individuele punten en voegt samen, divisief begint met alle punten en splitst clusters" },
+          { en: "Agglomerative adds points, divisive removes outliers", es: "Aglomerativo agrega puntos, divisivo elimina valores atípicos", de: "Agglomerativ fügt Punkte hinzu, divisiv entfernt Ausreißer", nl: "Agglomeratief voegt punten toe, divisief verwijdert uitbijters" },
+          { en: "Divisive clustering is always faster", es: "Clustering divisivo siempre es más rápido", de: "Divisives Clustering ist immer schneller", nl: "Divisieve clustering is altijd sneller" },
+          { en: "Agglomerative requires fewer computational resources", es: "Aglomerativo requiere menos recursos computacionales", de: "Agglomerativ benötigt weniger Rechenressourcen", nl: "Agglomeratief vereist minder computationele middelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Agglomerative (bottom-up) clustering starts with each point as its own cluster and iteratively merges the closest pairs until one cluster remains. Divisive (top-down) starts with all points in one cluster and recursively splits into smaller clusters. Agglomerative is more common as divisive requires expensive splitting decisions at each step.",
+          es: "Clustering aglomerativo (de abajo hacia arriba) comienza con cada punto como su propio cluster e iterativamente fusiona pares más cercanos hasta que queda un cluster. Divisivo (de arriba hacia abajo) comienza con todos los puntos en un cluster y recursivamente divide en clusters más pequeños. Aglomerativo es más común ya que divisivo requiere decisiones de división costosas en cada paso.",
+          de: "Agglomeratives (Bottom-Up) Clustering beginnt mit jedem Punkt als eigenem Cluster und verschmilzt iterativ die nächsten Paare bis ein Cluster übrig bleibt. Divisiv (Top-Down) beginnt mit allen Punkten in einem Cluster und teilt rekursiv in kleinere Cluster. Agglomerativ ist häufiger da divisiv teure Splitting-Entscheidungen bei jedem Schritt erfordert.",
+          nl: "Agglomeratieve (bottom-up) clustering begint met elk punt als eigen cluster en voegt iteratief de dichtstbijzijnde paren samen tot één cluster overblijft. Divisief (top-down) begint met alle punten in één cluster en splitst recursief in kleinere clusters. Agglomeratief is gebruikelijker omdat divisief dure splitsing beslissingen vereist bij elke stap."
+        }
+      },
+      {
+        question: {
+          en: "What are linkage criteria in hierarchical clustering and how do they differ?",
+          es: "¿Qué son criterios de enlace en clustering jerárquico y cómo difieren?",
+          de: "Was sind Verknüpfungskriterien in hierarchischem Clustering und wie unterscheiden sie sich?",
+          nl: "Wat zijn linkage criteria in hiërarchische clustering en hoe verschillen ze?"
+        },
+        options: [
+          { en: "Define cluster distance: single (minimum), complete (maximum), average, ward (variance minimization)", es: "Definen distancia de cluster: simple (mínimo), completo (máximo), promedio, ward (minimización de varianza)", de: "Definieren Cluster-Distanz: single (minimum), complete (maximum), average, ward (Varianzminimierung)", nl: "Definiëren clusterafstand: single (minimum), complete (maximum), average, ward (variantieminimalisatie)" },
+          { en: "Link clusters based on density thresholds", es: "Enlazan clusters basado en umbrales de densidad", de: "Verknüpfen Cluster basierend auf Dichteschwellen", nl: "Koppelen clusters gebaseerd op dichtheidsdrempels" },
+          { en: "Determine when to stop merging clusters", es: "Determinan cuándo dejar de fusionar clusters", de: "Bestimmen wann Cluster-Verschmelzung gestoppt wird", nl: "Bepalen wanneer stoppen met samenvoegen van clusters" },
+          { en: "All linkage methods produce identical results", es: "Todos los métodos de enlace producen resultados idénticos", de: "Alle Verknüpfungsmethoden produzieren identische Ergebnisse", nl: "Alle linkage methoden produceren identieke resultaten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Linkage criteria determine how to measure distance between clusters: Single linkage uses minimum distance between any two points (can create long chains), complete uses maximum distance (creates compact clusters), average uses mean of all pairwise distances, and Ward's minimizes within-cluster variance (often produces balanced clusters).",
+          es: "Criterios de enlace determinan cómo medir distancia entre clusters: Enlace simple usa distancia mínima entre dos puntos cualesquiera (puede crear cadenas largas), completo usa distancia máxima (crea clusters compactos), promedio usa media de todas las distancias por pares, y Ward minimiza varianza intra-cluster (a menudo produce clusters equilibrados).",
+          de: "Verknüpfungskriterien bestimmen wie Distanz zwischen Clustern gemessen wird: Single Linkage verwendet minimale Distanz zwischen zwei Punkten (kann lange Ketten erstellen), Complete verwendet maximale Distanz (erstellt kompakte Cluster), Average verwendet Mittelwert aller paarweisen Distanzen, und Ward minimiert Innerhalb-Cluster-Varianz (produziert oft ausgewogene Cluster).",
+          nl: "Linkage criteria bepalen hoe afstand tussen clusters te meten: Single linkage gebruikt minimale afstand tussen twee punten (kan lange ketens creëren), complete gebruikt maximale afstand (creëert compacte clusters), average gebruikt gemiddelde van alle paarsgewijze afstanden, en Ward minimaliseert binnen-cluster variantie (produceert vaak gebalanceerde clusters)."
+        }
+      },
+      {
+        question: {
+          en: "What is the Davies-Bouldin index and what does a lower value indicate?",
+          es: "¿Qué es el índice Davies-Bouldin y qué indica un valor más bajo?",
+          de: "Was ist der Davies-Bouldin-Index und was zeigt ein niedrigerer Wert an?",
+          nl: "Wat is de Davies-Bouldin index en wat geeft een lagere waarde aan?"
+        },
+        options: [
+          { en: "Measures cluster separation and compactness; lower values indicate better-defined, well-separated clusters", es: "Mide separación y compacidad de clusters; valores más bajos indican clusters mejor definidos y bien separados", de: "Misst Cluster-Trennung und Kompaktheit; niedrigere Werte zeigen besser definierte, gut getrennte Cluster an", nl: "Meet clusterscheiding en compactheid; lagere waarden geven beter gedefinieerde, goed gescheiden clusters aan" },
+          { en: "Higher values always mean better clustering", es: "Valores más altos siempre significan mejor clustering", de: "Höhere Werte bedeuten immer besseres Clustering", nl: "Hogere waarden betekenen altijd betere clustering" },
+          { en: "Only applicable to k-means clustering", es: "Solo aplicable a clustering k-means", de: "Nur anwendbar auf k-means Clustering", nl: "Alleen toepasbaar op k-means clustering" },
+          { en: "Requires labeled data for calculation", es: "Requiere datos etiquetados para cálculo", de: "Benötigt beschriftete Daten für Berechnung", nl: "Vereist gelabelde data voor berekening" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Davies-Bouldin index evaluates clustering quality by calculating the average similarity ratio between each cluster and its most similar cluster, considering both cluster scatter (compactness) and separation. Lower values indicate clusters are compact and well-separated. Unlike silhouette score, it's based on cluster centroids and is computationally efficient.",
+          es: "Índice Davies-Bouldin evalúa calidad de clustering calculando ratio promedio de similitud entre cada cluster y su cluster más similar, considerando dispersión de cluster (compacidad) y separación. Valores más bajos indican que clusters son compactos y bien separados. A diferencia de puntaje silueta, se basa en centroides de cluster y es computacionalmente eficiente.",
+          de: "Davies-Bouldin-Index bewertet Clustering-Qualität durch Berechnung des durchschnittlichen Ähnlichkeitsverhältnisses zwischen jedem Cluster und seinem ähnlichsten Cluster, berücksichtigt sowohl Cluster-Streuung (Kompaktheit) als auch Trennung. Niedrigere Werte zeigen dass Cluster kompakt und gut getrennt sind. Im Gegensatz zu Silhouette-Score basiert er auf Cluster-Zentroiden und ist rechnerisch effizient.",
+          nl: "Davies-Bouldin index evalueert clustering kwaliteit door de gemiddelde gelijkenis ratio te berekenen tussen elk cluster en zijn meest vergelijkbare cluster, rekening houdend met zowel cluster spreiding (compactheid) als scheiding. Lagere waarden geven aan dat clusters compact en goed gescheiden zijn. In tegenstelling tot silhouette score is het gebaseerd op cluster centroïden en is computationeel efficiënt."
+        }
+      },
+      {
+        question: {
+          en: "What is principal component analysis (PCA) and how does it achieve dimensionality reduction?",
+          es: "¿Qué es análisis de componentes principales (PCA) y cómo logra reducción de dimensionalidad?",
+          de: "Was ist Hauptkomponentenanalyse (PCA) und wie erreicht sie Dimensionalitätsreduktion?",
+          nl: "Wat is principal component analysis (PCA) en hoe bereikt het dimensionaliteitsreductie?"
+        },
+        options: [
+          { en: "Finds orthogonal directions of maximum variance and projects data onto top principal components", es: "Encuentra direcciones ortogonales de máxima varianza y proyecta datos en componentes principales superiores", de: "Findet orthogonale Richtungen maximaler Varianz und projiziert Daten auf Top-Hauptkomponenten", nl: "Vindt orthogonale richtingen van maximale variantie en projecteert data op top principale componenten" },
+          { en: "Removes principal features from the dataset", es: "Elimina características principales del conjunto de datos", de: "Entfernt Hauptmerkmale aus dem Datensatz", nl: "Verwijdert principale features uit de dataset" },
+          { en: "Analyzes only categorical components", es: "Analiza solo componentes categóricos", de: "Analysiert nur kategorische Komponenten", nl: "Analyseert alleen categorische componenten" },
+          { en: "Requires labeled data for supervised reduction", es: "Requiere datos etiquetados para reducción supervisada", de: "Benötigt beschriftete Daten für überwachte Reduktion", nl: "Vereist gelabelde data voor gesuperviseerde reductie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "PCA identifies directions (principal components) along which data varies most by computing eigenvectors of the covariance matrix. By projecting data onto the top k components that capture most variance, it reduces dimensions while preserving maximum information. It's linear, unsupervised, and commonly used for visualization and noise reduction.",
+          es: "PCA identifica direcciones (componentes principales) a lo largo de las cuales los datos varían más calculando eigenvectores de matriz de covarianza. Al proyectar datos en los k componentes superiores que capturan la mayor varianza, reduce dimensiones preservando máxima información. Es lineal, no supervisado y comúnmente usado para visualización y reducción de ruido.",
+          de: "PCA identifiziert Richtungen (Hauptkomponenten) entlang derer Daten am meisten variieren durch Berechnung von Eigenvektoren der Kovarianzmatrix. Durch Projektion von Daten auf die Top-k-Komponenten die die meiste Varianz erfassen, reduziert es Dimensionen während maximale Information erhalten bleibt. Es ist linear, unüberwacht und häufig verwendet für Visualisierung und Rauschreduktion.",
+          nl: "PCA identificeert richtingen (principale componenten) waarlangs data het meest varieert door eigenvectoren van de covariantiematrix te berekenen. Door data te projecteren op de top k componenten die de meeste variantie vastleggen, reduceert het dimensies terwijl maximale informatie behouden blijft. Het is lineair, ongesuperviseerd en vaak gebruikt voor visualisatie en ruisreductie."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between PCA and linear discriminant analysis (LDA)?",
+          es: "¿Cuál es la diferencia entre PCA y análisis discriminante lineal (LDA)?",
+          de: "Was ist der Unterschied zwischen PCA und linearer Diskriminanzanalyse (LDA)?",
+          nl: "Wat is het verschil tussen PCA en linear discriminant analysis (LDA)?"
+        },
+        options: [
+          { en: "PCA maximizes variance (unsupervised), LDA maximizes class separability (supervised)", es: "PCA maximiza varianza (no supervisado), LDA maximiza separabilidad de clases (supervisado)", de: "PCA maximiert Varianz (unüberwacht), LDA maximiert Klassentrennung (überwacht)", nl: "PCA maximaliseert variantie (ongesuperviseerd), LDA maximaliseert klassenscheidbaarheid (gesuperviseerd)" },
+          { en: "PCA requires labeled data, LDA doesn't", es: "PCA requiere datos etiquetados, LDA no", de: "PCA benötigt beschriftete Daten, LDA nicht", nl: "PCA vereist gelabelde data, LDA niet" },
+          { en: "LDA is always better than PCA", es: "LDA siempre es mejor que PCA", de: "LDA ist immer besser als PCA", nl: "LDA is altijd beter dan PCA" },
+          { en: "PCA is supervised, LDA is unsupervised", es: "PCA es supervisado, LDA es no supervisado", de: "PCA ist überwacht, LDA ist unüberwacht", nl: "PCA is gesuperviseerd, LDA is ongesuperviseerd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "PCA is unsupervised and finds directions of maximum variance in data without considering class labels, optimizing for overall data spread. LDA is supervised and finds directions that maximize separation between classes while minimizing within-class variance, making it more suitable for classification tasks but requiring labeled data.",
+          es: "PCA es no supervisado y encuentra direcciones de máxima varianza en datos sin considerar etiquetas de clase, optimizando para dispersión general de datos. LDA es supervisado y encuentra direcciones que maximizan separación entre clases mientras minimizan varianza intra-clase, haciéndolo más adecuado para tareas de clasificación pero requiriendo datos etiquetados.",
+          de: "PCA ist unüberwacht und findet Richtungen maximaler Varianz in Daten ohne Klassenlabels zu berücksichtigen, optimiert für gesamte Datenverteilung. LDA ist überwacht und findet Richtungen die Trennung zwischen Klassen maximieren während Innerhalb-Klassen-Varianz minimiert wird, macht es geeigneter für Klassifikationsaufgaben aber benötigt beschriftete Daten.",
+          nl: "PCA is ongesuperviseerd en vindt richtingen van maximale variantie in data zonder rekening te houden met klasselabels, optimaliseert voor algemene dataspreiding. LDA is gesuperviseerd en vindt richtingen die scheiding tussen klassen maximaliseren terwijl binnen-klasse variantie wordt geminimaliseerd, maakt het geschikter voor classificatietaken maar vereist gelabelde data."
+        }
+      },
+      {
+        question: {
+          en: "What is association rule mining and what is the Apriori algorithm used for?",
+          es: "¿Qué es minería de reglas de asociación y para qué se usa el algoritmo Apriori?",
+          de: "Was ist Assoziationsregel-Mining und wofür wird der Apriori-Algorithmus verwendet?",
+          nl: "Wat is associatieregel mining en waarvoor wordt het Apriori algoritme gebruikt?"
+        },
+        options: [
+          { en: "Discovers frequent itemsets and rules showing relationships between items, used for market basket analysis", es: "Descubre conjuntos de ítems frecuentes y reglas que muestran relaciones entre ítems, usado para análisis de cesta de mercado", de: "Entdeckt häufige Itemsets und Regeln die Beziehungen zwischen Items zeigen, verwendet für Warenkorbanalyse", nl: "Ontdekt frequente itemsets en regels die relaties tussen items tonen, gebruikt voor marktmandje analyse" },
+          { en: "Associates features with target variables", es: "Asocia características con variables objetivo", de: "Assoziiert Features mit Zielvariablen", nl: "Associeert features met doelvariabelen" },
+          { en: "Mines rules only from labeled datasets", es: "Mina reglas solo de conjuntos de datos etiquetados", de: "Schürft Regeln nur aus beschrifteten Datensätzen", nl: "Delft regels alleen uit gelabelde datasets" },
+          { en: "Prioritizes important features before analysis", es: "Prioriza características importantes antes del análisis", de: "Priorisiert wichtige Features vor der Analyse", nl: "Prioriteert belangrijke features voor analyse" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Association rule mining discovers patterns like 'customers who buy X also buy Y' by finding frequent itemsets (sets of items that often occur together) and deriving rules with measures like support, confidence, and lift. Apriori algorithm efficiently finds frequent itemsets using the principle that subsets of frequent itemsets must also be frequent.",
+          es: "Minería de reglas de asociación descubre patrones como 'clientes que compran X también compran Y' encontrando conjuntos de ítems frecuentes (conjuntos de ítems que a menudo ocurren juntos) y derivando reglas con medidas como soporte, confianza y lift. Algoritmo Apriori encuentra eficientemente conjuntos de ítems frecuentes usando el principio de que subconjuntos de conjuntos de ítems frecuentes también deben ser frecuentes.",
+          de: "Assoziationsregel-Mining entdeckt Muster wie 'Kunden die X kaufen kaufen auch Y' durch Finden häufiger Itemsets (Mengen von Items die oft zusammen vorkommen) und Ableiten von Regeln mit Maßen wie Support, Confidence und Lift. Apriori-Algorithmus findet effizient häufige Itemsets unter Verwendung des Prinzips dass Teilmengen häufiger Itemsets auch häufig sein müssen.",
+          nl: "Associatieregel mining ontdekt patronen zoals 'klanten die X kopen kopen ook Y' door frequente itemsets te vinden (sets van items die vaak samen voorkomen) en regels af te leiden met maten zoals support, confidence en lift. Apriori algoritme vindt efficiënt frequente itemsets met het principe dat deelverzamelingen van frequente itemsets ook frequent moeten zijn."
+        }
+      },
+      {
+        question: {
+          en: "What are support, confidence, and lift in association rule mining?",
+          es: "¿Qué son soporte, confianza y lift en minería de reglas de asociación?",
+          de: "Was sind Support, Confidence und Lift in Assoziationsregel-Mining?",
+          nl: "Wat zijn support, confidence en lift in associatieregel mining?"
+        },
+        options: [
+          { en: "Support: frequency of itemset, confidence: conditional probability, lift: strength of association beyond randomness", es: "Soporte: frecuencia de conjunto de ítems, confianza: probabilidad condicional, lift: fuerza de asociación más allá de aleatoriedad", de: "Support: Häufigkeit des Itemsets, Confidence: bedingte Wahrscheinlichkeit, Lift: Stärke der Assoziation jenseits Zufälligkeit", nl: "Support: frequentie van itemset, confidence: voorwaardelijke waarschijnlijkheid, lift: sterkte van associatie voorbij willekeur" },
+          { en: "Support: data quality, confidence: model accuracy, lift: performance gain", es: "Soporte: calidad de datos, confianza: precisión del modelo, lift: ganancia de rendimiento", de: "Support: Datenqualität, Confidence: Modellgenauigkeit, Lift: Leistungsgewinn", nl: "Support: datakwaliteit, confidence: modelnauwkeurigheid, lift: prestatiewinst" },
+          { en: "All three metrics measure the same thing", es: "Las tres métricas miden lo mismo", de: "Alle drei Metriken messen dasselbe", nl: "Alle drie de metrieken meten hetzelfde" },
+          { en: "Only support is needed for rule mining", es: "Solo se necesita soporte para minería de reglas", de: "Nur Support wird für Regel-Mining benötigt", nl: "Alleen support is nodig voor regel mining" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Support measures how frequently an itemset appears (P(A∩B)), confidence measures conditional probability of consequent given antecedent (P(B|A)), and lift measures how much more likely items occur together than expected by chance (lift>1 indicates positive correlation). These metrics help identify meaningful, non-random associations.",
+          es: "Soporte mide con qué frecuencia aparece un conjunto de ítems (P(A∩B)), confianza mide probabilidad condicional de consecuente dado antecedente (P(B|A)), y lift mide cuánto más probable es que ítems ocurran juntos que lo esperado por azar (lift>1 indica correlación positiva). Estas métricas ayudan a identificar asociaciones significativas no aleatorias.",
+          de: "Support misst wie häufig ein Itemset erscheint (P(A∩B)), Confidence misst bedingte Wahrscheinlichkeit des Konsequenten gegeben Antezedent (P(B|A)), und Lift misst wie viel wahrscheinlicher Items zusammen vorkommen als durch Zufall erwartet (Lift>1 zeigt positive Korrelation). Diese Metriken helfen bedeutungsvolle, nicht-zufällige Assoziationen zu identifizieren.",
+          nl: "Support meet hoe vaak een itemset verschijnt (P(A∩B)), confidence meet voorwaardelijke waarschijnlijkheid van consequent gegeven antecedent (P(B|A)), en lift meet hoeveel waarschijnlijker items samen voorkomen dan verwacht bij toeval (lift>1 duidt op positieve correlatie). Deze metrieken helpen betekenisvolle, niet-willekeurige associaties te identificeren."
+        }
+      },
+      {
+        question: {
+          en: "What is kernel PCA and when is it advantageous over standard PCA?",
+          es: "¿Qué es kernel PCA y cuándo es ventajoso sobre PCA estándar?",
+          de: "Was ist Kernel PCA und wann ist es vorteilhaft gegenüber Standard-PCA?",
+          nl: "Wat is kernel PCA en wanneer is het voordelig boven standaard PCA?"
+        },
+        options: [
+          { en: "Uses kernel trick to perform PCA in high-dimensional space, capturing non-linear patterns standard PCA misses", es: "Usa truco de kernel para realizar PCA en espacio de alta dimensión, capturando patrones no lineales que PCA estándar pierde", de: "Verwendet Kernel-Trick um PCA in hochdimensionalem Raum durchzuführen, erfasst nicht-lineare Muster die Standard-PCA verfehlt", nl: "Gebruikt kernel truc om PCA uit te voeren in hoogdimensionale ruimte, vangt niet-lineaire patronen die standaard PCA mist" },
+          { en: "Kernel PCA is faster than standard PCA", es: "Kernel PCA es más rápido que PCA estándar", de: "Kernel PCA ist schneller als Standard-PCA", nl: "Kernel PCA is sneller dan standaard PCA" },
+          { en: "Only works with small datasets", es: "Solo funciona con conjuntos de datos pequeños", de: "Funktioniert nur mit kleinen Datensätzen", nl: "Werkt alleen met kleine datasets" },
+          { en: "Requires less computational resources", es: "Requiere menos recursos computacionales", de: "Benötigt weniger Rechenressourcen", nl: "Vereist minder computationele middelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Kernel PCA applies the kernel trick to perform PCA in a high-dimensional feature space without explicitly computing the transformation. By using kernels (like RBF, polynomial), it can capture non-linear relationships in data that linear PCA cannot, making it useful when data has complex, non-linear structure, though at higher computational cost.",
+          es: "Kernel PCA aplica el truco del kernel para realizar PCA en un espacio de características de alta dimensión sin calcular explícitamente la transformación. Al usar kernels (como RBF, polinomial), puede capturar relaciones no lineales en datos que PCA lineal no puede, haciéndolo útil cuando datos tienen estructura compleja no lineal, aunque con mayor costo computacional.",
+          de: "Kernel PCA wendet den Kernel-Trick an um PCA in einem hochdimensionalen Feature-Raum durchzuführen ohne die Transformation explizit zu berechnen. Durch Verwendung von Kernels (wie RBF, polynomial) kann es nicht-lineare Beziehungen in Daten erfassen die lineares PCA nicht kann, macht es nützlich wenn Daten komplexe, nicht-lineare Struktur haben, allerdings mit höheren Rechenkosten.",
+          nl: "Kernel PCA past de kernel truc toe om PCA uit te voeren in een hoogdimensionale feature ruimte zonder de transformatie expliciet te berekenen. Door kernels te gebruiken (zoals RBF, polynomiaal) kan het niet-lineaire relaties in data vastleggen die lineaire PCA niet kan, maakt het nuttig wanneer data complexe, niet-lineaire structuur heeft, hoewel tegen hogere computationele kosten."
+        }
+      },
+      {
+        question: {
+          en: "What is non-negative matrix factorization (NMF) and what advantage does it have for interpretability?",
+          es: "¿Qué es factorización de matriz no negativa (NMF) y qué ventaja tiene para interpretabilidad?",
+          de: "Was ist nicht-negative Matrixfaktorisierung (NMF) und welchen Vorteil hat sie für Interpretierbarkeit?",
+          nl: "Wat is non-negatieve matrix factorisatie (NMF) en welk voordeel heeft het voor interpreteerbaarheid?"
+        },
+        options: [
+          { en: "Decomposes data into non-negative factors, producing additive parts-based representations easier to interpret", es: "Descompone datos en factores no negativos, produciendo representaciones aditivas basadas en partes más fáciles de interpretar", de: "Zerlegt Daten in nicht-negative Faktoren, produziert additive teilebasierte Darstellungen die einfacher zu interpretieren sind", nl: "Decomponneert data in niet-negatieve factoren, produceert additieve op onderdelen gebaseerde representaties die makkelijker te interpreteren zijn" },
+          { en: "Only works with negative values in datasets", es: "Solo funciona con valores negativos en conjuntos de datos", de: "Funktioniert nur mit negativen Werten in Datensätzen", nl: "Werkt alleen met negatieve waarden in datasets" },
+          { en: "NMF is always faster than PCA", es: "NMF siempre es más rápido que PCA", de: "NMF ist immer schneller als PCA", nl: "NMF is altijd sneller dan PCA" },
+          { en: "Negative matrix values improve accuracy", es: "Valores de matriz negativos mejoran precisión", de: "Negative Matrixwerte verbessern Genauigkeit", nl: "Negatieve matrixwaarden verbeteren nauwkeurigheid" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "NMF factorizes a non-negative matrix V into two non-negative matrices W and H such that V≈WH. The non-negativity constraint leads to parts-based representations where components can only be added, never subtracted. This makes results more interpretable, particularly useful in topic modeling, image processing, and recommender systems where negative values lack meaning.",
+          es: "NMF factoriza una matriz no negativa V en dos matrices no negativas W y H tal que V≈WH. La restricción de no negatividad conduce a representaciones basadas en partes donde componentes solo pueden agregarse, nunca restarse. Esto hace resultados más interpretables, particularmente útil en modelado de temas, procesamiento de imágenes y sistemas de recomendación donde valores negativos carecen de significado.",
+          de: "NMF faktorisiert eine nicht-negative Matrix V in zwei nicht-negative Matrizen W und H sodass V≈WH. Die Nicht-Negativitätsbeschränkung führt zu teilebasierten Darstellungen wo Komponenten nur addiert, nie subtrahiert werden können. Dies macht Ergebnisse interpretierbarer, besonders nützlich in Topic Modeling, Bildverarbeitung und Empfehlungssystemen wo negative Werte keine Bedeutung haben.",
+          nl: "NMF factoriseert een niet-negatieve matrix V in twee niet-negatieve matrices W en H zodat V≈WH. De niet-negativiteitsbeperking leidt tot op onderdelen gebaseerde representaties waar componenten alleen toegevoegd kunnen worden, nooit afgetrokken. Dit maakt resultaten interpreteerbaarder, bijzonder nuttig in topic modeling, beeldverwerking en aanbevelingssystemen waar negatieve waarden geen betekenis hebben."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between hard and soft clustering methods?",
+          es: "¿Cuál es la diferencia entre métodos de clustering duro y suave?",
+          de: "Was ist der Unterschied zwischen harten und weichen Clustering-Methoden?",
+          nl: "Wat is het verschil tussen harde en zachte clustering methoden?"
+        },
+        options: [
+          { en: "Hard assigns each point to exactly one cluster, soft allows probabilistic membership in multiple clusters", es: "Duro asigna cada punto a exactamente un cluster, suave permite membresía probabilística en múltiples clusters", de: "Hart weist jeden Punkt genau einem Cluster zu, weich erlaubt probabilistische Zugehörigkeit in mehreren Clustern", nl: "Hard wijst elk punt toe aan precies één cluster, zacht staat probabilistische lidmaatschap in meerdere clusters toe" },
+          { en: "Hard clustering is more computationally intensive", es: "Clustering duro es más intensivo computacionalmente", de: "Hartes Clustering ist rechenintensiver", nl: "Hard clustering is computationeel intensiever" },
+          { en: "Soft clustering requires labeled data", es: "Clustering suave requiere datos etiquetados", de: "Weiches Clustering benötigt beschriftete Daten", nl: "Zacht clustering vereist gelabelde data" },
+          { en: "Hard clustering produces better results", es: "Clustering duro produce mejores resultados", de: "Hartes Clustering produziert bessere Ergebnisse", nl: "Hard clustering produceert betere resultaten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hard clustering (like k-means) assigns each data point to exactly one cluster with binary membership. Soft (fuzzy) clustering (like GMM, fuzzy c-means) assigns membership probabilities to all clusters, allowing points to partially belong to multiple clusters. Soft clustering provides richer information about uncertainty and overlapping clusters.",
+          es: "Clustering duro (como k-means) asigna cada punto de datos a exactamente un cluster con membresía binaria. Clustering suave (difuso) (como GMM, c-means difuso) asigna probabilidades de membresía a todos los clusters, permitiendo que puntos pertenezcan parcialmente a múltiples clusters. Clustering suave proporciona información más rica sobre incertidumbre y clusters superpuestos.",
+          de: "Hartes Clustering (wie k-means) weist jeden Datenpunkt genau einem Cluster mit binärer Zugehörigkeit zu. Weiches (Fuzzy) Clustering (wie GMM, Fuzzy C-Means) weist Zugehörigkeitswahrscheinlichkeiten zu allen Clustern zu, erlaubt Punkten teilweise zu mehreren Clustern zu gehören. Weiches Clustering bietet reichere Information über Unsicherheit und überlappende Cluster.",
+          nl: "Hard clustering (zoals k-means) wijst elk datapunt toe aan precies één cluster met binair lidmaatschap. Zachte (fuzzy) clustering (zoals GMM, fuzzy c-means) wijst lidmaatschapswaarschijnlijkheden toe aan alle clusters, staat punten toe om gedeeltelijk tot meerdere clusters te behoren. Zachte clustering biedt rijkere informatie over onzekerheid en overlappende clusters."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between local and global outliers in anomaly detection?",
+          es: "¿Cuál es la diferencia entre valores atípicos locales y globales en detección de anomalías?",
+          de: "Was ist der Unterschied zwischen lokalen und globalen Outliers in Anomalieerkennung?",
+          nl: "Wat is het verschil tussen lokale en globale outliers in anomalie detectie?"
+        },
+        options: [
+          { en: "Global outliers deviate from entire dataset, local outliers deviate only from their neighborhood despite being normal globally", es: "Valores atípicos globales se desvían de todo el conjunto de datos, valores atípicos locales se desvían solo de su vecindario a pesar de ser normales globalmente", de: "Globale Outliers weichen vom gesamten Datensatz ab, lokale Outliers weichen nur von ihrer Nachbarschaft ab trotz global normal zu sein", nl: "Globale outliers wijken af van hele dataset, lokale outliers wijken alleen af van hun buurt ondanks globaal normaal te zijn" },
+          { en: "Local outliers are less important than global outliers", es: "Valores atípicos locales son menos importantes que valores atípicos globales", de: "Lokale Outliers sind weniger wichtig als globale Outliers", nl: "Lokale outliers zijn minder belangrijk dan globale outliers" },
+          { en: "Global outliers are always easier to detect", es: "Valores atípicos globales siempre son más fáciles de detectar", de: "Globale Outliers sind immer einfacher zu erkennen", nl: "Globale outliers zijn altijd makkelijker te detecteren" },
+          { en: "Local outliers require more computational resources", es: "Valores atípicos locales requieren más recursos computacionales", de: "Lokale Outliers benötigen mehr Rechenressourcen", nl: "Lokale outliers vereisen meer computationele middelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Global outliers are points that are anomalous with respect to the entire dataset (e.g., very high value in uniformly low data). Local outliers (contextual anomalies) are unusual only within their local context or neighborhood, even if their values are normal globally. Local outlier detection methods like LOF (Local Outlier Factor) are needed for such cases.",
+          es: "Valores atípicos globales son puntos que son anómalos con respecto a todo el conjunto de datos (ej., valor muy alto en datos uniformemente bajos). Valores atípicos locales (anomalías contextuales) son inusuales solo dentro de su contexto local o vecindario, incluso si sus valores son normales globalmente. Métodos de detección de valores atípicos locales como LOF (Factor de Valor Atípico Local) son necesarios para tales casos.",
+          de: "Globale Outliers sind Punkte die in Bezug auf den gesamten Datensatz anomal sind (z.B., sehr hoher Wert in gleichmäßig niedrigen Daten). Lokale Outliers (kontextuelle Anomalien) sind nur innerhalb ihres lokalen Kontexts oder Nachbarschaft ungewöhnlich, selbst wenn ihre Werte global normal sind. Lokale Outlier-Erkennungsmethoden wie LOF (Local Outlier Factor) sind für solche Fälle erforderlich.",
+          nl: "Globale outliers zijn punten die anomaal zijn ten opzichte van de hele dataset (bijv., zeer hoge waarde in uniform lage data). Lokale outliers (contextuele anomalieën) zijn ongebruikelijk alleen binnen hun lokale context of buurt, zelfs als hun waarden globaal normaal zijn. Lokale outlier detectiemethoden zoals LOF (Local Outlier Factor) zijn nodig voor dergelijke gevallen."
+        }
       }
     ]
   };

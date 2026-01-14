@@ -426,6 +426,406 @@
           es: "Philippa Gregory escribió 'La otra chica Bolena', centrándose en Mary Bolena y su relación con su hermana más famosa Ana y el rey Enrique VIII.",
           de: "Philippa Gregory schrieb 'Das Geheimnis der Boleyn-Schwestern' und konzentriert sich auf Mary Boleyn und ihre Beziehung zu ihrer berühmteren Schwester Anne und König Heinrich VIII.",
           nl: "Philippa Gregory schreef 'Het andere Boleyn-meisje', met focus op Mary Boleyn en haar relatie met haar beroemdere zus Anne en koning Hendrik VIII."
+        }      },
+      {
+        question: {
+          en: "Who wrote Wolf Hall?",
+          es: "Who wrote Wolf Hall?",
+          de: "Who wrote Wolf Hall?",
+          nl: "Who wrote Wolf Hall?"
+        },
+        options: [
+          { en: "Hilary Mantel", es: "Hilary Mantel", de: "Hilary Mantel", nl: "Hilary Mantel" },
+          { en: "Philippa Gregory", es: "Philippa Gregory", de: "Philippa Gregory", nl: "Philippa Gregory" },
+          { en: "Bernard Cornwell", es: "Bernard Cornwell", de: "Bernard Cornwell", nl: "Bernard Cornwell" },
+          { en: "Ken Follett", es: "Ken Follett", de: "Ken Follett", nl: "Ken Follett" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hilary Mantel wrote Wolf Hall in 2009 about Thomas Cromwell.",
+          es: "Hilary Mantel wrote Wolf Hall in 2009 about Thomas Cromwell.",
+          de: "Hilary Mantel wrote Wolf Hall in 2009 about Thomas Cromwell.",
+          nl: "Hilary Mantel wrote Wolf Hall in 2009 about Thomas Cromwell."
+        }      },
+      {
+        question: {
+          en: "The Pillars of the Earth is by?",
+          es: "The Pillars of the Earth is by?",
+          de: "The Pillars of the Earth is by?",
+          nl: "The Pillars of the Earth is by?"
+        },
+        options: [
+          { en: "Ken Follett", es: "Ken Follett", de: "Ken Follett", nl: "Ken Follett" },
+          { en: "Bernard Cornwell", es: "Bernard Cornwell", de: "Bernard Cornwell", nl: "Bernard Cornwell" },
+          { en: "Conn Iggulden", es: "Conn Iggulden", de: "Conn Iggulden", nl: "Conn Iggulden" },
+          { en: "Edward Rutherfurd", es: "Edward Rutherfurd", de: "Edward Rutherfurd", nl: "Edward Rutherfurd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ken Follett wrote The Pillars of the Earth in 1989 about cathedral building.",
+          es: "Ken Follett wrote The Pillars of the Earth in 1989 about cathedral building.",
+          de: "Ken Follett wrote The Pillars of the Earth in 1989 about cathedral building.",
+          nl: "Ken Follett wrote The Pillars of the Earth in 1989 about cathedral building."
+        }      },
+      {
+        question: {
+          en: "Who created the Sharpe series?",
+          es: "Who created the Sharpe series?",
+          de: "Who created the Sharpe series?",
+          nl: "Who created the Sharpe series?"
+        },
+        options: [
+          { en: "Bernard Cornwell", es: "Bernard Cornwell", de: "Bernard Cornwell", nl: "Bernard Cornwell" },
+          { en: "Patrick O'Brian", es: "Patrick O'Brian", de: "Patrick O'Brian", nl: "Patrick O'Brian" },
+          { en: "C.S. Forester", es: "C.S. Forester", de: "C.S. Forester", nl: "C.S. Forester" },
+          { en: "Alexander Kent", es: "Alexander Kent", de: "Alexander Kent", nl: "Alexander Kent" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bernard Cornwell created Richard Sharpe in 1981.",
+          es: "Bernard Cornwell created Richard Sharpe in 1981.",
+          de: "Bernard Cornwell created Richard Sharpe in 1981.",
+          nl: "Bernard Cornwell created Richard Sharpe in 1981."
+        }      },
+      {
+        question: {
+          en: "Gone with the Wind is by?",
+          es: "Gone with the Wind is by?",
+          de: "Gone with the Wind is by?",
+          nl: "Gone with the Wind is by?"
+        },
+        options: [
+          { en: "Margaret Mitchell", es: "Margaret Mitchell", de: "Margaret Mitchell", nl: "Margaret Mitchell" },
+          { en: "Harper Lee", es: "Harper Lee", de: "Harper Lee", nl: "Harper Lee" },
+          { en: "Toni Morrison", es: "Toni Morrison", de: "Toni Morrison", nl: "Toni Morrison" },
+          { en: "Alice Walker", es: "Alice Walker", de: "Alice Walker", nl: "Alice Walker" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Margaret Mitchell wrote Gone with the Wind in 1936 about Civil War.",
+          es: "Margaret Mitchell wrote Gone with the Wind in 1936 about Civil War.",
+          de: "Margaret Mitchell wrote Gone with the Wind in 1936 about Civil War.",
+          nl: "Margaret Mitchell wrote Gone with the Wind in 1936 about Civil War."
+        }      },
+      {
+        question: {
+          en: "Who wrote All the Light We Cannot See?",
+          es: "Who wrote All the Light We Cannot See?",
+          de: "Who wrote All the Light We Cannot See?",
+          nl: "Who wrote All the Light We Cannot See?"
+        },
+        options: [
+          { en: "Anthony Doerr", es: "Anthony Doerr", de: "Anthony Doerr", nl: "Anthony Doerr" },
+          { en: "Markus Zusak", es: "Markus Zusak", de: "Markus Zusak", nl: "Markus Zusak" },
+          { en: "Kristin Hannah", es: "Kristin Hannah", de: "Kristin Hannah", nl: "Kristin Hannah" },
+          { en: "Paula McLain", es: "Paula McLain", de: "Paula McLain", nl: "Paula McLain" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Anthony Doerr wrote this 2014 WWII novel.",
+          es: "Anthony Doerr wrote this 2014 WWII novel.",
+          de: "Anthony Doerr wrote this 2014 WWII novel.",
+          nl: "Anthony Doerr wrote this 2014 WWII novel."
+        }      },
+      {
+        question: {
+          en: "The Book Thief is by?",
+          es: "The Book Thief is by?",
+          de: "The Book Thief is by?",
+          nl: "The Book Thief is by?"
+        },
+        options: [
+          { en: "Markus Zusak", es: "Markus Zusak", de: "Markus Zusak", nl: "Markus Zusak" },
+          { en: "Anthony Doerr", es: "Anthony Doerr", de: "Anthony Doerr", nl: "Anthony Doerr" },
+          { en: "John Boyne", es: "John Boyne", de: "John Boyne", nl: "John Boyne" },
+          { en: "Tatiana de Rosnay", es: "Tatiana de Rosnay", de: "Tatiana de Rosnay", nl: "Tatiana de Rosnay" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Markus Zusak wrote The Book Thief in 2005 set in Nazi Germany.",
+          es: "Markus Zusak wrote The Book Thief in 2005 set in Nazi Germany.",
+          de: "Markus Zusak wrote The Book Thief in 2005 set in Nazi Germany.",
+          nl: "Markus Zusak wrote The Book Thief in 2005 set in Nazi Germany."
+        }      },
+      {
+        question: {
+          en: "Who wrote The Name of the Rose?",
+          es: "Who wrote The Name of the Rose?",
+          de: "Who wrote The Name of the Rose?",
+          nl: "Who wrote The Name of the Rose?"
+        },
+        options: [
+          { en: "Umberto Eco", es: "Umberto Eco", de: "Umberto Eco", nl: "Umberto Eco" },
+          { en: "Italo Calvino", es: "Italo Calvino", de: "Italo Calvino", nl: "Italo Calvino" },
+          { en: "Alessandro Manzoni", es: "Alessandro Manzoni", de: "Alessandro Manzoni", nl: "Alessandro Manzoni" },
+          { en: "Giuseppe di Lampedusa", es: "Giuseppe di Lampedusa", de: "Giuseppe di Lampedusa", nl: "Giuseppe di Lampedusa" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Umberto Eco wrote The Name of the Rose in 1980 set in medieval monastery.",
+          es: "Umberto Eco wrote The Name of the Rose in 1980 set in medieval monastery.",
+          de: "Umberto Eco wrote The Name of the Rose in 1980 set in medieval monastery.",
+          nl: "Umberto Eco wrote The Name of the Rose in 1980 set in medieval monastery."
+        }      },
+      {
+        question: {
+          en: "The Other Boleyn Girl is by?",
+          es: "The Other Boleyn Girl is by?",
+          de: "The Other Boleyn Girl is by?",
+          nl: "The Other Boleyn Girl is by?"
+        },
+        options: [
+          { en: "Philippa Gregory", es: "Philippa Gregory", de: "Philippa Gregory", nl: "Philippa Gregory" },
+          { en: "Hilary Mantel", es: "Hilary Mantel", de: "Hilary Mantel", nl: "Hilary Mantel" },
+          { en: "Alison Weir", es: "Alison Weir", de: "Alison Weir", nl: "Alison Weir" },
+          { en: "Tracy Chevalier", es: "Tracy Chevalier", de: "Tracy Chevalier", nl: "Tracy Chevalier" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Philippa Gregory wrote The Other Boleyn Girl in 2001.",
+          es: "Philippa Gregory wrote The Other Boleyn Girl in 2001.",
+          de: "Philippa Gregory wrote The Other Boleyn Girl in 2001.",
+          nl: "Philippa Gregory wrote The Other Boleyn Girl in 2001."
+        }      },
+      {
+        question: {
+          en: "Who created the Master and Commander series?",
+          es: "Who created the Master and Commander series?",
+          de: "Who created the Master and Commander series?",
+          nl: "Who created the Master and Commander series?"
+        },
+        options: [
+          { en: "Patrick O'Brian", es: "Patrick O'Brian", de: "Patrick O'Brian", nl: "Patrick O'Brian" },
+          { en: "C.S. Forester", es: "C.S. Forester", de: "C.S. Forester", nl: "C.S. Forester" },
+          { en: "Bernard Cornwell", es: "Bernard Cornwell", de: "Bernard Cornwell", nl: "Bernard Cornwell" },
+          { en: "Alexander Kent", es: "Alexander Kent", de: "Alexander Kent", nl: "Alexander Kent" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Patrick O'Brian wrote 20 Aubrey-Maturin novels beginning 1969.",
+          es: "Patrick O'Brian wrote 20 Aubrey-Maturin novels beginning 1969.",
+          de: "Patrick O'Brian wrote 20 Aubrey-Maturin novels beginning 1969.",
+          nl: "Patrick O'Brian wrote 20 Aubrey-Maturin novels beginning 1969."
+        }      },
+      {
+        question: {
+          en: "Shogun is by?",
+          es: "Shogun is by?",
+          de: "Shogun is by?",
+          nl: "Shogun is by?"
+        },
+        options: [
+          { en: "James Clavell", es: "James Clavell", de: "James Clavell", nl: "James Clavell" },
+          { en: "Gore Vidal", es: "Gore Vidal", de: "Gore Vidal", nl: "Gore Vidal" },
+          { en: "Gary Jennings", es: "Gary Jennings", de: "Gary Jennings", nl: "Gary Jennings" },
+          { en: "Edward Rutherfurd", es: "Edward Rutherfurd", de: "Edward Rutherfurd", nl: "Edward Rutherfurd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "James Clavell wrote Shogun in 1975 about feudal Japan.",
+          es: "James Clavell wrote Shogun in 1975 about feudal Japan.",
+          de: "James Clavell wrote Shogun in 1975 about feudal Japan.",
+          nl: "James Clavell wrote Shogun in 1975 about feudal Japan."
+        }      },
+      {
+        question: {
+          en: "Who wrote I Claudius?",
+          es: "Who wrote I Claudius?",
+          de: "Who wrote I Claudius?",
+          nl: "Who wrote I Claudius?"
+        },
+        options: [
+          { en: "Robert Graves", es: "Robert Graves", de: "Robert Graves", nl: "Robert Graves" },
+          { en: "Mary Renault", es: "Mary Renault", de: "Mary Renault", nl: "Mary Renault" },
+          { en: "Colleen McCullough", es: "Colleen McCullough", de: "Colleen McCullough", nl: "Colleen McCullough" },
+          { en: "Gore Vidal", es: "Gore Vidal", de: "Gore Vidal", nl: "Gore Vidal" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Robert Graves wrote I Claudius in 1934 about Roman Emperor.",
+          es: "Robert Graves wrote I Claudius in 1934 about Roman Emperor.",
+          de: "Robert Graves wrote I Claudius in 1934 about Roman Emperor.",
+          nl: "Robert Graves wrote I Claudius in 1934 about Roman Emperor."
+        }      },
+      {
+        question: {
+          en: "The Nightingale is by?",
+          es: "The Nightingale is by?",
+          de: "The Nightingale is by?",
+          nl: "The Nightingale is by?"
+        },
+        options: [
+          { en: "Kristin Hannah", es: "Kristin Hannah", de: "Kristin Hannah", nl: "Kristin Hannah" },
+          { en: "Paula McLain", es: "Paula McLain", de: "Paula McLain", nl: "Paula McLain" },
+          { en: "Kate Quinn", es: "Kate Quinn", de: "Kate Quinn", nl: "Kate Quinn" },
+          { en: "Martha Hall Kelly", es: "Martha Hall Kelly", de: "Martha Hall Kelly", nl: "Martha Hall Kelly" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Kristin Hannah wrote The Nightingale in 2015 about WWII France.",
+          es: "Kristin Hannah wrote The Nightingale in 2015 about WWII France.",
+          de: "Kristin Hannah wrote The Nightingale in 2015 about WWII France.",
+          nl: "Kristin Hannah wrote The Nightingale in 2015 about WWII France."
+        }      },
+      {
+        question: {
+          en: "Who wrote Lonesome Dove?",
+          es: "Who wrote Lonesome Dove?",
+          de: "Who wrote Lonesome Dove?",
+          nl: "Who wrote Lonesome Dove?"
+        },
+        options: [
+          { en: "Larry McMurtry", es: "Larry McMurtry", de: "Larry McMurtry", nl: "Larry McMurtry" },
+          { en: "Cormac McCarthy", es: "Cormac McCarthy", de: "Cormac McCarthy", nl: "Cormac McCarthy" },
+          { en: "Louis L'Amour", es: "Louis L'Amour", de: "Louis L'Amour", nl: "Louis L'Amour" },
+          { en: "Zane Grey", es: "Zane Grey", de: "Zane Grey", nl: "Zane Grey" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Larry McMurtry wrote Lonesome Dove in 1985 about cattle drive.",
+          es: "Larry McMurtry wrote Lonesome Dove in 1985 about cattle drive.",
+          de: "Larry McMurtry wrote Lonesome Dove in 1985 about cattle drive.",
+          nl: "Larry McMurtry wrote Lonesome Dove in 1985 about cattle drive."
+        }      },
+      {
+        question: {
+          en: "The Alienist is by?",
+          es: "The Alienist is by?",
+          de: "The Alienist is by?",
+          nl: "The Alienist is by?"
+        },
+        options: [
+          { en: "Caleb Carr", es: "Caleb Carr", de: "Caleb Carr", nl: "Caleb Carr" },
+          { en: "E.L. Doctorow", es: "E.L. Doctorow", de: "E.L. Doctorow", nl: "E.L. Doctorow" },
+          { en: "Michael Chabon", es: "Michael Chabon", de: "Michael Chabon", nl: "Michael Chabon" },
+          { en: "Sarah Waters", es: "Sarah Waters", de: "Sarah Waters", nl: "Sarah Waters" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Caleb Carr wrote The Alienist in 1994 set in 1896 New York.",
+          es: "Caleb Carr wrote The Alienist in 1994 set in 1896 New York.",
+          de: "Caleb Carr wrote The Alienist in 1994 set in 1896 New York.",
+          nl: "Caleb Carr wrote The Alienist in 1994 set in 1896 New York."
+        }      },
+      {
+        question: {
+          en: "Who wrote The English Patient?",
+          es: "Who wrote The English Patient?",
+          de: "Who wrote The English Patient?",
+          nl: "Who wrote The English Patient?"
+        },
+        options: [
+          { en: "Michael Ondaatje", es: "Michael Ondaatje", de: "Michael Ondaatje", nl: "Michael Ondaatje" },
+          { en: "Kazuo Ishiguro", es: "Kazuo Ishiguro", de: "Kazuo Ishiguro", nl: "Kazuo Ishiguro" },
+          { en: "Sebastian Faulks", es: "Sebastian Faulks", de: "Sebastian Faulks", nl: "Sebastian Faulks" },
+          { en: "Pat Barker", es: "Pat Barker", de: "Pat Barker", nl: "Pat Barker" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Michael Ondaatje wrote The English Patient in 1992.",
+          es: "Michael Ondaatje wrote The English Patient in 1992.",
+          de: "Michael Ondaatje wrote The English Patient in 1992.",
+          nl: "Michael Ondaatje wrote The English Patient in 1992."
+        }      },
+      {
+        question: {
+          en: "Memoirs of a Geisha is by?",
+          es: "Memoirs of a Geisha is by?",
+          de: "Memoirs of a Geisha is by?",
+          nl: "Memoirs of a Geisha is by?"
+        },
+        options: [
+          { en: "Arthur Golden", es: "Arthur Golden", de: "Arthur Golden", nl: "Arthur Golden" },
+          { en: "Amy Tan", es: "Amy Tan", de: "Amy Tan", nl: "Amy Tan" },
+          { en: "Lisa See", es: "Lisa See", de: "Lisa See", nl: "Lisa See" },
+          { en: "Anchee Min", es: "Anchee Min", de: "Anchee Min", nl: "Anchee Min" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Arthur Golden wrote Memoirs of a Geisha in 1997.",
+          es: "Arthur Golden wrote Memoirs of a Geisha in 1997.",
+          de: "Arthur Golden wrote Memoirs of a Geisha in 1997.",
+          nl: "Arthur Golden wrote Memoirs of a Geisha in 1997."
+        }      },
+      {
+        question: {
+          en: "Who created the Hornblower series?",
+          es: "Who created the Hornblower series?",
+          de: "Who created the Hornblower series?",
+          nl: "Who created the Hornblower series?"
+        },
+        options: [
+          { en: "C.S. Forester", es: "C.S. Forester", de: "C.S. Forester", nl: "C.S. Forester" },
+          { en: "Patrick O'Brian", es: "Patrick O'Brian", de: "Patrick O'Brian", nl: "Patrick O'Brian" },
+          { en: "Alexander Kent", es: "Alexander Kent", de: "Alexander Kent", nl: "Alexander Kent" },
+          { en: "Dudley Pope", es: "Dudley Pope", de: "Dudley Pope", nl: "Dudley Pope" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "C.S. Forester created Horatio Hornblower in 1937.",
+          es: "C.S. Forester created Horatio Hornblower in 1937.",
+          de: "C.S. Forester created Horatio Hornblower in 1937.",
+          nl: "C.S. Forester created Horatio Hornblower in 1937."
+        }      },
+      {
+        question: {
+          en: "The Last Kingdom is by?",
+          es: "The Last Kingdom is by?",
+          de: "The Last Kingdom is by?",
+          nl: "The Last Kingdom is by?"
+        },
+        options: [
+          { en: "Bernard Cornwell", es: "Bernard Cornwell", de: "Bernard Cornwell", nl: "Bernard Cornwell" },
+          { en: "Conn Iggulden", es: "Conn Iggulden", de: "Conn Iggulden", nl: "Conn Iggulden" },
+          { en: "Simon Scarrow", es: "Simon Scarrow", de: "Simon Scarrow", nl: "Simon Scarrow" },
+          { en: "Ben Kane", es: "Ben Kane", de: "Ben Kane", nl: "Ben Kane" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bernard Cornwell wrote The Last Kingdom in 2004 about Saxon England.",
+          es: "Bernard Cornwell wrote The Last Kingdom in 2004 about Saxon England.",
+          de: "Bernard Cornwell wrote The Last Kingdom in 2004 about Saxon England.",
+          nl: "Bernard Cornwell wrote The Last Kingdom in 2004 about Saxon England."
+        }      },
+      {
+        question: {
+          en: "Who wrote The Tattooist of Auschwitz?",
+          es: "Who wrote The Tattooist of Auschwitz?",
+          de: "Who wrote The Tattooist of Auschwitz?",
+          nl: "Who wrote The Tattooist of Auschwitz?"
+        },
+        options: [
+          { en: "Heather Morris", es: "Heather Morris", de: "Heather Morris", nl: "Heather Morris" },
+          { en: "Markus Zusak", es: "Markus Zusak", de: "Markus Zusak", nl: "Markus Zusak" },
+          { en: "Anthony Doerr", es: "Anthony Doerr", de: "Anthony Doerr", nl: "Anthony Doerr" },
+          { en: "Kristin Hannah", es: "Kristin Hannah", de: "Kristin Hannah", nl: "Kristin Hannah" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Heather Morris wrote The Tattooist of Auschwitz in 2018.",
+          es: "Heather Morris wrote The Tattooist of Auschwitz in 2018.",
+          de: "Heather Morris wrote The Tattooist of Auschwitz in 2018.",
+          nl: "Heather Morris wrote The Tattooist of Auschwitz in 2018."
+        }      },
+      {
+        question: {
+          en: "A Tale of Two Cities is by?",
+          es: "A Tale of Two Cities is by?",
+          de: "A Tale of Two Cities is by?",
+          nl: "A Tale of Two Cities is by?"
+        },
+        options: [
+          { en: "Charles Dickens", es: "Charles Dickens", de: "Charles Dickens", nl: "Charles Dickens" },
+          { en: "Victor Hugo", es: "Victor Hugo", de: "Victor Hugo", nl: "Victor Hugo" },
+          { en: "Alexandre Dumas", es: "Alexandre Dumas", de: "Alexandre Dumas", nl: "Alexandre Dumas" },
+          { en: "Honore de Balzac", es: "Honore de Balzac", de: "Honore de Balzac", nl: "Honore de Balzac" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Charles Dickens wrote A Tale of Two Cities in 1859 about French Revolution.",
+          es: "Charles Dickens wrote A Tale of Two Cities in 1859 about French Revolution.",
+          de: "Charles Dickens wrote A Tale of Two Cities in 1859 about French Revolution.",
+          nl: "Charles Dickens wrote A Tale of Two Cities in 1859 about French Revolution."
         }
       }
     ]

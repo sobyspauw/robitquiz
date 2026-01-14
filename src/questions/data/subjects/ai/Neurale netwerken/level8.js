@@ -427,6 +427,426 @@
           de: "Reformer führt zwei Schlüsselinnovationen ein: LSH-Aufmerksamkeit die Aufmerksamkeitskomplexität reduziert indem nur auf ähnliche durch Hashing gefundene Token geachtet wird, und reversible Schichten die Gradientenberechnung ohne Speicherung aller Aktivierungen ermöglichen und Speicherverbrauch für lange Sequenzen drastisch reduzieren.",
           nl: "Reformer introduceert twee belangrijke innovaties: LSH-aandacht die aandachtscomplexiteit vermindert door alleen aandacht te schenken aan vergelijkbare tokens gevonden via hashing, en omkeerbare lagen die gradiëntberekening mogelijk maken zonder alle activeringen op te slaan, wat geheugengebruik voor lange sequenties drastisch vermindert."
         }
+      },
+      {
+        question: {
+          en: "What is the T5 (Text-to-Text Transfer Transformer) model's main design principle?",
+          es: "¿Cuál es el principio de diseño principal del modelo T5 (Text-to-Text Transfer Transformer)?",
+          de: "Was ist das Hauptdesignprinzip des T5 (Text-to-Text Transfer Transformer) Modells?",
+          nl: "Wat is het belangrijkste ontwerpprincipe van het T5 (Text-to-Text Transfer Transformer) model?"
+        },
+        options: [
+          { en: "Treat every NLP task as text-to-text conversion with unified input/output format", es: "Tratar cada tarea de PLN como conversión texto-a-texto con formato unificado de entrada/salida", de: "Jede NLP-Aufgabe als Text-zu-Text-Konvertierung mit einheitlichem Eingabe-/Ausgabeformat behandeln", nl: "Elke NLP-taak behandelen als tekst-naar-tekst conversie met geünificeerd invoer/uitvoer formaat" },
+          { en: "Use five separate encoders for different task types", es: "Usar cinco codificadores separados para diferentes tipos de tareas", de: "Fünf separate Encoder für verschiedene Aufgabentypen verwenden", nl: "Vijf afzonderlijke encoders gebruiken voor verschillende taaktypes" },
+          { en: "Apply five-layer deep attention mechanism for better performance", es: "Aplicar mecanismo de atención profundo de cinco capas para mejor rendimiento", de: "Fünfschichtigen tiefen Aufmerksamkeitsmechanismus für bessere Leistung anwenden", nl: "Vijf-laags diepe aandachtsmechanisme toepassen voor betere prestaties" },
+          { en: "Perform transfer learning with five different pretraining objectives", es: "Realizar aprendizaje por transferencia con cinco objetivos diferentes de preentrenamiento", de: "Transfer-Learning mit fünf verschiedenen Vortrainingszielen durchführen", nl: "Transfer learning uitvoeren met vijf verschillende pretraining-doelstellingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "T5 treats every NLP problem as a text-to-text task. Whether it's translation, summarization, classification, or question answering, the input is text and the output is text. This unified framework simplifies architecture design and enables flexible multi-task learning.",
+          es: "T5 trata cada problema de PLN como una tarea texto-a-texto. Ya sea traducción, resumen, clasificación o respuesta a preguntas, la entrada es texto y la salida es texto. Este marco unificado simplifica el diseño de arquitectura y permite aprendizaje multi-tarea flexible.",
+          de: "T5 behandelt jedes NLP-Problem als Text-zu-Text-Aufgabe. Ob Übersetzung, Zusammenfassung, Klassifizierung oder Fragebeantwortung, die Eingabe ist Text und die Ausgabe ist Text. Dieses einheitliche Framework vereinfacht das Architekturdesign und ermöglicht flexibles Multi-Task-Lernen.",
+          nl: "T5 behandelt elk NLP-probleem als een tekst-naar-tekst taak. Of het nu vertaling, samenvatting, classificatie of vraagbeantwoording is, de invoer is tekst en de uitvoer is tekst. Dit geünificeerde framework vereenvoudigt architectuurontwerp en maakt flexibel multi-task leren mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What are the Query, Key, and Value matrices in the attention mechanism?",
+          es: "¿Qué son las matrices Query, Key y Value en el mecanismo de atención?",
+          de: "Was sind die Query-, Key- und Value-Matrizen im Aufmerksamkeitsmechanismus?",
+          nl: "Wat zijn de Query, Key en Value matrices in het aandachtsmechanisme?"
+        },
+        options: [
+          { en: "Learned linear projections of the input used to compute attention weights and output", es: "Proyecciones lineales aprendidas de la entrada usadas para calcular pesos de atención y salida", de: "Gelernte lineare Projektionen der Eingabe zur Berechnung von Aufmerksamkeitsgewichten und Ausgabe", nl: "Geleerde lineaire projecties van de invoer gebruikt om aandachtsgewichten en output te berekenen" },
+          { en: "Three separate input sequences processed in parallel", es: "Tres secuencias de entrada separadas procesadas en paralelo", de: "Drei separate Eingabesequenzen die parallel verarbeitet werden", nl: "Drie afzonderlijke invoersequenties parallel verwerkt" },
+          { en: "Database components storing attention patterns for reuse", es: "Componentes de base de datos almacenando patrones de atención para reutilizar", de: "Datenbankkomponenten die Aufmerksamkeitsmuster zur Wiederverwendung speichern", nl: "Database-componenten die aandachtspatronen opslaan voor hergebruik" },
+          { en: "Three different types of positional encodings", es: "Tres tipos diferentes de codificaciones posicionales", de: "Drei verschiedene Arten von Positionskodierungen", nl: "Drie verschillende types positionele coderingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Q, K, and V are learned linear transformations of the input. Attention computes similarity between queries and keys to determine attention weights, then uses these weights to combine values. This mechanism allows the model to selectively focus on relevant information.",
+          es: "Q, K y V son transformaciones lineales aprendidas de la entrada. La atención calcula similitud entre queries y keys para determinar pesos de atención, luego usa estos pesos para combinar values. Este mecanismo permite al modelo enfocarse selectivamente en información relevante.",
+          de: "Q, K und V sind gelernte lineare Transformationen der Eingabe. Aufmerksamkeit berechnet Ähnlichkeit zwischen Queries und Keys um Aufmerksamkeitsgewichte zu bestimmen, verwendet dann diese Gewichte um Values zu kombinieren. Dieser Mechanismus ermöglicht dem Modell sich selektiv auf relevante Informationen zu konzentrieren.",
+          nl: "Q, K en V zijn geleerde lineaire transformaties van de invoer. Aandacht berekent gelijkenis tussen queries en keys om aandachtsgewichten te bepalen, gebruikt dan deze gewichten om values te combineren. Dit mechanisme stelt het model in staat om zich selectief te concentreren op relevante informatie."
+        }
+      },
+      {
+        question: {
+          en: "What is the Performer architecture's approach to efficient attention?",
+          es: "¿Cuál es el enfoque de la arquitectura Performer para atención eficiente?",
+          de: "Was ist der Ansatz der Performer-Architektur für effiziente Aufmerksamkeit?",
+          nl: "Wat is de aanpak van de Performer-architectuur voor efficiënte aandacht?"
+        },
+        options: [
+          { en: "Approximate attention using random feature maps (kernel methods) for linear complexity", es: "Aproximar atención usando mapas de características aleatorias (métodos de kernel) para complejidad lineal", de: "Aufmerksamkeit mittels zufälliger Feature-Maps (Kernel-Methoden) für lineare Komplexität approximieren", nl: "Aandacht benaderen met behulp van willekeurige feature maps (kernel-methoden) voor lineaire complexiteit" },
+          { en: "Use performers (actors) to manually label attention patterns", es: "Usar performers (actores) para etiquetar manualmente patrones de atención", de: "Performer (Schauspieler) verwenden um Aufmerksamkeitsmuster manuell zu kennzeichnen", nl: "Performers (acteurs) gebruiken om aandachtspatronen handmatig te labelen" },
+          { en: "Dynamically adjust architecture performance based on input characteristics", es: "Ajustar dinámicamente rendimiento de arquitectura basado en características de entrada", de: "Architekturleistung dynamisch basierend auf Eingabeeigenschaften anpassen", nl: "Architectuurprestaties dynamisch aanpassen op basis van invoerkenmerken" },
+          { en: "Execute multiple attention heads in sequential order for better accuracy", es: "Ejecutar múltiples cabezas de atención en orden secuencial para mejor precisión", de: "Mehrere Aufmerksamkeits-Köpfe in sequenzieller Reihenfolge für bessere Genauigkeit ausführen", nl: "Meerdere aandachtskoppen in sequentiële volgorde uitvoeren voor betere nauwkeurigheid" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Performer uses Fast Attention Via positive Orthogonal Random features (FAVOR+), which approximates the softmax attention kernel using random feature maps. This reduces complexity from O(n²) to O(n) while maintaining quality, enabling efficient processing of very long sequences.",
+          es: "Performer usa Fast Attention Via positive Orthogonal Random features (FAVOR+), que aproxima el kernel de atención softmax usando mapas de características aleatorias. Esto reduce complejidad de O(n²) a O(n) manteniendo calidad, permitiendo procesamiento eficiente de secuencias muy largas.",
+          de: "Performer verwendet Fast Attention Via positive Orthogonal Random features (FAVOR+), das den Softmax-Aufmerksamkeits-Kernel mittels zufälliger Feature-Maps approximiert. Dies reduziert Komplexität von O(n²) auf O(n) bei Beibehaltung der Qualität und ermöglicht effiziente Verarbeitung sehr langer Sequenzen.",
+          nl: "Performer gebruikt Fast Attention Via positive Orthogonal Random features (FAVOR+), dat de softmax-aandachtskernel benadert met behulp van willekeurige feature maps. Dit vermindert complexiteit van O(n²) naar O(n) terwijl kwaliteit behouden blijft, wat efficiënte verwerking van zeer lange sequenties mogelijk maakt."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of the residual connections in Transformer layers?",
+          es: "¿Cuál es el propósito de las conexiones residuales en las capas Transformer?",
+          de: "Was ist der Zweck der residualen Verbindungen in Transformer-Schichten?",
+          nl: "Wat is het doel van de residuele verbindingen in Transformer-lagen?"
+        },
+        options: [
+          { en: "Enable gradient flow and easier training by creating shortcuts around sublayers", es: "Habilitar flujo de gradientes y entrenamiento más fácil creando atajos alrededor de subcapas", de: "Gradientenfluss ermöglichen und Training erleichtern durch Erstellen von Abkürzungen um Unterschichten", nl: "Gradiëntenstroom mogelijk maken en training vergemakkelijken door snelkoppelingen rond sublagen te creëren" },
+          { en: "Store residual errors from previous training iterations", es: "Almacenar errores residuales de iteraciones de entrenamiento previas", de: "Residuale Fehler von vorherigen Trainingsiterationen speichern", nl: "Residuele fouten van eerdere trainingsiteraties opslaan" },
+          { en: "Connect only the remaining layers after pruning", es: "Conectar solo las capas restantes después de podar", de: "Nur die verbleibenden Schichten nach dem Beschneiden verbinden", nl: "Alleen de resterende lagen verbinden na snoeien" },
+          { en: "Residual connections are not used in Transformers", es: "Las conexiones residuales no se usan en Transformers", de: "Residuale Verbindungen werden nicht in Transformers verwendet", nl: "Residuele verbindingen worden niet gebruikt in Transformers" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Residual connections (skip connections) add the input of a sublayer to its output, allowing gradients to flow directly through the network. This addresses the vanishing gradient problem in deep networks and makes training of very deep Transformers feasible.",
+          es: "Las conexiones residuales (conexiones de salto) agregan la entrada de una subcapa a su salida, permitiendo que los gradientes fluyan directamente a través de la red. Esto aborda el problema del gradiente desvaneciente en redes profundas y hace factible el entrenamiento de Transformers muy profundos.",
+          de: "Residuale Verbindungen (Skip-Verbindungen) fügen die Eingabe einer Unterschicht zu ihrer Ausgabe hinzu, wodurch Gradienten direkt durch das Netzwerk fließen können. Dies adressiert das Problem verschwindender Gradienten in tiefen Netzwerken und macht das Training sehr tiefer Transformers machbar.",
+          nl: "Residuele verbindingen (skip-verbindingen) voegen de invoer van een sublaag toe aan zijn uitvoer, waardoor gradiënten direct door het netwerk kunnen stromen. Dit pakt het verdwijnende gradiëntprobleem aan in diepe netwerken en maakt training van zeer diepe Transformers haalbaar."
+        }
+      },
+      {
+        question: {
+          en: "What is the Longformer's approach to handling long sequences?",
+          es: "¿Cuál es el enfoque del Longformer para manejar secuencias largas?",
+          de: "Was ist der Ansatz des Longformers für die Handhabung langer Sequenzen?",
+          nl: "Wat is de aanpak van de Longformer voor het verwerken van lange sequenties?"
+        },
+        options: [
+          { en: "Combine local windowed attention with task-specific global attention patterns", es: "Combinar atención de ventana local con patrones de atención global específicos de tarea", de: "Lokale fensterbasierte Aufmerksamkeit mit aufgabenspezifischen globalen Aufmerksamkeitsmustern kombinieren", nl: "Lokale venster-aandacht combineren met taakspecifieke globale aandachtspatronen" },
+          { en: "Simply increase the maximum sequence length without architectural changes", es: "Simplemente aumentar la longitud máxima de secuencia sin cambios arquitectónicos", de: "Einfach die maximale Sequenzlänge ohne architektonische Änderungen erhöhen", nl: "Simpelweg de maximale sequentielengte verhogen zonder architectuurwijzigingen" },
+          { en: "Break long sequences into shorter segments and process independently", es: "Dividir secuencias largas en segmentos más cortos y procesar independientemente", de: "Lange Sequenzen in kürzere Segmente aufteilen und unabhängig verarbeiten", nl: "Lange sequenties opdelen in kortere segmenten en onafhankelijk verwerken" },
+          { en: "Use longer training times to handle longer input sequences", es: "Usar tiempos de entrenamiento más largos para manejar secuencias de entrada más largas", de: "Längere Trainingszeiten verwenden um längere Eingabesequenzen zu handhaben", nl: "Langere trainingstijden gebruiken om langere invoersequenties te verwerken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Longformer introduces an attention mechanism combining sliding window (local) attention for all tokens with global attention for specific task-relevant tokens. This hybrid approach achieves O(n) complexity while maintaining the ability to model both local and long-range dependencies.",
+          es: "Longformer introduce un mecanismo de atención combinando atención de ventana deslizante (local) para todos los tokens con atención global para tokens específicos relevantes a la tarea. Este enfoque híbrido logra complejidad O(n) manteniendo la capacidad de modelar dependencias tanto locales como de largo alcance.",
+          de: "Longformer führt einen Aufmerksamkeitsmechanismus ein der gleitende Fenster-(lokale) Aufmerksamkeit für alle Token mit globaler Aufmerksamkeit für spezifische aufgabenrelevante Token kombiniert. Dieser Hybridansatz erreicht O(n)-Komplexität bei Beibehaltung der Fähigkeit sowohl lokale als auch langreichweitige Abhängigkeiten zu modellieren.",
+          nl: "Longformer introduceert een aandachtsmechanisme dat schuivende venster (lokale) aandacht voor alle tokens combineert met globale aandacht voor specifieke taak-relevante tokens. Deze hybride aanpak bereikt O(n) complexiteit terwijl het vermogen behouden blijft om zowel lokale als langafstandsafhankelijkheden te modelleren."
+        }
+      },
+      {
+        question: {
+          en: "What is the ELECTRA pretraining approach and how does it differ from BERT?",
+          es: "¿Cuál es el enfoque de preentrenamiento ELECTRA y cómo difiere de BERT?",
+          de: "Was ist der ELECTRA-Vortrainingsansatz und wie unterscheidet er sich von BERT?",
+          nl: "Wat is de ELECTRA pretraining-aanpak en hoe verschilt deze van BERT?"
+        },
+        options: [
+          { en: "Train discriminator to detect replaced tokens instead of predicting masked tokens", es: "Entrenar discriminador para detectar tokens reemplazados en lugar de predecir tokens enmascarados", de: "Diskriminator trainieren um ersetzte Token zu erkennen anstatt maskierte Token vorherzusagen", nl: "Discriminator trainen om vervangen tokens te detecteren in plaats van gemaskeerde tokens te voorspellen" },
+          { en: "Use electrical signals to optimize neural network training", es: "Usar señales eléctricas para optimizar entrenamiento de red neuronal", de: "Elektrische Signale zur Optimierung des neuronalen Netzwerktrainings verwenden", nl: "Elektrische signalen gebruiken om neurale netwerktraining te optimaliseren" },
+          { en: "Apply electrolysis-inspired weight updates during backpropagation", es: "Aplicar actualizaciones de peso inspiradas en electrólisis durante retropropagación", de: "Elektrolyse-inspirierte Gewichtsaktualisierungen während der Rückpropagation anwenden", nl: "Elektrolyse-geïnspireerde gewichtsupdates toepassen tijdens backpropagation" },
+          { en: "Train on electrical engineering textbooks for domain-specific knowledge", es: "Entrenar en libros de texto de ingeniería eléctrica para conocimiento específico de dominio", de: "Auf Elektrotechnik-Lehrbüchern für domänenspezifisches Wissen trainieren", nl: "Trainen op elektrotechnische leerboeken voor domeinspecifieke kennis" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "ELECTRA uses replaced token detection: a generator creates plausible replacements for some tokens, and a discriminator learns to identify which tokens were replaced. This is more sample-efficient than masked language modeling because the model learns from all tokens, not just masked ones.",
+          es: "ELECTRA usa detección de tokens reemplazados: un generador crea reemplazos plausibles para algunos tokens, y un discriminador aprende a identificar qué tokens fueron reemplazados. Esto es más eficiente en muestras que modelado de lenguaje enmascarado porque el modelo aprende de todos los tokens, no solo los enmascarados.",
+          de: "ELECTRA verwendet Ersatz-Token-Erkennung: ein Generator erstellt plausible Ersetzungen für einige Token, und ein Diskriminator lernt zu identifizieren welche Token ersetzt wurden. Dies ist stichprobeneffizienter als maskierte Sprachmodellierung weil das Modell von allen Token lernt, nicht nur von maskierten.",
+          nl: "ELECTRA gebruikt vervangen token-detectie: een generator creëert plausibele vervangingen voor sommige tokens, en een discriminator leert te identificeren welke tokens vervangen werden. Dit is steekproef-efficiënter dan gemaskeerde taalmodellering omdat het model van alle tokens leert, niet alleen gemaskeerde."
+        }
+      },
+      {
+        question: {
+          en: "What is the Big Bird architecture's sparse attention pattern?",
+          es: "¿Cuál es el patrón de atención dispersa de la arquitectura Big Bird?",
+          de: "Was ist das spärliche Aufmerksamkeitsmuster der Big Bird-Architektur?",
+          nl: "Wat is het schaarse aandachtspatroon van de Big Bird-architectuur?"
+        },
+        options: [
+          { en: "Combines random attention, window attention, and global attention for O(n) complexity", es: "Combina atención aleatoria, atención de ventana y atención global para complejidad O(n)", de: "Kombiniert zufällige Aufmerksamkeit, Fenster-Aufmerksamkeit und globale Aufmerksamkeit für O(n)-Komplexität", nl: "Combineert willekeurige aandacht, vensteraandacht en globale aandacht voor O(n) complexiteit" },
+          { en: "Attention pattern inspired by large bird migration routes", es: "Patrón de atención inspirado en rutas de migración de aves grandes", de: "Aufmerksamkeitsmuster inspiriert von großen Vogelzugrouten", nl: "Aandachtspatroon geïnspireerd door grote vogeltrekroutes" },
+          { en: "Uses bird's-eye view perspective for image understanding tasks", es: "Usa perspectiva de vista de pájaro para tareas de comprensión de imágenes", de: "Verwendet Vogelperspektive für Bildverständnisaufgaben", nl: "Gebruikt vogelperspectief voor beeldbegriptaken" },
+          { en: "Processes only the most important (big) attention weights", es: "Procesa solo los pesos de atención más importantes (grandes)", de: "Verarbeitet nur die wichtigsten (großen) Aufmerksamkeitsgewichte", nl: "Verwerkt alleen de belangrijkste (grote) aandachtsgewichten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Big Bird combines three types of attention: random attention (each token attends to r random tokens), window attention (local neighbors), and global attention (special tokens that attend to all positions). This theoretically-grounded sparse attention achieves linear complexity while preserving approximation guarantees.",
+          es: "Big Bird combina tres tipos de atención: atención aleatoria (cada token atiende a r tokens aleatorios), atención de ventana (vecinos locales) y atención global (tokens especiales que atienden a todas las posiciones). Esta atención dispersa teóricamente fundamentada logra complejidad lineal preservando garantías de aproximación.",
+          de: "Big Bird kombiniert drei Arten von Aufmerksamkeit: zufällige Aufmerksamkeit (jeder Token achtet auf r zufällige Token), Fenster-Aufmerksamkeit (lokale Nachbarn) und globale Aufmerksamkeit (spezielle Token die auf alle Positionen achten). Diese theoretisch fundierte spärliche Aufmerksamkeit erreicht lineare Komplexität bei Beibehaltung von Approximationsgarantien.",
+          nl: "Big Bird combineert drie soorten aandacht: willekeurige aandacht (elke token schenkt aandacht aan r willekeurige tokens), vensteraandacht (lokale buren) en globale aandacht (speciale tokens die aandacht schenken aan alle posities). Deze theoretisch onderbouwde schaarse aandacht bereikt lineaire complexiteit terwijl benaderingsgaranties behouden blijven."
+        }
+      },
+      {
+        question: {
+          en: "What is flash attention and why is it important for large language models?",
+          es: "¿Qué es flash attention y por qué es importante para grandes modelos de lenguaje?",
+          de: "Was ist Flash Attention und warum ist es wichtig für große Sprachmodelle?",
+          nl: "Wat is flash attention en waarom is het belangrijk voor grote taalmodellen?"
+        },
+        options: [
+          { en: "An IO-aware exact attention algorithm that reduces memory reads/writes for faster computation", es: "Un algoritmo de atención exacta consciente de IO que reduce lecturas/escrituras de memoria para cálculo más rápido", de: "Ein IO-bewusster exakter Aufmerksamkeitsalgorithmus der Speicherlese-/schreibvorgänge für schnellere Berechnung reduziert", nl: "Een IO-bewust exact aandachtsalgoritme dat geheugen-lees/schrijfoperaties vermindert voor snellere berekening" },
+          { en: "A very fast approximate attention mechanism that sacrifices accuracy", es: "Un mecanismo de atención aproximado muy rápido que sacrifica precisión", de: "Ein sehr schneller approximativer Aufmerksamkeitsmechanismus der Genauigkeit opfert", nl: "Een zeer snel benaderend aandachtsmechanisme dat nauwkeurigheid opoffert" },
+          { en: "Attention computed using flash memory instead of RAM", es: "Atención calculada usando memoria flash en lugar de RAM", de: "Aufmerksamkeit berechnet mit Flash-Speicher anstelle von RAM", nl: "Aandacht berekend met flash-geheugen in plaats van RAM" },
+          { en: "A technique that briefly shows attention patterns to users", es: "Una técnica que muestra brevemente patrones de atención a usuarios", de: "Eine Technik die Aufmerksamkeitsmuster kurz Benutzern zeigt", nl: "Een techniek die aandachtspatronen kort aan gebruikers toont" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Flash Attention is an IO-aware algorithm that computes exact attention with fewer memory accesses by fusing operations and using tiling. It achieves the same results as standard attention but is 2-4x faster and uses less memory, crucial for training large models.",
+          es: "Flash Attention es un algoritmo consciente de IO que calcula atención exacta con menos accesos a memoria fusionando operaciones y usando mosaicos. Logra los mismos resultados que atención estándar pero es 2-4x más rápido y usa menos memoria, crucial para entrenar modelos grandes.",
+          de: "Flash Attention ist ein IO-bewusster Algorithmus der exakte Aufmerksamkeit mit weniger Speicherzugriffen berechnet indem Operationen fusioniert und Kachelung verwendet werden. Es erzielt dieselben Ergebnisse wie Standard-Aufmerksamkeit ist aber 2-4x schneller und verwendet weniger Speicher, entscheidend für das Training großer Modelle.",
+          nl: "Flash Attention is een IO-bewust algoritme dat exacte aandacht berekent met minder geheugentoegang door operaties te fuseren en tiling te gebruiken. Het bereikt dezelfde resultaten als standaard aandacht maar is 2-4x sneller en gebruikt minder geheugen, cruciaal voor het trainen van grote modellen."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of KV-caching in autoregressive Transformer inference?",
+          es: "¿Cuál es el propósito del KV-caching en la inferencia autoregresiva de Transformers?",
+          de: "Was ist der Zweck von KV-Caching bei autoregressiver Transformer-Inferenz?",
+          nl: "Wat is het doel van KV-caching in autoregressieve Transformer-inferentie?"
+        },
+        options: [
+          { en: "Cache key and value computations from previous tokens to avoid recomputing them", es: "Cachear cálculos de key y value de tokens previos para evitar recalcularlos", de: "Key- und Value-Berechnungen von vorherigen Token cachen um Neuberechnung zu vermeiden", nl: "Key en value berekeningen van vorige tokens cachen om herberekening te voorkomen" },
+          { en: "Store the most frequently used vocabulary tokens", es: "Almacenar los tokens de vocabulario más frecuentemente usados", de: "Die am häufigsten verwendeten Vokabular-Token speichern", nl: "De meest gebruikte vocabulaire-tokens opslaan" },
+          { en: "Cache the final output predictions for reuse", es: "Cachear las predicciones de salida finales para reutilizar", de: "Die finalen Ausgabevorhersagen zum Wiederverwenden cachen", nl: "De uiteindelijke output-voorspellingen cachen voor hergebruik" },
+          { en: "Temporarily store attention weights between layers", es: "Almacenar temporalmente pesos de atención entre capas", de: "Aufmerksamkeitsgewichte zwischen Schichten temporär speichern", nl: "Aandachtsgewichten tijdelijk opslaan tussen lagen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "During autoregressive generation, the keys and values for previously generated tokens don't change. KV-caching stores these to avoid redundant computation, significantly speeding up inference. Only the new token's KV needs to be computed at each step.",
+          es: "Durante generación autoregresiva, las keys y values para tokens previamente generados no cambian. KV-caching almacena estos para evitar cálculo redundante, acelerando significativamente la inferencia. Solo la KV del nuevo token necesita calcularse en cada paso.",
+          de: "Während autoregressiver Generierung ändern sich Keys und Values für zuvor generierte Token nicht. KV-Caching speichert diese um redundante Berechnung zu vermeiden und Inferenz erheblich zu beschleunigen. Nur die KV des neuen Tokens müssen bei jedem Schritt berechnet werden.",
+          nl: "Tijdens autoregressieve generatie veranderen de keys en values voor eerder gegenereerde tokens niet. KV-caching slaat deze op om redundante berekening te voorkomen, wat inferentie aanzienlijk versnelt. Alleen de KV van de nieuwe token hoeft bij elke stap berekend te worden."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between encoder-decoder and decoder-only Transformer architectures?",
+          es: "¿Cuál es la diferencia entre arquitecturas Transformer codificador-decodificador y solo decodificador?",
+          de: "Was ist der Unterschied zwischen Encoder-Decoder- und reinen Decoder-Transformer-Architekturen?",
+          nl: "Wat is het verschil tussen encoder-decoder en alleen-decoder Transformer-architecturen?"
+        },
+        options: [
+          { en: "Encoder-decoder has separate stacks for input/output, decoder-only uses single stack with causal masking", es: "Codificador-decodificador tiene pilas separadas para entrada/salida, solo decodificador usa pila única con enmascaramiento causal", de: "Encoder-Decoder hat separate Stapel für Ein-/Ausgabe, reiner Decoder verwendet einzelnen Stapel mit kausaler Maskierung", nl: "Encoder-decoder heeft aparte stapels voor invoer/uitvoer, alleen-decoder gebruikt enkele stapel met causale maskering" },
+          { en: "Encoder-decoder is for classification, decoder-only is for generation", es: "Codificador-decodificador es para clasificación, solo decodificador es para generación", de: "Encoder-Decoder ist für Klassifizierung, reiner Decoder ist für Generierung", nl: "Encoder-decoder is voor classificatie, alleen-decoder is voor generatie" },
+          { en: "Encoder-decoder has more parameters than decoder-only", es: "Codificador-decodificador tiene más parámetros que solo decodificador", de: "Encoder-Decoder hat mehr Parameter als reiner Decoder", nl: "Encoder-decoder heeft meer parameters dan alleen-decoder" },
+          { en: "Encoder-decoder processes sequences sequentially, decoder-only in parallel", es: "Codificador-decodificador procesa secuencias secuencialmente, solo decodificador en paralelo", de: "Encoder-Decoder verarbeitet Sequenzen sequenziell, reiner Decoder parallel", nl: "Encoder-decoder verwerkt sequenties sequentieel, alleen-decoder parallel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Encoder-decoder (like T5) has separate encoder and decoder stacks with cross-attention between them, suitable for seq2seq tasks. Decoder-only (like GPT) uses a single stack with causal masking, making it simpler and effective for autoregressive generation.",
+          es: "Codificador-decodificador (como T5) tiene pilas separadas de codificador y decodificador con atención cruzada entre ellas, adecuado para tareas seq2seq. Solo decodificador (como GPT) usa una pila única con enmascaramiento causal, haciéndolo más simple y efectivo para generación autoregresiva.",
+          de: "Encoder-Decoder (wie T5) hat separate Encoder- und Decoder-Stapel mit Kreuzaufmerksamkeit zwischen ihnen, geeignet für Seq2Seq-Aufgaben. Reiner Decoder (wie GPT) verwendet einen einzelnen Stapel mit kausaler Maskierung, was es einfacher und effektiv für autoregressive Generierung macht.",
+          nl: "Encoder-decoder (zoals T5) heeft aparte encoder- en decoder-stapels met kruisaandacht ertussen, geschikt voor seq2seq-taken. Alleen-decoder (zoals GPT) gebruikt een enkele stapel met causale maskering, waardoor het eenvoudiger en effectief is voor autoregressieve generatie."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of grouped-query attention (GQA) in modern Transformers?",
+          es: "¿Cuál es el propósito de la atención de consulta agrupada (GQA) en Transformers modernos?",
+          de: "Was ist der Zweck von gruppierter Query-Aufmerksamkeit (GQA) in modernen Transformers?",
+          nl: "Wat is het doel van gegroepeerde-query aandacht (GQA) in moderne Transformers?"
+        },
+        options: [
+          { en: "Share key/value projections across query groups to reduce KV cache size while maintaining quality", es: "Compartir proyecciones de key/value entre grupos de query para reducir tamaño de caché KV manteniendo calidad", de: "Key/Value-Projektionen über Query-Gruppen teilen um KV-Cache-Größe zu reduzieren bei Beibehaltung der Qualität", nl: "Key/value projecties delen tussen query-groepen om KV-cache grootte te verminderen terwijl kwaliteit behouden blijft" },
+          { en: "Group similar queries together for faster processing", es: "Agrupar consultas similares juntas para procesamiento más rápido", de: "Ähnliche Queries für schnellere Verarbeitung gruppieren", nl: "Vergelijkbare queries groeperen voor snellere verwerking" },
+          { en: "Organize attention heads into semantic groups", es: "Organizar cabezas de atención en grupos semánticos", de: "Aufmerksamkeits-Köpfe in semantische Gruppen organisieren", nl: "Aandachtskoppen organiseren in semantische groepen" },
+          { en: "Process multiple user queries in batches", es: "Procesar múltiples consultas de usuario en lotes", de: "Mehrere Benutzeranfragen in Stapeln verarbeiten", nl: "Meerdere gebruikersquery's in batches verwerken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "GQA is between multi-head attention (separate KV for each head) and multi-query attention (shared KV for all heads). It groups query heads to share KV projections, significantly reducing memory usage during inference while maintaining better quality than full sharing.",
+          es: "GQA está entre atención multi-cabeza (KV separadas para cada cabeza) y atención multi-consulta (KV compartida para todas las cabezas). Agrupa cabezas de consulta para compartir proyecciones KV, reduciendo significativamente uso de memoria durante inferencia manteniendo mejor calidad que compartir completamente.",
+          de: "GQA liegt zwischen Multi-Head-Aufmerksamkeit (separate KV für jeden Kopf) und Multi-Query-Aufmerksamkeit (gemeinsame KV für alle Köpfe). Es gruppiert Query-Köpfe um KV-Projektionen zu teilen, reduziert Speicherverbrauch während Inferenz erheblich bei besserer Qualität als vollständiges Teilen.",
+          nl: "GQA ligt tussen multi-head aandacht (aparte KV voor elke kop) en multi-query aandacht (gedeelde KV voor alle koppen). Het groepeert query-koppen om KV-projecties te delen, wat geheugengebruik tijdens inferentie aanzienlijk vermindert terwijl betere kwaliteit behouden blijft dan volledig delen."
+        }
+      },
+      {
+        question: {
+          en: "What is rotary position embedding (RoPE) and how does it differ from standard positional encoding?",
+          es: "¿Qué es el embedding posicional rotatorio (RoPE) y cómo difiere de la codificación posicional estándar?",
+          de: "Was ist Rotary Position Embedding (RoPE) und wie unterscheidet es sich von Standard-Positionskodierung?",
+          nl: "Wat is rotary position embedding (RoPE) en hoe verschilt het van standaard positionele codering?"
+        },
+        options: [
+          { en: "Encodes position by rotating query/key embeddings, providing better extrapolation to longer sequences", es: "Codifica posición rotando embeddings query/key, proporcionando mejor extrapolación a secuencias más largas", de: "Kodiert Position durch Rotation von Query/Key-Embeddings und bietet bessere Extrapolation auf längere Sequenzen", nl: "Codeert positie door query/key embeddings te roteren, wat betere extrapolatie naar langere sequenties biedt" },
+          { en: "Uses circular rotation of tokens in the input sequence", es: "Usa rotación circular de tokens en la secuencia de entrada", de: "Verwendet zirkuläre Rotation von Token in der Eingabesequenz", nl: "Gebruikt circulaire rotatie van tokens in de invoersequentie" },
+          { en: "Randomly rotates positional encodings during training", es: "Rota aleatoriamente codificaciones posicionales durante entrenamiento", de: "Rotiert Positionskodierungen zufällig während des Trainings", nl: "Roteert willekeurig positionele coderingen tijdens training" },
+          { en: "Applies rope-like connections between distant positions", es: "Aplica conexiones tipo cuerda entre posiciones distantes", de: "Wendet seilartige Verbindungen zwischen entfernten Positionen an", nl: "Past touwachtige verbindingen toe tussen verre posities" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "RoPE encodes absolute position with rotation matrices and incorporates relative position information into self-attention via rotation. It provides better length extrapolation than sinusoidal encodings, allowing models trained on shorter sequences to generalize to longer ones.",
+          es: "RoPE codifica posición absoluta con matrices de rotación e incorpora información de posición relativa en auto-atención vía rotación. Proporciona mejor extrapolación de longitud que codificaciones sinusoidales, permitiendo que modelos entrenados en secuencias más cortas generalicen a más largas.",
+          de: "RoPE kodiert absolute Position mit Rotationsmatrizen und integriert relative Positionsinformationen in Selbstaufmerksamkeit durch Rotation. Es bietet bessere Längenextrapolation als sinusförmige Kodierungen und ermöglicht auf kürzeren Sequenzen trainierten Modellen auf längere zu generalisieren.",
+          nl: "RoPE codeert absolute positie met rotatiematrices en integreert relatieve positie-informatie in zelf-aandacht via rotatie. Het biedt betere lengte-extrapolatie dan sinusoïdale coderingen, waardoor modellen getraind op kortere sequenties kunnen generaliseren naar langere."
+        }
+      },
+      {
+        question: {
+          en: "What is the Mixture of Experts (MoE) approach in Transformers?",
+          es: "¿Qué es el enfoque de Mezcla de Expertos (MoE) en Transformers?",
+          de: "Was ist der Mixture of Experts (MoE) Ansatz in Transformers?",
+          nl: "Wat is de Mixture of Experts (MoE) benadering in Transformers?"
+        },
+        options: [
+          { en: "Use multiple specialized FFN experts and route each token to selected experts dynamically", es: "Usar múltiples expertos FFN especializados y enrutar cada token a expertos seleccionados dinámicamente", de: "Mehrere spezialisierte FFN-Experten verwenden und jeden Token dynamisch zu ausgewählten Experten routen", nl: "Meerdere gespecialiseerde FFN-experts gebruiken en elk token dynamisch naar geselecteerde experts routeren" },
+          { en: "Train separate models by different expert researchers", es: "Entrenar modelos separados por diferentes investigadores expertos", de: "Separate Modelle von verschiedenen Expertenforschern trainieren", nl: "Aparte modellen trainen door verschillende expert-onderzoekers" },
+          { en: "Combine outputs from multiple pre-trained models", es: "Combinar salidas de múltiples modelos preentrenados", de: "Ausgaben von mehreren vortrainierten Modellen kombinieren", nl: "Outputs combineren van meerdere voorgetrainde modellen" },
+          { en: "Use expert human feedback to guide model training", es: "Usar retroalimentación humana experta para guiar entrenamiento de modelo", de: "Experten-menschliches Feedback zur Steuerung des Modelltrainings verwenden", nl: "Expertmenselijke feedback gebruiken om modeltraining te sturen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "MoE replaces the dense FFN with multiple expert networks and a gating mechanism that routes each token to a subset of experts. This allows models to scale parameters without proportionally increasing computation, as only activated experts process each token.",
+          es: "MoE reemplaza la FFN densa con múltiples redes expertas y un mecanismo de puerta que enruta cada token a un subconjunto de expertos. Esto permite que modelos escalen parámetros sin aumentar proporcionalmente el cálculo, ya que solo expertos activados procesan cada token.",
+          de: "MoE ersetzt das dichte FFN durch mehrere Expertennetzwerke und einen Gating-Mechanismus der jeden Token zu einer Teilmenge von Experten routet. Dies ermöglicht Modellen Parameter zu skalieren ohne Berechnung proportional zu erhöhen, da nur aktivierte Experten jeden Token verarbeiten.",
+          nl: "MoE vervangt het dichte FFN door meerdere expertnetwerken en een gating-mechanisme dat elk token naar een subset van experts routeert. Dit stelt modellen in staat om parameters te schalen zonder berekening proportioneel te verhogen, aangezien alleen geactiveerde experts elk token verwerken."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of alibi (Attention with Linear Biases) positional encoding?",
+          es: "¿Cuál es el propósito de la codificación posicional alibi (Atención con Sesgos Lineales)?",
+          de: "Was ist der Zweck der Alibi (Attention with Linear Biases) Positionskodierung?",
+          nl: "Wat is het doel van alibi (Attention with Linear Biases) positionele codering?"
+        },
+        options: [
+          { en: "Add distance-proportional bias to attention scores instead of position embeddings", es: "Agregar sesgo proporcional a distancia a puntuaciones de atención en lugar de embeddings posicionales", de: "Abstandsproportionalen Bias zu Aufmerksamkeitswerten hinzufügen anstatt Positionseinbettungen", nl: "Afstand-proportionele bias toevoegen aan aandachtsscores in plaats van positie-embeddings" },
+          { en: "Provide an alibi for model errors during inference", es: "Proporcionar una coartada para errores de modelo durante inferencia", de: "Ein Alibi für Modellfehler während der Inferenz bereitstellen", nl: "Een alibi bieden voor modelfouten tijdens inferentie" },
+          { en: "Use aliasing techniques to reduce positional encoding size", es: "Usar técnicas de aliasing para reducir tamaño de codificación posicional", de: "Aliasing-Techniken zur Reduzierung der Positionskodierungsgröße verwenden", nl: "Aliasing-technieken gebruiken om positionele coderingsgrootte te verkleinen" },
+          { en: "Implement position awareness through linear transformations only", es: "Implementar conciencia posicional solo a través de transformaciones lineales", de: "Positionsbewusstsein nur durch lineare Transformationen implementieren", nl: "Positiebewustzijn alleen implementeren via lineaire transformaties" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "ALiBi adds a simple linear bias to attention scores based on token distance, penalizing attention to distant tokens. This removes the need for learned position embeddings, reduces parameters, and provides excellent extrapolation to sequences longer than those seen during training.",
+          es: "ALiBi agrega un sesgo lineal simple a puntuaciones de atención basado en distancia de token, penalizando atención a tokens distantes. Esto elimina la necesidad de embeddings posicionales aprendidos, reduce parámetros y proporciona excelente extrapolación a secuencias más largas que las vistas durante entrenamiento.",
+          de: "ALiBi fügt Aufmerksamkeitswerten einen einfachen linearen Bias basierend auf Token-Abstand hinzu und bestraft Aufmerksamkeit auf entfernte Token. Dies eliminiert die Notwendigkeit gelernter Positionseinbettungen, reduziert Parameter und bietet ausgezeichnete Extrapolation auf längere Sequenzen als während des Trainings gesehen.",
+          nl: "ALiBi voegt een eenvoudige lineaire bias toe aan aandachtsscores gebaseerd op token-afstand, waarbij aandacht voor verre tokens wordt bestraft. Dit elimineert de behoefte aan geleerde positie-embeddings, vermindert parameters en biedt uitstekende extrapolatie naar sequenties langer dan die gezien tijdens training."
+        }
+      },
+      {
+        question: {
+          en: "What is sparse Transformer attention and when is it beneficial?",
+          es: "¿Qué es la atención Transformer dispersa y cuándo es beneficiosa?",
+          de: "Was ist spärliche Transformer-Aufmerksamkeit und wann ist sie vorteilhaft?",
+          nl: "Wat is schaarse Transformer-aandacht en wanneer is het voordelig?"
+        },
+        options: [
+          { en: "Limit attention to subset of positions using patterns like strided or fixed attention for efficiency", es: "Limitar atención a subconjunto de posiciones usando patrones como atención por pasos o fija para eficiencia", de: "Aufmerksamkeit auf Teilmenge von Positionen mit Mustern wie gestufter oder fester Aufmerksamkeit für Effizienz begrenzen", nl: "Aandacht beperken tot subset van posities met patronen zoals gestrikte of vaste aandacht voor efficiëntie" },
+          { en: "Use sparse matrices to represent attention weights", es: "Usar matrices dispersas para representar pesos de atención", de: "Spärliche Matrizen zur Darstellung von Aufmerksamkeitsgewichten verwenden", nl: "Schaarse matrices gebruiken om aandachtsgewichten weer te geven" },
+          { en: "Remove attention heads that contribute little to performance", es: "Eliminar cabezas de atención que contribuyen poco al rendimiento", de: "Aufmerksamkeits-Köpfe entfernen die wenig zur Leistung beitragen", nl: "Aandachtskoppen verwijderen die weinig bijdragen aan prestaties" },
+          { en: "Apply sparsity-inducing regularization to attention", es: "Aplicar regularización inductora de dispersión a la atención", de: "Spärlichkeit-induzierende Regularisierung auf Aufmerksamkeit anwenden", nl: "Schaarsheid-inducerende regularisatie toepassen op aandacht" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sparse attention restricts each token to attend to only a subset of positions (e.g., local window, strided patterns, or learned patterns) rather than all positions. This reduces O(n²) to approximately O(n√n) or O(n), beneficial for very long sequences like images, audio, or long documents.",
+          es: "La atención dispersa restringe cada token a atender solo un subconjunto de posiciones (ej., ventana local, patrones por pasos, o patrones aprendidos) en lugar de todas las posiciones. Esto reduce O(n²) a aproximadamente O(n√n) u O(n), beneficioso para secuencias muy largas como imágenes, audio o documentos largos.",
+          de: "Spärliche Aufmerksamkeit beschränkt jeden Token darauf nur auf eine Teilmenge von Positionen zu achten (z.B. lokales Fenster, gestufte Muster oder gelernte Muster) statt auf alle Positionen. Dies reduziert O(n²) auf etwa O(n√n) oder O(n), vorteilhaft für sehr lange Sequenzen wie Bilder, Audio oder lange Dokumente.",
+          nl: "Schaarse aandacht beperkt elk token tot aandacht voor slechts een subset van posities (bijv. lokaal venster, gestrikte patronen of geleerde patronen) in plaats van alle posities. Dit vermindert O(n²) tot ongeveer O(n√n) of O(n), voordelig voor zeer lange sequenties zoals beelden, audio of lange documenten."
+        }
+      },
+      {
+        question: {
+          en: "What is the cross-attention mechanism in multimodal Transformers like CLIP?",
+          es: "¿Qué es el mecanismo de atención cruzada en Transformers multimodales como CLIP?",
+          de: "Was ist der Kreuzaufmerksamkeitsmechanismus in multimodalen Transformers wie CLIP?",
+          nl: "Wat is het kruisaandachtsmechanisme in multimodale Transformers zoals CLIP?"
+        },
+        options: [
+          { en: "Allow one modality (e.g., text) to attend to another modality (e.g., image) for alignment", es: "Permitir que una modalidad (ej., texto) atienda a otra modalidad (ej., imagen) para alineación", de: "Einer Modalität (z.B. Text) ermöglichen auf eine andere Modalität (z.B. Bild) zur Ausrichtung zu achten", nl: "Een modaliteit (bijv. tekst) in staat stellen om aandacht te schenken aan een andere modaliteit (bijv. beeld) voor uitlijning" },
+          { en: "Cross-validate attention patterns across different training runs", es: "Validar cruzadamente patrones de atención entre diferentes ejecuciones de entrenamiento", de: "Aufmerksamkeitsmuster über verschiedene Trainingsläufe kreuzvalidieren", nl: "Aandachtspatronen kruislings valideren over verschillende trainingsruns" },
+          { en: "Apply attention in a cross-shaped pattern across the sequence", es: "Aplicar atención en un patrón en forma de cruz a través de la secuencia", de: "Aufmerksamkeit in einem kreuzförmigen Muster über die Sequenz anwenden", nl: "Aandacht toepassen in een kruisvormig patroon over de sequentie" },
+          { en: "Use cross-entropy to weight attention scores", es: "Usar entropía cruzada para ponderar puntuaciones de atención", de: "Kreuzentropie zur Gewichtung von Aufmerksamkeitswerten verwenden", nl: "Kruisentropie gebruiken om aandachtsscores te wegen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In multimodal models, cross-attention allows information exchange between modalities. For example, text tokens (queries) can attend to image patches (keys/values) or vice versa. This enables the model to learn aligned representations across different data types like vision and language.",
+          es: "En modelos multimodales, la atención cruzada permite intercambio de información entre modalidades. Por ejemplo, tokens de texto (consultas) pueden atender a parches de imagen (keys/values) o viceversa. Esto permite al modelo aprender representaciones alineadas entre diferentes tipos de datos como visión y lenguaje.",
+          de: "In multimodalen Modellen ermöglicht Kreuzaufmerksamkeit Informationsaustausch zwischen Modalitäten. Zum Beispiel können Text-Token (Queries) auf Bild-Patches (Keys/Values) achten oder umgekehrt. Dies ermöglicht dem Modell ausgerichtete Repräsentationen über verschiedene Datentypen wie Vision und Sprache zu lernen.",
+          nl: "In multimodale modellen maakt kruisaandacht informatie-uitwisseling tussen modaliteiten mogelijk. Bijvoorbeeld, tekst-tokens (queries) kunnen aandacht schenken aan beeldpatches (keys/values) of omgekeerd. Dit stelt het model in staat om uitgelijnde representaties te leren over verschillende datatypes zoals visie en taal."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of the SwiGLU activation function used in some modern Transformers?",
+          es: "¿Cuál es el propósito de la función de activación SwiGLU usada en algunos Transformers modernos?",
+          de: "Was ist der Zweck der SwiGLU-Aktivierungsfunktion die in einigen modernen Transformers verwendet wird?",
+          nl: "Wat is het doel van de SwiGLU-activatiefunctie gebruikt in sommige moderne Transformers?"
+        },
+        options: [
+          { en: "Combine Swish and GLU for better FFN performance than standard ReLU", es: "Combinar Swish y GLU para mejor rendimiento FFN que ReLU estándar", de: "Swish und GLU für bessere FFN-Leistung als Standard-ReLU kombinieren", nl: "Swish en GLU combineren voor betere FFN-prestaties dan standaard ReLU" },
+          { en: "Swiftly switch between different activation functions during training", es: "Cambiar rápidamente entre diferentes funciones de activación durante entrenamiento", de: "Schnell zwischen verschiedenen Aktivierungsfunktionen während des Trainings wechseln", nl: "Snel schakelen tussen verschillende activatiefuncties tijdens training" },
+          { en: "Apply gated linear units to positional encodings", es: "Aplicar unidades lineales con puerta a codificaciones posicionales", de: "Gated Linear Units auf Positionskodierungen anwenden", nl: "Gated linear units toepassen op positionele coderingen" },
+          { en: "Reduce GPU memory usage through activation compression", es: "Reducir uso de memoria GPU a través de compresión de activación", de: "GPU-Speicherverbrauch durch Aktivierungskompression reduzieren", nl: "GPU-geheugengebruik verminderen door activatiecompressie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "SwiGLU is a variant of GLU (Gated Linear Unit) using Swish activation. It's been shown to improve model quality compared to standard ReLU or GELU in the FFN layers. Models like PaLM and LLaMA use SwiGLU for better performance despite slightly increased computation.",
+          es: "SwiGLU es una variante de GLU (Unidad Lineal con Puerta) usando activación Swish. Se ha demostrado que mejora calidad del modelo comparado con ReLU o GELU estándar en capas FFN. Modelos como PaLM y LLaMA usan SwiGLU para mejor rendimiento a pesar de cálculo ligeramente aumentado.",
+          de: "SwiGLU ist eine Variante von GLU (Gated Linear Unit) die Swish-Aktivierung verwendet. Es wurde gezeigt dass es Modellqualität im Vergleich zu Standard-ReLU oder GELU in FFN-Schichten verbessert. Modelle wie PaLM und LLaMA verwenden SwiGLU für bessere Leistung trotz leicht erhöhter Berechnung.",
+          nl: "SwiGLU is een variant van GLU (Gated Linear Unit) die Swish-activering gebruikt. Het is aangetoond dat het modelkwaliteit verbetert vergeleken met standaard ReLU of GELU in FFN-lagen. Modellen zoals PaLM en LLaMA gebruiken SwiGLU voor betere prestaties ondanks licht verhoogde berekening."
+        }
+      },
+      {
+        question: {
+          en: "What is the causal language modeling objective and why is it called 'causal'?",
+          es: "¿Cuál es el objetivo de modelado de lenguaje causal y por qué se llama 'causal'?",
+          de: "Was ist das kausale Sprachmodellierungsziel und warum wird es 'kausal' genannt?",
+          nl: "Wat is de causale taalmodellering doelstelling en waarom heet het 'causaal'?"
+        },
+        options: [
+          { en: "Predict next token using only past/present tokens, respecting temporal causality", es: "Predecir siguiente token usando solo tokens pasados/presentes, respetando causalidad temporal", de: "Nächstes Token nur unter Verwendung vergangener/gegenwärtiger Token vorhersagen und zeitliche Kausalität respektieren", nl: "Volgend token voorspellen met alleen verleden/huidige tokens, temporele causaliteit respecterend" },
+          { en: "Model cause-and-effect relationships in text", es: "Modelar relaciones de causa-efecto en texto", de: "Ursache-Wirkungs-Beziehungen in Text modellieren", nl: "Oorzaak-gevolg relaties in tekst modelleren" },
+          { en: "Use causal inference techniques during training", es: "Usar técnicas de inferencia causal durante entrenamiento", de: "Kausale Inferenztechniken während des Trainings verwenden", nl: "Causale inferentietechnieken gebruiken tijdens training" },
+          { en: "Predict which events caused specific text to be written", es: "Predecir qué eventos causaron que se escribiera texto específico", de: "Vorhersagen welche Ereignisse spezifischen Text verursacht haben", nl: "Voorspellen welke gebeurtenissen specifieke tekst veroorzaakten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Causal language modeling predicts the next token given all previous tokens, using masked (causal) attention that prevents information flow from future tokens. 'Causal' refers to respecting the temporal order where only past can influence future, not vice versa—maintaining causal consistency.",
+          es: "El modelado de lenguaje causal predice el siguiente token dado todos los tokens previos, usando atención enmascarada (causal) que previene flujo de información de tokens futuros. 'Causal' se refiere a respetar el orden temporal donde solo el pasado puede influenciar el futuro, no viceversa—manteniendo consistencia causal.",
+          de: "Kausale Sprachmodellierung sagt das nächste Token anhand aller vorherigen Token vorher, unter Verwendung maskierter (kausaler) Aufmerksamkeit die Informationsfluss von zukünftigen Token verhindert. 'Kausal' bezieht sich darauf die zeitliche Ordnung zu respektieren wo nur Vergangenheit Zukunft beeinflussen kann, nicht umgekehrt—kausale Konsistenz wahrend.",
+          nl: "Causale taalmodellering voorspelt het volgende token gegeven alle vorige tokens, met gemaskeerde (causale) aandacht die informatiestroom van toekomstige tokens voorkomt. 'Causaal' verwijst naar het respecteren van temporele volgorde waarbij alleen verleden toekomst kan beïnvloeden, niet omgekeerd—causale consistentie behoudend."
+        }
+      },
+      {
+        question: {
+          en: "What is the Perceiver architecture's approach to handling variable input sizes?",
+          es: "¿Cuál es el enfoque de la arquitectura Perceiver para manejar tamaños de entrada variables?",
+          de: "Was ist der Ansatz der Perceiver-Architektur zur Handhabung variabler Eingabegrößen?",
+          nl: "Wat is de aanpak van de Perceiver-architectuur voor het verwerken van variabele invoergroottes?"
+        },
+        options: [
+          { en: "Use learned latent array that cross-attends to inputs, decoupling model size from input size", es: "Usar arreglo latente aprendido que atiende cruzadamente a entradas, desacoplando tamaño de modelo del tamaño de entrada", de: "Gelerntes latentes Array verwenden das kreuzweise auf Eingaben achtet und Modellgröße von Eingabegröße entkoppelt", nl: "Geleerde latente array gebruiken die kruislings aandacht schenkt aan invoer, waarbij modelgrootte ontkoppeld wordt van invoergrootte" },
+          { en: "Dynamically adjust network depth based on input dimensions", es: "Ajustar dinámicamente profundidad de red basado en dimensiones de entrada", de: "Netzwerktiefe dynamisch basierend auf Eingabedimensionen anpassen", nl: "Netwerkdiepte dynamisch aanpassen op basis van invoerdimensies" },
+          { en: "Perceive input patterns and compress them to fixed size", es: "Percibir patrones de entrada y comprimirlos a tamaño fijo", de: "Eingabemuster wahrnehmen und auf feste Größe komprimieren", nl: "Invoerpatronen waarnemen en comprimeren tot vaste grootte" },
+          { en: "Use different model architectures for different input types", es: "Usar diferentes arquitecturas de modelo para diferentes tipos de entrada", de: "Verschiedene Modellarchitekturen für verschiedene Eingabetypen verwenden", nl: "Verschillende modelarchitecturen gebruiken voor verschillende invoertypes" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Perceiver uses a small fixed-size latent array that cross-attends to the (potentially large) input, then processes the latent array through Transformer layers. This asymmetric attention makes computation independent of input size, enabling efficient processing of images, video, audio, or point clouds.",
+          es: "Perceiver usa un pequeño arreglo latente de tamaño fijo que atiende cruzadamente a la entrada (potencialmente grande), luego procesa el arreglo latente a través de capas Transformer. Esta atención asimétrica hace que el cálculo sea independiente del tamaño de entrada, permitiendo procesamiento eficiente de imágenes, video, audio o nubes de puntos.",
+          de: "Perceiver verwendet ein kleines latentes Array fester Größe das kreuzweise auf die (potenziell große) Eingabe achtet, dann das latente Array durch Transformer-Schichten verarbeitet. Diese asymmetrische Aufmerksamkeit macht Berechnung unabhängig von Eingabegröße und ermöglicht effiziente Verarbeitung von Bildern, Video, Audio oder Punktwolken.",
+          nl: "Perceiver gebruikt een kleine latente array van vaste grootte die kruislings aandacht schenkt aan de (potentieel grote) invoer, verwerkt vervolgens de latente array door Transformer-lagen. Deze asymmetrische aandacht maakt berekening onafhankelijk van invoergrootte, wat efficiënte verwerking mogelijk maakt van beelden, video, audio of puntwolken."
+        }
+      },
+      {
+        question: {
+          en: "What is sequence packing and why is it used in Transformer training?",
+          es: "¿Qué es el empaquetado de secuencias y por qué se usa en entrenamiento de Transformers?",
+          de: "Was ist Sequence Packing und warum wird es im Transformer-Training verwendet?",
+          nl: "Wat is sequence packing en waarom wordt het gebruikt in Transformer-training?"
+        },
+        options: [
+          { en: "Concatenate multiple short sequences into one batch sequence to maximize GPU utilization", es: "Concatenar múltiples secuencias cortas en una secuencia de lote para maximizar utilización de GPU", de: "Mehrere kurze Sequenzen zu einer Batch-Sequenz verketten um GPU-Auslastung zu maximieren", nl: "Meerdere korte sequenties samenvoegen tot één batch-sequentie om GPU-gebruik te maximaliseren" },
+          { en: "Compress sequences using packing algorithms before training", es: "Comprimir secuencias usando algoritmos de empaquetado antes de entrenar", de: "Sequenzen vor dem Training mit Packing-Algorithmen komprimieren", nl: "Sequenties comprimeren met packing-algoritmen voor training" },
+          { en: "Package related sequences together for better learning", es: "Empaquetar secuencias relacionadas juntas para mejor aprendizaje", de: "Verwandte Sequenzen für besseres Lernen zusammenpacken", nl: "Gerelateerde sequenties samen verpakken voor beter leren" },
+          { en: "Store trained sequence representations for future use", es: "Almacenar representaciones de secuencias entrenadas para uso futuro", de: "Trainierte Sequenzrepräsentationen für zukünftige Verwendung speichern", nl: "Getrainde sequentierepresentaties opslaan voor toekomstig gebruik" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sequence packing concatenates multiple shorter sequences into single examples up to the maximum length, separated by special tokens. This eliminates wasted computation on padding tokens, significantly improving training efficiency especially when dealing with variable-length sequences.",
+          es: "El empaquetado de secuencias concatena múltiples secuencias más cortas en ejemplos únicos hasta la longitud máxima, separadas por tokens especiales. Esto elimina cálculo desperdiciado en tokens de relleno, mejorando significativamente eficiencia de entrenamiento especialmente cuando se manejan secuencias de longitud variable.",
+          de: "Sequence Packing verkettet mehrere kürzere Sequenzen zu einzelnen Beispielen bis zur maximalen Länge, getrennt durch spezielle Token. Dies eliminiert verschwendete Berechnung auf Padding-Token und verbessert Trainingseffizienz erheblich besonders beim Umgang mit Sequenzen variabler Länge.",
+          nl: "Sequence packing voegt meerdere kortere sequenties samen tot enkele voorbeelden tot de maximale lengte, gescheiden door speciale tokens. Dit elimineert verspilde berekening op padding-tokens, wat trainingsefficiëntie aanzienlijk verbetert vooral bij variabele-lengte sequenties."
+        }
       }
     ]
   };

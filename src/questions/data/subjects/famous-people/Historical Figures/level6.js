@@ -778,8 +778,48 @@
                 de: "Dschingis Khan (ca. 1162-1227), geboren als Temüjin, vereinte die mongolischen Stämme und gründete das Mongolische Reich. Er wurde zum 'Dschingis Khan' proklamiert, was 'universeller Herrscher' bedeutet, und schuf das größte zusammenhängende Landreich der Geschichte.",
                 nl: "Genghis Khan (ca. 1162-1227), geboren als Temüjin, verenigde de Mongoolse stammen en stichtte het Mongoolse Rijk. Hij werd uitgeroepen tot 'Genghis Khan', wat 'universele heerser' betekent, en creëerde het grootste aaneengesloten landrijk in de geschiedenis."
             }
-        }
-    ,
+        },
+        {
+            question: {
+                en: "Which Ottoman sultan conquered Constantinople in 1453?",
+                es: "¿Qué sultán otomano conquistó Constantinopla en 1453?",
+                de: "Welcher osmanische Sultan eroberte Konstantinopel im Jahr 1453?",
+                nl: "Welke Ottomaanse sultan veroverde Constantinopel in 1453?"
+            },
+            options: [
+                {
+                    en: "Mehmed II",
+                    es: "Mehmed II",
+                    de: "Mehmed II.",
+                    nl: "Mehmed II"
+                },
+                {
+                    en: "Suleiman the Magnificent",
+                    es: "Solimán el Magnífico",
+                    de: "Süleyman der Prächtige",
+                    nl: "Süleyman de Grote"
+                },
+                {
+                    en: "Bayezid I",
+                    es: "Bayezid I",
+                    de: "Bayezid I.",
+                    nl: "Bayezid I"
+                },
+                {
+                    en: "Murad II",
+                    es: "Murad II",
+                    de: "Murad II.",
+                    nl: "Murad II"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Mehmed II 'the Conqueror' (1432-1481) captured Constantinople on May 29, 1453, ending the Byzantine Empire and establishing the Ottoman capital in the city, which was renamed Istanbul. This marked a major turning point in world history.",
+                es: "Mehmed II 'el Conquistador' (1432-1481) capturó Constantinopla el 29 de mayo de 1453, terminando el Imperio Bizantino y estableciendo la capital otomana en la ciudad, que fue renombrada Estambul. Esto marcó un punto de inflexión importante en la historia mundial.",
+                de: "Mehmed II. 'der Eroberer' (1432-1481) eroberte Konstantinopel am 29. Mai 1453, beendete das Byzantinische Reich und etablierte die osmanische Hauptstadt in der Stadt, die in Istanbul umbenannt wurde. Dies markierte einen wichtigen Wendepunkt in der Weltgeschichte.",
+                nl: "Mehmed II 'de Veroveraar' (1432-1481) veroverde Constantinopel op 29 mei 1453, waarmee het Byzantijnse Rijk eindigde en de Ottomaanse hoofdstad in de stad werd gevestigd, die werd omgedoopt tot Istanbul. Dit markeerde een belangrijk keerpunt in de wereldgeschiedenis."
+            }
+        },
         {
             question: {
                 en: "Who was the first woman to win a Nobel Prize?",
@@ -819,6 +859,375 @@
                 es: "Marie Curie fue la primera mujer en ganar un Premio Nobel, recibiendo el Premio de Física en 1903 (compartido con su esposo Pierre y Henri Becquerel) por su trabajo sobre radioactividad. Más tarde ganó un segundo Nobel de Química en 1911, convirtiéndola en la única persona en ganar Premios Nobel en dos ciencias diferentes.",
                 de: "Marie Curie war die erste Frau, die einen Nobelpreis gewann, als sie 1903 den Physik-Preis erhielt (geteilt mit ihrem Ehemann Pierre und Henri Becquerel) für ihre Arbeit über Radioaktivität. Sie gewann später 1911 einen zweiten Nobel in Chemie und ist damit die einzige Person, die Nobelpreise in zwei verschiedenen Wissenschaften gewann.",
                 nl: "Marie Curie was de eerste vrouw die een Nobelprijs won, waarbij ze de Natuurkundeprijs in 1903 ontving (gedeeld met haar man Pierre en Henri Becquerel) voor hun werk aan radioactiviteit. Ze won later een tweede Nobel in Scheikunde in 1911, waardoor ze de enige persoon is die Nobelprijzen in twee verschillende wetenschappen won."
+            }
+        },
+        {
+            question: {
+                en: "Which Mughal emperor built the Taj Mahal as a tomb for his wife?",
+                es: "¿Qué emperador mogol construyó el Taj Mahal como tumba para su esposa?",
+                de: "Welcher Mogulkaiser baute das Taj Mahal als Grabmal für seine Frau?",
+                nl: "Welke Mogol-keizer bouwde de Taj Mahal als grafmonument voor zijn vrouw?"
+            },
+            options: [
+                {
+                    en: "Shah Jahan",
+                    es: "Shah Jahan",
+                    de: "Shah Jahan",
+                    nl: "Shah Jahan"
+                },
+                {
+                    en: "Akbar the Great",
+                    es: "Akbar el Grande",
+                    de: "Akbar der Große",
+                    nl: "Akbar de Grote"
+                },
+                {
+                    en: "Aurangzeb",
+                    es: "Aurangzeb",
+                    de: "Aurangzeb",
+                    nl: "Aurangzeb"
+                },
+                {
+                    en: "Jahangir",
+                    es: "Jahangir",
+                    de: "Jahangir",
+                    nl: "Jahangir"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Shah Jahan (1592-1666) commissioned the construction of the Taj Mahal in Agra as a mausoleum for his beloved wife Mumtaz Mahal, who died in 1631. The monument took approximately 22 years to complete and is considered one of the finest examples of Mughal architecture.",
+                es: "Shah Jahan (1592-1666) encargó la construcción del Taj Mahal en Agra como mausoleo para su amada esposa Mumtaz Mahal, quien murió en 1631. El monumento tomó aproximadamente 22 años en completarse y es considerado uno de los mejores ejemplos de arquitectura mogol.",
+                de: "Shah Jahan (1592-1666) beauftragte den Bau des Taj Mahal in Agra als Mausoleum für seine geliebte Frau Mumtaz Mahal, die 1631 starb. Das Monument brauchte etwa 22 Jahre bis zur Fertigstellung und gilt als eines der schönsten Beispiele mogulischer Architektur.",
+                nl: "Shah Jahan (1592-1666) gaf opdracht tot de bouw van de Taj Mahal in Agra als mausoleum voor zijn geliefde vrouw Mumtaz Mahal, die in 1631 stierf. Het monument nam ongeveer 22 jaar in beslag om te voltooien en wordt beschouwd als een van de mooiste voorbeelden van Mogol-architectuur."
+            }
+        },
+        {
+            question: {
+                en: "Who was the Russian tsar who modernized Russia and built St. Petersburg?",
+                es: "¿Quién fue el zar ruso que modernizó Rusia y construyó San Petersburgo?",
+                de: "Wer war der russische Zar, der Russland modernisierte und St. Petersburg baute?",
+                nl: "Wie was de Russische tsaar die Rusland moderniseerde en Sint-Petersburg bouwde?"
+            },
+            options: [
+                {
+                    en: "Peter the Great",
+                    es: "Pedro el Grande",
+                    de: "Peter der Große",
+                    nl: "Peter de Grote"
+                },
+                {
+                    en: "Ivan the Terrible",
+                    es: "Iván el Terrible",
+                    de: "Iwan der Schreckliche",
+                    nl: "Ivan de Verschrikkelijke"
+                },
+                {
+                    en: "Catherine the Great",
+                    es: "Catalina la Grande",
+                    de: "Katharina die Große",
+                    nl: "Catharina de Grote"
+                },
+                {
+                    en: "Alexander II",
+                    es: "Alejandro II",
+                    de: "Alexander II.",
+                    nl: "Alexander II"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Peter the Great (1672-1725) transformed Russia into a major European power through extensive reforms in military, administrative, and cultural affairs. He founded St. Petersburg in 1703 as Russia's 'window to Europe' and moved the capital there from Moscow.",
+                es: "Pedro el Grande (1672-1725) transformó Rusia en una gran potencia europea a través de extensas reformas en asuntos militares, administrativos y culturales. Fundó San Petersburgo en 1703 como la 'ventana de Rusia a Europa' y trasladó la capital allí desde Moscú.",
+                de: "Peter der Große (1672-1725) verwandelte Russland durch umfangreiche Reformen in militärischen, administrativen und kulturellen Angelegenheiten in eine europäische Großmacht. Er gründete 1703 St. Petersburg als Russlands 'Fenster nach Europa' und verlegte die Hauptstadt von Moskau dorthin.",
+                nl: "Peter de Grote (1672-1725) transformeerde Rusland tot een Europese grootmacht door uitgebreide hervormingen op militair, administratief en cultureel gebied. Hij stichtte Sint-Petersburg in 1703 als Ruslands 'venster op Europa' en verplaatste de hoofdstad daarheen vanuit Moskou."
+            }
+        },
+        {
+            question: {
+                en: "Which African queen fought against Portuguese colonization in the 17th century?",
+                es: "¿Qué reina africana luchó contra la colonización portuguesa en el siglo XVII?",
+                de: "Welche afrikanische Königin kämpfte im 17. Jahrhundert gegen die portugiesische Kolonisierung?",
+                nl: "Welke Afrikaanse koningin vocht tegen de Portugese kolonisatie in de 17e eeuw?"
+            },
+            options: [
+                {
+                    en: "Queen Nzinga of Ndongo and Matamba",
+                    es: "Reina Nzinga de Ndongo y Matamba",
+                    de: "Königin Nzinga von Ndongo und Matamba",
+                    nl: "Koningin Nzinga van Ndongo en Matamba"
+                },
+                {
+                    en: "Queen Amina of Zazzau",
+                    es: "Reina Amina de Zazzau",
+                    de: "Königin Amina von Zazzau",
+                    nl: "Koningin Amina van Zazzau"
+                },
+                {
+                    en: "Yaa Asantewaa",
+                    es: "Yaa Asantewaa",
+                    de: "Yaa Asantewaa",
+                    nl: "Yaa Asantewaa"
+                },
+                {
+                    en: "Makeda",
+                    es: "Makeda",
+                    de: "Makeda",
+                    nl: "Makeda"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Queen Nzinga (1583-1663) was a brilliant military strategist and diplomat who resisted Portuguese colonization of Angola for over 40 years. She allied with the Dutch against the Portuguese and successfully maintained her kingdom's independence through skillful diplomacy and warfare.",
+                es: "La Reina Nzinga (1583-1663) fue una brillante estratega militar y diplomática que resistió la colonización portuguesa de Angola durante más de 40 años. Se alió con los holandeses contra los portugueses y mantuvo con éxito la independencia de su reino a través de hábil diplomacia y guerra.",
+                de: "Königin Nzinga (1583-1663) war eine brillante Militärstrategin und Diplomatin, die über 40 Jahre lang der portugiesischen Kolonisierung Angolas widerstand. Sie verbündete sich mit den Niederländern gegen die Portugiesen und erhielt erfolgreich die Unabhängigkeit ihres Königreichs durch geschickte Diplomatie und Kriegsführung.",
+                nl: "Koningin Nzinga (1583-1663) was een briljante militaire strateeg en diplomaat die meer dan 40 jaar weerstand bood aan de Portugese kolonisatie van Angola. Ze verbond zich met de Nederlanders tegen de Portugezen en behield succesvol de onafhankelijkheid van haar koninkrijk door bekwame diplomatie en oorlogsvoering."
+            }
+        },
+        {
+            question: {
+                en: "Which Babylonian king is famous for his code of laws, one of the earliest known legal codes?",
+                es: "¿Qué rey babilónico es famoso por su código de leyes, uno de los códigos legales más antiguos conocidos?",
+                de: "Welcher babylonische König ist berühmt für sein Gesetzbuch, eines der frühesten bekannten Rechtskodizes?",
+                nl: "Welke Babylonische koning is beroemd om zijn wetboek, een van de vroegst bekende rechtscodes?"
+            },
+            options: [
+                {
+                    en: "Hammurabi",
+                    es: "Hammurabi",
+                    de: "Hammurabi",
+                    nl: "Hammurabi"
+                },
+                {
+                    en: "Nebuchadnezzar II",
+                    es: "Nabucodonosor II",
+                    de: "Nebukadnezar II.",
+                    nl: "Nebukadnezar II"
+                },
+                {
+                    en: "Sargon of Akkad",
+                    es: "Sargón de Acad",
+                    de: "Sargon von Akkad",
+                    nl: "Sargon van Akkad"
+                },
+                {
+                    en: "Ashurbanipal",
+                    es: "Asurbanipal",
+                    de: "Assurbanipal",
+                    nl: "Ashurbanipal"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Hammurabi (c. 1810-1750 BCE) was the sixth king of the First Babylonian Dynasty. His Code of Hammurabi, inscribed on a stone stele, contains 282 laws covering various aspects of daily life and is one of the oldest deciphered writings of significant length.",
+                es: "Hammurabi (c. 1810-1750 a.C.) fue el sexto rey de la Primera Dinastía Babilónica. Su Código de Hammurabi, inscrito en una estela de piedra, contiene 282 leyes que cubren varios aspectos de la vida diaria y es uno de los escritos descifrados más antiguos de longitud significativa.",
+                de: "Hammurabi (ca. 1810-1750 v. Chr.) war der sechste König der Ersten Babylonischen Dynastie. Sein auf einer Steinstele eingravierter Codex Hammurabi enthält 282 Gesetze, die verschiedene Aspekte des täglichen Lebens abdecken, und ist eine der ältesten entschlüsselten Schriften von erheblicher Länge.",
+                nl: "Hammurabi (ca. 1810-1750 v.Chr.) was de zesde koning van de Eerste Babylonische Dynastie. Zijn Codex Hammurabi, gegraveerd op een stenen stele, bevat 282 wetten die verschillende aspecten van het dagelijks leven bestrijken en is een van de oudste ontcijferde geschriften van aanzienlijke lengte."
+            }
+        },
+        {
+            question: {
+                en: "Who was the Macedonian king who created one of the largest empires in ancient history?",
+                es: "¿Quién fue el rey macedonio que creó uno de los imperios más grandes de la historia antigua?",
+                de: "Wer war der makedonische König, der eines der größten Reiche der antiken Geschichte schuf?",
+                nl: "Wie was de Macedonische koning die een van de grootste rijken in de oude geschiedenis creëerde?"
+            },
+            options: [
+                {
+                    en: "Alexander the Great",
+                    es: "Alejandro Magno",
+                    de: "Alexander der Große",
+                    nl: "Alexander de Grote"
+                },
+                {
+                    en: "Philip II",
+                    es: "Felipe II",
+                    de: "Philipp II.",
+                    nl: "Philippus II"
+                },
+                {
+                    en: "Perseus",
+                    es: "Perseo",
+                    de: "Perseus",
+                    nl: "Perseus"
+                },
+                {
+                    en: "Cassander",
+                    es: "Casandro",
+                    de: "Kassander",
+                    nl: "Cassander"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Alexander the Great (356-323 BCE) conquered much of the known world by age 30, creating an empire stretching from Greece to India. His conquests spread Greek culture throughout the ancient world and ushered in the Hellenistic Age.",
+                es: "Alejandro Magno (356-323 a.C.) conquistó gran parte del mundo conocido a los 30 años, creando un imperio que se extendía desde Grecia hasta la India. Sus conquistas difundieron la cultura griega por todo el mundo antiguo e inauguraron la Era Helenística.",
+                de: "Alexander der Große (356-323 v. Chr.) eroberte im Alter von 30 Jahren einen Großteil der bekannten Welt und schuf ein Reich, das sich von Griechenland bis Indien erstreckte. Seine Eroberungen verbreiteten die griechische Kultur in der gesamten antiken Welt und leiteten das hellenistische Zeitalter ein.",
+                nl: "Alexander de Grote (356-323 v.Chr.) veroverde op 30-jarige leeftijd een groot deel van de bekende wereld en creëerde een rijk dat zich uitstrekte van Griekenland tot India. Zijn veroveringen verspreidden de Griekse cultuur over de hele oude wereld en luidden het Hellenistische tijdperk in."
+            }
+        },
+        {
+            question: {
+                en: "Which female pharaoh of Egypt disguised herself as male and built extensive monuments during her reign?",
+                es: "¿Qué faraón femenino de Egipto se disfrazó de hombre y construyó extensos monumentos durante su reinado?",
+                de: "Welche weibliche Pharaonin Ägyptens verkleidete sich als Mann und baute während ihrer Herrschaft umfangreiche Monumente?",
+                nl: "Welke vrouwelijke farao van Egypte vermomdde zich als man en bouwde uitgebreide monumenten tijdens haar bewind?"
+            },
+            options: [
+                {
+                    en: "Hatshepsut",
+                    es: "Hatshepsut",
+                    de: "Hatschepsut",
+                    nl: "Hatshepsut"
+                },
+                {
+                    en: "Cleopatra",
+                    es: "Cleopatra",
+                    de: "Kleopatra",
+                    nl: "Cleopatra"
+                },
+                {
+                    en: "Nefertari",
+                    es: "Nefertari",
+                    de: "Nefertari",
+                    nl: "Nefertari"
+                },
+                {
+                    en: "Ankhesenamun",
+                    es: "Ankhesenamun",
+                    de: "Anchesenamun",
+                    nl: "Ankhesenamun"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Hatshepsut (c. 1507-1458 BCE) was one of Egypt's most successful pharaohs. She often depicted herself wearing the traditional male pharaoh's regalia, including a false beard. Her reign was marked by extensive building projects and successful trade expeditions.",
+                es: "Hatshepsut (c. 1507-1458 a.C.) fue una de las faraonas más exitosas de Egipto. A menudo se representaba a sí misma usando las insignias tradicionales del faraón masculino, incluyendo una barba postiza. Su reinado estuvo marcado por extensos proyectos de construcción y exitosas expediciones comerciales.",
+                de: "Hatschepsut (ca. 1507-1458 v. Chr.) war eine der erfolgreichsten Pharaonen Ägyptens. Sie stellte sich oft mit den traditionellen männlichen Pharao-Insignien dar, einschließlich eines falschen Bartes. Ihre Herrschaft war geprägt von umfangreichen Bauprojekten und erfolgreichen Handelsexpeditionen.",
+                nl: "Hatshepsut (ca. 1507-1458 v.Chr.) was een van Egyptes meest succesvolle farao's. Ze beeldde zichzelf vaak af met de traditionele mannelijke farao-regalia, inclusief een valse baard. Haar bewind werd gekenmerkt door uitgebreide bouwprojecten en succesvolle handelsexpedities."
+            }
+        },
+        {
+            question: {
+                en: "Which Carthaginian statesman and general was Hannibal's father?",
+                es: "¿Qué estadista y general cartaginés fue el padre de Aníbal?",
+                de: "Welcher karthagische Staatsmann und General war Hannibals Vater?",
+                nl: "Welke Carthaagse staatsman en generaal was de vader van Hannibal?"
+            },
+            options: [
+                {
+                    en: "Hamilcar Barca",
+                    es: "Amílcar Barca",
+                    de: "Hamilkar Barkas",
+                    nl: "Hamilcar Barca"
+                },
+                {
+                    en: "Hasdrubal Barca",
+                    es: "Asdrúbal Barca",
+                    de: "Hasdrubal Barkas",
+                    nl: "Hasdrubal Barca"
+                },
+                {
+                    en: "Mago Barca",
+                    es: "Magón Barca",
+                    de: "Mago Barkas",
+                    nl: "Mago Barca"
+                },
+                {
+                    en: "Hanno the Great",
+                    es: "Hannón el Grande",
+                    de: "Hanno der Große",
+                    nl: "Hanno de Grote"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Hamilcar Barca (c. 275-228 BCE) was a Carthaginian general and statesman, father of Hannibal. He commanded Carthaginian forces in Sicily during the First Punic War and later conquered much of Hispania, establishing Carthaginian power there.",
+                es: "Amílcar Barca (c. 275-228 a.C.) fue un general y estadista cartaginés, padre de Aníbal. Comandó las fuerzas cartaginesas en Sicilia durante la Primera Guerra Púnica y luego conquistó gran parte de Hispania, estableciendo el poder cartaginés allí.",
+                de: "Hamilkar Barkas (ca. 275-228 v. Chr.) war ein karthagischer General und Staatsmann, Vater von Hannibal. Er befehligte karthagische Streitkräfte in Sizilien während des Ersten Punischen Krieges und eroberte später große Teile Hispaniens, wo er die karthagische Macht etablierte.",
+                nl: "Hamilcar Barca (ca. 275-228 v.Chr.) was een Carthaagse generaal en staatsman, vader van Hannibal. Hij commandeerde de Carthaagse troepen in Sicilië tijdens de Eerste Punische Oorlog en veroverde later een groot deel van Hispania, waarbij hij daar de Carthaagse macht vestigde."
+            }
+        },
+        {
+            question: {
+                en: "Who was the Visigothic king who sacked Rome in 410 CE?",
+                es: "¿Quién fue el rey visigodo que saqueó Roma en 410 d.C.?",
+                de: "Wer war der westgotische König, der Rom 410 n. Chr. plünderte?",
+                nl: "Wie was de Visigotische koning die Rome plunderde in 410 n.Chr.?"
+            },
+            options: [
+                {
+                    en: "Alaric I",
+                    es: "Alarico I",
+                    de: "Alarich I.",
+                    nl: "Alarik I"
+                },
+                {
+                    en: "Theodoric the Great",
+                    es: "Teodorico el Grande",
+                    de: "Theoderich der Große",
+                    nl: "Theodorik de Grote"
+                },
+                {
+                    en: "Athaulf",
+                    es: "Ataulfo",
+                    de: "Athaulf",
+                    nl: "Athaulf"
+                },
+                {
+                    en: "Euric",
+                    es: "Eurico",
+                    de: "Eurich",
+                    nl: "Eurik"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Alaric I (c. 370-410 CE) was the first King of the Visigoths. He led the Visigoths in the sack of Rome in August 410 CE, the first time the city had fallen to a foreign enemy in nearly 800 years, marking a symbolic end to Roman invincibility.",
+                es: "Alarico I (c. 370-410 d.C.) fue el primer Rey de los Visigodos. Dirigió a los visigodos en el saqueo de Roma en agosto de 410 d.C., la primera vez que la ciudad había caído ante un enemigo extranjero en casi 800 años, marcando un fin simbólico a la invencibilidad romana.",
+                de: "Alarich I. (ca. 370-410 n. Chr.) war der erste König der Westgoten. Er führte die Westgoten bei der Plünderung Roms im August 410 n. Chr. an, das erste Mal, dass die Stadt seit fast 800 Jahren einem ausländischen Feind zum Opfer fiel, was das symbolische Ende der römischen Unbesiegbarkeit markierte.",
+                nl: "Alarik I (ca. 370-410 n.Chr.) was de eerste koning van de Visigoten. Hij leidde de Visigoten bij de plundering van Rome in augustus 410 n.Chr., de eerste keer dat de stad in bijna 800 jaar door een buitenlandse vijand was gevallen, wat een symbolisch einde markeerde van de Romeinse onoverwinnelijkheid."
+            }
+        },
+        {
+            question: {
+                en: "Which Polish astronomer proposed the heliocentric model of the solar system?",
+                es: "¿Qué astrónomo polaco propuso el modelo heliocéntrico del sistema solar?",
+                de: "Welcher polnische Astronom schlug das heliozentrische Modell des Sonnensystems vor?",
+                nl: "Welke Poolse astronoom stelde het heliocentrische model van het zonnestelsel voor?"
+            },
+            options: [
+                {
+                    en: "Nicolaus Copernicus",
+                    es: "Nicolás Copérnico",
+                    de: "Nikolaus Kopernikus",
+                    nl: "Nicolaus Copernicus"
+                },
+                {
+                    en: "Tycho Brahe",
+                    es: "Tycho Brahe",
+                    de: "Tycho Brahe",
+                    nl: "Tycho Brahe"
+                },
+                {
+                    en: "Johannes Kepler",
+                    es: "Johannes Kepler",
+                    de: "Johannes Kepler",
+                    nl: "Johannes Kepler"
+                },
+                {
+                    en: "Galileo Galilei",
+                    es: "Galileo Galilei",
+                    de: "Galileo Galilei",
+                    nl: "Galileo Galilei"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Nicolaus Copernicus (1473-1543) was a Renaissance mathematician and astronomer who formulated the heliocentric model of the universe, placing the Sun rather than Earth at the center. His book 'De revolutionibus orbium coelestium' revolutionized astronomy.",
+                es: "Nicolás Copérnico (1473-1543) fue un matemático y astrónomo del Renacimiento que formuló el modelo heliocéntrico del universo, colocando al Sol en lugar de la Tierra en el centro. Su libro 'De revolutionibus orbium coelestium' revolucionó la astronomía.",
+                de: "Nikolaus Kopernikus (1473-1543) war ein Renaissance-Mathematiker und Astronom, der das heliozentrische Modell des Universums formulierte und die Sonne statt der Erde ins Zentrum stellte. Sein Buch 'De revolutionibus orbium coelestium' revolutionierte die Astronomie.",
+                nl: "Nicolaus Copernicus (1473-1543) was een Renaissance-wiskundige en astronoom die het heliocentrische model van het universum formuleerde, waarbij de Zon in plaats van de Aarde in het centrum werd geplaatst. Zijn boek 'De revolutionibus orbium coelestium' revolutioneerde de astronomie."
             }
         }
     ];

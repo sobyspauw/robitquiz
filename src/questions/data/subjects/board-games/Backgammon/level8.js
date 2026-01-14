@@ -825,7 +825,18 @@
           es: "La reducción de varianza usa técnicas estadísticas para obtener resultados de rollout más precisos con menos pruebas. Los métodos incluyen truncación (detener pruebas perdedoras temprano), secuencias de dados cuasi-aleatorias (asegurando muestras representativas) y muestreo estratificado. Esto hace que los rollouts sean más rápidos mientras se mantiene la precisión.",
           de: "Varianzreduktion nutzt statistische Techniken um genauere Rollout-Ergebnisse mit weniger Versuchen zu erhalten. Methoden umfassen Trunkierung (Verlustversuche früh stoppen), Quasi-Zufalls-Würfelsequenzen (repräsentative Stichproben sicherstellen) und geschichtete Stichprobenentnahme. Dies macht Rollouts schneller bei Beibehaltung der Genauigkeit.",
           nl: "Variantie reductie gebruikt statistische technieken om nauwkeurigere rollout resultaten te krijgen met minder proeven. Methoden omvatten afkapping (verliezende proeven vroeg stoppen), quasi-willekeurige dobbelsteenreeksen (representatieve steekproeven verzekeren) en gestratificeerde bemonstering. Dit maakt rollouts sneller terwijl nauwkeurigheid behouden blijft."
-        }
+        }    },
+    {
+      question: {en: "What is strategy in games?", es: "What is strategy in games?", de: "What is strategy in games?", nl: "What is strategy in games?"},
+      options: [
+        {en: "Planning to achieve objectives", es: "Planning to achieve objectives", de: "Planning to achieve objectives", nl: "Planning to achieve objectives"},
+        {en: "Random moves", es: "Random moves", de: "Random moves", nl: "Random moves"},
+        {en: "Luck only", es: "Luck only", de: "Luck only", nl: "Luck only"},
+        {en: "No planning", es: "No planning", de: "No planning", nl: "No planning"}
+      ],
+      correct: 0,
+      explanation: {en: "Strategy involves planning and decision-making to achieve game objectives.", es: "Strategy involves planning and decision-making to achieve game objectives.", de: "Strategy involves planning and decision-making to achieve game objectives.", nl: "Strategy involves planning and decision-making to achieve game objectives."}
+
       }
     ]
   };

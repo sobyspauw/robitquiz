@@ -1209,27 +1209,6 @@
     },
     {
       question: {
-        en: "What is 'game tree complexity' in Scrabble computational analysis?",
-        es: "¿Qué es la 'complejidad del árbol de juego' en análisis computacional de Scrabble?",
-        de: "Was ist 'Spielbaum-Komplexität' in Scrabble-Computeranalyse?",
-        nl: "Wat is 'spelboom complexiteit' in Scrabble computationele analyse?"
-      },
-      options: [
-        {en: "Number of possible game sequences", es: "Número de secuencias de juego posibles", de: "Anzahl möglicher Spielsequenzen", nl: "Aantal mogelijke spel reeksen"},
-        {en: "Difficulty of game rules", es: "Dificultad de reglas del juego", de: "Schwierigkeit der Spielregeln", nl: "Moeilijkheid van spelregels"},
-        {en: "Board layout complexity", es: "Complejidad del diseño del tablero", de: "Komplexität des Brett-Layouts", nl: "Complexiteit van bord indeling"},
-        {en: "Word count in dictionary", es: "Recuento de palabras en diccionario", de: "Wortanzahl im Wörterbuch", nl: "Woord aantal in woordenboek"}
-      ],
-      correct: 0,
-      explanation: {
-        en: "Game tree complexity refers to the astronomical number of possible Scrabble games (estimated at 10^15 or more), making perfect play computationally impractical even for modern AI.",
-        es: "La complejidad del árbol de juego se refiere al número astronómico de juegos de Scrabble posibles (estimado en 10^15 o más), haciendo que el juego perfecto sea computacionalmente impracticable incluso para IA moderna.",
-        de: "Spielbaum-Komplexität bezieht sich auf die astronomische Anzahl möglicher Scrabble-Spiele (geschätzt auf 10^15 oder mehr), was perfektes Spiel rechnerisch unpraktisch macht selbst für moderne KI.",
-        nl: "Spelboom complexiteit verwijst naar het astronomische aantal mogelijke Scrabble spellen (geschat op 10^15 of meer), waardoor perfect spel computationeel onpraktisch is zelfs voor moderne AI."
-      }
-    },
-    {
-      question: {
         en: "What is 'dynamic rack valuation adjustment' during a game?",
         es: "¿Qué es el 'ajuste dinámico de valoración del soporte' durante un juego?",
         de: "Was ist 'dynamische Rack-Bewertungsanpassung' während eines Spiels?",

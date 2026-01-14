@@ -426,7 +426,427 @@
           es: "Proposito teologico de mascaras funerarias es debatido. Teoria 1: mascaras preservaban identidad idealizada, permitiendo al ba (alma) reconocer y reunirse con cuerpo eternamente. Teoria 2: mascaras servian como respaldo si momificacion fallaba o cara se descomponia, asegurando existencia continua. Teoria 3: mascaras transformaban difunto en seres divinos (oro = carne divina, lapislazuli = cabello divino). Evidencia apoya multiples funciones: mascaras muestran rasgos idealizados (no retratos), simbolismo divino y proteccion practica. Respuesta es probablemente multifacetica—propositos religiosos, practicos y transformativos combinados.",
           de: "Der theologische Zweck von Bestattungsmasken wird debattiert. Theorie 1: Masken bewahrten idealisierte Identitaet, erlaubten dem Ba (Seele), den Koerper ewig zu erkennen und sich zu vereinen. Theorie 2: Masken dienten als Reserve, falls Mumifizierung scheiterte oder Gesicht sich zersetzte, um fortgesetzte Existenz zu sichern. Theorie 3: Masken verwandelten Verstorbene in goettliche Wesen (Gold = goettliches Fleisch, Lapislazuli = goettliches Haar). Beweise unterstuetzen mehrere Funktionen: Masken zeigen idealisierte Zuege (keine Portraits), goettliche Symbolik und praktischen Schutz. Antwort ist wahrscheinlich vielfaeltig—religioese, praktische und transformative Zwecke kombiniert.",
           nl: "Theologisch doel van begrafenismaskers wordt gedebatteerd. Theorie 1: maskers bewaarden geïdealiseerde identiteit, stelden ba (ziel) in staat lichaam eeuwig te herkennen en te herenigen. Theorie 2: maskers dienden als back-up als mummificatie faalde of gezicht ontbond, voortgezet bestaan verzekerd. Theorie 3: maskers transformeerden overledene in goddelijke wezens (goud = goddelijk vlees, lapis lazuli = goddelijk haar). Bewijs ondersteunt meerdere functies: maskers tonen geïdealiseerde kenmerken (geen portretten), goddelijke symboliek en praktische bescherming. Antwoord is waarschijnlijk veelzijdig—religieuze, praktische en transformatieve doeleinden gecombineerd."
-        }
+        }    },
+    {
+      question: {
+        en: "What does 'pharaoh' mean?",
+        es: "What does 'pharaoh' mean?",
+        de: "What does 'pharaoh' mean?",
+        nl: "What does 'pharaoh' mean?"
+      },
+      options: [
+        { en: "Great house", es: "Great house", de: "Great house", nl: "Great house" },
+        { en: "God king", es: "God king", de: "God king", nl: "God king" },
+        { en: "Supreme ruler", es: "Supreme ruler", de: "Supreme ruler", nl: "Supreme ruler" },
+        { en: "Royal palace", es: "Royal palace", de: "Royal palace", nl: "Royal palace" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pharaoh derives from 'per-aa' meaning 'great house', referring to the royal palace.",
+        es: "Pharaoh derives from 'per-aa' meaning 'great house', referring to the royal palace.",
+        de: "Pharaoh derives from 'per-aa' meaning 'great house', referring to the royal palace.",
+        nl: "Pharaoh derives from 'per-aa' meaning 'great house', referring to the royal palace."
+      }
+    },
+    {
+      question: {
+        en: "Who was the first pharaoh to unite Egypt?",
+        es: "Who was the first pharaoh to unite Egypt?",
+        de: "Who was the first pharaoh to unite Egypt?",
+        nl: "Who was the first pharaoh to unite Egypt?"
+      },
+      options: [
+        { en: "Narmer (or Menes)", es: "Narmer (or Menes)", de: "Narmer (or Menes)", nl: "Narmer (or Menes)" },
+        { en: "Khufu", es: "Khufu", de: "Khufu", nl: "Khufu" },
+        { en: "Tutankhamun", es: "Tutankhamun", de: "Tutankhamun", nl: "Tutankhamun" },
+        { en: "Ramesses", es: "Ramesses", de: "Ramesses", nl: "Ramesses" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Narmer (possibly same as Menes) united Upper and Lower Egypt around 3100 BCE.",
+        es: "Narmer (possibly same as Menes) united Upper and Lower Egypt around 3100 BCE.",
+        de: "Narmer (possibly same as Menes) united Upper and Lower Egypt around 3100 BCE.",
+        nl: "Narmer (possibly same as Menes) united Upper and Lower Egypt around 3100 BCE."
+      }
+    },
+    {
+      question: {
+        en: "What pharaoh built the Great Pyramid?",
+        es: "What pharaoh built the Great Pyramid?",
+        de: "What pharaoh built the Great Pyramid?",
+        nl: "What pharaoh built the Great Pyramid?"
+      },
+      options: [
+        { en: "Khufu (Cheops)", es: "Khufu (Cheops)", de: "Khufu (Cheops)", nl: "Khufu (Cheops)" },
+        { en: "Khafre", es: "Khafre", de: "Khafre", nl: "Khafre" },
+        { en: "Menkaure", es: "Menkaure", de: "Menkaure", nl: "Menkaure" },
+        { en: "Sneferu", es: "Sneferu", de: "Sneferu", nl: "Sneferu" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pharaoh Khufu built the Great Pyramid of Giza during the Old Kingdom.",
+        es: "Pharaoh Khufu built the Great Pyramid of Giza during the Old Kingdom.",
+        de: "Pharaoh Khufu built the Great Pyramid of Giza during the Old Kingdom.",
+        nl: "Pharaoh Khufu built the Great Pyramid of Giza during the Old Kingdom."
+      }
+    },
+    {
+      question: {
+        en: "Which pharaoh was the boy king?",
+        es: "Which pharaoh was the boy king?",
+        de: "Which pharaoh was the boy king?",
+        nl: "Which pharaoh was the boy king?"
+      },
+      options: [
+        { en: "Tutankhamun", es: "Tutankhamun", de: "Tutankhamun", nl: "Tutankhamun" },
+        { en: "Ramesses II", es: "Ramesses II", de: "Ramesses II", nl: "Ramesses II" },
+        { en: "Akhenaten", es: "Akhenaten", de: "Akhenaten", nl: "Akhenaten" },
+        { en: "Thutmose III", es: "Thutmose III", de: "Thutmose III", nl: "Thutmose III" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Tutankhamun became pharaoh at about 9 years old and died around age 19.",
+        es: "Tutankhamun became pharaoh at about 9 years old and died around age 19.",
+        de: "Tutankhamun became pharaoh at about 9 years old and died around age 19.",
+        nl: "Tutankhamun became pharaoh at about 9 years old and died around age 19."
+      }
+    },
+    {
+      question: {
+        en: "Who was Egypt's first female pharaoh?",
+        es: "Who was Egypt's first female pharaoh?",
+        de: "Who was Egypt's first female pharaoh?",
+        nl: "Who was Egypt's first female pharaoh?"
+      },
+      options: [
+        { en: "Hatshepsut", es: "Hatshepsut", de: "Hatshepsut", nl: "Hatshepsut" },
+        { en: "Cleopatra", es: "Cleopatra", de: "Cleopatra", nl: "Cleopatra" },
+        { en: "Nefertiti", es: "Nefertiti", de: "Nefertiti", nl: "Nefertiti" },
+        { en: "Sobekneferu", es: "Sobekneferu", de: "Sobekneferu", nl: "Sobekneferu" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Hatshepsut ruled as pharaoh (not just queen) during the New Kingdom.",
+        es: "Hatshepsut ruled as pharaoh (not just queen) during the New Kingdom.",
+        de: "Hatshepsut ruled as pharaoh (not just queen) during the New Kingdom.",
+        nl: "Hatshepsut ruled as pharaoh (not just queen) during the New Kingdom."
+      }
+    },
+    {
+      question: {
+        en: "What pharaoh built Abu Simbel?",
+        es: "What pharaoh built Abu Simbel?",
+        de: "What pharaoh built Abu Simbel?",
+        nl: "What pharaoh built Abu Simbel?"
+      },
+      options: [
+        { en: "Ramesses II", es: "Ramesses II", de: "Ramesses II", nl: "Ramesses II" },
+        { en: "Khufu", es: "Khufu", de: "Khufu", nl: "Khufu" },
+        { en: "Tutankhamun", es: "Tutankhamun", de: "Tutankhamun", nl: "Tutankhamun" },
+        { en: "Akhenaten", es: "Akhenaten", de: "Akhenaten", nl: "Akhenaten" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Ramesses II built the massive rock temples at Abu Simbel.",
+        es: "Ramesses II built the massive rock temples at Abu Simbel.",
+        de: "Ramesses II built the massive rock temples at Abu Simbel.",
+        nl: "Ramesses II built the massive rock temples at Abu Simbel."
+      }
+    },
+    {
+      question: {
+        en: "Which pharaoh introduced monotheism?",
+        es: "Which pharaoh introduced monotheism?",
+        de: "Which pharaoh introduced monotheism?",
+        nl: "Which pharaoh introduced monotheism?"
+      },
+      options: [
+        { en: "Akhenaten", es: "Akhenaten", de: "Akhenaten", nl: "Akhenaten" },
+        { en: "Tutankhamun", es: "Tutankhamun", de: "Tutankhamun", nl: "Tutankhamun" },
+        { en: "Ramesses II", es: "Ramesses II", de: "Ramesses II", nl: "Ramesses II" },
+        { en: "Thutmose III", es: "Thutmose III", de: "Thutmose III", nl: "Thutmose III" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Akhenaten attempted to establish monotheistic worship of Aten.",
+        es: "Akhenaten attempted to establish monotheistic worship of Aten.",
+        de: "Akhenaten attempted to establish monotheistic worship of Aten.",
+        nl: "Akhenaten attempted to establish monotheistic worship of Aten."
+      }
+    },
+    {
+      question: {
+        en: "What was the double crown called?",
+        es: "What was the double crown called?",
+        de: "What was the double crown called?",
+        nl: "What was the double crown called?"
+      },
+      options: [
+        { en: "Pschent", es: "Pschent", de: "Pschent", nl: "Pschent" },
+        { en: "Hedjet", es: "Hedjet", de: "Hedjet", nl: "Hedjet" },
+        { en: "Deshret", es: "Deshret", de: "Deshret", nl: "Deshret" },
+        { en: "Khepresh", es: "Khepresh", de: "Khepresh", nl: "Khepresh" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The Pschent was the double crown combining red and white crowns of Upper and Lower Egypt.",
+        es: "The Pschent was the double crown combining red and white crowns of Upper and Lower Egypt.",
+        de: "The Pschent was the double crown combining red and white crowns of Upper and Lower Egypt.",
+        nl: "The Pschent was the double crown combining red and white crowns of Upper and Lower Egypt."
+      }
+    },
+    {
+      question: {
+        en: "Who was known as 'Ramesses the Great'?",
+        es: "Who was known as 'Ramesses the Great'?",
+        de: "Who was known as 'Ramesses the Great'?",
+        nl: "Who was known as 'Ramesses the Great'?"
+      },
+      options: [
+        { en: "Ramesses II", es: "Ramesses II", de: "Ramesses II", nl: "Ramesses II" },
+        { en: "Ramesses I", es: "Ramesses I", de: "Ramesses I", nl: "Ramesses I" },
+        { en: "Ramesses III", es: "Ramesses III", de: "Ramesses III", nl: "Ramesses III" },
+        { en: "Ramesses IV", es: "Ramesses IV", de: "Ramesses IV", nl: "Ramesses IV" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Ramesses II earned the epithet 'the Great' for his long reign and building projects.",
+        es: "Ramesses II earned the epithet 'the Great' for his long reign and building projects.",
+        de: "Ramesses II earned the epithet 'the Great' for his long reign and building projects.",
+        nl: "Ramesses II earned the epithet 'the Great' for his long reign and building projects."
+      }
+    },
+    {
+      question: {
+        en: "What pharaoh's tomb was found intact?",
+        es: "What pharaoh's tomb was found intact?",
+        de: "What pharaoh's tomb was found intact?",
+        nl: "What pharaoh's tomb was found intact?"
+      },
+      options: [
+        { en: "Tutankhamun", es: "Tutankhamun", de: "Tutankhamun", nl: "Tutankhamun" },
+        { en: "Ramesses II", es: "Ramesses II", de: "Ramesses II", nl: "Ramesses II" },
+        { en: "Khufu", es: "Khufu", de: "Khufu", nl: "Khufu" },
+        { en: "Hatshepsut", es: "Hatshepsut", de: "Hatshepsut", nl: "Hatshepsut" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Tutankhamun's tomb, discovered by Howard Carter in 1922, was found largely intact.",
+        es: "Tutankhamun's tomb, discovered by Howard Carter in 1922, was found largely intact.",
+        de: "Tutankhamun's tomb, discovered by Howard Carter in 1922, was found largely intact.",
+        nl: "Tutankhamun's tomb, discovered by Howard Carter in 1922, was found largely intact."
+      }
+    },
+    {
+      question: {
+        en: "How long did Ramesses II reign?",
+        es: "How long did Ramesses II reign?",
+        de: "How long did Ramesses II reign?",
+        nl: "How long did Ramesses II reign?"
+      },
+      options: [
+        { en: "66 years", es: "66 years", de: "66 years", nl: "66 years" },
+        { en: "20 years", es: "20 years", de: "20 years", nl: "20 years" },
+        { en: "40 years", es: "40 years", de: "40 years", nl: "40 years" },
+        { en: "10 years", es: "10 years", de: "10 years", nl: "10 years" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Ramesses II reigned for an exceptionally long 66 years.",
+        es: "Ramesses II reigned for an exceptionally long 66 years.",
+        de: "Ramesses II reigned for an exceptionally long 66 years.",
+        nl: "Ramesses II reigned for an exceptionally long 66 years."
+      }
+    },
+    {
+      question: {
+        en: "What was the crook and flail?",
+        es: "What was the crook and flail?",
+        de: "What was the crook and flail?",
+        nl: "What was the crook and flail?"
+      },
+      options: [
+        { en: "Royal regalia symbols", es: "Royal regalia symbols", de: "Royal regalia symbols", nl: "Royal regalia symbols" },
+        { en: "Farming tools", es: "Farming tools", de: "Farming tools", nl: "Farming tools" },
+        { en: "Weapons", es: "Weapons", de: "Weapons", nl: "Weapons" },
+        { en: "Religious offerings", es: "Religious offerings", de: "Religious offerings", nl: "Religious offerings" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The crook and flail were symbols of pharaonic authority and rulership.",
+        es: "The crook and flail were symbols of pharaonic authority and rulership.",
+        de: "The crook and flail were symbols of pharaonic authority and rulership.",
+        nl: "The crook and flail were symbols of pharaonic authority and rulership."
+      }
+    },
+    {
+      question: {
+        en: "Who expanded Egypt's empire the most?",
+        es: "Who expanded Egypt's empire the most?",
+        de: "Who expanded Egypt's empire the most?",
+        nl: "Who expanded Egypt's empire the most?"
+      },
+      options: [
+        { en: "Thutmose III", es: "Thutmose III", de: "Thutmose III", nl: "Thutmose III" },
+        { en: "Ramesses II", es: "Ramesses II", de: "Ramesses II", nl: "Ramesses II" },
+        { en: "Akhenaten", es: "Akhenaten", de: "Akhenaten", nl: "Akhenaten" },
+        { en: "Tutankhamun", es: "Tutankhamun", de: "Tutankhamun", nl: "Tutankhamun" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Thutmose III is considered Egypt's greatest military pharaoh, expanding the empire significantly.",
+        es: "Thutmose III is considered Egypt's greatest military pharaoh, expanding the empire significantly.",
+        de: "Thutmose III is considered Egypt's greatest military pharaoh, expanding the empire significantly.",
+        nl: "Thutmose III is considered Egypt's greatest military pharaoh, expanding the empire significantly."
+      }
+    },
+    {
+      question: {
+        en: "What dynasty was Tutankhamun from?",
+        es: "What dynasty was Tutankhamun from?",
+        de: "What dynasty was Tutankhamun from?",
+        nl: "What dynasty was Tutankhamun from?"
+      },
+      options: [
+        { en: "18th Dynasty", es: "18th Dynasty", de: "18th Dynasty", nl: "18th Dynasty" },
+        { en: "4th Dynasty", es: "4th Dynasty", de: "4th Dynasty", nl: "4th Dynasty" },
+        { en: "12th Dynasty", es: "12th Dynasty", de: "12th Dynasty", nl: "12th Dynasty" },
+        { en: "19th Dynasty", es: "19th Dynasty", de: "19th Dynasty", nl: "19th Dynasty" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Tutankhamun ruled during the 18th Dynasty of the New Kingdom.",
+        es: "Tutankhamun ruled during the 18th Dynasty of the New Kingdom.",
+        de: "Tutankhamun ruled during the 18th Dynasty of the New Kingdom.",
+        nl: "Tutankhamun ruled during the 18th Dynasty of the New Kingdom."
+      }
+    },
+    {
+      question: {
+        en: "What false beard did pharaohs wear?",
+        es: "What false beard did pharaohs wear?",
+        de: "What false beard did pharaohs wear?",
+        nl: "What false beard did pharaohs wear?"
+      },
+      options: [
+        { en: "Ceremonial postiche beard", es: "Ceremonial postiche beard", de: "Ceremonial postiche beard", nl: "Ceremonial postiche beard" },
+        { en: "Natural beard", es: "Natural beard", de: "Natural beard", nl: "Natural beard" },
+        { en: "No beard", es: "No beard", de: "No beard", nl: "No beard" },
+        { en: "Animal fur beard", es: "Animal fur beard", de: "Animal fur beard", nl: "Animal fur beard" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pharaohs wore a ceremonial false beard called a postiche as symbol of divine authority.",
+        es: "Pharaohs wore a ceremonial false beard called a postiche as symbol of divine authority.",
+        de: "Pharaohs wore a ceremonial false beard called a postiche as symbol of divine authority.",
+        nl: "Pharaohs wore a ceremonial false beard called a postiche as symbol of divine authority."
+      }
+    },
+    {
+      question: {
+        en: "Who was Akhenaten's wife?",
+        es: "Who was Akhenaten's wife?",
+        de: "Who was Akhenaten's wife?",
+        nl: "Who was Akhenaten's wife?"
+      },
+      options: [
+        { en: "Nefertiti", es: "Nefertiti", de: "Nefertiti", nl: "Nefertiti" },
+        { en: "Cleopatra", es: "Cleopatra", de: "Cleopatra", nl: "Cleopatra" },
+        { en: "Hatshepsut", es: "Hatshepsut", de: "Hatshepsut", nl: "Hatshepsut" },
+        { en: "Ankhesenamun", es: "Ankhesenamun", de: "Ankhesenamun", nl: "Ankhesenamun" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Queen Nefertiti was Akhenaten's Great Royal Wife.",
+        es: "Queen Nefertiti was Akhenaten's Great Royal Wife.",
+        de: "Queen Nefertiti was Akhenaten's Great Royal Wife.",
+        nl: "Queen Nefertiti was Akhenaten's Great Royal Wife."
+      }
+    },
+    {
+      question: {
+        en: "What pharaoh built the Step Pyramid?",
+        es: "What pharaoh built the Step Pyramid?",
+        de: "What pharaoh built the Step Pyramid?",
+        nl: "What pharaoh built the Step Pyramid?"
+      },
+      options: [
+        { en: "Djoser", es: "Djoser", de: "Djoser", nl: "Djoser" },
+        { en: "Khufu", es: "Khufu", de: "Khufu", nl: "Khufu" },
+        { en: "Sneferu", es: "Sneferu", de: "Sneferu", nl: "Sneferu" },
+        { en: "Menkaure", es: "Menkaure", de: "Menkaure", nl: "Menkaure" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Djoser built the Step Pyramid at Saqqara, Egypt's first pyramid.",
+        es: "Djoser built the Step Pyramid at Saqqara, Egypt's first pyramid.",
+        de: "Djoser built the Step Pyramid at Saqqara, Egypt's first pyramid.",
+        nl: "Djoser built the Step Pyramid at Saqqara, Egypt's first pyramid."
+      }
+    },
+    {
+      question: {
+        en: "How were pharaohs viewed?",
+        es: "How were pharaohs viewed?",
+        de: "How were pharaohs viewed?",
+        nl: "How were pharaohs viewed?"
+      },
+      options: [
+        { en: "As living gods", es: "As living gods", de: "As living gods", nl: "As living gods" },
+        { en: "As ordinary kings", es: "As ordinary kings", de: "As ordinary kings", nl: "As ordinary kings" },
+        { en: "As priests", es: "As priests", de: "As priests", nl: "As priests" },
+        { en: "As military leaders only", es: "As military leaders only", de: "As military leaders only", nl: "As military leaders only" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Pharaohs were considered living gods, intermediaries between gods and people.",
+        es: "Pharaohs were considered living gods, intermediaries between gods and people.",
+        de: "Pharaohs were considered living gods, intermediaries between gods and people.",
+        nl: "Pharaohs were considered living gods, intermediaries between gods and people."
+      }
+    },
+    {
+      question: {
+        en: "What was a pharaoh's soul called?",
+        es: "What was a pharaoh's soul called?",
+        de: "What was a pharaoh's soul called?",
+        nl: "What was a pharaoh's soul called?"
+      },
+      options: [
+        { en: "Ka", es: "Ka", de: "Ka", nl: "Ka" },
+        { en: "Ba", es: "Ba", de: "Ba", nl: "Ba" },
+        { en: "Akh", es: "Akh", de: "Akh", nl: "Akh" },
+        { en: "Ib", es: "Ib", de: "Ib", nl: "Ib" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "The ka was one part of the soul, the life force that lived on after death.",
+        es: "The ka was one part of the soul, the life force that lived on after death.",
+        de: "The ka was one part of the soul, the life force that lived on after death.",
+        nl: "The ka was one part of the soul, the life force that lived on after death."
+      }
+    },
+    {
+      question: {
+        en: "Which pharaoh fought the Hittites?",
+        es: "Which pharaoh fought the Hittites?",
+        de: "Which pharaoh fought the Hittites?",
+        nl: "Which pharaoh fought the Hittites?"
+      },
+      options: [
+        { en: "Ramesses II", es: "Ramesses II", de: "Ramesses II", nl: "Ramesses II" },
+        { en: "Thutmose III", es: "Thutmose III", de: "Thutmose III", nl: "Thutmose III" },
+        { en: "Akhenaten", es: "Akhenaten", de: "Akhenaten", nl: "Akhenaten" },
+        { en: "Tutankhamun", es: "Tutankhamun", de: "Tutankhamun", nl: "Tutankhamun" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Ramesses II fought the famous Battle of Kadesh against the Hittites.",
+        es: "Ramesses II fought the famous Battle of Kadesh against the Hittites.",
+        de: "Ramesses II fought the famous Battle of Kadesh against the Hittites.",
+        nl: "Ramesses II fought the famous Battle of Kadesh against the Hittites."
+      }
+
       }
     ]
   };

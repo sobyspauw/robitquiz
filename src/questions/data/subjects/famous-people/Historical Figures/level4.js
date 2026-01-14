@@ -19,28 +19,7 @@
           { en: "Hannibal Barca", es: "Aníbal Barca", de: "Hannibal Barkas", nl: "Hannibal Barca" },
           { en: "Hamilcar Barca", es: "Amílcar Barca", de: "Hamilkar Barkas", nl: "Hamilcar Barca" },
           { en: "Hasdrubal", es: "Asdrúbal", de: "Hasdrubal", nl: "Hasdrubal" },
-          { en: "Scipio Africanus", es: "Escipión el Africano", de: "Scipio Africanus", nl: "Scipio Africanus" },
-        {
-            question: {
-                en: "Who was the first President of the United States?",
-                es: "¿Quién fue el primer Presidente de los Estados Unidos?",
-                de: "Wer war der erste Präsident der Vereinigten Staaten?",
-                nl: "Wie was de eerste President van de Verenigde Staten?"
-            },
-            options: [
-                { en: "George Washington", es: "George Washington", de: "George Washington", nl: "George Washington" },
-                { en: "Thomas Jefferson", es: "Thomas Jefferson", de: "Thomas Jefferson", nl: "Thomas Jefferson" },
-                { en: "John Adams", es: "John Adams", de: "John Adams", nl: "John Adams" },
-                { en: "Benjamin Franklin", es: "Benjamin Franklin", de: "Benjamin Franklin", nl: "Benjamin Franklin" }
-            ],
-            correct: 0,
-            explanation: {
-                en: "George Washington (1732-1799) served as the first President of the United States from 1789 to 1797. A Revolutionary War general, he presided over the Constitutional Convention and established many presidential precedents, including the two-term tradition.",
-                es: "George Washington (1732-1799) fue el primer Presidente de los Estados Unidos de 1789 a 1797. General de la Guerra de Independencia, presidió la Convención Constitucional y estableció muchos precedentes presidenciales, incluyendo la tradición de dos mandatos.",
-                de: "George Washington (1732-1799) war von 1789 bis 1797 der erste Präsident der Vereinigten Staaten. Als General im Unabhängigkeitskrieg leitete er die Verfassungsversammlung und etablierte viele präsidiale Präzedenzfälle, einschließlich der Zwei-Amtszeiten-Tradition.",
-                nl: "George Washington (1732-1799) was van 1789 tot 1797 de eerste President van de Verenigde Staten. Als generaal in de Onafhankelijkheidsoorlog leidde hij de Grondwetsconventie en vestigde veel presidentiële precedenten, waaronder de twee-termijn traditie."
-            }
-        }
+          { en: "Scipio Africanus", es: "Escipión el Africano", de: "Scipio Africanus", nl: "Scipio Africanus" }
         ],
         correct: 0,
         explanation: {
@@ -48,6 +27,27 @@
           es: "Aníbal lideró la Segunda Guerra Púnica contra Roma (218-201 a.C.), famosamente cruzando los Alpes con elefantes de guerra en 218 a.C., aunque finalmente falló en capturar Roma.",
           de: "Hannibal führte den Zweiten Punischen Krieg gegen Rom (218-201 v.Chr.) an und überquerte berühmt 218 v.Chr. die Alpen mit Kriegselefanten, obwohl er letztendlich bei der Eroberung Roms scheiterte.",
           nl: "Hannibal leidde de Tweede Punische Oorlog tegen Rome (218-201 v.Chr.), beroemd voor het oversteken van de Alpen met oorlogsolifanten in 218 v.Chr., hoewel hij uiteindelijk faalde Rome te veroveren."
+        }
+      },
+      {
+        question: {
+          en: "Who was the first President of the United States?",
+          es: "¿Quién fue el primer Presidente de los Estados Unidos?",
+          de: "Wer war der erste Präsident der Vereinigten Staaten?",
+          nl: "Wie was de eerste President van de Verenigde Staten?"
+        },
+        options: [
+          { en: "George Washington", es: "George Washington", de: "George Washington", nl: "George Washington" },
+          { en: "Thomas Jefferson", es: "Thomas Jefferson", de: "Thomas Jefferson", nl: "Thomas Jefferson" },
+          { en: "John Adams", es: "John Adams", de: "John Adams", nl: "John Adams" },
+          { en: "Benjamin Franklin", es: "Benjamin Franklin", de: "Benjamin Franklin", nl: "Benjamin Franklin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "George Washington (1732-1799) served as the first President of the United States from 1789 to 1797. A Revolutionary War general, he presided over the Constitutional Convention and established many presidential precedents, including the two-term tradition.",
+          es: "George Washington (1732-1799) fue el primer Presidente de los Estados Unidos de 1789 a 1797. General de la Guerra de Independencia, presidió la Convención Constitucional y estableció muchos precedentes presidenciales, incluyendo la tradición de dos mandatos.",
+          de: "George Washington (1732-1799) war von 1789 bis 1797 der erste Präsident der Vereinigten Staaten. Als General im Unabhängigkeitskrieg leitete er die Verfassungsversammlung und etablierte viele präsidiale Präzedenzfälle, einschließlich der Zwei-Amtszeiten-Tradition.",
+          nl: "George Washington (1732-1799) was van 1789 tot 1797 de eerste President van de Verenigde Staten. Als generaal in de Onafhankelijkheidsoorlog leidde hij de Grondwetsconventie en vestigde veel presidentiële precedenten, waaronder de twee-termijn traditie."
         }
       },
       {
@@ -426,6 +426,237 @@
           es: "Ibn Sina (980-1037), conocido como Avicena en Occidente, fue un polímata persa que preservó y expandió la filosofía aristotélica, influyendo tanto en la escolástica islámica como cristiana.",
           de: "Ibn Sina (980-1037), im Westen als Avicenna bekannt, war ein persischer Universalgelehrter, der die aristotelische Philosophie bewahrte und erweiterte und sowohl die islamische als auch die christliche Scholastik beeinflusste.",
           nl: "Ibn Sina (980-1037), bekend als Avicenna in het Westen, was een Perzische polymath die de Aristotelische filosofie bewaarde en uitbreidde, beïnvloedde zowel de islamitische als christelijke scholastiek."
+        }
+      },
+      {
+        question: {
+          en: "Who was the Prussian king who made Prussia a major European power?",
+          es: "¿Quién fue el rey prusiano que hizo de Prusia una potencia europea importante?",
+          de: "Wer war der preußische König, der Preußen zu einer europäischen Großmacht machte?",
+          nl: "Wie was de Pruisische koning die Pruisen een grote Europese macht maakte?"
+        },
+        options: [
+          { en: "Frederick the Great", es: "Federico el Grande", de: "Friedrich der Große", nl: "Frederik de Grote" },
+          { en: "Frederick William I", es: "Federico Guillermo I", de: "Friedrich Wilhelm I.", nl: "Frederik Willem I" },
+          { en: "Frederick I", es: "Federico I", de: "Friedrich I.", nl: "Frederik I" },
+          { en: "William I", es: "Guillermo I", de: "Wilhelm I.", nl: "Willem I" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Frederick II (1712-1786), known as Frederick the Great, transformed Prussia into a major European power through military victories, administrative reforms, and patronage of the arts and Enlightenment philosophy.",
+          es: "Federico II (1712-1786), conocido como Federico el Grande, transformó Prusia en una potencia europea importante a través de victorias militares, reformas administrativas y patrocinio de las artes y la filosofía de la Ilustración.",
+          de: "Friedrich II. (1712-1786), bekannt als Friedrich der Große, verwandelte Preußen durch militärische Siege, Verwaltungsreformen und Förderung der Künste und Aufklärungsphilosophie in eine europäische Großmacht.",
+          nl: "Frederik II (1712-1786), bekend als Frederik de Grote, transformeerde Pruisen tot een belangrijke Europese macht door militaire overwinningen, administratieve hervormingen en beschermheerschap van de kunsten en Verlichtingsfilosofie."
+        }
+      },
+      {
+        question: {
+          en: "Which Viking explorer is believed to have reached North America around 1000 CE?",
+          es: "¿Qué explorador vikingo se cree que llegó a América del Norte alrededor del año 1000 d.C.?",
+          de: "Welcher Wikingerforcher soll um 1000 n.Chr. Nordamerika erreicht haben?",
+          nl: "Welke Viking ontdekkingsreiziger wordt verondersteld rond 1000 n.Chr. Noord-Amerika te hebben bereikt?"
+        },
+        options: [
+          { en: "Leif Erikson", es: "Leif Erikson", de: "Leif Erikson", nl: "Leif Erikson" },
+          { en: "Erik the Red", es: "Erik el Rojo", de: "Erik der Rote", nl: "Erik de Rode" },
+          { en: "Bjorn Ironside", es: "Bjorn Ironside", de: "Bjorn Eisenseite", nl: "Bjorn Ironside" },
+          { en: "Ragnar Lothbrok", es: "Ragnar Lothbrok", de: "Ragnar Lothbrok", nl: "Ragnar Lothbrok" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Leif Erikson, son of Erik the Red, is credited with being the first European to set foot in North America around 1000 CE, establishing a settlement called Vinland in present-day Newfoundland.",
+          es: "Leif Erikson, hijo de Erik el Rojo, es reconocido como el primer europeo en pisar América del Norte alrededor del año 1000 d.C., estableciendo un asentamiento llamado Vinland en la actual Terranova.",
+          de: "Leif Erikson, Sohn von Erik dem Roten, wird zugeschrieben, um 1000 n.Chr. als erster Europäer Nordamerika betreten zu haben und eine Siedlung namens Vinland im heutigen Neufundland gegründet zu haben.",
+          nl: "Leif Erikson, zoon van Erik de Rode, wordt gecrediteerd als de eerste Europeaan die rond 1000 n.Chr. voet zette in Noord-Amerika, vestigde een nederzetting genaamd Vinland in het huidige Newfoundland."
+        }
+      },
+      {
+        question: {
+          en: "Who was the Chinese empress who ruled as the only female emperor in Chinese history?",
+          es: "¿Quién fue la emperatriz china que gobernó como la única emperadora en la historia china?",
+          de: "Wer war die chinesische Kaiserin, die als einzige weibliche Kaiserin in der chinesischen Geschichte herrschte?",
+          nl: "Wie was de Chinese keizerin die regeerde als de enige vrouwelijke keizer in de Chinese geschiedenis?"
+        },
+        options: [
+          { en: "Wu Zetian", es: "Wu Zetian", de: "Wu Zetian", nl: "Wu Zetian" },
+          { en: "Empress Dowager Cixi", es: "Emperatriz Viuda Cixi", de: "Kaiserinwitwe Cixi", nl: "Keizerin-weduwe Cixi" },
+          { en: "Empress Lü", es: "Emperatriz Lü", de: "Kaiserin Lü", nl: "Keizerin Lü" },
+          { en: "Empress Wang", es: "Emperatriz Wang", de: "Kaiserin Wang", nl: "Keizerin Wang" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Wu Zetian (624-705) was the only woman to rule China as emperor in her own right, founding the brief Zhou Dynasty and proving to be an effective administrator during the Tang Dynasty period.",
+          es: "Wu Zetian (624-705) fue la única mujer que gobernó China como emperador por derecho propio, fundando la breve Dinastía Zhou y demostrando ser una administradora eficaz durante el período de la Dinastía Tang.",
+          de: "Wu Zetian (624-705) war die einzige Frau, die China als Kaiser in eigenem Recht regierte, gründete die kurze Zhou-Dynastie und erwies sich während der Tang-Dynastie-Periode als effektive Verwalterin.",
+          nl: "Wu Zetian (624-705) was de enige vrouw die China regeerde als keizer in eigen recht, stichtte de korte Zhou-dynastie en bleek een effectieve bestuurder te zijn tijdens de Tang-dynastie periode."
+        }
+      },
+      {
+        question: {
+          en: "Which Zulu king created a powerful military state in Southern Africa?",
+          es: "¿Qué rey zulú creó un poderoso estado militar en el sur de África?",
+          de: "Welcher Zulu-König schuf einen mächtigen Militärstaat im südlichen Afrika?",
+          nl: "Welke Zulu-koning creëerde een machtige militaire staat in zuidelijk Afrika?"
+        },
+        options: [
+          { en: "Shaka Zulu", es: "Shaka Zulu", de: "Shaka Zulu", nl: "Shaka Zulu" },
+          { en: "Cetshwayo", es: "Cetshwayo", de: "Cetshwayo", nl: "Cetshwayo" },
+          { en: "Dingane", es: "Dingane", de: "Dingane", nl: "Dingane" },
+          { en: "Mpande", es: "Mpande", de: "Mpande", nl: "Mpande" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Shaka Zulu (1787-1828) transformed the Zulu kingdom through revolutionary military tactics and organization, creating a powerful empire that dominated much of Southern Africa in the early 19th century.",
+          es: "Shaka Zulu (1787-1828) transformó el reino zulú a través de tácticas y organización militar revolucionarias, creando un imperio poderoso que dominó gran parte del sur de África a principios del siglo XIX.",
+          de: "Shaka Zulu (1787-1828) transformierte das Zulu-Königreich durch revolutionäre Militärtaktiken und Organisation und schuf ein mächtiges Reich, das im frühen 19. Jahrhundert weite Teile des südlichen Afrikas beherrschte.",
+          nl: "Shaka Zulu (1787-1828) transformeerde het Zulu-koninkrijk door revolutionaire militaire tactieken en organisatie, creëerde een machtig rijk dat veel van zuidelijk Afrika domineerde in het begin van de 19e eeuw."
+        }
+      },
+      {
+        question: {
+          en: "Who was the Holy Roman Emperor who convened the Council of Trent?",
+          es: "¿Quién fue el Emperador del Sacro Imperio Romano que convocó el Concilio de Trento?",
+          de: "Wer war der Kaiser des Heiligen Römischen Reiches, der das Konzil von Trient einberief?",
+          nl: "Wie was de keizer van het Heilige Roomse Rijk die het Concilie van Trente bijeenriep?"
+        },
+        options: [
+          { en: "Charles V", es: "Carlos V", de: "Karl V.", nl: "Karel V" },
+          { en: "Ferdinand I", es: "Fernando I", de: "Ferdinand I.", nl: "Ferdinand I" },
+          { en: "Maximilian I", es: "Maximiliano I", de: "Maximilian I.", nl: "Maximiliaan I" },
+          { en: "Rudolf II", es: "Rodolfo II", de: "Rudolf II.", nl: "Rudolf II" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Charles V (1500-1558) ruled over vast territories including Spain and the Holy Roman Empire. He convened the Council of Trent (1545-1563) to address the Protestant Reformation and reform the Catholic Church.",
+          es: "Carlos V (1500-1558) gobernó vastos territorios incluyendo España y el Sacro Imperio Romano. Convocó el Concilio de Trento (1545-1563) para abordar la Reforma Protestante y reformar la Iglesia Católica.",
+          de: "Karl V. (1500-1558) herrschte über riesige Gebiete einschließlich Spanien und das Heilige Römische Reich. Er berief das Konzil von Trient (1545-1563) ein, um die protestantische Reformation anzugehen und die katholische Kirche zu reformieren.",
+          nl: "Karel V (1500-1558) regeerde over uitgestrekte gebieden waaronder Spanje en het Heilige Roomse Rijk. Hij riep het Concilie van Trente (1545-1563) bijeen om de Protestantse Reformatie aan te pakken en de Katholieke Kerk te hervormen."
+        }
+      },
+      {
+        question: {
+          en: "Which Egyptian pharaoh built the largest pyramid at Giza?",
+          es: "¿Qué faraón egipcio construyó la pirámide más grande de Giza?",
+          de: "Welcher ägyptische Pharao baute die größte Pyramide in Gizeh?",
+          nl: "Welke Egyptische farao bouwde de grootste piramide in Gizeh?"
+        },
+        options: [
+          { en: "Khufu (Cheops)", es: "Keops (Khufu)", de: "Cheops (Khufu)", nl: "Khufu (Cheops)" },
+          { en: "Khafre", es: "Kefrén", de: "Chephren", nl: "Khafre" },
+          { en: "Menkaure", es: "Micerino", de: "Mykerinos", nl: "Menkaure" },
+          { en: "Sneferu", es: "Snefru", de: "Snofru", nl: "Sneferu" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Khufu, also known as Cheops (reigned c. 2589-2566 BCE), built the Great Pyramid of Giza, the largest of the three pyramids and one of the Seven Wonders of the Ancient World.",
+          es: "Keops, también conocido como Khufu (reinó c. 2589-2566 a.C.), construyó la Gran Pirámide de Giza, la más grande de las tres pirámides y una de las Siete Maravillas del Mundo Antiguo.",
+          de: "Cheops, auch bekannt als Khufu (regierte ca. 2589-2566 v.Chr.), baute die Große Pyramide von Gizeh, die größte der drei Pyramiden und eines der Sieben Weltwunder der Antike.",
+          nl: "Khufu, ook bekend als Cheops (regeerde ca. 2589-2566 v.Chr.), bouwde de Grote Piramide van Gizeh, de grootste van de drie piramides en een van de Zeven Wereldwonderen van de Oudheid."
+        }
+      },
+      {
+        question: {
+          en: "Who was the Persian emperor defeated by Alexander the Great?",
+          es: "¿Quién fue el emperador persa derrotado por Alejandro Magno?",
+          de: "Wer war der persische Kaiser, der von Alexander dem Großen besiegt wurde?",
+          nl: "Wie was de Perzische keizer die werd verslagen door Alexander de Grote?"
+        },
+        options: [
+          { en: "Darius III", es: "Darío III", de: "Dareios III.", nl: "Darius III" },
+          { en: "Xerxes I", es: "Jerjes I", de: "Xerxes I.", nl: "Xerxes I" },
+          { en: "Cyrus the Great", es: "Ciro el Grande", de: "Kyros der Große", nl: "Cyrus de Grote" },
+          { en: "Artaxerxes III", es: "Artajerjes III", de: "Artaxerxes III.", nl: "Artaxerxes III" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Darius III (c. 380-330 BCE) was the last Achaemenid Persian emperor, defeated by Alexander the Great in several battles including Issus (333 BCE) and Gaugamela (331 BCE), ending the Persian Empire.",
+          es: "Darío III (c. 380-330 a.C.) fue el último emperador persa aqueménida, derrotado por Alejandro Magno en varias batallas incluyendo Iso (333 a.C.) y Gaugamela (331 a.C.), terminando el Imperio Persa.",
+          de: "Dareios III. (ca. 380-330 v.Chr.) war der letzte achämenidische persische Kaiser, von Alexander dem Großen in mehreren Schlachten besiegt, darunter Issos (333 v.Chr.) und Gaugamela (331 v.Chr.), was das Ende des Persischen Reiches bedeutete.",
+          nl: "Darius III (ca. 380-330 v.Chr.) was de laatste Achaemenidische Perzische keizer, verslagen door Alexander de Grote in verschillende veldslagen waaronder Issus (333 v.Chr.) en Gaugamela (331 v.Chr.), wat het einde betekende van het Perzische Rijk."
+        }
+      },
+      {
+        question: {
+          en: "Which English naturalist developed the theory of evolution by natural selection?",
+          es: "¿Qué naturalista inglés desarrolló la teoría de la evolución por selección natural?",
+          de: "Welcher englische Naturforscher entwickelte die Evolutionstheorie durch natürliche Selektion?",
+          nl: "Welke Engelse natuuronderzoeker ontwikkelde de evolutietheorie door natuurlijke selectie?"
+        },
+        options: [
+          { en: "Charles Darwin", es: "Charles Darwin", de: "Charles Darwin", nl: "Charles Darwin" },
+          { en: "Alfred Russel Wallace", es: "Alfred Russel Wallace", de: "Alfred Russel Wallace", nl: "Alfred Russel Wallace" },
+          { en: "Thomas Huxley", es: "Thomas Huxley", de: "Thomas Huxley", nl: "Thomas Huxley" },
+          { en: "Jean-Baptiste Lamarck", es: "Jean-Baptiste Lamarck", de: "Jean-Baptiste Lamarck", nl: "Jean-Baptiste Lamarck" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Charles Darwin (1809-1882) published 'On the Origin of Species' in 1859, presenting his theory of evolution through natural selection based on observations from his voyage on the HMS Beagle.",
+          es: "Charles Darwin (1809-1882) publicó 'El Origen de las Especies' en 1859, presentando su teoría de la evolución por selección natural basada en observaciones de su viaje en el HMS Beagle.",
+          de: "Charles Darwin (1809-1882) veröffentlichte 1859 'Über die Entstehung der Arten' und präsentierte seine Evolutionstheorie durch natürliche Selektion, basierend auf Beobachtungen seiner Reise auf der HMS Beagle.",
+          nl: "Charles Darwin (1809-1882) publiceerde 'Over het Ontstaan van Soorten' in 1859, presenteerde zijn evolutietheorie door natuurlijke selectie gebaseerd op waarnemingen van zijn reis op de HMS Beagle."
+        }
+      },
+      {
+        question: {
+          en: "Who was the Babylonian king famous for his law code?",
+          es: "¿Quién fue el rey babilónico famoso por su código de leyes?",
+          de: "Wer war der babylonische König, der für sein Gesetzeswerk berühmt war?",
+          nl: "Wie was de Babylonische koning beroemd om zijn wetboek?"
+        },
+        options: [
+          { en: "Hammurabi", es: "Hammurabi", de: "Hammurabi", nl: "Hammurabi" },
+          { en: "Nebuchadnezzar II", es: "Nabucodonosor II", de: "Nebukadnezar II.", nl: "Nebukadnezar II" },
+          { en: "Sargon of Akkad", es: "Sargón de Acad", de: "Sargon von Akkad", nl: "Sargon van Akkad" },
+          { en: "Cyrus the Great", es: "Ciro el Grande", de: "Kyros der Große", nl: "Cyrus de Grote" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hammurabi (c. 1810-1750 BCE) was the sixth king of Babylon, famous for the Code of Hammurabi, one of the earliest and most complete written legal codes from ancient Mesopotamia.",
+          es: "Hammurabi (c. 1810-1750 a.C.) fue el sexto rey de Babilonia, famoso por el Código de Hammurabi, uno de los códigos legales escritos más antiguos y completos de la antigua Mesopotamia.",
+          de: "Hammurabi (ca. 1810-1750 v.Chr.) war der sechste König von Babylon, berühmt für den Codex Hammurabi, eines der frühesten und vollständigsten schriftlichen Rechtswerke aus dem alten Mesopotamien.",
+          nl: "Hammurabi (ca. 1810-1750 v.Chr.) was de zesde koning van Babylon, beroemd om de Code van Hammurabi, een van de vroegste en meest complete geschreven rechtscodes uit het oude Mesopotamië."
+        }
+      },
+      {
+        question: {
+          en: "Which Polish astronomer proposed the heliocentric model of the solar system?",
+          es: "¿Qué astrónomo polaco propuso el modelo heliocéntrico del sistema solar?",
+          de: "Welcher polnische Astronom schlug das heliozentrische Modell des Sonnensystems vor?",
+          nl: "Welke Poolse astronoom stelde het heliocentrische model van het zonnestelsel voor?"
+        },
+        options: [
+          { en: "Nicolaus Copernicus", es: "Nicolás Copérnico", de: "Nikolaus Kopernikus", nl: "Nicolaas Copernicus" },
+          { en: "Galileo Galilei", es: "Galileo Galilei", de: "Galileo Galilei", nl: "Galileo Galilei" },
+          { en: "Johannes Kepler", es: "Johannes Kepler", de: "Johannes Kepler", nl: "Johannes Kepler" },
+          { en: "Tycho Brahe", es: "Tycho Brahe", de: "Tycho Brahe", nl: "Tycho Brahe" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Nicolaus Copernicus (1473-1543) published 'De revolutionibus orbium coelestium' in 1543, proposing that the Sun, not Earth, was at the center of the solar system, revolutionizing astronomy.",
+          es: "Nicolás Copérnico (1473-1543) publicó 'De revolutionibus orbium coelestium' en 1543, proponiendo que el Sol, no la Tierra, estaba en el centro del sistema solar, revolucionando la astronomía.",
+          de: "Nikolaus Kopernikus (1473-1543) veröffentlichte 1543 'De revolutionibus orbium coelestium' und schlug vor, dass die Sonne, nicht die Erde, im Zentrum des Sonnensystems stand, was die Astronomie revolutionierte.",
+          nl: "Nicolaas Copernicus (1473-1543) publiceerde 'De revolutionibus orbium coelestium' in 1543, stelde voor dat de Zon, niet de Aarde, in het centrum van het zonnestelsel stond, revolutioneerde de astronomie."
+        }
+      },
+      {
+        question: {
+          en: "Who was the Frankish king crowned as the first Holy Roman Emperor?",
+          es: "¿Quién fue el rey franco coronado como el primer Emperador del Sacro Imperio Romano?",
+          de: "Wer war der fränkische König, der zum ersten Kaiser des Heiligen Römischen Reiches gekrönt wurde?",
+          nl: "Wie was de Frankische koning die werd gekroond tot de eerste keizer van het Heilige Roomse Rijk?"
+        },
+        options: [
+          { en: "Charlemagne", es: "Carlomagno", de: "Karl der Große", nl: "Karel de Grote" },
+          { en: "Clovis I", es: "Clodoveo I", de: "Chlodwig I.", nl: "Clovis I" },
+          { en: "Charles Martel", es: "Carlos Martel", de: "Karl Martell", nl: "Karel Martel" },
+          { en: "Pepin the Short", es: "Pipino el Breve", de: "Pippin der Kurze", nl: "Pepijn de Korte" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Charlemagne (742-814) was crowned Emperor by Pope Leo III on Christmas Day 800 CE, establishing the Holy Roman Empire and uniting much of Western Europe under Frankish rule.",
+          es: "Carlomagno (742-814) fue coronado Emperador por el Papa León III el día de Navidad del año 800 d.C., estableciendo el Sacro Imperio Romano y uniendo gran parte de Europa Occidental bajo dominio franco.",
+          de: "Karl der Große (742-814) wurde am Weihnachtstag 800 n.Chr. von Papst Leo III. zum Kaiser gekrönt, gründete das Heilige Römische Reich und vereinte weite Teile Westeuropas unter fränkischer Herrschaft.",
+          nl: "Karel de Grote (742-814) werd op eerste kerstdag 800 n.Chr. door paus Leo III tot keizer gekroond, vestigde het Heilige Roomse Rijk en verenigde een groot deel van West-Europa onder Frankische heerschappij."
         }
       }
     ]

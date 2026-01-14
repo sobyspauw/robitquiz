@@ -426,6 +426,406 @@
           es: "Un CBDC de la Reserva Federal podría alterar fundamentalmente la transmisión monetaria al potencialmente permitir relaciones directas entre el banco central y usuarios finales, evitando el sistema bancario tradicional. Esto podría permitir efectos de política monetaria más directos e inmediatos, como dinero programable con reglas de política incorporadas, distribución directa de transferencias fiscales, o incluso tasas de interés negativas aplicadas directamente a billeteras digitales. Sin embargo, esto plantea preguntas sobre estabilidad financiera, intermediación del sector bancario y privacidad.",
           de: "Eine Federal Reserve CBDC könnte die geldpolitische Übertragung grundlegend verändern, indem sie potentiell direkte Beziehungen zwischen der Zentralbank und Endnutzern ermöglicht und das traditionelle Bankensystem umgeht. Dies könnte direktere und unmittelbarere geldpolitische Effekte ermöglichen, wie programmiertes Geld mit eingebetteten Politikregeln, direkte Verteilung fiskalischer Transfers oder sogar negative Zinssätze, die direkt auf digitale Wallets angewendet werden. Dies wirft jedoch Fragen zu Finanzstabilität, Bankensektor-Intermediation und Privatsphäre auf.",
           nl: "Een Federal Reserve CBDC zou monetaire transmissie fundamenteel kunnen veranderen door potentieel directe relaties tussen de centrale bank en eindgebruikers toe te staan, het traditionele banksysteem omzeilend. Dit zou directere en onmiddellijkere monetaire beleidseffecten mogelijk kunnen maken, zoals programmeerbaar geld met ingebedde beleidsregels, directe distributie van fiscale overdrachten, of zelfs negatieve rentes direct toegepast op digitale wallets. Dit roept echter vragen op over financiële stabiliteit, banksector intermediatie en privacy."
+        }      },
+      {
+        question: {
+          en: "What is the symbol for US Dollar?",
+          es: "What is the symbol for US Dollar?",
+          de: "What is the symbol for US Dollar?",
+          nl: "What is the symbol for US Dollar?"
+        },
+        options: [
+          { en: "$", es: "$", de: "$", nl: "$" },
+          { en: "¢", es: "¢", de: "¢", nl: "¢" },
+          { en: "USD", es: "USD", de: "USD", nl: "USD" },
+          { en: "D", es: "D", de: "D", nl: "D" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The dollar sign $ is the universal symbol for the United States Dollar.",
+          es: "The dollar sign $ is the universal symbol for the United States Dollar.",
+          de: "The dollar sign $ is the universal symbol for the United States Dollar.",
+          nl: "The dollar sign $ is the universal symbol for the United States Dollar."
+        }      },
+      {
+        question: {
+          en: "Which country uses the US Dollar as official currency?",
+          es: "Which country uses the US Dollar as official currency?",
+          de: "Which country uses the US Dollar as official currency?",
+          nl: "Which country uses the US Dollar as official currency?"
+        },
+        options: [
+          { en: "United States", es: "United States", de: "United States", nl: "United States" },
+          { en: "Canada", es: "Canada", de: "Canada", nl: "Canada" },
+          { en: "Australia", es: "Australia", de: "Australia", nl: "Australia" },
+          { en: "New Zealand", es: "New Zealand", de: "New Zealand", nl: "New Zealand" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The United States Dollar is the official currency of the United States of America.",
+          es: "The United States Dollar is the official currency of the United States of America.",
+          de: "The United States Dollar is the official currency of the United States of America.",
+          nl: "The United States Dollar is the official currency of the United States of America."
+        }      },
+      {
+        question: {
+          en: "What is a cent?",
+          es: "What is a cent?",
+          de: "What is a cent?",
+          nl: "What is a cent?"
+        },
+        options: [
+          { en: "1/100 of a dollar", es: "1/100 of a dollar", de: "1/100 of a dollar", nl: "1/100 of a dollar" },
+          { en: "1/10 of a dollar", es: "1/10 of a dollar", de: "1/10 of a dollar", nl: "1/10 of a dollar" },
+          { en: "1/50 of a dollar", es: "1/50 of a dollar", de: "1/50 of a dollar", nl: "1/50 of a dollar" },
+          { en: "1/25 of a dollar", es: "1/25 of a dollar", de: "1/25 of a dollar", nl: "1/25 of a dollar" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A cent is one-hundredth of a dollar, the smallest denomination of US currency.",
+          es: "A cent is one-hundredth of a dollar, the smallest denomination of US currency.",
+          de: "A cent is one-hundredth of a dollar, the smallest denomination of US currency.",
+          nl: "A cent is one-hundredth of a dollar, the smallest denomination of US currency."
+        }      },
+      {
+        question: {
+          en: "Who appears on the $1 bill?",
+          es: "Who appears on the $1 bill?",
+          de: "Who appears on the $1 bill?",
+          nl: "Who appears on the $1 bill?"
+        },
+        options: [
+          { en: "George Washington", es: "George Washington", de: "George Washington", nl: "George Washington" },
+          { en: "Abraham Lincoln", es: "Abraham Lincoln", de: "Abraham Lincoln", nl: "Abraham Lincoln" },
+          { en: "Thomas Jefferson", es: "Thomas Jefferson", de: "Thomas Jefferson", nl: "Thomas Jefferson" },
+          { en: "Benjamin Franklin", es: "Benjamin Franklin", de: "Benjamin Franklin", nl: "Benjamin Franklin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "George Washington, first US President, appears on the one dollar bill since 1869.",
+          es: "George Washington, first US President, appears on the one dollar bill since 1869.",
+          de: "George Washington, first US President, appears on the one dollar bill since 1869.",
+          nl: "George Washington, first US President, appears on the one dollar bill since 1869."
+        }      },
+      {
+        question: {
+          en: "Who appears on the $100 bill?",
+          es: "Who appears on the $100 bill?",
+          de: "Who appears on the $100 bill?",
+          nl: "Who appears on the $100 bill?"
+        },
+        options: [
+          { en: "Benjamin Franklin", es: "Benjamin Franklin", de: "Benjamin Franklin", nl: "Benjamin Franklin" },
+          { en: "George Washington", es: "George Washington", de: "George Washington", nl: "George Washington" },
+          { en: "Abraham Lincoln", es: "Abraham Lincoln", de: "Abraham Lincoln", nl: "Abraham Lincoln" },
+          { en: "Alexander Hamilton", es: "Alexander Hamilton", de: "Alexander Hamilton", nl: "Alexander Hamilton" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Benjamin Franklin, founding father and inventor, appears on the hundred dollar bill.",
+          es: "Benjamin Franklin, founding father and inventor, appears on the hundred dollar bill.",
+          de: "Benjamin Franklin, founding father and inventor, appears on the hundred dollar bill.",
+          nl: "Benjamin Franklin, founding father and inventor, appears on the hundred dollar bill."
+        }      },
+      {
+        question: {
+          en: "What are US coins made of primarily?",
+          es: "What are US coins made of primarily?",
+          de: "What are US coins made of primarily?",
+          nl: "What are US coins made of primarily?"
+        },
+        options: [
+          { en: "Copper and nickel alloy", es: "Copper and nickel alloy", de: "Copper and nickel alloy", nl: "Copper and nickel alloy" },
+          { en: "Pure gold", es: "Pure gold", de: "Pure gold", nl: "Pure gold" },
+          { en: "Pure silver", es: "Pure silver", de: "Pure silver", nl: "Pure silver" },
+          { en: "Pure copper", es: "Pure copper", de: "Pure copper", nl: "Pure copper" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Modern US coins are primarily made from copper-nickel alloy for durability and cost.",
+          es: "Modern US coins are primarily made from copper-nickel alloy for durability and cost.",
+          de: "Modern US coins are primarily made from copper-nickel alloy for durability and cost.",
+          nl: "Modern US coins are primarily made from copper-nickel alloy for durability and cost."
+        }      },
+      {
+        question: {
+          en: "What is the Federal Reserve?",
+          es: "What is the Federal Reserve?",
+          de: "What is the Federal Reserve?",
+          nl: "What is the Federal Reserve?"
+        },
+        options: [
+          { en: "Central banking system of US", es: "Central banking system of US", de: "Central banking system of US", nl: "Central banking system of US" },
+          { en: "National treasury", es: "National treasury", de: "National treasury", nl: "National treasury" },
+          { en: "Mint facility", es: "Mint facility", de: "Mint facility", nl: "Mint facility" },
+          { en: "Stock exchange", es: "Stock exchange", de: "Stock exchange", nl: "Stock exchange" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Federal Reserve is the central banking system responsible for US monetary policy.",
+          es: "The Federal Reserve is the central banking system responsible for US monetary policy.",
+          de: "The Federal Reserve is the central banking system responsible for US monetary policy.",
+          nl: "The Federal Reserve is the central banking system responsible for US monetary policy."
+        }      },
+      {
+        question: {
+          en: "When was the US Dollar established?",
+          es: "When was the US Dollar established?",
+          de: "When was the US Dollar established?",
+          nl: "When was the US Dollar established?"
+        },
+        options: [
+          { en: "1792", es: "1792", de: "1792", nl: "1792" },
+          { en: "1776", es: "1776", de: "1776", nl: "1776" },
+          { en: "1865", es: "1865", de: "1865", nl: "1865" },
+          { en: "1913", es: "1913", de: "1913", nl: "1913" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The US Dollar was officially established by the Coinage Act of 1792.",
+          es: "The US Dollar was officially established by the Coinage Act of 1792.",
+          de: "The US Dollar was officially established by the Coinage Act of 1792.",
+          nl: "The US Dollar was officially established by the Coinage Act of 1792."
+        }      },
+      {
+        question: {
+          en: "What does USD stand for?",
+          es: "What does USD stand for?",
+          de: "What does USD stand for?",
+          nl: "What does USD stand for?"
+        },
+        options: [
+          { en: "United States Dollar", es: "United States Dollar", de: "United States Dollar", nl: "United States Dollar" },
+          { en: "Universal Standard Dollar", es: "Universal Standard Dollar", de: "Universal Standard Dollar", nl: "Universal Standard Dollar" },
+          { en: "Union States Dollar", es: "Union States Dollar", de: "Union States Dollar", nl: "Union States Dollar" },
+          { en: "United System Dollar", es: "United System Dollar", de: "United System Dollar", nl: "United System Dollar" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "USD is the three-letter ISO code for United States Dollar in international finance.",
+          es: "USD is the three-letter ISO code for United States Dollar in international finance.",
+          de: "USD is the three-letter ISO code for United States Dollar in international finance.",
+          nl: "USD is the three-letter ISO code for United States Dollar in international finance."
+        }      },
+      {
+        question: {
+          en: "What is a quarter worth?",
+          es: "What is a quarter worth?",
+          de: "What is a quarter worth?",
+          nl: "What is a quarter worth?"
+        },
+        options: [
+          { en: "25 cents", es: "25 cents", de: "25 cents", nl: "25 cents" },
+          { en: "10 cents", es: "10 cents", de: "10 cents", nl: "10 cents" },
+          { en: "50 cents", es: "50 cents", de: "50 cents", nl: "50 cents" },
+          { en: "5 cents", es: "5 cents", de: "5 cents", nl: "5 cents" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A quarter dollar coin is worth 25 cents or one-fourth of a dollar.",
+          es: "A quarter dollar coin is worth 25 cents or one-fourth of a dollar.",
+          de: "A quarter dollar coin is worth 25 cents or one-fourth of a dollar.",
+          nl: "A quarter dollar coin is worth 25 cents or one-fourth of a dollar."
+        }      },
+      {
+        question: {
+          en: "What metal were old silver dollars made from?",
+          es: "What metal were old silver dollars made from?",
+          de: "What metal were old silver dollars made from?",
+          nl: "What metal were old silver dollars made from?"
+        },
+        options: [
+          { en: "90% silver", es: "90% silver", de: "90% silver", nl: "90% silver" },
+          { en: "Pure silver", es: "Pure silver", de: "Pure silver", nl: "Pure silver" },
+          { en: "50% silver", es: "50% silver", de: "50% silver", nl: "50% silver" },
+          { en: "No silver", es: "No silver", de: "No silver", nl: "No silver" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Historic silver dollars contained 90% silver and 10% copper until 1964.",
+          es: "Historic silver dollars contained 90% silver and 10% copper until 1964.",
+          de: "Historic silver dollars contained 90% silver and 10% copper until 1964.",
+          nl: "Historic silver dollars contained 90% silver and 10% copper until 1964."
+        }      },
+      {
+        question: {
+          en: "What is Fort Knox famous for?",
+          es: "What is Fort Knox famous for?",
+          de: "What is Fort Knox famous for?",
+          nl: "What is Fort Knox famous for?"
+        },
+        options: [
+          { en: "Gold bullion depository", es: "Gold bullion depository", de: "Gold bullion depository", nl: "Gold bullion depository" },
+          { en: "Currency printing", es: "Currency printing", de: "Currency printing", nl: "Currency printing" },
+          { en: "Coin minting", es: "Coin minting", de: "Coin minting", nl: "Coin minting" },
+          { en: "Federal Reserve headquarters", es: "Federal Reserve headquarters", de: "Federal Reserve headquarters", nl: "Federal Reserve headquarters" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Fort Knox is the heavily guarded depository holding much of America's gold reserves.",
+          es: "Fort Knox is the heavily guarded depository holding much of America's gold reserves.",
+          de: "Fort Knox is the heavily guarded depository holding much of America's gold reserves.",
+          nl: "Fort Knox is the heavily guarded depository holding much of America's gold reserves."
+        }      },
+      {
+        question: {
+          en: "What is a nickel worth?",
+          es: "What is a nickel worth?",
+          de: "What is a nickel worth?",
+          nl: "What is a nickel worth?"
+        },
+        options: [
+          { en: "5 cents", es: "5 cents", de: "5 cents", nl: "5 cents" },
+          { en: "1 cent", es: "1 cent", de: "1 cent", nl: "1 cent" },
+          { en: "10 cents", es: "10 cents", de: "10 cents", nl: "10 cents" },
+          { en: "25 cents", es: "25 cents", de: "25 cents", nl: "25 cents" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A nickel is a five-cent coin, the second-smallest denomination of US currency.",
+          es: "A nickel is a five-cent coin, the second-smallest denomination of US currency.",
+          de: "A nickel is a five-cent coin, the second-smallest denomination of US currency.",
+          nl: "A nickel is a five-cent coin, the second-smallest denomination of US currency."
+        }      },
+      {
+        question: {
+          en: "Who appears on the $5 bill?",
+          es: "Who appears on the $5 bill?",
+          de: "Who appears on the $5 bill?",
+          nl: "Who appears on the $5 bill?"
+        },
+        options: [
+          { en: "Abraham Lincoln", es: "Abraham Lincoln", de: "Abraham Lincoln", nl: "Abraham Lincoln" },
+          { en: "George Washington", es: "George Washington", de: "George Washington", nl: "George Washington" },
+          { en: "Thomas Jefferson", es: "Thomas Jefferson", de: "Thomas Jefferson", nl: "Thomas Jefferson" },
+          { en: "Andrew Jackson", es: "Andrew Jackson", de: "Andrew Jackson", nl: "Andrew Jackson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Abraham Lincoln, 16th US President, appears on the five dollar bill.",
+          es: "Abraham Lincoln, 16th US President, appears on the five dollar bill.",
+          de: "Abraham Lincoln, 16th US President, appears on the five dollar bill.",
+          nl: "Abraham Lincoln, 16th US President, appears on the five dollar bill."
+        }      },
+      {
+        question: {
+          en: "What is the largest US bill in circulation?",
+          es: "What is the largest US bill in circulation?",
+          de: "What is the largest US bill in circulation?",
+          nl: "What is the largest US bill in circulation?"
+        },
+        options: [
+          { en: "$100", es: "$100", de: "$100", nl: "$100" },
+          { en: "$500", es: "$500", de: "$500", nl: "$500" },
+          { en: "$1000", es: "$1000", de: "$1000", nl: "$1000" },
+          { en: "$10000", es: "$10000", de: "$10000", nl: "$10000" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The $100 bill is the largest denomination currently printed and circulated by the US.",
+          es: "The $100 bill is the largest denomination currently printed and circulated by the US.",
+          de: "The $100 bill is the largest denomination currently printed and circulated by the US.",
+          nl: "The $100 bill is the largest denomination currently printed and circulated by the US."
+        }      },
+      {
+        question: {
+          en: "Where are US paper bills printed?",
+          es: "Where are US paper bills printed?",
+          de: "Where are US paper bills printed?",
+          nl: "Where are US paper bills printed?"
+        },
+        options: [
+          { en: "Bureau of Engraving and Printing", es: "Bureau of Engraving and Printing", de: "Bureau of Engraving and Printing", nl: "Bureau of Engraving and Printing" },
+          { en: "US Mint", es: "US Mint", de: "US Mint", nl: "US Mint" },
+          { en: "Federal Reserve", es: "Federal Reserve", de: "Federal Reserve", nl: "Federal Reserve" },
+          { en: "Treasury Department", es: "Treasury Department", de: "Treasury Department", nl: "Treasury Department" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Bureau of Engraving and Printing produces all US paper currency.",
+          es: "The Bureau of Engraving and Printing produces all US paper currency.",
+          de: "The Bureau of Engraving and Printing produces all US paper currency.",
+          nl: "The Bureau of Engraving and Printing produces all US paper currency."
+        }      },
+      {
+        question: {
+          en: "What is a dime worth?",
+          es: "What is a dime worth?",
+          de: "What is a dime worth?",
+          nl: "What is a dime worth?"
+        },
+        options: [
+          { en: "10 cents", es: "10 cents", de: "10 cents", nl: "10 cents" },
+          { en: "5 cents", es: "5 cents", de: "5 cents", nl: "5 cents" },
+          { en: "25 cents", es: "25 cents", de: "25 cents", nl: "25 cents" },
+          { en: "1 cent", es: "1 cent", de: "1 cent", nl: "1 cent" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A dime is a ten-cent coin, the smallest and thinnest US coin in circulation.",
+          es: "A dime is a ten-cent coin, the smallest and thinnest US coin in circulation.",
+          de: "A dime is a ten-cent coin, the smallest and thinnest US coin in circulation.",
+          nl: "A dime is a ten-cent coin, the smallest and thinnest US coin in circulation."
+        }      },
+      {
+        question: {
+          en: "What is legal tender?",
+          es: "What is legal tender?",
+          de: "What is legal tender?",
+          nl: "What is legal tender?"
+        },
+        options: [
+          { en: "Currency accepted for debts", es: "Currency accepted for debts", de: "Currency accepted for debts", nl: "Currency accepted for debts" },
+          { en: "Counterfeit money", es: "Counterfeit money", de: "Counterfeit money", nl: "Counterfeit money" },
+          { en: "Foreign currency", es: "Foreign currency", de: "Foreign currency", nl: "Foreign currency" },
+          { en: "Collectible coins", es: "Collectible coins", de: "Collectible coins", nl: "Collectible coins" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Legal tender is currency that must be accepted if offered in payment of debts.",
+          es: "Legal tender is currency that must be accepted if offered in payment of debts.",
+          de: "Legal tender is currency that must be accepted if offered in payment of debts.",
+          nl: "Legal tender is currency that must be accepted if offered in payment of debts."
+        }      },
+      {
+        question: {
+          en: "What year did the US stop making silver coins?",
+          es: "What year did the US stop making silver coins?",
+          de: "What year did the US stop making silver coins?",
+          nl: "What year did the US stop making silver coins?"
+        },
+        options: [
+          { en: "1964", es: "1964", de: "1964", nl: "1964" },
+          { en: "1933", es: "1933", de: "1933", nl: "1933" },
+          { en: "1971", es: "1971", de: "1971", nl: "1971" },
+          { en: "1980", es: "1980", de: "1980", nl: "1980" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The US stopped minting silver coins for circulation in 1964 due to rising silver prices.",
+          es: "The US stopped minting silver coins for circulation in 1964 due to rising silver prices.",
+          de: "The US stopped minting silver coins for circulation in 1964 due to rising silver prices.",
+          nl: "The US stopped minting silver coins for circulation in 1964 due to rising silver prices."
+        }      },
+      {
+        question: {
+          en: "What is the penny made of?",
+          es: "What is the penny made of?",
+          de: "What is the penny made of?",
+          nl: "What is the penny made of?"
+        },
+        options: [
+          { en: "Zinc with copper coating", es: "Zinc with copper coating", de: "Zinc with copper coating", nl: "Zinc with copper coating" },
+          { en: "Pure copper", es: "Pure copper", de: "Pure copper", nl: "Pure copper" },
+          { en: "Bronze", es: "Bronze", de: "Bronze", nl: "Bronze" },
+          { en: "Nickel", es: "Nickel", de: "Nickel", nl: "Nickel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Modern pennies are 97.5% zinc with a thin copper coating for appearance.",
+          es: "Modern pennies are 97.5% zinc with a thin copper coating for appearance.",
+          de: "Modern pennies are 97.5% zinc with a thin copper coating for appearance.",
+          nl: "Modern pennies are 97.5% zinc with a thin copper coating for appearance."
         }
       }
     ]

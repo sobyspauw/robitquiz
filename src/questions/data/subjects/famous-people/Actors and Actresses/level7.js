@@ -1,4 +1,4 @@
-﻿// Actors and Actresses Quiz - Level 7: Advanced Knowledge
+// Actors and Actresses Quiz - Level 7: Advanced Knowledge
 (function() {
   const level7 = {
     name: {
@@ -426,6 +426,426 @@
           es: "A Sean Connery se le ofreció el papel de Hannibal Lecter pero lo rechazó, reportadamente encontrando al personaje demasiado oscuro y perturbador para su gusto.",
           de: "Sean Connery wurde die Rolle des Hannibal Lecter angeboten, lehnte sie aber ab, da er den Charakter berichten zufolge zu dunkel und verstörend für seinen Geschmack fand.",
           nl: "Sean Connery werd de rol van Hannibal Lecter aangeboden maar wees deze af, naar verluidt omdat hij het personage te donker en verstorend vond voor zijn smaak."
+        }
+      },
+      {
+        question: {
+          en: "Which actor portrayed Winston Churchill and won an Oscar for 'Darkest Hour'?",
+          es: "¿Qué actor interpretó a Winston Churchill y ganó un Oscar por 'Darkest Hour'?",
+          de: "Welcher Schauspieler spielte Winston Churchill und gewann einen Oscar für 'Darkest Hour'?",
+          nl: "Welke acteur portretteerde Winston Churchill en won een Oscar voor 'Darkest Hour'?"
+        },
+        options: [
+          { en: "Gary Oldman", es: "Gary Oldman", de: "Gary Oldman", nl: "Gary Oldman" },
+          { en: "Anthony Hopkins", es: "Anthony Hopkins", de: "Anthony Hopkins", nl: "Anthony Hopkins" },
+          { en: "John Lithgow", es: "John Lithgow", de: "John Lithgow", nl: "John Lithgow" },
+          { en: "Brian Cox", es: "Brian Cox", de: "Brian Cox", nl: "Brian Cox" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gary Oldman won the Academy Award for Best Actor for Darkest Hour (2017), transforming completely with prosthetic makeup to play Winston Churchill during World War II.",
+          es: "Gary Oldman ganó el Premio de la Academia al Mejor Actor por Darkest Hour (2017), transformándose completamente con maquillaje protésico para interpretar a Winston Churchill durante la Segunda Guerra Mundial.",
+          de: "Gary Oldman gewann den Academy Award für den besten Hauptdarsteller für Darkest Hour (2017) und verwandelte sich mit Prothesenmake-up vollständig, um Winston Churchill während des Zweiten Weltkriegs zu spielen.",
+          nl: "Gary Oldman won de Academy Award voor Beste Acteur voor Darkest Hour (2017), waarbij hij volledig transformeerde met prothese make-up om Winston Churchill tijdens de Tweede Wereldoorlog te spelen."
+        }
+      },
+      {
+        question: {
+          en: "Which actress won an Oscar for playing serial killer Aileen Wuornos in 'Monster'?",
+          es: "¿Qué actriz ganó un Oscar por interpretar a la asesina en serie Aileen Wuornos en 'Monster'?",
+          de: "Welche Schauspielerin gewann einen Oscar für die Darstellung der Serienmörderin Aileen Wuornos in 'Monster'?",
+          nl: "Welke actrice won een Oscar voor het spelen van seriemoordenaar Aileen Wuornos in 'Monster'?"
+        },
+        options: [
+          { en: "Charlize Theron", es: "Charlize Theron", de: "Charlize Theron", nl: "Charlize Theron" },
+          { en: "Nicole Kidman", es: "Nicole Kidman", de: "Nicole Kidman", nl: "Nicole Kidman" },
+          { en: "Halle Berry", es: "Halle Berry", de: "Halle Berry", nl: "Halle Berry" },
+          { en: "Naomi Watts", es: "Naomi Watts", de: "Naomi Watts", nl: "Naomi Watts" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Charlize Theron won the Academy Award for Best Actress for Monster (2003), dramatically transforming her appearance and gaining 30 pounds to play the troubled serial killer Aileen Wuornos.",
+          es: "Charlize Theron ganó el Premio de la Academia a la Mejor Actriz por Monster (2003), transformando dramáticamente su apariencia y ganando 30 libras para interpretar a la problemática asesina en serie Aileen Wuornos.",
+          de: "Charlize Theron gewann den Academy Award für die beste Hauptdarstellerin für Monster (2003), verwandelte ihr Aussehen dramatisch und nahm 30 Pfund zu, um die gestörte Serienmörderin Aileen Wuornos zu spielen.",
+          nl: "Charlize Theron won de Academy Award voor Beste Actrice voor Monster (2003), waarbij ze haar uiterlijk dramatisch transformeerde en 30 pond aankwam om de getroebleerde seriemoordenaar Aileen Wuornos te spelen."
+        }
+      },
+      {
+        question: {
+          en: "Which actor starred in 'Birdman' and won an Oscar for Best Actor?",
+          es: "¿Qué actor protagonizó 'Birdman' y ganó un Oscar al Mejor Actor?",
+          de: "Welcher Schauspieler spielte in 'Birdman' und gewann einen Oscar als bester Hauptdarsteller?",
+          nl: "Welke acteur speelde in 'Birdman' en won een Oscar voor Beste Acteur?"
+        },
+        options: [
+          { en: "Michael Keaton", es: "Michael Keaton", de: "Michael Keaton", nl: "Michael Keaton" },
+          { en: "Edward Norton", es: "Edward Norton", de: "Edward Norton", nl: "Edward Norton" },
+          { en: "Zach Galifianakis", es: "Zach Galifianakis", de: "Zach Galifianakis", nl: "Zach Galifianakis" },
+          { en: "Naomi Watts", es: "Naomi Watts", de: "Naomi Watts", nl: "Naomi Watts" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Michael Keaton was nominated for Best Actor for Birdman (2014) but did not win. Eddie Redmayne won that year for The Theory of Everything. However, Keaton's performance was highly acclaimed.",
+          es: "Michael Keaton fue nominado a Mejor Actor por Birdman (2014) pero no ganó. Eddie Redmayne ganó ese año por The Theory of Everything. Sin embargo, la actuación de Keaton fue muy aclamada.",
+          de: "Michael Keaton wurde für den besten Hauptdarsteller für Birdman (2014) nominiert, gewann aber nicht. Eddie Redmayne gewann in diesem Jahr für The Theory of Everything. Keatons Leistung war jedoch sehr gefeiert.",
+          nl: "Michael Keaton werd genomineerd voor Beste Acteur voor Birdman (2014) maar won niet. Eddie Redmayne won dat jaar voor The Theory of Everything. Keatons prestatie werd echter zeer geprezen."
+        }
+      },
+      {
+        question: {
+          en: "Which actress won an Oscar for her role in 'La La Land'?",
+          es: "¿Qué actriz ganó un Oscar por su papel en 'La La Land'?",
+          de: "Welche Schauspielerin gewann einen Oscar für ihre Rolle in 'La La Land'?",
+          nl: "Welke actrice won een Oscar voor haar rol in 'La La Land'?"
+        },
+        options: [
+          { en: "Emma Stone", es: "Emma Stone", de: "Emma Stone", nl: "Emma Stone" },
+          { en: "Ryan Gosling", es: "Ryan Gosling", de: "Ryan Gosling", nl: "Ryan Gosling" },
+          { en: "Amy Adams", es: "Amy Adams", de: "Amy Adams", nl: "Amy Adams" },
+          { en: "Jessica Chastain", es: "Jessica Chastain", de: "Jessica Chastain", nl: "Jessica Chastain" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Emma Stone won the Academy Award for Best Actress for La La Land (2016), showcasing her singing and dancing abilities in Damien Chazelle's musical romance.",
+          es: "Emma Stone ganó el Premio de la Academia a la Mejor Actriz por La La Land (2016), mostrando sus habilidades de canto y baile en el romance musical de Damien Chazelle.",
+          de: "Emma Stone gewann den Academy Award für die beste Hauptdarstellerin für La La Land (2016) und zeigte ihre Gesangs- und Tanzfähigkeiten in Damien Chazelles Musical-Romanze.",
+          nl: "Emma Stone won de Academy Award voor Beste Actrice voor La La Land (2016), waarbij ze haar zang- en dansvaardigheden toonde in Damien Chazelle's musical romance."
+        }
+      },
+      {
+        question: {
+          en: "Which actor won an Oscar for playing a mathematics genius in 'Good Will Hunting'?",
+          es: "¿Qué actor ganó un Oscar por interpretar a un genio matemático en 'Good Will Hunting'?",
+          de: "Welcher Schauspieler gewann einen Oscar für die Darstellung eines Mathematikgenies in 'Good Will Hunting'?",
+          nl: "Welke acteur won een Oscar voor het spelen van een wiskundegenie in 'Good Will Hunting'?"
+        },
+        options: [
+          { en: "Robin Williams", es: "Robin Williams", de: "Robin Williams", nl: "Robin Williams" },
+          { en: "Matt Damon", es: "Matt Damon", de: "Matt Damon", nl: "Matt Damon" },
+          { en: "Ben Affleck", es: "Ben Affleck", de: "Ben Affleck", nl: "Ben Affleck" },
+          { en: "Stellan Skarsgard", es: "Stellan Skarsgard", de: "Stellan Skarsgard", nl: "Stellan Skarsgard" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Robin Williams won the Academy Award for Best Supporting Actor for Good Will Hunting (1997), playing the therapist Sean Maguire who helps troubled genius Will Hunting.",
+          es: "Robin Williams ganó el Premio de la Academia al Mejor Actor de Reparto por Good Will Hunting (1997), interpretando al terapeuta Sean Maguire quien ayuda al genio problemático Will Hunting.",
+          de: "Robin Williams gewann den Academy Award für den besten Nebendarsteller für Good Will Hunting (1997) und spielte den Therapeuten Sean Maguire, der dem gestörten Genie Will Hunting hilft.",
+          nl: "Robin Williams won de Academy Award voor Beste Bijrolacteur voor Good Will Hunting (1997), waarbij hij de therapeut Sean Maguire speelde die het getroebleerde genie Will Hunting helpt."
+        }
+      },
+      {
+        question: {
+          en: "Which actress won an Oscar for her role in 'Room' as a captive mother?",
+          es: "¿Qué actriz ganó un Oscar por su papel en 'Room' como una madre cautiva?",
+          de: "Welche Schauspielerin gewann einen Oscar für ihre Rolle in 'Room' als gefangene Mutter?",
+          nl: "Welke actrice won een Oscar voor haar rol in 'Room' als een gevangen moeder?"
+        },
+        options: [
+          { en: "Brie Larson", es: "Brie Larson", de: "Brie Larson", nl: "Brie Larson" },
+          { en: "Carey Mulligan", es: "Carey Mulligan", de: "Carey Mulligan", nl: "Carey Mulligan" },
+          { en: "Saoirse Ronan", es: "Saoirse Ronan", de: "Saoirse Ronan", nl: "Saoirse Ronan" },
+          { en: "Alicia Vikander", es: "Alicia Vikander", de: "Alicia Vikander", nl: "Alicia Vikander" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Brie Larson won the Academy Award for Best Actress for Room (2015), delivering an emotionally powerful performance as a mother held captive with her young son.",
+          es: "Brie Larson ganó el Premio de la Academia a la Mejor Actriz por Room (2015), entregando una actuación emocionalmente poderosa como una madre retenida cautiva con su hijo pequeño.",
+          de: "Brie Larson gewann den Academy Award für die beste Hauptdarstellerin für Room (2015) und lieferte eine emotional kraftvolle Leistung als Mutter, die mit ihrem kleinen Sohn gefangen gehalten wird.",
+          nl: "Brie Larson won de Academy Award voor Beste Actrice voor Room (2015), waarbij ze een emotioneel krachtige prestatie leverde als een moeder die gevangen wordt gehouden met haar jonge zoon."
+        }
+      },
+      {
+        question: {
+          en: "Which actor won an Oscar for playing Ray Charles in 'Ray'?",
+          es: "¿Qué actor ganó un Oscar por interpretar a Ray Charles en 'Ray'?",
+          de: "Welcher Schauspieler gewann einen Oscar für die Darstellung von Ray Charles in 'Ray'?",
+          nl: "Welke acteur won een Oscar voor het spelen van Ray Charles in 'Ray'?"
+        },
+        options: [
+          { en: "Jamie Foxx", es: "Jamie Foxx", de: "Jamie Foxx", nl: "Jamie Foxx" },
+          { en: "Don Cheadle", es: "Don Cheadle", de: "Don Cheadle", nl: "Don Cheadle" },
+          { en: "Terrence Howard", es: "Terrence Howard", de: "Terrence Howard", nl: "Terrence Howard" },
+          { en: "Forest Whitaker", es: "Forest Whitaker", de: "Forest Whitaker", nl: "Forest Whitaker" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Jamie Foxx won the Academy Award for Best Actor for Ray (2004), giving a transformative performance as legendary musician Ray Charles, learning piano and mastering Charles's mannerisms.",
+          es: "Jamie Foxx ganó el Premio de la Academia al Mejor Actor por Ray (2004), dando una actuación transformadora como el legendario músico Ray Charles, aprendiendo piano y dominando los modales de Charles.",
+          de: "Jamie Foxx gewann den Academy Award für den besten Hauptdarsteller für Ray (2004) und lieferte eine transformative Leistung als legendärer Musiker Ray Charles, lernte Klavier und beherrschte Charles' Manierismen.",
+          nl: "Jamie Foxx won de Academy Award voor Beste Acteur voor Ray (2004), waarbij hij een transformerende prestatie leverde als legendarische muzikant Ray Charles, piano leerde en Charles's maniërismen beheerste."
+        }
+      },
+      {
+        question: {
+          en: "Which actress won an Oscar for playing country singer Loretta Lynn in 'Coal Miner's Daughter'?",
+          es: "¿Qué actriz ganó un Oscar por interpretar a la cantante country Loretta Lynn en 'Coal Miner's Daughter'?",
+          de: "Welche Schauspielerin gewann einen Oscar für die Darstellung der Country-Sängerin Loretta Lynn in 'Coal Miner's Daughter'?",
+          nl: "Welke actrice won een Oscar voor het spelen van countryzangeres Loretta Lynn in 'Coal Miner's Daughter'?"
+        },
+        options: [
+          { en: "Sissy Spacek", es: "Sissy Spacek", de: "Sissy Spacek", nl: "Sissy Spacek" },
+          { en: "Sally Field", es: "Sally Field", de: "Sally Field", nl: "Sally Field" },
+          { en: "Dolly Parton", es: "Dolly Parton", de: "Dolly Parton", nl: "Dolly Parton" },
+          { en: "Jessica Lange", es: "Jessica Lange", de: "Jessica Lange", nl: "Jessica Lange" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sissy Spacek won the Academy Award for Best Actress for Coal Miner's Daughter (1980), doing her own singing in the role of country music legend Loretta Lynn.",
+          es: "Sissy Spacek ganó el Premio de la Academia a la Mejor Actriz por Coal Miner's Daughter (1980), haciendo su propio canto en el papel de la leyenda de la música country Loretta Lynn.",
+          de: "Sissy Spacek gewann den Academy Award für die beste Hauptdarstellerin für Coal Miner's Daughter (1980) und sang selbst in der Rolle der Country-Musik-Legende Loretta Lynn.",
+          nl: "Sissy Spacek won de Academy Award voor Beste Actrice voor Coal Miner's Daughter (1980), waarbij ze zelf zong in de rol van countrymuzieklegende Loretta Lynn."
+        }
+      },
+      {
+        question: {
+          en: "Which actor won an Oscar for playing boxer Jake LaMotta's brother in 'Raging Bull'?",
+          es: "¿Qué actor ganó un Oscar por interpretar al hermano del boxeador Jake LaMotta en 'Raging Bull'?",
+          de: "Welcher Schauspieler gewann einen Oscar für die Darstellung von Boxer Jake LaMotta's Bruder in 'Raging Bull'?",
+          nl: "Welke acteur won een Oscar voor het spelen van de broer van bokser Jake LaMotta in 'Raging Bull'?"
+        },
+        options: [
+          { en: "Joe Pesci", es: "Joe Pesci", de: "Joe Pesci", nl: "Joe Pesci" },
+          { en: "Harvey Keitel", es: "Harvey Keitel", de: "Harvey Keitel", nl: "Harvey Keitel" },
+          { en: "Ray Liotta", es: "Ray Liotta", de: "Ray Liotta", nl: "Ray Liotta" },
+          { en: "Frank Vincent", es: "Frank Vincent", de: "Frank Vincent", nl: "Frank Vincent" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Joe Pesci won the Academy Award for Best Supporting Actor for Raging Bull (1980), playing Joey LaMotta, the brother and manager of boxer Jake LaMotta portrayed by Robert De Niro.",
+          es: "Joe Pesci ganó el Premio de la Academia al Mejor Actor de Reparto por Raging Bull (1980), interpretando a Joey LaMotta, el hermano y manager del boxeador Jake LaMotta interpretado por Robert De Niro.",
+          de: "Joe Pesci gewann den Academy Award für den besten Nebendarsteller für Raging Bull (1980) und spielte Joey LaMotta, den Bruder und Manager des Boxers Jake LaMotta, dargestellt von Robert De Niro.",
+          nl: "Joe Pesci won de Academy Award voor Beste Bijrolacteur voor Raging Bull (1980), waarbij hij Joey LaMotta speelde, de broer en manager van bokser Jake LaMotta gespeeld door Robert De Niro."
+        }
+      },
+      {
+        question: {
+          en: "Which actress won an Oscar for her role in 'Still Alice' as a linguistics professor with Alzheimer's?",
+          es: "¿Qué actriz ganó un Oscar por su papel en 'Still Alice' como una profesora de lingüística con Alzheimer?",
+          de: "Welche Schauspielerin gewann einen Oscar für ihre Rolle in 'Still Alice' als Linguistikprofessorin mit Alzheimer?",
+          nl: "Welke actrice won een Oscar voor haar rol in 'Still Alice' als een taalkunde professor met Alzheimer?"
+        },
+        options: [
+          { en: "Julianne Moore", es: "Julianne Moore", de: "Julianne Moore", nl: "Julianne Moore" },
+          { en: "Kate Winslet", es: "Kate Winslet", de: "Kate Winslet", nl: "Kate Winslet" },
+          { en: "Amy Adams", es: "Amy Adams", de: "Amy Adams", nl: "Amy Adams" },
+          { en: "Naomi Watts", es: "Naomi Watts", de: "Naomi Watts", nl: "Naomi Watts" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Julianne Moore won the Academy Award for Best Actress for Still Alice (2014), portraying a linguistics professor diagnosed with early-onset Alzheimer's disease.",
+          es: "Julianne Moore ganó el Premio de la Academia a la Mejor Actriz por Still Alice (2014), interpretando a una profesora de lingüística diagnosticada con Alzheimer de inicio temprano.",
+          de: "Julianne Moore gewann den Academy Award für die beste Hauptdarstellerin für Still Alice (2014) und porträtierte eine Linguistikprofessorin mit früh einsetzender Alzheimer-Krankheit.",
+          nl: "Julianne Moore won de Academy Award voor Beste Actrice voor Still Alice (2014), waarbij ze een taalkunde professor speelde gediagnosticeerd met vroeg beginnende ziekte van Alzheimer."
+        }
+      },
+      {
+        question: {
+          en: "Which actor won an Oscar for playing mobster Whitey Bulger in 'Black Mass'?",
+          es: "¿Qué actor ganó un Oscar por interpretar al mafioso Whitey Bulger en 'Black Mass'?",
+          de: "Welcher Schauspieler gewann einen Oscar für die Darstellung des Gangsters Whitey Bulger in 'Black Mass'?",
+          nl: "Welke acteur won een Oscar voor het spelen van gangster Whitey Bulger in 'Black Mass'?"
+        },
+        options: [
+          { en: "Johnny Depp", es: "Johnny Depp", de: "Johnny Depp", nl: "Johnny Depp" },
+          { en: "Joel Edgerton", es: "Joel Edgerton", de: "Joel Edgerton", nl: "Joel Edgerton" },
+          { en: "Benedict Cumberbatch", es: "Benedict Cumberbatch", de: "Benedict Cumberbatch", nl: "Benedict Cumberbatch" },
+          { en: "Kevin Bacon", es: "Kevin Bacon", de: "Kevin Bacon", nl: "Kevin Bacon" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Johnny Depp was nominated for his performance in Black Mass (2015) but did not win an Oscar for this role. However, his portrayal of Whitey Bulger was critically acclaimed.",
+          es: "Johnny Depp fue nominado por su actuación en Black Mass (2015) pero no ganó un Oscar por este papel. Sin embargo, su interpretación de Whitey Bulger fue aclamada por la crítica.",
+          de: "Johnny Depp wurde für seine Leistung in Black Mass (2015) nominiert, gewann aber keinen Oscar für diese Rolle. Seine Darstellung von Whitey Bulger wurde jedoch von der Kritik gefeiert.",
+          nl: "Johnny Depp werd genomineerd voor zijn prestatie in Black Mass (2015) maar won geen Oscar voor deze rol. Zijn vertolking van Whitey Bulger werd echter door critici geprezen."
+        }
+      },
+      {
+        question: {
+          en: "Which actress learned sign language to play a deaf character in 'Children of a Lesser God'?",
+          es: "¿Qué actriz aprendió lenguaje de señas para interpretar a un personaje sordo en 'Hijos de un dios menor'?",
+          de: "Welche Schauspielerin lernte Gebärdensprache, um einen tauben Charakter in 'Gottes vergessene Kinder' zu spielen?",
+          nl: "Welke actrice leerde gebarentaal om een doof personage te spelen in 'Children of a Lesser God'?"
+        },
+        options: [
+          { en: "Marlee Matlin", es: "Marlee Matlin", de: "Marlee Matlin", nl: "Marlee Matlin" },
+          { en: "Holly Hunter", es: "Holly Hunter", de: "Holly Hunter", nl: "Holly Hunter" },
+          { en: "Sally Field", es: "Sally Field", de: "Sally Field", nl: "Sally Field" },
+          { en: "Diane Keaton", es: "Diane Keaton", de: "Diane Keaton", nl: "Diane Keaton" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Marlee Matlin, who is actually deaf, won the Academy Award for Best Actress for Children of a Lesser God (1986), becoming the youngest winner at 21 and the first deaf performer to win an Oscar.",
+          es: "Marlee Matlin, quien en realidad es sorda, ganó el Premio de la Academia a la Mejor Actriz por Hijos de un dios menor (1986), convirtiéndose en la ganadora más joven a los 21 años y la primera artista sorda en ganar un Oscar.",
+          de: "Marlee Matlin, die tatsächlich taub ist, gewann den Academy Award für die beste Hauptdarstellerin für Gottes vergessene Kinder (1986), wurde mit 21 Jahren die jüngste Gewinnerin und die erste taube Darstellerin, die einen Oscar gewann.",
+          nl: "Marlee Matlin, die daadwerkelijk doof is, won de Academy Award voor Beste Actrice voor Children of a Lesser God (1986), werd de jongste winnaar op 21-jarige leeftijd en de eerste dove performer die een Oscar won."
+        }
+      },
+      {
+        question: {
+          en: "Which actor spent a month living in a wheelchair to prepare for 'My Left Foot'?",
+          es: "¿Qué actor pasó un mes viviendo en una silla de ruedas para prepararse para 'Mi pie izquierdo'?",
+          de: "Welcher Schauspieler lebte einen Monat im Rollstuhl, um sich auf 'Mein linker Fuß' vorzubereiten?",
+          nl: "Welke acteur leefde een maand in een rolstoel ter voorbereiding op 'My Left Foot'?"
+        },
+        options: [
+          { en: "Daniel Day-Lewis", es: "Daniel Day-Lewis", de: "Daniel Day-Lewis", nl: "Daniel Day-Lewis" },
+          { en: "Gary Oldman", es: "Gary Oldman", de: "Gary Oldman", nl: "Gary Oldman" },
+          { en: "Sean Penn", es: "Sean Penn", de: "Sean Penn", nl: "Sean Penn" },
+          { en: "Russell Crowe", es: "Russell Crowe", de: "Russell Crowe", nl: "Russell Crowe" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Daniel Day-Lewis stayed in character throughout filming My Left Foot (1989), remaining in a wheelchair and being fed by crew members to authentically portray Christy Brown.",
+          es: "Daniel Day-Lewis permaneció en personaje durante el rodaje de Mi pie izquierdo (1989), permaneciendo en una silla de ruedas y siendo alimentado por miembros del equipo para interpretar auténticamente a Christy Brown.",
+          de: "Daniel Day-Lewis blieb während der Dreharbeiten zu Mein linker Fuß (1989) in seiner Rolle, blieb im Rollstuhl und wurde von Crew-Mitgliedern gefüttert, um Christy Brown authentisch darzustellen.",
+          nl: "Daniel Day-Lewis bleef in karakter tijdens het filmen van My Left Foot (1989), bleef in een rolstoel en werd gevoed door crewleden om Christy Brown authentiek te portretteren."
+        }
+      },
+      {
+        question: {
+          en: "Which actress shaved her head for her role in 'V for Vendetta'?",
+          es: "¿Qué actriz se afeitó la cabeza para su papel en 'V de Vendetta'?",
+          de: "Welche Schauspielerin rasierte sich den Kopf für ihre Rolle in 'V wie Vendetta'?",
+          nl: "Welke actrice schoor haar hoofd kaal voor haar rol in 'V for Vendetta'?"
+        },
+        options: [
+          { en: "Natalie Portman", es: "Natalie Portman", de: "Natalie Portman", nl: "Natalie Portman" },
+          { en: "Charlize Theron", es: "Charlize Theron", de: "Charlize Theron", nl: "Charlize Theron" },
+          { en: "Demi Moore", es: "Demi Moore", de: "Demi Moore", nl: "Demi Moore" },
+          { en: "Sigourney Weaver", es: "Sigourney Weaver", de: "Sigourney Weaver", nl: "Sigourney Weaver" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Natalie Portman had her head shaved on camera for V for Vendetta (2005), with the scene being filmed in one take to capture the authentic emotional impact of the moment.",
+          es: "Natalie Portman se afeitó la cabeza frente a la cámara para V de Vendetta (2005), con la escena filmada en una sola toma para capturar el impacto emocional auténtico del momento.",
+          de: "Natalie Portman ließ sich für V wie Vendetta (2005) vor der Kamera den Kopf rasieren, wobei die Szene in einem Take gedreht wurde, um die authentische emotionale Wirkung des Moments einzufangen.",
+          nl: "Natalie Portman liet haar hoofd op camera scheren voor V for Vendetta (2005), waarbij de scène in één take werd gefilmd om de authentieke emotionele impact van het moment vast te leggen."
+        }
+      },
+      {
+        question: {
+          en: "Which actor learned to play left-handed guitar for his role as Kurt Cobain in 'Last Days'?",
+          es: "¿Qué actor aprendió a tocar guitarra zurda para su papel como Kurt Cobain en 'Last Days'?",
+          de: "Welcher Schauspieler lernte Linkshänder-Gitarre für seine Rolle als Kurt Cobain in 'Last Days'?",
+          nl: "Welke acteur leerde linkshandig gitaar spelen voor zijn rol als Kurt Cobain in 'Last Days'?"
+        },
+        options: [
+          { en: "Michael Pitt", es: "Michael Pitt", de: "Michael Pitt", nl: "Michael Pitt" },
+          { en: "River Phoenix", es: "River Phoenix", de: "River Phoenix", nl: "River Phoenix" },
+          { en: "Jared Leto", es: "Jared Leto", de: "Jared Leto", nl: "Jared Leto" },
+          { en: "Ryan Gosling", es: "Ryan Gosling", de: "Ryan Gosling", nl: "Ryan Gosling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Michael Pitt learned to play guitar left-handed for Gus Van Sant's Last Days (2005), a fictionalized account inspired by Kurt Cobain's final days.",
+          es: "Michael Pitt aprendió a tocar guitarra zurda para Last Days (2005) de Gus Van Sant, un relato ficticio inspirado en los últimos días de Kurt Cobain.",
+          de: "Michael Pitt lernte für Gus Van Sants Last Days (2005) Linkshänder-Gitarre zu spielen, eine fiktionalisierte Darstellung inspiriert von Kurt Cobains letzten Tagen.",
+          nl: "Michael Pitt leerde linkshandig gitaar spelen voor Gus Van Sant's Last Days (2005), een gefictionaliseerd verslag geïnspireerd op Kurt Cobain's laatste dagen."
+        }
+      },
+      {
+        question: {
+          en: "Which actress won an Oscar for playing a serial killer in 'Monster' after gaining 30 pounds?",
+          es: "¿Qué actriz ganó un Oscar por interpretar a una asesina en serie en 'Monster' después de ganar 30 libras?",
+          de: "Welche Schauspielerin gewann einen Oscar für die Darstellung einer Serienmörderin in 'Monster' nach 30 Pfund Gewichtszunahme?",
+          nl: "Welke actrice won een Oscar voor het spelen van een seriemoordenaar in 'Monster' na 30 pond aan te komen?"
+        },
+        options: [
+          { en: "Charlize Theron", es: "Charlize Theron", de: "Charlize Theron", nl: "Charlize Theron" },
+          { en: "Hillary Swank", es: "Hillary Swank", de: "Hillary Swank", nl: "Hillary Swank" },
+          { en: "Nicole Kidman", es: "Nicole Kidman", de: "Nicole Kidman", nl: "Nicole Kidman" },
+          { en: "Renée Zellweger", es: "Renée Zellweger", de: "Renée Zellweger", nl: "Renée Zellweger" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Charlize Theron underwent a dramatic transformation for Monster (2003), gaining weight and wearing prosthetic teeth to portray serial killer Aileen Wuornos, winning the Oscar for Best Actress.",
+          es: "Charlize Theron experimentó una transformación dramática para Monster (2003), ganando peso y usando dientes protésicos para interpretar a la asesina en serie Aileen Wuornos, ganando el Oscar a la Mejor Actriz.",
+          de: "Charlize Theron durchlief eine dramatische Transformation für Monster (2003), nahm zu und trug Zahnprothesen, um die Serienmörderin Aileen Wuornos darzustellen, und gewann den Oscar als beste Hauptdarstellerin.",
+          nl: "Charlize Theron onderging een dramatische transformatie voor Monster (2003), kwam aan in gewicht en droeg prothese tanden om seriemoordenaar Aileen Wuornos te portretteren, en won de Oscar voor Beste Actrice."
+        }
+      },
+      {
+        question: {
+          en: "Which actor lived in the woods for six months to prepare for 'Into the Wild'?",
+          es: "¿Qué actor vivió en el bosque durante seis meses para prepararse para 'Into the Wild'?",
+          de: "Welcher Schauspieler lebte sechs Monate im Wald, um sich auf 'Into the Wild' vorzubereiten?",
+          nl: "Welke acteur leefde zes maanden in het bos ter voorbereiding op 'Into the Wild'?"
+        },
+        options: [
+          { en: "Emile Hirsch", es: "Emile Hirsch", de: "Emile Hirsch", nl: "Emile Hirsch" },
+          { en: "James Franco", es: "James Franco", de: "James Franco", nl: "James Franco" },
+          { en: "Shia LaBeouf", es: "Shia LaBeouf", de: "Shia LaBeouf", nl: "Shia LaBeouf" },
+          { en: "Joseph Gordon-Levitt", es: "Joseph Gordon-Levitt", de: "Joseph Gordon-Levitt", nl: "Joseph Gordon-Levitt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Emile Hirsch lost 40 pounds and learned wilderness survival skills for Into the Wild (2007), living in isolation to understand Christopher McCandless's journey.",
+          es: "Emile Hirsch perdió 40 libras y aprendió habilidades de supervivencia en la naturaleza para Into the Wild (2007), viviendo en aislamiento para entender el viaje de Christopher McCandless.",
+          de: "Emile Hirsch verlor 40 Pfund und lernte Wildnis-Überlebensfähigkeiten für Into the Wild (2007), lebte in Isolation, um Christopher McCandless' Reise zu verstehen.",
+          nl: "Emile Hirsch verloor 40 pond en leerde wildernisoverlevingsvaardigheden voor Into the Wild (2007), leefde in isolatie om Christopher McCandless' reis te begrijpen."
+        }
+      },
+      {
+        question: {
+          en: "Which actress won consecutive Best Actress Oscars in 1936 and 1937?",
+          es: "¿Qué actriz ganó Oscars consecutivos a la Mejor Actriz en 1936 y 1937?",
+          de: "Welche Schauspielerin gewann 1936 und 1937 aufeinanderfolgende Oscars als beste Hauptdarstellerin?",
+          nl: "Welke actrice won achtereenvolgende Beste Actrice Oscars in 1936 en 1937?"
+        },
+        options: [
+          { en: "Luise Rainer", es: "Luise Rainer", de: "Luise Rainer", nl: "Luise Rainer" },
+          { en: "Bette Davis", es: "Bette Davis", de: "Bette Davis", nl: "Bette Davis" },
+          { en: "Katharine Hepburn", es: "Katharine Hepburn", de: "Katharine Hepburn", nl: "Katharine Hepburn" },
+          { en: "Greta Garbo", es: "Greta Garbo", de: "Greta Garbo", nl: "Greta Garbo" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Luise Rainer was the first actress to win back-to-back Academy Awards, winning for The Great Ziegfeld (1936) and The Good Earth (1937).",
+          es: "Luise Rainer fue la primera actriz en ganar Premios de la Academia consecutivos, ganando por The Great Ziegfeld (1936) y The Good Earth (1937).",
+          de: "Luise Rainer war die erste Schauspielerin, die aufeinanderfolgende Academy Awards gewann, für The Great Ziegfeld (1936) und The Good Earth (1937).",
+          nl: "Luise Rainer was de eerste actrice die achtereenvolgende Academy Awards won, voor The Great Ziegfeld (1936) en The Good Earth (1937)."
+        }
+      },
+      {
+        question: {
+          en: "Which actor famously stayed in character as Lincoln throughout the entire filming period?",
+          es: "¿Qué actor famosamente permaneció en personaje como Lincoln durante todo el período de filmación?",
+          de: "Welcher Schauspieler blieb berühmt während der gesamten Drehzeit in der Rolle als Lincoln?",
+          nl: "Welke acteur bleef beroemd in karakter als Lincoln gedurende de hele filmperiode?"
+        },
+        options: [
+          { en: "Daniel Day-Lewis", es: "Daniel Day-Lewis", de: "Daniel Day-Lewis", nl: "Daniel Day-Lewis" },
+          { en: "Liam Neeson", es: "Liam Neeson", de: "Liam Neeson", nl: "Liam Neeson" },
+          { en: "Sam Waterston", es: "Sam Waterston", de: "Sam Waterston", nl: "Sam Waterston" },
+          { en: "Gregory Peck", es: "Gregory Peck", de: "Gregory Peck", nl: "Gregory Peck" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Daniel Day-Lewis stayed in character as Abraham Lincoln throughout the filming of Lincoln (2012), even signing text messages as 'Abe' and speaking in Lincoln's voice off-camera.",
+          es: "Daniel Day-Lewis permaneció en personaje como Abraham Lincoln durante el rodaje de Lincoln (2012), incluso firmando mensajes de texto como 'Abe' y hablando con la voz de Lincoln fuera de cámara.",
+          de: "Daniel Day-Lewis blieb während der Dreharbeiten zu Lincoln (2012) in der Rolle als Abraham Lincoln, unterschrieb sogar Textnachrichten als 'Abe' und sprach außerhalb der Kamera mit Lincolns Stimme.",
+          nl: "Daniel Day-Lewis bleef in karakter als Abraham Lincoln tijdens het filmen van Lincoln (2012), ondertekende zelfs tekstberichten als 'Abe' en sprak buiten camera met Lincoln's stem."
+        }
+      },
+      {
+        question: {
+          en: "Which actress learned six languages for her role in 'The Reader'?",
+          es: "¿Qué actriz aprendió seis idiomas para su papel en 'The Reader'?",
+          de: "Welche Schauspielerin lernte sechs Sprachen für ihre Rolle in 'Der Vorleser'?",
+          nl: "Welke actrice leerde zes talen voor haar rol in 'The Reader'?"
+        },
+        options: [
+          { en: "Kate Winslet", es: "Kate Winslet", de: "Kate Winslet", nl: "Kate Winslet" },
+          { en: "Nicole Kidman", es: "Nicole Kidman", de: "Nicole Kidman", nl: "Nicole Kidman" },
+          { en: "Cate Blanchett", es: "Cate Blanchett", de: "Cate Blanchett", nl: "Cate Blanchett" },
+          { en: "Emma Thompson", es: "Emma Thompson", de: "Emma Thompson", nl: "Emma Thompson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Kate Winslet won the Academy Award for Best Actress for The Reader (2008), mastering a German accent and learning to speak German fluently for the role of Hanna Schmitz.",
+          es: "Kate Winslet ganó el Premio de la Academia a la Mejor Actriz por The Reader (2008), dominando un acento alemán y aprendiendo a hablar alemán con fluidez para el papel de Hanna Schmitz.",
+          de: "Kate Winslet gewann den Academy Award für die beste Hauptdarstellerin für Der Vorleser (2008), meisterte einen deutschen Akzent und lernte fließend Deutsch für die Rolle der Hanna Schmitz.",
+          nl: "Kate Winslet won de Academy Award voor Beste Actrice voor The Reader (2008), beheerste een Duits accent en leerde vloeiend Duits spreken voor de rol van Hanna Schmitz."
         }
       }
     ]

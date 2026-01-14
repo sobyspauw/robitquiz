@@ -428,6 +428,447 @@
           nl: "Beluchting stelt water bloot aan lucht, voegt zuurstof toe om vluchtige verbindingen (CO₂, H₂S, methaan) te verwijderen, opgelost ijzer en mangaan te oxideren voor gemakkelijkere verwijdering, smaak/geur te verbeteren en biologische behandelingsprocessen te verbeteren."
         }
       },
+      {
+        question: {
+          en: "What are trihalomethanes (THMs) in drinking water?",
+          es: "¿Qué son los trihalometanos (THM) en agua potable?",
+          de: "Was sind Trihalogenmethane (THM) in Trinkwasser?",
+          nl: "Wat zijn trihalomethanen (THM's) in drinkwater?"
+        },
+        options: [
+          { en: "Beneficial minerals added during treatment", es: "Minerales beneficiosos añadidos durante tratamiento", de: "Vorteilhafte Mineralien, die während der Behandlung hinzugefügt werden", nl: "Gunstige mineralen toegevoegd tijdens behandeling" },
+          { en: "Disinfection byproducts formed when chlorine reacts with organic matter", es: "Subproductos de desinfección formados cuando cloro reacciona con materia orgánica", de: "Desinfektionsnebenprodukte, die entstehen, wenn Chlor mit organischen Stoffen reagiert", nl: "Desinfectiebijproducten gevormd wanneer chloor reageert met organisch materiaal" },
+          { en: "Fluoride compounds for dental health", es: "Compuestos de fluoruro para salud dental", de: "Fluoridverbindungen für Zahngesundheit", nl: "Fluorideverbindingen voor tandgezondheid" },
+          { en: "Natural spring water minerals", es: "Minerales naturales de agua de manantial", de: "Natürliche Quellwassermineralien", nl: "Natuurlijke bronwatermineralen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "THMs are disinfection byproducts that form when chlorine used for disinfection reacts with natural organic matter in water. The four main THMs (chloroform, bromodichloromethane, dibromochloromethane, bromoform) are regulated due to potential health concerns.",
+          es: "Los THM son subproductos de desinfección que se forman cuando el cloro usado para desinfección reacciona con materia orgánica natural en agua. Los cuatro principales THM (cloroformo, bromodiclorometano, dibromoclorometano, bromoformo) están regulados debido a preocupaciones de salud potenciales.",
+          de: "THM sind Desinfektionsnebenprodukte, die entstehen, wenn Chlor zur Desinfektion mit natürlichen organischen Stoffen im Wasser reagiert. Die vier Haupt-THM (Chloroform, Bromdichlormethan, Dibromchlormethan, Bromoform) sind aufgrund potenzieller Gesundheitsbedenken reguliert.",
+          nl: "THM's zijn desinfectiebijproducten die ontstaan wanneer chloor gebruikt voor desinfectie reageert met natuurlijk organisch materiaal in water. De vier belangrijkste THM's (chloroform, broomdichloormethaan, dibroomchloormethaan, broomvorm) zijn gereguleerd vanwege potentiële gezondheidsrisico's."
+        }
+      },
+      {
+        question: {
+          en: "What is the function of a sediment pre-filter in a multi-stage filtration system?",
+          es: "¿Cuál es la función de un prefiltro de sedimento en un sistema de filtración multietapa?",
+          de: "Was ist die Funktion eines Sediment-Vorfilters in einem mehrstufigen Filtrationssystem?",
+          nl: "Wat is de functie van een sediment voorfilter in een meertraps filtratiesysteem?"
+        },
+        options: [
+          { en: "Removes chlorine and chemicals", es: "Elimina cloro y químicos", de: "Entfernt Chlor und Chemikalien", nl: "Verwijdert chloor en chemicaliën" },
+          { en: "Removes large particles like sand, rust, and sediment to protect finer filters", es: "Elimina partículas grandes como arena, óxido y sedimento para proteger filtros más finos", de: "Entfernt große Partikel wie Sand, Rost und Sediment zum Schutz feinerer Filter", nl: "Verwijdert grote deeltjes zoals zand, roest en sediment om fijnere filters te beschermen" },
+          { en: "Kills bacteria and viruses", es: "Mata bacterias y virus", de: "Tötet Bakterien und Viren", nl: "Doodt bacteriën en virussen" },
+          { en: "Adds minerals to water", es: "Añade minerales al agua", de: "Fügt Wasser Mineralien hinzu", nl: "Voegt mineralen toe aan water" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Sediment pre-filters (typically 5-20 microns) remove large particles like sand, silt, rust, and debris. This protects downstream filters (carbon, membrane) from clogging and extends their lifespan, making the entire system more efficient.",
+          es: "Los prefiltros de sedimento (típicamente 5-20 micrones) eliminan partículas grandes como arena, limo, óxido y escombros. Esto protege filtros posteriores (carbón, membrana) de obstrucciones y extiende su vida útil, haciendo el sistema completo más eficiente.",
+          de: "Sediment-Vorfilter (typischerweise 5-20 Mikron) entfernen große Partikel wie Sand, Schluff, Rost und Trümmer. Dies schützt nachgeschaltete Filter (Kohle, Membran) vor Verstopfung und verlängert ihre Lebensdauer, wodurch das gesamte System effizienter wird.",
+          nl: "Sediment voorfilters (typisch 5-20 micron) verwijderen grote deeltjes zoals zand, slib, roest en puin. Dit beschermt stroomafwaartse filters (koolstof, membraan) tegen verstopping en verlengt hun levensduur, waardoor het hele systeem efficiënter wordt."
+        }
+      },
+      {
+        question: {
+          en: "What is the typical lifespan of an activated carbon filter cartridge in normal household use?",
+          es: "¿Cuál es la vida útil típica de un cartucho de filtro de carbón activado en uso doméstico normal?",
+          de: "Was ist die typische Lebensdauer einer Aktivkohlefilterpatrone im normalen Haushaltsgebrauch?",
+          nl: "Wat is de typische levensduur van een actieve koolstoffilterpatroon bij normaal huishoudelijk gebruik?"
+        },
+        options: [
+          { en: "1-2 weeks", es: "1-2 semanas", de: "1-2 Wochen", nl: "1-2 weken" },
+          { en: "1-2 months", es: "1-2 meses", de: "1-2 Monate", nl: "1-2 maanden" },
+          { en: "3-6 months", es: "3-6 meses", de: "3-6 Monate", nl: "3-6 maanden" },
+          { en: "2-3 years", es: "2-3 años", de: "2-3 Jahre", nl: "2-3 jaar" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Most activated carbon filters need replacement every 3-6 months depending on water quality and usage volume. As the carbon becomes saturated with contaminants, its effectiveness decreases. Some high-capacity filters may last up to 12 months.",
+          es: "La mayoría de filtros de carbón activado necesitan reemplazo cada 3-6 meses dependiendo de calidad del agua y volumen de uso. A medida que el carbón se satura con contaminantes, su efectividad disminuye. Algunos filtros de alta capacidad pueden durar hasta 12 meses.",
+          de: "Die meisten Aktivkohlefilter müssen alle 3-6 Monate ersetzt werden, abhängig von Wasserqualität und Nutzungsvolumen. Wenn die Kohle mit Verunreinigungen gesättigt wird, nimmt ihre Wirksamkeit ab. Einige Hochleistungsfilter können bis zu 12 Monate halten.",
+          nl: "De meeste actieve koolstoffilters moeten elke 3-6 maanden worden vervangen, afhankelijk van waterkwaliteit en gebruiksvolume. Naarmate de koolstof verzadigd raakt met verontreinigingen, neemt de effectiviteit af. Sommige hoogwaardige filters kunnen tot 12 maanden meegaan."
+        }
+      },
+      {
+        question: {
+          en: "What is electrodeionization (EDI) in water purification?",
+          es: "¿Qué es la electrodesionización (EDI) en purificación de agua?",
+          de: "Was ist Elektrodeionisation (EDI) bei der Wasserreinigung?",
+          nl: "Wat is elektrodeïonisatie (EDI) bij waterzuivering?"
+        },
+        options: [
+          { en: "Using electricity and ion exchange to produce ultra-pure water", es: "Usar electricidad e intercambio iónico para producir agua ultrapura", de: "Verwendung von Elektrizität und Ionenaustausch zur Erzeugung von ultrapurem Wasser", nl: "Gebruik van elektriciteit en ionenwisseling om ultrapuur water te produceren" },
+          { en: "Heating water with electrodes", es: "Calentar agua con electrodos", de: "Wasser mit Elektroden erhitzen", nl: "Water verwarmen met elektroden" },
+          { en: "Adding ions through electric current", es: "Añadir iones mediante corriente eléctrica", de: "Hinzufügen von Ionen durch elektrischen Strom", nl: "Ionen toevoegen via elektrische stroom" },
+          { en: "Removing electricity from water", es: "Eliminar electricidad del agua", de: "Entfernen von Elektrizität aus Wasser", nl: "Elektriciteit verwijderen uit water" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "EDI combines ion exchange resins with an electric current to continuously remove ions from water without chemical regeneration. It's used after RO to produce ultra-pure water for laboratories, pharmaceuticals, and electronics manufacturing.",
+          es: "EDI combina resinas de intercambio iónico con corriente eléctrica para eliminar continuamente iones del agua sin regeneración química. Se usa después de RO para producir agua ultrapura para laboratorios, farmacéuticos y manufactura electrónica.",
+          de: "EDI kombiniert Ionenaustauschharze mit elektrischem Strom zur kontinuierlichen Entfernung von Ionen aus Wasser ohne chemische Regeneration. Es wird nach RO verwendet, um ultrapures Wasser für Labore, Pharmazeutika und Elektronikfertigung zu erzeugen.",
+          nl: "EDI combineert ionenwisselingsharsen met een elektrische stroom om continu ionen uit water te verwijderen zonder chemische regeneratie. Het wordt gebruikt na RO om ultrapuur water te produceren voor laboratoria, farmaceutica en elektronica-industrie."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of post-filtration remineralization in water treatment?",
+          es: "¿Cuál es el propósito de la remineralización posterior a filtración en tratamiento de agua?",
+          de: "Was ist der Zweck der Remineralisierung nach der Filtration bei der Wasseraufbereitung?",
+          nl: "Wat is het doel van post-filtratie remineralisatie bij waterbehandeling?"
+        },
+        options: [
+          { en: "To remove remaining contaminants", es: "Para eliminar contaminantes restantes", de: "Um verbleibende Verunreinigungen zu entfernen", nl: "Om resterende verontreinigingen te verwijderen" },
+          { en: "To add beneficial minerals back after RO removes nearly everything", es: "Para añadir minerales beneficiosos después de que RO elimina casi todo", de: "Um vorteilhafte Mineralien nach RO-Entfernung von fast allem hinzuzufügen", nl: "Om gunstige mineralen terug te voegen nadat RO bijna alles verwijdert" },
+          { en: "To increase water pressure", es: "Para aumentar presión del agua", de: "Um Wasserdruck zu erhöhen", nl: "Om waterdruk te verhogen" },
+          { en: "To cool the water", es: "Para enfriar el agua", de: "Um das Wasser zu kühlen", nl: "Om het water te koelen" }
+        },
+        correct: 1,
+        explanation: {
+          en: "After reverse osmosis removes 95-99% of everything including beneficial minerals, remineralization filters add back calcium, magnesium, and other essential minerals. This improves taste, pH balance, and provides health benefits while maintaining purity.",
+          es: "Después de que ósmosis inversa elimina 95-99% de todo incluyendo minerales beneficiosos, filtros de remineralización añaden calcio, magnesio y otros minerales esenciales. Esto mejora sabor, balance de pH y proporciona beneficios de salud mientras mantiene pureza.",
+          de: "Nachdem Umkehrosmose 95-99% von allem einschließlich vorteilhafter Mineralien entfernt, fügen Remineralisierungsfilter Kalzium, Magnesium und andere essenzielle Mineralien zurück. Dies verbessert Geschmack, pH-Balance und bietet Gesundheitsvorteile bei Beibehaltung der Reinheit.",
+          nl: "Nadat omgekeerde osmose 95-99% van alles inclusief gunstige mineralen verwijdert, voegen remineralisatiefilters calcium, magnesium en andere essentiële mineralen terug. Dit verbetert smaak, pH-balans en biedt gezondheidsvoordelen terwijl zuiverheid behouden blijft."
+        }
+      },
+      {
+        question: {
+          en: "What is advanced oxidation process (AOP) in water treatment?",
+          es: "¿Qué es el proceso de oxidación avanzada (AOP) en tratamiento de agua?",
+          de: "Was ist der erweiterte Oxidationsprozess (AOP) bei der Wasseraufbereitung?",
+          nl: "Wat is geavanceerd oxidatieproces (AOP) bij waterbehandeling?"
+        },
+        options: [
+          { en: "Simple oxygen bubbling through water", es: "Burbujas simples de oxígeno a través de agua", de: "Einfaches Sauerstoffblubbern durch Wasser", nl: "Eenvoudige zuurstofbellen door water" },
+          { en: "Generating highly reactive hydroxyl radicals to destroy contaminants", es: "Generar radicales hidroxilo altamente reactivos para destruir contaminantes", de: "Erzeugung hochreaktiver Hydroxylradikale zur Zerstörung von Verunreinigungen", nl: "Genereren van zeer reactieve hydroxylradicalen om verontreinigingen te vernietigen" },
+          { en: "Adding rust to water", es: "Añadir óxido al agua", de: "Rost zu Wasser hinzufügen", nl: "Roest toevoegen aan water" },
+          { en: "Cooling water with oxygen", es: "Enfriar agua con oxígeno", de: "Wasser mit Sauerstoff kühlen", nl: "Water koelen met zuurstof" }
+        },
+        correct: 1,
+        explanation: {
+          en: "AOP uses combinations like UV + H₂O₂, UV + ozone, or Fenton's reagent to generate hydroxyl radicals (OH•), extremely powerful oxidants that break down persistent organic pollutants, pharmaceuticals, and micropollutants that conventional treatment can't remove.",
+          es: "AOP usa combinaciones como UV + H₂O₂, UV + ozono, o reactivo de Fenton para generar radicales hidroxilo (OH•), oxidantes extremadamente poderosos que descomponen contaminantes orgánicos persistentes, farmacéuticos y microcontaminantes que tratamiento convencional no puede eliminar.",
+          de: "AOP verwendet Kombinationen wie UV + H₂O₂, UV + Ozon oder Fentons Reagenz zur Erzeugung von Hydroxylradikalen (OH•), extrem starken Oxidationsmitteln, die persistente organische Schadstoffe, Pharmazeutika und Mikroschadstoffe abbauen, die konventionelle Behandlung nicht entfernen kann.",
+          nl: "AOP gebruikt combinaties zoals UV + H₂O₂, UV + ozon, of Fenton's reagens om hydroxylradicalen (OH•) te genereren, extreem krachtige oxidanten die persistente organische verontreinigingen, farmaceutica en microverontreinigingen afbreken die conventionele behandeling niet kan verwijderen."
+        }
+      },
+      {
+        question: {
+          en: "What is capacitive deionization (CDI)?",
+          es: "¿Qué es la desionización capacitiva (CDI)?",
+          de: "Was ist kapazitive Deionisation (CDI)?",
+          nl: "Wat is capacitieve deïonisatie (CDI)?"
+        },
+        options: [
+          { en: "Using electrically charged electrodes to remove ions from water", es: "Usar electrodos cargados eléctricamente para eliminar iones del agua", de: "Verwendung elektrisch geladener Elektroden zur Entfernung von Ionen aus Wasser", nl: "Gebruik van elektrisch geladen elektroden om ionen uit water te verwijderen" },
+          { en: "Storing water in capacitors", es: "Almacenar agua en capacitores", de: "Wasser in Kondensatoren lagern", nl: "Water opslaan in condensatoren" },
+          { en: "Heating water with electric capacity", es: "Calentar agua con capacidad eléctrica", de: "Wasser mit elektrischer Kapazität erhitzen", nl: "Water verwarmen met elektrische capaciteit" },
+          { en: "Measuring water volume electrically", es: "Medir volumen de agua eléctricamente", de: "Wasservolumen elektrisch messen", nl: "Watervolume elektrisch meten" }
+        },
+        correct: 0,
+        explanation: {
+          en: "CDI uses porous carbon electrodes that attract and hold ions when voltage is applied, removing salt from water. When voltage is reversed, electrodes release ions for regeneration. It's energy-efficient for brackish water desalination and emerging as an alternative to RO.",
+          es: "CDI usa electrodos de carbón poroso que atraen y retienen iones cuando se aplica voltaje, eliminando sal del agua. Cuando se invierte el voltaje, electrodos liberan iones para regeneración. Es energéticamente eficiente para desalinización de agua salobre y emerge como alternativa a RO.",
+          de: "CDI verwendet poröse Kohlenstoffelektroden, die Ionen anziehen und halten, wenn Spannung angelegt wird, wodurch Salz aus Wasser entfernt wird. Wenn die Spannung umgekehrt wird, geben Elektroden Ionen zur Regeneration frei. Es ist energieeffizient für Brackwasserentsalzung und entwickelt sich als Alternative zu RO.",
+          nl: "CDI gebruikt poreuze koolstofelektroden die ionen aantrekken en vasthouden wanneer spanning wordt toegepast, waarbij zout uit water wordt verwijderd. Wanneer de spanning wordt omgekeerd, geven elektroden ionen vrij voor regeneratie. Het is energie-efficiënt voor brak water ontzilting en komt op als alternatief voor RO."
+        }
+      },
+      {
+        question: {
+          en: "What are haloacetic acids (HAAs) in drinking water?",
+          es: "¿Qué son los ácidos haloacéticos (HAA) en agua potable?",
+          de: "Was sind Haloessigsäuren (HAA) in Trinkwasser?",
+          nl: "Wat zijn haloazijnzuren (HAA's) in drinkwater?"
+        },
+        options: [
+          { en: "Naturally occurring minerals", es: "Minerales naturales", de: "Natürlich vorkommende Mineralien", nl: "Natuurlijk voorkomende mineralen" },
+          { en: "Disinfection byproducts formed when chlorine reacts with organic matter", es: "Subproductos de desinfección formados cuando cloro reacciona con materia orgánica", de: "Desinfektionsnebenprodukte, die entstehen, wenn Chlor mit organischen Stoffen reagiert", nl: "Desinfectiebijproducten gevormd wanneer chloor reageert met organisch materiaal" },
+          { en: "Beneficial acids for health", es: "Ácidos beneficiosos para salud", de: "Vorteilhafte Säuren für Gesundheit", nl: "Gunstige zuren voor gezondheid" },
+          { en: "Water softening agents", es: "Agentes ablandadores de agua", de: "Wasserenthärtungsmittel", nl: "Wateronthardingsmiddelen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "HAAs are disinfection byproducts (like THMs) that form when chlorine reacts with natural organic matter. The five regulated HAAs are monochloroacetic, dichloroacetic, trichloroacetic, monobromoacetic, and dibromoacetic acids. They're monitored due to potential health risks.",
+          es: "Los HAA son subproductos de desinfección (como THM) que se forman cuando cloro reacciona con materia orgánica natural. Los cinco HAA regulados son ácidos monocloroacético, dicloroacético, tricloroacético, monobromoacético y dibromoacético. Se monitorean debido a riesgos potenciales de salud.",
+          de: "HAA sind Desinfektionsnebenprodukte (wie THM), die entstehen, wenn Chlor mit natürlichen organischen Stoffen reagiert. Die fünf regulierten HAA sind Monochloressigsäure, Dichloressigsäure, Trichloressigsäure, Monobromo essigsäure und Dibromessigsäure. Sie werden aufgrund potenzieller Gesundheitsrisiken überwacht.",
+          nl: "HAA's zijn desinfectiebijproducten (zoals THM's) die ontstaan wanneer chloor reageert met natuurlijk organisch materiaal. De vijf gereguleerde HAA's zijn monochloorazijnzuur, dichloorazijnzuur, trichloorazijnzuur, monobroom azijnzuur en dibroomazijnzuur. Ze worden gemonitord vanwege potentiële gezondheidsrisico's."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between GAC and carbon block filters?",
+          es: "¿Cuál es la diferencia entre filtros GAC y de bloque de carbón?",
+          de: "Was ist der Unterschied zwischen GAC- und Kohleblockfiltern?",
+          nl: "Wat is het verschil tussen GAC- en koolstofblokfilters?"
+        },
+        options: [
+          { en: "No difference, same technology", es: "Sin diferencia, misma tecnología", de: "Kein Unterschied, gleiche Technologie", nl: "Geen verschil, zelfde technologie" },
+          { en: "GAC uses loose granules, carbon block uses compressed carbon for better filtration", es: "GAC usa gránulos sueltos, bloque de carbón usa carbón comprimido para mejor filtración", de: "GAC verwendet lose Granulate, Kohleblock verwendet komprimierten Kohlenstoff für bessere Filtration", nl: "GAC gebruikt losse korrels, koolstofblok gebruikt samengeperste koolstof voor betere filtratie" },
+          { en: "GAC is for commercial use only", es: "GAC es solo para uso comercial", de: "GAC ist nur für gewerbliche Nutzung", nl: "GAC is alleen voor commercieel gebruik" },
+          { en: "Carbon block is disposable, GAC is reusable", es: "Bloque de carbón es desechable, GAC es reutilizable", de: "Kohleblock ist Einweg, GAC ist wiederverwendbar", nl: "Koolstofblok is wegwerp, GAC is herbruikbaar" }
+        },
+        correct: 1,
+        explanation: {
+          en: "GAC (Granular Activated Carbon) uses loose carbon granules with faster flow but less contact time. Carbon block filters compress activated carbon into a solid block, providing slower flow but more contact time, smaller pore sizes, and better contaminant removal including sediment filtration.",
+          es: "GAC (Carbón Activado Granular) usa gránulos de carbón sueltos con flujo más rápido pero menos tiempo de contacto. Filtros de bloque de carbón comprimen carbón activado en bloque sólido, proporcionando flujo más lento pero más tiempo de contacto, poros más pequeños y mejor eliminación de contaminantes incluyendo filtración de sedimento.",
+          de: "GAC (Granulierte Aktivkohle) verwendet lose Kohlenstoffgranulate mit schnellerem Durchfluss aber weniger Kontaktzeit. Kohleblockfilter komprimieren Aktivkohle zu einem festen Block, der langsameren Durchfluss aber mehr Kontaktzeit, kleinere Porengrößen und bessere Schadstoffent fernung einschließlich Sedimentfiltration bietet.",
+          nl: "GAC (Korrelige Actieve Kool) gebruikt losse koolstofkorrels met snellere stroming maar minder contacttijd. Koolstofblokfilters persen actieve kool samen tot een vast blok, wat langzamere stroming maar meer contacttijd, kleinere poriegrootten en betere verontreinigingsverwijdering inclusief sedimentfiltratie biedt."
+        }
+      },
+      {
+        question: {
+          en: "What is permeate in reverse osmosis systems?",
+          es: "¿Qué es el permeado en sistemas de ósmosis inversa?",
+          de: "Was ist Permeat in Umkehrosmosesystemen?",
+          nl: "Wat is permeaat in omgekeerde osmose systemen?"
+        },
+        options: [
+          { en: "The waste water rejected by the membrane", es: "El agua de desecho rechazada por la membrana", de: "Das von der Membran abgewiesene Abwasser", nl: "Het afvalwater dat door het membraan wordt afgewezen" },
+          { en: "The purified water that passes through the membrane", es: "El agua purificada que pasa a través de la membrana", de: "Das gereinigte Wasser, das durch die Membran geht", nl: "Het gezuiverde water dat door het membraan gaat" },
+          { en: "The pre-filter stage", es: "La etapa de prefiltro", de: "Die Vorfilterstufe", nl: "De voorfilter fase" },
+          { en: "The membrane cleaning solution", es: "La solución de limpieza de membrana", de: "Die Membranreinigungslösung", nl: "De membraanreinigingsoplossing" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Permeate is the purified water that successfully passes through the RO membrane. It contains very low TDS (typically 10-50 ppm) and is the product water. The rejected concentrated water containing removed contaminants is called concentrate or reject.",
+          es: "El permeado es el agua purificada que pasa exitosamente a través de la membrana RO. Contiene TDS muy bajo (típicamente 10-50 ppm) y es el agua producto. El agua concentrada rechazada que contiene contaminantes eliminados se llama concentrado o rechazo.",
+          de: "Permeat ist das gereinigte Wasser, das erfolgreich durch die RO-Membran geht. Es enthält sehr niedrige TDS (typischerweise 10-50 ppm) und ist das Produktwasser. Das abgewiesene konzentrierte Wasser, das entfernte Verunreinigungen enthält, wird Konzentrat oder Rejektion genannt.",
+          nl: "Permeaat is het gezuiverde water dat succesvol door het RO-membraan gaat. Het bevat zeer lage TDS (typisch 10-50 ppm) en is het productwater. Het afgewezen geconcentreerde water dat verwijderde verontreinigingen bevat wordt concentraat of afval genoemd."
+        }
+      },
+      {
+        question: {
+          en: "What is the recovery rate in reverse osmosis systems?",
+          es: "¿Qué es la tasa de recuperación en sistemas de ósmosis inversa?",
+          de: "Was ist die Rückgewinnungsrate in Umkehrosmosesystemen?",
+          nl: "Wat is het terugwinningspercentage in omgekeerde osmose systemen?"
+        },
+        options: [
+          { en: "How quickly the membrane can be cleaned", es: "Qué tan rápido se puede limpiar la membrana", de: "Wie schnell die Membran gereinigt werden kann", nl: "Hoe snel het membraan gereinigd kan worden" },
+          { en: "The percentage of feed water converted to purified water", es: "El porcentaje de agua de alimentación convertida en agua purificada", de: "Der Prozentsatz des Zulaufwassers, das in gereinigtes Wasser umgewandelt wird", nl: "Het percentage voedingswater dat wordt omgezet in gezuiverd water" },
+          { en: "Time to recover from power failure", es: "Tiempo para recuperarse de falla eléctrica", de: "Zeit zur Wiederherstellung nach Stromausfall", nl: "Tijd om te herstellen van stroomuitval" },
+          { en: "Filter replacement frequency", es: "Frecuencia de reemplazo de filtro", de: "Filteraustauschfrequenz", nl: "Filtervervanging frequentie" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Recovery rate is the percentage of feed water that becomes purified permeate. Typical household RO systems have 25-50% recovery (meaning 50-75% goes to drain as waste). Commercial systems achieve higher recovery rates (60-75%). Higher recovery saves water but requires better pre-treatment.",
+          es: "La tasa de recuperación es el porcentaje de agua de alimentación que se convierte en permeado purificado. Sistemas RO domésticos típicos tienen 25-50% de recuperación (significando 50-75% va al drenaje como desecho). Sistemas comerciales logran tasas de recuperación más altas (60-75%). Mayor recuperación ahorra agua pero requiere mejor pretratamiento.",
+          de: "Die Rückgewinnungsrate ist der Prozentsatz des Zulaufwassers, der zu gereinigtem Permeat wird. Typische Haushalts-RO-Systeme haben 25-50% Rückgewinnung (was bedeutet, dass 50-75% als Abfall in den Abfluss gehen). Kommerzielle Systeme erreichen höhere Rückgewinnungsraten (60-75%). Höhere Rückgewinnung spart Wasser, erfordert aber bessere Vorbehandlung.",
+          nl: "Het terugwinningspercentage is het percentage voedingswater dat gezuiverd permeaat wordt. Typische huishoudelijke RO-systemen hebben 25-50% terugwinning (wat betekent dat 50-75% naar de afvoer gaat als afval). Commerciële systemen bereiken hogere terugwinningspercentages (60-75%). Hogere terugwinning bespaart water maar vereist betere voorbehandeling."
+        }
+      },
+      {
+        question: {
+          en: "What is membrane fouling in filtration systems?",
+          es: "¿Qué es el ensuciamiento de membrana en sistemas de filtración?",
+          de: "Was ist Membranverschmutzung in Filtrationssystemen?",
+          nl: "Wat is membraanvervuiling in filtratiesystemen?"
+        },
+        options: [
+          { en: "Intentional coating of membranes", es: "Recubrimiento intencional de membranas", de: "Absichtliche Beschichtung von Membranen", nl: "Opzettelijke coating van membranen" },
+          { en: "Accumulation of materials on membrane surface reducing performance", es: "Acumulación de materiales en superficie de membrana reduciendo rendimiento", de: "Ansammlung von Materialien auf Membranoberfläche, die die Leistung reduziert", nl: "Ophoping van materialen op membraanoppervlak waardoor prestatie vermindert" },
+          { en: "Membrane cleaning process", es: "Proceso de limpieza de membrana", de: "Membranreinigungsprozess", nl: "Membraanreinigingsproces" },
+          { en: "Manufacturing defect", es: "Defecto de fabricación", de: "Herstellungsfehler", nl: "Fabricagedefect" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Membrane fouling occurs when particles, organic matter, microorganisms, or minerals accumulate on the membrane surface or within pores, clogging them and reducing water flow and filtration efficiency. Types include particulate, organic, biological (biofouling), and scaling (mineral deposits).",
+          es: "El ensuciamiento de membrana ocurre cuando partículas, materia orgánica, microorganismos o minerales se acumulan en la superficie de la membrana o dentro de poros, obstruyéndolos y reduciendo flujo de agua y eficiencia de filtración. Los tipos incluyen particulado, orgánico, biológico (bioensuciamiento) e incrustación (depósitos minerales).",
+          de: "Membranverschmutzung tritt auf, wenn sich Partikel, organische Stoffe, Mikroorganismen oder Mineralien auf der Membranoberfläche oder in Poren ansammeln, diese verstopfen und Wasserfluss und Filtrationseffizienz reduzieren. Typen umfassen partikulär, organisch, biologisch (Biofouling) und Verkalkung (Mineralablagerungen).",
+          nl: "Membraanvervuiling treedt op wanneer deeltjes, organisch materiaal, micro-organismen of mineralen zich ophopen op het membraanoppervlak of binnen poriën, deze verstoppen en waterstroom en filtratie-efficiëntie verminderen. Typen omvatten particulair, organisch, biologisch (biofouling) en aanslag (mineraalafzettingen)."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of a permeate pump in RO systems?",
+          es: "¿Cuál es el propósito de una bomba de permeado en sistemas RO?",
+          de: "Was ist der Zweck einer Permeatpumpe in RO-Systemen?",
+          nl: "Wat is het doel van een permeaatpomp in RO-systemen?"
+        },
+        options: [
+          { en: "To increase water pressure entering the membrane", es: "Para aumentar presión del agua que entra en la membrana", de: "Um Wasserdruck beim Eintritt in die Membran zu erhöhen", nl: "Om waterdruk bij binnenkomst in het membraan te verhogen" },
+          { en: "To reduce back pressure and improve efficiency without electricity", es: "Para reducir contrapresión y mejorar eficiencia sin electricidad", de: "Um Gegendruck zu reduzieren und Effizienz ohne Strom zu verbessern", nl: "Om tegendruk te verminderen en efficiëntie te verbeteren zonder elektriciteit" },
+          { en: "To heat the water", es: "Para calentar el agua", de: "Um das Wasser zu erhitzen", nl: "Om het water te verwarmen" },
+          { en: "To add minerals back", es: "Para añadir minerales de vuelta", de: "Um Mineralien zurückzufügen", nl: "Om mineralen terug te voegen" }
+        },
+        correct: 1,
+        explanation: {
+          en: "A permeate pump is a non-electric, hydraulically-powered pump that uses reject water pressure to push permeate into the storage tank, overcoming back pressure. This increases recovery rate (less waste), improves membrane life, and allows the system to work with lower inlet pressure.",
+          es: "Una bomba de permeado es una bomba no eléctrica, hidráulicamente accionada que usa presión de agua de rechazo para empujar permeado al tanque de almacenamiento, superando contrapresión. Esto aumenta tasa de recuperación (menos desperdicio), mejora vida de membrana y permite que el sistema funcione con menor presión de entrada.",
+          de: "Eine Permeatpumpe ist eine nicht-elektrische, hydraulisch angetriebene Pumpe, die Rejektionswasserdruck verwendet, um Permeat in den Speichertank zu drücken und Gegendruck zu überwinden. Dies erhöht die Rückgewinnungsrate (weniger Abfall), verbessert die Membranlebensdauer und ermöglicht es dem System, mit niedrigerem Eingangsdruck zu arbeiten.",
+          nl: "Een permeaatpomp is een niet-elektrische, hydraulisch aangedreven pomp die afvalwaterdruk gebruikt om permeaat in de opslagtank te duwen, waarbij tegendruk wordt overwonnen. Dit verhoogt het terugwinningspercentage (minder afval), verbetert de membraanlevensduur en stelt het systeem in staat om met lagere inlaatdruk te werken."
+        }
+      },
+      {
+        question: {
+          en: "What is chloramine and why is it used in water treatment?",
+          es: "¿Qué es la cloramina y por qué se usa en tratamiento de agua?",
+          de: "Was ist Chloramin und warum wird es bei der Wasseraufbereitung verwendet?",
+          nl: "Wat is chloramine en waarom wordt het gebruikt bij waterbehandeling?"
+        },
+        options: [
+          { en: "A mineral supplement added for health", es: "Un suplemento mineral añadido por salud", de: "Ein Mineralzusatz für Gesundheit", nl: "Een mineraalsupplement toegevoegd voor gezondheid" },
+          { en: "A disinfectant formed by combining chlorine and ammonia, more stable than chlorine", es: "Un desinfectante formado combinando cloro y amoníaco, más estable que cloro", de: "Ein Desinfektionsmittel aus Chlor und Ammoniak, stabiler als Chlor", nl: "Een desinfectiemiddel gevormd door chloor en ammoniak te combineren, stabieler dan chloor" },
+          { en: "A natural compound in groundwater", es: "Un compuesto natural en agua subterránea", de: "Eine natürliche Verbindung im Grundwasser", nl: "Een natuurlijke verbinding in grondwater" },
+          { en: "A flavor enhancer", es: "Un potenciador de sabor", de: "Ein Geschmacksverstärker", nl: "Een smaakversterker" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Chloramine (NH₂Cl) is formed by adding ammonia to chlorine. It provides longer-lasting disinfection in distribution systems, produces fewer disinfection byproducts than chlorine alone, but is harder to remove (requiring catalytic carbon) and can corrode certain plumbing materials.",
+          es: "La cloramina (NH₂Cl) se forma añadiendo amoníaco al cloro. Proporciona desinfección de más larga duración en sistemas de distribución, produce menos subproductos de desinfección que solo cloro, pero es más difícil de eliminar (requiriendo carbón catalítico) y puede corroer ciertos materiales de plomería.",
+          de: "Chloramin (NH₂Cl) wird durch Zugabe von Ammoniak zu Chlor gebildet. Es bietet länger anhaltende Desinfektion in Verteilungssystemen, produziert weniger Desinfektionsnebenprodukte als Chlor allein, ist aber schwerer zu entfernen (erfordert katalytischen Kohlenstoff) und kann bestimmte Rohrleitungsmaterialien korrodieren.",
+          nl: "Chloramine (NH₂Cl) wordt gevormd door ammoniak aan chloor toe te voegen. Het biedt langdurige desinfectie in distributiesystemen, produceert minder desinfectiebijproducten dan alleen chloor, maar is moeilijker te verwijderen (vereist katalytische kool) en kan bepaalde leidingmaterialen corroderen."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between point-of-use (POU) and point-of-entry (POE) water treatment?",
+          es: "¿Cuál es la diferencia entre tratamiento de agua en punto de uso (POU) y punto de entrada (POE)?",
+          de: "Was ist der Unterschied zwischen Wasserbehandlung am Nutzungspunkt (POU) und Eingangspunkt (POE)?",
+          nl: "Wat is het verschil tussen waterbehandeling op gebruikspunt (POU) en toegangspunt (POE)?"
+        },
+        options: [
+          { en: "No difference, same concept", es: "Sin diferencia, mismo concepto", de: "Kein Unterschied, gleiches Konzept", nl: "Geen verschil, zelfde concept" },
+          { en: "POU treats water at specific taps, POE treats all water entering the home", es: "POU trata agua en grifos específicos, POE trata toda agua que entra a casa", de: "POU behandelt Wasser an bestimmten Wasserhähnen, POE behandelt alles Wasser, das ins Haus kommt", nl: "POU behandelt water bij specifieke kranen, POE behandelt al het water dat het huis binnenkomt" },
+          { en: "POU is for commercial use only", es: "POU es solo para uso comercial", de: "POU ist nur für gewerbliche Nutzung", nl: "POU is alleen voor commercieel gebruik" },
+          { en: "POE is cheaper than POU", es: "POE es más barato que POU", de: "POE ist günstiger als POU", nl: "POE is goedkoper dan POU" }
+        },
+        correct: 1,
+        explanation: {
+          en: "POU (Point-of-Use) systems treat water at specific locations like under-sink filters or faucet-mounted filters for drinking/cooking water only. POE (Point-of-Entry) systems treat all water entering the home at the main line, providing treated water to all taps including showers and appliances.",
+          es: "Los sistemas POU (Punto de Uso) tratan agua en ubicaciones específicas como filtros bajo fregadero o filtros montados en grifo solo para agua de beber/cocinar. Los sistemas POE (Punto de Entrada) tratan toda agua que entra a casa en la línea principal, proporcionando agua tratada a todos grifos incluyendo duchas y electrodomésticos.",
+          de: "POU (Nutzungspunkt) Systeme behandeln Wasser an bestimmten Orten wie Untertischfiltern oder Wasserhahnfiltern nur für Trink-/Kochwasser. POE (Eingangspunkt) Systeme behandeln alles Wasser, das ins Haus an der Hauptleitung eintritt, und liefern behandeltes Wasser an alle Wasserhähne einschließlich Duschen und Geräte.",
+          nl: "POU (Gebruikspunt) systemen behandelen water op specifieke locaties zoals onderspoelbakfilters of kraangemonteerde filters alleen voor drink-/kookwater. POE (Toegangspunt) systemen behandelen al het water dat het huis binnenkomt bij de hoofdleiding, en leveren behandeld water aan alle kranen inclusief douches en apparaten."
+        }
+      },
+      {
+        question: {
+          en: "What is total organic carbon (TOC) in water quality analysis?",
+          es: "¿Qué es carbono orgánico total (TOC) en análisis de calidad de agua?",
+          de: "Was ist gesamter organischer Kohlenstoff (TOC) in der Wasserqualitätsanalyse?",
+          nl: "Wat is totale organische koolstof (TOC) in waterkwaliteitsanalyse?"
+        },
+        options: [
+          { en: "A measurement of beneficial minerals", es: "Una medida de minerales beneficiosos", de: "Eine Messung vorteilhafter Mineralien", nl: "Een meting van gunstige mineralen" },
+          { en: "The amount of carbon bound in organic compounds in water", es: "La cantidad de carbono unido en compuestos orgánicos en agua", de: "Die Menge an Kohlenstoff gebunden in organischen Verbindungen im Wasser", nl: "De hoeveelheid koolstof gebonden in organische verbindingen in water" },
+          { en: "Carbon dioxide content", es: "Contenido de dióxido de carbono", de: "Kohlendioxidgehalt", nl: "Koolstofdioxidegehalte" },
+          { en: "Activated carbon efficiency", es: "Eficiencia de carbón activado", de: "Aktivkohleeffizienz", nl: "Actieve koolstof efficiëntie" }
+        },
+        correct: 1,
+        explanation: {
+          en: "TOC measures the total concentration of organic carbon (from living organisms, decaying matter, chemicals, pesticides, pharmaceuticals) in water. It's an important parameter indicating organic pollution level and potential for disinfection byproduct formation. Lower TOC means cleaner water.",
+          es: "TOC mide la concentración total de carbono orgánico (de organismos vivos, materia en descomposición, químicos, pesticidas, farmacéuticos) en agua. Es un parámetro importante que indica nivel de contaminación orgánica y potencial para formación de subproductos de desinfección. Menor TOC significa agua más limpia.",
+          de: "TOC misst die Gesamtkonzentration organischen Kohlenstoffs (von lebenden Organismen, verfallendem Material, Chemikalien, Pestiziden, Pharmazeutika) im Wasser. Es ist ein wichtiger Parameter, der das organische Verschmutzungsniveau und Potenzial für Desinfektionsnebenproduktbildung anzeigt. Niedrigerer TOC bedeutet saubereres Wasser.",
+          nl: "TOC meet de totale concentratie van organische koolstof (van levende organismen, rottend materiaal, chemicaliën, pesticiden, farmaceutica) in water. Het is een belangrijke parameter die het niveau van organische vervuiling en het potentieel voor desinfectiebijproductvorming aangeeft. Lagere TOC betekent schoner water."
+        }
+      },
+      {
+        question: {
+          en: "What is the Langelier Saturation Index (LSI) in water treatment?",
+          es: "¿Qué es el Índice de Saturación de Langelier (LSI) en tratamiento de agua?",
+          de: "Was ist der Langelier-Sättigungsindex (LSI) bei der Wasseraufbereitung?",
+          nl: "Wat is de Langelier Saturatie Index (LSI) bij waterbehandeling?"
+        },
+        options: [
+          { en: "A measure of bacterial contamination", es: "Una medida de contaminación bacteriana", de: "Eine Messung bakterieller Kontamination", nl: "Een meting van bacteriële besmetting" },
+          { en: "A calculation predicting water's tendency to deposit or dissolve calcium carbonate", es: "Un cálculo que predice tendencia del agua a depositar o disolver carbonato de calcio", de: "Eine Berechnung zur Vorhersage der Tendenz von Wasser, Calciumcarbonat abzulagern oder aufzulösen", nl: "Een berekening die de neiging van water voorspelt om calciumcarbonaat af te zetten of op te lossen" },
+          { en: "Water flow rate measurement", es: "Medida de tasa de flujo de agua", de: "Wasserdurchflussmessung", nl: "Waterstroom snelheidsmeting" },
+          { en: "Filter efficiency rating", es: "Calificación de eficiencia de filtro", de: "Filtereffizienzbewertung", nl: "Filterefficiëntieclassificatie" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "LSI predicts whether water will deposit calcium carbonate scale (positive LSI), dissolve it (negative LSI), or be in equilibrium (LSI ≈ 0). It's calculated from pH, temperature, calcium hardness, alkalinity, and TDS. Critical for managing scaling/corrosion in pipes, RO membranes, and heat exchangers.",
+          es: "LSI predice si agua depositará incrustación de carbonato de calcio (LSI positivo), lo disolverá (LSI negativo), o estará en equilibrio (LSI ≈ 0). Se calcula a partir de pH, temperatura, dureza de calcio, alcalinidad y TDS. Crítico para gestionar incrustación/corrosión en tuberías, membranas RO e intercambiadores de calor.",
+          de: "LSI sagt voraus, ob Wasser Calciumcarbonat-Ablagerungen bilden (positiver LSI), auflösen (negativer LSI) oder im Gleichgewicht sein wird (LSI ≈ 0). Es wird aus pH, Temperatur, Calciumhärte, Alkalität und TDS berechnet. Kritisch für Verwaltung von Verkalkung/Korrosion in Rohren, RO-Membranen und Wärmetauschern.",
+          nl: "LSI voorspelt of water calciumcarbonaataanslag zal afzetten (positieve LSI), oplossen (negatieve LSI), of in evenwicht zal zijn (LSI ≈ 0). Het wordt berekend uit pH, temperatuur, calciumhardheid, alkaliniteit en TDS. Kritisch voor het beheren van aanslag/corrosie in leidingen, RO-membranen en warmtewisselaars."
+        }
+      },
+      {
+        question: {
+          en: "What is photocatalytic oxidation in water purification?",
+          es: "¿Qué es la oxidación fotocatalítica en purificación de agua?",
+          de: "Was ist photokatalytische Oxidation bei der Wasserreinigung?",
+          nl: "Wat is fotokatalytische oxidatie bij waterzuivering?"
+        },
+        options: [
+          { en: "Using UV light and a catalyst (usually TiO₂) to break down contaminants", es: "Usar luz UV y un catalizador (usualmente TiO₂) para descomponer contaminantes", de: "Verwendung von UV-Licht und einem Katalysator (üblicherweise TiO₂) zum Abbau von Verunreinigungen", nl: "Gebruik van UV-licht en een katalysator (meestal TiO₂) om verontreinigingen af te breken" },
+          { en: "Photographing water quality", es: "Fotografiar calidad del agua", de: "Fotografieren der Wasserqualität", nl: "Fotograferen van waterkwaliteit" },
+          { en: "Adding oxygen by sunlight", es: "Añadir oxígeno mediante luz solar", de: "Hinzufügen von Sauerstoff durch Sonnenlicht", nl: "Zuurstof toevoegen door zonlicht" },
+          { en: "Heating water with photo-electric cells", es: "Calentar agua con células fotoeléctricas", de: "Erhitzen von Wasser mit photoelektrischen Zellen", nl: "Water verwarmen met foto-elektrische cellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Photocatalytic oxidation uses UV light to activate a catalyst (typically titanium dioxide, TiO₂) which generates highly reactive species that oxidize and break down organic pollutants, pharmaceuticals, pesticides, and some microorganisms. It's an emerging advanced oxidation technology for water treatment.",
+          es: "La oxidación fotocatalítica usa luz UV para activar un catalizador (típicamente dióxido de titanio, TiO₂) que genera especies altamente reactivas que oxidan y descomponen contaminantes orgánicos, farmacéuticos, pesticidas y algunos microorganismos. Es una tecnología emergente de oxidación avanzada para tratamiento de agua.",
+          de: "Photokatalytische Oxidation verwendet UV-Licht zur Aktivierung eines Katalysators (typischerweise Titandioxid, TiO₂), der hochreaktive Spezies erzeugt, die organische Schadstoffe, Pharmazeutika, Pestizide und einige Mikroorganismen oxidieren und abbauen. Es ist eine aufstrebende erweiterte Oxidationstechnologie für Wasserbehandlung.",
+          nl: "Fotokatalytische oxidatie gebruikt UV-licht om een katalysator (typisch titaniumdioxide, TiO₂) te activeren die zeer reactieve stoffen genereert die organische verontreinigingen, farmaceutica, pesticiden en sommige micro-organismen oxideren en afbreken. Het is een opkomende geavanceerde oxidatietechnologie voor waterbehandeling."
+        }
+      },
+      {
+        question: {
+          en: "What is backwashing in water filtration?",
+          es: "¿Qué es el retrolavado en filtración de agua?",
+          de: "Was ist Rückspülung bei der Wasserfiltration?",
+          nl: "Wat is terugspoelen bij waterfiltratie?"
+        },
+        options: [
+          { en: "Washing the outside of filters", es: "Lavar el exterior de filtros", de: "Waschen der Außenseite von Filtern", nl: "Wassen van de buitenkant van filters" },
+          { en: "Reversing water flow to clean accumulated debris from filter media", es: "Invertir flujo de agua para limpiar escombros acumulados del medio filtrante", de: "Umkehren des Wasserflusses zur Reinigung angesammelter Trümmer vom Filtermedium", nl: "Waterstroom omkeren om opgehoopt puin uit filtermateriaal te reinigen" },
+          { en: "Adding cleaning chemicals", es: "Añadir químicos de limpieza", de: "Hinzufügen von Reinigungschemikalien", nl: "Reinigingschemicaliën toevoegen" },
+          { en: "Pre-treating water before filtration", es: "Pretratar agua antes de filtración", de: "Vorbehandlung von Wasser vor Filtration", nl: "Water voorbehandelen vóór filtratie" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Backwashing reverses the water flow direction through a filter (sand, carbon, etc.) to flush out accumulated particles and debris. This regenerates the filter bed, restores flow rate, and extends filter life. Common in sand filters, multimedia filters, and water softeners.",
+          es: "El retrolavado invierte la dirección del flujo de agua a través de un filtro (arena, carbón, etc.) para expulsar partículas y escombros acumulados. Esto regenera el lecho del filtro, restaura la tasa de flujo y extiende la vida del filtro. Común en filtros de arena, filtros multimedia y ablandadores de agua.",
+          de: "Rückspülung kehrt die Wasserflussrichtung durch einen Filter (Sand, Kohle usw.) um, um angesammelte Partikel und Trümmer auszuspülen. Dies regeneriert das Filterbett, stellt die Durchflussrate wieder her und verlängert die Filterlebensdauer. Üblich bei Sandfiltern, Multimedia-Filtern und Wasserenthärtern.",
+          nl: "Terugspoelen keert de waterstroom richting door een filter (zand, koolstof, enz.) om om opgehoopte deeltjes en puin weg te spoelen. Dit regenereert het filterbed, herstelt de stroomsnelheid en verlengt de filterlevensduur. Gebruikelijk bij zandfilters, multimedia-filters en waterontharders."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of air gap faucets on RO systems?",
+          es: "¿Cuál es el propósito de grifos con separación de aire en sistemas RO?",
+          de: "Was ist der Zweck von Luftspalt-Wasserhähnen an RO-Systemen?",
+          nl: "Wat is het doel van luchtopening kranen op RO-systemen?"
+        },
+        options: [
+          { en: "To improve water taste", es: "Para mejorar sabor del agua", de: "Um Wassergeschmack zu verbessern", nl: "Om watersmaak te verbeteren" },
+          { en: "To prevent backflow contamination by creating physical gap", es: "Para prevenir contaminación por reflujo creando separación física", de: "Um Rückflusskontamination durch Schaffung physischer Lücke zu verhindern", nl: "Om terugstroom verontreiniging te voorkomen door fysieke opening te creëren" },
+          { en: "To add oxygen to water", es: "Para añadir oxígeno al agua", de: "Um Wasser Sauerstoff hinzuzufügen", nl: "Om zuurstof aan water toe te voegen" },
+          { en: "To regulate water temperature", es: "Para regular temperatura del agua", de: "Um Wassertemperatur zu regulieren", nl: "Om watertemperatuur te reguleren" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Air gap faucets create a physical separation (air gap) between the RO system and drain line, preventing any possibility of contaminated water being siphoned back into the purified water. This is the highest level of backflow protection and is required by plumbing codes in many areas.",
+          es: "Los grifos con separación de aire crean una separación física (brecha de aire) entre el sistema RO y línea de drenaje, previniendo cualquier posibilidad de que agua contaminada sea sifonada de vuelta al agua purificada. Este es el nivel más alto de protección contra reflujo y es requerido por códigos de plomería en muchas áreas.",
+          de: "Luftspalt-Wasserhähne schaffen eine physische Trennung (Luftspalt) zwischen RO-System und Abflussleitung und verhindern jede Möglichkeit, dass kontaminiertes Wasser zurück in das gereinigte Wasser gesaugt wird. Dies ist der höchste Grad an Rückflussschutz und wird in vielen Gebieten durch Sanitärvorschriften vorgeschrieben.",
+          nl: "Luchtopening kranen creëren een fysieke scheiding (luchtopening) tussen het RO-systeem en afvoerlijn, wat elke mogelijkheid voorkomt dat verontreinigd water terug wordt gezogen in het gezuiverde water. Dit is het hoogste niveau van terugstroombeveiliging en is vereist door sanitaire codes in veel gebieden."
+        }
+      },
+      {
+        question: {
+          en: "What is UV dose in UV water disinfection?",
+          es: "¿Qué es la dosis UV en desinfección de agua UV?",
+          de: "Was ist UV-Dosis bei UV-Wasserdesinfektion?",
+          nl: "Wat is UV-dosis bij UV-waterdesinfectie?"
+        },
+        options: [
+          { en: "The amount of UV light received, measured in mJ/cm²", es: "La cantidad de luz UV recibida, medida en mJ/cm²", de: "Die Menge an UV-Licht, die empfangen wird, gemessen in mJ/cm²", nl: "De hoeveelheid UV-licht ontvangen, gemeten in mJ/cm²" },
+          { en: "The number of UV lamps", es: "El número de lámparas UV", de: "Die Anzahl der UV-Lampen", nl: "Het aantal UV-lampen" },
+          { en: "The size of the UV chamber", es: "El tamaño de la cámara UV", de: "Die Größe der UV-Kammer", nl: "De grootte van de UV-kamer" },
+          { en: "Water temperature during UV treatment", es: "Temperatura del agua durante tratamiento UV", de: "Wassertemperatur während UV-Behandlung", nl: "Watertemperatuur tijdens UV-behandeling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "UV dose (mJ/cm² or mWs/cm²) is the product of UV intensity and exposure time. Minimum doses are: 16 mJ/cm² for bacteria, 40 mJ/cm² for most viruses, 100+ mJ/cm² for some parasites. Higher doses ensure better disinfection. Factors affecting dose include lamp power, water flow rate, and water turbidity.",
+          es: "La dosis UV (mJ/cm² o mWs/cm²) es el producto de intensidad UV y tiempo de exposición. Dosis mínimas son: 16 mJ/cm² para bacterias, 40 mJ/cm² para la mayoría de virus, 100+ mJ/cm² para algunos parásitos. Dosis más altas aseguran mejor desinfección. Factores que afectan dosis incluyen potencia de lámpara, tasa de flujo de agua y turbidez del agua.",
+          de: "UV-Dosis (mJ/cm² oder mWs/cm²) ist das Produkt aus UV-Intensität und Belichtungszeit. Mindestdosen sind: 16 mJ/cm² für Bakterien, 40 mJ/cm² für die meisten Viren, 100+ mJ/cm² für einige Parasiten. Höhere Dosen gewährleisten bessere Desinfektion. Faktoren, die die Dosis beeinflussen, umfassen Lampenleistung, Wasserdurchflussrate und Wassertrübung.",
+          nl: "UV-dosis (mJ/cm² of mWs/cm²) is het product van UV-intensiteit en belichtingstijd. Minimumdoses zijn: 16 mJ/cm² voor bacteriën, 40 mJ/cm² voor de meeste virussen, 100+ mJ/cm² voor sommige parasieten. Hogere doses zorgen voor betere desinfectie. Factoren die de dosis beïnvloeden zijn lampvermogen, waterstroom snelheid en waterturbiditeit."
+        }
+      }
     ]
   };
 

@@ -427,6 +427,426 @@
           de: "Clark Gable wurde 'Der König von Hollywood' genannt und war einer der größten Filmstars der 1930er und 1940er Jahre, am berühmtesten für seine Rolle als Rhett Butler in Vom Winde verweht.",
           nl: "Clark Gable kreeg de bijnaam 'The King of Hollywood' en was een van de grootste filmsterren van de jaren 30 en 40, het meest beroemd om zijn rol als Rhett Butler in Gone with the Wind."
         }
+      },
+      {
+        question: {
+          en: "Who won an Oscar for 'On the Waterfront' (1954)?",
+          es: "¿Quién ganó un Oscar por 'La Ley del Silencio' (1954)?",
+          de: "Wer gewann einen Oscar für 'Die Faust im Nacken' (1954)?",
+          nl: "Wie won een Oscar voor 'On the Waterfront' (1954)?"
+        },
+        options: [
+          { en: "Marlon Brando", es: "Marlon Brando", de: "Marlon Brando", nl: "Marlon Brando" },
+          { en: "Karl Malden", es: "Karl Malden", de: "Karl Malden", nl: "Karl Malden" },
+          { en: "Lee J. Cobb", es: "Lee J. Cobb", de: "Lee J. Cobb", nl: "Lee J. Cobb" },
+          { en: "Rod Steiger", es: "Rod Steiger", de: "Rod Steiger", nl: "Rod Steiger" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Marlon Brando won the Academy Award for Best Actor for On the Waterfront, delivering the famous 'I coulda been a contender' speech.",
+          es: "Marlon Brando ganó el Premio de la Academia al Mejor Actor por La Ley del Silencio, pronunciando el famoso discurso 'Pude haber sido un contendiente'.",
+          de: "Marlon Brando gewann den Academy Award für den besten Hauptdarsteller für Die Faust im Nacken und hielt die berühmte 'Ich hätte ein Kandidat sein können'-Rede.",
+          nl: "Marlon Brando won de Academy Award voor Beste Acteur voor On the Waterfront, waarbij hij de beroemde 'I coulda been a contender' speech uitsprak."
+        }
+      },
+      {
+        question: {
+          en: "Which actress won an Oscar for 'The Blind Side' (2009)?",
+          es: "¿Qué actriz ganó un Oscar por 'Un Sueño Posible' (2009)?",
+          de: "Welche Schauspielerin gewann einen Oscar für 'The Blind Side' (2009)?",
+          nl: "Welke actrice won een Oscar voor 'The Blind Side' (2009)?"
+        },
+        options: [
+          { en: "Sandra Bullock", es: "Sandra Bullock", de: "Sandra Bullock", nl: "Sandra Bullock" },
+          { en: "Julia Roberts", es: "Julia Roberts", de: "Julia Roberts", nl: "Julia Roberts" },
+          { en: "Reese Witherspoon", es: "Reese Witherspoon", de: "Reese Witherspoon", nl: "Reese Witherspoon" },
+          { en: "Hilary Swank", es: "Hilary Swank", de: "Hilary Swank", nl: "Hilary Swank" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sandra Bullock won the Academy Award for Best Actress for her portrayal of Leigh Anne Tuohy, a woman who adopts and mentors NFL player Michael Oher.",
+          es: "Sandra Bullock ganó el Premio de la Academia a la Mejor Actriz por su interpretación de Leigh Anne Tuohy, una mujer que adopta y mentoriza al jugador de la NFL Michael Oher.",
+          de: "Sandra Bullock gewann den Academy Award für die beste Hauptdarstellerin für ihre Darstellung von Leigh Anne Tuohy, einer Frau, die den NFL-Spieler Michael Oher adoptiert und betreut.",
+          nl: "Sandra Bullock won de Academy Award voor Beste Actrice voor haar vertolking van Leigh Anne Tuohy, een vrouw die NFL-speler Michael Oher adopteert en begeleidt."
+        }
+      },
+      {
+        question: {
+          en: "Who won an Oscar for 'My Left Foot' (1989)?",
+          es: "¿Quién ganó un Oscar por 'Mi Pie Izquierdo' (1989)?",
+          de: "Wer gewann einen Oscar für 'Mein linker Fuß' (1989)?",
+          nl: "Wie won een Oscar voor 'My Left Foot' (1989)?"
+        },
+        options: [
+          { en: "Daniel Day-Lewis", es: "Daniel Day-Lewis", de: "Daniel Day-Lewis", nl: "Daniel Day-Lewis" },
+          { en: "Brenda Fricker", es: "Brenda Fricker", de: "Brenda Fricker", nl: "Brenda Fricker" },
+          { en: "Hugh O'Conor", es: "Hugh O'Conor", de: "Hugh O'Conor", nl: "Hugh O'Conor" },
+          { en: "Fiona Shaw", es: "Fiona Shaw", de: "Fiona Shaw", nl: "Fiona Shaw" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Daniel Day-Lewis won his first Academy Award for Best Actor for his transformative portrayal of Irish writer Christy Brown, who had cerebral palsy.",
+          es: "Daniel Day-Lewis ganó su primer Premio de la Academia al Mejor Actor por su interpretación transformadora del escritor irlandés Christy Brown, quien tenía parálisis cerebral.",
+          de: "Daniel Day-Lewis gewann seinen ersten Academy Award für den besten Hauptdarsteller für seine transformative Darstellung des irischen Schriftstellers Christy Brown, der zerebrale Lähmung hatte.",
+          nl: "Daniel Day-Lewis won zijn eerste Academy Award voor Beste Acteur voor zijn transformerende vertolking van de Ierse schrijver Christy Brown, die cerebrale parese had."
+        }
+      },
+      {
+        question: {
+          en: "Which actress won an Oscar for 'Million Dollar Baby' (2004)?",
+          es: "¿Qué actriz ganó un Oscar por 'Million Dollar Baby' (2004)?",
+          de: "Welche Schauspielerin gewann einen Oscar für 'Million Dollar Baby' (2004)?",
+          nl: "Welke actrice won een Oscar voor 'Million Dollar Baby' (2004)?"
+        },
+        options: [
+          { en: "Hilary Swank", es: "Hilary Swank", de: "Hilary Swank", nl: "Hilary Swank" },
+          { en: "Morgan Freeman", es: "Morgan Freeman", de: "Morgan Freeman", nl: "Morgan Freeman" },
+          { en: "Clint Eastwood", es: "Clint Eastwood", de: "Clint Eastwood", nl: "Clint Eastwood" },
+          { en: "Annette Bening", es: "Annette Bening", de: "Annette Bening", nl: "Annette Bening" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hilary Swank won her second Academy Award for Best Actress for playing a determined boxer in Million Dollar Baby, directed by Clint Eastwood.",
+          es: "Hilary Swank ganó su segundo Premio de la Academia a la Mejor Actriz por interpretar a una boxeadora determinada en Million Dollar Baby, dirigida por Clint Eastwood.",
+          de: "Hilary Swank gewann ihren zweiten Academy Award für die beste Hauptdarstellerin für die Darstellung einer entschlossenen Boxerin in Million Dollar Baby unter der Regie von Clint Eastwood.",
+          nl: "Hilary Swank won haar tweede Academy Award voor Beste Actrice voor het spelen van een vastberaden bokser in Million Dollar Baby, geregisseerd door Clint Eastwood."
+        }
+      },
+      {
+        question: {
+          en: "Who won an Oscar for 'A Streetcar Named Desire' (1951)?",
+          es: "¿Quién ganó un Oscar por 'Un Tranvía Llamado Deseo' (1951)?",
+          de: "Wer gewann einen Oscar für 'Endstation Sehnsucht' (1951)?",
+          nl: "Wie won een Oscar voor 'A Streetcar Named Desire' (1951)?"
+        },
+        options: [
+          { en: "Vivien Leigh", es: "Vivien Leigh", de: "Vivien Leigh", nl: "Vivien Leigh" },
+          { en: "Marlon Brando", es: "Marlon Brando", de: "Marlon Brando", nl: "Marlon Brando" },
+          { en: "Kim Hunter", es: "Kim Hunter", de: "Kim Hunter", nl: "Kim Hunter" },
+          { en: "Karl Malden", es: "Karl Malden", de: "Karl Malden", nl: "Karl Malden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Vivien Leigh won the Academy Award for Best Actress for her haunting portrayal of Blanche DuBois in A Streetcar Named Desire, her second Oscar.",
+          es: "Vivien Leigh ganó el Premio de la Academia a la Mejor Actriz por su inquietante interpretación de Blanche DuBois en Un Tranvía Llamado Deseo, su segundo Oscar.",
+          de: "Vivien Leigh gewann den Academy Award für die beste Hauptdarstellerin für ihre eindringliche Darstellung von Blanche DuBois in Endstation Sehnsucht, ihr zweiter Oscar.",
+          nl: "Vivien Leigh won de Academy Award voor Beste Actrice voor haar spookachtige vertolking van Blanche DuBois in A Streetcar Named Desire, haar tweede Oscar."
+        }
+      },
+      {
+        question: {
+          en: "Which actor won an Oscar for 'The Pianist' (2002)?",
+          es: "¿Qué actor ganó un Oscar por 'El Pianista' (2002)?",
+          de: "Welcher Schauspieler gewann einen Oscar für 'Der Pianist' (2002)?",
+          nl: "Welke acteur won een Oscar voor 'The Pianist' (2002)?"
+        },
+        options: [
+          { en: "Adrien Brody", es: "Adrien Brody", de: "Adrien Brody", nl: "Adrien Brody" },
+          { en: "Ed Harris", es: "Ed Harris", de: "Ed Harris", nl: "Ed Harris" },
+          { en: "Thomas Kretschmann", es: "Thomas Kretschmann", de: "Thomas Kretschmann", nl: "Thomas Kretschmann" },
+          { en: "Frank Finlay", es: "Frank Finlay", de: "Frank Finlay", nl: "Frank Finlay" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Adrien Brody became the youngest actor to win the Academy Award for Best Actor at age 29 for his portrayal of Holocaust survivor Władysław Szpilman.",
+          es: "Adrien Brody se convirtió en el actor más joven en ganar el Premio de la Academia al Mejor Actor a los 29 años por su interpretación del sobreviviente del Holocausto Władysław Szpilman.",
+          de: "Adrien Brody wurde mit 29 Jahren der jüngste Schauspieler, der den Academy Award für den besten Hauptdarsteller für seine Darstellung des Holocaust-Überlebenden Władysław Szpilman gewann.",
+          nl: "Adrien Brody werd de jongste acteur die de Academy Award voor Beste Acteur won op 29-jarige leeftijd voor zijn vertolking van Holocaust-overlevende Władysław Szpilman."
+        }
+      },
+      {
+        question: {
+          en: "Who won an Oscar for 'Boys Don't Cry' (1999)?",
+          es: "¿Quién ganó un Oscar por 'Boys Don't Cry' (1999)?",
+          de: "Wer gewann einen Oscar für 'Boys Don't Cry' (1999)?",
+          nl: "Wie won een Oscar voor 'Boys Don't Cry' (1999)?"
+        },
+        options: [
+          { en: "Hilary Swank", es: "Hilary Swank", de: "Hilary Swank", nl: "Hilary Swank" },
+          { en: "Chloë Sevigny", es: "Chloë Sevigny", de: "Chloë Sevigny", nl: "Chloë Sevigny" },
+          { en: "Peter Sarsgaard", es: "Peter Sarsgaard", de: "Peter Sarsgaard", nl: "Peter Sarsgaard" },
+          { en: "Alicia Goranson", es: "Alicia Goranson", de: "Alicia Goranson", nl: "Alicia Goranson" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hilary Swank won her first Academy Award for Best Actress for her powerful portrayal of Brandon Teena, a transgender man, in Boys Don't Cry.",
+          es: "Hilary Swank ganó su primer Premio de la Academia a la Mejor Actriz por su poderosa interpretación de Brandon Teena, un hombre transgénero, en Boys Don't Cry.",
+          de: "Hilary Swank gewann ihren ersten Academy Award für die beste Hauptdarstellerin für ihre kraftvolle Darstellung von Brandon Teena, einem Transgender-Mann, in Boys Don't Cry.",
+          nl: "Hilary Swank won haar eerste Academy Award voor Beste Actrice voor haar krachtige vertolking van Brandon Teena, een transgender man, in Boys Don't Cry."
+        }
+      },
+      {
+        question: {
+          en: "Which actor won an Oscar for 'Rain Man' (1988)?",
+          es: "¿Qué actor ganó un Oscar por 'Rain Man' (1988)?",
+          de: "Welcher Schauspieler gewann einen Oscar für 'Rain Man' (1988)?",
+          nl: "Welke acteur won een Oscar voor 'Rain Man' (1988)?"
+        },
+        options: [
+          { en: "Dustin Hoffman", es: "Dustin Hoffman", de: "Dustin Hoffman", nl: "Dustin Hoffman" },
+          { en: "Tom Cruise", es: "Tom Cruise", de: "Tom Cruise", nl: "Tom Cruise" },
+          { en: "Valeria Golino", es: "Valeria Golino", de: "Valeria Golino", nl: "Valeria Golino" },
+          { en: "Jerry Molen", es: "Jerry Molen", de: "Jerry Molen", nl: "Jerry Molen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dustin Hoffman won the Academy Award for Best Actor for his portrayal of Raymond Babbitt, an autistic savant, in Rain Man.",
+          es: "Dustin Hoffman ganó el Premio de la Academia al Mejor Actor por su interpretación de Raymond Babbitt, un sabio autista, en Rain Man.",
+          de: "Dustin Hoffman gewann den Academy Award für den besten Hauptdarsteller für seine Darstellung von Raymond Babbitt, einem autistischen Savant, in Rain Man.",
+          nl: "Dustin Hoffman won de Academy Award voor Beste Acteur voor zijn vertolking van Raymond Babbitt, een autistische savant, in Rain Man."
+        }
+      },
+      {
+        question: {
+          en: "Who won an Oscar for 'Walk the Line' (2005)?",
+          es: "¿Quién ganó un Oscar por 'En la Cuerda Floja' (2005)?",
+          de: "Wer gewann einen Oscar für 'Walk the Line' (2005)?",
+          nl: "Wie won een Oscar voor 'Walk the Line' (2005)?"
+        },
+        options: [
+          { en: "Reese Witherspoon", es: "Reese Witherspoon", de: "Reese Witherspoon", nl: "Reese Witherspoon" },
+          { en: "Joaquin Phoenix", es: "Joaquin Phoenix", de: "Joaquin Phoenix", nl: "Joaquin Phoenix" },
+          { en: "Robert Patrick", es: "Robert Patrick", de: "Robert Patrick", nl: "Robert Patrick" },
+          { en: "Ginnifer Goodwin", es: "Ginnifer Goodwin", de: "Ginnifer Goodwin", nl: "Ginnifer Goodwin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Reese Witherspoon won the Academy Award for Best Actress for her portrayal of June Carter Cash in Walk the Line, performing all her own singing.",
+          es: "Reese Witherspoon ganó el Premio de la Academia a la Mejor Actriz por su interpretación de June Carter Cash en En la Cuerda Floja, interpretando todas sus propias canciones.",
+          de: "Reese Witherspoon gewann den Academy Award für die beste Hauptdarstellerin für ihre Darstellung von June Carter Cash in Walk the Line, wobei sie alle ihre eigenen Gesangspartien sang.",
+          nl: "Reese Witherspoon won de Academy Award voor Beste Actrice voor haar vertolking van June Carter Cash in Walk the Line, waarbij ze al haar eigen zang uitvoerde."
+        }
+      },
+      {
+        question: {
+          en: "Which actor won an Oscar for 'Scent of a Woman' (1992)?",
+          es: "¿Qué actor ganó un Oscar por 'Perfume de Mujer' (1992)?",
+          de: "Welcher Schauspieler gewann einen Oscar für 'Der Duft der Frauen' (1992)?",
+          nl: "Welke acteur won een Oscar voor 'Scent of a Woman' (1992)?"
+        },
+        options: [
+          { en: "Al Pacino", es: "Al Pacino", de: "Al Pacino", nl: "Al Pacino" },
+          { en: "Chris O'Donnell", es: "Chris O'Donnell", de: "Chris O'Donnell", nl: "Chris O'Donnell" },
+          { en: "James Rebhorn", es: "James Rebhorn", de: "James Rebhorn", nl: "James Rebhorn" },
+          { en: "Gabrielle Anwar", es: "Gabrielle Anwar", de: "Gabrielle Anwar", nl: "Gabrielle Anwar" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Al Pacino finally won the Academy Award for Best Actor after seven previous nominations, playing blind retired Army officer Frank Slade.",
+          es: "Al Pacino finalmente ganó el Premio de la Academia al Mejor Actor después de siete nominaciones previas, interpretando al oficial del ejército retirado ciego Frank Slade.",
+          de: "Al Pacino gewann schließlich nach sieben vorherigen Nominierungen den Academy Award für den besten Hauptdarsteller als blinder pensionierter Armeeoffizier Frank Slade.",
+          nl: "Al Pacino won eindelijk de Academy Award voor Beste Acteur na zeven eerdere nominaties, spelend de blinde gepensioneerde legerofficier Frank Slade."
+        }
+      },
+      {
+        question: {
+          en: "Who won an Oscar for 'The King's Speech' (2010)?",
+          es: "¿Quién ganó un Oscar por 'El Discurso del Rey' (2010)?",
+          de: "Wer gewann einen Oscar für 'The King's Speech' (2010)?",
+          nl: "Wie won een Oscar voor 'The King's Speech' (2010)?"
+        },
+        options: [
+          { en: "Colin Firth", es: "Colin Firth", de: "Colin Firth", nl: "Colin Firth" },
+          { en: "Geoffrey Rush", es: "Geoffrey Rush", de: "Geoffrey Rush", nl: "Geoffrey Rush" },
+          { en: "Helena Bonham Carter", es: "Helena Bonham Carter", de: "Helena Bonham Carter", nl: "Helena Bonham Carter" },
+          { en: "Guy Pearce", es: "Guy Pearce", de: "Guy Pearce", nl: "Guy Pearce" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Colin Firth won the Academy Award for Best Actor for his portrayal of King George VI overcoming a speech impediment with help from therapist Lionel Logue.",
+          es: "Colin Firth ganó el Premio de la Academia al Mejor Actor por su interpretación del Rey Jorge VI superando un impedimento del habla con la ayuda del terapeuta Lionel Logue.",
+          de: "Colin Firth gewann den Academy Award für den besten Hauptdarsteller für seine Darstellung von König Georg VI., der mit Hilfe des Therapeuten Lionel Logue eine Sprachstörung überwindet.",
+          nl: "Colin Firth won de Academy Award voor Beste Acteur voor zijn vertolking van Koning George VI die een spraakgebrek overwint met hulp van therapeut Lionel Logue."
+        }
+      },
+      {
+        question: {
+          en: "Which actress won an Oscar for 'Blue Jasmine' (2013)?",
+          es: "¿Qué actriz ganó un Oscar por 'Blue Jasmine' (2013)?",
+          de: "Welche Schauspielerin gewann einen Oscar für 'Blue Jasmine' (2013)?",
+          nl: "Welke actrice won een Oscar voor 'Blue Jasmine' (2013)?"
+        },
+        options: [
+          { en: "Cate Blanchett", es: "Cate Blanchett", de: "Cate Blanchett", nl: "Cate Blanchett" },
+          { en: "Sally Hawkins", es: "Sally Hawkins", de: "Sally Hawkins", nl: "Sally Hawkins" },
+          { en: "Alec Baldwin", es: "Alec Baldwin", de: "Alec Baldwin", nl: "Alec Baldwin" },
+          { en: "Bobby Cannavale", es: "Bobby Cannavale", de: "Bobby Cannavale", nl: "Bobby Cannavale" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cate Blanchett won the Academy Award for Best Actress for her portrayal of a delusional socialite in Woody Allen's Blue Jasmine, her second Oscar.",
+          es: "Cate Blanchett ganó el Premio de la Academia a la Mejor Actriz por su interpretación de una socialité delirante en Blue Jasmine de Woody Allen, su segundo Oscar.",
+          de: "Cate Blanchett gewann den Academy Award für die beste Hauptdarstellerin für ihre Darstellung einer wahnhaften Gesellschaftsdame in Woody Allens Blue Jasmine, ihr zweiter Oscar.",
+          nl: "Cate Blanchett won de Academy Award voor Beste Actrice voor haar vertolking van een waanideeën socialite in Woody Allen's Blue Jasmine, haar tweede Oscar."
+        }
+      },
+      {
+        question: {
+          en: "Who won an Oscar for 'There Will Be Blood' (2007)?",
+          es: "¿Quién ganó un Oscar por 'Petróleo Sangriento' (2007)?",
+          de: "Wer gewann einen Oscar für 'There Will Be Blood' (2007)?",
+          nl: "Wie won een Oscar voor 'There Will Be Blood' (2007)?"
+        },
+        options: [
+          { en: "Daniel Day-Lewis", es: "Daniel Day-Lewis", de: "Daniel Day-Lewis", nl: "Daniel Day-Lewis" },
+          { en: "Paul Dano", es: "Paul Dano", de: "Paul Dano", nl: "Paul Dano" },
+          { en: "Kevin J. O'Connor", es: "Kevin J. O'Connor", de: "Kevin J. O'Connor", nl: "Kevin J. O'Connor" },
+          { en: "Ciarán Hinds", es: "Ciarán Hinds", de: "Ciarán Hinds", nl: "Ciarán Hinds" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Daniel Day-Lewis won his second Academy Award for Best Actor for his intense portrayal of ruthless oilman Daniel Plainview in There Will Be Blood.",
+          es: "Daniel Day-Lewis ganó su segundo Premio de la Academia al Mejor Actor por su intensa interpretación del despiadado petrolero Daniel Plainview en Petróleo Sangriento.",
+          de: "Daniel Day-Lewis gewann seinen zweiten Academy Award für den besten Hauptdarsteller für seine intensive Darstellung des skrupellosen Ölmanns Daniel Plainview in There Will Be Blood.",
+          nl: "Daniel Day-Lewis won zijn tweede Academy Award voor Beste Acteur voor zijn intense vertolking van meedogenloze olieman Daniel Plainview in There Will Be Blood."
+        }
+      },
+      {
+        question: {
+          en: "Which actor won an Oscar for 'Leaving Las Vegas' (1995)?",
+          es: "¿Qué actor ganó un Oscar por 'Leaving Las Vegas' (1995)?",
+          de: "Welcher Schauspieler gewann einen Oscar für 'Leaving Las Vegas' (1995)?",
+          nl: "Welke acteur won een Oscar voor 'Leaving Las Vegas' (1995)?"
+        },
+        options: [
+          { en: "Nicolas Cage", es: "Nicolas Cage", de: "Nicolas Cage", nl: "Nicolas Cage" },
+          { en: "Elisabeth Shue", es: "Elisabeth Shue", de: "Elisabeth Shue", nl: "Elisabeth Shue" },
+          { en: "Julian Sands", es: "Julian Sands", de: "Julian Sands", nl: "Julian Sands" },
+          { en: "Richard Lewis", es: "Richard Lewis", de: "Richard Lewis", nl: "Richard Lewis" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Nicolas Cage won the Academy Award for Best Actor for his devastating portrayal of an alcoholic screenwriter drinking himself to death in Las Vegas.",
+          es: "Nicolas Cage ganó el Premio de la Academia al Mejor Actor por su devastadora interpretación de un guionista alcohólico que se bebe hasta la muerte en Las Vegas.",
+          de: "Nicolas Cage gewann den Academy Award für den besten Hauptdarsteller für seine erschütternde Darstellung eines alkoholischen Drehbuchautors, der sich in Las Vegas zu Tode trinkt.",
+          nl: "Nicolas Cage won de Academy Award voor Beste Acteur voor zijn verwoestende vertolking van een alcoholistische scenarioschrijver die zichzelf dood drinkt in Las Vegas."
+        }
+      },
+      {
+        question: {
+          en: "Who won an Oscar for 'Chicago' (2002)?",
+          es: "¿Quién ganó un Oscar por 'Chicago' (2002)?",
+          de: "Wer gewann einen Oscar für 'Chicago' (2002)?",
+          nl: "Wie won een Oscar voor 'Chicago' (2002)?"
+        },
+        options: [
+          { en: "Catherine Zeta-Jones", es: "Catherine Zeta-Jones", de: "Catherine Zeta-Jones", nl: "Catherine Zeta-Jones" },
+          { en: "Renée Zellweger", es: "Renée Zellweger", de: "Renée Zellweger", nl: "Renée Zellweger" },
+          { en: "Queen Latifah", es: "Queen Latifah", de: "Queen Latifah", nl: "Queen Latifah" },
+          { en: "Richard Gere", es: "Richard Gere", de: "Richard Gere", nl: "Richard Gere" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Catherine Zeta-Jones won the Academy Award for Best Supporting Actress for her role as Velma Kelly in the musical Chicago.",
+          es: "Catherine Zeta-Jones ganó el Premio de la Academia a la Mejor Actriz de Reparto por su papel como Velma Kelly en el musical Chicago.",
+          de: "Catherine Zeta-Jones gewann den Academy Award für die beste Nebendarstellerin für ihre Rolle als Velma Kelly im Musical Chicago.",
+          nl: "Catherine Zeta-Jones won de Academy Award voor Beste Bijrolactrice voor haar rol als Velma Kelly in de musical Chicago."
+        }
+      },
+      {
+        question: {
+          en: "Which actor won an Oscar for 'Lincoln' (2012)?",
+          es: "¿Qué actor ganó un Oscar por 'Lincoln' (2012)?",
+          de: "Welcher Schauspieler gewann einen Oscar für 'Lincoln' (2012)?",
+          nl: "Welke acteur won een Oscar voor 'Lincoln' (2012)?"
+        },
+        options: [
+          { en: "Daniel Day-Lewis", es: "Daniel Day-Lewis", de: "Daniel Day-Lewis", nl: "Daniel Day-Lewis" },
+          { en: "Tommy Lee Jones", es: "Tommy Lee Jones", de: "Tommy Lee Jones", nl: "Tommy Lee Jones" },
+          { en: "David Strathairn", es: "David Strathairn", de: "David Strathairn", nl: "David Strathairn" },
+          { en: "Joseph Gordon-Levitt", es: "Joseph Gordon-Levitt", de: "Joseph Gordon-Levitt", nl: "Joseph Gordon-Levitt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Daniel Day-Lewis won his third Academy Award for Best Actor for his transformative portrayal of President Abraham Lincoln, a record for male actors.",
+          es: "Daniel Day-Lewis ganó su tercer Premio de la Academia al Mejor Actor por su interpretación transformadora del Presidente Abraham Lincoln, un récord para actores masculinos.",
+          de: "Daniel Day-Lewis gewann seinen dritten Academy Award für den besten Hauptdarsteller für seine transformative Darstellung von Präsident Abraham Lincoln, ein Rekord für männliche Schauspieler.",
+          nl: "Daniel Day-Lewis won zijn derde Academy Award voor Beste Acteur voor zijn transformerende vertolking van President Abraham Lincoln, een record voor mannelijke acteurs."
+        }
+      },
+      {
+        question: {
+          en: "Who won an Oscar for 'Black Swan' (2010)?",
+          es: "¿Quién ganó un Oscar por 'Cisne Negro' (2010)?",
+          de: "Wer gewann einen Oscar für 'Black Swan' (2010)?",
+          nl: "Wie won een Oscar voor 'Black Swan' (2010)?"
+        },
+        options: [
+          { en: "Natalie Portman", es: "Natalie Portman", de: "Natalie Portman", nl: "Natalie Portman" },
+          { en: "Mila Kunis", es: "Mila Kunis", de: "Mila Kunis", nl: "Mila Kunis" },
+          { en: "Winona Ryder", es: "Winona Ryder", de: "Winona Ryder", nl: "Winona Ryder" },
+          { en: "Barbara Hershey", es: "Barbara Hershey", de: "Barbara Hershey", nl: "Barbara Hershey" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Natalie Portman won the Academy Award for Best Actress for her intense portrayal of a ballerina descending into madness in Black Swan.",
+          es: "Natalie Portman ganó el Premio de la Academia a la Mejor Actriz por su intensa interpretación de una bailarina que desciende a la locura en Cisne Negro.",
+          de: "Natalie Portman gewann den Academy Award für die beste Hauptdarstellerin für ihre intensive Darstellung einer Ballerina, die in Black Swan in den Wahnsinn abgleitet.",
+          nl: "Natalie Portman won de Academy Award voor Beste Actrice voor haar intense vertolking van een ballerina die in waanzin vervalt in Black Swan."
+        }
+      },
+      {
+        question: {
+          en: "Which actor won an Oscar for 'True Grit' (2010)?",
+          es: "¿Qué actor ganó un Oscar por 'Valor de Ley' (2010)?",
+          de: "Welcher Schauspieler gewann einen Oscar für 'True Grit' (2010)?",
+          nl: "Welke acteur won een Oscar voor 'True Grit' (2010)?"
+        },
+        options: [
+          { en: "No one - but Jeff Bridges was nominated", es: "Nadie - pero Jeff Bridges fue nominado", de: "Niemand - aber Jeff Bridges war nominiert", nl: "Niemand - maar Jeff Bridges was genomineerd" },
+          { en: "Jeff Bridges", es: "Jeff Bridges", de: "Jeff Bridges", nl: "Jeff Bridges" },
+          { en: "Matt Damon", es: "Matt Damon", de: "Matt Damon", nl: "Matt Damon" },
+          { en: "Josh Brolin", es: "Josh Brolin", de: "Josh Brolin", nl: "Josh Brolin" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "While Jeff Bridges was nominated for Best Actor for True Grit, he did not win. Colin Firth won for The King's Speech. However, Bridges had won the previous year for Crazy Heart.",
+          es: "Aunque Jeff Bridges fue nominado al Mejor Actor por Valor de Ley, no ganó. Colin Firth ganó por El Discurso del Rey. Sin embargo, Bridges había ganado el año anterior por Corazón Rebelde.",
+          de: "Obwohl Jeff Bridges für True Grit als bester Hauptdarsteller nominiert war, gewann er nicht. Colin Firth gewann für The King's Speech. Bridges hatte jedoch im Vorjahr für Crazy Heart gewonnen.",
+          nl: "Hoewel Jeff Bridges genomineerd was voor Beste Acteur voor True Grit, won hij niet. Colin Firth won voor The King's Speech. Bridges had echter het vorige jaar gewonnen voor Crazy Heart."
+        }
+      },
+      {
+        question: {
+          en: "Who won an Oscar for 'Judy' (2019)?",
+          es: "¿Quién ganó un Oscar por 'Judy' (2019)?",
+          de: "Wer gewann einen Oscar für 'Judy' (2019)?",
+          nl: "Wie won een Oscar voor 'Judy' (2019)?"
+        },
+        options: [
+          { en: "Renée Zellweger", es: "Renée Zellweger", de: "Renée Zellweger", nl: "Renée Zellweger" },
+          { en: "Jessie Buckley", es: "Jessie Buckley", de: "Jessie Buckley", nl: "Jessie Buckley" },
+          { en: "Finn Wittrock", es: "Finn Wittrock", de: "Finn Wittrock", nl: "Finn Wittrock" },
+          { en: "Rufus Sewell", es: "Rufus Sewell", de: "Rufus Sewell", nl: "Rufus Sewell" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Renée Zellweger won the Academy Award for Best Actress for her transformative portrayal of legendary actress Judy Garland in her final concerts.",
+          es: "Renée Zellweger ganó el Premio de la Academia a la Mejor Actriz por su interpretación transformadora de la legendaria actriz Judy Garland en sus conciertos finales.",
+          de: "Renée Zellweger gewann den Academy Award für die beste Hauptdarstellerin für ihre transformative Darstellung der legendären Schauspielerin Judy Garland in ihren letzten Konzerten.",
+          nl: "Renée Zellweger won de Academy Award voor Beste Actrice voor haar transformerende vertolking van legendarische actrice Judy Garland in haar laatste concerten."
+        }
+      },
+      {
+        question: {
+          en: "Which actress won an Oscar for 'The Favourite' (2018)?",
+          es: "¿Qué actriz ganó un Oscar por 'La Favorita' (2018)?",
+          de: "Welche Schauspielerin gewann einen Oscar für 'The Favourite' (2018)?",
+          nl: "Welke actrice won een Oscar voor 'The Favourite' (2018)?"
+        },
+        options: [
+          { en: "Olivia Colman", es: "Olivia Colman", de: "Olivia Colman", nl: "Olivia Colman" },
+          { en: "Emma Stone", es: "Emma Stone", de: "Emma Stone", nl: "Emma Stone" },
+          { en: "Rachel Weisz", es: "Rachel Weisz", de: "Rachel Weisz", nl: "Rachel Weisz" },
+          { en: "Nicholas Hoult", es: "Nicholas Hoult", de: "Nicholas Hoult", nl: "Nicholas Hoult" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Olivia Colman won the Academy Award for Best Actress for her comedic and touching portrayal of Queen Anne in The Favourite.",
+          es: "Olivia Colman ganó el Premio de la Academia a la Mejor Actriz por su interpretación cómica y conmovedora de la Reina Ana en La Favorita.",
+          de: "Olivia Colman gewann den Academy Award für die beste Hauptdarstellerin für ihre komödiantische und berührende Darstellung von Königin Anne in The Favourite.",
+          nl: "Olivia Colman won de Academy Award voor Beste Actrice voor haar komische en ontroerende vertolking van Koningin Anne in The Favourite."
+        }
       }
     ]
   };

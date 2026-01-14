@@ -825,7 +825,18 @@
           es: "En Texas Hold'em, se reparten cinco cartas comunitarias boca arriba: tres en el 'flop', una en el 'turn' y una en el 'river'. Los jugadores las usan con sus dos cartas de mano.",
           de: "Beim Texas Hold'em werden fünf Gemeinschaftskarten offen ausgeteilt: drei beim 'Flop', eine beim 'Turn' und eine beim 'River'. Spieler verwenden diese mit ihren zwei verdeckten Karten.",
           nl: "Bij Texas Hold'em worden vijf gemeenschapskaarten open gedeeld: drie bij de 'flop', één bij de 'turn' en één bij de 'river'. Spelers gebruiken deze met hun twee hole kaarten."
-        }
+        }    },
+    {
+      question: {en: "What is strategy in games?", es: "What is strategy in games?", de: "What is strategy in games?", nl: "What is strategy in games?"},
+      options: [
+        {en: "Planning to achieve objectives", es: "Planning to achieve objectives", de: "Planning to achieve objectives", nl: "Planning to achieve objectives"},
+        {en: "Random moves", es: "Random moves", de: "Random moves", nl: "Random moves"},
+        {en: "Luck only", es: "Luck only", de: "Luck only", nl: "Luck only"},
+        {en: "No planning", es: "No planning", de: "No planning", nl: "No planning"}
+      ],
+      correct: 0,
+      explanation: {en: "Strategy involves planning and decision-making to achieve game objectives.", es: "Strategy involves planning and decision-making to achieve game objectives.", de: "Strategy involves planning and decision-making to achieve game objectives.", nl: "Strategy involves planning and decision-making to achieve game objectives."}
+
       }
     ]
   };

@@ -426,7 +426,427 @@
           es: "Mantecato se refiere a la técnica italiana tradicional de plegado y giro lento y continuo durante el proceso de congelación, que crea la textura densa y sedosa característica del gelato. Este método suave de incorporación desarrolla la suavidad característica mientras mantiene contenido mínimo de aire.",
           de: "Mantecato bezieht sich auf die traditionelle italienische Technik des langsamen, kontinuierlichen Faltens und Wendens während des Gefrierprozesses, was Gelatos charakteristische dichte, seidige Textur erzeugt. Diese sanfte Einarbeitungsmethode entwickelt die charakteristische Geschmeidigkeit bei minimaler Lufteinarbeitung.",
           nl: "Mantecato verwijst naar de traditionele Italiaanse techniek van langzaam, continu vouwen en draaien tijdens het bevriezingsproces, wat gelato's kenmerkende dichte, zijdeachtige textuur creëert. Deze zachte inwerking methode ontwikkelt de karakteristieke gladheid terwijl minimale lucht inhoud behouden blijft."
-        }
+        }    },
+    {
+      question: {
+        en: "What is the difference between ice cream and gelato?",
+        es: "What is the difference between ice cream and gelato?",
+        de: "What is the difference between ice cream and gelato?",
+        nl: "What is the difference between ice cream and gelato?"
+      },
+      options: [
+        { en: "Gelato has less air and fat, served warmer", es: "Gelato has less air and fat, served warmer", de: "Gelato has less air and fat, served warmer", nl: "Gelato has less air and fat, served warmer" },
+        { en: "No difference", es: "No difference", de: "No difference", nl: "No difference" },
+        { en: "Gelato is frozen custard", es: "Gelato is frozen custard", de: "Gelato is frozen custard", nl: "Gelato is frozen custard" },
+        { en: "Ice cream has no eggs", es: "Ice cream has no eggs", de: "Ice cream has no eggs", nl: "Ice cream has no eggs" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Gelato contains less air (churned slower) and fat than ice cream, and is served at a slightly warmer temperature for creamier texture.",
+        es: "Gelato contains less air (churned slower) and fat than ice cream, and is served at a slightly warmer temperature for creamier texture.",
+        de: "Gelato contains less air (churned slower) and fat than ice cream, and is served at a slightly warmer temperature for creamier texture.",
+        nl: "Gelato contains less air (churned slower) and fat than ice cream, and is served at a slightly warmer temperature for creamier texture."
+      }
+    },
+    {
+      question: {
+        en: "What is a baked Alaska?",
+        es: "What is a baked Alaska?",
+        de: "What is a baked Alaska?",
+        nl: "What is a baked Alaska?"
+      },
+      options: [
+        { en: "Ice cream and cake covered with meringue, baked briefly", es: "Ice cream and cake covered with meringue, baked briefly", de: "Ice cream and cake covered with meringue, baked briefly", nl: "Ice cream and cake covered with meringue, baked briefly" },
+        { en: "Frozen cake", es: "Frozen cake", de: "Frozen cake", nl: "Frozen cake" },
+        { en: "Ice cream pie", es: "Ice cream pie", de: "Ice cream pie", nl: "Ice cream pie" },
+        { en: "Layered ice cream", es: "Layered ice cream", de: "Layered ice cream", nl: "Layered ice cream" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Baked Alaska features ice cream and cake covered with meringue, briefly baked so meringue browns while ice cream stays frozen.",
+        es: "Baked Alaska features ice cream and cake covered with meringue, briefly baked so meringue browns while ice cream stays frozen.",
+        de: "Baked Alaska features ice cream and cake covered with meringue, briefly baked so meringue browns while ice cream stays frozen.",
+        nl: "Baked Alaska features ice cream and cake covered with meringue, briefly baked so meringue browns while ice cream stays frozen."
+      }
+    },
+    {
+      question: {
+        en: "What is a sundae?",
+        es: "What is a sundae?",
+        de: "What is a sundae?",
+        nl: "What is a sundae?"
+      },
+      options: [
+        { en: "Ice cream with toppings and sauce", es: "Ice cream with toppings and sauce", de: "Ice cream with toppings and sauce", nl: "Ice cream with toppings and sauce" },
+        { en: "Frozen yogurt", es: "Frozen yogurt", de: "Frozen yogurt", nl: "Frozen yogurt" },
+        { en: "Ice cream cake", es: "Ice cream cake", de: "Ice cream cake", nl: "Ice cream cake" },
+        { en: "Milkshake", es: "Milkshake", de: "Milkshake", nl: "Milkshake" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A sundae is ice cream served with toppings like sauce, whipped cream, nuts, and a cherry.",
+        es: "A sundae is ice cream served with toppings like sauce, whipped cream, nuts, and a cherry.",
+        de: "A sundae is ice cream served with toppings like sauce, whipped cream, nuts, and a cherry.",
+        nl: "A sundae is ice cream served with toppings like sauce, whipped cream, nuts, and a cherry."
+      }
+    },
+    {
+      question: {
+        en: "What is a parfait?",
+        es: "What is a parfait?",
+        de: "What is a parfait?",
+        nl: "What is a parfait?"
+      },
+      options: [
+        { en: "Layered ice cream or yogurt dessert", es: "Layered ice cream or yogurt dessert", de: "Layered ice cream or yogurt dessert", nl: "Layered ice cream or yogurt dessert" },
+        { en: "Ice cream sandwich", es: "Ice cream sandwich", de: "Ice cream sandwich", nl: "Ice cream sandwich" },
+        { en: "Milkshake", es: "Milkshake", de: "Milkshake", nl: "Milkshake" },
+        { en: "Ice cream cone", es: "Ice cream cone", de: "Ice cream cone", nl: "Ice cream cone" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A parfait is a dessert with layers of ice cream, yogurt, or mousse alternated with fruit, granola, or other ingredients.",
+        es: "A parfait is a dessert with layers of ice cream, yogurt, or mousse alternated with fruit, granola, or other ingredients.",
+        de: "A parfait is a dessert with layers of ice cream, yogurt, or mousse alternated with fruit, granola, or other ingredients.",
+        nl: "A parfait is a dessert with layers of ice cream, yogurt, or mousse alternated with fruit, granola, or other ingredients."
+      }
+    },
+    {
+      question: {
+        en: "What is gelato's origin?",
+        es: "What is gelato's origin?",
+        de: "What is gelato's origin?",
+        nl: "What is gelato's origin?"
+      },
+      options: [
+        { en: "Italy", es: "Italy", de: "Italy", nl: "Italy" },
+        { en: "France", es: "France", de: "France", nl: "France" },
+        { en: "United States", es: "United States", de: "United States", nl: "United States" },
+        { en: "Switzerland", es: "Switzerland", de: "Switzerland", nl: "Switzerland" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Gelato originated in Italy and remains an important part of Italian culinary culture.",
+        es: "Gelato originated in Italy and remains an important part of Italian culinary culture.",
+        de: "Gelato originated in Italy and remains an important part of Italian culinary culture.",
+        nl: "Gelato originated in Italy and remains an important part of Italian culinary culture."
+      }
+    },
+    {
+      question: {
+        en: "What is sorbet?",
+        es: "What is sorbet?",
+        de: "What is sorbet?",
+        nl: "What is sorbet?"
+      },
+      options: [
+        { en: "Frozen dessert made from fruit and sugar, no dairy", es: "Frozen dessert made from fruit and sugar, no dairy", de: "Frozen dessert made from fruit and sugar, no dairy", nl: "Frozen dessert made from fruit and sugar, no dairy" },
+        { en: "Ice cream", es: "Ice cream", de: "Ice cream", nl: "Ice cream" },
+        { en: "Frozen yogurt", es: "Frozen yogurt", de: "Frozen yogurt", nl: "Frozen yogurt" },
+        { en: "Gelato", es: "Gelato", de: "Gelato", nl: "Gelato" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Sorbet is a frozen dessert made from fruit puree and sugar with no dairy products.",
+        es: "Sorbet is a frozen dessert made from fruit puree and sugar with no dairy products.",
+        de: "Sorbet is a frozen dessert made from fruit puree and sugar with no dairy products.",
+        nl: "Sorbet is a frozen dessert made from fruit puree and sugar with no dairy products."
+      }
+    },
+    {
+      question: {
+        en: "What is an ice cream sandwich?",
+        es: "What is an ice cream sandwich?",
+        de: "What is an ice cream sandwich?",
+        nl: "What is an ice cream sandwich?"
+      },
+      options: [
+        { en: "Ice cream between two cookies or wafers", es: "Ice cream between two cookies or wafers", de: "Ice cream between two cookies or wafers", nl: "Ice cream between two cookies or wafers" },
+        { en: "Ice cream in a cone", es: "Ice cream in a cone", de: "Ice cream in a cone", nl: "Ice cream in a cone" },
+        { en: "Ice cream sundae", es: "Ice cream sundae", de: "Ice cream sundae", nl: "Ice cream sundae" },
+        { en: "Ice cream cake", es: "Ice cream cake", de: "Ice cream cake", nl: "Ice cream cake" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "An ice cream sandwich consists of ice cream layered between two cookies, wafers, or cake layers.",
+        es: "An ice cream sandwich consists of ice cream layered between two cookies, wafers, or cake layers.",
+        de: "An ice cream sandwich consists of ice cream layered between two cookies, wafers, or cake layers.",
+        nl: "An ice cream sandwich consists of ice cream layered between two cookies, wafers, or cake layers."
+      }
+    },
+    {
+      question: {
+        en: "What is spumoni?",
+        es: "What is spumoni?",
+        de: "What is spumoni?",
+        nl: "What is spumoni?"
+      },
+      options: [
+        { en: "Italian molded ice cream with layers and nuts/fruit", es: "Italian molded ice cream with layers and nuts/fruit", de: "Italian molded ice cream with layers and nuts/fruit", nl: "Italian molded ice cream with layers and nuts/fruit" },
+        { en: "Ice cream sundae", es: "Ice cream sundae", de: "Ice cream sundae", nl: "Ice cream sundae" },
+        { en: "Gelato", es: "Gelato", de: "Gelato", nl: "Gelato" },
+        { en: "Sorbet", es: "Sorbet", de: "Sorbet", nl: "Sorbet" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Spumoni is a molded Italian ice cream with layers of different flavors and colors, typically containing nuts and candied fruit.",
+        es: "Spumoni is a molded Italian ice cream with layers of different flavors and colors, typically containing nuts and candied fruit.",
+        de: "Spumoni is a molded Italian ice cream with layers of different flavors and colors, typically containing nuts and candied fruit.",
+        nl: "Spumoni is a molded Italian ice cream with layers of different flavors and colors, typically containing nuts and candied fruit."
+      }
+    },
+    {
+      question: {
+        en: "What is the purpose of churning ice cream?",
+        es: "What is the purpose of churning ice cream?",
+        de: "What is the purpose of churning ice cream?",
+        nl: "What is the purpose of churning ice cream?"
+      },
+      options: [
+        { en: "Incorporate air for smooth texture", es: "Incorporate air for smooth texture", de: "Incorporate air for smooth texture", nl: "Incorporate air for smooth texture" },
+        { en: "Freeze it faster", es: "Freeze it faster", de: "Freeze it faster", nl: "Freeze it faster" },
+        { en: "Add flavor", es: "Add flavor", de: "Add flavor", nl: "Add flavor" },
+        { en: "Change color", es: "Change color", de: "Change color", nl: "Change color" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Churning incorporates air into ice cream while freezing, preventing large ice crystals and creating smooth, scoopable texture.",
+        es: "Churning incorporates air into ice cream while freezing, preventing large ice crystals and creating smooth, scoopable texture.",
+        de: "Churning incorporates air into ice cream while freezing, preventing large ice crystals and creating smooth, scoopable texture.",
+        nl: "Churning incorporates air into ice cream while freezing, preventing large ice crystals and creating smooth, scoopable texture."
+      }
+    },
+    {
+      question: {
+        en: "What is sherbet?",
+        es: "What is sherbet?",
+        de: "What is sherbet?",
+        nl: "What is sherbet?"
+      },
+      options: [
+        { en: "Frozen dessert with fruit and small amount of dairy", es: "Frozen dessert with fruit and small amount of dairy", de: "Frozen dessert with fruit and small amount of dairy", nl: "Frozen dessert with fruit and small amount of dairy" },
+        { en: "Ice cream", es: "Ice cream", de: "Ice cream", nl: "Ice cream" },
+        { en: "Sorbet", es: "Sorbet", de: "Sorbet", nl: "Sorbet" },
+        { en: "Gelato", es: "Gelato", de: "Gelato", nl: "Gelato" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Sherbet contains fruit and a small amount of dairy (1-2% milk fat), making it creamier than sorbet but lighter than ice cream.",
+        es: "Sherbet contains fruit and a small amount of dairy (1-2% milk fat), making it creamier than sorbet but lighter than ice cream.",
+        de: "Sherbet contains fruit and a small amount of dairy (1-2% milk fat), making it creamier than sorbet but lighter than ice cream.",
+        nl: "Sherbet contains fruit and a small amount of dairy (1-2% milk fat), making it creamier than sorbet but lighter than ice cream."
+      }
+    },
+    {
+      question: {
+        en: "What is a banana split?",
+        es: "What is a banana split?",
+        de: "What is a banana split?",
+        nl: "What is a banana split?"
+      },
+      options: [
+        { en: "Banana with scoops of ice cream, toppings, and sauces", es: "Banana with scoops of ice cream, toppings, and sauces", de: "Banana with scoops of ice cream, toppings, and sauces", nl: "Banana with scoops of ice cream, toppings, and sauces" },
+        { en: "Banana ice cream", es: "Banana ice cream", de: "Banana ice cream", nl: "Banana ice cream" },
+        { en: "Ice cream sundae", es: "Ice cream sundae", de: "Ice cream sundae", nl: "Ice cream sundae" },
+        { en: "Milkshake", es: "Milkshake", de: "Milkshake", nl: "Milkshake" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A banana split features a banana cut lengthwise with three scoops of ice cream, toppings, sauces, whipped cream, and a cherry.",
+        es: "A banana split features a banana cut lengthwise with three scoops of ice cream, toppings, sauces, whipped cream, and a cherry.",
+        de: "A banana split features a banana cut lengthwise with three scoops of ice cream, toppings, sauces, whipped cream, and a cherry.",
+        nl: "A banana split features a banana cut lengthwise with three scoops of ice cream, toppings, sauces, whipped cream, and a cherry."
+      }
+    },
+    {
+      question: {
+        en: "What is an affogato?",
+        es: "What is an affogato?",
+        de: "What is an affogato?",
+        nl: "What is an affogato?"
+      },
+      options: [
+        { en: "Gelato or ice cream with hot espresso poured over", es: "Gelato or ice cream with hot espresso poured over", de: "Gelato or ice cream with hot espresso poured over", nl: "Gelato or ice cream with hot espresso poured over" },
+        { en: "Iced coffee", es: "Iced coffee", de: "Iced coffee", nl: "Iced coffee" },
+        { en: "Coffee ice cream", es: "Coffee ice cream", de: "Coffee ice cream", nl: "Coffee ice cream" },
+        { en: "Frozen coffee", es: "Frozen coffee", de: "Frozen coffee", nl: "Frozen coffee" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Affogato is Italian for 'drowned' - vanilla gelato or ice cream 'drowned' with a shot of hot espresso poured over it.",
+        es: "Affogato is Italian for 'drowned' - vanilla gelato or ice cream 'drowned' with a shot of hot espresso poured over it.",
+        de: "Affogato is Italian for 'drowned' - vanilla gelato or ice cream 'drowned' with a shot of hot espresso poured over it.",
+        nl: "Affogato is Italian for 'drowned' - vanilla gelato or ice cream 'drowned' with a shot of hot espresso poured over it."
+      }
+    },
+    {
+      question: {
+        en: "What causes ice crystals in homemade ice cream?",
+        es: "What causes ice crystals in homemade ice cream?",
+        de: "What causes ice crystals in homemade ice cream?",
+        nl: "What causes ice crystals in homemade ice cream?"
+      },
+      options: [
+        { en: "Slow freezing or temperature fluctuations", es: "Slow freezing or temperature fluctuations", de: "Slow freezing or temperature fluctuations", nl: "Slow freezing or temperature fluctuations" },
+        { en: "Too much sugar", es: "Too much sugar", de: "Too much sugar", nl: "Too much sugar" },
+        { en: "Not enough cream", es: "Not enough cream", de: "Not enough cream", nl: "Not enough cream" },
+        { en: "Overchurning", es: "Overchurning", de: "Overchurning", nl: "Overchurning" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Ice crystals form when ice cream freezes too slowly or experiences temperature fluctuations, causing water to form large crystals.",
+        es: "Ice crystals form when ice cream freezes too slowly or experiences temperature fluctuations, causing water to form large crystals.",
+        de: "Ice crystals form when ice cream freezes too slowly or experiences temperature fluctuations, causing water to form large crystals.",
+        nl: "Ice crystals form when ice cream freezes too slowly or experiences temperature fluctuations, causing water to form large crystals."
+      }
+    },
+    {
+      question: {
+        en: "What is soft serve ice cream?",
+        es: "What is soft serve ice cream?",
+        de: "What is soft serve ice cream?",
+        nl: "What is soft serve ice cream?"
+      },
+      options: [
+        { en: "Ice cream served at warmer temperature, directly from machine", es: "Ice cream served at warmer temperature, directly from machine", de: "Ice cream served at warmer temperature, directly from machine", nl: "Ice cream served at warmer temperature, directly from machine" },
+        { en: "Regular ice cream", es: "Regular ice cream", de: "Regular ice cream", nl: "Regular ice cream" },
+        { en: "Frozen yogurt", es: "Frozen yogurt", de: "Frozen yogurt", nl: "Frozen yogurt" },
+        { en: "Gelato", es: "Gelato", de: "Gelato", nl: "Gelato" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Soft serve is ice cream served immediately from the freezing machine at a warmer temperature, giving it a soft, creamy texture.",
+        es: "Soft serve is ice cream served immediately from the freezing machine at a warmer temperature, giving it a soft, creamy texture.",
+        de: "Soft serve is ice cream served immediately from the freezing machine at a warmer temperature, giving it a soft, creamy texture.",
+        nl: "Soft serve is ice cream served immediately from the freezing machine at a warmer temperature, giving it a soft, creamy texture."
+      }
+    },
+    {
+      question: {
+        en: "What is a semifreddo?",
+        es: "What is a semifreddo?",
+        de: "What is a semifreddo?",
+        nl: "What is a semifreddo?"
+      },
+      options: [
+        { en: "Partially frozen Italian dessert", es: "Partially frozen Italian dessert", de: "Partially frozen Italian dessert", nl: "Partially frozen Italian dessert" },
+        { en: "Ice cream", es: "Ice cream", de: "Ice cream", nl: "Ice cream" },
+        { en: "Gelato", es: "Gelato", de: "Gelato", nl: "Gelato" },
+        { en: "Sorbet", es: "Sorbet", de: "Sorbet", nl: "Sorbet" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Semifreddo means 'half-frozen' in Italian - a partially frozen dessert similar to frozen mousse, lighter than ice cream.",
+        es: "Semifreddo means 'half-frozen' in Italian - a partially frozen dessert similar to frozen mousse, lighter than ice cream.",
+        de: "Semifreddo means 'half-frozen' in Italian - a partially frozen dessert similar to frozen mousse, lighter than ice cream.",
+        nl: "Semifreddo means 'half-frozen' in Italian - a partially frozen dessert similar to frozen mousse, lighter than ice cream."
+      }
+    },
+    {
+      question: {
+        en: "What is the ideal fat content for creamy ice cream?",
+        es: "What is the ideal fat content for creamy ice cream?",
+        de: "What is the ideal fat content for creamy ice cream?",
+        nl: "What is the ideal fat content for creamy ice cream?"
+      },
+      options: [
+        { en: "10-16% milk fat", es: "10-16% milk fat", de: "10-16% milk fat", nl: "10-16% milk fat" },
+        { en: "5% milk fat", es: "5% milk fat", de: "5% milk fat", nl: "5% milk fat" },
+        { en: "20% milk fat", es: "20% milk fat", de: "20% milk fat", nl: "20% milk fat" },
+        { en: "No fat needed", es: "No fat needed", de: "No fat needed", nl: "No fat needed" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Premium ice cream typically contains 10-16% milk fat, which contributes to creamy texture and flavor.",
+        es: "Premium ice cream typically contains 10-16% milk fat, which contributes to creamy texture and flavor.",
+        de: "Premium ice cream typically contains 10-16% milk fat, which contributes to creamy texture and flavor.",
+        nl: "Premium ice cream typically contains 10-16% milk fat, which contributes to creamy texture and flavor."
+      }
+    },
+    {
+      question: {
+        en: "What is a float?",
+        es: "What is a float?",
+        de: "What is a float?",
+        nl: "What is a float?"
+      },
+      options: [
+        { en: "Ice cream in soda or beverage", es: "Ice cream in soda or beverage", de: "Ice cream in soda or beverage", nl: "Ice cream in soda or beverage" },
+        { en: "Ice cream on cake", es: "Ice cream on cake", de: "Ice cream on cake", nl: "Ice cream on cake" },
+        { en: "Milkshake", es: "Milkshake", de: "Milkshake", nl: "Milkshake" },
+        { en: "Ice cream sundae", es: "Ice cream sundae", de: "Ice cream sundae", nl: "Ice cream sundae" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A float (or ice cream soda) is ice cream served in soda, root beer, or other carbonated beverage.",
+        es: "A float (or ice cream soda) is ice cream served in soda, root beer, or other carbonated beverage.",
+        de: "A float (or ice cream soda) is ice cream served in soda, root beer, or other carbonated beverage.",
+        nl: "A float (or ice cream soda) is ice cream served in soda, root beer, or other carbonated beverage."
+      }
+    },
+    {
+      question: {
+        en: "What is granita?",
+        es: "What is granita?",
+        de: "What is granita?",
+        nl: "What is granita?"
+      },
+      options: [
+        { en: "Italian semi-frozen dessert with granular texture", es: "Italian semi-frozen dessert with granular texture", de: "Italian semi-frozen dessert with granular texture", nl: "Italian semi-frozen dessert with granular texture" },
+        { en: "Ice cream", es: "Ice cream", de: "Ice cream", nl: "Ice cream" },
+        { en: "Gelato", es: "Gelato", de: "Gelato", nl: "Gelato" },
+        { en: "Smooth sorbet", es: "Smooth sorbet", de: "Smooth sorbet", nl: "Smooth sorbet" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Granita is a semi-frozen Italian dessert made from sugar, water, and flavorings, with a grainy, crystalline texture.",
+        es: "Granita is a semi-frozen Italian dessert made from sugar, water, and flavorings, with a grainy, crystalline texture.",
+        de: "Granita is a semi-frozen Italian dessert made from sugar, water, and flavorings, with a grainy, crystalline texture.",
+        nl: "Granita is a semi-frozen Italian dessert made from sugar, water, and flavorings, with a grainy, crystalline texture."
+      }
+    },
+    {
+      question: {
+        en: "What is the overrun in ice cream?",
+        es: "What is the overrun in ice cream?",
+        de: "What is the overrun in ice cream?",
+        nl: "What is the overrun in ice cream?"
+      },
+      options: [
+        { en: "Amount of air incorporated during churning", es: "Amount of air incorporated during churning", de: "Amount of air incorporated during churning", nl: "Amount of air incorporated during churning" },
+        { en: "Amount of sugar", es: "Amount of sugar", de: "Amount of sugar", nl: "Amount of sugar" },
+        { en: "Freezing time", es: "Freezing time", de: "Freezing time", nl: "Freezing time" },
+        { en: "Melting rate", es: "Melting rate", de: "Melting rate", nl: "Melting rate" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Overrun refers to the amount of air incorporated into ice cream during churning, expressed as a percentage of volume increase.",
+        es: "Overrun refers to the amount of air incorporated into ice cream during churning, expressed as a percentage of volume increase.",
+        de: "Overrun refers to the amount of air incorporated into ice cream during churning, expressed as a percentage of volume increase.",
+        nl: "Overrun refers to the amount of air incorporated into ice cream during churning, expressed as a percentage of volume increase."
+      }
+    },
+    {
+      question: {
+        en: "What is a Neapolitan ice cream?",
+        es: "What is a Neapolitan ice cream?",
+        de: "What is a Neapolitan ice cream?",
+        nl: "What is a Neapolitan ice cream?"
+      },
+      options: [
+        { en: "Three-flavor layered ice cream (vanilla, chocolate, strawberry)", es: "Three-flavor layered ice cream (vanilla, chocolate, strawberry)", de: "Three-flavor layered ice cream (vanilla, chocolate, strawberry)", nl: "Three-flavor layered ice cream (vanilla, chocolate, strawberry)" },
+        { en: "Italian ice cream", es: "Italian ice cream", de: "Italian ice cream", nl: "Italian ice cream" },
+        { en: "Ice cream from Naples", es: "Ice cream from Naples", de: "Ice cream from Naples", nl: "Ice cream from Naples" },
+        { en: "Molded ice cream", es: "Molded ice cream", de: "Molded ice cream", nl: "Molded ice cream" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Neapolitan ice cream features three distinct flavors in layers - traditionally vanilla, chocolate, and strawberry.",
+        es: "Neapolitan ice cream features three distinct flavors in layers - traditionally vanilla, chocolate, and strawberry.",
+        de: "Neapolitan ice cream features three distinct flavors in layers - traditionally vanilla, chocolate, and strawberry.",
+        nl: "Neapolitan ice cream features three distinct flavors in layers - traditionally vanilla, chocolate, and strawberry."
+      }
+
       }
     ]
   };

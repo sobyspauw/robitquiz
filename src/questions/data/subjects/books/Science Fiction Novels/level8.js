@@ -426,6 +426,406 @@
           es: "El OASIS sigue siendo el mundo de realidad virtual en la secuela de Ernest Cline 'Ready Player Two' (2020), donde los usuarios ahora tienen acceso a tecnología aún más inmersiva.",
           de: "Die OASIS bleibt die Virtual-Reality-Welt in Ernest Clines Fortsetzung 'Ready Player Two' (2020), wo Benutzer nun Zugang zu noch immersiverer Technologie haben.",
           nl: "De OASIS blijft de virtual reality wereld in Ernest Cline's vervolg 'Ready Player Two' (2020), waar gebruikers nu toegang hebben tot nog meer meeslepende technologie."
+        }      },
+      {
+        question: {
+          en: "Who wrote Dune?",
+          es: "Who wrote Dune?",
+          de: "Who wrote Dune?",
+          nl: "Who wrote Dune?"
+        },
+        options: [
+          { en: "Frank Herbert", es: "Frank Herbert", de: "Frank Herbert", nl: "Frank Herbert" },
+          { en: "Isaac Asimov", es: "Isaac Asimov", de: "Isaac Asimov", nl: "Isaac Asimov" },
+          { en: "Arthur C. Clarke", es: "Arthur C. Clarke", de: "Arthur C. Clarke", nl: "Arthur C. Clarke" },
+          { en: "Robert Heinlein", es: "Robert Heinlein", de: "Robert Heinlein", nl: "Robert Heinlein" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Frank Herbert wrote Dune in 1965 about desert planet Arrakis.",
+          es: "Frank Herbert wrote Dune in 1965 about desert planet Arrakis.",
+          de: "Frank Herbert wrote Dune in 1965 about desert planet Arrakis.",
+          nl: "Frank Herbert wrote Dune in 1965 about desert planet Arrakis."
+        }      },
+      {
+        question: {
+          en: "Foundation series is by?",
+          es: "Foundation series is by?",
+          de: "Foundation series is by?",
+          nl: "Foundation series is by?"
+        },
+        options: [
+          { en: "Isaac Asimov", es: "Isaac Asimov", de: "Isaac Asimov", nl: "Isaac Asimov" },
+          { en: "Arthur C. Clarke", es: "Arthur C. Clarke", de: "Arthur C. Clarke", nl: "Arthur C. Clarke" },
+          { en: "Robert Heinlein", es: "Robert Heinlein", de: "Robert Heinlein", nl: "Robert Heinlein" },
+          { en: "Philip K. Dick", es: "Philip K. Dick", de: "Philip K. Dick", nl: "Philip K. Dick" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Isaac Asimov wrote Foundation series beginning in 1951.",
+          es: "Isaac Asimov wrote Foundation series beginning in 1951.",
+          de: "Isaac Asimov wrote Foundation series beginning in 1951.",
+          nl: "Isaac Asimov wrote Foundation series beginning in 1951."
+        }      },
+      {
+        question: {
+          en: "Who wrote Fahrenheit 451?",
+          es: "Who wrote Fahrenheit 451?",
+          de: "Who wrote Fahrenheit 451?",
+          nl: "Who wrote Fahrenheit 451?"
+        },
+        options: [
+          { en: "Ray Bradbury", es: "Ray Bradbury", de: "Ray Bradbury", nl: "Ray Bradbury" },
+          { en: "George Orwell", es: "George Orwell", de: "George Orwell", nl: "George Orwell" },
+          { en: "Aldous Huxley", es: "Aldous Huxley", de: "Aldous Huxley", nl: "Aldous Huxley" },
+          { en: "Kurt Vonnegut", es: "Kurt Vonnegut", de: "Kurt Vonnegut", nl: "Kurt Vonnegut" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ray Bradbury wrote Fahrenheit 451 in 1953 about book burning.",
+          es: "Ray Bradbury wrote Fahrenheit 451 in 1953 about book burning.",
+          de: "Ray Bradbury wrote Fahrenheit 451 in 1953 about book burning.",
+          nl: "Ray Bradbury wrote Fahrenheit 451 in 1953 about book burning."
+        }      },
+      {
+        question: {
+          en: "2001 A Space Odyssey is by?",
+          es: "2001 A Space Odyssey is by?",
+          de: "2001 A Space Odyssey is by?",
+          nl: "2001 A Space Odyssey is by?"
+        },
+        options: [
+          { en: "Arthur C. Clarke", es: "Arthur C. Clarke", de: "Arthur C. Clarke", nl: "Arthur C. Clarke" },
+          { en: "Isaac Asimov", es: "Isaac Asimov", de: "Isaac Asimov", nl: "Isaac Asimov" },
+          { en: "Robert Heinlein", es: "Robert Heinlein", de: "Robert Heinlein", nl: "Robert Heinlein" },
+          { en: "Larry Niven", es: "Larry Niven", de: "Larry Niven", nl: "Larry Niven" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Arthur C. Clarke wrote 2001 A Space Odyssey in 1968.",
+          es: "Arthur C. Clarke wrote 2001 A Space Odyssey in 1968.",
+          de: "Arthur C. Clarke wrote 2001 A Space Odyssey in 1968.",
+          nl: "Arthur C. Clarke wrote 2001 A Space Odyssey in 1968."
+        }      },
+      {
+        question: {
+          en: "Who created Enders Game?",
+          es: "Who created Enders Game?",
+          de: "Who created Enders Game?",
+          nl: "Who created Enders Game?"
+        },
+        options: [
+          { en: "Orson Scott Card", es: "Orson Scott Card", de: "Orson Scott Card", nl: "Orson Scott Card" },
+          { en: "Robert Heinlein", es: "Robert Heinlein", de: "Robert Heinlein", nl: "Robert Heinlein" },
+          { en: "Joe Haldeman", es: "Joe Haldeman", de: "Joe Haldeman", nl: "Joe Haldeman" },
+          { en: "John Scalzi", es: "John Scalzi", de: "John Scalzi", nl: "John Scalzi" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Orson Scott Card wrote Enders Game in 1985.",
+          es: "Orson Scott Card wrote Enders Game in 1985.",
+          de: "Orson Scott Card wrote Enders Game in 1985.",
+          nl: "Orson Scott Card wrote Enders Game in 1985."
+        }      },
+      {
+        question: {
+          en: "Neuromancer is by?",
+          es: "Neuromancer is by?",
+          de: "Neuromancer is by?",
+          nl: "Neuromancer is by?"
+        },
+        options: [
+          { en: "William Gibson", es: "William Gibson", de: "William Gibson", nl: "William Gibson" },
+          { en: "Neal Stephenson", es: "Neal Stephenson", de: "Neal Stephenson", nl: "Neal Stephenson" },
+          { en: "Philip K. Dick", es: "Philip K. Dick", de: "Philip K. Dick", nl: "Philip K. Dick" },
+          { en: "Bruce Sterling", es: "Bruce Sterling", de: "Bruce Sterling", nl: "Bruce Sterling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "William Gibson wrote Neuromancer in 1984 pioneering cyberpunk.",
+          es: "William Gibson wrote Neuromancer in 1984 pioneering cyberpunk.",
+          de: "William Gibson wrote Neuromancer in 1984 pioneering cyberpunk.",
+          nl: "William Gibson wrote Neuromancer in 1984 pioneering cyberpunk."
+        }      },
+      {
+        question: {
+          en: "Who wrote Do Androids Dream of Electric Sheep?",
+          es: "Who wrote Do Androids Dream of Electric Sheep?",
+          de: "Who wrote Do Androids Dream of Electric Sheep?",
+          nl: "Who wrote Do Androids Dream of Electric Sheep?"
+        },
+        options: [
+          { en: "Philip K. Dick", es: "Philip K. Dick", de: "Philip K. Dick", nl: "Philip K. Dick" },
+          { en: "Isaac Asimov", es: "Isaac Asimov", de: "Isaac Asimov", nl: "Isaac Asimov" },
+          { en: "Arthur C. Clarke", es: "Arthur C. Clarke", de: "Arthur C. Clarke", nl: "Arthur C. Clarke" },
+          { en: "Harlan Ellison", es: "Harlan Ellison", de: "Harlan Ellison", nl: "Harlan Ellison" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Philip K. Dick wrote this in 1968, basis for Blade Runner.",
+          es: "Philip K. Dick wrote this in 1968, basis for Blade Runner.",
+          de: "Philip K. Dick wrote this in 1968, basis for Blade Runner.",
+          nl: "Philip K. Dick wrote this in 1968, basis for Blade Runner."
+        }      },
+      {
+        question: {
+          en: "The Left Hand of Darkness is by?",
+          es: "The Left Hand of Darkness is by?",
+          de: "The Left Hand of Darkness is by?",
+          nl: "The Left Hand of Darkness is by?"
+        },
+        options: [
+          { en: "Ursula K. Le Guin", es: "Ursula K. Le Guin", de: "Ursula K. Le Guin", nl: "Ursula K. Le Guin" },
+          { en: "Octavia Butler", es: "Octavia Butler", de: "Octavia Butler", nl: "Octavia Butler" },
+          { en: "Margaret Atwood", es: "Margaret Atwood", de: "Margaret Atwood", nl: "Margaret Atwood" },
+          { en: "Joanna Russ", es: "Joanna Russ", de: "Joanna Russ", nl: "Joanna Russ" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ursula K. Le Guin wrote The Left Hand of Darkness in 1969.",
+          es: "Ursula K. Le Guin wrote The Left Hand of Darkness in 1969.",
+          de: "Ursula K. Le Guin wrote The Left Hand of Darkness in 1969.",
+          nl: "Ursula K. Le Guin wrote The Left Hand of Darkness in 1969."
+        }      },
+      {
+        question: {
+          en: "Who wrote Stranger in a Strange Land?",
+          es: "Who wrote Stranger in a Strange Land?",
+          de: "Who wrote Stranger in a Strange Land?",
+          nl: "Who wrote Stranger in a Strange Land?"
+        },
+        options: [
+          { en: "Robert Heinlein", es: "Robert Heinlein", de: "Robert Heinlein", nl: "Robert Heinlein" },
+          { en: "Isaac Asimov", es: "Isaac Asimov", de: "Isaac Asimov", nl: "Isaac Asimov" },
+          { en: "Arthur C. Clarke", es: "Arthur C. Clarke", de: "Arthur C. Clarke", nl: "Arthur C. Clarke" },
+          { en: "Philip K. Dick", es: "Philip K. Dick", de: "Philip K. Dick", nl: "Philip K. Dick" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Robert Heinlein wrote Stranger in a Strange Land in 1961.",
+          es: "Robert Heinlein wrote Stranger in a Strange Land in 1961.",
+          de: "Robert Heinlein wrote Stranger in a Strange Land in 1961.",
+          nl: "Robert Heinlein wrote Stranger in a Strange Land in 1961."
+        }      },
+      {
+        question: {
+          en: "The Handmaids Tale is by?",
+          es: "The Handmaids Tale is by?",
+          de: "The Handmaids Tale is by?",
+          nl: "The Handmaids Tale is by?"
+        },
+        options: [
+          { en: "Margaret Atwood", es: "Margaret Atwood", de: "Margaret Atwood", nl: "Margaret Atwood" },
+          { en: "Ursula K. Le Guin", es: "Ursula K. Le Guin", de: "Ursula K. Le Guin", nl: "Ursula K. Le Guin" },
+          { en: "Octavia Butler", es: "Octavia Butler", de: "Octavia Butler", nl: "Octavia Butler" },
+          { en: "Joanna Russ", es: "Joanna Russ", de: "Joanna Russ", nl: "Joanna Russ" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Margaret Atwood wrote The Handmaids Tale in 1985.",
+          es: "Margaret Atwood wrote The Handmaids Tale in 1985.",
+          de: "Margaret Atwood wrote The Handmaids Tale in 1985.",
+          nl: "Margaret Atwood wrote The Handmaids Tale in 1985."
+        }      },
+      {
+        question: {
+          en: "Who wrote Ringworld?",
+          es: "Who wrote Ringworld?",
+          de: "Who wrote Ringworld?",
+          nl: "Who wrote Ringworld?"
+        },
+        options: [
+          { en: "Larry Niven", es: "Larry Niven", de: "Larry Niven", nl: "Larry Niven" },
+          { en: "Arthur C. Clarke", es: "Arthur C. Clarke", de: "Arthur C. Clarke", nl: "Arthur C. Clarke" },
+          { en: "Gregory Benford", es: "Gregory Benford", de: "Gregory Benford", nl: "Gregory Benford" },
+          { en: "Greg Bear", es: "Greg Bear", de: "Greg Bear", nl: "Greg Bear" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Larry Niven wrote Ringworld in 1970.",
+          es: "Larry Niven wrote Ringworld in 1970.",
+          de: "Larry Niven wrote Ringworld in 1970.",
+          nl: "Larry Niven wrote Ringworld in 1970."
+        }      },
+      {
+        question: {
+          en: "Snow Crash is by?",
+          es: "Snow Crash is by?",
+          de: "Snow Crash is by?",
+          nl: "Snow Crash is by?"
+        },
+        options: [
+          { en: "Neal Stephenson", es: "Neal Stephenson", de: "Neal Stephenson", nl: "Neal Stephenson" },
+          { en: "William Gibson", es: "William Gibson", de: "William Gibson", nl: "William Gibson" },
+          { en: "Bruce Sterling", es: "Bruce Sterling", de: "Bruce Sterling", nl: "Bruce Sterling" },
+          { en: "Cory Doctorow", es: "Cory Doctorow", de: "Cory Doctorow", nl: "Cory Doctorow" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Neal Stephenson wrote Snow Crash in 1992.",
+          es: "Neal Stephenson wrote Snow Crash in 1992.",
+          de: "Neal Stephenson wrote Snow Crash in 1992.",
+          nl: "Neal Stephenson wrote Snow Crash in 1992."
+        }      },
+      {
+        question: {
+          en: "Who created the Culture series?",
+          es: "Who created the Culture series?",
+          de: "Who created the Culture series?",
+          nl: "Who created the Culture series?"
+        },
+        options: [
+          { en: "Iain M. Banks", es: "Iain M. Banks", de: "Iain M. Banks", nl: "Iain M. Banks" },
+          { en: "Alastair Reynolds", es: "Alastair Reynolds", de: "Alastair Reynolds", nl: "Alastair Reynolds" },
+          { en: "Peter F. Hamilton", es: "Peter F. Hamilton", de: "Peter F. Hamilton", nl: "Peter F. Hamilton" },
+          { en: "Ken MacLeod", es: "Ken MacLeod", de: "Ken MacLeod", nl: "Ken MacLeod" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Iain M. Banks wrote Culture series beginning in 1987.",
+          es: "Iain M. Banks wrote Culture series beginning in 1987.",
+          de: "Iain M. Banks wrote Culture series beginning in 1987.",
+          nl: "Iain M. Banks wrote Culture series beginning in 1987."
+        }      },
+      {
+        question: {
+          en: "The Forever War is by?",
+          es: "The Forever War is by?",
+          de: "The Forever War is by?",
+          nl: "The Forever War is by?"
+        },
+        options: [
+          { en: "Joe Haldeman", es: "Joe Haldeman", de: "Joe Haldeman", nl: "Joe Haldeman" },
+          { en: "John Scalzi", es: "John Scalzi", de: "John Scalzi", nl: "John Scalzi" },
+          { en: "Orson Scott Card", es: "Orson Scott Card", de: "Orson Scott Card", nl: "Orson Scott Card" },
+          { en: "Robert Heinlein", es: "Robert Heinlein", de: "Robert Heinlein", nl: "Robert Heinlein" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Joe Haldeman wrote The Forever War in 1974.",
+          es: "Joe Haldeman wrote The Forever War in 1974.",
+          de: "Joe Haldeman wrote The Forever War in 1974.",
+          nl: "Joe Haldeman wrote The Forever War in 1974."
+        }      },
+      {
+        question: {
+          en: "Who wrote The Time Machine?",
+          es: "Who wrote The Time Machine?",
+          de: "Who wrote The Time Machine?",
+          nl: "Who wrote The Time Machine?"
+        },
+        options: [
+          { en: "H.G. Wells", es: "H.G. Wells", de: "H.G. Wells", nl: "H.G. Wells" },
+          { en: "Jules Verne", es: "Jules Verne", de: "Jules Verne", nl: "Jules Verne" },
+          { en: "Isaac Asimov", es: "Isaac Asimov", de: "Isaac Asimov", nl: "Isaac Asimov" },
+          { en: "Arthur C. Clarke", es: "Arthur C. Clarke", de: "Arthur C. Clarke", nl: "Arthur C. Clarke" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "H.G. Wells wrote The Time Machine in 1895.",
+          es: "H.G. Wells wrote The Time Machine in 1895.",
+          de: "H.G. Wells wrote The Time Machine in 1895.",
+          nl: "H.G. Wells wrote The Time Machine in 1895."
+        }      },
+      {
+        question: {
+          en: "Hyperion is by?",
+          es: "Hyperion is by?",
+          de: "Hyperion is by?",
+          nl: "Hyperion is by?"
+        },
+        options: [
+          { en: "Dan Simmons", es: "Dan Simmons", de: "Dan Simmons", nl: "Dan Simmons" },
+          { en: "Alastair Reynolds", es: "Alastair Reynolds", de: "Alastair Reynolds", nl: "Alastair Reynolds" },
+          { en: "Peter F. Hamilton", es: "Peter F. Hamilton", de: "Peter F. Hamilton", nl: "Peter F. Hamilton" },
+          { en: "Charles Stross", es: "Charles Stross", de: "Charles Stross", nl: "Charles Stross" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dan Simmons wrote Hyperion in 1989.",
+          es: "Dan Simmons wrote Hyperion in 1989.",
+          de: "Dan Simmons wrote Hyperion in 1989.",
+          nl: "Dan Simmons wrote Hyperion in 1989."
+        }      },
+      {
+        question: {
+          en: "Who wrote Kindred?",
+          es: "Who wrote Kindred?",
+          de: "Who wrote Kindred?",
+          nl: "Who wrote Kindred?"
+        },
+        options: [
+          { en: "Octavia Butler", es: "Octavia Butler", de: "Octavia Butler", nl: "Octavia Butler" },
+          { en: "Ursula K. Le Guin", es: "Ursula K. Le Guin", de: "Ursula K. Le Guin", nl: "Ursula K. Le Guin" },
+          { en: "N.K. Jemisin", es: "N.K. Jemisin", de: "N.K. Jemisin", nl: "N.K. Jemisin" },
+          { en: "Samuel Delany", es: "Samuel Delany", de: "Samuel Delany", nl: "Samuel Delany" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Octavia Butler wrote Kindred in 1979 about time travel and slavery.",
+          es: "Octavia Butler wrote Kindred in 1979 about time travel and slavery.",
+          de: "Octavia Butler wrote Kindred in 1979 about time travel and slavery.",
+          nl: "Octavia Butler wrote Kindred in 1979 about time travel and slavery."
+        }      },
+      {
+        question: {
+          en: "The Martian is by?",
+          es: "The Martian is by?",
+          de: "The Martian is by?",
+          nl: "The Martian is by?"
+        },
+        options: [
+          { en: "Andy Weir", es: "Andy Weir", de: "Andy Weir", nl: "Andy Weir" },
+          { en: "Kim Stanley Robinson", es: "Kim Stanley Robinson", de: "Kim Stanley Robinson", nl: "Kim Stanley Robinson" },
+          { en: "Ben Bova", es: "Ben Bova", de: "Ben Bova", nl: "Ben Bova" },
+          { en: "Gregory Benford", es: "Gregory Benford", de: "Gregory Benford", nl: "Gregory Benford" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Andy Weir wrote The Martian in 2011 about astronaut stranded on Mars.",
+          es: "Andy Weir wrote The Martian in 2011 about astronaut stranded on Mars.",
+          de: "Andy Weir wrote The Martian in 2011 about astronaut stranded on Mars.",
+          nl: "Andy Weir wrote The Martian in 2011 about astronaut stranded on Mars."
+        }      },
+      {
+        question: {
+          en: "Who wrote Slaughterhouse-Five?",
+          es: "Who wrote Slaughterhouse-Five?",
+          de: "Who wrote Slaughterhouse-Five?",
+          nl: "Who wrote Slaughterhouse-Five?"
+        },
+        options: [
+          { en: "Kurt Vonnegut", es: "Kurt Vonnegut", de: "Kurt Vonnegut", nl: "Kurt Vonnegut" },
+          { en: "Joseph Heller", es: "Joseph Heller", de: "Joseph Heller", nl: "Joseph Heller" },
+          { en: "Thomas Pynchon", es: "Thomas Pynchon", de: "Thomas Pynchon", nl: "Thomas Pynchon" },
+          { en: "Philip K. Dick", es: "Philip K. Dick", de: "Philip K. Dick", nl: "Philip K. Dick" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Kurt Vonnegut wrote Slaughterhouse-Five in 1969.",
+          es: "Kurt Vonnegut wrote Slaughterhouse-Five in 1969.",
+          de: "Kurt Vonnegut wrote Slaughterhouse-Five in 1969.",
+          nl: "Kurt Vonnegut wrote Slaughterhouse-Five in 1969."
+        }      },
+      {
+        question: {
+          en: "The Three-Body Problem is by?",
+          es: "The Three-Body Problem is by?",
+          de: "The Three-Body Problem is by?",
+          nl: "The Three-Body Problem is by?"
+        },
+        options: [
+          { en: "Liu Cixin", es: "Liu Cixin", de: "Liu Cixin", nl: "Liu Cixin" },
+          { en: "Ted Chiang", es: "Ted Chiang", de: "Ted Chiang", nl: "Ted Chiang" },
+          { en: "Ken Liu", es: "Ken Liu", de: "Ken Liu", nl: "Ken Liu" },
+          { en: "Greg Egan", es: "Greg Egan", de: "Greg Egan", nl: "Greg Egan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Liu Cixin wrote The Three-Body Problem in 2008.",
+          es: "Liu Cixin wrote The Three-Body Problem in 2008.",
+          de: "Liu Cixin wrote The Three-Body Problem in 2008.",
+          nl: "Liu Cixin wrote The Three-Body Problem in 2008."
         }
       }
     ]

@@ -427,6 +427,426 @@
           de: "Die Inkas hatten keine Eisenwerkzeuge. Sie verwendeten Steinhämmer, Bronzewerkzeuge und enorme Handarbeit zum Bau von Machu Picchu.",
           nl: "De Inca's hadden geen ijzeren gereedschap. Ze gebruikten stenen hamers, bronzen gereedschap en enorm veel handarbeid om Machu Picchu te bouwen."
         }
+      },
+      {
+        question: {
+          en: "What is the Temple of the Sun at Machu Picchu?",
+          es: "¿Qué es el Templo del Sol en Machu Picchu?",
+          de: "Was ist der Sonnentempel in Machu Picchu?",
+          nl: "Wat is de Tempel van de Zon in Machu Picchu?"
+        },
+        options: [
+          { en: "A religious building", es: "Un edificio religioso", de: "Ein religiöses Gebäude", nl: "Een religieus gebouw" },
+          { en: "A storage facility", es: "Una instalación de almacenamiento", de: "Eine Lagereinrichtung", nl: "Een opslagfaciliteit" },
+          { en: "A residential area", es: "Una zona residencial", de: "Ein Wohngebiet", nl: "Een woongebied" },
+          { en: "A marketplace", es: "Un mercado", de: "Ein Marktplatz", nl: "Een marktplaats" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Temple of the Sun is one of the most important religious buildings at Machu Picchu, used for astronomical observations and ceremonies.",
+          es: "El Templo del Sol es uno de los edificios religiosos más importantes de Machu Picchu, utilizado para observaciones astronómicas y ceremonias.",
+          de: "Der Sonnentempel ist eines der wichtigsten religiösen Gebäude in Machu Picchu, genutzt für astronomische Beobachtungen und Zeremonien.",
+          nl: "De Tempel van de Zon is een van de belangrijkste religieuze gebouwen in Machu Picchu, gebruikt voor astronomische waarnemingen en ceremonies."
+        }
+      },
+      {
+        question: {
+          en: "How do most tourists reach Machu Picchu?",
+          es: "¿Cómo llegan la mayoría de los turistas a Machu Picchu?",
+          de: "Wie erreichen die meisten Touristen Machu Picchu?",
+          nl: "Hoe bereiken de meeste toeristen Machu Picchu?"
+        },
+        options: [
+          { en: "By car", es: "En coche", de: "Mit dem Auto", nl: "Met de auto" },
+          { en: "By train and bus", es: "En tren y autobús", de: "Mit Zug und Bus", nl: "Met de trein en bus" },
+          { en: "By helicopter", es: "En helicóptero", de: "Mit dem Hubschrauber", nl: "Met de helikopter" },
+          { en: "By boat", es: "En barco", de: "Mit dem Boot", nl: "Met de boot" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Most tourists reach Machu Picchu by taking a train from Cusco to Aguas Calientes, then a bus up the mountain to the site.",
+          es: "La mayoría de los turistas llegan a Machu Picchu tomando un tren desde Cusco hasta Aguas Calientes, luego un autobús que sube la montaña hasta el sitio.",
+          de: "Die meisten Touristen erreichen Machu Picchu mit einem Zug von Cusco nach Aguas Calientes und dann mit einem Bus den Berg hinauf zur Stätte.",
+          nl: "De meeste toeristen bereiken Machu Picchu door een trein te nemen van Cusco naar Aguas Calientes, dan een bus de berg op naar de site."
+        }
+      },
+      {
+        question: {
+          en: "What animals are native to the Machu Picchu area?",
+          es: "¿Qué animales son nativos del área de Machu Picchu?",
+          de: "Welche Tiere sind im Gebiet von Machu Picchu heimisch?",
+          nl: "Welke dieren zijn inheems in het gebied van Machu Picchu?"
+        },
+        options: [
+          { en: "Llamas and alpacas", es: "Llamas y alpacas", de: "Lamas und Alpakas", nl: "Lama's en alpaca's" },
+          { en: "Elephants and tigers", es: "Elefantes y tigres", de: "Elefanten und Tiger", nl: "Olifanten en tijgers" },
+          { en: "Kangaroos and koalas", es: "Canguros y koalas", de: "Kängurus und Koalas", nl: "Kangoeroes en koala's" },
+          { en: "Zebras and giraffes", es: "Cebras y jirafas", de: "Zebras und Giraffen", nl: "Zebra's en giraffen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Llamas and alpacas are native to the Andean region. Today, llamas graze at Machu Picchu and are iconic symbols of the site.",
+          es: "Las llamas y alpacas son nativas de la región andina. Hoy en día, las llamas pastan en Machu Picchu y son símbolos icónicos del sitio.",
+          de: "Lamas und Alpakas sind in der Andenregion heimisch. Heute grasen Lamas in Machu Picchu und sind ikonische Symbole der Stätte.",
+          nl: "Lama's en alpaca's zijn inheems in de Andes-regio. Vandaag grazen lama's in Machu Picchu en zijn iconische symbolen van de site."
+        }
+      },
+      {
+        question: {
+          en: "Who was Hiram Bingham?",
+          es: "¿Quién fue Hiram Bingham?",
+          de: "Wer war Hiram Bingham?",
+          nl: "Wie was Hiram Bingham?"
+        },
+        options: [
+          { en: "An Inca emperor", es: "Un emperador Inca", de: "Ein Inka-Kaiser", nl: "Een Inca-keizer" },
+          { en: "An American historian who found Machu Picchu", es: "Un historiador estadounidense que encontró Machu Picchu", de: "Ein amerikanischer Historiker der Machu Picchu fand", nl: "Een Amerikaanse historicus die Machu Picchu vond" },
+          { en: "A Spanish conquistador", es: "Un conquistador español", de: "Ein spanischer Eroberer", nl: "Een Spaanse conquistador" },
+          { en: "A local guide", es: "Un guía local", de: "Ein lokaler Führer", nl: "Een lokale gids" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Hiram Bingham was an American historian and explorer from Yale University who brought Machu Picchu to international attention in 1911.",
+          es: "Hiram Bingham fue un historiador y explorador estadounidense de la Universidad de Yale que dio a conocer Machu Picchu internacionalmente en 1911.",
+          de: "Hiram Bingham war ein amerikanischer Historiker und Forscher von der Yale University, der Machu Picchu 1911 international bekannt machte.",
+          nl: "Hiram Bingham was een Amerikaanse historicus en ontdekkingsreiziger van Yale University die Machu Picchu in 1911 onder internationale aandacht bracht."
+        }
+      },
+      {
+        question: {
+          en: "What type of site was Machu Picchu?",
+          es: "¿Qué tipo de sitio era Machu Picchu?",
+          de: "Was für eine Art von Stätte war Machu Picchu?",
+          nl: "Wat voor soort locatie was Machu Picchu?"
+        },
+        options: [
+          { en: "A fortress", es: "Una fortaleza", de: "Eine Festung", nl: "Een fort" },
+          { en: "A royal estate", es: "Una finca real", de: "Ein königliches Anwesen", nl: "Een koninklijk landgoed" },
+          { en: "A prison", es: "Una prisión", de: "Ein Gefängnis", nl: "Een gevangenis" },
+          { en: "A market", es: "Un mercado", de: "Ein Markt", nl: "Een markt" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Machu Picchu is believed to have been a royal estate for the Inca emperor Pachacuti and possibly a sacred religious site.",
+          es: "Se cree que Machu Picchu fue una finca real para el emperador Inca Pachacuti y posiblemente un sitio religioso sagrado.",
+          de: "Es wird angenommen, dass Machu Picchu ein königliches Anwesen für den Inka-Kaiser Pachacuti und möglicherweise eine heilige religiöse Stätte war.",
+          nl: "Er wordt aangenomen dat Machu Picchu een koninklijk landgoed was voor de Inca-keizer Pachacuti en mogelijk een heilige religieuze plaats."
+        }
+      },
+      {
+        question: {
+          en: "What is special about the stone work at Machu Picchu?",
+          es: "¿Qué hay de especial en el trabajo de piedra de Machu Picchu?",
+          de: "Was ist besonders an der Steinarbeit in Machu Picchu?",
+          nl: "Wat is speciaal aan het steenwerk in Machu Picchu?"
+        },
+        options: [
+          { en: "Stones were glued together", es: "Las piedras fueron pegadas", de: "Die Steine wurden geklebt", nl: "Stenen werden aan elkaar gelijmd" },
+          { en: "Stones fit perfectly without mortar", es: "Las piedras encajan perfectamente sin mortero", de: "Steine passen perfekt ohne Mörtel", nl: "Stenen passen perfect zonder mortel" },
+          { en: "Stones were painted", es: "Las piedras fueron pintadas", de: "Die Steine wurden bemalt", nl: "Stenen werden geschilderd" },
+          { en: "Stones were hollow", es: "Las piedras eran huecas", de: "Die Steine waren hohl", nl: "Stenen waren hol" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Inca stonework at Machu Picchu is famous for its precision. Stones were cut and fitted so perfectly that no mortar was needed.",
+          es: "El trabajo de piedra Inca en Machu Picchu es famoso por su precisión. Las piedras fueron cortadas y ajustadas tan perfectamente que no se necesitó mortero.",
+          de: "Die Inka-Steinarbeit in Machu Picchu ist berühmt für ihre Präzision. Steine wurden so perfekt geschnitten und angepasst, dass kein Mörtel benötigt wurde.",
+          nl: "Het Inca-steenwerk in Machu Picchu is beroemd om zijn precisie. Stenen werden zo perfect gesneden en gepast dat er geen mortel nodig was."
+        }
+      },
+      {
+        question: {
+          en: "Why was Machu Picchu built at such a high altitude?",
+          es: "¿Por qué se construyó Machu Picchu a tan gran altitud?",
+          de: "Warum wurde Machu Picchu in solch großer Höhe gebaut?",
+          nl: "Waarom werd Machu Picchu op zo'n grote hoogte gebouwd?"
+        },
+        options: [
+          { en: "For defense and secrecy", es: "Por defensa y secreto", de: "Zur Verteidigung und Geheimhaltung", nl: "Voor verdediging en geheimhouding" },
+          { en: "For better weather", es: "Por mejor clima", de: "Für besseres Wetter", nl: "Voor beter weer" },
+          { en: "For mining gold", es: "Para extraer oro", de: "Zum Goldabbau", nl: "Voor het delven van goud" },
+          { en: "By accident", es: "Por accidente", de: "Aus Versehen", nl: "Bij ongeluk" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The high altitude location provided natural defense and secrecy, helping to keep Machu Picchu hidden from invaders and making it a secure royal retreat.",
+          es: "La ubicación a gran altitud proporcionó defensa natural y secreto, ayudando a mantener Machu Picchu oculto de los invasores y convirtiéndolo en un retiro real seguro.",
+          de: "Die Lage in großer Höhe bot natürlichen Schutz und Geheimhaltung, half Machu Picchu vor Eindringlingen verborgen zu halten und machte es zu einem sicheren königlichen Rückzugsort.",
+          nl: "De locatie op grote hoogte bood natuurlijke verdediging en geheimhouding, waardoor Machu Picchu verborgen bleef voor indringers en het een veilig koninklijk toevluchtsoord werd."
+        }
+      },
+      {
+        question: {
+          en: "What season has the most rain at Machu Picchu?",
+          es: "¿Qué estación tiene más lluvia en Machu Picchu?",
+          de: "Welche Jahreszeit hat am meisten Regen in Machu Picchu?",
+          nl: "Welk seizoen heeft de meeste regen in Machu Picchu?"
+        },
+        options: [
+          { en: "Summer (Dec-Mar)", es: "Verano (Dic-Mar)", de: "Sommer (Dez-März)", nl: "Zomer (Dec-Mrt)" },
+          { en: "Fall (Apr-Jun)", es: "Otoño (Abr-Jun)", de: "Herbst (Apr-Jun)", nl: "Herfst (Apr-Jun)" },
+          { en: "Winter (Jul-Sep)", es: "Invierno (Jul-Sep)", de: "Winter (Jul-Sep)", nl: "Winter (Jul-Sep)" },
+          { en: "Spring (Oct-Nov)", es: "Primavera (Oct-Nov)", de: "Frühling (Okt-Nov)", nl: "Lente (Okt-Nov)" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The rainy season at Machu Picchu runs from December to March. Many tourists prefer visiting during the dry season (May-September).",
+          es: "La temporada de lluvias en Machu Picchu va de diciembre a marzo. Muchos turistas prefieren visitar durante la temporada seca (mayo-septiembre).",
+          de: "Die Regenzeit in Machu Picchu dauert von Dezember bis März. Viele Touristen bevorzugen einen Besuch während der Trockenzeit (Mai-September).",
+          nl: "Het regenseizoen in Machu Picchu loopt van december tot maart. Veel toeristen geven de voorkeur aan een bezoek tijdens het droge seizoen (mei-september)."
+        }
+      },
+      {
+        question: {
+          en: "What crop did the Incas grow at Machu Picchu?",
+          es: "¿Qué cultivo cultivaron los Incas en Machu Picchu?",
+          de: "Welche Nutzpflanze bauten die Inkas in Machu Picchu an?",
+          nl: "Welk gewas verbouwden de Inca's in Machu Picchu?"
+        },
+        options: [
+          { en: "Wheat", es: "Trigo", de: "Weizen", nl: "Tarwe" },
+          { en: "Rice", es: "Arroz", de: "Reis", nl: "Rijst" },
+          { en: "Potatoes and corn", es: "Papas y maíz", de: "Kartoffeln und Mais", nl: "Aardappelen en maïs" },
+          { en: "Bananas", es: "Plátanos", de: "Bananen", nl: "Bananen" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Incas grew potatoes, corn, and other crops on the agricultural terraces at Machu Picchu to feed the residents.",
+          es: "Los Incas cultivaron papas, maíz y otros cultivos en las terrazas agrícolas de Machu Picchu para alimentar a los residentes.",
+          de: "Die Inkas bauten Kartoffeln, Mais und andere Nutzpflanzen auf den landwirtschaftlichen Terrassen in Machu Picchu an, um die Bewohner zu ernähren.",
+          nl: "De Inca's verbouwden aardappelen, maïs en andere gewassen op de landbouwterrassen in Machu Picchu om de bewoners te voeden."
+        }
+      },
+      {
+        question: {
+          en: "How long was Machu Picchu inhabited?",
+          es: "¿Cuánto tiempo estuvo habitado Machu Picchu?",
+          de: "Wie lange war Machu Picchu bewohnt?",
+          nl: "Hoe lang was Machu Picchu bewoond?"
+        },
+        options: [
+          { en: "About 10 years", es: "Alrededor de 10 años", de: "Etwa 10 Jahre", nl: "Ongeveer 10 jaar" },
+          { en: "About 50 years", es: "Alrededor de 50 años", de: "Etwa 50 Jahre", nl: "Ongeveer 50 jaar" },
+          { en: "About 100 years", es: "Alrededor de 100 años", de: "Etwa 100 Jahre", nl: "Ongeveer 100 jaar" },
+          { en: "About 500 years", es: "Alrededor de 500 años", de: "Etwa 500 Jahre", nl: "Ongeveer 500 jaar" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Machu Picchu was inhabited for approximately 100 years, from around 1450 until it was abandoned around 1550 during the Spanish conquest.",
+          es: "Machu Picchu estuvo habitado durante aproximadamente 100 años, desde alrededor de 1450 hasta que fue abandonado alrededor de 1550 durante la conquista española.",
+          de: "Machu Picchu war etwa 100 Jahre lang bewohnt, von etwa 1450 bis es um 1550 während der spanischen Eroberung aufgegeben wurde.",
+          nl: "Machu Picchu was ongeveer 100 jaar bewoond, van rond 1450 tot het rond 1550 werd verlaten tijdens de Spaanse verovering."
+        }
+      },
+      {
+        question: {
+          en: "What is Huayna Picchu?",
+          es: "¿Qué es Huayna Picchu?",
+          de: "Was ist Huayna Picchu?",
+          nl: "Wat is Huayna Picchu?"
+        },
+        options: [
+          { en: "A neighboring mountain peak", es: "Un pico montañoso vecino", de: "Ein benachbarter Berggipfel", nl: "Een naburige bergpiek" },
+          { en: "A type of food", es: "Un tipo de comida", de: "Eine Art von Essen", nl: "Een soort voedsel" },
+          { en: "An Inca king", es: "Un rey Inca", de: "Ein Inka-König", nl: "Een Inca-koning" },
+          { en: "A river", es: "Un río", de: "Ein Fluss", nl: "Een rivier" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Huayna Picchu is the mountain peak that rises behind Machu Picchu in most photographs. Visitors can hike to its summit for spectacular views.",
+          es: "Huayna Picchu es el pico de montaña que se eleva detrás de Machu Picchu en la mayoría de las fotografías. Los visitantes pueden subir a su cumbre para vistas espectaculares.",
+          de: "Huayna Picchu ist der Berggipfel, der auf den meisten Fotografien hinter Machu Picchu emporragt. Besucher können zu seinem Gipfel wandern für spektakuläre Aussichten.",
+          nl: "Huayna Picchu is de bergpiek die achter Machu Picchu oprijst op de meeste foto's. Bezoekers kunnen naar de top wandelen voor spectaculaire uitzichten."
+        }
+      },
+      {
+        question: {
+          en: "What material did the Incas use for roofs at Machu Picchu?",
+          es: "¿Qué material usaron los Incas para los techos en Machu Picchu?",
+          de: "Welches Material verwendeten die Inkas für Dächer in Machu Picchu?",
+          nl: "Welk materiaal gebruikten de Inca's voor daken in Machu Picchu?"
+        },
+        options: [
+          { en: "Thatch (grass)", es: "Paja (hierba)", de: "Stroh (Gras)", nl: "Stro (gras)" },
+          { en: "Tiles", es: "Tejas", de: "Ziegel", nl: "Tegels" },
+          { en: "Metal sheets", es: "Láminas de metal", de: "Metallbleche", nl: "Metalen platen" },
+          { en: "Concrete", es: "Concreto", de: "Beton", nl: "Beton" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Incas used thatch made from ichu grass for roofs. These organic materials have not survived, so only the stone walls remain today.",
+          es: "Los Incas usaron paja hecha de hierba ichu para los techos. Estos materiales orgánicos no han sobrevivido, por lo que solo quedan las paredes de piedra hoy.",
+          de: "Die Inkas verwendeten Stroh aus Ichu-Gras für Dächer. Diese organischen Materialien haben nicht überlebt, daher sind heute nur die Steinmauern erhalten.",
+          nl: "De Inca's gebruikten stro gemaakt van ichu-gras voor daken. Deze organische materialen hebben het niet overleefd, dus alleen de stenen muren blijven vandaag over."
+        }
+      },
+      {
+        question: {
+          en: "What does Machu Picchu demonstrate about Inca engineering?",
+          es: "¿Qué demuestra Machu Picchu sobre la ingeniería Inca?",
+          de: "Was demonstriert Machu Picchu über Inka-Ingenieurskunst?",
+          nl: "Wat toont Machu Picchu aan over Inca-techniek?"
+        },
+        options: [
+          { en: "They were poor builders", es: "Eran malos constructores", de: "Sie waren schlechte Baumeister", nl: "Ze waren slechte bouwers" },
+          { en: "They had advanced skills", es: "Tenían habilidades avanzadas", de: "Sie hatten fortgeschrittene Fähigkeiten", nl: "Ze hadden geavanceerde vaardigheden" },
+          { en: "They copied other cultures", es: "Copiaron otras culturas", de: "Sie kopierten andere Kulturen", nl: "Ze kopieerden andere culturen" },
+          { en: "They used modern tools", es: "Usaron herramientas modernas", de: "Sie benutzten moderne Werkzeuge", nl: "Ze gebruikten moderne gereedschappen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Machu Picchu demonstrates the Incas' advanced engineering skills in stonework, drainage, agriculture, and astronomy without modern tools.",
+          es: "Machu Picchu demuestra las habilidades avanzadas de ingeniería de los Incas en trabajo de piedra, drenaje, agricultura y astronomía sin herramientas modernas.",
+          de: "Machu Picchu demonstriert die fortgeschrittenen Ingenieurfähigkeiten der Inkas in Steinarbeit, Entwässerung, Landwirtschaft und Astronomie ohne moderne Werkzeuge.",
+          nl: "Machu Picchu toont de geavanceerde technische vaardigheden van de Inca's in steenbewerking, drainage, landbouw en astronomie zonder moderne gereedschappen."
+        }
+      },
+      {
+        question: {
+          en: "Why do visitors need to acclimatize before visiting Machu Picchu?",
+          es: "¿Por qué los visitantes necesitan aclimatarse antes de visitar Machu Picchu?",
+          de: "Warum müssen sich Besucher vor dem Besuch von Machu Picchu akklimatisieren?",
+          nl: "Waarom moeten bezoekers acclimatiseren voor een bezoek aan Machu Picchu?"
+        },
+        options: [
+          { en: "Because of the heat", es: "Debido al calor", de: "Wegen der Hitze", nl: "Vanwege de hitte" },
+          { en: "Because of the high altitude", es: "Debido a la gran altitud", de: "Wegen der großen Höhe", nl: "Vanwege de grote hoogte" },
+          { en: "Because of the cold", es: "Debido al frío", de: "Wegen der Kälte", nl: "Vanwege de kou" },
+          { en: "Because of the rain", es: "Debido a la lluvia", de: "Wegen des Regens", nl: "Vanwege de regen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "At 2,430 meters elevation, the high altitude can cause altitude sickness. Visitors should spend time in Cusco first to adjust to the thinner air.",
+          es: "A 2,430 metros de altitud, la gran altitud puede causar mal de altura. Los visitantes deben pasar tiempo en Cusco primero para ajustarse al aire más delgado.",
+          de: "Auf 2.430 Metern Höhe kann die große Höhe Höhenkrankheit verursachen. Besucher sollten zuerst Zeit in Cusco verbringen, um sich an die dünnere Luft zu gewöhnen.",
+          nl: "Op 2.430 meter hoogte kan de grote hoogte hoogteziekte veroorzaken. Bezoekers moeten eerst tijd in Cusco doorbrengen om aan de ijlere lucht te wennen."
+        }
+      },
+      {
+        question: {
+          en: "What famous hiking trail leads to Machu Picchu?",
+          es: "¿Qué famoso sendero de senderismo conduce a Machu Picchu?",
+          de: "Welcher berühmte Wanderweg führt nach Machu Picchu?",
+          nl: "Welk beroemd wandelpad leidt naar Machu Picchu?"
+        },
+        options: [
+          { en: "The Appalachian Trail", es: "El Sendero de los Apalaches", de: "Der Appalachian Trail", nl: "Het Appalachian Trail" },
+          { en: "The Inca Trail", es: "El Camino Inca", de: "Der Inka-Pfad", nl: "Het Inca-pad" },
+          { en: "The Pacific Crest Trail", es: "El Sendero de la Cresta del Pacífico", de: "Der Pacific Crest Trail", nl: "Het Pacific Crest Trail" },
+          { en: "The Silk Road", es: "La Ruta de la Seda", de: "Die Seidenstraße", nl: "De Zijderoute" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Inca Trail is a famous multi-day hiking route that follows ancient Inca pathways to reach Machu Picchu. It takes about 4 days to complete.",
+          es: "El Camino Inca es una famosa ruta de senderismo de varios días que sigue antiguos caminos Incas para llegar a Machu Picchu. Toma alrededor de 4 días completarlo.",
+          de: "Der Inka-Pfad ist eine berühmte mehrtägige Wanderroute, die alten Inka-Wegen folgt, um Machu Picchu zu erreichen. Es dauert etwa 4 Tage.",
+          nl: "Het Inca-pad is een beroemde meerdaagse wandelroute die oude Inca-paden volgt om Machu Picchu te bereiken. Het duurt ongeveer 4 dagen om te voltooien."
+        }
+      },
+      {
+        question: {
+          en: "Why is Machu Picchu considered sacred?",
+          es: "¿Por qué se considera sagrado Machu Picchu?",
+          de: "Warum wird Machu Picchu als heilig angesehen?",
+          nl: "Waarom wordt Machu Picchu als heilig beschouwd?"
+        },
+        options: [
+          { en: "It was a place of worship and astronomy", es: "Era un lugar de culto y astronomía", de: "Es war ein Ort der Anbetung und Astronomie", nl: "Het was een plaats van aanbidding en astronomie" },
+          { en: "It was a shopping center", es: "Era un centro comercial", de: "Es war ein Einkaufszentrum", nl: "Het was een winkelcentrum" },
+          { en: "It was a sports stadium", es: "Era un estadio deportivo", de: "Es war ein Sportstadion", nl: "Het was een sportstadion" },
+          { en: "It was a school", es: "Era una escuela", de: "Es war eine Schule", nl: "Het was een school" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Machu Picchu had religious temples and was used for astronomical observations. The Incas worshipped the sun and used the site for ceremonies.",
+          es: "Machu Picchu tenía templos religiosos y se usaba para observaciones astronómicas. Los Incas adoraban al sol y usaban el sitio para ceremonias.",
+          de: "Machu Picchu hatte religiöse Tempel und wurde für astronomische Beobachtungen genutzt. Die Inkas verehrten die Sonne und nutzten die Stätte für Zeremonien.",
+          nl: "Machu Picchu had religieuze tempels en werd gebruikt voor astronomische waarnemingen. De Inca's aanbaden de zon en gebruikten de site voor ceremonies."
+        }
+      },
+      {
+        question: {
+          en: "What is the Intihuatana stone?",
+          es: "¿Qué es la piedra Intihuatana?",
+          de: "Was ist der Intihuatana-Stein?",
+          nl: "Wat is de Intihuatana-steen?"
+        },
+        options: [
+          { en: "A sundial stone", es: "Una piedra de reloj solar", de: "Ein Sonnenuhren-Stein", nl: "Een zonnewijzersteen" },
+          { en: "A cooking stone", es: "Una piedra de cocina", de: "Ein Kochstein", nl: "Een kooksteen" },
+          { en: "A sleeping stone", es: "Una piedra para dormir", de: "Ein Schlafstein", nl: "Een slaapsteen" },
+          { en: "A decorative stone", es: "Una piedra decorativa", de: "Ein Dekorationsstein", nl: "Een decoratieve steen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Intihuatana stone was used as an astronomical clock or sundial by the Incas to mark solstices and track the sun's movements.",
+          es: "La piedra Intihuatana fue utilizada como reloj astronómico o reloj solar por los Incas para marcar solsticios y rastrear los movimientos del sol.",
+          de: "Der Intihuatana-Stein wurde von den Inkas als astronomische Uhr oder Sonnenuhr verwendet, um Sonnenwenden zu markieren und die Bewegungen der Sonne zu verfolgen.",
+          nl: "De Intihuatana-steen werd door de Inca's gebruikt als astronomische klok of zonnewijzer om zonnewendes te markeren en de bewegingen van de zon te volgen."
+        }
+      },
+      {
+        question: {
+          en: "How many tourists visit Machu Picchu each year?",
+          es: "¿Cuántos turistas visitan Machu Picchu cada año?",
+          de: "Wie viele Touristen besuchen Machu Picchu jedes Jahr?",
+          nl: "Hoeveel toeristen bezoeken Machu Picchu elk jaar?"
+        },
+        options: [
+          { en: "About 50,000", es: "Alrededor de 50,000", de: "Etwa 50.000", nl: "Ongeveer 50.000" },
+          { en: "About 500,000", es: "Alrededor de 500,000", de: "Etwa 500.000", nl: "Ongeveer 500.000" },
+          { en: "About 1.5 million", es: "Alrededor de 1.5 millones", de: "Etwa 1,5 Millionen", nl: "Ongeveer 1,5 miljoen" },
+          { en: "About 5 million", es: "Alrededor de 5 millones", de: "Etwa 5 Millionen", nl: "Ongeveer 5 miljoen" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Approximately 1.5 million tourists visit Machu Picchu each year, making it Peru's most visited tourist attraction.",
+          es: "Aproximadamente 1.5 millones de turistas visitan Machu Picchu cada año, convirtiéndolo en la atracción turística más visitada de Perú.",
+          de: "Etwa 1,5 Millionen Touristen besuchen Machu Picchu jedes Jahr, was es zu Perus meistbesuchter Touristenattraktion macht.",
+          nl: "Ongeveer 1,5 miljoen toeristen bezoeken Machu Picchu elk jaar, waardoor het Peru's meest bezochte toeristische attractie is."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of the drainage system at Machu Picchu?",
+          es: "¿Cuál es el propósito del sistema de drenaje en Machu Picchu?",
+          de: "Was ist der Zweck des Entwässerungssystems in Machu Picchu?",
+          nl: "Wat is het doel van het afvoersysteem in Machu Picchu?"
+        },
+        options: [
+          { en: "To remove rainwater", es: "Para eliminar el agua de lluvia", de: "Um Regenwasser abzuleiten", nl: "Om regenwater af te voeren" },
+          { en: "To store water", es: "Para almacenar agua", de: "Um Wasser zu speichern", nl: "Om water op te slaan" },
+          { en: "To heat buildings", es: "Para calentar edificios", de: "Um Gebäude zu heizen", nl: "Om gebouwen te verwarmen" },
+          { en: "For decoration", es: "Para decoración", de: "Zur Dekoration", nl: "Voor decoratie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Incas built an advanced drainage system with channels to remove the heavy rainfall and prevent erosion, which helps preserve the site today.",
+          es: "Los Incas construyeron un avanzado sistema de drenaje con canales para eliminar las fuertes lluvias y prevenir la erosión, lo que ayuda a preservar el sitio hoy.",
+          de: "Die Inkas bauten ein fortschrittliches Entwässerungssystem mit Kanälen, um den starken Niederschlag abzuleiten und Erosion zu verhindern, was hilft, die Stätte heute zu erhalten.",
+          nl: "De Inca's bouwden een geavanceerd afvoersysteem met kanalen om de zware regenval af te voeren en erosie te voorkomen, wat helpt de site vandaag te bewaren."
+        }
+      },
+      {
+        question: {
+          en: "What continent is Machu Picchu on?",
+          es: "¿En qué continente está Machu Picchu?",
+          de: "Auf welchem Kontinent liegt Machu Picchu?",
+          nl: "Op welk continent ligt Machu Picchu?"
+        },
+        options: [
+          { en: "North America", es: "América del Norte", de: "Nordamerika", nl: "Noord-Amerika" },
+          { en: "South America", es: "América del Sur", de: "Südamerika", nl: "Zuid-Amerika" },
+          { en: "Europe", es: "Europa", de: "Europa", nl: "Europa" },
+          { en: "Asia", es: "Asia", de: "Asien", nl: "Azië" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Machu Picchu is located in South America, specifically in the country of Peru in the Andes Mountains.",
+          es: "Machu Picchu está ubicado en América del Sur, específicamente en el país de Perú en la cordillera de los Andes.",
+          de: "Machu Picchu liegt in Südamerika, genauer gesagt im Land Peru in den Anden.",
+          nl: "Machu Picchu ligt in Zuid-Amerika, specifiek in het land Peru in het Andesgebergte."
+        }
       }
     ]
   };

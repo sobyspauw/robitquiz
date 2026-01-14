@@ -319,6 +319,331 @@
                 de: "MGU-H wird entfernt, weil es extrem komplex, teuer und für Straßenautos wenig relevant ist.",
                 nl: "MGU-H wordt verwijderd omdat het extreem complex en duur is en beperkte toepassing heeft voor straatauto technologie."
             }
+        },
+        {
+            question: {
+                en: "What is the maximum energy storage capacity of the Energy Store?",
+                es: "¿Cuál es la capacidad máxima de almacenamiento de energía del Energy Store?",
+                de: "Was ist die maximale Energiespeicherkapazität des Energy Store?",
+                nl: "Wat is de maximale energieopslagcapaciteit van de Energy Store?"
+            },
+            options: ["2 MJ", "4 MJ", "6 MJ", "8 MJ"],
+            correct: 1,
+            explanation: {
+                en: "The Energy Store can hold a maximum of 4 megajoules of electrical energy at any given time.",
+                es: "El Energy Store puede contener un máximo de 4 megajulios de energía eléctrica en cualquier momento.",
+                de: "Der Energy Store kann maximal 4 Megajoule elektrische Energie zu jedem Zeitpunkt speichern.",
+                nl: "De Energy Store kan maximaal 4 megajoules elektrische energie bevatten op elk gegeven moment."
+            }
+        },
+        {
+            question: {
+                en: "What is Jet Ignition technology?",
+                es: "¿Qué es la tecnología Jet Ignition?",
+                de: "Was ist Jet-Ignition-Technologie?",
+                nl: "Wat is Jet Ignition technologie?"
+            },
+            options: ["Fuel injection system", "Pre-chamber combustion creating plasma jets", "Turbocharger type", "Spark plug design"],
+            correct: 1,
+            explanation: {
+                en: "Jet Ignition uses pre-chambers to create multiple plasma jets that ignite the main combustion chamber extremely rapidly.",
+                es: "Jet Ignition usa precámaras para crear múltiples chorros de plasma que encienden la cámara principal extremadamente rápido.",
+                de: "Jet Ignition nutzt Vorkammern um mehrere Plasmastrahlen zu erzeugen die Hauptkammer extrem schnell zünden.",
+                nl: "Jet Ignition gebruikt voorkamers om meerdere plasmastralen te creëren die de hoofdverbrandingskamer extreem snel ontsteken."
+            }
+        },
+        {
+            question: {
+                en: "How much power does the ICE produce in current F1 power units?",
+                es: "¿Cuánta potencia produce el ICE en las unidades de potencia actuales de F1?",
+                de: "Wie viel Leistung produziert der Verbrennungsmotor in aktuellen F1-Antrieben?",
+                nl: "Hoeveel vermogen produceert de ICE in huidige F1 aandrijfeenheden?"
+            },
+            options: ["650 HP", "750 HP", "850 HP", "950 HP"],
+            correct: 2,
+            explanation: {
+                en: "The internal combustion engine produces approximately 850 horsepower, with MGU-K adding another 160 HP for total ~1000 HP.",
+                es: "El motor de combustión interna produce aproximadamente 850 caballos, con MGU-K añadiendo otros 160 para total ~1000.",
+                de: "Der Verbrennungsmotor produziert etwa 850 PS, MGU-K fügt weitere 160 PS für insgesamt ~1000 PS hinzu.",
+                nl: "De verbrandingsmotor produceert ongeveer 850 pk, met MGU-K die nog eens 160 pk toevoegt voor totaal ~1000 pk."
+            }
+        },
+        {
+            question: {
+                en: "What is the compression ratio limit in F1 engines?",
+                es: "¿Cuál es el límite de relación de compresión en motores de F1?",
+                de: "Was ist das Verdichtungsverhältnis-Limit in F1-Motoren?",
+                nl: "Wat is de compressieverhouding limiet in F1-motoren?"
+            },
+            options: ["10:1", "12:1", "18:1 maximum", "No limit"],
+            correct: 2,
+            explanation: {
+                en: "F1 engines are limited to a maximum compression ratio of 18:1 to control power output and promote efficiency.",
+                es: "Los motores de F1 están limitados a una relación de compresión máxima de 18:1 para controlar potencia y promover eficiencia.",
+                de: "F1-Motoren sind auf ein maximales Verdichtungsverhältnis von 18:1 begrenzt um Leistung zu kontrollieren.",
+                nl: "F1-motoren zijn beperkt tot een maximale compressieverhouding van 18:1 om vermogen te controleren en efficiëntie te bevorderen."
+            }
+        },
+        {
+            question: {
+                en: "What is Turbulent Jet Ignition (TJI)?",
+                es: "¿Qué es la Ignición por Chorro Turbulento (TJI)?",
+                de: "Was ist Turbulent Jet Ignition (TJI)?",
+                nl: "Wat is Turbulent Jet Ignition (TJI)?"
+            },
+            options: ["Fuel injection", "Pre-chamber creating turbulent flame jets for ultra-lean combustion", "Turbocharger boost", "Exhaust system"],
+            correct: 1,
+            explanation: {
+                en: "TJI creates turbulent flame jets from a pre-chamber enabling ultra-lean combustion for maximum efficiency.",
+                es: "TJI crea chorros de llama turbulentos desde precámara permitiendo combustión ultra pobre para máxima eficiencia.",
+                de: "TJI erzeugt turbulente Flammenstrahlen aus Vorkammer für ultra-magere Verbrennung und maximale Effizienz.",
+                nl: "TJI creëert turbulente vlamstralen vanuit een voorkamer wat ultra-magere verbranding mogelijk maakt voor maximale efficiëntie."
+            }
+        },
+        {
+            question: {
+                en: "How is the Control Electronics (ECU) standardized?",
+                es: "¿Cómo se estandariza la Electrónica de Control (ECU)?",
+                de: "Wie ist die Steuerungselektronik (ECU) standardisiert?",
+                nl: "Hoe is de besturingselektronica (ECU) gestandaardiseerd?"
+            },
+            options: ["Each team designs own", "McLaren Applied Technologies supplies standard ECU to all", "FIA provides ECU", "Engine manufacturers provide"],
+            correct: 1,
+            explanation: {
+                en: "All teams must use the same standard ECU supplied by McLaren Applied Technologies to ensure fairness.",
+                es: "Todos los equipos deben usar la misma ECU estándar suministrada por McLaren Applied Technologies para asegurar equidad.",
+                de: "Alle Teams müssen dieselbe Standard-ECU von McLaren Applied Technologies verwenden für Fairness.",
+                nl: "Alle teams moeten dezelfde standaard ECU gebruiken geleverd door McLaren Applied Technologies om eerlijkheid te waarborgen."
+            }
+        },
+        {
+            question: {
+                en: "What is the V angle of F1 V6 engines?",
+                es: "¿Cuál es el ángulo V de los motores V6 de F1?",
+                de: "Was ist der V-Winkel von F1-V6-Motoren?",
+                nl: "Wat is de V-hoek van F1 V6-motoren?"
+            },
+            options: ["60 degrees", "90 degrees", "120 degrees", "Teams choose"],
+            correct: 1,
+            explanation: {
+                en: "F1 V6 turbo hybrid engines must have a 90-degree V angle as specified in the regulations.",
+                es: "Los motores V6 turbo híbridos de F1 deben tener un ángulo V de 90 grados según las regulaciones.",
+                de: "F1-V6-Turbo-Hybridmotoren müssen einen 90-Grad-V-Winkel haben laut Reglement.",
+                nl: "F1 V6 turbo hybride motoren moeten een 90-graden V-hoek hebben zoals gespecificeerd in de reglementen."
+            }
+        },
+        {
+            question: {
+                en: "What is the minimum weight of the complete power unit?",
+                es: "¿Cuál es el peso mínimo de la unidad de potencia completa?",
+                de: "Was ist das Mindestgewicht der kompletten Antriebseinheit?",
+                nl: "Wat is het minimumgewicht van de complete aandrijfeenheid?"
+            },
+            options: ["95 kg", "135 kg", "145 kg", "No minimum"],
+            correct: 2,
+            explanation: {
+                en: "The complete power unit including ICE, turbo, MGU-K, MGU-H, and Energy Store must weigh at least 145 kg.",
+                es: "La unidad de potencia completa incluyendo ICE, turbo, MGU-K, MGU-H y Energy Store debe pesar al menos 145 kg.",
+                de: "Die komplette Antriebseinheit mit Verbrennungsmotor, Turbo, MGU-K, MGU-H und Energy Store muss mindestens 145 kg wiegen.",
+                nl: "De complete aandrijfeenheid inclusief ICE, turbo, MGU-K, MGU-H en Energy Store moet minstens 145 kg wegen."
+            }
+        },
+        {
+            question: {
+                en: "How many fuel injectors per cylinder are allowed?",
+                es: "¿Cuántos inyectores de combustible por cilindro están permitidos?",
+                de: "Wie viele Kraftstoffinjektoren pro Zylinder sind erlaubt?",
+                nl: "Hoeveel brandstofinjectoren per cilinder zijn toegestaan?"
+            },
+            options: ["One injector maximum", "Two injectors allowed", "Three injectors", "No limit"],
+            correct: 0,
+            explanation: {
+                en: "Regulations allow only one fuel injector per cylinder, positioned to inject directly into the combustion chamber.",
+                es: "Las regulaciones permiten solo un inyector de combustible por cilindro, posicionado para inyectar directamente en la cámara.",
+                de: "Regeln erlauben nur einen Kraftstoffinjektor pro Zylinder, positioniert für direkte Einspritzung.",
+                nl: "Reglementen staan slechts één brandstofinjector per cilinder toe, gepositioneerd om direct in de verbrandingskamer te injecteren."
+            }
+        },
+        {
+            question: {
+                en: "What is the maximum RPM limit for V6 turbo engines?",
+                es: "¿Cuál es el límite máximo de RPM para motores V6 turbo?",
+                de: "Was ist das maximale Drehzahllimit für V6-Turbomotoren?",
+                nl: "Wat is de maximale RPM-limiet voor V6 turbo motoren?"
+            },
+            options: ["12,000 RPM", "15,000 RPM", "18,000 RPM", "No limit"],
+            correct: 1,
+            explanation: {
+                en: "V6 turbo hybrid engines are limited to a maximum of 15,000 RPM to control costs and stress on components.",
+                es: "Los motores V6 turbo híbridos están limitados a un máximo de 15,000 RPM para controlar costos y estrés.",
+                de: "V6-Turbo-Hybridmotoren sind auf maximal 15.000 U/min begrenzt um Kosten und Belastung zu kontrollieren.",
+                nl: "V6 turbo hybride motoren zijn beperkt tot maximaal 15.000 RPM om kosten en stress op componenten te beheersen."
+            }
+        },
+        {
+            question: {
+                en: "What is the bore and stroke configuration mandated?",
+                es: "¿Cuál es la configuración de diámetro y carrera obligatoria?",
+                de: "Welche Bohrung-Hub-Konfiguration ist vorgeschrieben?",
+                nl: "Wat is de voorgeschreven boring- en slagconfiguratie?"
+            },
+            options: ["Teams choose freely", "80mm bore, 53mm stroke maximum", "100mm bore, 80mm stroke", "No regulations"],
+            correct: 1,
+            explanation: {
+                en: "F1 regulations mandate a maximum bore of 80mm and maximum stroke of 53mm for the V6 engines.",
+                es: "Las regulaciones de F1 exigen un diámetro máximo de 80mm y carrera máxima de 53mm para motores V6.",
+                de: "F1-Regeln schreiben maximal 80mm Bohrung und 53mm Hub für V6-Motoren vor.",
+                nl: "F1-reglementen verplichten een maximale boring van 80mm en maximale slag van 53mm voor de V6-motoren."
+            }
+        },
+        {
+            question: {
+                en: "What is direct fuel injection pressure in F1?",
+                es: "¿Cuál es la presión de inyección directa de combustible en F1?",
+                de: "Was ist der Direkteinspritz-Kraftstoffdruck in F1?",
+                nl: "Wat is de directe brandstof injectiedruk in F1?"
+            },
+            options: ["50 bar", "200 bar", "500 bar maximum", "1000 bar"],
+            correct: 2,
+            explanation: {
+                en: "Fuel injection pressure is limited to a maximum of 500 bar to control combustion characteristics.",
+                es: "La presión de inyección está limitada a un máximo de 500 bar para controlar características de combustión.",
+                de: "Kraftstoffeinspritzdruck ist auf maximal 500 bar begrenzt um Verbrennungscharakteristik zu kontrollieren.",
+                nl: "Brandstof injectiedruk is beperkt tot maximaal 500 bar om verbrandingskenmerken te controleren."
+            }
+        },
+        {
+            question: {
+                en: "How many spark plugs per cylinder are allowed?",
+                es: "¿Cuántas bujías por cilindro están permitidas?",
+                de: "Wie viele Zündkerzen pro Zylinder sind erlaubt?",
+                nl: "Hoeveel bougies per cilinder zijn toegestaan?"
+            },
+            options: ["One maximum", "Two allowed", "Three allowed", "No limit"],
+            correct: 0,
+            explanation: {
+                en: "Each cylinder can have only one spark plug, though pre-chamber ignition systems are permitted.",
+                es: "Cada cilindro puede tener solo una bujía, aunque se permiten sistemas de ignición de precámara.",
+                de: "Jeder Zylinder darf nur eine Zündkerze haben, obwohl Vorkammer-Zündsysteme erlaubt sind.",
+                nl: "Elke cilinder mag slechts één bougie hebben, hoewel voorkamer ontstekingssystemen zijn toegestaan."
+            }
+        },
+        {
+            question: {
+                en: "What is the purpose of Anti-Lag systems in F1?",
+                es: "¿Cuál es el propósito de los sistemas Anti-Lag en F1?",
+                de: "Was ist der Zweck von Anti-Lag-Systemen in F1?",
+                nl: "Wat is het doel van Anti-Lag systemen in F1?"
+            },
+            options: ["Reduce weight", "Maintain turbo speed between shifts and off-throttle", "Cool engine", "Improve fuel economy"],
+            correct: 1,
+            explanation: {
+                en: "Anti-lag systems maintain turbo speed during gear changes and off-throttle moments to eliminate response lag.",
+                es: "Los sistemas anti-lag mantienen velocidad del turbo durante cambios de marcha para eliminar retraso de respuesta.",
+                de: "Anti-Lag-Systeme halten Turbodrehzahl bei Schaltvorgängen aufrecht um Reaktionsverzögerung zu eliminieren.",
+                nl: "Anti-lag systemen houden turbosnelheid vast tijdens schakelmomenten om reactielag te elimineren."
+            }
+        },
+        {
+            question: {
+                en: "What cooling system is used for the Energy Store?",
+                es: "¿Qué sistema de enfriamiento se usa para el Energy Store?",
+                de: "Welches Kühlsystem wird für den Energy Store verwendet?",
+                nl: "Welk koelsysteem wordt gebruikt voor de Energy Store?"
+            },
+            options: ["Air cooling only", "Liquid cooling with dedicated heat exchangers", "No cooling needed", "Phase-change cooling"],
+            correct: 1,
+            explanation: {
+                en: "The Energy Store uses sophisticated liquid cooling with dedicated heat exchangers to manage high heat loads.",
+                es: "El Energy Store usa enfriamiento líquido sofisticado con intercambiadores de calor dedicados para gestionar altas cargas térmicas.",
+                de: "Der Energy Store nutzt ausgeklügelte Flüssigkeitskühlung mit dedizierten Wärmetauschern für hohe Wärmelasten.",
+                nl: "De Energy Store gebruikt geavanceerde vloeistofkoeling met toegewijde warmtewisselaars om hoge warmtebelastingen te beheren."
+            }
+        },
+        {
+            question: {
+                en: "What is variable trumpet length technology?",
+                es: "¿Qué es la tecnología de longitud variable de trompeta?",
+                de: "Was ist variable Saugrohr-Längen-Technologie?",
+                nl: "Wat is variabele trompetlengte technologie?"
+            },
+            options: ["Exhaust tuning", "Intake runners that change length for optimal resonance at different RPM", "Turbo adjustment", "Fuel system"],
+            correct: 1,
+            explanation: {
+                en: "Variable trumpet length adjusts intake runner length to optimize acoustic resonance and charging efficiency across RPM range.",
+                es: "La longitud variable de trompeta ajusta longitud de conductos de admisión para optimizar resonancia acústica en rango de RPM.",
+                de: "Variable Saugrohr-Länge passt Ansaugkanallänge an um akustische Resonanz über Drehzahlbereich zu optimieren.",
+                nl: "Variabele trompetlengte past inlaatkanalenlengte aan om akoestische resonantie en laadefficiëntie over RPM-bereik te optimaliseren."
+            }
+        },
+        {
+            question: {
+                en: "How does exhaust energy recovery work with MGU-H?",
+                es: "¿Cómo funciona la recuperación de energía de escape con MGU-H?",
+                de: "Wie funktioniert Abgasenergie-Rückgewinnung mit MGU-H?",
+                nl: "Hoe werkt uitlaatgas energie terugwinning met MGU-H?"
+            },
+            options: ["Captures heat only", "Converts turbine shaft rotation to electrical energy", "Compresses exhaust", "Redirects exhaust"],
+            correct: 1,
+            explanation: {
+                en: "MGU-H connects to the turbo shaft between compressor and turbine, converting rotational energy to electricity.",
+                es: "MGU-H se conecta al eje del turbo entre compresor y turbina, convirtiendo energía rotacional en electricidad.",
+                de: "MGU-H verbindet sich mit Turbowelle zwischen Kompressor und Turbine und wandelt Rotationsenergie in Strom um.",
+                nl: "MGU-H verbindt met de turboas tussen compressor en turbine, wat rotatie-energie omzet in elektriciteit."
+            }
+        },
+        {
+            question: {
+                en: "What is the purpose of the wastegate in F1 turbo systems?",
+                es: "¿Cuál es el propósito de la wastegate en sistemas turbo de F1?",
+                de: "Was ist der Zweck des Wastegate in F1-Turbosystemen?",
+                nl: "Wat is het doel van de wastegate in F1 turbosystemen?"
+            },
+            options: ["Waste disposal", "Control boost pressure by bypassing exhaust around turbine", "Cool the turbo", "Reduce noise"],
+            correct: 1,
+            explanation: {
+                en: "The wastegate controls boost pressure by allowing exhaust to bypass the turbine when maximum boost is reached.",
+                es: "La wastegate controla presión de turbo permitiendo que escape pase por alto la turbina cuando se alcanza turbo máximo.",
+                de: "Das Wastegate kontrolliert Ladedruck indem es Abgas an der Turbine vorbei leitet wenn maximaler Ladedruck erreicht ist.",
+                nl: "De wastegate regelt turbodruk door uitlaatgas langs de turbine te laten gaan wanneer maximale boost is bereikt."
+            }
+        },
+        {
+            question: {
+                en: "What is knock detection and prevention in F1 engines?",
+                es: "¿Qué es la detección y prevención de detonación en motores de F1?",
+                de: "Was ist Klopferkennung und -vermeidung in F1-Motoren?",
+                nl: "Wat is klopdetectie en -preventie in F1-motoren?"
+            },
+            options: ["Structural monitoring", "Detecting abnormal combustion and adjusting timing/mixture to prevent damage", "Vibration damping", "Noise reduction"],
+            correct: 1,
+            explanation: {
+                en: "Advanced sensors detect combustion knock, triggering immediate adjustments to ignition timing and fuel mixture to prevent engine damage.",
+                es: "Sensores avanzados detectan detonación, activando ajustes inmediatos de tiempo de ignición y mezcla para prevenir daño.",
+                de: "Fortschrittliche Sensoren erkennen Klopfen und lösen sofortige Anpassungen von Zündzeitpunkt und Gemisch aus.",
+                nl: "Geavanceerde sensoren detecteren verbrandingsklop, wat directe aanpassingen van ontstekingstiming en brandstofmengsel triggert om motorschade te voorkomen."
+            }
+        },
+        {
+            question: {
+                en: "What is the purpose of 'porpoising' countermeasures introduced in modern ground effect cars?",
+                es: "¿Cuál es el propósito de las contramedidas contra el 'porpoising' introducidas en autos modernos de efecto suelo?",
+                de: "Was ist der Zweck von 'Porpoising'-Gegenmaßnahmen in modernen Bodeneffekt-Autos?",
+                nl: "Wat is het doel van 'porpoising' tegenmaatregelen geïntroduceerd in moderne grondeffect auto's?"
+            },
+            options: [
+                { en: "Prevent bouncing oscillations caused by ground effect floors stalling and reattaching", es: "Prevenir oscilaciones de rebote causadas por pisos de efecto suelo que se detienen y vuelven a adherirse", de: "Verhinderung von Sprungoszillationen durch Bodeneffekt-Böden die abreißen und wieder ansetzen", nl: "Voorkomen van stuiterende oscillaties veroorzaakt door grondeffect vloeren die stallen en opnieuw hechten" },
+                { en: "Improve straight-line speed", es: "Mejorar velocidad en recta", de: "Verbesserung der Geraden-Geschwindigkeit", nl: "Verbeteren van rechte lijn snelheid" },
+                { en: "Reduce tire wear", es: "Reducir desgaste de neumáticos", de: "Reduzierung des Reifenverschleißes", nl: "Verminderen van band slijtage" },
+                { en: "Increase fuel efficiency", es: "Aumentar eficiencia de combustible", de: "Erhöhung der Kraftstoffeffizienz", nl: "Verhogen van brandstof efficiëntie" }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Porpoising is a bouncing phenomenon where ground effect floors alternately stall (losing downforce, car rises) and reattach (gaining downforce, car drops) creating violent oscillations. Teams use flexible floors, ride height sensors, and suspension adjustments to minimize this effect introduced with 2022 regulations.",
+                es: "Porpoising es fenómeno de rebote donde pisos de efecto suelo alternativamente se detienen (perdiendo carga, auto sube) y se vuelven a adherir (ganando carga, auto baja) creando oscilaciones violentas. Equipos usan pisos flexibles, sensores de altura y ajustes de suspensión para minimizar este efecto introducido con regulaciones 2022.",
+                de: "Porpoising ist ein Sprungphänomen wo Bodeneffekt-Böden abwechselnd abreißen (Abtriebsverlust, Auto steigt) und wieder ansetzen (Abtriebsgewinn, Auto fällt) und gewaltsame Oszillationen erzeugen. Teams nutzen flexible Böden, Fahrhöhen-Sensoren und Fahrwerks-Anpassungen um diesen Effekt der 2022-Regulierung zu minimieren.",
+                nl: "Porpoising is een stuiterfenomeen waar grondeffect vloeren afwisselend stallen (neerwaartse druk verliezend, auto stijgt) en opnieuw hechten (neerwaartse druk winnend, auto daalt) wat gewelddadige oscillaties creëert. Teams gebruiken flexibele vloeren, rijhoogte sensoren en ophanging aanpassingen om dit effect geïntroduceerd met 2022 regels te minimaliseren."
+            }
         }
     ];
 

@@ -1249,27 +1249,6 @@
     },
     {
       question: {
-        en: "What is 'anti-bingo' defensive technique?",
-        es: "¿Qué es técnica defensiva 'anti-bingo'?",
-        de: "Was ist 'Anti-Bingo'-Defensiv-Technik?",
-        nl: "Wat is 'anti-bingo' defensieve techniek?"
-      },
-      options: [
-        {en: "Challenging all 7-letter words", es: "Desafiar todas las palabras de 7 letras", de: "Alle 7-Buchstaben-Wörter herausfordern", nl: "Alle 7-letter woorden uitdagen"},
-        {en: "Systematically blocking bingo lanes and premium square access", es: "Bloquear sistemáticamente carriles de bingo y acceso a cuadrados premium", de: "Systematisch Bingo-Bahnen und Premium-Feld-Zugang blockieren", nl: "Systematisch bingo banen en premium vak toegang blokkeren"},
-        {en: "Never playing bingos yourself", es: "Nunca jugar bingos tú mismo", de: "Niemals selbst Bingos spielen", nl: "Nooit zelf bingo's spelen"},
-        {en: "Using anti-bingo tiles only", es: "Usar solo fichas anti-bingo", de: "Nur Anti-Bingo-Steine verwenden", nl: "Alleen anti-bingo stenen gebruiken"}
-      ],
-      correct: 1,
-      explanation: {
-        en: "Anti-bingo play closes all 7+ letter lanes by strategic blocking, typically when leading and opponent needs bingos to catch up, sacrificing point opportunities for defensive security.",
-        es: "El juego anti-bingo cierra todos los carriles de 7+ letras mediante bloqueo estratégico, típicamente cuando vas adelante y el oponente necesita bingos para alcanzar, sacrificando oportunidades de puntos por seguridad defensiva.",
-        de: "Anti-Bingo-Spiel schließt alle 7+-Buchstaben-Bahnen durch strategisches Blockieren, typischerweise wenn führend und Gegner Bingos zum Aufholen braucht, Punkt-Möglichkeiten für defensive Sicherheit opfernd.",
-        nl: "Anti-bingo spel sluit alle 7+ letter banen door strategisch blokkeren, typisch wanneer voorliggend en tegenstander bingo's nodig heeft om in te halen, punten kansen opofferend voor defensieve veiligheid."
-      }
-    },
-    {
-      question: {
         en: "What is 'out-in-two' calculation?",
         es: "¿Qué es cálculo 'fuera-en-dos'?",
         de: "Was ist 'Raus-in-Zwei'-Berechnung?",
